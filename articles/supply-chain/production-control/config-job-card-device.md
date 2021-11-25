@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: 259ed49b9bdfb70ea357a7d20ea7ae8b141978cd
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.openlocfilehash: 0382e34664f20389c43e8dec4437f0078fa1f60a
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7576957"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7777745"
 ---
 # <a name="configure-job-card-for-devices"></a>Konfigūruoti įrenginių užduoties kortelę
 
@@ -34,19 +34,19 @@ Norėdami naudoti kai kuriuos šioje temoje aprašytus parametrus, juos turite �
 
 Norėdami naudoti šią funkciją, įjunkite toliau išvardytas funkcijas puslapyje [funkcijų valdymas](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) (nurodyta tvarka):
 
-1. Užbaigtos ataskaitos numerio lentelė įtraukta į užduoties kortelės įrenginį
+1. Numerio lentelė, skirta skelbimui, kad baigta, įtraukta į užduoties kortelės įrenginį (kaip tiekimo grandinės valdymo versija 10.0.21, ši funkcija įjungta pagal numatytuosius nustatymus).
 1. Įgalinkite automatinį numerio lentelės numerio generavimą, kai Užduoties kortelės įrenginyje pranešama apie pabaigimą
 
 ### <a name="print-label"></a>Spausdinti žymą
 
 Norėdami naudoti šią funkciją, įjunkite toliau išvardytas funkcijas puslapyje [funkcijų valdymas](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) (nurodyta tvarka):
 
-1. Užbaigtos ataskaitos numerio lentelė įtraukta į užduoties kortelės įrenginį
+1. Numerio lentelė, skirta skelbimui, kad baigta, įtraukta į užduoties kortelės įrenginį (kaip tiekimo grandinės valdymo versija 10.0.21, ši funkcija įjungta pagal numatytuosius nustatymus.)
 1. Spausdinti etiketę iš užduoties kortelės įrenginio
 
 ### <a name="allow-locking-of-touch-screen"></a>Leisti užrakinti jutiklinį ekraną
 
-Norėdami naudoti šią funkciją, įjunkite toliau nurodytą funkciją puslapyje [funkcijų valdymas](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
+Kaip tiekimo grandinės valdymo versija 10.0.21, ši funkcija yra įjungta pagal numatytuosius nustatymus. Jei norite jį naudoti, įsitikinkite, kad funkcijų valdymo metu įjungta [ši](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) funkcija:
 
 - Funkcija skirta užrakinti darbo kortelės prietaisą ir darbo kortelės terminalą jų valymui
 

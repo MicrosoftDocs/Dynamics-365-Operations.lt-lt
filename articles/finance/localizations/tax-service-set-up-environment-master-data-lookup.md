@@ -1,8 +1,8 @@
 ---
-title: Bendrųjų duomenų peržvalgos aplinkos nustatymas
-description: Šioje temoje paaiškinama, kaip nustatyti aplinką, kad būtų galima naudoti Mokesčių skaičiavimo bendrųjų duomenų peržvalgos funkciją.
+title: Įgalinti mokesčių skaičiavimo konfigūracijos pagrindinių duomenų peržvalgą
+description: Šioje temoje paaiškinama, kaip nustatyti ir įgalinti mokesčių skaičiavimo pagrindinių duomenų peržvalgos funkciją.
 author: kai-cloud
-ms.date: 10/26/2021
+ms.date: 11/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: pashao
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 901f8bcb0220355866952b68e92bc2dd906bb430
-ms.sourcegitcommit: 2113678369f47944f8725ca656f461fa159f87f6
-ms.translationtype: HT
+ms.openlocfilehash: dafeac01aaff62cbbd5ce6ecb0af0ef111f513b2
+ms.sourcegitcommit: 76fe020f9c5f4e5cc2e93f5ccb3b040f12b0363e
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/27/2021
-ms.locfileid: "7700409"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "7749515"
 ---
-# <a name="set-up-an-environment-for-master-data-lookup"></a>Bendrųjų duomenų peržvalgos aplinkos nustatymas
+# <a name="enable-master-data-lookup-for-tax-calculation-configuration"></a>Įgalinti mokesčių skaičiavimo konfigūracijos pagrindinių duomenų peržvalgą 
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje paaiškinama, kaip nustatyti aplinką, kad būtų galima naudoti Mokesčių skaičiavimo bendrųjų duomenų peržvalgos funkciją.
+Šioje temoje paaiškinama, kaip nustatyti ir įgalinti mokesčių skaičiavimo pagrindinių duomenų peržvalgos funkciją. Išplečiamajame sąraše galima pasirinkti vertes mokesčių skaičiavimo konfigūracijoje tokiems laukams kaip Tiekėjo **·** sąskaita, **Prekės kodas ir** Pristatymo **terminas**. Šios vertės yra iš susijusios Microsoft Dynamics 365 Finance aplinkos naudojant Microsoft Dataverse duomenų šaltinį.
 
 1. Nustatykite Microsoft Power Platform integravimą į Microsoft Dynamics Lifecycle Services (LCS). Daugiau informacijos rasite [„Microsoft Power Platform” integravimas – Priedų apžvalga](../../fin-ops-core/dev-itpro/power-platform/add-ins-overview.md). Atlikus šį veiksmą, Microsoft Power Platform aplinkos pavadinimas bus rodomas **Power Platform integravimo** skyriuje.
 2. Eikite į [Microsoft Power Platform administravimo centrą](https://admin.powerplatform.microsoft.com/environments) ir pasirinkite aplinkos pavadinimą. Pateikiamas aplinkos URL.
@@ -66,16 +66,16 @@ ms.locfileid: "7700409"
 
 9. Pasirinkite **Tikrinti ryšį** ir užbaikite ryšio procesą. 
 
-    [![Mygtukas Tikrinti ryšį.](./media/tax-service-setup-environment-for-mater-date-pic1.png)](./media/tax-service-setup-environment-for-mater-date-pic1.png)
+    [![ Mygtukas Tikrinti ryšį.](./media/tax-service-setup-environment-for-mater-date-pic1.png)](./media/tax-service-setup-environment-for-mater-date-pic1.png)
 
 10. Eikite į **Elektroninės ataskaitos** > **Mokesčių konfigūracijos** ir importuokite mokesčių konfigūracijas iš [Mokesčių konfigūracijų](https://go.microsoft.com/fwlink/?linkid=2158352).
 
-    [![Mokesčių konfigūracijų puslapis, Mokesčių duomenų modelio medis.](./media/tax-service-setup-environment-for-mater-date-pic2.png)](./media/tax-service-setup-environment-for-mater-date-pic2.png)
+    [![ Mokesčių konfigūracijų puslapis, Mokesčių duomenų modelio medis.](./media/tax-service-setup-environment-for-mater-date-pic2.png)](./media/tax-service-setup-environment-for-mater-date-pic2.png)
 
 11. Eikite į **Apmokestinto dokumento modelio susiejimas** arba **„Dataverse” modelio susiejimas**, jeigu naudojate „Microsoft” konfigūraciją ir lauke **Prijungta programa** pasirinkite įrašą, kurį sukūrėte 7 veiksme.
 12. Nustatykite **Numatytasis modelių susiejimui** į **Taip**.
 
-    [![Modelio susiejimo puslapis.](./media/tax-service-setup-environment-for-mater-date-pic3.png)](./media/tax-service-setup-environment-for-mater-date-pic3.png)
+    [![ Modelio susiejimo puslapis.](./media/tax-service-setup-environment-for-mater-date-pic3.png)](./media/tax-service-setup-environment-for-mater-date-pic3.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

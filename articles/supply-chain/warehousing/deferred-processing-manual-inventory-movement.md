@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: Mirzaab
 ms.search.validFrom: 2021-04-27
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: a15c913c876e961c6824c1e8812ab2be2d6ffa4333cd0d4e6f80cae8bac79394
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: f5c9ba7079895feeb0c171f2021479587aa13cc9
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6746752"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7777671"
 ---
 # <a name="deferred-processing-of-manual-inventory-movement"></a>Atidėtas atsargų perkėlimo neautomatinis apdorojimas
 
@@ -32,7 +32,7 @@ Fono apdorojimas pasiektas naudojant funkciją Apdoroti [sandėlio programos](wa
 
 Norėdami naudoti šią funkciją, įjunkite toliau nurodytą funkcijas [funkcijų valdyme](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md). Turite įjungti juos šia tvarka:
 
-1. Darbo blokavimas organizacijos mastu
+1. Visos organizacijos darbo blokavimas (kaip tiekimo grandinės valdymo versija 10.0.21, ši funkcija yra privaloma, todėl ji įjungta pagal numatytuosius nustatymus ir jos negalima išjungti dar kartą.)
 1. Apdoroti sandėlio programos įvykius
 1. Atidėtos padėjimo operacijos
 1. Atidėtas rankinio atsargų perkėlimo operacijos apdorojimas

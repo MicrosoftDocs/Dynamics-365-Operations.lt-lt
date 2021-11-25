@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 3a932e4443521d67edb5c08c2d8eb563c6feb555
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.openlocfilehash: f37d161bf3d27e15eaaf1230c05270f3769f9901
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7568284"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778286"
 ---
 # <a name="work-line-details"></a>Darbo eilutės informacija
 
@@ -28,9 +28,9 @@ Puslapis **Darbo eilutės informacija** pateikia išsamų, rūšiuojamą ir filt
 
 ## <a name="turn-on-the-work-line-details-feature"></a>Darbo eilutės informacijos funkcijos įjungimas
 
-Kad galėtumėte naudoti šią funkciją, ji turi būti įjungta jūsų sistemoje. Administratoriai gali naudoti [funkcijų valdymo](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) parametrus, kad patikrintų funkcijos būseną ir įjungtų ją, kai reikia. Darbo srityje **Funkcijų valdymas** ši funkcija yra nurodyta toliau pateikiamu būdu.
+Kaip tiekimo grandinės valdymo versija 10.0.21, ši funkcija yra įjungta pagal numatytuosius nustatymus. Administratoriai gali naudoti [funkcijų valdymo](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) puslapį, kad patikrintų funkcijos būseną ir prireikus ją įjungtų arba išjungtų. Čia funkcija yra nurodyta kaip:
 
-- **Modulis:** *sandėlio valdymas*
+- **Modulis:** *Warehouse management*
 - **Funkcijos pavadinimas:** *Darbo eilutės informacija*
 
 ## <a name="open-and-use-the-work-line-details-page"></a>Darbo eilutės informacijos puslapio atidarymas ir naudojimas

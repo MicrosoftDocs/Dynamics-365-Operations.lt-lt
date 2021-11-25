@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: v-savanh
 ms.search.validFrom: 2020-11-01
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 024bbaad45f320b8c82b20a52ced05322371e337
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.openlocfilehash: 9ad7f116f979d571a5e34eee67beb7218a271522
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7575392"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7777626"
 ---
 # <a name="vendor-collaboration-with-customers"></a>Tiekėjo bendradarbiavimas su klientais
 
@@ -102,7 +102,7 @@ Atidarykite darbo sritį **Tiekėjų kainos siūlymas**, norėdami pasiekti toli
 
     Jei buvote pakviesti siūlyti kainą, galite rasti tą patį RFQ puslapyje **Nauji kvietimai siūlyti kainą**. Galbūt kartais norėsite siūlyti kainą už atvirą RFQ, kai nesate pakviesti siūlyti kainos. Tokiu atveju galėsite patys pakviesti save, jei klientas įjungė RFQ atvejo savęs pakvietimo funkciją.
 
-    Pagerinkite prieigą **Atidaryti paviešintus užsakymus kainoms** nuorodą įjungdami **Rodyti „Atverkite paviešintus prašymus kainoms" nuorodą kaip plytą** funkciją. Ši funkcija paverčia nuorodą į plytą ir perkelia ją į tinkamą vietą tam, kad ją būtų paprasta surasti.
+    Pagerinkite prieigą **Atidaryti paviešintus užsakymus kainoms** nuorodą įjungdami **Rodyti „Atverkite paviešintus prašymus kainoms" nuorodą kaip plytą** funkciją. Ši funkcija paverčia nuorodą į plytą ir perkelia ją į tinkamą vietą tam, kad ją būtų paprasta surasti. (Kaip tiekimo grandinės valdymo versija 10.0.21, ši funkcija yra įjungta pagal numatytuosius nustatymus.)
 
 - Pasirinkite nuorodą **Uždaryti paskelbti pasiūlymų patvirtinimai**, kad pamatytumėte uždarytų RFQ, kurie yra viešai pasiekiami, sąrašą. Uždarytas RFQ yra nebegaliojantis RFQ. RFQ antraštėje galite peržiūrėti galiojimo pabaigos datą ir laiką.
 

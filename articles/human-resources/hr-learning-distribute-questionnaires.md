@@ -1,8 +1,8 @@
 ---
-title: Klausimynų platinimas ir planavimas
-description: Šiame straipsnyje paaiškinama, kaip platinti savo sukurtus klausimynus, kad jie būtų prieinami asmeniui ar grupei žmonių, kurie juos pildys.
-author: andreabichsel
-ms.date: 04/04/2017
+title: Klausimynų planavimas ir platinimas
+description: Šioje temoje paaiškinama, kaip platinti savo sukurtus klausimynus, kad jie būtų prieinami asmeniui ar grupei žmonių, kurie juos pildys.
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,25 +12,25 @@ ms.search.scope: Human Resources
 ms.custom: 17424
 ms.assetid: fd8d867a-2446-400a-b91f-ad4085427470
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 60354a3e7fed5403321d5ec4440cece84b13233bef80fcd5c5f61d72e5e3aa85
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: a13f699c8c0951b32f7826e8cfe8d7dcf02a7f55
+ms.sourcegitcommit: e91a1797192fd9bc4048b445bb5c1ad5d333d87d
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6755520"
+ms.lasthandoff: 11/01/2021
+ms.locfileid: "7729008"
 ---
-# <a name="distribute-and-schedule-questionnaires"></a>Klausimynų platinimas ir planavimas
+# <a name="distribute-and-schedule-questionnaires"></a>Klausimynų planavimas ir platinimas
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Šiame straipsnyje paaiškinama, kaip platinti savo sukurtus klausimynus, kad jie būtų prieinami asmeniui ar grupei žmonių, kurie juos pildys. 
+Šioje temoje paaiškinama, kaip platinti savo sukurtus klausimynus, kad jie būtų prieinami asmeniui ar grupei žmonių, kurie juos pildys. 
 
 Platinti klausimyną galima keliais būdais.
 
--   Klausimyną pažymėkite kaip aktyvų. Tada klausimynas prieinamas visiems darbuotojams, nebent nustatyta klausimyno grupė, prie jo ribojanti prieigą.
+-   Pažymėti klausimyną kaip **Aktyvus**. Tada klausimynas prieinamas visiems darbuotojams, nebent nustatyta klausimyno grupė, prie jo ribojanti prieigą.
 -   Priskirkite klausimyno grupės teises. Tada klausimynas prieinamas visiems pasirinktos grupės nariams.
 -   Kurkite suplanuotus atsakymų seansus. Tada klausimynas pasiekiamas tik tam tikram asmeniui.
 -   Sukurkite grafiką. Tada klausimynas gali būti prieinamas keliems žmonėms.
@@ -108,10 +108,10 @@ Jei naudojate suplanuotą atsakymų seansą, asmenį turite informuoti tiesiogia
 
 ### <a name="notifying-respondents-about-a-scheduling"></a>Respondentų informavimas apie planavimą
 
-Naudodami puslapį **Klausimyno grafikai**, paruoškite ir nusiųskite el. laišką visiems respondentams, kurie priskirti klausimynui. El. laiško tekstą įveskite skirtuke **Darbuotojų savitarnos el. paštas**. Kai grafikas pradėtas, spustelėkite **Funkcijos** &gt; **Siųsti el. laišką**, kad generuotumėte ir visiems respondentams nusiųstumėte el. laišką. Tada respondentai gali prisijungti prie svetainės ir pildyti klausimyną. 
+Naudodami puslapį **Klausimyno grafikai**, paruoškite ir nusiųskite el. laišką visiems respondentams, kurie priskirti klausimynui. Įveskite darbuotojų savitarnos skirtuko **el. laiško** tekstą. Kai grafikas pradėtas, spustelėkite Funkcijos siųsti el. laišką, kad sugeneruotumėte ir išsiųskite **·** &gt; **·** el. laišką respondentams. Tada respondentai gali prisijungti prie svetainės ir pildyti klausimyną. 
 
 > [!NOTE]
-> Kad galėtumėte naudoti el. pašto funkcijas, puslapyje **El. pašto parametrai** jūsų IT administratorius turi įvesti el. pašto nuostatas.
+> Kad būtų galima naudoti el. pašto funkciją, jūsų IT administratorius turi įvesti el. pašto parametrus el. pašto **parametrų** puslapyje.
 
 ## <a name="ending-a-scheduled-questionnaire"></a>Suplanuoto klausimyno baigimas
 

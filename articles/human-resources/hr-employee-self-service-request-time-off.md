@@ -1,8 +1,8 @@
 ---
 title: Atostogų užklausa
 description: Atostogų užklausa programoje „Dynamics 365 Human Resources“.
-author: andreabichsel
-ms.date: 07/16/2021
+author: twheeloc
+ms.date: 11/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f8fead1105412e5fe967a19632e1875058f4026c722140eaed056c5412c6558f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 6e12ac21e80c46f5cb5f231aadab7272fc279194
+ms.sourcegitcommit: 7e0e2a266d9a9473df72e207554d9bd150e17ce3
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6756105"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7771417"
 ---
 # <a name="request-time-off"></a>Atostogų užklausa
 
@@ -42,11 +42,11 @@ Galite pateikti atostogų užklausą, peržiūrėti atostogų ir neatvykimų bal
 
 6. Kai būsite pasirengę pateikti užklausą, pasirinkite **Pateikti**. Arba pasirinkite **Įrašyti juodraštį**.
 
-Darbuotojai, kurie pateikia naują atostogų užklausą, gali pasirinkti skirtingus atostogų tipus, sudarančius jų atostogų užklausą. Tačiau visi atostogų tipai, pasirinkti kaip vienos atostogų užklausos dalis, turi turėti tą patį atostogų vienetą. Darbuotojai gali peržiūrėti kiekvieno atostogų tipo atostogų vienetą **Prašyti išleidimo iš darbo** formoje.
+Darbuotojai, kurie pateikia naują atostogų užklausą, gali pasirinkti skirtingus atostogų tipus, sudarančius jų atostogų užklausą. Tačiau visi atostogų tipai, pasirinkti kaip vienos atostogų užklausos dalis, turi turėti tą patį atostogų vienetą. Puslapyje Prašymo laiko išjungimas darbuotojai gali peržiūrėti kiekvieno **atostogų tipo atostogų** vienetą.
 
 ## <a name="add-an-attachment-to-an-existing-request"></a>Priedo įtraukimas į esamą užklausą
 
-Atnaujindami esamą laiką išleidimo iš darbo užklausos, galite pridėti priedą. Taip pat galite matyti visas su konkrečia data susijusias užklausas.
+Atnaujindami esamą laiką išleidimo iš darbo užklausos, galite pridėti priedą. Taip pat galite peržiūrėti visas susijusias tam tikros datos užklausas.
 
 ## <a name="view-leave-balances"></a>Peržiūrėti atostogų balansus
 
@@ -58,13 +58,13 @@ Atnaujindami esamą laiką išleidimo iš darbo užklausos, galite pridėti prie
 
 1. Darbo srityje **Darbuotojo savitarna** plytelėje **Atostogų balansai** pasirinkite **Daugiau** (...).
 
-2. Norėdami peržiūrėti savo patvirtintas atostogų užklausas, pasirinkite **Patvirtintos atostogos**. Norėdami peržiūrėti savo laukiančias atostogų užklausas, pasirinkite **Atostogų užklausos**.
+2. Norėdami peržiūrėti patvirtintas išjungties užklausas, pasirinkite **Patvirtintas laikas**. Norėdami peržiūrėti laukiančias laiko užklausas, pasirinkite **Išjungti užklausas**.
 
-## <a name="cancel-time-off-requests"></a>Laisvo laiko prašymų atšaukimas
+## <a name="cancel-time-off-requests"></a>Atšaukti prašymų dėl laiko nurašyti
 
 1. Darbo srityje **Darbuotojo savitarna** plytelėje **Atostogų balansai** pasirinkite **Laisvo laiko užklausa**.
 
-2. Formoje **Laisvo laiko** išjungimas pasirinkite vieną ar daugiau atšaukti prašymas dėl laiko.
+2. Laiko **išjungimo** puslapyje pasirinkite vieną ar daugiau atšaukti prašymas nutraukti.
 
 3. Paspauskite mygtuką **Atšaukti**.
 

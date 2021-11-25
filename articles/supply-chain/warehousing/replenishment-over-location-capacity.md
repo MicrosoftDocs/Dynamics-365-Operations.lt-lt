@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 78bea4ee2429323a6e087c6433a8e496b08f4cea
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.openlocfilehash: 6ff9f133010ec4370a99c585259aece4e279f801
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7576117"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778212"
 ---
 # <a name="replenishment-over-location-capacity"></a>Papildymas pagal vietos erdvę
 
@@ -32,7 +32,7 @@ Kai kurie didelės apimties ar erdvėje apriboti sandėliai privalo išsiųsti d
 
 Tam, kad šioje temoje aprašyta funkcija būtų prieinama jūsų sistemoje, įjunkite tolesnes funkcijas [Funkcijų valdyme](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)(tokia tvarka):
 
-1. Darbo blokavimas organizacijos mastu
+1. Visos organizacijos darbo blokavimas (kaip tiekimo grandinės valdymo versija 10.0.21, ši funkcija yra privaloma, todėl ji įjungta pagal numatytuosius nustatymus ir jos negalima išjungti dar kartą.)
 1. Papildymas pagal vietos erdvę
 
 ## <a name="set-up-the-feature-for-the-example-scenario"></a>Nustatykite funkciją pavyzdiniam scenarijui
@@ -252,7 +252,7 @@ Tam, kad rastumėte vėliau jums reikalingų licencijos numerių ID, atlikite š
 
 1. Pasirinkite **Taikyti**.
 1. Veiksmų juostoje, pasirinkite **Dimensijos**.
-1. **Dimensijos rodymo** teksto laukelyje,**Saugojimo dimensijos** skyriuje pasirinkite visas vertes.
+1. **Dimensijos rodymo** teksto laukelyje, **Saugojimo dimensijos** skyriuje pasirinkite visas vertes.
 1. **Perlaidos** skyriuje pasirinkite **Elemento numerį** ir **Kiekį \<\> 0**.
 1. Kai pabaigsite pasirinkite **Gerai** tam, kad uždarytumėte teksto laukelį.
 1. **Turimas** tinklelis rodo licencijos numerio numerius elementui *T0100* kiekvienoje vietoje. Atkreipkite dėmesį į licencijos numerį esantį kiekvienoje vietoje, nes jums šios informacijos reikės vėliau.

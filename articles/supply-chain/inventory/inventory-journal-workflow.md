@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2020-07-21
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 7d1bd846dae767b47280310fc8d9ca5ee82337ad
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.openlocfilehash: fd73c515c653de9160301e069fb25d995db40741
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7568860"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778310"
 ---
 # <a name="inventory-journal-approval-workflows"></a>Atsargų žurnalų patvirtinimo darbo eigos
 
@@ -31,7 +31,7 @@ ms.locfileid: "7568860"
 
 ## <a name="turn-on-the-inventory-journal-approval-workflows-feature"></a>Atsargų žurnalų patvirtinimo darbo eigos funkcijos įjungimas
 
-Kad galėtumėte naudoti šią funkciją, ji turi būti įjungta jūsų sistemoje. Administratoriai gali naudoti [funkcijos valdymas](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) parametrus, norėdami sužinoti funkcijos būseną ir įjungti ją. Darbo srityje **Funkcijų valdymas** ši funkcija yra nurodyta toliau pateikiamu būdu.
+Kaip tiekimo grandinės valdymo versija 10.0.21, ši funkcija yra įjungta pagal numatytuosius nustatymus. Administratoriai gali naudoti [funkcijų valdymo](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) puslapį, kad patikrintų funkcijos būseną ir prireikus ją įjungtų arba išjungtų. Čia funkcija yra nurodyta kaip:
 
 - **Modulis:** *Atsargų ir sandėlio valdymas*
 - **Funkcijos pavadinimas:** *Atsargų žurnalo patvirtinimo darbo eiga*
@@ -44,7 +44,7 @@ Darbo srautai palaiko versijos kontroliavimą ir kiekvienas darbo srautas turi I
 
 Siekiant sukurti savo atsargų žurnalo tvirtinimo darbo srautus:
 
-1. Eikite į **Atsargų valdymas \> Nustatymas\> Atsargų valdymo darbo srautai**.
+1. Eikite į **Atsargų valdymas \> Nustatymas \> Atsargų valdymo darbo srautai**.
 1. Veiksmų srityje pasirinkite **Nauja**.
 1. Pasirinkite atsargų žurnalo tipą, kuriam norite nustatyti darbo srautą:
     - **Atsargų žymės skaičiavimo žurnalas**
@@ -85,7 +85,7 @@ Po to, kai susiesite atsargų žurnalo pavadinimą su jį atitinkančiu atsargų
 1. Pasirinkite **Naujas**, kad sukurtumėte naują savo pasirinkto tipo žurnalą.
 1. **Atsargų žurnalo sukūrimo** teksto langas atsidaro. Užpildykite formas, kaip būtina ir tuomet pasirinkite **Gerai** žurnalo įrašymui.
 1. Pabaikite žurnalą, kaip būtina.
-1. Kai kuriate ar atidarote atsargų žurnalą su patvirtinimo darbo srautu susietu su juo,**Darbo srauto** mygtukas bus įjungtas veiksmų juostoje. Kai jūs esate pasiruošę pateikti žurnalą patvirtinimui, pasirinkite **Darbo srauto** mygtuką tam, kad atidarytumėte iškrentantį teksto laukelį ir tuomet pasirinkite **Pateikti**. Patvirtinimo užklausa tuomet nukreipiama atitinkamam patvirtintojui, kuris bus perspėjamas naudoti pranešimo metodą, sukonfigūruotą darbo srautui.
+1. Kai kuriate ar atidarote atsargų žurnalą su patvirtinimo darbo srautu susietu su juo, **Darbo srauto** mygtukas bus įjungtas veiksmų juostoje. Kai jūs esate pasiruošę pateikti žurnalą patvirtinimui, pasirinkite **Darbo srauto** mygtuką tam, kad atidarytumėte iškrentantį teksto laukelį ir tuomet pasirinkite **Pateikti**. Patvirtinimo užklausa tuomet nukreipiama atitinkamam patvirtintojui, kuris bus perspėjamas naudoti pranešimo metodą, sukonfigūruotą darbo srautui.
 
     ![Pateikti žurnalą tvirtinti.](media/journal-workflow-inventory-journal.png "Pateikti žurnalą tvirtinti")
 

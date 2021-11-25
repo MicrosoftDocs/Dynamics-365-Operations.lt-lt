@@ -2,7 +2,7 @@
 title: Grynųjų pinigų pozicija
 description: Šioje temoje aprašoma, kaip funkcija Grynųjų pinigų srautų prognozavimas prognozoja organizacijos grynųjų pinigų padėtį tam tikru laiku. Joje taip pat aprašomos galimos parinktys, naudojamos norint rodyti skirtingų laikotarpių prognozes.
 author: ShivamPandey-msft
-ms.date: 07/16/2021
+ms.date: 11/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,16 +15,17 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: e54caee1e7d703bb134593412bdad77b3af5ab38
-ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
-ms.translationtype: HT
+ms.openlocfilehash: bf99ce5c9de00061cba2f49d00cc9dbc728753a8
+ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7386319"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7752885"
 ---
 # <a name="cash-position"></a>Grynųjų pinigų pozicija
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Grynųjų pinigų padėtis yra grynųjų pinigų prognozė artimiausiam laikotarpiui. Ji paremta grynųjų pinigų gavimo iš klientų, kurie moka neapmokėtas SF ir užsakymus, prognoze bei numatomu grynųjų pinigų išmokėjimu, vykdomu tiekėjams už pirkimo SF ir užsakymus.
 
@@ -44,8 +45,5 @@ Apatinėje skirtuko **Grynųjų pinigų vieta** dalyje pateikiama išsami inform
 - Tinklelyje **Banko sąskaita** rodoma numatomų grynųjų pinigų įplaukų ir išmokų įtaka banko balansui.
 
 Norėdami įrašyti ir redaguoti grynųjų pinigų padėtį, sukurkite momentinę kopiją. Daugiau informacijos apie tai, kaip dirbti su momentinėmis kopijomis, žr. [Momentinių kopijų apžvalga](payment-snapshots.md).
-
-#### <a name="privacy-notice"></a>Privatumo pranešimas
-Peržiūros versijos (1) gali naudoti mažiau privatumo ir mažiau saugos priemonių nei „Dynamics 365 Finance and Operations“ paslauga, (2) jos nėra įtrauktos į aptarnavimo lygio sutartį (SLA), (3) jos neturėtų būti naudojamos apdoroti asmens duomenims ar kitiems duomenims, kuriems taikomi teisiniai ir atitikimo teisės aktai (4) ir jų palaikymas yra ribotas.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

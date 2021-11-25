@@ -1,7 +1,7 @@
 ---
 title: Išoriniai įrenginiai
 description: Šioje temoje pateikiama informacija apie sąvokas, susijusias su išoriniais įrenginiais, esančiais „Commerce“.
-author: rubencdelgado
+author: BrianShook
 ms.date: 02/06/2020
 ms.topic: article
 ms.prod: ''
@@ -14,15 +14,15 @@ ms.custom:
 - intro-internal
 ms.search.region: global
 ms.search.industry: Retail
-ms.author: rubendel
+ms.author: brshoo
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 7b240038a946a7f34a3c69df18329edbe1df6be0
-ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
-ms.translationtype: HT
+ms.openlocfilehash: dbf78eec6c1b25056342f9709f3b047a8bb822ff
+ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "7500308"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7779851"
 ---
 # <a name="peripherals"></a>Išorinis įrenginys
 
@@ -121,7 +121,7 @@ Norint užtikrinti, kad su „Commerce“ būtų naudojamas didžiausias prietai
 -   **Valdymo objektas** – įrenginio klasės (pvz., eilutės rodymas) valdymo objektas pateikia programinės įrangos programos sąsają. „Monroe Consulting Services“ ([www.monroecs.com](http://www.monroecs.com/)) pateikia standartizuotą OEKA valdymo objektų rinkinį, jie dar vadinami bendraisiais valdymo objektais (CCOs). CCO naudojami „Commerce“ EKA komponentui patikrinti. Todėl testavimas padeda užtikrinti, kad jei „Commerce“ palaiko įrenginių klasę per OPOS, galima palaikyti daugelį įrenginių tipų, su ta sąlyga, kad gamintojas pateikia paslaugų objektą, kuris yra sukurtas OPOS. Jūs neprivalote tiesiogiai patikrinti kiekvieno įrenginio tipo.
 -   **Aptarnavimo objektas** – aptarnavimo objektas tiekia ryšį tarp valdymo objekto (CCO) ir įrenginio. Įrenginio aptarnavimo objektą paprastai teikia įrenginio gamintojas. Tačiau kai kuriais atvejais gali tekti atsisiųsti paslaugų objektą iš gamintojo svetainės. Pavyzdžiui, galbūt bus galimas naujesnis aptarnavimo objektas. Gamintojo žiniatinklio svetainės adreso žr. aparatūros dokumentaciją.
 
-[![Valdymo objektas ir aptarnavimo objektas.](./media/retail_peripherals_overview01.png)](./media/retail_peripherals_overview01.png) OLE, skirto EKA, OEKA diegimo palaikymas padeda užtikrinti, kad jei įrenginio gamintojai ir EKA leidėjai standartą įdiegė tinkamai, EKA sistemos ir palaikymo įrenginiai gali veikti kartu, net jei prieš tai nebuvo patikrinta, kaip jie kartu veikia. 
+[![ Valdymo objektas ir aptarnavimo objektas.](./media/retail_peripherals_overview01.png)](./media/retail_peripherals_overview01.png) OLE, skirto EKA, OEKA diegimo palaikymas padeda užtikrinti, kad jei įrenginio gamintojai ir EKA leidėjai standartą įdiegė tinkamai, EKA sistemos ir palaikymo įrenginiai gali veikti kartu, net jei prieš tai nebuvo patikrinta, kaip jie kartu veikia. 
 
 > [!NOTE]
 > OEKA palaikymas neužtikrina visų įrenginių, turinčių OEKA tvarkykles, palaikymo. „Commerce“ pirmiausia turi palaikyti to įrenginio tipą ar klasę per OEKA. Be to, aptarnavimo objektai gali ne visada būti atnaujinti pagal naujausią CCO versiją. Dar turite žinoti, kad apskritai aptarnavimo objektų kokybė yra skirtinga.
@@ -150,7 +150,7 @@ Klavišinio kredito kortelių skaitytuvo įrenginiai siunčia duomenis į kompiu
 
 ### <a name="native-printer"></a>Vietinis spausdintuvas
 
-Vietinius (arba „Įrenginius“, nes tipas įvardintas aparatūros šablone) spausdintuvus galima sukonfigūruoti taip, kad paragintų vartotoją pasirinkti tą spausdintuvą, kuris sukonfigūruotas tam kompiuteriui. Jei sukonfigūruotas spausdintuvas, kurios tipas **Įrenginys** , kai „Modern POS“ aptinka spausdinimo komandą, vartotojas paraginamas iš sąrašo pasirinkti spausdintuvą. Šis veikimo būdas skiriasi nuo „Windows“ tvarkyklių veikimo būdo, nes **„Windows“** spausdintuvo tipas aparatūros šablone neparodo spausdintuvų sąrašo. Šiuo būdu reikalaujama, kad lauke **Įrenginio pavadinimas** būtų nurodytas įvardytas spausdintuvas.
+Vietinius (arba „Įrenginius“, nes tipas įvardintas aparatūros šablone) spausdintuvus galima sukonfigūruoti taip, kad paragintų vartotoją pasirinkti tą spausdintuvą, kuris sukonfigūruotas tam kompiuteriui. Jei sukonfigūruotas spausdintuvas, kurios tipas **Įrenginys**, kai „Modern POS“ aptinka spausdinimo komandą, vartotojas paraginamas iš sąrašo pasirinkti spausdintuvą. Šis veikimo būdas skiriasi nuo „Windows“ tvarkyklių veikimo būdo, nes **„Windows“** spausdintuvo tipas aparatūros šablone neparodo spausdintuvų sąrašo. Šiuo būdu reikalaujama, kad lauke **Įrenginio pavadinimas** būtų nurodytas įvardytas spausdintuvas.
 
 ### <a name="network"></a>Tinklas
 
@@ -207,8 +207,8 @@ Daugiau informacijos žr. [Programos „POS hybrid” nustatymas, skirtas „And
 
 Išsamesnės informacijos apie OEKA komponentus žr. šio dokumento skyrių „Palaikomos sąsajos". Paprastai OEKA tvarkykles pateikia įrenginio gamintojas. Kai įdiegiama OEKA įrenginio tvarkyklė, į „Windows“ registrą įtraukiamas raktas vienoje iš šių vietų:
 
--   **32 bitų sistemose:** HKEY\_LOCAL\_MACHINESOFTWAREOLEforRetailServiceOPOS
--   **64 bitų sistemose:** HKEY\_LOCAL\_MACHINESOFTWAREWOW6432NodeOLEforRetailServiceOPOS
+-   **32 bitų sistemose:** HKEY\_ LOCAL\_ MACHINESOFTWAREOLEforRetailServiceOPOS
+-   **64 bitų sistemose:** HKEY\_ LOCAL\_ MACHINESOFTWAREWOW6432NodeOLEforRetailServiceOPOS
 
 Registro vietoje „ServiceOPOS“ sukonfigūruoti įrenginiai išdėstomi pagal OEKA įrenginio klasę. Išsaugomos kelios įrenginių tvarkyklės.
 
@@ -578,7 +578,7 @@ Pagal numatytuosius parametrus išjungtos SSL ir visos TLS versijos, išskyrus T
     1.  Paspaudę „Windows“ logotipo klavišą + R atidarysite langą **Vykdyti**.
     2.  Lauke **Atidaryti** įveskite **„Regedit“**, tada spustelėkite **Gerai**.
     3.  Jei pasirodo pranešimų laukas **Vartotojo paskyros valdymo tarnyba**, spustelėkite **Taip**.
-    4.  Lange **Registro rengyklė** eikite į **HKEY\_LOCAL\_MACHINESystemCurrentControlSetSecurityProvidersSCHANNELProtocols**. Siekiant leisti tik TLS 1.2 versiją, šie raktai jau įvesti automatiškai:
+    4.  Lange **Registro rengyklė** eikite į **HKEY\_ LOCAL\_ MACHINESystemCurrentControlSetSecurityProvidersSCHANNELProtocols**. Siekiant leisti tik TLS 1.2 versiją, šie raktai jau įvesti automatiškai:
         -   TLS 1.2Server:Enabled=1
         -   TLS 1.2Server:DisabledByDefault=0
         -   TLS 1.2Client:Enabled=1
@@ -793,7 +793,7 @@ Toliau nurodyti išoriniai įrenginiai buvo išbandyti naudojant bendrinamą IIS
 **Sprendimas:** patikrinkite toliau pateikiamą galimų trikčių punktų sąrašą:
 
 -   Kompiuteris, kuris vykdo „Modern POS“, pasitiki tuo sertifikatu, kuris naudojamas aparatūros stotį vykdančiame kompiuteryje.
-    -   Norėdami patikrinti šią sąranką, žiniatinklio naršyklėje eikite į šį URL: https://&lt;Kompiuterio pavadinimas&gt;&lt;Prievado numeris&gt;/HardwareStation/ping.
+    -   Norėdami patikrinti šią sąranką, žiniatinklio naršyklėje eikite į šį URL: https://&lt; Kompiuterio pavadinimas&gt;&lt; Prievado numeris&gt;/HardwareStation/ping.
     -   Šiame URL naudojama ryšio užklausa, siekiant patikrinti, ar kompiuterį galima pasiekti, o naršyklė nurodo, ar sertifikatas patikimas. (Pvz., „Internet Explorer“ adreso juostoje pasirodo spynos piktograma. Spustelėjus šią piktogramą, „Internet Explorer“ patikrina, ar dabar naudojamas sertifikatas patikimas. Vietiniame kompiuteryje sertifikatą galite įdiegti peržiūrėję rodomo sertifikato informaciją.)
 -   Aparatūros stotį vykdančiame kompiuteryje prievadas, kuris bus naudojamas aparatūros stotyje, atidaromas užkardoje.
 -   Aparatūros stotis tinkamai įdiegė prekybininko sąskaitos informaciją naudojant įrankį Įdiegti prekybininko informaciją, kuris vykdomas aparatūros stoties diegimo programos pabaigoje.

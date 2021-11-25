@@ -1,7 +1,7 @@
 ---
 title: Sudengti likutį
 description: Galite sudengti iš sudengimo veiklos likusią sumą, taikydami ją DK sąskaitai.
-author: mikefalkner
+author: roschlom
 ms.date: 10/16/2018
 ms.topic: article
 ms.prod: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2018-12-01
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: 1eb82c1f5982b30052acb2cb7659f6c07f2a4da54b68f602a2afb4e499fbcc73
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 216c5c1d7db72e5f5071f2cd03656df538a64e72
+ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719793"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7754101"
 ---
 # <a name="settle-remainder"></a>Sudengti likutį
 
@@ -33,7 +33,7 @@ Prieš naudodami funkciją Sudengti likutį, turite ją įgalinti ir nustatyti n
 2)  Pasirinkite skirtuką **Sudengimas** ir spustelėkite **Įgalinti likučio sudengimą**
 3)  Lauke **Numatytasis priežasties kodas** pasirinkite numatytąjį priežasties kodą. Priežasčių kodai turi būti jau nustatyti **Gautinos sumos > Sąranka > Kliento nurašymo priežasčių kodai** arba **Mokėtinos sumos > Sąranka > Kliento nurašymo priežasčių kodai**. **Numatytoji likučio sudengimo sąskaita** bus numatytoji nurašymo priežasties kodui priskirta sąskaita.
 3)  Atnaujinti **Numatytoji likučio sudengimo sąskaita**, jei reikia.
-4)  Lauke **Numatytasis žurnalo pavadinimas** pasirinkite mokėjimų žurnalą, kurį naudosite norėdami sukurti mokėjimų žurnalą, kai tik sudengsite atidarytas operacijas. Jei įgalinsite likučio sudengimo funkciją, turėsite įtraukti numatytąjį žurnalo pavadinimą.
+4)  Lauke **Numatytasis žurnalo pavadinimas** pasirinkite mokėjimų žurnalą, kuris bus naudojamas, jei norite sukurti mokėjimų žurnalą, kai sudengsite tik atviras operacijas. Jei įgalinsite likučio sudengimo funkciją, turėsite įtraukti numatytąjį žurnalo pavadinimą.
 
 ## <a name="settle-remainder-from-a-journal"></a>Sudengti likutį iš žurnalo
 Jei neįgalinsite funkcijos **Sudengti likutį**, vis tiek galėsite įvesti operaciją žurnale, o tada sudengti operacijas pagal tai, kaip jau darėte anksčiau. Spustelėjus mygtuką **Gerai**, atviras sąskaitos faktūros balansas sumažinamas grynųjų pinigų suma. Jei grynieji pinigai nevisiškai sudengia sąskaitą faktūrą, ji paliekama atidaryta su likusia suma, kurią reikės sudengti vėliau.

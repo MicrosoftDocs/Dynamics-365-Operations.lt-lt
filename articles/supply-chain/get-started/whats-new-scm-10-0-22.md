@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: a4f9e5a4a318ceaa45b6919e394e1ff335bfb193
-ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
-ms.translationtype: HT
+ms.openlocfilehash: a795f88aed78582ad4a2faa90ab1c2529017850f
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/25/2021
-ms.locfileid: "7678840"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778162"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10022-november-2021"></a>Kas nauja ar pasikeitė „Dynamics 365 Supply Chain Management“ 10.0.22 (2021 m. lapkritis)
 
@@ -41,7 +41,6 @@ Toliau pateiktoje lentelėje pateikti funkcijos patobulinimai, įtraukti į šį
 
 | Modulis | Funkcijos pavadinimas funkcijos valdyme | Daugiau informacijos |
 |---|---|---|
-| Kaštų valdymas | Kurti susijusius standartinių išlaidų apvalinimo perkainojimo kvitus | <p>Kai atliekamas atsargų finansinis registravimas (pvz., pardavimo užsakymo SF arba atsargų operacija), dėl šios funkcijos sistema sukuria atskirą kvitą, susijusį su standartinių išlaidų apvalinimo perkainojimu ir prideda jį prie finansinio registravimo kvito kaip susijęs kvitas.</p><p>Be šios priemonės, sistema įrašo standartinius išlaidų apvalinimo perkainojimus tą patį kvito registravimą. Dėl tokio veikimo būdo kartais gali kilti nesuderinamos datos informacijos, nes perkainojimas naudoja seansą arba sistemos datą, o finansiniai registravimas naudoja registravimo datą.</p> |
 | Paskirstyta taip pat topologija | *(Funkcijos valdyti nereikia.)* | <p>Šis leidimas išplečia siuntimo krovinio planavimo galimybes sandėlio valdymo darbo krūviui debesies ir kraštų skalės vienetams.</p><p>Daugiau informacijos rasite [Sandėlio valdymo darbo krūviai debesies ir briaunos skalės vienetams](../cloud-edge/cloud-edge-workload-warehousing.md).</p> |
 | Inžinerinių pakeitimų valdymas | Inžinierinių produktų variantų generavimas | <p>Ši priemonė leidžia sugeneruoti kelis inžinerijos produkto variantus, pagrįstus jo spalva, dydžiu, stilius ar konfigūracijos dimensijomis.</p><p>Daugiau informacijos ieškokite gamybos [produktų variantų gener kuriuos galima generuoti](../engineering-change-management/engineering-variants.md).</p> |
 | Atsargų ir sandėlio valdymas | Inventoriaus matomumo integravimas su rezervavimo poslinkiu | <p>Šią funkciją galima įgalinti tik įjungus *atsargų matomumo integravimo* funkciją. Ji suteikia funkcijų, koresponduojanti rezervavimus, kurie atliekami atsargų matomumo metu.</p><p>Dėl daugiau informacijos, žr. [Inventoriaus matomumo rezervavimas](../inventory/inventory-visibility-reservations.md).</p> |

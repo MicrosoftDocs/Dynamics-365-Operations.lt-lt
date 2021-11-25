@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 503ba8ae95119f3ce9533f81cdd16c34cf3a9223
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.openlocfilehash: f0be79b54a279893f93d41981342e42c8880f059
+ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7574550"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7752837"
 ---
 # <a name="set-up-a-device-to-run-the-production-floor-execution-interface"></a>Įrenginio, skirto paleisti gamybos cecho vykdymo sąsają, nustatymas
 
@@ -28,9 +28,9 @@ Gamybos cecho vykdymo sąsaja nustatoma kiekviename įrenginyje, esančiame gamy
 
 ## <a name="set-the-configuration-and-filters-for-a-specific-device"></a>Konkretaus įrenginio konfigūracijos ir filtrų nustatymas
 
-Norėdami nustatyti įrenginio konfigūraciją ir užduočių filtrus, prisijunkite prie puslapio **Gamybos cecho vykdymas** naudodami abonementą, kuriame yra saugos vaidmuo, apimantis *prižiūrėtojo laiko priežiūros* pareigą. (Iš visų parengtų naudoti saugos vaidmenų šią pareigą turi tik *cecho prižiūrėtojas*.) Tada atlikite toliau pateiktus veiksmus.
+Norėdami nustatyti įrenginio konfigūravimo ir užduočių filtrus, prisiregistruokite gamybos laiko vykdymo puslapyje naudodami abonementą, turiį saugos vaidmenį, kuris apima **·** priežiūros laiko *·* priežiūrą. (Iš visų parengtų naudoti saugos vaidmenų šią pareigą turi tik *cecho prižiūrėtojas*.) Tada atlikite toliau pateiktus veiksmus.
 
-1. Eikite į įrenginį, kurį norite nustatyti, ir prisijunkite prie „Microsoft Dynamics 365 Supply Chain Management” kaip cecho prižiūrėtojas. (Naudokite abonementą, kuriame yra *prižiūrėtojo laiko priežiūros* pareiga.)
+1. Eikite į įrenginį, kurį norite nustatyti, ir prisijunkite prie „Microsoft Dynamics 365 Supply Chain Management” kaip cecho prižiūrėtojas. (Naudoti sąskaitą, kurioje yra *Prižiūrėti laiko priežiūros* pareigą.)
 1. Įsitikinkite, kad įrenginiui, kurį nustatote, konfigūracija yra galima. Jei nėra konfigūracijos, pateikiama numatytoji konfigūracija. Daugiau informacijos apie tai, kaip nustatyti konfigūraciją, žr. [Gamybos cecho vykdymo sąsajos konfigūravimas](production-floor-execution-configure.md).
 1. Eikite į **Gamybos kontrolė \> Gamybos vykdymas \> Gamybos cecho vykdymas**.
 

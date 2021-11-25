@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: ac6a9b4316fa260a86c124f86d04645625e9b808
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.openlocfilehash: 6923bd24fc8f9aad6e758603e3b20f7d5f2b8fde
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577437"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778014"
 ---
 # <a name="set-up-hazardous-materials"></a>Pavojingų medžiagų nustatymas
 
@@ -27,7 +27,7 @@ Kad galėtumėte naudoti pavojingų medžiagų funkciją, pirma turite nustatyti
 
 ## <a name="turn-on-the-hazardous-materials-feature-for-your-system"></a>Pavojingų medžiagų funkcijos įjungimas Jūsų sistemoje
 
-Kad galėtumėte naudoti šią funkciją, ji turi būti įjungta jūsų sistemoje. Administratoriai gali naudoti [funkcijos valdymas](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) parametrus, norėdami sužinoti funkcijos būseną ir įjungti ją. Darbo srityje **Funkcijų valdymas** ši funkcija yra nurodyta toliau pateikiamu būdu.
+Kaip tiekimo grandinės valdymo versija 10.0.21, ši funkcija yra įjungta pagal numatytuosius nustatymus. Administratoriai gali naudoti [funkcijų valdymo](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) puslapį, kad patikrintų funkcijos būseną ir prireikus ją įjungtų arba išjungtų. Čia funkcija yra nurodyta kaip:
 
 - **Modulis:** *Produkto informacijos valdymas*
 - **Funkcijos pavadinimas:** *Pavojingų medžiagų produkto informacija ir siuntimo dokumentacija*
@@ -100,7 +100,7 @@ Nuorodos tikslais, galite išvardyti šalis arba regionus, kuriuose galioja nuos
 |---|---|
 | Šalis/regionas | Pasirinkite šalį/regioną susieti su nuostata. |
 
-## <a name="material-codes"></a><a name="hazmat-codes"></a>Medžiagų kodai
+## <a name="material-codes"></a><a name="hazmat-codes"></a> Medžiagų kodai
 
 Medžiagų kodai sukuria nustatymus, susijusius su tam tikru pavojingu komponentu, galimai įtrauktu į išleistą produktą. Kiekvienas medžiagos kodas priklauso tam tikros pavojingos medžiagos nuostatai ir jos apibrėžtis turi atitikti tą nuostatą. Kai pritaikote medžiagos kodą išleistam produktui, naudodami **Medžiagos kodas** lauką, visi medžiagos kodo pavojingų medžiagų nustatymai yra automatiškai pritaikomi tam produktui. Todėl išleistų išleistų produktų nustatymo procesas yra greitesnis ir mažiau linkęs į klaidas.
 
@@ -115,7 +115,7 @@ Norėdami tvarkyti Jūsų pavojingų medžiagų apibrėžtis, atlikite šiuos ve
 
 5. Naudokite likusius laukus šiame puslapyje kiekvienos pavojingos medžiagos, taikomos Jūsų pasirinktai nuostatai, kūrimui ir nustatymui. Laukai, kurie yra galimi, yra pavojingų medžiagų laukų, galimų atskiriems išleistiems produktams, pogrupis. Norėdami gauti daugiau informacijos žr. [Pavojingos medžiagos produktuose, užsakymuose, siuntose ir kroviniuose](hazmat-items.md).
 
-## <a name="hazardous-material-classification-groups"></a><a name="classification-groups"></a>Pavojingų medžiagų klasifikavimo grupės
+## <a name="hazardous-material-classification-groups"></a><a name="classification-groups"></a> Pavojingų medžiagų klasifikavimo grupės
 
 Kiekviena pavojingų medžiagų klasifikavimo grupė apibrėžia lauko reikšmių, sukuriančių šabloną, grupę. Šį šabloną galėsite naudoti vėliau, kuomet nustatysite pavojingų medžiagų informaciją išleistai prekei.
 
@@ -135,7 +135,7 @@ Norėdami nustatyti pavojingų medžiagų klasifikavimo grupes, eikite į **Prod
 | Transportavimo kategorijos kodas | Susiekite [transportavimo kategorijos kodą](#transport-category) su grupe. |
 | Daugiklis | Įveskite pavojingų medžiagų daugiklį, taikomą pasirinktai pavojingų medžiagų klasei ir padaliniui, remiantis taikytina nuostata. Šis daugiklis naudojamas kaip dalis formulės, apskaičiuojančios bendrus *pavojingų medžiagų taškus,* kurie yra įtraukti į krovinį arba siuntą. Norėdami gauti daugiau informacijos apie pavojingų medžiagų taškus ir šį daugiklį, žr. [Medžiagų valdymo „FastTab”](hazmat-items.md#material-management). |
 
-## <a name="hazardous-material-classes"></a><a name="classes"></a>Pavojingų medžiagų klasės
+## <a name="hazardous-material-classes"></a><a name="classes"></a> Pavojingų medžiagų klasės
 
 Pavojingų medžiagų klasė įprastai yra susieta su klasių, pateikiamų nuostatoje, kurią stengiatės atitikti, sąrašu. Pavyzdžiui, pagal JAV nuostatą CFR 49 „3 klasė” yra degūs skysčiai. Galite nustatyti klases, susijusias su medžiagomis, kurias privalote suklasifikuoti.
 
@@ -156,7 +156,7 @@ Norėdami nustatyti pavojingų medžiagų klases, eikite į **Produkto informaci
 | Klasės kodas | Įveskite kodą šios klasės identifikavimui. Jūs apibrėžiate kodą šiai prekei. Tai bus naudojama peržvalgos sąraše, kai priskirsite pavojingų medžiagų klasę išleistai prekei. |
 | Aprašas | Įveskite klasės aprašą. |
 
-## <a name="hazardous-material-divisions"></a><a name="divisions"></a>Pavojingų medžiagų padaliniai
+## <a name="hazardous-material-divisions"></a><a name="divisions"></a> Pavojingų medžiagų padaliniai
 
 Pavojingų medžiagų padalinys yra pavojingų medžiagų grupės pogrupis. Turite priskirti ir padalinį, ir klasę kiekvienam produktui, kuriame yra pavojingų medžiagų.
 
@@ -178,7 +178,7 @@ Norėdami nustatyti pavojingų medžiagų klases, eikite į **Produkto informaci
 | Aprašas | Įveskite padalinio aprašą. |
 | Klasė | Peržiūrėkite ir priskirkite klasę, kuriai padalinys priklauso. |
 
-## <a name="hazardous-material-compatibility-groups"></a><a name="compatibility-groups"></a>Pavojingų medžiagų suderinamumo grupės
+## <a name="hazardous-material-compatibility-groups"></a><a name="compatibility-groups"></a> Pavojingų medžiagų suderinamumo grupės
 
 Pavojingų medžiagų suderinamumo grupės nustato, kurios pavojingų medžiagų klasės ir padaliniai gali būti gabenami kartu. Kai operatoriai kuria sandėlio krovinius ar siuntas, jie gali paleisti suderinamumo patikrą, kuri pateiks įspėjimą, jeigu krovinyje arba siuntoje bus prekių, kurios nepriklauso tai pačiai suderinamumo grupei.
 
@@ -220,7 +220,7 @@ Specifikacija *Reagavimas į ekstremalias situacijas dėl pavojingos medžiagos*
 
 Norėdami nustatyti šios specifikacijos reikšmes, eikite į **Produkto informacijos valdymas \> Sąranka \> Pavojingų medžiagų siuntimo dokumentacija \> Pavojingų medžiagų suderinamumo grupės**. Puslapyje **Reagavimas į ekstremalias situacijas dėl pavojingos medžiagos** galite sukurti tiek reikšmių, kiek norite ir konfigūruoti kiekvieną jų su klasifikacijos kodu ir trumpu aprašu.
 
-### <a name="hazardous-material-identification"></a><a name="identification"></a>Pavojingos medžiagos identifikacija
+### <a name="hazardous-material-identification"></a><a name="identification"></a> Pavojingos medžiagos identifikacija
 
 Specifikacija *Pavojingos medžiagos identifikacija* nustato pavojingos medžiagos klasę arba būseną. Reikšmė įprastai yra kodas, paremtas Jungtinių Tautų (JT) standartu. Kiekviena klasė yra identifikuojama kodu ir aprašu ir ji gali nustatyti transportavimo metodų apribojimus. Pavyzdžiui, degios prekės arba medžiagos identifikavimui, sukuriate pavojingų medžiagų klasę, naudojančią kodą *FL* ir aprašą *Degi*. Taip pat nurodote klasę, kuri negali būti transportuojama oru.
 
@@ -233,49 +233,49 @@ Norėdami nustatyti šios specifikacijos reikšmes, eikite į **Produkto informa
 | Apriboti nuo oro transporto | Pasirinkite šį žymės langelį norėdami nurodyti, kad ši pavojingos medžiagos klasė neturėtų būti transportuojama oru. |
 | Apriboti nuo jūros transporto | Pasirinkite šį žymės langelį norėdami nurodyti, kad ši pavojingos medžiagos klasė neturėtų būti transportuojama jūra. |
 
-### <a name="hazardous-material-label"></a><a name="label"></a>Pavojingos medžiagos etiketė
+### <a name="hazardous-material-label"></a><a name="label"></a> Pavojingos medžiagos etiketė
 
 Specifikacija *Pavojingos medžiagos etiketė* nustato pavojingų prekių etiketę, kuri turi būti pritaikyta susijusiems išleistiems produktams. Etiketėse bus apibūdinta kaip produktas turi būti tvarkomas. Pavyzdžiui, turite produktą, kuriame yra nuodingų dujų. Šiuo atveju, nustatote etiketės kodą, atitinkantį nuodingų dujų etiketę. Taip pat sukuriate Jūsų verslo procesą, kad jis peržiūrėtų šią reikšmę gabenant produktus.
 
 Norėdami nustatyti šios specifikacijos reikšmes, eikite į **Produkto informacijos valdymas \> Sąranka \> Pavojingų medžiagų siuntimo dokumentacija \> Pavojingos medžiagos etiketė**. Puslapyje **Pavojingos medžiagos etiketė** galite sukurti tiek etikečių, kiek norite ir konfigūruoti kiekvieną su identifikacijos kodu ir trumpu aprašu.
 
-### <a name="hazardous-material-packing-descriptions"></a><a name="packing-description"></a>Pavojingos medžiagos pakavimo aprašai
+### <a name="hazardous-material-packing-descriptions"></a><a name="packing-description"></a> Pavojingos medžiagos pakavimo aprašai
 
 Specifikacija *Pavojingos medžiagos pakavimo aprašai* nustato kaip pavojinga prekė turi būti pakuojama. Pavyzdžiui, ji gali būti pakuojama tam tikro tipo plieno statinėje arba kitokio tipo specialioje pakuotėje.
 
 Norėdami nustatyti šios specifikacijos reikšmes, eikite į **Produkto informacijos valdymas \> Sąranka \> Pavojingų medžiagų siuntimo dokumentacija \> Pavojingos medžiagos pakavimo aprašai**. Puslapyje **Pavojingos medžiagos pakavimo aprašai** galite sukurti tiek pakavimo aprašų, kiek norite ir konfigūruoti kiekvieną jų su identifikavimo kodu ir trumpu aprašu.
 
-### <a name="hazardous-material-packing-group"></a><a name="packing-group"></a>Pavojingos medžiagos pakavimo grupė
+### <a name="hazardous-material-packing-group"></a><a name="packing-group"></a> Pavojingos medžiagos pakavimo grupė
 
 Specifikacija *Pavojingos medžiagos pakavimo grupė* nustato pavojingos prekės pakavimo grupę. Pakavimo grupė leidžia Jums apibrėžti kodą ir aprašą, nustatančius kaip pavojingos medžiagos prekė turi būti supakuota transportavimo arba siuntimo metu. Pakavimo grupė yra priskiriama prekei per **Pavojingų medžiagų prekė** puslapį.
 
 Norėdami nustatyti šios specifikacijos reikšmes, eikite į **Produkto informacijos valdymas \> Sąranka \> Pavojingų medžiagų siuntimo dokumentacija \> Pavojingos medžiagos pakavimo grupė**. Puslapyje **Pavojingos medžiagos pakavimo grupė** galite sukurti tiek pakavimo grupių, kiek norite ir konfigūruoti kiekvieną jų su identifikavimo kodu ir trumpu aprašu.
 
-### <a name="hazardous-material-packing-instruction"></a><a name="packing-instruction"></a>Pavojingos medžiagos pakavimo instrukcija
+### <a name="hazardous-material-packing-instruction"></a><a name="packing-instruction"></a> Pavojingos medžiagos pakavimo instrukcija
 
 Specifikacija *Pavojingos medžiagos pakavimo instrukcija* nustato pakavimo instrukcijos, kurių reikia laikytis, kai tam tikra pavojinga prekė ruošiama transportavimui oru.
 
 Norėdami nustatyti šios specifikacijos reikšmes, eikite į **Produkto informacijos valdymas \> Sąranka \> Pavojingų medžiagų siuntimo dokumentacija \> Pavojingos medžiagos pakavimo instrukcija**. Puslapyje **Pavojingos medžiagos pakavimo instrukcija** galite sukurti tiek pakavimo instrukcijos identifikatorių, kiek norite ir konfigūruoti kiekvieną jų su identifikavimo kodu ir trumpu aprašu.
 
-### <a name="hazardous-material-stowage"></a><a name="stowage"></a>Pavojingos medžiagos laikymas
+### <a name="hazardous-material-stowage"></a><a name="stowage"></a> Pavojingos medžiagos laikymas
 
 Specifikacija *Pavojingos medžiagos laikymas* nustato kaip produktas turi būti laikomas laive, kai jis transportuojamas jūros transportu.
 
 Norėdami nustatyti šios specifikacijos reikšmes, eikite į **Produkto informacijos valdymas \> Sąranka \> Pavojingų medžiagų siuntimo dokumentacija \> Pavojingos medžiagos laikymas**. Puslapyje **Pavojingos medžiagos laikymas** galite sukurti tiek laikymo identifikatorių, kiek norite ir konfigūruoti kiekvieną jų su identifikavimo kodu ir trumpu aprašu.
 
-### <a name="hazardous-material-transport-category"></a><a name="transport-category"></a>Pavojingų medžiagų transportavimo kategorija
+### <a name="hazardous-material-transport-category"></a><a name="transport-category"></a> Pavojingų medžiagų transportavimo kategorija
 
 Specifikacija *Pavojingų medžiagų transportavimo kategorija* įprastai naudojama panašių pavojingų produktų grupavimui ataskaitose. Pavyzdžiui, transportavimo kategorijos yra naudojamos **Siuntos suvestinė** ataskaitoje, kurią galite atsispausdinti iš sandėlio siuntos ataskaitos.
 
 Norėdami nustatyti šios specifikacijos reikšmes, eikite į **Produkto informacijos valdymas \> Sąranka \> Pavojingų medžiagų siuntimo dokumentacija \> Pavojingų medžiagų transportavimo kategorija**. Puslapyje **Pavojingų medžiagų transportavimo kategorija** galite sukurti tiek transportavimo kategorijų, kiek norite ir konfigūruoti kiekvieną jų su rodomu pavadinimu ir trumpu aprašu.
 
-### <a name="hazardous-material-technical-name"></a><a name="technical-name"></a>Pavojingos medžiagos techninis pavadinimas
+### <a name="hazardous-material-technical-name"></a><a name="technical-name"></a> Pavojingos medžiagos techninis pavadinimas
 
 Specifikacija *Pavojingos medžiagos techninis pavadinimas* gali būti naudojama pateikti bendrai naudojamą arba vidinį įmonės pavadinimą, apibūdinantį kiekvieną medžiagą.
 
 Norėdami nustatyti šios specifikacijos reikšmes, eikite į **Produkto informacijos valdymas \> Sąranka \> Pavojingų medžiagų siuntimo dokumentacija \> Pavojingos medžiagos techninis pavadinimas**. Puslapyje **Pavojingos medžiagos techninis pavadinimas** galite sukurti tiek techninių pavadinimų, kiek norite ir konfigūruoti kiekvieną jų su rodomu pavadinimu ir trumpu aprašu.
 
-### <a name="hazardous-material-tunnel"></a><a name="tunnel"></a>Pavojingos medžiagos tunelis
+### <a name="hazardous-material-tunnel"></a><a name="tunnel"></a> Pavojingos medžiagos tunelis
 
 Specifikacija *Pavojingos medžiagos tunelis* apriboja tunelių, kuriais pavojingos medžiagos gali būti transportuojamos, tipus nustatydami tunelių, kurie turi būti naudojami, tipus. Tunelio kategorijos yra nustatomos pagal taikomas pavojingų medžiagų transportavimo nuostatas. Ši specifikacija įprastai taikoma tik sausumos transportui.
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2012-04-01
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 03489629a74d33147ac77dd18b59efbfc9c9e4b5
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.openlocfilehash: 5311c13154baafdc7225ee869b3ef524eecc0d00
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7574670"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778358"
 ---
 # <a name="document-routing-layout-for-license-plate-labels"></a>Numerio lentelės etikečių dokumentų maršrutų planavimo maketas
 
@@ -53,7 +53,7 @@ Keletas plačiai prieinamų etikečių generavimo įrankių gali padėti formatu
 
 ## <a name="turn-on-this-feature-for-your-system"></a>Šios funkcijos įjungimas sistemoje
 
-Jei jūsų sistemoje dar nėra funkcijų, aprašytų šioje temoje, eikite į [Funkcijų valdymas](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) ir įjunkite funkciją *Patobulinti numerio lentelės etiketės išdėstymai*.
+Jei jūsų sistemoje dar nėra funkcijų, aprašytų šioje temoje, eikite į [Funkcijų valdymas](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) ir įjunkite funkciją *Patobulinti numerio lentelės etiketės išdėstymai*. (Kaip tiekimo grandinės valdymo versija 10.0.21, ši funkcija yra įjungta pagal numatytuosius nustatymus.)
 
 ## <a name="custom-number-formats"></a>Pasirinktiniai numerių formatai
 

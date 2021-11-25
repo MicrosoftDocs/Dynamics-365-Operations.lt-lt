@@ -5,16 +5,16 @@ author: t-benebo
 ms.date: 12/12/2019
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: rhaertle
+ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: a2f4aeefe5fe7698d9dfaf80619102f2b753e52b
-ms.sourcegitcommit: 8592c661b41f9cef8b7ef2863a3b97bf49a4e6f9
-ms.translationtype: HT
+ms.openlocfilehash: 81f49cf08dcd1b4b1c3d71ff286a1f070e65e914
+ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "7423452"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7782337"
 ---
 # <a name="unified-product-experience"></a>Bendrosios produkto funkcijos
 
@@ -46,37 +46,37 @@ Produkto informacija apima visą su produktu ir jo apibrėžtimi susijusią info
 -----------------------|--------------------------------|---
 [Visi produktai](mapping-reference.md#138) | msdyn_globalproducts | Visų produktų lentelėje yra tiek jau išleisti produktai, tiek neišleisti produktai, ir juos galima rasti „Finance and Operations“ programose.
 [CDS išleisti išskirtieji produktai](mapping-reference.md#213) | Produktas | Lentelėje **Produktas** yra stulpelių, apibrėžiančių produktą. Tai yra atskirų produktų (produktų su potipio produktu) ir produkto variantų informacija. Toliau esančioje lentelėje nurodyti ryšiai.
-[Spalvos](mapping-reference.md#170) | msdyn\_productcolors
-[Konfigūracijos](mapping-reference.md#171) | msdyn\_productconfigurations
+[Spalvos](mapping-reference.md#170) | msdyn\_ productcolors
+[Konfigūracijos](mapping-reference.md#171) | msdyn\_ productconfigurations
 [Numatytieji užsakymo parametrai](mapping-reference.md#172) | msdyn_productdefaultordersettings |
 [Produkto kategorijos](mapping-reference.md#166) | msdyn_productcategories | Kiekviena produktų kategorija ir informacija apie jos struktūrą bei charakteristikas yra įtraukta į produktų kategorijos lentelę.
 [Produktų kategorijos priskyrimai](mapping-reference.md#167) | msdyn_productcategoryassignments | Norint produktą priskirti kategorijai galima naudoti produktų kategorijų priskyrimų lentelę.
 [Produktų kategorijų hierarchijos](mapping-reference.md#168) | msdyn_productcategoryhierarchies | Produktų klasifikavimui ar grupavimui naudojamos produktų hierarchijos. Kategorijų hierarchijos galimos tarnyboje „Dataverse” naudojant produkto kategorijų hierarchijos lentelę.
 [Produktų kategorijų hierarchijų vaidmenys](mapping-reference.md#169) | „msdyn_productcategoryhierarchyroles” | Produktų hierarchijos gali būti naudojamos skirtingoms „D365 Finance and Operations“ užduotims. Jomis nurodoma, kuri kategorija naudojama su kiekvienu vaidmeniu ar kuris naudojamas produktų kategorijos vaidmens lentelė.
 [Produkto numatytieji užsakymo parametrai V2](mapping-reference.md#175) | msdyn_productspecificdefaultordersettings |
-[Produkto dimensijų grupės](mapping-reference.md#173) | msdyn\_productdimensiongroups | Produkto dimensijų grupė nustato, kurios produkto dimensijos apibrėžia produktą.
+[Produkto dimensijų grupės](mapping-reference.md#173) | msdyn\_ productdimensiongroups | Produkto dimensijų grupė nustato, kurios produkto dimensijos apibrėžia produktą.
 [Bendrojo produkto spalvos](mapping-reference.md#187) | msdyn_sharedproductcolors | Lentelė **Bendrojo produkto spalva** nurodo spalvas, kurias gali turėti tam tikras bendrasis produktas. Siekiant užtikrinti duomenų vientisumą, ši koncepcija perkelta į „Dataverse“.
 [Bendrojo produkto konfigūracijos](mapping-reference.md#188) | msdyn_sharedproductconfigurations | Lentelė **Bendrojo produkto konfigūracija** nurodo konfigūracijas, kurias gali turėti tam tikras bendrasis produktas. Siekiant užtikrinti duomenų vientisumą, ši koncepcija perkelta į „Dataverse“.
 [Bendrojo produkto dydžiai](mapping-reference.md#190) | msdyn_sharedproductsizes | Lentelė **Bendrojo produkto dydis** nurodo dydžius, kurių gali būti konkretus bendrasis produktas. Siekiant užtikrinti duomenų vientisumą, ši koncepcija perkelta į „Dataverse“.
 [Bendrojo produkto stiliai](mapping-reference.md#191) | msdyn_sharedproductstyles | Lentelė **Bendrojo produkto stilius** nurodo stilius, kuriuos gali turėti tam tikras bendrasis produktas. Siekiant užtikrinti duomenų vientisumą, ši koncepcija perkelta į „Dataverse“.
-[Produkto numerio nustatytas brūkšninis kodas](mapping-reference.md#164) | msdyn\_productbarcodes | Produktų brūkšniniai kodai naudojami siekiant unikaliai identifikuoti produktus.
+[Produkto numerio nustatytas brūkšninis kodas](mapping-reference.md#164) | msdyn\_ productbarcodes | Produktų brūkšniniai kodai naudojami siekiant unikaliai identifikuoti produktus.
 [Konkretaus produkto vieneto konvertavimai](mapping-reference.md#176) | „msdyn_productspecificunitofmeasureconversions” |
-[Išleisti produktai V2](mapping-reference.md#189) | msdyn\_sharedproductdetails | Lentelė **msdyn\_sharedproductdetails** apima programų „Finance and Operations“ stulpelius, kurie apibūdina produktą ir kuriuose yra produkto finansinė ir valdymo informacija.
-[Dydžiai](mapping-reference.md#174) | msdyn\_productsizes
+[Išleisti produktai V2](mapping-reference.md#189) | msdyn\_ sharedproductdetails | Lentelė **msdyn\_ sharedproductdetails** apima programų „Finance and Operations“ stulpelius, kurie apibūdina produktą ir kuriuose yra produkto finansinė ir valdymo informacija.
+[Dydžiai](mapping-reference.md#174) | msdyn\_ productsizes
 [Saugojimo dimensijų grupės](mapping-reference.md#177) | „msdyn_productstoragedimensiongroups” | Produkto saugojimo dimensijų grupė yra metodas, naudojamas nurodyti produkto patalpinimą sandėlyje.
-[Stiliai](mapping-reference.md#178) | msdyn\_productsytles
+[Stiliai](mapping-reference.md#178) | msdyn\_ productsytles
 [Sekimo dimensijų grupės](mapping-reference.md#179) | „msdyn_producttrackingdimensiongroups” | Produkto sekimo dimensijų grupė yra metodas, naudojamas produkto atsargų sekimui.
 [Vienetai](mapping-reference.md#219) | mat. vnt.
 [Vienetų konvertavimas](mapping-reference.md#199) | msdyn_ unitofmeasureconversions
 
 ## <a name="integration-of-products"></a>Produktų integravimas
 
-Šiame modelyje produktą atitinka dviejų lentelių kombinacija „Dataverse“: **Produktas** ir **msdyn\_sharedproductdetails**, kombinacija. Pirmoji lentelė apima produkto apibrėžtį (unikalų produkto identifikatorių, produkto pavadinimą ir aprašą), o antroji lentelė apima laukus, saugomus produkto lygyje. Šių dviejų lentelių kombinacija yra naudojama produktui apibrėžti pagal sandėliavimo vieneto (SKU) koncepciją. Kiekvieno išleisto produkto informacija bus įrašyta minėtose lentelėse (produkto ir bendrai naudojamo produkto informacija). Visiems produktams (išleistiems ir neišleistiems) sekti naudojama **Visuotiniai produktai** lentelė.
+Šiame modelyje produktą atitinka dviejų lentelių kombinacija „Dataverse“: **Produktas** ir **msdyn\_ sharedproductdetails**, kombinacija. Pirmoji lentelė apima produkto apibrėžtį (unikalų produkto identifikatorių, produkto pavadinimą ir aprašą), o antroji lentelė apima laukus, saugomus produkto lygyje. Šių dviejų lentelių kombinacija yra naudojama produktui apibrėžti pagal sandėliavimo vieneto (SKU) koncepciją. Kiekvieno išleisto produkto informacija bus įrašyta minėtose lentelėse (produkto ir bendrai naudojamo produkto informacija). Visiems produktams (išleistiems ir neišleistiems) sekti naudojama **Visuotiniai produktai** lentelė.
 
 Kadangi produktą atitinka SKU, išskirtųjų produktų, bendrųjų produktų ir produkto variantų koncepcijas „Dataverse“ galima gauti tokiu būdu:
 
-- **Produktai su potipio produktu** yra patys save apibrėžiantys produktai. Nereikia nurodyti jokių dimensijų. Pavyzdys yra konkreti knyga. Šiems produktams viena eilutė sukuriama **Produkto** lentelė, o kita eilutė sukuriama **msdyn\_sharedproductdetails** lentelėje. Nesukuriama produktų šeimos eilutė.
-- **Bendrieji produktai** naudojami kaip bendri produktai, turintys aprašą ir taisykles, apibrėžiančias verslo procesų veikimo būdą. Remiantis šiais apibrėžimais galima generuoti išskirtuosius produktus, žinomus kaip produkto variantus. Pavyzdžiui, marškinėliai yra bendrasis produktas, kuris gali turėti spalvos ir dydžio dimensijas. Galima kurti variantus, turinčius skirtingas šių dimensijų kombinacijas, pavyzdžiui, mažus mėlynus marškinėlius arba vidutinio dydžio žalius marškinėlius. Integruojant produkto lentelėje sukuriama viena eilutė kiekvienam variantui. Ši eilutė apima konkretaus varianto informaciją, pavyzdžiui, skirtingas dimensijas. Bendroji produkto informacija saugoma **msdyn\_sharedproductdetails** lentelėje. (Ši bendra informacija laikoma produkto vadove.) Produkto vadovo informacija sinchronizuojama į „Dataverse“ iš karto po to, kai išleistas produkto vadovas yra sukuriamas (prieš tai kai išleidžiami variantai).
+- **Produktai su potipio produktu** yra patys save apibrėžiantys produktai. Nereikia nurodyti jokių dimensijų. Pavyzdys yra konkreti knyga. Šiems produktams viena eilutė sukuriama **Produkto** lentelė, o kita eilutė sukuriama **msdyn\_ sharedproductdetails** lentelėje. Nesukuriama produktų šeimos eilutė.
+- **Bendrieji produktai** naudojami kaip bendri produktai, turintys aprašą ir taisykles, apibrėžiančias verslo procesų veikimo būdą. Remiantis šiais apibrėžimais galima generuoti išskirtuosius produktus, žinomus kaip produkto variantus. Pavyzdžiui, marškinėliai yra bendrasis produktas, kuris gali turėti spalvos ir dydžio dimensijas. Galima kurti variantus, turinčius skirtingas šių dimensijų kombinacijas, pavyzdžiui, mažus mėlynus marškinėlius arba vidutinio dydžio žalius marškinėlius. Integruojant produkto lentelėje sukuriama viena eilutė kiekvienam variantui. Ši eilutė apima konkretaus varianto informaciją, pavyzdžiui, skirtingas dimensijas. Bendroji produkto informacija saugoma **msdyn\_ sharedproductdetails** lentelėje. (Ši bendra informacija laikoma produkto vadove.) Produkto vadovo informacija sinchronizuojama į „Dataverse“ iš karto po to, kai išleistas produkto vadovas yra sukuriamas (prieš tai kai išleidžiami variantai).
 - **Išskirtieji produktai** nurodo visus produktų potipio produktus ir visus produkto variantus.
 
 ![Produktų duomenų modelis.](media/dual-write-product.png)
@@ -107,10 +107,10 @@ Produkto dimensijos – tai charakteristikos, identifikuojančios produkto varia
 
 „Finance and operations” programos | „Customer engagement“ programos |
 ---|---
-[Spalvos](mapping-reference.md#170) | msdyn\_productcolors
-[Dydžiai](mapping-reference.md#174) | msdyn\_productsizes
-[Stiliai](mapping-reference.md#178) | msdyn\_productsytles
-[Konfigūracijos](mapping-reference.md#171) | msdyn\_productconfigurations
+[Spalvos](mapping-reference.md#170) | msdyn\_ productcolors
+[Dydžiai](mapping-reference.md#174) | msdyn\_ productsizes
+[Stiliai](mapping-reference.md#178) | msdyn\_ productsytles
+[Konfigūracijos](mapping-reference.md#171) | msdyn\_ productconfigurations
 
 Kai produkto dimensijos skiriasi (pvz., bendrasis produktas kaip produkto dimensjas turi dydį ir spalvą), kiekvienas išskirtasis produktas (t. y. kiekvienas produkto variantas) apibrėžiamas kaip šių produkto dimensijų derinys. Pavyzdžiui, produkto numeris B0001 yra ypač maži juodi marškinėliai, o produkto numeris B0002 yra maži juodi marškinėliai. Šiuo atveju apibrėžiami esami produkto dimensijų deriniai. Pavyzdžiui, marškinėliai iš prieš tai pateikto pavyzdžio gali būti ypač maži ir juodi, maži ir juodi, vidutinio dydžio ir juodi arba dideli ir juodi, bet jie negali būti ypač didelį ir juodi. Kitaip tariant, nurodomos galimos bendrojo produkto dimensijos, o variantai gali būti išleidžiami naudojant šias vertes.
 
@@ -122,7 +122,7 @@ Tam, kad būtų galima sekti produkto dimensijas, kurias gali turėti bendrasis 
 [Bendrojo produkto konfigūracijos](mapping-reference.md#188) | msdyn_sharedproductconfigurations |
 [Bendrojo produkto dydžiai](mapping-reference.md#190) | msdyn_sharedproductsizes |
 [Bendrojo produkto stiliai](mapping-reference.md#191) | msdyn_sharedproductstyles |
-[Produkto numerio nustatytas brūkšninis kodas](mapping-reference.md#164) | msdyn\_productbarcodes |
+[Produkto numerio nustatytas brūkšninis kodas](mapping-reference.md#164) | msdyn\_ productbarcodes |
 
 ## <a name="default-order-settings-and-product-specific-default-order-settings"></a>Numatytieji užsakymo parametrai ir su konkrečiu produktu susiję numatytieji užsakymo parametrai
 
@@ -176,7 +176,7 @@ Produktų strategijos yra strategijų rinkiniai, naudojami produktams apibrėžt
 
 „Finance and operations” programos | „Customer engagement“ programos |
 ---|---
-[Produkto dimensijų grupės](mapping-reference.md#173) | msdyn\_productdimensiongroups |
+[Produkto dimensijų grupės](mapping-reference.md#173) | msdyn\_ productdimensiongroups |
 [Saugojimo dimensijų grupės](mapping-reference.md#177) | „msdyn_productstoragedimensiongroups” |
 [Sekimo dimensijų grupės](mapping-reference.md#179) | „msdyn_producttrackingdimensiongroups” |
 

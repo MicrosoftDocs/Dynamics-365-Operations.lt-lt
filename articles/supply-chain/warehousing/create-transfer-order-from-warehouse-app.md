@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 986abfaef81474571de7db179253c4d76f65d4bec180fa9f355f3218ddbb96ba
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 4ceedd8b42383dc1334f472ba754ac3e18261b9d
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6746824"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7777820"
 ---
 # <a name="create-transfer-orders-from-the-warehouse-app"></a>Perkėlimo užsakymų kūrimas iš sandėlio programos
 
@@ -26,7 +26,7 @@ ms.locfileid: "6746824"
 
 Ši funkcija leidžia sandėlio darbuotojams kurti ir apdoroti perkėlimo užsakymus tiesiai iš sandėlio valdymo mobiliųjų įrenginių programėlės. Darbuotojas pirmiausia pasirenka paskirties sandėlį, o tada gali nuskaityti vieną ar daugiau numerio lentelių naudodami programą, kad į perkėlimo užsakymą būtų įtrauktos numerio lentelės. Kai sandėlio darbuotojas pasirenka **Užbaigti užsakymą**, paketinė užduotis sukuria reikiamą perkėlimo užsakymą ir užsakymo eilutes pagal turimas atsargas, užregistruotas toms numerio lentelėms.
 
-## <a name="enable-the-create-transfer-orders-from-the-warehouse-app-feature"></a><a name="enable-create-transfer-order-from-warehouse-app"></a>Perkėlimo užsakymų kūrimo iš sandėlio programos funkcijos įgalinimas
+## <a name="enable-the-create-transfer-orders-from-the-warehouse-app-feature"></a><a name="enable-create-transfer-order-from-warehouse-app"></a> Perkėlimo užsakymų kūrimo iš sandėlio programos funkcijos įgalinimas
 
 Norėdami pasinaudoti šia funkcija, ją ir jos būtinąsias sąlygas turite įjungti savo sistemoje. Administratoriai gali naudoti [funkcijų valdymas](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) puslapį, kad patikrintų funkcijos būseną ir įjungtų ją, jei reikia.
 
@@ -36,11 +36,11 @@ Norėdami pasinaudoti šia funkcija, ją ir jos būtinąsias sąlygas turite įj
 1. Tada įjunkite funkciją *Kurti perkėlimo užsakymus iš sandėlio programos*, kuri pateikiama kaip:
     - **Modulis** – Sandėlio valdymas
     - **Funkcijos pavadinimas** – Kurti ir apdoroti perkėlimo užsakymus iš sandėlio programos
-1. Norėdami automatizuoti siunčiamų siuntų apdorojimą, turite įgalinti funkciją [Patvirtinti siunčiamas siuntas naudojant paketines užduotis](confirm-outbound-shipments-from-batch-jobs.md). Ši funkcija nurodyta kaip:
+1. Norėdami automatizuoti siunčiamų siuntų apdorojimą, turite įgalinti funkciją [Patvirtinti siunčiamas siuntas naudojant paketines užduotis](confirm-outbound-shipments-from-batch-jobs.md). Kaip tiekimo grandinės valdymo versija 10.0.21, ši funkcija yra įjungta pagal numatytuosius nustatymus. Administratoriai gali naudoti [funkcijų valdymo](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) puslapį, kad patikrintų funkcijos būseną ir prireikus ją įjungtų arba išjungtų. Čia funkcija yra nurodyta kaip:
     - **Modulis** – Sandėlio valdymas
     - **Funkcijos pavadinimas** – Patvirtinti siunčiamas siuntas naudojant paketines užduotis
 
-## <a name="set-up-a-mobile-device-menu-item-to-create-transfer-orders"></a><a name="setup-warehouse-app-menu"></a>Mobiliojo įrenginio meniu elemento nustatymas perkėlimo užsakymams kurti
+## <a name="set-up-a-mobile-device-menu-item-to-create-transfer-orders"></a><a name="setup-warehouse-app-menu"></a> Mobiliojo įrenginio meniu elemento nustatymas perkėlimo užsakymams kurti
 
 Toliau pateikiami bendrieji nurodymai, kaip nustatyti mobiliojo įrenginio meniu elementą perkėlimo užsakymui kurti. Atsižvelgiant į jūsų automatizavimo lygio, nustatomo vartotojams kuriant perkėlimo užsakymus iš aukšto, verslo reikalavimus, bus įjungtos skirtingos konfigūracijos. Šio dokumento scenarijuje bus aprašyta viena tokia konfigūracija.
 
@@ -254,7 +254,7 @@ Pradedant šį scenarijų, jums reikia turėti numerio lentelę, kurioje yra fak
 
 Pirmiau pateiktame pavyzdyje naudojami du **sandėlio programos įvykiai** (*Kurti perkėlimo užsakymą* ir *Užbaigti perkėlimo užsakymą*).
 
-### <a name="inquire-the-warehouse-app-events"></a><a name="#inquire-the-warehouse-app-events"></a>Užklausos dėl sandėlio programos įvykių pateikimas
+### <a name="inquire-the-warehouse-app-events"></a><a name="#inquire-the-warehouse-app-events"></a> Užklausos dėl sandėlio programos įvykių pateikimas
 
 Sandėlio valdymo mobiliųjų įrenginių programėlės sugeneruotą įvykių eilę ir įvykių pranešimus galite peržiūrėti nuėję į **Sandėlio valdymas \> Užklausos ir ataskaitos \> Mobiliojo įrenginio žurnalai \> Sandėlio programos įvykiai**.
 

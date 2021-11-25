@@ -1,45 +1,45 @@
 ---
 title: Personalo valdymo darbo sritis
 description: Šioje temoje aprašomi abstraktūs Personalo valdymo darbo srities elementai.
-author: andreabichsel
-ms.date: 07/01/2021
+author: twheeloc
+ms.date: 11/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: HcmPosition, HcmPersonnelManagementWorkspace
 audience: Application User
-ms.author: anbichse
-ms.reviewer: anbichse
+ms.author: twheeloc
+ms.reviewer: twheeloc
 ms.search.scope: Human Resources
 ms.custom: 269054
 ms.assetid: 889a8fab-0eef-45c2-91fc-ff2f4d44d54f
 ms.search.region: Global
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 923d4a980c3f8f9b3bf5be1f77d8910081123fa08b068f1fd8fa935312d3a101
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 4332be972ab3dc81e7e4f3cc297a91cd247e721e
+ms.sourcegitcommit: 7e0e2a266d9a9473df72e207554d9bd150e17ce3
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6754827"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7771343"
 ---
 # <a name="personnel-management-workspace"></a>Personalo valdymo darbo sritis
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-**Personalo valdymo** darbo srityje yra didelis turinio kiekis. Joje yra personalo perkėlimai, sekami darbuotojų pakeitimai, atviros pareigos, adreso pakeitimai, besibaigiantys įrašai ir analizės bei pateikiamos nuorodos į konkrečią informaciją. Šioje temoje pateikiama išsami informacija apie kiekvieną darbo srities dalį.
+**Personalo valdymo** darbo srityje yra didelis turinio kiekis. Joje yra personalo dinamika, sekami darbuotojų pakeitimai, atviros pareigos, adreso pakeitimai, besibaigiantys įrašai ir analitika bei pateikiami saitai į konkrečią informaciją. Šioje temoje pateikiama išsami informacija apie kiekvieną darbo srities dalį.
 
 ## <a name="activity-tab"></a>Skirtukas Veikla
 
 Skirtuke **Veikla** yra skyrių, grupuojančių darbuotojus pagal jų įdarbinimo proceso etapus:
 
-- Samdytini kandidatai
-- Greitai prasideda
-- Neseniai pasamdyta
-- Išeinama
-- Išėjęs
+- **Samdytini kandidatai**
+- **Greitai prasideda**
+- **Neseniai pasamdyta**
+- **Išeinama**
+- **Išėjęs**
 
-Kai darbuotojas yra viename iš šių etapų, tam tikrus veiksmus galima naudoti kaip mygtuką kortelėje arba meniu, kuris atsiranda viršutiniame dešiniajame kampe pasirinkus daugtaškį ( **„...”**). Toliau pateikti poskyriai aprašo **Veiklos** skirtuko skyrius ir pateikia galimų veiksmų sąrašą.
+Kai darbuotojas yra viename iš šių etapų, tam tikrus veiksmus galima naudoti kaip mygtuką kortelėje arba meniu, kuris atsiranda viršutiniame dešiniajame kampe pasirinkus daugtaškį (**„...”**). Toliau pateikti poskyriai aprašo **Veiklos** skirtuko skyrius ir pateikia galimų veiksmų sąrašą.
 
 ### <a name="candidates-to-hire"></a>Samdytini kandidatai
 
@@ -51,9 +51,9 @@ Darbo srities skyrius **Samdytini kandidatai** yra užpildomas iš kelių šalti
 
 Kai kandidatai pasirodo **Samdytinų kandidatų** skyriuje, galite atlikti šiuos veiksmus pasirinkdami daugtaškį kandidato kortelėje:
 
-- Atmesti kandidatą
-- Nesamdyti
-- Samdyti
+- **Atmesti kandidatą**
+- **Nesamdyti**
+- **Samdyti**
 
 > [!NOTE]
 > Jei kandidatų sąrašas užpildomas iš „Microsoft Dataverse”, tie patys kandidatai bus rodomi visuose juridiniuose subjektuose, nes juridinis subjektas nebuvo susietas su kandidatu.
@@ -65,7 +65,7 @@ Skyriuje **Greitai pradeda** išvardyti darbuotojai, kurių pradžios data yra a
 Jei vadovo nėra kortelėje, darbuotojui nebus priskirtos pareigos.
 
 > [!NOTE] 
-> Prieš pradedant vykdyti kontrolinį sąrašą, rekomenduojame priskirti darbuotojui pareigas, nes kartais supažindinimo užduotys priskiriamos naujai pasamdyto darbuotojo vadovui. Tačiau jei nepriskirtos jokios pareigos, negalima nustatyti naujo darbuotojo vadovo. Tokiu atveju vadovui numatytos supažindinimo užduotys vietoj to bus priskirtos kontrolinio sąrašo savininkui.
+> Rekomenduojame prieš pradedant taikyti kontrolinį sąrašą darbuotojui priskirti pareigas. Kartais inboarding užduotys priskiriamos naujai pasamdytiems darbuotojų vadybininkui. Tačiau jei nepriskirtos jokios pareigos, negalima nustatyti naujo darbuotojo vadovo. Tokiu atveju vadovui numatytos supažindinimo užduotys vietoj to bus priskirtos kontrolinio sąrašo savininkui.
 
 Kai darbuotojai atsiranda **Greitai pradės** dalyje, jiems galima atlikti šiuos veiksmus:
 
@@ -85,7 +85,7 @@ Kai darbuotojai atsiranda **Greitai pradės** dalyje, jiems galima atlikti šiuo
 Pagal numatytuosius nustatymus, sąraše rodomi darbuotojai, pasamdyti per paskutines septynias dienas. Norėdami pakeisti šį parametrą, **Žmogiškųjų išteklių parametrų** puslapio skirtuke **Bendra** nustatykite skirtąjį laiką **Naujausi samdiniai**. Skyriaus **Naujausi samdiniai** duomenys gali būti rodomi tam tikrą dienų, mėnesių ar metų skaičių. Pavyzdžiui, norėdami peržiūrėti darbuotojų, kurie buvo pasamdyti per paskutines 14 dienų, sąrašą, nustatykite **Laikotarpio** lauką į **14**, o **Vieneto** lauką – į **Dienos**.
 
 > [!NOTE]
-> Nustatymai **Žmogiškųjų išteklių parametrai** puslapyje yra konkrečios įmonės. Todėl skirtasis laikas, per kurį peržiūrite naujausius samdinius gali skirtis pagal įmonę. Pavyzdžiui, „USMF” įmonėje galbūt norėsite peržiūrėti visus naujus samdinius per paskutines septynias dienas. Tačiau „USSI” įmonėje jūs norite peržiūrėti visus naujus samdinius per paskutines 14 dienų. Tokiu atveju kiekvienoje įmonėje turite atidaryti puslapį **Žmogiškųjų išteklių parametrai** ir nustatyti parametrus, kaip reikia.
+> Nustatymai **Žmogiškųjų išteklių parametrai** puslapyje yra konkrečios įmonės. Todėl skirtasis laikas, per kurį peržiūrite naujausius samdinius gali skirtis pagal įmonę. Pavyzdžiui, „USMF” įmonėje galbūt norėsite peržiūrėti visus naujus samdinius per paskutines septynias dienas. Tačiau USSI įmonėje galite norėti peržiūrėti visus naujus samdus per paskutines 14 dienų. Tokiu atveju kiekvienoje įmonėje **atidarykite** personalo parametrų puslapį ir nustatykite reikiamus parametrus.
 
 Jei vadovo nėra kortelėje, darbuotojui nebus priskirtos pareigos.
 
@@ -132,13 +132,9 @@ Kai darbuotojas atsiranda **Išėję** dalyje, jiems galima atlikti šiuos veiks
 
 Skirtuke **Darbuotojo pakeitimai** pateikiamas visų darbuotojo personalo veiksmų sąrašas. Šis sąrašas nėra prieinamas pagal numatytuosius nustatymus. Norėdami įjungti funkcijas, **Bendrinamų Žmogiškųjų išteklių parametrų** puslapio skirtuke **Personalo veiksmai** nustatykite parinktį **Įgalinti darbuotojo veiksmus** į **Taip**.
 
-Daugiau informacijos apie personalo veiksmus rasite (Saitas į Personalo veiksmų puslapį).
-
 ## <a name="position-changes-tab"></a>Skirtukas Pareigų pakeitimai
 
 Skirtuke **Pareigų pakeitimai** pateikiamas visų pareigų personalo veiksmų sąrašas. Šis sąrašas nėra prieinamas pagal numatytuosius nustatymus. Norėdami įjungti funkcijas, **Bendrinamų Žmogiškųjų išteklių parametrų** puslapio skirtuke **Personalo veiksmai** nustatykite parinktį **Įgalinti pareigų veiksmus** į **Taip**.
-
-Daugiau informacijos apie personalo veiksmus rasite (Saitas į Personalo veiksmų puslapį).
 
 ## <a name="open-positions-tab"></a>Skirtukas Laisvos pareigos
 
@@ -151,11 +147,11 @@ Skirtuke **Laisvos pareigos** išvardytos visos laisvos pareigos. Tam, kad jos b
 
 **Baigiančių galioti įrašų** skirtuke išvardijamos visos prekės, kurių galiojimas baigėsi arba kurios baigs galioti įmonės, kurioje vartotojas yra prisiregistravęs, darbuotojams. Sąraše rodomi šie elementai:
 
-- Sertifikatai
-- Identifikavimas
-- Bandomieji laikotarpiai
-- Atrankos
-- Testai
+- **Sertifikatai**
+- **Identifikavimas**
+- **Bandomieji laikotarpiai**
+- **Atrankos**
+- **Testai**
 
 Norėdami nurodyti, ar sąraše rodomi nebegaliojantys įrašai ar baigiantys galioti įrašai, **Žmogiškųjų išteklių parametrų** skirtuke **Bendra** apibrėžkite skirtąjį laiką **Baigiantiems galioti įrašams** arba **Nebegaliojantiems įrašams**. Duomenys **Baigiantys galioti įrašai** gali būti rodomi tam tikrą dienų skaičių. Pavyzdžiui, norėdami peržiūrėti įrašų, kurių galiojimas baigsis per artimiausias 14 dienų, sąrašą, nustatykite lauką **Dienų skaičius** į **14**.
 

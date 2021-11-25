@@ -5,17 +5,17 @@ author: RamaKrishnamoorthy
 ms.date: 02/06/2020
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: rhaertle
+ms.reviewer: tfehr
 ms.custom: intro-internal
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 859bb270a0c1e37b6673413b1e8444a6e4b00e2d
-ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
-ms.translationtype: HT
+ms.openlocfilehash: 131c002000ee6ebed81a23f45ce17b7a7fff0b95
+ms.sourcegitcommit: 9f8da0ae3dcf3861e8ece2c2df4f693490563d5e
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7417036"
+ms.lasthandoff: 11/16/2021
+ms.locfileid: "7817366"
 ---
 # <a name="dual-write-overview"></a>Dvigubo rašymo apžvalga
 
@@ -68,11 +68,7 @@ Dvigubu rašymu sukuriamas susiejimas tarp sąvokų, esančių „Finance and Op
 + Galimybė ieškoti turimų atsargų pasiekiamumą ir išsamią informaciją
 + Projekto ir grynųjų pinigų funkcijos
 + Galimybė tvarkyti kelis adresus ir vaidmenis naudojant šalies sąvoką
-+ Vartotojams skirtas vieno šaltinio valdymas
-+ Integruoti mažmeninės prekybos ir rinkodaros kanalai
-+ Akcijų ir nuolaidų matomumas
-+ Užklausų dėl aptarnavimo funkcijos
-+ Racionalizuotos aptarnavimo operacijos
+
 
 ## <a name="top-reasons-to-use-dual-write"></a>Pagrindinės priežastys naudoti dvigubą rašymą
 
@@ -83,7 +79,7 @@ Dvigubu rašymu pateikiama duomenų integracija „Microsoft Dynamics 365” pro
 + Dvigubo rašymo infrastruktūra atitinka kodo nereikalavimo / automatizuoto kodavimo principą. Reikia minimalių inžinerinių pastangų, kad būtų galima išplėsti standartinius tarpusavy susietų lentelių žemėlapius ir į juos įterpti pasirinktinius žemėlapius.
 + Dvigubas rašymas palaiko ir internetinį režimą, ir autonominį režimą. „Microsoft” yra vienintelė įmonė, teikianti palaikymą internetiam ir autonominiam režimams.
 
-## <a name="what-does-dual-write-mean-for-developers-and-architects-of-customer-engagement-apps"></a><a id="developer-architect"></a>Kuo dvigubas rašymas naudingas klientų įtraukimo programų kūrėjams ir architektams?
+## <a name="what-does-dual-write-mean-for-developers-and-architects-of-customer-engagement-apps"></a><a id="developer-architect"></a> Kuo dvigubas rašymas naudingas klientų įtraukimo programų kūrėjams ir architektams?
 
 Dvigubas rašymas automatizuoja duomenų srautą tarp „Finance and Operations” programų ir klientų įtraukimo programų. Dvigubas rašymas susideda iš dviejų „AppSource” sprendimų, įdiegtų „Dataverse”. Sprendimai išplečia „Dataverse” lentelių schemą, priedus ir darbo eigas, kad jie galėtų pritaikyti mastelį prie ERP dydžio. Kad diegimas būtų sėkmingas, klientų įtraukimo programų kūrėjai ir architektai turi suprasti šiuos keitimus ir bendradarbiauti su kolegomis „Finance and Operations” programose.
 

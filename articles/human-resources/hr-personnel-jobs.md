@@ -1,26 +1,26 @@
 ---
 title: Užduoties komponentų nustatymas
-description: Šiame straipsnyje aprašomi abstraktūs elementai, kurie gali sudaryti užduotį, ir pateikiami pavyzdžiai, kaip tuos elementus galite naudoti savo organizacijoje.
-author: andreabichsel
-ms.date: 06/24/2021
+description: Šioje temoje aprašomi abstraktūs elementai, kurie gali sudaryti užduotį, ir pateikiami pavyzdžiai, kaip tuos elementus galite naudoti savo organizacijoje.
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: HcmJob, HcmJobFunction, HcmJobTask, HcmTitle, HcmPersonnelManagementWorkspace, HCMJobFamily
 audience: Application User
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.scope: Human Resources
 ms.custom: 269054
 ms.assetid: 889a8fab-0eef-45c2-91fc-ff2f4d44d54f
 ms.search.region: Global
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 55f3edb53236734045e94ddd71461c739d3b5a8e0a2ac07a804dc2dfafabda57
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 0b3d56b3d19bd671d0015e87eefdf8ae62f4cee0
+ms.sourcegitcommit: 1cc56643160bd3ad4e344d8926cd298012f3e024
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6754781"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "7731545"
 ---
 # <a name="set-up-the-components-of-a-job"></a>Užduoties komponentų nustatymas
 
@@ -60,7 +60,7 @@ Užduočių funkcijos nurodo aukšto lygio funkcines kategorijas susieja aukšto
 Užduočių funkcijas galite tvarkyti puslapyje **Užduočių funkcijos**. Puslapyje **Užduočių funkcijos** įveskite užduoties funkcijos identifikavimo kodą ir trumpą aprašymą.
 
 ## <a name="compensation"></a>Kompensacija
-Norėdami priskirti pastoviosios atlyginimo dalies planą darbuotojui, kuris turi pareigas užduotyje, turite nustatyti atlyginimo lygius užduočiai. Atlyginimo lygis naudojamas, kai minimali, vidutinė ir maksimalios sumos yra nustatytos atlyginimo struktūroje (atlyginimo tinklelyje). Sukūrus pastoviosios atlyginimo dalies planą, pasirenkama atlyginimo struktūra. Į atlyginimo struktūrą taip pat įtrauktas kompensacijos lygis. Kai pasirenkate darbuotojo pastoviosios atlyginimo dalies planą, atlyginimo lygiai, galimi pasirinkti, priklauso nuo užduoties, su kuria siejamos darbuotojo pareigos. Daugiau informacijos apie kompensacijos nustatymą rasite [Kompensacijų planai](hr-compensation-overview.md).
+Norėdami priskirti pastoviosios atlyginimo dalies planą darbuotojui, kuris turi pareigas užduotyje, turite nustatyti atlyginimo lygius užduočiai. Kompensavimo **lygis** naudojamas, kai minimali, vidurio taškas ir maksimalios sumos yra nustatytos kompensavimo struktūroje (kompensavimo tinklelyje). Sukūrus pastoviosios atlyginimo dalies planą, pasirenkama atlyginimo struktūra. Į atlyginimo struktūrą taip pat įtrauktas kompensacijos lygis. Kai pasirenkate darbuotojo pastoviosios atlyginimo dalies planą, atlyginimo lygiai, galimi pasirinkti, priklauso nuo užduoties, su kuria siejamos darbuotojo pareigos. Daugiau informacijos apie kompensacijos nustatymą rasite [Kompensacijų planai](hr-compensation-overview.md).
 
 ## <a name="job-skills"></a>Užduoties įgūdžiai
 Užduoties įgūdžiai apibūdina įgūdžius, reikalingus užduočiai atlikti. Įgūdžių lygis turi būti susietas su kiekvienu darbo įgūdžiu. Įgūdžių lygius nustato vartotojas. Jie nurodo įgūdžiams reikalingą žinių ar kompetencijos lygį. Pavyzdžiui, įmonės gali nustatyti skaitinius lygius, tarkim nuo 1 iki 5, kur **1** reiškia pradedantįjį, o **5** – specialistą. Įmonės taip pat gali nustatyti lygius, pažymėtus **Pradedantysis**, **Pažengęs** arba **Specialistas**. Nustačius įgūdžių lygį, taip pat galima nustatyti įgūdžių svarbą. Pavyzdžiui, jei buhalteriui reikia turėti daug žinių apie „Microsoft Excel”, gali būti sukurtas įgūdis, pavadintas **„Excel” žinios**. Tada įgūdžių lygį galima nustatyti kaip **Pažengęs**, o svarba gali būti nustatyta kaip **Svarbiausia**.
@@ -81,8 +81,8 @@ Darbo užduotys apibūdina pagrindines užduotis, kurias atitinkamoms pareigoms 
 <tr class="odd">
 <td>Pardavimo vadybininkas</td>
 <td><ul>
-<li><strong>Efektyvumo apžvalga</strong> – peržiūrėti kiekvieno pardavėjo&#39;darbo efektyvumą.</li>
-<li><strong>Neatvykimų apžvalga</strong> – patvirtinti arba atmesti kiekvieno pardavėjo&#39;prašymus leisti neatvykti arba registracijas.</li>
+<li><strong>Efektyvumo apžvalga</strong> – peržiūrėti kiekvieno pardavėjo&#39; darbo efektyvumą.</li>
+<li><strong>Neatvykimų apžvalga</strong> – patvirtinti arba atmesti kiekvieno pardavėjo&#39; prašymus leisti neatvykti arba registracijas.</li>
 </ul></td>
 </tr>
 <tr class="even">

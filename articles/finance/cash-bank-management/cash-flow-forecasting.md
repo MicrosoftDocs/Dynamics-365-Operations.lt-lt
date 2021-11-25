@@ -2,7 +2,7 @@
 title: Grynųjų pinigų srautų prognozavimas
 description: Šioje temoje pateikiama pinigų srautų prognozės proceso apžvalga. Taip pat paaiškinama, kaip pinigų srautų prognozės integruojamos į kitus sistemos modulius.
 author: panolte
-ms.date: 09/23/2021
+ms.date: 11/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,16 +13,17 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 83f8e5b03a2222884758dc567688da2a756421da
-ms.sourcegitcommit: fcfd85a508c0de52cfe11d1986892219e39ef406
-ms.translationtype: HT
+ms.openlocfilehash: 5ad3b2444f194f8324a309df32612a5377851995
+ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7547960"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7752909"
 ---
 # <a name="cash-flow-forecasting"></a>Grynųjų pinigų srautų prognozavimas
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Naudodami pinigų srautų prognozavimo įrankius galite analizuoti būsimam pinigų srautui ir valiutai keliamus reikalavimus, kad galėtumėte įvertinti būsimą įmonės grynųjų pinigų poreikį. Norėdami gauti pinigų srautų prognozę, turite atlikti šias užduotis:
 
@@ -93,9 +94,12 @@ Biudžeto registro įrašus galima įtraukti į pinigų srautų prognozę indivi
 Atsargų pasiūlos ir paklausos prognozes galima įtraukti į pinigų srautų prognozes. Puslapio **Pinigų srauto prognozės sąranka** skirtuke **Atsargų valdymas** pasirinkite į pinigų srauto prognozę įtrauktiną prognozės modelį. Įtraukimo į pinigų srautų prognozavimą gali būti nepaisoma atskirose pasiūlos ir paklausos prognozės eilutėse.
 
 ### <a name="setting-up-dimensions-for-cash-flow-forecasting"></a>Grynųjų pinigų srautų prognozavimo dimensijų nustatymas
-Naujas skirtukas puslapyje **Grynųjų pinigų srautų prognozavimo sąranka** leidžia kontroliuoti, kokios finansinės dimensijos gali būti naudojamos filtruojant darbo sritį **Grynųjų pinigų srautų prognozavimas**. Šis skirtukas bus rodomas tik tada, kai bus įjungta funkcija Grynųjų pinigų srautų prognozės. 
+Naujas skirtukas pinigų srautų prognozės nustatymo puslapyje leidžia kontroliuoti, kurios finansinės dimensijos naudojamos filtruojant pinigų srautų **·** **prognozės darbo** srityje. Šis skirtukas rodomas tik tada, kai įgalinamas finansų žinių pinigų srautų prognozių priemonė. 
 
 Skirtuke **Dimensijos** pasirinkite iš dimensijų, kurias naudosite filtruodami, sąrašo ir naudokite rodyklių klavišus, kad perkeltumėte jas į dešinįjį stulpelį. Grynųjų pinigų srautų prognozavimo duomenims filtruoti galima pasirinkti tik dvi dimensijas. 
+
+### <a name="setting-up-external-source"></a>Išorinio šaltinio nustatymas
+Išorinius duomenis galima įvesti arba importuoti į pinigų srautų prognozes. Prieš įvedant arba importuojant išorinius duomenis, reikia nustatyti išorinius šaltinius. Skirtuke **Išorinis šaltinis** nustatykite išorinių pinigų srautų kategorijas. Kategorija gali būti **Siunčiama** arba **Gaunama**. **Likvidumas** turi būti pasirinktas kaip registravimo tipas. **Tinklelyje Juridinio subjekto parametrai** pasirinkite juridinius subjektus ir atitinkamas pagrindines sąskaitas, kurioms taikomos išorinių pinigų srautų kategorijos.
 
 ### <a name="project-management-and-accounting"></a>Projektų valdymas ir apskaita
 

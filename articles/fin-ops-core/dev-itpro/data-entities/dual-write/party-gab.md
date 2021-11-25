@@ -5,16 +5,16 @@ author: RamaKrishnamoorthy
 ms.date: 08/11/2021
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: rhaertle
+ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-02-22
-ms.openlocfilehash: da5ca16ed87108f8046348c831d37085f6f780d7
-ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
-ms.translationtype: HT
+ms.openlocfilehash: 127b4092ad3c5e8737aff43f503e0a8f36ff1ec8
+ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7386690"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7781349"
 ---
 # <a name="party-and-global-address-book"></a>Šalies ir bendros knygelės nustatymas
 
@@ -26,18 +26,18 @@ ms.locfileid: "7386690"
 
 ## <a name="party"></a>Įrašas
 
-Šalis yra asmuo arba organizacija, įtraukta į verslą. Naudojant šalies sąvoką, asmuo ar organizacija gali vaidinti daugiau nei vieną vaidmenį veikloje (pavyzdžiui, darbuotojo, kliento, tiekėjo ar kontakto). Vaidmuo remiasi kontekstu ir tikslu. Štai keletas iš vaidmenų pavyzdžių iš dviejų fiktivių įmonių „Contoso“ ir „Fabrikam“:
+Šalis yra asmuo arba organizacija, įtraukta į verslą. Naudojant šalies sąvoką, asmuo ar organizacija gali vaidinti daugiau nei vieną vaidmenį veikloje (pavyzdžiui, darbuotojo, kliento, tiekėjo ar kontakto). Vaidmuo remiasi kontekstu ir tikslu. Štai keli iš fiktyvių įmonių Contoso ir Fabrikam vaidmenų pavyzdžiai:
 
-+ **Darbuotojas**: darbuotojas. Pavyzdys yra „Contoso“ darbuotojas.
-+ Terminas **tiekėjas**: reiškia tiekėjų organizaciją arba individualų savininką, kuris tiekia prekes ar teikia paslaugas verslui. Pavyzdžiui, jei „Fabrikam“ parduoda „Contoso“ atsargas, „Fabrikam“ yra „Contoso“ tiekėjas.
-+ **Kontaktas**: asmuo, kurį reikia susisiekti. Pavyzdžiui, jei „Contoso“ perka atsargas iš „Fabrikam“, „Contoso“ darbuotojas susisiektų su kontaktiniu darbuotoju „Fabrikam“.
-+ **Klientas**: klientas yra asmuo arba įmonė, kuri perka dalykus iš įmonės. Pavyzdžiui, jei „Contoso“ perka atsargas iš „Fabrikam“, „Contoso“ yra „Fabrikam“ klientas.
++ **Darbuotojas**: darbuotojas. Pavyzdys yra "Contoso" darbuotojas.
++ Terminas **tiekėjas**: reiškia tiekėjų organizaciją arba individualų savininką, kuris tiekia prekes ar teikia paslaugas verslui. Pavyzdžiui, jei Fabrikam parduoda atsargas Contoso, Fabrikam yra Contoso tiekėjas.
++ **Kontaktas**: asmuo, kurį reikia susisiekti. Pavyzdžiui, jei "Contoso" perka atsargas iš Fabrikam, "Contoso" darbuotojai susisieks su Fabrikam kontaktu.
++ **Klientas**: klientas yra asmuo arba įmonė, kuri perka dalykus iš įmonės. Pavyzdžiui, jei Contoso perka atsargas iš Fabrikam, Contoso yra Fabrikam klientas.
 
 Šalies modelis dažnai naudojamas siekiant pateikti tarpinių ir kompleksinių ryšių tarp organizacijų ir žmonių ryšius, ypač kai šalis atlieka daugiau nei vieną vaidmenį. Štai keletas bendrų pavyzdžių:
 
-+ Šalis gali būti ir klientas, ir tiekėjas. Pavyzdžiui, Šiaurės Amerikoje „Fabrikam“ parduoda elektros iš „Contoso“ ir pirkimus surinkus iš „Contoso“. Europoje „Fabrikam“ parduoda dalis „Contoso“, tačiau nieko neperka iš „Contoso“.
-+ Šalis gali būti ir darbuotojas, ir klientas. Pavyzdžiui, „Contoso“ darbuotojas perka elektroninę įrangą iš „Contoso“ asmeniniams tikslams.
-+ Tarp asmens ir organizacijos gali būti įvairiais ryšiais (N:N). Pavyzdžiui, „Fabrikam“ tiekia aptarnavimo specialistams ir naudoja išdėstymo koordinates. Koordinatorius suderina kelių „Fabrikam“ klientų darbo užklausų aptarnavimo specialistus. „Contoso“ yra vienas iš „Fabrikam“ klientų. Kai „Contoso“ reikia specialistų, ji susisieks su įdarbinimo koordinatoriumi, kuris palengvina užklausą. Kadangi išdėstymo koordinatorius tvarko visų klientų užklausas, naudojamas ryšys N:N.
++ Šalis gali būti ir klientas, ir tiekėjas. Pavyzdžiui, Šiaurės Amerikoje Fabrikam parduoda elektros iš Contoso ir nuperka surinktus kanalus iš Contoso. Europoje Fabrikam parduoda dalis "Contoso", tačiau iš "Contoso" nieko nepirko.
++ Šalis gali būti ir darbuotojas, ir klientas. Pavyzdžiui, „Contoso" darbuotojas iš „Contoso" perka elektronines įrangas asmeniniam naudojimui.
++ Tarp asmens ir organizacijos gali būti įvairiais ryšiais (N:N). Pavyzdžiui, „Fabrikam“ tiekia aptarnavimo specialistams ir naudoja išdėstymo koordinates. Koordinatorius suderina kelių „Fabrikam“ klientų darbo užklausų aptarnavimo specialistus. Contoso yra vienas iš Fabrikam klientų. Kai Contoso reikia aptarnavimo specialistų, ji susisiekia su vietos koordinatoriumi, kuris palengvina užklausą. Kadangi išdėstymo koordinatorius tvarko visų klientų užklausas, naudojamas ryšys N:N.
 
 Toliau pateiktame vaizde rodomas šalies duomenų modelis.
 
@@ -271,25 +271,25 @@ Lentelių schemų rinkinys veikia kartu interaktyviai naudojant šalies ir bendr
 
 | „Finance and Operations“ programa | „Customer engagement“ programa | Aprašas |
 |----------------------------|-------------------------|-------------|
-| [Kontaktinio asmens pareigos](mapping-reference.md#223) | msdyn\_salescontactpersontitles |
+| [Kontaktinio asmens pareigos](mapping-reference.md#223) | msdyn\_ salescontactpersontitles |
 | [Klientai V3](mapping-reference.md#101) | sąskaitos |
 | [Klientai V3](mapping-reference.md#116) | kontaktai |
-| [CDS šalys](mapping-reference.md#220) | msdyn\_parties |
-| [CDS šalies pašto adreso vietos.](mapping-reference.md#233) | msdyn\_partypostaladdresses |
-| [CDS pašto adreso istorija V2](mapping-reference.md#235) | msdyn\_postaladdresses |
-| [CDS pašto adreso vietos](mapping-reference.md#234) | msdyn\_postaladdresscollections |
+| [CDS šalys](mapping-reference.md#220) | msdyn\_ parties |
+| [CDS šalies pašto adreso vietos.](mapping-reference.md#233) | msdyn\_ partypostaladdresses |
+| [CDS pašto adreso istorija V2](mapping-reference.md#235) | msdyn\_ postaladdresses |
+| [CDS pašto adreso vietos](mapping-reference.md#234) | msdyn\_ postaladdresscollections |
 | [CDS pardavimo pasiūlymo antraštė](mapping-reference.md#215) | pasiūlymai |
 | [CDS pardavimo užsakymų antraštės](mapping-reference.md#217) | salesorders |
-| [Baigiamosios mandagumo frazės](mapping-reference.md#222) | msdyn\_complimentaryclosings |
-| [V2 kontaktai](mapping-reference.md#221) | msdyn\_contactforparties |
-| [Sprendimų priėmimo vaidmenys](mapping-reference.md#224) | msdyn\_decisionmakingroles |
-| [Įdarbinimo užduočių funkcijos](mapping-reference.md#225) | msdyn\_employmentjobfunctions |
-| [Lojalumo lygiai](mapping-reference.md#226) | msdyn\_loyaltylevels |
-| [Šalies kontaktai V3](mapping-reference.md#236) | msdyn\_partyelectronicaddresses |
-| [Asmeninių savybių tipai](mapping-reference.md#227) | msdyn\_personalcharactertypes |
+| [Baigiamosios mandagumo frazės](mapping-reference.md#222) | msdyn\_ complimentaryclosings |
+| [V2 kontaktai](mapping-reference.md#221) | msdyn\_ contactforparties |
+| [Sprendimų priėmimo vaidmenys](mapping-reference.md#224) | msdyn\_ decisionmakingroles |
+| [Įdarbinimo užduočių funkcijos](mapping-reference.md#225) | msdyn\_ employmentjobfunctions |
+| [Lojalumo lygiai](mapping-reference.md#226) | msdyn\_ loyaltylevels |
+| [Šalies kontaktai V3](mapping-reference.md#236) | msdyn\_ partyelectronicaddresses |
+| [Asmeninių savybių tipai](mapping-reference.md#227) | msdyn\_ personalcharactertypes |
 | [Pardavimo SF antraštės V2](mapping-reference.md#118) | SF |
-| [Pasisveikinimai](mapping-reference.md#228) | msdyn\_salutations |
-| [Tiekėjai V2](mapping-reference.md#202) | msdyn\_vendors |
+| [Pasisveikinimai](mapping-reference.md#228) | msdyn\_ salutations |
+| [Tiekėjai V2](mapping-reference.md#202) | msdyn\_ vendors |
 
 Daugiau informacijos žr. [Dvigubo rašymo susiejimo nuoroda](mapping-reference.md)
 

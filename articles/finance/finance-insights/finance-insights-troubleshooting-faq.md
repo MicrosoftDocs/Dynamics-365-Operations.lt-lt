@@ -2,7 +2,7 @@
 title: „Finance insights“ apie nustatymą trikčių šalinimas
 description: Šioje temoje išvardijamos problemos, kurios gali įvykti, kai naudojate „Finance insights“ galimybes. Taip pat paaiškinama, kaip išspręsti šias problemas.
 author: panolte
-ms.date: 08/20/2021
+ms.date: 11/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,16 +17,17 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2021-08-20
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: 7ff42ffc334147c1a4c6b6349c86580df7f1955b
-ms.sourcegitcommit: 47a3ad71210c7ac84d0c25e913c440b5ba205282
+ms.openlocfilehash: f3cac30a66ff3a74a7f67c11dd9fa14af79d10af
+ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7512895"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7752622"
 ---
 # <a name="troubleshoot-finance-insights-setup-issues"></a>„Finance insights“ apie nustatymą trikčių šalinimas
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Šioje temoje išvardijamos problemos, kurios gali įvykti, kai naudojate „Finance insights“ galimybes. Taip pat paaiškinama, kaip išspręsti šias problemas.
 
@@ -34,7 +35,7 @@ ms.locfileid: "7512895"
 
 ### <a name="resolution"></a>Sprendimas
 
-Galbūt naudojate ankstesnės versijos šabloną. Prieš išleisdami 10.0.17 versiją peržiūrėkite klientus, sukonfigūravo **kliento mokėjimo žinių rezultatus (CDS į Fin ir Ops)** duomenų integravimo (DI) šabloną naudodami **mokėjimo numatymo rezultato (peržiūros)** objektą. Atnaujinę į 10.0.17 ar vėlesnę versiją, norėdami baigti susiejimą, turite naudoti **kliento mokėjimo žinių rezultatus (CDS į Fin ur Ops 10.0.17 ir vėlesnės)** DI versijos. Gali būti, kad negalėsite susieti DI šablono paskirties stulpelio, kol nebus atnaujintas duomenų valdymo objektų sąrašas ir jame atsiras **mokėjimo numatymo rezultato** objektas. Norėdami atnaujinti objektų sąrašą ir rodyti mokėjimo numatymo rezultatą, atlikite veiksmus ir „Microsoft Dynamics 365 Finance“ ir „Dataverse“ (anksčiau žinoma kaip „Common Data Service“ \[CDS\] administravimo portale).
+Galbūt naudojate ankstesnės versijos šabloną. Prieš išleisdami 10.0.17 versiją peržiūrėkite klientus, sukonfigūravo **kliento mokėjimo žinių rezultatus (CDS į Fin ir Ops)** duomenų integravimo (DI) šabloną naudodami **mokėjimo numatymo rezultato (peržiūros)** objektą. Atnaujinę į 10.0.17 ar vėlesnę versiją, norėdami baigti susiejimą, turite naudoti **kliento mokėjimo žinių rezultatus (CDS į Fin ur Ops 10.0.17 ir vėlesnės)** DI versijos. Gali būti, kad negalėsite susieti DI šablono paskirties stulpelio, kol nebus atnaujintas duomenų valdymo objektų sąrašas ir jame atsiras **mokėjimo numatymo rezultato** objektas. Norėdami atnaujinti objektų sąrašą ir rodyti mokėjimo numatymo rezultatą, atlikite veiksmus ir „Microsoft Dynamics 365 Finance“ ir „Dataverse“ (anksčiau žinoma kaip „Common Data Service“ \[ CDS\] administravimo portale).
 
 ### <a name="in-finance"></a>„Finance“
 
@@ -53,6 +54,12 @@ Norėdami atnaujinti savo duomenų integravimo [„Power Platform“ projektus a
 
 1. Jei naudojate „Finance insights“ peržiūros versiją, pašalinkite DI projektą, kuris susijęs su **kliento mokėjimo žinių rezultatų (CDS į Fin irOps)** šablonu.
 2. Atlikite duomenų [integratoriaus projekto kūrimo veiksmus](create-data-integrate-project.md). Naudokite **kliento mokėjimų žinių rezultatų (CDS į Fin ir Ops 10.0.17 ir vėlesnės versijos)** šabloną.
+
+## <a name="symptom-when-i-try-to-open-ai-builder-by-using-the-links-on-the-customer-payment-predictions-setup-page-why-do-i-receive-the-following-error-message-sorry-theres-been-a-disconnect"></a>Požymis: Kai bandau atidaryti AI generatorių naudojant kliento mokėjimų numatyimų nustatymo puslapio saitus, kodėl gaunu tokį klaidos pranešimą: "Atsiprašome, tai buvo atjungta?
+
+### <a name="resolution"></a>Paaiškinimas
+
+Dynamics 365 Finance vartotojai turi turėti Microsoft Power Apps aplinkos vartotojo abonementą, o tam vartotojo abonementui turi būti skirtas sistemos pritaikymo priemonės vaidmuo. Sistemos Microsoft Power Apps administratorius gali sukurti vartotojo abonementą ir priskirti vaidmenį. Tada, naudodami tą <https://make.preview.powerapps.com/> vartotojo abonementą, galite įeiti, ir bandyti saitus dar kartą.
 
 ## <a name="symptom-why-doesnt-the-cash-forecast-tab-in-the-cash-flow-forecast-workspace-show-any-data"></a>Požymis: kodėl pinigų srautų prognozės darbo srityje nėra pinigų prognozės skirtuko, kuriame rodomi kokie nors duomenys?
 

@@ -1,8 +1,8 @@
 ---
 title: Tęstinumo plano kūrimas
 description: Kadangi jūsų organizacija auga, turite pradėti tęstinumo planą.
-author: andreabichsel
-ms.date: 08/29/2018
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -10,15 +10,15 @@ ms.search.form: HcmSkillMapping, HcmPersonnelManagementWorkspace
 audience: Application User
 ms.search.scope: Human Resources
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ca1d9dda75038d937e2a3dad4582feefa617aac9f7f3f1a75ffd274c69c68ae9
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: ed10813c30b9a49b84a7e8e333fbac3d1e26720a
+ms.sourcegitcommit: 1cc56643160bd3ad4e344d8926cd298012f3e024
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6768220"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "7731521"
 ---
 # <a name="develop-a-succession-plan"></a>Tęstinumo plano kūrimas
 
@@ -35,8 +35,8 @@ Kadangi jūsų organizacija auga, turite pradėti tęstinumo planą. Tęstinumo 
 7. Rinkitės **Asmuo**.
 8. Laukelyje **Asmuo** įveskite pavadinimą ar rinkitės iškrentantį meniu.
 9. Pasirinkite **Gerai**.
-10. Plėskite **Sertifikatai** greitąjį skirtuką, kad rodytumėte ar redaguotumėte sertifikatus įgūdžių žemėlapyje.
-11. Plėskite **Įgūdžiai** greitąjį skirtuką, kad rodytumėte ar redaguotumėte įtrauktinus įgūdžius.
+10. Išplėskite **sertifikatų** "FastTab", norėdami peržiūrėti arba redaguoti sertifikatus, įtrauktus į įgūdžių išdėstymą.
+11. Išplėskite **įgūdžių** "FastTab", kad galėtumėte peržiūrėti arba redaguoti įtrauktius įgūdžius.
 12. Sąraše pažymėkite pirmąją eilutę. Pavyzdys: Apskaita.
 13. Rinkitės **Pasirenkamas** žymimą laukelį.
 14. Laukelyje **Svarbumas** rinkitės parinktį. Jums žymint įgūdį kaip pasirenkamą, turite pasirinkti įgūdžio svarbumo lygį.  
@@ -48,8 +48,8 @@ Kadangi jūsų organizacija auga, turite pradėti tęstinumo planą. Tęstinumo 
 20. Laukelyje **Svarbumas** rinkitės parinktį.
 21. Sąraše pasirinkite 4 eilutę.
 22. Rinkitės **Pasirenkamas** žymimą laukelį.
-23. Lauke Svarba pasirinkite parinktį.
-24. Plėskite **Išsilavinimas** greitąjį skirtuką, kad rodytumėte ar redaguotumėte išsilavinimo kompetencijas, kurios turi būti įtrauktos į įgūdžių žemėlapį.
+23. Laukelyje **Svarbumas** rinkitės parinktį.
+24. Išplėskite **išsilavinimo** FastTab, kad galėtumėte peržiūrėti arba redaguoti išsilavinimo kompetencijas, kurios bus įtrauktos į įgūdžių išdėstymą.
 25. Rinkitės **Įgyvendinti**.
 26. Pasirinkite **Gerai**.
 27. Rinkitės **Rezultatas**.

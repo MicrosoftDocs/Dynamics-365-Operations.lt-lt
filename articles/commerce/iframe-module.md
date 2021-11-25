@@ -2,7 +2,7 @@
 title: „Iframe“ modulis
 description: Šis skyrius aprašo „iframe“ modulį ir tai, kaip įtraukti jį į vietos puslapius „Microsoft Dynamics 365 Commerce“.
 author: anupamar-ms
-ms.date: 09/15/2020
+ms.date: 11/04/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 570901e3afca82abd21172df4c0b6fc575b57262f2b5d1decad11cabc00db31d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: bce6a50e8c145f8961bd0c839fe16c1f4d69e811
+ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767295"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7754019"
 ---
 # <a name="iframe-module"></a>„Iframe“ modulis
 
@@ -45,7 +45,7 @@ Toliau pateiktas paveikslėlis rodo „iframe“ modulių pavyzdžius, kurie ili
 |---------------------------|-----------------------|-------------|
 | Antraštė | Tekstas | Modulio antraštė. |
 | Paskirties URL | URL | URL, kuris yra patalpintas modulyje. |
-| Aukštis | Procentų skaičius | Modulio aukštis pikseliais arba procentais. Pavyzdžiui,**100** vertė bus laikoma pikselių numeriais, o vertė **100%** traktuojama kaip procentai. |
+| Aukštis | Procentų skaičius | Modulio aukštis pikseliais arba procentais. Pavyzdžiui, **100** vertė bus laikoma pikselių numeriais, o vertė **100%** traktuojama kaip procentai. |
 | ARIA žyma | Tekstas | Prieinamų praturtinto interneto programų (ARIA) etiketės gali būti nustatytas prieinamumo tikslais. |
 
 ## <a name="add-an-iframe-module-to-a-page"></a>Įtraukti „iframe“ modulį į puslapį
@@ -66,10 +66,13 @@ Siekiant įtraukti „iframe“ modulį į puslapį ir parodyti išorinį vaizdo
 1. Nustatykite kitas ypatybes, tokias kaip **Antraštė** ir **Aukštis**, kaip norite.
 1. Pasirinkite **Išsaugoti**, tada – **Baigti redagavimą**, kad užregistruotumėte puslapį, o tada pasirinkite **Publikuoti**, kad publikuotumėte jį.
 1. Eikite į komercijos puslapį savo svetainėje. Turėtumėte matyti, kad vaizdo įrašas yra sukurtas „iframe“ modulyje.
- 
+
+> [!NOTE]
+> Kadangi iframe modulis nuomoja išorinį turinį, svetainės autoriai turi užtikrinti, kad iframe modulyje laikomas turinys nepažeidžia turinio apribojimo strategijų atitinkamoje rinkoje. Jei puslapyje, kuris naudoja iframe modulį, yra turinio pažeidimas, svetainės autorius gali pašalinti iframe modulį atidarydamas puslapį svetainės generatoriuje, pasirinkdamas Pašalinti modulį iframe modulio laiko atminties dalyje ir įrašęs bei paskelbdamas **·** puslapį iš naujo.
+
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
-[Modulių bibliotekos apžvalga](starter-kit-overview.md)
+[Modulių bibliotekos peržiūra](starter-kit-overview.md)
 
 [Turinio saugos strategijos (CSP) tvarkymas](manage-csp.md)
 

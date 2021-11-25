@@ -1,8 +1,8 @@
 ---
 title: Modifikuoti pareigų ataskaitų ryšius
 description: Ši procedūra nurodo, kaip pakeisti darbuotojo ataskaitų ryšį.
-author: andreabichsel
-ms.date: 08/29/2018
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -10,15 +10,15 @@ ms.search.form: HcmPosition, HcmPositionReportsToDialog, HcmPositionLookup, HcmP
 audience: Application User
 ms.search.scope: Human Resources
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0083614a6e52b2450d17a0e78f5bc7d9b5717872359ffc77dab160e6b9caeab0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: db15394bf4bcd1b56781d269ad81aa1ad20b5e69
+ms.sourcegitcommit: e91a1797192fd9bc4048b445bb5c1ad5d333d87d
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722540"
+ms.lasthandoff: 11/01/2021
+ms.locfileid: "7728814"
 ---
 # <a name="modify-reporting-relationships-for-a-position"></a>Modifikuoti pareigų ataskaitų ryšius
 
@@ -28,20 +28,19 @@ ms.locfileid: "6722540"
 
 Ši procedūra nurodo, kaip pakeisti darbuotojo ataskaitų ryšį. Ataskaitų ryšį galima naudoti dokumentams per darbo eigą nukreipti. Procedūra taip pat nurodo, kaip darbuotoją priskirti papildomoms hierarchijoms. Pavyzdžiui, darbuotojas gali būti projekto komandos narys ir turėti neoficialų ataskaitų ryšį su projekto vadovu. Galima nustatyti papildomus pareigų ataskaitų ryšius, kad veiktų įvairūs projekto arba matricos scenarijai. Kuriant šią procedūrą naudojama demonstracinių duomenų įmonė yra USMF.
 
-1. Pasirinkite Personalas > Pareigos > Pareigos.
-2. Norėdami rasti įrašus, naudokite spartųjį filtrą. Pvz., filtruokite lauką Pareigos reikšme „000091“.
-3. Sąraše spustelėkite saitą pasirinktoje eilutėje.
-4. Išplėskite sekciją Teikia ataskaitas pareigų atstovui.
-5. Spustelėdami Naujas atidarykite išplečiamąjį dialogo langą.
-6. Lauke Teikia ataskaitas įveskite arba pasirinkite reikšmę.
-7. Spustelėkite Kurti.
-8. Išplėskite sekciją Ryšiai.
-9. Spustelėkite Pridėti.
-10. Tinklelio kairėje pažymėkite žymės langelį.
-11. Lauke Hierarchijos pavadinimas įveskite arba pasirinkite reikšmę.
-    * Pavyzdys: projektas  
-12. Lauke Teikia ataskaitas pareigų atstovui įveskite arba pasirinkite reikšmę.  Pavyzdys: 000437
-13. Spustelėkite Įrašyti.
+1. Eiti į **personalo** \> **·** \> **pareigas**.
+2. Norėdami rasti įrašus, naudokite spartųjį filtrą. Pavyzdžiui, filtruokite pagal lauko **000091** **·** vertę.
+3. Šiame sąraše pasirinkite nuorodą pasirinktoje eilutėje.
+4. Išplėskite **skyrių Ataskaitos pagal** pareigas.
+5. **Išplečiamajame dialogo lange atidaryti pasirinkite** Naujas.
+6. Lauke **Ataskaitos iki** įveskite arba pasirinkite vertę.
+7. Pasirinkite **Kurti**.
+8. Išplėskite **skyrių** Ryšiai.
+9. Pasirinkite **Įtraukti**.
+10. Pažymėkite žymės langelį, kairę nuo tinklelio.
+11. Lauke **Hierarchijos pavadinimas** įveskite arba pasirinkite vertę (pvz., **·** Projektas).
+12. Pareigų **ataskaitos lauke** įveskite arba pasirinkite vertę (pvz., **·** 000437).
+13. Pasirinkite **Įrašyti**.
 
 
 

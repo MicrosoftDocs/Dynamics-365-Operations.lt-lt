@@ -2,7 +2,7 @@
 title: ER išraiškų kūrimas siekiant iškviesti programos klasių metodus
 description: Šioje temoje aprašoma, kaip pakartotinai naudoti esamą programos logiką naudojantis elektroninių ataskaitų konfigūracijomis iškviečiant reikiamus ER išraiškų programos klasių metodus.
 author: NickSelin
-ms.date: 12/12/2017
+ms.date: 11/02/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -12,149 +12,180 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 78e7596760c4707578e2458a93631b571a7bfec86b9c51d877502ba04ed843a2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 81fae8d3603677afd7dd4b09b9073805f73582b4
+ms.sourcegitcommit: e6b4844a71fbb9faa826852196197c65c5a0396f
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6726290"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7751711"
 ---
 # <a name="design-er-expressions-to-call-application-class-methods"></a>ER išraiškų kūrimas siekiant iškviesti programos klasių metodus
 
 [!include [banner](../../includes/banner.md)]
 
-Šiame vadove pateikiama informacija, kaip pakartotinai naudoti esamą programos logiką naudojantis elektroninių ataskaitų (ER) konfigūracijomis ir iškviečiant reikiamus ER išraiškų programos klasių metodus. Klasių iškvietimo argumentų vertės gali būti nurodytos dinamiškai vykdymo laiku: pavyzdžiui, pagal analizavimo dokumente pateikiamą informaciją, kad būtų užtikrinamas jos tikslumas. Šiame vadove kursite reikiamas ER konfigūracijas pavyzdinei įmonei „Litware, Inc.“. Ši procedūra skirta vartotojams, kuriems priskirtas sistemos administratoriaus arba elektroninių ataskaitų kūrėjo vaidmuo. 
+Šioje temoje aprašoma, kaip pakartotinai naudoti esamas elektroninių ataskaitų (ER) konfigūracijų programos logikas, iškviekant reikiamus programos klasių metodus [...](../general-electronic-reporting.md) ER išraiškose. Klasių argumentų vertes galima dinamiškai apibrėžti vykdyklėje. Pavyzdžiui, vertės gali būti pagrįstos analizatoriaus dokumento informacija, siekiant užtikrinti jo teisingumą.
 
-Šiuos veiksmus galima atlikti naudojant bet kurį duomenų rinkinį. Taip pat turite atsisiųsti ir įrašyti šį failą vietiniame diske: (https://go.microsoft.com/fwlink/?linkid=862266): SampleIncomingMessage.txt.
+Pavyzdžiui, šioje temoje jūs kurkite procesą, kuris išanalizuotų gaunamus banko išrašus programos duomenims atnaujinti. Gaunamus banko išrašus gausite kaip teksto (.txt) failus, kuriuose yra tarptautiniai banko sąskaitos numerio (IBAN) kodai. Kaip banko išrašų importavimo proceso dalį turite patikrinti IBAN kodo teisingumą naudodami jau turimą logiką.
 
-Norėdami atlikti šiuos veiksmus, pirmiausia turite atlikti veiksmus, nurodytus procedūroje „ER Konfigūracijos teikėjo kūrimas ir pažymėjimas aktyviu“.
+## <a name="prerequisites"></a>Būtinieji komponentai
 
-1. Pasirinkite Organizacijos administravimas > Darbo sritys > Elektroninės ataskaitos.
-    * Patikrinkite, ar pavyzdinės įmonės „Litware, Inc.” konfigūracijos teikėjas yra galimas ir pažymėtas kaip aktyvus. Jei nematote šio konfigūracijos teikėjo, pirmiausia turite atlikti procedūros „Konfigūracijos teikėjo kūrimas ir pažymėjimas aktyviu” veiksmus.   
-    * Jūs kuriate gaunamų banko išrašų analizavimo procesą, skirtą atlikti programos duomenų naujinimą. Banko išrašus gausite kaip TXT failus, kuriuose nurodyti IBAN kodai. Kadangi atliekamas banko išrašo importavimo procesas, turite patikrinti, ar šie IBAN kodai teisingi, naudodami logiką, kuri jau prieinama.   
+Šios temos procedūros skirtos vartotojams, kuriems buvo priskirtas sistemos **administratoriaus arba elektroninių** ataskaitų **kūrėjo** vaidmuo.
+
+Procedūras galima atlikti naudojant bet kurį duomenų rinkinį.
+
+Norėdami juos užbaigti, turite atsisiųsti ir įrašyti šį failą: [SampleIncomingMessage.txt](https://download.microsoft.com/download/8/0/a/80adbc89-f23c-46d9-9241-e0f19125c04b/SampleIncomingMessage.txt).
+
+Šioje temoje sukursite reikalingas Litware, Inc. pavyzdžio įmonės ER konfigūracijas. Todėl prieš pabaigdami šioje temoje aprašytus procedūras, turite atlikti šiuos veiksmus.
+
+1. Eikite į **Organizacijos administravimas** \> **Darbo sritys** \> **Elektroninės ataskaitos**.
+2. Lokalizavimo **konfigūracijų** puslapyje patikrinkite, ar **Litware, Inc. pavyzdinė įmonė yra ir pažymėtas kaip aktyvus** konfigūravimo paslaugų teikėjas. Jei nematote šio konfigūracijos teikėjo, pirmiausia turite atlikti konfigūracijos teikėjų kūrimo veiksmus ir [pažymėti juos kaip](er-configuration-provider-mark-it-active-2016-11.md) aktyvius.
 
 ## <a name="import-a-new-er-model-configuration"></a>Importuoti naują ER modelio konfigūraciją
-1. Sąraše raskite ir pasirinkite norimą įrašą.
-    * Pasirinkite plytelę „Microsoft“ teikėjas.  
-2. Spustelėkite Saugyklos.
-3. Spustelėkite Rodyti filtrus.
-4. Pridėti filtro lauką „Įvesti pavadinimą“. Lauke Pavadinimas įveskite reikšmę „ištekliai”, pasirinkite filtro operatorių „apima” ir spustelėkite Taikyti.
-5. Spustelėkite Atidaryti.
-6. Medyje pasirinkite Mokėjimo modelis.
-    * Jei neįgalintas „FastTab“ Versijos mygtukas Importuoti, gali būti, kad jau importavote 1 versiją į vieną iš ER konfigūracijų „Mokėjimo modelis“. Galite praleisti kitus šios antrinės užduoties veiksmus.   
-7. Spustelėkite Importuoti.
-8. Spustelėkite Taip.
-9. Uždarykite puslapį.
-10. Uždarykite puslapį.
+
+1. Konfigūracijos **puslapio Lokalizavimas skyriuje** Konfigūracijos teikėjai pasirinkite **·** "Microsoft" konfigūracijos teikėjo **·** išklotąją dalį.
+2. Pasirinkite **Saugyklos**.
+3. Puslapyje **Lokalizavimo saugyklos** pasirinkite Rodyti **·** filtrus.
+4. Norėdami pasirinkti visuotinės saugyklos įrašą, pridėkite pavadinimo **·** filtro lauką.
+5. Lauke **Pavadinimas** įveskite **·** Visuotinis. Tada pasirinkite apima **filtro** operatorių.
+6. Pasirinkite **Taikyti**.
+7. Pasirinkite **[...](../er-download-configurations-global-repo.md#open-configurations-repository)** Atidaryti, kad peržiūrėtumėte pasirinktos saugyklos ER konfigūracijų sąrašą.
+8. Konfigūracijos **saugyklos** puslapyje, konfigūracijos medyje, pasirinkite **Mokėjimo** modelį.
+9. Jei mygtukas **·** Importuoti galimas, FastTab **versijos pažymėkite** jį, o tada pasirinkite **·** Taip.
+
+    Jei **mygtukas** Importuoti negalimas, jau importavote pasirinktą mokėjimo modelio **ER konfigūracijos** versiją.
+
+10. Uždarykite **konfigūracijos saugyklos** puslapį, tada uždarykite **lokalizavimo saugyklos** puslapį.
 
 ## <a name="add-a-new-er-format-configuration"></a>Įtraukite naują ER formato konfigūraciją
-1. Spustelėkite Ataskaitų konfigūracijos.
-    * Įtraukite naują ER formatą, kad galėtumėte analizuoti gaunamus banko išrašus TXT formatu.  
-2. Medyje pasirinkite Mokėjimo modelis.
-3. Spustelėdami Kurti konfigūraciją atidarykite dialogo meniu.
-4. Lauke „Naujas“ įveskite „Formatas pagal duomenų modelį PaymentModel“.
-5. Lauke Oavadinimas įveskite „Banko išrašo importavimo formatas (pavyzdys)“.
-    * Banko išrašo importavimo formatas (pavyzdys)  
-6. Lauke Palaikomas duomenų importavimas pasirinkite Taip.
-7. Spustelėkite Sukurti konfigūraciją.
 
-## <a name="design-the-er-format-configuration---format"></a>ER formato konfigūracijos kūrimas – formatas
-1. Spustelėkite Konstruktorius.
-    * Sukurtas formatas atitinka numatytą išorinio TXT formatu pateikiamo failo struktūrą.  
-2. Spustelėdami Įtraukti šakninį elementą atidarykite dialogo meniu.
-3. Medyje pasirinkite Text\Sequence.
-4. Lauke Pavadinimas įveskite Šaknis.
-    * Šaknis  
-5. Lauke Specialieji simboliai pasirinkite Nauja eilutė – „Windows“ (CR LF).
-    * Lauke „Specialieji simboliai“ pažymėta parinktis „Nauja eilutė – „Windows“ (CR LF)“. Pagal šį parametrą kiekviena analizavimo failo eilutė laikoma atskiru įrašu.  
-6. Spustelėkite GERAI.
-7. Spustelėdami Įtraukti atidarykite išplečiamąjį dialogo langą.
-8. Medyje pasirinkite Text\Sequence.
-9. Lauke Pavadinimas įveskite „Eilutės“.
-    * Eilutės  
-10. Lauke Daugialypumas pasirinkite „Vienas daug“.
-    * Lauke „Įvairovė“ pažymėta parinktis „Vienas daug“. Pagal šį parametrą tikimasi, kad analizavimo faile sutaps mažiausiai viena eilutė.  
-11. Spustelėkite GERAI.
-12. Medyje pasirinkite „Root\Rows“ (šaknis\eilutės).
-13. Spustelėkite Įtraukti seką.
-14. Lauke Pavadinimas įveskite „Laukai“.
-    * Laukai  
-15. Lauke Daugialypumas pasirinkite „Tiksliai vienas“.
-16. Spustelėkite GERAI.
-17. Medyje pasirinkite „Root\Rows\Fields“ (šaknis\eilutės\laukai).
-18. Spustelėdami Įtraukti atidarykite išplečiamąjį dialogo langą.
-19. Medyje pasirinkite „Tekstas \ Eilutė‟.
-20. Lauke „Pavadinimas“, įveskite „IBAN“.
-    * IBAN  
-21. Spustelėkite GERAI.
-    * Sukonfigūruota, kad kiekvienoje analizavimo failo eilutėje būtų tik vienas IBAN kodas.  
-22. Spustelėkite Įrašyti.
+Įtraukite naują ER formatą, kad galėtumėte analizuoti gaunamus banko išrašus TXT formatu.
 
-## <a name="design-the-er-format-configuration--mapping-to-data-model"></a>ER formato konfigūracijos kūrimas – susiejimas su duomenų modeliu
-1. Spustelėkite Susieti formatą su modeliu.
-2. Spustelėkite Naujas.
-3. Lauke Aprašas įveskite „BankToCustomerDebitCreditNotificationInitiation“.
-    * BankToCustomerDebitCreditNotificationInitiation  
-4. ResolveChanges – aprašas.
-5. Lauke Pavadinimas įveskite „Susiejimas su duomenų modeliu“.
-    * Susiejimas su duomenų modeliu  
-6. Spustelėkite Įrašyti.
-7. Spustelėkite Konstruktorius.
-8. Medyje pasirinkite „Dynamics 365 for Operations\Class“.
-9. Spustelėkite „Įtraukti šaknį“.
-    * Įtraukite naują duomenų šaltinį, skirtą iškviesti esamą programos logiką, kad būtų galima patikrinti IBAN kodus.  
-10. Lauke Pavadinimas įveskite „check_codes“.
-    * check_codes  
-11. Lauke Klasė įveskite „ISO7064“.
-    * ISO7064  
-12. Spustelėkite GERAI.
-13. Medyje išplėskite „format“.
-14. Medyje išplėskite „formatas\Šaknis: seka(šaknis)“.
-15. Medyje pasirinkite „formatas\Šaknis: seka(šaknis)\Eilutės: seka 1..* (eilutės)“.
-16. Spustelėkite Susieti.
-17. Medyje išplėskite „formatas\Šaknis: seka(šaknis)\Eilutės: seka 1..* (eilutės)“.
-18. Medyje išplėskite „formatas\Šaknis: seka(šaknis)\Eilutės: seka 1..* (eilutės)\Laukai: seka 1..1 (laukai)“.
-19. Medyje pasirinkite „formatas\Šaknis: seka(šaknis)\Eilutės: seka 1..* (eilutės)\Laukai: seka 1..1 (laukai)\IBAN: eilutė(IBAN)“.
-20. Medyje išplėskite „Payments = format.Root.Rows“ (mokėjimai = formatas, šaknis, eilutės).
-21. Medyje išplėskite „Mokėjimai = formatas.Šaknis.Eilutės\Kreditoriaus sąskaita(KreditoriausSąskaita)“.
-22. Medyje išplėskite „Mokėjimai = formatas.Šaknis.Eilutės\Kreditoriaus sąskaita(KreditoriausSąskaita)\Identifikacija“.
-23. Medyje pasirinkite „Mokėjimai = formatas.Šaknis.Eilutės\Kreditoriaus sąskaita(KreditoriausSąskaita)\Identifikacija\IBAN“.
-24. Spustelėkite Susieti.
-25. Spustelėkite skirtuką Tikrinimai.
-26. Spustelėkite Naujas.
-    * Įtraukite naują tikrinimo taisyklę, kuri rodo bet kurios analizavimo failo eilutės klaidą, kai įvedamas netinkamas IBAN kodas.  
-27. Spustelėkite Redaguoti sąlygą.
-28. Medyje išplėskite „check_codes“.
-29. Medyje pasirinkite „check_codes\verifyMOD1271_36“.
-30. Spustelėkite „Įtraukti duomenų šaltinį“.
-31. Lauke Formulė įveskite „check_codes.verifyMOD1271_36(“.
-    * check_codes.verifyMOD1271_36(  
-32. Medyje išplėskite „format“.
-33. Medyje išplėskite „formatas\Šaknis: seka(šaknis)“.
-34. Medyje išplėskite „formatas\Šaknis: seka(šaknis)\Eilutės: seka 1..* (eilutės)“.
-35. Medyje išplėskite „formatas\Šaknis: seka(šaknis)\Eilutės: seka 1..* (eilutės)\Laukai: seka 1..1 (laukai)“.
-36. Medyje pasirinkite „formatas\Šaknis: seka(šaknis)\Eilutės: seka 1..* (eilutės)\Laukai: seka 1..1 (laukai)\IBAN: eilutė(IBAN)“.
-37. Spustelėkite „Įtraukti duomenų šaltinį“.
-38. Lauke Formulė įveskite „check_codes.verifyMOD1271_36(format.Root.Rows.Fields.IBAN)“.
-    * check_codes.verifyMOD1271_36(format.Root.Rows.Fields.IBAN)  
-39. Spustelėkite Įrašyti.
-40. Uždarykite puslapį.
-    * Sukonfigūruota, kad bet kuriuo netinkamo IBAN kodo atveju tikrinimo sąlygos pateiktų rezultatą FALSE (klaidinga), o esamas programos klasės „ISO7064“ metodas būtų pavadintas „verifyMOD1271_36“. Atkreipkite dėmesį į tai, kad IBAN kodo vertė nurodoma dinamiškai vykdymo laiku kaip metodo iškvietimo argumentas pagal analizavimo TXT failo turinį.   
-41. Spustelėkite Redaguoti pranešimą.
-42. Lauke Formulė įveskite „CONCATENATE("Invalid IBAN code has been found: ", format.Root.Rows.Fields.IBAN)“.
-    * CONCATENATE("Invalid IBAN code has been found: ", format.Root.Rows.Fields.IBAN)  
-43. Spustelėkite Įrašyti.
-44. Uždarykite puslapį.
-45. Spustelėkite Įrašyti.
-46. Uždarykite puslapį.
+1. Puslapyje **Lokalizavimo konfigūracijos** pasirinkite ataskaitų **konfigūracijų išklotines** dalies.
+2. Konfigūracijos **puslapio** konfigūracijos medyje, kairiajame lange, pasirinkite **Mokėjimo** modelį.
+3. Pasirinkite **Kurti konfigūraciją**. 
+4. Išplečiamajame dialogo lange atlikite toliau nurodytus veiksmus.
+
+    1. Lauke **Naujas** įveskite **Formatas pagal duomenų modelį PaymentModel**.
+    2. Lauke Pavadinimas **·** įveskite banko **išrašo importavimo formatą (pavyzdį).**
+    3. Lauke **Palaikomas duomenų** importavimas pasirinkite **·** Taip.
+    4. Jei **norite baigti konfigūracijos** sukūrimą, pasirinkite Kurti konfigūraciją.
+
+## <a name="design-the-er-format-configuration--format"></a>ER formato konfigūracijos kūrimas – formatas
+
+Kurti ER formatą, nurodantį numatomą išorinio failo struktūrą TXT formatu.
+
+1. Įtrauktai **banko išrašo importavimo formato** (pavyzdžio) formato konfigūracijai pasirinkite Konstruktorius. **·**
+2. Formato **dizainerio** puslapio, kuris yra kairiojoje srityje esančioje formato struktūros medyje, pasirinkite Įtraukti **·** šakninį.
+3. Atsiradusiame dialogo lange atlikite toliau nurodytus veiksmus:
+
+    1. Medyje pasirinkite Text **\\ Sequence, kad** įtraukumėte sekos **formato** komponentą.
+    2. Lauke **Pavadinimas** įveskite **·** Šakninis.
+    3. Lauke **Specialūs simboliai** pasirinkite Nauja eilutė – Windows **(CR** LF). Remiantis šiuo parametru, kiekviena analizatoriaus failo eilutė bus laikoma atskiru įrašu.
+    4. Pasirinkite **Gerai**.
+
+4. Pasirinkite **Įtraukti**.
+5. Atsiradusiame dialogo lange atlikite toliau nurodytus veiksmus:
+
+    1. Medyje pasirinkite Teksto **\\** seka.
+    2. Lauke **Pavadinimas** įveskite **Eilutes**.
+    3. Lauke **Daugialypumas** pasirinkite **Vienas daug**. Pagal šį parametrą, analizatoriaus faile bus bent viena eilutė.
+    4. Pasirinkite **Gerai**.
+
+6. Medyje pasirinkite **Šakninės \\** eilutės, tada pasirinkite **Įtraukti seką**.
+7. Atsiradusiame dialogo lange atlikite toliau nurodytus veiksmus:
+
+    1. Lauke **Pavadinimas** įveskite **·** laukus.
+    2. Lauke **Daugiamatis** pasirinkite **Tiksliai** vienas.
+    3. Pasirinkite **Gerai**.
+
+8. Medyje pasirinkite **šakninių \\ eilučių \\** laukus, tada pasirinkite **·** Įtraukti.
+9. Atsiradusiame dialogo lange atlikite toliau nurodytus veiksmus:
+
+    1. Medyje pasirinkite **Teksto \\** eilutę.
+    2. Lauke **Pavadinimas** įveskite **·** IBAN.
+    3. Pasirinkite **Gerai**.
+
+10. Pasirinkite **Įrašyti**.
+
+Dabar konfigūracija nustatoma taip, kad kiekvienoje analizatoriaus failo eilutėje būtų tik IBAN kodas.
+
+![Banko išrašo importavimo formato (pavyzdžio) formato konfigūracija formato konstruktoriaus puslapyje.](../media/design-expressions-app-class-er-01.png)
+
+## <a name="design-the-er-format-configuration--mapping-to-a-data-model"></a>ER formato konfigūracijos kūrimas – susiejimas su duomenų modeliu
+
+Sukurkite ER formato susiejimą, kuris naudoja analizatoriaus failo informaciją duomenų modeliui užpildyti.
+
+1. Veiksmų **srities puslapyje** Formato konstruktorius pasirinkite Susieti **formatą su** modeliu.
+2. Modelio **ir duomenų šaltinio susiejimo** puslapyje, veiksmų srityje, pasirinkite **·** Naujas.
+3. Apibrėžimo **·** lauke pasirinkite **BankToCustomerDebitCreditNotificationInitiation.**
+4. Lauke **Pavadinimas** įveskite Susiejimas **su duomenų** modeliu.
+5. Pasirinkite **Įrašyti**.
+6. Pasirinkite **Dizaino įrankis**.
+7. Modelio **susiejimo** dizainerio puslapio duomenų **šaltinio tipų** medyje pasirinkite **Dynamics 365 for Operations\\** Klasė.
+8. Duomenų šaltinių skyriuje pasirinkite Įtraukti šakninį kodą, kad įtraukumėte duomenų šaltinį, kuris iškies esamą **·** **·** IBAN kodų tikrinimo programos logiką.
+9. Atsiradusiame dialogo lange atlikite toliau nurodytus veiksmus:
+
+    1. Lauke **Pavadinimas** įveskite **Čekio \_** kodai.
+    2. Klasės **lauke** įveskite arba pasirinkite **ISO7064.**
+    3. Pasirinkite **Gerai**.
+
+10. Duomenų šaltinio **tipų** medyje atlikite šiuos veiksmus:
+
+    1. Išplėskite **formato** duomenų šaltinį.
+    2. Išplėskite **formato \\ šakninį: seka (šakninė)**.
+    3. Išplėskite \\ formato šakninį: sekos \\ (šakninės) eilutės: 1 seka.\* (eilutės) .
+    4. Išplėskite **\\ formato šakninį: sekos (šakninės) \\ eilutės: 1 seka.\* (eilučių) \\ laukai: seka 1..1** (laukai).
+
+11. Duomenų modelio **·** medyje atlikite šiuos veiksmus:
+
+    1. Išplėskite **·** duomenų modelio lauką Mokėjimai.
+    2. Išplėsti **mokėjimų \\ kreditoriaus sąskaitą (CreditorAccount)**.
+    3. Išplėsti **mokėjimų \\ kreditoriaus sąskaitos (Kreditoriaus sąskaitos) \\** identifikavimą.
+    4. Išplėsti **mokėjimų \\ kreditoriaus sąskaitos (kreditoriaus sąskaitos) identifikavimo \\\\** IBAN.
+
+12. Norėdami sukonfigūruoto formato komponentus susieti su duomenų modelio laukais, atlikite šiuos veiksmus:
+
+    1. Pasirinkite \\ formatą Šaknis: seka \\ (šakninės) eilutės: 1 seka.\* (eilutės) .
+    2. Pasirinkite **·** mokėjimus.
+    3. Pasirinkite **Susieti**. Remiantis šiuo parametru, kiekviena analizatoriaus failo eilutė bus laikoma vienu mokėjimu.
+    4. Pasirinkite **\\ formatą Šaknis: sekos (šakninės) \\ eilutės: 1 seka.\* (eilučių) \\ laukai: 1..1 seka (laukai) \\ IBAN: eilutė (IBAN)**.
+    5. Pasirinkite **mokėjimų \\ kreditoriaus sąskaitos (kreditoriaus sąskaitos) identifikavimo \\\\** IBAN.
+    6. Pasirinkite **Susieti**. Remiantis šiuo parametru, į duomenų modelio IBAN lauką **bus įrašoma reikšmė iš** analizatoriaus failo.
+
+    ![Formato komponentų susiejimas su duomenų modelio laukais modelio susiejimo dizaino įrankio puslapyje.](../media/design-expressions-app-class-er-02.png)
+
+13. Skirtuke Tikrinimas atlikite šiuos veiksmus, norėdami įtraukti tikrinimo taisyklę, kuri rodo klaidos pranešimą bet kuriai analizatoriaus failo eilutei, kurioje yra **·**[...](../general-electronic-reporting-formula-designer.md#Validation) netinkamas IBAN kodas:
+
+    1. Pasirinkite **·** Nauja, o tada pasirinkite **Redaguoti** sąlygą.
+    2. Duomenų šaltinio medžio formulės dizaino įrankio puslapyje išplėskite duomenų šaltinio tikrinimo kodų duomenų šaltinį, kuris nurodo **·** **·** **\_** **ISO7064 programos** klasę, kad būtų galima peržiūrėti galimų šios klasės metodų sąrašą.
+    3. Pasirinkite **\_ Čekių \\ kodai verifyMOD1271 \_ 36.**
+    4. Pasirinkite **Įtraukti duomenų šaltinį**.
+    5. Formulės lauke **įveskite** šią išraišką: patikrinkite [...](../general-electronic-reporting-formula-designer.md#Binding)**\_ kodus.verifyMOD1271 \_ 36 (formatas. Šakninis.eilutės.Laukai.IBAN)**.
+    6. Pasirinkite **Įrašyti** ir uždarykite puslapį.
+    7. Pasirinkite **Redaguoti** pranešimą.
+    8. Formulės **dizainerio puslapio formulės lauke** įveskite **·** **CONCATENATE(Rastas netinkamas IBAN &nbsp; kodas: Formatas. Šakninis.eilutės.Laukai.IBAN)**.
+    9. Pasirinkite **Įrašyti** ir uždarykite puslapį.
+
+    Atsižvelgiant į šiuos parametrus, tikrinimo sąlyga grąžins bet kurio netinkamo IBAN kodo FALSE, iškviesdamas esamą *[...](../er-formula-supported-data-types-primitive.md#boolean)* **\_** ISO7064 programos klasės verifyMOD1271 **36** metodą. Atkreipkite dėmesį, kad IBAN kodo vertė vykdyklėje yra dinamiškai apibrėžta kaip skambinimo metodo argumentas, paremtas analizės teksto failo turiniu.
+
+    ![Tikrinimo taisyklė modelio susiejimo konstruktoriaus puslapyje.](../media/design-expressions-app-class-er-03.png)
+
+14. Pasirinkite **Įrašyti**.
+15. Uždarykite **modelio susiejimo dizaino** įrankio puslapį, tada uždarykite **modelio ir duomenų šaltinio susiejimo** puslapį.
 
 ## <a name="run-the-format-mapping"></a>Paleisti formato susiejimą
-Bandymams atlikti formato susiejimą vykdykite naudodami anksčiau atsisiųstą failą SampleIncomingMessage.txt. Sugeneruotoje išvestyje pateikiami iš pasirinkto TXT failo importuoti duomenys, kurie realiojo importo metu bus automatiškai įvesti į pasirinktinių duomenų modelį.   
-1. Spustelėkite Vykdyti.
-    * Spustelėkite Naršyti ir suraskite anksčiau atsisiųstą failą SampleIncomingMessage.txt.  
-2. Spustelėkite GERAI.
-    * Peržiūrėkite išvestį XML formatu, kuriuo rodomi iš pasirinkto failo importuoti ir į duomenų modelį perkelti duomenys. Atkreipkite dėmesį, kad apdorotos tik 3 importuojamo TXT failo eilutės. 4 eilutėje esantis netinkamas IBAN kodas praleistas ir sistemos pranešime pateikiamas klaidos pranešimas.  
 
+Norėdami patikrinti, vykdykite formato susiejimą naudodami anksčiau atsisiųstą failą SampleIncomingMessage.txt. Sugeneruotoje išeigaje bus duomenys, kurie importuoti iš pasirinkto teksto failo ir realiuoju importavimo metu prievaduoti į pasirinktinį duomenų modelį.
 
+1. Modelio ir **duomenų šaltinio susiejimo** puslapyje pasirinkite **·** Vykdyti.
+2. Elektroninės ataskaitos parametrų puslapyje pasirinkite Naršyti, pereikite prie **·** failo **·** **SampleIncomingMessage.txt, kurį jūs** atsisiųstas, ir pasirinkite jį.
+3. Pasirinkite **Gerai**.
+4. Atkreipkite **dėmesį, kad modelio ir duomenų šaltinio** susiejimo puslapyje rodomas klaidos pranešimas apie netinkamą IBAN kodą.
+
+    ![Modelio ir duomenų šaltinio susiejimo puslapyje vykdant formato susiejimą rezultatas.](../media/design-expressions-app-class-er-04.png)
+
+5. Peržiūrėkite išvestį XML formatu, kuriuo rodomi iš pasirinkto failo importuoti ir į duomenų modelį perkelti duomenys. Atkreipkite dėmesį, kad tik trys importuoto teksto failo eilutės apdorotos be klaidų. 4 interneto IBAN kodas yra netinkamas ir buvo praleistas.
+
+    ![XML išvestis.](../media/design-expressions-app-class-er-05.png)
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

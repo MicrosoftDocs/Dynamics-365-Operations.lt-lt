@@ -2,7 +2,7 @@
 title: Elektroninių SF išrašymo priedų „Regulatory Configuration Services“ (RCS) konfigūravimas
 description: Šioje temoje paaiškinama, kaip konfigūruoti elektroninių sąskaitų priedus „Dynamics 365 Regulatory Configuration Services“ (RCS).
 author: gionoder
-ms.date: 07/29/2021
+ms.date: 11/08/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 98ba40da7b365e46e1c624ba70c7dc048144e2c7137e8fd8eb5abe348028ce35
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 640244612a2a553ec09661635787cb7f8694283b
+ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6757979"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7779675"
 ---
 # <a name="configure-electronic-invoicing-in-regulatory-configuration-services-rcs"></a>Elektroninių SF išrašymo priedų „Regulatory Configuration Services“ (RCS) konfigūravimas
 
@@ -28,7 +28,7 @@ ms.locfileid: "6757979"
 
 Šioje temoje pateikiama informacija apie konfigūravimo galimybes elektroninių sąskaitų prieduose „Dynamics 365 Regulatory Configuration Services“ (RCS).
 
-Per galimybių konfigūravimą, kuriuo elektroninės sąskaitos priedas padeda jums atitikti verslo ir reglamentų reikalavimus elektroninėms sąskaitoms be jokio kodavimo. Scenarijų atvejais, kai elektroninės sąskaitos turi būti elektroniniu būdu patvirtintos žiniatinklio paslaugų, konfigūravimo galimybės taip pat jums padeda atitikti reikalavimus pranešimų apsikeitimui su žiniatinklio paslaugomis be jokio kodavimo.
+Per galimybių konfigūravimą, kuriuo elektroninės sąskaitos priedas padeda jums atitikti verslo ir reglamentų reikalavimus elektroninėms sąskaitoms be jokio kodavimo. Ir scenarijuose, kuriuose elektroninės SF turi būti elektroniniu būdu patvirtintos tinklo tarnybos, konfigūravimo galimybės taip pat padeda patenkinti pranešimų mainų su žiniatinklio tarnyba reikalavimus, neateidami jokių kodų.
 
 ## <a name="electronic-reporting"></a>Elektroninė ataskaita
 
@@ -73,6 +73,7 @@ Toliau pateikiamoje lentelėje rodomos bendrai prieinamos elektroninių sąskait
 | Ispanija          | Ispanijos elektroninė SF (ES)      | Pardavimo SF ir projekto SF |
 | Europa         | PEPPOL elektroninė SF            | PEPPOL pardavimo SF ir projekto SF |
 | Europa         | PEPPOL tiekėjo sąskaita                | PEPPOL importo tiekėjo SF |
+| Saudo Arabija   | Saudo Arabijos elektroninė SF (SA)| Pardavimo SF ir projekto SF |
 
 ### <a name="preview-features"></a>Peržiūros funkcijos
 
@@ -197,6 +198,11 @@ Toliau pateikti sąrašai rodo ER formato konfigūracijas, galimas elektroninių
 - Pardavimo SF (ES)
 - Projekto SF (ES)
 
+#### <a name="saudi-arabian-sa-electronic-invoice-sales-and-project-invoices-for-saudi-arabia"></a>Saudo Arabijos (SA) elektroninė SF: Saudo Arabijos pardavimo ir projekto SF
+
+- Pardavimo el. SF (SA)
+- Projekto el. SF (SA)
+
 Be ER formato konfigūracijų, kurios yra visiškai parengtos naudoti su Elektroninių sąskaitų faktūrų išrašymo paslauga, jūs taip pat galite sukurti savo ER formato konfigūracijas. Tačiau formato konfigūracijos, sukurtos naudoti su Elektroninių sąskaitų faktūrų išrašymo funkcijomis, nepalaiko tiesioginės nuorodos į „Finance” ar „Supply Chain Management” lenteles ar bet kuriuos atitinkamus metaduomenis. Palaikomos tik nuorodos į ER modelio susiejimą.
 
 ### <a name="actions"></a>Veiksmai
@@ -275,10 +281,10 @@ Loginiai operatoriai:
 - Arba
 
 Operatorių tipai:
-- Lygu
-- Nelygu
-- Didesnis nei
-- Mažesnis nei
+- Equal
+- Not equal
+- Greater than
+- Less than
 - Daugiau arba lygu
 - Mažiau arba lygu
 - Susideda iš
@@ -352,7 +358,7 @@ Naudodami programos nustatymą galite konfigūruoti elektroninių SF išrašymo 
 - **Verslo dokumento išdėstymas** – SF išdėstymo modelio, sukonfigūruoto naudojant ER, pavadinimas.
 
 > [!IMPORTANT]
-> Konfigūraciją, įvestą programos nustatyme, galima peržiūrėti „Finance and Supply Chain Management“ lange. Eikite į **Organizacijos administravimas \> Nustatymas \> Elektroninių dokumentų parametras**. Skirtuke **Elektroninis dokumentas** pasirinkite **Diegti** , tada pasirinkite parinktį **Prijungta** programa.
+> Konfigūraciją, įvestą programos nustatyme, galima peržiūrėti „Finance and Supply Chain Management“ lange. Eikite į **Organizacijos administravimas \> Nustatymas \> Elektroninių dokumentų parametras**. Skirtuke **Elektroninis dokumentas** pasirinkite **Diegti**, tada pasirinkite parinktį **Prijungta** programa.
 
 ### <a name="deploying-feature-versions"></a>Funkcijų versijų diegimas
 

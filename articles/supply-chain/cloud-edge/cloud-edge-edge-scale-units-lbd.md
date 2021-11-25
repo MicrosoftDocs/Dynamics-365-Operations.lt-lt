@@ -1,5 +1,5 @@
 ---
-title: Briaunos skalės vienetų diegimas pasirinktinėje aparatūroje naudojant LBD (peržiūra)
+title: Briaunos skalės vienetų diegimas pasirinktinėje aparatūroje naudojant LBD
 description: Šioje temoje paaiškinama, kaip parengti vietinės briaunos svarstyklių vienetus naudojant pasirinktinę aparatūrą ir diegimą, pagrįstą vietinės verslo duomenimis (LBD).
 author: cabeln
 ms.date: 04/22/2021
@@ -9,24 +9,21 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: cabeln
 ms.search.validFrom: 2021-04-13
-ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 0ebbdaab9d6f040497d3158db2712e102b6e9aa8
-ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
-ms.translationtype: HT
+ms.dyn365.ops.version: 10.0.21
+ms.openlocfilehash: f1ab0a2c289f48dd8bfb7529f0dcc694a97f18ea
+ms.sourcegitcommit: e91a1797192fd9bc4048b445bb5c1ad5d333d87d
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/25/2021
-ms.locfileid: "7678986"
+ms.lasthandoff: 11/01/2021
+ms.locfileid: "7729080"
 ---
-# <a name="deploy-edge-scale-units-on-custom-hardware-using-lbd-preview"></a>Briaunos skalės vienetų diegimas pasirinktinėje aparatūroje naudojant LBD (peržiūra)
+# <a name="deploy-edge-scale-units-on-custom-hardware-using-lbd"></a>Briaunos skalės vienetų diegimas pasirinktinėje aparatūroje naudojant LBD
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)] <!--KFM: Until 11/1/2021 -->
 
 Kraštų skalės vienetai atlieka svarbus vaidmenį paskirstytoje tiekimo grandinės valdymo ir kokybės topologijoje. Topologijoje galite paskirstyti darbo krūvius savo „Supply Chain Management“ cloud centre ir papildomiems skalės vienetams debesyje arba ant krašto.
 
 Kraštų skalės vienetus galima įdiegti sukuriant vietinę verslo duomenų (LBD) aplinką ir sukonfigūruojant [šią aplinką, kad](../../fin-ops-core/dev-itpro/deployment/on-premises-deployment-landing-page.md) ji veiktų kaip skalės vienetas jūsų paskirstytoje „supply chain management“ topologijoje. Tai pasiekiama susieant vietinę LBD aplinką su „Supply Chain Management“ aplinka debesyje, kuri sukonfigūruota veikti kaip centras.  
-
-Kraštų skalės vienetai šiuo metu peržiūrimi. Todėl šio tipo aplinką galima naudoti tik pagal [peržiūros terminus](https://aka.ms/scmcnepreviewterms).
 
 Šioje temoje aprašoma, kaip nustatyti vietinę LBD aplinką kaip kraštų skalės vienetą ir susieti ją su centru.
 
@@ -36,11 +33,9 @@ Toliau pateikta talpinimo veiksmų apžvalga.
 
 1. **Įjunkite savo LBD projekto ciklo tarnybose „Microsoft Dynamics Lifecycle Services“ (LCS).**
 
-    Peržiūros metu LBD briaunos skalės vienetai skirti esamiems LBD klientams. Papildomos 60 dienų apribotos LBD smėlio dėžės atminties dėžių bus pateiktos tik tam tikrose klientų situacijose.
-
 1. **Nustatykite ir įdiekite LBD aplinką su tuščia *duomenų* baze.**
 
-    Norėdami įdiegti LBD aplinką su naujausia topologija ir tuščia duomenų baze, naudokite LCS. Norėdami gauti daugiau informacijos, žr. [nustatymą ir toliau šioje temoje įdiekite LBD aplinką](#set-up-deploy) su tuščiu duomenų bazės sekcija. Turite naudoti „Supply Chain Management“ 10.0.19 versiją naudodami 43 arba aukštesnę platformos naujinimą visose centro ir skalės vieneto aplinkose.
+    Norėdami įdiegti LBD aplinką su naujausia topologija ir tuščia duomenų baze, naudokite LCS. Norėdami gauti daugiau informacijos, žr. [nustatymą ir toliau šioje temoje įdiekite LBD aplinką](#set-up-deploy) su tuščiu duomenų bazės sekcija. Turite naudoti tiekimo grandinės valdymo 10.0.21 arba vėlesnę versiją visose centro ir skalės vieneto aplinkose.
 
 1. **Įkelkite paskirties paketus į LBD projekto turtą LCS.**
 
@@ -56,16 +51,16 @@ Toliau pateikta talpinimo veiksmų apžvalga.
 
 Likusiuose šios temos skyriuose pateikiama daugiau informacijos, kaip atlikti šiuos veiksmus.
 
-## <a name="set-up-and-deploy-an-lbd-environment-with-an-empty-database"></a><a name="set-up-deploy"></a>Nustatykite ir įdiekite LBD aplinką su tuščia duomenų baze
+## <a name="set-up-and-deploy-an-lbd-environment-with-an-empty-database"></a><a name="set-up-deploy"></a> Nustatykite ir įdiekite LBD aplinką su tuščia duomenų baze
 
 Šis veiksmas sukuria funkcinę LBD aplinką. Tačiau aplinka nebūtinai turi tas pačias programos ir pagrindo versijas kaip ir centro aplinka. Be to, dar trūksta pritaikymų ir jis dar neįgalintas veikti kaip skalės vienetas.
 
-1. Laikykitės instrukcijų [Nustatyti ir talpinti patalpų aplinkas („Platform update 41“ar naujesnės versijos)](../../fin-ops-core/dev-itpro/deployment/setup-deploy-on-premises-pu41.md). Turite naudoti „Supply Chain Management“ 10.0.19 versiją naudodami 43 arba aukštesnę platformos naujinimą visose centro ir skalės vieneto aplinkose
+1. Laikykitės instrukcijų [Nustatyti ir talpinti patalpų aplinkas („Platform update 41“ar naujesnės versijos)](../../fin-ops-core/dev-itpro/deployment/setup-deploy-on-premises-pu41.md). Turite naudoti tiekimo grandinės valdymo 10.0.21 arba vėlesnę versiją visose centro ir skalės vieneto aplinkose. Be to, turite naudoti 2.12.0 arba vėlesnę infrastruktūros scenarijų versiją. 
 
     > [!IMPORTANT]
     > Prieš pabaigdami šios temos **veiksmus**, perskaitykite likusią šio skyriaus dalį.
 
-1. Prieš aprašę savo konfigūraciją faile \\ConfigTemplate.xml, paleiskite šį scenarijų:
+1. Prieš aprašę savo konfigūraciją faile \\ ConfigTemplate.xml, paleiskite šį scenarijų:
 
     ```powershell
     .\Configure-ScriptsForEdgeScaleUnits.ps1 -ConfigurationFilePath .\ConfigTemplate.xml
@@ -75,10 +70,51 @@ Likusiuose šios temos skyriuose pateikiama daugiau informacijos, kaip atlikti �
     > Šis scenarijus pašalins bet kokią konfigūraciją, kurios nereikia norint įdiegti briaunos skalės vienetus.
 
 1. Nustatykite duomenų bazę, kurioje yra tušti duomenys, kaip aprašyta [konfigūruoti duomenų bazes](../../fin-ops-core/dev-itpro/deployment/setup-deploy-on-premises-pu41.md#configuredb). Šiam veiksmui naudoti tuščią data.bak failą.
-1. Nustatykite išankstinio diegimo scenarijų. Dėl daugiau informacijos, žr. [Vietinio agento išankstinio ir vėlesnio visuotinio diegimo scenarijai](../../fin-ops-core/dev-itpro/lifecycle-services/pre-post-scripts.md).
+1. Baigę duomenų bazių konfigūravimo veiksmą, vykdykite toliau nurodytą scenarijų, norėdami sukonfigūruoti [skalės](../../fin-ops-core/dev-itpro/deployment/setup-deploy-on-premises-pu41.md#configuredb) vieneto konvertavimo instrumentatoriaus duomenų bazę.
 
-    1. Nukopijuokite turinį iš infrastruktūros scenarijų aplanko **ScaleUnit** katalogą **Infrastruktūros scenarijai** į **Scenarijai** katalogo agento failo talpinimo bendrinime, kuris buvo nustatytas aplinkoje. Įprastas maršrutas yra  \\\\lbdiscsi01\\agentas\\Scenarijai.
-    2. Sukurkite **PreDeployment.ps1** scenarijų, kuris iškviečiami scenarijus naudojant reikiamus parametrus. Išankstinio diegimo scenarijus turi būti laikomas scenarijų aplanke agento bendro naudojimo failų **saugykloje**. Kitu atveju jos paleisti negalima. Įprastas maršrutas yra \\\\lbdiscsi01\\agentas\\Scenarijai\\PreDeployment.ps1.
+    > [!NOTE]
+    > Nekonfigūruokite finansinių ataskaitų duomenų bazės [atliekant duomenų bazės konfigūravimo](../../fin-ops-core/dev-itpro/deployment/setup-deploy-on-premises-pu41.md#configuredb) veiksmą.
+
+    ```powershell
+    .\Initialize-Database.ps1 -ConfigurationFilePath .\ConfigTemplate.xml -ComponentName EdgeScaleUnit
+    ```
+
+    Inicializuoti duomenų bazę.ps1 scenarijus atlieka šiuos veiksmus:
+
+    1. Sukurkite tuščią duomenų bazę, **pavadintą ScaleUnitDb**.
+    2. Susiekite vartotojus su duomenų bazės vaidmenimis, remiantis šia lentele.
+
+        | Vartotojas            | Tipas | Duomenų bazės vaidmuo |
+        |-----------------|------|---------------|
+        | svc-LocalAgent$ | Asociacija | Db \_ savininkas     |
+
+1. Toliau vadovaukitės sąrankos instrukcijomis [ir įdiekite vietinę aplinką (41 ir vėlesnė platformos naujinimas)](../../fin-ops-core/dev-itpro/deployment/setup-deploy-on-premises-pu41.md).
+1. Baigę konfigūruoti AD [FS](../../fin-ops-core/dev-itpro/deployment/setup-deploy-on-premises-pu41.md#configuredb) veiksmą, atlikite šiuos veiksmus:
+
+    1. Sukurkite naują "Active Directory" federacijos tarnybų (AD FS) programą, kuri įgalins "Įvertinimų instrumentavimo" tarnybą palaikyti ryšį su programos objektų serveriu (AOS).
+
+        ```powershell
+        # Host URL is your DNS record\host name for accessing the AOS
+        .\Create-ADFSServerApplicationForEdgeScaleUnits.ps1 -HostUrl 'https://ax.d365ffo.onprem.contoso.com'
+        ```
+
+    1. Sukurkite naują Azure Active Directory Azure AD () programą, kuri įgalins Jav instrumentavimo tarnybą susisiekti su svarstyklių vienetų valdymo tarnyba.
+
+        ```powershell
+        # Example .\Create-SumAADApplication.ps1 -ConfigurationFilePath ..\ConfigTemplate.xml -TenantId '6240a19e-86f1-41af-91ab-dbe29dbcfb95' -ApplicationDisplayName 'EdgeAgent-SUMCommunication-EN01'
+        .\Create-SumAADApplication.ps1 -ConfigurationFilePath '<Path of the ConfigTemplate.xml file>' `
+                                       -TenantId '<ID of the tenant where your cloud hub is deployed>' `
+                                       -ApplicationDisplayName '<Whichever name you want the Azure AD app to have>'
+        ```
+
+1. Toliau vadovaukitės sąrankos instrukcijomis [ir įdiekite vietinę aplinką (41 ir vėlesnė platformos naujinimas)](../../fin-ops-core/dev-itpro/deployment/setup-deploy-on-premises-pu41.md). Kai turite įvesti vietinio agento konfigūraciją, įsitikinkite, kad įgalinsite "Edge Scale" vieneto funkcijas ir pateikite visus reikiamus parametrus.
+
+    ![Įgalina briaunos skalės vieneto funkcijas.](media/EnableEdgeScaleUnitFeatures.png "Įgalina briaunos skalės vieneto funkcijas.")
+
+1. Prieš diegdami aplinką iš LCS, nustatykite išankstinio diegimo scenarijų. Dėl daugiau informacijos, žr. [Vietinio agento išankstinio ir vėlesnio visuotinio diegimo scenarijai](../../fin-ops-core/dev-itpro/lifecycle-services/pre-post-scripts.md).
+
+    1. Nukopijuokite scenarijų Configure-CloudAndEdge.ps1 iš aplanko ScaleUnit infrastruktūros scenarijuose į aplanką Scenarijai, esantį agento failų saugykloje, kuri nustatyta **·** **·** **·** aplinkoje. Įprastas maršrutas yra  \\\\ lbdiscsi01\\ agentas\\ Scenarijai.
+    2. Sukurkite **PreDeployment.ps1** scenarijų, kuris iškviečiami scenarijus naudojant reikiamus parametrus. Išankstinio diegimo scenarijus turi būti laikomas scenarijų aplanke agento bendro naudojimo failų **saugykloje**. Kitu atveju jos paleisti negalima. Įprastas maršrutas yra \\\\ lbdiscsi01\\ agentas\\ Scenarijai\\ PreDeployment.ps1.
 
         PreDeployment.ps1 scenarijaus turinys bus panašus į toliau pateikiamą pavyzdį.
 
@@ -86,7 +122,7 @@ Likusiuose šios temos skyriuose pateikiama daugiau informacijos, kaip atlikti �
         $agentShare = '\\lbdiscsi01\agent'
         
         Write-Output "AgentShare is set to $agentShare" 
-        & $agentShare\Scripts\Configure-CloudandEdge.ps1 -AgentShare $agentShare -InstanceId '@A' -DatabaseServer 'lbdsqla01.contoso.com' -DatabaseName 'AXDB'
+        . $PSScriptRoot\Configure-CloudAndEdge.ps1 -AgentShare $agentShare -InstanceId '@A'
         ```
 
         > [!NOTE]
@@ -101,137 +137,97 @@ Likusiuose šios temos skyriuose pateikiama daugiau informacijos, kaip atlikti �
         >   - @#
 
 1. Įdiekite aplinką naudodami naujausią bazinę topologiją, kuri yra.
+1. Įdiegę aplinką, atlikite šiuos veiksmus:
 
-## <a name="upload-target-packages-into-lbd-project-assets-in-lcs"></a><a name="upload-packages"></a>Įkelkite paskirties paketus į LBD projekto turtą LCS
+    1. Savo verslo duomenų bazėje (AXDB) vykdykite šias SQL komandas.
+
+        ```sql
+        ALTER TABLE dbo.NUMBERSEQUENCETABLE ENABLE CHANGE_TRACKING WITH (TRACK_COLUMNS_UPDATED = ON)
+        delete from NumberSequenceTable
+        delete from NumberSequenceReference
+        delete from NumberSequenceScope
+        delete from FeatureManagementMetadata
+        delete from FeatureManagementState
+        delete from SysFeatureStateV0
+        ```
+
+    1. Padidinkite vienu metu e pačiu metu seanso maksimalų seansą iki daugiau nei 4 reikšmės.
+
+        ```sql
+        Update batchserverconfig set maxbatchsessions = '<Replace with number of concurrent batch tasks you want>'
+        ```
+
+    1. Patikrinkite, ar jūsų verslo duomenų bazėje (AXDB) įgalintas keitimų sekimas.
+
+        1. Atidarykite SQL serverio valdymo studiją (SSMS).
+        1. Pasirinkite ir sulaikykite (arba spustelėkite dešiniuoju pelės mygtuku) savo verslo duomenų bazę (AXDB), tada pasirinkite **·** Ypatybės.
+        1. Rodomame lange pasirinkite **Keitimų** sekimas ir nustatykite šias vertes:
+
+            - **Keitimų sekimas:** *teisinga*
+            - **Užlaikymo laikotarpis:** *7*
+            - **Užlaikymo vienetai:** *Dienos*
+            - **Automatinis valymas:** *Teisinga*
+
+    1. Pridėkite AD FS programos ID, kurį sukūrėte anksčiau (naudodami create-ADFSServerApplicationForEdgeScaleUnits.ps1 scenarijų) į programų lentelę savo skalės Azure AD vienete. Šį veiksmą galite atlikti rankiniu būdu naudodami vartotojo sąsają (vartotojo SĄSAJĄ). Taip pat galite užbaigti ją per duomenų bazę naudodami šį scenarijų.
+
+        ```sql
+        DECLARE @ALMOrchestratorId NVARCHAR(76) = '<Replace with the ADFS Application ID created in a previous step>';
+
+        IF NOT EXISTS (SELECT TOP 1 1 FROM SysAADClientTable WHERE AADClientId = @ALMOrchestratorId)
+        BEGIN
+            INSERT INTO SysAADClientTable (AADClientId, UserId, Name, ModifiedBy, CreatedBy)
+            VALUES (@ALMOrchestratorId, 'ScaleUnitManagement', 'Scale Unit Management', 'Admin', 'Admin');
+        END
+        ```
+
+## <a name="set-up-an-azure-key-vault-and-an-azure-ad-application-to-enable-communication-between-scale-units"></a><a name="set-up-keyvault"></a> Nustatyti "Azure" rakto saugyklą ir programą, Azure AD kad būtų galima įjungti svarstyklių vienetų ryšį
+
+1. Įdiegus aplinką, sukurkite papildomą programą, kuri įgalina patikimą ryšį tarp Azure AD jūsų centro ir svarstyklių vieneto.
+
+    ```powershell
+    .\Create-SpokeToHubAADApplication.ps1 -ConfigurationFilePath '<Path of the ConfigTemplate.xml file>' `
+                                          -TenantId '<ID of the tenant where your cloud hub is deployed>' `
+                                          -ApplicationDisplayName '<Whichever name you want the Azure AD app to have>'
+    ```
+
+1. Kai sukuriate programą, turite sukurti kliento slaptą ir išsaugoti informaciją "Azure" rakto saugykloje. Be to, turite suteikti prieigą prie sukurtos programos, kad ji galėtų nuskaityti rakto saugykloje Azure AD saugomus paslapius. Jūsų patogumui toliau pateikiamas scenarijus automatiškai atliks visus reikalingus veiksmus.
+
+    ```powershell
+    .\Create-SpokeToHubAADAppSecrets.ps1 -ConfigurationFilePath '<Path of the ConfigTemplate.xml file>' `
+                                         -TenantId '<ID of the tenant where your cloud hub is deployed>' `
+                                         -SubscriptionName '<Any subscription within your tenant>' `
+                                         -ResourceGroupName '<Any resource group within your subscription>' `
+                                         -KeyVaultName '<Any key vault within your resource group>' `
+                                         -Location '<Any Azure location where Azure Key Vault is available>' `
+                                         -LCSEnvironmentId '<The LCS environment ID of your deployed scale unit>' `
+    ```
+
+    > [!NOTE]
+    > Jei nėra kodo saugyklos, kuri turi nurodytą **KeyVaultName** vertę, scenarijus automatiškai sukuria vieną.
+
+1. Įtraukite ką tik sukurtą programos Azure AD ID (naudodami scenarijų Create-SgToHubAADApplication.ps1) į programų lentelę savo Azure AD centre. Šį veiksmą galite atlikti naudodami vartotojo sąsają.
+
+## <a name="upload-target-packages-into-lbd-project-assets-in-lcs"></a><a name="upload-packages"></a> Įkelkite paskirties paketus į LBD projekto turtą LCS
 
 Šis veiksmas paruošia programos versiją, platformos versiją ir pritaikymus, kurie bus pereiti prie jūsų LBD svarstyklių aplinkos.
 
 1. Įkelkite tą patį sujungtos programos / platformos paketą, kuris buvo pritaikytas centro aplinkai, į LCS vietinio projekto turto biblioteką.
 1. Gaukite tinkintą talpinimo paketą, kuris buvo pritaikytas centro aplinkai ir atnaujintas į LCS vietinio projekto turto biblioteką.
 
-## <a name="service-the-lbd-environment-with-target-packages"></a><a name="service-target-packages"></a>LBD aplinkos aptarnavimas su paskirties pakuotėmis
+## <a name="service-the-lbd-environment-with-target-packages"></a><a name="service-target-packages"></a> LBD aplinkos aptarnavimas su paskirties pakuotėmis
 
 Šis veiksmas paruošia programos versiją, platformos versiją ir pritaikymus, kurie bus pereiti prie jūsų LBD svarstyklių aplinkos su centru.
 
 1. Aptarnavimas LBD aplinkoje su sujungtos programos / platformos paketu, kurį nusiuntėte atlikdami ankstesnį veiksmą.
 1. Aptarnavimas LBD aplinkoje su sujungtos tinkintu talpinimo paketu, kurį nusiuntėte atlikdami ankstesnį veiksmą.
 
-    ![Pasirinkdami Tvarkyti > Taikyti naujinimus LCS.](media/cloud_edge-LBD-LCS-ServiceLBDEnv1.png "Pasirinkdami Tvarkyti > Taikyti naujinimus LCS")
+    ![Taikomi LCS naujinimai.](media/cloud_edge-LBD-LCS-ServiceLBDEnv1.png "Taikomi LCS naujinimai")
 
     ![Tinkinimo paketo pasirinkimas.](media/cloud_edge-LBD-LCS-ServiceLBDEnv2.png "Tinkinimo paketo pasirinkimas")
 
-## <a name="assign-your-lbd-edge-scale-unit-to-a-hub"></a><a name="assign-edge-to-hub"></a>Priskirkite savo LBD briaunos svarstyklių vienetą prie centro
+## <a name="assign-your-lbd-edge-scale-unit-to-a-hub"></a><a name="assign-edge-to-hub"></a> Priskirkite savo LBD briaunos svarstyklių vienetą prie centro
 
-Peržiūrėdami kraštų skalės vienetus, privalote naudoti skalės vieneto diegimo ir konfigūravimo įrankius, kuriuos galima naudoti GitHub [norėdami priskirti savo LBD krašto svarstyklių vienetą](https://github.com/microsoft/SCMScaleUnitDevTools) prie centro. Procesas įgalina LBD konfigūraciją veikti kaip krašto skalės vienetas ir susieja ją su centru. Procesas panašus į "one-box" programavimo aplinkos konfigūravimą.
-
-1. Atsisiųskite naujausią [SCMScaleUnitDevTools](https://github.com/microsoft/SCMScaleUnitDevTools/releases) leidimą ir išskleisti failo turinį.
-1. Sukurkite failo kopiją `UserConfig.sample.xml` ir pavadinkite ją `UserConfig.xml`.
-1. Sukurkite „Microsoft Azure Active Directory“ („Azure AD“) programą savo „Azure AD“ nuomotojuje, kaip minėta [Talpinimo gidas skalės vienetams ir darbo apkrovoms](https://github.com/microsoft/SCMScaleUnitDevTools/wiki/Step-by-step-usage-guide#aad-application-registrations).
-    1. Sukūrę, savo centre „Azure AD“ nueikite į programų formą (SysAADClientTable).
-    1. Sukurkite naują įrašą ir nustatykite **kliento ID** kaip programos, kurią sukūrėte, ID. Nustatykite **Pavadinimą** į *ScaleUnits* ir **vartotojo ID** į *Administratorius*.
-
-1. Sukurkite „Active Directory Federation Service" (AD FS) programą, kaip nurodyta [Skalės vieneto ir darbo krūvio diegimo vadove](https://github.com/microsoft/SCMScaleUnitDevTools/wiki/Step-by-step-usage-guide#adfs-application-registrations).
-    1. Sukūrę, savo centre „Azure AD“ nueikite į programų formą (SysAADClientTable) ant jūsų krašto skalės vieneto.
-    1. Sukurkite naują įrašą ir nustatykite **kliento ID** kaip programos, kurią sukūrėte, ID. Nustatykite **Vartotojo ID** į *administratorius*.
-
-1. Modifikuoti `UserConfig.xml` failą.
-    1. Į `InterAOSAADConfiguration` skyrių įveskite informaciją iš anksčiau „Azure AD“ sukurtos programos.
-        - Elemente `AppId` įveskite „Azure" programos ID.
-        - Elemente `AppSecret` įveskite „Azure" raktą programos ID.
-        - Elemente `Authority` turi būti URL, nurodantis jūsų nuomininko saugos įgaliojimus.
-
-        ```xml
-        <InterAOSAADConfiguration>
-            <AppId>8dab14f6-97b1-48e3-b51b-350b45f6ede5</AppId>
-            <AppSecret>k6em-_7.lopty56TGUedDTVhtER-j_6anY1</AppSecret>
-            <Authority>https://login.windows.net/contoso.onmicrosoft.com</Authority>
-        </InterAOSAADConfiguration>
-        ```
-
-    1. Pirmiausia `ScaleUnitConfiguration` skyriuje `ScaleUnitInstance` keiskite `AuthConfiguration` skyrių.
-        - Elemente `AppId` įveskite „Azure" programos ID.
-        - Elemente `AppSecret` įveskite „Azure" raktą programos ID.
-        - Elemente `Authority` turi būti URL, nurodantis jūsų nuomininko saugos įgaliojimus.
-
-        ```xml
-        <AuthConfiguration>
-            <AppId>8dab14f6-97b1-48e3-b51b-350b45f6ede5</AppId>
-            <AppSecret>k6em-_7.lopdz.6d3DTVOtf9Lo-j_6anY1</AppSecret>
-            <Authority>https://login.windows.net/contoso.onmicrosoft.com</Authority>
-        </AuthConfiguration>
-        ```
-
-    1. Taip pat, tam pačiam `ScaleUnitInstance`, nustatykite šias vertes:
-        - Elemente `Domain` nurodykite savo centro URL. Pavyzdžiui: `https://cloudhub.sandbox.operations.dynamics.com/`
-        - Elemente `EnvironmentType` įsitikinkite, kad `LCSHosted` vertė nustatyta.
-
-    1. Pirmiausia `ScaleUnitConfiguration` skyriuje antram `ScaleUnitInstance` keiskite `AuthConfiguration` skyrių.
-        - Elemente `AppId` įveskite „AD FS" programos ID.
-        - Elemente `AppSecret` įveskite „AD FS" raktą programos ID.
-        - Elemente `Authority` turi būti AD FS egzemplioriaus URL.
-
-        ```xml
-        <AuthConfiguration>
-            <AppId>26b16f25-21d8-4d36-987b-62df292895aa</AppId>
-            <AppSecret>iZFfObgI6lLtY9kEbBjEFV98NqI5_YZ0e5SBcWER</AppSecret>
-            <Authority>https://adfs.contoso.com/adfs</Authority>
-        </AuthConfiguration>
-        ```
-
-    1. Taip pat, tam pačiam `ScaleUnitInstance`, nustatykite šias vertes:
-        - Elemente `Domain` nurodykite savo centro URL krašto skalės vienetui. Pavyzdžiui: https://ax.contoso.com/
-        - Elemente įsitikinkite, kad `EnvironmentType` elementas yra LBD nustatytas.
-        - Elemente `ScaleUnitId` įveskite tą pačią vertę, kurią nurodėte `InstanceId` konfigūruodami `Configure-CloudandEdge.ps1` išankstinio diegimo scenarijų.
-
-        > [!NOTE]
-        > Jei nenaudokite numatytojo ID (@A), įsitikinkite, kad atnaujinsite kiekvieno ConfiguredWorkload ScaleUnitId sekcijoje Darbo krūviai.
-
-1. Atidarykite „PowerShell" ir pereikite į aplanką, kuriame yra `UserConfig.xml` failas.
-
-1. Vykdykite įrankį su šia komanda.
-
-    ```powershell
-    .\CLI.exe
-    ```
-
-    > [!NOTE]
-    > Po kiekvieno veiksmo, turite iš naujo paleisti įrankį.
-
-1. Į įrankį pasirinkite **2. Paruoškite darbo krūvio diegimo aplinkas**. Tada vykdykite šiuos veiksmus:
-    1. Pasirinkite **1. Paruoškite centrą**.
-    1. Pasirinkite **2. Paruoškite skalės vienetą**.
-
-    > [!NOTE]
-    > Jei šios komandos nevykdote iš valymo diegimo ir jos atlikti nepavyko, atlikite šiuos veiksmus:
-    >
-    > - Pašalinti visus aplanko aplankus `aos-storage` (išskyrus `GACAssemblies`).
-    > - Savo verslo duomenų bazėje (AXDB) vykdykite šią SQL komandą:
-    >
-    > ```sql 
-    > delete from storagefoler
-    > ```
-
-1. Savo verslo duomenų bazėje (AXDB) vykdykite šią SQL komandą:
-
-    ```sql
-    delete from FEATUREMANAGEMENTMETADATA
-    delete from FEATUREMANAGEMENTSTATE
-    delete from NUMBERSEQUENCESCOPE
-    ```
-
-1. Keitimų sekimo įgalinimas jūsų verslo duomenų bazėje (AXDB)
-    1. Start SQL „Server Management Studio“ (SSMS).
-    1. Dešiniuoju pelės klavišu spustelėkite savo verslo duomenų bazę (AXDB) ir pasirinkite ypatybes.
-    1. Atidarytuose languose pasirinkite **Keitimų sekimas** ir atlikite šiuos parametrus:
-
-        - **Keitimų sekimas:** *teisinga*
-        - **Užlaikymo laikotarpis:** *7*
-        - **Užlaikymo vienetai:** *Dienos*
-        - **Automatinis valymas:** *Teisinga*
-
-1. Į įrankį pasirinkite **3. Įdiekite darbo krūvius**. Tada vykdykite šiuos veiksmus:
-    1. Pasirinkite **1. Įdiekite hub**.
-    1. Pasirinkite **2. Įdiekite svarstyklių vienetais**.
+Konfigūruojate ir valdote savo kraštų skalės vienetą naudodami svarstyklių valdymo portalą. Daugiau informacijos ieškokite Skyriuje Valdyti [skalės vienetus ir darbo krūvius naudojant skalės vieneto tvarkytuvo](./cloud-edge-landing-page.md#scale-unit-manager-portal) portalą.
 
 [!INCLUDE [cloud-edge-privacy-notice](../../includes/cloud-edge-privacy-notice.md)]
 

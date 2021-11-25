@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: fa5a618527ce5a20b59902e7397000bf0796cbbb
-ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
-ms.translationtype: HT
+ms.openlocfilehash: f852779d43beb3a43c6921a25d393ee00dff96d1
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "7647194"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7777966"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>Gamybos cecho vykdymo sąsajos konfigūravimas
 
@@ -39,7 +39,7 @@ Gamybos aukšto vykdymo sąsaja pati kartu su keletu pasirenkamų nustatymų yra
 
 ### <a name="the-production-floor-execution-interface"></a>Gamybos aukšto vykdymo sąsaja
 
-Tai yra pirminė šioje temoje aprašyta funkcija. Ji įtraukia gamybos aukšto vykdymo sąsają į jūsų sistemą. Norėdami ją įjungti, įjunkite tolesnę funkciją [Funkcijos valdyme](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
+Tai yra pirminė šioje temoje aprašyta funkcija. Kaip tiekimo grandinės valdymo versija 10.0.21, ji yra įjungta pagal numatytuosius nustatymus. Ji įtraukia gamybos aukšto vykdymo sąsają į jūsų sistemą. Norėdami ją įjungti, įjunkite tolesnę funkciją [Funkcijos valdyme](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
 
 - Gamybos aukšto vykdymas
 
@@ -47,19 +47,19 @@ Tai yra pirminė šioje temoje aprašyta funkcija. Ji įtraukia gamybos aukšto 
 
 Šios funkcijos leidžia licencijos plokštelės funkcijas veikti gamybos aukšto vykdymo sąsajoje. Jei norėtumėte jas naudoti, įjunkite tolesnes funkcijas [funkcijų valdyme](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) (tokia tvarka):
 
-1. Užbaigtos ataskaitos numerio lentelė įtraukta į užduoties kortelės įrenginį
+1. Numerio lentelė, skirta skelbimui, kad baigta, įtraukta į užduoties kortelės įrenginį (kaip tiekimo grandinės valdymo versija 10.0.21, ši funkcija įjungta pagal numatytuosius nustatymus.)
 1. Įgalinkite automatinį numerio lentelės numerio generavimą, kai Užduoties kortelės įrenginyje pranešama apie pabaigimą
 
 ### <a name="print-labels"></a>Spausdinti etiketes
 
 Šios funkcijos leidžia žymės spausdinimo funkcijas veikti gamybos aukšto vykdymo sąsajoje. Jei norėtumėte jas naudoti, įjunkite tolesnes funkcijas [funkcijų valdyme](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) (tokia tvarka):
 
-1. Užbaigtos ataskaitos numerio lentelė įtraukta į užduoties kortelės įrenginį
+1. Numerio lentelė, skirta skelbimui, kad baigta, įtraukta į užduoties kortelės įrenginį (kaip tiekimo grandinės valdymo versija 10.0.21, ši funkcija įjungta pagal numatytuosius nustatymus.)
 1. Spausdinti etiketę iš užduoties kortelės įrenginio
 
 ### <a name="allow-locking-the-touch-screen"></a>Leisti užrakinti jutiklinį ekraną
 
-Ši funkcija įtraukia mygtuką į gamybos aukšto vykdymo sąsają, kuri leidžia darbuotojams valyti liečiamąjį ekraną. Norėdami ją naudoti, įjunkite tolesnę funkciją [Funkcijos valdyme](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
+Kaip tiekimo grandinės valdymo versija 10.0.21, ši funkcija yra įjungta pagal numatytuosius nustatymus. Jis prideda mygtuką prie gamybos grindų vykdymo sąsajos, kuri leidžia darbuotojams dezinfekuoti jutiklinį ekraną. Jei norite jį naudoti, įsitikinkite, kad funkcijų valdymo metu įjungta [ši](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) funkcija:
 
 - Funkcija skirta užrakinti darbo kortelės prietaisą ir darbo kortelės terminalą jų valymui
 

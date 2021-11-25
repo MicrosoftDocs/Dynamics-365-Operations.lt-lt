@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-14
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 358f5a87cdb42f0ff646948da8d38475cf49e3f2
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.openlocfilehash: 5e9dc9b7cf33f9393f408d8f8a458e9b0ea47639
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577917"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778382"
 ---
 # <a name="schedule-work-creation-during-wave"></a>Darbo grafiko kūrimas bangos metu
 
@@ -33,7 +33,7 @@ Naudokite funkciją *Darbo grafiko kūrimas* kaip jūsų bangos apdorojimo proce
 
 Norėdami naudoti šioje temoje aprašytas funkcijas, jos turi būti įjungtos jūsų sistemai. Naudokite darbo sritį [Funkcijų valdymas](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) įjungti šias funkcijas pateikta tvarka:
 
-1. **Visos organizacijos darbo blokavimas** – Reikalingas tiek rankiniam, tiek automatiniam suplanuoto darbo kūrimo konfigūravimui.
+1. **Visos organizacijos darbo blokavimas** – Reikalingas tiek rankiniam, tiek automatiniam suplanuoto darbo kūrimo konfigūravimui. (Kaip ir tiekimo grandinės valdymo versija 10.0.21, ši funkcija yra privaloma, todėl ji įjungta pagal numatytuosius nustatymus ir jos negalima išjungti dar kartą.)
 1. **Suplanuoto darbo kūrimas** – Reikalingas tiek rankiniam, tiek automatiniam suplanuoto darbo kūrimo konfigūravimui.
 1. **Visos organizacijos „Suplanuoto darbo kūrimo” bangos metodas** – Reikalingas automatiniam suplanuoto darbo kūrimo konfigūravimui. Jums šios funkcijos nereikia, jeigu naudosite tik neautomatinį konfigūravimą.
 
@@ -65,7 +65,7 @@ Jeigu neįgalinote [*Visos organizacijos „Suplanuoto darbo kūrimo” bangos m
 
 Norint pasinaudoti lygiagrečiu asinchroniniu metodu kurti sandėlio darbui, jūsų bangos procesas turi būti vykdomas pakete. Norėdami tai nustatyti:
 
-1. Eikite į  **Sandėlio valdymas\> Sąranka \> Sandėlio valdymo parametrai**.
+1. Eikite į  **Sandėlio valdymas \> Sąranka \> Sandėlio valdymo parametrai**.
 1. Skirtuke **Bendra** nustatykite **Apdoroti bangas pakete** į *Taip*. Pasirinktinai galite pasirinkti paskirtą **Bangos apdorojimo paketų grupę** sustabdyti paketų eilės apdorojimo vykdymą tuo pačiu, kaip ir kitų procesų vykdymo, laiku.
 1. Nustatykite **Laukti užrakto (ms)**, kuris taikomas, kai sistema vienu metu apdoroja kelias bangas. Daugumai didesnių bangos procesų rekomenduojame vertę *60 000*.
 
@@ -73,7 +73,7 @@ Norint pasinaudoti lygiagrečiu asinchroniniu metodu kurti sandėlio darbui, jū
 
 Pradėkite sukurdami naują bangos veiksmo metodą ir įgalindami jį lygiagrečiam asinchroniniam užduoties apdorojimui.
 
-1. Eikite į **Sandėlio valdymas \>Sąranka \> Bangos \> Bangos apdorojimo metodai**.
+1. Eikite į **Sandėlio valdymas \> Sąranka \> Bangos \> Bangos apdorojimo metodai**.
 1. Pasirinkite  **Pakartotinio generavimo** metodą ir atkreipkite dėmesį, kad *„WHSScheduleWorkCreationWaveStepMethod”* buvo įtrauktas į bangos apdorojimo metodų, kuriuos galite naudoti jūsų siuntimo bangos šablonuose, sąrašą.
 1. Pasirinkite įrašą su **Metodo pavadinimu** *„WHSScheduleWorkCreationWaveStepMethod”* ir pasirinkite **Užduoties konfigūraciją**.
 1. Norėdami įtraukti naują eilutę į tinklelį, veiksmų srityje pasirinkite **Naujas** ir naudokite šiuos parametrus:
@@ -84,7 +84,7 @@ Pradėkite sukurdami naują bangos veiksmo metodą ir įgalindami jį lygiagreč
 
 Dabar esate pasiruošę atnaujinti esamą bangos šabloną (arba sukurti naują) ir naudoti *Darbo grafiko kūrimo* bangos apdorojimo metodą.
 
-1. Eikite į  **Sandėlio valdymas\>Nustatymas \> Bangos \> Bangų šablonai**.
+1. Eikite į  **Sandėlio valdymas \> Nustatymas \> Bangos \> Bangų šablonai**.
 1. Pasirinkite **Redaguoti** veiksmų srityje.
 1. Sąrašo srityje pasirinkite bangos šabloną, kurį norite atnaujinti (jei testuojate naudodami demonstracinius duomenis, tada galite naudoti *24 siuntimo numatytuosius parametrus*).
 1. Išplėskite „FastTab” **Metodai** ir pasirinkite eilutę, su **Pavadinimu** *Darbo grafiko kūrimas* tinklelyje **Likę metodai**.

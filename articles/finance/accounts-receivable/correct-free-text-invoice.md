@@ -1,7 +1,7 @@
 ---
 title: Laisvos formos SF taisymas
 description: Šiame straipsnyje paaiškinama, kaip ištaisyti laisvos formos SF, kuri buvo užregistruota, ir pakartotinai ją išduoti kaip pataisytą SF.
-author: ShivamPandey-msft
+author: abruer
 ms.date: 08/22/2017
 ms.topic: article
 ms.prod: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e0d4e40e46e23766983351871634280b2d951aa9551db97092a8872a25833721
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: cf4503e3d4b200219d6b444b69c866871d21787d
+ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6763315"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7753807"
 ---
 # <a name="correct-a-free-text-invoice"></a>Laisvos formos SF taisymas
 
@@ -41,7 +41,7 @@ Užregistravę pataisytą SF, turėsite toliau nurodytas tris SF.
 Atšaukiamąją ir pataisytą SF galite identifikuoti toliau nurodytais dviem būdais.
 
 -   **Visų laisvos formos SF** puslapyje yra **Taisymo** stulpelis, kuriame galite matyti, kurios SF yra atšaukiamosios, o kurios – pataisytos.
--   Laisvos formos SF antraštėje rodoma būsena  **Atšaukiamoji SF \[SF numeris\]** arba **Pataisyta SF \[SF numeris\]**.
+-   Laisvos formos SF antraštėje rodoma būsena  **Atšaukiamoji SF \[ SF numeris\]** arba **Pataisyta SF \[ SF numeris\]**.
 
 > [!NOTE]
 > Ši funkcija prieinama tik jei pasirinktas konfigūracijos raktą **Laisvos formos SF taisymas**. Daugiau informacijos apie tai, kaip įgalinti konfigūracijos raktus, rasite skyriuje Konfigūracijos raktų įjungimas (arba išjungimas), temoje [Priežiūros režimas](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md). 

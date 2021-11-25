@@ -1,8 +1,8 @@
 ---
 title: Kurti klausimynus
-description: Šiame straipsnyje aprašomas klausimyno kūrimo procesas. Pirmasis veiksmas yra sukurti klausimyno dizainą. Kai kuriate klausimyno dizainą, ne tik rašote klausimus ir atsakymus, tačiau taip pat sukuriate struktūrą, kuri leidžia atsakymus įrašyti ir tabuliuoti.
-author: andreabichsel
-ms.date: 06/20/2017
+description: Šioje temoje aprašomas klausimyno kūrimo procesas.
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,21 +12,21 @@ ms.search.scope: Human Resources
 ms.custom: 17341
 ms.assetid: b27e2f12-c7a0-4a54-b8d8-17819f8a1c72
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: c2a8c156aa75b02b69da3ee70a1ee60ea9d73a8aa67c70babdaaad88d6eb81f4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 08c8015e8729a4ca33f3fb3c48f654e489f32f3f
+ms.sourcegitcommit: e91a1797192fd9bc4048b445bb5c1ad5d333d87d
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6755569"
+ms.lasthandoff: 11/01/2021
+ms.locfileid: "7729056"
 ---
 # <a name="create-questionnaires"></a>Kurti klausimynus
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Šiame straipsnyje aprašomas klausimyno kūrimo procesas. Pirmasis veiksmas yra sukurti klausimyno dizainą. Kai kuriate klausimyno dizainą, ne tik rašote klausimus ir atsakymus, tačiau taip pat sukuriate struktūrą, kuri leidžia atsakymus įrašyti ir tabuliuoti. 
+Šioje temoje aprašomas klausimyno kūrimo procesas. Pirmasis veiksmas yra sukurti klausimyno dizainą. Kai kuriate klausimyno dizainą, ne tik rašote klausimus ir atsakymus, tačiau taip pat sukuriate struktūrą, kuri leidžia atsakymus įrašyti ir tabuliuoti. 
 
 Kruopščiai sudarytas klausimynas gali padėti padidinti surenkamų duomenų kokybę. Kruopščiai sudarydami klausimyną, galite geriau tinkamu laiku parinkti tinkamas klausimyno parinktis. Tolesni punktai gali padėti suplanuoti efektyvų klausimyną.
 
@@ -63,7 +63,7 @@ Prieš kuriant klausimynus, atsakymus ir klausimus, turi būti nustatytos kai ku
 
 ### <a name="questionnaire-types"></a>Klausimynų tipai
 
-Kuriant klausimyną reikia priskirti jo tipą. Klausimynų tipai padeda juos lengviau valdyti ir klasifikuoti. Klausimynų tipus naudokite jiems klasifikuoti ir atskirti vienam nuo kito. Pavyzdžiui, jei yra keli klausimynai, iš kurių galima rinktis, kad būtų lengviau rasti konkretų klausimyną, galite juos filtruoti pagal tipą. Toliau pateikiami keli klausimynų tipų pavyzdžiai.
+**Klausimynų** tipai yra būtini ir turi būti priskirti kuriant klausimyną. **Klausimynų** tipai padeda jums valdyti ir klasifikuoti klausimynus lengviau. Klausimynų tipus naudokite jiems klasifikuoti ir atskirti vienam nuo kito. Pavyzdžiui, jei yra keli klausimynai, iš kurių galima rinktis, kad būtų lengviau rasti konkretų klausimyną, galite juos filtruoti pagal tipą. Toliau pateikiami keli klausimynų tipų pavyzdžiai.
 
 -   Personalo lavinimas
 -   Klientų apklausos
@@ -71,9 +71,9 @@ Kuriant klausimyną reikia priskirti jo tipą. Klausimynų tipai padeda juos len
 
 ### <a name="question-types"></a>Klausimų tipai
 
-Klausimų tipai yra būtini ir turi būti priskirti jums kuriant klausimą. 
+**Klausimų** tipai yra būtini ir turi būti priskirti kuriant klausimą. 
 
-Klausimų tipus naudokite norėdami skirstyti klausimus į kategorijas, naudojamas ataskaitoms kurti. Naudojant klausimų tipus, taip pat lengviau rasti klausimus, nes **Klausimų** puslapyje tipus galite naudoti kaip filtrus. Toliau pateikiami keli klausimų tipų pavyzdžiai.
+Naudokite **klausimų tipus** norėdami skirstyti klausimus į kategorijas ataskaitoms. **Klausimų** tipai padeda lengviau rasti klausimus, nes klausimų puslapyje galima naudoti tipus kaip **·** filtrus. Toliau pateikiami keli klausimų tipų pavyzdžiai.
 
 -   Žmogiškieji ištekliai.
 -   Verslo valdymas.
@@ -105,7 +105,7 @@ Kurti galimų atsakymų į uždarus klausimus sąrašą galite **Atsakymų grupi
 
 Atsakymų grupės ir atsakymai yra komponentai, kurie sudaro informacijos pagrindą, iš kurio kuriami klausimai. Sukūrę atsakymų grupę, **Klausimų** puslapio lauke **Atsakymų grupė** ją galite susieti su klausimu. 
 
-Atsakymo grupė gali būti naudojama daugiau nei vienam klausimui tame pačiame klausimyne ir gali būti naudojama daugiau nei viename klausimyne. 
+Atsakymų grupė gali būti naudojama daugiau nei vienam to paties klausimyno klausimui ir taip pat gali būti **naudojama daugiau nei viename** klausimyne. 
 
 > [!NOTE]
 > Jei keičiate tekstą atsakymo grupėse, kuris jau buvo užbaigtas klausimynuose, duomenis gali būti sunku įvertinti ir klausimyno rezultatai gali nebegalioti. Jei turite pakeisti atsakymo grupę, apgalvokite naujos atsakymo grupės sukūrimą vietoje esančios keitimo. Atsakymų grupių, pridėtų prie klausimo ar atsakymo, arba atsakytų atsakymų grupių naikinti negalima.
@@ -171,7 +171,7 @@ Klausimyne negalite panaikinti tolesnių klausimų tipų.
 
 ### <a name="result-groups"></a>Rezultatų grupės
 
-Į klausimyną pridedant klausimų, rezultatų grupės nėra privalomos. 
+**Rezultatų grupės** yra laisvai pasirenkamos, kai pridedate klausimus į klausimyną. 
 
 Rezultatų grupė naudojama skaičiuoti klausimyno taškams ir kategorizuoti jo rezultatams. Jei naudojate rezultatų grupės, galite atlikti tolesnes užduotis.
 

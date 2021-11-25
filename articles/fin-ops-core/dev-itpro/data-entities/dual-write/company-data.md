@@ -5,16 +5,16 @@ author: RamaKrishnamoorthy
 ms.date: 08/04/2020
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: rhaertle
+ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 24cd936fd330ce2bdfc6aa7cac75ab5bacbbf3d0
-ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
-ms.translationtype: HT
+ms.openlocfilehash: 25bd2cc0df4940f02313b3a61f69b2273e835639
+ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7416784"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7782090"
 ---
 # <a name="company-concept-in-dataverse"></a>Įmonės koncepcija „Dataverse“
 
@@ -27,10 +27,10 @@ ms.locfileid: "7416784"
 
 „Dataverse“ nenaudojama lygiavertė koncepcija. Artimiausia koncepcija yra *verslo struktūros vienetas*, kuris pirmiausia apima vartotojo duomenų saugos ir matomumo ribas. Ši koncepcija neturi tokios pačios teisinės ar verslo reikšmės kaip įmonės koncepcija.
 
-Verslo struktūros vienetas ir įmonė nėra lygiavertės koncepcijos, todėl „Dataverse“ integracijos tikslais negalima taikyti jų vienas su vienu (1:1) susiejimo. Tačiau vartotojai turi, kaip numatyta, galėti peržiūrėti tas pačias eilutes programoje ir „Dataverse“, todėl „Microsoft“ pristatė naują lentelę „Dataverse”, pavadintą cdm\_Company. Ši lentelė yra lygiavertė įmonės lentelei programoje. Siekiant užtikrinti eilučių matomumo lygiavertiškumą pradėjus naudoti programą ir „Dataverse“, rekomenduojame toliau pateiktus „Dataverse“ duomenų nustatymus.
+Verslo struktūros vienetas ir įmonė nėra lygiavertės koncepcijos, todėl „Dataverse“ integracijos tikslais negalima taikyti jų vienas su vienu (1:1) susiejimo. Tačiau vartotojai turi, kaip numatyta, galėti peržiūrėti tas pačias eilutes programoje ir „Dataverse“, todėl „Microsoft“ pristatė naują lentelę „Dataverse”, pavadintą cdm\_ Company. Ši lentelė yra lygiavertė įmonės lentelei programoje. Siekiant užtikrinti eilučių matomumo lygiavertiškumą pradėjus naudoti programą ir „Dataverse“, rekomenduojame toliau pateiktus „Dataverse“ duomenų nustatymus.
 
-+ Kiekvienai „Finance and Operations“ įmonės eilutei, kuri įgalinta dvigubam rašymui, sukuriama susieta cdm\_Company eilutė.
-+ Sukūrus cdm\_Company eilutę ir įgalinus dvigubam rašymui, sukuriamas numatytasis verslo struktūros vienetas tuo pačiu pavadinimu. Nors tam verslo struktūros vienetui automatiškai sukuriama numatytoji komanda, verslo struktūros vienetas nėra naudojamas.
++ Kiekvienai „Finance and Operations“ įmonės eilutei, kuri įgalinta dvigubam rašymui, sukuriama susieta cdm\_ Company eilutė.
++ Sukūrus cdm\_ Company eilutę ir įgalinus dvigubam rašymui, sukuriamas numatytasis verslo struktūros vienetas tuo pačiu pavadinimu. Nors tam verslo struktūros vienetui automatiškai sukuriama numatytoji komanda, verslo struktūros vienetas nėra naudojamas.
 + Sukuriama atskira savininko komanda tokiu pačiu pavadinimu. Ji taip pat susiejama su verslo struktūros vienetu.
 + Pagal numatytuosius nustatymus, bet kurios eilutės, kuri sukuriama ir įrašoma dvigubu rašymu „Dataverse“, savininkas nustatomas į „DW Owner“ komandą, kuri susiejama su susijusiu verslo struktūros vienetu.
 
@@ -49,17 +49,17 @@ Dėl tokios konfigūracijos bet kokia eilutė, susieta su USMF įmone, priklauso
 
 Kaip parodyta ankstesnėje iliustracijoje, šis 1:1 susiejimas tarp verslo struktūros vieneto, įmonės ir komandos yra tik pradžios taškas. Tolesniame pavyzdyje naujas verslo struktūros vienetas „Europa“ rankiniu būdu sukuriamas „Dataverse“ kaip DEMF ir ESMF pirminis elementas. Šis naujas šakninis verslo struktūros vienetas nėra susijęs su dvigubu rašymu. Tačiau jis gali būti naudojamas siekiant suteikti „EUR pardavimas“ komandos nariams prieigą prie paskyros duomenų tiek DEMF, tiek ESMF nustatant duomenų matomumą į **Pirminis/antrinis BU** susietam saugos vaidmeniui.
 
-Paskutinėje temoje aptariama, kaip dvigubas rašymas nustato, kuriai savininkų komandai reikėtų priskirti eilutes. Šią veikseną kontroliuoja stulpelis **Numatytoji komanda savininkė** eilutėje cdm\_Company. Kai cdm\_Company eilutė yra įgalinta dvigubam rašymui, priedas automatiškai sukuria susietą verslo struktūros vienetą ir savininko komandą (jei jos dar nėra) ir nustato **Numatytoji komanda savininkė** stulpelį. Administratorius gali pakeisti šį stulpelį kita reikšme. Tačiau administratorius negali išvalyti stulpelio tol, kol lentelei įgalintas dvigubas rašymas.
+Paskutinėje temoje aptariama, kaip dvigubas rašymas nustato, kuriai savininkų komandai reikėtų priskirti eilutes. Šią veikseną kontroliuoja stulpelis **Numatytoji komanda savininkė** eilutėje cdm\_ Company. Kai cdm\_ Company eilutė yra įgalinta dvigubam rašymui, priedas automatiškai sukuria susietą verslo struktūros vienetą ir savininko komandą (jei jos dar nėra) ir nustato **Numatytoji komanda savininkė** stulpelį. Administratorius gali pakeisti šį stulpelį kita reikšme. Tačiau administratorius negali išvalyti stulpelio tol, kol lentelei įgalintas dvigubas rašymas.
 
 > [!div class="mx-imgBorder"]
-![Stulpelis Numatytoji komanda savininkė.](media/dual-write-default-owning-team.jpg)
+![ Stulpelis Numatytoji komanda savininkė.](media/dual-write-default-owning-team.jpg)
 
 ## <a name="company-striping-and-bootstrapping"></a>Įmonės paskirstymas ir įkėlimas
 
-„Dataverse“ integracija suteikia įmonės lygiavertiškumą naudojant įmonės identifikatorių, skirtą paskirstyti duomenis. Kaip parodyta toliau pateiktoje iliustracijoje, visos konkrečios įmonės lentelės išplečiamos taip, kad su cdm\_Company lentele turėtų ryšį „daugelis su vienu“ (N:1).
+„Dataverse“ integracija suteikia įmonės lygiavertiškumą naudojant įmonės identifikatorių, skirtą paskirstyti duomenis. Kaip parodyta toliau pateiktoje iliustracijoje, visos konkrečios įmonės lentelės išplečiamos taip, kad su cdm\_ Company lentele turėtų ryšį „daugelis su vienu“ (N:1).
 
 > [!div class="mx-imgBorder"]
-![N:1 ryšys tarp konkrečios įmonės ir cdm_Company lentelių.](media/dual-write-bootstrapping.png)
+![ N:1 ryšys tarp konkrečios įmonės ir cdm_Company lentelių.](media/dual-write-bootstrapping.png)
 
 + Įtraukus ir įrašius įmonę eilučių reikšmė tampa skirta tik skaityti. Todėl vartotojai turėtų įsitikinti, kad pasirinko tinkamą įmonę.
 + Tik tos eilutės, kurios apima įmonės duomenis, gali būti dvigubo rašymo tarp programos ir „Dataverse“.

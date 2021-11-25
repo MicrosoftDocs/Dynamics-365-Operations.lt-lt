@@ -1,7 +1,7 @@
 ---
 title: Klientų kreditų valdymo informacijos įtraukimas
 description: Šioje temoje paaiškinama, kaip įtraukti klientų kreditų valdymo informaciją.
-author: mikefalkner
+author: JodiChristiansen
 ms.date: 09/04/2019
 ms.topic: article
 ms.prod: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 080b1c4a3887aa5f354743315dc11ffd9f089e73350429d5e08710927f6b2454
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 3c8584c33b4f77b6d1f5a4dc0d62208b76b3ffa3
+ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6724068"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7753975"
 ---
 # <a name="add-credit-management-information-for-customers"></a>Klientų kreditų valdymo informacijos įtraukimas
 
@@ -86,7 +86,7 @@ Galite kurti draudimo polisus ir garantijas puslapyje **Visi klientai** (**Gauti
     - Poliso vertė (B) yra 50 000.
     - **Atnaujinti kredito limitą** procentai (C) yra 50,00.
     
-    Šiuo atveju faktinis kredito limitas yra 125 000 (= A + \[B × C\]).
+    Šiuo atveju faktinis kredito limitas yra 125 000 (= A + \[ B × C\]).
 
 11. Pažymėkite žymės langelį **Įskaičiuota į išlaikymą**, kad sumažintumėte kredito limitą, kuris naudojamas kredito limito skaičiavimuose pagal poliso vertę. Jei šis žymės langelis yra pažymėtas, vertė, apskaičiuota, kai nurodytas **Atnaujinti kredito limitą** procentas, nebus naudojama skaičiuojant kredito limitą.
 
@@ -96,9 +96,9 @@ Galite kurti draudimo polisus ir garantijas puslapyje **Visi klientai** (**Gauti
     - Poliso vertė (B) yra 50 000.
     - **Atnaujinti kredito limitą** procentai (C) yra 50,00.
 
-    Šiuo atveju faktinis kredito limitas yra 125 000 (= A + \[B × C\]).
+    Šiuo atveju faktinis kredito limitas yra 125 000 (= A + \[ B × C\]).
     
-    Tačiau, jei pažymėsite žymės langelį **įtrauktas į išlaikymą**, vertė **Atnaujinti kredito limitą**, lygi 50 000 (=50,00 procentų vertės 100 000), pašalinama, o išlaikymo vertė yra 75 000 (= A + \[B × C\] – B).
+    Tačiau, jei pažymėsite žymės langelį **įtrauktas į išlaikymą**, vertė **Atnaujinti kredito limitą**, lygi 50 000 (=50,00 procentų vertės 100 000), pašalinama, o išlaikymo vertė yra 75 000 (= A + \[ B × C\] – B).
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

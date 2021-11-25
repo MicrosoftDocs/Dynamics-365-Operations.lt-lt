@@ -2,7 +2,7 @@
 title: „Finance Insights“ pagrindinis puslapis
 description: „Finance Insights” suteikia konfigūruojamus ir išplečiamus modelius, kad galėtumėte tiksliai ir sumaniai prognozuoti savo įmonės grynųjų pinigų srautus, numatyti, kada gausite mokėjimą už neapmokėtas gautinas sumas ir bus sugeneruotas biudžeto pasiūlymas, kuris gali pagreitinti jūsų biudžeto sudarymo procesą. Visos šios funkcijos paremtos išmaniaisiais mašininio mokymo modeliais.
 author: ShivamPandey-msft
-ms.date: 07/16/2021
+ms.date: 11/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,24 +17,22 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 4b77b7872ed163a94ab57e4efea8fe0fbca22156
-ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
-ms.translationtype: HT
+ms.openlocfilehash: dfc4d9cb5be4d8d287122fd33bf09b0570498169
+ms.sourcegitcommit: a46f0bf9f58f559bbb2fa3d713ad86875770ed59
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7386391"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "7813752"
 ---
 # <a name="finance-insights-home-page"></a>„Finance Insights“ pagrindinis puslapis
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
-„Finance Insights” suteikia konfigūruojamus ir išplečiamus modelius, kad galėtumėte tiksliai ir sumaniai prognozuoti savo įmonės grynųjų pinigų srautus, numatyti, kada gausite mokėjimą už neapmokėtas gautinas sumas ir bus sugeneruotas biudžeto pasiūlymas, kuris gali pagreitinti jūsų biudžeto sudarymo procesą. Visos šios funkcijos paremtos išmaniaisiais mašininio mokymo modeliais. Kai šios naujos galimybės sujungiamos su tiekėjo mokėjimų ir surinkimų automatizavimu, jos suteikia galingą ir pažangią finansinę sistemą, kuri valdo sprendimų priėmimo procesą ir padeda imtis veiksmų siekiant veiksmingai reaguoti į dabartinius ir numatomus verslo iššūkius.
-
-> [!NOTE]
-> „Finance Insights” peržiūros versiją galima įdiegti Jungtinėse Amerikos Valstijose, Kanadoje, Jungtinėje Karalystėje, Europoje, Azijos Ramiojo vandenyno srityje, Australijoje ir Naujojoje Zelandijoje. „Microsoft“ palaipsniui į palaikomų regionų sąrašą įtraukia daugiau regionų. Kad būtų galima įgalinti „Finance insights” gamybos aplinkose, pirmiausia gamybos aplinkoje turi būti įgalintos [Eksportavimo į „Data Lake”](../../fin-ops-core/dev-itpro/data-entities/configure-export-data-lake.md) galimybės.
+Finansinės įžvalgos pateikia konfigūruojamus ir išplečiamus sprendimus, kurie padės protingai prognozuoti įmonės pinigų srautus, numatyti, kada galite gauti mokėjimą už nesumokėtas gautinas sumas, ir sugeneruoti biudžeto pasiūlymą, kuris gali padėti pagreitinti biudžeto sudarymo procesą. Šios funkcijos naudoja pažangius mašininio mokymosi šablonus modeliams kurti naudojant jūsų pateikiami duomenis (įskaitant trečiosios šalies duomenis, pvz., biuro vartotojų ataskaitos informaciją). Šios pažangios galimybės padeda priimti sprendimus ir padeda veiksmingai reaguoti į dabartinius ir numatomus verslo iššūkius. Esate atsakingi už visus duomenis, naudojamus su "Finance" įžvalgomis arba jų išvedimas.
 
 > [!NOTE]
-> Šis funkcionalumas siūlomas kaip peržiūros versijos funkcijų rinkinys. Atsižvelgiant, kad tai peržiūros funkcija, neturėtumėte gautais mašininio mokymo modeliais pagrįsti savo verslo sprendimų ar biudžeto pasiūlymų. Jūsų naudojimasis šia funkcija valdomas pagal [Papildomas naudojimo sąlygas](https://go.microsoft.com/fwlink/?linkid=2105274) sąlygas.
+> Finansų įžvalgų peržiūrą galima diegti Jungtinėse Amerikos Valstijose, Kanadoje, Jungtinėje Karalystėje, Europoje, Azijos ir Ramiojo vandenyno regione, Japonijoje, Australijoje ir Naujojoje Zelandijoje. „Microsoft“ palaipsniui į palaikomų regionų sąrašą įtraukia daugiau regionų.
 
 ## <a name="prerequisites"></a>Būtinieji komponentai
 
@@ -50,28 +48,15 @@ Norint peržiūrėti „Finance Insights”, būtina 2 pakopos aplinka (kelių l
 
 ### <a name="version-requirements"></a>Versijos reikalavimai
 
-Šis dokumentas taikomas „Finance and Operations“ 10.0.11 versijos programoms (35 platformos atnaujinimas) ir naujesnėms versijoms.
+Ši tema taikoma "Microsoft" Dynamics 365 Finance 10.0.21 ir vėlesnes versijai.
 
 ### <a name="historical-data-requirements"></a>Retrospektyvos duomenų reikalavimai
 
-Reikia bent vienerių metų kliento SF, kad būtų galima tinkamai išmokyti mašininio mokymosi modelį, kurį naudoja kliento mokėjimo prognozių funkcija.
+Reikia bent vienerių metų kliento SF, kad būtų galima tinkamai išmokyti mašininio mokymosi modelį, kurį naudoja kliento mokėjimo prognozių funkcija. Pinigų srautų prognozėms rekomenduojami trejų metų istoriniai duomenys. Išmaniems biudžeto pasiūlymams rekomenduojami treji metai istorinio biudžeto ir (arba) faktinių faktų.
 
-### <a name="role-and-permission-requirements"></a>Vaidmenų ir teisių reikalavimai
+## <a name="configure-finance-insights"></a>„Finance Insights“ konfigūravimas
 
-Bus atlikti „Microsoft Dynamics 365 Finance“, „Microsoft Dynamics Lifecycle Services“ (LCS) ir „Power Apps“ ir „Azure“ pakeitimai. Šiose aplinkose reikia tinkamų teisių. Toliau nurodoma keletas pakeitimų, kurie bus atlikti, pavyzdžių.
-
-- Bus sukurta nauja aplinka „Microsoft Power Platform“.
-- Saugyklos sąskaita, „Key Vault“ ir programa bus sukurtos „Azure“.
-- „Active Directory“ nuomotojo administratorius turės autorizuoti „AI Builder“ programą, kad būtų suteikta prieiga prie duomenų telkinio.
-- Funkcija bus įjungta „Dynamics 365“.
-
-„Azure“, „Microsoft Dataverse“ ir LCS išteklių kūrimo ir valdymo proceso išmanymas bus naudingas, kai įvykdysite šį procesą.
-
-## <a name="configure-finance-insights"></a>„Finance Insights” konfigūravimas
-
-Turite atlikti keletą konfigūracijos veiksmų, kad galėtumėte naudoti „Finance Insights”. Daugiau informacijos, kaip konfigūruoti šį abonementą, žr. „Finance insights“.
-  - Apie versijas iki 10.0.19: [Konfigūravimas „Finance insights“ (peržiūros versija) – versijoms iki 10.0.19](configure-for-fin-insites.md).
-  - Versijoms 10.0.20 ir naujesnėms: [Konfigūravimas „Finance Insights“ (peržiūra) - versijoms 10.0.20 ir naujesnėms](configure-for-fin-insites-PubPrvw.md).
+Prieš naudodami "Finance insights", turite atlikti konfigūravimo veiksmus. Daugiau informacijos apie tai, kaip sukonfigūruoti finansines įžvalgas, žr. [„Finance Insights” konfigūravimas](configure-for-fin-insites.md).
 
 ## <a name="create-a-data-integrator-project"></a>Duomenų integratoriaus projekto kūrimas
 
@@ -84,7 +69,7 @@ Atlikę konfigūravimo veiksmus ir nustatę demonstracinius duomenis, turite įj
 ### <a name="enable-customer-payment-predictions"></a>Kliento mokėjimo prognozių įjungimas
 Jei naudojate demonstracinius duomenis, kad išbandytumėte kliento mokėjimo prognozes, jums gali tekti importuoti papildomus demonstracinius duomenis, kad galėtumėte sėkmingai sukurti savo DI modelį. 
 
-Norėdami įjungti kliento mokėjimo prognozes, turite atlikti konkrečius veiksmus, kad galėtumėte kurti mašininio mokymo modelį, kuris naudoja jūsų organizacijos duomenis generuodamas prognozes apie tai, kada klientai gali apmokėti neapmokėtas SF ir kada gali būti apmokėtos konkrečios SF. Norėdami gauti daugiau informacijos ir sužinoti konkrečius veiksmus, žr. [Kliento mokėjimo prognozių įjungimas](enable-cust-paymnt-prediction.md). 
+Norėdami įgalinti kliento mokėjimo prognozes, turite atlikti veiksmų rinkinį, kad sukurtumėte mašininio mokymosi modelį, kuris naudoja jūsų organizacijos duomenis, kad sugeneruotų prognozes apie tai, kada klientai gali apmokėti neapmokėtas sąskaitas faktūras ir kada gali būti apmokėtos konkrečios sąskaitos faktūros. Norėdami gauti daugiau informacijos ir sužinoti konkrečius veiksmus, žr. [Kliento mokėjimo prognozių įjungimas](enable-cust-paymnt-prediction.md). 
 
 ### <a name="enable-cash-flow-forecasting"></a>Grynųjų pinigų srautų prognozavimo įjungimas
 Norėdami įjungti grynųjų pinigų srauto prognozavimą, turite atlikti konkrečius veiksmus, kad sukurtumėte mašininio mokymo modelį, kuris naudoja jūsų organizacijos duomenis generuodamas grynųjų pinigų srautų prognozes. Norėdami gauti daugiau informacijos ir sužinoti konkrečius veiksmus, žr. [Grynųjų pinigų srauto prognozių įjungimas](enable-cash-flow-forecasting.md).
@@ -97,17 +82,14 @@ Biudžeto pasiūlymų funkcija naudoja mašininio mokymo modelį kartu su jūsų
 
 ### <a name="using-customer-payment-predictions"></a>Kliento mokėjimo prognozių naudojimas
 
-Pažangus grynųjų pinigų srauto prognozavimas sukurtas kaip priedas prie esamos grynųjų pinigų srauto prognozavimo funkcijos programoje „Dynamics 365 Finance“. Norėdami peržiūrėti esamą pajėgumą, žr. [Grynųjų pinigų srauto prognozavimas](../cash-bank-management/cash-flow-forecasting.md).
-
-- Norėdami sužinoti, kaip kliento mokėjimo prognozės gali suteikti informacijos, kurios reikia, kad būtų galima aktyviai vykdyti surinkimo veiklą, žr. [Kliento mokėjimo prognozių naudojimas](use-customer-payment-predictions.md).
+- Norėdami sužinoti, kaip kliento mokėjimo prognozės gali pateikti informaciją, reikalingą aktyviai pradėti surinkimo veiklą, [žr](use-customer-payment-predictions.md).
 - Informacijos, kuri gali padėti įvertinti prognozavimo modelio efektyvumą po to, kai pradėjote naudotis šia funkcija, žr. [Pradinio kliento mokėjimo prognozavimo modelio įvertinimas](evaluate-payment-prediction.md).
 - Informacijos, kuri gali padėti pakoreguoti duomenis, naudojamus prognozei sukurti, ir taip pagerinti jo efektyvumą, žr. [Prognozavimo modelio patobulinimas](improve-model.md).
-
-Norėdami daugiau sužinoti apie DI prognozavimo modelių rezultatus žr. [Mašininio mokymo modelių rezultatai](confusion-matrix.md).
+- Norėdami daugiau sužinoti apie DI prognozavimo modelių rezultatus žr. [Mašininio mokymo modelių rezultatai](confusion-matrix.md).
 
 ### <a name="using-cash-flow-forecasts"></a>Grynųjų pinigų srautų prognozių naudojimas
 
-Grynųjų pinigų srauto prognozavimo pajėgumas gali padėti tiksliau įvertinti savo grynuosius pinigus. 
+Grynųjų pinigų srauto prognozavimo pajėgumas gali padėti tiksliau įvertinti savo grynuosius pinigus. Išmanusis pinigų srautų prognozavimas grindžiamas esama pinigų srautų prognozavimo funkcija Dynamics 365 Finance. Norėdami peržiūrėti esamą pajėgumą, žr. [Grynųjų pinigų srauto prognozavimas](../cash-bank-management/cash-flow-forecasting.md).
 
 - Norėdami sužinoti apie naujas grynųjų pinigų srauto prognozavimo galimybes žr. [Grynųjų pinigų srauto prognozavimas](cash-flow-forecast-intro.md).
 - Norėdami informacijos apie išorinių duomenų importavimą, kurie bus įtraukti į grynųjų pinigų srauto prognozę čia, žr. [Išorinių duomenų naudojimas grynųjų pinigų srauto prognozėse](external-data-in-cash-flow.md). 
@@ -120,6 +102,6 @@ Norėdami daugiau informacijos apie tai, kaip pagreitinti biudžeto kūrimą, ž
 
 ## <a name="feedback-and-support"></a>Atsiliepimai ir palaikymas
 
-Jei norite pateikti atsiliepimų ar reikia pagalbos, atsiųskite el. laišką [kliento mokėjimo įžvalgų (peržiūros versija)](mailto:fiap@microsoft.com) el. pašto adresu.
+Jei jus domina atsiliepimų teikimas arba jei jums reikia palaikymo, siųskite el. laiškus ["Finance" įžvalgoms](mailto:fiap@microsoft.com).
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

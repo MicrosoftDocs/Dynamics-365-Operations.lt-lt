@@ -1,8 +1,8 @@
 ---
 title: Darbininkams paskolintų prekių valdymas
 description: Panaudos objektai yra įrašai, kurie vadovams padeda sekti fizines prekes, kurias įmonė skolina savo darbuotojams.
-author: andreabichsel
-ms.date: 06/20/2017
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 3581
 ms.assetid: b14bdddb-f10e-4619-9f91-8c88439da862
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 2399cd1c00f2c1f301b2d514c20cca00017465c90436cd01d44eb584f1b66ce6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: ff9f9404ebbcbc7359ee9927d7a92e31808a478a
+ms.sourcegitcommit: e91a1797192fd9bc4048b445bb5c1ad5d333d87d
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6760591"
+ms.lasthandoff: 11/01/2021
+ms.locfileid: "7728764"
 ---
 # <a name="manage-items-that-are-lent-to-workers"></a>Darbininkams paskolintų prekių valdymas
 
@@ -28,7 +28,8 @@ ms.locfileid: "6760591"
 
 Panaudos objektai yra įrašai, kurie vadovams padeda sekti fizines prekes, kurias įmonė skolina savo darbuotojams. 
 
-Toliau pateiktuose punktuose nurodomi elementų, kuriuos įmonė gali paskolinti darbuotojams, pavyzdžiai.
+Štai keletas prekių, kurias įmonė gali paskolinti darbuotojams, pavyzdžių:
+
 -   Mobilieji telefonai;
 -   Automobiliai;
 -   Kompiuterinė įranga.
@@ -37,7 +38,7 @@ Kiekviena fizinė prekė turi turėti atitinkamą panaudos objektą. Kiekviename
 
 Skolindami objektą, įveskite skolinimo datą ir planuojamą grąžinimo datą. Kai objektas grąžinamas, įveskite faktinę grąžinimo datą.
 
-Darbuotojai peržiūrėti objektų, kurie jiems buvo paskolinti, įrašus gali naudodami darbo sritį Darbuotojų savitarna. Jei darbuotojai gavo papildomų faktinių objektų, jie taip pat gali redaguoti esamus įrašus arba įvesti naujų panaudos objektų.  Galima nustatyti darbo eigą, kad, naudojant patvirtinimo procesą, pakeitimus būtų galima nukreipti į naujus arba esamus panaudos objektus. 
+Darbuotojai gali naudotis **darbuotojų savitarnos** darbo sritimi, norėdami peržiūrėti objektų, kurie buvo paskolinti jiems, įrašus. Jie taip pat gali redaguoti esamus įrašus arba įvesti naujus panaudos objektus, jei jie gavo papildomų faktinių objektų. Darbo eigą galima nustatyti į maršruto pakeitimus naujiems ar esamiems panaudos elementams patvirtinimo proceso metu. 
 
 Vadovai gali peržiūrėti savo tiesioginių ataskaitų panaudos objektus. Jiems taip pat gali būti suteikta teisė darbuotojų vardu pridėti naujų panaudos objektų.
 

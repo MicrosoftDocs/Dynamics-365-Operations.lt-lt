@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-04-22
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 966a878a7e5b0a92d6d53e67bea19c50274087a4416980859175b12c6fdfbcdc
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: ec4265f0433fbbce1e00eda206c297b54f9b8df8
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6764841"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778526"
 ---
 # <a name="firm-planned-orders"></a>Galutinai suplanuoti užsakymai
 
@@ -31,7 +31,7 @@ Yra trys suplanuotų užsakymų virtimo metodai:
 
 Šioje temoje išsamiai aprašomas kiekvienas metodas.
 
-## <a name="enable-the-features-that-are-described-in-this-topic"></a><a name="enable-features"></a>Įgalinkite šioje temoje aprašomas funkcijas
+## <a name="enable-the-features-that-are-described-in-this-topic"></a><a name="enable-features"></a> Įgalinkite šioje temoje aprašomas funkcijas
 
 Dauguma suplanuoto užsakymo funkcijų yra galimos visuose standartiniuose „Microsoft Dynamics 365 Supply Chain Management“ diegimuose, naudojant „Planning Optimization“. Tačiau kai kurios šioje temoje aprašomos funkcijos turi būti įjungtos funkcijų valdymas prieš jas naudojant.
 
@@ -39,19 +39,19 @@ Dauguma suplanuoto užsakymo funkcijų yra galimos visuose standartiniuose „Mi
 
 Lygiagretus tvirtinimo procesas padeda pagreitinti tvirtinimo procesą, lygiagrečiai jį keliose gijose. Šis būdas gali būti naudingas, kai daugelis suplanuotų užsakymų yra patvirtinti.
 
-Norėdami, kad jūsų sistemoje šios funkcijos būtų galimos, eikite į Funkcijų [valdymas ir](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)įjunkite *suplanuotų užsakymų funkcijos lygiagretų* tvirtavimą.
+Norėdami, kad jūsų sistemoje šios funkcijos būtų galimos, eikite į Funkcijų [valdymas ir](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) įjunkite *suplanuotų užsakymų funkcijos lygiagretų* tvirtavimą. (Kaip tiekimo grandinės valdymo versija 10.0.21, ši funkcija yra įjungta pagal numatytuosius nustatymus.)
 
 ### <a name="enable-planned-order-firming-with-filtering"></a>Įjungti suplanuoto užsakymo tvirtinimo naudojant filtravimą
 
 Suplanuotų užsakymų virtimas naudojant filtravimą leidžia nurodyti loginius kriterijus, pagal kuriuos galima pasirinkti, kuriuos suplanuotus užsakymus patvirtinti. Taip pat galite peržiūrėti, kurie suplanuoti užsakymai buvo pasirinkti, vykdyti procesą fone ir / arba suplanuoti jį kaip paketinę užduotį.
 
-Norėdami, kad jūsų sistemoje šios funkcijos būtų galimos, eikite į Funkcijų [valdymas ir](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)įjunkite *suplanuotų užsakymų funkcijos pasirašymą su filtravimu* tvirtavimą.
+Norėdami, kad jūsų sistemoje šios funkcijos būtų galimos, eikite į Funkcijų [valdymas ir](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) įjunkite *suplanuotų užsakymų funkcijos pasirašymą su filtravimu* tvirtavimą.
 
 ### <a name="enable-auto-firming-for-planning-optimization"></a>Įjungti automatinį planavimo optimizavimo patvirtinimą
 
 Automatinis patvirtinimas leidžia patvirtinti (tai yra, išleisti) suplanuotus užsakymus kaip bendrojo planavimo dalį per laiko tvorą pasirašymui. Automatinis virtimas visada palaikomas planavimo variklis, sukurtas „Supply Chain Management“. Tačiau norėdami naudoti ją ir „Planning Optimization“, turite įjungti funkciją.
 
-Norėdami, kad jūsų sistemoje šios funkcijos būtų galimos, eikite į „Planning Optimization“ Funkcijų [valdymas ir](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) įjunkite *suplanuotų užsakymų funkcijos pasirašymą su filtravimu* tvirtavimą.
+Norėdami, kad jūsų sistemoje šios funkcijos būtų galimos, eikite į „Planning Optimization“ Funkcijų [valdymas ir](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) įjunkite *suplanuotų užsakymų funkcijos pasirašymą su filtravimu* tvirtavimą. (Kaip tiekimo grandinės valdymo versija 10.0.21, ši funkcija yra įjungta pagal numatytuosius nustatymus.)
 
 ## <a name="manually-firm-planned-orders"></a>Peržiūrėti suplanuotus užsakymus rankiniu būdu
 

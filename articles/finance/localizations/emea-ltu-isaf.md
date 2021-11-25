@@ -2,7 +2,7 @@
 title: Lietuvos i.SAF ataskaitos
 description: Šioje temoje paaiškinama, kaip nustatyti ir dirbti su juridiniams subjektams Lietuvoje skirtu i.SAF ataskaitų pateikimu.
 author: LizaGolub
-ms.date: 03/22/2021
+ms.date: 11/10/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Lithuania
 ms.author: kfend
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: cbccc27a49b400f8e50342a42f70ffa08f2bc6f6cfdf39b124bb9c77dfbee1fd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 24546a272d488007598e1687f16c4c07cc26aa28
+ms.sourcegitcommit: 4946b7f250f8b5cd3d09098b08e74bc5763d1c86
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6713124"
+ms.lasthandoff: 11/11/2021
+ms.locfileid: "7792595"
 ---
 # <a name="isaf-reporting-for-lithuania"></a>Lietuvos i.SAF ataskaitos
 
@@ -129,7 +129,7 @@ Stulpelis **Eilutės** naudojamas skaitiklyje, kuris kontroliuoja peržvalgos la
 
 | **Paieškos rezultatas** | **Eilutė**              | **Mokesčio kodas**      |
 |-------------------|-----------------------|-------------------|
-| **PVM100**        | Paskutinis jūsų sąrašo punktas | **\*Užpildytas\*** |
+| **PVM100**        | Paskutinis jūsų sąrašo punktas | **\* Užpildytas\*** |
 
 > [!NOTE]
 > Svarbu įtraukti „PVM100“, kuris turi rinkti duomenis pagal „kitus atvejus“ kaip paskutinis sąrašo punktas. Vertė **Eilutė** lentelėje turi būti paskutinė. 
@@ -149,10 +149,10 @@ i.SAF funkcijos El. pranešimai sąrankos procesą sudaro daug veiksmų. Kadangi
 > [!NOTE]
 > Prieš importuodami sąrankos duomenis iš duomenų objektų paketo, užbaikite ir įsitikinkite, kad jūsų programos duomenų objektai atnaujinami ir sinchronizuojami.
 
-1. Programoje [LCS](https://lcs.dynamics.com/v2) eikite į bendrai naudojamo turto biblioteką ir pasirinkite turto tipą **Duomenų paketas**. 
+1. Programoje [LCS](https://lcs.dynamics.com/v2) eikite į bendrai naudojamo turto biblioteką ir pasirinkite turto tipą Duomenų paketas. 
 2. Raskite **LT i.SAF sąranka funkcijai El. pranešimai.zip** duomenų paketų failų sąraše ir atsisiųskite jį į kompiuterį.
 3. Atsisiuntę failą **LT i.SAF sąranka funkcijai El. pranešimai.zip**, atidarykite „Finance“, pasirinkite įmonę, su kuria bendradarbiausite, palaikydami ryšį su HMRC, paskui eikite į **Darbo sritys** \> **Duomenų valdymas**.
-4. Darbo srityje **Duomenų valdymas** eikite **Sistemos parametrai**\>**Objekto parametrai**, tada pasirinkite **Atnaujinti objektų sąrašą**. Palaukite, kol bus patvirtinta, kad atnaujinimas baigtas. Norėdami gauti daugiau informacijos apie tai, kaip atnaujinti objektų sąrašą, žr. [Objektų sąrašo atnaujinimas](../../fin-ops-core/dev-itpro/data-entities/data-entities.md#entity-list-refresh).
+4. Darbo srityje **Duomenų valdymas** eikite **Sistemos parametrai** \> **Objekto parametrai**, tada pasirinkite **Atnaujinti objektų sąrašą**. Palaukite, kol bus patvirtinta, kad atnaujinimas baigtas. Norėdami gauti daugiau informacijos apie tai, kaip atnaujinti objektų sąrašą, žr. [Objektų sąrašo atnaujinimas](../../fin-ops-core/dev-itpro/data-entities/data-entities.md#entity-list-refresh).
 5. Patikrinkite, ar tinkamai susieti šaltinio duomenys ir paskirties duomenys. Daugiau informacijos ieškokite temos [Duomenų importavimo ir eksportavimo užduotys](../../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md#validate-that-the-source-data-and-target-data-are-mapped-correctly) skyriuje apie tikrinimą.
 6. Prieš naudojant duomenų objektus pirmą kartą duomenims iš paketo importuoti, sinchronizuokite šaltinio duomenų ir paskirties duomenų susiejimą. Paketo sąraše pasirinkite duomenų objektą, tada veiksmų srityje pasirinkite **Modifikuoti paskirties vietos susiejimą**. 
 7. Virš paketo tinklelio pasirinkite **Generuoti susiejimą**, kad sukurtumėte susiejimą iš naujo, tada įrašykite susiejimą.
@@ -197,7 +197,7 @@ Pagal numatytuosius nustatymus visi šių duomenų šaltinių įrašai bus įves
 
 Importavę duomenų objektus į duomenų bazę, atlikite nurodytus veiksmus ir funkcija El. pranešimai bus parengta naudoti.
 
-1. Eikite į **Mokesčiai**\>**Sąranka**\>**El. pranešimai**\>**Vykdomosios klasės parametrai**, pasirinkite vykdomąjį klasę **EvaluateInvoiceType_LT** ir veiksmų srityje pasirinkite **Parametrai**. 
+1. Eikite į **Mokesčiai** \> **Sąranka** \> **El. pranešimai** \> **Vykdomosios klasės parametrai**, pasirinkite vykdomąjį klasę **EvaluateInvoiceType_LT** ir veiksmų srityje pasirinkite **Parametrai**. 
 2. Lauke **SF tipas** pasirinkite **InvoiceType**, paskui spustelėkite **Gerai**.
 3. Eikite į **Mokesčiai** \> **Sąranka** \> **El. pranešimai** \> **Pranešimų apdorojimo veiksmai** ir nustatykite toliau pateikiamų veiksmų susijusias GER konfigūracijas lauke **Formato susiejimas**.
 
@@ -214,12 +214,16 @@ Importavę duomenų objektus į duomenų bazę, atlikite nurodytus veiksmus ir f
 
 ## <a name="set-up-security-roles-for-electronic-message-processing"></a>Elektroninių pranešimų apdorojimo saugos vaidmenų nustatymas
 
-Skirtingoms vartotojų grupėms gali reikėti prieigos prie **i.SAF** apdorojimo. Galite riboti prieigą prie apdorojimo, atsižvelgiant į sistemoje nustatytas saugos grupes.
+Skirtingoms vartotojų grupėms gali reikėti prieigos **prie i.VZ.,** apdorojimo. Galite riboti prieigą prie apdorojimo, atsižvelgiant į sistemoje nustatytas saugos grupes.
 
 Atlikite toliau nurodytus veiksmus, norėdami apriboti prieigą prie **i.SAF** apdorojimo.
 
 1. Eikite į **Mokesčiai** \> **Sąranka** \> **El. pranešimai** \> **El. pranešimų apdorojimas**. 
 2. Pasirinkite **i.SAF** apdorojimą ir įtraukite saugos grupes, kurios turi dirbti su šiuo apdorojimu. Jei apdorojime saugos grupių nenurodyta, tik sistemos administratorius gali matyti apdorojimą puslapyje **El. pranešimai**.
+
+## <a name="set-up-the-vat-registration-number-for-the-company-that-is-reporting-isaf"></a>Nustatyti pvm registracijos numerį įmonei, kuri teikia ataskaitas I.VZ.
+
+Sistema iš juridinio subjekto ypatybėse nustatyto registracijos ID nuskaito įmonės, kuri teikia ataskaitas I.INKITĖS, PVM registracijos numerį. Daugiau informacijos ieškokite Registracijos [tipas ir](emea-registration-ids.md#registration-type-creation) Registracijos [kategorija](emea-registration-ids.md#supported-registration-categories). Mokesčio registracijos tipas turi būti priskirtas **PVM ID** registracijos kategorijai. Išsamesnės informacijos apie būtinas PVM ID registracijos sąlygas ieškokite [Nustatyti PVM](tasks/eur-00015-vat-id.md) ID.
 
 ## <a name="collect-data-for-the-isaf-report"></a>i.SAF ataskaitos duomenų rinkimas
 

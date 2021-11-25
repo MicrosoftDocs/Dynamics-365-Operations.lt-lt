@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: c2fbaa6945cf46b7ef09232e6004f09b487ea7c822e72225dc00d3d28ecb008e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 3612dd45a3f4b8c3597c81962a66c21ed14fb206
+ms.sourcegitcommit: e91a1797192fd9bc4048b445bb5c1ad5d333d87d
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6780203"
+ms.lasthandoff: 11/01/2021
+ms.locfileid: "7729032"
 ---
 # <a name="apply-filters-to-a-plan"></a>Filtrų taikymas planui
 
@@ -43,7 +43,7 @@ Plano filtras nustatytas taip, kad jį sudarytų A, B ir C prekės. Tada bendroj
 - **Apdorojimo filtras, kuriame yra visos prekės (tuščias filtras):** A, B ir C yra įtraukiamos į planavimo vykdymą, o ankstesnio prekių A ir B planavimo išvestis perrašoma.
 
 > [!NOTE]
-> Neturėtumėte nustatyti plano filtro plane, kuris yra pasirinktas kaip **Dabartinis dinaminis bendrasis planas** puslapyje **Bendrojo planavimo parametrai**. Kitu atveju dinaminio bendrojo plano funkcija bus apribota filtruotomis prekėmis. Pavyzdžiui, jei atnaujinami prekės, kuris nėra plano filtro dalis, grynieji poreikiai, nebus sugeneruota jokių rezultatų.
+> Jei nustatysite plano filtrą plane, kuris bendrojo planavimo parametrų puslapyje pasirinktas kaip **dabartinis dinaminis bendrasis** **·** planas, dinaminio bendrojo plano funkcija apsiribos filtruotomis prekėmis. Pavyzdžiui, jei atnaujinami prekės, kuris nėra plano filtro dalis, grynieji poreikiai, nebus sugeneruota jokių rezultatų.
 
 ## <a name="related-resources"></a>Susiję ištekliai
 

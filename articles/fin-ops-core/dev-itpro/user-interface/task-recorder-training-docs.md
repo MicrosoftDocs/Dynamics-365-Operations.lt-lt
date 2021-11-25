@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: SysHelpSetup
 audience: Application User, IT Pro
-ms.reviewer: rhaertle
+ms.reviewer: tfehr
 ms.custom: 25391
 ms.assetid: 59bf39f8-1464-441e-8b23-9a856c73471b
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d2b21fdb5e09684a23e52333fcb74d3d43ad325ba0eae5294cacf61ac06d9b1e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: d137b5dbde52423d0e040c3012fb4f1eee2368d4
+ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6740224"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7781237"
 ---
 # <a name="create-documentation-or-training-with-task-recorder"></a>Dokumentų ar mokymų kūrimas naudojant užduočių įrašymo priemonę
 
@@ -62,21 +62,21 @@ Kurdami naują užduoties įrašą ar savo įrašą kurdami pagal „Microsoft�
 
 Tai redagavimo sritis, kurią matote, kai kurdami įrašą pridedate komentarą. Įveskite komentaro pavadinimą lauke **Pavadinimas**. 
 
-[![Redagavimo sritis su pavadinimo komentaru.](./media/screen1.png)](./media/screen1.png) 
+[![ Redagavimo sritis su pavadinimo komentaru.](./media/screen1.png)](./media/screen1.png) 
 
 Taip atrodo pavadinimo komentaras užduočių vedlio „burbuliuke‟. 
 
-[![Pavadinimo komentaro išvaizda užduočių vedlyje.](./media/screen2.png)](./media/screen2.png)
+[![ Pavadinimo komentaro išvaizda užduočių vedlyje.](./media/screen2.png)](./media/screen2.png)
 
 -   **Pastabos.** Pastabų komentaras bus rodomas po veiksmo teksto, kurį automatiškai sugeneruoja užduočių įrašytuvas. Jis užduoties vadove bus matomas tik jei naudotojas užduoties vadovo burbuliuke spustelės saitą **Rodyti daugiau**. Šį komentaro tipą naudokite norėdami apibūdinti dalykus, kuriuos, norėdamas atlikti veiksmą, turi žinoti naudotojas.
 
 Tai redagavimo sritis, kurią matote, kai kurdami įrašą pridedate komentarą. Įveskite pastabų komentarą lauke **Pastabos**. 
 
-[![Redagavimo sritis su komentaru pastabų lauke.](./media/screen3.png)](./media/screen3.png) 
+[![ Redagavimo sritis su komentaru pastabų lauke.](./media/screen3.png)](./media/screen3.png) 
 
 Taip atrodo pastabų komentaras užduočių vedlio „burbuliuke‟.
 
-[![Pastabų komentaro išvaizda užduočių vedlyje.](./media/screen4.png)](./media/screen4.png)
+[![ Pastabų komentaro išvaizda užduočių vedlyje.](./media/screen4.png)](./media/screen4.png)
 
 -   **Informacijos veiksmas**: šie komentarai sukuriami dešiniuoju pelės mygtuku spustelėjus valdiklį ar bet kurią vietą formoje &lt; **Užduočių įrašymo priemonė** &lt; **Įtraukti informacijos veiksmą.** Informacijos veiksmas pateikiamas kaip sunumeruotas veiksmas bet kurioje vietoje, į kurią įterpsite šį veiksmą, nors vartotojo sąsajoje neįrašytas joks veiksmas. Galite pridėti formos lygio informacijos veiksmą arba su valdikliu susietą informacijos veiksmą. Kai informacijos veiksmas susietas su forma, leidžiant užduoties vadovą, jo „burbuliukas‟ atsiras kažkur formoje, be žymeklio. Kai informacijos veiksmas susietas su valdikliu, leidžiant užduočių vedlį jo „burbuliukas‟ bus nukreiptas į valdiklį. Žinyno srityje informacijos veiksmo komentaras bus pateikiamas kaip sunumeruotas veiksmas su bet kokiu įvestu tekstu. Naudokite informacijos veiksmus, kad padėtumėte vartotojui pasirengti tolesniems veiksmams, aprašytumėte veiksmus, kuriuos reikia atlikti ne programoje, arba nurodytumėte kitus įrašus (nors komentaruose hipersaitų kurti negalite).
 

@@ -1,8 +1,8 @@
 ---
 title: „Human Resources“ parametrų konfigūravimas
 description: Šioje temoje aiškinama, kaip nustatyti konkrečius įmonės parametrus programoje „Dynamics 365 Human Resources“.
-author: andreabichsel
-ms.date: 06/23/2021
+author: twheeloc
+ms.date: 11/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 51941
 ms.assetid: 2cfb061a-a616-4bf9-9d98-9cde00039eec
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 476f44c665adb2918e7cd882d4ea873b4b4f94fa33a74dc96d3eccc74b676ce5
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: fd9bb907f95ba4c368871a470ca9b2bc807646ee
+ms.sourcegitcommit: 7e0e2a266d9a9473df72e207554d9bd150e17ce3
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6739256"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7771440"
 ---
 # <a name="configure-human-resources-parameters"></a>„Human Resources“ parametrų konfigūravimas
 
@@ -65,7 +65,7 @@ Skirtuko **Bendra** parametrai apibrėžia informacijos apie neatvykimą, sužal
 
 Skirtuko **Įdarbinimas** parametrai apibrėžia dokumentų tipus, naudojamus pretendentams siunčiamai korespondencijai. Taip pat galima nurodyti įdarbinimo projektą, naudojamą neprašytoms paraiškoms.
 
-Nurodytas skirstymo pagal terminus laikotarpis nustato įdarbinimo projektus, įtrauktus į išklotinę **Suskirstyti pagal terminus projektai**, esančią darbo srityje **Įdarbinimo valdymas**. Nurodytas prašymo pateikimo termino įspėjimo laikotarpis yra naudojamas įdarbinimo projektams, kurių prašymo pateikimo terminas artėja, rodyti išklotinėje **Prašymo pateikimo terminas artėja**, esančioje darbo srityje **Įdarbinimas**.
+Laikotarpis, nustatytas įdarbinimo projekto s skirstymo pagal terminus metu, lemia, kurie įdarbinimo projektai įtraukiami į skirstymo pagal terminus projektų išklotinę vietą **·** įdarbinimo valdymo darbo **·** **·** srityje. Laikotarpis, nustatytas prašymo termino perspėjimui, naudojamas įdarbinimo projektams, kurių prašymo terminas artėja prie jų prašymo termino, parodyti artėjant prie išklotinės dalies **·** įdarbinimo darbo **·** srityje.
 
 Daugiau informacijos apie įdarbinimą žr. skyriuje [Kandidatų į darbo vietas įdarbinimas](hr-personnel-recruit.md).
 
@@ -107,20 +107,20 @@ Skirtuke FMLA nustatote FMLA tinkamumo reikalavimus ir FMLA atostogų valandas. 
 
 ## <a name="employee-self-service"></a>Darbuotojų savitarna
 
-Skirtuko **Darbuotojo savitarna** nustatymai veikia tai, kaip darbuotojo savitarnos paslauga rodoma darbuotojams. Šiame skirtuke galima:
+Skirtuke Darbuotojų **savitarnos parametrai** veikia tai, kaip darbuotojų **savitarnos paslauga rodoma** darbuotojams. Šiame skirtuke galite atlikti šias užduotis:
 
-- keisti darbuotojo savitarnos darbo srities pavadinimą,
+- Įveskite darbuotojų **savitarnos darbo srities** pavadinimą
 - pasirinkti, kurią informaciją vadovas gali įvesti darbuotojams,
 - pridėti naudingų nuorodų darbuotojams,
 - apriboti leidimus darbuotojams pridėti ar redaguoti įmonės kontaktinius duomenis. Daugiau informacijos žr. skyriuje [Asmens informacijos redagavimo apribojimas](hr-employee-self-service-restrict-editing.md).
 
-Daugiau informacijos apie tai, kaip nustatyti darbuotojo savitarną, žr. skyriuje [Darbuotojo ir vadovo savitarnos apžvalga](hr-employee-manager-self-service-overview.md).
+Daugiau informacijos apie tai, kaip nustatyti darbuotojų **savitarnos** paslauga, žr. [Darbuotojų ir vadybininko savitarnos paslaugos](hr-employee-manager-self-service-overview.md) apžvalgą.
 
 ![Darbuotojų savitarnos skirtukas.](./media/hr-setup-parameters-employee-self-service.png)
 
 ## <a name="manager-self-service"></a>Vadovų savitarna
 
-Skirtuko **Vadovo savitarna** nustatymai daro įtaką tam, ką vadovai mato savo vadovo savitarnoje. Šiame skirtuke galima konfigūruoti šias parinktis:
+Skirtuko Vadybininko **savitarnos parametrai** daro įtaką tai, ką vadybininkai matys **vadybininko** savitarnoje. Šiame skirtuke galima konfigūruoti šias parinktis:
 
 - Įrašų, kurių galiojimas baigiasi, diapazonas
 - Informaciją, kurią vadovai gali peržiūrėti įrašų su besibaigiančiu galiojimu srityje
@@ -128,13 +128,13 @@ Skirtuko **Vadovo savitarna** nustatymai daro įtaką tam, ką vadovai mato savo
 - Esamų darbuotojų rodiniai
 - Naudingos nuorodos vadovams
 
-Daugiau informacijos apie tai, kaip nustatyti vadovo savitarną, žr. skyriuje [Darbuotojo ir vadovo savitarnos apžvalga](hr-employee-manager-self-service-overview.md).
+Daugiau informacijos apie tai, kaip nustatyti **vadybininko savitarnos** paslaugas, ieškokite darbuotojų [ir vadybininko savitarnos paslaugos](hr-employee-manager-self-service-overview.md) apžvalgą.
 
 ![Vadovo savitarnos skirtukas.](./media/hr-setup-parameters-manager-self-service.png)
 
 ## <a name="benefits-management"></a>Išmokų valdymas
 
-Išmokų valdymo skirtuke galima konfigūruoti el. pašto parinktis išmokų valdymui. Informacijos apie tai, kaip nustatyti ir naudoti išmokų valdymą, žr. skyriuje [Išmokų valdymo apžvalga](hr-benefits-management-overview.md).
+Skirtuke **Išmokų valdymas galite konfigūruoti išmokų valdymo** el. pašto pasirinktis. Daugiau informacijos apie tai, kaip nustatyti ir naudoti Išmokų valdymą, [žr. Išmokų valdymo](hr-benefits-management-overview.md) apžvalga.
 
 ![Išmokų valdymo skirtukas.](./media/hr-setup-parameters-benefits-management.png)
 

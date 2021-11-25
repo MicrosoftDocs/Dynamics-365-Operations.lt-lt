@@ -1,8 +1,8 @@
 ---
 title: Nustatyti sužeidimų ir ligų informaciją
 description: Darbdaviai turi žinoti, kada jų samdomi darbuotai susižeidžia arba suserga dėl pavojingų darbo vietos sąlygų.
-author: andreabichsel
-ms.date: 08/29/2018
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -10,15 +10,15 @@ ms.search.form: HRMInjurySetup, HcmPersonnelManagementWorkspace
 audience: Application User
 ms.search.scope: Human Resources
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 209d7d2b7f992520d1b36532c0489ef12f18dd2924cfba6f81c43ab1b184b492
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 470f7bbf85288e98fbb57bb43701377995e075c8
+ms.sourcegitcommit: e91a1797192fd9bc4048b445bb5c1ad5d333d87d
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6734456"
+ms.lasthandoff: 11/01/2021
+ms.locfileid: "7728740"
 ---
 # <a name="set-up-injury-and-illness-information"></a>Nustatyti sužeidimų ir ligų informaciją
 
@@ -26,43 +26,37 @@ ms.locfileid: "6734456"
 
 
 
-Darbdaviai turi žinoti, kada jų samdomi darbuotai susižeidžia arba suserga dėl pavojingų darbo vietos sąlygų. Norėdami pranešti apie susižalojimą arba susirgimus darbo vietoje, šiame susižalojimo ir ligų puslapyje galite nustatyti informaciją. Galite nustatyti susižalojimo ir ligų tipus, įskaitant gydymą, išlaidas ir pasekmes. Kuriant šią procedūrą naudojama demonstracinių duomenų įmonė yra USMF.
+Darbdaviai turi žinoti, kada jų darbuotojai patiria sužalojimus ar ligas dėl darbo vietoje pereitų. Sužalojimų ir **ligų puslapyje galite naudoti norėdami nustatyti informaciją, kuri palengvina darbo vietos** sužalojimų ar ligų ataskaitas. Galite nustatyti susižalojimo ir ligų tipus, įskaitant gydymą, išlaidas ir pasekmes. **USMF** demonstracinių duomenų įmonė buvo naudojama šiai procedūrai sukurti.
 
-1. Eikite į Personalas > Darbuotojai > Sužalojimas ir liga > Sužalojimų ir ligų nustatymas.
-2. Spustelėkite Naujas.
-3. Sužalojimo arba ligos tipo lauke įveskite reikšmę.
-    * Pavyzdys: lūžis  
-4. Lauke Aprašas įveskite reikšmę.
-    * Pavyzdys: kaulo lūžis  
-5. Spustelėkite skirtuką Kūno dalys.
-6. Spustelėkite Naujas.
-7. Lauke Kūno dalis įveskite reikšmę.
-    * Pavyzdys: riešas  
-8. Lauke Aprašas įveskite reikšmę.
-    * Pavyzdys: riešas  
-9. Spustelėkite skirtuką Gydymo tipai.
-10. Spustelėkite Naujas.
-11. Lauke Gydymo tipas surinkite reikšmę.
-    * Pavyzdys: įtvaras  
-12. Lauke Aprašas įveskite reikšmę.
-    * Pavyzdys: uždėti įtvarą ant  
-13. Spustelėkite skirtuką Išlaidų tipai.
-14. Spustelėkite Naujas.
-15. Lauke Išlaidų tipas surinkite reikšmę.
-    * Pavyzdys: rentgeno spinduliai  
-16. Lauke Aprašas įveskite reikšmę.
-    * Pavyzdys: rentgeno spinduliai  
-17. Spustelėkite skirtuką Rezultatų tipai.
-18. Spustelėkite Naujas.
-19. Lauke Rezultatų tipas įveskite reikšmę.
-    * Pavyzdys: gydymas  
-20. Lauke Aprašas įveskite reikšmę.
-    * Pavyzdys: fizinė terapija  
-21. Spustelėkite skirtuką Sunkumo lygiai.
-    * Galima sukurti pritaikomus sunkumo lygius. Pavyzdžiui: 1 sunkumas gali reikšti smulkų sužalojimą, o 3 sunkumas gali nurodyti sunkų sužalojimą.  
-22. Spustelėkite skirtuką Priežiūros institucijos.
-    * Priežiūros institucijos yra įstaigos, kurioms turi būti pranešama apie incidentą. Pasirinkite numatytosios institucijos, kuriai reikia pranešti apie sužalojimus ir ligas, numatytąjį žymės langelį.  
-23. Spustelėkite Įrašyti.
+1. Eikite **į personalo darbuotojų** \> **·** \> **sužalojimo ir ligos** \> **sužalojimo ir ligos** nustatymą.
+2. Pasirinkite **Nauja**.
+3. Lauke **Sužalojimo arba ligos** tipas įveskite vertę (pvz., **Tamsus).**
+4. Aprašymo **lauke įveskite vertę** (pvz., **Krykšte).**
+5. Pasirinkite skirtuką **Kūno** dalys.
+6. Pasirinkite **Nauja**.
+7. Lauke Kūno **dalis** įveskite vertę (pvz., **·** Wrist).
+8. Aprašymo **lauke įveskite vertę** (pvz., **·** Wrist).
+9. Pasirinkite skirtuką **Gydymo** tipai.
+10. Pasirinkite **Nauja**.
+11. Į **lauką Gydymo** tipas įveskite vertę (pvz., **·** Paslauga).
+12. Aprašymo **·** lauke įveskite vertę (pvz., **įdėkite lauką** Aprašymas).
+13. Pasirinkite **skirtuką Išlaidų** tipai.
+14. Pasirinkite **Nauja**.
+15. Lauke **Išlaidų tipas** įveskite vertę (pvz., **X-xxxs).**
+16. Aprašymo **·** lauke įveskite vertę (pvz., **X-xxxs).**
+17. Pasirinkite skirtuką **Rezultatų** tipai.
+18. Pasirinkite **Nauja**.
+19. Lauke **Rezultato tipas** įveskite vertę (pvz., **·** Nakvynė).
+20. Aprašymo **lauke įveskite vertę** (pvz., Fizinę **·** negalią).
+21. Pasirinkite skirtuką **Sunkumo** lygiai.
+
+    Galima sukurti pritaikomus sunkumo lygius. Pavyzdžiui, 1 svarba gali rodyti smulkų sužeidimą, o 3 svarba – sunkią sužalojimą.
+
+22. Pasirinkite skirtuką **Ataskaitų** agentūros.
+
+    Ataskaitą teikianti agentūra yra agentūros, į kurias reikia pranešti apie incidentą. Pažymėkite **numatytosios** agentūros, kuri yra numatytoji institucija, kuri turi pranešti apie sužalojimus ir ligas, žymės langelį.
+
+23. Pasirinkite **Įrašyti**.
 
 
 

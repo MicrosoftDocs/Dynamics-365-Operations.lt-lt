@@ -5,16 +5,16 @@ author: RamaKrishnamoorthy
 ms.date: 01/07/2021
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: rhaertle
+ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: 03bfb5f97b332abb7f34e179d7b294ed2228ab474825a76271f42cc60971a645
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 7c53bcd1084d89b59d0f6b2674a85d7c3481a9bf
+ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6716099"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7781796"
 ---
 # <a name="prospect-to-cash-in-dual-write"></a>Potencialių klientų pavertimas grynaisiais pinigais dvigubo rašymo funkcijoje
 
@@ -96,7 +96,7 @@ Jeigu sinchronizuojate „Supply Chain Management“ su „Sales“, gausite tok
 Į lentelę **Užsakymas** buvo įtraukti nauji stulpeliai, rodomi puslapyje. „Sales“ skirtuke **Integravimas** rodoma dauguma šių stulpelių. Daugiau informacijos apie tai, kaip susieti būsenos stulpeliai, žiūrėkite [Pardavimo užsakymo būsenos stulpelių susiejimo nustatymas](sales-status-map.md).
 
 + Mygtukai **Kurti sąskaitą faktūrą** ir **Atšaukti užsakymą** puslapyje **Pardavimų užsakymai** yra paslėpti „Sales“.
-+ Reikšmė **Pardavimų užsakymo būsena** išliks **Aktyvi**, kad padėtų užtikrinti, jog „Supply Chain Management“ keitimai galėtų būti perkelti į „Sales“ pardavimų užsakymą. Norėdami valdyti šią veikimo būdą, numatytąją **Būsenos kodas \[Būsena\]** reikšmę nustatykite į **Aktyvi**.
++ Reikšmė **Pardavimų užsakymo būsena** išliks **Aktyvi**, kad padėtų užtikrinti, jog „Supply Chain Management“ keitimai galėtų būti perkelti į „Sales“ pardavimų užsakymą. Norėdami valdyti šią veikimo būdą, numatytąją **Būsenos kodas \[ Būsena\]** reikšmę nustatykite į **Aktyvi**.
 
 ## <a name="invoices"></a>Sąskaitos faktūros
 

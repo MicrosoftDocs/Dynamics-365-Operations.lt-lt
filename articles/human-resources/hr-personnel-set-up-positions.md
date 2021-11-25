@@ -1,8 +1,8 @@
 ---
 title: Pareigų nustatymas
-description: Pareigos yra svarbus žemesniojo organizacijos hierarchijos lygio elementas.
-author: andreabichsel
-ms.date: 08/29/2018
+description: Šioje temoje aprašoma, kaip pareigos yra svarbus organizacijos hierarchijos žemesnio lygio elementas.
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -10,15 +10,15 @@ ms.search.form: DefaultDashboard, HcmWorkforceWorkspace, HcmWorkerActivityChart,
 audience: Application User
 ms.search.scope: Human Resources
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 83d30b7b0945051e2f3c0ee014cff6c98a2287ad64eb565282f497393b8cf0d5
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: f4b9f09db8465cc55c9b0c4dc403c2c7a3647d7e
+ms.sourcegitcommit: e91a1797192fd9bc4048b445bb5c1ad5d333d87d
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6775776"
+ms.lasthandoff: 11/01/2021
+ms.locfileid: "7728723"
 ---
 # <a name="set-up-positions"></a>Pareigų nustatymas
 
@@ -26,45 +26,57 @@ ms.locfileid: "6775776"
 
 
 
-Pareigos yra svarbus žemesniojo organizacijos hierarchijos lygio elementas. Pareigos yra atskiros užduoties egzemplioriaus. Pvz., pareigos „Pardavimo vadybininkas (rytų regionas)“ yra vienos iš pareigų, susietų su užduotimi „Pardavimo vadovas“. Pareigų padalinį yra ir gali būti susietas su juo tik vienas darbuotojas. Atlikdami šią užduotį, susipažinsime su veiksmais, kuriuos reikia atlikti norint sukurti tam tikras pareigas. Ši procedūra yra skirta žmogiškųjų išteklių specialistams.
+Pareigos yra svarbus žemesniojo organizacijos hierarchijos lygio elementas. Pozicija yra individualus užduoties egzempliorius. Pvz., pareigos, "Pardavimo vadybininkas (Rytų)," yra viena iš pareigų, susijusių su užduotimi "Pardavimo vadybininkas". Pareigų padalinį yra ir gali būti susietas su juo tik vienas darbuotojas. Atlikdami šią užduotį, susipažinsime su veiksmais, kuriuos reikia atlikti norint sukurti tam tikras pareigas. Ši procedūra yra skirta žmogiškųjų išteklių specialistams.
 
-1. Spustelėkite Darbo jėgos valdymas.
-2. Spustelėkite Laisvos pareigos.
-3. Spustelėdami Naujas atidarykite išplečiamąjį dialogo langą.
-4. Lauke Užduotis įveskite arba pasirinkite reikšmę.
-    * Užduoties aprašas, pavadinimas ir viso etato ekvivalento įdarbinimo koeficientas automatiškai iš užduoties nukopijuojami į pareigas.  
+1. Pasirinkite **darbo jėgos valdymą**.
+2. Pasirinkite **Atviras pareigas**.
+3. **Išplečiamajame dialogo lange atidaryti pasirinkite** Naujas.
+4. Užduoties **·** lauke įveskite arba pasirinkite vertę.
+
+    **Užduoties** aprašymo, pareigų ir viso **·** **laikų ekvivalento įdarbinimo koeficiento laukai automatiškai** kopijuojami iš pasirinktos užduoties į pareigas.
+
 5. Nustačius keičiasi užduotis.
-6. Spustelėkite Kurti pareigas.
-7. Lauke Padalinys įveskite arba pasirinkite reikšmę.
-8. Lauke Pareigų tipas įveskite arba pasirinkite reikšmę.
-9. Lauke Kompensacijų regionas įveskite arba pasirinkite reikšmę.
-    * Lauku Kompensacijų regionas nustatomos kompensavimo tinkamumo taisyklės ir fiksuoto didinimo biudžetai, taikomi tas pareigas užimančiam darbuotojui.  
-10. Lauke Galima priskirti įveskite datą ir laiką.
-11. Išplėskite dalį Pareigų trukmė.
-    * Pareigų trukmė įvedama pagal numatytuosius parametrus, atsižvelgiant į anksčiau įvestas aktyvinimo ir atleidimo datas  
-12. Išplėskite sekciją Teikia ataskaitas pareigų atstovui.
-    * Priskyrę darbininką pareigoms, kurios atskaitingos kitoms pareigoms, sukuriate tiesioginį atskaitingumo ryšį tarp šioms dviem pareigoms priskirtų darbuotojų.  
-13. Spustelėdami Naujas atidarykite išplečiamąjį dialogo langą.
-14. Lauke Teikia ataskaitas įveskite arba pasirinkite reikšmę.
-15. Spustelėkite Kurti.
-16. Išplėskite dalį Darbininko priskyrimas.
-17. Išplėskite sekciją Ryšiai.
-    * Jei jūsų organizacijoje naudojama matricos hierarchija ar kita pasirinktinė hierarchija, galite nustatyti pareigų hierarchijų tipus ir įtraukti pareigų ataskaitų ryšius į kiekvieno hierarchijos tipo, kurį nustatote, pareigas.  
-18. Spustelėkite Pridėti.
+6. Pasirinkite **Kurti** pareigas.
+7. Įveskite **arba** pasirinkite vertę Padalinio lauke.
+8. Lauke **Pareigų tipas** įveskite arba pasirinkite vertę.
+9. Lauke **Kompensacijos sritis** įveskite arba pasirinkite vertę.
+
+    Laukas **Kompensavimo regionas nustato kompensavimo tinkamumo taisykles ir fiksuoto did padidėjimo** biudžetus, taikomus toms pareigų darbuotojui.
+
+10. Lauke **Galima priskirti** įveskite datą ir laiką.
+11. Išplėskite **pareigų trukmės** skyrių.
+
+    Pareigų trukmė įvedama pagal numatytuosius nustatymus, atsižvelgiant į anksčiau įvestas aktyvinimo ir pabaigos datas.
+
+12. Išplėskite **skyrių Ataskaitos pagal** pareigas.
+
+    Priskyrę darbininką pareigoms, kurios atskaitingos kitoms pareigoms, sukuriate tiesioginį atskaitingumo ryšį tarp šioms dviem pareigoms priskirtų darbuotojų.
+
+13. **Išplečiamajame dialogo lange atidaryti pasirinkite** Naujas.
+14. Lauke **Ataskaitos iki** įveskite arba pasirinkite vertę.
+15. Pasirinkite **Kurti**.
+16. Išplėskite **skyrių Darbuotojo** priskyrimas.
+17. Išplėskite **skyrių** Ryšiai.
+
+    Jei jūsų organizacijoje naudojama matricos hierarchija ar kita pasirinktinė hierarchija, galite nustatyti pareigų hierarchijų tipus ir įtraukti pareigų ataskaitų ryšius į kiekvieno hierarchijos tipo, kurį nustatote, pareigas.
+
+18. Pasirinkite **Įtraukti**.
 19. Sąraše pažymėkite pasirinktą eilutę.
-20. Lauke Hierarchijos pavadinimas įveskite arba pasirinkite reikšmę.
-21. Lauke Teikia ataskaitas pareigų atstovui įveskite arba pasirinkite reikšmę.
-22. Išplėskite dalį Algalapiai.
-23. Lauke Mokėjimo ciklas įveskite arba pasirinkite reikšmę.
-24. Lauke Mokėtojas įveskite arba pasirinkite reikšmę.
-25. Lauke Metinės įprastinės valandos įveskite skaičių.
-    * Tai – reguliariai apmokamų valandų, kurias, tikėtina, kiekvienais metais išdirbs šias pareigas užimantis darbininkas, skaičius.  
-26. Išplėskite dalį Profesinė sąjunga.
-27. Sutraukite dalį Profesinė sąjunga.
-28. Išplėskite sekciją Finansinės dimensijos.
-29. Lauke Paskirstymo šablonas įveskite arba pasirinkite reikšmę.
-30. Lauke Padalinys įveskite arba pasirinkite reikšmę.
-31. Spustelėkite Įrašyti.
+20. Lauke **Hierarchijos** pavadinimas įveskite arba pasirinkite vertę.
+21. Į **pareigų ataskaitų** lauką įveskite arba pasirinkite vertę.
+22. Išplėskite **skyrių** Algalapis.
+23. Lauke **Mokėjimo ciklas** įveskite arba pasirinkite vertę.
+24. Lauke **Apmokėta įveskite** arba pasirinkite vertę.
+25. Lauke **Metinės** įprastos valandos įveskite skaičių.
+
+    Jūsų įvedama vertė yra reguliariai mokamų valandų, kurias darbuotojas eka šias pareigas, skaičius kiekvienais metais.
+
+26. Išplėskite **skyrių Darbo** sąjunga.
+27. Sutraukti **profesinės sąjungos** skyrių.
+28. Išplėskite **finansinių dimensijų** skyrių.
+29. Lauke **Paskirstymo šablonas** įveskite arba pasirinkite vertę.
+30. Įveskite **arba** pasirinkite vertę Padalinio lauke.
+31. Pasirinkite **Įrašyti**.
 
 
 

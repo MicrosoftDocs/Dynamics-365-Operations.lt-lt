@@ -2,7 +2,7 @@
 title: Darbo su elektroninių SF priedu pradžia
 description: Šioje temoje pateikiama informacija, kuri padės jums pradėti naudotis elektroninių SF išrašymo priedu „Microsoft Dynamics 365 Finance” ir „Dynamics 365 Supply Chain Management”.
 author: gionoder
-ms.date: 08/17/2021
+ms.date: 11/08/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: d0550228dc77ed255a0033bc3b0a4ec21d48a497
-ms.sourcegitcommit: 2113678369f47944f8725ca656f461fa159f87f6
-ms.translationtype: HT
+ms.openlocfilehash: ebef9cf97f7a91e0a2fd45f5e0e0fc620070b42a
+ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/27/2021
-ms.locfileid: "7700384"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7779699"
 ---
 # <a name="get-started-with-electronic-invoicing"></a>Darbo su elektroninių SF priedu pradžia
 
@@ -57,7 +57,12 @@ Prieš užbaigdami procedūrą šioje temoje, būtina atlikti tolesnes išanksti
 
 Priklausomai nuo šalies ar regiono, elektroninės sąskaitos funkcijai gali reikėti konkretaus konfigūravimo. 
 
-Konkretiesm žingsniams, žr. „Pradžia“ dokumentus, kurie yra prieinami jūsų šaliai ar regionui.
+> [!NOTE]
+> Kai įgalinate Suomijos elektroninių SF išrašymo priemonę, peržvalgose nepalaikomi programai konkretūs parametrai. Norėdami išspręsti šią problemą, elektroninių **ataskaitų** modulyje peržiūrėkite pardavimo SF ir projekto SF formatų konfigūracijas. Rankiniu būdu nustatykite apskaičiuotą lauką, kad $PaymentMethodSubstitution būtų galima susieti tą lauką su **·** **lauku AndPaymentMeansCode iš pardavimo SF ir** projekto SF formatų.
+>
+> Kai įgalinate Italijos elektroninių SF išrašymo priemonę, peržvalgose nepalaikomi programai konkretūs parametrai. Norėdami išspręsti šią problemą elektroninio ataskaitų **·** modulyje rankiniu būdu nustatykite apskaičiuotą konvertavimo **$NaturaReverseCharge** lauką.
+>
+> Su kitomis vietas susijusių konkrečių veiksmų ieškokite dokumentuose "Pradėti", kurie pasiekiami jūsų šalyje arba regione.
 
 ## <a name="import-the-model-mapping-configurations-from-electronic-reporting"></a>Importuokite modelių susiejimo konfigūracijas iš elektroninių ataskaitų
 
@@ -241,6 +246,14 @@ Konkretiesm žingsniams, žr. „Pradžia“ dokumentus, kurie yra prieinami jū
 
 3. Rinkitės sąskaitą tinklelyje ir tada rinkitės **Teirautis** \> **Teikimo išsami informacija**.
 
+## <a name="download-an-electronic-document-file"></a>Elektroninio dokumento failo atsisiuntimas
+
+1. Eikite į **Organizacijos administravimas** \> **Periodinė** \> **Elektroniniai dokumentai** \> **Elektroninio dokumento teikimo žurnalas**.
+2. Laukelyje **Dokumento tipas** rinkitės lentelę, kurioje yra sąskaitos.
+3. Tinklelyje pasirinkite dokumentą, tada pasirinkite Elektroninio **dokumento** \> **atsisiuntimo** failas. Bus pasiūlyta atsisiųsti archyvą, kuriame yra elektroninio dokumento failas.
+
+> [!NOTE]
+> Kad būtų galima atsisiųsti failus, RCS programos elektroninių SF išrašymo funkcijos nustatyme turi būti įjungta susijusio veiksmo **·** eksportavimo rezultatų pasirinktis.
 
 ## <a name="related-topics"></a>Susijusios temos
 

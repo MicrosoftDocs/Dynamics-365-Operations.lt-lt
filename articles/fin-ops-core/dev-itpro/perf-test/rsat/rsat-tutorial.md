@@ -5,17 +5,17 @@ author: FrankDahl
 ms.date: 09/23/2021
 ms.topic: article
 audience: Application User, Developer, IT Pro
-ms.reviewer: rhaertle
+ms.reviewer: tfehr
 ms.search.region: Global
 ms.author: fdahl
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: f1d818944ed2779cdad15d84673369e31243285f
-ms.sourcegitcommit: ba8ca42e43e1a5251cbbd6ddb292566164d735dd
-ms.translationtype: HT
+ms.openlocfilehash: 2f31009424629221a8e4f130b0ec1879c6c6e3d4
+ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/25/2021
-ms.locfileid: "7556770"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7781968"
 ---
 # <a name="regression-suite-automation-tool-tutorial"></a>„Regression Suite Automation Tool“ mokymas
 
@@ -79,13 +79,13 @@ Paleidus tikrinimo atvejį, pranešimas „Excel“ parametro faile palyginamas 
 
 Ši funkcija užfiksuoja veiksmų, kurie buvo atlikti įrašant užduotį, ekrano kopijas. Ji naudinga audito arba programinių klaidų taisymo tikslais.
 
-- Norėdami naudoti šią funkciją atidarykite failą vykdant RSAT su vartotojo sąsaja, **Microsoft.Dynamics.RegressionSuite.WindowsApp.exe.config** RSAT diegimo aplanke (pvz., **C:\\Program Files (x86)\\Regression Suite Automation Tool**) ir pakeiskite toliau nurodyto elemento reikšmę iš **teisingas** į **klaidingas**.
+- Norėdami naudoti šią funkciją atidarykite failą vykdant RSAT su vartotojo sąsaja, **Microsoft.Dynamics.RegressionSuite.WindowsApp.exe.config** RSAT diegimo aplanke (pvz., **C:\\ Program Files (x86)\\Regression Suite Automation Tool**) ir pakeiskite toliau nurodyto elemento reikšmę iš **teisingas** į **klaidingas**.
 
     ```xml
     <add key="VerboseSnapshotsEnabled" value="false" />
     ```
 
-- Norėdami naudoti šią funkciją atidarykite failą vykdant RSAT su vartotojo sąsaja, (pavyzdžiui „Azure DevOps“), atverkite **Microsoft.Dynamics.RegressionSuite.ConsoleApp.exe.config** failą RSAT diegimo kataloge (pavyzdžiui, **C:\\Program Files (x86)\\Regression Suite Automation Tool**), ir pakeiskite tolesnio elemento vertę iš **klaidingas** į **teisingas**.
+- Norėdami naudoti šią funkciją atidarykite failą vykdant RSAT su vartotojo sąsaja, (pavyzdžiui „Azure DevOps“), atverkite **Microsoft.Dynamics.RegressionSuite.ConsoleApp.exe.config** failą RSAT diegimo kataloge (pavyzdžiui, **C:\\ Program Files (x86)\\Regression Suite Automation Tool**), ir pakeiskite tolesnio elemento vertę iš **klaidingas** į **teisingas**.
 
     ```xml
     <add key="VerboseSnapshotsEnabled" value="false" />

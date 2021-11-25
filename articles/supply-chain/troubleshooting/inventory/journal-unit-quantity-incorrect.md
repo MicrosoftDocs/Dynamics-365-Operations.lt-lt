@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-05-31
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 39f462ae325aa1104a25a8290daed70388e624ec
-ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
-ms.translationtype: HT
+ms.openlocfilehash: 074be71d7b6ec1acab6307a79e397c2a2a045c39
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/07/2021
-ms.locfileid: "7477073"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778430"
 ---
 # <a name="the-unit-and-unit-quantity-arent-working-correctly-in-the-inventory-journal"></a>Vienetas ir vienetų kiekis atsargų žurnale veikia netinkamai
 
@@ -31,7 +31,7 @@ Kai dirbate su atsargų žurnalo vienetais ir kiekiais atsargų žurnale, galite
 
 Norėdami ištaisyti šią problemą, vykdykite šiuos veiksmus.
 
-1. Darbo eigoje **Funkcijų valdymas** įsitikinkite, kad funkcija *Matavimo vienetų ir vienetų kiekio naudojimas atsargų žurnaluose* yra įjungta. Ši funkcija prideda laukus **Vienetas** ir **Vieneto kiekis** į žurnalą.
+1. Darbo eigoje **Funkcijų valdymas** įsitikinkite, kad funkcija *Matavimo vienetų ir vienetų kiekio naudojimas atsargų žurnaluose* yra įjungta. Ši funkcija prideda laukus **Vienetas** ir **Vieneto kiekis** į žurnalą. (Kaip tiekimo grandinės valdymo versija 10.0.21, ši funkcija yra įjungta pagal numatytuosius nustatymus.)
 1. Įjungus šią funkciją, naudokite laukus **Kiekis**, **Vieneto kiekis** ir **Vienetas** laukus tokiu būdu:
 
     - **Kiekis** – nurodykite kiekį, naudodami numatytąjį vienetą, nurodytą išleistam produktui. Tačiau numatytasis vienetas čia nerodomas. Jei konvertavimas nustatytas tarp numatytojo vieneto ir vieneto, pasirinkto lauke **Vienetas**, laukas **Kiekis** yra automatiškai atnaujinimas pagal pasirinkimus laukuose **Vieneto kiekis** ir **Vienetas**.

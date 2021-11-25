@@ -1,8 +1,8 @@
 ---
 title: Platinti klausimynus naudojant planavimą
 description: Klausimyno planavimo funkcija suteikia galimybę planuoti ir platinti klausimynus keliems respondentams.
-author: andreabichsel
-ms.date: 08/29/2018
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -10,15 +10,15 @@ ms.search.form: KMKnowledgeCollectorPlanningTable, KMKnowledgeCollectorPlanningM
 audience: Application User
 ms.search.scope: Human Resources
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7ca8eddea3dddbbe873717b1d1f5cb2054891d0f0036400d22eacef84bf96da3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: a2336cafe7e2c914c2592c91c888b1e0ae1bc608
+ms.sourcegitcommit: e91a1797192fd9bc4048b445bb5c1ad5d333d87d
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6755547"
+ms.lasthandoff: 11/01/2021
+ms.locfileid: "7728681"
 ---
 # <a name="distribute-questionnaires-using-scheduling"></a>Platinti klausimynus naudojant planavimą
 
@@ -28,105 +28,105 @@ Klausimyno planavimo funkcija suteikia galimybę planuoti ir platinti klausimynu
 
 ## <a name="create-a-questionnaire-schedule"></a>Klausimyno grafiko kūrimas
 
-1. Pasirinkite Klausimynas > Platinti > Klausimynų grafikai.
+1. Eikite į **·** > **klausimyno** > **platinimo grafikus**.
 
-2. Spustelėkite Naujas.
+2. Spustelėkite **Naujas**.
 
-3. Lauke Planavimas įveskite reikšmę.
+3. Lauke **Planavimas** įveskite vertę.
 
-4. Lauke Aprašas įveskite reikšmę.
-    * Nustatykite grafiką į Anoniminis, jei atsakymai turėtų būti registruojami be su jais susietų vardų.  
+4. Lauke **Aprašo laukas** surinkite reikšmę.
+    * Nustatyti grafiką kaip **·** Anoniminis, jei atsakymai turėtų būti įrašomi be pavadinimų, susietų su atsakymu.  
     * Parinktį Leisti anoniminius rezultatus pirmiausia reikia nustatyti personalo parametruose.  
 
-5. Lauke Tipas pasirinkite planavimo tipą.  Šiame pavyzdyje naudojame pasitenkinimo tipą.
+5. Lauke **·** Tipas pasirinkite planavimo tipą.  Šiame pavyzdyje mes naudosime patenkinimo **·** tipą.
 
 6. Sąraše raskite ir pasirinkite norimą įrašą.
 
 7. Sąraše spustelėkite saitą pasirinktoje eilutėje.
 
-8. Lauke Data įveskite datą.
+8. Lauke **Data** įveskite datą.
 
-9. Išplėskite skyrių Darbuotojų savitarnos el. paštas.
+9. Išplėskite **darbuotojų savitarnos skyriaus** el. laišką.
 
-10. Lauke „Tema“ įveskite reikšmę.
+10. Lauke **Tema** įveskite reikšmę.
 
     * Pavyzdys: galimas klausimynas  
 
-11. Lauke Tekstas įveskite el. laiško tekstą. Atkreipkite dėmesį, kad kintamasis gali būti naudojamas sistemos reikšmėms pakeisti.
+11. Lauke **Tekstas** įveskite el. laiško tekstą. Atkreipkite dėmesį, kad kintamasis gali būti naudojamas sistemos reikšmėms pakeisti.
 
-    * Pavyzdys: Gerb. %P%, prisijunkite prie darbuotojų savitarnos, kad užpildytumėte klausimyną apie darbuotojų sveikatą.  „Contoso“  
+    * Pavyzdys: Gerb. %P%, prisijunkite prie darbuotojų savitarnos, kad užpildytumėte klausimyną apie darbuotojų sveikatą.  Contoso  
 
-12. Spustelėkite Įrašyti.
+12. Spustelėkite **Įrašyti**.
 
 ## <a name="use-the-setup-details-to-select-the-questionnaires-to-be-answered-as-well-as-any-queries-to-use-to-select-respondents"></a>Naudokite sąrankos informaciją klausimynui (-ams) parinkti ir teikti užklausas respondentams pasirinkti.
 
-1. Spustelėkite Sąrankos informacija.
+1. Spustelėkite **nustatymo** informaciją.
 
 2. Sąraše pasirinkite užklausą klausimyno respondentams sistemoje ieškoti.
 
     * Pavyzdys: darbuotojai  
 
-3. Spustelėkite Peržiūrėti arba modifikuoti užklausą, norėdami pasirinkti konkrečius žmones arba koreguokite užklausą, kad rastumėte konkrečius kriterijus atitinkančių žmonių.
+3. Spustelėkite **Peržiūrėti arba modifikuoti užklausą, kad** pasirinktumėte konkrečius žmones arba koreguotumėte užklausą, kad rastumėte konkrečius kriterijus atitinkančius žmones.
 
     * Atkreipkite dėmesį, kad visi respondentai turi būti sistemos vartotojai.  
 
 4. Sąraše pažymėkite asmens eilutę.
 
-5. Lauke Kriterijai įveskite arba pasirinkite reikšmę.
+5. Lauke **Kriterijai** įveskite arba pasirinkite reikšmę.
 
     * Pasirinkite Julia Funderburk  
 
 6. Sąraše pasirinkite Julia Funderburk
 
-7. Spustelėkite GERAI.
+7. Spustelėkite **Gerai**.
 
-8. Spustelėkite skirtuką Klausimynai.
+8. Spustelėkite **skirtuką** Klausimynai.
 
-9. Medyje išplėskite dalį pasitenkinimo apklausos tipo klausimyno mazgas.
+9. Medyje išplėskite klausimyno tipo Patikrinimas dėl patenkinimo **·** mazgą.
 
 10. Medyje pažymėkite Darbuotojų sveikatos įvertinimas.
 
-11. Spustelėkite GERAI.
+11. Spustelėkite **Gerai**.
 
-12. Spustelėkite Planuojamas atsakymų seansas.
+12. Spustelėkite **Suplanuotas atsakymų seansas.**
 
-    * Atkreipkite dėmesį, kad funkcija Planuojamas atsakymų seansas sukuriama kiekvienam pažymėtam / užklaustam vartotojui.  
+    * Atkreipkite **dėmesį, kad** suplanuoti atsakymų seansai buvo sukurti kiekvienam pasirinktam / užklausuotam vartotojui.  
 
 13. Uždarykite puslapį.
 
 ## <a name="start-the-questionnaire-schedule-in-order-to-make-the-questionnaire-available-for-respondents-to-complete"></a>Pradėkite klausimyno grafiką, kad respondentai galėtų klausimyną užpildyti.
 
-1. Spustelėkite Funkcijos.
+1. spustelėkite **Funkcijos**.
 
-2. Spustelėkite Pradėti.
+2. Spustelėkite **Pradėti**.
 
-3. Spustelėkite GERAI.
+3. Spustelėkite **Gerai**.
 
 ## <a name="send-the-email-to-inform-respondents-of-the-available-questionnaire"></a>Siųskite respondentams el. laišką, informuojantį apie galimą klausimyną.
 
-1. Spustelėkite Funkcijos.
+1. spustelėkite **Funkcijos**.
 
-2. Spustelėkite Siųsti el. laišką.
+2. Spustelėkite Siųsti **el.** laišką.
 
-3. Spustelėkite Atšaukti.
+3. Spustelėkite **Atšaukti**.
 
 ## <a name="use-planned-answer-sessions-to-monitor-who-needs-to-complete-the-questionnaire"></a>Naudokite funkciją Suplanuotas atsakymų seansas, norėdami stebėti, kas turi užpildyti klausimyną.
 
-1. Spustelėkite Planuojamas atsakymų seansas.
+1. Spustelėkite **Suplanuotas atsakymų seansas.**
 
     * Panaikinkite visus likusius suplanuotus atsakymų seansus, kai esate pasirengę baigti suplanuotą seansą.  
 
-2. Spustelėkite Naikinti.
+2. Spustelėkite **Naikinti**.
 
-3. Spustelėkite Taip.
+3. Spustelėkite **Taip**.
 
 4. Uždarykite puslapį.
 
 ## <a name="end-the-schedule-when-all-respondents-have-completed-the-questionnaire-andor-all-remaining-planned-answer-sessions-have-been-deleted"></a>Baikite grafiką, kai visi respondentai užpildė klausimyną ir (arba) panaikinti visi likę suplanuoti atsakymų seansai.
 
-1. Spustelėkite Funkcijos.
-2. Spustelėkite Baigti.
-3. Spustelėkite GERAI.
+1. spustelėkite **Funkcijos**.
+2. Spustelėkite **·** Baigti.
+3. Spustelėkite **Gerai**.
 
 
 

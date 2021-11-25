@@ -5,16 +5,16 @@ author: RamaKrishnamoorthy
 ms.date: 08/19/2021
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: rhaertle
+ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 73a226d10c951179fd9f3bc2aed4a70efcc7f020
-ms.sourcegitcommit: 98061a5d096ff4b9078d1849e2ce6dd7116408d1
-ms.translationtype: HT
+ms.openlocfilehash: 69667f8b64c048f5957168d1af21a6c858bc0bad
+ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/01/2021
-ms.locfileid: "7466249"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7782584"
 ---
 # <a name="troubleshoot-live-synchronization-issues"></a>Tiesioginio sinchronizavimo trikčių šalinimas
 
@@ -224,7 +224,7 @@ Programėlėse yra kontakto įrašo adreso naujinimas, bet adreso „Finance and
 
 Panaši situacija gali įvykti ir kai kuriuose nestandartuose šablonuose, pvz., tais atvejais, kai programėlėse modifikuojamas lentelė nėra susieta su objektu, „Finance and Operations“ kuriame ji yra. Pvz., pirminio adreso duomenys apskaičiuoti objekto **smmContactPersonCDSV2Entity** dalyje. Dvigubo rašymo sistema bando nustatyti, kaip pateiktoje lentelėje pakeitimas susietas su objektais. Paprastai šis būdas pakanka. Tačiau kai kuriais atvejais saitas toks sudėtingas, kad jūs turite būti konkretus. Turite užtikrinti, kad susijusios lentelės **RecId** tiesiogiai pasiekiamas objektui. Tada įtraukite statinį metodą lentelės pokyčiams stebėti.
 
-Pavyzdžiui, peržiūrėkite **smmContactPersonCDSV2Entity::getEntityDataSourceToFieldMapping()** metodą. **CustCustomerV3entity** ir **VendVendorV2Entity** buvo modifikuota apdoroti šią situaciją.
+Pavyzdžiui, peržiūrėkite **smmContactPersonCDSV2Entity:: getEntityDataSourceToFieldMapping()** metodą. **CustCustomerV3entity** ir **VendVendorV2Entity** buvo modifikuota apdoroti šią situaciją.
 
 Norėdami ištaisyti klaidą, atlikite toliau nurodytus veiksmus.
 

@@ -1,8 +1,8 @@
 ---
 title: Išorinių duomenų naudojimas prognozuojant grynųjų pinigų srautus
-description: Šioje temoje aprašomi nustatymo veiksmai, kuriuos reikia atlikti, kad išoriniai duomenys galėtų būti įvedami arba importuojami į pinigų srautų prognozes.
+description: Šioje temoje aprašomi nustatymo veiksmai, kuriuos reikia atlikti, kad išorinius duomenis būtų galima įvesti arba importuoti į pinigų srautų prognozes.
 author: rcarlson
-ms.date: 07/16/2021
+ms.date: 11/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,30 +15,35 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2020-06-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 855f428ae8ce79f2b7ce9a6f3347cd454bad9566
-ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
-ms.translationtype: HT
+ms.openlocfilehash: dbfa04228cf63c0874a7d69af4e2b932544c0d7f
+ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7386467"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7753007"
 ---
 # <a name="use-external-data-in-cash-flow-forecasts"></a>Išorinių duomenų naudojimas prognozuojant grynųjų pinigų srautus
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Išorinius duomenis galima įvesti arba importuoti į pinigų srautų prognozes. Šioje temoje aprašomi nustatymo veiksmai, būdingi išorinių duomenų naudojimui ir įgalinantys išorinius duomenis įtraukti į pinigų srautų prognozę.
 
 ## <a name="external-data-setup"></a>Išorinių duomenų nustatymas
 
-Norėdami įvesti parametrus, palaikančius išorinių duomenų naudojimą grynųjų pinigų srautų prognozėse, naudokite skirtuką **Išorinis šaltinis**, esantį puslapyje **Grynųjų pinigų srautų prognozės sąranka** (**Grynųjų pinigų ir banko valdymas \> Grynųjų pinigų srauto prognozavimas**).
+Norėdami **įvesti** **·** **\>\>** parametrus, palaikančius išorinių duomenų naudojimą pinigų srautų prognozės prognozėse, naudokite skirtuką Išorinis šaltinis puslapyje Pinigų srautų prognozės nustatymas ( Grynųjų pinigų ir banko valdymas Pinigų srautų prognozės nustatymas ).
 
-Daugiau informacijos, kaip nustatyti skaitiklius, žr. [Grynųjų pinigų srauto prognozė](../cash-bank-management/cash-flow-forecasting.md).
+Išorinius duomenis galima įvesti arba importuoti į pinigų srautų prognozes. Prieš įvedant arba importuojant išorinius duomenis, reikia nustatyti išorinius šaltinius. Skirtuke **Išorinis šaltinis** nustatykite išorinių pinigų srautų kategorijas. Kategorija gali būti **Siunčiama** arba **Gaunama**. **Likvidumas** turi būti pasirinktas kaip registravimo tipas. **Tinklelyje Juridinio subjekto parametrai** pasirinkite juridinius subjektus ir atitinkamas pagrindines sąskaitas, kurioms taikomos išorinių pinigų srautų kategorijos.
 
-Norėdami įvesti išorinius pinigų srautų prognozių duomenis, galite naudotis „Excel“ patirtimi, kad galėtumėte įvesti ir modifikuoti išorinius duomenis. Pasirinkite mygtuką **Išoriniai duomenys**, tada pasirinkite **Įtraukti išorinius duomenis** arba **Redaguoti esamus išorinius duomenis**. Atidarę „Microsoft Excel“ failą, galite įvesti informaciją šiuose laukuose.
+Daugiau informacijos apie tai, kaip nustatyti pinigų srautų prognozes, ieškokite [Pinigų srautų prognozavimas](../cash-bank-management/cash-flow-forecasting.md).
 
-- **Įrašo ID**
+## <a name="enter-external-data"></a>Įvesti išorinius duomenis
+
+Norėdami įvesti ir modifikuoti pinigų srautų prognozių išorinius duomenis, galite naudoti **parinktį Atidaryti naudojant "Excel".** Puslapyje Pinigų srautų prognozės nustatymas pasirinkite **mygtuką Išoriniai** **·** duomenys, tada pasirinkite **Pridėti išorinius duomenis** arba Redaguoti **esamus išorinius duomenis**. Atidarę „Microsoft Excel“ failą, galite įvesti informaciją šiuose laukuose.
+
+- **Įrašo ID** (unikalus)
 - **Aprašas** (nebūtinas)
-- **Išorinis šaltinio pavadinimas** – pasirinkite vieną iš sąrašo reikšmių, kurias nurodėte nustatydami „Finance Insights”.
+- **Išorinio šaltinio pavadinimas** – pasirinkite vieną iš reikšmių sąraše, kurį nustatėte nustatydami "Finance insights".
 - **Juridinis subjektas**
 - **Data**
 - **Suma operacijos valiuta**

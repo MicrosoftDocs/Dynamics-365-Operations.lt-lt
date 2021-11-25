@@ -13,12 +13,12 @@ ms.search.industry: WHSWorkTableListPage
 ms.author: mirzaab
 ms.search.validFrom: 2020-10-15
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: e3f14dd25a60f8d185f0e58a0612a322c5175ab2
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.openlocfilehash: 8b06164a81a18548cf9d98ea2f577b5783145100
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579885"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778262"
 ---
 # <a name="work-split"></a>Darbo skaidymas
 
@@ -33,9 +33,9 @@ Darbo atskyrimo funkcija leidžia jums atskirti didelio darbo ID (tai reiškia, 
 
 Prieš tai, kai galėsite naudoti darbo atskyrimo funkciją, turite įjungti funkciją ir būtinųjų sąlygių funkcijų savo sistemoje. Administratoriai gali naudoti [funkcijos valdymą](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) nustatymus tam, kad patikrintų funkcijų būseną ir jas įjungtų kaip būtina.
 
-Pirmiausia įjunkite būtinąsias sąlygas *Organizacijos sklaidos darbo blokavimo* funkciją, jei ji dar nėra įjungta. Darbo srityje **Funkcijų valdymas** ši funkcija yra nurodyta toliau pateikiamu būdu.
+Pirmiausia įjunkite būtinąsias sąlygas *Organizacijos sklaidos darbo blokavimo* funkciją, jei ji dar nėra įjungta. Kaip tiekimo grandinės valdymo versija 10.0.21, ši funkcija yra privaloma, todėl ji yra įjungta pagal numatytuosius nustatymus ir negali būti išjungtas dar kartą. Tačiau funkcija vis dar pateikiama [funkcijų valdyme](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) tokiu būdu:
 
-- **Modulis:** *Sandėlio valdymas*
+- **Modulis:** *Warehouse management*
 - **Funkcijos pavadinimas:** *Organizacijos sklaidos darbo blokavimas*
 
 > [!NOTE]

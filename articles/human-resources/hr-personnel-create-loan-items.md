@@ -1,8 +1,8 @@
 ---
 title: Kurti panaudos objektus
 description: Skolinamos prekės yra įrašai, kurie padeda sekti fizines prekes, pvz., telefonus arba kompiuterius, kurias jūsų įmonė skolina darbuotojams.
-author: andreabichsel
-ms.date: 08/29/2018
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -10,15 +10,15 @@ ms.search.form: HcmLoanType, DefaultDashboard, HcmLoanItem, HcmWorkerLookUp, Hcm
 audience: Application User
 ms.search.scope: Human Resources
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5fb303015c3616bd2d033517bc21fda0834e9135b92e16374df26a98188c75ea
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 0a812887f20a8ae5ae3b677ac452a498230c244a
+ms.sourcegitcommit: 1cc56643160bd3ad4e344d8926cd298012f3e024
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718088"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "7731741"
 ---
 # <a name="create-loan-items"></a>Kurti panaudos objektus
 
@@ -30,32 +30,32 @@ Skolinamos prekės yra įrašai, kurie padeda sekti fizines prekes, pvz., telefo
 
 
 ## <a name="create-loan-types"></a>Kurti paskolų tipus
-1. Eikite į Žmogiškieji ištekliai > Darbuotojai > Skolinamos prekės > Paskolų tipai.
-2. Spustelėkite Naujas.
-3. Lauke „Paskolos tipas“ įveskite reikšmę.
-4. Lauke Aprašas įveskite reikšmę.
+1. Eikite į **Personalo darbuotojai Paskolų straipsniai Paskolų** > **·** > **·** > **tipai**.
+2. Spustelėkite **Naujas**.
+3. Lauke **Panaudos tipas** įveskite vertę.
+4. Lauke **Aprašo laukas** surinkite reikšmę.
 5. Įveskite dienų, kurias šiam paskolos tipui priskirtų prekių grąžinimas gali vėluoti, skaičių. 
-6. Spustelėkite Įrašyti.
+6. Spustelėkite **Įrašyti**.
 7. Uždarykite puslapį.
 8. Atnaujinkite puslapį.
 
 ## <a name="create-loan-items"></a>Kurti panaudos objektus
-1. Eikite į Žmogiškieji ištekliai > Darbuotojai > Skolinamos prekės > Skolinamos prekės.
-2. Spustelėkite „Sukurti skolinamas prekes“.
-3. Kiekio įveskite skaičių.
-4. Lauke Aprašas įveskite reikšmę.
-5. Lauke „Paskolos tipas“ spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
+1. Eikite į **Personalo** > **darbuotojai** > **Skolinimo straipsniai** > **Skolinimo elementai**.
+2. Spustelėkite **Kurti panaudos objektus**.
+3. Lauke **Kiekis** įveskite numerį.
+4. Lauke **Aprašo laukas** surinkite reikšmę.
+5. Lauke **Panaudos tipas** spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
 6. Sąraše raskite ir pasirinkite norimą įrašą.
 7. Sąraše spustelėkite saitą pasirinktoje eilutėje.
 8. Įveskite skaičių dienų, kurias prekė gali būti paskolinta.
     * Puslapyje „Paskolinta įranga“ esančio lauko „Planuojamas grąžinimas“ numatytoji vertė apskaičiuojama prie dabartinės datos pridedant šį skaičių.  
-9. Lauke „Vadovaujantysis asmuo“ spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
-10. Spustelėkite Pažymėti.
-11. Lauke „Pradinė reikšmė“ įveskite skaičių.
-12. Lauke „Intervalas“ įveskite skaičių.
-13. Lauke „Formatas“ įveskite reikšmę.
-    * Pvz., jei skolinamos prekės pradžios numeris yra 10, lauke „Formatas“ įveskite du numerio simbolius.  
-14. Spustelėkite GERAI.
+9. Lauke **Atsakingas asmuo** spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
+10. Spustelėkite **Pažymėti**.
+11. Lauke **Pradinė vertė** įveskite skaičių.
+12. Lauke **Intervalas** įveskite skaičių.
+13. Lauke **·** Formatavimas įveskite reikšmę.
+    * Pavyzdžiui, jei panaudos prekės pradinis numeris yra 10, lauke Formatavimas įveskite du skaičių simbolių **·** simbolius.  
+14. Spustelėkite **Gerai**.
 15. Atnaujinkite puslapį.
 
 

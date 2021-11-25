@@ -2,7 +2,7 @@
 title: Spartieji klavišai
 description: Šioje temoje pateikiama sparčiųjų klavišų derinių, kuriuos galite naudoti dirbdami su „Finance and Operations” programomis, peržiūra.
 author: jasongre
-ms.date: 10/12/2021
+ms.date: 11/12/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7e700b841014e1e12560bf0ce9e5e012361ec397
-ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.openlocfilehash: 969cd6aaf2d7c4cee7bb95029f19741372f915eb
+ms.sourcegitcommit: ab32fc90ea498ce3b629384f78cbe1aee747f157
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "7647541"
+ms.lasthandoff: 11/12/2021
+ms.locfileid: "7800198"
 ---
 # <a name="keyboard-shortcuts"></a>Spartieji klavišai
 
@@ -73,7 +73,7 @@ Nuo platformos 11 naujinimo vartotojai gali rasti šiuo metu galimus sparčiuosi
 | Atidaryti „FactBox“ sritį (arba pereiti į „FactBox“ sritį, jei ji jau atidaryta) | „Alt“ + M, B arba „Ctrl“ + F2                        |
 | Uždaryti „FactBox“ sritį („FactBox“ sričiai esant suaktyvintai)                         | Esc                                       |
 | Perkelti į kitą / ankstesnę „FactBox“ („FactBox“ sričiai esant suaktyvintai)              | „Alt“ + „Shift“ + rodyklė žemyn / „Alt“ + „Shift“ + rodyklė aukštyn |
-| Perkelti į  &lt;n&gt;-ąją „FactBox“ („FactBox“ sričiai esant suaktyvintai)                | Alt+&lt;n&gt; (&lt;n&gt; = 1–9)           |
+| Perkelti į  &lt; n&gt;-ąją „FactBox“ („FactBox“ sričiai esant suaktyvintai)                | Alt+&lt; n&gt; (&lt; n&gt; = 1–9)           |
 | Išplėsti „FactBox“ („FactBox“ antraštei esant suaktyvintai)                             | Tarpo klavišas arba „Enter“ klavišas                            |
 | Sutraukti esamą „FactBox“                                                    | Alt + 0                                     |
 
@@ -114,11 +114,11 @@ Nuo platformos 11 naujinimo vartotojai gali rasti šiuo metu galimus sparčiuosi
 |-----------------------------------------------------|----------------------------------------------|
 | Perkelti į kitą / ankstesnį lauką                     | Tab / Shift + Tab                              |
 | Perkelti į kitą / ankstesnį skirtuką                       | „Alt“ + „Shift“ + rodyklė dešinėn / „Alt“ + „Shift“ + rodyklė kairėn |
-| Perkelti į &lt;n&gt;-ąjį skirtuką                         | Alt + Shift+&lt;&gt; (&lt;n&gt; = 1–9)        |
+| Perkelti į &lt; n&gt;-ąjį skirtuką                         | Alt + Shift+&lt;&gt; (&lt; n&gt; = 1–9)        |
 | Perkelti į kitą / ankstesnį „FastTab“                   | „Alt“ + „Shift“ + rodyklė žemyn / „Alt“ + „Shift“ + rodyklė aukštyn    |
-| Perkelti į &lt;n&gt;-ąjį „FastTab“                     | Alt+&lt;n&gt; (&lt;n&gt; = 1–9)              |
+| Perkelti į &lt; n&gt;-ąjį „FastTab“                     | Alt+&lt; n&gt; (&lt; n&gt; = 1–9)              |
 | Pereiti į kitą / ankstesnę mentę (vertikalųjį skirtuką)      | „Alt“ + „Shift“ + rodyklė dešinėn / „Alt“ + „Shift“ + rodyklė kairėn |
-| Pereiti į &lt;n&gt; mentę (vertikalųjį skirtuką)        | Alt + Shift+&lt;&gt; (&lt;n&gt; = 1–9)        |
+| Pereiti į &lt; n&gt; mentę (vertikalųjį skirtuką)        | Alt + Shift+&lt;&gt; (&lt; n&gt; = 1–9)        |
 | Išplėsti „FastTab“ („FastTab“ antraštei esant suaktyvintai) | Tarpo klavišas arba „Enter“ klavišas                               |
 | Sutraukti esamą „FastTab“                        | Alt + 0                                        |
 | Perjungti tinklelio rodinį                                 | Ctrl + Shift + G                                 |
@@ -128,8 +128,10 @@ Nuo platformos 11 naujinimo vartotojai gali rasti šiuo metu galimus sparčiuosi
 
 ## <a name="grid-shortcuts"></a>Tinklelio spartieji klavišai
 
-| Norėdami tai padaryti                                                                                                             | Spausti                           |
+| Norėdami tai padaryti                                                                                                             | Paspauskite                            |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------|
+| Vertikali slinkimas                                                                                                     | Pelės ratukas                     |
+| Horizontalus slinkimas                                                                                                   | Shift + pelės ratukas             |
 | Perkelti į kitą / ankstesnį stulpelį                                                                                       | Tab / Shift + Tab                 |
 | Perkelti į kitą / ankstesnę eilutę                                                                                          | Rodyklė žemyn / rodyklė aukštyn           |
 | Perkelti į kitą / ankstesnę eilutę nepasirinkus<blockquote>[!NOTE] Šis spartusis klavišas taikomas tik žymint kelis elementus.</blockquote> | „Ctrl“ + rodyklė aukštyn / „Ctrl“ + rodyklė žemyn |
@@ -141,15 +143,15 @@ Nuo platformos 11 naujinimo vartotojai gali rasti šiuo metu galimus sparčiuosi
 | Perkelti į pirmą įrašą                                                                                               | CTRL + HOME                       |
 | Perkelti į paskutinį įrašą                                                                                                | CTRL + END                        |
 | Pasirinkti arba išvalyti visas eilutes                                                                                               | Ctrl + Shift + M                    |
-| Pereikite į pirmąją pažymėtąją eilutę.                                                                                           | Alt+Shift+M, F                    |
-| Perkelti į kitą eilutę                                                                                            | Alt+Shift+M, L                    |
-| Perkelti į ankstesnę eilutę                                                                                        | Alt+Shift+M, P                    |
-| Perkelti į pirmą įrašą                                                                                           | Alt+Shift+M, N                    |
+| Pereikite į pirmąją pažymėtąją eilutę.                                                                                           | Alt+Shift+M, F                  |
+| Perkelti į kitą eilutę                                                                                            | Alt+Shift+M, L                  |
+| Perkelti į ankstesnę eilutę                                                                                        | Alt+Shift+M, P                  |
+| Perkelti į pirmą įrašą                                                                                           | Alt+Shift+M, N                  |
 | Vykdyti numatytąjį tinklelio veiksmą<blockquote>[!NOTE] Šis spartusis klavišas įjungiamas, kai įvesties vieta yra langelyje su hipersaitu ir visi to stulpelio langeliai yra su hipersaitais.</blockquote> | Enter                           |
 | Perkelti įvesties vietą iš pasirinktos eilutės į antraštės eilutę ir atvirkščiai                                                               | Alt + Shift + H                     |
 | Padidinti / sumažinti dabartinį stulpelį (įvesties vietą nustatant antraštės eilutėje)                                                  | Rodyklė dešinėn / rodyklė kairėn        |
 | Atidaryti dabartinio stulpelio tinklelio filtravimą (įvesties vietą nustatant antraštės eilutėje)                                              | Įvesti                           |
-| Pakeisti dabartinio stulpelio dydį, kad tiktų į turinį (akcentuojant antraštės eilutę)                                           | A                               |
+| Pakeisti dabartinio stulpelio dydį, kad tiktų į turinį (akcentuojant antraštės eilutę)                                           | A (arba dukart spustelėkite stulpelio dydžio keitimo rankenėlę) |
 
 ## <a name="input-control-shortcuts"></a>Įvesties valdymo spartieji klavišai
 

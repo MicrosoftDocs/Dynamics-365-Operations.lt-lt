@@ -2,7 +2,7 @@
 title: Momentinių kopijų apžvalga
 description: Šioje temoje aprašoma momentinės kopijos funkcija, kuri leidžia įrašyti pinigų srautų prognozę analizei arba palyginimui su aktuarijų vėliau. Kai sugeneruojate pinigų srautų prognozę, šią prognozę galite įrašyti kaip momentinę nuotrauką. Tada galite naudoti šias momentines nuotraukas, kad galėtumėte redaguoti į prognozę įtrauktus abonentus, arba palyginti prognozuojamą fotografiją su faktiniais duomenimis.
 author: ShivamPandey-msft
-ms.date: 07/16/2021
+ms.date: 11/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,16 +17,17 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-19
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: bcaaa9fe13e36bbe71e29d82c9f22a4fff9248ef
-ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
-ms.translationtype: HT
+ms.openlocfilehash: a91300ac17b36d890840e6c0c3104fad5fce68f0
+ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7386568"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7752772"
 ---
 # <a name="snapshots-overview"></a>Momentinių kopijų apžvalga
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Momentinės kopijos leidžia organizacijoms redaguoti ir įrašyti informaciją apie savo grynųjų pinigų padėtį ir grynųjų pinigų prognozes tam tikru laiku. Galite lyginti momentinę kopiją su faktiniais finansais, patikrinti nuokrypį ir naudoti šią informaciją pinigų srautų prognozėms per tam tikrą laiką pagerinti. Kalbant konkrečiau, momentines kopijas galima naudoti toliau nurodytais būdais.
 
@@ -40,8 +41,6 @@ Galite sukurti momentinę kopiją, pasirinkdami **Nauja momentinė kopija** skir
 
 Grynųjų pinigų įplaukos ir nutekėjimų nuotraukas galima redaguoti bet kuriuo metu. Kai redaguojama įplaukų suma arba ištekėjimo suma, atnaujinta suma yra proporcingai likviduojamos likvidumo sąskaitos, kurios atliko pradinį balansą. Baigę redaguoti momentinę kopiją, pasirinkite **Išsaugoti** ir įrašykite pakeitimus.
 
-Norėdami palyginti kelias momentines kopijas, pasirinkite **Palyginti momentines kopijas**. Vienu metu galite palyginti dvi momentines kopijas. Pasirinkite dvi momentines kopijas, kurias norite palyginti, ir pasirinkite **Gerai**. Puslapyje **Momentinių kopijų palyginimas** bus rodomas pažymėtų momentinių kopijų palyginimas. Viršutinėje puslapio dalyje esančioje diagramoje parodomi grynųjų pinigų įplaukų, grynųjų pinigų srautų ir banko balansų persidengiantys laikotarpių tarp dviejų kadrų palyginimas. Apatinėje dalyje esantis tinklelis nurodo išsamų kiekvieno likvidumo sumos dviejų prognozių palyginimą. Tinklelyje esantis stulpelis **Nuokrypis** rodo skirtumą tarp laikotarpio balansų.
-
-Norėdami palyginti faktinius finansinius rezultatus su prognoze, kuri buvo įrašyta kaip momentinė kopija, pasirinkite **Palyginti su faktiniais duomenimis**. Puslapyje **Momentinių kopijų palyginimas** bus rodomas faktinių sumų ir prognozės palyginimas. Viršutinėje puslapio dalyje esančioje diagramoje parodomi grynųjų pinigų įplaukų, grynųjų pinigų srautų ir banko balansų persidengiantys laikotarpių tarp dviejų kadrų palyginimas. Apatinėje dalyje esantis tinklelis nurodo išsamų kiekvieno likvidumo sumos faktinių balansų per laikotarpį ir prognozuojamo balanso palyginimą. Tinklelyje esantis stulpelis **Nuokrypis** rodo skirtumą tarp faktinio balanso per laikotarpį ir prognozuojamo balanso.
+Norėdami palyginti faktinius finansinius rezultatus su prognoze, kuri buvo įrašyta kaip momentinė kopija, pasirinkite **Palyginti su faktiniais duomenimis**. Lyginant **su faktinių sumų** puslapiu bus rodomas faktinių sumų ir prognozės palyginimas. Viršutinėje puslapio dalyje esančioje diagramoje parodomi grynųjų pinigų įplaukų, grynųjų pinigų srautų ir banko balansų persidengiantys laikotarpių tarp dviejų kadrų palyginimas. Apatinėje dalyje esantis tinklelis nurodo išsamų kiekvieno likvidumo sumos faktinių balansų per laikotarpį ir prognozuojamo balanso palyginimą. Tinklelyje esantis stulpelis **Nuokrypis** rodo skirtumą tarp faktinio balanso per laikotarpį ir prognozuojamo balanso.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

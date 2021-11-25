@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 76ac50ba2606ffff5a5a90d29ca99c8d67e5f14cce2127f5de6225d1cd8224ef
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 2e03becf2572aeaf213e8c3a0e874405ed0d5613
+ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6745181"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7753031"
 ---
 # <a name="removed-or-deprecated-features-in-previous-releases"></a>Pašalintos arba nebenaudojamos funkcijos ankstesniuose leidimuose
 
@@ -84,11 +84,11 @@ Išsamios informacijos apie „Finance and Operations“ programų objektus rasi
 | **Visuotinio diegimo parinktis**              | Visos |
 | **Būsena**                         | Nebenaudojama: iki 2020 m. spalio 1 d. planuojame nebepalaikyti metodo **setUtcString()**. Kūrėjai turėtų naudoti metodą **setUtcDateTime()**. |
 
-### <a name="blacklist-report-it--feature-reference-it-00001"></a>Juodojo sąrašo ataskaita (IT) – funkcijos nuoroda IT-00001
+### <a name="blocklist-report-it--feature-reference-it-00001"></a>Blocklist ataskaita (IT) – priemonės nuorodos IT-00001
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Nebenaudojimo / pašalinimo priežastis** | Nėra teisiškai reikalaujama. |
+| **Nerekomendavimo/pašalinimo priežastis** | Nėra teisiškai reikalaujama. |
 | **Pakeitė kita funkcija?**   | Ne |
 | **Paveiktos produkto sritys**         | Italijos lokalizavimas |
 | **Visuotinio diegimo parinktis**              | Visos |

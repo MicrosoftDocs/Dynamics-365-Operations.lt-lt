@@ -2,7 +2,7 @@
 title: Vartotojo patirties personalizavimas
 description: Šiame straipsnyje paaiškinama, kaip galite personalizuoti programą.
 author: jasongre
-ms.date: 09/27/2021
+ms.date: 11/08/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a1f24ff1a0730f13af6231510c8e6b3cb46fde48
-ms.sourcegitcommit: 89906aa2f18f16e622fd280433c8fc9fe74d2aec
-ms.translationtype: HT
+ms.openlocfilehash: 6256765c41ff128b067cda9107c790691c5b376a
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7581070"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7777990"
 ---
 # <a name="personalize-the-user-experience"></a>Vartotojo patirties personalizavimas
 
@@ -107,7 +107,7 @@ Jei norite sukurti keletą puslapio pakeitimų arba pakeitimus, kurie nėra prie
 - Bet kurio puslapio veiksmų srities skirtuke **Parinktys** esančioje grupėje **Personalizavimas**, pasirinkite **Pritaikyti šį puslapį asmeniniams poreikiams**.
 - Naršymo juostoje pasirinkite mygtuką **Parametrai** (krumpliaračio simbolis), tada pasirinkite **Personalizavimas**.
 
-[![Personalizavimo įrankių juosta.](./media/restyledPersonalizationToolbar.png)](./media/restyledPersonalizationToolbar.png)
+[![ Personalizavimo įrankių juosta.](./media/restyledPersonalizationToolbar.png)](./media/restyledPersonalizationToolbar.png)
 
 #### <a name="navigating-the-page"></a>Naršymas puslapyje
 
@@ -148,7 +148,7 @@ Kai kuriuose puslapiuose, kuriuose yra sąrašų, galima veiksmų srities skirtu
 > [!NOTE]
 > Jei funkcija [Įrašyti rodiniai](saved-views.md) įjungta, į darbo sritį perkeliamas turinys yra tiesiogiai susietas su rodiniu. Peržiūros užklausa yra naudojama gauti duomenis į darbo sritį ir atitinkama plyta ar nuoroda darbo srityje atidaro puslapį į tą peržiūrą taip, kad peržiūros užklausa ir personalizavimas jai yra taikomas. Jei peržiūra yra atnaujinama, atitinkami darbo srities elementai bus keičiami į naują peržiūros sąvoką.
 
-[![Įtraukti į darbo sritį.](./media/personalization-addtoworkspace.png)](./media/personalization-addtoworkspace.png)
+[![ Įtraukti į darbo sritį.](./media/personalization-addtoworkspace.png)](./media/personalization-addtoworkspace.png)
 
 - Norėdami įtraukti sąrašą į darbo sritį, pirmiausia surūšiuokite arba filtruokite puslapio sąrašą, kad informacija būtų rodoma taip, kaip norite, kad ji būtų rodoma darbo srityje. (Jei **Įrašytos peržiūros** funkcija yra įjungta, nebegalite tęsti kol įrašysite peržiūrą, turinčią šias sąlygas.) Tuomet pasirinkite **Įtraukti į darbo sritį**. Pasirinkite darbo sritį, o po to lauke **Pateiktis** paspauskite **Sąrašas**. Paspaudus **Konfigūruoti** rodomas dialogo langas, kuriame galite pasirinkti stulpelius, kurie turėtų būti rodomi darbo srities sąraše. Taip pat galite nurodyti darbo srities sąrašui naudojamą žymą.
 - Tam, kad įtrauktumėte plytą į darbo sritį, pirmiausia filtruokite sąrašą puslapyje taip, kad jis rodytų duomenis, kurie turi būti apibendrinti ir prie kurių norite prieiti greitai. (Jei **Įrašytos peržiūros** funkcija yra įjungta, nebegalite tęsti kol įrašysite peržiūrą, turinčią šias sąlygas.) Tuomet pasirinkite **Įtraukti į darbo sritį**. Pasirinkite darbo sritį, o po to lauke **Pateiktis** paspauskite **Išklotinės dalis**. Paspaudus **Konfigūruoti** rodomas dialogo langas, kuriame galite nurodyti darbo srities išklotinei naudojamą žymą. Taip pat galite nurodyti, ar išklotinėje turėtų būti rodomas skaičius. Po to, kai išklotinė įtraukiama į darbo sritį, galite pasirinkti ją, kad atidarytumėte dabartinį puslapį iš darbo srities. Tada galite peržiūrėti filtruotą sąrašą, susietą su išklotine.
@@ -219,6 +219,9 @@ Jei įrašyti rodiniai nėra įgalinti, personalizavimo kopijavimui atlikite ši
 ### <a name="export-and-import-views-or-personalizations"></a>Eksportuoti ir importuoti rodinius arba personalizavimus
 
 Kitas būdas dalintis personalizavimas yra eksportavimas ir importavimas. Atskiri vartotojai arba administratorius, kuris veikia jų vardu, gali naudoti šį metodą norėdami eksportuoti savo personalizavimus ar rodinius ir suteikti eksportuotą failą kitiems vartotojams, kad jie būtų importuojami. Taip pat vartotojai gali suteikti eksportuotus personalizavimus vartotojui, kuris turi administratoriaus teises ir tada, norėdami pritaikyti personalizavimo failą daugeliui vartotojų tuo pačiu metu, gali naudoti personalizavimo administravimo **puslapį**.
+
+> [!IMPORTANT]
+> Kadangi personalizavimas išlieka atnaujinimų metu, visi personalizavimas iš naujo importuojamas po aptarnavimo naujinimo arba bet kuriuo kitu metu yra nereikalingi ir labai nesiningi.   
 
 #### <a name="export"></a>Eksportavimas
 

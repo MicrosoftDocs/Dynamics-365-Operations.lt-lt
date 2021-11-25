@@ -2,7 +2,7 @@
 title: Konfigūracijų kūrimas dokumentams „Excel“ formatu generuoti
 description: Šioje temoje apibūdinama, kaip kurti Elektroninės ataskaitos (ER) formatą, kad būtų galima pildyti „Excel“ šabloną, o tada generuoti siunčiamus „Excel“ formato dokumentus.
 author: NickSelin
-ms.date: 09/14/2021
+ms.date: 10/29/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: fd3171ad24f9c06f04372b30f2682b6da516bcb6
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
-ms.translationtype: HT
+ms.openlocfilehash: cfacc2232201b85a49068ee724b55e71b60eb2be
+ms.sourcegitcommit: 1cc56643160bd3ad4e344d8926cd298012f3e024
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7488143"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "7731643"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>Konfigūracijos, skirtos dokumentams „Excel“ formatu generuoti, kūrimas
 
@@ -45,22 +45,22 @@ Norėdami sukonfigūruoti konfigūracijos ER formato komponentą, veiksmų srity
 
 ### <a name="manual-entry"></a>Neautomatinis įrašas
 
-Jei siunčiamą dokumentą norite generuoti „Excel“ formatu, į sukonfigūruotą ER formatą turite įtraukti komponentą **Excel\\Failas**.
+Jei siunčiamą dokumentą norite generuoti „Excel“ formatu, į sukonfigūruotą ER formatą turite įtraukti komponentą **Excel\\ Failas**.
 
 ![Komponentas „Excel\Failas“.](./media/er-excel-format-add-file-component.png)
 
-Norėdami nurodyti siunčiamo dokumento maketą, prie komponento **Excel\\Failas** kaip siunčiamų dokumentų šabloną pridėkite „Excel“ darbaknygę, kurios plėtinys – .xlsx.
+Norėdami nurodyti siunčiamo dokumento maketą, prie komponento **Excel\\ Failas** kaip siunčiamų dokumentų šabloną pridėkite „Excel“ darbaknygę, kurios plėtinys – .xlsx.
 
 > [!NOTE]
 > Kai šabloną pridedate neautomatiniu būdu, turite naudoti [dokumento tipą](../../../fin-ops-core/fin-ops/organization-administration/configure-document-management.md#configure-document-types), kuris buvo sukonfigūruotas tam tikslui [ER parametruose](electronic-reporting-er-configure-parameters.md#parameters-to-manage-documents).
 
 ![Priedo pridėjimas prie komponento „Excel\Failas“.](./media/er-excel-format-add-file-component2.png)
 
-Jei norite nurodyti, kaip pridėtas šablonas bus pildomas vykdant sukonfigūruotą ER formatą, į komponentą **Excel\\Failas** turite įtraukti įterptuosius komponentus **Lapas**, **Diapazonas** ir **Langelis**. Kiekvienas įterptasis komponentas turi būti susietas su „Excel“ įvardytuoju elementu.
+Jei norite nurodyti, kaip pridėtas šablonas bus pildomas vykdant sukonfigūruotą ER formatą, į komponentą **Excel\\ Failas** turite įtraukti įterptuosius komponentus **Lapas**, **Diapazonas** ir **Langelis**. Kiekvienas įterptasis komponentas turi būti susietas su „Excel“ įvardytuoju elementu.
 
 ### <a name="template-import"></a>Šablono importavimas
 
-Norėdami į tuščią ER formatą importuoti naują šabloną, veiksmų srities skirtuke **Importavimas** galite pasirinkti **Importuoti iš „Excel“**. Šiame pavyzdyje komponentas **Excel\\Failas** bus sukurtas automatiškai, o importuotas šablonas bus pridėtas prie jo. Visi būtinieji ER komponentai taip pat bus sukurti automatiškai, remiantis aptiktu „Excel“ įvardytųjų elementų sąrašu.
+Norėdami į tuščią ER formatą importuoti naują šabloną, veiksmų srities skirtuke **Importavimas** galite pasirinkti **Importuoti iš „Excel“**. Šiame pavyzdyje komponentas **Excel\\ Failas** bus sukurtas automatiškai, o importuotas šablonas bus pridėtas prie jo. Visi būtinieji ER komponentai taip pat bus sukurti automatiškai, remiantis aptiktu „Excel“ įvardytųjų elementų sąrašu.
 
 ![Importavimo pasirinkimas iš „Excel“.](./media/er-excel-format-import-template.png)
 
@@ -85,6 +85,8 @@ ER operacijų kūrimo įrankio skirtuke **Susiejimas** galite konfigūruoti komp
 
 Komponentas **Diapazonas** nurodo „Excel“ diapazoną, kurį turi kontroliuoti šis ER komponentas. Diapazono pavadinimas yra apirėžtas šio komponento ypatybėje **„Excel“ diapazonas**.
 
+### <a name="replication"></a>Dubliavimas
+
 Ypatybė **Dubliavimo kryptis** nurodo, ar diapazonas bus kartojamas sugeneruotame dokumente, ir kaip.
 
 - Jei ypatybės **Dubliavimo kryptis** reikšmė nustatyta kaip **Dubliavimo nėra**, atitinkamas „Excel“ diapazonas nebus kartojamas sugeneruotame dokumente.
@@ -92,6 +94,8 @@ Ypatybė **Dubliavimo kryptis** nurodo, ar diapazonas bus kartojamas sugeneruota
 - Jei ypatybės **Dubliavimo kryptis** reikšmė nustatyta kaip **Horizontali**, atitinkamas „Excel“ diapazonas bus kartojamas sugeneruotame dokumente. Kiekvienas dubliuojamas diapazonas „Excel“ šablone yra pateikiamas pradinio diapazono dešinėje. Pasikartojimų skaičius apibrėžiamas duomenų šaltinio, kurio tipas – **Įrašų sąrašas** ir kuris yra susietas su šiuo ER komponentu, įrašų skaičiumi.
 
 Norėdami daugiau sužinoti apie horizontalų dubliavimą, atlikite veiksmus, aprašytus skyriuje [Horizontaliai išplečiamų diapazonų naudojimas norint dinamiškai įtraukti stulpelius į „Excel“ ataskaitas](tasks/er-horizontal-1.md).
+
+### <a name="nested-components"></a>Įdėtųjų komponentų
 
 Komponente **Diapazonas** gali būti kitų įterptųjų ER komponentų, kurie naudojami norint įvesti reikšmes atitinkamuose „Excel“ įvardytuose diapazonuose.
 
@@ -105,11 +109,40 @@ Komponente **Diapazonas** gali būti kitų įterptųjų ER komponentų, kurie na
     > [!NOTE]
     > Naudokite šį modelį, kad „Excel“ programa formatuotų įvestas reikšmes pagal vietinio kompiuterio, kuriame atidaromas siunčiamas dokumentas, lokalę.
 
+### <a name="enabling"></a>Įjungiama
+
 ER operacijų kūrimo įrankio skirtuke **Susiejimas** galite konfigūruoti komponento **Diapazonas** ypatybę **Įgalinta**, kad nustatytumėte, ar komponentas turi būti įtrauktas į sugeneruotą dokumentą.
 
 - Jei ypatybės **Įgalinta** išraiška sukonfigūruota vykdymo laiku grąžinti reikšmę **Teisinga** arba jei nesukonfigūruota jokia išraiška, sugeneruotame dokumente bus užpildytas atitinkamas diapazonas.
 - Jei ypatybės **Įgalinta** išraiška sukonfigūruota vykdymo laiku grąžinti reikšmę **Klaidinga**, arba jei šis diapazonas neatitinka visų eilučių ar stulpelių, sugeneruotame dokumente atitinkamas diapazonas nebus užpildytas.
 - Jei ypatybės **Įgalinta** išraiška sukonfigūruota vykdymo laiku grąžinti reikšmę **Klaidinga**, ir šis diapazonas atitinka visas eilutes ar stulpelius, sugeneruotame dokumente tos eilutės ir stulpeliai bus kaip paslėptos eilutės ir stulpeliai.
+
+### <a name="resizing"></a>Dydžio keitimas
+
+Galite konfigūruoti savo Excel šabloną, kad jis galėtų naudoti langelius tekstiniams duomenims pateikti. Norėdami užtikrinti, kad sugeneruotame dokumente būtų matomas visas langelio tekstas, galite sukonfigūruoti, kad langelis automatiškai nulaužti tekstą jame. Taip pat galite konfigūruoti eilutę, kurioje yra šis langelis, kad automatiškai būtų koreguojamas jo aukštis, jei viršelio tekstas nematomas. Norėdami gauti daugiau informacijos, žr. skyrių "Sulaužyti tekstą langelyje", kuris yra [išjungtas langeliuose](https://support.microsoft.com/office/fix-data-that-is-cut-off-in-cells-e996e213-6514-49d8-b82a-2721cef6144e).
+
+> [!NOTE]
+> Dėl žinomo Excel apribojimo, net jei konfigūruojate langelius, kad įsilaužtų tekstas, ir konfigūruojate eilutes, kuriose yra tų langelių, kad automatiškai pakoreguotų jų aukštį, kad tilptų tekstas, gali būti taip, kad sulietiems langeliams ir eilutėms, kuriose yra tų langelių, gali būti taip, kad negalėsite naudoti funkcijos AutoFit ir Tikrinimo teksto [...](https://support.microsoft.com/topic/you-cannot-use-the-autofit-feature-for-rows-or-columns-that-contain-merged-cells-in-excel-34b54dd7-9bfc-6c8f-5ee3-2715d7db4353)**·** **·** Excel. 
+
+Kaip ir 10.0.23 versiją galite priversti ER sugeneruotame dokumente apskaičiuoti kiekvienos eilutės aukštį, kuris buvo sukonfigūruotas taip, kad automatiškai atitiktų įdėtųjų langelių turinį, kai tą eilutę sudaro bent vienas sulietas langelis, kuris buvo sukonfigūruotas taip, kad jame būtų rodomas Dynamics 365 Finance tekstas. Apskaičiuotas aukštis naudojamas eilutei pakeisti, kad sugeneruotame dokumente būtų matomi visi eilutės langeliai. Jei norite pradėti naudoti šią funkciją, paleisdami bet kuriuos ER formatus, sukonfigūruotus naudoti Excel šablonus siunčiamams dokumentams generuoti, atlikite šiuos veiksmus.
+
+1. Eikite į **Organizacijos administravimas** \> **Darbo sritys** \> **Elektroninės ataskaitos**.
+2. **Lokalizavimo konfigūracijos** puslapyje **Susiję saitai** pasirinkite **Elektroninių ataskaitų parametrai**.
+3. Elektroninių **ataskaitų parametrų** puslapyje, skirtuke **·** Runtime, nustatykite **pasirinktį Automatiškai įtraukti eilutės** aukštį kaip **·** Taip.
+
+Norėdami pakeisti šią taisyklę vienam ER formatui, atnaujinkite to formato juodraščio versiją, atlikite šiuos veiksmus.
+
+1. Eikite į **Organizacijos administravimas** \> **Darbo sritys** \> **Elektroninės ataskaitos**.
+2. **Lokalizavimo konfigūracijos** puslapyje **Konfigūracijos** dalyje pasirinkite plytelę **Konfigūracijų ataskaitos**.
+3. Konfigūracijos puslapio, konfigūracijos medžio kairiojoje srityje, pasirinkite ER konfigūraciją, skirtą naudoti Excel šabloną **·** siunčiamams dokumentams generuoti.
+4. **Versijos** „FastTab“, pasirinkite konfigūravimo versiją, kuri turi statusą **Juodraštis**.
+5. Veiksmų srityje pasirinkite **Dizaino įrankis**.
+6. Skirtuko Formatų konstruktorius puslapyje, kairiojoje srityje esančioje formato medyje, pasirinkite **·** "Excel" komponentą, kuris susietas su Excel šablonu.
+7. Skirtuko Formatas lauke Koreguoti eilutės aukštį pasirinkite vertę, norėdami nurodyti, ar ER turėtų būti naudojamas vykdymo metu, norint pakeisti siunčiamo dokumento, sugeneruoto redaguojamo **·** **ER formato, eilučių** aukštį:
+
+    - **Numatyta** – naudokite bendrąjį parametrą, kuris sukonfigūruotas lauke Automatiškai taikyti eilutės **·** aukštį elektroninių ataskaitų **parametrų** puslapyje.
+    - **Taip** – nepaisyti bendrojo parametro ir pakeisti eilutės aukštį vykdyklėje.
+    - **Ne** – nepaisyti bendrojo parametro ir vykdymo metu nekeiskite eilutės aukščio.
 
 ## <a name="cell-component"></a>Langelio komponentas
 
@@ -138,7 +171,7 @@ Norėdami sužinoti daugiau, kaip įterpti paveikslėlius ir figūras, žr. [Vai
 
 Komponentas **Puslapio lūžis** priverčia programą „Excel“ pradėti naują puslapį. Šis komponentas nereikalingas, kai norite naudoti numatytąją „Excel“ puslapių kaitą, bet turite jį naudoti, jei norite, kad programa „Excel“ puslapių kaitai taikytų jūsų ER formatą.
 
-## <a name="page-component"></a><a name="page-component"></a>Puslapio komponentas
+## <a name="page-component"></a><a name="page-component"></a> Puslapio komponentas
 
 ### <a name="overview"></a>Peržiūra
 
@@ -146,7 +179,7 @@ Galite naudoti **Puslapio** komponentą, kai norite, kad „Excel” vadovautųs
 
 Jei turite suskaidyti sugeneruotą dokumentą į skirtingus skyrius, kurių kiekvienas jų turi skirtingą puslapių numeraciją, galite sukonfigūruoti kelis **Puslapio** komponentus kiekviename [lapo](er-fillable-excel.md#sheet-component) komponente.
 
-### <a name="structure"></a><a name="page-component-structure"></a>Struktūra
+### <a name="structure"></a><a name="page-component-structure"></a> Struktūra
 
 Jei pirmasis komponentas po **Puslapio** komponentu yra [Diapazono](er-fillable-excel.md#range-component) komponentas, kurio **Replikavimo krypties** ypatybė nustatyta į **Jokio replikavimo**, šis diapazonas yra laikomas puslapių numeracijos puslapio antraštė, pagrįsta dabartinio **Puslapio** komponento parametrais. Su šiuo formato komponentu susietas „Excel” diapazonas yra kartojamas kiekvieno puslapio, sugeneruoto naudojant dabartinio **Puslapio** komponento parametrus, viršuje.
 
@@ -167,7 +200,7 @@ Jei įdėtųjų **Diapazono** komponentų rinkinys, esantis po **Puslapio** komp
 
 Jei norite, kad su puslapių numeracija susijęs sumavimas ir skaičiavimas skaičiuotų puslapio vykdomas sumas ir sumas, rekomenduojame konfigūruoti reikiamus [Duomenų rinkimo](er-data-collection-data-sources.md) duomenų šaltinius. Norėdami sužinoti, kaip naudoti **Puslapio** komponentą sugeneruoto „Excel” dokumento puslapių išdėstymui, atlikite procedūras, aprašytas [ER formato kūrimas sugeneruoto dokumento „Excel” formatu puslapių išdėstymui](er-paginate-excel-reports.md).
 
-### <a name="limitations"></a><a name="page-component-limitations"></a>Apribojimai
+### <a name="limitations"></a><a name="page-component-limitations"></a> Apribojimai
 
 Kai naudojate **Puslapio** komponentą „Excel” puslapių išdėstymui, jūs nežinosite galutinio sugeneruoto dokumento puslapio skaičiaus tol, kol puslapių išdėstymas nebus užbaigtas. Todėl negalite apskaičiuoti bendro puslapių skaičiaus naudodami ER formules ir atspausdinti teisingo sugeneruoto dokumento puslapių skaičiaus bet kuriame puslapyje prieš paskutinį puslapį.
 
@@ -180,7 +213,7 @@ Jei konfigūruojate savo „Excel” šabloną, kad būtų naudojamas [sąlygini
 
 ### <a name="applicability"></a>Taikymas
 
-**Puslapio** komponentas veikia [„Excel” failo](er-fillable-excel.md#excel-file-component) formato komponentui tik tada, kai komponentas sukonfigūruotas naudoti „Excel” šabloną. Jei [pakeisite](tasks/er-design-configuration-word-2016-11.md) „Excel” šabloną „Word” šablonu ir tada paleisite redaguojamą ER formatą, **Puslapio** komponento bus nepaisoma.
+**Puslapio** komponentas veikia [„Excel” failo](er-fillable-excel.md#excel-file-component) formato komponentui tik tada, kai komponentas sukonfigūruotas naudoti „Excel” šabloną. Jei [pakeisite](tasks/er-design-configuration-word-2016-11.md) „Excel” šabloną „Word” šablonu ir tada paleisite redaguojamą ER formatą, Puslapio komponento bus nepaisoma.
 
 **Puslapio** komponentas veikia tik tada, kai **Įgalinti „EPPlus” bibliotekos naudojimą elektroninių ataskaitų sistemoje** funkcija yra įjungta. Išimtis pateikiama apdorojimo metu, jei ER bando apdoroti **Puslapio** komponentą, kai ši funkcija išjungta.
 
@@ -206,7 +239,7 @@ Vienam **Lapas** komponentui, galite pridėti kelis **Poraštė** komponentus, k
 > [!NOTE]
 > Įsitikinkite, kad kiekvienas jūsų pridėtas **Poraštė** komponentas vienam **Lapas** komponentui turi skirtingą **Antraštės / poraštės išvaizda** ypatybės vertę. Priešingu atveju įvyksta [tikrinimo klaida](er-components-inspections.md#i16). Klaidos pranešimas, kurį gaunate, praneša apie nesutapimą.
 
-Po pridėto **Poraštė** komponentu pridėkite **Tekstas\\Eilutė**, **Tekstas\\Datos laikas** arba kito tipo būtinus įdėtus komponentus. Norėdami nurodyti, kaip užpildoma jūsų puslapio poraštė, sukonfigūruokite tų komponentų susiejimus.
+Po pridėto **Poraštė** komponentu pridėkite **Tekstas\\ Eilutė**, **Tekstas\\ Datos laikas** arba kito tipo būtinus įdėtus komponentus. Norėdami nurodyti, kaip užpildoma jūsų puslapio poraštė, sukonfigūruokite tų komponentų susiejimus.
 
 Taip pat galite naudoti specialius [formatavimo kodus](/office/vba/excel/concepts/workbooks-and-worksheets/formatting-and-vba-codes-for-headers-and-footers) norėdami teisingai suformuoti sugeneruotos poraštės turinį. Norėdami sužinoti, kaip naudoti šį būdą, atlikite [1 pavyzdyje](#example-1) žemiau šioje temoje aprašytus veiksmus.
 
@@ -221,7 +254,7 @@ Taip pat galite naudoti specialius [formatavimo kodus](/office/vba/excel/concept
 
 ### <a name="update-a-template"></a>Šablono naujinimas
 
-Norėdami į redaguojamą ER formatą importuoti atnaujintą šabloną, veiksmų srities skirtuke **Importavimas** galite pasirinkti **Naujinti iš „Excel‟**. Šio proceso metu pasirinkto komponento **Excel\\Failas** šablonas bus pakeistas nauju šablonu. Redaguojamo ER formato turinys bus sinchronizuojamas su atnaujinto ER šablono turiniu.
+Norėdami į redaguojamą ER formatą importuoti atnaujintą šabloną, veiksmų srities skirtuke **Importavimas** galite pasirinkti **Naujinti iš „Excel‟**. Šio proceso metu pasirinkto komponento **Excel\\ Failas** šablonas bus pakeistas nauju šablonu. Redaguojamo ER formato turinys bus sinchronizuojamas su atnaujinto ER šablono turiniu.
 
 - Jei redaguojamo formato ER formato komponentas nerandamas, kiekvienam „Excel“ pavadinimui bus automatiškai sukurtas naujas ER formato komponentas.
 - Neradus atitinkamo „Excel“ pavadinimo, iš redaguojamo ER formato bus panaikinti visi ER formato komponentai.
@@ -256,7 +289,7 @@ Kai sugeneruojamas siunčiamas dokumentas „Microsoft Excel“ darbaknygės for
     > Formulių perskaičiavimas neautomatiškai vykdomas, kai sugeneruotas dokumentas atidaromas peržiūrėti naudojant „Excel“.
     > Nenaudokite šios pasirinkties, jei konfigūruosite ER paskirties vietą, kuri naudoja sugeneruotą dokumentą jo neperžiūrėdama programoje „Excel“ (PDF konvertavimas, siuntimas el. paštu ir t.t.), kadangi sugeneruoto dokumento langeliuose, kuriuose yra formulių, gali nebūti reikšmių.
 
-## <a name="example-1-format-footer-content"></a><a name="example-1"></a>1 pavyzdys – formato poraštės turinys
+## <a name="example-1-format-footer-content"></a><a name="example-1"></a> 1 pavyzdys – formato poraštės turinys
 
 1. Naudokite pateiktas ER konfigūracijas [sugeneruoti](er-generate-printable-fti-forms.md) spausdintiną laisvos formos SF (FTI) dokumentą.
 2. Peržiūrėkite sugeneruoto dokumento poraštę. Atkreipkite dėmesį, kad joje yra informacijos apie dabartinio puslapio numerį ir bendrą dokumento puslapių skaičių.
@@ -270,7 +303,7 @@ Kai sugeneruojamas siunčiamas dokumentas „Microsoft Excel“ darbaknygės for
     - Pirmasis **Eilutė** komponentas užpildo šiuos specialius formatavimo kodus, dėl to „Excel” pritaikys specialų formatavimą:
 
         - **&C** – lygiuoti poraštės tekstą centre.
-        - **& "Segoe UI,Reguliarus"&8** – pateikti poraštės tekstą "Segoe UI Regular"8 taškų šriftu.
+        - **& "Segoe UI,Reguliarus"&8** – pateikti poraštės tekstą "Segoe UI Regular" 8 taškų šriftu.
 
     - Antrasis **Eilutė** komponentas užpildo tekstą, kuriame yra dabartinis puslapio numeris ir bendras puslapių skaičius dabartiniame dokumente.
 
@@ -278,7 +311,7 @@ Kai sugeneruojamas siunčiamas dokumentas „Microsoft Excel“ darbaknygės for
 
 4. Pritaikykite ER formato pavyzdį, kad modifikuotumėte dabartinę puslapio poraštę:
 
-    1. [Kurkite](er-quick-start2-customize-report.md#DeriveProvidedFormat) išvestinį **Laisvos formos teksto pasirinktinė SF (Excel)** ER formatą, pagrįstą ER formato pavyzdžiu.
+    1. [Kurkite](er-quick-start2-customize-report.md#DeriveProvidedFormat) išvestinį Laisvos formos teksto pasirinktinė SF (Excel) ER formatą, pagrįstą ER formato pavyzdžiu.
     2. Pridėkite primą naują **Eilutė** komponentų porą, skirtą **Poraštė** **Sąskaita faktūra** darbalapio komponentui:
 
         1. Pridėkite **Eilutė** komponentą, sulygiuojantį įmonės pavadinimą kairėje ir pateikiantį "Segoe UI Regular" 8 dydžio šriftu (**"&L&"Segoe UI,Regular"&8"**).

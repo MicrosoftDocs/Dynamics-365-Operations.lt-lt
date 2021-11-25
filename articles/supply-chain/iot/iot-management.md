@@ -1,25 +1,25 @@
 ---
 title: IoT analizės stebėjimas ir valdymas
 description: Šioje temoje aiškinama, kaip stebėti ir valdyti IoT analizę.
-author: robinarh
+author: tonyafehr
 ms.date: 08/16/2019
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: rhaertle
+ms.reviewer: tfehr
 ms.custom: ''
 ms.search.region: Global
-ms.author: rhaertle
+ms.author: tfehr
 ms.search.validFrom: 2020-04-04
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 9d0bea8fb434e4733715da7ec88e33d3f25733339e4987df8f704227dc387ab9
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 8fbd750aa4a316f5e04f3c8622d0847ad9318360
+ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6736848"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7782662"
 ---
 # <a name="monitor-and-manage-iot-intelligence"></a>IoT analizės stebėjimas ir valdymas
 
@@ -27,7 +27,7 @@ ms.locfileid: "6736848"
 
 Šioje temoje aiškinama, kaip stebėti ir valdyti IoT analizę.
 
-## <a name="monitor-scenarios-in-microsoft-dynamics-365-supply-chain-management"></a><a id="monitor-scenarios"></a>Scenarijų stebėjimas programoje „Microsoft Dynamics 365 Supply Chain Management“
+## <a name="monitor-scenarios-in-microsoft-dynamics-365-supply-chain-management"></a><a id="monitor-scenarios"></a> Scenarijų stebėjimas programoje „Microsoft Dynamics 365 Supply Chain Management“
 
 IoT analizės apdorojimą galite stebėti keliose vietose.
 

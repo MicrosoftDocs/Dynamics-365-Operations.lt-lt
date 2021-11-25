@@ -1,7 +1,7 @@
 ---
 title: Kredito valdymo nustatymas
 description: Šioje temoje aprašomas nustatymas, kurio reikia kredito valdymui.
-author: mikefalkner
+author: JodiChristiansen
 ms.date: 09/04/2019
 ms.topic: article
 ms.prod: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4cfb747c9a510474d0ca27a595158cd6e6d24359a37f665f64b4c640536874aa
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 9b9e756b678786d2c5a8c5bb9e890ce988090c09
+ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723948"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7753673"
 ---
 # <a name="credit-management-setup"></a>Kredito valdymo nustatymas 
 
@@ -25,7 +25,7 @@ ms.locfileid: "6723948"
 
 ## <a name="credit-management-workflows"></a>Kredito valdymo darbo eigos
 
-Eikite į **Kreditai ir mokėjimų priežiūros \> Nustatymas \>Kreditų valdymo darbo eigos**, kad apibrėžtumėte darbo eigas, kurios naudojamos kredito limito koregavimams valdyti.
+Eikite į **Kreditai ir mokėjimų priežiūros \> Nustatymas \> Kreditų valdymo darbo eigos**, kad apibrėžtumėte darbo eigas, kurios naudojamos kredito limito koregavimams valdyti.
 
 - Galite sukurti darbo eigą, kuri leidžia patvirtinti kredito limitų koregavimų paketą vienu patvirtinimu.
 - Galite įtraukti darbo eigą eilutės lygiu, kad galėtumėte patvirtinti kredito limito koregavimus atskirai.
@@ -138,7 +138,7 @@ Galite įtraukti padengimo tipus puslapyje **Padengimo tipai** (**Kreditas ir su
 
 ## <a name="automatic-credit-limits"></a>Automatiniai kredito limitai
 
-Galite sukurti automatinių kredito limitų kriterijus puslapyje **Automatiniai kredito limitai** (**Kreditas ir surinkimas \>Sąranka \> Kredito valdymo sąranka \> Rizika \> Automatiniai kredito limitai**).
+Galite sukurti automatinių kredito limitų kriterijus puslapyje **Automatiniai kredito limitai** (**Kreditas ir surinkimas \> Sąranka \> Kredito valdymo sąranka \> Rizika \> Automatiniai kredito limitai**).
 
 1. Pasirinkite rizikos grupę, kuriai reikia priskirti automatinį kredito limitą.
 2. Pasirinkite automatinio kredito limito valiutą. Galite sukurti kelis automatinius kreditų limitus skirtingomis valiutomis toje pačioje rizikos grupėje.

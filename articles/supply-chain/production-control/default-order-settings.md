@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 2681a2a13754e240dcc4c99792dc47ae734f6e9e
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.openlocfilehash: 419e2b3b6bc5636aa75cf3ecc26e32ad22260a7e
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579429"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778112"
 ---
 # <a name="default-order-settings-for-dimensions-and-product-variants"></a>Numatytieji dimensijų ir produkto variantų užsakymų parametrai
 
@@ -160,7 +160,7 @@ Kaip bendros gairės, specialios taisyklės ir dimensijų taisyklės svarbesnės
 
 Taisyklė, kurios reitingas nulis, naudojama kaip apsauginė sąlyga. Jei nėra kitų taisyklių, tada naudojami nulinės taisyklės numatytieji užsakymo parametrai. 
 
-Kadangi lygmens numeris yra svarbus,**Nustatytieji užsakymo parametrai** veiksmų juostoje yra funkcijos leidžiančios judinti taisyklę aukštyn ar žemyn bei iš naujo sunumeruoti taisykles taip, kad jos visuomet didėtų po 10. 
+Kadangi lygmens numeris yra svarbus, **Nustatytieji užsakymo parametrai** veiksmų juostoje yra funkcijos leidžiančios judinti taisyklę aukštyn ar žemyn bei iš naujo sunumeruoti taisykles taip, kad jos visuomet didėtų po 10. 
 
 Išleistam produktui sukurtų taisyklių skaičius gali būti didelis. Tam, kad geriau suprastumėte, ką kiekviena taisyklė viršija ir kam to reikia, rekomenduojame naudoti **Tinklelio peržiūrą** **Nustatytųjų užsakymo parametrų** puslapyje. Galite įjungti tinklelio peržiūrą eidami į **Parinktys** &gt; **Puslapio parinktys** &gt; **Keisti peržiūrą** &gt; **Tinklelio peržiūra**. Tinklelyje rodomų stulpelių skaičius gali būti gana svarbus, ypač pardavimo ir atsargų skirtukuose. Norint apriboti tinklelyje rodomų stulpelių skaičių, stulpelių grupes galima paslėpti arba rodyti naudojant meniu **Numatytieji užsakymo parametrai** &gt; **Stulpelio rodinys** mygtukus.
 
@@ -188,7 +188,7 @@ Griežtas patvirtinimas taikomas **Standartiniam užsakymo kiekio** vertėms nur
 
 ### <a name="enable-the-strict-validation-option"></a>Įjungti griežtą patvirtinimo parinktį
 
-Prieš tai, kai galite naudoti griežtą patvirtinimo parinktį, ji turi būti įjungta jūsų sistemoje. Administratoriai gali naudoti [Funkcijas valdymo](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) puslapį tam, kad patikrintų funkcijos būseną ir įjungtų ją, jei reikia. Čia funkcija yra nurodyta kaip:
+Kaip tiekimo grandinės valdymo versija 10.0.21, ši funkcija yra įjungta pagal numatytuosius nustatymus. Administratoriai gali naudoti [funkcijų valdymo](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) puslapį, kad patikrintų funkcijos būseną ir prireikus ją įjungtų arba išjungtų. Čia funkcija yra nurodyta kaip:
 
 - **Modulis** - *Produkto informacijos valdymas*
 - **Funkcijos pavadinimas** - *Griežtas patvirtinimas dėl nustatytųjų užsakymo kiekio*

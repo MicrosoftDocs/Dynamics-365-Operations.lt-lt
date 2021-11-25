@@ -1,8 +1,8 @@
 ---
 title: Masinės samdos projektai
-description: Naudodami masinės samdos projektus personalo specialistai gali kurti keletą pareigų ir į jas efektyviai pasamdyti keletą darbuotojų.
-author: andreabichsel
-ms.date: 06/20/2017
+description: Šioje temoje aprašomi masinės samdos projektai, kurie leidžia personalo specialistams kurti keletą pareigų ir efektyviai samdyti darbuotojus į tas pareigas.
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f3e6c2addcf3f43c843692013489afcc1912b9baac1dbdfa6b4d4a1afc4398cd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 6e0a8bba2227136995542d08f4b3f1e9d6d48ad5
+ms.sourcegitcommit: e91a1797192fd9bc4048b445bb5c1ad5d333d87d
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6754812"
+ms.lasthandoff: 11/01/2021
+ms.locfileid: "7728690"
 ---
 # <a name="mass-hire-projects"></a>Masinės samdos projektai
 
@@ -43,19 +43,19 @@ Jei vienu metu į darbą priimate kelis darbuotojus, pvz., samdote siekdami pate
 
 Vasarą paprastai samdote 15–20 kolegijos studentų ne visai darbo dienai galimoms stažuotės vietoms jūsų įmonėje užpildyti. Šiais metais norite samdyti penkis buhalterius, penkis užsakymo vykdytojus ir penkis kasininkus. Užuot kūrę kiekvieną pozicijos įrašą ir darbuotojo įrašą atskirai, galite sukurti vieną masinės samdos projektą, pavadintą „SummerInterns“. Projekto pradžios ir pabaigos datos koreliuoja su pareigų trukmės pradžios ir pabaigos datomis tų pareigų, kurias sukūrėte masinės samdos projektui.
 
-Puslapyje **Masinės samdos projektai** pasirinkite „SummerInterns“ projektą, tada spustelėkite **Atidaryti projektą**. Dalyje atidaryti masinės samdos projektą spustelėkite **Kurti pareigas** ir įveskite informaciją apie buhalterio pareigas. Galite nurodyti, kad turi būti sukurtos penkių buhalterių pareigos, kiekvienai naudojant tą pačią informaciją, ir spustelėti Gerai. Pakartokite šį procesą kurdami užsakymo vykdytojo ir kasininko pareigas.
+Masinės **samdos** projektų puslapyje pasirinkite **projektą SummerInterns,** tada pasirinkite Atidaryti **projektą**. Atvirame masinės samdos projekte **pasirinkite Kurti pareigas ir įveskite informaciją apie** buhalterio pareigas. Galite nurodyti, kad turėtų būti sukurtos penkios buhalterio pareigos ir kad kiekvienai iš jų turėtų būti naudojama ta pati informacija. Tada pasirinkite **Gerai**. Pakartokite šį procesą kurdami užsakymo vykdytojo ir kasininko pareigas.
 
-Pasirinkę stažuotės pareigoms samdomus studentus, įveskite kiekvieno studento informaciją į **Pareigų informacija** toms pareigoms, kurioms juos samdote. Kai įvesite visų pareigų informaciją, pasirinkite pareigas puslapyje Masinės samdos projektai, tada spustelėkite **Samda**. Kiekvienoms pareigoms bus sukurtas pareigų įrašas, o darbuotojo įrašas bus sukurtas ir priskirtas tinkamoms kiekvieno asmens, kurį įdarbinate, pareigoms.
+Kai pasirinksite samdyti būsimas pareigas, įvesite kiekvieno mok. informaciją apie pareigas, už kurias esate pasamdę. Įvedėte visą pareigų informaciją, pasirinkite pareigas masinės samdos projektų puslapyje, tada **·** pasirinkite **·** Samdyti. Pareigų įrašas bus sukurtas kiekvienai vietai, ir darbuotojo įrašas bus sukurtas ir priskirtas tinkamas pareigas kiekvienam samdomam asmeniui.
 
 ## <a name="mass-hire-project-statuses"></a>Masinės samdos projekto būsenos
 
 Masinės samdos projekto būsena gali būti viena iš toliau nurodytų.
 
 - Sukurta
-- Atidarytas
-- Uždaryta
+- Atidaryta
+- Uždaryti
 
-Puslapyje **Masinės samdos projektas** spustelėję **Atidaryti projektą** arba **Uždaryti projektą** keiskite masinės samdos projekto būseną. Toliau pateiktoje lentelėje aiškinama, ką galima daryti su projektu, atsižvelgiant į jo būseną.
+Masinės **samdos projekto** puslapyje pasirinkite Atidaryti projektą arba Uždaryti **·** **projektą, kad** pakeistumėte masinės samdos projekto būseną. Toliau pateiktoje lentelėje aiškinama, ką galima daryti su projektu, atsižvelgiant į jo būseną.
 
 <table>
 <thead>
@@ -75,8 +75,8 @@ Puslapyje **Masinės samdos projektas** spustelėję **Atidaryti projektą** arb
 </tr>
 <tr>
 <td>Uždaryta</td>
-<td>Pareigų įtraukti į projektą negalite. Norėdami į masinės samdos projektą įtraukti pareigų, dar kartą atidarykite projektą. Tai – baigtų projektų būsena.
-<blockquote>[!NOTE] Norint uždaryti masinės samdos projektą, visų projekto pareigų būsena turi būti Sukurta arba Uždaryta.</blockquote>
+<td><p>Pareigų įtraukti į projektą negalite. Norėdami į masinės samdos projektą įtraukti pareigų, dar kartą atidarykite projektą. Tai – baigtų projektų būsena.</p>
+<p><strong>Pastaba:</strong> prieš uždarant masinės samdos projektą, visų projekto pareigų būsena turi būti Sukurta <b>arba</b><b></b> Uždaryta.</p>
 </td>
 </tr>
 </tbody>

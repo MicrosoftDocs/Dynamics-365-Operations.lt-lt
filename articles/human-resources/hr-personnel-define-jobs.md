@@ -1,8 +1,8 @@
 ---
 title: Apibrėžti naujas užduotis
 description: Šia užduotimi dėmesys skiriamas naujo darbo sukūrimui.
-author: andreabichsel
-ms.date: 08/29/2018
+author: twheeloc
+ms.date: 11/03/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -10,15 +10,15 @@ ms.search.form: HcmJob, HcmPersonnelManagementWorkspace
 audience: Application User
 ms.search.scope: Human Resources
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 088f49d7887616300b4a9ea07f91598d65afbf6899e678b2c5c51797b4966ef0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 844661db4798c23b0b25d4ce7c2cc1862893a5dc
+ms.sourcegitcommit: 7e0e2a266d9a9473df72e207554d9bd150e17ce3
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6770461"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7771371"
 ---
 # <a name="define-new-jobs"></a>Apibrėžti naujas užduotis
 
@@ -28,48 +28,54 @@ ms.locfileid: "6770461"
 
 Šia užduotimi dėmesys skiriamas naujo darbo sukūrimui. Ji bus baigta naudojant rankinį šablono funkcijų įvedimą kopijavimą. Kuriant šią užduotį naudojama demonstracinių duomenų įmonė yra USMF. Ši užduotis yra skirta žmogiškųjų išteklių specialistui.
 
-1. Pasirinkite Personalas > Darbai > Darbai.
-2. Spustelėkite Naujas.
-3. Lauke Darbas surinkite reikšmę.
-4. Lauke Aprašas įveskite reikšmę.
-5. Pasirinkite standartinį pavadinimą, kuris bus naudojamas darbui. 
-    * Įvestas pavadinimas bus naudojamas kaip numatytasis naujų pareigų, priskirtų darbui, pavadinimas.  
+1. Eikite į **"Human resources \> Jobs \> Jobs"**.
+2. Pasirinkite **Nauja**.
+3. Lauke **Darbas** įveskite vertę.
+4. Lauke **Aprašas** įveskite reikšmę.
+5. Pasirinkite standartinį pavadinimą, kuris bus naudojamas darbui.
+
+    Šis pavadinimas bus naudojamas kaip numatytoji naujų pareigų, priskirtų darbui, vertė.
+
 6. Sąraše raskite ir pasirinkite norimą įrašą.
-7. Sąraše spustelėkite saitą pasirinktoje eilutėje.
-8. Grupėje Maksimalus pareigų skaičius pasirinkite „Maksimaliai pareigų‟
+7. Šiame sąraše pasirinkite nuorodą pasirinktoje eilutėje.
+8. Grupėje **Maksimalus pareigų skaičius pasirinkite Maksimalus pareigų skaičius** **·**.
 9. Įveskite maksimalų pareigų skaičių. 
-    * Nebus leidžiama priskirti pareigų, viršijančių čia įvestą maksimalią reikšmę.  
-10. Perjunkite dalies Aprašas išplėtimą.
-11. Lauke Pastaba įveskite „Įveskite standartinį darbo aprašą‟.
-    * Aprašas taikomas visoms pareigoms, priskirtoms darbui ir apibrėžtoms čia.  
-12. Perjunkite dalies Darbų klasifikacija išplėtimą.
-13. Pasirinkite užduoties funkciją, kuri bus naudojama teikiant standartines ataskaitas žmogiškuosiuose ištekliuose.
-14. Sąraše raskite ir pasirinkite norimą įrašą.
-15. Sąraše spustelėkite saitą pasirinktoje eilutėje.
-16. Pasirinkite užduoties tipą, kad dar labiau klasifikuotumėte darbus savo organizacijoje. 
-    * Darbų tipus galima naudoti teikiant ataskaitas žmogiškųjų išteklių skyriuje.  
-17. Sąraše raskite ir pasirinkite norimą įrašą.
-18. Sąraše spustelėkite saitą pasirinktoje eilutėje.
-19. Perjunkite dalies Kompensacija išplėtimą.
-20. Pasirinkite kompensacijos lygį.
-    * Kompensacijos lygis apibrėš minimalią ir maksimalią kompensaciją, kurią darbuotojas gali gauti už darbą. Kompensacijų taisyklės nustatys, ar darbuotojų kompensacija gali nepatekti į diapazoną.  
-21. Sąraše raskite ir pasirinkite norimą įrašą.
-22. Sąraše spustelėkite saitą pasirinktoje eilutėje.
-23. Perjunkite dalies Įgūdžiai išplėtimą.
-    * Atkreipkite dėmesį, kad laukai „FastTab‟ Įgūdžiai, Išsilavinimas ir Sertifikatai yra tušti. Informaciją nukopijavus iš darbo šablono, informacija šiuose laukuose bus įvedama vienu veiksmu.   
-24. Spustelėkite Įrašyti.
-25. Spustelėkite Kopijuoti iš.
-26. Spustelėkite Kopijuoti iš šablono.
-27. Lauke Darbo šablonas spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
-28. Sąraše raskite ir pasirinkite norimą įrašą.
-29. Sąraše spustelėkite saitą pasirinktoje eilutėje.
-30. Spustelėkite parinktį Pastaba.
-    * Į pasirinktą užduotį bus nukopijuotos tik tos prekės, kurias pasirenkate.    
-31. Spustelėkite GERAI.
-32. Perjunkite dalies Sertifikatai išplėtimą.
-33. Perjunkite dalies Išsilavinimas išplėtimą.
-34. Spustelėkite Įrašyti.
 
+    Pareigų priskyrimai, viršijantys šį skaičių, nebus leidžiami.
 
+10. **·** Sekcijos Aprašas **lauke Pastaba įveskite** **Standartinį darbo aprašymą**.
+
+    Šis aprašymas taikomas visoms pareigoms, priskirtoms jūsų apibrėžtam darbui.
+
+11. Skyriuje **Užduočių klasifikacija** pasirinkite užduoties funkciją, kuri bus naudojama standartinėse personalo ataskaitose.
+12. Sąraše raskite ir pasirinkite norimą įrašą.
+13. Šiame sąraše pasirinkite nuorodą pasirinktoje eilutėje.
+14. Lauke **Užduoties tipas** pasirinkite užduoties tipą, kad toliau klasifikuotųte organizacijos užduotis.
+
+    Darbų tipus galima naudoti teikiant ataskaitas žmogiškųjų išteklių skyriuje.
+
+15. Sąraše raskite ir pasirinkite norimą įrašą.
+16. Šiame sąraše pasirinkite nuorodą pasirinktoje eilutėje.
+17. Skyriuje **Kompensacija** pasirinkite kompensavimo lygį.
+
+    Kompensavimo lygis apibrėžia minimalią ir maksimalią kompensaciją, kurią darbuotojas gali turėti už darbą. Kompensavimo taisyklės nustatys, ar darbuotojų kompensacija gali būti už intervalo ribų.
+
+18. Sąraše raskite ir pasirinkite norimą įrašą.
+19. Šiame sąraše pasirinkite nuorodą pasirinktoje eilutėje.
+20. Skyriuje **Įgūdžiai** atkreipkite dėmesį, kad **FastTab Įgūdžiai, Švietimas ir Sertifikatai laukai yra** **·** **·** tušti. Nukopijavus informaciją iš darbo šablono, informacija šiuose laukuose bus įvesta vienu veiksmu.
+21. Pasirinkite **Įrašyti**.
+22. Pasirinkite **Kopijuoti iš**.
+23. Pasirinkite **Kopijuoti iš šablono**.
+24. Lauke **Užduoties** šablonas pasirinkite išplečiamąją rodyklę, kad atidarytumėte peržvalgą.
+25. Sąraše raskite ir pasirinkite norimą įrašą.
+26. Šiame sąraše pasirinkite nuorodą pasirinktoje eilutėje.
+27. Pasirinkite **·** parinktį Pastaba.
+
+    Į pasirinktą užduotį bus nukopijuotos tik jūsų pasirinktos prekės.
+
+28. Pasirinkite **Gerai**.
+29. Išplėskite **·** skyrių Sertifikatai.
+30. Išplėskite **·** skyrių Švietimas.
+31. Pasirinkite **Įrašyti**.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

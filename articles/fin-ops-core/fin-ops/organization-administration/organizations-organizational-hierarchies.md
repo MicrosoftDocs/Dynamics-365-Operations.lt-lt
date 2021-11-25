@@ -2,7 +2,7 @@
 title: Organizacijų ir organizacijų hierarchijų apžvalga
 description: Organizacijos hierarchijos nurodo ryšius tarp organizacijų, kurios sudaro jūsų verslą.
 author: sericks007
-ms.date: 07/25/2019
+ms.date: 11/10/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 74aa2736b4cfb11039ea1cee3f62e74cf4928a1b27cea16e7e0e86f66bdddd59
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 6f0388b6e7c22c339d26b82c35f1bbb1ef54cdb5
+ms.sourcegitcommit: ba10ba2cd4fb4267afb5aacae4f6a52aa2456e7e
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6715994"
+ms.lasthandoff: 11/11/2021
+ms.locfileid: "7798351"
 ---
 # <a name="organizations-and-organizational-hierarchies-overview"></a>Organizacijų ir organizacijos hierarchijų apžvalga
 
@@ -64,9 +64,19 @@ Komanda yra organizacija, kurios nariai bendrai prisiima atsakomybę, dalijasi p
 
 Norėdami peržiūrėti įvairius verslo aspektus, nustatykite organizacijos hierarchijas. Pavyzdžiui, galima nustatyti juridinių subjektų hierarchiją, skirtą mokesčių, juridinėms ar privalomosioms ataskaitoms kurti. Nustatykite hierarchiją, pagrįstą valdymo vienetais, kad būtų kuriamos finansinės informacijos, kurios nebūtina pateikti, bet kuri naudojama vidaus kontrolei, ataskaitos. Pavyzdžiui, galima kurti pirkimo hierarchiją, skirtą valdyti pirkimo strategijas, taisykles ir verslo procesus.
 
+> [!NOTE]
+> Po to, kai valdymo vienetas įtrauktas į hierarchiją, valdymo vieneto panaikinti negalima. 
+
 Kiekvienai hierarchijai priskiriama paskirtis. Hierarchijos paskirtis apibrėžia organizacijų, kurias galima įtraukti į hierarchiją, tipus. Paskirtis taip pat apibrėžia taikymo scenarijus, kuriuose hierarchija gali būti naudojama.
 
 Organizacijos hierarchijoje galite bendrai naudoti parametrus, strategijas ir operacijas. Organizacija gali perimti arba nepaisyti jos pirminės organizacijos parametrų. Tačiau bendrai naudojami bendrieji duomenys, pvz., produktai ir adresų knygelės, taikomi visai organizacijai ir jų negalima nepaisyti atskiroms organizacijoms. Organizacijos ir hierarchijos kuriamos tik kruopščiai planuojant. Daugiau informacijos žr. [Organizacijos hierarchijos planavimas](plan-organizational-hierarchy.md).
+
+## <a name="additional-resources"></a>Papildomi ištekliai
+- [Organizacijos hierarchijos planavimas](plan-organizational-hierarchy.md)
+- [Organizacijos hierarchijos kūrimas](tasks/create-organization-hierarchy.md)
+- [Juridinio subjekto kūrimas](tasks/create-legal-entity.md)
+- [Valdymo vieneto kūrimas](tasks/create-operating-unit.md)
+
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,8 +1,8 @@
 ---
 title: Mokėjimo būdai
 description: Nustačius sistemą, reikia sukonfigūruoti kiekvieną pardavėjo priimamą mokėjimo tipą. Šiame straipsnyje aprašyti mokėjimo tipai, kuriuos galite nustatyti, ir aprašytas jų nustatymo procesas.
-author: rubencdelgado
-ms.date: 06/17/2020
+author: BrianShook
+ms.date: 11/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: yabinl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: c174dd136cecedc9b23bdaa778885f75e51c9aa556a9e2709bc7da171faa8617
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 0450dbaa37365705ca59fd2223c9d3866054c12a
+ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6713971"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7779575"
 ---
 # <a name="payment-methods"></a>Mokėjimo būdai
 
@@ -47,5 +47,10 @@ Norėdami nustatyti mokėjimo būdus, turite atlikti toliau nurodytus veiksmus.
 3. Nustatykite parduotuvės mokėjimo būdą. Susiekite mokėjimo būdus su kiekviena parduotuve, o po to įveskite kiekvienos parduotuvės mokėjimo būdo parametrus.
 4. Nustatykite parduotuvių mokėjimo kortelėmis būdus. Nustatykite kiekvieno parduotuvės priimamo mokėjimo kortele būdo kortelę.
 
+## <a name="handle-change-tendering-for-payment-methods"></a>Tvarkyti mokėjimo būdų mokėjimo priemonių pokyčius
+
+Kai kurie mokėjimo būdai nepalaiko tiesioginio tiesioginio mokėjimo priemonių panaudojimo, jei lėšos atiteks klientams atliekant operacijas, skirtas pardavimui. Mokėjimo **priemonėje** keisti galima naudoti tik **·** grynųjų pinigų ir valiutos mokėjimo metodus. 
+
+Jei norite tvarkyti atvejus, kai operacijos metu reikalingas mokėjimo priemonės keitimas, bet mokėjimo būdas jo nepalaiko, galite nurodyti mokėjimo **priemonės** keitimo būdą. Kai parduotuvei nustatote parduotuvės mokėjimo metodus, pasirinkite naudotiį mokėjimo būdą. Tada skyriaus **Keitimas lauke Mokėjimo priemonės keitimas įveskite mokėjimo priemonės keitimo mokėjimo** **·** pasirinktį. Pavyzdžiui, galite įvesti **1, jei norite** nurodyti, kad grynieji pinigai gali būti naudojami kaip mokėjimo priemonės keitimo pasirinktis.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

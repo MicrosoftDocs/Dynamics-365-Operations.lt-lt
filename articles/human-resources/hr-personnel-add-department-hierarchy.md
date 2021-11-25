@@ -1,8 +1,8 @@
 ---
 title: Padalinių kūrimas ir jų įtraukimas į padalinių hierarchiją
-description: Padalinys yra valdymo vienetas, nurodantis organizacijos kategoriją arba funkcinę sritį. Padalinys yra atsakingas už tam tikrą organizacijos sritį, pvz., pardavimą, apskaitą arba personalą. Padalinius galite naudoti norėdami pranešti apie funkcines sritis. Padaliniai gali turėti pelno ir nuostolio atsakomybę.
-author: andreabichsel
-ms.date: 06/20/2017
+description: Padalinys yra valdymo vienetas, nurodantis organizacijos kategoriją arba funkcinę sritį. Padalinys yra atsakingas už tam tikrą organizacijos sritį, pvz., pardavimą, apskaitą arba personalą.
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 63213
 ms.assetid: 5dbc62fc-0184-4c0e-9856-e735fc68799e
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 1fa6d2b18a1b92236a153e453560430cc0d4c1c6e2cde0431c1e1cc68128bd0f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 2caa4f1e7be4be54766921a9e38c97d22b8200c7
+ms.sourcegitcommit: 1cc56643160bd3ad4e344d8926cd298012f3e024
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727022"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "7731617"
 ---
 # <a name="create-departments-and-include-them-in-the-department-hierarchy"></a>Padalinių kūrimas ir jų įtraukimas į padalinių hierarchiją
 
@@ -32,15 +32,15 @@ Padalinyje gali būti išlaidų centrų grupė. Padaliniams galima priskirti par
 
 | Laukas               | Prekės/Paslaugos pavadinimas                                                                                                                                                                                                       |
 |---------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Vardas                | Įveskite padalinio pavadinimą.                                                                                                                                                                                  |
-| Padalinio numeris   | Gali būti automatiškai generuojama numatytoji reikšmė, jei puslapyje **Numeracijos** numeracijos kodas priskirtas nuorodai **Organizacijos numeris**.                                                 |
-| Ieškos pavadinimas         | Įveskite trumpą pavadinimą arba akronimą, kuris gali būti naudojamas padaliniui ieškoti.                                                                                                                                            |
-| Pažyma                | Įveskite visą papildomą informaciją čia.                                                                                                                                                                            |
-| Hierarchijoje        | Pažymėtas žymės langelis nurodo, kad padalinys įtrauktas į padalinių hierarchiją. Informacijos apie tai, kaip padalinį įtraukti į padalinių hierarchiją, rasite šiame straipsnyje toliau. |
-| DUNS numeris         | DUNS yra Duomenų universalioji numeravimo sistema. Tai yra devynių skaitmenų numeris, kurį išdavė „Dun & Bradstreet“.                                                                                                     |
-| Vadybininkas             | Įveskite asmens, kuris valdo padalinį, vardą ir (arba) pavardę.                                                                                                                                                                    |
-| Adresai           | Įtraukite padalinio adreso informaciją. Pavyzdžiui, įtraukite pastato, kuriame yra padalinys, pašto adresą.                                                                          |
-| Kontaktinė informacija | Įtraukite padalinio kontaktinę informaciją. Pavyzdžiui, įtraukite padalinio pagalbos tarnybos telefono numerį.                                                                                           |
+| **Vardas**                | Įveskite padalinio pavadinimą.                                                                                                                                                                                  |
+| **Padalinio numeris**   | Gali būti automatiškai generuojama numatytoji reikšmė, jei puslapyje **Numeracijos** numeracijos kodas priskirtas nuorodai **Organizacijos numeris**.                                                 |
+| **Ieškos pavadinimas**         | Įveskite trumpą pavadinimą arba akronimą, kuris gali būti naudojamas padaliniui ieškoti.                                                                                                                                            |
+| **Pažyma**                | Įveskite visą papildomą informaciją čia.                                                                                                                                                                            |
+| **Hierarchijoje**        | Pažymėtas žymės langelis nurodo, kad padalinys įtrauktas į padalinių hierarchiją. Informacijos apie tai, kaip padalinį įtraukti į padalinių hierarchiją, rasite šiame straipsnyje toliau. |
+| **DUNS numeris**         | DUNS yra Duomenų universalioji numeravimo sistema. Tai yra devynių skaitmenų numeris, kurį išdavė „Dun & Bradstreet“.                                                                                                     |
+| **Vadybininkas**             | Įveskite asmens, kuris valdo padalinį, vardą ir (arba) pavardę.                                                                                                                                                                    |
+| **Adresai**           | Įtraukite padalinio adreso informaciją. Pavyzdžiui, įtraukite pastato, kuriame yra padalinys, pašto adresą.                                                                          |
+| **Kontaktinė informacija** | Įtraukite padalinio kontaktinę informaciją. Pavyzdžiui, įtraukite padalinio pagalbos tarnybos telefono numerį.                                                                                           |
 
 Norėdami padalinį įtraukti į padalinių hierarchiją, atlikite toliau nurodytus veiksmus.
 

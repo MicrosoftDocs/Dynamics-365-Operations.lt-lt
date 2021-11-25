@@ -1,8 +1,8 @@
 ---
 title: Tvarkyti darbuotojo sužeidimų ir ligų informaciją
-description: Rekomenduojama pirmiausia užbaigti užduočių vadovą „Sužeidimų ir ligų informacijos sąranka“, nes čia naudojama kai kuri sąrankos informacija.
-author: andreabichsel
-ms.date: 08/29/2018
+description: Šioje užduotyje aprašoma, kaip sukurti sužalojimo arba ligos atvejį.
+author: twheeloc
+ms.date: 11/03/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -10,15 +10,15 @@ ms.search.form: HRMInjuryIncident, HcmWorkerLookUp, HcmPersonnelManagementWorksp
 audience: Application User
 ms.search.scope: Human Resources
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: dfd92c4dcd52c9d4e0cb9654b3340f49c8348e9658257eb0913a494fd4b3f6cf
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 7c351919616c8ab5cf15d14c6cc79a5097e248fc
+ms.sourcegitcommit: 7e0e2a266d9a9473df72e207554d9bd150e17ce3
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6780751"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7771260"
 ---
 # <a name="maintain-employee-injury-and-illness-information"></a>Tvarkyti darbuotojo sužeidimų ir ligų informaciją
 
@@ -30,68 +30,54 @@ Rekomenduojama pirmiausia užbaigti užduočių vadovą „Sužeidimų ir ligų 
 
 
 
-Šis užduoties įrašas apima pagrindinius sužalojimo arba ligos atvejo kūrimo veiksmus. Be sužalojimo arba ligos informacijos sekimo, taip pat sekama atvejo būsena.  Numatytoji atvejo būsena yra „Atviras“.  Būsenas galima valdyti naudojant puslapio viršuje esantį meniu elementą „Atvejo būsena“.
+Šiame užduoties įraše aprašomi pagrindiniai sužalojimo arba ligos atvejo kūrimo veiksmai. Be išsamios informacijos apie sužalojimą arba ligas, sekama atvejo būsena. Numatyta, kad atvejų būsena yra **Atviras**. Būseną galite valdyti puslapio **viršuje naudodami atvejo būsenos meniu** elementą.
 
-1. Pasirinkite Personalas > Darbuotojai > Sužalojimas ir liga > Sužalojimų arba ligų incidentai.
-2. Spustelėkite Naujas.
-3. Lauke Atvejo aprašas įveskite reikšmę.
-    * Pavyzdys: Riešo sužalojimas  
-4. Lauke Darbuotojas įveskite arba pasirinkite reikšmę.
-    * Pavyzdys: Ahmed Barnett  
-5. Lauke Incidento data ir laikas įveskite datą ir laiką.
-    * Pavyzdys: 2016-01-20 10:00  
-6. Lauke Sužalojimo arba ligos tipas įveskite arba pasirinkite reikšmę.
-    * Pavyzdys: lūžis  
-7. Lauke Kūno dalis įveskite arba pasirinkite reikšmę.
-    * Pavyzdys: riešas  
-8. Lauke Pasekmių tipas įveskite arba pasirinkite reikšmę.
-    * Pavyzdys: terapija  
-9. Lauke Nurodyti data ir laikas įveskite datą ir laiką.
-    * Pateikti data ir laikas turi būti vėlesni, nei incidento data ir laikas.  
-10. Lauke Apie atvejį pranešęs asmuo įveskite arba pasirinkite reikšmę.
-    * Tai gali būti darbuotojas arba kitas incidento liudininkas.  Pavyzdys: Ahmed Barnett  
-11. Išplėskite sekciją Incidentas.
-12. Lauke Kur įvyko incidentas įveskite reikšmę.
-    * Pavyzdys: sandėlis  
-13. Lauke Darbo patalpose pasirinkite Taip.
-    * Jei incidentas įvyko darbo patalpose, pasirinkite taip.  
-14. Lauke Darbo pradžios data ir laikas įveskite datą ir laiką.
-    * Įveskite datą ir laiką, kada paveiktas asmuo pradėjo dirbti prieš įvykusį incidentą.  
-15. Lauke Darbuotojo darbas arba užduotis įveskite reikšmę.
-    * Įveskite darbą arba užduotį, kuriuos darbuotojas atlikinėjo, kai įvyko incidentas.  Pavyzdys: dėžių krovimas  
-16. Lauke Incidento priežastis įveskite reikšmę.
-    * Įveskite incidento priežastį.  Pavyzdys: paslydo ant šlapių grindų  
-17. Lauke Sunkumo lygis įveskite arba pasirinkite reikšmę.
-18. Lauke Atliktinas veiksmas įveskite reikšmę.
-    * Pavyzdys: nedelsiant išvalyti išsiliejusį skystį  
-19. Lauke Numatomos nebuvimo darbe dienos įveskite skaičių.
-    * Įveskite numatomą dienų, kurias asmuo nedirbs, skaičių.  Kai asmuo grįš į darbą, atnaujinkite lauką Nebuvimo darbe dienos įvesdami faktinį nebuvimo darbe dienų skaičių.  
-20. Išplėskite sekciją Sužalojimo arba ligos išlaidos.
-21. Spustelėkite Pridėti.
-22. Lauke Data įveskite datą.
-23. Lauke Išlaidų tipas įveskite arba pasirinkite reikšmę.
-    * Pavyzdys: gydymas. Taip pat galite įvesti sumą ir į išlaidas įtraukti visus patvirtinamuosius dokumentus, pvz., SF arba gydytojo pastabas.  
-24. Spustelėkite Pridėti.
-25. Lauke Data įveskite datą.
-26. Lauke Išlaidų tipas įveskite arba pasirinkite reikšmę.
-    * Pavyzdys: gydytojas  
-27. Išplėskite sekciją Sužalojimo arba ligos gydymas.
-28. Spustelėkite Pridėti.
-29. Lauke Gydymo data įveskite datą ir laiką.
-30. Lauke Gydymo tipas įveskite arba pasirinkite reikšmę.
-    * Pavyzdys: įtvaras  
-31. Pasirinktinai lauko Apsilankymas greitosios pagalbos skyriuje reikšmę nustatykite kaip Taip.
-32. Lauke Komentarai apie gydymą įveskite reikšmę.
-    * Pavyzdys: 2 savaičių įtvaras  
-33. Lauke Gydytojo vardas ir pavardė įveskite reikšmę.
-    * Pavyzdys: dr. Petrauskas  
-34. Lauke Gydymo įstaiga ir vieta įveskite reikšmę.
-    * Pavyzdys: Šopeno g. Pagalba  
-35. Lauke Gydymo informacija įveskite reikšmę.
-    * Pavyzdys: lūžis patvirtintas peršvietus rentgeno spinduliais, dėvėti įtvarą  
-36. Spustelėkite Įrašyti.
-    * Atvejo būseną galima naujinti bet kuriuo metu.  Nustatykite atvejį kaip nebaigtą, jei sužalojimas arba liga yra apdorojama.  Incidentą uždarę galite tik pridėti arba šalinti išlaidas, gydymą arba su incidentu susijusius failus.  Norėdami keisti kitą informaciją, iš naujo atidarykite atvejį.  
+1. Eikite **į personalo darbuotojų \>\> sužalojimo ir ligos \> atvejus**.
+2. Pasirinkite **Nauja**.
+3. Lauke **Atvejo aprašas įveskite** vertę (pvz., **"Wrist"** sužalojimas).
+4. Lauke **Darbuotojas** įveskite arba pasirinkite vertę (pvz., **Ana** Anaman).
+5. Lauke Incidento data ir laikas įveskite datą ir laiką **·** (pvz., 2016 m. sausio 20 d., 10:00 val. AM).
+6. Lauke **Sužalojimo arba ligos** tipas įveskite arba pasirinkite vertę (pvz., **·** Mokėjimo).
+7. Lauke Kūno **dalis įveskite arba pasirinkite vertę** (pvz., **·** Wrist).
+8. Lauke **Rezultato tipas** įveskite arba pasirinkite vertę (pvz., Rezultato **·** tipas).
+9. Lauke **Data ir laikas** pranešta, įveskite datą ir laiką.
 
+    Pranešimo data ir laikas turi būti vėlesni už incidento datą ir laiką.
 
+10. Asmens, **kuris pranešė apie atvejo** lauką, įveskite ar pasirinkite vertę (pvz., **Ana Busman).**
+
+    Nurodytas asmuo gali būti darbuotojas arba kita incidento dalis.
+
+11. Incidento **·** skyriaus lauke **Kur įvyko** incidentas, įveskite vertę (pvz., **·** Sandėlis).
+12. Lauke **Darbo patalpose** pasirinkite Taip, **jei** incidentas įvyko darbo patalpose.
+13. Lauke Darbo pradžios data ir laikas įveskite datą ir laiką, kada paveiktas asmuo pradėjo dirbti **·** prieš įvykdant įvykį.
+14. Darbuotojo užduoties arba užduoties lauke įveskite užduotį ar užduotį, kurią darbuotojas vykdo, kai **·** įvyko incidentas (pvz., dėžių **·** Pakrovimas). 
+15. Lauke **Incidento priežastis įveskite incidento priežastį** (pvz., **kvitai ant** grindų).
+16. Lauke **Sunkumo lygis** įveskite arba pasirinkite reikšmę.
+17. Lauke **Veiksmas, kurios bus** imamasi, įveskite vertę (pvz., **Išvalykite** raginimus).
+18. Lauke **Numatomos tolimos nuo darbo dienos įveskite dienų, kurias numatoma, kad** asmuo nebus darbe, skaičių.
+
+    Po to, kai atskiras grąžins į darbą, atnaujinkite lauką Dienų skaičius iš darbo ir pateikite faktinį dienų, per kurias **·** asmuo buvo darbe, skaičių.
+
+19. Skyriuje **Sužalojimo arba ligos** išlaidos pasirinkite **·** Įtraukti.
+20. Lauke **Data** įveskite datą.
+21. Lauke **Išlaidų tipas įveskite** arba pasirinkite vertę (pvz., **·** Nakvynė).
+
+    Taip pat galite įvesti sumą ir pridėti bet kokius palaikymo dokumentus prie išlaidų (pvz., SF ar eilutėse).
+
+22. Pasirinkite **Įtraukti**.
+23. Lauke **Data** įveskite datą.
+24. Lauke **Išlaidų tipas įveskite** arba pasirinkite vertę (pvz., **Tamsus).**
+25. Skyriuje **Sužalojimo arba ligos gydymas** pasirinkite **·** Įtraukti.
+26. Į **lauką** Gydymo data įveskite datą ir laiką.
+27. Lauke **Gydymo tipas** įveskite arba pasirinkite vertę (pvz., **·** Tarkime).
+28. Pasirinktinai: nustatykite **apsilankymo greitosios pagalbos skyriuje** kaip **·** Taip.
+29. Lauke **Gydymo komentarai įveskite** vertę (pvz., **2 savaičių Metuintą).**
+30. Lauke Gydytojo **vardas įveskite** vertę (pvz., **Dr.** And²).
+31. Lauke Gydymo **priemonė ir vieta įveskite vertę** (pvz., **Elm St. Emergency**).
+32. Į duomenų **apie gydymą** lauką įveskite vertę (pvz., **X-confirms, neįgalus** nusidėvėjimas).
+33. Pasirinkite **Įrašyti**.
+
+Atvejo būseną galima naujinti bet kuriuo metu. Jei sužalojimo arba ligos apdorojimas vyksta, nustatykite būseną **·** Vykdoma. Uždarius incidentą, galima įtraukti arba pašalinti tik su incidentu susijusias išlaidas, gydymą ar pildymus. Norėdami pakeisti kitą informaciją, turite dar kartą atidaryti atvejį.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

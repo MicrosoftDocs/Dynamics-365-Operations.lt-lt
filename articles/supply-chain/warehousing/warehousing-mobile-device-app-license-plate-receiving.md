@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-03-31
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 0df6aee6a5ec1ecc751713c19c659c5471cc4146
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.openlocfilehash: 872a08241f3d0156d0ccf1f89443e3a894656404
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7576045"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7777607"
 ---
 # <a name="license-plate-receiving-via-the-warehouse-management-mobile-app"></a>Numerio lentelės gavimas naudojant sandėlio valdymo mobiliųjų įrenginių programėlę
 
@@ -77,7 +77,7 @@ Kai ši funkcija įjungta, mobiliojo įrenginio meniu elementai, skirti numerio 
 - **Rodyti išsamią suvestinę** – numerio lentelės gavimo metu darbuotojai matys papildomą puslapį, kuriame bus rodoma visa ASN informacija.
 - **Praleisti suvestinę** – darbuotojai nematys visos ASN informacijos. Sandėlio darbuotojai taip pat negalės nustatyti perdavimo kodo arba pridėti išimtis gavimo proceso metu.
 
-Jei norite, kad ši funkcija veiktų jūsų sistemoje, turite įjungti *Kontroliuokite, ar rodyti gaunamą santraukos puslapį mobiliuosiuos įrenginiuose* funkciją [funkcijų valdyme](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Kad ši funkcija būtų pasiekiama jūsų sistemoje, *·* funkcijų valdyme turi būti įjungtas puslapis Valdiklis, ar rodyti gavimo suvestinės puslapį mobiliuosiuose [įrenginiuose](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md). (Kaip tiekimo grandinės valdymo versija 10.0.21, ši funkcija yra įjungta pagal numatytuosius nustatymus.)
 
 ## <a name="prevent-transfer-ordershipped-license-plates-from-being-used-at-warehouses-other-than-the-destination-warehouse"></a>Neleisti perkėlimo užsakyme siunčiamų numerio lentelių naudoti ne paskirties sandėlyje
 

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 2544591773bea7d54b4da4ac25ed3fed3f9e3594c5f791a0975c0349583b695c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 943eee819c08704212ceb5e02921c36e7f1032dc
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6728632"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7777844"
 ---
 # <a name="standard-saved-views-for-supply-chain-management"></a>„Supply Chain Management” standartiniai įrašyti rodiniai
 
@@ -47,15 +47,15 @@ Likusiuose šios temos skyriuose pateikiamos lentelės, kurios aprašo standarti
 
 | Puslapis | Rodinio pavadinimas | Peržiūrėti aprašą | Funkcijos pavadinimas |
 |---|---|---|---|
-| Turimų atsargų sąrašas | Finansai | Šis supaprastintas rodinys leidžia jums sutelkti dėmesį į finansinę informaciją, kol valdote turimų atsargų atsargas. | Įrašyti atsargų valdymo rodiniai |
-| Turimų atsargų sąrašas | Kokybės kontrolė | Šis supaprastintas rodinys leidžia jums sutelkti dėmesį į kokybės vadybą, kol valdote turimų atsargų atsargas. | Įrašyti atsargų valdymo rodiniai |
-| Turimų atsargų sąrašas | Gavimas | Šis supaprastintas rodinys leidžia jums sutelkti dėmesį į gavimo operacijas, kol valdote turimų atsargų atsargas. | Įrašyti atsargų valdymo rodiniai |
-| Turimų atsargų sąrašas | Pristatymo | Šis supaprastintas rodinys leidžia jums sutelkti dėmesį į siuntimo operacijas, kol valdote turimų atsargų atsargas. | Įrašyti atsargų valdymo rodiniai |
-| Operacijos | Supaprastinta | Šis supaprastintas rodinys leidžia peržiūrėti atsargų būseną, nepateikiant finansinės informacijos ir kitų mažiau dažnai naudojamų laukų. | Įrašyti atsargų valdymo rodiniai |
-| Perkėlimo užsakymai | Pristatymo | Šis supaprastintas rodinys leidžia jums sutelkti dėmesį į siuntimo operacijas, kol valdote perkėlimo užsakymus. | Įrašyti atsargų valdymo rodiniai |
-| Perkėlimo užsakymai | Gavimas | Šis supaprastintas rodinys leidžia jums sutelkti dėmesį į gavimo operacijas, kol valdote perkėlimo užsakymus. | Įrašyti atsargų valdymo rodiniai |
-| Perkėlimo užsakymai | Kokybės kontrolė | Šis supaprastintas rodinys leidžia jums sutelkti dėmesį į kokybės kontrolę, kol valdote perkėlimo užsakymus. | Įrašyti atsargų valdymo rodiniai |
-| Perkėlimo užsakymai | Finansai | Šis supaprastintas rodinys leidžia jums sutelkti dėmesį į finansinę informaciją, kol valdote perkėlimo užsakymus. | Įrašyti atsargų valdymo rodiniai |
+| Turimų atsargų sąrašas | Finansai | Šis supaprastintas rodinys leidžia jums sutelkti dėmesį į finansinę informaciją, kol valdote turimų atsargų atsargas. | Įrašyti atsargų valdymo rodiniai (Įjungta pagal numatytuosius nustatymus pradedant nuo versijos 10.0.21.) |
+| Turimų atsargų sąrašas | Kokybės kontrolė | Šis supaprastintas rodinys leidžia jums sutelkti dėmesį į kokybės vadybą, kol valdote turimų atsargų atsargas. | Įrašyti atsargų valdymo rodiniai (Įjungta pagal numatytuosius nustatymus pradedant nuo versijos 10.0.21.) |
+| Turimų atsargų sąrašas | Gavimas | Šis supaprastintas rodinys leidžia jums sutelkti dėmesį į gavimo operacijas, kol valdote turimų atsargų atsargas. | Įrašyti atsargų valdymo rodiniai (Įjungta pagal numatytuosius nustatymus pradedant nuo versijos 10.0.21.) |
+| Turimų atsargų sąrašas | Pristatymas | Šis supaprastintas rodinys leidžia jums sutelkti dėmesį į siuntimo operacijas, kol valdote turimų atsargų atsargas. | Įrašyti atsargų valdymo rodiniai (Įjungta pagal numatytuosius nustatymus pradedant nuo versijos 10.0.21.) |
+| Operacijos | Supaprastinta | Šis supaprastintas rodinys leidžia peržiūrėti atsargų būseną, nepateikiant finansinės informacijos ir kitų mažiau dažnai naudojamų laukų. | Įrašyti atsargų valdymo rodiniai (Įjungta pagal numatytuosius nustatymus pradedant nuo versijos 10.0.21.) |
+| Perkėlimo užsakymai | Pristatymas | Šis supaprastintas rodinys leidžia jums sutelkti dėmesį į siuntimo operacijas, kol valdote perkėlimo užsakymus. | Įrašyti atsargų valdymo rodiniai (Įjungta pagal numatytuosius nustatymus pradedant nuo versijos 10.0.21.) |
+| Perkėlimo užsakymai | Gavimas | Šis supaprastintas rodinys leidžia jums sutelkti dėmesį į gavimo operacijas, kol valdote perkėlimo užsakymus. | Įrašyti atsargų valdymo rodiniai (Įjungta pagal numatytuosius nustatymus pradedant nuo versijos 10.0.21.) |
+| Perkėlimo užsakymai | Kokybės kontrolė | Šis supaprastintas rodinys leidžia jums sutelkti dėmesį į kokybės kontrolę, kol valdote perkėlimo užsakymus. | Įrašyti atsargų valdymo rodiniai (Įjungta pagal numatytuosius nustatymus pradedant nuo versijos 10.0.21.) |
+| Perkėlimo užsakymai | Finansai | Šis supaprastintas rodinys leidžia jums sutelkti dėmesį į finansinę informaciją, kol valdote perkėlimo užsakymus. | Įrašyti atsargų valdymo rodiniai (Įjungta pagal numatytuosius nustatymus pradedant nuo versijos 10.0.21.) |
 
 ## <a name="saved-views-for-the-master-planning-module"></a>Įrašyti pagrindinio planavimo modulio rodiniai
 
@@ -83,11 +83,11 @@ Likusiuose šios temos skyriuose pateikiamos lentelės, kurios aprašo standarti
 
 | Puslapis | Rodinio pavadinimas | Peržiūrėti aprašą | Funkcijos pavadinimas |
 |---|---|---|---|
-| Išleistų produktų sąrašas | Produkto kūrimas | Supaprastintas puslapio rodinys apima tik kuriant produktus dažniausiai naudojamus laukus. | Įrašyti išleistų produktų rodiniai |
-| Patvirtinto produkto informacija | Produkto kūrimas | Supaprastintas puslapio rodinys apima tik kuriant produktus dažniausiai naudojamus laukus. | Įrašyti išleistų produktų rodiniai |
-| Patvirtinto produkto informacija | Logistinės informacijos valdymas | Supaprastintas puslapio rodinys apima tik tvarkant produktų logistikos informaciją dažniausiai naudojamus laukus. | Įrašyti išleistų produktų rodiniai |
-| Patvirtinto produkto informacija | Pirkimo informacijos valdymas | Supaprastintas puslapio rodinys apima tik tvarkant produktų pirkimo informaciją dažniausiai naudojamus laukus. | Įrašyti išleistų produktų rodiniai |
-| Patvirtinto produkto informacija | Pardavimo informacijos valdymas | Supaprastintas puslapio rodinys apima tik tvarkant su pardavimu susijusią informaciją dažniausiai naudojamus laukus. | Įrašyti išleistų produktų rodiniai |
+| Išleistų produktų sąrašas | Produkto kūrimas | Supaprastintas puslapio rodinys apima tik kuriant produktus dažniausiai naudojamus laukus. | Įrašyti išleistų produktų rodiniai (įjungta pagal numatytuosius nustatymus pradedant nuo versijos 10.0.21.) |
+| Patvirtinto produkto informacija | Produkto kūrimas | Supaprastintas puslapio rodinys apima tik kuriant produktus dažniausiai naudojamus laukus. | Įrašyti išleistų produktų rodiniai (įjungta pagal numatytuosius nustatymus pradedant nuo versijos 10.0.21.) |
+| Patvirtinto produkto informacija | Logistinės informacijos valdymas | Supaprastintas puslapio rodinys apima tik tvarkant produktų logistikos informaciją dažniausiai naudojamus laukus. | Įrašyti išleistų produktų rodiniai (įjungta pagal numatytuosius nustatymus pradedant nuo versijos 10.0.21.) |
+| Patvirtinto produkto informacija | Pirkimo informacijos valdymas | Supaprastintas puslapio rodinys apima tik tvarkant produktų pirkimo informaciją dažniausiai naudojamus laukus. | Įrašyti išleistų produktų rodiniai (įjungta pagal numatytuosius nustatymus pradedant nuo versijos 10.0.21.) |
+| Patvirtinto produkto informacija | Pardavimo informacijos valdymas | Supaprastintas puslapio rodinys apima tik tvarkant su pardavimu susijusią informaciją dažniausiai naudojamus laukus. | Įrašyti išleistų produktų rodiniai (įjungta pagal numatytuosius nustatymus pradedant nuo versijos 10.0.21.) |
 
 ## <a name="saved-views-for-the-production-control-module"></a>Gamybos kontrolės modulio įrašyti rodiniai
 
@@ -95,10 +95,10 @@ Likusiuose šios temos skyriuose pateikiamos lentelės, kurios aprašo standarti
 
 | Puslapis | Rodinio pavadinimas | Peržiūrėti aprašą | Funkcijos pavadinimas |
 |---|---|---|---|
-| Gamybos užsakymo BOM puslapis | Supaprastinta | Šiame supaprastintame rodinyje pateikiami tik dažniausiai naudojamus laukus. Tokiu būdu ji pateikia paprastesnę peržiūrą ir supaprastintą darbo procesą. | Gamybos kontrolės įrašyti rodiniai |
-| Informacijos apie gamybos užsakymą puslapis | Supaprastinta | Šiame supaprastintame rodinyje pateikiami tik dažniausiai naudojamus laukus. Tokiu būdu ji pateikia paprastesnę peržiūrą ir supaprastintą darbo procesą. | Gamybos kontrolės įrašyti rodiniai |
-| Gamybos užsakymo atsiėmimo sąrašo puslapis | Supaprastinta | Šiame supaprastintame rodinyje pateikiami tik dažniausiai naudojamus laukus. Tokiu būdu ji pateikia paprastesnę peržiūrą ir supaprastintą darbo procesą. | Gamybos kontrolės įrašyti rodiniai |
-| Gamybos užsakymų sąrašo puslapis | Supaprastinta | Šiame supaprastintame rodinyje pateikiami tik dažniausiai naudojamus laukus. Tokiu būdu ji pateikia paprastesnę peržiūrą ir supaprastintą darbo procesą. | Gamybos kontrolės įrašyti rodiniai |
+| Gamybos užsakymo BOM puslapis | Supaprastinta | Šiame supaprastintame rodinyje pateikiami tik dažniausiai naudojamus laukus. Tokiu būdu ji pateikia paprastesnę peržiūrą ir supaprastintą darbo procesą. | Įrašyti gamybos kontrolės rodiniai (įjungta pagal numatytuosius nustatymus, pradedant nuo versijos 10.0.21.) |
+| Informacijos apie gamybos užsakymą puslapis | Supaprastinta | Šiame supaprastintame rodinyje pateikiami tik dažniausiai naudojamus laukus. Tokiu būdu ji pateikia paprastesnę peržiūrą ir supaprastintą darbo procesą. | Įrašyti gamybos kontrolės rodiniai (įjungta pagal numatytuosius nustatymus, pradedant nuo versijos 10.0.21.) |
+| Gamybos užsakymo atsiėmimo sąrašo puslapis | Supaprastinta | Šiame supaprastintame rodinyje pateikiami tik dažniausiai naudojamus laukus. Tokiu būdu ji pateikia paprastesnę peržiūrą ir supaprastintą darbo procesą. | Įrašyti gamybos kontrolės rodiniai (įjungta pagal numatytuosius nustatymus, pradedant nuo versijos 10.0.21.) |
+| Gamybos užsakymų sąrašo puslapis | Supaprastinta | Šiame supaprastintame rodinyje pateikiami tik dažniausiai naudojamus laukus. Tokiu būdu ji pateikia paprastesnę peržiūrą ir supaprastintą darbo procesą. | Įrašyti gamybos kontrolės rodiniai (įjungta pagal numatytuosius nustatymus, pradedant nuo versijos 10.0.21.) |
 
 ## <a name="saved-views-for-the-sales-and-marketing-module"></a>Pardavimų ir rinkodaros modulio įrašyti rodiniai
 
