@@ -333,9 +333,9 @@ Techninis palaikymas prieinamas rinkoje, „Finance and Operations“, kurioje p
 | Neribotas pertraukų / pataisų incidento pateikimas | Taip | Taip | Taip |
 | 24/7 prieiga per LCS | Taip | Taip | Taip |
 | Incidento atsakymo laikas | Mažiau nei viena valanda | Mažiau nei viena valanda | Kita darbo diena |
-| Darbo valandos | Telkiniai įgyjami pagal sutartį. | nr. | nr. |
-| Paskirto palaikymo sąskaitos vadovas | Taip | nr. | nr. |
-| Paskirto palaikymo inžinierius | Dirbama pagal atskirą sutartį | nr. | nr. |
+| Darbo valandos | Telkiniai įgyjami pagal sutartį. | Ne | Ne |
+| Paskirto palaikymo sąskaitos vadovas | Taip | Ne | Ne |
+| Paskirto palaikymo inžinierius | Dirbama pagal atskirą sutartį | Ne | Ne |
 
 Daugiau informacijos rasite [Palaikymo apžvalga](/power-platform/admin/support-overview).
 

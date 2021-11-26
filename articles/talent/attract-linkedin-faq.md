@@ -1,6 +1,6 @@
 ---
 title: DUK apie „LinkedIn‟ integravimą
-description: Ši tema atsako į klausimus, kurie gali kilti dėl integravimo „LinkedIn” ir „Microsoft Dynamics 365 Talent - Attract” integravimo.
+description: Ši tema atsako į klausimus, kurie gali kilti dėl integravimo „LinkedIn” ir „Microsoft Microsoft Dynamics 365 Talent- Attract” integravimo.
 author: hasrivas
 manager: AnnBe
 ms.date: 07/08/2019
@@ -117,6 +117,3 @@ Toliau nurodomoje lentelėje aprašomos įvairios darbo skelbimų registravimo �
 [Kandidatų ieška naudojant LinkedIn Recruiter programoje „Microsoft Dynamics 365 Talent - Attract“](./attract-linkedin-recruiter.md)
 
 [Integravimo trikčių diagnostika naudojant „LinkedIn” ir „Microsoft Dynamics 365 Talent - Attract“](./attract-troubleshoot-linkedin.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

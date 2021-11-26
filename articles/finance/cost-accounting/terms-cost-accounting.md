@@ -18,7 +18,7 @@ ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: f61ae7a6657eaad3510833c17f342b7266be247aec2a9bfe80b97172f662ae0a
 ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.translationtype: MT
 ms.contentlocale: lt-LT
 ms.lasthandoff: 08/05/2021
 ms.locfileid: "6774382"
@@ -128,7 +128,7 @@ Dauguma šaltinio sistemų gali pateikti duomenų, sutampančių su vienu ar kel
 |---|---|---|---|
 | Savikainos elemento dimensijos nariai  |  Taip | Taip  | Taip  |
 |  Savikainos objekto dimensijos nariai |  Taip | Taip  | Taip  |
-|  Statistinės dimensijos nariai | Taip  | Nr.  | Nr.  |
+|  Statistinės dimensijos nariai | Taip  | Ne  | Ne  |
 |  DK | Taip  | Taip  | Taip  |
 |  Biudžeto įrašai  | Taip  | Taip  | Taip  |
 |  Statistinės priemonės | Taip  | Taip  | Taip  |

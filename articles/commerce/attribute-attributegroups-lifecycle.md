@@ -18,7 +18,7 @@ ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application pdate 5, AX 8.0
 ms.openlocfilehash: b3960f0877bdf68dd2f511ad283961b2a92db6a60078e84be55f071a00eae927
 ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.translationtype: MT
 ms.contentlocale: lt-LT
 ms.lasthandoff: 08/05/2021
 ms.locfileid: "6727659"
@@ -43,7 +43,7 @@ Pavyzdžiui, įprastas televizijos produktas gali turėti tolesnius atributus.
 |            | Sudėtinės įvestys         | 0–10                        | 2             |
 |            | Komponento įvestys         | 0–10                        | 1             |
 | LCD        | 3D parengta                 | Taip arba Ne                   | Taip           |
-|            | 3D įgalinta               | Taip arba Ne                   | Nr.            |
+|            | 3D įgalinta               | Taip arba Ne                   | Ne            |
 | Plazminis     | Veiklos šablonas nuo      | 32–110 laipsnių              | 32            |
 |            | Veiklos šablonas iki        | 32–110 laipsnių              | 100           |
 | Projekcinis | Projekcijos vamzdelio garantija | 6, 12 arba 18 mėnesiai (-ių)         | 12            |

@@ -18,7 +18,7 @@ ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.openlocfilehash: c54f5eaec1ae453ba9e55ef54d47c8591276ec89
 ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.translationtype: MT
 ms.contentlocale: lt-LT
 ms.lasthandoff: 09/29/2021
 ms.locfileid: "7568380"
@@ -88,21 +88,21 @@ Tolesnėje lentelėje pateikiama įvairių produkto eilučių derinių apžvalga
 | Sistemos būsena <br>(„Field Service”) | Eilutės būsena <br>(„Field Service”) | Paskirstytas <br>(„Field Service”) |Sinchronizuojama reikšmė <br>(„Supply Chain Management“) |
 |--------------------|-------------|-----------|---------------------------------|
 | Atidarytas – suplanuotas   | Įvertinta   | Taip       | Įvertinta                       |
-| Atidarytas – suplanuotas   | Įvertinta   | Nr.        | Naudota                            |
+| Atidarytas – suplanuotas   | Įvertinta   | Ne        | Naudota                            |
 | Atidarytas – suplanuotas   | Naudota        | Taip       | Naudota                            |
-| Atidarytas – suplanuotas   | Naudota        | Nr.        | Naudota                            |
+| Atidarytas – suplanuotas   | Naudota        | Ne        | Naudota                            |
 | Atidarytas – vykdomas | Įvertinta   | Taip       | Įvertinta                       |
-| Atidarytas – vykdomas | Įvertinta   | Nr.        | Naudota                            |
+| Atidarytas – vykdomas | Įvertinta   | Ne        | Naudota                            |
 | Atidarytas – vykdomas | Naudota        | Taip       | Naudota                            |
-| Atidarytas – vykdomas | Naudota        | Nr.        | Naudota                            |
+| Atidarytas – vykdomas | Naudota        | Ne        | Naudota                            |
 | Atidarytas – baigtas   | Įvertinta   | Taip       | Įvertinta                       |
-| Atidarytas – baigtas   | Įvertinta   | Nr.        | Naudota                            |
+| Atidarytas – baigtas   | Įvertinta   | Ne        | Naudota                            |
 | Atidarytas – baigtas   | Naudota        | Taip       | Naudota                            |
-| Atidarytas – baigtas   | Naudota        | Nr.        | Naudota                            |
+| Atidarytas – baigtas   | Naudota        | Ne        | Naudota                            |
 | Uždarytas – užregistruotas    | Įvertinta   | Taip       | Naudota                            |
-| Uždarytas – užregistruotas    | Įvertinta   | Nr.        | Naudota                            |
+| Uždarytas – užregistruotas    | Įvertinta   | Ne        | Naudota                            |
 | Uždarytas – užregistruotas    | Naudota        | Taip       | Naudota                            |
-| Uždarytas – užregistruotas    | Naudota        | Nr.        | Naudota                            |
+| Uždarytas – užregistruotas    | Naudota        | Ne        | Naudota                            |
 
 Tolesnėje lentelėje pateikiama įvairių paslaugos eilučių derinių apžvalga.
 

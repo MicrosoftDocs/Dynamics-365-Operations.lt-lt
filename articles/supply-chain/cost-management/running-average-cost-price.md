@@ -18,7 +18,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: ab90c8e57d831fbbfe0b4a6f6814ca0ab5182a7ccc0436ca5a11526b72f9da30
 ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.translationtype: MT
 ms.contentlocale: lt-LT
 ms.lasthandoff: 08/05/2021
 ms.locfileid: "6781590"
@@ -38,9 +38,9 @@ Sistema įvertina šią prekės naudojamą savikainą naudodama toliau pateiktą
 
 | Sąlyga                                               | Sistema naudoja įvertintą einamąją vidutinę savikainą. | Sistema naudoja savikainą, nustatytą prekės pagrindiniame įraše. |
 |---------------------------------------------------------|----------------------------------------------------------|-------------------------------------------------------------------|
-| Ir skaitiklis\*, ir vardiklis\*\* yra teigiami.  | Taip                                                      | Nr.                                                                |
-| Skaitiklis\*, vardiklis\*\* arba abu yra neigiami. | Nr.                                                       | Taip                                                               |
-| Vardiklis\*\* yra 0 (nulis).                        | Nr.                                                       | Taip                                                               |
+| Ir skaitiklis\*, ir vardiklis\*\* yra teigiami.  | Taip                                                      | Ne                                                                |
+| Skaitiklis\*, vardiklis\*\* arba abu yra neigiami. | Ne                                                       | Taip                                                               |
+| Vardiklis\*\* yra 0 (nulis).                        | Ne                                                       | Taip                                                               |
 
 \* Skaitiklis = (Faktinė suma + Finansinė suma) \*\* Vardiklis = (Faktinis kiekis + Finansinis kiekis) 
 

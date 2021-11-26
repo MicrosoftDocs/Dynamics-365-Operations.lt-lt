@@ -201,7 +201,7 @@ Baigę RCS sąranką turėsite publikuotą mokesčių funkcijos versiją. Atliki
 3. Skirtuke **Skaičiavimas** nurodykite numatomą juridinio subjekto apvalinimo taisyklę. Daugiau informacijos apie apvalinimo logiką ieškokite srityje [Mokesčių skaičiavimo apvalinimo taisyklės](https://go.microsoft.com/fwlink/?linkid=2166988).
 4. Skirtuke **Klaidų tvarkymas** nurodykite numatomą juridinio subjekto klaidų tvarkymo metodą. Galimos tolesnės trys parinktys.
 
-    - nr.
+    - Ne
     - Perspėjimas
     - Klaida
 

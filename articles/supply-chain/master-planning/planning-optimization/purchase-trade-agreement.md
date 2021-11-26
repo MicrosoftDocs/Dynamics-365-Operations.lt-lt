@@ -18,7 +18,7 @@ ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: AX 10.0.12
 ms.openlocfilehash: 10b4f9f45899b808bd0baa73974a173cf120aa6c3fd33e10d0d79a59614f1f70
 ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.translationtype: MT
 ms.contentlocale: lt-LT
 ms.lasthandoff: 08/05/2021
 ms.locfileid: "6757763"
@@ -75,14 +75,14 @@ Tolesnėje lentelėje pateikiami pavyzdžiai, kurie rodo, kaip įvairūs išleis
 
 | Išleistas produktas: tiekėjas | Numatytieji užsakymo parametrai: gamybos laikas | Prekės padengimas: nepaisyti tiekėjo | Prekės padengimas: nepaisyti gamybos laiko | Prekybos sutartis: tiekėjas | Prekybos sutartis: gamybos laikas | Prekybos sutartis: nepaisyti gamybos laiko | Gautas tiekėjas | Gautas gamybos laikas |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| ***„US001”** _ | _*_„1”_*_ | nr. | nr. | US003 | 3 | nr. | _ *„US001”** | **1** |
-| US001 | 1 | ***Taip: US002** _ | _*_Taip: 2_*_ | US003 | 3 | nr. | _ *„US002”** | **2** |
-| *(tuščia)* | 1 | nr. | nr. | ***„US003”** _ | _*_„3”_*_ | nr. | _ *„US003”** | **3** |
-| *(tuščia)* | ***„1”** _ | nr. | nr. | _*_„US003”_*_ | 3 | Taip | _ *„US003”** | **1** |
-| *(tuščia)* | ***„1”** _ | _*_Taip: US002_*_ | nr. | US003 | 3 | nr. | _ *„US002”** | **1** |
-| *(tuščia)* | ***„1”** _ | _*_Taip: US002_*_ | nr. | US003 | 3 | nr. | _ *„US002”** | **1** |
-| *(tuščia)* | 1 | nr. | Taip: 2 | ***„US003”** _ | _*_„3”_*_ | nr. | _ *„US003”** | **3** |
-| *(tuščia)* | 1 | nr. | ***Taip: 2** _ | _*_„US003”_*_ | 3 | Taip | _ *„US003”** | **2** |
+| ***„US001”** _ | _*_„1”_*_ | Ne | Ne | US003 | 3 | Ne | _ *„US001”** | **1** |
+| US001 | 1 | ***Taip: US002** _ | _*_Taip: 2_*_ | US003 | 3 | Ne | _ *„US002”** | **2** |
+| *(tuščia)* | 1 | Ne | Ne | ***„US003”** _ | _*_„3”_*_ | Ne | _ *„US003”** | **3** |
+| *(tuščia)* | ***„1”** _ | Ne | Ne | _*_„US003”_*_ | 3 | Taip | _ *„US003”** | **1** |
+| *(tuščia)* | ***„1”** _ | _*_Taip: US002_*_ | Ne | US003 | 3 | Ne | _ *„US002”** | **1** |
+| *(tuščia)* | ***„1”** _ | _*_Taip: US002_*_ | Ne | US003 | 3 | Ne | _ *„US002”** | **1** |
+| *(tuščia)* | 1 | Ne | Taip: 2 | ***„US003”** _ | _*_„3”_*_ | Ne | _ *„US003”** | **3** |
+| *(tuščia)* | 1 | Ne | ***Taip: 2** _ | _*_„US003”_*_ | 3 | Taip | _ *„US003”** | **2** |
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 

@@ -18,7 +18,7 @@ ms.search.validFrom: 2020-06-18
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 28984730e5660414eec1ba087eb5de1eba4cbbb8
 ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.translationtype: MT
 ms.contentlocale: lt-LT
 ms.lasthandoff: 09/29/2021
 ms.locfileid: "7571934"
@@ -344,7 +344,7 @@ Gamybos aplinkoje, jei nustatėte lauko **Įvykio tipas** reikšmę *Gavimo doku
 </tr>
 <tr>
 <td>Fiksuotas kiekis: 1</td>
-<td>nr.</td>
+<td>Ne</td>
 <td>
 <p>Paketo numeris: ne</p>
 <p>Serijos numeris: ne</p>
@@ -399,7 +399,7 @@ Gamybos aplinkoje, jei nustatėte lauko **Įvykio tipas** reikšmę *Gavimo doku
 </tr>
 <tr>
 <td>Fiksuotas kiekis: 2</td>
-<td>nr.</td>
+<td>Ne</td>
 <td>
 <p>Paketo numeris: taip</p>
 <p>Serijos numeris: taip</p>

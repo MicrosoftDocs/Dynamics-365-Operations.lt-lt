@@ -15,7 +15,7 @@ ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
 ms.openlocfilehash: b8c9f9cbc63141a979cfc55ec9ffa2aff15007d69691f1a175e5e79ed5f645a6
 ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.translationtype: MT
 ms.contentlocale: lt-LT
 ms.lasthandoff: 08/05/2021
 ms.locfileid: "6764961"
@@ -34,7 +34,7 @@ Numeravimas suteikia parinktį nustatytą taip/ne ypatybes, kurios taip pat leid
 | --- | --- | --- |
 | 200000000 | Tuščias | Nebuvo parinkta jokios vertės. |
 | 200000001 | Taip | Taip. |
-| 200000002 | nr. | Nr. |
+| 200000002 | Ne | Ne. |
 
 ## <a name="see-also"></a>Taip pat žiūrėkite
 

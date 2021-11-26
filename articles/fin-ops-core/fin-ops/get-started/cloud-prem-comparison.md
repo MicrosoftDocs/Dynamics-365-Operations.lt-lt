@@ -16,7 +16,7 @@ ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
 ms.openlocfilehash: 68082ad0ae264b76a852d8d12412af8c4ad917703441c41e67743d1b499a8d73
 ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.translationtype: MT
 ms.contentlocale: lt-LT
 ms.lasthandoff: 08/05/2021
 ms.locfileid: "6736227"
@@ -57,7 +57,7 @@ Tolesnėse lentelėse išvardytos programų sritys. Nurodomas visos funkcijos pa
 |                                      | ER. Integravimas su „Regulatory Configuration Services“ (RCS)                              | Taip       | Ne              |
 |                                      | ER. Kaip ER konfigūracijų, pasiekiamų ER saugyklose, saugykla naudojama vietinė failų sistema | Ne        | Taip             |
 |                                      | Integravimas su PowerBI.com                                                              | Taip       | Ne              |
-|                                      | Integravimas su „Power BI Desktop”                                                          | Ne        | Taip             |
+|                                      | Integravimas su „PowerBI Desktop”                                                          | Ne        | Taip             |
 |                                      | Analizės darbo sritys                                                                     | Taip       | Ne              |
 |                                      | Sumanaus verslo procesas: rekomendacijos                                             | Taip       | Ne              |
 |                                      | „Power BI“ ataskaitų kūrimas su „OData“ naudojant „Power BI desktop“ arba „Excel PowerQuery“ įrankius    | Taip       | Ne              |
@@ -106,7 +106,7 @@ Tolesnėse lentelėse išvardytos programų sritys. Nurodomas visos funkcijos pa
 |                                      | ER. Integravimas su „Regulatory Configuration Services“ (RCS)                              | Taip       | Ne              |
 |                                      | ER. Kaip ER konfigūracijų, pasiekiamų ER saugyklose, saugykla naudojama vietinė failų sistema | Ne        | Taip             |
 |                                      | Integravimas su PowerBI.com                                                              | Taip       | Ne              |
-|                                      | Integravimas su „Power BI Desktop”                                                          | Ne        | Taip             |
+|                                      | Integravimas su „PowerBI Desktop”                                                          | Ne        | Taip             |
 |                                      | Analizės darbo sritys                                                                     | Taip       | Ne              |
 |                                      | Sumanaus verslo procesas: rekomendacijos                                             | Taip       | Ne              |
 |                                      | „Power BI“ ataskaitų kūrimas su „OData“ naudojant „Power BI desktop“ arba „Excel PowerQuery“ įrankius    | Taip       | Ne              |

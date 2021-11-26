@@ -14,7 +14,7 @@ ms.search.validFrom: 2020-04-30
 ms.dyn365.ops.version: Platform update 33
 ms.openlocfilehash: b582b8b95fcf2ad45aa1bb49eb5594d30874e0f4
 ms.sourcegitcommit: 12e26ef25c492e5032260733b50cd642cbd6164d
-ms.translationtype: HT
+ms.translationtype: MT
 ms.contentlocale: lt-LT
 ms.lasthandoff: 09/28/2021
 ms.locfileid: "7559564"
@@ -101,7 +101,7 @@ EKA plėtinio kūrimas naudojant ModernPos.sln, CloudPOs.sln, EKA. Extension.csp
 |  &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo/pašalinimo priežastis** | Pradėdami šiame leidime, **„Commerce“ grafiko kūrimo parametrai** formoje „Dynamics 365“ būstinėje, laukelis **Visas duomenų rinkinio kūrimo intervalas dienomis** nebegalios. Taip pat nuo šio leidimo laukelis bus vizualiai pašalintas taip, kad vertės keisti nepavyks. Vertė liks **0**. |
-| **Pakeitė kita funkcija?**   | nr. |
+| **Pakeitė kita funkcija?**   | Ne |
 | **Paveiktos produkto sritys**         | „Dynamics 365 Commerce” |
 | **Visuotinio diegimo parinktis**              | Visos|
 | **Būsena**                         | Nebenaudojama. Nenaudokite šio laukelio ir nekeiskite vertės jame.|

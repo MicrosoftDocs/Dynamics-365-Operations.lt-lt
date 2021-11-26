@@ -15,7 +15,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 6c8bea5d5ec8069e78f3ed5e7d1d6a74ee28ce2dea1891ad71e410d4c309a79c
 ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.translationtype: MT
 ms.contentlocale: lt-LT
 ms.lasthandoff: 08/05/2021
 ms.locfileid: "6764214"
@@ -119,7 +119,7 @@ Dalinis Storno gali sukelti problemą pradinėje spausdinimo formoje. Jei esama 
 <tbody>
 <tr class="row-2">
 <td class="column-1"> Debetas</td>
-<td class="column-2">Nr.</td>
+<td class="column-2">Ne</td>
 <td class="column-3">&gt;0</td>
 <td class="column-4" align="right">Suma</td>
 <td class="column-5" align="right">Suma</td>
@@ -129,7 +129,7 @@ Dalinis Storno gali sukelti problemą pradinėje spausdinimo formoje. Jei esama 
 </tr>
 <tr class="row-3">
 <td class="column-1"> Kreditas</td>
-<td class="column-2">Nr.</td>
+<td class="column-2">Ne</td>
 <td class="column-3">&lt;0</td>
 <td class="column-4" align="right">–Suma</td>
 <td class="column-5" align="right">Suma</td>
