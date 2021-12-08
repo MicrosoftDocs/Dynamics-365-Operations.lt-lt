@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 15b0ad9faf2bcac25dec01a7ab44f804ad2345cd
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.openlocfilehash: c3947c8a51facfb02012cc8e9a3ffd5887073bd9
+ms.sourcegitcommit: 8c17717b800c2649af573851ab640368af299981
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567228"
+ms.lasthandoff: 11/23/2021
+ms.locfileid: "7860618"
 ---
 # <a name="define-coverage-rules-for-items"></a>Prekių padengimo taisyklių apibrėžimas
 
@@ -113,6 +113,7 @@ Sukurkite prekės padengimo taisykles, atlikdami šiuos veiksmus:
 1. Lauke **Pirkimo laikas** įveskite 5.
 1. Pasirinkite **Įrašyti**.
 
-
+> [!NOTE]
+> Pagamintų prekių gamybos **laikas** naudojamas, jei nėra prekės maršruto. Jei su preke susietas aktyvus maršrutas, bendrasis planavimas suplanuos užsakymą ir apskaičiuos jo datas pagal maršruto laiką ir išteklių pajėgumą (jei taikoma).
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

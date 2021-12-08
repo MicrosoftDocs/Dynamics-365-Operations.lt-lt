@@ -74,10 +74,6 @@
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/commerce/toc.json
                 - name: „Commerce Data Exchange“ diegimo nurodymai
                   href: dev-itpro/implementation-considerations-cdx.md
-                - name: '„Finance and Operations“ programos, valdomos „21Vianet“ Kinijoje'
-                  href: ../fin-ops-core/dev-itpro/deployment/china-local-deployment.md?toc=/dynamics365/commerce/toc.json
-                - name: „Finance and Operations“ programos Prancūzijoje
-                  href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/commerce/toc.json
             - name: Palaikymo gavimas
               href: ../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md?toc=/dynamics365/commerce/toc.json
             - name: Plėtojimas ir N-1 palaikymas
@@ -1272,8 +1268,10 @@
               href: store-performance-information.md
             - name: 'Naujumo, dažnumo ir piniginės (RFM) analizės nustatymas'
               href: set-up-rfm-analysis.md
-            - name: „Microsoft Clarity“ nustatymas „Dynamics 36 Commerce“
+            - name: „Microsoft Clarity“ nustatymas „Dynamics 365 Commerce“
               href: set-up-clarity.md
+            - name: „Commerce“ analizė (peržiūros versija)
+              href: commerce-analytics.md
         - name: Globalizacija
           items:
             - name: „Commerce“ kanalo fiskalinės integracijos peržiūra
@@ -1412,6 +1410,10 @@
                   href: localizations/rus-fpi-sample.md
                 - name: Klientų informacijos valdymas (Rusija)
                   href: localizations/rus-customer-information.md
+            - name: Saudo Arabija
+              items:
+                - name: QR kodų generavimas ir spausdinimas kvituose (Saudo Arabija)
+                  href: localizations/emea-sau-qr-code.md
             - name: Švedija
               items:
                 - name: Kasos aparato funkcijos
@@ -2536,6 +2538,8 @@
                       href: e-commerce-extensibility/sdk-faq.md
                     - name: Geriausios „Dynamics 365 Commerce“ kūrimo praktikos derinimas
                       href: e-commerce-extensibility/debugging-best-practices.md
+                    - name: El. prekybos svetainių puslapių tikrinimas dėl atminties nutekėjimų
+                      href: e-commerce-extensibility/memory-leak-detection.md
             - name: Retail SDK
               items:
                 - name: Perkelti į „Commerce SDK“
@@ -2590,7 +2594,7 @@
                   href: dev-itpro/pos-handler.md
                 - name: EKA plėtinių paketų informacijos peržiūra
                   href: dev-itpro/view-pos-extension-package-details.md
-                - name: Testavimo įrašymo priemonė ir „Cloud POS“ „Regression Suite Automation Tool“
+                - name: Testavimo įrašymo priemonė ir „Cloud POS“ skirtas „Regression Suite Automation Tool“
                   href: dev-itpro/pos-rsat.md
                 - name: Pasirinktinių laukų įtraukimas į EKA bendrųjų sumų sritį
                   href: dev-itpro/custom-field-pos-totals.md

@@ -10,17 +10,18 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 954a3bcdf6ad163afd2596227ce2c8548fe37027
-ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
+ms.openlocfilehash: 268ee58583306bdd99e5d5cd5bb436a328a5648b
+ms.sourcegitcommit: 8c17717b800c2649af573851ab640368af299981
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/25/2021
-ms.locfileid: "7678500"
+ms.lasthandoff: 11/23/2021
+ms.locfileid: "7860488"
 ---
 # <a name="global-inventory-accounting-home-page"></a>Visuotinės atsargų apskaitos pagrindinis puslapis
 
 [!INCLUDE [banner](../includes/banner.md)]
-[!INCLUDE [preview-banner](../includes/preview-banner.md)] <!--KFM: Until 4/30/2022 -->
+[!INCLUDE [preview-banner](../includes/preview-banner.md)]
+<!--KFM: Preview until 4/30/2022 -->
 
 Tarptautinės organizacijos patiria augantį spaudimą iš valdžios atitikti vietinius ir visuotinius apskaitos standartus. Atsargų vertinimas atlieka reikšmingą vaidmenį užtikrinant atitiktį. Visuotinės atsargų apskaitos priedas, skirtas „Microsoft Dynamics 365 Supply Chain Management”, pateikia išsamų sprendimą, įgalinantį organizacijas (ypač tarptautines) naudoti keletą išlaidų didžiųjų knygų atsargų apskaitai atlikti. Todėl šios organizacijos gali vienu metu atitikti keletą apskaitos standartų ir vidinio valdymo apskaitą.
 

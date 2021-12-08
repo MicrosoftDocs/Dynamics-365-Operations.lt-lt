@@ -2,7 +2,7 @@
 title: Elektroninių pranešimų sąranka
 description: Šioje temoje pateikiama informacija apie tai, kaip nustatyti elektroninių pranešimų (EM) funkciją.
 author: liza-golub
-ms.date: 07/07/2021
+ms.date: 11/18/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: elgolu
 ms.search.validFrom: 2021-06-23
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 2b62efabfae26a6cc004604e687a49bce992d78a30f0d441aa74fa5cde70e063
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: a9d623c712de34afd1b38dbc6a8738ebf9613d49
+ms.sourcegitcommit: 8c17717b800c2649af573851ab640368af299981
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6752180"
+ms.lasthandoff: 11/23/2021
+ms.locfileid: "7860563"
 ---
 # <a name="set-up-electronic-messages"></a>Elektroninių pranešimų sąranka
 
@@ -34,6 +34,7 @@ Jei neimportuojate duomenų objekto paketo, galite rankiniu būdu nustatyti EM f
 - [Papildomi laukai](#additional)
 - [Vykdomosios klasės parametrai](#executable)
 - [Automatinio įrašų įvedimo veiksmai](#populate)
+- [Automatiškai įvesti įrašus iš kelių įmonių](#multiple-companies-populate)
 - [Žiniatinklio programos](#applications)
 - [Žiniatinklio tarnybos parametrai](#settings)
 - [Pranešimų apdorojimo veiksmai](#actions)
@@ -139,6 +140,38 @@ Galite nustatyti automatinio įrašų užpildymo veiksmus eidami į **Mokesčiai
 | Įmonė                | Šis laukas galimas, kai funkcija **Visos įmonės užklausos dėl įrašų automatinio įvedimo veiksmų** yra įjungta **Funkcijos valdymo** darbo srityje. Naudokite šią funkciją, kad nustatytumėte visos įmonės duomenų šaltinius, skirtus automatinio įrašų įvedimo veiksmams. Duomenis galima iškviesti iš kelių įmonių. |
 | Vartotojo užklausa             | <p>Jei nustatote užklausą pasirinkdami **Redaguoti užklausą** virš tinklelio ir nurodote kriterijus, kurie turi būti taikomi pažymėtai bendrajai lentelei, iš kurios įvedami duomenys, šis žymės langelis bus pasirinktas automatiškai. Priešingu atveju visi įrašai užpildomi iš pasirinkto bendrosios lentelės šaltinio.</p><p>Kai funkcija **Visos įmonės užklausos dėl įrašų automatinio įvedimo veiksmų** yra įjungta **Funkcijų valdymo** srityje, o įrašai turi būti surinkti iš kelių įmonių, pridėkite eilutę kiekvienam papildomam juridiniam subjektui, kuris turi būti įtrauktas į ataskaitą. Kiekvienoje naujoje eilutėje pasirinkite **Redaguoti užklausą** ir nurodykite susijusį kriterijų, būdingą juridiniam subjektui, kuris yra nurodytas eilutės lauke **Įmonė**. Kai baigsite **Duomenų šaltinių nustatymo** tinklelyje bus visų juridinių subjektų, kurie turi būti įtraukti į ataskaitas, eilutės.</p> |
 
+## <a name="populate-records-from-multiple-companies"></a><a id="multiple-companies-populate"></a> Automatiškai įvesti įrašus iš kelių įmonių
+
+Jei jūsų įmonė turi pateikti ataskaitą iš kelių juridinių subjektų toje pačioje finansų duomenų bazėje, nustatykite automatiškai įvesti visų juridinių subjektų, iš kurių duomenys turi būti įtraukti į [ataskaitas](#populate), įrašus.
+
+Norėdami įgalinti šį pajėgumą savo finansų aplinkoje, atlikite šiuos veiksmus. 
+
+1. Eikite **į darbo sričių funkcijų** \> **valdymą**.
+2. Raskite ir pasirinkite **visos įmonės užklausas, skirtas automatiškai įvesti įrašų** veiksmų funkciją sąraše.
+3. Pasirinkite **Įjungti dabar**. 
+
+Norėdami nustatyti kelių [įmonių, kurių duomenys turi būti įtraukti į ataskaitas, įrašų](#populate) veiksmus, atlikite šiuos veiksmus.
+
+1. Eikite **į mokesčių nustatymo** \> **·** \> **elektroninius** \> **pranešimus užpildo įrašų** veiksmus.
+
+    Kai visos įmonės užklausos dėl automatiškai įvedaų įrašų veiksmų funkcijos įgalintos, duomenų šaltinių nustatymo tinklelyje, kuris yra veiksmų puslapio Automatiškai **įvesti** **·** **įrašus, yra įmonės** **laukas**. Esamiems įrašams, kurie buvo sukurti bendrais automatiškai įvedaų įrašų veiksmų nustatymo metu, šiame [lauke](#populate) rodomas dabartinio juridinio subjekto identifikatorius.
+
+2. Duomenų šaltinių nustatymo tinklelyje pridėkite kiekvieno filialo juridinio subjekto, kuris turi būti įtrauktas į ataskaitą, eilutę ir **nustatykite** šiuos laukus.
+
+    | Lauko pavadinimas             | Vertė |
+    |------------------------|-------|
+    | Pavadinimas                   | Įveskite teksto reikšmę, kuri padės suprasti, iš kur gaunamas šis įrašas. Pavyzdžiui, įveskite **duomenų šaltinio pavadinimą – filialas 1.** |
+    | Pranešimo prekės tipas      | Pasirinkite pranešimo elemento tipą, kurio reikia jūsų EM apdorojimui. |
+    | Kodo tipas           | Nurodykite sąskaitos tipą, kuris būtinas jūsų EM apdorojimui. Jei jūsų EM apdorojime nėra konkrečių sąskaitų tipų, pasirinkite **Visi**. |
+    | Pagrindinės lentelės pavadinimas      | Nurodykite pagrindinės lentelės, kurios reikia jūsų EM apdorojimui, pavadinimą. |
+    | Laukas Dokumento numeris  | Nurodykite lauką, kuriame yra dokumento numeris įrašuose, kuriuos jūsų EM apdorojimo programa. |
+    | Laukas Dokumento data    | Nurodykite lauką, kuriame YRA dokumento data EM apdorojimo įrašuose. |
+    | Laukas Dokumento sąskaita | Nurodykite lauką, kuriame yra dokumento sąskaita įrašuose, kuriuos apdorosite EM. |
+    | Įmonė                | Pasirinkite filialo juridinio subjekto ID. |
+    | Vartotojo užklausa             | Šis žymės langelis automatiškai pasirenkamas, kai pasirenkate kriterijus pasirinkdami **Redaguoti** užklausą. |
+
+3. Kiekvienoje naujoje eilutėje pasirinkite Redaguoti užklausą ir nurodykite susijusius juridinio subjekto, nurodyto **eilutės** lauke **Įmonė**, kriterijus.
+
 ## <a name="web-applications"></a><a id="applications"></a>Žiniatinklio programos
 
 Naudokite žiniatinklio programų parametrus, jog nustatytumėte žiniatinklio programą taip, kad ji palaikytų „Open Authorization“ („OAuth“) 2.0. „OAuth“ yra atvirasis standartas, kurį naudodami vartotojai savo vardu programai gali suteikti „saugią suteiktąją prieigą“, nebendrindami prieigos kredencialų. Autorizavimo procesą taip pat galite atlikti gaudami autorizavimo kodą ir prieigos atpažinimo ženklą. Žiniatinklio programos parametrus galite nustatyti eidami į **Mokesčiai** \> **Nustatymas** \> **Elektroniniai pranešimai** \> **Žiniatinklio programos**.
@@ -185,7 +218,7 @@ Toliau pateiktoje lentelėje aprašomi puslapio **Žiniatinklio tarnybos paramet
 |--------------------------------|-------------|
 | Žiniatinklio tarnyba                    | Įveskite žiniatinklio tarnybos pavadinimą. |
 | aprašymas                    | Įveskite žiniatinklio tarnybos aprašą. |
-| Interneto adresas               | <p>Įveskite žiniatinklio tarnybos interneto adresą. Jei nurodyta žiniatinklio tarnybos žiniatinklio programa, o žiniatinklio tarnybos interneto adresas turi būti toks pats, kaip nustatytas tos žiniatinklio programos interneto adresas, pasirinkite **Kopijuoti pagrindinį URL**. Tada pagrindinis žiniatinklio programos URL yra nukopijuojamas į šį lauką.</p><p>**Įspėjimas:** trečiųjų šalių tarnybos ar kitos čia konfigūruojamos tarnybos nereikalauja sertifikato ir gali neatitikti „Microsoft” privatumo standartų. Turėtumėte peržiūrėti kiekvienos tarnybos privatumo dokumentaciją ir dirbti su kiekvienu paslaugų teikėju, kad sužinotumėte daugiau apie teikiamų paslaugų atitikimo lygį. Esate atsakingi už tai, kad šios tarnybos atitiktų jūsų saugos, privatumo ir teisės standartus. Jūs prisiimate atsakomybę už šių tarnybų naudojimą. „Microsoft“ nesuteikia jokių aiškių ir kitokių garantijų arba sąlygų. Primygtinai rekomenduojame naudoti tik tas tarnybas, kurios užtikrina saugius ir įgaliotus ryšius, pavyzdžiui, HTTPS.</p> |
+| Interneto adresas               | <p>Įveskite žiniatinklio tarnybos interneto adresą. Jei nurodyta žiniatinklio tarnybos žiniatinklio programa, o žiniatinklio tarnybos interneto adresas turi būti toks pats, kaip nustatytas tos žiniatinklio programos interneto adresas, pasirinkite **Kopijuoti pagrindinį URL**. Tada pagrindinis žiniatinklio programos URL yra nukopijuojamas į šį lauką.</p><p>**Įspėjimas:** trečiųjų šalių tarnybos ar kitos čia konfigūruojamos tarnybos nereikalauja sertifikato ir gali neatitikti „Microsoft” privatumo standartų. Turėtumėte peržiūrėti kiekvienos tarnybos privatumo dokumentaciją ir dirbti su kiekvienu paslaugų teikėju, kad sužinotumėte daugiau apie teikiamų paslaugų atitikimo lygį. Esate atsakingi už tai, kad šios tarnybos atitiktų jūsų saugos, privatumo ir teisės standartus. Jūs prisiimate atsakomybę už šių tarnybų naudojimą. "Microsoft" nesuteikia aiškaus garantijų, garantų ar sąlygų. Primygtinai rekomenduojame naudoti tik tas tarnybas, kurios užtikrina saugius ir įgaliotus ryšius, pavyzdžiui, HTTPS.</p> |
 | Sertifikatas                    | Pasirinkite anksčiau nustatytą „Azure” raktų saugyklos sertifikatą. |
 | Žiniatinklio programa                | Pasirinkite anksčiau nustatytą raktų žiniatinklio programą. |
 | Atsakymo tipas – XML        | Jei atsakymo tipas yra XML, nustatykite šią parinktį į **Taip**. |
@@ -214,6 +247,7 @@ Toliau pateiktose lentelėse aprašomi puslapio **Pranešimų apdorojimo veiksma
 | Vykdomoji klasė                          | Pasirinkite esamą vykdomosios klasės parametrą. Šis laukas galimas tik veiksmų tipams **Pranešimo elemento vykdymo lygis** ir **Pranešimo elemento vykdymo lygis**. |
 | Automatinio įrašų įvedimo veiksmas                   | Pasirinkite esamą automatiškai įvedamą įrašų veiksmą. Šis laukas galimas tik veiksmų tipui **Automatiškai įvesti įrašus**. |
 | Žiniatinklio tarnyba                               | Pasirinkite esamą žiniatinklio tarnybą. Šis laukas taikomas tik tipo **Žiniatinklio tarnyba** veiksmams. |
+| Siųstino failo vardas                         | Įvesti priedo prie elektroninio pranešimo, kuris turi būti siunčiamas šiuo veiksmu, pavadinimą. Jei keli priedai turi tokį patį pradinio failo vardą, naujausias bus siunčiamas. Jei nerastas joks priedas, kuriame nurodytas pradinis failo vardas, užklausa bus siunčiama be turinio. Šis laukas taikomas tik tipo **Žiniatinklio tarnyba** veiksmams. |
 | Failo vardas                                 | Nurodykite failo, kuris bus veiksmo rezultatas, pavadinimą. Šis failas gali būti atsakas iš žiniatinklio serverio arba generuojama ataskaita. Šis laukas taikomas tik tipų **Žiniatinklio tarnyba** ir **Elektroninių ataskaitų eksportavimo pranešimas** veiksmams. |
 | Pridėti failus prie šaltinio dokumentų          | Pasirinkite šį žymės langelį, jei norite pridėti sugeneruotus failus prie įrašų, esančių EM elementų nurodytoje bendrojoje lentelėje. Šis laukas galimas tik **Elektroninių ataskaitų eksportavimas** ir **Žiniatinklio tarnyba** tipų veiksmams. |
 | Failus iš išvesties archyvo pridėkite prie prekių | Pasirinkite šį žymės langelį, norėdami iš išvesties archyvo failo išskleisti atskirus XML failus ir pridėti juos prie atitinkamų elektroninio pranešimo elementų. Šis laukas galimas tik **Elektroninių ataskaitų eksportavimo** tipo veiksmams. |

@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: benebotg
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: 792245e7821fe2ecb147e2b4756f3178fcdb17d1
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.openlocfilehash: 1a311b4a304984044a1c3bd3924c129821afbbb9
+ms.sourcegitcommit: f11ad8d7ee8a4d2ee1a1bb601622b50e14955c4a
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7569678"
+ms.lasthandoff: 11/18/2021
+ms.locfileid: "7825380"
 ---
 # <a name="product-identifiers"></a>Produkto identifikatoriai
 
@@ -39,7 +39,7 @@ Kai su produktais ceche arba sandėlyje dirbate naudodami „Microsoft Dynamics�
 
 Daugeliu atvejų produkto numerio „Dynamics 365 Supply Chain Management“ iš pradžių nesukuria. Vietoj to, numeris su produktu susiejamas produktų ciklo valdymo (PLM) sistemoje arba produktų duomenų valdymo (PDM) sistemoje. Tokius atveju produktams ir produkto variantams importuoti reikia naudoti duomenų objektus. Tada „Supply Chain Management” naudoja numerius visose operacijose.
 
-„Supply Chain Management” diegimo metu produktų numerių strategiją reikia ypač gerai apsvarstyti. Gera numeravimo sistema pagerina logistikos srautus ir padeda išvengti klaidų. Geras produkto identifikatorius turi būti sudarytas iš ne daugiau kaip 15 simbolių. Geriausia, jei jis būtų sudarytas iš mažiau nei 10 ir ne daugiau kaip penkių klasifikavimo simbolių. Norėdami įgalinti sparčiąsias ieškas, taip pat galite naudoti ieškos pavadinimus. Ieškos pavadinimas – tai papildomas pavadinimas, kuriuo nurodomos produkto klasifikacijos.
+„Supply Chain Management” diegimo metu produktų numerių strategiją reikia ypač gerai apsvarstyti. Gera numeravimo sistema pagerina logistikos srautus ir padeda išvengti klaidų. Gerų produktų identifikatorius paprastai turi turėti 20 simbolių ar mažiau, bet paprastai rekomenduojame naudoti mažiau nei 10 simbolių, o į jį įtraukti ne daugiau kaip 5 klasifikuojamuosius simbolius. Norėdami įgalinti sparčiąsias ieškas, taip pat galite naudoti ieškos pavadinimus. Ieškos pavadinimas – tai papildomas pavadinimas, kuriuo nurodomos produkto klasifikacijos.
 
 Naudojant „Microsoft Dataverse“, produkto numeris „Supply Chain Management” taip pat yra produkto numeris „Microsoft Dataverse“. Produkto variantai su „Dataverse“ sinchronizuojami kaip išskirtieji produktai.
 

@@ -2,7 +2,7 @@
 title: Įgalinti mokesčių skaičiavimo konfigūracijos pagrindinių duomenų peržvalgą
 description: Šioje temoje paaiškinama, kaip nustatyti ir įgalinti mokesčių skaičiavimo pagrindinių duomenų peržvalgos funkciją.
 author: kai-cloud
-ms.date: 11/03/2021
+ms.date: 11/22/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,18 +15,21 @@ ms.search.region: Global
 ms.author: pashao
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: dafeac01aaff62cbbd5ce6ecb0af0ef111f513b2
-ms.sourcegitcommit: 76fe020f9c5f4e5cc2e93f5ccb3b040f12b0363e
+ms.openlocfilehash: 455e8becfdfa910a3733719653e1a91557b2f59a
+ms.sourcegitcommit: ac23a0a1f0cc16409aab629fba97dac281cdfafb
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "7749515"
+ms.lasthandoff: 11/29/2021
+ms.locfileid: "7867357"
 ---
 # <a name="enable-master-data-lookup-for-tax-calculation-configuration"></a>Įgalinti mokesčių skaičiavimo konfigūracijos pagrindinių duomenų peržvalgą 
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje paaiškinama, kaip nustatyti ir įgalinti mokesčių skaičiavimo pagrindinių duomenų peržvalgos funkciją. Išplečiamajame sąraše galima pasirinkti vertes mokesčių skaičiavimo konfigūracijoje tokiems laukams kaip Tiekėjo **·** sąskaita, **Prekės kodas ir** Pristatymo **terminas**. Šios vertės yra iš susijusios Microsoft Dynamics 365 Finance aplinkos naudojant Microsoft Dataverse duomenų šaltinį.
+Šioje temoje paaiškinama, kaip nustatyti ir įgalinti mokesčių skaičiavimo pagrindinių duomenų peržvalgos funkciją. Išplečiamajame sąraše galima pasirinkti vertes mokesčių skaičiavimo konfigūracijoje tokiems laukams kaip Juridinis subjektas, Tiekėjo sąskaita, Prekės kodas **ir** Pristatymo **·** **·** **sąlygos**. Šios vertės yra iš susijusios Microsoft Dynamics 365 Finance aplinkos naudojant Microsoft Dataverse duomenų šaltinį.
+
+> [!NOTE] 
+> Mokesčių skaičiavimo pagrindinių duomenų peržvalgos funkcija yra pasirinktinė funkcija. Jei išjungidami mokesčių tarnybos duomenų šaltinių palaikymo funkciją reguliavimo konfigūracijos tarnyba **Dataverse** (RCS), galite praleisti šiuos veiksmus. Tačiau šiuo atveju mokesčių skaičiavimo konfigūracijoje išplečiamasis sąrašas nebus galimas.
 
 1. Nustatykite Microsoft Power Platform integravimą į Microsoft Dynamics Lifecycle Services (LCS). Daugiau informacijos rasite [„Microsoft Power Platform” integravimas – Priedų apžvalga](../../fin-ops-core/dev-itpro/power-platform/add-ins-overview.md). Atlikus šį veiksmą, Microsoft Power Platform aplinkos pavadinimas bus rodomas **Power Platform integravimo** skyriuje.
 2. Eikite į [Microsoft Power Platform administravimo centrą](https://admin.powerplatform.microsoft.com/environments) ir pasirinkite aplinkos pavadinimą. Pateikiamas aplinkos URL.
@@ -66,16 +69,16 @@ ms.locfileid: "7749515"
 
 9. Pasirinkite **Tikrinti ryšį** ir užbaikite ryšio procesą. 
 
-    [![ Mygtukas Tikrinti ryšį.](./media/tax-service-setup-environment-for-mater-date-pic1.png)](./media/tax-service-setup-environment-for-mater-date-pic1.png)
+    [![Mygtukas Tikrinti ryšį.](./media/tax-service-setup-environment-for-mater-date-pic1.png)](./media/tax-service-setup-environment-for-mater-date-pic1.png)
 
 10. Eikite į **Elektroninės ataskaitos** > **Mokesčių konfigūracijos** ir importuokite mokesčių konfigūracijas iš [Mokesčių konfigūracijų](https://go.microsoft.com/fwlink/?linkid=2158352).
 
-    [![ Mokesčių konfigūracijų puslapis, Mokesčių duomenų modelio medis.](./media/tax-service-setup-environment-for-mater-date-pic2.png)](./media/tax-service-setup-environment-for-mater-date-pic2.png)
+    [![Mokesčių konfigūracijų puslapis, Mokesčių duomenų modelio medis.](./media/tax-service-setup-environment-for-mater-date-pic2.png)](./media/tax-service-setup-environment-for-mater-date-pic2.png)
 
 11. Eikite į **Apmokestinto dokumento modelio susiejimas** arba **„Dataverse” modelio susiejimas**, jeigu naudojate „Microsoft” konfigūraciją ir lauke **Prijungta programa** pasirinkite įrašą, kurį sukūrėte 7 veiksme.
 12. Nustatykite **Numatytasis modelių susiejimui** į **Taip**.
 
-    [![ Modelio susiejimo puslapis.](./media/tax-service-setup-environment-for-mater-date-pic3.png)](./media/tax-service-setup-environment-for-mater-date-pic3.png)
+    [![Modelio susiejimo puslapis.](./media/tax-service-setup-environment-for-mater-date-pic3.png)](./media/tax-service-setup-environment-for-mater-date-pic3.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

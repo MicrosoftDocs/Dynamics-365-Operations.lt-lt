@@ -458,6 +458,16 @@
                   href: help/language-locale.md
                 - name: 'Žinyno išplėtimas, tinkinimas ir bendradarbiavimas'
                   href: help/contributor-guide.md
+            - name: Visuotinio diegimo aplinkybės
+              items:
+                - name: 'Suvereniojo ir vietinio debesies visuotinio diegimo parinktys, skirtos „Dynamics 365 Finance“ ir „Dynamics 365 Supply Chain Management“'
+                  href: deployment/deployment-options-geo.md
+                - name: „Finance“ ir „Supply Chain Management“ JAV „Government Community Cloud“ (GCC)
+                  href: deployment/us-gcc-deployment.md
+                - name: '„Finance“ ir „Supply Chain Management“, valdomos „21Vianet“ Kinijoje'
+                  href: deployment/china-local-deployment.md
+                - name: „Finance and Operations“ programos Prancūzijoje
+                  href: deployment/france-local-deployment.md
         - name: Kūrimas ir tinkinimas
           items:
             - name: Kūrimo ir tinkinimo pagrindinis puslapis
@@ -1118,6 +1128,8 @@
                       href: data-entities/dual-write/party-gab-portal.md
                     - name: Naujinimas į šalies ir visuotinės adresų knygelės modelį
                       href: data-entities/dual-write/upgrade-party-gab.md
+                    - name: Peržiūrėti šalies duomenis
+                      href: data-entities/dual-write/view-party.md
                     - name: Pastabų integravimas
                       href: data-entities/dual-write/notes-integration.md
                     - name: Susiejimo nuoroda
@@ -1442,7 +1454,7 @@
               href: process-automation/log-results.md
             - name: Vartotojo sąsajos tinkinimas
               href: process-automation/ui-customization.md
-        - name: Regression suite automation tool
+        - name: Regression Suite Automation Tool
           items:
             - name: „Regression Suite Automation Tool“ apžvalga
               href: perf-test/rsat/rsat-overview.md
@@ -1584,7 +1596,7 @@
                   href: sysadmin/batch-server-overview.md
                 - name: Kurti paketines užduotis
                   href: sysadmin/tasks/create-batch-job.md
-                - name: Automatinių bandymų iš naujo įjungimas paketinėse užduotyse
+                - name: Įjungti paketinio apdorojimo bandymus
                   href: sysadmin/retryable-batch.md
                 - name: Paketinės užduoties kopijavimas
                   href: sysadmin/copy-batch-job.md

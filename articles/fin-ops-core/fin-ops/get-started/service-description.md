@@ -2,19 +2,19 @@
 title: Programėlių paslaugos „Finance and Operations“ aprašas
 description: Šioje temoje pateikiamas programėlių paslaugos „Finance and Operations“ aprašas.
 author: tomhig
-ms.date: 09/29/2021
+ms.date: 11/17/2021
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
 ms.search.region: Global
 ms.author: whigginb
 ms.search.validFrom: 2021-09-03
-ms.openlocfilehash: a1547f0cc6c6f705cd0e2ff6e5be751cb97b946a
-ms.sourcegitcommit: 79d19924ed736c9210fa9ae4e0d4c41c53c27eb5
+ms.openlocfilehash: 262cf00bdca63876c284be40954ca5de559b993a
+ms.sourcegitcommit: f11ad8d7ee8a4d2ee1a1bb601622b50e14955c4a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "7581821"
+ms.lasthandoff: 11/18/2021
+ms.locfileid: "7825405"
 ---
 # <a name="service-description-for-finance-and-operations-apps"></a>Programėlių paslaugos „Finance and Operations“ aprašas
 
@@ -50,7 +50,7 @@ Programėlių veikiantis modelis apibrėžia konkrečius kliento, diegimo partne
 
 ### <a name="customer-activities"></a>Kliento veiklos
 
-Klientai dirba su savo partneriu [„Microsoft FastTrack“](/dynamics365/fasttrack/) po [„Success by Design“](/dynamics365/fasttrack/success-by-design-overview) darbotvarkė ir naudoja įrankius bei geriausios praktikos šablonus, pateiktus [„Lifecycle Services“](../../dev-itpro/lifecycle-services/lcs.md) siekiant įgyvendinti jų sprendimą. Bendros veiklos apima:
+Klientai dirba su savo partneriu ir ["Microsoft FastTrack" naudodami](/dynamics365/fasttrack/)["Dynamics 365" diegimo vadovą, sistemą ir geriausios praktikos šablonus, kurie pateikiami vykdymo ciklo tarnybose, kad galėtų įdiegti](https://community.dynamics.com/365/dynamics-365-fasttrack/p/dynamics365implementationguide)[Success by Design](/dynamics365/fasttrack/success-by-design-overview) savo [sprendimą](../../dev-itpro/lifecycle-services/lcs.md). Bendros veiklos apima:
 
 - Vartotojo tapatybė ir saugos valdymas
 - Verslo procesų apibrėžimas, vystimas ir veikla
@@ -66,7 +66,7 @@ Klientai dirba su savo partneriu [„Microsoft FastTrack“](/dynamics365/fasttr
 **Infrastruktūros valdymas**
 - Sauga ir atskyrimas
 - Operacinės sistemos ir virtualizavimas
-- Serveriai, saugykla ir bazės
+- Serveriai, saugojimas ir bazės
 - Duomenų centro galia, pagal, pagal
 
 **Programos platformos valdymas**

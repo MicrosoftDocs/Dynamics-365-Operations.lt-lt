@@ -2,7 +2,7 @@
 title: Elektroninių ataskaitų (ER) apžvalga
 description: Šioje temoje pateikiama elektroninių ataskaitų įrankio apžvalga. Aprašomos pagrindinės koncepcijos, palaikomi scenarijai ir formatai, kurie yra sprendimo dalis.
 author: NickSelin
-ms.date: 09/20/2021
+ms.date: 11/02/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f0fd83c787be4d9de151d2727384d07bc209e33f
-ms.sourcegitcommit: 86f0574363fb869482ef73ff294f345f81d17c5b
-ms.translationtype: HT
+ms.openlocfilehash: 0b772acd4a8d0849803cefa8fc14ae3dd6e18831
+ms.sourcegitcommit: ac23a0a1f0cc16409aab629fba97dac281cdfafb
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7562181"
+ms.lasthandoff: 11/29/2021
+ms.locfileid: "7867302"
 ---
 # <a name="electronic-reporting-er-overview"></a>Elektroninių ataskaitų (ER) apžvalga
 
@@ -30,11 +30,37 @@ ms.locfileid: "7562181"
 
 Šioje temoje pateikiama elektroninių ataskaitų (ER) įrankio apžvalga. Jame yra informacijos apie pagrindines koncepcijas, ER palaikomus scenarijus ir išvardyti formatai, kurie sukurti ir išleisti kaip sprendimo dalis.
 
-ER yra įrankis, kurį naudodami galite konfigūruoti tiek gaunamų, tiek siunčiamų elektroninių dokumentų formatus pagal įvairių šalių / regionų teisinius reikalavimus. ER suteikia galimybę valdyti šiuos formatus per jų naudojimo ciklą. Pavyzdžiui, galite pritaikyti naujus teisinius reikalavimus ir generuoti verslo dokumentus reikiamu formatu, skirtu keistis informacija su valdžios institucijomis, bankais ir kitomis šalimis elektroniniu būdu.
+ER yra konfigūruojamas įrankis, padedantis kurti ir prižiūrėti reguliavimo elektronines ataskaitas ir mokėjimus. Jis remiasi šiomis trimis sąvokomis:
+
+- Konfigūracija, o ne kodavimas:
+
+    - Konfigūraciją gali atlikti verslo vartotojas, kuriam nereikia programuotojo.
+    - Duomenų modelis apibrėžiamas verslo sąlygose.
+    - Vaizdo doroklis naudojamas visiems ER konfigūracijos komponentams kurti.
+    - Duomenų transformacijai naudojama kalba yra panaši į kalbą, kuri naudojama Microsoft Excel.
+
+- Viena kelių leidimų Dynamics 365 Finance konfigūracija:
+
+    - Tvarkyti vieną domeno duomenų modelį, apibrėžtą verslo sąlygose.
+    - Isolate programos paleidimo informacija nuo paleidimo priklausomų duomenų modelio susiejimuose.
+    - Tvarkyti vieną formato konfigūraciją keliems dabartinės versijos leidimams pagal duomenų modelį.
+
+- Paprastas arba automatinis atnaujinimas:
+
+    - Palaikomas ER konfigūracijų versijos kopijavimas.
+    - Ciklo tarnybų (LCS) turto biblioteką galima naudoti kaip ER konfigūracijų Microsoft Dynamics saugyklą, kad būtų galima atlikti versijų mainus.
+    - Lokalizavimus, paremtus originalia ER konfigūracija, galima įtraukti kaip antines versijas.
+    - ER konfigūracijos medis pateikiamas kaip įrankis, padedantis valdyti versijų priklausomybes.
+    - Lokalizavimo arba pokyčių konfigūracijos skirtumai įrašomi, kad įgalintumėte automatinį pradinės ER konfigūracijos versijos atnaujinimą.
+    - Neautomatiniu būdu lengviau išspręsti konfliktus, aptiktus automatiškai atnaujinus lokalizavimo versijas.
+
+ER leidžia apibrėžti elektroninio formato struktūras, o tada apibrėžti, kaip struktūros turėtų būti užpildytos naudojant duomenis ir algoritmus. Duomenų transformacijai galite naudoti formulės kalbą, panašią į Excel kalbą. Kad duomenų bazę būtų lengviau valdyti, pakartotinai naudoti ir nepriklausomą nuo formato pakeitimų, bus įvesta tarpinė duomenų modelio koncepcija. Ši sąvoka leidžia paslėpti išsamią diegimo informaciją nuo formato susiejimo ir leidžia vienam duomenų modeliui pakartotinai naudoti keliuose formatų susiejimuose.
+
+Galite naudoti ER gaunamų ir siunčiamų elektroninių dokumentų formatams konfigūruoti, atsižvelgiant į įvairių šalių ir regionų teisinius reikalavimus. ER suteikia galimybę valdyti šiuos formatus per jų naudojimo ciklą. Pavyzdžiui, galite pritaikyti naujus teisinius reikalavimus ir generuoti verslo dokumentus reikiamu formatu, skirtu keistis informacija su valdžios institucijomis, bankais ir kitomis šalimis elektroniniu būdu.
 
 ER mechanizmas skirtas verslo vartotojui, o ne kūrėjui. Kadangi galite konfigūruoti formatus, o ne kodą, elektroninių dokumentų formatų kūrimo ir pritaikymo procesas greitesnis ir lengvesnis.
 
-ER šiuo metu palaiko TEXT, XML, „Microsoft Word“ dokumento ir OPENXML darbalapio formatus. Tačiau naudojant plėtinio sąsają palaikomi papildomi formatai.
+ER šiuo metu palaiko TEXT, XML, JSON, PDF, Microsoft Word, Microsoft Excel ir OPENXML darbalapių formatus.
 
 ## <a name="capabilities"></a>Galimybės
 
@@ -48,6 +74,10 @@ ER mechanizmas turi toliau nurodytas galimybes.
 
 ## <a name="key-concepts"></a>Pagrindinės koncepcijos
 
+### <a name="main-data-flow"></a>Pagrindinių duomenų srautas
+
+[![ER pagrindinių duomenų srautas.](./media/ger-main-data-flow.jpg)](./media/ger-main-data-flow.jpg)
+
 ### <a name="components"></a>Komponentai
 
 Elektroninės ataskaitos (ER) palaiko šiuos komponentų tipus:
@@ -59,74 +89,6 @@ Elektroninės ataskaitos (ER) palaiko šiuos komponentų tipus:
 
 Daugiau informacijos žr. [Elektroninės ataskaitos komponentai](er-overview-components.md).
 
-#### <a name="data-model-and-model-mapping-components"></a>Duomenų modelio ir modelio susiejimo komponentai
-
-Duomenų modelio komponentas abstrakčiai vaizduoja duomenų struktūrą. Jis yra naudojamas tam tikrai verslo domeno sričiai aprašyti pakankamai išsamiai, kad būtų tenkinami tos srities ataskaitų reikalavimai. Duomenų modelio komponentą sudaro toliau nurodytos dalys.
-
-- <a name="DataModelComponent"></a>Duomenų modelis kaip domenui būdingų verslo objektų rinkinys ir hierarchiškai susistemintas jų ryšių aprašas.
-- <a name="ModelMappingComponent"></a>Modelio susiejimas, kuris susieja pasirinktus duomenų šaltinius su atskirais duomenų modelio elementais, vykdymo metu nurodančiais duomenų srautą ir taisykles, pagal kurias verslo duomenys įvedami į duomenų modelio komponentą.
-
-Duomenų modelio verslo objektas pateikiamas kaip konteineris (įrašas). Verslo subjekto ypatybės pateikiamos kaip duomenų elementai (laukai). Kiekvienas duomenų elementas turi unikalų pavadinimą, žymę, aprašą ir reikšmę. Kiekvieno duomenų elemento reikšmė gali būti sukurta taip, kad būtų atpažinta kaip eilutė, sveikasis skaičius, realusis skaičius, data, išvardijimas, Bulio logika ir t. t. Be to, tai gali būti kitas įrašas arba įrašų sąrašas.
-
-Viename duomenų modelio komponente gali būti kelios domenui būdingų verslo objektų hierarchijos. Jame taip pat gali būti modelio susiejimai, kurie vykdymo metu palaiko konkretų ataskaitai būdingą duomenų srautą. Hierarchijos yra atskiriamos pagal vieną įrašą, kuris buvo pasirinktas kaip šakninis modelio susiejimo įrašas. Pavyzdžiui, mokėjimo domeno srities duomenų modelis gali palaikyti tolesnius susiejimus.
-
-- Įmonė \> Tiekėjas \> AP domeno mokėjimo operacijos
-- Klientas \> Įmonė \> AR domeno mokėjimo operacijos
-
-Atkreipkite dėmesį, kad verslo objektai, pvz., įmonė ir mokėjimo operacijos, yra kuriami vieną kartą. Tada kiti susiejimai pakartotinai juos naudoja.
-
-Modelio susiejimas, kuris palaiko siunčiamus elektroninius dokumentus, turi šias galimybes:
-
-- Jis gali naudoti skirtingus duomenų tipus kaip duomenų modelio duomenų šaltinius. Pavyzdžiui, jis gali naudoti lenteles, duomenų objektus, metodus ar išvardijimus.
-- Jis palaiko vartotojo įvesties parametrus, kuriuos galima apibrėžti kaip duomenų modelio šaltinius, kai kai kuriuos duomenis reikia nurodyti vykdymo metu.
-- Jis palaiko duomenų transformavimą į reikiamas grupes. Su juo galite filtruoti, rūšiuoti ir sumuoti duomenis, taip pat pridėti loginius apskaičiuotus laukus, sukurtus su formulėmis, panašiomis į „Microsoft Excel“ formules. Daugiau informacijos žr. [Formulės kūrimo įrankis elektroninėje ataskaitoje (ER)](general-electronic-reporting-formula-designer.md).
-
-Modelio susiejimas, kuris palaiko gaunamus elektroninius dokumentus, turi šias galimybes:
-
-- Jis gali naudoti skirtingus „Finance and Operations“ naujinamus duomenų elementus kaip tikslus. Šie duomenų elementai apima lenteles, duomenų objektus ir rodinius. Duomenis galima atnaujinti naudojant duomenis iš gaunamų elektroninių dokumentų. Vieno modelio susiejime galima naudoti kelis tikslus.
-- Jis palaiko vartotojo įvesties parametrus, kuriuos galima apibrėžti kaip duomenų modelio šaltinius, kai kai kuriuos duomenis reikia nurodyti vykdymo metu.
-
-Duomenų modelio komponentas skirtas kiekvienam verslo domenui, kuris turi būti naudojamas kaip suvienodintas ataskaitų duomenų šaltinis, atskiriantis ataskaitų teikimą nuo fizinio duomenų šaltinių diegimo. Tai konkrečios srities verslo koncepcijos ir funkcijos, pateiktos tokia forma, dėl kurios ataskaitų formato pirminis kūrimas ir tolesnė priežiūra tampa efektyvesnė.
-
-#### <a name="format-components-for-outgoing-electronic-documents"></a><a name="FormatComponentOutbound"></a>Siunčiamų elektroninių dokumentų formato komponentai
-
-Formato komponentas yra ataskaitų kūrimo planas, kuris bus generuojamas vykdymo metu. Schemą sudaro toliau nurodyti elementai.
-
-- Formatas, kuris apibrėžia vykdymo metu sugeneruoto siunčiamo elektroninio dokumento struktūrą ir turinį.
-- Duomenų šaltiniai kaip vartotojo įvesties parametrų rinkinys ir domenui būdingų duomenų modelis, kuris naudoja pasirinktą modelio susiejimą.
-- Formato susiejimas kaip formato duomenų šaltinių susiejimų su atskirais formato elementais, vykdymo metu nurodančiais duomenų srautą ir formato išvesties generavimo taisykles, susiejimų rinkinys.
-- Formato tikrinimas kaip konfigūruojamų taisyklių, kurios vykdymo metu valdo ataskaitos generavimą pagal vykdymo kontekstą, rinkinys. Pavyzdžiui, gali būti taisyklė, kuri sustabdo tiekėjo mokėjimų išeigos generavimą ir pritaiko išimtį, jei trūksta konkrečių pasirinkto tiekėjo atributų, pvz., banko sąskaitos numerio.
-
-Formato komponentas palaiko tolesnes funkcijas.
-
-- Ataskaitos išeigos kaip atskirų skirtingų formatų, pvz., teksto, XML, „Microsoft Word“ dokumento ar darbalapio, failų kūrimas.
-- Kelių failų kūrimas atskirai ir tų failus glaudinimas į „zip“ failus.
-
-Formato komponentas leidžia pridėti toliau nurodytus tam tikrus failus, kurie gali būti naudojami ataskaitų išeigoje.
-
-- „Excel“ darbaknyges, kuriose yra darbalapis, galima naudoti kaip OPENXML darbalapio formato išeigos šabloną
-- „Word“ failus, kuriuose yra dokumentas, kurį galima naudoti kaip „Microsoft Word“ dokumento formato išeigos šabloną
-- Kiti failai, kurie gali būti įtraukti į formato išeigą kaip iš anksto apibrėžti failai
-
-Šis pavyzdys rodo, kaip juda šių formatų duomenų srautai.
-
-[![Siunčiamų formato komponentų duomenų srautas.](./media/ER-overview-02.png)](./media/ER-overview-02.png)
-
-Norėdami paleisti vieną ER formato konfigūraciją ir generuoti siunčiamą elektroninį dokumentą, turite nustatyti formato konfigūracijos susiejimą.
-
-#### <a name="format-components-for-incoming-electronic-documents"></a><a name="FormatComponentInbound"></a>Gaunamų elektroninių dokumentų formato komponentai
-
-Formato komponentas yra gaunamo dokumento planas, kuris importuojamas vykdymo metu. Schemą sudaro toliau nurodyti elementai.
-
-- Formatas, kuris apibrėžia vykdymo metu importuoto gaunamo elektroninio dokumento, kuriame yra duomenų, struktūrą ir turinį. Formato komponentas naudojamas išanalizuoti įvairiais formatais gaunamą dokumentą, pvz., teksto ir XML.
-- Formato susiejimas, kuris sujungia atskirus formato elementus į konkrečios srities duomenų modelio elementus. Vykdymo metu duomenų modelio elementai nurodo duomenų srautą ir duomenų importavimo iš gaunamo dokumento taisykles, o tada išsaugo duomenų modelio duomenis.
-- Formato tikrinimas kaip konfigūruojamų taisyklių, kurios vykdymo metu valdo duomenų importavimą pagal vykdymo kontekstą, rinkinys. Pavyzdžiui, gali būti taisyklė, kuri sustabdo banko išrašo, kuriame pateikiami tiekėjo mokėjimai, duomenų importavimą ir pritaiko išimtį, jei trūksta konkretaus tiekėjo atributų, pvz., tiekėjo identifikavimo kodo.
-
-Šis pavyzdys rodo, kaip juda šių formatų duomenų srautai.
-
-[![Gaunamų formato komponentų duomenų srautas.](./media/ER-overview-03.png)](./media/ER-overview-03.png)
-
-Norėdami paleisti vieną ER formato konfigūraciją ir importuoti duomenis iš gaunamo elektroninio dokumento, turite nustatyti norimą formato konfigūracijos susiejimą, taip pat modelio susiejimo integravimo tašką. Galite naudoti tą patį modelio susiejimą ir paskirties vietas kartu su skirtingo tipo gaunamų dokumentų skirtingais formatais.
 
 #### <a name="component-versioning"></a>Komponento versijos kūrimas
 

@@ -62,10 +62,6 @@
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/finance/toc.json
                 - name: Vietiniams visuotiniams diegimams skirto sandėliavimo konfigūravimas
                   href: ../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md?toc=/dynamics365/finance/toc.json
-                - name: '„Finance and Operations“ programos, valdomos „21Vianet“ Kinijoje'
-                  href: ../fin-ops-core/dev-itpro/deployment/china-local-deployment.md?toc=/dynamics365/finance/toc.json
-                - name: „Finance and Operations“ programos Prancūzijoje
-                  href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/finance/toc.json
             - name: Kas nauja ar pasikeitė
               items:
                 - name: Kas nauja ar pasikeitė „Finance and Operations“ programose
@@ -500,6 +496,8 @@
               href: accounts-receivable/customer-aging-snapshot.md
             - name: Klientų skirstymo pagal terminus ataskaita
               href: accounts-receivable/customer-aging.md
+            - name: Kliento skirstymo pagal terminus duomenų saugykla
+              href: accounts-receivable/customer-aging-data-storage.md
             - name: Kliento nurašymo žurnalo kūrimas
               href: accounts-receivable/tasks/create-write-off-journal-customer.md
             - name: Išplėstinis pastabų valdymas
@@ -1476,6 +1474,10 @@
                           items:
                             - name: PVM deklaracija
                               href: localizations/emea-fra-VAT-declaration-preview-France.md
+                        - name: Vokietijos ataskaitos
+                          items:
+                            - name: PVM deklaracija
+                              href: /localizations/emea-deu-vat-declaration-germany.md
                         - name: Nyderlandų ataskaitos
                           items:
                             - name: PVM deklaracija
@@ -2160,11 +2162,13 @@
                       href: localizations/emea-deu-gdpdu-data-filtering.md
                 - name: Papildomų įsigijimų antraisiais metais nusidėvėjimo koregavimai
                   href: localizations/tasks/de-00002-depreciation.md
+                - name: PVM deklaracija
+                  href: localizations/emea-deu-vat-declaration-germany.md
                 - name: Elektroninis PVM deklaracijos perkėlimas (ELSTER)
                   href: localizations/tasks/de-00003-electronic-transmission-elster.md
                 - name: Vokietijos Intrastat
                   href: localizations/emea-deu-intrastat.md
-                - name: Vokietijos PVM deklaracija
+                - name: PVM išrašas
                   href: localizations/emea-de-vat-declaration.md
                 - name: Kliento elektroninių sąskaitų faktūrų ataskaita
                   href: localizations/emea-deu-e-invoices.md

@@ -62,10 +62,6 @@
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Vietiniams visuotiniams diegimams skirto sandėliavimo konfigūravimas
                   href: ../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md?toc=/dynamics365/supply-chain/toc.json
-                - name: '„Finance and Operations“ programos, valdomos „21Vianet“ Kinijoje'
-                  href: ../fin-ops-core/dev-itpro/deployment/china-local-deployment.md?toc=/dynamics365/supply-chain/toc.json
-                - name: „Finance and Operations“ programos Prancūzijoje
-                  href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/supply-chain/toc.json
             - name: Kas nauja ar pasikeitė
               items:
                 - name: Kas nauja ar pasikeitė „Finance and Operations“ programose
@@ -2147,7 +2143,7 @@
               items:
                 - name: Projekto išteklių informacijos nustatymas
                   href: procurement/tasks/set-up-project-resource-information.md
-                - name: Projektų biudžetų teikimas ir tvirtinimas
+                - name: Projekto biudžeto darbo eigos kūrimas ir pateikimas
                   href: procurement/tasks/submit-approve-project-budget.md
                 - name: Projektų biudžetų tikslinimų teikimas ir tvirtinimas
                   href: procurement/tasks/submit-approve-project-budget-revision.md
@@ -3757,7 +3753,7 @@
                   href: troubleshooting/transportation/reconciliation-reaso.md
             - name: Sandėlio valdymas
               items:
-                - name: „Warehouse Mobile App“
+                - name: Warehouse Mobile App
                   items:
                     - name: Nustatant programos ryšį nepavyko rasti sertifikato maršruto saugumą užtikrinančios priemonės
                       href: troubleshooting/warehousing/certification-path-app-connection-error.md

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2021-08-20
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: f3cac30a66ff3a74a7f67c11dd9fa14af79d10af
-ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
-ms.translationtype: HT
+ms.openlocfilehash: 68115d484abcdc3c37357ae441e9f9ccb5212659
+ms.sourcegitcommit: 6a9f068b59b62c95a507d1cc18b23f9fd80a859b
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752622"
+ms.lasthandoff: 11/20/2021
+ms.locfileid: "7827058"
 ---
 # <a name="troubleshoot-finance-insights-setup-issues"></a>„Finance insights“ apie nustatymą trikčių šalinimas
 
@@ -35,7 +35,7 @@ ms.locfileid: "7752622"
 
 ### <a name="resolution"></a>Sprendimas
 
-Galbūt naudojate ankstesnės versijos šabloną. Prieš išleisdami 10.0.17 versiją peržiūrėkite klientus, sukonfigūravo **kliento mokėjimo žinių rezultatus (CDS į Fin ir Ops)** duomenų integravimo (DI) šabloną naudodami **mokėjimo numatymo rezultato (peržiūros)** objektą. Atnaujinę į 10.0.17 ar vėlesnę versiją, norėdami baigti susiejimą, turite naudoti **kliento mokėjimo žinių rezultatus (CDS į Fin ur Ops 10.0.17 ir vėlesnės)** DI versijos. Gali būti, kad negalėsite susieti DI šablono paskirties stulpelio, kol nebus atnaujintas duomenų valdymo objektų sąrašas ir jame atsiras **mokėjimo numatymo rezultato** objektas. Norėdami atnaujinti objektų sąrašą ir rodyti mokėjimo numatymo rezultatą, atlikite veiksmus ir „Microsoft Dynamics 365 Finance“ ir „Dataverse“ (anksčiau žinoma kaip „Common Data Service“ \[ CDS\] administravimo portale).
+Galbūt naudojate ankstesnės versijos šabloną. Prieš išleisdami 10.0.17 versiją peržiūrėkite klientus, sukonfigūravo **kliento mokėjimo žinių rezultatus (CDS į Fin ir Ops)** duomenų integravimo (DI) šabloną naudodami **mokėjimo numatymo rezultato (peržiūros)** objektą. Atnaujinę į 10.0.17 ar vėlesnę versiją, norėdami baigti susiejimą, turite naudoti **kliento mokėjimo žinių rezultatus (CDS į Fin ur Ops 10.0.17 ir vėlesnės)** DI versijos. Gali būti, kad negalėsite susieti DI šablono paskirties stulpelio, kol nebus atnaujintas duomenų valdymo objektų sąrašas ir jame atsiras **mokėjimo numatymo rezultato** objektas. Norėdami atnaujinti objektų sąrašą ir rodyti mokėjimo numatymo rezultatą, atlikite veiksmus ir „Microsoft Dynamics 365 Finance“ ir „Dataverse“ (anksčiau žinoma kaip „Common Data Service“ \[CDS\] administravimo portale).
 
 ### <a name="in-finance"></a>„Finance“
 
@@ -70,3 +70,26 @@ Pinigų srautų prognozės funkcija grynųjų pinigų ir banko valdymo srityje i
 Pirmiausia nustatykite ir įgalinkite pinigų srautų prognozavimo ir likvidumo sąskaitas. Daugiau informacijos žr. [Pinigų srauto planavimas](../cash-bank-management/cash-flow-forecasting.md). Jei šis nustatymas baigtas, bet nematote jokių rezultatų, kuriuos tikitės, daugiau informacijos žr. pinigų srautų [prognozės nustatymo trikčių](../cash-bank-management/cash-flow-forecasting-tsg.md) šalinimas.
 
 Po to patvirtinkite, kad pinigų srautų prognozių funkcija finansų žinių srityje (**grynųjų pinigų ir banko valdymas \> Nustatymai \> Finance Insights \> Pinigų srauto prognozės**) yra įgalintos ir kad AI modelio mokymas baigtas. Jei mokymas baigtas, norėdami pradėti mokymo proceso modelį, pasirinkite **Prognozė dabar**.
+
+## <a name="symptom-why-isnt-the-install-a-new-add-in-button-visible-in-microsoft-dynamics-lifecycle-services"></a>Požymis: kodėl nėra naujo priedo mygtuko, matomo Microsoft Dynamics ciklo tarnybose?
+
+### <a name="resolution"></a>Paaiškinimas
+
+Pirmiausia patikrinkite, ar aplinkos tvarkytuvo arba projekto savininko vaidmuo priskirtas prisiregistravęs vartotojui ciklo **tarnybų** **·** **·** Microsoft Dynamics (LCS) lauke Projekto saugos vaidmuo. Naujiems papildiniai įdiegti reikalauja vieno iš šių projekto saugos vaidmenų.
+
+Jei jums priskirtas tinkamas projekto saugos vaidmuo, gali tekti atnaujinti naršyklės langą, kad būtų galima matyti naujo **priedo diegimo** mygtuką.
+
+## <a name="symptom-the-finance-insights-add-in-doesnt-seem-to-be-installing-why-is-that"></a>Požymis: finansų žinių priedas nebūtinai turi būti diegiamas. Kodėl taip?
+
+### <a name="resolution"></a>Paaiškinimas
+
+Turi būti atlikti šie veiksmai.
+
+- Patikrinkite, ar turite sistemos **administratoriaus** ir sistemos **pritaikymo vartotojo prieigą** "Power Portal" administravimo centre.
+- Patikrinkite, Dynamics 365 Finance ar papildinį diegiantiems vartotojams taikoma ekvivalentinė licencija.
+- Patikrinkite, ar Azure AD užregistruota ši Azure AD programa: 
+
+  | Prašymas                  | Programos ID           |
+  | ---------------------------- | ---------------- |
+  | „Microsoft Dynamics ERP Microservices CDS“ | „703e2651-d3fc-48f5-942c-74274233dba8“ | 
+  
