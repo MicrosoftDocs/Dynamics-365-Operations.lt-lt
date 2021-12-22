@@ -2,7 +2,7 @@
 title: Nustatykite B2B el. komercijos saitą
 description: Šioje temoje aprašoma, kaip nustatyti verslo su verslu (B2B) el. komercijos saitą „Microsoft Dynamics 365 Commerce“.
 author: josaw1
-ms.date: 04/23/2021
+ms.date: 12/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,16 +14,17 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: c630580dd75a86085746b36726e9ee55a9db2af5
-ms.sourcegitcommit: 6bf9e18989e6d77497a9dda1c362f324b3c2fbf2
+ms.openlocfilehash: 171e518258e9600bd7526cf52e3e456d272e6bce
+ms.sourcegitcommit: 5f5a8b1790076904f5fda567925089472868cc5a
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/27/2021
-ms.locfileid: "7713753"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7891390"
 ---
 # <a name="set-up-a-b2b-e-commerce-site"></a>B2B el. prekybos svetainės nustatymas
 
 [!include [banner](../../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
 Verslo su verslu (B2B) el. komercijos saitas suteikia kelias pagrindines ypatybes, kurios optimizuoja B2B vartotojo darbo eigą. Šioje temoje aprašoma, kaip nustatyti verslo su verslu (B2B) el. komercijos saitą „Microsoft Dynamics 365 Commerce“. Jis eina per modulius ir saito nustatymus, kurie turi būti konfigūruojami siekiant į jungti B2B konkrečius scenarijus.
 
@@ -306,6 +307,30 @@ Norėdami įtraukti modulį į vežimėlio puslapį „Commerce“ saito kūrimo
 
 > [!NOTE] 
 > Greito įtraukimo modulis yra prieinamas nuo „Commerce“ versijos 10.0.17 leidime. Jei atnaujinate iš senesnės „Commerce” versijos, turite rankiniu būdu atnaujinti failą appsettings.json. Dėl nurodymų, žr. [SDK ir modulio bibliotekos naujinimai](../e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file).
+
+## <a name="add-a-bulk-purchase-module-to-a-product-details-page"></a>Įtraukti masinio pirkimo modulį į produkto informacijos puslapį
+
+Masinio pirkimo modulis produkto informacijos puslapyje (PDP) teikia matrica pagrįstą patirtį, kuri leidžia pirkėjui greitai į krepšelį įtraukti keletą produkto variantų. Kai svetainės vartotojas turi užsakyti keletą to paties produkto variantų, dėl šios patirties nereikia pasirinkti produkto dimensijų derinio, nustatyti kiekį, įtraukti variantą į krepšelį, o tada pakartoti kitų produkto dimensijų kombinacijų procesą.
+
+Norėdami įtraukti masinio pirkimo modulį į PDP komercijos svetainės generatoriuje, atlikite šiuos veiksmus.
+
+1. Pereikite prie **šablonų** ir pasirinkite savo svetainės PDP šabloną.
+1. Pasirinkite **Redaguoti**.
+1. Modulio **Numatytasis puslapis** vietoje **Pagrindinis** pasirinkite daugtaškį (**...**) ir **Įtraukti modulį**.
+1. Dialogo lange **Įtraukti modulį** pasirinkite modulį **Konteineris**, tada pasirinkite **Gerai**.
+1. Vietoje **Konteineris** pasirinkite daugtaškį (**...**), tada – **Įtraukti modulį**.
+1. Dialogo lange **Įtraukti** modulį pasirinkite masinio **pirkimo** modulį, tada pasirinkite **Gerai**.
+1. Pasirinkite **Išsaugoti**, tada – **Baigti redagavimą**, kad užregistruotumėte šabloną, o tada pasirinkite **Publikuoti**, kad publikuotumėte jį.
+1. Eiti **į puslapius** ir pasirinkti savo svetainės PDP.
+1. Modulio **Numatytasis puslapis** vietoje **Pagrindinis** pasirinkite daugtaškį (**...**) ir **Įtraukti modulį**.
+1. Dialogo lange **Įtraukti modulį** pasirinkite modulį **Konteineris**, tada pasirinkite **Gerai**.
+1. Konteinerio modulio ypatybės **srityje po Plotis pasirinkite Užpildyti** **·** **konteinerį.**
+1. Vietoje **Konteineris** pasirinkite daugtaškį (**...**), tada – **Įtraukti modulį**.
+1. Dialogo lange **Įtraukti** modulį pasirinkite masinio **pirkimo** modulį, tada pasirinkite **Gerai**.
+1. Pasirinkite **Išsaugoti**, tada – **Baigti redagavimą**, kad užregistruotumėte puslapį, o tada pasirinkite **Publikuoti**, kad publikuotumėte jį.
+
+> [!NOTE] 
+> Masinio pirkimo modulį galima naudoti kaip "Commerce" 10.0.24 versiją. Jei atnaujinate iš senesnės „Commerce” versijos, turite rankiniu būdu atnaujinti failą appsettings.json. Dėl nurodymų, žr. [SDK ir modulio bibliotekos naujinimai](../e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file).
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 

@@ -1,7 +1,7 @@
 ---
 title: 125 procentų mažėjančios vertės metodas
-description: Šiame straipsnyje apžvelgtas 125 % nusidėvėjimo mažėjančios vertės metodas.
-author: saraschi2
+description: Šioje temoje pateikta 125 procentų mažėjančios vertės nusidėvėjimo metodo apžvalga.
+author: moaamer
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -12,21 +12,21 @@ ms.reviewer: roschlom
 ms.custom: 13871
 ms.assetid: 3abc263e-59d6-4f1a-986d-1be388948bd3
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 68afee1840707a74ca3a0ac9643c2a23761da8da6d2e85e6b79d48bee4aad27c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 605f9fd3dea02e01c2c49b8e1a6cc52310132304
+ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6744994"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7883523"
 ---
 # <a name="125-percent-reducing-balance-depreciation"></a>125 procentų mažėjančios vertės metodas
 
 [!include [banner](../includes/banner.md)]
 
-Šiame straipsnyje apžvelgtas 125 % nusidėvėjimo mažėjančios vertės metodas.
+Šioje temoje pateikta 125 procentų mažėjančios vertės nusidėvėjimo metodo apžvalga.
 
 Nustačius ilgalaikio turto nusidėvėjimo šabloną ir puslapio **Nusidėvėjimo šablonai** lauke **Metodas** pasirinkus reikšmę **125 % mažėjanti vertė**, šiam nusidėvėjimo šablonui priskirto ilgalaikio turto nusidėvėjimo procentas yra toks pat kiekvienu nusidėvėjimo laikotarpiu. Šis procentas apskaičiuojamas remiantis ilgalaikio turto dėvėjimo laiku. Pavyzdžiui, jei turto dėvėjimo laikas yra penkeri metai, apskaičiuotas procentas yra 25 procentai (125 % ÷ 5).
 

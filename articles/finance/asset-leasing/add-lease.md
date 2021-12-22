@@ -2,7 +2,7 @@
 title: Nuomos įtraukimas arba kopijavimas (peržiūros versija)
 description: Šioje temoje aprašoma, kaip sukurti naują nuomą, įvedant jos informaciją modulyje Turto nuoma arba kopijuojant informaciją iš esamos nuomos.
 author: moaamer
-ms.date: 10/28/2020
+ms.date: 12/06/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 2f2e6837819158688f3fd6bc28909a106a05a098ca917cab9032a2d0044042fc
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ee4803c4653b8c2df2cb731652456b1ce2796cd0
+ms.sourcegitcommit: e77d72fde17a43bd1780c265702254011af7407c
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6761331"
+ms.lasthandoff: 12/07/2021
+ms.locfileid: "7893650"
 ---
 # <a name="add-or-copy-leases-preview"></a>Nuomos įtraukimas arba kopijavimas (peržiūros versija)
 
@@ -35,6 +35,8 @@ Atlikite tolesnius veiksmus, norėdami sukurti nuomą modulyje Turto nuoma.
 1. Puslapio **Nuomos suvestinė** veiksmų srityje pasirinkite **Nauja**.
 2. Įveskite nuomos informaciją. Laukų, kuriuos būtina užpildyti, kraštinės yra raudonos.
 
+> Nuomos mokėjimo pradžios data negali būti ankstesnė už nuomos pradžios datą. Jei įvesite nuomos mokėjimo pradžios datą, kuri būtų ankstesnė nei nuomos pradžios data, gausite klaidos pranešimą.
+  
 ## <a name="create-a-lease-schedule"></a>Nuomos grafiko kūrimas
 
 Baigę įvesti nuomos informaciją, atlikite šiuos veiksmus, kad sukurtumėte nuomos grafiką.

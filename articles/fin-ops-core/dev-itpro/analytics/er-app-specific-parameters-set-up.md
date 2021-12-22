@@ -15,18 +15,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.3
-ms.openlocfilehash: 9b57c6165e5de4a115818a135ed1455e3b05e3f0
-ms.sourcegitcommit: 4b7e9d074e368a08d2f75482b722dce0c69a4bbd
-ms.translationtype: MT
+ms.openlocfilehash: 130487c41d8021692968141eca1a16d298a809e1
+ms.sourcegitcommit: eef5d9935ccd1e20e69a1d5b773956aeba4a46bc
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "7733468"
+ms.lasthandoff: 12/11/2021
+ms.locfileid: "7913656"
 ---
 # <a name="set-up-the-parameters-of-an-er-format-per-legal-entity"></a>ER formato parametrų nustatymas kiekvienam juridiniui subjektui
 
 [!include[banner](../includes/banner.md)]
-
-[!include[banner](../includes/preview-banner.md)]
 
 ## <a name="prerequisites"></a>Būtinieji komponentai
 
@@ -118,7 +116,7 @@ Naudodami ER sistemą, ER formato parametrus galite nustatyti konkrečiai progra
 
 15. Pasirinkite **Įtraukti** ir atlikite tolesnius veiksmus.
 
-    1. Lauke **Kodas** pasirinkite parinktį **\* Ne tuščia\***.
+    1. Lauke **Kodas** pasirinkite parinktį **\*Ne tuščia\***.
     2. Lauke **Peržvalgos rezultatas** pasirinkite reikšmę **Kita**.
 
     Įtraukdami šį pastarąjį įrašą, apibrėžiate tokią taisyklę: kada mokesčio kodas, perduodamas kaip argumentas, netenkina nė vienos iš ankstesnių taisyklių, peržvalgos duomenų šaltinis kaip reikalaujamą apmokestinimo lygį pateiks **Kita**.
@@ -170,7 +168,7 @@ Norėdami nustatyti USMF įmonės parametrus, atlikite šiuos veiksmus:
 8. Pasirinkite mokesčio kodą **EXEMPT**.
 9. Naujo įrašo lauke **Peržvalgos rezultatas** pasirinkite reikšmę **Apmokestinimo nėra**.
 10. Pasirinkite **Įtraukti**.
-11. Naujo įrašo lauke **Kodas** pasirinkite parinktį **\* Ne tuščia\***.
+11. Naujo įrašo lauke **Kodas** pasirinkite parinktį **\*Ne tuščia\***.
 12. Naujo įrašo lauke **Peržvalgos rezultatas** pasirinkite reikšmę **Įprastas apmokestinimas**.
 13. Lauke **Būsena** pasirinkite **Baigta**.
 14. Pasirinkite **Įrašyti**.

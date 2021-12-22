@@ -68,14 +68,14 @@
                   href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/finance/toc.json
                 - name: Kas nauja ar pasikeitė „Finance”
                   items:
-                    - name: Kas nauja ar pasikeitė „Finance“ pagrindinis puslapis
+                    - name: Kas nauja ar pasikeitė „Finance“ pagrindiniame puslapyje
                       href: get-started/whats-new-home-page.md
-                    - name: Finance 10.0.23
+                    - name: „Finance 10.0.24“ (vasario mėn.)
+                      href: get-started/whats-new-changed-10-0-24.md
+                    - name: „Finance 10.0.23“ (sausio mėn.)
                       href: get-started/whats-new-changed-10-0-23.md
                     - name: „Finance 10.0.22“ (2021 m. lapkričio mėn.)
                       href: get-started/whats-new-changed-10-0-22.md
-                    - name: „Finance 10.0.21“ (2021 m. spalio mėn.)
-                      href: get-started/whats-new-changed-10-0-21.md
             - name: Pašalintos arba nerekomenduojamos funkcijos
               items:
                 - name: Pašalintos arba nerekomenduojamos funkcijos pagrindinis puslapis
@@ -518,6 +518,8 @@
               href: budgeting/budget-control-overview-configuration.md
             - name: Biudžetų sudarymo apžvalga
               href: budgeting/basic-budgeting-overview-configuration.md
+            - name: Turimos biudžeto lėšos
+              href: budgeting/budget-funds-available.md
             - name: Pareigų prognozavimas
               href: budgeting/position-forecasting.md
             - name: Biudžeto planavimo pagrindimo dokumentai
@@ -1434,6 +1436,8 @@
                           href: localizations/e-invoicing-get-started-import-vendor-invoices.md
                         - name: Elektroninių SF išrašymo nustatymas
                           href: localizations/e-invoicing-setup.md?toc=/dynamics365/finance/toc.json
+                        - name: „Power Platform“ priedo administratoriaus nuoroda
+                          href: localizations/e-invoicing-power-platform-plug-in.md
                     - name: Elektroninių SF išrašymo DUK
                       href: localizations/e-invoicing-faq.md?toc=/dynamics365/finance/toc.json
                 - name: Mokesčių skaičiavimas
@@ -1444,6 +1448,14 @@
                       items:
                         - name: Pradėti naudoti mokesčių skaičiavimą
                           href: localizations/global-get-started-with-tax-calculation-service.md?toc=/dynamics365/finance/toc.json
+                        - name: Mokesčių kodų nustatymas
+                          href: localizations/set-up-tax-codes.md
+                        - name: Mokesčių grupių nustatymas
+                          href: localizations/set-up-tax-groups.md
+                        - name: Prekių mokesčių grupių nustatymas
+                          href: localizations/set-up-item-tax-groups.md
+                        - name: Mokesčių skaičiavimo importavimas ir eksportavimas
+                          href: localizations/tax-calculation-import-export-feature.md
                         - name: Bendrųjų duomenų peržvalgos aplinkos nustatymas
                           href: localizations/tax-service-set-up-environment-master-data-lookup.md?toc=/dynamics365/finance/toc.json
                     - name: Nustatymas
@@ -2594,6 +2606,8 @@
               items:
                 - name: Indonezijos apžvalga
                   href: localizations/indonesia.md
+                - name: Mokesčių SF numeravimas ir SF išrašymas
+                  href: localizations/apac-idn-invoicing.md
                 - name: Indonezijos PVM deklaracija
                   href: localizations/apac-idn-ppn-declaration.md
             - name: Italija
@@ -2662,6 +2676,8 @@
                   href: localizations/emea-ita-exil-tax-plafond.md
                 - name: Kliento elektroninės sąskaitos faktūros
                   href: localizations/emea-ita-e-invoices.md
+                - name: Tiekėjo elektroninės sąskaitos faktūros
+                  href: localizations/emea-ita-vend-e-invoices.md
                 - name: Kasmetinių mokesčių ryšys
                   href: localizations/emea-ita-yearly-tax-communication.md
                 - name: Mokėjimo atsekamumas
@@ -2964,6 +2980,20 @@
                   href: localizations/emea-nor-nets-import-format.md
                 - name: PVM išrašas
                   href: localizations/emea-nor-sales-tax-payment-report.md
+                - name: PVM grąžinimas su tiesioginiu pateikimu „Altinn“
+                  items:
+                    - name: PVM grąžinimo su tiesioginiu pateikimu „Altinn“ apžvalga
+                      href: localizations/emea-nor-vat-return.md
+                    - name: Integravimo taško registravimas „ID-porten“ žiniatinklio portale
+                      href: localizations/emea-nor-vat-return-integration-point.md
+                    - name: Paruoškite savo aplinką sąveikai su „ID-porten“ ir „Altinn“ žiniatinklio tarnybomis
+                      href: localizations/emea-nor-vat-return-setup.md
+                    - name: PVM grąžinimo elektroninių pranešimų nustatymo kontrolinis sąrašas
+                      href: localizations/emea-nor-vat-return-checklist.md
+                    - name: Autorizuokite savo „Finance“ aplinką sąveikai su „ID-Porten“ ir „Altinn“ žiniatinklio tarnybomis
+                      href: localizations/emea-nor-vat-return-authorization.md
+                    - name: PVM grąžinimo pateikimas „Altinn“ žiniatinklio tarnybai
+                      href: localizations/emea-nor-vat-return-submission.md
                 - name: Norvegijai skirtas standartinis mokesčio audito failas (SAF-T)
                   href: localizations/emea-nor-satndard-audit-file-for-tax.md
                 - name: Kliento elektroninės sąskaitos faktūros Norvegijoje
@@ -3831,7 +3861,9 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-sessiontoday.md?toc=/dynamics365/finance/toc.json
                         - name: Today
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-today.md?toc=/dynamics365/finance/toc.json
-                    - name: Sąrašas
+                        - name: WeekNum
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-weeknum.md?toc=/dynamics365/finance/toc.json
+                    - name: List
                       items:
                         - name: Sąrašo funkcijos
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-list.md?toc=/dynamics365/finance/toc.json

@@ -2,7 +2,7 @@
 title: Mokesčių skaičiavimo apžvalga
 description: Šioje temoje paaiškinama bendroji Mokesčių skaičiavimo galimybės apimtis ir funkcijos.
 author: wangchen
-ms.date: 10/15/2021
+ms.date: 11/17/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: caa7e458763b6ba6b2b85ab016a1aa2e53cee89a
-ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.openlocfilehash: 28b14eba7dd870e80a83f8d31671525b593a09c9
+ms.sourcegitcommit: e06b7d4de6d5ee7ae491d437d6c0365608a5380b
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "7647062"
+ms.lasthandoff: 12/06/2021
+ms.locfileid: "7892429"
 ---
 # <a name="tax-calculation-overview"></a>Mokesčių skaičiavimo apžvalga
 
@@ -65,9 +65,23 @@ Mokesčių skaičiavimas yra įdiegtas toliau nurodytose „Azure" geografinėse
 > [!NOTE]
 > Mokesčių skaičiavimas nepalaiko ankstesnių „Dynamics 365“ versijų, pvz., „Dynamics AX 2012“ ar vietinių „Dynamics 365“ įdiegčių.
 
+## <a name="versions"></a>Versijos
+Rekomenduojame importuoti ir nustatyti savo mokesčių skaičiavimo konfigūraciją su versija, kuri atitinka jūsų finansų arba tiekimo grandinės valdymo versiją.
+
+| Finansų arba tiekimo grandinės valdymo versija | Mokesčių konfigūracijos versija               |
+| --------------- | --------------------------------------- |
+| 10.0.18         | Mokesčių konfigūracija – Europa 30.12.82     |
+| 10.0.19         | Mokesčių skaičiavimo konfigūracija 36.38.193 |
+| 10.0.20         | Mokesčių skaičiavimo konfigūracija 40.43.208 |
+| 10.0.21         | Mokesčių skaičiavimo konfigūracija 40.48.215 |
+| 10.0.22         | Mokesčių skaičiavimo konfigūracija 40.48.215 |
+| 10.0.23         | Mokesčių skaičiavimo konfigūracija 40.50.221 |
+| 10.0.24         | Mokesčių skaičiavimo konfigūracija 40.50.225 |
+
+
 ## <a name="data-flow"></a>Duomenų srautas
 
-Toliau pateikiama papildinio Mokesčių skaičiavimas duomenų srauto proceso struktūra. 
+Čia yra mokesčių skaičiavimo duomenų srauto proceso struktūra. 
 
 1. Sprendime RCS peržiūrėkite ir importuokite apmokestinamų dokumentų modelių konfigūracijas bei modelių susiejimo konfigūracijas. Jei konfigūracijas turite išplėsti išplėstiniam scenarijui, žr. [Duomenų laukų įtraukimas į mokesčių konfigūracijas](tax-service-add-data-fields-tax-configurations.md).
 2. Sprendime RCS kurkite arba tvarkykite mokesčių funkcijas. Galite naudoti mokesčių funkcijas, norėdami tvarkyti mokesčių tarifus ir mokesčių taikymo taisykles.
@@ -169,6 +183,10 @@ Papildinį Mokesčių skaičiavimas gali įjungti juridinis subjektas.
 - Japonija
 - Malaizija
 - Singapūras
+
+10.0.24 versijoje palaikomos tolesnės juridinio subjekto pagrindinio adreso šalys / regionai.
+
+- Meksika
 
 ## <a name="related-resources"></a>Susiję ištekliai
 

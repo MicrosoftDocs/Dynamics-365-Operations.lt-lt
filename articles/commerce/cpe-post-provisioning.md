@@ -2,7 +2,7 @@
 title: „Dynamics 365 Commerce“ vertinimo aplinkos konfigūravimas
 description: Šiame skyriuje paaiškinama, kaip sukonfigūruoti pirkimą internetu, pasiėmimą parduotuvėje „Microsoft Dynamics 365 Commerce“ vertinimo aplinką, po to kai ji buvo parengta.
 author: psimolin
-ms.date: 08/24/2021
+ms.date: 12/10/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 2e98ea9e98380ee63f6cc1eb6dfc7b84d38c7dbb
-ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
-ms.translationtype: HT
+ms.openlocfilehash: 5883a6e68628d706fa19d7d23b68f17007c32890
+ms.sourcegitcommit: eef5d9935ccd1e20e69a1d5b773956aeba4a46bc
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7416484"
+ms.lasthandoff: 12/11/2021
+ms.locfileid: "7913732"
 ---
 # <a name="configure-a-dynamics-365-commerce-evaluation-environment"></a>„Dynamics 365 Commerce“ vertinimo aplinkos konfigūravimas
 
@@ -39,6 +39,7 @@ Po to kai jūsų Komercijos vertinimo aplinka buvo parengta iki galo, papildomas
 1. Sąraše pasirinkite savo aplinką.
 1. Aplinkos informacijoje dešinėje, pasirinkite **Prisijungti prie aplinkos**. Būsite nukreipti į komercijos būstinę.
 1. Įsitikinkite, kad viršutiniame dešiniajame kampe pasirinktas juridinis subjektas **USRT**.
+2. Eikite į "Commerce" parametrus > konfigūracijos parametrus ir **įsitikinkite**, kad yra **ProductSearch.UseAzureSearch** įrašas, nustatytas kaip **teisingas**. Jei nėra šio įrašo, galite įtraukti šį įrašą ir paleisti kanalo duomenų bazę > "Commerce Scale" vieneto, susieto su jūsų **eCommerce** svetaine, visas sinchronizavimas.
 
 Po parengimo veiksmų komercijos būstinėje, įsitikinkite, kad **USRT** juridinis asmuo yra visuomet pasirinktas.
 
@@ -105,6 +106,12 @@ Norėdami programoje „Commerce“ įjungti užduotis, atlikite toliau nurodytu
     1. Pasirinkite įrašą.
     1. Veiksmų srities skirtuke **Paketinė užduotis** pasirinkite **Keisti būseną**.
     1. Pasirinkite **Atšaukti**, tuomet pasirinkite **Gerai**.
+
+1. Jei užduoties būsena **išskaitoma,** atlikite šiuos veiksmus:
+
+    1. Pasirinkite įrašą.
+    1. Veiksmų srities skirtuke **Paketinė užduotis** pasirinkite **Keisti būseną**.
+    1. Pasirinkite **Laukiama**, tada – **Gerai**.
 
 Pasirinktinai, taip pat galite nustatyti sutapimo intervalą ties (1) minute šiems veiksmams:
 

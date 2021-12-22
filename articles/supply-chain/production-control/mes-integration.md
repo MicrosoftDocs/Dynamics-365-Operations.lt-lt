@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-10-01
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 14e86a49777eefefae711bfe0d756361b09d69c2
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: 43814023474d44b8c95bae087c7b6a4d52d21471
+ms.sourcegitcommit: 7cbd53617af179a0de74aae30c149edc95e86684
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7778454"
+ms.lasthandoff: 12/06/2021
+ms.locfileid: "7891931"
 ---
 # <a name="integrate-with-third-party-manufacturing-execution-systems"></a>Integravimas trečiosios šalies gamybos vykdymo sistemose
 
@@ -53,7 +53,7 @@ Galite įgalinti bet kurį arba visus šiuos integravimo procesus.
 | Ataskaita apie pagamintą arba nurašytą kiekį | Šis procesas suteikia tiekimo grandinės valdymą ir informaciją apie gerų ir klaidų kiekius, kurie pranešami gamybos užduotyje naudojant MES. Taip užtikrinama, kad darbo laiko prižiūrėtojai turėtų naujausias gamybos plano eigos vaizdą. |
 | Ataskaita apie medžiagų suvartojimą | Šis procesas teikia tiekimo grandinės valdymą, remiantis MES, informacija apie suvartotų medžiagų kiekį. Ji atlieka naujausias atsargų įrašus, prieinamus kitiems svarbiams procesams, pvz., planavimui ir pardavimui. |
 | Ataskaitai skirtas laikas, sunaudotas operacijai | Šis procesas suteikia tiekimo grandinės valdymą ir informaciją apie laiką, kuris naudojamas specialiai operacijai. |
-| Baigti gamybos užsakymą | Šis procesas informuos tiekimo grandinės valdymą, kad MES atnaujino gamybos užsakymą į galutinę būseną *·* Baigta. Ši būsena nurodo, kad pagal gamybos užsakymą daugiau kiekių nebus gaminama. |
+| Baigti gamybos užsakymą | Šis procesas informuos tiekimo grandinės valdymą, kad MES atnaujino gamybos užsakymą į galutinę būseną *Baigta*. Ši būsena nurodo, kad pagal gamybos užsakymą daugiau kiekių nebus gaminama. |
 
 ## <a name="monitor-incoming-messages"></a>Gautų pranešimų stebėjimas
 
@@ -191,7 +191,7 @@ Toliau pateikiamoje lentelėje rodomi laukai, kuriuos palaiko `RouteCardLines` k
 
 | Lauko pavadinimas | Būsena | Tipas |
 |---|---|---|
-| `OperationNumber` | Privalomas | Privaloma, integer |
+| `OperationNumber` | Privalomas | Sveikasis skaičius |
 | `OperationPriority` | Pasirinktina | Išvardimis \| (pirminis antrinis1 \| antrinis2... \|\| Antrinis 20) |
 | `OperationId` | Pasirinktina | Eilutė |
 | `OperationsResourceId` | Pasirinktina | Eilutė |
@@ -242,5 +242,5 @@ Tokiais atvejais galite pasinaudoti standartine tiekimo grandinės valdymo įsp�
 
 Pavyzdžiui, galite nustatyti šiuos įspėjimus, kad galėtumėte pateikti atsiliepimus apie pranešimo būseną:
 
-- Kurti verslo įvykį ("Siųsti išoriškai"), kuris naudojamas, kai pranešimas *·* nepavyko.
+- Kurti verslo įvykį ("Siųsti išoriškai"), kuris naudojamas, kai pranešimas *nepavyko*.
 - Siųsti pranešimą ir el. laišką IT administratoriui arba gamybos laiko vadybininkui.

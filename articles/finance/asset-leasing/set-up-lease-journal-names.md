@@ -2,7 +2,7 @@
 title: Nuomos žurnalo pavadinimų nustatymas
 description: Šioje temoje paaiškinama, kaip nustatyti nuomos žurnalų pavadinimus. Nuomos žurnalų pavadinimai nurodo žurnalus, kuriuose įrašai, kilę iš turto nuomos, registruojami.
 author: moaamer
-ms.date: 04/12/2021
+ms.date: 12/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 1ea35ec40ddd459e1a9e7641557147e23fe45d3e
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
-ms.translationtype: HT
+ms.openlocfilehash: b9d8136ae4f960a586b9526751fc8bf6e7675c8d
+ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7343219"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7890755"
 ---
 # <a name="set-up-lease-journal-names"></a>Nuomos žurnalo pavadinimų nustatymas
 
@@ -33,12 +33,13 @@ Nuomos žurnalų pavadinimai nurodo žurnalus, kuriuose turto nuomos operacijos 
 Sistema užrakina tam tikrus finansinius laukus, kad išvengtų nuokrypių tarp operacijų ir grafikų. Kai kurie laukai, kurie yra užrakinti, apima **sąskaitą**, **sumas**, **finansines dimensijas**, **valiutą** ir **operacijos tipą**. Be to, žurnalo įrašų eilučių nebus galima įtraukti į žurnalo žurnalo įrašus, nes dėl to gali atsirasti nuokrypių tarp grafikų ir operacijų.
 
 
-Norėdami sukonfigūruoti nuomos žurnalų pavadinimus, atlikite šiuos veiksmus.
+Norėdami konfigūruoti nuomos žurnalų pavadinimus, atlikite šiuos veiksmus.
 
 1. Eikite į **Turto nuoma \> Sąranka \> Turto nuomos parametrai**.
 2. Skirtuko **Bendra** lauke **Pirminio pripažinimo žurnalo pavadinimas** pasirinkite žurnalą. Visi pradiniai pripažinimo žurnalo įrašai bus registruojami į šį žurnalo pavadinimą.
 3. Lauke **SF žurnalo pavadinimas** pasirinkite žurnalą. Jei nuomos knygos parinktis **Sumokėti tiekėjui** nustatyta į **Taip**, nuomos ir išlaidų apmokėjimo SF bus užregistruotos šiame žurnalo pavadinime.
 4. Lauke **Nuomos žurnalo pavadinimas** pasirinkite žurnalą. Visi nusidėvėjimo, palūkanų ir trumpojo laikotarpio perklasifikavimo įrašai bus registruojami į šį žurnalo pavadinimą. Jei nuomos knygos parinktis **Sumokėti tiekėjui** nustatyta į **Ne**, nuomos mokėjimo ir išlaidų apmokėjimo įrašai bus taip pat užregistruoti šiame žurnalo pavadinime.
+5. Lauke Nuomos **modifikavimo žurnalo** pavadinimas pasirinkite žurnalą. Nuomos koregavimo, atleidimo ir pablogėjimo operacijos bus registruojamos šiame žurnalo pavadinime. Jūsų pasirinktu žurnalo pavadinimui neturi būti priskirta darbo eiga arba patvirtinimas. Jei nuomos modifikavimo žurnalo pavadinimas nėra nustatytas, nuomos koregavimo, atleidimo ir pablogėjimo operacijos bus registruojamos žurnalo pavadinime, kuris pasirinktas nuomos **žurnalo pavadinimo** lauke. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

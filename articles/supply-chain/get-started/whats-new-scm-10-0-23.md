@@ -1,5 +1,5 @@
 ---
-title: Peržiūros versija Dynamics 365 Supply Chain Management 10.0.23
+title: 10.0.23 versijos „Dynamics 365 Supply Chain Management” peržiūra (2022 m. sausio mėn.)
 description: Šioje temoje aprašomos naujos ir pakeistos „Microsoft Dynamics 365 Supply Chain Management“ 10.0.23 funkcijos.
 author: kamaybac
 ms.date: 10/15/2021
@@ -10,14 +10,14 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 7950d225bd528c05c14df108f4d44cef3e348ebb
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
-ms.translationtype: MT
+ms.openlocfilehash: fd6483c86b34d355e3727a95794b7876dc54ec32
+ms.sourcegitcommit: 96515ddbe2f65905140b16088ba62e9b258863fa
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7777796"
+ms.lasthandoff: 12/04/2021
+ms.locfileid: "7891798"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10023"></a>Peržiūros versija Dynamics 365 Supply Chain Management 10.0.23
+# <a name="preview-of-dynamics-365-supply-chain-management-10023-january-2022"></a>10.0.23 versijos „Dynamics 365 Supply Chain Management” peržiūra (2022 m. sausio mėn.)
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
@@ -26,6 +26,7 @@ ms.locfileid: "7777796"
 
 - **Leidimo peržiūra:** 2021 m. spalio mėn.
 - **Bendras leidimo pasiekiamumas (automatinis naujinimas):** 2021 m. gruodžio mėn.
+- **Bendras leidimo pasiekiamumas (automatinis naujinimas):** 2022 m. sausio mėn.
 
 ## <a name="features-included-in-this-release"></a>Funkcijos, įtrauktos į šį leidimą
 
@@ -34,8 +35,8 @@ Tolesnėje lentelėje pateiktos funkcijos, kuri yra šiame leidime. Priemonės *
 | Funkcijos sritis | Funkcija | Daugiau informacijos | Įjungė   |
 |---|---|---|---|
 | Visuotinė adresų knygelė | Nustatyti kiekvienos adreso sąrankos šalies/ regiono numatytąją šalį/ regioną | Dabar visuotinės adresų knygelės adreso nustatyme galite nurodyti kiekvienos šalies/ regiono numatytąją valstiją/ apskritį. Kai nustatyta numatytoji valstija/ apskritis, kuriant naują tos šalies/ regiono apskritį ar miesto įrašą bus įvesta numatytoji vertė, įvesta rajono/ apskrities laukuose. Taip pat žr. [Adreso nustatymas](../../fin-ops-core/fin-ops/organization-administration/global-address-book-address-setup.md?toc=/dynamics365/supply-chain/toc.json) | Įgalinta pagal numatytąjį nustatymą. |
-| Atsargos&nbsp; ir&nbsp; logistika | [„Warehouse Management“ mobiliųjų įrenginių programėlės užduočių sustabdymas](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/park-tasks-warehouse-management-mobile-app) | [Mobiliojo įrenginio meniu elementų aplinkinių veiksmų konfigūravimas](../warehousing/warehouse-app-detours.md) | Priemonių valdymas (*Warehouse management programos apylanka)* |
-| Atsargos&nbsp; ir&nbsp; logistika | [Paaukštinti sandėlio programėlės laukai](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/warehouse-management-mobile-app-step-instructions) | [Paaukštintų laukų konfigūravimas mobiliajame įrenginyje atliekamiems veiksmams](../warehousing/warehouse-app-promoted-fields.md)| Funkcijų valdymas (*Warehouse programos skatinami laukai*) |
+| Atsargos&nbsp;ir&nbsp;logistika | [„Warehouse Management“ mobiliųjų įrenginių programėlės užduočių sustabdymas](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/park-tasks-warehouse-management-mobile-app) | [Mobiliojo įrenginio meniu elementų aplinkinių veiksmų konfigūravimas](../warehousing/warehouse-app-detours.md) | Priemonių valdymas (*Warehouse management programos apylanka)* |
+| Atsargos&nbsp;ir&nbsp;logistika | [Paaukštinti sandėlio programėlės laukai](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/warehouse-management-mobile-app-step-instructions) | [Paaukštintų laukų konfigūravimas mobiliajame įrenginyje atliekamiems veiksmams](../warehousing/warehouse-app-promoted-fields.md)| Funkcijų valdymas (*Warehouse programos skatinami laukai*) |
 | Gamyba | [Gamybos vykdymo sistemų integravimas](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/manufacturing-execution-systems-integration) | [Integravimas trečiosios šalies gamybos vykdymo sistemose](../production-control/mes-integration.md) | Funkcijų valdymas *(Gamybos vykdymo sistemos* integravimas) |
 | Gamyba | [Ataskaita apie sudėtinius ir šalutinius produktus iš gamybos vietos vykdymo sąsajos](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/enhanced-production-floor-execution-interface-process-manufacturing) | [Kaip darbuotojai naudoja gamybos vietos vykdymo sąsają](../production-control/production-floor-execution-use.md) | Funkcijų valdymas (*Ataskaita apie sudėtinius ir šalutinius produktus iš gamybos vietos vykdymo sąsajos*) |
 | Planuojama | [Prioriteto planavimo optimizavimo palaikymas](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/planning-optimization-support-priority-based-planning) | [Prioritetu grindžiamas planavimas](../master-planning/planning-optimization/priority-based-planning.md) | Funkcijų valdymas *(prioritetinis MRP palaikymas planavimo* optimizavimui) |
@@ -50,10 +51,11 @@ Jei norite įjungti arba išjungti bet kurią iš šių priemonių, tai turite a
 |---|---|---|
 | Turto valdymas | Išlaidų korespondentinės sąskaitos darbo užsakymo žurnaluose | Ši funkcija leidžia nurodyti kiekvienos darbo užsakymo žurnale išvardytos išlaidų korespondentinę sąskaitą. Paprastai tiekėjo sąskaitą galima susieti su išlaidomis, bet palaikomi ir kiti sąskaitų tipai. Tai prideda du naujus stulpelius (**Korespondentinės sąskaitos tipas** ir **Korespondentinė sąskaita**) į **Išlaidos** FastTab skirtuką **Darbo užsakymo žurnalas** puslapyje.|
 | Kaštų valdymas | Kurti susijusius kvitus standartinių išlaidų apvalinimo perkainojimams | <p>Kai atliekamas atsargų finansinis registravimas (pvz., pardavimo užsakymo SF arba atsargų operacija), dėl šios funkcijos sistema sukuria atskirą kvitą, susijusį su standartinių išlaidų apvalinimo perkainojimu ir prideda jį prie finansinio registravimo kvito kaip susijęs kvitas.</p><p>Be šios priemonės, sistema įrašo standartinius išlaidų apvalinimo perkainojimus tą patį kvito registravimą. Dėl tokio veikimo būdo kartais gali kilti nesuderinamos datos informacijos, nes perkainojimas naudoja seansą arba sistemos datą, o finansiniai registravimas naudoja registravimo datą.</p> |
-| Atsargų ir sandėlio valdymas | \[ Rusija\] Registruoti „Storno“ finansines atsargų operacijas pagal koregavimo žymę pardavimo užsakymų finansiniame kvite | Ši funkcija veikia Rusijos kredito pažymos pataisymų funkciją. Ji įgalina pardavimo SF atsargų operacijų registravimą atsižvelgiant į DK koregavimo pasirinktį. Įgalinus šią priemonę, daugiau nėra neatitikimų tarp **Koregavimo** vėliavėlių atsargų operacijų finansiniame kvite ir **Storno** vėliavėlių atsargų operacijose. |
+| Atsargų ir sandėlio valdymas | \[Rusija\] Registruoti „Storno“ finansines atsargų operacijas pagal koregavimo žymę pardavimo užsakymų finansiniame kvite | Ši funkcija veikia Rusijos kredito pažymos pataisymų funkciją. Ji įgalina pardavimo SF atsargų operacijų registravimą atsižvelgiant į DK koregavimo pasirinktį. Įgalinus šią priemonę, daugiau nėra neatitikimų tarp **Koregavimo** vėliavėlių atsargų operacijų finansiniame kvite ir **Storno** vėliavėlių atsargų operacijose. |
 | Atsargų ir sandėlio valdymas | (Rusija) Vykdyti atsargų balanso apyvartos ataskaitos skaičiavimą paketiniu režimu | Ši funkcija Rusijoje lokalizuotai Supply Chain Management suteikia galimybę paleisti *Atsargų balanso apyvartosr* ataskaitą paketiniu režimu, ją saugoti ir peržiūrėti anksčiau sugeneruotas ataskaitas. |
 | Atsargų ir sandėlio valdymas | (Rusija) Naudoti vertimus į vietinę kalbą šaliai arba regionui skirtose pirminėse formose atsargų valdymo skyriuje | Ši funkcija Rusijoje lokalizuotai Supply Chain Management leidžia naudoti produktų/ prekių pavadinimų ir matavimo vienetų vertimus rusų kalba šiuose atsargų spaudiniuose rusų kalba: skaičiavimo sąrašas (INV-3), skaičiavimo sąrašas (INV-5), skaičiavimo sąrašas (INV-6). |
-| Paraiškos | Valyti pirkimo-užsakymo atnaujinimų istoriją | Ši funkcija leidžia išvalyti laikinus retrospektyvinius įrašus, susijusius su pirkimo užsakymo atnaujinimais. Ji į veiksmų sritį įtraukia naują mygtuką, pavadintą **Valyti pirkimo atnaujinimo retrospektyvą**, kuris yra puslapyje **Visi pirkimo užsakymai**. Pagal numatytuosius nustatymus ši funkcija įjungta. |
+| Bendrasis planavimas | „Azure“ mašininio mokymo tarnyba poreikio prognozavimui | Ši funkcija įgalina "Azure" mašinos mokymosi tarnybą generuoti poreikio prognozes, pagrįstas praeities duomenimis. Daugiau informacijos rasite Poreikio [prognozės](../master-planning/demand-forecasting-setup.md) nustatymas. |
+| Paraiškos | Valyti pirkimo užsakymo atnaujinimų istoriją | Ši funkcija leidžia išvalyti laikinus retrospektyvinius įrašus, susijusius su pirkimo užsakymo atnaujinimais. Ji į veiksmų sritį įtraukia naują mygtuką, pavadintą **Valyti pirkimo atnaujinimo retrospektyvą**, kuris yra puslapyje **Visi pirkimo užsakymai**. Pagal numatytuosius nustatymus ši funkcija įjungta. |
 | Gamybos kontrolė | (Peržiūros versija) Automatinis su sandėliu susietų medžiagų paėmimas automatiškai užregistruotiems paėmimo sąrašams | Ši funkcija leidžia automatiškai paimti ir išspręsti atsargų matmenis automatiškai užregistruotiems, išvestiniams ir atvirkštiniams paėmimo sąrašų žurnalams. |
 | Gamybos kontrolė | Tikrinti žaliavų galiojimo pabaigą pagal suplanuoto suvartojimo datą | Ši priemonė pakeičia, kaip patikrinamos paketo galiojimo datos rezervuojant žaliavų paketą, kuris bus naudojamas gamybos metu. Įgalinus šią priemonę, paketo galiojimo data patikrinama pagal suplanuotą suvartojimo datą (žaliavų datą), kaip nustatyta gamybos BOM eilutėje arba paketo užsakymo formulės eilutėje. Kai ši funkcija išjungta, paketo galiojimo data patikrinama pagal suplanuotą gamybos arba paketinio užsakymo pristatymo datą (kaip anksčiau). |
 | Pardavimas ir rinkodara | Valyti pardavimo naujinimo istoriją pagal terminą | Ši funkcija leidžia nustatyti maksimalų įrašų amžių, kurį reikia išlaikyti, vykdant pardavimų atnaujinimo **retrospektyvos valymo** periodinę užduotį. Senesni įrašai bus panaikinti. Tai naudinga, kai nustatote, kad užduotis būtų vykdoma periodiškai, nes amžius visuomet apskaičiuojamas atsižvelgiant į užduoties vykdymo datą. Be šios priemonės galite nustatyti tik konkrečią seniausių išsaugoti tikrų įrašų datą. |

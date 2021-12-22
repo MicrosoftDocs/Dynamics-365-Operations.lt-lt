@@ -70,7 +70,9 @@
                   items:
                     - name: Kas nauja ar pasikeitė „Supply Chain Management“ pagrindinis puslapis
                       href: get-started/whats-new-home-page.md
-                    - name: „Supply Chain Management 10.0.23“
+                    - name: „Supply Chain Management 10.0.24“ (2022 m. vasario mėn.)
+                      href: get-started/whats-new-scm-10-0-24.md
+                    - name: „Supply Chain Management 10.0.23“ (2022 m. sausio mėn.)
                       href: get-started/whats-new-scm-10-0-23.md
                     - name: „Supply Chain Management 10.0.22“ (2021 m. lapkričio mėn.)
                       href: get-started/whats-new-scm-10-0-22.md
@@ -947,7 +949,9 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-sessiontoday.md?toc=/dynamics365/supply-chain/toc.json
                         - name: Today
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-today.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Sąrašas
+                        - name: WeekNum
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-weeknum.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: List
                       items:
                         - name: Sąrašo funkcijos
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-list.md?toc=/dynamics365/supply-chain/toc.json
@@ -3753,7 +3757,7 @@
                   href: troubleshooting/transportation/reconciliation-reaso.md
             - name: Sandėlio valdymas
               items:
-                - name: Warehouse Mobile App
+                - name: „Warehouse mobile app“
                   items:
                     - name: Nustatant programos ryšį nepavyko rasti sertifikato maršruto saugumą užtikrinančios priemonės
                       href: troubleshooting/warehousing/certification-path-app-connection-error.md

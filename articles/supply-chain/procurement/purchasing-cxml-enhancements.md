@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-08-03
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 210d92b9fd962708b141b79f3634f142cca9787a
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: 2942b141eb3a5b83fb39b0de721bae60c074e01c
+ms.sourcegitcommit: f5885999e008a49fe072d95f15e239905c24918a
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7777772"
+ms.lasthandoff: 12/08/2021
+ms.locfileid: "7900710"
 ---
 # <a name="purchasing-cxml-enhancements"></a>cXML patobulinimų pirkimas
 
@@ -28,7 +28,7 @@ Funkcija _cXML patobulinimų pirkimas_ kuriama pagal [esamą išorinio katalogo 
 
 ## <a name="turn-on-the-purchasing-cxml-enhancements-feature"></a>cXML patobulinimų pirkimo funkcijos įjungimas
 
-Norėdami įjungti funkciją, atidarykite **[Funkcijų valdymas](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)** puslapį ir ieškokite funkcijos, pavadintos *cXML patobulinimų pirkimas*. Pasirinkite funkciją ir tada pasirinkite **Įgalinti dabar**, kad ją įjungtumėte. (Kaip tiekimo grandinės valdymo versija 10.0.21, ši funkcija yra įjungta pagal numatytuosius nustatymus.)
+Norėdami įjungti funkciją, atidarykite **[Funkcijų valdymas](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)** puslapį ir ieškokite funkcijos, pavadintos *cXML patobulinimų pirkimas*. Pasirinkite funkciją ir tada pasirinkite **Įgalinti dabar**, kad ją įjungtumėte. (Kaip ir tiekimo grandinės valdymo versija 10.0.21, ši funkcija įjungiama pagal numatytąjį nustatymą.)
 
 Įjungę funkciją, konfigūruokite parametrus šiose trijose srityse:
 
@@ -42,7 +42,7 @@ Toliau pateiktoje iliustracijoje apibendrinama ši konfigūracija.
 
 Be to, turite nustatyti [Pirkimo užsakymo užklausos paketinę užduotį](#po-batch). Ši paketinė užduotis naudojama patvirtintiems pirkimo užsakymams siųsti.
 
-## <a name="set-up-global-cxml-parameters"></a><a name="cxml-parameters"></a> Bendrųjų cXML parametrų nustatymas
+## <a name="set-up-global-cxml-parameters"></a><a name="cxml-parameters"></a>Bendrųjų cXML parametrų nustatymas
 
 Naudokite **cXML parametrai** puslapį, kad nustatytumėte kelis bendruosius pirkimo užsakymų siuntimo funkcijos parametrus.
 
@@ -60,7 +60,7 @@ Eikite į **Paraiškos \> Nustatymai \> cXML valdymas \> cXML parametrai** ir nu
 - **Archyvuojami failai** – Nurodykite failo maršrutą, kur norite eksportuoti ir įrašyti archyvuotus cXML dokumentus. Maršrutas naudojamas paleidus šalinimo funkciją **Pirkimo užsakymo užklausos** puslapyje.
 - **Maksimalus simbolių skaičius adreso eilutei** – Įveskite maksimalų simbolių skaičių, kurį galima naudoti lauke Gatvė, skirtame adresams, esančiuose cXML dokumente. Šis bendrasis parametras turi įtakos visiems tiekėjams, išskyrus atvejus, kai išorinio katalogo ypatybėse nurodytas perrašymas.
 
-## <a name="set-up-vendor-purchase-orders-to-use-cxml"></a><a name="vendor-setup"></a> Nustatyti cXML naudojimą tiekėjo pirkimo užsakymams
+## <a name="set-up-vendor-purchase-orders-to-use-cxml"></a><a name="vendor-setup"></a>Nustatyti cXML naudojimą tiekėjo pirkimo užsakymams
 
 Kiekvieną kartą, kai patvirtinate pirkimo užsakymą, kur pasirinktis **Siųsti pirkimo užsakymą naudojant cXML** nustatyta kaip _Taip_, sistema automatiškai sugeneruoja cXML pranešimą ir pateikia jį tiekėjui, susijusiam su tuo pirkimo užsakymu. Yra du būdai valdyti šią pasirinktį Jūsų pirkimo užsakymams:
 
@@ -69,7 +69,7 @@ Kiekvieną kartą, kai patvirtinate pirkimo užsakymą, kur pasirinktis **Siųst
 
 ![Numatytieji tiekėjo pirkimo užsakymų parametrai.](media/cxml-order-defaults.png "Numatytieji tiekėjo pirkimo užsakymų parametrai")
 
-## <a name="set-up-an-external-catalog-to-use-cxml"></a><a name="external-catalog-setup"></a> cXML naudojimo išoriniam katalogui nustatymas
+## <a name="set-up-an-external-catalog-to-use-cxml"></a><a name="external-catalog-setup"></a>cXML naudojimo išoriniam katalogui nustatymas
 
 Puslapyje **Išoriniai katalogai** kiekvienam savo katalogui galite nustatyti „PunchOut” funkciją ir pirkimo užsakymų siuntimo funkciją. Norėdami rasti atitinkamus parametrus, eikite į **Paraiškos \> Katalogai \> Išoriniai katalogai**. Pradėkite nuo [kiekvieno katalogo nustatymo kaip įprasta](set-up-external-catalog-for-punchout.md). Šis procesas apima tiekėjo priskyrimą, kategorijų, kurias tiekėjas gali tiekti, pasirinkimą ir katalogo aktyvinimą. Tada konfigūruokite papildomus parametrus, aprašytus šiame skyriuje.
 
@@ -84,7 +84,7 @@ Puslapio **Išoriniai katalogai** „FastTab” **Bendra**, nustatykite **„Pun
 
 Jei taip pat naudojate „PunchOut” katalogą, taip pat turite [nustatyti pranešimo formatą](set-up-external-catalog-for-punchout.md). Pranešimo formatas naudojamas norint užmegzti ryšį su tiekėju paraiškos „PunchOut” operacijoje. Kai pirkimo užsakymas išsiųstas, užsakymo ypatybės bus naudojamos užmegzti ryšį su tiekėju.
 
-### <a name="set-the-order-properties"></a><a name="set-order-properties"></a> Užsakymo ypatybių nustatymas
+### <a name="set-the-order-properties"></a><a name="set-order-properties"></a>Užsakymo ypatybių nustatymas
 
 Funkcija _cXML patobulinimų pirkimas_ prideda naują **Užsakymo ypatybės** „FastTab” išoriniams katalogams. Šis „FastTab” pateikia tinklelį, kuriame galite apibrėžti užsakymo ypatybes. Jis taip pat pateikia įrankių juostą. Į šią įrankių juostą įeina šie trys mygtukai, kuriuos galite naudoti užsakymo ypatybėms tvarkyti:
 
@@ -96,36 +96,36 @@ Kiekvieną kartą, kai į tinklelį įtraukiate vieną ar daugiau ypatybių, nau
 
 Naudokite numatytąsias ypatybes tokiu būdu:
 
-- **PIRKĖJO\_ SLAPUKAS** – Šis sekimo laukas gali būti naudojamas norint nurodyti konkrečią Jūsų įmonės informaciją. Jei neturite sutarties su tiekėju dėl šios ypatybės naudojimo, tuomet nesvarbu kada siųsti pirkimo užsakymą. Todėl turite ją nustatyti kaip paprastą reikšmę.
+- **PIRKĖJO\_SLAPUKAS** – Šis sekimo laukas gali būti naudojamas norint nurodyti konkrečią Jūsų įmonės informaciją. Jei neturite sutarties su tiekėju dėl šios ypatybės naudojimo, tuomet nesvarbu kada siųsti pirkimo užsakymą. Todėl turite ją nustatyti kaip paprastą reikšmę.
 - **PRISTATYTI** – Kai siuntimo adresas įvedamas į pirkimo užsakymo dokumentą, laukas **Svarbi informacija** naudojamas norint nustatyti **Pristatyti** lauką XML pranešime. Jei reikalaujate, kad ši reikšmė būtų prašytojo pavadinimas ir nustatysite lauką prašytojui pirkimo užsakymo antraštėje, įveskite _PRAŠYTOJAS_ reikšmę šiai ypatybei, tam, kad prašytojo pavadinimas būtų įvestas į **Pristatyti** lauką, esantį XML. Šiuo atveju, pagrindinis el. pašto adresas ir telefono numeris, kurie yra naudojami, bus iš prašytojo, o ne užsakovo.
 - **DIEGIMOREŽIMAS** – Nustatykite šią ypatybę, kaip reikalauja tiekėjas. Paprastai reikšmės yra _GAMYBA_ arba _TIKRINIMAS_. Nustatykite reikšmę pagal Jūsų ryšį su tiekėju. Paprastai ji turi atitikti numatytą sistemą, esančią už **UŽSAKYMOPATIKROSURL** reikšmės, kurią tiekėjas nurodo kaip tikrinimo ar gamybos sistemą.
 - **FIKSUOTOADRESOID** – Kai **adresoID** laukas nustatytas XML pranešime, jis paima vietą, nurodytą ant adreso. Jei ID reikšmė, kurią pranešėte tiekėjui, dėl tam tikrų priežasčių skiriasi nuo reikšmės, nurodytos ant adreso vietos, galite priverstinai vykdyti perrašymą, nurodydami reikšmę čia. Prielaida yra ta, kad su tiekėju naudosite tik vieną adresą, ir kad adresas bus nustatytas tiekėjo sistemoje. Sąskaitų siuntimo adresas yra pirminis juridinio subjekto, esančio „Supply Chain Management“, SF adresas.
 - **FIKSUOTOSIUNTIMOADRESOID** – Kai **adresoID** laukas nustatytas XML pranešime, jis paima vietą, nurodytą ant adreso. Jei ID reikšmė, kurią pranešėte tiekėjui, dėl tam tikrų priežasčių skiriasi nuo reikšmės, nurodytos ant adreso vietos, galite priverstinai vykdyti perrašymą, nurodydami reikšmę čia. Prielaida yra ta, kad su tiekėju naudosite tik vieną adresą, ir kad adresas bus nustatytas tiekėjo sistemoje. Siuntimo adresas yra adresas, nurodytas pirkimo užsakymo antraštėje. Dauguma tiekėjų priima tik antraštės adresus, o ne eilutės adresus. Nors XML yra laukų, skirtų eilučių adresams, jie bus nustatyti kaip antraštės adresas.
-- **IŠ\_ DOMENO** – Įveskite reikšmę, kuri bus naudojama pirkimo užsakymo dokumentų siuntimui. Šią reikšmę pateikia Jūsų tiekėjas.
-- **IŠ\_ TAPATYBĖS** – Įveskite reikšmę, kuri bus naudojama pirkimo užsakymo dokumentų siuntimui. Šią reikšmę pateikia Jūsų tiekėjas.
+- **IŠ\_DOMENO** – Įveskite reikšmę, kuri bus naudojama pirkimo užsakymo dokumentų siuntimui. Šią reikšmę pateikia Jūsų tiekėjas.
+- **IŠ\_TAPATYBĖS** – Įveskite reikšmę, kuri bus naudojama pirkimo užsakymo dokumentų siuntimui. Šią reikšmę pateikia Jūsų tiekėjas.
 - **UŽSAKYMOPATIKROSURL** – Įveskite URL, kur persiųsite pirkimo užsakymo dokumentus. Šis URL prasideda `https://` ir pateikiamas Jūsų tiekėjo.
-- **MOKAMOSIOSKROVOS\_ ID** – Įveskite mokamosios krovos ID prefikso vertę, kaip to reikalaujama verslo procesams, esantiems dabartinio tiekėjo vietoje.
-- **SIUNTĖJO\_ DOMENAS** – Įveskite reikšmę, kuri bus naudojama pirkimo užsakymo dokumentų siuntimui. Šią reikšmę pateikia Jūsų tiekėjas.
-- **SIUNTĖJO\_ TAPATYBĖ** – Įveskite reikšmę, kuri bus naudojama pirkimo užsakymo dokumentų siuntimui. Šią reikšmę pateikia Jūsų tiekėjas.
-- **BENDRINAMAS\_ SLAPTASIS RAKTAS** – Įveskite reikšmę, kuri bus naudojama pirkimo užsakymo dokumentų siuntimui. Šią reikšmę pateikia Jūsų tiekėjas.
+- **MOKAMOSIOSKROVOS\_ID** – Įveskite mokamosios krovos ID prefikso vertę, kaip to reikalaujama verslo procesams, esantiems dabartinio tiekėjo vietoje.
+- **SIUNTĖJO\_DOMENAS** – Įveskite reikšmę, kuri bus naudojama pirkimo užsakymo dokumentų siuntimui. Šią reikšmę pateikia Jūsų tiekėjas.
+- **SIUNTĖJO\_TAPATYBĖ** – Įveskite reikšmę, kuri bus naudojama pirkimo užsakymo dokumentų siuntimui. Šią reikšmę pateikia Jūsų tiekėjas.
+- **BENDRINAMAS\_SLAPTASIS RAKTAS** – Įveskite reikšmę, kuri bus naudojama pirkimo užsakymo dokumentų siuntimui. Šią reikšmę pateikia Jūsų tiekėjas.
 - **GATVĖSILGIS** – Įveskite skaičių, kuris žymi didžiausią simbolių skaičių, kurį tiekėjas priims kaip gatvės pavadinimą. Jei reikšmė įvesta čia, ji keičia reikšmę, nurodytą **cXML parametrų** puslapyje. Sistema panaikins eilučių lūžius ir tarpus, kad bandytų sutalpinti standartinį „Supply Chain Management“ adresą į čia nurodytą simbolių skaičių. Bet kurie papildomi simboliai bus sutrumpinti.
-- **Į\_ DOMENĄ** – Įveskite reikšmę, kuri bus naudojama pirkimo užsakymo dokumentų siuntimui. Šią reikšmę pateikia Jūsų tiekėjas.
-- **Į\_ TAPATYBĘ** – Įveskite reikšmę, kuri bus naudojama pirkimo užsakymo dokumentų siuntimui. Šią reikšmę pateikia Jūsų tiekėjas.
+- **Į\_DOMENĄ** – Įveskite reikšmę, kuri bus naudojama pirkimo užsakymo dokumentų siuntimui. Šią reikšmę pateikia Jūsų tiekėjas.
+- **Į\_TAPATYBĘ** – Įveskite reikšmę, kuri bus naudojama pirkimo užsakymo dokumentų siuntimui. Šią reikšmę pateikia Jūsų tiekėjas.
 - **VARTOTOJOAGENTAS** – Įveskite reikšmę, kad nustatytumėte sistemą, kurią naudojate. Pavyzdžiui, įveskite _„Dynamics 365 Supply Chain Management”_.
 - **VERSIJA** – Įveskite cXML versijos numerį, jei tiekėjas prašo šios informacijos. Numatytoji versija yra *1.2.008*. Ši versija yra stabili ir ją priima dauguma tiekėjų.
 - **ATSAKYMOTEKSTAS** – Įveskite bet kokį pasirinktinį tekstą, kurį tikitės, kad tiekėjas grąžins kaip cXML atsakymo pranešimą po to, kai užsakymas buvo išsiųstas. Tokiu būdu sistema gali pažymėti pranešimą kaip _Patvirtintą_. Jei atsakymas nesutampa su standartiniu tekstu arba kliento tekstu, kurį čia įvedėte, užklausa bus pažymėta kaip _Klaida_.
 - **PAPILDOMASATSAKYMOTEKSTAS** – Nustatykite šią ypatybę kaip _TEISINGĄ_, jei norite ieškoti tiekėjo atsakymo teksto apie reikšmes, nurodytas lauke **ATSAKYMOTEKSTAS**. Pavyzdžiui, tiekėjas gali grąžinti ilgą eilutę, į kurią įtraukiamas atsakymas „Gerai”. Tokiu atveju galite įvesti _Gerai_ lauke **ATSAKYMOTEKSTAS** ir nustatyti **PAPILDOMĄATSAKYMOTEKSTĄ** kaip _TEISINGĄ_, kad būtų galima ieškoti funkcijos „Gerai” bet kurioje atsakymo vietoje. Tada užsakymą galima nustatyti kaip _Patvirtintą_.
 - **TURINIOTIPAS** – Įprastoje katalogo sąrankoje nereikia nustatyti šios ypatybės. Jei siųsdami pirkimo užsakymą gaunate serverio 500 klaidą iš tiekėjo sistemos, galite atlikti tikrinimą, nustatydami šią ypatybę kaip _KLAIDINGA_. Ši reikšmė pakeis svetainės užklausos parametrą ir galbūt įgalins pranešimo siuntimą kai kurioms platformoms.
-- **ĮGALINTIANTRAŠTES** – Nustatykite šią ypatybę kaip _TEISINGĄ_, kad antraštės būtų siunčiamos kartu su pirkimo užsakymu. Šią ypatybę turite nustatyti tik tuo atveju, jei tiekėjas to reikalauja. Jei šią ypatybę nustatysite kaip _TEISINGĄ_, pridėkite papildomas pasirinktines ypatybes, kurios pagrįstos tiekėjo teikiamais pavadinimais, ir prie jų pridėkite prefiksą _H\__. Tipiniai pavyzdžiai yra **H\_ VARTOTOJOID**, **H\_ SLAPTAŽODIS**, **H\_ GAVĖJOID** ir **H\_ VEIKSMOUŽKLAUSA**. Šios pasirinktinės ypatybės įtrauktos į numatytąsias ypatybes:
+- **ĮGALINTIANTRAŠTES** – Nustatykite šią ypatybę kaip _TEISINGĄ_, kad antraštės būtų siunčiamos kartu su pirkimo užsakymu. Šią ypatybę turite nustatyti tik tuo atveju, jei tiekėjas to reikalauja. Jei šią ypatybę nustatysite kaip _TEISINGĄ_, pridėkite papildomas pasirinktines ypatybes, kurios pagrįstos tiekėjo teikiamais pavadinimais, ir prie jų pridėkite prefiksą _H\__. Tipiniai pavyzdžiai yra **H\_VARTOTOJOID**, **H\_SLAPTAŽODIS**, **H\_GAVĖJOID** ir **H\_VEIKSMOUŽKLAUSA**. Šios pasirinktinės ypatybės įtrauktos į numatytąsias ypatybes:
 
-    - **H\_ VARTOTOJOID** – Jei prekybos partneris reikalauja, kad atsiųstumėte vartotojo ID kaip URL dalį, kad būtų galima pateikti pirkimo užsakymą, įveskite reikšmę čia.
-    - **H\_ SLAPTAŽODIS** – Jei prekybos partneris reikalauja, kad atsiųstumėte slaptažodį kaip URL dalį, kad būtų galima pateikti pirkimo užsakymą, įveskite reikšmę čia.
+    - **H\_VARTOTOJOID** – Jei prekybos partneris reikalauja, kad atsiųstumėte vartotojo ID kaip URL dalį, kad būtų galima pateikti pirkimo užsakymą, įveskite reikšmę čia.
+    - **H\_SLAPTAŽODIS** – Jei prekybos partneris reikalauja, kad atsiųstumėte slaptažodį kaip URL dalį, kad būtų galima pateikti pirkimo užsakymą, įveskite reikšmę čia.
 
 - **ĮGALINTIRANKINĮPU** – Jei ši ypatybė nustatyta kaip _TEISINGA_, kai vartotojai rankiniu būdu sukuria pirkimo užsakymus (t.y. kai jie nepradedami iš paraiškos), šie pirkimo užsakymai perims iš tiekėjo **Pirkimo užsakymo siuntimas naudojant cXML** pasirinkties parametrą. Jei ši ypatybė nenustatyta, arba, jei ji nustatyta kaip _KLAIDINGA_, pasirinktis **Pirkimo užsakymo siuntimas naudojant cXML** nebus nustatyta pirkimo užsakymo antraštėje rankiniu būdu sukurtiems pirkimo užsakymams. Pirkimo užsakymams, sukurtiems iš paraiškos, pasirinkties **Pirkimo užsakymo siuntimas naudojant cXML** parametras visada yra perimtas iš tiekėjo, nepaisant šios ypatybės parametro. Norėdami gauti daugiau informacijos, žr. [Nustatyti cXML naudojimą tiekėjo pirkimo užsakymams](#vendor-setup) skyrių, esantį šioje temoje anksčiau.
 - **TIKPUNCHOUTPU** – Jei ši ypatybė nustatyta kaip _TEISINGA_, tuomet tik „PunchOut” proceso metu sukurtos pirkimo paraiškos eilutės nustatys **Pirkimo užsakymo siuntimas naudojant cXML** pasirinktį pirkimo užsakymo antraštėje. Be to, visų pirkimo užsakymo eilučių pirkimo paraiškos eilutės tipas privalo būti _Išorinio katalogo prekė_. Kitu atveju, negalima sukurti cXML pirkimo užsakymo.
 - **PUNCHOUTGAVĖJAS** – Jei ši ypatybė nustatyta kaip _TEISINGA_, numatytasis juridinio subjekto adresas bus pridėtas į „PunchOut” sąrankos užklausos pranešimą, kai vartotojas atidaro išorinį katalogą. Šis adresas pridedamas kaip **Siuntosgavėjo** adresas. Tiekėjai naudos **Siuntosgavėjo** adresą, kad būtų rodomi įkainiai, pagrįsti įmonės vieta.
 - **PUNCHOUTSEKIMAS** – Nustatyti šią ypatybę kaip _TEISINGĄ_, jei bandant peržiūrėti išorinį katalogą iš paraiškos gaunate klaidos pranešimą. Sekimo informacija tuomet bus įrašyta **„PunchOut”nustatymoužklausa** ir **„PunchOut”atsakymas** pranešimuose, kurie siunčiami tarp „Supply Chain Management“ ir tiekėjo svetainės. Šią informaciją galite peržiūrėti **cXML krepšelio pranešimų žurnalo** puslapyje, kurį galite atidaryti **Išorinio katalogo sąrankos** puslapyje, skirtame tiekėjo katalogui, su kuriuo turite problemų. Šią ypatybę turite nustatyti kaip _TEISINGĄ_ tik tuo atveju, jei atliekate trikčių diagnostiką, nes ji sukuria per didelį našumą duomenų bazėje kiekvienam „PunchOut”. Norėdami gauti daugiau informacijos, žr. [Peržiūrėti išorinio katalogo „PunchOut” cXML krepšelio pranešimų žurnalą](#message-log) skyrių, esantį šioje temoje vėliau.
-- **PAKEISTINAUJĄEILUTĘ** – Nustatykite šią ypatybę kaip _TEISINGĄ_, jei iškilo problema, nes tiekėjo sistema siunčia **„PunchOut”atsakymas** pranešimą, į kurį įtraukiami naujos eilutės simboliai (\\ n). Ši problema gali kilti, jei tiekėjo pranešimai yra išanalizuoti naudojant programinę įrangą arba įsigijimų stebulę. Jeigu kyla problemų dėl naujo tiekėjo nustatymo, nustatykite **PUNCHOUTSEKIMAS** ypatybę kaip _TEISINGĄ_, kad peržiūrėtumėte **„PunchOut”atsakymo** pranešimą ir nustatytumėte, ar XML žymės išskaidomos naujų eilučių simbolių.
+- **PAKEISTINAUJĄEILUTĘ** – Nustatykite šią ypatybę kaip _TEISINGĄ_, jei iškilo problema, nes tiekėjo sistema siunčia **„PunchOut”atsakymas** pranešimą, į kurį įtraukiami naujos eilutės simboliai (\\n). Ši problema gali kilti, jei tiekėjo pranešimai yra išanalizuoti naudojant programinę įrangą arba įsigijimų stebulę. Jeigu kyla problemų dėl naujo tiekėjo nustatymo, nustatykite **PUNCHOUTSEKIMAS** ypatybę kaip _TEISINGĄ_, kad peržiūrėtumėte **„PunchOut”atsakymo** pranešimą ir nustatytumėte, ar XML žymės išskaidomos naujų eilučių simbolių.
 - **PUKOMENTARAI** – Nustatykite šią ypatybę kaip _TEISINGĄ_, jei norite, kad į cXML dokumentą būtų įtrauktos pastabos, pridėtos prie pirkimo užsakymo „Supply Chain Management“. Priedo tekstas yra įtrauktas į antraštės komentarus pirkimo užsakymo pranešime. Norėdami gauti daugiau informacijos apie tai, kaip sistema pasirenka ir apdoroja šiuos priedus, žr. [Pridėti pastabas pirkimo užsakyme](#attach-po-notes) skyrių, esantį šioje temoje vėliau.
 - **TIEKĖJOKOMENTARAI** – Nustatykite šią ypatybę kaip _TEISINGĄ_, jei norite, kad į cXML dokumentą būtų įtrauktos pastabos, pridėtos prie pirkimo užsakymo „Supply Chain Management“. Priedo tekstas yra įtrauktas į antraštės komentarus pirkimo užsakymo pranešime. Norėdami gauti daugiau informacijos apie tai, kaip sistema pasirenka ir apdoroja šiuos priedus, žr. [Pridėti pastabas prie pirkimo užsakymo](#attach-po-notes) skyrių.
 - **VALYTIAMP** – Nustatykite šią ypatybę kaip _TEISINGĄ_, jei gaunate klaidos pranešimą, kai bandote atlikti „PunchOut” tiekėjui, o tiekėjo grąžinimo URL apima neteisingai užkoduotus ženklus (\&).
@@ -137,11 +137,11 @@ Naudokite numatytąsias ypatybes tokiu būdu:
 
 Kai baigsite nustatyti visas ypatybes ir konfigūruosite kitus Jūsų išorinio katalogo parametrus, grįžkite atgal į „FastTab” **Bendra**, esantį **Išorinių katalogų** puslapyje ir nustatykite pasirinktį **Aktyvus** kaip *Taip*.
 
-### <a name="attach-notes-to-a-purchase-order"></a><a name="attach-po-notes"></a> Pridėti pastabas prie pirkimo užsakymo
+### <a name="attach-notes-to-a-purchase-order"></a><a name="attach-po-notes"></a>Pridėti pastabas prie pirkimo užsakymo
 
 Kaip buvo minėta skyriuje [Nustatyti užsakymo ypatybes](#set-order-properties), jei norite, kad į Jums pristatytą cXML būtų įtrauktas tekstas iš pastabų, pridėtų prie atitinkamo pirkimo užsakymo ir/arba tiekėjo įrašų, galite nustatyti **PUKOMENTARAI** ir/arba **TIEKĖJOKOMENTARAI** ypatybę kaip _TEISINGĄ_ išorinio katalogo nustatyme. Šiame skyriuje pateikiama išsamesnė informacija apie tai, kaip sistema pasirenka ir apdoroja šiuos priedus, jei juos naudojate.
 
-Norėdami nustatyti pastabų, kurias sistema ieškos, tipus, eikite į **Paraiškos \> Nustatymai \> Formos \> Formos nustatymai**. Tada skirtuke **Pirkimo užsakymas** nustatykite lauką **Įterpiamų dokumentų tipas** tokiam pastabų tipui, kurį norėtumėte įterpti. Bus įtrauktos tik teksto pastabos, o ne dokumentų priedai.
+Norėdami nustatyti pastabų, kurių sistema ieško, tipus, eikite į Įsigijimo ir **pirkimo nustatymo \> formų \>\> nustatymą**. Tada skirtuke **Pirkimo užsakymas** nustatykite lauką **Įterpiamų dokumentų tipas** tokiam pastabų tipui, kurį norėtumėte įterpti. Bus įtrauktos tik teksto pastabos, o ne dokumentų priedai.
 
 ![Formuoti sąrankos puslapį.](media/cxml-form-setup.png "Formuoti sąrankos puslapį")
 
@@ -149,7 +149,7 @@ Priedai bus įtraukti į pirkimo užsakymą tik jei jų **Tipo** laukas nustatyt
 
 ![Pridėta pastaba, nustatyta siųsti tiekėjui.](media/cxml-note-to-vendor.png "Pridėta pastaba, nustatyta siųsti tiekėjui")
 
-## <a name="view-the-cxml-cart-message-log-for-external-catalog-punchout"></a><a name="message-log"></a> Peržiūrėti „PunchOut” išorinio katalogo cXML krepšelio pranešimų žurnalą
+## <a name="view-the-cxml-cart-message-log-for-external-catalog-punchout"></a><a name="message-log"></a>Peržiūrėti „PunchOut” išorinio katalogo cXML krepšelio pranešimų žurnalą
 
 Kai nustatysite **„Punchout” protokolo tipo** lauką kaip _cXML_ išoriniam katalogui, sistema užfiksuos iš tiekėjų grįžtančių krepšelių pranešimų žurnalą. Šį žurnalą galima naudoti trikčių diagnostikai ir kitiems duomenų tikslams.
 
@@ -184,7 +184,7 @@ Vartotojas arba administratorius nematys išorinių elementų, nes jie nėra įt
 
 ![Išoriniai elementai įtraukti į XML.](media/cxml-extrinsics-xml.png "Išoriniai elementai įtraukti į XML")
 
-## <a name="create-and-process-a-purchase-order"></a><a name="create-po"></a> Pirkimo užsakymo kūrimas ir apdorojimas
+## <a name="create-and-process-a-purchase-order"></a><a name="create-po"></a>Pirkimo užsakymo kūrimas ir apdorojimas
 
 Kai kuriate pirkimo užsakymą tiekėjui, jis perims **Pirkimo užsakymo siuntimas naudojant cXML** pasirinkties parametrą iš to tiekėjo. Tačiau parametras išlieka pasiekiamas pirkimo užsakymo **Antraštės** rodinio „FastTab” **Nustatymai**, tam kad galėtumėte jį vėliau pakeisti kaip būtiną.
 
@@ -212,15 +212,15 @@ Jei nustatyta ir paleista paketinė užduotis, dokumentas bus išsiųstas. Po to
 
 ![Būsenos pranešimai pirkimo užsakymo užklausos puslapyje.](media/cxml-po-request-2.png "Būsenos pranešimai pirkimo užsakymo užklausos puslapyje")
 
-## <a name="schedule-the-purchase-order-request-batch-job"></a><a name="po-batch"></a> Pirkimo užsakymo paketinės užduoties planavimas
+## <a name="schedule-the-purchase-order-request-batch-job"></a><a name="po-batch"></a>Pirkimo užsakymo paketinės užduoties planavimas
 
-Norėdami suaktyvinti paketines užduotis, skirtas pirkimo užsakymo užklausoms siųsti, eikite į **Įsigijimas ir šaltinio pasirinkimas \> Nustatymas \> cXML valdymas \> Pirkimo užsakymo užklausa**, tada veiksmų srities skirtuke **Pirkimo užsakymo užklausa** esančioje **Paketų grupėje** pasirinkite **Pateikti užduotį**, kad būtų atidarytas **Pirkimo užklausos parengimas ir siuntimo** dialogo langas. Galite naudoti šį dialogo langą, kad nustatytumėte pasikartojimą, taip pat, kaip įprastai atliekate paketines užduotis „Supply Chain Management“. Pasirinkite intervalą, pagrįstą jūsų užsakymo kiekiu. Nors jūs galite vykdyti paketinę užduotį kas minutę, turbūt geriausia siųsti paketus visą darbo dieną, remiantis užsakymo gavimo langai, kurie atitinka jūsų tiekėjų grafikus.
+Norėdami suaktyvinti paketines užduotis, skirtas pirkimo užsakymo užklausoms siųsti, eikite į **Įsigijimas ir šaltinio pasirinkimas \> Nustatymas \>cXML valdymas \> Pirkimo užsakymo užklausa**, tada veiksmų srities skirtuke **Pirkimo užsakymo užklausa** esančioje **Paketų grupėje** pasirinkite **Pateikti užduotį**, kad būtų atidarytas **Pirkimo užklausos parengimas ir siuntimo** dialogo langas. Galite naudoti šį dialogo langą, kad nustatytumėte pasikartojimą, taip pat, kaip įprastai atliekate paketines užduotis „Supply Chain Management“. Pasirinkite intervalą, pagrįstą jūsų užsakymo kiekiu. Nors jūs galite vykdyti paketinę užduotį kas minutę, turbūt geriausia siųsti paketus visą darbo dieną, remiantis užsakymo gavimo langai, kurie atitinka jūsų tiekėjų grafikus.
 
 Pavyzdžiui, jūsų tiekėjas turi strategiją, kuri nurodo, kad visi užsakymai, gauti iki 13 val. bus išsiųsti tą pačią dieną. Tokiu atveju jums gali tekti paleisti paketą tik kelis kartus ryte, kad galėtumėte pateikti visus turimus užsakymus. Tada likę užsakymai bus siunčiami kitą dieną. Šis sprendimas yra grynai verslo sprendimas. Galite jį peržiūrėti ir jo parametrus nustatyti atitinkamai.
 
 Procesas ieškos pirkimo užsakymo užklausos dokumentų, kurių būsena yra *Laukiama*. Jei turite užsakymą, kurį turite nusiųsti tiekėjui nedelsiant, galite pasirinkti **Pateikti užduotį** ir nustatyti pasirinktį **Paketinis vykdymas** į *Ne*.
 
-## <a name="monitor-purchase-order-requests"></a><a name="monitor-po-requests"></a> Pirkimo užsakymo užklausų stebėjimas
+## <a name="monitor-purchase-order-requests"></a><a name="monitor-po-requests"></a>Pirkimo užsakymo užklausų stebėjimas
 
 ### <a name="view-the-status-of-a-purchase-order"></a>Pirkimo užsakymo būsenos peržiūra
 

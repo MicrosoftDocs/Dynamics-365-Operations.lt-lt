@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-10-12
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: d55767ef47e01edd11099f644134cfa48ea70e18
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.openlocfilehash: 174cbd85139db5cee75481041fb721dc7646ab66
+ms.sourcegitcommit: eef5d9935ccd1e20e69a1d5b773956aeba4a46bc
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7675738"
+ms.lasthandoff: 12/11/2021
+ms.locfileid: "7913607"
 ---
 # <a name="print-tax-information-on-transfer-order-documents"></a>Perkėlimo užsakymo dokumentų mokesčių informacijos spausdinimas
 
 [!include [banner](../../includes/banner.md)]
-[!include [banner](../../includes/preview-banner.md)]
 
 Ši tema paaiškina, kaipatspausdinti mokesčių informaciją ant perkėlimo užsakymų dokumentų. Galite spausdinti perkėlimo užsakymo pro forma SF dokumentą, skirtą atsargų perkėlimui, kuris laikomas vidiniu bendrijos tiekimu ir įsigijimais bendrijos viduje pagal Europos Sąjungos (ES) pridėtinės vertės mokesčio (PVM) nuostatus. 
 

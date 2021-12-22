@@ -2,7 +2,7 @@
 title: Darbo su elektroninių SF priedu Meksikai pradžia
 description: Šioje temoje pateikiama informacija, kuri padės jums pradėti naudotis elektroninių SF išrašymo priedu Meksikai.
 author: gionoder
-ms.date: 09/22/2020
+ms.date: 12/01/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 4266d7bca163b1d6aa1261e086f10a4f0f5d7e360051db169fbcab34363c81c3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: f512a6208bc85cd5796ce9515d2bc440f92ea79f
+ms.sourcegitcommit: 385fc4e9c641b43734ddb030893904489361af7d
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6742158"
+ms.lasthandoff: 12/02/2021
+ms.locfileid: "7881596"
 ---
 # <a name="get-started-with-electronic-invoicing-for-mexico"></a>Darbo su elektroninių SF priedu Meksikai pradžia
 
@@ -35,7 +35,15 @@ ms.locfileid: "6742158"
 
 ## <a name="prerequisites"></a>Būtinieji komponentai
 
-Prieš atlikdami šioje temoje nurodytus veiksmus, turite atlikti veiksmus, esančius [Darbo su elektroninių SF išrašymo priedu pradžia](e-invoicing-get-started.md).
+Prieš atlikdami šioje temoje aprašytus veiksmus, turite atlikti veiksmus dalyse [Darbo su elektroninių SF išrašymo tarnybos administravimu pradžia](e-invoicing-get-started-service-administration.md) ir [Darbo su elektroninių SF išrašymu pradžia](e-invoicing-get-started.md).
+
+## <a name="set-up-the-cadena-xslt"></a>Nustatyti Cadena XSLT
+
+Norėdami įtraukti Cadena XSLT schemą į CFDI apdorojimo globalizavimo funkciją, atlikite šiuos veiksmus.
+
+1. Atsisiųsti schemą iš [SAT svetainės](http://www.sat.gob.mx/sitio_internet/cfd/3/cadenaoriginal_3_3/cadenaoriginal_3_3.xslt).
+2. Glaudinti schemą į pašto failą.
+3. Įrašykite xslt failą į savo "Azure" saugyklos abonementą, nustatytą jūsų paslaugų aplinkoje, kad būtų galima naudoti naują konteinerį.
 
 ## <a name="rcs-setup"></a>RCS sąranka
 
@@ -127,6 +135,17 @@ Norint pateikti CFDI SF atšaukimą, reikalingi funkcijų **Atšaukimas** ir **A
 
 > [!NOTE]
 > Atlikite tuos pačius veiksmus, norėdami atnaujinti URL, skirtą funkcijų **Atšaukti** ir **Atšaukimo užklausa** nustatymų veiksmui **Iškviesti Meksikos PAC tarnybą**.
+
+### <a name="set-up-the-path-for-the-cadena-xlst-schema"></a>Kada turi būti nustatytas Cadena XLST schemos maršrutas
+
+1. Priemonės versijos nustatymo puslapio skirtuke Kintamieji pasirinkite kintamojo **pavadinimą** **·** **DigitalSi skirtuke DigitalSi skirtukeXSLT.**
+2. Reikšmės lauke **įveskite**: {containerUrl:" https://&lt; AccountStorageName &gt; .blob.core.windows.net/ &lt;&gt; ContainerName,"path":" &lt; RelativePath &gt;}
+   
+    čia: <RelativePath> = aplanko aplanko failo vardas su dviem \\\\ kairiosios brūkšnių, ContainerName turi nurodyti konteinerį, kuris naudojamas paslaugai.
+   
+    Kintamojo pavyzdys yra:
+    
+    {"maršrutas":"x xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx\\ dev \\ cadena_xslt","containerUrl":https://yyyyyyyyyy.blob.core.windows.net/containername}
 
 ## <a name="assign-the-draft-version-to-an-e-invoicing-environment"></a>Juodraščio versijos priskyrimas el. SF išrašymo aplinkai
 

@@ -1,9 +1,11 @@
-- name: Dynamics 365 Human Resources
+- name: „Dynamics 365 Human Resources“
   href: ./index.md
   items:
     - name: Kas nauja
       items:
         - name: Kas nauja ar pasikeitė „Human Resources”
+          href: hr-whats-new-2021-11-29.md
+        - name: "2021\_m. lapkričio 29\_d."
           href: hr-admin-whats-new.md
         - name: "2021\_m. spalio 5\_d."
           href: hr-whats-new-2021-10-04.md
@@ -793,6 +795,8 @@
                       href: hr-benefits-process-life-event-eligibility.md
                     - name: Tarifo keitimų apdorojimas
                       href: hr-benefits-process-rate-changes.md
+                - name: Darbuotojų išmokų pasirinkimas
+                  href: employee-select-benefits-ess.md
                 - name: ACA ataskaitos
                   href: hr-benefits-management-aca-reports.md
                 - name: Išmokų išrašas

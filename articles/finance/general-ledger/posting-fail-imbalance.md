@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2021-8-03
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: fc413f8230849653aef8c2951f1749823edded6e
-ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
-ms.translationtype: HT
+ms.openlocfilehash: 0f1f49a7da2f015d90987587fc251a36cfe82d49
+ms.sourcegitcommit: cd7f1c63f48542a8ebcace7b3d512eb810d4b56e
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "7605434"
+ms.lasthandoff: 12/10/2021
+ms.locfileid: "7903255"
 ---
 # <a name="journal-posting-failure-because-of-imbalance"></a>Žurnalo registravimo triktis dėl disbalanso
 
@@ -52,13 +52,13 @@ Viename palaikomame scenarijuje kvitas gali turėti daugiau nei vieną operacijo
 
 Jei visų kvito eilučių operacijos valiuta yra ta pati, o operacijos valiutos sumos yra subalansuotos, sistema patikrina, ar apskaitos valiutos sumos yra subalansuotos. Jei kvitas įvestas užsienio valiuta, kvito eilučių valiutos kursas naudojamas operacijos valiutos sumoms į apskaitos valiutą versti. Pirma, kiekviena kvito eilutė konvertuojama ir apvalinama iki dviejų dešimtainių dalių. Tada eilutės sumuojamos, kad būtų galima nustatyti bendrą debetą ir bendrą kreditą. Kadangi kiekviena eilutė yra išversta, gali būti nesubalansuoti visi debetai ir visi kreditai. Neatsižvelgiant į tai, ar absoliučios vertės skirtumas yra didesnis nei **Maksimali centų skirtumo** vertė, kuri nustatyta **DK parametrų** puslapyje, kvitas bus užregistruotas, o skirtumas automatiškai užregistruojamas centų skirtumo sąskaitoje.
 
-Jei kvite yra daugiau nei viena operacijos valiuta, kiekviena kvito eilutė konvertuojama į apskaitos valiutą, tada eilutės sumuojamos, kad būtų galima nustatyti bendrą debetą ir bendrą kreditą. Kad būtų laikoma subalansuota, reikia subalansuoti debetą ir kreditą, arba išverstą, arba kai įtrauktas apskaitos valiutos apvalinimo skirtumas centais.
+Jei kvite yra daugiau nei viena operacijos valiuta, kiekviena kvito eilutė konvertuojama į apskaitos valiutą, tada eilutės sumuojamos, kad būtų galima nustatyti bendrą debetą ir bendrą kreditą. Kad būtų subalansuota, debetai ir kreditai turi būti subalansuoti apskaitos valiuta.  Skirtumo centais sąskaita niekada neįrašoma į kvitą apskaitos valiuta, kad debetas ir kreditas būtų subalansuoti. 
 
 ### <a name="reporting-currency"></a>Ataskaitų valiuta
 
 Jei visų kvito eilučių operacijos valiuta yra ta pati, o operacijos valiutos sumos yra subalansuotos, sistema patikrina, ar apskaitos valiutos sumos yra subalansuotos. Jei kvitas įvestas užsienio valiuta, kvito eilučių valiutos kursas naudojamas operacijos valiutos sumoms į apskaitos valiutą versti. Pirma, kiekviena kvito eilutė konvertuojama ir apvalinama iki dviejų dešimtainių dalių. Tada eilutės sumuojamos, kad būtų galima nustatyti bendrą debetą ir bendrą kreditą. Kadangi kiekviena eilutė yra išversta, gali būti nesubalansuoti visi debetai ir visi kreditai. Neatsižvelgiant į tai, ar skirtumas yra didesnis nei **maksimali centų skirtumo apvalinimo ataskaitos valiutoje** vertė, kuri nustatyta **DK parametrų** puslapyje, kvitas bus užregistruotas, o skirtumas automatiškai užregistruojamas centų skirtumo sąskaitoje.
 
-Jei kvite yra daugiau nei viena operacijos valiuta, kiekviena kvito eilutė konvertuojama į ataskaitų valiutą, tada eilutės sumuojamos, kad būtų galima nustatyti bendrą debetą ir bendrą kreditą. Kad būtų laikoma subalansuota, reikia subalansuoti debetą ir kreditą, arba išverstą, arba kai įtrauktas ataskaitų valiutos apvalinimo skirtumas centais.
+Jei kvite yra daugiau nei viena operacijos valiuta, kiekviena kvito eilutė konvertuojama į ataskaitų valiutą, tada eilutės sumuojamos, kad būtų galima nustatyti bendrą debetą ir bendrą kreditą. Kad būtų subalansuota, debetai ir kreditai turi būti subalansuoti ataskaitų valiuta.  Skirtumo centais sąskaita niekada neįvedami į kvitą ataskaitų valiuta, kad debetai ir kreditai subalansuoti.
 
 ### <a name="example-for-an-accounting-currency-imbalance"></a>Apskaitos valiutos disbalanso pavyzdys
 

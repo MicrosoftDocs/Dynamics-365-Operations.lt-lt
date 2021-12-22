@@ -2,19 +2,19 @@
 title: Programėlių paslaugos „Finance and Operations“ aprašas
 description: Šioje temoje pateikiamas programėlių paslaugos „Finance and Operations“ aprašas.
 author: tomhig
-ms.date: 11/17/2021
+ms.date: 12/07/2021
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
 ms.search.region: Global
 ms.author: whigginb
 ms.search.validFrom: 2021-09-03
-ms.openlocfilehash: 262cf00bdca63876c284be40954ca5de559b993a
-ms.sourcegitcommit: f11ad8d7ee8a4d2ee1a1bb601622b50e14955c4a
-ms.translationtype: HT
+ms.openlocfilehash: f7ce73018fda79156cc7ef3d4e1faa3fedf966f8
+ms.sourcegitcommit: b101c21f972fdad2667431f712222e040cd69d43
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/18/2021
-ms.locfileid: "7825405"
+ms.lasthandoff: 12/07/2021
+ms.locfileid: "7898394"
 ---
 # <a name="service-description-for-finance-and-operations-apps"></a>Programėlių paslaugos „Finance and Operations“ aprašas
 
@@ -314,9 +314,9 @@ Pirminės duomenų saugyklos palaikomos dubliuojant. Todėl kiekvienos tarnybos 
 | „Microsoft" įdiegia antrinę aplinką „Azure" suporuotame duomenų centre, kai įdiegiamas pirminis gamybos egzempliorius. Norėdami gauti daugiau informacijos, žr. [verslo tęstinumo ir įvykių susigrąžinimo nelaimių atveju (BCDR): „Azure“ sugretinti regionai](/azure/best-practices-availability-paired-regions). | None |
 | „Microsoft" įgalina „Azure SQL" ir „Azure Blob Storage ", įdiegę pirminį gamybos egzempliorių. | None |
 | „Microsoft" įgalina automatinę atsarginę kopiją „Azure SQL" duomenų bazėse. | None |
-| <p>Kai įvyksta nesklandimas, „Microsoft“ nustato, ar reikia atlikti kliento failo failą ir ar bus prarasti duomenys. Duomenų praradimas gali būti iki 5 sekundžių. Norėdami gauti daugiau informacijos, žr. [„Azure SQL" duomenų bazės geografinio atkūrimo atstatyti](https://azure.microsoft.com/blog/azure-sql-database-geo-restore).</p><p>Jei duomenys bus prarasti, „Microsoft" paprašys, kad klientas atjungtų nuo failo failo.</p> | Duomenų praradimo atveju, klientui gali reikėti pateikti nurašoimą, kad būtų suaktyvinamas failo paleidimas. |
+| <p>Kai įvyksta nesklandimas, „Microsoft“ nustato, ar reikia atlikti kliento failo failą ir ar bus prarasti duomenys. Klientai gali prarasti duomenis iki 15 minučių, tai priklauso nuo pametimo pobūdžio ir laiko. | Duomenų praradimo atveju klientui gali reikėti pateikti rašytinę galutinę sąskaitą, kad būtų suaktyvinamas failo paleidimas. |
 | Kai paleidžiamas failo laikas, taikoma tarnyba veikia ribotu režimu. Naujinimo priežiūros negalima įjungti permetimo režimu. | Klientas negali prašyti paketo diegimo arba kitų reguliarių priežiūros užklausų failo režimu. |
-| Kai duomenų centras pradeda veikti, „Microsoft" nepavyksta grįžti į gamybos egzempliorių pirminio „Azure" regione. Normalių operacijų santrauka. | Klientui gali tekti atsijungti neišjungus gamybos egzemplioriaus, pirminio „Azure" regione. |
+| Kai duomenų centras pradeda veikti, „Microsoft" nepavyksta grįžti į gamybos egzempliorių pirminio „Azure" regione. Normalių operacijų santrauka. | Klientui gali tekti pasirašyti nepasilaikyus gamybos egzemplioriaus, pirminio "Azure" regione. |
 
 ## <a name="finance-and-operations-support-offerings"></a>„Finance and Operations“ pasiūlymų palaikymas
 

@@ -2,7 +2,7 @@
 title: Pašalintos arba nerekomenduojamos „Dynamics 365 Finance“ funkcijos
 description: Šioje temoje aprašomos funkcijos, kurios buvo pašalintos arba kurias planuojama pašalinti iš „Dynamics 365 Finance“.
 author: roschlom
-ms.date: 04/14/2021
+ms.date: 12/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 7ce7353de5795fd82e53bb1b7919c95dae4fe0ab6b8f536361613a7bcae19101
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ad3df2ee9c10972dac8258b6ee41ae0a6eabfbea
+ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6781206"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7890958"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Pašalintos arba nerekomenduojamos „Dynamics 365 Finance“ funkcijos
 
@@ -32,6 +32,58 @@ ms.locfileid: "6781206"
 
 > [!NOTE]
 > Išsamios informacijos apie „Finance and Operations“ programų objektus rasite skyriuje [Techninės informacijos ataskaitos](/dynamics/s-e/global/axtechrefrep_61). Galite palyginti skirtingas šių ataskaitų versijas, kad sužinotumėte apie objektus, kurie buvo pakeisti ar pašalinti kiekvienoje iš „Finance and Operations“ programų versijų.
+
+## <a name="features-removed-or-deprecated-in-the-finance-10024-release"></a>Pašalintos arba nerekomenduojamos funkcijos, esančios „Finance“ 10.0.24 versijoje
+
+### <a name="sales-tax-report-for-sweden-design-based-on-reporting-codes"></a>Švedijos PVM ataskaita (dizainas, pagrįstas ataskaitų kodais)
+
+[PVM ataskaita (Švedija)](../localizations/emea-swe-sales-tax-payment-report-sweden.md)
+
+| &nbsp; | &nbsp; |
+|------------|--------------------|
+| **Nerekomendavimo/pašalinimo priežastis** | Pakeista nauju PVM deklaracijos dizainu, [Švedijos PVM deklaracija](../localizations/emea-swe-vat-declaration-sweden.md) |
+| **Pakeitė kita funkcija?**   | Taip |
+| **Paveiktos produkto sritys**         | Prašymas |
+| **Visuotinio diegimo parinktis**              | Visos |
+| **Būsena**                         | Pasenusi: iki 2022 m. gruodžio 1 d. planuojame nebepalaikome Švedijos PVM ataskaitos (švediškos ataskaitos maketo). Nauji **PVM deklaracijos XML (SE) ir PVM deklaracijos Excel (SE) elektroninių ataskaitų** **·** (ER) formatai pateikiami pagal **mokesčių deklaracijos** modelį. |
+
+### <a name="vat-statement-for-austria-design-based-on-reporting-codes"></a>Austrijos PVM išrašas (dizainas, paremtas ataskaitų kodais)
+
+[PVM išrašo informacija, skirta Austrijai](../localizations/emea-aut-vat-statement-details.md)
+
+| &nbsp; | &nbsp; |
+|------------|--------------------|
+| **Nerekomendavimo/pašalinimo priežastis** | Pakeista nauju PVM deklaracijos dizainu, [Austrijos PVM deklaracija](../localizations/emea-aut-vat-declaration-austria.md) |
+| **Pakeitė kita funkcija?**   | Taip |
+| **Paveiktos produkto sritys**         | Prašymas |
+| **Visuotinio diegimo parinktis**              | Visos |
+| **Būsena**                         | Pasenusi: iki 2022 m. gruodžio 1 d. planuojame nebepalaikome PVM deklaracijos (AT) elektroninės **ataskaitos** (ER) formato pagal **PVM deklaracijos** modelį. Nauji **PVM deklaracijos XML (AT) ir PVM deklaracijos Excel** **(AT)** formatai pateikiami mokesčių deklaracijos **modelyje**. |
+
+### <a name="elster-declaration-for-germany-design-based-on-reporting-codes"></a>ELSTER deklaracija Vokietijai (dizainas, pagrįstas ataskaitų kodais)
+
+[PVM išrašas](../localizations/emea-de-vat-declaration.md)</br>
+[Nustatyti Elektroninę Vokietijos mokesčių deklaraciją](../../fin-ops-core/dev-itpro/analytics/tasks/setup-electronic-tax-declaration-germany.md)</br>
+[Elektroninis PVM deklaracijos perkėlimas (ELSTER)](../localizations/tasks/de-00003-electronic-transmission-elster.md)
+
+| &nbsp; | &nbsp; |
+|------------|--------------------|
+| **Nerekomendavimo/pašalinimo priežastis** | Pakeista nauju PVM deklaracijos dizainu, [Vokietijos PVM deklaracija](../localizations/emea-deu-vat-declaration-germany.md) |
+| **Pakeitė kita funkcija?**   | Taip |
+| **Paveiktos produkto sritys**         | Prašymas |
+| **Visuotinio diegimo parinktis**              | Visos |
+| **Būsena**                         | Pasenusi: iki 2022 m. gruodžio 1 d. planuojame nebepalaikome Elster (DE) ir Elster modelio elektroninių **ataskaitų** **·** (ER) formatų. Nauji **PVM deklaracijos XML (DE) ir PVM deklaracijos Excel** **(DE)** formatai pateikiami pagal mokesčių deklaracijos **modelį**. |
+
+### <a name="ob-declaration-for-netherlands-design-based-on-reporting-codes"></a>Nyderlandų OB deklaracija (dizainas, pagrįstas ataskaitų kodais)
+
+[OB deklaracija](../localizations/emea-nl-vat-declaration.md)
+
+| &nbsp; | &nbsp; |
+|------------|--------------------|
+| **Nerekomendavimo/pašalinimo priežastis** | Pakeista nauju PVM deklaracijos dizainu, [Olandijos PVM deklaracija](../localizations/emea-nl-vat-declaration-netherlands.md) |
+| **Pakeitė kita funkcija?**   | Taip |
+| **Paveiktos produkto sritys**         | Prašymas |
+| **Visuotinio diegimo parinktis**              | Visos |
+| **Būsena**                         | Pasenęs: iki 2022 m. gruodžio 1 d. planuojame nebepalaikome OB deklaracijos (NL) ir OB deklaracijos modelio elektroninių **ataskaitų** **·** (ER) formatų. Nauji **PVM deklaracijos XML (NL) ir PVM deklaracijos Excel** **(NL)** formatai pateikiami mokesčių deklaracijos **modelyje**. |
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10020-release"></a>Pašalintos arba nerekomenduojamos funkcijos, esančios „Finance“ 10.0.20 versijoje
 

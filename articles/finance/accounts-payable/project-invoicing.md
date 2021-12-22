@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ProjInvoiceCashFlow, ProjInvoiceControl, ProjInvoiceListPage, ProjInvoiceProposalDetail, ProjInvoiceProposalListPage
 audience: Application User, IT Pro
-ms.reviewer: roschlom
+ms.reviewer: zezhangzhao
 ms.custom: 23111
 ms.assetid: 1812d6f2-8b34-4258-8f5f-dcf12281547f
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2020-07-06
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: d8f0e027761a42871f9fc543319ba47fe457f23b8b7f937b8f847cc16922610e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 82de9c8ff1b3eeb1811332316522e541b2a405ff
+ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737264"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7883573"
 ---
 # <a name="project-invoicing"></a>Projekto SF išrašymas
 
@@ -58,7 +58,7 @@ Galite kurti toliau nurodytų operacijų SF pasiūlymus.
 
 SF pasiūlyme galite sukurti mokesčių operacijas. Taip pat galite modifikuoti pardavimo kainą pagal valandą, išlaidas, prekę ir mokesčių operacijas. Kai dalinatės sąskaitos pasiūlymu, atnaujintos kainos ir perlaidos yra įtraukiamos į projekto ataskaitas ir perlaidos istoriją. 
 
-Norėdami sukurti kelias projekto klientų SF, turite sukurti SF pasiūlymą kiekvienai SF. Pvz., galite kurti SF pagal operacijos tipą. Siekiant nurodyti valandas į vieną kliento sąskaitą ir elementus į kitą, turite sukurti atskirus sąskaitos pasiūlymus valandos perlaidoms ir mokesčio perlaidoms. 
+Norėdami sukurti kelias projekto klientų SF, turite sukurti SF pasiūlymą kiekvienai SF. Pvz., galite kurti SF pagal operacijos tipą. Norėdami nurodyti vienos kliento SF valandas ir prekes, nurodytas kitoje SF, turite sukurti atskirus valandinių ir mokesčių operacijų SF pasiūlymus. 
 
 Jei projekte yra daugiau kaip vienas finansavimo šaltinis, galite sukurti atskirą SF pasiūlymą kiekvienam finansavimo šaltiniui. **Finansavimo taisyklės priskyrimo** puslapyje galite nustatyti perlaidos kiekio procentą, kurią priskirsite kiekvienam finansavimo šaltiniui ir šaltinio publikavimo apvalinimo skirtumus.
 

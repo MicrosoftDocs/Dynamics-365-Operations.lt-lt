@@ -2,7 +2,7 @@
 title: Briaunos skalės vienetų diegimas pasirinktinėje aparatūroje naudojant LBD
 description: Šioje temoje paaiškinama, kaip parengti vietinės briaunos svarstyklių vienetus naudojant pasirinktinę aparatūrą ir diegimą, pagrįstą vietinės verslo duomenimis (LBD).
 author: cabeln
-ms.date: 04/22/2021
+ms.date: 11/29/2021
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: cabeln
 ms.search.validFrom: 2021-04-13
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: f1ab0a2c289f48dd8bfb7529f0dcc694a97f18ea
-ms.sourcegitcommit: e91a1797192fd9bc4048b445bb5c1ad5d333d87d
-ms.translationtype: MT
+ms.openlocfilehash: 8913debd614827ef66ded88e0da61663ca9c6b3d
+ms.sourcegitcommit: 29d34f2fd509e2bb27d8572cd57c397d014a8e38
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/01/2021
-ms.locfileid: "7729080"
+ms.lasthandoff: 12/07/2021
+ms.locfileid: "7894723"
 ---
 # <a name="deploy-edge-scale-units-on-custom-hardware-using-lbd"></a>Briaunos skalės vienetų diegimas pasirinktinėje aparatūroje naudojant LBD
 
@@ -51,7 +51,7 @@ Toliau pateikta talpinimo veiksmų apžvalga.
 
 Likusiuose šios temos skyriuose pateikiama daugiau informacijos, kaip atlikti šiuos veiksmus.
 
-## <a name="set-up-and-deploy-an-lbd-environment-with-an-empty-database"></a><a name="set-up-deploy"></a> Nustatykite ir įdiekite LBD aplinką su tuščia duomenų baze
+## <a name="set-up-and-deploy-an-lbd-environment-with-an-empty-database"></a><a name="set-up-deploy"></a>Nustatykite ir įdiekite LBD aplinką su tuščia duomenų baze
 
 Šis veiksmas sukuria funkcinę LBD aplinką. Tačiau aplinka nebūtinai turi tas pačias programos ir pagrindo versijas kaip ir centro aplinka. Be to, dar trūksta pritaikymų ir jis dar neįgalintas veikti kaip skalės vienetas.
 
@@ -60,7 +60,7 @@ Likusiuose šios temos skyriuose pateikiama daugiau informacijos, kaip atlikti �
     > [!IMPORTANT]
     > Prieš pabaigdami šios temos **veiksmus**, perskaitykite likusią šio skyriaus dalį.
 
-1. Prieš aprašę savo konfigūraciją faile \\ ConfigTemplate.xml, paleiskite šį scenarijų:
+1. Prieš aprašę savo konfigūraciją faile \\ConfigTemplate.xml, paleiskite šį scenarijų:
 
     ```powershell
     .\Configure-ScriptsForEdgeScaleUnits.ps1 -ConfigurationFilePath .\ConfigTemplate.xml
@@ -95,7 +95,7 @@ Likusiuose šios temos skyriuose pateikiama daugiau informacijos, kaip atlikti �
 
         ```powershell
         # Host URL is your DNS record\host name for accessing the AOS
-        .\Create-ADFSServerApplicationForEdgeScaleUnits.ps1 -HostUrl 'https://ax.d365ffo.onprem.contoso.com'
+        .\Create-ADFSServerApplicationForEdgeScaleUnits.ps1 -ConfigurationFilePath .\ConfigTemplate.xml -HostUrl 'https://ax.d365ffo.onprem.contoso.com'
         ```
 
     1. Sukurkite naują Azure Active Directory Azure AD () programą, kuri įgalins Jav instrumentavimo tarnybą susisiekti su svarstyklių vienetų valdymo tarnyba.
@@ -113,8 +113,8 @@ Likusiuose šios temos skyriuose pateikiama daugiau informacijos, kaip atlikti �
 
 1. Prieš diegdami aplinką iš LCS, nustatykite išankstinio diegimo scenarijų. Dėl daugiau informacijos, žr. [Vietinio agento išankstinio ir vėlesnio visuotinio diegimo scenarijai](../../fin-ops-core/dev-itpro/lifecycle-services/pre-post-scripts.md).
 
-    1. Nukopijuokite scenarijų Configure-CloudAndEdge.ps1 iš aplanko ScaleUnit infrastruktūros scenarijuose į aplanką Scenarijai, esantį agento failų saugykloje, kuri nustatyta **·** **·** **·** aplinkoje. Įprastas maršrutas yra  \\\\ lbdiscsi01\\ agentas\\ Scenarijai.
-    2. Sukurkite **PreDeployment.ps1** scenarijų, kuris iškviečiami scenarijus naudojant reikiamus parametrus. Išankstinio diegimo scenarijus turi būti laikomas scenarijų aplanke agento bendro naudojimo failų **saugykloje**. Kitu atveju jos paleisti negalima. Įprastas maršrutas yra \\\\ lbdiscsi01\\ agentas\\ Scenarijai\\ PreDeployment.ps1.
+    1. Nukopijuokite scenarijų Configure-CloudAndEdge.ps1 iš aplanko ScaleUnit infrastruktūros scenarijuose į aplanką Scenarijai, esantį agento failų saugykloje, kuri **nustatyta** **·** **aplinkoje**. Įprastas maršrutas yra  \\\\lbdiscsi01\\agentas\\Scenarijai.
+    2. Sukurkite **PreDeployment.ps1** scenarijų, kuris iškviečiami scenarijus naudojant reikiamus parametrus. Išankstinio diegimo scenarijus turi būti laikomas scenarijų aplanke agento bendro naudojimo failų **saugykloje**. Kitu atveju jos paleisti negalima. Įprastas maršrutas yra \\\\lbdiscsi01\\agentas\\Scenarijai\\PreDeployment.ps1.
 
         PreDeployment.ps1 scenarijaus turinys bus panašus į toliau pateikiamą pavyzdį.
 
@@ -160,7 +160,7 @@ Likusiuose šios temos skyriuose pateikiama daugiau informacijos, kaip atlikti �
     1. Patikrinkite, ar jūsų verslo duomenų bazėje (AXDB) įgalintas keitimų sekimas.
 
         1. Atidarykite SQL serverio valdymo studiją (SSMS).
-        1. Pasirinkite ir sulaikykite (arba spustelėkite dešiniuoju pelės mygtuku) savo verslo duomenų bazę (AXDB), tada pasirinkite **·** Ypatybės.
+        1. Pasirinkite ir sulaikykite (arba spustelėkite dešiniuoju pelės mygtuku) savo verslo duomenų bazę (AXDB), tada pasirinkite **Ypatybės**.
         1. Rodomame lange pasirinkite **Keitimų** sekimas ir nustatykite šias vertes:
 
             - **Keitimų sekimas:** *teisinga*
@@ -207,14 +207,14 @@ Likusiuose šios temos skyriuose pateikiama daugiau informacijos, kaip atlikti �
 
 1. Įtraukite ką tik sukurtą programos Azure AD ID (naudodami scenarijų Create-SgToHubAADApplication.ps1) į programų lentelę savo Azure AD centre. Šį veiksmą galite atlikti naudodami vartotojo sąsają.
 
-## <a name="upload-target-packages-into-lbd-project-assets-in-lcs"></a><a name="upload-packages"></a> Įkelkite paskirties paketus į LBD projekto turtą LCS
+## <a name="upload-target-packages-into-lbd-project-assets-in-lcs"></a><a name="upload-packages"></a>Įkelkite paskirties paketus į LBD projekto turtą LCS
 
 Šis veiksmas paruošia programos versiją, platformos versiją ir pritaikymus, kurie bus pereiti prie jūsų LBD svarstyklių aplinkos.
 
 1. Įkelkite tą patį sujungtos programos / platformos paketą, kuris buvo pritaikytas centro aplinkai, į LCS vietinio projekto turto biblioteką.
 1. Gaukite tinkintą talpinimo paketą, kuris buvo pritaikytas centro aplinkai ir atnaujintas į LCS vietinio projekto turto biblioteką.
 
-## <a name="service-the-lbd-environment-with-target-packages"></a><a name="service-target-packages"></a> LBD aplinkos aptarnavimas su paskirties pakuotėmis
+## <a name="service-the-lbd-environment-with-target-packages"></a><a name="service-target-packages"></a>LBD aplinkos aptarnavimas su paskirties pakuotėmis
 
 Šis veiksmas paruošia programos versiją, platformos versiją ir pritaikymus, kurie bus pereiti prie jūsų LBD svarstyklių aplinkos su centru.
 
@@ -225,7 +225,7 @@ Likusiuose šios temos skyriuose pateikiama daugiau informacijos, kaip atlikti �
 
     ![Tinkinimo paketo pasirinkimas.](media/cloud_edge-LBD-LCS-ServiceLBDEnv2.png "Tinkinimo paketo pasirinkimas")
 
-## <a name="assign-your-lbd-edge-scale-unit-to-a-hub"></a><a name="assign-edge-to-hub"></a> Priskirkite savo LBD briaunos svarstyklių vienetą prie centro
+## <a name="assign-your-lbd-edge-scale-unit-to-a-hub"></a><a name="assign-edge-to-hub"></a>Priskirkite savo LBD briaunos svarstyklių vienetą prie centro
 
 Konfigūruojate ir valdote savo kraštų skalės vienetą naudodami svarstyklių valdymo portalą. Daugiau informacijos ieškokite Skyriuje Valdyti [skalės vienetus ir darbo krūvius naudojant skalės vieneto tvarkytuvo](./cloud-edge-landing-page.md#scale-unit-manager-portal) portalą.
 

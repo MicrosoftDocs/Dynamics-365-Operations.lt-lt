@@ -2,7 +2,7 @@
 title: Biudžeto kontrolės apžvalga
 description: Šioje temoje pristatyta biudžeto kontrolės funkcija ir pateikiama informacija, kuri padės jums sukonfigūruoti biudžeto kontrolę, skirtą optimizuoti jūsų organizacijos finansinių išteklių valdymą.
 author: panolte
-ms.date: 06/25/2021
+ms.date: 11/08/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d0c8e7a08796a7f1c537978e406f53531e0f0682e6b5a769ced9d771063c30d5
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 21277361a3d05c57be7aeaa05348723e23873ef6
+ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772884"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7890730"
 ---
 # <a name="budget-control-overview"></a>Biudžeto kontrolės apžvalga
 
@@ -78,9 +78,7 @@ Toliau skirtuke **Biudžeto viršijimo teisės** galite nurodykite vartotojų gr
 Toliau skirtuke **Turimos biudžeto lėšos** galite nustatyti formulę, naudojamą turimoms biudžeto lėšoms apskaičiuoti. Atsižvelgiant į tai, kaip konservatyviai organizacija valdo savo finansinius išteklius, arba pagal taisykles ir pramoninius reikalavimus, į skaičiavimą gali būti įtraukti juodraštiniai arba neužregistruoti dokumentai. 
 
 > [!NOTE]
-> Jei šis skaičiavimas modifikuojamas biudžeto ciklo metu, pakeitimai neturės poveikio jokiems dokumentams, kurie anksčiau buvo patikrinti atliekant biudžeto kontrolę, užregistruoti arba užbaigti. 10.0.17 programos leidime nauja funkcija **Sekti tik skaičiavimui galimas biudžetų lėšų sumas** tapo galima tik ribotam klientų skaičiui. Ši funkcija jums leidžia pakeisti, kokie duomenys yra sekami „Biudžeto šaltinio sekimo” lentelėse. Kai ši funkcija įjungta, sumos saugomos tik tada, jei jos yra pasirinktos naudoti galimame biudžeto lėšų skaičiavime. Norėdami pateikti užklausą, kad **Sekti tik skaičiavimui galimas biudžetų lėšų sumas** funkcija būtų įjungta, susisiekite su palaikymo tarnyba. 
-
-### <a name="documents-and-journals"></a>Dokumentai ir žurnalai
+> Jei skaičiavimas modifikuojamas biudžeto ciklo metu, pakeitimai neturės įtakos jokiams dokumentams, kurie anksčiau atliko biudžeto kontrolės patikrinimus ir buvo užregistruoti arba baigti. Naudojant funkciją, kuri pavadinta Tik sekimo sumos, galimų biudžeto lėšų apskaičiavime galima keisti duomenis, kurie duomenys sekami **budgetSourceTracking** lentelėse. Kai ši funkcija įjungta, sumos saugomos tik tada, jei jos yra pasirinktos naudoti galimame biudžeto lėšų skaičiavime. Daugiau informacijos rasite [turimas biudžeto lėšas](budget-funds-available.md).
 
 Toliau skirtuke **Dokumentai ir žurnalai** galite pasirinkti, kuriems šaltinio dokumentams ir žurnalams bus taikomi biudžeto kontrolės patikrinimai, ir tai, ar bus tikrinama eilutės įrašo ar viso dokumento lygiu. 
 

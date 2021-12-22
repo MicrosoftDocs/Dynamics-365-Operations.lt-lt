@@ -2,7 +2,7 @@
 title: Ilgalaikio turto nusidėvėjimas
 description: Šioje temoje apžvelgiamas ilgalaikio turto nusidėvėjimas.
 author: moaamer
-ms.date: 10/30/2017
+ms.date: 12/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,20 +15,23 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 54da35a39791a9e528896f3decd10476ad5af2d9
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.openlocfilehash: 2442830766ef1dccc109db5569bfbbbc8182f027
+ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7675005"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7890985"
 ---
 # <a name="fixed-asset-depreciation"></a>Ilgalaikio turto nusidėvėjimas
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Šioje temoje apžvelgiamas ilgalaikio turto nusidėvėjimas.
 
 Nusidėvėjimas yra periodinė operacija, kuri paprastai balanso sąskaitoje sumažina ilgalaikio turto vertę. Ji pelno ir nuostolio sąskaitose užrašoma kaip išlaidos. Todėl pagrindinė sąskaita paprastai yra naudojama periodiniam nusidėvėjimui balanse kredituoti. Korespondentinė sąskaita yra sąskaitų plano pelno ir nuostolio dalies sąskaita.
+
+Kaip ir versija 10.0.24, knygos puslapyje esanti pasirinktis Skaičiuoti teigiamo nusidėvėjimo turto knygą leidžia nusidėvėjimui debetuoti ilgalaikį turtą, kuris įsigytas su neigiama balansine **verte** **·** (kreditu).
 
 ## <a name="depreciation-adjustment"></a>Nusidėvėjimo koregavimas
 Paprastai užregistruotos nusidėvėjimo operacijos taisymas yra registruojamas kaip nusidėvėjimo koregavimas. Todėl pagrindinė sąskaita ir korespondentinė sąskaita yra nustatomos kaip nusidėvėjimo sąskaitos. Nusidėvėjimo koregavimas gali būti teigiama arba neigiama suma, bet pagrindinės sąskaitos (kaip balanso sąskaitos) ir korespondentinės sąskaitos (paprastai kaip pelno ir nuostolio sąskaitos) funkcija yra tokia pati.

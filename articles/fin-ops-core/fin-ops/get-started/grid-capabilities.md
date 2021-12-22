@@ -2,7 +2,7 @@
 title: Tinklelio charakteristikos
 description: Šioje temoje aprašomos kelios galingos tinklelio valdiklio funkcijos. Norėdami turėti prieigą prie šių galimybių, turite įjungti naują tinklelio funkcija.
 author: jasongre
-ms.date: 10/25/2021
+ms.date: 12/01/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: a21a41399b5884fda9cce214f99851ffa93bbc43
-ms.sourcegitcommit: f8b597b09157d934b62bd5fb9a4d05b8f82b5a0e
+ms.openlocfilehash: ba3640cf13fecc54f4cc58cd8996e434cd16cf60
+ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/26/2021
-ms.locfileid: "7700142"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7890874"
 ---
 # <a name="grid-capabilities"></a>Tinklelio charakteristikos
 
@@ -119,6 +119,9 @@ Lygiai taip pat, kaip galite pažymėti visas tinklelio eilutes (arba panaikinti
 
 ### <a name="hiding-column-names"></a>Stulpelių pavadinimų slėpimas
 Grupuojant duomenis numatytasis veikimas yra rodyti stulpelio pavadinimą grupės antraštės eilutėje. Galite pasirinkti nerodyti stulpelio pavadinimo grupės antraštės eilutėse pasirinkdami **Tinklelio parinktys** > **Slėpti grupės stulpelio pavadinimą**.
+
+### <a name="grouping-on-date-and-time-columns"></a>Datos ir laiko stulpelių grupavimas
+Laukų Data arba DateTime versijoje 10.0.24 parinktis buvo pridėta prie grupės pagal metus, mėnesį arba dieną. Atitinkamos antraštės eilutės grupė "vertė" atitiks to lauko formatą. Be to, laukuose DateTime ir Laikas galėsite grupuoti pagal valandą, minutės ar sekundę.    
 
 ## <a name="freezing-columns"></a>Fiksuoti stulpeliai
 Kai kurie tinklelio stulpeliai gali būti labai svarbūs kontekstui, tad nenorite, kad jie praslinktų per rodinį. Vietoj to galbūt norėsite, kad šių stulpelių reikšmės visada būtų matomos. Funkcija **Fiksuoti stulpelius tinklelyje** suteikia šį lankstumą vartotojams. 

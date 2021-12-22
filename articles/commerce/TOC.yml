@@ -92,7 +92,9 @@
                   items:
                     - name: Kas nauja ar pasikeitė „Commerce“ pagrindiniame puslapyje
                       href: get-started/whats-new-home-page.md
-                    - name: Commerce 10.0.23
+                    - name: „Commerce 10.0.24“ (2022 m. vasario mėn.)
+                      href: get-started/whats-new-commerce-10-0-24.md
+                    - name: „Commerce 10.0.23“ (2022 m. sausio mėn.)
                       href: get-started/whats-new-commerce-10-0-23.md
                     - name: „Commerce 10.0.22“ (2021 m. lapkričio mėn.)
                       href: get-started/whats-new-commerce-10-0-22.md
@@ -544,6 +546,8 @@
                       href: duplicate-payment-protection.md
                     - name: Integruotų kanalų mokėjimų apžvalga
                       href: omni-channel-payments.md
+                    - name: Keli galimi mokėjimo būdai atsiimant prekes parduotuvėje
+                      href: dev-itpro/multiple-payments-pickup.md
                     - name: Daugiakanaliai „Commerce“ užsakymų mokėjimai
                       href: dev-itpro/commerce-payments.md
                     - name: Archyvuoti kredito kortelės operacijų duomenis
@@ -814,6 +818,10 @@
           items:
             - name: Klientų valdymas parduotuvėse
               href: customer-mgmt-stores.md
+            - name: Asinchroninis kliento kūrimo režimas
+              href: async-customer-mode.md
+            - name: Asinchroninių klientų konvertavimas į sinchroninius klientus
+              href: convert-async-to-sync.md
             - name: Ryšiai su klientais
               items:
                 - name: Ryšių su klientais apžvalga
@@ -1330,7 +1338,9 @@
                   href: localizations/latam-bra-nfce-contingency-mode.md
                 - name: Brazilijos finansinių dokumentų registravimas naudojant mažmeninės prekybos išrašus „Commerce“ būstinėje
                   href: localizations/latam-bra-retail-statements.md
-                - name: '„Dynamics 365 Payment Connector“, skirta „Adyen“, „Commerce“ EKA Brazilijai'
+                - name: CF-e finansinis dokumentas ir integravimas į SAT funkcijas „Commerce POS“ Brazilijai
+                  href: localizations/latam-bra-cf-e-sat.md
+                - name: '„Dynamics 365 Payment Connector“, skirta „Adyen“, „Commerce POS“ Brazilijai'
                   href: localizations/latam-bra-adyen.md
             - name: Rytų Europa
               items:
@@ -1378,8 +1388,10 @@
                   href: localizations/apac-ind-loc-deployment-guidelines.md
                 - name: Plėtojimo ir N-1 palaikymas (Indija)
                   href: localizations/apac-ind-n-1-for-india.md
-                - name: QR kodų generavimas ir spausdinimas kvituose
+                - name: QR kodų generavimas ir spausdinimas kvituose Indijai
                   href: localizations/ind-generate-qr-code-print-receipt.md
+                - name: El. prekybos svetainių prekių ir paslaugų mokesčio (PPM) integravimas
+                  href: localizations/apac-ind-e-commerce.md
             - name: Italija
               items:
                 - name: Fiskalinio spausdintuvo integracijos pavyzdys (Italija)
@@ -1616,7 +1628,9 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-sessiontoday.md?toc=/dynamics365/commerce/toc.json
                         - name: Today
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-today.md?toc=/dynamics365/commerce/toc.json
-                    - name: Sąrašas
+                        - name: WeekNum
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-weeknum.md?toc=/dynamics365/commerce/toc.json
+                    - name: List
                       items:
                         - name: Sąrašo funkcijos
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-list.md?toc=/dynamics365/commerce/toc.json

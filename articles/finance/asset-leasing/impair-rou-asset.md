@@ -2,7 +2,7 @@
 title: Naudojimo teise valdomo turto nuvertėjimas
 description: Šioje temoje aprašomos funkcijos, kurios įrašo vertės sumažėjimą ir koreguoja apskaitos standartų kodifikavimo temos Nr. 842 (ASC 842) veiklos nuomos turto nusidėvėjimo grafiką.
 author: moaamer
-ms.date: 10/28/2020
+ms.date: 12/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,16 +15,17 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 816f65cff77339ef8684c0449ed2e5f0762b17a2e22174412d5ea9f2a1a62069
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fd79880dc8aa77eea8c16f350c0853013c6ad17b
+ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723828"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7890835"
 ---
 # <a name="impair-right-of-use-assets"></a>Naudojimo teise valdomo turto nuvertėjimas
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Jei naudojimo teise valdomo turto apskaitinė vertė nėra atlygintina, jums gali tekti tikrinti, ar turto vertė sumažėjo. Jei nustatote, kad turto vertė sumažėjo, turto nuoma gali įrašyti vertės sumažėjimą ir atitinkamai koreguoti nusidėvėjimo grafiką. Šioje temoje aprašomos funkcijos, kurios įrašo vertės sumažėjimą ir koreguoja apskaitos standartų kodifikavimo temos Nr. 842 (ASC 842) veiklos nuomos nusidėvėjimo grafiką. Tas pats metodas taikomas ir tarptautinio finansinės atskaitomybės standarto Nr. 16 (IFRS 16) nuomai.
 
@@ -37,13 +38,16 @@ Likęs naudojimo teise valdomo turto likutis bus amortizuotas tiesiogiai, atsiž
 3. Pasirodžiusiame dialogo lango lauke **Nuvertėjimo suma** įveskite turto nuvertėjimo sumą. Norėdami sumažinti naudojimo teise valdomą turtą, turite įvesti teigiamą vertę.
 4. Lauke **Operacijos data** įveskite datą, nuo kurios turi būti užregistruotas nuvertėjimo įrašas.
 5. Lauke **Likę laikotarpiai** įveskite likusį mėnesių skaičių, kurį norite amortizuoti.
-6. Įjunkite parametrą **Registruoti**, jei norite, kad sistema automatiškai registruotų nuvertėjimo išlaidų žurnalo įrašą. Jei šis parametras paliekamas išjungtas, sistema sukuria įrašą, bet jo neužregistruoja. Tada galite užregistruoti įrašą puslapyje **Turto nuomos žurnalai**.
-7. Norėdami peržiūrėti siūlomą įrašą prieš jį sukurdami arba registruodami, nustatykite parinktį **Peržiūrėti prieš registruojant** į parametrą **Taip**.
-8. Nustatykite parinktį **Uždaryti knygą** į parametrą **Taip**, kad uždarytumėte nuomos knygą. Šio veiksmo grąžinti negalima. Įrašų negalima registruoti pagal uždarytą nuomą, o uždarytos nuomos koreguoti negalima.
-9. Pasirinkite **Gerai**, norėdami sukurti arba užregistruoti nuvertėjimo įrašą.
-10. Norėdami peržiūrėti nuvertėjimo turto nusidėvėjimo grafiką, atidarykite tos nuomos knygos turto nusidėvėjimo grafiką. Dabar turtas nuvertės tiesiogiai per mėnesių, kuriuos įvedėte lauke **Likę laikotarpiai** skaičių.
-11. Norėdami peržiūrėti žalos išlaidų žurnalo įrašą, nuvertėjimo nuomos knygos veiklos srityje pasirinkite **Turto nuomos žurnalas**. Sistema sukuria žurnalo įrašą, kuris debetuoja nuvertėjimo išlaidų registravimo sąskaitą ir kreditus nuomos turto registravimo sąskaitoje.
-12. Norėdami peržiūrėti naują naudojimo teise valdomo turto balansinę vertę, nuomos knygos veiksmų srityje pasirinkite **Turto operacijos**.
+6. Norėdami peržiūrėti **siūlomą** turto balansą ir finansinį įrašą prieš juos sukurtų arba užregistruotų, nustatykite peržiūros pasirinktį.
+7. Nustatykite parinktį **Uždaryti knygą** į parametrą **Taip**, kad uždarytumėte nuomos knygą. Galite anuliuoti šį veiksmą naudodami nuomos iš naujo **būseną**. Įrašų negalima registruoti pagal uždarytą nuomą, o uždarytos nuomos koreguoti negalima. 
+8. Norėdami **kurti arba registruoti** pablogėjimo įrašą, pasirinkite Registruoti.
+
+    > [!NOTE]
+    > Užregistrus pablogėjimo operaciją, sukuriama nauja knygos versija.
+
+9. Norėdami peržiūrėti patrikęs turto nusidėvėjimo grafiką, atidarykite nuomos knygos turto nusidėvėjimo grafiką. Dabar turtas nuvertės tiesiogiai per mėnesių, kuriuos įvedėte lauke **Likę laikotarpiai** skaičių.
+10. Norėdami peržiūrėti žalos išlaidų žurnalo įrašą, nuvertėjimo nuomos knygos veiklos srityje pasirinkite **Turto nuomos žurnalas**. Sistema sukuria žurnalo įrašą, kuris debetuoja nuvertėjimo išlaidų registravimo sąskaitą ir kreditus nuomos turto registravimo sąskaitoje. 
+11. Norėdami peržiūrėti naują naudojimo teise valdomo turto balansinę vertę, nuomos knygos veiksmų srityje pasirinkite **Turto operacijos**.
 
 ## <a name="example-of-rou-asset-impairment"></a>Naudojimo teise valdomo turto nuvertėjimo pavyzdys
 
@@ -92,7 +96,7 @@ Toliau esančiose lentelėse rodomos reikšmės, kurios yra nustatytos šio pavy
     | Operacijos data       | 2022-01-01 |
     | Likę laikotarpiai      | 84       |
     | Skelbti                   | Taip      |
-    | Peržiūrėti prieš registruojant | Ne.       |
+    | Peržiūrėti prieš registruojant | Ne       |
     | Uždaryti knygą             | Ne       |
 
 6. Buvo sukurtas ir užregistruotas nuvertėjimo išlaidų žurnalo įrašas. Norėdami jį peržiūrėti, eikite į turto nuomos žurnalą nuomos knygoje. Atkreipkite dėmesį, kad nuvertėjimo suma buvo debetuota į nuvertėjimo išlaidų registravimo sąskaitą, o naudojimo teise valdomo turto registravimo sąskaita buvo kredituota.

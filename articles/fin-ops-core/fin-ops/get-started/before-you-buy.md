@@ -2,7 +2,7 @@
 title: Prieš perkant
 description: Nuoseklūs nurodymai, ką daryti norint įsigyti „Dynamics 365 Finance“, „Dynamics 365 Supply Chain Management“ arba „Dynamics 365 Commerce“.
 author: ShellyBakke
-ms.date: 11/23/2020
+ms.date: 11/30/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: smiller
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: 0218dd93440c3cd76f16ac954dd7956998873931444fa1334e7382a177ff3fc9
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: f994acfb85e5bb7ccb9cbd3e6c0a0f3c4eec318a
+ms.sourcegitcommit: 34113bd588d53b9aed481da060a1c6738fca0eaf
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6757200"
+ms.lasthandoff: 11/30/2021
+ms.locfileid: "7874589"
 ---
 # <a name="before-you-buy"></a>Prieš perkant
 
@@ -42,7 +42,7 @@ Kaip visuotinio diegimo parinktį pasirinkdami vietinį diegimą, turite atsižv
 - [Vietiniams visuotiniams diegimams taikomi sistemos reikalavimai](system-requirements-on-prem.md).
 
 > [!IMPORTANT]
-> Vietinės visuotinės įdiegtys nepalaikomos jokioje viešojo debesies infrastruktūroje, įskaitant „Microsoft Azure“.
+> Vietinės visuotinės įdiegtys nepalaikomos jokioje viešojo debesies infrastruktūroje, įskaitant „Microsoft Azure“. Tačiau jie palaikomi paleisti [Microsoft Azure "Stack HCI"](https://azure.microsoft.com/products/azure-stack/hci/) ir [Microsoft Azure "Stack Hub"](https://azure.microsoft.com/products/azure-stack/hub/).
 
 Norėdami gauti daugiau informacijos, žr. [Visuotinio diegimo parinktys](../../dev-itpro/deployment/choose-deployment-type.md).
 

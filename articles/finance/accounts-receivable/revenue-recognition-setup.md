@@ -2,7 +2,7 @@
 title: Įplaukų pripažinimo nustatymai
 description: Šioje temoje aprašomos įplaukų pripažinimo nustatymų parinktys ir jų reikšmės.
 author: kweekley
-ms.date: 08/24/2018
+ms.date: 11/24/2021
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: b5ffd86d736cb7b6b5c270663c2b774e14556a6b
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.openlocfilehash: e8e29ec1ca5a02db67bb4baf522da96ec23c740f
+ms.sourcegitcommit: ac23a0a1f0cc16409aab629fba97dac281cdfafb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7675183"
+ms.lasthandoff: 11/29/2021
+ms.locfileid: "7867225"
 ---
 # <a name="revenue-recognition-setup"></a>Įplaukų pripažinimo nustatymai
 [!include [banner](../includes/banner.md)]
@@ -61,7 +61,7 @@ Pirmuoju atveju, įvykdžius visus sutartinius įsipareigojimus, atidėtos įpla
 
 Antruoju atveju, žurnalas sukuriamas įvykdžius perskirstymą. Perskirstymas vykdomas, kai pardavimo užsakymo eilutė pridedama prie pardavimo užsakymo, kurio SF jau išrašyta, arba kai sukuriamas naujas pardavimo užsakymas, apimantis eilutę, kuri yra pradinės sutarties dalis. Jei SF buvo užregistruota prieš įtraukiant naują pardavimo užsakymo eilutę, užregistruotai kliento SF turi būti sukuriamas koregavimo apskaitos įrašas.
 
-Žurnalas nustatomas puslapyje **Žurnalo pavadinimai** (**Įplaukų pripažinimas \> Nustatymai \> Žurnalo pavadinimai**). Žurnalo tipą reikia nustatyti į **Įplaukų pripažinimas**. Įplaukų pripažinimo žurnalas leidžia pasirinkti registravimo sluoksnį, kuriame norite registruoti.
+Žurnalas nustatomas puslapyje **Žurnalo pavadinimai** (**Įplaukų pripažinimas \> Nustatymai \> Žurnalo pavadinimai**). Žurnalo tipą reikia nustatyti į **Įplaukų pripažinimas**. 
 
 ## <a name="parameters-for-revenue-recognition"></a>Įplaukų pripažinimo parametrai
 

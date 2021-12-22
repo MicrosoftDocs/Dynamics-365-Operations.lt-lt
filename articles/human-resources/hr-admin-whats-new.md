@@ -2,7 +2,7 @@
 title: Kas nauja ar pasikeitė „Human Resources”
 description: Kas dvi savaites išleidžiame naują „Microsoft Dynamics 365 Human Resources“ leidimą. Čia nurodytose temose išsamiai pateikiami kiekvieną savaitę atlikti keitimai.
 author: twheeloc
-ms.date: 04/21/2021
+ms.date: 12/09/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e30267ca95bdcaa8b42cfb7e606a0a8eda8c1da4
-ms.sourcegitcommit: 42bd701179e664947b6eafcd1804c83a5e64abcb
-ms.translationtype: HT
+ms.openlocfilehash: 15a46c73da664f9133ce45149f1e2dd5e7b94fbc
+ms.sourcegitcommit: 88f8a0369ce66b82314db9639491b695e18a7e5c
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2021
-ms.locfileid: "7641192"
+ms.lasthandoff: 12/09/2021
+ms.locfileid: "7902538"
 ---
 # <a name="whats-new-or-changed-in-human-resources"></a>Kas nauja ar pasikeitė „Human Resources”
 
@@ -40,6 +40,7 @@ Norėdami gauti daugiau informacijos apie būsimas „Human Resources” funkcij
 
 Norėdami sužinoti, kas nauja ar pasikeitė kiekviename kas dvi savaites leidžiamame „Human Resources” leidime, žr. šias temas:
 
+[2021 m. lapkričio 29 d.](hr-whats-new-2021-11-29.md)<br>
 [2021 m. spalio 5 d.](hr-whats-new-2021-10-04.md)</br>
 [2021 m. rugsėjo 20 d.](hr-whats-new-2021-09-20.md)</br>
 [2021 m. rugsėjo 6 d.](hr-whats-new-2021-09-06.md)</br>
