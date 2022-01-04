@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-04-22
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: ec4265f0433fbbce1e00eda206c297b54f9b8df8
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: a709528b04e82c32f644073f79513b7ef11bb6bf
+ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7778526"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920728"
 ---
 # <a name="firm-planned-orders"></a>Galutinai suplanuoti užsakymai
 
@@ -31,7 +31,7 @@ Yra trys suplanuotų užsakymų virtimo metodai:
 
 Šioje temoje išsamiai aprašomas kiekvienas metodas.
 
-## <a name="enable-the-features-that-are-described-in-this-topic"></a><a name="enable-features"></a> Įgalinkite šioje temoje aprašomas funkcijas
+## <a name="enable-the-features-that-are-described-in-this-topic"></a><a name="enable-features"></a>Įgalinkite šioje temoje aprašomas funkcijas
 
 Dauguma suplanuoto užsakymo funkcijų yra galimos visuose standartiniuose „Microsoft Dynamics 365 Supply Chain Management“ diegimuose, naudojant „Planning Optimization“. Tačiau kai kurios šioje temoje aprašomos funkcijos turi būti įjungtos funkcijų valdymas prieš jas naudojant.
 
@@ -39,19 +39,19 @@ Dauguma suplanuoto užsakymo funkcijų yra galimos visuose standartiniuose „Mi
 
 Lygiagretus tvirtinimo procesas padeda pagreitinti tvirtinimo procesą, lygiagrečiai jį keliose gijose. Šis būdas gali būti naudingas, kai daugelis suplanuotų užsakymų yra patvirtinti.
 
-Norėdami, kad jūsų sistemoje šios funkcijos būtų galimos, eikite į Funkcijų [valdymas ir](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) įjunkite *suplanuotų užsakymų funkcijos lygiagretų* tvirtavimą. (Kaip tiekimo grandinės valdymo versija 10.0.21, ši funkcija yra įjungta pagal numatytuosius nustatymus.)
+Norėdami, kad jūsų sistemoje šios funkcijos būtų galimos, eikite į Funkcijų [valdymas ir](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)įjunkite *suplanuotų užsakymų funkcijos lygiagretų* tvirtavimą. (Kaip ir tiekimo grandinės valdymo versija 10.0.21, ši funkcija įjungiama pagal numatytąjį nustatymą.)
 
 ### <a name="enable-planned-order-firming-with-filtering"></a>Įjungti suplanuoto užsakymo tvirtinimo naudojant filtravimą
 
 Suplanuotų užsakymų virtimas naudojant filtravimą leidžia nurodyti loginius kriterijus, pagal kuriuos galima pasirinkti, kuriuos suplanuotus užsakymus patvirtinti. Taip pat galite peržiūrėti, kurie suplanuoti užsakymai buvo pasirinkti, vykdyti procesą fone ir / arba suplanuoti jį kaip paketinę užduotį.
 
-Norėdami, kad jūsų sistemoje šios funkcijos būtų galimos, eikite į Funkcijų [valdymas ir](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) įjunkite *suplanuotų užsakymų funkcijos pasirašymą su filtravimu* tvirtavimą.
+Norėdami, kad jūsų sistemoje šios funkcijos būtų galimos, eikite į Funkcijų [valdymas ir](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)įjunkite *suplanuotų užsakymų funkcijos pasirašymą su filtravimu* tvirtavimą.
 
 ### <a name="enable-auto-firming-for-planning-optimization"></a>Įjungti automatinį planavimo optimizavimo patvirtinimą
 
 Automatinis patvirtinimas leidžia patvirtinti (tai yra, išleisti) suplanuotus užsakymus kaip bendrojo planavimo dalį per laiko tvorą pasirašymui. Automatinis virtimas visada palaikomas planavimo variklis, sukurtas „Supply Chain Management“. Tačiau norėdami naudoti ją ir „Planning Optimization“, turite įjungti funkciją.
 
-Norėdami, kad jūsų sistemoje šios funkcijos būtų galimos, eikite į „Planning Optimization“ Funkcijų [valdymas ir](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) įjunkite *suplanuotų užsakymų funkcijos pasirašymą su filtravimu* tvirtavimą. (Kaip tiekimo grandinės valdymo versija 10.0.21, ši funkcija yra įjungta pagal numatytuosius nustatymus.)
+Norėdami, kad jūsų sistemoje šios funkcijos būtų galimos, eikite į „Planning Optimization“ Funkcijų [valdymas ir](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) įjunkite *suplanuotų užsakymų funkcijos pasirašymą su filtravimu* tvirtavimą. (Kaip ir tiekimo grandinės valdymo versija 10.0.21, ši funkcija įjungiama pagal numatytąjį nustatymą.)
 
 ## <a name="manually-firm-planned-orders"></a>Peržiūrėti suplanuotus užsakymus rankiniu būdu
 
@@ -80,6 +80,9 @@ Norėdami neautomatiniu būdu patvirtinti suplanuotus užsakymus, surandate ir p
     - **Grupuoti pagal pirkimo sutartį** – Nustatykite šią pasirinktį į *Taip*, jei norite sugrupuoti suplanuotus pirkimo užsakymus, kurių tiekėjas yra toks pats, kaip ir esamų pirkimo sutarčių, ir sukurti po vieną pirkimo užsakymą kiekvienai pirkimo sutarčiai. Ši parinktis įgalinama automatiškai, kai įgalinta **Grupuoti pagal tiekėją**. Tam, kad galėtumėte naudoti **Grupuoti pagal pirkimo sutartį**, **Rasti pirkimo sutartį** turi būti nustatyta į *Taip* puslapyje **Bendrojo planavimo parametrai**.
     - **Grupuoti pagal laikotarpį** (skyriuje **Pirkimo** užsakymai) – pasirinkite laikotarpį, pagal kurį norite grupuoti suplanuotus pirkimo užsakymus. Jei norite naudoti šią pasirinktį, taip pat turite pažymėti parinktį **Grupuoti pagal tiekėją**.
     - **Grupuoti pagal laikotarpį** (skyriuje **Perlaidos** užsakymai) – pasirinkite laikotarpį, pagal kurį norite grupuoti suplanuotus pirkimo užsakymus. Užsakymai bus sugrupuoti pagal vertes Iš **sandėlio** ir Į **sandėlį**.
+
+    > [!NOTE]
+    > Dėl kiekvienos pasirinktys Grupuoti pagal sistema kiekvieną suplanuotą užsakymą konvertuoja į vieno pirkimo užsakymo eilutę, kuri atsiranda grupuojant.
 
     ![„FastTab“ tvirtinimo laukelio parametrai.](./media/manual-firming.png "„FastTab“ tvirtinimo laukelio parametrai")
 

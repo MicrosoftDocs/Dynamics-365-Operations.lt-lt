@@ -2,7 +2,7 @@
 title: Atsargų matomumo konfigūravimas
 description: Šioje temoje aprašoma, kaip konfigūruoti atsargų matomumą.
 author: yufeihuang
-ms.date: 08/02/2021
+ms.date: 12/09/2021
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 53cc457c788d24adfe3c523719ccffc6d445fb61
-ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
+ms.openlocfilehash: fcbace2bd28a843fca8aa2f4f998c08f238c29d6
+ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/25/2021
-ms.locfileid: "7678476"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920303"
 ---
 # <a name="configure-inventory-visibility"></a>Atsargų matomumo konfigūravimas
 
@@ -61,7 +61,7 @@ Baigę konfigūruoti programoje pasirinkite **Naujinti konfigūraciją** program
 Kiekvienas duomenų šaltinis rodo sistemą, iš kurios gauti jūsų duomenys. Pavyzdžio duomenų šaltinio pavadinimas apima `fno` (tai reiškia „Dynamics 365 Finance and Operations "programėles") ir `pos` (tai reiškia "point of sale"). Pagal numatytuosius nustatymus „Supply Chain Management“ nustatomas kaip numatytasis duomenų šaltinis (`fno`) atsargų matomumo atveju.
 
 > [!NOTE]
-> Duomenų `fno`šaltinis rezervuotas „Dynamics 365 Supply Chain Management“.
+> Duomenų `fno` šaltinis rezervuotas tiekimo grandinės valdymui. Jei jūsų atsargų matomumo priedas yra integruotas tiekimo grandinės valdymo aplinkoje, rekomenduojame nenaiknti su duomenų šaltiniu `fno` susijusių konfigūracijų.
 
 Norėdami įtraukti duomenų šaltinį, atlikite nurodytus veiksmus.
 
@@ -273,17 +273,17 @@ Išvestis `MyCustomAvailableforReservation` paremta apskaičiavimo nustatymais t
 
 ## <a name="partition-configuration"></a><a name="partition-configuration"></a>Skaidinio konfigūracija
 
-Skaidinio konfigūraciją sudaro pagrindinės dimensijos derinys. Jis nurodo duomenų paskirstymo trafaretą. Duomenų operacijos tame pačiame skaidinyje palaiko aukštą našumą ir per daug nekainoti. Todėl tinkami skaidinio modeliai gali turėti didelės naudos.
-
-Atsargų matomumas suteikia tokią numatytąją skaidinio konfigūraciją.
+Šiuo metu skaidinio konfigūraciją sudaro dvi pagrindinės dimensijos `SiteId``LocationId` (ir) kurios nurodo, kaip paskirstomi duomenys. To paties skaidinio operacijos gali padidinti našumą už mažesnes išlaidas. Toliau pateikiamoje lentelėje rodoma numatytoji skaidinio konfigūracija, kurią teikia atsargų matomumo priedas.
 
 | Pagrindinė dimensija | Hierarchija |
 |---|---|
 | `SiteId` | 1 |
 | `LocationId` | 2 |
 
-> [!NOTE]
-> Numatytoji skaidinio konfigūracija skirta tik nuorodai. Nereikia jų nustatyti atsargų matomumo dalyje. Šiuo metu skaidinio konfigūracijos naujinimas nepalaikomas.
+Sprendimas apima šio skaidinio konfigūraciją pagal numatytuosius nustatymus. Todėl *jums nereikia jų patiems nurodyti*.
+
+> [!IMPORTANT]
+> Nepritaikykite numatytosios skaidinio konfigūracijos. Jei jį panaikinsite arba pakeisite, tikėtina, kad įvyko netikėta klaida.
 
 ## <a name="product-index-hierarchy-configuration"></a><a name="index-configuration"></a>Produkto indeksų hierarchijos konfigūracija
 

@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-12-03
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: 1b5742ddf7e5e2c5c32c446a0bde08f4964d6b95
-ms.sourcegitcommit: 96515ddbe2f65905140b16088ba62e9b258863fa
-ms.translationtype: HT
+ms.openlocfilehash: f6402d7f9f433ca621c475bd62553529943dbe62
+ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/04/2021
-ms.locfileid: "7891867"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920553"
 ---
 # <a name="preview-of-dynamics-365-supply-chain-management-10024-february-2022"></a>„Dynamics 365 Supply Chain Management“ 10.0.24 išankstinė peržiūra (2022 m. vasaris)
 
@@ -64,7 +64,7 @@ Neseniai įtraukėme ir reikšmingai atnaujinome tolesnes pagalbos temas. Šios 
 | Bendrasis planavimas | [Pakankamų atsargų žurnalo naudojimas mažiausiam prekių padengimui atnaujinti](../master-planning/safety-stock-journal.md) |
 | Gamybos kontrolė | [Gamybos vietos vykdymo sąsajos tinkinimas](../production-control/production-floor-execution-customize.md) |
 | Gamybos kontrolė | [Gamybos vietos vykdymo sąsajos stilius](../production-control/production-floor-execution-styles.md) |
-| Pardavimas ir rinkodara | [Pardavimo retrospektyvos valymo našumo patobulinimai](../sales-marketing/sales-update-history-cleanup-performance-improvements.md) |
+| Pardavimas ir rinkodara | [Pardavimo istorijos valymo našumo patobulinimai](../sales-marketing/sales-update-history-cleanup-performance-improvements.md) |
 | Sandėlio valdymas | [Mobiliojo įrenginio vartotojų paskyros](../warehousing/mobile-device-work-users.md) |
 
 ## <a name="additional-resources"></a>Papildomi ištekliai

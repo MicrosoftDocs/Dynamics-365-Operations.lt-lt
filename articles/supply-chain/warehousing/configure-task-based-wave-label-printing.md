@@ -1,22 +1,22 @@
 ---
 title: Planuoti bangos žymos spausdinimą bangos vykdymo metu
 description: Šioje temoje aprašoma, kaip nustatyti ir naudoti funkcijas, skirtas užduotimi pagrįstam bangos žymų spausdinimui.
-author: MSFTGarm
+author: perlynne
 ms.date: 06/09/2021
 ms.topic: article
 ms.search.form: WHSPostMethod, WHSWavePostMethodTaskConfig, WHSWaveTemplateTable, WHSParameters, WHSWaveTableListPage, WHSWorkTableListPage, WHSWorkTable, BatchJobEnhanced, WHSPlannedWorkOrder
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: v-obaranov
+ms.author: perlynne
 ms.search.validFrom: 2021-06-09
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 4883f8a548645436e17b933d87d4ee6330570d48
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: 1323538765308ec3dd366456e31f5e08b08ce5ab
+ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7777870"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920154"
 ---
 # <a name="schedule-wave-label-printing-during-wave"></a>Planuoti bangos žymos spausdinimą bangos vykdymo metu
 
@@ -40,7 +40,7 @@ Norėdami naudoti funkcijas, aprašytas šioje temoje, jos turi būti įjungtos 
 
 Pirmiausia turite sukurti naują bangos veiksmo metodą ir įgalinti jį lygiagrečiam asinchroniniam užduoties apdorojimui.
 
-1. Eikite į **Sandėlio valdymas \> Sąranka \> Bangos \> Bangos apdorojimo metodai**.
+1. Eikite į **Sandėlio tvarkymas \> Sąranka \> Bangos \> Bangos apdorojimo metodai**.
 1. Veiksmų srityje pasirinkite **Pakartotinai generuoti metodą**. Atkreipkite dėmesį, kad *„waveLabelPrinting”* yra įtrauktas į bangos proceso metodų, kuriuos galite naudoti savo siuntimo bangos šablonuose, sąrašą.
 1. Pasirinkite įrašą, kuriame laukas **Metodo pavadinimas** yra nustatytas į *„waveLabelPrinting”*, o tada veiksmų srityje pasirinkite **Užduoties konfigūracija**.
 1. Veiksmų srityje pasirinkite **Nauja**, kad pridėtumėte eilutę į tinklelį. Tada nustatykite šiuos laukus naujai eilutei:
@@ -51,7 +51,7 @@ Pirmiausia turite sukurti naują bangos veiksmo metodą ir įgalinti jį lygiagr
 
 Dabar galite atnaujinti esamą bangos šabloną taip, kad jis naudotų *Bangos žymos spausdinimo* bangos apdorojimo metodą. Taip pat, galite sukurti naują bangos šabloną, kuris naudoja tą metodą.
 
-1. Eikite į  **Sandėlio valdymas \> Nustatymas \> Bangos \> Bangų šablonai**.
+1. Eikite į **Sandėlio valdymas \> Nustatymas \> Bangos \> Bangų šablonai**.
 1. Veiksmų srityje pasirinkite **Redaguoti**.
 1. Sąrašo srityje pasirinkite bangos šabloną atnaujinimui. (Jei tikrinimo tikslais naudojate demonstracinius duomenis, galite pasirinkti *Numatytasis 24 siuntimas*. )
 1. „FastTab” **Metodai** stulpelyje **Likę metodai** pasirinkite eilutę, kurioje laukas **Pavadinimas** nustatytas į *„waveLabelPrinting”*.

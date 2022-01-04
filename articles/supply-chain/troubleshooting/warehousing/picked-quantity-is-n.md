@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: v-gfedorova
 ms.search.validFrom: 2021-05-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 361b61690e9e16a690234ed9319478d864c743e7559746654e4868272de13524
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 6febc340f140d0b3a3f08ea32a59d9eb4e6e5204
+ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6716473"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920453"
 ---
 # <a name="picked-quantity-isnt-sufficient-during-packing-slip-generation"></a>Paimtas kiekis yra nepakankamas važtaraščio generavimo metu
 
@@ -66,8 +66,8 @@ Norėdami pakoreguoti krovinio eilutės kiekį, naudokite nurodytą procedūrą.
 
 1. Eikite į **Sandėlio valdymas \> Kroviniai \> Visi kroviniai**.
 1. Pasirinkite krovinį, pagal kurį negalima sugeneruoti važtaraščio.
-1. Veiksmų srities skirtuke  **Siųsti ir gauti**, grupėje  **Atšaukti** pasirinkite  **Atšaukti siuntos patvirtinimą**.
-1. Skirtuke  **Krovinio eilutės** pasirinkite prekės, sukeliančios problemą, krovinio eilutę.
+1. Veiksmų srities skirtuko Siuntimas **ir Gauti** grupėje Atšaukimas pasirinkite Atšaukti **siuntos** **patvirtinimą**.
+1. Skirtuke **Krovinio** eilutės pasirinkite prekės, kuri lemia išdavimą, krovinio eilutę.
 1. Pasirinkite **Sumažinti paimtą kiekį**, kad pakoreguotumėte paimtą kiekį.
 1. Nustatykite **Sumažinti krovinio eilutę** lauką, kad koregavimai atsispindėtų krovinio eilutėje.
 
@@ -79,5 +79,5 @@ Norėdami atšaukti paėmimo registravimą, naudokite toliau pateiktą procedūr
 
 1. Eikite į **Gautinos sumos \> Užsakymai \> Visi užsakymai**.
 1. Pasirinkite pardavimo užsakymą, kuriam negalite registruoti krovinio važtaraščio.
-1. Skirtuke  **Pardavimo užsakymo eilutės** pasirinkite pardavimo užsakymo eilutę, kuriai buvo atliktas paėmimo registravimas.
+1. Skirtuke **Pardavimo užsakymo eilutės pasirinkite pardavimo užsakymo** eilutę, kurios išrinkimo registracija buvo atlikta.
 1. Pasirinkite **Atnaujinti eilutę \> Paėmimas**, jei norite atsisakyti prekių paėmimo.

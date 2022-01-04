@@ -2,7 +2,7 @@
 title: Pašalintos arba nebenaudojamos platformos funkcijos
 description: Šioje temoje aprašomos funkcijos, kurios buvo pašalintos arba kurias planuojama šalinti iš „Finance and Operations“ programų platformos naujinių.
 author: sericks007
-ms.date: 10/28/2021
+ms.date: 12/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 0065f5c101237de49ae362ecd3378ec5046dbf4b
-ms.sourcegitcommit: c4500b626667185643b3a2e7fc3a004d42198d07
+ms.openlocfilehash: 4ac68cfdd8f8b2c65993fbd91587e52cce56a437
+ms.sourcegitcommit: a5861c2fef4071e130208ad20e26cb3a42a45cf1
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/29/2021
-ms.locfileid: "7725054"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "7927484"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Pašalintos arba nebenaudojamos platformos funkcijos
 
@@ -74,7 +74,7 @@ Išsamios informacijos apie „Finance and Operations“ programų objektus rasi
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Nerekomendavimo/pašalinimo priežastis** | Nėra valdiklių šiam įvykiui įvykdyti. |
-| **Pakeitė kita funkcija?**   | Taip, perkelkite esamus suprenumeruotus metodus **OnDBSynchronzie** įvykio, į SysSetup išplėstinę klasę. |
+| **Pakeitė kita funkcija?**   | Taip, perkelkite esamus metodus, į kuriuos prenumeruoti **OnDBSynchronize** įvykis, į SysSetup išplėstinę klasę. |
 | **Paveiktos produkto sritys**         | Duomenų bazės sinchronizavimas |
 | **Visuotinio diegimo parinktis**              | Visos |
 | **Būsena**                         | Nerekomenduojama. Suplanuota pašalinimo data yra 2022 m. spalio mėn. |

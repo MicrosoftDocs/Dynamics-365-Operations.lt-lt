@@ -1,5 +1,5 @@
 ---
-title: Pardavimo retrospektyvos valymo našumo patobulinimai
+title: Pardavimo istorijos valymo našumo patobulinimai
 description: Šioje temoje aprašoma pardavimo retrospektyvos valymo našumo patobulinimų priemonė ir kaip ją įgalinti.
 author: myvakalo
 ms.date: 10/05/2021
@@ -11,14 +11,14 @@ ms.search.region: Global
 ms.author: myvakalo
 ms.search.validFrom: 2021-09-29
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 1b2de9d6a7b1b7793b6bb753dd580d052d3c2841
-ms.sourcegitcommit: 96515ddbe2f65905140b16088ba62e9b258863fa
-ms.translationtype: HT
+ms.openlocfilehash: 610f0d4e0448dd21d10765400f25cd89e3c7a84b
+ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/04/2021
-ms.locfileid: "7891773"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920278"
 ---
-# <a name="saleshistorycleanupperformanceimprovements"></a>Pardavimo retrospektyvos valymo našumo patobulinimai
+# <a name="sales-history-cleanup-performance-improvements"></a>Pardavimo istorijos valymo našumo patobulinimai
 
 [!include [banner](../includes/banner.md)]
 [!INCLUDE [preview-banner](../includes/preview-banner.md)]
@@ -34,7 +34,7 @@ Priemonė pagerina esamą valymo užduotį šiais būdais:
 
 Įgalinus šią priemonę, **Pardavimo atnaujinimo retrospektyvos valymo** paketinė užduotis (**Pardavimo ir rinkodaros \> Periodinė užduotis \> Valymas \> Pardavimo atnaujinimo retrospektyvos valymas**) bus vykdoma taip, kaip buvo anksčiau, tačiau geresniu veikimu ir daugiausiai 2 valandoms. Tai reiškia, kad gali tekti paleisti kelis kartus, kad išvalytumėte visus duomenis per tam tikrą saugojimo laikotarpį.
 
-## <a name="turn-on-the-saleshistorycleanupperformanceimprovements-feature"></a>Įjunkite pardavimo istorijos valymo našumo patobulinimų funkciją
+## <a name="turn-on-the-sales-history-cleanup-performance-improvements-feature"></a>Įjungti pardavimo retrospektyvos valymo efektyvumo patobulinimų funkciją
 
 Kad galėtumėte naudoti šią funkciją, ji turi būti įjungta jūsų sistemoje. Administratoriai gali naudoti [funkcijos valdymas](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) parametrus, norėdami sužinoti funkcijos būseną ir įjungti ją. Darbo srityje **Funkcijų valdymas** ši funkcija yra nurodyta toliau pateikiamu būdu.
 

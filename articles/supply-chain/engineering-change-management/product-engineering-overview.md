@@ -1,5 +1,5 @@
 ---
-title: Inžinerijos keitimo valdymo apžvalga
+title: Inžinerijos pakeitimų valdymo peržiūra (yra vaizdo įrašas)
 description: Ši tema pateikia inžinerijos keitimo valdymo apžvalgą, kuri padeda jums planuoti ir valdyti produkto versijas ir valdyti produkto gyvenimo ciklus bei inžinerijos pokyčius.
 author: t-benebo
 ms.date: 08/26/2021
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 89a3eb584275e52910726ca5a9ed53f744f10b8d
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.openlocfilehash: e9dc692061cec830f487e01a79075eda835bac23
+ms.sourcegitcommit: ef0dd4245fc499907ffe00e2a32f59a6cd96e45d
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7574694"
+ms.lasthandoff: 12/18/2021
+ms.locfileid: "7937665"
 ---
 # <a name="engineering-change-management-overview"></a>Inžinerijos keitimo valdymo apžvalga
 
@@ -26,9 +26,9 @@ ms.locfileid: "7574694"
 
 ## <a name="feature-summary"></a>Funkcijos santrauka
 
-Šiandien gamintojams reikia stipraus produkto duomenų valdymo, versijos kontrolės ir inžinerijos keitimo valdymo siekiant sėkmės pasaulyje su nuolatos besitraukiančio gyvenimo ciklo produktais, padidinta kokybe ir patikimumo reikalavimais bei padidintu dėmesiu produkto saugai.
+Šiandienos gamintojai reikalauja griežto produkto duomenų valdymo, versijų kontrolės ir inžinerinių pakeitimų valdymo, kad viso pasaulio produkto ciklo sutraukimas, padidintas kokybės ir patikimumo poreikis ir padidintas dėmesys produkto saugai.
 
-Inžinerijos keitimo valdymas suteikia struktūrą ir discipliną produkto duomenų valdymo procesui ir suteikia produktams galimybę būti nustatytiems, išleistiems ir peržiūrėtiems valdymo būdu, kurį palaiko darbo eigos.Per produkto versijas ir inžinerijos keitimo valdymą galite registruoti, įvertinti poveikį ir taikyti inžinerijos keitimus per visą produkto gyvavimo ciklą.
+Inžinerijos pakeitimų valdymas sukuria struktūrą ir discipliną produkto duomenų valdymo procesui ir įgalina produktus apibrėžti, paleisti ir peržiūrėti kontroliuojamu būdu, kurį palaiko darbo eigos. Naudodami produkto versijas ir inžinerijos pakeitimų valdymą, galite dokumentuoti, įvertinti poveikį ir taikyti inžinerijos pakeitimus viso produkto ciklo metu.
 
 Inžinerijos keitimo valdymo apžvalgą, kuri padeda jums planuoti ir valdyti produkto versijas ir valdyti produkto gyvenimo ciklus bei inžinerijos pokyčius. Pateikiamas pagrindinių savybių sąrašas:
 

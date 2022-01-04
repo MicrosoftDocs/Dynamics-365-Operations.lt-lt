@@ -7,6 +7,7 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
+ROBOTS: noindex,nofollow
 audience: Application User
 ms.reviewer: roschlom
 ms.custom: 14151
@@ -15,12 +16,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2021-06-03
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: 58b23058582c949a757ec5c141e218b36833ec21e72c35db89762017dc26ae19
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 7e5752b8deffbd2694193494652a0ff808ecbfb0
+ms.sourcegitcommit: a5861c2fef4071e130208ad20e26cb3a42a45cf1
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6752947"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "7927409"
 ---
 # <a name="configuration-for-finance-insights-for-public-preview-preview---version-10020-and-later"></a>„Finance Insights“ konfigūracija, skirta viešai peržiūrai (peržiūra) – 10.0.20 ir vėlesnė versija
 
@@ -39,7 +40,7 @@ Norėdami talpinti aplinkas, atlikite šiuos veiksmus.
 
 1. Portale „Microsoft Dynamics Lifecycle Services“ (LCS), kurkite ar naujinkite „Finance“ aplinką. Aplinkai reikalinga programos 10.0.20 versija ar naujesnė „Finance and Operations“ programoms.
 2. Aplinka turi būti didelio pasiekiamumo (HA) smėlio dėžės aplinka. (Šis aplinkos tipas dar vadinamas 2 pakopos aplinka.) Norėdami gauti daugiau informacijos, žr. [Aplinkos planavimas](../../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md).
-3. Jei konfigūruojate „Finance Insights“ smėlio dėžės aplinkoje, jums gali tekti nukopijuoti gamybos duomenis į tą aplinką numatymams dirbti. Numatymo modelis naudoja kelių metų duomenis numatymams sukurti. „Contoso“ demonstruojamuose duomenyse nėra pakankamai praeities duomenų, kad būtų galima nuspėti numatymo modelį. 
+3. Jei konfigūruojate „Finance Insights“ smėlio dėžės aplinkoje, jums gali tekti nukopijuoti gamybos duomenis į tą aplinką numatymams dirbti. Numatymo modelis naudoja kelių metų duomenis numatymams sukurti. "Contoso" demonstraciniai duomenys neturi pakankamai praeities duomenų, kad būtų galima ištykti numatymo modelio versiją. 
 
 ## <a name="configure-dataverse"></a>Konfigūruoti „Dataverse“
 

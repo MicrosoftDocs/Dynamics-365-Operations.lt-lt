@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3632f115b1ef4cd3a41a483270fb5f6bb6c73526ce9322f16a6533265302937c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: cc9219009991cce3f4df9c6f7e04903f5625dd80
+ms.sourcegitcommit: b2fe67e2fe6a99a35decb04c8d62efd1e94fe1b8
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719721"
+ms.lasthandoff: 12/22/2021
+ms.locfileid: "7945546"
 ---
 # <a name="configure-account-structures"></a>Sukonfigūruoti sąskaitų struktūras
 
@@ -79,7 +79,7 @@ Kai atidarote žurnalą ir pasirenkate sąskaitą pelno ir nuostolių intervale,
 
 ## <a name="more-than-7-criteria-needed"></a>Būtina naudoti daugiau nei 7 kriterijus
 
-Jei naudojate daugiau nei 7 būtinus kriterijus, juos toliau įtraukti galite kitoje eilutėje. Dirbdami skyriuje **Leidžiama reikšmės informacija** pastebėsite, kad kriterijus **+Įtraukti naują**, įvedus septintą kriterijų, taps nebeaktyvus. Toliau nurodyta keletas veiksnių, dėl kurių taip nutinka. 
+Jei naudojate daugiau nei 7 būtinus kriterijus, juos toliau įtraukti galite kitoje eilutėje. Paisysite, kai dirbate skyriuje Leidžiama vertė, kad +Įtraukti naujus kriterijus nebėra aktyvus po to, kai **·** **įvedamas** septintas kriterijus. Toliau nurodyta keletas veiksnių, dėl kurių taip nutinka. 
  - Stulpelio plotis 
  - Duomenų saugojimo būdas 
  - Skyriaus **Leidžiama reikšmės informacija** našumo kontrolė
@@ -101,7 +101,7 @@ Nustatydami sąskaitų struktūras, galite vadovautis keletu geriausios praktiko
 - Neprirašykite žvaigždutės ties kiekvienu segmentu sąskaitos struktūroje ir nepasikliaukite vien tik išplėstinėmis taisyklėmis. Tai gali būti sunkiai valdoma ir atliekant priežiūrą ištikti vartotojo klaida, dėl kurios sistemai gali nepavykti atlikti registravimo procedūros.
 
 ## <a name="account-structure-activation"></a>Sąskaitos struktūros aktyvinimas
-Kai būsite patenkinti nauja sąskaitos struktūros sąranka arba pakeitimu, turėsite ją aktyvinti. Jei sąskaitos struktūra priskirta didžiajai knygai, aktyvinimo procesas gali būti ilgas, nes visos sistemoje neužregistruotos operacijos turės būti sinchronizuotos pagal naują struktūrą. Pakeitus sąskaitos struktūrą, užregistruotos operacijos nepaveikiamos.
+Kai jūsų naujas nustatymas arba sąskaitos struktūros pakeitimas jus tenkina, turite jį suaktyvinti. Jei sąskaitos struktūra priskirta didžiajai knygai, aktyvinimo procesas gali būti ilgas, nes visos sistemoje neužregistruotos operacijos turės būti sinchronizuotos pagal naują struktūrą. Pakeitus sąskaitos struktūrą, užregistruotos operacijos nepaveikiamos.
 
 Daugiau informacijos ieškokite temose [Savo sąskaitų plano rengimas](plan-chart-of-accounts.md), [Finansinės dimensijos](financial-dimensions.md) bei [Sąskaitų ir dimensijų kombinacijų (segmentuoto įrašo valdiklis) įvedimas](enter-account-dimension-combinations-segmented-entry-control.md).
 

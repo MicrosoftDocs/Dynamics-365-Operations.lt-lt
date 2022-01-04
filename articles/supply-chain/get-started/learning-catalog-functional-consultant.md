@@ -12,12 +12,12 @@ ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 7271436bd155918dfdac792486c89966e7adb18c
-ms.sourcegitcommit: dca3279a8b7cd5d0bcd4e4a3aa9938b337aa8849
-ms.translationtype: HT
+ms.openlocfilehash: a028de4bd37b965d55783dad4b39378d6400bf4b
+ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "7402647"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920753"
 ---
 # <a name="learning-catalog-for-dynamics-365-supply-chain-management-functional-consultants"></a>Mokymosi katalogas „Dynamics 365 Supply Chain Management“ funkcijų konsultantams
 
@@ -113,7 +113,7 @@ Kalbant apie funkcijų konsultantus, mūsų užduočių analizės tyrimai parod�
 | [„Dynamics 365 Supply Chain Management” turto valdymo konfigūravimas](/learn/paths/configure-asset-management-dyn365-supply-chain-mgmt/) | Turto valdymas yra „Dynamics 365 Supply Chain Management” papildinys, naudojamas jūsų įmonės kasdienių operacijų turtui tvarkyti. Kai kurie turto tipų pavyzdžiai: mašinos, gamybos įranga ir keltuvai. | Laisvai pasirenkamas neribotos trukmės internetinis mokymosi scenarijus | 7 valandos |
 | [Darbas su „Dynamics 365 Supply Chain Management” turto valdymu](/learn/paths/work-asset-management-dyn365-supply-chain-mgmt/) | Turto valdymas yra „Dynamics 365 Supply Chain Management” papildinys, naudojamas jūsų įmonės kasdienių operacijų turtui tvarkyti. Kai kurie turto tipų pavyzdžiai: mašinos, gamybos įranga ir keltuvai. | Laisvai pasirenkamas neribotos trukmės internetinis mokymosi kelias | 12.5 valandos |
 | [Tvarkyti produkto versijos informaciją, esa „Dynamics 365 Supply Chain Management“](/learn/paths/manage-product-version-engineering-change-management/) | „Engineering Change Management“ priedas teikia susisteminą procesą, leidžiaį tvarkyti produkto versijos informaciją „Dynamics 365 Supply Chain Management“ gamybos ciklo metu. | Laisvai pasirenkamas neribotos trukmės internetinis mokymosi kelias | 4 valandos |
-| [Nustatyti inžinerinio keitimo valdymą „Dynamics 365 Supply Chain Management“](/learn/paths/set-up-engineering-change-management/) | Šiandien gamintojams reikia stipraus produkto duomenų valdymo, versijos kontrolės ir inžinerijos keitimo valdymo siekiant sėkmės pasaulyje su nuolatos besitraukiančio gyvenimo ciklo produktais, padidinta kokybe ir patikimumo reikalavimais bei padidintu dėmesiu produkto saugai. Sužinokite, kaip nustatyti inžinerinių pakeitimų valdymą šiame mokymosi maršrute. | Laisvai pasirenkamas neribotos trukmės internetinis mokymosi kelias | 4 valandos |
+| [Nustatyti inžinerinio keitimo valdymą „Dynamics 365 Supply Chain Management“](/learn/paths/set-up-engineering-change-management/) | Šiandienos gamintojai reikalauja griežto produkto duomenų valdymo, versijų kontrolės ir inžinerinių pakeitimų valdymo, kad šis pavyko pasaulio produktų ciklo sutraukimas, padidintos kokybės ir patikimumo reikalavimai bei padidintas dėmesys produkto saugai. Sužinokite, kaip nustatyti inžinerinių pakeitimų valdymą šiame mokymosi maršrute. | Laisvai pasirenkamas neribotos trukmės internetinis mokymosi kelias | 4 valandos |
 | [„Microsoft“ sertifikuotas partneris: „Dynamics 365 for Finance and Operations“, „Supply Chain Management“ funkcijų partneris konsultantas](https://www.microsoft.com/learning/d365-functional-consultant-supply-chain-management.aspx) | „Microsoft“ sertifikuotas partneris: „Dynamics 365 for Finance and Operations“ „Supply Chain Management“ funkcijų konsultantai klientams padeda supaprastinti išlaidų apskaitą, atsargų valdymą, bendrąjį planavimą ir sandėlio valdymą. | Sertifikavimo kaina priklauso nuo regiono | |
 
 ## <a name="exams"></a>Egzaminai<a name="exams"></a>

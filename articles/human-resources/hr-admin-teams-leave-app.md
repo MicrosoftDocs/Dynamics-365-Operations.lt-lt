@@ -2,7 +2,7 @@
 title: „Human Resources“ programa platformoje „Teams“
 description: Šioje temoje pristatoma „Microsoft Dynamics 365 Human Resources” programa, veikianti platformoje „Microsoft Teams“.
 author: twheeloc
-ms.date: 12/09/2021
+ms.date: 12/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8eebe154a19dd8476f6e9d75ebfd69fdc5b9e2b7
-ms.sourcegitcommit: eef5d9935ccd1e20e69a1d5b773956aeba4a46bc
-ms.translationtype: HT
+ms.openlocfilehash: 9274ab345616561deddd322ebad0d6e0b834d1d4
+ms.sourcegitcommit: 70ac76be31bab7ed5e93f92f4683e65031fbdf85
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/11/2021
-ms.locfileid: "7913494"
+ms.lasthandoff: 12/16/2021
+ms.locfileid: "7924727"
 ---
 # <a name="human-resources-app-in-teams"></a>„Human Resources“ programa platformoje „Teams“
 
@@ -41,6 +41,21 @@ Programą „Dynamics 365 Human Resources“ galite rasti „Teams“ parduotuv�
 Informacijos apie programų teisių valdymą „Teams“ žr. [Programų teisių strategijų valdymas programoje „Microsoft Teams“](/MicrosoftTeams/teams-app-permission-policies).
 
 Jei norite, kad jūsų naudotojai programėlėje peržiūrėti atostogų ir neatvykimo kalendorių, funkcijų valdymo srityje turėsite įjungti **Atostogų ir neatvykimo kalendorių komandose**. Daugiau informacijos apie funkcijų įjungimą žr. skyrių [Funkcijų valdymas](hr-admin-manage-features.md).
+
+## <a name="update-app"></a>Atnaujinti programą
+>[!NOTE]
+> Nuo 2021 m. gruodžio 20 d. "Human Resources App Bot" paslaugos, laikomos "Microsoft" nuomininkuose, bus laikomos šioje programoje. Naujausias plėtinys (versijos 1.1.5), kurį galima įdiegti, neturi įtakos. Pagrindinis poveikis bus pasenusiu plėtiniu (versijos 1.1.4). Šioje versijoje pokalbio bottas nustos veikti. Skirtukas **Laiko** išjungimas toliau veiks abiejuose plėtinyse.
+
+Jei versija 1.1.4, pokalbių tekstas bus sustabdytas ir atsakys į bet kokį pranešimą. Pavyzdžiui, **prisiregistruokite**, **peržiūrėkite** balansus ir **žr. laiko išjungimą.** Programa turi būti atnaujinta rankiniu būdu į naujausią versiją. Norėdami gauti daugiau informacijos, [žr. Programėlių Microsoft Teams](/MicrosoftTeams/apps-update-experience) naujinimas.
+
+Norėdami atnaujinti į 1.1.5 versiją, atlikite šiuos veiksmus:
+1. Įeikite Microsoft Teams į **Programėles**.
+2. Raskite **personalo** programą.
+3. Pasirinkite **Atnaujinti**.
+
+Personalo programos versiją galite patikrinti nueię į skirtuką Apie arba pereię **į** asmeninę **programą**. 
+
+![Skirtukas Personalo **About** .](./media/HR-teams-about.png)
 
 ## <a name="enable-notifications-for-the-human-resources-app-in-teams"></a>„Human Resources“ programos „Teams“ pranešimų įjungimas
 
@@ -113,7 +128,7 @@ Toliau nurodyti darbo elementai perduodami tolesniems leidimams:
 Jei vartotojui kyla problemų prisijungiant arba naudojant „Human Resources Teams“ programą, bandykite vadovautis šiomis trikčių šalinimo instrukcijomis. Jei atlikus trikčių šalinimą problemų vis dar nepavyko išspręsti, kreipkitės į pagalbos tarnybą. Norėdami gauti daugiau informacijos, [Gauti pagalbos](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md).
 
 ### <a name="ensure-the-teams-human-resources-application-is-up-to-date"></a>Užtikrinti, kad komandų personalo programa yra naujausia
-Jei iškyla problemų dėl personalo komandų programos, turite patvirtinti, kad paleisite naujausią versiją. Mažiausia palaikoma versija yra 1.1.5. Instrukcijų apie komandų programos atnaujinimą ieškokite Komandų [dokumentacijoje](/MicrosoftTeams/apps-update-experience).
+Jei iškyla problemų dėl personalo komandų programos, turite patvirtinti, kad paleisite naujausią versiją. Mažiausia palaikoma versija yra 1.1.5. Instrukcijų apie tai, kaip atnaujinti komandų programą, ieškokite Komandų [dokumentacijoje](/MicrosoftTeams/apps-update-experience).
 
 ### <a name="cant-sign-into-the-human-resources-app-in-teams"></a>Nepavyksta prisijungti prie „Teams“ programos „Human Resources“
 
@@ -139,7 +154,7 @@ Jei vartotojas, bandantis patvirtinti atostogų užklausas komandos programoje, 
 
 ### <a name="microsoft-language-understanding-intelligent-service-luis"></a>„Microsoft Language Understanding Intelligent Service” (LUIS)
 
-Naudojant robotą, vartotojo teksto įvesties duomenys analizuojami siekiant suprasti pagrindinę Dynamics 365 Human Resources Microsoft Teams užklausą / tikslą. Vartotojo įvestis, pvz., "Ieškoti sąskaitos "Contoso", nukreipiama į vieną iš Microsoft smanmanų paslaugų, vadinamos "Intelligent Service" (INTEL). Daugiau apie LUIS skaitykite  [čia](https://www.luis.ai/). LUIS tarnyba išaiškina arba supranta vartotojo įvesties ketinimą (šiuo atveju ketinimas yra rasti informaciją) ir paskirties objektą (šiuo atveju numatomas objektas yra „Contoso“ paskyra). Tada ši informacija perduodama į "Microsoft [Azure Bot" sistemą](https://azure.microsoft.com/services/bot-service/), kuri sąveikauja su duomenimis ir nuskaito norimą vartotojo užklausos Dynamics 365 Human Resources informaciją.
+Naudojant robotą, vartotojo teksto įvesties duomenys analizuojami siekiant suprasti pagrindinę Dynamics 365 Human Resources Microsoft Teams užklausą / tikslą. Vartotojo įvestis, pvz., "Ieškoti sąskaitos "Contoso", nukreipiama į vieną iš Microsoft smanmanų paslaugų, vadinamos "Intelligent Service" (INTEL). Daugiau apie LUIS skaitykite  [čia](https://www.luis.ai/). LUIS tarnyba išaiškina arba supranta vartotojo įvesties ketinimą (šiuo atveju ketinimas yra rasti informaciją) ir paskirties objektą (šiuo atveju numatomas objektas yra „Contoso“ paskyra). Tada ši informacija perduodama į "Microsoft  [Azure Bot" sistemą](https://azure.microsoft.com/services/bot-service/), kuri sąveikauja su duomenimis ir nuskaito norimą vartotojo užklausos Dynamics 365 Human Resources informaciją.
 
 Įdiegdami ir suteikdami prieigos teisę naudoti robotą jūs sutinkate leisti LUIS tarnybai ir „Azure bot framework“ apdoroti įvesties ketinimą, o tai tampa patobulinta vartotojo šnekamąja patirtimi. LUIS tarnyba ir „Azure bot framework“ gali turėti skirtingus atitikties lygius, palyginti su „Dynamics 365 Human Resources“. Kadangi JŪSŲ tarnyba turi prieigą tik prie vartotojo užklausų ir ji nėra sukurta taip, kad būtų prijungta prie vartotojo duomenų ar sąskaitos, tiekėjo vartotojas gali per daug įvesti užklausą, kurioje yra Kliento duomenys, Asmeniniai duomenys ar kiti duomenys ir toks užklausos turinys gali būti siunčiamas Dynamics 365 Human Resources Dynamics 365 Human Resources į JŪSŲ APTARNAVIMą IR "Azure bot" sistemą. 
 

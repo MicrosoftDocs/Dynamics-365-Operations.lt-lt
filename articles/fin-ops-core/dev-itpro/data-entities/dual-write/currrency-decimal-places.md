@@ -2,19 +2,19 @@
 title: Valiutos duomenų tipo perkėlimas dvigubui rašymui
 description: Šioje temoje aprašoma, kaip pakeisti dešimtainių skaičius, kurie dvigubu rašymu palaiko valiutą.
 author: RamaKrishnamoorthy
-ms.date: 04/06/2020
+ms.date: 12/08/2021
 ms.topic: article
 audience: Application User, IT Pro
 ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-04-06
-ms.openlocfilehash: eaf0cd931e763f31faa334d5353ae6950ed7ee4f
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: bce58631ecd54bb90993bd552d529d3b379de1b1
+ms.sourcegitcommit: 6762a674a552353d9f53587923c9acba9b43cb56
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7782812"
+ms.lasthandoff: 12/13/2021
+ms.locfileid: "7917735"
 ---
 # <a name="currency-data-type-migration-for-dual-write"></a>Valiutos duomenų tipo perkėlimas dvigubui rašymui
 
@@ -83,9 +83,20 @@ Jei jums reikia, kad valiutos tikslumas konkrečiai valiutai skirtųsi nuo valiu
 
 ![Konkrečios lokalės valiutos parametrai.](media/specific-currency.png)
 
-### <a name="tables-currency-column"></a>lentelės: stulpelis Valiuta
+### <a name="tables-currency-column"></a>Lentelės: valiutos stulpelis
 
 Galima tik keturis kartus koreguoti dešimtainių skaičių, skirtų konkrečios valiutos stulpeliams, kiekius.
 
+### <a name="default-currency-decimal-precision"></a>Numatytasis valiutos dešimtainės trupmenos tikslumas
+Norėdami nustatyti numatytąjį valiutos dešimtainių skaičių po perkėlimo ir ne perkėlimo scenarijų tikslumą, žr. toliau pateiktą lentelę. 
+
+| Sukūrimo data  | Valiutos dešimtainis laukas    | Esama org. (valiutos laukas nepersiųstas) | Esama org. (valiutos laukas perkeltas) | Nauja org. sukurta kūrimo 9.2.21062.00134 |
+|---------------------------------------------------------|-------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------|------------------------------------------------|
+| Valiutos laukas, sukurtas prieš kuriant 9.2.21111.00146  |     |  |       |
+|    | Maksimalus tikslumas, matomas vartotojo valandoje   | 4 skaitmenys    | 10 skaitmenų    | Netaikoma    |
+| | Maksimalus tikslumas, matomas duomenų bazės ir DB užklausų rezultatų UI         | 4 skaitmenys   | 10 skaitmenų   | Netaikoma    |
+| Valiutos laukas sukurtas sukūrus 9.2.21111.00146 |    |  |     |   |
+|   | Didžiausias tikslumas po kablelio, matomas vartotojo valandoje     | 4 skaitmenys   | 10 skaitmenų   | 10 skaitmenų     |
+|          | Maks. dešimtainis tikslumas, matomas duomenų bazės ir DB užklausos rezultatų UI | 10 skaitmenų. Tačiau tik 4 pažymi visus nulius, kurie viršija 4 skaitmenis po dešimtainės trupmenos. Jei reikia, tai leidžia paprasčiau ir greičiau perkelti org. | 10 skaitmenų      | 10 skaitmenų     |
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

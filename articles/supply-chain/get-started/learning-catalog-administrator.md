@@ -12,12 +12,12 @@ ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-23
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: ff9d4d0c1d72d3002f84f895f67d3c9cb347f1e8
-ms.sourcegitcommit: dca3279a8b7cd5d0bcd4e4a3aa9938b337aa8849
-ms.translationtype: HT
+ms.openlocfilehash: a11455c4e3f59ef52d9a1e3d2e6a10c57a070a79
+ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "7402230"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920428"
 ---
 # <a name="learning-catalog-for-dynamics-365-supply-chain-management-administrators"></a>Mokymosi katalogas „Dynamics 365 Supply Chain Management“ administratoriams
 
@@ -68,7 +68,7 @@ Toliau pateiktas katalogas yra sutvarkytas taip, kad žinios būtų išdėstytos
 
 | Turinys | Aprašas | Formatuoti | Ilgis |
 |---------|-------------|--------|--------|
-| [Nustatyti inžinerinio keitimo valdymą „Dynamics 365 Supply Chain Management“](/learn/paths/set-up-engineering-change-management/) | Šiandien gamintojams reikia stipraus produkto duomenų valdymo, versijos kontrolės ir inžinerijos keitimo valdymo siekiant sėkmės pasaulyje su nuolatos besitraukiančio gyvenimo ciklo produktais, padidinta kokybe ir patikimumo reikalavimais bei padidintu dėmesiu produkto saugai. Sužinokite, kaip nustatyti inžinerinių pakeitimų valdymą šiame mokymosi maršrute. | Laisvai pasirenkamas neribotos trukmės internetinis mokymosi kelias | 4 valandos |
+| [Nustatyti inžinerinio keitimo valdymą „Dynamics 365 Supply Chain Management“](/learn/paths/set-up-engineering-change-management/) | Šiandienos gamintojai reikalauja griežto produkto duomenų valdymo, versijų kontrolės ir inžinerinių pakeitimų valdymo, kad šis pavyko pasaulio produktų ciklo sutraukimas, padidintos kokybės ir patikimumo reikalavimai bei padidintas dėmesys produkto saugai. Sužinokite, kaip nustatyti inžinerinių pakeitimų valdymą šiame mokymosi maršrute. | Laisvai pasirenkamas neribotos trukmės internetinis mokymosi kelias | 4 valandos |
 
 ## <a name="servicing"></a>Aptarnavimas<a name="servicing"></a>
 

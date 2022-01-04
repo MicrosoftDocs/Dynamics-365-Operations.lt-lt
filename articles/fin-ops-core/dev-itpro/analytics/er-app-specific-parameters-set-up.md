@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.3
-ms.openlocfilehash: 130487c41d8021692968141eca1a16d298a809e1
-ms.sourcegitcommit: eef5d9935ccd1e20e69a1d5b773956aeba4a46bc
-ms.translationtype: HT
+ms.openlocfilehash: cb600c55cb2d40129d1b29ab989bc8f7cf3f4686
+ms.sourcegitcommit: a5861c2fef4071e130208ad20e26cb3a42a45cf1
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/11/2021
-ms.locfileid: "7913656"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "7927459"
 ---
 # <a name="set-up-the-parameters-of-an-er-format-per-legal-entity"></a>ER formato parametrų nustatymas kiekvienam juridiniui subjektui
 
@@ -224,6 +224,16 @@ Atkreipkite dėmesį, kad ER formato konkrečių programų parametrai priklauso 
 Jei konfigūruojate programai bingus vienos ER formato versijos parametrus ir importuojate vėlesnę to paties formato versiją į dabartinį finansų egzempliorių, esami programai konkretūs parametrai nebus taikomi importuotai versijai, nebent **naudosite su programa konkrečius parametrus iš ankstesnių ER formatų priemonės** versijų. Daugiau informacijos žiūrėkite tolesniame šios temos skyriuje [Naudoti pakartotinai esančius parametrus](#reuse-existing-parameters).
 
 Taip pat žinokite, kad, kai pasirenkate importuotiną failą, jo konkrečių programų parametrų struktūra palyginama su atitinkamo tipo **Peržvalga** duomenų šaltinių, esančio pasirinktame importuoti ER formate, struktūra. Pagal nutylėjimą, importavimas atliekamas, kai kiekvieno konkrečios programos parametro struktūra sutampa su atitinkamo duomenų šaltinio, esančio importuoti pasirinktame ER formate, struktūra. Jei struktūros nesutampa, gaunate įspėjamąjį pranešimą, kuriame nurodoma, kad atlikti negalima. Jei importavimą atliksite priverstinai, esami pasirinkto ER formato konkrečių programų parametrai bus išvalyti ir juos turėsite nustatyti nuo pradžių.
+
+
+Pradėdami „Dynamics 365 Finance“ nuo 10.0.24 versijos, galite pakeisti numatytąją elgseną ir gauti perspėjimo pranešimą įjungę **nuolygiavimo ER programai bingus parametrus, kai importuojant** funkciją **funkcijų valdymo** darbo srityje. Taip pat žinokite, kad, kai pasirenkate importuotiną failą, jo konkrečių programų parametrų struktūra palyginama su atitinkamo tipo Peržvalga duomenų šaltinių, esančio pasirinktame importuoti ER formate, struktūra.
+
+- Paskirties ER formato struktūra pakeista įtraukiant naujus sąlygos stulpelius į visus esamus peržvalgos tipo **duomenų** šaltinius. Kai importavimas baigiamas, atnaujinami specifinės programos parametrai. Visuose importuotus konkrečios programos parametrų įrašus, kiekvieno pridėtos sąlygos stulpelio vertės inicijuojamos to stulpelio [duomenų tipo](er-formula-supported-data-types-primitive.md) numatytąja verte.
+- Paskirties ER formato struktūra šalinant kai kurias naujus sąlygos stulpelius iš visus esamus peržvalgos tipo **duomenų** šaltinius. Kai importavimas baigiamas, atnaujinami specifinės programos parametrai. Visuose importuotus konkrečių programos parametrų įrašus, kiekvieno pašalintų sąlygų stulpelio vertės panaikinamos.
+- Paskirties ER formato struktūra pakeista įtraukiant naujus sąlygos stulpelius į visus esamus peržvalgos tipo **duomenų** šaltinius. Kai importavimas baigiamas, įtraukiamos paieškos yra pridėtos prie specifinės programos parametrų.
+- Paskirties ER formato struktūra šalinant kai kurias naujus sąlygos stulpelius iš visus esamus peržvalgos tipo **duomenų** šaltinius. Kai importavimas baigiamas, visi artefakai, susiję su peržvalgos tipo duomenų šaltiniais, kurie buvo pašalinti iš tikslinio ER formato, panaikinami iš importuotų programai **susijusių** parametrų.
+
+Kai importavimas baigiamas, be ką tik aprašytų pakeitimų, importuotų programai parametrų būsena pakeičiama į **Vykdoma**. Įspėjamasis pranešimas informuoja, kad automatiškai pakoreguotus specifinės programos parametrus reikia redaguoti neautomatiniu būdu.
 
 ### <a name="reuse-existing-parameters"></a>Naudoti iš naujo esamus parametrus
 

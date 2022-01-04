@@ -1,8 +1,8 @@
 ---
 title: Priminimo laiškų sekos kūrimas
 description: Naudodami šią procedūrą, sukurkite priminimo laiškų seką.
-author: abruer
-ms.date: 07/22/2019
+author: JodiChristiansen
+ms.date: 12/07/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: bfc5bd0b1228ef28631da8746b2eb60e4cf488c1
-ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
+ms.openlocfilehash: adeae6e20a799165e086df28b92a1357e8f2f0d3
+ms.sourcegitcommit: f82372b1e9bf67d055fd265b68ee6d0d2f10d533
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "7753591"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7921204"
 ---
 # <a name="create-a-collection-letter-sequence"></a>Priminimo laiškų sekos kūrimas
 
@@ -31,10 +31,10 @@ Naudodami šią procedūrą, sukurkite priminimo laiškų seką. Šioje užduoty
 3. Lauke **Priminimo laiškų seka** įveskite sekos ID, kuris atitinka seką. Jis bus naudojamas, kai nustatinėsite registravimo šabloną.
 4. Lauke **Aprašymas įveskite** surinkite reikšmę.  Mokėjimo sąlygos nėra privalomos. Jei reikšmę įvesite čia, priminimo laiško mokesčio SF bus naudojamos šios mokėjimo sąlygos, o ne mokėjimo sąlygos, saugomos su klientu.  
 5. Lauke **Priminimo laiško kodas** pasirinkite pirmojo priminimo laiško, kurį norite siųsti, kodą. Sukuriamas pirmasis priminimo laiškas pagal SF nurodytą terminą, atidėjimo vertę, kurią įvedate šios eilutės lauke Dienos, ir kitą informaciją, kurią įvedate šioje eilutėje.  
-6. Lauke **Aprašymas įveskite** surinkite reikšmę. Mokesčio valiuta pagal numatytąsias nuostatas naudojama ir kaip kliento valiuta. Šis valiutos kodas gali skirtis nuo SF valiutos.  
-7. Spustelėkite **Pridėti**, kad pridėtumėte kitą priminimo laišką, kuris bus siunčiamas sekoje Daugeliu atvejų pirmasis priminimo laiškas yra tik perspėjimas. Jei reikia, galite pridėti mokesčių.  
-8. Priminimo laiško kodo lauke pasirinkite kitą priminimo laišką, kuris bus siunčiamas sekoje.
-9. Lauke **Aprašymas įveskite** surinkite reikšmę.
+6. Lauke **Aprašo laukas** surinkite reikšmę. 
+7. Numatytoji mokesčio valiuta yra juridinio subjekto valiuta. Šis valiutos kodas gali skirtis nuo SF valiutos.   
+8. Spustelėkite **Pridėti**, kad pridėtumėte kitą priminimo laišką, kuris bus siunčiamas sekoje Daugeliu atvejų pirmasis priminimo laiškas yra tik perspėjimas. Jei reikia, galite pridėti mokesčių.  
+9. Lauke **Priminimo laiško kodas** pasirinkite kitą priminimo laišką, kuris bus siunčiamas sekoje.
 10. Lauke **Pagrindinė sąskaita** pasirinkite įplaukų sąskaitą, kuri bus naudojama mokesčiams.
 11. Įveskite mokestį, kuris bus taikomas registruojant šį priminimo laišką.
 12. Lauke **Prekių PVM grupė** spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą. Jei reikia apskaičiuoti mokesčio PVM, pasirinkite prekių PVM grupę.  

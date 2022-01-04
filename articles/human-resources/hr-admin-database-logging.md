@@ -1,8 +1,8 @@
 ---
 title: Duomenų bazės registravimo konfigūravimas ir valdymas
 description: Galite sekti lentelių ir laukų pakeitimus „Dynamics 365 Human Resources” naudodami duomenų bazės registravimą.
-author: andreabichsel
-ms.date: 06/10/2020
+author: twheeloc
+ms.date: 12/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4fd0f69df4a141e509c8c250f767cbbc3a20ef4ab7ac3dcec2bc6faa15eababb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 10591abee7890d54d721c9324101a4b4bd0a74d2
+ms.sourcegitcommit: 70ac76be31bab7ed5e93f92f4683e65031fbdf85
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6781662"
+ms.lasthandoff: 12/16/2021
+ms.locfileid: "7924825"
 ---
 # <a name="configure-and-manage-database-logging"></a>Duomenų bazės registravimo konfigūravimas ir valdymas
 
@@ -93,14 +93,14 @@ Galite naikinti dalį arba visus duomenų bazės žurnalus naudodami šias parin
 Norėdami nustatyti duomenų bazės žurnalo valymą, atlikite šiuos veiksmus: 
 
 1. Eikite į **Sistemos administravimas > Saitai > Duomenų bazė > Duomenų bazės žurnalas**. Pasirinkite **Valyti žurnalą**.
-
-2. Pasirinkite žurnalų, kuriuos reikia panaikinti, pasirinkimo būdą įvesdami vieną iš šių pasirinkčių:
+2. **Įrašuose, kuriuos norite** įtraukti, antraštėje pasirinkite **Filtras**.
+3. Pasirinkite metodą, kuris bus naudojamas žurnalams, kuriuos norite panaikinti, pasirinkti. Įveskite vieną iš šių pasirinkčių:
 
    - Lentelės ID
    - Žurnalo tipas
    - Sukūrimo data ir laikas
 
-3. Naudokite **Duomenų bazės žurnalo valymas** skirtuką, kad nustatytumėte, kada paleisti žurnalo valymo užduotį. Pagal numatytuosius nustatymus, duomenų bazės žurnalai prieinami 30 dienų.
+4. Naudokite **Duomenų bazės žurnalo valymas** skirtuką, kad nustatytumėte, kada paleisti žurnalo valymo užduotį. Pagal numatytuosius nustatymus, duomenų bazės žurnalai prieinami 30 dienų.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

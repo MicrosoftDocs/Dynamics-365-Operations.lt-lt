@@ -1,5 +1,5 @@
 ---
-title: Žinyno sistema
+title: Žinyno sistema (yra vaizdo įrašas)
 description: Šioje temoje pateikiama „Finance and Operations“ programų žinyno sistemos apžvalga.
 author: edupont04
 ms.date: 07/20/2021
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: edupont
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4489cb2ba2f793066a0fdfb5906bd7232ecd970b9b9d0c04e95f4f69711290c8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: d272221cc7a976d48b09b2f78bdb3f7fded2fc53
+ms.sourcegitcommit: ef0dd4245fc499907ffe00e2a32f59a6cd96e45d
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6776582"
+ms.lasthandoff: 12/18/2021
+ms.locfileid: "7937535"
 ---
 # <a name="help-system"></a>Žinyno sistema
 

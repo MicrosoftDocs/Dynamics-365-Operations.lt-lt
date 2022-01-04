@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 5ad3b2444f194f8324a309df32612a5377851995
-ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
+ms.openlocfilehash: 7d462992816a5a2dee73979ed4cb1521ca4ce4f7
+ms.sourcegitcommit: c8dc60bb760553f166409c2e06dd2377f601c006
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752909"
+ms.lasthandoff: 12/23/2021
+ms.locfileid: "7945759"
 ---
 # <a name="cash-flow-forecasting"></a>Grynųjų pinigų srautų prognozavimas
 
@@ -37,6 +37,7 @@ Atlikę šias užduotis galėsite skaičiuoti ir analizuoti pinigų srautų ir b
 Pinigų srauto prognozę galima integruoti į didžiąją knygą, mokėtinas sumas, gautinas sumas, biudžetą ir atsargų valdymą. Prognozavimo procesas naudoja į sistemą įvestą operacijos informaciją ir skaičiavimo procesas prognozuoja numatomą kiekvienos operacijos grynųjų pinigų poveikį. Skaičiuojant pinigų srautą atsižvelgiama į šių tipų operacijas:
 
 - **Pardavimo užsakymai** – Pardavimo užsakymai, kuriems dar neišrašyta SF ir kurie yra faktinio arba finansinio pardavimo priežastis.
+- **Laisvos formos SF** – laisvos formos SF, kurios dar neužregistruotos ir kurios yra finansinio pardavimo rezultatas. 
 - **Pirkimo užsakymai** – Pirkimo užsakymai, kuriems dar neišrašyta SF ir kurie yra faktinio arba finansinio pirkimo priežastis.
 - **Gautinos sumos** – Atviros kliento operacijos (dar neapmokėtos SF).
 - **Mokėtinos sumos** – Atviros tiekėjo operacijos (dar neapmokėtos SF).
@@ -44,7 +45,9 @@ Pinigų srauto prognozę galima integruoti į didžiąją knygą, mokėtinas sum
 - **Biudžeto registro įrašai** – Pinigų srautų prognozėms pasirinkti biudžeto registro įrašai.
 - **Poreikio prognozės** – Pinigų srautų prognozėms pasirinktos atsargų prognozės modelio eilutės.
 - **Tiekimo prognozės** – Pinigų srautų prognozėms pasirinktos atsargų prognozės modelio eilutės.
+- **Išorinis duomenų** šaltinis – išoriniai duomenys, kurie įvesti ar importuoti į pinigų srautų prognozes naudojant skaičiuoklės šablonus.
 - **Projekto prognozės** – projektų valdymo ir apskaitos prognozės, naudojant prognozės modelį.
+- **Pinigų srautų PVM institucijos mokėjimai** – numatytos PVM institucijos mokėjimų sumos ir laikas, dėl kurių atliekami finansiniai mokėjimai. Įgalinkite funkciją Pinigų srautų PVM institucijos mokėjimai.
 
 ## <a name="configuration"></a>Konfigūravimas
 
@@ -94,12 +97,12 @@ Biudžeto registro įrašus galima įtraukti į pinigų srautų prognozę indivi
 Atsargų pasiūlos ir paklausos prognozes galima įtraukti į pinigų srautų prognozes. Puslapio **Pinigų srauto prognozės sąranka** skirtuke **Atsargų valdymas** pasirinkite į pinigų srauto prognozę įtrauktiną prognozės modelį. Įtraukimo į pinigų srautų prognozavimą gali būti nepaisoma atskirose pasiūlos ir paklausos prognozės eilutėse.
 
 ### <a name="setting-up-dimensions-for-cash-flow-forecasting"></a>Grynųjų pinigų srautų prognozavimo dimensijų nustatymas
-Naujas skirtukas pinigų srautų prognozės nustatymo puslapyje leidžia kontroliuoti, kurios finansinės dimensijos naudojamos filtruojant pinigų srautų **·** **prognozės darbo** srityje. Šis skirtukas rodomas tik tada, kai įgalinamas finansų žinių pinigų srautų prognozių priemonė. 
+Naujas skirtukas pinigų srautų prognozės nustatymo puslapyje leidžia kontroliuoti, kurios finansinės dimensijos bus naudojamos filtruojant  pinigų srautų prognozės darbo srityje. Šis skirtukas bus rodomas tik įgalinus pinigų srautų prognozių priemonę.
 
 Skirtuke **Dimensijos** pasirinkite iš dimensijų, kurias naudosite filtruodami, sąrašo ir naudokite rodyklių klavišus, kad perkeltumėte jas į dešinįjį stulpelį. Grynųjų pinigų srautų prognozavimo duomenims filtruoti galima pasirinkti tik dvi dimensijas. 
 
 ### <a name="setting-up-external-source"></a>Išorinio šaltinio nustatymas
-Išorinius duomenis galima įvesti arba importuoti į pinigų srautų prognozes. Prieš įvedant arba importuojant išorinius duomenis, reikia nustatyti išorinius šaltinius. Skirtuke **Išorinis šaltinis** nustatykite išorinių pinigų srautų kategorijas. Kategorija gali būti **Siunčiama** arba **Gaunama**. **Likvidumas** turi būti pasirinktas kaip registravimo tipas. **Tinklelyje Juridinio subjekto parametrai** pasirinkite juridinius subjektus ir atitinkamas pagrindines sąskaitas, kurioms taikomos išorinių pinigų srautų kategorijos.
+Išorinius duomenis galima įvesti arba importuoti į pinigų srautų prognozes. Prieš pradedant įvesti ar importuoti išorinius duomenis, turi būti nustatyti išoriniai šaltiniai. Skirtuke **Išorinis** šaltinis nustatykite išorines pinigų srautų kategorijas. Kategorija gali būti išeinantis **arba** **gaunamas**. **Likvidumas** turėtų būti pasirinktas kaip registravimo tipas. Juridinio **subjekto** parametrų tinklelyje pasirinkite juridinius subjektus ir atitinkamas pagrindines sąskaitas, kuriems taikomos išorinės pinigų srautų kategorijos.
 
 ### <a name="project-management-and-accounting"></a>Projektų valdymas ir apskaita
 
@@ -108,6 +111,10 @@ Versijoje 10.0.17 nauja funkcija įgalina integravimą su projektų valdymu ir a
 Kai pinigų srautų projekto prognozės funkcija įjungta, galima peržiūrėti kiekvieno projekto pinigų srautų prognozę **visų projektų** puslapyje. Veiksmų srities skirtuko **Planas** grupėje **Prognozė** pasirinkite **Grynųjų pinigų srauto prognozė**. **Grynųjų pinigų** darbo sritys (žr. [Ataskaitų](#reporting) skyrių toliau šioje temoje), projekto prognozės operacijos tipas rodo įeinančius srautus (projekto prognozės pajamas) ir išeinančius srautus (projekto prognozės išlaidas). Sumas galima įtraukti tik tuo atveju, jei grynųjų pinigų apžvalgos darbo sričių **projekto** etapo **laukas** nustatytas kaip **Apdorojamas**.
 
 Projekto operacijos vis dar įtrauktos į pinigų srautų prognozę keliais būdais, neatsižvelgiant į tai, ar pinigų srautų projekto **prognozės** funkcija įjungta. Užregistruotos projekto SF įtraukiamos į prognozę kaip atvirų kliento operacijų dalis. Projekto paskatinti pardavimo ir pirkimo užsakymai įvedus juos į sistemą įtraukiami į prognozę kaip atviri užsakymai. Taip pat galite perkelti projekto prognozes į DK biudžeto modelį. Tada šis DK biudžeto modelis įtraukiamas į pinigų srautų prognozę kaip biudžeto registro įrašų dalis. Jei įjungėte pinigų srautų projekto prognozės priemonę, neįkelkite projekto prognozių į DK biudžeto modelį, nes dėl šio veiksmo projekto prognozės bus skaičiuojamos **du** kartus.
+
+### <a name="sales-tax-authority-payments"></a>PVM institucijos mokėjimai 
+
+Pinigų srautų PVM institucijos mokėjimų priemonė numato PVM mokėjimų pinigų srautų poveikį. Jis naudoja neapmokėtas PVM operacijas, mokesčių sudengimo laikotarpius ir mokesčių laikotarpio mokėjimo terminą pinigų srautų mokėjimų datai ir sumai nuspėti. 
 
 ### <a name="calculation"></a>Skaičiavimas
 

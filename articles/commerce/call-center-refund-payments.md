@@ -12,12 +12,12 @@ ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 93eff7a54f9d3851c59b83a28d3aa61a8de7bc41f2a845be21c8bf4d1c6401d4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 8d5bcf3a0d36e323ee96c1f37829a95b60f529bc
+ms.sourcegitcommit: 0d2de52e12fdb9928556d37a4813a67b303695dc
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6731036"
+ms.lasthandoff: 12/21/2021
+ms.locfileid: "7944718"
 ---
 # <a name="refund-payment-processing-in-call-centers"></a>Grąžinimo mokėjimo tvarkymas skambučių centruose
 
@@ -33,11 +33,14 @@ Skambučių centro logika nustato mokėjimo metodą grąžinamo mokėjimo eilute
 
 Skambučių centras naudoja originalaus užsakymo mokėjimo metodą siekiant nustatyti mokėjimo metodą, kuris turi būti taikomas grąžinamam užsakymui. Štai kaip šis procesas veikia tolesniems originalaus mokėjimo metodams:
 
-- **Įprastai** (grynieji) ar **Patikra** – Kai grąžinimo užsakymas yra sukuriamas ir nukreipia į originalų užsakymą, kuris buvo sumokėtas naudojant įprastus (grynus) ar čekio mokėjimo tipą, skambučių centro programa nurodo konfigūravimus **Skambučių centro grąžinimo metodų** puslapyje. Šis puslapis leidžia organizacijoms pagal užsakymo valiutą nustatyti, kaip grąžinimai išduodami klientams užsakymams, kurie originaliai buvo mokami naudojant įprastą ar čekio mokėjimo tipą. Puslapis **Skambučių centro grąžinimo metodai** taip pat leidžia organizacijoms pasirinkti, ar sistemos sukurtas grąžinimo čekis yra siunčiamas klientui, ar kliento paskyros kreditas yra sukuriamas pagal vidinį kliento sąskaitos balansą. Šiais scenarijais, skambučių centro logika nukreipia grąžinamo užsakymo valiutą ir tada naudoja **Mažmenos mokėjimo metodo** vertę tai valiutai tam, kad sukurtų grąžinamo mokėjimo eilutę grąžinimo pardavimų užsakyme. Vėliau, gautinų sąskaitų kliento mokėjimo žurnalas, naudojantis žemėlapio gautinų sąskaitų mokėjimo metodą yra susietas su valiuta.
+- **Įprastai** (grynieji) ar **Patikra** – Kai grąžinimo užsakymas yra sukuriamas ir nukreipia į originalų užsakymą, kuris buvo sumokėtas naudojant įprastus (grynus) ar čekio mokėjimo tipą, skambučių centro programa nurodo konfigūravimus **Skambučių centro grąžinimo metodų** puslapyje. Šis puslapis leidžia organizacijoms pagal užsakymo valiutą nustatyti, kaip grąžinimai išduodami klientams užsakymams, kurie originaliai buvo mokami naudojant įprastą ar čekio mokėjimo tipą. Skambučių **centro grąžinimo metodų puslapis taip pat leidžia organizacijoms** pasirinkti, ar sistemos sugeneruotas grąžinimo čekis turėtų būti siunčiamas klientui. Šiais scenarijais, skambučių centro logika nukreipia grąžinamo užsakymo valiutą ir tada naudoja **Mažmenos mokėjimo metodo** vertę tai valiutai tam, kad sukurtų grąžinamo mokėjimo eilutę grąžinimo pardavimų užsakyme. Vėliau, gautinų sąskaitų kliento mokėjimo žurnalas, naudojantis žemėlapio gautinų sąskaitų mokėjimo metodą yra susietas su valiuta.
 
     Tolesnis paveikslėli rodo konfigūravimus scenarijui, kai kliento grąžinimo produktai iš prekybos užsakymo, susieto su USD valiuta ir tai, kad jis buvo iš pradžių sumokėtas naudojant įprastą ir čekio mokėjimo tipą. Šiame scenarijuje, grąžinimas bus išduodamas klientui per sistemos sukurtą grąžinimo čekį. **REF-CHK** grąžinamų sąskaitų metodas buvo sukonfigūruotas kaip grąžinimo čekio mokėjimo tipas.
 
     ![Skambučių centro grąžinimo metodų konfigūravimas įprastiems ir čekio originaliems mokėjimams.](media/callcenterrefundmethods.png)
+
+    > [!NOTE]
+    > Kliento kodas nėra palaikomas grynųjų pinigų arba čekių mokėjimų grąžinimo metodas.
 
 - **Kredito kortelė** – Kai grąžinimo užsakymas yra sukurtas ir nukreipia į pradinį užsakymą, kuris buvo sumokėtas naudojant kredito kortelę, skambučių centro logika grąžinimo mokėjimams taikoma tai pačiai kredito kortelei grąžinimo užsakymui.
 - **Lojalumo kortelė** – Kai grąžinimo užsakymas yra sukurtas ir nukreipia į pradinį užsakymą, kuris buvo sumokėtas naudojant kliento lojalumo kortelę, skambučių centro logika grąžinimo mokėjimams taikoma grąžinimui į tą pačią lojalumo kortelę.

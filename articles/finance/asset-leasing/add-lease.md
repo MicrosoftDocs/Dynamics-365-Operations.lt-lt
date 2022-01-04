@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: ee4803c4653b8c2df2cb731652456b1ce2796cd0
-ms.sourcegitcommit: e77d72fde17a43bd1780c265702254011af7407c
-ms.translationtype: HT
+ms.openlocfilehash: e6f47e7bccdfa5205209a290b2ce0d37f2e5a534
+ms.sourcegitcommit: c42d047cb866f7988f1879ac84cd45284a03abf8
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/07/2021
-ms.locfileid: "7893650"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "7931986"
 ---
 # <a name="add-or-copy-leases-preview"></a>Nuomos įtraukimas arba kopijavimas (peržiūros versija)
 
@@ -50,6 +50,9 @@ Baigę įvesti nuomos informaciją, atlikite šiuos veiksmus, kad sukurtumėte n
     Puslapyje **Knygų informacija** rodoma, kaip nuoma apskaitoma knygose, kurios jai priskirtos. Čia galite peržiūrėti nuomos grafikus.
 
     Į mokėjimo grafiką įtraukiami įvesti duomenys iš puslapio **Nuomos įtraukimas** skirtuko **Mokėjimo grafiko eilutės**. Vis tiek galite pakeisti kiekvieną mokėjimo sumą ir kintamąjį mokėjimą. Nuomos įsipareigojimas apskaičiuojamas pagal pakeistą mokėjimo grafiką.
+    
+> [!NOTE]
+> Nuomos mokėjimo pradžios data turi būti tokia pati arba vėlesnė už nuomos pradžios datą. Jei mokėjimo pradžios data yra ankstesnė nei nuomos pradžios data, gausite klaidos pranešimą. 
 
 4. Peržiūrėję mokėjimo grafiką, pasirinkite **Patvirtinti grafiką**. Patvirtinus grafiką, nuomos nebegalima redaguoti.
 

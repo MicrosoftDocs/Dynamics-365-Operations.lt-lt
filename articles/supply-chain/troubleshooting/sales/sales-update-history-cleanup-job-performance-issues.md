@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: myvakalo
 ms.search.validFrom: 2021-09-29
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 4f04dc204c705b40ed25fadc75118feaef4d6b6e
-ms.sourcegitcommit: 42bd701179e664947b6eafcd1804c83a5e64abcb
-ms.translationtype: HT
+ms.openlocfilehash: c02273adf90afc67b7c0ae1b82c19d489bfbd3b1
+ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2021
-ms.locfileid: "7641473"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920079"
 ---
 # <a name="sales-update-history-cleanup-job-fails-or-has-performance-issues"></a>Pardavimo atnaujinimo retrospektyvos valymo užduotis nesėkminga arba yra veikimo problemų
 
@@ -30,5 +30,5 @@ Taip gali atsitikti, kai jūsų sistemoje yra daug pardavimo atnaujinimų, todė
 
 ## <a name="resolution"></a>Sprendimas
 
-**Pardavimo atnaujinimo retrospektyvos valymo** paketinės užduoties nauja versija prieinama iš Supply Chain Management versijos 10.0.19 ir naujesnės. Pagal numatytuosius parametrus ši funkcija nėra įjungta. Išsamesnės informacijos apie tai, kaip ji veikia ir kaip ją įgalinti funkcijų valdyme, žr. [Pardavimo retrospektyvos valymo efektyvumo patobulinimai](../../sales-marketing/sales-update-history-cleanup-performance-improvements.md)
+**Pardavimo atnaujinimo retrospektyvos valymo** paketinės užduoties nauja versija prieinama iš Supply Chain Management versijos 10.0.19 ir naujesnės. Pagal numatytuosius parametrus ši funkcija nėra įjungta. Išsamesnės informacijos apie tai, kaip jis veikia ir kaip jį įgalinti funkcijų valdymas, žr. [pardavimo retrospektyvos valymo efektyvumo patobulinimus](../../sales-marketing/sales-update-history-cleanup-performance-improvements.md).
 

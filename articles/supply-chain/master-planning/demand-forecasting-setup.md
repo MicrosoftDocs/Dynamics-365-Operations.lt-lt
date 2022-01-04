@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3abe82bb888b7501b00af44b48bfb40fbe8e2ee3
-ms.sourcegitcommit: 6ef4906621fbb4e3afaf2b0d6697536288365bb1
-ms.translationtype: HT
+ms.openlocfilehash: 4f53171361b655ab4ae05894d098203df0af8d60
+ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/30/2021
-ms.locfileid: "7868642"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920778"
 ---
 # <a name="demand-forecasting-setup"></a>Poreikio prognozių nustatymas
 
@@ -175,8 +175,8 @@ Norėdami nustatyti numatytuosius parametrus ir vertes, naudojamas poreikio prog
 - **Trūkstamos vertės pakaitalų apimtis** – Nurodo, ar vertės keitimas taikomas tik kiekvienam atskiram duomenų diapazono detalumo atributui ar visam duomenų rinkiniui. Galimos šios datos intervalo, kurį sistema naudoja užpildydama praeities duomenų spragas, nustatymo pasirinktys:
 
     - *VISUOTINIS* – sistema naudoja visą visų detalumo atributų datų diapazoną.
-    - *HISTORY_DATE_RANGE – sistema naudoja tam tikrą datų diapazoną, kuris apibrėžtas laukuose Nuo datos ir Iki datos, esančiuose skyriuje Praeities laikotarpis, dialogo lange Generuoti bazinę* **·** **·** **·** **statistinę** prognozę.
-    - *GRANULARITY_ATTRIBUTE –* sistema naudoja šiuo metu apdoroto detalumo atributo datų diapazoną.
+    - *HISTORY_DATE_RANGE – sistema naudoja tam tikrą datų diapazoną, kuris apibrėžtas laukuose Nuo datos ir Iki datos, esančiuose skyriuje Praeities laikotarpis, dialogo lange Generuoti bazinę statistinę* **·** **·** **·** **prognozę**.
+    - *GRANULARITY_ATTRIBUTE* – sistema naudoja šiuo metu apdoroto detalumo atributo datų diapazoną.
 
     > [!NOTE]
     > Detalumo atributas yra prognozės dimensijų, pagal kurias kuriama prognozė, derinys. Galite nustatyti prognozės dimensijas puslapyje **Poreikio prognozės parametrai**.
@@ -196,9 +196,6 @@ Galite nepaisyti šių parametrų verčių nueidami į Bendrojo **planavimo \> n
 
 Tiekimo grandinės valdymas apskaičiuoja poreikio prognozes naudodamas "Azure" mašinos mokymosi paslaugą, kurią turite nustatyti ir paleisti savo "Azure" abonemente. Šiame skyriuje aprašoma, kaip nustatyti "Azure" mašinos mokymosi paslaugą "Azure" ir prijungti ją prie tiekimo grandinės valdymo aplinkos.
 
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-<!-- KFM: Preview until 10.0.23 GA -->
-
 ### <a name="enable-the-azure-machine-learning-service-in-feature-management"></a>Funkcijų valdymo įjungti "Azure" įrenginio mokymosi paslaugą
 
 Norėdami įjungti integravimą, prieš naudodami "Azure" mašinos mokymosi tarnybą poreikio prognozei atlikti turite įjungti tiekimo grandinės valdymo funkciją. Administratoriai gali naudoti [funkcijos valdymas](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) parametrus, norėdami sužinoti funkcijos būseną ir įjungti ją. Darbo srityje **Funkcijų valdymas** ši funkcija yra nurodyta toliau pateikiamu būdu.
@@ -210,8 +207,8 @@ Norėdami įjungti integravimą, prieš naudodami "Azure" mašinos mokymosi tarn
 
 Norėdami įgalinti "Azure" naudoti įrenginio mokymą prognozėms apdoroti, šiuo tikslu turite nustatyti "Azure" mašinos mokymosi darbo sritį. Galite pasirinkti dvi pasirinktis:
 
-- Norėdami nustatyti darbo sritį paleisdami „Microsoft“ pateikiamą scenarijų, vadovaukitės dalies [1 parinktis: paleiskite scenarijų, kad būtų automatiškai nustatyta jūsų mašininio mokymo darbo sritis](#ml-workspace-script) instrukcijomis, tada pereikite prie dalies [„Azure“ mašininio mokymo tarnybos ryšio parametrų nustatymas tiekimo grandinės valdyme](#demand-forecast-parameters).
-- Norėdami rankiniu būdu nustatyti savo darbo sritį, vadovaukitės dalies [2 parinktis: rankiniu būdu nustatykite mašininio mokymo darbo sritį](#ml-workspace-manual) instrukcijomis, tada pereikite prie dalies [„Azure“ mašininio mokymo tarnybos ryšio parametrų nustatymas tiekimo grandinės valdyme](#demand-forecast-parameters). Ši pasirinktis užtrunka daugiau laiko, bet ji jums suteikia daugiau kontrolės.
+- Norėdami nustatyti darbo sritį paleisdami "Microsoft" pateikiamą scenarijų, vadovaukitės instrukcijomis: [1 parinktis: paleiskite scenarijų, kad būtų automatiškai nustatyta jūsų mašinos mokymosi darbo srities](#ml-workspace-script) dalis, tada pereikite prie ["Azure" mašinos mokymosi tarnybos ryšio parametrų nustatymo tiekimo grandinės valdymo](#demand-forecast-parameters) skyriaus.
+- Norėdami rankiniu būdu nustatyti savo darbo sritį, vadovaukitės instrukcijomis: [2 parinktis :rankiniu būdu nustatykite įrenginio mokymosi darbo srities](#ml-workspace-manual) skyrių ir pereikite prie ["Azure" mašinos mokymosi tarnybos ryšio parametrų nustatymo tiekimo grandinės](#demand-forecast-parameters) skyriaus. Ši pasirinktis užtrunka daugiau laiko, bet ji jums suteikia daugiau kontrolės.
 
 #### <a name="option-1-run-a-script-to-automatically-set-up-your-machine-learning-workspace"></a><a name="ml-workspace-script"></a> 1 parinktis: vykdyti scenarijų, kad būtų automatiškai nustatyta jūsų mašinos mokymosi darbo sritis
 
@@ -231,7 +228,7 @@ Norėdami įgalinti "Azure" naudoti įrenginio mokymą prognozėms apdoroti, ši
 1. "Azure Machine Learning Studio" **pasirinkite** Meniu.
 1. Failų struktūroje raskite **šią** vietą: vartotojai / **\[dabartinis vartotojas / \] src.**
 1. Įkelkite likusius keturis failus, kuriuos atsisiuntėte 1 žingsniu, į vietą, kurią rasite ankstesniame veiksme.
-1. Pasirinkite **ką tik api_trigger.lt** failą ir jį paleiskite. Bus sukurta pardavimo galimybės, kurias galima įjungti naudojant API.
+1. Pasirinkite **ką tik api_trigger.fail.** fail. ir jį paleiskite. Bus sukurta pardavimo galimybės, kurias galima įjungti naudojant API.
 1. Jūsų darbo sritis dabar nustatyta. Praleisti į priekį iki ["Azure" mašinos mokymosi tarnybos ryšio parametrų nustatymo tiekimo grandinės valdymo](#demand-forecast-parameters) skyriuje.
 
 #### <a name="option-2-manually-set-up-your-machine-learning-workspace"></a><a name="ml-workspace-manual"></a> 2 parinktis: rankiniu būdu nustatykite savo įrenginio mokymosi darbo sritį
@@ -297,8 +294,8 @@ Pardavimo galimybės suteikia būdą pradėti prognozavimo scenarijus iš tiekim
 1. "Azure Machine Learning Studio" **pasirinkite** Meniu.
 1. Failų struktūroje raskite **šią** vietą: vartotojai / **\[dabartinis vartotojas / \] src.**
 1. Įkelkite keturis failus, kuriuos atsisiuntėte 1 žingsniu, į vietą, kurią rasite ankstesniame veiksme.
-1. Atidarykite ir peržiūrėkite ką **tik parameters.py** įkeltą "Azure" failą. Įsitikinkite, kad vertė yra mažesnė nei vertė, kurią sukonfigūravote 4 žingsnyje nurodytai komponuoti `nodes_count`[klasteriui: dalyje Konfigūruoti išteklių](#config-compute-resources) naudojimą. Jei vertė didesnė nei komponuojame klasteryje esantis mazgų skaičius arba jis lygus, gali būti galima `nodes_count` pradėti pardavimo galimybių paleidimą. Tačiau kol jis laukia reikalingų išteklių, jis nustos reaguoti. Daugiau informacijos apie mazgų skaičių ieškokite [4 žingsnyje: išteklių skaičiavimo](#config-compute-resources) konfigūravimas.
-1. Pasirinkite **ką tik api_trigger.lt** failą ir jį paleiskite. Bus sukurta pardavimo galimybės, kurias galima įjungti naudojant API.
+1. "Azure" atidarykite ir **parameters.py ką** tik įkeltą failo kopiją. Įsitikinkite, kad vertė yra mažesnė nei vertė, kurią sukonfigūravote 4 žingsnyje nurodytai komponuoti `nodes_count`[klasteriui: dalyje Konfigūruoti išteklių](#config-compute-resources) naudojimą. Jei vertė didesnė nei komponuojame klasteryje esantis mazgų skaičius arba jis lygus, gali būti galima `nodes_count` pradėti pardavimo galimybių paleidimą. Tačiau kol jis laukia reikalingų išteklių, jis nustos reaguoti. Daugiau informacijos apie mazgų skaičių ieškokite [4 žingsnyje: išteklių skaičiavimo](#config-compute-resources) konfigūravimas.
+1. Pasirinkite **ką tik api_trigger.fail.** fail. ir jį paleiskite. Bus sukurta pardavimo galimybės, kurias galima įjungti naudojant API.
 
 ### <a name="set-up-a-new-active-directory-application"></a><a name="aad-app"></a> Nustatyti naują Active Directory programą
 

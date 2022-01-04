@@ -2,7 +2,7 @@
 title: Kreditų valdymo parametrų nustatymas
 description: Šioje temoje aprašomos parinktys, kurias galite naudoti norėdami konfigūruoti kreditų valdymą, kad atitiktų jūsų verslo poreikius.
 author: JodiChristiansen
-ms.date: 08/03/2020
+ms.date: 12/10/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 768fb5121ae6be513c4a533a20027cf784640b2a
-ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
+ms.openlocfilehash: 745a51617f8c87c0f757aee0304ec3efb55d0f98
+ms.sourcegitcommit: f82372b1e9bf67d055fd265b68ee6d0d2f10d533
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "7753470"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7921220"
 ---
 # <a name="credit-management-parameters-setup"></a>Kreditų valdymo parametrų nustatymas
 
@@ -31,7 +31,7 @@ Skyriuje **Kreditas** yra keturi „FastTab“, kur galite pakeisti parametrus, 
 
 ### <a name="credit-holds"></a>Kredito sulaikymai
 
-- Nustatykite **Leisti redaguoti prekybos užsakymų vertę po to, kai laikomas užsakymas yra paleidžiamas** parinktį į **Ne** tam, kad publikavimo taisyklės būtų dar kartą tikrinamos, jei prekybos užsakymo vertę (išplėsta kaina) buvo padidinta, nes prekybos užsakymas buvo paleistas iš laikomų sąrašo. .
+- Nustatykite **Leisti redaguoti prekybos užsakymų vertę po to, kai laikomas užsakymas yra paleidžiamas** parinktį į **Ne** tam, kad publikavimo taisyklės būtų dar kartą tikrinamos, jei prekybos užsakymo vertę (išplėsta kaina) buvo padidinta, nes prekybos užsakymas buvo paleistas iš laikomų sąrašo.
 - Lauke **Atšauktų užsakymų priežastys** pasirinkite išleidimo priežastį, kuri bus naudojama pagal numatytuosius parametrus, kai pardavimo užsakymas, kuris buvo kreditų valdymo sulaikymų sąraše, yra atšaukiamas.
 - Nustatykite parinktį **Patikrinti klientų kredito grupių kredito limitą** kaip **Taip**, kad galėtumėte patikrinti klientų kredito grupės kredito limitą, kai pardavimo užsakymas priklauso klientų kredito grupei. Bus patikrintas grupės kredito limitas; tada, jei jis pakankamas, bus patikrintas kliento kredito limitas.
 - Nustatykite parinktį **Patikrinti kredito limitą, kai mokėjimo sąlygos padidinamos** kaip **Taip**, jei norite patikrinti mokėjimo sąlygų reitingus, kad nustatytumėte, ar pardavimo užsakymo mokėjimo sąlygos skiriasi nuo numatytųjų kliento mokėjimo sąlygų. Jeigu naujos mokėjimo sąlygos turi aukštesnį reitingą nei originalios mokėjimo sąlygos, užsakymas įtraukiamas į kreditų valdymo sulaikymo sąrašą.
@@ -72,6 +72,10 @@ Kelios kreditų valdymo statistikos yra įtrauktos į „FactBox“ **Kliento kr
 
 - Kreditų valdyme kliento kredito limitas rodomas kliento valiuta. Turite nustatyti kredito limito valiutos kurso tipą kliento valiuta. Lauke **Kredito limito valiutos kurso tipas** pasirinkite valiutos kurso tipą, kuris turi būti naudojamas konvertuojant pirminį kredito limitą į kliento kredito limitą.
 - Nustatykite parinktį **Leisti rankinį kredito limitų redagavimą** kaip **Ne**, kad vartotojai negalėtų redaguoti kredito limitų puslapyje **Klientas**. Jei ši parinktis nustatyta kaip **Ne**, kliento kredito limito pakeitimai gali būti atliekami tik registruojant kredito limito koregavimo operacijas.
+- Nustatykite pasirinktį Praleisti atsargų rezervavimus kaip Taip, jei norite, kad būtų nepaisoma **atsargų** **rezervavimo, kai patikrinamos kredito valdymo** blokavimo taisyklės. Šiuo atveju sistema patikrina eilutės kiekius ir įgalina čekių atidėjimo laikotarpius, neatsižvelgus į atsargų rezervavimo kiekį.
+- Kai įgalintas kredito valdymas, tik laisvos formos SF apdoroti naudojamas pranešimo **parametras**, kai viršijamas kredito limitas. Nors pranešimai vis dar pridedami prie pardavimo užsakymų, kai klientai viršija savo kredito limitą, jei tokie pranešimai neužblokuoja patvirtinimo, išrinkimo dokumentų ir važtaraščių spausdinimo ar SF registravimo.
+
+    Numatyta, kad kredito valdymas įgalintas, bet galite jį išjungti. Įgalinus šį raktą, norėdami nustatyti, kada klientai viršija savo kredito limitą, naudojate kredito valdymo blokavimo taisykles ir kontrolinius taškus. Jei jis uždraustas, pranešimai, kurie pridedami prie pardavimo užsakymų, remiantis lauko Pranešimas parametru viršijus kredito limitą, gali padėti nustatyti, kada klientai viršija savo kredito **limitą**.
 
 ### <a name="number-sequences-and-shared-number-sequence-parameters"></a>Numeracijos ir bendrinami numeracijos parametrai
 

@@ -2,7 +2,7 @@
 title: Grynųjų pinigų pozicija
 description: Šioje temoje aprašoma, kaip funkcija Grynųjų pinigų srautų prognozavimas prognozoja organizacijos grynųjų pinigų padėtį tam tikru laiku. Joje taip pat aprašomos galimos parinktys, naudojamos norint rodyti skirtingų laikotarpių prognozes.
 author: ShivamPandey-msft
-ms.date: 11/03/2021
+ms.date: 12/21/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: bf99ce5c9de00061cba2f49d00cc9dbc728753a8
-ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
+ms.openlocfilehash: 6bb99084a2ffef067dd0d7158ecb5e57d6d97d75
+ms.sourcegitcommit: c8dc60bb760553f166409c2e06dd2377f601c006
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752885"
+ms.lasthandoff: 12/23/2021
+ms.locfileid: "7945806"
 ---
 # <a name="cash-position"></a>Grynųjų pinigų pozicija
 
@@ -45,5 +45,17 @@ Apatinėje skirtuko **Grynųjų pinigų vieta** dalyje pateikiama išsami inform
 - Tinklelyje **Banko sąskaita** rodoma numatomų grynųjų pinigų įplaukų ir išmokų įtaka banko balansui.
 
 Norėdami įrašyti ir redaguoti grynųjų pinigų padėtį, sukurkite momentinę kopiją. Daugiau informacijos apie tai, kaip dirbti su momentinėmis kopijomis, žr. [Momentinių kopijų apžvalga](payment-snapshots.md).
+
+## <a name="details-of-the-cash-position-capability"></a>Išsami informacija apie grynųjų pinigų padėties galimybę 
+
+Grynųjų pinigų pozicijas sudaro toliau nurodytos funkcijos. 
+
+- Grynųjų pinigų pareigų funkcija rodo grynųjų pinigų srautus, remiantis sistemoje esamais dokumentais, bei iš išorinių sistemų importuotas grynųjų pinigų įplaukas ir nutekėjimo eilutes.
+- Leidžia lengvai integruoti grynųjų pinigų srautų duomenis iš išorinių sistemų į „Dynamics 365 Finance“. Grynųjų pinigų pozicijai taip pat galima naudoti duomenų importavimo - eksportavimo sistemą. Ši sistema leidžia lengvai integruoti su „Excel“ „OData“. Taip pat galite sujungti duomenis iš kelių šaltinių, kad sukurtumėte išsamų grynųjų pinigų pareigų sprendimą.
+- Įdiegiama sumanios grynųjų pinigų padėties funkcija. Grynųjų pinigų pozicija sukuriama atsižvelgiant į kliento mokėjimo būdą numatyma, kada įmonė gali tikėtis, kad grynieji pinigai bus pristatyti į savo sąskaitas.
+- Kliento užsakymuose ir SF kliento mokėjimo numatymo AI funkcija naudojama norint nustatyti retrospektyvią kliento mokėjimo elgseną, kai už užsakymą arba SF bus mokama.
+- Tiekėjo užsakymams ir SF mes naudojame vidutinį laiką tarp siuntimo ir SF apmokėjimo vienam tiekėjui, kad nustatytumėte, kada tiekėjo užsakymui arba SF bus sumokėta, kad grynųjų pinigų išlaidos būtų tikslesnės.
+
+Taip sukuriamas tikslesnis pinigų srautų rodinys pagal retrospektyvinio iždininko mokėjimo būdą. 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

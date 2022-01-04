@@ -2,7 +2,7 @@
 title: Atsargų matomumo viešos API
 description: Šioje temoje aprašomos viešos API, kurios pateikiamos pagal atsargų matomumą.
 author: yufeihuang
-ms.date: 09/30/2021
+ms.date: 12/09/2021
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 1899969ddbbccafde3f7bb06a897ea7c0f2d656b
-ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
+ms.openlocfilehash: d676191f921d74a5a0ced934f3692dacbe7cd7b4
+ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/25/2021
-ms.locfileid: "7678792"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920123"
 ---
 # <a name="inventory-visibility-public-apis"></a>Atsargų matomumo viešos API
 
@@ -41,8 +41,8 @@ Toliau pateiktoje lentelėje nurodytos API esamos parinktys:
 | /api/aplinka/{environmentId}/stovintis/{inventorySystem}/bendras | Skelbti | [Nustatyti/nepaisyti turimos informacijos kiekių](#set-onhand-quantities) |
 | /api/aplinka/{environmentId}/turi būti/rezervavimas | Skelbti | [Kurti vieną rezervavimo įvykį](#create-one-reservation-event) |
 | /api/aplinka/{environmentId}/turi būti/rezervavimas/bendras | Skelbti | [Kurti kelis rezervuoti įvykius](#create-multiple-reservation-events) |
-| /api/aplinka/{environmentId}/turi būti/indekso užklausa | Gauti | [Užklausa naudojant skelbimo metodą](#query-with-post-method) |
-| /api/aplinka/{environmentId}/turi būti/indekso užklausa | Skelbti | [Užklausa naudojant gavimo metodą](#query-with-get-method) |
+| /api/aplinka/{environmentId}/turi būti/indekso užklausa | Skelbti | [Užklausa naudojant skelbimo metodą](#query-with-post-method) |
+| /api/aplinka/{environmentId}/turi būti | Gauti | [Užklausa naudojant gavimo metodą](#query-with-get-method) |
 
 „Microsoft" pateikė "out-of-box *Paštininko* užklausų rinkinį. Šį rinkinį galite importuoti į savo *paštininko* rango programinę įrangą naudodami šį bendrai naudojamą saitą: <https://www.getpostman.com/collections/90bd57f36a789e1f8d4c>.
 
@@ -476,7 +476,7 @@ Body:
 
 ## <a name="query-on-hand"></a>Turimos užklausos
 
-_Turimų atsargų_ API užklausa naudojama surasti dabartinius jūsų produktų turimų atsargų duomenis.
+Norėdami _surasti dabartinius savo produktų turimų atsargų duomenis, naudokite_ turimų atsargų API užklausą. API šiuo metu palaiko iki 100 atskirų prekių užklausą pagal `ProductID` vertę. Šioje `SiteID``LocationID` užklausoje dar galima nurodyti keletą verčių. Maksimali riba apibrėžiama kaip `NumOf(SiteID) * NumOf(LocationID) <= 100`.
 
 ### <a name="query-by-using-the-post-method"></a><a name="query-with-post-method"></a>Užklausa naudojant skelbimo metodą
 
@@ -551,7 +551,7 @@ Toliau pateikti pavyzdžiai rodo, kaip pateikti užklausą apie visus produktus 
 
 ```txt
 Path:
-    /api/environment/{environmentId}/onhand/indexquery
+    /api/environment/{environmentId}/onhand
 Method:
     Get
 Headers:
@@ -568,7 +568,7 @@ Query(Url Parameters):
 Čia pateikiamas URL gauti pavyzdys. Ši gavimo užklausa yra lygiai tokia pati, kaip ir anksčiau pateiktas skelbimo pavyzdys.
 
 ```txt
-/api/environment/{environmentId}/onhand/indexquery?organizationId=usmf&productId=T-shirt&SiteId=1&LocationId=11&ColorId=Red&groupBy=ColorId,SizeId&returnNegative=true
+/api/environment/{environmentId}/onhand?organizationId=usmf&productId=T-shirt&SiteId=1&LocationId=11&ColorId=Red&groupBy=ColorId,SizeId&returnNegative=true
 ```
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

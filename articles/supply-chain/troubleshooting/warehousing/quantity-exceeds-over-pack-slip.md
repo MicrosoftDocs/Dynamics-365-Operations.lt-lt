@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: v-gfedorova
 ms.search.validFrom: 2021-05-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 00e3da7767b80e16f9351f59b109765bffc0128fe149cefafc1edda3a6cbcb96
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: bc74c5748950b1f0f001fd89acb2e023640065ee
+ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6781350"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920055"
 ---
 # <a name="quantity-exceeds-over-delivery-percentage-during-packing-slip-generation"></a>Kiekis viršija pristatymo perviršio procentą važtaraščio kūrimo metu
 
@@ -50,10 +50,10 @@ Norėdami pakoreguoti krovinio eilutės kiekį, naudokite nurodytą procedūrą.
 
 1. Eikite į **Sandėlio valdymas \> Kroviniai \> Visi kroviniai**.
 1. Pasirinkite krovinį, pagal kurį negalima sugeneruoti važtaraščio.
-1. Veiksmų srities skirtuke  **Siųsti ir gauti**, grupėje  **Atšaukti** pasirinkite  **Atšaukti siuntos patvirtinimą**.
-1. Skirtuke  **Krovinio eilutės** pasirinkite prekės, viršijančios pristatymo perviršio procentą, krovinio eilutę.
+1. Veiksmų srities skirtuko Siuntimas **ir Gauti** grupėje Atšaukimas pasirinkite Atšaukti **siuntos** **patvirtinimą**.
+1. Skirtuke **Krovinio** eilutės pasirinkite prekės, viršijančios pristatymo perviršį procentais, krovinio eilutę.
 1. Pasirinkite **Sumažinti paimtą kiekį**, kad pakoreguotumėte paimtą kiekį.
-1. Skirtuke  **Eilutės informacija** pasirinkite **Užsakymas**.
+1. Skirtuke **Eilutės informacija pasirinkite** **Užsakymas**.
 1. Nustatykite **Kiekio** lauką į paimtą kiekį (tai yra, į lauko **Darbo sukurto kiekio** reikšmę), kad būtų galima atlikti važtaraščio generavimą.
 
 ### <a name="adjust-the-over-delivery-percentage"></a>Pristatymo perviršio procento koregavimas
@@ -62,8 +62,8 @@ Norėdami pakoreguoti pristatymo perviršio procentą, naudokite nurodytą proce
 
 1. Eikite į **Gautinos sumos \> Užsakymai \> Visi užsakymai**.
 1. Pasirinkite pardavimo užsakymą, kuriam negalite registruoti krovinio važtaraščio.
-1. Skirtuke  **Pardavimo užsakymo eilutės** pasirinkite prekės, viršijančios pristatymo perviršio procentą, pardavimo užsakymo eilutę.
-1. Skirtuke  **Eilutės informacija** pasirinkite **Pristatymas**.
+1. Skirtuke **Pardavimo užsakymo eilutės pasirinkite** prekės, viršijančios pristatymo perviršį procentais, pardavimo užsakymo eilutę.
+1. Skirtuke **Eilutės informacija pasirinkite** **Pristatymas**.
 1. Nustatykite lauką **Perviršis** į didesnį procentą, sutalpinantį pagal krovinio kiekį paimtą kiekį, kad būtų galima atlikti važtaraščio generavimą.
 
 ### <a name="reverse-and-make-adjustments"></a>Atšaukimas ir koregavimų atlikimas
@@ -73,14 +73,14 @@ Atšaukite viską, kas buvo užregistruota kroviniui (pavyzdžiui, važtaraštį
 Norėdami atšaukti važtaraštį, naudokite nurodytą procedūrą.
 
 1. Eikite į **Sandėlio valdymas \> Kroviniai \> Visi kroviniai**.
-1. Veiksmų srities skirtuke  **Siųsti ir gauti**, grupėje  **Atšaukti** pasirinkite  **Atšaukti važtaraščius**.
+1. Veiksmų srities skirtuko Siuntimas **ir gauti** grupėje Atšaukti pasirinkite **Atšaukti** **važtaraščius**.
 
 Naudokite šią procedūrą norėdami atšaukti siuntos patvirtinimą.
 
 1. Eikite į **Sandėlio valdymas \> Kroviniai \> Visi kroviniai**.
-1. Veiksmų srities skirtuke  **Siųsti ir gauti**, grupėje  **Atšaukti** pasirinkite  **Atšaukti siuntos patvirtinimą**.
+1. Veiksmų srities skirtuko Siuntimas **ir Gauti** grupėje Atšaukimas pasirinkite Atšaukti **siuntos** **patvirtinimą**.
 
 Norėdami atšaukti darbą naudokite nurodytą procedūrą.
 
 1. Eikite į **Sandėlio valdymas \> Kroviniai \> Visi kroviniai**.
-1. Veiksmų juostos skirtuke  **Kroviniai**, grupėje  **Darbas** pasirinkite  **Atšaukti darbą**.
+1. Veiksmų srities skirtuke **Kroviniai**, darbo **grupėje**, pasirinkite Atšaukti **darbą**.

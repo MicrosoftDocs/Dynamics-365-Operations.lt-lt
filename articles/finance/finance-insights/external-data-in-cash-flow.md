@@ -1,8 +1,8 @@
 ---
-title: Išorinių duomenų naudojimas prognozuojant grynųjų pinigų srautus
+title: Išoriniai pinigų srautų prognozių duomenys
 description: Šioje temoje aprašomi nustatymo veiksmai, kuriuos reikia atlikti, kad išorinius duomenis būtų galima įvesti arba importuoti į pinigų srautų prognozes.
 author: rcarlson
-ms.date: 11/03/2021
+ms.date: 12/21/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,14 +15,14 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2020-06-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: dbfa04228cf63c0874a7d69af4e2b932544c0d7f
-ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
+ms.openlocfilehash: 66b097b2936e61c619d45ad103440eddbb983feb
+ms.sourcegitcommit: c8dc60bb760553f166409c2e06dd2377f601c006
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7753007"
+ms.lasthandoff: 12/23/2021
+ms.locfileid: "7945796"
 ---
-# <a name="use-external-data-in-cash-flow-forecasts"></a>Išorinių duomenų naudojimas prognozuojant grynųjų pinigų srautus
+# <a name="external-data-in-cash-flow-forecasts"></a>Išoriniai pinigų srautų prognozių duomenys
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
@@ -31,19 +31,19 @@ Išorinius duomenis galima įvesti arba importuoti į pinigų srautų prognozes.
 
 ## <a name="external-data-setup"></a>Išorinių duomenų nustatymas
 
-Norėdami **įvesti** **·** **\>\>** parametrus, palaikančius išorinių duomenų naudojimą pinigų srautų prognozės prognozėse, naudokite skirtuką Išorinis šaltinis puslapyje Pinigų srautų prognozės nustatymas ( Grynųjų pinigų ir banko valdymas Pinigų srautų prognozės nustatymas ).
+Naudokite skirtuką Išorinis šaltinis, kuris yra pinigų srautų prognozės nustatymo puslapyje (Grynųjų pinigų ir banko valdymo pinigų srautų prognozavimo pinigų srautų prognozės nustatymas), norėdami įvesti parametrus, kurie palaiko išorinių duomenų naudojimą pinigų **srautų** **·** **\>\>** prognozėse.
 
-Išorinius duomenis galima įvesti arba importuoti į pinigų srautų prognozes. Prieš įvedant arba importuojant išorinius duomenis, reikia nustatyti išorinius šaltinius. Skirtuke **Išorinis šaltinis** nustatykite išorinių pinigų srautų kategorijas. Kategorija gali būti **Siunčiama** arba **Gaunama**. **Likvidumas** turi būti pasirinktas kaip registravimo tipas. **Tinklelyje Juridinio subjekto parametrai** pasirinkite juridinius subjektus ir atitinkamas pagrindines sąskaitas, kurioms taikomos išorinių pinigų srautų kategorijos.
+Išorinius duomenis galima įvesti arba importuoti į pinigų srautų prognozes. Prieš pradedant įvesti ar importuoti išorinius duomenis, turi būti nustatyti išoriniai šaltiniai. Skirtuke **Išorinis** šaltinis nustatykite išorines pinigų srautų kategorijas. Kategorija gali būti išeinantis **arba** **gaunamas**. **Likvidumas** turėtų būti pasirinktas kaip registravimo tipas. Juridinio **subjekto** parametrų tinklelyje pasirinkite juridinius subjektus ir atitinkamas pagrindines sąskaitas, kuriems taikomos išorinės pinigų srautų kategorijos.
 
-Daugiau informacijos apie tai, kaip nustatyti pinigų srautų prognozes, ieškokite [Pinigų srautų prognozavimas](../cash-bank-management/cash-flow-forecasting.md).
+Daugiau informacijos apie tai, kaip nustatyti pinigų srautų prognozes, ieškokite [pinigų srautų prognozių eigą.](../cash-bank-management/cash-flow-forecasting.md)
 
 ## <a name="enter-external-data"></a>Įvesti išorinius duomenis
 
-Norėdami įvesti ir modifikuoti pinigų srautų prognozių išorinius duomenis, galite naudoti **parinktį Atidaryti naudojant "Excel".** Puslapyje Pinigų srautų prognozės nustatymas pasirinkite **mygtuką Išoriniai** **·** duomenys, tada pasirinkite **Pridėti išorinius duomenis** arba Redaguoti **esamus išorinius duomenis**. Atidarę „Microsoft Excel“ failą, galite įvesti informaciją šiuose laukuose.
+Norėdami įvesti ir modifikuoti išorinius pinigų srautų prognozių duomenis, galite naudoti excel **programoje** Atidaryti. Pasirinkite mygtuką Išoriniai duomenys, esantį pinigų srautų prognozės nustatymo puslapyje, tada pasirinkite Įtraukti išorinius **duomenis arba Redaguoti esamus** **·** **·** **išorinius** duomenis. Atidarę „Microsoft Excel“ failą, galite įvesti informaciją šiuose laukuose.
 
 - **Įrašo ID** (unikalus)
 - **Aprašas** (nebūtinas)
-- **Išorinio šaltinio pavadinimas** – pasirinkite vieną iš reikšmių sąraše, kurį nustatėte nustatydami "Finance insights".
+- **Išorinio** šaltinio pavadinimas – pasirinkite vieną iš verčių sąraše, kurią nustatėte nustatę finansų įžvalgas.
 - **Juridinis subjektas**
 - **Data**
 - **Suma operacijos valiuta**

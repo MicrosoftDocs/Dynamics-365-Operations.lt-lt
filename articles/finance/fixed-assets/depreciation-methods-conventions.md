@@ -2,7 +2,7 @@
 title: Nusidėvėjimo metodai ir konvencijos
 description: Šiame straipsnyje apžvelgiamos nusidėvėjimo konvencijos ir nusidėvėjimo metodai, kuriuos palaiko „Microsoft Dynamics 365 Finance“.
 author: moaamer
-ms.date: 04/25/2017
+ms.date: 12/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e6abf98b4c1eee3657960a1912445171acc0686a
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.openlocfilehash: 3f0f3b8be86225fd68df9b099e5c8e13a220a213
+ms.sourcegitcommit: a5861c2fef4071e130208ad20e26cb3a42a45cf1
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7674531"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "7927434"
 ---
 # <a name="depreciation-methods-and-conventions"></a>Nusidėvėjimo metodai ir konvencijos
 
@@ -46,7 +46,7 @@ Galite pasirinkti iš šių nusidėvėjimo konvencijų.
 -   Pusė metų (kiti metai)
 
 Galite pasirinkti šiuos nusidėvėjimo metodus:
--   Tiesiogiai0 proporcingas dėvėjimo laikas
+-   Tiesiogiai tiesiogiai atitinka dėmesį
 -   Mažėjanti vertė
 -   Rankiniu būdu
 -   Koeficientas

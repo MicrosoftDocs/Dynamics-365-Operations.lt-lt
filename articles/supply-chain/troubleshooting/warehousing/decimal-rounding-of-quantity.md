@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: v-gfedorova
 ms.search.validFrom: 2021-05-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: ddfac7106eb0e8b934516ca10e3950891d10910a2ccdef1868faf25812243159
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: a9e0475aab452daa9e1a6f012e17a59e611010da
+ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6726566"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920478"
 ---
 # <a name="decimal-rounding-of-the-physical-updating-quantity-is-incorrect"></a>Faktiškai atnaujinamo kiekio dešimtainis apvalinimas yra neteisingas
 
@@ -49,10 +49,10 @@ Naudokite toliau pateiktą procedūrą, kad peržiūrėtumėte savo krovinio eil
 
 1. Eikite į **Sandėlio valdymas \> Kroviniai \> Visi kroviniai**.
 1. Pasirinkite krovinį, pagal kurį negalima sugeneruoti važtaraščio.
-1. Veiksmų srities skirtuke  **Siųsti ir gauti**, grupėje  **Atšaukti** pasirinkite  **Atšaukti siuntos patvirtinimą**.
-1. Skirtuke  **Krovinio eilutės** pasirinkite prekės, sukeliančios problemą, krovinio eilutę.
+1. Veiksmų srities skirtuko Siuntimas **ir Gauti** grupėje Atšaukimas pasirinkite Atšaukti **siuntos** **patvirtinimą**.
+1. Skirtuke **Krovinio** eilutės pasirinkite prekės, kuri lemia išdavimą, krovinio eilutę.
 1. Pasirinkite **Sumažinti paimtą kiekį**, kad pakoreguotumėte paimtą kiekį.
-1. Skirtuke  **Eilutės informacija** pasirinkite **Užsakymas**.
+1. Skirtuke **Eilutės informacija pasirinkite** **Užsakymas**.
 1. Nustatykite **Kiekio** lauką į paimtą kiekį (tai yra, į lauko **Darbo sukurto kiekio** reikšmę), kad būtų galima atlikti važtaraščio generavimą.
 
 ### <a name="review-your-load-lines-and-make-adjustments-to-ensure-that-the-unit-and-quantity-are-aligned-with-the-decimal-precision-of-the-unit"></a>Peržiūrėkite krovinio eilutes ir atlikite koregavimus, siekiant užtikrinti, kad vienetas ir kiekis yra sulygiuoti dešimtainiu vieneto tikslumu

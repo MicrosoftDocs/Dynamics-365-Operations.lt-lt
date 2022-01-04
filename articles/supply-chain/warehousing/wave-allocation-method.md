@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-08
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: fd874f3c6c1f4d25b3257d6465686dcb8e95b933
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.openlocfilehash: 541e6c42ae1fa7d803b5becc1b52e34860777594
+ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7576021"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920603"
 ---
 # <a name="wave-allocation"></a>Bangos paskirstymas
 
@@ -77,7 +77,7 @@ Lygiagretusis paskirstymo apdorojimas reikalauja bangos apdorojimą vykdyti pake
 
 Jei reikia, galite anuliuoti kiekvieną iš šių parametrų, nustatytų pagal numatytuosius nustatymus, kai jūsų egzemplioriuje automatiškai įgalinta *Bangos lygiagretinimas bangos paskirstymo metodui* funkcija. Norėdami tai atlikti, atlikite toliau pateiktus veiksmus.
 
-- Eikite į **Sandėlio valdymas \> Sąranka \> Sandėlio valdymo parametrai**. Skirtuke **Bangos apdorojimas** taikykite pageidaujamas funkcijų **Bangų apdorojimas paketais** ir **Laukite užrakto (ms)** reikšmes.
+- Eikite į **Sandėlio valdymas \> Sąranka \> Sandėlio valdymo parametrai**. Skirtuke **Bangos apdorojimas** taikykite pageidaujamas funkcijų **Bangų apdorojimas paketais** ir **Laukite užrakto (ms)** reikšmes.
 - Eikite į **Sandėlio tvarkymas \> Sąranka \> Bangos \> Bangos apdorojimo metodai**. Pasirinkite „`allocateWave`” metodą. Veiksmų srityje pasirinkite **Užduoties konfigūracija** tam, kad atidarytumėte puslapį, kuriame išvardyti visi sandėliai, kuriuose nustatytas lygiagretus metodas. Jeigu reikia, modifikuokite arba panaikinkite kiekvieno sandėlio paketinių užduočių skaičių ir priskirtą bangos grupę.
 
 ## <a name="troubleshooting"></a>Trikčių diagnostika

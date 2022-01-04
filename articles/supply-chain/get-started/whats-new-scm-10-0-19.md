@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-04-23
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 2c14101099473025f88632245553da0bf50d4622
-ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.openlocfilehash: 03ed2d52f44bd38910b01ffbd3767f750da2cbf8
+ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "7647220"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920578"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-version-10019-june-2021"></a>Kas nauja ar pasikeitė 10.0.19 „Dynamics 365 Supply Chain Management” versijoje (2021 m. birželis)
 
@@ -50,7 +50,7 @@ Toliau pateiktoje lentelėje pateikti funkcijos patobulinimai, įtraukti į šį
 
 | Modulis | Funkcijos&nbsp;pavadinimas&nbsp;funkcijos&nbsp;valdyme | Daugiau informacijos |
 |---|---|---|
-| Pardavimas ir rinkodara | Pardavimų retrospektyvos valymo efektyvumo patobulinimai | Pardavimų retrospektyvos valymas gali ilgai užtrukti, jei jis nedažnai vykdomas aplinkose, kuriose yra didelis pardavimų naujinimų kiekis. Siekiant sumažinti trukmę ir pagerinti patikimumą, ši funkcija išskaido valymą į paketus, kurie paleidžiami ribotam laikui. Ten, kur įmanoma, duomenų bazės galimybės bus sverto, kad valymo metu būtų sumažintas užrakinimas ir būtų išvengta operacinių lentelių prijungimo. Norėdami gauti daugiau informacijos, [žr. Pardavimo retrospektyvos valymo veikimo patobulinimai](../sales-marketing/sales-update-history-cleanup-performance-improvements.md). |
+| Pardavimas ir rinkodara | Pardavimų retrospektyvos valymo efektyvumo patobulinimai | Pardavimų retrospektyvos valymas gali ilgai užtrukti, jei jis nedažnai vykdomas aplinkose, kuriose yra didelis pardavimų naujinimų kiekis. Siekiant sumažinti trukmę ir pagerinti patikimumą, ši funkcija išskaido valymą į paketus, kurie paleidžiami ribotam laikui. Ten, kur įmanoma, duomenų bazės galimybės bus sverto, kad valymo metu būtų sumažintas užrakinimas ir būtų išvengta operacinių lentelių prijungimo. Norėdami gauti daugiau informacijos, [žr. pagerinus pardavimo retrospektyvos valymo efektyvumą](../sales-marketing/sales-update-history-cleanup-performance-improvements.md). |
 | Pardavimas ir rinkodara | Atnaujinti pageidaujamą gavimo datą su patvirtinimo data vidinės įmonės užsakymams | Ši funkcija leidžia jums kontroliuoti, kas atsitiks pardavimo ir pirkimo datų laukų reikšmėms, kai naudojamas vidinės įmonės tiesioginis pristatymas. Galite pasirinkti tai, ar sistema atnaujins pageidaujamas datas, ar praleis jų atnaujinimą. Jei praleisite atnaujinimą, pageidaujamos datos atspindės kliento pageidavimus. Jei įgalinate atnaujinimą, pageidaujamos datos (naudojant pristatymo datos valdiklį) tik iš pradžių nurodo tai, ko prašė klientas. Pristatymo datos valdiklis, skirtingas nei *Nėra*, nepaisys to, ko iš pradžių buvo pareikalauta. Šią parinktį galite nustatyti naudodami naują nustatymą **Atnaujinti pageidaujamą gavimo datą Patvirtinta data**, esantį vidinės įmonės tiekėjo arba kliento nustatymuose.<br><br>Jei funkcija išjungta, sistema perrašys pageidaujamą gavimo datą pradiniame pardavimo užsakyme remdamasi pristatymo datos valdymo taisykle, tačiau pageidaujama siuntimo data liks nepakeista. |
 | Sandėlio valdymas | Suapvalinti kiekius iki artimiausio pardavimo vieneto išleidžiant į sandėlį | Ši funkcija įtraukia parinktį, kuri gali riboti užsakymų kiekius išleidimo į sandėlį metu. Kai ji įgalinta, užsakymo kiekiai bus suapvalinti iki artimiausio pilno pardavimo vieneto, o užsakymų, kurių kiekiai yra mažesni nei vieno pardavimo vienetas, išleidimas bus atmestas. |
 | Sandėlio valdymas | Visos organizacijos bangos metodas „Planuoti darbo kūrimą“ | Įgalinus šią funkciją, bangos metodas *Darbo kūrimo grafikas* bus sukonfigūruojamas veikti lygiagrečiai visuose juridiniuose subjektuose. Taip pat bus paveikti keli papildomi parametrai. Išsamią informaciją rasite [Darbo kūrimo planavimas bangos metu](../warehousing/configure-wave-schedule-work-creation.md). |

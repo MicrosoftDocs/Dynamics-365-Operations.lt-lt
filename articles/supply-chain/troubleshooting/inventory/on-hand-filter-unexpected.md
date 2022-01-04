@@ -1,6 +1,6 @@
 ---
 title: Turimų atsargų sąrašo puslapio filtravimo darbas nefiltruoja rezultatų, kurių tikėtasi
-description: Filtro srities filtrai Turimas sąrašas puslapyje nefiltruoja rezultatų, kurių tikitės.
+description: Filtrai, filtruoti pagal puslapio "Turimas sąrašas" filtro sritį, nefiltruoti rezultatų, kaip tikitės.
 author: sherry-zheng
 ms.date: 05/31/2021
 ms.topic: troubleshooting
@@ -11,23 +11,23 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-05-31
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: df11b1c1e7de36fa0458cd931d4be7f84a15d143
-ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
-ms.translationtype: HT
+ms.openlocfilehash: 2b2b233e22378c8710a63dce83d168bfd89eba7f
+ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/07/2021
-ms.locfileid: "7477121"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920503"
 ---
 # <a name="the-filter-pane-on-the-on-hand-list-page-doesnt-work-as-expected"></a>Turimų atsargų sąrašo puslapio filtravimo darbas nefiltruoja rezultatų, kurių tikėtasi
 
 ## <a name="symptoms"></a>Požymiai
 
-Filtro srities filtrai **Turimas sąrašas**  puslapyje nefiltruoja rezultatų, kurių tikitės.
+Turimos atsargų sąrašo puslapio filtrų srities filtrai filtruoja rezultatus, **kaip** tikitės.
 
 ## <a name="resolution"></a>Sprendimas
 
-Puslapis  **Turimas sąrašas** sudėliotas iš detalizuotos turimų atsargų lentelės, kurioje pateiktos visos galimos dimensijos. Nepaisant to, sąrašas šiame puslapyje santrauka. Dėl to, tai gali apimti eilutes iš šaltinio lentelės apimant vertes pagal rodomas dimensijas.
+**Turimo sąrašo** puslapis yra sureguliuotas iš išsamaus turimo inventoriaus lentelės, kuri apima visas dimensijas. Nepaisant to, sąrašas šiame puslapyje santrauka. Dėl to, tai gali apimti eilutes iš šaltinio lentelės apimant vertes pagal rodomas dimensijas.
 
-Filtrai, nustatyti filtrų srityje, taikomi šaltinio lentelei, tačiau ne apibendrintam sąrašui. Šis veikimas kartais gali lemti netikėtus rezultatus kaip nurodyta [šiuose pavyzdžiuose](/dynamics365/supply-chain/inventory/inventory-on-hand-list.md#examples).
+Filtrai, nustatyti filtro srityje, taikomi šaltinio lentelei, bet ne suvestinei sąrašui. Šis veikimas kartais gali lemti netikėtus rezultatus kaip nurodyta [šiuose pavyzdžiuose](/dynamics365/supply-chain/inventory/inventory-on-hand-list.md#examples).
 
-Tačiau  [tinklelyje pateikti filtrai](/dynamics365/supply-chain/inventory/inventory-on-hand-list.md#grid-filters) *atlikti*  taikomas apibendrintam sąrašui. Šie filtrai apima tiek „QuickFilter“ tinklelio viršuje, tiek filtrą kiekvieno stulpelio antraštėje.
+Nepaisant to, [tinklelyje pateikti filtrai](/dynamics365/supply-chain/inventory/inventory-on-hand-list.md#grid-filters) *yra* taikomi apibendrintam sąrašui. Šie filtrai apima tiek „QuickFilter“ tinklelio viršuje, tiek filtrą kiekvieno stulpelio antraštėje.

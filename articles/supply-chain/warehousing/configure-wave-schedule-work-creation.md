@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-14
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 5e9dc9b7cf33f9393f408d8f8a458e9b0ea47639
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: 5b1e798ac0558e7c5b0bbe4b6a732cbdcf5729a1
+ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7778382"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920118"
 ---
 # <a name="schedule-work-creation-during-wave"></a>Darbo grafiko kūrimas bangos metu
 
@@ -54,7 +54,7 @@ Taip pat, esamos užduočių ir bangų apdorojimo konfigūracijos bus išlaikyto
 Jei reikia, galite toliau pateiktu rankiniu būdu grąžinti bet kuriuos arba visus parametrus, sukurtus automatiniu būdu, kai įgalinote *Visos organizacijos suplanuoto darbo kūrimo bangos metodo* funkciją:
 
 - Bangos šablonus rasite **Sandėlio valdymas \> Nustatymas \> Bangos \> Bangų šablonai**. Pakeisti *Suplanuoto darbo kūrimo* metodą į *Darbo kūrimo*.
-- Sandėlio parametrus rasite **Sandėlio valdymas \> Sąranka \> Sandėlio valdymo parametrai**. Skirtuke **Bangos apdorojimas** taikykite pageidaujamas funkcijų **Bangų apdorojimas paketais** ir **Laukite užrakto (ms)** reikšmes.
+- Sandėlio parametrų eikite į **Sandėlio valdymo \> nustatymo \> sandėlio valdymo parametrus**. Skirtuke **Bangos apdorojimas** taikykite pageidaujamas funkcijų **Bangų apdorojimas paketais** ir **Laukite užrakto (ms)** reikšmes.
 - Bangos metodus rasite **Sandėlio tvarkymas \> Sąranka \> Bangos \> Bangos apdorojimo metodai**. Pasirinkite „`WHSScheduleWorkCreationWaveStepMethod`” ir veiksmų srityje pažymėkite **Užduoties konfigūracija**. Jeigu reikia, modifikuokite arba panaikinkite kiekvieno sandėlio paketinių užduočių skaičių ir priskirtą bangos grupę.
 
 ## <a name="manually-configure-scheduled-work-creation"></a>Suplanuoto darbo kūrimo konfigūravimas rankiniu būdu
@@ -65,7 +65,7 @@ Jeigu neįgalinote [*Visos organizacijos „Suplanuoto darbo kūrimo” bangos m
 
 Norint pasinaudoti lygiagrečiu asinchroniniu metodu kurti sandėlio darbui, jūsų bangos procesas turi būti vykdomas pakete. Norėdami tai nustatyti:
 
-1. Eikite į  **Sandėlio valdymas \> Sąranka \> Sandėlio valdymo parametrai**.
+1. Eikite į **Sandėlio valdymas \> Sąranka \> Sandėlio valdymo parametrai**.
 1. Skirtuke **Bendra** nustatykite **Apdoroti bangas pakete** į *Taip*. Pasirinktinai galite pasirinkti paskirtą **Bangos apdorojimo paketų grupę** sustabdyti paketų eilės apdorojimo vykdymą tuo pačiu, kaip ir kitų procesų vykdymo, laiku.
 1. Nustatykite **Laukti užrakto (ms)**, kuris taikomas, kai sistema vienu metu apdoroja kelias bangas. Daugumai didesnių bangos procesų rekomenduojame vertę *60 000*.
 
@@ -73,8 +73,8 @@ Norint pasinaudoti lygiagrečiu asinchroniniu metodu kurti sandėlio darbui, jū
 
 Pradėkite sukurdami naują bangos veiksmo metodą ir įgalindami jį lygiagrečiam asinchroniniam užduoties apdorojimui.
 
-1. Eikite į **Sandėlio valdymas \> Sąranka \> Bangos \> Bangos apdorojimo metodai**.
-1. Pasirinkite  **Pakartotinio generavimo** metodą ir atkreipkite dėmesį, kad *„WHSScheduleWorkCreationWaveStepMethod”* buvo įtrauktas į bangos apdorojimo metodų, kuriuos galite naudoti jūsų siuntimo bangos šablonuose, sąrašą.
+1. Eikite į **Sandėlio tvarkymas \> Sąranka \> Bangos \> Bangos apdorojimo metodai**.
+1. Pasirinkite iš naujo nustatymo metodą ir atkreipkite dėmesį, kad **·** *WHSScheduleWorkCreationWaveStepMethod buvo įtrauktas į bangos proceso metodų, kuriuos galite naudoti siuntimo bangos* šablonuose, sąrašą.
 1. Pasirinkite įrašą su **Metodo pavadinimu** *„WHSScheduleWorkCreationWaveStepMethod”* ir pasirinkite **Užduoties konfigūraciją**.
 1. Norėdami įtraukti naują eilutę į tinklelį, veiksmų srityje pasirinkite **Naujas** ir naudokite šiuos parametrus:
 
@@ -84,7 +84,7 @@ Pradėkite sukurdami naują bangos veiksmo metodą ir įgalindami jį lygiagreč
 
 Dabar esate pasiruošę atnaujinti esamą bangos šabloną (arba sukurti naują) ir naudoti *Darbo grafiko kūrimo* bangos apdorojimo metodą.
 
-1. Eikite į  **Sandėlio valdymas \> Nustatymas \> Bangos \> Bangų šablonai**.
+1. Eikite į **Sandėlio valdymas \> Nustatymas \> Bangos \> Bangų šablonai**.
 1. Pasirinkite **Redaguoti** veiksmų srityje.
 1. Sąrašo srityje pasirinkite bangos šabloną, kurį norite atnaujinti (jei testuojate naudodami demonstracinius duomenis, tada galite naudoti *24 siuntimo numatytuosius parametrus*).
 1. Išplėskite „FastTab” **Metodai** ir pasirinkite eilutę, su **Pavadinimu** *Darbo grafiko kūrimas* tinklelyje **Likę metodai**.
