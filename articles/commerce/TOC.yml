@@ -98,8 +98,6 @@
                       href: get-started/whats-new-commerce-10-0-23.md
                     - name: „Commerce 10.0.22“ (2021 m. lapkričio mėn.)
                       href: get-started/whats-new-commerce-10-0-22.md
-                    - name: „Commerce 10.0.21“ (2021 m. spalio mėn.)
-                      href: get-started/whats-new-commerce-10-0-21.md
                 - name: Pašalintos arba nerekomenduojamos funkcijos
                   items:
                     - name: Pašalintos arba nerekomenduojamos funkcijos pagrindinis puslapis
@@ -842,7 +840,7 @@
           items:
             - name: Išrašų apžvalga
               href: retail-statements.md
-            - name: Operacijų vientisumo tikrintuvas
+            - name: Parduotuvės operacijų tikrinimas išrašų duomenims apskaičiuoti
               href: valid-checker.md
             - name: Mažmeninės prekybos operacijų vientisumo tikrintuvo taisyklių išjungimas
               href: disable-consistency-check-rule.md
@@ -1286,6 +1284,8 @@
               href: localizations/fiscal-integration-for-retail-channel.md
             - name: „Commerce“ kanalo fiskalinės integracijos nustatymas
               href: localizations/setting-up-fiscal-integration-for-retail-channel.md
+            - name: Fiskalinės integracijos pavyzdžio kūrimo srauto nustatymas
+              href: localizations/fiscal-integration-sample-build-pipeline.md
             - name: Vartotojo apibrėžti mažmeninės prekybos parduotuvių sertifikatų profiliai
               href: localizations/certificate-profiles-for-retail-stores.md
             - name: „Regulatory Configuration Service“ (RCS)
@@ -1322,6 +1322,8 @@
               items:
                 - name: 'Fiskalinės registracijos paslaugos integravimo pavyzdys, skirtas Austrijai'
                   href: localizations/emea-aut-fi-sample.md
+                - name: 'Fiskalinės integracijos pavyzdžio, skirto Austrijai, visuotinio diegimo gairės (senstelėjusios)'
+                  href: localizations/emea-aut-fi-sample-sdk.md
             - name: Brazilija
               items:
                 - name: „Commerce“ lokalizavimas Brazilijai
@@ -1358,12 +1360,16 @@
                   items:
                     - name: 'Fiskalinės registracijos paslaugos integravimo pavyzdys, skirtas Čekijos Respublikai'
                       href: localizations/emea-cze-fi-sample.md
+                    - name: 'Fiskalinės integracijos pavyzdžio, skirto Čekijos Respublikai, visuotinio diegimo gairės (senstelėjusios)'
+                      href: localizations/emea-cze-fi-sample-sdk.md
                 - name: Lenkija
                   items:
                     - name: Fiskalinio spausdintuvo integracijos pavyzdys (Lenkija)
                       href: localizations/emea-pol-fpi-sample.md
                     - name: Klientų informacijos valdymas (Lenkija)
                       href: localizations/emea-pol-customer-information.md
+                    - name: 'Fiskalinės integracijos pavyzdžio, skirto Lenkijai, visuotinio diegimo gairės (senstelėjusios)'
+                      href: localizations/emea-pol-fpi-sample-sdk.md
             - name: Prancūzija
               items:
                 - name: Kasos aparato funkcijos
@@ -1380,6 +1386,8 @@
               items:
                 - name: 'Fiskalinės registracijos paslaugos integravimo pavyzdys, skirtas Vokietijai'
                   href: localizations/emea-deu-fi-sample.md
+                - name: 'Fiskalinės integracijos pavyzdžio, skirto Vokietijai, visuotinio diegimo gairės (senstelėjusios)'
+                  href: localizations/emea-deu-fi-sample-sdk.md
             - name: Indija
               items:
                 - name: Kasos aparatų prekių ir paslaugų mokesčio (PPM) integravimas
@@ -1398,6 +1406,8 @@
                   href: localizations/emea-ita-fpi-sample.md
                 - name: Klientų informacijos valdymas (Italija)
                   href: localizations/emea-ita-customer-information.md
+                - name: 'Fiskalinės integracijos pavyzdžio, skirto Italijai, visuotinio diegimo gairės (senstelėjusios)'
+                  href: localizations/emea-ita-fpi-sample-sdk.md
             - name: Meksika
               items:
                 - name: Visuotinės CFDI el. sąskaitos faktūros (Meksika)
@@ -1407,6 +1417,8 @@
                 - name: Kasos aparato funkcijos
                   href: localizations/emea-nor-cash-registers.md
                 - name: Kasos aparatų diegimo gairės
+                  href: localizations/emea-nor-fi-deployment.md
+                - name: Kasos aparatų diegimo gairės (senstelėjusios)
                   href: localizations/emea-nor-loc-deployment-guidelines.md
             - name: Rusija
               items:
@@ -1432,6 +1444,8 @@
                   href: localizations/emea-swe-cash-registers.md
                 - name: Švedijos kontrolės įtaiso integracijos pavyzdys
                   href: localizations/emea-swe-fi-sample.md
+                - name: 'Kontrolės įtaiso integracijos pavyzdžio, skirto Švedijai, visuotinio diegimo gairės (senstelėjusios)'
+                  href: localizations/emea-swe-fi-sample-sdk.md
                 - name: „Retail POS“ integravimo su kontrolės įtaisais pavyzdys (senesnis)
                   href: localizations/retail-sdk-control-unit-sample.md
         - name: Ataskaitų ir „Power BI“ integravimai
@@ -2466,6 +2480,8 @@
                       href: e-commerce-extensibility/set-up-key-vault.md
                     - name: Užklausos srauto priedo trikčių gaudyklės kūrimas
                       href: e-commerce-extensibility/request-pipeline-hook.md
+                    - name: Vaizdo komponentas
+                      href: e-commerce-extensibility/image-component.md
                 - name: Veiksmų su duomenimis kūrimas
                   items:
                     - name: Veiksmų su duomenimis apžvalga
@@ -2574,6 +2590,8 @@
                   href: dev-itpro/retail-sdk/SDK-build-pipeline.md
                 - name: Pavyzdžių ir paketų atsisiuntimas iš „GitHub“ ir „NuGet“
                   href: dev-itpro/retail-sdk/sdk-github.md
+                - name: „Visual Studio 2017“ kūrimo agento nustatymas „Modern POS“ sukurti
+                  href: dev-itpro/retail-sdk/mpos-build-agent.md
                 - name: „Retail SDK“ DUK
                   href: dev-itpro/retail-sdk/sdk-faq.md
             - name: Elektroninio kasos aparato (EKA) išplečiamumas

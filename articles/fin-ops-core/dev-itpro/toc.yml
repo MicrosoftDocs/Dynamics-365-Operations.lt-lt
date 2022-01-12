@@ -1012,6 +1012,8 @@
                   href: lifecycle-services/use-translation-service-ua.md
                 - name: Vertimo atminties failai
                   href: lifecycle-services/use-translation-service-tm.md
+                - name: „Azure DevOps“ plėtinys (viešoji peržiūros versija)
+                  href: lifecycle-services/dts-devops-extension.md
         - name: „Microsoft Power Platform“ integravimas
           items:
             - name: Apžvalga
@@ -1596,12 +1598,14 @@
                   href: sysadmin/batch-processing-overview.md
                 - name: Paketinis apdorojimas ir paketinio apdorojimo serveriai
                   href: sysadmin/batch-server-overview.md
-                - name: Kurti paketines užduotis
+                - name: Paketinės užduoties kūrimas
                   href: sysadmin/tasks/create-batch-job.md
-                - name: Įjungti paketinio apdorojimo bandymus
+                - name: Paketinio apdorojimo bandymų įjungimas
                   href: sysadmin/retryable-batch.md
                 - name: Paketinės užduoties kopijavimas
                   href: sysadmin/copy-batch-job.md
+                - name: Prioritetu grindžiamas paketų planavimas
+                  href: sysadmin/priority-based-batch-scheduling.md
                 - name: Aktyvieji paketo laikotarpiai
                   href: sysadmin/activeperiod.md
                 - name: Vasaros laiko palaikymas aktyviaisiais paketo laikotarpiais

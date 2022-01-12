@@ -1,9 +1,37 @@
-- name: „Dynamics 365 Supply Chain Management”
+- name: Dynamics 365 Supply Chain Management
   items:
-    - name: „Dynamics 365 Supply Chain Management”
+    - name: Dynamics 365 Supply Chain Management
       items:
         - name: „Dynamics 365 Supply Chain Management“ pagrindinis puslapis
           href: index.md
+        - name: Kas nauja ar pasikeitė
+          items:
+            - name: Kas nauja ar pasikeitė „Finance and Operations“ programose
+              href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/supply-chain/toc.json
+            - name: Kas nauja ar pasikeitė „Supply Chain Management“
+              items:
+                - name: Kas nauja ar pasikeitė „Supply Chain Management“ pagrindinis puslapis
+                  href: get-started/whats-new-home-page.md
+                - name: „Supply Chain Management 10.0.24“ (2022 m. vasario mėn.)
+                  href: get-started/whats-new-scm-10-0-24.md
+                - name: „Supply Chain Management 10.0.23“ (2022 m. sausio mėn.)
+                  href: get-started/whats-new-scm-10-0-23.md
+                - name: „Supply Chain Management 10.0.22“ (2021 m. lapkričio mėn.)
+                  href: get-started/whats-new-scm-10-0-22.md
+                - name: „Supply Chain Management 10.0.21“ (2021 m. spalio mėn.)
+                  href: get-started/whats-new-scm-10-0-21.md
+            - name: Pašalintos arba nerekomenduojamos funkcijos
+              items:
+                - name: Pašalintos arba nerekomenduojamos funkcijos pagrindinis puslapis
+                  href: ../fin-ops-core/fin-ops/get-started/removed-deprecated-features-home-page.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Pašalintos arba nebenaudojamos „Dynamics 365 Supply Chain Management“ funkcijos
+                  href: get-started/removed-deprecated-features-scm-updates.md
+                - name: Pašalintos arba nebenaudojamos funkcijos ankstesniuose leidimuose
+                  href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/supply-chain/toc.json
+            - name: Atidėtos AX 2012 funkcijos
+              href: ../fin-ops-core/fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/supply-chain/toc.json
+            - name: 2009 m. ir 2012 m. „Microsoft Dynamics AX” standartinio palaikymo pabaiga
+              href: ../fin-ops-core/fin-ops/get-started/mainstream-support-ax-2009-2012.md?toc=/dynamics365/supply-chain/toc.json
         - name: Pradėti
           items:
             - name: Paslaugos aprašymas
@@ -62,34 +90,6 @@
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Vietiniams visuotiniams diegimams skirto sandėliavimo konfigūravimas
                   href: ../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md?toc=/dynamics365/supply-chain/toc.json
-            - name: Kas nauja ar pasikeitė
-              items:
-                - name: Kas nauja ar pasikeitė „Finance and Operations“ programose
-                  href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Kas nauja ar pasikeitė „Supply Chain Management“
-                  items:
-                    - name: Kas nauja ar pasikeitė „Supply Chain Management“ pagrindinis puslapis
-                      href: get-started/whats-new-home-page.md
-                    - name: „Supply Chain Management 10.0.24“ (2022 m. vasario mėn.)
-                      href: get-started/whats-new-scm-10-0-24.md
-                    - name: „Supply Chain Management 10.0.23“ (2022 m. sausio mėn.)
-                      href: get-started/whats-new-scm-10-0-23.md
-                    - name: „Supply Chain Management 10.0.22“ (2021 m. lapkričio mėn.)
-                      href: get-started/whats-new-scm-10-0-22.md
-                    - name: „Supply Chain Management 10.0.21“ (2021 m. spalio mėn.)
-                      href: get-started/whats-new-scm-10-0-21.md
-                - name: Pašalintos arba nerekomenduojamos funkcijos
-                  items:
-                    - name: Pašalintos arba nerekomenduojamos funkcijos pagrindinis puslapis
-                      href: ../fin-ops-core/fin-ops/get-started/removed-deprecated-features-home-page.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Pašalintos arba nebenaudojamos „Dynamics 365 Supply Chain Management“ funkcijos
-                      href: get-started/removed-deprecated-features-scm-updates.md
-                    - name: Pašalintos arba nebenaudojamos funkcijos ankstesniuose leidimuose
-                      href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Atidėtos AX 2012 funkcijos
-                  href: ../fin-ops-core/fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/supply-chain/toc.json
-                - name: 2009 m. ir 2012 m. „Microsoft Dynamics AX” standartinio palaikymo pabaiga
-                  href: ../fin-ops-core/fin-ops/get-started/mainstream-support-ax-2009-2012.md?toc=/dynamics365/supply-chain/toc.json
             - name: Dokumentacijos ištekliai
               items:
                 - name: Žinyno sistema
@@ -1617,6 +1617,8 @@
                   href: inventory/inventory-visibility-reservations.md
                 - name: Atsargų matomumo viešos API
                   href: inventory/inventory-visibility-api.md
+                - name: Patarimai dėl atsargų matomumo
+                  href: inventory/inventory-visibility-tips.md
         - name: IoT įžvalgos
           items:
             - name: Pagrindinis IoT įžvalgų puslapis
@@ -3573,6 +3575,8 @@
                   href: troubleshooting/inventory/while-splitting-the.md
             - name: Bendrasis planavimas
               items:
+                - name: 'Sistema negali rasti suplanuoto užsakymo, kai ji veikia su keliais užsakymais'
+                  href: troubleshooting/planning/planned-order-not-exist.md
                 - name: KS išskleidimas veikia skirtingai patvirtintiems ir numatytiems gamybos užsakymams
                   href: troubleshooting/planning/bom-explosion-works-differently.md
                 - name: 'Vėlinimo vertė nėra naujinama, kai iš naujo suplanuojate suplanuotą užsakymą'
