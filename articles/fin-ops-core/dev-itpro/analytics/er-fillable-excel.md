@@ -2,7 +2,7 @@
 title: Konfigūracijų kūrimas dokumentams „Excel“ formatu generuoti
 description: Šioje temoje apibūdinama, kaip kurti Elektroninės ataskaitos (ER) formatą, kad būtų galima pildyti „Excel“ šabloną, o tada generuoti siunčiamus „Excel“ formato dokumentus.
 author: NickSelin
-ms.date: 12/15/2021
+ms.date: 01/05/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 87d5929557e5120a5339ee46eac655fd399679d1
-ms.sourcegitcommit: f51e74ee9162fe2b63c6ce236e514840795acfe1
+ms.openlocfilehash: 9b1c83894d93789a270ed4521ba7f80da70285ac
+ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7943617"
+ms.lasthandoff: 01/10/2022
+ms.locfileid: "7952657"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>Konfigūracijos, skirtos dokumentams „Excel“ formatu generuoti, kūrimas
 
 [!include[banner](../includes/banner.md)]
 
-Galite sukurti [elektroninės ataskaitos (ER)](general-electronic-reporting.md) formato konfigūraciją, kuri turi ER formato komponentą, kurį galite konfigūruoti, kad sugeneruotų siunčiamą dokumentą Microsoft Excel darbaknygės formatu. Šiam tikslui reikia naudoti konkrečius ER formato komponentus.
+Galite sukurti elektroninės ataskaitos (ER) formato konfigūraciją, kuri turi ER formato komponentą, kurį galite konfigūruoti, kad sugeneruotų siunčiamą [dokumentą](general-electronic-reporting.md)Microsoft Excel darbaknygės formatu. Šiam tikslui reikia naudoti konkrečius ER formato komponentus.
 
 Norėdami daugiau sužinoti apie šią funkciją, atlikite veiksmus, aprašytus temoje [Konfigūracijos, skirtos ataskaitoms OPENXML formatu generuoti, kūrimas](tasks/er-design-reports-openxml-2016-11.md).
 
@@ -122,7 +122,7 @@ ER operacijų kūrimo įrankio skirtuke **Susiejimas** galite konfigūruoti komp
 Galite konfigūruoti savo Excel šabloną, kad jis galėtų naudoti langelius tekstiniams duomenims pateikti. Norėdami užtikrinti, kad sugeneruotame dokumente būtų matomas visas langelio tekstas, galite sukonfigūruoti, kad langelis automatiškai nulaužti tekstą jame. Taip pat galite konfigūruoti eilutę, kurioje yra šis langelis, kad automatiškai būtų koreguojamas jo aukštis, jei viršelio tekstas nematomas. Norėdami gauti daugiau informacijos, žr. skyrių "Sulaužyti tekstą langelyje", kuris yra [išjungtas langeliuose](https://support.microsoft.com/office/fix-data-that-is-cut-off-in-cells-e996e213-6514-49d8-b82a-2721cef6144e).
 
 > [!NOTE]
-> Dėl žinomo [Excel apribojimo](https://support.microsoft.com/topic/you-cannot-use-the-autofit-feature-for-rows-or-columns-that-contain-merged-cells-in-excel-34b54dd7-9bfc-6c8f-5ee3-2715d7db4353), net jei konfigūruojate langelius, kad įsilaužtų tekstas, ir konfigūruojate eilutes, kuriose yra tų langelių, kad automatiškai pakoreguotų jų aukštį, kad tilptų tekstas, gali būti taip, kad sulietiems langeliams ir eilutėms, kuriose yra tų langelių, gali būti taip, kad negalėsite naudoti Excel funkcijos **AutoFit** ir **Wrap text**. 
+> Dėl žinomo Excel apribojimo, net jei konfigūruojate langelius, kad įsilaužtų tekstas, ir konfigūruojate eilutes, kuriose yra tų langelių, kad automatiškai pakoreguotų jų aukštį, kad tilptų tekstas, gali būti taip, kad sulietiems langeliams ir eilutėms, kuriose yra tų langelių, gali būti taip, kad negalėsite naudoti funkcijos AutoFit ir Tikrinimo [teksto](https://support.microsoft.com/topic/you-cannot-use-the-autofit-feature-for-rows-or-columns-that-contain-merged-cells-in-excel-34b54dd7-9bfc-6c8f-5ee3-2715d7db4353)**·** **Excel**. 
 
 Kaip ir 10.0.23 versiją galite priversti ER sugeneruotame dokumente apskaičiuoti kiekvienos eilutės aukštį, kuris buvo sukonfigūruotas taip, kad automatiškai atitiktų įdėtųjų langelių turinį, kai tą eilutę sudaro bent vienas sulietas langelis, kuris buvo sukonfigūruotas taip, kad jame būtų rodomas Dynamics 365 Finance tekstas. Apskaičiuotas aukštis naudojamas eilutei pakeisti, kad sugeneruotame dokumente būtų matomi visi eilutės langeliai. Jei norite pradėti naudoti šią funkciją, paleisdami bet kuriuos ER formatus, sukonfigūruotus naudoti Excel šablonus siunčiamams dokumentams generuoti, atlikite šiuos veiksmus.
 
@@ -379,7 +379,7 @@ Jei viename iš jūsų šablonų yra PivotTable, pagrįstą modeliu, kuris remia
     2. Naudokite ER, norėdami sugeneruoti antrą Excel darbaknygę (B darbaknygę) iš finansų, kuri turi reikiamą informaciją. 
     3. Iš karto sugeneravote B darbaknygę, žr. darbaknygę B.
 
-- Norėdami išjungti funkciją, naudokite kitą pasirinktį, nei EP Yra. 
+- Išjunkite funkciją, įgalinti EP Tarpinės bibliotekos naudojimą elektroninėje ataskaitų sistemoje, kad būtų galima **naudoti** kitą pasirinktį, nei EP². 
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 

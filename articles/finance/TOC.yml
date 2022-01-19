@@ -1212,6 +1212,8 @@
                   href: finance-insights/enable-cust-paymnt-prediction.md
                 - name: Grynųjų pinigų srautų prognozavimo įjungimas
                   href: finance-insights/enable-cash-flow-forecasting.md
+                - name: Išorinių duomenų grynųjų pinigų srautų prognozėse
+                  href: finance-insights/external-data-in-cash-flow.md
                 - name: Biudžeto pasiūlymų įjungimas
                   href: finance-insights/enable-budget-proposal.md
                 - name: Duomenų integravimo priemonės projekto kūrimas
@@ -1232,10 +1234,8 @@
                   href: finance-insights/budget-proposals.md
                 - name: Grynųjų pinigų pozicija
                   href: finance-insights/cash-position.md
-                - name: Pinigų srautų prognozė
+                - name: Grynųjų pinigų prognozė
                   href: finance-insights/cash-flow-forecast-intro.md
-                - name: Išorinių duomenų naudojimas prognozuojant grynųjų pinigų srautus
-                  href: finance-insights/external-data-in-cash-flow.md
                 - name: Kliento mokėjimo prognozės
                   href: finance-insights/payment-insights-overview.md
                 - name: Kliento mokėjimo prognozių naudojimas
@@ -1432,6 +1432,8 @@
                           href: localizations/e-invoicing-mex-get-started.md?toc=/dynamics365/finance/toc.json
                         - name: Darbo su elektroninių SF išrašymu Saudo Arabijai pradžia
                           href: localizations/e-invoicing-sa-get-started.md
+                        - name: Tiesioginio Italijos „FatturaPA“ integravimo su SDI nustatymas
+                          href: localizations/e-invoicing-ita-fatturapa-get-started.md
                         - name: Elektroninių SF išrašymo paslaugos naudojimas tiekėjo sąskaitoms faktūroms importuoti
                           href: localizations/e-invoicing-get-started-import-vendor-invoices.md
                         - name: Elektroninių SF išrašymo nustatymas
@@ -1512,6 +1514,10 @@
                           items:
                             - name: PVM deklaracija
                               href: localizations/emea-gbr-vat-declaration.md
+                        - name: Norvegijos ataskaitos
+                          items:
+                            - name: PVM deklaracija
+                              href: localizations/emea-nor-vat-declaration.md
                     - name: Mokesčio skaičiavimo perkėlimo užsakymui įjungimas
                       items:
                         - name: Mokesčių funkcijų palaikymas perkėlimo užsakymams
@@ -1557,7 +1563,7 @@
                 - name: PVM išrašas
                   href: localizations/emea-aut-vat-statement-details.md
                 - name: Užsienio paslaugų ataskaita
-                  href: localizations/emea-aut-vat-statement-details.md
+                  href: localizations/emea-aut-cross-border-services-report.md
                 - name: Austrijos „Intrastat“
                   href: localizations/emea-aut-intrastat.md
                 - name: Pirkimo muito mokesčiai
@@ -1824,7 +1830,7 @@
                   href: localizations/tasks/golden-tax-integration-export-setup.md
                 - name: Ilgalaikio turto nusidėvėjimo metodai
                   href: localizations/apac-chn-depreciation-methods-fixed-assets.md
-                - name: Kinijos „Golden Tax‟ duomenų objekto importavimas
+                - name: Kinijos integruoto pridėtinės vertės mokesčio failų importavimas
                   href: localizations/apac-chn-import-golden-tax-data-entity.md
                 - name: Vidutinių mėnesio išlaidų modelis
                   href: localizations/apac-chn-monthly-average-cost-model.md
@@ -2088,6 +2094,8 @@
                   href: localizations/finland.md
                 - name: PVM mokėjimo ataskaita (Suomija)
                   href: localizations/emea-fin-sales-tax-payment-report-finland.md
+                - name: Suomijos „Intrastat“
+                  href: localizations/emea-fin-intrastat.md
             - name: Prancūzija
               items:
                 - name: Prancūzijos apžvalga
@@ -2610,6 +2618,8 @@
                   href: localizations/apac-idn-invoicing.md
                 - name: Indonezijos PVM deklaracija
                   href: localizations/apac-idn-ppn-declaration.md
+                - name: Indonezijos išskaitomo mokesčio ataskaita
+                  href: localizations/apac-idn-wht-declaration.md
             - name: Italija
               items:
                 - name: Italijos apžvalga

@@ -2478,8 +2478,6 @@
                       href: e-commerce-extensibility/globalize-modules.md
                     - name: „Azure Key Vault“ nustatymas saugos raktui valdyti
                       href: e-commerce-extensibility/set-up-key-vault.md
-                    - name: Užklausos srauto priedo trikčių gaudyklės kūrimas
-                      href: e-commerce-extensibility/request-pipeline-hook.md
                     - name: Vaizdo komponentas
                       href: e-commerce-extensibility/image-component.md
                 - name: Veiksmų su duomenimis kūrimas

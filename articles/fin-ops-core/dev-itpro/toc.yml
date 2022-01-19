@@ -512,6 +512,8 @@
                   href: dev-tools/pipeline-deploy-asset.md
                 - name: „Lifecycle Services“ (LCS) ryšio kūrimas „Azure Pipelines“
                   href: dev-tools/pipeline-lcs-connection.md
+                - name: LCS ryšio autentifikavimo užduočių naujinimas į MSAL „Azure Pipelines“
+                  href: dev-tools/pipeline-lcs-connection-update.md
                 - name: 'Nuomojamos „Azure Pipeline“, skirtos „NuGet“ paketams, atnaujinimas'
                   href: dev-tools/pipeline-nuget-split.md
                 - name: Senstelėjusio srauto „Azure Pipelines“ naujinimas
@@ -1484,6 +1486,8 @@
               href: perf-test/rsat/rsat-best-practices.md
             - name: Agnostinis duomenų testavimas naudojant „Regression Suite Automation Tool“
               href: ../fin-ops/get-started/recommendation-data-agnostic-testing-rsat.md
+            - name: „Regression Suite Automation Tool“ (RSAT) paleidimas esant lygiagrečiam vykdymui
+              href: perf-test/rsat/rsat-parallel-execution.md
             - name: Trikčių šalinimas
               href: perf-test/rsat/rsat-troubleshooting.md
         - name: Sprendimų išleidimas naudojant „Lifecycle Services“

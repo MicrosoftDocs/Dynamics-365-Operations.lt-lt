@@ -2,7 +2,7 @@
 title: „Human Resources“ parengimas
 description: Šioje temoje paaiškinamas procesas, kaip paruošti naują gamybos aplinką programai „Microsoft Dynamics 365 Human Resources“.
 author: twheeloc
-ms.date: 08/11/2021
+ms.date: 01/07/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c84fdb3c5c61598dfd0934e769f4a7262ce74052
-ms.sourcegitcommit: 8439ce2d4ad5ee5c1ec870640b52b5d2e947a671
-ms.translationtype: HT
+ms.openlocfilehash: b5ea27c6650df0b94284902eb37e2169ea36261a
+ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/14/2021
-ms.locfileid: "7644532"
+ms.lasthandoff: 01/10/2022
+ms.locfileid: "7952707"
 ---
 # <a name="provision-human-resources"></a>„Human Resources“ parengimas
 
@@ -44,7 +44,7 @@ Prieš parengdami savo pirmąją smėlio dėžės arba gamybos aplinką, galite 
 
 Bandomosios aplinkos suteikia galimybę įvertinti personalo funkcijas asmenims, kurie dar neturi prieigos prie personalo aplinkos. Jei jūs parengiate bandomąją aplinką, o autentifikuotas vartotojas jau turi prieigą prie vienos ar daugiau esamų personalo aplinkų, vartotojas bus nukreiptas į esamą aplinką arba aplinkų sąrašą.
 
-Bandomosios aplinkos nėra skirtos naudoti kaip gamybos aplinkos. Jos apribojamos 60 dienų bandomuoju laikotarpiu. Pasibaigus bandomajam laikotarpiui, aplinka ir visi joje esantys duomenys panaikinami ir jų nebegalima susigrąžinti. Aplinkos negalima konvertuoti į smėlio dėžės arba gamybos aplinką. Pasibaigus dabartinės aplinkos naudojimo terminui, galite užsiregistruoti naujai bandomajai aplinkai.
+Bandomosios aplinkos nėra skirtos naudoti kaip gamybos aplinkos. Jos apribojamos 30 dienų bandomuoju laikotarpiu. Pasibaigus bandomajam laikotarpiui, aplinka ir visi joje esantys duomenys panaikinami ir jų nebegalima susigrąžinti. Aplinkos negalima konvertuoti į smėlio dėžės arba gamybos aplinką. Pasibaigus dabartinės aplinkos naudojimo terminui, galite užsiregistruoti naujai bandomajai aplinkai.
 
 Kuriant „Human Resources“ bandomąją aplinką, nuomininkams taip pat sukuriama bandomoji aplinka, „Power Apps“ susieta su personalo aplinka. Aplinka, „Power Apps“ pavadinta „TestDrive“ yra, turi tą patį bandomąjį laikotarpį kaip ir „Human Resources“ aplinka.
 

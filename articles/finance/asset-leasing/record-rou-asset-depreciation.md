@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 02364a0871e9a54f52c7c526cd1897165d52ec68
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
-ms.translationtype: HT
+ms.openlocfilehash: a766247e5482677429706a324c09cc9be4386c0b
+ms.sourcegitcommit: 304a482dfcc31dcb61849f710ae73432324ddef3
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7345375"
+ms.lasthandoff: 12/29/2021
+ms.locfileid: "7947320"
 ---
 # <a name="record-right-of-use-asset-depreciation-preview"></a>Naudojimo teise valdomo turto nusidėvėjimo įrašymas (peržiūros versija)
 
@@ -35,7 +35,7 @@ Jei nuoma pripažįstama organizacijos balanse, naudojimo teise valdomas turtas 
 1. Puslapyje **Nuomos suvestinė** pasirinkite nuomą. Tada pasirinkite **Knygos \> Turto nusidėvėjimo grafikas**, kad būtų atidaromas puslapis **Turto nusidėvėjimo grafikas**.
 
     Naudojimo teise valdomo turto nusidėvėjimo išlaidų žurnalo įrašas yra paremtas suma, nurodyta stulpelyje **Nusidėvėjimo išlaidos**. Pavyzdžiui, rekomendacijas, skirtas apskaitos standartams atitikti, žr. [Finansinės nuomos naudojimo teise valdomo turto amortizacijos išlaidų skaičiavimas](#calculation-of-rou-asset-amortization-expense-for-finance-leases).
-
+    
 2. Pasirinkite nusidėvėjimo laikotarpį ir pasirinkite **Kurti žurnalą**. Gausite pranešimą, kuriame nurodoma, kad sukurtas žurnalas, kuris bus naudojamas nusidėvėjimui įrašyti.
 3. Pasirinkite **Žurnalai \> Turto nuomos žurnalai**, kad būtų atidarytas puslapis **Turto nuomos žurnalas**, kuriame galite peržiūrėti sukurtą nusidėvėjimo išlaidų žurnalo įrašą.
 
@@ -70,6 +70,8 @@ Kaip minėta anksčiau, tiesioginės nuomos išlaidos apskaičiuojamos kaip vis�
 
 > [!NOTE]
 > Pagal ASC 842, veiklos nuomos naudojimo teise valdomo turto nusidėvėjimas yra priskiriamas prie pajamų išrašo nuomos išlaidų. Siekiant padidinti matomumą, turto nuoma apibūdina įrašą kaip naudojimo teise valdomo turto nusidėvėjimą. Tačiau debeto įrašas turi būti priskirtas veiklos nuomos išlaidų sąskaitai, o kredito įrašas turi būti priskirtas tiesiogiai veiklos nuomos naudojimo teise valdomam turtui. Nepaisant to, nuomos parametruose galite nurodyti, kad kredito įrašai turi būti registruojami veiklos naudojimo teise valdomo turto sukaupto nusidėvėjimo sąskaitoje.
+
+Jei nuoma klasifikuota kaip veiklos nuoma, mėnesinis nusidėvėjimas po pablogėjimo bus skaičiuojamas naudojant tiesiogiai apskaičiuotą nusidėvėjimą.
 
 ## <a name="calculation-of-rou-asset-amortization-expense-for-finance-leases"></a>Finansinės nuomos naudojimo teise valdomo turto amortizavimo išlaidų skaičiavimas
 

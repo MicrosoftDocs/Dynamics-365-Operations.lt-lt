@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 88dea2724f574383298c5deac9b76b4cd1d802b5427c8ec2a59a9d1ab0de4e0c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: ab125f963b8f2e00c8d937c6eea091970feaef65
+ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6741589"
+ms.lasthandoff: 01/10/2022
+ms.locfileid: "7952551"
 ---
 # <a name="cost-accounting-home-page"></a>Savikainos apskaitos pagrindinis puslapis
 
@@ -38,7 +38,7 @@ Tolesniame mokymo plane parodytos pagrindinės sąvokos ir užduotys, sudaranči
 
 | &nbsp; | &nbsp;  |
 |------|---|
-|  [Pagrindinių objektų konfigūravimas (el. mokymasis)](https://mbspartner.microsoft.com/Home) (reikia „CustomerSource“ paskyros)  |[Savikainos elemento dimensijos](cost-elements.md)  |
+|  [Pradėti kaštų apskaitą (sužinokite)](https://docs.microsoft.com/learn/modules/get-started-cost-accounting-dyn365-finance/)  |[Savikainos elemento dimensijos](cost-elements.md)  |
 |  [Dimensijų hierarchija](dimension-hierarchy.md)  |[savikainos kontrolės įtaisų apibrėžimas](./tasks/define-cost-control-units.md)| 
 | [Paskirstymo bazės](allocation-bases.md)|[Savikainos paskirstymo strategijos kūrimas ir priskyrimas savikainos kontrolės įtaisui](./tasks/create-assign-cost-allocation-policy-cost-control-unit.md) | 
 | [Tvarkyti savikainos apskaitos didžiosios knygos duomenų šaltinį](./tasks/manage-data-source-cost-accounting-ledger.md) |                                           [Šaltinio duomenų apdorojimas ir sekimas](./tasks/process-trace-source-data.md)     | 

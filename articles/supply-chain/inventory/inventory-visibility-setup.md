@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: d6f58eab38d1aee97a5d39704255bf06a168b36c
-ms.sourcegitcommit: 79d19924ed736c9210fa9ae4e0d4c41c53c27eb5
-ms.translationtype: HT
+ms.openlocfilehash: 26f8820fe707b8a2dff0dcc1a24884ef02e5616f
+ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "7581870"
+ms.lasthandoff: 01/10/2022
+ms.locfileid: "7952501"
 ---
 # <a name="install-and-set-up-inventory-visibility"></a>Atsargų matomumo nustatymas ir diegimas
 
@@ -71,6 +71,9 @@ Kai užregistruojate programą ir pridedate kliento slaptą seką, atlikite šiu
 1. Sutikite su sąlygomis ir terminais pasirinkę **Sąlygos ir terminai** žymimą laukelį.
 1. Pasirinkti **Diegti**. Papildinio būsena bus rodoma kaip **diegiama**. Tada, kai diegimas bus baigtas, paleiskite iš naujo puslapį. Būsena turi pasikeisti į **Įdiegta**.
 1. Kairiajame „Dataverse“ naršymo lange **pasirinkite** Programėlių **skyrių ir patikrinkite** ar atsargų matomumas sėkmingai „Power Apps“ įdiegtas. Jei **Programos** skyrius neegzistuoja, susisiekite su atsargumo matomumo produkto komanda [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com).
+
+> [!TIP]
+> Rekomenduojame prisijungti prie vartotojų grupės Atsargų matomumas, kurioje galima rasti naudingų instrukcijų, gauti naujausius naujinimus ir registruoti bet kokius klausimus, kurie gali kilti dėl atsargų matomumo naudojimo. Norėdami prisijungti, siųskite el. laišką atsargų matomumo produkto [komandai inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com) tiekimo grandinės valdymo aplinkos ID.
 
 > [!IMPORTANT]
 > Jei turite daugiau nei vieną LCS aplinką, kiekvienai aplinkai „Azure AD“ sukurkite kitą programą. Jei norėdami įdiegti atsargų matomumo priedą skirtingoms aplinkai naudojate tą patį programos ID ir nuomininko ID, atpažinimo ženklo išdavimas bus taikomas senesnėms aplinkai. Galios tik paskutinė įdiegta versija.

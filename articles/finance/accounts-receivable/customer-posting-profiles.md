@@ -1,8 +1,8 @@
 ---
 title: Kliento registravimo šablonai
-description: Pagal kliento registravimo šablonus valdomas klientų operacijų registravimas į DK.
-author: ShivamPandey-msft
-ms.date: 08/22/2017
+description: Šioje temoje aprašomi kliento registravimo šablonai, kurie kontroliuoja klientų operacijų registravimą DK.
+author: JodiChristiansen
+ms.date: 12/22/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,124 +12,125 @@ ms.reviewer: roschlom
 ms.custom: 24651
 ms.assetid: cb82245e-8c02-429c-b36e-8db0e3e6f7e5
 ms.search.region: Global
-ms.author: shpandey
+ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a42e26464a35ef72b416aaff7a410f2318602aea38767dbe5e06b4f032dc08be
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 91432a401a8f8a499e9f5e2bbe7157408faac822
+ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6769016"
+ms.lasthandoff: 01/10/2022
+ms.locfileid: "7952576"
 ---
 # <a name="customer-posting-profiles"></a>Kliento registravimo šablonai
 
 [!include [banner](../includes/banner.md)]
 
-Pagal kliento registravimo šablonus valdomas klientų operacijų registravimas į DK.
+Šioje temoje aprašomi kliento registravimo šablonai, kurie kontroliuoja klientų operacijų registravimą DK.
 
 ## <a name="customer-posting-profiles"></a>Kliento registravimo šablonai
 
-Klientų registravimo profiliai leidžia DK sąskaitas ir dokumentų nuostatas priskirti visiems klientams, klientų grupei arba vienam klientui. Šios nuostatos bus naudojamos kuriant pardavimo užsakymus, laisvos formos SF, mokėjimus grynaisiais pinigais, priminimo laiškus ir delspinigių pažymas. Kai kurių operacijų registravimo šabloną galite pasirinkti tokį, kuris skiriasi nuo šiame puslapyje operacijoms nustatytų registravimo profilių ir yra už juos svarbesnis. 
+Klientų registravimo profiliai leidžia priskirti DK sąskaitas ir dokumento parametrus visiems klientams, klientų grupei arba vienam klientui. Šie parametrai bus naudojami kuriant pardavimo užsakymų SF, laisvos formos SF, projekto SF, mokėjimo žurnalus, priminimo laiškus ir delspinigių pastabas. 
 
-Numatytasis registravimo profilis apibrėžiamas „FastTab‟ DK ir PVM, esančiuose Gautinų sumų parametrų puslapyje. Numatytasis registravimo profilis tada automatiškai įtraukiamas naujų dokumentų antraštėje, kur prireikus jį galite pakeisti kitu registravimo profiliu.
+Numatytasis registravimo šablonas nustatytas **gautinų sumų parametrų puslapio** skirtuke DK **ir** PVM. Tada ji automatiškai įtraukiama į naujų dokumentų antraštę. Jei reikia kito registravimo šablono, galite jį pakeisti. 
 
-Registravimo apibrėžčių puslapyje taip pat galite registravimo apibrėžtis susieti su operacijų registravimo tipais. Klientų operacijų registravimą į DK kontroliuoja registravimo apibrėžtys, o ne registravimo profiliai.
+Organizacijos, kurios priima išankstinius apmokėjimus iš klientų, dažnai konfigūruoja antrą išankstinių mokėjimų registravimo šabloną ir susieja jį su parametrais kaip numatytąjį išankstinių mokėjimų registravimo šabloną. Daugiau informacijos ieškokite Kliento [išankstiniai mokėjimai](customer-prepayments.md).
+
+Puslapyje **Operacijų registravimo aprašai** taip pat galite susieti registravimo apibrėžtis su operacijų registravimo tipais. Registravimo aprašai naudojami vietoje registravimo šablonų norint valdyti klientų operacijų registravimą DK. Daugiau informacijos ieškokite [Registravimo aprašų pavyzdžiai](../general-ledger/posting-definitions.md).
 
 ## <a name="creating-a-posting-profile"></a>Registravimo profilio kūrimas
 Nurodykite DK sąskaitas, kurios naudojamos registruojant operacijas, kurios naudoja pasirinktą registravimo profilį. Pasirinkti sąskaitos kodą ir, jei galima, pasirinkto registravimo šablono sąskaitos arba grupės numerį. Registruojant, tinkamiausias kiekvienos operacijos registravimo profilis randamas pagal toliau nurodytus prioritetus ieškant konkrečiausio sąskaitos kodo, sąskaitos numerio arba grupės ir numerio derinio.
 
-| **Sąskaitos kodo** lauko reikšmė. | **Sąskaitos / grupės numerio** lauko reikšmė.            | Ieškos prioritetas |
-|------------------------------|-------------------------------------------------|-----------------|
-| **Lentelė**                    | Konkretus kliento kodas                       | 1               |
-| **Grupė**                    | Klientų grupė, priskiriama klientui. | 2               |
-| **Visi**                      | Tuščias                                           | 3               |
+| Sąskaitos kodo lauko reikšmė. | Sąskaitos / grupės numerio lauko reikšmė.                | Ieškos prioritetas |
+|--------------------------|-------------------------------------------------|-----------------|
+| Lentelė                    | Konkretus kliento kodas                       | 1               |
+| Grupuoti                    | Klientų grupė, priskiriama klientui. | 2               |
+| Visos                      | Tuščias                                           | 3               |
 
-Jei norite, kad visų kliento operacijų registravimo profilis būtų tas pats, Sąskaitos kodo lauke nustatykite tik vieną registravimo profilį – Visi. Norėdami nustatyti savo registravimo profilį, nurodykite toliau pateiktas reikšmes.
+Jei norite, kad visų kliento operacijų registravimo šablonas būtų tas pats, nustatykite tik vieną registravimo šabloną, kur Lauke **Sąskaitos kodas bus įvesta** **Viskas**. Norėdami nustatyti registravimo šabloną, nurodykite toliau pateiktas reikšmes.
 
 <table>
 <thead>
-<tr class="header">
+<tr>
 <th>Laukas</th>
-<th>Prekės/Paslaugos pavadinimas</th>
+<th>Aprašymas</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
-<td><strong>Registravimo šablonas</strong></td>
+<tr>
+<td>Registravimo profilis</td>
 <td>Įveskite registravimo šablono kodą. Pavyzdžiui, galite sukurti du registravimo profilius, kad turėtumėte vieną sąskaitą kliento balansams nacionaline valiuta ir kitą – kliento balansams užsienio valiuta. Vieną sąskaitą galite pavadinti Nacionalinė, kitą – Užsienio.</td>
 </tr>
-<tr class="even">
-<td><strong>Aprašymas</strong></td>
+<tr>
+<td>Aprašymas</td>
 <td>Įveskite registravimo profilio aprašą. Jis naudojamas tik tada, kai, registravimo profilį peržiūrint šiame puslapyje, norima jį geriau identifikuoti.</td>
 </tr>
-<tr class="odd">
-<td><strong>Sąskaitos kodas</strong></td>
+<tr>
+<td>Sąskaitos kodas</td>
 <td>Pasirinkite, ar registravimo profilis bus taikomas atskiram klientui, klientų grupei, ar visiems klientams.
 <ul>
-<li><strong>Lentelė</strong> – registravimo profilis taikomas vienam klientui. Sąskaitos / grupės numerio lauke pasirinkite kliento sąskaitą.</li>
-<li><strong>Grupė</strong> – registravimo profilis taikomas klientų grupei. Sąskaitos / grupės numerio lauke pasirinkite klientų grupę.</li>
-<li><strong>Visi</strong> – registravimo profilis taikomas visiems klientams. Sąskaitos / grupės numerio lauką palikite tuščią.</li>
-</ul></td>
+<li><b>Lentelė</b> – registravimo profilis taikomas vienam klientui. Lauke Sąskaitos/grupės <b>numeris pasirinkite kliento</b> sąskaitą.</li>
+<li><b>Grupė</b> – registravimo profilis taikomas klientų grupei. Lauke Sąskaitos/grupės <b>numeris pasirinkite klientų</b> grupę.</li>
+<li><b>Visi</b> – registravimo profilis taikomas visiems klientams. Palikite kauką <b>Sąskaita / grupės numeris</b> tuščią.</li>
+</ul>
+</td>
 </tr>
-<tr class="even">
-<td><strong>Sąskaitos/grupės Nr.</strong></td>
-<td>Jei lauke Sąskaitos kodas pasirinkta Lentelė, pasirinkite kliento, kuris yra susietas su registravimo profiliu, sąskaitos numerį. Jei pasirinkta Grupė, pasirinkite klientų grupę. Jei pasirinkta Visi, šį lauką palikite tuščią.</td>
+<tr>
+<td>Sąskaitos/grupės Nr.</td>
+<td>Jei <b></b> lauke Sąskaitos kodas pasirinkta <b></b> lentelė, pasirinkite su registravimo šablonu susieto kliento sąskaitos numerį. Jei <b>pasirinkta</b> Grupė, pasirinkite klientų grupę. Jei pasirinkta <b>Visi</b>, šį lauką palikite tuščią.</td>
 </tr>
-<tr class="odd">
-<td><strong>Suminė sąskaita</strong></td>
-<td>Pasirinkite DK sąskaitą, kuri bus naudojama kaip klientų, kurie susieti su registravimo profiliu, suminė sąskaita.</td>
+<tr>
+<td>Suminė sąskaita</td>
+<td>Pasirinkite pagrindinę sąskaitą, kuri bus naudojama kaip klientų, susijusių su registravimo šablonu, gautinų sumų prekybos sąskaita. Ši sąskaita yra kliento balanso <b>registravimo</b> tipo sąskaita.</td>
 </tr>
-<tr class="even">
-<td><strong>Sudengimo sąskaita</strong></td>
-<td>Pasirinkite likvidumo DK sąskaitą, naudojamą pinigų srauto prognozėms. Šis laukas bus rodomi tik įgalinus pinigų srauto prognozes.</td>
+<tr>
+<td>Mokėjimų likvidumo sąskaita</td>
+<td>Pasirinkite likvidumo DK sąskaitą, naudojamą pinigų srauto prognozėms. Šis laukas bus rodomas tik įgalinus pinigų srautų prognozes.</td>
 </tr>
-<tr class="odd">
-<td><strong>PVM išankstinai apmokėjimai</strong></td>
-<td>Pasirinkite mokėjimų, gaunamų iš anksto, PVM sąskaitą.
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="https://i-technet.sec.s-msft.com/areas/global/content/clear.gif" title="Banknotas" alt="Note" id="alert_note" class="cl_IC101471" /><strong>Pastaba</strong></th>
+<tr>
+<td>PVM išankstinai apmokėjimai</td>
+<td><p>Pasirinkite mokėjimų, gaunamų iš anksto, PVM sąskaitą.</p>
+<p><strong>Pastaba: norėdami nurodyti registravimo šabloną, kuris naudojamas, kai mokėjimas pažymimas kaip išankstinis apmokėjimas,</strong><b>naudokite puslapį</b> Gautinų sumų parametrai.</p>
+</td>
 </tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Naudokite Gautinų sumų parametrų puslapį, norėdami nurodyti registravimo profilį, naudotiną, kai mokėjimas pažymimas kaip išankstinis mokėjimas.</td>
-</tr>
-</tbody>
-</table>
-</div></td>
-</tr>
-<tr class="even">
-<td><strong>Nuolaidų sąskaitos skolos</strong></td>
+<tr>
+<td>Nuolaidų sąskaitos skolos</td>
 <td>Pasirinkite DK sąskaitą, skirtą nuolaidų įsipareigojimams.</td>
 </tr>
-<tr class="odd">
-<td><strong>Priminimo laiškų seka</strong></td>
+<tr>
+<td>Priminimo laiškų seka</td>
 <td>Pasirinkite priminimo laiškų sekos identifikatorių, naudotiną su klientais, kuriems priskirtas registravimo profilis.</td>
 </tr>
-<tr class="even">
-<td><strong>Palūkanų kodas</strong></td>
+<tr>
+<td>Palūkanų kodas</td>
 <td>Pasirinkite delspinigių kodą, naudotiną skaičiuojant delspinigius klientams, kuriems priskirtas registravimo profilis.</td>
 </tr>
 </tbody>
 </table>
 
+## <a name="posting-examples"></a>Registravimo pavyzdžiai
 
-### <a name="table-restrictions"></a>**Lentelių apribojimai**
+Toliau pateikiamoje lentelėje pateikiami numatytųjų registravimo tipų, kurių pagrindinės sąskaitos ir aprašymai yra pavyzdiniai, pavyzdžiai. Stulpelis **Debetas/kreditas nurodo, ar operacija paprastai gali būti** debetas, ar kreditas, arba, kai kuriais atvejais, gali registruoti vieną iš šių operacijų. **Kliringo** sąskaitos stulpelis nurodo, kad registravimo tipas yra tarpuskaitos sąskaita. Tai reiškia, kad šioje sąskaitoje užregistruota suma automatiškai atšaukiama, kai užregistruojama vėlesnė operacija. 
+
+| Registravimo tipas | Pagrindinės sąskaitos pavyzdys | Pagrindinės sąskaitos pavadinimo pavyzdys | Kodo tipas | Debetas / kreditas | Tarpuskaitos sąskaita | Aprašymas |
+|--------------|----------------------|---------------------------|--------------|--------------|------------------|-------------|
+| Kliento balansas | 130100 | Gautinų sumų prekyba | Ilgalaikio turto | Abu | Ne | Lauke Su suvestinėje **sąskaita nurodykite** sąskaitą.|
+| Jokia | 110110 | Banko kodas | Ilgalaikio turto | Abu | Ne | Nurodykite pagrindinę sąskaitą mokėjimo **likvidumo** sąskaitoje. Ši sąskaita nėra naudojama registruoti. Jis naudojamas tik pinigų srautų prognozei. |
+| PVM išankstinai apmokėjimai | 202900 | PVM tarpuskaita | Įsipareigojimai | Abu | Taip | Pasirinkite mokėjimų, gaunamų iš anksto, PVM sąskaitą. |
+| Nuolaidų sąskaitos skolos | 250600 | Atidėtos įplaukos ir nuolaidos | Įsipareigojimai | Abu | Taip | Pasirinkti nuolaidų įsipareigojimų DK sąskaitą.|     
+
+### <a name="table-restrictions"></a>Lentelių apribojimai
 
 Operacijoms, kurių registravimo profilis pasirinktasis, nurodykite, ar operacijos bus sudengiamos automatiškai, bus apskaičiuojami delspinigiai ir bus išduodami priminimo laiškai. Taip pat galite pasirinkti sąskaitą, kuri naudojama uždarius operacijas, kurių registravimo profilis pasirinktasis.
 
 Norėdami nustatyti savo registravimo profilį, nurodykite toliau pateiktas reikšmes.
 
-| Laukas                 | Prekės/Paslaugos pavadinimas                                                                                                                                                                                                                                        |
-|-----------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Sudengimas**        | Pasirinkite šį perjungiklį, kad įgalintumėte automatinį operacijų, kurių registravimo profilis yra šis, sudengimą. Jei šis perjungiklis atžymėtas, sudengti operacijas turite rankiniu būdu, naudodami puslapį Sudengti atidarytas operacijas arba puslapį Įvesti klientų mokėjimus. |
-| **Pomėgiai**          | Pasirinkite šį perjungiklį, jei turėtų būti skaičiuojami klientų sąskaitų, naudojančių šį profilį, nesumokėtų balansų delspinigiai. Jei šis perjungiklis nepažymėtas, šiems klientams delspinigiai nebus skaičiuojami.                                           |
-| **Priminimo laiškas** | Pasirinkite šį perjungiklį, jei turėtų būti generuojami klientų sąskaitų, naudojančių šį profilį, priminimo laiškai. Jei šis perjungiklis nepažymėtas, šiems klientams priminimo laiškai nebus generuojami.                                                 |
-| **Uždaryti**             | Pasirinkite registravimo profilį, į kurį bus pakeičiama, kai operacijos, kurioms taikomas šis registravimo profilis, bus uždarytos. Operacija laikoma uždaryta, kai ji yra visiškai sudengta.                                                                           |
+| Laukas                 | Prekės/Paslaugos pavadinimas                                           |
+|-----------------------|-------------------------------------------------------|
+| Setlmentas        | Pasirinkite šį perjungiklį, kad įgalintumėte automatinį operacijų, kurių registravimo profilis yra šis, sudengimą. Jei šis perjungimo langas išvalytas, turite rankiniu būdu sudengti operacijas, naudodami puslapį Sudengti atviras operacijas **arba kliento mokėjimų enter** **puslapį**. |
+| Pomėgiai          | Pasirinkite šį perjungiklį, jei turėtų būti skaičiuojami klientų sąskaitų, naudojančių šį profilį, nesumokėtų balansų delspinigiai. Jei šis perjungiklis nepažymėtas, šiems klientams delspinigiai nebus skaičiuojami.                                           |
+| Priminimo laiškas | Pasirinkite šį perjungiklį, jei turėtų būti generuojami klientų sąskaitų, naudojančių šį profilį, priminimo laiškai. Jei šis perjungiklis nepažymėtas, šiems klientams priminimo laiškai nebus generuojami.                                                 |
+| Uždaryti             | Pasirinkite registravimo profilį, į kurį bus pakeičiama, kai operacijos, kurioms taikomas šis registravimo profilis, bus uždarytos. Operacija laikoma uždaryta, kai ji yra visiškai sudengta.             |
 
 
 

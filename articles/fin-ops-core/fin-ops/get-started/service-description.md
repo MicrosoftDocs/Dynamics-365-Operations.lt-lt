@@ -2,19 +2,19 @@
 title: Programėlių paslaugos „Finance and Operations“ aprašas
 description: Šioje temoje pateikiamas programėlių paslaugos „Finance and Operations“ aprašas.
 author: tomhig
-ms.date: 12/07/2021
+ms.date: 01/05/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
 ms.search.region: Global
 ms.author: whigginb
 ms.search.validFrom: 2021-09-03
-ms.openlocfilehash: f7ce73018fda79156cc7ef3d4e1faa3fedf966f8
-ms.sourcegitcommit: b101c21f972fdad2667431f712222e040cd69d43
+ms.openlocfilehash: 85f82a863f0bde4c0414760fa2477651242538f2
+ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/07/2021
-ms.locfileid: "7898394"
+ms.lasthandoff: 01/10/2022
+ms.locfileid: "7952371"
 ---
 # <a name="service-description-for-finance-and-operations-apps"></a>Programėlių paslaugos „Finance and Operations“ aprašas
 
@@ -117,7 +117,7 @@ Daugiau informacijos rasite [diegimo projekto insąrangoje](../imp-lifecycle/onb
 ### <a name="countryregion-specific-considerations"></a>Konkrečių šalių / regionų svarstymai
 
 - Klientai, industrijos ar komercinėse organizacijose, verslus su Prancūzijos subjektais, kuriems reikia vietinių duomenų, turėtų [„Finance and Operations“ būti peržiūrimi Prancūzijoje](../../dev-itpro/deployment/france-local-deployment.md).
-- Klientai, kurie turi operacijas Kinijos turi peržiūrėti [„Finance and Operations“ „21Winet Kinija“](../../dev-itpro/deployment/china-local-deployment.md).
+- Klientai, kinijos operacijoms vykdantys operacijas, turi peržiūrėti ["Azure China" "Book"](/azure/china/)[Finance and Operations ir operuoja 21 "21" Iš](../../dev-itpro/deployment/china-local-deployment.md) Kinijos.
 - Klientai, kurie turi operacijas Rusijoje, turi peržiūrėti [Rusijos asmeninių duomenų lokalizavimo įstatymą](/business-applications-release-notes/october18/dynamics365-finance-operations/russian-regulations-on-prem#when-will-the-cloud-deployment-option-of-dynamics-365-for-finance-and-operations-be-generally-available-for-russia).
 
 ### <a name="general-data-protection-regulation-gdpr"></a>Bendrasis duomenų apsaugos reglamentas (BDAR)
@@ -356,6 +356,7 @@ Jei incidentai susiję su „Finance and Operations“ programėle, klientai per
 - **[Licencijavimo vadovas](https://www.microsoft.com/licensing/docs/view/Microsoft-Dynamics-365)** – norėdami daugiau sužinoti apie „Dynamics 365" licenciją, naudokite šį vadovą.
 - **[Klientų palaikymas](https://dynamics.microsoft.com/support/)** – gaukite pramonės šaką tinkantį „Dynamics 365" programėlių palaikymą.
 - **[„Dynamics Lifecycle Services"](https://lcs.dynamics.com/)** – valdykite savo programos vykdymo ciklą ir pereisite prie numatymų, pasikartojančių, aukštos kokybės diegimo.
+- **["Dynamics 365" diegimo vadovas – "Dynamics 365" diegimo vadovo dokumentų laiko patikrinti principai ir pateikiami prescriptiniai patarimai architektui, kurti, išbandyti ir diegti](https://aka.ms/D365ImplementationGuideFlip)** Success by Design "Dynamics 365" sprendimus.
 
 ## <a name="definitions"></a>Sąvokos
 
@@ -428,6 +429,10 @@ SLA taikoma „Microsoft" interneto paslaugoms. Daugiau informacijos rasite fail
 ### <a name="service-update"></a>Paslaugos naujinimas
 
 „Microsoft Finance and Operations“ tarnybų aplinkos nuosekliai, naudojant tarnybos naujinimus. Klientai pagal savo verslo poreikius nustato savo aptarnavimo atnaujinimo kalendorių. Norėdami sužinoti daugiau, žr. [Senos versijos paslaugų naujinimai](../../dev-itpro/lifecycle-services/oneversion-overview.md).
+
+### <a name="success-by-design"></a>[Success by Design](/dynamics365/fasttrack/success-by-design-overview)
+
+Sistema, kuri sistema sistemiškai rodo vykdymą svarbiais etapais, siekiant užtikrinti Dynamics 365 sprendimo optimalią architektūrą, saugumą, našumą ir vartotojų patirtį.
 
 ### <a name="user"></a>Vartotojas
 

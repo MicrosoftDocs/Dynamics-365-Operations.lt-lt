@@ -2,7 +2,7 @@
 title: Pradėti naudoti mokesčių skaičiavimą
 description: Šioje temoje paaiškinama, kaip nustatyti Mokesčių skaičiavimą.
 author: wangchen
-ms.date: 10/15/2021
+ms.date: 01/05/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,31 +15,74 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 2f26f8e5eafe29e88c26d3fb6cfa950466ec6be9
-ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.openlocfilehash: ae2c20fe79c2f8fd8d102740441230ae443f16a3
+ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "7647439"
+ms.lasthandoff: 01/10/2022
+ms.locfileid: "7952526"
 ---
 # <a name="get-started-with-tax-calculation"></a>Pradėti naudoti mokesčių skaičiavimą
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje pateikiama informacija apie tai, kaip pradėti dirbti su Mokesčių skaičiavimu. Ši tema padės atlikti konfigūracijos veiksmus, esančius „Microsoft Dynamics Lifecycle Services“ (LCS), „Regulatory Configuration Service“ (RCS), „Dynamics 365 Finance“ ir „Dynamics 365 Supply Chain Management“. Tada peržiūrimas bendras Mokesčių skaičiavimo galimybių naudojimo procesas „Finance” ir „Supply Chain Management“ operacijose.
+Šioje temoje pateikiama informacija apie tai, kaip pradėti dirbti su Mokesčių skaičiavimu. Šios temos skyriai leidžia atlikti didelio lygio kūrimo ir konfigūravimo veiksmus, nurodytus ciklo tarnybose (LCS), reguliavimo konfigūracijos tarnybą Microsoft Dynamics (RCS) Dynamics 365 Finance ir Dynamics 365 Supply Chain Management. 
 
-Nustatymą sudaro keturi pagrindiniai veiksmai:
+Nustatymą sudaro trys pagrindiniai veiksmai.
 
 1. Sprendime LCS įdiekite papildinį Mokesčių skaičiavimas.
 2. RCS nustatykite Mokesčių skaičiavimo funkciją. Šie nustatymo duomenys nėra specifiniai kiekvienam juridiniam subjektui. Jį galima bendrai naudoti su juridiniais subjektais „Finance and Supply Chain Management“.
 3. „Finance” ir „Supply Chain Management“ nustatykite Mokesčių skaičiavimo parametrus pagal juridinį subjektą.
-4. „Finance” ir „Supply Chain Management“ sukurkite operacijas, pavyzdžiui, pardavimo užsakymus, ir naudokite Mokesčių skaičiavimą mokesčiams nustatyti ir skaičiuoti.
+
+## <a name="high-level-design"></a>Aukšto lygio dizainas
+
+### <a name="runtime-design"></a>Vykdyklės dizainas
+
+Šioje iliustracijoje parodyta aukšto lygio mokesčių skaičiavimo vykdyklės dizainas. Kadangi mokesčių skaičiavimą galima integruoti su keliomis "Dynamics 365" programėle, iliustracija kaip pavyzdį naudoja integravimą su finansais.
+
+1. Finansuose sukuriama operacija, pavyzdžiui, pardavimo arba pirkimo užsakymas.
+2. Finansai automatiškai naudoja numatytąsias PVM grupės ir prekės PVM grupės vertes.
+3. Kai **operacijoje** pasirenkamas PVM mygtukas, paleidžiamas mokesčio skaičiavimas. Tada finansai siunčia moka siuntą į mokesčių skaičiavimo tarnybą.
+4. Mokesčių skaičiavimo tarnyba suderina mokėjimo krūvį su iš anksto nustatytomis mokesčių priemonės taisyklėmis, kad vienu metu surasti tikslesnę PVM grupę ir prekės PVM grupę.
+
+    - Jei mokėjimo krūvį galima suderinti su mokesčių grupės taikomumo matrica, ji panaikina PVM grupės vertę su sugretinta mokesčių grupės verte **pritaikymo** taisyklėje. Kitu atveju, ji ir toliau naudoja PVM grupės vertę iš finansų.
+    - Jei mokėjimo krūvį galima suderinti su prekių mokesčių grupės taikomumo matrica, ji panaikina prekės PVM grupės vertę su sugretinta prekės mokesčių grupės verte **pritaikymo** taisyklėje. Kitu atveju, ji ir toliau naudoja prekės PVM grupės vertę iš finansų.
+
+5. Mokesčių skaičiavimo tarnyba nustato galutinius mokesčių kodus, naudodama PVM grupės ir prekės PVM grupės sąryžą.
+6. Mokesčių skaičiavimo tarnyba skaičiuoja mokestį remdamasi galutiniais jos nustatytais mokesčių kodais.
+7. Mokesčių skaičiavimo tarnyba pateikia mokesčių skaičiavimo rezultatą finansams.
+
+![Mokesčių skaičiavimo vykdyklės dizainas.](media/tax-calculation-runtime-logic.png)
+
+### <a name="high-level-configuration"></a>Aukšto lygio konfigūracija
+
+Toliau pateikiama išsami mokesčių skaičiavimo tarnybos konfigūracijos proceso apžvalga.
+
+1. LCS įdiekite mokesčių **skaičiavimo priedą savo** LCS projekte.
+2. RCS sukurkite **mokesčių skaičiavimo** priemonę.
+3. RCS nustatykite mokesčių **skaičiavimo** funkciją:
+
+    1. Pasirinkti mokesčio konfigūracijos versiją.
+    2. Kurti mokesčių kodus.
+    3. Sukurkite mokesčių grupę.
+    4. Sukurkite prekės mokesčių grupę.
+    5. Pasirinktinai: sukurkite mokesčių grupės taikomumą, jei norite perrašyti numatytąją PVM grupę, įvestą iš kliento ar tiekėjo bendrųjų duomenų.
+    6. Pasirinktinai: sukurkite prekių grupės taikomumą, jei norite perrašyti numatytąją prekės PVM grupę, kuri įvesta iš prekės bendrųjų duomenų.
+
+4. RCS užbaikite ir publikuokite **mokesčių skaičiavimo** funkciją.
+5. Finansuose pasirinkite paskelbtą **mokesčių skaičiavimo** priemonę.
+
+Atlikus šiuos veiksmus, šie nustatymai automatiškai sinchronizuojami iš RCS į finansus.
+
+- PVM kodai
+- PVM grupės
+- Prekės PVM grupės
+
+Likusiuose šios temos skyriuose pateikti išsamesni konfigūravimo veiksmai.
 
 ## <a name="prerequisites"></a>Būtinieji komponentai
 
-Kad galėtumėte atlikti šioje temoje nurodytas procedūras, turi būti tenkinamos kiekvieno aplinkos tipo būtinosios sąlygos.
-
-Turi būti laikomasi šių būtinųjų komponentų:
+Prieš pabaigdami likusias šios temos procedūras, turite įvykdyti šiuos būtinuosius komponentus:<!--TO HERE-->
 
 - Turite turėti prieigą prie savo LCS paskyros ir turite būti įdiegę LCS projektą su 2 arba didesnės pakopos aplinka, kurioje veikia „Dynamics 365" 10.0.21 arba naujesnė versija.
 - Savo organizacijai turite sukurti RCS aplinką ir turite turėti prieigą prie savo paskyros. Daugiau informacijos apie RCS aplinkos kūrimą ieškokite temoje [„Regulatory Configuration Service“ apžvalga](rcs-overview.md).
@@ -72,15 +115,7 @@ Turi būti laikomasi šių būtinųjų komponentų:
 5. Lauke **Tipas** pasirinkite **Bendri**.
 6. Pasirinkite **Atidaryti**.
 7. Eikite š **Mokesčių duomenų modelis**, išplėskite failų medį, o tada pasirinkite **Mokesčių konfigūracija**.
-8. Pagal savo „Finance“ versiją pasirinkite tinkamą mokesčių konfigūracijos versiją, tada – **Importuoti**.
-
-    | Leidimo versija | Mokesčių konfigūracija                       |
-    | --------------- | --------------------------------------- |
-    | 10.0.18         | Mokesčių konfigūracija – Europa 30.12.82     |
-    | 10.0.19         | Mokesčių skaičiavimo konfigūracija 36.38.193 |
-    | 10.0.20         | Mokesčių skaičiavimo konfigūracija 40.43.208 |
-    | 10.0.21         | Mokesčių skaičiavimo konfigūracija 40.48.215 |
-
+8. Pagal jūsų [finansų versiją pasirinkite teisingą mokesčių konfigūracijos](global-tax-calcuation-service-overview.md#versions) versiją, tada pasirinkite **Importuoti**.
 9. Darbo srityje **Globalizacijos funkcijos** pasirinkite **Funkcijos**, plytelę **Mokesčių skaičiavimas**, o tada pasirinkite **Įtraukti**.
 10. Pasirinkti vieną iš šių tolesnių funkcijų tipų:
 
@@ -209,42 +244,3 @@ Baigę RCS sąranką turėsite publikuotą mokesčių funkcijos versiją. Atliki
 
 5. Skirtuke **Kelios PVM registracijos** galite atskirai įjungti PVM deklaraciją, ES pardavimo sąrašą ir „Intrastat“, kad galėtumėte dirbti su keliomis PVM registracijomis. Daugiau informacijos apie kelių PVM registracijų mokesčių ataskaitas rasite temoje [Kelių PVM registracijų ataskaitos](emea-reporting-for-multiple-vat-registrations.md).
 6. Įrašykite sąranką ir pakartokite ankstesnius veiksmus su kiekvienu papildomu juridiniu subjektu. Kai publikuojama nauja versija ir norite ją taikyti, nustatykite lauką **Funkcijų sąranka**, esantį puslapio **Mokesčių skaičiavimo parametrai** skirtuke **Bendra** (žr. 2 veiksmą).
-
-## <a name="transaction-processing"></a>Operacijos vykdymas
-
-Atlikę visas nustatymo procedūras, galite naudoti papildinį Mokesčių skaičiavimas, kad nustatytumėte ir apskaičiuotumėte mokesčius „Finance“ platformoje. Veiksmai, kuriuos reikia atlikti operacijoms apdoroti, lieka tokie pat. „Finance“ versijoje 10.0.21 palaikomos šios operacijos:
-
-- Pardavimo procesas
-
-    - Pardavimo pasiūlymas
-    - Pardavimo užsakymas
-    - Patvirtinimas
-    - Išrinkimo dokumentas
-    - Važtaraštis
-    - Pardavimo sąskaita faktūra
-    - Kredito sąskaita
-    - Grąžinimo užsakymas
-    - Antraštės lygmenyje pateikiamos išlaidos
-    - Eilutės mokestis
-
-- Pirkimo procesas
-
-    - Pirkimo užsakymas
-    - Patvirtinimas
-    - Gavimų sąrašas
-    - Gavimo dokumentas
-    - Pirkimo SF
-    - Antraštės lygmenyje pateikiamos išlaidos
-    - Eilutės mokestis
-    - Kredito sąskaita
-    - Grąžinimo užsakymas
-    - Pirkimo paraiška
-    - Pirkimo reikalavimo eilutės keitimas
-    - Pasiūlymo patvirtinimas
-    - Pasiūlymo patvirtinimo antraštės kainas
-    - Pasiūlymo patvirtinimo eilutės mokesčiai
-
-- Atsargų procesas
-
-    - Perlaidos užsakymas - siuntimas
-    - Perlaidos užsakymas - gavimas

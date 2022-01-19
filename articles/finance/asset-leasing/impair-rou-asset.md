@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: fd79880dc8aa77eea8c16f350c0853013c6ad17b
-ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
+ms.openlocfilehash: b104cec399a368ada64a73688c42476e6fbd9e52
+ms.sourcegitcommit: 304a482dfcc31dcb61849f710ae73432324ddef3
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7890835"
+ms.lasthandoff: 12/29/2021
+ms.locfileid: "7947345"
 ---
 # <a name="impair-right-of-use-assets"></a>Naudojimo teise valdomo turto nuvertėjimas
 
@@ -44,6 +44,8 @@ Likęs naudojimo teise valdomo turto likutis bus amortizuotas tiesiogiai, atsiž
 
     > [!NOTE]
     > Užregistrus pablogėjimo operaciją, sukuriama nauja knygos versija.
+
+    > Jei nuoma klasifikuota kaip veiklos nuoma, mėnesinis nusidėvėjimas po pablogėjimo bus skaičiuojamas naudojant tiesiogiai apskaičiuotą nusidėvėjimą.
 
 9. Norėdami peržiūrėti patrikęs turto nusidėvėjimo grafiką, atidarykite nuomos knygos turto nusidėvėjimo grafiką. Dabar turtas nuvertės tiesiogiai per mėnesių, kuriuos įvedėte lauke **Likę laikotarpiai** skaičių.
 10. Norėdami peržiūrėti žalos išlaidų žurnalo įrašą, nuvertėjimo nuomos knygos veiklos srityje pasirinkite **Turto nuomos žurnalas**. Sistema sukuria žurnalo įrašą, kuris debetuoja nuvertėjimo išlaidų registravimo sąskaitą ir kreditus nuomos turto registravimo sąskaitoje. 
@@ -100,6 +102,7 @@ Toliau esančiose lentelėse rodomos reikšmės, kurios yra nustatytos šio pavy
     | Uždaryti knygą             | Ne       |
 
 6. Buvo sukurtas ir užregistruotas nuvertėjimo išlaidų žurnalo įrašas. Norėdami jį peržiūrėti, eikite į turto nuomos žurnalą nuomos knygoje. Atkreipkite dėmesį, kad nuvertėjimo suma buvo debetuota į nuvertėjimo išlaidų registravimo sąskaitą, o naudojimo teise valdomo turto registravimo sąskaita buvo kredituota.
+
 7. Norėdami peržiūrėti grynąjį nuvertėjimo poveikį, atidarykite atsakomybės ir turto operacijų lenteles. Atkreipkite dėmesį, kad dėl nuvertėjimo išlaidų sumažėjo naudojimo teise valdomas turtas, bet nuomos įsipareigojimo apskaitinė vertė nepasikeitė.
 
 Šis nuvertėjimas turi dar vieną poveikį, kurį reikia apsvarstyti. Kadangi dabar naudojimo teise valdomo turto suma yra daug mažesnė už nuomos įsipareigojimą, suma turi būti nusidėvėti kitaip nei anksčiau. Tiksliau sakant, turtas dabar apskaičiuojamas tiesiogiai per likusius 84 nuomos mėnesius, pradedant operacijos data.
