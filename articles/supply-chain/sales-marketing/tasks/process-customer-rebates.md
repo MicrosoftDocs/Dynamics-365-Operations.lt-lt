@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 355ca6b8a06b15b68e0fd6236999b4e64a83bf2a
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.openlocfilehash: a85c027571a6d77ed61cd874bb9d97221b099967
+ms.sourcegitcommit: 133aa728b8a795eaeaef22544f76478da2bd1df9
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7573350"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7969092"
 ---
 # <a name="generate-and-process-customer-rebates"></a>Generuoti ir apdoroti kliento grąžinimus
 
@@ -69,7 +69,7 @@ ms.locfileid: "7573350"
 2. Spustelėkite **Kaupti**.
 3. Lauke **Klientas** įveskite arba pasirinkite reikšmę.
 4. Lauke **Pradžios data** pasirinkite šiandienos datą.
-5. Spustelėkite **Gerai**. Įvykdžius funkciją **Kaupti**, numatoma pretenzijos suma koreguojama atsižvelgiant į tai, kad kliento bendras pardavimų kiekis per atitinkamą laikotarpį yra didesnis nei tuomet, kai buvo generuojama pirmoji grąžinimo suma. Tiksliau sakant, bendras nupirktas kiekis pasiekė 100 vienetų, todėl dabar klientas gali gauti 40 USD už vienetą (pagal sutarties antrąją kiekio ribą) arba 400 USD bendrą grąžinimo sumą. Skirtumas įrašomas kaip nauja pretenzijos „korekcija“ dėl papildomų 800 USD. Grąžinimo pretenzijų, kurios buvo įtrauktos į kaupimo atnaujinimą, būsena dabar yra „Apskaičiuota“. 
+5. Spustelėkite **Gerai**. Įvykdžius funkciją **Kaupti**, numatoma pretenzijos suma koreguojama atsižvelgiant į tai, kad kliento bendras pardavimų kiekis per atitinkamą laikotarpį yra didesnis nei tuomet, kai buvo generuojama pirmoji grąžinimo suma. Tiksliau sakant, bendras nupirktas kiekis pasiekė 100 vienetų, todėl dabar klientas gali gauti 40 USD už vienetą (pagal sutarties antrąją kiekio ribą) arba 4,000 USD bendrą grąžinimo sumą. Skirtumas įrašomas kaip nauja pretenzijos „korekcija“ dėl papildomų 800 USD. Grąžinimo pretenzijų, kurios buvo įtrauktos į kaupimo atnaujinimą, būsena dabar yra „Apskaičiuota“. 
 6. Sąraše pažymėkite visas eilutes.
 7. Spustelėkite **Patvirtinti**.
 8. Spustelėkite **Apdoroti**.

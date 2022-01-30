@@ -15,26 +15,25 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-24
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 3ad610feccf88ac88475a463fd1f10f4336b9407
-ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
+ms.openlocfilehash: 11882f641830f04acb4eb58fa631b5372c25e65b
+ms.sourcegitcommit: 133aa728b8a795eaeaef22544f76478da2bd1df9
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752717"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7969053"
 ---
 # <a name="enable-budget-proposal"></a>Įjungti biudžeto pasiūlymą
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Šioje temoje paaiškinama, kaip įjungti modulio Finansinės įžvalgos funkciją Biudžeto pasiūlymas.
 
 1. Atidarykite darbo sritį **Funkcijų valdymas** ir atlikite tolesnius veiksmus.
 
     1. Pasirinkite **Tikrinti, ar yra naujinimų**.
-    2. Skirtuke **·** Visi ieškokite **Biudžeto pasiūlymas**. Jei tos priemonės nerandate, ieškokite **(Peržiūrėti) biudžeto pasiūlymo**. 
+    2. Skirtuke **Visi** ieškokite **Biudžeto pasiūlymas**. Jei tos priemonės nerandate, ieškokite **(Peržiūrėti) biudžeto pasiūlymo**. 
     3. Įjungti funkciją.
 
-2. Eikite **į Biudžeto nustatymo pagrindinio biudžeto nustatymo pasiūlymą ir pasirinkite Įgalinti \>\>\>** **·** funkciją.
+2. Eikite **į Biudžeto nustatymo pagrindinio biudžeto nustatymo pasiūlymą ir pasirinkite Įgalinti \>\>\>** **funkciją**.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,48 +1,47 @@
 ---
 title: Pretendento samdymas naudojant įdarbinimo funkciją
 description: Ši procedūra leidžia samdytojui samdyti pretendentą, kuris pateikė prašymą per konkretų įdarbinimo projektą.
-author: andreabichsel
-ms.date: 08/29/2018
+author: twheeloc
+ms.date: 01/10/2022
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
 ms.search.form: HRMApplication, HcmWorkerNewWorker, HcmPositionLookup, HcmWorker, HcmPosition, HcmPositionDateManager,  DefaultDashboard
 audience: Application User
-ms.reviewer: anbichse
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1edee858b0b37b497b6b5b006185315c2f9d074e46de1aca80b20b2685a2c837
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 07f89a41cca7b3ff66404305d31cf1b8a67bfe47
+ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6743896"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "7964966"
 ---
 # <a name="hiring-candidate-through-recruiting"></a>Pretendento samdymas naudojant įdarbinimo funkciją
 
 [!include [banner](../../includes/banner.md)]
 
-Ši procedūra leidžia samdytojui samdyti pretendentą, kuris pateikė prašymą per konkretų įdarbinimo projektą. Kai įdarbinate pretendentą per įdarbinimo projektą, bus sukurtas naujas darbuotojo įrašas ir pretendento įrašo būsena taps „Įdarbintas“. Kuriant šią procedūrą naudojama demonstracinių duomenų įmonė yra USMF. Norėdami užbaigti šią procedūrą, pasirinkite Personalas > Įdarbinimas > Prašymai > Prašymai 
+Ši procedūra leidžia samdytojui samdyti pretendentą, kuris pateikė prašymą per konkretų įdarbinimo projektą. Kai priimate pretendentą į darbą naudodami įdarbinimo projektą, sukuriamas naujas darbuotojo įrašas, o pretendento įrašo būsena yra **Įdarbinta**. **USMF** demonstracinių duomenų įmonė buvo naudojama šiai procedūrai sukurti.
 
-1. Pasirinkite išorinio pretendento prašymą
-2. Sąraše spustelėkite saitą pasirinktoje eilutėje.
-3. Spustelėkite „Prašymo būsena“.
-4. Spustelėkite Samdyti naują darbuotoją.
-5. Lauke Įdarbinimo pradžios data įveskite datą ir laiką.
-6. Lauke Pareigos spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
-7. Sąraše spustelėkite saitą pasirinktoje eilutėje.
-8. Pradžios lauke „Priskyrimas“ įveskite datą ir laiką.
-9. Spustelėkite Samdyti naują darbuotoją.
-10. Išplėskite įdarbinimo istorijos „FactBox“.
-11. Išplėskite dabartinių pareigų „FactBox“.
-12. Išplėskite įdarbinimo istorijos „FactBox“.
-13. Išplėskite dabartinių pareigų „FactBox“.
-14. Išplėskite arba sutraukite skyrių „Adresai“.
-15. Išplėskite arba sutraukite skyrių „Kontaktinė informacija“.
-16. Išplėskite arba sutraukite skyrių „Asmeninė informacija“.
-
-
+1. Eiti į **personalo įdarbinimo \>\> prašymų \> prašymus**. 
+2. Pasirinkti išorinio pretendento prašymą.
+3. Šiame sąraše pasirinkite nuorodą pasirinktoje eilutėje.
+4. Pasirinkite **prašymo** būseną.
+5. Pasirinkite **Samdyti naują darbuotoją**.
+6. Lauke **Įdarbinimo pradžios** data įveskite datą ir laiką.
+7. Lauke Pareigos **pasirinkite** išplečiamąjį rodyklę, kad būtų atidaryta peržvalga.
+8. Šiame sąraše pasirinkite nuorodą pasirinktoje eilutėje.
+9. Lauke **Priskyrimo** pradžia įveskite datą ir laiką.
+10. Pasirinkite **Samdyti naują darbuotoją**.
+11. Išplėskite įdarbinimo **retrospektyvos** "FactBox".
+12. Išplėskite **dabartinių pareigų** "FactBox".
+13. Išplėskite įdarbinimo **retrospektyvos** "FactBox".
+14. Išplėskite **dabartinių pareigų** "FactBox".
+15. Išplėskite arba sutraukite **skyrių** Adresai.
+16. Išplėskite arba **sutraukite kontaktinės informacijos** skyrių.
+17. Išplėskite arba **sutraukite skyrių Asmeninė** informacija.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

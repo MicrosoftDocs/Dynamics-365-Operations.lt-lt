@@ -1,5 +1,5 @@
 ---
-title: Išspręskite planavimo mechanizmo klaidą „Nepavyko rasti pakankamai pajėgumo“
+title: Taisyti planavimo modulio klaidą "Nepakanka pajėgumo" ir riboto pajėgumo
 description: Šioje temoje pateikiama informacija apie gamybos užsakymo priežastis ir nutarimus, kurių %1 nepavyko suplanuoti. Išspręskite planavimo mechanizmo klaidą „Nepavyko rasti pakankamai pajėgumo“.
 author: ChristianRytt
 ms.date: 7/29/2021
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-07-19
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 16626a7ee74e89bd129d8435a17d16b41a5e0387
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.openlocfilehash: becd537d37a8ba8931f2598dccbae8554a4d168e
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7565764"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7985035"
 ---
 # <a name="fix-the-not-enough-capacity-could-be-found-scheduling-engine-error"></a>Išspręskite planavimo mechanizmo klaidą „Nepavyko rasti pakankamai pajėgumo“
 
@@ -105,5 +105,11 @@ Norėdami peržiūrėti galimų išteklių grupę, atlikite šiuos veiksmus.
 
 1. Eikite į **Organizacijos administravimo \> išteklių \> Išteklių grupė**, ir pasirinkite išteklių grupę, kurie taikomi užsakymui, kuris negali būti suplanuotas.
 1. Veiksmų srities skirtuke Ištekliai, grupėje **Išteklių grupė** rinkitės **Peržiūros** grupę ir tada **Pajėgumas** ar **Pajėgumas grafiškai** ir įsitikinkite, kad pajėgumo užtektų.
+
+## <a name="master-planning-books-a-resource-when-the-resource-calendar-is-closed"></a>Bendrojo planavimo knygos yra ištekliai uždarius išteklių kalendorių
+
+Planuojant operacijas, bendrasis planavimas suplanuos pajėgumus pagal pirminės išteklių grupės kalendorių. Ji rezervuos antrinę operaciją tuo pačiu metu kaip ir pirminė operacija, ir neatims jokių antrinės operacijos kalendorių ar pajėgumo. Tai gali baigti gamybos užsakymo grafiką uždarytame kalendoriuje arba tuo metu, kai negalima naudoti antrinės operacijos (kalendorius uždarytas, pajėgumas nėra pajėgumo).
+
+Planuojant užduotis, bendrojo planavimo metu planuojant užsakymą bus atsižvelgiama į pirminės ir antrinės operacijų pajėgumą ir kalendorių. Norint suplanuoti užsakymą, abiejų operacijų išteklių kalendoriai turi būti atviri ir turėti atvirą pajėgumą.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

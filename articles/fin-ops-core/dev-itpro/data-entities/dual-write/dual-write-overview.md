@@ -1,21 +1,20 @@
 ---
 title: Dvigubo rašymo apžvalga
-description: Šioje temoje pateikta dvigubo rašymo, kuris beveik realiuoju laiku teikia sąveiką tarp klientų įtraukimo programų ir „Finance and Operations” programų, apžvalga.
+description: Šioje temoje pateikiama dvigubo rašymo peržiūra, kuri leidžia realiuoju laiku bendrauti tarp klientų įsipareigojimo programėlių ir finansų ir operacijų programėlių.
 author: RamaKrishnamoorthy
 ms.date: 02/06/2020
-ms.topic: article
+ms.topic: overview
 audience: Application User, IT Pro
 ms.reviewer: tfehr
-ms.custom: intro-internal
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 131c002000ee6ebed81a23f45ce17b7a7fff0b95
-ms.sourcegitcommit: 9f8da0ae3dcf3861e8ece2c2df4f693490563d5e
+ms.openlocfilehash: e71d1496da24b21949259e8f43a32cd4ff60249c
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/16/2021
-ms.locfileid: "7817366"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7984146"
 ---
 # <a name="dual-write-overview"></a>Dvigubo rašymo apžvalga
 
@@ -27,9 +26,9 @@ ms.locfileid: "7817366"
 
 ## <a name="what-is-dual-write"></a>Kas yra dvigubas rašymas?
 
-Dvigubas rašymas yra parengta naudoti infrastruktūra, kuri beveik realiuoju laiku teikia sąveiką tarp klientų įtraukimo programų ir „Finance and Operations” programų. Kai duomenys apie klientus, produktus, žmones ir operacijas siunčiami už programos ribų, visiems organizacijos padaliniams suteikiami įgaliojimai.
+Dvigubo rašymo sistema yra ne "box" infrastruktūra, kuri leidžia realiuoju laiku užtikrinti klientų įsipareigojimo programėlių ir finansų ir operacijų programėlių sąveiką. Kai duomenys apie klientus, produktus, žmones ir operacijas siunčiami už programos ribų, visiems organizacijos padaliniams suteikiami įgaliojimai.
 
-Dvigubu rašymu pateikiama glaudžiai susieta, dvikryptė integracija tarp „Finance and Operations” programų ir „Dataverse”. Bet kokie duomenų keitimai, vykdomi „Finance and Operations” programose, taip pat įrašomi į „Dataverse”, o bet kokie „Dataverse” duomenų keitimai yra įrašomi „Finance and Operations” programose. Šis automatizuotas duomenų srautas suteikia integruotą vartotojo patirtį susietose programose.
+Dvigubo rašymo sistema užtikrina daugiakryptį finansų ir operacijų programėlių ir dviejų krypčių integravimą Dataverse. Dėl bet kokių duomenų keitimo finansų ir operacijų programėlių rašoma ir visi duomenų keitimo priežastis kuria finansų ir Dataverse Dataverse operacijų programėles. Šis automatizuotas duomenų srautas suteikia integruotą vartotojo patirtį susietose programose.
 
 ![Duomenų ryšys tarp programų.](media/dual-write-overview.jpg)
 
@@ -50,9 +49,9 @@ Dvigubo rašymo infrastruktūra yra išplėstinė ir patikima, joje yra šios pa
 + Patikimas programos vykdymo ciklo valdymas
 + Naujo kliento iš anksto parengtos sąrankos funkcijos
 
-### <a name="application"></a>Programos
+### <a name="application"></a>Prašymas
 
-Dvigubu rašymu sukuriamas susiejimas tarp sąvokų, esančių „Finance and Operations” programose, ir sąvokų, esančių klientų įtraukimo programose. Ši integracija palaiko šiuos scenarijus:
+Dvigubo rašymo atveju sukuriamas finansų ir operacijų programėlių sąvokų ir klientų įsipareigojimo programėlių sąvokų susiejimas. Ši integracija palaiko šiuos scenarijus:
 
 + Bendrieji integruoto kliento duomenys
 + Prieiga prie kliento lojalumo kortelių ir atlygio taškų
@@ -79,17 +78,17 @@ Dvigubu rašymu pateikiama duomenų integracija „Microsoft Dynamics 365” pro
 + Dvigubo rašymo infrastruktūra atitinka kodo nereikalavimo / automatizuoto kodavimo principą. Reikia minimalių inžinerinių pastangų, kad būtų galima išplėsti standartinius tarpusavy susietų lentelių žemėlapius ir į juos įterpti pasirinktinius žemėlapius.
 + Dvigubas rašymas palaiko ir internetinį režimą, ir autonominį režimą. „Microsoft” yra vienintelė įmonė, teikianti palaikymą internetiam ir autonominiam režimams.
 
-## <a name="what-does-dual-write-mean-for-developers-and-architects-of-customer-engagement-apps"></a><a id="developer-architect"></a> Kuo dvigubas rašymas naudingas klientų įtraukimo programų kūrėjams ir architektams?
+## <a name="what-does-dual-write-mean-for-developers-and-architects-of-customer-engagement-apps"></a><a id="developer-architect"></a>Kuo dvigubas rašymas naudingas klientų įtraukimo programų kūrėjams ir architektams?
 
-Dvigubas rašymas automatizuoja duomenų srautą tarp „Finance and Operations” programų ir klientų įtraukimo programų. Dvigubas rašymas susideda iš dviejų „AppSource” sprendimų, įdiegtų „Dataverse”. Sprendimai išplečia „Dataverse” lentelių schemą, priedus ir darbo eigas, kad jie galėtų pritaikyti mastelį prie ERP dydžio. Kad diegimas būtų sėkmingas, klientų įtraukimo programų kūrėjai ir architektai turi suprasti šiuos keitimus ir bendradarbiauti su kolegomis „Finance and Operations” programose.
+Dvigubo rašymo metu automatizuojami duomenų srautai tarp finansų ir operacijų programėlių ir klientų įsipareigojimo programėlių. Dvigubas rašymas susideda iš dviejų „AppSource” sprendimų, įdiegtų „Dataverse”. Sprendimai išplečia „Dataverse” lentelių schemą, priedus ir darbo eigas, kad jie galėtų pritaikyti mastelį prie ERP dydžio. Sėkmingai įdiegtos programos programuotojai ir architektai turi suprasti šiuos pakeitimus ir bendradarbiauti su finansų ir operacijų programėle.
 
-Norint sukurti atitikimą su „Finance and Operations” programomis, dvigubas rašymas įvykdo keletą esminių pakeitimų „Dataverse” schemoje. Jei suprantate planą, galite išvengti kai kurių kūrimo ir tobulinimo perdarymo veiksmų ateityje.
+Norėdami sukurti lygumą su finansų ir operacijų programomis, dvigubo rašymo metu schemoje labai Dataverse pasikeičia. Jei suprantate planą, galite išvengti kai kurių kūrimo ir tobulinimo perdarymo veiksmų ateityje.
 
-+ Įdiegus dvigubo rašymo „AppSource” paketą, „Dataverse” bus naujų sąvokų, tokių kaip įmonė ir šalis. Šios sąvokos padeda programoms, sukurtoms remiantis „Dataverse”, įskaitant „Dynamics 365 Sales”, „Dynamics 365 Marketing”, „Dynamics 365 Customer Service” ir „Dynamics 365 Field Service”, sklandžiai sąveikauti su „Finance and Operations” programomis.
++ Įdiegus dvigubo rašymo „AppSource” paketą, „Dataverse” bus naujų sąvokų, tokių kaip įmonė ir šalis. Šios koncepcijos padeda programoms, įtaisytoms Dataverse "Dynamics 365 Sales", "Dynamics 365 Marketing", "Dynamics 365" klientų aptarnavimo tarnyba, ir sklandžiai sąveikauti su finansų ir Dynamics 365 Field Service operacijų programomis.
 
 + Veiklos ir pastabos yra suvienodintos ir išplėstos, kad būtų palaikomi ir C1 (sistemos vartotojai), ir C2 (sistemos klientai).
 
-+ Norėdami neprarasti duomenų atliekant valiutos perdavimą tarp „Finance and Operations” programų ir „Dataverse”, padidinkite klientų įtraukimo programų valiutos duomenų tipo skaitmenų po kablelio skaičių. Funkcija automatiškai paverčia esamas eilutes nauja išplėstine būsena metaduomenų sluoksnyje. Šio proceso metu valiutos vertė yra paverčiama dešimtainiais duomenimis, o ne pinigų duomenimis, ir valiutos vertė palaiko 10 skaitmenų po kablelio. Ši funkcija pasirenkama, todėl organizacijoms, kurioms nereikia daugiau nei 4 skaitmenų po kablelio tikslumo, nereikia naudoti funkcijos. Daugiau informacijos žr. [Dvigubo rašymo valiutos duomenų tipo perkėlimas](currrency-decimal-places.md).
++ Norėdami išvengti duomenų praradimo perduodant valiutą tarp finansų ir operacijų programėlių ir "The", galėsite išplėsti klientų įsipareigojimo programėlių valiutos duomenų tipo dešimtainių Dataverse dalių vietų skaičių. Funkcija automatiškai paverčia esamas eilutes nauja išplėstine būsena metaduomenų sluoksnyje. Šio proceso metu valiutos vertė yra paverčiama dešimtainiais duomenimis, o ne pinigų duomenimis, ir valiutos vertė palaiko 10 skaitmenų po kablelio. Ši funkcija pasirenkama, todėl organizacijoms, kurioms nereikia daugiau nei 4 skaitmenų po kablelio tikslumo, nereikia naudoti funkcijos. Daugiau informacijos žr. [Dvigubo rašymo valiutos duomenų tipo perkėlimas](currrency-decimal-places.md).
 
 + [Datos galiojimas](../../dev-tools/date-effectivity.md) bus įtrauktas į „Dataverse”. Jame bus palaikomi ankstesni, dabartiniai ir būsimi duomenys toje pačioje lentelėje.
 

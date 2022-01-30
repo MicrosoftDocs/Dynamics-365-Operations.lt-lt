@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: b21fba6fbfd4fe2a645efd56fb3592252c2a3fe0
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.openlocfilehash: e4a120dd4199b143c3103392515c85e7b887194b
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920628"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7982725"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management"></a>Kas nauja ar pasikeitė „Dynamics 365 Supply Chain Management“
 
@@ -31,7 +31,7 @@ Norėdami sužinoti, kas nauja ar pasikeitė kiekviename „Dynamics 365 Supply 
 
 | Versija | Versijos numeris | Automatinių naujinimų pasiekiamumas | Sužinokite daugiau |
 |---|---|---|---|
-| 10.0.24 | 10.0.1084 | 2022 m. vasario mėn. | [Peržiūros versija Dynamics 365 Supply Chain Management 10.0.24](whats-new-scm-10-0-24.md) |
+| 10.0.24 | 10.0.1084 | 2022 m. vasario mėn. | [Kas nauja ar pasikeitė „Dynamics 365 Supply Chain Management“ 10.0.24](whats-new-scm-10-0-24.md) |
 | 10.0.23 | 10.0.1037 | Sausio 2022 d. | [Kas nauja ar pasikeitė „Dynamics 365 Supply Chain Management“ 10.0.23](whats-new-scm-10-0-23.md) |
 | 10.0.22 | 10.0.995 | 2021 m. lapkričio mėn. | [Kas nauja ar pasikeitė „Dynamics 365 Supply Chain Management“ 10.0.22](whats-new-scm-10-0-22.md) |
 | 10.0.21 | 10.0.960 | 2021 spalio mėn. | [Kas nauja ar pasikeitė „Dynamics 365 Supply Chain Management“ 10.0.21](whats-new-scm-10-0-21.md) |
@@ -62,8 +62,8 @@ Norėdami sužinoti, kas nauja ar pasikeitė leidimuose iki 2019 m. lapkričio m
 | „Microsoft Dynamics 365 for Finance and Operations“                     | 10.0.3      | 10.0.107         | 2019 m. birželio mėn.        | [Kas nauja ar pasikeitė „Dynamics 365 for Finance and Operations“ 10.0.3 versijoje (2019 m. birželio mėn.)](../../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-3.md)                    |
 | „Microsoft Dynamics 365 for Finance and Operations“                     | 10.0.2      | 10.0.80          | Gegužės 2019         | [Kas nauja ar pasikeitė „Dynamics 365 for Finance and Operations“ 10.0.2 versijoje (2019 m. gegužės mėn.)](../../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-2.md)                     |
 | „Microsoft Dynamics 365 for Finance and Operations“                     | 10.0.1      | 10.0.51          | 2019 m. balandžio mėn.       | [Kas nauja ar pasikeitė „Dynamics 365 for Finance and Operations“ 10.0.1 versijoje (2019 m. balandžio mėn.)](../../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-1.md)                   |
-| „Microsoft Dynamics 365 for Finance and Operations“                     | 10.0        | 10.0.8           | 2019 m. balandžio mėn.       | [Kas nauja ar pasikeitė „Finance and Operations“ 10.0 versijoje (2019 m. balandžio mėn.)](../../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-1.md)                                      |
-| „Microsoft Dynamics 365 for Finance and Operations“                     | 8,1,3       | 8,1,227          | 2019 m. sausio mėn.     | [Kas nauja ar pasikeitė „Dynamics 365 for Finance and Operations“ 8.1.3 versijoje (2019 m. sausio mėn.)](../../fin-ops-core/fin-ops/get-started/whats-new-changed-8-1-3.md)                   |
+| „Microsoft Dynamics 365 for Finance and Operations“                     | 10.0        | 10.0.8           | 2019 m. balandžio mėn.       | [Kas nauja arba pakeista „Finance and Operations“ 10.0 versijoje (2019 m. balandžio mėn.)](../../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-1.md)                                      |
+| „Microsoft Dynamics 365 for Finance and Operations“                     | 8.1.3       | 8.1.227          | 2019 m. sausio mėn.     | [Kas nauja ar pasikeitė „Dynamics 365 for Finance and Operations“ 8.1.3 versijoje (2019 m. sausio mėn.)](../../fin-ops-core/fin-ops/get-started/whats-new-changed-8-1-3.md)                   |
 | „Microsoft Dynamics 365 for Finance and Operations“                     | 8,1,2       | 8,1,195          | 2018 m. gruodžio mėn.    | [Kas nauja ar pasikeitė „Dynamics 365 for Finance and Operations“ 8.1.2 versijoje (2018 m. gruodžio mėn.)](../../fin-ops-core/fin-ops/get-started/whats-new-changed-8-1-2.md)                  |
 | „Microsoft Dynamics 365 for Finance and Operations“                     | 8,1,1       | 8,1,170          | 2018 m. spalio mėn.     | [Kas nauja ar pasikeitė „Dynamics 365 for Finance and Operations“ 8.1.1 versijoje (2018 m. spalio mėn.)](../../fin-ops-core/fin-ops/get-started/whats-new-changed-8-1-1.md)                   |
 | „Microsoft Dynamics 365 for Finance and Operations“                     | 8,1         | 8,1,136          | 2018 m. spalio mėn.     | [Kas nauja ar pasikeitė „Dynamics 365 for Finance and Operations“ 8.1 versijoje (2018 m. spalio mėn.)](../../fin-ops-core/fin-ops/get-started/whats-new-changed-8-1-october-2018.md)          |

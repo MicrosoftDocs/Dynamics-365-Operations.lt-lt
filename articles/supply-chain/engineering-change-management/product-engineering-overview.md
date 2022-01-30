@@ -2,23 +2,22 @@
 title: Inžinerijos pakeitimų valdymo peržiūra (yra vaizdo įrašas)
 description: Ši tema pateikia inžinerijos keitimo valdymo apžvalgą, kuri padeda jums planuoti ir valdyti produkto versijas ir valdyti produkto gyvenimo ciklus bei inžinerijos pokyčius.
 author: t-benebo
-ms.date: 08/26/2021
-ms.topic: article
+ms.date: 01/11/2022
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: intro-internal
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: d667aef827addcf7c34075b08afffffe3fd71935
-ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
-ms.translationtype: HT
+ms.openlocfilehash: 8c200796d587d77c0f4d2344524a890ba964ab39
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/10/2022
-ms.locfileid: "7952603"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7985217"
 ---
 # <a name="engineering-change-management-overview"></a>Inžinerijos keitimo valdymo apžvalga
 
@@ -39,9 +38,9 @@ Inžinerijos keitimo valdymo apžvalgą, kuri padeda jums planuoti ir valdyti pr
 - Inžinerijos pokyčio reikalavimai palaikomi darbo eigų
 - Inžinerijos pokyčio užsakymai palaikomi darbo eigų
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4HE6B]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4HE6B]
 
-Ankstesnis vaizdo įrašas ([Keitimo valdymo galimybės „Dynamics 365 Supply Chain Management“](https://youtu.be/N313FqvRuBc)) yra įtrauktos į [„Finance and Operations“ grojaraštį](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) prieinamą „YouTube“.
+Ankstesnis vaizdo [įrašas (keiskite valdymo Dynamics 365 Supply Chain Management](https://youtu.be/N313FqvRuBc) galimybes) yra įtrauktas į finansų ir [operacijų, kurios galimos šiuo](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) metu, sąrašą YouTube.
 
 ## <a name="turn-on-the-engineering-change-management-features-for-your-system"></a>Įjunkite inžinerijos keitimo valdymą savo sistemos funkcijoms
 
@@ -71,7 +70,9 @@ Tada įjunkite konfigūracijos raktus atlikdami toliau nurodytus veiksmus.
 
 1. Jei taip pat norite naudoti versijos dimensiją, tada pasirinkite **Produkto dimensija – Versija** žymės langelį. (Šis žymės langelis yra žemiau sąraše, o ne įdėtas po **Inžinerinių keitimų valdymo** mazgu.)
 1. Išjunkite priežiūros režimą kaip aprašyta [Priežiūros režime](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
-1. Vykdykite duomenų bazės sinchronizavimą, kad konfigūracijos raktai būtų tinkamai įgalinti.
+1. Norint įsitikinti, kad konfigūracijos raktai yra tinkamai įgalinti, duomenų bazė turi būti sinchronizuota. Atlikite vieną iš šių veiksmų atsižvelgdami į tai, su kokio tipo aplinka dirbate:
+    - **Jei naudojamos 1 pakopos (programavimo) aplinkos: atidarykite savo projektą "Microsoft" ir pasirinkite** Visual Studio **"Dynamics 365" sinchronizuoti \> duomenų \>** bazę.
+    - **2 pakopų (ir aukštesnio) aplinkose: įdus aplinką į priežiūros režimą ir iš jos, duomenų bazė sinchronizuojama automatiškai, kad šį veiksmą būtų** galima praleisti.
 
 > [!IMPORTANT]
 > Nuo 2022 m. balandžio mėn. „Engineering Change Management“ ir produkto dimensijos licencijos raktai – versija bus įgalinta pagal numatytuosius nustatymus visoms naujiems **diegimams, tačiau prireikus vis tiek galėsite** jas **išjungti**.

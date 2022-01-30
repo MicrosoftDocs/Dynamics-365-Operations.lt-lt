@@ -3,7 +3,7 @@ title: Pardavimo ir rinkodaros apžvalga
 description: Galite naudoti pardavimą ir rinkodarą norėdami gauti, saugoti ir naudoti įvairių tipų pardavimo srauto duomenis. Šie duomenys apima pradinę pardavimo iniciatyvą, tolesnę sekimo veiklą ir papildomą pardavimą.
 author: kfend
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application User
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 822f6c926b93af1ab36fa45bd642e5cdd7c821ae2bfd318625fc734a1fbd4f9c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 021ff1ff24e20516b7a8ac1ce206b76aa8e91a2a
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6721252"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7982539"
 ---
 # <a name="sales-and-marketing-overview"></a>Pardavimo ir rinkodaros apžvalga
 

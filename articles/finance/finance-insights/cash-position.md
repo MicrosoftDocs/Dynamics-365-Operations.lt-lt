@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 6bb99084a2ffef067dd0d7158ecb5e57d6d97d75
-ms.sourcegitcommit: c8dc60bb760553f166409c2e06dd2377f601c006
+ms.openlocfilehash: 7d43657573ea8092f047615fc50a1a50ab97f094
+ms.sourcegitcommit: 133aa728b8a795eaeaef22544f76478da2bd1df9
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/23/2021
-ms.locfileid: "7945806"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7968992"
 ---
 # <a name="cash-position"></a>Grynųjų pinigų pozicija
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Grynųjų pinigų padėtis yra grynųjų pinigų prognozė artimiausiam laikotarpiui. Ji paremta grynųjų pinigų gavimo iš klientų, kurie moka neapmokėtas SF ir užsakymus, prognoze bei numatomu grynųjų pinigų išmokėjimu, vykdomu tiekėjams už pirkimo SF ir užsakymus.
 

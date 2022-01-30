@@ -1,6 +1,6 @@
 ---
 title: Duomenų integravimo projekto kūrimas
-description: Šioje temoje aiškinama, kaip sukurti duomenų integravimo projektą.
+description: Šioje temoje paaiškinama, kaip sukurti duomenų integravimo projektą.
 author: ShivamPandey-msft
 ms.date: 11/03/2021
 ms.topic: article
@@ -15,19 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-24
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 7841f8b31e0ac1a40dce9acaac747f5f378236e0
-ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
+ms.openlocfilehash: 956524e3778eed9898374952466f70c37c99163f
+ms.sourcegitcommit: 133aa728b8a795eaeaef22544f76478da2bd1df9
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752669"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7968942"
 ---
 # <a name="create-a-data-integration-project"></a>Duomenų integravimo projekto kūrimas
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-Šioje temoje aiškinama, kaip sukurti duomenų integravimo projektą.
+Šioje temoje paaiškinama, kaip sukurti duomenų integravimo projektą.
 
 1. Prisijunkite prie „Microsoft Dynamics 365 Finance“.
 2. Eikite į **Darbo sritys \> Duomenų valdymas** ir pasirinkite **Duomenų objektai**. Palaukite, kol visi duomenų objektai bus atnaujinti, prieš pereidami prie tolesnio veiksmo.
@@ -42,7 +41,7 @@ ms.locfileid: "7752669"
 
 4. Atidarykite [„Power Apps“ aplinkas](https://admin.powerapps.com/environments) ir atlikite tolesnius veiksmus.
 
-    1. Pasirinkite **Duomenų integravimas**.
+    1. Pasirinkite **duomenų integravimą**.
     2. Pasirinkite **Ryšio rinkiniai**.
     3. Pasirinkite **Naujas ryšio rinkinys**.
     4. Įveskite ryšio pavadinimą.
@@ -58,7 +57,7 @@ ms.locfileid: "7752669"
 
     1. Kurkite tolesnių šablonų duomenų integravimo projektus, naudodami ką tik sukurtą ryšio rinkinį.
 
-        - Klientų mokėjimo įžvalgų rezultatas (CDS į Fin ir Ops 10.0.17+)
+        - Kliento mokėjimų žinių žinių rezultatai (CDS į Fin ir Ops 10.0.17+)
         - Grynųjų pinigų srautų laiko serijos rezultatai (CDS į „Fin and Ops“)
         - Biudžeto laiko serijos rezultatai (CDS į „Fin and Ops“)
 

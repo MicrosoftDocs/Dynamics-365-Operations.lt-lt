@@ -3,7 +3,7 @@ title: Integruotų kanalų mokėjimų apžvalga
 description: Šioje temoje pateikiama informacija apie „Dynamics 365 Commerce“ integruoto kanalo mokėjimus.
 author: BrianShook
 ms.date: 09/17/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application user
@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: brshoo
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: AX 8.1.3
-ms.openlocfilehash: 0b01a5b08304b04b924da20310b6eee0c50e9d0e
-ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
+ms.openlocfilehash: 593a647caeaf7d06aa1f2067954466db7dac6a1d
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7779723"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7984171"
 ---
 # <a name="omni-channel-payments-overview"></a>Integruotų kanalų mokėjimų apžvalga
 
@@ -71,7 +71,7 @@ Būtini toliau nurodyti komponentai ir nustatymo veiksmai.
 - **Mokėjimo paslaugos:** skambučių centras naudoja numatytąją mokėjimo jungtį puslapyje **Mokėjimo paslaugos**, kad apdorotų mokėjimus. Siekiant palaikyti tokius scenarijus „Pirkimas skambučių centre, atsiėmimas parduotuvėje“, ši numatytoji mokėjimo jungtis turi būti „Adyen“ mokėjimo jungtis arba mokėjimo jungtis, kuri atitinka integruoto kanalo mokėjimų vykdymo reikalavimus.
 - **EFT paslauga:** mokėjimo terminale atliekami mokėjimai turi būti nustatyti aparatinės įrangos profilio „FastTab“**EFT paslauga**. „Adyen“ jungtis iš karto palaiko integruoto kanalo mokėjimus. Kitos mokėjimo jungtys, palaikančios sąsają **iNamedRequestHandler**, taip pat gali būti naudojamos, jei jos palaiko integruoto kanalo mokėjimus.
 - **Mokėjimo jungties pasiekiamumas:** kai užsakymas atšaukiamas, į mokėjimo priemonės eilutes, kurios buvo atšauktos kartu su užsakymu, įtraukiamas mokėjimo jungties, kuri buvo naudojama kuriant su tuo užsakymu susijusius autorizavimus, pavadinimas. Kai užsakymas įvykdomas, mokėjimų SDK bando naudoti tą pačią jungtį, kuri buvo naudojama pradiniam autorizavimui sukurti. Todėl jungtį, kurios prekybininko ypatybės sutampa, turi pavykti fiksuoti. 
-- **Kortelių tipai:** kad integruoto kanalo scenarijai veiktų tinkamai, kiekvieno kanalo priemonių tipų sąranka turi būti tokia pati ir ją turi būti galima naudoti integruotame kanale. Ši sąranka apima apmokėjimo būdo ID ir kortelės tipo ID. Pvz., jei internetinės parduotuvės sąrankoje priemonės tipo **Kortelės** ID yra **2**, mažmeninės parduotuvės sąrankoje jos ID turi būti toks pat. Tas pats reikalavimas taikomas kortelės tipo ID. Jei internetinėje parduotuvėje kortelės numeris **12** nustatytas kaip **VISA**, mažmeninės prekybos parduotuvėje turi būti nustatytas toks pat ID. 
+- **Kortelių tipai:** kad integruoto kanalo scenarijai veiktų tinkamai, kiekvieno kanalo priemonių tipų sąranka turi būti tokia pati ir ją turi būti galima naudoti integruotame kanale. Ši sąranka apima apmokėjimo būdo ID ir kortelės tipo ID. Pvz., jei internetinės parduotuvės sąrankoje priemonės tipo **Kortelės** ID yra **2** , mažmeninės parduotuvės sąrankoje jos ID turi būti toks pat. Tas pats reikalavimas taikomas kortelės tipo ID. Jei internetinėje parduotuvėje kortelės numeris **12** nustatytas kaip **VISA**, mažmeninės prekybos parduotuvėje turi būti nustatytas toks pat ID. 
 - „ Retail Modern POS“ „Windows“ ar „Android“ su įdiegta kompiuterinės įrangos stotimi -arba-
 - Modernus POS iOS ar debesies POS su sujungta bendrinta kompiuterinės įrangos stotimi. 
 

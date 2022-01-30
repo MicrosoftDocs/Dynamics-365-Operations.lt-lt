@@ -3,7 +3,7 @@ title: SEPA kredito pervedimų apžvalga
 description: Šiame straipsnyje pateikiama bendra informacija apie ISO 20022 kredito pervedimus, kurie apima bendros mokėjimų eurais erdvės (SEPA) kredito pervedimus ir bet kurį kitą elektroninį mokėjimą tiekėjams. SEPA kredito pervedimas yra konkretaus tipo mokėjimas eurais iš vienos įmonės ar asmens kitai įmonei ar asmeniui. Temoje taip pat paaiškinta, kaip nustatyti ir perduoti SEPA kredito pervedimo mokėjimo failą.
 author: sunfzam
 ms.date: 06/20/2017
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerJournalTransVendInvoice, LedgerJournalTransVendPaym, VendPaymMode
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7bc62f6912433d698024b20e61f54b9a6aea2bbb
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
-ms.translationtype: HT
+ms.openlocfilehash: fc37dde8829abdd26a224adbd788538834f4d320
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7594772"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7984032"
 ---
 # <a name="sepa-credit-transfer-overview"></a>SEPA kredito pervedimų apžvalga
 

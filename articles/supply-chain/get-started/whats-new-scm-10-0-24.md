@@ -1,5 +1,5 @@
 ---
-title: „Dynamics 365 Supply Chain Management“ 10.0.24 išankstinė peržiūra (2022 m. vasaris)
+title: Kas nauja ar pasikeitė „Dynamics 365 Supply Chain Management“ 10.0.24 (2022 m. vasario mėn.)
 description: Šioje temoje aprašomos naujos ir pakeistos „Microsoft Dynamics 365 Supply Chain Management“ 10.0.24 funkcijos.
 author: kamaybac
 ms.date: 12/03/2021
@@ -10,19 +10,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-12-03
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: f6402d7f9f433ca621c475bd62553529943dbe62
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.openlocfilehash: d7dd3bbb0d1aa701757ad7fa525aba04fe9419c9
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920553"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7986308"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10024-february-2022"></a>„Dynamics 365 Supply Chain Management“ 10.0.24 išankstinė peržiūra (2022 m. vasaris)
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10024-february-2022"></a>Kas nauja ar pasikeitė „Dynamics 365 Supply Chain Management“ 10.0.24 (2022 m. vasario mėn.)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-Šioje temoje pristatomos funkcijos, kurios yra naujos arba pakeistos „Microsoft Dynamics 365 Supply Chain Management“ 10.0.24 peržiūros versijoje. Šios versijos komponavimo numeris yra 10.0.1084 ir jis pasiekiamas tokius būdu:
+Ši tema išvardyja funkcija, kurios yra naujos arba pakeistos „Microsoft Dynamics 365 Supply Chain Management“ 10.0.24 versijoje. Šios versijos komponavimo numeris yra 10.0.1084 ir jis pasiekiamas tokius būdu:
 
 - **Paleidimo peržiūra:** 2021 m. gruodžio mėn.
 - **Bendras leidimo prieinamumas (savaiminis naujinimas):** 2022 m. sausio mėnuo
@@ -47,7 +46,7 @@ Jei norite įjungti arba išjungti bet kurią iš šių priemonių, tai turite a
 |---|---|---|
 | Gamybos kontrolė | Gamybos užsakymų medžiagų pasiekiamumo pareikalavus patikra | Ši funkcija padeda greičiau atidaryti gamybos **užsakymus, kad būtų galima** paleisti puslapį, kurį galima pasiekti gamybos **laiko valdymo darbo** srityje. Be šios priemonės sistema automatiškai patikrina, ar visiems išvardytiems gamybos užsakymams medžiagos galimos iš karto, kai tik atidarote puslapį, o tai gali užtrukti, jei yra daug užsakymų. Kai ši funkcija įgalinta, sistema pateikia įrankių juostos mygtuką, kurį galite naudoti, norėdami inicijuoti medžiagų tikrinkite tik pasirinktus užsakymus ir, kai jų reikia. |
 | Gamybos kontrolė | (Peržiūros versija) Registruokite medžiagų suvartojimą gamybos vietos vykdymo sąsajoje (ne WMS) | Ši funkcija leidžia darbuotojams naudoti gamybos laiko vykdymo sąsają medžiagų suvartojimui, paketo numeriams ir serijos numeriams registruoti. Ši funkcija palaiko tik prekes, kurios neįgalintos naudoti išplėstinių sandėlio procesų (WMS). WMS įgalintų prekių palaikymas planuojamas būsimam paleidimui.<p>Kai kurie gamintojai, ypač proceso pramonės šakose, turi aiškiai registruoti kiekvienam paketui ar gamybos užsakymui suvartotų medžiagų kiekį. Pavyzdžiui, darbuotojai gali naudoti svarstyklių skalę, kad galėtų pasverti jų darbui suvartotų medžiagų kiekį. Siekiant užtikrinti visą medžiagų kiekį, šios organizacijos taip pat turi registruoti, kurie paketų numeriai buvo suvartoti gaminant kiekvieną produktą. |
-| Gamybos kontrolė | Pranešti apie pabaigą apie sandėlio valdymo darbo krūvį debesiui ir briaunos skalės vienetui | Ši funkcija leidžia darbuotojams naudoti sandėlio valdymo mobiliąją programą pranešti apie gamybos arba paketinį užsakymą kaip baigtą, kai programa veikia naudojant sandėlio valdymo darbo krūvį debesies arba kraštų skalės vienetais. Daugiau informacijos rasite Ataskaita kaip [baigta ir Padėti ant svarstyklių vieneto.](../cloud-edge/cloud-edge-workload-manufacturing.md#RAF) |
+| Gamybos kontrolė | Pranešti, kai bus baigta su sandėlio valdymo darbo krūviu debesies ir briaunos skalės įrenginyje | Ši funkcija leidžia darbuotojams naudoti sandėlio valdymo mobiliąją programą pranešti apie gamybos arba paketinį užsakymą kaip baigtą, kai programa veikia naudojant sandėlio valdymo darbo krūvį debesies arba kraštų skalės vienetais. Daugiau informacijos rasite Ataskaita kaip [baigta ir Padėti ant svarstyklių vieneto.](../cloud-edge/cloud-edge-workload-manufacturing.md#RAF) |
 | Gamybos kontrolė | Paleisti gamybos užsakymą naudojant sandėlio valdymo darbo krūvį debesies ir briaunos skalės vienetui | Ši funkcija leidžia darbuotojams naudoti sandėlio valdymo mobiliąją programą ir pradėti gamybos arba paketinį užsakymą, kai programa vykdoma naudojant sandėlio valdymo darbo krūvį debesies arba kraštų skalės vienetais. |
 | Sandėlio valdymas | Nauji krovinio planavimo darbo srityje puslapiai | Įgalina du naujus krovinio planavimo darbo srityje puslapius: gaunamo krovinio planavimo darbo srityje **ir** **siunčiamo krovinio planavimo darbo** srityje. |
 
@@ -69,9 +68,9 @@ Neseniai įtraukėme ir reikšmingai atnaujinome tolesnes pagalbos temas. Šios 
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
-### <a name="platform-updates-for-finance-and-operations-apps"></a>„Finance and Operations” programų platformos naujinimai
+### <a name="platform-updates-for-finance-and-operations-apps"></a>Finansų ir operacijų programėlių platformos naujinimai
 
-„Microsoft Dynamics 365 Supply Chain Management“ 10.0.24 versijoje yra platformos naujinimų. Dėl daugiau informacijos, žr. [Platformos naujinimas 10.0.24 „Finance and Operations“ programų versijai (2021 m. lapkričio mėn.)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-24.md).
+„Microsoft Dynamics 365 Supply Chain Management“ 10.0.24 versijoje yra platformos naujinimų. Norėdami sužinoti daugiau, žr. finansų ir operacijų programėlių [10.0.24 versijos (2021 m. lapkričio mėn.) platformos](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-24.md) naujinimus.
 
 ### <a name="bug-fixes"></a>Klaidų ištaisymai
 

@@ -1,54 +1,58 @@
 ---
 title: Įvesti projekto tabelius
 description: Ši procedūra padeda kurti grafikus naudojant tuščias grafikų formas.
-author: andreabichsel
-ms.date: 08/08/2019
+author: twheeloc
+ms.date: 01/10/2022
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: anbichse
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.search.industry: Service industries
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fec46c9d7dcc1804bbfbf599b7d87ff3f4ac743b40b674eaf09579b0c0da60a6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 10e33b9216838313e8f294f4f0f196b07a3d5cc9
+ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6751453"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "7964939"
 ---
 # <a name="enter-project-timesheets"></a>Įvesti projekto tabelius
 
-Ši procedūra padeda kurti grafikus naudojant tuščias grafikų formas. Naujas grafikas gali būti pagrįstas ankstesniojo grafiko arba projekto ir veiklos užduočių informacija puslapyje **Mano parankiniai**. Pagal numatytuosius nustatymus, sąrašo puslapis **Visi grafikai** rodo visus jūsų dabartinio laikotarpio grafikus. Galite naudoti išplečiamąjį sąrašą, skirtą puslapyje **Mano grafikai** esančiam laukui **Rodyti**, kad filtruotumėte grafikų sąrašą pagal laikotarpį ar projektą, arba kad peržiūrėtumėte kitų darbuotojų vardu sukurtus grafikus. Kuriant šią procedūrą naudojama demonstracinių duomenų įmonė yra USSI.  
+Naudojant šią procedūrą galima sukurti tabelį, naudojant tuščią tabelio puslapį. Naujas tabelis gali būti paremtas informacija iš ankstesnio tabelio arba iš projekto ir veiklos priskyrimų puslapyje Mano **parankiniai**. Pagal numatytuosius **nustatymus visų** tabelių sąrašo puslapyje rodomi visi dabartinio laikotarpio tabeliai. Norėdami filtruoti tabelių sąrašą pagal laikotarpį ar projektą arba peržiūrėti tabelius, sukurtus kitų darbuotojų vardu, galite naudoti **lauką** **Rodyti**. **USSI** demonstracinių duomenų įmonė buvo naudojama šiai procedūrai sukurti.
 
-1. Parinktyje **Naršymo sritis** eikite į **Moduliai > Projekto valdymas ir apskaita > Grafikai > Mano grafikai**.
-2. Norėdami įvesti naują grafiką, spustelėkite **Naujas**.
-    - Pagal numatytuosius parametrus išplečiamajame sąraše Ištekliai rodomas darbuotojas, priskirtas dabartinio vartotojui.  
-    - Jei vartotojas yra nustatomas kaip perėmėjas, bus pateiktos pavardės, kad vartotojas pats galėtų įvesti grafiką.  
-3. Lauke **Data** įveskite datą. Jei ši parinktis pasirinkta, naujos grafiko eilutės bus sukurtos naudojant grafiko parametrus, kurie buvo sukonfigūruoti kaip parankiniai.  
-4. Spustelėkite **Gerai**.
-5. Spustelėkite **Nauja eilutė**.
-6. Sąraše pažymėkite pasirinktą eilutę. Lauke **Juridinis subjektas** rodomas dabartinis juridinis subjektas, nustatytas pagal numatytuosius nustatymus.   
-7. Lauke **Projektas** spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
+1. Eikite **į projektų valdymo ir apskaitos \>\> tabelius Mano** tabeliai.
+2. Pasirinkite **Naujas**, kad būtų galima įvesti naują tabelį.
+
+    Pagal numatytuosius **nustatymus** išteklių lauke rodomas dabartiniam vartotojui priskirtas darbuotojas.
+
+    Jei vartotojas paskiriamas perėmėjo vardu, vardai bus pateikti, kad vartotojas galėtų savo vardu įvesti tabelį.
+
+3. Lauke **Data** įveskite datą. Jei ši parinktis pasirinkta, naujos grafiko eilutės bus sukurtos naudojant grafiko parametrus, kurie buvo sukonfigūruoti kaip parankiniai.
+4. Pasirinkite **Gerai**.
+5. Pasirinkite **naują** eilutę.
+6. Sąraše pažymėkite pasirinktą eilutę. Pagal numatytuosius **nustatymus juridinio** subjekto lauke rodomas dabartinis juridinis subjektas.
+7. Norėdami **atidaryti** peržvalgą, lauke Projektas pasirinkite išplečiamąjį rodyklę.
 8. Sąraše raskite ir pasirinkite norimą įrašą.
-9. Sąraše spustelėkite saitą pasirinktoje eilutėje.
-10. Lauke **Veiklos numeris** spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
+9. Šiame sąraše pasirinkite nuorodą pasirinktoje eilutėje.
+10. Lauke **Veiklos numeris** pasirinkite išplečiamąjį rodyklę, kad atidarytumėte peržvalgą.
 11. Sąraše raskite ir pasirinkite norimą įrašą.
-12. Sąraše spustelėkite saitą pasirinktoje eilutėje.
-13. Lauke **Kategorija** spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
+12. Šiame sąraše pasirinkite nuorodą pasirinktoje eilutėje.
+13. Lauke **Kategorija** pasirinkite išplečiamąjį rodyklę, kad atidarytumėte peržvalgą.
 14. Sąraše raskite ir pasirinkite norimą įrašą.
-15. Sąraše spustelėkite saitą pasirinktoje eilutėje.
-16. Įveskite valandų skaičių, dirbtą kiekvieną dieną. Įveskite valandas dešimtainių formatu. Pvz., jei dirbote dvi valandas ir penkiolika minčių, įveskite 2,25.   
-17. Parinktyje **Išsami eilučių informacija** galimos šios parinktys:
-    - Pridėti informaciją apie mokesčių ir finansines dimensijas skirtukuose **Bendra** ir **Finansinės dimensijos**.
-    - Pridėti komentarų apie grafiko eilutę skirtuke **Komentaras**.
-20. Parinktyje **Veiksmų sritis** spustelėkite **Darbo eiga**, kad atidarytumėte tiesioginio dialogo langą.
-21. Spustelėkite **Pateikti**.
-22. Spustelėkite **Pateikti**.
+15. Šiame sąraše pasirinkite nuorodą pasirinktoje eilutėje.
+16. Įveskite valandų skaičių, kuris dirba kiekvieną dieną. Įveskite valandas dešimtainių formatu. Pavyzdžiui, jei dirbote dvi valandas ir 15 minučių, įveskite **2.25.**
 
+    Eilutės **informacijos skyriuje** galimos šios pasirinktys:
 
+    - Pridėti informacijos apie mokesčius ir finansines **dimensijas skirtukuose** Bendra ir Finansinės **dimensijos**.
+    - Pridėkite komentarus apie tabelio eilutę skirtuke **Komentaras**.
+
+17. Veiksmų srityje pasirinkite Darbo eiga, **kad** atidarytumėte išplečiamąjį dialogo langą.
+18. Pasirinkite **Pateikti**.
+19. Pasirinkite **Pateikti**.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

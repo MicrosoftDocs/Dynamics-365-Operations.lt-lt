@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-24
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: d968f28126cf205a487d84301aa28f1251713386
-ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
+ms.openlocfilehash: cfcdbe76d640d1786b4622febf9157f5fb1c42f9
+ms.sourcegitcommit: 133aa728b8a795eaeaef22544f76478da2bd1df9
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752693"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7969142"
 ---
 # <a name="enable-cash-flow-forecasting"></a>Grynųjų pinigų srautų prognozavimo įjungimas
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Šioje temoje paaiškinama, kaip įjungti pinigų srautų prognozių funkciją finansų žinių srityje.
 
@@ -35,7 +34,7 @@ ms.locfileid: "7752693"
 1. Atidarykite darbo sritį **Funkcijų valdymas** ir atlikite tolesnius veiksmus.
 
     1. Pasirinkite **Tikrinti, ar yra naujinimų**.
-    2. Skirtuke **·** Viskas ieškokite pinigų srautų **prognozių**. Jei tos priemonės nerandate, ieškokite **(Peržiūrėti) pinigų srautų prognozių**. 
+    2. Skirtuke **Viskas** ieškokite pinigų srautų **prognozių**. Jei tos priemonės nerandate, ieškokite **(Peržiūrėti) pinigų srautų prognozių**. 
     3. Įjungti funkciją.
 
 2. Eikite į **Grynųjų pinigų ir banko valdymas \> Grynųjų pinigų srautų prognozių sąranka** ir įtraukite likvidumo sąskaitas, kurios turi būti įtrauktos į prognozes. Mokėjimų likvidumo sąskaitą taip pat nustatykite gautinų sumų **ir** **mokėtinų sumų** skirtukuose. Įsitikinkite, kad perskaičiuoti pinigų srautų prognozę.
@@ -43,7 +42,7 @@ ms.locfileid: "7752693"
     > [!NOTE]
     > Jei likvidumo sąskaitos nenustatytos, grynųjų pinigų srauto sugeneruoti negalima.
     >
-    > Daugiau informacijos apie tai, kaip nustatyti pinigų srautų prognozes, ieškokite [Pinigų srautų prognozavimas](../cash-bank-management/cash-flow-forecasting.md).
+    > Daugiau informacijos apie tai, kaip nustatyti pinigų srautų prognozes, ieškokite [pinigų srautų prognozių eigą.](../cash-bank-management/cash-flow-forecasting.md)
 
 3. Eikite į **Grynųjų pinigų ir banko valdymas \> Sąranka \> Finansinės įžvalgos (peržiūros versija) \> Grynųjų pinigų srautų prognozes (peržiūros versija)** ir atlikite tolesnius veiksmus.
 

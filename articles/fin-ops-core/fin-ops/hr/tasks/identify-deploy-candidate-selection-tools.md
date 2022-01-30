@@ -1,60 +1,61 @@
 ---
 title: Nustatyti ir sukurti pretendentų atrankos priemones
 description: Rasti kvalifikuotų kandidatų telkinį laisvoms vietoms užimti gali būti sunku, ypač, kai pareigoms reikalingas unikalus įgūdžių rinkinys.
-author: andreabichsel
-ms.date: 11/20/2020
+author: twheeloc
+ms.date: 01/10/2022
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
 ms.search.form: HcmSkillMapping, HcmJobLookup, HcmSkillMappingLine, HcmPersonCertificate, CCHTMLPrintPreview
 audience: Application User
-ms.reviewer: anbichse
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: cae72f9ad1e627c1de547de9689f951a6aea0f9eb37d426034652332a7929a22
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 23ac3067c03bf2cf336848301e8c27b60da8dc8c
+ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723036"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "7964836"
 ---
 # <a name="identify-and-deploy-candidate-selection-tools"></a>Nustatyti ir sukurti pretendentų atrankos priemones
 
 [!include [banner](../../includes/banner.md)]
 
-Rasti kvalifikuotų kandidatų telkinį laisvoms vietoms užimti gali būti sunku, ypač, kai pareigoms reikalingas unikalus įgūdžių rinkinys.  Tačiau gali būti, kad kandidatai su reikiamais įgūdžiais jau dirba jūsų organizacijoje. Konkretaus įgūdžių rinkinio galite ieškoti tarp esamų darbuotojų arba naujų pretendentų. Tai darbdaviui leidžia greitai surinkti ir peržiūrėti pretendentus, kurie į laisvas pareigas kandidatuoja dabar arba kandidatavo anksčiau, arba surasti potencialių kandidatų iš esamo darbuotojų telkinio. Naudodami šį užduočių įrašymą galite sužinoti, kaip įgūdžių išdėstymo funkcijos gali padėti rasti tinkamą asmenį laisvoms pareigoms užimti. Kuriant šią procedūrą naudojama demonstracinių duomenų įmonė yra USMF.
+Rasti kvalifikuotų kandidatų telkinį laisvoms vietoms užimti gali būti sunku, ypač, kai pareigoms reikalingas unikalus įgūdžių rinkinys. Tačiau gali būti, kad kandidatai su reikiamais įgūdžiais jau dirba jūsų organizacijoje. Konkretaus įgūdžių rinkinio galite ieškoti tarp esamų darbuotojų arba naujų pretendentų. Tai darbdaviui leidžia greitai surinkti ir peržiūrėti pretendentus, kurie į laisvas pareigas kandidatuoja dabar arba kandidatavo anksčiau, arba surasti potencialių kandidatų iš esamo darbuotojų telkinio. Norėdami sužinoti, kaip įgūdžių išdėstymo funkcija gali padėti rasti tinkamą asmenį atviroms pareigose, naudokite šią procedūrą. **USMF** demonstracinių duomenų įmonė buvo naudojama šiai procedūrai sukurti.
 
-1. Pasirinkite Personalas > Kompetencijos > Įgūdžių analizė > Įgūdžių išdėstymo profiliai.
-2. Spustelėkite Naujas.
-3. Lauke Įgūdžių išdėstymas įveskite įgūdžių išdėstymo pavadinimą.  Pavyzdys: buhalteris.
-4. Lauke Aprašas įveskite įgūdžių išdėstymo aprašą.
-5. Lauke Data įveskite datą.
-6. Spustelėkite Nuskaityti šabloną.
-    * Kaip ieškos pagrindą naudokite funkciją Nuskaityti šabloną ir iš pasirinkto asmens, užduoties ar kurso nuskaitykite sertifikatą, įgūdžius ir švietimo duomenis.   Tada galite pridėti arba pašalinti kriterijų, nurodyti, ar kriterijai yra pasirinktiniai, ir rikiuoti kriterijų svarbą.  
-7. Spustelėkite Užduotis.
-8. Lauke Užduotis įveskite arba pasirinkite reikšmę.
-9. Spustelėkite Gerai.
-10. Išplėskite FastTab“ Diapazonas ir įtraukite bet kokią papildomą informaciją, pvz., padalinį.
-11. Išplėtę „FastTab“ Sertifikatai, galėsite peržiūrėti arba redaguoti sertifikatus.
-12. Išplėtę „FastTab“ Įgūdžiai, galėsite peržiūrėti arba redaguoti įgūdžius.
-13. Išplėtę „FastTab“ Išsilavinimas, galėsite peržiūrėti arba redaguoti išsilavinimo kriterijus.
-14. Spustelėkite Vykdyti.
-15. Spustelėkite Gerai.
-16. Spustelėkite Rezultatas.
-17. Spustelėkite Rezultatas.
-18. Spustelėkite Atnaujinti.
-19. Spustelėkite Sertifikatai.
-    * Galite detalizuoti kiekvieną išvardytą asmenį ir peržiūrėti išsamią informaciją apie jų išsilavinimą, įgūdžius, profesinę patirtį.  
+1. Eikite **į personalo \> kompetencijų \> įgūdžių analizės įgūdžių \> išdėstymo profilius**.
+2. Pasirinkite **Nauja**.
+3. Laukelyje **Įgūdžių žemėlapis** įveskite jūsų įgūdžių žemėlapio pavadinimą. Pavyzdžiui, įveskite **buhalteris**.
+4. Aprašymo **lauke** įveskite įgūdžių išdėstymo aprašymą.
+5. Lauke **Data** įveskite datą.
+6. Pasirinkite Nuskaityti šabloną, kad gautumėte sertifikato, įgūdžių ir išsilavinimo duomenis iš pasirinkto asmens, užduoties ar kurso, kad ją būtų galima **naudoti** kaip ieškos pagrindą. Tada galite pridėti arba šalinti kriterijus, nurodyti, ar jie pasirinktiniai, ir svarbą.
+7. Pasirinkite **užduotį**.
+8. Užduoties **lauke** įveskite arba pasirinkite vertę.
+9. Pasirinkite **Gerai**.
+10. Diapazono **FastTab** pridėkite visą papildomą informaciją, pvz., padalinį.
+11. Peržiūrėti **arba** redaguoti sertifikatus "FastTab" sertifikatuose.
+12. Įgūdžių **FastTab** peržiūrėkite arba redaguokite įgūdžius.
+13. Išsilavinimo **FastTab** peržiūrėkite arba redaguokite išsilavinimo kriterijus.
+14. Rinkitės **Įgyvendinti**.
+15. Pasirinkite **Gerai**.
+16. Rinkitės **Rezultatas**.
+17. Rinkitės **Rezultatas**.
+18. Pasirinkite **CV**.
+19. Pasirinkite **sertifikatus**.
+
+    Galite detalizuoti toliau kiekvienam pateiktam asmeniui, norėdami peržiūrėti išsamią informaciją apie jų išsilavinimą, įgūdžius ir profesinę patirtį.
+
 20. Uždarykite puslapį.
 21. Uždarykite puslapį.
 22. Dar kartą pasirinkite rezultatą.
-23. Spustelėkite Ataskaita.
-    * Ataskaitoje geriausi atitikmenys bus pateikiami jos viršuje.  Galite matyti, kad yra pateiktas tarpo elementas.  Tai yra skirtumas tarp lygio, kuris buvo pateiktas įgūdžių išdėstyme, ir įgūdžių, priskirtų asmeniui, lygio.  
+23. Rinkitės **Ataskaita**.
+
+    Geriausios sutaptys bus išvardytos ataskaitos viršuje. Turėtumėte matyti, kad yra išvardytas trūkumo elementas. Šis elementas atspindi skirtumą tarp lygio, kuris buvo išvardytas įgūdžių išdėstyme, ir asmeniui priskirto įgūdžių lygio.
+
 24. Uždarykite puslapį.
-25. Spustelėkite Įrašyti.
-
-
+25. Pasirinkite **Įrašyti**.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

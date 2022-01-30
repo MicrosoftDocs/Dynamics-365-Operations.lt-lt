@@ -3,7 +3,7 @@ title: Mokesčių skaičiavimo duomenų modelis
 description: Šioje temoje pateikiama informacija apie mokesčių duomenų modelį ir apie tai, kaip kiekvieno duomenų modelio lauko vertės nustatomos pagal mokesčių skaičiavimo operacijų kontekstą.
 author: kailiang
 ms.date: 10/15/2021
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 4b9b3e28b9435e9614b06d4fa2855b31d0e38b41
-ms.sourcegitcommit: 93cc9823016c9f2fd568ada0b670a52c8c3bfa33
+ms.openlocfilehash: 2773efaed9ee30ccb27b35f5aa00515ebba1c84a
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/25/2021
-ms.locfileid: "7864265"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7985971"
 ---
 # <a name="tax-calculation-data-model"></a>Mokesčių skaičiavimo duomenų modelis
 
 Šioje temoje pateikiama informacija apie mokesčių duomenų modelį ir apie tai, kaip kiekvieno duomenų modelio lauko vertės nustatomos pagal mokesčių skaičiavimo operacijų kontekstą.
 
-Mokesčių *duomenų modelį* sudaro laukai, kurių reikia mokesčių skaičiavimams. „Microsoft" pateikia *mokesčių skaičiavimo duomenų modelį,* kuris apima programėlių operacijų dokumentų antraštės laukus ir eilučių „Finance and Operations“ laukus. Laukai, apibrėžti mokesčių skaičiavimo duomenų modelyje, yra galimi taikymo taisyklių lentelių stulpeliai mokesčių skaičiavimo priemonės konfigūracijos konfigūracijoje.
+Mokesčių *duomenų modelį* sudaro laukai, kurių reikia mokesčių skaičiavimams. "Microsoft" pateikia mokesčių skaičiavimo duomenų modelį, kuris apima finansų ir operacijų programėlių *operacijų dokumentų antraštės laukus ir eilučių* laukus. Laukai, apibrėžti mokesčių skaičiavimo duomenų modelyje, yra galimi taikymo taisyklių lentelių stulpeliai mokesčių skaičiavimo priemonės konfigūracijos konfigūracijoje.
 
 > [!NOTE] 
 > Kai kurie mazgai, apibrėžti duomenų modelyje, pvz., **įrašo ID** ir **lentelės ID**, skirti techniniams tikslams. Jų nėra mokesčių skaičiavimo priemonės konfigūracijos stulpeliuose.
@@ -55,7 +55,7 @@ Taip pat galite peržiūrėti mokesčių skaičiavimo duomenų modelį ir galim�
 
     [![Tvarkyti stulpelius.](./media/tax-calculation-model-mapping-3.png)](./media/tax-calculation-model-mapping-3.png)
 
-Mokesčių skaičiavimo duomenų modelis integruotas su „Finance and Operations“ programėle. Kiekvienos operacijos, susijusios su mokesčių apskaičiavimu, metu laukų vertės, apibrėžtos taikomumo taisyklių lentelėse, yra surenkamos ir siunčiamos skaičiavimui į mokesčių skaičiavimo tarnybą. Versijoje 40.46 galimi 57 iš anksto nustatyti duomenų modeliai, skirti šių operacijų tipams: pirkimo užsakymams, pardavimo užsakymams, perkėlimo užsakymams, pirkimo paraiškoms, pasiūlymo patvirtinimams ir pardavimo pasiūlymams.
+Mokesčių skaičiavimo duomenų modelis integruotas su finansų ir operacijų programėle. Kiekvienos operacijos, susijusios su mokesčių apskaičiavimu, metu laukų vertės, apibrėžtos taikomumo taisyklių lentelėse, yra surenkamos ir siunčiamos skaičiavimui į mokesčių skaičiavimo tarnybą. Versijoje 40.46 galimi 57 iš anksto nustatyti duomenų modeliai, skirti šių operacijų tipams: pirkimo užsakymams, pardavimo užsakymams, perkėlimo užsakymams, pirkimo paraiškoms, pasiūlymo patvirtinimams ir pardavimo pasiūlymams.
 
 Vienas vienas duomenų modelis gali būti įtrauktas kaip operacijos antraštės laukai. Tačiau ne visi laukai taikomi visiems operacijų tipams. Šioje lentelėje rodoma, kurie antraštės laukai galimi tam tikrų tipų tipus. Kai kuriais atvejais laukų susiejimas turi būti nustatomas pagal iš anksto nustatytą logiką. Kur taikoma, pateikiama logika.
 

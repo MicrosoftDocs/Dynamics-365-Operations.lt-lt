@@ -15,19 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 16ccd7f2e11f0b46aaa646de272e668d29ccc0c0
-ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
+ms.openlocfilehash: 5002fc79842bef150892347a7ff4702b07cfe5be
+ms.sourcegitcommit: 133aa728b8a795eaeaef22544f76478da2bd1df9
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752933"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7968892"
 ---
 # <a name="enable-customer-payment-predictions"></a>Kliento mokėjimo prognozių įjungimas
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-Šioje temoje paaiškinama, kaip įjungti ir konfigūruoti modulio „Finance Insights” funkciją Kliento mokėjimo prognozės. Įjunkite priemonių valdymo darbo srities **funkciją ir įveskite konfigūracijos parametrus finansų žinių konfigūracijos** **·** puslapyje. Šioje temoje taip pat pateikiama informacija, kuri gali padėti veiksmingai naudoti funkciją.
+Šioje temoje paaiškinama, kaip įjungti ir konfigūruoti modulio „Finance Insights” funkciją Kliento mokėjimo prognozės. Įjunkite priemonių valdymo darbo srities **funkciją ir įveskite konfigūracijos parametrus finansų žinių konfigūracijos** **puslapyje**. Šioje temoje taip pat pateikiama informacija, kuri gali padėti veiksmingai naudoti funkciją.
 
 > [!NOTE]
 > Prieš atlikdami šiuos veiksmus, būtinai atlikite būtinuosius veiksmus, aprašytus temoje [Konfigūravimas moduliui „Finance Insights”](configure-for-fin-insites.md).
@@ -36,7 +35,7 @@ ms.locfileid: "7752933"
 
     1. Atidarykite parinkties **Funkcijos valdymas** darbo sritį.
     2. Pasirinkite **Tikrinti, ar yra naujinimų**.
-    3. Skirtuke **·** Visi ieškokite **kliento mokėjimo numatyių**. Jei tos priemonės nerandate, ieškokite **(Peržiūrėti) kliento mokėjimo numatymams.** 
+    3. Skirtuke **Visi** ieškokite **kliento mokėjimo numatyių**. Jei tos priemonės nerandate, ieškokite **(Peržiūrėti) kliento mokėjimo numatymams.** 
     4. Įjungti funkciją.
 
     Kliento mokėjimo numatyma dabar įjungta ir parengta konfigūruoti.
@@ -44,9 +43,9 @@ ms.locfileid: "7752933"
 2. Funkcijos Kliento mokėjimo įžvalgos konfigūravimas
 
     1. Eikite **į Kreditas ir rinkiniai \> Nustatymo \> finansai žinių apie kliento mokėjimų \> numatymas.**
-    2. Finansų žinių konfigūracijos puslapio skirtuke Kliento mokėjimo numatymas pasirinkite Peržiūrėti duomenų laukus, naudojamus numatymo modelyje, kad atidarytumėte duomenų laukus **·** **·** **·** **numatymo modelio** puslapiui. Čia galite peržiūrėti numatytąjį laukų, kurie naudojami kuriant kliento mokėjimo prognozių dirbtinio intelekto (DI) prognozavimo modelį, sąrašą.
+    2. Finansų žinių konfigūracijos puslapio skirtuke Kliento mokėjimo numatymas pasirinkite Peržiūrėti duomenų laukus, naudojamus numatymo modelyje, kad atidarytumėte duomenų **laukus** **·** **·** **numatymo modelio** puslapiui. Čia galite peržiūrėti numatytąjį laukų, kurie naudojami kuriant kliento mokėjimo prognozių dirbtinio intelekto (DI) prognozavimo modelį, sąrašą.
 
-        Norėdami naudoti numatytąjį laukų sąrašą numatymo modeliui sukurti, uždarykite duomenų laukus numatymo modelio puslapiui, tada, finansų žinių konfigūracijos puslapyje, nustatykite pasirinktį Įgalinti **·** priemonę kaip **·** **·** **·** Taip.
+        Norėdami naudoti numatytąjį laukų sąrašą numatymo modeliui sukurti, uždarykite duomenų laukus numatymo modelio puslapiui, tada, finansų žinių konfigūracijos puslapyje, nustatykite pasirinktį Įgalinti **priemonę** kaip **·** **·** **Taip**.
 
     3. Nurodykite „labai pavėluotą“ operacijos laikotarpį, kad nustatytumėte, ką jūsų įmonei reiškia prognozavimo talpykla **Labai vėluoja**.
 
@@ -66,6 +65,6 @@ ms.locfileid: "7752933"
 
     Funkcija jau sukonfigūruota ir yra parengta naudoti.
 
-Kai priemonė įjungta ir sukonfigūruota, o sukurtas ir veikia numatymo modelis, finansų žinių parametrų puslapio skyriuje Numatymo modelis rodomas modelio **·** **·** tikslumas.
+Kai priemonė įjungta ir sukonfigūruota, o sukurtas ir veikia numatymo modelis, finansų žinių parametrų puslapio skyriuje Numatymo modelis rodomas **modelio** **tikslumas**.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

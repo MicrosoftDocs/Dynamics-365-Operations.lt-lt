@@ -17,17 +17,16 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2021-08-20
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: 68115d484abcdc3c37357ae441e9f9ccb5212659
-ms.sourcegitcommit: 6a9f068b59b62c95a507d1cc18b23f9fd80a859b
+ms.openlocfilehash: c1bbdbec2bc0273a73ffc13a4cce024543af5a13
+ms.sourcegitcommit: 133aa728b8a795eaeaef22544f76478da2bd1df9
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/20/2021
-ms.locfileid: "7827058"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7968841"
 ---
 # <a name="troubleshoot-finance-insights-setup-issues"></a>„Finance insights“ apie nustatymą trikčių šalinimas
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Šioje temoje išvardijamos problemos, kurios gali įvykti, kai naudojate „Finance insights“ galimybes. Taip pat paaiškinama, kaip išspręsti šias problemas.
 
@@ -55,7 +54,7 @@ Norėdami atnaujinti savo duomenų integravimo [„Power Platform“ projektus a
 1. Jei naudojate „Finance insights“ peržiūros versiją, pašalinkite DI projektą, kuris susijęs su **kliento mokėjimo žinių rezultatų (CDS į Fin irOps)** šablonu.
 2. Atlikite duomenų [integratoriaus projekto kūrimo veiksmus](create-data-integrate-project.md). Naudokite **kliento mokėjimų žinių rezultatų (CDS į Fin ir Ops 10.0.17 ir vėlesnės versijos)** šabloną.
 
-## <a name="symptom-when-i-try-to-open-ai-builder-by-using-the-links-on-the-customer-payment-predictions-setup-page-why-do-i-receive-the-following-error-message-sorry-theres-been-a-disconnect"></a>Požymis: Kai bandau atidaryti AI generatorių naudojant kliento mokėjimų numatyimų nustatymo puslapio saitus, kodėl gaunu tokį klaidos pranešimą: "Atsiprašome, tai buvo atjungta?
+## <a name="symptom-when-i-try-to-open-ai-builder-by-using-the-links-on-the-customer-payment-predictions-setup-page-why-do-i-receive-the-following-error-message-sorry-theres-been-a-disconnect"></a>Požymis: Kai bandau atidaryti naudodami kliento mokėjimo numatyimų nustatymo puslapio saitus, kodėl gaunu tokį klaidos AI Builder pranešimą: "Atsiprašome, čia atjungta?
 
 ### <a name="resolution"></a>Paaiškinimas
 

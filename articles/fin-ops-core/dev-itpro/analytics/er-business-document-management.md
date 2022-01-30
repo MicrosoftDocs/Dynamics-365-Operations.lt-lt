@@ -3,24 +3,23 @@ title: Verslo dokumentų valdymo apžvalga
 description: Šioje temoje pateikiama informacija apie tai, kaip naudotis ER sistemos verslo dokumentų valdymo funkcija.
 author: NickSelin
 ms.date: 04/23/2021
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ERBDWorkspace, ERBDParameters, ERSecurityAccessEditor
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: b59f535e01de2ae30e6bbeb6d5ab97a415df6043233694d4feb1c48140a110f6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: faea9d4d9b3fc8f3f1474b6bb2a8dc31cdc22511
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6753081"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7986256"
 ---
 # <a name="business-document-management-overview"></a>Verslo dokumentų valdymo apžvalga
 
@@ -41,7 +40,7 @@ Dabar verslo dokumentų valdymo funkcija įdiegta tik debesies diegimams. Jei š
 
 Norėdami naudoti verslo dokumentų valdymą šablonų redagavimui „Excel“ arba „Word“ formatais naudojant „Microsoft Office“ darbalaukio programas, turite įdiegti „Microsoft Office 2010“ arba naujesnę versiją. Tai palaikoma atliekant diegimą debesyje ir vietinį diegimą.
 
-Norėdami naudoti verslo dokumentų valdymą šablonų redagavimui „Excel“ arba „Word“ formatais naudojant „Microsoft 365“ programas, turite turėti „Microsoft 365 Office”, skirtą žiniatinkliui, prenumeratą. Tai palaikoma debesies diegime.
+Jei norite naudoti verslo dokumentų valdymą, norėdami redaguoti šablonus "Excel" arba "Word" Microsoft 365 formatuose naudodami programas, turite Microsoft 365 turėti žiniatinklio abonemento Office. Tai palaikoma debesies diegime.
 
 ## <a name="business-document-availability"></a>Verslo dokumentų pasiekiamumas
 
@@ -159,7 +158,7 @@ Atlikite toliau nurodytą procedūrą, kad nustatytumėte pagrindinius parametru
 Pasirinktas dokumento tipas yra būdingas įmonei ir bus naudojamas, kai vartotojas dirba su verslo dokumentų valdymu įmonėje, kuriai sukonfigūruotas pasirinktas dokumento tipas. Kai vartotojas dirba su verslo dokumentų valdymu kitoje įmonėje, tas pats pasirinktas dokumento tipas bus naudojamas jei jis nebuvo sukonfigūruotas šiai įmonei. Kai dokumento tipas sukonfigūruotas, jis bus naudojamas vietoje to, kuris pasirinktas lauke **„SharePoint“ dokumento tipas**.
 
 > [!NOTE]
-> Parametre **„SharePoint“ dokumento tipas** „SharePoint“ aplankas apibrėžiamas kaip laikina šablonų, kuriuos galima redaguoti naudojant „Microsoft Excel“ arba „Word“, saugykla. Turite nustatyti šį parametrą, jei planuojate naudoti šias „Office“ darbalaukio programas šablonams redaguoti. Norėdami gauti daugiau informacijos, žr. [Šablono redagavimas „Office“ darbalaukio programoje](#EditInOfficeDesktopApp). Šį parametrą galite palikti tuščią, jei planuojate modifikuoti šabloną naudodami tik „Microsoft 365“ funkcijas. Daugiau informacijos žr. [Šablono redagavimas naudojant „Microsoft 365“](#EditInOffice365).
+> Parametre **„SharePoint“ dokumento tipas** „SharePoint“ aplankas apibrėžiamas kaip laikina šablonų, kuriuos galima redaguoti naudojant „Microsoft Excel“ arba „Word“, saugykla. Turite nustatyti šį parametrą, jei planuojate naudoti šias „Office“ darbalaukio programas šablonams redaguoti. Norėdami gauti daugiau informacijos, žr. [Šablono redagavimas „Office“ darbalaukio programoje](#EditInOfficeDesktopApp). Šį parametrą galite palikti tuščią, jei planuojate modifikuoti šabloną tik naudodami funkciją, esaą programoje Microsoft 365. Daugiau informacijos žr. [Šablono redagavimas naudojant „Microsoft 365“](#EditInOffice365).
 
 ## <a name="configure-access-permissions"></a>Prieigos teisių konfigūravimas
 
@@ -304,7 +303,7 @@ Bus atidarytas puslapis **BDM šablono redaktorius**. Pasirinktą šabloną bus 
 
 ![Verslo dokumentų valdymo šablonų redaktoriaus puslapis.](./media/BDM-Overview-EditingLayout1.png)
 
-### <a name="edit-a-template-in-microsoft-365"></a><a name="EditInOffice365"></a>„Microsoft 365“ šablono redagavimas
+### <a name="edit-a-template-in-microsoft-365"></a><a name="EditInOffice365"></a>Šablono redagavimas naudojant „Microsoft 365“
 
 Šabloną galima modifikuoti naudojant „Microsoft 365“. Pavyzdžiui, programoje „Office Online“ pakeiskite lauko raginimų šablono antraštėje šriftą iš **Paprastasis** į **Paryškintasis**. Šie pakeitimai automatiškai išsaugomi redaguojamame šablone, kuris saugomas pirminėje šablono saugykloje (pagal numatytuosius nustatymus – „Azure“ didelių dvejetainių objektų saugykloje). Ji konfigūruojama ER sistemai.
 
@@ -404,11 +403,11 @@ Kai redaguojate šabloną iš ER formato, priklausančio dabartiniam aktyviam ti
 
 ## <a name="frequently-asked-questions"></a>Dažnai užduodami klausimai
 
-### <a name="i-selected-edit-document-but-instead-of-going-to-the-bdm-template-editor-page-in-finance-i-was-sent-to-the-microsoft-365-webpage"></a>Pasirinkau Redaguoti dokumentą, tačiau vietoj „Finance” BDM šablonų rengyklės puslapio, atsidarė „Microsoft 365“ tinklalapis.
+### <a name="i-selected-edit-document-but-instead-of-going-to-the-bdm-template-editor-page-in-finance-i-was-sent-to-the-microsoft-365-webpage"></a>Aš pasirinkote redaguoti dokumentą, bet vietoj to, kad nueisite į BDM šablono rengyklės puslapį finansuose, aš esu nusiųstas į Microsoft 365 tinklalapį.
 
-Tai žinoma problema, susijusi su „Microsoft 365“ peradresavimu. Taip atsitinka, kai pirmą kartą prisijungiate prie „Microsoft 365“. Norėdami išspręsti šią problemą, jūsų naršyklėje pasirinkite **Atgal** tam, kad grįžtumėte į ankstesnį puslapį.
+Ši problema yra žinoma problema, apimanti Microsoft 365 nukreipimą. Jis įvyksta, kai Microsoft 365 pasirašote pirmą kartą. Norėdami išspręsti šią problemą, jūsų naršyklėje pasirinkite **Atgal** tam, kad grįžtumėte į ankstesnį puslapį.
 
-### <a name="i-understand-how-to-edit-a-template-by-using-microsoft-365-in-the-first-application-session-and-how-to-use-the-template-in-the-second-application-session-and-adjust-the-template-to-see-how-my-changes-affect-the-generated-business-document-can-i-use-the-office-desktop-application-in-the-same-way"></a>Aš suprantu, kaip redaguoti šabloną naudojant „Microsoft 365“ pirmame programos seanse, ir kaip naudoti šabloną antrame programos seanse, taip pat, kaip koreguoti šabloną, kad pamatyčiau pakeitimų poveikį sugeneruotam verslo dokumentui. Ar galiu naudoti „Office” darbalaukio programą tuo pačiu būdu?
+### <a name="i-understand-how-to-edit-a-template-by-using-microsoft-365-in-the-first-application-session-and-how-to-use-the-template-in-the-second-application-session-and-adjust-the-template-to-see-how-my-changes-affect-the-generated-business-document-can-i-use-the-office-desktop-application-in-the-same-way"></a>Su suprasti, kaip redaguoti šabloną, naudojant pirmą programos seansą, ir kaip naudoti šabloną antroje programos seanse ir koreguoti šabloną, kad pamatytumėte, kaip mano pakeitimai paveiks sugeneruotą Microsoft 365 verslo dokumentą. Ar galiu naudoti „Office” darbalaukio programą tuo pačiu būdu?
 
 Taip, galite. Pirmame programos seanse pasirinkite **Atidaryti darbalaukio programoje**. Jūsų šablonas bus išsaugotas laikinoje failų saugykloje ir atidarytas „Office“ darbalaukio programoje. Tada atlikite toliau nurodytus veiksmus, kad peržiūrėtumėte jūsų šablono pakeitimus sugeneruotame verslo dokumente:
 

@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: e86294b8b467367d954013764a029f7b20270b95
-ms.sourcegitcommit: 8c17717b800c2649af573851ab640368af299981
+ms.openlocfilehash: f0a8f5948d9e30eb220aa8177a4b9718223a4f9d
+ms.sourcegitcommit: 5bfd6511d710deb539b4030eb0e9c48d25513595
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/23/2021
-ms.locfileid: "7860672"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8013839"
 ---
 # <a name="enable-power-bi-for-global-inventory-accounting"></a>Įgalinti „Power BI” Visuotinę atsargų apskaitą
 
@@ -51,8 +51,9 @@ Norėdami nustatyti „Power BI” integravimą, atlikite šiuos veiksmus.
 
     1. Eikite į **Mano darbo sritis**, suraskite Visuotinės atsargų apskaitos duomenų rinkinį, o tada iš meniu **Parinktys** pasirinkite **Parametrai**.
     1. **Visuotinės Atsargų Apskaitos parametruose** išplėskite **Parametrus** ir atnaujinkite visus parametrus, kaip reikalinga. Ypatingai patikrinkite šiuos parametrus:
-        1. Perrašyti numatytąsias **Dataverse URL** ir **Aplinkos Id** vertes, naudojantis **Aplinkos duomenų** puslapiu LCS (**Power Platform integravimo** skyriuje).
-        1. Pasirinkite **Redaguoti kredencialus** nuorodą, esančią šalia **CDS** žymos **Duomenų šaltinio kredencialų** skyriuje. Tada prisijunkite prie savo Dataverse paskyros naudodamiesi **OAuth2** autentifikavimo metodą.
+        1. Perrašyti numatytąsias URL vertes **Dataverse** naudojant vertes, rastas "Power platform" aplinkos informacija **LCS** **("Power platform" integravimo** skyriuje).
+        1. Perrašykite numatytąsias aplinkos ID vertes naudodami vertes, **kurios** LCS aplinkos **informacija** (skyriuje Valdyti **aplinką**).
+        1. Pasirinkite **redagavimo** kredencialų saitą, esantį šalia **CDS** žymos duomenų šaltinio **kredencialų** skyriuje. Tada prisijunkite prie savo Dataverse paskyros naudodamiesi **OAuth2** autentifikavimo metodą.
     1. Patvirtinkite, kad Power BI rodo rasta **Mano darbo sritis \> Ataskaitos \> Visuotinė Atsargų Apskaita** dabar veikia tinkamai ir rodo turinį iš jūsų sistemos.
 
 1. Užregistruokite programą, kaip aprašyta [PowerBI.com integravimo konfigūravimas](../../fin-ops-core/dev-itpro/analytics/configure-power-bi-integration.md#registration-process).

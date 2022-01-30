@@ -2,8 +2,8 @@
 title: Organizacijų ir organizacijų hierarchijų apžvalga
 description: Organizacijos hierarchijos nurodo ryšius tarp organizacijų, kurios sudaro jūsų verslą.
 author: sericks007
-ms.date: 11/10/2021
-ms.topic: article
+ms.date: 01/03/2022
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: OMHierarchyManager, OMOperatingUnit,
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6f0388b6e7c22c339d26b82c35f1bbb1ef54cdb5
-ms.sourcegitcommit: ba10ba2cd4fb4267afb5aacae4f6a52aa2456e7e
+ms.openlocfilehash: c8e8f2c2004582f42c3f464fedf9f3d049b5278f
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/11/2021
-ms.locfileid: "7798351"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7991739"
 ---
 # <a name="organizations-and-organizational-hierarchies-overview"></a>Organizacijų ir organizacijos hierarchijų apžvalga
 
@@ -54,7 +54,7 @@ Valdymo vienetų tipai apima išlaidų centrus, verslo vienetus, vertės srautus
 | Verslo struktūros vienetas       | Pusiau savarankiškas valdymo vienetas, sukurtas strateginiams verslo tikslams pasiekti. | Naudojama finansinėms ataskaitoms, pagrįstoms pramonės šakomis ar produkto eilutėmis, kurias organizacija prižiūri nepriklausomai nuo juridinių subjektų. |
 | Vertės srautas        | Valdymo vienetas, kontroliuojantis vieną ar daugiau gamybos srautų. | Dažniausiai naudojama „lean manufacturing“ siekiant valdyti veiklas ir srautus, būtinus tiekiant klientams produktą ar paslaugą. |
 | Padalinys          | Valdymo vienetas, nurodantis organizacijos, kuri atlieka konkrečią užduotį, pvz., pardavimą ar apskaitą, kategoriją ar funkcinę sritį. | Naudojama informuoti apie funkcines sritis. Padaliniui gali būti priskirta pelno ir nuostolio atsakomybė, be to, jį gali sudaryti išlaidų centrų grupė. |
-| „Commerce“ kanalas      | Valdymo vienetas, nurodantis plytų ir skiedinio parduotuvę, internetinę parduotuvę ar internetinę prekyvietę. | Naudojama vieno ar kelių juridinių subjektų vienos ar daugiau parduotuvių valdymo ir veikimo kontrolei. |
+| Mažmeninės prekybos kanalas      | Valdymo vienetas, nurodantis parduotuvę ir parduotuvę, interneto parduotuvę arba skambučių centrą. | Naudojama vieno ar kelių juridinių subjektų vienos ar daugiau parduotuvių valdymo ir veikimo kontrolei. |
 
 ### <a name="teams"></a>Komandos
 

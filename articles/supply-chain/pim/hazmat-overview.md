@@ -3,22 +3,21 @@ title: Pavojingų medžiagų apžvalga
 description: Šioje temoje pateikiama funkcijų, susijusių su pavojingų medžiagų tvarkymu ir fiksavimu produkto informacijos valdymo ir sandėlio valdymo metu, apžvalga.
 author: t-benebo
 ms.date: 06/10/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: intro-internal
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 22e1b0838160378f3ff9484faaf87c9aec6e8964
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.openlocfilehash: cfea2cd6a2699bdf2a14de72a8bdeb3e8cd32a17
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7570686"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7986281"
 ---
 # <a name="hazardous-materials-overview"></a>Pavojingų medžiagų apžvalga
 

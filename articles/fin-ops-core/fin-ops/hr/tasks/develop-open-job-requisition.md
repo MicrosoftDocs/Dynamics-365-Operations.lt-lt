@@ -1,68 +1,73 @@
 ---
 title: Kurti ir atidaryti darbo paraiškas
 description: Įdarbinimo projektai padeda valdyti įdarbinimo procesą.
-author: andreabichsel
-ms.date: 08/29/2018
+author: twheeloc
+ms.date: 01/10/2022
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
 ms.search.form: HRMRecruitingTable, HcmWorkerLookUp, HcmJobLookup, HRMRecruitingMedia, HRMRecruitingJobAd
 audience: Application User
-ms.reviewer: anbichse
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ae2e42627d7d3dbbc0bde2740e7c017c5858eab8cd825b77a1bc4611a3a4ab7b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: a97c2a8bb6c334a5a060fcbfc9527a41ba592750
+ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6738485"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "7964660"
 ---
 # <a name="develop-and-open-job-requisition"></a>Kurti ir atidaryti darbo paraiškas
 
 [!include [banner](../../includes/banner.md)]
 
-Įdarbinimo projektai padeda valdyti įdarbinimo procesą. Galite nustatyti tokią kiekvieno įdarbinimo projekto informaciją, kaip darbas, į kurį įdarbinama, darbdavio pavadinimas, projekto būsena ir skyrius, kuriame bus darbo vieta. Sukūrę įdarbinimo projektą, galite rašyti projekto darbo skelbimą, publikuoti skelbimą darbuotojų savitarnos puslapiuose, su projektu susieti prašymus priimti į darbą ir sekti to projekto veiklas. Kuriant šią procedūrą naudojama demonstracinių duomenų įmonė yra USMF. Norėdami pradėti procedūrą, eikite į Žmogiškieji ištekliai > Įdarbinimas > Įdarbinimo projektai > Įdarbinimo projektai
+Įdarbinimo projektai padeda valdyti įdarbinimo procesą. Galite nustatyti kiekvieno įdarbinimo projekto informaciją, tokią kaip įdarbinimas, įdarbinimo pavadinimas, projekto būsena ir padalinys, kuriame bus įdarbintas. Sukūrę įdarbinimo projektą, galite jo darbo skelbimą rašyti, skelbimą publikuoti darbuotojų savitarnos puslapyje, susieti prašymus įdarbinti su projektu ir sekti to **projekto** veiklas. **USMF** demonstracinių duomenų įmonė buvo naudojama šiai procedūrai sukurti.
 
-1. Spustelėkite Naujas.
-2. Lauke Įdarbinimo projektas surinkite reikšmę.
-3. Lauke Aprašas įveskite reikšmę.
-4. Lauke Darbdavys spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
-5. Sąraše raskite ir pasirinkite norimą įrašą.
-6. Sąraše spustelėkite saitą pasirinktoje eilutėje.
-7. Spustelėkite Pažymėti.
-8. Lauke Skyrius spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
-9. Sąraše spustelėkite saitą pasirinktoje eilutėje.
-10. Lauke Darbas spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
-11. Sąraše raskite ir pasirinkite norimą įrašą.
-12. Sąraše spustelėkite saitą pasirinktoje eilutėje.
-13. Lauke Laisvų vietų skaičius įveskite skaičių.
-14. Lauke Samdos vadovas spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
-15. Sąraše raskite ir pasirinkite norimą įrašą.
-16. Sąraše spustelėkite saitą pasirinktoje eilutėje.
-17. Spustelėkite Pažymėti.
-18. Lauke Paskutinė prašymo pateikimo diena įveskite datą.
-19. Spustelėkite Žiniasklaida.
-    * Įdarbinimo projektai apima galimybę nurodyti žiniasklaidos priemones, naudotinas reklamuoti laisvoms darbo vietoms.  
-20. Spustelėkite Naujas.
-21. Lauke Žiniasklaida spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
-22. Sąraše spustelėkite saitą pasirinktoje eilutėje.
-23. Lauke Pradžios data įveskite datą.
-24. Lauke Pabaigos data įveskite datą.
-25. Spustelėkite Įrašyti.
-26. Uždarykite puslapį.
-27. Spustelėkite Darbo skelbimai.
-28. Spustelėkite Įrašyti.
-29. Uždarykite puslapį.
-30. Pažymėkite arba atžymėkite žymės langelį Rodyti darbuotojų savitarnos dalyje.
-    * Pasirinkus žymės langelį Rodyti darbuotojų savitarnos dalyje, įdarbinimo projektas bus matomas darbuotojams jų savitarnos puslapiuose.  
-31. Spustelėkite Įdarbinimo projekto būsena.
-32. Spustelėkite Pradėti.
-    * Būsena Pradėta reiškia, kad projektas pasiruošęs gauti prašymus.  
-33. Spustelėkite GERAI.
+1. Pereikite prie **personalo įdarbinimo įdarbinimo projektų įdarbinimo \>\>\> projektų**.
+2. Pasirinkite **Nauja**.
+3. Laukelyje **Samdymo projektas** įveskite vertę.
+4. Lauke **Aprašas** įveskite reikšmę.
+5. Norėdami atidaryti **peržvalgą**, lauke Įdarbintojas pasirinkite išplečiamąjį rodyklę.
+6. Sąraše raskite ir pasirinkite norimą įrašą.
+7. Šiame sąraše pasirinkite nuorodą pasirinktoje eilutėje.
+8. Pasirinkite **Pasirinkti**.
+9. Padalinio **lauke** pasirinkite išplečiamąjį rodyklę, kad atidarytumėte peržvalgą.
+10. Šiame sąraše pasirinkite nuorodą pasirinktoje eilutėje.
+11. Užduoties **lauke** pasirinkite išplečiamąjį rodyklę, kad atidarytumėte peržvalgą.
+12. Sąraše raskite ir pasirinkite norimą įrašą.
+13. Šiame sąraše pasirinkite nuorodą pasirinktoje eilutėje.
+14. Lauke **Atidarymų** skaičius įveskite skaičių.
+15. Norėdami atidaryti **peržvalgą,** lauke Samdos vadybininkas pasirinkite išplečiamąjį rodyklę.
+16. Sąraše raskite ir pasirinkite norimą įrašą.
+17. Šiame sąraše pasirinkite nuorodą pasirinktoje eilutėje.
+18. Pasirinkite **Pasirinkti**.
+19. Laukelyje **Paraiškos galutinė data** įveskite datą.
+20. Rinkitės **Medija**.
 
+    Įdarbinimo projektai apima pasirinktį, naudojamą siekiant nurodyti skelbimo kanalų projektus, kurie bus naudojami norint paskelbti laisvas pareigas.
 
+21. Pasirinkite **Nauja**.
+22. Lauke Media **pasirinkite** išplečiamąjį rodyklę, kad būtų atidaryta peržvalga.
+23. Šiame sąraše pasirinkite nuorodą pasirinktoje eilutėje.
+24. Lauke **Pradžios data** įveskite datą.
+25. Lauke **Pabaigos data** įveskite datą.
+26. Pasirinkite **Įrašyti**.
+27. Uždarykite puslapį.
+28. Pasirinkite **darbo** skelbimus.
+29. Pasirinkite **Įrašyti**.
+30. Uždarykite puslapį.
+31. Pažymėkite arba išvalykite **žymės langelį Rodyti darbuotojų** savitarnoje.
+
+    Pažymėkite žymės langelį, norėdami, kad įdarbinimo projektas būtų matomas darbuotojams jų **darbuotojų savitarnos** puslapyje.
+
+32. Pasirinkti įdarbinimo **projekto** būseną.
+33. Pasirinkite **Paleisti**.
+
+    Būsena **Pradėta** rodo, kad projektas parengtas gauti prašymus.
+
+34. Pasirinkite **Gerai**.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -3,7 +3,7 @@ title: Elektroninių ataskaitų (ER) apžvalga
 description: Šioje temoje pateikiama elektroninių ataskaitų įrankio apžvalga. Aprašomos pagrindinės koncepcijos, palaikomi scenarijai ir formatai, kurie yra sprendimo dalis.
 author: NickSelin
 ms.date: 11/02/2021
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ERWorkspace
@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0b772acd4a8d0849803cefa8fc14ae3dd6e18831
-ms.sourcegitcommit: ac23a0a1f0cc16409aab629fba97dac281cdfafb
+ms.openlocfilehash: 976a02f51e22c513b988e1ecfcb792d5f93a4b54
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/29/2021
-ms.locfileid: "7867302"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7986152"
 ---
 # <a name="electronic-reporting-er-overview"></a>Elektroninių ataskaitų (ER) apžvalga
 
@@ -66,7 +66,7 @@ ER šiuo metu palaiko TEXT, XML, JSON, PDF, Microsoft Word, Microsoft Excel ir O
 
 ER mechanizmas turi toliau nurodytas galimybes.
 
-- Tai vienas bendrai naudojamas įrankis, skirtas elektroninėms ataskaitoms skirtinguose domenuose kurti, kuris pakeičia daugiau nei 20 skirtingų mechanizmų, kuriančių tam tikras „Finance and Operations“ elektronines ataskaitas.
+- Tai vienas bendrai naudojamas įrankis, skirtas elektroninėms ataskaitoms skirtinguose domenuose kurti, kuris pakeičia daugiau nei 20 skirtingų mechanizmų, naudojamų kurti tam tikras „Finance and Operations“ elektronines ataskaitas.
 - Jis atskiria ataskaitos formatą nuo dabartinės įdiegtos versijos. Kitaip tariant, formatą galima taikyti skirtingoms versijoms.
 - Jis palaiko pasirinktinio formato kūrimą pagal jo pradinę versiją. Jis taip pat apima galimybes automatiškai naujinti tinkintą formatą, kai pradinis formatas pakeičiamas dėl įvestų lokalizavimo / tinkinimo reikalavimų.
 - Jis tampa pagrindiniu standartiniu „Microsoft“ ir „Microsoft“ partnerių elektroninių ataskaitų lokalizavimo reikalavimus palaikančiu įrankiu.
@@ -143,7 +143,7 @@ ER saugykloje saugomos ER konfigūracijos. Šiuo metu palaikomos šių tipų ER 
 
 Saugykloje **LCS bendrai naudojama biblioteka** suteikiama prieiga prie „Lifecycle Services“ (LCS) bendrai naudojamo turto bibliotekos konfigūracijų sąrašo. Šio tipo ER saugyklą galima registruoti tik „Microsoft“ teikėjui. Naujausios versijos ER konfigūracijas iš LCS bendrai naudojamo turto bibliotekos galite importuoti į esamą egzempliorių.
 
-**LCS projekto** saugykla suteikia prieigą prie tam tikro LCS projekto (LCS projekto turto bibliotekos), pasirinkto saugyklos registracijos metu, konfigūracijų sąrašo. ER suteikia galimybę nusiųsti bendrai naudojamas konfigūracijas iš dabartinio egzemplioriaus į konkrečią **LCS projekto** saugyklą. Taip pat galite konfigūracijas importuoti iš **LCS projekto** saugyklos į dabartinį „Finance and Operations“ programų egzempliorių.
+**LCS projekto** saugykla suteikia prieigą prie tam tikro LCS projekto (LCS projekto turto bibliotekos), pasirinkto saugyklos registracijos metu, konfigūracijų sąrašo. ER suteikia galimybę nusiųsti bendrai naudojamas konfigūracijas iš dabartinio egzemplioriaus į konkrečią **LCS projekto** saugyklą. Taip pat galite importuoti konfigūracijas iš **LCS projektų** saugyklos į dabartinį jūsų finansų ir operacijų programėlių egzempliorių.
 
 Saugykla **Failų sistema** suteikia prieigą prie konfigūracijų, konkrečiame įrenginio vietinės failų sistemos aplanke, kuriame priglobta AOS tarnyba, esančių kaip XML failai, sąrašo. Reikiamas aplankas pasirenkamas saugyklos registracijos etapo metu. Konfigūracijas iš **Failų sistema** saugyklos galite importuoti į dabartinį egzempliorių. 
 

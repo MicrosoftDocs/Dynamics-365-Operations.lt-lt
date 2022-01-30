@@ -13,18 +13,16 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: ba3640cf13fecc54f4cc58cd8996e434cd16cf60
-ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
+ms.openlocfilehash: 37484ce022085dfac66edba31b7adf9af4095df8
+ms.sourcegitcommit: bbe8ab054ad7cc00a63c63e02dc90bfa8ede15bb
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7890874"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7974386"
 ---
 # <a name="grid-capabilities"></a>Tinklelio charakteristikos
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
-
 
 Naujas tinklelio valdiklis suteikia keletą naudingų ir galingų charakteristikų, kurias galite naudoti siekiant pagerinti vartotojo produktyvumą, kurti įdomesnius savo duomenų rodinius ir gauti prasmingų įžvalgų dėl duomenų. Šiame straipsnyje aptariamos šios charakteristikos: 
 
@@ -37,10 +35,10 @@ Naujas tinklelio valdiklis suteikia keletą naudingų ir galingų charakteristik
 -  Ištempti stulpeliai
 
 ## <a name="calculating-totals"></a>Skaičiuojamos sumos
-„Finance and Operations“ programose vartotojai gali matyti bendrąsias sumas, esančias tinkleliuose, skaitinių stulpelių apačioje. Tinklelio apačioje esančiame poraštės skyriuje rodomos šios bendrosios sumos. 
+Finansų ir operacijų programėlių vartotojai gali matyti sumas tinklelių skaitinių stulpelių apačioje. Tinklelio apačioje esančiame poraštės skyriuje rodomos šios bendrosios sumos. 
 
 ### <a name="showing-the-grid-footer"></a>Tinklelio poraštės rodymas
-Yra poraščių sritis, esanti kiekvieno „Finance and Operations” programų lentelės tinklelio apačioje. Poraštėje gali būti vertingos informacijos, susijusios su duomenimis, kurie rodomi tinklelyje. Toliau pateikiami keletas šios informacijos pavyzdžių:
+Kiekvieno finansų ir operacijų programėlių skirtukų tinklelio apačioje yra poraštės sritis. Poraštėje gali būti vertingos informacijos, susijusios su duomenimis, kurie rodomi tinklelyje. Toliau pateikiami keletas šios informacijos pavyzdžių:
 
 - Pažymėtų lentelės eilučių skaičius (kai pasirenkate daugiau nei vieną įrašą)
 - Bendrosios sumos, kurios yra sukonfigūruotų skaitinių stulpelių apačioje
@@ -85,7 +83,7 @@ Siekiant palaikyti šį naują veikimą, kai tinklelis veikia redagavimo režimu
 Kai vartotojai įveda duomenis anksčiau vietos, kur serveris vykdo apdorojimą, duomenų įvedimo metu gali įvykti sutrikimų, pvz., peržvalgų, tikrinimo kontrolės lygiu ir numatytųjų reikšmių įvedimo trūkumo. Vartotojams, kuriems reikia išplečiamojo sąrašo rasti reikšmę, patariama palaukti, kol serveris pasivys dabartinę eilutę. Tikrinimas kontrolės lygiu ir numatytųjų reikšmių įvedimas taip pat įvyks tada, kai serveris tą eilutę apdoros.   
 
 ### <a name="pasting-from-excel"></a>Įklijavimas iš „Excel”
-Vartotojai visada galėjo eksportuoti duomenis iš „Finance and Operations“ programas į „Microsoft Excel“ naudojant **Eksportuoti į „Excel“** mechanizmą. Tačiau galimybė įvesti duomenis anksčiau sistemos įgalina naujo tinklelio lentelių kopijavimo iš „Excel” ir jų įklijavimo tiesiai į „Finance and Operations” programų tinklelius palaikymą. Tinklelio langelis, kuriame inicijuojama įklijavimo operacija, nustato, kur pradedamas nukopijuotos lentelės įklijavimas. Tinklelio turinys perrašomas nukopijuotos lentelės turiniu, išskyrus du tolesnius atvejus.
+Vartotojai visada galėjo eksportuoti duomenis iš finansų ir operacijų programėlių tinklelių Microsoft Excel naudodami eksportavimo į **Excel** mechanizmą. Tačiau galimybė įvesti duomenis į priekį iki sistemos leidžia naujam tinkleliui palaikyti lentelių kopijavimą iš Excel ir įklijuoti jas tiesiai į finansų ir operacijų programėlių tinklelius. Tinklelio langelis, kuriame inicijuojama įklijavimo operacija, nustato, kur pradedamas nukopijuotos lentelės įklijavimas. Tinklelio turinys perrašomas nukopijuotos lentelės turiniu, išskyrus du tolesnius atvejus.
 
 - Jei nukopijuotoje lentelėje esančių stulpelių skaičius yra didesnis nei stulpelių, esančių tinklelyje, vartotojas informuojamas, kad papildomų stulpelių, pradedant nuo įklijavimo vietos, nepaisoma. 
 - Jei nukopijuotoje lentelėje esančių stulpelių skaičius yra didesnis nei stulpelių, esančių tinklelyje, pradedant nuo įklijavimo vietos, esami langeliai perrašomi įklijuotu turiniu, o visos papildomos nukopijuotos lentelės eilutės įterpiamos kaip naujos eilutės tinklelio apačioje. 
@@ -96,7 +94,7 @@ Norėdami didinti produktyvumą vartotojai gali įvesti matematines formules tin
 Norėdami, kad sistema atpažintų vertę kaip išraišką, paleiskite reikšmę su lygybės ženklu (**=**). Daugiau informacijos apie palaikomus operatorius ir sintaksę žr. [Palaikomi matematiniai simboliai](http://bugwheels94.github.io/math-expression-evaluator/#supported-maths-symbols).
 
 ## <a name="grouping-tabular-data"></a>Lentelės duomenų grupavimas
-Verslo vartotojams dažnai reikia atlikti ad hoc duomenų analizę. Nors tai galima atlikti eksportuojant duomenis į „Microsoft Excel“ ir naudojant suvestines lenteles, funkcija **Grupavimas tinkleliuose**, priklausanti nuo naujos tinklelio valdiklio funkcijos, vartotojams leidžia išradingai tvarkyti savo lentelių duomenis „Finance and Operations“ programose. Kadangi ši funkcija praplečia funkcijos **Bendrosios sumos** galimybes, **grupuodami** taip pat galite gauti prasmingų įžvalgų į duomenis, pateikę tarpines sumas grupėms.
+Verslo vartotojams dažnai reikia atlikti ad hoc duomenų analizę. Kol tai galima atlikti eksportuojant duomenis į ir naudojant suvestinės lenteles, tinklelių grupavimo funkcija, kuri priklauso nuo naujos tinklelio valdymo funkcijos, suteikia vartotojams galimybę tvarkyti savo skirtukų duomenis pagal grafiką finansų ir operacijų programėlių Microsoft Excel **būdais**. Kadangi ši funkcija praplečia funkcijos **Bendrosios sumos** galimybes, **grupuodami** taip pat galite gauti prasmingų įžvalgų į duomenis, pateikę tarpines sumas grupėms.
 
 Norėdami naudoti šią funkciją, dešiniuoju pelės klavišu spustelėkite stulpelį, pagal kurį norite grupuoti, ir pasirinkite **Grupuoti pagal šį stulpelį**. Šiuo veiksmu duomenys bus surūšiuoti pagal pasirinktą stulpelį, įtraukta nauja **grupė pagal stulpelį** į tinklelio pradžią ir įterptos „antraštės eilutės“ kiekvienos grupės pradžioje. Šios antraštės eilutės teikia šią informaciją apie kiekvieną grupę: 
 -  Grupės duomenų reikšmė 

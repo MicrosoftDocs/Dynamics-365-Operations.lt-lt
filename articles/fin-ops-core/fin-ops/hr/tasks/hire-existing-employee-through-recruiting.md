@@ -1,43 +1,48 @@
 ---
 title: Samdyti esamus darbuotojus naudojant įdarbinimo funkciją
 description: Kartais laisvas darbo vietas gali būti užimti kandidatai, kurie jau yra jūsų organizacijos darbuotojai.
-author: andreabichsel
-ms.date: 02/10/2017
+author: twheeloc
+ms.date: 01/10/2022
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: anbichse
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: df23be9a657b7001b4974e7802a507c0c54a18dacb46354a68699d759827e941
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 49bb7bea167674eb81fd6d1144c6c302a7c29391
+ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6749585"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "7964913"
 ---
 # <a name="hire-existing-employees-through-recruitment"></a>Samdyti esamus darbuotojus naudojant įdarbinimo funkciją
 
 [!include [banner](../../includes/banner.md)]
 
-Kartais laisvas darbo vietas gali būti užimti kandidatai, kurie jau yra jūsų organizacijos darbuotojai. Ši procedūra padeda žingsnis po žingsnio atlikti esamo darbuotojo samdymo per įdarbinimo procesą veiksmus. Šioje procedūroje įdarbinimo projektas jau nustatytas, o esamas darbuotojas jau pateikė prašymą dalyvauti įdarbinimo projekte. Kuriant šią procedūrą naudojama demonstracinių duomenų įmonė yra USMF.
+Kartais atviras pareigas gali užimti kandidatai, kurie jau yra jūsų organizacijos darbuotojai. Ši procedūra padeda žingsnis po žingsnio atlikti esamo darbuotojo samdymo per įdarbinimo procesą veiksmus. Šioje procedūroje įdarbinimo projektas jau nustatytas, o esamas darbuotojas jau pateikė prašymą dalyvauti įdarbinimo projekte. **USMF** demonstracinių duomenų įmonė buvo naudojama šiai procedūrai sukurti.
 
-1. Pasirinkite Personalas > Įdarbinimas > Prašymai > Prašymai.
-2. Sąraše raskite darbuotojo, kurį norite pasamdyti, prašymą. Pavyzdys: 00002 Jonas Emory
-3. Spustelėkite „Prašymo būsena“.
-    * Prašymo būsena rodo, kokiame įdarbinimo proceso etape yra šis prašymas.  Nė vienas iš šių veiksmų nėra būtinas. Paprastai prašymo būsenos keistųsi tokia tvarka: gauta, patvirtinta ir pokalbis. Po pokalbio proceso būtų priimtas sprendimas dėl įdarbinimo.  
-4. Spustelėkite „Pakeisti pareigas“.
-5. Pasirinkite pareigas, kurioms samdote darbuotoją.
-6. Lauke „Naujo priskyrimo pradžios data“ įveskite datą, nuo kurios darbuotojas pradės dirbti naujose pareigose.  
-7. Lauke „Priskyrimo pabaigos data“ įveskite datą, nuo kurios darbuotojas nebedirbs esamose pareigose.
-    * Naujų pareigų pradžios data ir senų pareigų pabaigos data gali persidengti. Tai gali įvykti, kai asmuo eina abi pareigas vykstant pereinamajam laikotarpiui.  
-8. Jei norite, galite pažymėti priežasties kodą. Pavyzdys: Reorganizacija
-9. Spustelėkite „Pakeisti pareigas“.
-    * Šiuo metu taip pat galite pakeisti atlyginimą. Jei šiuo metu atlyginimo nepriskirsite, galite jį pakeisti darbuotojo formoje atidarę skirtuką „Atlyginimas“ ir pasirinkę „Fiksuotas planas“. Kai pažymėsite „Keisti pareigas“, prašymo būsena bus atnaujinta į „Įdarbintas“.  
+1. Eiti į **personalo įdarbinimo \>\> prašymų \> prašymus**.
+2. Sąraše raskite darbuotojo, kurį norite samdyti, prašymą. Pavyzdžiui, pasirinkite **00002 Džono Emory**.
+3. Pasirinkite **prašymo** būseną.
 
+    Prašymo būsena rodo, kokiame įdarbinimo proceso etape yra šis prašymas. Kiekvienas veiksmas nebūtinas. Paprastai prašymas būseną perkelia tokia tvarka: **Gauta**, **Patvirtinta ir** **Pokalbis** įvyko. Pokalbio metu bus priimtas samdos sprendimas.
 
+4. Pasirinkite **Keisti** padėtį.
+5. Pasirinkite pareigas, už kurias priimate darbuotoją.
+6. Lauke **Nauja priskyrimo** pradžios data įveskite datą, nuo kurios darbuotojas pradės dirbti naujose pareigose.
+7. Lauke **Priskyrimo pabaigos** data įveskite datą, kada darbuotojas nustos dirbti pagal dabartines pareigas.
+
+    Naujų pareigų pradžios data ir senų pareigų pabaigos data gali persidengti. Šis persidengimas gali atsirasti, kai asmuo atlieka abiejų pareigų pareigas perėjimo laikotarpiu.
+
+8. Pasirinktinai: pasirinkite priežasties kodą. Pavyzdžiui, pasirinkite **Pertvarkymas**.
+9. Pasirinkite **Keisti** padėtį.
+
+    Šiuo metu jūs taip pat galite pakeisti kompensavimą. Jei to padaryti negalite, galėsite ją pakeisti vėliau darbuotojo puslapio skirtuke **Kompensacija** **pasirinkdami** **Fiksuotas** planas.
+
+    Kai **pasirenkate Keisti** pareigas, prašymo būsena atnaujinama į **Įdarbintas**.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

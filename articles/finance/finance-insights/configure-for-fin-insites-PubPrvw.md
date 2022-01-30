@@ -1,6 +1,6 @@
 ---
-title: „Finance Insights“ konfigūracija, skirta viešai peržiūrai (peržiūra) – 10.0.20 ir vėlesnė versija
-description: Šioje temoje paaiškinami kaip konfigūruoti sistemą su galimybėmis prieinamomis „Finance Insights” viešos peržiūros versijoje 10.0.20 ir vėlesnėse.
+title: Finansų žinių konfigūracija – 10.0.20 ir vėlesnė versija
+description: Šioje temoje paaiškinama, kaip konfigūruoti jūsų sistemą, kad ji naudos iš galimybių, galimų finansų žinių versijose 10.0.20 ir vėliau.
 author: ShivamPandey-msft
 ms.date: 06/16/2021
 ms.topic: article
@@ -16,20 +16,20 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2021-06-03
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: 7e5752b8deffbd2694193494652a0ff808ecbfb0
-ms.sourcegitcommit: a5861c2fef4071e130208ad20e26cb3a42a45cf1
+ms.openlocfilehash: 8ff20334445fba1db435d7005c4ca9ba18f97f72
+ms.sourcegitcommit: 133aa728b8a795eaeaef22544f76478da2bd1df9
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "7927409"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7968967"
 ---
-# <a name="configuration-for-finance-insights-for-public-preview-preview---version-10020-and-later"></a>„Finance Insights“ konfigūracija, skirta viešai peržiūrai (peržiūra) – 10.0.20 ir vėlesnė versija
+# <a name="configuration-for-finance-insights---version-10020-and-later"></a>Finansų žinių konfigūracija – 10.0.20 ir vėlesnė versija
 
 [!include [banner](../includes/banner.md)]
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Modulyje „Finance Insights” sujungiamos „Microsoft Dynamics 365 Finance“ ir „Dataverse“, „Azure“ bei „AI Builder“ funkcijos, kad jūsų organizacijai būtų suteikiami galingi prognozavimo įrankiai. Šioje temoje paaiškinami kaip konfigūruoti sistemą su „Dynamics 365 Finance“ versija 10.0.20 tam, kad galėtumėte naudoti galimybes prieinamas „Finance Insights“ viešojoje peržiūroje.
+Finansų įžvalgos sujungia "Microsoft" funkcijas su Dynamics 365 Finance Dataverse "Azure" ir suteikia galinga prognozės AI Builder įrankius jūsų organizacijai. Šioje temoje paaiškinama, kaip konfigūruoti 10.0.20 versiją, kad jūsų sistema galėtų naudoti finansų informacijos Dynamics 365 Finance galimybes.
 
 > [!NOTE]
 > Šioje temoje aprašyti konfigūracijos veiksmai taikomi tik „Finance“ versijai 10.0.20 arba vėlesnei finansų versijai. Norėdami nustatyti finansų žinių apie 10.0.19 ir ankstesnę versiją,[žr. „Finance Insights“ versijos iki 10.0.19 ir vėlesnės](configure-for-fin-insites.md).
@@ -38,7 +38,7 @@ Modulyje „Finance Insights” sujungiamos „Microsoft Dynamics 365 Finance“
 
 Norėdami talpinti aplinkas, atlikite šiuos veiksmus.
 
-1. Portale „Microsoft Dynamics Lifecycle Services“ (LCS), kurkite ar naujinkite „Finance“ aplinką. Aplinkai reikalinga programos 10.0.20 versija ar naujesnė „Finance and Operations“ programoms.
+1. Portale „Microsoft Dynamics Lifecycle Services“ (LCS), kurkite ar naujinkite „Finance“ aplinką. Aplinkai reikia 10.0.20 arba naujesnės finansų ir operacijų programėlių programos versijos.
 2. Aplinka turi būti didelio pasiekiamumo (HA) smėlio dėžės aplinka. (Šis aplinkos tipas dar vadinamas 2 pakopos aplinka.) Norėdami gauti daugiau informacijos, žr. [Aplinkos planavimas](../../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md).
 3. Jei konfigūruojate „Finance Insights“ smėlio dėžės aplinkoje, jums gali tekti nukopijuoti gamybos duomenis į tą aplinką numatymams dirbti. Numatymo modelis naudoja kelių metų duomenis numatymams sukurti. "Contoso" demonstraciniai duomenys neturi pakankamai praeities duomenų, kad būtų galima ištykti numatymo modelio versiją. 
 
@@ -94,7 +94,7 @@ Atlikite šiuos veiksmus, norėdami sukonfigūruoti „Azure“ naudodami „Win
     |------------------------------------------|--------------------------------------|
     | „Microsoft Dynamics ERP Microservices“     | „0cdb527f-a8d1-4bf8-9436-b352c68682b2“ |
     | „Microsoft Dynamics ERP Microservices CDS“ | „703e2651-d3fc-48f5-942c-74274233dba8“ |
-    | „AI Builder“ autorizavimo tarnyba         | „ad40333e-9910-4b61-b281-e3aeeb8c3ef3“ |
+    | AI Builder Autorizavimo paslauga         | „ad40333e-9910-4b61-b281-e3aeeb8c3ef3“ |
 
 Jeigu negalite rasti nė vienos iš ankstesnių programų, bandykite atlikti tolesnius veiksmus.
 
@@ -126,7 +126,7 @@ Jeigu negalite rasti nė vienos iš ankstesnių programų, bandykite atlikti tol
         - **Našumas** – rekomenduojame pasirinkti **Standartinis**.
         - **Paskyros rūšis** – turite pasirinkti **StorageV2**.
 
-    3. Dialogo lange **Išplėstinės parinktys**, prie parinkties **„Data Lake Storage Gen2“** (funkcija **Hierarchinės vardų sritys**) pasirinkite **Įjungti**. Jei funkcijos neįjungsite, negalėsite naudoti duomenų, kuriuos „Finance and Operations“ programos rašo naudodamos tokias tarnybas, kaip „Power BI“ duomenų srautai.
+    3. Dialogo lange **Išplėstinės parinktys**, prie parinkties **„Data Lake Storage Gen2“** (funkcija **Hierarchinės vardų sritys**) pasirinkite **Įjungti**. Jei šios funkcijos įgalinsite, negalite naudoti duomenų, kuriuos finansų ir operacijų programėlių rašyti naudojant paslaugas, pvz., duomenų Power BI srautus.
     4. Pasirinkite **Peržiūrėti ir kurti**. Kai diegimas bus baigtas, naujasis išteklius bus rodomas „Azure“ portale.
     5. Pereikite į sukurtą saugyklos paskyrą.
     6. Kairiajame meniu pasirinkite **Prieigos raktai**.
@@ -214,7 +214,7 @@ Jeigu negalite rasti nė vienos iš ankstesnių programų, bandykite atlikti tol
         | Naujos programos, kurią sukūrėte, rodomas pavadinimas | Bendraautorius                 |
         | Naujos programos, kurią sukūrėte, rodomas pavadinimas | Saugyklos paskyros bendraautoris |
         | Naujos programos, kurią sukūrėte, rodomas pavadinimas | Saugyklos didelių dvejetainių objektų duomenų savininkas     |
-        | **„AI Builder“ autorizavimo tarnyba**                     | Saugyklos didelių dvejetainių objektų duomenų skaitytojas    |
+        | **AI Builder Autorizavimo paslauga**                     | Saugyklos didelių dvejetainių objektų duomenų skaitytojas    |
 
 # <a name="azure-cli"></a>[„Azure“ CLI](#tab/azure-azure-cli)
 
@@ -752,6 +752,6 @@ Papildinio įdiegimas gali užtrukti kelias minutes.
 
 ## <a name="feedback-and-support"></a>Atsiliepimai ir palaikymas
 
-Jei domitės atsiliepimo pateikimu arba jei norite pagalbos, nusiųskite laišką [„Finance insights“ (peržiūros versija)](mailto:fiap@microsoft.com).
+Jei jus domina pateikti atsiliepimą arba jei jums reikia pagalbos, siųskite el. laišką finansų [žinių](mailto:fiap@microsoft.com) paieškai.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

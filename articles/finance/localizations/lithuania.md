@@ -3,22 +3,21 @@ title: Lietuvos apžvalga
 description: Šioje temoje pateikiami „Microsoft Dynamics 365 Finance“ dokumentų išteklių, skirtų Lietuvai, saitai.
 author: ShylaThompson
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.custom: intro-internal
 ms.search.region: Lithuania
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4692a1f7acf5ab0b4003597d358d646b6e388987dae1a3e79356cda8c2d97bf5
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: ac75d7dcce39471ce48da5d0801b3098bdf5716c
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6715914"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7982548"
 ---
 # <a name="lithuania-overview"></a>Lietuvos apžvalga
 

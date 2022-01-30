@@ -9,20 +9,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.custom:
-- "97423"
-- intro-internal
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: ebef9cf97f7a91e0a2fd45f5e0e0fc620070b42a
-ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
+ms.openlocfilehash: ba9f6ca08af0647f4519726894b1c9dfcc9cce24
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7779699"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7983876"
 ---
 # <a name="get-started-with-electronic-invoicing"></a>Darbo su elektroninių SF priedu pradžia
 
@@ -58,9 +56,9 @@ Prieš užbaigdami procedūrą šioje temoje, būtina atlikti tolesnes išanksti
 Priklausomai nuo šalies ar regiono, elektroninės sąskaitos funkcijai gali reikėti konkretaus konfigūravimo. 
 
 > [!NOTE]
-> Kai įgalinate Suomijos elektroninių SF išrašymo priemonę, peržvalgose nepalaikomi programai konkretūs parametrai. Norėdami išspręsti šią problemą, elektroninių **ataskaitų** modulyje peržiūrėkite pardavimo SF ir projekto SF formatų konfigūracijas. Rankiniu būdu nustatykite apskaičiuotą lauką, kad $PaymentMethodSubstitution būtų galima susieti tą lauką su **·** **lauku AndPaymentMeansCode iš pardavimo SF ir** projekto SF formatų.
+> Kai įgalinate Suomijos elektroninių SF išrašymo priemonę, peržvalgose nepalaikomi programai konkretūs parametrai. Norėdami išspręsti šią problemą, elektroninių **ataskaitų** modulyje peržiūrėkite pardavimo SF ir projekto SF formatų konfigūracijas. Rankiniu būdu nustatykite apskaičiuotą lauką, kad $PaymentMethodSubstitution būtų galima susieti tą lauką **su** **lauku AndPaymentMeansCode iš pardavimo SF ir** projekto SF formatų.
 >
-> Kai įgalinate Italijos elektroninių SF išrašymo priemonę, peržvalgose nepalaikomi programai konkretūs parametrai. Norėdami išspręsti šią problemą elektroninio ataskaitų **·** modulyje rankiniu būdu nustatykite apskaičiuotą konvertavimo **$NaturaReverseCharge** lauką.
+> Kai įgalinate Italijos elektroninių SF išrašymo priemonę, peržvalgose nepalaikomi programai konkretūs parametrai. Norėdami išspręsti šią problemą elektroninio ataskaitų **modulyje** rankiniu būdu nustatykite apskaičiuotą konvertavimo **$NaturaReverseCharge** lauką.
 >
 > Su kitomis vietas susijusių konkrečių veiksmų ieškokite dokumentuose "Pradėti", kurie pasiekiami jūsų šalyje arba regione.
 
@@ -253,7 +251,7 @@ Konkretiesm žingsniams, žr. „Pradžia“ dokumentus, kurie yra prieinami jū
 3. Tinklelyje pasirinkite dokumentą, tada pasirinkite Elektroninio **dokumento** \> **atsisiuntimo** failas. Bus pasiūlyta atsisiųsti archyvą, kuriame yra elektroninio dokumento failas.
 
 > [!NOTE]
-> Kad būtų galima atsisiųsti failus, RCS programos elektroninių SF išrašymo funkcijos nustatyme turi būti įjungta susijusio veiksmo **·** eksportavimo rezultatų pasirinktis.
+> Kad būtų galima atsisiųsti failus, RCS programos elektroninių SF išrašymo funkcijos nustatyme turi būti įjungta susijusio veiksmo **eksportavimo** rezultatų pasirinktis.
 
 ## <a name="related-topics"></a>Susijusios temos
 

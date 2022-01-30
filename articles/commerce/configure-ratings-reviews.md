@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 7ac91dd1d3dfffbf98733bbd8fe8beda538250da
-ms.sourcegitcommit: 81bc42551e6c9af6ad38908afb606ee1f8d3c44b
-ms.translationtype: HT
+ms.openlocfilehash: e3f9ff4b0654ec5fa7548ac62e16ae64f44383e7
+ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "7473554"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7968107"
 ---
 # <a name="configure-ratings-and-reviews"></a>Įvertinimų ir atsiliepimų konfigūravimas
 
@@ -87,9 +87,17 @@ Informacijos, kaip konfigūruoti įvertinimus ir atsiliepimų modulius produkto 
 
 [Įvertinimų ir atsiliepimų tvarkymas](manage-reviews.md)
 
-[Įvertinimų ir atsiliepimų modulių produkto informacijos puslapiuose konfigūravimas](ratings-reviews-modules.md)
-
 [Produktų įvertinimų sinchronizavimas sprendime „Dynamics 365 Retail“](sync-product-ratings.md)
+
+[Neautomatinio vadovo įvertinimų ir atsiliepimų publikavimo įjungimas](manual-publish-rating-reviews.md)
+
+[Importuoti ir eksportuoti įvertinimus ir apžvalgas](import-export-reviews.md)
+
+[Konfigūruoti paslaugos autentifikavimą](service-to-service-auth.md)
+
+[DUK apie įvertinimus ir apžvalgas](ratings-reviews-faq.md)
+
+[Įvertinimų ir apžvalgų moduliai](ratings-reviews-modules.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

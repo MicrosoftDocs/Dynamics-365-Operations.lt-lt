@@ -3,22 +3,21 @@ title: Duomenų importavimo ir eksportavimo užduočių apžvalga
 description: Norėdami kurti ir valdyti duomenų importavimo bei eksportavimo užduotis, naudokite darbo sritį Duomenų valdymas.
 author: peakerbl
 ms.date: 10/21/2021
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application user
 ms.reviewer: sericks
-ms.custom: intro-internal
 ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 51c7d678017bdd9388767500735e21e5374c9f29
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.openlocfilehash: a7e867b2815920a68e3cd79843ba7b15ed6bb635
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7675374"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7981990"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>Duomenų importavimo ir eksportavimo užduočių apžvalga
 
@@ -204,7 +203,7 @@ Planuodami valymo procesą, turite nurodyti šiuos parametrus, kad apibrėžtum�
 ## <a name="job-history-clean-up-and-archival"></a>Užduočių retrospektyvos valymas ir archyvavimas 
 Užduoties retrospektyvos valymo ir archyvavimo funkcija pakeičia ankstesnes valymo funkcijos versijas. Šiame skyriuje bus paaiškintos naujos galimybės.
 
-Vienas iš pagrindinių valymo funkcijos pakeitimų yra sistemos paketinės užduoties naudojimas retrospektyvai valyti. Naudodamos sistemos paketinę užduotį, „Finance and Operations“ programos gali automatiškai planuoti ir vykdyti paketines valymo užduotis, kai sistema yra parengta. Nebereikia paketinės užduoties planuoti neautomatiniu būdu. Šiuo numatytuoju vykdymo režimu paketinė užduotis bus vykdoma kiekvieną valandą nuo vidurnakčio ir išlaikys vykdymo retrospektyvą artimiausioms 7 dienoms. Išvalyta retrospektyva archyvuojama, kad ją būtų galima gauti ateityje. Pradedant 10.0.20 versija, ši funkcija visada įjungta.
+Vienas iš pagrindinių valymo funkcijos pakeitimų yra sistemos paketinės užduoties naudojimas retrospektyvai valyti. Naudojant sistemos paketinę užduotį, finansų ir operacijų programėlės gali automatiškai suplanuoti ir paleisti valymo paketinę užduotį, kai tik sistema bus parengta. Nebereikia paketinės užduoties planuoti neautomatiniu būdu. Šiuo numatytuoju vykdymo režimu paketinė užduotis bus vykdoma kiekvieną valandą nuo vidurnakčio ir išlaikys vykdymo retrospektyvą artimiausioms 7 dienoms. Išvalyta retrospektyva archyvuojama, kad ją būtų galima gauti ateityje. Pradedant 10.0.20 versija, ši funkcija visada įjungta.
 
 Antrasis valymo proceso pakeitimas yra išvalytos vykdymo retrospektyvos archyvavimas. Išvalymo užduotis archyvuoja panaikintus įrašus didelių dvejetainių objektų saugykloje, kurią DIXF naudoja įprastai integracijai. Suarchyvuotas failas bus DIXF paketo formatu ir bus pasiekiamas 7 dienas didelių dvejetainių objektų saugykloje – tada jį bus galima atsisiųsti. Numatytąją 7 dienų suarchyvuoto failo laikymą parametruose galima pakeisti į ne daugiau nei 90 dienų.
 

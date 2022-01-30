@@ -3,7 +3,7 @@ title: Teigiamo mokėjimo apžvalga
 description: Šiame straipsnyje pateikiama informacija apie teikiamą mokėjimą, kuris naudojamas norint generuoti elektroninį čekių sąrašą, kurį galima teikti bankui.
 author: panolte
 ms.date: 08/22/2017
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: BankPositivePaySummary
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 5a428a945be8fd6b570cc4ad61e1f1d285b2a0205e72aab2418c300bdb967da3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 5f36230b68986cffc985353a7130ba429dabd10e
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737336"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7984057"
 ---
 # <a name="positive-pay-overview"></a>Teigiamo mokėjimo apžvalga
 
