@@ -12,6 +12,8 @@
               items:
                 - name: Kas nauja ar pasikeitė „Supply Chain Management“ pagrindinis puslapis
                   href: get-started/whats-new-home-page.md
+                - name: „Supply Chain Management 10.0.25“ (2022 m. balandžio mėn.)
+                  href: get-started/whats-new-scm-10-0-25.md
                 - name: „Supply Chain Management 10.0.24“ (2022 m. vasario mėn.)
                   href: get-started/whats-new-scm-10-0-24.md
                 - name: „Supply Chain Management 10.0.23“ (2022 m. sausio mėn.)
@@ -102,8 +104,6 @@
                   href: ../fin-ops-core/dev-itpro/user-interface/task-recorder-training-docs.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Vaizdo įrašai
                   href: ../fin-ops-core/fin-ops/get-started/videos.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Aiškinamasis terminų žodynas
-                  href: ../fin-ops-core/fin-ops/get-started/glossary.md?toc=/dynamics365/supply-chain/toc.json
             - name: Mokymosi katalogas
               items:
                 - name: Mokymosi katalogo pagrindinis puslapis
@@ -308,6 +308,8 @@
               href: cloud-edge/cloud-edge-workload-manufacturing.md
             - name: 'Sandėlio valdymo darbo krūviai, skirti debesies ir briaunos skalės vienetams'
               href: cloud-edge/cloud-edge-workload-warehousing.md
+            - name: mobiliosios programos „Warehouse Management“ konfigūravimas debesiui ir briaunos skalės vienetams
+              href: cloud-edge/cloud-edge-workload-setup-warehouse-app.md
             - name: 'Sandėlio užsakymai, skirti debesies ir briaunos skalės vienetams'
               href: cloud-edge/cloud-edge-warehouse-order.md
             - name: Sandėlio atsargų koregavimas
@@ -1233,6 +1235,8 @@
                   items:
                     - name: Konfigūracijų kūrimas norint importuoti duomenis iš išorinio XML failo
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-required-configurations-import-data.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Paketinis duomenų importavimas iš rankiniu būdu pasirinktų failų
+                      href: ../fin-ops-core/dev-itpro/analytics/er-configure-data-import-batch.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Duomenų importavimo paketiniu režimu iš „SharePoint“ esančių failų konfigūravimas
                   href: ../fin-ops-core/dev-itpro/analytics/er-configure-data-import-sharepoint.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Failų importavimas XML formatu
@@ -1451,16 +1455,20 @@
                   href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md?toc=/dynamics365/supply-chain/toc.json
                 - name: API keitimai
                   items:
-                    - name: „Application update 7.3“
+                    - name: Programos 7.3 naujinimas
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app73.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: „Application update 10.0.11“
+                    - name: Programos 10.0.11 naujinimas
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-11.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: „Application update 10.0.17“
+                    - name: Programos 10.0.17 naujinimas
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-17.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: „Application update 10.0.19“
+                    - name: Programos 10.0.19 naujinimas
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-19.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: „Application update 10.0.21“
+                    - name: Programos 10.0.21 naujinimas
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-21.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Programos 10.0.23 naujinimas
+                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-23.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Programos 10.0.25 naujinimas
+                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-25.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Pasirinktinės saugyklos vietos sugeneruotiems dokumentams nurodymas
                   items:
                     - name: 'Įvykio prenumeravimas, kad prenumeratos apdorojimo programai galima būtų pateikti užklausą dėl atsakymo'
@@ -1691,12 +1699,16 @@
                   href: master-planning/planning-optimization/approved-planned-order.md
                 - name: Galutinai suplanuoti užsakymai
                   href: master-planning/planning-optimization/planned-order-firming.md
+                - name: Supaprastinti planuoti užsakymai
+                  href: master-planning/planning-optimization/planned-orders-simplified.md
                 - name: Planavimas su neigiamais turimais kiekiais
                   href: master-planning/planning-optimization/negative-on-hand.md
                 - name: Plano retrospektyvos ir planavimo žurnalų peržiūra
                   href: master-planning/planning-optimization/plan-history-logs.md
                 - name: Planavimo užduoties atšaukimas
                   href: master-planning/planning-optimization/cancel-planning-job.md
+                - name: Veiksmų pranešimai
+                  href: master-planning/action-messages.md
                 - name: Planavimo optimizavimo trikčių diagnostika
                   href: master-planning/planning-optimization/planning-optimization-trouble-shooting.md
                 - name: Planavimo optimizavimo išplečiamumas
@@ -1729,8 +1741,6 @@
                   href: master-planning/cancel-master-planning-job.md
                 - name: Sekimo naudojimas išskleidimo tikslais
                   href: master-planning/trace-explosion.md
-                - name: Veiksmų pranešimai
-                  href: master-planning/action-messages.md
                 - name: Bendrojo planavimo vykdymo stebėjimas
                   href: master-planning/tasks/monitor-master-planning-run.md
                 - name: Vietos grafiko kūrimas
@@ -3763,6 +3773,8 @@
                       href: troubleshooting/warehousing/certification-path-app-connection-error.md
                     - name: Naujinant ir perkeliant į WMS nepavyko rasti sertifikato maršruto saugumą užtikrinančios priemonės
                       href: troubleshooting/warehousing/upgrade-migration-certification-path-error.md
+                - name: Apdorojimo problemos įdiegus skalės vieneto sandėlio apkrovą
+                  href: troubleshooting/warehousing/Scale-unit-warehouse-workload-installation-issues.md
                 - name: 'Paketo numerio automatinio rezervavimo raginimas rodomas, net jei yra atsargų'
                   href: troubleshooting/warehousing/auto-reservation-prompt-shown.md
                 - name: Negalima panaikinti paėmimo darbo blokavimo dėl nebaigto papildymo darbo
@@ -3901,9 +3913,11 @@
                   href: troubleshooting/warehousing/work-remains-blocked.md
                 - name: 'Negalite atšaukti darbo, priskirto vartotojui'
                   href: troubleshooting/warehousing/you-cannot-cancel-wo.md
-    - name: „Finance and Operations“ programų kūrimas ir administravimas
+    - name: Finansų ir operacijų programų kūrimas ir administravimas
       href: ../fin-ops-core/dev-itpro/index.md
     - name: „Dynamics 365 Finance“
       href: ../finance/index.md
     - name: „Dynamics 365 Commerce”
       href: ../commerce/index.md
+    - name: Dynamics 365 Human Resources
+      href: ../human-resources/index.md

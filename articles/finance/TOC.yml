@@ -12,6 +12,8 @@
               items:
                 - name: Kas nauja ar pasikeitė „Finance“ pagrindiniame puslapyje
                   href: get-started/whats-new-home-page.md
+                - name: „Finance 10.0.25“ (2021 m. balandžio mėn.)
+                  href: get-started/whats-new-changed-10-0-25.md
                 - name: „Finance 10.0.24“ (vasario mėn.)
                   href: get-started/whats-new-changed-10-0-24.md
                 - name: „Finance 10.0.23“ (sausio mėn.)
@@ -102,8 +104,6 @@
                   href: ../fin-ops-core/dev-itpro/user-interface/task-recorder-training-docs.md?toc=/dynamics365/finance/toc.json
                 - name: Vaizdo įrašai
                   href: ../fin-ops-core/fin-ops/get-started/videos.md?toc=/dynamics365/finance/toc.json
-                - name: Aiškinamasis terminų žodynas
-                  href: ../fin-ops-core/fin-ops/get-started/glossary.md?toc=/dynamics365/finance/toc.json
             - name: Mokymosi katalogas
               items:
                 - name: Mokymosi katalogo pagrindinis puslapis
@@ -218,6 +218,8 @@
                   href: accounts-payable/vendor-copy.md
                 - name: Tiekėjo SF įrašymas į SF žurnalą
                   href: accounts-payable/tasks/record-vendor-invoice-invoice-journal.md
+                - name: Taikyti mokėjimą SF žurnalui
+                  href: accounts-payable/payment-invoice-journal.md
             - name: Mokėtinų sumų SF ir pagrindinių duomenų auditas
               href: general-ledger/tasks/audit-invoices-key-data-ap-system.md
             - name: Trišalės atitikimo strategijos
@@ -1028,7 +1030,7 @@
                   href: general-ledger/currency-revaluation-consolidation-company.md
                 - name: DK užsienio valiutos kurso pasikeitimas
                   href: general-ledger/foreign-currency-revaluation-general-ledger.md
-                - name: Valiutų kursų importavimas
+                - name: Importuoti valiutų kursus
                   href: general-ledger/import-currency-exchange-rates.md
                 - name: Vienas kvitas
                   href: general-ledger/one-voucher.md
@@ -1036,6 +1038,8 @@
                   href: general-ledger/one-voucher-faq.md
                 - name: DK sudengimai
                   href: general-ledger/ledger-settlements.md
+                - name: Informacijos bendrinimas tarp didžiosios knygos atsiskaitymo ir metų pabaigos uždarymo
+                  href: general-ledger/awareness-between-ledger-settlement-year-end-close.md
             - name: Laikotarpio pabaigos uždarymas
               items:
                 - name: DK uždarymas laikotarpio pabaigoje
@@ -1050,80 +1054,6 @@
                   href: general-ledger/tasks/mass-financial-period-close.md
                 - name: DUK apie metų pabaigos veiklas
                   href: general-ledger/faq-year-end-activities.md
-            - name: PVM
-              items:
-                - name: PVM apžvalga
-                  href: general-ledger/indirect-taxes-overview.md
-                - name: PVM tarifai pagal bazinę ribą ir skaičiavimo metodus
-                  href: general-ledger/marginal-base-field.md
-                - name: PVM mokėjimo ir apvalinimo taisyklės
-                  href: general-ledger/round-sales-tax-payments.md
-                - name: PVM skaičiavimo metodai lauke Kilmė
-                  href: general-ledger/sales-tax-calculation-methods-origin-field.md
-                - name: Visos PVM kodų sumos ir intervalo skaičiavimo parinktys
-                  href: general-ledger/whole-amount-interval-options-sales-tax-codes.md
-                - name: Bendrojo žurnalo eilučių PVM apskaičiavimas
-                  href: general-ledger/sales-tax-calculation-on-general-journal.md
-                - name: PVM tiekėjo sąskaitoje faktūroje skaičiavimas ir koregavimas
-                  href: general-ledger/tasks/calculate-adjust-sales-tax-vendor-invoice.md
-                - name: Mokesčių skaičiavimo žurnale atidėjimo įjungimas
-                  href: general-ledger/enable-delayed-tax-calculation.md
-                - name: PVM mokėjimo kūrimas
-                  href: general-ledger/tasks/create-sales-tax-payment.md
-                - name: Mokesčių sudengimo apvalinimas pagal tinkintas valiutos dešimtainių dalių vietas
-                  href: localizations/global-tax-settlement-rounding-based-customized-currency-decimal-places.md
-                - name: PVM operacijų kūrimas dokumentuose
-                  href: general-ledger/tasks/create-sales-tax-transactions-documents.md
-                - name: PVM skirtų DK registravimo grupių nustatymas
-                  href: general-ledger/tasks/set-up-ledger-posting-groups-sales-tax.md
-                - name: PVM institucijų nustatymas
-                  href: general-ledger/tasks/set-up-sales-tax-authorities.md
-                - name: PVM kodų nustatymas
-                  href: general-ledger/tasks/set-up-sales-tax-codes.md
-                - name: PVM grupių ir prekių PVM grupių nustatymas
-                  href: general-ledger/tasks/set-up-sales-tax-groups-item-sales-tax-groups.md
-                - name: Nustatyti PVM ataskaitų kodus
-                  href: general-ledger/tasks/set-up-sales-tax-reporting-codes.md
-                - name: PVM dviejų valiutų palaikymas
-                  href: general-ledger/dual-currency-for-tax.md
-                - name: PVM specifikacija pagal didžiosios knygos operacijos ataskaitą
-                  href: general-ledger/Sales-tax-specification-by-ledger-transaction-report.md
-                - name: PVM sudengimo laikotarpių nustatymas
-                  href: general-ledger/tasks/set-up-sales-tax-settlement-periods.md
-                - name: Užregistruotų PVM operacijų peržiūra
-                  href: general-ledger/tasks/view-posted-sales-tax-transactions.md
-                - name: PVM mokėjimo pagal kodą ataskaitos spausdinimas
-                  href: general-ledger/print-sales-tax-payment-by-code-report.md
-                - name: PVM trikčių šalinimas
-                  items:
-                    - name: Mokestis neapskaičiuotas arba mokesčio suma lygi nuliui
-                      href: general-ledger/sales-tax-troubleshooting-tax-not-calculated-amount-zero.md
-                    - name: Mokesčio skaičiavimo efektyvumas turi įtakos operacijoms
-                      href: general-ledger/sales-tax-troubleshooting-tax-calculation-bad-performance.md
-                    - name: Neteisinga lauko vertė TaxTrans
-                      href: general-ledger/sales-tax-troubleshooting-field-value-taxtrans-incorrect.md
-                    - name: TaxTrans įrašas nesugeneruotas
-                      href: general-ledger/sales-tax-troubleshooting-taxtrans-record-not-generated.md
-                    - name: Mokestis užregistruotas į neteisingą didžiosios knygos sąskaitą kvite
-                      href: general-ledger/sales-tax-troubleshooting-tax-posted-to-wrong-ledger-account.md
-                    - name: Kvitas nesugeneruotas
-                      href: general-ledger/sales-tax-troubleshooting-voucher-not-generated.md
-            - name: Išskaitomas mokestis
-              items:
-                - name: Išskaitomo mokesčio nustatymas
-                  href: general-ledger/tasks/set-up-withholding-tax.md
-                - name: Visuotinis išskaitomas mokestis
-                  items:
-                    - name: Visuotinio išskaitomo mokesčio peržiūra
-                      href: general-ledger/global-withholding-tax-overview.md
-                    - name: Visuotinio išskaitomo mokesčio nustatymas
-                      href: general-ledger/set-up-global-withholding-tax.md
-                    - name: Išskaitomas mokestis pirkimo operacijose
-                      href: general-ledger/withholding-tax-in-purchase-transactions.md
-                    - name: Išskaitomas mokestis pardavimo operacijose
-                      href: general-ledger/withholding-tax-in-sales-transactions.md
-                    - name: Išskaitymo mokesčio mokėjimo kūrimas
-                      href: general-ledger/create-a-withholding-tax-payment.md
             - name: Audito darbo sritis
               items:
                 - name: Audito strategijos taisyklės
@@ -1538,6 +1468,82 @@
                           href: localizations/customize-tax-configurations-master-data-lookup.md
                     - name: Mokesčių skaičiavimo DUK
                       href: localizations/global-tax-calcuation-service-faq.md?toc=/dynamics365/finance/toc.json
+            - name: Mokestis
+              items:
+                - name: PVM
+                  items:
+                    - name: PVM apžvalga
+                      href: general-ledger/indirect-taxes-overview.md
+                    - name: PVM tarifai pagal bazinę ribą ir skaičiavimo metodus
+                      href: general-ledger/marginal-base-field.md
+                    - name: PVM mokėjimo ir apvalinimo taisyklės
+                      href: general-ledger/round-sales-tax-payments.md
+                    - name: PVM skaičiavimo metodai lauke Kilmė
+                      href: general-ledger/sales-tax-calculation-methods-origin-field.md
+                    - name: Visos PVM kodų sumos ir intervalo skaičiavimo parinktys
+                      href: general-ledger/whole-amount-interval-options-sales-tax-codes.md
+                    - name: Bendrojo žurnalo eilučių PVM apskaičiavimas
+                      href: general-ledger/sales-tax-calculation-on-general-journal.md
+                    - name: PVM tiekėjo sąskaitoje faktūroje skaičiavimas ir koregavimas
+                      href: general-ledger/tasks/calculate-adjust-sales-tax-vendor-invoice.md
+                    - name: Mokesčių skaičiavimo žurnale atidėjimo įjungimas
+                      href: general-ledger/enable-delayed-tax-calculation.md
+                    - name: PVM mokėjimo kūrimas
+                      href: general-ledger/tasks/create-sales-tax-payment.md
+                    - name: Mokesčių sudengimo apvalinimas pagal tinkintas valiutos dešimtainių dalių vietas
+                      href: localizations/global-tax-settlement-rounding-based-customized-currency-decimal-places.md
+                    - name: PVM operacijų kūrimas dokumentuose
+                      href: general-ledger/tasks/create-sales-tax-transactions-documents.md
+                    - name: PVM skirtų DK registravimo grupių nustatymas
+                      href: general-ledger/tasks/set-up-ledger-posting-groups-sales-tax.md
+                    - name: PVM institucijų nustatymas
+                      href: general-ledger/tasks/set-up-sales-tax-authorities.md
+                    - name: PVM kodų nustatymas
+                      href: general-ledger/tasks/set-up-sales-tax-codes.md
+                    - name: PVM grupių ir prekių PVM grupių nustatymas
+                      href: general-ledger/tasks/set-up-sales-tax-groups-item-sales-tax-groups.md
+                    - name: Nustatyti PVM ataskaitų kodus
+                      href: general-ledger/tasks/set-up-sales-tax-reporting-codes.md
+                    - name: PVM dviejų valiutų palaikymas
+                      href: general-ledger/dual-currency-for-tax.md
+                    - name: PVM specifikacija pagal didžiosios knygos operacijos ataskaitą
+                      href: general-ledger/Sales-tax-specification-by-ledger-transaction-report.md
+                    - name: PVM sudengimo laikotarpių nustatymas
+                      href: general-ledger/tasks/set-up-sales-tax-settlement-periods.md
+                    - name: Užregistruotų PVM operacijų peržiūra
+                      href: general-ledger/tasks/view-posted-sales-tax-transactions.md
+                    - name: PVM mokėjimo pagal kodą ataskaitos spausdinimas
+                      href: general-ledger/print-sales-tax-payment-by-code-report.md
+                    - name: PVM trikčių šalinimas
+                      items:
+                        - name: Mokestis neapskaičiuotas arba mokesčio suma lygi nuliui
+                          href: general-ledger/sales-tax-troubleshooting-tax-not-calculated-amount-zero.md
+                        - name: Mokesčio skaičiavimo efektyvumas turi įtakos operacijoms
+                          href: general-ledger/sales-tax-troubleshooting-tax-calculation-bad-performance.md
+                        - name: Neteisinga lauko vertė TaxTrans
+                          href: general-ledger/sales-tax-troubleshooting-field-value-taxtrans-incorrect.md
+                        - name: TaxTrans įrašas nesugeneruotas
+                          href: general-ledger/sales-tax-troubleshooting-taxtrans-record-not-generated.md
+                        - name: Mokestis užregistruotas į neteisingą didžiosios knygos sąskaitą kvite
+                          href: general-ledger/sales-tax-troubleshooting-tax-posted-to-wrong-ledger-account.md
+                        - name: Kvitas nesugeneruotas
+                          href: general-ledger/sales-tax-troubleshooting-voucher-not-generated.md
+                - name: Išskaitomas mokestis
+                  items:
+                    - name: Išskaitomo mokesčio nustatymas
+                      href: general-ledger/tasks/set-up-withholding-tax.md
+                    - name: Visuotinis išskaitomas mokestis
+                      items:
+                        - name: Visuotinio išskaitomo mokesčio peržiūra
+                          href: general-ledger/global-withholding-tax-overview.md
+                        - name: Visuotinio išskaitomo mokesčio nustatymas
+                          href: general-ledger/set-up-global-withholding-tax.md
+                        - name: Išskaitomas mokestis pirkimo operacijose
+                          href: general-ledger/withholding-tax-in-purchase-transactions.md
+                        - name: Išskaitomas mokestis pardavimo operacijose
+                          href: general-ledger/withholding-tax-in-sales-transactions.md
+                        - name: Išskaitymo mokesčio mokėjimo kūrimas
+                          href: general-ledger/create-a-withholding-tax-payment.md
             - name: Reglamentavimo naujinimai
               href: localizations/regulatory-updates.md
             - name: Reglamentavimo naujinimų ieška
@@ -3106,6 +3112,10 @@
                       href: localizations/rus-turnover-balance-statement-reports.md
                     - name: Sąskaitos veiklos ataskaitos
                       href: localizations/rus-account-activity-reports.md
+                    - name: Federalinis apskaitos standartas 27-2021
+                      href: localizations/emea-rus-federal-accounting-standard-27-2021.md
+                    - name: 'Įgalinti elektroninių ataskaitų paskirties vietas, kad būtų išsaugoti Rusijos apskaitos dokumentai'
+                      href: localizations/rus-enable-er-destinations-ru-accounting-documents.md
                 - name: Avanso turėtojai
                   items:
                     - name: Rusijos avanso turėtojų apžvalga
@@ -3208,6 +3218,8 @@
                           href: localizations/rus-not-valuable-assets.md
                         - name: Darbo drabužių / specialiosios įrangos apskaita (Rusija)
                           href: localizations/rus-working-clothes-instruments-accounting.md
+                    - name: Ilgalaikio turto integravimas į Turto valdymo modulį
+                      href: localizations/rus-integration-eam-with-fixed-asset.md
                 - name: Mokėtinos sumos ir gautinos sumos
                   items:
                     - name: Kredito pažymos pataisymai (Rusija)
@@ -3242,6 +3254,8 @@
                           href: localizations/rus-purchases-on-commission.md
                         - name: Pardavimas komiso tvarka
                           href: localizations/rus-sales-on-commission.md
+                    - name: Vietinės ataskaitos ir pirminės gautinų sumų ir mokėtinų sumų formos
+                      href: localizations/rus-local-reports-primary-forms-ar-ap.md
                 - name: Atsargos
                   items:
                     - name: Tiekėjo tranzito prekės
@@ -3486,170 +3500,6 @@
                   href: localizations/noam-usa-form-1099-public-sector.md
                 - name: 1099 ataskaitų tiekėjų nustatymas
                   href: localizations/noam-usa-set-up-vndrs-1099-rprtg.md
-        - name: Human Resources
-          items:
-            - name: „Human Resources“ apžvalga
-              href: ../fin-ops-core/fin-ops/hr/hr-landing-page.md
-            - name: 10.0.25 infrastruktūros leidimas
-              href: ../human-resources/hr-infrastructure.md?toc=/dynamics365/finance/toc.json
-            - name: „Human Resources“ nustatymas
-              items:
-                - name: „Human Resources“ parametrų konfigūravimas
-                  href: ../human-resources/hr-setup-parameters.md?toc=/dynamics365/finance/toc.json
-                - name: Bendrai naudojamų „Human Resources“ parametrų konfigūravimas
-                  href: ../human-resources/hr-setup-shared-parameters.md?toc=/dynamics365/finance/toc.json
-                - name: „Human Resource“ darbo eigų nustatymas
-                  href: ../human-resources/hr-workflow-manage-employee-information.md?toc=/dynamics365/finance/toc.json
-                - name: Susipažinkite su datos ir laiko laukais
-                  href: ../human-resources/hr-setup-date-time-fields.md?toc=/dynamics365/finance/toc.json
-            - name: Personalo valdymas
-              items:
-                - name: Darbo jėgos organizavimas
-                  href: ../human-resources/hr-personnel-departments-jobs-positions.md?toc=/dynamics365/finance/toc.json
-                - name: Užduoties komponentų nustatymas
-                  href: ../human-resources/hr-personnel-jobs.md?toc=/dynamics365/finance/toc.json
-                - name: Padalinių nustatymas
-                  href: ../human-resources/hr-personnel-define-departments.md?toc=/dynamics365/finance/toc.json
-                - name: Skyriaus įtraukimas į hierarchiją
-                  href: ../human-resources/hr-personnel-add-department-hierarchy.md?toc=/dynamics365/finance/toc.json
-                - name: Darbo vietų nustatymas
-                  href: ../human-resources/hr-personnel-define-jobs.md?toc=/dynamics365/finance/toc.json
-                - name: Darbo laikų kalendoriaus kūrimas
-                  href: ../human-resources/hr-personnel-create-working-time-calendar.md?toc=/dynamics365/finance/toc.json
-                - name: DUK apie personalo veiksmus
-                  href: ../human-resources/hr-personnel-actions-faq.md?toc=/dynamics365/finance/toc.json
-                - name: Darbo eigų naudojimas darbuotojų informacijai valdyti
-                  href: ../human-resources/hr-workflow-manage-employee-information.md?toc=/dynamics365/finance/toc.json
-                - name: Pareigų ataskaitų ryšių modifikavimas
-                  href: ../human-resources/hr-personnel-modify-reporting-relationships-position.md?toc=/dynamics365/finance/toc.json
-                - name: Darbininko informacijos įvedimas
-                  href: ../human-resources/hr-personnel-enter-worker-information.md?toc=/dynamics365/finance/toc.json
-                - name: Darbininkų panaudos objektai
-                  href: ../human-resources/hr-personnel-loan-item-worker.md?toc=/dynamics365/finance/toc.json
-                - name: Panaudos objektų kūrimas
-                  href: ../human-resources/hr-personnel-create-loan-items.md?toc=/dynamics365/finance/toc.json
-                - name: Panaudos objektų valdymas
-                  href: ../human-resources/hr-personnel-loan-items.md?toc=/dynamics365/finance/toc.json
-                - name: Tęstinumo plano kūrimas
-                  href: ../human-resources/hr-personnel-develop-succession-plan.md?toc=/dynamics365/finance/toc.json
-                - name: Projekto tabelių įvedimas
-                  href: ../fin-ops-core/fin-ops/hr/tasks/hr-enter-project-timesheets.md
-                - name: Masinės samdos projektai
-                  href: ../human-resources/hr-personnel-mass-hire-projects.md?toc=/dynamics365/finance/toc.json
-                - name: Masinės samdos projekto kūrimas
-                  href: ../human-resources/hr-personnel-create-mass-hire-project.md?toc=/dynamics365/finance/toc.json
-                - name: Pareigų nustatymas
-                  href: ../human-resources/hr-personnel-set-up-positions.md?toc=/dynamics365/finance/toc.json
-                - name: Sužeidimų ir ligų informacijos nustatymas
-                  href: ../human-resources/hr-personnel-set-up-injury-illness-information.md?toc=/dynamics365/finance/toc.json
-                - name: Darbuotojo sužeidimų ir ligų informacijos tvarkymas
-                  href: ../human-resources/hr-personnel-maintain-employee-injury-illness-information.md?toc=/dynamics365/finance/toc.json
-            - name: Kandidatų įdarbinimas
-              items:
-                - name: Įdarbinimo procesų valdymas
-                  href: ../fin-ops-core/fin-ops/hr/manage-recruiting-process.md
-                - name: Masinės samdos projektai
-                  href: ../human-resources/hr-personnel-mass-hire-projects.md
-                - name: Masinės samdos projektų kūrimas
-                  href: ../human-resources/hr-personnel-create-mass-hire-project.md
-                - name: Neautomatinis pretendento ir prašymo duomenų įvedimas
-                  href: ../fin-ops-core/fin-ops/hr/tasks/enter-applicant-application-data-manually.md
-                - name: Darbo paraiškų kūrimas ir atidarymas
-                  href: ../fin-ops-core/fin-ops/hr/tasks/develop-open-job-requisition.md
-                - name: Pareigų nustatymas
-                  href: ../human-resources/hr-personnel-set-up-positions.md
-                - name: Pretendentų samdymas naudojant įdarbinimo funkciją
-                  href: ../fin-ops-core/fin-ops/hr/tasks/hire-candidate-through-recruiting.md
-                - name: Esamų darbuotojų samdymas naudojant įdarbinimo funkciją
-                  href: ../fin-ops-core/fin-ops/hr/tasks/hire-existing-employee-through-recruiting.md
-                - name: Pretendentų atrankos priemonių nustatymas ir diegimas
-                  href: ../fin-ops-core/fin-ops/hr/tasks/identify-deploy-candidate-selection-tools.md
-            - name: Kompensacijos planų nustatymas
-              items:
-                - name: Kompensacijos planų apžvalga
-                  href: ../human-resources/hr-compensation-overview.md?toc=/dynamics365/finance/toc.json
-                - name: Kompensacijos tinklelių nustatymas
-                  href: ../human-resources/hr-compensation-grids.md?toc=/dynamics365/finance/toc.json
-                - name: Kompensacijos struktūros ir plano kūrimas
-                  href: ../human-resources/hr-compensation-structure.md?toc=/dynamics365/finance/toc.json
-                - name: Pastoviosios atlyginimo dalies planų kūrimas
-                  href: ../human-resources/hr-compensation-fixed-plans.md?toc=/dynamics365/finance/toc.json
-                - name: Kintamosios atlyginimo dalies planų kūrimas
-                  href: ../human-resources/hr-compensation-variable-plans.md?toc=/dynamics365/finance/toc.json
-                - name: Darbuotojų įtraukimas į pastoviosios atlyginimo dalies planą
-                  href: ../human-resources/hr-compensation-enroll-employees-fixed.md?toc=/dynamics365/finance/toc.json
-                - name: Darbuotojų įtraukimas į kintamosios atlyginimo dalies planą
-                  href: ../human-resources/hr-compensation-enroll-employees-variable.md?toc=/dynamics365/finance/toc.json
-                - name: Kompensavimo proceso nustatymas ir rezultatų skaičiavimas
-                  href: ../human-resources/hr-compensation-define-process.md?toc=/dynamics365/finance/toc.json
-                - name: Kompensacijos planų apdorojimas
-                  href: ../human-resources/hr-compensation-process.md?toc=/dynamics365/finance/toc.json
-            - name: Išmokų tvarkymas
-              items:
-                - name: Išmokų programos nustatymas ir valdymas
-                  href: ../human-resources/hr-benefits-manage-program.md?toc=/dynamics365/finance/toc.json
-                - name: Teisės į išmoką strategijos
-                  href: ../human-resources/hr-benefits-eligibility-policies.md?toc=/dynamics365/finance/toc.json
-                - name: Teisės į išmoką procesas
-                  href: ../human-resources/hr-benefits-eligibility-process.md?toc=/dynamics365/finance/toc.json
-                - name: Teisės į išmoką taisyklių ir strategijų nustatymas
-                  href: ../human-resources/hr-benefits-define-eligibility-rules.md?toc=/dynamics365/finance/toc.json
-                - name: Darbuotojų išmokų programos teikimas
-                  href: ../human-resources/hr-benefits-deliver-employee-benefits-program.md?toc=/dynamics365/finance/toc.json
-                - name: Naujų išmokų kūrimas
-                  href: ../human-resources/hr-benefits-create.md?toc=/dynamics365/finance/toc.json
-                - name: Darbininkų registravimas išmokoms
-                  href: ../human-resources/hr-benefits-enroll-workers.md?toc=/dynamics365/finance/toc.json
-                - name: Išmokos galiojimo datų tvarkymas
-                  href: ../human-resources/hr-benefits-expiration-dates.md?toc=/dynamics365/finance/toc.json
-                - name: ACA ataskaitų generavimas
-                  href: ../human-resources/hr-benefits-aca-reports.md?toc=/dynamics365/finance/toc.json
-            - name: Darbuotojų rengimas
-              items:
-                - name: Našumo valdymo apžvalga
-                  href: ../human-resources/hr-develop-performance-management-overview.md?toc=/dynamics365/finance/toc.json
-                - name: Darbo jėgos įgūdžių derinimas
-                  href: ../human-resources/hr-develop-skills.md?toc=/dynamics365/finance/toc.json
-                - name: Įtraukimas į našumo žurnalą
-                  href: ../human-resources/hr-develop-add-performance-journal.md?toc=/dynamics365/finance/toc.json
-                - name: Tikslo kūrimas
-                  href: ../human-resources/hr-develop-create-goal.md?toc=/dynamics365/finance/toc.json
-                - name: Našumo apžvalgos kūrimas
-                  href: ../human-resources/hr-develop-create-performance-review.md?toc=/dynamics365/finance/toc.json
-            - name: Kursų kūrimas
-              items:
-                - name: Mokymo kursų rengimas
-                  href: ../human-resources/hr-learning-courses.md?toc=/dynamics365/finance/toc.json
-                - name: Klausimynų apžvalga
-                  href: ../human-resources/hr-learning-questionnaires.md?toc=/dynamics365/finance/toc.json
-                - name: Klausimynų sudarymas
-                  href: ../human-resources/hr-learning-design-questionnaires.md?toc=/dynamics365/finance/toc.json
-                - name: Klausimynų platinimas ir planavimas
-                  href: ../human-resources/hr-learning-distribute-questionnaires.md?toc=/dynamics365/finance/toc.json
-                - name: Klausimynų platinimas naudojant planavimą
-                  href: ../human-resources/hr-learning-distribute-questionnaires-scheduling.md?toc=/dynamics365/finance/toc.json
-                - name: Klausimyno rezultatų peržiūra
-                  href: ../human-resources/hr-learning-evaluate-questionnaire-results.md?toc=/dynamics365/finance/toc.json
-                - name: Klausimyno rezultatų analizavimas
-                  href: ../human-resources/hr-learning-analyze-questionnaire-results.md?toc=/dynamics365/finance/toc.json
-                - name: Atvirų klausimų kūrimas
-                  href: ../human-resources/hr-learning-create-open-ended-question.md?toc=/dynamics365/finance/toc.json
-                - name: Uždarų klausimų kūrimas
-                  href: ../human-resources/hr-learning-create-closed-ended-question.md?toc=/dynamics365/finance/toc.json
-                - name: Priklausomų klausimų kūrimas
-                  href: ../human-resources/hr-learning-depending-question.md?toc=/dynamics365/finance/toc.json
-            - name: Darbo vietos sauga ir atitiktis (Jungtinės Valstijos)
-              items:
-                - name: Formos I-9 tikrinimas
-                  href: ../fin-ops-core/fin-ops/hr/localizations/noam-usa-form-i-9-verification.md
-                - name: Tinkamumo dirbti tikrinimas naudojant formą I-9
-                  href: ../fin-ops-core/fin-ops/hr/localizations/tasks/employment-verification-i9-verification.md
-                - name: Formos I-9 dokumentų tipų nustatymas
-                  href: ../fin-ops-core/fin-ops/hr/localizations/tasks/set-up-i9-document-types.md
-                - name: Suderinimas su Amerikiečių su negalia aktu
-                  href: ../fin-ops-core/fin-ops/hr/localizations/noam-usa-comply-ada.md
-                - name: Darbuotojų apgyvendinimo valdymas
-                  href: ../fin-ops-core/fin-ops/hr/localizations/tasks/manage-worker-accommodations.md
         - name: Ataskaitų ir „Power BI“ integravimai
           items:
             - name: Ataskaitos ir analizė naudojant „Power BI“
@@ -4005,6 +3855,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-format.md?toc=/dynamics365/finance/toc.json
                         - name: GetEnumValueByName
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-getenumvaluebyname.md?toc=/dynamics365/finance/toc.json
+                        - name: GetLabelText
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-getlabeltext.md?toc=/dynamics365/finance/toc.json
                         - name: GuidValue
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-guidvalue.md?toc=/dynamics365/finance/toc.json
                         - name: JsonValue
@@ -4191,6 +4043,8 @@
                   items:
                     - name: Konfigūracijų kūrimas norint importuoti duomenis iš išorinio XML failo
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-required-configurations-import-data.md?toc=/dynamics365/finance/toc.json
+                    - name: Paketinis duomenų importavimas iš rankiniu būdu pasirinktų failų
+                      href: ../fin-ops-core/dev-itpro/analytics/er-configure-data-import-batch.md?toc=/dynamics365/finance/toc.json
                 - name: Duomenų importavimo paketiniu režimu iš „SharePoint“ esančių failų konfigūravimas
                   href: ../fin-ops-core/dev-itpro/analytics/er-configure-data-import-sharepoint.md?toc=/dynamics365/finance/toc.json
                 - name: Failų importavimas XML formatu
@@ -4271,6 +4125,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-3.md?toc=/dynamics365/finance/toc.json
                         - name: Paleisti ataskaitas
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-4.md?toc=/dynamics365/finance/toc.json
+                    - name: Grupuoti įrašus ir atlikti skaičiavimą bei sumuoti naudojant GROUPBY duomenų šaltinius
+                      href: ../fin-ops-core/dev-itpro/analytics/er-groupby-data-sources.md?toc=/dynamics365/finance/toc.json
                     - name: 'Naudoti sugeneruotą išvestį kaip duomenų šaltinį, kad būtų galima atlikti skaičiavimą ir sumavimą'
                       items:
                         - name: Kurti formatus
@@ -4411,18 +4267,20 @@
                   href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md?toc=/dynamics365/finance/toc.json
                 - name: API keitimai
                   items:
-                    - name: „Application update 7.3“
+                    - name: Programos 7.3 naujinimas
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app73.md?toc=/dynamics365/finance/toc.json
-                    - name: „Application update 10.0.11“
+                    - name: Programos 10.0.11 naujinimas
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-11.md?toc=/dynamics365/finance/toc.json
-                    - name: „Application update 10.0.17“
+                    - name: Programos 10.0.17 naujinimas
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-17.md?toc=/dynamics365/finance/toc.json
-                    - name: „Application update 10.0.19“
+                    - name: Programos 10.0.19 naujinimas
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-19.md?toc=/dynamics365/finance/toc.json
-                    - name: „Application update 10.0.21“
+                    - name: Programos 10.0.21 naujinimas
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-21.md?toc=/dynamics365/finance/toc.json
-                    - name: „Application update 10.0.23“
+                    - name: Programos 10.0.23 naujinimas
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-23.md?toc=/dynamics365/finance/toc.json
+                    - name: Programos 10.0.25 naujinimas
+                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-25.md?toc=/dynamics365/finance/toc.json
                 - name: Pasirinktinės saugyklos vietos sugeneruotiems dokumentams nurodymas
                   items:
                     - name: 'Įvykio prenumeravimas, kad prenumeratos apdorojimo programai galima būtų pateikti užklausą dėl atsakymo'
@@ -4753,9 +4611,11 @@
                   href: ../fin-ops-core/dev-itpro/financial/create-exchange-rate-8.md
             - name: 'Operacijų sudengimas naudojant CustTrans::settleTransaction'
               href: ../fin-ops-core/dev-itpro/financial/settletransact-obsolete.md
-    - name: „Finance and Operations“ programų kūrimas ir administravimas
+    - name: Finansų ir operacijų programų kūrimas ir administravimas
       href: ../fin-ops-core/dev-itpro/index.md
     - name: „Dynamics 365 Supply Chain Management“
       href: ../supply-chain/index.md
     - name: „Dynamics 365 Commerce”
       href: ../commerce/index.md
+    - name: Dynamics 365 Human Resources
+      href: ../human-resources/index.md

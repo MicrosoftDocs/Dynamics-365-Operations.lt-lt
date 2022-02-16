@@ -1,7 +1,9 @@
-- name: „Dynamics 365 for Talent”
-  href: ./index.md
+- name: „Dynamics 365 Talent“ panaikinimas
+  href: ../human-resources/hr-talent-retire.md?toc=/dynamics365/talent/toc.json
   items:
-    - name: Pradžia
+    - name: „Dynamics 365 Talent“ pagrindinis puslapis
+      href: ./index.md
+    - name: Pradėti
       items:
         - name: Darbo su „Talent“ pradžia
           href: talent-get-started.md
