@@ -1,5 +1,5 @@
 ---
-title: „Finance and Operations“ programų žinyno funkcijų konfigūravimas
+title: Sukonfigūruokite „Finance and Operations“ programų žinyną
 description: Šioje temoje pateikiama informacija apie kai kurių „Microsoft Dynamics 365“ programų žinyno sistemos komponentus.
 author: margoc
 ms.date: 08/11/2021
@@ -15,22 +15,25 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3a6c37822e84ba08fa0720ed2b3912cbec1448e3
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
-ms.translationtype: HT
+ms.openlocfilehash: bac06e258a96bb50bb6de7957e3e5ed07e966127
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7594862"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8071013"
 ---
-# <a name="configure-the-help-experience-for-finance-and-operations-apps"></a>„Finance and Operations“ programų žinyno funkcijų konfigūravimas
+# <a name="configure-the-help-experience-for-finance-and-operations-apps"></a>Sukonfigūruokite „Finance and Operations“ programų žinyną
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje rasite tokių „Finance and Operations“ programų, kaip „Microsoft Dynamics 365 Finance“, „Dynamics 365 Supply Chain Management“, „Dynamics 365 Commerce“ ir „Dynamics 365 Human Resources“, žinyno sistemos komponentų apžvalgą. Šioje temoje taip pat aiškinama, kaip sujungti šiuos komponentus, ir pateikiama pasirinktinio žinyno kūrimo proceso santrauka.
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
+
+Šioje temoje rasite „Finance and Operations“ programėlių, pvz., „Microsoft“, pagalbos sistemos komponentų apžvalgą.Dynamics 365 Finance,Dynamics 365 Supply Chain Management,Dynamics 365 Commerce ir Dynamics 365 Human Resources. Šioje temoje taip pat aiškinama, kaip sujungti šiuos komponentus, ir pateikiama pasirinktinio žinyno kūrimo proceso santrauka.
 
 ## <a name="help-architecture"></a>Žinyno architektūra
 
-„Finance and Operations“ programose yra konceptualių apžvalgų ir kitų temų, kurios publikuojamos [„Microsoft Dynamics 365“ dokumentų](/dynamics365/) svetainėje. Šį turinį galima pasiekti iš produkto srities **Žinynas**. Toliau esančiame paveikslėlyje pavaizduotos žinyno sistemos dalys.
+„Finance and Operations“ programose yra konceptualių apžvalgų ir kitų temų, kurios skelbiamos [Microsoft Dynamics 365 dokumentacija](/dynamics365/) svetainę. Šį turinį galima pasiekti iš produkto srities **Žinynas**. Toliau esančiame paveikslėlyje pavaizduotos žinyno sistemos dalys.
 
 [![Žinyno architektūra.](./media/help-architecture.png)](./media/help-architecture.png)
 
@@ -60,7 +63,7 @@ Norėdami konfigūruoti sprendimo užduoties vedlius, atlikite puslapyje **Siste
 2. Pasirinkite, iš kurių BPM bibliotekų (pasirinkto projekto) gauti užduočių įrašus.
 3. Nustatykite BPM bibliotekų rodymo tvarką. Rodymo tvarka apibrėžia tvarką, kuria užduočių įrašai iš bibliotekų bus rodomi srityje **Žinynas**.
 
-Atlikę šiuos veiksmus, galite atidaryti sritį **Žinynas** ir pasirinkti skirtuką **Užduočių vedliai**. Matysite užduočių vedlius, taikomus puslapiui, kuriame dabar esate „Finance and Operations“ programose. Jei nerasite nė vieno užduočių vedlio, galite įvedę raktažodžius patikslinti iešką.
+Atlikę šiuos veiksmus, galite atidaryti **Pagalba** sritį ir pasirinkite **Užduočių vadovai** skirtukas. Dabar matysite užduočių vadovus, taikomus puslapiui, kuriame šiuo metu esate „Finance and Operations“ programose. Jei nerasite nė vieno užduočių vedlio, galite įvedę raktažodžius patikslinti iešką.
 
 ### <a name="showing-translated-task-guides"></a>Išverstų užduočių vedlių rodymas
 
@@ -84,7 +87,7 @@ Jei esate partneris ir biblioteką paaukštinsite iki įmonės bibliotekos bei �
 
 ### <a name="connect-a-custom-help-site"></a>Pasirinktinio žinyno svetainės prijungimas
 
-„Finance and Operations“ programos retai naudojamos savo parengtoje formoje. Vietoj to sprendimas yra pritaikomas ir išplečiamas, kad atitiktų organizacijos poreikius. Taip pat galite tinkinti ir išplėsti žinyno funkcijas. Pavyzdžiui, pasirinktinį žinyną galite įtraukti į produkto sritį **Žinynas**.
+„Finance and Operations“ programėlės retai naudojamos jau paruoštoje formoje. Vietoj to sprendimas yra pritaikomas ir išplečiamas, kad atitiktų organizacijos poreikius. Taip pat galite tinkinti ir išplėsti žinyno funkcijas. Pavyzdžiui, pasirinktinį žinyną galite įtraukti į produkto sritį **Žinynas**.
 
 „Microsoft“ pateikė priemonių rinkinį, kuris jums padės įdiegti ir prijungti pasirinktinį žinyną prie srities **Žinynas**. Informacijos, kaip sukonfigūruoti pasirinktinį žinyno sprendimą, kuris yra prijungtas prie srities **Žinynas**, žr. [Pasirinktinio žinyno apžvalga](../../dev-itpro/help/custom-help-overview.md).
 

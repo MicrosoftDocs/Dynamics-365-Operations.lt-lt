@@ -13,14 +13,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Version 7.0.0, Human Resources
-ms.openlocfilehash: 0d180ecd9b2f199e8bd85fb5e1e88ce550458bc0
-ms.sourcegitcommit: 7e0e2a266d9a9473df72e207554d9bd150e17ce3
+ms.openlocfilehash: 222bac97d461cd0a090c3e5d99594c07724818ff
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "7771464"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8066981"
 ---
 # <a name="create-a-new-benefit"></a>Kurti naują išmoką
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -29,29 +32,29 @@ ms.locfileid: "7771464"
 
 ## <a name="create-benefit-elements"></a>Kurti išmokų elementus
 
-1. Eikite **į personalo išmokų nustatymo išmokų \>\>\> elementus**.
+1. Eiti į **Žmogiškieji ištekliai \> Privalumai \> Sąranka \> Naudingi elementai**.
 2. Pasirinkite **Nauja**.
-3. Lauke **·** Tipas įveskite kuriamos išmokos tipo pavadinimą.
+3. Viduje konors **Tipas** lauke įveskite kuriamos naudos tipo pavadinimą.
 4. Lauke **Aprašas** įveskite reikšmę.
-5. Lauke **Registruotų vartotojų** ėjimas vienu metu pasirinkite pasirinktį.
+5. Viduje konors **Vienu metu vykstanti registracija** lauke, pasirinkite parinktį.
 
-    Norėdami apriboti darbuotojų galimybę užsiregistruoti keliuose medicininiuose planuose, pasirinkite **Vieną vieno tipo** registraciją.
+    Norėdami apriboti darbuotojų galimybę dalyvauti keliuose medicinos planuose, pasirinkite **Viena registracija kiekvienam tipui**.
 
-6. Lauke **Atlyginimų** kategorija pasirinkite pasirinktį.
-7. Planų **·** skirtuke pasirinkite **·** Naujas.
+6. Viduje konors **Darbo užmokesčio kategorija** lauke, pasirinkite parinktį.
+7. Ant **Planai** skirtuką, pasirinkite **Nauja**.
 8. Lauke **Planas** įveskite reikšmę.
 9. Lauke **Aprašas** įveskite reikšmę.
-10. Lauke **Tipas** įveskite arba pasirinkite vertę.
-11. **Algalapio poveikio lauke pasirinkite** pasirinktį.
+10. Viduje konors **Tipas** lauką, įveskite arba pasirinkite reikšmę.
+11. Viduje konors **Darbo užmokesčio įtaka** lauke, pasirinkite parinktį.
 12. Pasirinkite **Įrašyti**.
 
 ## <a name="create-a-benefit"></a>Išmokos kūrimas
 
-1. Eikite **į žmogiškųjų išteklių \>\> išmokas**.
+1. Eiti į **Žmogiškieji ištekliai \> Privalumai \> Privalumai**.
 2. Pasirinkite **Nauja**.
-3. Išplečiamajame dialogo lange, lauke **·** Planas, įveskite arba pasirinkite vertę.
-4. Lauke **·** Pasirinktis įveskite arba pasirinkite vertę.
-5. Lauke **Įsigalioja** įveskite datą ir laiką.
-6. Pasirinkite **Sukurti** išmoką.
+3. Išskleidžiamajame dialogo lange esančiame **Planuoti** lauką, įveskite arba pasirinkite reikšmę.
+4. Viduje konors **Parinktis** lauką, įveskite arba pasirinkite reikšmę.
+5. Viduje konors **Veiksmingas** lauke įveskite datą ir laiką.
+6. Pasirinkite **Sukurti naudą**.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

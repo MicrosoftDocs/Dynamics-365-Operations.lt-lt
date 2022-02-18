@@ -9,18 +9,18 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: tfehr
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: d1e74bbbeba019ca48dd823b58251643e96edd0c
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: 532e6603b74ad0293d65684d2d6858ef31fbc496
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7782215"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8063192"
 ---
 # <a name="integrated-tax"></a>Integruoti mokesčiai
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Mokesčių sąrankos duomenimis apibrėžiama tiek netiesioginių mokesčių (PVM, GST), tiek išskaitomo mokesčio sąranka. Jais apibūdinama mokesčių skaičiavimo taisyklė, mokesčio tarifas, sudengimas ir kitos sąvokos.
 
@@ -28,7 +28,7 @@ Mokesčių sąrankos duomenimis apibrėžiama tiek netiesioginių mokesčių (PV
 
 Mokesčių duomenis sudaro lentelių schemų, veikiančių kartu interaktyviai naudojant duomenis (kaip parodyta tolesnėje lentelėje) rinkinys.
 
-| „Finance and Operations” programos | „Customer engagement“ programos | Aprašas |
+| „Finance and Operations” programos | „Customer engagement“ programos | Aprašymas |
 |-----------------------------|-----------------------------------|-------------|
 [Prekės PVM grupė](mapping-reference.md#196) | msdyn_mokesčiųprekiųgrupės | |
 [PVM rinkėjai](mapping-reference.md#193) | msdyn_mokesčiųinspekcijos | |

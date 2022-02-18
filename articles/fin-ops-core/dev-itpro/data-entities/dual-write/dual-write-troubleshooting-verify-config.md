@@ -1,6 +1,6 @@
 ---
-title: Dvigubo rašymas konfigūravimo patvirtinimas „Finance and Operations“ programose ir „Dataverse“
-description: Šioje temoje paaiškinama, kaip galima nustatyti, ar dvigubo rašymo funkcija yra sukonfigūruota „Finance and Operations” programose ir „Dataverse”.
+title: „Finance and Operations“ programų ir „Dataverse“ dvigubo rašymo konfigūracijos patvirtinimas
+description: Šioje temoje paaiškinama, kaip galite nustatyti, ar dvigubas rašymas sukonfigūruotas programose „Finance and Operations“ ir „Dataverse.
 author: RamaKrishnamoorthy
 ms.date: 03/16/2020
 ms.topic: article
@@ -9,36 +9,36 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 1f82705f3d8bc11eacbc13d32c14ad1765dcc559
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: 3fa16a450032464e445ae166f0699fe0dc388071
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7782632"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8062805"
 ---
-# <a name="verify-dual-write-configuration-in-finance-and-operations-apps-and-dataverse"></a>Dvigubo rašymas konfigūravimo patvirtinimas „Finance and Operations“ programose ir „Dataverse“
+# <a name="verify-dual-write-configuration-in-finance-and-operations-apps-and-dataverse"></a>„Finance and Operations“ programų ir „Dataverse“ dvigubo rašymo konfigūracijos patvirtinimas
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 
 
-Šioje temoje pateikiama dvigubo rašymo funkcijos integravimo tarp „Finance and Operations“ ir “Dataverse“ programų trikčių šalinimo informacija. Tiksliau sakant, paaiškinama, kaip galima nustatyti, ar dvigubo rašymo funkcija yra sukonfigūruota „Finance and Operations” programose ir „Dataverse”.
 
-## <a name="verify-that-dual-write-is-configured-in-a-finance-and-operations-app"></a>Patikrinkite, ar dvigubo rašymo funkcija yra sukonfigūruota „Finance and Operations” programoje
+Šioje temoje pateikiama trikčių šalinimo informacija apie dvigubo rašymo integravimą tarp „Finance and Operations“ programų ir Dataverse. Tiksliau, paaiškinama, kaip galite nustatyti, ar dvigubas rašymas sukonfigūruotas programose „Finance and Operations“ ir „Dataverse.
+
+## <a name="verify-that-dual-write-is-configured-in-a-finance-and-operations-app"></a>Patikrinkite, ar programoje „Finance and Operations“ sukonfigūruotas dvigubas rašymas
 
 Norėdami nustatyti, ar klaidos, kurias matote bandydami įrašyti atnaujinimo eilutes, yra gaunamos iš dvigubo rašymo funkcijos, pirma patikrinkite, ar dvigubo rašymo funkcija yra sukonfigūruota.
 
-+ Jeigu turite administratoriaus teises „Finance and Operations” programoje, eikite į **Darbo sritys \> Duomenų valdymas** ir pasirinkite plytelę **Dvigubas rašymas**. Jeigu rodoma susietų aplinkų informacija ir vykdomų eilučių schemų sąrašas, dvigubo rašymo funkcija yra sukonfigūruota.
++ Jei turite administratoriaus teises programoje „Finance and Operations“, eikite į **Darbo vietos \> Duomenų valdymas** ir pasirinkite **Dvigubas rašymas** plytelė. Jeigu rodoma susietų aplinkų informacija ir vykdomų eilučių schemų sąrašas, dvigubo rašymo funkcija yra sukonfigūruota.
 
-    ![„Finance and Operations” programos ryšio tikrinimas, kai turite administratoriaus teises.](media/verify_fin_ops_1.png)
+    ![Programos „Finance and Operations“ ryšio patvirtinimas, kai turite administratoriaus teises.](media/verify_fin_ops_1.png)
 
-+ Jei neturite administratoriaus teisių, gausite klaidos pranešimą *Nepavyksta įrašyti duomenų į objektą \<entity name\>*. Tolesnėje iliustracijoje pateiktame pavyzdyje parodyta, kad nepavyksta sukurti kliento eilutės „Finance and Operations” programoje, nes dvigubo rašymo funkcija yra sukonfigūruota, bet klientų grupė ir mokėjimo terminų nuorodos duomenų nėra „Dataverse”.
++ Jei neturite administratoriaus teisių, gausite klaidos pranešimą *Nepavyksta įrašyti duomenų į objektą \<entity name\>*. Toliau pateiktoje iliustracijoje pateiktame pavyzdyje negalite sukurti klientų eilutės programoje „Finance and Operations“, nes sukonfigūruotas dvigubas rašymas, tačiau klientų grupės ir mokėjimo sąlygų nuorodos duomenų nėra Dataverse.
 
-    ![„Finance and Operations” programos ryšio tikrinimas, kai neturite administratoriaus teisių.](media/verify_fin_ops_2.png)
+    ![Programos „Finance and Operations“ ryšio patvirtinimas, kai neturite administratoriaus teisių.](media/verify_fin_ops_2.png)
 
-Informacijos apie tai, kaip spręsti problemas, kai kuriate duomenis „Finance and Operations” programose, žr. [Tiesioginio sinchronizavimo trikčių šalinimas](dual-write-troubleshooting-live-sync.md).
+Informacijos apie tai, kaip išspręsti problemas, kai kuriate duomenis „Finance and Operations“ programose, žr [Pašalinkite tiesioginio sinchronizavimo triktis](dual-write-troubleshooting-live-sync.md).
 
 ## <a name="verify-that-dual-write-is-configured-in-dataverse"></a>Patikrinkite, ar dvigubo rašymo funkcija yra sukonfigūruota „Dataverse“
 

@@ -14,14 +14,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 413143afb578aed29ce0836aaa3ac98ffc0c6cc3
-ms.sourcegitcommit: 24e20b3b96834b23311f1bf5dbab28baf3323728
-ms.translationtype: HT
+ms.openlocfilehash: 7c72f866886f320d8a7fa22d6ccfa7e43284b5bf
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "7484101"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8071761"
 ---
 # <a name="process-compensation"></a>Kompensavimo apdorojimas
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -41,10 +44,10 @@ Išsaugojus apdorojimo įvykio parametrus, spustelėkite mygtuką **Sąranka**, 
 
 Spustelėkite skirtuko **Planai** mygtuką **Įtraukti**, kad prie apdorojimo įvykio pridėtumėte kompensavimo planą. Stulpeliai **Naudoti kitą svertą**, **Sverto faktorius** ir **Sverto aprašymas** naudojami tik kintamosios atlyginimo dalies planuose ir šioje temoje neaptariami.
 
-Įrašykite įrašą, tada spustelėkite skirtuko **Veiksmai** mygtuką **Įtraukti**, kad pridėtumėte pastoviosios atlyginimo dalies veiksmus į pasirinktą planą. Naudokite parinktį **Įjungti rekomendaciją**, norėdami įvesti sumą, kitą nei apskaičiuotas veiksmo siūlomas padidinimas. Norėdami apskaičiuoti veiksmą, kuris pagrįstas ankstesnio veiksmo rezultatu ir susieti kelis kompensavimo veiksmus, pažymėkite **Naudoti ankstesnį rezultatą** parinktį. Pastoviosios atlyginimo dalies veiksmai yra atlyginimo logikos tipai, kuriems galite pateikti aprašomuosius pavadinimus. Kategorijų ir intervalų planų atveju, galite įtraukti tik pastoviosios atlyginimo dalies veiksmus, kurie tipai nurodyti toliau.
+Įrašykite įrašą, tada spustelėkite skirtuko **Veiksmai** mygtuką **Įtraukti**, kad pridėtumėte pastoviosios atlyginimo dalies veiksmus į pasirinktą planą. Naudokite parinktį **Įjungti rekomendaciją**, norėdami įvesti sumą, kitą nei apskaičiuotas veiksmo siūlomas padidinimas. Norėdami apskaičiuoti veiksmą, kuris pagrįstas ankstesnio veiksmo rezultatu ir susieti kelis kompensavimo veiksmus, pažymėkite **Naudoti ankstesnį rezultatą** parinktį. Pastoviosios atlyginimo dalies veiksmai yra atlyginimo logikos tipai, kuriems galite pateikti aprašomuosius pavadinimus. Dėl **Įvertinimas** ir **Grupė** planus, galite pridėti tik šių tipų fiksuotus kompensavimo veiksmus:
 
-| Pastoviosios atlyginimo dalies veiksmo tipas | Funkcijos                                                                                                                                                                                                                                                                                                                                                                                                    |
-|-------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Pastoviosios atlyginimo dalies veiksmo tipas | Funkcijos                  |
+|-------------------------------|-------------------------------------------------------------------------|
 | Kapitalas                        | Kapitalo veiksmai palygins darbuotojo užmokesčio tarifą ciklo pabaigos dieną su darbuotojo užduotyje nurodyto lygio žemiausiu atskaitos tašku. Jei darbuotojo užmokesčio tarifas yra mažesnis už minimalų atskaitos tašką, bus apskaičiuotas padidinimas, kurio reikia, kad darbuotojas pasiektų minimalų diapazono tašką.                                                                                |
 | Nuopelnas                         | Nuopelnų veiksmai padidinimą apskaičiuos pagal darbuotojo užmokesčio tarifą ciklo pabaigos dieną ir padidinimo procentą, nurodytą darbuotojo padalinio, profesinės sąjungos ir vietos fiksuoto padidinimo biudžete.                                                                                                                                                                                         |
 | Bendra                       | Bendrieji veiksmai padidinimą apskaičiuos pagal procentą arba paskirs darbuotojams standartinę sumą. Tai nustatoma remiantis skirtuko **Bendra** dalies **Pastovioji atlyginimo dalis** parametrais.                                                                                                                                                                                                                        |
@@ -53,12 +56,12 @@ Spustelėkite skirtuko **Planai** mygtuką **Įtraukti**, kad prie apdorojimo į
 
 Į veiksmo planą galite įtraukti tik **pastoviosios atlyginimo dalies** veiksmus, kurių tipas Veiksmas.
 
-| Pastoviosios atlyginimo dalies veiksmo tipas | Funkcijos                                                                                                                                                                                           |
-|--------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Pastoviosios atlyginimo dalies veiksmo tipas | Funkcijos                |
+|--------------------------------|------------------------------|
 | Žingsnis                           | Skirtuke **Bendra** nurodykite ar šis veiksmas Žingsnis turėtų perkelti darbuotojus į priekį 0 žingsnių, 1 žingsniu arba dviem žingsniais.                                                                                  |
 |                                | **0 žingsnių** – darbuotojui bus taikomas žingsnio, kuriame šiuo metu yra, užmokesčio tarifas.                                                                                                                      |
 |                                | **1 žingsnis** – sistema patikrins, ar darbuotojas jau pasiekė paskutinį savo lygio atskaitos tašką.                                                                                             |
-|                                | **2 žingsniai** – sistema perkels darbuotoją dviem žingsniais pirmyn jo dabartiniame lygyje. Sistema gali perkelti darbuotoją vienu arba nuliu žingsnių, tiktai jei jis pasiekia savo lygio paskutinį atskaitos tašką. |
+|                                | **2 žingsniai** - Darbuotojas pajudės du žingsnius į priekį dabartiniu lygiu. Darbuotojas gali pereiti tik vieną ar nulį žingsnių, jei pasiekia paskutinį savo lygio atskaitos tašką. |
 
 ## <a name="run-the-compensation-process"></a>Vykdyti kompensacijos procesą
 Nustačius apdorojimo įvykį ir reikalingus datos laukus, planus ir veiksmus, puslapyje **Proceso įvykis** spustelėkite **Vykdyti procesą**, o tai atveria **Vykdyti kompensavimo apdorojimo įvykius** dialogo langą. Spustelėkite parinktį **Rodyti apdorojimo rezultatus** ir peržiūrėkite, kaip buvo apskaičiuotos kiekvieno darbuotojo kompensacijos sumos. Spustelėjus **Gerai** bus vykdomas kompensavimo procesas visų darbuotojų, kuriems taikomi pasirinkti kompensavimo planai ciklo pabaigos dieną.

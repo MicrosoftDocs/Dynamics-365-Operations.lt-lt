@@ -13,14 +13,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0a812887f20a8ae5ae3b677ac452a498230c244a
-ms.sourcegitcommit: 1cc56643160bd3ad4e344d8926cd298012f3e024
+ms.openlocfilehash: 21127c46615015c30e06465b390f67b835e746cb
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "7731741"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8068139"
 ---
 # <a name="create-loan-items"></a>Kurti panaudos objektus
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -30,9 +33,9 @@ Skolinamos prekės yra įrašai, kurie padeda sekti fizines prekes, pvz., telefo
 
 
 ## <a name="create-loan-types"></a>Kurti paskolų tipus
-1. Eikite į **Personalo darbuotojai Paskolų straipsniai Paskolų** > **·** > **·** > **tipai**.
+1. Eiti į **Žmogiškieji ištekliai** > **Darbininkai** > **Paskolos daiktai** > **Paskolų rūšys**.
 2. Spustelėkite **Naujas**.
-3. Lauke **Panaudos tipas** įveskite vertę.
+3. Viduje konors **Paskolos tipas** lauke įveskite reikšmę.
 4. Lauke **Aprašo laukas** surinkite reikšmę.
 5. Įveskite dienų, kurias šiam paskolos tipui priskirtų prekių grąžinimas gali vėluoti, skaičių. 
 6. Spustelėkite **Įrašyti**.
@@ -40,21 +43,21 @@ Skolinamos prekės yra įrašai, kurie padeda sekti fizines prekes, pvz., telefo
 8. Atnaujinkite puslapį.
 
 ## <a name="create-loan-items"></a>Kurti panaudos objektus
-1. Eikite į **Personalo** > **darbuotojai** > **Skolinimo straipsniai** > **Skolinimo elementai**.
-2. Spustelėkite **Kurti panaudos objektus**.
-3. Lauke **Kiekis** įveskite numerį.
+1. Eiti į **Žmogiškieji ištekliai** > **Darbininkai** > **Paskolos daiktai** > **Paskolos daiktai**.
+2. Spustelėkite **Sukurkite paskolos elementus**.
+3. Viduje konors **Kiekis.** lauke įveskite skaičių.
 4. Lauke **Aprašo laukas** surinkite reikšmę.
-5. Lauke **Panaudos tipas** spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
+5. Viduje konors **Paskolos tipas** lauke spustelėkite išskleidžiamąjį mygtuką, kad atidarytumėte paiešką.
 6. Sąraše raskite ir pasirinkite norimą įrašą.
 7. Sąraše spustelėkite saitą pasirinktoje eilutėje.
 8. Įveskite skaičių dienų, kurias prekė gali būti paskolinta.
     * Puslapyje „Paskolinta įranga“ esančio lauko „Planuojamas grąžinimas“ numatytoji vertė apskaičiuojama prie dabartinės datos pridedant šį skaičių.  
-9. Lauke **Atsakingas asmuo** spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
+9. Viduje konors **Atsakingas asmuo** lauke spustelėkite išskleidžiamąjį mygtuką, kad atidarytumėte paiešką.
 10. Spustelėkite **Pažymėti**.
-11. Lauke **Pradinė vertė** įveskite skaičių.
+11. Viduje konors **Pradinė vertė** lauke įveskite skaičių.
 12. Lauke **Intervalas** įveskite skaičių.
-13. Lauke **·** Formatavimas įveskite reikšmę.
-    * Pavyzdžiui, jei panaudos prekės pradinis numeris yra 10, lauke Formatavimas įveskite du skaičių simbolių **·** simbolius.  
+13. Viduje konors **Formatas** lauke įveskite reikšmę.
+    * Pavyzdžiui, jei paskolos prekės pradinis skaičius yra 10, įveskite du skaičių simbolių simbolius **Formatas** lauke.  
 14. Spustelėkite **Gerai**.
 15. Atnaujinkite puslapį.
 

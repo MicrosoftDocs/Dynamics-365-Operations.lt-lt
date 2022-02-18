@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 3b5f0c6947944ec875c30fa912f830f245b5a48e
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: ec7fcb97bd46551846ccee13b369a1b02a589688
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7777942"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8075304"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10021-october-2021"></a>Kas nauja ar pasikeitė „Dynamics 365 Supply Chain Management“ 10.0.21 versijoje (2021 m. spalio mėn.)
 
@@ -35,22 +35,21 @@ Daugumą šių funkcijų reikia įjungti naudojant [Funkcijų valdymas](../../fi
 
 | Funkcijos sritis | Funkcija | Daugiau informacijos |
 |---|---|---|
-| Atsargos&nbsp; ir&nbsp; logistika | [Visuotinė atsargų apskaita yra Dynamics 365 Supply Chain Management papildinys.](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/global-inventory-accounting-add-in-dynamics-365-supply-chain-management) | [Visuotinės atsargų apskaitos pagrindinis puslapis](../global-inventory-accounting/global-inventory-accounting-home.md) |
-| Atsargos&nbsp; ir&nbsp; logistika | [Registruoti turimų atsargų koregavimus naudojant kodus, prijungtus prie korespondentinės sąskaitos](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/post-on-hand-adjustments-using-configurable-reason-codes-connected-offset-accounts) | [Atsargų skaičiavimo priežasčių kodai](../warehousing/reason-codes-for-counting-journals.md) |
-| Atsargos&nbsp; ir&nbsp; logistika | [Pardavimo pasiūlyme nurodyta duomenų eksportavimo politika](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/sales-quotation-referenced-data-export-policy) | Pasirinkite ar nurodytų duomenų pakeitimai į kitą papildomą eksportavimą nebus įtraukti susiję pardavimo pasiūlymai (ar eilutės). Jei pasirinksite neįvesti šių pasiūlymų ar eilučių, jūsų papildomi eksportavimai bus atlikti daug greičiau.<br><br>Ši funkcija įtraukia parametrą, vadinamą **Praleisti pardavimo pasiūlymą nurodomomis duomenimis** į **Gautinų sumų parametrai** puslapį. |
-| Atsargos&nbsp; ir&nbsp; logistika | [Užantspauduotas kainos pasiūlymas](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/sealed-bidding) | [Užantspauduotas kainos pasiūlymas, skirtas RFQ](../procurement/sealed-bidding.md) |
-| Atsargos&nbsp; ir&nbsp; logistika | [Nuskaityti brūkšninius kodus sandėlyje naudojant GS1 formato standartus](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/scan-barcodes-warehouse-using-gs1-format-standards) | [GS1 brūkšniniai kodai ir QR kodai](../warehousing/gs1-barcodes.md) |
-| Atsargos&nbsp; ir&nbsp; logistika | [Švelniai atsargų matomumo priedo rezervavimas](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/soft-reservation-inventory-visibility-add-in) | [Atsargų matomumo rezervavimai](../inventory/inventory-visibility-reservations.md) |
-| Atsargos&nbsp; ir&nbsp; logistika | [Grąžinimo valdymo atskaitymo ir esamo svorio patobulinimai](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/deduction-catch-weight-enhancements-rebate-management) | [Atskaitymų valdymas, naudojant atskaitymų darbo sritį](../rebate-management/deduction-workbench.md )<br><br>[Grąžinimų apdorojimas, peržiūra ir registravimas](../rebate-management/process-review-post.md)<br><br>[Grąžinimų valdymo sandoriai](../rebate-management/rebate-management-deals.md) |
-| Atsargos&nbsp; ir&nbsp; logistika | [Sandėlio programos veiksmo instrukcijos](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/warehouse-management-mobile-app-step-instructions) | [„Warehouse Management“ mobiliųjų įrenginių programėlės veiksmų pavadinimų ir instrukcijų tinkinimas](../warehousing/mobile-app-titles-instructions.md) |
-| Atsargos&nbsp; ir&nbsp; logistika | [Įkrovimo išlaidų darbo pertraukos ir sekimo naujinimai](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/work-breaks-tracking-updates-landed-cost) | [Naujinti atidėjimo stebėjimą](../landed-cost/update-tracking-putaway.md )<br><br>[Tranzito prekių apdorojimas](../landed-cost/in-transit-processing.md) |
+| Atsargos&nbsp;ir&nbsp;logistika | [Visuotinė atsargų apskaita yra Dynamics 365 Supply Chain Management papildinys.](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/global-inventory-accounting-add-in-dynamics-365-supply-chain-management) | [Visuotinės atsargų apskaitos pagrindinis puslapis](../global-inventory-accounting/global-inventory-accounting-home.md) |
+| Atsargos&nbsp;ir&nbsp;logistika | [Registruoti turimų atsargų koregavimus naudojant kodus, prijungtus prie korespondentinės sąskaitos](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/post-on-hand-adjustments-using-configurable-reason-codes-connected-offset-accounts) | [Atsargų skaičiavimo priežasčių kodai](../warehousing/reason-codes-for-counting-journals.md) |
+| Atsargos&nbsp;ir&nbsp;logistika | [Pardavimo pasiūlyme nurodyta duomenų eksportavimo politika](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/sales-quotation-referenced-data-export-policy) | Pasirinkite ar nurodytų duomenų pakeitimai į kitą papildomą eksportavimą nebus įtraukti susiję pardavimo pasiūlymai (ar eilutės). Jei pasirinksite neįvesti šių pasiūlymų ar eilučių, jūsų papildomi eksportavimai bus atlikti daug greičiau.<br><br>Ši funkcija įtraukia parametrą, vadinamą **Praleisti pardavimo pasiūlymą nurodomomis duomenimis** į **Gautinų sumų parametrai** puslapį. |
+| Atsargos&nbsp;ir&nbsp;logistika | [Užantspauduotas kainos pasiūlymas](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/sealed-bidding) | [Užantspauduotas kainos pasiūlymas, skirtas RFQ](../procurement/sealed-bidding.md) |
+| Atsargos&nbsp;ir&nbsp;logistika | [Švelniai atsargų matomumo priedo rezervavimas](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/soft-reservation-inventory-visibility-add-in) | [Atsargų matomumo rezervavimai](../inventory/inventory-visibility-reservations.md) |
+| Atsargos&nbsp;ir&nbsp;logistika | [Grąžinimo valdymo atskaitymo ir esamo svorio patobulinimai](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/deduction-catch-weight-enhancements-rebate-management) | [Atskaitymų valdymas, naudojant atskaitymų darbo sritį](../rebate-management/deduction-workbench.md )<br><br>[Grąžinimų apdorojimas, peržiūra ir registravimas](../rebate-management/process-review-post.md)<br><br>[Grąžinimų valdymo sandoriai](../rebate-management/rebate-management-deals.md) |
+| Atsargos&nbsp;ir&nbsp;logistika | [Sandėlio programos veiksmo instrukcijos](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/warehouse-management-mobile-app-step-instructions) | [„Warehouse Management“ mobiliųjų įrenginių programėlės veiksmų pavadinimų ir instrukcijų tinkinimas](../warehousing/mobile-app-titles-instructions.md) |
+| Atsargos&nbsp;ir&nbsp;logistika | [Įkrovimo išlaidų darbo pertraukos ir sekimo naujinimai](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/work-breaks-tracking-updates-landed-cost) | [Naujinti atidėjimo stebėjimą](../landed-cost/update-tracking-putaway.md )<br><br>[Tranzito prekių apdorojimas](../landed-cost/in-transit-processing.md) |
 | Bendrasis planavimas | [Planavimo optimizavimo neigiamos dienos](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/negative-days-support-planning-optimization) | [Leistinas uždelsimo nuokrypis (neigiamos dienos)](../master-planning/planning-optimization/delay-tolerance.md) |
 
 ## <a name="feature-enhancements-included-in-this-release"></a>Funkcijos patobulinimai, įtraukti į šį leidimą
 
 Toliau pateiktoje lentelėje pateikti funkcijos patobulinimai, įtraukti į šį leidimą. Kiekvienas iš jų suteikia didesnį esamos funkcijos patobulinimą. Kadangi jie yra tik patobulinimai, jie nėra išvardyti [leidimo plane](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/planned-features). Tačiau, siekiant užtikrinti, kad šie patobulinimai bus suderinti su jūsų esamais tinkinimais ar nuostatomis, kiekvienas iš jų yra išjungiamas pagal numatytuosius nustatymus (nebent nurodyta kitaip). Jei norite naudoti bet kurią iš šių funkcijų, turite ją tiesiogiai įgalinti [Funkcijų valdyme](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
-| Modulis | Funkcijos&nbsp; pavadinimas&nbsp; funkcijos&nbsp; valdyme | Daugiau informacijos |
+| Modulis | Funkcijos&nbsp;pavadinimas&nbsp;funkcijos&nbsp;valdyme | Daugiau informacijos |
 |---|---|---|
 | Kaštų valdymas | Išsami informacija apie atsargų uždarymo eigą | Ši peržiūros priemonė leidžia išsamiai peržiūrėti atsargų uždarymo eigą. |
 | Paraiškos | Užkirsti kelią bendro biudžeto rezervavimų pereikvojimui, kai darbo eigoje yra kelios pirkimo paraiškos | Ši peržiūros funkcija pagerina klaidų tikrinimą, kai vartotojai pateikia ir patvirtina pirkimo paraiškas, kurios viršija bendrojo biudžeto rezervavimo eilutės likusį balansą. Tai padeda išvengti bendrųjų biudžeto rezervavimų pervartojimo, kai darbo eigoje yra kelios pirkimo paraiškos. |
@@ -70,10 +69,10 @@ Tolesnėje lentelėje pateiktos funkcijos, kurios įjungtos pagal nustatymus 10.
 | Perkėlimo užsakymo atšaukimas | 9/1/2021 | 7/13/2020 | Įjungta pagal numatytuosius parametrus | Atsargų ir sandėlio valdymas |
 | Atrakinti atsargų žurnalą | 9/1/2021 | 8/17/2020 | Įjungta pagal numatytuosius parametrus | Atsargų ir sandėlio valdymas |
 | Įrašyti atsargų valdymo rodiniai | 9/1/2021 | 2020-09-30 | Įjungta pagal numatytuosius parametrus | Atsargų ir sandėlio valdymas |
-| Naršymas iki KS versijos iš KS eilučių | 9/1/2021 | 11/11/2019 | Įjungta pagal numatytuosius parametrus | Atsargų ir sandėlio valdymas |
-| Matavimo vienetų ir vienetų kiekio naudojimas atsargų žurnaluose | 9/1/2021 | 11/11/2019 | Įjungta pagal numatytuosius parametrus | Atsargų ir sandėlio valdymas |
+| Naršymas į MK versiją iš MK eilučių | 9/1/2021 | 11/11/2019 | Įjungta pagal numatytuosius parametrus | Atsargų ir sandėlio valdymas |
+| Matavimo vieneto ir vieneto kiekio naudojimas atsargų žurnaluose | 9/1/2021 | 11/11/2019 | Įjungta pagal numatytuosius parametrus | Atsargų ir sandėlio valdymas |
 | Leisti tuščias paketo atributų reikšmes | 9/1/2021 | 11/11/2019 | Įjungta pagal numatytuosius parametrus | Atsargų ir sandėlio valdymas |
-| Automatiškai padidinami atsargų perkėlimo užsakymo eilučių numeriai | 9/1/2021 | 10/11/2019 | Įjungta pagal numatytuosius parametrus | Atsargų ir sandėlio valdymas |
+| Automatiškai padidinkite atsargų perkėlimo užsakymo eilučių skaičių | 9/1/2021 | 10/11/2019 | Įjungta pagal numatytuosius parametrus | Atsargų ir sandėlio valdymas |
 | Atsargų žurnalo tvirtinimo darbo eigą | 9/1/2021 | 1/6/2020 | Įjungta pagal numatytuosius parametrus | Atsargų ir sandėlio valdymas |
 | Įjungti atsargų kokybės valdymo parametrų įspėjimo funkciją | 9/1/2021 | 10/7/2019 | Įjungta pagal numatytuosius parametrus | Atsargų ir sandėlio valdymas |
 | Kurti perkėlimo užsakymą iš pardavimo eilutės | 9/1/2021 | 8/31/2019 | Įjungta pagal numatytuosius parametrus | Atsargų ir sandėlio valdymas |
@@ -85,7 +84,7 @@ Tolesnėje lentelėje pateiktos funkcijos, kurios įjungtos pagal nustatymus 10.
 | Į pirkimo užsakymą įtrauktas RFQ nuorodos saitas | 9/1/2021 | 8/31/2019 | Įjungta pagal numatytuosius parametrus | Paraiškos |
 | Galimybė patvirtinti priimtus paketinius pirkimo užsakymus iš tiekėjo bendradarbiavimo | 9/1/2021 | 9/10/2019 | Įjungta pagal numatytuosius parametrus | Paraiškos |
 | Pirkimo „cXML“ patobulinimai | 9/1/2021 | 11/11/2019 | Įjungta pagal numatytuosius parametrus | Paraiškos |
-| Nuorodą &quot; Atidaryti paskelbtus pasiūlymų patvirtinimus&quot; rodyti kaip plytelę | 9/1/2021 | 2020-09-30 | Įjungta pagal numatytuosius parametrus | Paraiškos |
+| Nuorodą &quot;Atidaryti paskelbtus pasiūlymų patvirtinimus&quot; rodyti kaip plytelę | 9/1/2021 | 2020-09-30 | Įjungta pagal numatytuosius parametrus | Paraiškos |
 | RFQ klausimai ir atsakymai | 9/1/2021 | 2/19/2020 | Įjungta pagal numatytuosius parametrus | Paraiškos |
 | Informacija apie pavojingų medžiagų produktą ir gabenimo dokumentai | 9/1/2021 | 6/14/2020 | Įjungta pagal numatytuosius parametrus | Produkto informacijos valdymas |
 | Numatytųjų užsakymų kiekių griežta patikra | 9/1/2021 | 6/24/2020 | Įjungta pagal numatytuosius parametrus | Produkto informacijos valdymas |
@@ -93,7 +92,7 @@ Tolesnėje lentelėje pateiktos funkcijos, kurios įjungtos pagal nustatymus 10.
 | Įrašyti išleistų produktų rodiniai | 9/1/2021 | 2020-09-30 | Įjungta pagal numatytuosius parametrus | Produkto informacijos valdymas |
 | Dialogo langų Patvirtinti ir Perkelti užduotis patobulinimai | 9/1/2021 | 10/11/2019 | Įjungta pagal numatytuosius parametrus | Gamybos kontrolė |
 | Užbaigtos ataskaitos numerio lentelė įtraukta į užduoties kortelės įrenginį | 9/1/2021 | 8/31/2019 | Įjungta pagal numatytuosius parametrus | Gamybos kontrolė |
-| Naujas mygtukas sustabdyti pertrauką įtrauktas į užduoties kortelės terminalo puslapį | 9/1/2021 | 2/19/2020 | Įjungta pagal numatytuosius parametrus | Gamybos kontrolė |
+| Puslapyje Darbo kortelės terminalas buvo pridėtas naujas mygtukas sustabdyti pertrauką | 9/1/2021 | 2/19/2020 | Įjungta pagal numatytuosius parametrus | Gamybos kontrolė |
 | Įgalinkite dalinį subrangos prekių gavimą ir išspręskite Tiekėjo tipo KS eilučių nurašymo problemą. | 9/1/2021 | 11/11/2019 | Įjungta pagal numatytuosius parametrus | Gamybos kontrolė |
 | Įrašyti gamybos kontrolės rodiniai | 9/1/2021 | 8/17/2020 | Įjungta pagal numatytuosius parametrus | Gamybos kontrolė |
 | „Dynamics 365 Guides“ gamybai | 9/1/2021 | 7/13/2020 | Įjungta pagal numatytuosius parametrus | Gamybos kontrolė |
@@ -104,7 +103,7 @@ Tolesnėje lentelėje pateiktos funkcijos, kurios įjungtos pagal nustatymus 10.
 | Valyti pardavimo užsakymo atnaujinimų istoriją | 9/1/2021 | 9/1/2021 | Įjungta pagal numatytuosius parametrus | Pardavimas ir rinkodara |
 | Pakeisti ciklų skaičiavimo darbo numerių seką | 9/1/2021 | 10/7/2019 | Įjungta pagal numatytuosius parametrus | Sandėlio valdymas |
 | Užduotimi pagrįstos bangos paklausos papildymas | 9/1/2021 | 10/7/2019 | Privalomas | Sandėlio valdymas |
-| Bendros vertės lauko slėpimas &quot; Visi kroviniai&quot; ir &quot; Krovinio informacija&quot; puslapiuose | 9/1/2021 | 10/7/2019 | Įjungta pagal numatytuosius parametrus | Sandėlio valdymas |
+| Bendros vertės lauko slėpimas &quot;Visi kroviniai&quot; ir &quot;Krovinio informacija&quot; puslapiuose | 9/1/2021 | 10/7/2019 | Įjungta pagal numatytuosius parametrus | Sandėlio valdymas |
 | Bangos žymos spausdinimas | 9/1/2021 | 2/19/2020 | Privalomas | Sandėlio valdymas |
 | Susieti pirkimo užsakymo atsargų operacijas su kroviniu | 9/1/2021 | 1/6/2020 | Privalomas | Sandėlio valdymas |
 | Patobulinti valstybinių numerių žymių maketai | 9/1/2021 | 2/19/2020 | Įjungta pagal numatytuosius parametrus | Sandėlio valdymas |
@@ -113,7 +112,7 @@ Tolesnėje lentelėje pateiktos funkcijos, kurios įjungtos pagal nustatymus 10.
 | Įgalinkite mobiliojo įrenginio atsargų judėjimo atsargų būsenos lauko redagavimą | 9/1/2021 | 10/16/2019 | Įjungta pagal numatytuosius parametrus | Sandėlio valdymas |
 | Patvirtinti siunčiamas siuntas naudojant paketines užduotis | 9/1/2021 | 7/13/2020 | Įjungta pagal numatytuosius parametrus | Sandėlio valdymas |
 | Kontroliuokite, ar mobiliuosiuose įrenginiuose rodyti gavimo suvestinės puslapį | 9/1/2021 | 4/1/2020 | Įjungta pagal numatytuosius parametrus | Sandėlio valdymas |
-| Paraginti išspręsti dviprasmiškus &#39; Vieta/ NL&#39; pavadinimus | 9/1/2021 | 4/1/2020 | Įjungta pagal numatytuosius parametrus | Sandėlio valdymas |
+| Paraginti išspręsti dviprasmiškus &#39;Vieta/ NL&#39; pavadinimus | 9/1/2021 | 4/1/2020 | Įjungta pagal numatytuosius parametrus | Sandėlio valdymas |
 | Kai gaunate krovinio prekes, fiksuokite produktų variantus ir sekimo dimensijas sandėliavimo programoje | 9/1/2021 | 5/10/2020 | Įjungta pagal numatytuosius parametrus | Sandėlio valdymas |
 | Neleisti kurti apkrovų, kurios neatitinka bangos apkrovos pastato šablono reikalavimų. | 9/1/2021 | 8/17/2020 | Įjungta pagal numatytuosius parametrus | Sandėlio valdymas |
 | Įvertinkite visus „Multi SKU“ vietos nustatymo direktyvų veiksmus | 9/1/2021 | 2020-09-30 | Įjungta pagal numatytuosius parametrus | Sandėlio valdymas |
@@ -138,9 +137,9 @@ Neseniai įtraukėme ir reikšmingai atnaujinome tolesnes pagalbos temas. Jos ne
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
-### <a name="platform-updates-for-finance-and-operations-apps"></a>„Finance and Operations” programų platformos naujinimai
+### <a name="platform-updates-for-finance-and-operations-apps"></a>Programų „Finance and Operations“ platformos naujiniai
 
-„Microsoft Dynamics 365 Supply Chain Management“ 10.0.21 versijoje yra platformos naujinimų. Dėl daugiau informacijos, žr. [Platformos naujinimas 10.0.21 „Finance and Operations“ programų versijai (2021 m. spalio mėn.)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-21.md).
+„Microsoft Dynamics 365 Supply Chain Management“ 10.0.21 versijoje yra platformos naujinimų. Norėdami sužinoti daugiau, žr [„Finance and Operations“ programų 10.0.21 versijos platformos naujiniai (2021 m. spalio mėn.)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-21.md).
 
 ### <a name="bug-fixes"></a>Klaidų ištaisymai
 

@@ -11,17 +11,17 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 26f8820fe707b8a2dff0dcc1a24884ef02e5616f
-ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
+ms.openlocfilehash: a49f35211f30cdb76104cc5be78f5b114320a228
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/10/2022
-ms.locfileid: "7952501"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8062655"
 ---
 # <a name="install-and-set-up-inventory-visibility"></a>Atsargų matomumo nustatymas ir diegimas
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
+
 
 Ši tema aprašo, kaip įdiegti ir konfigūruoti inventoriaus matomumo papildinį „ Microsoft Dynamics 365 Supply Chain Management“.
 
@@ -73,7 +73,7 @@ Kai užregistruojate programą ir pridedate kliento slaptą seką, atlikite šiu
 1. Kairiajame „Dataverse“ naršymo lange **pasirinkite** Programėlių **skyrių ir patikrinkite** ar atsargų matomumas sėkmingai „Power Apps“ įdiegtas. Jei **Programos** skyrius neegzistuoja, susisiekite su atsargumo matomumo produkto komanda [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com).
 
 > [!TIP]
-> Rekomenduojame prisijungti prie vartotojų grupės Atsargų matomumas, kurioje galima rasti naudingų instrukcijų, gauti naujausius naujinimus ir registruoti bet kokius klausimus, kurie gali kilti dėl atsargų matomumo naudojimo. Norėdami prisijungti, siųskite el. laišką atsargų matomumo produkto [komandai inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com) tiekimo grandinės valdymo aplinkos ID.
+> Rekomenduojame prisijungti prie atsargų matomumo priedo vartotojų grupės, kurioje galite rasti naudingų vadovų, gauti naujausius atnaujinimus ir paskelbti visus klausimus, susijusius su Inventorių matomumo naudojimu. Norėdami prisijungti, atsiųskite el. laišką Inventoriaus matomumo produktų komandai adresu [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com) ir įtraukite savo tiekimo grandinės valdymo aplinkos ID.
 
 > [!IMPORTANT]
 > Jei turite daugiau nei vieną LCS aplinką, kiekvienai aplinkai „Azure AD“ sukurkite kitą programą. Jei norėdami įdiegti atsargų matomumo priedą skirtingoms aplinkai naudojate tą patį programos ID ir nuomininko ID, atpažinimo ženklo išdavimas bus taikomas senesnėms aplinkai. Galios tik paskutinė įdiegta versija.

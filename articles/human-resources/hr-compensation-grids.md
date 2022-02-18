@@ -2,7 +2,7 @@
 title: Kompensavimo tinklelių nustatymas
 description: Kompensavimo tinkleliai naudojami nustatyti ir prižiūrėti pastoviųjų atlyginimo dalių planų mokėjimo struktūras.
 author: twheeloc
-ms.date: 08/25/2021
+ms.date: 01/03/2022
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -13,14 +13,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9e6aabf5c05b2a7a5d2b37b43c9a7e93ea6e9bbb
-ms.sourcegitcommit: 24e20b3b96834b23311f1bf5dbab28baf3323728
-ms.translationtype: HT
+ms.openlocfilehash: 51b98320eac539e49787d352f32683efadc11f41
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "7483822"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8071753"
 ---
 # <a name="set-up-compensation-grids"></a>Kompensavimo tinklelių nustatymas
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -67,28 +70,16 @@ Kompensavimo tinkleliai naudojami nustatyti ir prižiūrėti pastoviųjų atlygi
 7. Lauke **Koregavimo tipas** pasirinkite parinktį.
 8. Lauke **Koregavimo suma** įveskite skaičių.
 9. Sąraše raskite ir pasirinkite norimą įrašą.
-10. Sąraše raskite ir pasirinkite norimą įrašą.
-11. Sąraše raskite ir pasirinkite norimą įrašą.
-12. Sąraše raskite ir pasirinkite norimą įrašą.
-13. Spustelėkite **Taikyti tinkleliui**.
-14. Sąraše raskite ir pasirinkite norimą įrašą.
-15. Sąraše raskite ir pasirinkite norimą įrašą.
-16. Sąraše raskite ir pasirinkite norimą įrašą.
-17. Spustelėkite **Taikyti tinkleliui**.
-18. Sąraše raskite ir pasirinkite norimą įrašą.
-19. Sąraše raskite ir pasirinkite norimą įrašą.
-20. Spustelėkite **Taikyti tinkleliui**.
-21. Sąraše raskite ir pasirinkite norimą įrašą.
-22. Spustelėkite Taikyti tinkleliui.
+10. Spustelėkite **Taikyti tinkleliui**.
     * Dabar naudosime masinio keitimo funkciją kiekvieno lygio minimaliam ir maksimaliam nuorodos taškams koreguoti. Šiame pavyzdyje naudosime 50 % paplitimą, kad Minimalus atskaitos taškas būtų pakoreguotas -20 %, o Maksimalus – pakoreguotas +20 %.  
-23. Lauke **Koregavimo suma** įveskite skaičių.
-24. Lauke **Nuorodos taškas** įveskite arba pasirinkite vertę.
-25. Pažymėkite arba atžymėkite visas sąrašo eilutes.
-26. Spustelėkite **Taikyti tinkleliui**.
-27. Lauke **Koregavimo suma** įveskite skaičių.
-28. Lauke **Nuorodos taškas** įveskite arba pasirinkite vertę.
-29. Pažymėkite arba atžymėkite visas sąrašo eilutes.
-30. Spustelėkite **Taikyti tinkleliui**.
+11. Lauke **Koregavimo suma** įveskite skaičių.
+12. Lauke **Nuorodos taškas** įveskite arba pasirinkite vertę.
+13. Pažymėkite arba atžymėkite visas sąrašo eilutes.
+14. Spustelėkite **Taikyti tinkleliui**.
+15. Lauke **Koregavimo suma** įveskite skaičių.
+16. Lauke **Nuorodos taškas** įveskite arba pasirinkite vertę.
+17. Pažymėkite arba atžymėkite visas sąrašo eilutes.
+18. Spustelėkite **Taikyti tinkleliui**.
 
 
 

@@ -2,7 +2,7 @@
 title: Sukurkite e-komercijos saitą
 description: Ši tema aprašo žingsnius ir informaciją, kurie yra būtini norint sukurti e-komercijos saitą „Dynamics 365 Commerce“ saito kūrimo įrankyje.
 author: bicyclingfool
-ms.date: 07/02/2020
+ms.date: 02/03/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 60fea46da2d1ac9b319ed0a7b832809da70baa6eb8ae22319321200fb938c70e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 01f22772fd8c8984a2f92c516972d6659325a18c
+ms.sourcegitcommit: 1eef00796f7c5511f432b01800cdf8920992d7d5
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737633"
+ms.lasthandoff: 02/04/2022
+ms.locfileid: "8090774"
 ---
 # <a name="create-an-e-commerce-site"></a>Sukurkite e-komercijos saitą
 
@@ -48,8 +48,15 @@ Norėdami nustatyti svetainę, atlikite toliau nurodytus veiksmus.
 | Domenas                              | Pasirinkite domeno vardą, kuris bus šios internetinės parduotuvės domenas. Jei sprendime LCS nekonfigūravote jokių domenų, šį lauką galite palikti tuščią. Sukonfigūravę domeną sprendime LCS, jį turite įtraukti į internetinę parduotuvę dalyje **Svetainės parametrai**.  |
 | Maršrutas                              | Kai jūsų svetainė palaiko daugiau nei vieną tam tikro domeno vardo kalbą, naudodami kelio lauką sukurkite unikalų to domeno ir kalbos derinio svetainės URL. Jei kalba, kurią nurodėte lauke **Numatytoji kalba**, yra vienintelė palaikoma šio domeno kalba arba toliau bus numatytoji kalba jums svetainę lokalizavus papildomomis kalbomis, rekomenduojame šį lauką palikti tuščią. |
 
-
 Sukūrę svetainę, patikrinti, ar ji susieta su internetine parduotuve, galite pasirinkdami skirtuką **Produktai**. Turėtumėte matyti produktų asortimentą, priskirtą internetinei parduotuvei. Taip pat galite naudoti viršutinėje kairiojoje puslapio dalyje esantį išplečiamąjį meniu ir priskirtus produktus pasiekti pagal kategoriją.
+
+## <a name="rename-your-site"></a>Pervardykite svetainę
+
+Norėdami pervardyti svetainę svetainių kūrimo priemonėje, atlikite šiuos veiksmus.
+
+1. Norėdami atidaryti svetainių sąrašo rodinį, pasirinkite **Svetainės perjungiklis** viršutiniame dešiniajame kampe, tada pasirinkite **Tvarkyti svetaines**. 
+1. Pažymėkite žymės langelį šalia svetainės, kurią norite pervardyti, tada pasirinkite **Pervardyti** komandų juostoje.
+1. Viduje konors **Naujas svetainės pavadinimas** dialogo lange įveskite naują svetainės pavadinimą ir pasirinkite **Gerai**. Svetainių sąrašas bus atnaujintas, kad būtų rodomas naujas svetainės pavadinimas.
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 

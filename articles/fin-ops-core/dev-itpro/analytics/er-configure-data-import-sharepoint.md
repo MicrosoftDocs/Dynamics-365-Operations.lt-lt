@@ -2,7 +2,7 @@
 title: Duomenų importavimo iš „SharePoint“ konfigūravimas
 description: Šioje temoje paaiškinta, kaip importuoti duomenis iš „Microsoft SharePoint“.
 author: NickSelin
-ms.date: 11/19/2020
+ms.date: 01/05/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 6cd717c0c599d68574a5a064761c8d6777418515
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.openlocfilehash: 9ac328e660c7a8a3b4a4f34a650062a0fa974771
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7675350"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8074771"
 ---
 # <a name="configure-data-import-from-sharepoint"></a>Duomenų importavimo iš „SharePoint“ konfigūravimas
 
@@ -140,7 +140,7 @@ Be to, galite atidaryti puslapį **Šaltinių failų būsenos** pasirinkę **Org
 
 4. Modelio susiejimą galima vykdyti paketiniu režimu [be priežiūros](#limitations). Tokiu atveju, kiekvieną kartą, kai paketas vykdomas šiuo ER formatu, iš sukonfigūruotų failų šaltinių importuojamas vienas failas.
 
-    Kai failas sėkmingai importuotas iš „SharePoint“ aplanko, jis panaikinamas iš to katalogo ir perkeliamas į sėkmingai importuotų failų aplanką arba į aplanką, skirtą importuotiems failams su įspėjimais. Kitu atveju jis perkeliamas į aplanką, skirtą nepavykusiems failams arba lieka šiame aplanke, jei nepavykusių failų aplankas nenustatytas. 
+    Kai failas sėkmingai importuotas iš „SharePoint“ aplanko, jis panaikinamas iš to katalogo ir perkeliamas į sėkmingai importuotų failų aplanką arba į aplanką, skirtą importuotiems failams su įspėjimais. Kitu atveju jis perkeliamas į nepavykusių failų aplanką arba lieka šiame aplanke, jei nenustatytas nepavykusių failų aplankas. 
 
 5. Įveskite kvito ID, pvz., **V-00001**, tada pasirinkite **Gerai**.
 
@@ -192,11 +192,11 @@ Be to, galite atidaryti puslapį **Šaltinių failų būsenos** pasirinkę **Org
 
 ## <a name=""></a><a name="limitations">Apribojimai</a>
 
-ERA programa nesuteikia galimybės inicijuoti naujos paketinės užduoties, kuri vykdys modelio konvertavimą nedialoginį duomenų importavimo režimu. Norėdami tai atlikti, turite sukurti naują logiką, kad sukonfigūruotu modelio susiejimą būtų galima iškviesti iš programos vartotojo sąsajos (UI), norint importuoti duomenis iš gaunamų failų. Dėl to, reikalingas nedidelis inžinerinis darbas. 
+Versijose Dynamics 365 Finance iki 10.0.25 versijos ER sistemos vartotojo sąsaja (UI) nesuteikia galimybės inicijuoti naujos paketinės užduoties, kuri vykdys modelio susiejimą, kad būtų galima importuoti duomenis be priežiūros. Vietoj to turite sukurti naują logiką, kad sukonfigūruotą ER modelio susiejimą būtų galima iškviesti iš programos vartotojo sąsajos ir importuoti duomenis iš gaunamų failų. Norint sukurti šią logiką, reikia atlikti tam tikrą inžinerinį darbą. 
 
-Norėdami daugiau sužinoti apie atitinkamą ER API, žr. skiltį [Kodavimas norint vykdyti duomenų importavimo formato susiejimą](er-apis-app73.md#code-to-run-a-format-mapping-for-data-import) temoje [„Application update 7.3“ ER sistemos API pakeitimai](er-apis-app73.md).
+Norėdami gauti daugiau informacijos apie atitinkamą ER API, žr [Kodas, skirtas paleisti formato susiejimą duomenims importuoti](er-apis-app73.md#code-to-run-a-format-mapping-for-data-import) skyriuje [Programos naujinimo 7.3 ER framework API pakeitimai](er-apis-app73.md). Peržiūrėkite modelio `Application Suite` klasės `BankImport_RU` kodą, kad pamatytumėte, kaip galima įdiegti pasirinktinę logiką. The`BankImport_RU` klasė pratęsia`RunBaseBatch` klasė. Visų pirma peržiūrėkite`runER()` metodas, kai`ERIModelMappingDestinationRun` objektas sukuriamas kaip ER modelio atvaizdavimo vykdytojas.
 
-Peržiūrėkite modelio `Application Suite` klasės `BankImport_RU` kodą, kad pamatytumėte, kaip galima įdiegti pasirinktinę logiką. Ši klasė išplečia klasę `RunBaseBatch`. Visų pirma peržiūrėkite metodą `runER()`, kai objektas `ERIModelMappingDestinationRun` sukuriamas kaip ER modelio susiejimo vykdytojas.
+10.0.25 ir naujesnėse versijose „Finance“ ER framework UI suteikia galimybę inicijuoti naują paketinę užduotį, kuri vykdys modelio susiejimą, kad būtų galima importuoti duomenis be priežiūros. Norėdami gauti daugiau informacijos apie šį procesą, žr [Importuokite duomenis paketiniu režimu iš rankiniu būdu pasirinktų failų](er-configure-data-import-batch.md).
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
@@ -205,6 +205,8 @@ Peržiūrėkite modelio `Application Suite` klasės `BankImport_RU` kodą, kad p
 [„Application Update 7.3“ ER sistemos API pakeitimai](er-apis-app73.md)
 
 [„Application Update 10.0.23“ ER sistemos API pakeitimai](er-apis-app10-0-23.md)
+
+[„Application Update 10.0.25“ ER sistemos API pakeitimai](er-apis-app10-0-25.md)
 
 
 

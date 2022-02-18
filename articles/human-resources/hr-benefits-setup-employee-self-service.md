@@ -1,5 +1,5 @@
 ---
-title: Konfigūruoti darbuotojų savitarnos tarnybą
+title: Konfigūruokite darbuotojo savitarną
 description: Programoje „Microsoft Dynamics 365 Human Resources“ galite konfigūruoti aukščiausio lygio naršymo plyteles darbuotojo savitarnoje.
 author: twheeloc
 ms.date: 12/06/2021
@@ -15,14 +15,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 1e0c59eb8db5a97405e87922cc65f3eb74bee48e
-ms.sourcegitcommit: b101c21f972fdad2667431f712222e040cd69d43
+ms.openlocfilehash: 83718856a864123d7941b21c078bcdb96a62cca8
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/07/2021
-ms.locfileid: "7898445"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8067584"
 ---
 # <a name="configure-employee-self-service"></a>Darbuotojų savitarnos konfigūravimas
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -38,12 +41,12 @@ Programoje „Microsoft Dynamics 365 Human Resources“, galite konfigūruoti au
 
    | Laukas | Aprašymas |
    | --- | --- |
-   | **Plano tipo kodas** | Plano tipas, rodomas, kai ši išklotinė dalis pasirenkama išmokų **savitarnoje**. |
+   | **Plano tipo kodas** | Plano tipas, kuris rodomas, kai pasirenkama ši plytelė **Naudinga savitarna**. |
    | **Plytelės ID** | Unikalus plytelės identifikatorius. |
-   | **Plytelių etiketės tekstas** | Tekstas, kuris bus rodomas ant išklotinės dalies išmokų **savitarnoje**. |
+   | **Plytelių etiketės tekstas** | Tekstas, kuris bus rodomas plytelėje **Naudinga savitarna**. |
    | **Aprašas** | Plytelės aprašas. |
    | **Plytelės fono vaizdas** | Plytelei naudojamo paveikslėlio URL (pasirinktinai). |
-   | **Sekti atidarytą registraciją** | Pasirinkite šią pasirinktį norėdami sekti šio tipo atviro registravimo eigą. Pavyzdžiui, galite turėti sukurtų planų, kurių **plano tipas = Kita**. Šie planai gali būti pasirinktiniai planai, kurių registravimo eigos sekti nenorite. Jei nepasirinksite šio plano tipo, šio tipo plano bus nepaisoma, kai skirtuke Atviras registruotų darbuotojų sekimas arba registracijos baigimas bus **nepaisoma**. Šis parametras taikomas planų tipui, kuris pasirenkamas visiems laikotarpiams ir juridiniams subjektams. |
+   | **Stebėkite atvirą registraciją** | Pasirinkite šią parinktį, jei norite stebėti šio plano tipo atviros registracijos eigą. Pavyzdžiui, galite turėti planų, sukurtų kur **Plano tipas = Kita**. Šie planai gali būti pasirinktiniai planai, kurių registravimo eigos sekti nenorite. Jei nepasirinksite šio plano tipo, šio tipo planas bus ignoruojamas stebint registracijos eigą arba registracijos užbaigimą **Atidaryti registraciją** skirtukas. Šis nustatymas taikomas plano tipui, kuris pasirenkamas visiems laikotarpiams ir juridiniams asmenims. |
 
 4. Pasirinkite **Įrašyti**.
 
@@ -57,12 +60,12 @@ Programoje „Microsoft Dynamics 365 Human Resources“, galite konfigūruoti au
 
    | Laukas | Aprašymas |
    | --- | --- |
-   | **Išmokos kredito ID** | Nukrypimo kredito programos planai, kurie bus rodomi, kai ši išklotinė dalis pasirinkta **išmokų** savitarnoje. |
+   | **Išmokos kredito ID** | Lanksčių kredito programų planai, kurie bus rodomi pasirinkus šią plytelę **Naudinga savitarna**. |
    | **Plytelės ID** | Unikalus plytelės identifikatorius. |
-   | **Plytelių etiketės tekstas** | Tekstas, kuris bus rodomas ant išklotinės dalies išmokų **savitarnoje**. |
+   | **Plytelių etiketės tekstas** | Tekstas, kuris bus rodomas plytelėje **Naudinga savitarna**. |
    | **Aprašas** | Plytelės aprašas. |
    | **Plytelės fono vaizdas** | Plytelei naudojamo paveikslėlio URL (pasirinktinai). |
-   | **Sekti atidarytą registraciją** | Pasirinkite šią pasirinktį norėdami sekti šio tipo atviro registravimo eigą. Pavyzdžiui, galite turėti sukurtų planų, kurių **plano tipas = Kita**. Šie planai gali būti pasirinktiniai planai, kurių registravimo eigos sekti nenorite. Jei nepasirinksite šio plano tipo, šio tipo plano bus nepaisoma, kai skirtuke Atviras registruotų darbuotojų sekimas arba registracijos baigimas bus **nepaisoma**. Šis parametras taikomas planų tipui, kuris pasirenkamas visiems laikotarpiams ir juridiniams subjektams. |
+   | **Stebėkite atvirą registraciją** | Pasirinkite šią parinktį, jei norite stebėti šio plano tipo atviros registracijos eigą. Pavyzdžiui, galite turėti planų, sukurtų kur **Plano tipas = Kita**. Šie planai gali būti pasirinktiniai planai, kurių registravimo eigos sekti nenorite. Jei nepasirinksite šio plano tipo, šio tipo planas bus ignoruojamas stebint registracijos eigą arba registracijos užbaigimą **Atidaryti registraciją** skirtukas. Šis nustatymas taikomas plano tipui, kuris pasirenkamas visiems laikotarpiams ir juridiniams asmenims. |
 
 4. Pasirinkite **Įrašyti**.
 

@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.search.validFrom: 2021-02-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: b1687b24f499f4d226406a0035f8ea70b6046167
-ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
-ms.translationtype: MT
+ms.openlocfilehash: 54962b48dee05b2cd62fd3ea8814e4c965ba7818
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7902001"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069384"
 ---
 # <a name="install-and-connect-the-warehouse-management-mobile-app"></a>Sandėlio valdymo mobiliųjų įrenginių programėlės diegimas ir prijungimas
 
@@ -143,6 +143,10 @@ Autentifikavimas su „Azure AD“ leidžia saugiai prijungti mobilųjį įrengi
 Sertifikatai gali būti naudojami kaip slaptieji raktai programos tapatybei įrodyti, kai prašomas atpažinimo ženklas. Viešoji sertifikato dalis įkeliama į programos registraciją „Azure“ portale, o visas sertifikatas turi būti įdiegtas kiekviename įrenginyje, kuriame įdiegta Sandėlio valdymo mobiliųjų įrenginių programėlė. Jūsų organizacija atsakinga už sertifikato rotacijos valdymą ir pan. Galite naudoti pasirašomus sertifikatus, bet visada turite naudoti neeksportuotinus sertifikatus.
 
 Turite nustatyti, kad sertifikatas būtų pasiekiamas kiekviename įrenginyje, kuriame paleidžiate Sandėlio valdymo mobiliųjų įrenginių programėlę. Norėdami gauti daugiau informacijos apie tai, kaip valdyti „Intune“ kontroliuojamų įrenginių sertifikatus, jei naudojate „Intune“, žr. [Sertifikatų naudojamas autentifikavimui programoje „Microsoft Intune“](/mem/intune/protect/certificates-configure).
+
+## <a name="configure-the-warehouse-management-mobile-app-for-cloud-and-edge-scale-units"></a>Sukonfigūruokite saugyklos valdymo programą mobiliesiems debesies ir krašto mastelio vienetams
+
+Reikia atlikti kelis papildomus veiksmus, jei planuojate paleisti Sandėlio valdymo programą mobiliesiems debesies ar krašto mastelio įrenginyje. Instrukcijas žr [Sukonfigūruokite saugyklos valdymo programą mobiliesiems debesies ir krašto mastelio vienetams](../cloud-edge/cloud-edge-workload-setup-warehouse-app.md).
 
 ## <a name="configure-the-application-by-importing-connection-settings"></a>Programos konfigūravimas importuojant ryšio parametrus
 
@@ -306,5 +310,6 @@ Jeigu įrenginys buvo pamestas arba pažeista jo sauga, turite pašalinti jo pri
 
 - [Mobiliojo įrenginio naudotojo nustatymai](mobile-device-user-settings.md)
 - [„Warehouse Management” mobiliųjų įrenginių programėlės veiksmų piktogramų ir pavadinimų priskyrimas](step-icons-titles.md)
+- [Sukonfigūruokite saugyklos valdymo programą mobiliesiems debesies ir krašto mastelio vienetams](../cloud-edge/cloud-edge-workload-setup-warehouse-app.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b69b16e4a40b5370c3a73f2aee40a8a86b952d9e
-ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.openlocfilehash: afe45bf1ff5c641346997aa4f32f3241dce2f0a2
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "7647565"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8075505"
 ---
 # <a name="list-of-er-functions-of-the-text-category"></a>Teksto kategorijos ER funkcijų sąrašas
 
@@ -35,6 +35,7 @@ Naudojant modulio Elektroninės ataskaitos (ER) teksto funkcijas, galima atlikti
 | [Sujungti](er-functions-text-concatenate.md) | Ši funkcija visas nurodytas teksto eilutes pateikia kaip tipo *Eilutė* reikšmę, jas sujungus į vieną eilutę. |
 | [Formatas](er-functions-text-format.md) | Ši funkcija nurodytą eilutę pateikia kaip tipo *Eilutė* reikšmę, suformatuotą visus **%N** pasikartojimus pakeičiant *N*-uoju argumentu. |
 | [GetEnumValueByName](er-functions-text-getenumvaluebyname.md) | Ši funkcija nurodytame išvardijimo duomenų šaltinyje ieško konkrečios *Enum* reikšmės, naudodama išvardijimo pavadinimą, kuris nurodytas kaip tipo *Eilutė* reikšmė. Jei *Enum* reikšmė randama, funkcija ją pateikia. |
+| [GetLabelText](er-functions-text-getlabeltext.md) | Ši funkcija ieško konkrečios etiketės, kuri grąžintų a *[Styga](er-formula-supported-data-types-primitive.md#string)* reikšmė, kuri reiškia nurodytos etiketės vertimą nurodyta kalba. |
 | [GuidValue](er-functions-text-guidvalue.md) | Ši funkcija nurodytą tipo *Eilutė* įvestį konvertuoja į duomenų elementą, kurio tipas – *GUID*. |
 | [JsonValue](er-functions-text-jsonvalue.md) | Ši funkcija analizuoja duomenis „JavaScript Object Notation“ (JSON) formatu, kuris pasiekiamas nurodytu keliu, ir išgaunama skaliarinė reikšmė pagal nurodytą ID. Tada grąžinama išskleista skaliarinė reikšmė kaip *Eilutės* reikšmė. |
 | [Kairėn](er-functions-text-left.md) | Ši funkcija pateikia tipo *Eilutė* reikšmę, kurioje pateikiamas nurodytas simbolių skaičius nuo nurodytos eilutės pradžios. |

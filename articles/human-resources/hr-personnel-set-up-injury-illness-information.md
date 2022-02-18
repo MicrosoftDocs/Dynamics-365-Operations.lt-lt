@@ -13,48 +13,51 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 470f7bbf85288e98fbb57bb43701377995e075c8
-ms.sourcegitcommit: e91a1797192fd9bc4048b445bb5c1ad5d333d87d
+ms.openlocfilehash: 680f4cc529b6818d763730f253811a6edbe0dd76
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/01/2021
-ms.locfileid: "7728740"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070582"
 ---
 # <a name="set-up-injury-and-illness-information"></a>Nustatyti sužeidimų ir ligų informaciją
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 
 
-Darbdaviai turi žinoti, kada jų darbuotojai patiria sužalojimus ar ligas dėl darbo vietoje pereitų. Sužalojimų ir **ligų puslapyje galite naudoti norėdami nustatyti informaciją, kuri palengvina darbo vietos** sužalojimų ar ligų ataskaitas. Galite nustatyti susižalojimo ir ligų tipus, įskaitant gydymą, išlaidas ir pasekmes. **USMF** demonstracinių duomenų įmonė buvo naudojama šiai procedūrai sukurti.
+Darbdaviai turi žinoti, kada jų darbuotojai patiria traumų ar ligų dėl darbo vietoje kylančių pavojų. Galite naudoti **Traumos ir ligos** puslapis, kuriame pateikiama informacija, padedanti pranešti apie sužalojimus ar ligas darbo vietoje. Galite nustatyti susižalojimo ir ligų tipus, įskaitant gydymą, išlaidas ir pasekmes. The **USMF** šiai procedūrai sukurti buvo pasitelkta demonstracinių duomenų įmonė.
 
-1. Eikite **į personalo darbuotojų** \> **·** \> **sužalojimo ir ligos** \> **sužalojimo ir ligos** nustatymą.
+1. Eiti į **Žmogiškieji ištekliai** \> **Darbininkai** \> **Traumos ir ligos** \> **Traumos ir ligos nustatymas**.
 2. Pasirinkite **Nauja**.
-3. Lauke **Sužalojimo arba ligos** tipas įveskite vertę (pvz., **Tamsus).**
-4. Aprašymo **lauke įveskite vertę** (pvz., **Krykšte).**
-5. Pasirinkite skirtuką **Kūno** dalys.
+3. Viduje konors **Traumos ar ligos tipas** lauke įveskite reikšmę (pvz., **·**).
+4. Viduje konors **apibūdinimas** lauke įveskite reikšmę (pvz., **lūžis**).
+5. Pasirinkite **Kūno dalys** skirtukas.
 6. Pasirinkite **Nauja**.
-7. Lauke Kūno **dalis** įveskite vertę (pvz., **·** Wrist).
-8. Aprašymo **lauke įveskite vertę** (pvz., **·** Wrist).
-9. Pasirinkite skirtuką **Gydymo** tipai.
+7. Viduje konors **Kūno dalis** lauke įveskite reikšmę (pvz., **·**).
+8. Viduje konors **apibūdinimas** lauke įveskite reikšmę (pvz., **·**).
+9. Pasirinkite **Gydymo tipai** skirtukas.
 10. Pasirinkite **Nauja**.
-11. Į **lauką Gydymo** tipas įveskite vertę (pvz., **·** Paslauga).
-12. Aprašymo **·** lauke įveskite vertę (pvz., **įdėkite lauką** Aprašymas).
-13. Pasirinkite **skirtuką Išlaidų** tipai.
+11. Viduje konors **Gydymo tipas** lauke įveskite reikšmę (pvz., **·**).
+12. Viduje konors **apibūdinimas** lauke įveskite reikšmę (pvz., **įtvarą**).
+13. Pasirinkite **Išlaidų rūšys** skirtukas.
 14. Pasirinkite **Nauja**.
-15. Lauke **Išlaidų tipas** įveskite vertę (pvz., **X-xxxs).**
-16. Aprašymo **·** lauke įveskite vertę (pvz., **X-xxxs).**
-17. Pasirinkite skirtuką **Rezultatų** tipai.
+15. Viduje konors **Išlaidų tipas** lauke įveskite reikšmę (pvz., **spinduliai**).
+16. Viduje konors **apibūdinimas** lauke įveskite reikšmę (pvz., **spinduliai**).
+17. Pasirinkite **Rezultatų tipai** skirtukas.
 18. Pasirinkite **Nauja**.
-19. Lauke **Rezultato tipas** įveskite vertę (pvz., **·** Nakvynė).
-20. Aprašymo **lauke įveskite vertę** (pvz., Fizinę **·** negalią).
-21. Pasirinkite skirtuką **Sunkumo** lygiai.
+19. Viduje konors **Rezultato tipas** lauke įveskite reikšmę (pvz., **·**).
+20. Viduje konors **apibūdinimas** lauke įveskite reikšmę (pvz., **terapija**).
+21. Pasirinkite **Sunkumo lygiai** skirtukas.
 
-    Galima sukurti pritaikomus sunkumo lygius. Pavyzdžiui, 1 svarba gali rodyti smulkų sužeidimą, o 3 svarba – sunkią sužalojimą.
+    Galima sukurti pritaikomus sunkumo lygius. Pavyzdžiui, 1 sunkumo laipsnis gali reikšti nedidelį sužalojimą, o 3 sunkumas – sunkų sužalojimą.
 
-22. Pasirinkite skirtuką **Ataskaitų** agentūros.
+22. Pasirinkite **Ataskaitų agentūros** skirtukas.
 
-    Ataskaitą teikianti agentūra yra agentūros, į kurias reikia pranešti apie incidentą. Pažymėkite **numatytosios** agentūros, kuri yra numatytoji institucija, kuri turi pranešti apie sužalojimus ir ligas, žymės langelį.
+    Pranešimus teikiančios agentūros yra agentūros, kurioms apie incidentą reikia pranešti. Pasirinkite **Numatytas** Agentūros, kuri yra numatytoji agentūra, kuriai reikia pranešti apie sužalojimus ir ligas, žymės langelis.
 
 23. Pasirinkite **Įrašyti**.
 

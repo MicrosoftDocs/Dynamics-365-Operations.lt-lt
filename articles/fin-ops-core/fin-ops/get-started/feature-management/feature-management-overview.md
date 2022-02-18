@@ -1,6 +1,6 @@
 ---
 title: Funkcijų valdymo apžvalga
-description: Šioje temoje aprašomas priemonių valdymas ir kaip jį naudoti.
+description: Šioje temoje aprašomas funkcijų valdymas ir kaip galite jį naudoti.
 author: Peakerbl
 ms.date: 01/10/2022
 ms.topic: overview
@@ -15,16 +15,19 @@ ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: 6605fe68576ce80726438b60c1f1fbf3782d0934
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: c98bdbd64ee5488da20de3f5b23ae18ebce8c23f
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984464"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8068014"
 ---
 # <a name="feature-management-overview"></a>Funkcijų valdymo apžvalga
 
 [!include [banner](../../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../../includes/peap-1.md)]
 
 Funkcijos įtraukiamos ir atnaujinamos kiekviename leidime. Funkcijų valdymo patirtis suteikia darbo sritį, kurioje galite peržiūrėti kiekviename leidime pristatytų funkcijų sąrašą. Tada galite naudoti darbo sritį priemonių dokumentacijai peržiūrėti ir funkcijoms įjungti ar išjungti.
 
@@ -76,7 +79,7 @@ Priemonės, kurios atnaujintos į Įjungta **pagal numatytuosius** nustatymus, y
 
 ### <a name="mandatory"></a>Privalomas
 
-**Privaloma** yra numatoma galutinė priemonių būsena. Tai nurodo, kad priemonės yra įjungtos ir kad negalite jų išjungti nenaudodami „Microsoft". Pasirinktines priemones tikimasi padaryti privalomomis po dviejų pagrindinių leidimų. Kritinės priemonės gali būti išimties tvarka įvestos kaip privalomos.
+**Privaloma** yra numatoma galutinė funkcijų būsena. Tai nurodo, kad priemonės yra įjungtos ir kad negalite jų išjungti nenaudodami „Microsoft". Pasirinktines priemones tikimasi padaryti privalomomis po dviejų pagrindinių leidimų. Kritinės priemonės gali būti išimties tvarka įvestos kaip privalomos.
 
 ## <a name="example-of-expected-feature-lifecycles"></a>Numatytų funkcijų ciklo pavyzdys
 

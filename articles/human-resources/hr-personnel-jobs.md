@@ -15,14 +15,17 @@ ms.assetid: 889a8fab-0eef-45c2-91fc-ff2f4d44d54f
 ms.search.region: Global
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a4aa7369c84836154b8217a5b70267021f4028b1
-ms.sourcegitcommit: 4f84540e6121ca3d5ae52ee07e414116d423cefa
+ms.openlocfilehash: 7e2c9421646dacc5523f40b28b550881dc4b25dd
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/03/2022
-ms.locfileid: "7948480"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8068164"
 ---
 # <a name="set-up-the-components-of-a-job"></a>Užduoties komponentų nustatymas
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -60,7 +63,7 @@ Užduočių funkcijos nurodo aukšto lygio funkcines kategorijas susieja aukšto
 Užduočių funkcijas galite tvarkyti puslapyje **Užduočių funkcijos**. Puslapyje **Užduočių funkcijos** įveskite užduoties funkcijos identifikavimo kodą ir trumpą aprašymą.
 
 ## <a name="compensation"></a>Kompensacija
-Norėdami priskirti pastoviosios atlyginimo dalies planą darbuotojui, kuris turi pareigas užduotyje, turite nustatyti atlyginimo lygius užduočiai. Kompensavimo **lygis** naudojamas, kai minimali, vidurio taškas ir maksimalios sumos yra nustatytos kompensavimo struktūroje (kompensavimo tinklelyje). Sukūrus pastoviosios atlyginimo dalies planą, pasirenkama atlyginimo struktūra. Į atlyginimo struktūrą taip pat įtrauktas kompensacijos lygis. Kai pasirenkate darbuotojo pastoviosios atlyginimo dalies planą, atlyginimo lygiai, galimi pasirinkti, priklauso nuo užduoties, su kuria siejamos darbuotojo pareigos. Daugiau informacijos apie kompensacijos nustatymą rasite [Kompensacijų planai](hr-compensation-overview.md).
+Norėdami priskirti pastoviosios atlyginimo dalies planą darbuotojui, kuris turi pareigas užduotyje, turite nustatyti atlyginimo lygius užduočiai. The **Atlyginimo lygis** naudojamas, kai kompensavimo struktūroje (kompensavimo tinklelyje) nustatomos minimalios, vidurio ir didžiausios sumos. Sukūrus pastoviosios atlyginimo dalies planą, pasirenkama atlyginimo struktūra. Į atlyginimo struktūrą taip pat įtrauktas kompensacijos lygis. Kai pasirenkate darbuotojo pastoviosios atlyginimo dalies planą, atlyginimo lygiai, galimi pasirinkti, priklauso nuo užduoties, su kuria siejamos darbuotojo pareigos. Daugiau informacijos apie kompensacijos nustatymą rasite [Kompensacijų planai](hr-compensation-overview.md).
 
 ## <a name="job-skills"></a>Užduoties įgūdžiai
 Užduoties įgūdžiai apibūdina įgūdžius, reikalingus užduočiai atlikti. Įgūdžių lygis turi būti susietas su kiekvienu darbo įgūdžiu. Įgūdžių lygius nustato vartotojas. Jie nurodo įgūdžiams reikalingą žinių ar kompetencijos lygį. Pavyzdžiui, įmonės gali nustatyti skaitinius lygius, tarkim nuo 1 iki 5, kur **1** reiškia pradedantįjį, o **5** – specialistą. Įmonės taip pat gali nustatyti lygius, pažymėtus **Pradedantysis**, **Pažengęs** arba **Specialistas**. Nustačius įgūdžių lygį, taip pat galima nustatyti įgūdžių svarbą. Pavyzdžiui, jei buhalteriui reikia turėti daug žinių apie „Microsoft Excel”, gali būti sukurtas įgūdis, pavadintas **„Excel” žinios**. Tada įgūdžių lygį galima nustatyti kaip **Pažengęs**, o svarba gali būti nustatyta kaip **Svarbiausia**.

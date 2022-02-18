@@ -16,18 +16,18 @@ ms.search.industry: ''
 ms.author: henrikan
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: 31674b2be3deb52277cbf79e1e076da13bf94404
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.openlocfilehash: 8dfba2d2dc2fdd4af136e3cb20061d794369011f
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7566364"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8060950"
 ---
 # <a name="synchronize-inventory-level-information-from-supply-chain-management-to-field-service"></a>„Supply Chain Management” atsargų lygio informacijos sinchronizavimas su „Field Service“ 
 
 [!include[banner](../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Šioje temoje aptariami šablonai ir pagrindinės užduotys, naudojami sinchronizuojant „Dynamics 365 Supply Chain Management“ atsargų lygio informaciją su „Dynamics 365 Field Service“.
 
@@ -64,7 +64,7 @@ Atsargų lygio informacija iš „Finance and Operations“ siunčiama į pasiri
 
 „Supply Chain Management” veiks kaip atsargų lygių ruošinys. Todėl svarbu nustatyti darbo užsakymų, perkėlimo ir koregavimo integravimą iš „Field Service“ į „Supply Chain Management”, jei šis funkcionalumas naudojamas „Field Service“ kartu su „Supply Chain Management” atsargų lygių sinchronizavimu.
 
-Produktus ir sandėlius, kuriuose atsargų lygiai tvarkomi pagal „Supply Chain Management”, galima valdyti naudojant išplėstinę užklausą ir filtravimą („Power Query“).
+Produktus ir sandėlius, kuriuose atsargų lygiai įvaldomi iš tiekimo grandinės valdymo, galima valdyti naudojant išplėstinę užklausą ir filtravimą (Power Query).
 
 > [!NOTE]
 > Galima sukurti keletą „Field Service“ sandėlių (pagal parinktį **Tvarkomas išoriškai = Ne**), o tada juos susieti su vienu „Supply Chain Management” sandėliu, naudojančiu išplėstinės užklausos ir filtravimo funkcionalumą. Tai naudojama tais atvejais, kai norite, kad „Field Service“ tvarkytų išsamų atsargų lygį ir tik siųstų naujinimus į „Supply Chain Management”. Šiuo atveju „Field Service“ negaus „Supply Chain Management” atsargų lygio naujinimų. Papildomos informacijos žr. [„Field Service“ atsargų koregavimo sinchronizavimas su Tiekimo grandinės valdymu](/dynamics365/unified-operations/supply-chain/sales-marketing/synchronize-inventory-adjustments) ir [„Field Service“ darbo užsakymų sinchronizavimas su pardavimo užsakymais, susietais su „Supply Chain Management” projektu](/dynamics365/unified-operations/supply-chain/sales-marketing/field-service-work-order).

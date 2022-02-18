@@ -15,20 +15,23 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: ff9f9404ebbcbc7359ee9927d7a92e31808a478a
-ms.sourcegitcommit: e91a1797192fd9bc4048b445bb5c1ad5d333d87d
+ms.openlocfilehash: 9093944a2e225565fc8fdba8f9a487303369c251
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/01/2021
-ms.locfileid: "7728764"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8067281"
 ---
 # <a name="manage-items-that-are-lent-to-workers"></a>Darbininkams paskolintų prekių valdymas
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Panaudos objektai yra įrašai, kurie vadovams padeda sekti fizines prekes, kurias įmonė skolina savo darbuotojams. 
 
-Štai keletas prekių, kurias įmonė gali paskolinti darbuotojams, pavyzdžių:
+Štai keletas dalykų, kuriuos įmonė gali paskolinti darbuotojams, pavyzdžiai:
 
 -   Mobilieji telefonai;
 -   Automobiliai;
@@ -38,7 +41,7 @@ Kiekviena fizinė prekė turi turėti atitinkamą panaudos objektą. Kiekviename
 
 Skolindami objektą, įveskite skolinimo datą ir planuojamą grąžinimo datą. Kai objektas grąžinamas, įveskite faktinę grąžinimo datą.
 
-Darbuotojai gali naudotis **darbuotojų savitarnos** darbo sritimi, norėdami peržiūrėti objektų, kurie buvo paskolinti jiems, įrašus. Jie taip pat gali redaguoti esamus įrašus arba įvesti naujus panaudos objektus, jei jie gavo papildomų faktinių objektų. Darbo eigą galima nustatyti į maršruto pakeitimus naujiems ar esamiems panaudos elementams patvirtinimo proceso metu. 
+Darbuotojai gali naudotis **Darbuotojų savitarna** darbo sritį, kad galėtumėte peržiūrėti jiems paskolintų daiktų įrašus. Jie taip pat gali redaguoti esamus įrašus arba įvesti naujus paskolos elementus, jei gavo papildomų fizinių prekių. Galima nustatyti darbo eigą, kad per patvirtinimo procesą būtų nukreipti naujų arba esamų paskolos elementų pakeitimai. 
 
 Vadovai gali peržiūrėti savo tiesioginių ataskaitų panaudos objektus. Jiems taip pat gali būti suteikta teisė darbuotojų vardu pridėti naujų panaudos objektų.
 

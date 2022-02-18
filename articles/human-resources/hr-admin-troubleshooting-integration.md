@@ -14,18 +14,21 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8c368f916a199c7472f6f886d143048487a38ecc
-ms.sourcegitcommit: 7e32e5e39e762a4b1606161cb603a450d13b5251
-ms.translationtype: HT
+ms.openlocfilehash: 308e2a538666522edf4a76be13b93c82c3f3a774
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "7413416"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8071115"
 ---
 # <a name="integration-with-finance-faq"></a>Integravimo su „Finance“ DUK
 
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Ši tema atsako į dažnai užduodamus klausimus apie tai, kokie duomenys sinchronizuojami, kai „Dynamics 365 Human Resources“ integruojama su „Dynamics 365 Finance“.
 
@@ -86,7 +89,7 @@ Tvarkant išimtis speciali sąranka nereikalinga. Duomenų integratorius automat
 
 ## <a name="can-i-set-up-bi-directional-integration"></a>Ar galiu nustatyti dvikryptį integravimą?
 
-Ne, integravimas šiuo metu yra vienkryptis (iš „Human Resources“ į „Finance and Operations“). Tačiau galima naudoti numatytąjį šabloną ir siųsti duomenis iš „Human Resources“ į „Finance“.
+Ne, šiuo metu integracija yra vienpusė (žmogiškieji ištekliai finansams ir operacijoms). Tačiau galima naudoti numatytąjį šabloną ir siųsti duomenis iš „Human Resources“ į „Finance“.
 
 ## <a name="can-i-allow-record-deletion-as-part-of-my-integration"></a>Ar integracijoje galima leisti naikinti įrašus?
 

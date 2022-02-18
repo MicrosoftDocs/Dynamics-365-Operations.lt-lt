@@ -15,14 +15,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 08c8015e8729a4ca33f3fb3c48f654e489f32f3f
-ms.sourcegitcommit: e91a1797192fd9bc4048b445bb5c1ad5d333d87d
+ms.openlocfilehash: 90dd59b605c21abd03d2e0d64a89dc787850c26e
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/01/2021
-ms.locfileid: "7729056"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8065206"
 ---
 # <a name="create-questionnaires"></a>Kurti klausimynus
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -63,7 +66,7 @@ Prieš kuriant klausimynus, atsakymus ir klausimus, turi būti nustatytos kai ku
 
 ### <a name="questionnaire-types"></a>Klausimynų tipai
 
-**Klausimynų** tipai yra būtini ir turi būti priskirti kuriant klausimyną. **Klausimynų** tipai padeda jums valdyti ir klasifikuoti klausimynus lengviau. Klausimynų tipus naudokite jiems klasifikuoti ir atskirti vienam nuo kito. Pavyzdžiui, jei yra keli klausimynai, iš kurių galima rinktis, kad būtų lengviau rasti konkretų klausimyną, galite juos filtruoti pagal tipą. Toliau pateikiami keli klausimynų tipų pavyzdžiai.
+**Anketų tipai** yra būtini ir turi būti priskirti kuriant klausimyną. **Anketų tipai** padėti lengviau tvarkyti ir klasifikuoti klausimynus. Klausimynų tipus naudokite jiems klasifikuoti ir atskirti vienam nuo kito. Pavyzdžiui, jei yra keli klausimynai, iš kurių galima rinktis, kad būtų lengviau rasti konkretų klausimyną, galite juos filtruoti pagal tipą. Toliau pateikiami keli klausimynų tipų pavyzdžiai.
 
 -   Personalo lavinimas
 -   Klientų apklausos
@@ -71,9 +74,9 @@ Prieš kuriant klausimynus, atsakymus ir klausimus, turi būti nustatytos kai ku
 
 ### <a name="question-types"></a>Klausimų tipai
 
-**Klausimų** tipai yra būtini ir turi būti priskirti kuriant klausimą. 
+**Klausimų tipai** yra būtini ir turi būti priskirti kuriant klausimą. 
 
-Naudokite **klausimų tipus** norėdami skirstyti klausimus į kategorijas ataskaitoms. **Klausimų** tipai padeda lengviau rasti klausimus, nes klausimų puslapyje galima naudoti tipus kaip **·** filtrus. Toliau pateikiami keli klausimų tipų pavyzdžiai.
+Naudokite **Klausimų tipai** suskirstyti klausimus į kategorijas. **Klausimų tipai** Taip pat lengviau rasti klausimus, nes galite naudoti tipus kaip filtrus **Klausimai** puslapį. Toliau pateikiami keli klausimų tipų pavyzdžiai.
 
 -   Žmogiškieji ištekliai.
 -   Verslo valdymas.
@@ -105,7 +108,7 @@ Kurti galimų atsakymų į uždarus klausimus sąrašą galite **Atsakymų grupi
 
 Atsakymų grupės ir atsakymai yra komponentai, kurie sudaro informacijos pagrindą, iš kurio kuriami klausimai. Sukūrę atsakymų grupę, **Klausimų** puslapio lauke **Atsakymų grupė** ją galite susieti su klausimu. 
 
-Atsakymų grupė gali būti naudojama daugiau nei vienam to paties klausimyno klausimui ir taip pat gali būti **naudojama daugiau nei viename** klausimyne. 
+An **Atsakymų grupė** gali būti naudojamas daugiau nei vienam tos pačios anketos klausimui, taip pat gali būti naudojamas daugiau nei viename klausimyne. 
 
 > [!NOTE]
 > Jei keičiate tekstą atsakymo grupėse, kuris jau buvo užbaigtas klausimynuose, duomenis gali būti sunku įvertinti ir klausimyno rezultatai gali nebegalioti. Jei turite pakeisti atsakymo grupę, apgalvokite naujos atsakymo grupės sukūrimą vietoje esančios keitimo. Atsakymų grupių, pridėtų prie klausimo ar atsakymo, arba atsakytų atsakymų grupių naikinti negalima.
@@ -171,7 +174,7 @@ Klausimyne negalite panaikinti tolesnių klausimų tipų.
 
 ### <a name="result-groups"></a>Rezultatų grupės
 
-**Rezultatų grupės** yra laisvai pasirenkamos, kai pridedate klausimus į klausimyną. 
+**Rezultatų grupės** yra neprivalomi, kai pridedate klausimus prie klausimyno. 
 
 Rezultatų grupė naudojama skaičiuoti klausimyno taškams ir kategorizuoti jo rezultatams. Jei naudojate rezultatų grupės, galite atlikti tolesnes užduotis.
 

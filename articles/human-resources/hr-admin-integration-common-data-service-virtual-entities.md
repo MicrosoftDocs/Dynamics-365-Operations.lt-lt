@@ -15,18 +15,21 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9e26a2fb65564cb4a1d2f9ba4b0d621177207545
-ms.sourcegitcommit: 72a82e9aeabbdecf57e1aee72975c63eba75143a
-ms.translationtype: HT
+ms.openlocfilehash: f7ffe522f0f17a21280e53728c6efc2823743733
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7414669"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069151"
 ---
 # <a name="configure-dataverse-virtual-tables"></a>„Dataverse“ virtualiųjų lentelių konfigūravimas
 
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 „Dynamics 365 Human Resources“ yra „Microsoft Dataverse“ virtualus duomenų šaltinis. Jis leidžia atlikti visas kūrimo, skaitymo, atnaujinimo ir naikinimo (CRUD) operacijas naudojantis „Dataverse“ ir „Microsoft Power Platform“. Duomenys virtualioms lentelėms nėra laikomi „Dataverse“, bet programos duomenų bazėje.
 
@@ -119,10 +122,10 @@ Kitas žingsnis yra konfigūruoti virtualios lentelės duomenų šaltinį „Pow
 
 4. Srityje **Spendimo būklės telkinys** pasirinkite piktogramą **Išplėstinė paieška**, esančią programos viršutiniame dešiniajame kampe.
 
-5. Puslapyje **Išplėstinė paieška**, išskleidžiamajame sąraše **Ieškoti**, pasirinkite „**Finance and Operations“ virtualaus duomenų šaltinio konfigūracijos**.
+5. Ant **Išplėstinė paieška** puslapyje, esančiame **Ieškoti** išskleidžiamajame sąraše, pasirinkite **„Finance and Operations“ virtualaus duomenų šaltinio konfigūracijos**.
 
    > [!NOTE]
-   > Virtualiosios lentelės programos diegimas iš ankstesnio nustatymo veiksmo gali užtrukti keletą minučių. Jei **„Finance and Operations“ virtualiųjų duomenų** šaltinio konfigūracijų sąraše nėra, šiek tiek palaukite ir atnaujinkite sąrašą.
+   > Virtualiosios lentelės programos diegimas iš ankstesnio nustatymo veiksmo gali užtrukti keletą minučių. Jeigu **„Finance and Operations“ virtualaus duomenų šaltinio konfigūracijos** nėra sąraše, palaukite minutę ir atnaujinkite sąrašą.
 
 6. Pasirinkite **Rezultatai**.
 

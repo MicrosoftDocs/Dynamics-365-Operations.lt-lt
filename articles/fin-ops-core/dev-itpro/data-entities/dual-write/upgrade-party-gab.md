@@ -9,86 +9,86 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-03-31
-ms.openlocfilehash: eaafe8d98049cb8838317396f28e9d6ca720a677
-ms.sourcegitcommit: 08dcbc85e372d4e4fb3ba64389f6d5051212c212
+ms.openlocfilehash: 579a7d19ee7196d3242c78bd9915df24ec479c31
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "8015720"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8060490"
 ---
 # <a name="upgrade-to-the-party-and-global-address-book-model"></a>Naujinimas į šalies ir visuotinės adresų knygelės modelį
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Duomenų gamyklos šablonai padeda atnaujinti šiuos esamus duomenis dvigubo rašymo į šalį ir visuotinės adresų knygelės modelį: duomenys sąskaitoje, kontakte ir tiekėjo lentelėse, pašto ir elektroniniuose [Microsoft Azure](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Dual-write/Upgrade%20data%20to%20dual-write%20Party-GAB%20schema)**·** **·** **adresuose**.
 
-Pateikiami trys duomenų gamyklos šablonai: Jos padeda suderinti duomenis iš finansų ir operacijų programėlių ir klientų įsipareigojimo programėlių.
+The [Microsoft Azure Data Factory šablonai](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Dual-write/Upgrade%20data%20to%20dual-write%20Party-GAB%20schema) padėti atnaujinti šiuos esamus dvigubo rašymo duomenis į šalies ir visuotinės adresų knygos modelį: duomenys **sąskaita**, **·**, ir **Pardavėjas** lenteles ir pašto bei elektroninius adresus.
 
-- **[Šalies šablonas (duomenų atnaujinimas į dvigubo rašymo](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/blob/master/Dual-write/Upgrade%20data%20to%20dual-write%20Party-GAB%20schema/arm_template.json) šalies-GAB schemą/arm_template.json) – šis šablonas padeda atnaujinti šalies ir kontakto duomenis, susijusius su sąskaita, kontaktu ir** **tiekėjo** **·** **·** **·** **duomenimis**.
-- **[Šalies pašto adreso šablonas (atnaujinti duomenis į dvigubo rašymo šalies-GAB schemą/atnaujinti į šalies pašto adresą](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/blob/master/Dual-write/Upgrade%20data%20to%20dual-write%20Party-GAB%20schema/Upgrade%20to%20Party%20Postal%20Address%20-%20GAB/arm_template.json) - GAB/arm_template.json) – šis šablonas padeda atnaujinti pašto adresus, susietus su sąskaita, kontaktu ir** tiekėjo **·** **·** **duomenimis**.
-- **[Įrašo elektroninio adreso šablonas (Atnaujinti duomenis į dvigubo rašymo šalies-GAB schemą/Atnaujinti į šalies elektroninį adresą](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/blob/master/Dual-write/Upgrade%20data%20to%20dual-write%20Party-GAB%20schema/Upgrade%20to%20Party%20Electronic%20Address%20-%20GAB/arm_template.json) - GAB/arm_template.json) – šis šablonas padeda atnaujinti elektroninius adresus, susietus su sąskaita, kontaktu ir** tiekėjo **·** **·** **duomenimis**.
+Pateikiami šie trys „Data Factory“ šablonai. Jie padeda suderinti duomenis iš „Finance and Operations“ ir iš klientų įtraukimo programų.
 
-Proceso pabaigoje sugeneruojami šie kableliais atskirtų verčių (.csv) failai.
+- **[Vakarėlio šablonas](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/blob/master/Dual-write/Upgrade%20data%20to%20dual-write%20Party-GAB%20schema/arm_template.json) (Naujovinkite duomenis į dvigubo rašymo Party-GAB schema/arm_template.json)** – Šis šablonas padeda atnaujinti **Vakarėlis** ir **kontaktas** duomenis, kurie yra susieti su **sąskaita**, **·**, ir **Pardavėjas** duomenis.
+- **[Vakarėlio pašto adreso šablonas](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/blob/master/Dual-write/Upgrade%20data%20to%20dual-write%20Party-GAB%20schema/Upgrade%20to%20Party%20Postal%20Address%20-%20GAB/arm_template.json) (Naujovinkite duomenis į dvigubo rašymo partijos-GAB schemą / naujovinkite į partijos pašto adresą – GAB/arm_template.json)** – Šis šablonas padeda atnaujinti pašto adresus, kurie yra susieti su **sąskaita**, **·**, ir **Pardavėjas** duomenis.
+- **[Vakarėlio elektroninio adreso šablonas](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/blob/master/Dual-write/Upgrade%20data%20to%20dual-write%20Party-GAB%20schema/Upgrade%20to%20Party%20Electronic%20Address%20-%20GAB/arm_template.json) (Naujovinkite duomenis į dvigubo rašymo partijos-GAB schemą / naujovinkite į šalies elektroninį adresą – GAB/arm_template.json)** – Šis šablonas padeda atnaujinti elektroninius adresus, kurie yra susieti su **sąskaita**, **·**, ir **Pardavėjas** duomenis.
+
+Proceso pabaigoje sugeneruojami šie kableliais atskirtų reikšmių (.csv) failai.
 
 | Failo vardas | Paskirtis |
 |---|---|
-| FONewParty.csv | Šis failas padės sukurti naujus **įrašus** finansų ir operacijų programoje. |
-| ImportFONewPostalAddressLocation.csv | Šis failas padės sukurti naujus **pašto adreso vietos** įrašus finansų ir operacijų programoje. |
-| ImportFONewPartyPostalAddress.csv | Šis failas padės sukurti naujus **šalies pašto** adreso įrašus finansų ir operacijų programoje. |
-| ImportFONewPostalAddress.csv | Šis failas padės sukurti naujus **pašto** adreso įrašus finansų ir operacijų programoje. |
-| ImportFONewElectronicAddress.csv | Šis failas padės sukurti naujus **elektroninio** adreso įrašus finansų ir operacijų programoje. |
+| FONewParty.csv | Šis failas padeda sukurti naują **Vakarėlis** įrašai „Finance and Operations“ programoje. |
+| ImportFONewPostalAddressLocation.csv | Šis failas padeda sukurti naują **Pašto adresas Vieta** įrašus programėlėje „Finance and Operations“. |
+| ImportFONewPartyPostalAddress.csv | Šis failas padeda sukurti naują **Vakarėlio pašto adresas** įrašus programėlėje „Finance and Operations“. |
+| ImportFONewPostalAddress.csv | Šis failas padeda sukurti naują **Pašto adresas** įrašus programėlėje „Finance and Operations“. |
+| ImportFONewElectronicAddress.csv | Šis failas padeda sukurti naują **Elektroninis adresas** įrašus programėlėje „Finance and Operations“. |
 
-Šioje temoje paaiškinama, kaip naudoti duomenų gamyklos šablonus ir atnaujinti savo duomenis. Jei neturite jokių pritaikymų, galite naudoti šablonus. Tačiau jei turite pritaikyti abonemento, kontakto ir tiekėjo duomenis, turite modifikuoti šablonus, kaip **aprašyta** šioje **·** **temoje**.
+Šioje temoje paaiškinama, kaip naudoti „Data Factory“ šablonus ir atnaujinti duomenis. Jei neturite tinkinimų, galite naudoti tokius šablonus, kokie jie yra. Tačiau, jei turite tinkinimų **sąskaita**, **·**, ir **Pardavėjas** duomenis, turite keisti šablonus, kaip aprašyta šioje temoje.
 
 > [!IMPORTANT]
-> Yra specialių instrukcijų, kaip paleisti šalies pašto adresą ir šalies elektroninio adreso šablonus. Pirmiausia turite paleisti šalies šabloną, tada šalies pašto adreso šabloną, tada šalies elektroninio adreso šabloną. Kiekvienas šablonas sukurtas importuoti atskiroje duomenų gamyklose.
+> Partijos pašto adreso ir partijos elektroninio adreso šablonams paleisti yra specialios instrukcijos. Pirmiausia turite paleisti Šalies šabloną, tada Šalies pašto adreso šabloną ir tada Šalies elektroninio adreso šabloną. Kiekvienas šablonas skirtas importuoti į atskirą duomenų gamyklą.
 
 ## <a name="prerequisites"></a>Būtinieji komponentai
 
-Prieš atnaujinant šalies ir visuotinės adresų knygelės modelį, būtina įdiegti šiuos būtinuosius komponentus:
+Kad galėtumėte naujovinti į partijos ir visuotinės adresų knygos modelį, turi būti įvykdytos šios būtinosios sąlygos:
 
-+ Turite turėti ["Azure"](https://portal.azure.com/) abonementą.
-+ Turite turėti prieigą prie [šablonų](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Dual-write/Upgrade%20data%20to%20dual-write%20Party-GAB%20schema).
++ Jūs privalote turėti [Azure prenumerata](https://portal.azure.com/).
++ Turite turėti prieigą prie [šablonus](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Dual-write/Upgrade%20data%20to%20dual-write%20Party-GAB%20schema).
 + Privalote būti dvigubo rašymo klientas.
 
 ## <a name="prepare-for-the-upgrade"></a>Parengimas atnaujinimui
 
-Atnaujinimui atlikti reikia šio pasirengimo:
+Atnaujinti reikia tokio pasiruošimo:
 
-+ **Visiškas sinchronizavimas: finansų ir operacijų aplinkos ir klientų įsipareigojimo aplinkos būsena yra visiškai sinchronizuojama sąskaitoje (klientas), kontakte ir** **tiekėjų** **·** **lentelėse**.
-+ **Integravimo raktai: abonementas (klientas), kontaktas ir tiekėjų lentelės klientų įsipareigojimo programėlėse naudoja** **·** **·** **·** "out-out-box" integravimo raktus. Jeigu tinkinote integravimo raktus, turite tinkinti ir šabloną.
-+ **Įrašo numeris: visuose abonemente (kliento), kontakto ir tiekėjo įrašuose,** **kurie bus** **·** **atnaujinti**, yra įrašo numeris. Įrašų, kurie neturi įrašo numerio, bus nepaisoma. Jei norite atnaujinti šiuos įrašus, prieš pradėdami atnaujinimo procesą, įtraukite į juos šalies numerį.
-+ **Sistemos išlaidos: naujinimo proceso metu atsijungus nuo finansų ir operacijų aplinkos ir** kliento įsipareigojimo aplinkos.
-+ **Momentinė** kopija: momentinę finansų ir operacijų programėlių ir klientų įsipareigojimo programėlių kopiją. Tada, norėdami atkurti ankstesnę būseną, jei reikia, galite naudoti momentines kopijas.
++ **Pilnas sinchronizavimas:** Tiek finansų ir operacijų aplinka, tiek klientų įtraukimo aplinka yra visiškai sinchronizuotos **Paskyra (klientas)**, **·**, ir **Pardavėjas** lenteles.
++ **Integravimo raktai:** The **Paskyra (klientas)**, **·**, ir **Pardavėjas** Klientų įtraukimo programų lentelėse naudojami jau paruošti integravimo raktai. Jeigu tinkinote integravimo raktus, turite tinkinti ir šabloną.
++ **Vakarėlio numeris:** Visi **Paskyra (klientas)**, **·**, ir **Pardavėjas** įrašai, kurie bus atnaujinti, turi partijos numerį. Įrašai, neturintys partijos numerio, bus ignoruojami. Jei norite atnaujinti tuos įrašus, prieš pradėdami naujinimo procesą pridėkite prie jų šalies numerį.
++ **Sistemos gedimas:** Atnaujinimo proceso metu turėsite atjungti tiek finansų ir operacijų aplinką, tiek klientų įtraukimo aplinką.
++ **Momentinė nuotrauka:** Padarykite „Finance and Operations“ ir klientų įtraukimo programų momentinę nuotrauką. Tada galite naudoti momentines nuotraukas, kad atkurtumėte ankstesnę būseną, jei reikia.
 
 ## <a name="deployment"></a>Visuotinis diegimas
 
-1. Atsisiųskite šablonus [iš "Dynamics-365-FastTrack-Implementation-Assets"](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Dual-write/Upgrade%20data%20to%20dual-write%20Party-GAB%20schema).
+1. Atsisiųskite šablonus iš [„Dynamics-365-FastTrack-Implementation-Assets“](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Dual-write/Upgrade%20data%20to%20dual-write%20Party-GAB%20schema).
 2. Prisijunkite prie [„Azure“ portalo](https://portal.azure.com/).
 3. Sukurkite [išteklių grupę](/azure/azure-resource-manager/management/manage-resource-groups-portal).
 4. Sukurkite [saugyklos paskyrą](/azure/storage/common/storage-account-create?tabs=azure-portal) jūsų sukurtoje išteklių grupėje.
-5. Sukurti duomenų [gamyklos](/azure/data-factory/quickstart-create-data-factory-portal) išteklių grupėje, kurią sukūrėte.
-6. Atidarykite duomenų gamyklos ir pasirinkite Autorius **& Monitorius** išklotinę kainą.
+5. Sukurti [duomenų gamykla](/azure/data-factory/quickstart-create-data-factory-portal) sukurtoje išteklių grupėje.
+6. Atidarykite duomenų gamyklą ir pasirinkite **Autorius ir stebėtojas** plytelė.
 7. Skirtuke **Valdyti** pasirinkite **ARM šablonas**.
-8. Norėdami **importuoti šalies šabloną, pasirinkite importuoti PREKIŲ** grupės **šabloną**.
+8. Pasirinkite **Importuoti ARM šabloną** importuoti **Vakarėlis** šabloną.
 9. Importuokite šabloną į duomenų gamyklą. Įveskite šias reikšmes laukams **Projekto informacija** ir **Egzemplioriaus informacija**.
 
     | Laukas | Reikšmė |
     |---|---|
-    | Abonementas | "Azure" abonementas |
-    | Išteklių grupė | Pateikite tuos pačius išteklius, pagal kuriuos sukurta saugojimo sąskaita. |
+    | Abonementas | Azure prenumerata |
+    | Išteklių grupė | Pateikite tuos pačius išteklius, pagal kuriuos sukurta saugyklos paskyra. |
     | Regionas | Regionas |
     | Gamyklos pavadinimas | Gamyklos pavadinimas |
-    | Su FO susietas „Service_service” pagrindinis raktas | Prašymo raktas |
-    | „Azure Blob Storage_connection String” | "Azure" BLOB saugyklos ryšio eilutė |
-    | Su „Dynamics CRM” susietas „Service_password” | Vartotojo abonemento, kurį nurodote kaip vartotojo vardą, slaptažodis |
+    | Su FO susietas „Service_service” pagrindinis raktas | Programos raktas |
+    | „Azure Blob Storage_connection String” | „Azure Blob“ saugyklos ryšio eilutė |
+    | Su „Dynamics CRM” susietas „Service_password” | Vartotojo abonemento, kurį nurodėte kaip vartotojo vardą, slaptažodis |
     | Su FO susietas „Service_properties_type” „Properties_url” | `https://sampledynamics.sandbox-operationsdynamics.com/data` |
-    | Su FO susietas „Service_properties_type” „Properties_tenant” | Informacija (domeno pavadinimas ar nuomininko ID) apie nuomininką, kuriame yra jūsų programa |
+    | Su FO susietas „Service_properties_type” „Properties_tenant” | Informacija (domeno vardas arba nuomininko ID) apie nuomininką, kuriam priklauso jūsų programa |
     | Su FO susietas „Service_properties_type” „Properties_aad Resource Id” | `https://sampledynamics.sandboxoperationsdynamics.com` |
     | Su FO susietas „Service_properties_type” „Properties_service Principal Id” | Programos kliento ID |
-    | Su „Dynamics CRM” susietas „Service_properties_type” „Properties_username” | Vartotojo vardas, naudojamas jungiantis prie "Dynamics 365" |
+    | Su „Dynamics CRM” susietas „Service_properties_type” „Properties_username” | Vartotojo vardas, naudojamas prisijungiant prie „Dynamics 365“. |
 
     Daugiau informacijos ieškokite šiose temose:
 
@@ -100,7 +100,7 @@ Atnaujinimui atlikti reikia šio pasirengimo:
 
     ![Duomenų rinkiniai, duomenų srautas ir susieta paslauga.](media/data-factory-validate.png)
 
-11. Eiti į **Valdyti**. Dalyje **Ryšiai** pasirinkite **Susieta paslauga**. Tada pasirinkite **DynamicsCrmLinkedService.** Susietos **tarnybos () redagavimo Dynamics CRM dialogo lange įveskite šias** vertes.
+11. Eiti į **Tvarkyti**. Dalyje **Ryšiai** pasirinkite **Susieta paslauga**. Tada pasirinkite **DynamicsCrmLinkedService**. Viduje konors **Redaguoti susietą paslaugą (Dynamics CRM)** dialogo lange įveskite šias reikšmes.
 
     | Laukas | Reikšmė |
     |---|---|
@@ -114,44 +114,44 @@ Atnaujinimui atlikti reikia šio pasirengimo:
     | Slaptažodis arba „Azure” raktų saugykla | Slaptažodis |
     | Slaptažodis | |
 
-## <a name="prepare-to-run-the-data-factory-templates"></a>Duomenų gamyklos šablonų paruošimas
+## <a name="prepare-to-run-the-data-factory-templates"></a>Pasiruoškite paleisti Data Factory šablonus
 
-Šiame skyriuje aprašomas nustatymas, reikalingas prieš jums paleidus šalies pašto adresą ir šalies elektroninio adreso duomenų gamyklos šablonus.
+Šiame skyriuje aprašoma sąranka, kurios reikia prieš paleidžiant šalies pašto adreso ir šalies elektroninio adreso duomenų gamyklos šablonus.
 
-### <a name="setup-to-run-the-party-postal-address-template"></a>Šalies pašto adreso šablono vykdymo nustatymas
+### <a name="setup-to-run-the-party-postal-address-template"></a>Nustatykite, kad paleistumėte vakarėlio pašto adreso šabloną
 
-1. Prisiregistruokite prie klientų įsipareigojimo programėlių ir eikite **į** \> **Parametrų personalizavimo** parametrus. Tada skirtuke **Bendra** sukonfigūruokite sistemos administratoriaus abonemento laiko juostos nustatymus. Laiko juosta turi būti universaliuoju laiku (UTC), kad būtų galima atnaujinti pašto adresų iš finansų ir operacijų programėlių "galioja nuo" ir "galioja iki" datas.
+1. Prisijunkite prie klientų įtraukimo programų ir eikite į **Nustatymai** \> **Personalizavimo nustatymai**. Tada, ant **Generolas** skirtuke, sukonfigūruokite laiko juostos nustatymą sistemos administratoriaus paskyrai. Laiko juosta turi būti suderintu pasauliniu laiku (UTC), kad būtų atnaujintos „Finance and Operations“ programos pašto adresų „galioja nuo“ ir „galioja iki“ datos.
 
-    ![Sistemos administratoriaus abonemento laiko juostos parametras.](media/ADF-1.png)
+    ![Sistemos administratoriaus paskyros laiko juostos nustatymas.](media/ADF-1.png)
 
-2. Duomenų gamyklos skirtuke **Valdyti,** visuotiniuose **parametruose**, sukurkite šiuos visuotinius parametrus.
-
-    | Skaičius | Pavadinimas | Tipas | Reikšmė |
-    |---|---|---|---|
-    | 1 | PostalAddressIdPrefix | eilutė | Šis parametras prie naujai sukurtų pašto adresų kaip prefikso pridėti serijos numerį. Būtinai pateikite eilutę, kuri nesuderinamumą su pašto adresais finansų ir operacijų programėlių ir klientų įsipareigojimo programėlių. Pavyzdžiui, naudokite **ADF-PAD-**. |
-
-    ![Globalus parametras PostalAddressIdPrefix sukurtas skirtuke Tvarkyti.](media/ADF-2.png)
-
-3. Baigę pasirinkite Publikuoti **viską**.
-
-    ![Publikuoti visą mygtuką.](media/ADF-3.png)
-
-### <a name="setup-to-run-the-party-electronic-address-template"></a>Šalies elektroninio adreso šablono vykdymo nustatymas
-
-1. Duomenų gamyklos skirtuke **Valdyti**, visuotiniuose **parametruose**, sukurkite šiuos visuotinius parametrus.
+2. „Data Factory“ svetainėje **Tvarkyti** skirtukas, apačioje **Pasauliniai parametrai**, sukurkite šį visuotinį parametrą.
 
     | Skaičius | Pavadinimas | Tipas | Reikšmė |
     |---|---|---|---|
-    | 1 | IsFOSource | "bo bo" | Šis parametras nustato, kurie pirminiai sistemos adresai pakeičiami konfliktų atveju. Jei vertė teisinga, pirminiai finansų ir operacijų programėlių adresai pakeis pirminius adresus **klientų** įsipareigojimo programėlėse. Jei vertė **klaidinga**, pagrindiniai klientų įsipareigojimo programėlių adresai pakeis pirminius adresus finansų ir operacijų programėlėse. |
-    | 2 | ElectronicAddressIdPrefix | eilutė | Šis parametras prie naujai sukurtų elektroninių adresų kaip prefikso pridėti serijos numerį. Pateikite eilutę, kuri nesuderinamumą su elektroniniais adresais finansų ir operacijų programėlėse ir klientų įsipareigojimo programėlėse. Pavyzdžiui, naudokite **ADF-EAD-**. |
+    | 1 | PostalAddressIdPrefix | eilutė | Šis parametras prie naujai sukurtų pašto adresų prideda serijos numerį kaip priešdėlį. Būtinai pateikite eilutę, kuri neprieštarauja pašto adresams „Finance and Operations“ ir klientų įtraukimo programose. Pavyzdžiui, naudoti **ADF-PAD-**. |
 
-    ![IsFOSource ir ElectronicAddressIdPrefix visuotiniai parametrai, sukurti skirtuke Valdymas.](media/ADF-4.png)
+    ![Pasaulinis parametras PostalAddressIdPrefix, sukurtas skirtuke Tvarkyti.](media/ADF-2.png)
 
-2. Baigę pasirinkite Publikuoti **viską**.
+3. Kai baigsite, pasirinkite **Paskelbti viską**.
 
-## <a name="run-the-templates"></a>Šablonų paleidimas
+    ![Mygtukas Paskelbti viską.](media/ADF-3.png)
 
-1. Sustabdyti šias **sąskaitos**, kontakto **ir tiekėjo dvigubo** **rašymo** schemas, kurios naudoja finansų ir operacijų programą:
+### <a name="setup-to-run-the-party-electronic-address-template"></a>Nustatykite, kad paleistumėte vakarėlio elektroninio adreso šabloną
+
+1. „Data Factory“ svetainėje **Tvarkyti** skirtukas, apačioje **Pasauliniai parametrai**, sukurkite šiuos visuotinius parametrus.
+
+    | Skaičius | Pavadinimas | Tipas | Reikšmė |
+    |---|---|---|---|
+    | 1 | IsFOSource | bool | Šis parametras nustato, kurie pirminiai sistemos adresai turi būti pakeisti konfliktų atveju. Jei vertė yra **tiesa**, pirminiai adresai „Finance and Operations“ programose pakeis pirminius adresus klientų įtraukimo programose. Jei vertė yra **klaidinga**, pirminiai adresai klientų įtraukimo programose pakeis pirminius adresus programose „Finance and Operations“. |
+    | 2 | ElectronicAddressIdPrefix | eilutė | Šis parametras prie naujai sukurtų elektroninių adresų prideda serijos numerį kaip priešdėlį. Būtinai pateikite eilutę, kuri neprieštarauja elektroniniams adresams „Finance and Operations“ ir klientų įtraukimo programose. Pavyzdžiui, naudoti **ADF-EAD-**. |
+
+    ![„IsFOSource“ ir „ElectronicAddressIdPrefix“ bendrieji parametrai, sukurti skirtuke „Tvarkyti“.](media/ADF-4.png)
+
+2. Kai baigsite, pasirinkite **Paskelbti viską**.
+
+## <a name="run-the-templates"></a>Paleiskite šablonus
+
+1. Sustabdykite šiuos veiksmus **sąskaita**, **·**, ir **Pardavėjas** dvigubo rašymo žemėlapiai, kuriuose naudojama programa „Finance and Operations“:
 
     + Klientai V3(paskyros)
     + Klientai V3(kontaktai)
@@ -159,9 +159,9 @@ Atnaujinimui atlikti reikia šio pasirengimo:
     + „CDS” kontaktai V2(kontaktai)
     + Tiekėjas V2 („msdyn_vendor”)
 
-2. Įsitikinkite, kad schemos pašalintos iš **msdy_dualwriteruntimeconfig** Dataverse lentelės.
+2. Įsitikinkite, kad žemėlapiai pašalinti iš **msdy_dualwriteruntimeconfig** stalo viduje Dataverse.
 3. Įdiekite [Dvigubo rašymo į Šalies ir Visuotinę adresų knygelė sprendimus](https://aka.ms/dual-write-gab) iš „AppSource”.
-4. Finansų ir operacijų programoje paleiskite šių lentelių **pradinį** sinchronizavimą, jei jose yra duomenų:
+4. Programoje „Finance and Operations“ paleiskite **Pradinis sinchronizavimas** toliau nurodytoms lentelėms, jei jose yra duomenų:
 
     + Pasisveikinimai
     + Asmeninių savybių tipai
@@ -170,7 +170,7 @@ Atnaujinimui atlikti reikia šio pasirengimo:
     + Sprendimų priėmimo vaidmenys
     + Lojalumo lygiai
 
-5. Klientų įsipareigojimo programoje išjunkite šiuos priedo veiksmus:
+5. Klientų įtraukimo programoje išjunkite šiuos papildinio veiksmus:
 
     + Paskyros atnaujinimas
 
@@ -190,58 +190,58 @@ Atnaujinimui atlikti reikia šio pasirengimo:
 
         + Microsoft.Dynamics.GABExtended.Plugins.UpdatePartyAttributesFromVendorEntity: msdyn_vendor atnaujinimas
 
-    + Klientųaddress
+    + Kliento adresas
 
         + Kurti
 
-            + Microsoft.Dynamics.GABExtended.Vzs.CreatePartyAddress: klientųaddress kūrimas
+            + Microsoft.Dynamics.GABEextended.Plugins.CreatePartyAddress: Kliento adreso kūrimas
 
         + Naujinti
 
-            + Microsoft.Dynamics.GABExtended.Vzs.CreatePartyAddress: klientųaddress atnaujinimas
+            + Microsoft.Dynamics.GABExtended.Plugins.CreatePartyAddress: kliento adreso atnaujinimas
 
         + Panaikinti
 
-            + Microsoft.Dynamics.GABExtended.Vzs.DeleteCustomerAddress: customeraddress naikinimas
+            + Microsoft.Dynamics.GABEextended.Plugins.DeleteCustomerAddress: kliento adreso ištrynimas
 
     + msdyn_partypostaladdress
 
         + Kurti
 
-            + Microsoft.Dynamics.GABExtended.Vzs.CreateCustomerAddress: sukurti msdyn_partypostaladdress
-            + Microsoft.Dynamics.GABExtended.Vzs.PartyPostalAddress: sukurti msdyn_partypostaladdress
+            + Microsoft.Dynamics.GABEextended.Plugins.CreateCustomerAddress: msdyn_partypostaladdress kūrimas
+            + Microsoft.Dynamics.GABExtended.Plugins.PartyPostalAddress: msdyn_partypostaladdress kūrimas
 
         + Naujinti
 
-            + Microsoft.Dynamics.GABExtended.Vzs.CreateCustomerAddress: atnaujinti msdyn_partypostaladdress
-            + Microsoft.Dynamics.GABExtended.Vzs.PartyPostalAddress: atnaujinti msdyn_partypostaladdress
+            + Microsoft.Dynamics.GABExtended.Plugins.CreateCustomerAddress: msdyn_partypostaladdress atnaujinimas
+            + Microsoft.Dynamics.GABEextended.Plugins.PartyPostalAddress: msdyn_partypostaladdress atnaujinimas
 
-    + msdyn_postaladdress
+    + msdyn_pašto adresas
 
         + Kurti
 
-            + Microsoft.Dynamics.GABExtended.Vzs.PostalAddress: sukurti msdyn_postaladdress
-            + Microsoft.Dynamics.GABExtended.Vzs.PostalAddressPostCreate: sukurti msdyn_postaladdress
-            + Microsoft.Dynamics.GABExtended.Vzs.UpdateCustomerAddress: sukurti msdyn_postaladdress
+            + Microsoft.Dynamics.GABEextended.Plugins.PostalAddress: msdyn_postaladdress kūrimas
+            + Microsoft.Dynamics.GABEextended.Plugins.PostalAddressPostCreate: msdyn_postaladdress kūrimas
+            + Microsoft.Dynamics.GABEextended.Plugins.UpdateCustomerAddress: msdyn_postaladdress kūrimas
 
         + Naujinti
 
-            + Microsoft.Dynamics.GABExtended.Vzs.PostalAddressUpdate: atnaujinti msdyn_postaladdress
-            + Microsoft.Dynamics.GABExtended.Vzs.UpdateCustomerAddress: atnaujinti msdyn_postaladdress
+            + Microsoft.Dynamics.GABExtended.Plugins.PostalAddressUpdate: msdyn_postaladdress atnaujinimas
+            + Microsoft.Dynamics.GABEextended.Plugins.UpdateCustomerAddress: msdyn_postaladdress atnaujinimas
 
     + msdyn_partyelectronicaddress
 
         + Kurti
 
-            + Microsoft.Dynamics.GABExtended.Vzs.PartyElectronicAddressSync: sukurti msdyn_partyelectronicaddress
+            + Microsoft.Dynamics.GABEextended.Plugins.PartyElectronicAddressSync: msdyn_partyelectronicaddress kūrimas
 
         + Naujinti
 
-            + Microsoft.Dynamics.GABExtended.Vzs.PartyElectronicAddressSync: atnaujinti msdyn_partyelectronicaddress
+            + Microsoft.Dynamics.GABExtended.Plugins.PartyElectronicAddressSync: msdyn_partyelectronicaddress atnaujinimas
 
         + Panaikinti
 
-            + Microsoft.Dynamics.GABExtended.Vzs.DeletePartyElectronicAddressSync: naikinti msdyn_partyelectronicaddress
+            + Microsoft.Dynamics.GABEextended.Plugins.DeletePartyElectronicAddressSync: ištrinkite msdyn_partyelectronicaddress
 
 6. „Customer Engagement” programoje uždrauskite šias darbo eigas:
 
@@ -254,32 +254,32 @@ Atnaujinimui atlikti reikia šio pasirengimo:
     + Tiekėjų naujinimas tipo Asmuo lentelėje Kontaktai
     + Tiekėjų naujinimas tipo Asmuo lentelėje Tiekėjai
 
-7. Duomenų gamyklos paleiskite šabloną pasirinkdami Paleidiklio **dabar**, kaip parodyta toliau pateiktame pavyzdyje. Atsižvelgiant į duomenų tūrį, šis procesas gali užtrukti keletą valandų.
+7. Duomenų gamykloje paleiskite šabloną pasirinkdami **Suaktyvinkite dabar** kaip parodyta toliau pateiktoje iliustracijoje. Šis procesas gali užtrukti kelias valandas, atsižvelgiant į duomenų kiekį.
 
-    ![Šablono naudojimas.](media/data-factory-trigger.png)
+    ![Šablono paleidimas.](media/data-factory-trigger.png)
 
     > [!NOTE]
-    > Jei yra pritaikymų **sąskaitai**, **kontaktui** ir **tiekėjui**, turite modifikuoti šabloną.
+    > Jei turite tinkinimų **sąskaita**, **·**, ir **Pardavėjas**, turite pakeisti šabloną.
 
-8. Importuokite naujus **įrašus** į finansų ir operacijų programą.
+8. Importuokite naują **Vakarėlis** įrašus į „Finance and Operations“ programėlę.
 
-    1. Atsisiųskite **FONewParty.csv** failą iš "Azure BLOB" saugyklos. Maršrutas yra **partybootstrapping/output/FONewParty.csv.**
-    2. Konvertuokite **FONewParty.csv failą į Excel failą ir importuokite Excel failą** į finansų ir operacijų programą. Taip pat, jei CSV importavimas jums reikalingas, galite importuoti .csv failą tiesiogiai. Atsižvelgiant į duomenų tūrį, šis veiksmas gali užtrukti kelias valandas. Daugiau informacijos rasite [Duomenų importavimo ir eksportavimo užduočių apžvalga](../data-import-export-job.md).
+    1. Atsisiųskite **FONewParty.csv** failą iš Azure Blob saugyklos. Kelias yra **partybootstrapping/output/FONewParty.csv**.
+    2. Konvertuoti **FONewParty.csv** failą į „Excel“ failą ir importuoti „Excel“ failą į programą „Finance and Operations“. Arba, jei CSV importavimas jums tinka, galite importuoti .csv failą tiesiogiai. Šis veiksmas gali užtrukti kelias valandas, atsižvelgiant į duomenų kiekį. Daugiau informacijos rasite [Duomenų importavimo ir eksportavimo užduočių apžvalga](../data-import-export-job.md).
 
-    ![Importuojami Dataverse šalies įrašai.](media/data-factory-import-party.png)
+    ![Importuojant Dataverse Vakarėlio įrašai.](media/data-factory-import-party.png)
 
-9. Duomenų gamyklos paleiskite šalies pašto adresą ir šalies elektroninio adreso šablonus, vieną po kito.
+9. Duomenų gamykloje vieną po kito paleiskite Šalies pašto adreso ir Šalies elektroninio adreso šablonus.
 
-    + Įrašo pašto adreso šablonas įterpa visus pašto adreso įrašus kliento įsipareigojimo programoje ir susieja juos su atitinkama sąskaita, kontaktu **ir** tiekėjo **·** **įrašais**. Taip pat generuojami trys .csv failai: ImportFONewPostalAddressLocation.csv, ImportFONewPartyPostalAddress.csv ir ImportFONewPostalAddress.csv.
-    + Įrašo elektroninio adreso šablonas įterpa visus elektroninius adresus klientų įsipareigojimo programoje ir susieja juos su atitinkama **sąskaita**, **kontaktų** ir **tiekėjų** įrašais. Taip pat sugeneruoja vieną .csv failą: ImportFONewElectronicAddress.csv.
+    + Šalies pašto adreso šablonas iškelia visus pašto adreso įrašus klientų įtraukimo programoje ir susieja juos su atitinkamais **sąskaita**, **·**, ir **Pardavėjas** įrašų. Taip pat sukuriami trys .csv failai: ImportFONewPostalAddressLocation.csv, ImportFONewPartyPostalAddress.csv ir ImportFONewPostalAddress.csv.
+    + Šalies elektroninio adreso šablonas įtraukia visus elektroninius adresus klientų įtraukimo programėlėje ir susieja juos su atitinkamais **sąskaita**, **·**, ir **Pardavėjas** įrašų. Taip pat sukuriamas vienas .csv failas: ImportFONewElectronicAddress.csv.
 
-    ![Šalies pašto adreso ir šalies elektroninio adreso šablonų paleistis.](media/ADF-7.png)
+    ![Šalies pašto adreso ir partijos elektroninio adreso šablonų paleidimas.](media/ADF-7.png)
 
-10. Norėdami atnaujinti finansų ir operacijų programą naudodami šiuos duomenis, turite konvertuoti .csv failus į Excel darbaknygę ir importuoti juos į finansų ir [operacijų](/data-entities/data-import-export-job) programą. Taip pat, jei CSV importavimas veikia jums, galite importuoti .csv failus tiesiogiai. Atsižvelgiant į tūrį, šis veiksmas gali užtrukti kelias valandas.
+10. Norėdami atnaujinti programą „Finance and Operations“ naudodami šiuos duomenis, turite konvertuoti .csv failus į „Excel“ darbaknygę ir [importuokite jį į programą „Finance and Operations“.](/data-entities/data-import-export-job). Arba, jei CSV importavimas jums tinka, galite importuoti .csv failus tiesiogiai. Šis veiksmas gali užtrukti kelias valandas, atsižvelgiant į garsumą.
 
-    ![Sėkmingas importavimas.](media/ADF-8.png)
+    ![Sėkmingas importas.](media/ADF-8.png)
 
-11. Klientų įsipareigojimo programoje įjunkite šiuos priedo veiksmus:
+11. Klientų įtraukimo programoje įgalinkite šiuos papildinio veiksmus:
 
     + Paskyros atnaujinimas
 
@@ -303,42 +303,42 @@ Atnaujinimui atlikti reikia šio pasirengimo:
 
         + Kurti
 
-            + Microsoft.Dynamics.GABExtended.Vzs.CreateCustomerAddress: sukurti msdyn_partypostaladdress
-            + Microsoft.Dynamics.GABExtended.Vzs.PartyPostalAddress: sukurti msdyn_partypostaladdress
+            + Microsoft.Dynamics.GABEextended.Plugins.CreateCustomerAddress: msdyn_partypostaladdress kūrimas
+            + Microsoft.Dynamics.GABExtended.Plugins.PartyPostalAddress: msdyn_partypostaladdress kūrimas
 
         + Naujinti
 
-            + Microsoft.Dynamics.GABExtended.Vzs.CreateCustomerAddress: atnaujinti msdyn_partypostaladdress
-            + Microsoft.Dynamics.GABExtended.Vzs.PartyPostalAddress: atnaujinti msdyn_partypostaladdress
+            + Microsoft.Dynamics.GABExtended.Plugins.CreateCustomerAddress: msdyn_partypostaladdress atnaujinimas
+            + Microsoft.Dynamics.GABEextended.Plugins.PartyPostalAddress: msdyn_partypostaladdress atnaujinimas
 
-    + msdyn_postaladdress
+    + msdyn_pašto adresas
 
         + Kurti
 
-            + Microsoft.Dynamics.GABExtended.Vzs.PostalAddress: sukurti msdyn_postaladdress
-            + Microsoft.Dynamics.GABExtended.Vzs.PostalAddressPostCreate: sukurti msdyn_postaladdress
-            + Microsoft.Dynamics.GABExtended.Vzs.UpdateCustomerAddress: sukurti msdyn_postaladdress
+            + Microsoft.Dynamics.GABEextended.Plugins.PostalAddress: msdyn_postaladdress kūrimas
+            + Microsoft.Dynamics.GABEextended.Plugins.PostalAddressPostCreate: msdyn_postaladdress kūrimas
+            + Microsoft.Dynamics.GABEextended.Plugins.UpdateCustomerAddress: msdyn_postaladdress kūrimas
 
         + Naujinti
 
-            + Microsoft.Dynamics.GABExtended.Vzs.PostalAddressUpdate: atnaujinti msdyn_postaladdress
-            + Microsoft.Dynamics.GABExtended.Vzs.UpdateCustomerAddress: atnaujinti msdyn_postaladdress
+            + Microsoft.Dynamics.GABExtended.Plugins.PostalAddressUpdate: msdyn_postaladdress atnaujinimas
+            + Microsoft.Dynamics.GABEextended.Plugins.UpdateCustomerAddress: msdyn_postaladdress atnaujinimas
  
     + msdyn_partyelectronicaddress
 
         + Kurti
 
-            + Microsoft.Dynamics.GABExtended.Vzs.PartyElectronicAddressSync: sukurti msdyn_partyelectronicaddress
+            + Microsoft.Dynamics.GABEextended.Plugins.PartyElectronicAddressSync: msdyn_partyelectronicaddress kūrimas
 
         + Naujinti
 
-            + Microsoft.Dynamics.GABExtended.Vzs.PartyElectronicAddressSync: atnaujinti msdyn_partyelectronicaddress
+            + Microsoft.Dynamics.GABExtended.Plugins.PartyElectronicAddressSync: msdyn_partyelectronicaddress atnaujinimas
 
         + Panaikinti
 
-            + Microsoft.Dynamics.GABExtended.Vzs.DeletePartyElectronicAddressSync: naikinti msdyn_partyelectronicaddress
+            + Microsoft.Dynamics.GABEextended.Plugins.DeletePartyElectronicAddressSync: ištrinkite msdyn_partyelectronicaddress
 
-12. Klientų įdarbinimo programoje suaktyvinkite šias darbo eigas, jei anksčiau jas išjungėte:
+12. Klientų įtraukimo programoje suaktyvinkite šias darbo eigas, jei jas anksčiau išaktyvinote:
 
     + Tiekėjų kūrimas lentelėje Klientai
     + Tiekėjų kūrimas lentelėje Klientai
@@ -349,73 +349,73 @@ Atnaujinimui atlikti reikia šio pasirengimo:
     + Tiekėjų naujinimas tipo Asmuo lentelėje Kontaktai
     + Tiekėjų naujinimas tipo Asmuo lentelėje Tiekėjai
 
-13. Vykdykite **šalies įrašą – susijusias** schemas, kaip aprašyta Šalies [ir visuotinoje adresų knygelėje.](party-gab.md)
+13. Paleiskite **Vakarėlis** su įrašais susijusių žemėlapių, kaip aprašyta [Vakarėlių ir pasaulinė adresų knyga](party-gab.md).
 
-## <a name="explanation-of-the-data-factory-templates"></a>Duomenų gamyklos šablonų paaiškinimas
+## <a name="explanation-of-the-data-factory-templates"></a>„Data Factory“ šablonų paaiškinimas
 
-Šiame skyriuje rasite kiekvieno duomenų gamyklos šablono veiksmus.
+Šiame skyriuje pateikiami kiekvieno Data Factory šablono veiksmai.
 
-### <a name="steps-in-the-party-template"></a>Veiksmai šalies šablone
+### <a name="steps-in-the-party-template"></a>Veiksmai vakarėlio šablone
 
-1. 1–6 žingsnius nustatykite įmones, kurios yra įgalintos dvigubo rašymo funkcijai, ir sukuria joms filtro sąlygą.
-2. 7–1–7–9 žingsniai nuskaito duomenis iš finansų ir operacijų programos bei klientų įsipareigojimo programos ir iš to etapo, kurį norite atnaujinti.
-3. 8–9 veiksmais palyginkite sąskaitos, kontakto ir tiekėjo įrašų tarp finansų ir operacijų programos ir **kliento** **·** **įsipareigojimų** programos šalies numerį. Praleisti visi įrašai, kurie neturi įrašo numerio.
-4. 10 veiksmas sugeneruoja du įrašų .csv failus, kurie turi būti sukurti kliento įsipareigojimo programoje ir finansų ir operacijų programoje.
+1. 1–6 veiksmais nustatomos įmonės, kuriose įgalintas dvigubas rašymas, ir sukuriama joms filtro sąlyga.
+2. Atliekant 7–1–7–9 veiksmus, gaunami duomenys iš programos „Finance and Operations“ ir iš klientų įtraukimo programos ir pateikiami naujinimo etapai.
+3. Atlikdami 8–9 veiksmus palyginkite partijos numerį **sąskaita**, **·**, ir **Pardavėjas** įrašai tarp programos „Finance and Operations“ ir klientų įtraukimo programos. Visi įrašai, neturintys partijos numerio, praleidžiami.
+4. 10 veiksmas sugeneruoja du .csv failai šalies įrašams, kurie turi būti sukurti klientų įtraukimo programoje ir programoje „Finance and Operations“.
 
-    - **PSTDSParty.csv – šiame faile yra visi abiejų sistemų šalies įrašai, nepaisant to, ar įmonė įgalinta** dvigubo rašymo funkcijai.
-    - **FONewParty.csv – šiame faile yra žinomų įrašų (pvz., potencialaus kliento** Dataverse tipo **sąskaitų)** submeniu.
+    - **FOCDSParty.csv** – Šiame faile yra visi abiejų sistemų šalių įrašai, neatsižvelgiant į tai, ar įmonėje įgalintas dvigubas rašymas.
+    - **FONewParty.csv** – Šiame faile yra partijos įrašų poaibis Dataverse žino (pavyzdžiui, sąskaitos apie **Prospektas** tipas).
 
-5. 11 veiksmu sukuriamos klientų įsipareigojimo programos šalys.
-6. 12 veiksmas nuskaito visuotinai unikalius šalių identifikatorius (GUID) iš klientų įsipareigojimų programos ir etapų, kad vėliau jie būtų susieti su sąskaita, kontaktu ir **tiekėjo** **·** **įrašais**.
-7. 13 veiksmas susieja **sąskaitą**, **kontaktą** ir tiekėjo **įrašus** su šalies GUID.
-8. 14–1–14–3 veiksmais atnaujinti sąskaitą, kontaktą ir tiekėjo įrašus klientų įsipareigojimų programoje su **šalies** **·** **GUID**.
-9. 15–1–15–3 veiksmais kontaktas paruoškite **įrašus** **sąskaitai,** **kontaktui** ir tiekėjo **įrašams**.
-10. 16–1–16–7 veiksmus nuskaityti nuorodos duomenis, pvz., pasveikinimus ir asmeninius simbolių tipus, ir susieti juos su šalių **įrašų** kontaktu.
-11. 17 veiksmas sulieja **įrašo kontaktą** **sąskaitai**, **kontaktui** ir **tiekėjui** įrašams.
-12. 18 veiksmu importuoja **šalių įrašų** kontaktą į klientų aptarnavimo programą.
+5. 11 veiksme sukuriamos šalys klientų įtraukimo programoje.
+6. 12 veiksmas nuskaito pasaulinius unikalius šalių identifikatorius (GUID) iš klientų įtraukimo programos ir suskirsto juos taip, kad juos būtų galima susieti su **sąskaita**, **·**, ir **Pardavėjas** įrašus tolesniuose etapuose.
+7. 13 veiksmas susieja su **sąskaita**, **·**, ir **Pardavėjas** įrašai su partijų GUID.
+8. 14-1–14-3 veiksmai atnaujinkite **sąskaita**, **·**, ir **Pardavėjas** įrašai klientų įtraukimo programoje su šalių GUID.
+9. Paruoškite 15-1–15-3 veiksmus **Susisiekite su vakarėliu** įrašai už **sąskaita**, **·**, ir **Pardavėjas** įrašų.
+10. 16-1–16-7 veiksmais atrenkami referenciniai duomenys, pvz., sveikinimai ir asmeninių simbolių tipai, ir susiejami su **Susisiekite su vakarėliu** įrašų.
+11. 17 veiksmas sujungia **Susisiekite su vakarėliu** įrašai už **sąskaita**, **·**, ir **Pardavėjas** įrašų.
+12. 18 veiksmas importuoja **Susisiekite su vakarėliu** įrašus į klientų įtraukimo programėlę.
 
-### <a name="steps-in-the-party-postal-address-template"></a>Šalies pašto adreso šablone atlikti veiksmai
+### <a name="steps-in-the-party-postal-address-template"></a>Veiksmai partijos pašto adreso šablone
 
-1. 1–1–10 veiksmai nuskaito duomenis iš finansų ir operacijų programos ir klientų įsipareigojimo programos bei iš to etapo, kurį reikia atnaujinti.
-2. 2 veiksmas normalizuoja pašto adreso duomenis finansų ir operacijų programoje, sujungdamas pašto adresą ir šalies pašto adresą.
-3. 3 veiksmas: dublikatai ir sulietų sąskaitų, kontaktų ir tiekėjų adresų duomenys iš klientų įdarbinimo programos.
-4. 4 veiksmu sukuriami finansų ir operacijų programos .csv failai, skirti naujiems adreso duomenims pagal sąskaitą, kontaktą ir tiekėjo adresus kurti.
-5. 5–1 veiksmu sukuriami .csv failai, skirti klientų įsipareigojimo programai, kad būtų sukurti visi adreso duomenys, remiantis finansų ir operacijų programa ir klientų įsipareigojimų programa.
-6. 5–2 veiksmus .csv failai konvertuojami į neautomatinį importavimo finansų ir operacijų importavimo formatą.
+1. Atliekant 1–1–1–10 veiksmus, gaunami duomenys iš programos „Finance and Operations“ ir iš klientų įtraukimo programos ir surenkami naujinimo duomenys.
+2. 2 veiksmas panaikina pašto adreso duomenų normalizavimą programoje „Finance and Operations“, sujungiant pašto adresą ir šalies pašto adresą.
+3. 3 veiksmas pašalina ir sujungia paskyros, kontaktinio ir pardavėjo adreso duomenis iš klientų įtraukimo programos.
+4. 4 veiksme sukuriami .csv failai, skirti programai „Finance and Operations“, kad būtų sukurti nauji adreso duomenys, pagrįsti paskyros, kontaktų ir tiekėjo adresais.
+5. 5-1 veiksme sukuriami .csv failai klientų įtraukimo programai, kad būtų sukurti visi adreso duomenys, remiantis programa „Finance and Operations“ ir klientų įtraukimo programa.
+6. 5-2 veiksmas konvertuoja .csv failus į Finance and Operations importavimo formatą, kad būtų galima importuoti rankiniu būdu.
 
     - ImportFONewPostalAddressLocation.csv
     - ImportFONewPartyPostalAddress.csv
     - ImportFONewPostalAddress.csv
 
-7. 6 veiksmu importuojami pašto adresų rinkinio duomenys į klientų įsipareigojimo programą.
-8. 7 veiksmai nuskaito pašto adresų rinkinio duomenis iš klientų įdarbinimo programos.
-9. 8 žingsniu sukuriami kliento adreso duomenys ir susiejamas pašto adreso rinkinio ID.
-10. 9–1–9–2 žingsniai susieja šalies ir pašto adresų rinkinio ID su pašto adresais ir šalių pašto adresais.
-11. 10–1–10–3 importo klientų adresai, pašto adresai ir šalių pašto adresai klientų įsipareigojimo programoje.
+7. 6 veiksmas importuoja pašto adresų rinkimo duomenis į klientų įtraukimo programą.
+8. 7 veiksmas nuskaito pašto adresų rinkimo duomenis iš klientų įtraukimo programos.
+9. 8 veiksmas sukuria kliento adreso duomenis ir susieja pašto adresų rinkimo ID.
+10. 9-1–9-2 veiksmai: susietų šalių ir pašto adresų rinkimo ID su pašto adresais ir šalies pašto adresais.
+11. 10-1–10-3 veiksmai importuokite klientų adresus, pašto adresus ir šalies pašto adresus į klientų įtraukimo programą.
 
-### <a name="steps-in-the-party-electronic-address-template"></a>Veiksmai šalies elektroninio adreso šablone
+### <a name="steps-in-the-party-electronic-address-template"></a>Veiksmai partijos elektroninio adreso šablone
 
-1. 1–1–5 veiksmais nuskaitomi duomenys iš finansų ir operacijų programos ir klientų įsipareigojimo programos bei duomenų, kuriuos reikia atnaujinti, etapas.
-2. 2 veiksmas konsoliduoja elektroninius adresus klientų įsipareigojimo programoje iš sąskaitos, kontakto ir tiekėjų objektų.
-3. 3 veiksmu suliejami pagrindiniai elektroninio adreso duomenys iš klientų įsipareigojimo programos ir finansų ir operacijų programos.
-4. 4 žingsniu sukuriami .csv failai.
+1. Atliekant 1–1–1–5 veiksmus, gaunami duomenys iš programos „Finance and Operations“ ir iš klientų įtraukimo programos ir suskirstyti tie duomenys naujinimui.
+2. 2 veiksme sujungiami elektroniniai adresai klientų įtraukimo programoje iš paskyros, kontaktinio ir tiekėjo subjektų.
+3. 3 veiksmas sujungia pirminius elektroninius adreso duomenis iš klientų įtraukimo programos ir programos „Finance and Operations“.
+4. 4 veiksmas sukuria .csv failus.
 
-    - Kurkite naujus finansų ir operacijų programos elektroninio adreso duomenis pagal sąskaitą, kontaktą ir tiekėjo adresus.
-    - Kurkite naujus klientų įsipareigojimo programos elektroninio adreso duomenis, paremtus elektroninio adreso, sąskaitos, kontakto ir tiekėjo adresais finansų ir operacijų programoje.
+    - Kurkite naujus elektroninius adresų duomenis, skirtus programai „Finance and Operations“, atsižvelgdami į paskyros, kontaktų ir tiekėjo adresus.
+    - Sukurkite naujus elektroninius klientų įtraukimo programėlės adreso duomenis pagal elektroninį adresą, paskyrą, kontaktinius ir tiekėjo adresus programėlėje „Finance and Operations“.
 
-5. 5–1 veiksmu importuojami elektroniniai adresai į klientų įsipareigojimo programą.
-6. 5–2 veiksmu sukuriami .csv failai, skirti klientų įdarbinimo programoje atnaujinti pirminius sąskaitų ir kontaktų adresus.
-7. 6–1–6–2 veiksmų importavimo sąskaitos ir pagrindiniai kontakto adresai klientų įsipareigojimo programoje.
+5. 5-1 veiksmas importuoja elektroninius adresus į klientų įtraukimo programą.
+6. 5-2 veiksme sukuriami .csv failai, skirti atnaujinti pirminius paskyrų ir kontaktų adresus klientų įtraukimo programoje.
+7. 6–1–6–2 veiksmai importuokite paskyras ir kontaktinius pirminius adresus į klientų įtraukimo programą.
 
 ## <a name="troubleshooting"></a>Trikčių šalinimas
 
-1. Jei procesas nepavyksta, iš naujo paleiskite duomenų gamyklos duomenis. Pradėti nuo trikties veiklos.
-2. Kai kurie failai, kuriuos sugeneravo duomenų gamyklos, gali būti naudojami duomenų tikrinimas.
-3. Duomenų gamyklos parametrai paleidžiami remiantis .csv failais. Todėl jei kablelis įtraukiamas į bet kurią lauko vertę, jis gali pereiti prie rezultatų. Turite pašalinti visas lauko reikšmių kablelius.
-4. Skirtuke **Stebėjimas pateikiama informacija apie visus** apdorotus veiksmus ir duomenis. Pasirinkite konkretų veiksmą jo suderinimui.
+1. Jei procesas nepavyksta, iš naujo paleiskite duomenų gamyklą. Pradėkite nuo nesėkmingos veiklos.
+2. Kai kurie failai, kuriuos sugeneruoja duomenų gamykla, gali būti naudojami duomenims tikrinti.
+3. Duomenų gamykla veikia pagal .csv failus. Todėl, jei į bet kurią lauko reikšmę įtraukiamas kablelis, tai gali trukdyti rezultatams. Turite pašalinti visus kablelius iš lauko verčių.
+4. The **Stebėjimas** skirtuke pateikiama informacija apie visus veiksmus ir duomenis, kurie buvo apdoroti. Pasirinkite konkretų veiksmą jo suderinimui.
 
     ![Stebėjimo skirtukas.](media/data-factory-monitor.png)
 
 ## <a name="learn-more-about-the-template"></a>Sužinokite daugiau apie šabloną
 
-Norėdami gauti daugiau informacijos apie šabloną, žr.["Azure" duomenų gamyklos šablono "Readme" komentarus](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/blob/master/Dual-write/Upgrade%20data%20to%20dual-write%20Party-GAB%20schema/readme.md).
+Norėdami gauti daugiau informacijos apie šabloną, žr [„Azure Data Factory“ šablono „readme“ komentarai](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/blob/master/Dual-write/Upgrade%20data%20to%20dual-write%20Party-GAB%20schema/readme.md).

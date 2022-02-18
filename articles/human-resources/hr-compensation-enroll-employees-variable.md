@@ -13,24 +13,27 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 67b3cd95276b9e59e794583fa51ddbcec4c43b1e
-ms.sourcegitcommit: a8ac6d9b63eb67d14dd17a086ef4f1eccd7f9fc1
-ms.translationtype: HT
+ms.openlocfilehash: 49a64407778fba5669ad13f239363bffd4b0c7d6
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "7431319"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8071760"
 ---
 # <a name="enroll-an-employee-in-a-variable-compensation-plan"></a>Darbuotojo įtraukimas į kintamosios atlyginimo dalies planą
 
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
+
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Kompensacijų ir išmokų vadovas gali darbuotojus įtraukti į kintamosios atlyginimo dalies planus, kad būtų galima apskaičiuoti darbuotojų grynųjų pinigų ir negrynųjų pinigų premijas. Ši procedūra daro prielaidą, kad kintamosios atlyginimo dalies planas sukurtas ir jo laukas **Leisti registraciją** nustatytas į Taip bei sukurtos to kintamosios atlyginimo dalies plano tinkamumo taisyklės. Kuriant šią procedūrą naudojama demonstracinių duomenų įmonė yra USMF. Norėdami pradėti šią procedūrą, pasirinkite **Personalas** > **Darbuotojai** > **Darbuotojai** > **Kompensavimas** > **Kintamojo plano registracija**.
+Kompensacijų ir išmokų vadovas gali darbuotojus įtraukti į kintamosios atlyginimo dalies planus, kad būtų galima apskaičiuoti darbuotojų grynųjų pinigų ir negrynųjų pinigų premijas. Taikant šią procedūrą daroma prielaida, kad kintamo atlyginimo planas buvo sukurtas naudojant **Įgalinti registraciją** nustatytas laukas **Taip**, ir kad tam kintamo atlyginimo planui buvo sukurtos tinkamumo taisyklės. Kuriant šią procedūrą naudojama demonstracinių duomenų įmonė yra USMF. Norėdami pradėti šią procedūrą, eikite į **Žmogiškieji ištekliai** > **Darbininkai** > **Darbuotojai** > **Kompensacija** > **Kintamo plano registracija**.
 
 1. Spustelėkite **Naujas**.
 2. Lauke **Planas** spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
     * Bus filtruojama plano peržvalga, kad būtų rodomi tik tie kintamosios atlyginimo dalies planai, į kuriuos darbuotojas turi teisę pagal tinkamumo taisykles.  
 3. Sąraše spustelėkite saitą pasirinktoje eilutėje.
-4. Perjunkite dalies Bendra išplėtimą.
+4. Perjungti išplėtimą **Generolas** skyrius.
 5. Lauke **Įsigaliojimo data** įveskite datą.
 6. Spustelėkite **Įrašyti**.
 7. Perjunkite dalies **Nepaisymai** išplėtimą.

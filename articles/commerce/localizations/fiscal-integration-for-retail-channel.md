@@ -2,29 +2,24 @@
 title: „Commerce“ kanalų fiskalinės integracijos apžvalga
 description: Šioje temoje pateikiama fiskalinės integracijos galimybių, teikiamų „Dynamics 365 Commerce“, apžvalga.
 author: EvgenyPopovMBS
-manager: annbe
-ms.date: 09/22/2021
-ms.topic: overview
-ms.prod: ''
-ms.technology: ''
-ms.search.form: RetailFunctionalityProfile, RetailFormLayout, RetailParameters
-audience: Application User
-ms.reviewer: josaw
+ms.date: 01/31/2022
+ms.topic: article
+audience: Application User, Developer, IT Pro
+ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.search.industry: Retail
 ms.author: epopov
-ms.search.validFrom: 2019-1-16
-ms.dyn365.ops.version: 10
-ms.openlocfilehash: d63f26afb8f533728a6b7ab0a1f359b210be3e5b
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.search.validFrom: 2017-06-20
+ms.openlocfilehash: 82913eaca1d56a5b0609480d8825717278eca132
+ms.sourcegitcommit: 5cefe7d2a71c6f220190afc3293e33e2b9119685
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983749"
+ms.lasthandoff: 02/01/2022
+ms.locfileid: "8077197"
 ---
 # <a name="overview-of-fiscal-integration-for-commerce-channels"></a>„Commerce“ kanalų fiskalinės integracijos apžvalga
 
 [!include [banner](../includes/banner.md)]
+[!include[banner](../includes/preview-banner.md)]
 
 Ši tema yra fiskalinės integracijos galimybių, teikiamų „Dynamics 365 Commerce“, apžvalga. 
 
@@ -38,32 +33,61 @@ Fiskalinės integracijos funkcija yra sistema, kuri suteikia bendrą „Retail P
 
 Tam, kad būtų palaikomi kiti scenarijai, kurių nepalaiko fiskalinės integracijos pavyzdys, būtų integruojama „Retail POS“ su kitais finansiniais įrenginiais ar tarnybomis arba būtų išpildomi kitų šalių ar regionų reikalavimai, turite išplėsti esamą fiskalinės integracijos pavyzdį arba sukurti naują pavyzdį naudodami dėl esamą pavyzdį kaip pavyzdį.
 
-## <a name="fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices"></a>Finansinių įrenginių fiskalinės integracijos procesas ir fiskalinės integracijos pavyzdžiai
+## <a name="fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services"></a>Fiskalinės registracijos procesas ir fiskalinės integracijos pavyzdžiai fiskaliniams įrenginiams ir paslaugoms
 
-„Retail POS“ fiskalinės integracijos procesą gali sudaryti vienas ar daugiau veiksmų. Kiekvienas veiksmas apima konkrečių operacijų arba įvykių fiskalinę integraciją viename finansiniame įrenginyje arba tarnyboje. Toliau nurodyti sprendimo komponentai įtraukti į fiskalinę integraciją finansiniame įrenginyje, kuris prijungtas prie aparatūros stoties.
+„Retail POS“ fiskalinės integracijos procesą gali sudaryti vienas ar daugiau veiksmų. Kiekvienas veiksmas apima konkrečių operacijų arba įvykių fiskalinę integraciją viename finansiniame įrenginyje arba tarnyboje. Šie sprendimo komponentai dalyvauja fiskalinėje registracijoje fiskaliniame įrenginyje ar paslaugoje:
 
-- **„Commerce Runtime“ (CRT) plėtinys** – šis komponentas sudėlioja operacijos / įvykio duomenis tokiu formatu, kuris taip pat naudojamas sąveikaujant su finansiniu įrenginiu, analizuoja atsakymus iš finansinio įrenginio ir saugo atsakymus kanalo duomenų bazėje. Plėtinys taip pat apibrėžia konkrečias operacijas ir įvykius, kurie turi būti registruojami. Šis komponentas yra dažnai vadinamas *finansinio dokumento teikėju*.
-- **Aparatūros stoties plėtinys** – šis komponentas inicijuoja ryšį su finansiniu įrenginiu, siunčia užklausas ir teikia komandas finansiniam įrenginiui pagal operacijos / įvykio duomenis, kurie gaunami iš finansinio dokumento, ir gauna atsakymus iš finansinio įrenginio. Šis komponentas yra dažnai vadinamas *fiskaline jungtimi*.
+- **Fiskalinių dokumentų teikėjas** – Šis komponentas nuosekliai sutvarko operacijų / įvykių duomenis tokiu formatu, kuris taip pat naudojamas sąveikai su fiskaliniu įrenginiu arba paslauga, analizuoja fiskalinio įrenginio ar paslaugos atsakymus ir išsaugo atsakymus kanalo duomenų bazėje. Plėtinys taip pat apibrėžia konkrečias operacijas ir įvykius, kurie turi būti registruojami.
+- **Fiskalinė jungtis** – Šis komponentas inicijuoja ryšį su fiskaliniu įrenginiu arba paslauga, siunčia užklausas arba tiesiogines komandas fiskaliniam įrenginiui ar paslaugai, remdamasis operacijos / įvykio duomenimis, išgautais iš fiskalinio dokumento, ir gauna atsakymus iš fiskalinio įrenginio ar paslaugos.
 
-Finansinio įrenginio fiskalinės integracijos pavyzdyje pateikiami CRT ir aparatūros stoties plėtiniai, atitinkamai skirti finansinio dokumento teikėjo ir fiskalinei jungčiai. Jame taip pat yra tolesnių komponentų konfigūracijos.
+Fiskalinės integracijos pavyzdyje gali būti „Commerce“ vykdymo laikas (CRT), Fiskalinių dokumentų teikėjo ir fiskalinės jungties aparatinės įrangos stotis ir POS plėtiniai. Jame taip pat yra tolesnių komponentų konfigūracijos.
 
-- **Finansinio dokumento teikėjo konfigūracija** – ši konfigūracija nurodo finansinių dokumentų išvesties metodą ir formatą. Jame taip pat pateikiamas mokesčių ir mokėjimo metodų duomenų susiejimas, kad „Retail POS“ duomenys būtų suderinami su iš anksto nustatytomis finansinio įrenginio programinės aparatinės įrangos reikšmėmis.
-- **Fiskalinės jungties konfigūracija** – ši konfigūracija apibrėžia faktinį ryšį su konkrečiu finansiniu įrenginiu.
+- **Finansinio dokumento teikėjo konfigūracija** – ši konfigūracija nurodo finansinių dokumentų išvesties metodą ir formatą. Jame taip pat yra mokesčių ir mokėjimo metodų duomenų atvaizdas, kad mažmeninės prekybos POS duomenys būtų suderinami su fiskaliniame įrenginyje arba paslaugos programinėje įrangoje iš anksto nustatytomis vertėmis.
+- **Fiskalinės jungties konfigūracija** – Ši konfigūracija apibrėžia fizinį ryšį su konkrečiu fiskaliniu įrenginiu arba paslauga.
 
-Konkretaus EKA registro fiskalinės registracijos procesą apibrėžia atitinkamas parametras EKA funkcijų šablone. Daugiau informacijos apie tai, kaip konfigūruoti fiskalinės registracijos procesą, įkelti finansinio dokumento teikėjo ir fiskalinės jungties konfigūracijas bei keisti jų parametrus, žr. [Fiskalinės registracijos proceso nustatymas](setting-up-fiscal-integration-for-retail-channel.md#set-up-a-fiscal-registration-process).
+Konkretaus EKA registro fiskalinės registracijos procesą apibrėžia atitinkamas parametras EKA funkcijų šablone. Norėdami gauti daugiau informacijos apie tai, kaip sukonfigūruoti fiskalinės registracijos procesą, įkelti mokesčių dokumentų teikėjo ir mokesčių jungties konfigūracijas bei pakeisti konfigūracijos parametrus, žr.[Nustatykite fiskalinės registracijos procesą](setting-up-fiscal-integration-for-retail-channel.md#set-up-a-fiscal-registration-process).
 
-Toliau pateiktame pavyzdyje parodytas įprasta finansinio įrenginio fiskalinės registracijos vykdymo eiga. Eiga prasideda nuo įvykio EKA (pvz., pardavimo operacijos užbaigimo) ir nustato toliau nurodytą veiksmų seką.
+Toliau nurodytas tipiškas fiskalinės registracijos srautas prasideda įvykiu POS (pvz., pardavimo operacijos užbaigimu) ir įgyvendinama iš anksto nustatyta veiksmų seka, apimanti kitus prekybos komponentus (pvz.,CRT ir aparatinės įrangos stotis).
 
-1. EKA reikalauja finansinio dokumento iš CRT.
-1. CRT nustato, ar dabartiniam įvykiui būtina fiskalinė registracija.
-1. Remiantis fiskalinės registracijos proceso parametrais, CRT identifikuoja fiskalinę jungtį ir atitinkamą finansinio dokumento teikėją, kurie bus naudojami atliekant fiskalinę registraciją.
-1. CRT paleidžia finansinio dokumento teikėją, kuris sugeneruoja finansinį dokumentą (pvz., XML dokumentą), nurodantį operaciją arba įvykį.
-1. EKA aparatūros stočiai siunčia CRT paruoštą finansinį dokumentą.
-1. Aparatūros stotis paleidžia fiskalinę jungtį, kuri apdoroja finansinį dokumentą ir pateikia jo informaciją finansiniam įrenginiui arba tarnybai.
-1. EKA analizuoja atsakymą iš finansinio įrenginio arba tarnybos ir nustato, ar fiskalinė registracija atlikta sėkmingai.
-1. CRT įrašo atsakymą kanalo duomenų bazėje.
+1. POS prašo fiskalinio dokumento iš fiskalinės integracijos sistemos (FIF).
+1. FIF nustato, ar dabartiniam įvykiui reikalinga fiskalinė registracija.
+1. Remdamasis fiskalinės registracijos proceso nustatymais, FIF nustato fiskalinę jungtį ir atitinkamą fiskalinių dokumentų teikėją, naudojamą fiskalinei registracijai.
+1. FIF valdo fiskalinių dokumentų teikėją, kuris generuoja fiskalinį dokumentą (pavyzdžiui, XML dokumentą), atspindintį operaciją arba įvykį.
+1. FIF grąžina sugeneruotą fiskalinį dokumentą į POS.
+1. POS reikalauja, kad FIF pateiktų fiskalinį dokumentą fiskaliniam įrenginiui ar tarnybai.
+1. FIF paleidžia fiskalinę jungtį, kuri apdoroja fiskalinį dokumentą ir pateikia jį fiskaliniam įrenginiui arba tarnybai.
+1. FIF grąžina fiskalinį atsakymą (ty fiskalinio įrenginio ar paslaugos atsaką) į POS.
+1. POS analizuoja fiskalinį atsaką, kad nustatytų, ar fiskalinė registracija buvo sėkminga. Jei reikia, POS prašo, kad FIF apdorotų visas įvykusias klaidas. 
+1. POS prašo, kad FIF apdorotų ir išsaugotų fiskalinį atsakymą.
+1. Fiskalinio dokumento teikėjas apdoroja fiskalinį atsakymą. Vykdydamas šį apdorojimą, mokesčių dokumento teikėjas analizuoja atsakymą ir iš jo ištraukia išplėstinius duomenis.
+1. FIF išsaugo atsakymą ir išplėstinius duomenis kanalo duomenų bazėje.
+1. Jei reikia, POS spausdina kvitą per įprastą kvitų spausdintuvą, kuris yra prijungtas prie aparatinės įrangos stoties. Kvite gali būti pateikti reikalingi duomenys iš fiskalinio atsakymo.
+ 
+Toliau pateikti pavyzdžiai rodo fiskalinės registracijos vykdymo srautus tipiniams fiskaliniams įrenginiams arba paslaugoms.
+ 
+### <a name="fiscal-registration-is-done-via-a-device-connected-to-the-hardware-station"></a>Fiskalinė registracija atliekama per įrenginį, prijungtą prie aparatinės įrangos stoties
 
-![Sprendimo schema.](media/emea-fiscal-integration-solution.png "Sprendimo schema")
+Ši konfigūracija naudojama, kai prie aparatinės įrangos stoties yra prijungtas fizinis fiskalinis įrenginys, pvz., mokesčių spausdintuvas. Tai taip pat taikoma, kai ryšys su fiskaliniu įrenginiu arba paslauga vykdomas naudojant programinę įrangą, įdiegtą aparatinės įrangos stotyje. Šiuo atveju mokesčių dokumento teikėjas yra adresu CRT, o fiskalinė jungtis yra aparatūros stotyje.
+
+![Fiskalinė registracija atliekama per įrenginį, prijungtą prie aparatinės įrangos stoties.](media/FIF-CRT-HWS.png)
+
+### <a name="fiscal-registration-is-done-via-an-external-service"></a>Fiskalinė registracija atliekama per išorinę paslaugą
+
+Ši konfigūracija naudojama, kai mokesčių registracija atliekama naudojant išorinę paslaugą, pvz., žiniatinklio paslaugą, kurią valdo mokesčių institucija. Šiuo atveju tiek mokesčių dokumentų teikėjas, tiek fiskalinė jungtis yra ant CRT.
+
+![Fiskalinė registracija atliekama per išorinę paslaugą.](media/FIF-CRT-CRT.png)
+ 
+### <a name="fiscal-registration-is-done-internally-in-the-crt"></a>Fiskalinė registracija atliekama viduje CRT
+
+Ši konfigūracija naudojama, kai fiskalinei registracijai nereikia išorinio fiskalinio įrenginio ar paslaugos. Pavyzdžiui, jis naudojamas, kai fiskalinė registracija atliekama skaitmeniniu būdu pasirašant pardavimo operacijas. Šiuo atveju tiek mokesčių dokumentų teikėjas, tiek fiskalinė jungtis yra ant CRT.
+
+![Fiskalinė registracija atliekama viduje CRT.](media/FIF-CRT-CRT-SGN.png)
+
+### <a name="fiscal-registration-is-done-via-a-device-or-service-in-the-local-network"></a>Fiskalinė registracija atliekama naudojant įrenginį arba paslaugą vietiniame tinkle
+
+Ši konfigūracija naudojama, kai parduotuvės vietiniame tinkle yra fizinis fiskalinis įrenginys arba fiskalinė paslauga ir ji suteikia HTTPS taikomųjų programų programavimo sąsają (API). Šiuo atveju mokesčių dokumento teikėjas yra adresu CRT, o fiskalinė jungtis yra POS.
+
+![Fiskalinė registracija atliekama naudojant įrenginį arba paslaugą vietiniame tinkle.](media/FIF-CRT-POS.png)
 
 ## <a name="error-handling"></a>Klaidos taisymas
 
@@ -73,19 +97,24 @@ Fiskalinės integracijos sistema teikia toliau nurodytas parinktis, skirtas spr�
 - **Atšaukti** – ši parinktis operatoriams suteikia galimybę atidėti dabartinės operacijos arba įvykio fiskalinę registraciją, jei ji nepavyksta. Po registracija atidedama, operatorius gali tęsti darbą EKA ir baigti bet kokią operaciją, kuriai fiskalinė registracija nėra būtina. Kai EKA įvyksta bet koks įvykis, kuriam būtina fiskalinė registracija (pvz., atidaroma nauja operacija), automatiškai parodomas klaidų tvarkymo dialogo langas, kuris praneša operatoriui, kad ankstesnė operacija nebuvo tinkamai užregistruota, ir pateikia klaidų tvarkymo parinktis.
 - **Praleisti** – operatoriai gali naudoti šią parinktį, kai tam tikromis aplinkybėmis galima praleisti fiskalinę registraciją ir reguliarias operacijas galima tęsti EKA. Pvz., šią parinktį galima naudoti, kai pardavimo operaciją, kurios fiskalinė registracija nepavyko, galima registruoti specialiame popieriniame žurnale.
 - **Pažymėti kaip užregistruotą** – operatoriai gali naudoti šią parinktį, kai operacija iš tikrųjų buvo užregistruota finansiniame įrenginyje (pavyzdžiui, išspausdintas finansinis kvitas), bet kilo problema, kai finansinis atsakymas buvo įrašomas kanalo duomenų bazėje.
+- **Atidėti** – Operatoriai gali naudoti šią parinktį, kai operacija nebuvo užregistruota, nes registravimo paslauga nepasiekiama. 
 
 > [!NOTE]
-> Parinktys **Praleisti** ir **Pažymėti kaip užregistruotą** turi būti suaktyvintos fiskalinės registracijos proceso metu, kad jas būtų galima naudoti. Be to, operatoriams turi būti suteiktos atitinkamos teisės.
+> The **Praleisti**, **kaip registruotą**, ir **Atidėti** parinktys turi būti suaktyvintos fiskalinės registracijos procese prieš jas naudojant. Be to, operatoriams turi būti suteiktos atitinkamos teisės.
 
-Parinktys **Praleisti** ir **Pažymėti kaip užregistruotą** suteikia galimybę informacijos kodams užfiksuoti šiek tiek konkrečios informacijos apie triktį, pvz., gedimo priežastį, fiskalinės registracijos praleidimo priežastį arba operacijos pažymėjimo užregistruota priežastį. Daugiau informacijos apie tai, kaip nustatyti klaidų tvarlymo parametrus, žr. [Klaidų tvarkymo parametrai](setting-up-fiscal-integration-for-retail-channel.md#set-error-handling-settings).
+The **Praleisti**, **kaip registruotą**, ir **Atidėti** parinktys leidžia informacijos kodams užfiksuoti tam tikrą informaciją apie gedimą, pvz., gedimo priežastį arba pateisinimą praleisti fiskalinę registraciją arba pažymėti, kad operacija yra registruota. Daugiau informacijos apie tai, kaip nustatyti klaidų tvarlymo parametrus, žr. [Klaidų tvarkymo parametrai](setting-up-fiscal-integration-for-retail-channel.md#set-error-handling-settings).
 
 ### <a name="optional-fiscal-registration"></a>Nebūtina fiskalinė registracija
 
 Fiskalinė registracija gali būti privaloma tik atliekant tam tikras operacijas. Pavyzdžiui, įprastų pardavimų ir grąžinimų atveju fiskalinė registracija gali būti privaloma, bet su kliento mokama suma susijusių operacijų fiskalinė registracija nebūtina. Neatlikus pardavimo fiskalinės registracijos, kiti pardavimai blokuojami, o neatlikus kliento mokamos sumos fiskalinės registracijos kiti pardavimai neblokuojami. Tam, kad galėtumėte atskirti privalomas ir neprivalomas operacijas, rekomenduojame jas atliekant naudotis skirtingų dokumentų teikėjų paslaugomis ir nustatyti atskirus tų teikėjų fiskalinės registracijos proceso etapus. Parametras **Tęsti įvykus klaidai** turi būti įgalintas atliekant bet kokį su nebūtina fiskaline registracija susijusį veiksmą. Daugiau informacijos apie tai, kaip nustatyti klaidų tvarlymo parametrus, žr. [Klaidų tvarkymo parametrai](setting-up-fiscal-integration-for-retail-channel.md#set-error-handling-settings).
 
-### <a name="manually-running-fiscal-registration"></a>Neautomatinė fiskalinė registracija
+### <a name="manually-rerun-fiscal-registration"></a>Rankiniu būdu iš naujo paleiskite fiskalinę registraciją
 
 Jei įvykus klaidai (pvz., klaidų tvarkymo dialogo lange operatoriui paspaudus **Atšaukti**) operacijos arba įvykio fiskalinė registracija atidėta, suaktyvinę atitinkamą operaciją galite patys iš naujo paleisti fiskalinę registraciją. Daugiau informacijos rasite [Rankinio atidėtos fiskalinės registracijos vykdymo įgalinimas](setting-up-fiscal-integration-for-retail-channel.md#enable-manual-execution-of-postponed-fiscal-registration).
+
+### <a name="postpone-option"></a>Atidėti variantą
+
+The **Atidėti** parinktis leidžia tęsti fiskalinės registracijos procesą, jei dabartinis veiksmas nepavyksta. Jis gali būti naudojamas, kai yra fiskalinės registracijos atsarginė parinktis.
 
 ### <a name="fiscal-registration-health-check"></a>Fiskalinės registracijos būsenos patikra
 
@@ -103,7 +132,7 @@ Jei būsenos patikros rezultatai neigiami, EKA rodomas būsenos patikros dialogo
 - **Atšaukti** – operatoriui paspaudus šį mygtuką, EKA atšaukia paskutinį veiksmą (pvz., prekė neįtraukiama į naują operaciją).
 
 > [!NOTE]
-> Būsenos patikra atliekama tik tuo atveju, jei atliekant dabartinę operaciją reikia atlikti fiskalinę registraciją ir jei atliekant dabartinį fiskalinės registracijos proceso veiksmą išjungtas parametras **Tęsti įvykus klaidai**. Daugiau informacijos rasite [Klaidų tvarkymo parametrų nustatymas](setting-up-fiscal-integration-for-retail-channel.md#set-error-handling-settings).
+> Sveikatos patikrinimas vykdomas tik tuo atveju, jei dabartinei operacijai reikalinga fiskalinė registracija ir jei **Tęskite klaidą** parametras yra išjungtas dabartiniam fiskalinės registracijos proceso veiksmui. Daugiau informacijos rasite [Klaidų tvarkymo parametrų nustatymas](setting-up-fiscal-integration-for-retail-channel.md#set-error-handling-settings).
 
 ## <a name="storing-fiscal-response-in-fiscal-transaction"></a>Finansinio atsakymo saugojimas finansinėje operacijoje
 
@@ -114,8 +143,8 @@ Kai operacijos arba įvykio fiskalinė registracija sėkminga, finansinė operac
 Finansinėje operacijoje saugoma toliau nurodyta informacija.
 
 - Fiskalinės registracijos proceso informacija (procesas, jungčių grupė, jungtis ir t. t.). Jos lauke **Registro numeris** taip pat saugomas finansinio įrenginio serijos numeris, jei ši informacija įtraukta į finansinį atsakymą.
-- Fiskalinės registracijos būsena: **Baigta**, jei registracija baigta sėkmingai, **Praleista**, jei operatorius pasirinko parinktį **Praleisti**, kai registracija nepavyko, arba **Pažymėta kaip užregistruota**, jei operatorius pasirinko parinktį **Pažymėti kaip užregistruotą**.
-- Informacijos kodo operacijos, susijusios su pasirinkta finansine operacija. Norėdami peržiūrėti informacijos kodų operacijas, „FastTab“ **Finansinės operacijos** pasirinkite finansinę operaciją, kurios būsena yra **Praleista** arba **Pažymėta kaip užregistruota**, tada pasirinkite **Informacijos kodų operacijos**.
+- Fiskalinės registracijos būsena: **Užbaigta** už sėkmingą registraciją, **Praleistas** jei operatorius pasirinko **Praleisti** nepavykusios registracijos galimybė, **Pažymėta kaip registruota** jei operatorius pasirinko **Pažymėti kaip registruotą** variantas arba **Atidėtas** jei operatorius pasirinko **Atidėti** variantas.
+- Informacijos kodo operacijos, susijusios su pasirinkta finansine operacija. Norėdami peržiūrėti informacijos kodo operacijas, apsilankykite **Fiskalinės operacijos** FastTab, pasirinkite fiskalinę operaciją, kurios būsena **Praleistas**, **kaip registruota**, arba **Atidėtas**, tada pasirinkite **Info kodo operacijos**.
 
 Pasirinkę **Išplėstiniai duomenys**, taip pat galite peržiūrėti kai kurias fiskalinės operacijos ypatybes. Ypatybių, kurias galima peržiūrėti, sąrašas priklauso nuo konkrečios fiskalinio registravimo funkcijos, kuri sugeneravo fiskalinę operaciją. Pavyzdžiui, naudodami Prancūzijos skaitmeninio parašo funkcijas, galite peržiūrėti skaitmeninį parašą, sekos numerį, sertifikato kontrolinį kodą, maišos algoritmo identifikaciją ir kitas fiskalinių operacijų ypatybes.
 

@@ -13,14 +13,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 11787aa0b32c0d7493e4528b00304e51f01a655f
-ms.sourcegitcommit: e91a1797192fd9bc4048b445bb5c1ad5d333d87d
+ms.openlocfilehash: f28f75a902121f23c92a919b539517dbdb191447
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/01/2021
-ms.locfileid: "7728911"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8066730"
 ---
 # <a name="make-a-question-dependent-on-the-answer-of-the-previous-question"></a>Sukurti klausimą pagal atsakymą į ankstesnį klausimą
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -30,13 +33,13 @@ Sąlyginiai klausimai leidžia nurodyti, kokie kiti klausimai bus pateikiami res
 
 
 ## <a name="find-the-existing-questionnaire"></a>Rasti esamą klausimyną
-1. Eiti į **·** > **klausimyno** > **dizaino klausimynus**.
+1. Eiti į **Klausimynas** > **Dizainas** > **Klausimynai**.
 2. Sąraše pasirinkite „WorkFH“ klaisimyną.
 
 ## <a name="add-all-questions-and-sub-questions-to-the-questionnaire"></a>Įtraukti visus klausimus ir papildomus klausimus į klausimyną
-1. Spustelėkite **klausimus**.
+1. Spustelėkite **Klausimai**.
 2. Spustelėkite **Naujas**.
-3. Klausimo lauke **·** pasirinkite klausimo numerį 00016.
+3. Viduje konors **Klausimas** laukelyje pasirinkite klausimo numerį 00016.
 4. Sąraše raskite ir pasirinkite norimą įrašą.
 5. Sąraše spustelėkite saitą pasirinktoje eilutėje.
 6. Spustelėkite **Įrašyti**.
@@ -45,12 +48,12 @@ Sąlyginiai klausimai leidžia nurodyti, kokie kiti klausimai bus pateikiami res
 ## <a name="set-the-questionnaire-sequence-to-conditional-and-make-the-question-dependent-on-the-appropriate-question"></a>Nustatyti sąlyginę klausimyno seką ir padaryti klausimą priklausomą nuo atitinkamo atsakymo
 1. Spustelėkite **Redaguoti**.
 2. Išplėskite skyrių **Sąranka**.
-3. Klausimo **užsakymo lauke** pasirinkite Sąlyginis.
-4. Spustelėkite **sąlyginį** klausimą.
+3. Viduje konors **Klausimų tvarka** lauke pasirinkite „Sąlyginis“.
+4. Spustelėkite **Sąlyginis** klausimas.
 5. Medyje pasirinkite „Klausimai \ Paaiškinkite, kodėl pasirinkote tokį atsakymą į ankstesnį klausimą“.
-6. Lauke **Pirminis klausimas** pasirinkite klausimą 00009.
+6. Viduje konors **Pirminis klausimas** lauke, pasirinkite klausimą 00009.
 7. Sąraše spustelėkite saitą pasirinktoje eilutėje.
-8. Atsakymo **·** lauke įveskite atsakymo pasirinkties, nuo kurios klausimas būtų priklausomas, atsakymo sekos ID. Pvz., įveskite 1 pasirinkdami pirmąjį atsakymą.
+8. Viduje konors **Atsakymas** lauke įveskite atsakymo parinkties, nuo kurios norite nustatyti klausimą, atsakymų sekos ID. Pvz., įveskite 1 pasirinkdami pirmąjį atsakymą.
 9. Spustelėkite **Įrašyti**.
 10. Medyje pasirinkite „Klausimai \ Ar man sąžiningai atlyginama už mano atliekamą darbą?“.
     * Atkreipkite dėmesį, kad atsinaujino klausimų medis parodydamas priklausomybę.  

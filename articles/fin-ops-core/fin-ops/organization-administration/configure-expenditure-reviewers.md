@@ -9,15 +9,18 @@ ms.reviewer: sericks
 ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2021-06-24
-ms.openlocfilehash: ceb0a60ccf3d1c989d8663e933faaa5e430d314695e20990c9086cd1b8325ff1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: ad980889247e0239ad743078cb013c1c5839f676
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6773732"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070151"
 ---
 # <a name="configure-expenditure-reviewers"></a>Išlaidų tikrintojų konfigūravimas
 [!include[banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Galite nustatyti dinaminius išlaidų tikrintojus norėdami nukreipti išlaidas peržiūrai pagal vartotoją, kuris priskirtas projekto vaidmeniui arba pagal finansinę dimensiją, kurioje taikomas mokestis. Darbo eigos procesas naudoja nurodytą projekto vaidmenį arba finansinės dimensijos savininką, kad nustatytų, kam nukreipti išlaidas.
 
@@ -49,7 +52,7 @@ Finansines dimensijas kontroliuoja kiekvieno juridinio subjekto sąskaitų struk
 
 ## <a name="example-1-expenditure-reviewers-based-on-organization-distributions"></a>1 pavyzdys: Išlaidų tikrintojai, pagrįsti organizacijos paskirstymais
 
-Jūs dirbate „Contoso Appliances”, o jūsų organizacija turi šešis padalinius ir 10 išlaidų centrų. Kai pateikiama nauja pirkimo paraiška, ją pirmiausia turi patvirtinti padalinio vadovas, o tada išlaidų centro vadovas.
+Dirbate „Contoso Appliances“, o jūsų organizacijoje yra šeši skyriai ir 10 išlaidų centrų. Kai pateikiama nauja pirkimo paraiška, ją pirmiausia turi patvirtinti padalinio vadovas, o tada išlaidų centro vadovas.
 
 Šiame pavyzdyje konfigūruojate du *pirkimo paraiškų išlaidų tikrintojus*:
 
@@ -62,7 +65,7 @@ Kai sukuriama pirkimo paraiška, padalinio ir išlaidų centro finansinės dimen
 
 ## <a name="example-2-expenditure-reviewers-based-on-project-distributions"></a>2 pavyzdys: Išlaidų tikrintojai, pagrįsti projekto paskirstymais
 
-Jūs dirbate „Contoso Appliances” paslaugų padaliniui. Organizacija reikalauja, kad kiekvieno pirkimo užsakymo projekto vadovas privalo patvirtinti išlaidas. Be to, projekto išlaidų centro vadovas turi jas patvirtinti. Patvirtinimai gali būti atliekami tuo pačiu metu. Bet kuriuo atveju abu vartotojai turi patvirtinti pirkimo užsakymą prieš tęsdami darbo eigą.
+Dirbate „Contoso Appliances“ paslaugų skyriuje. Organizacija reikalauja, kad kiekvieno pirkimo užsakymo projekto vadovas privalo patvirtinti išlaidas. Be to, projekto išlaidų centro vadovas turi jas patvirtinti. Patvirtinimai gali būti atliekami tuo pačiu metu. Bet kuriuo atveju abu vartotojai turi patvirtinti pirkimo užsakymą prieš tęsdami darbo eigą.
 
 Šiame pavyzdyje jūs sukuriate vieną *pirkimo užsakymo išlaidų tikrintoją*, pavadintą **PM ir Išlaidų centru**. Jūs pasirenkate **Projekto vadovo** žymės langelį ir nustatote **Išlaidų centro dimensijos** parinktį į **Taip** skirtuke **Projekto paskirstymai**, esančiame **Pirkimo užsakymo išlaidų tikrintojo** puslapyje. Kaip konfigūracijos dalį turite užtikrinti, kad **Projekto vadovo** laukas būtų nustatytas visiems projektams ir tai, kad savininkas būtų nurodytas visiems išlaidų centrams **Finansinių dimensijų reikšmių** puslapyje.
 

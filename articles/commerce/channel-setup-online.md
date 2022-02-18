@@ -2,7 +2,7 @@
 title: Interneto kanalo nustatymas
 description: Šioje temoje aprašoma, kaip „Microsoft Dynamics 365 Commerce“ sukurti naują interneto kanalą.
 author: samjarawan
-ms.date: 07/02/2020
+ms.date: 02/04/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,21 +14,18 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 11796d27a6071b180ad58c46ba2a521ecc238c6091517dbdc3a4f153b3d81749
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: f32872fcc27e2e74300c4f18dfa08d666e4ad8a8
+ms.sourcegitcommit: fefe93f3f44d8aa0b7e6d54cc4a3e5eca6e64feb
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714716"
+ms.lasthandoff: 02/04/2022
+ms.locfileid: "8092117"
 ---
 # <a name="set-up-an-online-channel"></a>Interneto kanalo nustatymas
-
 
 [!include [banner](includes/banner.md)]
 
 Šioje temoje aprašoma, kaip „Microsoft Dynamics 365 Commerce“ sukurti naują interneto kanalą.
-
-## <a name="overview"></a>Peržiūra
 
 „Dynamics 365 Commerce“ palaiko kelis mažmeninės prekybos kanalus. Šie mažmeninės prekybos kanalai apima interneto parduotuves, skambučių centrus ir mažmeninės prekybos parduotuves (taip pat vadinamas fizinėmis parduotuvėmis). Internetinė parduotuvė suteikia klientams galimybę pirkti produktus internete, todėl klientai gali juos pirkti ne tik iš fizinės parduotuvės, bet ir iš internetinės parduotuvės.
 
@@ -61,9 +58,13 @@ Toliau pateiktame vaizde parodytas interneto kanalo pavyzdys.
 
 ![Interneto kanalo pavyzdys.](media/channel-setup-online-2.png)
 
+## <a name="assign-the-channel-to-a-commerce-scale-unit"></a>Priskirkite kanalą komercijos masto vienetui
+
+Jūsų naujas kanalas turi būti priskirtas komercijos masto vienetui. Instrukcijas žr [Konfigūruokite kanalus, kad būtų naudojamas komercijos masto vienetas](../fin-ops-core/dev-itpro/deployment/initialize-retail-channels.md#configure-channels-to-use-commerce-scale-unit).
+
 ## <a name="set-up-languages"></a>Kalbų nustatymas
 
-Jei jūsų el. prekybos svetainė palaiko kelias kalbas, išplėskite skyrių **Kalbos** ir, jei reikia, įtraukite papildomų kalbų.
+Jei jūsų el. prekybos svetainė palaikys kelias kalbas, išplėskite **Kalbos** skyrių ir prireikus pridėkite papildomų kalbų.
 
 ## <a name="set-up-payment-account"></a>Mokėjimo sąskaitos nustatymas
 

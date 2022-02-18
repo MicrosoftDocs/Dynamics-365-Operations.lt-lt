@@ -2,7 +2,7 @@
 title: Sukonfigūruoto ER komponento patikrinimas, kad nekiltų vykdymo problemų
 description: Šioje temoje paaiškinama, kaip patikrinti sukonfigūruotus elektroninių ataskaitų (ER) komponentus siekiant išvengti galinčių kilti vykdymo problemų.
 author: NickSelin
-ms.date: 08/26/2021
+ms.date: 01/03/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a855619ebd1c41dc3ca583912f758ed8a8f9ceef
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
-ms.translationtype: HT
+ms.openlocfilehash: c63ffc6316d21d36bb2aad57194b8aa1c477607e
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7488119"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8074796"
 ---
 # <a name="inspect-the-configured-er-component-to-prevent-runtime-issues"></a>Sukonfigūruoto ER komponento patikrinimas, kad nekiltų vykdymo problemų
 
 [!include[banner](../includes/banner.md)]
 
-Kiekvieną sukonfigūruotą [elektroninių ataskaitų (ER)](general-electronic-reporting.md) [formato](general-electronic-reporting.md#FormatComponentOutbound) ir [modelio susiejimo](general-electronic-reporting.md#data-model-and-model-mapping-components) komponentą galima [patikrinti](er-fillable-excel.md#validate-an-er-format) jį kuriant. Atliekant šį tikrinimą, vykdomas vientisumo patikrinimas siekiant išvengti galinčių kilti vykdymo problemų, pavyzdžiui, vykdymo klaidų ir našumo suprastėjimo. Kiekvienai aptiktai problemai patikra pateikia probleminio elemento kelią. Kai kurioms problemoms spręsti galima taikyti automatinę pataisą.
+Kiekvieną sukonfigūruotą [elektroninių ataskaitų (ER)](general-electronic-reporting.md) [formato](er-overview-components.md#format-components-for-outgoing-electronic-documents) ir [modelio susiejimo](er-overview-components.md#model-mapping-component) komponentą galima [patikrinti](er-fillable-excel.md#validate-an-er-format) jį kuriant. Atliekant šį tikrinimą, vykdomas vientisumo patikrinimas siekiant išvengti galinčių kilti vykdymo problemų, pavyzdžiui, vykdymo klaidų ir našumo suprastėjimo. Kiekvienai aptiktai problemai patikra pateikia probleminio elemento kelią. Kai kurioms problemoms spręsti galima taikyti automatinę pataisą.
 
 Numatyta, kad ER konfigūracijos, apimančios anksčiau minėtus komponentus, tikrinimas automatiškai taikomas tolesniais atvejais.
 
@@ -236,6 +236,15 @@ Toliau pateikiamoje lentelėje apžvelgiami ER suteikiami patikrinimai. Norėdam
 <td>Klaida</td>
 <td>Yra daugiau nei du diapazono komponentai be dublikatų. Prašome pašalinti nereikalingus komponentus.</td>
 </tr>
+<tr>
+<td><a href='#i18'>Išraiškos su funkcija ORDERBY vykdomumas</a></td>
+<td>Vykdomumas</td>
+<td>Klaida</td>
+<td>
+<p>Funkcijos ORDERBY sąrašo išraiška užklausų nepalaiko.</p>
+<p><b>Klaida:</b> Rūšiavimas nepalaikomas. Norėdami apie tai gauti daugiau informacijos, patvirtinkite konfigūraciją.</p>
+</td>
+</tr>
 </tbody>
 </table>
 
@@ -365,7 +374,7 @@ Toliau pateikti veiksmai rodo, kaip gali kilti ši problema.
 8. Pavadinkite naująjį įdėtąjį lauką **$AccNumber** ir jį sukonfigūruokite taip, kad jame būtų reiškinys `TRIM(Vendor.AccountNum)`.
 9. Pasirinkite **Tikrinti**, kad patikrintumėte redaguojamąjį modelio susiejimo komponentą puslapyje **Modelio susiejimo kūrimo įrankis**, ir patikrinkite, ar reiškiniui `FILTER(Vendor, Vendor.AccountNum="US-101")` duomenų šaltinyje **Vendor** galima pateikti užklausų.
 
-    ![Reiškinio tikrinimo užklausą galima pateikti modelio susiejimo kūrimo įrankio puslapyje.](./media/er-components-inspections-04.gif)
+    ![Patikrinkite, ar reiškinio, turinčio FILTER funkciją, užklausą galima pateikti puslapyje Modelio atvaizdavimo dizaineris.](./media/er-components-inspections-04.gif)
 
 10. Atkreipkite dėmesį, kad įvyksta tikrinimo klaida, nes duomenų šaltinyje **Vendor** yra tipo **Apskaičiuotasis laukas** įdėtasis laukas, todėl negalima duomenų šaltinio **FilteredVendor** reiškinio konvertuoti į tiesioginį SQL sakinį.
 
@@ -671,19 +680,19 @@ Tolesnėje iliustracijoje rodoma vykdymo klaida, kuri įvyksta, jei nepaisote į
 
 ![Vykdymo klaida, įvykstanti susiejant formatą formato kūrimo įrankio puslapyje.](./media/er-components-inspections-10b.png)
 
-### <a name="automatic-resolution&quot;></a>Automatinis sprendimas
+### <a name="automatic-resolution"></a>Automatinis sprendimas
 
 Nėra parinkties šiai problemai išspręsti automatiškai.
 
-### <a name=&quot;manual-resolution&quot;></a>Neautomatinis sprendimas
+### <a name="manual-resolution"></a>Neautomatinis sprendimas
 
-#### <a name=&quot;option-1&quot;></a>1 pasirinktis
+#### <a name="option-1"></a>1 pasirinktis
 
 Pašalinkite vėliavėlę **Talpykla** nuo duomenų šaltinio **Vendor**. Duomenų šaltinis **FilteredVendor** taps vykdomuoju, tačiau lentelėje VendTable nurodytas duomenų šaltinis **Vendor** bus pasiekiamas kiekvieną kartą, kai bus iškviestas duomenų šaltinis **FilteredVendor**.
 
-#### <a name=&quot;option-2&quot;></a>2 pasirinktis
+#### <a name="option-2"></a>2 pasirinktis
 
-Duomenų šaltinio **FilteredVendor** reiškinį iš `FILTER(Vendor, Vendor.AccountNum=&quot;US-101")` pakeiskite į `WHERE(Vendor, Vendor.AccountNum="US-101")`. Šiuo atveju lentelėje VendTable nurodytas duomenų šaltinis **Vendor** bus pasiekiamas tik pirmą kartą iškviečiant duomenų šaltinį **Vendor**. Tačiau įrašų parinkimas bus atliekamas atmintyje. Todėl, naudojant šį metodą, gali suprastėti našumas.
+Duomenų šaltinio **FilteredVendor** reiškinį iš `FILTER(Vendor, Vendor.AccountNum="US-101")` pakeiskite į `WHERE(Vendor, Vendor.AccountNum="US-101")`. Šiuo atveju lentelėje VendTable nurodytas duomenų šaltinis **Vendor** bus pasiekiamas tik pirmą kartą iškviečiant duomenų šaltinį **Vendor**. Tačiau įrašų parinkimas bus atliekamas atmintyje. Todėl, naudojant šį metodą, gali suprastėti našumas.
 
 ## <a name="missing-binding"></a><a id="i11"></a>Trūksta susiejimo
 
@@ -892,6 +901,47 @@ Nėra parinkties šiai problemai išspręsti automatiškai.
 #### <a name="option-1"></a>1 pasirinktis
 
 Modifikuokite sukonfigūruotą formatą pakeisdami **Replikavimo kryties** ypatybę visiems nenuosekliems **„Excel”\\Diapazono** komponentams.
+
+## <a name="executability-of-an-expression-with-orderby-function"></a><a id="i18"></a> Išraiškos su funkcija ORDERBY vykdomumas
+
+Įmontuotas [RŪŠIUOTI PAGAL](er-functions-list-orderby.md) ER funkcija naudojama rūšiuoti ER duomenų šaltinio įrašus **[Įrašų sąrašas](er-formula-supported-data-types-composite.md#record-list)** tipas, nurodytas kaip funkcijos argumentas.
+
+Argumentai`ORDERBY` funkcija gali būti [nurodyta](er-functions-list-orderby.md#syntax-2) rūšiuoti taikomųjų programų lentelių, rodinių ar duomenų objektų įrašus įvesdami vieną duomenų bazės iškvietimą, kad surūšiuoti duomenys būtų gauti kaip įrašų sąrašas. Duomenų šaltinis **Įrašų sąrašas** tipas naudojamas kaip funkcijos argumentas ir nurodo iškvietimo programos šaltinį.
+
+ER patikrina, ar galima nustatyti tiesioginę duomenų bazės užklausą duomenų šaltiniui, kuris nurodytas`ORDERBY` funkcija. Jei tiesioginės užklausos nustatyti negalima, ER modelio susiejimo kūrimo įrankyje įvyksta tikrinimo klaida. Gautame pranešime teigiama, kad ER reiškinio, apimančio funkciją `ORDERBY`, negalima vykdyti vykdymo metu.
+
+Toliau pateikti veiksmai rodo, kaip gali kilti ši problema.
+
+1. Pradėkite konfigūruoti ER modelio susiejimo komponentą.
+2. Įtraukite tipo **„Dynamics 365 for Operations“ \\ Lentelės įrašai** duomenų šaltinį.
+3. Naująjį duomenų šaltinį pavadinkite **Vendor**. Viduje konors **Lentelė** lauką, pasirinkite **Pardavimo lentelė** nurodyti, kad šis duomenų šaltinis prašys **Pardavimo lentelė** stalo.
+4. Įtraukite tipo **Apskaičiuotasis laukas** duomenų šaltinį.
+5. Pavadinkite naują duomenų šaltinį **Užsakyta Pardavėjai**, ir sukonfigūruokite jį taip, kad jame būtų išraiška `ORDERBY("Query", Vendor, Vendor.AccountNum)`.
+ 
+    ![Duomenų šaltinių konfigūravimas puslapyje Modelio atvaizdavimo dizaineris.](./media/er-components-inspections-18-1.png)
+
+6. Pasirinkite **Patvirtinti** norėdami patikrinti redaguojamo modelio atvaizdavimo komponentą **Modelių žemėlapių kūrėjas** puslapį ir patikrinkite, ar išraiška **Užsakyta Pardavėjai** galima teirautis dėl duomenų šaltinio.
+7. Modifikuokite duomenų šaltinį **Vendor**, įtraukdami įdėtąjį tipo **Apskaičiuotasis laukas** lauką, kad būtų galima gauti sutrumpintą tiekėjo sąskaitos numerį.
+8. Pavadinkite naująjį įdėtąjį lauką **$AccNumber** ir jį sukonfigūruokite taip, kad jame būtų reiškinys `TRIM(Vendor.AccountNum)`.
+9. Pasirinkite **Patvirtinti** norėdami patikrinti redaguojamo modelio atvaizdavimo komponentą **Modelių žemėlapių kūrėjas** puslapį ir patikrinkite, ar išraiška **Pardavėjas** galima teirautis dėl duomenų šaltinio.
+
+    ![Patikrinimas, ar tiekėjo duomenų šaltinio išraiškos galima pateikti puslapyje Modelio atvaizdavimo dizaineris.](./media/er-components-inspections-18-2.png)
+
+10. Atkreipkite dėmesį, kad įvyksta patvirtinimo klaida, nes **Pardavėjas** duomenų šaltinyje yra įdėtas laukas **Apskaičiuotas laukas** tipas, kuris neleidžia išreikšti **Užsakyta Pardavėjai** duomenų šaltinis, kuris turi būti išverstas į tiesioginį duomenų bazės teiginį. Ta pati klaida įvyksta vykdymo metu, jei nepaisysite patvirtinimo klaidos ir pasirinksite **Bėk** paleisti šį modelio atvaizdavimą.
+
+### <a name="automatic-resolution"></a>Automatinis sprendimas
+
+Nėra parinkties šiai problemai išspręsti automatiškai.
+
+### <a name="manual-resolution"></a>Neautomatinis sprendimas
+
+#### <a name="option-1"></a>1 pasirinktis
+
+Užuot pridėję įdėtą lauką **Apskaičiuotas laukas** įveskite į **Pardavėjas** duomenų šaltinį, pridėkite **$AccNumber** įdėtas laukas į **Filtruoti Pardavėjai** duomenų šaltinį ir sukonfigūruokite lauką taip, kad jame būtų išraiška `TRIM(FilteredVendor.AccountNum)`. Tokiu būdu,`ORDERBY("Query", Vendor, Vendor.AccountNum)` išraiška gali būti vykdoma duomenų bazės lygiu ir apskaičiuojama **$AccNumber** įdėtą lauką galima atlikti po to.
+
+#### <a name="option-2"></a>2 pasirinktis
+
+Pakeiskite išraišką **Filtruoti Pardavėjai** duomenų šaltinis iš`ORDERBY("Query", Vendor, Vendor.AccountNum)` į `ORDERBY("InMemory", Vendor, Vendor.AccountNum)`. Nerekomenduojame keisti lentelės, kurioje yra daug duomenų (operacijų lentelės), išraiškos, nes bus gauti visi įrašai, o reikiamų įrašų tvarka bus atlikta atmintyje. Todėl, naudojant šį metodą, gali suprastėti našumas.
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: v-savanh
 ms.search.validFrom: 2020-11-01
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 9ad7f116f979d571a5e34eee67beb7218a271522
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: f699b00ab7ea2d043e12824015c54439caf8e63c
+ms.sourcegitcommit: d58a891d9fe0aa0e6b2c20329250c8d74ffbee90
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7777626"
+ms.lasthandoff: 01/24/2022
+ms.locfileid: "8022979"
 ---
 # <a name="vendor-collaboration-with-customers"></a>Tiekėjo bendradarbiavimas su klientais
 
@@ -78,7 +78,7 @@ Jei naudojate konsignacijos atsargas, galite naudoti tiekėjo bendradarbiavimo s
 
 ## <a name="working-with-rfqs-in-the-vendor-bidding-workspace"></a>Darbas su RFQ darbo srityje Tiekėjų kainos siūlymas
 
-**TIekėjo kainos siūlymo** darbo aplinka leidžia jums peržiūrėti kainų paraiškas (RFQ), į kurias jūsų bendrovė buvo pakviesta atsakyti. Taip pat galite į RFQ atsakyti. 
+**TIekėjo kainos siūlymo** darbo aplinka leidžia jums peržiūrėti kainų paraiškas (RFQ), į kurias jūsų bendrovė buvo pakviesta atsakyti. Taip pat galite į RFQ atsakyti.
 
 Darbo srityje taip pat nurodomi visi RFQ, pralaimėjote arba laimėjote. Papildomai, jei sistema yra konfigūruojama viešajam sektoriui, darbo aplinka rodo, kad RFQs yra viešai prieinamas.
 
@@ -96,20 +96,28 @@ Atidarykite darbo sritį **Tiekėjų kainos siūlymas**, norėdami pasiekti toli
 
 ### <a name="working-with-rfqs-that-are-publicly-available"></a>Darbas su viešai pasiekiamais RFQ
 
-Žmonės, dirbantys viešajame sektoriuje, gali pamatyti atvirus ir nebegaliojančius RFQ, kurie yra viešai pasiekiami.
+Viešajame sektoriuje dirbantys žmonės gali matyti atvirus ir pasibaigusius užsakymus, kurie buvo prieinami visuomenei.
 
 - Pasirinkite nuorodą **Atviri paskelbti pasiūlymų patvirtinimai**, kad pamatytumėte atvirų RFQ, kurie yra viešai pasiekiami, sąrašą. Atviras RFQ yra RFQ, kurio galiojimas dar nesibaigė. RFQ antraštėje galite peržiūrėti galiojimo pabaigos datą ir laiką.
 
-    Jei buvote pakviesti siūlyti kainą, galite rasti tą patį RFQ puslapyje **Nauji kvietimai siūlyti kainą**. Galbūt kartais norėsite siūlyti kainą už atvirą RFQ, kai nesate pakviesti siūlyti kainos. Tokiu atveju galėsite patys pakviesti save, jei klientas įjungė RFQ atvejo savęs pakvietimo funkciją.
+    Jei buvote pakviesti siūlyti kainą, galite rasti tą patį RFQ puslapyje **Nauji kvietimai siūlyti kainą**. Galbūt kartais norėsite siūlyti kainą už atvirą RFQ, kai nesate pakviesti siūlyti kainos. Tokiu atveju galėsite patys pakviesti save, jei klientas įjungė RFQ atvejo savęs pakvietimo funkciją. 
 
-    Pagerinkite prieigą **Atidaryti paviešintus užsakymus kainoms** nuorodą įjungdami **Rodyti „Atverkite paviešintus prašymus kainoms" nuorodą kaip plytą** funkciją. Ši funkcija paverčia nuorodą į plytą ir perkelia ją į tinkamą vietą tam, kad ją būtų paprasta surasti. (Kaip tiekimo grandinės valdymo versija 10.0.21, ši funkcija yra įjungta pagal numatytuosius nustatymus.)
+    The **Nauji kvietimai teikti pasiūlymus** puslapyje gali būti pateiktas filtras, leidžiantis peržiūrėti atvirus RFQ ir nustatyti tuos, kuriuose yra eilučių, atitinkančių jūsų patvirtintas pirkimo kategorijas. Kad šis filtras būtų pasiekiamas, turite įjungti *Leiskite pardavėjams ieškoti užsakymų pagal pirkimo kategoriją* funkcija jūsų sistemoje. Administratoriai gali naudoti **Funkcijų valdymas** darbo sritį, kad patikrintumėte šios funkcijos būseną ir įjunkite ją, jei to reikia. Ten ši funkcija pateikiama taip:
+
+    - **Modulis:** *Mokėtinos sąskaitos*
+    - **Funkcijos pavadinimas:** *Leiskite pardavėjams ieškoti užsakymų pagal pirkimo kategoriją* <!-- KFM: I don't see this here, is this right? -->
+
+    Galite pagerinti pasiekiamumą **Atidarykite paskelbtas užklausas dėl kainų** nuorodą įjungdami *Rodyti nuorodą „Atidaryti paskelbtas citatos užklausas“ kaip plytelę* funkcija. Ši funkcija paverčia nuorodą į plytelę ir perkelia ją į gerai matomą vietą, kad ją būtų lengva rasti. Administratoriai gali naudoti **Funkcijų valdymas** darbo sritį, kad patikrintumėte šios funkcijos būseną ir įjunkite ją, jei to reikia. (Nuo Supply Chain Management 10.0.21 versijos funkcija įjungta pagal numatytuosius nustatymus.) Ten funkcija pateikiama taip:
+
+    - **Modulis:** *Paraiškos*
+    - **Funkcijos pavadinimas:** *Rodyti nuorodą „Atidaryti paskelbtas citatos užklausas“ kaip plytelę*
 
 - Pasirinkite nuorodą **Uždaryti paskelbti pasiūlymų patvirtinimai**, kad pamatytumėte uždarytų RFQ, kurie yra viešai pasiekiami, sąrašą. Uždarytas RFQ yra nebegaliojantis RFQ. RFQ antraštėje galite peržiūrėti galiojimo pabaigos datą ir laiką.
 
     Uždarytame RFQ rodomi visi tiekėjų kainos siūlymai iki eilutės lygio. Kai siūlymai patvirtinami arba atmetami, ši informacija nurodoma uždarytame RFQ. Taip pat pateikiami visi priedai, įtraukti į kainos siūlymą.
 
 > [!NOTE]
-> Ši funkcija yra prieinama tik, jei viešojo sektoriaus konfigūravimas yra įjungtas.
+> Ši funkcija pasiekiama tik įjungus viešojo sektoriaus konfigūraciją.
 
 ### <a name="bidding"></a>Kainos siūlymas
 

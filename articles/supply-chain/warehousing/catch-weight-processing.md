@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-1-31
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: 8e56688aac445b84d5a9c0df289d48ffefd5767f673f2329f69582e820c27820
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 830e05db47e2e2d3bb5970869bc395cfa73ad603
+ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6738154"
+ms.lasthandoff: 02/02/2022
+ms.locfileid: "8087375"
 ---
 # <a name="catch-weight-product-processing-with-warehouse-management"></a>Esamo svorio produktų apdorojimas naudojant sandėlio valdymą
 
@@ -138,7 +138,6 @@ Ne visos darbo eigos palaiko esamo svorio produktų apdorojimą naudojant sandė
 - Esamo svorio produktų, kurių variantai įjungti, negalima naudoti kartu su varianto matavimo vienetų konvertavimo funkcija.
 - Esamo svorio produktai negali būti pažymėti kaip prekybos „produktų rinkinys“.
 - Esamo svorio produktai gali būti naudojami tik su vienetų sekų grupe, kuriai priskirti esamo svorio sandėliavimo vienetai ir kurios žemiausia seka yra esamo svorio vienetas.
-- Jei produktai yra esamo svorio atsargų vienetą galima konvertuoti į esamo svorio vienetą, jei konvertavimo metu generuojamas nominalus kiekis, kuris yra didesnis nei 1.
 - Esamo svorio produktų brūkšninių kodų sąranka nepalaiko kintamo svorio sąrankos.
 
 ### <a name="order-processing"></a>Užsakymų apdorojimas

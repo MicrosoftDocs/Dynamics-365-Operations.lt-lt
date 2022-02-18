@@ -1,26 +1,26 @@
 ---
 title: Kliento SF kūrimas
-description: '**Kliento SF pardavimo užsakymui** yra sąskaita, susijusi su pardavimu ir kurią organizacija pateikia klientui.'
+description: Kliento SF pardavimo užsakymui yra sąskaita, susijusi su pardavimu ir kurią organizacija pateikia klientui.
 author: ShivamPandey-msft
-ms.date: 01/12/2018
+ms.date: 02/01/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: CustFreeInvoice
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 77772
 ms.assetid: 00b4b40c-1576-4098-9aed-ac376fdeb8c5
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 369f0737ee4026c32ffbae6b11b5815c5548d83d564aebf2eae4b1c246e73508
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: d408ca5265802cf17a53dd5cb004f707f6f7855b
+ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723876"
+ms.lasthandoff: 02/02/2022
+ms.locfileid: "8087428"
 ---
 # <a name="create-a-customer-invoice"></a>Kliento SF kūrimas
 
@@ -42,6 +42,23 @@ Norėdami gauti daugiau informacijos, žr.
 
 
 **Išankstinė SF** yra tokia sąskaita, kuri parengiama kaip faktinių sąskaitos sumų įvertinimas, prieš užregistruojant sąskaitą faktūrą. Galite išspausdinti arba kliento SF pardavimo užsakymui, arba laisvos formos sąskaitos faktūros išankstinę sąskaitą faktūrą.
+
+## <a name="using-sales-order-customer-invoice-data-entities"></a>Pardavimo užsakymo kliento sąskaitos faktūros duomenų subjektų naudojimas
+Galite naudoti duomenų objektus norėdami importuoti ir eksportuoti informaciją apie pardavimo užsakymo kliento sąskaitą faktūrą. Informacijai pardavimo sąskaitos faktūros antraštėje ir pardavimo sąskaitos faktūros eilutėse yra skirtingi objektai.
+
+Pardavimo sąskaitos faktūros antraštėje galima rasti šiuos objektus:
+
+- **Pardavimo sąskaitos faktūros žurnalo antraštė** subjektas (SalesInvoiceJournalHeaderEntity)
+- **Pardavimo sąskaitų faktūrų antraštės V2** subjektas (SalesInvoiceHeaderV2Entity)
+
+Rekomenduojame naudoti **Pardavimo sąskaitos faktūros žurnalo antraštė** subjektas, nes jis suteikia našesnę patirtį importuojant ir eksportuojant pardavimo antraštes. Šiame objekte nėra **Pardavimo mokesčio suma** (INVOICEHEADERTAXAMOUNT) stulpelį, kuriame nurodoma pardavimo mokesčio vertė pardavimo sąskaitos faktūros antraštėje. Jei jūsų verslo scenarijus reikalauja šios informacijos, naudokite **Pardavimo sąskaitų faktūrų antraštės V2** subjektas importuoti ir eksportuoti pardavimo sąskaitos faktūros antraštės informaciją.
+
+Pardavimo sąskaitų faktūrų eilučių informacijai galimi šie objektai:
+
+- **Kliento sąskaitos faktūros eilutės** subjektas (BusinessDocumentSalesInvoiceLineItemEntity)
+- **Pardavimo sąskaitos faktūros eilutės V3** subjektas (SalesInvoiceLineV3Entity)
+
+Kai nustatote, kurį eilutės objektą naudoti eksportuojant, apsvarstykite, ar bus naudojamas visiškas, ar laipsniškas stūmimas. Be to, apsvarstykite duomenų sudėtį. The **Pardavimo sąskaitos faktūros eilutės V3** subjektas palaiko sudėtingesnius scenarijus (pavyzdžiui, susiejimą su atsargų laukais). Jis taip pat palaiko pilno spaudimo eksporto scenarijus. Laipsniško stūmimo atveju rekomenduojame naudoti **Kliento sąskaitos faktūros eilutės** subjektas. Šiame objekte yra daug paprastesnė duomenų sudėtis nei **Pardavimo sąskaitos faktūros eilutės V3** subjektas ir yra pageidaujama, ypač jei atsargų lauko integravimas nereikalingas. Dėl skirtingų linijų objektų atvaizdavimo palaikymo, **Kliento sąskaitos faktūros eilutės** subjektas paprastai turi greitesnį našumą nei **Pardavimo sąskaitos faktūros eilutės V3** subjektas.
 
 ## <a name="post-and-print-individual-customer-invoices-that-are-based-on-sales-orders"></a>Registruoti ir spausdinti atskiras kliento SF, kurios paremtos pardavimo užsakymais
 Naudodami šį procesą galite sukurti sąskaitą faktūrą, grindžiamą pardavimo užsakymu. To gali prireikti, jei nuspręsite išrašyti klientui sąskaitą faktūrą prieš pristatydami prekes arba suteikdami paslaugas. 

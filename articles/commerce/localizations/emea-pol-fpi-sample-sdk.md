@@ -1,6 +1,6 @@
 ---
-title: Finansinio spausdintuvo integravimo pavyzdžio Lenkijai (senesni) diegimo rekomendacijos
-description: Šioje temoje pateikiamos gairės, kaip iš "Retail" programinės įrangos kūrimo rinkinio (SDK) įdiegti Lenkijos Microsoft Dynamics 365 Commerce fiskalinio spausdintuvo integravimo pavyzdį.
+title: Fiskalinio spausdintuvo integravimo Lenkijoje pavyzdžio diegimo gairės (senas)
+description: Šioje temoje pateikiamos gairės, kaip įdiegti mokesčių spausdintuvo integravimo pavyzdį Lenkijoje Microsoft Dynamics 365 Commerce Mažmeninės prekybos programinės įrangos kūrimo rinkinys (SDK).
 author: EvgenyPopovMBS
 ms.date: 12/20/2021
 ms.topic: article
@@ -9,164 +9,164 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-3-1
-ms.openlocfilehash: bff3a6ad74d50e7b706d4df92b17a4a3af36521b
-ms.sourcegitcommit: 0d2de52e12fdb9928556d37a4813a67b303695dc
+ms.openlocfilehash: 45cae498df8157b9561c54e9859daadcaedd7823
+ms.sourcegitcommit: 5cefe7d2a71c6f220190afc3293e33e2b9119685
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7944820"
+ms.lasthandoff: 02/01/2022
+ms.locfileid: "8076993"
 ---
-# <a name="deployment-guidelines-for-the-fiscal-printer-integration-sample-for-poland-legacy"></a>Finansinio spausdintuvo integravimo pavyzdžio Lenkijai (senesni) diegimo rekomendacijos
+# <a name="deployment-guidelines-for-the-fiscal-printer-integration-sample-for-poland-legacy"></a>Fiskalinio spausdintuvo integravimo Lenkijoje pavyzdžio diegimo gairės (senas)
 
 [!include[banner](../includes/banner.md)]
 
-Šioje temoje pateikiami gairės, kaip įdiegti Lenkijos fiskalinio spausdintuvo integravimo pavyzdį iš "Retail" programinės įrangos kūrimo rinkinio (SDK), programavimo virtualiosios mašinos (VM) ciklo tarnybose Microsoft Dynamics 365 Commerce Microsoft Dynamics (LCS). Daugiau informacijos apie šį finansinio integravimo pavyzdį ieškokite [Lenkijai skirtas iždo dokumentų spausdintuvo integravimo pavyzdys](emea-pol-fpi-sample.md). 
+Šioje temoje pateikiamos gairės, kaip įdiegti mokesčių spausdintuvo integravimo pavyzdį Lenkijoje Microsoft Dynamics 365 Commerce Mažmeninės prekybos programinės įrangos kūrimo rinkinys (SDK) kūrėjo virtualioje mašinoje (VM).Microsoft Dynamics Gyvenimo ciklo paslaugos (LCS). Daugiau informacijos apie šį fiskalinės integracijos pavyzdį žr [Fiskalinio spausdintuvo integravimo pavyzdys Lenkijai](emea-pol-fpi-sample.md). 
 
-Lenkijos finansinio integravimo pavyzdys yra mažmeninės prekybos SDK dalis. Informacijos, kaip įdiegti ir naudoti SDK, ieškokite Mažmeninės prekybos programinės [įrangos kūrimo rinkinio (SDK) architektūroje](../dev-itpro/retail-sdk/retail-sdk-overview.md). Šį pavyzdį sudaro "Commerce Runtime ( ) ir CRT Hardware" stoties plėtiniai. Norėdami vykdyti šį pavyzdį, turite modifikuoti ir sukurti CRT "Hardware" stoties projektus. Rekomenduojame naudoti nesumoduliuotą "Retail SDK", kad būtų atlikti šioje temoje aprašyti pakeitimai. Taip pat rekomenduojame naudoti šaltinio valdymo sistemą, pvz., Azure DevOps kurioje dar nėra pakeistų failų.
+Lenkijos fiskalinės integracijos pavyzdys yra mažmeninės prekybos SDK dalis. Norėdami gauti informacijos apie tai, kaip įdiegti ir naudoti SDK, žr [Mažmeninės prekybos programinės įrangos kūrimo rinkinio (SDK) architektūra](../dev-itpro/retail-sdk/retail-sdk-overview.md). Šį pavyzdį sudaro „Commerce“ vykdymo laiko plėtiniai (CRT) ir aparatinės įrangos stotis. Norėdami paleisti šį pavyzdį, turite modifikuoti ir sukurti CRT ir Aparatinės įrangos stočių projektai. Rekomenduojame naudoti nepakeistą mažmeninės prekybos SDK, kad atliktumėte šioje temoje aprašytus pakeitimus. Taip pat rekomenduojame naudoti šaltinio valdymo sistemą, pvz Azure DevOps kur dar nepakeisti jokie failai.
 
 ## <a name="development-environment"></a>Talpinimo aplinka
 
-Norėdami nustatyti programavimo aplinką, kad būtų galima patikrinti ir išplėsti pavyzdį, atlikite šiuos veiksmus.
+Atlikite šiuos veiksmus, kad nustatytumėte kūrimo aplinką, kad galėtumėte išbandyti ir išplėsti pavyzdį.
 
-### <a name="commerce-runtime-extension-components"></a>"Commerce Runtime" plėtinio komponentai
+### <a name="commerce-runtime-extension-components"></a>Prekybos vykdymo laiko plėtinio komponentai
 
-Išplėstiniai CRT komponentai įtraukti į "Retail SDK". Norėdami atlikti šias procedūras, dalyje **·** **RetailSdk \\ SampleExtensions \\ CommerceRuntime atidarykite sprendimą CommerceRuntimeSamples.sln.**
+The CRT plėtinio komponentai yra įtraukti į mažmeninės prekybos SDK. Norėdami užbaigti toliau nurodytas procedūras, atidarykite **CommerceRuntimeSamples.sln** sprendimas pagal **RetailSdk\\ Extensions pavyzdys\\ CommerceRuntime**.
 
-1. Raskite **Runtime.Extensions.DocumentProvider.PosnetSample** projektą ir sukurkite jį.
-2. Aplanke **Extensions.DocumentProvider.PosnetSample bin Debug raskite \\\\ rinkinio failą** **Contoso.Commerce.Runtime.Extensions.DocumentProvider.PosnetSample.dll.**
-3. Nukopijuokite surinkimo failą į CRT plėtinio aplanką:
+1. Surask **Runtime.Extensions.DocumentProvider.PosnetSample** projektą ir jį pastatyti.
+2. Viduje konors **Extensions.DocumentProvider.PosnetSample\\ šiukšliadėžė\\ Derinimas** aplanką, suraskite **Contoso.Commerce.Runtime.Extensions.DocumentProvider.PosnetSample.dll** surinkimo failas.
+3. Nukopijuokite surinkimo failą į CRT plėtinio aplankas:
 
-    - **"Commerce Scale Unit:" kopijuokite failą į talpyklos iš išorės aplanką, esantį informacinių interneto paslaugų** **\\\\** (IIS) "Commerce Scale Unit" vietoje.
-    - **"Modern CRT POS" vieta:** kopijuokite failą į **\\ iš išorės** aplanką, esantį vietinio kliento CRT brokerio vietoje.
+    - **Prekybos masto vienetas:** Nukopijuokite failą į **\\ šiukšliadėžė\\ ext** aplanką, esantį interneto informacijos paslaugų (IIS) komercijos masto vieneto svetainėje.
+    - **Vietinis CRT Šiuolaikinėje POS:** Nukopijuokite failą į **\\ ext** aplanką pagal vietinį CRT kliento brokerio vieta.
 
-4. Rasti plėtinio konfigūracijos failą, kuris CRT skirtas:
+4. Raskite plėtinio konfigūracijos failą CRT:
 
-    - **"Commerce Scale Unit:** failas **yra pavadintas commerceruntime.ext.config ir jis yra talpyklos išorinio aplanko** **\\** IIS "Commerce Scale Unit" vietoje.
-    - **"Modern POS" vietinė: failo vardas yra CRT** **CommerceRuntime.MPOSOffline.Ext.config, jis priklauso vietinio** kliento CRT brokerio vietai.
+    - **Prekybos masto vienetas:** Failas pavadintas **commerceruntime.ext.config**, ir jis yra **šiukšliadėžė\\ ext** aplanką, esantį IIS komercijos masto vieneto svetainės vietoje.
+    - **Vietinis CRT Šiuolaikinėje POS:** Failas pavadintas **CommerceRuntime.MPOSOffline.Ext.config**, ir jis priklauso vietiniam CRT kliento brokerio vieta.
 
-5. CRT Užregistruokite pakeitimą plėtinio konfigūracijos faile.
+5. Užregistruokite CRT pakeisti plėtinio konfigūracijos failą.
 
     ``` xml
     <add source="assembly" value="Contoso.Commerce.Runtime.Extensions.DocumentProvider.PosnetSample" />
     ```
 
-6. Iš naujo paleisti "Commerce Service":
+6. Iš naujo paleiskite „Commerce“ paslaugą:
 
-    - **"Commerce Scale Unit: iš** naujo paleisti "Commerce Service" svetainę iš IIS tvarkytuvo.
-    - **Kliento brokeris:** užbaigti **dllhost.exe** procesą užduočių tvarkytuve ir iš naujo paleisti "Modern POS".
+    - **Prekybos masto vienetas:** Iš naujo paleiskite „Commerce“ paslaugų svetainę iš „IIS Manager“.
+    - **Klientų brokeris:** Baigti **dllhost.exe** procesą užduočių tvarkytuvėje, tada iš naujo paleiskite Modern POS.
 
-### <a name="hardware-station-extension-components"></a>Aparatūros stoties plėtinio komponentai
+### <a name="hardware-station-extension-components"></a>Aparatinės įrangos stoties išplėtimo komponentai
 
-Aparatūros stoties plėtinio komponentai įtraukti į "Retail SDK". Norėdami atlikti šias procedūras, **dalyje** **RetailSdk \\ SampleExtensions HardwareStation atidarykite sprendimą HardwareStationSamples.sln. \\**
+Aparatinės įrangos stoties plėtinio komponentai yra įtraukti į mažmeninės prekybos SDK. Norėdami užbaigti toliau nurodytas procedūras, atidarykite **HardwareStationSamples.sln** sprendimas pagal **RetailSdk\\ Extensions pavyzdys\\ HardwareStation**.
 
-1. Suraskite **HardwareStation.Extension.PosnetThermalFVFiscalPrinterSample** projektą ir sukurkite jį.
-2. Aplanke **Extension.Posnet.PagalVFiscalPrinterSample \\ talpyklos \\ debug raskite surinkimo failą** **Contoso.Commerce.HardwareStation.PosnetThermalFVFiscalPrinterSample.dll.**
-3. Nukopijuokite surinkimo failą į įdiegtą aparatūros stoties įrenginį:
+1. Surask **HardwareStation.Extension.PosnetThermalFVFiscalPrinterSample** projektą ir jį pastatyti.
+2. Viduje konors **Extension.Posnet.ThermalFVFiscalPrinterSample\\ šiukšliadėžė\\ Derinimas** aplanką, suraskite **Contoso.Commerce.HardwareStation.PosnetThermalFVFiscalPrinterSample.dll** surinkimo failas.
+3. Nukopijuokite surinkimo failą į įdiegtą aparatinės įrangos stoties įrenginį:
 
-    - **Nuotolinės aparatūros** stotis: kopijuokite failą į **talpyklos** aplanką, esantį IIS aparatūros stoties svetainės vietoje. Kopijuokite spausdintuvo tvarkyklės **bibliotekas (libposcmbth.dll,** **libcmbth \_ serial.dll** ir **cmbth \_ pl.lng).**
+    - **Nuotolinė aparatūros stotis:** Nukopijuokite failą į **šiukšliadėžė** aplanką, esantį IIS aparatinės įrangos stoties vietoje. Nukopijuokite spausdintuvo tvarkyklės bibliotekas (**libposcmbth.dll**, **\_ serial.dll**, ir **cmbth\_ pl.lng**).
 
-4. Raskite aparatūros stoties plėtinių konfigūracijos failą. Failo vardas yra **HardwareStation.Extension.config:**
+4. Raskite aparatūros stoties plėtinių konfigūracijos failą. Failas pavadintas **HardwareStation.Extension.config**:
 
-    - **Nuotolinės aparatūros** stotis: failas yra IIS aparatūros stoties svetainės vietoje.
+    - **Nuotolinė aparatūros stotis:** Failas yra IIS aparatinės įrangos stoties vietoje.
 
-5. Įtraukite šią eilutę į **konfigūracijos** failo sudėties skyrių.
+5. Pridėkite šią eilutę prie **kompozicija** konfigūracijos failo skyrių.
 
     ``` xml
     <add source="assembly" value="Contoso.Commerce.HardwareStation.PosnetThermalFVFiscalPrinterSample" />
     ```
 
-6. Iš naujo paleiskite aparatūros stoties tarnybą:
+6. Iš naujo paleiskite aparatūros stoties paslaugą:
 
-    - **Nuotolinės aparatūros stotis:** iš naujo paleiskite aparatūros stoties svetainę iš IIS tvarkytuvo.
+    - **Nuotolinė aparatūros stotis:** Iš naujo paleiskite aparatūros stoties svetainę iš IIS tvarkyklės.
 
 ## <a name="production-environment"></a>Gamybos aplinka
 
-Ankstesnės procedūros metu įgalinote plėtinius, kurie yra finansinio registravimo tarnybos integravimo pavyzdžio komponentai. Be to, turite atlikti šiuos veiksmus, jei norite kurti diegtinas pakuotes, kuriose yra "Commerce" komponentai, ir taikyti šias pakuotes gamybos aplinkoje.
+Atlikdami ankstesnę procedūrą, įgalinote plėtinius, kurie yra fiskalinės registracijos paslaugos integravimo pavyzdžio komponentai. Be to, turite atlikti šiuos veiksmus, kad sukurtumėte diegiamus paketus, kuriuose yra „Commerce“ komponentų, ir pritaikytumėte tuos paketus gamybos aplinkoje.
 
-1. Atlikite šiuos paketo konfigūracijos failų keitimus, nurodytus aplanke **"RetailSdk \\** Assets":
+1. Atlikite toliau nurodytus paketo konfigūracijos failų pakeitimus **RetailSdk\\ Turtas** aplankas:
 
-    - Konfigūracijos **failuose commerceruntime.ext.config ir** **CommerceRuntime.MPOSOffline.Ext.config įtraukite šią eilutę į** **sudėties** skyrių.
+    - Viduje konors **commerceruntime.ext.config** ir **CommerceRuntime.MPOSOffline.Ext.config** konfigūracijos failus, pridėkite šią eilutę prie **kompozicija** skyrius.
 
         ``` xml
         <add source="assembly" value="Contoso.Commerce.Runtime.Extensions.DocumentProvider.PosnetSample" />
         ```
 
-    - Konfigūracijos **faile HardwareStation.Extension.config** įtraukite šią eilutę į **skyriaus** sudėtį.
+    - Viduje konors **HardwareStation.Extension.config** konfigūracijos failą, pridėkite šią eilutę prie **kompozicija** skyrius.
 
         ``` xml
         <add source="assembly" value="Contoso.Commerce.HardwareStation.PosnetThermalFVFiscalPrinterSample" />
         ```
 
-1. Atlikite šiuos pakeitimus **customization.settings** paketo pritaikymo konfigūracijos faile, aplanke **BuildTools:**
+1. Atlikite šiuos pakeitimus **Customization.settings** paketo tinkinimo konfigūracijos failą, esantį **BuildTools** aplankas:
 
-    - Įtraukite šią eilutę, kad CRT įtraukumėte plėtinį į diegiamus paketus.
+    - Pridėkite šią eilutę, kad įtrauktumėte CRT plėtinį diegiamuose paketuose.
 
         ``` xml
         <ISV_CommerceRuntime_CustomizableFile Include="$(SdkReferencesPath)\Contoso.Commerce.Runtime.Extensions.DocumentProvider.PosnetSample.dll"/>
         ```
 
-    - Įtraukite šią eilutę, kad į diegtimus paketus įtraukumėte "Hardware" stoties plėtinį.
+    - Pridėkite šią eilutę, kad įtrauktumėte aparatūros stoties plėtinį į diegiamus paketus.
 
         ``` xml
         <ISV_HardwareStation_CustomizableFile Include="$(SdkReferencesPath)\Contoso.Commerce.HardwareStation.PosnetThermalFVFiscalPrinterSample.dll"/>
         ```
 
-1. Paleiskite MSBuild komandinę eilutę dėl paslaugų programos ir paleiskite Visual Studio msbuild "Retail" SDK aplanke, kad sukurtumėte **diegiamus** paketus.
-1. Taikykite paketus naudodami LCS arba rankiniu būdu. Daugiau informacijos ieškokite [Create deployable](../dev-itpro/retail-sdk/retail-sdk-packaging.md) packages.
+1. Paleiskite MSBuild komandų eilutę, skirtą Visual Studio naudingumas, ir paleiskite **msbuild** mažmeninės prekybos SDK aplanke, kad sukurtumėte diegiamus paketus.
+1. Taikykite pakuotes per LCS arba rankiniu būdu. Daugiau informacijos žr [Sukurkite dislokuojamus paketus](../dev-itpro/retail-sdk/retail-sdk-packaging.md).
 
-## <a name="design-of-extensions"></a>Plėtinių dizainas
+## <a name="design-of-extensions"></a>Priestatų projektavimas
 
-Lenkijos fiskalinio spausdintuvo integravimo pavyzdys pagrįstas [finansinio integravimo](fiscal-integration-for-retail-channel.md) funkcijomis. Daugiau informacijos apie finansinio integravimo sprendimo dizainą ieškokite finansinio [integravimo pavyzdžio dizaino apžvalgoje.](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices)
+Fiskalinio spausdintuvo integravimo pavyzdys Lenkijai yra pagrįstas [fiskalinės integracijos funkcionalumas](fiscal-integration-for-retail-channel.md). Norėdami gauti daugiau informacijos apie fiskalinės integracijos sprendimo dizainą, žr [fiskalinės integracijos pavyzdžio plano apžvalga](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services).
 
-### <a name="commerce-runtime-extension-design"></a>"Commerce Runtime" plėtinio dizainas
+### <a name="commerce-runtime-extension-design"></a>Prekybos vykdymo laiko plėtinio dizainas
 
-Plėtinio, kuris yra fiskalinio dokumento teikėjas, paskirtis yra generuoti konkretaus spausdintuvo dokumentus ir tvarkyti atsakymus iš fiskalinio spausdintuvo.
+Plėtinio, kuris yra mokesčių dokumentų teikėjas, tikslas yra generuoti konkretiems spausdintuvams skirtus dokumentus ir tvarkyti atsakymus iš fiskalinio spausdintuvo.
 
-Plėtinys CRT yra **Runtime.Extensions.DocumentProvider.PosnetSample.** Šis plėtinys sugeneruoja poSNET 19-3678 specifikacijos apibrėžtą "JavaScript Object Notation" (JSON) formato spausdintuvui specialių komandų rinkinį.
+The CRT pratęsimas yra **Runtime.Extensions.DocumentProvider.PosnetSample**. Šis plėtinys generuoja spausdintuvui būdingų komandų rinkinį JavaScript Object Notation (JSON) formatu, apibrėžtą POSNET specifikacijoje 19-3678.
 
-Daugiau informacijos apie finansinio integravimo sprendimo dizainą rasite finansinio įrenginių finansinio [registravimo procese ir finansinio integravimo pavyzdžius.](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices)
+Daugiau informacijos apie fiskalinės integracijos sprendimo dizainą žr [Fiskalinės registracijos procesas ir fiskalinės integracijos pavyzdžiai fiskaliniams įrenginiams ir paslaugoms](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services).
 
-#### <a name="request-handler"></a>Užklausų apdorojimo teotorius
+#### <a name="request-handler"></a>Užklausų tvarkytojas
 
-DocumentProviderPosnetProtocol užklausos apdorojimo programa yra įvesties taškas, per kurį užklausa **generuoja** dokumentus iš fiskalinio spausdintuvo.
+The **DocumentProviderPosnetProtocol** užklausų tvarkytojas yra užklausos generuoti dokumentus iš fiskalinio spausdintuvo įvesties taškas.
 
-Apdorojimo programa yra paveldėta iš **INamedRequestHandler** sąsajos. **HandlerName** metodas yra atsakingas už apdorojimo įmonės pavadinimo grąžinimą. Apdorojimo įmonės pavadinimas turi atitikti jungties dokumento teikėjo pavadinimą, nurodytą "Commerce" būstinėje.
+Prižiūrėtojas yra paveldėtas iš **INamedRequestHandler** sąsaja. The **Valdytojo vardas** metodas yra atsakingas už tvarkytojo vardo grąžinimą. Valdiklio pavadinimas turi atitikti jungties dokumento teikėjo pavadinimą, nurodytą „Commerce“ būstinėje.
 
 Jungtis palaiko šias užklausas:
 
-- **GetFiscalDocumentDocumentProviderRequest** – šioje užklausoje pateikiama informacija apie tai, kokį dokumentą reikia generuoti. Grąžinamas spausdintuvui konkretus dokumentas, kuris turi būti užregistruotas fiskaliniu spausdintuvu.
-- **GetSupportedRegistrableEventsDocumentProviderRequest** – ši užklausa grąžina prenumeruojamų įvykių sąrašą. Šiuo metu palaikomi šie įvykiai: pardavimas, X ataskaitos spausdinimas ir Z ataskaitos spausdinimas.
+- **GetFiscalDocumentDocumentProviderRequest** – Šioje užklausoje pateikiama informacija apie tai, koks dokumentas turi būti sugeneruotas. Jis grąžina konkretaus spausdintuvo dokumentą, kuris turėtų būti užregistruotas mokesčių spausdintuve.
+- **GetSupportedRegistrableEventsDocumentProviderRequest** – Ši užklausa grąžina prenumeruojamų įvykių sąrašą. Šiuo metu palaikomi šie įvykiai: pardavimas, X ataskaitos spausdinimas ir Z ataskaitos spausdinimas.
 
-#### <a name="configuration"></a>Konfigūravimas
+#### <a name="configuration"></a>Konfigūracija
 
-Konfigūracijos failas yra plėtinio **projekto** konfigūracijos aplanke. Failo paskirtis – įgalinti dokumento teikėjo parametrus, kurie bus konfigūruoti iš "Commerce Headquarters". Failo formatas suderintas su fiskalinės integracijos konfigūracijos reikalavimais. Pridedami šie parametrai:
+Konfigūracijos failas yra **Konfigūracija** plėtinio projekto aplanką. Failo tikslas – įgalinti dokumentų teikėjo nustatymus konfigūruoti „Commerce“ būstinėje. Failo formatas suderintas su fiskalinės integracijos konfigūracijos reikalavimais. Pridedami šie nustatymai:
 
 - PVM tarifų susiejimas
 - Mokėjimo priemonės tipo susiejimas
 - Įmokos mokėjimo tipas
 
-### <a name="hardware-station-extension-design"></a>Aparatūros stoties plėtinio dizainas
+### <a name="hardware-station-extension-design"></a>Techninės įrangos stoties išplėtimo projektavimas
 
-Plėtinio, kuris yra fiskalinė jungtis, paskirtis yra palaikyti ryšį su fiskaliniu spausdintuvu.
+Plėtinio, kuris yra fiskalinė jungtis, tikslas yra susisiekti su mokesčių spausdintuvu.
 
-Aparatūros stoties plėtinys yra **HardwareStation.Extension.PosnetThermalFVFiscalPrinterSample.** Šis plėtinys išk prašo POSNET tvarkyklės funkcijų pateikti komandas, kurias CRT plėtinys sugeneruoja fiskaliniu spausdintuvu. Ji taip pat tvarko įrenginio klaidas.
+Aparatūros stoties plėtinys yra **HardwareStation.Extension.PosnetThermalFVFiscalPrinterSample**. Šis plėtinys iškviečia POSNET tvarkyklės funkcijas, kad pateiktų komandas, kurias CRT plėtinys sugeneruoja mokesčių spausdintuvą. Jis taip pat tvarko įrenginio klaidas.
 
-#### <a name="request-handler"></a>Užklausų apdorojimo teotorius
+#### <a name="request-handler"></a>Užklausų tvarkytojas
 
-**FiscalPrinterHandler užklausos** apdorojimo programa yra įvesties taškas, skirtas tvarkyti užklausą į fiskalinį per įrenginį.
+The **FiscalPrinterHandler** užklausų tvarkytojas yra įvesties taškas, skirtas apdoroti užklausą į fiskalinį periferinį įrenginį.
 
-Apdorojimo programa yra paveldėta iš **INamedRequestHandler** sąsajos. **HandlerName** metodas yra atsakingas už apdorojimo įmonės pavadinimo grąžinimą. Apdorojimo įmonės pavadinimas turi atitikti "Commerce" būstinėje nurodytą fiskalinės jungties pavadinimą.
+Prižiūrėtojas yra paveldėtas iš **INamedRequestHandler** sąsaja. The **Valdytojo vardas** metodas yra atsakingas už tvarkytojo vardo grąžinimą. Droviklio pavadinimas turi atitikti fiskalinės jungties pavadinimą, nurodytą „Commerce“ būstinėje.
 
 Jungtis palaiko šias užklausas:
 
-- **SubmitDocumentFiscalDeviceRequest – ši užklausa siunčia dokumentus spausdintuvams ir grąžina atsakymą** iš fiskalinio spausdintuvo.
-- **IsReadyFiscalDeviceRequest** – ši užklausa naudojama įrenginio sveikatos patikrai atlikti.
-- **InitializeFiscalDeviceRequest** – ši užklausa naudojama spausdintuvui inicijuoti.
+- **SubmitDocumentFiscalDeviceRequest** – Ši užklausa siunčia dokumentus į spausdintuvus ir grąžina atsakymą iš fiskalinio spausdintuvo.
+- **IsReadyFiscalDeviceRequest** – Ši užklausa naudojama prietaiso sveikatos patikrinimui.
+- **InitializeFiscalDeviceRequest** – Ši užklausa naudojama spausdintuvo inicijavimui.
 
-#### <a name="configuration"></a>Konfigūravimas
+#### <a name="configuration"></a>Konfigūracija
 
-Konfigūracijos failas yra **plėtinio** projekto konfigūracijos aplanke. Failo paskirtis – įgalinti jungties parametrus, kurie bus konfigūruoti iš "Commerce Headquarters". Failo formatas suderintas su fiskalinės integracijos konfigūracijos reikalavimais. Pridedami šie parametrai:
+Konfigūracijos failas yra **Konfigūracija** plėtinio projekto aplanką. Failo tikslas – įgalinti jungties nustatymus, kuriuos būtų galima konfigūruoti „Commerce“ būstinėje. Failo formatas suderintas su fiskalinės integracijos konfigūracijos reikalavimais. Pridedami šie nustatymai:
 
-- **Jungimosi eilutė – eilutė, aprašantys išsamią ryšio su įrenginiu** informaciją tvarkyklės palaikomu formatu. Daugiau informacijos ieškokite POSNET tvarkyklės dokumentuose.
-- **Datos ir laiko sinchronizavimas – reikšmė, nurodanti, ar spausdintuvo data ir laikas turi būti** sinchronizuoti su prijungta aparatūros stotyje.
-- **Įrenginio skirtasis laikas milisekunde, per kurį vairuotojas lauks atsakymo iš** įrenginio. Daugiau informacijos ieškokite POSNET tvarkyklės dokumentuose.
+- **Ryšio eilutė** – Eilutę, apibūdinančią išsamią ryšio su įrenginiu informaciją formatu, kurį palaiko tvarkyklė. Daugiau informacijos rasite POSNET tvarkyklės dokumentacijoje.
+- **Datos ir laiko sinchronizavimas** – Reikšmė, nurodanti, ar spausdintuvo data ir laikas turi būti sinchronizuojami su prijungta aparatūros stotimi.
+- **Įrenginio skirtasis laikas** – Laikas milisekundėmis, per kurį vairuotojas lauks atsakymo iš įrenginio. Daugiau informacijos rasite POSNET tvarkyklės dokumentacijoje.

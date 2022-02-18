@@ -4,18 +4,19 @@ description: Šioje temoje pateikiama informacija apie debesies ir briaunos skal
 author: cabeln
 ms.date: 04/22/2021
 ms.topic: article
+ms.search.form: ScaleUnitWorkloadsWorkspace
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: cabeln
 ms.search.validFrom: 2021-04-13
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 3111de1f9862cbf926e763f963c86059f4121fc0
-ms.sourcegitcommit: 4b7e9d074e368a08d2f75482b722dce0c69a4bbd
-ms.translationtype: MT
+ms.openlocfilehash: 593331a3f1073edb6a50c9bfc66e0723d222832a
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "7733444"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8065769"
 ---
 # <a name="scale-units-in-a-distributed-hybrid-topology"></a>Skalės vienetai paskirstytoje topologijoje
 
@@ -51,8 +52,7 @@ Galite konfigūruoti savo telkinio aplinką ir pasirinktų darbo krūvių debesi
 
 ### <a name="dedicated-warehouse-management-workload-capabilities-in-a-scale-unit"></a>Priskirto sandėlio valdymo darbo krūvio pajėgumai skalės vienete
 
-Sandėlio valdymo darbo krūvis leidžia paleisti sandėlio valdymo procesus diegiant atskirtą sistemą.
-Daugiau informacijos rasite [Sandėlio valdymo darbo krūviai debesies ir briaunos skalės vienetams](cloud-edge-workload-warehousing.md).
+Sandėlio valdymo darbo krūvis yra pirmasis paskirstytas masto vienetų darbo krūvis, kuris bus išleistas bendram prieinamumui. Tai leidžia jūsų sandėlio operacijas išplėsti ir vykdyti atsparioje aplinkoje naudojant izoliuotus priežiūros langus. Sandėlio valdymo darbo krūvis palaiko daugumą įmonės centro sandėlio valdymo procesų. Daugiau informacijos rasite [Sandėlio valdymo darbo krūviai debesies ir briaunos skalės vienetams](cloud-edge-workload-warehousing.md).
 
 ### <a name="dedicated-manufacturing-execution-workload-capabilities-in-a-scale-unit"></a>Priskirto gamybos vykdymo darbo krūvio pajėgumai skalės vienete
 
@@ -69,7 +69,7 @@ Daugiau informacijos rasite [Gamybos vykdymo darbo krūviai debesies ir briaunos
 
 Įgalindami paskirstytą, hibridinę topologiją, jūs pereinate savo „Supply Chain Management” debesies aplinką, kad ji veiktų kaip telkinys. Taip pat galite susieti papildomas aplinkas, kurios sukonfigūruotos kaip skalės vienetai debesyje arba briaunoje.
 
-### <a name="prerequisites-and-limitations-for-cloud-scale-units"></a><a name="cloud-scale-unit-prerequisites"></a> Debesies skalės vienetų būtinieji komponentai ir apribojimai
+### <a name="prerequisites-and-limitations-for-cloud-scale-units"></a><a name="cloud-scale-unit-prerequisites"></a>Debesies skalės vienetų būtinieji komponentai ir apribojimai
 
 Dabartiniame skalės vienetų leidime kai kurios galimybės dar nėra pasiekiamos, bet laikui bėgant, jos gali būti įtrauktos į vėlesnius leidimus.
 
@@ -114,7 +114,7 @@ Valdymo galimybės, galinčios padėti valdyti darbo krūvių judėjimą, yra ri
 
 Metrikos ir matavimai, galintys padėti pasirinkti geriausią programą jūsų skalės vienetams, dar nėra prieinami. Dirbkite su savo „Microsoft” kontaktu ar diegimo partneriu, kad pasirinktumėte naudingiausią programą.
 
-### <a name="data-processing-during-management-of-scale-units"></a><a name="data-processing-management"></a> Duomenų apdorojimas skalės vienetų valdymo metu
+### <a name="data-processing-during-management-of-scale-units"></a><a name="data-processing-management"></a>Duomenų apdorojimas skalės vienetų valdymo metu
 
 Kai įgalinsite „Dynamics 365” aplinką palaikyti paskirstytą, hibridinę topologiją debesies ir briaunos skalės vienetams, kai kurios valdymo paslaugos bus nuomojamos tik Jungtinėse Amerikos Valstijose, kaip ir LCS. Tai daro įtaką kai kurios administravimo ir konfigūravimo informacijos, kurią naudoja [Skalės vienetų valdymo portalas](https://sum.dynamics.com), perkėlimą ir saugojimą. Štai keletas pavyzdžių:
 
@@ -182,31 +182,31 @@ Pasirinkite **Paspauskite čia norėdami pradėti**, kad pateiktumėte pasirengi
 
 Kai pasirengimas yra baigtas, galite naudoti prievadą skalės vienetams ir darbo krūviams konfigūruoti.
 
-### <a name="manage-scale-units-and-workloads-by-using-the-scale-unit-manager-portal"></a><a name="scale-unit-manager-portal"></a> Valdyti skalės vienetus ir darbo krūvius naudojant skalės vieneto tvarkytuvo portalą
+### <a name="manage-scale-units-and-workloads-by-using-the-scale-unit-manager-portal"></a><a name="scale-unit-manager-portal"></a> Tvarkykite mastelio vienetus ir darbo krūvius naudodami Scale Unit Manager portalą
 
 Eikite į [Skalės vieneto valdymo portalą](https://aka.ms/SCMSUM) ir prisijunkite naudodami savo nuomotojo paskyrą. Puslapyje **Konfigūruoti skalės vienetus** galite įtraukti telkinio aplinką, jei jos dar nėra. Tada galite rinktis telkinį, kurį norite konfigūruoti su skalės vienetais ir darbo krūviais.
 
-:::image type="content" source="media/cloud_edge-Manage.png" alt-text="Skalės vieneto tvarkytuvo portalas, sukonfigūruokite skalės vienetų puslapį.":::
+:::image type="content" source="media/cloud_edge-Manage.png" alt-text="Scale Unit Manager portalas, puslapis Konfigūruoti mastelio vienetus.":::
 
 Norėdami įtraukti vieną ar keletą skalės vienetų, galimų jūsų prenumeratose, pasirinkite **Įtraukti skalės vienetus**.
 
 Skirtuke **Nustatyti darbo krūviai** naudokite **Sukurti darbo krūvį** mygtuką, kad įtrauktumėte sandėlio valdymo darbo krūvį į vieną iš jūsų skalės vienetų. Kiekvienam darbo krūviui turite nurodyti procesų kontekstą, kurį valdys darbo krūvis. Sandėlio valdymo darbo krūviams kontekstas turi konkretų sandėlį konkrečioje vietoje ir juridinį asmenį.
 
-:::image type="content" source="media/cloud_edge-DefineWorkload.png" alt-text="Apibrėžti darbo krūvių dialogo langą.":::
+:::image type="content" source="media/cloud_edge-DefineWorkload.png" alt-text="Apibrėžkite darbo krūvių dialogo langą.":::
 
-#### <a name="manage-workloads"></a>Valdyti darbo krūvius
+#### <a name="manage-workloads"></a>Tvarkyti darbo krūvius
 
-Įgalinę vieną ar daugiau darbo krūvių, naudodami parinktį Tvarkyti darbo krūvius galite inicijuoti ir valdyti procesus, pavyzdžiui, **išvardytus** šioje lentelėje.
+Kai įjungtas vienas ar keli darbo krūviai, naudokite **Tvarkyti darbo krūvius** galimybė inicijuoti ir valdyti procesus, tokius kaip išvardyti šioje lentelėje.
 
 | Apdorojimas | Aprašymas |
 |---|---|
-| Pristabdyti skalės vieneto ryšį | Pristabdyti pardavimo galimybių pranešimus tarp centro ir svarstyklių vieneto. Šio proceso metu bus sustabdytas ryšys ir išeikvotos duomenų galimybės tarp centro ir svarstyklių vienetų. Turite paleisti šį procesą prieš paleisdami tiekimo grandinės valdymo aptarnavimo operaciją centro arba svarstyklių vienetais, tačiau galite tai naudoti ir kitose situacijose. |
-| Tęsti skalės vieneto ryšį | Tęsti pardavimo galimybių pranešimus tarp centro ir svarstyklių vieneto. Jums gali reikėti naudoti šį procesą, pvz., po tiekimo grandinės valdymo aptarnavimo operacijos paleidimo ant centro arba svarstyklių vieneto. |
-| Naujinti darbo krūvius | Sinchronizuoti naujas funkcijas tarp centro ir skalės vieneto darbo krūvių. Jums gali reikėti naudoti šį procesą, pavyzdžiui, kai aptarnavimas lėmė duomenų mainų užklausų pasikeitimą ir (arba) prie darbo krūvio pridėjote naujas lenteles ar laukus. |
-| Perkelti darbo krūvius į svarstyklių vienetą | Suplanuoti darbo krūvį, kuris šiuo metu vykdomas ant svarstyklių vieneto, kad būtų perkeltas į svarstyklių vienetą. Kai vykdomas šis procesas, duomenų sinchronizavimas bus vykdomas, o ir centras, ir skalės vienetas bus nustatyti pakeisti darbo krūvio nuosavybę. |
-| Perkelti skalės vienetą į centrą | Planuoti darbo krūvį, kuris šiuo metu vykdomas svarstyklių vienetu, kad būtų perkeltas į centrą. Kai vykdomas šis procesas, duomenų sinchronizavimas bus vykdomas, o ir centras, ir skalės vienetas bus nustatyti pakeisti darbo krūvio nuosavybę.
-| Perėjimas nelaimės atveju į centrą | <p>Nedelsiant perkelkite esamą darbo krūvį į centrą. *Šio proceso metu bus pakeisti tik šiuo metu hube galimų duomenų nuosavybės teisės.*</p><p><strong></strong> Perspėjimas: dėl šio proceso gali būti prarasti nesinchronizuoti duomenys ir nepavykęs verslo apdorojimas. Todėl jis turėtų būti naudojamas tik pagal regionus, kur verslo procesai turi būti apdorojami centre, nes svarstyklių vienetas turi panaudą, kurios negalima apriboti per pagrįstą laiką.</p> |
-| Perdkirstyta topologija | Pašalinkite skalės vieneto diegimą ir paleiskite tik ant centro, neišsiųsdami darbo krūvio. |
+| Pristabdykite skalės vieneto ryšį | Pristabdykite dujotiekio pranešimus tarp koncentratoriaus ir mastelio bloko. Šis procesas nutrauks ryšį ir nusausins duomenų vamzdyną tarp šakotuvo ir mastelio vienetų. Turite paleisti šį procesą prieš vykdydami tiekimo grandinės valdymo aptarnavimo operaciją stebulėje arba mastelio bloke, tačiau galite tai naudoti ir kitose situacijose. |
+| Tęsti masto vieneto ryšį | Tęsti dujotiekio pranešimus tarp šakotuvo ir mastelio įrenginio. Šį procesą gali tekti naudoti, pavyzdžiui, po to, kai vykdote tiekimo grandinės valdymo aptarnavimo operaciją stebulėje arba mastelio įrenginyje. |
+| Atnaujinkite darbo krūvius | Sinchronizuokite naujas funkcijas tarp koncentratoriaus ir mastelio bloko darbo krūvių. Gali tekti naudoti šį procesą, pavyzdžiui, kai dėl aptarnavimo pasikeitė duomenų mainų užklausos ir (arba) į darbo krūvį įtrauktos naujos lentelės ar laukai. |
+| Perkelkite darbo krūvius į mastelio įrenginį | Suplanuokite darbo krūvį, kuris šiuo metu veikia koncentratoriuje, perkelti į mastelio įrenginį. Kai šis procesas vykdomas, bus vykdomas duomenų sinchronizavimas, o šakotuvas ir mastelio vienetas bus nustatyti pakeisti darbo krūvio nuosavybės teisę. |
+| Perkelkite svarstyklių bloką į stebulę | Suplanuokite darbo krūvį, kuris šiuo metu veikia masto vienete, kad būtų perkeltas į šakotuvą. Kai šis procesas vykdomas, bus vykdomas duomenų sinchronizavimas, o šakotuvas ir mastelio vienetas bus nustatyti pakeisti darbo krūvio nuosavybės teisę.
+| Avarinis perėjimas į centrą | <p>Nedelsdami perkelkite esamą darbo krūvį į centrą. *Šis procesas pakeis tik tų duomenų, kurie šiuo metu pasiekiami centre, nuosavybės teisę.*</p><p><strong>Įspėjimas:</strong> Šis procesas gali sukelti nesinchronizuotų duomenų praradimą ir verslo apdorojimo gedimą. Todėl jis turėtų būti naudojamas tik kritiniais atvejais, kai verslo procesai turi būti apdorojami koncentratoriuje, nes mastelio įrenginyje yra gedimas, kurio negalima sušvelninti per protingą laiką.</p> |
+| Eksploatacijos nutraukimo paskirstyta topologija | Pašalinkite mastelio vieneto diegimą ir paleiskite tik koncentratoriuje, neapdorodami darbo krūvio. |
 
 :::image type="content" source="media/sum-manage-workloads.png" alt-text="Skalės vienetas ir darbo apkrovos valdymo patirtis.":::
 

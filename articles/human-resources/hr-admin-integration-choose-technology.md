@@ -15,18 +15,21 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d58a42236b07bf177e09aee50a207ffdf2ed1435
-ms.sourcegitcommit: 72a82e9aeabbdecf57e1aee72975c63eba75143a
+ms.openlocfilehash: 24ddd242185d736287f61ec250c631ab65e08c95
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7414719"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8065046"
 ---
 # <a name="choose-a-data-integration-technology"></a>Duomenų integravimo technologijos pasirinkimas
 
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Šioje temoje pateikiama informacija apie integravimą su „Dynamics 365 Human Resources” valdomais duomenimis. Jame aprašomos įvairios integravimo technologijos, kad apsispręstumėte, kurios technologijos labiausiai atitinka jūsų poreikius.
 
@@ -68,7 +71,7 @@ Kai duomenų lentelių prašo integruojanti programa ir jos yra „Dataverse“,
 
 ### <a name="dmfdixf-entities"></a>DMF / DIXF objektai
 
-„Human Resources“, sukurta tos pačios platformos kaip ir „Finance and Operations“ programos pagrindu, teikia [duomenų tvarkymo sistemą (DMF)](/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=%2ffin-and-ops%2ftoc.json). DMF taip pat žinomas kaip Duomenų importavimo / eksportavimo sistema (DIXF). „Human Resources” suteikia duomenų objektų, kuriuos galite naudoti norėdami importuoti ir eksportuoti „Human Resources” duomenis, rinkinį. Kol „Dataverse“ lentelės yra rekomenduojama duomenų integravimo sąsaja „Human Resources“, DMF objektai vis dar naudingi kai kuriomis sąlygomis, tokiomis kaip:
+Žmogiškieji ištekliai, daugiausia sukurti toje pačioje platformoje kaip „Finance and Operations“ programos, teikia a [Duomenų valdymo sistema (DMF)](/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=%2ffin-and-ops%2ftoc.json). DMF taip pat žinomas kaip Duomenų importavimo / eksportavimo sistema (DIXF). „Human Resources” suteikia duomenų objektų, kuriuos galite naudoti norėdami importuoti ir eksportuoti „Human Resources” duomenis, rinkinį. Kol „Dataverse“ lentelės yra rekomenduojama duomenų integravimo sąsaja „Human Resources“, DMF objektai vis dar naudingi kai kuriomis sąlygomis, tokiomis kaip:
 
 - „Dataverse“ lentelės nėra dar prieinamos.
 
@@ -111,7 +114,7 @@ BYOD tinka ataskaitoms apie sprendimus, duomenų integravimus, duomenų mišiniu
 
 ### <a name="odata-enabled-entities"></a>„OData“ palaikomi objektai
 
-Dauguma DMF objektų yra įgalinami prieigai per „Human Resources“ duomenų tarnybą („OData“). Pateikta [„Finance and Operations“ „OData“ tarnybos](/dynamics365/unified-operations/dev-itpro/data-entities/odata) dokumentacija taikoma „Human Resources“, išskyrus savo „OData“ rodomų objektų kūrimą.
+Dauguma DMF objektų yra įgalinami prieigai per „Human Resources“ duomenų tarnybą („OData“). Pateikti dokumentai [Finansų ir operacijų OData paslauga](/dynamics365/unified-operations/dev-itpro/data-entities/odata) taikoma žmogiškiesiems ištekliams, išskyrus savo OData objektų kūrimą.
 
 Nors ir „Dataverse“ ir „OData” diegimas, pateikiamas „Dataverse“ (per [„Dynamics 365“ žiniatinklio API](/previous-versions/dynamicscrm-2016/developers-guide/mt593051(v=crm.8))), yra pageidaujamas naudojant „Human Resources“ duomenų tarnybą, „Human Resources“ duomenų tarnyba šiuo metu turi didesnę objektų sudėties aprėptį, skirtą „Human Resources“ duomenims.
 
@@ -129,7 +132,7 @@ Norėdami integruoti duomenis į ir iš „Dataverse”, galite naudoti [tarnyb�
 
 ### <a name="power-query"></a>„Power Query“
 
-„Data Integrator“ palaiko [„Power Query“](/power-query/power-query-what-is-power-query) naudodamas savo [išplėstinės užklausos funkciją](/powerapps/administrator/data-integrator#advanced-data-transformation-and-filtering). „Power Query“ suteikia galingą, lankstų duomenų filtravimą ir transformavimą, įskaitant raiškiąją M formulės kalbą. „Power Query” jums gali būti pažįstama, jei esate kūrę „Power BI“ ataskaitas.
+Palaiko duomenų integratorių [Power Query](/power-query/power-query-what-is-power-query) per ją [Išplėstinės užklausos funkcija](/powerapps/administrator/data-integrator#advanced-data-transformation-and-filtering). Power Query suteikia galingą, lankstų duomenų filtravimą ir transformavimą, įskaitant turtingą M formulės kalbą. Power Query tikriausiai bus pažįstamas, jei sukūrėte Power BI pranešimus.
 
 ## <a name="deciding-on-an-integration-technology"></a>Integravimo technologijos pasirinkimas
 

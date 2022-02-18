@@ -16,18 +16,21 @@ ms.assetid: 889a8fab-0eef-45c2-91fc-ff2f4d44d54f
 ms.search.region: Global
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 4332be972ab3dc81e7e4f3cc297a91cd247e721e
-ms.sourcegitcommit: 7e0e2a266d9a9473df72e207554d9bd150e17ce3
+ms.openlocfilehash: 7a83dea308e3e2eec1edebd5d619f9455e1a2268
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "7771343"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8066580"
 ---
 # <a name="personnel-management-workspace"></a>Personalo valdymo darbo sritis
 
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
+
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-**Personalo valdymo** darbo srityje yra didelis turinio kiekis. Joje yra personalo dinamika, sekami darbuotojų pakeitimai, atviros pareigos, adreso pakeitimai, besibaigiantys įrašai ir analitika bei pateikiami saitai į konkrečią informaciją. Šioje temoje pateikiama išsami informacija apie kiekvieną darbo srities dalį.
+**Personalo valdymo** darbo srityje yra didelis turinio kiekis. Jame yra personalo judėjimas, sekami darbuotojų pasikeitimai, atviros pareigos, adresų pasikeitimai, pasibaigiantys įrašai ir analizė, pateikiamos nuorodos į konkrečią informaciją. Šioje temoje pateikiama išsami informacija apie kiekvieną darbo srities dalį.
 
 ## <a name="activity-tab"></a>Skirtukas Veikla
 
@@ -39,7 +42,7 @@ Skirtuke **Veikla** yra skyrių, grupuojančių darbuotojus pagal jų įdarbinim
 - **Išeinama**
 - **Išėjęs**
 
-Kai darbuotojas yra viename iš šių etapų, tam tikrus veiksmus galima naudoti kaip mygtuką kortelėje arba meniu, kuris atsiranda viršutiniame dešiniajame kampe pasirinkus daugtaškį (**„...”**). Toliau pateikti poskyriai aprašo **Veiklos** skirtuko skyrius ir pateikia galimų veiksmų sąrašą.
+Kai darbuotojas yra viename iš šių etapų, tam tikrus veiksmus galima naudoti kaip mygtuką kortelėje arba meniu, kuris atsiranda viršutiniame dešiniajame kampe pasirinkus daugtaškį ( **„...”**). Toliau pateikti poskyriai aprašo **Veiklos** skirtuko skyrius ir pateikia galimų veiksmų sąrašą.
 
 ### <a name="candidates-to-hire"></a>Samdytini kandidatai
 
@@ -65,7 +68,7 @@ Skyriuje **Greitai pradeda** išvardyti darbuotojai, kurių pradžios data yra a
 Jei vadovo nėra kortelėje, darbuotojui nebus priskirtos pareigos.
 
 > [!NOTE] 
-> Rekomenduojame prieš pradedant taikyti kontrolinį sąrašą darbuotojui priskirti pareigas. Kartais inboarding užduotys priskiriamos naujai pasamdytiems darbuotojų vadybininkui. Tačiau jei nepriskirtos jokios pareigos, negalima nustatyti naujo darbuotojo vadovo. Tokiu atveju vadovui numatytos supažindinimo užduotys vietoj to bus priskirtos kontrolinio sąrašo savininkui.
+> Prieš taikant kontrolinį sąrašą rekomenduojame darbuotojui priskirti pareigas. Kartais įdarbinimo užduotys paskiriamos naujai pasamdyto darbuotojo vadovui. Tačiau jei nepriskirtos jokios pareigos, negalima nustatyti naujo darbuotojo vadovo. Tokiu atveju vadovui numatytos supažindinimo užduotys vietoj to bus priskirtos kontrolinio sąrašo savininkui.
 
 Kai darbuotojai atsiranda **Greitai pradės** dalyje, jiems galima atlikti šiuos veiksmus:
 
@@ -85,7 +88,7 @@ Kai darbuotojai atsiranda **Greitai pradės** dalyje, jiems galima atlikti šiuo
 Pagal numatytuosius nustatymus, sąraše rodomi darbuotojai, pasamdyti per paskutines septynias dienas. Norėdami pakeisti šį parametrą, **Žmogiškųjų išteklių parametrų** puslapio skirtuke **Bendra** nustatykite skirtąjį laiką **Naujausi samdiniai**. Skyriaus **Naujausi samdiniai** duomenys gali būti rodomi tam tikrą dienų, mėnesių ar metų skaičių. Pavyzdžiui, norėdami peržiūrėti darbuotojų, kurie buvo pasamdyti per paskutines 14 dienų, sąrašą, nustatykite **Laikotarpio** lauką į **14**, o **Vieneto** lauką – į **Dienos**.
 
 > [!NOTE]
-> Nustatymai **Žmogiškųjų išteklių parametrai** puslapyje yra konkrečios įmonės. Todėl skirtasis laikas, per kurį peržiūrite naujausius samdinius gali skirtis pagal įmonę. Pavyzdžiui, „USMF” įmonėje galbūt norėsite peržiūrėti visus naujus samdinius per paskutines septynias dienas. Tačiau USSI įmonėje galite norėti peržiūrėti visus naujus samdus per paskutines 14 dienų. Tokiu atveju kiekvienoje įmonėje **atidarykite** personalo parametrų puslapį ir nustatykite reikiamus parametrus.
+> Nustatymai **Žmogiškųjų išteklių parametrai** puslapyje yra konkrečios įmonės. Todėl skirtasis laikas, per kurį peržiūrite naujausius samdinius gali skirtis pagal įmonę. Pavyzdžiui, „USMF” įmonėje galbūt norėsite peržiūrėti visus naujus samdinius per paskutines septynias dienas. Tačiau USSI įmonėje galbūt norėsite peržiūrėti visus naujus pasamdžius per pastarąsias 14 dienų. Tokiu atveju atidarykite **Žmogiškųjų išteklių parametrai** puslapį kiekvienoje įmonėje ir pagal poreikį nustatykite parametrus.
 
 Jei vadovo nėra kortelėje, darbuotojui nebus priskirtos pareigos.
 

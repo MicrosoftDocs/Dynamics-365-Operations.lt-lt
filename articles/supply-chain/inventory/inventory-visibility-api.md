@@ -11,17 +11,17 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 92c427d3063c34f263d5bc449be6fac695b5912d
-ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
+ms.openlocfilehash: f74bb4bd4ed66520c04261bd9f82faad7775817e
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/10/2022
-ms.locfileid: "7952632"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8062116"
 ---
 # <a name="inventory-visibility-public-apis"></a>Atsargų matomumo viešos API
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
+
 
 Šioje temoje aprašomos viešos API, kurios pateikiamos pagal atsargų matomumą.
 
@@ -49,7 +49,7 @@ Toliau pateiktoje lentelėje nurodytos API esamos parinktys:
 > [!NOTE]
 > Maršruto {environmentId} dalis yra aplinkos ID „Microsoft Dynamics „Lifecycle Services“ (LCS).
 > 
-> Masinis API gali pateikti ne daugiau kaip 512 kiekvienos užklausos įrašų.
+> Masinė API gali grąžinti daugiausia 512 įrašų kiekvienai užklausai.
 
 ## <a name="find-the-endpoint-according-to-your-lifecycle-services-environment"></a>Rasti galinį punktą pagal „Lifecycle Services“ aplinką
 
@@ -251,7 +251,7 @@ Body:
 
 ### <a name="create-multiple-change-events"></a><a name="create-multiple-onhand-change-events"></a>Kurti kelis pakeitimo įvykius
 
-API gali kurti kelis įrašus vienu metu. Vienintelis skirtumas tarp šios API ir [vieno įvykio API](#create-one-onhand-change-event) yra `Path` ir `Body` vertės. Šiai API `Body` pateikiamas įrašų masyvas. Maksimalus įrašų skaičius yra 512, tai reiškia, kad turimos prekės keitimas masiniu API gali palaikyti iki 512 įvykių vienu metu.
+API gali kurti kelis įrašus vienu metu. Vienintelis skirtumas tarp šios API ir [vieno įvykio API](#create-one-onhand-change-event) yra `Path` ir `Body` vertės. Šiai API `Body` pateikiamas įrašų masyvas. Didžiausias įrašų skaičius yra 512, o tai reiškia, kad masinio pakeitimo API vienu metu gali palaikyti iki 512 pakeitimų įvykių.
 
 ```txt
 Path:
@@ -478,7 +478,7 @@ Body:
 
 ## <a name="query-on-hand"></a>Turimos užklausos
 
-Norėdami _surasti dabartinius savo produktų turimų atsargų duomenis, naudokite_ turimų atsargų API užklausą. API šiuo metu palaiko iki 100 atskirų prekių užklausą pagal `ProductID` vertę. Šioje `SiteID``LocationID` užklausoje dar galima nurodyti keletą verčių. Maksimali riba apibrėžiama kaip `NumOf(SiteID) * NumOf(LocationID) <= 100`.
+Naudoti _Užklausa rankoje_ API, kad gautų dabartinius jūsų produktų atsargų duomenis. Šiuo metu API palaiko užklausas iki 100 atskirų elementų pagal`ProductID` vertė. Daugkartinis`SiteID` ir`LocationID` vertės taip pat gali būti nurodytos kiekvienoje užklausoje. Didžiausia riba apibrėžiama kaip `NumOf(SiteID) * NumOf(LocationID) <= 100`.
 
 ### <a name="query-by-using-the-post-method"></a><a name="query-with-post-method"></a>Užklausa naudojant skelbimo metodą
 

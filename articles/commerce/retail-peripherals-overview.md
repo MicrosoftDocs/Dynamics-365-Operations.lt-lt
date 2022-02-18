@@ -2,7 +2,7 @@
 title: Išoriniai įrenginiai
 description: Šioje temoje pateikiama informacija apie sąvokas, susijusias su išoriniais įrenginiais, esančiais „Commerce“.
 author: BrianShook
-ms.date: 02/06/2020
+ms.date: 02/04/2022
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
@@ -17,16 +17,17 @@ ms.search.industry: Retail
 ms.author: brshoo
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: ec991f34fcaa1a71a7e7aa3d1eaac4c6988acfa7
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: e60b369feff5bf17f58d6a3b4c9e9b290343b1ae
+ms.sourcegitcommit: 39f1455215e0363cd1449bbc6bdff489097f9ded
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7986231"
+ms.lasthandoff: 02/04/2022
+ms.locfileid: "8092489"
 ---
 # <a name="peripherals"></a>Išorinis įrenginys
 
 [!include[banner](includes/banner.md)]
+[!include[banner](includes/preview-banner.md)]
 
 Šioje temoje pateikiama informacija apie sąvokas, susijusias su išoriniais įrenginiais, esančiais parduotuvėje. Joje apibūdinti įvairūs būdai, kaip išorinius įrenginius galima prijungti prie elektroninio kasos aparato (EKA), ir komponentai, skirti valdyti ryšį su EKA.
 
@@ -34,13 +35,13 @@ ms.locfileid: "7986231"
 
 ### <a name="pos-registers"></a>EKA registrai
 
-Naršymas: spustelėkite **Mažmeninė prekyba ir prekyba** &gt; **Kanalo sąranka** &gt; **EKA sąranka** &gt; **Registrai**. EKA registras yra objektas, kuris naudojamas konkretaus EKA egzemplioriaus charakteristikoms nustatyti. Šios savybės apima aparatūros profilį arba periferinių įrenginių, kurie bus naudojami registre, sąranką, parduotuvę, kuriai priskiriamas registras, ir vartotojo, kuris prisijungia prie to registro, vaizdinį efektą.
+Navigacija: eikite į **Mažmeninė prekyba ir prekyba \> Kanalo nustatymas \> POS nustatymas \> Registrai**. EKA registras yra objektas, kuris naudojamas konkretaus EKA egzemplioriaus charakteristikoms nustatyti. Šios savybės apima aparatūros profilį arba periferinių įrenginių, kurie bus naudojami registre, sąranką, parduotuvę, kuriai priskiriamas registras, ir vartotojo, kuris prisijungia prie to registro, vaizdinį efektą.
 
 ### <a name="devices"></a>Įrenginiai
 
-Naršymas: spustelėkite **Mažmeninė prekyba ir prekyba** &gt; **Kanalo sąranka** &gt; **EKA sąranka** &gt; **Įrenginiai**. Įrenginys yra objektas, nurodantis su EKA registru susieto įrenginio fizinį egzempliorių. Kai sukuriamas įrenginys, jis priskiriamas EKA registrui. Įrenginio objektas seka informaciją apie POS registro suaktyvinimo laiką, naudojamo kliento tipą ir programų paketą, kuris buvo įdiegtas konkrečiame įrenginyje. 
+Navigacija: eikite į **Mažmeninė prekyba ir prekyba \> Kanalo nustatymas \> POS nustatymas \> Prietaisų**. Įrenginys yra objektas, nurodantis su EKA registru susieto įrenginio fizinį egzempliorių. Sukūrus įrenginį, jis susiejamas su EKA registru. Įrenginio objektas seka informaciją apie POS registro suaktyvinimo laiką, naudojamo kliento tipą ir programų paketą, kuris buvo įdiegtas konkrečiame įrenginyje. 
 
-Įrenginius galima susieti su šių tipų programomis: „Retail Modern POS“, „Retail Cloud POS“, „Retail Modern POS“ – „Windows Phone“, „Retail Modern POS“ – „Android“ ir „Retail Modern POS“ – „iOS“.
+Įrenginiai gali būti susieti su šiais programų tipais:Retail Modern POS, Retail Cloud POS,Retail Modern POS –Android, ir Retail Modern POS – iOS.
 
 ### <a name="modern-pos"></a>„Modern POS“
 
@@ -60,22 +61,22 @@ Naršymas: spustelėkite **Mažmeninė prekyba ir prekyba** &gt; **Kanalo sąran
 
 ### <a name="pos-peripherals"></a>Išoriniai EKA įrenginiai
 
-Išoriniai EKA įrenginiai yra tokie įrenginiai, kurie tiesiogiai palaiko EKA funkcijas. Šie išoriniai įrenginiai paprastai dalijami į tam tikras klases. Norėdami gauti daugiau informacijos apie šias klases, žr. šios temos skyrių „Įrenginių klasės“.
+Išoriniai EKA įrenginiai yra tokie įrenginiai, kurie tiesiogiai palaiko EKA funkcijas. Šie išoriniai įrenginiai paprastai dalijami į tam tikras klases. Daugiau informacijos apie šias klases žr. šios temos skyriuje „Įrenginių klasės“.
 
 ### <a name="hardware-station"></a>Aparatūros stotis
 
-Naršymas: Spustelėkite **Mažmeninė prekyba ir prekyba** &gt; **Kanalai** &gt; **Parduotuvės** &gt; **Visos parduotuvės**. Pasirinkite parduotuvę, tada spustelėkite „FastTab“ **Aparatūros stotys**. Nustatymas **Aparatūros stotis** yra kanalo lygio nustatymas, naudojamas apibrėžti egzemplioriams, kuriuose bus įdiegta išorinių įrenginių logika. Šis nustatymas kanalo lygiu taikomas aparatūros stoties charakteristikoms nustatyti. Jis taip pat naudojamas norint pateikti aparatūros stočių, kurios galimos „Modern POS“ egzemplioriams pasirinktoje parduotuvėje, sąrašą. Aparatūros stotis yra įmontuota į „Windows“ ir „Android“ šiuolaikines „Modern POS“ programas. Be to, aparatūros stotį galima atskirai įdiegti kaip atskirą „Microsoft“ informacinių interneto paslaugų (IIS) programą. Tokiu atveju prieiga galima per tinklą.
+Navigacija: eikite į **Mažmeninė prekyba ir prekyba \> Kanalai \> Parduotuvės \> Visos parduotuvės**. Pasirinkite parduotuvę, tada pasirinkite **Techninės įrangos stotys** FastTab. Nustatymas **Aparatūros stotis** yra kanalo lygio nustatymas, naudojamas apibrėžti egzemplioriams, kuriuose bus įdiegta išorinių įrenginių logika. Šis nustatymas kanalo lygiu taikomas aparatūros stoties charakteristikoms nustatyti. Jis taip pat naudojamas norint pateikti aparatūros stočių, kurios galimos „Modern POS“ egzemplioriams pasirinktoje parduotuvėje, sąrašą. Aparatūros stotis yra įmontuota į „Windows“ ir „Android“ šiuolaikines „Modern POS“ programas. Be to, aparatūros stotį galima atskirai įdiegti kaip atskirą „Microsoft“ informacinių interneto paslaugų (IIS) programą. Tokiu atveju prieiga galima per tinklą.
 
 ### <a name="hardware-profile"></a>Aparatūros šablonas
 
-Naršymas: spauskite **Mažmeninė prekyba ir komercija** &gt; **Kanalo sąranka** &gt; **EKA sąranka** &gt; **EKA profiliai** &gt; **Aparatūros profiliai**. Aparatūros šablonas yra įrenginių, kurie sukonfigūruoti EKA registrui arba aparatūros stočiai, sąrašas. Aparatūros šabloną galima tiesiogiai priskirti EKA registrui arba aparatūros stočiai.
+Navigacija: eikite į **Mažmeninė prekyba ir prekyba \> Kanalo nustatymas \> POS nustatymas \> POS profiliai \> Aparatinės įrangos profiliai**. Aparatūros šablonas yra įrenginių, kurie sukonfigūruoti EKA registrui arba aparatūros stočiai, sąrašas. Aparatūros šabloną galima tiesiogiai priskirti EKA registrui arba aparatūros stočiai.
 
 ## <a name="devices-classes"></a>Įrenginių klasės
 Išoriniai EKA įrenginiai paprastai skirstomi į klases. Šiame skyriuje aprašyti įrenginiai, kuriuos palaiko „Modern POS“, ir pateikiama jų apžvalga.
 
 ### <a name="printer"></a>Spausdintuvas
 
-Spausdintuvai apima įprastus EKA kvitų spausdintuvus ir viso puslapio spausdintuvus. Spausdintuvai palaikomi naudojant „Retail POS” (OEKA) skirtą objektų susiejimą ir įdėjimą ir „Microsoft Windows“ tvarkyklių sąsajas. Tuo pačiu metu galima naudoti nedaugiau kaip du spausdintuvus. Ši galimybė palaiko scenarijus, kai grynaisiais pinigais atsiskaitančių klientų kvitai spausdinami kvitų spausdintuvais, o klientų užsakymai, kuriuose pateikiama daugiau informacijos, spausdinami viso puslapio spausdintuvu. Kvitų spausdintuvus prie kompiuterio galima tiesiogiai prijungti per USB, prie tinklo prijungti per eternetą arba naudojant „Bluetooth“.
+Spausdintuvai apima įprastus EKA kvitų spausdintuvus ir viso puslapio spausdintuvus. Spausdintuvai palaikomi naudojant objektų susiejimą ir įterpimą mažmeninės prekybos POS (OPOS) ir Microsoft Windows vairuotojų sąsajos. Tuo pačiu metu galima naudoti nedaugiau kaip du spausdintuvus. Ši galimybė palaiko scenarijus, kai grynaisiais pinigais atsiskaitančių klientų kvitai spausdinami kvitų spausdintuvais, o klientų užsakymai, kuriuose pateikiama daugiau informacijos, spausdinami viso puslapio spausdintuvu. Kvitų spausdintuvus prie kompiuterio galima tiesiogiai prijungti per USB, prie tinklo prijungti per eternetą arba naudojant „Bluetooth“.
 
 ### <a name="scanner"></a>Skaitytuvas
 
@@ -97,9 +98,9 @@ Eilučių rodymas naudojamas norint operacijos metu klientui parodyti produktus,
 
 Parašo fiksavimo įrenginius galima tiesiogiai prijungti prie kompiuterio per USB naudojant OEKA tvarkykles. Sukonfigūravus parašo fiksavimą, klientas paraginamas pasirašyti ant prietaiso. Pasirašius, parašas parodomas kasininkui, kad šis jį priimtų.
 
-### <a name="scale"></a>Mastelis
+### <a name="scale"></a>Skalė
 
-Svarstykles galima prijungti prie kompiuterio per USB naudojant OEKA tvarkykles. Kai prie operacijos pridedamas produktas, pažymėtas kaip „pasvertas“ produktas, EKA nuskaito svorį iš skalės, prideda produktą prie operacijos ir naudoja kiekį, kurį nurodė skalė.
+Svarstyklės gali būti prijungtos prie kompiuterio per USB, naudojant OPOS tvarkykles. Kai produktas, pažymėtas kaip „pasvertas“, įtraukiamas į operaciją, EKA nuskaito svorį iš svarstyklių, įtraukia produktą į operaciją ir naudoja kiekį, kurį pateikė svarstyklės.
 
 ### <a name="pin-pad"></a>PIN rinkiklis
 
@@ -119,7 +120,7 @@ Mokėjimo įrenginio palaikymas įdiegiamas per mokėjimo jungtį. Mokėjimo įr
 Norint užtikrinti, kad su „Commerce“ būtų naudojamas didžiausias prietaisų asortimentas, EKA skirtas OLE pramonės standartas yra pagrindinė palaikoma išorinių įrenginių platforma. EKA skirtą OLE standartą sukūrė Nacionalinė mažmeninės prekybos federacija (NRF, angl. „National Retail Federation“), nustatanti pramonės standartų ryšio protokolus, skirtus išoriniams įrenginiams. OEKA yra plačiai taikomas EKA standartui skirto OLE diegimas. Jis sukurtas XX a. dešimto dešimtmečio viduryje ir nuo tada buvo keletą kartų atnaujintas. OEKA pateikia įrenginių tvarkyklių architektūrą, kuri leidžia lengvai integruoti EKA aparatūrą į „Windows“ pagrįstas EKA sistemas. OEKA valdikliai tvarko ryšį tarp suderinamos aparatūros ir EKA programinės įrangos. OEKA valdiklį sudaro dvi dalys:
 
 -   **Valdymo objektas** – įrenginio klasės (pvz., eilutės rodymas) valdymo objektas pateikia programinės įrangos programos sąsają. „Monroe Consulting Services“ ([www.monroecs.com](http://www.monroecs.com/)) pateikia standartizuotą OEKA valdymo objektų rinkinį, jie dar vadinami bendraisiais valdymo objektais (CCOs). CCO naudojami „Commerce“ EKA komponentui patikrinti. Todėl testavimas padeda užtikrinti, kad jei „Commerce“ palaiko įrenginių klasę per OPOS, galima palaikyti daugelį įrenginių tipų, su ta sąlyga, kad gamintojas pateikia paslaugų objektą, kuris yra sukurtas OPOS. Jūs neprivalote tiesiogiai patikrinti kiekvieno įrenginio tipo.
--   **Aptarnavimo objektas** – aptarnavimo objektas tiekia ryšį tarp valdymo objekto (CCO) ir įrenginio. Įrenginio aptarnavimo objektą paprastai teikia įrenginio gamintojas. Tačiau kai kuriais atvejais gali tekti atsisiųsti paslaugų objektą iš gamintojo svetainės. Pavyzdžiui, galbūt bus galimas naujesnis aptarnavimo objektas. Gamintojo žiniatinklio svetainės adreso žr. aparatūros dokumentaciją.
+-   **Aptarnavimo objektas** – aptarnavimo objektas tiekia ryšį tarp valdymo objekto (CCO) ir įrenginio. Įrenginio aptarnavimo objektą paprastai teikia įrenginio gamintojas. Tačiau kai kuriais atvejais gali tekti aptarnavimo objektą atsisiųsti iš gamintojo žiniatinklio svetainės. Pvz,, galbūt bus galimas naujesnis aptarnavimo objektas. Gamintojo žiniatinklio svetainės adreso žr. aparatūros dokumentaciją.
 
 [![Valdymo objektas ir aptarnavimo objektas.](./media/retail_peripherals_overview01.png)](./media/retail_peripherals_overview01.png) OLE, skirto EKA, OEKA diegimo palaikymas padeda užtikrinti, kad jei įrenginio gamintojai ir EKA leidėjai standartą įdiegė tinkamai, EKA sistemos ir palaikymo įrenginiai gali veikti kartu, net jei prieš tai nebuvo patikrinta, kaip jie kartu veikia. 
 
@@ -131,26 +132,32 @@ Norint užtikrinti, kad su „Commerce“ būtų naudojamas didžiausias prietai
 EKA kvitų spausdinimas optimizuotas OEKA. OEKA yra daug greitesnis nei spausdinimas per „Windows“. Todėl pravartu naudoti OEKA, ypač aplinkose, kur spausdinami 40 stulpelių kvitai ir operacijų tempas turi būti greitas. Su dauguma įrenginių naudosite OEKA valdiklius. Tačiau, kai kurie OEKA kvitų spausdintuvai palaiko ir „Windows“ tvarkykles. Naudodami „Windows“ tvarkyklę, galite pasiekti naujausius šriftus ir tinkle vieną spausdintuvą susieti su keliais kasos aparatais. Tačiau, yra ir „Windows“ tvarkyklių naudojimo trūkumų. Toliau pateikiami keletas trūkumų pavyzdžių:
 
 -   Kai naudojamos „Windows“ tvarkyklės, vaizdai sugeneruojami prieš spausdinant. Todėl spausdinama lėčiau, nei su tais spausdintuvais, su kuriais naudojami OEKA valdikliai.
--   Įrenginiai, prijungti prie spausdintuvo (prijungti žiedine grandine), gali neveikti, kai naudojamos „Windows“ tvarkyklės. Pvz., gali neatsidaryti kasos stalčius arba kvitų spausdintuvas gali veikti ne taip, kaip tikimasi.
+-   Įrenginiai, kurie yra prijungti per spausdintuvą („nuosekliąja grandine“) gali netinkamai veikti, kai naudojamos „Windows“ tvarkyklės. Pvz., gali neatsidaryti kasos stalčius arba kvitų spausdintuvas gali veikti ne taip, kaip tikimasi.
 -   OEKA palaiko ir platesnį kvitų spausdintuvams būdingų kintamųjų rinkinį, pvz., popieriaus nuplėšimas arba kvito spausdinimas.
 -   „IIS“ aparatūros stotis nepalaiko „Windows“ spausdintuvų. 
 
 Jei naudojamame „Windows“ spausdintuve yra OPOS valdikliai, jis vis tiek turėtų tinkamai veikti „Commerce“.
 
-### <a name="universal-windows-platform"></a>„Universal Windows Platform“
+### <a name="plug-and-play-devices"></a>Plug and play įrenginiai
 
-Išorinių įrenginių atveju UWP susieta su „Windows“ įrenginių „prijungti ir leisti“ palaikymu. Prijungus įrenginį „prijungti ir leisti“ prie „Windows“ OS, kuri palaiko to tipo įrenginį, jokios tvarkyklės nereikia norint naudoti įrenginį taip, kaip numatyta. Pvz., jei „Windows“ aptinka „Bluetooth“ garsiakalbio įrenginį, OS žino, kad šio įrenginio klasės tipas yra **Garsiakalbis**. Taigi, jį traktuoja kaip garsiakalbį. Jokių papildomų nustatymų nereikia. EKA įrenginių atveju, galima prijungti daug USB įrenginių ir „Windows“ juos atpažins kaip žmonių sąsajos įrenginius (HID). Tačiau gali būti neįmanoma nustatyti, kokias galimybes įrenginys pateikia, nes įrenginys nenurodo įrenginio klasės arba tipo. Į sistemą „Windows 10“ įtrauktos brūkšninių kodų skaitytuvų ir MSR įrenginių klasės. Taigi, jei įrenginys sistemai „Windows 10“ nurodo, kad yra kuriai nors iš šių klasių priklausantis įrenginys, „Windows“ tam tikrais laikotarpiais klausys įvykių iš šio įrenginio. „Modern POS“ palaiko UWP MSR ir skaitytuvus. Todėl, kai ji pasirengusi priimti kurio nors iš šių įrenginių įvestį, o kuriai nors iš šių klasių priklausantis įrenginys prijungiamas, šį įrenginį galima naudoti. Pvz., jei prie kompiuterio su „Windows 10“ prijungiamas UWP brūkšninio kodo skaitytuvas, o brūkšninio kodo prisijungimas „Modern POS“ sukonfigūruotas, brūkšninio kodo skaitytuvas taps aktyvus prisijungimo ekrane. Jokių papildomų nustatymų nereikia. Į sistemą „Windows“ nuolat įtraukiama papildomų elektroninio kasos aparato UWP įrenginių klasių. Šios klasės apima kasos stalčių ir kvitų spausdintuvų klases. Laukiama šių naujų įrenginių klasių palaikymo „Modern POS“.
+Kai „plug and play“ įrenginys yra prijungtas prie „Windows“ OS versijos, kuri palaiko tokio tipo įrenginius, nereikia jokios tvarkyklės, kad įrenginys būtų naudojamas pagal paskirtį. Pavyzdžiui, jei „Windows“ aptinka „Bluetooth“ garsiakalbio įrenginį, OS žino, kad įrenginys turi „Garsiakalbio“ klasės tipą ir traktuoja tą įrenginį kaip garsiakalbį. Jokių papildomų nustatymų nereikia. 
+
+POS periferinių įrenginių atveju daugelis USB įrenginių gali būti prijungti ir „Windows“ OS gali atpažinti juos kaip žmogaus sąsajos įrenginius (HID). Tačiau „Windows“ gali nesugebėti nustatyti įrenginio teikiamų galimybių, nes įrenginys nenurodo įrenginio klasės ar tipo. Į sistemą „Windows 10“ įtrauktos brūkšninių kodų skaitytuvų ir MSR įrenginių klasės. Taigi, jei įrenginys sistemai „Windows 10“ nurodo, kad yra kuriai nors iš šių klasių priklausantis įrenginys, „Windows“ tam tikrais laikotarpiais klausys įvykių iš šio įrenginio.
+
+„Modern POS“ palaiko UWP MSR ir skaitytuvus. Todėl, kai Modern POS yra paruoštas įvestis iš vieno iš šių įrenginių ir prijungiamas įrenginys, priklausantis vienai iš įrenginių klasių, tą įrenginį galima naudoti. Pavyzdžiui, jei prie „Windows 10“ kompiuterio prijungtas „plug and play“ brūkšninio kodo skaitytuvas, o prisijungimas prie brūkšninio kodo sukonfigūruotas „Modern POS“, brūkšninio kodo skaitytuvas bus aktyvus prisijungimo puslapyje. Jokių papildomų nustatymų nereikia.
+
+Prie Windows pridedamos papildomos POS periferinių įrenginių klasės, pvz., kasos stalčių ir kvitų spausdintuvų klasės. Laukiama šių naujų įrenginių klasių palaikymo „Modern POS“.
 
 ### <a name="keyboard-wedge"></a>Klavišinis kredito kortelių skaitytuvas
 
-Klavišinio kredito kortelių skaitytuvo įrenginiai siunčia duomenis į kompiuterį taip, tarsi šie duomenys būtų įvesti klaviatūra. Todėl, pagal numatytuosius parametrus, aktyvus EKA laukas priims nuskaitytus arba perbraukus gautus duomenis. Kai kuriais atvejais, toks būdas lemia tai, kad netinkamo tipo duomenys nuskaitomi į netinkamą lauką. Pvz., brūkšninis kodas gali būti nuskaitytas į tą lauką, kuris skirtas įvesti kredito kortelės duomenis. Daugeliu atveju EKA veikia logika, kuri nustato, ar nuskaityti arba perbraukus gauti duomenys yra brūkšninis kodas, ar perbraukimas kortele. Todėl duomenys tvarkomi tinkamai. Tačiau kai įrenginiai nustatomi kaip OPOS, o ne kaip klaviatūros kredito kortelių skaitytuvo įrenginiai, galima kontroliuoti tų įrenginių duomenis, nes turima daugiau informacijos apie įrenginį, iš kurio gaunami duomenys. Pvz., duomenys iš brūkšninio kodo skaitytuvo automatiškai atpažįstami kaip brūkšninis kodas, o susietas įrašas duomenų bazėje randamas lengviau ir greičiau, nei naudojant bendrąją eilutės iešką, kaip tai daroma naudojant klavišinius kredito kortelių skaitytuvų įrenginius.
+Klavišinio kredito kortelių skaitytuvo įrenginiai siunčia duomenis į kompiuterį taip, tarsi šie duomenys būtų įvesti klaviatūra. Todėl, pagal numatytuosius parametrus, aktyvus EKA laukas priims nuskaitytus arba perbraukus gautus duomenis. Kai kuriais atvejais, toks būdas lemia tai, kad netinkamo tipo duomenys nuskaitomi į netinkamą lauką. Pvz., brūkšninis kodas gali būti nuskaitytas į tą lauką, kuris skirtas įvesti kredito kortelės duomenis. Daugeliu atveju EKA veikia logika, kuri nustato, ar nuskaityti arba perbraukus gauti duomenys yra brūkšninis kodas, ar perbraukimas kortele. Todėl duomenys tvarkomi tinkamai. Tačiau, kai įrenginiai nustatomi kaip OEKA, o ne klavišiniai kredito kortelių skaitytuvų įrenginiai, galima geriau kontroliuoti tai, kaip naudojami iš šių įrenginių gauti duomenys, nes daugiau „žinoma“ apie tą įrenginį, iš kurio tie duomenys gauti. Pvz., duomenys iš brūkšninio kodo skaitytuvo automatiškai atpažįstami kaip brūkšninis kodas, o susietas įrašas duomenų bazėje randamas lengviau ir greičiau, nei naudojant bendrąją eilutės iešką, kaip tai daroma naudojant klavišinius kredito kortelių skaitytuvų įrenginius.
 
 > [!NOTE]
 > Kai klaviatūros skaitytuvai yra naudojami EKA, jie turi būti užprogramuoti siųsti grįžimą į eilutės pradžią arba įvykį **Įvesti** po paskutinio nuskaityto simbolio. Jei ši konfigūracija neatlikta, klaviatūros skaitytuvai neveiks tinkamai. Išsamios informacijos apie tai, kaip sujungti grįžimo į eilutės pradžią įvykį, ieškokite jūsų įrenginio gamintojo suteiktoje dokumentacijoje.  
 
-### <a name="native-printer"></a>Vietinis spausdintuvas
+### <a name="device-printers"></a>Įrenginių spausdintuvai
 
-Vietinius (arba „Įrenginius“, nes tipas įvardintas aparatūros šablone) spausdintuvus galima sukonfigūruoti taip, kad paragintų vartotoją pasirinkti tą spausdintuvą, kuris sukonfigūruotas tam kompiuteriui. Jei sukonfigūruotas spausdintuvas, kurios tipas **Įrenginys** , kai „Modern POS“ aptinka spausdinimo komandą, vartotojas paraginamas iš sąrašo pasirinkti spausdintuvą. Šis veikimo būdas skiriasi nuo „Windows“ tvarkyklių veikimo būdo, nes **„Windows“** spausdintuvo tipas aparatūros šablone neparodo spausdintuvų sąrašo. Šiuo būdu reikalaujama, kad lauke **Įrenginio pavadinimas** būtų nurodytas įvardytas spausdintuvas.
+„Įrenginio“ tipo spausdintuvus galima sukonfigūruoti taip, kad vartotojas būtų paragintas pasirinkti spausdintuvą, sukonfigūruotą kompiuteriui. Kai sukonfigūruojamas „Įrenginio“ tipo spausdintuvas, jei „Modern POS“ susiduria su spausdinimo komanda, vartotojas bus paragintas sąraše pasirinkti spausdintuvą. Šis elgesys skiriasi nuo „Windows“ tvarkyklių elgesio, nes „Windows“ spausdintuvo tipas aparatinės įrangos profilis nerodo vartotojui spausdintuvų sąrašo. Šiuo būdu reikalaujama, kad lauke **Įrenginio pavadinimas** būtų nurodytas įvardytas spausdintuvas.
 
 ### <a name="network"></a>Tinklas
 
@@ -162,11 +169,16 @@ Vietinius (arba „Įrenginius“, nes tipas įvardintas aparatūros šablone) s
 
 „Modern POS“ klientuose, skirtuose „Windows“ ir „Android“ yra **„Paskirtos“** arba įmontuotos aparatūros stotys. Šie klientai gali tiesiogiai susisiekti su periferiniais įrenginiais, naudodamiesi verslo logika, integruota programose. „Android“ programa palaiko tik tinklo įrenginius. Norėdami gauti daugiau informacijos apie „Android” periferinį palaikymą, apsilankykite straipsnio [Programos „POS Hybrid“ nustatymas, skirtas „Android” ir „iOS”](./dev-itpro/hybridapp.md) puslapyje.
 
-Norėdami naudoti paskirtą aparatūros įrangos stotį, priskirkite aparatūros profilį registrui, kuris naudos „Modern POS“, skirtą „Windows“ ar „Android“ programoms. Tada parduotuvei, kurioje registras bus naudojamas, sukurkite aparatūros stotį, kurios tipas **Paskirta**. Norėdami įjungti aparatūros stoties galimybes, paleiskite „Modern POS“ ne stalčiaus režime ir naudokite operaciją **Tvarkyti aparatūros stotis**, o paskirta aparatūros stotis bus aktyvi pagal numatytuosius nustatymus. Atsijunkite nuo „Modern POS“, tada vėl prisijunkite, atidarykite pamainą ir aparatūros profilyje sukonfigūruoti periferiniai įrenginiai bus tinkami naudoti. 
+Norėdami naudoti tam skirtą aparatūros stotį, atlikite šiuos veiksmus.
+
+1. Priskirkite aparatinės įrangos profilį registrui, kuris naudos Modern POS for Windows arba Android taikymas.
+1. Parduotuvėje, kurioje bus naudojamas registras, sukurkite „Dedikuoto“ tipo techninės įrangos stotį. 
+1. Atidarykite Modern POS ne stalčių režimu ir naudokite **Tvarkyti techninės įrangos stotis** operaciją, kad įjungtumėte aparatinės įrangos stoties galimybes. Speciali aparatinės įrangos stotis bus aktyvi pagal numatytuosius nustatymus. 
+1. Atsijunkite nuo Modern POS. Tada vėl prisijunkite ir atidarykite pamainą. Dabar bus galima naudoti periferinius įrenginius, sukonfigūruotus aparatūros profilyje. 
 
 ### <a name="shared"></a>Bendrinama 
 
-Taip pat kartais vadinama „IIS“ aparatūros stotimi, „IIS“ reiškia, kad EKA programa jungiasi prie aparatūros stoties per „Microsoft Internet Information Services“. EKA programa prisijungia prie IIS aparatūros stoties per žiniatinklio tarnybas, vykdomas kompiuteryje, prie kurio prijungti įrenginiai. Kai naudojama bendro naudojimo aparatūros stotis, periferinius įrenginius, sujungtus su aparatūros stotimi, gali naudoti bet kuris EKA registras, esantis tame pačiame tinkle kaip ir IIS aparatūros stotis. Kadangi tik „Windows“ ir „Android“ skirtoje „Modern POS“ yra įmontuotas periferinių įrenginių palaikymas, visos kitos „Modern POS“ programos turi naudoti IIS aparatūros stotį, kad susisiektų su aparatūros profilyje sukonfigūruotais EKA periferiniais įrenginiais. Todėl kiekvienu atveju, kai naudojama IIS aparatūros stotis, reikalingas kompiuteris, kuriame paleista žiniatinklio tarnyba ir programa, palaikančios ryšį su įrenginiais. 
+Taip pat kartais vadinama „IIS“ aparatinės įrangos stotimi, „IIS“, o tai reiškia, kad POS programa prisijungia prie aparatinės įrangos stoties per „Microsoft Internet Information Services“. EKA programa prisijungia prie IIS aparatūros stoties per žiniatinklio tarnybas, vykdomas kompiuteryje, prie kurio prijungti įrenginiai. Kai naudojama bendro naudojimo aparatūros stotis, periferinius įrenginius, sujungtus su aparatūros stotimi, gali naudoti bet kuris EKA registras, esantis tame pačiame tinkle kaip ir IIS aparatūros stotis. Kadangi tik „Windows“ ir „Android“ skirtoje „Modern POS“ yra įmontuotas periferinių įrenginių palaikymas, visos kitos „Modern POS“ programos turi naudoti IIS aparatūros stotį, kad susisiektų su aparatūros profilyje sukonfigūruotais EKA periferiniais įrenginiais. Todėl kiekvienu atveju, kai naudojama IIS aparatūros stotis, reikalingas kompiuteris, kuriame paleista žiniatinklio tarnyba ir programa, palaikančios ryšį su įrenginiais. 
 
 Bendra aparatūros stotis gali būti naudojama norint leisti keliems elektroninio kasos aparato klientams dalytis periferiniais prietaisais arba gali būti naudojama valdyti įsipareigotą rinkinį ar periferinius įrenginius vienam elektroniniam kasos aparatui. 
 
@@ -207,8 +219,8 @@ Daugiau informacijos žr. [Programos „POS hybrid” nustatymas, skirtas „And
 
 Išsamesnės informacijos apie OEKA komponentus žr. šio dokumento skyrių „Palaikomos sąsajos". Paprastai OEKA tvarkykles pateikia įrenginio gamintojas. Kai įdiegiama OEKA įrenginio tvarkyklė, į „Windows“ registrą įtraukiamas raktas vienoje iš šių vietų:
 
--   **32 bitų sistemose:** HKEY\_LOCAL\_MACHINESOFTWAREOLEforRetailServiceOPOS
--   **64 bitų sistemose:** HKEY\_LOCAL\_MACHINESOFTWAREWOW6432NodeOLEforRetailServiceOPOS
+-   **32 bitų sistema:** HKEY\_ VIETINIS\_ MACHINE\SOFTWARE\OLEforRetail\ServiceOPOS
+-   **64 bitų sistema:** HKEY\_ VIETINIS\_ MACHINE\PROGRAMINĖ ĮRANGA\WOW6432Node\OLEforRetail\ServiceOPOS
 
 Registro vietoje „ServiceOPOS“ sukonfigūruoti įrenginiai išdėstomi pagal OEKA įrenginio klasę. Išsaugomos kelios įrenginių tvarkyklės.
 
@@ -339,7 +351,7 @@ Tinklo periferinius įrenginius galima palaikyti tiesiogiai per aparatūros stot
 ### <a name="all-modern-pos-clients-that-have-a-committed-shared-iis-hardware-station"></a>Visi „Modern POS“ klientai, turintys patvirtintą „Bendrą“ IIS aparatūros stotį
 
 > [!NOTE]
-> Kai IIS aparatūros stotis yra „patvirtinta“, tarp EKA kliento ir aparatūros stoties yra ryšys „vienas su vienu“.
+> Kai IIS aparatinės įrangos stotis yra „įsipareigota“, tarp POS kliento ir aparatinės įrangos stoties yra vienas su vienu ryšys.
 
 <table>
 <colgroup>
@@ -488,15 +500,15 @@ Išsamesnės informacijos apie tai, kaip kurti aparatūros šablonus, žr. [Apib
     > [!NOTE]
     > Aparatūros stotyje neprivalote nustatyti jokių kitų ypatybių. Visa kita reikiama informacija, pvz., aparatūros šablonas, bus gauta iš paties registro.
 
-4.  Spustelėkite **Mažmeninė prekyba ir prekyba** &gt; **Mažmeninės prekybos ir prekybos IT** &gt; **Paskirstymo grafikas**.
-5.  Pasirinkite paskirstymo grafiką **1090** norėdami sinchronizuoti naują parduotuvės aparatūros šabloną. Spustelėję **Vykdyti dabar** sinchronizuokite EKA pakeitimus.
-6.  Pasirinkite paskirstymo grafiką **1040** norėdami sinchronizuoti naują parduotuvės aparatūros stotį. Spustelėję **Vykdyti dabar** sinchronizuokite EKA pakeitimus.
+4.  Eikite į **Mažmeninė prekyba ir prekyba \> Mažmeninės prekybos ir prekybos IT \> Paskirstymo grafikas**.
+5.  Pasirinkite paskirstymo grafiką **1090** norėdami sinchronizuoti naują parduotuvės aparatūros šabloną. Pasirinkite **Bėk dabar** sinchronizuoti pakeitimus su POS.
+6.  Pasirinkite paskirstymo grafiką **1040** norėdami sinchronizuoti naują parduotuvės aparatūros stotį. Pasirinkite **Bėk dabar** sinchronizuoti pakeitimus su POS.
 7.  Įdiekite ir suaktyvinkite „Windows“ skirtą „Modern POS“.
 8.  Paleiskite „Windows“ skirtą „Modern POS“ ir pradėkite naudoti prijungtus išorinius įrenginius.
 
 ### <a name="modern-pos-for-android-with-an-ipc-built-in-hardware-station"></a>„Modern POS“, skirta „Android“, turi įmontuotą IPC aparatūros stotį
 
-**Nauja versijai 10.0.8** – „Epson“ tinklo spausdintuvai ir grynųjų pinigų stalčiai, prijungti prie tų spausdintuvų per DK prievadą, dabar palaikomi „Modern POS“, skirtos „Android“ programai. Norėdami gauti daugiau informacijos, apsilankykite puslapyje [Programos „POS Hybrid“ nustatymas, skirtas „Android” ir „iOS”](./dev-itpro/hybridapp.md).
+**10.0.8 naujiena** - „Epson“ tinklo spausdintuvai ir pinigų stalčiai, prijungti prie tų spausdintuvų per DK prievadą, dabar palaikomi „Modern POS“Android programėlė. Norėdami gauti daugiau informacijos, apsilankykite puslapyje [Programos „POS Hybrid“ nustatymas, skirtas „Android” ir „iOS”](./dev-itpro/hybridapp.md).
 
 ### <a name="all-modern-pos-clients-that-have-a-committed-shared-iis-hardware-station"></a>Visi „Modern POS“ klientai, turintys patvirtintą bendrą IIS aparatūros stotį
 
@@ -515,18 +527,18 @@ Išsamesnės informacijos apie tai, kaip kurti aparatūros šablonus, žr. [Apib
     -   **EFT EKA numeris** – EFT terminalo ID, naudojamas, kai siunčiami EFT įgaliojimai. Šį ID pateikia kredito kortelių procesorius.
     -   **Paketo pavadinimas** – aparatūros stoties paketas, naudojamas įdiegiant aparatūros stotį.
 
-4.  Spustelėkite **Mažmeninė prekyba ir prekyba** &gt; **Mažmeninės prekybos ir prekybos IT** &gt; **Paskirstymo grafikas**.
-5.  Pasirinkite paskirstymo grafiką **1090** norėdami sinchronizuoti naują parduotuvės aparatūros šabloną. Spustelėję **Vykdyti dabar** sinchronizuokite EKA pakeitimus.
-6.  Pasirinkite paskirstymo grafiką **1040** norėdami sinchronizuoti naują parduotuvės aparatūros stotį. Spustelėję **Vykdyti dabar** sinchronizuokite EKA pakeitimus.
+4.  Eikite į **Mažmeninė prekyba ir prekyba \> Mažmeninės prekybos ir prekybos IT \> Paskirstymo grafikas**.
+5.  Pasirinkite paskirstymo grafiką **1090** norėdami sinchronizuoti naują parduotuvės aparatūros šabloną. Pasirinkite **Bėk dabar** sinchronizuoti pakeitimus su POS.
+6.  Pasirinkite paskirstymo grafiką **1040** norėdami sinchronizuoti naują parduotuvės aparatūros stotį. Pasirinkite **Bėk dabar** sinchronizuoti pakeitimus su POS.
 7.  Įdiekite aparatūros stotį. Daugiau informacijos apie tai, kaip įdiegti aparatūros stotį, žr. [Mažmeninės prekybos aparatūros stoties konfigūracija ir diegimas](retail-hardware-station-configuration-installation.md).
 8.  Įdiekite ir suaktyvinkite „Modern POS“. Daugiau informacijos apie tai, kaip įdiegti „Modern POS“, žr. [„Modern POS“ (MPOS) konfigūravimas, diegimas ir aktyvinimas](retail-modern-pos-device-activation.md).
 9.  Prisijunkite prie „Modern POS“ ir pasirinkite **Atlikti su stalčiumi nesusijusią operaciją**.
 10. Pradėkite operaciją **Tvarkyti aparatūros stotis**.
-11. Spustelėkite **Tvarkyti**.
+11. Pasirinkite **Tvarkyti**.
 12. Aparatūros stoties tvarkymo puslapyje nustatykite aparatūros stoties įjungimo parinktį.
-13. Pasirinkite naudojamą aparatūros stotį, tada spustelėkite **Susieti**.
-14. Kai aparatūros stotis bus susieta, spustelėkite **Uždarykite**.
-15. Aparatūros stoties pasirinkimo puslapyje spustelėję ką tik pasirinktą aparatūros stotį, ją suaktyvinsite.
+13. Pasirinkite norimą naudoti aparatūros stotį, tada pasirinkite **Pora**.
+14. Kai aparatinės įrangos stotis bus suporuota, pasirinkite **Uždaryti**.
+15. Aparatūros stoties pasirinkimo puslapyje pasirinkite neseniai pasirinktą aparatūros stotį, kad ji būtų aktyvi.
 
 ### <a name="all-modern-pos-clients-that-have-a-shared-iis-hardware-station"></a>Visi „Modern POS“ klientai, turintys bendrai naudojamą IIS aparatūros stotį
 
@@ -538,28 +550,28 @@ Išsamesnės informacijos apie tai, kaip kurti aparatūros šablonus, žr. [Apib
     -   **Pagrindinio kompiuterio vardas** – pagrindinio kompiuterio, kuriame bus vykdoma aparatūros stotis, pavadinimas.
     -   **Aprašas** – tekstas, kuris padės identifikuoti aparatūros stotį, pvz., **Grąžinimai** arba **Parduotuvės pagrindinė**.
     -   **Prievadas** – aparatūros stoties ir „Modern POS“ kliento ryšiui palaikyti naudojamas prievadas.
-    -   **Aparatūros šablonas** – kiekviena bendrai naudojama aparatūros stotis turi turėti aparatūros šabloną. Aparatūros šablonus gali bendrai naudoti aparatūros stotys, bet jie turi būti susieti su kiekviena aparatūros stotimi. Be to, rekomenduojame naudoti bendrai naudojamas pamainas, kai tą pačią aparatūros stotį naudoja keli įrenginiai. Norėdami nustatyti bendrą pamainą, spauskite **Mažmeninė prekyba ir komercija** &gt; **Kanalo sąranka** &gt; **EKA sąranka** &gt; **EKA profiliai** &gt; **Aparatūros profiliai**. Kiekviename bendrai naudojamame aparatūros šablone pasirinkite kasos stalčių ir nustatykite parinktį **Bendrinamas pamainos stalčius** į **Taip**.
+    -   **Aparatūros šablonas** – kiekviena bendrai naudojama aparatūros stotis turi turėti aparatūros šabloną. Aparatūros šablonus gali bendrai naudoti aparatūros stotys, bet jie turi būti susieti su kiekviena aparatūros stotimi. Be to, rekomenduojame naudoti bendrai naudojamas pamainas, kai tą pačią aparatūros stotį naudoja keli įrenginiai. Norėdami nustatyti bendrą pamainą, eikite į **Mažmeninė prekyba ir prekyba \> Kanalo nustatymas \> POS nustatymas \> POS profiliai \> Aparatinės įrangos profiliai**. Kiekviename bendrai naudojamame aparatūros šablone pasirinkite kasos stalčių ir nustatykite parinktį **Bendrinamas pamainos stalčius** į **Taip**.
     -   **EFT EKA numeris** – EFT terminalo ID, naudojamas, kai siunčiami EFT įgaliojimai. Šį ID pateikia kredito kortelių procesorius.
     -   **Paketo pavadinimas** – aparatūros stoties paketas, naudojamas įdiegiant aparatūros stotį.
 
 4.  Pakartokite 2 ir 3 veiksmus kiekvienai papildomai aparatūros stočiai, kuri reikalinga parduotuvėje.
-5.  Spustelėkite **Mažmeninė prekyba ir prekyba** &gt; **Mažmeninės prekybos ir prekybos IT** &gt; **Paskirstymo grafikas**.
-6.  Pasirinkite paskirstymo grafiką **1090** norėdami sinchronizuoti naują parduotuvės aparatūros šabloną. Spustelėję **Vykdyti dabar** sinchronizuokite EKA pakeitimus.
-7.  Pasirinkite paskirstymo grafiką **1040** norėdami sinchronizuoti naują parduotuvės aparatūros stotį. Spustelėję **Vykdyti dabar** sinchronizuokite EKA pakeitimus.
+5.  Eikite į **Mažmeninė prekyba ir prekyba \> Mažmeninės prekybos ir prekybos IT \> Paskirstymo grafikas**.
+6.  Pasirinkite paskirstymo grafiką **1090** norėdami sinchronizuoti naują parduotuvės aparatūros šabloną. Pasirinkite **Bėk dabar** sinchronizuoti pakeitimus su POS.
+7.  Pasirinkite paskirstymo grafiką **1040** norėdami sinchronizuoti naują parduotuvės aparatūros stotį. Pasirinkite **Bėk dabar** sinchronizuoti pakeitimus su POS.
 8.  Aparatūros stotį įdiekite kiekviename pagrindiniame kompiuteryje, kuriuos nustatėte atlikdami 2 ir 3 veiksmus. Daugiau informacijos apie tai, kaip įdiegti aparatūros stotį, žr. [Mažmeninės prekybos aparatūros stoties konfigūracija ir diegimas](retail-hardware-station-configuration-installation.md).
 9.  Įdiekite ir suaktyvinkite „Modern POS“. Daugiau informacijos apie tai, kaip įdiegti „Modern POS“, žr. [„Modern POS“ (MPOS) konfigūravimas, diegimas ir aktyvinimas](retail-modern-pos-device-activation.md).
 10. Prisijunkite prie „Modern POS“ ir pasirinkite **Atlikti su stalčiumi nesusijusią operaciją**.
 11. Pradėkite operaciją **Tvarkyti aparatūros stotis**.
 
-12. Spustelėkite **Tvarkyti**.
+12. Pasirinkite **Tvarkyti**.
 13. Aparatūros stoties tvarkymo puslapyje nustatykite aparatūros stoties įjungimo parinktį.
-14. Pasirinkite naudojamą aparatūros stotį, tada spustelėkite **Susieti**.
+14. Pasirinkite norimą naudoti aparatūros stotį, tada pasirinkite **Pora**.
 15. Pakartokite 14 veiksmą kiekvienai aparatūros stočiai, kurią naudos „Modern POS“.
-16. Kai visos reikalingos aparatūros stotys susietos, spustelėkite **Uždaryti**.
-17. Aparatūros stoties pasirinkimo puslapyje spustelėję ką tik pasirinktą aparatūros stotį, ją suaktyvinsite. 
+16. Kai visos reikalingos aparatinės įrangos stotys bus suporuotos, pasirinkite **Uždaryti**.
+17. Aparatūros stoties pasirinkimo puslapyje pasirinkite neseniai pasirinktą aparatūros stotį, kad ji būtų aktyvi. 
 
 > [!NOTE]
-> Jei įrenginiai dažnai naudoja skirtingas aparatūros stotis, rekomenduojame taip sukonfigūruoti „Modern POS“, kad paragintų kasininkus pradedant mokėjimo procesą pasirinkti aparatūros stotį. Spustelėkite **Mažmeninė prekyba ir prekyba** &gt; **Kanalo sąranka** &gt; **EKA sąranka** &gt; **Registrai**. Pasirinkite registrą, tada nustatykite parinktį **Pasirinkti mokant** į **Taip**. Naudodami paskirstymo grafiką **1090** sinchronizuokite kanalo duomenų bazės pakeitimus.
+> Jei įrenginiai dažnai naudoja skirtingas aparatūros stotis, rekomenduojame taip sukonfigūruoti „Modern POS“, kad paragintų kasininkus pradedant mokėjimo procesą pasirinkti aparatūros stotį. Pasirinkite **Mažmeninė prekyba ir prekyba \> Kanalo sąranka \> EKA sąranka \> Registrai**. Pasirinkite registrą, tada nustatykite parinktį **Pasirinkti mokant** į **Taip**. Naudodami paskirstymo grafiką **1090** sinchronizuokite kanalo duomenų bazės pakeitimus.
 
 ## <a name="extensibility"></a>Išplečiamumas
 Išsamesnės informacijos apie aparatūros stoties išplėtimo scenarijus rasite [Integruokite EKA į naują aparatūros įrenginį ir sugeneruokite plėtinio diegimo priemonę](dev-itpro/hardware-device-extension.md).
@@ -569,15 +581,15 @@ Pagal dabartinius saugos standartus gamybos aplinkoje turi būti naudojami šie 
 
 ### <a name="hardware-station-installer"></a>Aparatūros stoties diegimo programa
 Aparatūros stoties diegimo programa automatiškai atliks šiuos registro redagavimus kaip savitarnos diegimo dalį.
- 
+
 -   Saugiųjų jungčių lygmenį (SSL) reikia išjungti.
 -   Įjungta ir naudojama turi būti tik transportavimo lygmens saugos (TLS) 1.2 versija (arba naujausia dabartinė versija). 
 
 ### <a name="ssl-and-tls"></a>SSL ir TLS
 Pagal numatytuosius parametrus išjungtos SSL ir visos TLS versijos, išskyrus TLS 1.2 versiją. Norėdami redaguoti ar įgalinti šias vertes, atlikite šiuos veiksmus:
     1.  Paspaudę „Windows“ logotipo klavišą + R atidarysite langą **Vykdyti**.
-    2.  Lauke **Atidaryti** įveskite **„Regedit“**, tada spustelėkite **Gerai**.
-    3.  Jei pasirodo pranešimų laukas **Vartotojo paskyros valdymo tarnyba**, spustelėkite **Taip**.
+    2.  Viduje konors **Atviras** laukas, tipas **Regedit**, tada pasirinkite **Gerai**.
+    3.  Jeigu **Vartotojo abonemento valdymas** atsiras pranešimų langas, pasirinkite **Taip**.
     4.  Lange **Registro rengyklė** eikite į **HKEY\_LOCAL\_MACHINESystemCurrentControlSetSecurityProvidersSCHANNELProtocols**. Siekiant leisti tik TLS 1.2 versiją, šie raktai jau įvesti automatiškai:
         -   TLS 1.2Server:Enabled=1
         -   TLS 1.2Server:DisabledByDefault=0
@@ -609,13 +621,15 @@ Toliau nurodyti išoriniai įrenginiai buvo išbandyti naudojant IPC aparatūros
 #### <a name="printer"></a>Spausdintuvas
 
 | Gamintojas | Modelis    | Sąsaja | Komentarai                |
-|--------------|----------|-----------|-------------------------|
-| „Epson“        | Tm-T88IV | OEKA      |                         |
+| ------------ | -------- | --------- | ----------------------- |
 | „Epson“        | TM-T88V  | OEKA      |                         |
-| „Epson“        | TM-T88   | Pasirinktinis    | Prijungtas per tinklą   |
-| „Star“         | TSP650II | Pasirinktinis    | Prijungtas per tinklą   |
-| „Star“         | mPOP     | OEKA      | Prijungtas per „Bluetooth“ |
+| „Epson“        | TM-T88VI | OEKA      |                         |
+| „Epson“        | TM-T88   | Pasirinktinai    | Prijungtas per tinklą   |
 | „HP“           | F7M67AA  | OEKA      | Teikiamas USB             |
+| „Star“         | TSP650II | Pasirinktinai    | Prijungtas per tinklą   |
+| „Star“         | mPOP     | OEKA      | Prijungtas per „Bluetooth“ |
+| Toshiba      | HSP100   | OEKA      |                         |
+| Toshiba      | HSP150   | OEKA      |                         |
 
 > [!NOTE]
 > į įtaisytą aparatūros stotį negalima naudoti 100 spausdintuvo. Įtaisytoji aparatūros stotis naudoja 64 bitų procesą, kuris nesuderinamas su esamomis TP 100 vairuotojų. 
@@ -687,13 +701,17 @@ Toliau nurodyti išoriniai įrenginiai buvo išbandyti naudojant paskirtą (ne b
 
 #### <a name="printer"></a>Spausdintuvas
 
-| Gamintojas | Modelis    | Sąsaja | Komentarai                  |
-|--------------|----------|-----------|---------------------------|
-| „Epson“        | Tm-T88IV | OEKA      |                           |
-| „Epson“        | TM-T88V  | OEKA      |                           |
-| „Epson“        | TM-T88V  | Pasirinktinis    | Prisijungtas per tinklą     |
-| „Star“         | TSP650II | Pasirinktinis    | Prijungtas per tinklą     |
-| „HP“           | F7M67AA  | OEKA      | Teikiamas USB               |
+| Gamintojas | Modelis    | Sąsaja | Komentarai              |
+| ------------ | -------- | --------- | --------------------- |
+| „Epson“        | TM-T88V  | OEKA      |                       |
+| „Epson“        | TM-T88VI | OEKA      |                       |
+| „Epson“        | TM-T88V  | Pasirinktinai    | Prijungtas per tinklą |
+| „HP“           | F7M67AA  | OEKA      | Teikiamas USB           |
+| „Star“         | TSP650II | Pasirinktinai    | Prijungtas per tinklą |
+| Toshiba      | HSP100   | OEKA      |                       |
+| Toshiba      | HSP150   | OEKA      |                       |
+
+
 
 #### <a name="bar-code-scanner"></a>Brūkšninio kodo skaitytuvas
 
@@ -762,13 +780,15 @@ Toliau nurodyti išoriniai įrenginiai buvo išbandyti naudojant bendrinamą IIS
 
 #### <a name="printer"></a>Spausdintuvas
 
-| Gamintojas | Modelis    | Sąsaja | Komentarai                  |
-|--------------|----------|-----------|---------------------------|
-| „Epson“        | TM-T88IV | OEKA      |                           |
-| „Epson“        | TM-T88V  | OEKA      |                           |
-| „Epson“        | TM-T88   | Pasirinktinis    | Prijungtas per tinklą     |
-| „Star“         | TSP650II | Pasirinktinis    | Prijungtas per tinklą     |
-| „HP“           | F7M67AA  | OEKA      | Teikiamas USB               |
+| Gamintojas | Modelis    | Sąsaja | Komentarai              |
+| ------------ | -------- | --------- | --------------------- |
+| „Epson“        | TM-T88V  | OEKA      |                       |
+| „Epson“        | TM-T88VI | OEKA      |                       |
+| „Epson“        | TM-T88   | Pasirinktinai    | Prijungtas per tinklą |
+| „HP“           | F7M67AA  | OEKA      | Teikiamas USB           |
+| „Star“         | TSP650II | Pasirinktinai    | Prijungtas per tinklą |
+| Toshiba      | HSP100   | OEKA      |                       |
+| Toshiba      | HSP150   | OEKA      |                       |
 
 #### <a name="payment-terminal"></a>Mokėjimo terminalas
 
@@ -788,22 +808,22 @@ Toliau nurodyti išoriniai įrenginiai buvo išbandyti naudojant bendrinamą IIS
 
 
 ## <a name="troubleshooting"></a>Trikčių šalinimas
-### <a name="modern-pos-can-detect-the-hardware-station-in-its-list-for-selection-but-it-cant-complete-the-pairing"></a>„Modern POS“ savo pasirinkimo sąraše gali aptikti aparatūros stotį, tačiau ji negali baigti susiejimo
+### <a name="modern-pos-can-detect-the-hardware-station-in-its-list-for-selection-but-it-cant-complete-the-pairing"></a>„Modern POS“ gali pasirinkimo sąraše aptikti aparatūros stotį, bet negali atlikti susiejimo
 
 **Sprendimas:** patikrinkite toliau pateikiamą galimų trikčių punktų sąrašą:
 
 -   Kompiuteris, kuris vykdo „Modern POS“, pasitiki tuo sertifikatu, kuris naudojamas aparatūros stotį vykdančiame kompiuteryje.
     -   Norėdami patikrinti šią sąranką, žiniatinklio naršyklėje eikite į šį URL: https://&lt;Kompiuterio pavadinimas&gt;&lt;Prievado numeris&gt;/HardwareStation/ping.
-    -   Šiame URL naudojama ryšio užklausa, siekiant patikrinti, ar kompiuterį galima pasiekti, o naršyklė nurodo, ar sertifikatas patikimas. (Pvz., „Internet Explorer“ adreso juostoje pasirodo spynos piktograma. Spustelėjus šią piktogramą, „Internet Explorer“ patikrina, ar dabar naudojamas sertifikatas patikimas. Vietiniame kompiuteryje sertifikatą galite įdiegti peržiūrėję rodomo sertifikato informaciją.)
+    -   Šiame URL naudojama ryšio užklausa, siekiant patikrinti, ar kompiuterį galima pasiekti, o naršyklė nurodo, ar sertifikatas patikimas. (Pavyzdžiui, in Internet Explorer, adreso juostoje pasirodo užrakto simbolis. Kai pasirenkate šį simbolį,Internet Explorer patikrina, ar sertifikatas šiuo metu yra patikimas. Vietiniame kompiuteryje sertifikatą galite įdiegti peržiūrėję rodomo sertifikato informaciją.)
 -   Aparatūros stotį vykdančiame kompiuteryje prievadas, kuris bus naudojamas aparatūros stotyje, atidaromas užkardoje.
 -   Aparatūros stotis tinkamai įdiegė prekybininko sąskaitos informaciją naudojant įrankį Įdiegti prekybininko informaciją, kuris vykdomas aparatūros stoties diegimo programos pabaigoje.
 
-### <a name="modern-pos-cant-detect-the-hardware-station-in-its-list-for-selection"></a>„Modern POS“ savo pasirinkimo sąraše negali aptikti aparatūros stoties
+### <a name="modern-pos-cant-detect-the-hardware-station-in-its-list-for-selection"></a>„Modern POS“ negali pasirinkimo sąraše aptikti aparatūros stoties
 
 **Sprendimas:** šią problemą sukelti gali bet kuris iš šių veiksnių:
 
--   Aparatūros stotis nebuvo tinkamai nustatyta būstinėje. Atlikę anksčiau šioje temoje nurodytus veiksmus, patikrinkite, ar tinkamai įvestas aparatūros stoties šablonas ir aparatūros stotis.
--   Siekiant atnaujinti kanalo konfigūraciją, darbai nebuvo atlikti. Tokiu atveju vykdykite kanalo konfigūracijos 1070 užduotį.
+-   Aparatūros stotis būstinėje buvo nustatyta netinkamai. Atlikę anksčiau šioje temoje nurodytus veiksmus, patikrinkite, ar tinkamai įvestas aparatūros stoties šablonas ir aparatūros stotis.
+-   Nebuvo įvykdytos kanalo konfigūracijos atnaujinimo užduotys. Tokiu atveju vykdykite kanalo konfigūracijos 1070 užduotį.
 
 ### <a name="modern-pos-doesnt-reflect-new-cash-drawer-settings"></a>„Modern POS“ neatspindi naujų kasos stalčiaus nustatymų
 
@@ -823,15 +843,15 @@ Toliau nurodyti išoriniai įrenginiai buvo išbandyti naudojant bendrinamą IIS
 -   Kartais įrenginių tvarkyklės gali sukelti bendrųjų valdymo objektų (CCO) veikimo sutrikimų. Jei įrenginys buvo neseniai įdiegtas, bet neveikia tinkamai, arba pastebima kitų problemų, šias problemas dažnai galima išspręsti iš naujo įdiegus CCO. Norėdami atsisiųsti CCO, apsilankykite <http://monroecs.com/oposccos_current.htm>.
 -   Jei išorinių pakeitimų dažnai atliekate tikrinimo ar trikčių diagnostikos metu, gali tekti iš naujo nustatyti IIS, o ne laukti, kol talpykla atsinaujins pati. Norėdami iš naujo nustatyti IIS, atlikite šiuos veiksmus:
     1.  Meniu **Pradėti** įveskite **CMD**.
-    2.  Ieškos rezultatuose dešiniuoju pelės klavišu spustelėkite **Komandinė eilutė**, tada spustelėkite **Paleisti administratoriaus teisėmis**.
+    2.  Paieškos rezultatuose dešiniuoju pelės mygtuku spustelėkite **Komandinė eilutė**, tada pasirinkite **Paleisti kaip administratorius**.
     3.  Lange **Komandinė eilutė** įveskite **iisreset /Restart** ir paspauskite „Enter“.
     4.  Po to, kai iš naujo paleista IIS, iš naujo paleiskite „Modern POS“.
 -   Jei dažnai atliekate išorinių įrenginių keitimų, jei dažnai paleidžiate ir išeinate iš EKA kliento, DLL pagrindinės saugyklos procesas iš ankstesnio EKA seanso gali kliudyti dabartiniam seansui. Tokiu atveju įrenginio gali nepavykti naudoti, kol neuždarysite dinaminių saitų bibliotekos (DLL) pagrindinės saugyklos, kuri tvarko ankstesnį seansą. Norėdami uždaryti DLL pagrindinę saugyklą, atlikite šiuos veiksmus:
     1.  Meniu **Pradėti** įveskite **Užduočių tvarkytuvas**.
-    2.  Ieškos rezultatuose spustelėkite **Užduočių tvarkytuvas**.
-    3.  Užduočių tvarkytuvo skirtuke **Išsami informacija** spustelėję stulpelio antraštę, pažymėtą **Pavadinimas**, surūšiuosite lentelę abėcėlės tvarka pagal pavadinimą.
+    2.  Paieškos rezultatuose pasirinkite **Užduočių tvarkyklė**.
+    3.  Užduočių tvarkyklėje, esančiame **Detalės** pasirinkite pažymėtą stulpelio antraštę **vardas** rūšiuoti lentelę abėcėlės tvarka pagal pavadinimą.
     4.  Slinkite žemyn, kol rasite dllhost.exe.
-    5.  Pasirinkite kiekvieną DLL pagrindinę saugyklą, tada spustelėkite **Baigti užduotį**.
+    5.  Pasirinkite kiekvieną DLL pagrindinį kompiuterį, tada pasirinkite **Baigti užduotį**.
     6.  Po to, kai DLL pagrindinės saugyklos uždarytos, iš naujo paleiskite „Modern POS“.
 
 

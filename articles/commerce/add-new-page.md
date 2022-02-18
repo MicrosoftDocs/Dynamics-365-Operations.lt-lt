@@ -2,7 +2,7 @@
 title: Įtraukti naują svetainės puslapį
 description: Šioje temoje aprašoma, kaip programoje „Microsoft Dynamics 365 Commerce“ įtraukti naują svetainės puslapį.
 author: psimolin
-ms.date: 04/14/2020
+ms.date: 02/03/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 4b031431499eba0e109ac04dc46ec187250eba694284864bf78bb1f90265d788
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: e0c2a73ae9e85cb299e7cb6fc70562659cdfadc5
+ms.sourcegitcommit: 1eef00796f7c5511f432b01800cdf8920992d7d5
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6725391"
+ms.lasthandoff: 02/04/2022
+ms.locfileid: "8090724"
 ---
 # <a name="add-a-new-site-page"></a>Įtraukti naują svetainės puslapį
 
@@ -33,11 +33,11 @@ Svetainei sukūrus šablonų ir fragmentų, kitas veiksmas yra pradėti kurti pu
 
 Naujam puslapiui galite naudoti šabloną arba maketą. Norėdami gauti daugiau informacijos, žr. [Šablonų ir maketų apžvalga](templates-layouts-overview.md).
 
-## <a name="page-name"></a>Puslapio pavadinimas
+## <a name="specify-the-page-name"></a>Nurodykite puslapio pavadinimą
 
-Jūsų puslapio pavadinimas turi būti unikalus. Jis turi būti aprašomasis, kad galėtumėte lengvai jį rasti ir kiti žmonės žinotų, kam puslapis skirtas. Puslapio pavadinimą pasirinkite atidžiai, nes jo negalima pakeisti vėliau.
+Puslapio pavadinimas turi būti unikalus jūsų svetainei ir turi būti aprašomasis, kad galėtumėte lengvai jį rasti, o kiti žmonės žinotų, kam puslapis skirtas. Vėliau galite pervardyti puslapį, jį redaguodami ir ypatybių srityje šalia puslapio pavadinimo pasirinkę rašiklio simbolį.
 
-## <a name="page-url"></a>Puslapio URL
+## <a name="specify-the-page-url"></a>Nurodykite puslapio URL
 
 Galite pasirinkti, kad būtų galima įvesti naujo puslapio URL. Sukūrę puslapį, galite įvesti eilutę, kuri bus naudojama visam URL sudaryti. Ši eilutė vadinama santykiniu URL arba kintamaisiais URL duomenimis. Tada pagal kintamuosius URL duomenis sugeneruojamas visas URL ir jam priskiriamas naujasis puslapis. Kintamuosius URL duomenis galite pakeisti vėliau, prieš publikuodami puslapį. Norėdami gauti daugiau informacijos, žr. [Puslapio URL sukūrimas](create-page-URL.md).
 

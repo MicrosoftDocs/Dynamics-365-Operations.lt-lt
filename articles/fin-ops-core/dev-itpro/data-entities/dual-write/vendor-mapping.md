@@ -9,18 +9,18 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: fce5e072d39533fa5d54fe34e90c7aca9d01d67e
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: 7794f33aed7364b76a7d5ffd08a068342887e468
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7782482"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8063167"
 ---
 # <a name="integrated-vendor-master"></a>Bendrieji integruoto tiekėjo duomenys
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Terminas *tiekėjas* reiškia tiekėjų organizaciją arba individualų savininką, kuris tiekia prekes ar teikia paslaugas verslui. Nors *tiekėjas* yra nusistovėjusi „Microsoft Dynamics 365 Supply Chain Management“ sąvoka, „Customer Engagement“ programose nėra tiekėjo sąvokos. Tačiau galite perkrauti lentelę **Paskyra / Kontaktai**, kad galėtumėte saugoti informaciją apie tiekėją. Integruotas tiekėjas pristato aiškią tiekėjo sąvoką „Customer Engagement” programose. Galite naudoti naują tiekėjo dizainą arba saugoti tiekėjo duomenis lentelėje **Paskyra / Kontaktai**. Dvejopas rašymas palaiko abu būdus.
 
@@ -37,7 +37,7 @@ Jei norite ir toliau saugoti tiekėjo duomenis lentelėje **Paskyra / Kontaktai*
 ![Išplėstas tiekėjo duomenų srautas.](media/dual-write-vendor-detail.jpg)
 
 > [!TIP]
-> Jei savitarnos paslaugų tiekėjams naudojate „Power Apps“ portalus, tiekėjo informacija gali būti tiesiogiai nukreipta į „Finance and Operations“ programas.
+> Jei naudojate Power Apps savitarnos pardavėjų portaluose, tiekėjų informacija gali patekti tiesiai į „Finance and Operations“ programėles.
 
 ## <a name="templates"></a>Šablonai
 
@@ -52,7 +52,7 @@ Tiekėjo duomenys apima visą informaciją apie tiekėją, pvz., tiekėjų grup�
 [Mokėjimo grafiko eilutės](mapping-reference.md#159) | msdyn_paymentschedulelines | Sinchronizuojami tiek klientų, tiek tiekėjų mokėjimo grafikų eilučių nuorodos duomenys.
 [Mokėjimo grafikas](mapping-reference.md#160) | msdyn_paymentschedules | Naudojant šį šabloną sinchronizuojami tiek klientų, tiek tiekėjų mokėjimo grafikų nuorodos duomenys.
 [Mokėjimo sąlygos](mapping-reference.md#161) | msdyn_paymentterms | Naudojant šį šabloną sinchronizuojami tiek klientų, tiek tiekėjų mokėjimo sąlygų nuorodos duomenys.
-[Tiekėjai V2](mapping-reference.md#202) | msdyn_vendors | Įmonės, kurios naudoja pasirinktinį sprendimą tiekėjams, gali pasinaudoti pradine tiekėjo koncepcija, kuri yra pristatyta „Dataverse“ ir teikiama dėl „Finance and Operations“ programų integracijos.
+[Tiekėjai V2](mapping-reference.md#202) | msdyn_vendors | Įmonės, kurios naudoja pasirinktinį sprendimą tiekėjams gali pasinaudoti pradine tiekėjo koncepcija, kuri yra pristatyta „Dataverse“ ir teikiama dėl „Finance and Operations“ programų integracijos.
 [Tiekėjų grupės](mapping-reference.md#200) | msdyn_vendorgroups | Naudojant šį šabloną sinchronizuojama tiekėjų grupių informacija.
 [Tiekėjo mokėjimo būdas](mapping-reference.md#201) | msdyn_vendorpaymentmethods | Naudojant šį šabloną sinchronizuojama tiekėjų mokėjimo būdų informacija.
 

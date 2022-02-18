@@ -1,6 +1,6 @@
 ---
 title: Įdarbinti darbo kandidatai
-description: Šioje temoje aprašoma, kaip samdyti kandidatus Dynamics 365 Human Resources.
+description: Šioje temoje aprašoma, kaip įdarbinti kandidatus Dynamics 365 Human Resources.
 author: twheeloc
 ms.date: 10/28/2021
 ms.topic: article
@@ -15,14 +15,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-12-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c613586302b4d03972c7558b6b63cd1be018d3b3
-ms.sourcegitcommit: e91a1797192fd9bc4048b445bb5c1ad5d333d87d
+ms.openlocfilehash: 77d37cba84fcd6fb8f93da79b10db2db91d91db0
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/01/2021
-ms.locfileid: "7729176"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8066605"
 ---
 # <a name="recruit-job-candidates"></a>Įdarbinti darbo kandidatai
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -45,20 +48,20 @@ Jei norite pateikti įdarbinimo užklausas „Human Resources“, pirmiausia tur
 
 1. Darbo erdvėje **Personalo valdymas** rinkitės **Nuorodos**.
 2. Skyriuje **Nustatymai**, Rinkitės **žmogiškųjų išteklių bendrinti parametrai**.
-3. Skirtuko **Įdarbinimas** dalyje **Įdarbinimas** nustatykite Įgalinti įdarbinimo **užklausas kaip** **Taip**.
+3. Ant **Įdarbinimas** skirtukas, apačioje **Įdarbinimas**, rinkinys **Įgalinti įdarbinimo užklausas** į **Taip**.
 
 ## <a name="add-a-recruiting-request-location"></a>Įtrauktei įdarbinimo užklausos vietą
 
 Jei jūsų organizacija turi kelias vietas, galite įtraukti jas taip, kad besikreipiantys galėtų pasirinkti vietą, kruioje naujas įdarbinimas veiks. Vieta bus įtraukta į darbo skelbimą.
 
-1. Ieškos juostoje įveskite įdarbinimo **užklausos** vietą.
+1. Paieškos juostoje įveskite **Įdarbinimo prašymo vieta**.
 2. Pasirinkite **Nauja**.
 3. Laukelyje **Įdarbinimo užklausos vieta** įveskite vietos pavadinimą.
 
     ![Įtraukti įdarbinimo užklausos vietą.](./media/hr-recruit-0a-add-location.png)
 
 4. **Aprašas** laukelyje įveskite vietos aprašą.
-5. Skyriuje **Vietą**, rinkitės **Įtraukti**. Jei **pasirodo dialogo** langas Naujas adresas, įveskite vietos adresą.
+5. Skyriuje **Vietą**, rinkitės **Įtraukti**. Jei **Naujas adresas** dialogo langas, įveskite vietos adresą.
 
     ![Įvesti adresą.](./media/hr-recruit-0b-address.png)
 
@@ -71,7 +74,7 @@ Vadovai gali pateikti įdarbinimo užklausas žmogiškuosiuose ištekliuose. Jei
 
 1. Rinkitės **Darbuotojo savitarna**.
 2. Rinkitės **Mano komanda** skirtuką.
-3. Pasirinkite **Įdarbinimo** užklausą.
+3. Pasirinkite **Prašymas įdarbinti**.
 
     ![Pradėti įdarbinimo užklausą.](./media/hr-recruit-1-request-to-recruit.png)
 
@@ -158,11 +161,11 @@ Jei jūsų organizacija integravo su kita programa siekiant valdyti įdarbinimo 
 
 Kai esate pasirengę samdyti kandidatą, atlikite šią procedūrą siekiant perkelti kandidatą į darbuotoją.
 
-1. Kandidato **puslapyje** pasirinkti **·** Samdyti.
+1. Ant **Kandidatas** puslapį, pasirinkite **Samdyti**.
 
     ![Samdyti kandidatą.](./media/hr-recruit-11-hire.png)
 
-2. Dalies **Išsami informacija puslapyje** Samdyti **naują** darbuotoją užpildykite visus laukus.
+2. Ant **Įdarbinti naują darbuotoją** puslapis, apačioje **Detalės**, užpildykite visus laukus.
 
     ![Įveskite naujo įdarbinto asmens išsamią informaciją.](./media/hr-recruit-12-hire-new-worker.png)
 
@@ -177,7 +180,7 @@ Kai esate pasirengę samdyti kandidatą, atlikite šią procedūrą siekiant per
 
 Jei nusprendžiate nesamdyti kandidato, laikykitės šios procedūros siekiant pašalinti jį iš vertinimo proceso. 
 
-1. Kandidato **puslapyje** pasirinkti **Nesamdyti.**
+1. Ant **Kandidatas** puslapį, pasirinkite **Nesamdyti**.
 
     ![Nesamdyti kandidato.](./media/hr-recruit-13-do-not-hire.png)
 
@@ -188,7 +191,7 @@ Jei nusprendžiate nesamdyti kandidato, laikykitės šios procedūros siekiant p
 
 Jei reikia, galite atmesti kandidatą po jo pasamdymo. Pavyzdžiui, kandidatas gali atsisakyti pasiūlymo arba nepasirodyti pirmąją dieną.
 
-- Kandidato **puslapyje pasirinkite Atleidimo** **·** kandidatą.
+- Ant **Kandidatas** puslapį, pasirinkite **Atleisti kandidatą**.
 
     ![Atmesti kandidatą.](./media/hr-recruit-14-dismiss-candidate.png)
 

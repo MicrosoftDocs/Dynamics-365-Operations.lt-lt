@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2021-04-21
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 685c8951b7c0d8524091cf06306388736d894f58
-ms.sourcegitcommit: a21166da59675e37890786ebf7e0f198507f7c9b
-ms.translationtype: HT
+ms.openlocfilehash: 68db4c6561f2cc3fcfd64b49da59a4cc164685f2
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "7471649"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069434"
 ---
 # <a name="message-processor-messages"></a>Pranešimų procesoriaus pranešimai
 
@@ -29,7 +29,7 @@ ms.locfileid: "7471649"
 
 Pranešimų procesoriaus pranešimai naudojami, kai paleisti debesies ir kraštų [skalės vienetai, skirti gamybos darbo krūviui](cloud-edge-workload-manufacturing.md) ir [sandėlio valdymo darbo](cloud-edge-workload-warehousing.md) krūviui.
 
-Centro ir svarstyklių vieneto diegimo aplinkose keičiamasi labai daug duomenų, kad jos būtų sinchronizuojamos, tačiau pranešimų procesorius apdoros tik keletą šių *duomenų* mainų. Galite peržiūrėti pranešimus, kuriuos apdorojo pranešimų procesorius, nueikite į Sistemos administravimas **> Pranešimų procesorius > Pranešimų procesoriaus** pranešimai.
+Centro ir masto vienetų diegimo aplinkos keičiasi dideliu duomenų kiekiu, kad būtų sinchronizuojami. Kai kurie keičiami duomenys suaktyvins papildomą logiką *pranešimų procesorius*. Galite peržiūrėti pranešimus, kuriuos apdorojo pranešimų procesorius, apsilankę adresu **Sistemos administravimas > Pranešimų apdorojimas > Pranešimų apdorojimo pranešimai**.
 
 ## <a name="message-grid-columns-and-filters"></a>Pranešimų tinklelio stulpeliai ir filtrai
 

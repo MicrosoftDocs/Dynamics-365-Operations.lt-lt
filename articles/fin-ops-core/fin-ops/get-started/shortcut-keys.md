@@ -1,6 +1,6 @@
 ---
 title: Spartieji klavišai
-description: Šioje temoje pateikiama sparčiųjų klavišų derinių, kuriuos galite naudoti dirbdami su „Finance and Operations” programomis, peržiūra.
+description: Šioje temoje pateikiama sparčiųjų klavišų kombinacijų, kurias galite naudoti dirbdami su „Finance and Operations“ programomis, apžvalga.
 author: jasongre
 ms.date: 12/10/2021
 ms.topic: article
@@ -14,18 +14,21 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6e6f6faf75bb9dc2b11b3a27a886b1674cc7b339
-ms.sourcegitcommit: eef5d9935ccd1e20e69a1d5b773956aeba4a46bc
-ms.translationtype: MT
+ms.openlocfilehash: 0ecf745337c15270290f02496cc6ce4ccac86861
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/11/2021
-ms.locfileid: "7913523"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070988"
 ---
 # <a name="keyboard-shortcuts"></a>Spartieji klavišai
 
 [!include [banner](../includes/banner.md)]
 
-Naudodami toliau pateikiamus sparčiuosius klavišus, duomenis įvesite greitai ir efektyviai „Finance and Operations” programose.
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
+
+Šie spartieji klavišai gali padėti greitai ir efektyviai įvesti duomenis į „Finance and Operations“ programas.
 
 > [!NOTE]
 > Čia aprašyti spartieji klavišai pagrįsti amerikietišku klaviatūros išdėstymu. Kitokio klaviatūros išdėstymo klaviatūrų klavišai gali nevisiškai atitikti JAV klaviatūros klavišus.
@@ -129,8 +132,8 @@ Nuo platformos 11 naujinimo vartotojai gali rasti šiuo metu galimus sparčiuosi
 
 | Norėdami tai padaryti                                                                                                             | Paspauskite                            |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------|
-| Vertikalioji slinktis                                                                                                     | Pelės ratas                     |
-| Horizontalioji slinktis                                                                                                   | Shift + pelės ratas             |
+| Vertikalus slinkimas                                                                                                     | Pelės ratas                     |
+| Horizontalus slinkimas                                                                                                   | Shift + pelės ratukas             |
 | Perkelti į kitą / ankstesnį stulpelį                                                                                       | Tab / Shift + Tab                 |
 | Perkelti į kitą / ankstesnę eilutę                                                                                          | Rodyklė žemyn / rodyklė aukštyn           |
 | Perkelti į kitą / ankstesnę eilutę nepasirinkus<blockquote>[!NOTE] Šis spartusis klavišas taikomas tik žymint kelis elementus.</blockquote> | „Ctrl“ + rodyklė aukštyn / „Ctrl“ + rodyklė žemyn |
@@ -149,9 +152,9 @@ Nuo platformos 11 naujinimo vartotojai gali rasti šiuo metu galimus sparčiuosi
 | Vykdyti numatytąjį tinklelio veiksmą<blockquote>[!NOTE] Šis spartusis klavišas įjungiamas, kai įvesties vieta yra langelyje su hipersaitu ir visi to stulpelio langeliai yra su hipersaitais.</blockquote> | Enter                           |
 | Perkelti įvesties vietą iš pasirinktos eilutės į antraštės eilutę ir atvirkščiai                                                               | Alt + Shift + H                     |
 | Padidinti / sumažinti dabartinį stulpelį (įvesties vietą nustatant antraštės eilutėje)                                                  | Rodyklė dešinėn / rodyklė kairėn        |
-| Perkelti dabartinį stulpelį į paskesne/ankstesne padėtį (su židiniu antraštės eilutėje)                                   | CTRL + Shift + rodyklė dešinėn / Ctrl + shift + rodyklė kairėn |
+| Perkelti dabartinį stulpelį į kitą / ankstesnę padėtį (su fokusu antraštės eilutėje)                                   | Ctrl + Shift + rodyklė dešinėn / Ctrl + Shift + rodyklė kairėn |
 | Atidaryti dabartinio stulpelio tinklelio filtravimą (įvesties vietą nustatant antraštės eilutėje)                                              | Įvesti                           |
-| Pakeisti dabartinio stulpelio dydį, kad tiktų į turinį (akcentuojant antraštės eilutę)                                           | A (arba dukart spustelėti stulpelio dydžio keitimo rankeną) |
+| Pakeisti dabartinio stulpelio dydį, kad tiktų į turinį (akcentuojant antraštės eilutę)                                           | A (arba dukart spustelėkite stulpelio dydžio nustatymo rankenėlę) |
 
 ## <a name="input-control-shortcuts"></a>Įvesties valdymo spartieji klavišai
 

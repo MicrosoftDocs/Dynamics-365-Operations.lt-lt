@@ -10,38 +10,42 @@ ms.search.form: HRMApplication, HcmWorkerNewWorker, HcmPositionLookup, HcmWorker
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 07f89a41cca7b3ff66404305d31cf1b8a67bfe47
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.openlocfilehash: 2a6ecee078b18b12769a14cadc7e0182bf03d704
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7964966"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8075378"
 ---
 # <a name="hiring-candidate-through-recruiting"></a>Pretendento samdymas naudojant įdarbinimo funkciją
 
 [!include [banner](../../includes/banner.md)]
 
-Ši procedūra leidžia samdytojui samdyti pretendentą, kuris pateikė prašymą per konkretų įdarbinimo projektą. Kai priimate pretendentą į darbą naudodami įdarbinimo projektą, sukuriamas naujas darbuotojo įrašas, o pretendento įrašo būsena yra **Įdarbinta**. **USMF** demonstracinių duomenų įmonė buvo naudojama šiai procedūrai sukurti.
+> [!IMPORTANT]
+> Šioje temoje nurodyta funkcija šiuo metu pasiekiama žmogiškųjų išteklių klientams finansų infrastruktūroje.  
 
-1. Eiti į **personalo įdarbinimo \>\> prašymų \> prašymus**. 
-2. Pasirinkti išorinio pretendento prašymą.
+
+Ši procedūra leidžia samdytojui samdyti pretendentą, kuris pateikė prašymą per konkretų įdarbinimo projektą. Kai samdote kandidatą pagal įdarbinimo projektą, sukuriamas naujas darbuotojo įrašas, o pareiškėjo įrašo būsena yra **Įdarbintas**. The **USMF** šiai procedūrai sukurti buvo pasitelkta demonstracinių duomenų įmonė.
+
+1. Eiti į **Žmogiškieji ištekliai \> Įdarbinimas \> Programos \> Programos**. 
+2. Pasirinkite paraišką išoriniam pareiškėjui.
 3. Šiame sąraše pasirinkite nuorodą pasirinktoje eilutėje.
-4. Pasirinkite **prašymo** būseną.
-5. Pasirinkite **Samdyti naują darbuotoją**.
-6. Lauke **Įdarbinimo pradžios** data įveskite datą ir laiką.
-7. Lauke Pareigos **pasirinkite** išplečiamąjį rodyklę, kad būtų atidaryta peržvalga.
+4. Pasirinkite **Paraiškos būsena**.
+5. Pasirinkite **Įdarbinti naują darbuotoją**.
+6. Viduje konors **Įdarbinimo pradžios data** lauke įveskite datą ir laiką.
+7. Viduje konors **Padėtis** lauke pasirinkite išskleidžiamąją rodyklę, kad atidarytumėte paiešką.
 8. Šiame sąraše pasirinkite nuorodą pasirinktoje eilutėje.
-9. Lauke **Priskyrimo** pradžia įveskite datą ir laiką.
-10. Pasirinkite **Samdyti naują darbuotoją**.
-11. Išplėskite įdarbinimo **retrospektyvos** "FactBox".
-12. Išplėskite **dabartinių pareigų** "FactBox".
-13. Išplėskite įdarbinimo **retrospektyvos** "FactBox".
-14. Išplėskite **dabartinių pareigų** "FactBox".
-15. Išplėskite arba sutraukite **skyrių** Adresai.
-16. Išplėskite arba **sutraukite kontaktinės informacijos** skyrių.
-17. Išplėskite arba **sutraukite skyrių Asmeninė** informacija.
+9. Viduje konors **Užduočių pradžia** lauke įveskite datą ir laiką.
+10. Pasirinkite **Įdarbinti naują darbuotoją**.
+11. Išplėskite **Darbo istorija** Faktų dėžutė.
+12. Išplėskite **Dabartinės pozicijos** Faktų dėžutė.
+13. Išplėskite **Darbo istorija** Faktų dėžutė.
+14. Išplėskite **Dabartinės pozicijos** Faktų dėžutė.
+15. Išskleiskite arba sutraukite **Adresai** skyrius.
+16. Išskleiskite arba sutraukite **Kontaktinė informacija** skyrius.
+17. Išskleiskite arba sutraukite **Asmeninė informacija** skyrius.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

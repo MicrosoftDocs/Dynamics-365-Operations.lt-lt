@@ -9,18 +9,18 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 1fd15b5d664fead10949750678a2d3eab967af22
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: 825d6a4b3462077d0f4b3f4275792ea0fe5152df
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7781397"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8063677"
 ---
 # <a name="dual-write-setup-from-lifecycle-services"></a>Dvigubo rašymo sąranka iš „Lifecycle Services“
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Šioje temoje paaiškinama, kaip įgalinti dvigubą rašymą iš „Microsoft Dynamics Lifecycle Services” (LCS).
 
@@ -53,18 +53,18 @@ Norėdami nustatyti dvigubą rašymą iš LCS **Aplinkos informacijos** puslapio
 
     :::image type="content" source="media/powerplat_integration_step3.png" alt-text="Saitas į Power Platform aplinką.":::
 
-8. Užbaigus susiejimą, rodomas hipersaitas. Naudokite saitą, kad prisiregistruotumėte prie dvigubo rašymo administravimo srities „Finance and Operations” aplinkoje. Iš ten galite nustatyti objektų susiejimus.
+8. Užbaigus susiejimą, rodomas hipersaitas. Naudokite nuorodą, kad prisijungtumėte prie dvigubo rašymo administravimo srities „Finance and Operations“ aplinkoje. Iš ten galite nustatyti objektų susiejimus.
 
 ## <a name="set-up-dual-write-for-an-existing-dataverse-environment"></a>Dvigubo rašymo nustatymas esamai „Dataverse” aplinkai
 
 Norėdami nustatyti dvigubą rašymą esamai „Dataverse” aplinkai, turite sukurti „Microsoft” [palaikymo kvitą](../../lifecycle-services/lcs-support.md). Į kvitą turi būti įtraukta:
 
-+ Jūsų „Finance and Operations” aplinkos ID.
++ Jūsų finansų ir operacijų aplinkos ID.
 + Jūsų aplinkos pavadinimas iš „Lifecycle Services”.
 + „Dataverse” organizacijos ID arba „Power Platform” aplinkos ID iš „Power Platform” administravimo centro. Savo kvite pateikite užklausą, kad ID būtų egzempliorius, naudotas „Power Platform” integravimui.
 
 > [!NOTE]
-> Negalite atsieti aplinkos naudodami LCS. Norėdami atsieti aplinką, aplinkoje Finance and Operations atidarykite darbo sritį **Duomenų integravimas** ir pasirinkite **Atsieti**.
+> Negalite atsieti aplinkos naudodami LCS. Norėdami atsieti aplinką, atidarykite **Duomenų integravimas** darbo sritį „Finance and Operations“ aplinkoje, tada pasirinkite **Atsieti**.
 
 ## <a name="linking-mismatch"></a>Susiejimų neatitikimas
 

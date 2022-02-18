@@ -2,7 +2,7 @@
 title: Daugiakalbių pranešimų Elektroninėse ataskaitose kūrimas
 description: Šioje temoje paaiškinama, kaip galite naudoti Elektroninės ataskaitos (angl. Electronic Reporting (ER)) žymas kurti ir generuoti daugiakalbius pranešimus.
 author: NickSelin
-ms.date: 09/03/2021
+ms.date: 11/30/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bf02e8f90fb83acd8448339f411489851742af18
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
-ms.translationtype: MT
+ms.openlocfilehash: e5c6b28dc115719922e418cb7a6156032d994d39
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7674434"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8074947"
 ---
 # <a name="design-multilingual-reports-in-electronic-reporting"></a>Daugiakalbių pranešimų Elektroninėse ataskaitose kūrimas
 
@@ -28,9 +28,9 @@ ms.locfileid: "7674434"
 
 ## <a name="overview"></a>Peržiūra
 
-Verslo vartotojai naudoja [Elektroninių ataskaitų (ER)](general-electronic-reporting.md) sistemą, kad konfigūruotų siunčiamų dokumentų formatus, kurie turi būti sugeneruoti pagal įvairių šalių ar regionų teisinius reikalavimus. Šiuos reikalavimuose nurodoma, kad siunčiami dokumentai būtų generuojami skirtingomis kalbomis skirtingoms šalims ar regionams, galite konfigūruoti vieną ar kelis ER [formatus](general-electronic-reporting.md#FormatComponentOutbound), kuriuose yra nuo kalbos priklausančių išteklių. Tokiu būdu galite pakartotinai naudoti formatą, kad sugeneruotumėte siunčiamus dokumentus įvairioms šalims ir regionams. Taip pat galite naudoti vieną ER formatą, kad sugeneruotumėte siunčiamą dokumentą skirtingomis kalbomis atitinkamiems klientams, tiekėjams, filialams ar kitoms šalims.
+Verslo vartotojai naudoja [Elektroninių ataskaitų (ER)](general-electronic-reporting.md) sistemą, kad konfigūruotų siunčiamų dokumentų formatus, kurie turi būti sugeneruoti pagal įvairių šalių ar regionų teisinius reikalavimus. Šiuos reikalavimuose nurodoma, kad siunčiami dokumentai būtų generuojami skirtingomis kalbomis skirtingoms šalims ar regionams, galite konfigūruoti vieną ar kelis ER formatus, kuriuose yra nuo kalbos priklausančių išteklių. Tokiu būdu galite pakartotinai naudoti formatą, kad sugeneruotumėte siunčiamus dokumentus įvairioms šalims ir regionams. Taip pat galite naudoti vieną ER formatą, kad sugeneruotumėte siunčiamą dokumentą skirtingomis kalbomis atitinkamiems klientams, tiekėjams, filialams ar kitoms šalims.
 
-Galite konfigūruoti ER duomenų modelius ir modelio susiejimus kaip konfigūruotų ER formatų duomenų šaltinius, kad apibrėžtume duomenų srautą, nurodantį, kokie programos duomenys įdedami į generuojamus dokumentus. Kaip ER konfigūracijos [teikėjas](general-electronic-reporting.md#Provider), galite [publikuoti ](tasks/er-upload-configuration-into-lifecycle-services.md#upload-a-configuration-into-lcs)sukonfigūruotus [duomenų modelius](general-electronic-reporting.md#data-model-and-model-mapping-components), [modelių susiejimus ](general-electronic-reporting.md#data-model-and-model-mapping-components)ir [formatus](general-electronic-reporting.md#FormatComponentOutbound) kaip ER sprendimo komponentus, kad sugeneruotumėte konkrečius siunčiamus dokumentus. Taip pat galite leisti klientams [įkelti](general-electronic-reporting-manage-configuration-lifecycle.md) publikuotą ER sprendimą, kad jį būtų galima naudoti ir tinkinti. Jei tikitės, kad klientai kalba kitomis kalbomis, galite sukonfigūruoti ER komponentus, kad juose būtų nuo kalbos priklausantys ištekliai. Tokiu būdu redaguojamo ER komponento turinys gali būti pateiktas kliento vartotojo pageidaujama kalba projektavimo metu.
+Galite konfigūruoti ER duomenų modelius ir modelio susiejimus kaip konfigūruotų ER formatų duomenų šaltinius, kad apibrėžtume duomenų srautą, nurodantį, kokie programos duomenys įdedami į generuojamus dokumentus. Kaip ER konfigūracija [teikėjas](general-electronic-reporting.md#Provider), tu gali [paskelbti](tasks/er-upload-configuration-into-lifecycle-services.md#upload-a-configuration-into-lcs) sukonfigūruotas [duomenų modeliai](general-electronic-reporting.md#data-model-and-model-mapping-components),[modelių žemėlapiai](general-electronic-reporting.md#data-model-and-model-mapping-components), ir formatus kaip ER sprendimo komponentus, skirtus konkretiems siunčiamiems dokumentams generuoti. Taip pat galite leisti klientams [įkelti](general-electronic-reporting-manage-configuration-lifecycle.md) publikuotą ER sprendimą, kad jį būtų galima naudoti ir tinkinti. Jei tikitės, kad klientai kalba kitomis kalbomis, galite sukonfigūruoti ER komponentus, kad juose būtų nuo kalbos priklausantys ištekliai. Tokiu būdu redaguojamo ER komponento turinys gali būti pateiktas kliento vartotojo pageidaujama kalba projektavimo metu.
 
 Galite konfigūruoti nuo kalbos priklausančius išteklius kaip ER žymas. Tada galite naudoti šias žymas, kad sukonfigūruotumėte ER komponentus šiais tikslais:
 
@@ -232,6 +232,19 @@ Kaip anksčiau aprašyta šioje temoje, **Žyma** ir **Aprašas** atributai kiek
 ## <a name="performance"></a><a name=performance></a>Našumas
 
 Konfigūruodami ER formato komponentą, kad būtų galima generuoti ataskaitą pageidaujama [kalba](#language), arba importuoti gaunamąjį dokumentą, kai turinys išanalizuotas jūsų pageidaujama kalba, rekomenduojame įgalinti **talpyklą kaip pageidaujamą dabartinio vartotojo kalbą, kuri skirta ER, veikia** funkcijų [funkcijų valdymo](../../fin-ops/get-started/feature-management/feature-management-overview.md) darbo srityje. Ši funkcija padeda pagerinti našumą, ypač ER formato komponentams, kurie turi kelias nuorodas į žymes ER formulėse ir susiejimus bei daug tikrinimo taisyklių, kad sugeneruotų vartotojo pranešimus [pageidaujama](general-electronic-reporting-formula-designer.md#TestFormula) kalba.
+
+Kai pakeičiate ER konfigūracijos versijos būseną iš **Juodraštis** į **Užbaigta**, jei konfigūracijos versijoje yra ER etikečių, šios etiketės saugomos programų duomenų bazėje. Saugojimo schema priklauso nuo būsenos **Paspartinkite ER etikečių saugojimą** funkcija:
+
+- Jei funkcija neįjungta, visos etiketės saugomos **LABELXML** srityje **ERSOLIUCIJOS LENTELĖ** lentelę kaip vieną XML fragmentą.
+- Jei funkcija įjungta, kiekvienai kalbai sukuriamas atskiras įrašas **ERSOLUTIONVERSIONLABELSTABLE** stalo. The **TURINYS** Šios lentelės lauke saugomos kiekvienos kalbos etiketės kaip suspaustas XML fragmentas.
+
+Rekomenduojame įjungti **Paspartinkite ER etikečių saugojimą** funkcija **Funkcijų valdymas** darbo vieta. Ši funkcija padeda pagerinti tinklo pralaidumo panaudojimą ir bendrą sistemos našumą, nes daugeliu atvejų, kai dirbate su viena ER konfigūracija, naudojamos vienos kalbos ER etiketės.
+
+Norėdami pritaikyti pasirinktą saugyklos schemą visų ER konfigūracijų etiketėms saugoti esamame finansų egzemplioriuje, atlikite šiuos veiksmus.
+
+1. Eiti į **Organizacijos administravimas** > **Periodinis** > **Taikykite pasirinktas etiketes saugojimo schemą visoms ER konfigūracijoms**.
+2. Pasirinkite **Gerai**.
+
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 

@@ -1,5 +1,5 @@
 ---
-title: Kliento portalo vartotojų kūrimas ir valdymas (pateikiamas vaizdo įrašas)
+title: Kurti ir valdyti klientų portalo vartotojus (yra vaizdo įrašas)
 description: Šioje temoje paaiškinama, kaip sukurti kliento portalo vartotojų paskyras ir nustatyti jų teises.
 author: Henrikan
 ms.date: 07/31/2020
@@ -12,17 +12,17 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 20751a25a6dedb04806068780bc2f4e381bf79bc
-ms.sourcegitcommit: ef0dd4245fc499907ffe00e2a32f59a6cd96e45d
+ms.openlocfilehash: 4615182e6c3341a376e8e55a1417480e3e3f5ea7
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/18/2021
-ms.locfileid: "7937458"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8062495"
 ---
 # <a name="create-and-manage-customer-portal-users"></a>Kliento portalo vartotojų kūrimas ir valdymas
 
 [!include [banner](../includes/banner.md)]
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Parengtame naudoti sprendime nėra būdo vartotojams patiems užsiregistruoti svetainėse, sukurtose naudojant kliento portalą. Norėdami prisijungti ir naudoti svetainę, vartotojai turi gauti administratoriaus pakvietimą. „Microsoft“ tyčia užblokavo galimybę vartotojams registruotis savarankiškai.
 
@@ -33,7 +33,7 @@ Kai vartotojai užsiregistruoja patys, jiems automatiškai sukuriami kontaktų �
 ## <a name="video"></a>Vaizdo
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4ADkI]
 
-[Klientų pakvietimo registruotis ir naudoti savo kliento portalą](https://youtu.be/drGUYHX9QIQ) vaizdo įrašas (rodomas pirmiau) yra įtrauktas į [„Finance and Operations“ grojaraštį](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) prieinamą „YouTube“.
+The [Pakvieskite klientus registruotis ir naudotis jūsų klientų portalu](https://youtu.be/drGUYHX9QIQ) vaizdo įrašas (parodytas aukščiau) yra įtrauktas į [„Finance and Operations“ grojaraštis](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) pasiekiama YouTube.
 
 ## <a name="prerequisite-setup"></a>Būtinieji nustatymo veiksmai
 

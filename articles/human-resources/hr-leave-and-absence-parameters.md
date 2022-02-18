@@ -1,6 +1,6 @@
 ---
 title: Atostogų ir neatvykimų parametrų konfigūravimas
-description: Šioje temoje aprašoma, kaip nustatyti atostogų ir neatvykimo personalo parametrus Dynamics 365 Human Resources.
+description: Šioje temoje aprašoma, kaip apibrėžti žmogiškųjų išteklių parametrus atostogoms ir nebuvimui Dynamics 365 Human Resources.
 author: twheeloc
 ms.date: 10/28/2021
 ms.topic: article
@@ -15,18 +15,21 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 59d89c4b22d71057fd3b398c91e1fbf04112e4a9
-ms.sourcegitcommit: e91a1797192fd9bc4048b445bb5c1ad5d333d87d
+ms.openlocfilehash: 7bd1aebd633af0530c550f8ec7510a0c09985ca1
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/01/2021
-ms.locfileid: "7728862"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8067357"
 ---
 # <a name="configure-leave-and-absence-parameters"></a>Atostogų ir neatvykimų parametrų konfigūravimas
 
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Prieš nustatyti atostogų ir neatvykimo planus yra gerai patikrinti visų susijusių personalo parametrų Dynamics 365 Human Resources **·** parametrus, įskaitant:
+Prieš nustatydami atostogų ir nebuvimo planus Dynamics 365 Human Resources, verta patikrinti visų susijusių parametrų nustatymus **Žmogiškųjų išteklių parametrai**, įskaitant:
 
 - Atostogų užklausų numeraciją
 - Nedarbingumo dėl ligos ar slaugymo akto (FMLA) parametrus
@@ -74,7 +77,7 @@ Prieš nustatyti atostogų ir neatvykimo planus yra gerai patikrinti visų susij
 
     - Pasirinkite **Balanso skaičiavimas** rodyti balansams nuo šiandien arba nuo kaupimo laikotarpio. Jei pasirinksite **Šiandienos balansas**, balansas rodys visus šiandienos kaupimus, koregavimus ir užklausas. Jei pasirinksite **Kaupimo laikotarpio balansas**, balansas rodys visus kaupimo laikotarpio, nustatyto pagal atostogų plano dažnumą, kaupimus, koregavimus ir užklausas. 
 
-    - Nustatykite **perkėlimo galiojimo pabaigos** **paketinės užduoties** pradžios laiką.  
+    - Nustatyti **Pradžios laikas** už **Perkelti galiojimo laiką** paketinis darbas.  
     
     - Pasirinkite **Taip** dalyse **Leisti darbuotojams pirkti atostogas** ir **Leisti darbuotojams parduoti atostogas**. Jei pasirinksite **Taip** šioms parinktims, galite kurti atostogų pirkimo ir pardavimo strategijas ir įgalinti darbuotojus pateikti atostogų pirkimo ir pardavimo užklausas.
 

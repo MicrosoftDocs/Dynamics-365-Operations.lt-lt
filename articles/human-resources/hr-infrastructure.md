@@ -1,6 +1,6 @@
 ---
-title: Dynamics 365 Human Resources infrastruktūros suliejimas – išleisti 10.0.25 atnaujinimą
-description: Šioje temoje pateikiama informacija apie Microsoft Dynamics 365 Human Resources leidimą nr. 10.0.25, dėl kurio infrastruktūros suliejimas sukuria pirmąją pajėgumų bangą.
+title: Dynamics 365 Human Resources infrastruktūros sujungimas – 10.0.25 versijos naujinimas
+description: Šioje temoje pateikiama informacija apie „Microsoft“.Dynamics 365 Human Resources leidimas 10.0.25, kuris atneša pirmąją infrastruktūros sujungimo galimybių bangą.
 author: twheeloc
 ms.date: 01/19/2022
 ms.topic: article
@@ -15,66 +15,65 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-27
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b785248c31c2cc4feb5cedd77264f36bfe927e0e
-ms.sourcegitcommit: 10b85a09e8a550155a69aa2a8877a7c88b887242
-ms.translationtype: HT
+ms.openlocfilehash: a80bedd0224f1e31dfec4e9f4c39ad1ed75d7f2f
+ms.sourcegitcommit: 948978183a1da949e35585b28b8e85a63b6c12b1
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "8014493"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "8024572"
 ---
-# <a name="dynamics-365-human-resources-infrastructure-merge---release-10025-update"></a>Dynamics 365 Human Resources infrastruktūros suliejimas – išleisti 10.0.25 atnaujinimą
+# <a name="dynamics-365-human-resources-infrastructure-merge---release-10025-update"></a>Dynamics 365 Human Resources infrastruktūros sujungimas – 10.0.25 versijos naujinimas
 
-10.0.25 paleidimas sukuria pirmąją pajėgumų bangą infrastruktūros struktūroje. Atliekant infrastruktūros suliejimą Microsoft Dynamics 365 Human Resources bus sulieta su finansų ir operacijų infrastruktūra. Tačiau ji ir toliau bus licencijuota kaip nepriklausoma programa, Dynamics 365 Finance pvz., ir Dynamics 365 Supply Chain Management. Daugiau informacijos apie infrastruktūros suliejimą rasite infrastruktūros [Dynamics 365 Human Resources suliejimo DUK](../human-resources/hr-infrastructure-merge-faq.md).
+10.0.25 leidimas atneša pirmąją infrastruktūros sujungimo galimybių bangą. Infrastruktūros sujungimo metu „Microsoft“.Dynamics 365 Human Resources bus sujungta su „Finance and Operations“ infrastruktūra. Tačiau ji ir toliau bus licencijuojama kaip nepriklausoma programa, pvz Dynamics 365 Finance ir Dynamics 365 Supply Chain Management. Daugiau informacijos apie infrastruktūros sujungimą žr [Dynamics 365 Human Resources infrastruktūros sujungimo DUK](../human-resources/hr-infrastructure-merge-faq.md).
 
-Sulieti personalo vartotojai bus pastovūs šiais būdais:
+Sujungimas užtikrins nuoseklumą žmogiškųjų išteklių vartotojams šiais būdais:
 
-- [Aplinkos valdymas ir integravimas yra nuoseklūs personalo ir finansų bei operacijų programėlių.](/dynamics365-release-plan/2021wave2/human-resources/dynamics365-human-resources/consistent-environment-management-integrations-between-human-resources-finance-operations-apps)
+- [Aplinkos valdymas ir integracijos yra suderinamos tarp žmogiškųjų išteklių ir finansų bei operacijų programų.](/dynamics365-release-plan/2021wave2/human-resources/dynamics365-human-resources/consistent-environment-management-integrations-between-human-resources-finance-operations-apps)
 
-    - Valdykite aplinkas Microsoft Dynamics ciklo tarnybose, problemų iešką Regression Suite Automation Tool ir.
-    - Yra vienas kodo pagrindas, kuriame naujos personalo funkcijos paleidžiamos kaip įprasto vienos versijos atnaujinimo proceso dalis.
-    - Būdas, kuriuo naujiniai, naujinimai ir karštosios pataisos taikomos aplinkose, yra nuoseklios.
+    - Tvarkykite aplinką Microsoft Dynamics Gyvenimo ciklo paslaugos, problemų paieška ir Regression Suite Automation Tool.
+    - Yra viena kodo bazė, kurioje išleidžiamos naujos žmogiškųjų išteklių funkcijos kaip įprasto vienos versijos atnaujinimo proceso dalis.
+    - Aplinkoms taikomi naujinimai, naujinimai ir karštosios pataisos yra nuoseklūs.
 
-- [Patobulintos extensibility pasirinktys.](/dynamics365-release-plan/2021wave2/human-resources/dynamics365-human-resources/improve-extensibility-options.md)
+- [Patobulintos išplėtimo galimybės.](/dynamics365-release-plan/2021wave2/human-resources/dynamics365-human-resources/improve-extensibility-options.md)
 
-    - Jei reikia, galite toliau Microsoft Power Platform naudoti įrankius, kad pratęstumėte.
-    - Funkcijas galima išplėsti naudojant formas, lenteles, metodus ir programos programavimo sąsajas (API).
+    - Galite ir toliau naudoti Microsoft Power Platform įrankius pratęsti pagal poreikį.
+    - Funkcionalumą galite išplėsti naudodami formas, lenteles, metodus ir taikomųjų programų sąsajas (API).
     - Galite kurti ir išplėsti objektus.
 
-    Daugiau informacijos apie galimas plėtinio [pasirinktis ieškokite "Dynamics 365" išplėtimo](../fin-ops-core/dev-itpro/extensibility/extensibility-home-page.md) peržiūra.
+    Norėdami gauti daugiau informacijos apie galimas plėtinio parinktis, žr [„Dynamics 365“ išplėtimo apžvalga](../fin-ops-core/dev-itpro/extensibility/extensibility-home-page.md).
 
-- [Sukurkite vieną personalo galimybių rinkinį programoje "Dynamics 365".](/dynamics365-release-plan/2021wave2/human-resources/create-one-set-human-resources-capabilities-within-dynamics-365.md)
+- [Sukurkite vieną žmogiškųjų išteklių galimybių rinkinį „Dynamics 365“.](/dynamics365-release-plan/2021wave2/human-resources/create-one-set-human-resources-capabilities-within-dynamics-365.md)
 
-    Leidime 10.0.25 funkcinės galimybės, kurios egzistuoja tik personalo srityje, buvo prieinamos finansų ir operacijų infrastruktūrai. Kad klientai galėtų pasinaudoti šiomis galimybėmis finansų ir operacijų aplinkoje, funkcijų valdymas turi įgalinti šias personalo funkcijas.
+    10.0.25 versijoje „Finance and Operations“ infrastruktūroje buvo prieinamos funkcinės galimybės, kurios buvo tik žmogiškųjų išteklių skyriuje. Kad klientai galėtų pasinaudoti šiomis galimybėmis „Finance and Operations“ aplinkoje, funkcijų valdyme turi būti įgalintos toliau nurodytos žmogiškųjų išteklių funkcijos.
 
     | Funkcijos pavadinimas | Apžvalga | Išleidimo būsena | 
     |--------------|----------|----------------| 
-    | Tarnybos metų skaičiavimas | Nustatymo parinktis leidžia pasirinkti datą, kuri naudojama **paslaugos skaičiavimo** metams. | Bendrai prieinama | 
-    | Darbo eigos patirties patobulinimai | Ši funkcija užtikrina patobulintą vartotojų darbo eigos pateikimo ir patvirtinimų patirtį. | Bendrai prieinama | 
-    | Spausdinti našumo apžvalgas | Našumo peržiūras galite išspausdinti PDF formatu. | Bendrai prieinama | 
-    | Pasirinktiniai saitai **tvarkytuvo savitarnoje** | Galite kurti pasirinktinius saitus, rodomus **Vadybininko** savitarnos **skyriuje Susiję** saitai. | Bendrai prieinama | 
-    | Kryžminės bendrovės kompensavimo peržiūra | Vartotojai gali peržiūrėti kompensavimo planus **vadybininko** savitarnoje tarp visų juridinių subjektų ir neįjungdami įmonių. | Bendrai prieinama | 
-    | Konfigūruoti keletą kompensavimo lygių pagal užduotį\*&dagger; | Užduotys dabar palaiko keletą atlyginimo lygių. | Bendrai prieinama | 
-    | Užduočių valdymas\* | Galite sukurti kontrolinius sąrašus ir užduotis, skirtas inžine ir perėjimo procesams. | Peržiūra | 
-    | Supaprastintas darbuotojo duomenų įvedimas | Ši funkcija pateikia atnaujintą vartotojo patirtį esamame **darbuotojo** puslapyje. | Peržiūra | 
+    | Tarnybos metų skaičiavimas | Sąrankos parinktis leidžia pasirinkti datą, kuri bus naudojama **Tarnavimo metai** skaičiavimas. | Bendrai prieinama | 
+    | Darbo eigos patirties patobulinimai | Ši funkcija suteikia geresnę vartotojo patirtį teikiant darbo eigos pateikimą ir patvirtinimą. | Bendrai prieinama | 
+    | Spausdinti našumo apžvalgas | Galite atspausdinti veiklos apžvalgas PDF formatu. | Bendrai prieinama | 
+    | Priskirtos nuorodos **Vadovo savitarna** | Galite sukurti pasirinktines nuorodas, kurios bus rodomos **Susijusios nuorodos** skyrių **Vadovo savitarna**. | Bendrai prieinama | 
+    | Kryžminės bendrovės kompensavimo peržiūra | Vartotojai gali peržiūrėti kompensavimo planus **Vadovo savitarna** visiems juridiniams asmenims, nekeičiant įmonės. | Bendrai prieinama | 
+    | Sukonfigūruokite kelis kompensavimo lygius pagal darbą\*&dagger; | Darbai dabar palaiko kelis atlyginimo lygius. | Peržiūra | 
+    | Užduočių valdymas\* | Galite sukurti kontrolinius sąrašus ir užduotis, skirtus įtraukimo, išjungimo ir perėjimo procesui. | Peržiūra | 
+    | Supaprastintas darbuotojo duomenų įvedimas | Ši funkcija suteikia atnaujintą esamą vartotojo patirtį **Darbininkas** puslapį. | Peržiūra | 
     | Žmogiškųjų išteklių vartotojų patirties patobulinimai | Žr. lentelę kitame skyriuje.  | Peržiūra | 
 
-\* Šią funkciją reikia įjungti prieš personalo **vartotojų patirties patobulinimo** funkciją.
+\* Ši funkcija turi būti įjungta prieš **Žmogiškųjų išteklių vartotojo patirties patobulinimai** funkcija.
 
-&dagger; Įgalinus šią funkciją jos išjungti negalima.
+&dagger; Šios funkcijos negalima išjungti, kai ji įjungta.
 
-## <a name="human-resource-user-experience-enhancements"></a>Personalo vartotojo patirties patobulinimai
+## <a name="human-resource-user-experience-enhancements"></a>Žmogiškųjų išteklių vartotojo patirties patobulinimai
 
 | Funkcijos pavadinimas | Apžvalga | 
 |--------------|----------| 
-| Išplėstinė prieiga | Prieiga prie darbuotojų ribojama atsižvelgiant į juridinį subjektą. | 
-| Panaikinti įdarbinimą | Galite panaikinti darbuotojo įdarbinimtį. | 
-| Užduočių šeimos | Galite sekti užduočių, kurios apima panašų darbą ir kurioms reikia panašios mokymo, įgūdžių, žinių ir kompetencijos, grupę. | 
-| Papildomi įdarbinimo laukai | Įtraukti šie laukai: **Įdarbinimo** kategorija, Įdarbinimo tipas ir **Įdarbinimo** **būsena**. | 
-| **Darbuotojų be įdarbinimo** puslapis | Puslapyje rodomas darbuotojų, kurie neturi įdarbinimo įrašo, sąrašas. | 
-| Pareigų dimensijos vartotojo patirties atnaujinimas | Yra patobulintos vartotojo patirties priskiriant pareigų dimensijas juridiniam subjektui. | 
-| Adreso keitimai personalo **valdymo darbo** srityje | Ši funkcija pateikia visų adreso pakeitimų, kurie įvyko per nurodytą dienų skaičių, skaičių, kaip nurodyta personalo **parametrų** puslapyje. | 
-| Galintys galioti įrašai personalo **valdymo darbo** srityje | Ši funkcija pateikia prekių, kurių galiojimo laikas baigėsi arba baigiasi sertifikatų, identifikavimo duomenų, bandomojų bandymų, atrankos ar bandymų galiojimą, sąrašą. | 
-| **Pareigų hierarchijos tikrinimo** puslapis | Ciklinių nuorodų tikrinimas atliekamas pareigų eilučių hierarchijoje. | 
-| Šaliai būsūs atlyginimų informacija | Papildomus algalapio laukus galima rasti darbuotojo įdarbinimo puslapyje, atsižvelgiant į juridinio subjekto, kuriame darbuotojai dirba, šalį **arba** regioną. | 
-| Atitikimo ataskaitų patobulinimai | Galimos papildomos ataskaitų pasirinktys, galimos EEO-1, Vets 4212 ir OSHA300a. | 
-| Personalo valdymo **darbo srities** atnaujinimai | Buvo atnaujinti adreso keitimai ir besibaigintys įrašai. Be to, naujuose skirtukuose pateikiamas darbuotojo ir pareigų veiksmų sąrašas. | 
+| Panaikinti įdarbinimą | Galite ištrinti darbuotojo įdarbinimą. | 
+| Darbo šeimos | Galite stebėti darbų grupę, kuri apima panašų darbą ir reikalauja panašaus mokymo, įgūdžių, žinių ir patirties. | 
+| Papildomos darbo sritys | Buvo pridėti šie laukai: **Užimtumo kategorija**, **tipas**, ir **Užimtumo statusas**. | 
+| **Darbuotojai be darbo** puslapį | Puslapyje rodomas darbuotojų, kurie neturi darbo įrašo, sąrašas. | 
+| Pozicijos dimensijos naudotojo patirties atnaujinimas | Yra patobulinta naudotojo patirtis priskiriant pozicijų matmenis vienam juridiniam asmeniui. | 
+| Adresas pasikeitė **Personalo valdymas** darbo vieta | Ši funkcija pateikia visų adresų pakeitimų, įvykusių per nurodytą dienų skaičių, kaip apibrėžta **Žmogiškųjų išteklių parametrai** puslapį. | 
+| Baigia galioti įrašai **Personalo valdymas** darbo vieta | Ši funkcija pateikia sąrašą elementų, kurių galiojimas pasibaigė arba baigsis sertifikatų, tapatybės nustatymo, bandomųjų terminų, patikrinimų ar testų galiojimo laikui. | 
+| **Pozicijos hierarchijos patvirtinimas** puslapį | Patikrinama, ar nėra apskritų nuorodų padėties eilutės hierarchijoje. | 
+| Konkrečios šalies darbo užmokesčio informacija | Papildomi darbo užmokesčio laukai yra prieinami **Darbuotojo užimtumas** puslapyje, priklausomai nuo juridinio asmens, kuriame dirba darbuotojai, šalies ar regiono. | 
+| Atitikties ataskaitų teikimo patobulinimai | Galimos papildomos ataskaitų teikimo parinktys, skirtos EEO-1, Vets 4212 ir OSHA300a. | 
+| Atnaujinimai **Personalo valdymas** darbo vieta | Buvo atlikti atnaujinimai, siekiant sekti adresų pasikeitimus ir pasibaigiančius įrašus. Be to, naujuose skirtukuose pateikiami darbuotojų ir pareigų veiksmai. | 

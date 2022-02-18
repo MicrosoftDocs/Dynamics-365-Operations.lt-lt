@@ -2,7 +2,7 @@
 title: Kaip darbuotojai naudoja gamybos cecho vykdymo sąsają
 description: Šioje temoje aprašoma, kaip darbuotojo atžvilgiu naudoti gamybos cecho vykdymo sąsają.
 author: johanhoffmann
-ms.date: 10/05/2020
+ms.date: 01/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,13 +12,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
-ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: e872600222ad23bf3de62c0f2d6cda74942d5b55
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.dyn365.ops.version: 10.0.24
+ms.openlocfilehash: 086d05b4080015f6185a083ca20963539f76619f
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920653"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8075024"
 ---
 # <a name="how-workers-use-the-production-floor-execution-interface"></a>Kaip darbuotojai naudoja gamybos cecho vykdymo sąsają
 
@@ -138,6 +138,65 @@ Tokiu atveju, darbuotojas gali pateikti ataskaitą apie sudėtinio produkto kiek
 Kai darbuotojas užbaigia arba iš dalies užbaigia užduotį, jis gali pateikti atliekų ataskaitą, pasirinkdamas užduotį skirtuke **Aktyvios užduotys** ir tada – **Teikti ataskaitą apie atliekas**. Tada dialogo lange **Teikti ataskaitą apie atliekas** darbuotojas įveda atliekų kiekį naudodamas skaičių klaviatūrą. Darbuotojas taip pat pasirenka priežastį (*Nėra*, *Įrenginys*, *Operatorius* arba *Medžiagos*).
 
 ![Dialogo langas Teikti ataskaitą apie atliekas.](media/pfei-report-scrap-dialog.png "Dialogo langas Teikti ataskaitą apie atliekas")
+
+## <a name="adjust-material-consumption-and-make-material-reservations"></a>Sureguliuokite medžiagų suvartojimą ir rezervuokite medžiagas
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
+<!-- KFM: preview until further notice -->
+
+Darbuotojai gali pritaikyti medžiagų suvartojimą kiekvienam gamybos darbui. Ši funkcija naudojama tais atvejais, kai faktinis medžiagų kiekis, sunaudotas atliekant gamybos užduotį, buvo didesnis arba mažesnis nei planuotas kiekis. Todėl jis turi būti sureguliuotas, kad atsargų lygis būtų aktualus.
+
+Darbuotojai taip pat gali rezervuoti medžiagų partijos ir serijos numerius. Ši funkcija naudojama tais atvejais, kai darbuotojas turi rankiniu būdu nurodyti, kurios medžiagos partijos ar serijos numeriai buvo sunaudoti, kad atitiktų medžiagų atsekamumo reikalavimus.
+
+Darbuotojai gali nurodyti norimą koreguoti kiekį pasirinkdami **Sureguliuokite medžiagą**. Šis mygtukas pasiekiamas šiose vietose:
+
+- Viduje konors **Pranešti apie iškarpą** dialogo langas
+- Viduje konors **Pranešti apie pažangą** dialogo langas
+- Įrankių juostoje dešinėje
+
+### <a name="adjust-material-consumption-from-the-report-scrap-and-report-progress-dialog-boxes"></a>Koreguokite medžiagų sunaudojimą dialogo languose Pranešti apie iškarpą ir Pranešimo apie eigą
+
+Darbuotojui įvedus kiekį, apie kurį reikia pranešti **Pranešti apie pažangą** arba **Pranešti apie iškarpą** dialogo langas, **Sureguliuokite medžiagą** mygtukas tampa pasiekiamas. Kai vartotojas pasirenka šį mygtuką, **Sureguliuokite medžiagą** pasirodo dialogo langas. Šiame dialogo lange pateikiamas prekių, kurias planuojama sunaudoti, sąrašas, kai pranešama apie prekės arba atmestų darbų kiekį.
+
+Dialogo lange esančiame sąraše rodoma ši informacija:
+
+- **Produkto numeris** – Prekės meistras ir gaminio variantas.
+- **Produkto pavadinimas** – produkto pavadinimas.
+- **Pasiūlymas** – Numatomas medžiagos kiekis, kuris bus sunaudotas, kai bus pranešta apie nurodyto darbo kiekio pažangą arba laužą.
+- **Vartojimas** – Faktinis medžiagos kiekis, kuris bus sunaudotas, kai pranešama apie pažangą arba laužą nurodytam darbo kiekiui.
+- **Rezervuota** – Medžiagos kiekis, kuris buvo fiziškai rezervuotas atsargose.
+- **Vienetas** – Medžiagų sąskaitos (BOM) vienetas.
+
+Dešinėje dialogo lango pusėje rodoma ši informacija:
+
+- **Produkto numeris** – Prekės meistras ir gaminio variantas.
+- **Apskaičiuota** – Numatomas suvartojamas kiekis.
+- **Prasidėjo** – Kiekis, kuris buvo pradėtas gamybos darbe.
+- **Likęs kiekis** – Iš numatomo kiekio lieka suvartoti kiekis.
+- **Išleistas kiekis** – Suvartotas kiekis.
+
+Galima atlikti šiuos veiksmus:
+
+- Darbuotojas gali nurodyti kiekį, kurį reikia koreguoti medžiagai pasirinkdamas **Sureguliuokite suvartojimą**. Patvirtinus kiekį, nurodytas kiekis **Vartojimas** stulpelis atnaujinamas pakoreguotu kiekiu.
+- Kai darbuotojas pasirenka **Sureguliuokite medžiagą**, sukuriamas produkcijos paėmimo sąrašo žurnalas. Šiame žurnale yra tokie patys elementai ir kiekiai kaip ir **Sureguliuokite medžiagą** sąrašą.
+- Kai darbuotojas koreguoja kiekį **Sureguliuokite medžiagą** dialogo langas, **Pasiūlymas** atitinkamos žurnalo eilutės laukas atnaujinamas tokiu pat kiekiu. Jei darbuotojas pasirenka **Atšaukti** viduje konors **Sureguliuokite medžiagą** dialogo lange, rinkimo sąrašas ištrinamas.
+- Jei darbuotojas pasirenka **Gerai**, atrankos sąrašas nėra ištrintas. Jis bus paskelbtas, kai apie darbą bus pranešta **Pranešti apie iškarpą** arba **Pranešti apie pažangą** dialogo langas.
+- Jei darbuotojas pasirenka **Atšaukti** viduje konors **Pranešti apie pažangą** arba **Pranešti apie iškarpą** dialogo lange, rinkimo sąrašas ištrinamas.
+
+### <a name="adjust-material-from-the-toolbar-on-the-right"></a>Sureguliuokite medžiagą dešinėje esančioje įrankių juostoje
+
+The **Sureguliuokite medžiagą** mygtuką galima sukonfigūruoti taip, kad jis būtų rodomas įrankių juostoje dešinėje. (Daugiau informacijos žr [Sukurkite gamybos grindų vykdymo sąsają](production-floor-execution-tabs.md) .) Darbuotojas gali pasirinkti **Sureguliuokite medžiagą** atliekamam gamybos darbui. Šiuo atveju, **Sureguliuokite medžiagą** pasirodo dialogo langas, kuriame darbuotojas gali atlikti norimus pakeitimus. Kai atidaromas dialogo langas, gamybos užsakymui sukuriamas produkcijos rinkimo sąrašas, kuriame yra pakoreguotų kiekių eilutės. Jei darbuotojas pasirenka **Paskelbti dabar**, koregavimas patvirtinamas ir išrinkimo sąrašas paskelbiamas. Jei darbuotojas pasirenka **Atšaukti**, rinkimo sąrašas ištrinamas ir koregavimas neatliekamas.
+
+### <a name="reserve-materials"></a>Rezervuoti medžiagas
+
+Viduje konors **Sureguliuokite medžiagą** dialogo lange, darbuotojas gali atlikti ir koreguoti medžiagų rezervacijas pasirinkdamas **Rezervinė medžiaga**. The **Rezervinė medžiaga** Pasirodžiusiame dialogo lange rodomos fiziškai prieinamos prekės atsargos kiekvienam saugojimo ir stebėjimo aspektui.
+
+Jei medžiaga įgalinta išplėstiniams sandėlio procesams, sąraše rodomos tik fiziškai prieinamos medžiagos gamybos įvesties vietos atsargos. Gamybos įvesties vieta apibrėžiama išteklyje, kuriame planuojama gamybos užduotis. Jei prekės numeris yra kontroliuojamas partijos arba serijos numeriu, rodomas visas fiziškai prieinamų partijos ir serijos numerių sąrašas. Norėdamas nurodyti rezervuojamą kiekį, darbuotojas gali pasirinkti **Rezervinė medžiaga**. Norėdami pašalinti esamą rezervaciją, darbuotojas gali pasirinkti **Pašalinti rezervaciją**.
+
+Norėdami gauti daugiau informacijos apie tai, kaip nustatyti gamybos įvesties vietą, žr. šį tinklaraščio įrašą: [Gamybos įvesties vietos nustatymas](/archive/blogs/axmfg/deliver-picked-materials-to-the-locations-where-the-materials-are-consumed-by-operations-in-production).
+
+> [!NOTE]
+> Darbuotojo daromos išlygos **Rezervinė medžiaga** dialogo langas išliks, kai darbuotojas pasirinks **Atšaukti** viduje konors **Pranešti apie pažangą** arba **Pranešti apie iškarpą** dialogo langas.
 
 ## <a name="completing-a-job-and-starting-a-new-job"></a>Užduoties užbaigimas ir naujos užduoties pradėjimas
 

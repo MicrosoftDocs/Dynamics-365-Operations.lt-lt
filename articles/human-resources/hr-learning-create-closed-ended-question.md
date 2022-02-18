@@ -1,5 +1,5 @@
 ---
-title: Kurti uždarą klausimą
+title: Uždarų klausimų kūrimas
 description: Uždari klausimai leidžia suteikti respondentui pasirinkimo variantų.
 author: twheeloc
 ms.date: 08/26/2021
@@ -13,14 +13,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8758b74f9ce7c8687b7c2925ccd04cd512602db0
-ms.sourcegitcommit: 8246ba3872a1f3eaa18c8bb1ba86d3c2142a6e10
-ms.translationtype: HT
+ms.openlocfilehash: b3b90bb2a4981f32feb10ee1192e9c4d2e604e7a
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/31/2021
-ms.locfileid: "7465178"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8071759"
 ---
 # <a name="create-a-closed-ended-question"></a>Kurti uždarą klausimą
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -34,10 +37,10 @@ Uždari klausimai leidžia suteikti respondentui pasirinkimo variantų. Pirmiaus
 2. Spustelėkite **Naujas**.
 3. Lauke **Atsakymų grupė** įveskite reikšmę.
 4. Lauke **Aprašo laukas** surinkite reikšmę.
-    * Naudokite funkciją „Atsitiktinė tvarka“, kad atsakymai būtų pateikiami atsitiktinai vis kitokia tvarka kiekvieną kartą, kai klausimui naudojama atsakymų grupė.  
+    * Naudoti **Atsitiktinis** funkcija, leidžianti atsitiktinai išdėstyti atsakymus kita tvarka kiekvieną kartą, kai atsakymo grupė naudojama klausimui.  
 5. Spustelėkite **Atsakyti**.
 6. Spustelėkite **Naujas**.
-    * Atsakymų rodymo tvarką valdo sekos numeris, nebent atsakymų grupui taikoma „Atsitiktinė tvarka“.  
+    * Sekos numeris valdo atsakymų rodymo tvarką, nebent **Atsitiktinis** yra pasirinktas **Atsakymų grupė**.  
     * Klausimynas gali būti vertinamas atsakymams skiriant taškus.  
 7. Lauke **Taškai** įveskite skaičių.
     * Galima pažymėti teisingą atsakymą parodant, kad pasirinktas atsakymas yra teisingas. Tai gali būti naudojama vertinant klausimyną.  
@@ -61,8 +64,8 @@ Uždari klausimai leidžia suteikti respondentui pasirinkimo variantų. Pirmiaus
 ## <a name="create-the-question"></a>Kurti klausimą
 1. Pasirinkite **Klausimynas** > **Kūrimas** > **Klausimai**.
 2. Spustelėkite **Naujas**.
-3. Naudokite lauką „Tipas“, kad sugrupuotumėte susijusius klausimus.
-    * Galite naudoti įvesties tipo žymės langelį, alternatyvų mygtuką arba pasirinktinio įvedimo lauką uždariems klausimams.  
+3. Naudoti **Tipas** lauke kartu su grupe susijusius klausimus.
+    * Galite naudoti įvesties tipus **Žymimasis langelis**, **mygtukas**, arba **Kombinuota dėžutė** uždaro tipo klausimams.  
 4. Lauke **Įvesties tipas** pasirinkite parinktį.
 5. Lauke **Atsakymų grupė** įveskite arba pasirinkite reikšmę.
 6. Lauke **Tekstas** įveskite reikšmę.

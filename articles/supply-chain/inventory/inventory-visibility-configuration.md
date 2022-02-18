@@ -11,17 +11,17 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: fcbace2bd28a843fca8aa2f4f998c08f238c29d6
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.openlocfilehash: 8ba478fef424a6c4688191ed4e5375bbce52de0c
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920303"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8061006"
 ---
 # <a name="configure-inventory-visibility"></a>Atsargų matomumo konfigūravimas
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
+
 
 Ši tema aprašo, kaip įdiegti ir konfigūruoti inventoriaus matomumo programą „Power Apps“.
 
@@ -58,10 +58,10 @@ Baigę konfigūruoti programoje pasirinkite **Naujinti konfigūraciją** program
 
 ## <a name="data-source-configuration"></a>Duomenų šaltinio konfigūravimas
 
-Kiekvienas duomenų šaltinis rodo sistemą, iš kurios gauti jūsų duomenys. Pavyzdžio duomenų šaltinio pavadinimas apima `fno` (tai reiškia „Dynamics 365 Finance and Operations "programėles") ir `pos` (tai reiškia "point of sale"). Pagal numatytuosius nustatymus „Supply Chain Management“ nustatomas kaip numatytasis duomenų šaltinis (`fno`) atsargų matomumo atveju.
+Kiekvienas duomenų šaltinis rodo sistemą, iš kurios gauti jūsų duomenys. Duomenų šaltinių pavadinimų pavyzdžiai apima`fno` (tai reiškia "Dynamics 365 Finance ir operacijų programėlės“) ir`pos` (o tai reiškia „pardavimo vieta“). Pagal numatytuosius nustatymus „Supply Chain Management“ nustatomas kaip numatytasis duomenų šaltinis (`fno`) atsargų matomumo atveju.
 
 > [!NOTE]
-> Duomenų `fno` šaltinis rezervuotas tiekimo grandinės valdymui. Jei jūsų atsargų matomumo priedas yra integruotas tiekimo grandinės valdymo aplinkoje, rekomenduojame nenaiknti su duomenų šaltiniu `fno` susijusių konfigūracijų.
+> The`fno` duomenų šaltinis yra rezervuotas tiekimo grandinės valdymui. Jei jūsų atsargų matomumo papildinys yra integruotas su tiekimo grandinės valdymo aplinka, rekomenduojame nenaikinti konfigūracijų, susijusių su`fno` duomenų šaltinyje.
 
 Norėdami įtraukti duomenų šaltinį, atlikite nurodytus veiksmus.
 
@@ -273,17 +273,17 @@ Išvestis `MyCustomAvailableforReservation` paremta apskaičiavimo nustatymais t
 
 ## <a name="partition-configuration"></a><a name="partition-configuration"></a>Skaidinio konfigūracija
 
-Šiuo metu skaidinio konfigūraciją sudaro dvi pagrindinės dimensijos `SiteId``LocationId` (ir) kurios nurodo, kaip paskirstomi duomenys. To paties skaidinio operacijos gali padidinti našumą už mažesnes išlaidas. Toliau pateikiamoje lentelėje rodoma numatytoji skaidinio konfigūracija, kurią teikia atsargų matomumo priedas.
+Šiuo metu skaidinio konfigūraciją sudaro du pagrindiniai matmenys (`SiteId` ir`LocationId`), kurie nurodo, kaip duomenys paskirstomi. Operacijos toje pačioje skaidinyje gali užtikrinti didesnį našumą mažesnėmis sąnaudomis. Šioje lentelėje parodyta numatytoji skaidinio konfigūracija, kurią teikia atsargų matomumo papildinys.
 
 | Pagrindinė dimensija | Hierarchija |
 |---|---|
 | `SiteId` | 1 |
 | `LocationId` | 2 |
 
-Sprendimas apima šio skaidinio konfigūraciją pagal numatytuosius nustatymus. Todėl *jums nereikia jų patiems nurodyti*.
+Pagal numatytuosius nustatymus sprendimas apima šią skaidinio konfigūraciją. Todėl, *jūs neprivalote to apibrėžti patys*.
 
 > [!IMPORTANT]
-> Nepritaikykite numatytosios skaidinio konfigūracijos. Jei jį panaikinsite arba pakeisite, tikėtina, kad įvyko netikėta klaida.
+> Netinkinkite numatytosios skaidinio konfigūracijos. Jei jį ištrinsite arba pakeisite, greičiausiai sukelsite netikėtą klaidą.
 
 ## <a name="product-index-hierarchy-configuration"></a><a name="index-configuration"></a>Produkto indeksų hierarchijos konfigūracija
 
