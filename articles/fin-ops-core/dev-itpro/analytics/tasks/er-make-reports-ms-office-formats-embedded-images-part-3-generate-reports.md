@@ -1,10 +1,12 @@
 ---
 title: Ataskaitų „Office“ formatu su įdėtaisiais vaizdais generavimas
-description: Šioje temoje aprašoma, kaip sukurti elektroninių ataskaitų kūrimo (ER) konfigūracijas, norint generuoti „Excel” ir „Word” elektroninius dokumentus, kuriuose yra įdėtųjų vaizdų.
+description: Tolesni veiksmai paaiškina, kaip sistemos administratoriaus arba „Elektroninių ataskaitų kūrėjas“ vaidmenį turintis vartotojas gali sukurti naują elektroninių ataskaitų teikimo (ER) konfigūraciją, skirtą elektroninių dokumentų, turinčių įdėtųjų vaizdų, generavimui „MS office“ formatais („Excel“ ir „Word“).
 author: NickSelin
+manager: AnnBe
 ms.date: 06/13/2017
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -12,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6ec9f3013c1e365a3ca1a4c6cabe71a22e3e8b730eac38155ef023fe68107524
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 78dcdbd83dc717104d437662f7f451c9ecb714cf
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6735531"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684384"
 ---
 # <a name="generate-reports-in-office-format-that-have-embedded-images"></a>Ataskaitų „Office“ formatu su įdėtaisiais vaizdais generavimas
 
@@ -117,6 +119,3 @@ Tolesni veiksmai paaiškina, kaip sistemos administratoriaus arba „Elektronini
 23. Spustelėkite Gerai.
     * Peržiūrėkite sukurtą išvestį. Išvestis sugeneruota kaip „Word“ dokumentas su įdėtaisiais vaizdais, pateikiant įmonės logotipą, įgalioto asmens parašą ir pažymėtą vandenženklio tekstą.  
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

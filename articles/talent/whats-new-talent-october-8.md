@@ -41,6 +41,3 @@ Skiriant darbuotojams atostogų premijas, premijų pakopos pagrindas nurodo, kie
 ## <a name="known-issue"></a>Žinoma problema
 
 **Problema:** pridedant naują priedą prie darbininko, mygtukai **Naujas** ir **Redaguoti** yra pateikiami pilka spalva. **Problemos sprendimas:** prieš atidarydami priedo puslapį įsitikinkite, kad „FactBoxes“ laukai puslapyje **Darbininkas** yra uždaryti. Jei „FactBoxes“ laukai yra uždaryti, įkeliant puslapį **Darbininkas** priedų mygtukai bus įjungti. (Ši problema bus pašalinta kitame platformos naujinime.)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -102,6 +102,3 @@ Susidūrę su problemomis registruodami darbo skelbimą „Broadbean“, atlikit
 [Darbų kūrimas, tvirtinimas ir registravimas sprendime „Attract“](./creating-jobs-attract.md)
 
 [„Broadbean“ integravimo „Microsoft Dynamics 365 Talent - Attract” įjungimas](./attract-admin-job-board-settings.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

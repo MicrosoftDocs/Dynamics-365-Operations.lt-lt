@@ -2,9 +2,11 @@
 title: Pasirinktinių laukų kūrimas ir naudojimas
 description: Šioje temoje parodoma, kaip vartotojo sąsajoje kurti pasirinktinius laukus ir programą pritaikyti savo verslui.
 author: jasongre
-ms.date: 05/24/2021
+manager: AnnBe
+ms.date: 03/09/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: SysCustomFieldManageFields
 audience: Application User
@@ -13,23 +15,20 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2018-1-31
 ms.dyn365.ops.version: Platform update 13
-ms.openlocfilehash: 2ab1c402d99c1d9b7d7dc06e64c93fe43c5a1e9f
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
-ms.translationtype: MT
+ms.openlocfilehash: eee5b072f999aab7d4a5e72888abad3915e03d5b
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8071190"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798123"
 ---
 # <a name="create-and-work-with-custom-fields"></a>Pasirinktinių laukų kūrimas ir naudojimas
 
 [!include [banner](../includes/banner.md)]
 
-
-[!INCLUDE [PEAP](../../../includes/peap-1.md)]
-
 Nors yra platus parengtų naudoti laukų rinkinys, skirtas valdyti įvairius verslo procesus, kartais įmonei sistemoje reikia sekti papildomą informaciją. Nors programuotojai gali įtraukti šiuos laukus kaip plėtinius į programavimo įrankius, pasirinktinių laukų funkcija leidžia įtraukti laukus tiesiai iš vartotojo sąsajos, todėl galite pritaikyti programą prie savo įmonės per žiniatinklio naršyklę.
 
-*Tik vartotojai, turintis specialias teises, turi prieigą prie šios funkcijos.*
+Galimybė pridėti pasirinktinius laukus pasiekiama 13-ame ir vėlesniuose platformos naujinimuose. Tik vartotojai, turintis specialias teises, turi prieigą prie šios funkcijos.
 
 Šiame vaizdo įraše rodoma, kaip lengva į puslapį įtraukti pasirinktinį lauką: [Pasirinktinių laukų įtraukimas](https://www.youtube.com/watch?v=gWSGZI9Vtnc).
 
@@ -49,9 +48,8 @@ Tolesniais veiksmais aprašomas pasirinktinio lauko kūrimo ir įtraukimo į for
     Jei mygtuko **Kurti naują lauką** nematote, neturite reikiamų teisių naudoti šią funkciją.
 
 7. Dialogo lange **Kurti naują lauką** įveskite tolesnę informaciją.
-   
-    1. Pasirinkite duomenų bazės lentelę, į kurią šis laukas turėtų būti įtrauktas. Atkreipkite dėmesį, kad išplečiamajame sąraše bus rodomos tik pasirinktinius laukus palaikančios lentelės. Techninės informacijos apie palaikomas lenteles rasite žemiau esančiame skyriuje.
 
+    1. Pasirinkite duomenų bazės lentelę, į kurią šis laukas turėtų būti įtrauktas. Atkreipkite dėmesį, kad išplečiamajame sąraše bus rodomos tik pasirinktinius laukus palaikančios lentelės. Techninės informacijos apie palaikomas lenteles rasite žemiau esančiame skyriuje.
     2. Pasirinkite naujojo lauko duomenų tipą. Galimi duomenų tipai yra žymės langelis, data, data ir laikas, dešimtainis skaičius, skaičius, išrinkimo sąrašas ir tekstas.
 
         - Jei pasirenkate teksto duomenų tipą, taip pat galite nurodyti didžiausią teksto, kurį galima įvesti šiame lauke, ilgį.
@@ -64,15 +62,11 @@ Tolesniais veiksmais aprašomas pasirinktinio lauko kūrimo ir įtraukimo į for
 10. Spustelėkite **Įterpti**, kad pažymėtus laukus įterptumėte į pasirinktą formos sritį.
 11. **Pasirenkama.** Personalizavimo įrankių juostoje įjunkite režimą **Perkelti**, kad naujuosius laukus perkeltumėte į norimą pasirinktos srities vietą. Norėdami gauti daugiau informacijos apie tai, kaip, naudojant įvairias personalizavimo galimybes, optimizuoti formą asmeniniam naudojimui, žr. [Vartotojo patirties personalizavimas](personalize-user-experience.md).
 
-> [!WARNING]
-> Galimybė įvesti reikšmes į puslapį įtrauktame pasirinktiniame lauke priklauso nuo to, ar lentelę, susietą su pasirinktiniu lauku, galima redaguoti, ar tik skaityti. Kai susietoji lentelė yra tik skaitoma, visi su ta lentele susieti laukai, įskaitant visus pasirinktinius laukus, taip pat bus tik skaitomi.
-
-
 ## <a name="sharing-custom-fields-with-other-users"></a>Pasirinktinių laukų bendrinimas su kitais vartotojais
 
-Sukūrę pasirinktinį lauką ir įtraukę jį į puslapį, galbūt norėsite šį atnaujintą puslapio rodinį su naujuoju lauku bendrinti su kitais sistemos vartotojais. Tai galima atlikti toliau nurodytais dviem skirtingais būdais, naudojant produkto personalizavimo galimybes.
+Sukūrę pasirinktinį lauką ir jį įtraukę į formą, galbūt norėsite šį atnaujintą puslapio rodinį su naujuoju lauku bendrinti su kitais sistemos vartotojais. Tai galima atlikti toliau nurodytais dviem skirtingais būdais, naudojant produkto personalizavimo galimybes.
 
-- Rekomenduojamas maršrutas yra **paskelbti [įrašytą rodinį](saved-views.md)** su pasirinktiniu lauku, pridėtu prie puslapio atitinkamam vartotojų rinkiniui. Jei įrašytų rodinių funkcija neįgalinta, sistemos administratorius gali pritaikyti suasmeninimą norimiems vartotojams iš Suasmeninimo formos. Daugiau informacijos rasite [Vartotojo patirties suasmeninimas](personalize-user-experience.md).
+- Rekomenduojamas kelias – kreiptis į sistemos administratorių, kuris personalizuotą elementą gali perduoti visiems vartotojams arba vartotojų subrinkiniui. Norėdami gauti daugiau informacijos, žr. [Vartotojo patirties personalizavimas](personalize-user-experience.md).
 - Arba savo keitimus (vadinamus *personalizavimais*) galite eksportuoti, nusiųsti vienam ar keliems vartotojams, kad kiekvienas iš jų jūsų keitimus importuotų. Eksportuoti ir importuoti personalizavimus galite pasirinkę personalizavimo įrankių juostos parinktį **Valdyti**.
 
 ## <a name="managing-custom-fields"></a>Pasirinktinių laukų valdymas
@@ -143,10 +137,6 @@ Retais atvejais galite nuspręsti, kad koks nors pasirinktinis laukas yra nebere
 
 ## <a name="appendix"></a>Priedas
 
-### <a name="why-cant-i-enter-a-value-in-my-custom-field"></a>Kodėl negaliu įvesti reikšmės savo pasirinktiniame lauke? 
-
-Jei negalite įvesti reikšmės į pasirinktinį lauką puslapiui veikiant Redagavimo režimu, taip gali būti dėl to, kad lentelė, prie kurios buvo pridėtas laukas, šiuo metu yra tik skaitoma. Visi lentelės laukai tampa tik skaitomi tuo atveju, jei atsarginė lentelė šiuo metu puslapyje yra sukonfigūruota kaip tik skaitoma.   
-
 ### <a name="who-can-create-custom-fields"></a>Kas gali kurti pasirinktinius laukus?
 
 Siekiant apsaugoti sistemą, pagal numatytuosius nustatymus kurti pasirinktinius laukus gali tik sistemos administratoriai. Tačiau, jei organizacija nusprendžia, kad to reikia, sistemos administratorius patyrusiems vartotojams gali suteikti teises kurti pasirinktinius laukus, naudodamas saugos vaidmenį **Patyręs vykdymo aplinkos tinkinimo vartotojas**. Šio saugos vaidmens neturintys vartotojai pasirinktinių laukų kurti negalės, tačiau vis tiek galės matyti ir interaktyviai naudoti kitų sistemos vartotojų įtrauktus pasirinktinius laukus.
@@ -172,6 +162,3 @@ Dėl našumo ir techninių priežasčių pasirinktinių laukų galima įtraukti 
 ### <a name="can-i-reference-custom-fields-from-the-developer-tools"></a>Ar galiu nurodyti pasirinktinius laukus iš programavimo įrankių?  
 
 Pasirinktinius laukus galima valdyti tik vartotojo sąsajoje ir jų negalima nurodyti pagal kodą. 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

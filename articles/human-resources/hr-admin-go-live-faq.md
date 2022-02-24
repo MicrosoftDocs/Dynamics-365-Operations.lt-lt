@@ -2,12 +2,15 @@
 title: DUK apie įgyvendinimo pradžią
 description: Šioje temoje pateikiami dažnai užduodami klausimai apie tai, kaip įgyvendinti „Dynamics 365 Human Resources” diegimo projektą.
 author: rachel-profitt
+manager: tfehr
 ms.date: 10/13/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -15,21 +18,16 @@ ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c449ae6eb84fb4150072c386d02b100ca3cca219
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
-ms.translationtype: MT
+ms.openlocfilehash: cbf00f7428c9b1852a5bf54fd7e30a3bddc1a31e
+ms.sourcegitcommit: 0e60df840688932795b9c8f8fd45d98f5ab6ba8c
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8067231"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "4668950"
 ---
 # <a name="go-live-faq"></a>DUK apie įgyvendinimo pradžią 
 
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Šioje temoje pateikiami dažnai užduodami klausimai apie tai, kaip įgyvendinti „Dynamics 365 Human Resources” diegimo projektą. 
 
@@ -50,7 +48,7 @@ Norėdami gauti būtinųjų sąlygų sąrašą, žr.  [Rengimasis įgyvendinim
 
 ## <a name="what-is-a-go-live-assessment"></a>Kas yra įgyvendinimo įvertinimas?  
 
-Įgyvendinimo įvertinimas yra  [„Microsoft FastTrack” programos](/dynamics365/fasttrack/) dalis. Šios peržiūros metu sprendimų architektas įvertina, ar įgyvendinimo projektas parengtas sėkmingam pritaikymui ir įgyvendinimui. Ši peržiūra yra privaloma kiekvienam įgyvendinimo projektui, kad galima būtų pateikti įgyvendinimo gamybos aplinkoje užklausą. 
+Įgyvendinimo įvertinimas yra  [„Microsoft FastTrack” programos](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/fasttrack-dynamics-365-overview) dalis. Šios peržiūros metu sprendimų architektas įvertina, ar įgyvendinimo projektas parengtas sėkmingam pritaikymui ir įgyvendinimui. Ši peržiūra yra privaloma kiekvienam įgyvendinimo projektui, kad galima būtų pateikti įgyvendinimo gamybos aplinkoje užklausą. 
 
 ## <a name="our-sandbox-environments-are-deployed-in-the-central-us-datacenter-we-want-our-production-environments-to-be-deployed-in-the-west-us-datacenter-can-i-select-west-us-as-the-datacenter-in-my-production-configuration"></a>Mūsų smėlio dėžės aplinkos diegiamos centrinės JAV duomenų centre. Norime, kad mūsų gamybos aplinkos būtų diegiamos Vakarų JAV duomenų centre. Ar mano gamybos konfigūracijoje galiu pasirinkti Vakarų JAV kaip duomenų centrą? 
 
@@ -58,7 +56,7 @@ LCS nedraudžia pasirinkti kito duomenų centro, kai diegiate „Human Resources
 
 Jei norite, kad jūsų gamybos aplinka būtų Vakarų JAV duomenų centre, pirmiausia turite iš naujo įdiegti jūsų smėlio dėžės aplinkas į Vakarų JAV duomenų centrą, patikrinti jas ir išsiregistruoti. 
 
-Informacijos apie teisingo duomenų centro pasirinkimą žr. [Tinklo reikalavimai](../fin-ops-core/fin-ops/get-started/system-requirements.md#network-requirements). 
+Informacijos apie teisingo duomenų centro pasirinkimą žr. [Tinklo reikalavimai](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/system-requirements#network-requirements). 
 
 ## <a name="what-level-of-access-do-i-have-to-the-azure-resources-for-my-human-resources-environments"></a>Kokio lygio prieigą prie „Azure“ išteklių turiu mano „Human Resources” aplinkose?  
 
@@ -66,9 +64,9 @@ Prieiga prie „Human Resources” aplinkų yra ribota. Neturite prieigos prie v
 
 Nors negalite tiesiogiai pasiekti „Azure” išteklių ar „Dynamics 365 Human Resources” aplinkos, yra papildomų funkcijų, kurias galite naudoti norėdami pasiekti jūsų duomenis.
 
-- „Azure SQL” duomenų bazę galite įdiegti savo „Azure” nuomotojuje ir naudoti savo duomenų bazės naudojimo (BYOD) funkciją duomenims sinchronizuoti. Daugiau informacijos žr. [Savo duomenų bazės naudojimas (BYOD)](../fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database.md).
+- „Azure SQL” duomenų bazę galite įdiegti savo „Azure” nuomotojuje ir naudoti savo duomenų bazės naudojimo (BYOD) funkciją duomenims sinchronizuoti. Daugiau informacijos žr. [Savo duomenų bazės naudojimas (BYOD)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database).
 
-- Galite naudoti „Dataverse” integravimą, norėdami sinchronizuoti pasirinktus objektus su „Dataverse” duomenų baze. Dėl daugiau informacijos, žr. [„Dataverse“ lentelės](hr-developer-entities.md). 
+- Galite naudoti „Common Data Service” integravimą, norėdami sinchronizuoti pasirinktus objektus su „Common Data Service” duomenų baze. Daugiau informacijos žr. [„Common Data Service” objektai](hr-developer-entities.md). 
 
 ## <a name="how-often-is-my-production-database-backed-up"></a>Kaip dažnai sukuriamos mano gamybos duomenų bazės atsarginės kopijos? 
 
@@ -82,11 +80,11 @@ Duomenų bazių atsarginės kopijos kuriamos automatiškai toliau pateiktu dažn
 
 „Microsoft“ saugo pakankamai atsarginių kopijų taško laike atkūrimui (PITR) per paskutiniąsias 14 dienų. 
 
-Daugiau informacijos žr.  [Sužinokite apie automatiškai sukurtas SQL duomenų bazės atsargines kopijas](/azure/azure-sql/database/automated-backups-overview?tabs=single-database). 
+Daugiau informacijos žr.  [Sužinokite apie automatiškai sukurtas SQL duomenų bazės atsargines kopijas](https://docs.microsoft.com/azure/azure-sql/database/automated-backups-overview?tabs=single-database). 
 
 ## <a name="can-i-request-a-copy-of-the-backup-of-my-production-database"></a>Ar galiu pateikti užklausą dėl mano gamybos duomenų bazės atsarginės kopijos? 
 
-Nr. Tačiau galite pateikti duomenų bazės atnaujinimo paslaugos užklausą, kad nukopijuotumėte jūsų gamybos aplinką į jūsų smėlio dėžės aplinką. „Azure SQL” duomenų bazę galite įdiegti savo „Azure” nuomotojuje ir naudoti BYOD funkciją duomenims iš jūsų gamybos aplinkos sinchronizuoti. Daugiau informacijos žr. [Savo duomenų bazės naudojimas (BYOD)](../fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database.md). 
+Nr. Tačiau galite pateikti duomenų bazės atnaujinimo paslaugos užklausą, kad nukopijuotumėte jūsų gamybos aplinką į jūsų smėlio dėžės aplinką. „Azure SQL” duomenų bazę galite įdiegti savo „Azure” nuomotojuje ir naudoti BYOD funkciją duomenims iš jūsų gamybos aplinkos sinchronizuoti. Daugiau informacijos žr. [Savo duomenų bazės naudojimas (BYOD)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database). 
 
 ## <a name="how-do-i-move-my-sandbox-environment-to-production-for-go-live"></a>Kaip galiu perkelti mano smėlio dėžės aplinką į gamybos aplinką, norėdamas atlikti įgyvendinimą? 
 
@@ -96,11 +94,8 @@ Viso projekto metu rekomenduojame išlaikyti aiškų objektų, sukonfigūruotų 
 
 ## <a name="what-should-i-do-if-my-production-environment-is-down"></a>Ką daryti, jei mano gamybos aplinka neveikia? 
 
-Norėdami pranešti apie gamybos sutrikimus, vykdykite procesą, aprašytą  [Pranešimas apie gamybos sutrikimus](../fin-ops-core/dev-itpro/lifecycle-services/report-production-outage.md). 
+Norėdami pranešti apie gamybos sutrikimus, vykdykite procesą, aprašytą  [Pranešimas apie gamybos sutrikimus](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/lifecycle-services/report-production-outage). 
 
  ## <a name="see-also"></a>Taip pat žiūrėkite
 
  [Rengimasis įgyvendinimo pradžiai](hr-admin-go-live-prepare.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

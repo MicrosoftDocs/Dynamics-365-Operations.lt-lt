@@ -1,24 +1,26 @@
 ---
 title: Tiekėjų supažindinimas
 description: Šioje temoje aprašomas naujų tiekėjų supažindinimas. Jame paaiškinami veiksmai, reikalingi įvairiems vaidmenims šio proceso metu.
-author: Henrikan
+author: RichardLuan
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendProspectiveVendorRegistrationRequests, SysUserRequestListPage, VendRequestListPage, VendRequestCompanyProfile
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: henrikan
+ms.author: riluan
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: c2950cecfaf2c8b19ed14df748810b7d6f926c53
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 081c2e5145a9175ace946e332e299247e706b548
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7566892"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5019884"
 ---
 # <a name="onboard-vendors"></a>Tiekėjų supažindinimas
 
@@ -33,7 +35,7 @@ Procesą sudaro toliau nurodyti veiksmai, kai įvairius vaidmenis turintys asmen
 1. **Duomenų valdymo „OData“** – Objekto importavimas – pradinė užklausa yra galimo tiekėjo registravimo užklausa. Paprastai ši užklausa gaunama iš šaltinio, pvz., kliento nuomojamos svetainės, kuri suteikia anoniminę prieigą. Tiekėjai gali užsiregistruoti pateikdami pagrindinę informaciją, pvz., tiekėjo pavadinimą, pagrindimą, organizacijos numerį ir kontaktinio asmens vardas, pavardę bei el. pašto adresą. Užklausos importuojamos naudojant sąsają Duomenų valdymas.
 2. **Galimo tiekėjo registravimo užklausų sąrašo puslapis** – atsižvelgiant į galimo tiekėjo registravimo užklausoje pateiktą informaciją, įsigijimo specialistas nusprendžia, ar tiekėjas turi būti supažindintas. Įsigijimo specialistas peržiūri gaunamą užklausą sąrašo puslapyje **Galimo tiekėjo registravimo užklausos**.
 3. **Vartotojų parengimo darbo eiga** – kai įsigijimo specialistas patikrina gaunamos užklausos informaciją ir nusprendžia tęsti supažindinimo procesą, vartotojo užklausos darbo eiga parengia naują vartotoją ir el. paštu išsiunčia kvietimą priimti kontaktinį asmenį kaip autentifikuotą „Microsoft Dynamics 365“ vartotoją.
-4. **Tiekėjo registravimo vedlys** – tiekėjo kontaktinis asmuo prisijungia. naudodamas naują vartotojo paskyrą. Jis užbaigia tiekėjo registravimo vedlį ir pateikia informaciją, pavyzdžiui, adresus, verslo informaciją, įsigijimo kategorijas ir klausimyno atsakymus.
+4. **Tiekėjo registravimo vedlys** – tiekėjo kontaktinis asmuo prisijungia. naudodamas naują vartotojo paskyrą. Jis atlieka tiekėjo registravimo vedlį ir pateikia informaciją, pvz., adresus, verslo informaciją, įsigijimo kategorijas ir atsakymus į klausimyną.
 5. **Patvirtinimo darbo eiga** – sukuriama tiekėjo užklausa, kurioje yra registracijos informacija. Ši tiekėjo užklausa pateikiama į darbo eigą ir nukreipiama peržiūrėti bei patvirtinti.
 6. **Tiekėjo bendrųjų duomenų kūrimas ir vartotojo vaidmens modifikavimas** – patvirtinus tiekėjo užklausą, sukuriamas tiekėjo įrašas. Tiekėjo kontaktinio asmens vartotojo paskyrai suteikiama arba išjungiama prieigos prie tiekėjo bendradarbiavimo teisė.
 
@@ -41,7 +43,7 @@ Toliau pateikiamoje lentelėje parodomi proceso veiksmai ir vaidmenys.
 
 | Vaidmuo ir „procesas“       | Duomenų valdymo „OData“ – Objekto importavimas | Galimo tiekėjo registravimo užklausų sąrašo puslapis | Vartotojo parengimo darbo eiga | Tiekėjo registravimo vedlys | Patvirtinimo darbo eiga | Tiekėjo bendrųjų duomenų kūrimas ir vartotojo vaidmens modifikavimas |
 |--------------------------|---|---|---|---|---|---|
-| Sistema                   | Importuojama naujo tiekėjo užklausa. | | | | | Priėmus tiekėjo užklausą, sukuriamas tiekėjo įrašas. |
+| System                   | Importuojama naujo tiekėjo užklausa. | | | | | Priėmus tiekėjo užklausą, sukuriamas tiekėjo įrašas. |
 | Įsigijimo specialistas | | Pradėkite supažindinimo procesą. | | | Peržiūrėkite ir priimkite arba atmeskite tiekėjo užklausą. | |
 | Administratorius            | | | Sukurkite vartotoją Tiekimo grandinės valdyme ir „Microsoft Azure“. | | | |
 | Tiekėjo kontaktinis asmuo    | | | Siųskite el. laišką kontaktiniam asmeniui. | Užregistruokite tiekėjo informaciją. | | |
@@ -72,7 +74,7 @@ Importavus galimo tiekėjo registravimo užklausą, ji rodoma sąrašo puslapyje
 
 ## <a name="submitting-a-prospective-vendor-user-request"></a>Su galimu tiekėju susijusio vartotojo užklausos pateikimas
 
-Galimo tiekėjo vartotojo užklausos paskirtis yra parengti pradinę užklausą pateikusį asmenį, kad jis galėtų prisijungti prie „Supply Chain Management” naudodamas el. pašto paskyrą, kuri yra pateikta galimo tiekėjo registravimo užklausoje.
+Su galimu tiekėju susijusio vartotojo užklausos vartotojo užklausos paskirtis yra parengti asmenį, pateikusį pradinę užklausą, kad jis galėtų prisijungti prie Tiekimo grandinės valdymo naudodamas el. pašto paskyrą, kuri pateikta galimo tiekėjo registravimo užklausoje.
 
 Su galimu tiekėju susijusio vartotojo užklausą apdoroja vartotojo užklausos darbo eiga. Ši darbo eiga susisiekia naudodama „Azure AD“ B2B bendradarbiavimą. Ji sukuria vartotoją Tiekimo grandinės valdyme, kuriam priskirti atitinkami saugos parametrai.
 
@@ -87,7 +89,7 @@ Informacijos apie el. laiško konfigūravimą ir darbo eigą apskritai žr. vart
 
 ## <a name="vendor-registration"></a>Tiekėjo registracija
 
-Prie „Supply Chain Management” prisijungiantis galimo tiekėjo vartotojas matys pirmąjį tiekėjo registravimo vedlio puslapį, kuriame galės įvesti tiekėjo informaciją.
+Su galimu tiekėju susijęs vartotojas, kuris prisijungia prie Tiekimo grandinės valdymo, matys pirmąjį tiekėjo registravimo vedlio puslapį, kuriame jis gali įvesti tiekėjo informaciją.
 
 Vedlys atspindi tiekėjo užklausos konfigūraciją. Nuo šalies arba regiono, kuriame tiekėjas vykdo veiklą, priklauso, kokią informaciją prašoma nurodyti vedlyje ir kokia informacija yra privaloma.
 
@@ -127,7 +129,7 @@ Toliau pateikiamoje lentelėje parodomos galimos tiekėjo užklausų būsenos.
 |----------------------------|-------------|
 | Juodraštis                      | Tiekėjo užklausa dar nepateikta. |
 | Užklausa pateikta          | Tiekėjo užklausa pateikta ir pirmasis darbo eigos veiksmas apdorotas. |
-| Laukiama peržiūra             | Jei yra darbo eigos užduotį atlieka keli tikrintojai, tikrintojas gali priimti tiekėjo užklausos tikrinimo užduotį ir atlikti tikrinimą. Jei yra tik vienas tikrintojas, tas dalyvis gali baigti tikrinimą darbo eigos veiksme pasirinkdamas **Baigta**. Jis neturi pirmiausia patvirtinti darbo elemento. |
+| Laukiama peržiūra             | Jei yra darbo eigos užduotį atlieka keli tikrintojai, tikrintojas gali priimti tiekėjo užklausos tikrinimo užduotį ir atlikti tikrinimą. Jei yra tik vienas tikrintojas, tas dalyvis gali baigti tikrinimą darbo eigos veiksme pasirinkdamas **Baigta**. Jis neprivalo pirmiausia patvirtinti darbo elemento. |
 | Užklausa, laukianti patvirtinimo   | Tiekėjo užklausa nukreipta dalyviams patvirtinti ir galima prašyti papildomos informacijos. Papildomos informacijos užklausa nukreipia darbo elementą atgal į teikėjui. Tiekėjo užklausą taip pat galima patvirtinti arba atmesti, kol ji yra šios būsenos. |
 | Prašymo keitimo užklausa | Tvirtintojas paprašė papildomos informacijos ir tiekėjo užklausą buvo nukreipta asmeniui, kuris pateikė tiekėjo užklausą. Teikėjas gali įtraukti reikiamos informacijos ir pateikti tiekėjo užklausą iš naujo. Jei tiekėjo užklausa pateikta iš naujo, būsena pakeičiama būseną **Užklausa, laukianti patvirtinimo**. |
 | Užklausa patvirtinta           | Ši būsena yra galutinė būsena. |
@@ -172,6 +174,3 @@ Naudodami galimo tiekėjo registravimo užklausos veiksmą **Naikinti**, galite 
 |         Aprobuota         |                                                                               Tiekėjo užklausa patvirtinama.                                                                               |                                                                                                   Galimo tiekėjo registravimo užklausa, tiekėjo registravimo vedlyje įvesti duomenys ir tiekėjo užklausa panaikinami.                                                                                                    |
 |         Atmestas         |                                                                               Tiekėjo užklausa atmetama.                                                                               |                                                                                                   Galimo tiekėjo registravimo užklausa, tiekėjo registravimo vedlyje įvesti duomenys ir tiekėjo užklausa panaikinami.                                                                                                    |
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,9 +2,11 @@
 title: „Commerce“ smulkių išlaidų valdymas (Rytų Europa)
 description: Šioje temoje aprašoma, kaip nustatyti ir naudoti „Commerce“ grynųjų pinigų valdymo funkcijas Rytų Europoje.
 author: epopov
+manager: annbe
 ms.date: 10/03/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application user
 ms.reviewer: josaw
@@ -13,12 +15,12 @@ ms.search.industry: Retail
 ms.author: epopov
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 7a4c2e404b42a10a8d5f8b57135c56ae479a9efc3f5a8cef30831d02a3e53fe6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 91a3e35c973405f3b0eefb42d83847f5dd3fc60c
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719914"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5017231"
 ---
 # <a name="petty-cash-management-for-commerce-for-eastern-europe"></a>„Commerce“ smulkių išlaidų valdymas (Rytų Europa)
 
@@ -26,7 +28,7 @@ ms.locfileid: "6719914"
 
 Šiame straipsnyje pateikiama informacijos apie Rytų Europos prekybos verslo lokalizavimą.
 
-Pagal Rytų Europos apskaitos reikalavimus, galite nustatyti grynųjų pinigų sąskaitų operacijas ir automatizuoti gavimų, grynųjų pinigų dokumentų ir grynųjų pinigų ataskaitų procesus. Daugiau informacijos ieškokite [(EEUR) Nustatyti grynųjų pinigų valdymo parametrus](/dynamicsax-2012/appuser-itpro/eeur-set-up-parameters-for-cash-management).
+Pagal Rytų Europos apskaitos reikalavimus, galite nustatyti grynųjų pinigų sąskaitų operacijas ir automatizuoti gavimų, grynųjų pinigų dokumentų ir grynųjų pinigų ataskaitų procesus. Daugiau informacijos ieškokite [(EEUR) Nustatyti grynųjų pinigų valdymo parametrus](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/eeur-set-up-parameters-for-cash-management).
 
 Mažmenininkai gali priimti įvairių tipų mokėjimą mainais už produktus ir paslaugas, kurias jie parduoda. Nors dažniausia mokėjimo forma yra grynieji pinigai, mažmenininkai taip pat gali priimti mokėjimą čekiais, kortelėmis ar kvitais. „Retail“ elektroniniame kasos aparate (EKA) grynieji pinigai, kredito kortelių kvitai ir kiti mokėjimai apdorojami naudojant kasos aparatą.
 
@@ -36,7 +38,7 @@ Naudodami „Commerce“ grynųjų pinigų valdymą galite atlikti toliau nurody
 - Naudoti grynųjų pinigų žurnalus grynųjų pinigų operacijoms ir klientų mokėjimams, gautiems mažmeninės prekybos EKA, registruoti.
 - Sujungti išrašo eilutės operacijas registruojant išrašą. Galite sujungti pinigų įnešimą į kasą, inkasavimą, kvitų operacijas, mokėjimo priemonės išėmimo operacijas, pinigų srauto įrašo operacijas, pajamų operacijas, išlaidų operacijas, klientų mokėjimus, pardavimo operacijas ir grąžinimo operacijas.
 
-Visos EKA vykstančios operacijos užregistruojamos naudojant didžiosios knygos žurnalą. Norėdami kurti ir registruoti išrašus, galite naudoti grynųjų pinigų mokėjimo žurnalus, klientų mokėjimo žurnalus ir pagrindinius žurnalus. Norėdami gauti daugiau informacijos, eikite į [Mažmeninės prekybos parduotuvės išrašų kūrimas, skaičiavimas ir registravimas](/dynamics365/unified-operations/retail/tasks/create-calculate-post-statement-retail-store).
+Visos EKA vykstančios operacijos užregistruojamos naudojant didžiosios knygos žurnalą. Norėdami kurti ir registruoti išrašus, galite naudoti grynųjų pinigų mokėjimo žurnalus, klientų mokėjimo žurnalus ir pagrindinius žurnalus. Norėdami gauti daugiau informacijos, eikite į [Mažmeninės prekybos parduotuvės išrašų kūrimas, skaičiavimas ir registravimas](https://docs.microsoft.com/dynamics365/unified-operations/retail/tasks/create-calculate-post-statement-retail-store).
 
 Veiksmų srities puslapyje **Užregistruoti išrašai** galite atlikti toliau nurodytus veiksmus.
 
@@ -47,7 +49,7 @@ Veiksmų srities puslapyje **Užregistruoti išrašai** galite atlikti toliau nu
 
 Prieš naudodami grynųjų pinigų valdymą, privalote atlikti tolesnę nustatymo procedūrą.
 
-- Puslapyje **Mokėjimo būdai** nustatyti kiekvienam mokėjimo tipui skirtą mokėjimo būdą, su kuriuo sutinka pardavėjas. Galite naudoti skirtingus EKA registravimo operacijų mokėjimo būdus. Daugiau informacijos apie mokėjimo būdus ieškokite [Mokėjimo būdai](/dynamics365/unified-operations/retail/payment-methods).
+- Puslapyje **Mokėjimo būdai** nustatyti kiekvienam mokėjimo tipui skirtą mokėjimo būdą, su kuriuo sutinka pardavėjas. Galite naudoti skirtingus EKA registravimo operacijų mokėjimo būdus. Daugiau informacijos apie mokėjimo būdus ieškokite [Mokėjimo būdai](https://docs.microsoft.com/dynamics365/unified-operations/retail/payment-methods).
 - Nustatyti grynųjų pinigų operacijų parametrus.
 - Nustatyti mokėjimų grynaisiais pinigais parduotuvėje mokėjimo būdą.
 
@@ -90,6 +92,3 @@ Naudokite šią procedūrą norėdami nustatyti mokėjimų grynaisiais pinigais 
 
 > [!NOTE]
 > Parduotuvėje būtina nustatyti ir mokėjimo grynaisiais pinigais priemonės, ir mokėjimo priemonės šalinimo arba pinigų srauto įrašo mokėjimo būdo korespondentines sąskaitas. Tokiu būdu sukuriami subalansuoti mokėjimo priemonės šalinimo arba pinigų srauto operacijų DK įrašai.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

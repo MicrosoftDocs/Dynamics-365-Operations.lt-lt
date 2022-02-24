@@ -46,6 +46,3 @@ Daugiau informacijos ieškokite dalyje [„Talent“ parengimas](https://docs.mi
 **Ilgalaikis sprendimas**
 
 „Microsoft“ ketina automatiškai priskirti atitinkamas teises „Onboard“ arba „Attract“, kai vartotojas įtraukiamas į „Human Resources“.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

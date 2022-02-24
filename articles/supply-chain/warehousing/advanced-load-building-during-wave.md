@@ -2,23 +2,26 @@
 title: Papildomo krovinio kūrimas bangos metu
 description: Šioje temoje pateikiama informacija apie papildomo bangos krovinio kūrimą, kuris automatiškai priskiria siuntas esamoms bangoms vykdant bangą. Todėl galite sukurti prasmingus krovinius, kurie vaizduoja sunkvežimius, nenaudodami krovinio planavimo darbo srities.
 author: mirzaab
+manager: tfehr
 ms.date: 07/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSPostMethod,WHSWaveTemplateTable,WHSLoadMixGroup,WHSLoadBuildTemplate, WHSWaveTableListPage, TMSLoadBuildTemplateApply, TMSLoadBuildTemplates, TMSLoadBuildTemplateCreate
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
-ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 08e44b4e37f28ec91eeb8e53930de5133607bd66
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.9
+ms.openlocfilehash: 7f51b3d65c8dd1e11296956c37ef9dfe568e5ec2
+ms.sourcegitcommit: d9bffbeae2ba14f06294dd275383077d4d65c4fa
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7574742"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "4654203"
 ---
 # <a name="advanced-load-building-during-wave"></a>Papildomo krovinio kūrimas bangos metu
 
@@ -151,7 +154,7 @@ Norėdami pasinaudoti papildomo bangos krovinio kūrimo privalumais, turite įtr
 
 ### <a name="set-up-load-mix-groups"></a>Krovinio mišrių grupių nustatymas
 
-Įkelkite mišrių grupių nustatymo taisykles prekių tipams, kurie gali būti sujungti viename krovinyje. Galite nustatyti tiek krovinių mišrių grupių, kiek jums reikia. Tačiau norėdami naudoti papildomą bangos krovinio kūrimą, turite turėti bent vieną. Atlikite šiuos veiksmus, kad sukurtumėte krovinio mišrią grupę.
+Įkelkite mišrių grupių nustatymo taisykles prekių tipams, kurie gali būti sujungti viename krovinyje. Galite nustatyti tiek krovinių mišrių grupių,  kiek jums reikia. Tačiau norėdami naudoti papildomą bangos krovinio kūrimą, turite turėti bent vieną. Atlikite šiuos veiksmus, kad sukurtumėte krovinio mišrią grupę.
 
 1. Eikite į **Sandėlio valdymas** \> **Sąranka** \> **Krovinys** \> **Krovinio mišrios grupės**.
 1. Veiksmų srityje pasirinkite **Nauja**, kad sukurtumėte krovinio grupę.
@@ -166,7 +169,7 @@ Norėdami pasinaudoti papildomo bangos krovinio kūrimo privalumais, turite įtr
 1. **Skirtuko mišrios grupės kriterijai** „FastTab” pasirinkite **Nauja**, kad pridėtumėte eilutę į tinklelį.
 1. Naujoje eilutėje nustatykite norimas vertes kiekviename lauke. Šios vertės apibrėžia prekių grupes, kurios svarstoma įtraukti į krovinio kombinaciją.
 
-    Jei dirbate su **USMF** parodomosios versijos duomenimis, pasirinkite *TV&vaizdo įrašas* lauke **Prekės grupė**.
+    Jei dirbate su **USMF** parodomosios versijos duomenimis, pasirinkite *TV ir vaizdo įrašas* lauke **Prekės grupė**.
 
 1. Veiksmų srityje pasirinkite **Įrašyti**, kad **Krovinio mišrios grupės apribojimai** „FastTab” skirtukas taptų prieinamas.
 1. **Mišrios grupės apribojimai** „FastTab” skirtuke pasirinkite **Nauja**, kad pridėtumėte eilutę į tinklelį.
@@ -175,7 +178,7 @@ Norėdami pasinaudoti papildomo bangos krovinio kūrimo privalumais, turite įtr
     Jei dirbate su **USMF** parodomosios versijos duomenimis, nustatykite šias vertes:
 
     - **Prekės grupė:** *AutomobilioAudio*
-    - **Krovinio kūrimo veiksmas:** *Riboti* (Ši vertė neleis priskirti prekių, priklausančių **AutomobilioAudio** prekių grupei, tam pačiam kroviniui kaip prekių, priklausančių **TV&Vaizdo įrašas** prekių grupei.)
+    - **Krovinio kūrimo veiksmas:** *Riboti* (Ši vertė neleis priskirti prekių, priklausančių **AutomobilioAudio** prekių grupei, tam pačiam kroviniui kaip prekių, priklausančių **TV ir Vaizdo įrašas** prekių grupei.)
 
 1. Toliau dirbkite su taisyklėmis, kol pridėsite visus kriterijus ir apribojimus, kurių reikia krovinio mišriajai grupei.
 
@@ -247,6 +250,3 @@ Galite nustatyti tiek krovinių kūrimo šablonų, kiek būtina. Tačiau norėda
 1. Ką tik sukurtame pardavimo užsakyme **Pardavimo užsakymo eilutės** „FastTab” pasirinkite **Pridėti eilutę**, kad pridėtumėte kitą eilutę.
 1. Naujoje eilutėje nustatykite **Prekės numeris** lauką į *M9200* ir **Kiekis** lauką į  *1*.
 1. Pakartokite nuo 6 iki 9 eilutes, kad užrezervuotumėte eilutę ir ją išleistumėte į sandėlį. Kaip ir anksčiau, sistema sukuria **Nauja** siuntą naujai jūsų pridėtai eilutei. Tačiau, kadangi prekė yra iš **AutomobilioAudio** prekių grupės, ji **neperleidžia jūsų krovinio mišriai grupei nustatytų apribojimų**. Todėl jis **pridedamas į naują krovinį**. Jei nebūtumėte nurodę krovinio mišrios grupės krovinio kūrimo šablone, ši siunta būtų buvusi pridėta pirmame krovinyje.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

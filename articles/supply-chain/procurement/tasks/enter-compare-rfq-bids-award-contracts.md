@@ -1,24 +1,26 @@
 ---
 title: RFQ kainos pasiūlymų įvedimas bei lyginimas ir sutarčių pasirinkimas
 description: Šioje temoje pasakojama kaip įvesti atsakymus pasiūlymo patvirtinimui (RFQ), skaičiuoti ir lyginti kainų pasiūlymus bei pasirinkti vieno iš tiekėjų sutartį.
-author: Henrikan
+author: RichardLuan
+manager: tfehr
 ms.date: 07/09/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchRFQCaseTableListPage, PurchRFQCaseTable, PurchRFQReplyTable, PurchRFQCompare, PurchRFQEditLines, PurchRFQEditLinesParameters, PurchTable, PurchTablePart, PurchRFQCompareLinePrices, PurchRFQCompareRFQ
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: henrikan
+ms.author: riluan
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8378a491e528c1e1166f0688e29f923a25f23eed
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 3f14b95a71397bf5879c97654620e1d4c22a1149
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579477"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5016683"
 ---
 # <a name="enter-and-compare-rfq-bids-and-award-contracts"></a>RFQ kainos pasiūlymų įvedimas bei lyginimas ir sutarčių pasirinkimas
 
@@ -32,7 +34,7 @@ Galite įvesti kainos pasiūlymą kaip tiekėjas arba įsigijimo specialistas. D
 
 ## <a name="enter-a-reply-as-a-vendor"></a>Įveskite atsakymą kaip teikėjas
 
-1. Eikite **į tiekėjo \> bendradarbiavimo sričių tiekėjo kainos \> pasiūlymą**.
+1. Ataskaitų srityje pasirinkite **Tiekėjų kainos pasiūlymas**.
 2. Sąraše **Nauji kainos pasiūlymo kvietimai** suraskite ką tik išsiųstą RFQ. Pasirinkite RFQ, kad pamatytumėte, ko prašoma.
 3. Pasirinkite **RFQ priedai**, norėdami peržiūrėti visus pridėtus priedus.
 4. Pasirinkite **Kainos pasiūlymas**, kad laukai būtų redaguojami. Atkreipkite dėmesį, kad laukas **Kainos pasiūlymo eiga** nustatytas į **Atnaujina tiekėjas**.
@@ -104,6 +106,3 @@ Galite įvesti kainos pasiūlymą kaip tiekėjas arba įsigijimo specialistas. D
 ## <a name="view-the-purchase-order-that-is-generated"></a>Sugeneruojama pirkimo užsakymo peržiūra
 
 Veiksmų srities skirtuke **Bendra** pasirinkite **Pirkimo užsakymas**. Pasirodžiusiame puslapyje galite peržiūrėti pirkimo užsakymą, kuris buvo sugeneruotas, kai priėmėte kainos pasiūlymą.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

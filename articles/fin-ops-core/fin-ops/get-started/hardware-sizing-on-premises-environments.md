@@ -2,9 +2,11 @@
 title: Aparatūros dydžio reikalavimų nustatymas vietinėse aplinkose
 description: Šioje temoje pateikiami aparatūros dydžio reikalavimai vietinėje aplinkose.
 author: sericks007
-ms.date: 06/02/2021
+manager: AnnBe
+ms.date: 11/27/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
@@ -14,12 +16,12 @@ ms.search.region: Global
 ms.author: chwolf
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: 443b80e44a90a68610fbb2bb5a5f4b6b7d545fa7ad772edb3672972fa82f8cbd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9d4f2e59d4dd78d15d561ff0da47e4b9b1a2fce3
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6763439"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798309"
 ---
 # <a name="hardware-sizing-requirements-for-on-premises-environments"></a>Aparatūros dydžio reikalavimų nustatymas vietinėse aplinkose
 
@@ -36,7 +38,7 @@ Peržiūrėję dokumentus, galite pradėti savo operacijų ir vienu metu dirban�
 
 Visi tolesniame paveikslėlyje parodyti veiksniai turi įtakos dydžiui. Kuo išsamesnė surinkta informacija, tuo tiksliau galite nustatyti dydį. Nenaudojant papildomų duomenų aparatūros dydis gali būti nustatytas netiksliai. Absoliutus mažiausias reikiamų duomenų kiekis yra didžiausia operacijos eilučių apkrova per valandą.
 
-[![Aparatūros dydžio nustatymas vietinėse aplinkose.](./media/lbd-sizing-01.png)](./media/lbd-sizing-01.png)
+[![Aparatūros dydžio nustatymas vietinėse aplinkose](./media/lbd-sizing-01.png)](./media/lbd-sizing-01.png)
 
 Žvelgiant iš kairės į dešinę, pirmiausias ir svarbiausias veiksnys, reikalingas norint tiksliai įvertinti dydį, yra operacijos šablonas arba operacijos apibūdinimas. Svarbu visada nustatyti didžiausią operacijų kiekį per valandą. Jei yra keli didžiausio kiekio laikotarpiai, šiuos laikotarpius būtina tiksliai apibrėžti.
 
@@ -132,15 +134,10 @@ Daugeliu atvejų turėtų užtekti minimalių rekomenduojamų reikalavimų naudo
 
 Naudojant bendrai prieinamą leidimą, galima diegti tik vieną SSRS mazgą. Stebėkite savo SSRS mazgą tikrindami ir didinkite SSRS branduolių skaičių pagal poreikį. Įsitikinkite, kad virtualiajame kompiuteryje, kuris nėra SSRS VM, yra iš anksto sukonfigūruotas antrinis mazgas. Tai svarbu, jei kiltų problema, susijusi su virtualiąja mašina, kurioje numojamas SSRS, arba su virtualiuoju kompiuteriu. Tokiu atveju juos reikėtų pakeisti.
 
-Pradedant nuo versijos 10.0.17, galima konfigūruoti papildomus SSRS mazgus, kad būtų pasiektas didelis pasiekiamumas. Dėl išsamesnės informacijos, [Didelio SQL serverio ataskaitų tarnybos (SSRS) mazgų pasiekiamumo konfigūravimas](../../dev-itpro/deployment/onprem-ssrsha.md).
-
 ## <a name="environment-orchestrator"></a>Aplinkos valdymo įrankis
 
-Valdymo įrankio paslauga yra paslauga, kuri valdo jūsų įdiegtį ir su LCS susijusius ryšius. Ši paslauga diegiama kaip pirminė „Service Fabric‟ paslauga ir jai reikalingos bent trys VM. Ši paslauga pateikiama kartu su „Service Fabric‟ valdymo paslaugomis. Dydis turėtų būti nustatomas pagal didžiausią klasterio apkrovą. Daugiau informacijos žr. [Atskiro „Service Fabric“ klasterio diegties planavimas ir ruošimas](/azure/service-fabric/service-fabric-cluster-standalone-deployment-preparation).
+Valdymo įrankio paslauga yra paslauga, kuri valdo jūsų įdiegtį ir su LCS susijusius ryšius. Ši paslauga diegiama kaip pirminė „Service Fabric‟ paslauga ir jai reikalingos bent trys VM. Ši paslauga pateikiama kartu su „Service Fabric‟ valdymo paslaugomis. Dydis turėtų būti nustatomas pagal didžiausią klasterio apkrovą. Daugiau informacijos žr. [Atskiro „Service Fabric“ klasterio diegties planavimas ir ruošimas](https://docs.microsoft.com/azure/service-fabric/service-fabric-cluster-standalone-deployment-preparation).
 
 ## <a name="virtualization-and-oversubscription"></a>Virtualizavimas ir perviršinis rezervavimas
 
 Kritiškai svarbios tarnybos, pavyzdžiui, AOS, turi būti nuomojamos virtualiuosiuose kompiuteriuose, turinčiuose tam skirtus išteklius – branduolius, atmintį ir diską.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

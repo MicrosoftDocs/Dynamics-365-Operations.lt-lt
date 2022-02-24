@@ -2,30 +2,35 @@
 title: Užduočių valdymo apžvalga
 description: Šioje temoje pateikiama užduočių valdymo programoje „Microsoft Dynamics 365 Commerce“ apžvalga, skirta vadovams ir darbuotojams.
 author: gvrmohanreddy
+manager: annbe
 ms.date: 02/10/2020
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 7cdcc0ba6a9f5a3d9dd4ea781adc9e81c45e3d02
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
-ms.translationtype: MT
+ms.openlocfilehash: 3891d846f51b5335809876a6557dfb5a031272c8
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7985398"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4414411"
 ---
 # <a name="task-management-overview"></a>Užduočių valdymo apžvalga
 
 [!include [banner](includes/banner.md)]
 
 Šioje temoje pateikiama užduočių valdymo programoje „Microsoft Dynamics 365 Commerce“ apžvalga, skirta vadovams ir darbuotojams.
+
+## <a name="overview"></a>Peržiūrėti
 
 Mažmeninės prekybos aplinkoje visada sunku užtikrinti, kad užduotys būtų atliekamos tinkamo žmogaus tinkamu laiku. Mažmenininkai turi sugebėti pranešti darbuotojams apie būsimas užduotis ir pateikti susijusį verslo kontekstą, kad būtų galima atlikti užduotis tinkamai ir laiku.
 
@@ -37,7 +42,7 @@ Parduotuvių vadybininkai gali naudoti užduočių valdymo funkciją, kad priski
 
 Toliau pateiktame paveikslėlyje vaizduojama užduočių valdymo programoje „Commerce“ esminė architektūra.
 
-![Užduočių valdymo esminė architektūra.](media/Tasks-management-conceptual-architecture.png)
+![Užduočių valdymo esminė architektūra](media/Tasks-management-conceptual-architecture.png)
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
@@ -48,6 +53,3 @@ Toliau pateiktame paveikslėlyje vaizduojama užduočių valdymo programoje „C
 [Užduočių sąrašų priskyrimas parduotuvėms arba darbuotojams](task-mgmt-assign-lists.md)
 
 [Užduočių valdymas EKA programoje](task-mgmt-POS.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

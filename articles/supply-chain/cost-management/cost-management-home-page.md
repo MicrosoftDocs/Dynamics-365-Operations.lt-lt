@@ -2,26 +2,28 @@
 title: Išlaidų valdymo pagrindinis puslapis
 description: Išlaidų valdymas leidžia atlikti žaliavų, pusgaminių, pagamintų prekių ir nebaigtos gamybos turto vertinimą ir apskaitą.
 author: AndersGirke
+manager: tfehr
 ms.date: 04/25/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CostAdminWorkspace, CostAnalysisWorkspace
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: intro-internal
+ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 83881e6b3bb588dad61fd14aa4db28aa76305925aab3ee08e2ebe7e001f2aff2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: dc146f8a3707e830ff574964c5a8865271e69b50
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6739112"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4967688"
 ---
 # <a name="cost-management-home-page"></a>Išlaidų valdymo pagrindinis puslapis
 
@@ -37,13 +39,13 @@ Išlaidų strategijas galite nustatyti šiose srityse:
 - [Netiesioginių išlaidų apskaita](costing-sheets.md)
 - [DK integracija](production-order-cost-analysis.md)
 
-Pavyzdžiui, galite nurodyti, kuriuos atsargų vertinimo metodus, pavyzdžiui, [FIFO](fifo-physical-value-marking.md), [Svertinio vidurkio](weighted-average-physical-value-marking.md), [Standartinių išlaidų](prerequisites-standard-costs.md) ar [Slenkančio vidurkio](moving-average.md) norite taikyti produktams [Prekių modelių grupėje](../inventory/reserve-inventory-quantities.md) atlikdami atsargų apskaitą.
+Pavyzdžiui, galite nurodyti, kuriuos atsargų vertinimo metodus (pvz., [FIFO](fifo-physical-value-marking.md), [Svertinio vidurkio](weighted-average-physical-value-marking.md), [Standartinių išlaidų](prerequisites-standard-costs.md) ar [Slenkančio vidurkio](moving-average.md)) norite taikyti produktams [Prekių modelių grupėje](../inventory/reserve-inventory-quantities.md) atlikdami atsargų apskaitą.
 
 Atsargų apskaitą ir gamybos apskaitą galite atverti iš darbo sričių **Išlaidų administravimas** ir **Išlaidų analizė**. Šiose darbo srityse pateikta išsami dabartinės būsenos, pagrindinių efektyvumo indikatorių (KPI) ir nuokrypių nustatymo apžvalga. 
 
 Gamybos apskaita leidžia atlikti [Užduoties užsakymo įkainojimą](production-order-cost-analysis.md) gamybos užsakymuose ir paketiniuose užsakymuose, o taip pat ir „lean manufacturing“ [Įkainojimą atvirkštine tvarka](backflush-costing.md).
 
-[Išlaidų valdymo „Power BI“ turinys](../../fin-ops-core/dev-itpro/analytics/cost-management-content-pack.md) suteikia vadovams įžvalgų apie atsargas ir nebaigtos gamybos (NG) atsargas bei tai, kaip jose veikia išlaidų srautas. Informaciją taip pat galima naudoti kaip išsamų finansinės ataskaitos papildinį.
+[Išlaidų valdymo „Power BI“ turinys](../../dev-itpro/analytics/cost-management-content-pack.md) suteikia vadovams įžvalgų apie atsargas ir nebaigtos gamybos (NG) atsargas bei tai, kaip jose veikia išlaidų srautas. Informaciją taip pat galima naudoti kaip išsamų finansinės ataskaitos papildinį.
 
 ### <a name="additional-resources"></a>Papildomi ištekliai
 
@@ -57,10 +59,8 @@ Norėdami pamatyti naujas išleistas funkcijas ir kuriamas naujas funkcijas, eik
 
 #### <a name="blogs"></a>Tinklaraščiai
 
-Nuomonių, naujienų ir kitos informacijos apie išlaidų valdymą galima rasti [„Dynamics AX“ gamybos tyrimų ir plėtros komandos tinklaraštyje](/archive/blogs/axmfg/) ir [„Dynamics AX Supply Chain Management“ R&D tyrimų ir plėtros komandos tinklaraštyje](https://blogs.msdn.microsoft.com/dynamicsaxscm). Kai kurie iš šių įrašų parašyti ankstesnei išlaidų valdymo versijai, tačiau dabartinėje versijoje galioja tie patys principai, o procedūros taip pat yra panašios.
+Nuomonių, naujienų ir kitos informacijos apie išlaidų valdymą galima rasti [„Dynamics AX“ gamybos tyrimų ir plėtros komandos tinklaraštyje](https://blogs.msdn.microsoft.com/axmfg) ir [„Dynamics AX Supply Chain Management“ R&D tyrimų ir plėtros komandos tinklaraštyje](https://blogs.msdn.microsoft.com/dynamicsaxscm). Kai kurie iš šių įrašų parašyti ankstesnei išlaidų valdymo versijai, tačiau dabartinėje versijoje galioja tie patys principai, o procedūros taip pat yra panašios.
 
 #### <a name="task-guides"></a>Užduočių vedliai
 
 Papildoma pagalba prieinama kaip užduočių vadovai. Norėdami pasiekti užduočių vedlius, bet kuriame puslapyje spustelėkite mygtuką Žinynas.
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

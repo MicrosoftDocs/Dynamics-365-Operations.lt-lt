@@ -1,13 +1,16 @@
 ---
 title: Atostogų užklausa
 description: Atostogų užklausa programoje „Dynamics 365 Human Resources“.
-author: twheeloc
-ms.date: 11/03/2021
+author: andreabichsel
+manager: AnnBe
+ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: EssWorkspace
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -15,19 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f7ca3fd03cda720187cb9c21b7f3ef3545c8901e
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
-ms.translationtype: MT
+ms.openlocfilehash: b034f3bac7264ff96100396cbb45e5b869765ce8
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8066780"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4419790"
 ---
 # <a name="request-time-off"></a>Atostogų užklausa
-
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Galite pateikti atostogų užklausą, peržiūrėti atostogų ir neatvykimų balansus ir peržiūrėti atostogų užklausos būseną programoje „Dynamics 365 Human Resources“.
 
@@ -45,11 +43,9 @@ Galite pateikti atostogų užklausą, peržiūrėti atostogų ir neatvykimų bal
 
 6. Kai būsite pasirengę pateikti užklausą, pasirinkite **Pateikti**. Arba pasirinkite **Įrašyti juodraštį**.
 
-Darbuotojai, kurie pateikia naują atostogų užklausą, gali pasirinkti skirtingus atostogų tipus, sudarančius jų atostogų užklausą. Tačiau visi atostogų tipai, pasirinkti kaip vienos atostogų užklausos dalis, turi turėti tą patį atostogų vienetą. Darbuotojai gali peržiūrėti kiekvieno atostogų tipo atostogų vienetą **Prašyti laisvo laiko** puslapį.
-
 ## <a name="add-an-attachment-to-an-existing-request"></a>Priedo įtraukimas į esamą užklausą
 
-Atnaujindami esamą laiką išleidimo iš darbo užklausos, galite pridėti priedą. Taip pat galite matyti visas susijusias konkrečios datos užklausas.
+Atnaujindami esamą laiką išleidimo iš darbo užklausos, galite pridėti priedą. Taip pat galite matyti visas su konkrečia data susijusias užklausas. 
 
 ## <a name="view-leave-balances"></a>Peržiūrėti atostogų balansus
 
@@ -61,23 +57,8 @@ Atnaujindami esamą laiką išleidimo iš darbo užklausos, galite pridėti prie
 
 1. Darbo srityje **Darbuotojo savitarna** plytelėje **Atostogų balansai** pasirinkite **Daugiau** (...).
 
-2. Norėdami peržiūrėti patvirtintas laisvo laiko užklausas, pasirinkite **Patvirtintas poilsio laikas**. Norėdami peržiūrėti laukiančias laisvo laiko užklausas, pasirinkite **Prašymai dėl atostogų**.
-
-## <a name="cancel-time-off-requests"></a>Atšaukite laisvalaikio prašymus
-
-1. Darbo srityje **Darbuotojo savitarna** plytelėje **Atostogų balansai** pasirinkite **Laisvo laiko užklausa**.
-
-2. Ant **Laikas baigėsi** puslapyje pasirinkite vieną ar daugiau laisvo laiko užklausų, kurias norite atšaukti.
-
-3. Paspauskite mygtuką **Atšaukti**.
-
-4. Informacijos apie **atšaukimą** srityje įveskite komentarą ir pasirinkite **Pateikti**.
-
-   ![Atšaukti atostogų užklausą.](media/hr-leave-and-absence-cancel.png)
+2. Norėdami peržiūrėti savo patvirtintas atostogų užklausas, pasirinkite **Patvirtintos atostogos**. Norėdami peržiūrėti savo laukiančias atostogų užklausas, pasirinkite **Atostogų užklausos**.
 
 ## <a name="see-also"></a>Taip pat žiūrėkite
 
 - [Atostogų ir neatvykimų apžvalga](hr-leave-and-absence-overview.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

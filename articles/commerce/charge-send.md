@@ -2,12 +2,15 @@
 title: Perkelkite užsakymus iš kitos parduotuvės naudodami mokesčių siuntimo funkciją.
 description: Šioje temoje aprašoma mokesčių siuntimo funkcija.
 author: ashishmsft
+manager: AnnBe
 ms.date: 10/10/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -15,12 +18,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2017-10-10
 ms.dyn365.ops.version: Retail July 2017 update
-ms.openlocfilehash: 8c9c435c9ef8f692551a216d72a76f8a71b4ce6dc03dc6b13c23364a0aa81662
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0bbebcc7b2ab89bf2f5db7294acfca1d8a5ad96e
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6746704"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4414338"
 ---
 # <a name="ship-orders-from-another-store-by-using-the-charge-send-feature"></a>Perkelkite užsakymus iš kitos parduotuvės naudodami mokesčių siuntimo funkciją.
 
@@ -39,6 +42,3 @@ Taikant mokesčio siuntimo funkciją naudojamos toliau nurodytos EKA operacijos:
 Tokia pati galimybė suteikiama pasirenkant ir gavėjo adresus.
 
 Siuntimo metodai, kurios galima naudoti norint įvykdyti užsakymo eilutę, yra pagrįsti produktų pristatymo ir adresų leistinų režimų konfigūracija. Kadangi tinkamų pristatymo režimų taisyklės tvarkomos tik „Headquarters“ (HQ), EKA klientas kreipiasi realiuoju laiku ir randa tinkamus siuntimo eilutės pristatymo režimus.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

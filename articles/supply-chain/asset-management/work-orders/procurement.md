@@ -1,10 +1,12 @@
 ---
 title: Įsigijimas
 description: Šioje temoje aiškinama apie įsigijimą skiltyje Turto valdymas.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetWorkOrderPurchaseListPagePreviewPane, EntAssetWorkOrderPurchaseListPage, EntAssetWorkOrderPurchaseLineAmountInfoPart, EntAssetWorkOrderPurchReqListPage
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 2b5e160beb4743db2530b91020f21b686d84237b17cfa7ff7f0cc1da97695d08
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fce60f6ac2ac0dabe1c0ecd804a1dec1e7e373a2
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6743655"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5020209"
 ---
 # <a name="procurement"></a>Įsigijimas
 
@@ -36,7 +38,7 @@ Sąrašo puslapyje **Darbo užsakymo pirkimo paraiška** (**Turto valdymas** > *
 
 Toliau pateiktame paveikslėlyje parodytas sąrašo puslapio **Darbo užsakymo pirkimo paraiška** pavyzdys.
 
-![1 iliustracija.](media/08-work-orders.png)
+![1 pav.](media/08-work-orders.png)
 
 
 Sąrašo puslapyje **Darbo užsakymo pirkimas** (**Turto valdymas** > **Bendrieji dalykai** > **Įsigijimas** > **Darbo užsakymo pirkimas**) rodomas pirkimo užsakymų, susijusių su darbo užsakymais, sąrašas. Šiame puslapyje pasirinkę darbo užsakymo užduotį, norėdami atlikti įvairius veiksmus, galite naudoti mygtukus grupėje **Rodyti**, esančioje veiksmų srities skirtuke **Darbo užsakymo pirkimas**.
@@ -47,7 +49,7 @@ Sąrašo puslapyje **Darbo užsakymo pirkimas** (**Turto valdymas** > **Bendriej
 
 Toliau pateiktame paveikslėlyje parodytas sąrašo puslapio **Darbo užsakymo pirkimas** pavyzdys.
 
-![2 iliustracija.](media/09-work-orders.png)
+![2 pav.](media/09-work-orders.png)
 
 
 Tiek sąrašo puslapyje **Darbo užsakymo pirkimas**, tiek sąrašo puslapyje **Darbo užsakymo pirkimo paraiška** su pristatymo datos valdymu susijęs simbolis rodomas dešinėje kiekvienos eilutės pusėje. Jei šis simbolis yra šauktukas raudoname apskritime, susijęs su pirkimo užsakymu arba pirkimo paraiška pristatymas gali vėluoti.
@@ -93,10 +95,7 @@ Norėdami peržiūrėti arba įvesti veiklos numerį, susijusį su pirkimo užsa
 
 Toliau esančiame paveikslėlyje pateiktas puslapio **Pirkimo užsakymas** pavyzdys pažymėjus **Veiklos numeris**.
 
-![3 iliustracija.](media/10-work-orders.png)
+![3 pav.](media/10-work-orders.png)
 
 Atitinkamai, norėdami peržiūrėti arba įvesti veiklos numerį, susijusį su darbo užsakymo pirkimo paraiška, sąrašo puslapyje **Darbo užsakymo pirkimo paraiška** pasirinkite pirkimo paraiškos įrašą, tada stulpelyje **Pirkimo paraiška** pasirinkite pirkimo paraiškos saitą. Lauką **Veiklos numeris** galite rasti skirtuke **Projektas**, esančiame „FastTab“ **Eilutės informacija**.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

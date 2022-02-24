@@ -2,12 +2,15 @@
 title: „Iframe“ modulis
 description: Šis skyrius aprašo „iframe“ modulį ir tai, kaip įtraukti jį į vietos puslapius „Microsoft Dynamics 365 Commerce“.
 author: anupamar-ms
-ms.date: 11/04/2021
+manager: annbe
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -15,12 +18,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: bce6a50e8c145f8961bd0c839fe16c1f4d69e811
-ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
-ms.translationtype: MT
+ms.openlocfilehash: 4afd8f60938c99d1981be1625ef28f91d9e4bb4c
+ms.sourcegitcommit: 9c05d48f6e03532aa711e1d89d0b2981e9d37200
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "7754019"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "4665401"
 ---
 # <a name="iframe-module"></a>„Iframe“ modulis
 
@@ -28,25 +31,27 @@ ms.locfileid: "7754019"
 
 Šis skyrius aprašo „iframe“ modulį ir tai, kaip įtraukti jį į vietos puslapius „Microsoft Dynamics 365 Commerce“.
 
+## <a name="overview"></a>Peržiūra
+
 „iframe“ modulis suteikia „iframe“ (rėmelį pagal liniją), kuris apima išorės turinį svetainėje. Pavyzdžiui, jis gali būti naudojamas „YouTube“ vaizdo įrašo ar PDF failo peržiūros patalpinimui bet kuriame svetainės puslapyje. 
 
-„iframe“ modulis reikalauja galutinio URL. Tuomet jis patalpina galutinio puslapio turinį HTML **„iframe“** elemente. Išorės URL turi būti leidžiamųjų sąraše vietos turinio saugumo politikos (CSP) direktyvoms. URL, skirti „iframe“ turiniui, turi būti leidžiami naudojant **rėmelio protėvio** gairę. - Norėdami gauti daugiau informacijos, žr. [turinio saugumo politikos valdymas (CSP)](manage-csp.md).
+„iframe“ modulis reikalauja galutinio URL. Tuomet jis patalpina galutinio puslapio turinį HTML **„iframe“** elemente. Išorės URL turi būti leidžiamųjų sąraše vietos turinio saugumo politikos (CSP) direktyvoms. „iframe“ turinui, URL turi būti leidžiami naudojant **rėmelio protėvio** gairę. - Norėdami gauti daugiau informacijos, žr. [turinio saugumo politikos valdymas (CSP)](manage-csp.md).
 
 > [!NOTE]
 > „iframe“ modulį galima naudoti „Dynamics 365 Commerce“ 10.0.13 leidime.
 
 Toliau pateiktas paveikslėlis rodo „iframe“ modulių pavyzdžius, kurie iliustruoja išorės vaizdo įrašus svetainės puslapiuose.
 
-![„iframe“ modulio pavyzdys rodo išorinius vaizdo įrašus.](./media/ecommerce-iframe.PNG)
+![„iframe“ modulio pavyzdys rodo išorinius vaizdo įrašus](./media/ecommerce-iframe.PNG)
 
 ## <a name="iframe-module-properties"></a>„iframe“ modulio ypatybės
 
-| Ypatybės pavadinimas             | Reikšmė                 | Aprašas |
+| Ypatybės pavadinimas             | Vertė                 | aprašymas |
 |---------------------------|-----------------------|-------------|
 | Antraštė | Tekstas | Modulio antraštė. |
 | Paskirties URL | URL | URL, kuris yra patalpintas modulyje. |
-| Aukštis | Procentų skaičius | Modulio aukštis pikseliais arba procentais. Pavyzdžiui, **100** vertė bus laikoma pikselių numeriais, o vertė **100%** traktuojama kaip procentai. |
-| ARIA žyma | Tekstas | Prieinamų praturtinto interneto programų (ARIA) etiketės gali būti nustatytas prieinamumo tikslais. |
+| Aukštis | Procentų skaičius | Modulio aukštis pikseliais arba procentais. Pavyzdžiui,**100** vertė bus laikoma pikselių numeriais, o vertė **100%** traktuojama kaip procentai. |
+| ARIA žyma | Tekstas | Prieinamų praturtinto interneto programų (ARIA) etiketės gali būti nustatytoas prieinamumo tikslais. |
 
 ## <a name="add-an-iframe-module-to-a-page"></a>Įtraukti „iframe“ modulį į puslapį
 
@@ -66,15 +71,9 @@ Siekiant įtraukti „iframe“ modulį į puslapį ir parodyti išorinį vaizdo
 1. Nustatykite kitas ypatybes, tokias kaip **Antraštė** ir **Aukštis**, kaip norite.
 1. Pasirinkite **Išsaugoti**, tada – **Baigti redagavimą**, kad užregistruotumėte puslapį, o tada pasirinkite **Publikuoti**, kad publikuotumėte jį.
 1. Eikite į komercijos puslapį savo svetainėje. Turėtumėte matyti, kad vaizdo įrašas yra sukurtas „iframe“ modulyje.
-
-> [!NOTE]
-> Kadangi iframe modulis nuomoja išorinį turinį, svetainės autoriai turi užtikrinti, kad iframe modulyje laikomas turinys nepažeidžia turinio apribojimo strategijų atitinkamoje rinkoje. Jei puslapyje, kuris naudoja iframe modulį, yra turinio pažeidimas, svetainės autorius gali pašalinti iframe modulį atidarydamas puslapį svetainės generatoriuje, pasirinkdamas Pašalinti modulį iframe modulio laiko atminties dalyje ir įrašęs bei paskelbdamas **·** puslapį iš naujo.
-
+ 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
-[Modulių bibliotekos peržiūra](starter-kit-overview.md)
+[Modulių bibliotekos apžvalga](starter-kit-overview.md)
 
 [Turinio saugos strategijos (CSP) tvarkymas](manage-csp.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

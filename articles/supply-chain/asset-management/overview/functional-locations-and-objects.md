@@ -1,10 +1,12 @@
 ---
 title: Funkcinės vietos ir turtas
 description: Šioje temoje aprašomos funkcinės vietos ir turtas modulyje Turto valdymas. Turto valdymas yra išplėstinis modulis, skirtas turtui ir priežiūros užduotims valdyti programoje „Dynamics 365 Supply Chain Management“.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 06/24/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e0bf90d99a8bd093817f9e804e8075e779428f1fadb3128c5a455ca839dece55
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2f93a68f19b0b952eb2964b404bb957865c625cd
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6750153"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5018051"
 ---
 # <a name="functional-locations-and-assets"></a>Funkcinės vietos ir turtas
 
@@ -34,15 +36,15 @@ ms.locfileid: "6750153"
 
 Turto valdymas sklandžiai integruojamas su keletu kitų „Finance and Operations“ programų modulių. Toliau pateikiamoje iliustracijoje pavaizduotos sąsajos su kitais moduliais.
 
-![Diagrama, rodanti, kaip turto valdymas siejasi su kitais moduliais.](media/01-overview-image.png)
+![Diagrama, rodanti, kaip turto valdymas siejasi su kitais moduliais](media/01-overview-image.png)
 
 Turto valdymas leidžia efektyviai valdyti ir atlikti visas užduotis, susijusias su daugelio tipų įrangos valdymu ir aptarnavimu jūsų įmonėje. Ši įranga apima mašinas, gamybos įrangą ir transporto priemones. Modulyje Turto valdymas taip pat palaikomi sprendimai daugelyje pramonės šakų.
 
 Toliau esančioje iliustracijoje pateikiama modulio Turto valdymas pagrindinių funkcijų apžvalga.
 
-![Diagrama, rodanti pagrindines turto valdymo funkcijas.](media/02-overview-image.png)
+![Diagrama, rodanti pagrindines turto valdymo funkcijas](media/02-overview-image.png)
 
-## <a name="functional-locations-and-assets"></a>Funkcinės vietos ir ištekliai
+## <a name="functional-locations-and-assets"></a>Funkcinės vietos ir turtas
 
 Funkcinės vietos naudojamos vietose esančiam turtui valdyti. Šis valdymas apima turto išlaidų sekimą funkcinėse vietose. Funkcinių vietų struktūra yra hierarchinė, o vietose gali būti antrinių vietų. Funkcinių vietų struktūra yra statinė. Kitaip tariant, negalima keisti vietų buvimo vietų. Turtas gali būti įdiegtas funkcinėse vietose ir, jei reikia, vėliau gali būti įdiegtas kitose funkcinėse vietose.
 
@@ -50,11 +52,8 @@ Turto išlaidos visada priklauso nuo turto vietos. Kitaip tariant, jei įdiegiat
 
 Funkcinių vietų hierarchijos kūrimo būdas priklauso nuo jūsų įmonės reikalavimų dėl vidinės įrangos priežiūros arba klientų įrangos aptarnavimo. Toliau pateikiamame paveikslėlyje pavaizduotas geografinėmis vietovėmis pagrįstų funkcinių vietų pavyzdys.
 
-![Diagrama, rodanti geografinėmis vietovėmis pagrįstas funkcines vietas.](media/03-overview-image.png)
+![Diagrama, rodanti geografinėmis vietovėmis pagrįstas funkcines vietas](media/03-overview-image.png)
 
 Toliau pateikiamame paveikslėlyje pavaizduotas klientais pagrįstų funkcinių vietų pavyzdys.
 
-![Diagrama, rodanti klientais pagrįstas funkcines vietas.](media/04-overview-image.png)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+![Diagrama, rodanti klientais pagrįstas funkcines vietas](media/04-overview-image.png)

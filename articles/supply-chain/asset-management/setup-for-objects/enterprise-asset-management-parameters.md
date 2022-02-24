@@ -1,10 +1,12 @@
 ---
 title: Turto valdymo parametrai
 description: Turto valdymo srityje būtina nustatyti bendruosius parametrus, susijusius su turtu, darbo užsakymais ir darbo užsakymų planavimu.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 02/18/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetParameters
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4e1deef00f01d83bc809a004265c386ba9d300df5fa4a1be245812ed5632059f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5e4b76ba90ab03cd35e72eff8acc89f780659fa5
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6751966"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5020659"
 ---
 # <a name="asset-management-parameters"></a>Turto valdymo parametrai
 
@@ -83,7 +85,7 @@ Toliau pateiktame sąraše aprašyti visis laukai, susiję su vertinimo rezultat
 - **Apriboti iki atsakingų** – tai riboja darbo užsakymų planavimui prieinamų darbuotojų skaičių. Pasirinkite **Ne**, jei norite apskaičiuoti visų darbuotojų įvertinimą, neatsižvelgiant į tai, ar jie nustatyti kaip atsakingi darbuotojai ar atsakingų darbuotojų grupės dalis. Pasirinkite **Taip**, jei norite apskaičiuoti įvertinimą darbuotojų, kurie darbo užsakyme nustatyti kaip atsakingi darbuotojai ir (arba) įtraukti į darbo užsakyme pasirinktą atsakingų darbuotojų grupę.  
 - **Pageidaujamas darbuotojas** – vertinimo balas, apskaičiuojamas kartu su įvertinimo balo reikšmėmis **Atsakingas darbuotojas**, **Pageidaujamas darbuotojas**, **Pageidaujama darbuotojų grupė**, **Turto vieta** ir **Pradžios data**. Keturi įvertinimo balai apskaičiuojami ir sudedami, kad būtų pateiktas rezultatas, naudojamas pasirenkant, kuris darbuotojas turėtų būti priskirtas darbo užsakymui darbo užsakymo planavimo metu. Jei šiame lauke įterpiama reikšmė „10,00“ ir darbo užsakyme pasirinktas kaip pageidaujamas darbuotojas, darbo užsakymo planavimo metu tas darbuotojas gauna 10 taškų atliekant bendrąjį darbuotojo skaičiavimą.  
 - **Pageidaujamų darbuotojų grupė** – vertinimo balas, apskaičiuojamas kartu su įvertinimo balo reikšmėmis **Atsakingas darbuotojas**, **Pageidaujamas darbuotojas**, **Pageidaujama darbuotojų grupė**, **Turto vieta** ir **Pradžios data**. Jei šiame lauke įterpiama reikšmė „10,00“ ir darbuotojas darbo užsakyme priskirtas pageidaujamų darbuotojų grupei, darbo užsakymo planavimo metu tas darbuotojas gauna 10 taškų atliekant bendrąjį darbuotojo skaičiavimą.  
-- **Apriboti iki pageidaujamų** – tai riboja darbo užsakymų planavimui prieinamų darbuotojų skaičių. Pasirinkite **Ne**, jei norite apskaičiuoti visų darbuotojų įvertinimą, neatsižvelgiant į tai, ar jie nustatyti kaip pageidaujami darbuotojai ar pageidaujamų darbuotojų grupės dalis. Pasirinkite **Taip**, jei norite apskaičiuoti įvertinimą tik darbuotojų, kurie yra nustatyti kaip pageidaujami darbuotojai ir (arba) įtraukti į pageidaujamų darbuotojų grupę.  
+- **Apriboti iki pageidajamų** – tai riboja darbo užsakymų planavimui prieinamų darbuotojų skaičių. Pasirinkite **Ne**, jei norite apskaičiuoti visų darbuotojų įvertinimą, neatsižvelgiant į tai, ar jie nustatyti kaip pageidaujami darbuotojai ar pageidaujamų darbuotojų grupės dalis. Pasirinkite **Taip**, jei norite apskaičiuoti įvertinimą tik darbuotojų, kurie yra nustatyti kaip pageidaujami darbuotojai ir (arba) įtraukti į pageidaujamų darbuotojų grupę.  
 - **Vieta** – vertinimo balas, apskaičiuojamas kartu su įvertinimo balo reikšmėmis **Atsakingas darbuotojas**, **Pageidaujamas darbuotojas**, **Pageidaujama darbuotojų grupė**, **Turto vieta** ir **Pradžios data**. Jei šiame lauke įterpiama reikšmė „3 000,00“, skaičiuojant darbuotojas gauna 3 000 taškų, jei darbuotojas yra toje pačioje gamykloje ar objekte kaip ir turtas, kuriam planuojama užduotis.  
   - Jei įmonė naudoja funkcines vietas, darbuotojai gauna visą balą, jei jie yra funkcinėje vietoje, susijusioje su turtu. Jei turto funkcinė vieta turi pirminį turtą, toje funkcinėje vietoje esantys darbuotojai gauna 1/2 balo. Jei ta vieta taip pat turi pirminę vietą, tos vietos darbuotojai gauna 1/3 balo. Jei ta vieta taip pat turi pirminę vietą, tos vietos darbuotojai gauna 1/4 balo ir t. t.  
   - Jei įmonė naudoja turto buvimo vietą, ko mes nerekomenduojame, skaičiuojant vietos vertinimą naudojama vieta, sritis ir zona. Darbuotojai gauna visą balą, jei jie yra su turtu susietoje vietoje, srityje ir zonoje. Jei darbuotojo vieta sutampa tik su vieta ir sritimi, darbuotojo įvertinimo balas yra 2/3 nuo viso balo. Jei darbuotojo vieta sutampa tik su vieta, darbuotojo įvertinimo balas yra 1/3 nuo viso balo.  
@@ -99,11 +101,8 @@ Toliau pateiktame sąraše aprašyti visis laukai, susiję su vertinimo rezultat
 
 ## <a name="the-document-types-tab"></a>Skirtukas Dokumentų tipai
 
-Pasirinkite dokumentų tipus, kurie turėtų būti pasiekiami kaip spausdinimo priedai, susiję su darbo užsakymo ataskaita. Tai atliekama pasirinkus dokumento tipą dalyje **Pasiekiama** ir pasirinkus ![rodyklę pirmyn.](media/15-setup-for-objects.png). Jei norite pašalinti pasirinktą dokumento tipą, pasirinkite dokumento tipą dalyje **Pasirinkta**, tada pasirinkite ![rodyklę atgal](media/16-setup-for-objects.png).
+Pasirinkite dokumentų tipus, kurie turėtų būti pasiekiami kaip spausdinimo priedai, susiję su darbo užsakymo ataskaita. Tai atliekama pasirinkus dokumento tipą dalyje **Pasiekiama** ir pasirinkus ![rodyklę pirmyn](media/15-setup-for-objects.png). Jei norite pašalinti pasirinktą dokumento tipą, pasirinkite dokumento tipą dalyje **Pasirinkta**, tada pasirinkite ![rodyklę atgal](media/16-setup-for-objects.png).
 
 ## <a name="the-number-sequences-tab"></a>Skirtukas Numeravimas
 
 Šioje dalyje pasirinkite reikiamas numeravimo sekas. Turtui taikomos dvi numeravimo sekos: viena skirta neautomatiniu būdu sukurtam turtui, o kita – turtui, sukurtam laukiant turto.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

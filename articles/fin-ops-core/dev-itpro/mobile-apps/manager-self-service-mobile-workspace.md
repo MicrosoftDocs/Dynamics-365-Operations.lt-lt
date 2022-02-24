@@ -1,10 +1,12 @@
 ---
 title: Mobilioji darbo sritis Mano komanda
-description: Šioje temoje pateikiama informacija apie mobiliąją darbo sritį Mano komanda, kuri leidžia vadovams peržiūrėti komandos tiesiogines ataskaitas ir matyti išplėstinį personalą.
+description: Šioje temoje pateikiama informacija apie mobiliąją darbo sritį Mano komanda, kuri leidžia vadovams peržiūrėti komandos tiesiogines ataskaitas ir matyti išplėstinį personalą. Vartotojai taip pat gali pagirti asmenis, esančius jų ataskaitų grandinėje.
 author: ShielaSogge
+manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
@@ -12,14 +14,14 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 74abb4ce77b4fc13c614e8e1b734e1b9f5f24e0a728a10b79508e6be4faf3dca
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6ac3bf0a6ce20866f749b0c14030b70770e5589c
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767117"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680975"
 ---
-# <a name="my-team-mobile-workspace"></a>Mobilioji darbo sritis „Mano komanda”
+# <a name="my-team-mobile-workspace"></a>Mobilioji darbo sritis Mano komanda
 
 [!include [banner](../includes/banner.md)]
 
@@ -78,7 +80,7 @@ Mobiliosios programos „Finance and Operations“ atsisiuntimas ir diegimas.
 3.  Kai prisijungsite pirmą kartą, bus rodomas raginimas įvesti savo vartotojo vardą ir slaptažodį. Įveskite savo kredencialus.
 4.  Prisijungus rodomos galimos jūsų įmonės darbo sritys. Atkreipkite dėmesį, kad sistemos administratoriui paskelbus naują darbo sritį vėliau turėsite atnaujinti mobiliųjų darbo sričių sąrašą.
 
-[![Atnaujinimas patempiant žemyn.](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
+[![Patraukite norėdami atnaujinti](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
 
 ## <a name="view-team-members-by-using-the-my-team-mobile-workspace"></a>Komandos narių peržiūra naudojant mobiliąją darbo sritį Mano komanda
 1.  Mobiliojoje programoje pasirinkite darbo sritį **Mano komanda**. Rodomas komandos narių sąrašas. Sąraše taip pat rodomos kiekvieno komandos nario pareigos ir jo turimi tiesioginiai pavaldiniai.
@@ -95,6 +97,3 @@ Mobiliosios programos „Finance and Operations“ atsisiuntimas ir diegimas.
 1.  Pasirinkite **Siųsti pagyrimą**. 
 1. Įveskite pagyrimo tekstą, kurį norite siųsti. 
 1. Pasirinkite **Atlikta**.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

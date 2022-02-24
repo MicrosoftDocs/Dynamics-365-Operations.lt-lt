@@ -62,6 +62,3 @@ Galite uždaryti darbo vietą dėl **darbo vietos užpildymo**, jei bent vienas 
    > Galite uždaryti darbo vietą dėl **darbo vietos užpildymo** tik jei bent vienas potencialus klientas užbaigė pasiūlymo etapą. Jei darbo prašyme nepasirinkta parinktis **Pasiūlymas priimtas** arba jei pasiūlymo skiltyje nerodoma būsena **Priimta**, parinktis **Darbo vieta užpildyta** nebus rodoma išplečiamajame sąraše **Priežastis**.
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

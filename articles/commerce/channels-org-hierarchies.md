@@ -2,30 +2,36 @@
 title: Organizacijų hierarchijų nustatymas
 description: Šioje temoje aprašoma, kaip nustatyti „Microsoft Dynamics 365 Commerce“ organizacijos hierarchijas.
 author: samjarawan
+manager: annbe
 ms.date: 01/27/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: ce0732f32a9a80fc5b0ede7ae9f1c1ab9a68a89b2fb0b1821cb5df123ca5ca4a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 29d4b686cbb66715196fca06e4642fbb8a337ace
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6746021"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4414308"
 ---
 # <a name="set-up-organization-hierarchies"></a>Organizacijų hierarchijų nustatymas
+
 
 [!include [banner](includes/banner.md)]
 
 Šioje temoje aprašoma, kaip nustatyti „Microsoft Dynamics 365 Commerce“ organizacijos hierarchijas.
+
+## <a name="overview"></a>Peržiūra
 
 Prieš kurdami kanalus turite įsitikinti, kad jums reikia nustatyti organizacijos hierarchijas.
 
@@ -54,7 +60,7 @@ Norėdami sukurti organizacijos hierarchiją, atlikite toliau nurodytus veiksmus
 
 Toliau pateiktame paveiksle rodomas organizacijos hierarchijos, sukurtos fiktyviam „Adventure Works“ parduotuvių tinklui, pavyzdys.
 
-![Organizacijos hierarchijos pavyzdys.](media/organizational-hierarchies.png)
+![Organizacijos hierarchijos pavyzdys](media/organizational-hierarchies.png)
 
 ### <a name="add-organizations-to-a-hierarchy"></a>Organizacijų įtraukimas į hierarchiją
 
@@ -67,7 +73,7 @@ Norėdami įtraukti organizacijas į hierarchiją, atlikite toliau nurodytus vei
 
 Toliau pateiktame paveiksle rodomas juridinis subjektas, įtrauktas į hierarchijos šaknį su keturiais išlaidų centrais, skirtais kanalams „Prekybos centras“, „Parduotuvė“, „Internetinė parduotuvė“ ir „Skambučių centras“. Po to į kiekvieną galima įtraukti įvairius mažmeninės prekybos, skambučių centro ir internetinės parduotuvės kanalus.
 
-![Hierarchijos konstruktoriaus pavyzdys.](media/hierarchy-designer.png)
+![Hierarchijos konstruktoriaus pavyzdys](media/hierarchy-designer.png)
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
@@ -82,6 +88,3 @@ Toliau pateiktame paveiksle rodomas juridinis subjektas, įtrauktas į hierarchi
 [Kanalų apžvalga](channels-overview.md)
 
 [Būtinosios kanalo nustatymo sąlygos](channels-prerequisites.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

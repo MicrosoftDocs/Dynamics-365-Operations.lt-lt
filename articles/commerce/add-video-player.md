@@ -2,30 +2,36 @@
 title: Vaizdo įrašų leistuvo modulis
 description: Šioje temoje aprašomi vaizdo įrašų leistuvo moduliai ir tai, kaip jų įtraukti į „Microsoft Dynamics 365 Commerce“ svetainių puslapius.
 author: anupamar-ms
-ms.date: 07/08/2021
+manager: annbe
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 8d09797d24572a99cc8f5ed2d34b73eb7144af7a35661a929b6a571a20dfed04
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3cf7ead9a5340d5db37a87bdf131ba87681d5a82
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6731724"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4414302"
 ---
 # <a name="video-player-module"></a>Vaizdo įrašų leistuvo modulis
+
 
 [!include [banner](includes/banner.md)]
 
 Šioje temoje aprašomi vaizdo įrašų leistuvo moduliai ir tai, kaip jų įtraukti į „Microsoft Dynamics 365 Commerce“ svetainių puslapius.
+
+## <a name="overview"></a>Peržiūrėti
 
 Vaizdo įrašų leistuvo modulis naudojamas vaizdo įrašų atkūrimo galimybei palaikyti. Jis gali būti įtrauktas į bet kurį puslapį, jei vaizdo įrašo turinys įkeliamas ir pasiekiamas turinio valdymo sistemoje (TVS). Vaizdo įrašų leistuvo modulis palaiko .mp4 medijos tipą.
 
@@ -43,16 +49,12 @@ Vaizdo įrašų leistuvo modulis taip pat palaiko antrinius garso takelius. Įke
 
 Toliau pateiktame paveikslėlyje parodytas pagrindiniame puslapyje esančio vaizdo įrašų leistuvo modulio pavyzdys.
 
-![Vaizdo įrašų leistuvo modulio pavyzdys.](./media/ecommerce-videoplayer.PNG)
+![Vaizdo įrašų leistuvo modulio pavyzdys](./media/ecommerce-videoplayer.PNG)
 
 ### <a name="video-player-module-properties"></a>Vaizdo įrašų leistuvo modulių ypatybės
 
-| Ypatybės pavadinimas         | Reikšmė                               | Aprašas |
+| Ypatybės pavadinimas         | Vertė                               | aprašymas |
 |-----------------------|-------------------------------------|-------------|
-| Antraštė               | Antraštės tekstas ir antraštės žymė (**H1**, **H2**, **H3**, **H4**, **H5** arba **H6**) | Numatyta, kad naudojama antraštės žymė **„H2”**, tačiau žymę galima pakeisti, kad ji atitiktų pritaikymo neįgaliesiems reikalavimus. |
-| Raiškusis tekstas             | Pastraipos tekstas | Modulis palaiko pastraipos tekstą raiškiojo teksto formatu. Palaikomos kelios pagrindinės raiškiojo teksto galimybės, pavyzdžiui, hipersaitai, paryškintasis, pabrauktasis ir pasvirasis tekstas. Kai kurias iš šių galimybių gali perrašyti moduliui pritaikoma puslapio tema. |
-| Saitas                  | Saito tekstas, saito URL, „Accessible Rich Internet Applications“ (ARIA) žyma ir **Saitą atidaryti naujame skirtuke** parinkiklis | Modulis palaiko vieną ar kelis raginimo imtis veiksmų saitus. Jei įtraukiamas saitas, reikalingas saito tekstas, URL ir ARIA žyma. ARIA žymos turi būti aprašomosios, jog atitiktų pritaikymo neįgaliesiems reikalavimus. Saitus galima konfigūruoti taip, kad jie būtų atidaromi naujame skirtuke. |
-| Papildomas tekstas              | Antraštės, tekstas ar saitai | Gali būti pridėtas papildomas vaizdo įrašų grotuvo modulio kontekstas, pavyzdžiui, autoriaus ar dizainerio vardas arba saitai į asmeninį tinklaraštį. |
 | Automatinis paleidimas             | **Teisinga** arba **Klaidinga**               | Kai reikšmė nustatoma kaip **Teisinga**, vaizdo įrašas paleidžiamas automatiškai. |
 | Nutildyti                  | **Teisinga** arba **Klaidinga**               | Kai reikšmė nustatoma kaip **Teisinga**, garsas yra nutildomas. Numatytoji šio leistuvo reikšmė yra **Klaidinga**. Naršyklėje „Chrome“ automatiškai leidžiami vaizdo įrašai yra nutildyti pagal numatytuosius parametrus, o garsas leidžiamas, tik jei vartotojas pats paleidžia vaizdo įrašą. |
 | Ciklas                  | **Teisinga** arba **Klaidinga**               | Kai reikšmė nustatoma kaip **Teisinga**, vaizdo įrašas vis kartojamas. |
@@ -62,9 +64,6 @@ Toliau pateiktame paveikslėlyje parodytas pagrindiniame puslapyje esančio vaiz
 | Vaizdo įrašų leistuvo valdikliai | **Teisinga** arba **Klaidinga**               | Kai reikšmė nustatoma kaip **Teisinga**, rodomi visi vaizdo įrašų leistuvo valdikliai. Šie valdikliai apima leidimo ir pristabdymo mygtukus, eigos indikatorių bei subtitrų parinktis. |
 | Slėpti plakato vaizdą     | **Teisinga** arba **Klaidinga**               | Vaizdo įrašas gali turėti atsklandą. Kai šios ypatybės reikšmė nustatoma kaip **Teisinga**, atsklanda paslepiama. |
 | Maskavimo lygis            | Skaičius nuo **0** iki **100** | Maskavimas, taikomas vaizdo įrašui dėl stiliaus. |
-
-> [!IMPORTANT]
-> **Antraštės**, **Raiškiojo teksto**, **Saito** ir **Papildomo teksto** ypatybės yra galimos kaip 10.0.20 „Dynamics 365 Commerce” versijos leidimo dalis.
 
 ## <a name="add-a-video-player-module-to-a-page"></a>Vaizdo įrašų leistuvo modulio įtraukimas į puslapį
 
@@ -107,6 +106,3 @@ Norėdami į naują puslapį įtraukti vaizdo įrašų leistuvo modulį ir nusta
 [Teksto bloko modulis](add-content-rich-block.md)
 
 [Turinio bloko modulis](add-hero-module.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

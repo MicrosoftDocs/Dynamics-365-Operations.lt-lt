@@ -1,66 +1,64 @@
 ---
 title: Integravimo su „Finance“ DUK
-description: Šioje temoje paaiškinama, kokie duomenys sinchronizuojami „Human Resources“ ir „Finance“ integravime.
-author: twheeloc
-ms.date: 08/19/2021
+description: Šiame straipsnyje paaiškinama, kokie duomenys sinchronizuojami „Human Resources“ ir „Finance“ integravime.
+author: andreabichsel
+manager: AnnBe
+ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 308e2a538666522edf4a76be13b93c82c3f3a774
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
-ms.translationtype: MT
+ms.openlocfilehash: 6a94c1269cd81ecdcbdff018ec4a8f90be36f0f3
+ms.sourcegitcommit: 6aa8d6aa8276611967fb6fab44715950de49f6af
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8071115"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4589068"
 ---
 # <a name="integration-with-finance-faq"></a>Integravimo su „Finance“ DUK
 
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Ši tema atsako į dažnai užduodamus klausimus apie tai, kokie duomenys sinchronizuojami, kai „Dynamics 365 Human Resources“ integruojama su „Dynamics 365 Finance“.
 
 ## <a name="can-i-edit-the-dynamics-365-talent-application-user-in-power-apps"></a>Ar galiu redaguoti „Dynamics 365 Talent“ programos naudotoją „Power Apps“?
 
-Nr. Jei redaguojate „Human Resources“ programos vartotoją, integravimas tarp „Human Resources“ ir „Dataverse“ gali nepavykti. Tolesnė lentelė rodo nustatytuosius nustatymus „Talent“ programos naudotojui.
+Nr. Jei redaguojate „Talent“ programos naudtoją, integravimas tarp žmogiškųjų išteklių ir „Common Data Service“ gali nepavykti. Tolesnė lentelė rodo nustatytuosius nustatymus „Talent“ programos naudotojui.
 
 | Vardas, pavardė | Programos ID | „Azure AD“ objekto ID | Programos ID URI |
 | --- | --- | --- | --- |
 | „Dynamics365“ skirtas „Talent“ | „f9be0c49-aa22-4ec6-911a-c5da515226ff“ | „27fd8129-4b3c-43f7-b1bf-47495d3a049b“ | „f9be0c49-aa22-4ec6-911a-c5da515226ff“ |
 
-![Nustatytieji nustatymai „Talent“ programos naudotojui.](media/DynamicsApplicationUser.png)
+![Nustatytieji nustatymai „Talent“ programos naudotojui](media/DynamicsApplicationUser.png)
 
 ## <a name="is-all-data-synchronized-or-just-some-data-entities"></a>Ar visi dokumentai sinchronizuojami, ar tik tam tikri duomenų objektai?
 
 Sinchronizuojamas duomenų poaibis. Visų objektų sąrašo žr. [Integravimas su „Dynamics 365 Finance“](hr-admin-integration-finance.md).
 
-## <a name="why-dont-i-see-any-data-synced-to-dataverse"></a>Kodėl nematau jokių duomenų, sinchronizuotų su „Dataverse“?
+## <a name="why-dont-i-see-any-data-synced-to-common-data-service"></a>Kodėl nematau jokių duomenų, sinchronizuotų su „Common Data Service“?
 
-Esant numatytiesiems parametrams, naujose aplinkose, kuriose nėra pateiktų demonstracinių duomenų, „Dataverse“ integravimas yra išjungtas. Esant numatytiesiems nustatymams, jis įjungiamas naujose aplinkose, kuriose yra demonstracinių duomenų, o duomenų sinchronizavimas pradedamas sukonfigūravus aplinką. Kai jūsų aplinka yra pasiruošta sinchronizuoti duomenis, galite įjungti integravimą. Daugiau informacijos žr. [„Dataverse“ integravimo konfigūravimas](hr-admin-integration-common-data-service.md).
+Esant numatytiesiems parametrams, naujose aplinkose, kuriose nėra pateiktų demonstracinių duomenų, „Common Data Service“ integravimas yra išjungtas. Esant numatytiesiems nustatymams, jis įjungiamas naujose aplinkose, kuriose yra demonstracinių duomenų, o duomenų sinchronizavimas pradedamas sukonfigūravus aplinką. Kai jūsų aplinka yra pasiruošta sinchronizuoti duomenis, galite įjungti integravimą. Daugiau informacijos žr. [„Common Data Service“ integravimo konfigūravimas](hr-admin-integration-common-data-service.md).
 
 ## <a name="can-i-create-a-new-mapping-without-using-the-templates"></a>Ar galiu sukurti naują susiejimą nenaudodamas šablonų?
 
-Šablonai yra pradinis taškas. Galite sukurti savo šabloną, tačiau šablonas visada reikalingas kuriant integracijos projektą. Daugiau informacijos apie duomenų integratorių (DI), šablonus ir projektus žr. [Duomenų integravimas į „Microsoft Dataverse“](/powerapps/administrator/data-integrator).
+Šablonai yra pradinis taškas. Galite sukurti savo šabloną, tačiau šablonas visada reikalingas kuriant integracijos projektą. Daugiau informacijos apie duomenų integratorių (DI), šablonus ir projektus žr. [Duomenų integravimas į „Common Data Service“](https://docs.microsoft.com/powerapps/administrator/data-integrator).
 
 ## <a name="can-i-map-financial-dimensions-to-transfer-between-human-resources-and-finance"></a>Ar galiu susieti finansines dimensijas ir perkelti iš „Human Resources“ į „Finance“ arba atvirkščiai?
 
-„Dataverse“ finansinių dimensijų šiuo metu naudoti negalima, todėl jos neįtrauktos į numatytąjį šabloną. Šis objektas suplanuotas, bet šiuo metu nepateikiama jokia išleidimo laiko juosta.
+„Common Data Service“ finansinių dimensijų šiuo metu naudoti negalima, todėl jos neįtrauktos į numatytąjį šabloną. Šis objektas suplanuotas, bet šiuo metu nepateikiama jokia išleidimo laiko juosta.
 
 Jei duomenys yra „Finance“, bet net „Human Resources“, susiekite abi sistemas kartu naudodami „Human Resources“ funkciją **Konfigūruoti saitus**.
 
-![Susieti finansines dimensijas.](media/MapFinancialDimensions.png)
+![Susieti finansines dimensijas](media/MapFinancialDimensions.png)
 
 ## <a name="sometimes-when-i-import-employees-they-go-into-inactive-workers-in-finance-why"></a>Kartais, kai importuoju darbuotojus, „Finance“ jie tampa neaktyviais darbuotojais. Kodėl?
 
@@ -74,14 +72,14 @@ Duomenų sinchronizavimas vykdomas pagal vykdymo grafiką. Integracija paims įr
 
 Naudodami parinktį „Išplėstinė užklausa“ galite filtruoti ir pertvarkyti šaltinio duomenis prieš perduodami juos į paskirties vietą.
 
-![Aktyvių darbininkų išplėstinė užklausa.](media/MapOnlyActiveWorkersAdvancedQuery.png)
+![Aktyvių darbininkų išplėstinė užklausa](media/MapOnlyActiveWorkersAdvancedQuery.png)
 
 ## <a name="can-i-specify-which-fields-to-send-to-finance-for-a-specific-entity"></a>Ar galiu nurodyti, kokius laukus siųsti į „Finance“ dėl konkretaus objekto?
 
-Laukai gali būti įtraukti arba pašalinti iš integracijos užduoties. Ne visi duomenų laukeliai esantys „Dataverse“ lentelėje bus užpildyti iš „Human Resources“.
+Laukai gali būti įtraukti arba pašalinti iš integracijos užduoties. Ne visi duomenų laukai, kurie yra „Common Data Service“ objekte, bus užpildomi iš „Human Resources“.
 Papildomi duomenys gali būti užpildomi naudojant „Power Apps“.
 
-![Laukų įtraukimas arba pašalinimas iš integracijos užduoties.](media/SpecifyFieldsIncludedInIntegration.png)
+![Laukų įtraukimas arba pašalinimas iš integracijos užduoties](media/SpecifyFieldsIncludedInIntegration.png)
 
 ## <a name="i-set-up-integration-as-a-batch-job-but-human-resources-lost-connection-to-the-destination-system-how-can-i-send-the-same-set-of-changes-to-the-destination-system"></a>Nustačiau integravimą kaip paketinę užduotį, bet „Human Resources“ prarado ryšį su paskirties sistema. Kaip į paskirties sistemą išsiųsti tuos pačius pakeitimus?
 
@@ -89,7 +87,7 @@ Tvarkant išimtis speciali sąranka nereikalinga. Duomenų integratorius automat
 
 ## <a name="can-i-set-up-bi-directional-integration"></a>Ar galiu nustatyti dvikryptį integravimą?
 
-Ne, šiuo metu integracija yra vienpusė (žmogiškieji ištekliai finansams ir operacijoms). Tačiau galima naudoti numatytąjį šabloną ir siųsti duomenis iš „Human Resources“ į „Finance“.
+Ne, integravimas šiuo metu yra vienkryptis (iš „Human Resources“ į „Finance and Operations“). Tačiau galima naudoti numatytąjį šabloną ir siųsti duomenis iš „Human Resources“ į „Finance“.
 
 ## <a name="can-i-allow-record-deletion-as-part-of-my-integration"></a>Ar integracijoje galima leisti naikinti įrašus?
 
@@ -97,7 +95,7 @@ Ne, duomenų integratorius neįtrauks panaikintų įrašų į duomenų perkėlim
 
 ## <a name="can-i-rerun-the-errored-execution-if-so-will-it-send-a-full-file-or-only-the-changes"></a>Ar galiu iš naujo vykdyti, jei vykdymas buvo klaidingas? Jei taip, ar man atsiųs visą failą, ar tik pakeitimus?
 
-Pirmasis duomenų integratoriaus paleidimas visada yra išsamus. Vėlesni paleidimai paremti keitimų sekimu. Kai vykdomas klaidingas paleidimas, įrašai išskleidžiami vykdymo aprėptimi ir naujausi pakeitimai siunčiami „Dataverse“.
+Pirmasis duomenų integratoriaus paleidimas visada yra išsamus. Vėlesni paleidimai paremti keitimų sekimu. Kai vykdomas klaidingas paleidimas, įrašai išskleidžiami vykdymo aprėptimi ir naujausi pakeitimai siunčiami „Common Data Service“.
 
 ## <a name="when-i-save-the-project-i-get-the-error-project-has-mapping-errors-what-do-i-do"></a>Įrašius projekto gaunu klaidą: „Projekte yra susiejimo klaidų.“ Ką daryti?
 
@@ -111,15 +109,15 @@ Taip, kiekvienam „Finance“ juridiniam subjektui reikia atskiro integravimo p
 
 ## <a name="i-need-to-transfer-data-that-is-not-part-of-the-default-template-provided-by-microsoft-can-i-do-this"></a>Noriu perkelti duomenis, kurie nepriklauso „Microsoft“ teikiamam numatytajam šablonui. Ar galiu tai padaryti?
 
-Taip, laukai gali būti įtraukti į esamą šabloną arba iš jo pašalinti. Šablonas gali būti modifikuotas taip, kad apimtų papildomus duomenis iš kitų „Dataverse“ lentelių. Objektas turi būti „Dataverse“, kad jis būtų įtrauktas į šabloną. 
+Taip, laukai gali būti įtraukti į esamą šabloną arba iš jo pašalinti. Šabloną galima modifikuoti įtraukiant papildomų duomenų iš kitų programų „Common Data Service“ objektų. Objektas turi būti „Common Data Service“, kad jis būtų įtrauktas į šabloną. 
 
 ## <a name="i-just-created-new-finance-and-human-resources-environments-and-im-getting-the-error-the-data-value-violates-integrity-constraints-why"></a>Ką tik sukūriau naujas „Finance“ ir „Human Resources“ aplinkas ir matau klaidą „Duomenų reikšmė pažeidžia vientisumo apribojimus“. Kodėl?
 
 Šios klaidos priežastys gali būti
 
-- Duomenų perdavimo metu išgaunami įrašų dublikatai šaltinyje („Dataverse“).
+- Duomenų perdavimo metu išgaunami įrašų dublikatai šaltinyje („Common Data Service“).
 
-- Duomenų perdavimo „null“ reikšmė rodomos tuose laukuose, kurie būtini „Finance and Operations“. Įsitikinkite, kad duomenys yra „Dataverse“ ir jie atitinka „Finance and Operations“ reikalavimus.
+- Duomenų perdavimo „null“ reikšmė rodomos tuose laukuose, kurie būtini „Finance and Operations“. Įsitikinkite, kad duomenys yra „Common Data Service“ ir jie atitinka „Finance and Operations“ reikalavimus.
 
 ## <a name="if-there-are-execution-errors-and-the-employee-id-didnt-sync-how-do-i-find-the-history-job-which-has-the-failed-employee-record"></a>Jei kilo vykdymo klaidų ir nesinchronizuojamas Darbuotojo ID, kaip rasti retrospektyvos užduotį, kurioje yra nepavykęs darbuotojo įrašas?
 
@@ -129,59 +127,57 @@ Atsekite laiką iš Duomenų integratoriaus vykdymo retrospektyvos ir programoje
 
 1. Užfiksuokite užduoties indeksą iš duomenų integratoriaus (šiame pavyzdyje tai „9“).
 
-    ![Užfiksuokite užduoties indeksą iš duomenų integratoriaus.](media/CaptureTaskIndex.png)
+    ![Užfiksuokite užduoties indeksą iš duomenų integratoriaus](media/CaptureTaskIndex.png)
 
 2. Stebėkite projekto vykdymo laiką.
 
-    ![Stebėkite projekto vykdymo laiką.](media/CaptureTimeOfExecution.png)
+    ![Stebėkite projekto vykdymo laiką](media/CaptureTimeOfExecution.png)
 
 3. Programoje „Finance“ raskit –1 indeksą. Šiame pavyzdyje projektas su priesaga „8“ ir indekso vykdymo laikas „0“ sutampa su 2 veiksmo vykdymo laiku.
 
-    ![Indekso identifikavimas.](media/IdentifyIndex.png)
+    ![Indekso identifikavimas](media/IdentifyIndex.png)
 
 ## <a name="after-integrating-human-resources-and-finance-i-dont-see-my-human-resources-data-in-finance-what-do-i-do"></a>Integravęs „Human Resources“ ir „Finance“ nematau savo „Human Resources“ duomenų „Finance“ programoje. Ką daryti?
 
-Integravimo su „Finance“ procesą sudaro du veiksmai. Pirmiausia, patikrinkite, ar „Human Resources“ yra atnaujinta ir teikiama „Dataverse“. Tai yra artimas realaus laiko sinchronizavimas ir gali būti tikrinamas „Power Apps“ ieškant duomenų duomenų lentelėse.
+Integravimo su „Finance“ procesą sudaro du veiksmai. Pirmiausia, patikrinkite, ar „Human Resources“ yra atnaujinta ir teikiama „Common Data Service“. Sinchronizuojama beveik realiuoju laiku, todėl galima patikrinti „Power Apps“ duomenų objektuose ieškant duomenų.
 
-![Duomenys „Dataverse“.](media/DataInCDS.png)
+![Duomenys „Common Data Service“](media/DataInCDS.png)
 
-Jei duomenys nėra rodomi „Dataverse“, kaip tikėtasi, patikrinkite, ar objektas palaikomas integracijoje. Norint įtraukti papildomų duomenų į „Dataverse“, pakeitimą turi atlikti „Microsoft“.
+Jei duomenys nėra rodomi „Common Data Service“, kaip tikėtasi, patikrinkite, ar objektas palaikomas integracijoje. Norint įtraukti papildomų duomenų į „Common Data Service“, pakeitimą turi atlikti „Microsoft“.
 
-Jei objektas yra palaikomas ir duomenys yra teikiami „Dataverse“, patikrinkite, ar susiejimas yra tinkamas duomenų integratoriuje. Jei integratoriaus susiejimas atrodo tinkamai, tada patikrinkite, ar duomenų valdymo užduotys sėkmingai įvykdytos. Paketinių užduočių vykdymo metu gali kilti klaidų. Daugiau informacijos apie duomenų valdymą žr. [Duomenų valdymas](/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=%2ffin-and-ops%2ftoc.json).
+Jei objektas yra palaikomas ir duomenys yra teikiami „Common Data Service“, patikrinkite, ar susiejimas yra tinkamas duomenų integratoriuje. Jei integratoriaus susiejimas atrodo tinkamai, tada patikrinkite, ar duomenų valdymo užduotys sėkmingai įvykdytos. Paketinių užduočių vykdymo metu gali kilti klaidų. Daugiau informacijos apie duomenų valdymą žr. [Duomenų valdymas](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=/fin-and-ops/toc.json).
 
 ## <a name="the-addresses-for-my-employees-are-incorrect-after-i-import-them-into-finance-what-should-i-do"></a>Mano darbuotojų adresai yra netikslūs juos importavus į „Finance“. Ką daryti?
 
-**Vietos ID** numeracija naudoja tą patį modelį programose „Human Resources“ ir „Finance“. Numeracija turi būti unikali abiejose pusėse, kad adresai nesusikirstų integruojant duomenis iš „Dataverse“ į „Finance and Operations“.
+**Vietos ID** numeracija naudoja tą patį modelį programose „Human Resources“ ir „Finance“. Numeracija turi būti unikali abiejose pusėse, kad adresai nesusikirstų integruojant duomenis iš „Common Data Service“ į „Finance and Operations“.
 
 „Human Resources“ diegimo metu patikrinkite, kad „Human Resources“ ir „Finance“ numeracijos nesutaptų. Įsitikinkite, kad visos numeracijos neidentiškos ir duomenys gali būti tvarkomi abiejose sistemose.
 
 ## <a name="when-creating-my-connection-set-i-am-unable-to-see-the-connection-in-the-connection-drop-down-list-what-do-i-do"></a>Kuriant jungčių rinkinį man nepavyksta matyti jungties išplečiamajame sąraše Jungtis. Ką daryti?
 
-Įsitikinkite, kad kurdami jungtis pasirenkate „Dynamics 365 Finance“ ir „Dataverse“.
+Įsitikinkite, kad kurdami jungtis pasirenkate „Dynamics 365 Finance“ ir „Common Data Service“.
 
 ## <a name="when-syncing-employments-i-get-the-errors-companyinfo_fk-doesnt-exist-or-the-value-12312154-115959-pm-in-field-employment-end-date-is-not-found-in-the-related-table-employment-what-should-i-do"></a>Sinchronizuojant įdiegtis gaunamos klaidos „CompanyInfo_FK doesn’t exist“ arba „The value '12/31/2154 11:59:59 pm' in field 'Employment end date' is not found in the related table 'Employment'.“ Ką daryti?
 
-Įsitikinkite, kuria siejate tinkamus juridinius subjektus. Juridinių subjektų sinchronizavimas nėra numatytojo šablono dalis, todėl tikimasi, kad kiekvienas juridinis subjektas, esantis „Human Resources“ ir „Dataverse“, taip pat bus ir „Finance“. Taip pat įsitikinkite, kad, esate pasirinkę tinkamus susieto jungčių rinkinio juridinius subjektus.
+Įsitikinkite, kuria siejate tinkamus juridinius subjektus. Juridinių subjektų sinchronizavimas nėra numatytojo šablono dalis, todėl tikimasi, kad kiekvienas juridinis subjektas, esantis „Human Resources“ ir „Common Data Service“, taip pat bus ir „Finance“.
+Taip pat įsitikinkite, kad, esate pasirinkę tinkamus susieto jungčių rinkinio juridinius subjektus.
 
 ## <a name="after-setting-up-my-project-the-field-mapping-for-finance-appears-to-be-empty-what-should-i-do"></a>Nustačius projektą atrodo, kad laukų susiejimas „Finance“ yra tuščias. Ką daryti?
 
 Atnaujinkite duomenų objektus programoje „Finance“, pasirinkdami **Duomenų valdymas \> Sistemos parametrai \> Objekto parametrai \> Naujinti objektų sąrašą.** Tai turėtų užtrukti porą minučių, tada turėtumėte matyti tuos susiejimus. Taip atsitinka, kai kuriami nauji projektai.
 
-![Nenurodytas laukų susiejimas.](media/MissingFieldMapping.png)
+![Nenurodytas laukų susiejimas](media/MissingFieldMapping.png)
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 - Duomenų integratorius (DI): 
 
-  - [Duomenų integravimas į „Microsoft Dataverse“](/powerapps/administrator/data-integrator)
+  - [Duomenų integravimas į „Common Data Service“](https://docs.microsoft.com/powerapps/administrator/data-integrator)
 
-  - [Duomenų integratoriaus klaidų valdymas ir trikčių šalinimas](/powerapps/administrator/data-integrator-error-management)
+  - [Duomenų integratoriaus klaidų valdymas ir trikčių šalinimas](https://docs.microsoft.com/powerapps/administrator/data-integrator-error-management)
 
-  - [Atsakymas į DSR užklausas, sistemai sugeneruojant žurnalus „Power Apps“, „Microsoft Power Automate“ ir „Dataverse“](/powerapps/administrator/powerapps-gdpr-dsr-guide-systemlogs)
+  - [Atsakymas į DSR užklausas, sistemai sugeneruojant žurnalus „Power Apps“, „Microsoft Power Automate“ ir „Common Data Service“](https://docs.microsoft.com/powerapps/administrator/powerapps-gdpr-dsr-guide-systemlogs)
 
 - Duomenų valdymas:
 
-  - [Duomenų valdymas](/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=%2ffin-and-ops%2ftoc.json)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+  - [Duomenų valdymas](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=/fin-and-ops/toc.json)

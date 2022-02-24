@@ -2,36 +2,40 @@
 title: Tiekėjo bendradarbiavimas su klientais
 description: Šioje temoje aprašoma, kaip galite naudoti tiekėjų bendradarbiavimą, norėdami dirbti su PU ir stebėti konsignacijos atsargas.
 author: TaylorVH
+manager: tfehr
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ConsignmentProductReceiptLines, ConsignmentVendorPortalOnHand, PurchVendorPortalConfirmedOrders, PurchVendorPortalOriginalOrder, PurchVendorPortalResponsesHistoryList, PurchVendorPortalResponsesPart, VendVendorProfileCard, PurchVendorPortalAllResponse, PurchVendorPortalPendingResponsesPart, PurchVendorPortalResponses, PurchVendorPortalConfirmedOpenOrdersPart
 audience: Application User
-ms.reviewer: kamaybac
+ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 221234
 ms.assetid: 6e69fb8b-6d3a-46ef-88cf-6d01212aa7c3
 ms.search.region: Global
 ms.author: v-savanh
 ms.search.validFrom: 2020-11-01
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: f699b00ab7ea2d043e12824015c54439caf8e63c
-ms.sourcegitcommit: d58a891d9fe0aa0e6b2c20329250c8d74ffbee90
-ms.translationtype: MT
+ms.openlocfilehash: dc97b230f23056db90e654b4aea3272bb8f1ba13
+ms.sourcegitcommit: 0c33864efdd66c6ac11a4f35d971c0bb4efb15db
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "8022979"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "4654345"
 ---
 # <a name="vendor-collaboration-with-customers"></a>Tiekėjo bendradarbiavimas su klientais
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
-Šioje temoje aprašoma, kaip galite naudoti tiekėjų bendradarbiavimą, norėdami dirbti su klientais programoje „Microsoft Dynamics 365 Supply Chain Management“. Tiekėjai gali atlikti tam tikrus verslo procesus toliau nurodytose darbo srityse.
+Šioje temoje aprašoma, kaip galite naudoti tiekėjų bendradarbiavimą, norėdami dirbti su klientais programoje „Microsoft“ „Dynamics 365 Supply Chain Management“. Tiekėjai gali atlikti tam tikrus verslo procesus toliau nurodytose darbo srityse.
 
 - **Pirkimo užsakymo patvirtinimas** – pirkimo užsakymų (PU) stebėjimas ir reagavimas į juos.
 - **Tiekėjų kainos siūlymas** – pasiūlymo patvirtinimų (RFQ) peržiūra ir reagavimas į juos įvedant kainos siūlymus.
 - **Tiekėjo informacija** – tiekėjo bendrųjų duomenų peržiūra ir naujinimas.
-- **SF išrašymas** – darbas su SF. Šioje temoje neaptariama darbo sritis **SF išrašymas**. Jei reikia daugiau informacijos apie šią darbo sritį, žr. temą [Tiekėjo bendradarbiavimo SF išrašymo darbo sritis](../../finance/accounts-payable/vendor-portal-invoicing-workspace.md).
+- **SF išrašymas** – darbas su SF. Šioje temoje neaptariama darbo sritis **SF išrašymas**. Jei reikia daugiau informacijos apie šią darbo sritį, žr. temą [Tiekėjo bendradarbiavimo SF išrašymo darbo sritis](../../financials/accounts-payable/vendor-portal-invoicing-workspace.md).
 
 Tiekėjai taip pat gali stebėti informaciją apie konsignacijos atsargas.
 
@@ -78,7 +82,7 @@ Jei naudojate konsignacijos atsargas, galite naudoti tiekėjo bendradarbiavimo s
 
 ## <a name="working-with-rfqs-in-the-vendor-bidding-workspace"></a>Darbas su RFQ darbo srityje Tiekėjų kainos siūlymas
 
-**TIekėjo kainos siūlymo** darbo aplinka leidžia jums peržiūrėti kainų paraiškas (RFQ), į kurias jūsų bendrovė buvo pakviesta atsakyti. Taip pat galite į RFQ atsakyti.
+**TIekėjo kainos siūlymo** darbo aplinka leidžia jums peržiūrėti kainų paraiškas (RFQ), į kurias jūsų bendrovė buvo pakviesta atsakyti. Taip pat galite į RFQ atsakyti. 
 
 Darbo srityje taip pat nurodomi visi RFQ, pralaimėjote arba laimėjote. Papildomai, jei sistema yra konfigūruojama viešajam sektoriui, darbo aplinka rodo, kad RFQs yra viešai prieinamas.
 
@@ -96,28 +100,20 @@ Atidarykite darbo sritį **Tiekėjų kainos siūlymas**, norėdami pasiekti toli
 
 ### <a name="working-with-rfqs-that-are-publicly-available"></a>Darbas su viešai pasiekiamais RFQ
 
-Viešajame sektoriuje dirbantys žmonės gali matyti atvirus ir pasibaigusius užsakymus, kurie buvo prieinami visuomenei.
+Žmonės, dirbantys viešajame sektoriuje, gali pamatyti atvirus ir nebegaliojančius RFQ, kurie yra viešai pasiekiami.
 
 - Pasirinkite nuorodą **Atviri paskelbti pasiūlymų patvirtinimai**, kad pamatytumėte atvirų RFQ, kurie yra viešai pasiekiami, sąrašą. Atviras RFQ yra RFQ, kurio galiojimas dar nesibaigė. RFQ antraštėje galite peržiūrėti galiojimo pabaigos datą ir laiką.
 
-    Jei buvote pakviesti siūlyti kainą, galite rasti tą patį RFQ puslapyje **Nauji kvietimai siūlyti kainą**. Galbūt kartais norėsite siūlyti kainą už atvirą RFQ, kai nesate pakviesti siūlyti kainos. Tokiu atveju galėsite patys pakviesti save, jei klientas įjungė RFQ atvejo savęs pakvietimo funkciją. 
+    Jei buvote pakviesti siūlyti kainą, galite rasti tą patį RFQ puslapyje **Nauji kvietimai siūlyti kainą**. Galbūt kartais norėsite siūlyti kainą už atvirą RFQ, kai nesate pakviesti siūlyti kainos. Tokiu atveju galėsite patys pakviesti save, jei klientas įjungė RFQ atvejo savęs pakvietimo funkciją.
 
-    The **Nauji kvietimai teikti pasiūlymus** puslapyje gali būti pateiktas filtras, leidžiantis peržiūrėti atvirus RFQ ir nustatyti tuos, kuriuose yra eilučių, atitinkančių jūsų patvirtintas pirkimo kategorijas. Kad šis filtras būtų pasiekiamas, turite įjungti *Leiskite pardavėjams ieškoti užsakymų pagal pirkimo kategoriją* funkcija jūsų sistemoje. Administratoriai gali naudoti **Funkcijų valdymas** darbo sritį, kad patikrintumėte šios funkcijos būseną ir įjunkite ją, jei to reikia. Ten ši funkcija pateikiama taip:
-
-    - **Modulis:** *Mokėtinos sąskaitos*
-    - **Funkcijos pavadinimas:** *Leiskite pardavėjams ieškoti užsakymų pagal pirkimo kategoriją* <!-- KFM: I don't see this here, is this right? -->
-
-    Galite pagerinti pasiekiamumą **Atidarykite paskelbtas užklausas dėl kainų** nuorodą įjungdami *Rodyti nuorodą „Atidaryti paskelbtas citatos užklausas“ kaip plytelę* funkcija. Ši funkcija paverčia nuorodą į plytelę ir perkelia ją į gerai matomą vietą, kad ją būtų lengva rasti. Administratoriai gali naudoti **Funkcijų valdymas** darbo sritį, kad patikrintumėte šios funkcijos būseną ir įjunkite ją, jei to reikia. (Nuo Supply Chain Management 10.0.21 versijos funkcija įjungta pagal numatytuosius nustatymus.) Ten funkcija pateikiama taip:
-
-    - **Modulis:** *Paraiškos*
-    - **Funkcijos pavadinimas:** *Rodyti nuorodą „Atidaryti paskelbtas citatos užklausas“ kaip plytelę*
+    Pagerinkite prieigą **Atidaryti paviešintus užsakymus kainoms** nuorodą įjungdami **Rodyti „Atverkite paviešintus prašymus kainoms" nuorodą kaip plytą** funkciją. Ši funkcija paverčia nuorodą į plytą ir perkelia ją į tinkamą vietą tam, kad ją būtų paprasta surasti.
 
 - Pasirinkite nuorodą **Uždaryti paskelbti pasiūlymų patvirtinimai**, kad pamatytumėte uždarytų RFQ, kurie yra viešai pasiekiami, sąrašą. Uždarytas RFQ yra nebegaliojantis RFQ. RFQ antraštėje galite peržiūrėti galiojimo pabaigos datą ir laiką.
 
     Uždarytame RFQ rodomi visi tiekėjų kainos siūlymai iki eilutės lygio. Kai siūlymai patvirtinami arba atmetami, ši informacija nurodoma uždarytame RFQ. Taip pat pateikiami visi priedai, įtraukti į kainos siūlymą.
 
 > [!NOTE]
-> Ši funkcija pasiekiama tik įjungus viešojo sektoriaus konfigūraciją.
+> Ši funkcija yra prieinama tik, jei viešojo sektoriaus konfigūravimas yra įjungtas.
 
 ### <a name="bidding"></a>Kainos siūlymas
 
@@ -151,6 +147,3 @@ Pasiekiama informacija: tiekėjo pavadinimas, adresai, kontaktinė informacija, 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Tiekėjo bendradarbiavimo vartotojų valdymas](manage-vendor-collaboration-users.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

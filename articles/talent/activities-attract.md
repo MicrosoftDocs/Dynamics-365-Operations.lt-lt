@@ -91,6 +91,3 @@ Nuomos proceso šablonui reikalinga pasiūlymo veikla. Norėdami naudoti integru
 > Integruotą programą „Offer Management“ galima naudoti tik kartu su išsamios įdarbinimo informacijos priedu. Norėdami gauti daugiau informacijos, žr [Kurią „Microsoft Dynamics 365 Talent - Attract“ versiją naudoti?](./attract-comprehensive-hiring.md).
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

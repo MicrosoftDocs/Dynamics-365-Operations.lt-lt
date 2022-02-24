@@ -1,32 +1,31 @@
 ---
 title: Konfigūracijos raktai ir duomenų objektai
 description: Šioje temoje aprašomas konfigūracijos raktų ir duomenų objektų ryšys.
-author: peakerbl
+author: Sunil-Garg
+manager: AnnBe
 ms.date: 05/10/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application user
 ms.reviewer: sericks
 ms.custom: 25341
 ms.assetid: 8e214c95-616b-4ee1-b5a4-fa5ce5147f2c
 ms.search.region: Global
-ms.author: peakerbl
+ms.author: sunilg
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Platform update 13
-ms.openlocfilehash: e9cc92563c426136b2543511ad943fd64b335b70
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
-ms.translationtype: MT
+ms.openlocfilehash: e6145a2f6925932361851735df55374dda8ca03d
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065744"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4679386"
 ---
 # <a name="configuration-keys-and-data-entities"></a>Konfigūracijos raktai ir duomenų objektai
 
 [!include [banner](../includes/banner.md)]
-
-
-[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Prieš naudojant duomenų objektus duomenims importuoti ar eksportuoti, rekomenduojame pirmiausia nustatyti konfigūracijos raktų poveikį duomenų objektams, kuriuos planuojate naudoti.
 
@@ -55,24 +54,24 @@ Tolesnėje lentelėje apibendrinama, kaip skirtingų artefaktų konfigūracijos 
 ### <a name="entity-list-refresh"></a>Objektų sąrašo atnaujinimas
 Kai atnaujinamas objektų sąrašas, duomenų valdymo sistema kuria konfigūracijos raktų metaduomenis naudoti vykdyklėje. Šie metaduomenys kuriami naudojant pirmiau aprašytą logiką. Primygtinai rekomenduojame prieš duomenų valdymo sistemoje naudojant užduotis ir objektus palaukti, kol bus baigta atnaujinti objektų sąrašą. Jei nepalauksite, konfigūracijos raktų metaduomenys gali būti neatnaujinti ir gali pateikti netikėtų rezultatų. Kai atnaujinamas objektų sąrašas, objektų sąrašų puslapyje rodomas tolesnis pranešimas.
 
-![Objektų sąrašo atnaujinimas.](./media/Entity_refresh_list.png)
+![Objektų sąrašo atnaujinimas](./media/Entity_refresh_list.png)
 
 ### <a name="data-entity-list-page"></a>Duomenų objektų sąrašų puslapis
 Darbo srityje Duomenų valdymas esančiame duomenų objektų sąrašų puslapyje rodomi objektų konfigūracijos raktų parametrai. Pradėkite nuo šio puslapio, kad suprastumėte konfigūracijos raktų poveikį duomenų objektui.
 
 Ši informacija rodoma naudojant metaduomenis, sukurtus atnaujinant objektus. Konfigūracijos rakto stulpelyje rodomas su duomenų objektu susieto konfigūracijos rakto pavadinimas. Jei šis stulpelis yra tuščias, tai reiškia, kad su duomenų objektu nesusietas joks konfigūracijos raktas. Konfigūracijos rakto būsenos stulpelyje rodoma konfigūracijos rakto būsena. Jei jame yra žymė, tai reiškia, kad raktas yra įjungtas. Jei jis yra tuščias, tai reiškia, kad raktas išjungtas arba kad nesusietas joks raktas.
 
-![Objektų sąrašų puslapis.](./media/Data_entity_list_page.png)
+![Objektų sąrašų puslapis](./media/Data_entity_list_page.png)
 
 ### <a name="target-fields"></a>Paskirties laukai
 Tolesnis veiksmas yra detalizuoti duomenų objektą ir peržiūrėti konfigūracijos raktų poveikį lentelėms bei laukams. Duomenų objekto paskirties laukų formoje rodoma informacija apie susijusių duomenų objekto lentelių ir laukų konfigūracijos raktus bei jų būseną. Jei išjungtas paties duomenų objekto konfigūracijos raktas, rodomas įspėjamasis pranešimas, informuojantis, kad šio objekto paskirties laukų formos lentelių ir laukų nebus galima naudoti visai, nepaisant jų konfigūracijos raktų būsenos.
 
-![Paskirties laukai.](./media/Target_fields_1.png)
+![Paskirties laukai](./media/Target_fields_1.png)
 
 ### <a name="child-entities"></a>Antriniai objektai 
 Tam tikri objektai kaip duomenų šaltinius naudoja kitus objektus arba jie yra sudėtiniai duomenų objektai: informacija apie šių objektų konfigūracijos raktus rodoma formoje Antriniai objektai. Šią formą naudokite panašiai, kaip pirmiau aprašytą objektų sąrašų puslapį. Antrinio objekto paskirties laukų forma taip pat veikia taip, kaip aprašyta pirmiau.
 
-![Paskirties laukai.](./media/Target_fields_2.png)
+![Paskirties laukai](./media/Target_fields_2.png)
 
 ### <a name="using-data-entities"></a>Duomenų objektų naudojimas
 Supratę visą (jei toks yra) konfigūracijos raktų poveikį norimiems naudoti duomenų objektams, dabar duomenų objektus galite naudoti toliau, juos įtraukdami į duomenų projektus. 
@@ -94,7 +93,4 @@ Naudojant konfigūracijos raktų metaduomenis, sukurtus atnaujinant objektų są
 ### <a name="managing-configuration-key-changes"></a>Konfigūracijos raktų keitimų valdymas
 Kai tik objekto, lentelės ar lauko lygiu atnaujinate objekto konfigūracijos raktus, reikia atnaujinti duomenų valdymo sistemoje esantį objektų sąrašą. Šiuo procesu užtikrinama, kad sistema naudoja naujausius konfigūracijos raktų parametrus. Kol nebus atnaujintas objektų sąrašas, objektų sąrašų puslapyje bus rodomas tolesnis įspėjamasis pranešimas. Atnaujinti konfigūracijos raktų keitimai įsigalios iš karto po to, kai bus atnaujintas objektų sąrašas. Rekomenduojame patikrinti esamus duomenų projektus ir užduotis, kad įsitikintumėte, jog, įsigaliojus konfigūracijos raktų keitimams, jie veikia taip, kaip tikėtasi.
 
-![Paskirties laukai.](./media/Target_fields_3.png)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+![Paskirties laukai](./media/Target_fields_3.png)

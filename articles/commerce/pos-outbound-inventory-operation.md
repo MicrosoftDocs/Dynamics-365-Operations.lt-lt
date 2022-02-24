@@ -2,13 +2,16 @@
 title: Siunčiamų atsargų operacija EKA
 description: Šioje temoje aprašomos siunčiamų atsargų operacijų elektroniniame kasos aparate (EKA) galimybės.
 author: hhaines
+manager: annbe
 ms.date: 07/30/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -16,12 +19,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 3641e1974ffc277a690ca8b8d15399ac883b0132
-ms.sourcegitcommit: 89906aa2f18f16e622fd280433c8fc9fe74d2aec
+ms.openlocfilehash: 1f74df94b1647520880ff994581872b9d9f8e067
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7581143"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4414233"
 ---
 # <a name="outbound-inventory-operation-in-pos"></a>Siunčiamų atsargų operacija EKA
 
@@ -35,9 +38,9 @@ ms.locfileid: "7581143"
 
 ## <a name="prerequisite-configure-an-asynchronous-document-framework"></a>Būtinoji sąlyga: nesinchroninės dokumentų sistemos konfigūravimas
 
-Išorės operacija apima vykdymo pagerinimus siekiant užtikrinti, kad naudotojai turintys didelės apimties gaunamus publikavimus daugelyje parduotuvių ar bendrovių bei didelius inventoriaus dokumentus, galėtų apdoroti tuos dokumentus prekybos štabe (HQ) be pertraukų ar klaidų. Taikant šiuos patobulinimus, reikia naudoti nesinchroninę dokumentų sistemą.
+Išorės operacija apima vykdymo pagerinimus siekiant užtikrinti, kad naudotojai turintys didelės apimties gaunamus publikavimus daugelyje parduotuvių ar bendrovių bei didelius inventoriaus dokumentus, galėtų apdoroti tuos dokumentus prekyvos štabe (HQ) be pertraukū ar klaidų. Taikant šiuos patobulinimus, reikia naudoti nesinchroninę dokumentų sistemą.
 
-Naudojant nesinchronizuotą dokumento darbotvarkę, galite atlikti išorės dokumento keitimus iš EKA į prekybos štabą (HQ) ir tuomet eiti prie kitų užduočių, kol komercijos štabo (HQ) apdorojimas pasirodo fone. Norėdami užtikrinti, kad užregistruota sėkmingai, galite patikrinti dokumento būseną EKA dokumentų sąrašo puslapyje **Siunčiamos operacijos**. EKA programoje galite taip pat naudoti išorės operacijos įjungimo dokumento sąrašą tam, kad pamatytumėte visus dokumentus, kurių negalima buvo publikuoti komercijos štabe (HQ). Jei dokumentas sužlunga, EKA naudotojai gali atlikti korekcijas ir tuomet bandyti dar kartą apdoroti jį į komercijos štabą (HQ).
+Naudojant nesinchronizuotą dokumento darbotvarkę, galite atlikti išorės dokumento keitimus iš POS į prekybos štabą (HQ) ir tuomet eiti prie kitų užduočių, kol komercijos štabo (HQ) apdorojimas pasirodo fone. Norėdami užtikrinti, kad užregistruota sėkmingai, galite patikrinti dokumento būseną EKA dokumentų sąrašo puslapyje **Siunčiamos operacijos**. POS programoje galite taip pat naudoti išorės operacijos įjungimo dokumento sąrašą tam, kad pamatytumėte visus dokumentus, kurių negalima buvo publikuoti komercijos štabe (HQ). Jei dokumentas sužlunga, POS naudotojai gali atlikti korekcijas ir tuomet bandyti dar kartą apdoroti jį į komercijos štabą (HQ).
 
 > [!IMPORTANT]
 > Būtina sukonfigūruoti nesinchroninę dokumentų sistemą, kad įmonė galėtų naudoti siuntimo operacijas EKA.
@@ -57,7 +60,7 @@ Norėdami sukonfigūruoti nesinchroninę dokumentų sistemą, atlikite toliau pa
 ### <a name="create-and-schedule-two-batch-jobs-for-the-document-processing-and-monitoring-tasks"></a>Dviejų paketinių užduočių, skirtų dokumentų apdorojimo ir stebėjimo užduotims, kūrimas ir planavimas
 
 > [!NOTE]
-> Komercinėje versijoje 10.0.13 ir vėlesnėje, neprivalote konfigūruoti paketinių užduočių per paketinės užduoties sistemą. Paketiniai procesai gali būti konfigūruojami per **Mažmeninė prekyba ir Komercija > Mažmeninės prekybos ir Komercijos IT** meniu. Naudokite **Mažmeninės prekybos dokumento operacijų stebėjimą** ir **Mažmeninės prekybos dokumento operacijos apdorojimo** meniu parinktis paketinių užduočių konfigūravimui
+> Komercinėje versijoje 10.0.13 ir velesnėje, neprivalote konfigūruoti pakeitinių užduočių per paketinės užduotės sistemą. Paketiniai procesai gali būti konfigūruojami per **Mažmeninė prekyba ir Komercija > Mažmeninės prekybos ir Komercijos IT** meniu. Naudokite **Mažmeninės prekybos dokumento operacijų stebėjimą** ir **Mažmeninės prekybos dokumento operacijos apdorojimo** meniu parinktis paketinių užduočių konfigūravimui
 
 Jūsų sukurtos paketinės užduotys bus naudojamos dokumentams, kurių nepavyko sukurti arba kurių kūrimui skirtas laikas baigėsi, apdoroti. Taip pat jos bus naudojamos, kai aktyvių atsargų dokumentų, apdorojamų EKA, skaičius viršys sistemos sukonfigūruotą vertę.
 
@@ -71,7 +74,7 @@ Jūsų sukurtos paketinės užduotys bus naudojamos dokumentams, kurių nepavyko
 
 ## <a name="prerequisite-add-outbound-operation-to-the-pos-screen-layout"></a>Būtinoji sąlyga: įtraukti siunčiamą operaciją į EKA ekrano maketą
 
-Prieš jūsų organizacijai naudojant siunčiamų operacijų funkciją, reikia sukonfigūruoti EKA operaciją **Siunčiamos operacijos** viename ar daugiau [EKA ekrano maketų](/dynamics365/unified-operations/retail/pos-screen-layouts). Prieš diegdami naują operaciją gamybos aplinkoje, įsitikinkite, kad kruopščiai ją išbandėte ir apmokėte savo vartotojus ją naudoti.
+Prieš jūsų organizacijai naudojant siunčiamų operacijų funkciją, reikia sukonfigūruoti EKA operaciją **Siunčiamos operacijos** viename ar daugiau [EKA ekrano maketų](https://docs.microsoft.com/dynamics365/unified-operations/retail/pos-screen-layouts). Prieš diegdami naują operaciją gamybos aplinkoje, įsitikinkite, kad kruopščiai ją išbandėte ir apmokėte savo vartotojus ją naudoti.
 
 ## <a name="overview"></a>Peržiūrėti
 
@@ -97,8 +100,8 @@ Kai peržiūrite dokumentus bet kuriuose skirtukuose, pagal lauką **Būsena** s
 - **Visiškai išsiųsta** – visos perkėlimo užsakymo eilutės ir visi eilutės kiekiai užregistruoti kaip išsiųsti siuntimo sandėlio.
 - **Vykdoma** – ši būsena naudojama informuoti įrenginių vartotojus, kad su dokumentu aktyviai dirba kitas vartotojas.
 - **Pristabdyta** – ši būsena rodoma pasirinkus **Pristabdyti gavimą**, siekiant laikinai sustabdyti gavimo procesą.
-- **Apdorojimas HQ** – Dokumentas buvo pateiktas komercijos štabui (HQ) iš EKA programos, tačiau nebuvo sėkmingai publikuotas komercijos štabe (HQ). Atliekamas nesinchroninis dokumento registravimo procesas. Po to, kai dokumentas buvo sėkmingai publikuotas komercijos štabe (HQ), jo statusas turi būti atnaujintas į **Visiškai gautą** ar **Gautą iš dalies**.
-- **Apdorojimas nepavyko** – Komercijos štabe (HQ) dokumentas buvo publikuotas ir atmestas. Srityje **Išsami informacija** nurodoma, kodėl nepavyko užregistruoti. Dokumentas turi būti redaguojamas ištaisant duomenų klaidas ir tuomet turi būti dar kartą įkeltas į komercijos štabą (HQ) apdorojimui.
+- **Aprodojimas HQ** – Dokumentas buvo pateiktas komercijos štabui (HQ) iš POS programos, tačiau nebuvo sėkmingai publikuotas komercijos štabe (HQ). Atliekamas nesinchroninis dokumento registravimo procesas. Po to, kai dokumentas buvo sėkmingai publikuotas komercijos štabe (HQ), jo statusas turi būti atnaujintas į **Visiškai gautą** ar **Gautą iš dalies**.
+- **Apdorojimas nepavyko** – Komercijos štabe (HQ) dokumentas buvo publikuotas ir atmestas.  Srityje **Išsami informacija** nurodoma, kodėl nepavyko užregistruoti. Dokumentas turi būti redaguojamas ištaisant duomenų klaidas ir tuomet turi būti dar kartą įkeltas į komercijos štabą (HQ) apdorojimui.
 
 Kai sąraše pasirenkate dokumento eilutę, rodoma sritis **Išsami informacija**. Šioje srityje pateikiama papildoma informacija apie dokumentą, pvz., siuntimo ir datos informacija. Eigos juostoje rodoma, kiek prekių dar reikia apdoroti. Jei dokumentas nebuvo sėkmingai apdorotas į Komercijos štabą (HQ), **Išsamios informacijos** juosta taip pat rodo klaidų pranešimus, susijusius su gedimu.
 
@@ -116,7 +119,7 @@ Rodinyje **Visas užsakymų sąrašas** galite rankiniu būdu pasirinkti eilutę
 
 ### <a name="over-delivery-shipping-validations"></a>Pristatymo perviršio siuntimo tikrinimas
 
-Tikrinimas vykdomas dokumento eilučių įgyvendinimo proceso metu. Jis apima pristatymo perviršio tikrinimą. Jei vartotojas bando siųsti daugiau atsargų, nei buvo perduota pirkimo užsakyme, bet pristatymo perviršis nesukonfigūruotas arba siųstas kiekis viršija pirkimo užsakymo eilutėje sukonfigūruotą leistiną perdavimo perviršio nuokrypį, vartotojas gauna klaidą ir jam neleidžiama siųsti perteklinio kiekio.
+Tikrinimas vykdomas dokumento eilučių gavimo proceso metu. Jis apima pristatymo perviršio tikrinimą. Jei vartotojas bando gauti daugiau atsargų, nei buvo užsakyta pirkimo užsakyme, bet pristatymo perviršis nesukonfigūruotas arba gautas kiekis viršija pirkimo užsakymo eilutėje sukonfigūruotą leistiną pristatymo perviršio nuokrypį, vartotojas gauna klaidą ir jam neleidžiama gauti perteklinio kiekio.
 
 ### <a name="underdelivery-close-lines"></a>Pristatymo trūkumo uždarymo eilutės
 
@@ -126,9 +129,9 @@ Siekiant konfigūruoti bendrovės leidimą perduodamų užsakymų nepakankamam p
 
 Perkėlimo užsakymo eilutės pristatymo trūkumo procentai gali būti iš anksto nustatyti produktams kaip produkto konfigūracijos „Commerce“ pagrindiniame komponente dalis. Kitu atveju, jie gali būti siunčiami ar užrašomi specialioje užsakymo perdavimo eilutėje Komercijos biure (HQ).
 
-Po to, kai organizacija užbaigia konfigūruoti užsakymo perdavimo nepakankamą pristatymą, EKA naudotojai matys naują **Uždaryti likusį kiekį** parinktį **Išsamios informacijos** juostoje, kai jie pasirinks išorės persiunčiamo užsakymo liniją **Išorės operacijos** funkcijoje. Kai naudotojas pabaigia siuntimą naudodamas **Pabaigti vykdymą** operaciją, jie gali siųsti užklausą į komercijos štabą (HQ) tam, kad panaikintų likusį neišsiųstą kiekį. Jei vartotojas uždaro likusį kiekį, komercija atlieka patvirtinimą siekiant patikrinti, ar atšauktas kiekis yra nepristatyto užsakymo paklaidos intervale nustatytame persiunčiamo užsakymo eilutėje. Jei iki galo nepristatyto užsakymo paklaida viršijama, klaidos pranešimas rodomas ir naudotojas nebegali uždaryti likusio kiekio, kol anksčiau išsiųstas ir „dabar siunčiamas“ kiekis neatitinka ar neviršija nepakankamai pristatytos paklaidos.
+Po to, kai organizacija užbaigia konfigiūruoti užsakymo perdavimo nepakankamą pristatymą, POS naudotojai matys naują **Uždaryti likusį kiekį** parinktį **Išsamios informacijos** juostoje, kai jie pasirinks išorės persiunčiamo užsakymo liniją **Išorės operacijos** funkcijoje. Kai naudotojas pabaigia siuntimą naudodamas **Pabaigti vykdymą** operaciją, jie gali siųsti užklausą į komercijos štabą (HQ) tam, kad panaikintų likusį neišsiųstą kiekį.  Jei vartotojas uždaro likusį kiekį, komercija atlieka patvirtinimą siekiant patikrinti, ar atšauktas kiekis yra nepristatyto užsakymo paklaidos intervale nustatytame persiunčiamo užsakymo eilutėje. Jei iki galo nepristatyto užsakymo paklaida viršijama, klaidos pranešimas rodomas ir naudotojas nebegali uždaryti likusio kiekio, kol anksčiau išsiųstas ir „dabar siunčiamas“ kiekis neatitinka ar neviršija nepakankamai pristatytos paklaidos.
 
-Po to, kai siuntimas yra sinchronizuojamas komercijos biure (HQ), **Siųsti dabar** laukelyje nustatyti kiekiai siunčiamo užsakymo eilutėje EKA yra atnaujinami į siuntimo statusą biuro štabe (HQ). Visas neišsiųstas kiekis, kuris anksčiau būtų buvęs laikomas kiekiu „Liko išsiųsti“ (t. y. kiekiu, kuris bus siunčiamas vėliau), vietoj to yra laikomas atšauktu kiekiu. Perkėlimo užsakymo eilutėje kiekis „Liko išsiųsti“ yra nustatytas kaip **0** (nulis), o eilutė laikoma visiškai išsiųsta.
+Po to, kai siuntimas yra sinchronizuojamas komercijos biure (HQ), **Siųsti dabar** laukelyje nustatyti kiekiai siunčiamo užsakymo eilutėje POS yra atnaujinami į siuntimo statusą biuro štabe (HQ). Visas neišsiųstas kiekis, kuris anksčiau būtų buvęs laikomas kiekiu „Liko išsiųsti“ (t. y. kiekiu, kuris bus siunčiamas vėliau), vietoj to yra laikomas atšauktu kiekiu. Perkėlimo užsakymo eilutėje kiekis „Liko išsiųsti“ yra nustatytas kaip **0** (nulis), o eilutė laikoma visiškai išsiųsta.
 
 ### <a name="shipping-location-controlled-items"></a>Pagal vietą kontroliuojamų prekių siuntimas
 
@@ -146,20 +149,20 @@ Naudokite **Atšaukti vykdymą** funkciją programose juostoje tik, jei norite p
 
 ### <a name="pause-fulfillment"></a>Pristabdyti įvykdymą
 
-Jei įvykdote perkėlimo užsakymą, galite naudoti funkciją **Pristabdyti įvykdymą**, jei norite padaryti pertrauką procese. Pavyzdžiui, jums gali reikėti atlikti kitą veiksmą iš EKA, tokį kaip skambinimą prekybos klientui ar siuntimo į komercijos biuro (HQ) vėlavimo publikavimą.
+Jei įvykdote perkėlimo užsakymą, galite naudoti funkciją **Pristabdyti įvykdymą**, jei norite padaryti pertrauką procese. Pavyzdžiui, jums gali reikėti atlikti kitą veiksmą iš POS, tokį kaip skambinimą prekybos klinetui ar siuntimo į komercijos biuro (HQ) vėlavimo publikavimą.
 
 Kai pasirenkate **Pristabdyti įvykdymą**, dokumento būsena pakeičiama į **Pristabdyta**. Todėl vartotojas žinos, kad dokumento duomenys įvesti, bet dokumentas dar nepatvirtintas. Kai būsite pasirengę tęsti įvykdymo procesą, pasirinkite pristabdytą dokumentą ir pasirinkite **Užsakymo informacija**. Visi anksčiau įrašyti **Siunčiama dabar** kiekiai bus išsaugoti ir juos galima peržiūrėti rodinyje **Visas užsakymų sąrašas**.
 
 ### <a name="review"></a>Peržiūrėti
 
-Prieš paskutinį komercijos biuro įsipareigojimą, galite naudoti **Peržiūros** funkciją tam, kad patvirtintumėte išorės dokumentą. Ši funkcija praneša jums apie potencialiai trūkstančius ar netikslius duomenis, kurie gali sukelti apdorojimo klaidą ir pateikti jums galimybę ištaisyti problemas prieš pateikiant vykdymo užklausą. Tam, kad įjungtumėte **Peržiūros** funkciją programose juostoje, įjunkite **Vidaus ir išorės inventoriaus veiksmų EKA tvirtinimo** funkciją per savybių valdymą komercijos štabe (HQ).
+Prieš paskutinį komercijos biuro įsipareigojimą, galite naudoti **Peržiūros** funkciją tam, kad patvirtintumėte išorės dokumentą. Ši funkcija praneša jums apie potencialiai trūkstančius ar netikslius duomenis, kurie gali sukelti apdorojimo klaidą ir pateikti jums galimybę ištaisyti problemas prieš pateikiant vykdymo užklausą. Tam, kad įjungtumėte **Peržiūros** funkciją programose juostoje, įjunkite **Vidaus ir išorės inventoriaus veiksmų POS tvirtinimo** funkciją per savybių valdymą komercijos štabe (HQ).
 
 **Peržiūros** funkcija patvirtina tolesnes problemas išorės dokumente:
 - **Per didelis siuntimas** – dabar siuntimo kiekis yra didesnis nei užsakytas kiekis. Šios problemos rimtumą nulemia per didelis gavimo konfigūravimas biuro štabe (HQ).
 - **Per mažas siuntimas** – dabar siuntimo kiekis yra mažesnis nei užsakytas kiekis. Šios problemos rimtumą nulemia per mažo gavimo konfigūravimas biuro štabe (HQ).
 - **Serijinis numeris** – serijinis numeris nėra pateiktas ir neprieinamas serijiniuose elementuose, kurie reikalauja serijinio numerio registravimui inventoriuje.
 - **Vieta nenustatyta** – vieta nėra nustatyta vietos kontroliuojamam elementui, kuriame vieta negali būti tuščia.
-- **Panaikinti eilutes** – užsakymas turi komercijos štabo (HQ) naudotojo panaikintų eilučių, kurios yra nežinomos EKA programai.
+- **Panaikinti eilutes** – užsakymas turi komercijos štabo (HQ) naudotojo panaikintų eilučių, kurios yra nežinomos POS programai.
 
 Jei **Komercijos parametrai** > **Atsargos** > **Saugoti atsargų operacijas** nustatysite parametro **Įjungti automatinį patvirtinimą** reikšmę **Taip**, pasirinkus funkciją **Baigti įvykdymą** patvirtinimas bus vykdomas automatiškai.
 
@@ -177,11 +180,11 @@ Laukuose **Siuntimo data**, **Gavimo data** ir **Pristatymo būdas** įveskite r
 
 Sukūrę antraštės informaciją, galite įtraukti produktų į perkėlimo užsakymą. Norėdami pradėti prekių ir norimų kiekių įtraukimo procesą, nuskaitykite brūkšninius kodus arba pasirinkite **Įtraukti produktą**.
 
-Po to, kai eilutės buvo įrašytos į išorės perdavimo užsakymą, turite pasirinkti **Įrašyti** tam, kad įrašytumėte dokumento pakeitimus vietiniu lygmeniu ar **Pateikti reikalavimą** tam, kad pateiktumėte užsakymo informaciją komercijos štabui (HQ) tolesniam apdorojimui. Jei pasirinksite **Įrašyti**, dokumento juodraštis bus saugomas kanalo duomenų bazėje, o siuntimo sandėlis negalės vykdyti dokumento, kol jis nebus sėkmingai apdorotas naudojant **Pateikti užklausą**. Pasirinkite **Įrašyti** tik, jei nesate pasirengę įsipareigoti prašymui komercijos biure (HQ) apdorojimui.
+Po to, kai eilutės buvo įrašytos į išorės perdavimo užsakymą, turite pasirinkti **Įrašyti** tam, kad įrašytumėte dokumento pakeitimus vietiniu lygmeniu ar **Pateikti reikalavimą** tam, kad pateiktumėte užsakymo informaciją komercijos štabui (HQ) tolesniam apdorojimui. Jei pasirinksite **Įrašyti**, dokumento juodraštis bus saugomas kanalo duomenų bazėje, o siuntimo sandėlis negalės vykdyti dokumento, kol jis nebus sėkmingai apdorotas naudojant **Pateikti užklausą**. Pasirinnkite **Įrašyti** tik, jei nesate pasirengę įsipareigoti prašymui komercijos biure (HQ) apdorojimui.
 
 Jei dokumentas įrašomas vietoje, jį rasite skirtuke **Juodraščiai** dokumentų sąraše **Gaunamos operacijos**. Kol dokumento būsena yra **Juodraštis**, galite jį redaguoti pasirinkdami **Redaguoti**. Pagal poreikį galite atnaujinti, įtraukti ar naikinti eilutes. Be to, galite panaikinti visą dokumentą, kurio būsena yra **Juodraštis**, pasirinkę **Naikinti** skirtuke **Juodraščiai**.
 
-Po to, kai projektinis dokumentais buvo sėkmingai pateiktas komercijos štabe (HQ), jis pasirodo **Aktyvieji** skirtuke ir turi **Reikalaujamų** statusą. Nuo šiol dokumentą gali redaguoti tik siuntimo sandėlio vartotojai, EKA programoje pasirinkę **Siuntimo operacija**. Gavimo sandėlio vartotojai gali peržiūrėti perkėlimo užsakymą skirtuke **Aktyvieji**, esančiame dokumentų sąraše **Gaunamos operacijos**, tačiau jie negali jo redaguoti arba naikinti. Redagavimo užraktu užtikrinama, kad nekiltų konfliktų gaunančiam prašytojui pakeitus perkėlimo užsakymą tuo pačiu metu, kai siunčiantis siuntėjas aktyviai paima ir siunčia užsakymą. Jei, pateikus perkėlimo užsakymą, gaunanti parduotuvė arba sandėlis turi pateikti pakeitimų, reikia susisiekti su siunčiančiu siuntėju ir paprašyti įvesti pakeitimus.
+Po to, kai projektinis dokumentais buvo sėkmingai pateiktas komercijos štabe (HQ), jis pasirodo **Aktyvieji** skirtukte ir turi **Reikalaujamų** statusą. Nuo šiol dokumentą gali redaguoti tik siuntimo sandėlio vartotojai, EKA programoje pasirinkę **Siuntimo operacija**. Gavimo sandėlio vartotojai gali peržiūrėti perkėlimo užsakymą skirtuke **Aktyvieji**, esančiame dokumentų sąraše **Gaunamos operacijos**, tačiau jie negali jo redaguoti arba naikinti. Redagavimo užraktu užtikrinama, kad nekiltų konfliktų gaunančiam prašytojui pakeitus perkėlimo užsakymą tuo pačiu metu, kai siunčiantis siuntėjas aktyviai paima ir siunčia užsakymą. Jei, pateikus perkėlimo užsakymą, gaunanti parduotuvė arba sandėlis turi pateikti pakeitimų, reikia susisiekti su siunčiančiu siuntėju ir paprašyti įvesti pakeitimus.
 
 Dokumentui įgijus būseną **Pageidaujama**, jis yra paruoštas įvykdymo apdorojimui, vykdomam siuntimo sandėlyje. Kai siunta apdorojama naudojant siunčiamą operaciją, perkėlimo užsakymo dokumentų būsena pakeičiama iš **Pageidaujama** į **Visiškai išsiųsta** arba **Iš dalies išsiųsta**. Dokumentams įgijus būseną **Visiškai išsiųsta** arba **Iš dalies išsiųsta**, gaunanti parduotuvė arba sandėlis gali pagal juos registruoti gavimus, naudodami gaunamų operacijų gavimo procesą.
 
@@ -190,6 +193,3 @@ Visiškai išsiųsti perkėlimo užsakymai perkeliami į skirtuką **Atlikta** d
 ## <a name="related-topics"></a>Susijusios temos
 
 [Atvežamų atsargų operacija EKA](pos-inbound-inventory-operation.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

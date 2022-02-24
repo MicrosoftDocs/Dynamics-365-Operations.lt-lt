@@ -1,10 +1,12 @@
 ---
 title: Prognozės, darbo užsakymai ir projektai
 description: Šioje temoje aiškinamas prognozių ir darbo užsakymo integravimas su moduliu Projektų valdymas ir apskaita modulyje Turto valdymas.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 08/29/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetWorkOrderProjCostInfoPart
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 6b53dcf4e8796f808283b7bd5ea92b869ee0e59aac5359d74bcdc5de37ea7352
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f062b5463b54e9bcf32ed6f17263811c4bb24138
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6770341"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5021034"
 ---
 # <a name="forecasts-work-orders-and-projects"></a>Prognozės, darbo užsakymai ir projektai
 
@@ -58,13 +60,13 @@ Kai kurios informacijos darbo užsakyme nėra. Todėl, darbo užsakymo pirminis 
 
 Pavyzdžiui, toliau esančiame pavyzdyje dėl to, kaip nustatytas turto tipas **Sunkvežimio variklis**, kiekviena darbo užsakymo užduotis, sukurta naudojant turto tipą **Sunkvežimio variklis**, bus projekto ID 000186 subprojektas.
 
-![1 iliustracija.](media/01-integration-to-pma.png)
+![1 pav.](media/01-integration-to-pma.png)
 
 Projekto ID darbo užsakymo užduotyje ir susijusio veiklos numerio paskirtis yra sekti išlaidas, susijusias su darbo užsakymo užduotimi ir pasirinktu turtu modulyje **Projektų valdymas ir apskaita**. (Norėdami peržiūrėti projekto ID ir veiklos numerį, pasirinkite **Turto valdymas** > **Bendras** > **Darbo užsakymai** > **Visi darbo užsakymai** ir pasirinkite darbo užsakymą. „FastTab“ **Eilutės informacija**, lauke **Projekto ID** rodomas projekto ID, o lauke **Veiklos numeris** rodomas veiklos numeris.) Norėdami gauti daugiau informacijos apie turto valdymo išlaidų kontrolę, žr. [Kaštų ir datos kontrolė](../controlling-and-reporting/cost-and-date-control.md).
 
 Toliau pateiktame paveikslėlyje matote grafinę darbo užsakymų projektų ir susijusių projektų veiklų apžvalgą.
 
-![2 iliustracija.](media/02-integration-to-pma.png)
+![2 paveikslėlis](media/02-integration-to-pma.png)
 
 Kai darbo užsakyme sukuriama nauja darbo užsakymo užduotis, automatiškai sukuriamas šios užduoties darbo užsakymo projektas. Su darbo užsakymo užduotimi susijusio turto finansinės dimensijos automatiškai perkeliamos į darbo užsakymo užduoties projektą.
 
@@ -86,18 +88,15 @@ Siekiant užtikrinti, kad darbo užsakymų ciklo būsenos ir susijusių projekt�
 
 Toliau esančiuose paveikslėliuose pavaizduotos sąsajos tarp darbo užsakymų projektų grupių, susijusių projektų tipų, projektų etapų ir darbo užsakymų ciklų būsenų.
 
-![3 iliustracija.](media/03-integration-to-pma.png)
+![3 pav.](media/03-integration-to-pma.png)
 
-![4 iliustracija.](media/04-integration-to-pma.png)
+![4 pav.](media/04-integration-to-pma.png)
 
-![5 iliustracija.](media/05-integration-to-pma.png)
+![5 pav.](media/05-integration-to-pma.png)
 
 Norėdami gauti informacijos apie tai, kaip nustatyti darbo užsakymų projektus, žr. [Darbo užsakymo projekto sąranka](../setup-for-work-orders/work-order-project-setup.md). Daugiau informacijos apie darbo užsakymo ciklo būsenų kūrimą žr. [Darbo užsakymo ciklo būsenos](../setup-for-work-orders/work-order-lifecycle-states.md).
 
 Toliau esančiame paveikslėlyje pavaizduoti įvairūs projektai, sukurti modulyje **Turto valdymas** ir leidžiant integraciją su moduliu **Projektų valdymas ir apskaita**. Be to, čia pavaizduoti su projektais susiję darbo procesai.
 
-![6 iliustracija.](media/06-integration-to-pma.png)
+![6 pav.](media/06-integration-to-pma.png)
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

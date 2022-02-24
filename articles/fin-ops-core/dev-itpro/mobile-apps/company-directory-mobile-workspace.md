@@ -2,9 +2,11 @@
 title: Įmonės katalogo mobilioji darbo sritis
 description: Šioje temoje pateikiama informacija apie įmonės katalogo mobiliąją darbo sritį, kurią naudodami vartotojai gali peržiūrėti duomenis apie kitus organizacijos darbuotojus ir su jais susisiekti.
 author: jcart1106
+manager: AnnBe
 ms.date: 09/17/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
@@ -12,12 +14,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 2152d89e7d60a74e8d7561ea888e60cff42dd1ffd0ec697fac371aad9b85383c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3193fbc4d4b3492960c7c13dc24b41bb920e7d23
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720653"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4683437"
 ---
 # <a name="company-directory-mobile-workspace"></a>Įmonės katalogo mobilioji darbo sritis
 
@@ -77,7 +79,7 @@ Mobiliosios programos „Finance and Operations“ atsisiuntimas ir diegimas.
 3.  Kai prisijungsite pirmą kartą, bus rodomas raginimas įvesti savo vartotojo vardą ir slaptažodį. Įveskite savo kredencialus.
 4.  Prisijungus rodomos galimos jūsų įmonės darbo sritys. Atkreipkite dėmesį, kad sistemos administratoriui paskelbus naują darbo sritį vėliau turėsite atnaujinti mobiliųjų darbo sričių sąrašą.
 
-[![Atnaujinimas patempiant žemyn.](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
+[![Patraukite norėdami atnaujinti](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
 
 ## <a name="view-the-company-directory-by-using-the-mobile-workspace"></a>Įmonės katalogo peržiūra naudojant mobiliąją darbo sritį
 1.  Mobiliojoje programoje pasirinkite darbo sritį **Įmonės katalogas**. Rodomas darbuotojų sąrašas.
@@ -87,6 +89,3 @@ Mobiliosios programos „Finance and Operations“ atsisiuntimas ir diegimas.
 1.  Mobiliojoje programoje pasirinkite darbo sritį **Įmonės katalogas**.
 2.  Norėdami pradėti paiešką, lauke **Ieška** įveskite darbuotojo vardą, pavardę, pareigas arba skyrių.
 3.  Pasirinkite darbuotoją. Rodomas puslapis **Darbuotojo profilis**. Šiame puslapyje esanti informacija apima darbuotojo vardą, pavardę, pareigas ir skyrių.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -52,6 +52,3 @@ Kai nutraukiamas darbuotojų pareigų priskyrimas, nustatomas numatytasis kodas 
 
 ### <a name="new-entity-created-for-job-compensation-levels"></a>Sukuriamas naujas objektas, skirtas užduoties kompensacijų lygiams
 Sukurtas naujas duomenų valdymo sistemos (DMF) objektas. Objektas suteikia galimybę kurti ir naujinti kiekvienos sistemoje nurodytos užduoties kompensacijų lygius, rinkos vertes ir apklausų informaciją.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

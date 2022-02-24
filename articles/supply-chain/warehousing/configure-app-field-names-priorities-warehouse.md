@@ -1,10 +1,12 @@
 ---
-title: Sandėlio valdymo mobiliųjų įrenginių programėlės laukų konfigūravimas
-description: Šioje temoje aprašoma, kaip apibrėžti ir konfigūruoti laukų, rodomų sandėlio valdymo mobiliųjų įrenginių programėlėje, pavadinimus ir prioritetus.
-author: Mirzaab
+title: Programos laukų pavadinimų konfigūravimas sandėliavimo programoje
+description: Šioje temoje aprašoma, kaip nurodyti ir konfigūruoti sandėlio programos laukų pavadinimus ir prioritetus programoje „Dynamics 365 Supply Chain Management“.
+author: MarkusFogelberg
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSMobileAppField, WHSMobileAppFieldPriority
 audience: Application User
@@ -13,24 +15,24 @@ ms.custom: 269434
 ms.assetid: 6cf3d7da-29bb-4d3d-aaf5-544ca9cc2980
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: mirzaab
+ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 8c9c1d921f68538d5b84db16b1e88e28147e6b41
-ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
-ms.translationtype: MT
+ms.openlocfilehash: ac31b3d2b3b1d9ca51919fe75e06f0de1cda0c63
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7902301"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4963440"
 ---
-# <a name="configure-fields-for-the-warehouse-management-mobile-app"></a>Sandėlio valdymo mobiliųjų įrenginių programėlės laukų konfigūravimas
+# <a name="configure-app-field-names-in-the-warehouse-app"></a>Programos laukų pavadinimų konfigūravimas sandėliavimo programoje
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje aprašoma, kaip apibrėžti ir konfigūruoti laukų, rodomų sandėlio valdymo mobiliųjų įrenginių programėlėje, pavadinimus ir prioritetus.
+Šioje temoje aprašoma, kaip nurodyti ir konfigūruoti sandėlio programos laukų pavadinimus ir prioritetus programoje „Dynamics 365 Supply Chain Management“. 
 
 > [!NOTE]
-> Ši tema taikoma sandėlio valdymo funkcijoms. Ji netaikoma atsargų valdymo funkcijoms. Sandėlio valdymo mobiliųjų įrenginių programėlė yra programa, kurią galite naudoti sandėlio užduotims atlikti. Galite nurodyti ir konfigūruoti programoje naudojamų laukų pavadinimus, taip pat galite konfigūruoti prioritetą, kuriam laukų pavadinimai turėtų būti priskirti. Šioje temoje paaiškinama, kaip nurodyti ir konfigūruoti šiuos sandėlio valdymo mobiliųjų įrenginių programėlės laukų pavadinimus bei prioritetus ir, kaip jie naudojami.
+> Ši tema taikoma sandėlio valdymo funkcijoms. Ji netaikoma atsargų valdymo funkcijoms. „Warehousing” yra programa, kurią galite naudoti sandėlio užduotims atlikti. Galite nurodyti ir konfigūruoti programoje naudojamų laukų pavadinimus, taip pat galite konfigūruoti prioritetą, kuriam laukų pavadinimai turėtų būti priskirti. Šioje temoje paaiškinama, kaip nurodyti ir konfigūruoti šiuos sandėlio programos laukų pavadinimus bei prioritetus ir kaip jie naudojami „Warehousing“. Daugiau informacijos apie prisijungimo prie Fsandėliavimo konfigūravimą, žr. mokymo programoje [Sandėliavimo programos diegimo ir konfigūravimo apžvalga](install-configure-warehousing-app.md).
 
 ## <a name="configure-warehouse-app-field-names"></a>Sandėlio programos laukų pavadinimų konfigūravimas
 
@@ -137,9 +139,7 @@ Atsižvelgiant į sandėlio programos laukų prioriteto nustatymą ankstesnėje 
 
 Likę metaduomenys, pvz., vieta, užduočių puslapyje rodomi nebus, bet bus rodomi informacijos puslapyje. Norėdami sužinoti daugiau ir pamatyti vartotojo sąsajos pavyzdžių žr. tinklaraščio įrašą [Pranešimas apie „Finance and Operations“ – versiją „Warehousing“](https://blogs.msdn.microsoft.com/dynamicsaxscm/2017/01/20/announcing-dynamics-365-for-operations-warehousing/).
 
-## <a name="additional-resources"></a>Papildomi ištekliai
+<a name="additional-resources"></a>Papildomi ištekliai
+--------
 
-[Sandėli valdymo mobiliųjų įrenginių programėlės diegimas ir prijungimas](../warehousing/install-configure-warehouse-management-app.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+[Sandėliavimo programos diegimo ir konfigūravimo apžvalga](install-configure-warehousing-app.md)

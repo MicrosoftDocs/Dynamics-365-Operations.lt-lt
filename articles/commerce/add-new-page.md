@@ -2,30 +2,36 @@
 title: Įtraukti naują svetainės puslapį
 description: Šioje temoje aprašoma, kaip programoje „Microsoft Dynamics 365 Commerce“ įtraukti naują svetainės puslapį.
 author: psimolin
-ms.date: 02/03/2022
+manager: annbe
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: e0c2a73ae9e85cb299e7cb6fc70562659cdfadc5
-ms.sourcegitcommit: 1eef00796f7c5511f432b01800cdf8920992d7d5
-ms.translationtype: MT
+ms.openlocfilehash: b0f1e290526c25aa6e6300c65e24044a325bee53
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/04/2022
-ms.locfileid: "8090724"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4414293"
 ---
 # <a name="add-a-new-site-page"></a>Įtraukti naują svetainės puslapį
+
 
 [!include [banner](includes/banner.md)]
 
 Šioje temoje aprašoma, kaip programoje „Microsoft Dynamics 365 Commerce“ įtraukti naują svetainės puslapį.
+
+## <a name="overview"></a>Peržiūrėti
 
 Svetainei sukūrus šablonų ir fragmentų, kitas veiksmas yra pradėti kurti puslapius, kuriuose jie naudojami. Norėdami pradėti, turite pasirinkti šabloną arba maketą, puslapio pavadinimą ir puslapio URL.
 
@@ -33,11 +39,11 @@ Svetainei sukūrus šablonų ir fragmentų, kitas veiksmas yra pradėti kurti pu
 
 Naujam puslapiui galite naudoti šabloną arba maketą. Norėdami gauti daugiau informacijos, žr. [Šablonų ir maketų apžvalga](templates-layouts-overview.md).
 
-## <a name="specify-the-page-name"></a>Nurodykite puslapio pavadinimą
+## <a name="page-name"></a>Puslapio pavadinimas
 
-Puslapio pavadinimas turi būti unikalus jūsų svetainei ir turi būti aprašomasis, kad galėtumėte lengvai jį rasti, o kiti žmonės žinotų, kam puslapis skirtas. Vėliau galite pervardyti puslapį, jį redaguodami ir ypatybių srityje šalia puslapio pavadinimo pasirinkę rašiklio simbolį.
+Jūsų puslapio pavadinimas turi būti unikalus. Jis turi būti aprašomasis, kad galėtumėte lengvai jį rasti ir kiti žmonės žinotų, kam puslapis skirtas. Puslapio pavadinimą pasirinkite atidžiai, nes jo negalima pakeisti vėliau.
 
-## <a name="specify-the-page-url"></a>Nurodykite puslapio URL
+## <a name="page-url"></a>Puslapio URL
 
 Galite pasirinkti, kad būtų galima įvesti naujo puslapio URL. Sukūrę puslapį, galite įvesti eilutę, kuri bus naudojama visam URL sudaryti. Ši eilutė vadinama santykiniu URL arba kintamaisiais URL duomenimis. Tada pagal kintamuosius URL duomenis sugeneruojamas visas URL ir jam priskiriamas naujasis puslapis. Kintamuosius URL duomenis galite pakeisti vėliau, prieš publikuodami puslapį. Norėdami gauti daugiau informacijos, žr. [Puslapio URL sukūrimas](create-page-URL.md).
 
@@ -60,7 +66,7 @@ Norėdami į savo svetainę įtraukti naują puslapį, atlikite tolesnius veiksm
 1. Pasirinkite **Raiškiojo turinio blokas** ir **Gerai**.
 1. Pasirinkite **Raiškiojo turinio blokas**, tada – daugtaškio mygtuką ir **Įtraukti modulį**.
 1. Pasirinkite **Raiškiojo turinio bloko elementas** ir **Gerai**.
-1. Dešinėje esančioje ypatybių srityje pasirinkite **Pastraipa**, tada lauke įveskite **Mano bandomasis tekstas**.
+1. Dešinėje esančioje ypatybių srityje pasirinkite **Pastraipa**, tada lauke įveskite **Mano testinis tekstas**.
 1. Pasirinkite **Įrašyti**, tada – **Baigti redagavimą**.
 1. Lauke **Komentarai** įveskite **Įtrauktas naujas puslapis** ir pasirinkite **Gerai**.
 1. Norėdami peržiūrėti puslapį, pasirinkite **Peržiūra**. Baigę uždarykite peržiūros skirtuką – grįšite į kūrimo įrankį.
@@ -84,9 +90,4 @@ Norėdami į savo svetainę įtraukti naują puslapį, atlikite tolesnius veiksm
 
 [Papildyti kategorijos nukreipimo puslapį](enrich-category-page.md)
 
-[Patikrinti puslapio turinio pritaikymą neįgaliesiems](verify-accessibility.md)
-
-[Sukurti dinaminius e-komercijos puslapius pagal URL parametrus](create-dynamic-pages.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[Puslapio turinio pritaikymo neįgaliesiems patikra](verify-accessibility.md)

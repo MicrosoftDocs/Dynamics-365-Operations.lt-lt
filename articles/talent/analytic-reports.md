@@ -88,6 +88,3 @@ Vienas iš puikiausių „Power BI“ savybių yra tai visų vaizdinių ataskait
 ## <a name="export-to-excel"></a>Eksportuoti į Excel
 
 Norėdami peržiūrėti ataskaitos duomenis programoje „Excel“, galite spustelėti parinkčių meniu (tris taškus) ir pasirinkti **Eksportuoti pagrindinius duomenis.** Eksportuoti duomenys bus eksportuojami kaip filtruojami, atsižvelgiant į „Attract“ vartotojo teises. Norėdami gauti daugiau informacijos, žr. [Duomenų eksportavimas iš vaizdinių elementų](https://docs.microsoft.com/power-bi/visuals/power-bi-visualization-export-data).
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

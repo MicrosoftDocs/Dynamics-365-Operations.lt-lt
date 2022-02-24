@@ -1,26 +1,29 @@
 ---
-title: Optimizavimo patarėjo apžvalga
+title: 'Optimizavimo patarėjo apžvalga '
 description: Šioje temoje aprašoma, kaip galite naudoti optimizavimo patarėją, siekdami užtikrinti optimalią „Finance and Operations“ konfigūraciją.
 author: roxanadiaconu
+manager: AnnBe
 ms.date: 07/23/2019
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SelfHealingWorkspace
 audience: Application User, IT Pro
 ms.reviewer: sericks
+ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
 ms.author: sericks
 ms.search.validFrom: 2017-12-01
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 8039ff51dfb07bbdf5d6a102de1ff4ddbfd907a5
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
-ms.translationtype: MT
+ms.openlocfilehash: 1e53dbae2d139af554b1918102937f8c3579f64a
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984107"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4682542"
 ---
 # <a name="optimization-advisor-overview"></a>Optimizavimo patariamojo įrankio apžvalga
 
@@ -28,7 +31,7 @@ ms.locfileid: "7984107"
 
 Šioje temoje aprašoma, kaip galite naudoti optimizavimo patarėją, siekdami užtikrinti optimalią „Finance and Operations“ konfigūraciją.
 
-## <a name="overview"></a>Apžvalga
+## <a name="overview"></a>Peržiūra
 
 Atlikus netinkamą modulio konfigūraciją ir sąranką, gali būti pasiekiamos ne visos programos funkcijos, be to, tai gali turėti įtakos sistemos efektyvumui, taip pat sklandžiam verslo procesų veikimui. Verslo duomenų kokybė (pvz., duomenų tikslumas, išsamumas ir tvarkingumas) taip pat turi įtakos sistemos efektyvumui, organizacijos sprendimų priėmimo pajėgumui, našumui ir t. t.
 
@@ -91,6 +94,3 @@ Norėdami išjungti tam tikrų taisyklių vertinimą, pasirinkite taisyklės sug
 [Optimizavimo patariamojo įrankio taisyklių kūrimas](./create-rules-optimization-advisor.md)
 
 [Optimizavimo patarėjas naudojant „Dynamics 365 for Finance and Operations“ (vaizdo įrašas)](https://www.youtube.com/watch?v=MRsAzgFCUSQ)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

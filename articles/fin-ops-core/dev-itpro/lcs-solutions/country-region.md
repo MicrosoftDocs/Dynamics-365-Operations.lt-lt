@@ -1,32 +1,34 @@
 ---
 title: Globalizacijos ištekliai
 description: Šioje temoje išvardyti ištekliai, skirti padėti daugiau sužinoti apie konkrečiose šalyse / regionuose veikiančias funkcijas ir pasiūlymus.
-author: kfend
-ms.date: 02/19/2021
+author: ShylaThompson
+manager: AnnBe
+ms.date: 10/02/2019
 ms.topic: index-page
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERWorkspace
 audience: Application User
 ms.reviewer: sericks
 ms.custom: 104173
 ms.search.region: Global
-ms.author: kfend
+ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 822f00c21715b928027a7656f299a693686bf5dfc01f1f5a1738d5eb8d4bf124
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8ee422b2bdc8b94c2a465d0e48f5da983a410674
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6747520"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4685058"
 ---
 # <a name="globalization-resources"></a>Globalizacijos ištekliai
 
 ## <a name="local-and-regional-deployments"></a>Vietinis ir regioninis visuotinis diegimas
 Jeigu jūsų vyriausybės reglamentuose reikalaujama, kad duomenys būtų saugomi skirtingai nei kitose šalyse / regionuose, diegiant jums gali tekti atsižvelgti į šalies / regiono reikalavimus. Jums gali praversti šie ištekliai:
 
-[„Finance and Operations“ programos, valdomos „21Vianet“ Kinijoje](../deployment/china-local-deployment.md)
+[„Finance and Operations“ programos, valdomos „21Vianet“ Kinijoje](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/deployment/china-local-deployment)
 
 ## <a name="localization-and-regulatory-features"></a>Lokalizavimo ir reguliavimo priemonės​
 
@@ -53,6 +55,7 @@ Tolesniuose ištekliuose pateikiama informacijos apie planuojamas ir naujas loka
 
 #### <a name="regulatory-updates"></a>Reglamentavimo naujinimai
 -   [Reglamentavimo naujinimai](../../../finance/localizations/regulatory-updates.md)
+-   [Lokalizavimo portalas](https://mbs.microsoft.com/customersource/northamerica/ax/support/support-news/GFMLocalizationPortalMC) (naujinama kas savaitę)
 -   [Problemų ieška „Lifecycle Services“ (LCS)](../lifecycle-services/issue-search-lcs.md) (naujinama kasdien)
 
 #### <a name="communication-and-alerts"></a>Ryšys ir įspėjimai
@@ -60,7 +63,7 @@ Tolesniuose ištekliuose pateikiama informacijos apie planuojamas ir naujas loka
 -   [Įspėjimų apie šalims / regionams skirtas reglamentavimo funkcijas pateikimas](submit-localization-alerts.md)
 
 #### <a name="dynamics-365-release-plans"></a>„Dynamics 365“ leidimo planai
-[„Dynamics 365“ leidimo planuose](/business-applications-release-notes/) pateikiami naujų ir patobulintų verslo programų ir programų platformos galimybių, numatytų „Dynamics 365“, aprašymai. 
+[„Dynamics 365“ leidimo planuose](https://docs.microsoft.com/business-applications-release-notes/) pateikiami naujų ir patobulintų verslo programų ir programų platformos galimybių, numatytų „Dynamics 365“, aprašymai. 
 
 #### <a name="finance-and-operations-apps-whats-new"></a>Kas nauja „Finance and Operations“ programose
 [Kas nauja ar pasikeitė „Finance and Operations“ pagrindiniame puslapyje](../../fin-ops/get-started/whats-new-changed.md) pateikiamos funkcijos, įtrauktos į konkrečius „Finance and Operations“ programų leidimus.
@@ -108,7 +111,7 @@ Norėdami sužinoti daugiau, žr. [Žinyno sistema](../../fin-ops/get-started/he
         - [Lietuva](../../../finance/localizations/lithuania.md)
         - [Meksika](../../../finance/localizations/mexico.md)
         - [Malaizija](../../../finance/localizations/malaysia.md)
-        - [Nyderlandai](../../../finance/localizations/netherlands.md)
+        - [Olandija](../../../finance/localizations/netherlands.md)
         - [Norvegija](../../../finance/localizations/norway.md)
     :::column-end:::
     :::column:::
@@ -130,6 +133,3 @@ Norėdami sužinoti daugiau, žr. [Žinyno sistema](../../fin-ops/get-started/he
 
 
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

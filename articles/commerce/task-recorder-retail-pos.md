@@ -2,13 +2,16 @@
 title: „Retail Modern POS“ (MPOS) ir „Cloud POS“ užduočių įrašymo priemonė bei žinynas
 description: Šioje temoje aprašoma, kaip naudoti užduočių įrašymo priemonę „Retail Modern POS“ ir „Cloud POS“.
 author: mugunthanm
+manager: AnnBe
 ms.date: 06/19/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailTerminalTable, SystemParameters
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: 1205393
 ms.assetid: 2f13e9cf-55b5-458b-8c32-3f8cd98c9ecf
 ms.search.region: Global
@@ -16,12 +19,12 @@ ms.search.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: aedf18ef8b3d7266f3e5c7acd676241f9ec8b900f061f5363cd8d581062e83ed
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0ab8456d81fbe2dca495b65b932395572242a25c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6730760"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4414408"
 ---
 # <a name="task-recorder-and-help-for-retail-modern-pos-mpos-and-cloud-pos"></a>„Retail Modern POS“ (MPOS) ir „Cloud POS“ užduočių įrašymo priemonė bei žinynas
 
@@ -29,9 +32,9 @@ ms.locfileid: "6730760"
 
 Šioje temoje aprašoma, kaip naudoti užduočių įrašymo priemonę „Retail Modern POS“ ir „Cloud POS“.
 
-## <a name="overview"></a>Peržiūra
+## <a name="overview"></a>Peržiūrėti
 
-Užduoties registratorius „Retail Modern POS“ ar „Cloud POS“ yra naujas sprendimas, kuris buvo sukurtas koncentruojantis į greitą reagavimą. Ji pateikia lanksčią tarnybos programavimo sąsają (API), kuri užtikrina išplėtimą ir sklandų integravimą su verslo proceso įrašų vartotojais. Be to, pristatytas užduočių įrašymo priemonės integravimas su „Microsoft Dynamics Lifecycle Services“ verslo procesų modeliavimo (BPM) įrankiu ([https://bpm.lcs.dynamics.com](https://bpm.lcs.dynamics.com/)). Todėl vartotojai gali toliau iš įrašų kurti vaizdingas verslo procesų diagramas, kad galėtų analizuoti ir kurti savo programas.
+Užduočių įrašymo priemonė „Retail Modern POS“ arba „Cloud POS“ yra naujas sprendimas, kurį kuriant didelis dėmesys skirtas modifikavimo galimybėms padidinti. Ji pateikia lanksčią tarnybos programavimo sąsają (API), kuri užtikrina išplėtimą ir sklandų integravimą su verslo proceso įrašų vartotojais. Be to, pristatytas užduočių įrašymo priemonės integravimas su „Microsoft Dynamics Lifecycle Services“ verslo procesų modeliavimo (BPM) įrankiu ([https://bpm.lcs.dynamics.com](https://bpm.lcs.dynamics.com/)). Todėl vartotojai gali toliau iš įrašų kurti vaizdingas verslo procesų diagramas, kad galėtų analizuoti ir kurti savo programas.
 
 ## <a name="architecture"></a>Architektūra
 
@@ -53,16 +56,16 @@ Norėdami įjungti užduočių įrašymą EKA, atlikite toliau nurodytus veiksmu
 Atlikite šiuos veiksmus, jei norite kurti naują įrašą naudodami užduočių įrašymo priemonę.
 
 1. Paleiskite „Retail Modern POS“ arba „Cloud POS“ ir prisijunkite.
-2. Puslapio **Parametrai** dalyje **Užduočių įrašymo priemonė** spustelėkite **Atidaryti užduočių įrašymo priemonę**. Pasirodo sritis **Užduočių įrašymo priemonė**. Galite spustelėti mygtuką **Uždaryti** (**X**) viršutiniame dešiniajame kampe, kad prieš pradėdami naują įrašymo veiksmą uždarytumėte sritį **Užduočių įrašymo priemonė**. Norėdami atidaryti juostą dar kartą, kartokite žingsnį 2.
+2. Puslapio **Parametrai** dalyje **Užduočių įrašymo priemonė** spustelėkite **Atidaryti užduočių įrašymo priemonę**. Pasirodo sritis **Užduočių įrašymo priemonė**. Galite spustelėti mygtuką **Uždaryti** (**X**) viršutiniame dešiniajame kampe, kad prieš pradėdami naują įrašymo veiksmą uždarytumėte sritį **Užduočių įrašymo priemonė**. Norėdami vėl atidaryti sritį, pakartokite 2 veiksmą.
 
-    [![Sritis Užduočių įrašymo priemonė.](./media/newrecording-1024x450.jpg)](./media/newrecording.jpg)
+    [![Sritis Užduočių įrašymo priemonė](./media/newrecording-1024x450.jpg)](./media/newrecording.jpg)
 
 3. Įveskite įrašo pavadinimą bei aprašą ir spustelėkite **Pradėti**. Įrašymo sesija prasideda iškart, kai spustelėjate **Pradėti**.
 
     > [!NOTE]
     > Viršutiniame dešiniajame kampe spustelėjus mygtuką **Uždaryti** (**X**), kai vyksta įrašymas, sritis **Užduočių įrašymo priemonė** uždaroma, bet įrašymo seansas tęsiamas. Norėdami vėl atidaryti sritį Užduočių įrašymo priemonė, ekrano viršuje spustelėkite mygtuką **Žinynas** (klaustuko ženklas).
     >
-    > [![Klaustukas.](./media/help.jpg)](./media/help.jpg)
+    > [![Klaustuko ženklas](./media/help.jpg)](./media/help.jpg)
 
 4. Kai spustelėsite **Pradėti**, įjungiamas užduočių įrašymo priemonės įrašymo režimas. Srityje **Užduočių įrašymo priemonė** rodoma informacija ir valdikliai, kurie susiję su įrašymo procesu.
 5. Atlikti veiksmus, kuriuos norite atlikti „Retail Modern POS“ arba „Cloud POS“ vartotojo sąsajoje (UI).
@@ -72,7 +75,7 @@ Atlikite šiuos veiksmus, jei norite kurti naują įrašą naudodami užduočių
 
 Užbaigus įrašymo seansą, rodomos kelios parinktys, kad galėtumėte atsisiųsti savo įrašą.
 
-[![Atsisiuntimo parinktys.](./media/downlaod-options.jpg)](./media/downlaod-options.jpg)
+[![Atsisiuntimo parinktys](./media/downlaod-options.jpg)](./media/downlaod-options.jpg)
 
 ### <a name="save-to-this-pc"></a>Įrašyti šiame kompiuteryje
 
@@ -88,9 +91,9 @@ Neapdorotas įrašo failas naudingas kūrėjo scenarijams, pvz., norint patikrin
 
 ## <a name="recording-controls"></a>Įrašymo valdikliai
 
-[![Įrašymo valdikliai.](./media/controls.jpg)](./media/controls.jpg)
+[![Įrašymo valdikliai](./media/controls.jpg)](./media/controls.jpg)
 
-### <a name="stop"></a>Stabdyti
+### <a name="stop"></a>Sustabdyti
 
 Norėdami baigti įrašymo seansą, spustelėkite **Stabdyti**. Atminkite, kad baigę seansą negalite jo paleisti iš naujo. Todėl prieš baigdami seansą įsitikinkite, kad įrašymas atliktas.
 
@@ -117,13 +120,13 @@ Galite nurodyti sugrupuotų veiksmų rinkinio pradžią ir pabaigą, naudodami m
 
 Komentaras yra papildomas tekstas, įtraukiamas į įrašo veiksmą. Pavyzdžiui, galite naudoti komentarus, norėdami vartotojui suteikti daugiau konteksto arba instrukcijų. Galite įtraukti komentarų prieš arba po veiksmo. Galite įtraukti komentarą į bet kurį veiksmą, spustelėdami mygtuką **Redaguoti** (pieštuko simbolis) dešinėje veiksmo pusėje.
 
-[![Veiksmo mygtukas Redaguoti.](./media/annotate.jpg)](./media/annotate.jpg)
+[![Veiksmo mygtukas Redaguoti](./media/annotate.jpg)](./media/annotate.jpg)
 
 ### <a name="texts-and-notes"></a>Tekstas ir pastabos
 
 Galite naudoti laukus **Tekstas** ir **Pastabos**, norėdami įtraukti tekstą, kuris turi būti susietas su užduočių vedlio veiksmu.
 
-[![Laukai Tekstas ir Pastabos.](./media/annotatesteps.jpg)](./media/annotatesteps.jpg)
+[![Laukai Tekstas ir Pastabos](./media/annotatesteps.jpg)](./media/annotatesteps.jpg)
 
 #### <a name="text"></a>Tekstas
 
@@ -135,14 +138,11 @@ Lauke **Pastabos** įvestas tekstas rodomas *po* veiksmo teksto užduočių vedl
 
 ## <a name="help-in-retail-modern-pos-and-cloud-pos"></a>„Retail Modern POS“ ir „Cloud POS“ žinynas
 
-Tam, kad tinkinti užduočių įrašai būtų pateikiami „Retail Modern POS“ ir „Cloud POS“ žinyno srityje ir juos būtų galima peržiūrėti kaip tekstą, užduočių įrašus turite įrašyti į savo BPM biblioteką, tada atnaujinti žinyno sistemos parametrus, kad būtų nurodoma BPM biblioteka. Norėdami gauti daugiau informacijos, žr. [Žinyno sistemos prijungimas](../fin-ops-core/fin-ops/get-started/help-connect.md). „Retail Modern POS“ ir „Cloud POS“ žinynas atlieka iešką LCS realiuoju laiku. Ieška vykdoma visose BPM bibliotekose, kurios pasirinktos „Commerce“ žinyno sistemos parametruose, ir rodomi atitinkami rezultatai. Norėdami pasiekti meniu **Žinynas**, ekrano viršuje spustelėkite mygtuką **Žinynas** (klaustukas) ir ieškos lauke įveskite savo proceso pavadinimą bei spustelėkite ieškos mygtuką.
+Tam, kad tinkinti užduočių įrašai būtų pateikiami „Retail Modern POS“ ir „Cloud POS“ žinyno srityje ir juos būtų galima peržiūrėti kaip tekstą, užduočių įrašus turite įrašyti į savo BPM biblioteką, tada atnaujinti žinyno sistemos parametrus, kad būtų nurodoma BPM biblioteka. Norėdami gauti daugiau informacijos, žr. [Žinyno sistemos prijungimas](../fin-and-ops/get-started/help-connect.md). „Retail Modern POS“ ir „Cloud POS“ žinynas atlieka iešką LCS realiuoju laiku. Ieška vykdoma visose BPM bibliotekose, kurios pasirinktos „Commerce“ žinyno sistemos parametruose, ir rodomi atitinkami rezultatai. Norėdami pasiekti meniu **Žinynas**, ekrano viršuje spustelėkite mygtuką **Žinynas** (klaustukas) ir ieškos lauke įveskite savo proceso pavadinimą bei spustelėkite ieškos mygtuką.
 
-[![Mygtukas Pagalba.](./media/help.jpg)](./media/help.jpg)
+[![Mygtukas Pagalba](./media/help.jpg)](./media/help.jpg)
 
 Ieškos rezultatuose spustelėjus užduočių vedlį, veiksmus galima peržiūrėti kaip žinyno temą arba eksportuoti į „Word“ dokumentą.
 
 > [!NOTE]
 > „Retail Modern POS“ ir „Cloud POS“ žinyno sistema neatidarys užduočių vedlių pagal jūsų atidarytą formą ar atliekamą operaciją. Proceso pavadinimą turite įvesti į ieškos lauką ir spustelėti **Ieškoti**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

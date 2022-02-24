@@ -2,9 +2,11 @@
 title: Apmokėjimas pagal registracijas
 description: Šioje temoje paaiškinama, kaip apskaičiuojamas užmokestis pagal darbuotojo registracijas.
 author: johanhoffmann
+manager: tfehr
 ms.date: 03/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: JmgCalcApproveWeekView, JmgProdStatusListPagePayrollCostDetails, JmgPayCountTable, JmgPayStatConfig, JmgOvertimeSlize, JmgPayAgreementOverride, JmgPayCountSum, JmgPayAdjustSetup, JmgPayAdjustCostType, JmgPayEmployee, JmgMESBreak, JmgPayAddTable, JmgPayAddTransSelectTransId, JmgPayrollCostDetailsPart, jmgProdStatusListPagePayrollCosts, JmgPayrollCostPart, JmgPayEvents, JmgTermRegPayStatSetup, JmgPayStatGroup, JmgPayAddTrans, JmgPayStatTrans
 audience: Application User
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2018-03-20
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 58ff2629c2894e85ca5529df5f995ffa5273de67e1c22564f5f9911ea86fbd95
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: MT
+ms.openlocfilehash: 98ca6f7713b2f605a49a97d391fb8485bea78c4b
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6715727"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4966385"
 ---
 # <a name="pay-based-on-registrations"></a>Apmokėjimas pagal registracijas
 
@@ -39,7 +41,7 @@ ms.locfileid: "6715727"
 
 ## <a name="the-use-of-flex-time"></a>Nukrypimo laiko naudojimas
 
-Nukrypimo laiko laikotarpiai nustatomi laiko šablonuose, kurie naudojami srityje Laikas ir buvimas darbe. Yra du nukrypimo šablonų tipai: **Nukrypimas+** ir **Nukrypimas-**. Darbuotojui užregistravus laiką pasirenkant laikotarpį Nukrypimas+, darbuotojo nukrypimo balansas didėja pagal atidirbtų darbo valandų skaičių. Už valandas, atidirbtas laikotarpiu Nukrypimas+, darbuotojas jokios kompensacijos negauna. Tačiau darbuotojas gali atostogauti Nukrypimo- laikotarpiais ir gauti kompensaciją, panaudodamas valandas iš savo nukrypimo balanso. Todėl atostogas nukrypimo laikotarpiais sistema laiko neatvykimu į darbą.
+Nukrypimo laiko laikotarpiai nustatomi laiko šablonuose, kurie naudojami srityje Laikas ir buvimas darbe. Yra du nukrypimo šablonų tipai: **Nukrypimas+** ir **Nukrypimas-**. Darbuotojui užregistravus laiką pasirenkant laikotarpį Nukrypimas+, darbuotojo nukrypimo balansas didėja pagal atidirbtų darbo valandų skaičių. Už valandas, atidirbtas laikotarpiu Nukrypimas+, darbuotojas jokios kompensacijos negauna. Tačiau darbuotojas gali atostogauti laikotarpiais Nukrypimas- ir gauti kompensaciją, panaudodamas savo nukrypimo balanso valandas. Todėl atostogas nukrypimo laikotarpias sistema laiko neatvykimu į darbą.
 
 ## <a name="scenarios-based-on-flex-periods"></a>Scenarijai pagal nukrypimo laikotarpius
 
@@ -77,7 +79,7 @@ Norėdami suprasti šį scenarijų, peržiūrėkite toliau nurodytus laukus.
 
 #### <a name="calculation-of-flex"></a>Nukrypimas+ skaičiavimas
 
-Pagal nukrypimo šabloną, laikas nuo 06:00 iki 07:00 vadinamas laikotarpiu Nukrypimas+. Todėl, jei darbuotojas ateina į darbą 06:30, uždirba už 0,5 valandos. Šis laiko kiekis įskaičiuojamas į darbuotojo nukrypimo sąskaitą.
+Pagal nukrypimo šabloną, laikas nuo 06:00 iki 07:00 vadinamas laikotarpiu Nukrypimas+. Todėl, jei darbuotojas ateina į darbą 06:30, jis uždirba už 0,5 valandos. Šis laiko kiekis įskaičiuojamas į darbuotojo nukrypimo sąskaitą.
 
 #### <a name="calculation-of-flex-"></a>Nukrypimas- skaičiavimas
 
@@ -89,7 +91,7 @@ Laikas skaičiuojamas nuo atėjimo į darbą iki išėjimo iš darbo, t. y. nuo 
 
 #### <a name="calculation-of-pay-time"></a>Apmokamo laiko skaičiavimas
 
-Apmokamas laikas yra laikas, už kurį darbuotojui apmokama. Pagal šį scenarijų darbuotojas dirba 8,25 val. (**Laikas**). Tačiau **Apmokamas laikas** skaičiuojamas už 8,50 val., nes darbuotojui apmokama už Nukrypimo- laikotarpį po išėjimo iš darbo. Apmokamas laikas atitinka suplanuotas darbo valandas, nes Nukrypimas+ laikas įtraukiamas į darbuotojo nukrypimo sąskaitą, o ne į apmokamą laiką. Neatvykimo į darbą laikas laikotarpiu Nukrypimas- kompensuojamas pagal apmokamą laiką ir atskaičiuojamas iš darbuotojo nukrypimo sąskaitos.
+Apmokamas laikas yra laikas, už kurį darbuotojui apmokama. Pagal šį scenarijų darbuotojas dirba 8,25 val. (**Laikas**). Tačiau **Apmokamas laikas** skaičiuojamas 8.50 val., nes darbuotojui apmokama už laikotarpį Nukrypimas-, esantį po išėjimo iš darbo. Apmokamas laikas atitinka suplanuotas darbo valandas, nes Nukrypimas+ laikas įtraukiamas į darbuotojo nukrypimo sąskaitą, o ne į apmokamą laiką. Neatvykimo į darbą laikas laikotarpiu Nukrypimas- kompensuojamas pagal apmokamą laiką ir atskaičiuojamas iš darbuotojo nukrypimo sąskaitos.
 
 | Laikas              | Registracijos tipas | Apmokamas laikas (valandos)      |
 |-------------------|-------------------|-----------------------|
@@ -116,11 +118,11 @@ Puslapyje **Patvirtinimas** apskaičiavę žurnalo registracijas, skirtuke **Lai
 
 #### <a name="calculation-of-flex"></a>Nukrypimas+ skaičiavimas
 
-Pagal nukrypimo šabloną, laikas nuo 06:00 iki 07:00 vadinamas laikotarpiu Nukrypimas+. Todėl, jei darbuotojas ateina į darbą 06:30, į savo nukrypimo sąskaitą jis uždirba už 0,5 val. Nukrypimo+ laiko.
+Pagal nukrypimo šabloną, laikas nuo 06:00 iki 07:00 vadinamas laikotarpiu Nukrypimas+. Todėl, jei darbuotoja ateina į darbą 06:30, į savo nukrypimo sąskaitą ji uždirba 0,5 val. Nukrypimas+ laiko.
 
 #### <a name="calculation-of-flex-"></a>Nukrypimas- skaičiavimas
 
-Jei darbuotoja laikotarpiu Nukrypimas- dirba, Nukrypimas- neskaičiuojamas. Nukrypimas- skaičiuojamas tik darbuotojai laikotarpiu Nukrypimas- nesant darbe. Mokėjimo atžvilgiu, jei darbuotojas dirba Nukrypimo- laikotarpiu, jam apmokama pagal standartinio laiko užmokesčio tarifą. Darbuotojui neatvykus į darbą Nukrypimo- laikotarpiu, šios 45 minutės atskaičiuojamos iš jo nukrypimo sąskaitos.
+Jei darbuotoja laikotarpiu Nukrypimas- dirba, Nukrypimas- neskaičiuojamas. Nukrypimas- skaičiuojamas tik darbuotojai laikotarpiu Nukrypimas- nesant darbe. Mokėjimo atžvilgiu, jei darbuotoja laikotarpiu Nukrypimas- dirba, jai apmokama pagal standartinio laiko užmokesčio tarifą. Darbuotojai neatvykus į darbą laikotarpiu Nukrypimas-, šios 45 minutės atskaičiuojamos iš jos nukrypimo sąskaitos.
 
 #### <a name="calculation-of-time"></a>Laiko skaičiavimas
 
@@ -168,9 +170,9 @@ Norint sukonfigūruoti, kad sistema aiškiai atskirtų standartinį laiką ir vi
 
 Puslapyje **Skaičiavimo parametrai** pasirinkite šablono specifikacijos tipą **Viršvalandžiai**, po to nustatykite parametro **Mokėjimo laikas** parinktį **Ne**, kaip parodyta toliau.
 
-| Reg. specifikacija | Šablono specifikacijos tipas | Skaičiavimas   | Parametras | Apmokėta         | Parametras |
+| Reg. specifikacija | Šablono specifikacijos tipas | Skaičiavimas   |     | Sumokėta         |     |
 |--------------------|----------------------------|---------------|-----|--------------|-----|
-| Darbo laikas       | Viršvalandžiai                   | Standartinis laikas | Taip | Mokėjimo laikas     | Ne.  |
+| Darbo laikas       | Viršvalandžiai                   | Standartinis laikas | Taip | Mokėjimo laikas     | Nr.  |
 |                    |                            | Mokėjimo laikas      | Taip | Mokėjimas už viršvalandžius | Taip |
 
 Pakoregavus skaičiavimo parametrus sugeneruojami toliau nurodyti mokėjimo elementai.
@@ -439,7 +441,7 @@ Registruojant darbuotojo neatvykimo laikotarpį naudojamas neatvykimo kodas. Kai
 
 Puslapyje **Suplanuoto neatvykimo kūrimas** (**Laikas ir buvimas darbe** &gt; **Suplanuoto neatvykimo kūrimas**) galite kurti darbuotojų suplanuotus neatvykimus. Šiame puslapyje suplanuotas neatvykimas registruojamas kaip nurodytą dieną ir nurodytu laiku atliekama neatvykimo užduotis.
 
-Užduotis kuriama pagal užklausą. Todėl galite kurti kelių darbuotojų suplanuotą neatvykimą, pavyzdžiui, tai pačiai skaičiavimo grupei priklausančių darbuotojų neatvykimą. Jei suplanuotas neatvykimas sukurtas vienam darbuotojui, registraciją galima įvesti puslapyje **Buvimas darbe** arba **Laiko registracijos darbuotojai**.
+Užduotis kuriama pagal užklausą. Todėl galite kurti kelių darbuotojų suplanuotą neatvykimą, pavydžiui, tai pačiai skaičiavimo grupei priklausančių darbuotojų neatvykimą. Jei suplanuotas neatvykimas sukurtas vienam darbuotojui, registraciją galima įvesti puslapyje **Buvimas darbe** arba **Laiko registracijos darbuotojai**.
 
 - Norėdami neatvykimo registraciją įvesti puslapyje **Buvimas darbe**, pasirinkite **Laikas ir buvimas darbe** &gt; **Užklausos ir ataskaitos** &gt; **Buvimas darbe** &gt; **Buvimas darbe**, po to pasirinkite **Neatvykimo registracija**.
 - Norėdami neatvykimo registraciją įvesti puslapyje *<strong><em>Laiko registracijos darbuotojai</em></strong>* pasirinkite <strong>Laikas ir buvimas darbe</strong> &gt; <strong>Sąranka</strong> &gt; <strong>Laiko registracijos darbuotojai</strong>, po to srities <strong>Laiko paskyrimas</strong> skirtuke <strong>Laikas</strong> pasirinkite <strong>Neatvykimo registracijos</strong>.
@@ -466,11 +468,11 @@ Toliau pateikiamuose scenarijuose nurodomi darbuotojams pagal jų registracijas 
 
 ### <a name="scenario-1-the-worker-clocks-in-later-than-planned"></a>1 scenarijus: darbuotojas ateina į darbą vėliau nei planuota
 
-Darbuotojas ateina į darbą 08:30. Kadangi suplanuotas jo atėjimo į darbą laikas yra 07:00, jis vėluoja į darbą 1,50 valandos. Kadangi šis 1,50 val. laikas laikomas neatvykimo laiku, darbuotojo paprašoma pasirinkti neatvykimo kodą. Darbuotojas išeina iš darbo 15:30, o tai yra suplanuotas išėjimo iš darbo laikas. Apskaičiavus ir patvirtinus darbuotojo registracijas, neatvykimo registracija, kartu su darbuotojui atėjus į darbą pasirinktu neatvykimo kodu, rodoma nuo 07:00 iki 08:30.
+Darbuotojas ateina į darbą 08:30. Kadangi suplanuotas jo atėjimo į darbą laikas yra 07:00, jis 1,50 val. vėluoja į darbą. Kadangi šis 1,50 val. laikas laikomas neatvykimo laiku, darbuotojo paprašoma pasirinkti neatvykimo kodą. Darbuotojas išeina iš darbo 15:30, o tai yra suplanuotas išėjimo iš darbo laikas. Apskaičiavus ir patvirtinus darbuotojo registracijas, neatvykimo registracija, kartu su darbuotojui atėjus į darbą pasirinktu neatvykimo kodu, rodoma nuo 07:00 iki 08:30.
 
-Laiko šablone galite sukonfigūruoti registracijos tipą **Atėjimo į darbą laikas**, kad būtų toleruojamas vėlesnis darbuotojų atvykimas į darbą. Pavyzdžiui, nustačius leistiną nuokrypį į 5, darbuotojo prašoma įvesti neatvykimo kodą tik tada, jei jis ateina į darbą vėliau nei 07:05.
+Laiko šablone galite sukonfigūruoti registracijos tipą **Atėjimo į darbą laikas**, kad būtų toleruojamas vėlesnis darbuotojų atvykimas į darbą. Pavyzdžiui, nustačius leistiną nuokrypį 5 darbuotojo prašoma įvesti neatvykimo kodą tik tuo atveju, jei jis ateina į darbą vėliau nei 07:05.
 
-Tokiu atveju, kadangi darbuotojas negali nurodyti pateisinamos vėlavimo į darbą priežasties, jis turi pasirinkti nurodytą neleistino neatvykimo kodą. Neatvykimo kodas laikomas taikomu leistinam neatvykimui, jei įjungtas neatvykimo grupės, kuriai priklauso neatvykimo kodas, viršvalandžių atskaitymo nustatymas. Norėdami nustatyti nustatymą, pasirinkite **Laikas ir buvimas darbe** &gt; **Sąranka** &gt; **Grupės** &gt; **Neatvykimo grupės**, po to pažymėkite žymės langelį **Atskaityti viršvalandžius**.
+Tokiu atveju, kadangi darbuotojas negali nurodyti pateisinamos vėlavimo į darbą priežasties, jis pasirenka nurodytą neleistino neatvykimo kodą. Neatvykimo kodas laikomas taikomu leistinam neatvykimui, jei įjungtas neatvykimo grupės, kuriai priklauso neatvykimo kodas, viršvalandžių atskaitymo nustatymas. Norėdami nustatyti nustatymą, pasirinkite **Laikas ir buvimas darbe** &gt; **Sąranka** &gt; **Grupės** &gt; **Neatvykimo grupės**, po to pažymėkite žymės langelį **Atskaityti viršvalandžius**.
 
 Toliau nurodoma, kaip darbuotojo dienos registracijos rodomos puslapyje **Patvirtinimas** atlikus skaičiavimą.
 
@@ -526,7 +528,7 @@ Toliau nurodomas perkėlus registracijas gautas mokėjimo elementas.
 
 ### <a name="scenario-4-the-worker-clocks-in-late-and-clocks-out-after-the-planned-clock-out-time-during-an-overtime-period"></a>4 scenarijus: darbuotojas ateina į darbą pavėlavęs ir išeina iš darbo vėliau negu suplanuotu viršvalandžių laikotarpio išėjimo iš darbo laiku
 
-Darbuotojas ateina į darbą pavėlavęs 09:30, o tada, kad kompensuotų savo pavėlavimą, jis dirba viršvalandžius ir išeina iš darbo 17:00. Kadangi darbuotojas atvyko pavėlavęs ir kompensavo pavėlavimą dirbdamas ilgiau, įmonė nenori mokėti darbuotojui už viršvalandžius, kuriuos jis dirbo nuo suplanuoto išėjimo iš darbo laiko 15:30 iki faktinio išėjimo iš darbo laiko 17:00, nors laiko šablone šis laikotarpis laikomas viršvalandžiais.
+Darbuotojas ateina į darbą pavėlavęs 09:30, po to, norėdamas kompensuoti savo pavėlavimą, dirba viršvalandžius ir išeina iš darbo 17:00. Kadangi darbuotojas atvyko pavėlavęs ir kompensavo pavėlavimą dirbdamas ilgiau, įmonė nenori mokėti darbuotojui už viršvalandžius, kai jis dirbo nuo suplanuoto išėjimo iš darbo laiko 15:30 iki faktinio išėjimo iš darbo laiko 17:00, nors laiko šablone šis laikotarpis laikomas viršvalandžiais.
 
 Norint naudoti šį scenarijų, galima nustatyti neatvykimo kodą ir sutrumpinti viršvalandžių laikotarpį tiek valandų, kiek darbuotojui tą dieną priskaičiuota neleistinų neatvykimo valandų. Norėdami, kad neleistino neatvykimo valandos būtų skaičiuojamos kaip viršvalandžiai, pasirinkite **Laikas ir buvimas darbe** &gt; **Sąranka** &gt; **Grupės** &gt; **Neatvykimo grupės** ir pažymėkite žymės langelį **Atskaityti viršvalandžius**.
 
@@ -548,7 +550,7 @@ Pažymėjus pasirinkto neatvykimo kodo žymės langelį **Atskaityti viršvaland
 
 Šiuo atveju iš 2,0 val. viršvalandžių nuo 15:30 iki 17:30 atimama 1,5 val. neleistino neatvykimo nuo 07:00 iki 09:30. Registracijos rezultatas yra 1,5 val. standartinio laiko ir 0,5 val. viršvalandžių.
 
-Priešingu atveju, jei pasirinkto neatvykimo kodo žymės langelio **Atskaityti viršvalandžius** žymėjimas panaikintas, darbuotojui mokama už viršvalandžius, nors jis ir vėlavo bei neatvyko dėl neleistinos priežasties. Tokiu atveju perkėlus registracijas sugeneruojami toliau nurodyti mokėjimo elementai.
+Priešingu atveju, jei pasirinkto neatvykimo kodo žymės langelio **Atskaityti viršvalandžius** žymėjimas panaikintas, darbuotojui mokama už viršvalandžius, nors jis vėlavo ir neleistinai neatvyko. Tokiu atveju perkėlus registracijas sugeneruojami toliau nurodyti mokėjimo elementai.
 
 | Užmokesčio tipas     | Mokėjimo tipas | Mokėjimo vnt. | Tarifas |
 |---------------|----------|-----------|------|
@@ -559,7 +561,7 @@ Priešingu atveju, jei pasirinkto neatvykimo kodo žymės langelio **Atskaityti 
 
 Toliau pateiktame pavyzdyje rodoma, kaip galima sumažinti darbuotojo nukrypimo sąskaitą neatvykimo laikotarpį paverčiant laikotarpiu Nukrypimas-.
 
-Darbuotoja ateina į darbą 07:00, o išeina iš darbo 13:00. Darbuotojas turi sutartį, pagal kurią gali grįžti namo savaitgalį, jei atima šias valandas iš savo nukrypimo sąskaitos. Darbuotojui išeinant iš darbo 13:00, jis paraginamas pasirinkti neatvykimo kodą, nes šis likusios darbo dienos dalies neatvykimo laikotarpis nepriskiriamas suplanuotam Nukrypimo- laikotarpiui. Norėdamas likusią darbo dienos dalį paversti Nukrypimo laikotarpiu-, darbuotojas gali pasirinkti neatvykimo kodą, kuriuo naudojantis pasirenkamas nustatymas sumažinti jo nukrypimo sąskaitą.
+Darbuotoja ateina į darbą 07:00, o išeina iš darbo 13:00. Ji susitarė su savo vadovu, kad prieš savaitgalį namo galės eiti anksčiau, jei atskaičiuos šias valandas iš savo nukrypimo sąskaitos. Darbuotojai išeinant iš darbo 13:00 ji paraginama pasirinkti neatvykimo kodą, nes šis likusios darbo dienos dalies neatvykimo laikotarpis nepriskiriamas suplanuotam laikotarpiui Nukrypimas-. Norėdama likusią darbo dienos dalį paversti laikotarpiu Nukrypimas-, darbuotoja gali pasirinkti neatvykimo kodą, kuriuo naudojantis pasirenkamas nustatymas sumažinti jos nukrypimo sąskaitą.
 
 Norėdami sumažinti darbo dieną neatvykimą užregistravusių darbuotojų kintamų valandų balansą, pasirinkite **Laikas ir buvimas darbe** &gt; **Sąranka** &gt; **Grupės** &gt; **Neatvykimo grupės** ir pažymėkite žymės langelį **Sumažinti nukrypimą**.
 
@@ -577,7 +579,7 @@ Toliau nurodoma, kaip atrodys gautas mokėjimo elementas perkėlus registraciją
 |---------------|----------|-----------|------|
 | Standartinis laikas | 1 201     | 6,00      | 10   |
 
-Toliau nurodoma, kaip atrodys gauti mokėjimo elementai perkėlus registracijas darbuotojui pasirinkus leistino neatvykimo kodą ir kai nustatyta, kad neatvykimo kodas sumažintų jo nukrypimo sąskaitą.
+Toliau nurodoma, kaip atrodys gauti mokėjimo elementai perkėlus registracijas darbuotojui pasirinkus leistino neatvykimo kodą ir kai nustatyta, kad neatvykimo kodas sumažintų nukrypimo sąskaitą.
 
 | Užmokesčio tipas     | Mokėjimo tipas | Mokėjimo vnt. | Tarifas |
 |---------------|----------|-----------|------|
@@ -596,6 +598,3 @@ Darbuotojui darbo dieną neatvykus į darbą ir tą dieną nesant suplanuotų da
 - Automatinis neatvykimo įvedimas
 
 Skaičiuojant darbuotojo, turinčio galimybę naudotis kintamomis valandomis, kasdienes registracijas lauke **Automatinis Nukrypimas- įvedimas** nurodytas neatvykimo kodas naudojamas kaip numatytasis neatvykimo kodas. Jei darbuotojas negali pasinaudoti kintamomis valandomis, naudojamas lauke **Automatinis neatvykimo įvedimas** nurodytas neatvykimo kodas. Jei įmonėje yra ne tik kintamomis valandomis galinčių pasinaudoti darbuotojų, bet ir darbuotojų, kurie kintamomis valandomis pasinaudoti negali, privaloma nustatyti abu parametrus.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

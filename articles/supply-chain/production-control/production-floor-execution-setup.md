@@ -2,42 +2,44 @@
 title: Įrenginio, skirto paleisti gamybos cecho vykdymo sąsają, nustatymas
 description: Gamybos cecho vykdymo sąsaja nustatoma kiekviename įrenginyje, esančiame gamybos ceche. Įmonės paprastai nustato kiekvieną įrenginį skirtingai, atsižvelgdamos į įrenginio paskirtį. Pavyzdžiui, įmonės priėmimo vietoje gali būti vienas įrenginys, kurį naudodami darbuotojai registruojasi atėję į darbą ir išeidami, o ceche – kitas įrenginys, kurį naudodami darbuotojai valdo savo užduotis.
 author: johanhoffmann
+manager: tfehr
 ms.date: 10/05/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: JmgProductionFloorExecution, HcmWorker, JmgProductionFloorExecutionDeviceConfiguration
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
-ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: f0be79b54a279893f93d41981342e42c8880f059
-ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
-ms.translationtype: MT
+ms.dyn365.ops.version: Release 10.0.15
+ms.openlocfilehash: d4529af21d9673512889b17aeb1e7fbd49969cdc
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752837"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4966284"
 ---
 # <a name="set-up-a-device-to-run-the-production-floor-execution-interface"></a>Įrenginio, skirto paleisti gamybos cecho vykdymo sąsają, nustatymas
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Gamybos cecho vykdymo sąsaja nustatoma kiekviename įrenginyje, esančiame gamybos ceche. Įmonės paprastai nustato kiekvieną įrenginį skirtingai, atsižvelgdamos į įrenginio paskirtį. Pavyzdžiui, įmonės priėmimo vietoje gali būti vienas įrenginys, kurį naudodami darbuotojai registruojasi atėję į darbą ir išeidami, o ceche – kitas įrenginys, kurį naudodami darbuotojai valdo savo užduotis.
 
 ## <a name="set-the-configuration-and-filters-for-a-specific-device"></a>Konkretaus įrenginio konfigūracijos ir filtrų nustatymas
 
-Norėdami nustatyti įrenginio konfigūravimo ir užduočių filtrus, prisiregistruokite gamybos laiko vykdymo puslapyje naudodami abonementą, turiį saugos vaidmenį, kuris apima **·** priežiūros laiko *·* priežiūrą. (Iš visų parengtų naudoti saugos vaidmenų šią pareigą turi tik *cecho prižiūrėtojas*.) Tada atlikite toliau pateiktus veiksmus.
+Norėdami nustatyti įrenginio konfigūraciją ir užduočių filtrus, prisijunkite prie puslapio **Gamybos cecho vykdymas** naudodami abonementą, kuriame yra saugos vaidmuo, apimantis *prižiūrėtojo laiko priežiūros* pareigą. (Iš visų parengtų naudoti saugos vaidmenų šią pareigą turi tik *cecho prižiūrėtojas*.) Tada atlikite toliau pateiktus veiksmus.
 
-1. Eikite į įrenginį, kurį norite nustatyti, ir prisijunkite prie „Microsoft Dynamics 365 Supply Chain Management” kaip cecho prižiūrėtojas. (Naudoti sąskaitą, kurioje yra *Prižiūrėti laiko priežiūros* pareigą.)
+1. Eikite į įrenginį, kurį norite nustatyti, ir prisijunkite prie „Microsoft Dynamics 365 Supply Chain Management” kaip cecho prižiūrėtojas. (Naudokite abonementą, kuriame yra *prižiūrėtojo laiko priežiūros* pareiga.)
 1. Įsitikinkite, kad įrenginiui, kurį nustatote, konfigūracija yra galima. Jei nėra konfigūracijos, pateikiama numatytoji konfigūracija. Daugiau informacijos apie tai, kaip nustatyti konfigūraciją, žr. [Gamybos cecho vykdymo sąsajos konfigūravimas](production-floor-execution-configure.md).
 1. Eikite į **Gamybos kontrolė \> Gamybos vykdymas \> Gamybos cecho vykdymas**.
 
     Jei gamybos cecho vykdymo sąsaja jau buvo sukonfigūruota bent vieną kartą dabartiniame įrenginyje, atsiranda prisijungimo puslapis. Kitu atveju atsiranda pasveikinimo puslapis.
 
 1. Prisijungimo puslapyje arba pasveikinimo puslapyje pasirinkite **Konfigūruoti**.
-1. Sąraše pasirinkite konfigūraciją.
+1. Sąraše pasirinkite konigūraciją.
 1. Pasirinkite **Toliau**.
 1. Pasirinkite vieną ar kelis filtrus, kuriuos taikysite dabartiniame įrenginyje. Šie filtrai padės užtikrinti, kad įrenginyje būtų rodomos tik tinkamos užduotys. Norėdami nustatyti filtrą, pasirinkite filtro tipą, kad būtų atidarytas reikšmių sąrašas, o tada pasirinkite reikšmę, kurią norite filtruoti. Galimi toliau pateikti filtrai.
 
@@ -70,13 +72,10 @@ Dažnai vykdysite gamybos cecho vykdymo sąsają įrenginyje, kuris naudojamas t
 
 Viršutinėje toliau pateiktos iliustracijos dalyje rodoma, kaip sąsaja atrodo pagal numatytuosius nustatymus. Apatinė dalis rodo, kaip ji atrodo viso ekrano režimu, kai naršymo sritis paslėpta.
 
-![Standartinė ir viso ekrano sąsaja.](media/pfei-full-screen.png "Standartinė ir viso ekrano sąsaja")
+![Standartinė ir viso ekrano sąsaja](media/pfei-full-screen.png "Standartinė ir viso ekrano sąsaja")
 
 ## <a name="extend-the-session-past-12-hours"></a>12 val. seanso pratęsimas
 
 Pagal numatytuosius nustatymus gamybos cecho vykdymo sąsaja automatiškai atsijungia, jei ji nenaudojama 12 valandų. „Supply Chain Management” vartotojas tokiu atveju turi vėl prisijungti. Tačiau galite pratęsti skirtojo laiko ribą iki 90 dienų.
 
 Norėdami pratęsti skirtojo laiko ribą, prisijunkite prie „Supply Chain Management” ir eikite į **Sistemos administravimas \> Vartotojai \> Seanso pratęsimas**. Nurodykite „Supply Chain Management” vartotojo abonementą, kuris naudojamas prisijungimui prie įrenginio, ir valandų, per kurias seansas turėtų išlikti aktyvus, skaičių.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

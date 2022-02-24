@@ -1,75 +1,63 @@
 ---
 title: Įvesti pretendento ir prašymo duomenis neautomatiškai
 description: Ši procedūra nurodo, kaip rankiniu būdu tvarkyti informaciją apie pretendentus ir jų prašymus.
-author: twheeloc
-ms.date: 01/10/2022
+author: andreabichsel
+manager: AnnBe
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HcmApplicant, LogisticsContactInfoGrid, HRMApplication,  DirPartyTable
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: anbichse
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 68f236ad000adea91e746309564baf84a270a0e5
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
-ms.translationtype: MT
+ms.openlocfilehash: a1039acd53f493e810b11aafd85116d034b7d323
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8075455"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797318"
 ---
 # <a name="enter-applicant-and-application-data-manually"></a>Įvesti pretendento ir prašymo duomenis neautomatiškai
 
-> [!IMPORTANT]
-> Šioje temoje nurodyta funkcija šiuo metu pasiekiama žmogiškųjų išteklių klientams finansų infrastruktūroje.  
+[!include [banner](../../includes/banner.md)]
 
+Ši procedūra nurodo, kaip rankiniu būdu tvarkyti informaciją apie pretendentus ir jų prašymus.   Galite įvesti ir tvarkyti pretendentų asmeninę informaciją, pokalbių datas ir laikus, nuorodas, kompetencijas ir patogumų užklausas. Taip pat galima atnaujinti pretendentų prašymų priimti į darbą būseną ir bendrauti su pretendentais laiškais arba el. laiškais. Kuriant pretendento įrašą, sukuriamas to pretendento asmens įrašas visuotinėje adresų knygelėje.       Kuriant šią procedūrą naudojama demonstracinių duomenų įmonė yra USMF.
 
-Ši procedūra nurodo, kaip rankiniu būdu tvarkyti informaciją apie pretendentus ir jų prašymus. Galite įvesti ir tvarkyti pretendentų asmeninę informaciją, pokalbių datas ir laikus, nuorodas, kompetencijas ir patogumų užklausas. Taip pat galite atnaujinti kandidatų įdarbinimo paraiškų būseną ir kurti laiškus ar el. pašto žinutes, kad galėtumėte bendrauti su kandidatais. Kuriant pretendento įrašą, sukuriamas to pretendento asmens įrašas visuotinėje adresų knygelėje. The **USMF** šiai procedūrai sukurti buvo pasitelkta demonstracinių duomenų įmonė.
 
 ## <a name="create-a-new-applicant-record"></a>Sukurti naują pretendento įrašą
-
-1. Eiti į **Žmogiškieji ištekliai \> Įdarbinimas \> Pareiškėjai \> Pareiškėjai**.
-2. Pasirinkite **Nauja**.
-3. Viduje konors **Pirmas vardas** lauke įveskite reikšmę.
-4. Viduje konors **Pavardė** lauke įveskite reikšmę.
-
-    Galite įvesti papildomą pretendento informaciją, jei tokia yra. Pavyzdžiui, ši informacija gali apimti aukščiausią kandidato laipsnį, dabartinį pareigų pavadinimą arba ankstesnį darbdavį.
-
-5. Išplėskite skyrių **Kontaktinė informacija**.
-6. Pasirinkite **Įtraukti**.
-7. Viduje konors **apibūdinimas** lauką, įveskite **Ryšių el**.
-8. Lauke **Tipas** pasirinkite parinktį.
-9. Viduje konors **Kontaktinis numeris/adresas** lauke įveskite reikšmę.
-
-    Šis el. pašto adresas bus naudojamas susirašinėti su pretendentu el. laiškais.
-
-10. Pasirinkite **Įtraukti**.
-11. Lauke **Aprašas** įveskite reikšmę.
-12. Viduje konors **Kontaktinis numeris/adresas** lauke įveskite reikšmę.
-
-    Jei reikia, naudokite šį lauką papildomai asmeninei informacijai apie pareiškėją įvesti. Pavyzdžiui, ši informacija gali apimti pareiškėjo gimimo datą, etninę kilmę, lytį arba šeimyninę padėtį.
-
-13. Veiksmų srityje pasirinkite **Kompetencijos**.
-
-    Galite įvesti pretendento kompetencijos profilį, įskaitant jo įgūdžius, profesinę patirtį, išsilavinimą, bandymus arba sertifikatus. Šią informaciją galima naudoti norint susieti kandidato įgūdžius su įgūdžiais, susijusiais su jūsų įmonės duomenyse apibrėžtais darbais.
+1. Pasirinkite Personalas > Įdarbinimas > Pretendentai > Pretendentai.
+2. Spustelėkite Naujas.
+3. Lauke Vardas surinkite reikšmę.
+4. Lauke Pavardė surinkite reikšmę.
+    * Galite įvesti papildomą pretendento informaciją, jei tokia yra. Pvz., informacija gali apimti pretendento aukščiausią laipsnį, dabartinio darbo pavadinimą arba ankstesnį darbdavį.  
+5. Perjunkite skyriaus „Kontaktinė informacija“ išplėtimą.
+6. Spustelėkite Pridėti.
+7. Lauke „Aprašas“ įveskite „Kontaktinis el. paštas“.
+8. Lauke „Tipas“ pasirinkite parinktį.
+9. Lauke „Kontaktinis numeris / adresas“ įveskite reikšmę.
+    * Šis el. pašto adresas bus naudojamas susirašinėti su pretendentu el. laiškais.  
+10. Spustelėkite Pridėti.
+11. Lauke Aprašas įveskite reikšmę.
+12. Lauke „Kontaktinis numeris / adresas“ įveskite reikšmę.
+    * Pretendento asmeninė informacija.  
+    * Jei reikia, galite įvesti papildomą pretendento asmeninę informaciją. Pvz., tai gali būti gimimo data, etninė kilmė, lytis ar šeimyninė padėtis.  
+13. Veiksmų srityje spustelėkite „Kompetencijos“.
+    * Galite įvesti pretendento kompetencijos profilį, įskaitant jo įgūdžius, profesinę patirtį, išsilavinimą, bandymus arba sertifikatus.  
+    * Šią informaciją galima panaudoti susiejant pretendento įgūdžius su įgūdžiais, susietais su jūsų įmonės duomenyse apibrėžtomis užduotimis.   
 
 ## <a name="create-an-application-for-the-applicant"></a>Sukurti pretendento prašymą
-
-1. Pasirinkite **Programos**.
-2. Pasirinkite **Nauja**.
-3. Viduje konors **Įdarbinimo projektas** lauke pasirinkite išskleidžiamąją rodyklę, kad atidarytumėte paiešką.
-
-    Pasirinkdami įdarbinimo projektą, užtikrinate, kad kandidatas bus susietas su konkrečia darbo vieta, įtraukta į tą įdarbinimo projektą.
-
+1. Spustelėkite „Prašymai“.
+2. Spustelėkite Naujas.
+3. Lauke „Įdarbinimo projektas“ spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
+    * Pasirinkus įdarbinimo projektą, pretendentas bus susietas su konkrečia į tą įdarbinimo projektą įtraukta siūloma darbo vieta.  
 4. Sąraše raskite ir pasirinkite norimą įrašą.
-5. Šiame sąraše pasirinkite nuorodą pasirinktoje eilutėje.
+5. Sąraše spustelėkite saitą pasirinktoje eilutėje.
+    * Pagal numatytuosius nustatymus, užduotis ir padalinys priklauso nuo pasirinkto įdarbinimo projekto.  
+6. Spustelėkite Įrašyti.
+    * Įrašę paraišką, galite prie jos pridėti dokumentus, apimančius pretendento patirtį, premijas ir motyvacinį laišką.  
 
-    Pagal numatytuosius nustatymus, užduotis ir padalinys priklauso nuo pasirinkto įdarbinimo projekto.
-
-6. Pasirinkite **Įrašyti**.
-
-    Išsaugoję programą, galite prie jos pridėti dokumentus. Šie dokumentai gali apimti pareiškėjo patirtį, apdovanojimus ir motyvacinį laišką.
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

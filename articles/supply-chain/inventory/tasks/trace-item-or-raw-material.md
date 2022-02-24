@@ -1,25 +1,27 @@
 ---
 title: Prekės arba žaliavos sekimas
 description: Ši procedūra parodo, kaip naudoti prekės sekimą ir identifikuoti, kur prekės arba žaliavos buvo naudojamos arba yra naudojamos.
-author: yufeihuang
+author: pjacobse
+manager: tfehr
 ms.date: 08/12/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventTrackingDimTracing, InventTrackingDimTracingCriteria, InventTrackingItemIdLookup, InventBatchIdLookup, CustTable, SalesLine
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: yufeihuang
+ms.author: pjacobse
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c01cabf32542798f70720ab0db7d055fc54cf345
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 044b098b24d8cdf8008824b7ed1359f2b0566a8f
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7575829"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4961505"
 ---
 # <a name="trace-an-item-or-raw-material"></a>Prekės arba žaliavos sekimas
 
@@ -42,10 +44,10 @@ ms.locfileid: "7575829"
 Medžio aukščiausias mazgas nurodo pasirinktos prekės ir paketo turimų atsargų kiekį. Norėdami rasti prekę, kuriai turėtų būti vykdomas sekimas į priekį, turite išplėsti medžio mazgus.   
 1. Medyje išplėskite toliau aprašytus mazgus ir pasirinkite paskutinį mazgą.
     
-    Išplėskite: „P9100 / 1 / 10 / as-12-344-01 ● 2 statinės ● 7,00 gal \P9100 ● Paimta ● Pardavimo užsakymas 000072 ● 2015-12-22 ● -1 statinė ● -4,00 gal ● Vieta=1, Sandėlis=10, Paketo numeris=as-12-344-01 \P9100 ● Gamyba B-000050 ● 2015-12-09● 7 statinės ● 27,00 gal ● Vieta=1,Sandėlis=10,Paketo numeris=as-12-344-01 ● Sudėtiniai produktai: P9101‟ ir pasirinkite tą mazgą.     
+    Išplėskite: „P9100 / 1 / 10 / as-12-344-01 ● 2 statinės ● 7,00 gal \P9100 ● Paimta ● Pardavimo užsakymas 000072 ● 2015-12-22  ● -1 statinė ● -4,00 gal ● Vieta=1, Sandėlis=10, Paketo numeris=as-12-344-01 \P9100 ● Gamyba B-000050 ● 2015-12-09● 7 statinės ● 27,00 gal ● Vieta=1,Sandėlis=10,Paketo numeris=as-12-344-01 ● Sudėtiniai produktai: P9101‟ ir pasirinkite tą mazgą.     
 2. Medyje išplėskite toliau aprašytą mazgą ir tą mazgą pasirinkite.
     
-    Pradėkite nuo ką tik pasirinkto mazgo, išplėskite „M9103“ ● Gamybos linija B-000050 ● 2015-09-12 ● -160,00 lb ● Dydis = 70, Spalva = Gerai, Vieta = 1, Sandėlis = 10, Paketo numeris = „App01“ ir pasirinkite tą mazgą.  
+    Pradėkite nuo ką tik pasirinkto mazgo, išplėskite „M9103“ ● Gamybos linija B-000050 ● 2015-09-12  ● -160,00 lb ● Dydis = 70, Spalva = Gerai, Vieta = 1, Sandėlis = 10, Paketo numeris = „App01“ ir pasirinkite tą mazgą.  
 3. Spustelėkite **Sekti nuo mazgo**.
 4. Spustelėkite **Pirmyn**.
 5. **Veiksmų srityje** spustelėkite **Sekimas**.
@@ -57,6 +59,3 @@ Medžio aukščiausias mazgas nurodo pasirinktos prekės ir paketo turimų atsar
 9. Spustelėkite **Išsiųsti pardavimo užsakymai**.
 10. Uždarykite puslapį.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

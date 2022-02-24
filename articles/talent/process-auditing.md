@@ -61,6 +61,3 @@ Su proceso auditu galima naudoti šiuos duomenis.
 |Darbo paraiškų istorija | Darbo paraiška (msdyn_JobapplicatonId)<br></br>Būsena (msdyn_status) <br></br>Būsenos priežastis (msdyn_statusreason) <br></br>Atmetimo priežastis (msdyn_rejectionreason) |
 | Darbo pasiūlymo istorija | Darbo pasiūlymas (msdyn_JobopeningId) <br></br>Būsena (msdyn_jobopeningstatus) <br></br>Būsenos priežastis (msdyn_jobopeningstatusreason) |
 | Kandidato istorija | Kandidatas (msdyn_CandidateId) |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

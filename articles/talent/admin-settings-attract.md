@@ -69,6 +69,3 @@ Taip pat galite konfigūruoti pasirinktis, susijusias su kandidato patirtimi. Pv
 Taip pat galite nustatyti ir taikyti pasiūlymų galiojimo datą. Jei nustatysite parinkties **Reikalauti visų pasiūlymų galiojimo datos** reikšmę **Taip**, pasiūlymai baigs galioti praėjus tam tikram valandų arba dienų skaičiui, kurį nurodysite.
 
 Daugiau informacijos apie pasiūlymų valdymą žr. [Pasiūlymų valdymo nustatymas](./offer-setup.md).
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

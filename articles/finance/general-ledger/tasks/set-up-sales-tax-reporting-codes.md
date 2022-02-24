@@ -2,23 +2,26 @@
 title: Nustatyti PVM ataskaitų kodus
 description: PVM ataskaitų kodai – tai lauko numeris PVM ataskaitoje.
 author: twheeloc
+manager: AnnBe
 ms.date: 08/08/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxReportCollection
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b7d12ffa90bde30518780d750e74d20db89f007044f8622480b8bd6e629e00dd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 362d30e56fe35b85d50bfa2df57364733b366fef
+ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6728750"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4646186"
 ---
 # <a name="set-up-sales-tax-reporting-codes"></a>Nustatyti PVM ataskaitų kodus
 
@@ -36,6 +39,3 @@ PVM ataskaitų kodai – tai lauko numeris PVM ataskaitoje. Jie naudojami konkre
 6. Lauke **Trumpas aprašas**: įveskite aprašą vidiniam naudojimui.
 7. Spustelėkite **Įrašyti**.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

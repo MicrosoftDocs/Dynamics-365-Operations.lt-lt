@@ -2,35 +2,39 @@
 title: Tinkinti perlaidų el. paštus pagal pristatymo būdą
 description: Šioje temoje aprašoma, kaip nustatyti tinkintus el. pašto šablonus konkretiems pranešimų tipams ir pristatymo būdams „Microsoft Dynamics 365 Commerce“.
 author: stuharg
+manager: annbe
 ms.date: 11/16/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Commerce, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-10-26
 ms.dyn365.ops.version: Release 10.0.16
-ms.openlocfilehash: d15e7c5c7050ad373cb45da72de59416e85a5f2034f7a11b007d497b2e2b98bd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: faf5fba70bf9297727464e6046806696ab725001
+ms.sourcegitcommit: 597476103bb695e3cbe6d9ffcd7a466400346636
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6749912"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4594984"
 ---
-# <a name="customize-transactional-emails-by-mode-of-delivery"></a>Operacijų el. laiškų tinkinimas pagal pristatymo būdą
+# <a name="customize-transactional-emails-by-mode-of-delivery"></a>Tinkinti perlaidų el. paštus pagal pristatymo būdą
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 Šioje temoje aprašoma, kaip nustatyti tinkintus el. pašto šablonus konkretiems pranešimų tipams ir pristatymo būdams „Microsoft Dynamics 365 Commerce“.
 
 Perdavimo el. paštai gali būti dabar tinkinami pranešimo tipo deriniams (pavyzdžiui, **Sukurtas užsakymas**, **Paimtas užsakymas** ar **Išrašytas į sąskaitą užsakymas**) ir pristatymo būdas (pavyzdžiui, per naktį, atsiėmimas parduotuvėje ar atsiėmimas per langelį). Tinkinti perlaidos el. laiškai leidžia mažmeniniams prekiautojams pateikti jų klientams užsakymą su patirčių įgyvendinimu, kuris būtų pritaikytas prie užsakymo pristatymo būdo. Pavyzdžiui, „supakuoto užsakymo“ įvykis gali būti tinkintas taip, kad jis pateiktų atsiėmimo per langelį instrukcijas klientams, kurie tokį pasirenka. Kitu atveju, jis gali pateikti pristatymo vežėją ir informaciją klientams, kurie pasirenka siųsti savo užsakymą.
 
 > [!NOTE]
-> Norėdami naudoti tinkintos perlaidos el. laiškų funkciją, turite pirmiausia įjungti **Tinkintos perlaidos el. laiškų šablonai pagal pristatymo būdą** funkciją patekę į **Darbo aplinkos \> Funkcijų valdymas** „Commerce“ štabe.
+> Norėdami naudoti tinkintos perlaidos el. laiškų funkciją, turite pirmiausia įjungti **Tinktintos perlaidos el. laiškų šablonai pagal pristatymo būdą** funkciją patekę į **Darbo aplinkos \> Funkcijų valdymas** „Commerce“ štabe.
 
 El. laiškai gali būti tinkinti pagal pristatymo būdą tolesniems pranešimo tipams:
 
@@ -40,7 +44,7 @@ El. laiškai gali būti tinkinti pagal pristatymo būdą tolesniems pranešimo t
 - **Užsakymo įrašymas į sąskaitą** – Šis el. laiško pranešimo tipas yra naujas. Jis gali būti naudojamas vietoje **Išsiųsto užsakymo** pranešimo tipas, kuris nusiųs pranešimą bet kurios sąskaitos įvykiui su pristatymo siuntimo būdu (ne atsiėmimo, vykdymo ar elektroninio pristatymo būdu).
 - **Užsakymas paimtas**
 - **Užsakymas supakuotas**
-- **Užsakymas parengtas atsiėmimui** – Šis pranešimo tipas gali būti tinkintas pagal pristatymo būdą tik jei **Palaikyti keletą atsiėmimo pristatymo būdų** funkcija yra įjungta. Tokiu atveju, šis pranešimo tipas yra funkcija lygi **Supakuotas užsakymas** pranešimo tipui.
+- **Užsakymas pasrengtas atsiėmimui** – Šis pranešimo tipas gali būti tinkintas pagal pristatymo būdą tik jei **Palaikyti keletą atsiėmimo pristatymo būdų** funkcija yra įjungta. Tokiu atveju, šis pranešimo tipas yra funkcija lygi **Supakuotas užsakymas** pranešimo tipui.
 - **Mokėjimo atlikti nepavyko**
 - **Pakeitimo užsakymas sukurtas**
 
@@ -62,13 +66,10 @@ Siekiant konfigūruoti el. laiško šablonus konkretiems pristatymo būdams „C
 
 > [!NOTE]
 > - Kai daugiau nei vienas pristatymo būdas yra tarp eilučių prekybos užsakyme, bus naudojamas nustatytasis šablonas. Nustatytasis šablonas yra šablonas, kuris patalpintas prie pranešimo tipo, puslapyje **„Commerce“ el. laiško pranešimo profilyje**.
-> - Jei prekybos užsakymas turi pristatymo būdą, kuris nėra sukonfigūruotas tinkintam el. laiško šablonui, bus naudojamas numatytasis šablonas.
+> - Jei prekybos užsakymas turi prisitatymo būdą, kuris nėra sukonfigūruotas tinkintam el. laiško šablonui, bus naudojamas numatytasis šablonas.
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Skambučių centro užsakymų kūrimas](tasks/create-call-center-orders.md)
 
 [Pristatymo režimo keitimas EKA](pos-change-delivery-mode.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

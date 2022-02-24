@@ -2,13 +2,16 @@
 title: Atributų ir atributų grupių tvarkymas
 description: Šioje temoje aprašyta, kaip naudoti atributus norint pateikti būdą, kaip apibūdinti produktą ir jo charakteristikas, naudojant vartotojo nustatytus laukus.
 author: ashishmsft
+manager: AnnBe
 ms.date: 04/28/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: EcoResCategoryAttribute, EcoResProductEntityAttributeTableFieldAssociation, EcoResCategorySearchList, EcoResAttribute, COODualUseCategories, EcoResAttributeType, EcoResAttributeValue, EcoResCategoryAttributeGroup, EcoResCategoryFriendlyName
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -16,12 +19,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application pdate 5, AX 8.0
-ms.openlocfilehash: b3960f0877bdf68dd2f511ad283961b2a92db6a60078e84be55f071a00eae927
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: MT
+ms.openlocfilehash: b5d0e92196f98fb707b1c424a6ae237f4dc9545c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727659"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4414328"
 ---
 # <a name="manage-attributes-and-attribute-groups"></a>Atributų ir atributų grupių tvarkymas
 
@@ -43,7 +46,7 @@ Pavyzdžiui, įprastas televizijos produktas gali turėti tolesnius atributus.
 |            | Sudėtinės įvestys         | 0–10                        | 2             |
 |            | Komponento įvestys         | 0–10                        | 1             |
 | LCD        | 3D parengta                 | Taip arba Ne                   | Taip           |
-|            | 3D įgalinta               | Taip arba Ne                   | Ne            |
+|            | 3D įgalinta               | Taip arba Ne                   | Nr.            |
 | Plazminis     | Veiklos šablonas nuo      | 32–110 laipsnių              | 32            |
 |            | Veiklos šablonas iki        | 32–110 laipsnių              | 100           |
 | Projekcinis | Projekcijos vamzdelio garantija | 6, 12 arba 18 mėnesiai (-ių)         | 12            |
@@ -58,7 +61,7 @@ Atributai pagrįsti *atributų tipais*. Atributo tipas identifikuoja duomenų, k
 - **Dešimtainis skaičius** – šis tipas palaiko skaitinę reikšmę su skaitmenimis po kablelio. Jis taip pat palaiko matavimo vienetą. Jį galima apibrėžti arba palikti neapibrėžtą.
 - **Sveikasis skaičius** – šis tipas palaiko skaitinę reikšmę. Jis taip pat palaiko matavimo vienetą. Jį galima apibrėžti arba palikti neapibrėžtą.
 - **Tekstas** – šis tipas palaiko teksto reikšmę. Jis taip pat palaiko iš anksto apibrėžtąjį galimų reikšmių rinkinį (tai yra, *išvardijimą*).
-- **Bulio logika** – šis tipas palaiko dvejetainę reikšmę (**teisinga** arba **klaidinga**).
+- **Bulio logika** – šis tipas palaiko dvejetainę reikšmę (**true** arba **false**).
 - **Nuoroda** – šis tipas nurodo į kitus atributus.
 
 ### <a name="set-up-attribute-types"></a>Nustatyti atributų tipus
@@ -70,7 +73,7 @@ Atributai pagrįsti *atributų tipais*. Atributo tipas identifikuoja duomenų, k
     - Vieną atributų tipą pavadinkite **Lęšio forma** ir įtraukite šias reikšmes: **Ovalas**, **Kvadratas** ir **Stačiakampis**.
     - Kitą atributų tipą pavadinkite **Akinių nuo saulės prekės ženklas** ir įtraukite šias reikšmes: **„Ray ban“**, **„Aviator“** ir **„Oakley“**.
 
-![Atributų tipai.](media/AttributeType.png)
+![Atributų tipai](media/AttributeType.png)
 
 ### <a name="set-up-an-attribute"></a>Nustatyti atributą
 
@@ -79,7 +82,7 @@ Atributai pagrįsti *atributų tipais*. Atributo tipas identifikuoja duomenų, k
 3. Sukurkite atributą pavadinimu **Lęšis**.
 4. Lauką **Atributo tipas** nustatykite kaip **Lęšio forma**.
 
-![Atributai.](media/Attribute.png)
+![Atributai](media/Attribute.png)
 
 ## <a name="attribute-metadata"></a>Atributo metaduomenys
 
@@ -101,7 +104,7 @@ Toliau pateiktos likusios puslapyje **Atributai** esančios atributų metaduomen
 
 Šios parinktys iš pradžių buvo skirtos pagerinti internetinės parduotuvės ieškos funkcijas. Nors į „Commerce“ internetinė parduotuvė iš karto nėra įtraukta, į sprendimą įtrauktas el. komercijos publikavimo programinės įrangos kūrimo rinkinys (SDK). Naudodami šį SDK klientai produktus gali įtraukti į pasirinktą ieškos indeksą. Nors produktų duomenys importuojami, klientai vis tiek turėtų galėti atskirti ieškotinus duomenis, duomenis, dėl kurių galima teikti užklausas, ir t. t. Taip jie gali sukurti optimalų indeksą ir užtikrinti, kad būtų indeksuojami tik tie atributai, kurie, *jų nuomone*, turi būti suindeksuoti.
 
-Norėdami gauti informacijos apie šių likusių parinkčių paskirtį, žr. [„SharePoint Server 2013“ ieškos schemos apžvalga](/SharePoint/search/search-schema-overview).
+Norėdami gauti informacijos apie šių likusių parinkčių paskirtį, žr. [„SharePoint Server 2013“ ieškos schemos apžvalga](https://technet.microsoft.com/library/jj219669.aspx).
 
 ## <a name="filter-settings-for-attributes"></a>Atributų filtrų parametrai
 
@@ -134,7 +137,7 @@ Puslapyje **Filtrų rodymo nuostatos** pateikti tolesni laukai.
     - 200–500
     - 500 ar daugiau
 
-![Atributų filtro parametrai.](media/AttributeFilterSettings.PNG)
+![Atributų filtrų parametrai](media/AttributeFilterSettings.PNG)
 
 ## <a name="attribute-groups"></a>Atributų grupės
 
@@ -142,7 +145,7 @@ Atributus apibrėžus, juos galima priskirti atributų grupėms. *Atributų grup
 
 Taip pat galite nustatyti į atributų grupę įtrauktų atributų numatytąsias reikšmes. Pavyzdžiui, į atributų grupę įtraukiate spalvos atributą ir kaip numatytąją atributo reikšmę pasirenkate **Mėlyna**. Tokiu atveju, kai atributų grupė įtraukiama į produktą, kurio vienas iš atributų yra spalva, kaip numatytoji to produkto spalva rodoma **Mėlyna**.
 
-![Atributų grupės.](media/AttributeGroup.png)
+![Atributų grupės](media/AttributeGroup.png)
 
 ### <a name="create-an-attribute-group"></a>Atributų grupės kūrimas
 
@@ -155,7 +158,7 @@ Taip pat galite nustatyti į atributų grupę įtrauktų atributų numatytąsias
 
 Šių tipų kategorijų hierarchijose – Prekybos produktų hierarchija, Kanalo naršymo kategorijų hierarchija ir Papildomų produktų kategorijų hierarchija – su kategorijų mazgais galima susieti vieną ar kelias atributų grupes. Produktus suskirsčius į kategorijas, jie paveldi atributus, įtrauktus į atributų grupes.
 
-![Produktų hierarchija – produktų atributų grupės.](media/AGRetailProdHierarchy.PNG)
+![Produktų hierarchija – produktų atributų grupės](media/AGRetailProdHierarchy.PNG)
 
 Norėdami atributų grupes priskirti prekybos produktų hierarchijos kategorijoms, atlikite tolesnius veiksmus.
 
@@ -200,7 +203,7 @@ Vieną ar kelias atributų grupes galima susieti su viena ar keliomis parduotuvi
     3. Pasirinkite kategorijos mazgą **Madingi priedai**, pasirinkite kategoriją **Madingi akiniai nuo saulės**, tada „FastTab“ skirtuke **Kanalo produktų atributai** kiekvienam atributui parinkite **Įtraukti atributą**.
     4. Pasirinkite kategorijos mazgą **Vyriški drabužiai**, pasirinkite kategoriją **Kelnės**, tada „FastTab“ skirtuke **Kanalo produktų atributai** kiekvienam atributui parinkite **Įtraukti atributą**.
 
-![Kanalų kategorijos ir produktų atributai – atributų grupės.](media/CCPAttrGrp.png)
+![Kanalų kategorijos ir produktų atributai – atributų grupės](media/CCPAttrGrp.png)
 
 ## <a name="overriding-attribute-values"></a>Atributo reikšmių nepaisymas
 
@@ -214,7 +217,7 @@ Atskirų produktų atributų numatytųjų reikšmių galima nepaisyti produkto l
 4. Tinklelyje pasirinkite reikiamą produktą. Tada veiksmų srities skirtuko **Produktas** grupėje **Nustatyti** pasirinkite **Produktų atributai**.
 5. Pasirinkite atributą kairiojoje srityje, tada atnaujinkite jo reikšmę dešiniojoje srityje.
 
-![Išsamios produktų informacijos puslapis – produktų atributų grupės.](media/ProdDetailsProdAttrValues.png)
+![Išsamios produktų informacijos puslapis – produktų atributų grupės](media/ProdDetailsProdAttrValues.png)
 
 ### <a name="override-the-attribute-values-of-products-in-a-catalog"></a>Katalogo produktų atributų reikšmių nepaisymas
 
@@ -233,7 +236,7 @@ Atskirų produktų atributų numatytųjų reikšmių galima nepaisyti produkto l
     > [!NOTE]
     > Jei sukuriama bendrai naudojama produktų medija ir bendrai naudojami produktų atributai, jie taikomi visiems produktams.
 
-![Katalogų produktų atributų grupės.](media/CatalogProdAttrValues.png)
+![Katalogų produktų atributų grupės](media/CatalogProdAttrValues.png)
 
 ### <a name="override-the-attribute-values-of-products-in-a-channel"></a>Kanalo produktų atributų reikšmių nepaisymas
 
@@ -254,6 +257,3 @@ Atskirų produktų atributų numatytųjų reikšmių galima nepaisyti produkto l
 
     > [!NOTE]
     > Jei sukuriama bendrai naudojama produktų medija ir bendrai naudojami produktų atributai, jie taikomi visiems produktams.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

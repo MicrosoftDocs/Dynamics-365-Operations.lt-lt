@@ -2,19 +2,28 @@
 title: Pardavimo užsakymo būsenos stulpelių susiejimo konfigūravimas
 description: Šioje temoje aiškinama, kaip nustatyti dvigubo rašymo pardavimo užsakymo būsenos stulpelius.
 author: dasani-madipalli
+manager: tonyafehr
 ms.date: 06/25/2020
 ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: ''
 audience: Application User, IT Pro
-ms.reviewer: tfehr
+ms.reviewer: rhaertle
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
+ms.search.industry: ''
 ms.author: damadipa
+ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-06-25
-ms.openlocfilehash: 53d824ca2fb1eadf34e62bf9c08b837db3efaf42
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
-ms.translationtype: MT
+ms.openlocfilehash: cc70501d231390ea15104d508a36300a1b2cd44c
+ms.sourcegitcommit: 7e1be696894731e1c58074d9b5e9c5b3acf7e52a
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7782289"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4744304"
 ---
 # <a name="set-up-the-mapping-for-the-sales-order-status-columns"></a>Pardavimo užsakymo būsenos stulpelių susiejimo konfigūravimas
 
@@ -93,7 +102,7 @@ Norėdami įgalinti **IsSOPIntegravimasĮjungtas** atributą, atlikite toliau pa
 1. Žiniatinklio naršyklėje eikite į `https://<test-name>.crm.dynamics.com/api/data/v9.0/organizations`. Pakeiskite **\<test-name\>** savo įmonės saitu į pardavimus.
 2. Atidarytame puslapyje suraskite **OrganizacijosID** ir atkreipkite dėmesį į vertę.
 
-    ![Organizacijos ID radimas.](media/sales-map-orgid.png)
+    ![Organizacijos ID radimas](media/sales-map-orgid.png)
 
 3. Dalyje Pardavimai atsidarykite naršyklės konsolę ir vykdykite šį scenarijų. Naudokite **OrganizacijosID** vertę nuo 2 veiksmo.
 
@@ -112,35 +121,32 @@ Norėdami įgalinti **IsSOPIntegravimasĮjungtas** atributą, atlikite toliau pa
     );
     ```
 
-    ![„JavaScript” kodas naršyklės konsolėje.](media/sales-map-script.png)
+    ![„JavaScript” kodas naršyklės konsolėje](media/sales-map-script.png)
 
 4. Patikrinkite, ar **IsSOPIntegravimasĮjungtas** yra nustatytas kaip **teisingas**. Naudokite URL, kurį nurodėte 1 veiksme, kad patikrintumėte vertę.
 
-    ![ArSOPIntegravimasĮjungtas yra nustatytas kaip teisingas.](media/sales-map-integration-enabled.png)
+    ![IsSOPIntegravimasĮjungtas yra nustatytas kaip teisingas.](media/sales-map-integration-enabled.png)
 
 Norėdami įgalinti **isVartotojoIntegravimas** atributą, atlikite toliau pateiktus veiksmus.
 
 1. Dalyje Pardavimai eikite į **Parametrai \> Tinkinimas \> Tinkinti sistemą**, pasirinkite **Vartotojo lentelė** ir tada atidarykite **Forma \> Vartotojas**.
 
-    ![Vartotojo formos atidarymas.](media/sales-map-user.png)
+    ![Vartotojo formos atidarymas](media/sales-map-user.png)
 
 2. Laukų naršyklėje suraskite **Integravimo vartotojo režimas** ir du kartus spustelėkite jį, kad įtrauktumėte į formą. Įrašykite savo pakeitimą.
 
-    ![Vartotojo režimo stulpelio integravimo į formą pridėjimas.](media/sales-map-field-explorer.png)
+    ![Vartotojo režimo stulpelio integravimo į formą pridėjimas](media/sales-map-field-explorer.png)
 
 3. Dalyje Pardavimai eikite į **Parametras \> Sauga \> Vartotojai** ir pakeiskite rodinį iš **Įgalinti vartotojai** į **Taikomosios programos vartotojai**.
 
-    ![Rodinio keitimas iš „Įgalinti vartotojai” į „Taikomosios programos vartotojai”.](media/sales-map-enabled-users.png)
+    ![Rodinio keitimas iš „Įgalinti vartotojai” į „Taikomosios programos vartotojai”](media/sales-map-enabled-users.png)
 
 4. Pasirinkite du **DviguboRašymo VartotojoIntegravimas** įrašus.
 
-    ![Taikomosios programos vartotojų sąrašas.](media/sales-map-user-mode.png)
+    ![Taikomosios programos vartotojų sąrašas](media/sales-map-user-mode.png)
 
 5. Pakeiskite vertę į **Integravimo vartotojo režimas** stulpelį į **Taip**.
 
-    ![Integravimo vartotojo režimo stulpelio vertės pakeitimas.](media/sales-map-user-mode-yes.png)
+    ![Integravimo vartotojo režimo stulpelio vertės pakeitimas](media/sales-map-user-mode-yes.png)
 
 Dabar Jūsų pardavimo užsakymai yra susieti.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

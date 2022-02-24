@@ -2,9 +2,11 @@
 title: Išankstinės „Commerce“ SF (Rytų Europa)
 description: Šioje temoje paaiškinama, kaip nustatyti išankstinius Rytų Europos „Commerce“ pranešimus.
 author: epopov
+manager: annbe
 ms.date: 10/23/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application user
 ms.reviewer: josaw
@@ -13,12 +15,12 @@ ms.search.industry: Retail
 ms.author: epopov
 ms.search.validFrom: 2018-10-01
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 4433dfad61aacb41aba9cf233515460410c7260304e8e3d690b015b193ffe774
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d27eec5ad2ec12d1f2e617fc3e182e2bbefa39a9
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718691"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5017246"
 ---
 # <a name="advance-invoices-for-commerce-for-eastern-europe"></a>Išankstinės „Commerce“ SF (Rytų Europa)
 
@@ -30,7 +32,7 @@ Jei Lenkijoje, Vengrijoje ir Čekijos Respublikoje išankstinis apmokėjimas iš
 
 Galiausiai užregistravus pardavimo užsakymo SF, galutiniame dokumente turi būti išankstinė SF ir turi būti nurodyti visi išankstiniai mokėjimai.
 
-Jei pardavimo užsakymus kuriate iš dalies Gautinos sumos, pasinaudodami dalyje [Išankstinės SF, skirtos Rytų Europai](/dynamics365/unified-operations/financials/localizations/emea-advance-invoice) nurodyta procedūra, turite būtinai patys sukurti išankstines SF. Pardavimo užsakymus kuriant naudojantis EKA, išankstines SF sukuria ir užregistruoja sistema.
+Jei pardavimo užsakymus kuriate iš dalies Gautinos sumos, pasinaudodami dalyje [Išankstinės SF, skirtos Rytų Europai](https://docs.microsoft.com/dynamics365/unified-operations/financials/localizations/emea-advance-invoice) nurodyta procedūra, turite būtinai patys sukurti išankstines SF. Pardavimo užsakymus kuriant naudojantis EKA, išankstines SF sukuria ir užregistruoja sistema.
 
 ## <a name="supported-scenarios"></a>Palaikomi scenarijai
 
@@ -85,6 +87,3 @@ Atlikite šiuos veiksmus, kad dokumentus būtų galima spausdinti iš EKA naudoj
 
 4. Eikite į **Mažmeninė prekyba ir prekyba \> Mažmeninės prekybos ir prekybos IT \> Paskirstymo grafikas**.
 5. Pasirinkite užduotį **1090**, paskui paspauskite **Vykdyti dabar**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

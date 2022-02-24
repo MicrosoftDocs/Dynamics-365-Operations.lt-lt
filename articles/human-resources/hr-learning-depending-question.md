@@ -1,31 +1,29 @@
 ---
 title: Sukurti klausimą pagal atsakymą į ankstesnį klausimą
 description: Sąlyginiai klausimai leidžia nurodyti, kokie kiti klausimai bus pateikiami respondentui, atsižvelgiant į atsakymą į ankstesnį klausimą.
-author: twheeloc
-ms.date: 10/28/2021
+author: andreabichsel
+manager: AnnBe
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KMCollection, KMCollectionQuestion, KMCollectionQuestionTree, HcmLearningWorkspace
 audience: Application User
-ms.search.scope: Human Resources
+ms.reviewer: anbichse
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f28f75a902121f23c92a919b539517dbdb191447
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
-ms.translationtype: MT
+ms.openlocfilehash: 4295b49336ec7ac3cff4deba675bc63511be48de
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8066730"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4419789"
 ---
 # <a name="make-a-question-dependent-on-the-answer-of-the-previous-question"></a>Sukurti klausimą pagal atsakymą į ankstesnį klausimą
-
-
-[!INCLUDE [PEAP](../includes/peap-1.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 
 
@@ -33,31 +31,28 @@ Sąlyginiai klausimai leidžia nurodyti, kokie kiti klausimai bus pateikiami res
 
 
 ## <a name="find-the-existing-questionnaire"></a>Rasti esamą klausimyną
-1. Eiti į **Klausimynas** > **Dizainas** > **Klausimynai**.
+1. Pasirinkite Klausimynas > Kūrimas > Klausimynai.
 2. Sąraše pasirinkite „WorkFH“ klaisimyną.
 
 ## <a name="add-all-questions-and-sub-questions-to-the-questionnaire"></a>Įtraukti visus klausimus ir papildomus klausimus į klausimyną
-1. Spustelėkite **Klausimai**.
-2. Spustelėkite **Naujas**.
-3. Viduje konors **Klausimas** laukelyje pasirinkite klausimo numerį 00016.
+1. Spustelėkite „Klausimai“.
+2. Spustelėkite Naujas.
+3. Lauke „Klausimas“ pasirinkite klausimą numeris 00016.
 4. Sąraše raskite ir pasirinkite norimą įrašą.
 5. Sąraše spustelėkite saitą pasirinktoje eilutėje.
-6. Spustelėkite **Įrašyti**.
+6. Spustelėkite Įrašyti.
 7. Uždarykite puslapį.
 
 ## <a name="set-the-questionnaire-sequence-to-conditional-and-make-the-question-dependent-on-the-appropriate-question"></a>Nustatyti sąlyginę klausimyno seką ir padaryti klausimą priklausomą nuo atitinkamo atsakymo
-1. Spustelėkite **Redaguoti**.
-2. Išplėskite skyrių **Sąranka**.
-3. Viduje konors **Klausimų tvarka** lauke pasirinkite „Sąlyginis“.
-4. Spustelėkite **Sąlyginis** klausimas.
+1. Spustelėkite Redaguoti.
+2. Išplėskite skyrių Nustatymas.
+3. Lauke „Klausimų tvarka“ pasirinkite „Sąlyginis“.
+4. Spustelėkite „Sąlyginis klausimas“.
 5. Medyje pasirinkite „Klausimai \ Paaiškinkite, kodėl pasirinkote tokį atsakymą į ankstesnį klausimą“.
-6. Viduje konors **Pirminis klausimas** lauke, pasirinkite klausimą 00009.
+6. Lauke „Pirminis klausimas“ pasirinkite klausimą 00009.
 7. Sąraše spustelėkite saitą pasirinktoje eilutėje.
-8. Viduje konors **Atsakymas** lauke įveskite atsakymo parinkties, nuo kurios norite nustatyti klausimą, atsakymų sekos ID. Pvz., įveskite 1 pasirinkdami pirmąjį atsakymą.
-9. Spustelėkite **Įrašyti**.
+8. Lauke „Atsakymas“ įveskite atsakymo pasirinkimo, nuo kurio norite padaryti klausimą priklausomą, atsakymo sekos ID. Pvz., įveskite 1 pasirinkdami pirmąjį atsakymą.
+9. Spustelėkite Įrašyti.
 10. Medyje pasirinkite „Klausimai \ Ar man sąžiningai atlyginama už mano atliekamą darbą?“.
     * Atkreipkite dėmesį, kad atsinaujino klausimų medis parodydamas priklausomybę.  
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

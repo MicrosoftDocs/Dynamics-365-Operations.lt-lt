@@ -1,28 +1,29 @@
 ---
 title: Mokėtinų sumų pagrindinis puslapis
 description: Šioje temoje apžvelgiamas modulis Mokėtinos sumos.
-author: sunfzam
+author: ShylaThompson
+manager: AnnBe
 ms.date: 02/15/2019
 ms.topic: index-page
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendInvoiceWorkspace
 audience: Application User
 ms.reviewer: roschlom
-ms.custom:
-- "21901"
-- intro-internal
+ms.search.scope: Core, Operations
+ms.custom: 21901
 ms.assetid: 1e4c2ac4-077b-4678-8733-5cec8f6ff659
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: ce768ecaa668f2c69d6753401eaa145b6fddc5ec
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.openlocfilehash: 6a6f53007f8bd04724c43c518c5a9b10856b68d7
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7595292"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4459565"
 ---
 # <a name="accounts-payable-home-page"></a>Mokėtinų sumų pagrindinis puslapis
 
@@ -34,11 +35,11 @@ Tiekėjų sąskaitas faktūras galite įvesti rankiniu būdu arba jas gauti elek
 
 **Verslo procesai**
 
-[![Verslo procesų diagrama.](./media/AP-process.PNG)](./media/AP-process.PNG)
+[![Verslo procesų diagrama](./media/AP-process.PNG)](./media/AP-process.PNG)
 
 ## <a name="set-up-accounts-payable"></a>Mokėtinų sumų nustatymas
 
-Nustatykite tiekėjų grupes, tiekėjus, registravimo šablonus, įvairias mokėjimo parinktis ir su tiekėjais, mokesčiais, pristatymais bei paskirties vietomis susijusius parametrus, paprastuosius vekselius ir kito tipo mokėtinų sumų informaciją. 
+Nustatykite tiekėjų grupes, tiekėjus, registravimo šablonus, įvairias mokėjimo parinktis ir su tiekėjais, išlaidomis, pristatymais bei paskirties vietomis susijusius parametrus, paprastuosius vekselius ir kito tipo mokėtinų sumų informaciją. 
 
 [Mokėtinų sumų konfigūravimo apžvalga](accounts-payable-overview.md)
 
@@ -122,7 +123,7 @@ Tolesnėse temose pateikiama informacijos apie sudengimus. Sudengimas – tai mo
 
 #### <a name="whats-new-and-in-development"></a>Kas nauja ir kuriama
 
-Norėdami pamatyti, kokios naujos funkcijos planuojamos, eikite į tinklalapį [„Microsoft Dynamics 365” leidimo planai](/dynamics365/release-plans/). 
+Norėdami pamatyti, kokios naujos funkcijos planuojamos, eikite į tinklalapį [„Microsoft Dynamics 365” leidimo planai](https://go.microsoft.com/fwlink/?linkid=2010158). 
 
 #### <a name="blogs"></a>Tinklaraščiai
 
@@ -144,6 +145,3 @@ Peržiūrėkite mokomuosius vaizdo įrašus, kuriuos dabar galite rasti [„Micr
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

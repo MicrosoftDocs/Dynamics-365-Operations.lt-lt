@@ -1,30 +1,37 @@
 ---
-title: Debesų technologija valdomos ieškos apžvalga
+title: Debesų technologija valdoma ieškos peržiūra
 description: Šioje temoje apžvelgiama „Microsoft Dynamics 365 Commerce“ debesų technologija paremta ieška.
 author: ashishmsft
+manager: annbe
 ms.date: 06/29/2020
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
+ms.search.scope: Operations, Retail, Core
+ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: eb34780d5bdd41a128fff543fe0f1ef73cfead8b
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
-ms.translationtype: MT
+ms.openlocfilehash: 00a3de2515cea341f7529b8cb6cb2caae5e33d22
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983674"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4414224"
 ---
-# <a name="cloud-powered-search-overview"></a>Debesų technologija valdomos ieškos apžvalga
+# <a name="cloud-powered-search-overview"></a>Debesų technologija valdoma ieškos peržiūra
+
 
 [!include [banner](includes/banner.md)]
 
 Šioje temoje apžvelgiama „Microsoft Dynamics 365 Commerce“ debesų technologija paremta ieška.
+
+## <a name="overview"></a>Peržiūrėti
 
 Produktų aptinkamumas padeda užtikrinti, kad vartotojai galėtų greitai ir lengvai rasti produktus naršydami kategorijas, ieškodami bei filtruodami. Pardavėjai produktų atradimą laiko pirminiu įrankiu, skirtu bendrauti su klientais visuose kanaluose.
 
@@ -32,7 +39,7 @@ Klientai yra įpratę prie beveik momentinio interneto ieškos modulių atsako l
 
 Debesų technologija paremta „Dynamics 365 Commerce“ produktų aptinkamumo funkcija pardavėjams padeda vis didinti klientų išlaikymo ir konvertavimo rodiklius visuose kanaluose, tiek el. prekybos, tiek elektroninio kasos aparato (EKA) kanaluose.
 
-„Dynamics 365 Commerce“ ieškos funkcijose yra geresnių galimybių, pardavėjams padedančių pasiekti didesnį produktų aptinkamumo rodiklį. Tuo pačiu metu šie pajėgumai suteikia mastelio keitimo ir našumo galimybių, kurios būtinos el. prekybos srautui.
+„Dynamics 365 Commerce“ ieškos funkcijose yra geresnių galimybių, pardavėjams padedančių pasiekti diesnį produktų aptinkamumo rodiklį. Tuo pačiu metu šie pajėgumai suteikia mastelio keitimo ir našumo galimybių, kurios būtinos el. prekybos srautui.
 
 ## <a name="browse-and-search"></a>Naršymas ir ieška
 
@@ -40,7 +47,7 @@ Ieškos aktualumas ir našumas yra pagrindiniai daugiakanalės platformos patirt
 
 Toliau pateiktoje iliustracijoje parodytas įprastų naršymo ir ieškos funkcijų pavyzdys.
 
-![Ieškos nukreipimo puslapis.](./media/SearchLanding.png)
+![Ieškos nukreipimo puslapis](./media/SearchLanding.png)
 
 ## <a name="faceted-navigation-and-choice-summary"></a>Ypatybėmis pagrįstas naršymas ir pasirinkimų suvestinė 
 
@@ -50,7 +57,7 @@ Naudodami ypatybėmis pagrįsto naršymo funkciją, skirtingiems terminų rinkin
 
 Toliau pateiktoje iliustracijoje parodytas pavyzdys, kai ieškant naudojama ypatybėmis pagrįsto naršymo funkcija.
 
-![Pasirinkimų suvestinė.](./media/ChoiceSummary.png)
+![Pasirinkimų suvestinė](./media/ChoiceSummary.png)
 
 ## <a name="immersive-autosuggest"></a>Įtraukianti automatinio siūlymo funkcija
 
@@ -60,7 +67,7 @@ Dabartinė automatinio siūlymo funkcija tik parodo raktažodžius, kurie suakty
 
 Toliau pateiktoje iliustracijoje parodytas pavyzdys, kuriame naudojama įtraukianti automatinio siūlymo funkcija.
 
-![įtraukianti automatinio siūlymo funkcija.](./media/ImmersiveAutoSuggestUX.png)
+![įtraukianti automatinio siūlymo funkcija](./media/ImmersiveAutoSuggestUX.png)
 
 ## <a name="sort"></a>Rūšiuoti
 
@@ -68,13 +75,10 @@ Patobulintos „Dynamics 365 Commerce“ rikiavimo galimybės klientams leidžia
 
 >[!NOTE]
 >Šios debesų kompiuterijos ieškos galimybės prieinamos 10.0.8 versijoje. Įsitikinkite, kad dalyje **Prekybos parametrai > Konfigūracijos parametrai** yra įrašas, skirtas „Productsearch.UseAzureSearch” nustatytas kaip „true”. 
-![Konfigūracijos parametrai debesies aplinkos ieškoje.](./media/CloudPoweredSearchConfigurationParameters.png)
+![Konfigūracijos parametrai debesies aplinkos ieškoje](./media/CloudPoweredSearchConfigurationParameters.png)
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Numatytojo kategorijos nukreipimo puslapio ir ieškos rezultatų puslapio apžvalga](category-search-page-overview.md)
 
 [Tvarkyti SEO metaduomenis](manage-seo-metadata.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

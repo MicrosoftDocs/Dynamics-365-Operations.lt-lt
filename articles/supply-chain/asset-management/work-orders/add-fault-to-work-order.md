@@ -1,10 +1,12 @@
 ---
 title: Gedimo įtraukimas į darbo užsakymą
 description: Šioje temoje aprašoma, kaip įtraukti gedimų registracijas į darbo užsakymus turto valdyme.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 1090d95d381a047e77bca3e18ef7b99151ea3d5f941f2d6c9e4877a339f1385e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 083ceca9605ad044c172ba7aa23739d170f8c301
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6761073"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5019309"
 ---
 # <a name="add-fault-to-work-order"></a>Gedimo įtraukimas į darbo užsakymą
 
@@ -50,7 +52,7 @@ ms.locfileid: "6761073"
 
 Toliau esančiame paveikslėlyje pateiktas gedimo registravimo pavyzdys.
 
-![1 iliustracija.](media/19-work-orders.png)
+![1 pav.](media/19-work-orders.png)
 
 
 ## <a name="view-asset-faults"></a>Turto gedimų rodinys
@@ -77,6 +79,3 @@ Sąrašo puslapyje **Visas turtas** galite atspausdinti turto gedimo ataskaitą,
 >[!NOTE]
 >Norėdami atspausdinti kelių turtų arba turto tipų gedimų ataskaitą, pasirinkite **Turto valdymas** > **Ataskaitos** > **Turtas** > **Turto gedimas**.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

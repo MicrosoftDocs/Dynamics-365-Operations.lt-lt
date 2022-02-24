@@ -102,6 +102,3 @@ Viena data gali turėti tik po vieną kiekvieno iš visų su ja susietų tipų p
 | 000337                | 8/8/2018             | Reguliarus               | 8                    |
 | 000337                | 8/7/2018             | Reguliarus               | 8                    |
 | 000337                | 8/9/2018             | Reguliarus               | 8                    |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,9 +2,11 @@
 title: Neatvykimų registravimas modulyje Laikas ir buvimas darbe
 description: Šioje temoje aiškinama, kaip tvarkyti neatvykimų registracijas srityje Laikas ir buvimas darbe.
 author: johanhoffmann
+manager: tfehr
 ms.date: 05/26/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: JMGParameters, JmgAbsenceCalendar
 audience: Application User
@@ -14,12 +16,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2017-09-20
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 06adca12c172dffa241fe44a6b64bb30863bcb4a8f3867429ad10bc852efd7c3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 12a61f23ac5a16000275e53d3901c8aea202bab0
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6730231"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4966635"
 ---
 # <a name="absence-registration-in-time-and-attendance"></a>Neatvykimų registravimas modulyje Laikas ir buvimas darbe
 
@@ -31,7 +33,7 @@ ms.locfileid: "6730231"
 
 Darbuotojai, nedirbantys įprastų darbo valandų metu, laikomi neatvykusiais į darbą. Įprastos darbo valandos apibrėžtos darbuotojo standartinio laiko profilyje.
 
-Pavyzdžiui, darbuotojas dirba dienos profiliu, kai atėjimas į darbą registruojamas 7:00 val., o išėjimas iš darbo – 15:00 val. Jei darbuotojas atėjimą į darbą užregistruoja 9:00 val., yra laikoma, kad tą dieną jis nuo 7:00 iki 9:00 val. nebuvo darbe.
+Pavyzdžiui, darbuotojas dirba dienos profiliu, kai atėjimas į darbą registruojamas 7.00 val., o išėjimas iš darbo – 15.00 val. Jei darbuotojas atėjimą į darbą užregistruoja 9.00 val., laikoma, kad tą dieną jis nuo 7.00 iki 9.00 val. nebuvo darbe.
 
 Tokiu atveju darbuotojai raginami įvesti neatvykimo į darbą priežastį. Jie nurodyti priežastį gali pasirinkdami neatvykimų kodą.
 
@@ -81,19 +83,19 @@ Toliau pateiktuose trijuose šablonuose rodoma, kaip apskaičiuojamas neatvykima
 
 | Atėjimas į darbą | Standartinis laikas    | Pertrauka             | Standartinis laikas | Nukrypimas-        | Išėjimas iš darbo | Nukrypimas+        |
 |----------|------------------|-------------------|---------------|--------------|-----------|--------------|
-| 8:00 val.     | Nuo 9:00 iki 11:30 val. | Nuo 11:30 iki 12:00 val. | Nuo 12:00 iki 15:00 val. | Nuo 15:00 iki 16:00 val. | 16:00      | Nuo 16:00 iki 18:00 val. |
+| 8.00 val.     | Nuo 9.00 iki 11.30 val. | Nuo 11.30 iki 12.00 val. | Nuo 12.00 iki 15.00 val. | Nuo 15.00 iki 16.00 val. | 16.00      | Nuo 16.00 iki 18.00 val. |
 
 ### <a name="example-1-signing-out-during-a-flex--period"></a>1 pavyzdys: išsiregistravimas iš darbo nukrypimo- laikotarpiu
 
-Darbuotojas atėjimą į darbą užregistruoja 8:00 val., o išsiregistruoja 15:30 val. Tokiu atveju neatvykimas neskaičiuojamas, nes darbuotojas iš darbo išsiregistruoja nukrypimo- laikotarpiu ir iš darbuotojo nukrypimų balansų atskaičiuojamas pusvalandis.
+Darbuotojas atėjimą į darbą užregistruoja 8.00 val., o išsiregistruoja 15.30 val. Tokiu atveju neatvykimas neskaičiuojamas, nes darbuotojas iš darbo išsiregistruoja nukrypimo- laikotarpiu ir iš darbuotojo nukrypimų balansų atskaičiuojamas pusvalandis.
 
 ### <a name="example-2-signing-out-in-during-standard-time-period"></a>2 pavyzdys: išsiregistravimas iš darbo standartinio laiko laikotarpiu
 
-Darbuotojas atėjimą į darbą užregistruoja 8:00 val., o išėjimą išregistruoja 14:30 val. Tokiu atveju neatvykimas skaičiuojamas nuo 14:30 iki 16:00 val., nes darbuotojas iš darbo išsiregistruoja standartinio laiko laikotarpiu ir registruojamas 1,5 valandos neatvykimo laikotarpis. Šiam laikotarpiui reikia priskirti neatvykimo kodą.
+Darbuotojas atėjimą į darbą užregistruoja 8.00 val., o išėjimą išregistruoja 15.30 val. Tokiu atveju neatvykimas skaičiuojamas nuo 14.30 iki 16.00 val., nes darbuotojas iš darbo išsiregistruoja standartinio laiko laikotarpiu ir registruojamas 1,5 valandos neatvykimo laikotarpis. Šiam laikotarpiui reikia priskirti neatvykimo kodą.
 
 ### <a name="example-3-signing-out-during-a-flex-period"></a>3 pavyzdys: išsiregistravimas iš darbo nukrypimo+ laikotarpiu
 
-Darbuotojas atėjimą į darbą užregistruoja 8:00 val., o išsiregistruoja 16:30 val. Tokiu atveju neatvykimas neskaičiuojamas, nes darbuotojas iš darbo išsiregistruoja nukrypimo+ laikotarpiu ir prie darbuotojo nukrypimų balansų pridedamas pusvalandis.
+Darbuotojas atėjimą į darbą užregistruoja 8.00 val., o išsiregistruoja 15.30 val. Tokiu atveju neatvykimas neskaičiuojamas, nes darbuotojas iš darbo išsiregistruoja nukrypimo+ laikotarpiu ir prie darbuotojo nukrypimų balansų pridedamas pusvalandis.
 
 ## <a name="absence-in-the-calculation-and-approval-process"></a>Neatvykimas skaičiavimo ir patvirtinimo procese
 
@@ -101,11 +103,8 @@ Darbuotojo laiko registracijos turi būti apskaičiuojamas ir patvirtinamos prie
 
 Tvirtintojas gali keisti darbuotojo darbo laiko registracijas. Tvirtintojas gali keisti netgi bet kokį darbuotojo užregistruotą neatvykimą. Jei tvirtintojas rankiniu būdu įveda laikotarpį, kuriam priskirtas neatvykimo kodas, tam laikotarpiui skirtas neatvykimas kodas nėra perrašomas Laiko ir buvimo darbe parametruose įvestu numatytuoju neatvykimo kodu.
 
-Pavyzdžiui, darbuotojas atėjimą į darbą užregistruoja 10:00 val. ir pasirenka neatvykimo kodą, žymintis vėlavimą. Vėliau darbuotojas informuoja savo vadovą, kad jis nuo 8:00 iki 10:00 val. lankėsi pas gydytoją. Dėl apsilankymo pas gydytoją iš darbuotojo atlyginimo pinigai neturi būti atskaitomi. Todėl tokiu atveju prižiūrėtojas dviejų valandų neatvykimą nuo 8:00 iki 10:00 val. gali koreguoti rankiniu būdu įvesdamas neatvykimo kodą, kuriuo žymima, kad darbuotojas tas dvi valandas sirgo.
+Pavyzdžiui, darbuotoja atėjimą į darbą užregistruoja 10.00 val. ir pasirenka neatvykimo kodą, kuriuo žymimas vėlavimas. Vėliau darbuotoja informuoja savo prižiūrėtoją, kad ji nuo 8.00 iki 10.00 val. lankėsi pas gydytoją. Dėl apsilankymo pas gydytoją iš darbuotojo atlyginimo pinigai neturi būti atskaitomi. Todėl tokiu atveju prižiūrėtojas dviejų valandų neatvykimą nuo 8.00 iki 10.00 val. gali koreguoti rankiniu būdu įvesdamas neatvykimo kodą, kuriuo žymima, kad darbuotojas tas dvi valandas sirgo.
 
 ### <a name="calculate-and-approve-absence"></a>Neatvykimo apskaičiavimas ir patvirtinimas
 
 - Pasirinkite **Laikas ir buvimas darbe** &gt; **Peržiūrėti ir patvirtinti** &gt; **Patvirtinti arba skaičiuoti**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,29 +1,34 @@
 ---
 title: Priežiūros užklausos
 description: Šioje temoje apžvelgiama, kaip valdyti priežiūros užklausas modulyje Turto valdymas.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 10/01/2019
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetRequestTable, EntAssetRequestWorkspace, EntAssetRequestActivePart, EntAssetRequestWorkOrderActive, EntAssetRequestType, EntAssetRequestTableCreateWO, EntAssetRequestTableLookup, EntAssetRequestTableActivePart, EntAssetMobileRequestDetails
 audience: Application User
 ms.reviewer: kamaybac
+ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 6d247457b83036dba2fad8fd9f94e04c29a3aa5e
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
-ms.translationtype: MT
+ms.openlocfilehash: 1e0071ae745987a1217525b2841e3320933a9242
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7985258"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5019634"
 ---
 # <a name="maintenance-requests"></a>Priežiūros užklausos
 
 [!include [banner](../../includes/banner.md)]
+
+ 
 
 Priežiūros užklausos yra pranešimai arba deklaracijos, sukurtos siekiant pranešti vadovui arba planuotojui, kad gali prireikti atlikti turto priežiūros arba remonto užduotį, nesukuriant darbo užsakymo. Jei priežiūros užklausos turinys laikomas tinkamu, remiantis priežiūros užklausa galima sukurti darbo užsakymą.
 
@@ -39,7 +44,7 @@ Modulyje Turto valdymas galima kurti bet kurio turto priežiūros užklausas. At
 
 Norėdami peržiūrėti priežiūros užklausas, pasirinkite **Turto valdymas** \> **Dažnas** \> **Techninės priežiūros prašymai** \> **Visos priežiūros užklausos**, **Aktyvios priežiūros užklausos** arba **Mano funkcinės vietos priežiūros užklausos**. Kiekviename sąrašo puslapyje pateikiama dalis informacijos, susijusios su priežiūros užklausa.
 
-![Peržiūrėti priežiūros užklausas.](media/01-manage-maintenance-requests.png)
+![Peržiūrėti priežiūros užklausas](media/01-manage-maintenance-requests.png)
 
 > [!NOTE]
 > Sąrašo puslapyje **Mano funkcinės vietos priežiūros užklausos** galite peržiūrėti priežiūros užklausų, kuriose yra funkcinių vietų, su kuriomis esate susijęs kaip darbuotojas, arba turto, įdiegto funkcinėse vietose, su kuriomis esate susijęs kaip darbuotojas, sąrašą. (Informacijos apie tai, kaip nustatyti funkcines vietas priežiūros darbuotojams, rasite skyriuje [Priežiūros darbuotojai ir darbuotojų grupės](../setup-for-objects/workers-and-worker-groups.md).)
@@ -48,7 +53,7 @@ Norėdami peržiūrėti priežiūros užklausas, pasirinkite **Turto valdymas** 
 
 Norėdami atidaryti įrašo išsamios informacijos rodinį, sąrašo puslapio **Visos priežiūros užklausos** tinklelio rodinyje pasirinkite saitą stulpelyje **Priežiūros užklausa**.
 
-![Peržiūrėti priežiūros užklausos informaciją.](media/02-manage-maintenance-requests.png)
+![Peržiūrėti priežiūros užklausos informaciją](media/02-manage-maintenance-requests.png)
 
 Mygtukai, esantys veiksmų srityje, tvarkomi skirtukuose. Toliau pateikiamoje lentelėje trumpai aprašyti mygtukai, susiję su turto valdymu.
 
@@ -67,6 +72,3 @@ Mygtukai, esantys veiksmų srityje, tvarkomi skirtukuose. Toliau pateikiamoje le
 | Siųsti skolintą turtą                  | Pasirenkamas skolintas turtas, kuris turėtų laikinai pakeisti turtą, pasirinktą pasirinktoje priežiūros užklausoje. |
 | Grąžinti skolintą turtą                | Registruojamas skolinto turto grąžinimas. |
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,9 +2,11 @@
 title: Konfigūracijų, skirtų generuoti dokumentus, kuriuose yra prašymų duomenys, importavimas
 description: Norėdami atlikti šios procedūros veiksmus, pirmiausia turite atlikti procedūrą „ER konfigūracijos teikėjo kūrimas ir pažymėjimas aktyviu.“
 author: NickSelin
+manager: AnnBe
 ms.date: 11/02/2017
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -12,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 08ab90d6f53dbb9eabeea3c2cf020792e8957c7b71ed27fc491008fcad114c72
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1f919d953c3aa0c8d16366167a12e52d35f32cdf
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727490"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684624"
 ---
 # <a name="import-configurations-to-generate-documents-that-have-application-data"></a>Konfigūracijų, skirtų generuoti dokumentus, kuriuose yra prašymų duomenys, importavimas
 
@@ -73,6 +75,3 @@ Veiksmai šioje procedūroje paaiškina, kaip kurti elektroninių ataskaitų (ER
     * Peržiūrėkite formato, naudojamo Intrastat ataskaitai generuoti, struktūrą. Atkreipkite dėmesį, kad jis skirtas XML failui generuoti užpildant duomenis iš duomenų modelio, kuris grindžiamas šakniniu elementu „Siunčiamam dokumentui“. Patikrinkite, ar sugeneruoto failo pavadinimas apibrėžtas vartotojo dialogo formoje (tam naudojamas „fn“ duomenų šaltinis).   
 30. Uždarykite puslapį.
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -2,23 +2,26 @@
 title: Ilgalaikio turto remonto išrašas, skirtas Lietuvai
 description: Šioje temoje paaiškinama, kaip pateikti ilgalaikio turto remonto informaciją ir generuoti ilgalaikio turto remonto ataskaitą. Remonto informacija turi būti saugoma visam ilgalaikiui turtui.
 author: EvgenyPopovMBS
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
+ms.search.scope: Core, Operations
 ms.custom: 262724
 ms.search.region: Lithuania
 ms.author: epopov
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: f4e65da489620bf9fa81b35ba3593025e01a22d834dd0afba86db1feedf65299
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 444909be3e0abdc602b08a41421ef731f53ce0ce
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6763069"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4408234"
 ---
 # <a name="fixed-asset-repair-statement-for-lithuania"></a>Ilgalaikio turto remonto išrašas, skirtas Lietuvai
 
@@ -26,14 +29,16 @@ ms.locfileid: "6763069"
 
 Šioje temoje paaiškinama, kaip pateikti ilgalaikio turto remonto informaciją ir generuoti ilgalaikio turto remonto ataskaitą. Remonto informacija turi būti saugoma visam ilgalaikiui turtui. 
 
-## <a name="enter-details-for-a-fixed-asset-repair-statement"></a>Ilgalaikio turto remonto apskaitos informacijos įvedimas
+<a name="enter-details-for-a-fixed-asset-repair-statement"></a>Ilgalaikio turto remonto apskaitos informacijos įvedimas
+------------------------------------------------
 
 Ilgalaikio turto remonto informaciją galite įvesti puslapyje **Ilgalaikio turto remontas**. Pateikite toliau nurodytą remonto informaciją.
 
-| Laukas                   | Reikšmė                               |
-|-----------------------------|------------------------------------------|
-| **Remonto data**          | Ilgalaikio turto remonto data.                        |
-| **Aprašas**             | Remonto aprašas.               |
+|                             |                                                                                                                                       |
+|-----------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
+| **Laukas**                   | **Vertė**                                                                                                                             |
+| **Remonto data**          | Ilgalaikio turto remonto data.                                                                                           |
+| **Aprašas**             | Remonto aprašas.                                                                                                            |
 | **Remontui išleista suma** | Remonto savikaina. **Pastaba.** Norėdami apskaičiuoti bendrą sumą, spustelėkite mygtuką **Sumos** ir tada nurodykite skaičiavimo laikotarpį. |
 | **Dokumento numeris**         | Numeris, priskirtas dokumentu, kuris sugeneruotas remontui atlikti.                                                            |
 
@@ -42,8 +47,9 @@ Ilgalaikio turto remonto informaciją galite įvesti puslapyje **Ilgalaikio turt
 ## <a name="generate-the-fixed-asset-repair-report"></a>Ilgalaikio turto remonto ataskaitos generavimas
 Norėdami generuoti ataskaitą, pasirinkite **Ilgalaikis turtas** **&gt; Užklausos ir** **ataskaitos** &gt; **Operacijų ataskaitos** &gt; **Ilgalaikio turto remontas** ir nurodykite toliau pateiktas vertes.
 
-| Laukas                     | Reikšmė                 |
-|---------------------------|-----------------------|
+|                               |                                                                                                                                                                                                                                                                                                                  |
+|-------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Laukas**                     | **Vertė**                                                                                                                                                                                                                                                                                                        |
 | **Knyga**                      | Pasirinkite knygą, kuriai norite generuoti ilgalaikio turto ataskaitą.                                                                                                                                                                                                                                                    |
 | **Pradžios data, pabaigos data**        | Įveskite ataskaitinio laikotarpio pradžios ir pabaigos datas.                                                                                                                                                                                                                                                          |
 | **Rodyti ataskaitos operacijas**  | Pažymėkite šį lauką , kad į ataskaitą būtų įtrauktos remonto operacijos.                                                                                                                                                                                                                                                  |
@@ -54,6 +60,3 @@ Norėdami generuoti ataskaitą, pasirinkite **Ilgalaikis turtas** **&gt; Užklau
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

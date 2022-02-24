@@ -1,23 +1,26 @@
 ---
 title: Europos apžvalga
 description: Šioje temoje pateikiami „Microsoft Dynamics 365 Finance“ dokumentų išteklių, skirtų Europai, saitai.
-author: kfend
-ms.date: 01/15/2022
-ms.topic: overview
+author: ShylaThompson
+manager: AnnBe
+ms.date: 07/25/2019
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
+ms.search.scope: Operations
 ms.search.region: global
-ms.author: kfend
+ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f2d8a2e44713607ff2a4df91271c70d96c4d71d9
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
-ms.translationtype: MT
+ms.openlocfilehash: 1d63d5682521b1991c387604c2cc219c7f147c8d
+ms.sourcegitcommit: cfd84321fba38e02e270d361df369a536a48efa3
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982099"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "4512216"
 ---
 # <a name="europe-overview"></a>Europos apžvalga
 
@@ -38,7 +41,6 @@ ms.locfileid: "7982099"
 - [ES pardavimo sąrašo ataskaitos](emea-eu-sales-list.md)
 - [Valiutų kursų koregavimai](emea-exchange-rate-adjustments.md)
 - [Failo formatai mokėjimo metodams](emea-select-file-formats-for-the-method-of-payments.md)
-- [Finansų (globalizavimo) gairės dėl „Brexit” poveikio](https://businesscenter.mbs.microsoft.com/#contentdetail/GuidanceBrexitImpact)
 - [Finansų tarnybos (ESR) integravimas](emea-fiscal-service-integration.md)
 - [Ilgalaikio turto likvidavimas Estijoje ir Lietuvoje](emea-credit-note-reverse-fixed-asset-sale.md)
 - [Atsargų perkėlimo įmonės viduje perkėlimo dokumento generavimas](tasks/transfer-document-internal-inventory-transfer.md)
@@ -62,9 +64,8 @@ ms.locfileid: "7982099"
 - [SF išdavimo terminas](emea-invoice-issue-deadline.md)
 - [SF apdorojimas](emea-invoice-processing.md)
 - [ES įrašo sertifikato išdavimas](tasks/eur-00012-issue-eu-entry-certificate.md)
-- [Elektroninių sąskaitų faktūrų išrašymo palaikomi standartai](emea-oioubl-standards-electronic-invoicing.md)
-- [Priverstinis elektroninių sąskaitų faktūrų generavimas](emea-eur-forced-einvoices.md)
-- [Pradinės sąskaitos faktūros nuoroda (Rytų Europa)](tasks/ee-00004-original-invoice-reference.md)
+- [Elektroninių sąskaitų išrašymo palaikomi standartai](emea-oioubl-standards-electronic-invoicing.md)
+- [Originali SF nuoroda (Rytų Europa)](tasks/ee-00004-original-invoice-reference.md)
 - [Šalies ieška naudojant PVM ID](tasks/eur-00015-party-search-vat-id.md)
 - [Mokėjimo nuorodų generavimo įrankis](tasks/ee-00015-payment-reference-generation-tool.md)
 - [Mokėjimo kvito ataskaita](emea-eur-payment-slip-report-giro.md)
@@ -93,13 +94,8 @@ ms.locfileid: "7982099"
   - [PVM ataskaitos kūrimas ir teikimas](tasks/create-submit-vat-report.md)
   - [Sudengimo operacijų peržiūra (Rytų Europa)](emea-transactions-settlement-form.md)
   - [Apmokestinimo data (PVM registro data)](emea-tax-point-date.md)
-  - [Tiekėjo PVM registro data](emea-date-vendor-VAT-register.md)
-- [Finansinių priežasčių funkcijos plėtinys](emea-financial-reason.md)
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
-- [Elektroninių ataskaitų apžvalga](../../fin-ops-core/dev-itpro/analytics/general-electronic-reporting.md)
-- [Elektroninių ataskaitų konfigūracijų atsisiuntimas iš „Lifecycle Services“](../../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+- [Elektroninių ataskaitų apžvalga](../../dev-itpro/analytics/general-electronic-reporting.md)
+- [Elektroninių ataskaitų konfigūracijų atsisiuntimas iš „Lifecycle Services“](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)

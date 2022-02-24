@@ -2,12 +2,15 @@
 title: Prisijunkite, norėdami naudoti įvertinimus ir atsiliepimus
 description: Šioje temoje paaiškinama, kaip sutikti naudoti įvertinimus ir apžvalgas savo „Microsoft Dynamics 365 Commerce“ svetainėje.
 author: gvrmohanreddy
+manager: annbe
 ms.date: 01/30/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -15,20 +18,22 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: fd6715539693389f25800a40c0beffcdc1b0de72
-ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
-ms.translationtype: MT
+ms.openlocfilehash: cbdb69202ebec19f4442041cfb1f99857da36d2e
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7968008"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4414355"
 ---
-# <a name="opt-in-to-use-ratings-and-reviews"></a>Norėdami naudoti įvertinimus ir atsiliepimus, prisijunkite
+# <a name="opt-in-to-use-ratings-and-reviews"></a>Prisijunkite, norėdami naudoti įvertinimus ir atsiliepimus
 
 [!include [banner](includes/banner.md)]
 
 Šioje temoje paaiškinama, kaip sutikti naudoti įvertinimus ir apžvalgas savo „Microsoft Dynamics 365 Commerce“ svetainėje.
 
-Įvertinimų ir apžvalgų sprendimas yra daugiakanalis sprendimas, kurį galite padaryti pasiekiamą „Dynamics 365 Commerce“, naudojant „Microsoft Dynamics Lifecycle Services“ (LCS). LCS yra administravimo portalas, kurį prekybininkai naudoja valdyti savo aplinką nuo jos parengimo iki jos eksploatacijos nutraukimo.
+## <a name="overview"></a>Peržiūrėti
+
+Įvertinimų ir apžvalgų sprendimas yra daugiakanalis sprendimas, kurį galite padaryti pasiekiamą „Dynamics 365 Commerce“, naudojant „Microsoft Dynamics Lifecycle Services“ (LCS). LCS yra administravimo portalas, kurį prekybininkai naudoja valdyti savo aplinką nuo jos parengimo iki jos ekspoatacijos nutraukimo.
 
 Jei norite naudoti įvertinimų ir apžvalgų sprendimą savo „Commerce“ svetainėje, turite pasirinkti įvertinimus ir apžvalgas diegiant savo „e-Commerce“ svetainę „Dynamics 365 Commerce“.
 
@@ -41,7 +46,7 @@ Norėdami sutikti naudoti įvertinimus ir apžvalgas savo svetainėje, atlikite 
 1. Parinktį **Įjungti įvertinimų ir apžvalgų paslaugą** nustatykite kaip **Taip**.
 1. Lauke **AAD saugos grupė, skirta įvertinimų ir apžvalgų moderatoriui (saugos grupės objekto ID)**, įveskite „Microsoft Azure Active Directory“ („Azure AD“) saugos grupės, apimančios įvertinimų ir atsiliepimų moderatorių vaidmenį, ID.
 
-    ![Norėdami naudoti įvertinimus ir atsiliepimus, prisijunkite.](media/LCS_RnR_Preference.png)
+    ![Norėdami naudoti įvertinimus ir atsiliepimus, prisijunkite](media/LCS_RnR_Preference.png)
 
 1. Baikite el. prekybos inicijavimo procesą.
 
@@ -58,13 +63,4 @@ Norėdami sutikti naudoti įvertinimus ir apžvalgas savo svetainėje, atlikite 
 
 [Produktų įvertinimų sinchronizavimas sprendime „Dynamics 365 Commerce“](sync-product-ratings.md)
 
-[Neautomatinio vadovo įvertinimų ir atsiliepimų publikavimo įjungimas](manual-publish-rating-reviews.md)
 
-[Importuoti ir eksportuoti įvertinimus ir apžvalgas](import-export-reviews.md)
-
-[Konfigūruoti paslaugos autentifikavimą](service-to-service-auth.md)
-
-[DUK apie įvertinimus ir apžvalgas](ratings-reviews-faq.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

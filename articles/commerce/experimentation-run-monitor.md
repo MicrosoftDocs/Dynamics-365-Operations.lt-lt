@@ -2,9 +2,11 @@
 title: Eksperimento vykdymas ir stebėjimas
 description: Šioje temoje aprašoma, kaip vykdyti ir stebėti eksperimentą trečiosios šalies paslaugoje. Taip pat aprašoma, kaip atlikti variacijų keitimus po to, kai eksperimentas pradėtas.
 author: sushma-rao
+manager: AnnBe
 ms.date: 10/21/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -15,12 +17,12 @@ ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: cd8864caec23f6aca30badba1a79da31301a0ddb92a74bb4a6fe027214d0f8d6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ba6fb94033e227790e01676819308bb4f0cd6868
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6777577"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4965225"
 ---
 # <a name="run-and-monitor-an-experiment"></a>Eksperimento vykdymas ir stebėjimas
 
@@ -28,7 +30,7 @@ ms.locfileid: "6777577"
 
 Toliau pateiktoje diagramoje rodomi visi veiksmai, susiję su eksperimento nustatymu ir vykdymu „e-Commerce“ svetainėje „Dynamics 365 Commerce”. Papildomi veiksmai aprašomi kitose temose.
 
-[ ![Vartotojo eksperimentavimo kelionė – vykdymas ir stebėjimas.](./media/experimentation_run_monitor.svg) ](./media/experimentation_run_monitor.svg#lightbox)
+[ ![Vartotojo eksperimentavimo kelionė – vykdymas ir stebėjimas](./media/experimentation_run_monitor.svg) ](./media/experimentation_run_monitor.svg#lightbox)
 
 Publikavus jūsų variacijas, visi veiksmai, kuriuos reikia atlikti „Commerce”, kad jūsų eksperimentas būtų vykdomas, yra baigti. Kitas veiksmas – nustatyti, kurią variaciją parodyti kiekvienam vartotojui, reikalaujančiam puslapio. Šį nustatymą atlieka trečiosios šalies paslauga, bet pirmiausia jūs turite suaktyvinti eksperimentą paslaugoje. Kadangi eksperimento aktyvavimo veiksmai priklauso nuo paslaugos, turite sekti instrukcijas, įtrauktas kartu su jūsų paslauga ar tiekėju. Jei eksperimentas nesuaktyvintas, vartotojai matys tik numatytąją puslapio versiją (variacijos nebus rodomos).
 
@@ -50,6 +52,3 @@ Jei dėl kokių nors priežasčių reikia koreguoti jūsų variacijas, atlikite 
 
 ## <a name="next-step"></a>Kitas veiksmas
 [Variacijos skatinimas ir eksperimento užbaigimas](experimentation-review-complete.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

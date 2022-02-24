@@ -2,9 +2,11 @@
 title: Darbo eigos elementai
 description: Šioje temoje aprašomi įvairūs elementai, sudarantys darbo eigą.
 author: ChrisGarty
+manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -14,19 +16,16 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e9491b8ee6da69ba93c830bf0721c1d58fd4385b
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
-ms.translationtype: MT
+ms.openlocfilehash: b259d733076193cda793a227bd0bb71c232339d1
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070455"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797581"
 ---
 # <a name="workflow-elements"></a>Darbo eigos elementai
 
 [!include [banner](../includes/banner.md)]
-
-
-[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Šioje temoje aprašomi įvairūs elementai, sudarantys darbo eigą.
 
@@ -63,7 +62,7 @@ Darbo eigą sudaro elementai. Tolesniuose skyriuose aprašomi visi elementų tip
 
 Galima sukurti darbo eigą tvarkyti dokumentus arba dokumento eilutės elementus. Pavyzdžiui, sukūrėte tabelių patvirtinimo darbo eigą. (Ši darbo eiga bus vadinama dokumento *darbo eiga*.) Į to dokumento darbo eigą galite įtraukti elementą *eilutės elemento darbo eiga*. Paleidus eilutės elementą, kiekvienas dokumento eilutės elementas pateikiamas apdoroti. Norėdami galite apdoroti visus eilutės elementus vykdydami tos pačios eilutės elemento darbo eigą arba galite kiekvieną eilutės elementą apdoroti atliekant skirtingas eilutės elemento darbo eigas. Įsivaizduokite, kad darbuotojas pateikė tabelį, panašų į tabelį toliau pateikiamame paveikslėlyje.
 
-![Darbo eiga su eilutės elementais.](./media/workflow_lineitemworkflow.gif)
+![Darbo eiga su eilutės elementais](./media/workflow_lineitemworkflow.gif)
 
 Tokiu atveju galbūt norėsite sukurti tokias eilutės elemento darbo eigas:
 
@@ -90,6 +89,3 @@ Tokiu atveju galbūt norėsite sukurti tokias eilutės elemento darbo eigas:
 ### <a name="subworkflow"></a>Antrinė darbo eiga
 
 *Antrinė darbo eiga* yra darbo eiga, kuri vyksta kitos darbo eigos kontekste.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

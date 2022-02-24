@@ -2,24 +2,27 @@
 title: Sumų rodymo ataskaitose ir dokumentuose būdo naujinimas
 description: Šioje temoje pateikiama informacija apie tai, kaip naujinti sumų rodymą ataskaitose ir kituose dokumentuose, skirtuose Estijai, Latvijai, Lietuvai, Lenkijai, Čekijos Respublikai, Vengrijai, ir Rusijai.
 author: anasyash
-ms.date: 01/18/2022
+manager: AnnBe
+ms.date: 08/13/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: Currency
 audience: Application User
 ms.reviewer: kfend
+ms.search.scope: Core, Operations
 ms.custom: 264254
 ms.search.region: Czech Republic, Estonia, Hungary, Latvia, Lithuania, Poland, Russia
 ms.author: kfend
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 678c7ac288e7754809ad51cc609e1aaa011776ee
-ms.sourcegitcommit: 9638d3a2bd592dc28f5952bda4af7dcf06edfaa4
-ms.translationtype: MT
+ms.openlocfilehash: dd42a64bb384561cc0c4a8c9baf1213860691849
+ms.sourcegitcommit: 092ef6a45f515b38be2a4481abdbe7518a636f85
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8007592"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4408250"
 ---
 # <a name="update-how-amounts-are-displayed-on-reports-and-documents"></a>Sumų rodymo ataskaitose ir dokumentuose būdo naujinimas
 
@@ -47,10 +50,7 @@ Norėdami nustatyti valiutos vienetų ir antrinių vienetų visus pavadinimus be
    |    <strong>Trumpas vienetų pavadinimas (laukų grupė Trumpas pavadinimas)</strong>    |                                                                                         Įveskite ISO kodą, kad identifikuotumėte valiutą. Pavyzdžiui, įveskite LTL identifikuoti litui..                                                                                         |
    |   <strong>Trumpas dalių pavadinimas (laukų grupė Trumpas pavadinimas)</strong>    |                                                                                               Įveskite valiutos antrinio vieneto nominaliąją vertę. Pavyzdžiui, įveskite centas.                                                                                               |
    |       <strong>Jungtukas „ir“ tarp vienetų ir dalių</strong>       |                                     Pažymėkite, jei norite spausdinti jungtuką „ir“ tarp valiutos vienetų ir vieneto dalių. Pvz., SF ir ataskaitose 100,20 LTL suma rodoma kaip 100 litų ir 20 centų.                                      |
-   |       <strong>Giminė</strong>       |  Pasirinkite **Vyriška**, **Moteriška** arba **Neutrali**. Šis parametras gali turėti įtakos vietinės sumos linksniavimo, rodomo vietinės kalbos tekste grynųjų pinigų užsakyme, tekstui. Pavyzdžiui, kai nustatote valiutos EUR lytį kaip Neuter, 101 EUR suma rašoma Čekų kalba grynųjų pinigų užsakyme **kaip** **·** *Jedno euras 01 cent*.  |
+   |       <strong>Giminė</strong>       |  Pasirinkite **Vyriška**, **Moteriška** arba **Neutrali**. Šis parametras gali turėti įtakos vietinės sumos linksniavimo, rodomo vietinės kalbos tekste grynųjų pinigų užsakyme, tekstui. Pavyzdžiui, nustatydami parametrą **Giminė** EUR valiutai į **Neutrali**, suma 1,01 EUR užrašoma grynųjų pinigų užsakyme čekų kalba kaip *„Edno euro 01 cent“*.  |
 
 5. Pasirinkite **Įrašyti**.
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,38 +1,36 @@
 ---
 title: Užduočių vedlių įrašymas į LCS ir pakartotinis leidimas
-description: Šioje temoje aiškinama, kaip įrašyti užduoties vedlius į „Microsoft Dynamics Lifecycle Services“ (LCS) ir leisti juos pakartotinai.
-author: twheeloc
-ms.date: 08/23/2021
+description: Šiame straipsnyje aiškinama, kaip įrašyti užduoties vedlius į „Microsoft Dynamics Lifecycle Services“ (LCS) ir leisti juos pakartotinai.
+author: andreabichsel
+manager: AnnBe
+ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 54251aed1a54f626e5cd6cbd983e3eb4589a02e8
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
-ms.translationtype: MT
+ms.openlocfilehash: b55937c0867117809471f50f1987f7bf12a4b25d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8068364"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4419727"
 ---
 # <a name="save-task-guides-to-lcs-and-replay-them"></a>Užduočių vedlių įrašymas į LCS ir pakartotinis leidimas
-
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 **Aplinkos informacija** 
 
 „Microsoft Dynamics 365 Human Resources“, įdiegtas naudojant „Microsoft Dynamics Lifecycle Services“ (LCS)
 
-**Išdavimas**
+**Išduoti**
 
 Klientas nori įrašyti naują užduoties įrašą į savo LCS projektą, tada pakartotinai leisti įrašytus užduoties vedlius.
 
@@ -55,7 +53,7 @@ Norėdami įrašyti užduoties įrašą į LCS, atlikite toliau nurodytus veiksm
 10. Sukurkite užduoties įrašą.
 11. Baigę pasirinkite **Įrašyti į „Lifecycle Services“**.
 
-    ![Įrašyti į „Lifecycle Services“.](media/task-guides.png)
+    ![Įrašyti į „Lifecycle Services“](media/task-guides.png)
 
 12. Pasirinkite BPM biblioteką ir mazgą, į kuriuos norite įrašyti užduoties įrašą.
 
@@ -65,6 +63,3 @@ Norėdami pakartotinai paleisti LCS užduoties vedlį, atlikite toliau nurodytus
 2. Pasirinkite **Atidaryti iš LCS**.
 3. Pasirinkite biblioteką ir BPM mazgą, kuriame yra įrašytas užduoties vedlys.
 4. Atidarykite užduoties vedlį.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

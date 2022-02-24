@@ -2,9 +2,11 @@
 title: Audito strategijos taisyklės
 description: Norėdami įvertinti išlaidų ataskaitas, tiekėjo SF ir pirkimo užsakymus ir įsitikinti, kad jie atitinka jūsų kuriamas strategijos taisyklės, galite naudoti audito strategijas. Visos su audito strategija susietos taisyklės vykdomos paketiniu režimu pagal jūsų nurodytą grafiką.  Kiekviena strategijos taisyklė yra strategijos taisyklės tipo egzempliorius. Vienu metu gali būti aktyvi tik viena strategijos taisyklės tipo strategijos taisyklė.
 author: panolte
+manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AuditPolicyAdditionalOption, AuditPolicyRule
 audience: Application User
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bbf93f5b8b2f8d95102a52178b096d7e334894483c0ac0bacc62653aea845022
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 998d4dbabec74528b4acb9e797faef0c449e7c28
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6744311"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5021246"
 ---
 # <a name="audit-policy-rules"></a>Audito strategijos taisyklės
 
@@ -28,7 +30,8 @@ ms.locfileid: "6744311"
 
 Norėdami įvertinti išlaidų ataskaitas, tiekėjo SF ir pirkimo užsakymus ir įsitikinti, kad jie atitinka jūsų kuriamas strategijos taisyklės, galite naudoti audito strategijas. Visos su audito strategija susietos taisyklės vykdomos paketiniu režimu pagal jūsų nurodytą grafiką.  Kiekviena strategijos taisyklė yra strategijos taisyklės tipo egzempliorius. Vienu metu gali būti aktyvi tik viena strategijos taisyklės tipo strategijos taisyklė. 
 
-## <a name="queries-and-query-types"></a>Užklausos ir užklausų tipai
+<a name="queries-and-query-types"></a>Užklausos ir užklausų tipai
+-----------------------
 
 Kai kuriate audito strategijos taisyklę, pirmiausia pasirenkate strategijos taisyklės tipą. Strategijos taisyklės tipas nurodo programos objektų medžio (AOT) užklausą, kuri turi būti naudojama kaip pradinis strategijos taisyklės kūrimo taškas. Jis taip pat nurodo naudotiną strategijos taisyklės užklausos tipą. Užklausa nurodo šaltinio dokumentą, kurį įvertina strategijos taisyklė. Ji taip pat apibrėžia šaltinio dokumento laukus, nurodančius juridinį subjektą ir datą, kurie bus naudojami pasirinkus dokumentus auditui atlikti. Užklausos tipas valdo numatytuosius laukus užklausos puslapyje ir audito strategijos taisyklių puslapyje. Toliau pateiktoje lentelėje nurodyti galimi audito strategijos taisyklių užklausų tipai.
 
@@ -90,12 +93,10 @@ Visos tam tikros audito strategijos taisyklės bendrai naudoja tuos pačius pake
 
 
 
-## <a name="additional-resources"></a>Papildomi ištekliai
+<a name="additional-resources"></a>Papildomi ištekliai
+--------
 
 [Audito strategijos pažeidimai ir atvejai](audit-policy-violations-cases.md)
 [Apibrėžti šaltinio dokumento audito strategijas](tasks/define-audit-policies-source-documents.md)
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

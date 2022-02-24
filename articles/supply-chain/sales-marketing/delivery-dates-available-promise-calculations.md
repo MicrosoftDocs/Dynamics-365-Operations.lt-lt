@@ -1,26 +1,29 @@
 ---
 title: Užsakymų vykdymo perspektyva
 description: Šioje temoje pateikiama informacija apie užsakymų įsipareigojimus. Užsakymų įsipareigojimai suteikia galimybę patikimai įsipareigoti klientui laikytis pristatymo datų ir suteikia lankstumo, kad tų datų laikytumėtės.
-author: Henrikan
+author: ShylaThompson
+manager: tfehr
 ms.date: 04/17/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SalesATP, SalesAvailableDlvDates, SalesCarrier
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: 193933
 ms.assetid: 676fc53a-fa25-4688-9f26-1005316763b8
 ms.search.region: Global
-ms.author: henrikan
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0f7535ba28358fef21784956da38cd334a4aebe7
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: ae3192bcf5128c09279017e3d5e8be8f42ec6975
+ms.sourcegitcommit: 95f90ac3f248716abdab16d5de6ccbf059616e4b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572606"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "4666775"
 ---
 # <a name="order-promising"></a>Užsakymų vykdymo perspektyva
 
@@ -46,7 +49,7 @@ ATP kiekis apskaičiuojamas naudojant „kaupiamojo ATP žvelgiant į ateitį“
 
 ATP kiekis yra nefiksuotų atsargų balansas pirmuoju laikotarpiu. Paprastai jis apskaičiuojamas kiekvienam laikotarpiui, kuriame suplanuotas gavimas. Programa apskaičiuoja ATP laikotarpį dienomis ir dabartinę datą ATP kiekiui apskaičiuoja kaip pirmą datą. Pirmą laikotarpį ATP apima turimas atsargas ir atėmus klientų užsakymus, kurie yra mokėtini ir laiku nesumokėti.  
 
-ATP apskaičiuojamos pagal šią formulę:  
+APT apskaičiuojamos pagal tolesnę formulę.  
 
 ATP = ankstesnio laikotarpio ATP + dabartinio laikotarpio gavimai – dabartinio laikotarpio išdavimai – kiekvieno būsimo laikotarpio grynasis išdavimo kiekis iki laikotarpio, kai visų būsimų laikotarpių gavimų suma (iki būsimo laikotarpio įskaitytinai) yra didesnė nei išdavimų suma iki būsimo laikotarpio įskaitytinai.  
 
@@ -78,6 +81,3 @@ Todėl pagal ATP skaičiavimą siuntimo data nustatoma po 10 dienų. Todėl klie
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

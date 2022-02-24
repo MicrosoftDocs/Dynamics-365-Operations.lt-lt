@@ -57,6 +57,3 @@ Daugiau informacijos žr. [Algalapių integravimo tarp „Talent“ ir „Dayfor
 ## <a name="benefit-enrollment-status-report"></a>Išmokos registracijos būsenos ataskaita
 
 Naudodamiesi integruotomis ataskaitomis apie atvirą registraciją išmokoms gauti, lengvai sužinosite, kuriame atviros registracijos etape yra jūsų darbuotajai. Galite sužinoti, kiek darbuotojų perėjo visus proceso etapus, kiek pereis netrukus ir kiek dar neperėjo.  Be to, galite greitai peržiūrėti visas problemas, iškilusias registruojant darbuotojus, ir visą darbuotojų pateikimų žurnalą. Todėl lengvai galite patikrinti ir audituoti darbuotojų pateikimus.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

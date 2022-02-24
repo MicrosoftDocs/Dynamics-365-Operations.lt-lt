@@ -1,10 +1,12 @@
 ---
 title: Kaupimo abonementai
 description: Naudodami aptarnavimo abonementus, rankiniu būdu sukaupiate įplaukas laikotarpiuose po datos, kai išrašėte SF apmokėjimo operacijai.
-author: kamaybac
+author: ShylaThompson
+manager: tfehr
 ms.date: 04/30/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMASubscriptionGroup
 audience: Application User
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3d17737c415f6204359dae3ea4b2a0cb4ebb5d65
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: f6d0d6c25cc8a19f5ebea3477cd2c957876752fd
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7580485"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4966085"
 ---
 # <a name="accruing-subscriptions"></a>Kaupimo abonementai 
 
@@ -41,7 +43,7 @@ Jei priskyrėte abonemento sumas, kurioms išrašytos SF, galite naudoti du meto
 
   - Galima nustatyti, kad sukauptos sumos būtų atšauktos tą dieną, kai užregistruojama kredito pažyma, arba tikrąją kaupimo registravimo dieną.
 
-Daugiau informacijos rasite [Abonemento parametrai (forma)](/dynamicsax-2012//subscription-parameters-form).
+Daugiau informacijos rasite [Abonemento parametrai (forma)](https://technet.microsoft.com/library/aa619615.aspx).
 
 ## <a name="setup-requirements"></a>Nustatyti reikalavimus
 
@@ -65,7 +67,7 @@ Kad būtų galima kaupti įplaukas abonementams, turi būti pažymėtas žymės 
 
 ## <a name="enable-revenue-accrual-on-a-subscription-group"></a>Įplaukų abonementų grupėje kaupimo įjungimas
 
-Spustelėkite **Aptarnavimo valdymas** \> **Sąranka** \> **Aptarnavimo abonementai** \> **Abonementų grupės**.
+1.  Spustelėkite **Aptarnavimo valdymas** \> **Sąranka** \> **Aptarnavimo abonementai** \> **Abonementų grupės**.
 
 ## <a name="periods"></a>Laikotarpiai
 
@@ -75,8 +77,8 @@ Toliau pateiktoje lentelėje rasite sąrašą kaupimo laikotarpių, kuriuos gali
 
 <table>
 <colgroup>
-<col />
-<col />
+<col style="width: 50%" />
+<col style="width: 50%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -149,6 +151,3 @@ Galite valdyti DK operacijų, sukurtų registruojant sukauptas įplaukas, skaič
   
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

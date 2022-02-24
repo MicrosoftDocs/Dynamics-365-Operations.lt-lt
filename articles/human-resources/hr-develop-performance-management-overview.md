@@ -1,41 +1,40 @@
 ---
 title: Našumo valdymas
-description: Našumo valdymo procesas leidžia darbuotojams dokumentuoti ir aptarti savo našumą su vadovu.
-author: twheeloc
-ms.date: 08/26/2021
-ms.topic: overview
+description: Našumo valdymo procesas leidžia darbuotojams dokumentuoti ir aptarti savo našumą su vadovu. Savo ruožtu vadovai tada gali pateikti darbuotojams atsiliepimų ir nurodymų.
+author: andreabichsel
+manager: AnnBe
+ms.date: 07/28/2020
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
-ms.search.scope: Human Resources
-ms.custom:
-- "221024"
-- intro-internal
+ms.reviewer: anbichse
+ms.search.scope: Core, Operations, Talent
+ms.custom: 221024
 ms.assetid: d88e30ab-c6e9-4daf-b89d-f4386a299e22
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: fa4d90d568697526adeef52443a01c3251696bf4
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
-ms.translationtype: MT
+ms.openlocfilehash: 7e2c7753da69f85307eccd22f6a315e9fd1e4bd6
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984751"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4419730"
 ---
 # <a name="performance-management"></a>Našumo valdymas
 
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
 Našumo valdymo procesas leidžia darbuotojams dokumentuoti ir aptarti savo našumą su vadovu. Savo ruožtu vadovai tada gali pateikti darbuotojams atsiliepimų ir nurodymų.  
 
-Kaip pateiktoje diagramoje parodyta, yra trys puslapiai naudojami valdyti procesą:
+Kaip pateiktoje diagramoje parodyta, yra trys puslapiai, kurie padeda valdyti procesą:
 
 -   Efektyvumo žurnalas
 -   Tikslai
 -   Veiklos rezultatų apžvalga
 
-Pateiktoje diagramoje parodyta, kaip pirminiai našumo valdymo komponentai susiję vienas su kitu. [![Našumo proceso apžvalga.](./media/hcm_performanceoverviewdiagram-300x189.png)](./media/hcm_performanceoverviewdiagram.png)    
+Pateiktoje diagramoje parodyta, kaip pirminiai našumo valdymo komponentai susiję vienas su kitu. [![Našumo proceso apžvalga](./media/hcm_performanceoverviewdiagram-300x189.png)](./media/hcm_performanceoverviewdiagram.png)    
 
 ## <a name="performance-journal"></a>Efektyvumo žurnalas
 
@@ -43,7 +42,7 @@ Kaip darbuotojas prieš užbaigdamas savo apžvalgą dažnai renkate informacij�
 
 Yra dvi našumo žurnalo versijos: darbuotojo versija, kuri pasiekiama naudojant **Darbuotojų savitarnos** darbo sritį (**ESS**), ir vadovo versija, kuri pasiekiama naudojant **Vadovų savitarnos** darbo sritį (**MSS**). Darbuotojai gali sau sukurti žurnalus ir pasirinkti bendrinti juos su savo vadovu. Vadovai gali sukurti žurnalus savo komandai ir pasirinkti bendrinti juos su savo darbuotojais. 
 
-Kai pasiekiama iš **Darbo žurnalas** darbo srities, puslapyje **Našumo žurnalas** galima įrašyti šią informaciją:
+Kai pasiekiama iš **ESS** darbo srities, puslapyje **Našumo žurnalas** galima įrašyti šią informaciją:
 
 -   Veiklos pavadinimą
 -   Veiklos aprašą, kuriame pateikiama išsami informacija apie veiklą
@@ -57,11 +56,11 @@ Be to, galite susieti našumo žurnalą su išorine svetaine išsaugodami tos sv
 
 ### <a name="send-feedback"></a>Siųsti atsiliepimą
 
-Našumo žurnale yra papildoma funkcija **Siųsti atsiliepimą**. Spustelėję **Siųsti atsiliepimą** galite pasirinkti darbuotoją ir pateikti tam darbuotojui atsiliepimą el. paštu. Pranešimas nusiunčiamas atsiliepimą gaunančiam darbuotojui, to darbuotojo vadovui, atsiliepimą siunčiančiam darbuotojui ir to darbuotojo vadovui. Našumo žurnalo įrašas sukuriamas kiekvienam asmeniui, kuris gauna atsiliepimo pranešimą.
+Našumo žurnale yra papildoma funkcija Atsiliepimas. Spustelėję **Siųsti atsiliepimą** galite pasirinkti darbuotoją ir pateikti tam darbuotojui atsiliepimą el. paštu. Pranešimas nusiunčiamas atsiliepimą gaunančiam darbuotojui, to darbuotojo vadovui, atsiliepimą siunčiančiam darbuotojui ir to darbuotojo vadovui. Našumo žurnalo įrašas sukuriamas kiekvienam asmeniui, kuris gauna atsiliepimo pranešimą.
 
 ## <a name="goals"></a>Tikslai
 
-Puslapis **Darbo tikslai** padeda jums sekti tikslus, kuriuos jūs ir jūsų vadovas jums sukūrė. Galite sukurti bet kokį skaičių tikslų ir šie tikslai gali apimti skirtingų laikotarpių ir našumo apžvalgas. Be to, galite kurti paprastus arba sudėtingus tikslus, atsižvelgdami į informaciją, kurią norite įvesti apie tikslą. Tikslai nėra reikalingi našumo apžvalgoms. 
+Puslapis **Našumo tikslai** padeda jums sekti tikslus, kuriuos jūs ir jūsų vadovas jums sukūrė. Galite sukurti bet kokį skaičių tikslų ir šie tikslai gali apimti skirtingų laikotarpių ir našumo apžvalgas. Be to, galite kurti paprastus arba sudėtingus tikslus, atsižvelgdami į informaciją, kurią norite įvesti apie tikslą. Tikslai nėra reikalingi našumo apžvalgoms. 
 
 Pagrindinis tikslas turi apimti tokią informaciją:
 
@@ -76,9 +75,9 @@ Jei turite išsamesnių tikslo instrukcijų, galite sukurti tikslo temų. Šias 
 
 Tikslų rezultatus dažnai galima išmatuoti. Galite įtraukti matavimų norėdami sekti siekiamo tikslo rezultatus ir faktinius rezultatus. Jei matuojamas ambicingas tikslas, galite pažymėti matavimą naudodami parinktį **Ambicingas tikslas**. 
 
-Jūsų našumo žurnale bus veiklos, kuri suteikia vadovui daugiau informacijos, kaip siekiate savo tikslo. Jei našumo žurnalą susiejote su tikslu, jis bus rodomas to tikslo skyriuje **Veiklos rūšys**. Be to, galite įtraukti naują našumo žurnalą iš puslapio **Darbo tikslai**. Tas našumo žurnalas bus automatiškai susietas su tikslu. 
+Jūsų našumo žurnale bus veiklos, kuri suteikia vadovui daugiau informacijos, kaip siekiate savo tikslo. Jei našumo žurnalą susiejote su tikslu, jis bus rodomas to tikslo skyriuje **Veiklos rūšys**. Be to, galite įtraukti naują našumo žurnalą iš puslapio **Našumo tikslai**. Tas našumo žurnalas bus automatiškai susietas su tikslu. 
 
-Jei norite prie tikslo pridėti dokumentą, pvz., baigimo sertifikatą, galite pridėti jį puslapio **Darbo tikslai** skyriuje **Priedai**. Dokumentų peržiūros programa pateikiama taip, kad galėtumėte greitai peržiūrėti bet kurio pridėto dokumento turinį. 
+Jei norite prie tikslo pridėti dokumentą, pvz., baigimo sertifikatą, galite pridėti jį puslapio **Našumo tikslai** skyriuje **Priedai**. Dokumentų peržiūros programa pateikiama taip, kad galėtumėte greitai peržiūrėti bet kurio pridėto dokumento turinį. 
 
 Galite sukurti tikslo šabloną ir naudoti šabloną norėdami kurti naujus tikslus, pagrįstus šablonu. Kuriant tikslo šabloną išsaugomas aprašymas, temos ir tikslo matavimai. Tačiau faktiniai matavimai, atlikimo datos ir temų pastabos yra pašalinami.
 
@@ -86,7 +85,7 @@ Galite sukurti tikslo šabloną ir naudoti šabloną norėdami kurti naujus tiks
 
 Našumo apžvalgos oficialiau vadinamos diskusijomis. Dabar jos pakankamai lanksčios, kad galėtų palaikyti nuolatinį grįžtamąjį ryšį, tobulėjimo planus ir oficialesnes apžvalgas. Galite greitai sukurti mažus susitikimus dviem žmonėms, pvz., individualų susitikimą, arba galite sukurti sudėtingesnę apžvalgą, atitinkančią jūsų įmonės peržiūros procesą. 
 
-Individualus susitikimas yra paprasta apžvalga: reikalingas trumpas pavadinimas, ilgesnis susitikimo turinio aprašymas ir susitikimo data ir peržiūrėti laikotarpį, kuris yra aptariamas. Be to, vadovai matys asmens, kuriam sukurta apžvalga, vardą. 
+Individualus susitikimas yra paprasta apžvalga: reikalingas trumpas pavadinimas, ilgesnis susitikimo turinio aprašymas ir susitikimo data. Paprasta apžvalga apima tą pačią informaciją, taip pat aptariamą apžvalgos laikotarpį. Be to, vadovai matys asmens, kuriam sukurta apžvalga, vardą. 
 
 Norėdami išsamesnių apžvalgų galite įtraukti aktyvius ir įvykdytus tikslus bei įvesti apie juos pastabų. Visa našumo žurnalo veikla ir matavimai, susiję su tikslu, bus pateikti apžvalgoje. Kai apžvalga baigta, išsaugoma matavimų momentinė kopija, kad išliktų tų elementų retrospektyva apžvalgos metu. 
 
@@ -94,10 +93,10 @@ Be to, galite naudoti skyrių **Kompetencijos** norėdami aptarti, peržiūrėti
 
 Galite sukurti naujų apžvalgų, pagrįstų sukurtais šablonais. Pavyzdžiui, galite turėti šabloną individualioms, tobulėjimo planų arba periodinėms apžvalgoms. Kai kuriate naują apžvalgą, galite pasirinkti šabloną.
 
-Norėdami spausdinti atsiliepimus, pasirinkite mygtuką **Spaudinio peržiūra**. Jei puslapyje **Peržiūra** nematote mygtuko, įsitikinkite, kad įgalinote funkciją darbo srityje **Funkcijų valdymas**. Daugiau informacijos apie funkcijų valdymą žr. [Funkcijos valdymo apžvalga](../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Norėdami spausdinti atsiliepimus, pasirinkite mygtuką **Spaudinio peržiūra**. Jei puslapyje **Peržiūra** nematote mygtuko, įsitikinkite, kad įgalinote funkciją darbo srityje **Funkcijų valdymas**. Daugiau informacijos apie funkcijų valdymą žr. [Funkcijos valdymo apžvalga](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview).
 
 > [!NOTE]
-> Galimybė atspausdinti vykdymo peržiūras galima tik žmogiškuosiuose ištekliuose. Jos nėra „Dynamics 365 Finance“.
+> Galimybė atspausdinti vykdymo peržiūras galima ti žmogiškuosiuose ištekliuose. Jos nėra „Dynamics 365 Finance“.
 
 ## <a name="components-you-can-include-in-performance-reviews"></a>Komponentai, kuriuos galite įtraukti į našumo apžvalgas
 
@@ -119,13 +118,13 @@ Galite rodyti našumo žurnalo elementus, susijusius su apžvalga. Be to, galite
 
 Galite pritaikyti vertinimą bet kuriam apžvalgos tikslui ar kompetencijai. Galite apibrėžti kiekvienos apžvalgos vertinimo modelius. Vertinimų numatytieji parametrai pateikti puslapio **Bendrinami personalo parametrai** dalyje **Našumas.**
 
-### <a name="sign-offs"></a>Išsiregistravimai
+### <a name="sign-offs"></a>Išsiregistravimas
 
-Darbuotojas ir (arba) vadovas bus pateikti apžvalgoje remiantis jūsų nustatytais apžvalgos parametrais. Apžvalgos gali būti būtinos arba pasirenkamos. Kai visur išsiregistruojama, apžvalga bus pažymėta kaip **Baigta**.
+Darbuotojas ir (arba) vadovas bus pateikti apžvalgoje remiantis jūsų nustatytais apžvalgos parametrais. Apžvalgos gali būti būtinos arba pasirenkamos. Kai visur išsiregistruojama, apžvalga bus pažymėta kaip Baigta.
 
 ### <a name="attachments"></a>Priedai
 
-Galite pridėti dokumentą į apžvalgą skyriuje **Priedai**, kuris yra puslapyje **Peržiūros**. Dokumentų peržiūros programa pateikiama taip, kad galėtumėte greitai peržiūrėti bet kurio pridėto dokumento turinį.
+Galite pridėti dokumentą į apžvalgą skyriuje **Priedai**, kuris yra puslapyje **Apžvalgos**. Dokumentų peržiūros programa pateikiama taip, kad galėtumėte greitai peržiūrėti bet kurio pridėto dokumento turinį.
 
 ## <a name="workflow-for-performance-management"></a>Našumo valdymo darbo eiga
 
@@ -151,18 +150,16 @@ Darbininko apžvalgos darbo eigoje yra du elementai:
 
 ## <a name="setup"></a>Sąranka
 
-Yra trys puslapiai, kurie padeda nustatyti informaciją, būtiną norint baigti našumo procesą: puslapis **Matavimai**, **Darbo žurnalo paslaugų tipai** ir **Apžvalgos tipai**.
+Yra trys puslapiai, kurie padeda nustatyti informaciją, būtiną norint baigti našumo procesą: puslapis **Matavimai**, **Našumo žurnalo šaltinių tipai** ir **Apžvalgos tipai**.
 
 ### <a name="measurements"></a>Matavimai
 
-Puslapis **Matavimai** leidžia jums sukurti standartinius matavimus, kurie bus naudojami puslapiuose **Darbo tikslai** ir **Apžvalgos** puslapius. Galite sukurti matavimų, kurie yra datos, sumos, kiekiai, procentai ar matavimai, kurie yra pagrįsti vertinimo modeliu.
+Matavimų puslapis leidžia jums sukurti standartinius matavimus, kurie bus naudojami puslapiuose **Našumo tikslai** ir **Apžvalgos**. Galite sukurti matavimų, kurie yra datos, sumos, kiekiai, procentai ar matavimai, kurie yra pagrįsti vertinimo modeliu.
 
 ### <a name="performance-journal-source-types"></a>Našumo žurnalo šaltinių tipai
 
-**Našumo žurnalo šaltinių tipai** aprašo, iš kur gauti našumo žurnalai. Galite matyti, ar žurnalo elementą peržiūrėti pagal numatytuosius nustatymus galės tik vadovas, tik darbuotojas, ar jie abu. Šiuo metu negali išjungti šaltinio tipų.
+Našumo žurnalo šaltinių tipai aprašo, iš kur gauti našumo žurnalai. Galite matyti, ar žurnalo elementą peržiūrėti pagal numatytuosius nustatymus galės tik vadovas, tik darbuotojas, ar jie abu. Šiuo metu negali išjungti šaltinio tipų.
 
 ### <a name="review-types"></a>Peržiūros tipai
 
-**Peržiūros tipai** padeda kontroliuoti apžvalgos veikimą. Galite įjungti arba išjungti apžvalgos darbo eigą. Jei apžvalga nenaudoja darbo eigos, galite nurodyti numatytąją būseną, kuri bus naudojama sukūrus apžvalgą. Be to, galite nuspręsti, ar darbuotojas, ar vadovas, ar jie abu turi išsiregistruoti iš apžvalgos.
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+Našumo apžvalgos tipai padeda kontroliuoti apžvalgos veikimą. Galite įjungti arba išjungti apžvalgos darbo eigą. Jei apžvalga nenaudoja darbo eigos, galite nurodyti numatytąją būseną, kuri bus naudojama sukūrus apžvalgą. Be to, galite nuspręsti, ar darbuotojas, ar vadovas, ar jie abu turi išsiregistruoti iš apžvalgos.

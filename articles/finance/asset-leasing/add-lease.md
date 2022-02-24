@@ -2,25 +2,27 @@
 title: Nuomos įtraukimas arba kopijavimas (peržiūros versija)
 description: Šioje temoje aprašoma, kaip sukurti naują nuomą, įvedant jos informaciją modulyje Turto nuoma arba kopijuojant informaciją iš esamos nuomos.
 author: moaamer
-ms.date: 01/11/2022
+manager: Ann Beebe
+ms.date: 10/28/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: roschlom
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: b09a87c7d4f5ba076647218c3586d17a13e6c558
-ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
-ms.translationtype: MT
+ms.openlocfilehash: abbf04d009a4b347792cd8b317e334da2a4cbbee
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7967931"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969608"
 ---
 # <a name="add-or-copy-leases-preview"></a>Nuomos įtraukimas arba kopijavimas (peržiūros versija)
 
@@ -35,19 +37,6 @@ Atlikite tolesnius veiksmus, norėdami sukurti nuomą modulyje Turto nuoma.
 1. Puslapio **Nuomos suvestinė** veiksmų srityje pasirinkite **Nauja**.
 2. Įveskite nuomos informaciją. Laukų, kuriuos būtina užpildyti, kraštinės yra raudonos.
 
-Nuomos mokėjimo pradžios data negali būti ankstesnė už nuomos pradžios datą. Jei įvesite nuomos mokėjimo pradžios datą, kuri būtų ankstesnė nei nuomos pradžios data, gausite klaidos pranešimą.
-
-Pagal numatytuosius nustatymus parinktis Paskirstymo mokėjimo suma, esanti puslapio Nuomos informacija bendrajame FastTab, nustatyta kaip Ne, jei turto parametrų puslapyje leisti mokėjimo paskirstymą **nustatyta** **kaip** **·** **·** **·** **·** **Taip**. 
-
-Jei **parinktis Paskirstymo** mokėjimo suma nustatyta kaip **Taip**, mokėjimo grafiko eilučių FastTab laukas Mokėjimo suma **yra** **užrakintas**. Jis bus nustatytas kaip bendroji mokėjimo sumų suma, kuri vėliau įvedama mokėjimo **sumos paskirstymo** kataloge.
-
-Pasirinkite **mokėjimo sumos** paskirstymą, kad atidarytumėte puslapį, kuriame galite įtraukti elemento mokėjimo tipus. Mygtukas **Įtraukti sumas į mokėjimo sumą** perkels sumas į **lauką Mokėjimo** suma.
-
-> [!NOTE]
-> Jei pridedate prekę mokėjimo sumą ir tada pasirenkate klavišą Esc, įvestos sumos nebus pridėtos prie mokėjimo sumos lauko mokėjimo **grafiko** **·** **eilutėse** "FastTab". Todėl jie bus saugomi mokėjimo **sumos paskirstymo** dialogo lange. Jei norite, kad dialogo lange būtų rodoma bendroji suma, pasirinkite stulpelį Suma, pasirinkite ir sulaikykite (arba spustelėkite dešiniuoju pelės mygtuku), tada pasirinkite Bendroji **šio** **stulpelio** suma. 
-
-Mygtukas **Kopijuoti eilutę** kopijuos visų elementų mokėjimo paskirstymą.
-
 ## <a name="create-a-lease-schedule"></a>Nuomos grafiko kūrimas
 
 Baigę įvesti nuomos informaciją, atlikite šiuos veiksmus, kad sukurtumėte nuomos grafiką.
@@ -61,9 +50,6 @@ Baigę įvesti nuomos informaciją, atlikite šiuos veiksmus, kad sukurtumėte n
     Puslapyje **Knygų informacija** rodoma, kaip nuoma apskaitoma knygose, kurios jai priskirtos. Čia galite peržiūrėti nuomos grafikus.
 
     Į mokėjimo grafiką įtraukiami įvesti duomenys iš puslapio **Nuomos įtraukimas** skirtuko **Mokėjimo grafiko eilutės**. Vis tiek galite pakeisti kiekvieną mokėjimo sumą ir kintamąjį mokėjimą. Nuomos įsipareigojimas apskaičiuojamas pagal pakeistą mokėjimo grafiką.
-
-    > [!NOTE]
-    > Nuomos mokėjimo pradžios data turi būti tokia pati arba vėlesnė už nuomos pradžios datą. Jei mokėjimo pradžios data yra ankstesnė nei nuomos pradžios data, gausite klaidos pranešimą. 
 
 4. Peržiūrėję mokėjimo grafiką, pasirinkite **Patvirtinti grafiką**. Patvirtinus grafiką, nuomos nebegalima redaguoti.
 
@@ -102,6 +88,3 @@ Visi žurnalo įrašai, sukurti modulyje Turto nuoma, pateikiami Turto nuomos ž
 
 > [!NOTE]
 > Turto nuomos žurnalo negalima sukurti neautomatiniu būdu. Jis sukuriamas automatiškai, kai kuriami nuomos grafikai.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

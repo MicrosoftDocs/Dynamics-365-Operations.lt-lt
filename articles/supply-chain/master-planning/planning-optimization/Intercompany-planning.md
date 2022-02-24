@@ -2,13 +2,16 @@
 title: Vidinės įmonės planavimas
 description: Šiame skyriuje paaiškintas vidinės įmonės planavimas ir tai, kaip konfigūruoti jos planavimą su „Planning Optimization“ „Microsoft Dynamics 365 Supply Chain Management“.
 author: ChristianRytt
+manager: tfehr
 ms.date: 12/02/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -16,18 +19,18 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 2bf69a5d0d6e070374277e2d82d5fbf6eb4b8704895ffe31aa7e2d2d3546bb16
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 25c80ce27498131c6eb92174ab14a592bfa9915a
+ms.sourcegitcommit: fe21a3a98dcf6fe4eb9351941493f2c0443d8696
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6777916"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "4672198"
 ---
 # <a name="intercompany-planning"></a>Vidinės įmonės planavimas
 
 [!include [banner](../../includes/banner.md)]
 
-Kai kurios organizacijose, logistinės operacijos priklauso nuo kitų juridinių asmenų (įmonių) organizacijos viduje. Šie veiksmai tvarkomi naudojant vidinės įmonės pardavimus ir pirkimus, nes kiekvienas juridinis subjektas yra atskiras sąskaitų planas.
+Kai kurios organizacijose, logistinės operacijos priklauso nuo kitų juridinių asmenų (įmonių) organizacijos viduje. Šie veiksmai tvarkomi naudojant vidinės įmonės pardavimus ir pirkimus, nes kiekvienas juridnis asmuo yra atskiras sąskaitų grafikas.
 
 Šiame skyriuje paaiškintas vidinės įmonės planavimas ir tai, kaip konfigūruoti jos planavimą su „Planning Optimization“ „Microsoft Dynamics 365 Supply Chain Management“.
 
@@ -45,8 +48,8 @@ Jei vykdote pagrindinį planavimą iš pagrindinio plano, kuris apima suplanuot�
 
 Siekiant naudoti vidinės įmonės planavimą, turite parengti savo sistemą tokiu būdu:
 
-1. Atitinkami produktai turi būti išleisti visose atitinkamose įmonėse. Daugiau informacijos rasite [Konfigūruoti ir naudoti vidinės įmonės prekybą „Dynamics 365 Supply Chain Management“](/learn/modules/configure-use-intercompany-trade-dyn365-supply-chain-mgmt/) „Microsoft Learn” platformoje.
-1. Pagal srovę paklausa turi būti padengta pirkimo formos tiekėjo, kuris turi vidinės įmonės sąsają su pagal srovės įmonę ir atitinkamą numatytojo inventoriaus matmenis (vietą ir sandėlį) klientui. Daugiau informacijos rasite [Konfigūruoti ir naudoti vidinės įmonės prekybą „Dynamics 365 Supply Chain Management“](/learn/modules/configure-use-intercompany-trade-dyn365-supply-chain-mgmt/) „Microsoft Learn” platformoje.
+1. Atitinkami produktai turi būti išleisti visose atitinkamose įmonėse. Dėl daugiau informacijos, žr [Konfigūruoti ir naudoti vidinės įmonės prekybą „Dynamics 365 Supply Chain Management“ ](https://docs.microsoft.com/learn/modules/configure-use-intercompany-trade-dyn365-supply-chain-mgmt/) on Microsoft Learn.
+1. Pagal srovę paklausa turi būti padengta pirkimo formos tiekėjo, kuris turi vidinės įmonės sąsają su pagal srovės įmonę ir atitinkamą numatytojo inventoriaus matmenis (vietą ir sandėlį) klientui. Dėl daugiau informacijos, žr [Konfigūruoti ir naudoti vidinės įmonės prekybą „Dynamics 365 Supply Chain Management“ ](https://docs.microsoft.com/learn/modules/configure-use-intercompany-trade-dyn365-supply-chain-mgmt/) on Microsoft Learn.
 1. Pagrindinis planavimas prieš srovės įmonės turi apimti suplanuotą palei srovės paklausą ir atitinkamą įmonę bei pagrindinis planavimas turi būti nurodytas palei srovės planuose.
 
 ## <a name="include-planned-downstream-demand"></a>Įtraukti proceso pabaigoje suplanuotą poreikį
@@ -76,7 +79,7 @@ Norėdami peržiūrėti kelių lygių fiksavimo informaciją, atlikite šiuos ž
 
 Tolesnis paveikslėlis rodo, kaip šis pavyzdys gali būti rodomas **Kelių lygių fiksavimo** puslapyje suplanuotos gamybos užsakymui.
 
-![Vidinės įmonės pavyzdys apimantis dvi įmones.](media/IntercompanyPlanning1.png)
+![Vidinės įmonės pavyzdys apimantis dvi įmones](media/IntercompanyPlanning1.png)
 
 ### <a name="intercompany-example-that-involves-three-companies"></a>Vidinės įmonės pavyzdys apimantis tris įmones
 
@@ -84,7 +87,4 @@ Tolesnis paveikslėlis rodo, kaip šis pavyzdys gali būti rodomas **Kelių lygi
 
 Tolesnis paveikslėlis rodo, kaip šis pavyzdys gali būti rodomas **Kelių lygių fiksavimo** puslapyje suplanuotos gamybos užsakymui.
 
-![Vidinės įmonės pavyzdys apimantis tris įmones.](media/IntercompanyPlanning2.png)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+![Vidinės įmonės pavyzdys apimantis tris įmones](media/IntercompanyPlanning2.png)

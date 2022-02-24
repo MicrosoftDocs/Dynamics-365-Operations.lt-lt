@@ -1,10 +1,12 @@
 ---
 title: Ataskaitos komponentų tvarkymas ataskaitų dizaino įrankyje
-description: Šioje temoje paaiškinama, kaip ataskaitų dizaino įrankyje tvarkyti esamas ataskaitas, kūrimo blokus ir objektus.
+description: Sukūrus kūrimo blokus ir sugeneravus ataskaitas, patartina šiuos objektus sutvarkyti, kad vartotojai galėtų juos lengviau rasti. Šiame straipsnyje paaiškinama, kaip ataskaitų dizaino įrankyje tvarkyti esamas ataskaitas, kūrimo blokus ir objektus.
 author: ShylaThompson
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 6b30e7e480edb50bb9509e270806224755f98e38111cda0c1cae86a0f56eb193
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 58525da35eb9e9376cb5793ad6c6fa45b9de42e6
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6763529"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4685816"
 ---
 # <a name="organize-report-components-in-report-designer"></a>Ataskaitos komponentų tvarkymas ataskaitų dizaino įrankyje
 
@@ -47,7 +49,7 @@ Galite grupuoti ataskaitų aprašus, kad sukurtumėte kelias ataskaitas tuo pač
 ### <a name="create-a-report-group"></a>Ataskaitų grupės kūrimas
 
 1. Ataskaitų dizaino įrankio naršymo srityje spustelėkite **Ataskaitų grupės**.
-2. Meniu **Failas** spustelėkite **Naujas** &gt; **Ataskaitų grupės aprašas**, kad atidarytumėte naują ataskaitų grupę peržiūros programos lange. Taip pat įrankių juostoje galite spustelėti **Ataskaitų grupės** mygtuką ![Ataskaitų grupė.](media/report-group.gif "Ataskaitų grupė") įrankių juostoje.
+2. Meniu **Failas** spustelėkite **Naujas** &gt; **Ataskaitų grupės aprašas**, kad atidarytumėte naują ataskaitų grupę peržiūros programos lange. Taip pat įrankių juostoje galite spustelėti mygtuką **Ataskaitų grupė** ![Ataskaitų grupė](media/report-group.gif "Ataskaitų grupė").
 3. Spustelėkite skirtuką **Ataskaitų grupė**. Norėdami perrašyti atskirų ataskaitų aprašų informaciją, kad galėtumėte generuoti šią ataskaitą, pažymėkite žymės langelį **Perrašyti atskirų ataskaitų aprašų įmonės, išsamios informacijos ir datos parametrus**. Įmonės pavadinimo, išsamumo lygio, laikinojo parametro ir datos informacija įvedama automatiškai, bet jūs galite ją naujinti.
 4. Pažymėkite žymės langelį **Įtraukti visas ataskaitų valiutas**, jei norite sugeneruoti kelias ataskaitas, kuriose rodomos tos ataskaitų valiutos. Tada, peržiūrint ataskaitą, žiniatinklio peržiūros programoje spustelėjus mygtuką **Valiuta** bus rodomi keli rodiniai.
 5. Lauke **Grupės ataskaitos** spustelėkite **Įtraukti** ir pasirinkite ataskaitas, kurias norite įtraukti į ataskaitų grupę. Norėdami dialogo lange **Įtraukti** pasirinkti kelias ataskaitas, pažymėkite ataskaitas laikydami nuspaudę klavišą CTRL. Pasirinkę ataskaitas, spustelėkite **Gerai**.
@@ -58,7 +60,7 @@ Galite grupuoti ataskaitų aprašus, kad sukurtumėte kelias ataskaitas tuo pač
 1. Ataskaitų dizaino įrankio naršymo srityje spustelėkite **Ataskaitų grupės**.
 2. Dukart spustelėkite ataskaitų grupę, kurią norite modifikuoti.
 3. Skirtuke **Ataskaitų grupė** atlikite norimus keitimus.
-4. Meniu **Failas** spustelėkite **Įrašyti**, kad įrašytumėte modifikuotą ataskaitų grupę, taip pat galite spustelėti **Įrašyti** mygtuką ![Įrašyti.](media/save.gif "Įrašyti"). įrankių juostoje.
+4. Meniu **Failas** spustelėkite **Įrašyti**, kad įrašytumėte modifikuotą ataskaitų grupę. Taip pat įrankių juostoje galite spustelėti mygtuką **Įrašyti** ![Įrašyti](media/save.gif "Įrašyti").
 
 > [PASTABA] Jei suplanavote ataskaitas generuoti tam tikrais intervalais, galite nepaisyti šių parametrų ir generuoti ataskaitą iš karto.
 
@@ -66,7 +68,7 @@ Galite grupuoti ataskaitų aprašus, kad sukurtumėte kelias ataskaitas tuo pač
 
 1. Ataskaitų dizaino įrankio naršymo srityje spustelėkite **Ataskaitų grupės**.
 2. Atidarykite ataskaitų grupę, kurią norite generuoti.
-3. Spustelėkite **Generuoti ataskaitą** mygtuką ![Generuoti ataskaitą.](media/generate-report.gif "Generuoti ataskaitą") ataskaitų generavimui.
+3. Norėdami generuoti ataskaitas, spustelėkite mygtuką **Generuoti ataskaitą** ![Generuoti ataskaitą](media/generate-report.gif "Generuoti ataskaitą").
 
 ### <a name="delete-a-report-group"></a>Ataskaitų grupės panaikinimas
 
@@ -97,7 +99,7 @@ Toliau pateikiamoje lentelėje aprašomi skirtuko **Ataskaitų grupė** valdikli
 <td>Detalumo lygis</td>
 <td>Nurodykite ataskaitų informacijos išsamumo lygį.
 <ul>
-<li><strong>Finansai</strong>− aukšto lygio suvestinė ataskaita. Negalima&#39; detalizuoti iki sąskaitų ir dimensijų, išskyrus tas sąskaitas ir dimensijas, kurios įtrauktos naudojant ataskaitų medį.</li>
+<li><strong>Finansai</strong>− aukšto lygio suvestinė ataskaita. Negalima detalizuoti iki sąskaitų ir dimensijų, išskyrus tas sąskaitas ir dimensijas, kurios įtrauktos naudojant ataskaitų medį.</li>
 <li><strong>Finansinė &amp; sąskaitos</strong> − ataskaita, kurioje yra aukšto lygio suvestinė ir išsami sąskaitos informacija.</li>
 <li><strong>Finansinė, sąskaitos &amp; operacijų</strong> − ataskaita, kurioje yra aukšto lygio suvestinė ir išsami operacijų informacija.</li>
 </ul></td>
@@ -146,6 +148,3 @@ Su ataskaitos aprašu įrašomi tik numatytieji pagrindinio laikotarpio parametr
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Finansinės ataskaitos](financial-reporting-intro.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

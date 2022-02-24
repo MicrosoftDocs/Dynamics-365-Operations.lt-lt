@@ -2,24 +2,27 @@
 title: Tęstinumo programos naudojimas
 description: Šioje procedūroje parodoma, kaip parduoti tęstinumo programą ir apdoroti susijusius pardavimo užsakymus.
 author: scott-tucker
+manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: MCRCustomerService, MCRCustSearch, SalesTable, MCRContinuityCustInfo, MCRCustPaymLookup, CreditCardTokenization, CreditCardLookup, MCRSalesOrderRecap
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2b8e3903aac99d32bbf4d065e6db1c3f3aab998c04d052d08338eb3f54ccc96f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2baf0127a35cc62952fd78daaf8204d35ec8d2b3
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6761543"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4414376"
 ---
 # <a name="using-continuity-program"></a>Tęstinumo programos naudojimas
 
@@ -59,6 +62,3 @@ ms.locfileid: "6761543"
     * Įveskite pardavimo užsakymo numerį, kurį įsidėmėjote šios procedūros metu anksčiau. Tokiu būdu šios procedūros metu apdorojimo laikas bus kiek įmanoma trumpesnis. Laukas Pardavimo užsakymo nėra būtinas – galite apdoroti visus bet kurios vienos programos užsakymus.  
 21. Spustelėkite GERAI.
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

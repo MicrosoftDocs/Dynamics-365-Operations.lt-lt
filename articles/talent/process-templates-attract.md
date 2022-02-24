@@ -71,6 +71,3 @@ Norėdami sukurti samdos proceso šabloną, atlikite toliau nurodytus veiksmus.
     - Norėdami veiklą pašalinti, ją išplėskite, tada veiklos antraštėje pasirinkite šiukšliadėžės mygtuką.
 
 8. Pasirinkite **Įrašyti**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,10 +1,12 @@
 ---
 title: Sandėlio nustatymas naudojant sandėlio konfigūracijos šabloną
 description: Šioje temoje paaiškinama, kaip nustatyti sandėlį naudojant sandėlio konfigūracijos šabloną.
-author: yufeihuang
+author: perlynne
+manager: tfehr
 ms.date: 11/16/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DataManagementWorkspace, DMFQuickImportExportEnhanced, DMFDefinitionGroupTemplate, DMFEntityTemplateDefinitionLoadDialog
 audience: Application User
@@ -13,21 +15,21 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: yufeihuang
+ms.author: perlynne
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 6698d615826a1555426824bb76db654fde539360
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: d533eed984c188c5b6520232f2b875bddd1f57bf
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7571094"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4967135"
 ---
 # <a name="set-up-a-warehouse-by-using-a-warehouse-configuration-template"></a>Sandėlio nustatymas naudojant sandėlio konfigūracijos šabloną
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje paaiškinama, kaip nustatyti sandėlį naudojant sandėlio konfigūracijos šabloną. Galima naudoti kelis iš anksto nustatytus konfigūracijos šablonus. Informacijos apie tai, kaip naudoti šiuos šablonus, žr. [Konfigūracijos duomenų šablonai](../../fin-ops-core/dev-itpro/data-entities/configuration-data-templates.md).
+Šioje temoje paaiškinama, kaip nustatyti sandėlį naudojant sandėlio konfigūracijos šabloną. Galima naudoti kelis iš anksto nustatytus konfigūracijos šablonus. Informacijos apie tai, kaip naudoti šiuos šablonus, žr. [Konfigūracijos duomenų šablonai](../../dev-itpro/data-entities/configuration-data-templates.md).
 
 ## <a name="scenarios-where-configuration-templates-can-be-helpful"></a>Atvejai, kada konfigūracijos šablonai gali būti naudingi
 
@@ -88,13 +90,10 @@ Galite atsisiųsti duomenų paketo ZIP failą. Šiame faile visi duomenys pateik
 4. Pasirinkite **+ Įtraukti failą** ir nusiųsti duomenų paketo ZIP failą.
 5. Pasirinkite **Importuoti**. Rodinyje **Patobulintas** galite naudoti parinktį **Filtras**, norėdami greitai peržiūrėti problemas, kurios gali kilti importuojant.
 
-Žurnale **Vykdymo peržiūra** pateikiama išsami informacija apie kiekvieną duomenų objektą, kuris yra importuotas. Galite naudoti išdėstymo duomenų rodinį, norėdami greitai pasiekti paskirties duomenis. Tokiu būdu galite peržiūrėti, kaip importuoti duomenys rodomi susijusiuose programos puslapiuose. Naudojant numatytuosius duomenų šablonus, kiekvieno duomenų objekto importavimo seka vykdoma iš anksto nustatytu būdu, siekiant užtikrinti, kad pirmiausia importuojami visi priklausomi duomenys. Jei pasirinktiniai duomenų objektai yra projekto dalis, turite įsitikinti, kad apibrėžta teisinga seka. Daugiau informacijos žr. [ Konfigūracijos duomenų šablonai](../../fin-ops-core/dev-itpro/data-entities/configuration-data-templates.md).
+Žurnale **Vykdymo peržiūra** pateikiama išsami informacija apie kiekvieną duomenų objektą, kuris yra importuotas. Galite naudoti išdėstymo duomenų rodinį, norėdami greitai pasiekti paskirties duomenis. Tokiu būdu galite peržiūrėti, kaip importuoti duomenys rodomi susijusiuose programos puslapiuose. Naudojant numatytuosius duomenų šablonus, kiekvieno duomenų objekto importavimo seka vykdoma iš anksto nustatytu būdu, siekiant užtikrinti, kad pirmiausia importuojami visi priklausomi duomenys. Jei pasirinktiniai duomenų objektai yra projekto dalis, turite įsitikinti, kad apibrėžta teisinga seka. Daugiau informacijos žr. [ Konfigūracijos duomenų šablonai](../../dev-itpro/data-entities/configuration-data-templates.md).
 
 Norėdami daugiau sužinoti apie tai, kaip naudojant sandėlio šabloną nukopijuoti sandėlio konfigūraciją iš vienos įmonės į naują įmonę tame pačiame egzemplioriuje, žr. šį 3 minučių „YouTube“ vaizdo įrašą apie tai, [kaip naudojant sandėlio šabloną nukopijuoti konfigūraciją programoje „Finance and Operations“](https://www.youtube.com/watch?v=K2WIfFlqJYs).
 
 ## <a name="related-topic"></a>Susijusi tema
 
-[Konfigūracijos duomenų šablonai](../../fin-ops-core/dev-itpro/data-entities/configuration-data-templates.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+[Konfigūracijos duomenų šablonai](../../dev-itpro/data-entities/configuration-data-templates.md)

@@ -142,6 +142,3 @@ Organizacijos darbuotojams gali pasiūlyti įvairių tipų atostogų. Tačiau da
 ### <a name="view-performance-information-for-direct-and-extended-reports-in-manager-self-service"></a>Peržiūrėkite informaciją apie vadovų savitarnos tiesioginių ir išplėstinių ataskaitų efektyvumą
 
 Nauja parinktis leis vadovams peržiūrėti savo tiesioginių ataskaitų ir išplėstinių ataskaitų efektyvumą. Dabar tiesioginiai vadovai gali priskirti ir atnaujinti veiklos efektyvumo tikslus bei atlikti naujus vertinimus. Be to, tiesioginiai vadovai ir jų darbuotojai gali prižiūrėti ir atnaujinti našumo žurnalus, kad užtikrintų sklandų veiklos efektyvumo vertinimo procesą. Įdiegus šį pakeitimą vadovai be savo tiesioginių ataskaitų galės peržiūrėti ir tvarkyti su efektyvumu susijusią išplėstinių ataskaitų informaciją.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,24 +2,27 @@
 title: Antraštės modulis
 description: Šioje temoje aprašomi antraštės moduliai ir tai, kaip juos kurti puslapio antraštėse „Microsoft Dynamics 365 Commerce“.
 author: anupamar-ms
-ms.date: 07/08/2021
+manager: annbe
+ms.date: 10/20/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: afdc12230ebad3d5db59c384b2f1066d2c7929339f282ed4880ff967b1fd2d8b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 52069af5ca2211473d4a096ad850b5be1290bba1
+ms.sourcegitcommit: eee3523be26369aecdb36c0143a6ee3dab4b7966
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6712795"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "4414482"
 ---
 # <a name="header-module"></a>Antraštės modulis
 
@@ -27,13 +30,15 @@ ms.locfileid: "6712795"
 
 Šioje temoje aprašomi antraštės moduliai ir tai, kaip juos kurti puslapio antraštėse „Microsoft Dynamics 365 Commerce“.
 
+## <a name="overview"></a>Peržiūra
+
 „Dynamics 365 Commerce” puslapio antraštė sukonfigūruota kaip puslapio fragmentas, į kurį įtraukta antraštė, reklaminė juosta ir sutikimo naudoti slapukus moduliai. 
 
 Antraštės modulyje yra svetainės logotipas, saitai į naršymo hierarchiją, saitai į kitus svetainės puslapius, krepšelio piktogramos modulis, pageidavimų sąrašo simbolis, prisijungimo parinktys ir ieškos juosta. Antraštės modulis automatiškai optimizuojamas įrenginiui, kuriame peržiūrima svetainė (kitais žodžiais, stacionariam įrenginiui arba mobiliajam įrenginiui). Pavyzdžiui, mobiliajame įrenginyje naršymo juosta sutraukiama į mygtuką **Meniu** (kuris kartais vadinamas *mėsainio stiliaus meniu*).
 
 Toliau pateiktame paveikslėlyje parodytas pagrindiniame puslapyje esančio antraštės modulio pavyzdys.
 
-![Antraštės modulio pavyzdys.](./media/ecommerce-header.png)
+![Antraštės modulio pavyzdys](./media/ecommerce-header.png)
 
 ## <a name="properties-of-a-header-module"></a>Antraštės modulio ypatybės
 
@@ -58,16 +63,9 @@ Antraštės modulyje galima naudoti tolesnius modulius.
 - **Parduotuvės išrinkiklis** – parduotuvės išrinkiklio modulį galima įtraukti į antraštės modulio parduotuvės išrinkiklio vietą. Jis leidžia vartotojams naršyti ir rasti netoliese esančias parduotuves. Vartotojai taip pat gali nurodyti pageidaujamą parduotuvę. Ši parduotuvė bus rodoma antraštėje. Kai parduotuvės išrinkiklio modulis įtraukiamas į antraštės modulį, jo ypatybė **Režimas** turi būti nustatyta į **Rasti parduotuves**. Daugiau informacijos žr. [Parduotuvės išrinkiklio modulis](store-selector.md).
 
 > [!NOTE]
-> - Krepšelio piktogramos modulio naudojimo antraštės moduliuose palaikymas pasiekiamas kaip 10.0.11 „Dynamics 365 Commerce” versijos leidimas.
-> - Svetainės parinkiklio modulio naudojimo antraštės moduliuose palaikymas pasiekiamas kaip 10.0.14 „Dynamics 365 Commerce” versijos leidimas.
-> - Parduotuvės parinkiklio modulio naudojimo antraštės moduliuose palaikymas pasiekiamas kaip 10.0.15 „Dynamics 365 Commerce” versijos leidimas.
-
-## <a name="header-module-in-the-adventure-works-theme"></a>Antraštės modulis „Adventure Works” temoje
-
-„Adventure Works” temoje antraštės modulis palaiko **Mobiliojo logotipo** ypatybę. Ši ypatybė leidžia nurodyti mobiliųjų rodinio prievadų logotipą. **Mobiliojo logotipo** ypatybę galima naudoti kaip modulio apibrėžimo plėtinį.
-
-> [!IMPORTANT]
-> „Adventure Works” temą galima naudoti kaip 10.0.20 „Dynamics 365 Commerce” versijos leidimą.
+> - Krepšelio piktogramos modulio naudojimo antraštės moduliuose palaikymas pasiekiamas „Dynamics 365 Commerce” 10.0.11 leidime.
+> - Svetainės išrinkiklio modulio naudojimo antraštės moduliuose palaikymas pasiekiamas „Dynamics 365 Commerce” 10.0.14 leidime.
+> - Parduotuvės išrinkiklio modulio naudojimo antraštės moduliuose palaikymas pasiekiamas „Dynamics 365 Commerce” 10.0.15 leidime.
 
 ## <a name="create-a-header-fragment-for-a-page"></a>Puslapio antraštės fragmento kūrimas
 
@@ -85,7 +83,7 @@ Norėdami sukurti antraštės fragmentą, atlikite toliau nurodytus veiksmus.
 1. Dialogo lange **Įtraukti modulį** pasirinkite modulį **Naršymo meniu** ir **Gerai**.
 1. Naršymo meniu modulio ypatybių srityje, dalyje **Naršymo meniu šaltinis**, pasirinkite **„Retail Server“**.
 1. Naršymo meniu modulio ypatybių srityje, dalyje **Statiniai meniu elementai**, pasirinkite **Įtraukti meniu elementą**, tada pasirinkite **Meniu elementas**. 
-1. Dialogo lango **Meniu elementas** dalyje **Meniu elemento tekstas** įveskite „Kontaktas.”
+1. Dialogo lango **Meniu elementas** dalyje **Meniu elemento tekstas** įveskite „Kontaktas”.
 1. Dialogo lango **Meniu elementas** dalyje **Meniu elemento saito paskirtis** pasirinkite **Įtraukti saitą**.
 1. Dialogo lange **Saito įtraukimas** pasirinkite svetainės puslapio „Kontaktas” URL, o tada – **Gerai**.  
 1. Dialogo lange **Meniu elementas** pasirinkite **Gerai**.
@@ -121,6 +119,3 @@ Norėdami padėti užtikrinti, kad antraštė būtų rodoma kiekviename puslapyj
 [Svetainės išrinkiklio modulis](site-selector.md)
 
 [Parduotuvės išrinkiklio modulis](store-selector.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

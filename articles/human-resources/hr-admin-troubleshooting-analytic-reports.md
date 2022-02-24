@@ -1,32 +1,30 @@
 ---
 title: Analizės ataskaitų trikčių diagnostika
-description: Šioje temoje paaiškinama, kaip šalinti triktis ir diagnozuoti problemas, jei kliento duomenų keitimai nerodomi jokioje darbo srityje.
-author: twheeloc
-ms.date: 08/19/2021
+description: Šiame straipsnyje paaiškinama, ką daryti, jei kliento duomenų keitimai nerodomi jokioje darbo srityje.
+author: andreabichsel
+manager: AnnBe
+ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 6ea04c06858cc98b0e233b9133d9dfbebfe59fd6
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
-ms.translationtype: MT
+ms.openlocfilehash: 99d9eb3a16e6470820a2eb0a19c1d50e89bd3d36
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8067734"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4419751"
 ---
 # <a name="troubleshoot-analytic-reports"></a>Analizės ataskaitų trikčių diagnostika
-
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 **Išduoti**
 
@@ -44,7 +42,4 @@ Pagal numatytuosius nustatymus „Microsoft Power BI“ ataskaitos atnaujinamos 
 1. Sąraše raskite užduotį **Matavimo vieneto visuotinis diegimas**.
 1. Puslapio viršuje pasirinkite **Redaguoti** ir nustatykite suplanuotos paleidimo datos arba laiko vertę, pagal kurią analizė bus atnaujinta arčiau dabartinio laiko.
 
-![Paketinės užduotys.](media/batch-jobs.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+![Paketinės užduotys](media/batch-jobs.png)

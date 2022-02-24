@@ -1,27 +1,30 @@
 ---
-title: Skirstyti produktus iš paskirstymo centro į parduotuvę naudojant skirstymą pirkėjams
+title: " Skirstyti produktus iš paskirstymo centro į parduotuvę naudojant skirstymą pirkėjams"
 description: Ši procedūra padeda atlikti žingsnius, norint kurti ir vykdyti skirstymą pirkėjams, skirtą produktams iš vienos vietos į vieną ar kelias parduotuves paskirstyti.
-author: BrianShook
+author: rubencdelgado
+manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: RetailBuyersPush, InventLocationIdLookup, InventItemIdLookupSimple, RetailReplenishmentTreeLookup
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Retail
-ms.author: brshoo
+ms.author: rubendel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 30d82e4b282bac2ea888971ad5c6298adfa8332b
-ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
-ms.translationtype: MT
+ms.openlocfilehash: dad74855ab9a9c225a5cd64a8c27663aedcd21e4
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7779625"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4414381"
 ---
-# <a name="push-products-from-distribution-center-to-store-using-buyers-push"></a>Skirstyti produktus iš paskirstymo centro į parduotuvę naudojant skirstymą pirkėjams
+# <a name="push-products-from-distribution-center-to-store-using-buyers-push"></a> Skirstyti produktus iš paskirstymo centro į parduotuvę naudojant skirstymą pirkėjams
 
 [!include [banner](../includes/banner.md)]
 
@@ -50,6 +53,3 @@ ms.locfileid: "7779625"
 19. Spustelėkite Kurti užsakymą.
 20. Spustelėkite Taip.
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

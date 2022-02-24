@@ -2,30 +2,33 @@
 title: Prekiaujančių subjektų rūšiavimo tvarkos keitimas
 description: Šioje temoje paaiškinama koncepcija, kuri yra susijusi su įvairių su prekyba susijusių subjektų rodymo tvarkos valdymu Dynamics 365 Commerce.
 author: josaw1
+manager: AnnBe
 ms.date: 08/05/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: Category, Retail product hierarchy, Navigation hierarchy
 audience: Application User, Merchandising manager, Catalog manager
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: 268444
 ms.search.region: global
 ms.search.industry: Retail
-ms.author: brshoo
+ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 444f1ebd99cf8443181a51d93a48b6b4d1addf4d
-ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
-ms.translationtype: MT
+ms.openlocfilehash: b983cb5c63db171c76d34375a93a2b9086185d3a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7779547"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4414354"
 ---
 # <a name="change-the-sort-order-for-merchandising-entities"></a>Prekiaujančių subjektų rūšiavimo tvarkos keitimas
 
 
-[!Include [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Pardavėjai produktų atradimą laiko pirminiu įrankiu, skirtu bendrauti su klientais visuose kanaluose. Įvairios funkcijos gali padėti klientams lengviau atrasti produktus. Pavyzdžiui, jie gali naršyti po kategorijas, ieškoti ir filtruoti.
 
@@ -51,9 +54,9 @@ Prieš baigdami šią procedūrą, savo aplinkoje turi įdiegti demonstracinius 
 
 Kanalo naršymo hierarchijos rodymo tvarka atsispindės prekybos produktų hierarchijos HQ ir pagal kategoriją išleistuose produktuose.
 
-![Produktų hierarchijos pasirinktinis rūšiavimas su neigiamomis reikšmėmis.](./media/RetailProductHierarchyCustomSortedWithNegativeValues.png)
+![Produktų hierarchijos pasirinktinis rūšiavimas su neigiamomis reikšmėmis](./media/RetailProductHierarchyCustomSortedWithNegativeValues.png)
 
-![Pagal kategoriją išleistų produktų pasirinktinis rūšiavimas pagal produktų hierarchiją.](./media/ReleasedProductsByCategoryCustomSortedBasedOnRetailProductHierarchy.png)
+![Pagal kategoriją išleistų produktų pasirinktinis rūšiavimas pagal produktų hierarchiją](./media/ReleasedProductsByCategoryCustomSortedBasedOnRetailProductHierarchy.png)
 
 ## <a name="configure-the-display-order-for-categories-in-the-channel-navigation-hierarchy"></a>Kategorijų kanalo naršymo hierarchijoje rodymo tvarkos konfigūravimas
 
@@ -77,14 +80,11 @@ Prieš baigdami šią procedūrą, savo aplinkoje turi įdiegti demonstracinius 
 
 Kanalo naršymo hierarchijos rodymo tvarka atsispindi HQ, kataloge ir kanaluose.
 
-![Kanalo naršymo hierarchijos pasirinktinis rūšiavimas.](./media/ChannelNavCustomSorted.png)
+![Kanalo naršymo hierarchijos pasirinktinis rūšiavimas](./media/ChannelNavCustomSorted.png)
 
-![Katalogo naršymo hierarchijos pasirinktis rūšiavimas pagal kanalo naršymo hierarchiją.](./media/CatalogNavHierarchyCustomSortedBasedOnChannelNav.png)
+![Katalogo naršymo hierarchijos pasirinktis rūšiavimas pagal kanalo naršymo hierarchiją](./media/CatalogNavHierarchyCustomSortedBasedOnChannelNav.png)
 
-![POS su pasirinktai surūšiuotomis kategorijomis.](./media/POSChannelCategoriesCustomSorted.png)
+![POS su pasirinktai surūšiuotomis kategorijomis](./media/POSChannelCategoriesCustomSorted.png)
 
 > [!NOTE]
-> Pagal numatytuosius parametrus, pasirinktinio rūšiavimo tvarka yra išjungta. Kaip įjungti šią funkciją ir kitas funkcijas, žr. [Funkcijų valdymas](/dynamics365/unified-operations/fin-and-ops/get-started/feature-management/feature-management-overview).
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+> Pagal numatytuosius parametrus, pasirinktinio rūšiavimo tvarka yra išjungta. Kaip įjungti šią funkciją ir kitas funkcijas, žr. [Funkcijų valdymas](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/feature-management/feature-management-overview).

@@ -2,13 +2,16 @@
 title: DUK apie produktų rekomendacijas
 description: Šioje temoje pateikiama informacija apie procesus ir įrankius, kuriuos galite naudoti problemoms, susijusioms su produkto rekomendacijomis arba jų rezultatais, diagnozuoti.
 author: bebeale
+manager: AnnBe
 ms.date: 05/26/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: ''
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -16,12 +19,12 @@ ms.search.industry: Retail, Core, Operations
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 88ad0efd8f678c3082c31b1c3162b8288e14fc9edb69e8756f1641461b808e07
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cf3df2267671b50c20b28dbdb1c6a21696bf2515
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6733970"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4414237"
 ---
 # <a name="product-recommendations-faq"></a>DUK apie produktų rekomendacijas
 
@@ -31,7 +34,7 @@ ms.locfileid: "6733970"
 Šioje temoje pateikiama informacija apie procesus ir įrankius, kuriuos galite naudoti problemoms, susijusioms su [produkto rekomendacijomis](product-recommendations.md) arba jų rezultatais, diagnozuoti.
 
 ## <a name="best-practices"></a>Geriausia praktika
-Labai svarbu naudoti bendrųjų produktų ir variantų koncepciją. Pagrįstu variantų grupavimu su pirminiais bendraisiais produktais galima sąrašų algoritmais ir tarnyba kurti geresnius modelius. Be to, tarnyba gali naudoti tik vieną produkto egzempliorių, užuot naudojusi visus glaudžiai susijusius sąrašo variantus. Kai visi artimai susiję variantai yra įtraukti į sąrašą, gali atsirasti klaidingi arba pasikartojantys rezultatai.
+Labai svarbu naudoti bendrųjų produktų ir variantų koncepciją. Pagrįstu variantų grupavimu su pirminiaisi bendraisiais produktais galima sąrašų algoritmais ir tarnyba kurti geresnius modelius. Be to, tarnyba gali naudoti tik vieną produkto egzempliorių, užuot naudojusi visus glaudžiai susijusius sąrašo variantus. Kai visi artimai susiję variantai yra įtraukti į sąrašą, gali atsirasti klaidingi arba pasikartojantys rezultatai.
 
 ## <a name="why-are-products-missing-from-my-recommendation-lists"></a>Kodėl mano rekomendacijų sąrašuose trūksta produktų?
 
@@ -64,11 +67,11 @@ Rekomenduojame atlikti šiuos veiksmus:
 
 Galite pakoreguoti sąrašus, kurie yra algoritmiškai sugeneruoti, jei atsiranda verslo poreikis. Tačiau, jei produktas pašalinamas iš rekomendacijų sąrašo, produktas bus aptinkamas parduotuvėje. Daugiau informacijos apie tai, kaip modifikuoti produktų rekomendacijų rezultatus, žr. [AI-ML pagrįstų produktų rekomendacijų rezultatų valdymas](modify-product-recommendation-results.md).
 
-Jei turite užblokuoti prekę, kuri bus aptikta parduotuvėje, turite pakeisti reikšmę **prekių asortimentai** į **Neįtraukti**.
+Jei turite užblokuoti prekę, kuri bus aptikta parduotuvėje, turite pakeisti reikšę **prekių asortimentai** į **Neįtraukti**.
 
 ## <a name="how-do-i-add-a-list-to-an-e-commerce-page"></a>Kaip pridėti sąrašą prie el. prekybos puslapio?
 
-Norėdami gauti informacijos apie tai, kaip įtraukti produkto rekomendacijų puslapius į savo el. prekybos svetainę, žr. [Produktų rekomendacijų sąrašų įtraukimas į puslapius](./product-recommendations.md).
+Norėdami gauti informacijos apie tai, kaip įtraukti produkto rekomendacijų puslapius į savo el. prekybos svetainę, žr. [Produktų rekomendacijų sąrašų įtraukimas į puslapius](add-reco-list-to-page.md).
 
 ## <a name="how-do-i-enable-recommendations-on-pos"></a>Kaip įjungti EKA rekomendacijas?
 
@@ -97,6 +100,3 @@ Norėdami gauti informacijos apie tai, kaip įtraukti produkto rekomendacijų pu
 [Kuruojamų rekomendacijų kūrimas rankiniu būdu](create-editorial-recommendation-lists.md)
 
 [Rekomendacijų su demonstraciniais duomenimis kūrimas](product-recommendations-demo-data.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

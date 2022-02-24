@@ -2,27 +2,31 @@
 title: E-komercijos saito apžvalga
 description: Šioje temoje pateikta apžvalga e-komercijos svetainių palaikymui „Microsoft Dynamics 365 Commerce“.
 author: bicyclingfool
+manager: AnnBe
 ms.date: 11/05/2020
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application user
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
+ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: stuharg
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: c7f679e8d11b0ec01e912a4ad64f02e50b20f299
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
-ms.translationtype: MT
+ms.openlocfilehash: a5ced6311f32405e544e66d18c912ce40deb177f
+ms.sourcegitcommit: 33a746e41cd6f7b6b056b19b550a84f6a1b905d4
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984574"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "4512922"
 ---
-# <a name="e-commerce-site-overview"></a>El. prekybos svetainės apžvalga
+# <a name="e-commerce-site-overview"></a>E-komercijos saito apžvalga
 
 [!include [banner](includes/banner.md)]
 
@@ -36,37 +40,37 @@ Iki jums sukuriant savo svetainę „Dynamics 365 Commerce“, mažiausiai viena
 
 Tik vienas interneto parduotuvės kanalas turi būti nustatytas iki kol pradėsite su „Dynamics 365 Commerce“. Tačiau tik vienas e-komercijos saitas gali suteikti interneto patirtį kelioms interneto parduotuvėms. Pavyzdžiui, jei kelios interneto parduotuvės nustatomos siekiant palaikyti skirtingus geografinius regionus, vienas e-komercijos puslapių rinkinys gali būti naudojamas unikaliai patirčiai, kuri nustatyta kiekvienoje parduotuvėje. Daugiau informacijos apie tai, kaip sukonfigūruoti svetainę, kad būtų palaikomos kelios internetinės parduotuvės, žr. [Internetinės svetainės susiejimas su kanalu](associate-site-online-store.md).
 
-Po to, kai internetinė parduotuvė yra nustatyta, ji gali būti susieta su „Dynamics 365 Commerce“ svetaine, kuri bus naudojama kaip jūsų el. parduotuvės vitrina. Daugiau informacijos apie internetines parduotuves ir kaip jas nustatyti rasite [Internetinių parduotuvių sąranka](/dynamics365/unified-operations/retail/online-stores).
+Po to, kai internetinė parduotuvė yra nustatyta, ji gali būti susieta su „Dynamics 365 Commerce“ svetaine, kuri bus naudojama kaip jūsų el. parduotuvės vitrina. Daugiau informacijos apie internetines parduotuves ir kaip jas nustatyti rasite [Internetinių parduotuvių sąranka](https://docs.microsoft.com/dynamics365/unified-operations/retail/online-stores).
 
 ## <a name="deploy-a-new-e-commerce-tenant"></a>Talpinkite naują e-komercijos nuomotoją
 
-E-komercijos saito pradžioje, būsite paskatinti domeno pavadinimui. Dėl daugiau informacijos apie domenus „Commerce“, žr. [Konfigūruoti savo domeno pavadinimą](configure-your-domain-name.md) ir [Domenai „Dynamics 365 Commerce“](domains-commerce.md). Norėdami talpinti naują e-komercijos nuomotoją su [„Microsoft Dynamics Lifecycle Services“ (LCS)](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide), atlikite veiksmus [Talpinti naują e-komercijos nuomotoją](deploy-ecommerce-site.md). Kai jūsų e-komercijos nuomotojas nustatytas LCS, nuoroda su „Commerce“ saito kūrėju bus pateikta. Galite tuomet naudoti „Commerce“ saito kūrėją, kad pradėtumėte ir konfigūruotumėte e-komercijos saitus.
+E-komercijos saito pradžioje, būsite paskatinti domeno pavadinimui. Dėl daugiau informacijos apie domenus „Commerce“, žr. [Konfigūruoti savo domeno pavadinimą](configure-your-domain-name.md) ir [Domenai „Dynamics 365 Commerce“](domains-commerce.md). Norėdami talpinti naują e-komercijos nuomotoją su [„Microsoft Dynamics Lifecycle Services“ (LCS)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide), atlikite veiksmus [Talpinti naują e-komercijos nuomotoją](deploy-ecommerce-site.md). Kai jūsų e-komercijos nuomotojas nustatytas LCS, nuoroda su „Commerce“ saito kūrėju bus pateikta. Galite tuomet naudoti „Commerce“ saito kūrėją, kad pradėtumėte ir konfigūruotumėte e-komercijos saitus.
 
 ## <a name="initialize-your-e-commerce-site"></a>Pradėkite savo e-komercijos saitą
 
 Jums pradėjus „Commerce“ saito kūrėją nuo LCS, pasirodo **Saitai** puslapis. Šiame puslapyje yra du iš anksto sukonfigūruoti saitai, **nustatytasis** ir **fabrikam**, kaip parodyta tolesniame paveikslėlyje.
 
-![Saito puslapis „Commerce“ saito kūrimo įrankyje.](media/e-commerce-site-01.png)
+![Saito puslapis „Commerce“ saito kūrimo įrankyje](media/e-commerce-site-01.png)
 
-Jums pasirinkus vieną iš saitų, būsite paskatinti pasirinkti domeno pavadinimą, numatytąjį interneto parduotuvės kanalą, palaikomą kalbą pasirinktam kanalui ir maršrutą. Jei naudojamas tik vienas kanalas, galite palikti maršrutą tuščią. Daugiau interneto parduotuvės kanalų ir kalbų galima sukonfigūruoti vėliau „Commerce“ saito kūrimo įrankyje. Kiekvienas papildomas kanalas ar kalba turės turėti unikalų maršrutą. Pavyzdžiui, turite du interneto kanalus, kurie susieti su vienu saitu ir domeno pavadinimas saitui yra  `www.fabrikam.com`. Tokiu atveju, maršrutas vienam kanalui gali būti nustatytoji vertė neturinti jokio maršruto (`https://www.fabrikam.com`), o antrasis kanalas gali būti nustatytas į naują maršrutą kaip **saitas2**, kuris turės URL `https://www.fabrikam.com/site2`. Tolesnis paveikslėlis rodo saito pradžios teksto laukelio „Commerce“ saito kūrimo įrankyje pavyzdį.
+Jums pasirinkus vieną iš saitų, būsite paskatinti pasirinkti domeno pavadinimą, numatytąjį interneto parduotuvės kanalą, palaikomą kalbą pasirinktam kanalui ir maršrutą. Jei naudojamas tik vienas kanalas, galite palikti maršrutą tuščią. Daugiau interneto parduotuvės kanalų ir kalbų galima sukonfigūruoti vėliau „Commerce“ saito kūrimo įrankyje. Kiekvienas papipldomas kanalas ar kalba turės turėti unikalų maršrutą. Pavyzdžiui, turite du interneto kanalus, kurie susieti su vienu saitu ir domeno pavadinimas saitui yra  `www.fabrikam.com`. Tokiu atveju, maršrutas vienam kanalui gali būti nustatytoji vertė neturinti jokio maršruto (`https://www.fabrikam.com`), o antrasis kanalas gali būti nustatytas į naują maršrutą kaip **saitas2**, kuris turės URL `https://www.fabrikam.com/site2`. Tolesnis paveikslėlis rodo saito pradžios teksto laukelio „Commerce“ saito kūrimo įrankyje pavyzdį.
 
-![Saito pradžios teksto laukelis „Commerce“ saito kūrimo įrankyje.](media/e-commerce-site-02.png)
+![Saito pradžios teksto laukelis „Commerce“ saito kūrimo įrankyje](media/e-commerce-site-02.png)
 
-Puslapis **Saitai** taip pat apima **Naujas saitas** mygtuką. Teksto laukelis pasirodo, kai pasirenkate šį mygtuką ir jis atspindi saito pradžios teksto laukelį, bet naudojamas siekiant sukurti naują saitą. Nauji saitai yra tušti. Jie neapima tų pačių numatytųjų šablonų, fragmentų, puslapių ir paveikslėlių, pateiktų su **numatytaisiais** ir **„fabrikam”** saitais. Nepaisant to, kaip būtina, galite atverti palaikymo bilietą siekiant paprašyti, jog numatytojo turinio kopija būtų įtraukta į naują tuščią saitą. Dėl daugiau informacijos, žr. [Sukurti e-komercijos saitą](create-ecommerce-site.md).
+Puslapis **Saitai** taip pat apima **Naujas saitas** mygtuką. Teksto laukelis pasirodo, kai pasirenkate šį mygtuką ir jis atspindi saito pradžios teksto laukelį, bet naudojamas siekiant sukurti naują saitą. Nauji saitai yra tušti. Jie neapima tų pačių numatyttųjų šablonų, fragmentų, puslapių ir paveiksėlių pateiktų su **numatytasiais** ir **fabrikam** saitais. Nepaisant to, kaip būtina, galite atverti palaikymo bilietą siekiant paprašyti, jog numatytojo turinio kopija būtų įtraukta į naują tuščią saitą. Dėl daugiau informacijos, žr. [Sukurti e-komercijos saitą](create-ecommerce-site.md).
 
 Po naujo saito pradžios „Commerce“ saito kūrimo įrankio **Pagrindinis** puslapis pasirodo. Šiame puslapyje yra nuorodos į bendrus veiksmus ir gairių turinį, kaip parodyta tolesniame paveikslėlyje.
 
-![Nuorodos į Pagrindinį puslapį „Commerce“ saito kūrimo įrankyje.](media/e-commerce-site-03.png)
+![Nuorods į Pagrindinį puslapį „Commerce“ saito kūrimo įrankyje](media/e-commerce-site-03.png)
 
 ## <a name="modify-online-store-channels-or-add-online-store-channels-to-an-e-commerce-site"></a>Keisti interneto parduotuvės kanalus ar įtraukti interneto parduotuvės kanalus į e-komercijos saitą
 
 Po e-komercijos saito sukūrimo, galite keisti su juo susietą kanalą su tolesniais žingsniais [Susieti e-komercijos saitą su interneto kanalu](associate-site-online-store.md). Pavyzdys tolesniame paveikslėlyje rodo, kaip kanalo veikimo vieneto numeris (OUN) gali būti keičiamas **Kanalų** puslapyje (**Saito nustatymuose \> Kanaluose**). Jums pabaigus keitimą, įsitikinkite, kad pasirinkote **Įrašyti ir publikuoti**. Tokiu būdu, įsitikinsite, kad pakeitimas yra publikuotas.
 
-![Kanalo puslapis „Commerce“ saito kūrimo įrankyje.](media/e-commerce-site-04.png)
+![Kanalo puslapis „Commerce“ saito kūrimo įrankyje](media/e-commerce-site-04.png)
 
-Galite įtraukti naujus kanalus pasirinkdami **Įtraukti kanalą**. Norėdami įtraukti naujas kalbas į kanalą, pasirinkite kanalą ir tada rinkitės **Įtraukti vietinį** pasirodančiame kanalo teksto laukelyje. Prieš tai, kai vietiniai gali pasirodyti teksto laukelyje, juos reikia sukonfigūruoti iš anksto interneto parduotuvės kanale „Commerce“ štabe.
+Galite įtraukti naujus kanalus pasirinkdami **Įtraukti kanalą**. Norėdami įtraukti naujas kalbas į kanalą, pasirinkite kanalą ir tada rinkitės **Įtraukti vietinį** pasirodančiame kanalo teksto laukelyje. Prieš tai, kai vietiniai gali pasirodyti teksto laukelyje, juso reikia sukonfigūruoti iš anksto interneto parduotuvės kanale „Commerce“ štabe.
 
-![Kanalo teksto laukelis „Commerce“ saito kūrimo įrankyje.](media/e-commerce-site-05.png)
+![Kanalo teksto laukelis „Commerce“ saito kūrimo įrankyje](media/e-commerce-site-05.png)
 
 ## <a name="set-up-an-azure-b2c-tenant"></a>Nustatykite „Azure B2C“ nuomotoją
 
@@ -74,7 +78,7 @@ Galite įtraukti naujus kanalus pasirinkdami **Įtraukti kanalą**. Norėdami į
 
 ## <a name="overview-of-the-default-site-pages"></a>Numatytojo saito puslapio apžvalga
 
-Saitai **numatytasis** ir **„fabrikam”** apima iš anksto konfigūruotus šablonus, fragmentus ir puslapius siekiant padėti jums pradėti. Daugiau informacijos ieškokite šiose temose:
+Saitai **numatytasis** ir **fabrikam** apima iš anksto kongigūruotus šablonus, fragmentus ir puslapius siekiant padėti jums pradėti. Daugiau informacijos ieškokite šiose temose:
 
 - [Pagrindinio puslapio apžvalga](quick-tour-home-page.md)
 - [Produkto išsamios informacijos puslapio apžvalga](quick-tour-pdp.md)
@@ -117,6 +121,3 @@ Dėl informacijos apie tai, kaip valdyti jūsų saito turinį, žr. tolesnes tem
 [Įgalinti parduotuvės nustatymą pagal vietą](enable-store-detection.md)
 
 [Vartotojo prisijungimo pasirinktinių puslapių sąranka](custom-pages-user-logins.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

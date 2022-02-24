@@ -1,10 +1,12 @@
 ---
 title: ER konfigūracijų priklausomybės nuo kitų komponentų apibrėžimas
-description: Šioje temoje aprašoma, kaip sukurti elektroninių ataskaitų (ER) konfigūraciją ir nurodyti jos priklausomybę nuo kitų programinės įrangos komponentų.
+description: Norėdami atlikti šiuos veiksmus, turite užbaigti veiksmus užduočių vedlyje, ER valdymo modelio susiejimo konfigūracijos, ir jūs turite turėti prieigą prie „Microsoft Dynamics Lifecycle Services“ (LCS).
 author: NickSelin
-ms.date: 07/23/2021
+manager: AnnBe
+ms.date: 06/23/2017
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -12,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2901092938dae5ae14480716eeeb2b0386848332e91ad388ce5d34437f8492ba
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 77783d629afc9abf30cdc48534fbb26eba5f8811
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6717599"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4681978"
 ---
 # <a name="define-the-dependency-of-er-configurations-on-other-components"></a>ER konfigūracijų priklausomybės nuo kitų komponentų apibrėžimas
 
@@ -137,9 +139,3 @@ Mes panaikinsime iš sistemos sukurtas konfigūracijas ir vėl atsisiųsime jas 
 26. Medyje išplėskite „Duomenų pavyzdžio modelis“.
     * Atkreipkite dėmesį, kad modelio „Susiejimo pavyzdys“ susiejimo konfigūracija buvo atsisiųsta kartu su pasirinkta duomenų modelio konfigūracija. Du failai atsisiunčiami kartu, kadangi „Susiejimo pavyzdys“ apibrėžtas kaip pasirinkto duomenų modelio įgyvendinimas, ir todėl, kad jis taikomas programoms. Konfigūracija „Susiejimo pavyzdys (alternatyvus)“ dar neatsisiųsta, nes reikiamos programos versijos sąlyga nėra patenkinta.   
     * Jei prisijungiate prie „Finance and Operations“, registruojate tą patį teikėją, naudojate prieigą prie to paties LCS projekto ir atsisiunčiate tą pačią duomenų modelio konfigūraciją, bus atsisiųsta konfigūracija „Susiejimo pavyzdys (alternatyvus)“, o konfigūracija „Susiejimo pavyzdys“ bus praleista.  
-
-## <a name="additional-resources"></a>Papildomi ištekliai
-
-[Elektroninių ataskaitų (ER) konfigūracijų ciklo valdymas](../general-electronic-reporting-manage-configuration-lifecycle.md)
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

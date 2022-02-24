@@ -2,9 +2,11 @@
 title: ER šablonų atsarginių kopijų saugykla
 description: Šioje temoje paaiškinta, kaip naudoti elektroninių ataskaitų (ER) atsarginių kopijų saugyklą šablonų atkūrimui.
 author: NickSelin
+manager: AnnBe
 ms.date: 04/29/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable
 audience: Application User, Developer, IT Pro
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-13
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: b5de8b9dc06cf10bda1932d5f4ee4484cdae591564fdcd5dd28c5036b82abc66
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 136a81e661590d7af879e816c1142de85fb72e06
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767882"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4681405"
 ---
 # <a name="backup-storage-of-er-templates"></a>ER šablonų atsarginių kopijų saugykla
 
@@ -65,19 +67,19 @@ Norėdami nustatyti parametrą **Automatiškai kaip paketą vykdyti sugadintų �
 > [!NOTE]
 > Šis parametras nurodomas kaip būdingas konkrečiam programos vartotojui ir prisijungusiai įmonei.
 
-![ER konfigūracijų puslapis.](./media/GER-BackupTemplates-1.png)
+![ER konfigūracijų puslapis](./media/GER-BackupTemplates-1.png)
 
 Toliau esančiame paveikslėlyje pateiktas pranešimo, kuris rodomas, kai nustatyta parametro **Automatiškai kaip paketą vykdyti sugadintų šablonų atkūrimo procedūrą** reikšmė yra **Įjungta**, pavyzdys.
 
-![Tiekėjo mokėjimų žurnalo puslapis.](./media/GER-BackupTemplates-2.png)
+![Tiekėjo mokėjimų žurnalo puslapis](./media/GER-BackupTemplates-2.png)
 
 Toliau esančiame paveikslėlyje parodytas paketinis procesas **Atkurti sugadintus šablonus iš vidinės duomenų bazės atsarginės kopijos** puslapyje **Paketinė užduotis**.
 
-![Paketinės užduoties puslapis.](./media/GER-BackupTemplates-3.png)
+![Paketinės užduoties puslapis](./media/GER-BackupTemplates-3.png)
 
 Įvykdytų **Atkurti sugadintus šablonus iš vidinės duomenų bazės atsarginės kopijos** paketinių procesų vykdymo žurnalas apima informaciją apie šablonus, kurie buvo atkurti iš atsarginės kopijos saugojimo vietos į pirminę saugojimo vietą.
 
-![Paketinės užduoties retrospektyvos puslapis.](./media/GER-BackupTemplates-4.png)
+![Paketinės užduoties retrospektyvos puslapis](./media/GER-BackupTemplates-4.png)
 
 Esant numatytiesiems nustatymams, automatinio šablonų, naudojamų ER formato konfigūracijose, atsarginių kopijų kūrimo procesas yra įjungtas. Norėdami, kad šablonų atsarginės kopijos nebūtų daromos, nustatykite parinkties **Nebekurti šablono atsarginių kopijų** reikšmę **Taip**; ši parinktis pasiekiama kortelėje **Priedai**, esančioje puslapyje **Elektroninių ataskaitų parametrai**. Šį puslapį galite atidaryti iš darbo srities **Elektroninės ataskaitos**.
 
@@ -85,7 +87,7 @@ Norėdami nustatyti parinkties **Nebekurti šablonų atsarginių kopijų** reik�
 
 Jei savo aplinką atnaujinote į „Finance and Operations“ 10.0.5 (2019 m. spalio) versiją ir norite pereiti prie naujos aplinkos, kuri apima vykdytinas ER formato konfigūracijas, prieš vykdydami perkėlimą, pasirinkite **Užpildyti atsarginių kopijų saugyklą** puslapyje **Elektroninių ataskaitų parametrai**. Šiuo mygtuku pradedamas visų galimų šablonų atsarginių kopijų kūrimo procesas, kad jie galėtų būti išsaugoti šablonų ER atsarginių kopijų saugojimo vietoje.
 
-![Elektroninių ataskaitų parametrų puslapis.](./media/GER-BackupTemplates-5.png)
+![Elektroninių ataskaitų parametrų puslapis](./media/GER-BackupTemplates-5.png)
 
 ## <a name="manual-recovery"></a>Rankinis atkūrimas
 
@@ -100,6 +102,3 @@ Eikite į **Organizacijos administravimas** \> **Elektroninės ataskaitos** \> *
 [Elektroninių ataskaitų (ER) apžvalga](general-electronic-reporting.md)
 
 [Elektroninių ataskaitų (ER) sistemos konfigūravimas](electronic-reporting-er-configure-parameters.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

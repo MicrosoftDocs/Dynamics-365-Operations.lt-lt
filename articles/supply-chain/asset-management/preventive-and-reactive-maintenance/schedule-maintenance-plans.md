@@ -1,10 +1,12 @@
 ---
 title: Planuoti priežiūros planus
 description: Šioje temoje paaiškinta, kaip planuoti priežiūros planus modulyje Turto valdymas.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 08/27/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: bd5192f727c83c017148405fb1b3ee587c118542450d46b5822d86cd1676d8fd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9c215417eacb8a0e1ec0a8324fe35fc053089afb
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6731324"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5016911"
 ---
 # <a name="schedule-maintenance-plans"></a>Planuoti priežiūros planus
 
@@ -52,14 +54,14 @@ Planuojant prevencinę priežiūrą pagal nustatytus turto priežiūros planus g
 
 5. Spustelėkite **Gerai**, kad būtų pradėti generuoti turto priežiūros grafiko įrašai. Sugeneruoti įrašai bus rodomi sąrašo puslapyje **Visas priežiūros grafikas**. Toliau pateikiamame paveikslėlyje pavaizduotas dialogo lango **Planuoti priežiūros planus** pavyzdys.
 
-![1 iliustracija.](media/09-preventive-maintenance.png)
+![1 pav.](media/09-preventive-maintenance.png)
 
 - Dialogo lange **Planuoti priežiūros planus**, „FastTab“ **Vykdyti fone** galite nustatyti paketines užduotis, kad kalendoriaus įrašai būtų automatiškai generuojami reguliariais intervalais.  
 - Planuojant prevencinę priežiūrą priežiūros nebus sukurta grafiko eilučių, kurių numatoma pradžios data ir laikas yra ankstesni už sistemos datą ir laiką.  
 
 Toliau pateiktame paveikslėlyje pavaizduotas priežiūros plano pagal laiką apskaičiavimas.  
 
-![2 iliustracija.](media/10-preventive-maintenance.jpg)
+![2 paveikslėlis](media/10-preventive-maintenance.jpg)
 
 Dėl priežiūros planų pagal skaitiklį: toliau pateiktuose paveikslėliuose, rodomi du skirtingi skaitiklio registravimo ciklai. Jie pagrįsti nustatytu turto „V0001“ priežiūros planu numatant, kad turtas (automobilis) kiekvieną mėnesį nuvažiuos apie 2 000 km.
 
@@ -69,10 +71,7 @@ Kitame paveikslėlyje kiekvieną mėnesį užregistruojami 2 000 km arba daugiau
 
 Iš aprašytų pavyzdžių matyti, kad visose skaitiklio turto registracijose matoma tendencija apibūdinti turto nusidėvėjimą. Ši tendencija naudojama kaip skaičiavimo pagrindas priežiūros plano planavimo metu.
 
-![3 iliustracija.](media/11-preventive-maintenance.png)
+![3 paveikslėlis](media/11-preventive-maintenance.png)
 
-![4 iliustracija.](media/12-preventive-maintenance.png)
+![4 paveikslėlis](media/12-preventive-maintenance.png)
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

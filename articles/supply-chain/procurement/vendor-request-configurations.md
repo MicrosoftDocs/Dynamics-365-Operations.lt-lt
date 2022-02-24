@@ -1,24 +1,26 @@
 ---
 title: Tiekėjo užklausos konfigūracijos
 description: Šioje temoje aprašomi laukai, kuriuos reikia užpildyti naujoje tiekėjo užklausoje.
-author: Henrikan
+author: RichardLuan
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendProspectiveVendorRegistrationConfig
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: henrikan
+ms.author: riluan
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 1d34a9974da41b7abb40bb2cf046a15432c249eb
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 987b9cefef395b3bf3e915f41232fe0daba213b9
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7570302"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5021169"
 ---
 # <a name="vendor-request-configurations"></a>Tiekėjo užklausos konfigūracijos
 [!include [banner](../includes/banner.md)]
@@ -51,6 +53,3 @@ Taip pat galite įvesti patvirtinimo pranešimą, kuris bus rodomas, kai vedlys 
 4.  Atidarykite skirtuką **Šalis / regionas**, kad pasirinktumėte šalį / regioną, kuriam konfigūracija skirta.
 5.  Nustatykite konfigūraciją, vadovaudamiesi numatytosios konfigūracijos nustatymo instrukcijomis.
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

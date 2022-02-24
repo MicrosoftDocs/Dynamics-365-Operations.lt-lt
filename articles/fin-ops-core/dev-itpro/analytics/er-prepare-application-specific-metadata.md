@@ -2,9 +2,11 @@
 title: Programos metaduomenų, kurie bus naudojami RCS ir ER, paruošimas
 description: Šioje temoje paaiškinama, kaip paruošti programos metaduomenis, skirtus „Regulatory Configuration Service“ (RCS) ir elektroninėms ataskaitoms (ER).
 author: NickSelin
+manager: AnnBe
 ms.date: 04/04/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERWorkspace
 audience: Application User, Developer, IT Pro
@@ -13,12 +15,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 9136bd3db2aee1447d6af3b3c47b908177cee966aba630490cc6e72072525d29
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f15b78d3ed5b4df47540f9f89cc69c0b535a7241
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6735603"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680199"
 ---
 # <a name="prepare-application-specific-metadata-for-rcs-and-er"></a>Programos metaduomenų, kurie bus naudojami RCS ir ER, paruošimas
 
@@ -278,6 +280,3 @@ Jei reikia įvertinti šio modelio susiejimą naudojant skirtingos programos ver
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 Arba galite programoje paleisti užduočių vedlį **Programos metaduomenų, kuriuos galima naudoti RCS, paruošimas** ir taip pat RCS galite paleisti užduočių vedlius **Prieiga prie programos metaduomenų naudojant ER konfigūraciją** ir **Prieiga prie programos metaduomenų naudojant prijungtas programas**. Šiuos užduočių vedlius galima atsisiųsti iš puslapio [Elektroninių ataskaitų užduočių vedliai, skirti „Dynamics 365 for Finance and Operations 8.1“](https://go.microsoft.com/fwlink/?linkid=2082739).
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

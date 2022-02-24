@@ -153,6 +153,3 @@ Pasiūlymą galima atsiimti iš kandidato bet kuriuo metu ir dėl įvairių prie
 ## <a name="closing-an-offer"></a>Pasiūlymo pasirinkimas 
 
 Kai pasiūlymas priimamas, atmetamas arba atsiimamas ir nereikia atlikti jokių papildomų veiksmų, galite uždaryti pasiūlymą, kad nebūtų atlikta jokių papildomų šio pasiūlymo paketo keitimų.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -91,6 +91,3 @@ Naudodamiesi žiniatinklio turinio („iframe“) veikla galite įterpti vykstan
 
 > [!NOTE]
 > Žiniatinklio turinio veiklą galima naudoti tik kartu su išsamios įdarbinimo informacijos priedu.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

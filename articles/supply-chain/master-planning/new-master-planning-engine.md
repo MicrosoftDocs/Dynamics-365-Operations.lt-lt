@@ -2,13 +2,16 @@
 title: Perkėlimas į „Planning Optimization“ pagrindiniam planavimui
 description: Šioje temoje aprašyta informacija apie naują pagrindinio planavimo variklį „Planning Optimization“ ir apie perkėlimą iš esančio variklio.
 author: ChristianRytt
+manager: tfehr
 ms.date: 05/11/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: 19311
 ms.assetid: 5ffb1486-2e08-4cdc-bd34-b47ae795ef0f
 ms.search.region: Global
@@ -16,44 +19,44 @@ ms.search.industry: ''
 ms.author: crytt
 ms.search.validFrom: 2020-11-05
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 8d3edeefca2e2194a8d5484afbfabf2091da4a1c1538d238351a5d389177ccfd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 94e5668da45c524ed9ab9eef10b40d0fb5336a65
+ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6728584"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4646001"
 ---
 # <a name="migration-to-planning-optimization-for-master-planning"></a>Perkėlimas į „Planning Optimization“ pagrindiniam planavimui
 
 [!include [banner](../includes/banner.md)]
 
-Sukurtas pagrindinis planavimo variklis nustatytas taip, kad neveiktų (negaliotų). Jį pakeitė „Planning Optimization“ papildinys skirtas „Microsoft Dynamics 365 Supply Chain Management“. Šioje temoje pateikta informacija apie naujo ir esančių diegimų poveikį. Jis apima informaciją apie būtinus veiksmus.
+Sukurtas pagrindinis planavimo variklis nustatytas taip, kad neveiktų (negaliotų). Jį pakeitė „Planning Optimization“ papildinys skirtas „Microsoft Dynamics 365 Supply Chain Management“. Šioje temoje pateikta informacija apie naujo ir esančių talpinimų poveikį. Jis apima informaciją apie būtinus veiksmus.
 
-„Planning Optimization“ įjungia pagrindinio planavimo skaičiavimą siekiant, kad jis vyktų ne „Supply Chain Management“ ir jo „Azure SQL“ duomenų bazėje. Nauda susieta su „Planning Optimization“ apima pagerintą naudojimą ir sumažintą poveikį SQL duomenų bazėje pagrindinio planavimo vykdymo metu. Kadangi greito planavimo vykdymai gali būti atlikti net ir biuro darbo valandomis, planuotojai gali nedelsiant reaguoti ir reikalauti ar nustatyti parametrų keitimus.
+„Planning Optimization“ įjungia pagrindino planavimo skaičiavimą siekiant, kad jis vyktų ne „Supply Chain Management“ ir jo „Azure SQL“ duomenų bazėje. Nauda susieta su „Planning Optimization“ apima pagerintą naudojimą ir sumažintą poveikį SQL duomenų bazėje pagrindinio planavimo vykdymo metu. Kadangi greito planavimo vykdymai gali būti atlikti net ir biuro darbo valandomis, planuotojai gali nedelsiant reaguoti ir reikalauti ar nustatyti parametrų keitimus.
 
-Daugiau informacijos apie „Planning Optimization“ rasite [„Planning Optimization“ apžvalga](planning-optimization/planning-optimization-overview.md).
+Dėl daugiau informacijso apie „Planning Optimization“, žr. [„Planning Optimization“ apžvalga](planning-optimization/planning-optimization-overview.md).
 
 ## <a name="obsolescence-of-the-existing-master-planning-engine"></a>Esamo pagrindinio planavimo variklio neveikimas
 
-„Microsoft“ bando sukurti įtaisytąjį pagrindinį variklį, neveikiantį „Planning Optimization“ naudai. Šis keitimas veikia visas debesies aplinkas. Patalpos diegimui nėra paveikti. Versijoje 10.0.16 ir vėlesnėje gausite klaidos pranešimą, kai vykdysite sukurtą pagrindinį planavimą nekurdami suplanuotų gamybos užsakymų. Nepaisant to, pagrindinio planavimo vykdymas bus sėkmingai užbaigtas nepaisant klaidos pranešimo.
+„Microsoft“ bando sukurti įkorporuotą pagrindinį variklį neveikiantį „Planning Optimization“ naudai. Šis keitimas veikia visas debesies aplinkas. Patalpos diegimui nėra paveikti. Versijoje 10.0.16 ir vėlesnėje gausite klaidos pranešimą, kai vykdysite sukurtą pagrindinį planavimą nekurdami suplanuotų gamybos užsakymų. Nepaisant to, pagrindinio planavimo vykdymas bus sėkmingai užbaigtas nepaisant klaidos pranešimo.
 
 Dėl daugiau informacijos apie negaliojantį sukurtą planavimo variklį, žr. [Pašalintos ar negaliojančios funkcijos „Dynamics 365 Supply Chain Management“](../get-started/removed-deprecated-features-scm-updates.md).
 
-## <a name="migration-messages-and-exceptions"></a>Perkėlimas, pranešimai ir išimtys
+## <a name="migration-messages-and-exceptions"></a>Perkėlimas, pranešimai ir tikėjimasis
 
-Esančių aplinkų, kurios vykdo įtaisytąjį bendrojo planavimo mechanizmą, nekurdamos suplanuotos gamybos užsakymų, savininkas gaus el. laišką, kuriame pateikta išsami informacija apie proceso išlygą. Rekomenduojame kartu su partneriu įvertinti ir planuoti perėjimą prie „Planning Optimization“.
+Esančių aplinkų sąvininkai, vykdanti įkorporuotą pagrindinio planavimo variklį nekurdami suplanuotos gamybos užsakymų gaus el. laišką, kuriame pateikta išsami inforamcija apie proceso išlygą. Rekomenduojame kartu su partneriu įvertinti ir planuoti perėjimą prie „Planning Optimization“.
 
 Kaip buvo minėta, versijoje 10.0.16 ir vėlesnėje versijoje gausite klaidos pranešimą, kai vykdysite sukurtą pagrindinį planavimą nekurdami suplanuotų gamybos užsakymų. Šis klaidos pranešimas apima gaires dėl perkėlimo ir instrukcijas išlygos reikalavimui.
 
-### <a name="new-deployments"></a>Nauji diegimai
+### <a name="new-deployments"></a>Nauji talpinimai
 
-„Planning Optimization“ turi būti laikomas numatytuoju pagrindinio planavimo variklius visiems diegimams debesyje. Bendrai, „Planning Optimization“ turi būti naudojamas visiems diegimams, kurie nekuria suplanuotų gamybos užsakymų pagrindinio planavimo metu. Jei naujas diegimas priklauso nuo funkcijų, kurios „Planning Optimization“ šiuo metu nepalaikomos, galite reikalauti išimties taip, kad tęstumėte naudoti sukurtą pagrindinį planavimo variklį.
+„Planning Optimization“ turi būti laikomas numatytuoju pagrindinio planavimo variklius visiems talpinimams debesyje. Bendrari, „Planning Optimization“ turi būti naudojamas visiems talpinimams, kurie nekuria suplanuotų gamybos užsakymų pagrindinio planavimo metu. Jei naujas talpinimas priklauso nuo funkcijų, kurios „Planning Optimization“ šiuo metu nepalaikomos, galite reikalauti išlygis taip, kad tęstumėte naudoti sukurtą pagrindinį planavimo variklį.
 
-### <a name="existing-deployments"></a>Esantys diegimai
+### <a name="existing-deployments"></a>Esantys talpinimai
 
-Esantys debesimi grįsti diegimo savininkais priklauso nuo pagrindinio planavimo ir turi planuoti perkelti į „Planning Optimization“. Jei jūsų diegimas priklauso nuo funkcijų, kurios „Planning Optimization“ šiuo metu nepalaikomos, galite reikalauti išimties taip, kad tęstumėte naudoti sukurtą pagrindinį planavimo variklį.
+Esantys debesimi grįsti talpinimo savininkais priklauso nuo pagrindinio planavimo ir turi planuoti perkelti į „Planning Optimization“. Jei jūsų implementavimas priklauso nuo funkcijų, kurios „Planning Optimization“ šiuo metu nepalaikomos, galite reikalauti išlygis taip, kad tęstumėte naudoti sukurtą pagrindinį planavimo variklį.
 
-Aplinkoms, kurios šiuo metu naudoja pagrindinius planavimo procesus nuo panaikinimo „Microsoft“ nusiųs el. laišką aplinkos administratoriui. Šis laiškas pateiks informaciją apie veiksmus, kurių reikia perkelti ar reikalauti išlygos.
+Aplinkoms, kurios šiuo metu naudoja pagrindinus planavimo procesus nuo panaikinimo „Microsoft“ nusiųs el. laišką aplinkos administratoriui. Šis laiškas pateiks informaciją apie veiksmus, kurių reikia perkelti ar reikalauti išlygos.
 
 ## <a name="the-exception-process"></a>Išlygos procesas
 
@@ -63,12 +66,8 @@ Galite prašyti išlygos, jei turite tęsti naudoti sukurtus pagrindinį planavi
 
 Po to, kai būtinos funkcijos tampa būtinos, „Microsoft“ pateiks pereinamąjį laikotarpį, kol išlyga pasibaigs. Aplinkos administratorius bus informuotas, kai būtinos funkcijos bus prieinamos ir pereinamasis laikotarpis prasidės.
 
-Šioje struktūrinėje schemoje apibendrinama šioje temoje pateikiama informacija, kad galėtumėte greitai sužinoti, ar jums reikėtų pateikti išimties užklausą. Jeigu jums reikia pateikti išimties užklausą, prašome užpildyti ir pateikti [Optimizavimo planavimo perkėlimo ir išimčių klausimyną](https://go.microsoft.com/fwlink/?linkid=2144962).
-
-![Išimčių struktūrinė schema.](media/exception-diagram.png "Išimčių struktūrinė schema")
-
 > [!NOTE]
-> Galite pateikti išimčių užklausas tik tiems nuomotojams, kurie šiuo metu apima arba apims gamybos aplinką, o ne nuomotojams, turintiems tik sandėlio aplinką. Jei jums reikia išjungti „Planning Optimization“ išlygos klaidą infrastruktūrai kaip paslaugoms (IaaS) smėlio dėžės aplinkoje, vykdykite SQL laukimą pateiktą [Smėlio dėžės aplinkose](#faq-sandbox).
+> Galite tik reikalauti išlygos gamybos aplinkoms, o ne smėlio dėžės aplinkoms. Jei jums reikia išjungti „Planning Optimization“ išlygos klaidą infrastruktūrai kaip paslaugoms (IaaS) smėlio dėžės aplinkoje, vykdykite SQL laukimą pateiktą [Smėlio dėžės aplinkose](#faq-sandbox).
 
 ## <a name="frequently-asked-questions"></a>Dažnai užduodami klausimai
 
@@ -110,13 +109,10 @@ Mūsų aplinkos administratorius gavo el. laišką iš „Microsoft“. Šiame e
 
 Naudoju versiją 10.0.16 ar vėlesnę ir gaunu tolesnį klaidos pranešimą vykdydamas pagrindinį planavimą. Ar pagrindinis planavimas blokuojamas?
 
-> Gaunate tolesnį klaidos pranešimą, nes sukurtas pagrindinis planavimo variklis buvo naudojamas scenarijų metu, kuriuos palaikė „Planning Optimization“. Turite perkelti į „Planning Optimization“ dabar, nes esamas sukurtas pagrindinis planavimas nebegalios. Atminkite, kad šis pagrindinio planavimo vykdymas sėkmingai baigtas.
+> Gaunate tolesnį klaidos pranešimą, nes sukurtas pagrindinis planavimo variklis buvo naudojamas scenarijų metu, kuriuos palaikė „Planning Optimization“. Turite perkelti į „Planning Optimization“ dabar, nes esamas sukurtas pagrindinis planavimas nebegalios. Atminkite, kad šis pagrindinio planavimo vykdymassėkmingai pasibaigė.
 >
 > Jei perkėlimas turi stiprius priklausinius nuo esamų funkcijų, išlyga, kuria bus tęsiamas sukurtų pagrindinio planavimo variklio naudojimas gali būti prašomas.
 >
 > Prašome užbaigti tolesnį klausimyną, kad pradėtumėte ir jei būtina užklausos išlygą iš migravimo turi būti perkelta į „Planning Optimization“.
 
-**Atsakymas:** Ne, pagrindinis planavimas neblokuojamas. Jūsų pagrindinis planavimo vykdymas sėkmingai baigtas ir galite naudoti rezultatus įprastu būdu. Nepaisant to, siekiant išvengti šios klaidos pranešimo funkcijos pagrindinio planavimo vykdymo metu, turite perkelti į „Planning Optimization“ nedelsiant arba prašyti išlygos naudodami nuorodą klaidos pranešime.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+**Atsakymas:** Ne, pagrindinis planavimas neblokuojamas. Jūsų pagrindinis planavimo vykdymas sėkmingai baigėse ir galite naudoti rezultatus įprastu būdu. Nepaisant to, siekiant išvengti šios klaidos pranešimo funkcijos pagrindinio planavimo vykdymo metu, turite perkelti į „Planning Optimization“ nedelsiant arba prašyti išlygos naudodami nuorodą klaidos pranešime.

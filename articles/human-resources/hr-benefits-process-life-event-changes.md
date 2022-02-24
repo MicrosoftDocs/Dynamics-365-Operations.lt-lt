@@ -1,33 +1,31 @@
 ---
 title: Gyvenimo įvykių keitimų apdorojimas
-description: Šioje temoje paaiškinama, kaip apdoroti gyvenimo įvykio keitimus „Microsoft Dynamics 365 Human Resources“.
-author: twheeloc
-ms.date: 08/23/2021
+description: Apdorokite gyvenimo įvykių keitimus programoje „Microsoft Dynamics 365 Human Resources“, skirtoje gyvenimo įvykių keitimams.
+author: andreabichsel
+manager: AnnBe
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart, BenefitLifeEventTypes, BenefitEligibilityProcessResultViewer
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: cb894d9886c095d760efe66abcf773a975a99caa
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
-ms.translationtype: MT
+ms.openlocfilehash: 39d1e94347809a1756fc4f66e5edc345c70eaf39
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8067609"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4419670"
 ---
 # <a name="process-life-event-changes"></a>Gyvenimo įvykių keitimų apdorojimas
-
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Apdorokite gyvenimo įvykių keitimus programoje „Microsoft Dynamics 365 Human Resources“ dėl dviejų gyvenimo įvykių keitimų:
 
@@ -54,6 +52,3 @@ Apdorokite gyvenimo įvykių keitimus programoje „Microsoft Dynamics 365 Human
    4. Pasirinkite **Gerai**. Procesas bus vykdomas naudojant jūsų nustatytus parametrus.
 
 4. Pasirinkite **Gerai**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

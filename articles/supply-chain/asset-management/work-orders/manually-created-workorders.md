@@ -1,10 +1,12 @@
 ---
 title: Neautomatiniu būdu sukurti darbo užsakymai
 description: Šioje temoje paaiškinta, kaip kurti darbo užsakymą rankiniu būdu skiltyje Turto valdymas.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetWorkOrderTableCreateRelated, EntAssetWorkOrderTableCreate, EntAssetWorkOrderTableCopy
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: a755fa579d929056296c5512f976d15c4808c336b6688b891a4712051e15e9a1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8c787dbc9889139df76b9b102deb18fce567e382
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6750105"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5017873"
 ---
 # <a name="manually-created-work-orders"></a>Neautomatiniu būdu sukurti darbo užsakymai
 
@@ -111,7 +113,7 @@ Galite sukurti darbo užsakymą, susijusį su esamu darbo užsakymu. Ši galimyb
 
 Toliau pateiktame paveikslėlyje parodytas dialogo lango **Kurti susijusį darbo užsakymą** pavyzdys.
 
-![1 iliustracija.](media/03-work-orders.png)
+![1 pav.](media/03-work-orders.png)
 
 >[!NOTE]
 >Jei nustatėte susijusio darbo šabloną **Turto valdymo parametrai** > skirtuke **Darbo užsakymai** > lauke **Susijusio darbo užsakymo šablonas**, darbo užsakymo ID bus sukuriami pagal šablono sąranką. Jei nėra nurodytas joks susijusio darbo užsakymo šablonas, kitas pasiekiamas darbo užsakymo ID naudojamas susijusiems darbo užsakymams.
@@ -137,7 +139,7 @@ Galite greitai sukurti naują darbo užsakymą iš esamo darbo užsakymo. Toks d
 
 Toliau pateiktame paveikslėlyje parodytas dialogo lango **Kopijuoti darbo užsakymą** pavyzdys.
 
-![2 iliustracija.](media/04-work-orders.png)
+![2 pav.](media/04-work-orders.png)
 
 
 ## <a name="create-a-work-order-based-on-a-maintenance-request"></a>Sukurkite darbo užsakymą pagal priežiūros užklausą
@@ -157,12 +159,9 @@ Toliau pateiktame paveikslėlyje parodytas dialogo lango **Kopijuoti darbo užsa
 
 Toliau pateiktame paveikslėlyje parodytas dialogo lango **Kurti darbo užsakymą** pavyzdys.
 
-![3 iliustracija.](media/05-work-orders.png)
+![3 pav.](media/05-work-orders.png)
 
 
 >[!NOTE]
 >Jei norite, kad darbo užsakymai būtų sukurti automatiškai, tai galite padaryti planuojant priežiūros planų užduotis arba nustatant turtui „Kurti automatiškai“ [priežiūros planus](../preventive-and-reactive-maintenance/maintenance-plans.md) arba [priežiūros ciklus](../preventive-and-reactive-maintenance/maintenance-rounds.md). Darbo užsakymų, sukurtų pagal priežiūros užklausas sąrašo puslapyje **Visas priežiūros grafikas**, priežiūros užduoties tipai pasirenkami priežiūros užklausose.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

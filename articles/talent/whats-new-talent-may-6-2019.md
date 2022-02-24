@@ -93,6 +93,3 @@ Galimybė sekti darbuotojų nedarbo laiką ir suprasti, kaip skaičiuojamas neda
 ### <a name="indicate-instance-type-when-provisioning-talent"></a>Nurodykite egzemplioriaus tipą rengdami „Talent“
 
 Kuriant naują „Talent“ egzempliorių bus galima nurodyti, ar egzemplioriaus tipas yra **Gamyba** ar **Smėlio dėžė**, kad galėtumėte iš anksto patikrinti naujas funkcijas. Visi esami „Talent“ egzemplioriai bus atnaujinti į gamybos egzemplioriaus tipą. Jei norite, kad vienas iš esamų egzempliorių būtų atnaujintas į smėlio dėžės egzemplioriaus tipą, kreipkitės į palaikymo tarnybą, kad ši inicijuotų keitimo užklausą.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

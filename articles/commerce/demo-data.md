@@ -2,13 +2,16 @@
 title: „Modern POS“ (MPOS) ir „Cloud POS“ demonstracinių duomenų ekrano maketai
 description: Šioje temoje pateikiama informacija apie ekrano maketus, kurie kartu su demonstraciniais duomenimis, nustatytais elektroniniam kasos aparate (EKA), įtraukti į „Dynamics 365 Commerce“.
 author: josaw1
+manager: AnnBe
 ms.date: 10/05/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailTillLayout
 audience: Application user
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -16,12 +19,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2017-10-05
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: c141325580d698cccc7d186496a0902913961d47764b93fa73c64c3eddf6e791
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 935e1a550160515e2c325c39eab86be3b9fa5394
+ms.sourcegitcommit: d82f319cf7dd26c93a3fd342de4fd537272fa8d2
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6761667"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "4414503"
 ---
 # <a name="demo-data-screen-layouts-in-modern-pos-mpos-and-cloud-pos"></a>„Modern POS“ (MPOS) ir „Cloud POS“ demonstracinių duomenų ekrano maketai
 
@@ -33,13 +36,13 @@ ms.locfileid: "6761667"
 
 Pavyzdinio ekrano maketuose, įtrauktuose kartu su „Commerce“ demonstraciniais duomenimis, pateikiamas turinys, optimizuotas įvairiems mažmeninės prekybos segmentams, parduotuvės darbuotojų vaidmenims ir įrenginiams. Viename makete gali būti keletas maketų dydžių ir mygtukynų kombinacijų, skirtų siekiant užtikrinti apimtį parduotuvės darbuotojams judant tarp įrenginių ir stočių. Šioje temoje aprašomi šių maketų skirtumai, teikiamos operacijos ir bendras jų naudojimas.
 
-![Įvairių įrenginių demonstracinių duomenų maketai.](../commerce/media/demo-screen-layouts-fig-1-1.png)
+![Įvairių įrenginių demonstracinių duomenų maketai](../commerce/media/demo-screen-layouts-fig-1-1.png)
 
 ## <a name="anatomy-of-a-screen-layout-id"></a>Ekrano maketo ID anatomija
 
 Norėdami rasti ekrano maketų, eikite į **Mažmeninė prekyba ir prekyba** \> **Kanalo sąranka** \> **EKA sąranka** \> **EKA** \> **Ekrano maketai**.
 
-![Ekrano maketų puslapis.](../commerce/media/demo-screen-layouts-fig-2-1.png)
+![Ekrano maketų puslapis](../commerce/media/demo-screen-layouts-fig-2-1.png)
 
 Ekrano maketo ID gali būti sudaryti iš ne daugiau nei 10 simbolių. ID yra eilutė, sudaryta iš trijų informacijos dalių, išdėstytų toliau nurodyta tvarka.
 
@@ -51,13 +54,13 @@ Ekrano maketo ID gali būti sudaryti iš ne daugiau nei 10 simbolių. ID yra eil
 
 | Laiškas | Įmonė         |
 |--------|-----------------|
-| A      | „Adventure Works“ |
-| Pn.      | Fabrikam        |
-| K      | „Contoso“         |
+| A      | Adventure Works |
+| F      | Fabrikam        |
+| M      | „Contoso“         |
 
 ### <a name="layout-version"></a>Maketo versija
 
-| Versijos numeris | Aprašas                                                                                |
+| Versijos numeris | aprašymas                                                                                |
 |----------------|--------------------------------------------------------------------------------------------|
 | 3              | Pagrindinė versija, kurioje palaikomi įvairių įrenginių kelių ekranų dydžiai ir proporcijos |
 | 3.1            | Pagrindinė versija, kurioje teikiamas papildomas skydo **Rekomenduojami produktai** palaikymas        |
@@ -79,7 +82,7 @@ F4MGR
 
 Toliau pateiktoje iliustracijoje pavaizduotas „Fabrikam“ parduotuvės vadovo ekrano Darbo pradžia pavyzdys.
 
-![„Fabrikam“ parduotuvės vadovo ekranas Darbo pradžia.](../commerce/media/demo-screen-layouts-fig-2-2.png)
+![„Fabrikam“ parduotuvės vadovo ekranas Darbo pradžia](../commerce/media/demo-screen-layouts-fig-2-2.png)
 
 ## <a name="layout-sizes"></a>Maketo dydžiai
 
@@ -108,7 +111,7 @@ Toliau pateiktoje lentelėje nurodyti įprasto ekrano skiriamosios gebos maketo 
 > [!TIP]
 > EKA automatiškai parenka maketo dydžius, pritaikydamas juos pagal labiausiai dabartinio programos lango proporcijas atitinkantį dydį. Norėdami rasti tuo metu naudojamą ekrano maketo ID ir maketo skiriamąją gebą, „Modern POS“ (MPOS) arba „Retail Cloud POS“ (CPOS) atidarykite puslapį **Parametrai** ir ieškokite dalyje **Seanso informacija**. Taip pat galite matyti faktinę lango gebą, pritaikytą jūsų dabartinės programos arba naršyklės rėmeliui. Kai jau žinosite šią informaciją, maketo turinio šaltinį galėsite rasti apsilankę parinktyje **Kanalo nustatymas** \> **EKA sąranka** \> **EKA** \> **Ekrano maketai**.
 
-![Ekrano maketai ir maketo gebos / dydžiai, pateikiami „Commerce“ ir EKA.](../commerce/media/demo-screen-layouts-fig-3-1.png)
+![Ekrano maketai ir maketo gebos / dydžiai, pateikiami „Commerce“ ir EKA](../commerce/media/demo-screen-layouts-fig-3-1.png)
 
 ## <a name="companies-and-brands"></a>Įmonės ir prekių ženklai
 
@@ -118,30 +121,30 @@ Kiekviena fiktyvi įmonė yra priskiriama atskiram mažmeninės prekybos segment
 
 | Įmonė         | Buvimo vieta | Segmentas        | Pabrėžti | Tema |
 |-----------------|----------|----------------|--------|-------|
-| „Adventure Works” | Sietlas  | Sporto prekės | Mėlyna   | Tamsi  |
-| Fabrikam        | San Franciskas  | Madingos prekės        | Žalia  | Šviesi |
-| „Contoso“         | Bostonas   | Elektronika    | Raudona    | Tamsi  |
+| Adventure Works | Sietlas  | Sporto prekės | Mėlyna   | Tamsus  |
+| „Fabrikam“        | San Franciskas  | Madingos prekės        | Žalia  | Šviesus |
+| „Contoso“         | Bostonas   | Elektronika    | Raudona    | Tamsus  |
 
 > [!NOTE]
-> „Adventure Works“ ir „Fabrikam“ yra du pagrindiniai prekių ženklai. „Contoso” yra pasiekiamas, bet pateikti ne visi maketai.
+> „Adventure Works“ ir „Fabrikam“ yra du pagrindiniai prekių ženklai. „Contoso“ yra pasiekiamas, bet pateikti ne visi maketai.
 
 Toliau pateiktose iliustracijose pavaizduoti trijų fiktyvių įmonių darbo pradžios puslapio ir operacijos puslapio pavyzdžiai.
 
-### <a name="adventure-works"></a>„Adventure Works“
+### <a name="adventure-works"></a>Adventure Works
 
-![„Adventure Works“ darbo pradžios puslapio demonstraciniai duomenys.](../commerce/media/demo-screen-layouts-fig-4-1a.png)
+![„Adventure Works“ darbo pradžios puslapio demonstraciniai duomenys](../commerce/media/demo-screen-layouts-fig-4-1a.png)
 
-![„Adventure Works“ operacijos puslapio demonstraciniai duomenys.](../commerce/media/demo-screen-layouts-fig-4-1b.png)
+![„Adventure Works“ operacijos puslapio demonstraciniai duomenys](../commerce/media/demo-screen-layouts-fig-4-1b.png)
 
 ### <a name="fabrikam"></a>Fabrikam
 
-![„Fabrikam“ darbo pradžios puslapio demonstraciniai duomenys.](../commerce/media/demo-screen-layouts-fig-4-2a.png)
+![„Fabrikam“ darbo pradžios puslapio demonstraciniai duomenys](../commerce/media/demo-screen-layouts-fig-4-2a.png)
 
-![„Fabrikam“ operacijos puslapio demonstraciniai duomenys.](../commerce/media/demo-screen-layouts-fig-4-2b.png)
+![„Fabrikam“ operacijos puslapio demonstraciniai duomenys](../commerce/media/demo-screen-layouts-fig-4-2b.png)
 
 ### <a name="contoso"></a>„Contoso“
 
-![„Contoso“ demonstraciniai duomenų maketai.](../commerce/media/demo-screen-layouts-fig-4-3.png)
+![„Contoso“ demonstraciniai duomenų maketai](../commerce/media/demo-screen-layouts-fig-4-3.png)
 
 ## <a name="user-sign-in-matrix"></a>Vartotojo prisijungimo matrica
 
@@ -149,12 +152,12 @@ Vartotojams pateikiami įvairūs ekrano maketai. Naudodamiesi toliau pateikta le
 
 | Įmonė         | Ekrano maketo ID | Asmenys       | Operatoriaus ID           |
 |-----------------|------------------|---------------|------------------------|
-| „Adventure Works” | A3MGR            | Parduotuvės vadovas | 000154, 000137, 000073 |
-| „Adventure Works” | A3CSH            | Kasa       | 000150, 000175, 000165 |
-| „Adventure Works” | A3STK            | Sandėliavimo tarnautojas   | 000155, 000181, 000152 |
+| Adventure Works | A3MGR            | Parduotuvės vadovas | 000154, 000137, 000073 |
+| Adventure Works | A3CSH            | Kasa       | 000150, 000175, 000165 |
+| Adventure Works | A3STK            | Sandėliavimo tarnautojas   | 000155, 000181, 000152 |
 | „Fabrikam“        | F4MGR            | Parduotuvės vadovas | 000160, 000713         |
 | „Fabrikam“        | F3CSH            | Kasa       | 000161, 000113, 000114 |
-| Fabrikam        | F3STK            | Sandėliavimo tarnautojas   | 000164, 000112, 000123 |
+| „Fabrikam“        | F3STK            | Sandėliavimo tarnautojas   | 000164, 000112, 000123 |
 | „Contoso“         | C3MGR            | Parduotuvės vadovas | 000100, 000111         |
 | „Contoso“         | C3CSH            | Kasa       | 000110, 000120         |
 | „Contoso“         | Netaikoma   | Sandėliavimo tarnautojas   | Netaikoma         |
@@ -168,11 +171,8 @@ Vartotojams pateikiami įvairūs ekrano maketai. Naudodamiesi toliau pateikta le
 
 <!-- The screen layouts, button grids, and visual profiles were created using images and icons that can be found in **Retail and Commerce \> Channel setup \> POS setup \> POS \> Images**. -->
 
-<!-- ![Images in Dynamics 365 Commerce.](../commerce/media/demo-screen-layouts-fig-5-1.png) -->
+<!-- ![Images in Dynamics 365 Commerce](../commerce/media/demo-screen-layouts-fig-5-1.png) -->
 
 <!-- Use the [POS Icon and Image Mapping](../commerce/media/POS_Icon_and_Image_Mapping.xlsx) reference spreadsheet to locate operation icons, reference photos, swap logos, or provide new images of your own that can be referenced in custom designs. -->
 
 <!-- END HIDDEN CONTENT -->
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

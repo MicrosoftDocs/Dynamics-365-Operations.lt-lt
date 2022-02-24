@@ -1,10 +1,12 @@
 ---
 title: Algalapio pradžios balansų įvedimas
-description: Temoje aprašomi pradžios balansų įvedimo veiksmai įvedant pajamų kodus, atskaitymus, išmokas ir mokesčius.
+description: Temoje aprašomi pradžios balansų įvedimo veiksmai įvedant pajamų kodus, atskaitymus, išmokas ir mokesčius. Ši informacija yra naudinga partneriams perkeliant duomenis naujo algalapio diegimui iš kitos sistemos.
 author: andreabichsel
+manager: AnnBe
 ms.date: 11/20/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: anbichse
@@ -14,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0a5529e3268727dce022daebb853e50710e5bde84811014febe30e80afee9ed6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8443bc5c63a90d80757ab4b7507502497c2aaa69
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6721881"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797789"
 ---
 # <a name="enter-payroll-beginning-balances"></a>Algalapio pradžios balansų įvedimas
 
@@ -164,6 +166,3 @@ Galima atšaukti ir iš naujo įvesti operacijas. Norėdami atšaukti operaciją
 2. Spustelėkite **Taip**, kai rodomas šis pranešimas: „Atšaukus šį mokėjimo išrašą, norint jį patikslinti, bus sukurtas atšaukimo mokėjimo išrašas Nei vieno iš šių mokėjimo išrašų redaguoti negalima. Ar norite atšaukti šį mokėjimo išrašą?“ rodomas. 
 
 Atšaukus mokėjimo išrašą galima generuoti naują darbuotojo mokėjimo išrašą iš anksčiau sukurto pajamų išrašo. Prieš generuojant naują mokėjimo išrašą būtinai ištaisyti neteisingas pajamų išrašo eilutes, o tada generuoti naują mokėjimo išrašą su teisingomis sumomis. 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

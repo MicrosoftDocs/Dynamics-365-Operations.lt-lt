@@ -2,30 +2,35 @@
 title: Įvertinimų ir atsiliepimų konfigūravimas
 description: Šioje temoje aprašoma, kaip sukonfigūruoti savo el. prekybos svetainę, kad programoje „Microsoft Dynamics 365 Commerce“ būtų rodomi klientų įverčiai ir apžvalgos.
 author: gvrmohanreddy
+manager: annbe
 ms.date: 02/17/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
+ms.search.scope: Operations, Retail, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: e3f9ff4b0654ec5fa7548ac62e16ae64f44383e7
-ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
-ms.translationtype: MT
+ms.openlocfilehash: edd2082b5d2cafcb955f8e3c7762bcba523ac479
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7968107"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4414249"
 ---
 # <a name="configure-ratings-and-reviews"></a>Įvertinimų ir atsiliepimų konfigūravimas
 
 [!include [banner](includes/banner.md)]
 
 Šioje temoje aprašoma, kaip sukonfigūruoti savo el. prekybos svetainę, kad programoje „Microsoft Dynamics 365 Commerce“ būtų rodomi klientų įverčiai ir apžvalgos.
+
+## <a name="overview"></a>Peržiūrėti
 
 El. prekybos svetainėse nurodyti įverčiai ir apžvalgos klientams padeda sužinoti apie produktus prieš priimant pirkimo sprendimą, nes jiems parodo, ką apie tuos produktus mano kiti klientai. El. prekybos svetainėse įverčiai ir apžvalgos taip pat yra mechanizmas klientų atsiliepimams apie produktus rinkti. 
 
@@ -44,7 +49,7 @@ Norėdami sukonfigūruoti svetainę, kad būtų rodomi įverčiai ir apžvalgos,
 
 Tolesnėje iliustracijoje rodoma, kaip ši konfigūracija atrodo programoje „Dynamics 365 Commerce“.
 
-![Svetainės sukonfigūravimas, kad būtų rodomi įverčiai ir apžvalgos.](media/rnr-eCommerce-site-appsettings.png)
+![Svetainės sukonfigūravimas, kad būtų rodomi įverčiai ir apžvalgos](media/rnr-eCommerce-site-appsettings.png)
 
 ## <a name="link-a-product-rating-to-the-reviews-section-of-a-pdp"></a>Produkto įverčio susiejimas su PIIP skyriumi Apžvalgos
 
@@ -58,7 +63,7 @@ Norėdami produkto įvertį susieti su PIIP skyriumi **Apžvalgos**, atlikite to
 
 Tolesnėje iliustracijoje rodoma, kaip ši konfigūracija atrodo programoje „Dynamics 365 Commerce“.
 
-![Produkto įverčio susiejimas su PIIP skyriumi Apžvalgos.](media/rnr-eCommerce-buy-box-rating-summary.png)
+![Produkto įverčio susiejimas su PIIP skyriumi Apžvalgos](media/rnr-eCommerce-buy-box-rating-summary.png)
 
 ## <a name="configure-the-link-for-the-privacy-and-policy-page"></a>Privatumo ir strategijų puslapio saito konfigūravimas
 
@@ -73,7 +78,7 @@ Norėdami sukonfigūruoti privatumo ir strategijų puslapio saitą, atlikite tol
 
 Tolesnėje iliustracijoje rodoma, kaip ši konfigūracija atrodo programoje „Dynamics 365 Commerce“.
 
-![Privatumo ir strategijų puslapio saito konfigūravimas.](media/rnr-eCommerce-rnr-privacy-policy-link.png)
+![Privatumo ir strategijų puslapio saito konfigūravimas](media/rnr-eCommerce-rnr-privacy-policy-link.png)
 
 ## <a name="configure-ratings-and-reviews-modules-on-product-details-pages"></a>Įvertinimų ir atsiliepimų modulių produkto informacijos puslapiuose konfigūravimas
 
@@ -87,17 +92,6 @@ Informacijos, kaip konfigūruoti įvertinimus ir atsiliepimų modulius produkto 
 
 [Įvertinimų ir atsiliepimų tvarkymas](manage-reviews.md)
 
+[Įvertinimų ir atsiliepimų modulių produkto informacijos puslapiuose konfigūravimas](ratings-reviews-modules.md)
+
 [Produktų įvertinimų sinchronizavimas sprendime „Dynamics 365 Retail“](sync-product-ratings.md)
-
-[Neautomatinio vadovo įvertinimų ir atsiliepimų publikavimo įjungimas](manual-publish-rating-reviews.md)
-
-[Importuoti ir eksportuoti įvertinimus ir apžvalgas](import-export-reviews.md)
-
-[Konfigūruoti paslaugos autentifikavimą](service-to-service-auth.md)
-
-[DUK apie įvertinimus ir apžvalgas](ratings-reviews-faq.md)
-
-[Įvertinimų ir apžvalgų moduliai](ratings-reviews-modules.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

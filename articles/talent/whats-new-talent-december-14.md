@@ -151,6 +151,3 @@ Atnaujinti susiejimai turėtų atrodyti taip, kaip toliau parodytuose paveikslė
 ![Darbuotojų, skirtų darbuotojui, užduotis](./media/WorkerMapping.png)
 
 ![Lyties lauko transformacija](./media/WorkerTransform.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

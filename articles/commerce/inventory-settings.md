@@ -2,12 +2,15 @@
 title: Atsargų parametrų taikymas
 description: Šioje temoje aptariami atsargų parametrai ir aprašoma, kaip juos taikyti programoje „Microsoft Dynamics 365 Commerce“.
 author: anupamar-ms
-ms.date: 10/15/2021
+manager: annbe
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -15,12 +18,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4ba3e67cf9c72b9a9606528c02f9e57d19a74c1f
-ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
-ms.translationtype: MT
+ms.openlocfilehash: dfa8b2bdc03e3698feda26932db757421097140d
+ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "7647589"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4517069"
 ---
 # <a name="apply-inventory-settings"></a>Atsargų parametrų taikymas
 
@@ -28,9 +31,11 @@ ms.locfileid: "7647589"
 
 Šioje temoje aptariami atsargų parametrai ir aprašoma, kaip juos taikyti programoje „Microsoft Dynamics 365 Commerce“.
 
+## <a name="overview"></a>Peržiūra
+
 Atsargų parametrai nurodo, ar atsargos turi būti patikrintos prieš įtraukiant produktus į krepšelį. Jie taip pat apibrėžia su atsargomis susijusius prekybos pranešimus, pvz., „Sandėlyje“ ir „Liko vos keli“. Šie parametrai užtikrina, kad produkto nepavyktų įsigyti, jei jo atsargos pasibaigė.
 
-„Dynamics 365 Commerce“ pateikiamas turimų produktų atsargų kiekis. Norėdami gauti daugiau informacijos apie tai, kaip apskaičiuojamas turimų atsargų pasiekiamumas, žr. [Mažmeninės prekybos kanalų atsargų pasiekiamumo apskaičiavimas](calculated-inventory-retail-channels.md).
+„Dynamics 365 Commerce“ pateikiamas turimų produktų atsargų kiekis. Norėdami gauti daugiau informacijos apie tai, kaip apskaičiuojamas turimų atsargų pasiekiamumas, žr [Mažmeninės prekybos kanalų atsargų pasiekiamumo apskaičiavimas](calculated-inventory-retail-channels.md).
 
 Svetainės kūrimo priemonėje „Commerce“ galima nustatyti produkto ar kategorijos atsargų ribines vertes ir diapazonus. Jos nustato, ar atsargos gali būti klasifikuojamos kaip „yra atsargų“, „mažai atsargų“ arba „nebėra atsargų“. Jei reikia išsamios informacijos, žr. [Atsargų buferių ir atsargų lygių konfigūravimas](inventory-buffers-levels.md).
 
@@ -39,22 +44,12 @@ Svetainės kūrimo priemonėje „Commerce“ galima nustatyti produkto ar kateg
 
 ## <a name="inventory-settings"></a>Atsargų parametrai
 
-Programoje „Commerce“ atsargų parametrai apibrėžiami **Svetainės parametrai \> Plėtiniai \> Atsargų valdymas** svetainės kūrimo priemonėje. Yra šeši atsargų parametrai, iš kurių vienas yra pasenęs (nerekomenduojamas):
+Programoje „Commerce“ atsargų parametrai apibrėžiami **Svetainės parametrai \> Plėtiniai \> Atsargų valdymas** svetainės kūrimo priemonėje. Yra keturi atsargų parametrai, iš kurių vienas yra pasenęs (nerekomenduojamas):
 
 - **Įjungti atsargų tikrinimą programoje** – Šis nustatymas įjungia gaminio inventoriaus patikrinimą. Tada pirkimo langelio, krepšelio ir atsiėmimo parduotuvėje moduliai patikrina produkto atsargas ir leidžia įtraukti produktą į krepšelį, tik jei yra atsargų.
 - **Atsargų lygio pagrindas** – šis parametras nurodo, kaip apskaičiuojamas atsargų lygis. Galimos reikšmės: **Iš viso pasiekiama**, **Fiziškai pasiekiama** ir **Pasibaigusių atsargų slenkstis**. Programoje „Commerce“ galima nustatyti kiekvieno produkto ir kategorijos atsargų ribinę vertę ir diapazonus. Atsargų API pateikia produkto atsargų informaciją, skirtą ypatybėms **Iš viso pasiekiama** ir **Fiziškai pasiekiama**. Mažmenininkas sprendžia, ar **Iš viso pasiekiama** arba **Fiziškai pasiekiama** reikšmės turėtų būti naudojamos atsargų kiekiui ir atitinkamiems diapazonams esančių ir nesančių atsargų būsenai nustatyti.
 
     Parametro **Atsargų lygio pagrindas** reikšmė **Pasibaigusių atsargų slenkstis** yra pasenusi (senstelėjusi), nebenaudojama reikšmė. Ją pasirinkus, atsargų skaičius nustatomas pagal reikšmės **Iš viso pasiekiama** rezultatus, bet slenkstį apibrėžia toliau aprašytas skaitinis parametras **Pasibaigusių atsargų slenkstis**. Šis slenksčio nustatymas taikomas visiems produktams visame e-komercijos saite. Jei atsargos mažesnės už ribinę vertę, laikoma, kad produkto atsargos pasibaigusios. Priešingu atveju laikoma, kad jo atsargų yra. Reikšmės **Pasibaigusių atsargų slenkstis** galimybės yra ribotos ir nerekomenduojame jų naudoti 10.0.12 ir naujesnėje versijoje.
-
-- **Kelių sandėlių atsargų lygis – šis parametras leidžia apskaičiuoti atsargų lygį pagal numatytąjį** sandėlį arba kelis sandėlius. Pasirinktis **Pagal atskirą** sandėlį apskaičiuos atsargų lygius pagal numatytąjį sandėlį. Arba el. komercijos svetainė gali nurodyti kelis sandėlius, kad būtų lengviau įvykdyti. Tokiu atveju **parinktis Pagal siuntimo ir paėmimo sandėlių suvestinę** naudojama nurodant atsargas. Pavyzdžiui, kai klientas perka prekę ir kaip pristatymo būdą pasirenka "siuntimas", prekę galima siųsti iš bet kurio įvykdymo grupės sandėlio, turimo atsargų. Produkto informacijos puslapyje (PDP) bus rodomas pranešimas "Atsargose", skirtas siuntai, jei įvykdymo grupėje yra siuntimo sandėlių atsargų. 
-
-    > [!IMPORTANT] 
-    > Kelių **sandėlių parametrų atsargų lygis** pasiekiamas naudojant „Commerce" 10.0.19 versiją. Jei atnaujinate iš senesnės „Commerce” versijos, turite rankiniu būdu atnaujinti failą appsettings.json. Dėl nurodymų, žr. [SDK ir modulio bibliotekos naujinimai](e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file).
-
-- **Produktų sąrašo puslapių atsargų parametrai** – šis parametras apibrėžia, kaip produktai, kurių nėra atsargose, rodomi produktų sąrašuose, kurie atvaizduojami produktų rinkimo ir ieškos rezultatų moduliuose. Galimos vertės yra **Rodyti užsakymą su kitais produktais**, **Slėpti atsargų produktus iš sąrašo**, ir **Rodyti produktus ne atsargose sąrašo pabaigoje**. Norėdami naudoti šį parametrą, pirmiausia turite sukonfigūruoti kelis būtinuosius parametrus „Commerce Headquarters". Daugiau informacijos ieškokite [modulyje Įgalinti atsargų supratimą apie ieškos rezultatus](search-result-module.md#enable-inventory-awareness-for-the-search-results-module).
-
-    > [!IMPORTANT] 
-    > Kelių **Atsargų parametrų produkto sąrašo puslapiuose** pasiekiamas naudojant „Commerce" 10.0.20 versiją. Jei atnaujinate iš senesnės „Commerce” versijos, turite rankiniu būdu atnaujinti failą appsettings.json. Dėl nurodymų, žr. [SDK ir modulio bibliotekos naujinimai](e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file).
 
 - **Atsargų diapazonai** – šis parametras apibrėžia atsargų diapazonus, kurie bus rodomi dėl svetainės moduliuose. Jis taikomas tik tuo atveju, jei reikšmės **Iš viso pasiekiama** arba **Fiziškai pasiekiama** pasirinktos parametrui **Atsargų lygio pagrindas**. Galimos vertės yra **Visos**, **Mažai ir nebėra** ir **Nebėra**.
 
@@ -71,21 +66,21 @@ Programoje „Commerce“ atsargų parametrai apibrėžiami **Svetainės paramet
 
 Pirkimo langelis, pageidavimų sąrašas, parduotuvės parinkiklis, krepšelis ir krepšelio piktogramos moduliai naudoja atsargų parametrus, kad būtų rodomi atsargų diapazonai ir pranešimai.
 
-Šiame pavyzdyje PDP rodo atsargų („Turima") pranešimą.
+Toliau pateiktame paveikslėlyje parodytas produkto informacijos puslapis (PDP), kuriame pateikiamas pranešimas, kad atsargų yra („Yra“).
 
-![PDP modulio su atsargų pranešimu, pavyzdys.](./media/pdp-InStock.png)
+![PDP modulio su atsargų pranešimu, pavyzdys](./media/pdp-InStock.png)
 
-Šiame pavyzdyje PDP rodo atsargų („Pasibaigė") pranešimą.
+Toliau pateiktame paveikslėlyje rodomas PDP puslapis, kuriame pateikiamas pranešimas „Nėra atsargų“.
 
-![PDP modulio su pasibaigusių atsargų pranešimu, pavyzdys.](./media/pdp-outofstock.png)
+![PDP modulio su pasibaigusių atsargų pranešimu, pavyzdys](./media/pdp-outofstock.png)
 
-Šiame pavyzdyje vežimėlis rodo atsargų („Turima") pranešimą.
+Toliau pateiktame paveikslėlyje rodomas krepšelis, kuriame pateikiamas pranešimas, kad atsargų yra („Yra“).
 
-![Krepšelio modulio su atsargų pranešimu, pavyzdys.](./media/cart-instock.png)
+![Krepšelio modulio su atsargų pranešimu, pavyzdys](./media/cart-instock.png)
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
-[Modulių bibliotekos peržiūra](starter-kit-overview.md)
+[Modulių bibliotekos apžvalga](starter-kit-overview.md)
 
 [Atsargų buferių ir atsargų lygių konfigūravimas](inventory-buffers-levels.md)
 
@@ -98,6 +93,3 @@ Pirkimo langelis, pageidavimų sąrašas, parduotuvės parinkiklis, krepšelis i
 [Parduotuvės išrinkiklio modulis](store-selector.md)
 
 [SDK ir modulių bibliotekos naujinimai](e-commerce-extensibility/sdk-updates.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

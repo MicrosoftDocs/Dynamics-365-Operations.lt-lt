@@ -2,9 +2,11 @@
 title: Svertinio vidurkio data
 description: Svertinio vidurkio data yra atsargų modelis, pagrįstas svertinio vidurkio principu, kai atsargų išdavimai vertinami naudojant vidutinę prekių, gautų į atsargas kiekvieną atskirą atsargų uždarymo laikotarpio dieną, vertę.
 author: AndersGirke
+manager: tfehr
 ms.date: 10/25/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
 audience: Application User
@@ -13,15 +15,15 @@ ms.custom: 28991
 ms.assetid: 945d5088-a99d-4e54-bc42-d2bd61c61e22
 ms.search.region: Global
 ms.search.industry: Retail
-ms.author: aevengir
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ce056a661130d30426ccfa4c288a0ce5b62ff959
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 5df497a8590c6d60a5f0bc39469cf048c3448572
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572030"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4963743"
 ---
 # <a name="weighted-average-date"></a>Svertinio vidurkio data
 
@@ -39,7 +41,7 @@ Svertinis vidurkis = (\[Q1 × P1\] + \[Q2 × P2\] + \[Q *n* × P *n*\]) ÷ (Q1 +
 
 Uždarant atsargas skaičiavimas atliekamas kasdien per uždarymo laikotarpį, kaip parodyta toliau esančioje iliustracijoje. 
 
-![Svertinio vidurkio dienos duomenų skaičiavimo modelis.](./media/weightedaveragedatedailycalculationmodel.gif) 
+![Svertinio vidurkio dienos duomenų skaičiavimo modelis](./media/weightedaveragedatedailycalculationmodel.gif) 
 
 Atsargų operacijos, paliekančios atsargas, įskaitant pardavimo užsakymus, atsargų žurnalus, pirkimo kredito pažymas ir gamybos užsakymus, atliekamos registravimo datą įvertinta savikaina. Ši apskaičiuota savikaina taip pat vadinama paleidžiamąja vidutine savikaina. Atsargų uždarymo dieną sistema analizuoja ankstesnių laikotarpių, ankstesnių dienų ir dabartinės dienos atsargų operacijas. Ši analizė naudojama siekiant nustatyti, kurį iš šių uždarymo principų reikia naudoti:
 
@@ -72,7 +74,7 @@ Toliau pavaizduoti šie sandoriai:
 -   2b. Atsargų finansinis išdavimas atnaujintas 2 vienetais, kiekvieno vieneto kaina 10,00 USD.
 -   3. Atsargų uždarymas atliekamas taikant tiesioginio sudengimo būdą, kad būtų sudengtas finansinis atsargų gavimas su finansiniu atsargų išdavimu.
 
-![Svetinio vidurkio datos tiesioginis sudengimas be pasirinkties Įtraukti faktinę vertę.](./media/weightedaveragedatedirectsettlementwithoutincludephysicalvalue.gif) 
+![Svetinio vidurkio datos tiesioginis sudengimas be pasirinkties Įtraukti faktinę vertę](./media/weightedaveragedatedirectsettlementwithoutincludephysicalvalue.gif) 
 
 **Iliustracijos paaiškinimas.**
 
@@ -126,7 +128,7 @@ Sistemoje sugeneruojama ir užregistruojama apibendrinta atsargų perkėlimo ope
 
 Toliau pateikiamoje iliustracijoje rodoma ši operacijų seka, ir svertinio vidurkio atsargų modelio naudojimo poveikis, suvestinio atsiskaitymo principas, bet be **Įtraukti faktinę vertę** parinkties. 
 
-![Svertinio vidurkio datos suvestinis sudengimas be pasirinkties Įtraukti faktinę vertę.](./media/weightedaveragedatesummarizedsettlementwithoutincludephysicalvalue.gif) 
+![Svertinio vidurkio datos suvestinis sudengimas be pasirinkties Įtraukti faktinę vertę](./media/weightedaveragedatesummarizedsettlementwithoutincludephysicalvalue.gif) 
 
 **Iliustracijos paaiškinimas**
 
@@ -175,7 +177,7 @@ Galite pažymėti išdavimo operaciją su gavimu prieš užregistruodami operaci
 
 Nauja slankiojo vidurkio savikaina rodo finansiškai ir fiziškai atnaujintų operacijų vidurkį – 27,50 USD. Šioje iliustracijoje pateikta operacijų serija ir svertinio vidurkio atsargų modelis su žymėjimu naudojimo rezultatas.
 
-![Svertinio vidurkio data su žymėjimu.](./media/weightedaveragedatewithmarking.gif) 
+![Svertinio vidurkio data su žymėjimu](./media/weightedaveragedatewithmarking.gif) 
 
 **Iliustracijos paaiškinimas.**
 
@@ -193,6 +195,3 @@ Nauja slankiojo vidurkio savikaina rodo finansiškai ir fiziškai atnaujintų op
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

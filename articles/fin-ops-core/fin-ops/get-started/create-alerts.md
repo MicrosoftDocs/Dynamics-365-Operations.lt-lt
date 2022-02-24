@@ -1,24 +1,26 @@
 ---
 title: Įspėjimo taisyklių kūrimas
-description: Šioje temoje pateikiama informacija apie įspėjimus ir paaiškinama, kaip sukurti įspėjimo taisyklę.
-author: RichdiMSFT
+description: Šioje temoje pateikiama informacija apie įspėjimus ir paaiškinama, kaip kurti įspėjimo taisyklę, kad būtumėte įspėti apie įvykius, pvz., atėjusią tam tikrą dieną arba konkretų įvykusį pasikeitimą.
+author: tjvass
+manager: AnnBe
 ms.date: 10/08/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EventCreateRule
 audience: Application user
 ms.reviewer: sericks
 ms.search.region: Global
-ms.author: richdi
+ms.author: tjvass
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
-ms.openlocfilehash: 597785e65f127794ca84fe3053a664f717b056bd7374e0396732d4bcf59a743c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3721416ce720167a6f78e26583de84af9c8d086b
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6736203"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798432"
 ---
 # <a name="create-alert-rules"></a>Įspėjimo taisyklių kūrimas
 
@@ -100,8 +102,3 @@ Negalite kurti įspėjimų kai kuriuose formų antrinių duomenų šaltiniuose. 
     ```
 2. Sukurkite įspėjimą iš formos SysTableBrowser.
 
-### <a name="change-based-alerts-do-not-work-for-batch-status-changes"></a>Pokyčiais grįsti įspėjimai neveikia partijos būsenos pakeitimams
-Pokyčiu grįsti įspėjimai neveikia su partijos būsenos pakeitimais, nes jie išjungti dėl našumo priežasčių. Todėl turėtumėte nustatyti **paketo įspėjimų** galimybę. Daugiau informacijos rasite skyriuje [Patobulintų paketinių formų įspėjimų nustatymas](../../dev-itpro/sysadmin/alerts.md#set-up-alerts-for-batch-enhanced-forms).
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

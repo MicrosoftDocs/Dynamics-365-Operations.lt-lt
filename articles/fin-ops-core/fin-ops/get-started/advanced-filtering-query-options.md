@@ -1,10 +1,12 @@
 ---
 title: Išplėstinio filtravimo ir užklausų sintaksė
-description: Šioje temoje aprašomos filtravimo ir užklausos parinktys, kurios pasiekiamos naudojant dialogo langą Išplėstinis filtravimas ar rūšiavimas arba filtro srityje esantį atitikimo operatorių, arba tinklelio stulpelių antraščių filtrus.
+description: Šioje temoje aprašomos filtravimo ir užklausos parinktys, kurios pasiekiamos naudojant dialogo langą Išplėstinis filtravimas / rūšiavimas arba filtro srityje esantį atitikimo operatorių, arba tinklelio stulpelių antraščių filtrus.
 author: jasongre
+manager: AnnBe
 ms.date: 03/09/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysQueryForm
 audience: Application User
@@ -15,19 +17,16 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c0fefac5a7a2b299ba606a854824ee456c572487
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
-ms.translationtype: MT
+ms.openlocfilehash: 650f1c209b1797973634c788645a4659bff28f13
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070014"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798676"
 ---
 # <a name="advanced-filtering-and-query-syntax"></a>Išplėstinio filtravimo ir užklausų sintaksė
 
 [!include [banner](../includes/banner.md)]
-
-
-[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Šioje temoje aprašomos filtravimo ir užklausos parinktys, kurios pasiekiamos naudojant dialogo langą Išplėstinis filtravimas / rūšiavimas arba filtro srityje esantį **atitikimo** operatorių, arba tinklelio stulpelių antraščių filtrus.
 
@@ -122,9 +121,9 @@ ms.locfileid: "8070014"
 <td>Naudojant dvi iš eilės įvestas dvigubas kabutes (<strong>""</strong>), randamos eilutės, kuriose dabartinio stulpelio reikšmių nėra.</td>
 </tr>
 <tr>
-<td>(<span class="code">Finansų ir operacijų užklausa</span>) (užklausa „Finance and Operations“ skliausteliuose)</td>
+<td>(<span class="code">„Finance and Operations” užklausa</span>) („Finance and Operations” užklausa skliausteliuose)</td>
 <td>Ieškoma užklausos, atitinkančios nustatytą</td>
-<td>Įveskite užklausą kaip SQL sakinį tarp skliaustų, naudodami užklausos kalbą „Finance and Operations“.</td>
+<td>Įveskite užklausą kaip SQL sakinį tarp skliaustelių naudodami „Finance and Operations” užklausos kalbą.</td>
   <td><strong><span class="code">((AccountNum LIKE "US *") && (DirPartyTable.Name LIKE "Cont*"))</span></strong><br><br> 
        tai pavyzdys sintaksės, naudojamos šakninio duomenų šalitinio lauko ir kito duomenų šaltinio (skirto puslapiui Visi klientai) lauko filtro sąlygai</td>
 </tr>
@@ -243,6 +242,3 @@ Jei reikia papildomos informacijos apie <strong>SysQueryRangeUtil</strong> datos
 </tr>
 </tbody>
 </table>
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

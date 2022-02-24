@@ -2,12 +2,15 @@
 title: Karuselės modulis
 description: Šioje temoje aprašomi karuselės moduliai ir tai, kaip jų įtraukti į „Microsoft Dynamics 365 Commerce“ svetainių puslapius.
 author: anupamar-ms
+manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -15,18 +18,20 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: cfbe254d225366f89779ffeef410bb0b1a29056e51a4719106e9bc495b898161
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f09f3f98d174f965a75e27ee6a5c2ed8599042fc
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6721060"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4414274"
 ---
 # <a name="carousel-module"></a>Karuselės modulis
 
 [!include [banner](includes/banner.md)]
 
 Šioje temoje aprašomi karuselės moduliai ir tai, kaip jų įtraukti į „Microsoft Dynamics 365 Commerce“ svetainių puslapius.
+
+## <a name="overview"></a>Peržiūrėti
 
 Naudojant karuselės modulį kelios reklaminės prekės (įskaitant išraiškingus veiksmus) įdedamos į rotacinę karuselės reklaminę juostą, kurią klientai gali naršyti. Pavyzdžiui, karuselės modulį naudodamas pagrindiniame puslapyje pardavėjas gali parodyti kelis naujus produktus ar akcijas.
 
@@ -40,11 +45,11 @@ Naudojant karuselės modulį kelios reklaminės prekės (įskaitant išraišking
 
 Toliau pateiktame paveikslėlyje parodytas pagrindiniame puslapyje esančio karuselės modulio pavyzdys. Šiame karuselės modulyje yra keli turinio blokų elementai.
 
-![Karuselės modulio pavyzdys.](./media/Hero.PNG)
+![Karuselės modulio pavyzdys](./media/Hero.PNG)
 
 ## <a name="carousel-module-properties"></a>Karuselės modulio ypatybės
 
-| Ypatybės pavadinimas             | Reikšmė                 | Aprašas |
+| Ypatybės pavadinimas             | Vertė                 | aprašymas |
 |---------------------------|-----------------------|-------------|
 | Automatinis paleidimas                  | **Teisinga** arba **Klaidinga** | Jei reikšmė nustatoma kaip **Teisinga**, nuo vienos prekės prie kitos karuselėje pereinama automatiškai. Jei reikšmė nustatoma kaip **Klaidinga**, prie kitos prekės nepereinama, nebent klientas nuo vienos prekės prie kitos pereina klaviatūra ar pele. |
 | Skaidrių perėjimo intervalas | Reikšmė sekundėmis    | Perėjimo nuo vienos prekės prie kitos intervalas. |
@@ -81,6 +86,3 @@ Norėdami į naują puslapį įtraukti karuselės modulį ir nustatyti reikiamas
 [Turinio bloko modulis](add-hero-module.md)
 
 [Vaizdo įrašų leistuvo modulis](add-video-player.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

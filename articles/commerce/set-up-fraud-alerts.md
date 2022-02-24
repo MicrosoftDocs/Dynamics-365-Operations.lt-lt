@@ -2,13 +2,16 @@
 title: Įspėjimų dėl apgaulės nustatymas skambučių centre ir jų naudojimas
 description: Šioje temoje paaiškinama, kaip nustatyti taisykles, kad klientų aptarnavimo atstovai užsakymų apdorojimo metu būtų įspėjami apie galimai apgaulingą informaciją. Galite apibrėžti konkrečius kodus, kuriuos naudojant galima automatiškai arba rankiniu būdu sulaikyti įtartinus užsakymus.
 author: josaw1
+manager: AnnBe
 ms.date: 05/14/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: SalesPostingHistory, MCRHoldCodeTrans
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: 79103
 ms.assetid: e342af8d-7498-4d20-8483-ab368429c578
 ms.search.region: global
@@ -16,12 +19,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: e692d43b8c2648a424ff3b4fdc9d0cf16d0e03702d6a237f71caaf49646c5ec3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 38649e40021d1caaf70f217b3ebae0d488806180
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6763673"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4414426"
 ---
 # <a name="set-up-and-work-with-call-center-fraud-alerts"></a>Įspėjimų dėl apgaulės nustatymas skambučių centre ir jų naudojimas
 
@@ -34,13 +37,13 @@ ms.locfileid: "6763673"
 
 ## <a name="turning-on-the-fraud-check-feature"></a>Apgaulės patikros funkcijos įjungimas
 
-Norėdami naudoti apgaulės patikros funkciją, nustatykite kanalo parinktį **Įgalinti užsakymo baigimą** kaip **Taip**, kai skambučių centro kanalas yra [apibrėžtas](/dynamics365/unified-operations/retail/set-up-order-processing-options). Įjungus užsakymo baigimo funkciją, skambučių centro vartotojai kiekvieno sukurto pardavimo užsakymo puslapyje turi pasirinkti **Baigti**. Pasirinkus baigimo veiksmą atidaromas puslapis **Pardavimo užsakymo suvestinė**. Kai vartotojai įveda reikiamus mokėjimo duomenis puslapyje **Pardavimo užsakymo suvestinė**, reikia pasirinkti **Pateikti**, kad užsakymas būtų baigtas. Pateikus užsakymą, suaktyvinama apgaulės patikros funkcija ir automatiškai patikrinamos bet kokios sistemoje esančios aktyvios taisyklės.
+Norėdami naudoti apgaulės patikros funkciją, nustatykite kanalo parinktį **Įgalinti užsakymo baigimą** kaip **Taip**, kai skambučių centro kanalas yra [apibrėžtas](https://docs.microsoft.com/dynamics365/unified-operations/retail/set-up-order-processing-options). Įjungus užsakymo baigimo funkciją, skambučių centro vartotojai kiekvieno sukurto pardavimo užsakymo puslapyje turi pasirinkti **Baigti**. Pasirinkus baigimo veiksmą atidaromas puslapis **Pardavimo užsakymo suvestinė**. Kai vartotojai įveda reikiamus mokėjimo duomenis puslapyje **Pardavimo užsakymo suvestinė**, reikia pasirinkti **Pateikti**, kad užsakymas būtų baigtas. Pateikus užsakymą, suaktyvinama apgaulės patikros funkcija ir automatiškai patikrinamos bet kokios sistemoje esančios aktyvios taisyklės.
 
-Skambučių centro vartotojai taip pat gali rankiniu būdu sulaikyti pardavimo užsakymus ir patikrinti juos dėl galimos apgaulės prieš pasirinkdami **Pateikti**. Norėdami rankiniu būdu sulaikyti pardavimo užsakymą, puslapyje **Pardavimo užsakymo suvestinė** pasirinkite **Sulaikyti** \> **Sulaikymas dėl apgaulės rankiniu būdu**. Tada būsite paraginti įvesti komentarą, nurodantį užsakymo sulaikymo priežastį. Šis komentaras bus rodomas [užsakymų sulaikymo](/dynamics365/unified-operations/retail/work-with-order-holds) darbo srityje, kad sulaikytus užsakymus peržiūrinčiam vartotojui būtų paprasčiau nuspręsti, ar užsakymo sulaikymą reikia atšaukti.
+Skambučių centro vartotojai taip pat gali rankiniu būdu sulaikyti pardavimo užsakymus ir patikrinti juos dėl galimos apgaulės prieš pasirinkdami **Pateikti**. Norėdami rankiniu būdu sulaikyti pardavimo užsakymą, puslapyje **Pardavimo užsakymo suvestinė** pasirinkite **Sulaikyti** \> **Sulaikymas dėl apgaulės rankiniu būdu**. Tada būsite paraginti įvesti komentarą, nurodantį užsakymo sulaikymo priežastį. Šis komentaras bus rodomas [užsakymų sulaikymo](https://docs.microsoft.com/dynamics365/unified-operations/retail/work-with-order-holds) darbo srityje, kad sulaikytus užsakymus peržiūrinčiam vartotojui būtų paprasčiau nuspręsti, ar užsakymo sulaikymą reikia atšaukti.
 
 Sukonfigūravus kanale parinktį **Įgalinti užsakymo baigimą**, skambučių centro parametrų dalyje taip pat reikia sukonfigūruoti apgaulės patikros funkciją. Eikite į **Mažmeninė prekyba ir prekyba** \> **Kanalo nustatymas** \> **Skambučių centro sąranka** \> **Skambučių centro parametrai**. Puslapio **Skambučių centro parametrai** skirtuke **Sulaikymai** nustatykite parinkties **Apgaulės patikra** parametrą **Taip**.
 
-Skirtuke **Sulaikymai** taip pat reikia apibrėžti [sulaikymo kodus](/dynamics365/unified-operations/retail/work-with-order-holds), kurie taikomi rankiniu būdu ar automatiškai sulaikytam užsakymui, kurį reikia peržiūrėti dėl galimos apgaulės. Nustatykite sulaikymo kodus laukuose **Sulaikymo dėl apgaulės rankiniu būdu kodas** ir **Sulaikymo dėl apgaulės kodas**. Galite sukurti du unikalius sulaikymo kodus, kad sulaikymo darbo srityje dirbantys vartotojai galėtų lengvai filtruoti ir atskirti automatinius sulaikymus ir rankiniu būdu atliktus sulaikymus.
+Skirtuke **Sulaikymai** taip pat reikia apibrėžti [sulaikymo kodus](https://docs.microsoft.com/dynamics365/unified-operations/retail/work-with-order-holds), kurie taikomi rankiniu būdu ar automatiškai sulaikytam užsakymui, kurį reikia peržiūrėti dėl galimos apgaulės. Nustatykite sulaikymo kodus laukuose **Sulaikymo dėl apgaulės rankiniu būdu kodas** ir **Sulaikymo dėl apgaulės kodas**. Galite sukurti du unikalius sulaikymo kodus, kad sulaikymo darbo srityje dirbantys vartotojai galėtų lengvai filtruoti ir atskirti automatinius sulaikymus ir rankiniu būdu atliktus sulaikymus.
 
 Kad apgaulės patikros funkcija veiktų efektyviai, taip pat reikia nustatyti lauką **Minimalus rezultatas**. Kiekvienas sistemoje nustatytas apgaulės kriterijus ir taisyklė turi priskirtą rezultato vertę. Kai pardavimo užsakymas tikrinamas dėl apgaulės, radus vieną arba kelis atitinkančius kriterijus, rezultatai sudedami ir gaunamas bendras užsakymo apgaulės rezultatas. Jei bendras užsakymo apgaulės rezultatas viršija lauke **Minimalus rezultatas** nurodytą vertę, užsakymas automatiškai sulaikomas. Pasirinktinai naudodami kitus su rezultatu susijusius skirtuko **Sulaikymai** laukus, galite apibrėžti el. pašto rezultatą, telefono rezultatą, pašto indekso rezultatą ir išplėsto pašto indekso rezultatą. Jei nenurodysite jokių statinių apgaulės duomenų kriterijų, kai juos apibrėžiate puslapyje **Statiniai apgaulės duomenys**, rezultatų verčių, sistema juos vertins naudodama numatytąsias rezultatų vertes, kurias nurodėte puslapio **Skambučių centro parametrai** skirtuke **Sulaikymai**.
 
@@ -65,7 +68,4 @@ Užsakymas įrašomas, bet jis pažymimas žyme **Neapdoroti**. Ši žymė paded
 
 Norėdami peržiūrėti ir tvarkyti užsakymus, kurie sulaikyti ir kuriuos reikia peržiūrėti dėl apgaulės, eikite į **Mažmeninė prekyba ir prekyba** \> **Klientai** \> **Užsakymo sulaikymas**. Puslapyje **Užsakymo sulaikymas** esančiame sąraše pasirinkite įrašą ir spustelėkite **Užsakymo sulaikymas**, kad pamatytumėte išsamesnį rodinį, kuriame pateikiama informacija apie sulaikymo priežastį. „FastTab“ **Apgaulės informacija** galite peržiūrėti sistemoje nustatytus apgaulės kriterijus, pagal kuriuos rasta atitikmenų užsakyme, ir pritaikytas rezultatų vertes. Jei užsakymas buvo sulaikytas rankiniu būdu, galite peržiūrėti užsakymą sulaikiusio vartotojo įvestus komentarus „FastTab“ **Pastabos** skyriuje **Apgaulės pastabos**.
 
-Daugiau informacijos apie tai, kaip dirbti su sulaikytais užsakymais, žr. [Užsakymo sulaikymas](/dynamics365/unified-operations/retail/work-with-order-holds).
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+Daugiau informacijos apie tai, kaip dirbti su sulaikytais užsakymais, žr. [Užsakymo sulaikymas](https://docs.microsoft.com/dynamics365/unified-operations/retail/work-with-order-holds).

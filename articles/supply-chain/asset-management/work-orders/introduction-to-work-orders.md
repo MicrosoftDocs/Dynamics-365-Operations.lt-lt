@@ -1,26 +1,28 @@
 ---
 title: Įvadas į darbo užsakymus
 description: Šioje temoje pateikiama darbo užsakymų modulyje Turto valdymas apžvalga.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetWorkOrderLineNote, EntAssetWorkOrderTable, EntAssetWorkOrderActive, EntAssetWorkOrderHoursInfoPart, EntAssetWorkOrderLineListPage, EntAssetWorkOrderAddObjectBOMItem, EntAssetWorkOrderTablePoolAdd, EntAssetWorkOrderPurchReqListPagePreviewPane, EntAssetWorkOrderPoolReferenceAdd, EntAssetWorkOrderWorkspace, EntAssetWorkOrderTableAdjust, EntAssetWorkOrderGantt, EntAssetWorkOrderNotes, EntAssetWorkOrderActivePart, EntAssetWorkOrderTableInfoPart, EntAssetWorkOrderLineListPagePreviewPane, EntAssetWorkOrderTool, EntAssetMobileWorkOrderLineDetails, EntAssetMobileWorkOrderLineList, EntAssetMobileWorkOrderDetails
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: intro-internal
+ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3891ea08a484950d8fef57d6229117e90ed93a92ab800f9de3ad82db3aff956d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 378fc6d55deada95e94f91ed3f73f2518efbeb1f
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6754709"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5021885"
 ---
 # <a name="introduction-to-work-orders"></a>Darbo užsakymų įvadas
 
@@ -51,7 +53,7 @@ Pasirinkite **Turto valdymas** > **Bendra** > **Darbo užsakymai** > **Visi darb
 
 Toliau pateiktame paveikslėlyje parodytas sąrašo puslapio **Visi darbo užsakymai** pavyzdys.
 
-![1 iliustracija.](media/01-work-orders.png)
+![1 pav.](media/01-work-orders.png)
 
 Pasirinkite **Turto valdymas** > **Bendra** > **Darbo užsakymai** > **Aktyvieji darbo užsakymai**, kad pamatytumėte tik aktyviųjų darbo užsakymų sąrašą. 
 
@@ -69,7 +71,7 @@ Toliau pateikiami keli būdai, kaip naudoti puslapį **Visi darbo užsakymai**.
 
 Toliau pateiktame paveikslėlyje parodytas informacijos rodinio **Visi darbo užsakymai** pavyzdys.
 
-![2 iliustracija.](media/02-work-orders.png)
+![2 pav.](media/02-work-orders.png)
 
 
 Mygtukai, esantys veiksmų srityje, tvarkomi skirtukuose. Toliau pateikiamoje lentelėje trumpai aprašyti mygtukai, susiję su turto valdymu.
@@ -116,6 +118,3 @@ Mygtukai veiksmų srities skirtuko **Darbo užsakymas** grupėje **Projektas** y
 >[!NOTE]
 >Sukurtas darbo užsakymo prognozes galima įtraukti, vykdant bendrąjį planavimą ir naudojant prognozės modelį, pasirinktą puslapyje **Turto valdymo parametrai**.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

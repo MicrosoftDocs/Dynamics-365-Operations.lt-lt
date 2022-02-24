@@ -1,10 +1,12 @@
 ---
 title: Priežiūros darbuotojai ir darbuotojų grupės
 description: Šioje temoje aprašomi priežiūros darbuotojai ir darbuotojų grupės modulyje „Turto valdymas“.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 06/26/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetWorkerGroupCopyFromResourceGroup, EntAssetWorkerGroup
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1e976a28349a4bc7a371d23eb4df724e0ffd36a0553aec2deeb2ff07d0a63579
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b81de02f144712786704a46d2096dfb510d5ce68
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6750129"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5017397"
 ---
 # <a name="maintenance-workers-and-worker-groups"></a>Priežiūros darbuotojai ir darbuotojų grupės
 
@@ -61,6 +63,3 @@ Taip pat galite kurti priežiūros darbuotojų grupes ir su jais susieti prieži
 6. Jei išteklių grupė turėtų būti susieta su pasirinkta priežiūros darbuotojų grupe, pasirinkite **Kopijuoti iš išteklių grupės**. Lauke **Grupė** pasirinkite išteklių grupę, iš kurios kopijuosite kalendoriaus parametrus. Po to, lauke **Darbuotojų grupė** pasirinkite darbuotojų grupę, kad į ją nukopijuotumėte išteklių grupės kalendoriaus parametrus. Šis veiksmas svarbus tik tada, kai norite, kad planuojant darbo užsakymą, priežiūros darbuotojai galėtų naudoti su ištekliumi (darbo centru) susijusį kalendorių.
 
     „FastTab“ skirtuko **Informacija** lauke nurodomas priežiūros darbuotojų, kurie buvo pridėti į pasirinktą darbuotojų grupę, skaičius.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

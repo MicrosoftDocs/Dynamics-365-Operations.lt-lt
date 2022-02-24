@@ -1,35 +1,40 @@
 ---
 title: Medijos galerijos modulis
-description: Šis skyrius aprašo medijos galerijos modulius ir tai, kaip įtraukti juos į vietos puslapius „Microsoft Dynamics 365 Commerce“.
+description: Šis skyrius aprašo medijos galerijos modulius ir tia, kaip įtraukti juos į vietos puslapius „Microsoft Dynamics 365 Commerce“.
 author: anupamar-ms
-ms.date: 08/02/2021
+manager: annbe
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 328a56a6efbdd97c8dac32d65c65ad31953cdb4c3ce56ef818ebe8bf633f93a4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 647387bafe8866cb1bee8c57675629af796f33e6
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6733202"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4414443"
 ---
 # <a name="media-gallery-module"></a>Medijos galerijos modulis
 
 [!include [banner](includes/banner.md)]
 
-Šis skyrius aprašo medijos galerijos modulius ir tai, kaip įtraukti juos į vietos puslapius „Microsoft Dynamics 365 Commerce“.
+Šis skyrius aprašo medijos galerijos modulius ir tia, kaip įtraukti juos į vietos puslapius „Microsoft Dynamics 365 Commerce“.
 
-Medijos galerijos moduliai rodo vieną ar keletą paveikslėlių galerijos peržiūroje. Medijos galerijos moduliai palaiko miniatūros vaizdus, kurie gali būti tvarkomi horizontaliai (kaip toliau esantis paveikslėlis) ar vertikaliai (kaip stulpelis šalia paveikslėlio). Medijos galerijos moduliai taip pat pateikia galimybes, kurios įjungia paveikslėlio priartinimą (pagerintą) ar peržiūrą visame ekrane. Tam, kad būtų sukurtas medijos galerijos režime, paveikslėlis turi būti prieinamas prekybos svetainės kūrimo įrankyje „Media Library“. Šiuo metu medijos galerijos moduliai palaiko tik paveikslėlius.
+## <a name="overview"></a>Peržiūra
 
-Nustatytame režime, medijos galerijos modulis naudoja produkto ID, kuris yra prieinamas iš produkto informacijos puslapio turinio (PDP) tam, kad sukurtų atitinkamus produkto paveikslėlius. Prekybos štabe medijos failo kelias turi būti nustatytas visiems produktams. Paveikslėliai turi būti po to atnaujinti į vietos kūrimo įrankį „Media Library“ pagal failo kelią, kuris buvo nustatytas produktams prekybos štabe. Šie paveikslėliai apima produktų paveikslėlius ir visus produkto variantus. Dėl išsamesnės informacijos apie tai, kaip įkelti paveikslėlius į svetainės kūrimo įrankį „Media Library“, žr. [Įkelti paveikslėlius](dam-upload-images.md).
+Medijos galerijos moduliai rodo vieną ar keletą paveikslėlių galerijos peržiūroje. Medijos galerijos moduliai palaiko miniatūros vaizdus, kurie gali būti tvarkomi horizontaliai (kaip toliau esantis paveikslėlis) ar vertikaliai (kaip stulpelis šalia paveikslėlio). Medijos galerijos moduliai taip pat pateikia galimybes, kurios įjungia paveikslėlio priartinimą (pagerintą) ar peržiūrą visame ekrane. Tam, kad būtų sukurtas medijos galerijos režime, paveikslėlis turi būti prieinamas prekybos sveitainės kūrimo įrankyje „Media Library“. Šiuo metu medijos galerijos moduliai palaiko tik paveikslėlius.
+
+Nustatytame režime, medijos galerijos modulis naudoja produkto ID, kuris yra prieinamas iš produkto informacijos puslapio turinio (PDP) tam, kad sukūrtų atitinkamus produkto paveikslėlius. Prekybos štabe medijos failo kelias turi būti nustatytas visiems produktams. Paveikslėliai turi būti po to atnaujinti į vietos kūrimo įrankį „Media Library“ pagal failo kelią, kuris buvo nustatytas produktams prekybos štabe. Šie paveikslėliai apima produktų paveikslėlius ir visus produkto variantus. Dėl išsamesnės informacijos apie tai, kaip įkelti paveikslėlius į svetainės kūrimo įrankį „Media Library“, žr. [Įkelti paveikslėlius](dam-upload-images.md).
 
 Kitu atveju, medijos galerijos modulis gali talpinti visą išdirbtą paveikslėlių rinkinį paveikslėlio galerijos puslapyje, kuriame nėra jokių priklausinių nuo produkto ID ar puslapio konteksto. Šiuo atveju, paveikslėliai turi būti įkelti į svetainės kūrimo įrankį „Media Library“ ir nurodyti svetainės kūrimo įrankyje.
 
@@ -41,33 +46,27 @@ Kitu atveju, medijos galerijos modulis gali talpinti visą išdirbtą paveikslė
 
 Šiame pavyzdiniame tolesniame paveikslėlyje, pirkimo laukelis PDP talpina produkto paveikslėlį naudodamas medijos galerijos modulį.
 
-![Įsigijimo laukelio pavyzdys produkto informacijos puslapyje talpina produkto paveikslėlius naudodamas medijos galerijos modulį.](./media/ecommerce-pdp-buybox.PNG)
+![Įsigijimo laukelio pavyzdys produkto informacijos puslapyje talpina produkto paveikslėlius naudodamas medijos galerijos modulį](./media/ecommerce-pdp-buybox.PNG)
 
 ## <a name="media-gallery-properties"></a>Medijos galerijos ypatybės
 
-| Ypatybės pavadinimas | Reikšmės | Aprašas |
+| Ypatybės pavadinimas | Reikšmės | aprašymas |
 |---------------|--------|-------------|
 | Vaizdo šaltinis | **Puslapio kontekstas** ar **Produkto ID** | Nustatytoji vertė yra **Puslapio kontekstas**. Jei **Puslapio kontekstas** yra pasirinktas, modulis tikisi, kad puslapis pateiks produkto ID informaciją. Jei **Produkto ID** yra pasirinktas, produkto ID paveikslėliui turi būti patvirtintas kaip  **Produkto ID** ypatybės vertė. Ši savybė yra prieinama 10.0.12 prekybos versijoje. |
 | Produkto ID | Produkto ID | Ši ypatybė yra taikoma tik, jei **Paveikslėlio šaltinio** ypatybės vertė yra **Produkto ID**. |
 | Vaizdo mastelio keitimas | **Pagal liniją** ar **Konteineris** | Ši ypatybė leidžia vartotojui priartini paveikslėlius medijos galerijos modulyje. Paveikslėlis gali būti priartintas pagal liniją ar atskirame konteineryje šalia paveikslėlio. Ši savybė yra prieinama 10.0.12 prekybos versijoje. |
-| Mastelio koeficientas | Dešimtainis skaičius | Ši ypatybė nurodo skalės faktorių paveikslėlių priartinimui. Pavyzdžiui, jei vertė yra nustatyta į **2,5**, paveikslėlis yra priartinamas 2,5 karto. |
-| Visas ekranas | **Teisinga** arba **Klaidinga** | Ši ypatybė nurodo, ar paveikslėliai gali būti peržiūrimi visame ekrane. Visame ekrane paveikslėliai gali taip pat būti toliau padidinami, jei priartinimo savybė yra įjungta. Ši savybė yra prieinama „Commerce“ versijos 10.0.13 leidime. |
-| Padidinta vaizdo kokybė | Skaičius nuo 1 iki 100, nurodantis procentą ir pasirinktas naudojant sekimo juostos valdiklį | Ši ypatybė nurodo paveikslėlio kokybę, pagal ką galima keisti mastelį. Galima nustatyti 100 procentų norint užtikrinti, kad tolintas vaizdas visada naudos didžiausią galimą skiriamąją gebą. Ši ypatybė netaikoma PNG failams, nes jie naudoja nesąnaudingą formatą. Ši savybė yra prieinama „Commerce“ versijos 10.0.19 leidime. |
+| Priartinimo skalė | Dešimtainis skaičius | Ši ypatybė nurodo skalės faktorių paveikslėlių priartinimui. Pavyzdžiui, jei vertė yra nustatyta į **2,5**, paveikslėlis yra priartinamas 2,5 karto.|
+| Visas ekranas | **Teisinga** arba **Klaidinga** | Ši ypatybė nurodo, ar paveikslėliai gali būti peržiūrimi visame ekrane. Visame ekrane paveikslėliai gali taip pat būti toliau padidinami, jei priartinimo savybė yra įjungta. Ši savybė yra prieinama 10.0.13 prekybos versijoje. |
 | Vaizdai | Svetainės kūrimo įrankyje „Media Library“ pasirinkti paveikslėliai | Kartu su kūrimu iš produkto, paveikslėliai gali būti išdirbami medijos galerijos moduliui. Šie paveikslėliai bus pridėti prie bet kurio gaminio prieinamų paveikslėlių. Ši savybė yra prieinama 10.0.12 prekybos versijoje. |
 | Miniatiūros orientacija | **Vertikaliai** ar **Horizontaliai** | Ši ypatybė nurodo, ar miniatiūros paveikslėliai turi būti rodomi vertikalioje ar horizontalioje juostoje. |
-| Slėpti varianto bendrojo produkto vaizdus | **Teisinga** arba **Klaidinga** | Jei ši ypatybė nustatyta kaip Teisinga, pasirinkus variantą bendrojo produkto vaizdai **paslėpti**, nebent variante nėra vaizdų. Ši ypatybė neturi įtakos produktams, kurie neturi variantų. |
-| Atnaujinti dimensijų pasirinkimo medijas | **Teisinga** arba **Klaidinga** | Jei ši ypatybė nustatyta kaip **Teisinga**, media bibliotekos vaizdai bus atnaujinti pasirinkus bet kokią dimensiją (pvz., spalvą, stilių arba dydį) ir jei vaizdas yra galimas. Ši ypatybė padeda supaprastinti naršymo patirtį, nes reikia pasirinkti ne visas produkto varianto dimensijas, kad būtų galima atnaujinti atitinkamą vaizdą. Ši ypatybė prieinama skirtuke **Papildoma**. |
-
-> [!IMPORTANT]
-> Dimensijų **pasirinkimo ypatybėje atnaujinti mediją** galima naudoti kaip „Commerce" 10.0.21 versiją. Tam reikia, kad būtų įdiegta „Commerce“ modulio bibliotekos paketo versija 9.31.
 
 Toliau pateiktas paveikslėlis rodo medijos galerijos modulio pavyzdį, kuriame visas ekranas ir priartinimo parinktys yra prieinamos.
 
-![Medijos galerijos modulio pavyzdys, kuriame visas ekranas ir priartinimo parinktys yra galimos.](./media/ecommerce-media-zoom.png)
+![Medijos galerijos modulio pavyzdys, kuriame visas ekranas ir priartinimo parinktys yra prieinamos.](./media/ecommerce-media-zoom.png)
 
 Tolesnis paveikslėlis rodo medijos galerijos modulio pavyzdį, kuris išdirbo paveikslėlius (tai yra, nurodyti paveikslėliai nepriklauso nuo produkto ID ar puslapio konteksto).
 
-![Medijos galerijos modulio pavyzdys, kuris išdirbo paveikslėlius.](./media/ecommerce-media-curated.PNG)
+![Medijos galerijos modulio pavyzdys, kuris išdirbo paveikslėlius](./media/ecommerce-media-curated.PNG)
 
 ## <a name="commerce-scale-unit-interaction"></a>„Commerce Scale Unit“ sąveika
 
@@ -105,6 +104,3 @@ Tam, kad įtrauktumėte medijos galerijos modulį į puslapio komerciją, atliki
 [Konteinerio modulis](add-container-module.md)
 
 [Vaizdų nusiuntimas](dam-upload-images.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

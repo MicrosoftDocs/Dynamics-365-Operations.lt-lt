@@ -2,8 +2,11 @@
 title: Teksto kategorijos ER funkcijų sąrašas
 description: Šioje temoje pateikiama informacijos apie teksto funkcijas, palaikomas modulyje Elektroninės ataskaitos (ER).
 author: NickSelin
-ms.date: 09/09/2021
+manager: kfend
+ms.date: 04/02/2020
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
@@ -14,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: afe45bf1ff5c641346997aa4f32f3241dce2f0a2
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
-ms.translationtype: MT
+ms.openlocfilehash: 228620afc81e154eced572f3b6024d6836d00d66
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8075505"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4686032"
 ---
 # <a name="list-of-er-functions-of-the-text-category"></a>Teksto kategorijos ER funkcijų sąrašas
 
@@ -35,14 +38,12 @@ Naudojant modulio Elektroninės ataskaitos (ER) teksto funkcijas, galima atlikti
 | [Sujungti](er-functions-text-concatenate.md) | Ši funkcija visas nurodytas teksto eilutes pateikia kaip tipo *Eilutė* reikšmę, jas sujungus į vieną eilutę. |
 | [Formatas](er-functions-text-format.md) | Ši funkcija nurodytą eilutę pateikia kaip tipo *Eilutė* reikšmę, suformatuotą visus **%N** pasikartojimus pakeičiant *N*-uoju argumentu. |
 | [GetEnumValueByName](er-functions-text-getenumvaluebyname.md) | Ši funkcija nurodytame išvardijimo duomenų šaltinyje ieško konkrečios *Enum* reikšmės, naudodama išvardijimo pavadinimą, kuris nurodytas kaip tipo *Eilutė* reikšmė. Jei *Enum* reikšmė randama, funkcija ją pateikia. |
-| [GetLabelText](er-functions-text-getlabeltext.md) | Ši funkcija ieško konkrečios etiketės, kuri grąžintų a *[Styga](er-formula-supported-data-types-primitive.md#string)* reikšmė, kuri reiškia nurodytos etiketės vertimą nurodyta kalba. |
 | [GuidValue](er-functions-text-guidvalue.md) | Ši funkcija nurodytą tipo *Eilutė* įvestį konvertuoja į duomenų elementą, kurio tipas – *GUID*. |
 | [JsonValue](er-functions-text-jsonvalue.md) | Ši funkcija analizuoja duomenis „JavaScript Object Notation“ (JSON) formatu, kuris pasiekiamas nurodytu keliu, ir išgaunama skaliarinė reikšmė pagal nurodytą ID. Tada grąžinama išskleista skaliarinė reikšmė kaip *Eilutės* reikšmė. |
 | [Kairėn](er-functions-text-left.md) | Ši funkcija pateikia tipo *Eilutė* reikšmę, kurioje pateikiamas nurodytas simbolių skaičius nuo nurodytos eilutės pradžios. |
 | [Len](er-functions-text-len.md) | Ši funkcija pateikia tipo *Sveikasis skaičius* reikšmę, kuri nurodo konkrečios eilutės simbolių skaičių. |
 | [Lower](er-functions-text-lower.md) | Ši funkcija nurodytą teksto eilutę pateikia kaip tipo *Eilutė* reikšmę, ją konvertavus į mažąsias raides. |
-| [Mid](er-functions-text-mid.md) | Ši funkcija pateikia tipo *[Eilutė](er-formula-supported-data-types-primitive.md#string)* reikšmę, kurioje pateikiamas nurodytas simbolių skaičius iš nurodytos eilutės, pradedant nuo nurodytos vietos. |
-| [NewGUID](er-functions-text-newguid.md) | Ši funkcija grąžina naujai sugeneruotą *[GUID](er-formula-supported-data-types-primitive.md#guid)* reikšmę. |
+| [Mid](er-functions-text-mid.md) | Ši funkcija pateikia tipo *Eilutė* reikšmę, kurioje pateikiamas nurodytas simbolių skaičius iš nurodytos eilutės, pradedant nuo nurodytos vietos. |
 | [NumberFormat](er-functions-text-numberformat.md) | Ši funkcija pateikia tipo *Eilutė* reikšmę, kuri nurodo konkretų skaičių nurodytu formatu ir, jei tai pasirenkama, nurodytoje kultūroje. |
 | [NumeralsToText](er-functions-text-numeralstotext.md) | Ši funkcija nurodytą skaičių pateikia kaip tipo *Eilutė* reikšmę po to, kai ji buvo nurodyta žodžiais (t. y. konvertuota į teksto eilutes) pasirinkta kalba. |
 | [PadLeft](er-functions-text-padleft.md) | Ši funkcija pateikia tipo *Eilutė* nurodyto ilgio reikšmę, kurioje nurodytos eilutės pradžia užpildyta vienu ar keliais nurodytais simboliais. |
@@ -61,6 +62,3 @@ Naudojant modulio Elektroninės ataskaitos (ER) teksto funkcijas, galima atlikti
 [Elektroninių ataskaitų formulių kūrimo įrankis](general-electronic-reporting-formula-designer.md)
 
 [Elektroninių ataskaitų formulių kalba](er-formula-language.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

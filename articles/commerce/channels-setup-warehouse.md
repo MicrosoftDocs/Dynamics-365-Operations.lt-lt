@@ -2,30 +2,36 @@
 title: Sandėlio nustatymas
 description: Šioje temoje aprašoma, kaip nustatyti sandėlį, kurį reikia naudoti su nauju „Microsoft Dynamics 365 Commerce“ kanalu.
 author: samjarawan
+manager: annbe
 ms.date: 01/27/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 6987263bfa83582f465e3b47c4f7b9d96cf087c814a1e002afd289852346975b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6da72ae612f0520965a2b11a21123d4642303ac3
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6734024"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4414339"
 ---
 # <a name="warehouse-set-up"></a>Sandėlio nustatymas
+
 
 [!include [banner](includes/banner.md)]
 
 Šioje temoje aprašoma, kaip nustatyti sandėlį, kurį reikia naudoti su nauju „Microsoft Dynamics 365 Commerce“ kanalu.
+
+## <a name="overview"></a>Peržiūrėti
 
 Kiekvieną „Commerce“ kanalą reikia susieti su sukonfigūruotu sandėliu. Toliau pateiktos procedūros yra minimalios konfigūracijos, kurias reikia atlikti norint nustatyti „Commerce“ kanalo sandėlį. Daugiau informacijos apie sandėlio nustatymą žr. [Sandėlio valdymo peržiūra](../supply-chain/warehousing/warehouse-management-overview.md?toc=/dynamics365/commerce/toc.json).
 
@@ -45,7 +51,7 @@ Norėdami sukonfigūruoti sandėlio vietą, atlikite toliau nurodytus veiksmus.
 
 Toliau pateiktame vaizde parodytas sandėlio vietos pavyzdys.
 
-![Sandėlio vietos pavyzdys.](media/warehouse-site.png)
+![Sandėlio vietos pavyzdys](media/warehouse-site.png)
 
 ## <a name="set-up-a-warehouse"></a>Sandėlio nustatymas
 
@@ -98,7 +104,7 @@ Norėdami nustatyti standartinių, pažeistų ar grąžintų sandėlio atsargų 
     
 Toliau pateiktame paveiksle parodytas San Francisko sandėlio atsargų vietos nustatymas.
 
-![Atsargų vietos nustatymo pavyzdys.](media/warehouse-inventory-locations.png)
+![Atsargų vietos nustatymo pavyzdys](media/warehouse-inventory-locations.png)
     
 ## <a name="complete-warehouse-setup"></a>Sandėlio sąrankos užbaigimas
 
@@ -121,7 +127,7 @@ Norėdami užbaigti sandėlio sąranką, atlikite toliau nurodytus veiksmus.
 
 Toliau pateiktame vaizde rodoma išsami informacija apie sukonfigūruotą sandėlį.
 
-![Sukonfigūruoto sandėlio pavyzdys.](media/warehouse-sample.png)
+![Sukonfigūruoto sandėlio pavyzdys](media/warehouse-sample.png)
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
@@ -141,6 +147,3 @@ Toliau pateiktame vaizde rodoma išsami informacija apie sukonfigūruotą sandė
 
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

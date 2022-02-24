@@ -70,6 +70,3 @@ Nauja parinktis leis vadovams peržiūrėti savo tiesioginių ataskaitų ir išp
 #### <a name="platform-update-29-for-finance-and-operations"></a>„Finance and Operations” platformos 29 naujinimas
 
 Daugiau informacijos apie „Finance and Operations” platformos 29 naujinimą žr. [„Dynamics 365 Finance and Operations” platformos 29 naujinimo (2019 m. spalio mėn.) peržiūros funkcijos](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-29).
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

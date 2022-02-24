@@ -2,27 +2,27 @@
 title: Sandėlio konfigūracijos apžvalga
 description: Šiame straipsnyje paaiškinta, kaip konfigūruoti sandėlį. Pateikiama informacija apie tai, kaip įgalinti sandėlio maketą ir sandėlio procesus.
 author: perlynne
+manager: tfehr
 ms.date: 07/25/2019
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventLocation, WHSLocation, WHSLocationBuild, WHSLocationProfile, WHSLocationType, WHSLocDirTable, WHSParameters, WHSWaveTemplateTable, WHSWorkPool, WHSWorkTemplateTable, WHSZone, WHSZoneGroup
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom:
-- "11554"
-- intro-internal
+ms.custom: 11554
 ms.assetid: 262b7b88-2cce-44f7-9a5b-77c12af1be20
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 28e026b01bbc2b2534556ce6018eec66fc5517d6
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
-ms.translationtype: MT
+ms.openlocfilehash: 7b0ebb5d7f77e2104d0280bcee7c018d9cf97bd5
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983009"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4970161"
 ---
 # <a name="warehouse-configuration-overview"></a>Sandėlio konfigūracijos apžvalga
 
@@ -38,7 +38,7 @@ Sandėlio valdymo sistema programoje „Supply Chain Management“ suteikia lank
 
 -   Galite nustatyti aukšto prioriteto ir žemo prioriteto saugojimo sritis, kad prekės būtų išdėstytos optimaliai.
 -   Savo sandėlį galite padalinti į zonas, kad būtų galima patenkinti įvairius saugojimo poreikius, pvz., temperatūros reikalavimus ar įvairius prekių apyvartos koeficientus.
--   Nurodyti sandėlio vietas galite bet kokiu lygiu (pvz., teritorijos, sandėlio, perėjimo, stelažo, lentynos ir talpyklos padėties).
+-   Nurodyti sandėlio vietas galite bet kokiu lygiu (pvz., teritorijos, sandėlo, perėjimo, stelažo, lentynos ir talpyklos padėties).
 -   Grupuoti vietas galite naudodami fizinių pajėgumų apribojimo nuostatas.
 -   Kontroliuoti, kaip prekės saugomos ir paimamos, galite pagal užklausomis apibrėžtas taisykles.
 
@@ -58,7 +58,7 @@ Objektai, kuriuos kuriate norėdami apibrėžti sandėlio išdėstymą, naudojam
 
 ### <a name="location-stocking-limits-location-profiles-and-fixed-picking-locations"></a>Vietų sandėliavimo apribojimai, vietų profiliai ir fiksuotos paėmimo vietos
 
-Turite atsižvelgti į fizinį sandėlio išdėstymą: tiek nustatyti saugojimo pajėgumams (vietų sandėliavimo apribojimams ir vietų profiliams), tiek mėginant pasiekti optimalių sandėlio procesų. 
+Turite atsižvelgti į fizinį sandėlo išdėstymą: tiek nustatyti saugojimo pajėgumams (vietų sandėliavimo apribojimams ir vietų profiliams), tiek vėlgi mėginant pasiekti optimalių sandėlio procesų. 
 
 Taikant vietų sandėliavimo apribojimus užtikrinama, kad sukūrus darbą atsargas bus prašoma padėti ne į tokią vietą, kuri būtų fiziškai nepajėgi jų sutalpinti. Pavyzdžiui, jei tam tikrose sandėlio vietose galima sandėliuoti tik po vieną padėklą, tuomet galima įjungti vietų sandėliavimo apribojimus. Konkrečioje vietų profilių grupėje **Kiekio** reikšmę galima nustatyti į **1**, o **Vieneto** reikšmę galima nustatyti į **PL**. 
 
@@ -111,12 +111,10 @@ Kaip galima spręsti iš pavadinimo, vietos nurodymai naudojami darbo operacijom
 
 Kad būtų lengviau ir greičiau apibrėžti veiksmus, susietus su kiekviena vietos nurodymo eilute, naudokite vieną iš iš anksto apibrėžtų strategijų. Pvz., norėdami sandėlyje ieškoti laisvos vietos, galite naudoti strategiją **Tuščia vieta, kurioje negaunama darbo** arba galite naudoti siuntimo pardavimo išrinkimo strategiją **FEFO paketo rezervavimas**.
 
-## <a name="additional-resources"></a>Papildomi ištekliai
+<a name="additional-resources"></a>Papildomi ištekliai
+--------
 
 [Sandėlio, kuriame veikia WMS, vietų konfigūravimas](tasks/configure-locations-wms-enabled-warehouse.md)
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

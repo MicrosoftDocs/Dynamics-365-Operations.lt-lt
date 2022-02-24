@@ -1,25 +1,27 @@
 ---
 title: Parduotuvės užsakymų įvykdymas
 description: Šioje temoje pateikiama parduotuvės užsakymų įvykdymo nustatymo apžvalga.
-author: BrianShook
+author: rubencdelgado
+manager: AnnBe
 ms.date: 10/30/2017
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailStoreTable, RetailTillLayout
 audience: Application User
 ms.reviewer: josaw
 ms.search.region: Global
 ms.search.industry: retail
-ms.author: brshoo
+ms.author: rubendel
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 36ce908e81639fbb836d33ff3e84976c395b1473
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
-ms.translationtype: MT
+ms.openlocfilehash: fa568926ccdde4620294915679cd094adbd1e833
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983347"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4965407"
 ---
 # <a name="store-order-fulfillment"></a>Parduotuvės užsakymų įvykdymas
 
@@ -33,7 +35,7 @@ Užsakymo įvykdymo operacija elektroniniame kasos aparate suteikia vieną darbo
 
 ## <a name="access-unified-order-fulfillment-in-the-point-of-sale"></a>Prieiga prie bendrojo užsakymų įvykdymo srities elektroniniame kasos aparate
 
-Užsakymų įvykdymas, [operacijos ID 928](pos-operations.md), gali būti naudojamas norint pasiekti parduotuvės užsakymų įvykdymo darbo sritį elektroniniame kasos aparate.
+Užsakymų įvykdymas, [operacijos ID 928](https://docs.microsoft.com/dynamics365/unified-operations/retail/pos-operations), gali būti naudojamas norint pasiekti parduotuvės užsakymų įvykdymo darbo sritį elektroniniame kasos aparate.
 
 Užsakymų įvykdymo operacija neturi savo parengtos naudoti teisės, tačiau ateityje vartotojai galės naudoti teisę **Leisti nuskaityti užsakymą**, kad būtų galima iškviesti operaciją iš elektroninio kasos aparato.
 
@@ -93,7 +95,7 @@ Priėmus užsakymą, eilutes galima pasirinkti ir priskirti joms žymę **Paėmi
 
 Išrinkimo dokumentus galima spausdinti elektroniniame kasos aparate ir padėti darbuotojams, vykdantiems paėmimo procesą. Atspausdintą išrinkimo dokumentą darbuotojas, atliekantis paėmimą, gali nešiotis su savimi, kai produktai paimami, ir pažymėti juos kaip paimtus išrinkimo dokumente.
 
-Išrinkimo dokumento formatas sukonfigūruojamas „Commerce“ ir pridedamas prie kvito šablono. Daugiau informacijos, kaip nustatyti kvitų šablonus, žr. [Kvitų šablonai ir spausdinimas](receipt-templates-printing.md).
+Išrinkimo dokumento formatas sukonfigūruojamas „Commerce“ ir pridedamas prie kvito šablono. Daugiau informacijos, kaip nustatyti kvitų šablonus, žr. [Kvitų šablonai ir spausdinimas](https://docs.microsoft.com/dynamics365/unified-operations/retail/receipt-templates-printing).
 
 Jei pasirenkamos eilutės ir išspausdinamas tų eilučių išrinkimo dokumentas, jos yra automatiškai atnaujinamos priskiriant būseną **Paėmimas**.
 
@@ -119,7 +121,7 @@ Užsakymo eilutes galima supakuoti bet kada po to, kai užsakymo eilutė priimta
 - **Rodoma būsena:** Supakuota arba iš dalies supakuota
 - **Rodoma tarnybinio biuro būsena:** Pristatyta arba iš dalies pristatyta
 
-Šiuo veiksmu eilutės pažymimos kaip supakuotos arba iš dalies supakuotos ir išspausdinamas važtaraštis. Važtaraštį galima išspausdinti norint patikrinti produktus, kurie buvo supakuoti kartu. Važtaraščio formatas sukonfigūruojamas „Commerce“ ir pridedamas prie kvito profilio. Daugiau informacijos, kaip nustatyti kvitų šablonus, žr. [Kvitų šablonai ir spausdinimas](receipt-templates-printing.md).
+Šiuo veiksmu eilutės pažymimos kaip supakuotos arba iš dalies supakuotos ir išspausdinamas važtaraštis. Važtaraštį galima išspausdinti norint patikrinti produktus, kurie buvo supakuoti kartu. Važtaraščio formatas sukonfigūruojamas „Commerce“ ir pridedamas prie kvito profilio. Daugiau informacijos, kaip nustatyti kvitų šablonus, žr. [Kvitų šablonai ir spausdinimas](https://docs.microsoft.com/dynamics365/unified-operations/retail/receipt-templates-printing).
 
 **Veiksmas: Pažymėti kaip supakuotą**
 
@@ -215,6 +217,3 @@ Užsakymų įvykdymas elektroniniame kasos aparate apima filtravimą, kad vartot
 - Sukūrimo data
 - Pristatymo data
 - Gavimo data
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

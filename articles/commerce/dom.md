@@ -2,12 +2,15 @@
 title: Paskirstytų užsakymų tvarkymas (DOM)
 description: Šioje temoje aprašoma „Dynamics 365 Commerce“ paskirstytų užsakymų tvarkymo (DOM) funkcija.
 author: josaw1
-ms.date: 01/08/2021
+manager: AnnBe
+ms.date: 05/22/2020
 ms.topic: index-page
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ed0f77f7-3609-4330-bebd-ca3134575216
 ms.search.region: global
@@ -15,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 442a7449e0b28e1086d50ab68dbaf85370fce8ea6e178dd91ad972a2b47d7de3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3a83bd6e997110d107bac836abf237f99db78d99
+ms.sourcegitcommit: d77e902b1ab436e5ff3e78c496f5a70ef38e737c
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6717702"
+ms.lasthandoff: 10/15/2020
+ms.locfileid: "4459587"
 ---
 # <a name="distributed-order-management-dom"></a>Paskirstytų užsakymų tvarkymas (DOM)
 
@@ -34,9 +37,9 @@ DOM optimizuoja užsakymų įvykdymą sudėtingame sistemų ir procesų tinkle. 
 
 Tolesnėje iliustracijoje rodomas pardavimo užsakymo ciklas DOM sistemoje.
 
-![Pardavimo užsakymo ciklas DOM kontekste.](./media/flow.png "Pardavimo užsakymo ciklas DOM kontekste")
+![Pardavimo užsakymo ciklas DOM kontekste](./media/flow.png "Pardavimo užsakymo ciklas DOM kontekste")
 
-## <a name="set-up-dom"></a>Nustatyti DOM
+## <a name="set-up-dom"></a>DOM nustatymas
 
 1. Eikite į **Sistemos administravimas \> Sąranka \> Licencijos konfigūracija**.
 2. Skirtuke **Konfigūracijos raktai** išplėskite mazgą **Prekyba** ir pažymėkite žymės langelį **Paskirstytų užsakymų tvarkymas**.
@@ -46,12 +49,8 @@ Tolesnėje iliustracijoje rodomas pardavimo užsakymo ciklas DOM sistemoje.
     - **Įjungti paskirstytų užsakymų tvarkymą** – šią parinktį nustatykite kaip **Taip**.
     - **Patvirtinti „Bing“ žemėlapių naudojimą DOM sistemoje** – šią parinktį nustatykite kaip **Taip**.
 
-
         > [!NOTE]
         > Šią parinktį nustatyti kaip **Taip** galite, tik jei kaip **Taip** taip pat nustatyta puslapio **Bendrai naudojami prekybos parametrai** (**„Retail“ ir „Commerce“ \> Būstinės sąranka \> Parametrai \> Bendrai naudojami prekybos parametrai**) skirtuke **„Bing“ žemėlapiai** esanti parinktis **Įjungti „Bing“ žemėlapius** ir jei lauke **„Bing“ žemėlapių raktas** įvestas tinkamas raktas.
-        >
-        > [„Bing“ žemėlapių kūrimo centro](https://www.bingmapsportal.com/) portalas leidžia apriboti prieigą prie jūsų „Bing“ žemėlapių API raktų iki jūsų nustatytų domenų rinkinio. Naudodami šią funkciją klientai gali nustatyti griežtą reikšmių ar IP adresų diapazonų, pagal kuriuos bus tikrinamas raktas, rinkinį. Užklausos, esančios jūsų leidžiamųjų sąraše, bus apdorojamos įprastai, o užklausos ne iš jūsų sąrašo pateiks atsakymą apie draudžiamą prieigą. Domeno saugos įtraukimas į jūsų API raktą yra pasirinktinis, o palikti raktai veiks toliau. Rakto leidžiamų sąrašas yra nepriklausomas nuo visų kitų raktų, todėl įgalina kiekvienam raktui naudoti skirtingas taisykles. Paskirstytų užsakymų tvarkymas nepalaiko domene nurodytų ypatybių nustatymo.
-
 
     - **Saugojimo laikotarpis dienomis** – nurodykite, kiek laiko sistemoje laikomi DOM vykdymų metu generuojami įvykdymo planai. Paketinė užduotis **DOM įvykdymo duomenų naikinimo užduoties sąranka** panaikins visus įvykdymo planus, kurie yra senesni nei čia jūsų nurodytas dienų skaičius.
     - **Atmetimo laikotarpis (dienomis)** – nurodykite, kiek laiko turi praeiti, kol atmestą užsakymo eilutę bus galima priskirti tai pačiai vietai.
@@ -63,15 +62,14 @@ Tolesnėje iliustracijoje rodomas pardavimo užsakymo ciklas DOM sistemoje.
     - **Sprendimo priemonės tipas** – pasirinkite reikšmę. Su prekyba yra išleistos dviejų tipų sprendimo priemonės: **gamybos sprendimo priemonė** ir **supaprastintoji sprendimo priemonė**. Visoms mašinoms, kuriose bus vykdoma DOM sistema (t. y., visiems serveriams, priklausantiems grupei DOMBatch), reikia parinkti **gamybos sprendimo priemonę**. Gamybos sprendimo priemonei reikia specialaus licencijos rakto, kuris pagal numatytuosius parametrus yra licencijuojamas ir įdiegiamas gamybos aplinkose. Ne gamybos aplinkose šį licencijos raktą reikia įdiegti rankiniu būdu. Norėdami rankiniu būdu įdiegti šį licencijos raktą, atlikite tolesnius veiksmus.
 
         1. „Microsoft Dynamics“ portale „Lifecycle Services“ atidarykite biblioteką Bendrai naudojamas turtas, kaip turto tipą pasirinkite **Modelis** ir atsisiųskite **DOM licencijos** failą.
-        1. Paleiskite „Microsoft“ informacinių interneto paslaugų (IIS) tvarkytuvą, dešiniuoju pelės mygtuku spustelėkite **AOSService svetainė** ir pasirinkite **Naršyti**. Atidaromas „Windows Explorer“ langas su katalogu **\<AOS service root\>\\webroot**. Pasižymėkite \<AOS Service root\> kelią, nes jį naudosite atlikdami kitą veiksmą.
-        1. Nukopijuokite kataloge **\<AOS Service root\>\\PackagesLocalDirectory\\DOM\\bin** esantį konfigūracijos failą.
-        1. Eikite į būstinės klientą ir atidarykite puslapį **DOM parametrai**. Skirtuko **Sprendimo priemonė** lauke **Sprendimo priemonės tipas** pasirinkite **Gamybos sprendimo priemonė** ir įsitikinkite, kad nerodoma klaidų pranešimų.
-
+        2. Paleiskite „Microsoft“ informacinių interneto paslaugų (IIS) tvarkytuvą, dešiniuoju pelės mygtuku spustelėkite **AOSService svetainė** ir pasirinkite **Naršyti**. Atidaromas „Windows Explorer“ langas su katalogu **\<AOS service root\>\\webroot**. Pasižymėkite \<AOS Service root\> kelią, nes jį naudosite atlikdami kitą veiksmą.
+        3. Nukopijuokite kataloge **\<AOS Service root\>\\PackagesLocalDirectory\\DOM\\bin** esantį konfigūracijos failą.
+        4. Eikite į būstinės klientą ir atidarykite puslapį **DOM parametrai**. Skirtuko **Sprendimo priemonė** lauke **Sprendimo priemonės tipas** pasirinkite **Gamybos sprendimo priemonė** ir įsitikinkite, kad nerodoma klaidų pranešimų.
 
         > [!NOTE]
         > Supaprastintoji sprendimo priemonė suteikiama tam, kad pardavėjai DOM funkciją galėtų išbandyti nediegdami specialios licencijos. Organizacijos supaprastintosios sprendimo priemonės neturėtų naudoti gamybos aplinkose.
         >
-        > Gamybos sprendimo patobulina veikimą (ribojama, kiek užsakymų ir užsakymų eilučių galima apdoroti vieno vykdymo metu) ir rezultatų konvergavimą (kai kuriose situacijose naudojant tam tikrą užsakymų paketą galima gauti ne geriausią rezultatą). Kai kurioms taisyklės, pvz., **Daliniai užsakymai** ir **Maksimalus vietų skaičius** reikalauja gamybos sprendimo priemonės.
+        > Nors supaprastintoji sprendimo priemonė suteikia tas pačias galimybes kaip gamybos sprendimo priemonė, ribotas jos efektyvumas (ribojama, kiek užsakymų ir užsakymų eilučių galima apdoroti vieno vykdymo metu) ir rezultatų konvergavimas (kai kuriose situacijose naudojant tam tikrą užsakymų paketą galima gauti ne geriausią rezultatą).
      
 6. Grįžkite į **„Retail“ ir „Commerce“ \> Paskirstytų užsakymų tvarkymas \> Sąranka \> DOM parametrai**.
 7. Skirtuke **Numeracijos** įvairiems DOM objektams priskirkite reikiamas numeracijas.
@@ -123,7 +121,7 @@ Tolesnėje iliustracijoje rodomas pardavimo užsakymo ciklas DOM sistemoje.
         \* Jei parinktis **Įvykdyti dalinius užsakymus** yra nustatyta kaip **Ne**, visada laikoma, kad parinktis **Įvykdyti dalines eilutes** yra nustatyta kaip **Ne** – nesvarbu, kaip ji nustatyta iš tikrųjų.
 
         > [!NOTE]
-        > „Retail” 10.0.5 versijoje parametras **Užsakymą įvykdyti tik iš vienos vietos** buvo pakeistas į **Maksimalus įvykdymo vietų skaičius**. Užuot leidę vartotojui konfigūruoti, ar užsakymai gali būti įvykdyti iš vienos ar iš visų įmanomų vietų, vartotojai nuo šiol gali nurodyti, ar įvykdyti galima iš nustatyto vietų (iki 5) rinkinio ar iš visų įmanomų vietų. Tai suteikia daugiau lankstumo atsižvelgiant į vietas, iš kurių galima įvykdyti užsakymą. Ši taisyklė veikia tik su gamybos sprendimo priemone. 
+        > „Retail” 10.0.5 versijoje parametras **Užsakymą įvykdyti tik iš vienos vietos** buvo pakeistas į **Maksimalus įvykdymo vietų skaičius**. Užuot leidę vartotojui konfigūruoti, ar užsakymai gali būti įvykdyti iš vienos ar iš visų įmanomų vietų, vartotojai nuo šiol gali nurodyti, ar įvykdyti galima iš nustatyto vietų (iki 5) rinkinio ar iš visų įmanomų vietų. Tai suteikia daugiau lankstumo atsižvelgiant į vietas, iš kurių galima įvykdyti užsakymą.
 
    - **Neprijungtos įvykdymo vietos taisyklė** – ši taisyklė organizacijoms leidžia tam tikrą vietą ar vietų grupę nurodyti kaip neprijungtą ar nepasiekiamą DOM sistemai, kad toms vietoms nebūtų galima priskirti užsakymų, kuriuos reikia įvykdyti.
     - **Didžiausio atmetimų skaičiaus taisyklė** – ši taisyklė organizacijoms leidžia nustatyti atmetimų ribą. Kai bus pasiekta ši riba, DOM doroklė užsakymą arba užsakymo eilutę pažymės kaip išimtį ir jų neįtrauks į kitą apdorojimo etapą.
@@ -200,7 +198,7 @@ Apdorojimo metu DOM užsakymą ir užsakymo eilutes svarstys taip, kaip aprašyt
 
 Pritaikiusi taisykles, atsargų apribojimus ir optimizavusi, DOM pasirenka arčiausiai kliento pristatymo adreso esančią vietą.
 
-![Pardavimo užsakymų kriterijai.](./media/ordercriteria.png "Pardavimo užsakymų kriterijai")
+![Pardavimo užsakymų kriterijai](./media/ordercriteria.png "Pardavimo užsakymų kriterijai")
 
 ## <a name="results-of-dom-runs"></a>DOM vykdymų rezultatai
 
@@ -254,6 +252,3 @@ Naudojant DOM funkciją reikėtų atsižvelgti į tolesnius dalykus.
 - Šiuo metu DOM analizuoja tik tuos užsakymus, kurie yra sukurti iš prekybos kanalų. Kai parinktis **Prekyba** yra nustatyta kaip **Taip**, pardavimo užsakymai identifikuojami kaip mažmeninės prekybos pardavimo užsakymai.
 - Su išplėstinėmis sandėlio valdymo funkcijomis „Microsoft“ DOM neišbandė. Klientai ir partneriai turi atidžiai nustatyti, ar DOM yra suderinama su jiems aktualiomis išplėstinėmis sandėlio valdymo galimybėmis ir procesais.
 - DOM pasiekiama tik naudojant „Commerce“ debesies versiją. Vietinėse įdiegtyse ji nėra palaikoma.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

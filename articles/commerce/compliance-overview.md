@@ -2,23 +2,27 @@
 title: Atitikties apžvalga
 description: Šioje temoje apžvelgiamos atitikties rekomendacijos, pateikiamos su „Microsoft Dynamics 365 Commerce“, kad lengviau užtikrintumėte, jog jūsų įmonės svetainės atitinka reikalavimus.
 author: BrianShook
+manager: annbe
 ms.date: 01/08/2020
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
+ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 3d90bbce5949468966d995710cdad69484aa90c9
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
-ms.translationtype: MT
+ms.openlocfilehash: 45d96317f5b6ef956647bfc511e80533e2c34bca
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983297"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4414346"
 ---
 # <a name="compliance-overview"></a>Atitikties apžvalga
 
@@ -42,6 +46,3 @@ Norėdami daugiau sužinoti apie pagrindinius „Microsoft“ naudojamus princip
 [Įtraukti privatumo strategijos puslapį](add-privacy-page.md)
 
 [Su sekamais turinio pakeitimais susietų vartotojo ID keitimas](replace-IDs-tracked-changes.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

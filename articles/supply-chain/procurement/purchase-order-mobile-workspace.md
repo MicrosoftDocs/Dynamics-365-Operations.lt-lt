@@ -1,25 +1,27 @@
 ---
 title: Mobilioji darbo sritis Pirkimo užsakymų tvirtinimas
 description: Šioje temoje pateikiama informacijos apie mobiliąją darbo sritį Pirkimo užsakymų tvirtinimas, kurioje galite peržiūrėti pirkimo užsakymus ir į juos reaguoti veiksmais. Pavyzdžiui, pirkimo užsakymą galite patvirtinti arba atmesti.
-author: Henrikan
+author: RichardLuan
+manager: tfehr
 ms.date: 12/01/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchVendorPortalRequests
 audience: Application User
 ms.reviewer: kamaybac
 ms.custom: 30211
 ms.search.region: Global
-ms.author: henrikan
+ms.author: riluan
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: fc88f20b50e034f2f27b7e2576fe6a4bb3486e23
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 7f952f3af36620a20a5c991fd9e1ccfd56119f47
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7570566"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5022311"
 ---
 # <a name="purchase-order-approval-mobile-workspace"></a>Mobilioji darbo sritis Pirkimo užsakymų tvirtinimas
 
@@ -33,10 +35,10 @@ Pirkimo užsakymai, kuriuos reikia patvirtinti, pereina tvirtinimo darbo eigą. 
 Naudodami mobiliąją darbo sritį **Pirkimo užsakymų tvirtinimas** galite lengvai peržiūrėti pirkimo užsakymus ir į juos reaguoti savo mobiliajame įrenginyje. Šioje darbo srityje taip pat galite atlikti tuos pačius darbo eigų veiksmus, kuriuos galite atlikti žiniatinklio kliente.
 
 ## <a name="prerequisites"></a>Būtinieji komponentai
-Būtinosios sąlygos skiriasi ir priklauso nuo jūsų organizacijoje įdiegtos „Supply Chain Management” versijos.
+Būtinosios sąlygos skiriasi ir priklauso nuo jūsų organizacijoje įdiegtos Tiekimo grandinės valdymo versijos.
 
-### <a name="prerequisites-if-you-use-supply-chain-management"></a>Būtinosios sąlygos naudojant „Supply Chain Management” 
-Jei jūsų organizacijoje įdiegta „Supply Chain Management“, sistemos administratorius turi publikuoti mobiliąją darbo sritį **Pirkimo užsakymų tvirtinimas**. Instrukcijų ieškokite dalyje [Mobiliosios darbo srities publikavimas](../../fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace.md).
+### <a name="prerequisites-if-you-use-supply-chain-management"></a>Būtinosios sąlygos naudojant Tiekimo grandinės valdymą 
+Jei jūsų organizacijoje įdiegta „Supply Chain Management“, sistemos administratorius turi publikuoti mobiliąją darbo sritį **Pirkimo užsakymų tvirtinimas**. Instrukcijų ieškokite dalyje [Mobiliosios darbo srities publikavimas](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
 ### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Būtinosios sąlygos, jei naudojate „Microsoft Dynamics 365 for Operations“ 1611 versiją su 3 platformos naujinimu arba naujesnę versiją
 Jei jūsų organizacijoje visuotinai įdiegta „Microsoft Dynamics 365 for Operations“ 1611 versija su 3 platformos naujinimu arba naujesnė versija, sistemos administratorius turi įvykdyti tolesnes būtinąsias sąlygas. 
@@ -55,16 +57,16 @@ Jei jūsų organizacijoje visuotinai įdiegta „Microsoft Dynamics 365 for Oper
 <td>Sistemos administratorius</td>
 <td>KB 4017918 yra X++ naujinimas arba karštoji metaduomenų pataisa su mobiliąja darbo sritimi <strong>Pirkimo užsakymų tvirtinimas</strong>. Norėdamas įdiegti KB 4017918, sistemos administratorius turi atlikti tolesnius veiksmus.
 <ol>
-<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">Atsisiųsti metaduomenų karštąją pataisą iš „Microsoft Dynamics Lifecycle Services“ (LCS)</a>.</li>
-<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Įdiekite metaduomenų karštąją pataisą</a>.</li>
-<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Sukurkite diegiamą paketą</a>, kuriame yra modelis <strong>SCMMobile</strong>, o tada įkelkite diegiamą paketą į LCS.</li>
-<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Visuotinai diegiamo paketo taikymas</a>.</li>
+<li><a href="../../dev-itpro/migration-upgrade/download-hotfix-lcs.md">Atsisiųsti metaduomenų karštąją pataisą iš „Microsoft Dynamics Lifecycle Services“ (LCS)</a>.</li>
+<li><a href="../../dev-itpro/migration-upgrade/install-metadata-hotfix-package.md">Įdiekite metaduomenų karštąją pataisą</a>.</li>
+<li><a href="../../dev-itpro/deployment/create-apply-deployable-package.md">Sukurkite diegiamą paketą</a>, kuriame yra modelis <strong>SCMMobile</strong>, o tada įkelkite diegiamą paketą į LCS.</li>
+<li><a href="../../dev-itpro/deployment/apply-deployable-package-system.md">Visuotinai diegiamo paketo taikymas</a>.</li>
 </ol></td>
 </tr>
 <tr class="even">
 <td>Publikuoti mobiliąją darbo sritį <strong>Pirkimo užsakymų tvirtinimas</strong>.</td>
 <td>Sistemos administratorius</td>
-<td>Žr. <a href="/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Mobiliosios darbo srities publikavimas</a>.</td>
+<td>Žr. <a href="../../dev-itpro/mobile-apps/publish-mobile-workspace.md">Mobiliosios darbo srities publikavimas</a>.</td>
 </tr>
 </tbody>
 </table>
@@ -83,7 +85,7 @@ Mobiliosios programos „Finance and Operations“ atsisiuntimas ir diegimas.
 3. Kai prisijungsite pirmą kartą, bus rodomas raginimas įvesti savo vartotojo vardą ir slaptažodį. Įveskite savo kredencialus.
 4. Prisijungus rodomos galimos jūsų įmonės darbo sritys. Atkreipkite dėmesį, kad sistemos administratoriui paskelbus naują darbo sritį vėliau turėsite atnaujinti mobiliųjų darbo sričių sąrašą.
 
-![Darbo sritis Pirkimo užsakymų tvirtinimas galimų darbo sričių sąraše.](./media/po-workspaces.png)
+![Darbo sritis Pirkimo užsakymų tvirtinimas galimų darbo sričių sąraše](./media/po-workspaces.png)
 
 ## <a name="view-orders-that-are-assigned-to-you"></a>Jums priskirtų užsakymų peržiūra
 1. Savo mobiliajame įrenginyje pasirinkite darbo sritį **Pirkimo užsakymų tvirtinimas**.
@@ -110,6 +112,3 @@ Peržiūrėję jums priskirtą pirkimo užsakymą ir perskaitę darbo eigos inst
 5. Pasirinkite atitinkamą veiksmą.
 6. Puslapyje **Užduoties baigimas** įveskite komentarą. Atkreipkite dėmesį, kad pasirinkę veiksmą **Perduoti** turite pasirinkti vartotoją, kuriam reikia perduoti užduotį.
 7. Pasirinkite **Atlikta**. Atnaujinus darbo sritį, pirkimo užsakymo jūsų sąraše nebebus. 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

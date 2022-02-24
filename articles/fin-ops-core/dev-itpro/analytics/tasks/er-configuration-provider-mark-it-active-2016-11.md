@@ -1,10 +1,12 @@
 ---
 title: Konfigūracijos teikėjų kūrimas, pažymint juos kaip aktyvius
-description: Šioje temoje paaiškinama, kaip sistemos administratoriaus arba elektroninių ataskaitų kūrėjo pareigoms priskirtas naudotojas gali sukurti konfigūracijos teikėją.
+description: Šioje temoje paaiškinama, kaip sistemos administratoriaus arba elektroninių ataskaitų kūrėjo pareigoms priskirtas naudotojas gali sukurti elektroninių ataskaitų (ER) konfigūracijos teikėją.
 author: NickSelin
+manager: AnnBe
 ms.date: 07/02/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERWorkspace, ERVendorPart, ERVendorTable
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e5b429badcbcc0e9829d82785a6e1f1a2504f5ec9b9ac74d249032f272dea103
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7fb9f5be8571974237154ea704c93b8666c539a7
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6747252"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4682002"
 ---
 # <a name="create-configuration-providers-and-mark-them-as-active"></a>Konfigūracijos teikėjų kūrimas, pažymint juos kaip aktyvius
 
@@ -41,7 +43,4 @@ ms.locfileid: "6747252"
 1. Pasirinkite teikėją „Litware, Inc.“.
 2. Pasirinkite **Nustatyti kaip aktyvų**.
 
-![Elektroninių ataskaitų darbo srities puslapis.](../media/GER-Task-ActiveProvider-1.png)
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+![Elektroninių ataskaitų darbo srities puslapis](../media/GER-Task-ActiveProvider-1.png)

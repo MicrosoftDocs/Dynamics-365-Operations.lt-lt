@@ -1,28 +1,28 @@
 ---
 title: Suprojektuokite naują ER sprendimą tinkintos ataskaitos spausdinimui
-description: Šioje temoje paaiškinama, kaip suprojektuoti elektroninį ataskaitos sprendimą tinkintos ataskaitos spausdinimui.
+description: Šioje temojoe paaiškinama, kaip suprojektuoti elektroninį ataskaitos sprendimą tinkintos ataskaitos spausdinimui.
 author: NickSelin
+manager: AnnBe
 ms.date: 08/10/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERParameters, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner, ERVendorTable
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom:
-- "220314"
-- intro-internal
+ms.custom: 220314
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: af610ae86e751ec4425f4c555cdf59c042fabcdb46e6a3a018b0d94a8926d92e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7cd0d8e7aa9595e705416798772f52956ef609da
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6770073"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680247"
 ---
 # <a name="design-a-new-er-solution-to-print-a-custom-report"></a>Suprojektuokite naują ER sprendimą tinkintos ataskaitos spausdinimui
 
@@ -82,7 +82,7 @@ Toliau atlikti žingsniai paaiškina, kaip vartotojas sistemos administratoriaus
     - [Vykdykite pakeistą formatą iš ER](#RunFormatFromER2)
     - [Užbaikite formato projektą](#CompleteFormat)
 
-- [Vystykite programos artefaktus tam, kad iškviestumėte suprojektuotą ataskaitą](#DevelopCustomCode)
+- [Vystykite programos artefaktus tam, kad iškviestumėte suprojekuotą ataskaitą](#DevelopCustomCode)
 
     - [Šaltinio kodo modifikavimas](#ModifySourceCode)
 
@@ -121,19 +121,19 @@ Toliau atlikti žingsniai paaiškina, kaip vartotojas sistemos administratoriaus
 
 - [Papildomi ištekliai](#References)
 
-Šiame pavyzdyje, sukursite naują ER sprendimą [Klausimynas](../../../human-resources/hr-learning-questionnaires.md) moduliui. Šis naujas ER sprendimas leidžia jums projektuoti ataskaitą naudojant „Microsoft Excel“ darbalapį kaip šabloną. Tuomet galite sukurti **Klausimyno** ataskaitą „Excel“ arba PDF formatu, taip pat sukurti esančią SQL serverio ataskaitos paslaugų ataskaitą SSRS. Taip pat galite keisti naują ataskaitą vėliau pagal užklausą. Kodavimas nebūtinas.
+Šiame pavyzdyje, sukursite naują ER sprendimą [Klausimynas](https://docs.microsoft.com/dynamics365/human-resources/hr-learning-questionnaires) moduliui. Šis naujas ER sprendimas leidžia jums projektuoti ataskaitą naudojant „Microsoft Excel“ darbalapį kaip šabloną. Tuomet galite sukurti **Klausimyno** ataskaitą „Excel“ arba PDF formatu, taip pat sukurti esančią SQL serverio ataskaitos paslaugų ataskaitą SSRS. Taip pat galite keisti naują ataskaitą vėliau pagal užklausą. Kodavimas nebūtinas.
 
 1. Tam, kad vykdytumėte esančią ataskaitą, eikite į **Klausimynas** \> **Projektavimas** \> **Klausimyno ataskaita**.
 
-    ![Pasirinkite klausimyno ataskaitos meniu elementą klausimyno modulyje tam, kad vykdytumėte esančią SSRS ataskaitą.](./media/er-quick-start1-application-menu-origin.png)
+    ![Pasirinkite klausimyno ataskaitos meniu elementą klausimyno modulyje tam, kad vykdytumėte esančią SSRS ataskaitą](./media/er-quick-start1-application-menu-origin.png)
 
 2. **Klausimyno ataskaitos** teksto laukelyje nurodykite atrankos kriterijus. Taikykite filtrą taip, kad ataskaita apimtų tik **SBCCrsExam** klausimyną.
 
-    ![Atrankos kriterijų klausimyno ataskaitos teksto laukelyje nurodymas.](./media/er-quick-start1-ssrs-report-dialog.png)
+    ![Atrankos kriterijų klausimyno ataskaitos teksto laukelyje nurodymas](./media/er-quick-start1-ssrs-report-dialog.png)
 
 Toliau pateiktame paveikslėlyje rodoma bendra SSRS ataskaitos sukurta versija **SBCCrsExam** klausimynui.
 
-![Sukurta SSRS ataskaita.](./media/er-quick-start1-ssrs-report.png)
+![Sukurta SSRS ataskaita](./media/er-quick-start1-ssrs-report.png)
 
 ## <a name="configure-the-er-framework"></a><a name="ConfigureFramework"></a>ER sistemos konfigūracija
 
@@ -183,13 +183,13 @@ Daugiau informacijos apie ER konfigūracijos tiekėjus žr. [Konfigūracijos tei
 
 Privalote sukurti naują ER konfigūraciją, kurioje yra verslo domeno **Klausimynas** komponentą [duomenų modelis](general-electronic-reporting.md#data-model-and-model-mapping-components). Šis duomenų modelis vėliau bus naudojamas kaip duomenų šaltinis, kai projektuosite ER formatą **Klausimyno** ataskaitos sukūrimui.
 
-Atlikę žingsnius [Importuoti naują duomenų modelio konfigūravimą](#ImportDataModel) skyriuje, galite importuoti reikiamą duomenų modelį iš pateikto XML failo. Kitu atveju, galite atlikti žingsnius [Sukurti naują duomenų modelio konfigūravimą](#DesignDataModel) skyriuje tam, kad suprojektuotumėte šį duomenų modelį iš pradžių.
+Atlikę žingsnius [Imporuoti naują duomenų modelio konfigūravimą](#ImportDataModel) skyriuje, galite importuoti reikiamą duomenų modelį iš pateikto XML failo. Kitu atveju, galite atlikti žingsnius [Sukurti naują duomenų modelio konfigūravimą](#DesignDataModel) skyriuje tam, kad suprojektuotumėte šį duomenų modelį iš pradžių.
 
 ### <a name="import-a-new-data-model-configuration"></a><a name="ImportDataModel"></a>Importuokite naują duomenų modelio konfigūraciją
 
-1. Atsisiųskite [Klausimynų model.version.1.xml](https://download.microsoft.com/download/b/6/3/b633bd34-d200-4422-96d9-8f62eb5218f8/Questionnaires_model.version.1.xml) failą ir įrašykite jį į savo vietinį kompiuterį.
+1. Atsisiųskite [Klausimynų model.version.1.xml](https://go.microsoft.com/fwlink/?linkid=851448) failą ir įrašykite jį į savo vietinį kompiuterį.
 2. Eikite į **Organizacijos administravimas** \> **Darbo sritys** \> **Elektroninės ataskaitos**.
-3. **Elektroninės ataskaitos** darbo srityje pasirinkite **Ataskaitos konfigūravimai**.
+3. **Elektroninės ataskaitos** darbo srityje, pasirinkite **Ataskaito konfigūravimai**.
 4. Veiksmų srityje pasirinkite **Pakeisti** \> **Įkelti iš XML failo**.
 5. Pasirinkite **Naršyti** ir tuomet suraskite ir pasirinkite **Klausimynų model.version.1.xml** failą.
 6. Pasirinkite **OK** tam, kad importuotumėte konfigūravimą.
@@ -199,12 +199,12 @@ Tam, kad tęstumėte, praleiskite kitą procedūrą, [Sukurti naują duomenų mo
 ### <a name="create-a-new-data-model-configuration"></a><a name="DesignDataModel"></a>Sukurti naują duomenų modelio konfigūraciją
 
 1. Eikite į **Organizacijos administravimas** \> **Darbo sritys** \> **Elektroninės ataskaitos**.
-2. **Elektroninės ataskaitos** darbo srityje pasirinkite **Ataskaitos konfigūravimai**.
+2. **Elektroninės ataskaitos** darbo srityje, pasirinkite **Ataskaito konfigūravimai**.
 3. Pasirinkite **Kurti konfigūraciją**.
 4. Iškrentančiame teksto laukelyje, **Pavadinimas** laukelyje, įveskite **Klausimyno modelis**.
 5. Pasirinkite **Sukurti konfigūravimą** tam, kad sukurtumėte konfigūravimą.
 
-#### <a name="name-the-data-model"></a><a name="NameDataModel"></a>Pavadinkite duomenų modelį
+#### <a name="name-the-data-model"></a><a name="NameDataModel"></a>adinkite duomenų modelį
 
 1. **Konfigūravimai** puslapyje, konfigūravimo medyje, pasirinkite **Klausimyno modelis**.
 2. Pasirinkite **Dizaino įrankis**.
@@ -273,7 +273,7 @@ Tam, kad tęstumėte, praleiskite kitą procedūrą, [Sukurti naują duomenų mo
 
     Tolesnis paveikslėlis rodo užbaigtą redaguojamus duomenų modelį **Duomenų modelio kūrimo** puslapyje.
 
-    ![Konfigūruotas duomenų modelis ER duomenų modelio kūrimo įrankyje.](./media/er-quick-start1-model2.png)
+    ![Konfigūruotas duomenų modelis ER duomenų modelio kūrimo įrankyje](./media/er-quick-start1-model2.png)
 
 7. Įrašykite pakeitimus.
 8. Uždarykite **Duomenų modelio kūrimo** puslapį.
@@ -287,7 +287,7 @@ Tam, kad tęstumėte, praleiskite kitą procedūrą, [Sukurti naują duomenų mo
 
 Šios konfigūracijos versijos 1 statusas yra keičiamas iš **Juodraštis** į **Užbaigtas**. Versija 1 nebegali būti keičiama. Šioje versijoje yra konfigūruotų duomenų modelis ir gali būti naudojamas pagal kitas ER konfigūracijas. Šios konfigūracijos versija 2 yra sukurta ir turi **Juodraštis** statusą. Galite redaguoti šią versiją tam, kad keistumėte **Klausimyno** duomenų modelį.
 
-![Redaguojamos ER konfigūracijos versijos konfigūravimo puslapyje.](./media/er-quick-start1-model-configuration.png)
+![Redaguojamos ER konfigūracijos versijos konfigūravimo puslapyje](./media/er-quick-start1-model-configuration.png)
 
 Dėl platesnės informacijos apie ER konfigūracijų versijas, žr. [Elektroninės ataskaitos (ER) peržiūra](general-electronic-reporting.md#component-versioning).
 
@@ -296,15 +296,15 @@ Dėl platesnės informacijos apie ER konfigūracijų versijas, žr. [Elektronin�
 
 ## <a name="design-a-model-mapping-for-the-configured-data-model"></a><a name="DesignMapping"></a>Suprojektuokite konfigūruoto duomenų modelio žemėlapį
 
-Kaip vartotojas elektroninės ataskaitos kūrėjo vaidmenyje, turite sukurti naują ER konfigūravimą, kuris turi [modelio žemėlapį](general-electronic-reporting.md#data-model-and-model-mapping-components) komponentą **Klausimyno** duomenų modeliui. Kadangi šis komponentas įgyvendina konfigūruotų duomenų modelį finansams, jis yra skirtas būtent finansams. Privalote konfigūruoti modelio žemėlapio komponentą tam, kad nurodytumėte programos objektus, kurie turi būti naudojami konfigūruoto duomenų modelio užpildymui su programos duomenimis vykdymo metu. Šios užduoties atlikimui, turite žinoti duomenų struktūros implementavimo išsamius duomenis **Klausimyno** verslo domene finansuose.
+Kaip vartotojas elektroninės ataskaitos kūrėjo vaidmenyje, turite sukurti naują ER konfigūravimą, kuris turi [modeio žemėlapį](general-electronic-reporting.md#data-model-and-model-mapping-components) komponentą **Klausimyno** duomenų modeliui. Kadangi šis komponentas įgyvendina konfigūruotų duomenų modelį finansams, jis yra skirtas būtent finansams. Privalote konfigūruoti modelio žemėlapio komponentą tam, kad nurodytumėte programos objektus, kurie turi būti naudojami konfigūruoto duomenų modelio užpildymui su programos duomenimis vykdymo metu. Šios užduoties atlikimui, turite žinoti duomenų struktūros implementavimo išsamius duomenis **Klausimyno** verslo domene finansuose.
 
 Atlikę žingsnius [Naujo modelio žemėlapio konfigūravimo importavimo](#ImportModelMapping) toliau pateiktame skyriuje, galite importuoti būtiną modelį žemėlapio konfigūravimui iš pateikto XML failo. Kitu atveju, galite atlikti žingsnius [Naujo modelio žemėlapio konfigūravimo sukūrimas](#CreateModelMapping) skyriuje tam, kad suprojektuotumėte modelio žemėlapį iš pradžių.
 
 ### <a name="import-a-new-model-mapping-configuration"></a><a name="ImportModelMapping"></a>Importuokite naują modelio žemėlapio konfigūravimą
 
-1. Atsisiųskite [Klausimynų mapping.version.1.1.xml](https://download.microsoft.com/download/7/b/2/7b258e4e-4bd5-46a4-8114-27419ae4acd8/Questionnaires_mapping.version.1.1.xml) failą ir įrašykite jį į savo vietinį kompiuterį.
+1. Atsisiųskite [Klausimynų mapping.version.1.1.xml](https://go.microsoft.com/fwlink/?linkid=851448) failą ir įrašykite jį į savo vietinį kompiuterį.
 2. Eikite į **Organizacijos administravimas** \> **Darbo sritys** \> **Elektroninės ataskaitos**.
-3. **Elektroninės ataskaitos** darbo srityje pasirinkite **Ataskaitos konfigūravimai**.
+3. **Elektroninės ataskaitos** darbo srityje, pasirinkite **Ataskaito konfigūravimai**.
 4. Veiksmų srityje pasirinkite **Pakeisti** \> **Įkelti iš XML failo**.
 5. Pasirinkite **Naršyti** ir tuomet suraskite ir pasirinkite **Klausimynų mapping.version.1.1.xml** failą.
 6. Pasirinkite **OK** tam, kad importuotumėte konfigūravimą.
@@ -318,8 +318,8 @@ Tam, kad tęstumėte, praleiskite kitą procedūrą [Sukurti naują modelio žem
 3. Pasirinkite **Kurti konfigūraciją**.
 4. Išplečiamajame dialogo lange atlikite toliau nurodytus veiksmus.
 
-    1. Laukelyje **Naujas** pasirinkite **Modelio žemėlapio kūrimas pagal duomenų modelio klausimynus**.
-    2. **Pavadinimas** laukelyje, įveskite **Klausimyno žemėlapio kūrimas**.
+    1. **Naujas** laukelyje, pasirinkite **Modelio žėmėlapio kūrimas pagal duomenų modelio klausimynus**.
+    2. **Pavadinimas** laukelyje, įveskite **Klausimyni žemėlapio kūrimas**.
     3. **Duomenų modelio sąvoka** laukelyje, pasirinkite **Šaknies** sąvoka.
     4. Pasirinkite **Sukurti konfigūravimą** tam, kad sukurtumėte konfigūravimą.
 
@@ -342,7 +342,7 @@ Privalote konfigūruoti duomenų šaltinius tam, kad prieitumėte prie programos
     1. **Duomenų šaltiniai** juostoje pasirinkite **Įtraukti šaknį**.
     2. Iškrentančiame teksto laukelyje, **Pavadinimas** laukelyje, įveskite **Klausimynas**.
     3. **Lentelė** laukelyje, įveskite **KMCollection**.
-    4. Nustatykite **Prašyti užklausos** parinktį į **Taip**. Galėsite tuomet nurodyti [filtravimo](../../fin-ops/get-started/advanced-filtering-query-options.md) parinktis šiai lentelei sistemos užklausos teksto laukelyje vykdymo metu.
+    4. Nustatykite **Klausti užklaisai** parinktį į **Taip**. Galėsite tuomet nurodyti [filtravimo](../../fin-ops/get-started/advanced-filtering-query-options.md) parinktis šiai lentelei sistemos užklausos teksto laukelyje vykdymo metu.
     5. Pasirinkite **Gerai** tam, kad įtrauktumėte naują duomenų šaltinį.
 
 3. **Duomenų šaltinio tipai** juostoje pasirinkite **Dynamics 365 for Operations\\Lentelės įrašai**.
@@ -368,7 +368,7 @@ Privalote konfigūruoti duomenų šaltinius tam, kad prieitumėte prie programos
     2. Pasirinkite **Įtraukti**.
     3. Teksto laukelyje **Pavadinimas** laukelyje, įveskite **\$Rezultatogrupė**.
     4. Pasirinkite **Redaguoti formulę**.
-    5. [ER formulės redaktoriuje](general-electronic-reporting-formula-designer.md), **Formulės** laukelyje įveskite **FIRSTORNULL(\@.'\<Sąsajos'.KMQuestionResultGroup)** tam, kad naudotumėte [kelią](er-formula-language.md#Paths) vieno su daugeliu ryšyje tarp KMCollection ir KMQuestionResultGroup lentelių.
+    5. [ER formulės redaktoriuje](general-electronic-reporting-formula-designer.md), **Formulės** laukelyje įveskite **FIRSTORNULL(\@.'\<Sąsajos'.KMQuestionResultGroup)** tam, kad naudotumėte [kelią](er-formula-language.md#paths) vieno su daugeliu ryšyje tarp KMCollection ir KMQuestionResultGroup lentelių.
     6. Pasirinkite **Įrašyti** ir uždarykite formulės redaktorių.
     7. Pasirinkite **Gerai** tam, kad įtrauktumėte naują apskaičiuotą laukelį.
 
@@ -387,10 +387,10 @@ Privalote konfigūruoti duomenų šaltinius tam, kad prieitumėte prie programos
 11. **Duomenų šaltinio tipai** juostoje, pasirinkite **Funkcijos\\Apskaičiuotas laukelis**.
 12. Įtraukite naują apskaičiuotą laukelį, kuris bus naudojamas prieigai prie KMAnswer atsakymo įrašų iš kiekvienos susijusios KMQuestion lentelės įrašo:
 
-    1. **Duomenų šaltinio** juostoje pasirinkite **Klausimynas.\<Sąsajos.KMCollectionQuestion.\$Klausimas** ir tuomet pasirinkite **Įtraukti**.
+    1. **Duomenų šaltinio** juostoje pasirinkite **Klausimynas.\<Sąsajos.KMCollectionQuestion.\$Klausimas** ir tuomet pasirinkite **Įtrarukti**.
     2. Teksto laukelyje, **Pavadinimas** laukelyje įveskite **\$Atsakymas**.
     3. Pasirinkite **Redaguoti formulę**.
-    4. Formulės redaktoriaus laukelyje **Formulė** įveskite **FILTRAS (Atsakymas, Answer.kmAnswerCollectionId = \@.kmAnswerCollectionId)** tam, kad grįžtumėte prie atitinkamo atsakymo įrašų iš KMAnswer lentelės.
+    4. Formulės redaktoriuje **Fomrulė** laukelyje įveskite **FILTRAS (Atsakymas, Answer.kmAnswerCollectionId = \@.kmAnswerCollectionId)** tam, kad grįžtumėte prie atitinkamo atsakymo įrašų iš KMAnswer lentelės.
     5. Pasirinkite **Įrašyti** ir uždarykite formulės redaktorių.
     6. Pasirinkite **Gerai** tam, kad įtrauktumėte naują apskaičiuotą laukelį.
 
@@ -441,15 +441,15 @@ Galite įtraukti ER žymes tam, kad konfigūruotumėte kai kuriuos savo duomenų
 5. Uždarykite **Teksto vertimo** teksto laukelį.
 6. Pasirinkite **Atšaukti**.
 
-![ER žymių įtraukimas redaguojamam modelio žemėlapio kūrimui.](./media/er-quick-start1-adding-labels.png)
+![ER žymių įtraukimas redaguojamam modelio žemėlapio kūrimui](./media/er-quick-start1-adding-labels.png)
 
 Įvedėte ER žymes tik nustatytajai kalbai. Dėl informacijos apie tai, kaip ER žymės gali būti išverstos į kitas kalbas, žr. [Kelių kalbų ataskaitų projektavimas](er-design-multilingual-reports.md).
 
 #### <a name="add-a-data-source-to-transform-the-results-of-comparing-enumeration-values-to-a-text-value"></a><a name="AddMmDataSource3"></a>Įtraukite duomenų šaltinį tam, kad paverstumėte numeracijos verčių lyginimo rezultatus į teksto vertes
 
-Kadangi turite paversti palyginimo rezultatus tarp numeracijos verčių ir teksto verčių keletą kartų skirtingiems šaltiniams, būtų gerai konfigūruoti šią logiką kaip vieną duomenų šaltinį. Nepaisant to, tam, kad šis duomenų šaltinis galėtų būti dar kartą panaudojamas, tuomet turite sukonfigūruoti jį kaip parametrų duomenų šaltinį. Dėl išsamesnės informacijos, žr. [Palaikyti parametrų ER duomenų šaltinių skambučius apskaičiuotam laukelio tipui](er-calculated-field-type.md).
+Kadangi turite paversti palyginimo rezultatus tarp numeracijos verčių ir teksto verčių keletą kartų skirtingiems šaltiniams, būtų gerai konfigūruoti šią logiką kaip vieną duomenų šaltinį. Nepaisant to, tam, kad šis duomenų šaltinis galėtų būti dar kartą panaudojamas, tuomet turite sukonfigūruoti jį kaip parametrų duomenų šaltinį. Dėl išsamėsnės informacijos, žr. [Palaikyti parametrų ER duomenų šaltinių skambučius apskaičiuotam laukelio tipui](er-calculated-field-type.md).
 
-1. **Modelio žemėlapio kūrimo įrankio** puslapyje, **Duomenų šaltinio tipai** juostoje pasirinkite **Bendri\\Tuščia talpykla**.
+1. **Modelio žemėlapio kūrimo įrankisr** puslapyje, **Duomenų šaltinio tipai** juostoje pasirinkite **Bendri\\Tuščia talpykla**.
 2. Įtraukite naują talpyklos duomenų šaltinį:
 
     1. **Duomenų šaltiniai** juostoje pasirinkite **Įtraukti šaknį**.
@@ -475,7 +475,7 @@ Kadangi turite paversti palyginimo rezultatus tarp numeracijos verčių ir tekst
     8. Pasirinkite **Įrašyti** ir uždarykite formulės redaktorių.
     9. Pasirinkite **Gerai** tam, kad įtrauktumėte naują duomenų šaltinį.
 
-![Konfigūruotas žemėlapio modelis ER duomenų žemėlapio modelio kūrimo įrankyje.](./media/er-quick-start1-added-data-sources.png)
+![Konfigūruotas žemėlapio modelis ER duomenų žemėlapio modelio kūrimo įrankyje](./media/er-quick-start1-added-data-sources.png)
 
 #### <a name="bind-data-sources-to-data-model-fields"></a><a name="AddMmBindings1"></a>Susiekite duomenų šaltinius su duomenų modelio laukeliais
 
@@ -524,9 +524,9 @@ Privalote susieti konfigūruotus duomenų šaltinius į duomenų modelio laukeli
     | Klausimynas\\Klausimas\\Atsakymas\\EilėsTvarka         | Sveikasis skaičius     | Susieti   | \@.eilėsNumeris |
     | Klausimynas\\Klausimas\\Atsakymas\\Tekstas                   | Eilutė      | Susieti   | \@.tekstas |
 
-    Tolesnis paveikslėlis rodo galutinį konfigūruoto modelio žemėlapio statusą **Modelio žemėlapio kūrimo įrankio** puslapyje.
+    Tolesnis paveikslėlis rodo galutinį konfigūruoto modelio žemėlapio statusą **Modelelio žemėlapio kūrimo įrankio** puslapyje.
 
-    ![Visiškai konfigūruotas žemėlapio modelis ER duomenų žemėlapio modelio kūrimo įrankyje.](./media/er-quick-start1-mapping2.png)
+    ![Visiškai konfigūruotas žemėlapio modelis ER duomenų žemėlapio modelio kūrimo įrankyje](./media/er-quick-start1-mapping2.png)
 
 7. Įrašykite pakeitimus.
 8. Uždarykite puslapį **Modelio susiejimo dizaino įrankis**.
@@ -540,7 +540,7 @@ Privalote susieti konfigūruotus duomenų šaltinius į duomenų modelio laukeli
 
 Šios konfigūracijos versijos 1.1 statusas yra keičiamas iš **Juodraštis** į **Užbaigtas**. Versija 1.1 nebegali būti keičiama. Šioje versijoje yra konfigūruotų žemėlapio modelis ir gali būti naudojamas pagal kitas ER konfigūracijas. Šios konfigūracijos versija 1.2 yra sukurta ir turi **Juodraštis** statusą. Galite redaguoti šią versiją tam, kad keistumėte **Klausimyno žemėlapio** konfigūravimą.
 
-![Redaguojamos ER konfigūracijos versijos konfigūravimo puslapyje.](./media/er-quick-start1-mapping-configuration.png)
+![Redaguojamos ER konfigūracijos versijos konfigūravimo puslapyje](./media/er-quick-start1-mapping-configuration.png)
 
 > [!NOTE]
 > Konfigūruotas modelio žemėlapis yra jūsų finansų konkretus abstrakčių duomenų modelio implementavimas, kuris rodo **Klausimyno** verslo domeną.
@@ -549,22 +549,22 @@ Privalote susieti konfigūruotus duomenų šaltinius į duomenų modelio laukeli
 
 ER darbotvarkė naudoja iš anksto nustatytus šablonus tam, kad sukurtų ataskaitas „Microsoft Office“ formatuose („Excel“ darbo knygose ar „Word“ dokumentuose). Kol būtina ataskaita yra kuriama, šablonas yra užpildomas su būtinais duomenimis pagal konfigūruotą darbo srautą. Dėl to, pirmiausia turite projektuoti šabloną jūsų tinkintai ataskaitai. Ši ataskaita turi būti sukurta kaip „Excel“ darbo knyga, struktūra rodo tinkintos ataskaitos maketą. Privalote užvadinti visus „Excel“ elementus, kuriuos planuojate užpildyti būtinais duomenimis.
 
-1. Atsisiųskite [Klausimynų ataskaitos template.xlsx](https://download.microsoft.com/download/3/8/2/382c3cf0-87bb-473f-b7bb-3015b4facb74/Questionnaires_report_template.xlsx) failą ir įrašykite jį į savo vietinį kompiuterį.
+1. Atsisiųskite [Klausimynų ataskaitos template.xslx](https://go.microsoft.com/fwlink/?linkid=851448) failą ir įrašykite jį į savo vietinį kompiuterį.
 2. Atverkite failą „Excel“ ir peržiūrėkite darbo knygos struktūrą.
 
-Kaip rodo tolesnis paveikslėlis, atsiųstas šablonas buvo suprojektuotas konkrečių klausimynų spausdinimui, kurie rodo klausimyno klausimus kartu su atitinkamais atsakymais.
+Kaip rodo tolesnis paveikslėlis, atsiųstas šablonas buvo suprojektuotas konkrečių klausimyn spausdinimui, kurie rodo klausimyno klausimus kartu su atitinkamais atsakymais.
 
-![„Excel“ šablonas konkrečių klausimų spausdinimui.](./media/er-quick-start1-template-layout.png)
+![„Excel“ šablonas konkrečių klausimų spausdinimui](./media/er-quick-start1-template-layout.png)
 
 „Excel“ pavadinimai buvo įtraukti į šį šabloną tam, kad būtų užpildyta išsami klausimyno informacija. Galite naudoti vadovo pavadinimą „Excel“ pavadinimo peržiūrai.
 
-![Pavadinimo vadovo naudojimas „Excel“ pavadinimų peržiūrai „Excel“ šablone.](./media/er-quick-start1-template-names.png)
+![Pavadinimo vadovo naudojimas „Excel“ pavadinimų peržiūrai „Excel“ šablone](./media/er-quick-start1-template-names.png)
 
 Ataskaitos žymės buvo įkeltos kaip fiksuotas tekstas anglų kalba. Galite pakeisti ataskaitos žymes naujais „Excel“ pavadinimais, kurie užpildo žymes nuo kalbos priklausomu tekstu naudojant ER formatą [žymes](#AddMmLabels), taip kaip padarėte nuo kalbos priklausomomis sąvokomis konfigūruotame modelio žemėlapyje. Šiuo atveju, ER žymės turi būti įtrauktos į redaguojamą ER formatą.
 
 Kaip rodo tolesnis paveikslėlis, tinkinta ataskaitos antraštė buvo nurodyta siekiant įjungti „Excel“ puslapių numeravimui.
 
-![Tinkinta ataskaitos antraštė pateiktame „Excel“ šablone.](./media/er-quick-start1-template-header.png)
+![Tinkinta ataskaitos antraštė pateiktame „Excel“ šablone](./media/er-quick-start1-template-header.png)
 
 ## <a name="design-a-format"></a><a name="DesignFormat"></a>Formato kūrimas
 
@@ -574,9 +574,9 @@ Atlikę žingsnius [Importuoti suprojektuoto formato konfigūravimą](#FormatImp
 
 ### <a name="import-a-designed-format-configuration"></a><a name="FormatImport"></a>Importuokite suprojektuotą formato konfigūravimą
 
-1. Atsisiųskite [Klausimynų format.version.1.1.xml](https://download.microsoft.com/download/1/b/a/1ba39ec2-257a-44d8-972f-25bf7d18fb41/Questionnaires_format.version.1.1.xml) failą ir įrašykite jį į savo vietinį kompiuterį.
+1. Atsisiųskite [Klausimynų format.version.1.1.xml](https://go.microsoft.com/fwlink/?linkid=851448) failą ir įrašykite jį į savo vietinį kompiuterį.
 2. Eikite į **Organizacijos administravimas** \> **Darbo sritys** \> **Elektroninės ataskaitos**.
-3. **Elektroninės ataskaitos** darbo srityje pasirinkite **Ataskaitos konfigūravimai**.
+3. **Elektroninės ataskaitos** darbo srityje, pasirinkite **Ataskaito konfigūravimai**.
 4. Veiksmų juostoje pasirinkite **Keisti** \> **Įkelti iš XML failo**.
 5. Pasirinkite **Naršyti** ir tuomet suraskite ir pasirinkite **Klausimynų format.version.1.1.xml** failą.
 6. Pasirinkite **OK** tam, kad importuotumėte konfigūravimą.
@@ -611,14 +611,14 @@ Tam, kad tęstumėte, praleiskite kitą procedūrą, [Sukurti naujo formato konf
 4. Teksto laukelyje, pasirinkite šiuos žingsnius:
 
     1. Pasirinkite **Įtraukti šabloną**.
-    2. Suraskite ir pasirinkite vietiniu lygmeniu įrašytus **Klausimynų ataskaitos template.xslx** failą ir tuomet pasirinkite **Atverti**.
+    2. Suraskite ir pasirinkite vietiniu lygmeniu įrašytus **Klausyminš ataskaitos template.xslx** failą ir tuomet pasirinkite **Atverti**.
     3. Pasirinkite **Gerai** tam, kad importuotumėte šabloną.
 
-    ![Ataskaitos šablono importavimas.](./media/er-quick-start1-template-import.png)
+    ![Ataskaitos šablono importavimas](./media/er-quick-start1-template-import.png)
 
-**„Excel“\\faile** formato elementas yra automatiškai įtrauktas į redaguojamą formatą kaip šaknies elementas. Taip pat, arba **„Excel“\\Intervalo** formato elementas arba **„Excel“\\Laukelis** formato elementas yra automatiškai įtraukiamas visiems „Excel“ atpažįstamiems importuoto šablono pavadinimams. **„Excel“\\Antraštės** formatas buvo patalpintas į lizdą **Eilutės** elemente yra automatiškai įtraukiamas taip, kad rodytų antraštės nustatymus importuotame šablone.
+**„Excel“\\faile** formao elementas yra automatiškai įtrauktas į redaguojamą formatą kaip šaknies elementas. Taip pat, arba **„Excel“\\Intervalo** formato elementas arba **„Excel“\\Laukelis** formato elementas yra automatiškai įtraukiamas visiems „Excel“ atpažįstamiems importuoto šablono pavadinimams. **„Excel“\\Antraštės** formatas buvo patalpintas į lizdą **Eilutės** elemente yra automatiškai įtraukiamas taip, kad rodytų antraštės nustatymus importuotame šablone.
 
-![Formato struktūra apima automatiškai įtrauktus elementus ER veikimo kūrimo įrankyje.](./media/er-quick-start1-template-import2.png)
+![Formato struktūra apima automatiškai įtrauktus elementus ER veikimo kūrimo įrankyje](./media/er-quick-start1-template-import2.png)
 
 #### <a name="configure-a-format"></a><a name="ConfigureFormat"></a>Konfigūruokite formatą
 
@@ -629,12 +629,12 @@ Tam, kad tęstumėte, praleiskite kitą procedūrą, [Sukurti naujo formato konf
 
     Dėl informacijos apie tai, kaip nurodyti kalbos ir kultūros kontekstus ER procesui, žr. [Kelių kalbų ataskaitų projektavimas](er-design-multilingual-reports.md).
 
-    ![Kalbos ir kultūros nustatymų konfigūravimas pasirinktai ataskaitai ER veiksmų kūrimo įrankyje.](./media/er-quick-start1-template-format-structure1.png)
+    ![Kalbos ir kultūros nustatymų konfigūravimas pasirinktai ataskaitai ER veiksmų kūrimo įrankyje](./media/er-quick-start1-template-format-structure1.png)
 
 5. Formato medyje išplėskite šaknies lizdą ir tuomet pasirinkite **RezultatųGrupė**.
 6. **Formato** skirtuke, **Atkartojimo kryptis** laukelyje pasirinkite **Jokio atkartojimo**, nes nesitikite turėti daugiau nei vienos rezultatų grupės vienam klausimynui.
 
-    ![Atkartojimo krypties nustatymas intervalo formato elementams ER veikimo kūrimo įrankyje.](./media/er-quick-start1-template-format-structure2.png)
+    ![Atkartojimo krypties nustatyams intervalo formato elementams ER veikimo kūrimo įrankyje](./media/er-quick-start1-template-format-structure2.png)
 
 7. Pasirinkite **Įrašyti**.
 
@@ -654,7 +654,7 @@ Privalote nurodyti duomenų susiejimą formato elementui, kuris yra naudojamas u
 
 5. Uždarykite formulės redaktorių.
 
-    ![Konfigūruokite susiejimą sukurtos ataskaitos pavadinimo užpildymui.](./media/er-quick-start1-add-report-title-label.png)
+    ![Konfigūruokite susiejimą sukurtos ataskaitos pavadinimo užpildymui](./media/er-quick-start1-add-report-title-label.png)
 
 Galite naudoti šią techniką tam, kad paverstumėte visas kitas esamo šablono žymes priklausomas nuo kalbos. Dėl informacijos apie tai, kaip vieno ER konfigūravimo žymės gali būti išverstos į visas palaikomas kalbas, žr. [Kelių kalbų ataskaitų projektavimas](er-design-multilingual-reports.md).
 
@@ -664,7 +664,7 @@ Galite naudoti šią techniką tam, kad paverstumėte visas kitas esamo šablono
 2. Pasirinkite **Redaguoti**.
 3. Peržiūrėkite informaciją esančią **Duomenų šaltinio ypatybės** teksto laukelyje. Šis duomenų šaltinis rodo **Klausimynų** duomenų modelio komponento versiją 1, kuri yra **Klausimynų modelio** ER konfigūravime.
 
-![Modelio duomenų šaltinio ypatybės ER veikimo kūrimo įrankyje.](./media/er-quick-start1-model-data-source.png)
+![Modelio duomenų šaltinio ypatybės ER veikimo kūrimo įrankyje](./media/er-quick-start1-model-data-source.png)
 
 #### <a name="bind-format-elements-to-data-source-fields"></a><a name="BindFormatElements"></a>Susiekite formato elementus su duomenų šaltinio laukeliais
 
@@ -680,11 +680,11 @@ Tam, kad nurodytumėte, kaip šablonas yra užpildomas vykdymo laiku, privalote 
 
     **Klausimynas** intervalo formato elementas yra sukonfigūruotas vertikaliam atkartojimui. Kai jis susietas su duomenų šaltinius **Įrašo sąrašo** tipe, atitinkamas **Klausimyno** intervalas „Excel“ šablone yra kartojamas kiekvienam susieto duomenų šaltinio įrašui.
  
-    ![Klausimyno intervalo formato elemento susiejimas su atitinkamais įrašo sąrašo duomenų šaltiniais ER veikimo kūrimo įrankyje.](./media/er-quick-start1-bindings1.png)
+    ![Klausimyno intervalo formato elemento susiejimas su atitinkamais įrašo sąrašo duomenų šaltiniais ER veikimo kūrimo įrankyje](./media/er-quick-start1-bindings1.png)
 
     Kadangi **Klausimyno** intervalas „Excel“ šablone yra nurodytas tarp 5 per 14, šios eilutės yra atkartojamos visiems ataskaitos klausimynams.
 
-    ![Eilutės „Excel“ šablone, kurios bus atkartotos sukurtoje ataskaitoje kiekvienam įrašui įrašo sąrašo duomenų šaltiniuose.](./media/er-quick-start1-template-questionnaire-range.png)
+    ![Eilutės „Excel“ šablone, kurios bus atkartotos sukurtoje ataskaitoje kiekvienam įrašui įrašo sąrašo duomenų šaltiniuose](./media/er-quick-start1-template-questionnaire-range.png)
 
 8. Konfigūruoti panašius susiejimus likusiems formato elementams, kaip aprašyta tolesnėje lentelėje.
 
@@ -703,7 +703,7 @@ Tam, kad nurodytumėte, kaip šablonas yra užpildomas vykdymo laiku, privalote 
     | „Excel“\\Klausimynas\\Klausimynotvarka                      | **\@.KlausimynoTvarka** |
     | „Excel“\\Klausimynas\\RezultatųGrupė\\Kodas\_               | **\@.RezultatųGrupės.Kodas** |
     | „Excel“\\Klausimynas\\RezultatųGrupė\\Aprašas\_        | **\@.RezultatųGrupės.Aprašas** |
-    | „Excel“\\Klausimynas\\Rezultatųgrupė\\Maks.taškųskaičius    | **\@.RezultatųGrupė.Maks.taškųskaičius** |
+    | „Exxcel“\\Klausimynas\\Rezultatųgrupė\\Maks.taškųskaičius    | **\@.RezultatųGrupė.Maks.taškųskaičius** |
     | „Excel“\\Klausimynas\\Klausimas                           | **\@.Klausimas** |
     | „Excel“\\Klausimynas\\Klausimas\\Surinkimoeilėsnumeris | **\@.CollectionSequenceNumber**, kai **\@** yra **modelio.Klausimynas.Klausimas** |
     | „Excel“\\Klausimynas\\Klausimas\\Id                       | **\@.Id** |
@@ -720,7 +720,7 @@ Tam, kad nurodytumėte, kaip šablonas yra užpildomas vykdymo laiku, privalote 
 
 Toliau pateiktas paveikslėlis rodo galutinį sukonfigūruotų susietus duomenis **Formato žemėlapio kūrimo įrankio** puslapyje.
 
-![Konfigūruotas duomenų susiejimas ER veikimo kūrimo įrankyje.](./media/er-quick-start1-bindings2.png)
+![Konfigūruotas duomenų susiejimas ER veikimo kūrimo įrankyje](./media/er-quick-start1-bindings2.png)
 
 > [!IMPORTANT]
 > Visa konkrečių duomenų šaltinių ir susiejimų kolekcija rodo formato žemėlapio komponentą konfigūruotam formatui. Šio formato žemėlapio kūrimas yra iškviečiamas jums vykdant konfigūruotą formatą ataskaitos kūrimui.
@@ -738,17 +738,17 @@ Dabar galite vykdyti suprojektuotą formatą bandymo tikslais iš **Konfigūravi
 7. Pasirinkite **Gerai** ataskaitos vykdymui.
 8. Peržiūrėkite sukurtą ataskaitą.
 
-Pagal [nutylėjimą](electronic-reporting-destinations.md#default-behavior), sukurta ataskaita yra pristatoma „Excel“ faile, kurį galite atsisiųsti. Tolesni paveikslėliai rodo du „Excel“ formatų sukurtos ataskaitos puslapius.
+Pagal [nutylėjimą](electronic-reporting-destinations.md#default-behavior), sukuta ataskaita yra pristatoma „Excel“ faile, kurį galite atsisiųsti. Tolesni paveikslėliai rodo du „Excel“ formatų sukurtos ataskaitos puslapius.
 
-![„Excel“ formatų sukurtos ataskaitos pavyzdys, puslapis 1.](./media/er-quick-start1-report1a.png)
+![„Excel“ formatų sukurtos ataskaitos pavyzdys, puslapis 1](./media/er-quick-start1-report1a.png)
 
-![„Excel“ formatų sukurtos ataskaitos pavyzdys, puslapis 2.](./media/er-quick-start1-report1b.png)
+![„Excel“ formatų sukurtos ataskaitos pavyzdys, puslapis 2](./media/er-quick-start1-report1b.png)
 
 ## <a name="tune-a-designed-format"></a><a name="TuneFormat"></a>Suderinkite projektavimo formatą
 
 ### <a name="modify-a-format-to-change-the-name-of-a-generated-document"></a><a name="ModifyToChangeName"></a>Keiskite formatą tam, kad pakeistumėte sukurto dokumento pavadinimą
 
-Pagal nutylėjimą, sukurtas dokumentas yra pavadintas naudojant esamo vartotojo slapyvardį. Keisdami formatą galite pakeisti šią elgseną taip, kad sukurtas dokumentas būtų pavadintas pagal jūsų tinkintą logiką. Pavyzdžiui, sugeneruoto dokumento pavadinimas gali būti paremtas esamos datos ir laiko sesija ir ataskaitos pavadinimu.
+Pagal nutylėjimą, sukurtas dokumentas yra pavadintas naudojant esamo vartotojo slapyvardį. Keisdami formatą galite pakeisti šią elgsentą taip, kad sukrutas dokumentas būtų pavadintas pagal jūsų tinkintą logiką. Pavyzdžiui, sugeneruoto dokumento pavadinimas gali būti paremtas esamos datos ir laiko sesija ir ataskaitos pavadinimu.
 
 1. **Formato kūrimo įrankio** puslapyje, formato medyje pasirinkite **„Ataskaita“** šaknies elementą.
 2. **Žemėlapis** skirtuke pasirinkite **Redaguoti failo pavadinimą**.
@@ -763,7 +763,7 @@ Klausimai yra teisingai išrikiuoti sukurtoje ataskaitoje. Galite keisti tvarką
 1. **Formato kūrimo įrankio** puslapyje, formato medyje pasirinkite **„Ataskaita“** šaknies elementą.
 2. **Žemėlapio** skirtuke, formato medyje, išplėskite **Ataskaita\\Klausimynas\\Klausimas**.
 
-    ![Klausimo formato intervalo tipo elementas ER veikimo kūrimo įrankyje.](./media/er-quick-start1-bindings3.png)
+    ![Klausimo formato intervalo tipo elementas ER veikimo kūrimo įrankyje](./media/er-quick-start1-bindings3.png)
 
 3. **Žemėlapis** skirtuke pasirinkite **modelio.Klausimynas**.
 4. Pasirinkite **Įtraukti** \> **Funkcijos\\Apskaičiuotas laukelis** ir tuomet **Pavadinimo** laukelyje įveskite **IšrikiuotiKlausimai**.
@@ -776,11 +776,11 @@ Klausimai yra teisingai išrikiuoti sukurtoje ataskaitoje. Galite keisti tvarką
 11. Pasirinkite **Susieti** ir tuomet patvirtinkite, kad esamas **modelis.Klausimynas.Klausimai** kelias yra pakeistas nauju **modeliu.Klausimynu.IšrikiuotiKlausimai** keliu visų lizduose esančių elementų susiejime.
 12. Pasirinkite **Įrašyti**.
 
-![Susiekite klausimų formato elementą su konfigūruotu išriškiuotųklausimų duomenų šaltiniu ER veikimo kūrimo įrankyje.](./media/er-quick-start1-bindings4.png)
+![Susiekite klausimų formato elemntą su konfigūruotu išriškiuotųklausimų duomenų šaltiniu ER veikimo kūrimo įrankyje](./media/er-quick-start1-bindings4.png)
 
 ### <a name="run-a-modified-format-from-er"></a><a name="RunFormatFromER2"></a>Vykdykite pakeistą formatą iš ER
 
-Dabar galite vykdyti pakeistą formatą bandymo tikslais iš ER darbotvarkės.
+Dabar galite vykdyti pakeistą formatą bandymo tikslais iš ER drabotvarkės.
 
 1. Puslapyje **Formato dizaino įrankis** pasirinkite **Vykdyti**.
 2. **ER parametrai** teksto laukelyje, **Apimami įrašai** „FastTab“, konfigūruokite filtravimo parinktis taip, kad tik **SBCCrsExam** klausimynas būtų įtrauktas.
@@ -790,7 +790,7 @@ Dabar galite vykdyti pakeistą formatą bandymo tikslais iš ER darbotvarkės.
 
 Tolesnis paveikslėlis rodo „Excel“ formatu sukurtą ataskaitą, kurioje klausimai yra teisingai išrikiuoti.
 
-![Sukurta ataskaita „Excel“ formatu turi tinkamai išrikiuotus klausimus.](./media/er-quick-start1-report2.png)
+![Sukurta ataskaita „Excel“ formatu turi tinkamai išrikiuotus klausimus](./media/er-quick-start1-report2.png)
 
 ### <a name="complete-the-format-design"></a><a name="CompleteFormat"></a>Užbaikite formato projektavimą
 
@@ -799,14 +799,14 @@ Tolesnis paveikslėlis rodo „Excel“ formatu sukurtą ataskaitą, kurioje kla
 3. **Versijos** „FastTab“, pasirinkite konfigūravimo versiją, kuri turi statusą **Juodraštis**.
 4. Pasirinkite **Keisti statusą** \> **Užbaigtas**.
 
-Šios konfigūracijos versijos 1.1 statusas yra keičiamas iš **Juodraštis** į **Užbaigtas**. Versija 1.1 nebegali būti keičiama. Šioje versijoje yra konfigūruotas formatas ir gali būti naudojamas jūsų tinkintos ataskaitos spausdinimui. Šios konfigūracijos versija 1.2 yra sukurta ir turi **Juodraštis** statusą. Galite redaguoti šią versiją tam, kad keistumėte jūsų ataskaitos **Klausimyno** formatą.
+Šios konfigūracijos versijos 1.1 statusas yra keičiamas iš **Juodraštis** į **Užbaigtas**. Versija 1.1 nebegali būti keičiama. Šioje versijoje yra konfigūruotas formatas ir gali būti naudojamas jūsų tinkintos ataskaitos spausdinimui.  Šios konfigūracijos versija 1.2 yra sukurta ir turi **Juodraštis** statusą. Galite redaguoti šią versiją tam, kad keistumėte jūsų ataskaitos **Klausimyno** formatą.
 
-![Redaguojamos ER konfigūracijos versijos redagavimas puslapyje.](./media/er-quick-start1-format-configuration.png)
+![Redaguojamos ER konfigūracijos versijos konfigūravimo puslapyje](./media/er-quick-start1-format-configuration.png)
 
 > [!NOTE]
 > Konfigūruotas formatas yra jūsų suprojektuota  **Klausimyno** ataskaita ir neturi jokių sąsajų su finansų artefaktais.
 
-## <a name="develop-application-artefacts-to-call-the-designed-report"></a><a name="DevelopCustomCode"></a>Vystykite programos artefaktus tam, kad iškviestumėte suprojektuotą ataskaitą
+## <a name="develop-application-artefacts-to-call-the-designed-report"></a><a name="DevelopCustomCode"></a>Vystykite programos artefaktus tam, kad iškviestumėte suprojekuotą ataskaitą
 
 Kaip vartotojas sistemos administratoriaus vaidmenyje, privalote vystyti naują logiką taip, kad konfigūruotas ER formatas galėtų būti iškviestas programos vartotojo sąsajos (UI) siekiant sukurti jūsų tinkintą ataskaitą. Šiuo metu, ER nesiūlo jokių galimybių konfigūruoti tokio tipo logikos. Dėl to, reikalingas nedidelis inžinerinis darbas. 
 
@@ -816,7 +816,7 @@ Naujos logikos sukūrimui, privalote talpinti topologiją, galinčią palaikyti 
 
 #### <a name="add-a-data-contract-class"></a><a name="DataContractClass"></a>Įtraukite duomenų sutarties klasę
 
-Įtraukite naują **KlausimynoERataskaitossutarties** klasę į savo „Microsoft Visual Studio“ projektą ir parašykite kodą, kuris nurodo duomenų sutartį, naudotiną konfigūruoto ER formato vykdymui.
+Įtraukite naują **KlausimynoERataskaitossutarties** klasę į savo „Microsoft Visual Studio“ projekta ir parašykite kodą, kuris nurodo duomenų sutartį, naudotiną konfigūruoto ER formato vykdymui.
 
 ```xpp
 /// <summary>
@@ -910,7 +910,7 @@ class QuestionnairesErReportUIBuilder extends SysOperationAutomaticUIBuilder
 
 #### <a name="add-a-data-provider-class"></a><a name="DataProviderClass"></a>Įtraukite duomenų tiekėjo klasę
 
-Įtraukite naują **KlausimynoErAtaskaitosDP** klasę į savo „Microsoft Visual Studio“ projektą ir parašykite kodą, kuris pateikia duomenų tiekėją, naudotiną konfigūruoto ER formato vykdymui. Pateiktas kodas apima tik šio duomenų tiekėjo sutarties duomenis.
+Įtraukite naują **KlausimynoErAtaskaitosDP** klasę į savo „Microsoft Visual Studio“ projekta ir parašykite kodą, kuris pateikia duomenų tiekėją, naudotiną konfigūruoto ER formato vykdymui. Pateiktas kodas apime tik šio duomenų tiekėjo sutarties duomenis.
 
 ```xpp
 /// <summary>
@@ -1037,11 +1037,11 @@ class QuestionnairesErReportController extends ERFormatMappingRunBaseController
 
 #### <a name="add-a-menu-item"></a><a name="MenuItem"></a>Įtraukite meniu elementą
 
-Įtraukite naują **QuestionnairesErReport** meniu elementą į savo „Visual Studio“ projektą. **Objekto** ypatybėse, šis meniu rodo į **QuestionnairesErReportController** klasę ir yra naudojamas nurodyti vartotojo teises pasirinkti ir vykdyti ER formatą. **Žymės** ypatybėse, šis meniu elementas rodo **\@QuestionnairesReport** žymę, kurią sukūrėte anksčiau, todėl teisingas tekstas yra rodomas UI programoje.
+Įtrauktie naują **QuestionnairesErReport** meniu elementą į savo „Visual Studio“ projektą. **Objekto** ypatybėse, šis meniu rodo į **QuestionnairesErReportController** klasę ir yra naudojamas nurodyti vartotojo teises pasirinkti ir vykdyti ER formatą. **Žymės** ypatybėse, šis meniu elementas rodo **\@QuestionnairesReport** žymę, kurią sukūrėte anksčiau, todėl teisingas tekstas yra rodomas UI programoje.
 
 #### <a name="add-a-menu-item-to-a-menu"></a><a name="Menu"></a>Įtraukite meniu elementą į meniu
 
-Įtraukite esantį **KM** meniu elementą į savo „Visual Studio“ projektą. Įtraukite naują **QuestionnairesErReport** elementą **Išorės** tipe šiame meniu. Šis elementas turi rodyti **QuestionnairesErReport** meniu elementą, kuris yra aprašytas ankstesniame skyriuje.
+Įtrauktie esantį **KM** meniu elementą į savo „Visual Studio“ projektą. Įtraukite naują **QuestionnairesErReport** elementą **Išorės** tipe šiame meniu. Šis elementas turi roodyti **QuestionnairesErReport** meniu elementą, kuris yra aprašytas ankstesniame skyriuje.
 
 #### <a name="build-a-visual-studio-project"></a><a name="BuildVSProject"></a>Sukurkite „Visual Studio“ projektą
 
@@ -1051,7 +1051,7 @@ Sukurkite savo projektą tam, kad padarytumėte naują meniu elementą prieinam�
 
 1. Eikite į **Klausimynas** \> **Projektavimas** \> **Klausimynų ataskaita (vykdoma ER)**.
 
-    ![Pasirinkite klausimyno ataskaitą (vykdoma ER) meniu elementą klausimyno modulyje tam, kad vykdytumėte konfigūruotą ER formatą.](./media/er-quick-start1-application-menu-modified.png)
+    ![Pasirinkite klausimyno ataskaitą (vykdoma ER) meniu elementą klausimyno modulyje tam, kad vykdytumėte konfigūruotą ER formatą](./media/er-quick-start1-application-menu-modified.png)
 
 2. Iškrentančiame teksto laukelyje, **Formato žemėlapis** laukelyje, pasirinkite **Klausimynų ataskaita**.
 3. Pasirinkite **Gerai**.
@@ -1059,7 +1059,7 @@ Sukurkite savo projektą tam, kad padarytumėte naują meniu elementą prieinam�
 5. Pasirinkite **Gerai** filtravimo parinkties patvirtinimui.
 6. Pasirinkite **Gerai** ataskaitos vykdymui.
 
-    ![Atrankos kriterijų nurodymas elektroninės ataskaitos teksto laukelyje.](./media/er-quick-start1-report-run-dialog-page.png)
+    ![Atrankos kriterijų nurodymas elektroninės ataskaitos teksto laukelyje](./media/er-quick-start1-report-run-dialog-page.png)
 
 7. Peržiūrėkite sukurtą ataskaitą.
 
@@ -1084,7 +1084,7 @@ Galite keisti konfigūruotą ER sprendimą taip, kad jis naudotų duomenis patei
 
 Įtrauktas duomenų šaltinis pateikia informaciją apie vykdomo ER formato žemėlapio įrašo ID.
 
-![Įtrauktas duomenų šaltinis ER modelio žemėlapio kūrimo įrankyje.](./media/er-quick-start1-mapping3.png)
+![Įtrauktas duomenų šaltinis ER modelio žemėlapio kūrimo įrankyje](./media/er-quick-start1-mapping3.png)
 
 #### <a name="add-a-data-source-to-access-er-format-mapping-records"></a><a name="AddDataSource2"></a>Įtraukite duomenų šaltinį prieigai prie ER formato žemėlapio įrašų
 
@@ -1100,7 +1100,7 @@ Tęskite pasirinkto modelio žemėlapio redagavimą įtraukdami duomenų šaltin
 
 Tęskite pasirinkto modelio žemėlapio redagavimą įtraukdami duomenų šaltinį prieigai prie formato žemėlapio ER formato vykdymo įrašo.
 
-1. **Modelio žemėlapio kūrimo įrankio** puslapyje, **Duomenų šaltinio tipai** juostoje pasirinkite **Funkcijos\\Apskaičiuotas laukelis**.
+1. **Modelio žemėlapio kūrimo įrankisr** puslapyje, **Duomenų šaltinio tipai** juostoje pasirinkite **Funkcijos\\Apskaičiuotas laukelis**.
 2. **Duomenų šaltiniai** juostoje pasirinkite **Įtraukti šaknį**.
 3. Iškrentančiame teksto laukelyje, **Pavadinimas** laukelyje, įveskite **ER2**.
 4. Pasirinkite **Redaguoti formulę**.
@@ -1119,7 +1119,7 @@ Tęskite pasirinkto modelio žemėlapio redagavimą taip, kad ER formato vykdymo
 
 Kadangi naudojote **FormatName** laukelį, konfigūruotas modelio žemėlapis dabar rodo ER formato pavadinimą, kuri iškviečia modelio žemėlapį vykdymo metu.
 
-![Duomenų modelio laukelio susiejimas su įtrauktu duomenų šaltinio metodu ER modelio žemėlapio kūrimo įrankyje.](./media/er-quick-start1-mapping4.png)
+![Duomenų modelio laukelio susiejimas su įtrauktu duomenų šaltinio metodu ER modelio žemėlapio kūrimo įrankyje](./media/er-quick-start1-mapping4.png)
 
 #### <a name="complete-the-design-of-the-model-mapping"></a><a name="CompleteModelMapping2"></a>Užbaikite modelio žemėlapio dizainą
 
@@ -1150,13 +1150,13 @@ Galite keisti konfigūruotą ER formatą taip, kad jo pavadinimas būtų rodomas
 #### <a name="bind-the-added-format-element"></a><a name="BindAddedFormatElement"></a>Susiekite įkeltą formato elementą
 
 1. **Formato kūrimo** puslapyje,**Žemėlapio** skirtuke, formato medyje, įjungtame **Poraštės\\Eilutės** elemente, pasirinkite **Redaguoti formulę**.
-2. Formulės redaktoriaus laukelyje **Formulė** įveskite **CONCATENATE ("\&C\&10", FORMAT("Sukurta'\%1' ER sprendimas", model.ExecutionContext.FormatName))**.
+2. Formulės rekdaktoriuje **Formulės** laukelyje įveskite **CONCATENATE ("\&C\&10", FORMAT("Sukurta'\%1' ER sprendimas", model.ExecutionContext.FormatName))**.
 3. Pasirinkite **Įrašyti** ir uždarykite formulės redaktorių.
 4. Pasirinkite **Įrašyti**.
 
 Konfigūruotas formatas dabar buvo pakeistas taip, kad jo pavadinimas bus įvestas sukurtos ataskaitos poraštėje naudojant **Poraštės\\Eilutės** elementą.
 
-![Poraštės formato elemento įtraukimas į konfigūruotą formatą ER veiksmo kūrimo įrankyje.](./media/er-quick-start1-template-format-structure3.png)
+![Poraštės formato elemnto įtraukimas į konfigūruotą formatą ER veiksmo kūrimo įrankyje](./media/er-quick-start1-template-format-structure3.png)
 
 #### <a name="complete-the-format-design"></a><a name="CompleteFormat2"></a>Užbaikite formato projektavimą
 
@@ -1178,7 +1178,7 @@ Konfigūruotas formatas dabar buvo pakeistas taip, kad jo pavadinimas bus įvest
 
 Atkreipkite dėmesį, kad sukurtos ataskaitos poraštė turi ER formato pavadinimą, kuris yra naudojamas jos sukūrimui.
 
-![Sukurta ataskaita „Excel“ formatu.](./media/er-quick-start1-report4.png)
+![Sukurta ataskaita „Excel“ formatu](./media/er-quick-start1-report4.png)
 
 ### <a name="run-a-format-from-er"></a><a name="RunFormatFromER3"></a>Vykdykite formatą iš ER
 
@@ -1199,7 +1199,7 @@ Atkreipkite dėmesį, kad sukurtos ataskaitos poraštė neturi ER formato pavadi
 3. **Failo paskirties** „FastTab“, nustatykite **Ekrano** [paskirtį](er-destination-type-screen.md) **Ataskaitos** formato komponentui, kuris buvo [įtrauktas](#AddFormatRootElement) kaip šaknies elementas konfigūruoto **Klausimyno ataskaitos** ER formato.
 4. **PDF pakeitimo nustatymų** „FastTab“, konfigūruokite paskirties vietą pavertimui į ataskaitą [PDF formatu](electronic-reporting-destinations.md#OutputConversionToPDF), kuris naudoja **Kraštovaizdžio** puslapio orientaciją.
 
-![Tinkinto ekrano paskirties vietos konfigūravimas ER formatui elektroninės ataskaitos paskirties puslapyje.](./media/er-quick-start1-destination.png)
+![Tinkinto ekrano paskirties vietos konfigūravimas ER formatui elektroninės ataskaitos paskirties puslapyje](./media/er-quick-start1-destination.png)
 
 ### <a name="run-a-format-from-the-application-to-preview-it-as-a-pdf-document"></a><a name="RunFormatFromApp3"></a>Vykdykite formatą iš programos tam, kad peržiūrėtumėte jį kaip PDF dokumentą
 
@@ -1211,12 +1211,12 @@ Atkreipkite dėmesį, kad sukurtos ataskaitos poraštė neturi ER formato pavadi
 
     **Paskirties vietos** „FastTab“, atkreipkite dėmesį, kad **Išorės** laukelis yra nustatytas į **Ekranas**. Jei norite keisti konfigūruotą paskirties vietą, pasirinkite **Keisti**.
 
-    ![ER ataskaitos vykdymo laiko teksto laukelis, kuriame galite keisti konfigūruotą paskirties vietą.](./media/er-quick-start1-run-settings.png)
+    ![ER ataskaitos vykdymo laiko teksto laukelis, kuriame galite keisti konfigūruotą paskirties vietą](./media/er-quick-start1-run-settings.png)
 
 6. Pasirinkite **Gerai** ataskaitos vykdymui.
 7. Peržiūrėkite sukurtą ataskaitą PDF formatu.
 
-    ![Ekrane rodoma sukurtos ataskaitos PDF formatu peržiūra.](./media/er-quick-start1-preview-PDF.png)
+    ![Ekrane rodoma sukurtos ataskaitos PDF formatu peržiūra](./media/er-quick-start1-preview-PDF.png)
 
 ## <a name="additional-resources"></a><a name="References"></a>Papildomi ištekliai
 
@@ -1233,6 +1233,3 @@ Atkreipkite dėmesį, kad sukurtos ataskaitos poraštė neturi ER formato pavadi
 - [IF funkcija](er-functions-logical-if.md)
 - [ORDERBY funkcija](er-functions-list-orderby.md)
 - [SESSIONNOW funkcija](er-functions-datetime-sessionnow.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,30 +1,31 @@
 ---
 title: Pagrindinis modulio Grynųjų pinigų ir banko valdymas puslapis
 description: Naudodami modulį Grynųjų pinigų ir banko valdymas galite tvarkyti juridinio subjekto banko sąskaitas ir finansinius instrumentus, susietus su tomis banko sąskaitomis.
-author: roschlom
+author: panolte
+manager: AnnBe
 ms.date: 10/26/2017
 ms.topic: index-page
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BankTreasurerWorkspace
 audience: Application User
 ms.reviewer: roschlom
-ms.custom:
-- "21941"
-- intro-internal
+ms.search.scope: Core, Operations
+ms.custom: 21941
 ms.assetid: d7e22bd8-fd0d-47e1-843f-45ab0193ff8d
 ms.search.region: Global
-ms.author: roschlom
+ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: de37cc3df673a672a091ffe90ca543fae77bc9d5
-ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
+ms.openlocfilehash: 88d7f70084d035354d199be95b5c55ce7afff7b7
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7883699"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4459582"
 ---
-# <a name="cash-and-bank-management-home-page"></a>Pagrindinis modulio Grynųjų pinigų ir banko valdymas puslapis
+# <a name="cash-and-bank-management-home-page"></a>Grynųjų pinigų ir banko valdymo pagrindinis puslapis
 
 [!include [banner](../includes/banner.md)]
 
@@ -34,7 +35,7 @@ Naudodami modulį Grynųjų pinigų ir banko valdymas galite tvarkyti juridinio 
 
 **Verslo procesai**
 
-[![Verslo procesas.](./media/Cash-process.PNG)](./media/Cash-process.PNG)
+[![Verslo procesas](./media/Cash-process.PNG)](./media/Cash-process.PNG)
 
 -   [Mokėjimo nuolaidos](cash-discounts.md)
 -   [Sudengimų apžvalga](settlement-overview.md)
@@ -85,7 +86,7 @@ Naudodami modulį Grynųjų pinigų ir banko valdymas galite tvarkyti juridinio 
 
 #### <a name="whats-new-and-in-development"></a>Kas nauja ir kuriama
 
-Norėdami pamatyti, kokios naujos funkcijos suplanuotos, eikite į tinklalapį [„Microsoft Dynamics 365” leidimo planai](/dynamics365/release-plans/). 
+Norėdami pamatyti, kokios naujos funkcijos suplanuotos, eikite į tinklalapį [„Microsoft Dynamics 365” leidimo planai](https://go.microsoft.com/fwlink/?linkid=2010158). 
 
 #### <a name="blogs"></a>Tinklaraščiai
 
@@ -99,6 +100,3 @@ Programoje „Finance“ papildoma pagalba prieinama kaip užduočių vedliai. N
 #### <a name="videos"></a>Vaizdo įrašai
 
 Peržiūrėkite mokomuosius vaizdo įrašus, kuriuos dabar galite rasti [„Microsoft Dynamics 365‟ „YouTube‟ kanale](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

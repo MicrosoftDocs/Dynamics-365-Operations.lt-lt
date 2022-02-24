@@ -2,9 +2,11 @@
 title: DUK apie adresų knygeles
 description: Šioje temoje pateikiami atsakymai į dažnai užduodamus klausimus, susijusius su adresų knygelėmis.
 author: msftbrking
-ms.date: 02/03/2021
+manager: AnnBe
+ms.date: 10/26/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DirPartyCheckDuplicate, DirPartyTable
 audience: Application User
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: brking
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d429639f52c745a737567419b6012884ab20d43d
-ms.sourcegitcommit: b294840b8e12aaa2775dd73b2ba9481ecc3d91d5
+ms.openlocfilehash: 922900b20b878dd8b479158d47a9f7792caa684d
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/31/2021
-ms.locfileid: "7463632"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4796903"
 ---
 # <a name="address-books-faq"></a>DUK apie adresų knygeles
 
@@ -65,13 +67,3 @@ Kartais galbūt norėsite du arba kelis šalių įrašus sulieti į vieną įra�
 ## <a name="can-i-translate-address-information-for-party-records"></a>Ar galima išversti šalių įrašų adreso informaciją?
 
 Galite nustatyti adreso informacijos vertimus, kad programoje informacija būtų rodoma vartotojo kalba (sistemos kalba), o dokumentuose, pvz., pardavimo užsakymuose – kita kalba. Galite įvesti šalių / regionų pavadinimų, adresų ir vardų sekų vertimus. Pavyzdžiui, jūsų sistemos kalba yra danų, ir pardavimo užsakymą sukuriate klientui Prancūzijoje. Šiuo atveju programoje kliento įrašą galite peržiūrėti danų kalba, tačiau išspausdintame pardavimo užsakyme adreso informaciją rodyti prancūzų kalba. Nustatydami vertimus, turėtumėte įvesti kiekvienos sąrašo prekės vertimą. Visos prekės, kurioms neįvesite vertimo, bus rodomos sistemos kalba. Pavyzdžiui, jūsų sistemos kalba yra danų, ir dokumentą siunčiate klientui Ispanijoje. Jei neįvedėte adreso informacijos vertimų į ispanų (ESP) kalbą, ta informacija danų kalba bus rodoma ir programoje, ir išspausdintame dokumente.
-
-## <a name="after-i-import-addresses-why-cant-i-edit-the-records"></a>Po importavimo adresų kodėl negalima redaguoti įrašų?
-
-Importuojant adresus, pateikiamas laukas, kuris pavadintas **IsLocationOwner**. Šiame lauke nurodoma, ar su vieta (adresu) susietas šalis yra adreso savininkas. Jei šalis yra adreso savininkas, adresas gali būti redaguojamas, kai jis naudojamas naudojant šalį visuotinėje adresų knygelėje arba pagrindinio įrašo puslapyje (pvz., kliento, tiekėjo ar darbuotojo). Jei įrašas nėra adreso savininkas, įrašo redaguoti negalima. 
-
-Importuojant adresus, reikšmė **IsLocationOwner** turi būti nustatyta į **Taip**, jei norite, kad adresą būtų galima redaguoti naudojant susietą šalį. Jei šis laukas netinkamai importuotas, vietos savininką galima atnaujinti visuotinje adresų knygelėje.
-
-Daugiau informacijos apie tai, kaip pakeisti importuoto adreso vietos savininką, ieškokite [vietų savininkų valdymas](./global-address-book-location-owner.md).
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

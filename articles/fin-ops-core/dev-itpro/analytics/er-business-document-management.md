@@ -2,24 +2,27 @@
 title: Verslo dokumentų valdymo apžvalga
 description: Šioje temoje pateikiama informacija apie tai, kaip naudotis ER sistemos verslo dokumentų valdymo funkcija.
 author: NickSelin
-ms.date: 04/23/2021
-ms.topic: overview
+manager: AnnBe
+ms.date: 12/15/2020
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERBDWorkspace, ERBDParameters, ERSecurityAccessEditor
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
+ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: faea9d4d9b3fc8f3f1474b6bb2a8dc31cdc22511
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
-ms.translationtype: MT
+ms.openlocfilehash: 1e657ffbad88aeb9fd238112954f5555496ac329
+ms.sourcegitcommit: fcc4596eeadac5dfe9a3242afa49b9b1c0c96575
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7986256"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "4740961"
 ---
 # <a name="business-document-management-overview"></a>Verslo dokumentų valdymo apžvalga
 
@@ -40,13 +43,13 @@ Dabar verslo dokumentų valdymo funkcija įdiegta tik debesies diegimams. Jei š
 
 Norėdami naudoti verslo dokumentų valdymą šablonų redagavimui „Excel“ arba „Word“ formatais naudojant „Microsoft Office“ darbalaukio programas, turite įdiegti „Microsoft Office 2010“ arba naujesnę versiją. Tai palaikoma atliekant diegimą debesyje ir vietinį diegimą.
 
-Jei norite naudoti verslo dokumentų valdymą, norėdami redaguoti šablonus "Excel" arba "Word" Microsoft 365 formatuose naudodami programas, turite Microsoft 365 turėti žiniatinklio abonemento Office. Tai palaikoma debesies diegime.
+Norėdami naudoti verslo dokumentų valdymą šablonų redagavimui „Excel“ arba „Word“ formatais naudojant „Microsoft 365“ programas, turite turėti „Microsoft 365 Office”, skirtą žiniatinkliui, prenumeratą. Tai palaikoma debesies diegime.
 
 ## <a name="business-document-availability"></a>Verslo dokumentų pasiekiamumas
 
-Pilnam visų ataskaitų, suplanuotų 2019 m. spalio mėn leidimui, žiūrėkite [Konfigūruotinų verslo dokumentų ataskaitos programose „Word“ ir „Excel“](/dynamics365-release-plan/2019wave2/dynamics365-finance-operations/configurable-business-documents-reporting-word-excel-pdf#feature-details).
+Pilnam visų ataskaitų, suplanuotų 2019 m. spalio mėn leidimui, žiūrėkite [Konfigūruotinų verslo dokumentų ataskaitos programose „Word“ ir „Excel“](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-finance-operations/configurable-business-documents-reporting-word-excel-pdf#feature-details).
 
-Pilnam visų ataskaitų, suplanuotų 2020 m. spalio mėn leidimui, žiūrėkite [Konfigūruotini verslo dokumentai – „Word“ šablonai](/dynamics365-release-plan/2020wave1/dynamics365-finance/configurable-business-documents-word-templates).
+Pilnam visų ataskaitų, suplanuotų 2020 m. spalio mėn leidimui, žiūrėkite [Konfigūruotini verslo dokumentai – „Word“ šablonai](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-finance/configurable-business-documents-word-templates).
 
 Būsimuose leidimuose bus prieinama daugiau ataskaitų. Specialūs pranešimai apie papildomas ataskaitas bus atsiųsti atskirai. Norėdami sužinoti, kaip peržiūrėti šiuo metu galimų ataskaitų sąrašą, žiūrėkite [ER konfigūracijų, išleistų „Finance” tam kad būtų palaikomi toliau pateikti konfigūruojami verslo dokumentai, sąrašas](#list-of-configurations-cbd) skyrių žemiau.
 
@@ -56,7 +59,7 @@ Norėdami sužinoti daugiau apie šią funkciją, atlikite šioje temoje esantį
 
 Kadangi verslo dokumentų valdymas sukurtas papildant ER sistemą, turite sukonfigūruoti ER parametrus, kad pradėtumėte darbą su verslo dokumentų valdymu. Norėdami tai atlikti, turite nustatyti ER parametrus taip, kaip nurodyta temoje [Elektroninių ataskaitų (ER) sistemos konfigūravimas](electronic-reporting-er-configure-parameters.md). Taip pat turite įtraukti naują konfigūracijos tiekėją kaip nurodyta temoje [Kurkite konfigūracijos tiekėjus ir žymėkite juos kaip aktyvius](tasks/er-configuration-provider-mark-it-active-2016-11.md).
 
-![ER darbo sritis.](./media/BDM-Overview-ERSetting.png)
+![ER darbo sritis](./media/BDM-Overview-ERSetting.png)
 
 ## <a name="import-er-solutions"></a>ER sprendimų importavimas
 
@@ -66,22 +69,22 @@ Kadangi verslo dokumentų valdymas sukurtas papildant ER sistemą, turite sukonf
 
 | Failas                                      | Turinys |
 |-------------------------------------------|---------|
-| Customer invoicing model.version.2.xml    | [ER duomenų modelio konfigūracija](https://download.microsoft.com/download/b/f/a/bfa5cb52-e6e2-42bc-a4c0-77014a4c54e6/Customerinvoicingmodel.version.2.xml) |
-| Customer FTI report (GER).version.2.3.xml | [Laisvos formos sąskaitos-faktūros ER formato konfigūracija](https://download.microsoft.com/download/3/c/2/3c2e58f2-6e56-43d9-85ea-4c97252a108d/CustomerFTIreportGER.version.2.3.xml) |
+| Customer invoicing model.version.2.xml    | [ER duomenų modelio konfigūracija](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
+| Customer FTI report (GER).version.2.3.xml | [Laisvos formos sąskaitos-faktūros ER formato konfigūracija](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
 
 **Pavyzdinis ER mokėjimo kvitų sprendimas**
 
 | Failas                                     | Turinys |
 |------------------------------------------|---------|
-| Model for cheques.version.10.xml         | [ER duomenų modelio konfigūracija](https://download.microsoft.com/download/3/7/6/376cb0f6-181a-4895-a432-390ffca64162/Modelforcheques.version.10.xml) |
-| Cheques printing format.version.10.9.xml | [Mokėjimo kvito ER formato konfigūracija](https://download.microsoft.com/download/6/d/6/6d61bfff-3d89-4377-9e34-2e3ee6d6df91/Chequesprintingformat.version.10.9.xml) |
+| Model for cheques.version.10.xml         | [ER duomenų modelio konfigūracija](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
+| Cheques printing format.version.10.9.xml | [Mokėjimo kvito ER formato konfigūracija](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
 
 **Pavyzdinis ER užsienio prekybos sprendimas**
 
 | Failas                             | Turinys |
 |----------------------------------|---------|
-| Intrastat model.version.1.xml    | [ER duomenų modelio konfigūracija](https://download.microsoft.com/download/2/0/0/200d6ed1-eff8-48ec-ab75-175a4acf9714/Intrastatmodel.version.1.xml) |
-| Intrastat report.version.1.9.xml | [Intrastat valdiklio ataskaitos ER formato konfigūracija](https://download.microsoft.com/download/7/a/2/7a2a27c3-a8a5-42a1-9d04-f0a8e1ec1707/Intrastatreport.version.1.9.xml) |
+| Intrastat model.version.1.xml    | [ER duomenų modelio konfigūracija](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
+| Intrastat report.version.1.9.xml | [Intrastat valdiklio ataskaitos ER formato konfigūracija](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
 
 Norėdami importuoti kiekvieną failą, atlikite toliau nurodytą procedūrą. Importuokite kiekvieno aukščiau lentelėse nurodyto ER sprendimo ER *duomenų modelio* konfigūraciją prieš importuodami atitinkamą ER *formato* konfigūraciją.
 
@@ -91,11 +94,11 @@ Norėdami importuoti kiekvieną failą, atlikite toliau nurodytą procedūrą. I
 4. Pasirinkite **Naršyti**, kad įkeltumėte reikalingą XML failą.
 5. Pasirinkite **Gerai**, kad patvirtintumėte konfigūracijos importavimą.
 
-![ER konfigūracijų puslapis, patvirtinantis konfigūracijos importavimą.](./media/BDM-Overview-ERSolutions.png)
+![ER konfigūracijų puslapis, patvirtinantis konfigūracijos importavimą](./media/BDM-Overview-ERSolutions.png)
 
 Taip pat galite importuoti oficialiai publikuotas ER formato konfigūracijas iš „Microsoft Dynamics Lifecycle Services“ (LCS). Pavyzdžiui, norėdami atlikti šią procedūrą, galite importuoti naujausią ER formato konfigūraciją **Laisvos formos sąskaita faktūra („Excel“)**. Atitinkamas ER duomenų modelis ir ER modelio susiejimo konfigūracijos bus importuoti automatiškai.
 
-![LCS bendrai naudojamo turto bibliotekos turinio puslapis.](./media/BDM-Overview-SharedAssetLibrary.png)
+![LCS bendrai naudojamo turto bibliotekos turinio puslapis](./media/BDM-Overview-SharedAssetLibrary.png)
 
 Daugiau informacijos apie ER konfigūracijų importavimą rasite temoje [ER konfigūracijos ciklo valdymas](general-electronic-reporting-manage-configuration-lifecycle.md).
 
@@ -113,7 +116,7 @@ Atlikite toliau nurodytą procedūrą, kad įjungtumėte verslo dokumentų valdy
 > [!NOTE]
 > Daugiau informacijos apie tai, kaip naudoti naujo dokumento vartotojo sąsają funkcijoje Verslo dokumentų valdymas, žr. [Naujo dokumento vartotojo sąsaja funkcijoje Verslo dokumentų valdymas](er-business-document-management-new-template-ui.md).
 
-![Funkcijos valdymo darbo sritis.](./media/BDM-Overview-FMEnabling.png)
+![Funkcijos valdymo darbo sritis](./media/BDM-Overview-FMEnabling.png)
 
 Daugiau informacijos apie naujų funkcijų aktyvavimą žr. temoje [Funkcijos valdymo apžvalga](../../fin-ops/get-started/feature-management/feature-management-overview.md).
 
@@ -135,7 +138,7 @@ Prieš nustatydami verslo dokumentų valdymą, turite nustatyti reikalingą doku
 
 Daugiau informacijos apie tai, kaip nustatyti reikalingus dokumentų valdymo parametrus ir dokumentų tipus rasite temoje [Dokumentų valdymo konfigūravimas](../../fin-ops/organization-administration/configure-document-management.md).
 
-![Dokumentų valdymo dokumento tipo nustatymas.](./media/BDM-Overview-DMSetting.png)
+![Dokumentų valdymo dokumento tipo nustatymas](./media/BDM-Overview-DMSetting.png)
 
 ### <a name="set-up-parameters"></a><a name="SetupBdmParameters"></a>Parametrų nustatymas
 
@@ -153,18 +156,18 @@ Atlikite toliau nurodytą procedūrą, kad nustatytumėte pagrindinius parametru
 > [!NOTE]
 > Šis parametras pasiekiamas tik dokumentų tipams, kurie sukonfigūruoti naudojant „SharePoint“ vietą.
 
-![Verslo dokumentų valdymo parametrų nustatymas.](./media/BDM-Overview-BDMSetting.png)
+![Verslo dokumentų valdymo parametrų nustatymas](./media/BDM-Overview-BDMSetting.png)
 
 Pasirinktas dokumento tipas yra būdingas įmonei ir bus naudojamas, kai vartotojas dirba su verslo dokumentų valdymu įmonėje, kuriai sukonfigūruotas pasirinktas dokumento tipas. Kai vartotojas dirba su verslo dokumentų valdymu kitoje įmonėje, tas pats pasirinktas dokumento tipas bus naudojamas jei jis nebuvo sukonfigūruotas šiai įmonei. Kai dokumento tipas sukonfigūruotas, jis bus naudojamas vietoje to, kuris pasirinktas lauke **„SharePoint“ dokumento tipas**.
 
 > [!NOTE]
-> Parametre **„SharePoint“ dokumento tipas** „SharePoint“ aplankas apibrėžiamas kaip laikina šablonų, kuriuos galima redaguoti naudojant „Microsoft Excel“ arba „Word“, saugykla. Turite nustatyti šį parametrą, jei planuojate naudoti šias „Office“ darbalaukio programas šablonams redaguoti. Norėdami gauti daugiau informacijos, žr. [Šablono redagavimas „Office“ darbalaukio programoje](#EditInOfficeDesktopApp). Šį parametrą galite palikti tuščią, jei planuojate modifikuoti šabloną tik naudodami funkciją, esaą programoje Microsoft 365. Daugiau informacijos žr. [Šablono redagavimas naudojant „Microsoft 365“](#EditInOffice365).
+> Parametre **„SharePoint“ dokumento tipas** „SharePoint“ aplankas apibrėžiamas kaip laikina šablonų, kuriuos galima redaguoti naudojant „Microsoft Excel“ arba „Word“, saugykla. Turite nustatyti šį parametrą, jei planuojate naudoti šias „Office“ darbalaukio programas šablonams redaguoti. Norėdami gauti daugiau informacijos, žr. [Šablono redagavimas „Office“ darbalaukio programoje](#EditInOfficeDesktopApp). Šį parametrą galite palikti tuščią, jei planuojate modifikuoti šabloną naudodami tik „Microsoft 365“ funkcijas. Daugiau informacijos žr. [Šablono redagavimas naudojant „Microsoft 365“](#EditInOffice365).
 
 ## <a name="configure-access-permissions"></a>Prieigos teisių konfigūravimas
 
 Pagal numatytuosius nustatymus, kai prieiga prie verslo dokumentų valdymo teisių neįgalinta, kiekvienas vartotojas, kuriam suteikta prieiga prie verslo dokumentų valdymo darbo srities, matys visus prieinamus ER sprendimo šablonus. Verslo dokumentų valdymo darbo srityje bus rodomi tik tie šablonai, kurie yra ER formato konfigūracijose ir pažymėti žyme **Verslo dokumentų tipas**.
 
-![ER konfigūracijų puslapis su verslo dokumento tipo žyme.](./media/BDM-Overview-ERFormatTags.png)
+![ER konfigūracijų puslapis su verslo dokumento tipo žyme](./media/BDM-Overview-ERFormatTags.png)
 
 Šablonų, prieinamų verslo dokumentų valdymo darbo srityje, sąrašas gali būti apribotas konfigūruojant prieigos teises. Tai svarbu, kai skirtingi šablonai naudojami skirtingų verslo domenų (funkcinių sričių) verslo dokumentams kurti, o jūs norite suteikti konkretiems vartotojams prieigą prie skirtingų šablonų, kad jie galėtų juos redaguoti verslo dokumentų valdymo darbo srityje.
 
@@ -180,19 +183,19 @@ Atlikite toliau nurodytą procedūrą, kad nustatytumėte prieigos prie verslo d
 
     Atkreipkite dėmesį į pranešimą, kuris informuoja, kad prieigos prie verslo dokumentų valdymo teisių naudojimas šiuo metu neįjungtas.
 
-    ![Verslo dokumentų valdymo prieigos teisių puslapio konfigūratorius.](./media/BDM-Overview-TemplatesAccess1.png)
+    ![Verslo dokumentų valdymo prieigos teisių puslapio konfigūratorius](./media/BDM-Overview-TemplatesAccess1.png)
 
     Pagal šį parametrą kiekvienas vartotojas, kuriam priskirtas bet kuris saugos vaidmuo, sukonfigūruotas atlikti pareigą **Verslo dokumentų šablonų valdymas** (AOT pavadinimas **ERBDManageTemplates**), gali atidaryti verslo dokumentų valdymo darbo sritį ir redaguoti bet kurį prieinamą šabloną.
 
     Toliau pateiktame grafiniame elemente parodyta, kas prieinama verslo dokumentų valdymo darbo srityje vartotojams, kuriems suteiktas **Gautinų sumų klerkas** vaidmuo. Pagal dabartinį prieigos teisių parametrą, vartotojas gali redaguoti skirtingų funkcinių sričių, įskaitant sąskaitos-faktūros išrašymą, teisės aktų nustatytas ataskaitas ir mokėjimus, verslo dokumentų šablonus.
 
-    ![Verslo dokumentų valdymo darbo srities puslapis, skirtas gautinų sumų klerkui.](./media/BDM-Overview-TemplatesForAlice1.png)
+    ![Verslo dokumentų valdymo darbo srities puslapis, skirtas gautinų sumų klerkui](./media/BDM-Overview-TemplatesForAlice1.png)
 
 3. Puslapyje **Prieigos teisių konfigūratorius** pasirinkite **Prieigos teisių parametras**.
 4. Dialogo lange **Parametrai prieigos teisių šablonų redagavimui** įjunkite parinktį **Taikyti sukonfigūruotas prieigos teises**.
 5. Pasirinkite **Gerai**, kad patvirtintumėte, jog verslo dokumentų valdymo prieigos teisės buvo įjungtos.
 
-    ![Verslo dokumentų valdymo prieigos teisių patvirtinimas.](./media/BDM-Overview-TemplatesAccess2.png)
+    ![Verslo dokumentų valdymo prieigos teisių patvirtinimas](./media/BDM-Overview-TemplatesAccess2.png)
 
 6. Pasirinkite **Įtraukti**, kad įvestumėte naują verslo vaidmenį, kuriam reikia sukonfigūruoti teises pasiekti verslo dokumentų valdymo šablonus.
 7. Dialogo lange **Saugos vaidmenys** pasirinkite vaidmenį **Gautinų sumų klerkas** ir tada pažymėkite **Gerai**, kad patvirtintumėte vaidmens pasirinkimą.
@@ -204,7 +207,7 @@ Atlikite toliau nurodytą procedūrą, kad nustatytumėte prieigos prie verslo d
 
 11. Perjunkite sritį **Susijusi informacija** iš dabartinio puslapio dešinės pusės. Srityje **Susijusi informacija** rodoma, kaip bus taikomos sukonfigūruotos prieigos teisės, taip pat kokie ER konfigūracijų šablonai bus prieinami vartotojams, kuriems priskirtas **Gautinų sumų klerkas** vaidmuo.
 
-    ![Susijusios informacijos sritis prieigos teisių konfigūratoriaus puslapyje.](./media/BDM-Overview-TemplatesAccess3.png)
+    ![Susijusios informacijos sritis prieigos teisių konfigūratoriaus puslapyje](./media/BDM-Overview-TemplatesAccess3.png)
 
 12. Skirtuke **Prieigos teisės konfigūracijų žymėms** pasirinkite parinktį **Įtraukti**.
 13. Dialogo lange **Pasirinkti konfigūraciją** pažymėkite **Intrastat ataskaita** ER formato konfigūraciją.
@@ -215,11 +218,11 @@ Dabartinis parametras reiškia, kad kiekvienam vartotojui, kuriam priskirtas **G
 - Šablonai, turintys vertę **Sąskaitos-faktūros išrašymas** žymei **Funkcinė sritis**.
 - Iš ER formato konfigūracijų sukurti šablonai, kurie išvardyti žymėje **Prieigos teisės konfigūracijoms** (šiame pavyzdyje, šablonai iš **Intrastat ataskaita** formato konfigūracijos domene **Privalomos ataskaitos**).
 
-![Prieigos teisių „FastTabs” prieigos teisių konfigūratoriaus puslapyje.](./media/BDM-Overview-TemplatesAccess4.png)
+![Prieigos teisių „FastTabs” prieigos teisių konfigūratoriaus puslapyje](./media/BDM-Overview-TemplatesAccess4.png)
 
 Toliau pateiktame grafiniame elemente parodyta, ką teikia verslo dokumentų valdymo darbo sritis vartotojui, kuriam suteiktas **Gautinų sumų klerkas** vaidmuo. Pagal dabartinį verslo dokumentų valdymo prieigos teisių parametrą, vartotojas gali redaguoti verslo dokumentų šablonus iš domeno **Sąskaitos-faktūros išrašymas** ir **Intrastat ataskaita** ER formato konfigūracijos. Šablonai iš domeno **Mokėjimai** nepasiekiami vaidmeniui **Gautinų sumų klerkas**.
 
-![Verslo dokumentų šablonų redagavimas verslo dokumentų valdymo darbo srities puslapyje.](./media/BDM-Overview-TemplatesForAlice2.png)
+![Verslo dokumentų šablonų redagavimas verslo dokumentų valdymo darbo srities puslapyje](./media/BDM-Overview-TemplatesForAlice2.png)
 
 > [!NOTE]
 > **Prieigos teisių konfigūracijų** taisyklės saugomos naudojant ER formato konfigūracijos unikalaus identifikavimo ID. Tai reiškia, kad šios taisyklės nebus panaikintos, kai jomis besiremianti ER konfigūracija yra panaikinama. Kai importuojate panaikintas konfigūracijas atgal į šį egzempliorių, šios taisyklės vėl bus joms priskirtos. Nereikia dar kartą nustatyti taisyklių, kai vėl importuojate panaikintas konfigūracijas.
@@ -241,7 +244,7 @@ Kai funkcija **Į „Office“ panaši vartotojo sąsaja funkcijoje Verslo dokum
 - Šablonai, priklausantys jūsų ER konfigūracijos teikėjui (t. y. teikėjui, kuris šiuo metu pažymėtas kaip aktyvus darbo srityje **Elektroninės ataskaitos**). Pasirinkę vieną iš šių šablonų, galite pasirinkti **Redaguoti šabloną**, kad pradėtumėte jį redaguoti arba tęstumėte darbą.
 - Šablonai, priklausantys kitiems ER konfigūracijos teikėjams. Pasirinkę vieną iš šių šablonų, galite pasirinkti **Naujas dokumentas**, kad sukurtumėte kopiją, priklausančią jūsų ER konfigūracijos teikėjui, o tada pradėti redaguoti kopiją.
 
-![Šablonų įrašai verslo dokumentų valdymo darbo srities puslapyje.](./media/BDM-Overview-EditingTemplate1.png)
+![Šablonų įrašai verslo dokumentų valdymo darbo srities puslapyje](./media/BDM-Overview-EditingTemplate1.png)
 
 Skirtuke **Šablonas** pristatomas pasirinkto šablono turinys. Pasirinkite skirtuką **Išsami informacija**, kad peržiūrėtumėte išsamią pasirinkto šablono informaciją, taip pat ER formato konfigūracijos, kurioje yra šis šablonas, išsamią informaciją. Atkreipkite dėmesį, kad visi šablonai turi būseną **Paskelbta** ir neturi jokios išsamios informacijos stulpelyje **Tikslinimas**. Tai reiškia, kad šie šablonai šiuo metu neredaguojami.
 
@@ -254,7 +257,7 @@ Norėdami dirbti su šablonais, priklausančiais kitiems ER konfigūracijos teik
 1. Verslo dokumentų valdymo darbo srityje sąraše pasirinkite šabloną **Kvitų spausdinimo formatas**.
 2. Pažymėkite skirtuką **Išsami informacija**.
 
-![Verslo dokumentų valdymo darbo srities puslapis, Išsamios informacijos skirtukas.](./media/BDM-Overview-EditingTemplate2.png)
+![Verslo dokumentų valdymo darbo srities puslapis, Išsamios informacijos skirtukas](./media/BDM-Overview-EditingTemplate2.png)
 
 Pasirinktam šablonui pasiekiama parinktis **Redaguoti šabloną**. Ši parinktis visada pasiekiama ER formato konfigūracijos, priklausančios aktyvios ER konfigūracijos tiekėjui (šiame pavyzdyje – **„Litware, Inc.“**), šablonui. Kai pasirenkate parinktį **Redaguoti šabloną**, galite redaguoti esamą šabloną iš esamo ER formato konfigūracijos juodraščio versijos.
 
@@ -262,32 +265,16 @@ Pasirinktam šablonui pasiekiama parinktis **Redaguoti šabloną**. Ši parinkti
 
 1. Darbo srityje Verslo dokumentų valdymas pasirinkite dokumentą, kurį norite naudoti kaip šabloną.
 
-    ![Pasirinkite dokumentą verslo dokumentų valdymo darbo srities puslapyje.](./media/BDM-Overview-EditingTemplate3.png)
+    ![Pasirinkite dokumentą verslo dokumentų valdymo darbo srities puslapyje](./media/BDM-Overview-EditingTemplate3.png)
 
 2. Pasirinkite **Naujas dokumentas** ir, jei reikia, lauke **Pavadinimas** pakeiskite redaguojamo šablono pavadinimą. Tekstas bus naudojamas automatiškai sukurtai ER formato konfigūracijai pavadinti. Atkreipkite dėmesį, kad šios konfigūracijos (**Kliento laisvos formos sąskaitos-faktūros ataskaitos (GER) kopija**), kurioje bus suredaguotas šablonas, juodraščio versija bus automatiškai pažymėta vykdyti šį ER formatą dabartiniam vartotojui. Tuo pat metu, nemodifikuotas originalus šablonas iš pagrindinio ER formato konfigūracijos bus naudojamas šiam bet kuriam kitam vartotojui skirtam ER formatui vykdyti.
 3. Lauke **Pavadinimas** pakeiskite automatiškai sukurto redaguojamo šablono pirmo pataisymo pavadinimą.
 4. Lauke **Komentaras** pakeiskite redaguojamo šablono automatiškai sukurto pataisymo komentarą.
 5. Pasirinkite **Gerai**, kad patvirtintumėte redagavimo proceso pradžią.
 
-![Redagavimo proceso pradžios patvirtinimas naujo šablono kūrimui.](./media/BDM-Overview-EditingTemplate4.png)
-
-Jeigu nėra jokio teikėjo, jį bus siūloma sukurti. Jeigu nėra jokio aktyvaus teikėjo, bus siūloma jį pasirinkti aktyvavimui.
-
-Norėdami sukurti teikėją, pakeiskite teikėjo pavadinimą lauke **Pavadinimas**, atnaujinkite naujo teikėjo internetinį adresą lauke **Internetinis adresas** ir pasirinkite **Gerai** patvirtinimui.
-
-   ![Naujo BDM teikėjo kūrimas.](./media/bdm_create_provider.png)
-
-Norėdami aktyvuoti esamą teikėją, pasirinkite teikėjo pavadinimą lauke **Konfigūracijos teikėjas** ir pasirinkite **Gerai** nustatyti teikėjui kaip aktyviam.
-
-   ![BDM teikėjo aktyvavimas.](./media/bdm_choose_provider.png)
-
-> [!NOTE]
-> Kiekvienas BDM šablonas kreipiasi į teikėją kaip į konfigūracijos autorių. Štai todėl šablonui reikia aktyvaus teikėjo.
-
+![Redagavimo proceso pradžios patvirtinimas naujo šablono kūrimui](./media/BDM-Overview-EditingTemplate4.png)
 
 Parinktis **Naujas dokumentas** visada pasiekiama ER formato konfigūracijos šablonui, kurį teikia dabartinis ir kitas tiekėjas (šiame pavyzdyje – „Microsoft“) ir kuriame nėra pataisymų. Redaguotas šablonas bus išsaugotas naujoje automatiškai sugeneruotoje ER formato konfigūracijoje.
-
-
 
 ### <a name="start-editing-a-template"></a>Pradėkite redaguoti šabloną
 
@@ -295,19 +282,19 @@ Parinktis **Naujas dokumentas** visada pasiekiama ER formato konfigūracijos ša
 2. Lauke **Pavadinimas** pakeiskite automatiškai sukurto redaguojamo šablono pirmo pataisymo pavadinimą.
 3. Lauke **Komentaras** pakeiskite redaguojamo šablono automatiškai sukurto pataisymo pastabą.
 
-    ![Šablono redagavimas verslo dokumentų valdymo darbo srities puslapyje.](./media/BDM-Overview-EditingTemplate5.png)
+    ![Šablono redagavimas verslo dokumentų valdymo darbo srities puslapyje](./media/BDM-Overview-EditingTemplate5.png)
 
 4. Pasirinkite **Gerai**, kad patvirtintumėte redagavimo proceso pradžią.
 
 Bus atidarytas puslapis **BDM šablono redaktorius**. Pasirinktą šabloną bus galima redaguoti internetu naudojant „Microsoft 365“.
 
-![Verslo dokumentų valdymo šablonų redaktoriaus puslapis.](./media/BDM-Overview-EditingLayout1.png)
+![Verslo dokumentų valdymo šablonų redaktoriaus puslapis](./media/BDM-Overview-EditingLayout1.png)
 
-### <a name="edit-a-template-in-microsoft-365"></a><a name="EditInOffice365"></a>Šablono redagavimas naudojant „Microsoft 365“
+### <a name="edit-a-template-in-microsoft-365"></a><a name="EditInOffice365"></a>„Microsoft 365“ šablono redagavimas
 
 Šabloną galima modifikuoti naudojant „Microsoft 365“. Pavyzdžiui, programoje „Office Online“ pakeiskite lauko raginimų šablono antraštėje šriftą iš **Paprastasis** į **Paryškintasis**. Šie pakeitimai automatiškai išsaugomi redaguojamame šablone, kuris saugomas pirminėje šablono saugykloje (pagal numatytuosius nustatymus – „Azure“ didelių dvejetainių objektų saugykloje). Ji konfigūruojama ER sistemai.
 
-![Šablono antraštės šrifto keitimas į paryškintąjį verslo dokumentų valdymo šablonų rengyklės puslapyje.](./media/BDM-Overview-EditingLayout2.png)
+![Šablono antraštės šrifto keitimas į paryškintąjį verslo dokumentų valdymo šablonų rengyklės puslapyje](./media/BDM-Overview-EditingLayout2.png)
 
 ### <a name="edit-a-template-in-the-office-desktop-application"></a><a name="EditInOfficeDesktopApp"></a>Šablono redagavimas „Office“ darbalaukio programoje
 
@@ -317,15 +304,15 @@ Bus atidarytas puslapis **BDM šablono redaktorius**. Pasirinktą šabloną bus 
 1. Pasirinkite parinktį **Atidaryti darbalaukio programoje**, kad modifikuotumėte šabloną naudojant „Office“darbalaukio programų (šiame pavyzdyje – „Excel“) funkciją. Redaguojamas šablonas nukopijuojamas iš nuolatinės saugyklos į laikiną saugyklą, sukonfigūruotą verslo dokumentų valdymo parametruose kaip „SharePoint“ aplankas.
 2. Patvirtinkite, kad norite atidaryti šabloną iš laikinos failų saugyklos „Office“ darbalaukio „Excel“ programoje.
 
-    ![Šablonas atidarytas darbalaukio „Excel” programoje.](./media/BDM-Overview-EditingLayout3.png)
+    ![Šablonas atidarytas darbalaukio „Excel” programoje](./media/BDM-Overview-EditingLayout3.png)
 
 3. Modifikuokite šabloną. Pavyzdžiui, programoje „Office Online“ pakeiskite laukų raginimų šablono antraštėje šriftą pakeisdami spalvą iš **Juoda** į **Mėlyna**.
 
-    ![Šablono antraštės šrifto spalvos modifikavimas naudojant darbalaukio „Excel” programą.](./media/BDM-Overview-EditingLayout4.png)
+    ![Šablono antraštės šrifto spalvos modifikavimas naudojant darbalaukio „Excel” programą](./media/BDM-Overview-EditingLayout4.png)
 
 4. Pasirinkite **Įrašyti** „Excel“ darbalaukio programoje, kad įrašytumėte šablono pakeitimus laikinoje saugykloje.
 
-    ![Įrašykite pakeitimus į verslo dokumentų valdymo šablonų rengyklės puslapį naudojant darbalaukio „Excel” programą.](./media/BDM-Overview-EditingLayout5.png)
+    ![Įrašykite pakeitimus į verslo dokumentų valdymo šablonų rengyklės puslapį naudojant darbalaukio „Excel” programą](./media/BDM-Overview-EditingLayout5.png)
 
 5. Uždarykite „Excel“ darbalaukio programą.
 6. Pasirinkite **Sinchronizuoti išsaugotą kopiją**, kad sinchronizuotumėte laikiną šablonų saugyklą į nuolatinę šablonų saugyklą.
@@ -339,13 +326,13 @@ Bus atidarytas puslapis **BDM šablono redaktorius**. Pasirinktą šabloną bus 
 2. Pasirinkite **Rodyti formatą**, kad peržiūrėtumėte dabartinę formato struktūrą iš pagrindinės ER formato konfigūracijos, kuri turi būti sulygiuota su redaguojamu šablonu. 
 3. Norėdami uždaryti sritį, pasirinkite **Slėpti formatą**.
 
-    ![BDM BDM šablono redaktoriaus puslapis.](./media/BDM-Overview-EditingTemplate6.png)
+    ![BDM BDM šablono redaktoriaus puslapis](./media/BDM-Overview-EditingTemplate6.png)
 
 4. Uždarykite puslapį **BDM šablono redaktorius**.
 
 Atnaujintas šablonas rodomas skirtuke **Šablonas**. Atkreipkite dėmesį, kad redaguojamo šablono būsena dabar yra **Juodraštis** ir dabartinis pataisymas nebėra tuščias. Tai reiškia, kad šio šablono redagavimo procesas prasidėjo.
 
-![Atnaujinto šablono verslo dokumentų valdymo darbo srities puslapyje peržiūra.](./media/BDM-Overview-EditingTemplate5.png)
+![Atnaujinto šablono verslo dokumentų valdymo darbo srities puslapyje peržiūra](./media/BDM-Overview-EditingTemplate5.png)
 
 ### <a name="test-the-modified-template"></a>Modifikuoto šablono testavimas 
 
@@ -355,13 +342,13 @@ Atnaujintas šablonas rodomas skirtuke **Šablonas**. Atkreipkite dėmesį, kad 
 4. Pasirinkite lygį **Modulis – gautinos sumos** \> **Dokumentai** \> **Laisvos formos sąskaitos-faktūra** \> **Originalus dokumentas**, kad nurodytumėte apdorojimui skirtų sąskaitų-faktūrų aprėptį.
 5. Lauke **Ataskaitos formatas** pasirinkite **Kliento laisvos formos sąskaitos-faktūros ataskaitos (GER) kopija** ER formatą nurodytam dokumento lygiui.
 
-    ![Spausdinimo valdymo parametro puslapis.](./media/BDM-Overview-TestRun1.png)
+    ![Spausdinimo valdymo parametro puslapis](./media/BDM-Overview-TestRun1.png)
 
 6. Norėdami uždaryti dabartinį puslapį, paspauskite **Išeiti**.
 7. Pasirinkite **Spausdinti**, o tada pasirinkite **Pasirinkta**.
 8. Atsisiųskite dokumentą ir jį atidarykite naudojant „Excel“ darbalaukio programą.
 
-![Laisvos formos sąskaitos-faktūros puslapis.](./media/BDM-Overview-TestRun2.png)
+![Laisvos formos sąskaitos-faktūros puslapis](./media/BDM-Overview-TestRun2.png)
 
 Modifikuotas šablonas naudojamas pažymėtos prekės laisvos formos sąskaitos-faktūros ataskaitai generuoti. Norėdami išanalizuoti, kaip šią ataskaitą paveikė jūsų pristatyti šablono pakeitimai, galite vykdyti šią ataskaitą viename programos seanse iš karto po to, kai modifikavote šabloną kitame programos seanse.
 
@@ -372,7 +359,7 @@ Modifikuotas šablonas naudojamas pažymėtos prekės laisvos formos sąskaitos-
 3. Jei reikia, lauke **Pavadinimas** pakeiskite antro pataisymo pavadinimą ir pagrįsite jį šiuo metu aktyviu pirmu pataisymu.
 4. Jei reikia, lauke **Komentaras** pakeiskite redaguojamo šablono automatiškai sukurto pataisymo pastabą.
 
-    ![Šablono tikslinimų verslo dokumentų valdymo darbo srities puslapyje kūrimas.](./media/BDM-Overview-AddRevision.png)
+    ![Šablono tikslinimų verslo dokumentų valdymo darbo srities puslapyje kūrimas](./media/BDM-Overview-AddRevision.png)
 
     Sukūrėte naują šablono versiją, kuri buvo išsaugota nuolatinėje šablono saugykloje. Dabar galite tęsti antro pataisymo, kuris šiuo metu pažymėtas kaip aktyvus, šablono redagavimą.
 
@@ -390,7 +377,7 @@ Modifikuotas šablonas naudojamas pažymėtos prekės laisvos formos sąskaitos-
 
 Kai redaguojate šabloną iš ER formato, priklausančio dabartiniam aktyviam tiekėjui, jums bus suteikta galimybė atšaukti šablonui pristatytus pakeitimus.
 
-![Šablono pakeitimų verslo dokumentų valdymo darbo srities puslapyje atmetimas.](./media/BDM-Overview-RevokeChanges.png)
+![Šablono pakeitimų verslo dokumentų valdymo darbo srities puslapyje atmetimas](./media/BDM-Overview-RevokeChanges.png)
 
 1. Puslapyje **BDM šablono redaktorius** pasirinkite skirtuką **Šablonas**.
 2. Pasirinkite **Anuliuoti**.
@@ -403,11 +390,11 @@ Kai redaguojate šabloną iš ER formato, priklausančio dabartiniam aktyviam ti
 
 ## <a name="frequently-asked-questions"></a>Dažnai užduodami klausimai
 
-### <a name="i-selected-edit-document-but-instead-of-going-to-the-bdm-template-editor-page-in-finance-i-was-sent-to-the-microsoft-365-webpage"></a>Aš pasirinkote redaguoti dokumentą, bet vietoj to, kad nueisite į BDM šablono rengyklės puslapį finansuose, aš esu nusiųstas į Microsoft 365 tinklalapį.
+### <a name="i-selected-edit-document-but-instead-of-going-to-the-bdm-template-editor-page-in-finance-i-was-sent-to-the-microsoft-365-webpage"></a>Pasirinkau Redaguoti dokumentą, tačiau vietoj „Finance” BDM šablonų rengyklės puslapio, atsidarė „Microsoft 365“ tinklalapis.
 
-Ši problema yra žinoma problema, apimanti Microsoft 365 nukreipimą. Jis įvyksta, kai Microsoft 365 pasirašote pirmą kartą. Norėdami išspręsti šią problemą, jūsų naršyklėje pasirinkite **Atgal** tam, kad grįžtumėte į ankstesnį puslapį.
+Tai žinoma problema, susijusi su „Microsoft 365“ peradresavimu. Taip atsitinka, kai pirmą kartą prisijungiate prie „Microsoft 365“. Norėdami išspręsti šią problemą, jūsų naršyklėje pasirinkite **Atgal** tam, kad grįžtumėte į ankstesnį puslapį.
 
-### <a name="i-understand-how-to-edit-a-template-by-using-microsoft-365-in-the-first-application-session-and-how-to-use-the-template-in-the-second-application-session-and-adjust-the-template-to-see-how-my-changes-affect-the-generated-business-document-can-i-use-the-office-desktop-application-in-the-same-way"></a>Su suprasti, kaip redaguoti šabloną, naudojant pirmą programos seansą, ir kaip naudoti šabloną antroje programos seanse ir koreguoti šabloną, kad pamatytumėte, kaip mano pakeitimai paveiks sugeneruotą Microsoft 365 verslo dokumentą. Ar galiu naudoti „Office” darbalaukio programą tuo pačiu būdu?
+### <a name="i-understand-how-to-edit-a-template-by-using-microsoft-365-in-the-first-application-session-and-how-to-use-the-template-in-the-second-application-session-and-adjust-the-template-to-see-how-my-changes-affect-the-generated-business-document-can-i-use-the-office-desktop-application-in-the-same-way"></a>Aš suprantu, kaip redaguoti šabloną naudojant „Microsoft 365“ pirmame programos seanse, ir kaip naudoti šabloną antrame programos seanse, taip pat, kaip koreguoti šabloną, kad pamatyčiau pakeitimų poveikį sugeneruotam verslo dokumentui. Ar galiu naudoti „Office” darbalaukio programą tuo pačiu būdu?
 
 Taip, galite. Pirmame programos seanse pasirinkite **Atidaryti darbalaukio programoje**. Jūsų šablonas bus išsaugotas laikinoje failų saugykloje ir atidarytas „Office“ darbalaukio programoje. Tada atlikite toliau nurodytus veiksmus, kad peržiūrėtumėte jūsų šablono pakeitimus sugeneruotame verslo dokumente:
 
@@ -434,9 +421,9 @@ Tikėtina, kad prisijungėte prie dabartinio „Azure AD“ domeno programos egz
 
 ## <a name="list-of-er-configurations-that-have-been-released-in-finance-to-support-configurable-business-documents"></a><a name="list-of-configurations-cbd"></a>ER konfigūracijų, išleistų „Finance” tam, kad būtų galima palaikyti konfigūruojamus verslo dokumentus, sąrašas
 
-„Finance” ER konfigūracijų [sąrašas](general-electronic-reporting.md#list-of-configurations) yra nuolat atnaujinamas. Atidarykite [visuotinę saugyklą](er-download-configurations-global-repo.md) tam, kad peržiūrėtumėte šiuo metu palaikomų ER konfigūracijų sąrašą. Galite [filtruoti](../../../finance/localizations/enhanced-filtering-global-repo.md) visuotinę saugyklą tam, kad peržiūrėtumėte ER konfigūracijų, naudojamų konfigūruotiniems verslo dokumentams palaikyti, sąrašą.
+„Finance” ER konfigūracijų [sąrašas](general-electronic-reporting.md#list-of-configurations) yra nuolat atnaujinamas. Atidarykite [visuotinę saugyklą](er-download-configurations-global-repo.md) tam, kad peržiūrėtumėte šiuo metu palaikomų ER konfigūracijų sąrašą. Galite [filtruoti](https://docs.microsoft.com/dynamics365/finance/localizations/enhanced-filtering-global-repo) visuotinę saugyklą tam, kad peržiūrėtumėte ER konfigūracijų, naudojamų konfigūruotiniems verslo dokumentams palaikyti, sąrašą.
 
-![Visuotinės saugyklos turinio konfigūracijų saugyklos puslapyje filtravimas.](./media/bdm-overview-filterglobalrepo.gif)
+![Visuotinės saugyklos turinio konfigūracijų saugyklos puslapyje filtravimas](./media/bdm-overview-filterglobalrepo.gif)
 
 Šioje lentelėje pateikiamas ER konfigūracijų, palaikančių konfigūruotinus verslo dokumentus ir kurios buvo išleistos „Finance” iki 2020 m. gruodžio mėn, sąrašas.
 
@@ -592,6 +579,3 @@ Tikėtina, kad prisijungėte prie dabartinio „Azure AD“ domeno programos egz
 |                             | Pardavimo užsakymo važtaraštis (LT) („Excel”)           |
 |                             | Pardavimo užsakymo važtaraštis (PL) („Excel”)           |
 |                             | Pardavimo užsakymo važtaraštis („Word”)                 |
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

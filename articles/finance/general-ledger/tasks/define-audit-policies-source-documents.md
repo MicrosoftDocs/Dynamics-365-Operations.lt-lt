@@ -2,9 +2,11 @@
 title: Šaltinio dokumentų audito strategijų apibrėžimas
 description: Šioje temoje aiškinama, kaip konfigūruoti ir vykdyti audito strategijų taisykles.
 author: panolte
+manager: AnnBe
 ms.date: 08/20/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysPolicySourceDocumentRuleType, SysFieldLookUp, SysPolicyListPage, SysPolicy, AuditPolicyRule, SysQueryForm, SysQueryFieldLookUp, AuditPolicyDateSelection, AuditPolicyAdditionalOption, BatchJob, CaseDetail
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0779589a3583909984e35014a2ec0e86455cd30a3833110556f095241e7172ca
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e020a9e82ff18055e40e3e0ddc7bbed1068c886c
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722676"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5021434"
 ---
 # <a name="define-audit-policies-for-source-documents"></a>Šaltinio dokumentų audito strategijų apibrėžimas
 
@@ -39,9 +41,9 @@ ms.locfileid: "6722676"
 11. Pasirinkite **Naujas**.
 12. Lauke **Pavadinimas** įveskite reikšmę.
 13. Išplėskite skyrių **Organizacijų strategijos**.
-14. Medyje pasirinkite **„Contoso Entertainment System“ JAV**, ir tada rinkitės **Įtraukti**.
-15. Medyje pasirinkite **„Contoso Consulting“ JAV**, ir tada rinkitės **Įtraukti**.
-16. Medyje pasirinkite **„Contoso Mažmeninė prekyba“ JAV**, ir tada rinkitės **Įtraukti**.
+14. Medyje pasirinkite **„Contoso Entertainment System“, JAV**, tada pasirinkite **Įtraukti**.
+15. Medyje pasirinkite **„Contoso Consulting“, JAV**, tada pasirinkite **Įtraukti**.
+16. Medyje pasirinkite **„Contoso Retail“, JAV**, tada pasirinkite **Įtraukti**.
 17. Sutraukite skyrių **Organizacijų strategijos**.
 18. Išplėskite skyrių **Strategijų taisyklės**.
 19. Sąraše raskite ir pasirinkite anksčiau sukurtą strategijos taisyklę.
@@ -85,6 +87,3 @@ ms.locfileid: "6722676"
 57. Išplėskite skyrių **Sąsajos**.
 58. Sąraše raskite ir pasirinkite norimą įrašą.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

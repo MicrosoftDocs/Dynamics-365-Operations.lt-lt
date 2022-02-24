@@ -1,42 +1,43 @@
 ---
 title: Kas nauja ar pasikeitė sistemoje „Dynamics 365 Human Resources“ (2020 m. gegužės 14 d.)
 description: Šioje temoje aprašomos naujos arba pasikeitusios „Microsoft Dynamics 365 Human Resources” funkcijos 2020 m. gegužės 14 d.
-author: andreabichsel
+author: Darinkramer
+manager: AnnBe
 ms.date: 05/14/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: jaredha
+ms.author: dkrame
 ms.search.validFrom: 2020-05-14
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: cb4693f3c856e7abcc39cbd658183d01ec98a066
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
-ms.translationtype: MT
+ms.openlocfilehash: 76ca497cc7fabf737c8a0ee71363f22fd4201ea8
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8063752"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4528502"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-may-14-2020"></a>Kas nauja ar pasikeitė sistemoje „Dynamics 365 Human Resources“ (2020 m. gegužės 14 d.)
 
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Šioje temoje aprašomos naujos arba pasikeitusios „Dynamics 365 Human Resources” funkcijos. Pakeitimai taikomi 8.1.3244 komponavimo versijai. Kai kurių antraščių skaičiai skliausteliuose nurodo „Lifecycle Services“ (LCS) palaikymo numerius kaip nuorodą.
 
 ## <a name="platform-changes"></a>Platformų pakeitimai
 
-Platformos pakeitimai yra įtraukti į šios savaitės leidimą. Daugiau informacijos žr [„Finance and Operations“ programų 10.0.10 versijos platformos naujiniai (2020 m. gegužės mėn.)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-34.md). Šiame leidime yra įrašytų rodinių klaidų pataisymų ir pakeitimų.
+Platformos pakeitimai yra įtraukti į šios savaitės leidimą. Daugiau informacijos žr. [„Finance and Operations” programų 10.0.10 versijos platformos naujinimai (2020 m. gegužės mėn.)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-update-34). Šiame leidime yra įrašytų rodinių klaidų pataisymų ir pakeitimų.
  
-## <a name="ensure-dataverse-picklists-are-consistent-with-leave-enums-436343"></a>Užtikrinti, kad „Dataverse“ išrinkimo dokumentai atitiktų atostogų išvardijimus (436343)
+## <a name="ensure-common-data-service-picklists-are-consistent-with-leave-enums-436343"></a>Užtikrinti, kad „Common Data Service“ išrinkimo dokumentai atitiktų atostogų išvardijimus (436343)
 
-„Dataverse“ išrinkimo dokumentai dabar atitinka atostogų išvardijimus.
+„Common Data Service“ išrinkimo dokumentai dabar atitinka atostogų išvardijimus.
 
 ## <a name="allow-users-to-configure-leave-request-workflow-based-on-the-request-amount-300044"></a>Leisti vartotojams konfigūruoti atostogų užklausų darbo eigą pagal užklausų kiekį (300044)
 
@@ -64,7 +65,7 @@ Duomenų objektas **Darbuotojo asmeninis kontaktinis asmuo** (**HcmPersonalConta
 
 ## <a name="reason-codes-display-across-different-scenarios-when-theyre-marked-as-leave-and-absence-and-the-streamlined-employee-form-is-enabled-434163"></a>Priežasčių kodai rodomi skirtinguose scenarijuose, kai jie yra pažymėti kaip Atostogos ir neatvykimas, o supaprastinta darbuotojo forma yra suaktyvinta (434163)
 
-Kai įgalinate supaprastintą darbuotojo įrašą, šis pakeitimas apriboja priežasčių kodus (tik kodai Atostogos ir neatvykimas).
+Kai įgalinsate supaprastintą darbuotojo įrašą, šis pakeitimas apriboja priežasčių kodus (tik kodai Atostogos ir neatvykimas).
 
 ## <a name="the-preview-feature-assign-a-leave-plan-to-employees-in-the-future-displays-error-433555"></a>Peržiūros funkcija Priskirti atostogų planą darbuotojams ateityje rodo klaidą (433555)
 
@@ -74,7 +75,7 @@ Kai įgalinate supaprastintą darbuotojo įrašą, šis pakeitimas apriboja prie
 
 Šiuo pakeitimu reklaminė juosta Darbo pradžia yra paslėpta vartotojams, kurie nėra sistemos administratoriai arba duomenų valdymo administratoriai. 
 
-## <a name="the-dataverse-worker-address-entity-works-differently-in-terms-of-date-time-effective-dates-in-human-resources-425071"></a>„Dataverse“ darbininko adreso objektas veikia kitaip nei „Human Resources“ datos ir laiko įsigaliojimo datos (425071)
+## <a name="the-common-data-service-worker-address-entity-works-differently-in-terms-of-date-time-effective-dates-in-human-resources-425071"></a>„Common Data Service“ darbininko adreso objektas veikia kitaip nei „Human Resources“ datos ir laiko įsigaliojimo datos (425071)
 
 Šis pakeitimas suvienodina adresų informaciją tam tikruose scenarijuose pagal adreso datas.
 
@@ -115,8 +116,6 @@ Galite nurodyti perkėlimo atostogų tipą, skirtą perkėlimo balansams ir į k
 ## <a name="see-also"></a>Taip pat žiūrėkite
 
 [Kas nauja ar pasikeitė „Human Resources”](hr-admin-whats-new.md)</br>
-[„Dynamics 365 Human Resources“ 2019 m. leidimo 2 bangos apžvalga](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[„Dynamics 365 Human Resources“ 2019 m. leidimo 2 bangos apžvalga](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Atnaujinimo procesas](hr-admin-setup-update-process.md)</br>
 [Funkcijų valdymas](hr-admin-manage-features.md)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

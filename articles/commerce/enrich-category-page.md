@@ -2,36 +2,42 @@
 title: Papildyti kategorijos nukreipimo puslapį
 description: Šioje temoje aptariamas kategorijos puslapių papildymas sprendime „Dynamics 365 Commerce“.
 author: v-chgri
+manager: annbe
 ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
+ms.search.scope: Operations, Retail, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 5bb28c3b5fbb1133d32219b9c47dd1477ae2ac982ee035321dafd77c53dc910b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ca31ec7d2eee7d2b0c863506338341a870ff07ee
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6771012"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4414347"
 ---
 # <a name="enrich-a-category-landing-page"></a>Papildyti kategorijos nukreipimo puslapį
+
 
 [!include [banner](includes/banner.md)]
 
 Šioje temoje aptariamas kategorijos puslapių papildymas sprendime „Dynamics 365 Commerce“.
 
+## <a name="overview"></a>Peržiūrėti
+
 „Commerce“ pateikiamas numatytasis kategorijos nukreipimo puslapis, kuris naudojamas, kai rodomi kategorijos duomenys. Numatytame kategorijos puslapyje yra būtini elementai, pvz., tikslinimo priemonės, produktų išdėstymas pagal kategorijas, rūšiavimo parinktys, pasirinkimo suvestinė ir skaidymo į puslapius valdikliai. 
 
 Tačiau užuot naudoję numatytąjį kategorijos puslapį, galbūt norėsite naudoti papildytą kategorijos nukreipimo puslapį, kuriame yra daugiau turinio ir konkretesnių elementų. Tipiškas papildymas gali apimti tam tikros kategorijos rinkodaros turinio įtraukimą į kategorijos puslapį. Į šį turinį gali būti įtraukti kryžminių kategorijų produktų išdėstymas kryžminio pardavimo tikslais, redakcijos sąrašams, atvaizdams, vaizdo įrašams ir kitiems tekstams. Galite modifikuoti numatytąjį kategorijos puslapį arba nustatyti konkrečiai kategorijai kitą kategorijos puslapį.
 
-![Papildytas kategorijos nukreipimo puslapis.](./media/CategoryLandingPages.png)
+![Papildytas kategorijos nukreipimo puslapis](./media/CategoryLandingPages.png)
 
 „Commerce“ svetainių daryklėje, puslapyje **Produktai** yra priskirtų svetainei kanalo kategorijų sąrašas. Jei kategorijos puslapyje pasirinkta būsena **Papildyta**, tas puslapis yra papildytas. Kitu atveju kategorijai naudojami numatytasis kategorijos puslapis ir turinys. Galite peržiūrėti ir papildytų, ir nepapildytų kategorijų puslapių konkrečiai kategorijai, pasirinkdami kategorijos pavadinimą.
 
@@ -58,9 +64,4 @@ Norėdami papildyti kategorijos puslapį, atlikite šiuos veiksmus.
 
 [Papildyti produkto puslapį](enrich-product-page.md)
 
-[Patikrinti puslapio turinio pritaikymą neįgaliesiems](verify-accessibility.md)
-
-[Sukurti dinaminius e-komercijos puslapius pagal URL parametrus](create-dynamic-pages.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[Puslapio turinio pritaikymo neįgaliesiems patikra](verify-accessibility.md)

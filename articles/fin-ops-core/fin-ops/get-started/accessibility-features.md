@@ -2,9 +2,11 @@
 title: Pritaikymo neįgaliesiems funkcijos
 description: Šioje temoje aprašomos funkcijos, skirtos padėti vartotojams, turintiems įvairių negalių.
 author: TLeforMicrosoft
+manager: AnnBe
 ms.date: 12/02/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
@@ -12,19 +14,16 @@ ms.search.region: Global
 ms.author: tlefor
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 022c51f7050d11caf5ce67c5df8f9f9040a54b98
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
-ms.translationtype: MT
+ms.openlocfilehash: 2d0dd3ebf4b50f43f9fb1893081ede2a93428c72
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8071063"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798700"
 ---
 # <a name="accessibility-features"></a>Pritaikymo neįgaliesiems funkcijos
 
 [!include [banner](../includes/banner.md)]
-
-
-[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Šioje temoje aprašomos funkcijos, skirtos įvairią negalią turintiems vartotojams padėti naudoti šią programą. Pavyzdžiui, yra funkcijų, skirtų žmonėms su regėjimo negalia, kurie naudoja tokias technologijas kaip „Microsoft Windows“ diktorius.
 
@@ -55,13 +54,13 @@ Kiekvieną veiksmą, kuris yra puslapyje, galima pasiekti klaviatūra, naudojant
 
 Norite vykdyti veiksmą **El. paštu siunčiamų pranešimų žurnalas**, kuris rodomas veiksmų srities grupės **El. paštu siunčiami pranešimai** skirtuke **Pardavimo užsakymas**.
 
-![El. paštu siunčiamų pranešimų žurnalo veiksmas veiksmų srityje.](media/f0d78399e7fafcd85ded1cd1e3d34f3c.jpg "Veiksmų srities veiksmas „el. paštu siunčiamų pranešimų žurnalas“")
+![El. paštu siunčiamų pranešimų žurnalo veiksmas veiksmų srityje](media/f0d78399e7fafcd85ded1cd1e3d34f3c.jpg "Veiksmų srities veiksmas „el. paštu siunčiamų pranešimų žurnalas“")
 
 Galima naudoti klaviatūrą. Paspauskite Ctrl + F6, kad perkeltumėte įvesties vietą į veiksmų sritį, tada kelis kartus paspauskite „Tab“, kad pereitumėte nuo vieno skirtuko ir veiksmo iki tol, kol bus suaktyvintas veiksmas **El. paštu siunčiamų pranešimų žurnalas**.
 
 Tačiau taip pat galite paleisti veiksmą labiau tiesiogiai. Bet kurioje puslapio vietoje paspauskite „Ctrl“ + apostrofą ('), kad būtų rodomas veiksmų ieškos laukas.
 
-![Veiksmų ieškos laukas.](media/80f7e8c5ac412fdf2c8a12f7728f135a.jpg "Veiksmų ieškos laukas")
+![Veiksmų ieškos laukas](media/80f7e8c5ac412fdf2c8a12f7728f135a.jpg "Veiksmų ieškos laukas")
 
 Ieškos lauke įveskite žodžius, apibūdinančius veiksmą. Veiksmas tampa prieinamas ir galite jį paleisti tiesiogiai. Pavyzdžiui, įvedę **el. paštas**, **praneš** (nepilnas žodis) arba **žurnalas**, galite „peršokti“ prie el. paštu siunčiamų pranešimų žurnalo funkcijos.
 
@@ -98,6 +97,3 @@ Išmaniuosiuose telefonuose ir kituose mažuose ekranuose valdikliai ir formos m
 ## <a name="guidance-to-help-developers-and-customers-incorporate-accessible-thinking-in-their-customizations"></a>Gairės, skirtos padėti kūrėjams ir klientams savo tinkinimus labiau pritaikyti neįgaliesiems
 
 Norėdami sužinoti daugiau apie „Microsoft“ geriausią praktiką pritaikant neįgaliesiems, žr. [Formų, produktų ir valdiklių pritaikymas neįgaliesiems](../../dev-itpro/user-interface/enable-accessibility.md).
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

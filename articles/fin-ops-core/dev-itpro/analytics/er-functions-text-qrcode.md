@@ -2,8 +2,11 @@
 title: QRCODE ER funkcija
 description: Šioje temoje pateikiama informacija apie tai, kaip naudojama QRCODE elektroninių ataskaitų (ER) funkcija.
 author: NickSelin
+manager: kfend
 ms.date: 12/10/2019
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
@@ -14,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e9d5bd1fee8c310053b01ababb0eaafc6d5470a62786de1f502f175e634bda64
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b62ed829202028ca0cbf95a0dbc3460d047ca5a5
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6746616"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4682972"
 ---
 # <a name="qrcode-er-function"></a>QRCODE ER funkcija
 
@@ -58,6 +61,3 @@ Kai paleidžiate sukonfigūruotas ER formatą, **LabelText** lauko, priklausanč
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Tekstinės funkcijos](er-functions-category-text.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -59,6 +59,3 @@ Daugiau informacijos apie tai, kaip publikuojami pakeitimai, žr. [„Talent“ 
 Ši funkcija dabar yra smėlio dėžės aplinkose. Norėdami įjungti šią funkciją, pereikite prie **Sistemos administravimas > Saitai > Sąranka > Sistemos parametrai > Peržiūros funkcijos**. Pasirinkite **Patobulintoji darbininko forma ir naršymas**. Tai įgalins šiuos pakeitimus visiems vartotojams. Šią parinktį galite bet kuriuo metu išjungti.
 
 Daugiau informacijos žr. [Supaprastintas darbuotojų įrašas ir naršymas](./streamlined-employee-entry.md). Norėdami žiūrėti šiuos keitimus, žr. vaizdo įrašą [„Dynamics 365 for Talent“ 2019 leidimo bangos 2 peržiūra](https://aka.ms/ROGT19RW2ROV).
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

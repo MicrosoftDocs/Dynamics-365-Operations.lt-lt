@@ -104,6 +104,3 @@ Su šiuo pakeitimu galite pakeisti įdarbinimo datą, kad ji skirtųsi nuo 23:59
 Ši funkcija dabar yra smėlio dėžės aplinkose. Norėdami įjungti šią funkciją, pereikite prie **Sistemos administravimas > Saitai > Sąranka > Sistemos parametrai > Peržiūros funkcijos**. Pasirinkite **Patobulintoji darbininko forma ir naršymas**. Tai įgalins šiuos pakeitimus visiems vartotojams. Šią parinktį galite bet kuriuo metu išjungti.
 
 Daugiau informacijos žr. [Supaprastintas darbuotojų įrašas ir naršymas](./streamlined-employee-entry.md).
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

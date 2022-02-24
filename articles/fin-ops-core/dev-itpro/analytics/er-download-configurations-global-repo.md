@@ -2,9 +2,11 @@
 title: ER konfigūracijų atsisiuntimas iš konfigūravimo tarnybos bendrosios saugyklos
 description: Šioje temoje paaiškinama, kaip atsisiųsti elektroninių ataskaitų (ER) konfigūracijas iš konfigūravimo tarnybos bendrosios saugyklos.
 author: NickSelin
+manager: AnnBe
 ms.date: 06/02/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERSolutionImport, ERWorkspace, ERSolutionRepositoryTable
 audience: Application User, IT Pro
@@ -15,18 +17,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 32eb5206fadefbd024f2dd2af888d166c81b950f
-ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
+ms.openlocfilehash: a96e78a64fe0559ae5f3bfddabf3fe1cad8a3dcb
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "7605336"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4679563"
 ---
 # <a name="download-er-configurations-from-the-global-repository-of-configuration-service"></a>ER konfigūracijų atsisiuntimas iš konfigūravimo tarnybos bendrosios saugyklos
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje paaiškinama, kaip atsisiųsti [elektroninių ataskaitų (ER) konfigūracijas](general-electronic-reporting.md#Configuration) iš konfigūravimo tarnybos bendrosios saugyklos. Norėdami gauti daugiau informacijos, žr. [„Microsoft Dynamics 365 for Finance and Operations“ – „Regulatory Services“, konfigūravimo tarnybą](/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration).
+Šioje temoje paaiškinama, kaip atsisiųsti [elektroninių ataskaitų (ER) konfigūracijas](general-electronic-reporting.md#Configuration) iš konfigūravimo tarnybos bendrosios saugyklos. Norėdami gauti daugiau informacijos, žr. [„Microsoft Dynamics 365 for Finance and Operations“ – „Regulatory Services“, konfigūravimo tarnybą](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration).
 
 ## <a name="open-configurations-repository"></a>Atidarykite konfigūracijų saugyklą
 
@@ -40,7 +42,7 @@ ms.locfileid: "7605336"
 3. Dalyje **Konfigūracijų teikėjai** pasirinkite plytelę **Microsoft**.
 3. Plytelėje **Microsoft** pasirinkite **Saugyklos**.
 
-    ![Elektroninių ataskaitų darbo sritis.](./media/er-download-configurations-global-repo-er-workspace.png)
+    ![Elektroninių ataskaitų darbo sritis](./media/er-download-configurations-global-repo-er-workspace.png)
 
 4. Puslapio **Konfigūracijų saugyklos** tinklelyje pasirinkite esamą saugyklą, kurios tipas **Bendroji**. Jei ši saugykla tinklelyje nerodoma, atlikite tolesnius veiksmus.
 
@@ -52,7 +54,7 @@ ms.locfileid: "7605336"
 
 5. Pasirinkite **Atidaryti**, norėdami peržiūrėti pasirinktos saugyklos ER konfigūracijų sąrašą.
 
-    ![Konfigūracijų saugyklų puslapis.](./media/er-download-configurations-global-repo-repositories-list.png)
+    ![Konfigūracijų saugyklų puslapis](./media/er-download-configurations-global-repo-repositories-list.png)
 
 ## <a name="import-a-single-configuration"></a>Vienos konfigūracijos importavimas
 
@@ -63,7 +65,7 @@ ms.locfileid: "7605336"
     > [!NOTE]
     > Mygtuko **Importuoti** negalima naudoti ER konfigūracijų versijose, kurios jau yra dabartiniame „Finance“ egzemplioriuje.
 
-    ![Konfigūracijos saugyklos puslapis, Konfigūracijos "FastTab".](./media/er-download-configurations-global-repo-repository-content.png)
+    ![Konfigūracijos saugyklos puslapis](./media/er-download-configurations-global-repo-repository-content.png)
 
 ## <a name="import-filtered-configurations"></a>Filtruotų konfigūracijų importavimas
 
@@ -77,7 +79,7 @@ ms.locfileid: "7605336"
 4. „FastTab“ **Konfigūracijos** pasirinkite **Importuoti**, kad atsisiųstumėte filtruotas konfigūracijas iš bendrosios saugyklos į dabartinį egzempliorių.
 5. „FastTab“ **Konfigūracijos** pasirinkite **Iš naujo nustatyti filtrą**, kad būtų išvalytos nurodytos pasirinkimo sąlygos.
 
-    ![Konfigūracijos saugyklos puslapis, Versijos "FastTab", Importavimo mygtukas.](./media/er-download-configurations-global-repo-filtered-configurations.png)
+    ![Konfigūracijos saugyklos puslapis](./media/er-download-configurations-global-repo-filtered-configurations.png)
 
 > [!NOTE]
 > Atsižvelgiant į ER parametrus, konfigūracijos patikrinamos po importavimo. Galite būti informuoti apie rastas nenuoseklumo problemas. Prieš naudodami importuotą konfigūracijos versiją, turite išspręsti problemas. Daugiau informacijos ieškokite su šia tema susijusių išteklių sąraše.
@@ -88,6 +90,3 @@ ms.locfileid: "7605336"
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Elektroninių ataskaitų (ER) apžvalga](general-electronic-reporting.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

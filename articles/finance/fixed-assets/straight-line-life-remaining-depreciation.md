@@ -1,10 +1,12 @@
 ---
 title: Tiesiogiai proporcingas likutinės vertės nusidėvėjimas
 description: Šiame straipsnyje apžvelgiamas tiesiogiai proporcingo likutinės vertės nusidėvėjimo metodas.
-author: moaamer
+author: ShylaThompson
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: roschlom
 ms.custom: 13851
 ms.assetid: 0fa2f71a-596c-414c-a6e6-8f7405a0bf81
 ms.search.region: Global
-ms.author: moaamer
+ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5d3372fe5d77f54c68570314e8ba6db8bae28a60
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
-ms.translationtype: MT
+ms.openlocfilehash: d2414ea97fefbec1e975498e171496e33057541c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7675200"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969009"
 ---
 # <a name="straight-line-life-remaining-depreciation"></a>Tiesiogiai proporcingas likutinės vertės nusidėvėjimas
 
@@ -37,11 +39,11 @@ Puslapio **Nusidėvėjimo profiliai** lauke **Nusidėvėjimo metai** galite pasi
 
 Jei renkatės **Kalendorius** laukelyje **_Nebegaliojimo metai_*_ , metai nuo sausio 1 iki gruodžio 31 yra apimami, net jei nustatėte mokestinį kalendorių kitaip. _* Kalendoriaus** parinktis naujina nebegaliojimą nuo kiekvienerių metų sausio 1 dienos. Paprastai nusidėvėjimo pagrindas apskaičiuojamas iš balansinės vertės atėmus likvidacinę vertę. Toliau šioje temoje pateiktame pavyzdyje nusidėvėjimo pagrindas yra skaičiavimų stulpelyje nurodytas pirmos išraiškos skaitiklis. Jei kaip nusidėvėjimo metus pasirinksite **Kalendoriniai**, galimos toliau nurodytos lauko **Laikotarpio dažnis** parinktys.
 
-- Pasirinkus **Kasmet**, suma registruojama gruodžio 31 d.
-- Pasirinkus **Kas mėnesį**, mėnesio suma registruojama kiekvieno kalendorinio mėnesio pabaigoje.
-- Pasirinkus **Kas ketvirtį**, ketvirčio suma registruojama kiekvieno kalendorinio ketvirčio pabaigoje (kovo 31 d., birželio 30 d., rugsėjo 30 d. ir gruodžio 31 d.).
-- Tipo **Kas pusmetį** suma yra registruojama kiekvieno kalendorinio pusmečio pabaigoje (birželio 30 d. ir gruodžio 31 d.).
-- Pasirinkus **Kasdien**, registruojama kasdienio nusidėvėjimo metodo nusidėvėjimo suma, kiekvieną dieną naudojant vieną operaciją.
+-   Pasirinkus **Kasmet**, suma registruojama gruodžio 31 d.
+-   Pasirinkus **Kas mėnesį**, mėnesio suma registruojama kiekvieno kalendorinio mėnesio pabaigoje.
+-   Pasirinkus **Kas ketvirtį**, ketvirčio suma registruojama kiekvieno kalendorinio ketvirčio pabaigoje (kovo 31 d., birželio 30 d., rugsėjo 30 d. ir gruodžio 31 d.).
+-   Tipo **Kas pusmetį** suma yra registruojama kiekvieno kalendorinio pusmečio pabaigoje (birželio 30 d. ir gruodžio 31 d.).
+-   Pasirinkus **Kasdien**, registruojama kasdienio nusidėvėjimo metodo nusidėvėjimo suma, kiekvieną dieną naudojant vieną operaciją.
 
 Pavyzdžiui, jei pasirenkate **Kasmet**, metinis nusidėvėjimas registruojamas tik vieną kartą, kiekvienų metų gruodžio 31 d. Jei pasirenkate **Kas mėnesį**, mėnesinis nusidėvėjimas registruojamas kiekvieną mėnesį kaip 1/12 metinio nusidėvėjimo sumos dalis.
 
@@ -49,15 +51,15 @@ Pavyzdžiui, jei pasirenkate **Kasmet**, metinis nusidėvėjimas registruojamas 
 
 Lauke **Nusidėvėjimo metai** pasirinkus **Finansiniai metai**, likusio tiesiogiai proporcingo laiko nusidėvėjimo metodas. Nusidėvėjimas skaičiuojamas pagal likusius finansinius metus. Pvz., jei finansiniai metai prasideda 2015 m. liepos 1 d. ir baigiasi 2016 m. birželio 30 d., nusidėvėjimas pradedamas skaičiuoti liepos 1 d. Finansiniai metai gali būti ilgesni arba trumpesni nei 12 mėnesių. Koreguojamas kiekvieno ataskaitinio laikotarpio nusidėvėjimas. Kitų finansinių metų trukmė nustatoma pagal ataskaitinius laikotarpius, kurie nustatomi puslapyje **Finansiniai kalendoriai**. Jei kaip nusidėvėjimo metus pasirinksite **Ataskaitiniai**, galimos toliau nurodytos lauko **Laikotarpio dažnis** parinktys.
 
-- **Kasmet** apskaičiuota bendroji finansinių metų nusidėvėjimo suma registruojama kaip viena suma paskutinę finansinių metų dieną.
-- **Ataskaitinis laikotarpis** apskaičiuoja bendrąją finansinių metų nusidėvėjimo sumą. Tada ši suma yra sukaupiama per ataskaitinius laikotarpius, kurie nurodomi nustatyto knygos finansinio kalendoriaus puslapyje **Finansiniai kalendoriai**.
+-   **Kasmet** apskaičiuota bendroji finansinių metų nusidėvėjimo suma registruojama kaip viena suma paskutinę finansinių metų dieną.
+-   **Ataskaitinis laikotarpis** apskaičiuoja bendrąją finansinių metų nusidėvėjimo sumą. Tada ši suma yra sukaupiama per ataskaitinius laikotarpius, kurie nurodomi nustatyto knygos finansinio kalendoriaus puslapyje **Finansiniai kalendoriai**.
 
 ## <a name="example-of-straight-line-depreciation-of-an-unchanged-fixed-asset"></a>Tiesiogiai proporcingo nepasikeitusio ilgalaikio turto nusidėvėjimo pavyzdys
 Toliau nurodytos ilgalaikio turto charakteristikos.
 
-| Laukas               | Reikšmė  |
-|:---------------------|--------:|
-| Įsigijimo savikaina    | 11,000 |
+|                     |        |
+|---------------------|--------|
+| Įsigijimo savikaina    | 11 000 |
 | Likvidacinė vertė       | 1000  |
 | Nusidėvėjimo pagrindas   | 10.000 |
 | Aptarnavimo laikas metais  | 5      |
@@ -66,7 +68,7 @@ Toliau nurodytos ilgalaikio turto charakteristikos.
 Nusidėvėjimo suma yra ta pati kiekvienais metais: (įsigijimo išlaidos – likvidacinė vertė) ÷ dėvėjimo laikas metais
 
 | Laikotarpis | Metinio nusidėvėjimo sumos skaičiavimas | Balansinės vertė metų pabaigoje |
-|:--------:|:-----------------------------------------------|---------------------------------------:|
+|--------|-----------------------------------------------|---------------------------------------|
 | 1 metai | (11 000 – 1 000) ÷ 5 = 2 000                  | 9.000                                 |
 | 2 metai | (9 000 – 1 000) ÷ 4 = 2 000                   | 7 000                                 |
 | 3 metai | (7 000 – 1 000) ÷ 3 = 2 000                   | 5 000                                 |
@@ -77,6 +79,3 @@ Nusidėvėjimo suma yra ta pati kiekvienais metais: (įsigijimo išlaidos – li
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,106 +1,73 @@
 ---
 title: Iš anksto apibrėžtų produkto variantų kūrimas
 description: Šia procedūra apžvelgiamas bendrojo produkto variantų kūrimas naudojant produkto dimensijų kombinacijas.
-author: t-benebo
-ms.date: 04/22/2021
+author: ShylaThompson
+manager: tfehr
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: EcoResProductListPage, EcoResProductCreate, EcoResProductDetails, EcoResProductMasterDimension, EcoResProductVariants, EcoResProductVariantSuggestions, EcoResProductVariantsPendingReleaseFormPart, EcoResProductVariantSuggestionsEnhanced
+ms.search.form: EcoResProductListPage, EcoResProductCreate, EcoResProductDetails, EcoResProductMasterDimension, EcoResProductVariants, EcoResProductVariantSuggestions, EcoResProductVariantsPendingReleaseFormPart
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: benebotg
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: a90e0eb469b823368c1140421fc9c92ccfe69a3b7bac73f762170c0da43e3eee
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: d07a090dbd41eb17e8d604887435bbb8b07e8d9e
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6747894"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4966935"
 ---
-# <a name="predefined-product-variants"></a>Iš anksto apibrėžti produkto variantai
+# <a name="create-predefined-product-variants"></a>Iš anksto apibrėžtų produkto variantų kūrimas
 
 [!include [banner](../../includes/banner.md)]
 
-## <a name="example-scenario-create-predefined-product-variants"></a>Scenarijaus pavyzdys: Iš anksto apibrėžtų produkto variantų kūrimas
+Šia procedūra apžvelgiamas bendrojo produkto variantų kūrimas naudojant produkto dimensijų kombinacijas. Kuriant šią procedūrą naudojama demonstracinė įmonė yra USMF.
 
-Šia procedūra apžvelgiamas bendrojo produkto variantų kūrimas naudojant produkto dimensijų kombinacijas.
 
-### <a name="make-demo-data-available"></a>Demonstracinių duomenų įgalinimas
+## <a name="create-a-product-master"></a>Kurti bendrąjį produktą
+1. Pasirinkite Produkto informacijos valdymas > Produktai > Bendrieji produktai.
+2. Spustelėkite Naujas.
+3. Lauke „Produkto numeris“ įveskite reikšmę.
+    * Įvesti produkto numerį rankiniu būdu reikia tik jei produkto numerio lauke numerių seka nenustatyta. Kitaip tariant, jei lauko numeracija nustatyta, veiksmą praleiskite.  
+4. Lauke Produkto pavadinimas įveskite reikšmę.
+5. Lauke Produkto dimensijų grupė įveskite arba pasirinkite reikšmę.
+    * Pasirinkite produkto dimensijų grupę SizeCol (Dydis ir Spalva).  
+6. Spustelėkite GERAI.
 
-Šio scenarijaus įgyvendinimui naudojant siūlomas vertes, privalote turėti įdiegtus demo duomenis ir pasirinkti *USMF* juridinį asmenį.
+## <a name="add-product-dimensions"></a>Produkto dimensijų įtraukimas
+1. Spustelėkite Produkto dimensijos.
+    * Šiame pavyzdyje parodyta, kaip rankiniu būdu įvesti produkto dimensijų. Taip pat galite pasirinkti dydžių, spalvų ar stilių grupę, kurioje yra jūsų norimos naudoti produkto dimensijų reikšmės.  
+2. Spustelėkite Naujas.
+3. Sąraše pažymėkite pasirinktą eilutę.
+4. Lauke Dydis įveskite arba pasirinkite reikšmę.
+5. Lauke Pavadinimas surinkite reikšmę.
+6. Spustelėkite Naujas.
+7. Sąraše pažymėkite pasirinktą eilutę.
+8. Lauke Dydis įveskite arba pasirinkite reikšmę.
+9. Lauke Pavadinimas surinkite reikšmę.
+10. Spustelėkite skirtuką Spalvos.
+11. Spustelėkite Naujas.
+12. Sąraše pažymėkite pasirinktą eilutę.
+13. Lauke Spalva įveskite arba pasirinkite reikšmę.
+14. Lauke Pavadinimas surinkite reikšmę.
+15. Spustelėkite Naujas.
+16. Sąraše pažymėkite pasirinktą eilutę.
+17. Lauke Spalva įveskite arba pasirinkite reikšmę.
+18. Lauke Pavadinimas surinkite reikšmę.
+19. Spustelėkite Įrašyti.
+20. Uždarykite puslapį.
 
-### <a name="step-1-create-a-product-master"></a>1 žingsnis: Bendrojo produkto kūrimas
+## <a name="generate-product-variants"></a>Produkto variantų generavimas
+1. Spustelėkite Produkto variantai.
+2. Spustelėkite Variantų pasiūlymai.
+3. Spustelėkite Žymėti viską.
+    * Šiame pavyzdyje pasirinkti visi galimi variantai. Jei kurti variantams bus naudojamas tik galimų produkto dimensijų kombinacijų subrinkinys, galite pasirinkti atskirus įrašus.  
+4. Spustelėkite Kurti.
+    * Visų savo variantų aprašus galite generuoti pagal produkto dimensijų reikšmių kombinaciją. Aprašai nėra privalomi.  
+5. Spustelėkite Įrašyti.
 
-Norėdami kurti bendrąjį produktą:
-
-1. Eikite į **Produkto informacijos valdymas > Produktai > Bendrieji produktai**.
-1. Pasirinkite **Naujas**.
-1. Jei **lauke** Produkto numeris dar nerodyti numerio, įveskite vertę. Šį veiksmą atlikti reikia tik jei nenustatyta produktų numeracija šiame lauke.
-1. Laukelyje **Produkto pavadinimas** įveskite produkto pavadinimą.
-1. Produkto **dimensijų grupės** lauke pasirinkite produkto dimensijų grupę *SizeCol* (Dydis ir spalva).
-1. Norėdami **sukurti ir atidaryti naują bendrąjį** produktą, pasirinkite Gerai.
-
-### <a name="step-2-add-product-dimensions"></a>2 žingsnis: Produkto dimensijų įtraukimas
-
-Šiame pavyzdyje parodyta, kaip rankiniu būdu įvesti produkto dimensijų. Taip pat galite pasirinkti dydžių, spalvų ar stilių grupę, kurioje yra jūsų norimos naudoti produkto dimensijų reikšmės.
-
-Norėdami įtraukti produkto dimensijas:
-
-1. Kai naujas bendrasis produktas vis dar atidarytas, **veiksmų srityje pasirinkite Produkto** dimensijos.
-1. Atidarykite **skirtuką Dydis ir** įrankių **juostoje** pasirinkite Naujas, kad įtraukumėte eilutę į tinklelį. Naujoje eilutėje nustatykite šiuos parametrus:
-    - **Dydis:** Pasirinkti dydžio vertę.
-    - **Pavadinimas** Įveskite pavadinimą dydžiui.
-1. Įrankių **juostoje** pasirinkite Naujas ir į tinklelį įtraukite antrą dydį, naudodami naują **dydį** ir **pavadinimą**.
-1. Atidarykite **Spalvos** įrankių **juostoje** pasirinkite Naujas, kad įtraukumėte eilutę į tinklelį. Naujoje eilutėje nustatykite šiuos parametrus:
-    - **Spalva:** pasirinkite spalvos vertę.
-    - **Pavadinimas** Įveskite pavadinimą spalvai.
-1. Įrankių **juostoje** pasirinkite Naujas ir į tinklelį įtraukite antrą dydį, naudodami naują **Spalva** ir **pavadinimą**.
-1. Pasirinkite **Įrašyti**.
-1. Norėdami grįžti į savo naują bendrąjį produktą, uždarykite puslapį.
-
-### <a name="step-3-generate-product-variants"></a>3 žingsnis: Produkto variantų generavimas
-
-> [!NOTE]
-> Šiame skyriuje aprašoma, kaip generuoti produktų variantus, *kai neįgalinta* variantų pasiūlymų puslapio patobulinimų funkcija. Informacijos apie tai, kaip generuoti produkto variantus, kai ši funkcija yra pasiekiama, rasite kitame skyriuje.
-
-Norėdami kurti produkto variantus:
-
-1. Kai naujas bendrasis produktas vis dar atidarytas, **veiksmų srityje pasirinkite Produkto** variantus.
-1. Rinkitės **Varianto siūlymus** veiksmų juostoje.
-1. Sistema sugeneruoja sąrašą su visomis galimais dydžių ir spalvų deriniais, kuriuos nustatote produktui. Pasirinkite **Žymėti viską įrankių** juostoje.
-    - Šiame pavyzdyje pasirinkite visus galimus variantus. Jei norite naudoti tik galimų produkto dimensijų derinių subrinkinį, pasirinkite tik reikiamus žymės langelius.  
-1. Pasirinkite **Kurti**.
-1. Pasirinkite **Įrašyti**.
-
-## <a name="improved-variant-suggestions"></a>Patobulinti variantų pasiūlymai
-
-Variantų pasiūlymų puslapio patobulinimų funkcija pagerina variantų pasiūlymų puslapį, kad adresuoti našumo ir tinkamumo naudoti problemas įmonėse, kurios turi daug *produkto* dimensijų **derinių**. Patobulintas produkto dimensijų reikšmių pasirinkimo procesas, kurio variantų pasiūlymus būtų galima atlikti greičiau ir paprasčiau identifikuoti bei pateikti atitinkamą produkto variantų rinkinį.
-
-Šią priemonę pridėjo šie patobulinimai:
-
-- **Atidėtas variantų pasiūlymų generavimas: variantų pasiūlymų puslapyje, kai pirmą kartą** jį **atidarote**, nebėra pasiūlymų. Todėl turite tiesiogiai pasirinkti, kurių verčių jums reikia, tada pasirinkti **mygtuką** Siūlyti, kad būtų generuojamos kombinacijos. Taip procesas bus matomas ir interaktyviau.
-- **Dimensijų verčių pasirinkimas: kai turite daug dimensijų verčių, paprastai jus domina generuoti variantų pasiūlymus, kuriuose yra tik keletas iš jų (pvz., pristatant naują spalvų arba stilių** rinkinį). Naudodami patobulintą dizainą, galite pasirinkti dimensijų vertes, kurioms norite generuoti produkto variantų pasiūlymus. Tai labai padidina siūlomų variantų tinkamumą ir pagerina sistemos našumą ir vartotojo produktyvumą.
-
-### <a name="turn-on-the-variant-suggestions-page-improvements-feature"></a>Variantų pasiūlymų puslapio patobulinimų funkcijos įjungimas
-
-Norėdami naudoti *Varianto siūlymo puslapio gerinimų* funkciją, įjunkite ją savo sistemoje. Administratoriai gali naudoti [funkcijos valdymas](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) parametrus, norėdami sužinoti funkcijos būseną ir įjungti ją. Darbo srityje **Funkcijų valdymas** ši funkcija yra nurodyta toliau pateikiamu būdu.
-
-- **Modulis:** *Produkto informacijos valdymas*
-- **Funkcijos pavadinimas:** *Variantų pasiūlymų puslapio patobulinimai*
-
-### <a name="work-with-the-improved-variant-suggestions"></a>Dirbti su patobulintais variantų pasiūlymais
-
-Norėdami kurti produkto varianto siūlymus, *kai neįgalinta* variantų pasiūlymų puslapio patobulinimų funkcija:
-
-1. Atidaryti arba sukurti bendrąjį produktą ir įtraukti į jį reikiamas produkto dimensijas, kaip aprašyta ankstesniame skyriuje.
-1. Kai naujas bendrasis produktas vis dar atidarytas, **veiksmų srityje pasirinkite Produkto** variantus.
-1. Rinkitės **Varianto siūlymus** veiksmų juostoje.
-1. Pasirinkite vertes, kurias norite naudoti visose dimensijose.
-1. Viršutinėje įrankių juostoje pasirinkite **Siūlyti**.
-1. Sistema sugeneruoja sąrašą su visomis galimais dydžių ir spalvų deriniais, kuriuos pasirenkate produktui. Siūlomų variantų „FastTab" pažymėkite kiekvieno norimo naudoti produkto dimensijų derinio žymės langelį arba įrankių juostoje pasirinkite Žymėti viską, kad juos **visas** **pasirinktumėte**.  
-1. Pasirinkite **Kurti**, jei norite įtraukti variantus į dabartinį bendrąjį produktą.
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

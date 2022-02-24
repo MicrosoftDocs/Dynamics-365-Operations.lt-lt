@@ -1,10 +1,12 @@
 ---
 title: Pirkimo užsakymų sukūrimas
 description: Šiame straipsnyje aprašomas pirkimo užsakymo kūrimo neautomatiniu būdu procesas ir parinktys.
-author: Henrikan
+author: RichardLuan
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchTable, PurchTablePart
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: 93053
 ms.assetid: 25b1c9f1-20f8-4cf5-b87c-876e32f68846
 ms.search.region: Global
-ms.author: henrikan
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 20b8e00316b45126b028b6d9812a455ef0e53f19
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 105d4022e1867f553fcae5e4ae9c0ed7ce4e912d
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7575517"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5022286"
 ---
 # <a name="create-purchase-orders"></a>Pirkimo užsakymų sukūrimas
 
@@ -65,7 +67,7 @@ Kartais galite norėti padalinti užsakytą kiekį, kad skirtingos jų dalys bū
 Mokesčius galima automatiškai įtraukti į PU eilutes, jei buvo nustatyti tiekėjo arba tiekėjo mokesčių grupės ir prekės arba prekės mokesčių grupės automatinio mokesčiai. Tačiau labiau įprasta mokesčius įtraukti užsakymo eilutės lygiu neautomatiniu būdu. Norėdami įtraukti mokestį, atidarykite puslapį **Prižiūrėti išlaidas** naudodami rodinio **Eilutės** meniu **Finansai** veiksmą **Prižiūrėti išlaidas**. Mokesčių įtraukimo tiesiogiai užsakymo eilutės lygiu privalumas yra tai, kad mokestį galima paskirstyti kaip atsargų savikainą. Norėdami nustatyti sąskaitos produkto savikainos mokesčių kodus, naudokite debeto parinktį **Prekė**. Šių tipų mokesčiai turi būti paskirstyti iš PU antraštės į eilutes, kad būtų galima patvirtinti užsakymą. Pavyzdžiui, galite mokesčius paskirstyti pagal kiekį kiekvienoje eilutėje. Mokesčių kategorijai taip pat turi įtakos, kaip mokesčiai yra apskaitomi. Pvz., fiksuoti mokesčiai nurodo fiksuotą sumą, o mokesčių procentinė dalis apskaičiuojami kaip užsakymo eilutės grynosios sumos procentinė dalis. PU galima priskirti kroviniui, o krovinys gali apimti transportavimo išlaidų numatomų išlaidų įvertinimą. Šias išlaidas galite iš krovinio paskirstyti atgal į PU eilutes.
 
 ## <a name="purchase-order-actions"></a>Pirkimo užsakymo veiksmai
-Įtraukę antraštę ir eilutes į PU, dažnai turėsite atlikti papildomus veiksmus, kad galėtumėte užsakymą patvirtinti. Kadangi galima naudoti daug parinkčių, gali būti naudinga naudoti funkciją [Veiksmo ieška](../../fin-ops-core/fin-ops/get-started/action-search.md), norint surasti atitinkamą meniu elementą.  
+Įtraukę antraštę ir eilutes į PU, dažnai turėsite atlikti papildomus veiksmus, kad galėtumėte užsakymą patvirtinti. Kadangi galima naudoti daug parinkčių, gali būti naudinga naudoti funkciją [Veiksmo ieška](../../fin-and-ops/get-started/action-search.md), norint surasti atitinkamą meniu elementą.  
 
 Galite konfigūruoti užsakymo produktus, kad jie turėtų papildomas prekes. Papildomos prekės yra produktai, kuriuos privaloma arba galima nupirkti kartu su kitais produktais. Papildomus produktus galima nemokamai pridėti kaip susijusius produktus arba galite turėti galimybę nuspręsti, ar juos įtraukti į užsakymą, ar ne. Papildomas prekes galite peržiūrėti įtraukę kiekvieną užsakymo eilutę. Tačiau tikriausiai patogiau bus peržiūrėti ir įtraukti visų užsakymo eilučių atitinkamas papildomas prekes, naudojant puslapį **Papildomos prekės**, kurį galima atidaryti iš veiksmų srities.  
 
@@ -80,7 +82,8 @@ PU galima sukonfigūruoti taip, kad biudžeto lėšas būtų privaloma paskirsty
 
 PU baigimą gali tekti atidėti. Pavyzdžiui, gali reikėti papildomos informacijos apie produktus ar paslaugas arba gali reikėti autorizuoti išlaidas. Užsakymą galima sulaikyti keletu būdų. Pavyzdžiui, galite prieš patvirtindami užsakymą palaukti. Arba, jei naudojama keitimų valdymo darbo eiga, galite neteikti užsakymo patvirtinti. Jei turite užblokuoti visus konkretaus tiekėjo užsakymus, tiekėjo bendruosiuose duomenyse taip pat galite apdorotino tiekėjo būseną pažymėti kaip **Sulaikyta**. Taip pat yra aplinkybių, kurios gali neleisti užsakymo apdoroti. Pvz., apdorojimas gali būti neleidžiamas, jei viršijamos kredito ribos arba jei reikiamų biudžeto lėšų nėra.
 
-## <a name="additional-resources"></a>Papildomi ištekliai
+<a name="additional-resources"></a>Papildomi ištekliai
+--------
 
 [Pirkimo užsakymų apžvalga](purchase-order-overview.md)
 
@@ -92,6 +95,3 @@ PU baigimą gali tekti atidėti. Pavyzdžiui, gali reikėti papildomos informaci
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

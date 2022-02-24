@@ -141,6 +141,3 @@ Norėdami naujinti esamą šabloną, atlikite tolesnius veiksmus.
     9. Puslapyje **Susiejimo užduotis** pasirinkite naują stulpelį kaip šaltinį, kad sukurtumėte kitą HIERARCHYTYPENAME susiejimą.
 
         [![Susiejimas](./media/CDS-Mapping5.png)](./media/CDS-Mapping5.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

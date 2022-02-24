@@ -2,9 +2,11 @@
 title: Sukurkite e-komercijos saitą
 description: Ši tema aprašo žingsnius ir informaciją, kurie yra būtini norint sukurti e-komercijos saitą „Dynamics 365 Commerce“ saito kūrimo įrankyje.
 author: bicyclingfool
-ms.date: 02/03/2022
+manager: AnnBe
+ms.date: 07/02/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application user
@@ -16,12 +18,12 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 01f22772fd8c8984a2f92c516972d6659325a18c
-ms.sourcegitcommit: 1eef00796f7c5511f432b01800cdf8920992d7d5
-ms.translationtype: MT
+ms.openlocfilehash: cf084f90d203d84c91ddf7c0d963780b895ef23d
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/04/2022
-ms.locfileid: "8090774"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4963040"
 ---
 # <a name="create-an-e-commerce-site"></a>Sukurkite e-komercijos saitą
 
@@ -29,7 +31,7 @@ ms.locfileid: "8090774"
 
 Ši tema aprašo žingsnius ir informaciją, kurie yra būtini norint sukurti e-komercijos saitą „Dynamics 365 Commerce“ saito kūrimo įrankyje.
 
-Kai jūsų suteikiate licenciją „Dynamics 365 Commerce“ pajėgumams, saito kūrimo įrankis bus aprūpintas pradžios saitu, kurį galėsite naudoti pagal jūsų turimo saito pagrindus. Tačiau, jei norite pradėti nuo nulio, arba, jei norite sukurti antrą svetainę, turite sukurti naują svetainę svetainės kūrimo aplinkoje. 
+Kai jūsų suteikiate licenciją „Dynamics 365 Commerce“ pajėgumams, sait kūrimo įrankis bus aprūpintas pradžios saitu, kurį galėsite naudoti pagal jūsų turimo saito pagrindus. Tačiau, jei norite pradėti nuo nulio, arba, jei norite sukurti antrą svetainę, turite sukurti naują svetainę svetainės kūrimo aplinkoje. 
 
 ## <a name="set-up-your-site"></a>Svetainės nustatymas
 
@@ -48,15 +50,8 @@ Norėdami nustatyti svetainę, atlikite toliau nurodytus veiksmus.
 | Domenas                              | Pasirinkite domeno vardą, kuris bus šios internetinės parduotuvės domenas. Jei sprendime LCS nekonfigūravote jokių domenų, šį lauką galite palikti tuščią. Sukonfigūravę domeną sprendime LCS, jį turite įtraukti į internetinę parduotuvę dalyje **Svetainės parametrai**.  |
 | Maršrutas                              | Kai jūsų svetainė palaiko daugiau nei vieną tam tikro domeno vardo kalbą, naudodami kelio lauką sukurkite unikalų to domeno ir kalbos derinio svetainės URL. Jei kalba, kurią nurodėte lauke **Numatytoji kalba**, yra vienintelė palaikoma šio domeno kalba arba toliau bus numatytoji kalba jums svetainę lokalizavus papildomomis kalbomis, rekomenduojame šį lauką palikti tuščią. |
 
+
 Sukūrę svetainę, patikrinti, ar ji susieta su internetine parduotuve, galite pasirinkdami skirtuką **Produktai**. Turėtumėte matyti produktų asortimentą, priskirtą internetinei parduotuvei. Taip pat galite naudoti viršutinėje kairiojoje puslapio dalyje esantį išplečiamąjį meniu ir priskirtus produktus pasiekti pagal kategoriją.
-
-## <a name="rename-your-site"></a>Pervardykite svetainę
-
-Norėdami pervardyti svetainę svetainių kūrimo priemonėje, atlikite šiuos veiksmus.
-
-1. Norėdami atidaryti svetainių sąrašo rodinį, pasirinkite **Svetainės perjungiklis** viršutiniame dešiniajame kampe, tada pasirinkite **Tvarkyti svetaines**. 
-1. Pažymėkite žymės langelį šalia svetainės, kurią norite pervardyti, tada pasirinkite **Pervardyti** komandų juostoje.
-1. Viduje konors **Naujas svetainės pavadinimas** dialogo lange įveskite naują svetainės pavadinimą ir pasirinkite **Gerai**. Svetainių sąrašas bus atnaujintas, kad būtų rodomas naujas svetainės pavadinimas.
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
@@ -79,6 +74,3 @@ Norėdami pervardyti svetainę svetainių kūrimo priemonėje, atlikite šiuos v
 [Turinio pristatymo tinklo (CDN) palaikymo įtraukimas](add-cdn-support.md)
 
 [Parduotuvės nustatymo pagal vietą įgalinimas](enable-store-detection.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

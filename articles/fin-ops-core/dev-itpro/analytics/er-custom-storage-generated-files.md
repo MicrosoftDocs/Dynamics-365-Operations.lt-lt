@@ -2,9 +2,11 @@
 title: Pasirinktinės saugyklos vietos sugeneruotiems dokumentams nurodymas
 description: Šioje temoje paaiškinama, kaip išplėsti elektroninio ataskaitų (ER) formatų sugeneruotų dokumentų saugojimo vietų sąrašą.
 author: NickSelin
+manager: AnnBe
 ms.date: 10/29/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
@@ -12,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 337e760f28161721d886c7bbec09b5ff8dbfad45
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.openlocfilehash: 362ac7f10cc61e26be89dfbae0e84745d42588a3
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7594914"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680763"
 ---
 # <a name="specify-custom-storage-locations-for-generated-documents"></a>Pasirinktinės saugyklos vietos sugeneruotiems dokumentams nurodymas
 
@@ -27,7 +29,7 @@ Elektroninių ataskaitų (ER) sistemos programavimo sąsaja (API) suteikia galim
 
 ## <a name="prerequisites"></a>Būtinieji komponentai
 
-Diekite topologiją, kuri palaiko nuolatinę komponavimo versiją. Daugiau informacijos žr. [Visuotinis topologijų, palaikančių nuolatinio komponavimo versijų ir testavimo automatizavimo funkciją, diegimas](/dynamics365/unified-operations/dev-itpro/perf-test/continuous-build-test-automation). Taip pat vienam iš toliau nurodytų vaidmenų reikia prieigos prie šios topologijos.
+Diekite topologiją, kuri palaiko nuolatinę komponavimo versiją. Daugiau informacijos žr. [Visuotinis topologijų, palaikančių nuolatinio komponavimo versijų ir testavimo automatizavimo funkciją, diegimas](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/perf-test/continuous-build-test-automation). Taip pat vienam iš toliau nurodytų vaidmenų reikia prieigos prie šios topologijos.
 
 - Elektroninės ataskaitos kūrėjas
 - Elektroninės ataskaitos funkcijų konsultantas
@@ -41,7 +43,7 @@ Visos užduotys šioje temoje gali būti atliktos naudojant **USMF** įmonę.
 
 Norėdami sugeneruoti dokumentus, kuriems planuojate pridėti pasirinktinę saugojimo vietą, [importuokite](er-download-configurations-global-repo.md) **ilgalaikio turto keitimų taikymo** ER formato konfigūraciją į dabartinę topologiją.
 
-![Konfigūracijos saugyklos puslapis.](./media/er-custom-storage-generated-files-import-format.png)
+![Konfigūracijos saugyklos puslapis](./media/er-custom-storage-generated-files-import-format.png)
 
 ## <a name="run-the-fixed-asset-roll-forward-report"></a>Ilgalaikio turto keitimų taikymo ataskaitos vykdymas
 
@@ -52,7 +54,7 @@ Norėdami sugeneruoti dokumentus, kuriems planuojate pridėti pasirinktinę saug
 5. Lauke **Formato konvertavimas** pasirinkite **Ilgalaikio turto keitimų taikymas**.
 6. Pasirinkite **Gerai**.
 
-![Ilgalaikio turto keitimų taikymo ataskaitos vykdymo dialogo langas.](./media/er-custom-storage-generated-files-runtime-dialog.png)
+![Ilgalaikio turto keitimų taikymo ataskaitos vykdymo dialogo langas](./media/er-custom-storage-generated-files-runtime-dialog.png)
 
 Programoje „Microsoft Excel“ peržiūrėkite siunčiamą dokumentą, kurį sugeneruoja ir kurį galima atsisiųsti. Tai yra [numatytoji](electronic-reporting-destinations.md#default-behavior) ER formato, kurio [paskirties vietos](electronic-reporting-destinations.md) besukonfigūruotos ir kuris veikia interaktyviuoju režimu, elgsena.
 
@@ -255,7 +257,7 @@ class AssetRollForwardService extends SysOperationServiceBase
 3. Modifikuokite esamą `AssetRollForwardService` klasę ir rašykite kodą, kad būtų galima nustatyti pasirinktinę paskirties gamyklos ataskaitos vykdytoją. Atkreipkite dėmesį, kad sukūrus pasirinktinę paskirties gamyklą, į programą orientuotas parametras, nurodantis paskirties aplanką. Tokiu būdu šis tikslinis aplankas naudojamas, kad būtų saugomi sugeneruoti failai.
 
     > [!NOTE] 
-    > Įsitikinkite, kad nurodytas aplankas (**c:\\0** šiame pavyzdyje) yra vietiniame failų sistemos serveryje, kuris paleidžia AOS tarnybą. Kitu atveju išimtis [DirectoryNotFoundException](/dotnet/api/system.io.directorynotfoundexception) bus pateikta vykdymo metu.
+    > Įsitikinkite, kad nurodytas aplankas (**c:\\0** šiame pavyzdyje) yra vietiniame failų sistemos serveryje, kuris paleidžia AOS tarnybą. Kitu atveju išimtis [DirectoryNotFoundException](https://docs.microsoft.com/dotnet/api/system.io.directorynotfoundexception?view=netcore-3.1) bus pateikta vykdymo metu.
 
     ```xpp
     using Microsoft.Dynamics365.LocalizationFramework;
@@ -339,6 +341,3 @@ class AssetRollForwardService extends SysOperationServiceBase
 
 - [Elektroninių ataskaitų (ER) paskirties vietos](electronic-reporting-destinations.md)
 - [Išplečiamumo pagrindinis puslapis](../extensibility/extensibility-home-page.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

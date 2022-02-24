@@ -79,6 +79,3 @@ Norėdami atsisiųsti **programėlę „Referral”**, eikite į [Dynamics 365 T
 
 [„Microsoft Power Platform“](https://docs.microsoft.com/power-platform/admin/admin-documentation)</br>
 [Programos perkėlimas įvairiems nuomotojams ir į įvairias aplinkas](https://docs.microsoft.com/power-platform/admin/environment-and-tenant-migration)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

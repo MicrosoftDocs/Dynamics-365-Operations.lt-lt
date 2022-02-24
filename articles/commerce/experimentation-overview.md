@@ -2,24 +2,28 @@
 title: Eksperimentavimas „Dynamics 365 Commerce”
 description: Eksperimentavimas leidžia kurti, redaguoti ir valdyti puslapio maketų bei turinio apdorojimo būdus svetainių daryklėje. Palaikomas visapusis eksperimentavimas el. prekybos puslapiuose ir puslapyje esančiuose objektuose.
 author: sushma-rao
+manager: AnnBe
 ms.date: 10/21/2020
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
+ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 292a8934e735c76389e36603a708fd2a1bbf7691
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
-ms.translationtype: MT
+ms.openlocfilehash: 85eb7a661cc66c42699797cca4fa6820941de7c0
+ms.sourcegitcommit: cd83f2bc0e52e13071ad306e07e4c255fc65cb03
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7986546"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "4414486"
 ---
 # <a name="experimentation-in-dynamics-365-commerce"></a>Eksperimentavimas „Dynamics 365 Commerce”
 Naudokite „Dynamics 365 Commerce” eksperimentavimą, norėdami patvirtinti jūsų „e-Commerce” puslapių efektyvumo hipotezes ir priimti patikimus, duomenimis pagrįstus sprendimus. „Commerce” palaiko A / B tikrinimą puslapiuose, moduliuose ir fragmentuose bei leidžia įvertinti siūlomų svetainės pakeitimų poveikį.
@@ -38,7 +42,7 @@ Naudokite „Dynamics 365 Commerce” eksperimentavimą, norėdami patvirtinti j
 ## <a name="experimentation-lifecycle"></a>Eksperimento ciklas
 Eksperimento nustatymas, variacijų kūrimas ir eksperimento vykdymas yra kartotinis procesas. Toliau pateiktoje diagramoje rodomas eksperimento ciklas „Commerce” ir trečiosios šalies paslaugoje. 
 
-[ ![Eksperimento ciklas.](./media/experimentation_lifecycle.svg) ](./media/experimentation_lifecycle.svg#lightbox)
+[ ![Eksperimento ciklas](./media/experimentation_lifecycle.svg) ](./media/experimentation_lifecycle.svg#lightbox)
 
 Norėdami sužinoti daugiau apie kiekvieną eksperimentavimo proceso veiksmą, žr. toliau pateiktas temas.
 - [Eksperimento hipotezės ir metrikos nustatymas](experimentation-identify.md)
@@ -53,6 +57,3 @@ Norėdami sužinoti daugiau apie kiekvieną eksperimentavimo proceso veiksmą, �
 
 ## <a name="next-step"></a>Kitas veiksmas
 [Eksperimento hipotezės ir sėkmės metrikos nustatymas](experimentation-identify.md) 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,24 +2,27 @@
 title: Slapukų atitiktis
 description: Šioje temoje apžvelgiama slapukų atitiktis ir numatytosios strategijos, įtrauktos į „Microsoft Dynamics 365 Commerce“.
 author: BrianShook
-ms.date: 07/30/2021
+manager: annbe
+ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 509ae998b4d0fa8ab6dd5e3d242dfb4abc492952cd66addc04050fbaff949326
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4f54b9b8130a167dbecdb13fccd7039f827f6ed0
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6747702"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4414247"
 ---
 # <a name="cookie-compliance"></a>Slapukų atitiktis
 
@@ -27,84 +30,31 @@ ms.locfileid: "6747702"
 
 Šioje temoje apžvelgiama slapukų atitiktis ir numatytosios strategijos, įtrauktos į „Microsoft Dynamics 365 Commerce“.
 
+## <a name="overview"></a>Peržiūra
+
 Kai sekamos technologijos, veikiančios el. prekybos klientus, privatumas yra svarbus veiksnys. Dėl privatumo atitikties standartų, pvz., Europos Sąjungos (ES) bendrojo duomenų apsaugos reglamento (BDAR), administruojant bet kurią šiuo metu aktyvią svetainę reikia apsvarstyti elektroninio privatumo rekomendacijas. Kadangi daugelis el. prekybos svetainių pagal numatytuosius parametrus yra pasiekiamos visame pasaulyje, svarbu peržiūrėti el. prekybos svetainės atitikties standartus.
 
 Norėdami daugiau sužinoti apie pagrindinius „Microsoft“ naudojamus slapukų atitikties principus, apsilankykite [„Microsoft“ patikimumo centre](https://www.microsoft.com/trust-center). Šioje svetainėje taip pat galite gauti daugiau informacijos apie atitikties sritis ir privatumą.
 
 Toliau pateikiamoje lentelėje rodomas dabartinis slapukų nuorodų sąrašas, kuriuos patalpino „Dynamics 365 Commerce” svetainės.
 
-| Slapuko pavadinimas                               | Naudojimas                                                        | Gyvavimo laikotarpis |
-| ------------------------------------------- | ------------------------------------------------------------ |  ------- |
-| .AspNet.Slapukai                             | Parduotuvės „Microsoft Azure Active Directory” („Azure AD”) autentifikavimo slapukai vienkartiniam prisijungimui (SSO). Parduotuvės užšifravo vartotojo pagrindinę informaciją (vardą, pavardę, el. paštą). | Seansas |
-| „\_msdyn365___cart_”                           | Parduotuvės krepšelio ID naudojamas produktų, pridėtų į krepšelio egzempliorių, sąrašui gauti. | Seansas |
-| „\_msdyn365___checkout_cart_”                           | Parduotuvės pirkimo užbaigimo krepšelio ID naudojamas produktų, pridėtų į pirkimo užbaigimo krepšelio egzempliorių, sąrašui gauti. | Seansas |
-| „\_msdyn365___ucc_”                            | Slapuko atitikties sutikimo sekimas.                          | 1 metai |
-| ai_seansas                                  | Aptinka, keliuose vartotojo veiklos seansuose buvo tam tikrų programėlės puslapių ir funkcijų. | 30 min. |
-| ai_vartotojas                                     | Aptinka, kaip daug žmonių naudojo programėlę ir jos funkcijas. Vartotojai skaičiuojami naudojant anoniminius ID. | 1 metai |
-| b2cru                                       | Saugomas dinamiškai peradresavimo URL.                              | Seansas |
-| JSESSIONID                                  | Mokėjimo jungtis naudoja „Adyen”, kad išsaugotų vartotojo seansą.       | Seansas |
-| AtvertiIdPrijungti.nonce.&#42;                       | Autentifikavimas                                               | 11 minučių |
-| x-ms-cpim-cache:.&#42;                          | Naudojama užklausos būsenai tvarkyti.                      | Seansas |
-| x-ms-cpim-csrf                              | Kelių svetainių užklausų klastočių (CRSF) atpažinimo ženklas, naudojamas apsaugoti nuo CRSF.     | Seansas |
-| x-ms-cpim-dc                                | Naudojama norint nukreipti užklausas į atitinkamą gamybos autentifikavimo serverio egzempliorių. | Seansas |
-| x-ms-cpim-rc.&#42;                              | Naudojama norint nukreipti užklausas į atitinkamą gamybos autentifikavimo serverio egzempliorių. | Seansas |
-| x-ms-cpim-slice                             | Naudojama norint nukreipti užklausas į atitinkamą gamybos autentifikavimo serverio egzempliorių. | Seansas |
-| x-ms-cpim-sso:rushmoreb2c.onmicrosoft.com_0 | Naudojama SSO seansui tvarkyti.                        | Seansas |
-| x-ms-cpim-trans                             | Naudojama operacijoms stebėti (atidarytų skirtukų skaičius, kuriais autentifikuojama lyginant su įmonė–vartotojui (B2C) svetaine), įskaitant dabartinę operaciją. | Seansas |
-| „\_msdyn365___muid_”                            | Naudojama, jei aplinkai yra suaktyvintas eksperimentavimas; kuris naudojamas kaip vartotojo ID eksperimentavimo tikslais. | 1 metai |
-| „\_msdyn365___exp_”                             | Naudojama, jei aplinkai yra suaktyvintas eksperimentavimas; naudojamas matuoti efektyvumo įkelties balansavimui.         | 1 valanda |
-| „d365mkt”                                       | Naudojama, jei aptikimas pagal vietą, skirtas vartotojo IP adresui sekti dėl parduotuvių vietų pasiūlymų, yra įjungtas „Commerce” svetainių daryklėje: **Svetainės parametrai \> Bendra \> Įgalinti vieta pagrįstą parduotuvės aptikimą**.      | 1 valanda |
-| \_msdyn365___tuid_                           | Naudojamas tik tada, jei suaktyvintas aplinkos suaktyvinimas; sugeneruoja GUID, kad jis būtų naudojamas kaip vartotojo identifikatorius. Reikšmė bus rodoma, jei pasikeičia vartotojo prisijungimo būsena.      | 1 metai |
-| \_msdyn365___aud_0                          | Saugoma segmentų vertė, naudojama pagal taikymą ir naudojama tik tada, jei tikslinis taikymas konfigūruojamas puslapyje ar fragmentas, reikalaujamas svetainės vartotojo. Sausainis pateikiamas tik tada, kai segmento vertės atiteks trečiosios šalies segmentavimo tiekėjui.      | 7 dienos |
-| \_msdyn365___aud_1                           | Saugoma segmentų vertė, naudojama pagal taikymą ir naudojama tik tada, jei tikslinis taikymas konfigūruojamas puslapyje ar fragmentas, reikalaujamas svetainės vartotojo. Sausainis pateikiamas tik tada, kai segmento vertės atiteks trečiosios šalies segmentavimo tiekėjui.      | 7 dienos |
-| \_msdyn365___aud_2                           | Saugoma segmentų vertė, naudojama pagal taikymą ir naudojama tik tada, jei tikslinis taikymas konfigūruojamas puslapyje ar fragmentas, reikalaujamas svetainės vartotojo. Sausainis pateikiamas tik tada, kai segmento vertės atiteks trečiosios šalies segmentavimo tiekėjui.      | 7 dienos |
-
-Jeigu svetainės vartotojas pasirenka bet kuriuos socialinės medijos saitus svetainėje, šioje lentelėje pateikti slapukai taip pat bus sekami jų naršyklėje.
-
-
-| Domenas                      | Slapukas               | Aprašas                                                  | Šaltinis                                          |
-| --------------------------- | ------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| „.linkedin.com”                | Vartotojo atitikties istorija         | „LinkedIn” skelbimų ID sinchronizavimas                                      | „LinkedIn” Sklaidos kanalas ir Įžvalgų žymė                                |
-| „.linkedin.com”               | „li_sugr”                  | Naršyklės identifikatorius                                           | „LinkedIn” Įžvalgų žymė, jeigu IP adresas nėra priskirtoje šalyje |
-| „.linkedin.com”               | Bizografikos atsisakymas       | Nustato atsisakymo būseną trečiosios šalies sekimui.              | „LinkedIn” svečių valdikliai ir industrijos atsisakymo puslapiai           |
-| „.linkedin.com”               | „\_guid”                    | Naršyklės identifikatorius, skirtas „Google Ads”.                            | „LinkedIn” Sklaidos kanalas                                                |
-| „.linkedin.com”               | „li_oatml”                 | Nario netiesioginis identifikatorius, skirtas konvertavimo sekimui, tiksliniam nukreipimui ir analizei. | „LinkedIn” Skelbimų ir Įžvalgų žymės                                |
-| Įvairūs pirmosios šalies domenai | „li_fat_id”                | Nario netiesioginis identifikatorius, skirtas konvertavimo sekimui, tiksliniam nukreipimui ir analizei. | „LinkedIn” Skelbimų ir Įžvalgų žymės                                |
-| „.adsymptotic.com”            | U                        | Naršyklės identifikatorius                                           | „LinkedIn” Įžvalgų žymė, jei IP adresas yra nepriskirtoje šalyje |
-| „.linkedin.com”                | „bcookie”                  | Naršyklės ID slapukas                                            | Užklausos į „LinkedIn”                                         |
-| „.linkedin.com”                | „bscookie”                 | Saugios naršyklės slapukas                                        | Užklausos į „LinkedIn”                                         |
-| „.linkedin.com”               | „lang”                     | Nustato numatytąją lokalę ir kalbą.                                 | Užklausos į „LinkedIn”                                         |
-| „.linkedin.com”                | „lidc”                     | Naudojama nukreipimui.                                             | Užklausos į „LinkedIn”                                         |
-| „.linkedin.com”               | „aam_uuid”                 | „Adobe” auditorijos vadovo slapukas                                                     | ID sinchronizavimo nustatymas                                              |
-| „.linkedin.com”               | „\_ga”                      | „Google Analytics“ slapukas                                            | „Google Analytics“                                             |
-| „.linkedin.com”               | „\_gat”                     | „Google Analytics“ slapukas                                             | „Google Analytics“                                             |
-| „.linkedin.com”               | „liap”                     | „Google Analytics“ slapukas                                             | „Google Analytics“                                             |
-| „.linkedin.com”               | „lissc”                    |                                                              |                                                              |
-| „.facebook.com”               | „c_user”                   | Slapuke yra šiuo metu prisijungusio vartotojo ID.  |   „Facebook“                                                           |
-| „.facebook.com”               | „datr”                     | Naudojama nustatyti žiniatinklio naršyklę, kuri yra naudojama prisijungimui prie „Facebook”, nepriklausomai nuo prisijungusio vartotojo. | „Facebook“                                                             |
-| „.facebook.com”               | „wd”                       | Saugo naršyklės lango dimensijas ir yra naudojama „Facebook” puslapio generavimui optimizuoti. | „Facebook“                                                             |
-| „.facebook.com”               | „xs”                       | Dviženklis skaičius, nurodantis seanso numerį. Antroji reikšmes dalis yra seanso slaptasis raktas. |  „Facebook“                                                            |
-| „.facebook.com”               | fr                       | Apima unikaliuosius naršyklės ir vartotojo ID, naudojamus tikslinei reklamai. |  „Facebook“                                                            |
-| „.facebook.com”               | „sb”                       | Naudojama patobulinti „Facebook” draugų pasiūlymus.                                |  „Facebook“                                                            |
-| „.facebook.com”               | „spin”                     |                                                              |  „Facebook“                                                            |
-| „.twitter.com”                | „guest_id”                 |                                                              |  Twitter                                                            |
-| „.twitter.com”                | „kdt”                      |                                                              |  Twitter                                                             |
-| „.twitter.com”                | „personalization_id”       | Slapukas apima šiuo metu prisijungusio vartotojo ID.  |  Twitter                                                             |
-| „.twitter.com”                | „remember_checked_on”      |                                                              | Twitter                                                              |
-| „.twitter.com”                | „twid”                     |                                                              |  Twitter                                                             |
-| „.pinterest.com”              | „\_auth”                    | Slapuke yra šiuo metu prisijungusio vartotojo ID.  |   „Pinterest”                                                           |
-| „.pinterest.com”              | „\_ b”                       |                                                              |   „Pinterest”                                                           |
-| „.pinterest.com”              | „\_pinterest_pfob”          |                                                              |  „Pinterest”                                                            |
-| „.pinterest.com”              | „\_pinterest_referrer”      | Slapukai apima puslapius, kai vartotojas pasirenka „Pinterest” mygtuką.      |  „Pinterest”                                                            |
-| „.pinterest.com”              | „\_pinterest_sess”          | Slapukai apima puslapius, kai vartotojas pasirenka „Pinterest” mygtuką.      |  „Pinterest”                                                            |
-| „.pinterest.com”              | „\_routing_id”              |                                                              |  „Pinterest”                                                            |
-| „.pinterest.com”              | „bei”                      |                                                              |  „Pinterest”                                                            |
-| „.pinterest.com”              | „cm_sub”                   | Apima vartotojo ID ir slapuko sukūrimo laiko žymą. |  „Pinterest”                                                            |
-| „.pinterest.com”              | „csrftoken”                | Slapukai apima puslapius, kai vartotojas pasirenka „Pinterest” mygtuką.      | „Pinterest”                                                             |
-| „.pinterest.com”              | „sessionFunnelEventLogged” | Slapukai apima puslapius, kai vartotojas pasirenka „Pinterest” mygtuką.      | „Pinterest”                                                             |
-| „.pinterest.com”              | Vietinė saugykla            |                                                              |  „Pinterest”                                                            |
-| „.pinterest.com”              | Tarnybos darbuotojai          |                                                              |  „Pinterest”                                                            |
-
+| Slapuko pavadinimas                               | Naudojimas                                                        |
+| ------------------------------------------- | ------------------------------------------------------------ |
+| .AspNet.Slapukai                             | Parduotuvės „Microsoft Azure Active Directory” („Azure AD”) autentifikavimo slapukai vienkartiniam prisijungimui (SSO). Parduotuvės užšifravo vartotojo pagrindinę informaciją (vardą, pavardę, el. paštą). |
+| &#95;msdyn365___krepšelis&#95;                           | Parduotuvės krepšelio ID naudojamas produktų, pridėtų į krepšelio egzempliorių, sąrašui gauti. |
+| &#95;msdyn365___ucc&#95;                            | Slapuko atitikties sutikimo sekimas.                          |
+| ai_seansas                                  | Aptinka, keliuose vartotojo veiklos seansuose buvo tam tikrų programėlės puslapių ir funkcijų. |
+| ai_vartotojas                                     | Aptinka, kaip daug žmonių naudojo programėlę ir jos funkcijas. Vartotojai skaičiuojami naudojant anoniminius ID. |
+| b2cru                                       | Saugomas dinamiškai peradresavimo URL.                              |
+| JSESSIONID                                  | Mokėjimo jungtis naudoja „Adyen”, kad išsaugotų vartotojo seansą.       |
+| AtvertiIdPrijungti.nonce.&#42;                       | Autentifikavimas                                               |
+| x-ms-cpim-cache:.&#42;                          | Naudojama užklausos būsenai tvarkyti.                      |
+| x-ms-cpim-csrf                              | Kelių svetainių užklausų klastočių (CRSF) atpažinimo ženklas, naudojamas apsaugoti nuo CRSF.     |
+| x-ms-cpim-dc                                | Naudojama norint nukreipti užklausas į atitinkamą gamybos autentifikavimo serverio egzempliorių. |
+| x-ms-cpim-rc.&#42;                              | Naudojama norint nukreipti užklausas į atitinkamą gamybos autentifikavimo serverio egzempliorių. |
+| x-ms-cpim-slice                             | Naudojama norint nukreipti užklausas į atitinkamą gamybos autentifikavimo serverio egzempliorių. |
+| x-ms-cpim-sso:rushmoreb2c.onmicrosoft.com_0 | Naudojama SSO seansui tvarkyti.                        |
+| x-ms-cpim-trans                             | Naudojama operacijoms stebėti (atidarytų skirtukų skaičius, kuriais autentifikuojama lyginant su įmonė–vartotojui (B2C) svetaine), įskaitant dabartinę operaciją. |
 
 ## <a name="site-user-cookie-consent-on-an-e-commerce-site"></a>Svetainės vartotojo sutikimas dėl slapukų „e-Commerce” svetainėje 
 
@@ -123,6 +73,3 @@ Jei „e-Commerce” svetainės funkcija ar modulis naudoja nepagrindinius slapu
 [Sutikimo dėl slapukų modulis](cookie-consent-module.md) 
  
 [Antraštės modulis](author-header-module.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

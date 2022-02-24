@@ -1,10 +1,12 @@
 ---
 title: Planuoti darbo užsakymus
 description: Šioje temoje paaiškinta, kaip planuoti darbo užsakymus modulyje Turto valdymas.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 08/19/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetWorkOrderSchdulePreviewPart, EntAssetWorkOrderScheduleExclusively, EntAssetWorkOrderSchduleInfoPart, EntAssetWorkOrderScheduleListPage, EntAssetWorkOrderSchedule, EntAssetWorkOrderScheduleDelete
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: becd06c46afd92bf07d9a69147b7768e780aefa57f9045c11698c04154d6ddb8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7e7751e3e2f216abf46f02ee0644909c6894c5b2
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718064"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5020234"
 ---
 # <a name="schedule-work-orders"></a>Planuoti darbo užsakymus
 
@@ -56,7 +58,7 @@ Galima planuoti tik darbo užsakymus, kurių darbo užsakymo ciklo būsena leid�
 
 *Pavyzdys:* toliau pateiktame paveikslėlyje lauke **Numatoma pradžia** įvesta formulė generuos visų darbo užsakymų, kurių numatyta pradžios data už savaitės nuo dabar ir vėliau, grafikus. Ši formulė gali praversti, jei nuolat vykdote darbo užsakymų planavimą, tačiau norite užtikrinti, kad ateinančioms 5–6 dienoms suplanuoti darbo užsakymai nebūtų suplanuoti iš naujo.
 
-![1 iliustracija.](media/03-work-order-scheduling.png)
+![1 pav.](media/03-work-order-scheduling.png)
 
 Pagal darbo užsakymo tipą, susijusį su darbo užsakymais, gali būti nustatomas vieno priežiūros darbuotojo planavimas (**Turto valdymas** > **Sąranka** > **Darbo užsakymai** > **Darbo užsakymų tipai** > perjungimo mygtuką **Vienas priežiūros darbuotojas** nustačius į „Taip“). Tai reiškia, kad, jei darbo užsakyme naudojamas darbo užsakymo tipas, perjungimo mygtukas **Vienas priežiūros darbuotojas** yra automatiškai nustatomas į „Taip“ išsamios informacijos puslapyje **Visi darbo užsakymai** > rodinyje **Antraštė** > „FastTab“ **Planuoti**. Planuojant darbo užsakymą visos jame sukurtos darbo užsakymo užduotys vėliau bus suplanuotos tam pačiam priežiūros darbuotojui. Jei reikia, galite redaguoti pasirinkimą perjungimo mygtuke **Vienas priežiūros darbuotojas** puslapyje **Visi darbo užsakymai**, kad darbo užsakymo užduotyse būtų galima planuoti kelis darbuotojus arba vieną darbuotoją.
 
@@ -135,6 +137,3 @@ Norėdami peržiūrėti Ganto diagramą ir su ja dirbti, atlikite toliau nurodyt
     - Norėdami perplanuoti rodomą darbo užsakymą, pasirinkite ir nuvilkite jį į norimą naują datą ir laiką.
 
 1. Jei atlikote pakeitimus, veiksmų srityje pasirinkite **Įrašyti**, kad juos įrašytumėte.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

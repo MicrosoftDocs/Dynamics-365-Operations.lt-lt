@@ -2,24 +2,27 @@
 title: Mažmeninės prekybos pardavimo kainos valdymas
 description: Šioje temoje aprašomos pardavimo kainų kūrimo ir valdymo „Dynamics 365 Commerce“ koncepcijos.
 author: ShalabhjainMSFT
-ms.date: 07/28/2021
+manager: AnnBe
+ms.date: 05/28/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-retail
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.search.region: Global
 ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f78a4f328d6962db373990ea60dc03cec35718dc719aa0b284b319db5bc059ab
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a90f5706c87d398f495fae40f42f6c2d408b1c2a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6759290"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4414223"
 ---
 # <a name="retail-sales-price-management"></a>„Retail“ pardavimo kainų valdymas
 
@@ -40,21 +43,21 @@ ms.locfileid: "6759290"
 
 ## <a name="price-groups"></a>Kainų grupės
 
-Kainų grupės yra kainų ir nuolaidų valdymo pagrindas „Commerce“. Kainų grupės yra naudojamos priskiriant kainas ir nuolaidas „Commerce“ prekybos objektams (t. y. kanalams, katalogams, priskyrimams ir lojalumo programoms). Kainų grupės naudojamos visoms kainoms ir nuolaidoms, todėl prieš pradedant labai svarbu suplanuoti, kaip jas naudosite.
+Kainų grupės yra kainų ir nuolaidų valdymo pagrindas „Commerce“. Kainų grupės yra naudojamos priskiriant kainas ir nuolaidas prekybos objektams (t. y. kanalams, katalogams, priskyrimams ir lojalumo programoms). Kainų grupės naudojamos visoms kainoms ir nuolaidoms, todėl prieš pradedant labai svarbu suplanuoti, kaip jas naudosite.
 
-Pati savaime kainų grupė yra tik pavadinimas, aprašymas ir, pasirinktinai, kainodaros prioritetas. Svarbiausia, ką reikėtų atsiminti apie kainų grupes, yra tai, kad jas naudojant yra valdomi įvairūs ryšiai, kurie nuolaidas ir kainas sieja su prekybos „Commerce“ objektais.
+Pati savaime kainų grupė yra tik pavadinimas, aprašymas ir, pasirinktinai, kainodaros prioritetas. Svarbiausia, ką reikėtų atsiminti apie kainų grupes, yra tai, kad jas naudojant yra valdomi įvairūs ryšiai, kurie nuolaidas ir kainas sieja su prekybos objektais.
 
-Toliau pateikta iliustracija parodo, kaip naudojamos kainų grupės. Atkreipkite dėmesį, kad šioje iliustracijoje „Kainų grupė“ yra tiesiogine to žodžio prasme kainų ir nuolaidų valdymo centre. „Commerce“ objektai, kuriais galite valdyti skirtingas kainas ir nuolaidas, yra kairėje, o patys kainų ir nuolaidų įrašai yra dešinėje.
+Toliau pateikta iliustracija parodo, kaip naudojamos kainų grupės. Atkreipkite dėmesį, kad šioje iliustracijoje „Kainų grupė“ yra tiesiogine to žodžio prasme kainų ir nuolaidų valdymo centre. Prekybos objektai, kuriais galite valdyti skirtingas kainas ir nuolaidas, yra kairėje, o patys kainų ir nuolaidų įrašai yra dešinėje.
 
-![Kainų grupės.](./media/PriceGroups.png "Kainų grupės")
+![Kainų grupės](./media/PriceGroups.png "Kainų grupės")
 
-Kuriant kainų grupes, nereikėtų naudoti vienos kainų grupės kelių tipų „Commerce“ objektams. Antraip gali būti sunku nustatyti, kodėl operacijai taikoma būtent tokia kaina ar nuolaida.
+Kuriant kainų grupes, nereikėtų naudoti vienos kainų grupės kelių tipų prekybos objektams. Antraip gali būti sunku nustatyti, kodėl operacijai taikoma būtent tokia kaina ar nuolaida.
 
 Raudona punktyrinė linija iliustracijoje rodo, kad „Commerce“ palaiko pagrindinę „Microsoft Dynamics 365“ kainų grupės, nustatomos tiesiogiai klientui, funkciją. Tačiau šiuo atveju gaunate tik pardavimo kainos prekybos sutartis. Jei norite taikyti konkretaus kliento kainas, nerekomenduojame kainų grupes nustatyti tiesiogiai klientui. Vietoje to reikėtų naudoti priskyrimus. 
 
 Turėkite omenyje, kad jei kainos grupė nustatyta klientui, šios kainų grupės bus susietos su šiam klientui sukurtų užsakymų pardavimo užsakymo antrašte. Jei vartotojas pakeičia kainos grupę užsakymo antraštėje, senoji kainos grupė bus pakeista naująja kainos grupe tik dabartiniam užsakymui. Pavyzdžiui, senoji kainos grupė neturės įtakos dabartiniam užsakymui, bet vis dar bus susieta su klientu būsimiems užsakymams.
 
-Tolesniuose skyriuose pateikiama daugiau informacijos apie „Commerce“ objektus, kuriais galite nustatyti skirtingas kainas, kai naudojamos kainų grupės. Kainų ir nuolaidų sukonfigūravimas visiems šiems objektams yra dviejų veiksmų procesas. Šiuos veiksmus galima atlikti bet kuria tvarka. Tačiau logiška tvarka yra pirma nustatyti kainų grupes objektams, nes tikėtina, kad šis veiksmas bus vienkartinis nustatymas, atliekamas diegimo metu. Tada, sukūrus kainas ir nuolaidas, galima nustatyti kainų grupes atskiroms kainoms ir nuolaidoms.
+Tolesniuose skyriuose pateikiama daugiau informacijos apie prekybos objektus, kuriais galite nustatyti skirtingas kainas, kai naudojamos kainų grupės. Kainų ir nuolaidų sukonfigūravimas visiems šiems objektams yra dviejų veiksmų procesas. Šiuos veiksmus galima atlikti bet kuria tvarka. Tačiau logiška tvarka yra pirma nustatyti kainų grupes objektams, nes tikėtina, kad šis veiksmas bus vienkartinis nustatymas, atliekamas diegimo metu. Tada, sukūrus kainas ir nuolaidas, galima nustatyti kainų grupes atskiroms kainoms ir nuolaidoms.
 
 ### <a name="channels"></a>Kanalai
 
@@ -105,7 +108,7 @@ O štai kainodaros prioriteto funkcija mažmenininkui leidžia parduotuvės kain
 
 Pažiūrėkime į pavyzdį, kur parduotuvių kainoms taikoma pirmenybė prieš kitas kainas.
 
-Nacionalinis mažmenininkas daugumą kainų nustato pagal regioną, o regionų yra keturi: Šiaurės Rytų, Pietryčių, Vidurio Vakarų ir Vakarų. Jis nustatė keletą brangių rinkų, kurios gali pakelti didesnes kainas. Šios rinkos yra Niujorkas, Čikaga ir San Francisko įlankos regionas.
+Nacionalinis mažmenininkas daugumą kainų nustato pagal regioną, o regionų yra keturi: Šiaurės Rytų, Pietryčių, Vidurio Vakarų ir Vakarų. Jis nustatė keletą brangių rinkų, kurios gali pakelti didesnes kainas. Šios rinkos yra Niujorkas, Čikaga ir San Fransisko įlankos regionas.
 
 Šiame pavyzdyje bandysime įsigilinti į Šiaurės Rytų regioną. 1 parduotuvė yra Bostone, o 2 parduotuvė – Manhetene. Su Bostono parduotuvės kanalu yra susietos dvi kainų grupės: Šiaurės Rytų ir 1 parduotuvės. Su Manheteno parduotuvės kanalu yra susietos trys kainų grupės: Šiaurės Rytų, Niujorko ir 2 parduotuvės.
 
@@ -214,21 +217,20 @@ Kai nustatote pardavimo kainas „Dynamics 365“, jūs nenurodote, ar į nustat
 
 Jei dirbate ir su mokesčius apimančiomis ir neapimančiomis kainomis, labai svarbu teisingai nustatyti kainas, nes, pakeitus kanalo parametrą **Kaina su PVM**, bendra kliento mokama suma bus skirtinga.
 
-## <a name="differences-between-commerce-pricing-and-non-commerce-pricing"></a>Skirtumai tarp mažmeninės „Commerce“ kainodaros ir ne mažmeninės „Commerce“ kainodaros
+## <a name="differences-between-retail-pricing-and-non-retail-pricing"></a>Skirtumai tarp mažmeninės prekybos kainodaros ir ne mažmeninės prekybos kainodaros
 
-Kainų apskaičiavimui visais kanalais naudojamas vienas kainodaros mechanizmas: Skambučių centras, Mažmeninė parduotuvė ir Internetinės parduotuvės. Tai padeda taikyti suvienodintus „Commerce“ scenarijus.
+Kainų apskaičiavimui visais kanalais naudojamas vienas kainodaros mechanizmas: Skambučių centras, Mažmeninė parduotuvė ir Internetinės parduotuvės. Tai padeda taikyti suvienodintus prekybos scenarijus.
 
-Kainodara skirta dirbti su mažmeninės „Commerce“ subjektais, o ne „Commerce“ subjektais. Tiksliau sakant, ji skirta nustatyti kainoms pagal parduotuvę, o ne pagal sandėlį.
+Kainodara skirta dirbti su mažmeninės prekybos subjektais, o ne kitais subjektais. Tiksliau sakant, ji skirta nustatyti kainoms pagal parduotuvę, o ne pagal sandėlį.
 
-„Commerce“ prekybos kainodaros mechanizmas **nepalaiko** toliau pateikiamų kainodaros funkcijų.
+Kainodaros mechanizmas **nepalaiko** toliau pateikiamų kainodaros funkcijų.
 
 - Kainų nustatymas pagal vietos arba vietos ir sandėlio saugojimo dimensijas nepalaikomas. Jei prekybos sutartyse nurodysite tik vietos dimensiją, kainodaros mechanizmas nepaisys vietos ir prekybos sutartis bus taikoma visoms vietoms. Jei nurodysite ir vietą, ir sandėlį, tada elgesys yra nenurodytas / netikrintas, nes tikimasi, kad pardavėjai naudoja parduotuvės kainų grupes kiekvienos parduotuvės / sandėlio kainoms kontroliuoti.
 - Atributais grindžiama kainodara nepalaikoma.
 - Tiekėjo nuolaidos perėjimas nepalaikomas.
-- Bendroji valiutos funkcija nepalaikoma, pvz., net jei prekybos sutartyje įjungtas **bendrosios valiutos perjungimo** funkcijos, vis tiek ši prekybos sutartis galios tik prekybos sutartyje nurodytai valiutai.
 - Naudojant standartinį „Supply Chain Management“ kainodaros mechanizmą palaikomas kainos skaičiavimas pagal „Pageidaujamą siuntimo datą“ ir „Pageidaujamą gavimo data“ kartu su dabartine data. Tačiau mažmeninės prekybos kainodara šiuo metu nepalaiko šių verčių. Taip yra todėl, kad dėl B2C scenarijų klientai negali tikėtis, kad pageidaujama pristatymo data galėtų paveikti prekės kainą. Kai kuriais atvejais mažmenininkai naudoja teik B2B, tiek B2C operacijas. B2B operacijose įprasta pakeisti kainas pagal pristatymo datas. Šie mažmenininkai gali naudoti „Supply Chain Management“ kainodarą savo B2B verslui ir mažmeninės prekybos kainodarą savo B2C verslui. Mažmeninės prekybos kainodara prasideda tik tada, kai programos vartotojas yra įtraukiamas kaip skambučių centro vartotojas, todėl mažmenininkai gali priskirti konkrečius vartotojus, kurie dirbs su „Supply Chain Management“ kainodara, ir kelis vartotojus, kurie dirbs su mažmeninės prekybos kainodara, t. y. šie vartotojai turi būti įtraukti kaip skambučių centro vartotojai. Be to, reikia įjungti ypatybę **Naudoti šios dienos datą kainoms apskaičiuoti** dalyje **Prekybos parametrai> kainos ir nuolaidos > įvairios**. Tokiu būdu jie gali toliau naudoti gautinų sumų parametro reikšmę pageidaujamai siuntimo datai arba pageidaujamai gavimo datai, kad būtų galima nustatyti „Supply Chain Management“ kainodarą, bet mažmeninės prekybos kainodarai ir toliau bus naudojama šiandienos data.
 
-Be to, toliau nurodytas „Commerce“ kainų funkcijas palaiko **tik** kainodaros mechanizmas:
+Be to, toliau nurodytas kainodaros funkcijas palaiko **tik** kainodaros mechanizmas.
 
 - Kaina nustatoma pagal produkto dimensijas, nuo konkrečiausio varianto kainos iki mažiausiai konkretaus varianto kainos iki bendrojo produkto kainos. Kainai, kuri yra nustatyta naudojant dvi produkto dimensijas (pvz., spalvos ir dydžio), teikiama pirmenybė prieš kainą, kuri yra nustatyta naudojant tik vieną produkto dimensiją (pvz., dydžio).
 - Ta pačia kainų grupe galima kontroliuoti kainas ir nuolaidas.
@@ -237,7 +239,4 @@ Be to, toliau nurodytas „Commerce“ kainų funkcijas palaiko **tik** kainodar
 
 Kaina yra vienas iš svarbiausių veiksnių, nuo kurių priklauso daugelio klientų pirkimo sprendimai, ir dauguma klientų prieš įsigydami palygina kainas įvairiose svetainėse. Siekdami užtikrinti, kad būtų pateiktos konkurencingos kainos, mažmenininkai atidžiai stebi savo konkurentus ir dažnai organizuoja akcijas. Siekiant padėti šiems mažmenininkams pritraukti klientų, labai svarbu, kad atliekant produktų paiešką, naudojantis naršymo funkcija, sąrašais ir produkto informacijos puslapiu būtų rodomos tiksliausios kainos.
 
-Būsimame prekybos leidime **GetActivePrices** naudojantis taikomojo programavimo sąsaja (API) nurodomos „Commerce“ kainos, kurios apima paprastas nuolaidas (pavyzdžiui, vienos eilutės nuolaidas, kurios nepriklauso nuo kitų krepšelyje esančių prekių). Tokiu būdu rodomos kainos beveik atitinka faktinę sumą, kurią klientai moka už prekes. Ši API apima visų tipų paprastas nuolaidas: pagal priskyrimą, pagal lojalumą, pagal katalogą ir pagal kanalą. Be to, API nurodomi pavadinimai ir pateikiama informacija apie taikomas nuolaidas, kad mažmenininkai galėtų pateikti išsamesnį kainos aprašymą ir sukurti skubos jausmą, jei nuolaidos galiojimo laikas greitai baigsis.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+Naujesnėje „Commerce“ versijoje programėlės programavimo sąsaja (API)**„GetActivePrices“** grąžins kainas, į kurias įeina paprastos nuolaidos (pavyzdžiui, vienos eilutės nuolaidos, nepriklausančios nuo kitų krepšelio prekių). Tokiu būdu rodomos kainos beveik atitinka faktinę sumą, kurią klientai moka už prekes. Ši API apima visų tipų paprastas nuolaidas: pagal priskyrimą, pagal lojalumą, pagal katalogą ir pagal kanalą. Be to, API nurodomi pavadinimai ir pateikiama informacija apie taikomas nuolaidas, kad mažmenininkai galėtų pateikti išsamesnį kainos aprašymą ir sukurti skubos jausmą, jei nuolaidos galiojimo laikas greitai baigsis.

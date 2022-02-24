@@ -1,35 +1,31 @@
 ---
 title: Darbuotojų ir vadovų savitarnos apžvalga
 description: Šiame straipsnyje pateikiama darbuotojų ir valdovų savitarnos darbo srities apžvalga.
-author: twheeloc
-ms.date: 08/26/2021
-ms.topic: overview
+author: andreabichsel
+manager: tfehr
+ms.date: 10/20/2020
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-human-resources
 ms.technology: ''
 ms.search.form: HRMParameters, EssWorkspace
 audience: Application User
-ms.search.scope: Human Resources
-ms.custom:
-- "51941"
-- intro-internal
+ms.reviewer: anbichse
+ms.search.scope: Core, Operations, Human Resources
+ms.custom: 51941
 ms.assetid: 2cfb061a-a616-4bf9-9d98-9cde00039eec
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-03-19
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 28bf4ff4e456505efda3777a4f820c54f270c74b
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
-ms.translationtype: MT
+ms.openlocfilehash: 116c85c53b0ec2fe1e1fd2d1fbc2738f5b6351fb
+ms.sourcegitcommit: 1fdca917e01470fbd5d3051adb85fd63e8624b47
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8068949"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "4419800"
 ---
 # <a name="employee-and-manager-self-service-overview"></a>Darbuotojų ir vadovų savitarnos apžvalga
-
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Šiame straipsnyje pateikiama darbuotojų ir valdovų savitarnos darbo srities apžvalga.
 
@@ -43,7 +39,7 @@ Jei nesusiejote savo vartotojo su **Darbuotojas** įrašu, kuris yra **Vartotoja
 
 **Jūsų vartotojo ID nėra susietas su jūsų darbuotojo įrašu sistemoje. Iki kol jis nebus susietas, tol jūs negalėsite peržiūrėti ar atnaujinti savo informacijos. Susisiekite su savo vadovu ar palaikymo komanda, jei reikia pagalbos.**
 
-Norėdami susieti vartotoją su **Darbuotojo** įrašu, pereikite į skiltį **Vartotojai** ir pasirinkite vartotoją. Pasirinkite **Redaguoti**, pridėkite atitinkamą darbininką puslapio lauke **Asmuo**, ir pasirinkite **Išsaugoti**. Dabar turėtumėte turėti prieigą prie **Darbuotojų savitarnos**.
+Norėdami susieti vartotoją su **Darbuotojo** įrašu, pereikite į skiltį **Vartotojai** ir pasirinkite vartotoją. Pasirinkite **Redaguoti**, pridėkite atitinkamą darbininką formos lauke **Asmuo**, ir pasirinkite **Išsaugoti**. Dabar turėtumėte turėti prieigą prie darbuotojų savitarnos.
 
 ## <a name="security-requirements-for-employee-and-manager-self-service"></a>Darbuotojų ir vadovų savitarnos saugos reikalavimai
 
@@ -58,7 +54,7 @@ Darbuotojų ir vadovų savitarnoje būtini du saugos vaidmenys:
 
 ## <a name="employee-self-service"></a>Darbuotojų savitarna
 
-Skirtuke **Mano informacija** rodoma tolesnė informacija **Darbuotojų savitarna**.  
+Skirtuke **Mano informacija** rodoma tolesnė darbuotojo savitarnos informacija.  
 
 ### <a name="summary"></a>Suvestinė
 
@@ -72,33 +68,33 @@ Skirtuke **Mano informacija** rodoma tolesnė informacija **Darbuotojų savitarn
 
 ### <a name="my-career-information"></a>Mano karjeros informacija
 
-Srityje **Mano karjeros informacija** skyriuje **Darbuotojo savitarna** yra kortelės, susijusios su atostogomis ir neatvykimu, našumo valdymu, kompetencijomis, išmokomis, užduotimis ir priedais.
+Darbuotojo savitarnos skyriuje **Mano karjeros informacija** yra kortelės, susijusios su atostogomis ir neatvykimu, našumo valdymu, kompetencijomis, išmokomis, užduotimis ir priedais.
 
-Kortelėje **Atostogų balansai** plytelėje rodomi visų užregistruotų planų balansai. Ši plytelė prognozuoja jūsų balansą pagal jūsų kaupimo metodą. Galite įvesti ir pateikti laisvo laiko prašymus, kuriems toliau bus taikomas patvirtinimo darbo eigos procesas. Daugiau informacijos apie atostogas ir neatvykimą žr. [Atostogų ir neatvykimo apžvalga](hr-leave-and-absence-overview.md).
+Kortelėje **Atostogų balansai** rodomi visų užregistruotų planų balansai. Ši kortelė prognozuoja jūsų balansą pagal jūsų kaupimo metodą. Galite įvesti ir pateikti laisvo laiko prašymus, kuriems toliau bus taikomas patvirtinimo darbo eigos procesas. Daugiau informacijos apie atostogas ir neatvykimą žr. [Atostogų ir neatvykimo apžvalga](hr-leave-and-absence-overview.md).
 
-Plytelėje **Užduotys** rodomos jums priskirtos užduotys, joje taip pat galite peržiūrėti ir valdyti užduotis.
+Kortelėje **Užduotys** rodomos jums priskirtos užduotys, joje taip pat galite peržiūrėti ir valdyti užduotis.
 
-Kortelėje **Kitas užregistruotas kursas** rodomas kitas kursas, kuriam esate užregistruotas. Galite peržiūrėti ir užsiregistruoti į visus atvirus kursus. Visų kursų, kurie yra atidaryti užsiregistravimui, būsena yra **Prasidėjęs**, šioje kortelėje darbuotojai gali registruotis savarankiškai. Atsižvelgiant į jūsų organizacijos parametrus, registracija į kursus gali vykti per patvirtinimo procesą.
+Kortelėje **Kitas užregistruotas kursas** rodomas kitas kursas, kuriam esate užregistruotas. Galite peržiūrėti ir užsiregistruoti į visus atvirus kursus. Visų kursų, kurie yra atidaryti užsiregistravimui, būsena yra **Prasidėjęs**; šioje kortelėje darbuotojai gali registruotis savarankiškai. Atsižvelgiant į jūsų organizacijos parametrus, registracija į kursus gali vykti per patvirtinimo procesą.
 
-Plytelėje **Sertifikatai** rodomas sertifikatas ir sertifikato, kurio galiojimo data yra arčiausiai dabartinės datos, galiojimo data. Galite naujinti, pridėti arba pašalinti sertifikatus. Atsižvelgiant į jūsų organizacijos parametrus, sertifikatų naujinimai gali vykti per patvirtinimo procesą.
+Kortelėje **Sertifikatai** rodomas sertifikatas ir sertifikato, kurio galiojimo data yra arčiausiai dabartinės datos, galiojimo data. Galite naujinti, pridėti arba pašalinti sertifikatus. Atsižvelgiant į jūsų organizacijos parametrus, sertifikatų naujinimai gali vykti per patvirtinimo procesą.
 
 Kortelėje **Kita suplanuota peržiūra** rodoma kita jūsų našumo peržiūra. Šioje kortelėje galite pradėti naują peržiūrą. Jūsų vadovas ir HR atstovas taip pat gali inicijuoti peržiūras. Atsižvelgiant į jūsų organizacijos parametrus, šioje kortelėje taip pat galite peržiūrėti, naujinti ir pateikti išėjimo vertinimus.
 
 Galite tvarkyti savo tikslus kortelėje **Našumo tikslai**. Šioje kortelėje rodoma, kiek tikslų turite kiekvienoje būsenoje (**Nepradėta**, **Vykdoma** ir **Reikia tobulinti**). Galite kurti, naujinti ir pašalinti tikslus, atsižvelgdami į jums priskirtą saugą pagal vaidmenį. Jei norite, galite pridėti naujų tikslų iš grupių ar šablonų. Vadovai ir HR taip pat gali kurti tikslus darbuotojų vardu ir nustatyti kiekvieno tikslo detalumą. Vadovai ir darbuotojai gali bendradarbiauti vykdydami tikslus ir naujinti veiklas, matavimo vienetus ir būseną. Taip pat galite įterpti priedus.
 
-Galite peržiūrėti savo turimus įgūdžius kortelėje **Įgūdžiai iš viso**. Galite naujinti įgūdžius, pridėti naujų arba pašalinti, kurie nebėra svarbūs. Atsižvelgiant į jūsų organizacijos parametrus, jūsų įgūdžių pakeitimai gali vykti per patvirtinimo procesą.
+Galite peržiūrėti savo turimus įgūdžius kortelėje **Įgūdžiai**. Galite naujinti įgūdžius, pridėti naujų arba pašalinti, kurie nebėra svarbūs. Atsižvelgiant į jūsų organizacijos parametrus, jūsų įgūdžių pakeitimai gali vykti per patvirtinimo procesą.
 
-Galite peržiūrėti dabartinį atlyginimą kortelėje **Atlyginimas**. Pasirinkite **Rodyti** norėdami peržiūrėti metinį darbo užmokestį ir paskutinio padidinimo sumą. Jei dirbate daugiau nei vienoje įmonėje, kiekviena metinė suma rodoma kortelėje. Norėdami peržiūrėti išsamią atlyginimo istoriją, pasirinkite **metinę atlyginimo** sumą norėdami atverti **Pastoviosios ir kintamosios atlyginimo dalies istorija** puslapį. Šiame puslapyje nerodomas būsimas atlyginimas. Jei dirbate daugiau nei vienoje vietoje, šioje formoje galite perjungti įmones, kad peržiūrėtumėte savo atlyginimo istoriją nesijungdami prie kiekvienos įmonės.
+Galite peržiūrėti dabartinį atlyginimą kortelėje **Atlyginimas**. Pasirinkite **Rodyti** norėdami peržiūrėti metinį darbo užmokestį ir paskutinio padidinimo sumą. Jei dirbate daugiau nei vienoje įmonėje, kiekviena metinė suma rodoma kortelėje. Norėdami peržiūrėti išsamią atlyginimo istoriją, pasirinkite metinę atlyginimo sumą ir atidarykite formą **Pastoviosios ir kintamosios atlyginimo dalies istorija**. Šioje formoje nerodomas būsimas atlyginimas. Jei dirbate daugiau nei vienoje vietoje, šioje formoje galite perjungti įmones, kad peržiūrėtumėte savo atlyginimo istoriją nesijungdami prie kiekvienos įmonės.
 
-Peržiūrėkite ir valdykite dokumentus kortelėje **Priedai**. Galite valdyti visus **Išoriniai** priedus. Ir HR, ir darbuotojai gali įtraukti priedus per **darbuotojų savitarną** ar puslapyje **Darbuotojas**. Pagal numatytuosius parametrus, priedai nustatyti kaip **Išoriniai**.
+Peržiūrėkite ir valdykite dokumentus kortelėje **Priedai**. Galite valdyti visus **Išoriniai** priedus. Ir HR, ir darbuotojai gali įtraukti priedus per darbuotojų savitarną arba formą **Darbuotojas**. Pagal numatytuosius parametrus, priedai nustatyti kaip **Išoriniai**.
 
 ### <a name="additional-information"></a>Papildoma informacija
 
-Šiame skyriuje pateikiami saitai į kitas **darbuotojų savitarnos** sritis, panašias į skyrių **Mano karjeros informacija** skyrius.
+Šiame skyriuje pateikiami saitai į kitas darbuotojų savitarnos sritis, panašias į skyrių **Mano karjeros informacija**.
 
-Registruokitės išmokoms naudodami saitą **Išmokos**. Norėdami gauti daugiau informacijos apie išmokų valdymą, žr [Privalumų apžvalga](hr-benefits-management-overview.md).
+Registruokitės išmokoms naudodami saitą **Išmokos**. Daugiau informacijos apie išmokų valdymą žr. [Išmokų apžvalga](hr-benefits-management-overview.md).
 
-Dalyje **Našumas** galite pasirinkti **Našumo žurnalas**, kad galėtumėte kurti našumo žurnalų įrašus, naudojamus ir našumo tiksluose, ir apžvalgose. Galite pasirinkti **Siųsti atsiliepimą**, kad pateiktumėte atsiliepimus kitiems organizacijos darbuotojams. Atsižvelgiant į jūsų organizacijos parametrus, el. laiškai gali būti siunčiami gavėjui, siuntėjui ir vadovams. Galite siųsti atsiliepimus visiems organizacijos darbuotojams. Atsiliepimų siuntimas nėra ribojamas pagal įmonę.
+Dalyje **Našumas** galite pasirinkti **Našumo žurnalai**, kad galėtumėte kurti našumo žurnalų įrašus, naudojamus ir našumo tiksluose, ir apžvalgose. Galite pasirinkti **Siųsti atsiliepimą**, kad pateiktumėte atsiliepimus kitiems organizacijos darbuotojams. Atsižvelgiant į jūsų organizacijos parametrus, el. laiškai gali būti siunčiami gavėjui, siuntėjui ir vadovams. Galite siųsti atsiliepimus visiems organizacijos darbuotojams. Atsiliepimų siuntimas nėra ribojamas pagal įmonę.
 
 Dalyje **Kompetencijos** galite atlikti **Kursai**, **Išsilavinimas**, **Atsakingos pareigos** ir **Profesinė patirtis** pakeitimus. Atsižvelgiant į jūsų organizacijos parametrus, šių kompetencijų naujinimai gali vykti per patvirtinimo procesą.
 
@@ -106,13 +102,13 @@ Galite peržiūrėti užduoties informaciją dalyje **Organizacija**. Išsamią 
 
 Dalyje **Klausimynas** galite peržiūrėti užpildytus klausimynus. Taip pat galite peržiūrėti visos įmonės klausimynus, kurie nebuvo užpildyti. Galite pasirinkti užpildyti klausimyną bet kuriuo metu. Klausimyno autorius gali nustatyti laiko intervalą ir kam skirtas klausimynas.
 
-Galite konfigūruoti vartotojo apibrėžiamus saitus skyriuje **Žmogiškųjų išteklių parametrai**. Pavyzdžiui, galite apibrėžti saitus į mokėjimo išrašus, metų pabaigos dokumentus arba išorinius sprendimus. Šie saitai rodomi šio skyriaus apačioje, tačiau juos galima perkelti naudojant pritaikymą.
+Galite konfigūruoti vartotojo apibrėžiamus saitus skyriuje **„Human Resources“ parametrai**. Pavyzdžiui, galite apibrėžti saitus į mokėjimo išrašus, metų pabaigos dokumentus arba išorinius sprendimus. Šie saitai rodomi šio skyriaus apačioje, tačiau juos galima perkelti naudojant pritaikymą.
 
-Taip pat galite sukurti papildomų skirtukų įdiegdami „Power Apps“ esantį **darbuotojų savitarnos** darbo srityje. Naudokite meniu **Parametrai**, norėdami pritaikyti puslapį bet kurioje „Power Apps“. Meniu **Parametrai** galite pasirinkti pridėti „Power App“, pateikti išsamią informaciją ir įterpti programą. Pagal numatytuosius parametrus, „Power Apps“ rodoma kaip pirmasis skirtukas sekoje. Galite keisti tvarką naudodami standartinį pritaikymą.
+Taip pat galite sukurti papildomų skirtukų įdiegdami „Power Apps“ į darbuotojų savitarnos darbo sritį. Naudokite meniu **Parametrai**, norėdami pritaikyti puslapį bet kurioje „Power Apps“. Meniu **Parametrai** galite pasirinkti pridėti „Power App“, pateikti išsamią informaciją ir įterpti programą. Pagal numatytuosius parametrus, „Power Apps“ rodoma kaip pirmasis skirtukas sekoje. Galite keisti tvarką naudodami standartinį pritaikymą.
 
 ## <a name="my-team"></a>Mano komanda
 
-Skirtuke **Mano komanda** rodoma tolesnė vadovo savitarnos informacija **Vadovų savitarnai**. Tik vadovai gali pasiekti skirtuką **Mano komanda**.
+Skirtuke **Mano komanda** rodoma tolesnė vadovo savitarnos informacija. Tik vadovai gali pasiekti skirtuką **Mano komanda**.
 
 ### <a name="personnel-actions"></a>Personalo veiksmai
 
@@ -135,7 +131,7 @@ Taip pat galite konfigūruoti šias pasirinktis norėdami peržiūrėti pasirink
 
 ### <a name="summary"></a>Suvestinė
 
-Informacija skyriuje **Suvestinė** priklauso nuo parinkčių, kurias HR pasirinko **Žmogiškųjų išteklių parametrai**. Puslapio **Žmogiškųjų išteklių parametrai** skirtuke **Vadovo savitarna** galite konfigūruoti baigiančių galioti įrašų ir atvirų pareigų rodymo parinktis. Įjungus šias pasirinktis, nustatoma, kurie vadovai gali matyti skyrių **Suvestinė**.
+Informacija skyriuje **Suvestinė** priklauso nuo parinkčių, kurias HR pasirinko **Žmogiškųjų išteklių parametrai**. Puslapio **„Human Resources“ parametrai** skirtuke **Vadovo savitarna** galite konfigūruoti baigiančių galioti įrašų ir atvirų pareigų rodymo parinktis. Įjungus šias pasirinktis, nustatoma, kurie vadovai gali matyti skyrių **Suvestinė**.
 
 Galite konfigūruoti šias vadovų plyteles:
 
@@ -163,7 +159,7 @@ Galite konfigūruoti tolesnes vadovams skirtas parinktis, kad atliktumėte pakei
 
 ### <a name="my-team-information"></a>Mano komandos informacija
 
-**Mano komandos** informacija leidžia vadovams peržiūrėti ir naujinti tiesiogines ir Išplėstinis ataskaitas. Norėdami pasiekti išplėstines ataskaitas, pasirinkite darbuotoją, kuris turi tiesiogines, tada kortelėje pasirinkite **Peržiūrėti komandą**. Visos tos pačios pasirinktys taikomos išplėstinėms ataskaitoms kaip tiesioginėms ataskaitoms. 
+Mano komandos informacija leidžia vadovams peržiūrėti ir naujinti tiesiogines ir Išplėstinis ataskaitas. Norėdami pasiekti išplėstines ataskaitas, pasirinkite darbuotoją, kuris turi tiesiogines, tada kortelėje pasirinkite **Peržiūrėti komandą**. Visos tos pačios pasirinktys taikomos išplėstinėms ataskaitoms kaip tiesioginėms ataskaitoms. 
 
 #### <a name="summary-tab"></a>Suvestinės skirtukas
 
@@ -186,26 +182,26 @@ Atsižvelgdami į jūsų organizacijos parametrus, galite atlikti keitimus arba 
 
 #### <a name="position-tab"></a>Pareigų skirtukas
 
-Skirtuke **Pareigos** pateikiama darbuotojų pagrindinėse pareigose suvestinė. Pavadinimas, plytelė ir skyrius rodomi kiekvienos kortelės antraštės srityje. Ši kortelė apima:
+Skirtuke **Pareigos** pateikiama darbuotojų pagrindinėse pareigose suvestinė. Pavadinimas, plytelė ir skyrius rodomi kiekvienos kortelės antraštės srityje. Šią kortelę sudaro tolesni elementai.
 
-- **Paaukštinimo data** - rodoma iš darbuotojo formos darbuotojo suvestinės **darbuotojo** puslapyje.
-- **Tarnybos metai** – apskaičiuoti pagal darbuotojo įdarbinimo pradžios datą.
-- **Ankstesnių pareigų skaičius** – pagrįstas pareigų istorija, pasirinkus šį numerį atidaromas išsamus visų anksčiau eitų pareigų rodinys.
-- **Gimimo data** – darbuotojo gimimo datos mėnuo ir diena.
+- **Paaukštinimo data** – rodoma iš darbuotojo formos darbuotojo suvestinės skyriaus
+- **Tarnybos metai** – apskaičiuoti pagal darbuotojo įdarbinimo pradžios datą
+- **Ankstesnių pareigų skaičius** – pagrįstas pareigų istorija, pasirinkus šį numerį atidaromas išsamus visų anksčiau eitų pareigų rodinys
+- **Gimimo data** – darbuotojo gimimo datos mėnuo ir diena
 
 Galite peržiūrėti ir tiesiogines, ir išplėstines pareigų datos ataskaitas.
 
 #### <a name="compensation-tab"></a>Atlyginimo skirtukas
 
-Skirtuke **Atlyginimas** rodomas darbuotojo metinis atlyginimas. Įmonės identifikatorius rodomas po atlyginimo suma. Jei darbuotojas dirba daugiau nei vienoje vietoje ir jam atlyginimą moka keli juridiniai subjektai, darbuotojas turės kelis kompensacijos planus. Norėdami peržiūrėti visus visų juridinių subjektų kompensacijų planus neperjungdami įmonių, turite įgalinti visų įmonių kompensavimą dalyje **Žmogiškieji ištekliai > Bendrinami parametrai > Išplėstinė prieiga > Įgalinti visų įmonių kompensavimą**.
+Skirtuke **Atlyginimas** rodomas darbuotojo metinis atlyginimas. Įmonės identifikatorius rodomas po atlyginimo suma. Jei darbuotojas dirba daugiau nei vienoje vietoje ir jam atlyginimą moka keli juridiniai subjektai, darbuotojas turės kelis kompensacijos planus. Norėdami peržiūrėti visus visų juridinių subjektų kompensacijų planus neperjungdami įmonių, turite įgalinti visų įmonių kompensavimą dalyje **„Human Resources” > Bendrinami parametrai > Išplėstinė prieiga > Įgalinti visų įmonių kompensavimą**.
 
-Norėdami peržiūrėti atlyginimo istoriją, pasirinkite **atlyginimo sumą** norėdami atverti **Išsami informacija** puslapį. Puslapyje **Atlyginimas** rodomi tik dabartiniai ir istoriniai pastoviosios ir kintamosios atlyginimo dalies įrašai. Jei darbuotojas dirba daugiau nei vienoje vietoje, galite perjungti įmones, norėdami peržiūrėti kiekvienos įmonės kompensacijų retrospektyvą, arba įgalinti visų įmonių kompensavimą **Bendrintų žmogiškųjų išteklių parametruose** norėdami peržiūrėti visus kompensacijų planus.
+Norėdami peržiūrėti atlyginimo istoriją, pasirinkite atlyginimo sumą ir atidarykite formą **Išsami informacija**. Formoje **Atlyginimas** rodomi tik dabartiniai ir istoriniai pastoviosios ir kintamosios atlyginimo dalies įrašai. Jei darbuotojas dirba daugiau nei vienoje vietoje, galite perjungti įmones, norėdami peržiūrėti kiekvienos įmonės kompensacijų retrospektyvą, arba įgalinti visų įmonių kompensavimą „Human Resources” bendrinamuose parametruose, norėdami peržiūrėti visus kompensacijų planus.
 
 Galite peržiūrėti ir tiesiogines, ir išplėstines atlyginimo ataskaitas.
 
 #### <a name="leave-and-absence-tab"></a>Atostogų ir neatvykimo skirtukas
 
-Skirtuke **Atostogos ir neatvykimas** rodomi darbuotojų, kurie turi veiklą, pagrindiniai balansai. Norėdami atlikti veiksmą arba peržiūrėti visą veiklų sąrašą, pasirinkite **Numatytasis**, tada pasirinkite **Atostogos**. Puslapyje **Atostogos** galite peržiūrėti balansus, prašymus, patvirtintą laiką ir prognozės balansus, kad padėtumėte darbuotojams lengviau valdyti laiką. Atsižvelgdami į savo organizacijos parametrus, taip pat galite prašyti atostogų dėl tiesioginių ir išplėstinių ataskaitų.
+Skirtuke **Atostogos ir neatvykimas** rodomi darbuotojų, kurie turi veiklą, pagrindiniai balansai. Norėdami atlikti veiksmą arba peržiūrėti visą veiklų sąrašą, pasirinkite **Numatytasis**, tada pasirinkite **Atostogos**. Formoje **Atostogos** galite peržiūrėti balansus, prašymus, patvirtintą laiką ir prognozės balansus, kad padėtumėte darbuotojams lengviau valdyti laiką. Atsižvelgdami į savo organizacijos parametrus, taip pat galite prašyti atostogų dėl tiesioginių ir išplėstinių ataskaitų.
 
 #### <a name="performance-goals-tab"></a>Našumo tikslų skirtukas
 
@@ -218,5 +214,3 @@ Vadovai gali matyti visus savo komandos tikslus **Mano komanda** skyriaus **Suve
 Skirtuke **Peržiūros** apibendrinamos kiekvienos darbuotojo būsenos peržiūros: **Vykdoma**, **Parengta peržiūrai** ir **Galutinė peržiūra**. Norėdami pasiekti darbuotojo peržiūrą, pasirinkite mygtuką **Išsami informacija**, tada pasirinkite peržiūras, su kuriomis dirbsite. Atsižvelgiant į tai, kur peržiūra yra darbo eigos procese, galite matyti, ar galima peržiūrą naujinti. 
 
 Galite matyti visas savo komandos peržiūras **Mano komanda** skyriaus **Suvestinė** plytelėje **Komandos našumo peržiūros**.
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

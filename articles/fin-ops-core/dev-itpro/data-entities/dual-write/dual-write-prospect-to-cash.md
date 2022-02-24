@@ -2,29 +2,40 @@
 title: Potencialių klientų pavertimas grynaisiais pinigais dvigubo rašymo funkcijoje
 description: Šioje temoje pateikiama informacija apie potencialų klientą pavertimą grynaisiais pinigais dvigubo rašymo funkcijoje.
 author: RamaKrishnamoorthy
+manager: AnnBe
 ms.date: 01/07/2021
 ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: ''
 audience: Application User, IT Pro
-ms.reviewer: tfehr
+ms.reviewer: rhaertle
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
+ms.search.industry: ''
 ms.author: ramasri
+ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: 7c53bcd1084d89b59d0f6b2674a85d7c3481a9bf
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
-ms.translationtype: MT
+ms.openlocfilehash: 3f88d7249af515670c0a3e73a5ef890f04133d19
+ms.sourcegitcommit: 6af7b37b1c8950ad706e684cc13a79e662985b34
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7781796"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4959606"
 ---
 # <a name="prospect-to-cash-in-dual-write"></a>Potencialių klientų pavertimas grynaisiais pinigais dvigubo rašymo funkcijoje
 
 [!include [banner](../../includes/banner.md)]
 
+
+
 Svarbus daugumos įmonių tikslas – paversti potencialius klientus į klientus, o tada išlaikyti nuolatinius verslo ryšius su tais klientais. Naudojant „Microsoft Dynamics 365“ programas, potencialių klientų pavertimo grynaisiais pinigais procesas vyksta per pasiūlymus arba užsakymų apdorojimo darbo eigas, o finansai yra suderinami ir atpažįstami. Potencialių klientų pavertimo grynaisiais pinigais integravimas su dvigubo rašymo funkcija sukuria darbo eigą, kuri priima pasiūlymą ir užsakymą, kuris yra „Dynamics 365 Sales“ arba „Dynamics 365 Supply Chain Management“ programose, o pasiūlymas ir užsakymas tampa prieinami abiejose programose.
 
 Programos sąsajose galite pasiekti apdorojimo būsenas ir informaciją apie sąskaitą faktūrą realiuoju laiku. Todėl galite lengviau valdyti savo funkcijas, pvz., produktų laikymą, atsargų tvarkymą ir papildymą programoje „Supply Chain Management“, nekurdami pasiūlymų ir užsakymų iš naujo.
 
-![Dvigubo rašymo duomenų srautas potencialių klientų pavertime grynaisiais pinigais.](../dual-write/media/dual-write-prospect-to-cash[1].png)
+![Dvigubo rašymo duomenų srautas potencialių klientų pavertime grynaisiais pinigais](../dual-write/media/dual-write-prospect-to-cash[1].png)
 
 Informacijos apie klientų ir kontaktų integravimą ieškokite [Integruotas kliento šablonas](customer-mapping.md). Daugiau informacijos apie produkto integravimą žiūrėkite [Bendroji produkto patirtis](product-mapping.md).
 
@@ -39,7 +50,7 @@ Kad galėtumėte sinchronizuoti pardavimo pasiūlymus, turite atnaujinti šiuos 
 
 Pardavimuose eikite į **Parametrai \> Administravimas \> Sistemos parametrai \> Pardavimai** ir įsitikinkite, kad naudojami toliau nurodyti parametrai:
 
-- Sistemos parinktis **Naudoti sistemos kainų skaičiavimą** nustatyta į **Taip**.
+- Sistemos parinktis **Naudoti sistemos prizų skaičiavimą** nustatyta į **Taip**.
 - Stulpelis **Nuolaidos skaičiavimo būdas** nustatytas į **Eilutės elementas**.
 
 ### <a name="sites-and-warehouses"></a>Svetainės ir sandėliai
@@ -61,7 +72,6 @@ Pardavimo pasiūlymai gali būti kuriami programose „Sales“ arba „Supply C
 + Stulpeliai **Transportavimo sąlygos**, **Pristatymo sąlygos**, **Siuntimo būdas** ir **Pristatymo būdas** nėra įtraukti į numatytuosius susiejimus. Norėdami susieti šiuos stulpelius, turite nustatyti reikšmių schemą, atitinkančią organizacijų, tarp kurių lentelė sinchronizuojama, duomenis.
 
 Jei taip pat naudojate sprendimą „Field Service”, nepamirškite iš naujo įjungti parametro **Kainos linijos greitasis kūrimas**. Iš naujo įgalinus parametrą galite toliau kurti pasiūlymo eilutes naudojant greitojo kūrimo funkciją.
-
 1. Pereikite į „Dynamics 365 Sales” programą.
 2. Viršutinėje naršymo juostoje pasirinkite parametrų piktogramą.
 3. Pasirinkite **Išplėstiniai parametrai**.
@@ -96,7 +106,7 @@ Jeigu sinchronizuojate „Supply Chain Management“ su „Sales“, gausite tok
 Į lentelę **Užsakymas** buvo įtraukti nauji stulpeliai, rodomi puslapyje. „Sales“ skirtuke **Integravimas** rodoma dauguma šių stulpelių. Daugiau informacijos apie tai, kaip susieti būsenos stulpeliai, žiūrėkite [Pardavimo užsakymo būsenos stulpelių susiejimo nustatymas](sales-status-map.md).
 
 + Mygtukai **Kurti sąskaitą faktūrą** ir **Atšaukti užsakymą** puslapyje **Pardavimų užsakymai** yra paslėpti „Sales“.
-+ Reikšmė **Pardavimų užsakymo būsena** išliks **Aktyvi**, kad padėtų užtikrinti, jog „Supply Chain Management“ keitimai galėtų būti perkelti į „Sales“ pardavimų užsakymą. Norėdami valdyti šią veikimo būdą, numatytąją **Būsenos kodas \[ Būsena\]** reikšmę nustatykite į **Aktyvi**.
++ Reikšmė **Pardavimų užsakymo būsena** išliks **Aktyvi**, kad padėtų užtikrinti, jog „Supply Chain Management“ keitimai galėtų būti perkelti į „Sales“ pardavimų užsakymą. Norėdami valdyti šią veikimo būdą, numatytąją **Būsenos kodas \[Būsena\]** reikšmę nustatykite į **Aktyvi**.
 
 ## <a name="invoices"></a>Sąskaitos faktūros
 
@@ -111,27 +121,42 @@ Pardavimo sąskaitos faktūros kuriamos „Supply Chain Management“ programoje
 
 Potencialių klientų pavertimą grynaisiais pinigais sudaro pagrindinių lentelių schemų, veikiančių kartu interaktyviai naudojant duomenis, rinkinys, kaip parodyta tolesnėje lentelėje.
 
-| „Finance and Operations” programos | „Customer engagement“ programos | Aprašas |
+| „Finance and Operations” programėlės | „Customer engagement“ programos | Aprašymas |
 |-----------------------------|-----------------------------------|-------------|
-[Visi produktai](mapping-reference.md#138) | msdyn_globalproducts | |
-[Klientai V3](mapping-reference.md#101) | sąskaitos | |
-[Klientai V3](mapping-reference.md#116) | kontaktai | |
-[V2 kontaktai](mapping-reference.md#221) | msdyn_contactforparties | |
-[CDS pardavimo užsakymų antraštės](mapping-reference.md#217) | salesorders | |
-[CDS pardavimo užsakymo eilutės](mapping-reference.md#216) | salesorderdetails | |
-[CDS pardavimo pasiūlymo antraštė](mapping-reference.md#215) | pasiūlymai | |
-[CDS pardavimo pasiūlymo eilutės](mapping-reference.md#214) | quotedetails | |
-[Išleisti produktai V2](mapping-reference.md#189) | „msdyn_sharedproductdetails” | |
-[Pardavimo SF antraštės V2](mapping-reference.md#118) | SF | „Finance and Operations” programos pardavimo sąskaitos faktūros antraštės V2 lentelėje yra pardavimo užsakymo ir laisvos formos sąskaitų faktūrų. „Dataverse” taikomas dvigubo rašymo filtras, kuris išfiltruos visus laisvos formos sąskaitos faktūros dokumentus. |
-[Pardavimo sąskaitos faktūros eilutės V2](mapping-reference.md#117) | invoicedetails | |
-[Pardavimo užsakymo kilmės kodai](mapping-reference.md#186) | „msdyn_salesorderorigins” | |
+| Pardavimo SF antraštės V2    | SF                          | „Finance and Operations” programos pardavimo sąskaitos faktūros antraštės V2 lentelėje yra pardavimo užsakymo ir laisvos formos sąskaitų faktūrų. „Dataverse” taikomas dvigubo rašymo filtras, kuris išfiltruos visus laisvos formos sąskaitos faktūros dokumentus. |
+| Pardavimo sąskaitos faktūros eilutės V2      | invoicedetails                    |             |
+| CDS pardavimo užsakymų antraštės     | salesorders                       |             |
+| CDS pardavimo užsakymo eilutės       | salesorderdetails                 |             |
+| Pardavimo užsakymo kilmės kodai    | msdyn\_salesorderorigins          |             |
+| CDS pardavimo pasiūlymo antraštė  | pasiūlymai                            |             |
+| CDS pardavimo pasiūlymo eilutės   | quotedetails                      |             |
 
-Daugiau informacijos apie kainų sąrašus rasite [Bendroji produkto patirtis](product-mapping.md).
+Čia yra susijusios pagrindinių lentelių schemos, skirtos potencialių klientų pavertimui grynaisiais pinigais:
+
++ [Klientai V3 su sąskaitomis](customer-mapping.md#customers-v3-to-accounts)
++ [CDS kontaktai V2 su kontaktais](customer-mapping.md#cds-contacts-v2-to-contacts)
++ [Klientai V3 su kontaktais](customer-mapping.md#customers-v3-to-contacts)
++ [Išleisti produktai V2 su msdyn_sharedproductdetails](product-mapping.md#released-products-v2-to-msdyn_sharedproductdetails)
++ [Visi produktai su msdyn_globalproducts](product-mapping.md#all-products-to-msdyn_globalproducts)
++ [Kainoraštis](product-mapping.md)
 
 ## <a name="limitations"></a>Apribojimai
-
 - Grąžinimo užsakymai nėra palaikomi.
 - Kredito pažymos nėra palaikomos.
-- Bendriesiems duomenims, pavyzdžiui, klientui ir tiekėjui, turi būti nustatytos finansinės dimensijos. Kai klientas įtraukiamas į pasiūlymą arba pardavimo užsakymą, su kliento įrašu susijusios finansinės dimensijos į užsakymą įtraukiamos automatiškai. Šiuo metu dvigubas rašymas neapima finansinių dimensijų duomenų, skirtų bendriesiems duomenims.
+- Bendriesiems duomenims, pavyzdžiui, klientui ir tiekėjui, turi būti nustatytos finansinės dimensijos. Kai klientas įtraukiamas į pasiūlymą arba pardavimo užsakymą, su kliento įrašu susijusios finansinės dimensijos į užsakymą įtraukiamos automatiškai. Šiuo metu dvigubas rašymas neapima finansinių dimensijų duomenų, skirtų bendriesiems duomenims. 
 
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+[!include [symbols](../../includes/dual-write-symbols.md)]
+
+[!include [sales invoice](includes/SalesInvoiceHeaderV2Entity-invoice.md)]
+
+[!include [sales invoice line](includes/SalesInvoiceLineV2Entity-invoicedetail.md)]
+
+[!include [sales order header](includes/SalesOrderHeaderCDSEntity-salesorder.md)]
+
+[!include [sales order line](includes/SalesOrderLineCDSEntity-salesorderdetails.md)]
+
+[!include [sales order origin](includes/SalesOrderOriginEntity-msdyn-salesorderorigin.md)]
+
+[!include [sales quotation header](includes/SalesQuotationHeaderCDSEntity-quote.md)]
+
+[!include [sales quotation line](includes/SalesQuotationLineCDSEntity-QuoteDetails.md)]

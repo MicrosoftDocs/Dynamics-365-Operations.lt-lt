@@ -1,28 +1,28 @@
 ---
 title: Pagrindinis biudžeto sudarymo puslapis
 description: Šioje temoje pateikiama „Microsoft Dynamics 365 Finance“ biudžeto sudarymo funkcinių komponentų, įrankių ir ataskaitų kūrimo galimybių apžvalga.
-author: panolte
-ms.date: 04/29/2021
-ms.topic: overview
+author: ShylaThompson
+manager: AnnBe
+ms.date: 08/09/2017
+ms.topic: index-page
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BudgetPlanningWorkspace
 audience: Application User
 ms.reviewer: roschlom
-ms.custom:
-- "106043"
-- intro-internal
+ms.custom: 106043
 ms.assetid: 702f692e-ad1c-4798-8d3e-c3cf8591d3fa
 ms.search.region: Global
-ms.author: panolte
+ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6ad0d055702a3801bf9fe9ac3159eba7c297b6f0
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
-ms.translationtype: MT
+ms.openlocfilehash: af006a94d29781473c164d108fb48ca7d00d169d
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983957"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4962915"
 ---
 # <a name="budgeting-home-page"></a>Pagrindinis biudžeto sudarymo puslapis
 
@@ -30,11 +30,12 @@ ms.locfileid: "7983957"
 
 Šioje temoje pateikiama biudžeto sudarymo funkcinių komponentų, įrankių ir ataskaitų kūrimo galimybių apžvalga. 
 
-## <a name="components-of-budgeting-functionality"></a>Biudžeto sudarymo funkciniai komponentai
+<a name="components-of-budgeting-functionality"></a>Biudžeto sudarymo funkciniai komponentai
+-------------------------------------
 
 Įmonės išteklių planavimo ciklą paprastai sudaro planavimo, biudžeto sudarymo ir prognozavimo veikla.
 
-[![Biudžeto sudarymo funkciniai komponentai.](./media/budgeting-functionality-components.jpg)](./media/budgeting-functionality-components.jpg)
+[![Biudžeto sudarymo funkciniai komponentai](./media/budgeting-functionality-components.jpg)](./media/budgeting-functionality-components.jpg)
 
 Biudžeto plano dokumentas palaiko ir ilgalaikio strateginio planavimo, ir metinio biudžeto planavimo procesus. Biudžeto plano dokumentai yra glaudžiai integruoti į „Microsoft Excel‟. Vartotojai gali konfigūruoti neribotą piniginių ir kiekybinių scenarijų skaičių ir gali apibrėžti biudžetų sudarymo organizacijos hierarchiją, kad būtų palaikomi biudžetų sudarymo metodai „iš viršaus į apačią“ ir „iš apačios į viršų“. Kai biudžetas sukurtas ir patvirtintas programoje, biudžeto planas konvertuojamas į biudžeto registro įrašą. Biudžeto registro įrašai suteikia biudžeto tvarkymo įrankius ir įrankius, kuriais sumas galima sekti naudojant biudžeto kodus. Biudžeto registro įrašai leidžia peržiūrėti pradinius biudžetus, atlikti perkėlimus ir iš ankstesnių metų perkelti biudžeto sumas. Pagal nustatytą biudžetą įmonė gali įgalinti biudžeto kontrolę. Kontrolės lygis priklauso nuo organizacijos kultūros ir brandos lygio. Organizacijos, kurių brandos lygis mažas, biudžetą gali palikti tokį, koks jis yra, ir, jei biudžetas neatitinka lūkesčių, būti labiau reaguojančios, o ne iniciatyvios. Kitos organizacijos gali įgalinti biudžeto kontrolės strategijas, kurios vartotojams neleistų pirkti, jei nėra biudžeto lėšų.
 
@@ -48,7 +49,7 @@ Galiausiai labai brandžios organizacijos gali nustatyti tokią organizacijos ku
 -   [Biudžeto planavimo šablonai, skirti „Excel‟](budget-planning-excel-templates.md)
 
 ## <a name="budgeting-tools"></a>Biudžeto sudarymo įrankiai
-[![Biudžeto sudarymo įrankiai.](./media/budgeting-tools.jpg)](./media/budgeting-tools.jpg) 
+[![Biudžeto sudarymo įrankiai](./media/budgeting-tools.jpg)](./media/budgeting-tools.jpg) 
 
 Yra papildomų planavimo ir biudžeto sudarymo galimybių, kurios integruotos su didžiosios knygos biudžetais.
 
@@ -69,6 +70,3 @@ Pavyzdžiui, galite apibrėžti, kas sudaro biudžetus, kas įtraukiama į biud�
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,29 +2,34 @@
 title: Žiniatinklio veiklos įvykių rinkimo atsisakymas
 description: Šioje temoje aiškinama, kaip galite leisti savo svetainės lankytojams atsisakyti žiniatinklio veiklos įvykių rinkimo naudojant „Microsoft Dynamics 365 Commerce“.
 author: aamiral
+manager: AnnBe
 ms.date: 05/15/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: sericks
+ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: d71a184b541f243ccc23914ac2e7c663e5ba61be0a27cf8d41e368fe6a384b9f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4b0e48307527a8fea729d8dfdcdbc6337be0faf1
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6729835"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4414366"
 ---
 # <a name="opt-out-of-web-activity-event-collection"></a>Žiniatinklio veiklos įvykių rinkimo atsisakymas
 [!include [banner](includes/banner.md)]
 
 Šioje temoje aiškinama informacija, kaip galite leisti klientams atsisakyti žiniatinklio veiklos įvykių rinkimo naudojant „Microsoft Dynamics 365 Commerce“.
+
+## <a name="overview"></a>Peržiūra
 
 „Dynamics 365 Commerce“ leidžia svetainių administratoriams analizuoti savo el. prekybos svetainių vartotojų veiklą žiniatinklyje. Tokiu būdu jie gali geriau suprasti, kaip naudojamos jų svetainės, ir gali jas optimizuoti, kad būtų užtikrinta geresnė vartotojų patirtis ir pasiekti verslo tikslai.
 
@@ -40,7 +45,7 @@ Administratoriai atsisakymo funkcijas gali įdiegti trimis būdais.
 1. HQ kliento puslapyje **Visi klientai** raskite ir pasirinkite klientą.
 1. Kliento informacijos puslapyje, „FastTab“ konteinerio **Mažmeninė prekyba** dalyje **Privatumas** nustatykite parinkties **Nestebėti žiniatinklio veiklos** reikšmę kaip **Taip**.
 
-    ![Privatumo nustatymai.](media/Disablepersonalizationpart2.png)
+    ![Privatumo nustatymai](media/Disablepersonalizationpart2.png)
 
 1. Pasirinkite **Įrašyti** ir uždarykite puslapį.
 
@@ -51,6 +56,3 @@ Administratoriai gali leisti autentifikuotiems vartotojams patiems atsisakyti ž
 ### <a name="custom-extensions"></a>Pasirinktiniai plėtiniai
 
 Administratoriai gali sukurti savo plėtinius, kad galėtų valdyti vartotojų atsisakymo galimybę. Daugiau informacijos rasite [Skambučių mažmeninės prekybos serverio API](e-commerce-extensibility/call-retail-server-apis.md) ir [Internetinio kanalo išplėtimas](e-commerce-extensibility/overview.md).
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,9 +2,11 @@
 title: Nurašyto ilgalaikio turto likvidavimas
 description: Temoje aprašomas procesas, kurio metu šalinamos nurašyto ilgalaikio turto, kuris buvo likviduotas, operacijos.
 author: moaamer
+manager: Ann Beebe
 ms.date: 08/14/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxTable
 audience: Application User
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2019-08-14
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: 90eb791bae2bbe70cf9fe7127a98962305449e1d0b370cfa001afbd3654046ec
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4dee4468079a9ad500f513900cec090acf6026ce
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6752923"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969133"
 ---
 # <a name="dispose-of-a-fixed-asset-as-scrap"></a>Nurašyto ilgalaikio turto likvidavimas
 
@@ -43,7 +45,7 @@ Temoje aprašomas procesas, kurio metu šalinamos nurašyto ilgalaikio turto, ku
 Prieš nurašyto ilgalaikio turto likvidavimą, turite sukurti DK sąskaitas, susietas su turto įsigijimo verte, šių metų nusidėvėjimą, praėjusių metų nusidėvėjimą ir turto NBV. Ilgalaikio turto operacijų tipai pateikiami puslapyje **Ilgalaikio turto registravimo šablonas**. Eikite į **Ilgalaikis turtas \> Sąranka \> Ilgalaikio turto registravimo šablonai**, o tada, „FastTab” konteineryje **Likvidavimas** lauke virš tinklelio pasirinkite **Nurašyta**. Toliau pateiktame paveikslėlyje parodytas ilgalaikio turto operacijų tipų sąrašas puslapyje **Ilgalaikio turto registravimo šablonai**.
 
 
-[![Nurašyto turto likvidavimas, 1 iliustracija.](./media/Fixed_asset_Disposal_scrap_scenario_1.png)](./media/Fixed_asset_Disposal_scrap_scenario_1.png)
+[![Nurašyto turto likvidavimas, 1 pav.](./media/Fixed_asset_Disposal_scrap_scenario_1.png)](./media/Fixed_asset_Disposal_scrap_scenario_1.png)
 
 Toliau pateiktame pavyzdyje ilgalaikis turtas buvo įsigytas 2018 m. sausio 1 d. ir jis bus nurašytas 2019 m. kovo 31 d.
 
@@ -58,27 +60,24 @@ Balansinė vertė = įsigijimo kaina – nusidėvėjimas
 
 Šiame pavyzdyje ilgalaikis turtas buvo įsigytas ir dėvėtas 15 mėnesių, nuo 2018 m. sausio mėn. iki 2019 m. kovo mėn. Todėl turto NBV yra 9 000,00 USD (24 000,00 USD – 15 000,00 USD).
 
-[![Ilgalaikio turto nusidėvėjimo pavyzdžiai.](./media/Fixed_asset_Disposal_scrap_scenario_2.png)](./media/Fixed_asset_Disposal_scrap_scenario_2.png)
+[![Ilgalaikio turto nusidėvėjimo pavyzdžiai](./media/Fixed_asset_Disposal_scrap_scenario_2.png)](./media/Fixed_asset_Disposal_scrap_scenario_2.png)
 
 
 Norėdami sukurti likvidavimo žurnalą, eikite į **Ilgalaikis turtas \> Žurnalo įrašai \> Ilgalaikio turto žurnalas**, tada veiksmų srityje pasirinkite **Eilutės**. Pasirinkite **Likvidavimas – nurašymas** ir pasirinkite ilgalaikio turto ID. Norėdami visiškai likviduoti turtą, neįveskite vertės į lauką **Debetas** arba į lauką **Kreditas** .
 
-[![Ilgalaikio turto žurnalas.](./media/Fixed_asset_Disposal_scrap_scenario_3.png)](./media/Fixed_asset_Disposal_scrap_scenario_3.png)
+[![Ilgalaikio turto žurnalas](./media/Fixed_asset_Disposal_scrap_scenario_3.png)](./media/Fixed_asset_Disposal_scrap_scenario_3.png)
 
 Nurašyto ilgalaikio turto likvidavimo operacija pakeičia ilgalaikio turto knygos laukų vertes toliau nurodytais būdais.
 
 - Skyriuje **Balansas**, laukas **Būsena** atnaujinamas į **Nurašyta**.
 - Skyriuje **Išdavimas**, laukas **Likvidavimo data** nustatomas į datą, kada turtas buvo nurašytas.
 
-[![Ilgalaikio turto žurnalo informacija.](./media/Fixed_asset_Disposal_scrap_scenario_4.png)](./media/Fixed_asset_Disposal_scrap_scenario_4.png)
+[![Ilgalaikio turto žurnalo informacija](./media/Fixed_asset_Disposal_scrap_scenario_4.png)](./media/Fixed_asset_Disposal_scrap_scenario_4.png)
 
 Toliau pateiktame paveikslėlyje parodytas ilgalaikio turto balansas.
 
-[![Ilgalaikio turto balansas.](./media/Fixed_asset_Disposal_scrap_scenario_5.png)](./media/Fixed_asset_Disposal_scrap_scenario_5.png)
+[![Ilgalaikio turto balansas](./media/Fixed_asset_Disposal_scrap_scenario_5.png)](./media/Fixed_asset_Disposal_scrap_scenario_5.png)
 
 Toliau pateiktame paveikslėlyje parodytas užregistruotas kvitas.
 
-[![Balansinė knygos vertė.](./media/Fixed_asset_Disposal_scrap_scenario_6.png)](./media/Fixed_asset_Disposal_scrap_scenario_6.png)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+[![Balansinė vertė](./media/Fixed_asset_Disposal_scrap_scenario_6.png)](./media/Fixed_asset_Disposal_scrap_scenario_6.png)

@@ -1,10 +1,12 @@
 ---
 title: Turto tipai
 description: Šioje temoje paaiškinta, kaip kurti turto tipus turto valdyme. Jame taip pat aprašomi elementai, susiję su turto tipais.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetObjectJobType, EntAssetObjectType, EntAssetObjectTypeDefaultSparePart, EntAssetObjectTypeDefaultSparePartApprove, EntAssetObjectTypeDefaultCreateCombinations, EntAssetObjectTypeDefault, EntAssetObjectTypeDefaultCopy
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: fc1a8d98e9a8853e2e72bfcc7415ddb9a0a3b7758504621d6fccff00a08a36be
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 295840c12f89bc6c6a4d53023985259ac761d6b2
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6730376"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5017422"
 ---
 # <a name="asset-types"></a>Turto tipai
 
@@ -45,9 +47,9 @@ Pirmiausia nustatykite būtinus turto tipus. Tada sukurkite turto modelius, kuri
 7. Pasirinkite **Įrašyti**.
 8. „FastTab“ **Priežiūros užduočių tipai** pasirinkite priežiūros užduočių tipus, kurie turėtų būti susieti su turto tipu.
 
-    - Norėdami pasirinkti priežiūros užduoties tipą, pasirinkite jį lauke **Likę priežiūros užduočių tipai**, o tada pasirinkite rodyklės dešinėn mygtuką ![Rodyklės dešinėn mygtukas.](media/29-setup-for-objects.png) jos perkėlimui į **Pasirinkti priežiūros užduočių tipai** skyrių.
-    - Norėdami pasirinkti visus galimus priežiūros užduočių tipus, pasirinkite ![Rodyklė Persiųsti viską.](media/30-setup-for-objects.png) mygtuką. Visi priežiūros užduočių tipai perkeliami iš lauko **Likę priežiūros užduočių tipai** į lauką **Pasirinkti priežiūros užduočių tipai**.
-    - Norėdami atšaukti priežiūros užduoties tipo pasirinkimą, pasirinkite jį lauke **Pasirinkti priežiūros užduočių tipai**, o tada pasirinkite rodyklės kairėn mygtuką ![Rodyklės kairėn mygtukas.](media/31-setup-for-objects.png) jos perkėlimui į **Likę priežiūros užduočių tipai** lauką.
+    - Norėdami pasirinkti priežiūros užduoties tipą, pasirinkite jį lauke **Likę priežiūros užduočių tipai**, tada pasirinkite rodyklės dešinėn mygtuką ![Rodyklės dešinėn mygtukas](media/29-setup-for-objects.png), kad perkeltumėte jį į skyrių **Pasirinkti priežiūros užduočių tipai**.
+    - Norėdami pasirinkti visus galimus priežiūros užduočių tipus, pasirinkite mygtuką ![Rodyklė Persiųsti viską](media/30-setup-for-objects.png). Visi priežiūros užduočių tipai perkeliami iš lauko **Likę priežiūros užduočių tipai** į lauką **Pasirinkti priežiūros užduočių tipai**.
+    - Norėdami atšaukti priežiūros užduoties tipo pasirinkimą, pasirinkite jį lauke **Pasirinkti priežiūros užduočių tipai**, tada pasirinkite rodyklės kairėn mygtuką ![Rodyklės kairėn mygtukas](media/31-setup-for-objects.png), kad perkeltumėte jį į lauką **Likę priežiūros užduočių tipai**.
 
 9. Taip pat galima pasirinkti skaitiklius, kurie turėtų būti susieti su turto tipu. „FastTab“ **Skaitikliai** atlikite pasirinkimą naudodami metodus, aprašytus priežiūros užduočių tipams atliekant 8 veiksmą. Daugiau informacijos, kaip nustatyti skaitiklius, žr. [Skaitikliai](counters.md).
 10. Taip pat galima pasirinkti atributų tipus, kurie turėtų būti susieti su turto tipu. „FastTab“ **Atributų tipai** atlikite pasirinkimą naudodami metodus, aprašytus priežiūros užduočių tipams atliekant 8 veiksmą. Tada, norėdami kurti pageidaujamą atributų tipų seką, pasirinkite atributo tipą lauke **Pasirinkti atributų tipai** ir perkelkite juos naudodami rodyklių aukštyn ir žemyn mygtukus. Atributų tipų seka bus rodoma turtui, kuris naudoja šį turto tipą. Daugiau informacijos apie turto atributus žr. [Priežiūros atributų tipai](../setup-for-functional-locations/specification-types.md).
@@ -94,6 +96,3 @@ Puslapyje **Atsarginės dalys** taip pat galite kurti naujas atsargines dalis es
 
 Norėdami peržiūrėti, ar atsarginė dalis pasirinktoje eilutėje naudojama kur nors kitur turto valdyme (pvz., turto ir darbo užsakymų atžvilgiu), pasirinkite **Elementas, kuris naudojamas**, kad atidarytumėte puslapį **Elementas, kuris naudojamas**. 
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

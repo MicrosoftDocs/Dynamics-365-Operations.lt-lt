@@ -72,5 +72,3 @@ Priskikrite „Talent“ naudotojo vaidmenį „Talent Relationship Team“.
 
    1. Prisijunkite prie karjeros portalo per naują naršyklės langą.
    2. Taikykite darbą iš karjeros portalo. 
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -115,6 +115,3 @@ Toliau nurodyti objektai bus įgalinti pasirinktiniams laukams „Common Data Se
 - **Atostogų tipas**
 - **Darbininko banko kodas**
 - **Darbo kalendorius**
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

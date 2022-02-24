@@ -2,12 +2,15 @@
 title: „Social Share” modulis
 description: Šioje temoje aprašomi „Social Share” moduliai ir tai, kaip jų įtraukti į „Microsoft Dynamics 365 Commerce“ svetainių puslapius.
 author: anupamar-ms
+manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -15,18 +18,20 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 2e997cad97d45949c8f542764126a08fb6daa73551079eb2d400d7edfb98ca2b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 82a8795360f453cdee19fa6e9e376a42e8276849
+ms.sourcegitcommit: 510ca8b14d8b5334e50aca1b15d636c65fcc9888
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6730952"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4414477"
 ---
-# <a name="social-share-module"></a>Bendrinimo socialiniuose tinkluose modulis
+# <a name="social-share-module"></a>„Social Share” modulis
 
 [!include [banner](includes/banner.md)]
 
 Šioje temoje aprašomi „Social Share” moduliai ir tai, kaip jų įtraukti į „Microsoft Dynamics 365 Commerce“ svetainių puslapius.
+
+## <a name="overview"></a>Peržiūra
 
 „Social Share” moduliai leidžia vartotojams bendrinti „e-Commerce” svetainių puslapių URL socialiniuose tinkluose, pvz., „Facebook”, „Twitter”, „Pinterest” ir „LinkedIn”. Svetainių puslapių URL taip pat galima bendrinti el. paštu. „Social Share” moduliai dažniausiai naudojami produkto informacijos puslapiuose (PDP), siekiant padėti vartotojams bendrinti produkto informaciją.
 
@@ -36,11 +41,11 @@ Kiekviena socialinės medijos platforma gali sekti slapukus, todėl šis modulis
 
 Toliau pateiktoje iliustracijoje pabrėžiamas „Social Share” modulio, naudojamo produkto informacijos puslapyje, pavyzdys.
 
-![„Social Share” modulio pavyzdys.](./media/ecommerce-socialshare.png)
+![„Social Share” modulio pavyzdys](./media/ecommerce-socialshare.png)
 
 ## <a name="social-share-module-properties"></a>„Social Share” modulio ypatybės
 
-| Ypatybės pavadinimas             | Reikšmė                 | Aprašas |
+| Ypatybės pavadinimas             | Reikšmė                 | aprašymas |
 |---------------------------|-----------------------|-------------|
 | Antraštė                  | Tekstas | Ši ypatybė nurodo modulio antraštę. |
 | Padėtis | **Vertikali** ar **Horizontali**  | Ši ypatybė apibrėžia socialinės medijos elementų maketo padėtį. |
@@ -77,6 +82,3 @@ Norėdami įtraukti „Social Share” modulį į pirkimo langelio modulį, atli
 [Pirkimo langelio modulis](add-buy-box.md)
 
 [Slapukų atitiktis](cookie-compliance.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -180,6 +180,3 @@ Peržiūros funkcijos pasiekiamos tik aplinkose **Smėlio dėžė**.
 ### <a name="print-performance-reviews"></a>Veiklos efektyvumo vertinimų spausdinimas
 
 Žr. [Veiklos efektyvumo vertinimų spausdinimas](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-talent/print-performance-reviews) dirbant su „Dynamics 365“: 2019 leidimo 2 bangos planu.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

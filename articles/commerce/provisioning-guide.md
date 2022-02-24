@@ -1,10 +1,12 @@
 ---
-title: „Dynamics 365 Commerce” vertinimo aplinkos parengimas
+title: „Dynamics 365 Commerce“ vertinimo aplinkos parengimas
 description: Ši tema paaiškina, kaip galite parengti „Microsoft Dynamics 365 Commerce“ vertinimo aplinką.
 author: psimolin
+manager: annbe
 ms.date: 12/17/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -15,14 +17,14 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: c8241c31e82d124398189666c3a1709d25884b8acd9c8f3b1068529cbd216684
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8cda79a6be1aca7ad3826b9409e110524e6560e3
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6777505"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969906"
 ---
-# <a name="provision-a-dynamics-365-commerce-evaluation-environment"></a>„Dynamics 365 Commerce” vertinimo aplinkos parengimas
+# <a name="provision-a-dynamics-365-commerce-evaluation-environment"></a>„Dynamics 365 Commerce“ vertinimo aplinkos parengimas
 
 [!include [banner](includes/banner.md)]
 
@@ -31,7 +33,9 @@ ms.locfileid: "6777505"
 Prieš pradedant konfigūraciją, rekomenduojame perskaityti šią temą, kad suprastumėte proceso eigą.
 
 > [!NOTE]
-> Komercijos vertinimo aplinkos dažniausiai nėra prieinamos ir yra suteikiamos partneriams ir klientams atskiru jų prašymu. Dėl išsamesnės informacijos, susisiekite su „Microsoft“ partnerio pagalbos centru.
+> Komercijos vertinimo aplinkos dažniausiai nėra prieinamos ir yra suteikiamos partneriams ir klientams atskyru jų prašymu. Dėl išsamesnės informacijos, susisiekite su „Microsoft“ partnerio pagalbos centru.
+
+## <a name="overview"></a>Peržiūra
 
 Tam, kad sėkmingai parengtumėte Komercijos vertinimo aplinką privalote sukurti projektą, kuris turi konkretų gaminio pavadinimą ir tipą. Aplinka ir „Commerce Scale Unit“ (CSU) taip pat turi keletą specifinių parametrų, kuriuos privalote naudoti tikėdamiesi vėliau nustatyti „e-Commerce“. Šioje temoje pateiktos instrukcijos aprašo visus žingsnius būtinus užbaigti jūsų privalomą naudoti parengimą ir parametrus.
 
@@ -45,7 +49,7 @@ Toliau pateikti būtinieji komponentai privalo būti pritaikyti prieš jūsų Ko
 
 - Buvote priimtas į vertinimo programą ir jums suteiktos galimybės vertinimo aplinkoje.
 - Turite prieigą prie „Microsoft Dynamics Lifecycle Services“ (LCS) portalo.
-- Esate „Microsoft Dynamics 365” partneris ar klientas ir galite sukurti „Dynamics 365 Commerce“ projektą.
+- Esate „Microsoft Dynamics“ 365 partneris ar klientas ir galite sukurti „Dynamics 365 Commerce“ projektą.
 - Jūs turite administratoriaus prieigą prie savo „Microsoft Azure“ prenumeratos ir galite susisiekti su jos administratoriumi, kuris pagelbės jums esant poreikiui.
 - Turite savo „Azure Active Directory“ („Azure AD“) nuomotojo ID.
 - Sukūrėte „Azure AD“ saugos grupę, kuri gali būti naudojama kaip „e-Commerce“ sistemos administratoriaus grupė, ir turite jos ID.
@@ -76,7 +80,7 @@ Norėdami sukurti naują projektą LCS, atlikite toliau pateikiamus veiksmus.
 
 ### <a name="add-the-azure-connector"></a>„Azure“ jungties įtraukimas
 
-„Azure Connector“ įtraukimui į savo LCS projektą, atlikite šiuos žingsnius [Baigtame „Azure Resource Manager“ (ARM) įtraukimo procese](../fin-ops-core/dev-itpro/deployment/arm-onboarding.md).
+„Azure Connector“ įtraukimui į savo LCS projektą, atlikite šiuos žingsnius [Baigtame „Azure Resource Manager“ (ARM) įtraukimo procese](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/arm-onboarding).
 
 ### <a name="deploy-the-environment"></a>Aplinkos diegimas
 
@@ -90,16 +94,16 @@ Atlikite toliau pateikiamus veiksmus, norėdami įdiegti aplinką.
 1. Lauke **Programos versija** pasirinkite naujausią versiją. Jei norite pasirinkti ne naujausią programos versiją, nesirinkite versijos, ankstesnės nei versija **10.0.14**.
 1. Lauke **Platformos versija** naudokite platformos versiją, kuri automatiškai parenkama jūsų pasirinktai programos versijai. 
 
-    ![Programos ir platformos versijų pasirinkimas.](./media/project1.png)
+    ![Programos ir platformos versijų pasirinkimas](./media/project1.png)
 
 1. Pasirinkite **Toliau**.
 1. Pasirinkite aplinkos topologiją **Demonstracinė versija**.
 
-    ![1 aplinkos topologijos pasirinkimas.](./media/project2.png)
+    ![1 aplinkos topologijos pasirinkimas](./media/project2.png)
 
 1. Puslapyje **Diegti aplinką** įveskite aplinkos pavadinimą. Nekeiskite išplėstinių parametrų.
 
-    ![Puslapis Diegti aplinką.](./media/project4.png)
+    ![Puslapis Diegti aplinką](./media/project4.png)
 
 1. Pagal poreikį pakoreguokite VM dydį. (Rekomenduojame VM sandėliavimo vienetą \[SKU\] **„D13 v2“**.)
 1. Peržiūrėkite kainodaros ir licencijavimo sąlygas, tada pažymėkite žymės langelį, kad patvirtintumėte, jog su jomis sutinkate.
@@ -128,11 +132,11 @@ Jei negalite surasti **Tvarkyti** nuorodos aplinkos informacijos peržiūroje, s
 
 Talpinimo proceso metu, galite gauti šią klaidos žinutę:
 
-> Demonstracinės ar testavimo aplinkos vertinimas turi būti registruojamas skalės vieneto jungties programoje \<application ID\> būstinėje.
+> Demonstracinės ar testinės aplinkos vertinimas turi būti registruojamas skalės vieneto jungties programoje \<application ID\> būstinėje.
 
 Jei CSU pradžia nepavyksta ir gaunate šią klaidos žinutę, užsirašykite programos ID, kuris bendrai yra unikalus identifikatorius (GUID) ir tuomet atlikite veiksmus kitame skyriuje siekiant registruoti CSU talpinimo programą „Commerce“ būstinėje.
 
-### <a name="register-the-csu-deployment-application-in-commerce-headquarters-if-required"></a>Registruokite CSU talpinimo programą „Commerce“ būstinėje (jei būtina)
+### <a name="register-the-csu-deployment-application-in-commerce-headquarters-if-required"></a>Registruoktie CSU talpinimo programą „Commerce“ būstinėje (jei būtina)
 
 Norėdami registruoti CSU talpinimo programą „Commerce“ būstinėje, imkitės šių veiksmų.
 
@@ -154,8 +158,8 @@ Norėdami inicijuoti „e-Commerce“, atlikite toliau nurodytus veiksmus.
 
 1. Pasirinkite **Pirmyn**, kad tęstumėte.
 1. Lauke **Palaikomi pagrindinių kompiuterių vardai** įveskite bet kurį tinkamą domeną, pvz., `www.fabrikam.com`.
-1. **AAD saugos grupė sistemos administratoriui** laukelyje, pirmiausia įveskite kelias jūsų norimos naudoti saugos grupės pavadinimo raides ir tuomet pasirinkite didinamojo stiklo simbolį ieškos rezultatų peržiūrai. Pasirinkite tinkamą saugos grupę sąraše.
-1.  **AAD saugos grupė reitingavimo ir peržiūros moderatoriui** laukelyje, pirmiausia įveskite kelias jūsų norimos naudoti saugos grupės pavadinimo raides ir tuomet pasirinkite didinamojo stiklo simbolį ieškos rezultatų peržiūrai. Pasirinkite tinkamą saugos grupę sąraše.
+1. **AAD saugos grupė sistemos administratoriui** laukelyje, pirmiausia įveskite kelias jūsų norimos naudoti saugos grupės pavadinimo raides ir tuomet pasirinkite didinamojo stiklo simbolį ieškos rezultatų peržiūrai.  Pasirinkite tinkamą saugos grupę sąraše.
+1.  **AAD saugos grupė reitingavimo ir peržiūros moderatoriui** laukelyje, pirmiausia įveskite kelias jūsų norimos naudoti saugos grupės pavadinimo raides ir tuomet pasirinkite didinamojo stiklo simbolį ieškos rezultatų peržiūrai.  Pasirinkite tinkamą saugos grupę sąraše.
 1. Palikite **Reitingavimo ir peržiūros paslaugų įjungimas** parinktį nustatytą į **Taip**.
 1. Pasirinkite **Inicijuoti**. Vėl rodomas rodinys **„Commerce“ valdymas**, kuriame pasirinktas skirtukas **„e-Commerce“**. „E-Commerce“ inicijavimas pradėtas.
 1. Prieš tęsdami, palaukite, kol „e-Commerce“ inicijavimo būsena bus **Inicijuota sėkmingai**.
@@ -180,13 +184,10 @@ Jūsų Komercijos vertinimo aplinkos parengimo ir konfigūravimo proceso tąsai,
 
 [„Dynamics 365 Commerce“ vertinimo aplinkos DUK](cpe-faq.md)
 
-[„Microsoft Lifecycle Services“ (LCS)](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
+[„Microsoft Lifecycle Services“ (LCS)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
 
-[„Commerce Scale Unit“ (debesyje)](/business-applications-release-notes/october18/dynamics365-retail/retail-cloud-scale-unit)
+[„Commerce Scale Unit“ (debesyje)](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-retail/retail-cloud-scale-unit)
 
 [„Microsoft Azure“ portalas](https://azure.microsoft.com/features/azure-portal)
 
 [„Dynamics 365 Commerce“ svetainė](https://aka.ms/Dynamics365CommerceWebsite)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,218 +1,191 @@
 ---
-title: Skalės vienetai paskirstytoje topologijoje
-description: Šioje temoje pateikiama informacija apie debesies ir briaunos skalės vienetų gamybos ir sandėlio valdymo darbo krūvius.
+title: Debesies ir krašto skalės vienetai gamybai ir sandėlio valdymo darbo apkrovoms
+description: Šioje temoje pateikiama informacija apie debesies ir krašto skalės vienetų gamybą ir sandėlio valdymo darbo apkrovas.
 author: cabeln
-ms.date: 04/22/2021
+manager: ''
+ms.date: 10/06/2020
 ms.topic: article
-ms.search.form: ScaleUnitWorkloadsWorkspace
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.region: Global
+ms.search.scope: Core, Operations
+ms.custom: ''
+ms.assetid: ''
+ms.search.region: global
+ms.search.industry: SCM
 ms.author: cabeln
-ms.search.validFrom: 2021-04-13
-ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 593331a3f1073edb6a50c9bfc66e0723d222832a
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.search.validFrom: 2020-09-23
+ms.dyn365.ops.version: 10.0.15
+ms.openlocfilehash: 3a23ee452535423684c6d210a448ee768379fa08
+ms.sourcegitcommit: 8eefb4e14ae0ea27769ab2cecca747755560efa3
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065769"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4516840"
 ---
-# <a name="scale-units-in-a-distributed-hybrid-topology"></a>Skalės vienetai paskirstytoje topologijoje
+# <a name="cloud-and-edge-scale-units-for-manufacturing-and-warehouse-management-workloads"></a>Debesies ir krašto skalės vienetai gamybai ir sandėlio valdymo darbo apkrovoms
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
-> [!IMPORTANT]
-> „Microsoft Dynamics 365 Supply Chain Management” skalės vieneto pajėgumas dabar jums prieinamas pagal sąlygas, prižiūrinčias paslaugos naudojimą. Daugiau informacijos rasite [„Microsoft Dynamics“ teisinė informacija](https://go.microsoft.com/fwlink/?LinkID=290927).
->
-> Kai įgalinsite debesies ir briaunos skalės vienetus, būsite paprašyti patvirtinti, kad suprantate, jog kai kurie duomenys yra susieti su konfigūravimu ir debesies ir briaunos skalės vienetų, kurie gali būti laikomi Jungtinėse Valstijose esančiame duomenų centre, konfigūravimu ir apdorojimu. Norėdami sužinoti daugiau apie debesies ir briaunos skalės vienetų duomenų apdorojimą, skaitykite skyriuje [Duomenų apdorojimą skalės vienetų valdymo metu](#data-processing-management), pateiktame toliau šioje temoje.
-
-## <a name="core-value-proposition-for-a-distributed-hybrid-topology"></a>Paskirstytos topologijos pagrindinės vertės pasiūlymas
-
-Įmonės, dirbančios su gamyba ir platinimu, privalo vykdyti pagrindinius verslo procesus 7 dienas per savaitę, 24 valandas per parą be pertrūkių ir laipsniškai. Paskirstyta hibridinė topologija leidžia įmonėms vykdyti pagrindinius kritines misijos gamybos ir sandėlio procesus be pertrūkio, net jei jos susiduria su kartais pasireiškiančiomis tinklo ryšio ar vėlavimo problemomis.
-
-Paskirstytoje pagal topologiją pristatyta skalės vienetų koncepcija, kuri įgalina darbo laiko ir *sandėlio vykdymo* darbo krūvį paskirstyti skirtingose aplinkose. Ši funkcija gali padėti pagerinti efektyvumą, apsaugoti nuo paslaugų pertrūkių ir maksimalizuoti veikimo laiką. Skalės vienetai pateikiami šiais jūsų „Supply Chain Management” prenumeratos priedais:
+Debesies ir krašto skalės vienetai leidžia platinti parduotuvė aukšto ir sandėlio vykdymų darbo apkrovas tarp skirtingų aplinkų. Ši funkcija gali padėti pagerinti vykdymą, apsaugoti nuo paslaugų pertrūkių ir maksimizuoti veikimo laiką. Jį pateikia tolesni papildiniai:
 
 - „Cloud Scale Unit“ papildinys „Dynamics 365 Supply Chain Management“
 - „Edge Scale Unit“ papildinys „Dynamics 365 Supply Chain Management“
 
-Darbo krūvio galimybės yra leidžiamos nepertraukiamai didėjančiais patobulinimais.
+Bendrovės dirbančios su gamyba ir platinimu privalo galėti vykdyti pagrindinius verslo procesus septynias dienas, 24 valandas per savaitę be pertrūkių ir laipsniškai. Debesies ir krašto skalės vienetai leidžia įmonėms vykdyti pagrindinius misijos kritinius gamybos ir sandėlio procesus be pertrūkio, net jei jos susiduria su kartais pasireiškiančiomis tinklo ryšio ar vėlavimo problemomis.
 
-## <a name="scale-units-and-dedicated-workloads"></a>Skalės vienetai ir paskirti darbo krūviai
+## <a name="public-preview-information"></a>Viešosios peržiūros informacija
 
-Skalės vienetai išplečia jūsų centrinę „Supply Chain Management“ telkinio aplinką įtraukdami paskirtąjį apdorojimo pajėgumą. Skalės vienetai gali vykti debesyje. Kitu atveju jie gali vykti briaunoje, vietoje, jūsų vietinėse patalpose.
+Peržiūra pateikia vieną aplinką, kuri veikia debesimi pagrįstame centre jūsų „Dynamics 365 Supply Chain Management“ aplinkoje ir vienoje aplinkoje, kuri veikia kaip debesies skalės vienetas.
 
-:::image type="content" source="./media/cloud_edge-HeroDiagram.png" alt-text="Dynamics 365 su skalės vienetais.":::
+<!-- You will also be able to use Local Business Data (LBD) to configure an on-premises environment as an edge scale unit for the hub you received as part of the preview program.-->
 
-Skalės vienetai suteikia atsparumą, patikimumą ir skalę paskirtiems darbo krūviams. Briaunos skalės vienetus galima laikinai atjungti nuo debesies telkinio aplinkos, o darbuotojai gali toliau dirbti su priskirtais darbo krūviais briaunoje.
+### <a name="preview-availability"></a>Peržiūros prieinamumas
 
-*Darbo krūvis* yra nustatytas verslo funkcijų rinkinys, kuris gali veikti su faktoriais ir būti priskirtas skalės vienetui. Nors sandėlio valdymo darbo krūvis yra išleistas, gamybos vykdymo darbo krūvis vis dar peržiūrimas.
+Peržiūra debesiui ir krašto skalės vienetams tampa įmanoma esantiems klientams „Supply Chain Management“2020 m. spalio mėn.
 
-Galite konfigūruoti savo telkinio aplinką ir pasirinktų darbo krūvių debesies skalės vienetus naudodami [Skalės vieneto valdymo portalą](https://sum.dynamics.com). Taip pat galite priskirti kelis darbo krūvius vienam skalės vienetui. Informacijos apie dabartinio leidimo debesies skalės vienetų būtinuosius komponentus ir apribojimus rasite skyriuje [Debesies skalės vienetų būtinieji komponentai ir apribojimai](#cloud-scale-unit-prerequisites), esančiame toliau šioje temoje.
-
-### <a name="dedicated-warehouse-management-workload-capabilities-in-a-scale-unit"></a>Priskirto sandėlio valdymo darbo krūvio pajėgumai skalės vienete
-
-Sandėlio valdymo darbo krūvis yra pirmasis paskirstytas masto vienetų darbo krūvis, kuris bus išleistas bendram prieinamumui. Tai leidžia jūsų sandėlio operacijas išplėsti ir vykdyti atsparioje aplinkoje naudojant izoliuotus priežiūros langus. Sandėlio valdymo darbo krūvis palaiko daugumą įmonės centro sandėlio valdymo procesų. Daugiau informacijos rasite [Sandėlio valdymo darbo krūviai debesies ir briaunos skalės vienetams](cloud-edge-workload-warehousing.md).
-
-### <a name="dedicated-manufacturing-execution-workload-capabilities-in-a-scale-unit"></a>Priskirto gamybos vykdymo darbo krūvio pajėgumai skalės vienete
-
-Gamybos darbo krūvis suteikia šias galimybes:
-
-- Mašinos operatoriai ir parduotuvės aukšto vadovai gali prieiti prie operacijos gamybos plano.
-- Mašinos operatoriai gali vis atnaujintą planą diskretiškam vykdymui ir proceso gamybos darbams.
-- Parduotuvės aukšto vadovas gali keisti operacijos planą.
-- Darbuotojai gali prieiti prie atėjimo į darbą ir išėjimo iš darbo laiko ir dalyvavimo briaunoje, siekiant užtikrinti teisingą darbuotojo užmokesčio apskaičiavimą.
-
-Daugiau informacijos rasite [Gamybos vykdymo darbo krūviai debesies ir briaunos skalės vienetams](cloud-edge-workload-manufacturing.md).
-
-## <a name="considerations-before-you-enable-the-distributed-hybrid-topology-for-supply-chain-management"></a>Aspektai prieš įjungiant paskirstytąją, hibridinę „Supply Chain Management” topologiją
-
-Įgalindami paskirstytą, hibridinę topologiją, jūs pereinate savo „Supply Chain Management” debesies aplinką, kad ji veiktų kaip telkinys. Taip pat galite susieti papildomas aplinkas, kurios sukonfigūruotos kaip skalės vienetai debesyje arba briaunoje.
-
-### <a name="prerequisites-and-limitations-for-cloud-scale-units"></a><a name="cloud-scale-unit-prerequisites"></a>Debesies skalės vienetų būtinieji komponentai ir apribojimai
-
-Dabartiniame skalės vienetų leidime kai kurios galimybės dar nėra pasiekiamos, bet laikui bėgant, jos gali būti įtrauktos į vėlesnius leidimus.
-
-#### <a name="you-must-be-a-licensed-customer-of-supply-chain-management"></a>Jūs turite būti licencijuotas „Supply Chain Management” klientas
-
-Norėdami naudoti paskirstytą topologiją, privalote turėti „Supply Chain Management” licenciją. Jūsų esama debesies aplinka taps telkiniu jūsų hibridinėje topologijoje. Galite deklaruoti tiek smėlio dėžės, tiek gamybos aplinkas kaip telkinio aplinkas ir galite pridėti skalės vienetus pagal jūsų įgytus papildinius.
-
-#### <a name="your-existing-project-must-be-administered-via-the-global-commercial-version-of-lcs"></a>Jūsų esamą projektą būtina administruoti naudojant visuotinę, komercinę LCS versiją
-
-Jūsų esamas „Microsoft Dynamics Lifecyle Services” (LCS) projektas turi atitikti šiuos versijos reikalavimus:
-
-- Projektą būtina administruoti naudojant visuotinę, komercinę LCS versiją adresu [„lcs.dynamics.com”](https://lcs.dynamics.com).
-- Vietinės LCS versijos (pavyzdžiui, [„eu.lcs.dynamics.com”](https://eu.lcs.dynamics.com) ir [fr.lcs.dynamics.com](https://fr.lcs.dynamics.com)) nėra palaikomos.
-- Vyriausybės debesies LCS versijos nėra palaikomos.
-- LCS „Mooncake” versija nėra palaikoma.
-
-#### <a name="your-current-production-environment-must-be-of-the-self-service-type-in-lcs"></a>Jūsų dabartinė gamybos aplinka turi būti Savitarnos tipo LCS sistemoje
-
-Jūsų dabartinė gamybos aplinka turi būti pažymėta kaip **Savitarnos tipo** LCS sistemoje. Šis tipas nurodo, kad jūsų LCS projekto nuomotojas jau buvo konvertuotas taip, kad palaikytų „Azure Service Fabric” išteklių nuomos modelį.
+Norėdami prieiti prie spalio peržiūros leidimo 10.0.15/„Platform“ naujinimo 39 talpinimui jūsų [„Microsoft Dynamics Lifecycle Services“ (LCS)](https://lcs.dynamics.com/v2) aplinkoje, privalote būti peržiūros greitos prieigos programos dalimi (taip pat žinomos kaip PEAP) skirtos „Supply Chain Management“. Galite prisijungti prie PEAP jei jau esate platesnės programos nariu [„Dynamics Insider Program“](https://experience.dynamics.com/insider). Tik pasirinkite konkrečią programą pavadinimu „Finance & Operations: Preview early access program (PEAP)."
 
 > [!IMPORTANT]
-> Aplinkos tipai, kurie veikia kaip infrastruktūros nuomos paslauga (IaaS), nėra palaikomi. Šios aplinkos įprastai žymimos kaip **Valdoma „Microsoft”** tipo LCS sistemoje. Jei turite šio tipo aplinkų, dirbkite kartu su jūsų „Microsoft” kontaktu, kad suprastumėte perkėlimo į **Savitarnos** tipą laiko juostą.
+> Skalės vieneto pajėgumas „Supply Chain Management“ yra jums prieinamas tik, jei sutinkate su [„Cloud + Edge Preview“ skirtu „Finance and Operations“ sąlygomis](https://Aka.ms/SCMCnETerms).
 
-„Microsoft” vykdo visų „Supply Chain Management” debesies aplinkų perėjimą iš „IaaS” modelio į topologiją, nuomojamą „Service Fabric”. Šis perkėlimas suteikia geresnį išplečiamumą ir palengvina paslaugų valdymą. Todėl diegimo ir priežiūros operacijos yra greitesnės. Taip pat, paslaugų komponentai yra perkeliami į mikropaslaugų sąvoką, o paslaugų nuomos modelis [pereis](/virtualization/windowscontainers/about/containers-vs-vm) iš virtualiosios mašinos (VM) modelio į supaprastintą konteinerizuotą architektūrą.
+### <a name="data-processing-for-the-preview"></a>Duomenų tvarkymas peržiūrai
 
-Galiausiai ta pati „Service Fabric” pagrįsta konteinerizuota paslaugų infrastruktūra maitins paslaugos tiek debesies, tiek briaunos egzempliorius, priklausomai nuo to, ar egzempliorius yra telkinys debesyje, ar skalės vienetas debesyje arba briaunoje.
-
-Prieš galėdami naudoti hibridinę topologiją, palaikančią skalės vienetus, jūsų projekto nuomotojas turi pereiti prie modelio, nuomojamo „Service Fabric”. Taip pat, turi būti konvertuojama bet kokia aplinka, kuri veiks kaip centras.
-
-> [!TIP]
-> Norėdami pateikti jūsų LCS projekto nuomotojo būsenos užklausą, peržiūrėkite savo aplinkos tipą [LCS sistemoje](https://lcs.dynamics.com/) arba kreipkitės į savo partnerį arba „Microsoft” kontaktą.
-
-#### <a name="local-business-data-on-premises-environments-arent-supported-as-hubs-for-scale-units"></a>Vietos verslo duomenų (vietinės) aplinkos nepalaikomos kaip telkiniai skalės vienetams
-
-Vietinės aplinkos negali veikti kaip telkiniai skalės vienetams. Telkinio aplinkos visada turi būti nuomojamos debesyje.
-
-#### <a name="scale-unit-management-capabilities-are-limited"></a>Skalės vieneto valdymo pajėgumai yra riboti
-
-Valdymo galimybės, galinčios padėti valdyti darbo krūvių judėjimą, yra ribotos. Kai kurios valdymo operacijos nepalaikomos savitarnos būdu, todėl gali prireikti paprašyti pagalbos per savo partnerį arba „Microsoft” kontaktą. Pavyzdžiai apima kai kuriuos darbo krūvių perkėlimus tarp skalės vienetų ir laikinus „ad-hoc” perkėlimus nesėkminguose scenarijuose.
-
-#### <a name="metrics-and-measurements-arent-yet-available"></a>Metrika ir matavimai dar nėra palaikomi
-
-Metrikos ir matavimai, galintys padėti pasirinkti geriausią programą jūsų skalės vienetams, dar nėra prieinami. Dirbkite su savo „Microsoft” kontaktu ar diegimo partneriu, kad pasirinktumėte naudingiausią programą.
-
-### <a name="data-processing-during-management-of-scale-units"></a><a name="data-processing-management"></a>Duomenų apdorojimas skalės vienetų valdymo metu
-
-Kai įgalinsite „Dynamics 365” aplinką palaikyti paskirstytą, hibridinę topologiją debesies ir briaunos skalės vienetams, kai kurios valdymo paslaugos bus nuomojamos tik Jungtinėse Amerikos Valstijose, kaip ir LCS. Tai daro įtaką kai kurios administravimo ir konfigūravimo informacijos, kurią naudoja [Skalės vienetų valdymo portalas](https://sum.dynamics.com), perkėlimą ir saugojimą. Štai keletas pavyzdžių:
+Viešosios peržiūros metu, kai kurios valdymo paslaugos bus patalpintos tik Jungtinėse Amerikos Valstijose. Nepaisant to, kai funkcija tampa bendrai prieinama, šios valdymo paslaugos bus prieinamos visose geografinėse vietose palaikomose „Supply Chain Management“. Tai paveikia perdavimo ir talpinimo administravimo informaciją, kurią naudoja skalės vieneto vadovas, įskaitant:
 
 - Jūsų nuomotojo pavadinimai ir ID
 - Jūsų LCS projekto ID
-- Administratoriaus ir projekto savininko el. pašto adresai, naudojami prisijungimui
-- Aplinkos ID telkinio ir skalės vienetams
-- Darbo krūvio konfigūracijos, įskaitant juridinių subjektų ir įstaigų pavadinimus bei fizinius adresus, kad jūsų topologija būtų rodoma geografiniame žemėlapyje
-- Surinktos metrikos (pavyzdžiui, gaištis ir našumas), kurios bus rodomos žemėlapio analizės puslapyje, kad padėtų jums pasirinkti naudingiausią skalės vienetų naudojimą
+- Administratoriaus el. pašto naudojamas prisijungimui
+- Aplinkos ID centrui ir skalės vienetams
+- Darbo apkrovos konfigūravimai
+- Surinkti metriniai duomenys (tokie kaip vėlavimas ir srauto perdavimas), kurie yra rodomi žemėlapio analizės puslapyje
 
-Duomenys, perkeliami į ir saugomi JAV duomenų centruose, bus panaikinti pagal „Microsoft” duomenų saugojimo strategijas. „Microsoft“ yra svarbus jūsų privatumas. Norėdami sužinoti daugiau, perskaitykite mūsų [Pareiškimą dėl privatumo](https://go.microsoft.com/fwlink/?LinkId=521839).
+Duomenų perdavimas į ir laikymas JAV duomenų centruose bus pašalintas jums peržiūrint aplinkas, kai jos išjungtos.
 
-## <a name="onboarding-in-two-stages"></a>Naudojimosi pradžia dvejais etapais
+### <a name="sign-up-for-the-preview"></a>Registravimasis peržiūros versijai gauti
 
-Pasirengimo darbui su paskirstytąja, hibridine topologija procesas turi du etapus. Pirmojo etapo metu turite patikrinti tinkinimus, kad užtikrintumėte, jog jie veikia paskirstytoje topologijoje, turinčioje skalės vienetus. Smėlio dėžės ir gamybos aplinkos yra perkeliamos tik antrajame etape.
+Norėdami prisijungti prie debiesies ir krašto peržiūros „Supply Chain Management“, jūsų organizacija jau turi turėti galiojančią „Supply Chain Management“ debesies aplinką.
 
-### <a name="stage-1-evaluate-customizations-in-one-box-development-environments"></a>1 etapas: Tinkinimų vieno bloko programavimo aplinkose įvertinimas
+Skalės vieneto pajėgumai dabar yra rodomi viešojoje peržiūroje. Jums prisijungus, privalote naudoti vartotojo paskyrą konkrečiame nuomotojuje. Privalote taip pat būti prjekto savininku ar aplinkos administratoriumi LCS aktyviame „Dynamics 365 LCS“ projekte tame nuomotojuje.
 
-Prieš pradedant pasirengimą darbui su jūsų smėlio dėžės arba gamybos aplinkomis, rekomenduojame, kad vystymo nustatyme patyrinėtumėte skalės vienetus, tokius kaip vieno bloko aplinka (taip pat žinoma kaip 1 pakopos aplinka), kad jūs galėtumėte patikrinti procesus, tinkinimus ir sprendimus. Šio etapo metu duomenys ir tinkinimai bus taikomi vieno bloko aplinkoms. Viena aplinka atlieka telkinio vaidmenį, o kita – skalės vieneto. Šis nustatymas suteikia geriausią būdą identifikuoti ir išspręsti problemas. Naujausia ankstyvos prieigos (PEAP) komponavimo versija taip pat gali būti naudojama šiam etapui užbaigti.
+Jums prisijungus peržiūrai, pasirinksite nuomotoją ir eisite per prisijungimo žingsnius. Kai tik „Microsoft“ galės priskirti peržiūros pajėgumą, nusiųsime jums el. laišką, kuriame bus suteikimo išsami informacija ir akcijos kodai dviem aplinkoms (centrui ir skalės vienetui) atitinkamam LCS projektui. Tuomet galėsite talpinti dvi aplinkas kaip tier-2 smėlio dėžės aplinkas. Šios aplinkos glaios 60 dienų nuo sukūrimo dienos su akcijos kodais. Turėtumėte nenaudoti abiejų aplinkų, kol žingsnis, aprašytas kitame skyriuje, bus užbaigtas.
 
-1 etapui turėtumėte naudoti [skalės vieneto diegimo įrankius, skirtus vieno bloko vystymo aplinkoms](https://github.com/microsoft/SCMScaleUnitDevTools). Šie įrankiai leidžia jums konfigūruoti telkinio ir skalės vienetus vienoje arba dviejose atskirose vieno bloko aplinkose. Įrankiai yra pateikiami kaip dvejetainis leidimas ir šaltinio kodu „GitHub” platformoje. Skaitykite projekto „wiki”, kuri apima [Išsamų naudojimo vadovą](https://github.com/microsoft/SCMScaleUnitDevTools/wiki/Step-by-step-usage-guide), aprašantį, kaip naudojami įrankiai.
+Jums patvirtinus su „Microsoft“, kad abi aplinkos patalpintos naudojant akcijos kodus, viena aplinka bus sukonfigūruota dirbti kaip centras, o kita bus sukonfigūruota veikti kaip skalės vienetas. Tuomet galite konfigūruoti skalės vienetus ir talpinti pasirinktą sandėlio valdymą ir gamybos darbo apkrovas naudodami [„Scale Unit Manager“ portalą](https://aka.ms/SCMSUM).
 
-### <a name="stage-2-acquire-add-ins-and-deploy-in-your-sandbox-and-production-environments"></a>2 etapas: Papildinių įsigijimas ir diegimas jūsų smėlio dėžės ir gamybos aplinkos
+Peržiūros alpinkos bus automatiškai panaikintos po 60 dienų. Nepaisant to, jos gali būti panaikintos anksčiau, jei pasirodys, kad nebėra naudojamos. Jums iš anksto peržiūrėjus panaikintas aplinkas, galite prisijungti ir laukti naujos peržiūros talpinimo.
 
-Norėdami parengti vieną iš jūsų smėlio dėžės arba gamybos aplinkų į naują topologiją, turite įsigyti papildinius vienam ar daugiau debesies skalės vienetų (o ateityje – ir briaunos skalės vienetams). Papildiniai suteiks atitinkamus projekto ir aplinkos intervalus [„LCS”](https://lcs.dynamics.com/) sistemoje, kad būtų galima diegti skalės vieneto aplinkas.
+Norėdami prisijungti peržiūrai, eikite į [„Scale Unit Manager“ portalą](https://aka.ms/SCMSUM).
+
+### <a name="limitations-that-apply-during-the-preview-period"></a>Apribojimai taikomi peržiūros laikotarpio metu
+
+> [!IMPORTANT]
+> Pradiniame etape peržiūros programa šiai funkcijai, „Microsoft“ palaiko tik centrus, kurie gali turėti debesies skalės vienetus, ne centrus turinčius krašto skalės vienetus. Krašto skalės vienetai yra įdiegti į patalpas ir tikėtina, kad jie taps prieinami ateinančiame programos etape.
+
+Kadangi debesies ir krašto skalės vienetai yra peržiūros funkcija, su jais susijusios paslaugos yra šiuo metu prieinamos apribotose šalyse ir regionuose. Įjungus debesies ir krašto skalės vienetus, patvirtinate, kad suprantate, jog kai kurie duomenys yra susieti su konfigūravimu ir debesies ir krašto skalės vienetų apdorojimu, kurie gali būti laikomi duomenų centre esančiame JAV. Įjungę debesies ir krašto skalės vienetus, taip pat sutinkate su [„Cloud + Edge Previe“ skirtos „Finance and Operations“ sąlygomis](https://Aka.ms/SCMCnETerms). Norėdami sužinoti daugiau apie debesies ir krašto skalės vienetus, žr. [dokumentus](https://aka.ms/scmcne).
+
+Jūsų privatumas „Microsoft“ yra svarbus. Norėdami sužinoti, perskaitykite mūsų [Pareiškimą dėl privatumo](https://aka.ms/privacy).
+
+> [!IMPORTANT]
+> Kai kurios verslo funkcijos nėra visiškai palaikomos viešoje peržiūroje, kai darbo apkrovos naudojamos skalės vienetuose. Dėl daugiau informacijos apie funkcijų darbo apkrovas, žr. tolesnius skyrius šioje temoje.
+
+## <a name="scale-units-and-dedicated-workloads"></a>Skalės vienetai ir paskirtos darbo apkrovos
+
+:::image type="content" source="./media/cloud_edge-HeroDiagram.png" alt-text="„Dynamics 365“ su skalės vienetais":::
+
+Skalės vienetai išplečia jūsų centrinę „Supply Chain Management“ centro aplinką įtraukdami paskirtą apdorojimo pajėgumą. Skalės vienetai gali vykti debesyje. Kitu atveju, jie gali vykti krašte jūsų vietinėse patalpose. Skalės vienetai gali laikinai atsijungti nuo centro aplinkos. Jiems prisijungus, skalės vienetai gauna visą informaciją būtiną vykdyti paskirtą paskirtų darbo apkrovų tvarkymą.
+
+:::image type="content" source="media/cloud_edge-previewoptions.png" alt-text="Skalės vieneto parinktys viešojoje peržiūroje":::
+
+Viešai peržiūrai galite konfigūruoti centro aplinką su pasirinktomis darbo apkrovomis debesies skalės vienete naudodami „Scale Unit Manager“ portalą. Iš anksto perževelgti dalyviai, turintys prieigą prie „Local Business Data (LBD)“ patalpų aplinkoje taip pat gali konfigūruoti LBD aplinką kaip krašto skalės vienetą.
+
+Darbo apkrova yra nustatytas verslo funkcijų rinkinys, kuris gali veikti su faktoriais ir būti paskirtas skalės vienetui. Šiuo metu, peržiūros funkcijų darbo apkrovų tipai:
+
+- Gamybos vykdymas
+- Sandėlio valdymas
+
+Galite paskirti vieną darbo apkrovos tipą vienam skalės vienetui. 
+
+### <a name="dedicated-manufacturing-execution-workload-capabilities-in-a-scale-unit"></a>Paskirtos gamybos vykdymo darbo apkrovos pajėgumai skalės vienete
+
+Dėl gamybos vykdymo, debesiesi ir krašto skalės pajėgumai pristato tolesnius pajėgumus, net kai krašto vienetai nėra sujungti su debesiu:
+
+- Mašinos operatoriai ir parduotuvės aukšto vadovai gali prieiti prie oepracijos gamybos plano.
+- Mašinos operatiria gali turėti atnaujintą planą diskretiškam vykdymui ir proceso gamybos darbus.
+- Parduotuvės aukšto vadovas gali keisti operacijos planą.
+- Darbuotojai gali prieiti prie laiko ir lankymosi su laikrodžiu ir be jo veikiančiame krašte siekiant pataisyti darbuotojo užmokesčio skaičiuoklę.
+
+Dėl daugiau informacijos, žr. [gamybos skalės vieneto darbo apkrovos išsami informacija](cloud-edge-workload-manufacturing.md).
+
+### <a name="dedicated-warehouse-management-workload-capabilities-in-a-scale-unit"></a>Paskirtas sandėlio valdymo darbo apkrovos pajėgumai skalės vienete
+
+Dėl sandėlio valdymo, debesiesi ir krašto skalės pajėgumai pristato tolesnius pajėgumus, net kai krašto vienetai nėra sujungti su debesiu:
+
+- Pasirinktos bangos tvarkymo metodai yra įjungti prekybos užsakymams ir paklausos papildymui.
+- Sandėlio darbuotojai gali vykdyti prekybos ir paklausos papildyma sandėlio darbui naudodami sandėlio programą.
+- Sandėlio darbuotojai gali teirautis apie turimą inventorių su sandėlio programa.
+- Sandėlio darbuotojai gali kurti ir vykdyti inventoriiaus judėjimus su sandėlio programa.
+- Sandėlio darbuotojai gali registruoti įsigijimo užsakymus ir atidėti su sandėlio programa.
+
+Dėl daugiau informacijos, žr. [sandėlio skalės vieneto darbo apkrovos išsami informacija](cloud-edge-workload-warehousing.md).
+
+## <a name="onboard-scale-units-for-your-supply-chain-management-environment"></a>Įvesties skalės vienetai „Supply Chain Management“ aplinkai
+
+### <a name="deploy-the-preview-for-cloud-and-edge-scale-units"></a>Talpinti debesies ir krašto skalės vienetų peržiūrą
+
+Tolesnis paveikslėlis rodo prisijungimo ir srauto suteikimo viešajai peržiūrai debiesies skalės vienetams.
+
+:::image type="content" source="media/cloud_edge-previewsignup.png" alt-text="Peržiūrėti prisijungimo žingsnius":::
+
+### <a name="select-your-lcs-project-tenant-and-the-detailed-preview-process"></a>Pasirinkti savo LCS projekto nuomotoją ir išsamų peržiūros procesą
+
+Viešojoje peržiūroje, [„Scale Unit Manager“ portalą](https://aka.ms/SCMSUM) rodo nuomotojų sąrašą, kurio dalis yra jūsų paskyrą ir kai jūsų savininkas ir aplinkos administratorius LCS projekte.
+
+Jei nuomotojas, kurio ieškote nėra sąraše, eikite į [LCS](https://lcs.dynamics.com/v2) ir įsitikinkite, kad esate savo aplinkos administratorius ar LCS projekto savininkas nuomotojui. Atkreipkite dėmesį, kad „Azure Active Directory“ („Azure AD“) paskyros iš pasirinkto nuomotojo yra leidžiamos siekiant užbaigti prisijungimo patirtį.
 
 > [!NOTE]
-> Skalės vieneto papildiniai nėra priskirti ribotam vartotojų skaičiumi, ir juos gali naudoti bet kuris esamos prenumeratos vartotojas, remdamasis vaidmenimis, kuriuos priskiria administratorius.
+> Jums pritaikius pakeitimus LCS, gali užtrukti iki 30 minučių, kol nuomotojų sąraše bus padaryti pakeitimai.
 
-Skalės vienetai yra siūlomi keliuose sandėliavimo vienetuose (SKU) ir kainų parinktyse. Todėl galite pasirinkti tai, kas geriausiai atitinka jūsų suplanuotų mėnesinių operacijų apimtį ir efektyvumo reikalavimus.
+Kiekvienam nuomotojui sąrašas rodo prisijungimo būseną.
 
-Įrašo lygio SKU žinomas kaip *Paprastasis*, o efektyvesnis SKU žinomas kaip *Standartinis*. Kiekvienas SKU yra iš anksto įkeliamas su konkrečiu mėnesinių operacijų skaičiumi. Tačiau galite padidinti mėnesinių operacijų biudžetą įtraukdami pertekliaus papildinius kiekvienam SKU.
+:::image type="content" source="media/cloud_edge-Signup1.png" alt-text="Prisijungimo parinktis nuomotojui":::
 
-:::image type="content" source="media/SKUs-highlevel.png" alt-text="Papildiniai debesies skalės vienetams.":::
+Pasirinkite **Paspauskite čia, kad prisijungtumėte** nuorodą tam, kad prijungtumėte savo LCS nuomotoją ir jis dalyvautų peržiūroje. Turite priimti nuostatas. Turite taip pat pateikti verslo el. pašto adresą, į kurį „Microsoft“ gali siųsti pranešimus susijusius su peržiūros prisijungimo procesu.
 
-> [!TIP]
-> Norėdami nustatyti geriausiai jūsų poreikius atitinkantį dydį, bendradarbiaukite su savo partneriu ir „Microsoft”, kad suprastumėte kokio mėnesinio operacijų dydžio jums reikia.
+:::image type="content" source="media/cloud_edge-Signup2.png" alt-text="Prisijungimo pateikimas nuomotojui":::
 
-Kiekvienas skalės vieneto priedo pirkimas ne tik suteikia mėnesinę operacijų apimtį, bet ir suteikia jums teisę į konkretų aplinkos intervalų skaičių LCS sistemoje. Kiekvienam debesies skalės vieneto papildiniui turite teisę į vieną naują gamybos aplinkos intervalą ir vieną naują smėlio dėžės intervalą. Pasirengimo darbui proceso metu bus įtrauktas naujas LCS projektas, kuriame yra šie intervalai. Intervalų naudojimo teisės yra apribotos, jog intervalai privalo būti naudojami kaip skalės vienetai, turintys debesies telkinį.
+„Microsoft“ peržiūros jūsų prašymą ir informuos jus apie kitus žingsnius nusiųsdama el. laišką adresu, kurį pateikėte prisijungimo formoje.
 
-Pertekliaus papildiniai nesuteikia jums teisės į naujus aplinkos intervalus.
+Jums suteikus prieigos teisę prie peržiūros programos, gausite du akcijos kodus savo LCS projektui. Galite dabar naudoti šiuos akcijos kodus, kad talpintumėte dvi aplinkas LCS. Aplinkos turi naudoti PEAP versiją 10.0.15 ar vėlesnę. Jums baigus akcijos kodų taikymą, praneškite „Microsoft“ (kaip nurodyta), kad galime užbaigti aplinkas peržiūros funkcijoms. „Microsoft“ jus informuos, kai šis konfigūravimo žingsnis bus atliktas.
 
-Jei norite įsigyti daugiau smėlio dėžės aplinkų, galite nusipirkti papildomų įprastinių smėlio dėžės intervalų. Tada „Microsoft” gali padėti jums įgalinti šiuos intervalus kaip smėlio dėžės skalės vienetus, skirtus hibridinei topologijai.
+Dabar galite pradėti konfigūruoti skalės vienetus ir darbo apkrovas jūsų peržiūros aplinkoje.
 
-## <a name="onboard-to-the-distributed-hybrid-topology-for-supply-chain-management"></a>Pasirengimas darbui su paskirstyta, hibridine topologiją, skirta „Supply Chain Management”
+> [!IMPORTANT]
+> Jums konfigūruojant debesies skalės vienetus, galite [atlikti visus būtinus žingsnius „Scale Unit Manager“ portale](#scale-unit-manager-portal).
+<!-- >
+> If want to use edge scale units with your preview deployment, you must do all scale unit configuration in the user interface on the hub as described in [Configure the hub environment for use with edge scale units](cloud-edge-edge-scale-units-lbd.md#configure-the-hub-environment). You can't use Scale Unit Manager portal if you include an edge scale unit. -->
 
-### <a name="select-your-lcs-project-tenant-and-the-detailed-onboarding-process"></a>Jūsų LCS projekto nuomotojo ir išsamaus pasirengimo proceso pasirinkimas
+### <a name="manage-cloud-scale-units-and-workloads-by-using-the-scale-unit-manager-portal"></a><a name="scale-unit-manager-portal"></a>Tvarkykite debesies skalės vienetus ir darbo apkrovas naudodami „Scale Unit Manager“ portalą
 
-Baigę planuoti, kaip jūs pasirengsite darbui su paskirstytąja, hibridine topologija, skirta „Supply Chain Management”, naudosite [Skalės vieneto valdymo portalą](https://aka.ms/SCMSUM) pasirengimo procesui pradėti. Portale pasirinkite skirtuką **„Dynamics 365“ nuomotojai** Jame rodomas nuomotojų sąrašą, kurio dalis yra jūsų paskyra, ir kuriame esate LCS projekto savininkas arba aplinkos administratorius.
+Eikite į [„Scale Unit Manager“ portalą](https://aka.ms/SCMSUM) ir prisijunkite naudodami savo nuomotojo paskyrą. Puslapyje **Konfigūruoti skalės vienetus** galite įtraukti centro aplinką, jei jos dar nėra. Galite tada rinktis centrą, kurį norite konfigūruoti su skalės vienetais ir darbo apkrovas.
 
-Jei nuomotojo, kurio ieškote nėra sąraše, eikite į [„LCS”](https://lcs.dynamics.com/v2) ir užtikrinkite, kad esate aplinkos administratorius ar LCS projekto tam nuomotojui projekto savininkas. Tik „Azure Active Directory“ („Azure AD“) paskyros iš pasirinkto nuomotojo yra įgaliotos užbaigti prisijungimo patirtį.
+:::image type="content" source="media/cloud_edge-Manage.png" alt-text="Skalės vienetas ir darbo apkrovos valdymo patirtis":::
 
-> [!NOTE]
-> Jums pritaikius pakeitimus LCS, gali užtrukti iki 30 minučių, kol nuomotojų sąrašas atspindės pakeitimus.
+Norėdami įtraukti vienetą ar keletą skalės vienetų esančių jūsų topologijoje, rinkitės **Įtraukti skalės vienetus**. Peržiūroje, turėtumėte matyti debesies skalės vienetą, kurį patalpinote iš vieno akcijos kodo, gauto kaip dalį peržiūros programos.
 
-Kiekvienam nuomotojui sąrašas rodo pasirengimo darbui būseną.
+<!-- > [!IMPORTANT]
+> In the public preview, the Scale Unit Manager portal shows the cloud scale unit that you received as part of the preview program. Any edge scale unit that you created based on an LBD configuration can't be managed in the Scale Unit Manager portal yet. For configuration details, see [Deploy custom edge scale units on custom hardware using LBD](cloud-edge-edge-scale-units-lbd.md) -->
 
-:::image type="content" source="media/cloud_edge-EnableHybrid1.png" alt-text="Nuomotojų sąrašas Dynamics 365 nuomotojų skirtuke.":::
+Skirtuke **Nustatytos darbo apkrovos** naudokite **Sukurti darbo apkrovą** mygtuką, kad įtrauktumėte sandėli ovaldymą ar gamybos vykdymo darbo apkrovą į vieną iš jūsų skalės vienetų. Kiekvienai darbo apkrovai turite nurodyti procesų kontekstą, kurį turės darbo apkrova. Sandėlio valdymo darbo apkrovoms, kontekstas turi konkretų sandėlį konkrečioje vietoje ir juridinį asmenį. Gamybos vykdymo apkrovoms, kontekstas turi konkretų sandėlį konkrečiame saite juridiniame asmenyje.
 
-Pasirinkite **Paspauskite čia norėdami pradėti**, kad pateiktumėte pasirengimo darbui užklausą LCS nuomotojui. Turite priimti sąlygas. Taip pat turite pateikti verslo el. pašto adresą, į kurį „Microsoft“ gali siųsti pranešimus, susijusius su pasirengimo darbui procesu.
+:::image type="content" source="media/cloud_edge-DefineWorkload.png" alt-text="Darbo apkrovos sukūrimas":::
 
-:::image type="content" source="media/cloud_edge-EnableHybrid2.png" alt-text="Prisijungimo pateikimas nuomotojui.":::
+> [!IMPORTANT]
+> „Scale Unit Manager“ portalas peržiūroje neleidžia jums pašalinti darbo apkrovų iš skalės vienetų ar nepriskirti skalės vieneto iš centro po jo priskyrimo. Jei panaikinate priskyrimą, susisiekite su savo kontaktiniu asmeniu programos valdymo peržiūrai.
 
-„Microsoft“ peržiūrės jūsų užklausą ir informuos jus apie kitus žingsnius nusiųsdama el. laišką tuo adresu, kurį pateikėte prisijungimo formoje. „Microsoft” glaudžiai bendradarbiaus su jumis, kad jūsų verslo scenarijui įjungtų skalės vienetus hibridinėje topologijoje.
+<!-- ### Create an edge scale unit using your custom on-premises hardware appliance
 
-Kai pasirengimas yra baigtas, galite naudoti prievadą skalės vienetams ir darbo krūviams konfigūruoti.
-
-### <a name="manage-scale-units-and-workloads-by-using-the-scale-unit-manager-portal"></a><a name="scale-unit-manager-portal"></a> Tvarkykite mastelio vienetus ir darbo krūvius naudodami Scale Unit Manager portalą
-
-Eikite į [Skalės vieneto valdymo portalą](https://aka.ms/SCMSUM) ir prisijunkite naudodami savo nuomotojo paskyrą. Puslapyje **Konfigūruoti skalės vienetus** galite įtraukti telkinio aplinką, jei jos dar nėra. Tada galite rinktis telkinį, kurį norite konfigūruoti su skalės vienetais ir darbo krūviais.
-
-:::image type="content" source="media/cloud_edge-Manage.png" alt-text="Scale Unit Manager portalas, puslapis Konfigūruoti mastelio vienetus.":::
-
-Norėdami įtraukti vieną ar keletą skalės vienetų, galimų jūsų prenumeratose, pasirinkite **Įtraukti skalės vienetus**.
-
-Skirtuke **Nustatyti darbo krūviai** naudokite **Sukurti darbo krūvį** mygtuką, kad įtrauktumėte sandėlio valdymo darbo krūvį į vieną iš jūsų skalės vienetų. Kiekvienam darbo krūviui turite nurodyti procesų kontekstą, kurį valdys darbo krūvis. Sandėlio valdymo darbo krūviams kontekstas turi konkretų sandėlį konkrečioje vietoje ir juridinį asmenį.
-
-:::image type="content" source="media/cloud_edge-DefineWorkload.png" alt-text="Apibrėžkite darbo krūvių dialogo langą.":::
-
-#### <a name="manage-workloads"></a>Tvarkyti darbo krūvius
-
-Kai įjungtas vienas ar keli darbo krūviai, naudokite **Tvarkyti darbo krūvius** galimybė inicijuoti ir valdyti procesus, tokius kaip išvardyti šioje lentelėje.
-
-| Apdorojimas | Aprašymas |
-|---|---|
-| Pristabdykite skalės vieneto ryšį | Pristabdykite dujotiekio pranešimus tarp koncentratoriaus ir mastelio bloko. Šis procesas nutrauks ryšį ir nusausins duomenų vamzdyną tarp šakotuvo ir mastelio vienetų. Turite paleisti šį procesą prieš vykdydami tiekimo grandinės valdymo aptarnavimo operaciją stebulėje arba mastelio bloke, tačiau galite tai naudoti ir kitose situacijose. |
-| Tęsti masto vieneto ryšį | Tęsti dujotiekio pranešimus tarp šakotuvo ir mastelio įrenginio. Šį procesą gali tekti naudoti, pavyzdžiui, po to, kai vykdote tiekimo grandinės valdymo aptarnavimo operaciją stebulėje arba mastelio įrenginyje. |
-| Atnaujinkite darbo krūvius | Sinchronizuokite naujas funkcijas tarp koncentratoriaus ir mastelio bloko darbo krūvių. Gali tekti naudoti šį procesą, pavyzdžiui, kai dėl aptarnavimo pasikeitė duomenų mainų užklausos ir (arba) į darbo krūvį įtrauktos naujos lentelės ar laukai. |
-| Perkelkite darbo krūvius į mastelio įrenginį | Suplanuokite darbo krūvį, kuris šiuo metu veikia koncentratoriuje, perkelti į mastelio įrenginį. Kai šis procesas vykdomas, bus vykdomas duomenų sinchronizavimas, o šakotuvas ir mastelio vienetas bus nustatyti pakeisti darbo krūvio nuosavybės teisę. |
-| Perkelkite svarstyklių bloką į stebulę | Suplanuokite darbo krūvį, kuris šiuo metu veikia masto vienete, kad būtų perkeltas į šakotuvą. Kai šis procesas vykdomas, bus vykdomas duomenų sinchronizavimas, o šakotuvas ir mastelio vienetas bus nustatyti pakeisti darbo krūvio nuosavybės teisę.
-| Avarinis perėjimas į centrą | <p>Nedelsdami perkelkite esamą darbo krūvį į centrą. *Šis procesas pakeis tik tų duomenų, kurie šiuo metu pasiekiami centre, nuosavybės teisę.*</p><p><strong>Įspėjimas:</strong> Šis procesas gali sukelti nesinchronizuotų duomenų praradimą ir verslo apdorojimo gedimą. Todėl jis turėtų būti naudojamas tik kritiniais atvejais, kai verslo procesai turi būti apdorojami koncentratoriuje, nes mastelio įrenginyje yra gedimas, kurio negalima sušvelninti per protingą laiką.</p> |
-| Eksploatacijos nutraukimo paskirstyta topologija | Pašalinkite mastelio vieneto diegimą ir paleiskite tik koncentratoriuje, neapdorodami darbo krūvio. |
-
-:::image type="content" source="media/sum-manage-workloads.png" alt-text="Skalės vienetas ir darbo apkrovos valdymo patirtis.":::
-
-> [!TIP]
-> Laikui bėgant didėjantys patobulinimai bus įtraukti į Skalės vienetų valdymo patirtį, kad būtų lengviau atlikti ciklo valdymo operacijas. Konkretūs dabartinio leidimo pajėgumai yra dokumentuojami supažindinimo vadove, prieinamu tiems klientams, kurie šiuo metu susipažįsta su paskirstytąja, hibridine „Supply Chain Management” topologija. <!-- KFM: Add a link to the handbook when it is published -->
-
-[!INCLUDE [cloud-edge-privacy-notice](../../includes/cloud-edge-privacy-notice.md)]
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+In the public preview, you can create on-premises edge scale units on your custom hardware using the LBD environments. For details, see [Deploy custom edge scale units on custom hardware using LBD](cloud-edge-edge-scale-units-lbd.md). -->

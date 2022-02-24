@@ -1,33 +1,36 @@
 ---
 title: Sinchronizuokite „Field Service“ sutarčių SF su „Supply Chain Management“ laisvos formos SF
 description: Šioje temoje aptariami šablonai ir pagrindinės užduotys, naudojamos sinchronizuojant „Dynamics 365 Field Service“ sutarčių SF su „Dynamics 365 Supply Chain Management“ laisvos formos SF.
-author: Henrikan
+author: ChristianRytt
+manager: tfehr
 ms.date: 04/10/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
-ms.author: henrikan
+ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 70f1c072c3a2a1b201aac1f1d2beea9979a3b792
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
-ms.translationtype: MT
+ms.openlocfilehash: c2d0f671d4b824cb5d38a5d11c4b06b2e97bd0c8
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8060769"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4528250"
 ---
 # <a name="synchronize-agreement-invoices-in-field-service-to-free-text-invoices-in-supply-chain-management"></a>Sinchronizuokite „Field Service“ sutarčių SF su „Supply Chain Management“ laisvos formos SF
 
 [!include[banner](../includes/banner.md)]
 
-
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Šioje temoje aptariami šablonai ir pagrindinės užduotys, naudojami sinchronizuojant „Dynamics 365 Field Service“ sutarčių SF su „Dynamics 365 Supply Chain Management“ laisvos formos SF.
 
@@ -50,25 +53,25 @@ Prieš sinchronizuojant sutarčių SF, būtina atlikti toliau nurodytą sinchron
 
 ## <a name="entity-set"></a>Objektų rinkinys
 
-| „Field service“  | „Supply Chain Management”                 |
+| „Field Service“  | „Supply Chain Management”                 |
 |----------------|----------------------------------------|
-| SF       | Dataverse kliento laisvos formos sąskaitų faktūrų antraštės |
-| invoicedetails | Dataverse kliento laisvos formos sąskaitų faktūrų eilutės   |
+| SF       | CDS kliento laisvos formos sąskaitų faktūrų antraštės |
+| InvoiceDetails | CDS kliento laisvos formos sąskaitų faktūrų eilutės   |
 
 ## <a name="entity-flow"></a>Objekto srautas
 
-SF, kurios buvo sukurtos iš „Field Service“ sutarties, su „Supply Chain Management“ galima sinchronizuoti per „Microsoft Dataverse“ duomenų integravimo projektą. Jei laisvos formos SF apskaitos būsena yra **Vykdoma**, šių SF naujinimai bus sinchronizuojami su „Supply Chain Management“ laisvos formos SF. „Supply Chain Management“ paskelbus laisvos formos SF ir apskaitos būseną atnaujinus į **Baigta**, daugiau nebegalėsite sinchronizuoti „Field Service“ naujinimų.
+SF, kurios buvo sukurtos iš „Field Service“ sutarties, su „Supply Chain Management“ galima sinchronizuoti per „Common Data Service“ duomenų integravimo projektą. Jei laisvos formos SF apskaitos būsena yra **Vykdoma**, šių SF naujinimai bus sinchronizuojami su „Supply Chain Management“ laisvos formos SF. „Supply Chain Management“ paskelbus laisvos formos SF ir apskaitos būseną atnaujinus į **Baigta**, daugiau nebegalėsite sinchronizuoti „Field Service“ naujinimų.
 
 ## <a name="field-service-crm-solution"></a>„Field Service“ CRM sprendimas
 
-Stulpelis **Yra eilučių su sutarties kilme** įtrauktas į **Sąskaita faktūra** lentelę. Šis stulpelis padeda užtikrinti, kad bus sinchronizuojamos tik tos SF, kurios buvo sukurtos iš sutarties. Jei SF yra bent viena SF eilutė, kuri buvo perkelta iš sutarties, vertė yra **teisinga**.
+Laukas **Yra eilučių su sutarties kilme** įtrauktas į objektą **SF**. Šis laukas padeda užtikrinti, kad bus sinchronizuojamos tik tos SF, kurios buvo sukurtos iš sutarties. Jei SF yra bent viena SF eilutė, kuri buvo perkelta iš sutarties, vertė yra **teisinga**.
 
-Stulpelis **Turi sutarties kilmę** įtrauktas į **Sąskaitos faktūros eilutė** lentelę. Šis stulpelis padeda užtikrinti, kad bus sinchronizuojamos tik tos sąskaitos faktūros eilutės, kurios buvo sukurtos iš sutarties. Jei SF eilutė perkeliama iš sutarties, vertė yra **teisinga**.
+Laukas **Nurodyta sutarties kilmė** įtrauktas į objektą **SF eilutė**. Šis laukas padeda užtikrinti, kad bus sinchronizuojamos tik tos SF eilutės, kurios buvo sukurtos iš sutarties. Jei SF eilutė perkeliama iš sutarties, vertė yra **teisinga**.
 
-Laukas **SF data** programoje „Supply Chain Management“ yra privalomas. Todėl, prieš pradedant sinchronizavimą „Field Service“ stulpelyje turi būti nurodyta reikšmė. Kad būtų atitiktas šis reikalavimas, įtraukiama toliau nurodyta logika.
+Laukas **SF data** programoje „Supply Chain Management“ yra privalomas. Todėl, prieš pradedant sinchronizavimą „Field Service“ lauke turi būti nurodyta reikšmė. Kad būtų atitiktas šis reikalavimas, įtraukiama toliau nurodyta logika.
 
-- Jei stulpelis **Sąskaitos faktūros data** lentelėje **Sąskaita faktūra** yra tuščias (tai yra, jame neįvesta jokia reikšmė), įtraukus sąskaitos faktūros eilutę, perkeltą iš sutarties, lauke bus įvesta dabartinė data.
-- Vartotojas gali pakeisti stulpelio **Sąskaitos faktūros data** reikšmę. Tačiau, jei sąskaitos faktūros stulpelis **Sąskaitos faktūros data** bus tuščias, vartotojui bandant įrašyti sąskaitą faktūrą, perkeltą iš sutarties, bus pateikta verslo proceso klaida.
+- Jei laukas **SF data** objekte **Sąskaita faktūra** yra tuščias (t. y., jame neįvesta jokia reikšmė), įtraukus SF eilutę, perkeltą iš sutarties, lauke bus įvesta dabartinė data.
+- Vartotojas gali pakeisti lauko **SF data** reikšmę. Tačiau, jei laukas **SF data** sąskaitoje faktūroje bus tuščias, vartotojui bandant įrašyti SF, perkeltą iš sutarties, bus pateikta verslo proceso klaida.
 
 ## <a name="prerequisites-and-mapping-setup"></a>Būtinosios sąlygos ir susiejimo sąranka
 
@@ -100,11 +103,8 @@ Toliau pateiktose iliustracijose vaizduojamas šablono susiejimas naudojant funk
 
 ### <a name="agreement-invoices-field-service-to-supply-chain-management-invoice-headers"></a>Sutarties SF („Field Service“ su „Supply Chain Management“): SF antraštės
 
-[![Sąskaitos faktūros antraščių šablonų susiejimas integruojant duomenis.](./media/FSFreeTextInvoice1.png)](./media/FSFreeTextInvoice1.png)
+[![Šablono susiejimas naudojant funkcija Duomenų integravimas](./media/FSFreeTextInvoice1.png)](./media/FSFreeTextInvoice1.png)
 
 ### <a name="agreement-invoices-field-service-to-supply-chain-management-invoice-lines"></a>Sutarties SF („Field Service“ su „Supply Chain Management“): SF eilutės
 
-[![Sąskaitos faktūros eilučių šablonų susiejimas integruojant duomenis.](./media/FSFreeTextInvoice2.png)](./media/FSFreeTextInvoice2.png)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+[![Šablono susiejimas naudojant funkcija Duomenų integravimas](./media/FSFreeTextInvoice2.png)](./media/FSFreeTextInvoice2.png)

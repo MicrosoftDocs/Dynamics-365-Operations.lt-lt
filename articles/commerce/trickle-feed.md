@@ -1,13 +1,16 @@
 ---
 title: Nuolatiniu duomenų perdavimu mažais kiekiais pagrįstas užsakymų kūrimas, skirtas parduotuvių operacijoms
 description: Šioje temoje aprašomas nuolatiniu duomenų perdavimu mažais kiekiais pagrįstas užsakymų kūrimas, skirtas operacijoms „Microsoft Dynamics 365 Commerce”.
-author: analpert
-ms.date: 01/11/2021
+author: josaw1
+manager: AnnBe
+ms.date: 09/04/2020
 ms.topic: index-page
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -15,53 +18,40 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 67b66cd4bf2a77f3ab7f33f691156e38cc13770a
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.openlocfilehash: 79f99b9b401de3e3bcca6ec5a13a3b4f7bad6f8c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7964634"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4459577"
 ---
 # <a name="trickle-feed-based-order-creation-for-retail-store-transactions"></a>Nuolatiniu duomenų perdavimu mažais kiekiais pagrįstas užsakymų kūrimas, skirtas parduotuvių operacijoms
 
 [!include [banner](includes/banner.md)]
 
-Jei naudojama „Microsoft Dynamics 365 Commerce“ 10.0.5 ir naujesnė versija, rekomenduojame visus išrašų registravimo procesus perkelti į nuolatiniu duomenų perdavimu mažais kiekiais pagrįsto išrašų registravimo procesus. Su nuolatinio duomenų perdavimo mažais kiekiais funkcijos naudojimu yra siejama didelė našumo ir verslo nauda. Pardavimo operacijos apdorojamos visą dieną. Mokėjimo priemonės ir grynųjų pinigų valdymo operacijos apdorojamos finansinėje ataskaitoje dienos pabaigoje. Naudojant nuolatinio duomenų perdavimo mažais kiekiais funkciją nuolat apdorojami pardavimo užsakymai, sąskaitos faktūros ir mokėjimai. Todėl atsargos, įplaukos ir mokėjimai yra atnaujinami ir atpažįstami beveik realiuoju laiku.
+„Dynamics 365 Retail” 10.0.4 ir ankstesnėse versijose išrašo registravimas yra dienos pabaigoje atliekama operacija. Visos operacijos knygose įregistruojamos dienos pabaigoje. Tuomet dideles operacijas reikia apdoroti per ribotą laiką, dėl to kartais kyla apkrovos ir užraktų bei išrašo registravimo klaidų. Be to, mažmenininkai savo knygose negali atpažinti įplaukų ir mokėjimų per dieną.
 
-## <a name="use-trickle-feed-based-posting"></a>Nuolatiniu duomenų perdavimu mažais kiekiais pagrįsto registravimo naudojimas
+Naudojant „Retail” 10.0.5 versijoje pristatytą nuolatiniu duomenų perdavimu mažais kiekiais pagrįstą užsakymų kūrimą operacijos apdorojamos visą dieną, o dienos pabaigoje tvarkomas tik finansinis mokėjimo priemonių derinimas ir kitos grynųjų pinigų valdymo operacijos. Ši funkcija išskaido pardavimo užsakymų, SF ir mokėjimų kūrimą per visą dieną, taip užtikrindama didesnį našumą ir galimybę atpažinti įplaukas bei mokėjimus knygose beveik tikruoju laiku. 
 
-> [!IMPORTANT]
-> Prieš įjungdami nuolatiniu duomenų perdavimu mažais kiekiais pagrįstą registravimą, turite įsitikinti, kad nėra apskaičiuotų ir neužregistruotų išrašų. Prieš įjungdami funkciją užregistruokite visus išrašus. Darbo srityje **Parduotuvės finansai** galite patikrinti, ar yra atvirų išrašų.
 
-Norėdami įjungti mažmeninės prekybos operacijų nuolatiniu duomenų perdavimu mažais kiekiais pagrįstą registravimą, darbo srityje **Funkcijų valdymas** įjunkite funkciją **Mažmeninės prekybos išrašai – duomenų perdavimas mažais kiekiais**. Išrašai bus padalinti į du tipus: operacijų išrašai ir finansinės ataskaitos.
+## <a name="how-to-use-trickle-feed-based-posting"></a>Kaip naudoti nuolatiniu duomenų perdavimu mažais kiekiais pagrįstą registravimą
+  
+1. Norėdami įjungti mažmeninės prekybos operacijų nuolatiniu duomenų perdavimu mažais kiekiais pagrįstą registravimą, įjunkite funkciją pavadinimu **Mažmeninės prekybos išrašai – duomenų perdavimas mažais kiekiais** naudodami funkcijų valdymą.
 
-### <a name="transactional-statements"></a>Operacijos išrašai
+    > [!IMPORTANT]
+    > Prieš įjungdami šią funkciją įsitikinkite, kad nėra patvirtinimo laukiančių išrašų, kuriuos reikia užregistruoti.
 
-Numatyta, kad operacijos išrašų apdorojimas būtų vykdomas dideliu dažniu visą dieną, kad dokumentai būtų sukuriami operacijas įkėlus į „Commerce“ būstinę. Operacijos įkeliamos iš parduotuvių į „Commerce“ būstinę paleidus **P užduotį**. Taip pat turite paleisti užduotį **Tikrinti parduotuvės operacijas**, kad patikrintumėte operacijas ir jas būtų galima naudoti operacijų išraše.
+2. Dabartinis išrašo dokumentas bus padalintas į du tipus: operacijų išrašą ir finansinę ataskaitą.
 
-Suplanuokite, kad šios užduotys būtų vykdomos labai dažnai:
+      - Operacijų išraše bus pateikiamos visos neužregistruotos ir patvirtintos operacijos ir kuriami pardavimo užsakymai, pardavimo sąskaitos faktūros, įmokų ir nuolaidų žurnalai bei pajamų ir išlaidų operacijos jūsų sukonfigūruotame režime. Turite sukonfigūruoti šį procesą taip, kad šis veiktų dideliu dažnumu ir dokumentai būtų sukuriami operacijas įkėlus į būstinę per P užduotį. Naudojant operacijų išrašą, kuris jau sukuria pardavimo užsakymus ir pardavimo sąskaitas faktūras, nėra realaus poreikio konfigūruoti paketinę užduotį **Registruoti atsargas**. Tačiau ją vis tiek galite naudoti konkretiems verslo poreikiams patenkinti.  
+      
+     - Finansinė ataskaita turi būti sukurta dienos pabaigoje, ji palaiko tik **Pamaina** uždarymo metodą. Šis išrašas bus taikomas tik finansiniam suderinimui ir sukurs tik skirtingų mokėjimo priemonių apskaičiuotos sumos ir operacijos sumos skirtumo sumų žurnalus bei kitų grynųjų pinigų valdymo operacijų žurnalus.   
 
-- Norėdami apskaičiuoti operacijų išrašų duomenis, paleiskite užduotį **Atlikti operacijų išrašų paketinį skaičiavimą** (**„Retail“ ir „Commerce“ \> „Retail“ ir „Commerce“ IT \> EKA registravimas \> Atlikti operacijų išrašų paketinį registravimą**). Atliekant šią užduotį visos neužregistruotos ir patvirtintos operacijos paimamos ir įtraukiamos į naują operacijų išrašą.
-- Norėdami atlikti paketinį operacijų išrašų registravimą, paleiskite užduotį **Atlikti operacijų išrašų paketinį registravimą** (**„Retail“ ir „Commerce“ \> „Retail“ ir „Commerce“ IT \> EKA registravimas \> Atlikti operacijų išrašų paketinį registravimą**). Atliekant šią užduotį bus paleistas registravimo procesas ir sukurti pardavimo užsakymai, pardavimo sąskaitos faktūros, mokėjimų žurnalai, nuolaidų žurnalai ir neužregistruotų išrašų, kuriuose nėra klaidų, pajamų ir išlaidų operacijos. 
+3. Norėdami apskaičiuoti operacijų išrašą, eikite į **„Retail“ ir „Commerce“> „Retail“ ir „Commerce“ IT > EKA registravimas > Atlikti operacijų išrašų paketinį skaičiavimą**. Norėdami atlikti paketinį operacijų išrašų registravimą, eikite į **„Retail“ ir „Commerce“ > „Retail“ ir „Commerce“ IT > EKA registravimas > Atlikti operacijų išrašų paketinį registravimą**.
 
-### <a name="financial-statements"></a>Finansinės ataskaitos
+4. Norėdami apskaičiuoti finansinę ataskaitą, eikite į **„Retail“ ir „Commerce“ > „Retail“ ir „Commerce“ IT > EKA registravimas > Atlikti finansinių ataskaitų paketinį skaičiavimą**. Norėdami atlikti finansinių ataskaitų paketinį registravimą, eikite į **„Retail“ ir „Commerce“ > „Retail“ ir „Commerce“ IT > EKA registravimas > Registruoti finansines ataskaitas pakete**.
 
-Finansinės ataskaitos apdorojimas turi būti atliekamas dienos pabaigoje. Šio tipo išrašų apdorojimas palaiko tik uždarymo metodą **Pamaina** ir paims tik uždarytas pamainas. Išrašai apsiriboja finansiniu derinimu. Bus sukurti tik mokėjimo priemonių apskaičiuotos sumos ir operacijos sumos skirtumo sumų žurnalai ir kitų grynųjų pinigų valdymo operacijų žurnalai.
+> [!NOTE]
+> Iš šios naujos funkcijos pašalinti meniu elementai **„Retail“ ir „Commerce“ > „Retail“ ir „Commerce“ IT > EKA registravimas > Atlikti paketinį išrašų apskaičiavimą** ir **„Retail“ ir „Commerce“ > „Retail“ ir „Commerce“ IT > EKA registravimas > Atlikti paketinį išrašų registravimą**.
 
-Naudojant finansines ataskaitas taip pat galima peržiūrėti šias operacijas: mokėjimo priemonių deklaravimo operacijas, mokėjimo operacijas, bankinio mokėjimo priemonių operacijas ir kasos mokėjimo priemonių operacijas. Mokėjimo priemonės informacijos puslapis matomas tik pasirinkus finansinę ataskaitą.
-
-![Vaizdas, kuriame rodomas užregistruotų išrašų formos mokėjimo priemonės informacijos skyrius tik pasirinkus finansinę ataskaitą.](./media/Trickle-feed-posted-statements-transaction-view.png)
-
-Planuokite šių finansinės ataskaitos užduočių pradžios ir pabaigos laikus pagal numatomą dienos pabaigą:
-
-- Norėdami apskaičiuoti finansinę ataskaitą, paleiskite užduotį **Atlikti finansinių ataskaitų paketinį skaičiavimą** (**„Retail“ ir „Commerce“ \> „Retail“ ir „Commerce“ IT \> EKA registravimas \> Atlikti finansinių ataskaitų paketinį skaičiavimą**). Atliekant šią užduotį visos neužregistruotos finansinės operacijos bus surinktos ir įtrauktos į naują finansinę ataskaitą.
-- Norėdami atlikti finansinių ataskaitų paketinį registravimą, paleiskite užduotį **Atlikti finansinių ataskaitų paketinį registravimą** (**„Retail“ ir „Commerce“ \> „Retail“ ir „Commerce“ IT \> EKA registravimas \> Atlikti finansinių ataskaitų paketinį registravimą**).
-
-### <a name="manually-create-statements"></a>Išrašų kūrimas rankiniu būdu
-
-Operacijų ir finansinių ataskaitų tipus galima kurti ir rankiniu būdu. 
-
-1. Eikite į **„Retail“ ir „Commerce“ \> Kanalai \> Parduotuvės** ir pasirinkite **Išrašai**. 
-2. Pasirinkite **Naujas** ir tada pasirinkite išrašo tipą, kurį norite sukurti. Puslapyje **Išrašai** esančiuose laukuose bus rodomi duomenys, kurie yra tiesiogiai susiję su pasirinktu išrašo tipu, ir dalyje **Išrašų grupė** esantys veiksmai nurodys tiesiogiai susijusius veiksmus.
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+Operacijų ir finansinių ataskaitų tipus galima kurti ir neautomatiniu būdu. Eikite į **„Retail“ ir „Commerce“ > Kanalai > Parduotuvės** ir spustelėkite **Išrašai**. Spustelėkite **Naujas** ir pasirinkite norimo sukurti išrašo tipą. Puslapyje **Išrašai** esančiuose laukuose ir puslapyje **Išrašo grupė** esančiuose veiksmuose bus rodomi susiję duomenys ir veiksmai pagal pasirinktą išrašo tipą.

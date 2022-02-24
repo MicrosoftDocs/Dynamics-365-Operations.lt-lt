@@ -1,20 +1,29 @@
 ---
 title: Atsargų pasiekiamumas dvigubam rašymui
 description: Šioje temoje pateikiama informacija apie atsargų pasiekiamumo tikrinimą dvigubo rašymo funkcijoje.
-author: RamaKrishnamoorthy
+author: yijialuan
+manager: AnnBe
 ms.date: 05/26/2020
 ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: ''
 audience: Application User, IT Pro
-ms.reviewer: tfehr
+ms.reviewer: rhaertle
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
-ms.author: ramasri
+ms.search.industry: ''
+ms.author: riluan
+ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-05-26
-ms.openlocfilehash: 989ba6cd26d6e48c24db856fa9bb0bd5d2bae80e
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
-ms.translationtype: MT
+ms.openlocfilehash: a7bfe998d2d787203a507a831c171fc43b03fedc
+ms.sourcegitcommit: cc9921295f26804259cc9ec5137788ec9f2a4c6f
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7782534"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "4839554"
 ---
 # <a name="inventory-availability-in-dual-write"></a>Atsargų pasiekiamumas dvigubam rašymui
 
@@ -57,12 +66,55 @@ Kai pasirenkate mygtuką **Turimos atsargos** puslapiuose **Pasiūlymai**, **Už
 - Turimų CDS atsargų užklausos („msdyn_inventoryonhandrequests”)
 
 ## <a name="templates"></a>Šablonai
-
 Šie šablonai yra galimi rodyti turimų atsargų duomenims.
 
-„Finance and operations” programos | „Customer engagement“ programos     | Aprašas
+„Finance and Operations” programos | „Customer engagement“ programa | Aprašymas 
 ---|---|---
-[CDS turimų atsargų įrašai](mapping-reference.md#145) | „msdyn_inventoryonhandentries” |
-[CDS turimų atsargų užklausos](mapping-reference.md#147) | „msdyn_inventoryonhanrequests” |
+[CDS turimų atsargų įrašai](#145) | „msdyn_inventoryonhandentries” |
+[CDS turimų atsargų užklausos](#147) | „msdyn_inventoryonhanrequests” |
 
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+[!include [banner](../../includes/dual-write-symbols.md)]
+
+###  <a name="cds-inventory-on-hand-entries-msdyn_inventoryonhandentries"></a><a name="145"></a> Turimų CDS atsargų įrašai („msdyn_inventoryonhandentries”)
+
+Naudojant šį šabloną sinchronizuojami duomenys tarp „Finance and Operations“ programų ir „Dataverse“.
+
+„Finance and Operations“ laukas | Schemos tipas | „Customer engagement“ laukas | Numatytoji reikšmė
+---|---|---|---
+`REQUESTID` | = | `msdyn_request.msdyn_requestid` |
+`INVENTORYSITEID` | = | `msdyn_inventorysite.msdyn_siteid` |
+`INVENTORYWAREHOUSEID` | = | `msdyn_inventorywarehouse.msdyn_warehouseidentifier` |
+`AVAILABLEONHANDQUANTITY` | > | `msdyn_availableonhandquantity` |
+`AVAILABLEORDEREDQUANTITY` | > | `msdyn_availableorderedquantity` |
+`ONHANDQUANTITY` | > | `msdyn_onhandquantity` |
+`ONORDERQUANTITY` | > | `msdyn_onorderquantity` |
+`ORDEREDQUANTITY` | > | `msdyn_orderedquantity` |
+`RESERVEDONHANDQUANTITY` | > | `msdyn_reservedonhandquantity` |
+`RESERVEDORDEREDQUANTITY` | > | `msdyn_reservedorderedquantity` |
+`TOTALAVAILABLEQUANTITY` | > | `msdyn_totalavailablequantity` |
+`ATPDATE` | = | `msdyn_atpdate` |
+`ATPQUANTITY` | > | `msdyn_atpquantity` |
+`PROJECTEDISSUEQUANTITY` | > | `msdyn_projectedissuequantity` |
+`PROJECTEDONHANDQUANTITY` | > | `msdyn_projectedonhandquantity` |
+`PROJECTEDRECEIPTQUANTITY` | > | `msdyn_projectedreceiptquantity` |
+`ORDERQUANTITY` | > | `msdyn_orderquantity` |
+`UNAVAILABLEONHANDQUANTITY` | > | `msdyn_unavailableonhandquantity` |
+
+###  <a name="cds-inventory-on-hand-requests-msdyn_inventoryonhandrequests"></a><a name="147"></a>Turimų CDS atsargų užklausos (msdyn_inventoryonhandrequests)
+
+Naudojant šį šabloną sinchronizuojami duomenys tarp „Finance and Operations“ programų ir „Dataverse“.
+
+„Finance and Operations“ laukas | Schemos tipas | „Customer engagement“ laukas | Numatytoji reikšmė
+---|---|---|---
+`REQUESTID` | = | `msdyn_requestid` |
+`PRODUCTNUMBER` | < | `msdyn_product.msdyn_productnumber` |
+`ISATPCALCULATION` | << | `msdyn_isatpcalculation` |
+`ORDERQUANTITY` | < | `msdyn_orderquantity` |
+`INVENTORYSITEID` | < | `msdyn_inventorysite.msdyn_siteid` |
+`INVENTORYWAREHOUSEID` | < | `msdyn_inventorywarehouse.msdyn_warehouseidentifier` |
+`REFERENCENUMBER` | < | `msdyn_referencenumber` |
+`LINECREATIONSEQUENCENUMBER` | < | `msdyn_linecreationsequencenumber` |
+
+
+
+

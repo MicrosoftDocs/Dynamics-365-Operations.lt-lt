@@ -1,31 +1,37 @@
 ---
-title: Turinio kūrimo puslapio apžvalga
+title: Kūrimo puslapio apžvalga
 description: Šioje temoje pateikiama „Microsoft Dynamics 365 Commerce“ kūrimo puslapio apžvalga.
 author: brendans
+manager: annbe
 ms.date: 10/31/2019
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application USer
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
+ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: brendans
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 68487c899edccaeff9c339d746d21b1d27b498aa
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
-ms.translationtype: MT
+ms.openlocfilehash: 95908c3a8b6c5231f2f5b283fa05f07c4e91b5d7
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984626"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4414326"
 ---
-# <a name="authoring-page-overview"></a>Turinio kūrimo puslapio apžvalga
+# <a name="authoring-page-overview"></a>Kūrimo puslapio apžvalga
 
   
  [!include [banner](includes/banner.md)]
 
 Šioje temoje pateikiama „Microsoft Dynamics 365 Commerce“ kūrimo puslapio apžvalga.
+
+## <a name="overview"></a>Peržiūrėti
 
 Svetaines galima kurti siekiant patenkinti įvairius verslo poreikius. Jos gali perteikti visą įmonę, pasiūlyti vieną verslo kanalą ar būti orientuotos į konkrečią auditoriją arba auditorijos segmentą. Pavyzdžiui, drabužių gamintojas gali turėti svetainę, kurioje parodomi visi jam priklausantys prekių ženklai. Tas pats drabužių gamintojas gali turėti atskirą svetainę kiekvienam iš šių prekinių ženklų bei svetainių, skirtų prabangiems drabužiams, lauko drabužiams ir vaikų drabužiams.
 
@@ -39,7 +45,7 @@ Svetaines galima kurti siekiant patenkinti įvairius verslo poreikius. Jos gali 
 
 Kūrimo puslapis parodytas tolesnėje iliustracijoje.
 
-![„Dynamics 365 Commerce“ kūrimo puslapis.](../commerce/media/authoring_tools_01.png)
+![„Dynamics 365 Commerce“ kūrimo puslapis](../commerce/media/authoring_tools_01.png)
 
 ## <a name="use-the-home-button-to-select-a-tool"></a>Mygtuko Pradžia naudojimas įrankiui pasirinkti
 
@@ -75,7 +81,7 @@ Norėdami prisijungti prie kūrimo įrankio arba nuo jo atsijungti, atlikite vie
 
 ## <a name="change-the-display-language-of-the-authoring-tool"></a>Kūrimo įrankio rodymo kalbos keitimas
 
-Naudodami mygtuką **Mano paskyra**, taip pat galite pakeisti teksto eilučių, rodomų kūrimo įrankyje, kalbą.
+Naudodami mygtuką **Mano paskyra**, taip pat galte pakeisti teksto eilučių, rodomų kūrimo įrankyje, kalbą.
 
 Norėdami pakeisti rodymo kalbą, atlikite toliau nurodytus veiksmus.
 
@@ -116,6 +122,3 @@ Kai kūrimo įrankis įkeltas, pasirinkę **Pradžia** galite grįžti į kūrim
 [Ieškos modulio optimizavimo (SEO) aplinkybės jūsų svetainei](search-engine-optimization-considerations.md)
 
 [Tvarkyti turinio saugos strategiją (CSP)](manage-csp.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

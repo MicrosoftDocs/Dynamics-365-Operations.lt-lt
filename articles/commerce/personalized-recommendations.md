@@ -2,13 +2,16 @@
 title: Įgalinti asmeniniams poreikiams pritaikytų produktų rekomendacijas
 description: Šioje temoje pateikiama informacija, kaip klientams pritaikyti produktų rekomendacijas asmeniniams poreikiams, naudojant „Microsoft Dynamics 365 Commerce“.
 author: bebeale
+manager: AnnBe
 ms.date: 08/18/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: ''
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -16,18 +19,20 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 74bf2c96d744b8101151be9288a956d46ce3b6885f0cb593dc1b78728b018fb4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8a61ef0720839d371701f2f0a1fdec7e85a5feb7
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6770962"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4414318"
 ---
-# <a name="enable-personalized-recommendations"></a>Personalizuotų rekomendacijų įjungimas
+# <a name="enable-personalized-recommendations"></a>Įgalinti asmeniniams poreikiams pritaikytas rekomendacijas
 
 [!include [banner](includes/banner.md)]
 
 Šioje temoje pateikiama informacija, kaip klientams pritaikyti produktų rekomendacijas asmeniniams poreikiams, naudojant „Microsoft Dynamics 365 Commerce“.
+
+## <a name="overview"></a>Apžvalga
 
 Naudojant „Microsoft Dynamics 365 Commerce“, mažmenininkai gali pritaikyti produktų rekomendacijas asmeniniams poreikiams (dar žinoma kaip suasmeninimas). Tokiu būdu asmeniniams poreikiams pritaikytos rekomendacijos gali būti įtrauktos į klientų patirtį internete ir elektroniniame kasos aparate (EKA). Įjungus suasmeninimo funkciją, sistema gali susieti vartotojo pirkinio ir produkto informaciją, kad sugeneruotų individualizuotas produkto rekomendacijas.
 
@@ -50,7 +55,7 @@ Norėdami įjungti suasmeninimą, atlikite toliau nurodytus veiksmus.
 1. Pasirinkite **Suasmenintos produktų rekomendacijos** funkciją.
 1. Ypatybių srityje **Suasmenintos produktų rekomendacijos** pasirinkite **Įgalinti dabar**.
 
-![Suasmeninimo įjungimas.](./media/FeatureManagement_Personalized.PNG)
+![Suasmeninimo įjungimas](./media/FeatureManagement_Personalized.PNG)
 
 > [!NOTE]
 > Įjungus suasmeninimą, pradedamas asmeniniams poreikiams pritaikytų produktų rekomendacijų sąrašų generavimo procesas. Gali prireikti vienos dienos, kol šie sąrašai bus prieinami ir matomi internete ir EKA.
@@ -73,7 +78,7 @@ Kad bet kuriame „e-Commerce“ puslapyje galėtų būti sąrašas „Parinkta 
 
 Toliau parodytame paveikslėlyje pateiktas internetinės parduotuvės puslapyje esančio sąrašo „Parinkta jums“ pavyzdys.
 
-![Internetinis sąrašas „Parinkta jums“.](./media/picksforyou.png)
+![Internetinis sąrašas „Parinkta jums“](./media/picksforyou.png)
 
 ### <a name="recommended-for-customer-lists-at-the-pos"></a>Sąrašai „Rekomenduojama klientui“, esantys EKA
 
@@ -81,7 +86,7 @@ Norėdami padidinti savo klientų dėmesį, mažmenininkai gali pagal asmeninius
 
 Toliau parodytame paveikslėlyje pateiktas EKA terminale esančio sąrašo „Rekomenduojama klientui“ pavyzdys.
 
-![Sąrašai „Rekomenduojama klientui“, esantys EKA.](./media/picksonpos.png)
+![Sąrašai „Rekomenduojama klientui“, esantys EKA](./media/picksonpos.png)
 
 ## <a name="apply-personalization-to-existing-recommendation-lists"></a>Suasmeninimo esamiems rekomendacijų sąrašams pritaikymas
 
@@ -89,7 +94,7 @@ Mažmenininkai gali pritaikyti suasmeninimą esamiems rekomendacijų sąrašams,
 
 Pavyzdžiui, prisijungęs vartotojas jau nusipirko juodą laikrodį ir rudus darbo batus, kurie pateikiami toliau pateiktoje iliustracijoje, sąraše „Populiariausi – numatytasis“. Todėl vartotojas vietoje tų produktų matys naujus produktus, kaip parodyta sąraše „Populiariausi – asmeniniams poreikiams pritaikyta“.
 
-![Suasmeninimo pritaikymas.](./media/applypersonalization.png)
+![Suasmeninimo pritaikymas](./media/applypersonalization.png)
 
 Jei norite pritaikyti suasmeninimą esamam rekomendacijų sąrašui, esančiam „Commerce“ svetainės daryklėje, atlikite toliau nurodytus veiksmus.
 
@@ -99,7 +104,7 @@ Jei norite pritaikyti suasmeninimą esamam rekomendacijų sąrašui, esančiam �
 1. Dialogo lange **Pasirinkti produktų sąrašo konfigūraciją**, skyriuje **Tipas**, pasirinkite sąrašo tipą.
 1. Pažymėkite žymės langelį **Taikyti suasmeninimą**, tada pasirinkite **Gerai**.
 
-    ![Suasmeninimo pritaikymas populiariausiam sąrašui.](./media/ApplyPersonalizationToTrending.PNG)
+    ![Suasmeninimo pritaikymas populiariausiam sąrašui](./media/ApplyPersonalizationToTrending.PNG)
 
 1. Išsaugokite puslapį, baikite jį redaguoti ir paskelbkite. Paskelbus puslapį, prisijungę vartotojai matys asmeniniams poreikiams pritaikytus populiariausius sąrašus.
 
@@ -126,6 +131,3 @@ Jei norite pritaikyti suasmeninimą esamam rekomendacijų sąrašui, esančiam �
 [Rekomendacijų su demonstraciniais duomenimis kūrimas](product-recommendations-demo-data.md)
 
 [DUK apie produktų rekomendacijas](faq-recommendations.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

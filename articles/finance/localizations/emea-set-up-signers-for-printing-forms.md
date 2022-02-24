@@ -2,23 +2,26 @@
 title: Spausdintų formų pasirašančiųjų nustatymas
 description: Jei pagrindinis juridinio subjekto adresas yra Čekijos Respublikoje, Estijoje, Vengrijoje, Lietuvoje, Latvijoje, Lenkijoje arba Rusijoje, galite nustatyti klientų ir tiekėjų, kurie spausdina dokumentus, pvz., SF ir grynųjų pinigų užsakymus, pasirašančiuosius ir pareigas.
 author: ShylaThompson
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
+ms.search.scope: Core, Operations
 ms.custom: 263464
 ms.search.region: Czech Republic, Estonia, Hungary, Latvia, Lithuania, Poland, Russia
 ms.author: kfend
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: e5e80699f3ac2faaf947e0ce93e9408e3d0811265ec70d41c2a8b93e0f0d358a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 64868aa08201fa3df99cd86fa6ef5231a9347151
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6717455"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4408246"
 ---
 # <a name="set-up-signers-for-print-forms"></a>Spausdintų formų pasirašančiųjų nustatymas
 
@@ -26,7 +29,8 @@ ms.locfileid: "6717455"
 
 Jei pagrindinis juridinio subjekto adresas yra Čekijos Respublikoje, Estijoje, Vengrijoje, Lietuvoje, Latvijoje, Lenkijoje arba Rusijoje, galite nustatyti klientų ir tiekėjų, kurie spausdina dokumentus, pvz., SF ir grynųjų pinigų užsakymus, pasirašančiuosius ir pareigas.
 
-## <a name="set-up-default-values"></a>Numatytųjų verčių nustatymas
+<a name="set-up-default-values"></a>Numatytųjų verčių nustatymas
+---------------------
 
 Norėdami nustatyti įmonės spausdinamų dokumentų pasirašančiuosius naudokite puslapį **Tarnautojai**. Atsižvelgiant į dokumento tipą, galite nustatyti tiek įmonės, tiek klientų arba tiekėjų pasirašančiuosius ir jų pareigas. Toliau pateikiamoje lentelėje aprašomi puslapio **Tarnautojai** skirtukai.
 
@@ -161,6 +165,3 @@ Funkcija Tarnautojai nurodo numatytuosius iš anksto nustatytus pasirašančiuos
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

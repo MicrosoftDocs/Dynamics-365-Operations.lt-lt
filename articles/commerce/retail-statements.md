@@ -2,13 +2,16 @@
 title: Mažmeninės prekybos išrašai
 description: Šioje temoje aprašoma, kaip kuriami ir registruojami išrašai.
 author: ashishmsft
+manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailParameters
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: 85183
 ms.assetid: df9c62a2-6f13-4a08-bdca-07d041172c1b
 ms.search.region: Global
@@ -16,12 +19,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Retail July 2017 update
-ms.openlocfilehash: 64b6fbda9f0396eb4ee6e2e248941f1429d4485278180d5c70dac6dd837a4537
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4409811d2ef60174a316db10307dc7af4697398c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6738701"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4414466"
 ---
 # <a name="retail-statements"></a>Mažmeninės prekybos išrašai
 
@@ -31,7 +34,7 @@ ms.locfileid: "6738701"
 
 Išrašų registravimo procesas parodytas toliau pateiktame paveikslėlyje. Šiame procese EKA įrašytos operacijos perduodamos klientui naudojant „Commerce“ planavimo programą. Kai klientas gauna operacijas, galite kurti, skaičiuoti ir registruoti parduotuvės operacijos išrašą.
 
-[![Išrašų registravimo procesas.](./media/retail-statements.png)](./media/retail-statements.png)
+[![Išrašų registravimo procesas](./media/retail-statements.png)](./media/retail-statements.png)
 
 ## <a name="creating-and-posting-statements"></a>Išrašų kūrimas ir registravimas
 
@@ -85,6 +88,3 @@ Kai skelbiate ataskaitą, pardavimo ataskaitoje sukuriami pardavimo užsakymai i
 - Pardavimai, už kuriuos klientas buvo įtrauktas į operaciją, esančią EKA, sukuria atskirus pardavimo užsakymus ir SF, po vieną kiekvienam atskiram klientui.
 
 Išrašo mokėjimams automatiškai sukuriami mokėjimų žurnalai, o EKA parduotuvėje atnaujinamos atsargos.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

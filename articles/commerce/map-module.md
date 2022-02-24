@@ -2,12 +2,15 @@
 title: Žemėlapio modulis
 description: Šis skyrius aprašo žemėlapio modulius ir tai, kaip konfigūruoti juos į „Microsoft Dynamics 365 Commerce“.
 author: anupamar-ms
+manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -15,12 +18,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: bc5962d6bedba1f5abf423c396382e5c8a901c81797ae95132833e23c46cfd57
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: af6aedb6c0112822155c6d855909578a927d1c2c
+ms.sourcegitcommit: 9c05d48f6e03532aa711e1d89d0b2981e9d37200
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6747398"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "4665425"
 ---
 # <a name="map-module"></a>Žemėlapio modulis
 
@@ -29,20 +32,22 @@ ms.locfileid: "6747398"
 
 Šis skyrius aprašo žemėlapio modulius ir tai, kaip konfigūruoti juos į „Microsoft Dynamics 365 Commerce“.
 
-Žemėlapio modulis rodo parduotuvių vietas interaktyviame žemėlapyje, kuris yra sukurtas naudojant [„Bing Maps V8 Web Control“](/bingmaps/v8-web-control/). „Bing Maps“ API raktas yra reikalaujamas ir turi būti įtrauktas į bendrinamus parametrus komercijos štabo puslapyje Žemėlapio moduliai suteikia įvairias peržiūras, tokias kaip kelio, oro, kelkraščio, kurias naudotojai gali pasirinkti tam, kad peržiūrėtų žemėlapio vietas. Jie taip pat leidžia sąveiką tokią kaip priartinimas ir naudotojo vietos naudojimas.
+## <a name="overview"></a>Peržiūra
 
-Žemėlapio modulis dirba kartu su parduotuvės selektoriaus moduliu tam, kad nustatytų geografines parduotuvių vietas, kurios turi būti pažymėtos žemėlapyje. Parduotuvės selektorius ir žemėlapio modeliai sąveikauja, kai naudotojas pasirenka parduotuvę viename iš šių modulių svetainės puslapyje. Žemėlapio moduliai gali būti išplėsti kitiems scenarijams, už sąveikos tarp parduotuvės selektoriaus modulių. Nepaisant to, modulio tinkinimas yra būtinas.
+Žemėlapio modulis rodo parduotuvių vietas interaktyviame žemėlapyje, kuris yra sukurtas naudojant [„Bing Maps V8 Web Control“](https://docs.microsoft.com/bingmaps/v8-web-control/). „Bing Maps“ API raktas yra reikalaujamas ir turi būti įtrauktas į bendrinamus parametrus komercijos štabo puslapyje Žemėlapio moduliai suteikia įvairias peržiūras, tokias kaip kelio, oro, kelkraščio, kurias naudotojai gali pasirinkti tam, kad peržiūrėtų žemėlapio vietas. Jie taip pat leidžia sąvaiką tokią kaip priartinimas ir naudotojo vietos naudojimas.
+
+Žemėlapio modulis dirba kartu su parduotuvės sleketoriaus moduliu tam, kad nustatytų geografines parduotuvių vietas, kurios turi būti pažymėtos žemėlapyje. Parduotuvės selektorius ir žemėlapio modeliai sąveikauja, kai naudotojas pasirenka parduotuvę viename iš šių modulių svetainės puslapyje. Žemėlapio moduliai gali būti išplėsti kitiems scenarijams, už sąveikos tarp parduotuvės selektoriaus modulių. Nepaisant to, modulio tinkinimas yra būtinas.
 
 > [!NOTE]
 > Žemėlapio modulį galima naudoti „Dynamics 365 Commerce“ 10.0.13 leidime.
 
 Toliau pateiktas paveikslėlis rodo parduotuvės žemėlapio modulio pavyzdį, kuris yra naudojamas parduotuvės vietų puslapyje.
 
-![Parduotuvės parinkiklio modulio pavyzdys.](./media/ecommerce-Storelocator.PNG)
+![Parduotuvės parinkiklio modulio pavyzdys](./media/ecommerce-Storelocator.PNG)
 
 ## <a name="module-properties"></a>Modulio ypatybės
 
-| Ypatybės pavadinimas             | Reikšmė                 | Aprašas |
+| Ypatybės pavadinimas             | Vertė                 | aprašymas |
 |---------------------------|-----------------------|-------------|
 | Antraštė | Tekstas | Modulio antraštė. |
 | Stūmoklio parinktys: nustatytoji piktograma | Nuotrauka | Stūmoklio simbolio paveikslėlis naudojamas parduotuvėms rodomoms žemėlapyje. |
@@ -51,9 +56,9 @@ Toliau pateiktas paveikslėlis rodo parduotuvės žemėlapio modulio pavyzdį, k
 | Stūmoklio parinktys: aktyvi piktogramos spalva | Maskavimo pynė | Tekstas ir šešioliktainės vertės pasirinkto stūmoklio simbolio spalvai žemėlapyje. |
 | Rodyti rodyklę | **Teisinga** arba **Klaidinga** | Jei ši ypatybė yra nustatytą į **Teisingą**, visi stūmoklio simboliai rodantys parduotuvę bus rodomi turinyje. Šis turinys atitiks turinį sąrašo peržiūroje, kurioje parduotuvės selektoriaus modulis yra rodomas. |
 
-## <a name="add-allowed-mapping-urls-to-a-sites-content-security-policy-directives"></a>Įtraukti leidžiamą žemėlapio kūrimo URL į svetainės turinio apsaugos politikos gaires
+## <a name="add-allowed-mapping-urls-to-a-sites-content-security-policy-directives"></a>Įtraukti leidžiamą žemėlapio kūrimo URL į sveitainės turinio apsaugos politikos gaires
 
-Tam, kad žemėlapių modulis sąveikautų su „Bing Maps“, turite užtikrinti, kad tolesni žemėlapio URL yra leidžiami jūsų saito turinio saugos politikoje (CSP). Šis nustatymas yra atliekamas komercijos svetainės kūrimo įrankyje įtraukiant leidžiamus URL į skirtingas svetainės CSP gaires (pavyzdžiui, **img-src**). Dėl platesnės informacijos, žr. [Turinio saugos politika](manage-csp.md). 
+Tam, kad žemėlapių modulis sąveikatų su „Bing Maps“, turite užtikrinti, kad tolesni žemėlapio URL yra leidžiami jūsų saito turinio saugos politikoje (CSP). Šis nustatymas yra atliekamas komercijos svetainės kūrimo įrankyje įtraukiant leidžiamus URL į skirtingas svateinės CSP gaires svetainei (pavyzdžiui, **img-src**). Dėl platesnės informacijos, žr. [Turinio saugos politika](manage-csp.md). 
 
 - Į **connect-src** direktyvą, įtraukite **&#42;.bing.com**.
 - Į **img-src** direktyvą, įtraukite **&#42;.virtualearth.net**.
@@ -76,7 +81,4 @@ Dėl išsamesnės informacijos apie tai, kaip konfigūruoti žemėlapio modulį 
 
 [„Bing“ žemėlapių valdymas jūsų organizacijoje](./dev-itpro/manage-bing-maps.md)
 
-[„Bing Maps V8 Web Control“](/bingmaps/v8-web-control/)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[„Bing Maps V8 Web Control“](https://docs.microsoft.com/bingmaps/v8-web-control/)

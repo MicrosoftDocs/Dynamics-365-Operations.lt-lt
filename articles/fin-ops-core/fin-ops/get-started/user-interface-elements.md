@@ -2,9 +2,11 @@
 title: Vartotojo sąsajos elementai
 description: Šioje temoje aprašyti programos vartotojo sąsajos (UI) elementai.
 author: tlefor
+manager: AnnBe
 ms.date: 08/09/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
@@ -12,17 +14,14 @@ ms.search.region: Global
 ms.author: tlefor
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 60e85841ec940ed65d73dc052848168be70301d6
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
-ms.translationtype: MT
+ms.openlocfilehash: 3e087a1abec9bf177bb831b9bbfa12895054ad07
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069328"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797950"
 ---
 # <a name="user-interface-elements"></a>Vartotojo sąsajos elementai
-
-
-[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Šioje temoje aprašyti programoje naudojami vartotojo sąsajos (UI) elementai. Prieš naršant sąsajoje vartotojui svarbu žinoti sąsają sudarančių elementų pavadinimus ir funkcijas.
 
@@ -78,7 +77,7 @@ Toliau pateiktame vaizde parodyti šių rūšių pranešimų pavyzdžiai.
 
 - **Pranešimo langas** – jis rodomas virš sąsajos ir su juo reikia atlikti veiksmus, kad galėtumėte toliau naudoti produktą.  
 
-![Toliau pateiktame vaizde rodomas pranešimo lango pavyzdys.](media/user-interface-07.png)
+![Toliau pateiktame vaizde parodytas pranešimo lango pavyzdys.](media/user-interface-07.png)
 
 ## <a name="toolbars-grids-and-lists"></a>Įrankių juostos, tinkleliai ir sąrašai
 
@@ -87,6 +86,3 @@ Toliau pateiktame vaizde parodyti šių rūšių pranešimų pavyzdžiai.
 *Sąrašu* vadinamas įrašų rinkinys, per kurį galite slinkti. Šie įrašai gali būti pateikiami puslapyje juos spustelėjus. Dažnai tokiu atveju bus atidarytas tinklelis.
 
 ![Toliau pateiktame vaizde parodyti įrankių juostų, tinklelių ir sąrašų pavyzdžiai.](media/user-interface-08.png)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

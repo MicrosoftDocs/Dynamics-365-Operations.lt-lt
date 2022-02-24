@@ -1,27 +1,30 @@
 ---
 title: MPOS ir „Cloud POS“ išplėstinės registracijos funkcijos nustatymas
 description: Šioje temoje aprašomos „Cloud POS“ ir „Retail Modern POS“ (MPOS) išplėstinio prisijungimo nustatymo parinktys.
-author: boycezhu
-ms.date: 09/07/2021
+author: rubencdelgado
+manager: AnnBe
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailFunctionalityProfile
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: 92353
 ms.assetid: 7473e237-fbc8-41d5-8ba0-920242747488
 ms.search.region: global
 ms.search.industry: Retail
-ms.author: boycez
+ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 0cc3d3a3cadbc614e82b8cc7ae0b78406247cece
-ms.sourcegitcommit: efcb853a68a77037cca23582d9f6f96ea573727a
+ms.openlocfilehash: 79878e2ffbf219f77f378997c277ced8bb41598c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/07/2021
-ms.locfileid: "7478676"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4414303"
 ---
 # <a name="set-up-extended-logon-functionality-for-mpos-and-cloud-pos"></a>MPOS ir „Cloud POS“ išplėstinės registracijos funkcijų nustatymas
 
@@ -51,7 +54,7 @@ Kai parinktis **Darbuotojui registruojantis naudojant kortelę reikia slaptažod
 
 ## <a name="assigning-an-extended-logon"></a>Išplėstinės registracijos priskyrimas
 
-Pagal numatytuosius parametrus tik vadovai gali darbuotojams priskirti išplėstinės registracijos funkciją. Norėdami priskirti išplėstinės registracijos funkciją, EKA pasirinkite **Išplėstinė registracija**. Tada ieškokite darbuotojo, ieškos lauke įvesdami darbuotojo operatoriaus ID. Pasirinkite darbuotoją ir spustelėkite **Priskirti**. Kitame puslapyje perbraukite arba nuskaitykite išplėstinę registraciją, kad priskirtumėte darbuotoją. Jei perbraukimas arba nuskaitymas sėkmingas, mygtukas **Gerai** tampa aktyvus. Spustelėkite **Gerai**, norėdami įrašyti to darbuotojo išplėstinę registraciją.
+Pagal numatytuosius parametrus tik vadovai gali darbuotojams priskirti išplėstinės registracijos funkciją. Norėdami priskirti išplėstinės registracijos funkciją, EKA pasirinkite **Išplėstinė registracija**. Tada ieškokite darbuotojo, ieškos lauke įvesdami jo operatoriaus ID. Pasirinkite darbuotoją ir spustelėkite **Priskirti**. Kitame puslapyje perbraukite arba nuskaitykite išplėstinę registraciją, kad priskirtumėte darbuotoją. Jei perbraukimas arba nuskaitymas sėkmingas, mygtukas **Gerai** tampa aktyvus. Spustelėkite **Gerai**, norėdami įrašyti to darbuotojo išplėstinę registraciją.
 
 ## <a name="deleting-an-extended-logon"></a>Išplėstinės registracijos naikinimas
 
@@ -59,13 +62,8 @@ Norėdami panaikinti darbuotojui priskirtą išplėstinę registraciją, ieškok
 
 ## <a name="extending-extended-logon"></a>Išplėstinės registracijos išplėtimas
 
-Išplėstinė prisijungimo galimybė leidžia naudoti tik penkis reikšminuosius simbolius, kurie bus unikalus identifikatorius, naudojamas ne langelyje. Pavyzdžiui, jei konfigūruojate dvi korteles, kurių ID „1234567" ir „1234578", abi jos abi bus laikomos „12345". Galite sukurti plėtinį, kad būtų galima palaikyti daugiau simbolių. Jei norite gauti išsamesnių [instrukcijų, patikrinkite MPOS ir debesies EKA išplėstinio registravimosi funkcijos išplėtimą](https://cloudblogs.microsoft.com/dynamics365/no-audience/2018/12/14/extending-the-extended-logon-functionality-for-mpos-and-cloud-pos/).
-
 Registravimosi paslaugą galima išplėsti, kad būtų palaikomi papildomi išplėstinės registracijos įrenginiai, pvz., delnų skaitytuvai. Daugiau informacijos ieškokite EKA išplečiamumo dokumentuose.
 
 ## <a name="using-extended-logon"></a>Išplėstinės registracijos naudojimas
 
 Jei išplėstinė registracija yra sukonfigūruota, o darbuotojui buvo priskirtas brūkšninis kodas arba magnetinė juostelė, darbuotojas tiesiog turi perbraukti arba nuskaityti savo kortelę, kai rodomas EKA registracijos puslapis. Jei prieš tęsiant registraciją būtina įvesti slaptažodį, darbuotojas bus paragintas įvesti savo slaptažodį.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

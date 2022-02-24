@@ -1,23 +1,25 @@
 ---
 title: Paketinis įspėjimų apdorojimas
 description: Šioje temoje pateikiama informacija apie paketinį įspėjimų vykdymą.
-author: RichdiMSFT
-ms.date: 08/24/2021
+author: tjvass
+manager: AnnBe
+ms.date: 09/10/2010
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application user
 ms.reviewer: sericks
 ms.search.region: Global
-ms.author: richdi
+ms.author: tjvass
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
-ms.openlocfilehash: 0ec2a9bd925ccd7dc7c6a8251629bf565ece2268
-ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
+ms.openlocfilehash: d57586cb18c581e4a462d93a64a88310e251a7af
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7416434"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798599"
 ---
 # <a name="batch-processing-of-alerts"></a>Paketinis įspėjimų apdorojimas
 
@@ -80,6 +82,3 @@ Jei nustatysite paketinio vykdymo langą, įspėjimas bus siunčiamas, kai apdor
 
 1. Pasirinkite **Sistemos administravimas** &gt; **Periodinės užduotys** &gt; **Įspėjimai** &gt; **Termino įspėjimai**.
 2. Dialogo lange **Termino įspėjimai** įveskite atitinkamą informaciją.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

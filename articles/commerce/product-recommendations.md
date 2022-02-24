@@ -2,25 +2,29 @@
 title: Produktų rekomendacijų apžvalga
 description: Šioje temoje pateikta bendra informacija apie produkto rekomendacijas. Produktų rekomendacijos leidžia vartotojams lengvai ir greitai rasti norimus produktus ir netgi produktų, kurių jie neketina pirkti.
 author: Moonma
+manager: AnnBe
 ms.date: 05/26/2020
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Retail, Core, Operations
+ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: moonma
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 7824de50a65370ef4f2f23b9c8e926f9bec2fcc3
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
-ms.translationtype: MT
+ms.openlocfilehash: 5aa7db8e53906f9e1416b912fe2c3b70d5430258
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982124"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4414220"
 ---
 # <a name="product-recommendations-overview"></a>Produktų rekomendacijų apžvalga
 
@@ -31,9 +35,6 @@ ms.locfileid: "7982124"
 Pasitelkdami produktų rekomendacijomis vartotojai gali lengvai ir greitai rasti norimų produktų, tad ši funkcija jiems labai naudinga. Kryžminis pardavimas ir papildomas pardavimas gali būti naudojami netgi siekiant padėti klientams surasti papildomų produktų, kurių iš pradžių jie net neketino pirkti. Kai rekomendacijos yra naudojamos siekiant pagerinti produkto atradimą, atsiranda daugiau konversijos padidinimo galimybių, išauga pardavimo įplaukos, netgi pagerėja klientų pasitenkinimas ir tokiu būdu jie išsaugomi.
 
 „e-Commerce“ produktų rekomendacijoms plačiai naudojama „Microsoft“ rekomendacijų mašininio mokymo technologijų platforma.
-
-Ši paslauga yra „Dynamics 365 Commerce” papildinys. Norėdami gauti daugiau informacijos, atsisiųskite naujausią [„Microsoft Dynamics 365” licencijavimo vadovą](https://go.microsoft.com/fwlink/?LinkId=866544).
-
 
 ## <a name="recommendation-service"></a>Rekomendacijų paslauga
 
@@ -49,7 +50,7 @@ Produktų rekomendacijos pasiekiamos toliau nurodytais scenarijais:
 - **Bet kuriame parduotuvės naršymo puslapyje ar nukreipimo puslapyje el. prekyboje:** Jei klientai arba parduotuvės partneriai lankosi parduotuvės puslapyje, rekomendacijų mechanizmas gali siūlyti produktus iš sąrašų **Nauja**, **Perkamiausi** ir **Populiaru**.
 - **Produkto išsamios informacijos puslapyje:** Jei klientai ar parduotuvės partneriai apsilanko puslapyje **Produkto išsami informacija**, rekomendacijos mechanizmas pasiūlys papildomas prekes, kurios taip pat gali būti perkamos. Šie elementai rodomi sąraše **Žmonėms taip pat patiko**.
 - **Operacijų puslapyje arba pirkimo užbaigimo puslapyje:** rekomendacijų mechanizmas siūlo prekių pagal visų prekių krepšelyje sąrašą. Šios prekės rodomos sąraše **Dažnai kartu perkama**.
-- **Pagal asmeninius poreikius pritaikytos rekomendacijos:** prekybininkai gali pateikti prisijungusiems klientams asmeninius sąrašus **Parinkta jums**, taip pat naujas funkcijas, leidžiančias esamus sąrašo scenarijus pritaikyti pagal asmeninius poreikius ir atsižvelgiant į konkretų klientą. Norėdami sužinoti daugiau, žr. [Personalizuotų rekomendacijų įjungimas](personalized-recommendations.md).
+- **Pagal asmeninius poreikius pritaikytos rekomendacijos:** prekybininkai gali pateikti prisijungusiems klientams asmeninius sąrašus **Parinkta jums**, be naujų funkcijų, leidžiančių esamus sąrašo scenarijus pritaikyti pagal asmeninius poreikius ir atsižvelgiant į konkretų klientą. Norėdami sužinoti daugiau, žr. [Personalizuotų rekomendacijų įjungimas](personalized-recommendations.md).
 
 ### <a name="types-of-product-recommendations"></a>Produktų rekomendacijų tipai
 
@@ -87,6 +88,3 @@ Produktų rekomendacijos pasiekiamos toliau nurodytais scenarijais:
 [Rekomendacijų su demonstraciniais duomenimis kūrimas](product-recommendations-demo-data.md)
 
 [DUK apie produktų rekomendacijas](faq-recommendations.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

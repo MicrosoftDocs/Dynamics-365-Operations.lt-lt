@@ -2,9 +2,11 @@
 title: Sugeneruotų XML failų skaidymas pagal failo dydį ir turinio kiekį
 description: Šioje temoje pateikta informacija apie tai, kaip skaidyti sugeneruotus failus pagal failo dydį ir turinio elementų kiekį.
 author: NickSelin
-ms.date: 04/23/2021
+manager: AnnBe
+ms.date: 05/25/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
@@ -14,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 3735bcb06eff966fc364a891b38d44e34e845e35f59314822d13eba40d51d5f4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d60266aba42f502e7707bdace921cfee4526b6ae
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6769977"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4682876"
 ---
 # <a name="split-generated-xml-files-based-on-file-size-and-content-quantity"></a>Sugeneruotų XML failų skaidymas pagal failo dydį ir turinio kiekį
 
@@ -38,13 +40,10 @@ Jei sukonfigūravote formato elemento FAILAS failų paskirties vietas, kuris suk
 
 Norėdami daugiau sužinoti apie šią funkciją, leiskite užduočių vedlį **ER XML failai, suskaidyti atsižvelgiant į failo dydį arba turinio elementų kiekį**, kuris yra **7.5.4.3 Įsigyti / sukurti IT paslaugų ir sprendimų komponentų (10677)** verslo proceso dalis ir gali būti atsisiųstas iš [„Microsoft“ atsisiuntimo centras](https://go.microsoft.com/fwlink/?linkid=874684). Šis užduočių vedlys padės ER formato konfigūravimo proceso metu, norint skaidyti sugeneruotus failus atsižvelgiant į failo dydžio ir turinio elementų kiekio ribas. Norėdami užbaigti užduočių vedlį, turite atsisiųsti šiuos failus:
 
-- [ER modelio konfigūracija – XmlFilesSplittingModel.xml](https://download.microsoft.com/download/e/a/f/eaffe96a-22ec-4a32-898a-f4328c91c387/XmlFilesSplittingModel.xml)
-- [ER formato konfigūracija – XmlFilesSplittingFormat.xml](https://download.microsoft.com/download/e/9/c/e9c5849b-8254-4cdf-bb00-4c2ebc72ddec/XmlFilesSplittingFormat.xml)
+- [ER modelio konfigūracija – XmlFilesSplittingModel.xml](https://go.microsoft.com/fwlink/?linkid=874111)
+- [ER formato konfigūracija – XmlFilesSplittingFormat.xml](https://go.microsoft.com/fwlink/?linkid=874111)
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 [Elektroninių ataskaitų (ER) paskirties vietos](electronic-reporting-destinations.md)
 
 [Elektroninių ataskaitų (ER) formulių kūrimo įrankis](general-electronic-reporting-formula-designer.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

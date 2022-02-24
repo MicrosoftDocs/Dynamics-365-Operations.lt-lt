@@ -2,13 +2,16 @@
 title: Įjungti „apsipirkti panašia mada“ rekomendacijas
 description: Šis skyrius aprašo, kaip įjungti „apsipirkti panašia mada“ produkto rekomendacijas „Microsoft Dynamics 365 Commerce“.
 author: bebeale
+manager: AnnBe
 ms.date: 08/06/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: ''
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -16,24 +19,26 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: e70365be8484d71ef9e0e9823b0a4406b0fd2761439780cafc30e1284bda1f20
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: da957850072e233a41a042d5857f81ddbf178f7a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722005"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4414420"
 ---
-# <a name="enable-shop-similar-looks-recommendations"></a>Įjungti „pirkti panašios išvaizdos“ rekomendacijas
+# <a name="enable-shop-similar-looks-recommendations"></a>Įjungti „apsipirkti panašia mada“ rekomendacijas
 
 [!include [banner](includes/banner.md)]
 
 Šis skyrius aprašo, kaip įjungti „apsipirkti panašia mada“ produkto rekomendacijas „Microsoft Dynamics 365 Commerce“.
 
+## <a name="overview"></a>Peržiūra
+
 „Apsipirkti panašia mada“ rekomendacijų funkcija „Dynamics 365 Commerce“ naudoja dirbtinio intelekto galias ir mašinos mokymosi (AI-ML) tam, kad klientams pristatytų vizualiai panašių produktų rekomendacijas. Įjungus „apsipirkti panašia mada“ rekomendacijas prieinamas visiems mažmeniniams kanalams prekyboje, pardavėjai gali padidinti klientų pasitenkinimą padėdami jiems paprasčiau surasti jų norimas prekes.
 
-„Apsipirkti panašia mada“ funkcijos rekomendacijos naudoja pagrindinių produkto variantų produkto paveikslėlius tam, kad surastų ir rekomenduotų vizualiai panašius produktus iš prekybininko produkto katalogo. 
+„Apsipirkti panašia mada“ funkcijos rekomendacijos naudoja pagrindinių produkto variantų produkto paveiksėlius tam, kad surastų ir rekomenduotų vizualiai panašius produktus iš prekybininko produkto katalogo. 
 
-„Apsipirkti panašia mada“ rekomendacijos yra prieinamas tiek prekybos vietoje (EKA), tiek ir el. prekybos patirtyse.
+„Apsipirkti panašia mada“ rekomendacijos yra prieinamas tiek prekybos vietoje (POS), tiek ir el. prekybos patirtyse.
 
 ### <a name="example-scenarios"></a>Scenarijų pavyzdžiai
 
@@ -51,14 +56,14 @@ Prieš tai, kai pardavėjai gali pradėti rodyti „apsipirkti panašia mada“ 
 - [Įjungti produkto rekomendacijas](enable-product-recommendations.md) prekybos štabe.
 - Patvirtinti, kad medijos serveris palaiko HTTPS skambučius.
 
-Prekybininkai turi sukurti produkto URL rekomendacijoms variklio prieigai prie produkto paveikslėlių. Produkto URL sukūrimui prekybos štabe atlikite šiuos žingsnius.
+Rekmendacijos variklio prieigai prie produkto paveikslėlių, prekybininkai turi sukurti produkto URL. Produkto URL sukūrimui prekybos štabe, atlikite šiuos žingsnius.
 
 1. Eikite į **Produkto paveikslėlius**.
 1. Veiksmų juostoje pasirinkite **Nustatyti medijos šabloną**.
-1. **Nustatyti medijos šabloną** ypatybių juostoje, **Medijos URL** pasirinkite **Kurti URL**.
+1. **Nustatyti medijso šabloną** ypatybių juostoje, **Medijos URL** pasirinkite **Kurti URL**.
 
 > [!NOTE]
-> Jums įjungiant „apsipirkti panašia mada“ rekomendacijos funkciją, pradedamas produkto rekomendacijų sąrašo kūrimas. Gali reikėti atnaujinti prieš tai, kai šie sąrašai bus prieinami ir matomi internete bei EKA terminaluose.
+> Jums įjungiant „apsipirkti panašia mada“ rekomendacijos funkciją, pradedamas produkto rekomendacijų sąrašo kūrimas. Gali reikėti atnaujinti prieš tai, kai šie sąrašai bus prieinami ir matomi internete bei POS terminaluose.
 
 Tam, kad įjungtumėte „apsipirkti panašia mada“ rekomendacijas prekybos štabe, atlikite šiuos žingsnius.
 
@@ -66,11 +71,11 @@ Tam, kad įjungtumėte „apsipirkti panašia mada“ rekomendacijas prekybos š
 1. Prieinamų funkcijų sąraše ieškokite ir pasirinkite **Apsipirkti panašia mada**.
 1. Dešinėje juostoje pasirinkite **Įjungti** tam, kad įjungtumėte paslaugą.
 
-Tolesnis paveikslėlis rodo **Apsipirkti panašia mada** funkciją **Funkcijų valdymo** puslapyje prekybos štabe.
+Tolesnis paveikslėlis rodo **Apsipirkti panšia mada** funkciją **Funkcijų valdymo** puslapyje prekybos štabe.
 
-![Apsipirkti panašia mada funkcija funkcijų valdymo puslapyje prekybos štabe.](./media/enableshopsimilarlooks.png)
+![Apsipirkti panašia mada funkcija funkcijų valdymo puslapyje prekybos štabe](./media/enableshopsimilarlooks.png)
 
-Užbaigus prieš tai aprašytus veiksmus, EKA terminalai automatiškai praplečiami su teksto **Apsipirkti panašia mada** juosta. Pasirinkę **Matyti daugiau**, EKA terminalo vartotojai gali būti nuvesti į paskirtą „apsipirkti panašia mada“ puslapį, kuris gali būti filtruojamas toliau.
+Užbaigus prieš tai aprašytus veiksmus, POS terminalai automatiškai praplečiami su teksto **Apsipirkti panašia mada** juosta. Pasirinkę **Matyti daugiau**, POS terminalo vartotojai gali būti nuvest į paskirtą „apsipirkti panašia mada“ puslapį, kuris gali būti filtruojamas toliau.
 
 > [!NOTE]
 > Jei išjungiate „apsipirkti panašia mada“ rekomendacijų funkciją, jokie kiti produkto rekomendacijų tipai nebus paveikti. Dėl išsamesnės informacijos apie produkto rekomendacijas, žr. [Produkto rekomendacijų apžvalga](product-recommendations.md).
@@ -83,12 +88,12 @@ Tam, kad įtrauktumėte **Apsipirkti panašia mada** mygtuką į PDP naudodami p
 
 1. Atverkite esantį vietos kūrimo įrankio puslapį, turintį įsigijimo laukelio modulį.
 1. Kairėje naršymo juostoje pasirinkite įsigijimo laukelio modulį.
-1. Dešinėje naršymo juostoje, pasirinkite **Įjungti apsipirkimą panašia mada nurodą** žymimą laukelį.
+1. Dešinėje naršymo juostoje, pasirinkite **Įjungti apsipirkimą panašia mada nuroodą** žymimą laukelį.
 1. Pasirinkite **Išsaugoti**, tada – **Baigti redagavimą**, kad užregistruotumėte puslapį, o tada pasirinkite **Publikuoti**, kad publikuotumėte jį. Po to, kai puslapis yra išpublikuotas, PDP apims **Apsipirkti panašia mada** mygtuką.
 
 Toliau pateiktas paveikslėlis rodo **Apsipirkti panašia mada nuorodos įjungimo** žymimą laukelį ir **Apsipirkti panašia mada** mygtuką PDP pavyzdyje vietos kūrimo įrankyje.
 
-![Apsipirkti panašia mada nuorodos žymimas laukelis ir apsipirkti panašia mada mygtukas PDP vietos kūrimo įrankyje.](./media/SSLecomtooling.png)
+![Apsipirkti panašia mada nuorodos žymimas laukelis ir apsipirkti panašia mada mygtukas PDP vietos kūrimo įrankyje](./media/SSLecomtooling.png)
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
@@ -111,6 +116,3 @@ Toliau pateiktas paveikslėlis rodo **Apsipirkti panašia mada nuorodos įjungim
 [Rekomendacijų su demonstraciniais duomenimis kūrimas](product-recommendations-demo-data.md)
 
 [DUK apie produktų rekomendacijas](faq-recommendations.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

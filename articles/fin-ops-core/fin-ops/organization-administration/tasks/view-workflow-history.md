@@ -2,9 +2,11 @@
 title: Darbo eigos retrospektyvos peržiūra
 description: Atlikite šiuos veiksmus, jei norite peržiūrėti dokumento, pateikto darbo eigos sistemai apdoroti ir patvirtinti, būseną.
 author: jasongre
+manager: AnnBe
 ms.date: 07/09/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WorkflowStatus
 audience: Application User
@@ -13,19 +15,16 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0ca9a8bff246cc878a0703947a7f8c1c4fc01963
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
-ms.translationtype: MT
+ms.openlocfilehash: 325478ed89b9c650899001dd08d1c98550fce520
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069964"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798985"
 ---
 # <a name="view-workflow-history"></a>Darbo eigos retrospektyvos peržiūra
 
 [!include [banner](../../includes/banner.md)]
-
-
-[!INCLUDE [PEAP](../../../../includes/peap-1.md)]
 
 Atlikite šiuos veiksmus, jei norite peržiūrėti dokumento, pateikto darbo eigos sistemai apdoroti ir patvirtinti, būseną. Kuriant šią procedūrą naudojama demonstracinių duomenų įmonė yra USMF.
 
@@ -47,6 +46,3 @@ Atlikite šiuos veiksmus, jei norite peržiūrėti dokumento, pateikto darbo eig
     - Spustelėjus mygtuką **Iš naujo priskirti** iš naujo atidaromas dialogo langas, kuriame galima iš naujo priskirti darbo elementą kitam vartotojui.  
     - Įsitikinkite, kad dalis **Sekimo informacija** yra išskleista. Šioje dalyje galite peržiūrėti pasirinkto dokumento darbo eigos retrospektyvą.  
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

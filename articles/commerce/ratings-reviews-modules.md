@@ -2,30 +2,35 @@
 title: Įvertinimų ir apžvalgų moduliai
 description: Šioje temoje aptariami įvertinimų ir apžvalgų moduliai, naudojami produkto informacijos puslapiuose programoje „Microsoft Dynamics 365 Commerce“.
 author: gvrmohanreddy
+manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2020-10-31
 ms.dyn365.ops.version: Release 10.0.6
-ms.openlocfilehash: 66ee2d4185cad45b70b19fb474c64ae77a2868e835b20d5275e21610c0150370
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 85fb1272103eed7d6e44635b7c20438471d96b34
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6761567"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4414448"
 ---
 # <a name="ratings-and-reviews-modules"></a>Įvertinimų ir apžvalgų moduliai
 
 [!include [banner](includes/banner.md)]
 
 Šioje temoje aptariami įvertinimų ir apžvalgų moduliai, naudojami produkto informacijos puslapiuose (PDP) programoje „Microsoft Dynamics 365 Commerce“.
+
+## <a name="overview"></a>Peržiūrėti
 
 El. prekybos svetainėse nurodyti įverčiai ir apžvalgos klientams padeda sužinoti apie produktus prieš priimant pirkimo sprendimą, taip pat tai yra mechanizmas, skirtas klientų atsiliepimams apie produktus surinkti. 
 
@@ -42,23 +47,19 @@ PIIP puslapiuose įverčių ir apžvalgų suvestinę rodo tolesni trys moduliai.
  
 Toliau pateiktoje iliustracijoje rodoma, kaip PIIP puslapyje atrodo įverčių ir apžvalgų moduliai.
 
-![Įverčių ir apžvalgų moduliai PIIP puslapyje.](media/rnr-eCommerce-pdp-reviews-modules_design.png)
+![Įverčių ir apžvalgų moduliai PIIP puslapyje](media/rnr-eCommerce-pdp-reviews-modules_design.png)
 
 > [!TIP] 
 > Norėdami gauti informacijos apie tai, kaip optimizuoti PIIP šablonus ir maketus, kad įverčių ir apžvalgų modulių konfigūracijas galėtumėte bendrai naudoti keliuose el. prekybos svetainės PIIP, žr. [Šablonų ir maketų apžvalga](templates-layouts-overview.md).
 
 Tolesnėje iliustracijoje parodyta, kaip „Dynamics 365 Commerce“ dialogo lange **Modulio įtraukimas** pateikiami įverčių ir apžvalgų moduliai.
-![Dialogo langas Modulio įtraukimas.](media/rnr-eCommerce-pdp-adding-rnr-modules.png)
+![Dialogo langas Modulio įtraukimas](media/rnr-eCommerce-pdp-adding-rnr-modules.png)
 
 ### <a name="write-review-module"></a>Apžvalgų rašymo modulis
 
 Apžvalgų rašymo modulyje yra mygtukas **Rašyti apžvalgą**, kurį naudodami vartotojai gali prisijungti, priskirti įvertį ir parašyti produkto apžvalgą. Naudodami šį modulį vartotojai taip pat gali redaguoti įvertį arba peržiūrėti, ką pateikė anksčiau. Šis modulis PIIP puslapyje paprastai rodomas virš įverčių histogramų ir produktų apžvalgų sąrašo modulių.
 Tolesnėje iliustracijoje parodytas dialogo langas **Apžvalgos rašymas**, rodomas klientui pasirinkus **Rašyti apžvalgą**. Šiame dialogo lange klientas gali pateikti įvertį ir apžvalgą.
-
-![Dialogo langas Apžvalgos rašymas.](media/rnr-eCommerce-write-review-module.png)
-
-Tolesnėje lentelėje parodyta apžvalgų rašymo modulio ypatybė, kurią reikia sukonfigūruoti kūrimo įrankyje.
-
+![Apžvalgų rašymo dialogo langas](media/rnr-eCommerce-write-review-module.png) Tolesnėje lentelėje parodyta apžvalgų rašymo modulio ypatybė, kurią reikia sukonfigūruoti kūrimo įrankyje.
 | Ypatybės pavadinimas | Vertė        | Ypatybės aprašas                 |
 |---------------|--------------|--------------------------------------|
 | Vardas ir pavardė          | Rašyti apžvalgą | Apžvalgų rašymo modulio pavadinimas. |
@@ -66,8 +67,8 @@ Tolesnėje lentelėje parodyta apžvalgų rašymo modulio ypatybė, kurią reiki
 ### <a name="ratings-histogram-module"></a>Įverčių histogramų modulis
 
 Įverčių histogramų modulyje rodoma įverčių histograma. Šis modulis PIIP puslapyje paprastai rodomas tarp apžvalgų rašymo modulio ir produktų apžvalgų sąrašo modulio.
-Įverčių histogramų modulio konfigūruoti nereikia. Tereikia modulį įtraukti į PIIP šabloną. Tolesnėse iliustracijose parodyta, kaip programoje „Dynamics 365 Commerce“ atrodo PIIP šablonas, kai sukonfigūruota PIIP puslapiuose rodyti įverčių ir apžvalgų modulius.
-![PIIP šablonas, kai sukonfigūruota PIIP puslapiuose rodyti įverčius ir apžvalgas.](media/rnr-eCommerce-pdp-reviews-modules.png)
+Įverčių histogramų modulio konfigūruoti nereikia. Tereikia modulį įtraukti į PIIP šabloną. Tolesnėse iliustacijose parodyta, kaip programoje „Dynamics 365 Commerce“ atrodo PIIP šablonas, kai sukonfigūruota PIIP puslapiuose rodyti įverčių ir apžvalgų modulius.
+![PIIP šablonas, kai sukonfigūruota PIIP puslapiuose rodyti įverčius ir apžvalgas](media/rnr-eCommerce-pdp-reviews-modules.png)
 
 ### <a name="product-reviews-list-module"></a>Produktų apžvalgų sąrašo modulis
 
@@ -82,11 +83,11 @@ Tolesnėje lentelėje parodytos produktų apžvalgų sąrašo modulio ypatybės,
 
 Produktų apžvalgų sąrašo modulyje yra vieta, kurioje galite įtraukti įverčių histogramų modulį. Toliau pateiktoje iliustracijoje parodyta, kaip programoje „Dynamics 365 Commerce“ į produktų apžvalgų sąrašo modulį galite įtraukti įverčių histogramų modulį.
 
-![Įverčių histogramų modulio įtraukimas į produktų apžvalgų sąrašo modulį.](media/rnr-eCommerce-pdp-rating-histogram-summary.png)
+![Įverčių histogramų modulio įtraukimas į produktų apžvalgų sąrašo modulį](media/rnr-eCommerce-pdp-rating-histogram-summary.png)
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
-[Modulių bibliotekos peržiūra](starter-kit-overview.md)
+[Modulių bibliotekos apžvalga](starter-kit-overview.md)
 
 [Konteinerio modulis](add-container-module.md)
 
@@ -99,6 +100,3 @@ Produktų apžvalgų sąrašo modulyje yra vieta, kurioje galite įtraukti įver
 [Antraštės modulis](author-header-module.md)
 
 [Poraštės modulis](author-footer-module.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

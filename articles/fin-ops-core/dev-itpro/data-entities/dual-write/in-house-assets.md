@@ -2,44 +2,77 @@
 title: Vidaus paslaugų turtas
 description: Šioje temoje aprašoma, kaip galite naudoti „Microsoft Dynamics 365 Field Service“, kad būtų galima aptarnauti kliento turtą ir turtą įmonėje.
 author: RamaKrishnamoorthy
+manager: AnnBe
 ms.date: 01/27/2020
 ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: ''
 audience: Application User, IT Pro
-ms.reviewer: tfehr
+ms.reviewer: rhaertle
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
+ms.search.industry: ''
 ms.author: ramasri
+ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: 8048a99951eea3fbae34e56c1b444c75ad3d199d
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
-ms.translationtype: MT
+ms.openlocfilehash: ebc9c1fbb7c0738af13b2a16aafeeb03fa6aaed0
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7781421"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684010"
 ---
 # <a name="in-house-assets-for-servicing"></a>Vidaus paslaugų turtas
 
 [!include [banner](../../includes/banner.md)]
 
+
+
 „Microsoft Dynamics 365 Field Service“ sukurta klientų turtui aptarnauti. Dynamics 365 Supply Chain Management turto valdymas yra skirtas valdyti vidaus turtą. Integravę šias dvi programėles, galite naudoti „Field Service“, kad aptarnautumėte tiek kliento, tiek vidaus turtą. Taip pat galite klasifikuoti turtą, pagrįstą funkcine vieta ar hierarchija, ir sekti aptarnavimą išsamesniu lygiu.
 
-Daugiau informacijos rasite [Dynamics 365 Field Service ir „Supply Chain Management“ integravimas](/dynamics365/field-service/supply-chain-field-service-integration).
+Daugiau informacijos rasite [Dynamics 365 Field Service ir „Supply Chain Management“ integravimas](https://docs.microsoft.com/dynamics365/field-service/supply-chain-field-service-integration).
 
 ## <a name="templates"></a>Šablonai
 
 Vidinį turtą sudaro pagrindinių lentelių schemų, veikiančių kartu, kai duomenys yra naudojami interaktyviai, rinkinys, kaip parodyta tolesnėje lentelėje.
 
-| „Finance and operations” programos | „Customer engagement“ programos | Aprašas |
+| „Finance and Operations” programėlės | Modeliu grįstos programos „Dynamics 365“ | aprašymas |
 |-----------------------------|-----------------------------------|-------------|
-[Turto valdymo turto ciklo modeliai](mapping-reference.md#119) | msdyn_assetlifecyclemodels | |
-[Turto valdymo turto ciklo modelių būsenos](mapping-reference.md#120) | msdyn_assetlifecyclestates | |
-[Turto valdymo turto tipai](mapping-reference.md#124) | msdyn_customerassetcategories | |
-[Turto valdymo turtas](mapping-reference.md#125) | msdyn_customerassets | |
-[Turto valdymo funkcinių vietų ciklo modeliai](mapping-reference.md#134) | msdyn_functionallocationlifecyclemodels | |
-[Turto valdymo funkcinių vietų ciklo būsenos](mapping-reference.md#135) | msdyn_functionallocationlifecyclestates | |
-[Turto valdymo funkcinių vietų tipai](mapping-reference.md#137) | msdyn_functionallocationtypes | |
-[Turto valdymo funkcinės vietos](mapping-reference.md#136) | msdyn_functionallocations | |
-[Turto valdymo gamintojai](mapping-reference.md#153) | msdyn_manufacturers | |
-[Turto valdymo modeliai](mapping-reference.md#154) | msdyn_models | |
-[Turto valdymo garantija](mapping-reference.md#209) | msdyn_warranties | |
+| Turto valdymo turto ciklo modeliai | msdyn\_assetlifecyclemodels | |
+| Turto valdymo turto ciklo modelių būsenos | msdyn\_assetlifecyclestates | |
+| Turto valdymo turtas | msdyn\_customerassets | |
+| Turto valdymo turto tipai | msdyn\_customerassetcategories | |
+| Turto valdymo funkcinių vietų ciklo modeliai | msdyn\_functionallocationlifecyclemodels | |
+| Turto valdymo funkcinių vietų ciklo būsenos | msdyn\_functionallocationlifecyclestates | |
+| Turto valdymo funkcinės vietos | msdyn\_functionallocations | |
+| Turto valdymo funkcinių vietų tipai | msdyn\_functionallocationtypes | |
+| Turto valdymo gamintojai | msdyn\_manufacturers | |
+| Turto valdymo modeliai | msdyn\_models | |
+| Turto valdymo garantija | msdyn\_warranties | |
 
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+[!include [symbols](../../includes/dual-write-symbols.md)]
+
+[!include [lifecycle models](includes/AssetManagementAssetLifecycleModels-msdyn-assetlifecyclemodels.md)]
+
+[!include [lifecycle states](includes/AssetManagementAssetLifecycleStates-msdyn-assetlifecyclestates.md)]
+
+[!include [assets](includes/AssetManagementAssets-msdyn-customerassets.md)]
+
+[!include [asset types](includes/AssetManagementAssetTypes-msdyn-customerassetcategories.md)]
+
+[!include [functional location lifecycle models](includes/AssetManagementFunctionalLocationLifecycleModels-msdyn-functionallocationlifecyclemodels.md)]
+
+[!include [functional location lifecycle states](includes/AssetManagementFunctionalLocationLifecycleStates-msdyn-functionallocationlifecyclestates.md)]
+
+[!include [functional locations](includes/AssetManagementFunctionalLocations-msdyn-functionallocations.md)]
+
+[!include [functional location types](includes/AssetManagementFunctionalLocationTypes-msdyn-functionallocationtypes.md)]
+
+[!include [manufacturers](includes/AssetManagementManufacturers-msdyn-manufacturers.md)]
+
+[!include [models](includes/AssetManagementModels-msdyn-models.md)]
+
+[!include [warranty](includes/AssetManagementWarranty-msdyn-warranties.md)]

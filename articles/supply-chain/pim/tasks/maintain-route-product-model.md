@@ -1,24 +1,26 @@
 ---
 title: Tvarkyti produkto modelio maršrutą
 description: Norint paleisti šią procedūrą, reikia, kad būtų produkto konfigūracijos modelis.
-author: t-benebo
+author: ShylaThompson
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard, EcoResProductVariantMaintainWorkspace, PCProductConfigurationModelListPage, PCProductConfigurationModelDetails, PCRouteOperationDetails, WrkCtrCapabilityLookUp
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: benebotg
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 88df8b867ac7f354417add0462e7999747333451
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 90ea3f65284cc97906002015c715d9f071202bdb
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577269"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4966835"
 ---
 # <a name="maintain-route-for-a-product-model"></a>Tvarkyti produkto modelio maršrutą
 
@@ -26,44 +28,41 @@ ms.locfileid: "7577269"
 
 Norint paleisti šią procedūrą, reikia, kad būtų produkto konfigūracijos modelis. Atliekant šią procedūrą naudojamas aukščiausios kokybės garsiakalbio modelis iš demonstracinės įmonės USMF.
 
-## <a name="add-a-route-operation"></a>Įtraukti maršruto operaciją
 
-1. Eikite į **Produkto informacijos valdymas \> Produktai \> Produkto konfigūracijos modeliai**.
-1. Sąraše raskite ir pasirinkite norimą įrašą.
+## <a name="add-a-route-operation"></a>Įtraukti maršruto operaciją
+1. Spustelėkite Produkto varianto modelio aprašą.
+2. Spustelėkite Produkto konfigūracijos modeliai.
+3. Sąraše raskite ir pasirinkite norimą įrašą.
     * Šiai užduočiai pasirinkite aukščiausios kokybės garsiakalbio modelį.  
-1. Šiame sąraše pasirinkite nuorodą pasirinktoje eilutėje.
-1. Išplėskite skyrių **Maršruto operacijos**.
-1. Pasirinkite **Įtraukti**.
-1. Lauke **Pavadinimas** įveskite reikšmę.
-1. Lauke **Aprašo laukas** surinkite reikšmę.
-1. Pasirinkite **Įrašyti**.
+4. Sąraše spustelėkite saitą pasirinktoje eilutėje.
+5. Išplėskite skyrių Maršruto operacijos.
+6. Spustelėkite Pridėti.
+7. Lauke Pavadinimas surinkite reikšmę.
+8. Lauke Aprašas įveskite reikšmę.
+9. Spustelėkite Įrašyti.
 
 ## <a name="enter-route-operation-details"></a>Įvesti maršruto operacijos informaciją
-
-1. Pasirinkite **maršruto operacijos** informaciją.
-1. Lauke **Operacija** įveskite arba pasirinkite vertę.
-1. Lauke **Oper. nr.** įveskite skaičių.
+1. Spustelėkite Maršruto operacijos informacija.
+2. Lauke Operacija įveskite arba pasirinkite vertę.
+3. Lauke Oper. Nr. įveskite skaičių.
     * Operacijų numeriai nustato maršruto seką.  
     * Kiekviena maršruto operacijos ypatybė gali gauti statinę vertę arba būti susieta su atributas. Susiejus su atributu, vertė bus nustatyta kaip konfigūracijos dalis.  
-1. Lauke **Maršruto grupė** įveskite arba pasirinkite vertę.
+4. Lauke Maršruto grupė įveskite arba pasirinkite vertę.
     * Maršruto grupė nustato esminę įkainojimo, suvartojimą ir nustatymo elgseną.  
-1. Pasirinkite skirtuką **Nustatymas**.
-1. Pasirinkite skirtuką **Laikas**.
-1. Lauke **Apdorojamas kiekis** įveskite skaičių.
+5. Spustelėkite skirtuką Nustatymas.
+6. Spustelėkite skirtuką Laikas.
+7. Lauke Apdorojamas kiekis įveskite skaičių.
     * Nustatykite, kiek bus apdorojama vienos operacijos metu.  
-1. Lauke **Valandos/laikas** įveskite skaičių.
+8. Lauke Valandos / laikas įveskite skaičių.
     * Įveskite laiko koeficientą.  
-1. Pažymėkite **Nustatyti** laukelį.
-1. Lauke **Vykdymo laikas** įveskite skaičių.
+9. Pažymėkite žymės langelį Nustatyti.
+10. Lauke Vykdymo laikas įveskite skaičių.
     * Nustatykite apdorojimo laiką, reikalingą apdoroti tą kiekį, kurį nurodėte.  
-1. Pasirinkite skirtuką **Išteklių reikalavimai**.
-1. Pasirinkite **Įtraukti**.
-1. Sąraše pažymėkite pasirinktą eilutę.
-1. Lauke **Reikalavimų tipas** pasirinkite pasirinktį.
+11. Spustelėkite skirtuką Išteklių reikalavimai.
+12. Spustelėkite Pridėti.
+13. Sąraše pažymėkite pasirinktą eilutę.
+14. Lauke Reikalavimų tipas pasirinkite pasirinktį.
     * Nuspręskite, ar norite nurodyti konkrečius išteklius ar galimybes, kurias jie turi turėti.  
-1. Lauke **Reikalavimai** įveskite arba pasirinkite vertę.
-1. Pasirinkite **Gerai**.
+15. Lauke Reikalavimai įveskite arba pasirinkite vertę.
+16. Spustelėkite GERAI.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

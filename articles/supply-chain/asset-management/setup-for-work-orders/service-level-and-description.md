@@ -1,10 +1,12 @@
 ---
 title: Aptarnavimo lygis ir aprašas
 description: Šioje temoje paaiškintas aptarnavimo lygis ir aprašas modulyje Turto valdymas.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 08/13/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetObjectServiceLevel, EntAssetWorkOrderStandardDescription, EntAssetWorkOrderServiceLevel, EntAssetServiceLevelLookup
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 32e6dd6ba7291e8ea1cb78eeed2d8e2fcec0f6dd3cbd039336be0169730101ba
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8bb56e5103bd9e18e88c164cd308e55d48e64823
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6758693"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5019384"
 ---
 # <a name="service-level-and-description"></a>Aptarnavimo lygis ir aprašas
 
@@ -45,7 +47,7 @@ Sukūrę darbo užsakymą galbūt norėsite nustatyti darbo užsakymo aptarnavim
 8. Jei be darbo užsakymo pabaigos datos norite nustatyti jo pabaigos laiką, nustatykite parinkties **Nustatyti pabaigos laiką** nuostatą **Taip**. Tada lauke **Pabaigos laikas** įveskite pabaigos laiką. Jei nustatysite parinkties nuostatą **Ne**, bus naudojamas dabartinis dienos laikas.
 9. Pasirinkite **Įrašyti**.
 
-![Darbo užsakymų paslaugos lygio puslapis.](media/19-setup-for-work-orders.png)
+![Darbo užsakymų paslaugos lygio puslapis](media/19-setup-for-work-orders.png)
 
 ## <a name="create-a-description"></a>Aprašo kūrimas
 
@@ -53,6 +55,3 @@ Sukūrę darbo užsakymą galbūt norėsite nustatyti darbo užsakymo aptarnavim
 2. Pasirinkite **Naujas**.
 3. Lauke **Aprašas** įveskite aprašą.
 4. Pasirinkite **Įrašyti**.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

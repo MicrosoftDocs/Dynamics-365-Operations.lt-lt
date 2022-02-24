@@ -52,6 +52,3 @@ Onboard automatiškai išsiųs naujam darbuotojui el. laišką, nurodantį, koki
     ![[Keitimų stūmimas į išvesties šabloną į visus vedlius, kurie sukuriami iš jo](./media/onboard-push-changes.png)](./media/onboard-push-changes.png)
 
 Naujiems darbuotojams pakeitimai bus matomi atidarius supažindinimo vadovus. Tačiau „Onboard” naujiems darbuotojams nesiųs įspėjimų el. paštu pranešti, kad pasikeitė jų supažindinimo vadovas. Kad būtų lengviau identifikuoti, šalia kiekvieno pakeitimo atsiras raudona žymė **Nauja**. 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,9 +2,11 @@
 title: Darbo skaidymas
 description: Šiame temoje paaiškinama informacija apie darbo atskyrimo funkciją. Ši funkcija leidžia jums atskirti didelius darbo užsakymus į keletą mažesnių darbo užsakymų, kuriuos galite tuomet priskirti keliems sandėlio darbuotojų. Tokiu būdu tas pats darbas gali būti paimamas vienu metu kelių sandėlio darbuotojų.
 author: mirzaab
+manager: tfehr
 ms.date: 10/15/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
@@ -12,17 +14,15 @@ ms.search.region: Global
 ms.search.industry: WHSWorkTableListPage
 ms.author: mirzaab
 ms.search.validFrom: 2020-10-15
-ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 8b06164a81a18548cf9d98ea2f577b5783145100
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
-ms.translationtype: MT
+ms.dyn365.ops.version: Release 10.0.8
+ms.openlocfilehash: 8a530f3887c3c66295177d480a8c486dd0984153
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7778262"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4965532"
 ---
 # <a name="work-split"></a>Darbo skaidymas
-
-[!include [banner](../includes/banner.md)]
 
 Darbo atskyrimo funkcija leidžia jums atskirti didelio darbo ID (tai reiškia, darbo užsakymus su keliomis linijomis) į keletą mažesnių darbo ID ir tuomet priskirti juos keliems sandėlio darbuotojams. Tokiu būdu tas pats darbas sukūrimo numeris gali būti paimamas vienu metu kelių sandėlio darbuotojų.
 
@@ -33,9 +33,9 @@ Darbo atskyrimo funkcija leidžia jums atskirti didelio darbo ID (tai reiškia, 
 
 Prieš tai, kai galėsite naudoti darbo atskyrimo funkciją, turite įjungti funkciją ir būtinųjų sąlygių funkcijų savo sistemoje. Administratoriai gali naudoti [funkcijos valdymą](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) nustatymus tam, kad patikrintų funkcijų būseną ir jas įjungtų kaip būtina.
 
-Pirmiausia įjunkite būtinąsias sąlygas *Organizacijos sklaidos darbo blokavimo* funkciją, jei ji dar nėra įjungta. Kaip tiekimo grandinės valdymo versija 10.0.21, ši funkcija yra privaloma, todėl ji yra įjungta pagal numatytuosius nustatymus ir negali būti išjungtas dar kartą. Tačiau funkcija vis dar pateikiama [funkcijų valdyme](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) tokiu būdu:
+Pirmiausia įjunkite būtinąsias sąlygas *Organizacijos sklaidos darbo blokavimo* funkciją, jei ji dar nėra įjungta. Darbo srityje **Funkcijų valdymas** ši funkcija yra nurodyta toliau pateikiamu būdu.
 
-- **Modulis:** *Warehouse management*
+- **Modulis:** *Sandėlio valdymas*
 - **Funkcijos pavadinimas:** *Organizacijos sklaidos darbo blokavimas*
 
 > [!NOTE]
@@ -53,7 +53,7 @@ Toliau, įjunkite *Darbo atskyrimo* funkciją, kuri yra įrašyta tolesne tvarka
 - **Atskyrimo darbas** – Atskirkite esamo darbo ID į keletą mažesnių darbų ID, kurie gali būti tvarkomi atskirų darbuotojų.
 - **Atšaukite darbo atskyrimo seansą** – Atšaukite darbo atskyrimo seansą ir padarykite darbą prieinamą tvarkymui.
 
-![Atskyrimo darbas ir Atšaukimo darbo atskyrimo seanso mygtukai.](media/Work_split_buttons.png "Atskyrimo darbas ir Atšaukimo darbo atskyrimo seanso mygtukai")
+![Atskyrimo darbas ir Atšaukimo darbo atskyrimo seanso mygtukai](media/Work_split_buttons.png "Atskyrimo darbas ir Atšaukimo darbo atskyrimo seanso mygtukai")
 
 > [!IMPORTANT]
 > **Atskyrimo darbo** mygtukas nebus prieinamas, jei nebus patenkintos tolesnės sąlygos:
@@ -69,7 +69,7 @@ Toliau, įjunkite *Darbo atskyrimo* funkciją, kuri yra įrašyta tolesne tvarka
 >
 > - Darbą šiuo metu atskiria kitas vartotojas. Jei bandote atverti atskyrimo langą darbui, kurį jau atskiria kitas vartotojas, gausite šį klaidos pranešimą: „Darbas su ID \#\#\#\# šiuo metu atskiriamas. Bandykite po kelių minučių. Jei ir toliau gaunate šį pranešimą, susisiekite su vadovu."
 
-Nauja darbo blokavimo priežastis, *Atskirti darbą*, rodoma, kai darbo ID yra atskyrimo procese. Jei vartotojas bando vykdyti darbą, ji rodoma tiek **Atskirti darbą** puslapyje, tiek sandėlio valdymo mobiliųjų įrenginių programėlėje. Kai blokavimo priežastys yra naudojamos, **Blokuota bangos** laukelio pavadinimas iš darbo ID yra pakeistas į **Blokuotas**.
+Nauja darbo blokavimo priežastis, *Atskirti darbą*, rodomas, kai darbo ID yra atskyrimo procese. Jis rodomas tiek **Atskirti darbą** puslapyje ir sandėlio programoje, jei vartotojas bando vykdyti darbą. Kai blokavimo priežastys yra naudojamos, **Blokuota bangos** laukelio pavadinimas iš darbo ID yra pakeistas į **Blokuotas**.
 
 ## <a name="initiate-a-work-split"></a>Pradėkite darbo atskyrimą
 
@@ -96,7 +96,7 @@ Norėdami atskirti darbą atlikite šiuos žingsnius.
 
     **Darbo blokavimo priežastis** laukelis esamam darbui bus nustatytas į *Atskirti darbą* ir darbas bus užblokuotas.
 
-    ![Blokavimo priežastis.](media/Blocking_reason.png "Blokavimo priežastis")
+    ![Blokavimo priežastis](media/Blocking_reason.png "Blokavimo priežastis")
 
 1. Pasirinkite eilutes, kad pašalintumėte iš esamo darbo ID ir įtrauktumėte naują darbo ID. Atistinka šis įvykis:
 
@@ -147,13 +147,10 @@ Norėdami pabaigti darbo atskyrimą, *Atskirti darbą* blokavimo priežastis tur
 
 Po to, kai *Atskirti darbą* blokavimo priežastis yra panaikinta, darbas gali vykti mobiliame įrenginyje su sąlyga, kad **Blokuotas** būsena yra nustatyta į *Ne* darbo ID.
 
-## <a name="user-blocking-on-the-warehouse-management-mobile-app"></a>Vartotojų blokavimas sandėlio valdymo mobiliųjų įrenginių programėlėje
+## <a name="user-blocking-on-the-warehouse-app"></a>Vartotojo blokavimas sandėlio programoje
 
-Jei bandote naudoti sandėlio valdymo mobiliųjų įrenginių programėlę, kad vykdytumėte paėmimo darbą pagal atskiriamą darbo ID, gausite tolesnį klaidos pranešimą: „Darbas su ID  \#\#\#\# šiuo metu atskiriamas.” Jei gaunate šį pranešimą, pasirinkite **Atšaukti**. Tuomet galite tęsti šio darbo apdorojimą.
+Jei bandote naudoti sandėlio programą, kad vykdytumėte paėmimo darbą pagal atskiriamą darbo ID, gausite tolesnį klaidos pranešimą: „Darbas su ID  \#\#\#\# šiuo metu atskiriamas." Jei gaunate šį pranešimą, pasirinkite **Atšaukti**. Tuomet galite tęsti šio darbo apdorojimą.
 
 ## <a name="other-blocked-operations"></a>Kitos užblokuotos operacijos
 
 Bet kurios operacijos, kurios keičia darbo eilutes, darbo inventoriaus perdavimus ar papildymo nuoradas, kurios susijusios su atskiriamu darbu neveiks ir bus rodomas tolesnis klaidos pranešimas : „Darbas su ID \#\#\#\# šiuo metu yra atskiriamas."
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

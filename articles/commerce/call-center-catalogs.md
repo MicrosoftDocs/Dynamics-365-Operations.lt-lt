@@ -2,13 +2,16 @@
 title: Skambučių centro katalogai
 description: Šioje temoje aprašyta konkreti skambučių centro funkcija, skirta katalogams „Dynamics 365 Commerce“.
 author: josaw1
+manager: AnnBe
 ms.date: 05/15/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailMCRChannelDetailPage, RetailCatalogDetails
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: 16231
 ms.assetid: f28a827c-3a50-4d5e-83eb-e5a768db70a1
 ms.search.region: global
@@ -16,12 +19,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 6fae877b04fdbd84e1c2508f91bbf53b5412b350c5d2c8978aafb2d7f49783f6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9abe493746719d2e229ef09c2eb5f436b91b2171
+ms.sourcegitcommit: 4c6d31f3ebd88212d3d1497a4bba9c64c5300444
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6742517"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "4414494"
 ---
 # <a name="call-center-catalogs"></a>Skambučių centro katalogai
 
@@ -39,7 +42,7 @@ Tiesioginės vartotojo rinkodaros įmonės visą dėmesį teikia sekdamos atsaky
 
 Eikite į **Mažmeninė prekyba ir prekyba** \> **Katalogai ir asortimentai** \> **Visi katalogai** ir sukonfigūruokite savo katalogą.
 
-Sukūrę naują katalogą pirmiausia turite jį susieti su vienu ar keliais kanalais. Tą galima atlikti „FastTab“ skirtuke **Prekybos kanalai**, kuris pateiktas formoje **Katalogo sąranka**. Spustelėkite **Įtraukti** ir pasirinkite vieną ar kelis kanalus. Kuriant katalogą galima naudoti tik su jūsų pasirinktu kanalu susietus elementus [asortimentus](/dynamics365/unified-operations/retail/assortments).
+Sukūrę naują katalogą pirmiausia turite jį susieti su vienu ar keliais kanalais. Tą galima atlikti „FastTab“ skirtuke **Prekybos kanalai**, kuris pateiktas formoje **Katalogo sąranka**. Spustelėkite **Įtraukti** ir pasirinkite vieną ar kelis kanalus. Kuriant katalogą galima naudoti tik su jūsų pasirinktu kanalu susietus elementus [asortimentus](https://docs.microsoft.com/dynamics365/unified-operations/retail/assortments).
 
 Norint įtraukti produktus į katalogą, reikia pasirinkti naršymo hierarchiją. Naršymo hierarchija palaikys katalogo kategorijos struktūrą. Turite išsirinkti vieną iš naršymo hierarchijų, susietą su kanalais, pasirinktą „FastTab“ skirtuke **Prekybos kanalai**, pateikiamą puslapyje **Katalogas**. Jei naršymo kanalas anksčiau su kanalu susietas nebuvo, eikite į parinktį **Mažmeninė prekyba ir prekyba** \> **Kanalo sąranka** \> **Kanalo kategorijos ir produkto atributai**, kad susietumėte numatytąją naršymo hierarchiją su savo kanalais.
 
@@ -98,6 +101,3 @@ Skirtuke **Katalogai** taip pat pasiekiamos parinktys, skirtos **mokėjimo grafi
 ## <a name="additional-notes"></a>Papildomos pastabos
 
 Tuo metu, kai šaltinio kodo ID taikomas skambučių centro pardavimo užsakymui, jis naudojamas nustatant kainas, akcijas, scenarijus ir papildomą / kryžminį pardavimą, būdingą konkrečiam katalogui. Sistema nedraus ir leis pardavimo užsakyme užsakyti produktą, kurio nėra kataloge. Jei užsakoma prekė, kuri nepriklauso tam katalogui, sistema prekės kainai arba akcijoms pirmiausia taikys tą **kainų grupę**, kuri apibrėžta skambučių centro kanale (**Mažmeninė prekyba ir prekyba** \> **Kanalai** \> **Skambučių centrai** \> **Visi skambučių centrai**). Jei konkreti kanalo kaina nerandama, bus taikoma bazinė prekės pardavimo kaina.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

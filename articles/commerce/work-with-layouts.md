@@ -2,30 +2,36 @@
 title: Darbas su esamais maketais
 description: Šioje temoje aprašoma, kaip programoje „Microsoft Dynamics 365 Commerce“ dirbti su iš anksto nustatytais maketais.
 author: phinneyridge
-ms.date: 02/03/2022
+manager: annbe
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 56ad992b6a9fd6fce09cadad70b8098acdc74ac0
-ms.sourcegitcommit: 1eef00796f7c5511f432b01800cdf8920992d7d5
-ms.translationtype: MT
+ms.openlocfilehash: f31dfa1fdbb3732610748abe4a9de851033f2b89
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/04/2022
-ms.locfileid: "8090850"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4414365"
 ---
 # <a name="work-with-preset-layouts"></a>Darbas su esamais maketais
+
 
 [!include [banner](includes/banner.md)]
 
 Šioje temoje aprašoma, kaip programoje „Microsoft Dynamics 365 Commerce“ dirbti su iš anksto nustatytais maketais.
+
+## <a name="overview"></a>Peržiūrėti
 
 Prieš atlikdami šioje temoje aprašytas procedūras, būtinai perskaitykite temą [Iš anksto nustatyti ir pasirinktiniai maketai](templates-layouts-overview.md#preset-and-custom-layouts). Bendra apžvalga pateikiama temoje [Šablonų ir maketų apžvalga](templates-layouts-overview.md).
 
@@ -78,7 +84,7 @@ Paprastai nustatoma visų puslapių, kuriuose naudojamas iš anksto nustatytas m
 Norėdami nustatyti arba pakeisti visų antrinių puslapių, kuriuose naudojamas iš anksto nustatytas maketas, temą, atlikite toliau nurodytus veiksmus.
 
 1. Maketo rengyklės kairėje pusėje esančiame struktūros medyje pasirinkite puslapio konteinerio modulį. (Paprastai šis modulis yra antrasis mazgas, o jo pavadinimas yra **Numatytasis puslapis**.)
-1. Viduje konors **tema** ypatybių srities dešinėje pasirinkite temą.
+1. Dešinėje ypatybės srityje, lauke **Tema** pasirinkite temą.
 
 ## <a name="save-check-in-preview-and-publish-a-preset-layout"></a>Iš anksto nustatyto maketo įrašymas, įregistravimas, peržiūra ir publikavimas
 
@@ -91,30 +97,15 @@ Norėdami peržiūrėti keitimus atidarykite esamą puslapį, kuriame naudojamas
 
 Kai peržiūrėsite iš anksto nustatyto maketo keitimus, atlikite vieną iš toliau nurodytų veiksmų, kad maketas būtų publikuojamas jūsų aktyvioje svetainėje.
 
-1. Eikite į **Maketai**, pasirinkite maketą, tada pasirinkite **Publikuoti**.
-1. Norėdami atidaryti maketų rengyklę pasirinkite maketo pavadinimą, tada pasirinkite **Publikuoti**.
-1. Publikuokite puslapį, kuris nurodo nepaskelbtą maketą. Maketas bus publikuotas automatiškai.
+* Eikite į **Maketai**, pasirinkite maketą, tada pasirinkite **Publikuoti**.
+* Norėdami atidaryti maketų rengyklę pasirinkite maketo pavadinimą, tada pasirinkite **Publikuoti**.
+* Publikuokite puslapį, kuris nurodo nepaskelbtą maketą. Maketas bus publikuotas automatiškai.
 
 > [!WARNING]
 > Iš anksto nustatyti maketai gali būti nurodyti keliuose puslapiuose. Kai publikuosite iš anksto nustatytą maketą, atkreipkite dėmesį, kad tai gali turėti įtakos kelių puslapių maketui.
-
-## <a name="rename-a-preset-layout"></a>Pervardykite iš anksto nustatytą išdėstymą
-
-Norėdami pervardyti iš anksto nustatytą išdėstymą svetainių kūrimo priemonėje, atlikite šiuos veiksmus.
-
-1. Kairiojoje naršymo srityje pasirinkite **Maketai**.
-1. Pasirinkite maketo, kurį norite pervardyti, išdėstymo pavadinimą.
-1. Pasirinkite **Redaguoti** norėdami pradėti redaguoti išdėstymą.
-1. Išdėstymo ypatybių srityje pasirinkite rašiklio simbolį šalia maketo pavadinimo.
-1. Jei reikia, redaguokite išdėstymo pavadinimą.
-1. Pažymėkite varnelę, kad patvirtintumėte pavadinimo pakeitimą.
-1. Pasirinkite **Baigti redagavimą**.
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Šablonų ir maketų apžvalga](templates-layouts-overview.md)
 
 [Darbas su šablonais](work-with-templates.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

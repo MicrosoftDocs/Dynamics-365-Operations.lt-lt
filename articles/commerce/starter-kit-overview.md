@@ -1,31 +1,37 @@
 ---
-title: Modulių bibliotekos peržiūra
+title: Modulių bibliotekos apžvalga
 description: Šioje temoje pateikiama „Microsoft Dynamics 365 Commerce“ modulių bibliotekos apžvalga.
 author: anupamar-ms
+manager: annbe
 ms.date: 09/15/2020
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
+ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 94ff18fc34fbfbaee434db12f0d0bc8bb7042c2f
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
-ms.translationtype: MT
+ms.openlocfilehash: dfc52dd8e14bb2e9f2f9c026ee0e058aee4cedcb
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7985764"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4414419"
 ---
-# <a name="module-library-overview"></a>Modulių bibliotekos peržiūra
+# <a name="module-library-overview"></a>Modulių bibliotekos apžvalga
 
 [!include [banner](includes/banner.md)]
 
 Šioje temoje pateikiama „Microsoft Dynamics 365 Commerce“ modulių bibliotekos apžvalga.
+
+## <a name="overview"></a>Apžvalga
 
 „Dynamics 365 Commerce“ modulių biblioteka – tai modulių, kuriuos galima naudoti el. prekybos svetainės kūrimui, rinkinys. Moduliuose yra ir vartotojo sąsajos (UI) aspektų, ir funkcinio veikimo aspektų.
 
@@ -60,6 +66,3 @@ Modulių bibliotekoje pateikiami toliau nurodytų tipų moduliai.
 [Antraštės modulis](author-header-module.md)
 
 [Poraštės modulis](author-footer-module.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

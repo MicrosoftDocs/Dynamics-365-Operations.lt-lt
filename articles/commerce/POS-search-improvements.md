@@ -2,9 +2,11 @@
 title: Produktų ir klientų paieška elektroniniame kasos aparate (EKA)
 description: Šioje temoje apžvelgiama, kaip patobulinta „Dynamics 365 Commerce“ produktų ir klientų ieškos funkcija.
 author: ShalabhjainMSFT
-ms.date: 10/26/2021
+manager: AnnBe
+ms.date: 07/28/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application user
 ms.reviewer: josaw
@@ -15,12 +17,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: 022dcaca9bb3c9e7e749ee143702325367e5149b
-ms.sourcegitcommit: f8b597b09157d934b62bd5fb9a4d05b8f82b5a0e
-ms.translationtype: MT
+ms.openlocfilehash: 1de8373471ff8187bd476305c9ed0b26beaa52d5
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/26/2021
-ms.locfileid: "7700094"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4965283"
 ---
 # <a name="product-search-and-customer-search-in-the-point-of-sale-pos"></a>Produktų ir klientų paieška elektroniniame kasos aparate (EKA)
 
@@ -36,7 +38,7 @@ Pagal numatytuosius parametrus produktų ieškoma parduotuvės asortimente. Šis
 
 Puslapyje **Keisti katalogą** darbuotojai gali lengvai pasirinkti bet kurią parduotuvę arba produktų jie gali ieškoti visose parduotuvėse.
 
-![Katalogo keitimas.](./media/Changecatalog.png "Katalogo keitimas")
+![Katalogo keitimas](./media/Changecatalog.png "Katalogo keitimas")
 
 Atliekant vietinę produktų iešką, ieškoma tolesnėse produktų ypatybėse.
 
@@ -47,21 +49,22 @@ Atliekant vietinę produktų iešką, ieškoma tolesnėse produktų ypatybėse.
 - Brūkšninis kodas
 - Ieškos pavadinimas
 
-### <a name="additional-local-product-search-capabilities-conventional-sql-full-text-search"></a>Papildomos vietinės produktų ieškos galimybės (pagal SQL viso teksto iešką) 
+### <a name="enhancements-to-local-product-searches"></a>Vietinių produktų ieškų patobulinimai
 
+Vietinių produktų ieškų veikimas dabar patogesnis vartotojui. Atlikti tolesni patobulinimai.
+
+- Į ieškos juostą įtraukti produktų ir klientų išplečiamieji meniu, kad darbuotojai prieš atlikdami iešką galėtų pasirinkti **Produktas** arba **Klientas**. Pagal numatytuosius parametrus pasirinkta **Produktas**, kaip parodyta tolesnėje iliustracijoje.
 - Atlikdami ieškas su keliais raktažodžiais (t. y., atlikdami ieškas, kuriose naudojami ieškos terminai), mažmenininkai gali sukonfigūruoti, ar į ieškos rezultatus reikia įtraukti rezultatus, atitinkančius *bet kurį* ieškos terminą, ar tik tuos rezultatus, kurie atitinka *visus* ieškos terminus. Šios funkcijos parametras pasiekiamas naujoje EKA funkcijų profilio grupėje pavadinimu **Produktų ieška**. Numatytasis parametras yra **Atitinka bet kurį ieškos terminą**. Šis parametras taip pat yra rekomenduojamas parametras. Kai naudojamas parametras **Atitinka bet kurį ieškos terminą**, kaip rezultatai pateikiami visi produktai, visiškai ar iš dalies atitinkantys vieną ar kelis ieškos terminus. Tuose rezultatuose didėjimo tvarka surikiuojami produktai su daugiausiai raktažodžių atitikčių (visiškų arba dalinių).
 
     Naudojant parametrą **Atitinka visus ieškos terminus**, pateikiami tik tie produktai, kurie atitinka visus ieškos terminus (visiškai arba iš dalies). Šis parametras naudingas, kai produktų pavadinimai yra ilgi ir darbuotojai ieškos rezultatuose nori matyti tik ribotą produktų skaičių. Tačiau šio tipo ieška turi du tolesnius apribojimus.
 
     - Ieška atliekama atskirose produktų ypatybėse. Pavyzdžiui, pateikiami tik tie produktai, kurių bent vienoje ypatybėje yra visi ieškomi raktažodžiai.
     - Dimensijose neieškoma.
-> [!NOTE]
-> Šios bet kurio ieškos termino konfigūracijos **Atitinka bet kurią ieškomą sąvoką**/**Atitinka visas ieškomas sąvokas** EKA funkcijos profiliuose, kurie taikomi tik **vietos** produkto paieškose (įprastose SQL viso teksto paieškoje) patirtyse. Ši konfigūracija neturi įtakos ieškai debesyje. Naujasis ieškos modulis turi nuosavą išplėstinį algoritmą, kuris ieško produkto ieškos rezultatų atitikimą. 
 
 - Mažmenininkai dabar produktų iešką gali sukonfigūruoti taip, kad, vartotojams vedant produktų pavadinimus, būtų rodomi ieškos pasiūlymai. Naujas šios funkcijos parametras pasiekiamas EKA funkcijų profilio grupėje pavadinimu **Produktų ieška**. Parametro pavadinimas yra **Vedant tekstą rodyti ieškos pasiūlymus**. Ši funkcija darbuotojams gali padėti greitai rasti ieškomą produktą, nes jiems nereikia rankiniu būdu įvesti viso pavadinimo.
 - Produktų ieškos algoritmas ieškomų terminų dabar taip pat ieško produkto ypatybėje **Ieškos pavadinimas**.
 
-![Produkto pasiūlymai.](./media/Productsuggestions.png "Produkto pasiūlymai")
+![Produkto pasiūlymai](./media/Productsuggestions.png "Produkto pasiūlymai")
 
 ## <a name="customer-search"></a>Kliento ieška
 
@@ -83,24 +86,24 @@ Norėdami ieškoti visuotinai, darbuotojai gali pasirinkti puslapio apačioje es
 > [!NOTE]
 > Kad nuotolinė klientų ieška pateiktų rezultatų, reikia įvesti mažiausiai keturis simbolius.
 
-Kliento ID nerodomas klientas, apie kuriuos užklausą pateikė juridiniai asmenys, nes kliento ID sukurtas tik toms šalims, esančioms dabartinėje įmonėje. Tačiau, jei darbuotojas atidaro kliento informacijos puslapį, sistema automatiškai sugeneruoja šalies kliento ID ir su klientu susieja parduotuvės klientų adresų knygeles. Todėl klientas bus matomas vėliau atliekamose vietinėse parduotuvių ieškose.
+Atliekant nuotolinę klientų iešką, kitų juridinių subjektų klientų ID nerodomi, nes dabartinėje įmonėje tų šalių klientų ID nėra sukurta. Tačiau, jei darbuotojas atidaro kliento informacijos puslapį, sistema automatiškai sugeneruoja šalies kliento ID ir su klientu susieja parduotuvės klientų adresų knygeles. Todėl klientas bus matomas vėliau atliekamose vietinėse parduotuvių ieškose.
 
-![Bendra klientų paieška.](./media/Globalcustomersearch.png "Bendra klientų paieška")
+![Bendra klientų paieška](./media/Globalcustomersearch.png "Bendra klientų paieška")
 
-### <a name="additional-local-customer-search-capabilities"></a>Papildomos vietinės klientų ieškos galimybės
+### <a name="enhancements-to-local-customer-search"></a>Vietinių klientų ieškos patobulinimai
 
-Kai naudotojas ieško telefono numerio, sistema ignoruoja specialius ženklus (pavyzdžiui, tarpus, brūkšnelius ir skliaustus), kurie galėjo būti pridėti kliento kūrimo metu. Todėl informacijos ieškantiems kasininkams nereikia nerimauti dėl telefono numerio formato. Pavyzdžiui, jei kliento telefono numeris buvo įvestas kaip **123-456-7890**, kasininkas kliento gali ieškoti įvesdamas **1234567890** arba įvesdamas pirmuosius keletą telefono numerio skaitmenų.
+Ieška pagal telefono numerį supaprastinta. Atliekant tokią iešką dabar ignoruojami specialieji simboliai, pvz., tarpai, brūkšneliai ir skliausteliai, kurie galėjo būti pridėti sukūrus klientą. Todėl informacijos ieškantiems kasininkams nereikia nerimauti dėl telefono numerio formato. Pavyzdžiui, jei kliento telefono numeris buvo įvestas kaip **123-456-7890**, kasininkas kliento gali ieškoti įvesdamas **1234567890** arba įvesdamas pirmuosius keletą telefono numerio skaitmenų.
 
 > [!NOTE]
 > Klientas gali turėti daugybę telefono numerių ir elektroninio pašto adresų. Kliento paieškos algoritmas taip pat ieško šiuose antriniuose elektroniniuose paštuose ir telefono numeriuose, tačiau kliento paieškos rezultatų puslapis tik rodo pirminį elektroninį paštą ir telefono numerį. Tai gali sukelti tam tikrą sąmyšį, nes grįžę kliento rezultatai nerodys ieškoto elektroninio pašto ar telefono numerio. Ateities leidimuose planuojame pagerinti kliento ieškos rezultatų ekraną, kad jis rodytų šią informaciją.
 
-Įprastinė kliento ieška gali užimti daug laiko, nes ji vykdoma daugelyje laukų. Vietoj to kasininkai gali ieškoti vieno kliento ypatybės, pvz., vardo ir pavardės, el. pašto adreso arba telefono numerio. Kliento ieškos algoritmo naudojamos ypatybės kartu vadinamos *kliento ieškos kriterijais*. Sistemos administratorius gali lengvai sukonfigūruoti vieną arba kelis kriterijus kaip nuorodas, kurios bus rodomos EKA. Kadangi ieška apribojama iki vieno kriterijaus, rodomi tik tinkami ieškos rezultatai ir efektyvumas yra daug didesnis nei įprastos kliento ieškos efektyvumas. Toliau nurodytame paveikslėlyje pavaizduotos EKA kliento ieškos nuorodos.
+Įprastinė kliento ieška gali užimti daug laiko, nes ji vykdoma daugelyje laukų. Dabar kasininkai gali ieškoti vieno kliento laukuose, pvz., vardo ir pavardės, el. pašto adreso arba telefono numerio. Kliento ieškos algoritmo naudojamos ypatybės kartu vadinamos *kliento ieškos kriterijais*. Sistemos administratorius gali lengvai sukonfigūruoti vieną arba kelis kriterijus kaip nuorodas, kurios bus rodomos EKA. Kadangi ieška apribojama iki vieno kriterijaus, rodomi tik tinkami ieškos rezultatai ir efektyvumas yra daug didesnis nei įprastos kliento ieškos efektyvumas. Toliau nurodytame paveikslėlyje pavaizduotos EKA kliento ieškos nuorodos.
 
-![Klientų paieškos nuorodos.](./media/SearchShortcutsPOS.png "Klientų paieškos nuorodos")
+![Klientų paieškos nuorodos](./media/SearchShortcutsPOS.png "Klientų paieškos nuorodos")
 
 Norėdamas nustatyti paieškos kriterijus kaip nuorodas, administratorius turi atidaryti puslapį **„Commerce“ parametrai**, esantį „Commerce“, o tada skirtuke **EKA paieškos kriterijai** pasirinkti visus kriterijus, kurie turėtų būti rodomi kaip nuorodos.
 
-![Paieškos nuorodų konfigūravimas.](./media/ConfigureShortcutsAX.png "Paieškos nuorodų konfigūravimas")
+![Paieškos nuorodų konfigūravimas](./media/ConfigureShortcutsAX.png "Paieškos nuorodų konfigūravimas")
 
 > [!NOTE]
 > Jei įtrauksite per daug nuorodų, EKA ieškos juostos išplečiamasis meniu bus perpildytas ir darbuotojui gali būti sunkiau ieškoti informacijos. Rekomenduojame įtraukti tik tiek nuorodų, kaip jums reikia.
@@ -110,44 +113,7 @@ Lauke **Rodymo tvarka** laukas nurodoma tvarka, kuria nuorodos rodomos EKA. Rodo
 > [!NOTE]
 > Į išvardijimą įtraukta pasirinktinė ypatybė, neturi įtakos standartiniam klientų ieškos algoritmui. Kitaip tariant, klientų ieškos algoritmas neieškos pasirinktinėje ypatybėje. Vartotojai ieškodami gali naudoti pasirinktines ypatybes tik jei tos pasirinktinės ypatybės yra įtrauktos kaip nuorodos arba jei numatytasis ieškos algoritmas yra perrašytas.
 
-Mažmenininkai taip pat gali nustatyti numatytąjį kliento ieškos režimą EKA kaip **Ieškoti visose parduotuvėse**. Ši konfigūracija gali būti naudinga scenarijuose, kuriuose būtina nedelsiant rasti už EKA ribų sukurtus klientus (pvz., net prieš vykdant paskirstymo užduotį). Norėdami tai padaryti, mažmenininkas turi įjungti parinktį **Numatytasis kliento ieškos režimas** EKA funkcijų šablone. Kai ji nustatyta į **Taip** kiekvienas kliento mėginimas sukurs skambutį realiuoju laiku į būstinę.
+Naujesnėje „Commerce“ versijoje mažmenininkai galės nustatyti numatytąjį klientų paieškos režimą EKA į **Peržiūrėti visas parduotuves**. Ši konfigūracija gali būti naudinga scenarijuose, kuriuose būtina nedelsiant rasti už EKA ribų sukurtus klientus (pvz., net prieš vykdant paskirstymo užduotį). Galima naudotis nauja EKA funkcijų šablono parinktimi **Numatytasis kliento ieškos režimas**. Nustatykite, kad ši parinktis būtų **Įjungta**, kad būtų galima nustatyti numatytojo ieškos režimo parinktį **Ieškoma visose parduotuvėse**. Po kiekvieno kliento ieškos bandymo realiuoju laiku kreipiamasi į būstinę.
 
 Siekiant išvengti nenumatytų funkcionalumo problemų, ši konfigūracija paslėpta už versijos vėliavėlės, kurios pavadinimas **CUSTOMERSEARCH_ENABLE_DEFAULTSEARCH_FLIGHTING**. Todėl norėdamas, kad vartotojo sąsajoje (UI) būtų rodoma nuostata **Numatytasis kliento ieškos režimas**, pardavėjas turi sukurti palaikymo bilietą vartotojo priėmimo bandymui (UAT) ir gamybos aplinkas. Gavusi bilietą inžinierių komanda dirba su pardavėju, kad įsitikintų, jog pardavėjas bandymą atlieka ne gamybos aplinkose, kad įvertintų efektyvumą ir įdiegtų visus reikiamus optimizavimus.
 
-## <a name="cloud-powered-customer-search"></a>Debesija paremta kliento paieška
-
-Klientų ieškos galimybės viešoji peržiūra naudojant „Azure Cognitive Search” pridėta į naujus „Commerce 10.0.18” leidimo funkcionalumus. Be našumo patobulinimų, paslaugos vartotojams taip pat pravers raiškiosios kokybės patobulinimas ir pagerintos ryšio galimybės. Našumo patobulinimai ypač matomi, kai naudojama EKA visuotinės ieškos funkcija („Ieškoti visų parduotuvėse”). Taip yra todėl, kad ieškos rezultatai surenkami iš „Azure” ieškos indekso, o ne jų užklausa siunčiami iš „Commerce” būstinės duomenų. 
-
-### <a name="enable-the-cloud-powered-search-feature"></a>Įjungti debesija paremtą ieškos funkciją
-
-> [!NOTE]
-> Būtina, kad „Commerce” būstinė ir „Commerce Scale Unit” būtų atnaujintos į 10.0.18 versiją. EKA atnaujinti nebūtina.
-
-Norėdami atnaujinti debesija paremtą ieškos funkciją „Commerce” būstinę, atlikite šiuos žingsnius.
-
-1. Eikite į **Sistemos administravimas \> Darbo sritys \> Funkcijų valdymas**.
-1. Raskite ir pasirinkite **(Peržiūra) Debesija paremta kliento paieška** funkciją ir pasirinkite **Įgalinti dabar**.
-1. Eikite į **Mažmeninė prekyba ir prekyba > Būstinės sąranka > Prekybos grafiko įrankis > Inicijuoti prekybos grafiko įrankį** ir pasirinkite **Gerai**, kad rodytų naują **1010_KlientoPaieška** užduotį **Paskirstymo grafikas** formoje.
-1. Eikite į **Mažmeninė prekyba ir prekyba > Mažmeninė prekyba ir IT prekyba > Paskirstymo grafikas**.
-1. Paleiskite **1010_KlientoPaieška** užduotį. Ši užduotis skelbia datą „Azure” ieškos indekse. Kai indekso publikavimas baigtas, užduoties būsena bus nustatyta į **Pritaikyta**.
-1. Po to kai **1010_KlientoPaieška** užduoties būsena nustatyta į **Pritaikyta**, paleiskite **1110 - visuotinė konfigūracija** užduotį, kad naujai įjungtos funkcijos atnaujintumėte EKA kanalus **Funkcijų valdymas**.
-1. Po to paleiskite palieskite **1010_KlientoPaieška** užduotį reguliariai intervalais, kad nusiųstumėte klientui atnaujinimus ieškos indekse.
-
-> [!NOTE]
-> Pradiniame indekso publikavime **1010_KlientoPaieška** užduotis gali užtrukti keletą valandų, kol ji bus pabaigta, kadangi ji išsiųs visus kliento įrašus į „Azure” paieškos indeksą. Vėlesni atnaujinimai gali užtrukti keletą minučių. Laikotarpiu, kai debesija paremta ieškos funkcija yra įjungta, bet indekso publikavimas dar nebaigtas, kliento ieška pagal EKA bus numatytoji pagal esamą SQL iešką. Taip užtikrinama, kad nėra trukdžių parduotuvės operacijoms.
-
-### <a name="functional-differences-from-the-existing-search"></a>Funkciniai esamos ieškos skirtumai
-
-Toliau pateiktame sąraše parodyta, kaip debesimi paremtos klientų ieškos funkcijos skiriasi nuo esamų ieškos funkcijų. 
-
-- „Commerce” būstinėje sukurti ir redaguojami klientai nusiunčiami į „Azure” ieškos indeksą, kai **1010_KlientoPaieška** užduotis yra paleista. Šie atnaujinimai užtruks nuo 15 iki 20 minučių indeksui atnaujinti. EKA vartotojai galės ieškoti naujų klientų (arba ieškoti pagal atnaujintą informaciją) nuo 15 iki 20 minučių po įvykdytų atnaujinimų „Commerce” būstinėje. Jei jūsų verslo procesui reikia, kad klientai, sukurti „Commerce” būstinėje, būtų ieškomi EKA nedelsiant, tai gali būti ne jums tinkama paslauga.
-- Nauji klientai, sukurti EKA, siunčiami į „Azure” ieškos indeksą iš „Commerce Scale Unit” ir nedelsdami ieškomi bet kurioje parduotuvėje. Tačiau jei „Asinchroninis” kliento kūrimo funkcija įjungta, nauji klientų įrašai nebus publikuojami „Azure” ieškos indekse iš „Commerce Scale Unit” ir nebus ieškomi iš EKA, kol kliento informacija nebus sinchronizuojama su „Commerce” būstinėje ir „Asinchroninis” klientams sukuriama klientų ID. Vėliau **1010_KlientoPaieška** užduotis galės išsiųsti „Asinchroninis” kliento įrašus į „Azure” ieškos indeksą. Vidutiniškai tai užtruks apie 30 minučių prieš tai, kai EKA bus ieškoma naujai sukurtų „Asinchroninis” klientų. Šiame apskaičiavime numatoma, kad **1010_KlientoPaieška**, **P-užduotis** ir **Sinchronizuoti klientus ir verslo partnerius iš asinchroninio režimo** užduotys ura numatytos vykdyti kas 15 minučių.
-- Debesija paremta ieška taip pat ieško antrinių el. laiškų ir klientų telefonų numerių, tačiau šiuo metu klientų ieškos rezultatuose rodomas tik pirminis telefono numeris ir pirminis klientų el. pašto adresas. Iš pradžių gali atrodyti, kad pateikti neaktualūs ieškos rezultatai, tačiau antrinio kliento el. laiško ir kliento telefono numerio ieškos rezultatuose patikra gali padėti patikrinti, ar ieškomas raktažodis baigėsi klientų atitikimu. Norint išvengti tokios painiavos, planuojama patobulinti ieškos rezultatų puslapį, kad vartotojai lengviau suprastų, kodėl buvo pateikti ieškos rezultatai.
-- Reikalavimas ieškoti naudojant bent 4 simbolius visuotinoje ieškoje („Ieškoti visose parduotuvėse”), netaikomas šiai paslaugai.
-
-> [!NOTE]
-> Klientų ieškos galimybė naudojant „Azure Cognitive Search” paslaugą prieinama visuose peržiūros ribotuose regionuose. Klientų ieškos galimybė *nėra* prieinama nurodytuose regionuose:
-> - Brazilija
-> - Indija
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,10 +1,12 @@
 ---
 title: 'ER: formato atnaujinimas pritaikant naują pagrindinę to formato versiją'
-description: Šioje temoje aprašoma, kaip išlaikyti elektroninių ataskaitų (ER) formato konfigūraciją.
+description: Šie veiksmai paaiškina, kaip sistemos administratoriaus arba elektroninių ataskaitų kūrėjo pareigas einantis vartotojas gali prižiūrėti elektroninių ataskaitų (ER) formato konfigūraciją.
 author: NickSelin
+manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERWorkspace, ERVendorPart, ERSolutionTable, ERSolutionCreateDropDialog, EROperationDesigner, ERComponentTypeDropDialog
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: bfcb85d964234063fd3c6a8e5ea29f7b222e966124b48e46b72b04f457c91e6c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 17fe6d772040c73959685920743225c128421951
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720813"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684265"
 ---
 # <a name="er-upgrade-your-format-by-adopting-a-new-base-version-of-that-format"></a>ER: formato atnaujinimas pritaikant naują pagrindinę to formato versiją
 
@@ -241,6 +243,3 @@ Norėdami tai padaryti, „Proseware, Inc.‟ turi pakeisti pagrindinę pasirink
 ## <a name="test-the-customized-format-for-payment-files-generation"></a>Pritaikyto formato tikrinimas generuojant mokėjimo failus
 Lygiagrečiame „Finance and Operations” seanse atlikite procedūros „Sukurto formato naudojimas generuoti elektroniniams mokėjimų dokumentams‟ veiksmus. Elektroninio mokėjimo būdo parametruose pasirinkite sukurtąjį formatą „BACS (JK fiktyvus pasirinktinis)‟. Įsitikinkite, kad sukurtame mokėjimo faile yra neseniai „Proseware, Inc.“ įdiegtas XML mazgas, pagal regiono reikalavimus pateikiantis IBAN sąskaitos kodą. Faile taip pat turėtų būti neseniai įmonės „Litware, Inc.‟ įdiegtas XML mazgas, pagal šalies reikalavimus pateikiantis SWIFT banko kodą.  
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

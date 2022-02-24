@@ -86,6 +86,3 @@ atlikus šį keitimą, priežasčių kodai iš 30 simbolių bus atnaujinti „Co
 Funkcijos įtraukiamos ir atnaujinamos kiekviename leidime. Funkcijų valdymo patirtis suteikia darbo sritį, kurioje galite peržiūrėti kiekviename leidime pristatytų funkcijų sąrašą. Pagal numatytuosius nustatymus naujos funkcijos yra išjungtos. Galite naudoti darbo sritį, norėdami jas įjungti ir peržiūrėti jų dokumentaciją.
 
 Norėdami daugiau sužinoti apie pakeitimus, pristatytus su funkcijų valdymu, žr. [Funkcijų valdymo apžvalga](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview).
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,9 +2,11 @@
 title: Vaizdo įrašai
 description: Šiame puslapyje pateikiami „Microsoft“ sukurti mokomieji ir techninės kalbos vaizdo įrašai, susiję su „Finance and Operations“ programomis, pasiekiami „YouTube“ ir kitose svetainėse.
 author: sericks007
-ms.date: 09/15/2021
+manager: AnnBe
+ms.date: 12/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro, Developer
 ms.reviewer: sericks
@@ -14,12 +16,12 @@ ms.search.region: global
 ms.author: sericks
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, AX 8.0
-ms.openlocfilehash: 3fe44a9a7fcef2f22dff3be00ddfadd5b8c59574
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
+ms.openlocfilehash: 56fdfc400b5bc3e640e7951985d54ffa870f96c9
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7487996"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797880"
 ---
 # <a name="videos"></a>Vaizdo įrašai 
 
@@ -34,6 +36,7 @@ ms.locfileid: "7487996"
 
 ### <a name="data-integration"></a>Duomenų integracija
 
+- [Potencialaus kliento pavertimo pinigais integravimas](https://youtu.be/AVV9x5x-XCg)
 - [„Dynamics 365 for Field Service“ darbo užsakymo sinchronizavimas su „Finance and Operations“ programomis](https://www.youtube.com/watch?v=46ylO7raZAo&feature=youtu.be)
 
 ### <a name="data-management"></a>Duomenų valdymas
@@ -83,12 +86,12 @@ ms.locfileid: "7487996"
 
 ## <a name="videos-for-dynamics-365-finance"></a>„Dynamics 365 Finance“ vaizdo įrašai
 
-### <a name="business-document-management"></a>Verslo dokumentų valdymas
-- [Nauja verslo dokumento kūrimas naudojant verslo dokumentų valdymą](https://www.youtube.com/watch?v=gAIYl-mM_pw)
-
 ### <a name="customize-the-app"></a>Tinkinti programą
 - [Įtraukti pasirinktinių laukų](https://www.youtube.com/watch?v=gWSGZI9Vtnc)
 - [Įdėti „Power Apps“](https://www.youtube.com/watch?v=x3qyA1bH-NY)
+
+### <a name="expenses"></a>Išlaidos
+- [Išlaidų patirtis](https://youtu.be/Ocy-MsTvEE0)
 
 ### <a name="financial-reporting"></a>Finansinės ataskaitos
 - [Ataskaitų kūrimo įrankio versijos paieška](https://www.youtube.com/embed/icfA5Q3kp4w)
@@ -113,10 +116,7 @@ ms.locfileid: "7487996"
 - [Mokesčių mechanizmo apžvalga](https://www.youtube.com/watch?v=jAFpEBOtNWI&feature=youtu.be)
 
 
-## <a name="videos-for-dynamics-365-supply-chain-management"></a>„Dynamics 365 Supply Chain Management“ vaizdo įrašai
-
-### <a name="business-document-management"></a>Verslo dokumentų valdymas
-- [Nauja verslo dokumento kūrimas naudojant verslo dokumentų valdymą](https://www.youtube.com/watch?v=gAIYl-mM_pw)
+## <a name="videos-for-dynamics-365-supply-chain-management"></a>Vaizdo įrašai apie „Dynamics 365 Supply Chain Management“
 
 ### <a name="costs"></a>Išlaidos
 - [Išlaidų kontrolės mobilioji darbo sritis](https://youtu.be/imsuTg8rUVk)
@@ -167,6 +167,3 @@ ms.locfileid: "7487996"
 [„FastTrack“ techninėje kalboje](https://community.dynamics.com/365/b/techtalks?c=Finance%20and%20Operations) dėmesys skiriamas tam, kaip teikti techninį gylį ir geriausias praktikas, kurias taikant klientams ir partneriams būtų teikiama išsami konkrečios objekto srities informacija.
 
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

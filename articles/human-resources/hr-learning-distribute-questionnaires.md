@@ -1,39 +1,37 @@
 ---
-title: Klausimynų planavimas ir platinimas
-description: Šioje temoje paaiškinama, kaip platinti savo sukurtus klausimynus, kad jie būtų prieinami asmeniui ar grupei žmonių, kurie juos pildys.
-author: twheeloc
-ms.date: 10/28/2021
+title: Klausimynų platinimas ir planavimas
+description: Šiame straipsnyje paaiškinama, kaip platinti savo sukurtus klausimynus, kad jie būtų prieinami asmeniui ar grupei žmonių, kurie juos pildys.
+author: andreabichsel
+manager: AnnBe
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-human-resources
 ms.technology: ''
 ms.search.form: KMConnectionType, KMKnowledgeCollectorPlanningTabel, SysEmailParameters, HcmLearningWorkspace
 audience: Application User
-ms.search.scope: Human Resources
+ms.reviewer: anbichse
+ms.search.scope: Core, Operations, Human Resources
 ms.custom: 17424
 ms.assetid: fd8d867a-2446-400a-b91f-ad4085427470
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dbb069110b46c38a994a7be6276137360b14397a
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
-ms.translationtype: MT
+ms.openlocfilehash: 0329b80615eed6efcc22bb0b140970988f5c306a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069534"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4419781"
 ---
-# <a name="distribute-and-schedule-questionnaires"></a>Klausimynų planavimas ir platinimas
+# <a name="distribute-and-schedule-questionnaires"></a>Klausimynų platinimas ir planavimas
 
-
-[!INCLUDE [PEAP](../includes/peap-1.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-Šioje temoje paaiškinama, kaip platinti savo sukurtus klausimynus, kad jie būtų prieinami asmeniui ar grupei žmonių, kurie juos pildys. 
+Šiame straipsnyje paaiškinama, kaip platinti savo sukurtus klausimynus, kad jie būtų prieinami asmeniui ar grupei žmonių, kurie juos pildys. 
 
 Platinti klausimyną galima keliais būdais.
 
--   Pažymėkite anketą kaip **Aktyvus**. Tada klausimynas prieinamas visiems darbuotojams, nebent nustatyta klausimyno grupė, prie jo ribojanti prieigą.
+-   Klausimyną pažymėkite kaip aktyvų. Tada klausimynas prieinamas visiems darbuotojams, nebent nustatyta klausimyno grupė, prie jo ribojanti prieigą.
 -   Priskirkite klausimyno grupės teises. Tada klausimynas prieinamas visiems pasirinktos grupės nariams.
 -   Kurkite suplanuotus atsakymų seansus. Tada klausimynas pasiekiamas tik tam tikram asmeniui.
 -   Sukurkite grafiką. Tada klausimynas gali būti prieinamas keliems žmonėms.
@@ -111,10 +109,10 @@ Jei naudojate suplanuotą atsakymų seansą, asmenį turite informuoti tiesiogia
 
 ### <a name="notifying-respondents-about-a-scheduling"></a>Respondentų informavimas apie planavimą
 
-Naudodami puslapį **Klausimyno grafikai**, paruoškite ir nusiųskite el. laišką visiems respondentams, kurie priskirti klausimynui. Įveskite el. pašto tekstą **El. paštas darbuotojo savitarnai** skirtuką. Pradėję tvarkaraštį spustelėkite **Funkcijos** &gt; **Siųsti laišką** sugeneruoti ir išsiųsti el. laišką respondentams. Tada respondentai gali prisijungti prie svetainės ir pildyti klausimyną. 
+Naudodami puslapį **Klausimyno grafikai**, paruoškite ir nusiųskite el. laišką visiems respondentams, kurie priskirti klausimynui. El. laiško tekstą įveskite skirtuke **Darbuotojų savitarnos el. paštas**. Kai grafikas pradėtas, spustelėkite **Funkcijos** &gt; **Siųsti el. laišką**, kad generuotumėte ir visiems respondentams nusiųstumėte el. laišką. Tada respondentai gali prisijungti prie svetainės ir pildyti klausimyną. 
 
 > [!NOTE]
-> Kad galėtumėte naudotis el. pašto funkcijomis, IT administratorius turi įvesti el. pašto nustatymus **Pašto parametrai** puslapį.
+> Kad galėtumėte naudoti el. pašto funkcijas, puslapyje **El. pašto parametrai** jūsų IT administratorius turi įvesti el. pašto nuostatas.
 
 ## <a name="ending-a-scheduled-questionnaire"></a>Suplanuoto klausimyno baigimas
 
@@ -133,6 +131,3 @@ Jums sukūrus ir išplatinus klausimyną, jį gali pildyti pasirinkti respondent
 Klausimynus galima padaryti prieinamus konkretiems naudotojams ar naudotojų grupėms arba visiems tinklo naudotojams.
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

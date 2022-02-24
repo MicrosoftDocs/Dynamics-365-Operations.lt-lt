@@ -2,24 +2,27 @@
 title: Pirkimo užbaigimo modulis
 description: Šioje temoje aprašoma, kaip į puslapį įtraukti pirkimo užbaigimo modulį ir nustatyti reikiamas ypatybes.
 author: anupamar-ms
+manager: annbe
 ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
+ms.search.scope: Operations, Retail, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 031c70181e0dff9bc81450d2454f21e1dbaf1285d41b38ff6f7df6045923c27c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 28d58caba71ea98ccf163e756e879587aa254bb3
+ms.sourcegitcommit: 12d271bb26c7490e7525d9b4bbf125cdc39fef43
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6715511"
+ms.lasthandoff: 11/07/2020
+ms.locfileid: "4414505"
 ---
 # <a name="checkout-module"></a>Pirkimo užbaigimo modulis
 
@@ -27,13 +30,15 @@ ms.locfileid: "6715511"
 
 Šioje temoje aprašoma, kaip į puslapį įtraukti pirkimo užbaigimo modulį ir nustatyti reikiamas ypatybes.
 
-Pirkimo užbaigimo modulis yra specialus konteineris, kuriame yra visi moduliai, reikalingi užsakymui sukurti. Jame pateikiama nuosekli veiksmų eiga, pagal kurią klientas įveda visą pirkimui aktualią informaciją. Jis fiksuoja siuntimo adresą, siuntimo būdą ir atsiskaitymo informaciją. Jame taip pat pateikiama užsakymo suvestinė ir kita informacija, susijusi su kliento užsakymu.
+## <a name="overview"></a>Peržiūrėti
+
+Pirkimo užbaigimo modulis yra specialus konteineris, kuriame yra visi moduliai, reikalingi užsakymui sukurti. Jame pateikiama nuosekli veiksmų eiga, kurią naudodamas klientas įvedas visą aktualią informaciją, kad galėtų pirkti. Jis fiksuoja siuntimo adresą, siuntimo būdą ir atsiskaitymo informaciją. Jame taip pat pateikiama užsakymo suvestinė ir kita informacija, susijusi su kliento užsakymu.
 
 Pirkimo užbaigimo modulis duomenis generuoja pagal krepšelio ID. Šis krepšelio ID įrašomas kaip naršyklės slapukas. Krepšelio ID reikia norint vaizduoti informaciją pirkimo užbaigimo modulyje, pvz., užsakymo prekes, visą sumą ir nuolaidas. 
 
 Toliau pateiktame paveikslėlyje parodytas pirkimo užbaigimo puslapyje esančio „Fabrikam“ pirkimo užbaigimo modulio pavyzdys.
 
-![Pirkimo užbaigimo modulio pavyzdys.](./media/Checkout.PNG)
+![Pirkimo užbaigimo modulio pavyzdys](./media/Checkout.PNG)
 
 ## <a name="checkout-module-properties"></a>Pirkimo užbaigimo modulio ypatybės
 
@@ -52,13 +57,13 @@ Pirkimo užbaigimo moduliuose rodoma užsakymo suvestinė ir pateikiama užsakym
 
     Toliau pateiktame paveikslėlyje parodytas pirkimo užbaigimo puslapyje esančio siuntimo adreso modulio pavyzdys.
 
-    ![Siuntimo adreso modulio pavyzdys.](./media/ecommerce-shippingaddress.PNG)
+    ![Siuntimo adreso modulio pavyzdys](./media/ecommerce-shippingaddress.PNG)
 
 - **Pristatymo parinktys** – Šis modulis leidžia klientui pasirinkti užsakymo pristatymo būdą. Dėl išsamesnės informacijos apie šį modulį, žr. [Pristatymo parinkčių modulis](delivery-options-module.md).
 
     Toliau pateiktame paveikslėlyje parodytas pirkimo užbaigimo puslapyje esančio pristatymo parinkčių modulio pavyzdys.
  
-    ![Pristatymo parinkčių modulio pavyzdys.](./media/ecommerce-deliveryoptions.PNG)
+    ![Pristatymo parinkčių modulio pavyzdys](./media/ecommerce-deliveryoptions.PNG)
 
 - **Pirkimo užbaigimo skyriaus konteineris** – šis modulis yra konteineris, kuriame galite įdėti kelis modulius ir sukurti skyrių pirkimo užbaigimo eigoje. Pavyzdžiui, šiame konteineryje galite įdėti visus su mokėjimu susijusius modulius, kad jie būtų rodomi kaip vienas skyrius. Šis modulis turi įtakos tik eigos išdėstymui.
 
@@ -70,17 +75,17 @@ Pirkimo užbaigimo moduliuose rodoma užsakymo suvestinė ir pateikiama užsakym
 
     Tolesnis paveikslėlis rodo dovanų kortelės lojalumo taškų pavyzdį ir mokėjimo modulius išsiregistravimo puslapyje.
 
-    ![Dovanų kortelės, lojalumo taškų ir mokėjimo modulių pavyzdžiai pirkimo užbaigimo puslapyje.](./media/ecommerce-payments.PNG)
+    ![Dovanų kortelės taškų pavyzdys ir mokėjimo moduliai užbaigimo puslapyje.](./media/ecommerce-payments.PNG)
 
 - **Kontaktinė informacija** – naudodamas šį modulį klientas gali įtraukti arba pakeisti užsakymo kontaktinę informaciją (el. pašto adresą).
 
-- **Teksto blokas** – šiame modulyje yra pranešimai, grindžiami turinio valdymo sistema (TVS). Pavyzdžiui, jame gali būti pranešimas „Jei kyla problemų dėl užsakymo, kreipkitės numeriu 1-800-Fabrikam.“ 
+- **Teksto blokas** – šiame modulyje yra pranešimai, grindžiami turinio valdymo sistema (TVS). Pavyzdžiui, jame gali būti pranešimas „Jei kyla problemų dėl užsakymo, kreipkitės numeriu 1-800-Fabrikam“. 
 
-- **Išsiregistravimo sąlygos ir terminai** – Šis modulis rodo platų tekstą, kuriame pateiktos sąlygos ir terminai ir užbaigimo laukelį kliento indėliui. Žymimas laukelis yra pasirenkamas ir konfigūruojamas. Indėlį apima modulis ir jis gali būti naudojamas kaip kvitas prieš užsakymo pateikimą, tačiau nėra įtrauktas į užsakymo santraukos informaciją. Šis modulis gali būti įtrauktas į užbaigimo talpyklą, užbaigimo skyriaus talpyklą ar sąlygų ir terminų vietą pagal verslo poreikius. Jei jis įtrauktas į užbaigimo talpyklą ar užbaigimo skyriaus talpyklos vietą, jis pasirodys kaip žingsnis užbaigimo procese. Jei jis įtrauktas į sąlygų ir terminų vietą, jis pasirodys šalia užsakymo pateikimo mygtuko.
+- **Išsiregistravimo sąlygos ir terminai** – Šis modulis rodo platų tekstą, kuriame pateiktos sąlygos ir terminai ir užbaigimo laukelį kliento indėliui. Žymimas laukelis yra pasirenkamas ir kondigūruojamas. Indėlį apima modulis ir jis gali būti naudojamas kaip kvitas prieš užsakymo pateikimą, tačiau nėra įtrauktas į užsakymo santraukos informaciją. Šis modulis gali būti įtrauktas į užbaigimo talpyklą, užbaigimo skyriaus talpyklą ar sąlygų ir terminų vietą pagal verslo poreikius. Jei jis įtrauktas į užbaigimo talpyklą ar užbaigimo skyriaus talpyklos vietą, jis pasirodys kaip žingsnis užbaigimo procese. Jei jis įtrauktas į sąlygų ir terminų vietą, jis pasirodys šalią užsakymo pateikimo mygtuko.
 
     Tolesnis paveikslėlis rodo užbaigimo puslapyje esančių terminų ir sąlygų pavyzdį.
 
-    ![Sąlygų ir nuostatų pavyzdys pirkimo užbaigimo puslapyje.](./media/ecommerce-checkout-terms.PNG)
+    ![Terminų ir sąlygų pavyzdys išsiregistravimo puslapyje](./media/ecommerce-checkout-terms.PNG)
 
 ## <a name="commerce-scale-unit-interaction"></a>„Commerce Scale Unit“ sąveika
 
@@ -99,7 +104,7 @@ Norėdami į naują puslapį įtraukti pirkimo užbaigimo modulį ir nustatyti r
 1. Dialogo lange **Įtraukti modulį** pasirinkite modulius **Siuntimo adresas**, **Pristatymo parinktys**, **Pirkimo užbaigimo skyriaus konteineris** ir **Kontaktinė informacija**, tada pasirinkite – **Gerai**.
 1. Modulyje **Pirkimo užbaigimo skyriaus konteineris** pasirinkite daugtaškį (**...**), tada – **Įtraukti modulį**.
 1. Dialogo lange **Įtraukti modulį** dalyje pasirinkite modulius **Dovanų kortelė**, **Lojalumas** ir **Mokėjimas** ir pasirinkite **Gerai**. Taip užtikrinate, kad viename skyriuje kartu rodomi visi mokėjimo būdai.
-1. **Sąlygos ir terminai** vietoje įtraukite **Užbaigimo terminai ir sąlygos** modulį, jei jo reikia. Modulio ypatybių juostoje sukonfigūruokite teksto sąlygas ir terminus taip, kaip būtina.
+1. **Sąlygos ir terminai** vietoje įtraukite **Užbaigimo terminai ir sąlygos** modulį, jei jo reikia. Modulio ypatybių juostoje, sukonfigūruokite teksto sąlygus ir terminus, kaip būtina.
 1. Norėdami peržiūrėti fragmentą, pasirinkite **Įrašyti** ir **Peržiūrėti**. Kai kurie moduliai, kurie neturi krepšelio konteksto, peržiūroje gali būti neatvaizduoti.
 1. Pasirinkite **Baigti redagavimą**, kad užregistruotumėte fragmentą, o tada pasirinkite **Publikuoti**, kad publikuotumėte jį.
 1. Sukurkite šabloną, kuriame naudojamas naujasis pirkimo užbaigimo fragmentas.
@@ -122,6 +127,3 @@ Norėdami į naują puslapį įtraukti pirkimo užbaigimo modulį ir nustatyti r
 [Išsamios užsakymo informacijos modulis](order-confirmation-module.md)
 
 [Dovanų kortelės modulis](add-giftcard.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

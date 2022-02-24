@@ -2,9 +2,11 @@
 title: Darbo eigos ypatybių konfigūravimas
 description: Šioje temoje paaiškinama, kaip konfigūruoti įvairias darbo eigos ypatybes.
 author: ChrisGarty
+manager: AnnBe
 ms.date: 07/07/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -14,19 +16,16 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 81f73f187f75e40297f1f8462e9fff58a309f7f0
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
-ms.translationtype: MT
+ms.openlocfilehash: 8bd3c9bea010099f83d16dad70261bc2d46a1dac
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069253"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4693287"
 ---
 # <a name="configure-workflow-properties"></a>Darbo eigos ypatybių konfigūravimas
 
 [!include [banner](../includes/banner.md)]
-
-
-[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Šioje temoje paaiškinama, kaip konfigūruoti įvairias darbo eigos ypatybes.
 
@@ -74,9 +73,6 @@ Galite pateikti instrukcijas vartotojams, kurie pateiks apdorotinus ir tvirtinti
     4. Lauke **Išverstas tekstas** įveskite tekstą.
     5. Norėdami personalizuoti tekstą, galite įterpti vietos rezervavimo ženklus. Norėdami instrukcijų apie tai, kaip įvesti vietos rezervavimo ženklą, žr. 3 veiksmą.
     6. Spustelėkite **Uždaryti**.
-
-> [!NOTE]
-> Vietos rezervavimo ženklų negalima pridėti naudojant kopijavimo ir įklijavimo funkciją, nes paskirties informacija nebus įklijuota tinkamai. Norėdami įtraukti vietos rezervavimo ženklus, naudokite sąsają.
 
 ## <a name="specify-when-this-workflow-is-used-through-activation-conditions"></a>Nustatymas, kada naudojama ši darbo eiga naudojant aktyvinimo sąlygas
 
@@ -183,6 +179,3 @@ Norėdami įvesti komentarų apie atliktus darbo eigos keitimus, atlikite nurody
 2. Lauke **Įvesti komentarus apie darbo eigą** įveskite savo komentarus.
 3. Peržiūrėkite savo komentarus. Įtraukę komentarus jų modifikuoti negalite.
 4. Spustelėkite **Įtraukti**, norėdami komentarų įtraukti į sritį **Komentarų retrospektyva**.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

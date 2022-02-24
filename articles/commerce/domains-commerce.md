@@ -1,27 +1,30 @@
 ---
-title: „Dynamics 365 Commerce“ esantys domenai
+title: „Dynamics 365 Commerce” domenai
 description: Šioje temoje aprašoma, kaip domenai valdomi „Microsoft Dynamics 365 Commerce”.
 author: BrShoo
-ms.date: 03/17/2021
+manager: AnnBe
+ms.date: 09/03/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: ''
 ms.search.region: Global
 ms.search.industry: retail
 ms.author: BrShoo
 ms.search.validFrom: ''
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: bf96c47b8f5e940ffdd9241c3bdda4162a3101c42004c58c431f135f11c39d14
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cb2b003168d32d05387bd45796d313736b11a41f
+ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6733996"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4517360"
 ---
-# <a name="domains-in-dynamics-365-commerce"></a>„Dynamics 365 Commerce“ esantys domenai
+# <a name="domains-in-dynamics-365-commerce"></a>„Dynamics 365 Commerce” domenai
 
 [!include [banner](includes/banner.md)]
 
@@ -38,7 +41,7 @@ Suteikiant e-komercijos aplinką [„Microsoft Dynamics  Lifecycle Services“ (
 
 Tolesnis paveikslėlis rodo LCS e-komercijos suteikimo ekraną su pabrėžtu **Palaikomais šeimininko pavadinimais** laukeliu. 
 
-![LCS e-komercijos suteikimo ekranas su **Palaikomi talpinimo pavadinimai** pabrėžtas laukelis.](./media/Domains_ProvisioningeCommerceScreen_publish.png)
+![LCS e-komercijos suteikimo ekranas su **Palaikomi talpinimo pavadinimiai** pabrėžtas laukelis](./media/Domains_ProvisioningeCommerceScreen.png)
 
 Galite sukurti paslaugos užklausą, norėdami įtraukti papildomus domenus į aplinką, jei parengimas jau įvyko. Norėdami sukurti paslaugos užklausą LCS, jūsų aplinkoje eikite į **Palaikymas \> Palaikymo problemos** ir pasirinkite **Pateikti incidentą**.
 
@@ -56,7 +59,7 @@ Pirmą kartą nustačius svetainę svetainių daryklėje, bus rodomas dialogo la
 
 Toliau pateiktoje iliustracijoje rodomas dialogo langas **Jūsų svetainės nustatymas** svetainei, kurios pavadinimas „numatytoji”, kai pirmą kartą pasiekiate svetainę svetainių daryklėje.
 
-![Dialogo langas **Jūsų svetainės nustatymas**.](./media/Domains_SetupyoursiteScreen.png)
+![Dialogo langas **Jūsų svetainės nustatymas**](./media/Domains_SetupyoursiteScreen.png)
 
 Langelis **Pasirinkti domeną** leidžia susieti vieną iš palaikomų pagrindinių kompiuterių vardų, pateiktų jūsų svetainei LCS, su svetaine, esančia svetainių daryklėje.
 
@@ -79,11 +82,11 @@ Nustačius svetainę keliu, visi URL, susieti su svetainės daryklės puslapiais
 
 Toliau pateiktame paveikslėlyje parodytas dialogo langas **Naujas URL** svetainių daryklėje ir paryškintas pavyzdinis URL kelias. 
 
-![Dialogo langas **Naujas URL** svetainių daryklėje.](./media/Domains_PageSetup2a.png)
+![Dialogo langas **Naujas URL** svetainių daryklėje](./media/Domains_PageSetup2a.png)
 
 Toliau pateiktame paveikslėlyje parodytas puslapis **URL** svetainių daryklėje ir sąraše paryškintas pavyzdinis URL.
 
-![Vartotojo srauto vykdymo parinktis strategijos sraute.](./media/Domains_URLsInSiteBuilder2a.png)
+![Vartotojo srauto vykdymo parinktis strategijos sraute](./media/Domains_URLsInSiteBuilder2a.png)
 
 ## <a name="domains-in-site-builder"></a>Domenai svetainių daryklėje
 
@@ -151,13 +154,13 @@ Jei domenai esami / aktyvūs, bus atlikti toliau pateikti veiksmai.
 
   [Talpinkite naują e-komercijos nuomotoją](deploy-ecommerce-site.md)
 
-  [Interneto parduotuvės kanalo integravimas](./channel-setup-online.md)
+  [Interneto parduotuvės kanalo integravimas](online-stores.md)
 
   [Sukurkite e-komercijos saitą](create-ecommerce-site.md)
 
   [Susiekite „Dynamics 365 Commerce“ saitą su interneto kanalu](associate-site-online-store.md)
 
-  [robots.txt failų tvarkymas](manage-robots-txt-files.md)
+  [„robots.txt” failų tvarkymas](manage-robots-txt-files.md)
 
   [Masinis URL peradresavimų nusiuntimas](upload-bulk-redirects.md)
 
@@ -170,6 +173,3 @@ Jei domenai esami / aktyvūs, bus atlikti toliau pateikti veiksmai.
   [Turinio pristatymo tinklo (CDN) palaikymo įtraukimas](add-cdn-support.md)
 
   [Parduotuvės nustatymo pagal vietą įgalinimas](enable-store-detection.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

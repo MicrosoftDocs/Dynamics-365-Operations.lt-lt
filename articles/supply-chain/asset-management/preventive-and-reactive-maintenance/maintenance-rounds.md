@@ -1,10 +1,12 @@
 ---
 title: Priežiūros ciklai
 description: Šioje temoje aprašomi priežiūros ciklai skiltyje Turto valdymas.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 08/27/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetRoundTable
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: dc0d8ec546e7455187a87ac124c5e56a93f5bafd2270bf275af950991fc4b87e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a3a64593a2155d35e78b0d854c7367fa65d1c5c8
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6740724"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5018551"
 ---
 # <a name="maintenance-rounds"></a>Priežiūros ciklai
 
@@ -80,7 +82,7 @@ Skiltyje **Turto valdymas** galite sukurti priežiūros ciklus įvairiam turtui,
 
 Toliau pateiktame paveikslėlyje parodytas priežiūros ciklo, kuriame yra trys turto vienetai, pavyzdys.
 
-![1 iliustracija.](media/13-preventive-maintenance.png)
+![1 pav.](media/13-preventive-maintenance.png)
 
 
 ## <a name="schedule-maintenance-rounds"></a>Planuoti priežiūros ciklus
@@ -106,14 +108,11 @@ Nustatę priežiūros ciklą, vykdykite grafiko užduotį, kuria planuojamos vis
 
 Toliau esančiuose dviejuose paveikslėliuose pavaizduota grafiko užduotis dialogo lange **Planuoti priežiūros ciklus** ir priežiūros grafiko eilutes, sukurtos naudojant **Visas priežiūros tvarkaraščius** pagal grafiko užduotį.
 
-![2 iliustracija.](media/14-preventive-maintenance.png)
+![2 pav.](media/14-preventive-maintenance.png)
 
-![3 iliustracija.](media/15-preventive-maintenance.png)
+![3 pav.](media/15-preventive-maintenance.png)
 
 - Kai neautomatiniu būdu sukuriami darbo užsakymai turtui, kuriam taikoma tiekėjo garantija, rodomas dialogo langas, kad vartotojas žinotų apie garantiją. Darbo užsakymo kūrimas vėliau gali būti atšauktas. Garantinis čekis neįtraukiamas automatiškai sukurtuose darbo užsakymuose.  
 - Galite nustatyti paketinę užduotį, esančią „FastTab“ **Vykdyti fone**, kad grafiko ciklai būtų vykdomi reguliariais intervalais.  
 - Jei ciklas yra įtrauktas į kelis darbo užsakymų telkinius (žr. [Darbo užsakymų telkiniai](../work-orders/work-order-pools.md)), kiekviename įrašo telkinyje pasirinkus **Atidaryti priežiūros grafiko telkinius** rodomas vienas įrašas. Taip siekiama optimizuoti darbo užsakymų telkinių filtravimo parinktis.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

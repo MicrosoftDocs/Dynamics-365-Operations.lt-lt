@@ -1,39 +1,38 @@
 ---
 title: Funkcijų valdymo apžvalga
-description: Šioje temoje aprašomas funkcijų valdymas ir kaip galite jį naudoti.
-author: Peakerbl
-ms.date: 01/10/2022
-ms.topic: overview
+description: Šioje temoje aprašoma funkcijų valdymo priemonė ir kaip ją naudoti.
+author: ChrisGarty
+manager: AnnBe
+ms.date: 10/05/2020
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: FeatureManagementWorkspace
 audience: IT Pro, Application user
 ms.reviewer: sericks
 ms.search.region: Global
-ms.author: peakerbl
+ms.author: cgarty
 ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: c98bdbd64ee5488da20de3f5b23ae18ebce8c23f
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
-ms.translationtype: MT
+ms.openlocfilehash: a0f7391273e2374bdd136c5db47bcb65487e2a9c
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8068014"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798357"
 ---
 # <a name="feature-management-overview"></a>Funkcijų valdymo apžvalga
 
 [!include [banner](../../includes/banner.md)]
 
-
-[!INCLUDE [PEAP](../../../../includes/peap-1.md)]
-
-Funkcijos įtraukiamos ir atnaujinamos kiekviename leidime. Funkcijų valdymo patirtis suteikia darbo sritį, kurioje galite peržiūrėti kiekviename leidime pristatytų funkcijų sąrašą. Tada galite naudoti darbo sritį priemonių dokumentacijai peržiūrėti ir funkcijoms įjungti ar išjungti.
+Funkcijos įtraukiamos ir atnaujinamos kiekviename leidime. Funkcijų valdymo patirtis suteikia darbo sritį, kurioje galite peržiūrėti kiekviename leidime pristatytų funkcijų sąrašą. Pagal numatytuosius nustatymus naujos funkcijos yra išjungtos. Galite naudoti darbo sritį, norėdami jas įjungti ir peržiūrėti jų dokumentaciją.
 
 ## <a name="the-feature-management-workspace"></a>Funkcijų valdymo darbo sritis.
 
-Galite atidaryti **Funkcijų valdymo** darbo sritį, pasirinkdami reikiamą plytelę ataskaitų srityje. Pasirodys puslapis, kuriame pateikiamas visų leidimų, kuriuos palaiko funkcijos valdymo patirtis, funkcijų sąrašas. 
+Galite atidaryti **Funkcijų valdymo** darbo sritį, pasirinkdami reikiamą plytelę ataskaitų srityje. Pasirodys puslapis, kuriame pateikiamas visų leidimų, kuriuos palaiko funkcijos valdymo patirtis, funkcijų sąrašas. Ilgainiui „Microsoft“ patobulins funkcijų valdymo patirtį, kad į ją būtų įtraukta daugiau funkcionalumo, padedančio tvarkyti funkcijas.
 
 Funkcijų sąraše pateikiama toliau nurodyta informacija.
 
@@ -41,63 +40,30 @@ Funkcijų sąraše pateikiama toliau nurodyta informacija.
 - **Įjungimo būsena** – simbolis nurodo, ar funkcija įjungta (varnelė), ar neįgalinta (tuščia), ar ji numatyta įjungti (laikrodis), ar yra privalomai įjungta (spyna). Čia rodomas parametras naudojamas visiems juridiniams subjektams. Atkreipkite dėmesį, kad net jei funkcija buvo įjungta, ją vis dar valdo sauga. Todėl funkcija bus prieinama tik tiems vartotojams, kurie turi prieigą prie jos, atsižvelgiant į jų saugos vaidmenį. Ji taip pat bus prieinama tik juridiniams subjektams, prie kurių vartotojas turi prieigą.
 - **Įjungimo data** – diena, kurią funkcija buvo įjungta arba yra suplanuota ją įjungti.
 - **Funkcija įtraukta** – data, kai funkcija buvo įdėta į jūsų aplinką. Ši data automatiškai įvedama, kai atnaujinate savo aplinką mėnesio išleidimo ciklais.
-- **Funkcijos būsena** – dabartinė funkcijos ciklo būsena: **Peržiūra**, **Paleista** (rodoma kaip tuščia), **Pagal numatytuosius**, ir **Privaloma**. Vėliau šioje temoje bus įtrauktos valstijos. 
 - **Modulis** – modulis, kurį paveikė nauja funkcija.
-
-> [!NOTE]
-> **Funkcijos būsenos** stulpelis įtrauktas kaip 10.0.21 versija.
 
 Pasirinkus funkciją, išsamios informacijos srityje rodoma daugiau informacijos funkcijų sąrašo dešinėje. Srities viršuje matysite funkcijos pavadinimą, datą, kada funkcija buvo papildyta, modulį, kuris yra paveiktas funkcijos ir saitą **Sužinoti daugiau**. Pasirinkite šį saitą norėdami peržiūrėti funkcijos dokumentaciją. Jei dokumentacija nepasiekiama, būsite nukreipti į laikiną puslapį. Informacijos srityje taip pat yra laukas **Komentarai**, į kurį galite įtraukti savo komentarus apie funkciją.
 
 Darbo srityje **Funkcijų valdymas** taip pat yra keli skirtukai ir kiekviename iš jų pateikiamas funkcijų sąrašas.
 
 - **Nauja** – šis skirtukas rodo visas funkcijas, kurios buvo įtrauktos po paskutinio mėnesio atnaujinimo. Jei neįdiegėte kurio nors mėnesio atnaujinimo, skirtuke bus parodytos visos naujos funkcijos, kurios buvo įtrauktos po paskutinio jūsų atnaujinimo. Naujausios funkcijos rodomos sąrašo viršuje. Bendras naujų funkcijų skaičius taip pat rodomas plytelėje puslapio viršuje.
-- **Neįjungta** – šiame skirtuke rodomos visos neįjungtos funkcijos. Naujausios funkcijos rodomos sąrašo viršuje. Be to, puslapio viršuje esanti išklotinė dalis rodo bendrą dabar išjungtas naujų funkcijų skaičių.
-- **Suplanuota** – šiame skirtuke rodomos visos funkcijos, kurios suplanuotos įjungti ateityje. Funkcijos, kurios bus įjungtos anksčiausiai, rodomos sąrašo viršuje. Taip pat, laukelyje puslapio viršuje rodomas bendras suplanuotų funkcijų skaičius.
+- **Neįjungta** – šiame skirtuke rodomos visos neįjungtos funkcijos. Naujausios funkcijos rodomos sąrašo viršuje. Bendras naujų neįjungtų funkcijų skaičius taip pat rodomas plytelėje puslapio viršuje.
+- **Suplanuota** – šiame skirtuke rodomos visos funkcijos, kurios suplanuotos įjungti ateityje. Funkcijos, kurios bus įjungtos anksčiausiai, rodomos sąrašo viršuje. Bendras naujų suplanuotų funkcijų skaičius taip pat rodomas plytelėje puslapio viršuje.
 - **Visos** – šiame skirtuke rodomos visos funkcijos. Naujausios funkcijos rodomos sąrašo viršuje.
 
-## <a name="feature-states"></a>Funkcijos valstybių
-Priemonės gali pereiti iš vienos šalies į kitos, nuo jas supažindinant su funkcijų valdymu, kol produktas galiausiai tampa privalomas. Šiame skyriuje aprašomos galiojančios priemonių valstijos.
+## <a name="turn-on-a-feature"></a>Funkcijos įjungimas
 
-### <a name="preview-features-optional"></a>Funkcijų peržiūra (pasirenkama)
+Jei funkcija neįjungta, informacijos srityje rodomas mygtukas **Įjungti dabar**. Šį mygtuką galite naudoti, kad funkciją įjungtumėte.
 
-Produktų komandos gali nuspręsti iš pradžių pradėti naują priemonę kaip peržiūros priemonę. Peržiūros priemonės nėra įgalintos pagal numatytuosius nustatymus, todėl jos yra pasirenkamos. Priklausoma produktų komanda atnaujins funkcijas, kad būtų išleistos po to, kai jos bus sėkmingai išleistos per peržiūros laikotarpį.
+- Pasirinkite norimą įjungti funkciją, tada informacijos srityje pasirinkite **Įjungti dabar**. Funkcija įjungta.
 
-> [!NOTE]
-> Peržiūros funkcijoms taikomos konkrečios peržiūros [terminai ir sąlygos](https://go.microsoft.com/fwlink/?linkid=2105274). 
-
-### <a name="released-features-optional"></a>Išleistos funkcijos (pasirinktinai)
-
-Šių **priemonių būsenos** stulpelis yra tuščias. Priemonės, kurios iš pradžių pridėtos kaip išleistos, pagal numatytuosius nustatymus nėra įjungiamos, o įgalinimas yra pasirinktinis. Priemonės, kurios atnaujinamos iš peržiūros, išlaiko jų įgalinimo būseną.
-
-### <a name="on-by-default-features-optional"></a>Pagal numatytąsias priemones (pasirinktinai)
-
-Priemonės, kurios atnaujintos į Įjungta **pagal numatytuosius** nustatymus, yra įjungiamos pagal numatytuosius nustatymus, tačiau jas galima išjungti. Po to, kai funkcijos, kurias galima išjungti, **būsena** mažiausiai šešis mėnesius buvo paleista, tikimasi, kad jos pereis į šią būseną kitame stambiame leidime. Priemonės, kurios **pagal numatytuosius** nustatymus bus pereina prie [Kas nauja](../whats-new-changed.md) paleidimo temoje. Atnaujinimą inicijuoja produkto valdymo komanda.
-
-> [!NOTE]
-> Šios priemonės bus įgalintos automatiškai, todėl svarbu nustatyti, ar jūsų organizacija parengta šioms funkcijoms naudoti ar daugiau laiko reikia. Jei reikia daugiau laiko, gali reikėti laikinai išjungti šias funkcijas. Atkreipkite dėmesį, kad **pagal numatytuosius nustatymus** priemonės perėjimas prie On paprastai atliekamas stambiojo paleidimo metu, prieš tai, kai priemonė tampa **Privaloma**. Tada neturėsite pasirinkties išjungti funkcijos. 
-
-### <a name="mandatory"></a>Privalomas
-
-**Privaloma** yra numatoma galutinė funkcijų būsena. Tai nurodo, kad priemonės yra įjungtos ir kad negalite jų išjungti nenaudodami „Microsoft". Pasirinktines priemones tikimasi padaryti privalomomis po dviejų pagrindinių leidimų. Kritinės priemonės gali būti išimties tvarka įvestos kaip privalomos.
-
-## <a name="example-of-expected-feature-lifecycles"></a>Numatytų funkcijų ciklo pavyzdys
-
-Priemonės, kurias galima išjungti ir kurios buvo pridėtos kaip išleistos ir pasirenkamos prieš arba kaip balandžio leidimo dalis, numatyta, kad bus pereiti prie **Pagla numatytuosius nustatymus** kitame spalio leidime. Tada tikimasi, kad šių metų balandžio mėnesį jos taps **privalomomis**.
-
-Priemonė, kurią galima išjungti ir kurios buvo pridėtos kaip išleistos ir pasirenkamos prieš arba kaip balandžio leidimo dalis, numatyta, kad bus pereiti prie **Privaloma** kitų metų balandį.
-
-## <a name="enable-a-feature"></a>Įgalinti funkcija
-
-Jei funkcija neįjungta, informacijos srityje rodomas mygtukas **Įjungti dabar**. Šį mygtuką galite naudoti, jei norite įgalinti funkciją.
-
-Kai kurių priemonių negalima išjungti po to, kai jas įgalinsite. Jei funkcija, kurią mėginate įjungti, negali būti įjungta, gausite įspėjimą. Šiuo metu galite pasirinkti **Atšaukti**, norėdami atšaukti operaciją ir palikti funkciją išjungtą. Tačiau, jei pasirinksite **Įgalinti** ir įjungsite funkciją, negalėsite jos išjungti vėliau.
+Įjungus kai kurias funkcijas, jų išjungti negalima. Jei funkcija, kurią mėginate įjungti, negali būti išjungta, gausite įspėjimą. Šiuo metu galite pasirinkti **Atšaukti**, norėdami atšaukti operaciją ir palikti funkciją išjungtą. Tačiau, jei pasirinksite **Įjungti** ir įjungsite funkciją, negalėsite jos išjungti vėliau.
 
 Kai kurios funkcijos rodys pranešimą, kuriame bus pateikta papildoma informacija, prieš jas įjungiant. Šios funkcijos nurodomos geltonu įspėjamuoju simboliu. Turėtumėte atidžiai perskaityti papildomą informaciją, kad geriau suprastumėte, kas įvyks, kai funkcija bus įjungta. Tačiau vis tiek galite pasirinkti **Įjungti**, kad įjungtumėte funkciją.
 
 Kai kurios funkcijos rodys pranešimą, kad funkcija negali būti įjungta, kol nebus imtasi veiksmų. Šios funkcijos nurodomos raudonu „X“ simboliu. Prieš įgalindami funkciją, turite atlikti apraše aprašytus veiksmus. Pavyzdžiui, jei negalite naudoti funkcijos, kol konfigūracijos raktas nebus išjungtas, pirmiausia turite išjungti konfigūracijos raktą, o tada grįžti į funkcijos valdymą, kad įgalintumėte funkciją.
 
-Kai funkcija įjungta, informacijos srityje pasirodo pranešimas **Sužinokite daugiau**. Šis pranešimas nurodo, kad funkcija buvo įjungta, arba nurodo, kada funkcija suplanuota įjungti ateityje. Jis rodomas kiekvieną kartą, kai pasirenkate funkciją sąraše.
+Kai funkcija įjungta, informacijos srityje pasirodo pranešimas **Sužinokite daugiau**. Šis pranešimas nurodo, kad funkcija buvo įjungta arba datą, kada funkcija suplanuota įjungti ateityje. Jis rodomas kiekvieną kartą, kai pasirenkate funkciją sąraše.
 
 Funkcijos, kurios yra suplanuotos įjungti ateityje, rodomos skirtuke **Suplanuota**. Paketinis vykdymas jas įjungs nurodytos dienos vidurnaktį, atsižvelgiant į sistemoje nustatytą laiko juostą.
 
@@ -109,33 +75,35 @@ Jei funkcija suplanuota įjungti ateityje, informacijos srityje atsiranda mygtuk
 2. Pasirodžiusio dialogo lango lauke **Įjungimo data** nurodykite naują funkcijos įjungimo datą.
 3. Pasirinkite **Įgalinti**, jei norite perplanuoti priemonę **Išjungti**, kad atšauktumėte planą.
 
-## <a name="disable-a-feature"></a>Funkcijos išjungimas
+## <a name="turn-off-a-feature"></a>Funkcijos išjungimas
 
-Jei funkcija jau įgalinta, išsamios informacijos srityje atsiranda mygtukas **Išjungti**. Šį mygtuką galite naudoti, jei norite išjungti funkciją. Mygtukas **Išjungti** neveikia, jei funkcija negali būti išjungta ją įjungus. 
+Jei funkcija jau įjungta, informacijos srityje atsiranda mygtukas **Išjungti**. Šį mygtuką galite naudoti, kad funkciją išjungtumėte. Mygtukas **Išjungti** neveikia, jei funkcija negali būti išjungta ją įjungus.
 
-Kai funkcija įjungta, informacijos srityje pasirodo pranešimas **Sužinokite daugiau**. Šis pranešimas nurodo, kad funkcija dar nebuvo įjungta. Jis rodomas kiekvieną kartą, kai pasirenkate funkciją sąraše. Neįjungtos funkcijos rodomos skirtuke **Neįjungta**.
+- Pasirinkite norimą išjungti funkciją, tada informacijos srityje pasirinkite **Išjungti.** Funkcija išjungiama ir laukas **Įjungimo data** išvalomas.
 
-## <a name="features-that-must-be-enabled"></a>Funkcijos, kurias reikia įjungti
+Kai funkcija išjungta, informacijos srityje pasirodo pranešimas **Sužinokite daugiau**. Šis pranešimas nurodo, kad funkcija dar nebuvo įjungta. Jis rodomas kiekvieną kartą, kai pasirenkate funkciją sąraše. Neįjungtos funkcijos rodomos skirtuke **Neįjungta**.
 
-Kartais įtraukiama svarbi funkcija, kurią būtina įjungti automatiškai, kai naujinate. Šios funkcijos bus automatiškai įjungiamos lauke **Įjungimo data** nurodytą dieną. Naudojant šias funkcijas, informacijos srityje pasirodo pranešimas **Sužinokite daugiau**. Šis pranešimas nurodo, kad funkcija buvo įjungta arba nurodo, kada funkcija bus įjungta ateityje. Jis rodomas kiekvieną kartą, kai pasirenkate funkciją sąraše.
+## <a name="features-that-must-be-turned-on"></a>Funkcijos, kurias reikia įjungti
+
+Kartais įtraukiama svarbi funkcija, kurią būtina įjungti automatiškai, kai naujinate. Šios funkcijos bus automatiškai įjungiamos lauke **Įjungimo data** nurodytą dieną. Naudojant šias funkcijas, informacijos srityje pasirodo pranešimas **Sužinokite daugiau**. Šis pranešimas nurodo, kad funkcija buvo įjungta, arba nurodo, kada funkcija bus įjungta ateityje. Jis rodomas kiekvieną kartą, kai pasirenkate funkciją sąraše.
 
 ## <a name="enable-all-features"></a>Įgalinti visas funkcijas
 
-Galite įjungti visas funkcijas pažymėdami mygtuką **Įjungti viską**. 
+Pagal numatytuosius nustatymus visos į jūsų aplinką įtrauktos funkcijos yra išjungtos, nebent jos yra privalomos funkcijos. Galite įjungti visas funkcijas pažymėdami mygtuką **Įjungti viską**. 
 
 Kai pasirenkate **„Įjungti viską“**, parinktis pasirodys ten, kur jums reikia pateikti šią informaciją:
-
 - Visų funkcijų, kurias reikia patvirtinti prieš jas įjungiant, sąrašas. Jei norite įjungti sąraše esančias funkcijas, pasirinkite parinktį **Taip**, skirtą mygtukui **Įjungti funkcijas, reikalaujančias patvirtinimo**.
 - Pasirodys visų funkcijų, kurių negalima įjungti, sąrašas. Šios funkcijos nebus įjungtos.
 
 Visos funkcijos, kurias galima įjungti, bus įjungtos. Jei jau planuojama fukciją įjungti ateityje, grafikas nepasikeis. 
 
-## <a name="enable-all-features-automatically"></a>Automatinis visų funkcijų įjungimas
+## <a name="turn-on-all-features-automatically"></a>Automatinis visų funkcijų įjungimas
 
-Tačiau, jei norite automatiškai įjungti visas naujas funkcijas, galite naudoti išplečiamąjį sąrašą, esantį darbo srities pavadinime, kad pakeistumėte tai, kas atsitinka, kai įtraukiamos naujos funkcijos.
+Pagal numatytuosius nustatymus visos į jūsų aplinką įtrauktos funkcijos yra išjungtos, nebent jos yra privalomos funkcijos. Tačiau, jei norite automatiškai įjungti visas naujas funkcijas, galite naudoti išplečiamąjį sąrašą, esantį darbo srities pavadinime, kad pakeistumėte tai, kas atsitinka, kai įtraukiamos naujos funkcijos.
 
-- Pasirinkite **Įjungti naujas funkcijas automatiškai**, kad automatiškai įjungtumėte visas naujas į jūsų aplinką įtraukiamas funkcijas.
-- Pasirinkite **Neįjungti naujų funkcijų automatiškai**, kad pagal numatytuosius parametrus visos naujos į jūsų aplinką įtraukiamos funkcijos būtų išjungtos.
+- Pasirinkite „`Enable new features automatically`” tam, kad automatiškai įjungtumėte visas naujas į jūsų aplinką įtraukiamas funkcijas.
+- Pasirinkite „`Do not enable new features automatically`” tam, kad pagal numatytuosius nustatymus išjungtumėte visas naujas į jūsų aplinką įtraukiamas funkcijas.
+
 
 Kai įjungiate visas funkcijas automatiškai, tai įgalins visas funkcijas, kurios būtų įjungtos spustelėjus mygtuką **Įjungti viską**. Tai neįjungs funkcijų, kurioms reikia patvirtinimo arba kurių negalima įjungti, kol nebus imtasi veiksmų.
 
@@ -172,6 +140,10 @@ Toliau pateikiami pavyzdžiai apibūdina, kas atsitinka, kai duomenis importuoja
 
 Funkcijų valdymas suteikia jums galimybę kontroliuoti funkcijas, kurios įtraukiamos į kiekvieną leidimą. Versijos suteikia galimybę „Microsoft“ komandoms išleisti funkcijas ribotam klientų skaičiui, kad funkcijos galėtų būti išbandytos ir patikrintos nepakenkiant visiems klientams. Funkcijų valdymas nekontroliuoja funkcijų versijų.
 
+## <a name="new-features-are-optional-for-12-months"></a>Naujos funkcijos yra pasirinktinos 12 mėnesių
+
+Kai nauja neesminė funkcija įdiegiama, ji bus pasirinktina 12 mėnesių laikotarpiu. Tai suteikia laiko jums ir jūsų organizacijai planuoti iš anksto, kada įsisavinti funkciją ir išbandyti ją su kasdieninėmis operacijomis. Norėdami sužinoti daugiau, žr. [DUK apie „One Version” paslaugos naujinimus](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/one-version#what-about-new-features).
+
 ## <a name="using-feature-management-to-turn-on-isv-features-or-custom-features"></a>Funkcijų valdymo naudojimas, siekiant įgalinti ISV funkcijas arba pasirinktines funkcijas
 
 Funkcijų valdymas šiuo metu negalimas, jei funkcijas pateikė nepriklausomi programinės įrangos tiekėjai (ISV) arba jei jos pasirinktinės funkcijos. Tačiau „Microsoft“ įtraukia daugiau funkcijų, kad funkcijų valdymas būtų patobulintas. Baigusi šiuos patobulinimus „Microsoft“ suteiks galimybę naudoti funkcijų valdymą tvarkant visas funkcijas ir pateiks funkcijų naujinimo instrukcijas.
@@ -184,19 +156,20 @@ Funkcijos pridedamos, pašalinamos ir pakeičiamos naudojant kodų pakeitimus. A
 ### <a name="does-a-feature-become-mandatory-automatically"></a>Ar funkcija automatiškai tampa privaloma? 
 Ne, funkcija netampa privaloma automatiškai. Produkto komandos turi atlikti kodo pakeitimą.
 
+### <a name="when-do-features-become-mandatory"></a>Kada funkcijos tampa privalomos? 
+Strategijos esmė ta, kad visos naujos funkcijos bus pasirenkamos per 12 mėnesių laikotarpį ir nereikės valdyti jų pakeitimų, kol įjungsite funkciją. Produkto komandos gali pasirinkti, ar pasibaigus tam laikotarpiui, padaryti funkciją privaloma. 
+
 ### <a name="why-isnt-there-a-specific-mandatory-enabled-date"></a>Kodėl nėra konkrečios privalomumo įjungimo datos? 
 Išleidimo laiko naujinimas yra kintamasis, aplinkos atnaujinimo laikas yra kintamasis, o klientai gali pasirinkti praleisti kai kuriuos naujinimus. Todėl konkrečias datas sunku nustatyti. 
 
-### <a name="wheres-the-documentation-for-features-that-are-mandatory"></a>Kur pateikta privalomų funkcijų dokumentacija? 
-Šią dokumentaciją pateikia kiekvienos „Dynamics 365” programos komanda. Dažnai šios funkcijos bus paminėtos [Kliento funkcijų būsenų atnaujinimuose](/dynamics365-release-plan/2021wave1/finance-operations/finance-operations-crossapp-capabilities/updates-client-feature-states) arba [Pašalintos ar nerekomenduojamos funkcijos](../../../dev-itpro/migration-upgrade/deprecated-features.md). 
+### <a name="wheres-the-documentation-for-features-that-are-being-made-mandatory"></a>Kur pateikti privalomų funkcijų dokumentai? 
+Šiuos dokumentus pateikia programos komandos. Dažnai jos bus paminėtos temoje [Pašalintos ir pasenusios funkcijos](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/deprecated-features). 
 
 ### <a name="is-there-an-in-product-notification-or-signal-that-a-feature-is-going-to-be-mandatory-enabled"></a>Ar yra pranešimas ar signalas apie produktą, kuriam funkcija bus privalomai įjungta? 
 Nėra pranešimo mechanizmo, susijusio su privalomos funkcijos įjungimu.
 
 ### <a name="do-features-ever-get-enabled-without-the-customer-knowing-about-it"></a>Ar funkcijos kada nors yra įjungtos be kliento žinios? 
-Taip, priemonės gali būti įgalintos be kliento žinių šiose situacijose:
-- Funkcija yra perkeliama į **Pagal nutylėjimą**. Šią būseną vis tiek galima išjungti. 
-- Priemonė atnaujinta į **Privaloma**. Šis pakeitimas įvyks tik kartu su stambiu paleidimu. Kritinės funkcijos, išimtimi, gali būti perkeltos į **Privalomą** bet kuriame atnaujinimą.
+Taip, jei funkcijos nedaro funkcinio poveikio, jas galima įjungti pagal numatytuosius nustatymus.
 
 ### <a name="what-is-feature-flighting-and-how-does-it-relate-to-feature-management"></a>Kas yra testuojama funkcija ir kaip ji veikia funkcijų valdymą? 
 Testuojamos funkcijos yra „Microsoft” valdomi realiojo laiko įjungimo/išjungimo mygtukai. Jų negali valdyti klientai, kitaip nei Funkcijų valdyme. 
@@ -230,6 +203,3 @@ IFeatureLifecycle yra „Microsoft“ vidinis mechanizmas, skirtas nurodyti funk
 - `PublicPreview` – rodoma pagal numatytuosius parametrus, bet su perspėjimu, kad funkcijos versija yra peržiūros.
 - `Released` – visiškai išleista.
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

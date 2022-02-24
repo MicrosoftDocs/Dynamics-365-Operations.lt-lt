@@ -63,6 +63,3 @@ Organizacijos gali norėti priežasčių kodus priskirti tam tikriems nedarbo la
 ### <a name="provide-a-leave-and-absence-transaction-list-for-hr"></a>Nedarbo laiko ir neatvykimo operacijų sąrašo pateikimas personalo skyriui
 
 Galimybė sekti darbuotojų nedarbo laiką ir suprasti, kaip skaičiuojamas nedarbo laikas, ne tik padeda personalo skyriui atsakyti į darbuotojų klausimus, bet ir padeda užtikrinti tikslias darbuotojų nedarbo laiko premijas. Dabar HR suteikta prieiga prie naujo operacijų (subsidijų, kaupimų, koregavimų ir užklausų) rodinio, kad HR darbuotojai galėtų sužinoti nebuvimo balansų priežastis.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

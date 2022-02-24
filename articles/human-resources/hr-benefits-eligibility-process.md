@@ -1,59 +1,56 @@
 ---
 title: Teisės į išmoką apdorojimas
 description: Šioje procedūroje rodomas išmokų tinkamumo proceso darbas.
-author: twheeloc
-ms.date: 11/03/2021
+author: andreabichsel
+manager: AnnBe
+ms.date: 02/03/2020
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysPolicySourceDocumentRuleType, SysPolicyListPage, SysPolicy, HcmBenefitEligibilityPolicy, HcmBenefit, BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
-ms.search.scope: Human Resources
+ms.reviewer: anbichse
+ms.search.scope: Core, Operations, Human Resources
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Version 7.0.0, Human Resources
-ms.openlocfilehash: 16a866cb35aacb3b6bece0d6adde6bb5978bd4fc
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
-ms.translationtype: MT
+ms.openlocfilehash: d23dcf4a16979b14ddf58b54e812f21e6698dfc7
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8066023"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4419639"
 ---
 # <a name="benefit-eligibility-process"></a>Teisės į išmoką apdorojimas
 
-
-[!INCLUDE [PEAP](../includes/peap-1.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
 Šioje procedūroje rodomas išmokų tinkamumo proceso darbas. Kai procesas baigtas, galite peržiūrėti rezultatus. Kuriant šią procedūrą naudojama demonstracinių duomenų įmonė yra USMF.
 
-1. Eiti į **Žmogiškieji ištekliai \> Privalumai \> Privalumai**.
+1. Pasirinkite Personalas > Išmokos > Išmokos.
 2. Sąraše raskite ir pasirinkite norimą įrašą.
-3. Šiame sąraše pasirinkite nuorodą pasirinktoje eilutėje.
-4. Pasirinkite **Redaguoti**.
-5. Viduje konors **Tinkamumas** lauką, pasirinkite **Taisyklėmis pagrįsta**.
-6. Viduje konors **Taisyklės tipas** lauke pasirinkite išmokų politikos taisyklę, kurią norite taikyti išmokai.
-7. Veiksmų srityje pasirinkite **Nauda**.
-8. Pasirinkite **Sukurti tinkamumo įvykį**.
-9. Išskleidžiamajame dialogo lange esančiame **Renginys** lauke įveskite reikšmę.
-10. Lauke **Aprašas** įveskite reikšmę.
-11. Viduje konors **Renginio tipas** lauką, pasirinkite **Atidaryti registraciją**.
-12. Viduje konors **Aprėpties pradžios data** lauke įveskite datą ir laiką.
-13. Viduje konors **Registracijos laikotarpio pradžios data** lauke įveskite datą ir laiką.
-14. Viduje konors **Dienos iki registracijos** lauke įveskite skaičių.
-15. Pasirinkite **Sukurti įvykį**.
-16. Ant **Darbininkai** FastTab, pasirinkite **Papildyti**.
-17. Viduje konors **Rodyti pagal tipą** lauką, pasirinkite **Darbuotojai**.
-18. Viduje konors **Rodyti pagal juridinį asmenį** lauką, pasirinkite **Dabartinis juridinis asmuo**.
+3. Sąraše spustelėkite saitą pasirinktoje eilutėje.
+4. Spustelėkite Redaguoti.
+5. Lauke Tinkamumas pasirinkite 'Pagal taisyklę'.
+6. Lauke Taisyklės tipas, pasirinkite išmokos strategijos taisyklę, norimą taikyti išmokai.
+7. Veiksmų srityje spustelėkite „Išmoka“.
+8. Spustelėję Kurti tinkamumo įvykį, atidarysite išplečiamąjį dialogo langą.
+9. Lauke Įvykis įveskite vertę.
+10. Lauke Aprašas surinkite reikšmę.
+11. Lauke Įvykio tipas pasirinkite 'Atidaryti registraciją'.
+12. Lauke Padengimo pradžios data įveskite datą ir laiką.
+13. Lauke Registracijos laikotarpio pradžios data įveskite datą ir laiką.
+14. Lauke Registracijos dienos įveskite numerį.
+15. Spustelėkite Kurti įvykį.
+16. Darbuotojų "FastTab" spustelėkite Įtraukti.
+17. Lauke Rodyti pagal tipą pasirinkite 'Darbuotojai'.
+18. Lauke Rodyti pagal juridinį subjektą pasirinkite 'Dabartinis juridinis subjektas'.
 19. Pažymėkite arba atžymėkite visas sąrašo eilutes.
-20. Pasirinkite **Gerai**.
-21. Pasirinkite **Procesas**.
-22. Pasirinkite **Gerai**.
+20. Spustelėkite GERAI.
+21. Spustelėkite „Apdoroti“.
+22. Spustelėkite GERAI.
 23. Atnaujinkite puslapį.
-24. Pasirinkite **Parodyti rezultatus**.
-25. Atidaryk **Būsena** stulpelio filtras.
-26. Rūšiuoti stulpelį nuo A iki Z.
+24. Spustelėkite Rodyti rezultatus.
+25. Atidarykite Būsenos stulpelio filtrą.
+26. Rikiuoti nuo A iki Z
 
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

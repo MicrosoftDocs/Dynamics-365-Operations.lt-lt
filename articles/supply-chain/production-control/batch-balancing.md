@@ -2,9 +2,11 @@
 title: Paketo balansavimas
 description: Šioje temoje aprašomas paketų balansavimo procesas.
 author: johanhoffmann
+manager: tfehr
 ms.date: 01/04/2021
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BOMTable, WHSReservationHierarchy, WHSInventTableReservationHierarchy
 audience: Application User
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: a9e69b4d9213e57e5a920c7adda934ba845d17410c17d9c8a6356d717870ac23
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8c1f52239b2050425c37a8130507e689b29205a8
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6780081"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4966560"
 ---
 # <a name="batch-balancing"></a>Paketo balansavimas
 
@@ -57,28 +59,28 @@ Norėdami peržiūrėti ir redaguoti faktinę paketo aktyviojo ingrediento vert�
 
 Sukurtos formulės eilutės ingrediento tipas gali būti vienas iš tolesnių.
 
-- Nėra
+- None
 - Aktyvu
 - Kompensavimas
 - Pildytojas
 
 Likusioje šio skyriaus dalyje pateikiama pavyzdžių, rodančių, kaip veikia kiekvienas ingrediento tipas. Pavyzdžiai paremti tolesne formule, kurioje bendrasis paketo dydis yra 100 litrų.
 
-| Sudedamosios dalies tipas | Prekės numeris | Formulės eilutės kiekis | Vienetas |
+| Sudedamosios dalies tipas | Prekės Nr. | Formulės eilutės kiekis | Vienetas |
 |---|---|---|---|
-| Nėra | A | 20 | Litras |
-| Aktyvios | B | 30 | Litras |
-| Kompensavimas | C | 10 | Litras |
+| None | A | 20 | Litras |
+| Aktyvios | Mlrd. | 30 | Litras |
+| Kompensavimas | K | 10 | Litras |
 | Pildytojas | D | 40 | Litras |
 
 Toliau esančioje lentelėje pateikiama kiekvieno pavyzdžio rezultatų apžvalga.
 
-| Prekės numeris | Sudedamosios dalies tipas | Įvertintas kiekis | Subalansuotas kiekis | Aktyvus kiekis | Vienetas | Pagrindinė vertė |
+| Prekės Nr. | Sudedamosios dalies tipas | Įvertintas kiekis | Subalansuotas kiekis | Aktyvus kiekis | Vienetas | Pagrindinė vertė |
 |---|---|---|---|---|---|---|
-| A | Nėra | 20 | 20 | | Litras | |
-| G | Aktyvu | 30 | 25,71 | 9,00 | Litras | 30,00 |
-| K | Kompensavimas | 10 | 14,72 | | Litras | |
-| D | Pildytojas | 40 | 39,57 | | Litras | |
+| A | None | 20 | 20 | | Litras | |
+| G | Aktyvu | 30 | 25,71 | 9,00 | Litras | 30.00 |
+| K | Kompensavimas | 10 | 14.72 | | Litras | |
+| D | Pildytojas | 40 | 39.57 | | Litras | |
 
 ### <a name="active-ingredients"></a>Aktyvieji ingredientai
 
@@ -184,6 +186,3 @@ Yra dvi išimtis taisyklei, kad paketiniams užsakymams galima taikyti paketų b
 1. Jei formulės matavimo vienetas skiriasi nuo aktyviojo ingrediento atsargų matavimo vieneto, partijų balansavimas netaikomas paketo užsakymui.
 
 Paketiniam užsakymui, kuriam negalima taikyti paketų balansavimo funkcijos, taikomas įprastas paketinių užsakymų apdorojimo ciklas.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

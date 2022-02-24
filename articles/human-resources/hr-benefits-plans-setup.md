@@ -1,35 +1,33 @@
 ---
 title: Išmokų plano kūrimas
-description: Šioje temoje pateikiama, kaip nustatyti išmokų planus programoje „Dynamics 365 Human Resources“.
-author: twheeloc
-ms.date: 08/23/2021
+description: Nustatykite išmokų planus programoje „Dynamics 365 Human Resources“.
+author: andreabichsel
+manager: AnnBe
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: BenefitPlanListPage, BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7d3163bf30af9ed0eac2c753ed4aabb15d568ff4
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
-ms.translationtype: MT
+ms.openlocfilehash: bcbf4c1a7f136e5563bf1210b6c09228dad95dea
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065331"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4419674"
 ---
-# <a name="create-a-benefit-plan"></a>Išmokų planų kūrimas
+# <a name="create-a-benefits-plan"></a>Išmokų plano kūrimas
 
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-Šioje temoje pateikiama, kaip nustatyti išmokų planus programoje „Dynamics 365 Human Resources“.
+Šiame straipsnyje pateikiama, kaip nustatyti išmokų planus programoje „Dynamics 365 Human Resources“.
 
 1. Darbo srities **Išmokų valdymas** dalyje **Planai** pasirinkite **Išmokų planai**.
 
@@ -46,8 +44,9 @@ ms.locfileid: "8065331"
    | **Programa** | Nurodo programą, kuriai pasirinktinai priskiriamas planas. |
    | **Grupavimas** | Nurodo grupavimą, kuriam pasirinktinai priskiriamas planas. |
    | **Meistras** | Nurodo, ar planas yra pagrindinis planas, esantis jam priskirtame grupavime. |
+   | **Būsena** | Rodoma dabartinė išmokų plano būsena. Numatytoji reikšmė yra Aktyvusis. Pakeitus būseną į Neaktyvusis, plane nebus galima pasirinkti per registraciją. |
    | **Galiojimo pradžios data ir laikas** | Plano pradžios data ir laikas. Numatytoji vertė yra dabartinė sistemos data. |
-   | **Galiojimo pabaigos data ir laikas** | Plano pabaigos data ir laikas. Numatytoji reikšmė yra 2154-12-31, kuri reiškia, kad niekada. |
+   | **Galiojimo pabaigos data ir laikas** | Plano pabaigos data ir laikas (būsena nustatyta kaip Neaktyvusis). Numatytoji reikšmė yra 2154-12-31, kuri reiškia, kad niekada. |
 
 4. Skirtuke **Konfigūracija** nurodykite šių laukų vertes, atsižvelgdami į kuriamo plano tipą:
 
@@ -55,18 +54,18 @@ ms.locfileid: "8065331"
    | --- | --- | --- |
    | Sveikatos priežiūra (sveikatos, dantų, regos, HMO) | COBRA | Nurodo, ar planas yra tinkamas, remiantis COBRA (konsoliduotojo bendrojo biudžeto derinimo įstatymu). |
    | Sveikatos priežiūra (sveikatos, dantų, regos, HMO) | HIPAA | Nurodo, ar planas yra tinkamas, remiantis HIPAA (sveikatos draudimo portatyvumo ir atskaitomybės aktu). |
-   | Sveikatos priežiūra (sveikatos, dantų, regos, HMO)<br><br>Kita (PTO, „Fitness“)<br><br>Kitos<br><br>Ilgalaikė negalia<br><br>ADD („Basic life“, „Voluntary life“)<br><br>Santaupos (pvz., „401 (k)“)<br><br>FSA | Prieš skaičiuojant mokesčius tinkamas | Nurodo, ar, prieš taikant mokesčius, galima į planą mokėti įnašus. |
-   | Sveikatos priežiūra (sveikatos, dantų, regos, HMO)<br><br>Kita (PTO, „Fitness“)<br><br>Ilgalaikė negalia<br><br>ADD („Basic life“, „Voluntary life“)<br><br>Santaupos (pvz., „401 (k)“)<br><br>FSA | Registruoti tinkamą mokestį | Nurodo, ar, pritaikius mokesčius, galima į planą mokėti įnašus. |
-   | Sveikatos priežiūra (sveikatos, dantų, regos, HMO)<br><br>Kita (PTO, „Fitness“)<br><br>Ilgalaikė negalia<br><br>ADD („Basic life“, „Voluntary life“)<br><br>Santaupos (pvz., „401 (k)“)<br><br>FSA | Bendraautorius | Nurodo, kas įneša į planą – darbuotojai, darbdaviai arba abi grupės. |
-   | Ilgalaikė negalia<br><br>ADD („Basic life“, „Voluntary life“) | Minimalus padengimas | Mažiausia draudimo suma, būtina planui. |
-   | Ilgalaikė negalia<br><br>ADD („Basic life“, „Voluntary life“) | Maksimalus padengimas | Didžiausia draudimo suma, būtina planui. |
-   | Ilgalaikė negalia<br><br>ADD („Basic life“, „Voluntary life“) | Naudoti padengimo didinimą | Nurodo, ar patvirtinti, kad draudimo suma atitinka tinkamą papildančiąją sumą. |
-   | Ilgalaikė negalia<br><br>ADD („Basic life“, „Voluntary life“) | Papildančioji suma | Papildančioji draudimo suma, būtina planui. Pavyzdžiui, jei papildančioji suma yra 1 000, darbuotojui negali būti 200 500 $ draudimo suma, jis turėtų apvalinti iki 201 000 $ arba sumažinti iki 200 000 $. |
-   | Ilgalaikė negalia<br><br>ADD („Basic life“, „Voluntary life“) | Papildančioji kryptis | Nurodo, kaip apvalinti (į didžiąją arba mažąją pusę), kai padengimo suma neatitinka papildomosios sumos vertės. |
+   | <ul><li>Sveikatos priežiūra (sveikatos, dantų, regos, HMO)</li><li>Kita (PTO, „Fitness“)</li><li>Kitos</li><li>Ilgalaikė negalia</li><li>ADD („Basic life“, „Voluntary life“)</li><li>Santaupos (pvz., „401 (k)“)</li><li>FSA</li></ul> | Prieš skaičiuojant mokesčius tinkamas | Nurodo, ar, prieš taikant mokesčius, galima į planą mokėti įnašus. |
+   | <ul><li>Sveikatos priežiūra (sveikatos, dantų, regos, HMO)</li><li>Kita (PTO, „Fitness“)</li><li>Ilgalaikė negalia</li><li>ADD („Basic life“, „Voluntary life“)</li><li>Santaupos (pvz., „401 (k)“)</li><li>FSA</li></ul> | Registruoti tinkamą mokestį | Nurodo, ar, pritaikius mokesčius, galima į planą mokėti įnašus. |
+   | <ul><li>Sveikatos priežiūra (sveikatos, dantų, regos, HMO)</li><li>Kita (PTO, „Fitness“)</li><li>Ilgalaikė negalia</li><li>ADD („Basic life“, „Voluntary life“)</li><li>Santaupos (pvz., „401 (k)“)</li><li>FSA</li></ul> | Bendraautorius | Nurodo, kas įneša į planą – darbuotojai, darbdaviai arba abi grupės. |
+   | <ul><li>Ilgalaikė negalia</li><li>ADD („Basic life“, „Voluntary life“)</li></ul> | Minimalus padengimas | Mažiausia draudimo suma, būtina planui. |
+   | <ul><li>Ilgalaikė negalia</li><li>ADD („Basic life“, „Voluntary life“)</li></ul> | Maksimalus padengimas | Didžiausia draudimo suma, būtina planui. |
+   | <ul><li>Ilgalaikė negalia</li><li>ADD („Basic life“, „Voluntary life“)</li></ul> | Naudoti padengimo didinimą | Nurodo, ar patvirtinti, kad draudimo suma atitinka tinkamą papildančiąją sumą. |
+   | <ul><li>Ilgalaikė negalia</li><li>ADD („Basic life“, „Voluntary life“)</li></ul> | Papildančioji suma | Papildančioji draudimo suma, būtina planui. Pavyzdžiui, jei papildančioji suma yra 1 000, darbuotojui negali būti 200 500 $ draudimo suma, jis turėtų apvalinti iki 201 000 $ arba sumažinti iki 200 000 $. |
+   | <ul><li>Ilgalaikė negalia</li><li>ADD („Basic life“, „Voluntary life“)</li></ul> | Papildančioji kryptis | Nurodo, kaip apvalinti (į didžiąją arba mažąją pusę), kai padengimo suma neatitinka papildomosios sumos vertės. |
    | ADD („Basic life“, „Voluntary life“) | Draudžiamumo įrodymai | Nurodo, ar darbuotojas turi pateikti draudžiamumo įrodymą. |
    | ADD („Basic life“, „Voluntary life“) | Suma | Suma apskaitos valiuta. Šis laukas aktyvus tik tada, jei pažymėtas žymės langelis Draudžiamumo įrodymai. |
-   | Santaupos (pvz., „401 (k)“)<br><br>FSA | Mažiausias metinis įnašas | Mažiausia įnašo suma, būtina planui. |
-   | Santaupos (pvz., „401 (k)“)<br><br>FSA | Didžiausias metinis įnašas | Didžiausia įnašo suma, būtina planui. |
+   | <ul><li>Santaupos (pvz., „401 (k)“)</li><li>FSA</li></ul> | Mažiausias metinis įnašas | Mažiausia įnašo suma, būtina planui. |
+   | <ul><li>Santaupos (pvz., „401 (k)“)</li><li>FSA</li></ul> | Didžiausias metinis įnašas | Didžiausia įnašo suma, būtina planui. |
    | Santaupos (pvz., „401 (k)“) | Darbdavio maksimali metinė suma | Didžiausia suma, kurią darbdavys gali įnešti į darbuotojo santaupų planą išmokos laikotarpiu. Norėdami naudoti šį lauką, turite pažymėti žymės langelį Darbdavio atitiktis. |
    | Santaupos (pvz., „401 (k)“) | Darbdavio atitiktis | Nurodo, ar darbdavys įneša į darbuotojo santaupų planą. |
    | Santaupos (pvz., „401 (k)“) | Darbdavio atitikties procentinė dalis | Darbuotojo įnašo, kurį turi atitikti darbdavys, procentinė dalis. |
@@ -121,7 +120,7 @@ Galite peržiūrėti darbininkus, užregistruotus pasirinktame išmokų plane.
 
 1. Darbo srities **Išmokų valdymas** dalyje **Planai** pasirinkite **Išmokų planai**.
 
-2. Naršymo **juostos** skirtuke Išmokos pasirinkite Užregistruoti **darbuotojai**.
+2. Pasirinkite **Užregistruoti darbininkai**.
 
 ## <a name="attach-coverage-options"></a>Pridėti padengimo parinktis
 
@@ -129,7 +128,7 @@ Galite įtraukti draudimo parinktis į pasirinktą išmokų planą. Pridėjus dr
 
 1. Darbo srities **Išmokų valdymas** dalyje **Planai** pasirinkite **Išmokų planai**.
 
-2. Naršymo **juostos** skirtuke Išmokos pasirinkite Užregistruoti **Įtraukti apimamas parinktis**.
+2. Pažymėkite **Pridėti draudimo parinktis**.
 
 ## <a name="override-eligibility-rules"></a>Tinkamumo taisyklių perrašymas
 
@@ -137,7 +136,7 @@ Galite įtraukti darbininkų į planą kaip tinkamumo taisyklių išimtis. Kiekv
 
 1. Darbo srities **Išmokų valdymas** dalyje **Planai** pasirinkite **Išmokų planai**.
 
-2. Naršymo **juostos** skirtuke Išmokos pasirinkite Užregistruoti **Atitikimo taisyklės viršijimas**.
+2. Pažymėkite **Tinkamumo taisyklės perrašymas**.
 
 ## <a name="view-attached-periods"></a>Pridėtų laikotarpių peržiūra
 
@@ -145,21 +144,18 @@ Galite peržiūrėti galimų išmokų laikotarpių sąrašą.
 
 1. Darbo srities **Išmokų valdymas** dalyje **Planai** pasirinkite **Išmokų planai**.
 
-2. Pasirinkite šoninės naršymo juostos skirtuką **Laikotarpiai**.
+2. Pažymėkite **Laikotarpiai**.
 
-## <a name="view-plan-description"></a>Peržiūrėti plano aprašą
+## <a name="view-plan-information"></a>Informacijos apie planą peržiūra
 
-Galite pateikti plano aprašą, kad darbuotojams būtų lengviau rinktis išmokas. Čia įvestas aprašas apie planą rodoma darbuotojo savitarnos paslaugoje, kai užvedamas žymiklis virš plano draudimo parinkčių sąraše.
+Galite pateikti plano aprašą, kad darbuotojams būtų lengviau rinktis išmokas. Čia įvesta informacija apie planą rodoma darbuotojo savitarnos paslaugoje, kai užvedamas žymiklis virš plano draudimo parinkčių sąraše.
 
 1. Darbo srities **Išmokų valdymas** dalyje **Planai** pasirinkite **Išmokų planai**.
 
-2. Naršymo **juostos** skirtuke Išmokos pasirinkite **Plano aprašas**.
+2. Pasirinkite **Informacija apie planą**.
 
 ## <a name="view-flex-credit-programs"></a>Peržiūrėti lanksčiųjų kreditų programas
 
 1. Darbo srities **Išmokų valdymas** dalyje **Planai** pasirinkite **Išmokų planai**.
 
-2. Naršymo **juostos** skirtuke Išmokos pasirinkite Užregistruoti **Lankstaus kredito programos**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+2. Pasirinkite **Lanksčiųjų kreditų programos**.

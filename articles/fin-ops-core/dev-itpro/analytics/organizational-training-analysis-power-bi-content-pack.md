@@ -2,9 +2,11 @@
 title: Organizacinio mokymo „Power BI“ turinys
 description: Šioje temoje aprašomas „Finance and Operations“ – organizacinio mokymo „Power BI“ turinys.
 author: jcart1106
+manager: AnnBe
 ms.date: 12/19/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: kfend
@@ -14,12 +16,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: cd48c12ea3ea31904c437f678888a51e5381cfcfbeef0e1c709858b0c6cb857d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bbbb3069ffc43062e456721e189f671398514cfd
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6763553"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4685840"
 ---
 # <a name="organizational-training-power-bi-content"></a>Organizacinio mokymo „Power BI“ turinys
 
@@ -55,6 +57,3 @@ Programos duomenys naudojami ataskaitoms organizacinio mokymo turinio pakete už
 | Training\_Position        | Pareigos ir etato ekvivalentas (FTE)                  | Training\_CourseAgenda, Training\_CourseAttendees |
 | Training\_WorkerName      | Vardas, pavardė ir vardas bei pavardė                             | Training\_CourseAttendees |
 | Training\_WorkerTitle     | Pareigos ir paaukštinimo data                                         | Training\_CourseAttendees |
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

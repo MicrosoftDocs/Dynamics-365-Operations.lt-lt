@@ -1,10 +1,12 @@
 ---
-title: Atnaujinti sandėlio valdymą iš „Microsoft Dynamics AX 2012“ į „Supply Chain Management”
+title: Atnaujinti sandėlio valdymą iš „Microsoft Dynamics AX 2012“ į Tiekimo grandinės valdymą
 description: Šioje temoje apžvelgiamos produktų ir sandėlio valdymo perkėlimo parinktys.
 author: perlynne
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventLocationWHSProcessEnablement, WHSLocationProfile, InventTableStorageDimensionGroupChange, InventUpdateBlockedItem, WHSParameters, WHSReservationHierarchy, WHSUOMSeqGroupTable
 audience: Application User
@@ -15,29 +17,29 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5ac8c0d8781e5146186fbf71ce619f90ca3556ccefefe7e974efded7e0eb86dd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 45d9809d4bbf1b5a68c3f799ce5d51f9709d276b
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6775440"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4970286"
 ---
-# <a name="upgrade-warehouse-management-from-microsoft-dynamics-ax-2012-to-supply-chain-management"></a>Atnaujinti sandėlio valdymą iš „Microsoft Dynamics AX 2012“ į „Supply Chain Management” 
+# <a name="upgrade-warehouse-management-from-microsoft-dynamics-ax-2012-to-supply-chain-management"></a>Atnaujinti sandėlio valdymą iš „Microsoft Dynamics AX 2012“ į Tiekimo grandinės valdymą 
 
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje pateikiama proceso naujinimo iš „Microsoft Dynamics AX 2012 R3“ su WMSII moduliu į „Supply Chain Management” apžvalga.
+Šioje temoje pateikiama proceso naujinimo iš „Microsoft Dynamics AX 2012 R3“ su WMSII moduliu į Tiekimo grandinės valdymą apžvalga.
 
-„Supply Chain Management” nebepalaiko senstelėjusio **WMSII** modulio iš „Microsoft Dynamics AX 2012“. Vietoj to galite naudoti modulį **Sandėlio valdymas**. WMSII modulyje galima pasirinkti finansų atsargų vietos ir padėklo ID atsargų dimensijas, tačiau padėklo ID atsargų dimensijos negalima naudoti „Supply Chain Management” finansų atsargoms.
+Tiekimo grandinės valdymas nebepalaiko senstelėjusio **WMSII** modulio iš „Microsoft Dynamics AX 2012“. Vietoj to galite naudoti modulį **Sandėlio valdymas**. WMSII modulyje galima pasirinkti finansų atsargų vietos ir padėklo ID atsargų dimensijas, tačiau padėklo ID atsargų dimensijos negalima naudoti Tiekimo grandinės valdymo finansų atsargoms.
 
 Naujinant nustatomi, pažymimi kaip užblokuoti ir naujinimo metu neapdorojami visi su saugojimo dimensijos grupe, kurioje naudojamos padėklo ID atsargos, susieti produktai.
 
-## <a name="upgrading-to-supply-chain-management-when-ax-2012-r3-wmsii-is-used"></a>Atnaujinama į „Supply Chain Management”, kai naudojama AX 2012 R3 WMSII
+## <a name="upgrading-to-supply-chain-management-when-ax-2012-r3-wmsii-is-used"></a>Atnaujinama į Tiekimo grandinės valdymą, kai naudojama AX 2012 R3 WMSII
 Atnaujinę galite naudoti parinkčių rinkinį formoje **Keisti prekių saugojimo dimensijų grupę**, kad atblokuotumėte produktus, kurie buvo užblokuoti naujinant, tada apdoroti šių produktų operacijas.
 
-### <a name="enabling-items-in-supply-chain-management"></a>„Supply Chain Management” elementų įgalinimas 
-Šis keitimas reikalingas, nes prekių sekimas „Supply Chain Management” yra sandėlio valdymo procesų dalis. Šiuose procesuose visi sandėliai ir jų vietos turi būti susieti su vietos šablonu. Jei norite naudoti sandėlio valdymo procesus, turite atlikti toliau nurodytas konfigūracijas.
+### <a name="enabling-items-in-supply-chain-management"></a>Tiekimo grandinės valdymo elementų įgalinimas 
+Šis keitimas reikalingas, nes prekių sekimas Tiekimo grandinės valdyme yra sandėlio valdymo procesų dalis. Šiuose procesuose visi sandėliai ir jų vietos turi būti susieti su vietos šablonu. Jei norite naudoti sandėlio valdymo procesus, turite atlikti toliau nurodytas konfigūracijas.
 -   Esami sandėliai turi būti įgalinti naudoti sandėlio valdymo procesus 
 -   Esami išleisti produktai turi būti susieti su saugojimo dimensijų grupe, naudojančia sandėlio valdymo procesus 
 
@@ -66,7 +68,7 @@ Prieš naudojant išleistus produktus modulyje **Sandėlio valdymas** produktai 
 1.  Sukurkite bent vieną naują vietos šabloną.
 2.  Spustelėkite **Sandėlio valdymas** &gt; **Sąranka** &gt; **Įgalinti sandėlio valdymo procesus** &gt; **Įgalinti sandėlio nustatymus**.
 3.  Puslapyje **Įgalinti sandėlio nustatymus** įtraukite sandėlius, kurie turėtų būti įgalinti. Šį veiksmą galite atlikti tiesiog puslapyje arba naudodami „Microsoft Office“ integraciją.
-4.  Priskirkite vietos šabloną visoms vietoms. Šį veiksmą galite lengvai atlikti „Microsoft Office“ integraciją tiesiog naudodami puslapyje. Galite eksportuoti ir importuoti duomenis arba naudoti duomenų objekto apdorojimą dalyje [Duomenų valdymas](../../fin-ops-core/dev-itpro/data-entities/data-entities.md).
+4.  Priskirkite vietos šabloną visoms vietoms. Šį veiksmą galite lengvai atlikti „Microsoft Office“ integraciją tiesiog naudodami puslapyje. Galite eksportuoti ir importuoti duomenis arba naudoti duomenų objekto apdorojimą dalyje [Duomenų valdymas](../../dev-itpro/data-entities/data-entities.md).
 5.  Patikrinkite pakeitimus. Tikrinimo proceso metu bus atliekami įvairūs duomenų vientisumo tikrinimai. Vykdant didesnį naujinimo procesą, iškylančios problemos gali būti pakoreguotos diegiant šaltinį. Šiuo atveju reikės papildomo duomenų naujinimo.
 6.  Apdorokite pakeitimus.
 
@@ -77,9 +79,6 @@ Prieš naudojant išleistus produktus modulyje **Sandėlio valdymas** produktai 
 3.  Puslapyje **Rezervavimo hierarchija** nustatykite naują rezervavimo hierarchiją pagal prekės saugojimo ir sekimo dimensijų grupes.
 4.  Sukurkite vieną ar daugiau vienetų sekų grupių, kuriose yra tokių pačių vienetų, naudojamų prekių atsargų vienetams.
 5.  Spustelėkite **Sandėlio valdymas** &gt; **Nustatymas** &gt; **Įgalinti sandėlio valdymo procesus** &gt; **Pakeisti prekių saugojimo dimensijų grupę**.
-6.  Puslapyje **Pakeisti prekių saugojimo dimensijų grupę** įtraukite prekių numerius, saugojimo dimensijų grupes ir vienetų sekų grupes. Šį veiksmą galite atlikti tiesiog puslapyje, naudodami „Microsoft Office“ integraciją arba duomenų objekto procesą dalyje [Duomenų valdymas](../../fin-ops-core/dev-itpro/data-entities/data-entities.md).
+6.  Puslapyje **Pakeisti prekių saugojimo dimensijų grupę** įtraukite prekių numerius, saugojimo dimensijų grupes ir vienetų sekų grupes. Šį veiksmą galite atlikti tiesiog puslapyje, naudodami „Microsoft Office“ integraciją arba duomenų objekto procesą dalyje [Duomenų valdymas](../../dev-itpro/data-entities/data-entities.md).
 7.  Patikrinkite pakeitimus. Tikrinimo proceso metu bus atliekami įvairūs duomenų vientisumo tikrinimai. Vykdant didesnį naujinimo procesą, iškylančios problemos gali būti pakoreguotos diegiant šaltinį. Šiuo atveju reikės papildomo duomenų naujinimo.
 8.  Apdorokite pakeitimus. Visų atsargų dimensijų atnaujinimas gali šiek tiek užtrukti. Galite stebėti eigą naudodami paketines užduotis.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

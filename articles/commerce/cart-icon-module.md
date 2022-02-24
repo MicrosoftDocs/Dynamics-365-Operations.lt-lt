@@ -2,24 +2,27 @@
 title: Krepšelio piktogramos modulis
 description: Šioje temoje paaiškinamas krepšelio piktogramos modulis ir aprašoma, kaip pridėti jį prie svetainių puslapių, esančių „Microsoft Dynamics 365 Commerce“.
 author: anupamar-ms
-ms.date: 08/02/2021
+manager: annbe
+ms.date: 10/20/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 5cf86876ba03d510b03237c9c89a1fc069a73482b755a1d72227037c91439e86
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ebc5cfa490a4c8538fd081aced0844ed01d63a26
+ms.sourcegitcommit: 12d271bb26c7490e7525d9b4bbf125cdc39fef43
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6735683"
+ms.lasthandoff: 11/07/2020
+ms.locfileid: "4414506"
 ---
 # <a name="cart-icon-module"></a>Krepšelio piktogramos modulis
 
@@ -27,34 +30,20 @@ ms.locfileid: "6735683"
 
 Šioje temoje paaiškinamas krepšelio piktogramos modulis ir aprašoma, kaip pridėti jį prie svetainių puslapių, esančių „Microsoft Dynamics 365 Commerce“.
 
+## <a name="overview"></a>Peržiūra
+
 Krepšelio piktogramos modulis nurodo krepšelį puslapio antraštės modulyje esantį krepšelį ir krepšelyje esančių prekių skaičių. Krepšelio piktogramos modulis taip pat nurodo ir krepšelio suvestinę (dar vadinamą mažuoju krepšeliu), kai pelės žymiklis užvestas virš krepšelio piktogramos. Mažasis krepšelis suteikia vartotojui krepšelyje esančių prekių suvestinę ir nereikia pereiti į krepšelio puslapį. Be to, jis taip pat leidžia vartotojui tiesiogiai pereiti prie pirkimo užbaigimo puslapio, jei jis patenkintas suvestine. Tai sumažina naršymo puslapių skaičių ir leidžia greičiau užbaigti pirkimą. 
+
+> [!NOTE]
+> Krepšelio piktogramos modulio palaikymas pasiekiamas „Dynamics 365 Commerce” 10.0.11 leidime.
 
 Toliau pateiktame vaizde parodytas krepšelio piktogramos modulio, kuris rodo mažąjį krepšelį „Fabrikam“ antraštėje, pavyzdys.
 
-![Krepšelio piktogramos modulio pavyzdys.](./media/ecommerce-Minicart.PNG)
+![Krepšelio piktogramos modulio pavyzdys](./media/ecommerce-Minicart.PNG)
 
 ## <a name="module-properties"></a>Modulio ypatybės
 
-- **Rodyti mažąjį krepšelį** – kai ši ypatybė yra nustatyta į **Teisingą**, krepšelio suvestinės (mažojo krepšelio) rodymas užvedus pelės žymiklį virš krepšelio piktogramos. Ši funkcija palaikoma tik darbalaukio rodinio prievaduose.
-- **Leisti anoniminį tikrintoją** - ai ši ypatybė nustatyta kaip **Teisinga** mažame krepšelyje leidžiama vartotojams, kurie prisiregistravo, kad galėtų išregistruoti svečią. Ši ypatybė galima „Commerce" 10.0.21 versijoje, kaip „Commerce" modulio bibliotekos paketo dalis.
-- **Prekių užsakymas** – ši ypatybė valdo tvarką, kuria prekės turėtų būti rodomos mažame krepšelyje. Kai pasirenkama pasirinktis **Nauja prekė, įtraukta į sąrašo viršų** į krepšelį įdėjus naujos prekės rodomos mažam krepšelio prekių sąrašui viršuje. Kai pasirenkama numatyta parinktis, **Nauja prekė, įtraukta į sąrašo viršų** ,į krepšelį įdėjus naujos prekės rodomos mažam krepšelio prekių sąrašui apačioje. Ši ypatybė galima „Commerce" 10.0.21 versijoje, kaip „Commerce" modulio bibliotekos paketo dalis.
-
-> [!IMPORTANT]
-> Ypatybės **Leisti anoniminį išsiregistravimą** ir **Prekių užsakymą** yra prieinamos „Commerce“ versijoje 10.0.21 leidime. Tam reikia, kad būtų įdiegta „Commerce“ modulio bibliotekos paketo versija 9.31.
-
-## <a name="module-properties-and-slots-in-the-adventure-works-theme"></a>Modulio ypatybės ir vietos „Adventure Works” temoje
-
-„Adventure Works” temoje krepšelio piktogramos modulyje yra dvi papildomos, mažam krepšeliui skirtos vietos. Šios vietos įtrauktos kaip modulio apibrėžimo plėtinys.
-
-- **Tuščio krepšelio akcijos** – šiai vietai reikia turinio blokavimo modulio. Kai krepšelis tuščias, rodomas nurodytas turinio blokavimo modulis. Turinio blokavimo modulis gali būti naudojamas reklamoms, rinkodaros turiniui ir saitams į kategorijų puslapius, kad padėtų klientams tęsti jų apsipirkimą.
-- **Reklaminis turinys** – šią vietą galima rodyti akcijoms, pavyzdžiui, „Nemokamas siuntimas užsakymams, kurių vertė didesnį nei $100.” Turinio blokavimo, teksto blokavimo ir vaizdų sąrašo modulius galima naudoti reklamuojamo turinio vietos segmente.
-
-Šiame paveikslėlyje pateikiamas krepšelio piktogramos modulio pavyzdys „Adventure Works” temoje, kurioje reklaminis turinys rodomas mažame krepšelyje.
-
-![Krepšelio piktogramos modulio pavyzdys „Adventure Works” temoje](./media/AW_minicart.PNG)
-
-> [!IMPORTANT]
-> „Adventure Works” temos vietos galimos kaip 10.0.20 „Dynamics 365 Commerce” versijos leidimas.
+- **Rodyti mažąjį krepšelį** – kai ši ypatybė įjungta, leidžiamas krepšelio suvestinės (mažojo krepšelio) rodymas užvedus pelės žymiklį virš krepšelio piktogramos. Ši funkcija palaikoma tik darbalaukio rodinio prievaduose.
 
 ## <a name="add-a-cart-icon-module-to-a-page"></a>Krepšelio piktogramos modulio įtraukimas į puslapį
 
@@ -77,6 +66,3 @@ Norėdami įtraukti krepšelio piktogramos modulį, žr. [Antraštės modulis](a
 [Išsamios užsakymo informacijos modulis](order-confirmation-module.md)
 
 [Dovanų kortelės modulis](add-giftcard.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

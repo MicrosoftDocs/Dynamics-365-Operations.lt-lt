@@ -1,27 +1,27 @@
 ---
 title: Dokumento spausdinimo apžvalga
 description: Dokumentus galima spausdinti naudojant vietinį spausdintuvą arba per tinklą prijungtą įrenginį. Šiame straipsnyje pateikiama dokumentų spausdinimo apžvalga.
-author: RichdiMSFT
+author: TJVass
+manager: AnnBe
 ms.date: 07/25/2019
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: IT Pro, Application User
 ms.reviewer: kfend
-ms.custom:
-- "69161"
-- intro-internal
+ms.custom: 69161
 ms.assetid: 7815bddd-c4f4-4bc3-a29b-315458065374
 ms.search.region: Global
-ms.author: richdi
+ms.author: tjvass
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8b9105ef39e411ac33043f1941d4e1dd32b758e5
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
-ms.translationtype: MT
+ms.openlocfilehash: b1d64a2efeade5e9ba24f4dfe61c861f5a4cbad4
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984913"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680101"
 ---
 # <a name="document-printing-overview"></a>Dokumento spausdinimo apžvalga
 
@@ -51,10 +51,10 @@ Naudodami specialiai tam skirtą pagrindinį kompiuterį ir vykdydami šiuos len
 Kadangi sprendimas priklauso nuo scenarijaus, programos suteikia integruotas tarnybas ir įrankius, kad vartotojai galėtų lengviau pasiekti savo tikslus.
 
 - **1 scenarijų** palaiko HTML5 kliento naršyklės atvaizdavimas.
-- **2 scenarijų** naudoja kliento programos ir „Microsoft 365“ tarnybos.
+- **2 scenarijus** naudoja kliento programas ir „Microsoft 365“ tarnybas.
 - **3 scenarijui** būtinas palaikymas iš kliento programų ir paslaugų, kurios nuomojamos „Microsoft Azure“.
 
-Be platformos, kuri yra įdiegta „Azure“ prenumeratoje, „Finance and Operations“ programos suteikia klientams integruotą „Azure“ programą, kuri jiems padeda lengviau naudoti domene nuomojamus įrenginius dokumentams spausdinti.
+Be platformos, kuri yra įdiegta „Azure“ prenumeratoje, Finance and Operations programos suteikia klientams integruotą „Azure“ programą, kuri jiems padeda lengviau naudoti domene nuomojamus įrenginius dokumentams spausdinti.
 
 ## <a name="service-overview"></a>Tarnybos apžvalga
 Nors nuomojamų programų sukuriami dokumentai turi būti spausdinami per tinklą prijungtame įrenginyje, jie saugomi „Azure“ dvejetainio didelio objekto saugykloje. [Dokumento maršruto planavimo agento diegimas siekiant įjungti tinklo spausdinimą](install-document-routing-agent.md) naudoja „Azure“ autentifikavimą, kad sukurtų saugų prieigos prie „Azure“ tarnybų kanalą.
@@ -71,9 +71,6 @@ Kliento sprendimas suteikia galimybę klientams valdyti spausdinimo poreikių ma
 
 Toliau nurodytoje diagramoje pateikiami pagrindiniai komponentai, kurie padeda palaikyti spausdinimo per tinklą operacijas.
 
-[![service-components-for-network-printing”\_2016.](./media/service-components-for-network-printing_2016.png)](./media/service-components-for-network-printing_2016.png)
+[![service-components-for-network-printing\_2016](./media/service-components-for-network-printing_2016.png)](./media/service-components-for-network-printing_2016.png)
 
 Atkreipkite dėmesį, kad vieną spausdintuvą galime užregistruoti keliuose dokumento maršruto planavimo agentuose. Spausdintuvo nuostatoms suderinti nuomojama tarnyba naudoja tinklo maršrutą, kuris unikaliai identifikuoja kiekvieną tinklo spausdintuvą. Todėl net tada, kai spausdintuve užregistruojami keli klientai, jis rodomas kaip viena programų spausdintuvų sąrašo parinktis.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

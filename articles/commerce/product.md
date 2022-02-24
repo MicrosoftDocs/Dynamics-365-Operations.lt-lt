@@ -2,9 +2,11 @@
 title: Produktų rekomendacijų įtraukimas į EKA
 description: Šioje temoje aprašomos produktų rekomendacijų naudojimas elektroniniame kasos aparate (EKA).
 author: bebeale
+manager: AnnBe
 ms.date: 05/26/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailParameters
 audience: Application User
@@ -16,12 +18,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 29f502df7c158611df4eb2ddd5ac0e6bd6b4fe628113b2c544e33ba9c41cbcc7
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 08784385dd1fead13f538b4e856b4bac6651a560
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6763745"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969931"
 ---
 # <a name="add-product-recommendations-on-pos"></a>Produktų rekomendacijų įtraukimas į EKA
 
@@ -39,7 +41,7 @@ Produktų rekomendacijas galima naudoti taikant toliau nurodytus EKA scenarijus.
 
     - Jeigu parduotuvės atstovas puslapyje **Produkto informacija** apsilanko skirtinguose kanaluose žiūrėdamas į ankstesnes operacijas, rekomendacijų tarnyba siūlo papildomų prekių, kurios gali būti perkamos kartu.
 
-    [![Rekomendacijos puslapyje Produkto informacija.](./media/proddetails.png)](./media/proddetails.png)
+    [![Rekomendacijos puslapyje Produkto informacija](./media/proddetails.png)](./media/proddetails.png)
 
 2. Puslapyje **Operacija**:
 
@@ -48,7 +50,7 @@ Produktų rekomendacijas galima naudoti taikant toliau nurodytus EKA scenarijus.
     > [!NOTE]
     > Norėdamas, kad rekomendacijos būtų rodomos puslapyje **Operacija**, pardavėjas turi atnaujinti „Dynamics 365 Commerce“ ekrano išdėstymą. Valdiklis **Rekomendacijos** turi būti perkeltas į puslapį **Operacija**.
 
-    [![Rekomendacijos puslapyje Operacijos.](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)
+    [![Rekomendacijos puslapyje Operacijos](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)
 
 ## <a name="configure-commerce-to-enable-pos-recommendations"></a>Konfigūruokite „Commerce“, kad įgalintumėte EKA rekomendacijas
 
@@ -89,6 +91,3 @@ Norėdami nustatyti produktų rekomendacijas, atlikite toliau pateikiamus veiksm
 [Rekomendacijų su demonstraciniais duomenimis kūrimas](product-recommendations-demo-data.md)
 
 [DUK apie produktų rekomendacijas](faq-recommendations.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

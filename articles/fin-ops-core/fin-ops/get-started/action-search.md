@@ -2,9 +2,11 @@
 title: Veiksmo ieška
 description: Šiame straipsnyje aprašyta veiksmo ieškos funkcija. Naudojant veiksmo iešką galima puslapyje rasti ir paleisti veiksmus.
 author: jasongre
+manager: AnnBe
 ms.date: 03/09/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
@@ -14,19 +16,16 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6277c37ac43b8cc05c8b53da5ca0a1909f58c4f9
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
-ms.translationtype: MT
+ms.openlocfilehash: dd9962451e8b72677e1a006dd9c1b8b8b268c93e
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070039"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798652"
 ---
 # <a name="action-search"></a>Veiksmo ieška
 
 [!include [banner](../includes/banner.md)]
-
-
-[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Šiame straipsnyje aprašyta veiksmo ieškos funkcija. Naudojant veiksmo iešką galima puslapyje rasti ir paleisti veiksmus.
 
@@ -34,7 +33,7 @@ ms.locfileid: "8070039"
 
 Puslapiuose pirmiausia pateikiamos veiksmų sričių, įskaitant standartinę veiksmų sritį, rodomą puslapio viršuje, ir įvairiose puslapyje srityse rodomas įrankių juostas, komandas. Ankstesnėse versijose klavišų patarimų funkcija suteikė galimybę greitai pasiekti bet kurį veiksmų srities mygtuką paspaudžiant klavišą ALT ir raidžių seką.
 
-[![„keyTipsAX6”.](./media/keytipsax6.png)](./media/keytipsax6.png)
+[![keyTipsAX6](./media/keytipsax6.png)](./media/keytipsax6.png)
 
 Veiksmo ieškos funkcija pakeitė klavišų patarimų funkciją, kuri nebėra galima. Ši nauja funkcija suteikia galimybę greitai ieškoti ir suaktyvinti bet kurios matomos veiksmų srities mygtuką.
 
@@ -48,7 +47,7 @@ Norėdami naudoti veiksmo ieškos funkciją, atlikite toliau nurodytus veiksmus.
 
 Paleidus mygtuką suaktyvinama vėliausia aktyvi puslapio padėtis ir galima tęsti darbą.
 
-[![„action-search-field”.](./media/action-search-field.png)](./media/action-search-field.png)
+[![action-search-field](./media/action-search-field.png)](./media/action-search-field.png)
 
 Taip pat galite pradėti veiksmo iešką paspausdami CTRL + / arba ALT + Q. Vėl paspauskite klaviatūros spartųjį klavišą, kad būtų suaktyvinta vėliausia aktyvi puslapio padėtis.
 
@@ -64,11 +63,11 @@ Turite žinoti mygtuko vietą ir kontekstą, kad visiškai suprastumėte to mygt
 
 Pvz., **veiksmo ieškos** lauke įvedate **tot** nagrinėjate rezultatų sąrašą. Pirmasis įrašas, skirtas mygtukui, pavadinimu **Sumos**, yra paryškintas. Taip pat rodomas mygtuko kelias **Pardavimo užsakymas** &gt; **Rodinys**. Kelio dalis **Pardavimo užsakymas** atitinka veiksmų srities skirtuką **Pardavimo užsakymas**, o kelio dalis **Rodinys** atitinka šio skirtuko grupę **Rodinys**. Panašiai mygtuko **Bendroji nuolaida** kelias (**Pardavimas** &gt; **Skaičiuoti**) informuoja, kad šis mygtukas yra veiksmų srities skirtuko **Pardavimas** grupėje **Skaičiuoti**. Todėl ši informacija padeda tiksliai suprasti, kurį mygtuką veiksmo ieška suaktyvins (jei tą mygtuką pasirinksite rezultatų sąraše).
 
-[![„action-search-field-with-data”.](./media/action-search-field-with-data.png)](./media/action-search-field-with-data.png)
+[![action-search-field-with-data](./media/action-search-field-with-data.png)](./media/action-search-field-with-data.png)
 
 Ankstesniame pavyzdyje buvo rodomi puslapio viršuje esančios veiksmų srities veiksmo ieškos rezultatai. Tačiau taip pat rodomi įrankių juostų, esančių kitose puslapio vietose, veiksmo ieškos rezultatai. Pavyzdžiui, ieškote **Turimos atsargos** mygtuko, esančio **Pardavimo užsakymo eilutės** „FastTab“. Šiuo atveju rezultatų sąraše pateikiamas mygtuko kelias (**Pardavimo užsakymo eilutės** &gt; **Atsargos** &gt; **Rodinys**) informuoja, kad šis mygtukas yra **Rodinys** antraštėje, esančioje **Atsargos** meniu mygtuke **Pardavimo užsakymo eilutės** „FastTab“.
 
-[![„on-hand-inventory”.](./media/on-hand-inventory.png)](./media/on-hand-inventory.png)
+[![on-hand-inventory](./media/on-hand-inventory.png)](./media/on-hand-inventory.png)
 
 > [!NOTE]
 > Kai kurie mygtukai nerodomi veiksmo ieškoje. Šie mygtukai – tiesioginio pokalbio mygtukai ir mygtukai iš papildomų formų. 
@@ -76,6 +75,3 @@ Ankstesniame pavyzdyje buvo rodomi puslapio viršuje esančios veiksmų srities 
 ## <a name="action-search-vs-navigation-search"></a>Veiksmo ieška ir naršymo ieška
 
 Veiksmo ieška skirta rasti ir vykdyti veiksmus puslapyje, bet yra atskiras ieškos mechanizmas, skirtas ieškoti ir naršyti puslapius. Daugiau informacijos apie šią funkciją ieškokite straipsnyje [Naršymo ieška](navigation-search.md).
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

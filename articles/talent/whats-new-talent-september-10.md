@@ -98,6 +98,3 @@ Jei „Attract“ nenustatyta, personalo valdymo sritis **Samdytini kandidatai**
 - Kai pasamdomas rangovas, skirtukas **Kompensacija** nebus rodomas užklausos / veiksmo puslapyje.
 - Atleidimo užklausos proceso metu negalima tęsti tol, kol visuose būtinuose laukuose bus duomenų.
 - Rikiavimo tvarkos ir datos rodymo problemos personalo valdymo analizėje išspręstos.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

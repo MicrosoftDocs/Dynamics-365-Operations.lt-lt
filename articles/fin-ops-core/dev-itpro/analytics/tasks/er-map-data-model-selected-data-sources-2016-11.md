@@ -1,10 +1,12 @@
 ---
 title: ER duomenų modelio susiejimas su pasirinktais duomenų šaltiniais
-description: Šioje temoje aprašoma, kaip susieti elektroninės ataskaitos (ER) duomenų modelį su pasirinktais „Microsoft Dynamics 365 Finance” duomenų šaltiniais.
+description: Šie veiksmai paaiškina, kaip sistemos administratoriaus arba elektroninių ataskaitų kūrėjo vaidmens vartotojas gali susieti elektroninių ataskaitų (ER) duomenų modelį su pasirinktais „Microsoft Dynamics 365 Finance“ duomenų šaltiniais.
 author: NickSelin
+manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 60c20f6616d406bdd1ccdf42ac62eb4c1c5d27040f32469fa6dd370c41830450
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d2d09370b0e08897799d40c41c20c21b58e885dc
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6775981"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684312"
 ---
 # <a name="er-map-data-model-to-selected-data-sources"></a>ER duomenų modelio susiejimas su pasirinktais duomenų šaltiniais
 
@@ -144,6 +146,3 @@ ms.locfileid: "6775981"
 5. Pasirinkite baigtą esamos konfigūracijos versiją.
     * Atkreipkite dėmesį, kad sukurta konfigūracija įrašoma kaip 1 baigta versija.  
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

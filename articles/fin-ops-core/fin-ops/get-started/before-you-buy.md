@@ -2,9 +2,11 @@
 title: Prieš perkant
 description: Nuoseklūs nurodymai, ką daryti norint įsigyti „Dynamics 365 Finance“, „Dynamics 365 Supply Chain Management“ arba „Dynamics 365 Commerce“.
 author: ShellyBakke
-ms.date: 11/30/2021
+manager: AnnBe
+ms.date: 11/23/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: smiller
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: f994acfb85e5bb7ccb9cbd3e6c0a0f3c4eec318a
-ms.sourcegitcommit: 34113bd588d53b9aed481da060a1c6738fca0eaf
-ms.translationtype: MT
+ms.openlocfilehash: ea741e3d4b3a6ce93a30c9d8c8adc7c91b513871
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/30/2021
-ms.locfileid: "7874589"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798554"
 ---
 # <a name="before-you-buy"></a>Prieš perkant
 
@@ -42,7 +44,7 @@ Kaip visuotinio diegimo parinktį pasirinkdami vietinį diegimą, turite atsižv
 - [Vietiniams visuotiniams diegimams taikomi sistemos reikalavimai](system-requirements-on-prem.md).
 
 > [!IMPORTANT]
-> Vietinės visuotinės įdiegtys nepalaikomos jokioje viešojo debesies infrastruktūroje, įskaitant „Microsoft Azure“. Tačiau jie palaikomi paleisti [Microsoft Azure "Stack HCI"](https://azure.microsoft.com/products/azure-stack/hci/) ir [Microsoft Azure "Stack Hub"](https://azure.microsoft.com/products/azure-stack/hub/).
+> Vietinės visuotinės įdiegtys nepalaikomos jokioje viešojo debesies infrastruktūroje, įskaitant „Microsoft Azure“.
 
 Norėdami gauti daugiau informacijos, žr. [Visuotinio diegimo parinktys](../../dev-itpro/deployment/choose-deployment-type.md).
 
@@ -86,11 +88,8 @@ Papildomus išteklius žr.:
 
 ## <a name="step-four-learn-about-fasttrack-and-plan-your-deployment"></a>Ketvirtas veiksmas: sužinokite apie „FastTrack“ ir suplanuokite diegimą
 
-„Microsoft FastTrack for Dynamics 365“ yra sėkmingai veikianti mūsų kliento paslauga, sukurta siekiant padėti pereiti prie „Dynamics 365“ sklandžiai ir patikimai, kad galėtumėte greičiau sukurti verslo vertę. Dalyvaudami „FastTrack“ programoje gausite patarimų dėl geriausios praktikos ir kaip planuoti, kad išvestys būtų sėkmingos. Taip pat sužinosite būdų, kaip įgalinti naujus vartotojus ir išplėsti galimybes dirbant savo tempu. Be to, turėsite prieigą prie „Microsoft“ inžinerijos išteklių, skirtų padėti paversti „Dynamics 365“ patirtį tikra sėkme. Daugiau informacijos žr. [„Microsoft FastTrack“](/dynamics365/fasttrack/).
+„Microsoft FastTrack for Dynamics 365“ yra sėkmingai veikianti mūsų kliento paslauga, sukurta siekiant padėti pereiti prie „Dynamics 365“ sklandžiai ir patikimai, kad galėtumėte greičiau sukurti verslo vertę. Dalyvaudami „FastTrack“ programoje gausite patarimų dėl geriausios praktikos ir kaip planuoti, kad išvestys būtų sėkmingos. Taip pat sužinosite būdų, kaip įgalinti naujus vartotojus ir išplėsti galimybes dirbant savo tempu. Be to, turėsite prieigą prie „Microsoft“ inžinerijos išteklių, skirtų padėti paversti „Dynamics 365“ patirtį tikra sėkme. Daugiau informacijos žr. [„Microsoft FastTrack“](fasttrack-dynamics-365-overview.md).
 
 ## <a name="if-you-are-upgrading-from-dynamics-ax-2012-or-migrating-from-ax-2009"></a>Jei naujinate iš „Dynamics AX 2012“ arba pereinate iš „AX 2009“
 
 Jei esate klientas, naujinantis iš „Microsoft Dynamics AX 2012“ arba pereinantis iš „Microsoft Dynamics AX 2009“, jums gali būti skirta ilgesnė bandomoji versija. Jei reikia daugiau informacijos, susisiekite adresu <daxcf@microsoft.com>.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

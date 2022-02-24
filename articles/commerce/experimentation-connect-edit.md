@@ -2,12 +2,15 @@
 title: Eksperimento prijungimas ir variacijų redagavimas
 description: Šioje temoje aprašoma, kaip prijungti eksperimentą prie „Dynamics 365 Commerce” trečiosios šalies paslaugoje ir kaip redaguoti eksperimento variacijas.
 author: sushma-rao
+manager: AnnBe
 ms.date: 10/21/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -15,12 +18,12 @@ ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: d3b1a099e29073e82e2118f9e43441a9068a4d10f0ea9f79123b97d2b7d5c419
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 030640ba8907ae52c198ac96ad2c243b533d8c53
+ms.sourcegitcommit: cd83f2bc0e52e13071ad306e07e4c255fc65cb03
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6773038"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "4414487"
 ---
 # <a name="connect-an-experiment-and-edit-variations"></a>Eksperimento prijungimas ir variacijų redagavimas
 
@@ -28,7 +31,7 @@ ms.locfileid: "6773038"
 
 Toliau pateiktoje diagramoje rodomi visi veiksmai, susiję su eksperimento nustatymu ir vykdymu „e-Commerce“ svetainėje „Dynamics 365 Commerce”. Papildomi veiksmai aprašomi kitose temose.
 
-[ ![Vartotojo eksperimentavimo kelionė – prijungimas ir redagavimas.](./media/experimentation_connect_edit.svg) ](./media/experimentation_connect_edit.svg#lightbox)
+[ ![Vartotojo eksperimentavimo kelionė – prijungimas ir redagavimas](./media/experimentation_connect_edit.svg) ](./media/experimentation_connect_edit.svg#lightbox)
 
 [Nustatę jūsų eksperimentą](experimentation-setup.md) trečiosios šalies paslaugoje, prijungsite eksperimentą „Dynamics 365 Commerce” ir redaguosite eksperimento variacijas.
 
@@ -72,7 +75,7 @@ Norėdami pradėti jūsų eksperimento prijungimą „Commerce” svetainių dar
 ## <a name="edit-your-variations"></a>Jūsų variacijų redagavimas
 Išjungus vedlį, sukuriamos variacijos. 
 
-Redaguokite variacijas, kad jos atitiktų eksperimento hipotezės pasirinkimus, kuriuos turite patvirtinti. Pasirinkite vieną iš toliau pateiktų procedūrų, atitinkančių jūsų eksperimento aprėptį, kurią pasirinkote pirmesniame skyriuje [Jūsų eksperimento aprėpties nustatymas](#determine-the-scope-of-your-experiment).
+Redakuokite variacijas, kad jos atitiktų eksperimento hipotezės pasirinkimus, kuriuos turite patvirtinti. Pasirinkite vieną iš toliau pateiktų procedūrų, atitinkančių jūsų eksperimento aprėptį, kurią pasirinkote pirmesniame skyriuje [Jūsų eksperimento aprėpties nustatymas](#determine-the-scope-of-your-experiment).
 
 ### <a name="edit-variations-for-experiments-with-partial-scope"></a>Eksperimentų, kurių aprėptis dalinė, variacijų redagavimas
 Atlikite toliau pateiktus veiksmus, jei nurodėte **dalinę** jūsų eksperimento aprėptį vedlyje **Eksperimento prijungimas**.
@@ -92,6 +95,3 @@ Jei nurodėte **visą** jūsų eksperimento aprėptį vedlyje **Eksperimento pri
 
 ## <a name="next-step"></a>Kitas veiksmas
 [Eksperimento peržiūra ir publikavimas](experimentation-preview-publish.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

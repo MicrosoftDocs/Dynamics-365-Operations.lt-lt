@@ -1,10 +1,12 @@
 ---
 title: Tiekėjų sąskaitų nustatymas
 description: Šioje temoje aprašoma informacijos, kurią turite nurodyti kurdami naują tiekėjo sąskaitą, tipai.
-author: Henrikan
+author: RichardLuan
+manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: smmContactPerson, VendBankAccounts, VendTable, VendOnHoldUpdate
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: 191053
 ms.assetid: 06168199-7c54-40e9-a038-4eb274ca958d
 ms.search.region: Global
-ms.author: henrikan
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b9cbfd3a3c1afd794814bbbae07e1dc31eb9f181
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: e2923dd3f051013fdd5b4f4717a6c954453ccdcf
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7565476"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5016582"
 ---
 # <a name="set-up-vendor-accounts"></a>Tiekėjų sąskaitų nustatymas
 
@@ -61,7 +63,7 @@ Galite kurti tiekėjo kontaktus nuo pradžių. Taip pat galite kopijuoti informa
 
 **Pastaba.** Tiekėjo kontakto įtraukimas ir tiekėjo kontaktinės informacijos įtraukimas nėra tas pats veiksmas. Nors galite įtraukti bendrą tiekėjo kontaktinę informaciją, gali būti, kad toje įmonėje kontaktai yra keli konkretūs žmonės ir jie visi turi savo kontaktinę informaciją.  
 
-Kontaktinio asmens įrašo naikinti negalima, jei kontaktas yra nuorodas dokumente. Tačiau kontaktą galima deaktyvuoti.  
+Kontaktinio asmens įrašo naikinti negalima, jei kontaktas yra nuorodas dokumente. Tačiau kontaktą galima inaktyvinti.  
 
 Tiekėjo kontaktus galite įtraukti į savo asmeninius kontaktus „Microsoft 365“. Tačiau pirmiausia turite nustatyti „Supply Chain Management“ ir „Microsoft 365“ sinchronizavimą tiek „Microsoft Exchange Server“ sinchronizavime, tiek „Microsoft Outlook“ nustatymo vedlyje.
 
@@ -115,6 +117,3 @@ Numatytąsias sąskaitas galite pasirinkti puslapyje **Numatytosios sąskaitos n
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

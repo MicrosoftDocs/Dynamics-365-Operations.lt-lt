@@ -1,10 +1,12 @@
 ---
 title: „Power BI“ turinys Praktikos vadovas
-description: Šioje temoje paaiškinama, kas įtraukta į „Power BI“ turinį Praktikos vadovas.
-author: kfend
+description: Šioje temoje paaiškinama, kas įtraukta į „Power BI“ turinį Praktikos vadovas. Joje paaiškinama, kaip pasiekti į turinį įtrauktas ataskaitas, ir pateikiama informacija apie duomenų modelį ir objektus, naudojamus turiniui kurti.
+author: KimANelson
+manager: AnnBe
 ms.date: 12/18/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ProjManagementWorkspace
 audience: Application User, IT Pro
@@ -14,12 +16,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 4acef3c595f25fa0be16945a9f41611832cfcea9
-ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
+ms.openlocfilehash: 17a68e5aedb8b085c85d1ed7b6ad87f3eaecfc25
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "7500226"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4685710"
 ---
 # <a name="practice-manager-power-bi-content"></a>„Power BI“ turinys Praktikos vadovas
 
@@ -115,6 +117,3 @@ Tolesniuose skyriuose aprašyti kiekviename objekte naudojami sujungti matavimo 
 | Pagrindiniai sujungti matavimo vienetai       | Laukas               | aprašymas |
 |---------------------------------|---------------------|-------------|
 | Užbaigtos veiklos suplanuotos išlaidos | Sum(TotalCostPrice) | Visų projekto operacijų tipų su užbaigtomis užduotimis numatoma bendroji savikaina. |
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

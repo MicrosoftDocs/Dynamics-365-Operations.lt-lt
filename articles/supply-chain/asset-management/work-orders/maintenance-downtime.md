@@ -1,10 +1,12 @@
 ---
 title: Darbo užsakymų prižiūrimo turto prastova
 description: Šioje temoje aprašoma, kaip galite kurti darbo užsakyme pasirinkto turto prižiūrimo turto prastovos registracijas.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 38c47a47fdf64c1d3601f6f3f7b84bf128823ec2ceb0c50e586822f6bdb97906
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 53487a0173453ef7a8f5ea818672d999fe71cb65
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6753377"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5020916"
 ---
 # <a name="maintenance-downtime-for-work-orders"></a>Darbo užsakymų prižiūrimo turto prastova
 
@@ -45,7 +47,7 @@ Galite kurti darbo užsakyme pasirinkto turto prižiūrimo turto prastovos regis
 
 Paveikslėlyje pavaizduotas puslapio **Prižiūrimo turto prastovos priežasčių kodai** pavyzdys.
 
-![1 iliustracija.](media/15-work-orders.png)
+![1 pav.](media/15-work-orders.png)
 
 Sukūrę norimus naudoti prižiūrimo turto prastovos priežasčių kodus, galite kurti darbo užsakymų ir turto prižiūrimo turto prastovos registracijas.
 
@@ -71,21 +73,18 @@ Sukūrę norimus naudoti prižiūrimo turto prastovos priežasčių kodus, galit
 
 Toliau pateikiamoje iliustracijoje rodomas prižiūrimo turto prastovos registravimo pavyzdys.
 
-![2 iliustracija.](media/16-work-orders.png)
+![2 pav.](media/16-work-orders.png)
 
 Kalendorius, naudojamas apskaičiuojant prižiūrimo turto prastovos registraciją, priklauso nuo jūsų pasirinkimo turto ir parametrų sąrankoje. Jei turto išteklius pasirenkamas perėjus į puslapio **Visas turtas** „FastTab” **Ilgalaikis turtas** lauką **Ištekliai**, naudojama susijusios išteklių grupės kalendoriaus sąranka, kaip parodyta toliau pateikiamame paveikslėlyje.
 
-![3 iliustracija.](media/17-work-orders.png)
+![3 pav.](media/17-work-orders.png)
 
 Jei turto išteklius nepasirenkamas, naudojamas standartinis kalendorius, pasirinktas puslapyje **Turto valdymo parametrai**, kaip parodyta toliau pateikiamame paveikslėlyje.
 
-![4 iliustracija.](media/18-work-orders.png)
+![4 pav.](media/18-work-orders.png)
 
 Spustelėkite **Turto valdymas** > **Užklausos** > **Prižiūrimo turto prastova**, kad pamatytumėte visų prižiūrimo turto prastovos registracijų apžvalgą.
 
 >[!NOTE]
 >Visi modulyje **Turto valdymas** naudojami kalendoriai nustatomi pasirinkus **Organizacijos administravimas** > **Sąranka** > **Kalendoriai** > **Kalendoriai**.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

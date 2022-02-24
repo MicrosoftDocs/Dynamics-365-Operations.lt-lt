@@ -66,6 +66,3 @@ Arba atlikite nurodytus veiksmus.
 2. Įrankių juostoje pasirinkite **Įtraukti programą iš „Power Apps“**.
 
     ![Įtraukti programą iš „Power Apps“ naudojant personalizavimo įrankių juostą](media/powerapp-bar.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

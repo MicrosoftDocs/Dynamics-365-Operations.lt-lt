@@ -1,28 +1,28 @@
 ---
 title: Elektroninių ataskaitų (ER) apžvalga
-description: Šioje temoje pateikiama elektroninių ataskaitų įrankio apžvalga. Aprašomos pagrindinės koncepcijos, palaikomi scenarijai ir formatai, kurie yra sprendimo dalis.
+description: Šioje temoje pateikiama elektroninių ataskaitų (ER) įrankio apžvalga. Jame yra informacijos apie pagrindines koncepcijas, ER palaikomus scenarijus ir išvardyti formatai, kurie sukurti ir išleisti kaip sprendimo dalis.
 author: NickSelin
-ms.date: 11/02/2021
-ms.topic: overview
+manager: AnnBe
+ms.date: 07/25/2019
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERWorkspace
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom:
-- "58941"
-- intro-internal
+ms.custom: 58941
 ms.assetid: 5d51b6a6-ad12-4af9-a66d-a1eb820ae57f
 ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 976a02f51e22c513b988e1ecfcb792d5f93a4b54
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
-ms.translationtype: MT
+ms.openlocfilehash: e40aa168c296af86721862d1751212d16d47bd49
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7986152"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4682604"
 ---
 # <a name="electronic-reporting-er-overview"></a>Elektroninių ataskaitų (ER) apžvalga
 
@@ -30,65 +30,94 @@ ms.locfileid: "7986152"
 
 Šioje temoje pateikiama elektroninių ataskaitų (ER) įrankio apžvalga. Jame yra informacijos apie pagrindines koncepcijas, ER palaikomus scenarijus ir išvardyti formatai, kurie sukurti ir išleisti kaip sprendimo dalis.
 
-ER yra konfigūruojamas įrankis, padedantis kurti ir prižiūrėti reguliavimo elektronines ataskaitas ir mokėjimus. Jis remiasi šiomis trimis sąvokomis:
-
-- Konfigūracija, o ne kodavimas:
-
-    - Konfigūraciją gali atlikti verslo vartotojas, kuriam nereikia programuotojo.
-    - Duomenų modelis apibrėžiamas verslo sąlygose.
-    - Vaizdo doroklis naudojamas visiems ER konfigūracijos komponentams kurti.
-    - Duomenų transformacijai naudojama kalba yra panaši į kalbą, kuri naudojama Microsoft Excel.
-
-- Viena kelių leidimų Dynamics 365 Finance konfigūracija:
-
-    - Tvarkyti vieną domeno duomenų modelį, apibrėžtą verslo sąlygose.
-    - Isolate programos paleidimo informacija nuo paleidimo priklausomų duomenų modelio susiejimuose.
-    - Tvarkyti vieną formato konfigūraciją keliems dabartinės versijos leidimams pagal duomenų modelį.
-
-- Paprastas arba automatinis atnaujinimas:
-
-    - Palaikomas ER konfigūracijų versijos kopijavimas.
-    - Ciklo tarnybų (LCS) turto biblioteką galima naudoti kaip ER konfigūracijų Microsoft Dynamics saugyklą, kad būtų galima atlikti versijų mainus.
-    - Lokalizavimus, paremtus originalia ER konfigūracija, galima įtraukti kaip antines versijas.
-    - ER konfigūracijos medis pateikiamas kaip įrankis, padedantis valdyti versijų priklausomybes.
-    - Lokalizavimo arba pokyčių konfigūracijos skirtumai įrašomi, kad įgalintumėte automatinį pradinės ER konfigūracijos versijos atnaujinimą.
-    - Neautomatiniu būdu lengviau išspręsti konfliktus, aptiktus automatiškai atnaujinus lokalizavimo versijas.
-
-ER leidžia apibrėžti elektroninio formato struktūras, o tada apibrėžti, kaip struktūros turėtų būti užpildytos naudojant duomenis ir algoritmus. Duomenų transformacijai galite naudoti formulės kalbą, panašią į Excel kalbą. Kad duomenų bazę būtų lengviau valdyti, pakartotinai naudoti ir nepriklausomą nuo formato pakeitimų, bus įvesta tarpinė duomenų modelio koncepcija. Ši sąvoka leidžia paslėpti išsamią diegimo informaciją nuo formato susiejimo ir leidžia vienam duomenų modeliui pakartotinai naudoti keliuose formatų susiejimuose.
-
-Galite naudoti ER gaunamų ir siunčiamų elektroninių dokumentų formatams konfigūruoti, atsižvelgiant į įvairių šalių ir regionų teisinius reikalavimus. ER suteikia galimybę valdyti šiuos formatus per jų naudojimo ciklą. Pavyzdžiui, galite pritaikyti naujus teisinius reikalavimus ir generuoti verslo dokumentus reikiamu formatu, skirtu keistis informacija su valdžios institucijomis, bankais ir kitomis šalimis elektroniniu būdu.
+ER yra įrankis, kurį naudodami galite konfigūruoti tiek gaunamų, tiek siunčiamų elektroninių dokumentų formatus pagal įvairių šalių / regionų teisinius reikalavimus. ER suteikia galimybę valdyti šiuos formatus per jų naudojimo ciklą. Pavyzdžiui, galite pritaikyti naujus teisinius reikalavimus ir generuoti verslo dokumentus reikiamu formatu, skirtu keistis informacija su valdžios institucijomis, bankais ir kitomis šalimis elektroniniu būdu.
 
 ER mechanizmas skirtas verslo vartotojui, o ne kūrėjui. Kadangi galite konfigūruoti formatus, o ne kodą, elektroninių dokumentų formatų kūrimo ir pritaikymo procesas greitesnis ir lengvesnis.
 
-ER šiuo metu palaiko TEXT, XML, JSON, PDF, Microsoft Word, Microsoft Excel ir OPENXML darbalapių formatus.
+ER šiuo metu palaiko TEXT, XML, „Microsoft Word“ dokumento ir OPENXML darbalapio formatus. Tačiau naudojant plėtinio sąsają palaikomi papildomi formatai.
 
 ## <a name="capabilities"></a>Galimybės
-
 ER mechanizmas turi toliau nurodytas galimybes.
 
-- Tai vienas bendrai naudojamas įrankis, skirtas elektroninėms ataskaitoms skirtinguose domenuose kurti, kuris pakeičia daugiau nei 20 skirtingų mechanizmų, naudojamų kurti tam tikras „Finance and Operations“ elektronines ataskaitas.
+- Tai vienas bendrai naudojamas įrankis, skirtas elektroninėms ataskaitoms skirtinguose domenuose kurti, kuris pakeičia daugiau nei 20 skirtingų mechanizmų, kuriančių tam tikras „Finance and Operations“ elektronines ataskaitas.
 - Jis atskiria ataskaitos formatą nuo dabartinės įdiegtos versijos. Kitaip tariant, formatą galima taikyti skirtingoms versijoms.
 - Jis palaiko pasirinktinio formato kūrimą pagal jo pradinę versiją. Jis taip pat apima galimybes automatiškai naujinti tinkintą formatą, kai pradinis formatas pakeičiamas dėl įvestų lokalizavimo / tinkinimo reikalavimų.
 - Jis tampa pagrindiniu standartiniu „Microsoft“ ir „Microsoft“ partnerių elektroninių ataskaitų lokalizavimo reikalavimus palaikančiu įrankiu.
 - Jis palaiko galimybę paskirstyti formatus partneriams ir klientams naudojant „Microsoft Dynamics Lifecycle Services“ (LCS).
 
 ## <a name="key-concepts"></a>Pagrindinės koncepcijos
-
-### <a name="main-data-flow"></a>Pagrindinių duomenų srautas
-
-[![ER pagrindinių duomenų srautas.](./media/ger-main-data-flow.jpg)](./media/ger-main-data-flow.jpg)
-
 ### <a name="components"></a>Komponentai
 
-Elektroninės ataskaitos (ER) palaiko šiuos komponentų tipus:
+ER palaiko dviejų tipų komponentus: **Duomenų modelis** ir **Formatas**.
 
-- Duomenų modelis
-- Modelio susiejimas
-- Formatuoti
-- Metaduomenys
+#### <a name="data-model-and-model-mapping-components"></a>Duomenų modelio ir modelio susiejimo komponentai
 
-Daugiau informacijos žr. [Elektroninės ataskaitos komponentai](er-overview-components.md).
+Duomenų modelio komponentas abstrakčiai vaizduoja duomenų struktūrą. Jis yra naudojamas tam tikrai verslo domeno sričiai aprašyti pakankamai išsamiai, kad būtų tenkinami tos srities ataskaitų reikalavimai. Duomenų modelio komponentą sudaro toliau nurodytos dalys.
 
+- <a name="DataModelComponent"></a>Duomenų modelis kaip domenui būdingų verslo objektų rinkinys ir hierarchiškai susistemintas jų ryšių aprašas.
+- <a name="ModelMappingComponent"></a>Modelio susiejimas, kuris susieja pasirinktus duomenų šaltinius su atskirais duomenų modelio elementais, vykdymo metu nurodančiais duomenų srautą ir taisykles, pagal kurias verslo duomenys įvedami į duomenų modelio komponentą.
+
+Duomenų modelio verslo objektas pateikiamas kaip konteineris (įrašas). Verslo subjekto ypatybės pateikiamos kaip duomenų elementai (laukai). Kiekvienas duomenų elementas turi unikalų pavadinimą, žymę, aprašą ir reikšmę. Kiekvieno duomenų elemento reikšmė gali būti sukurta taip, kad būtų atpažinta kaip eilutė, sveikasis skaičius, realusis skaičius, data, išvardijimas, Bulio logika ir t. t. Be to, tai gali būti kitas įrašas arba įrašų sąrašas.
+
+Viename duomenų modelio komponente gali būti kelios domenui būdingų verslo objektų hierarchijos. Jame taip pat gali būti modelio susiejimai, kurie vykdymo metu palaiko konkretų ataskaitai būdingą duomenų srautą. Hierarchijos yra atskiriamos pagal vieną įrašą, kuris buvo pasirinktas kaip šakninis modelio susiejimo įrašas. Pavyzdžiui, mokėjimo domeno srities duomenų modelis gali palaikyti tolesnius susiejimus.
+
+- Įmonė \> Tiekėjas \> AP domeno mokėjimo operacijos
+- Klientas \> Įmonė \> AR domeno mokėjimo operacijos
+
+Atkreipkite dėmesį, kad verslo objektai, pvz., įmonė ir mokėjimo operacijos, yra kuriami vieną kartą. Tada kiti susiejimai pakartotinai juos naudoja.
+
+Modelio susiejimas, kuris palaiko siunčiamus elektroninius dokumentus, turi šias galimybes:
+
+- Jis gali naudoti skirtingus duomenų tipus kaip duomenų modelio duomenų šaltinius. Pavyzdžiui, jis gali naudoti lenteles, duomenų objektus, metodus ar išvardijimus.
+- Jis palaiko vartotojo įvesties parametrus, kuriuos galima apibrėžti kaip duomenų modelio šaltinius, kai kai kuriuos duomenis reikia nurodyti vykdymo metu.
+- Jis palaiko duomenų transformavimą į reikiamas grupes. Su juo galite filtruoti, rūšiuoti ir sumuoti duomenis, taip pat pridėti loginius apskaičiuotus laukus, sukurtus su formulėmis, panašiomis į „Microsoft Excel“ formules. Daugiau informacijos žr. [Formulės kūrimo įrankis elektroninėje ataskaitoje (ER)](general-electronic-reporting-formula-designer.md).
+
+
+Modelio susiejimas, kuris palaiko gaunamus elektroninius dokumentus, turi šias galimybes:
+
+- Jis gali naudoti skirtingus „Finance and Operations“ naujinamus duomenų elementus kaip tikslus. Šie duomenų elementai apima lenteles, duomenų objektus ir rodinius. Duomenis galima atnaujinti naudojant duomenis iš gaunamų elektroninių dokumentų. Vieno modelio susiejime galima naudoti kelis tikslus.
+- Jis palaiko vartotojo įvesties parametrus, kuriuos galima apibrėžti kaip duomenų modelio šaltinius, kai kai kuriuos duomenis reikia nurodyti vykdymo metu.
+
+Duomenų modelio komponentas skirtas kiekvienam verslo domenui, kuris turi būti naudojamas kaip suvienodintas ataskaitų duomenų šaltinis, atskiriantis ataskaitų teikimą nuo fizinio duomenų šaltinių diegimo. Tai konkrečios srities verslo koncepcijos ir funkcijos, pateiktos tokia forma, dėl kurios ataskaitų formato pirminis kūrimas ir tolesnė priežiūra tampa efektyvesnė.
+
+#### <a name="format-components-for-outgoing-electronic-documents"></a><a name="FormatComponentOutbound"></a>Siunčiamų elektroninių dokumentų formato komponentai
+
+Formato komponentas yra ataskaitų kūrimo planas, kuris bus generuojamas vykdymo metu. Schemą sudaro toliau nurodyti elementai.
+
+- Formatas, kuris apibrėžia vykdymo metu sugeneruoto siunčiamo elektroninio dokumento struktūrą ir turinį.
+- Duomenų šaltiniai kaip vartotojo įvesties parametrų rinkinys ir domenui būdingų duomenų modelis, kuris naudoja pasirinktą modelio susiejimą.
+- Formato susiejimas kaip formato duomenų šaltinių susiejimų su atskirais formato elementais, vykdymo metu nurodančiais duomenų srautą ir formato išvesties generavimo taisykles, susiejimų rinkinys.
+- Formato tikrinimas kaip konfigūruojamų taisyklių, kurios vykdymo metu valdo ataskaitos generavimą pagal vykdymo kontekstą, rinkinys. Pavyzdžiui, gali būti taisyklė, kuri sustabdo tiekėjo mokėjimų išeigos generavimą ir pritaiko išimtį, jei trūksta konkrečių pasirinkto tiekėjo atributų, pvz., banko sąskaitos numerio.
+
+Formato komponentas palaiko tolesnes funkcijas.
+
+- Ataskaitos išeigos kaip atskirų skirtingų formatų, pvz., teksto, XML, „Microsoft Word“ dokumento ar darbalapio, failų kūrimas.
+- Kelių failų kūrimas atskirai ir tų failus glaudinimas į „zip“ failus.
+
+Formato komponentas leidžia pridėti toliau nurodytus tam tikrus failus, kurie gali būti naudojami ataskaitų išeigoje.
+
+- „Excel“ darbaknyges, kuriose yra darbalapis, galima naudoti kaip OPENXML darbalapio formato išeigos šabloną
+- „Word“ failus, kuriuose yra dokumentas, kurį galima naudoti kaip „Microsoft Word“ dokumento formato išeigos šabloną
+- Kiti failai, kurie gali būti įtraukti į formato išeigą kaip iš anksto apibrėžti failai
+
+Šis pavyzdys rodo, kaip juda šių formatų duomenų srautai.
+
+[![Siunčiamų formato komponentų duomenų srautas](./media/ER-overview-02.png)](./media/ER-overview-02.png)
+
+Norėdami paleisti vieną ER formato konfigūraciją ir generuoti siunčiamą elektroninį dokumentą, turite nustatyti formato konfigūracijos susiejimą.
+
+#### <a name="format-components-for-incoming-electronic-documents"></a><a name="FormatComponentInbound"></a>Gaunamų elektroninių dokumentų formato komponentai
+Formato komponentas yra gaunamo dokumento planas, kuris importuojamas vykdymo metu. Schemą sudaro toliau nurodyti elementai.
+
+- Formatas, kuris apibrėžia vykdymo metu importuoto gaunamo elektroninio dokumento, kuriame yra duomenų, struktūrą ir turinį. Formato komponentas naudojamas išanalizuoti įvairiais formatais gaunamą dokumentą, pvz., teksto ir XML.
+- Formato susiejimas, kuris sujungia atskirus formato elementus į konkrečios srities duomenų modelio elementus. Vykdymo metu duomenų modelio elementai nurodo duomenų srautą ir duomenų importavimo iš gaunamo dokumento taisykles, o tada išsaugo duomenų modelio duomenis.
+- Formato tikrinimas kaip konfigūruojamų taisyklių, kurios vykdymo metu valdo duomenų importavimą pagal vykdymo kontekstą, rinkinys. Pavyzdžiui, gali būti taisyklė, kuri sustabdo banko išrašo, kuriame pateikiami tiekėjo mokėjimai, duomenų importavimą ir pritaiko išimtį, jei trūksta konkretaus tiekėjo atributų, pvz., tiekėjo identifikavimo kodo.
+
+Šis pavyzdys rodo, kaip juda šių formatų duomenų srautai.
+
+[![Gaunamų formato komponentų duomenų srautas](./media/ER-overview-03.png)](./media/ER-overview-03.png)
+
+Norėdami paleisti vieną ER formato konfigūraciją ir importuoti duomenis iš gaunamo elektroninio dokumento, turite nustatyti norimą formato konfigūracijos susiejimą, taip pat modelio susiejimo integravimo tašką. Galite naudoti tą patį modelio susiejimą ir paskirties vietas kartu su skirtingo tipo gaunamų dokumentų skirtingais formatais.
 
 #### <a name="component-versioning"></a>Komponento versijos kūrimas
 
@@ -143,9 +172,9 @@ ER saugykloje saugomos ER konfigūracijos. Šiuo metu palaikomos šių tipų ER 
 
 Saugykloje **LCS bendrai naudojama biblioteka** suteikiama prieiga prie „Lifecycle Services“ (LCS) bendrai naudojamo turto bibliotekos konfigūracijų sąrašo. Šio tipo ER saugyklą galima registruoti tik „Microsoft“ teikėjui. Naujausios versijos ER konfigūracijas iš LCS bendrai naudojamo turto bibliotekos galite importuoti į esamą egzempliorių.
 
-**LCS projekto** saugykla suteikia prieigą prie tam tikro LCS projekto (LCS projekto turto bibliotekos), pasirinkto saugyklos registracijos metu, konfigūracijų sąrašo. ER suteikia galimybę nusiųsti bendrai naudojamas konfigūracijas iš dabartinio egzemplioriaus į konkrečią **LCS projekto** saugyklą. Taip pat galite importuoti konfigūracijas iš **LCS projektų** saugyklos į dabartinį jūsų finansų ir operacijų programėlių egzempliorių.
+**LCS projekto** saugykla suteikia prieigą prie tam tikro LCS projekto (LCS projekto turto bibliotekos), pasirinkto saugyklos registracijos metu, konfigūracijų sąrašo. ER suteikia galimybę nusiųsti bendrai naudojamas konfigūracijas iš dabartinio egzemplioriaus į konkrečią **LCS projekto** saugyklą. Taip pat galite konfigūracijas importuoti iš **LCS projekto** saugyklos į dabartinį „Finance and Operations“ programų egzempliorių.
 
-Saugykla **Failų sistema** suteikia prieigą prie konfigūracijų, konkrečiame įrenginio vietinės failų sistemos aplanke, kuriame priglobta AOS tarnyba, esančių kaip XML failai, sąrašo. Reikiamas aplankas pasirenkamas saugyklos registracijos etapo metu. Konfigūracijas iš **Failų sistema** saugyklos galite importuoti į dabartinį egzempliorių. 
+Saugykla **Failų sistema** suteikia prieigą prie konfigūracijų, konkrečiame įrenginio vietinės failų sistemos aplanke, kuriame priglobta AOS tarnyba, esančių kaip XML failai, sąrašo. Reikiamas aplankas pasirenkamas saugyklos registracijos etapo metu. Konfigūracijas iš saugyklos **Failų sistema** galite importuoti į dabartinį egzempliorių. 
 
 Atminkite, kad šio tipo saugykla pasiekiama toliau nurodytose aplinkose.
 
@@ -154,20 +183,19 @@ Atminkite, kad šio tipo saugykla pasiekiama toliau nurodytose aplinkose.
 
 Daugiau informacijos žr. [Elektroninių ataskaitų (ER) konfigūracijų importavimas](./electronic-reporting-import-ger-configurations.md).
 
-**RCS** saugykla suteikia prieigą prie tam tikro [konfigūravimo tarnybos (RCS)](/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration) egzemplioriaus, pasirinkto saugyklos registracijos etapo metu, konfigūracijų sąrašo. Jei naudojatės ER, užbaigtas arba bendrai naudojamas konfigūracijas iš pasirinkto RCS egzempliorius galėsite importuoti į dabartinį egzempliorių ir naudoti jas elektroninėms ataskaitoms.
+**RCS** saugykla suteikia prieigą prie tam tikro [konfigūravimo tarnybos (RCS)](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration) egzemplioriaus, pasirinkto saugyklos registracijos etapo metu, konfigūracijų sąrašo. Jei naudojatės ER, užbaigtas arba bendrai naudojamas konfigūracijas iš pasirinkto RCS egzempliorius galėsite importuoti į dabartinį egzempliorių ir naudoti jas elektroninėms ataskaitoms.
 
 Daugiau informacijos žr. [Elektroninių ataskaitų (ER) konfigūracijų importavimas iš RCS](./rcs-download-configurations.md).
 
-**Bendroji saugykla** suteikia prieigą prie [konfigūravimo tarnybos](/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration) bendrojoje saugykloje esančių konfigūracijų sąrašo. Šio tipo ER saugyklą galima registruoti tik „Microsoft“ teikėjui. Naujausios versijos ER konfigūracijas iš bendrosios saugyklos galite importuoti į esamą egzempliorių.
+**Bendroji saugykla** suteikia prieigą prie [konfigūravimo tarnybos](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration) bendrojoje saugykloje esančių konfigūracijų sąrašo. Šio tipo ER saugyklą galima registruoti tik „Microsoft“ teikėjui. Naujausios versijos ER konfigūracijas iš bendrosios saugyklos galite importuoti į esamą egzempliorių.
 
 Daugiau informacijos rasite [Elektroninių ataskaitų (ER) konfigūracijų importavimas iš konfigūravimo tarnybos bendrosios saugyklos](./er-download-configurations-global-repo.md).
 
 Naudojantis saugykla **Operacijų ištekliai** suteikiama prieiga prie konfigūracijų sąrašo, kurį „Microsoft“ kaip ER konfigūracijų teikėjas pirmiausia išleidžia kaip programos sprendimo dalį. Šias konfigūracijas galima importuoti į esamą egzempliorių ir naudoti elektroninėms ataskaitoms kurti arba pavyzdžio užduočių vadovams paleisti. Taip pat jas galima naudoti tolesniam lokalizavimui ir tinkinimui atlikti. Atkreipkite dėmesį į tai, kad importuojant naujausias „Microsoft“ ER konfigūracijose pateiktas versijas iš LCS bendrai naudojamo turto bibliotekos, būtina naudoti atitinkamą ER saugyklą.
 
-Galima registruoti atskirai kiekvieno dabartinio egzemplioriaus konfigūracijos teikėjo būtinas saugyklas **LCS projektas**, **Failų sistema** ir **„Regulatory Configuration Services” (RCS)**. Kiekvieną saugyklą galima priskirti konkrečiam konfigūracijos teikėjui.
+Galima registruoti atskirai kiekvieno dabartinio egzemplioriaus konfigūracijos teikėjo būtinas saugyklas **LCS projektas**, **Failų sistema** ir **Reguliavimo konfigūravimo tarnybos (RCS)**. Kiekvieną saugyklą galima priskirti konkrečiam konfigūracijos teikėjui.
 
 ## <a name="supported-scenarios"></a>Palaikomi scenarijai
-
 ### <a name="building-a-data-model"></a>Duomenų modelio kūrimas
 
 ER teikia modelių kūrimo įrankį, kurį galite naudoti konkrečiam verslo domenui skirtam duomenų modeliui kurti. Visus domenui būdingus verslo objektus ir jų ryšius galima pateikti duomenų modelyje kaip hierarchinę struktūrą. 
@@ -176,7 +204,7 @@ Paleiskite užduočių vedlį **ER konkretaus domeno duomenų modelio kūrimas**
 
 ### <a name="translating-data-model-content"></a>Duomenų modelio turinio vertimas
 
-Duomenų modelio turinį (etiketes ir aprašus) galima išversti į kitas programų palaikomas kalbas. Duomenų modelio turinį galite norėti išversti dėl toliau nurodytų priežasčių.
+Duomenų modelio turinį (etiketes ir aprašus) galima išversti į kitas programos palaikomas kalbas. Duomenų modelio turinį galite norėti išversti dėl toliau nurodytų priežasčių.
 
 - Norint, kad kitomis kalbomis kalbantys formato kūrėjai, kurie naudos duomenų modelį formato komponentų duomenims susieti, kurdami lengviau suprastų turinį.
 - Norint turinį padaryti patogesnį naudoti vykdymo metu, teikiant vykdymo parametrų raginimus ir pagalbą bei sukonfigūruotus tikrinimo pranešimus (klaidų, įspėjimų) tuo metu prisijungusio vartotojo pageidaujama kalba.
@@ -188,7 +216,6 @@ ER teikia modelio susiejimų kūrimo įrankį, kurį naudodami vartotojai gali s
 Paleiskite užduočių vedlius **ER modelio susiejimo nustatymas ir duomenų šaltinių pasirinkimas** ir **ER duomenų modelio susiejimas su pasirinktais duomenų šaltiniais** (verslo proceso **7.5.4.3 Įsigyti / sukurti IT paslaugų ir sprendimų komponentų (10677)** dalis) norėdami išsamiai susipažinti su šiuo scenarijumi.
 
 ### <a name="configuring-data-model-mappings-for-incoming-documents"></a>Gaunamų dokumentų modelio susiejimų konfigūravimas
-
 ER teikia modelio susiejimų kūrimo įrankį, kurį naudodami vartotojai gali susieti duomenų modelius, kuriuos sukūrė konkrečioms paskirties vietoms. Pavyzdžiui, duomenų modelius galima susieti su naujintinais duomenų komponentais (lentelėmis, duomenų objektais ir rodiniais). Remiantis susiejimu, vykdymo metu bus atnaujinti duomenys, naudojant duomenis iš duomenų modelio. Kaip ER formato abstrakti saugykla duomenų modelis užpildomas iš gaunamo elektroninio dokumento importuotais duomenimis. 
 
 ### <a name="storing-a-designed-model-component-as-a-model-configuration"></a>Sukurto modelio komponento saugojimas kaip modelio konfigūracijos
@@ -207,27 +234,25 @@ Paleiskite užduočių vedlį **ER konkretaus domeno formato kūrimas** (verslo 
 
 ER formato kūrimo įrankį galima naudoti, norint kurti elektroninį dokumentą OPENXML darbalapio formatu. 
 
-Paleiskite užduočių vedlį **ER konfigūracijos, skirtos generuoti ataskaitas OPENXML formatu, kūrimas** (verslo proceso **7.5.4.3 Įsigyti / sukurti IT paslaugų ir sprendimų komponentų (10677)** dalis), norėdami išsamiai susipažinti su šiuo scenarijumi. Vykdydami užduočių vedlio veiksmą, skirtą importuoti šabloną, kaip šabloną naudokite „Excel“ failą [Mokėjimo ataskaitos šablonas (SampleVendPaymWsReport.xlsx)](https://download.microsoft.com/download/3/f/0/3f0658b2-042c-43cf-a776-0f4c7f7cfe4e/SampleVendPaymWsReport.xlsx).
+Paleiskite užduočių vedlį **ER konfigūracijos, skirtos generuoti ataskaitas OPENXML formatu, kūrimas** (verslo proceso **7.5.4.3 Įsigyti / sukurti IT paslaugų ir sprendimų komponentų (10677)** dalis), norėdami išsamiai susipažinti su šiuo scenarijumi. Vykdydami užduočių vedlio veiksmą, skirtą importuoti šabloną, kaip šabloną naudokite „Excel“ failą [Mokėjimo ataskaitos šablonas (SampleVendPaymWsReport.xlsx)](https://go.microsoft.com/fwlink/?linkid=845202).
 
 ### <a name="building-a-configuration-to-generate-electronic-documents-in-a-word-document-format"></a>Konfigūracijos, skirtos elektroninius dokumentus generuoti „Word“ dokumento formatu, kūrimas
-
 ER formato kūrimo įrankį galima naudoti, norint kurti elektroninį dokumentą „Word“ dokumento formatu. Tolesnėje iliustracijoje pateikiamas šio tipo formato pavyzdys. Atkreipkite dėmesį, kad šis formatas pakartotinai naudoja esamą ER konfigūraciją, kuri iš pradžių buvo skirta ataskaitos išvesčiai OPENXML formatu generuoti.
 
 Norėdami išsamiai susipažinti su šiuo scenarijumi, paleiskite užduočių vedlį ER konfigūracijos, skirtos generuoti ataskaitas „Microsoft WORD“ formatu, kūrimas (verslo proceso 7.5.4.3 Įsigyti / sukurti IT paslaugų / sprendimų komponentų (10677) dalis). Vykdant užduoties vadovas veiksmo importuoti šabloną, naudokite šiuos Word failus šablonų nustatymas ER formato:
 
-- [Mokėjimo ataskaitos šablonas (SampleVendPaymDocReport.docx)](https://download.microsoft.com/download/0/d/e/0de5a87c-95fc-4dfa-958f-285cb28b5b2b/SampleVendPaymDocReport.docx)
-- [Susietas mokėjimo ataskaitos šablonas (SampleVendPaymDocReportBounded.docx)](https://download.microsoft.com/download/a/1/2/a126cb43-6281-4f7b-bde0-25e03ff9bc1e/SampleVendPaymDocReportBounded.docx)
+- [Mokėjimo ataskaitos šablonas (SampleVendPaymDocReport.docx)](https://go.microsoft.com/fwlink/?linkid=845202)
+- [Susietas mokėjimo ataskaitos šablonas (SampleVendPaymDocReportBounded.docx)](https://go.microsoft.com/fwlink/?linkid=845202)
 
 ### <a name="building-a-configuration-to-import-data-from-incoming-electronic-documents"></a>Konfigūracijos, skirtos importuoti duomenis iš gaunamų elektroninių dokumentų, kūrimas
-
 ER formato kūrimo įrankį galima naudoti norint aprašyti elektroninį dokumentą, kuriam suplanuotas duomenų importavimas XML arba teksto formatu. Sukurta formatas naudojamas išanalizuoti gaunamą dokumentą. ER formato susiejimo kūrimo įrankį galima naudoti norint apibrėžti sukurto formato elementų susiejimą su duomenų modeliu. 
 
 Norėdami išsamiai susipažinti su šiuo scenarijumi, paleiskite užduočių vedlį ER konfigūracijos, skirtos importuoti duomenis iš išorinio failo, kūrimas (verslo proceso 7.5.4.3 Įsigyti / sukurti IT paslaugų / sprendimų komponentų (10677) dalis). Norėdami paleisti šį vedlį, naudokite toliau nurodytus failus.
 
-- [ER duomenų modelio konfigūracija (1099model.xml)](https://download.microsoft.com/download/b/d/9/bd9e8373-d558-4ab8-aa9b-31981adc97ea/1099model.xml)
-- [ER formato konfigūracija (1099format.xml)](https://download.microsoft.com/download/e/8/7/e87154b0-b53f-431f-8e1e-0b7f7c9805a9/1099format.xml)
-- [Gaunamo dokumento XML formatu pavyzdys (1099entries.xml)](https://download.microsoft.com/download/4/0/3/403a4958-df24-476a-b8b0-6843a9fa7f89/1099entries.xml)
-- [Darbaknygės, skirtos tvarkyti gaunamo dokumento duomenis, pavyzdys (1099entries.xlsx)](https://download.microsoft.com/download/6/0/0/6001abab-a331-48db-a939-41851fb0f5d0/1099entries.xlsx)
+- [ER duomenų modelio konfigūracija (1099model.xml)](https://go.microsoft.com/fwlink/?linkid=845202)
+- [ER formato konfigūracija (1099format.xml)](https://go.microsoft.com/fwlink/?linkid=845202)
+- [Gaunamo dokumento XML formatu pavyzdys (1099entries.xml)](https://go.microsoft.com/fwlink/?linkid=845202)
+- [Darbaknygės, skirtos tvarkyti gaunamo dokumento duomenis, pavyzdys (1099entries.xlsx)](https://go.microsoft.com/fwlink/?linkid=845202)
 
 ### <a name="storing-a-designed-format-component-in-a-format-configuration"></a>Sukurto formato komponento saugojimas formato konfigūracijoje
 
@@ -240,7 +265,6 @@ Programą galima konfigūruoti, kad ji sukurtą formatą pradėtų naudoti elekt
 Paleiskite užduočių vedlį **ER formato naudojimas elektroniniams mokėjimų dokumentams generuoti** (verslo proceso **7.5.4.3 Įsigyti / sukurti IT paslaugų ir sprendimų komponentų (10677)** dalis) norėdami išsamiai susipažinti su šiuo scenarijumi.
 
 ## <a name="handling-er-components"></a>ER komponentų tvarkymas
-
 ### <a name="publishing-an-er-component-in-lcs-to-offer-it-externally-localization"></a>ER komponento publikavimas LCS, pateikiant jį naudoti išorėje (lokalizavimas)
 
 Sukurto komponento (modelio arba formato) savininkas gali naudoti ER baigtai komponento versijai publikuoti LCS. Tam būtina dabartinio ER konfigūracijos teikėjo **LCS projekto** tipo saugykla. Kai baigtos komponento versijos būsena pakeičiama iš **BAIGTA** į **BENDRAI NAUDOJAMA**, ta versija publikuojama LCS. Publikavus komponentą LCS, to komponento savininkas tampa paslaugos teikėju, palaikančiu šį komponentą. Pavyzdžiui, jei formato komponentas yra skirtas pagal įstatymus būtinam elektroniniam dokumentui generuoti (pavyzdžiui, pagal lokalizavimo scenarijų), manoma, kad formatas turi atitikti teisės aktų pakeitimus ir kad tiekėjas turi išduoti naujas komponento versijas, kai to reikia naujiems įstatymų reikalavimams taikyti. Paleiskite užduočių vedlį **ER konfigūracijos nusiuntimas į „Lifecycle Services‟** (verslo proceso **7.5.4.3 Įsigyti / sukurti IT paslaugų ir sprendimų komponentų (10677)** dalis), norėdami išsamiai susipažinti su šiuo scenarijumi.
@@ -257,16 +281,89 @@ ER palaiko galimybę kurti (išvesti) naują komponentą iš dabartinės kompone
 
 ER suteikia galimybę automatiškai priimti naujausios pagrindinio komponento versijos pakeitimus dabartinėje išvestinio komponento juodraščio versijoje. Šis procesas vadinamas *pritaikymu kitoje vietoje*. Pavyzdžiui, naują reguliavimo pakeitimą, įtrauktą į naujausią komponento, importuoto iš LCS, versiją, galima automatiškai sulieti su pritaikyta šio elektroninio dokumento formato versija. Bet kokie pakeitimai, kurių negalima sulieti automatiškai, yra laikomi konfliktais. Šiuos konfliktus galima išspręsti neautomatiniu būdu naudojant atitinkamo komponento kūrimo įrankį. Paleiskite užduočių vedlį **ER formato versijos naujinimas priimant naują to formato pagrindinę versiją** (verslo proceso **7.5.5.3 Įsigyti / sukurti pakeistų IT paslaugų ir sprendimų komponentų (10683)** dalis) norėdami išsamiai susipažinti su šiuo scenarijumi.
 
-## <a name="list-of-er-configurations-that-have-been-released-in-finance"></a><a name="list-of-configurations"></a>ER konfigūracijų, išleistų „Finance”, sąrašas
+## <a name="list-of-er-configurations-that-are-delivered-in-the-finance-application"></a>ER konfigūracijų, kurios pateikiamos „Finance“ programoje, sąrašas
 
-„Finance” ER konfigūracijų sąrašas nuolat atnaujinamas. Atidarykite [visuotinę saugyklą](er-download-configurations-global-repo.md) tam, kad peržiūrėtumėte šiuo metu palaikomų ER konfigūracijų sąrašą. „FastTab” **Nutraukimo informacija** galite peržiūrėti informaciją apie konfigūracijas, kurios buvo nutrauktos arba nebėra prižiūrimos. 
-
-![Visuotinės saugyklos turinys konfigūracijų saugyklos puslapyje.](./media/er-overview-03.gif)
+| Konkretaus domeno duomenų modelio konfigūracijos: pavadinimas | Domenas                | Nuo duomenų modelio priklausančio formato konfigūracijos: pavadinimas | Prekės/Paslaugos pavadinimas                                                        |
+|--------------------------------------------------|-----------------------|---------------------------------------------------|--------------------------------------------------------------------|
+| Audito failo modelis                                 | Finansinis auditas       |                                                   |                                                                    |
+|                                                  |                       | Audito failas (NL)                                   | Nyderlandų audito failas                                  |
+| BAS modelis                                        | Mokesčių ataskaitos         |                                                   |                                                                    |
+|                                                  |                       | BAS (AU)                                          | Australijos BAS formatas                                           |
+| Statybos pramonės schemos modelis               | Mokesčių ataskaitos         |                                                   |                                                                    |
+|                                                  |                       | CIS grąžinimas kas mėnesį (UK)                           | CIS grąžinimo kas mėnesį formatas, skirtas Jungtinei Karalystei                   |
+| Priminimo laiško modelis                          | Elektroninių SF išrašymas  |                                                   |                                                                    |
+|                                                  |                       | OIOUBL priminimo laiškas (DK)                     | OIOUBL priminimo laiško formatas, skirtas Danijai                        |
+| Elektroninės DK apskaitos modelis (MX)          | Mokesčių ataskaitos         |                                                   |                                                                    |
+|                                                  |                       | Pagalbinė DK XML formatu (MX)                         | Pagalbinės DK operacijos pagal sąskaitą ataskaitos formatas, skirtas Meksikai |
+|                                                  |                       | Sąskaitų planas XML formatu (MX)                         | Sąskaitų plano ataskaitos formatas, skirtas Meksikai                          |
+|                                                  |                       | Žurnalai XML formatu (MX)                                 | Žurnalo operacijų ataskaitos formatas, skirtas Meksikai                      |
+|                                                  |                       | Bandomasis balansas XML formatu (MX)                            | Bandomojo balanso ataskaitos formatas, skirtas Meksikai                             |
+| „Elster“ modelis                                     | Mokesčių ataskaitos         |                                                   |                                                                    |
+|                                                  |                       | Elster (DE)                                       | „Elster“ formatas, skirtas Vokietijai                                          |
+| ES pardavimo sąrašo modelis                              | Prekybos ataskaitos       |                                                   |                                                                    |
+|                                                  |                       | ES pardavimo sąrašas (DE)                                | ES pardavimo sąrašas TXT formatu, skirtas Vokietijai                               |
+|                                                  |                       | ES pardavimo sąrašas (DK)                                | ES pardavimo sąrašas TXT formatu, skirtas Danijai                               |
+|                                                  |                       | ES pardavimo sąrašas (FR)                                | ES pardavimo sąrašas XML formatu, skirtas Prancūzijai                                |
+|                                                  |                       | ES pardavimo sąrašas (NL)                                | ES pardavimo sąrašas XML formatu, skirtas Nyderlandams                           |
+|                                                  |                       | ES pardavimo sąrašas (UK)                            | ES pardavimo sąrašas TXT formatu, skirtas Jungtinei Karalystei                    |
+|                                                  |                       | ES pardavimo sąrašas XML formatu (UK)                            | ES pardavimo sąrašas XML formatu, skirtas Jungtinei Karalystei                    |
+|                                                  |                       | ES pardavimo sąrašo pagal stulpelius ataskaita                   | ES pardavimo sąrašo pagal stulpelius ataskaita                                    |
+|                                                  |                       | ES pardavimo sąrašo pagal eilutes ataskaita                      | ES pardavimo sąrašo pagal eilutes ataskaita                                       |
+| FEC apskaitos modelis (FR)                        | Mokesčių ataskaitos         |                                                   |                                                                    |
+|                                                  |                       | FEC apskaitos duomenys XML formatu (FR)                      | Prancūzijos FEC apskaitos duomenys, eksportuoti XML formatu                   |
+| Vokietijos audito failas                                | Finansinis auditas       |                                                   |                                                                    |
+|                                                  |                       | Vokietijos audito failo išvestis                          | Audito failo išvestis, skirta Vokietijai ir Austrijai                          |
+| Intrastat modelis                                  | Prekybos ataskaitos       |                                                   |                                                                    |
+|                                                  |                       | Intrastat (DE)                                    | Intrastat formatas, skirtas Vokietijai                                       |
+|                                                  |                       | Intrastat (DK)                                    | Intrastat formatas, skirtas Danijai                                       |
+|                                                  |                       | Intrastat INTRACOM (FR)                           | Intrastat INTRACOM formatas, skirtas Prancūzijai                               |
+|                                                  |                       | Intrastat SAISUNIC (FR)                           | Intrastat SAISUNIC formatas, skirtas Prancūzijai                               |
+|                                                  |                       | Intrastat (NL)                                    | Intrastat formatas, skirtas Nyderlandams                               |
+|                                                  |                       | Intrastat (UK)                                    | Intrastat formatas, skirtas Jungtinei Karalystei                            |
+|                                                  |                       | Intrastat ataskaita                                  | Intrastat „Excel“ kontrolės ataskaita                                     |
+| Kliento SF modelis                           | Elektroninių SF išrašymas  |                                                   |                                                                    |
+|                                                  |                       | OIOUBL projekto kredito pažyma (DK)                   | OIOUBL projekto kredito pažymos formatas, skirtas Danijai                      |
+|                                                  |                       | OIOUBL projekto SF (DK)                       | OIOUBL projekto SF formatas, skirtas Danijai                          |
+|                                                  |                       | OIOUBL pardavimo kredito pažyma (DK)                     | OIOUBL pardavimo kredito pažymos formatas, skirtas Danijai                        |
+|                                                  |                       | OIOUBL pardavimo SF (DK)                         | OIOUBL pardavimo SF formatas, skirtas Danijai                            |
+| OB deklaracijos modelis                             | Mokesčių ataskaitos         |                                                   |                                                                    |
+|                                                  |                       | OB deklaracija (NL)                               | OB deklaracijos formatas, skirtas Nyderlandams                          |
+| Mokėjimo modelis                                    | Mokėjimai              |                                                   |                                                                    |
+|                                                  |                       | Betalingsservice (DK)                             | „Betalingsservice“ mokėjimo formatas, skitas Danijai                        |
+|                                                  |                       | Įsakomojo vekselio pavedimas (FR)                  | Įsakomojo vekselio pavedimo formatas, skirtas Prancūzijai                      |
+|                                                  |                       | BTL91 (NL)                                        | BTL91 tiekėjo mokėjimo formatas, skirtas Nyderlandams                    |
+|                                                  |                       | CFONB Prelevements (FR)                           | CFONB tiesioginio debeto mokėjimo formatas, skirtas Prancūzijai                       |
+|                                                  |                       | CFONB Virements (FR)                              | CFONB vietinio tiekėjo mokėjimo formatas, skirtas Prancūzijai                    |
+|                                                  |                       | „Nordea“ tiekėjas (DK)                                | „Nordea corporate netbank“ tiekėjo mokėjimo formatas, skirtas Danijai         |
+|                                                  |                       | ANZ tiesioginio kredito paslauga (AU)                    | ANZ tiesioginio kredito paslaugos formatas, skirtas Australijai                 |
+|                                                  |                       | CBA tiesioginio kredito paslauga (AU)                    | CBA tiesioginio kredito paslaugos formatas, skirtas Australijai                 |
+|                                                  |                       | NAB tiesioginio kredito paslauga (AU)                    | NAB tiesioginio kredito paslaugos formatas, skirtas Australijai                 |
+|                                                  |                       | STG tiesioginio kredito paslauga (AU)                    | STG tiesioginio kredito paslaugos formatas, skirtas Australijai                 |
+|                                                  |                       | WBC tiesioginio įrašymo sistema (AU)                      | WBC tiesioginio įrašymo sistemos formatas, skirtas Australijai                   |
+|                                                  |                       | DirectLink (NZ)                                   | „DirectLink“ formatas, skirtas Naujajai Zelandijai                              |
+|                                                  |                       | JBA mokėjimo failas (JP)                             | JBA mokėjimo formatas, skirtas Japonijai                                       |
+|                                                  |                       | ISO20022 kredito pervedimas                          | SEPA kredito pervedimo formatas, skirtas Europai                             |
+|                                                  |                       | ISO20022 kredito pervedimas (FR)                     | SEPA kredito pervedimo formatas, skirtas Prancūzijai                             |
+|                                                  |                       | ISO20022 kredito pervedimas (DE)                     | SEPA kredito pervedimo formatas, skirtas Vokietijai                            |
+|                                                  |                       | ISO20022 kredito pervedimas (NL)                     | SEPA kredito pervedimo formatas, skirtas Nyderlandams                    |
+|                                                  |                       | ISO20022 tiesioginis debetas                             | SEPA tiesioginio debeto formatas, skirtas Europai                                |
+|                                                  |                       | ISO20022 tiesioginis debetas (FR)                        | SEPA tiesioginio debeto formatas, skirtas Prancūzijai                                |
+|                                                  |                       | ISO20022 tiesioginis debetas (DE)                        | SEPA tiesioginio debeto formatas, skirtas Vokietijai                               |
+|                                                  |                       | ISO20022 tiesioginis debetas (NL)                        | SEPA tiesioginio debeto formatas, skirtas Nyderlandams                       |
+|                                                  |                       | BACS (UK)                                         | BACS tiekėjo mokėjimo formatas, skirtas Jungtinei Karalystei                  |
+| Atvirkštinis apmokestinimas                                   | Mokesčių ataskaitos         |                                                   |                                                                    |
+|                                                  |                       | Atvirkštinio apmokestinimo sąrašo atšaukimas                         | Atvirkštinio apmokestinimo pardavimo sąrašo formatas                                   |
+| Olandijos XBRL integravimo modelis                     | XBRL ataskaitos        |                                                   |                                                                    |
+|                                                  |                       | Semansys XBRL (NL)                                | „Semansys XBRL“ eksportavimo formatas, skirtas Nyderlandams                    |
+| GAF modelis (MY)                                   | Finansinis auditas       |                                                   |                                                                    |
+|                                                  |                       | GAF failas (MY)                                     | GAF formatas, skirtas Malaizijai                                         |
+| Tiekėjų skirstymo pagal terminus ataskaita (CN)                         | Tiekėjų duomenų analizė |                                                   |                                                                    |
+|                                                  |                       | Tiekėjų skirstymo pagal terminus ataskaitos formatas (CN)                   | Tiekėjų skirstymo pagal terminus ataskaitos formatas, skirtas Kinijai                               |
+| Tiekėjo SF deklaracijos modelis                 | Tiekėjų duomenų analizė |                                                   |                                                                    |
+|                                                  |                       | Tiekėjo SF deklaracija (IS)                   | Tiekėjo SF deklaracijos formatas, skirtas Islandijai                      |
+|                                                  |                       | Tiekėjo SF deklaracijos ataskaita (IS)            | Tiekėjo SF deklaracijos ataskaita, skirta Islandijai                      |
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 - [Elektroninių ataskaitų (ER) konfigūracijų kūrimas](electronic-reporting-configuration.md)
 - [Elektroninių ataskaitų (ER) konfigūracijų ciklo valdymas](general-electronic-reporting-manage-configuration-lifecycle.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

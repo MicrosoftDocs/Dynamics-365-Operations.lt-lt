@@ -2,22 +2,25 @@
 title: Asortimento valdymas
 description: Šioje temoje paaiškinamos pagrindinės asortimento valdymo sprendime „Dynamics 365 Commerce“ sąvokos ir nurodoma, apie ką reikėtų pagalvoti diegiant projektą.
 author: jblucher
+manager: AnnBe
 ms.date: 03/12/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application user
 ms.reviewer: josaw
+ms.search.scope: Retail, Operations
 ms.search.region: Global
 ms.author: jeffbl
 ms.search.validFrom: 2017-11-21
 ms.dyn365.ops.version: Application update 5
-ms.openlocfilehash: 1ff4929e8789748433f4e9386397431e174a85f81518d2e0a1d8f9ea68211fa6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e1b177989065740eef0bd917a7ce1e0a2c79088b
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6717776"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4414273"
 ---
 # <a name="assortment-management"></a>Asortimento valdymas
 
@@ -35,27 +38,27 @@ Bendrąjį kanalo produktų derinį nustato tam kanalui priskirti publikuoti aso
 
 Tolesniame pavyzdyje kiekvienai parduotuvei sukonfigūruotas unikalus asortimentas. Šiuo atveju 1 parduotuvėje galima įsigyti tik 1 produktą, o 2 parduotuvėje – tik 2 produktą.
 
-![Kiekvieną produktą galima įsigyti vienoje parduotuvėje.](./media/Managing-assortments-figure1.png)
+![Kiekvieną produktą galima įsigyti vienoje parduotuvėje](./media/Managing-assortments-figure1.png)
 
 Kad 2 produktą būtų galima įsigyti 1 parduotuvėje, jį galite įtraukti į 1 asortimentą.
 
-![2 produktas įtrauktas į 1 asortimentą.](./media/Managing-assortments-figure2.png)
+![2 produktas įtrauktas į 1 asortimentą](./media/Managing-assortments-figure2.png)
 
 Arba galite 1 parduotuvę įtraukti į 2 asortimentą.
 
-![1 parduotuvė įtraukta į 2 asortimentą.](./media/Managing-assortments-figure3.png)
+![1 parduotuvė įtraukta į 2 asortimentą](./media/Managing-assortments-figure3.png)
 
 ### <a name="organization-hierarchies"></a>Organizacijų hierarchijos
 
 Situacijose, kai keliuose kanaluose naudojami tokie patys produktų asortimentai, asortimentus galite sukonfigūruoti naudodami organizacijos hierarchiją Prekybos asortimentas. Įtraukus šios hierarchijos mazgus, bus įtraukti visi tų mazgų kanalai ir antriniai mazgai.
 
-![Organizacijos hierarchija.](./media/Managing-assortments-figure4.png)
+![Organizacijos hierarchija](./media/Managing-assortments-figure4.png)
 
 ### <a name="product-categories"></a>Produkto kategorijos
 
 Panašiai produktų pusėje produktų grupių galite įtraukti naudodami produktų kategorijų hierarchijas. Galite konfigūruoti asortimentus įtraukdami vieną ar kelis kategorijų hierarchijų mazgus. Šiuo atveju į asortimentą bus įtraukti visi to kategorijos mazgo ir jo antrinių mazgų produktai.
 
-![Produkto kategorijos.](./media/Managing-assortments-figure5.png)
+![Produkto kategorijos](./media/Managing-assortments-figure5.png)
 
 ### <a name="excluded-products-or-categories"></a>Neįtraukti produktai ar kategorijos
 
@@ -64,7 +67,7 @@ Be produktų ir kategorijų įtraukimo į asortimentus galite naudoti parinktį 
 > [!NOTE]
 > Jei pagal apibrėžimą produktas viename ar keliuose asortimentuose yra ir įtrauktas, ir neįtrauktas, jis bus visada laikomas neįtrauktu.
 
-![Produktas neįtrauktas.](./media/Managing-assortments-figure6.png)
+![Produktas neįtrauktas](./media/Managing-assortments-figure6.png)
 
 ### <a name="global-and-released-products"></a>Visuotiniai ir išleisti produktai
 
@@ -74,7 +77,7 @@ Asortimentai yra apibrėžiami visuotiniu lygiu ir juose gali būti kanalų iš 
 
 Asortimentus galima apibrėžti naudojant konkrečius kanalus ir produktus arba įtraukiant organizacijos vienetų ir kategorijų. Asortimentai su nuorodomis į šias grupes laikomi dinaminiais asortimentais. Jei, asortimentui esant aktyviam, pakinta šių grupių apibrėžtis ar turinys, taip pat pakinta asortimento apibrėžtis.
 
-Pavyzdžiui, asortimentas iš pradžių apibrėžiamas ir publikuojamas taip, kad nurodytų produktų kategoriją. Jei vėliau į kategoriją įtraukiama papildomų produktų, jie automatiškai įtraukiami į esamo asortimento apibrėžtį. Į asortimentą įtraukti produktų nebūtina rankiniu būdu. Panašiai, jei organizacijos vienetas įtraukiamas į kitą mazgą, organizacijos vieneto asortimentas automatiškai pakoreguojamas pagal šią apibrėžtį.
+Pavyzdžiui, asortimentas iš pradžių apibrėžiamas ir publikuojamas taip, kad nurodytų produktų kategoriją. Jei vėliau į kategoriją įtraukiama papildomų produktų, jie automatiškai įtraukiami į esamo asortimento apibrėžtį. Į asortimentą įtraukti produktų nebūtina rankiniu būdu. Panašiai, jei organizacijos vienetas įtraukiamas į kitą mazgą, organizacijos vieneto asortimentas automatiškai pakoreguojamas pagal šią apibrėžtį
 
 ### <a name="stopped-products"></a>Sustabdyti produktai
 
@@ -104,6 +107,3 @@ Planuodami ir valdydami savo mažmeninės prekybos asortimentus, apsvarstykite t
 - **Į asortimentus neįtrauktų produktų pardavimas ir grąžinimas** – ši galimybė mažmenininkams padeda efektyviai valdyti savo asortimentus – leidžiama prieinamus produktus apriboti iki produktų, kurie priklauso pagrindiniam parduotuvės produktų deriniui. Ši galimybė mažmenininkams taip pat padeda valdyti situacijas, kai produktas buvo klaidingai neįtrauktas į asortimentą arba kai produktas buvo grąžintas pasibaigus asortimento galiojimui.
 
 Jei kanalo duomenų bazėje nėra produktų duomenų, EKA realiuoju laiku kreipiasi į būstinę, kad gautų reikiamą informaciją ir kad produktą būtų galima parduoti, grąžinti ar įtraukti į kliento užsakymą. Taip gauta produktų informacija prieinama tik tos operacijos aprėptyje. Produktas į asortimento apibrėžtį neįtraukiamas. Todėl vėliau realiuoju laiku kreiptis į būstinę reikės pagal poreikį.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

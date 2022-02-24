@@ -1,24 +1,27 @@
 ---
 title: ISO20022 failų importavimas
 description: Šioje temoje paaiškinama, kaip importuoti ISO 20022 mokėjimo failų camt.054 ir pain.002 formatų failus į „Microsoft Dynamics 365 Finance“.
-author: anasyash
+author: neserovleo
+manager: AnnBe
 ms.date: 07/27/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustPaymMode, CustBankAccounts, VendPaymMode, VendBankAccounts
 audience: Application User
 ms.reviewer: kfend
+ms.search.scope: Core, Operations
 ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hungary, Italy, Latvia, Lithuania, Norway, Poland, Spain, Sweden, Switzerland, United Kingdom
-ms.author: anasyash
+ms.author: v-lenest
 ms.search.validFrom: 2017-06-01
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 19b9e90ac42c496931c2fc936a25ee3b1b16ce58
-ms.sourcegitcommit: 49f29aaa553eb105ddd5d9b42529f15b8e64007e
+ms.openlocfilehash: b809ba8d92772d8f3f416d4854d4af322e6f954a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7592608"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4408221"
 ---
 # <a name="import-iso20022-files"></a>ISO20022 failų importavimas
 
@@ -114,7 +117,7 @@ Importuodami formato konfigūraciją iš LCS, jūs importuojate visą konfigūra
  - **Pain.002** – šis formatas bus naudojamas kartu su mokėjimo modelio susiejimu su paskirtimi ISO20022, kad būtų galima importuoti pain.002 failą į tiekėjo mokėjimų perkėlimų žurnalą
  - **Camt.054** – šis formatas bus naudojamas kartu su mokėjimo modelio susiejimu su paskirtimi ISO20022, kad būtų galima importuoti camt.054 failą į tiekėjo mokėjimų perkėlimų žurnalą Ta pati formato konfigūracija bus naudojama kliento mokėjimų importavimo funkcijoms, tačiau skirtingų susiejimas bus naudojamas mokėjimo modelio susiejime su paskirties ISO20022 konfigūracija.
 
-Daugiau informacijos apie elektronines ataskaitas žr. [Elektroninių ataskaitų apžvalga](../../fin-ops-core/dev-itpro/analytics/general-electronic-reporting.md).
+Daugiau informacijos apie elektronines ataskaitas žr. [Elektroninių ataskaitų apžvalga](../../dev-itpro/analytics/general-electronic-reporting.md).
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 - [Tiekėjo mokėjimų kūrimas ir eksportavimas naudojant ISO20022 mokėjimo formatą](./tasks/create-export-vendor-payments-iso20022-payment-format.md)
@@ -126,6 +129,3 @@ Daugiau informacijos apie elektronines ataskaitas žr. [Elektroninių ataskaitų
 - [Nustatyti ISO20022 kredito pervedimo mokėjimo būdą](./tasks/set-up-method-payment-iso20022-credit-transfer.md)
 - [ISO20022 tiesioginio debeto mokėjimo būdo nustatymas](./tasks/setup-method-payment-iso20022-direct-debit.md)
 - [Nustatyti ISO20022 kredito pervedimų tiekėjus ir tiekėjų banko sąskaitas](./tasks/set-up-vendor-iso20022-credit-transfers.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

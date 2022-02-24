@@ -1,50 +1,46 @@
 ---
 title: Modifikuoti pareigų ataskaitų ryšius
 description: Ši procedūra nurodo, kaip pakeisti darbuotojo ataskaitų ryšį.
-author: twheeloc
-ms.date: 10/28/2021
+author: andreabichsel
+manager: AnnBe
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HcmPosition, HcmPositionReportsToDialog, HcmPositionLookup, HcmPersonnelManagementWorkspace
 audience: Application User
-ms.search.scope: Human Resources
+ms.reviewer: anbichse
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d7996733575c2d3a23971d08eb101962c1f6bbd9
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
-ms.translationtype: MT
+ms.openlocfilehash: 2ae8ca5b20f331709e9fc1d9ae3b5f350e5c19ab
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8066630"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4419735"
 ---
 # <a name="modify-reporting-relationships-for-a-position"></a>Modifikuoti pareigų ataskaitų ryšius
-
-
-[!INCLUDE [PEAP](../includes/peap-1.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 
 
 Ši procedūra nurodo, kaip pakeisti darbuotojo ataskaitų ryšį. Ataskaitų ryšį galima naudoti dokumentams per darbo eigą nukreipti. Procedūra taip pat nurodo, kaip darbuotoją priskirti papildomoms hierarchijoms. Pavyzdžiui, darbuotojas gali būti projekto komandos narys ir turėti neoficialų ataskaitų ryšį su projekto vadovu. Galima nustatyti papildomus pareigų ataskaitų ryšius, kad veiktų įvairūs projekto arba matricos scenarijai. Kuriant šią procedūrą naudojama demonstracinių duomenų įmonė yra USMF.
 
-1. Eiti į **Žmogiškieji ištekliai** \> **Pozicijos** \> **Pozicijos**.
-2. Norėdami rasti įrašus, naudokite spartųjį filtrą. Pavyzdžiui, filtruokite pagal reikšmę **000091** už **Padėtis** lauke.
-3. Šiame sąraše pasirinkite nuorodą pasirinktoje eilutėje.
-4. Išplėskite **Atsiskaito į pareigas** skyrius.
-5. Pasirinkite **Nauja** kad atidarytumėte išskleidžiamąjį dialogo langą.
-6. Viduje konors **Pranešti** lauką, įveskite arba pasirinkite reikšmę.
-7. Pasirinkite **Kurti**.
-8. Išplėskite **Santykiai** skyrius.
-9. Pasirinkite **Įtraukti**.
-10. Pažymėkite žymimąjį laukelį tinklelio kairėje.
-11. Viduje konors **Hierarchijos pavadinimas** lauką, įveskite arba pasirinkite reikšmę (pvz., **·**).
-12. Viduje konors **Atsiskaito į pareigas** lauką, įveskite arba pasirinkite reikšmę (pvz., **·**).
-13. Pasirinkite **Įrašyti**.
+1. Pasirinkite Personalas > Pareigos > Pareigos.
+2. Norėdami rasti įrašus, naudokite spartųjį filtrą. Pvz., filtruokite lauką Pareigos reikšme „000091“.
+3. Sąraše spustelėkite saitą pasirinktoje eilutėje.
+4. Išplėskite sekciją Teikia ataskaitas pareigų atstovui.
+5. Spustelėdami Naujas atidarykite išplečiamąjį dialogo langą.
+6. Lauke Teikia ataskaitas įveskite arba pasirinkite reikšmę.
+7. Spustelėkite Kurti.
+8. Išplėskite sekciją Ryšiai.
+9. Spustelėkite Pridėti.
+10. Tinklelio kairėje pažymėkite žymės langelį.
+11. Lauke Hierarchijos pavadinimas įveskite arba pasirinkite reikšmę.
+    * Pavyzdys: projektas  
+12. Lauke Teikia ataskaitas pareigų atstovui įveskite arba pasirinkite reikšmę.  Pavyzdys: 000437
+13. Spustelėkite Įrašyti.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

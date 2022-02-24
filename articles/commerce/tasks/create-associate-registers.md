@@ -1,31 +1,33 @@
 ---
-title: Registrų kūrimas ir susiejimas
-description: Šioje procedūroje parodoma, kaip kurti elektroninio kasos aparato (EKA) registrą.
-author: BrianShook
+title: " Registrų kūrimas ir susiejimas"
+description: Šioje procedūroje parodoma, kaip kurti elektroninio kasos aparato (POS) registrą.
+author: rubencdelgado
+manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: RetailTerminalTable
 audience: Application User
 ms.reviewer: josaw
 ms.search.region: Global
 ms.search.industry: Retail
-ms.author: brshoo
+ms.author: rubendel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 48ad1891955b15d22f3cecac128a831adabdac87
-ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
-ms.translationtype: MT
+ms.openlocfilehash: 2415945c5a8f73e095627d638fcc572c50ffe8ca
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7779432"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4964900"
 ---
-# <a name="create-and-associate-registers"></a>Registrų kūrimas ir susiejimas
+# <a name="create-and-associate-registers"></a> Registrų kūrimas ir susiejimas
 
 [!include [banner](../includes/banner.md)]
 
-Šioje procedūroje parodoma, kaip kurti elektroninio kasos aparato (EKA) registrą. Šioje procedūroje naudojama demonstracinių duomenų įmonė USRT.
+Šioje procedūroje parodoma, kaip kurti elektroninio kasos aparato (POS) registrą. Šioje procedūroje naudojama demonstracinių duomenų įmonė USRT.
 
 1. Eikite į Mažmeninė prekyba ir prekyba > Kanalo sąranka > EKA sąranka > Registrai.
 2. Spustelėkite Naujas.
@@ -41,6 +43,3 @@ ms.locfileid: "7779432"
     * EFT EKA registro numeris naudojamas siekiant informuoti mokėjimo procesorių apie tai, kuris mokėjimo terminalas siunčia autorizavimo užklausas. Ši reikšmė dažnai yra vadinama Terminalo ID arba TID. Paprastai TID galima rasti ant mokėjimo įrenginio lipduko.  
 9. Spustelėkite Įrašyti.
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

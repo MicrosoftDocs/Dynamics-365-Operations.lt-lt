@@ -2,9 +2,11 @@
 title: Vartotojo apibrėžti mažmeninės prekybos parduotuvių sertifikatų profiliai
 description: Šioje temoje pateikiama sertifikatų naudojimo mažmeninės prekybos parduotuvėse apžvalga.
 author: josaw
+manager: annbe
 ms.date: 10/09/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailFormLayout, RetailParameters
 audience: Application User
@@ -14,12 +16,12 @@ ms.search.industry: Retail
 ms.author: epopov
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 9cb82a6d6336bb69fe818fb33e04ad621382b383055b24a4e79eee5ddff217ac
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 81fa3770a137471e3d7f8cab3c7d7f37febe64fa
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719935"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5018873"
 ---
 # <a name="user-defined-certificate-profiles-for-retail-stores"></a>Vartotojo apibrėžti mažmeninės prekybos parduotuvių sertifikatų profiliai
 
@@ -79,7 +81,7 @@ Kai įtraukiate naują eilutę į puslapį **Sertifikato profilio parametrai**, 
 - **„Key Vault” sertifikatas** – šis laukas reikalingas, jei nustatote lauką **Vietos tipas** į **„Key Vault”**. Naudokite jį, norėdami nurodyti „Key Vault” sertifikato slaptąjį raktą.
 
     > [!NOTE]
-    > Prieš pradėdami naudoti „Key Vault” sertifikatą sertifikatų profiliuose, nusiųskite sertifikatą į raktų saugyklą ir sekite instrukcijas, pateiktas [„Azure Key Vault“ kliento nustatymas](../../finance/localizations/setting-up-azure-key-vault-client.md).
+    > Prieš pradėdami naudoti „Key Vault” sertifikatą sertifikatų profiliuose, nusiųskite sertifikatą į raktų saugyklą ir sekite instrukcijas, pateiktas [„Azure Key Vault“ kliento nustatymas](https://docs.microsoft.com/dynamics365/finance/localizations/setting-up-azure-key-vault-client).
 
 - **Saugyklos pavadinimas** – šis laukas yra pasirinktinis ir yra galimas tik tada, jei nustatote lauką **Vietos tipas** į **Vietinis sertifikatas**. Naudokite jį, norėdami nurodyti numatytąjį saugyklos pavadinimą, kurį reikia naudoti ieškant vietinių sertifikatų.
 - **Saugojimo vieta** – šis laukas yra pasirinktinis ir yra galimas tik tada, jei nustatote lauką **Vietos tipas** į **Vietinis sertifikatas**. Naudokite jį, norėdami nurodyti numatytąją saugojimo vietą, kurią reikia naudoti ieškant vietinių sertifikatų.
@@ -119,6 +121,3 @@ Jei įdiegiama nauja sertifikato versija, bet jos negalima atnaujinti visose par
 
 > [!NOTE]
 > „Commerce Runtime” pirmiausia bus iškviesta nauja sertifikato versija. Jei sertifikatas dar neatnaujintas konkrečioje parduotuvėje arba terminale, bus iškviesta ankstesnė versija.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

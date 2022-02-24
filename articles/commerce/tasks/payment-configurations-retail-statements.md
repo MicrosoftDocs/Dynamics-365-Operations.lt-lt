@@ -1,27 +1,30 @@
 ---
-title: Mažmeninės prekybos išrašų mokėjimo konfigūracijos
+title: " Mažmeninės prekybos išrašų mokėjimo konfigūracijos"
 description: Šioje procedūroje parodomos „Commerce“ parduotuvės mokėjimo metodų konfigūracijos, kurios turi įtakos ataskaitų kūrimui ir paskelbimui.
 author: jashanno
+manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: RetailStoreTable, RetailStoreTenderTypeTable
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b3c8c7678d88b3c01138aa098b8830336885e6445fb41931b19bcda2b95b86b5
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 390ccdfde3f9bb93770d456af7532a42e81955a1
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6712362"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4414385"
 ---
-# <a name="payment-configurations-for-retail-statements"></a>Mažmeninės prekybos išrašų mokėjimo konfigūracijos
+# <a name="payment-configurations-for-retail-statements"></a> Mažmeninės prekybos išrašų mokėjimo konfigūracijos
 
 [!include [banner](../includes/banner.md)]
 
@@ -50,6 +53,3 @@ ms.locfileid: "6712362"
     * Pasirinkite, į kurią sąskaitą registruoti įnešimo į įmonės kasą sumas.  
 8. Spustelėkite Įrašyti.
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,38 +1,39 @@
 ---
 title: Kas nauja ar pasikeitė sistemoje „Dynamics 365 Human Resources“ (2020 m. vasario 18 d.)
 description: Šiame straipsnyje aprašomos naujos arba pasikeitusios „Microsoft Dynamics 365 Human Resources” funkcijos 2020 m. vasario 18 d.
-author: andreabichsel
+author: Darinkramer
+manager: AnnBe
 ms.date: 02/18/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-human-resources
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: jaredha
+ms.author: dkrame
 ms.search.validFrom: 2020-02-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9cce93aab902a8ca269cf22e1999716fe49f3ed8
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
-ms.translationtype: MT
+ms.openlocfilehash: 002b1b8b86c4fb40f46c239669cd5dfead251bfe
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8063009"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4526983"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-february-18-2020"></a>Kas nauja ar pasikeitė sistemoje „Dynamics 365 Human Resources“ (2020 m. vasario 18 d.)
 
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Šiame straipsnyje aprašomos naujos arba pasikeitusios „Dynamics 365 Human Resources“ funkcijos. Pakeitimai taikomi 8.1.2903 komponavimo versijai. Kai kurių antraščių skaičiai skliausteliuose nurodo LCS palaikymo numerius informaciniais tikslais.
 
 ## <a name="platform-update-32"></a>Platformos „update 32“ 
 
-Dabar pasiekiamas 32-asis platformos naujinimas. Daugiau informacijos žr [Kas naujo ar pakeista 32 „Finance and Operations“ platformos naujinime (2020 m. vasario mėn.)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-32.md).
+Dabar pasiekiamas 32-asis platformos naujinimas. Norėdami gauti daugiau informacijos, žr. [Kas nauja arba pakeista „Finance and Operations“ 32-ajame platformos naujinime (2020 m. vasario mėn.)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-update-32).
 
 ## <a name="search-values-are-remembered-when-changing-view-options-in-streamlined-employee-form-383833"></a>Keičiant rodinio parinktis supaprastintoje darbuotojo formoje, įsimenamos ieškos reikšmės (383833)
 
@@ -42,17 +43,17 @@ Naujoji forma **Darbininkas** dabar įsimena ieškos reikšmes, kai keičiate ro
 
 Naujojoje formoje **Darbininkas** esančiose pastoviosios ir kintamosios kompensacijos valdymo plytelėse dabar rodomi teisingi įrašai. Taikoma tik supaprastintos darbuotojo formos peržiūros funkcijai. Šią peržiūros funkciją galite įjungti srityje **Funkcijų valdymas**. Norėdami gauti daugiau informacijos, žr. [Funkcijų valdymas](hr-admin-manage-features.md).
 
-## <a name="empty-status-field-for-some-leave-request-records-in-dataverse-414915"></a>Tuščias kai kurių „Dataverse“ prašymo išeiti atostogų įrašų laukas Būsena (414915)
+## <a name="empty-status-field-for-some-leave-request-records-in-common-data-service-414915"></a>Tuščias kai kurių „Common Data Service“ prašymo išeiti atostogų įrašų laukas Būsena (414915)
 
-Šiuo keitimu ištaisoma „Dataverse“ problema, kai prašymo išeiti atostogų laukas **Būsena** nustatomas kaip **Peržiūra**. „Dataverse“ dabar būsena rodoma.
+Šiuo keitimu ištaisoma „Common Data Service“ problema, kai prašymo išeiti atostogų laukas **Būsena** nustatomas kaip **Peržiūra**. „Common Data Service“ dabar būsena rodoma.
 
 ## <a name="skill-gap-analysis-only-possible-for-assigned-job-411390"></a>Įgūdžių trūkumo analizė galima tik priskirtai užduočiai (411390)
 
 Dabar įgūdžių trūkumų analizę galite atlikti bet kuriai užduočiai, nustatytai sprendime „Human Resources“.
 
-## <a name="system-currency-doesnt-sync-from-dataverse-to-human-resources-in-new-environments-418011"></a>Naujose aplinkose sistemos valiuta nesinchronizuojama iš „Dataverse“ su „Human Resources“ (418011)
+## <a name="system-currency-doesnt-sync-from-common-data-service-to-human-resources-in-new-environments-418011"></a>Naujose aplinkose sistemos valiuta nesinchronizuojama iš „Common Data Service“ su „Human Resources“ (418011)
 
-„Dataverse“ sistemos valiuta dabar gali būti sinchronizuojama su „Human Resources“.
+„Common Data Service“ sistemos valiuta dabar gali būti sinchronizuojama su „Human Resources“.
 
 ## <a name="in-preview"></a>Peržiūros režimu
 
@@ -62,9 +63,9 @@ Dabar įgūdžių trūkumų analizę galite atlikti bet kuriai užduočiai, nust
 
 ## <a name="coming-soon"></a>Jau greitai
 
-### <a name="updated-dataverse-solution"></a>Atnaujintas „Dataverse“ sprendimas
+### <a name="updated-common-data-service-solution"></a>Atnaujintas „Common Data Service“ sprendimas
 
-Nauju „Dataverse” sprendimu greitai galėsite naudotis atlikdami šiuos keitimus:
+Nauju „Common Data Service” sprendimu greitai galėsite naudotis atlikdami šiuos keitimus:
 
 | Aprašymas | Keitimas |
 | ----------------------------------------- | --- |
@@ -75,13 +76,11 @@ Nauju „Dataverse” sprendimu greitai galėsite naudotis atlikdami šiuos keit
 | Nauji kintamosios atlyginimo dalies sąrankos objektai | **Kompensacijų kitimo plano tipas**</br>**Kompensacijų kitimo planas**</br>**Kintamosios atlyginimo dalies paskirstymo taisyklės**</br>**Kompensacijų kitimo plano lygis** |
 | Naujas objektas **Darbuotojo įdarbinimo kalendorius** | Pridėta **Darbo kalendoriaus objektas** |
 | Naujas objektas **Algalapio pareigų informacija** | Pridėta **Algalapio pareigų informacija** |
-| Naujas subjektas **Pavadinimas** | Pridėtas **Pavadinimas**. Į „Human Resources“ ir „Dataverse“ sinchronizavimo procesą bus įtrauktas naujas objektas **Pavadinimas**. Jis iš pradžių nebus nurodomas iš objektų **Pareigos** ar **Darbas**. |
+| Naujas subjektas **Pavadinimas** | Pridėtas **Pavadinimas**. Į „Human Resources“ ir „Common Data Service“ sinchronizavimo procesą bus įtrauktas naujas objektas **Pavadinimas**. Jis iš pradžių nebus nurodomas iš objektų **Pareigos** ar **Darbas**. |
 
 ## <a name="see-also"></a>Taip pat žiūrėkite
 
 [Kas nauja ar pasikeitė „Human Resources”](hr-admin-whats-new.md)</br>
-[„Dynamics 365 Human Resources“ 2019 m. leidimo 2 bangos apžvalga](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[„Dynamics 365 Human Resources“ 2019 m. leidimo 2 bangos apžvalga](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Atnaujinimo procesas](hr-admin-setup-update-process.md)</br>
 [Funkcijų valdymas](hr-admin-manage-features.md)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

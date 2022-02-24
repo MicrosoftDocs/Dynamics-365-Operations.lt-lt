@@ -2,24 +2,27 @@
 title: Skambučių centro kanalo nustatymas
 description: Šioje temoje aprašoma, kaip „Microsoft Dynamics 365 Commerce“ sukurti naują skambučių centro kanalą.
 author: samjarawan
+manager: annbe
 ms.date: 03/13/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 3b21d5e57058fee5bb77beb6731c18967ed11cacc1925e44d2f7d8cdb26d7bcb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3f8c47c00b920dae01213d1d241ac8ee6a18d4e3
+ms.sourcegitcommit: 4c6d31f3ebd88212d3d1497a4bba9c64c5300444
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6744539"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "4414499"
 ---
 # <a name="set-up-a-call-center-channel"></a>Skambučių centro kanalo nustatymas
 
@@ -54,11 +57,11 @@ Norėdami sukurti ir sukonfigūruoti naują skambučių centro kanalą, atlikite
 
 Toliau pateiktame vaizde parodytas naujo skambučių centro kanalo kūrimas.
 
-![Naujas skambučių centro kanalas.](media/channel-setup-callcenter-1.png)
+![Naujas skambučių centro kanalas](media/channel-setup-callcenter-1.png)
 
 Toliau pateiktame vaizde parodytas skambučių centro kanalo pavyzdys.
 
-![Skambučių centro kanalo pavyzdys.](media/channel-setup-callcenter-2.png)
+![Skambučių centro kanalo pavyzdys](media/channel-setup-callcenter-2.png)
 
 ## <a name="additional-channel-setup"></a>Papildoma kanalų sąranka
 
@@ -66,7 +69,7 @@ Papildomos užduotys, reikalingos skambučių centro kanalo sąrankai, apima mok
 
 Toliau pateiktame atvaizde rodomos sąrankos parinktys **Pristatymo būdai** ir **Mokėjimo metodai**, esančios skirtuke **Nustatyti**.
 
-![Papildomi skambučių centro kanalo nustatymo veiksmai.](media/channel-setup-callcenter-3.png)
+![Papildomi skambučių centro kanalo nustatymo veiksmai](media/channel-setup-callcenter-3.png)
 
 ### <a name="set-up-payment-methods"></a>Nustatyti mokėjimo būdus
 
@@ -81,7 +84,7 @@ Atlikite toliau nurodytus veiksmus, norėdami nustatyti kiekvieno mokėjimo tipo
 
 Toliau pateiktame vaizde parodytas mokėjimas grynaisiais pinigais pavyzdys.
 
-![Mokėjimo metodų pavyzdys.](media/channel-setup-callcenter-payments.png)
+![Mokėjimo metodų pavyzdys](media/channel-setup-callcenter-payments.png)
 
 ### <a name="set-up-modes-of-delivery"></a>Nustatyti pristatymo būdus
 
@@ -92,12 +95,12 @@ Norėdami pakeisti arba pridėti pristatymo būdą, kuris bus susietas su skambu
 1. Skambučių centro pristatymo būdo parinktyse pasirinkite **Valdyti pristatymo būdus**
 1. Veiksmų srityje pasirinkite **Naujas**, kad sukurtumėte naują pristatymo režimą, arba pasirinkite esamą režimą.
 1. Skyriuje **Mažmeninės prekybos kanalai** spustelėkite **Įtraukti eilutę**, kad galėtumėte įtraukti skambučių centro kanalą. Kanalų įtraukimas naudojant organizacijos mazgus, užuot įtraukus kiekvieną kanalą atskirai, gali racionalizuoti kanalų įtraukimą.
-1. Įsitikinkite, kad pristatymo būdas sukonfigūruotas su duomenimis, nurodytais „FastTab“**Produktai** ir „FastTab“ **Adresai**. Jei pristatymo būdui nėra tinkamų prekių ar pristatymo adresų, pasirenkant jį užsakymo įvedimo metu atsiras klaidų.
+1. Įsitikinkite, kad pristatymo būdas sukonfigūruotas su duomenimis, nurodytais „FastTab“**Produkai** ir „FastTab“ **Adresai**. Jei pristatymo būdui nėra tinkamų prekių ar pristatymo adresų, pasirenkant jį užsakymo įvedimo metu atsiras klaidų.
 1. Po to, kai buvo atlikti bet kokie skambučių centro pristatymo būdo konfigūracijų keitimai, užduotis **Apdoroti pristatymo būdus** turi būti vykdoma, kad išskleistumėte keitimo matricą. Šią užduotį galima surasti pereinant į **Mažmeninė prekyba ir prekyba \>Mažmeninės prekybos ir prekybos IT \>Apdoroti pristatymo būdus**.
 
 Toliau pateiktame vaizde parodytas pristatymo būdo pavyzdys.
 
-![Nustatyti pristatymo būdus.](media/channel-setup-retail-7.png)
+![Nustatyti pristatymo būdus](media/channel-setup-retail-7.png)
 
 ### <a name="set-up-channel-users"></a>Kanalo vartotojų nustatymas
 
@@ -133,6 +136,3 @@ Norėdami nustatyti kainos grupę, atlikite šiuos veiksmus.
 [Įspėjimų dėl apgaulės nustatymas ir jų naudojimas](set-up-fraud-alerts.md)
 
 [Skambučių centrų tęstinumo programų nustatymas](set-up-continuity-program.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

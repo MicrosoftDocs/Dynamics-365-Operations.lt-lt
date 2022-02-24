@@ -2,9 +2,11 @@
 title: DUK apie darbo eigas
 description: Šioje temoje atsakoma į dažnai užduodamus klausimus apie darbo eigos sistemą.
 author: ChrisGarty
+manager: AnnBe
 ms.date: 09/21/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -12,19 +14,16 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fe11942ca41dd8c0ca23d94006569c50a4501a52
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
-ms.translationtype: MT
+ms.openlocfilehash: 58aa4a6d313a78e88c2858637d6de167895ec534
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065585"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797396"
 ---
 # <a name="workflow-faq"></a>DUK apie darbo eigas
 
 [!include [banner](../includes/banner.md)]
-
-
-[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Šioje temoje atsakoma į dažnai užduodamus klausimus apie darbo eigos sistemą.
 
@@ -48,9 +47,9 @@ Toliau pateikiamos kelios pagrindinės sritys, susijusios su įspėjimų įtrauk
     - Būsimame naujinime veiksmų centro pranešimą, kad vartotojui būtų priskirtas darbo eigos darbo elementas. 
 - Pranešimų įtraukimas į darbo eigas
     - Galima sukurti veiksmų centro pranešimų konkretiems vartotojams, pvz., darbo eigos pranešimų, sukurtų naudojant X++.
-    - [Darbo eigose yra verslo įvykių](../../dev-itpro/business-events/business-events-workflow.md), kuriuos klientas gali naudoti norėdamas suaktyvinti srautus su ieškomais pranešimais.   
+    - [Darbo eigose yra verslo įvykių](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/business-events/business-events-workflow), kuriuos klientas gali naudoti norėdamas suaktyvinti srautus su ieškomais pranešimais.   
 
-Apibendrinant, jei vartotojas negauna tinkamo pranešimo iš veiksmų centro, kai jam priskiriamas darbo eigos darbo elementas, naudokite [darbo eigos verslo įvykius](../../dev-itpro/business-events/business-events-workflow.md) programoje „Microsoft Power Automate, kad pateiktumėte papildomų arba kitokių pranešimų.
+Apibendrinant, jei vartotojas negauna tinkamo pranešimo iš veiksmų centro, kai jam priskiriamas darbo eigos darbo elementas, naudokite [Darbo eigos verslo įvykiai](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/business-events/business-events-workflow) programoje „Microsoft Power Automate“, kad pateiktumėte papildomų arba kitokių pranešimų.
 
 ## <a name="why-is-workflow-editor-not-able-to-start-under-ad-fs"></a>Kodėl nepavyksta paleisti darbo eigos rengyklės, naudojant AD FS?
 Kai darbo eigos rengyklė veikia naudojant „Active Directory“ susiejimo tarnybą (AD FS) atnaujintoje aplinkoje, gali nepavykti paleisti rengyklę. Šiuo atveju įsitikinkite, kad URL "https://dynamicsaxworkfloweditor/" įtrauktas į ypatybę **„Microsoft Dynamics 365 for Operations“ (vietinė) - Darbo eiga - Vietinė programa** ADFS parametruose.
@@ -60,6 +59,3 @@ Puslapyje **Darbo eigos parametrai** esančio lauko **Darbo eigos elementų skai
 
 ## <a name="what-is-the-workflow-enhanced-error-feature"></a>Kas yra patobulinta darbo eigos klaidos funkcija?
 Darbo eigos patobulinta klaidos funkcija, esanti versijoje 10.0.13, įtraukia klaidų kodus, kad būtų galima atskirti skirtingas darbo eigos klaidų klases. Klaidos pranešimai, apie kuriuos pranešama, dažniausiai bus panašūs su nedideliais skirtumais, kad jie būtų aiškesni.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

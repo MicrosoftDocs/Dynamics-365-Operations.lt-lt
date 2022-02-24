@@ -2,9 +2,11 @@
 title: Storno apskaita
 description: Storno apskaita yra neigiamų skaičių naudojimo praktika, norint pakeisti pradinius žurnalo sąskaitos įrašus.
 author: ShylaThompson
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -13,12 +15,12 @@ ms.search.region: Czech Republic, Germany, Hungary, Latvia, Lithuania, Poland, R
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6c8bea5d5ec8069e78f3ed5e7d1d6a74ee28ce2dea1891ad71e410d4c309a79c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: MT
+ms.openlocfilehash: 9ee59d879a0500b5addfd9540f35cd818d7126c5
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6764214"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4968323"
 ---
 # <a name="storno-accounting"></a>Storno apskaita
 
@@ -119,7 +121,7 @@ Dalinis Storno gali sukelti problemą pradinėje spausdinimo formoje. Jei esama 
 <tbody>
 <tr class="row-2">
 <td class="column-1"> Debetas</td>
-<td class="column-2">Ne</td>
+<td class="column-2">Nr.</td>
 <td class="column-3">&gt;0</td>
 <td class="column-4" align="right">Suma</td>
 <td class="column-5" align="right">Suma</td>
@@ -129,7 +131,7 @@ Dalinis Storno gali sukelti problemą pradinėje spausdinimo formoje. Jei esama 
 </tr>
 <tr class="row-3">
 <td class="column-1"> Kreditas</td>
-<td class="column-2">Ne</td>
+<td class="column-2">Nr.</td>
 <td class="column-3">&lt;0</td>
 <td class="column-4" align="right">–Suma</td>
 <td class="column-5" align="right">Suma</td>
@@ -162,11 +164,8 @@ Dalinis Storno gali sukelti problemą pradinėje spausdinimo formoje. Jei esama 
 
 Storno rodinį formose, tinkleliuose, stulpeliuose ir laukuose galite tinkinti. Pavyzdžiui, galite išjungti rodymą ar keisti išplėtimą neigiamoms sumoms. Taip pat, galite naudoti **Koregavimo** laukelį visiems rodomams nustatymams, jei **Koregavimo** laukelis turi „Taip“, kai tai yra „Storno“ įrašas.
 
-![Žurnalo įrašo Storno sumos.](./media/journal-storno.png)
+![Žurnalo įrašo Storno sumos](./media/journal-storno.png)
 
 ## <a name="how-documents-create-storno"></a>Kaip dokumentai kuria Storno
 Kai kurie dokumentai sukuria atšaukimo transakcijas. Pvz., DK, mokėtinų sumų ir gautinų sumų dokumentų užsienio valiutos kurso pasikeitimo operacija atšaukia negautą pelną ir nuostolį. Norėdami gauti daugiau informacijos, žr. [Užsienio valiutos kurso pasikeitimas modulyje Didžioji knyga](../general-ledger/foreign-currency-revaluation-general-ledger.md) arba [Užsienio valiutos kurso pasikeitimas moduliuose Mokėtinos sumos ir Gautinos sumos](../cash-bank-management/foreign-currency-revaluation-accounts-payable-accounts-receivable.md). Po atšaukimo transakcijos sukūrimo, naujos transakcijos bus sukurtos su nesuprastais padidėjimais ar praradimais. Transakcijų atšaukimai taip pat kuriami inventoriui. Dėl daugiau informacijos, žr. [Inventoriaus uždarymas](../../supply-chain/cost-management/inventory-close.md). Tam tikri dokumentai suteikia galimybę atšaukti anksčiau užregistruotą dokumentą. Pavyzdžiui, vartotojas gali sukurti kredito pažymą, norėdamas atšaukti anksčiau sukurtą SF. Dokumentai naudoti konkrečius parametrus, kad sukurtų atvirkštines ir „Storno“ transakcijas. Pavyzdžiui, užsienio valiutos pervertinimas sukuria atvirkštines ir „Storno“ transakcijas pagal bendrą buhalterinės knygos korekcijos parametrą. Kliento kredito pažyma sukuria atvirkštines arba Storno operacijas pagal gautinų sumų kredito pažymos koregavimo parametrą.
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

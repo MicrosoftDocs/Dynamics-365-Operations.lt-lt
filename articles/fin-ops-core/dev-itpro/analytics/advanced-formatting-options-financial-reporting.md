@@ -1,10 +1,12 @@
 ---
 title: Išplėstinės finansinių ataskaitų formatavimo parinktys
-description: Šioje temoje aprašomos išplėstinės formatavimo funkcijos, įskaitant filtrus, apribojimus, nespausdinimo eilutes ir sąlyginius sakinius skaičiavimuose.
-author: panolte
+description: Kai finansinėse ataskaitose sukuriate ataskaitą, galima naudoti papildomas formatavimo funkcijas, įskaitant dimensijų filtrus, stulpelių ir ataskaitų vienetų apribojimų, nespausdinamas eilutes ir IF / THEN / ELSE sakinius skaičiavimuose.
+author: ryansandness
+manager: AnnBe
 ms.date: 04/26/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: e15869fdd598aeec7ef616f6d54593c7551cb906ab53763a64f4202473bcd926
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3508099dfa3c6671da8dddc9061f737a97e825ce
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6760131"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4683168"
 ---
 # <a name="advanced-formatting-options-in-financial-reporting"></a>Išplėstinės finansinių ataskaitų formatavimo parinktys
 
@@ -281,10 +283,10 @@ Norėdami taikyti skaičiavimą vienam ataskaitų medžio ataskaitiniam vienetui
 > [!NOTE]
 > Norint naudoti šią funkciją, ataskaitų medis turi būti susietas su eilutės aprašu.
 
-Skaičiavimo eilutė gali nurodyti skaičiavimo eilutę arba finansinių duomenų eilutę. Skaičiavimas įrašomas eilutės aprašo langelyje **Susijusios formulės / eilutės / vienetai** ir finansinių duomenų tipo apribojime. Skaičiuojant būtina naudoti sąlyginį skaičiavimą, pradedamą konstrukcija **IF \@vienetas**. Štai pavyzdys: IF @Vienetas(PARDAVIMAS) THEN @100 ELSE 0 Šiame skaičiavime naudojama suma iš kiekvieno ataskaitos stulpelio 100 eilutės, bet tik PARDAVIMO vieneto. Jei keli vienetai yra pavadinti PARDAVIMAS, suma rodoma kiekviename iš šių vienetų. Be to, 100 eilutė gali būti finansinių duomenų eilutė ir gali būti apibrėžta kaip nespausdinama. Tokiu atveju sumos neleidžiama rodyti visuose medžio vienetuose. Taip pat galite nustatyti, kad suma būtų rodoma viename ataskaitos stulpelyje, pavyzdžiui, H stulpelyje, naudodami stulpelio apribojimą, kad reikšmė būtų spausdinama tik tame ataskaitos stulpelyje. Galite įtraukti į **IF** sakinį **OR** kombinacijų. Pavyzdys: **IF @Unit(SALES) ARBA @Unit(SALESWEST) THEN 5 ELSE @100**. Skaičiavimo tipo apribojime vienetą galima nurodyti vienu iš toliau nurodytų būdų.
+Skaičiavimo eilutė gali nurodyti skaičiavimo eilutę arba finansinių duomenų eilutę. Skaičiavimas įrašomas eilutės aprašo langelyje **Susijusios formulės / eilutės / vienetai** ir finansinių duomenų tipo apribojime. Skaičiuojant būtina naudoti sąlyginį skaičiavimą, pradedamą konstrukcija **IF @Vienetas**. Štai pavyzdys: IF @Vienetas(PARDAVIMAS) THEN @100 ELSE 0 Šiame skaičiavime naudojama suma iš kiekvieno ataskaitos stulpelio 100 eilutės, bet tik PARDAVIMO vieneto. Jei keli vienetai yra pavadinti PARDAVIMAS, suma rodoma kiekviename iš šių vienetų. Be to, 100 eilutė gali būti finansinių duomenų eilutė ir gali būti apibrėžta kaip nespausdinama. Tokiu atveju sumos neleidžiama rodyti visuose medžio vienetuose. Taip pat galite nustatyti, kad suma būtų rodoma viename ataskaitos stulpelyje, pavyzdžiui, H stulpelyje, naudodami stulpelio apribojimą, kad reikšmė būtų spausdinama tik tame ataskaitos stulpelyje. Galite įtraukti į **IF** sakinį **OR** kombinacijų. Toliau pateikiamas pavyzdys: jei @Vienetas(PARDAVIMAS) arba @Vienetas(PARDAVIMASVAKARŲ) tada 5 ELSE @100 galite nurodyti vienetą skaičiavimo tipo apribojimo vienu iš šių būdų:
 
-- Įveskite vieneto pavadinimą, kad būtų įtraukti atitinkantys vienetai. Pavyzdžiui, **IF \@Unit(SALES)** leidžia atlikti kiekvieno vieneto, pavadinto SALES, skaičiavimus, net jei ataskaitų medyje yra keli SALES vienetai.
-- Įveskite įmonės ir vieneto pavadinimą, kad skaičiavimas būtų taikomas tik konkretiems konkrečios įmonės vienetams. Pavyzdžiui, įveskite **IF @Unit (ACME:SALES)**, kad skaičiavimas būtų taikomas įmonės ACME SALES vienetams.
+- Įveskite vieneto pavadinimą, kad būtų įtraukti atitinkantys vienetai. Pavyzdžiui, **IF @Vienetas(PARDAVIMAS)** leidžia atlikti kiekvieno vieneto, pavadinto PARDAVIMAS, skaičiavimus, net jei ataskaitų medyje yra keli PARDAVIMO vienetai.
+- Įveskite įmonės ir vieneto pavadinimą, kad skaičiavimas būtų taikomas tik konkretiems konkrečios įmonės vienetams. Pavyzdžiui, įveskite **IF @Vienetas(ACME:PARDAVIMAS**), kad skaičiavimas būtų taikomas įmonės ACME PARDAVIMO vienetams.
 - Įveskite visą hierarchijos kodą iš ataskaitų medžio, kad skaičiavimas būtų taikomas konkrečiam vienetui. Pavyzdžiui, įveskite **IF @Unit(SUMMARY^ACME^WEST COAST^SALES)**.
 
 > [!NOTE]
@@ -294,7 +296,7 @@ Skaičiavimo eilutė gali nurodyti skaičiavimo eilutę arba finansinių duomen�
 
 1. Naudodami ataskaitų dizaino įrankį spustelėkite **Eilučių aprašai**, tada atidarykite norimą modifikuoti eilučių aprašą.
 2. Dukart spustelėkite langelį **Formato kodas** ir tada pasirinkite **KPL**.
-3. Spustelėkite langelį **Susijusios formulės / eilutės / vienetai** ir tada įveskite sąlyginį skaičiavimą, pradedamą konstrukcija **IF \@vienetas**.
+3. Spustelėkite langelį **Susijusios formulės / eilutės / vienetai** ir tada įveskite sąlyginį skaičiavimą, pradedamą konstrukcija **IF @Vienetas**.
 
 ### <a name="ifthenelse-statements-in-a-column-definition"></a>IF / THEN / ELSE sakiniai stulpelio apraše
 
@@ -308,5 +310,3 @@ Skaičiavimo eilutė gali nurodyti skaičiavimo eilutę arba finansinių duomen�
 Galite kurti ataskaitas naudodami dimensijų vertes, kuriose yra ampersando (&) simbolis.
 
 Bet kuriame lauke **Saitas su finansine dimensija** galite įvesti vertę, pvz., **'P&L'**. Viengubos kabutės ('') abiejose dimensijos vertės pusėse nurodo, kad naudojate tiesioginę vertę, pvz., įskaitant (&) ampersendo simbolį.
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

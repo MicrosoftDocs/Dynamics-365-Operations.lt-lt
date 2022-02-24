@@ -2,9 +2,11 @@
 title: Suplanuotas prekių skirstymas
 description: Šioje temoje aprašoma Išplėstinis suplanuoto prekių skirstymas, kai atsargų kiekis, reikalingas užsakymui yra nukreipiamas tiesiai iš gavimo arba sukuriama į teisinga pakrovimo rampa arba išdėstymo sritis. Visos likusios atsargos iš gavimo šaltinių yra nukreipiamos į teisingą saugojimo vietą naudojant įprastą padėjimo procesą.
 author: Mirzaab
+manager: tfehr
 ms.date: 07/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSCrossDockingTemplate, WHSLoadPostMethod, WHSWorkClass, WHSWorkTemplateTable, WHSLocDirTable, WHSPlannedCrossDocking
 audience: Application User
@@ -12,13 +14,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
-ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: c28639a4a575f5f356bf947ba8e0aee6bcd256b4
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.7
+ms.openlocfilehash: fb598b3ac7dd72e8c500f0c2eaf07462009c67f7
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7573038"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4970311"
 ---
 # <a name="planned-cross-docking"></a>Suplanuotas prekių skirstymas
 
@@ -26,23 +28,21 @@ ms.locfileid: "7573038"
 
 Šioje temoje aprašomas išplėstini suplanuotas prekių skirstymą. Išplėstinis suplanuoto prekių skirstymas yra sandėlio procesas, kai atsargų kiekis, reikalingas užsakymui yra nukreipiamas tiesiai iš gavimo arba sukuriama į teisinga pakrovimo rampa arba išdėstymo sritis. Visos likusios atsargos iš gavimo šaltinių yra nukreipiamos į teisingą saugojimo vietą naudojant įprastą padėjimo procesą.
 
-Suplanuoto prekių skirstymo darbuotojai gali praleisti gaunamų atsargų padėjimus ir siunčiamų prekių paėmimus, jau pažymėti siunčiamam užsakymui. Todėl atsargų paėmimo kartai yra sumažinti, jei įmanoma. Taip pat dėl mažesnės sąveikos su sistema, laiko ir vietos taupymas sandėlio darbo aukšte yra padidinami.
+Suplanuoto prekių skirstymo darbuotojai gali praleisti gaunamų atsargų padėjimus ir siunčiamų prekių paėmimus, jau pažymėti siunčiamam užsakymui. Todėl kartai, kuomet atsargos yra paimamos yra minimalizuoti, jei įmanoma. Taip pat dėl mažesnės sąveikos su sistema, laiko ir vietos taupymas sandėlio darbo aukšte yra padidinami.
 
-Norėdami vykdyti prekių skirstymą, turite sukonfigūruoti naują prekių skirstymo šabloną, kuriame nurodytas tiekimo šaltinis ir kiti prekių skirstymo reikalavimų rinkiniai. Kadangi siuntimo užsakymas sukuriamas, eilutė turi būti pažymėta pagal gavimo užsakymą, kuriame yra ta prekė. Nurodymo kodą galite pasirinkti prekių skirstymo šablone, panašiai kaip nustatote papildymo ir pirkimo užsakymus.
+Prieš paleidžiant suplanuotą prekių skirstymą, vartotojas turi konfigūruoti naują prekių skirstymo šabloną, kur nurodytas tiekimo šaltinis ir kiti prekių skirstymo reikalavimai. Kadangi siuntimo užsakymas sukuriamas, eilutė turi būti pažymėta pagal gavimo užsakymą, kuriame yra ta prekė.
 
 Gaunamo užsakymo gavimo metu, prekių skirstymo nustatymas automatiškai identifikuoja prekių skirstymo poreikius ir sukuria reikiamo kiekio perkėlimo darbą, pagrįstą vietos nurodymo nustatymu.
 
 > [!NOTE]
-> Atsargų operacijos yra *ne* registruojamos atšaukus prekių skirstymo darbą, net jei šios galimybės nustatymas yra įjungtas sandėlio valdymo parametruose.
+> Atsargų operacijos yra **ne** registruojamos atšaukus prekių skirstymo darbą, net jei šios galimybės nustatymas yra įjungtas sandėlio valdymo parametruose.
 
-## <a name="turn-on-the-planned-cross-docking-features"></a>Įjungti suplanuoto prekių skirstymo funkcijas
+## <a name="turn-on-the-planned-cross-docking-feature"></a>Įjungti suplanuoto prekių skirstymo funkciją
 
-Jei jūsų sistemoje dar nėra funkcijų, aprašytų šioje temoje, eikite į [Funkcijų valdymas](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) ir toliau pateikiama tvarka įjunkite šias funkcijas:
+Norėdami naudoti išplėstinę prekių skirstymo funkciją, įjunkite ją savo sistemoje. Administratoriai gali naudoti [Funkcijos valdymas](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) darbo sritį, norėdami sužinoti funkcijos būseną ir įjungti ją, jei reikia. Ten ši funkcija pateikiama taip:
 
-1. *Suplanuotas prekių skirstymas*
-1. *Prekių skirstymo šablonai su vietovės nurodymais*
-    > [!NOTE]
-    > Ši funkcija įgalina prekių skirstymo šablone nurodyti lauką **Nurodymo kodas**, panašiai kaip nustatote papildymo šablonus. Šios funkcijos įgalinimas neleidžia jums įtraukti nurodymo kodo į prekių skirstymo šablono eilutes, paskutinei *Įdėti* eilutei. Taip užtikrinama, kad prieš atsižvelgiant į darbo šablonus, galutinė įdėjimo vieta gali būti nustatyta darbo kūrimo metu.
+- **Modulis:** *sandėlio valdymas*
+- **Funkcijos pavadinimas:** *Suplanuotas prekių skirstymas*
 
 ## <a name="setup"></a>Sąranka
 
@@ -90,10 +90,6 @@ Suplanuotas prekių skirstymas yra įgyvendinamas kaip krovinio registravimo met
 
         Ši pasirinktis nurodo, ar turi būti iš naujo patikrinta pasiūla gavimo metu. Jei ši pasirinktis nustatyta kaip *Taip,* tikrinamas ir maksimalus laiko langą, ir galiojimo dienų intervalas.
 
-    - **Nurodymo kodas:** Palikite šį lauką tuščią
-
-        Šią parinktį įgalina funkcija *Prekių skirstymo šablonai su vietos nurodymais*. Sistema naudoja vietos nurodymus, kad padėtų nustatyti geriausią vietą, į kurią bus perkeliamos prekių skirstymo atsargos. Galite ją nustatyti, priskirdami nurodymo kodą kiekvienam susijusiam prekių skirstymo šablonui. Jei nurodymo kodas yra nustatytas, sistema ieškos vietos nurodymų pagal nurodymo kodą, kai darbas bus sugeneruotas. Tokiu būdu galite apriboti vietos nurodymus, naudojamus konkrečiam prekių skirstymo šablonui.
-
     - **Patikrinti laiko langą:** *Taip*
 
         Ši pasirinktis nurodo, ar maksimalaus laiko langas turi būti įvertintas, kai pasirinktas tiekimo šaltinis. Jei ši pasirinktis nustatyta kaip *Taip*, laukai, susiję su maksimalaus ir minimalaus laiko langais, bus prieinami.
@@ -108,17 +104,14 @@ Suplanuotas prekių skirstymas yra įgyvendinamas kaip krovinio registravimo met
         Šis laukas apibrėžia minimalų leidžiamą laikotarpį tarp tiekiamų prekių atvykimo ir reikiamų prekių išvykimo.
 
     - **Minimalaus laiko lango vienetas:** *Dienos*
-    - **Galiojimo dienų diapazonas:** *0*
+    - **Galiojimo dienų diapazpnas:** *0*
 
         *„Pirmas baigia galioti, pirmas išeina“ (FEFO) kriterijus:* Šis laukas apibrėžia maksimalų galiojimo datos pirmojo termino pabaigos skaičių tarp paketo, kuris yra sandėlyje ir šiuo metu gaunamo paketo.
 
 1. „FastTab“ skirtuke **Tiekimo šaltiniai** turite nurodyti tiekimo tipus, kurie galioja šiam šablonui. Pasirinkite **Nauja** ir tada nustatykite šias reikšmes:
 
-    - **SEekos numeris:** *1*
+    - **Sekos numeris:** *1*
     - **Tiekimo šaltinis:** *Pirkimo užsakymas*
-
-> [!NOTE]
-> Galite nustatyti užklausą, norėdami kontroliuoti, kada konkretus prekių skirstymo šablonas naudojamas. Prekių skirstymo šablonų užklausa turi tik *InventTable* (prekių) lentelę ir vidinę sujungtą *WHSInventTable* (WHS prekių) lentelę. Jei į užklausą norite įtraukti kitas lenteles, galite jas sujungti tik naudodami *esamos jungtys* arba *nesamos jungtys*. Kai filtruojate sujungtas lenteles, kiekvienam prijungtos lentelės įrašui nuskaitomas kiekvienos prijungtos lentelės įrašas. Jei yra sujungimo tipas yra *esamos jungtys*, ieška baigiasi po to, kai buvo rastas pirmas sugretinimas. Pavyzdžiui, jei prijungiate pardavimo užsakymo eilučių lentelę prie prekių lentelės, sistema patikrina ir grąžina prekes, kurių bent viena pardavimo užsakymo eilutė turi nustatytą sąlygą. Iš esmės, duomenys surenkami iš pirminės (prekių) lentelės, o ne iš antrinės (pardavimo užsakymo eilutės) lentelės. Todėl šiame langelyje negalima filtruoti pagal šaltinio dokumentus, pvz., pardavimo užsakymo eilutes arba klientus.
 
 ### <a name="create-a-work-class"></a>Darbo klasės kūrimas
 
@@ -154,9 +147,6 @@ Suplanuotas prekių skirstymas yra įgyvendinamas kaip krovinio registravimo met
     - **Darbo klasės ID:** *Prekių skirstymas*
 
 1. Pasirinkite **Įrašyti** ir patvirtinkite, kad pasirinktas žymės langelis **Galiojantis** žymės langelis *51 prekių skirstymo* šablonui.
-1. Pasirinktinai: pasirinkite **Redaguoti užklausą**, jei norite nustatyti kriterijus, pagal kuriuos būtų kontroliuojama, kada ir kur naudojamas darbo šablonas.
-
-    Galite nustatyti užklausą, norėdami kontroliuoti, kada konkretus darbo šablonas naudojamas. Pavyzdžiui, galite nurodyti, kad šablonas gali būti naudojamas tik tam tikroje vietoje. Jei norite, kad prekių skirstymo darbo šablonas būtų taikomas tam tikroje vietoje, turite filtruoti **Pradžios vieta** laukelį , o ne **Vieta** laukelį, nes gaunamų užklausų proceso darbo kūrimas (pirkimas, prekių skirstymas ir papildymas) pradedamas nuo padėjimo eilutės. Kai sukuriamas darbas, vietos įvertinimas nustato **Vietos** laukelį kaip padėjimo vietą. Tačiau paėmimo vieta saugoma **Pradžios vietos** laukelyje.
 
 > [!NOTE]
 > Darbo klasės ir darbų tipų *Paėmimas* ir *Padėjimas* ID turi sutapti.
@@ -187,7 +177,7 @@ Suplanuotas prekių skirstymas yra įgyvendinamas kaip krovinio registravimo met
     - **Pavadinimas:** *Baydoor*
     - **Fiksuotos vietos naudojimas:** *Fiksuotos ir nefiksuotos vietos*
 
-1. Pasirinkite **Įrašyti,** jei norite, kad atsirastų **Redaguoti užklausą** mygtukas **Vietos nurodymo veiksmų** įrankių juostoje.
+1. Pasirinkite **Įrašyti,** jei norite, kad atsirastų **Redaguoti užklausą** mygtukas **Vietos nurdymo veiksmų** įrankių juostoje.
 1. Norėdami atidaryti užklausų rengyklę, pasirinkite **Redaguoti užklausą**.
 1. Skirtuke **Diapazonas** įsitikinkite, kad sukonfigūruotos šios dvi eilutės:
 
@@ -324,7 +314,4 @@ Antroji sukurta darbo ID yra **Darbo užsakymo tipo** *Pirkimo užsakymas* reik�
 
 Toliau pateiktoje iliustracijoje rodoma, kaip atliktas prekių skirstymas gali atrodyti „Microsoft Dynamics 365 Supply Chain Management“.
 
-![Atliktas prekių skirstymas.](media/PlannedCrossDockingWork.png "Atliktas prekių skirstymas")
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+![Atliktas prekių skirstymas](media/PlannedCrossDockingWork.png "Atliktas prekių skirstymas")

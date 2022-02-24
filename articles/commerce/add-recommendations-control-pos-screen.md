@@ -2,13 +2,16 @@
 title: Rekomendacijų įtraukimas į operacijų ekraną
 description: Šioje temoje paaiškinama, kaip rekomendacijų valdiklį įtraukti į elektroninio kasos aparato (EKA) įrenginio operacijų ekraną naudojant ekrano maketo dizaino įrankį programoje „Microsoft Dynamics 365 Commerce“.
 author: bebeale
+manager: AnnBe
 ms.date: 05/26/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailStoreTable, RetailTillLayout
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: 260624
 ms.assetid: a4f9d315-9951-451c-8ee6-37f9b3b15ef0
 ms.search.region: global
@@ -16,12 +19,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: af76169455cef16467b1faa9eda92a969aa923e85750cf245b0a6bd071a092e8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: af2450b27106325a86f6db68f9791637694cda63
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6731012"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4414231"
 ---
 # <a name="add-recommendations-to-the-transaction-screen"></a>Rekomendacijų įtraukimas į operacijų ekraną
 
@@ -43,7 +46,7 @@ Naudodami „Commerce“ galite rodyti produktų rekomendacijas savo EKA įrengi
 6. Prisijungus bus parodytas puslapis, panašus į toliau pateiktą puslapį. Maketas skirsis, atsižvelgiant į jūsų parduotuvėje atliktus tinkinimus.
 
 
-    [![Maketo dizaineris.](./media/screenlayout-pic-1.png)](./media/screenlayout-pic-1.png)
+    [![Maketo dizaineris](./media/screenlayout-pic-1.png)](./media/screenlayout-pic-1.png)
 
 ## <a name="choose-a-display-option"></a>Pasirinkite rodomą parinktį
 
@@ -58,11 +61,11 @@ Galima pasirinkti iš dviejų konfigūracijų parinkčių. Pasirinkite geriausia
 1. Sumažinkite operacijų eilučių informacijos srities aukštį, kad ji būtų tokio paties aukščio kaip jos kairėje esanti kliento sritis.
 
 
-    [![Sumažintas operacijų eilučių informacijos srities aukštis.](./media/screenlayout-pic-2.png)](./media/screenlayout-pic-2.png)
+    [![Sumažintas operacijų eilučių informacijos srities aukštis](./media/screenlayout-pic-2.png)](./media/screenlayout-pic-2.png)
 
 2. Iš kairiojo meniu rekomendacijų valdiklį nuvilkite tarp operacijų eilučių informacijos srities ir mygtukyno į operacijų ekrano apatinėje dalyje, centre. Keiskite valdiklio dydį, kad jis tilptų toje erdvėje.
 
-    [![Rekomendacijų valdiklis įtrauktas į maketą.](./media/screenlayout-pic-3.png)](./media/screenlayout-pic-3.png)
+    [![Rekomendacijų valdiklis įtrauktas į maketą](./media/screenlayout-pic-3.png)](./media/screenlayout-pic-3.png)
 
 
 3. Norėdami įrašyti ir uždaryti maketo dizaino įrankį, spustelėkite **X**.
@@ -77,13 +80,13 @@ Galima pasirinkti iš dviejų konfigūracijų parinkčių. Pasirinkite geriausia
 
 2. Spustelėkite **Pritaikyti**.
 
-    [![Tinkinimas – dialogo langas Skirtukų valdymas.](./media/pic-5.png)](./media/pic-5.png)
+    [![Tinkinimas – dialogo langas Skirtukų valdymas](./media/pic-5.png)](./media/pic-5.png)
 
 3. Spustelėkite **Naujas skirtukas**.
 4. Raskite naują skirtuką, kurį ką tik įtraukėte. Gali reikėti slinkti žemyn.
 5. Išplečiamajame sąraše **Turinys** pasirinkite **Rekomenduojami produktai**.
 
-    [![Parinkties Rekomenduojami produktai pasirinkimas lauke Turinys.](./media/pic-6.png)](./media/pic-6.png)
+    [![Parinkties Rekomenduojami produktai pasirinkimas lauke Turinys](./media/pic-6.png)](./media/pic-6.png)
 
 6. Lauke **Žyma** įveskite rekomendacijų skirtuko pavadinimą. Pavyzdžiui, įveskite „Rekomenduojami produktai“.
 7. Lauke **Vaizdas** pasirinkite vaizdą, kuris bus rodomas skirtuke.
@@ -116,6 +119,3 @@ Galima pasirinkti iš dviejų konfigūracijų parinkčių. Pasirinkite geriausia
 [Rekomendacijų su demonstraciniais duomenimis kūrimas](product-recommendations-demo-data.md)
 
 [DUK apie produktų rekomendacijas](faq-recommendations.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

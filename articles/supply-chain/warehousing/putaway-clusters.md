@@ -2,22 +2,25 @@
 title: Atidėjimo klasteriai
 description: Atidėjimo klasteriai siūlo būda paimti keletą licencijos lentelių tuo pačiu metu ir tada paimti jas atidėjimui skirtingose vietose. Jos gali būti labai naudingos mažmenos verslui, kai licencijos lentelės dažniausiai nėra pilni inventoriaus padėklai.
 author: Mirzaab
+manager: tfehr
 ms.date: 10/19/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-10-19
-ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: c3496d43fa3791f765abfb1eb25c45f1f21b972f
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.7
+ms.openlocfilehash: 6a330ddccbd17c92443232fc8488e36a59235773
+ms.sourcegitcommit: cfd84321fba38e02e270d361df369a536a48efa3
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7573014"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "4512335"
 ---
 # <a name="putaway-clusters"></a>Atidėjimo klasteriai
 
@@ -115,7 +118,7 @@ Atidėjimo klasterio profilis nustato, ar prekė eis pagrindžiant vieta, kuri y
 
 ### <a name="mobile-device-menu-items"></a>Mobiliojo įrenginio meniu elementai
 
-Du nauji mobiliojo įrenginio meniu prekės yra prieinamos šiai funkcijai. **Gauti ir rūšiuoti klasterį** meniu prekė yra naudojama siekiant rūšiuoti gautą inventorių į atidėjimo klasterį po gavimo. **Klasterio atidėjimo** meniu prekė yra naudojama norint atidėti klasterį po jo priskyrimo.
+Du nauji mobiliojo įrenginio meniu prekės yra prieinamos šiai funkcijai. **Gauti ir rūšiuoti klasterį** meniu prekė yra naudojama siekiant rūšiuoti gautą inventorių į atidėjimo klasterį po gavimo. **Klasterio atidėjimo** meniu prekė yra naudojama norint atidėti klasterį po jo priskyrimo. 
 
 #### <a name="receive-and-sort-cluster"></a>Gauti ir rūšiuoti klasterį
 
@@ -228,7 +231,7 @@ Sukurkite naują mobiliojo įrenginio meniu prekę klasterio atidėjimui po jo p
 
 #### <a name="receive-and-sort-the-inventory-into-a-cluster"></a>Gaukite ir rūšiuokite inventorių į klasterį
 
-1. Prisijunkite prie sandėlio valdymo mobiliųjų įrenginių programėlės kaip vartotojas, nustatytas *61 sandėliui*.
+1. Prisijunkite prie sandėlio programos kaip vartotojas, kuris nustatė sandėliui *61*.
 1. Pagrindiniame meniu pasirinkite **Įvestis**.
 1. Meniu **Įvestis** rinkitės **Gauti ir rūšiuoti klasterį**.
 1. Laukelyje **Ponum** įveskite pirkimo užsakymo numerį.
@@ -270,7 +273,7 @@ Prieš tai, kai prekės klasteryje gali būti atidėtos, klasterį reikia užver
 
 #### <a name="put-the-cluster-away"></a>Klasterio atidėjimas
 
-1. Prisijunkite prie sandėlio valdymo mobiliųjų įrenginių programėlės kaip vartotojas, nustatytas *61 sandėliui*.
+1. Prisijunkite prie sandėlio programos kaip vartotojas, kuris nustatė sandėliui *61*.
 1. Pagrindiniame meniu pasirinkite **Įvestis**.
 1. Meniu **įvestis** rinkitės **Klasterio atidėjimas**.
 1. Rinkitės **Klasterio ID** ir įveskite klasterio ID, kurį įvedėte anksčiau užvertam klasteriui.
@@ -284,7 +287,7 @@ Prieš tai, kai prekės klasteryje gali būti atidėtos, klasterį reikia užver
 
     Turite standartines parinktis, kurios viršys arba praleis šį žingsnį.
 
-    ![Klasterio atidėjimas: Padėjimo puslapis.](media/Cluster_putaway-Put.png "Klasterio atidėjimas: Padėjimo puslapis")
+    ![Klasterio atidėjimas: Padėjimo puslapis](media/Cluster_putaway-Put.png "Klasterio atidėjimas: Padėjimo puslapis")
 
 1. Rinkitės **GERAI**, kad patvirtintumėte klasterio atidėjimą.
 
@@ -293,6 +296,3 @@ Prieš tai, kai prekės klasteryje gali būti atidėtos, klasterį reikia užver
 ## <a name="notes-and-tips"></a>Pastabos ir patarimai
 
 Dėl atvejų, kai klasterio ID tampa valdančia licencijos plokštele pakrautam padėklui, padėjimo padėtis automatiškai suteikiama, kai nuskaitomas atitinkamas klasterio ID. Negalima nuskaityti jokios tolesnės licencijos plokštelės, net jei licencijos plokštelės sukūrimas nustatytas į rankinį.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

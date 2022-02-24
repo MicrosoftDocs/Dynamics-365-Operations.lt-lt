@@ -2,9 +2,11 @@
 title: Paskyrų tvarkymo puslapių apžvalga
 description: Šioje temoje pateikiama „Microsoft Dynamics 365 Commerce“ paskyros valdymo puslapių apžvalga.
 author: anupamar-ms
+manager: annbe
 ms.date: 09/15/2020
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -14,18 +16,20 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: b21ae257ce84034f05fa22a93a2c622ee14c0a2b
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
-ms.translationtype: MT
+ms.openlocfilehash: e194004476545fb142f71aa4bd889dbbc70c6ed4
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984524"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969856"
 ---
-# <a name="account-management-pages-overview"></a>Sąskaitos valdymo puslapių apžvalga
+# <a name="account-management-pages-overview"></a>Paskyrų tvarkymo puslapių apžvalga
 
 [!include [banner](includes/banner.md)]
 
 Šioje temoje pateikiama „Microsoft Dynamics 365 Commerce“ paskyros valdymo puslapių apžvalga.
+
+## <a name="overview"></a>Peržiūrėti
 
 Paskyros valdymo puslapiuose klientas gali peržiūrėti informaciją, susijusią su savo paskyra ir užsakymais. Paskyros valdymo puslapiuose yra paskyros valdymo nukreipimo puslapis ir vartotojo profilio, adresų, užsakymų retrospektyvos, užsakymo išsamios informacijos, lojalumo taškų ir norų sąrašo puslapiai.
 
@@ -35,7 +39,7 @@ Kai klientas prisijungia ir pasirenka **Mano paskyra**, atidaromas paskyros vald
 
 Toliau pateikiamoje iliustracijoje rodomas paskyros valdymo nukreipimo puslapio pavyzdys.
 
-![Paskyros valdymo nukreipimo puslapio pavyzdys.](./media/Account-Management.PNG)
+![Paskyros valdymo nukreipimo puslapio pavyzdys](./media/Account-Management.PNG)
 
 ### <a name="my-profile-page"></a>Mano šablono puslapis
 
@@ -43,27 +47,27 @@ Puslapyje **Mano profilis** pateikiama kliento paskyros informacija, pvz., jo va
 
 Toliau pateiktame paveikslėlyje parodytas puslapio **Mano profilis** pavyzdys, kuris buvo sukurtas naudojant modulių biblioteką.
 
-![Puslapio Mano profilis pavyzdys.](./media/Account-Management-MyProfile.PNG)
+![Puslapio Mano profilis pavyzdys](./media/Account-Management-MyProfile.PNG)
 
 ### <a name="addresses-page"></a>Adresų puslapis
 
-Puslapyje **Adresai** klientai gali pridėti adresus į jų paskyrą. Jame taip pat pateikiamas adresų, kuriuos klientas anksčiau įtraukė arba įrašė į paskyrą, sąrašas. Šie adresai yra adresai, kuriuos klientas įvedė šiame puslapyje arba pateikdamas užsakymą.
+Puslapyje **Adresai** klientas gali pridėti adresus į savo paskyrą. Jame taip pat pateikiamas adresų, kuriuos klientas anksčiau įtraukė arba įrašė į paskyrą, sąrašas. Šie adresai yra adresai, kuriuos klientas įvedė šiame puslapyje arba pateikdamas užsakymą.
 
 Toliau pateikiamoje iliustracijoje rodomas puslapio **Adresai** pavyzdys.
 
-![Puslapio Adresai pavyzdys.](./media/Account-Management-Address.png)
+![Puslapio Adresai pavyzdys](./media/Account-Management-Address.png)
 
 ### <a name="order-history-and-order-details-pages"></a>Puslapiai Užsakymų retrospektyva ir Užsakymo išsami informacija
 
-Puslapyje **Užsakymų retrospektyva** pateikiama visų užsakymų, kuriuos klientas pateikė naudodamas jų paskyrą, suvestinė. Jame pateikiama trumpa suvestinė užsakytų prekių, patvirtinimo numerio, pardavimo ID, sekimo informacijos ir kitos informacijos suvestinė. Jei klientas nori peržiūrėti išsamesnį kiekvieno užsakymo suskirstymą, tai gali padaryti puslapyje **Užsakymo išsami informacija**. Šiame puslapyje yra informacija, pvz., siuntimo adresas, mokėjimo informacija, informacija apie nuolaidas, mokesčius ir siuntimo išlaidas užsakymui.
+Puslapyje **Užsakymų retrospektyva** pateikiama visų užsakymų, kuriuos klientas pateikė naudodamas savo paskyrą, suvestinė. Jame pateikiama trumpa suvestinė užsakytų prekių, patvirtinimo numerio, pardavimo ID, sekimo informacijos ir kitos informacijos suvestinė. Jei klientas nori peržiūrėti išsamesnį kiekvieno užsakymo suskirstymą, tai gali padaryti puslapyje **Užsakymo išsami informacija**. Šiame puslapyje yra informacija, pvz., siuntimo adresas, mokėjimo informacija, informacija apie nuolaidas, mokesčius ir siuntimo išlaidas užsakymui.
 
 Toliau pateikiamoje iliustracijoje rodomas puslapio **Užsakymų retrospektyva** pavyzdys.
 
-![Užsakymų retrospektyvos puslapio pavyzdys.](./media/Account-Management-OrderHistory.PNG)
+![Užsakymų retrospektyvos puslapio pavyzdys](./media/Account-Management-OrderHistory.PNG)
 
 Toliau pateikiamoje iliustracijoje rodomas puslapio **Užsakymo išsami informacija** pavyzdys.
 
-![Puslapio Užsakymo išsami informacija pavyzdys.](./media/Account-Management-OrderDetails.PNG)
+![Puslapio Užsakymo išsami informacija pavyzdys](./media/Account-Management-OrderDetails.PNG)
 
 ### <a name="loyalty-program-page"></a>Lojalumo programos puslapis
 
@@ -71,7 +75,7 @@ Puslapyje **Lojalumo programa** klientas gali tapti lojalumo programos nariu. Kl
 
 Toliau pateikiamoje iliustracijoje rodomas puslapio **Lojalumo programa** pavyzdys.
 
-![Lojalumo programos puslapio pavyzdys.](./media/Account-Management-Loyalty.PNG)
+![Lojalumo programos puslapio pavyzdys](./media/Account-Management-Loyalty.PNG)
 
 ### <a name="wishlist-page"></a>Pageidavimų sąrašo puslapis
 
@@ -79,7 +83,7 @@ Puslapyje **Norų sąrašas** rodomas prekių, kurias klientas įtraukė į savo
 
 Toliau pateikiamoje iliustracijoje rodomas puslapio **Norų sąrašas** pavyzdys.
 
-![Puslapio Norų sąrašas pavyzdys.](./media/Account-Management-Wishlist.PNG)
+![Puslapio Norų sąrašas pavyzdys](./media/Account-Management-Wishlist.PNG)
 
 Norėdami gauti daugiau informacijos apie paskyrų valdymo modulius ir apie tai, kaip juos sukurti, žr. [Paskyrų valdymas](account-management.md).
 
@@ -91,6 +95,3 @@ Norėdami gauti daugiau informacijos apie paskyrų valdymo modulius ir apie tai,
 
 [Krepšelio ir pirkimo užbaigimo puslapių apžvalga](quick-tour-cart-checkout.md)
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,10 +1,12 @@
 ---
 title: Išorinio katalogo nustatymas el. įsigijimų išėjimo laikui žymėti
 description: Šioje temoje aprašoma, kaip naudojant išorinį arba išėjimo katalogą galima iš tiekėjo rinkti pasiūlymo informaciją ir ją įtraukti į paraišką.
-author: Henrikan
+author: RichardLuan
+manager: tfehr
 ms.date: 11/02/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchTable, PurchTablePart, PurchVendorPortalRequests, CatExternalCatalogConfiguration, CatCXMLCartLogList
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: 30211
 ms.assetid: 3c7e0e1c-703c-4bbf-b90c-84d29a131360
 ms.search.region: Global
-ms.author: henrikan
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9f1065c68723baa395bc06be6313e45a44661ea3
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 1f6e551f9d3d181674595e945bf1fb4c62a70ed5
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7566917"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5016382"
 ---
 # <a name="set-up-an-external-catalog-for-punchout-e-procurement"></a>Išorinio katalogo nustatymas el. įsigijimų išėjimo laikui žymėti
 
@@ -110,5 +112,3 @@ Jei pateikta produkto iš tiekėjo išorinio katalogo užklausa, tiekėjo išori
 
 - [Pirkimo „cXML“ patobulinimai](purchasing-cxml-enhancements.md)
 - [Išorinių katalogų naudojimas el. įsigijimų išėjimo laikui žymėti](use-external-catalogs-for-punchout.md)
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

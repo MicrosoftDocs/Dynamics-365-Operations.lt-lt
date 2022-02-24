@@ -1,35 +1,33 @@
 ---
 title: Registracijos tinkamumo apdorojimas
-description: Šioje temoje paaiškinama, kaip vykdyti registracijos tinkamumo apdorojimą.
-author: twheeloc
-ms.date: 08/23/2021
+description: Šiame straipsnyje paaiškinama, kaip vykdyti registracijos tinkamumo apdorojimą.
+author: andreabichsel
+manager: AnnBe
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e8997cf24bf24097e46a05acffef8b3839056c57
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
-ms.translationtype: MT
+ms.openlocfilehash: dfb7f13dce48f33c111af491918702763f7e3b8a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8067634"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4419673"
 ---
 # <a name="process-enrollment-eligibility"></a>Registracijos tinkamumo apdorojimas
 
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-Šioje temoje paaiškinama, kaip vykdyti registracijos tinkamumo apdorojimą.
+Šiame straipsnyje paaiškinama, kaip vykdyti registracijos tinkamumo apdorojimą.
 
 1. Darbo srities **Išmokų valdymas** dalyje **Apdorojimas** pasirinkite **Registracijos tinkamumo apdorojimas**.
 
@@ -56,13 +54,13 @@ ms.locfileid: "8067634"
 
 ## <a name="view-process-results"></a>Proceso rezultatų peržiūra
 
-Šioje temoje paaiškinama, kaip peržiūrėti tinkamumo proceso rezultatus.
+Šiame straipsnyje paaiškinama, kaip peržiūrėti tinkamumo proceso rezultatus.
 
 1.  Darbo srities **Išmokų valdymas** dalyje **Apdorojimas** pasirinkite **Proceso rezultatai**.
 
-2.  Puslapy **Proceso rezultatai** nurodyti toliau pateikti laukai:
+2.  Formoje **Proceso rezultatai** nurodyti toliau pateikti laukai.
 
-   | Laukas | Aprašas |
+   | Laukas | aprašymas |
    | --- | --- |
    | **Eigos ID** | Unikalus darbuotojo, juridinio subjekto ir proceso vykdymo derinio ID. |
    | **Proceso tipas** | Taip identifikuojamas procesas, kuris buvo vykdomas. Pvz.: registracija. |
@@ -74,6 +72,3 @@ ms.locfileid: "8067634"
    | **Rezultato būsena** | Ji bus Tinkama arba Netinkama. Rezultato būsena bus Netinkama, jei darbuotojas neatitinka tinkamumo taisyklės kriterijų, jei trūksta būtinos darbuotojo informacijos, pvz., mokėjimo dažnumo arba pastoviosios atlyginimo dalies, arba jei trūksta informacijos apie išmokų planą ir tai neleidžia darbuotojams būti užregistruotiems. |
    | **Rezultato pranešimas** | Nurodo, kodėl darbuotojas netinkamas išmokų planui gauti arba kad buvo išlaikyta tinkamumo taisyklė. |
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

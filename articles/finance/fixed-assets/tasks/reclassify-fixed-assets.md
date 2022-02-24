@@ -1,10 +1,12 @@
 ---
 title: Perklasifikuoti ilgalaikį turtą
-description: Šioje temoje paaiškinamas turto perklasifikavimo procesas. Norėdami perklasifikuoti ilgalaikį turtą, turite perkelti jį į naują ilgalaikio turto grupę arba toje pačioje grupėje priskirti jam naują ilgalaikio turto numerį.
-author: moaamer
+description: Norėdami perklasifikuoti ilgalaikį turtą, turite perkelti jį į naują ilgalaikio turto grupę arba toje pačioje grupėje priskirti jam naują ilgalaikio turto numerį.
+author: saraschi2
+manager: AnnBe
 ms.date: 05/14/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
@@ -12,12 +14,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a5fadebe685810d6833d1cb0581ed9a4869cc124
-ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
-ms.translationtype: MT
+ms.openlocfilehash: 4cfc1425aca7a62205e0c7c50237f206a179a0e7
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7883651"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4968859"
 ---
 # <a name="reclassify-fixed-assets"></a>Perklasifikuoti ilgalaikį turtą
 
@@ -27,25 +29,11 @@ Norėdami perklasifikuoti ilgalaikį turtą, turite perkelti jį į naują ilgal
 
 Kai perklasifikuojamas ilgalaikis turtas:
 
-- Visos esamo ilgalaikio turto knygos sukuriamos naujam ilgalaikiam turtui. Bet kokia informacija, kuri buvo nustatyta pradiniam ilgalaikiam turtui, yra nukopijuojama naujam ilgalaikiam turtui. Pradinio ilgalaikio turto knygų būsena yra Uždaryta. 
+* Visos esamo ilgalaikio turto knygos sukuriamos naujam ilgalaikiam turtui. Bet kokia informacija, kuri buvo nustatyta pradiniam ilgalaikiam turtui, yra nukopijuojama naujam ilgalaikiam turtui. Pradinio ilgalaikio turto knygų būsena yra Uždaryta. 
 
-- Naujose ilgalaikio turto knygose perklasifikavimo data yra lauke **Įsigijimo data**. Data, esanti lauke **Nusidėvėjimo vykdymo data**, yra nukopijuota iš pradinės informacijos apie turtą. Jei nusidėvėjimas jau prasidėjo, lauke **Paskutinio nusidėvėjimo vykdymo data** rodoma perklasifikavimo data. 
+* Naujose ilgalaikio turto knygose perklasifikavimo data yra lauke **Įsigijimo data**. Data, esanti lauke **Nusidėvėjimo vykdymo data**, yra nukopijuota iš pradinės informacijos apie turtą. Jei nusidėvėjimas jau prasidėjo, lauke **Paskutinio nusidėvėjimo vykdymo data** rodoma perklasifikavimo data. 
 
-- Esamos pradinio ilgalaikio turto operacijos yra atšaukiamos ir iš naujo generuojamos naujam ilgalaikiam turtui.
-
-- Perklasifikuota, kai perkėlimo operacija yra perklasifikuota, sistema veiksmų centre rodys pranešimą, nurodantį, kad perkėlimo operacija nebuvo įvykdyta **perklasifikavimo** proceso metu. Būtina užbaigti perkėlimo operaciją, kad esamos perklasifikavimo operacijos būtų perkeltos į atitinkamas finansines dimensijas. 
-
-   Perklasifikavimo proceso metu sistema vykdo toliau nurodytus veiksmus, kad perklasifikuos turto balansą iš pradinio turto į naują turtą. 
-   
-   - Perklasifikavimo proceso metu duomenys nukopijuojami iš pradinės ilgalaikio turto knygos į naują ilgalaikio turto knygą.
-
-   - Perklasifikavimo operacija naudoja pradinio užregistruoto įsigijimo informaciją, kuri apima finansinės dimensijos informaciją, įtrauktą į įsigijimo operaciją.  
-   
-   - Tuo pat metu perklasifikavimo procesas atšaukia pradinio turto įsigijimo ir turto perkėlimo operaciją. 
-
-Šioje diagramoje ir procedūroje pateikiamas perklasifikavimo proceso pavyzdys. 
-
-[![Perklasifikavimo proceso diagrama.](../media/reclassification-process-01.png)](../media/reclassification-process-01.png)
+* Esamos pradinio ilgalaikio turto operacijos yra atšaukiamos ir iš naujo generuojamos naujam ilgalaikiam turtui.
 
 Atlikite šiuos veiksmus, norėdami perklasifikuoti ilgalaikį turtą:
 
@@ -56,7 +44,4 @@ Atlikite šiuos veiksmus, norėdami perklasifikuoti ilgalaikį turtą:
     * Jei naujai ilgalaikio turto grupei pridedama numeracija, **naujo ilgalaikio turto numerio** lauke atnaujinamas numeris iš naujos ilgalaikio turto grupės numeracijos. Priešingu atveju, **naujo ilgalaikio turto numerio** lauke atnaujinamas numeris iš numeracijos, nustatytos **ilgalaikio turto parametrų** puslapyje. Jei numeracija **ilgalaikio turto parametrų** puslapyje nenustatyta, lauke **Naujas ilgalaikio turto numeris** įveskite numerį.  
 5. Lauke **Perklasifikavimo data** įveskite datą.
 6. Lauke **Kvitų serijos** įveskite arba pasirinkite reikšmę.
-7. Pasirinkite **Gerai**.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+7. Spustelėkite **Gerai**.

@@ -1,33 +1,31 @@
 ---
 title: Kompensacijos struktūros kūrimas
-description: Šioje temoje paaiškinama, kaip sukurti pastoviosios atlyginimo dalies planą ir į jį užregistruoti darbuotojus taikant tinkamumo taisykles.
-author: twheeloc
-ms.date: 08/25/2021
+description: Šiame straipsnyje apžvelgiama, kaip kurti pastoviosios kompensacijos planą ir į jį užregistruoti darbuotojus taikant tinkamumo taisykles.
+author: andreabichsel
+manager: AnnBe
+ms.date: 02/10/2020
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: DefaultDashboard, HcmCompensationWorkspace, HcmCompFixedPlansPart, HRMCompFixedPlanTable, HRMCompCreateGridDialog, HRCCompGridView, HRMCompEligibility,  HRCCompGrid
 audience: Application User
-ms.search.scope: Human Resources
+ms.reviewer: anbichse
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2e35f4978cc4e8162c56ba05de28ab5b2366ccc7
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
-ms.translationtype: MT
+ms.openlocfilehash: 124d0f7f83feebabf622f00732c25bfa0f6eccdd
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065291"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4419748"
 ---
 # <a name="develop-a-compensation-structure"></a>Kompensacijos struktūros kūrimas
 
-
-[!INCLUDE [PEAP](../includes/peap-1.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-Šioje temoje aprašoma, kaip sukurti pastoviosios atlyginimo dalies planą ir į jį užregistruoti darbuotojus pagal tinkamumo taisykles. Šioje temoje naudojami USMF demonstraciniai duomenys ir jie taikomi kompensacijų bei išmokų vadovams.
+Šiame straipsnyje apžvelgiama, kaip kurti pastoviosios kompensacijos planą ir į jį užregistruoti darbuotojus taikant tinkamumo taisykles. Šiame straipsnyje naudojami USMF demonstraciniai duomenys ir jis skirtas kompensacijų bei išmokų vadovams.
 
 ## <a name="create-a-fixed-compensation-plan"></a>Pastoviosios atlyginimo dalies plano kūrimas
 
@@ -45,7 +43,7 @@ ms.locfileid: "8065291"
 
 7. Lauke **Tipas** pasirinkite, ar pastoviosios kompensacijos planas yra **Intervalo**, **Kategorijos** ar **Veiksmo**.
 
-8. Žymės langelis **Leistina rekomendacija** bus visų veiksmų, įtrauktų į šį planą apdorojimo įvykyje, numatytoji reikšmė. Leidę rekomendacijas galėsite nepaisyti paskaičiuotos siūlomos sumos apdorodami kompensaciją.
+8. Žymės langelis **Leistina rekomendacija** veikia kaip bet kokių veiksmų, įtrauktų į šį planą apdorojimo įvykyje, numatytoji reikšmė. Leidę rekomendacijas galėsite nepaisyti paskaičiuotos siūlomos sumos apdorodami kompensaciją.
 
 9. Laukas **Leistinas nepatekimas į intervalą** leidžia nurodyti, kaip norite elgtis su kompensacijų sumomis, kurios nepatenka į nurodytą pateikto lygio kompensavimo struktūros diapazoną. Lauką **Leistinas nepatekimas į intervalą** nustačius kaip **Joks**, galima naudoti bet kokią kompensacijos sumą. Pasirinkus parinktį **Negriežtas nuokrypis**, vartotojas įspėjamas, jei kompensacijos suma yra mažesnė, nei minimali to lygio atskaitos taško suma, arba didesnė, nei maksimali to lygio suma. Vartotojai gali įspėjimo nepaisyti ir tęsti veiklą. Pasirinkus parinktį **Griežtas nuokrypis**, sugeneruojama klaida, jei darbuotojo kompensacija nustatyta ne tarp minimalių ir maksimalių to lygio atskaitos taškų, ir darbuotojo kompensacija automatiškai pakoreguojama, kad ji patektų į šį intervalą.
 
@@ -115,6 +113,3 @@ Pastoviosios kompensacijos plano darbuotojui priskirti negalite tol, kol nenusta
 
 8. Uždarykite puslapį.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

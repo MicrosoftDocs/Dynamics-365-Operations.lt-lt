@@ -1,30 +1,29 @@
 ---
 title: Duomenų importavimo ir eksportavimo užduočių apžvalga
 description: Norėdami kurti ir valdyti duomenų importavimo bei eksportavimo užduotis, naudokite darbo sritį Duomenų valdymas.
-author: peakerbl
-ms.date: 10/21/2021
-ms.topic: overview
+author: Sunil-Garg
+manager: AnnBe
+ms.date: 11/02/2020
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application user
 ms.reviewer: sericks
 ms.search.region: Global
-ms.author: peakerbl
+ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e63daad6f206500bfa21c28635648c717f5bbdde
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
-ms.translationtype: MT
+ms.openlocfilehash: 3af49d9355f37e0016f491ed37050f75bbc65d72
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8071090"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684065"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>Duomenų importavimo ir eksportavimo užduočių apžvalga
 
 [!include [banner](../includes/banner.md)]
-
-
-[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Norint kurti ir valdyti duomenų importavimo bei eksportavimo užduotis, naudojama darbo sritis **Duomenų valdymas**. Pagal numatytuosius parametrus duomenų importavimo ir eksportavimo procesas kiekvienam paskirties duomenų bazės objektui sukuria išdėstymo lentelę. Naudodami išdėstymo lenteles, galite, prieš perkeldami duomenis, juos patikrinti, išvalyti ar konvertuoti.
 
@@ -71,9 +70,6 @@ Pasirinkę objektą, turite pasirinkti duomenų, kurie bus eksportuojami arba im
 | XML                    | \-NA–                                      | XML elementas XML atributas |
 | Atskirtas, fiksuotas plotis | Kablelis, kabliataškis, skirtukas, vertikali juosta, dvitaškis | \-NA–                     |
 
-> [!NOTE]
-> Svarbu pasirinkti tinkamą eilučių skyriklio **stulpelio skyriklio**, **teksto kvalifikatoriaus**, ir **Eilutės skyriklio**, jei **Failo formatas** parinktis yra nustatyta **Atribota**. Įsitikinkite, kad jūsų duomenyse nėra simbolio, kuris naudojamas kaip skyriklis arba kvalifikatorius, nes dėl to gali kilti klaidų importuojant ir eksportuojant.
-
 ### <a name="sequence-the-entities"></a>Objektų sekos nustatymas
 Objektų seka gali būti nustatyta duomenų šablone arba importavimo ir eksportavimo užduotyse. Vykdydami užduotį, kurioje yra daugiau nei vienas duomenų objektas, turite įsitikinti, kad nustatyta teisinga duomenų objektų seka. Objektų seka pirmiausia nustatoma todėl, kad galėtumėte valdyti tarp objektų esančias funkcines priklausomybes. Jei objektai funkcinių priklausomybių neturi, galima suplanuoti juos importuoti arba eksportuoti lygiagrečiai.
 
@@ -112,7 +108,7 @@ Yra du susiejimo rodiniai: **Susiejimo vizualizacija** (numatytasis rodinys) ir 
 
 Puslapyje susiejimą galite sugeneruoti pasirinkdami **Generuoti šaltinio susiejimą**. Sugeneruotas susiejimas veikia taip, kaip automatinis susiejimas. Todėl turite rankiniu būdu susieti visus nesusietus laukus.
 
-![Duomenų susiejimas.](./media/dixf-map.png)
+![Duomenų susiejimas](./media/dixf-map.png)
 
 ## <a name="verify-the-security-for-your-import-or-export-job"></a>Importavimo arba eksportavimo užduoties saugos tikrinimas
 Prieigą prie darbo srities **Duomenų valdymas** galima apriboti, kad administratoriaus teisių neturintys vartotojai galėtų pasiekti tik konkrečias duomenų užduotis. Prieiga prie duomenų užduoties reiškia visišką prieigą prie tos užduoties vykdymo retrospektyvos ir prieigą prie išdėstymo lentelių. Todėl turite įsitikinti, kad kuriant duomenų užduotį nustatomi tinkami prieigos valdikliai.
@@ -138,7 +134,7 @@ Apibrėžę užduotį, ją galite vieną kartą vykdyti pasirinkdami mygtuką **
 ## <a name="validate-that-the-job-ran-as-expected"></a>Tikrinimas, ar užduotis įvykdyta taip, kaip tikėtasi
 Norint nustatyti ir ištirti importavimo bei eksportavimo užduočių triktis, galima naudoti jų retrospektyvą. Retrospektyviniai užduoties vykdymai sisteminami pagal laiko intervalus.
 
-![Užduoties retrospektyvos intervalai.](./media/dixf-job-history.md.png)
+![Užduoties retrospektyvos intervalai](./media/dixf-job-history.md.png)
 
 Kiekvieną kartą vykdant užduotį pateikiama tolesnė informacija.
 
@@ -167,7 +163,19 @@ Norint pagreitinti duomenų importavimą, galima įjungti lygiagretų failo impo
     - Lauke **Importavimo įrašų ribinė reikšmė** įveskite importavimo įrašų ribinę reikšmę. Ji nurodo įrašų, kuriuos reikia apdoroti naudojant giją, skaičių. Jei faile yra 10 000 įrašų, o 2 500 įrašų yra 4 užduotys, kiekviena gija apdoros 2 500 įrašų.
     - Lauke **Importavimo užduočių skaičius** įveskite importavimo užduočių skaičių. Jis neturi viršyti maksimalaus paketo apdorojimui priskirto paketinių gijų skaičiaus dalyje **Sistemos administravimas \>Serverio konfigūravimas**.
 
-## <a name="job-history-clean-up"></a>Darbo istorijos valymas 
+## <a name="clean-up-the-staging-tables"></a>Išdėstymo lentelių valymas
+Pradedant platformos 29 naujinimu, ši funkcija buvo nebenaudojama. Ji pakeista nauja užduočių retrospektyvos valymo funkcija, kuri paaiškinama toliau.
+
+Išvalyti išdėstymo lenteles galite naudodami darbo srities **Duomenų valdymas** funkciją **Išdėstymo valymas**. Norėdami pasirinkti, kurioje išdėstymo lentelėje reikia panaikinti kuriuos įrašus, galite naudoti tolesnes parinktis.
+
+- **Objektas** – jei pateiktas tik objektas, panaikinami visi to objekto išdėstymo lentelės įrašai. Pasirinkite šią parinktį, kad visus objekto duomenis išvalytumėte visuose duomenų projektuose ir visose užduotyse.
+- **Užduoties ID** – jei pateikta tik užduoties ID, visi visų pasirinktos užduoties objektų įrašai panaikinami atitinkamose išdėstymo lentelėse.
+- **Duomenų projektai** – jei pasirinktas tik duomenų projektas, panaikinami visi visų objektų ir visų pasirinktų duomenų užduočių įrašai.
+
+Parinktis taip pat galite jungti ir taip dar labiau apriboti naikintinų įrašų rinkinį.
+
+## <a name="job-history-clean-up-available-in-platform-update-29-and-later"></a>Užduočių retrospektyvos valymas (pasiekiama platformos 29 ir vėlesniuose naujinimuose)
+
 Užduočių retrospektyvos valymo funkcija duomenų valdyme turi būti naudojama periodiniui vykdymo retrospektyvos valymui planuoti. Ši funkcija pakeičia ankstesnę išdėstymo lentelės valymo funkciją, kuri dabar nebenaudojama. Šios lentelės bus išvalytos pagal valymo procesą.
 
 -   Visos išdėstymo lentelės
@@ -203,10 +211,16 @@ Planuodami valymo procesą, turite nurodyti šiuos parametrus, kad apibrėžtum�
 > [!NOTE]
 > Jei įrašai išdėstymo lentelėse iki galo nėra išvalyti, įsitikinkite, kad valymo užduotis yra suplanuota vykdyti pasikartojančiu grafiku. Kaip paaiškinta pirmiau, bet kuriuo valymo vykdymo metu užduotis išvalys tik tiek vykdymo ID, kiek galės per nustatytą maksimalų valandų skaičių. Kad būtų galima tęsti visų likusių išdėstymo įrašų valymą, užduotis turi būti suplanuota vykdyti periodiškai.
 
-## <a name="job-history-clean-up-and-archival"></a>Užduočių retrospektyvos valymas ir archyvavimas 
+## <a name="job-history-clean-up-and-archival-available-for-preview-in-platform-update-39-or-version-10015"></a>Užduoties retrospektyvos valymas ir archyvavimas (galima peržiūros versija, naudojant 39 „Platform update“ arba 10.0.15 versiją)
 Užduoties retrospektyvos valymo ir archyvavimo funkcija pakeičia ankstesnes valymo funkcijos versijas. Šiame skyriuje bus paaiškintos naujos galimybės.
 
-Vienas iš pagrindinių valymo funkcijos pakeitimų yra sistemos paketinės užduoties naudojimas retrospektyvai valyti. Sistemos paketinės užduoties naudojimas leidžia „Finance and Operations“ programoms automatiškai suplanuoti ir paleisti išvalymo paketinę užduotį, kai tik sistema bus paruošta. Nebereikia paketinės užduoties planuoti neautomatiniu būdu. Šiuo numatytuoju vykdymo režimu paketinė užduotis bus vykdoma kiekvieną valandą nuo vidurnakčio ir išlaikys vykdymo retrospektyvą artimiausioms 7 dienoms. Išvalyta retrospektyva archyvuojama, kad ją būtų galima gauti ateityje. Pradedant 10.0.20 versija, ši funkcija visada įjungta.
+Vienas iš pagrindinių valymo funkcijos pakeitimų yra sistemos paketinės užduoties naudojimas retrospektyvai valyti. Naudodamos sistemos paketinę užduotį, „Finance and Operations“ programos gali automatiškai planuoti ir vykdyti paketines valymo užduotis, kai sistema parengta. Nebereikia paketinės užduoties planuoti neautomatiniu būdu. Šiuo numatytuoju vykdymo režimu paketinė užduotis bus vykdoma kiekvieną valandą nuo 12 val. nakties ir išlaikys vykdymo retrospektyvą pastarąsias 7 dienas. Išvalyta retrospektyva archyvuojama, kad ją būtų galima gauti ateityje.
+
+> [!NOTE]
+> Kadangi ši funkcija veikia kaip peržiūros versija, sistemos paketinė užduotis nepanaikins jokios vykdymo retrospektyvos, kol ji bus įjungta per testą DMFEnableExecutionHistoryCleanupSystemJob. Kai priemonė bus visuotinai prieinama būsimame leidime, šis testas nebus būtinas, o sistemos paketinė užduotis pradės valyti ir archyvuoti, kai sistema bus parengta, pagal nustatytą grafiką, kaip paaiškinta pirmiau. 
+
+> [!NOTE]
+> Būsimame leidime ankstesnės valymo funkcijos versijos bus pašalintos iš „Finance and Operations“ programų.
 
 Antrasis valymo proceso pakeitimas yra išvalytos vykdymo retrospektyvos archyvavimas. Išvalymo užduotis archyvuoja panaikintus įrašus didelių dvejetainių objektų saugykloje, kurią DIXF naudoja įprastai integracijai. Suarchyvuotas failas bus DIXF paketo formatu ir bus pasiekiamas 7 dienas didelių dvejetainių objektų saugykloje – tada jį bus galima atsisiųsti. Numatytąją 7 dienų suarchyvuoto failo laikymą parametruose galima pakeisti į ne daugiau nei 90 dienų.
 
@@ -229,6 +243,3 @@ Norėdami atsisiųsti suarchyvuotą vykdymo retrospektyvą, eikite į duomenų t
 -   DMFSTAGINGLOGDETAILS
 -   DMF išdėstymo tikrinimo žurnalas
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

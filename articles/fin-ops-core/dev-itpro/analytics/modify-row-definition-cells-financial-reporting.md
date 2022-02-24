@@ -2,9 +2,11 @@
 title: Eilučių apibrėžčių langelių modifikavimas
 description: Šioje temoje aprašoma informacija, reikalinga kiekvienam finansinės ataskaitos eilutės aprašo langeliui, ir paaiškina, kaip šią informaciją įvesti.
 author: ShylaThompson
-ms.date: 08/11/2021
+manager: AnnBe
+ms.date: 02/11/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 80df992ce14577ba78587648f8af2c35b382a589
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 92d03f08fc5e34402f10068ed770b1f724cfd3a8
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7344890"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4685864"
 ---
 # <a name="modify-row-definition-cells"></a>Eilučių apibrėžčių langelių modifikavimas
 
@@ -174,7 +176,7 @@ Eilutės apibrėžimo stulpelyje **Formato kodas** formato kodai **DES**, **LFT*
 
 Šiame pavyzdyje naudotojas nori neleisti spausdinti savo ataskaitos eilutės **Bendroji grynųjų suma** antraštės ir pabraukimų, nes nė vienoje iš grynųjų pinigų sąskaitų nebuvo jokios veiklos. Todėl eilutės 220 (kuri, kaip nurodo formato kodas **---**, yra formatavimo eilutė) langelyje **Susijusios formulės / Eilutės / Vienetai** naudotojas įveda skaičių **250**, kuris yra jo norimos sulaikyti sumos eilutės kodas.
 
-[![„RelatedRowsRowDefinition”.](./media/relatedrowsrowdefinition-1024x144.png)](./media/relatedrowsrowdefinition.png)
+[![RelatedRowsRowDefinition](./media/relatedrowsrowdefinition-1024x144.png)](./media/relatedrowsrowdefinition.png)
 
 ## <a name="select-the-base-row-for-a-column-calculation"></a>Pagrindinės stulpelio skaičiavimo eilutės pasirinkimas
 Ryšių ataskaitos eilutės apibrėžime priskirkite vieną ar kelias pagrindines eilutes naudodami formato kodą **CBR** (keisti pagrindinę eilutę). Tada pagal stulpelio aprašo apskaičiavimą nurodoma pagrindinė eilutė. Toliau pateikiami keletas įprastų CBR skaičiavimų pavyzdžių.
@@ -399,7 +401,7 @@ Langelyje **Saitas su finansinėmis dimensijomis** pateikiamos nuorodos į finan
 2. Dukart spustelėkite langelį stulpelyje **Saitas su finansinėmis dimensijomis**.
 3. Dialogo lange **Dimensijos** dukart spustelėkite dimensijos pavadinimo langelį.
 4. Dimensijos dialogo lange pasirinkite **Atskira ar intervalas**.
-5. Lauke **Iš** įveskite pradžios dimensiją arba spustelėkite ![Naršyti.](media/browse.gif "Naršyti") galimų dimensijų paieškai. Norėdami įvesti dimensijų intervalą, lauke **Iki** įveskite pabaigos dimensiją.
+5. Lauke **Nuo** įveskite pradžios dimensiją arba spustelėkite ![Naršyti](media/browse.gif "Naršyti") ir ieškokite galimų dimensijų. Norėdami įvesti dimensijų intervalą, lauke **Iki** įveskite pabaigos dimensiją.
 6. Spustelėkite **Gerai** ir uždarykite dimensijos dialogo langą. Dialogo lange **Dimensijos** rodoma atnaujinta dimensija arba intervalas.
 7. Spustelėkite **Gerai** ir uždarykite dialogo langą **Dimensijos**.
 
@@ -476,7 +478,7 @@ Toliau pateikiamoje lentelėje aprašomi dialogo lango **Dimensijos** laukai.
 
 | Prekė                | Prekės/Paslaugos pavadinimas |
 |---------------------|-------------|
-| Atskira reikšmė arba intervalas | Lauke **Nuo** įveskite sąskaitos pavadinimą arba spustelėkite **Naršyti** mygtuką ![Naršyti.](media/browse.gif "Naršyti") sąskaitos naršymui. Norėdami pasirinkti intervalą, įveskite reikšmę arba ieškokite jos lauke **Iki**. |
+| Atskira reikšmė arba intervalas | Lauke **Nuo** įveskite sąskaitos pavadinimą arba spustelėkite mygtuką **Naršyti** ![Naršyti](media/browse.gif "Naršyti") ir ieškokite sąskaitos. Norėdami pasirinkti intervalą, įveskite reikšmę arba ieškokite jos lauke **Iki**. |
 | Dimensijų reikšmių rinkinys | Lauke **Pavadinimas** įveskite dimensijų reikšmių rinkinio pavadinimą. Norėdami kurti, modifikuoti, kopijuoti arba panaikinti rinkinį, spustelėkite **Dimensijų reikšmių rinkinių tvarkymas**. Lauke **Formulė** pateikiama formulė iš langelio **Saitas su finansinėmis dimensijomis**, skirta šiam eilutės aprašo dimensijų reikšmių rinkiniui. |
 | Sąskaitų sumavimas   | Lauke **Pavadinimas** įveskite sumavimo sąskaitų dimensiją arba ieškokite jos. Lauke **Formulė** pateikiama langelio **Saitas su finansinėmis dimensijomis** formulė, skirta ataskaitos aprašo sumavimo sąskaitai. |
 
@@ -527,6 +529,3 @@ Dimensijų reikšmių rinkinys yra pavadinimą turinti dimensijų reikšmių gru
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Finansinės ataskaitos](financial-reporting-intro.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

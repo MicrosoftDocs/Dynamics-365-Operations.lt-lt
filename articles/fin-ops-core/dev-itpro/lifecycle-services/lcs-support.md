@@ -1,10 +1,12 @@
 ---
-title: „Finance and Operations‟ programos arba „Lifecycle Services“ (LCS) palaikymo gavimas
-description: Šioje temoje paaiškinta, kaip gauti pagalbos dėl „Finance and Operations“ programų arba „Microsoft Dynamics Lifecycle Services“ (LCS).
+title: Gaukite programų „Finance and Operations“ arba „Lifecycle Services“ (LCS) palaikymą
+description: Šioje temoje pateikiama informacija, kaip gauti pagalbos naudojant programas „Finance and Operations“ arba „Microsoft Dynamics Lifecycle Services“ (LCS).
 author: EricMoos
-ms.date: 08/02/2021
+manager: AnnBe
+ms.date: 09/16/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: IT Pro, Developer, Application user
 ms.reviewer: sericks
@@ -14,21 +16,18 @@ ms.search.region: Global
 ms.author: anupams
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3e697c574efb0b04db6cb04d01c41066a0ac3974
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
-ms.translationtype: MT
+ms.openlocfilehash: 2ec326f2df53ee465b5a75b4f3c24ed914b28551
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8068039"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4679997"
 ---
-# <a name="get-support-for-finance-and-operations-apps-or-lifecycle-services-lcs"></a>„Finance and Operations‟ programos arba „Lifecycle Services“ (LCS) palaikymo gavimas
+# <a name="get-support-for-finance-and-operations-apps-or-lifecycle-services-lcs"></a>Gaukite programų „Finance and Operations“ arba „Lifecycle Services“ (LCS) palaikymą
 
 [!include [banner](../includes/banner.md)]
 
-
-[!INCLUDE [PEAP](../../../includes/peap-2.md)]
-
-Šioje temoje paaiškinta, kaip gauti pagalbos dėl „Finance and Operations“ programų arba „Microsoft Dynamics Lifecycle Services“ (LCS). 
+Šioje temoje pateikiama informacija, kaip gauti pagalbos naudojant programas „Finance and Operations“ arba „Microsoft Dynamics Lifecycle Services“ (LCS). 
 
 <table>
 <thead>
@@ -51,7 +50,7 @@ ms.locfileid: "8068039"
 <td><a href="https://lcs.dynamics.com/">LCS</a> naudokite <strong>problemų ieškos</strong> įrankį, kad greitai surastumėte „Microsoft“ žinių bazės (KB) straipsnius, karštąsias pataisas ir praneštų problemų sprendimo būdus. Galite matyti, kurios iš pateiktų konkrečių funkcinių sričių problemų yra sprendžiamos ir, kurios jau yra išspręstos. Daugiau informacijos žr. <a href="issue-search-lcs.md">Problemų ieška („Lifecycle Services“, LCS)</a>.</td>
 </tr>
 <tr>
-<td>Gaukite pagalbos naudodami programą „Finance and Operations“.</td>
+<td>Gaukite palaikymą programoje.</td>
 <td>Pasirinkite mygtuką <strong>Žinynas</strong> (<strong>?</strong>) viršutiniame dešiniajame programos kampe, tada pasirinkite <strong>Palaikymas</strong>. Klausimai registruojami LCS skirtuke <strong>Aktyvios problemos</strong>. Ten administratoriai gali nuspręsti, ar jie turėtų teikti vidaus pagalbą, ar problemas pateikti „Microsoft“.</td>
 </tr>
 <tr>
@@ -69,6 +68,3 @@ ms.locfileid: "8068039"
 </tr>
 </tbody>
 </table>
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

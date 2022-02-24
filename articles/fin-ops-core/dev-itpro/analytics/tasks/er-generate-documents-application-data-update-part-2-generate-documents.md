@@ -1,10 +1,12 @@
 ---
 title: Konfigūracijų, skirtų generuoti dokumentus, kuriuose yra prašymų duomenys, kūrimas
-description: Šioje temoje aprašoma, kaip kurti elektroninių ataskaitų (ER )konfigūracijas, norint generuoti elektroninį dokumentą. (1 dalis – konfigūracijų importavimas).
+description: Norėdami atlikti šios procedūros veiksmus, turite pirma užbaigti procedūrą „ER generuoti dokumentus su programos duomenų atnaujinimu (1 dalis – importuoti konfigūracijas)“.
 author: NickSelin
+manager: AnnBe
 ms.date: 06/19/2017
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -12,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3f335721ee97919af20e73fc9da6c9bf07dcae50aca8f8904d144d75c2f4d7b1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0d099836ba00ffa1d4fd002af4ac3e6045b41c6a
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6726266"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684600"
 ---
 # <a name="design-configurations-to-generate-documents-that-have-application-data"></a>Konfigūracijų, skirtų generuoti dokumentus, kuriuose yra prašymų duomenys, kūrimas
 
@@ -56,6 +58,3 @@ Prieš pradėdami pakeisti šalies kontekstą DEMF įmonei iš DEU (Vokietija) �
 10. Uždarykite puslapį.
 11. Uždarykite puslapį.
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

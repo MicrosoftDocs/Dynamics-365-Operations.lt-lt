@@ -2,22 +2,25 @@
 title: Automatinių išlaidų įjungimas ir konfigūravimas pagal kanalą
 description: Šioje temoje paaiškinama, kaip įgalinti ir konfigūruoti automatines išlaidas pagal kanalą „Microsoft Dynamics 365 Commerce”.
 author: gvrmohanreddy
+manager: annbe
 ms.date: 03/30/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2020-03-01
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: d905819d1e0c8223c74509bfb357b3aaa51d20305a2857061eadb0b0ff8f6b9b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1be07c754e563298d82f6ca54f09ae3aa9118602
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727635"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4414325"
 ---
 # <a name="enable-and-configure-auto-charges-by-channel"></a>Automatinių išlaidų įjungimas ir konfigūravimas pagal kanalą
 
@@ -66,7 +69,7 @@ Norėdami priskirti numatytąją hierarchiją organizacijos hierarchijos paskir�
 1. Veiksmų srityje pasirinkite **Vykdyti dabar**.
 1. Pakartokite ankstesnius du veiksmus, norėdami paleisti **1070** (**kanalo konfigūraciją**) ir **1110** (**visuotinės konfigūracijos**) užduotis.
 
-![Mažmeninės prekybos automatinių išlaidų organizacijos hierarchijos paskirties konfigūracija.](media/Auto-charges-org-hierarchy-purpose.png)
+![Mažmeninės prekybos automatinių išlaidų organizacijos hierarchijos paskirties konfigūracija](media/Auto-charges-org-hierarchy-purpose.png)
 
 ## <a name="define-auto-charges-by-channel"></a>Automatines išlaidų nustatymas pagal kanalą
 
@@ -74,19 +77,19 @@ Norėdami priskirti numatytąją hierarchiją organizacijos hierarchijos paskir�
 
 Norėdami nustatyti automatines išlaidas pagal kanalą programoje „Commerce“, atlikite toliau pateiktus veiksmus.
 
-1. Pasirinkite **Gautinos sumos \> Išlaidų sąranka \> Automatinės išlaidos**.
+1. Pasirinkite **Gautinos sumos \> Išlaidų sąranka \> Automatinės išlaidos**.
 1. Kairiosios srities lauke **Lygis** pasirinkite **Antraštė** arba **Eilutė**, atsižvelgdami į savo verslo poreikius.
 1. Lauke **Mažmeninės prekybos kanalo kodas** pasirinkite reikiamą kanalo kodą (pvz., **Lentelė** arba **Grupė**). Jei naudojamas numatytasis parametras **Visi**, išlaidų taisyklės taikomos visiems kanalams.
 
     - Jei pasirinksite **Grupė**, įsitikinkite, kad mažmeninės prekybos kanalo išlaidų grupė yra sukurta **Mažmeninė prekyba ir prekyba \> Kanalo nustatymas \> Išlaidos \> Mažmeninės prekybos kanalo išlaidų grupės**.
-    - Jei pasirinksite **Lentelė**, lauke **Mažmeninės prekybos kanalų ryšys** galite pasirinkti konkretų kanalą, pvz., **San Franciskas**.
+    - Jei pasirinksite **Lentelė**, lauke **Mažmeninės prekybos kanalų ryšys** galite pasirinkti konkretų kanalą, pvz., **San Fransiskas**.
 
 1. Eikite į **Mažmeninė prekyba ir prekyba \> Mažmeninės prekybos ir prekybos IT \> Paskirstymo grafikas**.
 1. Kairiojoje srityje raskite ir pasirinkite **1040** (**produktų**) užduotį.
 1. Veiksmų srityje pasirinkite **Vykdyti dabar**.
 1. Pakartokite ankstesnius du veiksmus, norėdami paleisti **1070** (**kanalo konfigūraciją**) ir **1110** (**visuotinės konfigūracijos**) užduotis.
     
-![Automatinės išlaidos, nustatytos pagal kanalą.](media/Auto-charges-line-charge-by-channel.png)
+![Automatinės išlaidos, nustatytos pagal kanalą](media/Auto-charges-line-charge-by-channel.png)
 
 ## <a name="example-scenario"></a>Pavyzdinis scenarijus
 
@@ -94,7 +97,7 @@ Toliau pateiktame pavyzdyje aprašomi veiksmai, kurių reikia produktui sukonfig
 
 Organizacija apibrėžia išlaidų kodą, kurio pavadinimas **PERDIRBIMAS**, kaip parodyta toliau pateiktoje iliustracijoje.
 
-![Išlaidų kodas PERDIRBIMAS.](media/Auto-charges-charge-code.png)
+![Išlaidų kodas PERDIRBIMAS](media/Auto-charges-charge-code.png)
 
 Sukuriamos automatinės išlaidos eilutės lygiu. Jam būdinga toliau pateikta konfigūracija.
 
@@ -112,19 +115,16 @@ Sukuriama automatinių išlaidų eilutė. Jam būdinga toliau pateikta konfigūr
 - Laukas **Kategorija** nustatytas į **Fiksuotas**.
 - Laukas **Išlaidos** nustatytas į **6,25 USD**.
 
-![Automatinių išlaidų eilutės lygiu ir automatinių išlaidų eilutės konfigūracija.](media/Auto-charges-recyclingfee-line-fee.png)
+![Automatinių išlaidų eilutės lygiu ir automatinių išlaidų eilutės konfigūracija](media/Auto-charges-recyclingfee-line-fee.png)
 
 EKA programos **San Francisko** parduotuvės kanale sukuriamas pardavimo užsakymas. Eilutėje **Išlaidos** nurodytas **6,25 USD** perdirbimo mokestis.
 
 EKA programoje pasirinkę **Operacijų parinktys \> Išlaidos \> Valdyti išlaidas** galite peržiūrėti perdirbimo mokesčio išlaidų kodą ir aprašymą.
 
-![Perdirbimo mokestis EKA programoje.](media/pos-auto-charges-recyclingfee-line-fee.png)
+![Perdirbimo mokestis EKA programoje](media/pos-auto-charges-recyclingfee-line-fee.png)
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Integruoto kanalo išplėstinės automatinės išlaidos](omni-auto-charges.md)
 
 [Proporcingas antraštės išlaidų paskirstymas atitinkančioms pardavimo eilutėms](pro-rate-charges-matching-lines.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

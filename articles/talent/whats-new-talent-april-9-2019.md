@@ -90,6 +90,3 @@ Atlikus šį pakeitimą dublikatai aptinkami, kai įvedate laukų pavadinimus, o
 
 ###  <a name="email-support-for-alerts"></a>Įspėjimų el. pašto palaikymas
 25 platformos naujinį, skirtą „Finance and Operations”, įdiegę vartotojai gali kurti įspėjimo taisykles, kurios automatiškai išsiunčia el. pašto pranešimus kontaktams, kai jas suaktyvina įvykis. 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

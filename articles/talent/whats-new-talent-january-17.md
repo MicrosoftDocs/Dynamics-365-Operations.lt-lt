@@ -45,6 +45,3 @@ Atlikus šį pakeitimą, numatytoji lauko **Veiksmo reikalauja** reikšmė yra v
 ### <a name="ideas-portal-updated"></a>Atnaujintas idėjų portalas
 Programoje pateikti saitai, skirti pateikti idėją į „Talent“, atnaujinti nurodant naują idėjų portalą. Visos idėjos, įvestos sename portale, buvo perkeltos, todėl visos jūsų puikios idėjos neišnyko ir kiti už jas gali balsuoti.  
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

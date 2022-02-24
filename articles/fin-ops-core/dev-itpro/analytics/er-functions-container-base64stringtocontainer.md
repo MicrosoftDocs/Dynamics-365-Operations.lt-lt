@@ -2,8 +2,11 @@
 title: „Base64StringToContainer” ER funkcija
 description: Šioje temoje pateikiama informacija apie tai, kaip naudojama modulio Elektroninės ataskaitos (ER) „Base64StringToContainer” funkcija.
 author: NickSelin
+manager: kfend
 ms.date: 12/14/2020
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
@@ -14,18 +17,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 3e813c628bfe783fb8e93fc5d7e8b275405245c42710f9ea691d4c06afff0d84
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0e92ae41a3e0f03cb14d4791ab768f096f2a0523
+ms.sourcegitcommit: e8a46e127d70986539c138b27a641bff6f6874d0
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772037"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "4739098"
 ---
 # <a name="base64stringtocontainer-er-function"></a>„Base64StringToContainer” ER funkcija
 
 [!include [banner](../includes/banner.md)]
 
-„`BASE64STRINGTOCONTAINER`” [funkcija](er-formula-language.md#Functions) konvertuoja nurodytą *Eilutės* tipo įvestį į *[Konteinerio](er-functions-category-container.md)* tipo duomenų elementą.
+„`BASE64STRINGTOCONTAINER`” [funkcija](er-formula-language.md#functions) konvertuoja nurodytą *Eilutės* tipo įvestį į *[Konteinerio](er-functions-category-container.md)* tipo duomenų elementą.
 
 ## <a name="syntax"></a>Sintaksė
 
@@ -72,11 +75,8 @@ Apibrėžkite šiuos modelio susiejimo duomenų šaltinius:
 
 Šiame pavyzdyje duomenų šaltinis **\#„MediaAsBase64String”** užkoduoja dabartinio laikmenos priedo dvejetainį turinį kaip tekstą, kuris reiškia dvejetainių tekstų kodavimo schemų „Base64” grupę. Duomenų šaltinis **\#„BLOBFomBase64”** užkoduoja „Base64” eilutę ir grąžina dvejetainę vertę BLOB formatu.
 
-![Pavyzdiniai duomenų šaltiniai ER modelio susiejimo dizaino įrankio puslapyje.](./media/er-functions-container-base64stringtocontainer-1.png)
+![Pavyzdiniai duomenų šaltiniai ER modelio susiejimo dizaino įrankio puslapyje](./media/er-functions-container-base64stringtocontainer-1.png)
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Konteinerio funkcijos](er-functions-category-container.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

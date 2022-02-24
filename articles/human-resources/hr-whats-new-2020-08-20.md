@@ -1,32 +1,33 @@
 ---
 title: Kas nauja ar pasikeitė „Dynamics 365 Human Resources” (2020 m. rugpjūčio 20 d.)
 description: Šioje temoje aprašomos naujos arba pasikeitusios „Microsoft Dynamics 365 Human Resources“ funkcijos 2020 m. rugpjūčio 20 d.
-author: andreabichsel
-ms.date: 08/20/2020
+author: Darinkramer
+manager: AnnBe
+ms.date: 8/20/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: jaredha
+ms.author: dkrame
 ms.search.validFrom: 2020-08-20
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a97997212a090f141c7280f7e48fd116a1f31481
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
-ms.translationtype: MT
+ms.openlocfilehash: 46dadb8834195c5dd06cd1c56d79324def7d9f2d
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062166"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527486"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-august-20-2020"></a>Kas nauja ar pasikeitė „Dynamics 365 Human Resources” (2020 m. rugpjūčio 20 d.)
 
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Šioje temoje aprašomos naujos arba pasikeitusios „Dynamics 365 Human Resources” funkcijos. Pakeitimai taikomi 8.1.3478 komponavimo versijai. Kai kurių antraščių skaičiai skliausteliuose nurodo „Lifecycle Services“ (LCS) palaikymo numerius kaip nuorodą.
 
@@ -64,15 +65,15 @@ DMF objektas dabar pasiekiamas kaupimo sustabdymams.
 
 Galite nustatyti laukelius privalomais naudodami Žmogiškųjų išteklių personalizavimo galimybes. Šiai funkcijai reikia **Įrašyti rodiniai**. Dėl platesnės informacijos apie įrašytas peržiūras, žr.:
 
-- [Įrašytos peržiūras - bendras prieinamumas](/dynamics365-release-plan/2020wave2/finance-operations/finance-operations-crossapp-capabilities/saved-views--general-availability) „Dynamics 365 2020“ leidime bangos 2 planas
-- [Formų, kurios visiškai išnaudoja įrašytus rodinius, kūrimas](../fin-ops-core/dev-itpro/user-interface/understanding-saved-views.md)
+- [Įrašytos peržiūras - bendras prieinamumas](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/finance-operations-crossapp-capabilities/saved-views--general-availability) „Dynamics 365 2020“ leidime bangos 2 planas
+- [Formų, kurios visiškai išnaudoja įrašytus rodinius, kūrimas](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/user-interface/understanding-saved-views)
 
 ### <a name="human-resources-application-in-teams"></a>„Human Resources“ programa programoje „Teams“
 
 Darbuotojai gali peržiūrėti ir prašyti atostogų programoje „Microsoft Teams“. Jie gali bendrauti su robotu, kad sukurtų atostogų prašymą. Daugiau informacijos ieškokite:
 
-- [Darbuotojo atostogų ir nebuvimo patirtis „Microsoft Teams“](/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams) „Dynamics 365“ 2020 leidime bangos 1 plane
-- [„Human Resources“ programa „Teams“](./hr-admin-teams-leave-app.md)
+- [Darbuotojo atostogų ir nebuvomo patirtis „Microsoft Teams“](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams) „Dynamics 365“ 2020 leidime bangos 1 plane
+- [„Human Resources“ programa „Teams“](https://go.microsoft.com/fwlink/?linkid=2127841)
 
 ## <a name="coming-soon"></a>Jau greitai
 
@@ -82,13 +83,13 @@ Darbuotojai gali peržiūrėti ir prašyti atostogų programoje „Microsoft Tea
  
 - **Tvarkytuvo ne darbo laiko kalendorius**: vadovai galės peržiūrėti savo tiesioginių ataskaitų kalendoriaus rodinyje patvirtintą ir laukiamą ne darbo laiką. Šis rodinys leidžia lengvai suprasti, kada jų komandos nariai nėra darbe.
 
-### <a name="checklist-entities-included-in-dataverse"></a>Kontrolinio sąrašo objektai, nurodyti „Dataverse”
+### <a name="checklist-entities-included-in-common-data-service"></a>Kontrolinio sąrašo objektai, nurodyti „Common Data Service”
 
-Tikrinimo objektai Įtraukimo, Atleidimo, Perleidimo ir Verslo procesams bus greitai prieinami „Dataverse“.
+Tikrinimo objektai Įtraukimo, Atleidimo, Perleidimo ir Verslo procesams bus greitai prieinami „Common Data Service“.
 
 ## <a name="known-issues"></a>Žinomos problemos
 
-**Ateities valdymas** darbo sritis gali rodyti funkcijas, kurios yra išjungtos kaip peržiūros funkcijos joms bendrai esant įjungtoms. Toliau pateiktas bendras esamų funkcijų sąrašas, rodantis neteisingą statusą. 
+**Ateities valdymas** darbo sritis gali rodyti funkcijas, kuriso yra išjungtos kaip peržiūros funkcijos joms bendrai esant įjungtoms. Toliau pateiktas bendras esamų funkcijų sąrašas, rodantis neteisingą statusą. 
 
 - Išmokų valdymas
 - Atvejų valdymas
@@ -116,9 +117,6 @@ Neseniai aptikome dvi problemas, susijusias su **DarbuotojųIšmokųPlano** obje
 ## <a name="see-also"></a>Taip pat žiūrėkite
 
 [Kas nauja ar pasikeitė „Human Resources”](hr-admin-whats-new.md)</br>
-[„Dynamics 365 Human Resources“ 2019 m. leidimo 2 bangos apžvalga](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[„Dynamics 365 Human Resources“ 2019 m. leidimo 2 bangos apžvalga](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Atnaujinimo procesas](hr-admin-setup-update-process.md)</br>
 [Funkcijų valdymas](hr-admin-manage-features.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

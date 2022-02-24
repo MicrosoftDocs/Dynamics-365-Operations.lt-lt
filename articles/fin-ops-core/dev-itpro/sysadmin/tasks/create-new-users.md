@@ -2,9 +2,11 @@
 title: Naujų vartotojų kūrimas
 description: Vartotojai yra vidiniai jūsų organizacijos darbuotojai arba išoriniai klientai bei tiekėjai, kuriems reikalinga prieiga prie sistemos, kad galėtų atlikti savo užduotis.
 author: peakerbl
+manager: AnnBe
 ms.date: 01/12/2021
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysUserManagement, SysDataAreaSelectLookup, SysSecUserAddRoles, SysUserMSODSUserImport
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 480d181e8abb3af5a7406efd13c8bd9961a7490a
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.openlocfilehash: ca062ddd49f1c206c503fb6160ed436fe2d6f7e9
+ms.sourcegitcommit: 9e27a097b7eb3c8f2df66011ccc597ad18bc5445
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7595391"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "4878662"
 ---
 # <a name="create-new-users"></a>Naujų vartotojų kūrimas
 
@@ -29,10 +31,10 @@ Kad galėtumėte pasiekti „Finance and Operations” programas, pirmiausia tur
 Informaciją apie tai, kaip įsigyti ir licencijuoti „Finance and Operations programoms, rasite [„Microsoft Dynamics 365” licencijavimo vadove](https://go.microsoft.com/fwlink/?LinkId=866544&amp;clcid=0x409).
 
 ## <a name="assign-a-license-to-a-user"></a>Licencijos priskyrimas vartotojui
-Sistemos administratoriai gali [priskirti licencijas vartotojams](/office365/admin/subscriptions-and-billing/assign-licenses-to-users) [„Microsoft 365” administravimo centre](/office365/admin/admin-overview/about-the-admin-center).
+Sistemos administratoriai gali [priskirti licencijas vartotojams](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide) [„Microsoft 365” administravimo centre](https://docs.microsoft.com/office365/admin/admin-overview/about-the-admin-center?view=o365-worldwide).
 
 ## <a name="add-an-external-user-in-azure-ad-and-assign-a-license"></a>Išorinio vartotojo pridėjimas „Azure AD” ir licencijos priskyrimas 
-Išoriniai vartotojai turi būti atstovaujami jūsų nuomotojo kataloge („Azure Active Directory” („Azure AD”)) tam, kad jiems galėtų būti priskirtos licencijos. Minėtus išorinius vartotojus reikia įtraukti į „Azure AD“ esantį nuomotoją kaip vartotojus svečius ir priskirti jiems atitinkamas licencijas. Reikalavimas „Finance and Operations” programoms yra toks, kad vartotojo svečio įmonė turi naudoti „Azure AD”. Norėdami gauti daugiau informacijos, žr. [„Azure Active Directory“ B2B bendradarbiavimo vartotojų įtraukimas „Azure“ portale](/azure/active-directory/b2b/add-users-administrator).
+Išoriniai vartotojai turi būti atstovaujami jūsų nuomotojo kataloge („Azure Active Directory” („Azure AD”)) tam, kad jiems galėtų būti priskirtos licencijos. Minėtus išorinius vartotojus reikia įtraukti į „Azure AD“ esantį nuomotoją kaip vartotojus svečius ir priskirti jiems atitinkamas licencijas. Reikalavimas „Finance and Operations” programoms yra toks, kad vartotojo svečio įmonė turi naudoti „Azure AD”. Norėdami gauti daugiau informacijos, žr. [„Azure Active Directory“ B2B bendradarbiavimo vartotojų įtraukimas „Azure“ portale](https://docs.microsoft.com/azure/active-directory/b2b/add-users-administrator).
 
 ## <a name="import-new-users-from-azure-ad"></a>Naujų vartotojų importavimas iš „Azure AD“ 
 1. Eikite į **Sistemos administravimas** \> **Vartotojas** \> **Vartotojai**.
@@ -57,7 +59,7 @@ Išoriniai vartotojai turi būti atstovaujami jūsų nuomotojo kataloge („Azur
 7. Lauke **Įmonė** pasirinkite numatytąją vartotojo paleisties įmonę. 
 8. Pasirinkite **Įrašyti**.
 
-Tapatybės teikėjo ir telemetrijos ID vertės bus atnaujintos remiantis [„Microsoft” diagramos](/graph/overview) iškvietimu, kai išsaugomas vartotojo įrašas. Telemetrijos ID remiasi vartotojo objekto ID/saugos identifikatoriumi (SID) „Azure AD”.
+Tapatybės teikėjo ir telemetrijos ID vertės bus atnaujintos remiantis [„Microsoft” diagramos](https://docs.microsoft.com/graph/overview) iškvietimu, kai išsaugomas vartotojo įrašas. Telemetrijos ID remiasi vartotojo objekto ID/saugos identifikatoriumi (SID) „Azure AD”.
 
 > [!NOTE]
 > Kai įtraukiate vartotoją, privalote priskirti vaidmenis ir organizacijas kaip taikomas. Norėdami gauti daugiau informacijos, žr. [Vartotojų priskyrimas saugos vaidmenims](assign-users-security-roles.md). Sąlygiškai gali reikėti susieti vartotoją su **Asmeniu** ir atnaujinti **Vartotojo pasirinktis**, pavyzdžiui, kalbą.
@@ -79,6 +81,3 @@ Norėdami pakeisti vartotojo ID, turite pervardyti raktą duomenų bazėje. Kai 
 Norėdami gauti daugiau B2B vartotojų įgyvendinimo pasirinkčių, žiūrėkite [B2B vartotojų eksportavimas į „Azure AD”](../implement-b2b.md).
 
 Informaciją apie iš anksto sukonfigūruotas sistemos sąskaitas rasite [Iš anksto sukonfigūruotos sistemos sąskaitos](../pre-configured-system-accounts.md)
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

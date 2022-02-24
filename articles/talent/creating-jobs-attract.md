@@ -157,6 +157,3 @@ Norėdami kurti darbą, atlikite toliau nurodytus veiksmus.
 
 13. Norėdami suaktyvinti darbą, pasirinkite **Aktyvinti**.
 14. Norėdami registruoti užduotį, pasirinkite **Registravimas**, tada pasirinkite parinktį **Registruoti dabar**, pateiktą talentų karjeros svetainėje arba „LinkedIn“.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

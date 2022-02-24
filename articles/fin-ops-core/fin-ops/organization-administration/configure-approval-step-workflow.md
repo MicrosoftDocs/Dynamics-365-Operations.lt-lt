@@ -2,9 +2,11 @@
 title: Darbo eigos patvirtinimo veiksmų konfigūravimas
 description: Šioje temoje paaiškinama, kaip konfigūruoti patvirtinimo veiksmo ypatybes.
 author: ChrisGarty
+manager: AnnBe
 ms.date: 08/23/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -14,19 +16,16 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 84ff82dcb9f4ce930b4f1122790f7989c56fac35
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
-ms.translationtype: MT
+ms.openlocfilehash: 09f32833d914c05a1830e2bba36ebe4c66a8a52c
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070782"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797101"
 ---
 # <a name="configure-approval-steps-in-a-workflow"></a>Darbo eigos patvirtinimo veiksmų konfigūravimas
 
 [!include [banner](../includes/banner.md)]
-
-
-[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Šioje temoje paaiškinama, kaip konfigūruoti patvirtinimo veiksmo ypatybes.
 
@@ -159,7 +158,7 @@ Atlikite šiuos veiksmus, kad nurodytumėte, kam patvirtinimo veiksmas turėtų 
 
     - **Vienas tvirtintojas** – koks bus atliekamas veiksmas su dokumentu, sprendžia pirmasis turintis reaguoti asmuo. Pvz., Sam pateikė 15 000 JAV dolerių išlaidų ataskaitą. Šiuo metu išlaidų ataskaita yra priskirta Sue, Jo ir Bill. Jei Sue yra pirmasis asmuo, kuris turi reaguoti į dokumentą, veiksmas, kurį ji atlieka, bus taikomas dokumentui. Jei Sue dokumentą atmeta, jis atmetamas ir grąžinamas Sam. Jei Sue dokumentą patvirtina, jis siunčiamas Ann tvirtinti.
 
-        ![Darbo eiga su patvirtinimo procesu.](./media/workflow_multipleusersinstep.gif)
+        ![Darbo eiga su patvirtinimo procesu](./media/workflow_multipleusersinstep.gif)
 
     - **Tvirtintojų dauguma** – koks bus atliekamas veiksmas su dokumentu, lemia tvirtintojų dauguma. Pvz., Sam pateikė 15 000 JAV dolerių išlaidų ataskaitą. Šiuo metu išlaidų ataskaita yra priskirta Sue, Jo ir Bill. Jei Sue ir Jo yra pirmieji du tvirtintojai, kurie reaguoja, jų atliekami veiksmai bus taikomi dokumentui.
 
@@ -277,6 +276,3 @@ Jei per skirtąjį laiką vartotojas nesiims veiksmų su dokumentu, dokumentas l
 
 5. Pakartokite 3 ir 4 veiksmus su kiekvienu vartotoju, kuris turėtų būti įtrauktas į perskyrimo maršrutą. Galite keisti vartotojų tvarką.
 6. Jei perskyrimo maršrute esantys vartotojai per skirtąjį laiką nesureaguoja, sistema atliks veiksmą su dokumentu automatiškai. Norėdami nurodyti veiksmą, kurį sistema atliks, pasirinkite eilutę **Veiksmas** ir tada skirtuke **Pabaigos veiksmas** pasirinkite veiksmą.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

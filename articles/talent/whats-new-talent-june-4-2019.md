@@ -98,6 +98,3 @@ Nauja parinktis leis vadovams peržiūrėti savo tiesioginių ataskaitų ir išp
 ### <a name="print-performance-reviews"></a>Veiklos efektyvumo vertinimų spausdinimas
 
 Darbuotojo veiklos efektyvumo vertinimą galės spausdinti darbuotojai, vadovai ir Personalo valdymo skyrius.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

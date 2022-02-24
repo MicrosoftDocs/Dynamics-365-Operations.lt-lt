@@ -2,12 +2,15 @@
 title: Svetainės išrinkiklio modulis
 description: Šioje temoje paaiškinamas svetainės išrinkiklio modulis ir aprašoma, kaip pridėti jį prie svetainių puslapių, esančių „Microsoft Dynamics 365 Commerce“.
 author: anupamar-ms
+manager: annbe
 ms.date: 10/20/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -15,18 +18,20 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: a5f6f6e3ff459447aa4b3c0058b5526c9e8d1038a5d2629eefbed197012aebf0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b4e5f715efcac7f883df99508d282db904be0d80
+ms.sourcegitcommit: 9c05d48f6e03532aa711e1d89d0b2981e9d37200
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772233"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "4665228"
 ---
 # <a name="site-selector-module"></a>Svetainės išrinkiklio modulis
 
 [!include [banner](includes/banner.md)]
 
 Šioje temoje paaiškinamas svetainės išrinkiklio modulis ir aprašoma, kaip pridėti jį prie svetainių puslapių, esančių „Microsoft Dynamics 365 Commerce“.
+
+## <a name="overview"></a>Peržiūra
 
 Kai įmonė turi įvairių svetainių rinkose, regionuose ir vietovėse, svetainės vartotojams reikia paprasto būdo perjungti svetaines ir pasirinkti pageidaujamą prekybos svetainę. Kad vartotojai galėtų išpildyti šį poreikį, svetainės išrinkiklio modulis leidžia naršyti keliose svetainėse.
 
@@ -37,7 +42,7 @@ Svetainės išrinkiklio modulis turi būti sukonfigūruotas naudojant rinkų, re
 
 Toliau pateiktoje iliustracijoje parodytas svetainės išrinkiklio modulio, kuris rodomas svetainės puslapio antraštėje, pavyzdys.
 
-![Svetainės išrinkiklio modulio, esančio svetainės puslapio antraštėje, pavyzdys.](./media/ecommerce-sitepicker.PNG)
+![Svetainės išrinkiklio modulio, esančio svetainės puslapio antraštėje, pavyzdys](./media/ecommerce-sitepicker.PNG)
 
 ## <a name="site-selector-module-properties"></a>Svetainės išrinkiklio modulio ypatybės
 
@@ -59,6 +64,3 @@ Svetainės išrinkiklio modulį galima įtraukti į [antraštės modulį](author
 [Naršymo kelio modulis](add-breadcrumb.md)
 
 [Naršymo meniu modulis](nav-menu-module.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

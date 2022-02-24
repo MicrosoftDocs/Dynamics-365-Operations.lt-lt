@@ -2,24 +2,27 @@
 title: Kanalo siekiant naudoti kanalų naršymo hierarchiją konfigūravimas
 description: Šioje temoje aprašoma, kaip „Microsoft Dynamics 365 Commerce“ sukonfigūruoti kanalą siekiant naudoti kanalo naršymo hierarchiją.
 author: samjarawan
+manager: annbe
 ms.date: 01/27/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 3cf29bd423a2475b77e9076024b4da6864a31065da81de49f1b9a0f639243f1d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7b5041d35d310125c314ab2cb77d3cc40cdb7113
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6713997"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4414251"
 ---
 # <a name="configure-a-channel-to-use-a-channel-navigation-hierarchy"></a>Kanalo siekiant naudoti kanalų naršymo hierarchiją konfigūravimas
 
@@ -28,7 +31,7 @@ ms.locfileid: "6713997"
 
 Šioje temoje aprašoma, kaip „Microsoft Dynamics 365 Commerce“ sukonfigūruoti kanalą siekiant naudoti kanalo naršymo hierarchiją.
 
-## <a name="overview"></a>Peržiūra
+## <a name="overview"></a>Peržiūrėti
 
 Kanalo naršymo hierarchijos naudojamos, norint skirstyti produktus į kategorijas, kad produktus būtų galima naršyti el. prekybos svetainėje arba elektroniniame kasos aparate (EKA). Mažmeninės prekybos ir internetiniai kanalai turi būti sukonfigūruoti naudojant kanalo naršymo hierarchijas.
 
@@ -45,7 +48,7 @@ Norėdami sukonfigūruoti kanalą, kad būtų galima naudoti kanalo naršymo hie
 
 Toliau pateiktame vaizde parodoma, kaip sukonfigūruoti kanalą, kad būtų galima naudoti kanalo naršymo hierarchiją.
 
-![Kanalo konfigūravimo pavyzdys.](media/configure-channel-hierarchy-1.png)
+![Kanalo konfigūravimo pavyzdys](media/configure-channel-hierarchy-1.png)
 
 ## <a name="set-attribute-metadata"></a>Nustatyti atributo metaduomenis
 
@@ -61,9 +64,9 @@ Norėdami nustatyti atributų metaduomenis, atlikite toliau nurodytus veiksmus.
 
 Toliau pateiktame paveiksle parodyti kanalo produktų atributų, sukonfigūruotų kanalų kategorijos mazge, pavyzdžiai.
 
-![Kanalo atributai kanalo kategorijos mazge.](media/configure-channel-hierarchy-2.png)
+![Kanalo atributai kanalo kategorijos mazgo](media/configure-channel-hierarchy-2.png)
 
-## <a name="publish-changes"></a>Skelbti pakeitimus
+## <a name="publish-changes"></a>Keitimų publikavimas
 
 Kad atlikti pakeitimai įsigaliotų, turite juos publikuoti.
 
@@ -74,13 +77,10 @@ Norėdami publikuoti keitimus, atlikite toliau nurodytus veiksmus.
 
 Toliau pateiktame paveiksle parodyta, kaip publikuoti kanalo naujinimus.
 
-![Publikuoti kanalo naujinimus.](media/configure-channel-hierarchy-3.png)
+![Publikuoti kanalo naujinimus](media/configure-channel-hierarchy-3.png)
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
-[Kanalų naršymo hierarchijos kūrimas](create-channel-hierarchy.md)
+[Kanalo naršymo hierarchijos kūrimas](create-channel-hierarchy.md)
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

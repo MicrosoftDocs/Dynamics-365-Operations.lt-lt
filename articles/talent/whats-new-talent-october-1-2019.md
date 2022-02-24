@@ -84,6 +84,3 @@ Atlikus šį pakeitimą, kompensavimo pradžios datos numatytasis parametras tam
 ### <a name="print-performance-reviews"></a>Veiklos efektyvumo vertinimų spausdinimas
 
 Darbuotojo veiklos efektyvumo vertinimą galės spausdinti darbuotojai, vadovai ir personalo valdymo skyrius.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

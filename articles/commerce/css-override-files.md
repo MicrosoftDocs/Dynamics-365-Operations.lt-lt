@@ -2,30 +2,36 @@
 title: Darbas su CSS perrašymo failais
 description: Šioje temoje aprašoma, kodėl, kada ir kaip programoje „Microsoft Dynamics 365 Commerce“ naudoti pakopinių stilių sąrašo (CSS) perrašymo failus.
 author: phinneyridge
+manager: annbe
 ms.date: 05/28/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Operations, Retail, Core
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-12-12
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 6788481936a54bff32096dba1d0424fc52c669e4
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
-ms.translationtype: MT
+ms.openlocfilehash: 3ec43b16b1df07400cffe597378ad4035e4d07e0
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7964609"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4414350"
 ---
 # <a name="work-with-css-override-files"></a>Darbas su CSS perrašymo failais
+
 
 [!include [banner](includes/banner.md)]
 
 Šioje temoje aprašoma, kodėl, kada ir kaip programoje „Microsoft Dynamics 365 Commerce“ naudoti pakopinių stilių sąrašo (CSS) perrašymo failus.
+
+## <a name="overview"></a>Peržiūrėti
 
 Nuolatiniai svetainės stiliai paprastai turėtų būti tvarkomi naudojant svetainės temą. Naudojant temas pasiekiami pagrindiniai bet kurio svetainės puslapio CSS ir stilių parametrai. Temos kuriamos naudojant „Dynamics 365 Commerce“ internetinį programinės įrangos kūrimo rinkinį (SDK), o į svetaines įdiegiamos naudojant „Microsoft Dynamics Lifecycle Services“ (LCS). Naudodami temų derinimo galimybes ir modulių sąsajos konfigūracijas SDK žinyno svetainėje, svetainių programuotojai gali lengviau kurti tinkinamus ir darnius svetainių dizaino paketus. Kai šie dizaino paketai įdiegiami į svetainę, jos autoriai gali sutelkti dėmesį į turinio kūrimą, redagavimą ir publikavimą, o ne į svetainės programavimą.
 
@@ -38,7 +44,7 @@ Prieš naudodami CSS perrašymo failus, turėkite omenyje tolesnius apribojimus.
 - Vienu metu svetainėje gali būti aktyvus tik vienas CSS perrašymo failas. Todėl visi aktyvūs perrašymo veiksmai turi būti viename perrašymo faile.
 - Nors perrašymo veiksmus galite peržiūrėti „Commerce“ kūrimo įrankiuose, juose nėra specialių derinimo funkcijų, padedančių nustatyti perrašymo veiksmų sukeliamas klaidas. Kitaip tariant, kai naudojate CSS perrašymo failus, neturite tokio paties įrankių rinkinio, kurį SDK suteikia moduliams ir kūrimui tikrinti.
 
-Nepaisant to, CSS perrašymo failai yra greitas būdas dizaino prototipui sukurti ar karštajai pataisai įdiegti prieš sukuriant ir įdiegiant visapusį temos naujinimą.
+Nepaisant to, CSS perrašymo failai yra greitas būdas dizaino prototipui sukurti ar karšajai pataisai įdiegti prieš sukuriant ir įdiegiant visapusį temos naujinimą.
 
 ## <a name="create-a-css-override-file"></a>CSS perrašymo failo sukūrimas
 
@@ -55,7 +61,7 @@ Norėdami programoje „Commerce“ į svetainę nusiųsti CSS failą, atlikite 
     > Kad galėtumėte pasirinkti **Dizainas**, naršymo srityje gali reikėti išplėsti elementą **Parametrai** – tai priklauso nuo naudojamos „Commerce“ kūrimo įrankių versijos.
 
 1. Jei jis dar nepasirinktas, pagrindinės dizaino srities viršuje pasirinkite skirtuką **CSS perrašymas**.
-1. Dalyje **Galimi CSS perrašymo veiksmai** pasirinkite **Nusiųsti CSS failą**. Atsiranda failų naršyklės langas.
+1. Dalyje **Galimi CSS perrašymo veiksmai** pasirinkite **Nusiųsti CSS failą**. Atisranda failų naršyklės langas.
 1. Naršydami failų naršyklėje pasirinkite CSS failą, tada – **Atidaryti**. Nusiųstas CSS failas dabar rodomas dalyje **Galimi CSS perrašymo veiksmai**.
 
 ## <a name="preview-a-css-override-file"></a>CSS perrašymo failo peržiūra
@@ -89,7 +95,7 @@ Norėdami savo svetainėje CSS perrašymo failą išjungti, atlikite tolesnius v
 1. Po CSS failo pavadinimu pasirinkite **Išjungti**. Perrašymo failas iš karto tampa neaktyvus jūsų paleistoje svetainėje.
 
 > [!TIP]
-> Norėdami pasiekti papildomas CSS perrašymo failų parinktis, pasirinkite prie CSS failo pavadinimo esantį daugtaškį (**...**). Parinktys **Atsisiųsti**, **Pervardyti** ir **Pakeisti** yra naudingos norint greitai pakeisti esamą CSS perrašymo failą.
+> Norėdami pasiekti papildomas CSS perrašymo failų parinktis, pasirinkite prie CSS failo pavadinimo esantį daugtašį (**...**). Parinktys **Atsisiųsti**, **Pervardyti** ir **Pakeisti** yra naudingos norint greitai pakeisti esamą CSS perrašymo failą.
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
@@ -101,11 +107,10 @@ Norėdami savo svetainėje CSS perrašymo failą išjungti, atlikite tolesnius v
 
 [Įtraukti parankinių piktogramą](add-favicon.md)
 
+[Įtraukti pasveikinimo pranešimą](add-welcome-message.md)
+
 [Įtraukti informaciją apie autorių teises](add-copyright-notice.md)
 
 [Kalbų įtraukimas į savo svetainę](add-languages-to-site.md)
 
 [Įtraukite scenarijaus kodą į svetainės puslapius, kad būtų palaikoma telemetrija](add-telemetry.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,9 +2,11 @@
 title: Laukų aprašų peržiūra ir eksportas
 description: Šiame straipsnyje aprašoma, kaip peržiūrėti laukų aprašymus ir kaip naudoti puslapį Laukų aprašymai, norint eksportuoti aprašymus.
 author: rschloma
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: FieldDescriptions
 audience: Application User, Developer, IT Pro
@@ -15,19 +17,16 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ea52c39ef1c7d7b62f20da9fe4d94103119ccc23
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
-ms.translationtype: MT
+ms.openlocfilehash: 39dd9a86ffb04d18f61c75fb2c9634e441dc823b
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069278"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797904"
 ---
 # <a name="view-and-export-field-descriptions"></a>Laukų aprašų peržiūra ir eksportas
 
 [!include [banner](../includes/banner.md)]
-
-
-[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Šiame straipsnyje aprašoma, kaip peržiūrėti laukų aprašymus ir kaip naudoti puslapį Laukų aprašymai, norint eksportuoti aprašymus.
 
@@ -46,7 +45,7 @@ Laukų aprašus galite peržiūrėti užvesdami pelės žymeklį virš lauko. Je
 
 Toliau pateiktoje iliustracijoje parodytas lauko aprašymas, kuris rodomas pelės žymeklį užvedus virš lauko **Blokuoti prekes jas inventorizuojant**.
 
-[![Lauko aprašo pavyzdys.](./media/field-description.png)](./media/field-description.png)
+[![Lauko aprašo pavyzdys](./media/field-description.png)](./media/field-description.png)
 
 ## <a name="use-the-field-descriptions-page-to-view-and-export-field-help"></a>Puslapio Laukų aprašymai naudojimas lauko žinynui peržiūrėti ir eksportuoti
 
@@ -108,6 +107,3 @@ Informacijos apie įvairius būdus, kaip rasti puslapius, žr. ankstesnėje šio
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Laukų aprašų tinkinimas](../../dev-itpro/user-interface/customize-field-help.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

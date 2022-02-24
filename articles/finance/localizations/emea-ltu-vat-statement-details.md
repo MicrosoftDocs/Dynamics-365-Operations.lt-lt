@@ -2,24 +2,27 @@
 title: PVM išrašo informacija, skirta Lietuvai
 description: Šioje temoje paaiškinama, kaip nustatyti juridiniams subjektams Lietuvoje skirtą PVM išrašą.
 author: ShylaThompson
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxAuthority, TaxReportCollection, TaxReportVoucher, TaxTable
 audience: Application User
 ms.reviewer: kfend
+ms.search.scope: Core, Operations
 ms.custom: 266884
 ms.search.region: Lithuania
 ms.author: kfend
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 63c8c5616e226aaeff2a3f59977a2d4621014a5496bd6d579f7ef6ae54c29d20
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3e19624ae049cbd5629aed67ef41b8012ce289c8
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6770498"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4408238"
 ---
 # <a name="vat-statement-details-for-lithuania"></a>PVM išrašo informacija, skirta Lietuvai
 
@@ -70,6 +73,3 @@ Norėdami generuoti PVM XML failą, puslapyje **PVM mokėjimai** pasirinkite vie
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

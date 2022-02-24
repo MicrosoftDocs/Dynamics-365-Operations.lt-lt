@@ -2,9 +2,11 @@
 title: Įplaukų pripažinimo perskirstymas – 1 scenarijus
 description: Šioje temoje aprašytas perskirstymo scenarijus, kai įvedami du pardavimo užsakymai, tačiau jie yra tik patvirtinti. Tas pats scenarijus duoda panašius rezultatus, jei daugiau nei dviejų pardavimo užsakymų būsena yra Patvirtinta.
 author: kweekley
+manager: aolson
 ms.date: 12/21/2020
 ms.topic: index-page
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: Customer
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-12-21
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: d63082553f8625a9953b0a85d59a4949a37c92770ce2a41a43d78cf0266f3b85
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2a0add2d4bc01127c1f359736398123a6a3df9fe
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6770718"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969657"
 ---
 # <a name="revenue-recognition-reallocation--scenario-1"></a>Įplaukų pripažinimo perskirstymas – 1 scenarijus
 
@@ -28,25 +30,25 @@ ms.locfileid: "6770718"
 
 Šiam scenarijui parinktis **Perskirstant registruoti SF taisymus į Gautinas sumas** nustatoma į **Ne** skirtuke **Įplaukų pripažinimas** puslapyje **DK parametrai** (**Įplaukų pripažinimas \> Sąranka \> DK parametrai**).
 
-[![Parinktis Registruoti SF taisymus į Gautinas sumas nustatyta į Ne.](./media/06_rev-rec-scenarios.png)](./media/06_rev-rec-scenarios.png)
+[![Parinktis Registruoti SF taisymus į Gautinas sumas nustatyta į Ne](./media/06_rev-rec-scenarios.png)](./media/06_rev-rec-scenarios.png)
 
 Sukurtas kliento US\_SI\_0003 pardavimo užsakymas. Klientas perka nešiojamąjį kompiuterį (prekės numeris S0012) ir palaikymo planą (prekės numeris S0008, „Ilgalaikė inžinerinė paslauga“). Nešiojamojo kompiuterio įplaukos atpažįstamos iš karto (nėra įplaukų atpažinimo grafiko). Palaikymo plano įplaukos bus atidėtos ir atpažįstamos per 12 mėnesių, kaip nurodyta sutartyje apibrėžtame datų intervale.
 
-[![Nešiojamojo kompiuterio ir palaikymo plano pardavimo užsakymo eilutės.](./media/07_rev-rec-scenarios.png)](./media/07_rev-rec-scenarios.png)
+[![Nešiojamojo kompiuterio ir palaikymo plano pardavimo užsakymo eilutės](./media/07_rev-rec-scenarios.png)](./media/07_rev-rec-scenarios.png)
 
 Pardavimo užsakymas patvirtinamas. Abiems prekėms nustatytas įplaukų vertės paskirstymas, todėl įplaukų vertė apskaičiuojama patvirtinus pardavimo užsakymą. Galite peržiūrėti įplaukas, kurios bus atpažintos, puslapyje **Įplaukų vertės paskirstymas** (puslapyje **Pardavimo užsakymas** veiksmų srities skirtuke **Valdymas** grupėje **Įplaukų pripažinimas** pasirinkite **Įplaukų vertės paskirstymas**). Nešiojamojo kompiuterio įplaukos bus užregistruotos Įplaukų sąskaitoje, kurios suma 1.008,01 $. Palaikymo plano įplaukos bus užregistruotos atidėtų įplaukų sąskaitoje, kurios suma 190,99 $. Įplaukų verčių suma turi būti lygi eilučių, kurios nustatytos įplaukų vertės paskirstymui fiksuoti, sumai (1 199,00 $).
 
-[![Įplaukų vertės paskirstymo puslapis.](./media/08_rev-rec-scenarios.png)](./media/08_rev-rec-scenarios.png)
+[![Įplaukų vertės paskirstymo puslapis](./media/08_rev-rec-scenarios.png)](./media/08_rev-rec-scenarios.png)
 
 Klientas pardavimo metu pasirinko nepirkti diegimo paslaugų (prekės numeris S0001), tačiau vėliau pakeitė savo nuomonę. Todėl įvedamas antras to paties kliento pardavimo užsakymas.
 
-[![Diegimo paslaugų pardavimo užsakymo eilutė.](./media/09_rev-rec-scenarios.png)](./media/09_rev-rec-scenarios.png)
+[![Diegimo paslaugų pardavimo užsakymo eilutė](./media/09_rev-rec-scenarios.png)](./media/09_rev-rec-scenarios.png)
 
 Patvirtinamas antras pardavimo užsakymas. Šiame pardavimo užsakyme yra tik viena eilutė, todėl įplaukų vertės paskirstymas neatliekamas, kai patvirtinamas pardavimo užsakymas. Įplaukų vertės paskirstymas vykdomas tik tada, kai yra dvi ar daugiau unikalių prekių ir tos prekės nustatytos kaip įplaukų vertės paskirstymas.
 
 Jei šis naujas pardavimo užsakymas yra vienintelis kliento sutarties pakeitimas, galima vykdyti perskirstymo procesą. Viename iš dviejų pardavimo užsakymų pasirinkite **Perskirstyti vertę naujose užsakymo eilutėse**, kad atidarytumėte puslapį **Perskirstyti vertę naujose užsakymo eilutėse**. Arba eikite į **Įplaukų pripažinimas \> Periodinės užduotys \> Perskirstyti vertę naujose užsakymo eilutėse**. Pasirinkite du pardavimo užsakymus ir atitinkamas pardavimo užsakymo eilutes, tada pasirinkite **Naujinti perskirstymą**. Stulpelyje **Perskirstyta suma** rodoma nauja kiekvienos pardavimo užsakymo eilutės įplaukų vertė.
 
-[![Naujos įplaukų vertės puslapyje Perskirstyti vertę naujose užsakymo eilutėse.](./media/10_rev-rec-scenarios.png)](./media/10_rev-rec-scenarios.png)
+[![Naujos įplaukų vertės puslapyje Perskirstyti vertę naujose užsakymo eilutėse](./media/10_rev-rec-scenarios.png)](./media/10_rev-rec-scenarios.png)
 
 Jei pasirenkate **Numatytas kvitas**, nieko nerodoma, nes nebuvo užregistruota jokių SF.
 
@@ -55,7 +57,4 @@ Norėdami baigti perskirstymą, pasirinkite **Apdoroti**. Bus rodomas raginimas 
 > [!TIP]
 > Norėdami pateikti kontekstą, kodėl šie papildomi elementai rodomi, į tinklelį galite įtraukti kitus stulpelius, pvz., **Perskirstymo ID** ir **Pardavimo užsakymas**.
 > 
-> [![Papildomi stulpeliai puslapyje Įplaukų vertės paskirstymai.](./media/11_rev-rec-scenarios.png)](./media/11_rev-rec-scenarios.png)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+> [![Papildomi stulpeliai puslapyje Įplaukų vertės paskirstymai](./media/11_rev-rec-scenarios.png)](./media/11_rev-rec-scenarios.png)

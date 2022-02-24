@@ -1,51 +1,54 @@
 ---
 title: Ilgalaikio turto vertės modelis ir nusidėvėjimo knygos suliejimas
 description: 'Ankstesniuose leidimuose buvo naudojamos dvi ilgalaikio turto vertinimo sąvokos: vertinimo modelis ir nusidėvėjimo knygos. „Microsoft Dynamics 365 for Operations“ (1611) leidime vertinimo modelio funkcija ir nusidėvėjimo knygų funkcija buvo sujungtos į vieną sąvoką, vadinama knyga.'
-author: moaamer
-ms.date: 10/14/2021
+author: ShylaThompson
+manager: AnnBe
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
 ms.custom: 221564
 ms.assetid: 7c68eb7c-8b1a-4dd9-afb8-04b4040e305e
 ms.search.region: Global
-ms.author: moaamer
+ms.author: saraschi
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 9b11edcbf03b0917e35d9cef03834629b7b67fad
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
-ms.translationtype: MT
+ms.openlocfilehash: 0528c378ffbb24ac8cb19af25290a1002ece2327
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7674931"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969060"
 ---
 # <a name="fixed-asset-value-model-and-depreciation-book-merge"></a>Ilgalaikio turto vertės modelis ir nusidėvėjimo knygos suliejimas
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje aprašomos ilgalaikio turto knygos funkcijos. Naujos knygos funkcionalumas pagrįstas ankstesnio vertės modelio funkcionalumu, kuris buvo ankstesnėse versijose, bet taip pat apima visą anksčiau tik nusidėvėjimo knygose pateikiamą funkcionalumą.
+Ankstesniuose leidimuose buvo naudojamos dvi ilgalaikio turto vertinimo sąvokos: vertinimo modelis ir nusidėvėjimo knygos. „Microsoft Dynamics 365 for Operations“ (1611) leidime vertinimo modelio funkcija ir nusidėvėjimo knygų funkcija buvo sujungtos į vieną sąvoką, vadinama knyga.
 
-Knygų funkcijos leidžia naudoti vieną puslapių, užklausų ir ataskaitų rinkinį visų jūsų organizacijos ilgalaikio turto procesų metu. Šios temos lentelėse aprašomas ankstesnis nusidėvėjimo knygų funkcionalumas ir vertės modeliai, taip pat dabartinis knygų funkcionalumas.
+Naujos knygos funkcionalumas pagrįstas ankstesnio vertės modelio funkcionalumu, bet taip pat apima visą anksčiau tik nusidėvėjimo knygose pateikiamą funkcionalumą. [![Knyga kaip vertės modelio ir nusidėvėjimo knygos funkcionalumo suliejimas](./media/fixed-assets.png)](./media/fixed-assets.png) Dėl šio suliejimo dabar galite naudoti vieną puslapių rinkinį, užklausas ir visų savo ilgalaikio turto procesų ataskaitas. Šios temos lentelėse aprašomas ankstesnis nusidėvėjimo knygų funkcionalumas ir vertės modeliai, taip pat naujas knygų funkcionalumas.
 
 ## <a name="setup"></a>Sąranka
 Pagal numatytuosius parametrus knygos registruojamos ir didžiojoje knygoje (DK), ir ilgalaikio turto papildomoje knygoje. Knygose pateikiama nauja parnktis **Registruoti didžiojoje knygoje**, kuria naudodamiesi galite išjungti registravimą DK ir registruoti tik ilgalaikio turto papildomoje knygoje. Ši funkcija primena ankstesnę nusidėvėjimo knygų registravimo veikseną. Žurnalų pavadinimų sąranka turi naują registravimo sluoksnį, kurio pavadinimas Nėra. Šis registravimo sluoksnis pridėtas specialiai ilgalaikio turto operacijoms. Norėdami registruoti į DK neregistruojančių knygų operacijas, privalote naudoti žurnalo pavadinimą, kuriame nustatyta registravimo sluoksnio nuostata **Nėra**.
 
-
-| &nbsp;                                           | Nusidėvėjimo knyga               | Vertinimo modelis                     | Knyga (nauja)                                              |
+|                                                  |                                 |                                 |                                                         |
 |--------------------------------------------------|---------------------------------|---------------------------------|---------------------------------------------------------|
-| Registruoti didžiojoje knygoje                                   | Niekada                           | Visada                          | Parinktis registruoti didžiojoje knygoje                                |
+|                                                  | Nusidėvėjimo knyga               | Vertės modelis                     | Knyga (nauja)                                              |
+| Registruoti didžiojoje knygoje                                   | Niekada                           | Visada                          | Galimybė registruoti didžiojoje knygoje                                |
 | Registravimo sluoksniai                                   | Netaikoma                  | 3: Dabartiniai duomenys, operacijos ir mokesčiai | 11: Dabartiniai duomenys, operacijos, mokesčiai, 7 pasirinktiniai sluoksniai ir nėra |
-| Žurnalų pavadinimai                                    | Nusidėvėjimo knygos žurnalo pavadinimai | DK - žurnalo ataskaitos              | DK - žurnalo ataskaitos                                      |
+| Žurnalų pavadinimai                                    | Nusidėvėjimo knygos žurnalo pavadinimai | DK – Žurnalų pavadinimai              | DK – Žurnalų pavadinimai                                      |
 | Išvestinės knygos                                    | Neleidžiama                     | Leidžiama                         | Leidžiama                                                 |
 | Nusidėvėjimo profilio nepaisymas turto lygiu | Leidžiama                         | Neleidžiama                     | Leidžiama                                                 |
 
 ## <a name="processes"></a>Procesai
 Procesuose dabar naudojamas bendrasis puslapis. Kai kurie procesai leidžiami tik tuo atveju, jeigu knygos sąrankoje nustatyta parinkties **Registruoti didžiojoje knygoje** nuostata **Ne**.
 
-| &nbsp;                                           | Nusidėvėjimo knyga               | Vertės modelis                     | Knyga (nauja)                                              |
+|                                |                           |                     |                                          |
 |--------------------------------|---------------------------|---------------------|------------------------------------------|
+|                                | Nusidėvėjimo knyga         | Vertės modelis         | Knyga (nauja)                               |
 | Operacijos įvedimas              | Nusidėvėjimo knygos žurnalas | Ilgalaikio turto žurnalas | Ilgalaikio turto žurnalas                      |
 | Papildomas nusidėvėjimas             | Leidžiama                   | Neleidžiama         | Leidžiama                                  |
 | Naikinti ankstesnes operacijas | Leidžiama                   | Neleidžiama         | Leidžiama, jeigu neregistruojate didžiojoje knygoje |
@@ -54,8 +57,9 @@ Procesuose dabar naudojamas bendrasis puslapis. Kai kurie procesai leidžiami ti
 ## <a name="inquiries-and-reports"></a>Užklausos ir ataskaitos
 Užklausos ir ataskaitos palaiko visas knygas. Į toliau pateikiamą lentelę neįtrauktos ataskaitos anksčiau palaikė ir nusidėvėjimo knygas, ir vertės modelius, o dabar palaikys visus knygų tipus. Laukas **Registravimo sluoksnis** taip pat įtrauktas į ataskaitas, kad galėtumėte lengviau identifikuoti operacijų registravimus.
 
-| &nbsp;                                           | Nusidėvėjimo knyga               | Vertės modelis                     | Knyga (nauja)                                              |
+|                                       |                                |                          |                          |
 |---------------------------------------|--------------------------------|--------------------------|--------------------------|
+|                                       | Nusidėvėjimo knyga              | Vertės modelis              | Knyga (nauja)               |
 | Užklausos                             | Nusidėvėjimo knygos operacijos | Ilgalaikio turto operacijos | Ilgalaikio turto operacijos |
 | Ilgalaikio turto išrašas                 | Neleidžiama                    | Leidžiama                  | Leidžiama                  |
 | Ilgalaikio turto pagrindas                     | Leidžiama                        | Neleidžiama              | Leidžiama                  |
@@ -66,6 +70,3 @@ Atnaujinimo procesas perkels esamą jūsų sąranką ir visas esamas jūsų oper
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

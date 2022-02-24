@@ -2,23 +2,26 @@
 title: Pripažinti atidėtas įplaukas
 description: Šioje temoje pateikiama informacija apie tai, kaip pripažinti įplaukas naudojant įplaukų pripažinimo funkciją.
 author: kweekley
+manager: aolson
 ms.date: 08/24/2018
 ms.topic: index-page
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: Customer
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: f6b221104d7012d82a0021b6d8f9cc10fe44cb7b8f3473ab8e7ae7a89be0a5e6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ace1d00ec25a57b26b1858369c32d9134a380977
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6726115"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4459564"
 ---
 # <a name="recognize-deferred-revenue"></a>Pripažinti atidėtas įplaukas
 
@@ -36,7 +39,7 @@ Yra du būdai pasiekti įplaukų pripažinimo grafiko informaciją.
 - Galite atidaryti įplaukų pripažinimo grafiką tiesiai pardavimo užsakyme, kurio SF jau išrašyta. Tokiu atveju įplaukų grafiko informacija yra filtruojama rodyti tik pasirinkto pardavimo užsakymo informaciją. Šis būdas naudingas, kai tikrinate pardavimo užsakymo grafiko informaciją.
 - Galite atidaryti įplaukų pripažinimo grafiką puslapyje **Įplaukų pripažinimas \> Periodinės užduotys**. Šis būdas dažnai naudojamas, kai įplaukos pripažįstamos laikotarpio pabaigoje. Pirmą kartą atidarius puslapį, informacija nerodoma. Norėdami apibrėžti rodytinos grafiko informacijos kriterijus, naudokite filtrus virš tinklelio. Galite filtruoti SF datas įvesdami datų intervalą, pardavimo užsakymą, klientą, projekto ID arba būseną.
 
-[![Puslapio Įplaukų grafikai iliustracija.](./media/revenue-recognition-schedule-page.png)](./media/revenue-recognition-schedule-page.png)
+[![Įplaukų grafikų puslapis](./media/revenue-recognition-rev-revenue-schedules.png)](./media/revenue-recognition-rev-revenue-schedules.png)
 
 **Finansinė dimensija** „FastTab“ po tinkleliu rodo pardavimo užsakymo eilutės finansines dimensijas. Į šias dimensijas atsižvelgta registruojant atidėtas įplaukas. Į jas taip pat atsižvelgiama pripažįstant įplaukas. Naudojamos dimensijų reikšmės priklauso nuo sąskaitos struktūros, priskirtos įplaukų ir atidėtų įplaukų pagrindinėms sąskaitoms.
 
@@ -46,7 +49,7 @@ Yra du būdai pasiekti įplaukų pripažinimo grafiko informaciją.
 
 Norėdami apibrėžti įplaukų pasirinkimo ir registravimo kriterijus, pasirinkite **Kurti žurnalą**, kad atidarytumėte dialogo langą **Kurti žurnalą**.
 
-[![Kurti žurnalą: parametrų parinktys.](./media/revenue-recognition-create-journal.png)](./media/revenue-recognition-create-journal.png)
+[![Kurti žurnalą: parametrų parinktys](./media/revenue-recognition-create-journal.png)](./media/revenue-recognition-create-journal.png)
 
 Norėdami apibrėžti registravimo datą, naudojamą pripažįstant įplaukas, dialogo lange naudokite **Apdorojimo data** lauko grupės parinktis. Pasirinkę **Pasirinkti datą**, galite įvesti registravimo datą lauke **Operacijos data**. Pasirinkus **Įplaukų grafiko data**, operacijos data nenaudojama. Vietoj to lauko **Pripažinimo data** reikšmė kiekvienoje grafiko eilutėje naudojama kaip registravimo data.
 
@@ -56,11 +59,11 @@ Baigę nustatyti datas, dialogo lange pasirinkite **GERAI** žurnalui sukurti. G
 
 Po proceso vykdymo grafike esančios eilutės, kurios buvo perkeltos į žurnalą, pažymimos kaip **Apdorota**. Vėliavėlė **Apdorota** rodo, kad eilutės buvo perkeltos į žurnalą, tačiau jos gali būti registruojamos arba neregistruojamos. Užregistravus įplaukų pripažinimo žurnalą, vėliavėlė **Apdorota** lieka. Panaikinus įplaukų pripažinimo žurnalą arba eilutę, vėliavėlė **Apdorota** pašalinama. Tokiu atveju, eilutę galima pripažinti dar kartą vykdant procesą **Kurti žurnalą**.
 
-[![Įplaukų pripažinimo grafikų puslapis.](./media/revenue-recognition-rev-recog-schedule-02.png)](./media/revenue-recognition-rev-recog-schedule-02.png)
+[![Įplaukų pripažinimo grafikų puslapis](./media/revenue-recognition-rev-recog-schedule-02.png)](./media/revenue-recognition-rev-recog-schedule-02.png)
 
 Puslapyje **Įplaukų pripažinimo žurnalas** (**Įplaukų pripažinimas \> Žurnalo įrašai \> Įplaukų pripažinimo žurnalas**) atidarykite **Eilutės** informacijai apie tai, kas pripažįstama, peržiūrėti. Kiekvienai pripažįstamai grafiko eilutei visada sukuriama atskira operacija, net jei visos eilutės yra registruojamos tą pačią dieną naudojant tas pačias DK sąskaitas.
 
-[![Žurnalo kvito puslapis.](./media/revenue-recognition-journal-voucher.png)](./media/revenue-recognition-journal-voucher.png)
+[![Žurnalo kvito puslapis](./media/revenue-recognition-journal-voucher.png)](./media/revenue-recognition-journal-voucher.png)
 
 Stulpelyje **Sąskaita** rodoma atidėtų įplaukų DK sąskaita. Šios DK sąskaitos redaguoti negalima. Šis apribojimas padeda garantuoti, kad bus paskiriama teisinga atidėtų įplaukų DK sąskaita. Ši DK sąskaita nėra patikrinta pagal sąskaitos struktūrą, nes ji galėjo pasikeisti po paskutinio registravimo nurodytoje įplaukų DK sąskaitoje.
 
@@ -82,7 +85,7 @@ Kai kuriuos pakeitimus grafiko eilutėse leidžiama atlikti. Eilutėse galima ke
 
 - **Sulaikyta** – šią vėliavėlę galima nustatyti arba išvalyti prieš apdorojant eilutę. Norėdami išvalyti vėliavėlę, pasirinkite eilutę ir tada pasirinkite **Šalinti sulaikymą**. Įplaukų negalima pripažinti sulaikytose eilutėse. Eilutes galima automatiškai sulaikyti, jei įplaukų grafikas yra nustatytas automatiniams sulaikymams.
 
-    [![Įplaukų grafikai – redaguoti grafiko eilutes.](./media/revenue-recognition-rev-revenue-schedules.png)](./media/revenue-recognition-rev-revenue-schedules.png)
+    [![Įplaukų grafikai – redaguoti grafiko eilutes](./media/revenue-recognition-rev-revenue-schedules.png)](./media/revenue-recognition-rev-revenue-schedules.png)
 
 - **Pripažinimo data** – pripažinimo datą galima keisti prieš apdorojant eilutę. Vykdant procesą, kurio metu sukuriamas įplaukų pripažinimo žurnalas, lauke **Pripažinti įplaukas nuo datos** įvedama data. Ši data yra lyginama su data, esančia lauke **Pripažinimo data**, kad būtų galima nustatyti, kurias eilutes reikia pripažinti.
 - **Suma, kurią reikia išleisti** – sumą, kuri bus išleista, galima keisti prieš apdorojant eilutę. Galite sumažinti pripažintų įplaukų sumą, tačiau negalite jos padidinti. Šis laukas leidžia organizacijai pripažinti dalį įplaukų pripažinimo dieną. Jei suma keičiama, lauke **Likusi suma** nurodyta suma rodo, kiek įplaukų vis dar reikia pripažinti.
@@ -94,18 +97,15 @@ Išsami įplaukų grafiko informacija sudaroma remiantis įplaukų grafiku, pris
 
 Norėdami pakeisti grafiką, pasirinkite bet kurią keičiamos prekės grafiko eilutę. Tolesnėje iliustracijoje pasirinkta prekės S0008, užregistruotos naudojant 12 mėnesių įplaukų grafiką, eilutė. Pasirinkus **Naujinti sutarties sąlygas**, dialogo lange rodomos sutarties pradžios ir pabaigos datos bei įplaukų grafikas.
 
-[![Sutarties pradžios ir pabaigos datos.](./media/revenue-recognition-rev-revenue-schedule-update-cntrct-dates-schedule.png)](./media/revenue-recognition-rev-revenue-schedule-update-cntrct-dates-schedule.png)
+[![Sutarties pradžios ir pabaigos datos](./media/revenue-recognition-rev-revenue-schedule-update-cntrct-dates-schedule.png)](./media/revenue-recognition-rev-revenue-schedule-update-cntrct-dates-schedule.png)
 
 Pakeiskite sutarties pradžios ir pabaigos datas taip, kad jos atspindėtų teisingą datų intervalą. Keičiant datų intervalą, lauke **Pasikartojimų skaičius** esanti reikšmė turi atitikti įplaukų grafiką, apibrėžtą sistemoje. Šiame pavyzdyje, kadangi sutartis buvo pakeista į 24 mėnesių sutartį, turi būti nustatytas 24 mėnesių įplaukų grafikas. Kadangi yra 24 mėnesių įplaukų grafikas, jis įvedamas pagal numatytuosius nustatymus, ir sutartį galima keisti. Jei nėra įplaukų grafiko, turinčio atitinkamą įvykių skaičių, sutarties keisti negalima. Baigę naujinti sutarties sąlygas ir įplaukų grafiką, dialogo lange pasirinkite **GERAI**, kad išsaugotumėte pakeitimus.
 
-[![Atnaujintas sutarties datų intervalas.](./media/revenue-recognition-rev-revenue-schedule-update-cntrct-dates-schedule-02.png)](./media/revenue-recognition-rev-revenue-schedule-update-cntrct-dates-schedule-02.png)
+[![Atnaujintas sutarties datų intervalas](./media/revenue-recognition-rev-revenue-schedule-update-cntrct-dates-schedule-02.png)](./media/revenue-recognition-rev-revenue-schedule-update-cntrct-dates-schedule-02.png)
 
 Sutarties pakeitimai turi tokią įtaką įplaukų grafiko informacijai:
 
 - Jei už produktą įplaukos nebuvo pripažintos, visa ankstesnė grafiko informacija bus pašalinta ir pakeista nauja įplaukų grafiko informacija. Pavyzdžiui, prekė S0008 iš pradžių turėjo 12 eilučių grafiko informacijoje. Remiantis naujuoju įplaukų grafiku, šios 12 eilučių pašalinamos ir pakeičiamos 24 eilutėmis.
 - Jei įplaukos buvo pripažintos už produktą, kai kurios įplaukos buvo neteisingai pripažintos, nes pripažinimas buvo pagrįstas neteisingu įplaukų grafiku. Remiantis naujuoju grafiku, šios eilutės turi būti atšaukiamos ir pripažįstamos dar kartą. Tokiu atveju, sukuriamos naujos įplaukų grafiko eilutės, kurių pradinėmis pripažinimo datomis sumos yra neigiamos. Tada sukuriamos naujos eilutės sumoms pripažinti pagal naują įplaukų grafiką. Pavyzdžiui, 2019 m. rugpjūčio 8 d. pripažinote įplaukas už 10,53 USD. 2019 m. rugsėjo 8 d. pripažinote įplaukas už 13,16 USD. Todėl tomis pačiomis datomis sukuriamos dvi naujos eilutės. Viena eilutė skirta 10,53 USD, o kita eilutė skirta 13,16 USD. Tada sukuriamos dvidešimt keturios naujos eilutės ir joms paskirstomos visos 160,61 USD atidėtos įplaukos. Galite registruoti atšaukimo eilutes vykdydami procesą **Kurti žurnalą**.
 
-[![Įplaukų pripažinimo grafikas.](./media/revenue-recognition-rev-recog-schedule-03.png)](./media/revenue-recognition-rev-recog-schedule-03.png)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+[![Įplaukų pripažinimo grafikas](./media/revenue-recognition-rev-recog-schedule-03.png)](./media/revenue-recognition-rev-recog-schedule-03.png)

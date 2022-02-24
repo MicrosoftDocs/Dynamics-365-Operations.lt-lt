@@ -1,31 +1,61 @@
 ---
 title: Bendroji trikčių šalinimo informacija
-description: Šioje temoje pateikiama bendroji trikčių šalinimo informacija apie dvigubo rašymo integravimą tarp „Finance and Operations“ programų ir Dataverse.
+description: Šioje temoje pateikiama dvigubo rašymo funkcijos integravimo tarp „Finance and Operations“ ir “Dataverse“ programų bendroji trikčių šalinimo informacija.
 author: RamaKrishnamoorthy
+manager: AnnBe
 ms.date: 03/16/2020
 ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: ''
 audience: Application User, IT Pro
-ms.reviewer: tfehr
+ms.reviewer: rhaertle
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
+ms.search.industry: ''
 ms.author: ramasri
+ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: f6f5b9f26990e2f4db9bf69040a6c4be31400b40
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
-ms.translationtype: MT
+ms.openlocfilehash: b01ef3da908739d17f2a03398ae56f35191e8db6
+ms.sourcegitcommit: 7e1be696894731e1c58074d9b5e9c5b3acf7e52a
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062343"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4744546"
 ---
 # <a name="general-troubleshooting"></a>Bendroji trikčių šalinimo informacija
 
 [!include [banner](../../includes/banner.md)]
 
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 
-Šioje temoje pateikiama bendroji trikčių šalinimo informacija apie dvigubo rašymo integravimą tarp „Finance and Operations“ programų ir Dataverse.
+
+Šioje temoje pateikiama dvigubo rašymo funkcijos integravimo tarp „Finance and Operations“ ir “Dataverse“ programų bendroji trikčių šalinimo informacija.
 
 > [!IMPORTANT]
 > Kai kurioms šioje temoje nagrinėjamoms problemoms spręsti gali reikėti sistemos administratoriaus vaidmens arba „Microsoft Azure Active Directory” („Azure AD”) nuomotojo administratoriaus kredencialų. Kiekvienai problemai skirtoje dalyje paaiškinama, ar reikia konkretaus vaidmens ar kredencialų.
+
+## <a name="when-you-try-to-install-the-dual-write-package-by-using-the-package-deployer-tool-no-available-solutions-are-shown"></a>Kai bandote įdiegti dvigubo rašymo paketą naudodami įrankį „Package Deployer“, nerodoma pasiekiamų sprendimų
+
+Kai kurios įrankio „Package Deployer“ versijos yra nesuderinamos su dvigubo rašymo sprendimo paketu. Norėdami sėkmingai įdiegti paketą, įsitikinkite, kad naudojate įrankio „Package Deployer“ [9.1.0.20](https://www.nuget.org/packages/Microsoft.CrmSdk.XrmTooling.PackageDeployment.Wpf/9.1.0.20) arba naujesnę versiją.
+
+Įdiegę įrankį „Package Deployer“, įdiekite sprendimo paketą atlikdami šiuos veiksmus.
+
+1. Atsisiųskite naujausią sprendimo paketo failą iš Yammer.com. Atsisiuntus paketo ZIP failą, spustelėkite jį dešiniuoju pelės klavišu ir pasirinkite **Ypatybės**. Pažymėkite žymės langelį **Atblokuoti**, tada pasirinkite **Taikyti**. Jei nematote žymės langelio **Atblokuoti**, ZIP failas jau yra atblokuotas ir galite praleisti šį veiksmą.
+
+    ![Ypatybių dialogo langas](media/unblock_option.png)
+
+2. Išskleiskite paketo ZIP failą ir nukopijuokite visus failus, esančius aplanke **Dynamics365FinanceAndOperationsCommon.PackageDeployer.2.0.438**.
+
+    ![Aplanko „Dynamics365FinanceAndOperationsCommon.PackageDeployer.2.0.438” turinys](media/extract_package.png)
+
+3. Įklijuokite visus nukopijuotus failus į „Package Deployer” įrankio aplanką **Įrankiai**. 
+4. Norėdami pasirinkti „Dataverse” aplinką ir įdiegti sprendimus, vykdykite **PackageDeployer.exe**.
+
+    ![Aplanko „Įrankiai” turinys](media/paste_copied_files.png)
 
 ## <a name="enable-and-view-the-plug-in-trace-log-in-dataverse-to-view-error-details"></a><a id="enable-view-trace"></a>Įgalinkite ir peržiūrėkite priedo sekimo žurnalą „Dataverse”, kad peržiūrėtumėte klaidos informaciją
 
@@ -33,48 +63,49 @@ ms.locfileid: "8062343"
 
 Norėdami įjungti sekimo žurnalą, atlikite toliau nurodytus veiksmus.
 
-1. Prisijunkite prie „Customer Engagement” programos, atidarykite puslapį **Parametrai**, o tada dalyje **Sistema** pasirinkite **Administravimas**.
+1. Prisijunkite prie modeliu grįstos „Dynamics 365” programos, atidarykite puslapį **Parametrai**, tada dalyje **Sistema** pasirinkite **Administravimas**.
 2. Puslapyje **Administravimas** pasirinkite **Sistemos parametrai**.
 3. Skirtuko **Tinkinimas** stulpelyje **Priedo ir pasirinktinės darbo eigos veiklos sekimas** pasirinkite **Viskas**, kad įgalintumėte priedo sekimo žurnalą. Jei norite registruoti sekimo žurnalus tik tada, kai įvyksta išimtys, vietoje to galite pasirinkti **Išimtis**.
 
 
 Norėdami peržiūrėti sekimo žurnalą, atlikite toliau nurodytus veiksmus.
 
-1. Prisijunkite prie „Customer Engagement” programos, atidarykite puslapį **Parametrai**, o tada dalyje **Tinkinimas** pasirinkite **Priedo sekimo žurnalas**.
+1. Prisijunkite prie modeliu grįstos „Dynamics 365” programos, atidarykite puslapį **Parametrai**, tada dalyje **Tinkinimas** pasirinkite **Priedo sekimo žurnalas**.
 2. Raskite sekimo žurnalus, kuriuose stulpelis **Tipo pavadinimas** nustatytas kaip **„Microsoft.Dynamics.Integrator.DualWriteRuntime.Plugins.PreCommmitPlugin”**.
 3. Dukart spustelėkite elementą, kad peržiūrėtumėte visą žurnalą, tada „FastTab” **Vykdymas** peržiūrėkite tekstą **Pranešimų blokas**.
 
-## <a name="enable-debug-mode-to-troubleshoot-live-synchronization-issues-in-finance-and-operations-apps"></a>Įgalinkite derinimo režimą, kad pašalintumėte tiesioginio sinchronizavimo problemas „Finance and Operations“ programose
+## <a name="enable-debug-mode-to-troubleshoot-live-synchronization-issues-in-finance-and-operations-apps"></a>Norėdami šalinti tiesioginio sinchronizavimo triktis „Finance and Operations” programose, įgalinkite derinimo režimą
 
-**Reikiamas vaidmuo, norint peržiūrėti klaidas:** sistemos administratorius
+**Reikiamas vaidmuo, norint peržiūrėti klaidas:** sistemos administratoriaus dvigubos rašymo klaidos, sukurtos „Dataverse”, gali atsirasti „Finance and Operations” programoje. Kai kuriais atvejais visas klaidos pranešimo tekstas nepasiekiamas, nes pranešimas yra per ilgas arba jame yra asmens identifikavimo informacijos (PII). Galite įjungti daugiažodį klaidų registravimą atlikdami šiuos veiksmus.
 
-Dvigubo rašymo klaidos, kylančios iš Dataverse gali būti rodomas programėlėje „Finance and Operations“. Norėdami įjungti daugiažodį klaidų registravimą atlikite toliau nurodytus veiksmus.
+1. Visų „Finance and Operations” programų projektų konfigūracijų lentelėje **„DualWriteProjectConfiguration”** yra ypatybė **„IsDebugMode”**. Atidarykite lentelę **„DualWriteProjectConfiguration”** naudodami „Excel“ papildinį.
 
-1. Visoms projektų konfigūracijoms programoje „Finance and Operations“ yra vėliavėlė **IsDebugMode** ant **DualWriteProjectConfiguration** stalo.
-2. Atidarykite **„DualWriteProjectConfiguration”** naudodami „Excel“ papildinį. Norėdami naudoti priedą, įgalinkite projektavimo režimą „Finance and Operations Excel“ priede ir pridėkite **DualWriteProjectConfiguration** prie lapo. Daugiau informacijos žr. skyriuje [Objekto duomenų peržiūra ir atnaujinimas programoje „Excel“](../../office-integration/use-excel-add-in.md).
-3. Projekte nustatykite **IsDebugMode** kaip **Taip**.
-4. Vykdyti scenarijų, kuris generuoja klaidas.
-5. Daugiažodžiai žurnalai saugomi lentelėje **DualWriteErrorLog**.
-6. Norėdami peržvelgti duomenis lentelių naršyklėje, naudokite šį saitą: `https://999aos.cloudax.dynamics.com/?mi=SysTableBrowser&tableName=DualWriteErrorLog`, jei reikia, pakeiskite `999`.
-7. Atnaujinkite dar kartą pagal [KB 4595434](https://fix.lcs.dynamics.com/Issue/Details?kb=4595434&bugId=527820&dbType=3&qc=98e5dc124ac125c57ad633d885ac612aea3ddb8f4abf9d71ab3aa354f2e06cbe), pasiekiamą platformos naujiniui Nr. 37 ir naujesniems. Jei įdiegėte šią pataisą, derinimo režimu bus fiksuojama daugiau žurnalų.  
+    > [!TIP]
+    > Galite lengvai atidaryti lentelę „Excel” papildinyje įjungdami režimą **Dizainas** ir įtraukdami **DualWriteProjectConfigurationEntity”** į darbalapį. Daugiau informacijos žiūrėkite [Lentelių duomenų atidarymas programoje „Excel“ ir jų atnaujinimas naudojant „Excel“ papildinį](../../office-integration/use-excel-add-in.md).
 
-## <a name="check-synchronization-errors-on-the-virtual-machine-for-the-finance-and-operations-app"></a>Patikrinkite „Finance and Operations“ programos sinchronizavimo klaidas virtualioje mašinoje
+2. Nustatykite projekto ypatybę **IsDebugMode** kaip **Taip**.
+3. Vykdyti scenarijų, kuris generuoja klaidas.
+4. Daugiažodžiai žurnalai pasiekiami lentelėje „DualWriteErrorLog”. Norėdami peržiūrėti duomenis lentelės naršyklėje, naudokite šį URL (atitinkamai pakeiskite **XXX**):
+
+    `https://XXXaos.cloudax.dynamics.com/?mi=SysTableBrowser&tableName=DualWriteErrorLog`
+
+## <a name="check-synchronization-errors-on-the-virtual-machine-for-the-finance-and-operations-app"></a>Patikrinkite sinchronizavimo klaidas „Finance and Operations” programos virtualiojoje mašinoje
 
 **Reikiamas vaidmuo, norint peržiūrėti klaidas:** sistemos administratorius
 
 1. Prisijunkite prie „Microsoft Dynamics“ portale „Lifecycle Services“ (LCS).
 2. Atidarykite LCS projektą, kurį pasirinkote dvigubo rašymo testavimui atlikti.
 3. Pasirinkite plytelę **Aplinkos diegimo debesyje įrankis**.
-4. Naudokite nuotolinį darbalaukį, kad prisijungtumėte prie virtualios mašinos (VM), skirtos programai „Finance and Operations“. Naudokite vietinę paskyrą, kurį yra rodoma LCS.
+4. Norėdami prisijungti prie „Finance and Operations” programos virtualiosios mašinos, naudokite nuotolinį darbalaukį. Naudokite vietinę paskyrą, kurį yra rodoma LCS.
 5. Atidarykite įvykių peržiūros programą.
 6. Pasirinkite **Programų ir paslaugų žurnalai \> „Microsoft“ \> „Dynamics“ \> „AX-DualWriteSync“ \> Veikia**.
 7. Peržiūrėti naujausių klaidų sąrašą.
 
-## <a name="unlink-and-link-another-dataverse-environment-from-a-finance-and-operations-app"></a>Atsieti ir susieti kitą Dataverse aplinką iš „Finance and Operations“ programos
+## <a name="unlink-and-link-another-dataverse-environment-from-a-finance-and-operations-app"></a>Atsieti ir susieti kitą „Dataverse” aplinką iš „Finance and Operations” programos
 
-**Būtinas vaidmuo norint atsieti aplinką:** Programos „Finance and Operations“ sistemos administratorius arba Dataverse.
+**Būtinas vaidmuo, norint atsieti aplinką:** „Finance and Operations” programų arba „Dataverse” sistemos administratorius.
 
-1. Prisijunkite prie programėlės „Finance and Operations“.
+1. Prisijungimas prie „Finance and Operations” programos.
 2. Eikite į **Darbo sritys \> Duomenų valdymas** ir pasirinkite plytelę **Dvigubas rašymas**.
 3. Pasirinkite visus veikiančius susiejimus, tada pasirinkite **Stabdyti**.
 4. Pasirinkite **Atsieti aplinką**.
@@ -87,28 +118,7 @@ Dabar galite susieti naują aplinką.
 Sukurę pardavimo užsakymą „Dynamics 365 Sales”, paspaudę **+ Įtraukti produktus** galite būti nukreipti į „Dynamics 365 Project Operations” užsakymo eilutės formą. Nėra būdo toje formoje peržiūrėti pardavimo užsakymo eilutės formą **Informacija**. Parinktis **Informacija** neatsiranda toliau esančiame išplečiamajame lauke **Nauja užsakymo eilutė**. Taip nutinka, nes jūsų aplinkoje įdiegta „Project Operations”.
 
 Norėdami iš naujo įgalinti formos parinktį **Informacija**, atlikite toliau pateiktus veiksmus.
-
 1. Pereikite į **Užsakymo eilutė** lentelę.
-2. Formų mazge raskite formą **Informacija**.
-3. Pasirinkite formą **Informacija** ir spustelėkite **Įgalinti saugos vaidmenis**.
+2. Formų mazge raskite formą **Informacija**. 
+3. Pasirinkite formą **Informacija** ir spustelėkite **Įgalinti saugos vaidmenis**. 
 4. Pakeiskite saugos parametro parinktį į **Rodyti visiems**.
-
-## <a name="how-to-enable-and-save-network-trace-so-that-traces-can-be-attached-to-support-tickets"></a>Kaip įjungti ir įrašyti tinklo sekimą, kad sekimus būtų galima pridėti prie palaikymo kvitų
-
-Palaikymo komandai gali reikėti peržiūrėti tinklo sekimus, siekiant diagnozuoti ir pašalinti kai kurias triktis. Norėdami sukurti tinklo sekimą, atlikite toliau nurodytus veiksmus.
-
-### <a name="chrome"></a>Chrome
-
-1. Atidarytame skirtuke paspauskite **F12** arba pasirinkite **Programavimo įrankiai**, kad atidarytumėte programavimo įrankius.
-2. Atverkite skirtuką **Tinklas** ir filtro teksto lauke įveskite **integ**.
-3. Vykdykite savo scenarijų ir atsižvelkite į registruojamas užklausas.
-4. Dešiniuoju pelės mygtuku spustelėkite įrašus ir pasirinkite **Įrašyti viską kaip HAR su turiniu**.
-
-### <a name="microsoft-edge"></a>„Microsoft Edge“
-
-1. Atidarytame skirtuke paspauskite **F12** arba pasirinkite **Programavimo įrankiai**, kad atidarytumėte programavimo įrankius.
-2. Atidarykite skirtuką **Tinklas**.
-3. Vykdykite scenarijų.
-4. Pasirinkite **įrašyti**, kad eksportuotumėte rezultatus kaip HAR.
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -2,37 +2,43 @@
 title: Būtinosios kanalo nustatymo sąlygos
 description: Šioje temoje pateikiama „Microsoft Dynamics 365 Commerce“ būtinųjų kanalo nustatymo sąlygų apžvalga.
 author: samjarawan
+manager: annbe
 ms.date: 02/21/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 6ad8911df00fde4675d4d9b52fcdd52ff58d4983b177316a7606de277328226b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0da0457240cf12686fff2fa929c7fb510c11f242
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6742469"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4414306"
 ---
 # <a name="channel-setup-prerequisites"></a>Būtinosios kanalo nustatymo sąlygos
+
 
 [!include [banner](includes/banner.md)]
 
 Šioje temoje pateikiama „Microsoft Dynamics 365 Commerce“ būtinųjų kanalo nustatymo sąlygų apžvalga.
+
+## <a name="overview"></a>Peržiūrėti
 
 Prieš sukuriant „Dynamics 365 Commerce“ kanalą reikia atlikti keletą būtinųjų užduočių. Šie būtinųjų užduočių sąrašai organizuojami pagal kanalo tipą.
 
 > [!NOTE]
 > Kai kurie dokumentai vis dar rašomi, o saitai bus atnaujinti, kai bus publikuojamas naujas turinys.
 
-## <a name="initialization"></a>Inicijavimas
+## <a name="initialization"></a>Inicializacija
 
 - [Pradinių duomenų inicijavimas](enable-configure-retail-functionality.md)
 
@@ -80,6 +86,3 @@ Prieš sukuriant „Dynamics 365 Commerce“ kanalą reikia atlikti keletą būt
 [Mažmeninės prekybos kanalo nustatymas](channel-setup-retail.md)
     
 [Interneto kanalo nustatymas](channel-setup-online.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

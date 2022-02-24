@@ -2,9 +2,11 @@
 title: Savikainos objektai
 description: Šiame straipsnyje pateikiama informacija apie savikainos objektus ir paaiškinama, kaip kaupiamos savikainos ir kiekiai. Savikainos objektas yra objektas, kuriam kaupiamos išlaidos ir kiekiai. Savikainos objekto objektas gali būti produktas arba produkto variantas, pvz., stiliaus ir spalvos variantai.
 author: AndersGirke
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventCostOnhandItem
 audience: Application User
@@ -13,15 +15,15 @@ ms.custom: 19451
 ms.assetid: ec776b98-813a-490d-848f-468452d98fac
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: aevengir
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d27e2dcfd8f70c8d4b0f2ae1254f3c4fce63bb4d
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 65a0f72f8d97bda36bacd691d545807c413f8825
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572174"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4967663"
 ---
 # <a name="cost-objects"></a>Savikainos objektai
 
@@ -53,8 +55,8 @@ Toliau pateikiamoje lentelėje parodyta, kas yra išlaidų objektas ir kas yra a
 
 ## <a name="accumulation-of-costs-and-quantities"></a>Išlaidų ir kiekių kaupimas
 -   Reikšmė **Vertės** lauke yra tolesnių reikšmių suma.
-    -   Faktinių išlaidų suma
-    -   Finansinių išlaidų suma
+    -   Fakt. išlaidų suma
+    -   Fin. išlaidų suma
     -   Koregavimai
 -   Reikšmė **Kiekio** lauke yra tolesnių reikšmių suma.
     -   Gauta
@@ -64,20 +66,18 @@ Toliau pateikiamoje lentelėje parodyta, kas yra išlaidų objektas ir kas yra a
 
 **Pastaba.** Ankstesniems skaičiavimams parametras **Įtraukti fizinę vertę** įtakos neturi.
 
-## <a name="additional-resources"></a>Papildomi ištekliai
+<a name="additional-resources"></a>Papildomi ištekliai
+--------
 
-[Produkto dimensijų grupė](/dynamicsax-2012/appuser-itpro/about-product-dimensions)
+[Produkto dimensijų grupė](https://technet.microsoft.com/library/aa499382.aspx)
 
-[Saugojimo dimensijų grupė](/dynamicsax-2012//storage-dimension-groups-form)
+[Saugojimo dimensijų grupė](https://technet.microsoft.com/library/hh209317.aspx)
 
-[Sekimo dimensijų grupė](/dynamicsax-2012//tracking-dimension-groups-form)
+[Sekimo dimensijų grupė](https://technet.microsoft.com/library/hh209465.aspx)
 
-[Kas nauja ar pasikeitė](../../fin-ops-core/fin-ops/get-started/whats-new-changed.md)
+[Kas nauja ar pasikeitė](../../fin-and-ops/get-started/whats-new-changed.md)
 
 [Savikainos įrašai](cost-entries.md)
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

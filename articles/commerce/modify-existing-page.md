@@ -2,32 +2,38 @@
 title: Modifikuoti esamą svetainės puslapį
 description: Šioje temoje aprašoma, kaip programoje „Microsoft Dynamics 365 Commerce“ modifikuoti esamą svetainės puslapį.
 author: psimolin
+manager: annbe
 ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 0039489c266840e5341f2e322fa7783216ac9bb3ebcecff840f591beec9f79c4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8ca23dcf568cb0df6934f0d6201e4aafba5f9ba1
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6751548"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4414427"
 ---
 # <a name="modify-an-existing-site-page"></a>Modifikuoti esamą svetainės puslapį
+
 
 [!include [banner](includes/banner.md)]
 
 Šioje temoje aprašoma, kaip programoje „Microsoft Dynamics 365 Commerce“ modifikuoti esamą svetainės puslapį.
 
-Kai reikia modifikuoti puslapį, pirmiausia jį atidarykite puslapio rengyklėje. Eikite į svetainę, kurioje yra jūsų puslapis, tada puslapių sąraše susiraskite norimą puslapį. Jei negalite rasti puslapio, galite naudoti kūrimo įrankio sudėtinės ieškos funkciją. Įveskite tikslų puslapio pavadinimą arba įveskite pirmas kelias jo raides, o tada – žvaigždutę (\*). Atsiranda filtruotas puslapių sąrašas. Galite naudoti šį sąrašą, norėdami rasti norimą puslapį. Radę teisingą puslapį, pasirinkite puslapio pavadinimą, kad puslapis būtų atidaromas puslapio rengyklėje.
+## <a name="overview"></a>Peržiūrėti
+
+Kai reikia modifikuoti puslapį, pirmausia jį atidarykite puslapio rengyklėje. Eikite į svetainę, kurioje yra jūsų puslapis, tada puslapių sąraše susiraskite norimą puslapį. Jei negalite rasti puslapio, galite naudoti kūrimo įrankio sudėtinės ieškos funkciją. Įveskite tikslų puslapio pavadinimą arba įveskite pirmas kelias jo raides, o tada – žvaigždutę (\*). Atsiranda filtruotas puslapių sąrašas. Galite naudoti šį sąrašą, norėdami rasti norimą puslapį. Radę teisingą puslapį, pasirinkite puslapio pavadinimą, kad puslapis būtų atidaromas puslapio rengyklėje.
 
 > [!TIP]
 > Jei puslapis matomas puslapio inspektoriuje, galite pasirinkti **Redaguoti** ir išregistruoti puslapį prieš atidarydami jį puslapio rengyklėje. Tokiu būdu galite vienu metu patikrinti keletą puslapių.
@@ -80,9 +86,4 @@ Norėdami nedelsiant publikuoti savo keitimus, komandų juostoje pasirinkite **P
 
 [Papildyti kategorijos nukreipimo puslapį](enrich-category-page.md)
 
-[Patikrinti puslapio turinio pritaikymą neįgaliesiems](verify-accessibility.md)
-
-[Sukurti dinaminius e-komercijos puslapius pagal URL parametrus](create-dynamic-pages.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[Puslapio turinio pritaikymo neįgaliesiems patikra](verify-accessibility.md)

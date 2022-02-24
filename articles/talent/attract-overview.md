@@ -49,6 +49,3 @@ Kai tik kandidatai įtraukiami į darbo vietą, jie gauna el. laišką su saitu,
 
 ## <a name="analytic-reports"></a>Analizės ataskaitos
 Samdos komandos gali peržiūrėti pagrindinę samdos proceso metriką, skirtą vienai užduočiai, arba apibendrintą visų užduočių metriką, naudodami [„Attract“ analizės ataskaitas](analytic-reports.md). Ši funkcija šiuo metu yra [peržiūroje](access-preview-feature.md) klientams, turintiems [Kurią „Microsoft  Dynamics 365 Talent - Attract“ versiją naudoti](attract-comprehensive-hiring.md).
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

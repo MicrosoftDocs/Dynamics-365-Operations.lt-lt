@@ -2,9 +2,11 @@
 title: Įvykdyto ER formato duomenų šaltinių derinimas duomenų srautams ir transformacijai analizuoti
 description: Šioje temoje paaiškinama, kaip galima derinti įvykdyto ER formato duomenų šaltinius, siekiant geriau suprasti sukonfigūruotą duomenų srautą ir transformaciją.
 author: NickSelin
+manager: AnnBe
 ms.date: 04/22/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERSolutionTable, EROperationDesigner
 audience: Application User, Developer, IT Pro
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: ba8f20e7b4ca6579016fa60d0bbf69f7b4e9c7d3
-ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
+ms.openlocfilehash: 3a486800f37dda7829aeeaa56a30285a92a61b9d
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "7605386"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680787"
 ---
 # <a name="debug-data-sources-of-an-executed-er-format-to-analyze-data-flow-and-transformation"></a>Įvykdyto ER formato duomenų šaltinių derinimas duomenų srautams ir transformacijai analizuoti
 
@@ -64,7 +66,7 @@ Duomenų šaltinio derintuvę galima naudoti norint pasiekti duomenis, esančius
 
 1. Norėdami apdoroti tiekėjo mokėjimus, atlikite šios temos [3 priede](#appendix3) nurodytus veiksmus.
 
-    ![Vykdomas tiekėjo mokėjimo apdorojimas.](./media/er-data-debugger-process-payment.png)
+    ![Vykdomas tiekėjo mokėjimo apdorojimas](./media/er-data-debugger-process-payment.png)
 
 2. Atsisiųskite ir įrašykite ZIP failą savo vietiniame kompiuteryje.
 3. Išskleiskite iš ZIP failo mokėjimo failą **ISO20022 Credit transfer.xml**.
@@ -72,7 +74,7 @@ Duomenų šaltinio derintuvę galima naudoti norint pasiekti duomenis, esančius
 
     Mokėjimo faile nurodytame tiekėjo banko sąskaitos tarptautiniame banko sąskaitos numeryje (IBAN) nėra tarpų. Todėl ji skiriasi nuo reikšmės [įvestos](#enteredIBANcode) puslapyje **Bankų kodai**.
 
-    ![IBAN kodas be tarpų.](./media/er-data-debugger-payment-file.png)
+    ![IBAN kodas be tarpų](./media/er-data-debugger-payment-file.png)
 
     Norėdami sužinoti, kuris ER sprendimo komponentas naudojamas IBAN kodo tarpams pašalinti, galite naudoti ER duomenų šaltinio derintuvę.
 
@@ -85,14 +87,14 @@ Duomenų šaltinio derintuvę galima naudoti norint pasiekti duomenis, esančius
     > [!NOTE]
     > Šis parametras yra susijęs su konkrečiu vartotoju ir įmone.
 
-    ![Vartotojo parametrų dialogo langas.](./media/er-data-debugger-user-parameters.png)
+    ![Vartotojo parametrų dialogo langas](./media/er-data-debugger-user-parameters.png)
 
 ## <a name="process-a-vendor-payment-for-debugging"></a>Tiekėjo mokėjimą apdorojimas derinimui
 
 1. Norėdami apdoroti tiekėjo mokėjimus, atlikite šios temos [3 priede](#appendix3) nurodytus veiksmus.
 2. Pranešimo lange pasirinkite **Taip**, kad patvirtintumėte, jog norite pertraukti tiekėjo mokėjimo apdorojimą ir vietoj to pradėti duomenų šaltinio derinimą puslapyje **Duomenų šaltinių derinimas**.
 
-    ![Patvirtinimo pranešimo langas.](./media/er-data-debugger-start-debugging.png)
+    ![Patvirtinimo pranešimo langas](./media/er-data-debugger-start-debugging.png)
 
 ## <a name="debug-data-sources-that-are-used-in-payment-processing"></a>Duomenų šaltinius, naudojamų mokėjimui apdoroti, derinimas
 
@@ -115,7 +117,7 @@ Duomenų šaltinio derintuvę galima naudoti norint pasiekti duomenis, esančius
 
 7. Pažymėkite **Išplėsti viską**.
 
-    ![IBAN lauko reikšmė modelio susiejime.](./media/er-data-debugger-debugging-model-mapping.png)
+    ![IBAN lauko reikšmė modelio susiejime](./media/er-data-debugger-debugging-model-mapping.png)
 
     Kaip matote, modelio susiejimas neatsako už pašalintus tarpus, nes tarpai yra IBAN kode, kurį jis grąžina tiekėjo banko sąskaitai. Todėl turite tęsti duomenų šaltinio derinimą.
 
@@ -130,7 +132,7 @@ Duomenų šaltinio derintuvę galima naudoti norint pasiekti duomenis, esančius
 7. Pasirinkti **Gauti reikšmę**.
 8. Pažymėkite **Išplėsti viską**.
 
-    ![IBAN lauko reikšmė formato susiejime.](./media/er-data-debugger-debugging-format-mapping.png)
+    ![IBAN lauko reikšmė formato susiejime](./media/er-data-debugger-debugging-format-mapping.png)
 
     Kaip matote, formato susiejimo duomenų šaltiniai neatsako už pašalintus tarpus, nes tarpai yra IBAN kode, kurį jie grąžina tiekėjo banko sąskaitai. Todėl turite tęsti duomenų šaltinio derinimą.
 
@@ -142,7 +144,7 @@ Duomenų šaltinio derintuvę galima naudoti norint pasiekti duomenis, esančius
 4. Išplėskite formato elementus, kad pasirinktumėte **ISO20022CTReports** \> **XMLHeader** \> **Dokumentas** \> **CstmrCdtTrfInitn** \> **PmtInf** \> **CdtTrfTxInf** \> **CdtrAcct** \> **Id** \> **IBAN** \> **BankIBAN**, tada pasirinkite **Gauti reikšmę**.
 5. Pažymėkite **Išplėsti viską**.
 
-    ![IBAN lauko reikšmė formate.](./media/er-data-debugger-debugging-format.png)
+    ![IBAN lauko reikšmė formate](./media/er-data-debugger-debugging-format.png)
 
    Kaip matote, formato susiejimas neatsako už pašalintus tarpus, nes tarpai yra IBAN kode, kurį jis grąžina tiekėjo banko sąskaitai. Todėl **BankIBAN** elementas sukonfigūruotas naudoti formato transformaciją, kuri pašalina tarpus.
 
@@ -154,13 +156,13 @@ Duomenų šaltinio derintuvę galima naudoti norint pasiekti duomenis, esančius
 2. Puslapyje **Konfigūracijos** pasirinkite **Mokėjimo modelis** \> **ISO20022 kredito pervedimas**.
 3. Pasirinkite **Kūrimo įrankis**, tada išplėskite formato elementus, kad pasirinktumėte **Dokumentas** \> **CstmrCdtTrfInitn** \> **PmtInf** \> **CdtTrfTxInf** \> **CdtrAcct** \> **Id** \> **IBAN** \> **BankIBAN**.
 
-    ![„BankIBAN” elementas puslapyje Formato kūrimo įrankis.](./media/er-data-debugger-referred-transformation.png)
+    ![BankIBAN elementas puslapyje Formato kūrimo įrankis](./media/er-data-debugger-referred-transformation.png)
 
     Kaip matote, **BankIBAN** elementas sukonfigūruotas naudoti transformaciją **pašalinti ne raidinius-skaitinius simbolius**.
 
 4. Pasirinkite skirtuką **Transformacijos**.
 
-    ![„BankIBAN” elemento skirtukas Transformacijos.](./media/er-data-debugger-transformation.png)
+    ![BankIBAN elemento skirtukas Transformacijos](./media/er-data-debugger-transformation.png)
 
     Kaip matote, transformacija **pašalinti ne raidinius-skaitinius simbolius** sukonfigūruota naudoti išraišką, kuri pašalina tarpus pateiktoje teksto eilutėje.
 
@@ -168,7 +170,7 @@ Duomenų šaltinio derintuvę galima naudoti norint pasiekti duomenis, esančius
 
 Kai sukonfigūruojate ER formato juodraštinę versiją, kurią galima tiesiogiai paleisti iš operacijų kūrimo įrankio, duomenų šaltinio derintuvę galite pasiekti veiksmų srityje pasirinkdami **Pradėti derinimą**.
 
-![Mygtukas Pradėti derinimą puslapyje Formato kūrimo įrankis.](./media/er-data-debugger-run-from-designer.png)
+![Mygtukas Pradėti derinimą puslapyje Formato kūrimo įrankis](./media/er-data-debugger-run-from-designer.png)
 
 Redaguojamo ER formato susiejimą ir komponentus galima derinti.
 
@@ -176,7 +178,7 @@ Redaguojamo ER formato susiejimą ir komponentus galima derinti.
 
 Kai sukonfigūruojate ER modelio susiejimą, kurį galima paleisti iš puslapio **Modelio susiejimas**, duomenų šaltinio derintuvę galite pasiekti veiksmų srityje pasirinkdami **Pradėti derinimą**.
 
-![Mygtukas Pradėti derinimą puslapyje Modelio susiejimų kūrimo įrankis.](./media/er-data-debugger-run-from-designer-mapping.png)
+![Mygtukas Pradėti derinimą puslapyje Modelio susiejimų kūrimo įrankis](./media/er-data-debugger-run-from-designer-mapping.png)
 
 Redaguojamo ER susiejimo modelio susiejimo komponentą galima derinti.
 
@@ -186,7 +188,7 @@ Redaguojamo ER susiejimo modelio susiejimo komponentą galima derinti.
 
 Jei apdorojamo tiekėjo elektroninio mokėjimo failui generuoti norite naudoti ER sprendimą, galite [atsisiųsti](download-electronic-reporting-configuration-lcs.md) ER mokėjimo formatą **ISO20022 kredito pervedimas**, kurį galima gauti iš bendrai naudojamo turto bibliotekos, esančios „Microsoft Dynamics Lifecycle Services (LCS)“, arba iš bendrosios saugyklos.
 
-![ER mokėjimo formato atsisiuntimas puslapyje Konfigūracijos saugykla.](./media/er-data-debugger-import-from-repo.png)
+![ER mokėjimo formato atsisiuntimas puslapyje Konfigūracijos saugykla](./media/er-data-debugger-import-from-repo.png)
 
 Kartu su pasirinktu ER formatu, kaip ER sprendimo **ISO20022 kredito pervedimas** dalis, į „Microsoft Dynamics 365 Finance“ egzempliorių turi būti automatiškai importuotos toliau nurodytos [konfigūracijos](general-electronic-reporting.md#Configuration).
 
@@ -197,7 +199,7 @@ Kartu su pasirinktu ER formatu, kaip ER sprendimo **ISO20022 kredito pervedimas*
 
 Šias konfigūracijas galite rasti ER sistemos puslapyje **Konfigūracijos** (**Organizacijos administravimas** \> **Elektroninės ataskaitos** \> **Konfigūracijos**).
 
-![Puslapyje Konfigūracijos importuotos konfigūracijos.](./media/er-data-debugger-configurations.png)
+![Puslapyje Konfigūracijos importuotos konfigūracijos](./media/er-data-debugger-configurations.png)
 
 Jeigu konfigūracijos medyje nėra anksčiau išvardytų konfigūracijų, turite jas atsisiųsti rankiniu būdu iš LCS bendrai naudojamo turto bibliotekos taip pat, kaip atsisiuntėte ER mokėjimo formatą **ISO20022 kredito pervedimas**.
 
@@ -213,7 +215,7 @@ Jeigu konfigūracijos medyje nėra anksčiau išvardytų konfigūracijų, turite
 
     Atkreipkite dėmesį, kad duomenų modelio laukas **Mokėjimai** yra susietas su duomenų šaltiniu **\$notSentTransactions**, kuris grąžina apdorojamų tiekėjo mokėjimo eilučių sąrašą.
 
-    ![Laukas Mokėjimai puslapyje Modelių susiejimo kūrimo įrankis.](./media/er-data-debugger-model-mapping.png)
+    ![Laukas Mokėjimai puslapyje Modelių susiejimo kūrimo įrankis](./media/er-data-debugger-model-mapping.png)
 
 #### <a name="review-the-format-mapping"></a>Formato susiejimo peržiūra
 
@@ -224,7 +226,7 @@ Jeigu konfigūracijos medyje nėra anksčiau išvardytų konfigūracijų, turite
 
     Atkreipkite dėmesį, kad failo **ISO20022CTReports** \> **XMLHeader** elementas **Dokumentas** \> **CstmrCdtTrfInitn** \> **PmtInf** yra susietas su duomenų šaltiniu **\$PaymentByDebtor**, kuris yra sukonfigūruotas grupuoti duomenų modelio lauko **Mokėjimai** įrašus.
 
-    ![„PmtInf” elementas puslapyje Formato kūrimo įrankis.](./media/er-data-debugger-format-mapping.png)
+    ![PmtInf elementas puslapyje Formato kūrimo įrankis](./media/er-data-debugger-format-mapping.png)
 
 #### <a name="review-the-format"></a>Formato peržiūra
 
@@ -234,7 +236,7 @@ Jeigu konfigūracijos medyje nėra anksčiau išvardytų konfigūracijų, turite
 
     Atkreipkite dėmesį, kad formato elementas, esantis **Dokumentas** \> **CstmrCdtTrfInitn** \> **PmtInf** \> **CdtTrfTxInf** \> **CdtrAcct** \> **Id** \> **IBAN** \> **BankIBAN**, yra sukonfigūruotas tiekėjo sąskaitos IBAN kodui įvesti mokėjimo faile.
 
-    ![Banko IBAN formato elementas puslapyje Formato dizaino įrankis.](./media/er-data-debugger-format.png)
+    ![BankIBAN elementas puslapyje Formato kūrimo įrankis](./media/er-data-debugger-format.png)
 
 ## <a name="appendix-2-configure-accounts-payable"></a><a name="appendix2"></a>2 priedas. Mokėtinų sumų konfigūravimas
 
@@ -245,7 +247,7 @@ Jeigu konfigūracijos medyje nėra anksčiau išvardytų konfigūracijų, turite
 3. „FastTab“ konteineryje **Identifikacija**, lauke **IBAN**, <a name="enteredIBANcode"></a>įveskite **GB33 BUKB 2020 1555 5555 55**.
 4. Pasirinkite **Įrašyti**.
 
-![Puslapyje Tiekėjo banko sąskaitos nustatytas IBAN laukas.](./media/er-data-debugger-iban.png)
+![Puslapyje Tiekėjo banko sąskaitos nustatytas IBAN laukas](./media/er-data-debugger-iban.png)
 
 ### <a name="set-up-a-method-of-payment"></a>Mokėjimo būdo nustatymas
 
@@ -255,7 +257,7 @@ Jeigu konfigūracijos medyje nėra anksčiau išvardytų konfigūracijų, turite
 4. Lauke **Eksportuoti formato konfigūraciją** pasirinkite ER formatą **ISO20022 kredito pervedimas**.
 5. Pasirinkite **Įrašyti**.
 
-![Failo formato parametrai puslapyje Mokėjimo būdai.](./media/er-data-debugger-payment-method.png)
+![Failo formato parametrai puslapyje Mokėjimo būdai](./media/er-data-debugger-payment-method.png)
 
 ### <a name="add-a-vendor-payment"></a>Tiekėjo mokėjimo įtraukimas
 
@@ -267,7 +269,7 @@ Jeigu konfigūracijos medyje nėra anksčiau išvardytų konfigūracijų, turite
 6. Lauke **Mokėjimo būdas** pasirinkite **SEPA CT**.
 7. Pasirinkite **Įrašyti**.
 
-![Tiekėjo mokėjimai įtraukti puslapyje Tiekėjo mokėjimai.](./media/er-data-debugger-payment-journal.png)
+![Tiekėjo mokėjimai įtraukti puslapyje Tiekėjo mokėjimai](./media/er-data-debugger-payment-journal.png)
 
 ## <a name="appendix-3-process-a-vendor-payment"></a><a name="appendix3"></a>3 priedas. Tiekėjo mokėjimo apdorojimas
 
@@ -279,6 +281,3 @@ Jeigu konfigūracijos medyje nėra anksčiau išvardytų konfigūracijų, turite
 6. Lauke **Banko sąskaita** įveskite **DEMF OPER**.
 7. Dialogo lange **Generuoti mokėjimus** pasirinkite **Gerai**.
 8. Dialogo lange **Elektroninių ataskaitų parametrai** pasirinkite **Gerai**.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

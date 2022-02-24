@@ -1,10 +1,12 @@
 ---
 title: Ataskaita Užregistruotų ilgalaikio turto keitimų taikymas
 description: Šioje temoje paaiškinama, kaip naudoti ataskaitą Užregistruotų ilgalaikio turto keitimų taikymas.
-author: moaamer
+author: saraschi2
+manager: ''
 ms.date: 01/08/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: roschlom
 ms.custom: 23021
 ms.assetid: d7e86f72-95db-4423-9b04-761e9536a959
 ms.search.region: Global
-ms.author: moaamer
+ms.author: saraschi
 ms.search.validFrom: 2017-12-20
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: b0c0c8b1a33041e266ce266dc79b29c8a7dbfa14
-ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
-ms.translationtype: MT
+ms.openlocfilehash: b91da4679a23ba0a70c18e2bcae1b7f757f661ca
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7883598"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969158"
 ---
 # <a name="fixed-assets-roll-forward-report"></a>Ataskaita Užregistruotų ilgalaikio turto keitimų taikymas
 
@@ -28,7 +30,7 @@ ms.locfileid: "7883598"
 
 Ataskaitoje **Užregistruotų ilgalaikio turto keitimų taikymas** lengvai skaitomu „Microsoft Excel“ formatu teikiami išsamūs ilgalaikio turto duomenys, kurių reikia uždarant laikotarpius, finansinėse ataskaitose ir mokesčių ataskaitose. Į ataskaitą įtraukiami ilgalaikio turto pradžios ir pabaigos balansai bei laikotarpio vertinimo judėjimas ir visas per laikotarpį įvykęs naujas turto įsigijimas bei likvidavimas. Rengiamos atskiro ilgalaikio turto duomenų ataskaitos ir apibendrinamos ilgalaikio turto grupių bei juridinio subjekto reikšmės.
 
-Ataskaitoje **Užregistruotų ilgalaikio turto keitimų taikymas** naudojama elektroninių ataskaitų (ER) sistema. Kad galėtumėte vykdyti ataskaitą, iš „Microsoft Dynamics Lifecycle Services“ (LCS) reikia importuoti konfigūracijas Ilgalaikio turto modelis ir Užregistruotų ilgalaikio turto keitimų taikymas. Instrukcijų ieškokite [Elektroninių ataskaitų konfigūracijų atsisiuntimas iš „Lifecycle Services“](/dynamics365/unified-operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs).
+Ataskaitoje **Užregistruotų ilgalaikio turto keitimų taikymas** naudojama elektroninių ataskaitų (ER) sistema. Kad galėtumėte vykdyti ataskaitą, iš „Microsoft Dynamics Lifecycle Services“ (LCS) reikia importuoti konfigūracijas Ilgalaikio turto modelis ir Užregistruotų ilgalaikio turto keitimų taikymas. Instrukcijų ieškokite [Elektroninių ataskaitų konfigūracijų atsisiuntimas iš „Lifecycle Services“](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs).
 
 Ši ataskaita pasiekiama sprendime „Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3“ arba kaip „Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition“ (2017 m. liepos mėn.) karštoji pataisa. Aplinkose su 2017 m. liepos mėn. leidimu reikia pritaikyti tris tolesnes karštąsias pataisas.
 
@@ -64,6 +66,3 @@ Toliau pateikiamoje lentelėje aprašomi laukai, kuriuos galima naudoti ataskait
 |           Likvidavimai: likvidacinė vertė            |                                                                                               Ilgalaikio turto knygos su likvidavimo – nurašymo operacija likvidacinė vertė.                                                                                               |
 |           Likvidavimai: pelnas / nuostolis            |                                                                                 Pelno arba nuostolio vertė, apskaičiuojama atliekant ilgalaikio turto knygos likvidavimo operaciją.                                                                                 |
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

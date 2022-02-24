@@ -2,9 +2,11 @@
 title: LIFO data su faktine verte ir žymėjimu
 description: Paskutinė įvesta, pirma nurašyta data (LIFO data) yra atsargų modelis, pagrįstas LIFO principu. Išdavimai iš atsargų sudengiami su paskutiniaisiais gavimais į atsargas remiantis atsargų operacijos data. Naudojant LIFO data, jei prieš išduodant prekes jos nėra gautos, išdavimas nustatomas pagal bet kurį gavimą, įvykstantį po prekės išdavimo datos. Tą pačią dieną galima sudengti keletą išdavimų paskutinio išduoto, paskutinio gauto tvarka.
 author: AndersGirke
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
 audience: Application User
@@ -13,15 +15,15 @@ ms.custom: 51592
 ms.assetid: d9f13274-3268-444f-85c8-b686fd39286d
 ms.search.region: Global
 ms.search.industry: Retail
-ms.author: aevengir
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 72e1dab8bbbb830619629d1fb62a89413d388a7f
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: c2c06443532519ad5d6c36a6f4ed1f1c4d136664
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567564"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4967638"
 ---
 # <a name="lifo-date-with-physical-value-and-marking"></a>LIFO data su faktine verte ir žymėjimu
 
@@ -55,9 +57,7 @@ Naudojant LIFO datos atsargų modelį, rekomenduojama reguliariai atlikti atsarg
 
 Naudojama nauja vidutinė savikaina atspindi finansiškai atnaujintų operacijų vidurkį – 15,00 USD. 
 
-Toliau pateiktoje iliustracijoje parodytas LIFO datos atsargų modelio poveikis, kai parinktis **Įtraukti faktinę vertę** nenaudojama. 
-
-![LIFO duomenys be faktinės vertės įtraukimo pasirinkties.](./media/lifodatewithoutincludephysicalvalue.gif) 
+Toliau pateiktoje iliustracijoje parodytas LIFO datos atsargų modelio poveikis, kai parinktis **Įtraukti faktinę vertę** nenaudojama. ![LIFO duomenys su faktinės vertės įtraukimu](./media/lifodatewithoutincludephysicalvalue.gif) 
 
 **Diagramos paaiškinimas**
 
@@ -92,9 +92,7 @@ Toliau pateiktoje iliustracijoje parodytos šios operacijos.
 
 Naudojama nauja vidutinė savikaina atspindi finansiškai atnaujintų operacijų vidurkį – 20,00 USD. 
 
-Toliau pateiktoje iliustracijoje parodytas LIFO atsargų modelio poveikis, kai parinktis **Įtraukti faktinę vertę** naudojama. 
-
-![LIFO duomenys su faktinės vertės įtraukimo pasirinktimi.](./media/lifodatewithincludephysicalvalue.gif) 
+Toliau pateiktoje iliustracijoje parodytas LIFO atsargų modelio poveikis, kai parinktis **Įtraukti faktinę vertę** naudojama. ![LIFO duomenys su faktinės vertės įtraukimu](./media/lifodatewithincludephysicalvalue.gif) 
 
 **Diagramos paaiškinimas**
 
@@ -140,7 +138,7 @@ Toliau pateiktoje iliustracijoje parodytos šios operacijos.
 
 Nauja slankiojo vidurkio savikaina rodo finansiškai ir fiziškai atnaujintų operacijų vidurkį – 27,50 USD. 
 
-Toliau pateiktoje iliustracijoje parodytas LIFO atsargų modelio poveikis, naudojant žymėjimą tarp gavimų ir išdavimų. ![LIFO duomenys su žymėjimu.](./media/lifodatewithmarking.gif) 
+Toliau pateiktoje iliustracijoje parodytas LIFO atsargų modelio poveikis, naudojant žymėjimą tarp gavimų ir išdavimų. ![LIFO duomenys su žymėjimu](./media/lifodatewithmarking.gif) 
 
 **Diagramos paaiškinimas**
 
@@ -158,6 +156,3 @@ Toliau pateiktoje iliustracijoje parodytas LIFO atsargų modelio poveikis, naudo
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

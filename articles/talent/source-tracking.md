@@ -102,6 +102,3 @@ Norėdami išvengti neigiamos įtakos vartotojo sąsajai (UI), neredaguokite ir 
 - **Kitas**
 
 Vietoj to galite išplėsti parinkties **TalentSource** išvardijimą, kad įtrauktumėte kitų šaltinių tipų.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

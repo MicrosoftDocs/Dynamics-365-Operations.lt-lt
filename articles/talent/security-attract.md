@@ -157,6 +157,3 @@ Kandidatai yra žmonės, kurie buvo įtraukti į talentų telkinį, bet nėra su
 |-----------------------------|----------------------------------|----------------------------------|-------------|
 | Profilis – kandidato informacija | Kurti, skaityti, atnaujinti ir panaikinti | Kurti, skaityti, atnaujinti ir panaikinti | Nėra prieigos   |
 | Dokumentai                   | Kurti, skaityti, atnaujinti ir panaikinti | Kurti, skaityti, atnaujinti ir panaikinti | Nėra prieigos   |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

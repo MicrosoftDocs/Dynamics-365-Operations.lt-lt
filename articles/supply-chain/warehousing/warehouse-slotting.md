@@ -2,23 +2,26 @@
 title: Sandėlio intervalas
 description: Šioje temoje pateikiama informacija apie sandėlio intervalą. Sandėlio intervalas leidžia konsoliduoti poreikį pagal prekę ir matavimo vienetą iš užsakymų, kurių būsena yra Užsakytas, Rezervuotas arba Išleistas. Jis padeda sandėlio vadovams sumaniai planuoti paėmimų vietas dar prieš tai, kai jos išleidžia užsakymus į sandėlį ir sukuria paėmimų darbą.
 author: mirzaab
+manager: tfehr
 ms.date: 11/13/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSInventFixedLocation, WHSSlotDemandLocated, WHSSlotDemand, WHSSlotUOMTier, WHSSlotTemplate, WHSLocDirHint, WHSLocDirTable
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
-ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 36903bc7ce4164e42d191156b7d9e04bec84d4f6
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.9
+ms.openlocfilehash: 31b86837735ca16610a1d304eab611b12a6aceeb
+ms.sourcegitcommit: be4b9d557511bbb43e71a93f2c3b23b5f1a4669d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7575152"
+ms.lasthandoff: 11/24/2020
+ms.locfileid: "4627754"
 ---
 # <a name="warehouse-slotting"></a>Sandėlio intervalas
 
@@ -26,15 +29,15 @@ ms.locfileid: "7575152"
 
 Keletas sandėlio vietų funkcijų yra prieinamos siekiant padėti sandėlio vadovams protingai planuoti paėmimo vietas prieš jiems paleidžiant užsakymus į sandėlį ir sukuriant paėmimo darbą.
 
-*Sandėlio vietų funkcija* leidžia jums konsoliduoti poreikį pagal elementą ir matavimo vienetą iš užsakymų, kurie turi *Užsakyta*, *Rezervuota* ar *Išleista* būseną. Sugeneruota paklausa gali būti taikoma vietoms, kurios bus naudojamos paėmimui, atsižvelgiant į kiekį, vienetą, faktines dimensijas, fiksuotas vietas ir kita. Po to, kai buvo sukurtas intervalo planas, papildymo darbas gali būti sukurtas tam, kad būtų galima pasiekti reikiamą atsargų kiekį kiekvienoje vietoje.
+*Sandėlio vietų funkija* leidžia jums kosoliduoti poreikį pagal elementą ir matavimo vienetą iš užsakymų, kurie turi *Užsakyta*, *Rezervuota* ar *Išleista* būseną. Sugeneruota paklausa gali būti taikoma vietoms, kurios bus naudojamos paėmimui, atsižvelgiant į kiekį, vienetą, faktines dimensijas, fiksuotas vietas ir kita. Po to, kai buvo sukurtas intervalo planas, papildymo darbas gali būti sukurtas tam, kad būtų galima pasiekti reikiamą atsargų kiekį kiekvienoje vietoje.
 
-*Sandėlio vietos užsakymų perdavimui* funkcija leidžia sandėlio vadovams papildyti paėmimo vietas priklausomai nuo poreikio perkelti užsakymus, kurie dar nėra paleisti į sandėlį. Tai užtikrina, kad paėmimo vietos apims visus vienetus, kurių reikia perduotiems užsakymams po jų paleidimo į sandėlį. Šiai funkcijai turite taip pat įjungti *Sandėlio vietų funkcijos* funkciją.
+*Sandėlio vietos užsakymų perdavimui* funkcija leidžia sandėlio vadovams papildyti paėmimo vietas prisklausomai nuo poreikio perkelti užsakymus, kurie dar nėra paleisti į sandėlį. Tai užtikrina, kad paėmimo vietos apims visus vienetus, kurių reika perduotiems užsakymams po jų paleidimo į sandėlį. Šiai funkcijai turite taip pat įjungti *Sandėlio vietų funkcijos* funkciją.
 
 *Sandėlio vietų priskyrimo papildymo* funkcija įtraukia parinktį šablono eilutėms, kurios yra naudojamos *Sandėlio vietų funkcijos* funkcijos. Ši parinktis leidžia sistemai apgalvoti esamą turimą inventorių pagal tikslinę vietą. Dėl to, mažiau papildymų gali būti sukurta vienai vietai. *Sandėlio vietų priskyrimo papildymo* funkcijai turite taip pat įjungti *Sandėlio vietų funkcijos* funkciją. Ji gali būti pasirinktinai naudojama kartu su *Sandėlio vietų perduotiems užsakymams* funkcija.
 
 ## <a name="turn-on-the-warehouse-slotting-features"></a>Įjunkite sandėlio vietų funkcijas
 
-Prieš tai, kai galėsite jas naudoti, jos turi būti įjungtos jūsų sistemoje. Administratoriai gali naudoti [funkcijos valdymo](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) parametrus tam, kad patikrintų funkcijų būseną ir įjungtų jas, jei to reikia. Įjunkite tolesnes funkcijas, kaip būtina:
+Prieš tai, kai galėsite jas naudoti, jos turi būti įjungtos jūsų sistemoje. Administratoriai gali naudoti [funkcijos valdymo](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) parametrus tam, kad patikrintų funkcijų būsentą ir įjungtų jas, jei to reikia. Įjunkite tolesnes funkcijas, kaip būtina:
 
 - Sandėlio intervalo funkcija
 - Sandėlio vietos perduotiems užsakymams
@@ -42,7 +45,7 @@ Prieš tai, kai galėsite jas naudoti, jos turi būti įjungtos jūsų sistemoje
     > [!IMPORTANT]
     > Taigi *Sandėlio vietų funkcijos* funkcija turi būti įjungta prieš šią funkciją.
 
-- Sandėlio vietų priskyrimo papildymai
+- Sandėlio vietų priskyrimo papipldymai
 
     > [!IMPORTANT]
     > Taigi *Sandėlio vietų funkcijos* funkcija turi būti įjungta prieš šią funkciją.
@@ -107,7 +110,7 @@ Kiekvienas intervalo šablonas kontroliuoja atsargų priskyrimui tam tikroms san
 1. Pasirinkite **Sandėlio valdymas \> Nustatymas \> Papildymas \> Intervalo šablonai**.
 1. Pasirinkite **Naujas**, kad sukurtumėte šabloną.
 
-Toliau turite nustatyti šablono antraštę, intervalo specifikacijas ir vietos nurodymus, kaip paaiškinta šiuose poskyriuose. Vietos nustatymo perduotiems užsakymams atspindi nustatymą vietoms pardavimų užsakymuose, bet **Paklausos tipo** laukelis yra nustatytas *Perduoti užsakymus*, o ne *Pardavimo užsakymai*.
+Toliau turite nustatyti šablono antraštę, intervalo specifikacijas ir vietos nurodymus, kaip paaiškinta šiuose poskyriuose. Vietos nustatymo perduotiems užsakymams atspindi nustatymą vietoms pardavimų užsakymusoe, bet **Paklausos tipo** laukelis yra nustatytas *Perduoti užsakymus*, o ne *Pardavimo užsakymai*.
 
 #### <a name="set-up-the-header-for-a-sales-order-slotting-template"></a>Nustatykite antraštę pardavimo užsakymo vietos šablonui
 
@@ -187,7 +190,7 @@ Kiekvienam pardavimo užsakymo šablonui, kurį sukūrėte, atlikite šiuos žin
         - **Tik fiksuotos produkto varianto vietos** – Sistema veikia tik tose vietose, kurios yra fiksuotos produkto varianto vietos.
 
 > [!NOTE]
-> Jei vietos šablonas turi mažiausiai vieną eilutę, kurioje **Priskyrimo vietos kriterijaus** laukelis nustatytas į *Laikomas turimu*, leidimai nebėra leidžiami jokiai eilutei šablone.
+> Jei vietos šablonas turi mažiausiai vieną eilutę, kurioje **Priskyrimo vietos kriterjaus** laukelis nustatytas į *Laikomas turimu*, leidimai nebėra leidžiami jokiai eilutei šablone.
 
 1. Pasirinkite **Įrašyti**.
 1. Pasirinkite **Naujas**, kad sukurtumėte antrą šablono eilutę.
@@ -227,7 +230,7 @@ Reikia nustatyti bent vieną vietos nurodymą, kad būtų palaikomi intervalo pa
 1. Kairinės srities lauke **Darbo užsakymo tipas** pasirinkite *Papildymas*.
 1. Veiksmų srityje pasirinkite **Naujas**.
 1. Naujo vietos nurodymo antraštės lauke **Pavadinimas**, įveskite *61 intervalo paėmimas*.
-1. Laukelyje **Sekos numeris** priimkite nustatytąją vertę.
+1. Laujelyje **Sekos numeris**, priimkite nustatytąją vertę.
 
 ##### <a name="configure-the-location-directives-fasttab"></a>Konfigūruokite vietų nurodymus „FastTab“ skirtuke
 
@@ -381,6 +384,3 @@ Po to, kai visi reikiami elementai yra, galite nustatyti automatinį valdymą, a
 1. Jei norėsite, pakartojimas paleidžiamas automatiškai.
 
 Norėdami atlikti scenarijų pratimus, **ne** nustatykite automatinio intervalo.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

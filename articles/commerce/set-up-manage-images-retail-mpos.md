@@ -2,13 +2,16 @@
 title: „Modern POS” (MPOS) vaizdų nustatymas ir tvarkymas
 description: Šiame straipsnyje paaiškinami įvairių objektų vaizdų, rodomų srityje „Modern POS‟ (MPOS), nustatymo ir valdymo veiksmai.
 author: athinesh99
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailChannelProfile, RetailMediaGallery, RetailImages,
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: 52851
 ms.assetid: 5c21385e-64e0-4091-98fa-6a662eb33010
 ms.search.region: global
@@ -16,12 +19,12 @@ ms.search.industry: Retail
 ms.author: athinesh
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 71b90b1bc93c756731960871a0cb7b1e5f416a825399cd135dfbcc7656d6bf65
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: aff3bee942f3443eb604311d1d804b66421e332d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6755036"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4414425"
 ---
 # <a name="set-up-and-manage-images-for-modern-pos-mpos"></a>„Modern POS” (MPOS) vaizdų nustatymas ir tvarkymas
 
@@ -46,11 +49,11 @@ Tolesnėse procedūrose pagal pavyzdį nustatomi objekto Katalogas vaizdai. Šio
 1. Atidarykite „Commerce“ HQ portalą.
 2. Spustelėkite **Mažmeninė prekyba ir prekyba** &gt; **Kanalo sąranka** &gt; **Kanalo šablonai**.
 
-    [![Naršymas.](./media/channel-profile1.png)](./media/channel-profile1.png)
+    [![Naršymas](./media/channel-profile1.png)](./media/channel-profile1.png)
 
 3. Jūsų parduotuvės naudojamame MPOS skirtame kanalo šablone atnaujinkite lauką **Medijos pagrindinis URL**, įvesdami savo medijos serverio arba CDN pagrindinį URL. Pagrindas URL yra pirmoji URL dalis, kurią bendrai naudoja visi skirtingų objektų vaizdų aplankai.
 
-    [![Kanalo šablonų puslapis.](./media/channel-profile2.png)](./media/channel-profile2.png)
+    [![Kanalo šablonų puslapis](./media/channel-profile2.png)](./media/channel-profile2.png)
 
 ### <a name="define-the-media-template-for-an-entity"></a>Objekto medijos šablono nustatymas
 
@@ -68,7 +71,7 @@ Tolesnėse procedūrose pagal pavyzdį nustatomi objekto Katalogas vaizdai. Šio
 8. Vykdykite sinchronizavimo užduotis ir įtraukite naują šabloną į kanalo duomenų bazę, kad MPOS galėtų šabloną naudoti vaizdams pasiekti.
 9. Norint, kad katalogo vaizdų medijos šabloną atnaujintų kanalas, reikia paleisti užduotį **1150 katalogo užduotis** pasirinkus **Mažmeninės prekybos ir prekybos IT** &gt; **Paskirstymo grafikas**.
 
-    [![Dialogo langas „Nustatyti medijos šabloną“.](./media/catalog1.png)](./media/catalog1.png)
+    [![Dialogo langas „Nustatyti medijos šabloną“](./media/catalog1.png)](./media/catalog1.png)
 
 ## <a name="previewing-an-image-from-the-entity-level"></a>Vaizdo peržiūra objekto lygyje
 
@@ -77,7 +80,7 @@ Tolesnėse procedūrose pagal pavyzdį nustatomi objekto Katalogas vaizdai. Šio
 3. Galite naudoti mygtukus **Įtraukti** ir **Šalinti**, norėdami patys pakeisti kelią, kuris pagrįstas netiesioginiu šablonu ir kurį naudoja konkretus vaizdas. Norėdami gauti daugiau informacijos, žr. tolesnį šio straipsnio skyrių [Objekto prekių medijos šablono perrašymas](#overwriting-the-media-template-for-entity-items).
 4. Peržiūrėję vaizdą ir atlikę reikiamus keitimus, paleiskite atitinkamos parduotuvės MPOS egzempliorių ir patikrinkite, ar rodomi katalogo vaizdai.
 
-    [![Dialogo langas „Vaizdai“.](./media/catalog4.png)](./media/catalog4.png)
+    [![Dialogo langas „Vaizdai“](./media/catalog4.png)](./media/catalog4.png)
 
 > [!NOTE]
 > Tą pačią procedūrą galite naudoti su visais penkiais palaikomais objektais, kurie yra: Darbuotojas, Klientas, Katalogas, Kategorija ir Produktai. „Katalogo produktai“ (katalogų lygyje nustatyti produktai) ir „Kanalo produktai“ (kanalo lygyje nustatyti produktai) naudoja nustatytą objekto Produktai medijos šabloną. Galite pasirinkti, kiek objekto Produktai medijos šablono produkto vaizdų rodyti kiekvienam produktui. Taip pat galite nustatyti konkretaus produkto numatytąjį vaizdą. Tokiu būdu galite išvengti tuščių vaizdų rodymo MPOS ir padėti kontroliuoti, kuris vaizdas bus naudojamas kaip numatytasis produkto vaizdas. Tolesniame pavyzdyje kiekvienas produktas turi penkis vaizdus, o pirmasis vaizdas yra nustatytas kaip numatytasis. Produktų variantai yra valdomi taip pat, kaip bendrieji produktai. Vaizdo failo vardas turi būti nustatytas pagal produkto numerį. Kai kurie simboliai pradingo, kol buvo generuojamas failo vardas. Todėl rekomenduojama patikrinti failo vardą naudojant sekciją **Generuoti vaizdų URL. skirtus „Excel“**. Žr. skyrių [Perrašyti naudojant funkciją „Redaguoti programoje „Excel“](#overwrite-by-using-edit-in-excel), esantį toliau šiame straipsnyje.
@@ -108,7 +111,7 @@ Kaip sužinojote ankstesniame skyriuje, nurodyto objekto medijos šablonas palai
 
     Dabar matote vaizdų URL, sugeneruotus pagal paskutinį įrašytą medijos šabloną.
 
-    [![„FastTab“ „Generuoti vaizdų URL, skirtus „Excel““ pasirinkus „Generuoti“.](./media/excel2.png)](./media/excel2.png)
+    [![„FastTab“ „Generuoti vaizdų URL., skirtus „Excel““ pasirinkus „Generuoti“](./media/excel2.png)](./media/excel2.png)
 
     > [!NOTE]
     > „Excel“ sugeneruoti URL naudoja nustatyto medijos šablono kelią ir nuostatas. Šios nuostatos apima failų vardų kūrimo nuostatas. Tikimasi, kad faktinius vaizdus nustatysite ne „Commerce“, o vaizdus bus galima nuskaityti iš URL, kurie yra išvesti iš anksčiau nurodyto medijos šablono. Šiuos išvestus URL galite perrašyti, naudodami funkciją Redaguoti programoje „Excel“.
@@ -117,17 +120,17 @@ Kaip sužinojote ankstesniame skyriuje, nurodyto objekto medijos šablonas palai
 6. Atidarę „Microsoft Excel“ darbalapį, spustelėkite **Įjungti redagavimą**, kai būsite paprašyti.
 7. Kai paraginama, spustelėkite **Pasitikėti šiuo priedu** dešiniojoje srityje ir laukite, kol priedas bus įdiegtas.
 
-    [![Pasitikėti šiuo papildiniu.](./media/excel4.jpg)](./media/excel4.jpg)
+    [![Pasitikėti šiuo papildiniu](./media/excel4.jpg)](./media/excel4.jpg)
 
 8. Jei būsite paraginti prisijungti, įveskite kredencialus, kuriuos naudojate prisijungdami prie HQ.
 
-    [![Raginimas prisijungti.](./media/excel5.png)](./media/excel5.png)
+    [![Raginimas prisijungti](./media/excel5.png)](./media/excel5.png)
 
 9. Prisijungę galėsite peržiūrėti įvairių katalogo įrašų vaizdų URL sąrašą.
 10. Įvairių objektų prekių vaizdų URL galite redaguoti, įtraukti ir šalinti.
 11. Galite perrašyti visų, išskyrus objekto Produktai, vaizdų URL. Modifikuokite esamą vaizdo URL, kad jis naudotų naują vaizdo paskirties URL, ir atnaujinkite failo vardą, įvesdami naują vaizdo failo vardą. Failo vardas turi būti unikalus, siekiant užtikrinti, kad įrašas yra unikalus.
 
-    [![Vaizdų URL perrašymas programoje „Excel“.](./media/excel6.jpg)](./media/excel6.jpg)
+    [![Vaizdų URL perrašymas programoje „Excel“](./media/excel6.jpg)](./media/excel6.jpg)
 
     > [!NOTE]
     > Kai objektų Produktai vaizdų URL perrašote naudodami funkciją Redaguoti programoje „Excel“ arba objekto prekių puslapį, MPOS visada kartu rodo medijos šablono vaizdų URL ir perrašytus vaizdų URL.
@@ -153,11 +156,11 @@ Galite perrašyti pasirinktos bet kurio objekto, išskyrus objektus Produktai, p
 3. Jei norite, kad šis katalogo vaizdas būtų rodomas MPOS, galite jį nustatyti kaip numatytąjį vaizdą.
 4. Spustelėkite **GERAI**. Atnaujintas šio katalogo vaizdo URL ir rodomas rodinys.
 
-    [![Dialogo lange „Naujas vaizdas“ atnaujintas URL.](./media/preview3.png)](./media/preview3.png)
+    [![Dialogo lange „Naujas vaizdas“ atnaujintas URL](./media/preview3.png)](./media/preview3.png)
 
 5. Taip pat galite peržiūrėti visų perrašytų vaizdų URL rodinius galerijos puslapyje **Katalogo vaizdai**.
 
-    [![Katalogo vaizdų galerijos puslapis.](./media/preview-4.png)](./media/preview-4.png)
+    [![Katalogo vaizdų galerijos puslapis](./media/preview-4.png)](./media/preview-4.png)
 
 > [!NOTE]
 > Šiuo metu galerijoje medijos šablono vaizdų URL vaizdo rodiniai nerodomi. Jei vartotojas naudodamas šį puslapį tiesiogiai pateikia objektų Katalogas, Darbuotojas, Klientas ir Kategorija URL, rekomenduojame nurodyti, kuris vaizdas yra numatytasis vaizdas, nes „Commerce Scale Unit“ klientai rodo tik vieną vaizdą viename objekte Katalogas, Klientas, Darbuotojas arba Kategorija. Jei vartotojas nenurodo numatytojo vaizdo, sistema nustato numatytąjį vaizdą ir siunčia jį „Commerce” tarnybos kvietyklei (MPOS arba „Ecommerce“).
@@ -172,7 +175,7 @@ Norėdami perrašyti katalogo produkto vaizdų URL, turite naudoti puslapį **Pe
 4. Spustelėkite **Įtraukti** ir perrašykite vaizdo URL įvesdami naują URL.
 5. Spustelėkite **GERAI**. Dabar galite pamatyti naujo vaizdo rodinį ir nustatyti jį kaip numatytąjį vaizdą.
 
-    [![Vaizdo peržiūra dialogo lange „Naujas vaizdas“.](./media/cat3.png)](./media/cat3.png)
+    [![Vaizdo peržiūra dialogo lange „Naujas vaizdas“](./media/cat3.png)](./media/cat3.png)
 
 > [!NOTE]
 > Susieję kategorijos vaizdus, turite publikuoti kanalą ir paleisti užduotį Kanalas, siekdami užtikrinti, kad keitimai būtų publikuojami kanalo duomenų bazėje.
@@ -193,7 +196,7 @@ Produkto vaizdus, kuriuos reikia naudoti atjungties režimu, galima nustatyti nu
 6. Kol MPOS veikia atjungties režimu, vykdykite užduotį Katalogas HQ, kad įsitikintumėte, jog duomenys buvo bent vieną kartą nusiųsti į autonominę duomenų bazę.
 7. Perjunkite MPOS į atjungties režimą. Turėtumėte matyti nusiųstą konkretaus produkto vaizdą HQ.
 
-    [![Produkto vaizdas atjungties režimu.](./media/offline1.png)](./media/offline1.png)
+    [![Produkto vaizdas atjungties režimu](./media/offline1.png)](./media/offline1.png)
 
 ### <a name="set-up-catalog-category-employee-and-customer-images-to-appear-in-offline-mode-for-mpos"></a>Katalogo, kategorijos, darbuotojo ir kliento vaizdų rodymo MPOS atjungties režimu nustatymas
 
@@ -205,7 +208,4 @@ Katalogo, kategorijos, darbuotojo ir kliento vaizdus, kuriuos reikia naudoti atj
 4. Vykdykite užduotį Katalogas. Šis vaizdas dabar bus naudojamas kaip autonominis to katalogo vaizdas MPOS.
 5. Tokiu pat būdu nustatykite kitų objektų, pvz., Kategorija, Darbuotojas arba Klientas, vaizdus.
 
-    [![Autonominis vaizdas.](./media/offline2.png)](./media/offline2.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+    [![Autonominis vaizdas](./media/offline2.png)](./media/offline2.png)

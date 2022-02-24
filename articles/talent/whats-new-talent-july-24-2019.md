@@ -78,6 +78,3 @@ Nauja parinktis leis vadovams peržiūrėti savo tiesioginių ataskaitų ir išp
 Džiaugiamės galėdami pranešti, kad Kanados ir Pietryčių Azijos regionai bus įtraukti į programą „Talent” 2019 m. rugpjūčio 1 d. Naudodami šį pakeitimą, galite sukurti aplinkas Kanados ir Azijos regionuose, o visi „Talent” duomenys bus tvarkomi tik tose vietose. Šiuose naujuose regionuose galite sukurti aplinką pasirinkdami vietą dialogo lange Nauja aplinka ir naudoti šią aplinką „Talent” konfigūravimui LCS, kaip aprašyta čia [„Talent” konfigūravimas](https://docs.microsoft.com/dynamics365/unified-operations/talent/provisioning-talent).
 
 Esamų projektų duomenų perkėlimas iš kitų regionų į Kanados ir Azijos regionus yra nepalaikomas. Tik nauji projektai gali būti konfigūruojami šiuose naujuose palaikomuose regionuose.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

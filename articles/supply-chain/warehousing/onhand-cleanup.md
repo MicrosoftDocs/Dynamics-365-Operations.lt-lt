@@ -2,9 +2,11 @@
 title: Sandėlio valdymo turimų įrašų valymo užduotis
 description: Šioje temoje aprašoma turimų atsargų valymo užduotis, kuri padeda pagerinti sistemos efektyvumą nustatant ir naikinant susijusius, bet nereikalingus įrašus.
 author: perlynne
+manager: tfehr
 ms.date: 04/23/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysOperationTemplateForm
 audience: Application User
@@ -12,17 +14,15 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-04-03
-ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: d839ed861a24f6ef7267c85e942c275586b4a8c4
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.12
+ms.openlocfilehash: f045b9686bbdfcf3e82f5158f0fd28860354b7d7
+ms.sourcegitcommit: b6686265314499056690538eaa95ca51cff7c720
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7565101"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5014488"
 ---
 # <a name="warehouse-management-on-hand-entries-cleanup-job"></a>Sandėlio valdymo turimų įrašų valymo užduotis
-
-[!include [banner](../includes/banner.md)]
 
 Užklausų, naudojamų skaičiuojant turimas atsargas, efektyvumas priklauso nuo įtrauktų lentelių įrašų skaičius. Vienas iš būdų pagerinti efektyvumą yra sumažinti įrašų, kuriuos turi įvertinti duomenų bazė, skaičių.
 
@@ -62,6 +62,3 @@ Pagal numatytuosius nustatymus **Maksimalaus vykdymo laiko** parametras yra nepa
 
 - **Modulis:** *sandėlio valdymas*
 - **Funkcijos pavadinimas:** *maksimalus vykdymo laikas sandėlio valdymo turimų įrašų valymo užduočiai*
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

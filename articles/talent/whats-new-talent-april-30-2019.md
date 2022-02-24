@@ -101,6 +101,3 @@ Galimybė sekti darbuotojų nedarbo laiką ir suprasti, kaip skaičiuojamas neda
 ### <a name="email-support-for-alerts"></a>Įspėjimų el. pašto palaikymas
 
 Platformos 26 naujinime „Finance and Operations“, naudotojai gali sukurti pranešimo taisykles, kurios automatiškai siunčia el. pašto pranešimus į kontaktus, kai įvykis įjungia pranešimus.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

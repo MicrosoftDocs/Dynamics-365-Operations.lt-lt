@@ -1,10 +1,12 @@
 ---
 title: Gaunamas ir siunčiamas turtas
 description: Šioje temoje aprašoma, kaip modulyje Turto valdymas užregistruoti gaunamą ir siunčiamą turtą.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 10/01/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetOutboundObjectsListPage, EntAssetOutboundObjectsDeliver, EntAssetInboundObjectsListPage, EntAssetInboundObjectsRecieve
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 0bd3127df1b583acc6841c3e115d3beceabcab2756098e567b2269c1dcc94004
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e6dfadf6824c6a3df7be9b3b6f3d9f5dd2749e34
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6759628"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5018076"
 ---
 # <a name="inbound-and-outbound-assets"></a>Gaunamas ir siunčiamas turtas
 
@@ -42,7 +44,7 @@ Turto valdymo konfigūracija nulemia, ar galite dirbti su gaunamu ir siunčiamu 
 3. Pasirinkite **Atnaujinti priežiūros užklausos būseną**.
 4. Pasirinkite **Gaunamas** (arba kitą sukurtą gaunamo turto ciklo būseną), tada pasirinkite **Gerai**.
 
-![Turto registravimas kaip gaunamo.](media/07-manage-maintenance-requests.png)
+![Gaunamo turto registravimas](media/07-manage-maintenance-requests.png)
 
 ## <a name="register-inbound-assets-as-received"></a>Gaunamo turto kaip gauto registravimas
 
@@ -51,7 +53,7 @@ Turto valdymo konfigūracija nulemia, ar galite dirbti su gaunamu ir siunčiamu 
 3. Pasirinkite **Gauti turtą**.
 4. Lauke **Gauta** įveskite datą ir laiką. Tada pasirinkite **Gerai**. Įrašas pašalinamas iš **Gaunamas turtas** sąrašo puslapio.
 
-![Gaunamo turto kaip gauto registravimas.](media/08-manage-maintenance-requests.png)
+![Gaunamo turto kaip gauto registravimas](media/08-manage-maintenance-requests.png)
 
 ## <a name="register-assets-as-outbound"></a>Siunčiamo turto registravimas
 
@@ -68,6 +70,3 @@ Atlikę priežiūros arba remonto užduotį, galite užregistruoti turtą kaip g
 2. Pasirinkite turtą arba priežiūros užklausą.
 3. Pasirinkite **Pristatyti turtą**.
 4. Lauke **Pristatyta** įveskite datą ir laiką. Tada pasirinkite **Gerai**. Įrašas pašalinamas iš **Siunčiamas turtas** sąrašo puslapio.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

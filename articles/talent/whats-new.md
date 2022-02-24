@@ -33,6 +33,3 @@ Kiekvieną savaitę išleidžiama naujų „Talent“ leidimų. Šie leidimai i�
 
 Turinys ir toliau bus atnaujinamas kiekvieną savaitę, todėl patikrinkite ir sužinokite apie visas naujas naujausių „Talent“ leidimų funkcijas bei pakeitimus.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

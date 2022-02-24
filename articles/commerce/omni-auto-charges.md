@@ -1,14 +1,17 @@
 ---
-title: Integruoto kanalo išplėstinės automatinės išlaidos
-description: Šioje temoje aprašomos papildomos „Commerce“ kito kanalo užsakymų mokesčių tvarkymo galimybės naudojant pažangias automatinio apmokestinimo funkcijas.
+title: Daugiakanalės papildomos automatinės išlaidos
+description: Šioje temoje aprašomos papildomos „Commerce“ kanalo užsakymų mokesčių tvarkymo galimybės naudojant pažangias automatinio apmokestinimo funkcijas.
 author: hhaines
+manager: annbe
 ms.date: 03/30/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -16,12 +19,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: ef6396ec66a0f96ba97b176c46bf70d83a080883cf496312398f14dce3ad9758
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2d463bf01659aeb6599023ce46da0c604f8eeff0
+ms.sourcegitcommit: 4c6d31f3ebd88212d3d1497a4bba9c64c5300444
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6743436"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "4414497"
 ---
 # <a name="omni-channel-advanced-auto-charges"></a>Integruoto kanalo išplėstinės automatinės išlaidos
 
@@ -29,9 +32,9 @@ ms.locfileid: "6743436"
 
 Šioje temoje pateikiama informacija apie išplėstinių automatinių išlaidų funkcijų, kurias galima rasti „Dynamics 365 for Retail“ 10.0 versijoje, konfigūracijas ir diegimą.
 
-Įgalinus išplėstines automatinių išlaidų funkcijas, užsakymuose, sukurtuose bet kuriame palaikomame „Commerce“ kanale (elektroniniame kasos aparate (EKA), skambučių centre ir internete), galima naudotis [automatinių išlaidų](/dynamics365/unified-operations/retail/configure-call-center-delivery#define-charges-for-delivery-services) konfigūracijų privalumais, apibrėžtais ERP programoje, tiek antraščių, tiek eilutės lygio mokesčiams.
+Įgalinus išplėstines automatinių išlaidų funkcijas, užsakymuose, sukurtuose bet kuriame palaikomame „Commerce“ kanale (elektroniniame kasos aparate (EKA), skambučių centre ir internete), galima naudotis [automatinių išlaidų](https://docs.microsoft.com/dynamics365/unified-operations/retail/configure-call-center-delivery#define-charges-for-delivery-services) konfigūracijų privalumais, apibrėžtais ERP programoje, tiek antraščių, tiek eilutės lygio mokesčiams.
 
-Ankstesniuose nei „Retail“ 10.0 versija leidimuose [automatinės išlaidos](/dynamics365/unified-operations/retail/configure-call-center-delivery#define-charges-for-delivery-services) konfigūracijos pasiekiamos tik jei užsakymai sukurti „e-Commerce“ ir skambučių centro kanaluose. 10.0 arba naujesnėse versijose EKA sukurti užsakymai gali naudoti automatinių išlaidų konfigūracijas. Tokiu būdu įvairios papildomos išlaidos gali būti sistematiškai įtraukiamos į pardavimo operacijas.
+Ankstesniuose nei „Retail“ 10.0 versija leidimuose [automatinės išlaidos](https://docs.microsoft.com/dynamics365/unified-operations/retail/configure-call-center-delivery#define-charges-for-delivery-services) konfigūracijos pasiekiamos tik jei užsakymai sukurti „e-Commerce“ ir skambučių centro kanaluose. 10.0 arba naujesnėse versijose EKA sukurti užsakymai gali naudoti automatinių išlaidų konfigūracijas. Tokiu būdu įvairios papildomos išlaidos gali būti sistematiškai įtraukiamos į pardavimo operacijas.
 
 Naudojant ankstesnius nei 10.0 versija leidimus, EKA vartotojas paraginamas neautomatiškai įvesti siuntimo mokestį tipo „siųsti viską“ arba „siųsti pasirinktus“ POS operacijos metu. Nors įvairių išlaidų programos galimybės naudojamos atsižvelgiant į tai, kaip išlaidos rašomos užsakyme, sistematiškas skaičiavimas nevykdomas – skaičiuojama remiantis vartotojo įvestimi siekiant nustatyti išlaidų vertę. Išlaidas galima įtraukti tik kaip vieną „siuntimo“ susijusių išlaidų kodą ir jų negalima lengvai redaguoti arba keisti EKA jas sukūrus.
 
@@ -39,21 +42,21 @@ Neautomatinio įvedimo raginimai įtraukti siuntimo išlaidas vis dar teikiami 1
 
 Naudojant išplėstinių automatinių išlaidų funkciją EKA vartotojai gali sistematiškai apskaičiuoti bet kokias nurodytas įvairias išlaidas pagal automatinių išlaidų nustatymo lenteles. Taip pat, vartotojai galės įtraukti arba redaguoti neribotą skaičių papildomų išlaidų ir mokesčių į bet kurią EKA pardavimo operaciją antraštės arba eilutės lygiu (atsiskaitymo grynaisiais arba kliento užsakymams).
 
-## <a name="enable-advanced-auto-charges"></a>Išplėstinių automatinių išlaidų įjungimas
+## <a name="enabling-advanced-auto-charges"></a>Išplėstinių automatinių išlaidų įjungimas
 
 Puslapyje **„Retail and Commerce“ \> Būstinės sąranka \> Parametrai \> „Commerce“ parametrai**, eikite į skirtuką **Kliento užsakymai**. „FastTab“ **Išlaidos** nustatykite **Naudoti išplėstines automatines išlaidas** į **Taip**.
 
-![Išplėstinių automatinių išlaidų parametras.](media/advancedchargesparameter.png)
+![Išplėstinių automatinių išlaidų parametras](media/advancedchargesparameter.png)
 
-Įjungus išplėstines automatines išlaidas, vartotojai neberaginami neautomatiškai įvesti siuntimo išlaidas EKA terminale kuriant tipo „siųsti viską“ arba „siųsti pasirinktus“ kliento užsakyme. EKA užsakymo išlaidos sistematiškai skaičiuojamos ir įtraukiamos į EKA operaciją (jei aptinkama atitinkama automatinių išlaidų lentelė, kuri atitinka kuriamos užsakymo kriterijus). Vartotojai taip pat gali įtraukti arba redaguoti antraštės arba eilutės lygio išlaidas neautomatiškai naudodami naujai sukurtas EKA operacijas, kurias galima įtraukti į EKA ekrano maketus.
+Ijungus išplėstines automatines išlaidas, vartotojai neberaginami neautomatiškai įvesti siuntimo išlaidas EKA terminale kuriant tipo „siųsti viską“ arba „siųsti pasirinktus“ kliento užsakyme. EKA užsakymo išlaidos sistematiškai skaičiuojamos ir įtraukiamos į EKA operaciją (jei aptinkama atitinkama automatinių išlaidų lentelė, kuri atitinka kuriamos užsakymo kriterijus). Vartotojai taip pat gali įtraukti arba redaguoti antraštės arba eilutės lygio išlaidas neautomatiškai naudodami naujai sukurtas EKA operacijas, kurias galima įtraukti į EKA ekrano maketus.
 
 Įgalinus išplėstines automatines išlaidas, esami **„Commerce“ parametrai**, skirti **Siuntimo išlaidų kodas** ir **Grąžinti siuntimo išlaidas**, nebenaudojami. Šie parametrai taikomi tik jei parametras **Naudoti išplėstines automatines išlaidas** nustatytas į parinktį **Ne**.
 
-Prieš įjungdami šią funkciją įsitikinkite, kad patikrinote ir apmokėte savo darbuotojus, nes funkcijos įjungimas pakeis verslo procesų srautą – siuntimo ar kitų išlaidų skaičiavimą ir įtraukimą į EKA pardavimo užsakymus. Įsitikinkite, kad suprantate proceso srauto poveikį kuriant operacijas iš EKA. Kuriant skambučių centro ir „e-Commerce“ užsakymus, išplėstinių automatinių išlaidų įjungimo poveikis yra minimalus. Skambučių centro ir „e-Commerce“ programos ir toliau veiks kaip anksčiau – elgsena susijusi su automatinių išlaidų lentelėmis, skirtomis papildomiems užsakymo mokesčiams apskaičiuoti. Skambučių centro kanalo vartotojai ir toliau galės neautomatiškai redaguoti bet kurias sistemos apskaičiuotas automatines išlaidas antraštės ar eilutės lygiu arba neautomatiškai įtraukti įvairių išlaidų antraštės ar eilutės lygiu.
+Prieš įjungdami šią funkciją įsitikinkite, kad patikrinote ir apmokėte savo darbuotojus, nes funkcijos įjungimas pakeis verslo procesų srautą – siuntimo ar kitų išlaidų skaičiavimą ir įtraukimą į EKA pardavimo užsakymus. Įsitikinkite, kad supratate proceso srauto poveikį kuriant operacijas iš EKA. Kuriant skambučių centro ir „e-Commerce“ užsakymus, išplėstinių automatinių išlaidų įjungimo poveikis yra minimalus. Skambučių centro ir „e-Commerce“ programos ir toliau veiks kaip anksčiau – elgsena susijusi su automatinių išlaidų lentelėmis, skirtomis papildomiems užsakymo mokesčiams apskaičiuoti. Skambučių centro kanalo vartotojai ir toliau galės neautomatiškai redaguoti bet kurias sistemos apskaičuotas automatines išlaidas antraštės ar eilutės lygiu arba neautomatiškai įtraukti įvairių išlaidų antraštės ar eilutės lygiu.
 
-## <a name="add-pos-operations"></a>Įtraukite EKA operacijas
+## <a name="additional-pos-operations"></a>Papildomos EKA operacijos
 
-Tam, kad išplėstinės automatinės išlaidos tinkamai veiktų jūsų EKA programos aplinkoje, įtrauktos naujos EKA operacijos. Šios operacijos turi būti įtrauktos į jūsų [EKA ekrano maketus](/dynamics365/unified-operations/retail/pos-screen-layouts) ir įdiegtos į EKA įrenginius, kaip diegiate išplėstines automatines išlaidas. Jei šios operacijos neįtraukiamos, vartotojai negalės valdyti arba tvarkyti EKA operacijų įvairių išlaidų ir niekaip negalės koreguoti ar keisti išlaidų reikšmių, kurios sistematiškai apskaičiuojamos pagal automatinių išlaidų konfigūracijas. Rekomenduojame bent jau įdiegti operaciją **Valdyti išlaidas** į EKA maketą.
+Tam, kad išplėstinės automatinės išlaidos tinkamai veiktų jūsų EKA programos aplinkoje, įtrauktos naujos EKA operacijos. Šios operacijos turi būti įtrauktos į jūsų [EKA ekrano maketus](https://docs.microsoft.com/dynamics365/unified-operations/retail/pos-screen-layouts) ir įdiegtos į EKA įrenginius, kaip diegiate išplėstines automatines išlaidas. Jei šios operacijos neįtraukiamos, vartotojai negalės valdyti arba tvarkyti EKA operacijų įvairių išlaidų ir niekaip negalės koreguoti ar keisti išlaidų reikšmių, kurios sistematiškai apskaičiuojamos pagal automatinių išlaidų konfigūracijas. Rekomenduojame bent jau įdiegti operaciją **Valdyti išlaidas** į EKA maketą.
 
 Toliau nurodytos naujos operacijos.
 
@@ -86,7 +89,7 @@ Sukonfigūruokite dvejas skirtingas antraštės lygio automatines išlaidas. Suk
 
 Pristatymo žeme išlaidų puslapio **Automatinės išlaidos** eilutės dalyje nurodykite išlaidas, kurios bus taikomos užsakymams, vertiems 0,01–100,00 USD, kaip 10,00 USD. Sukurkite kitą išlaidų eilutę, kad nurodytumėte, jog užsakymams, vertiems 100,01 USD ir daugiau, išlaidos nebus priskiriamos.
 
-![Dviejų automatinių išlaidų lentelių pavyzdys.](media/headerchargesexample.png)
+![Dviejų automatinių išlaidų lentelių pavyzdys](media/headerchargesexample.png)
 
 Pristatymo oru išlaidų automatinių išlaidų formos eilutės dalyje nurodykite 20,00 USD išlaidas, kurios bus taikomos visiems užsakymams (vertiems 0,01–9 999 999,00 USD).
 
@@ -116,7 +119,7 @@ Pasirinkite **Gautinos sumos \> Išlaidų sąranka \> Automatinės išlaidos**.
 
 Nustatykite išplečiamojo meniu **Lygis** parinktį **Eilutė** ir sukurkite naują automatinių išlaidų įrašą, skirtą visiems klientams ir konkrečiam produktui arba produktų grupei, kurioje nustatymo mokesčiai bus taikomi.
 
-![Vienos eilutės lygio automatinių išlaidų lentelės pavyzdys.](media/linechargesexample.png)
+![Vienos eilutės lygio automatinių išlaidų lentelės pavyzdys](media/linechargesexample.png)
 
 Nusiųskite išlaidas į „Commerce Scale Unit“ / „Channel DB“, kad EKA galėtų juos naudoti, vykdydamas užduotį **1040 paskirstymo grafikas**.
 
@@ -136,13 +139,13 @@ Mažmenininkas taiko išimtį įprastam procesui ir siūlo specialias produktų 
 
 Įsitikinkite, kad mokesčių kodas, kuris bus naudojamas šiame scenarijuje, yra tinkamai sukonfigūruotas: pasirinkite **Gautinos sumos \> Išlaidų sąranka \> Išlaidos** ir nurodykite atitinkamą scenarijaus išlaidų kodą.
 
-![Išlaidų pavyzdys.](media/chargesexample.png)
+![Išlaidų pavyzdys](media/chargesexample.png)
 
 Jei mokestis turi būti laikomas su „siuntimu“ susijusiomis išlaidomis dėl su siuntimu susijusių nuolaidų ar akcijų, išlaidų kode nustatykite parinkties **Siuntimo mokestis** reikšmę **Taip**. Jei šis mokestis taip pat gali būti sistematiškai grąžinamas grąžinimo operacijos apdorojimo EKA programoje metu, nustatykite parinkties **Gražinamas** reikšmę **Taip**. Vėliavėlė **Grąžinamas** taikoma tik kai parametras **Naudoti išplėstines automatines išlaidas** nustatytas į parinktį **Taip**.
 
 Nusiųskite išlaidas į „Commerce Scale Unit“ / „Channel DB“, kad EKA galėtų juos naudoti, vykdydamas užduotį **1040 paskirstymo grafikas**.
 
-Operacija **Įtraukti antraštės išlaidas** turi būti sukonfigūruota jūsų [POS ekrano makete](/dynamics365/unified-operations/retail/pos-screen-layouts), kad mygtuku, kuris pasiekiamas vartotojui iš EKA, būtų galima iškviesti šią operaciją (141 operacija). Ekrano maketo pakeitimai taip pat turi būti paskirstyti kanale per paskirstymo grafiko funkciją.
+Operacija **Įtraukti antraštės išlaidas** turi būti sukonfigūruota jūsų [POS ekrano makete](https://docs.microsoft.com/dynamics365/unified-operations/retail/pos-screen-layouts), kad mygtuku, kuris pasiekiamas vartotojui iš EKA, būtų galima iškviesti šią operaciją (141 operacija). Ekrano maketo pakeitimai taip pat turi būti paskirstyti kanale per paskirstymo grafiko funkciją.
 
 #### <a name="sales-processing-of-manual-header-charges"></a>Neautomatinių antraštės išlaidų pardavimo apdorojimas
 
@@ -164,7 +167,7 @@ Jei mokestis turi būti laikomas su „siuntimu“ susijusiomis išlaidomis dėl
 
 Nusiųskite išlaidas į „Commerce Scale Unit“ / „Channel DB“, kad EKA galėtų juos naudoti, vykdydamas užduotį **1040 paskirstymo grafikas**.
 
-Operacija **Įtraukti eilutės išlaidas** turi būti sukonfigūruota jūsų [POS ekrano makete](/dynamics365/unified-operations/retail/pos-screen-layouts), kad mygtuku, kuris pasiekiamas vartotojui iš EKA, būtų galima iškviesti šią operaciją (140 operacija). Ekrano maketo pakeitimai taip pat turi būti paskirstyti kanale per paskirstymo grafiko funkciją.
+Operacija **Įtraukti eilutės išlaidas** turi būti sukonfigūruota jūsų [POS ekrano makete](https://docs.microsoft.com/dynamics365/unified-operations/retail/pos-screen-layouts), kad mygtuku, kuris pasiekiamas vartotojui iš EKA, būtų galima iškviesti šią operaciją (140 operacija). Ekrano maketo pakeitimai taip pat turi būti paskirstyti kanale per paskirstymo grafiko funkciją.
 
 #### <a name="sales-processing-of-the-manual-line-charge"></a>Neautomatinių eilutės išlaidų pardavimo apdorojimas
 
@@ -176,7 +179,7 @@ Tą patį procesą galima taikyti skambučių centre naudojant funkciją „tvar
 
 ### <a name="editing-charges-on-a-pos-sales-transaction"></a>Išlaidų redagavimas EKA pardavimo operacijoje
 
-Operacija **Valdyti išlaidas** (142) turėtų būti įtraukta į [POS ekrano maketą](/dynamics365/unified-operations/retail/pos-screen-layouts), kad vartotojas galėtų peržiūrėti ir redaguoti arba perrašyti bet kokias sistemos apskaičiuotas ar neautomatiniu būdu sukurtas antraštės arba eilutės lygio išlaidas. Jei operacija neįtraukta, vartotojai negalės koreguoti EKA operacijos išlaidų vertės, taip pat jie negalės peržiūrėti išlaidų informacijos, pvz., išlaidų kodo, susieto su išlaidų tipu.
+Operacija **Valdyti išlaidas** (142) turėtų būti įtraukta į [POS ekrano maketą](https://docs.microsoft.com/dynamics365/unified-operations/retail/pos-screen-layouts), kad vartotojas galėtų peržiūrėti ir redaguoti arba perrašyti bet kokias sistemos apskaičiuotas ar neautomatiniu būdu sukurtas antraštės arba eilutės lygio išlaidas. Jei operacija neįtraukta, vartotojai negalės koreguoti EKA operacijos išlaidų vertės, taip pat jie negalės peržiūrėti išlaidų informacijos, pvz., išlaidų kodo, susieto su išlaidų tipu.
 
 EKA puslapyje **Valdyti išlaidas** vartotojas gali peržiūrėti tiek antraštės, tiek eilutės lygio išlaidų informaciją. Vartotojas gali naudoti šiame puslapyje teikiamą funkciją **Redaguoti** ir keisti mokėtiną sumą konkrečioje išlaidų eilutėje. Kai išlaidų eilutė perrašoma neautomatiškai, ji nebus sistematiškai perskaičiuojama, nebent vartotojas inicijuos operaciją **Perskaičiuoti išlaidas**.
 
@@ -197,7 +200,7 @@ Išlaidos nėra sistemingai grąžinamos į **Grąžinimo užsakymai**, sukurtus
 Toliau nurodyti kvito elementai įtraukti į kvito eilutę ir poraštę, kad veiktų išplėstinių automatinių išlaidų funkcija.
 
 - **Eilutės siuntimo išlaidos** – šį eilutės lygio elementą galima naudoti norint prisiminti konkrečius išlaidų kodus, kurie pritaikyti pardavimo eilutei. Čia bus rodomi tik išlaidų kodai, kurie puslapyje **Išlaidų kodas** buvo pažymėti tipo **Siuntimas** išlaidos.
-- **Eilutės kitos išlaidos** – šį eilutės lygio elementą galima naudoti norint prisiminti bet kokius konkrečius ne siuntimo išlaidų kodus, kurie pritaikyti pardavimo eilutei. **Sulyginkite kitus keitimus** yra mokesčių kodai, kai **Siuntimas** vėliava **Išlaidų kodų** puslapyje nebuvo įjungtas.
+- **Eilutės kitos išlaidos** – šį eilutės lygio elementą galima naudoti norint prisiminti bet kokius konkrečius ne siuntimo išlaidų kodus, kurie pritaikyti pardavimo eilutei. Tai yra išlaidų kodai, kurių vėliavėlė **Siuntimas** puslapyje **Išlaidų kodas** neįjungta.
 - **Užsakymo siuntimo mokesčių informacija** – šis poraštės lygio elementas rodo aprašymus, skirtus užsakymui taikomiems išlaidų kodams, kurie sąrankos puslapyje **Išlaidų kodas** pažymėti kaip tipo **Siuntimas** išlaidos.
 - **Užsakymo siuntimo išlaidos** – šis poraštės lygio elementas rodo su siuntimu susijusių išlaidų vertę doleriais.
 - **Užsakymo kitų išlaidų informacija** – šis poraštės lygio elementas rodo aprašymą, skirtą užsakymui taikomiems išlaidų kodams, kurie nepažymėti kaip su siuntimu susijusios išlaidos.
@@ -219,6 +222,3 @@ Jei vartotojai neautomatiškai perrašo apskaičiuotas išlaidas arba įtraukia 
 
 [Proporcingas antraštės išlaidų paskirstymas atitinkančioms pardavimo eilutėms](pro-rate-charges-matching-lines.md)
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,22 +2,25 @@
 title: Darbas su EKA serijos prekėmis
 description: Šioje temoje paaiškinama, kaip valdyti serijos prekes elektroninio kasos aparato (EKA) programoje.
 author: boycezhu
-ms.date: 01/08/2021
+manager: annbe
+ms.date: 08/21/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.search.region: global
 ms.author: boycez
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 5725943fd249e1b5d66b08b829c2eb58b6aad3ee24db9ca83bbde9be906bbf82
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6ba01abc3d1a4496ec586a621aa03b4981f84d76
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737583"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4414460"
 ---
 # <a name="work-with-serialized-items-in-the-pos"></a>Darbas su EKA serijos prekėmis
 
@@ -87,52 +90,8 @@ Norėdami įjungti šį tikrinimą, būtina suplanuoti toliau pateiktas užduoti
 - **„Retail“ ir „Commerce“** > **„Retail“ ir „Commerce“ IT** > **Produktai ir atsargos** > **Produkto pasiekiamumas su sekimo dimensijomis**.
 - **„Retail“ ir „Commerce“** > **Paskirstymo grafikai** > **1130** (**Produkto pasiekiamumas**)
 
-## <a name="sell-serialized-items-in-pos"></a>Parduoti serijines prekes EKA
-
-Kai EKA programa visuomet palaikoma parduodamose serijinėse prekėse, „Commerce“ versijoje 10.0.17 ir vėlesnėse, organizacijos gali įjungti funkcijas, kurios apima verslo logiką paleistą kai parduodami produktai konfigūruojami serijinio numerio sekimui.
-
-Kai **Apimtas serijinio numerio patvirtinimas EKA užsakyme apima ir užsakymo įgyvendinimo** funkcija yra išjungta, tolesnės produkto konfigūracijos yra įvertinamos kai parduodami produktai serijiniai per EKA:
-
-- **Serijos tipas** produkto nustatymas (**aktyvus** ar **aktyvus prekyboje**).
-- **Tuščios problemos leidimas** nustatymai produktui.
-- **Fizinis neigiamas inventorius** nustatymas produktui ir (ar) pardavimo sandėliui.
-
-### <a name="active-serial-configurations"></a>Aktyvios serijinės konfigūracijos
-
-Kai prekės parduodamos EKA, kuris sukonfigūruotas su **Aktyviu** serijinio numerio sekimo dimensija, EKA pradeda patvirtinimo logiką, kuri apsaugo vartotojus nuo serijinės prekės pardavimo užbaigimo su serijiniu numeriu, kurio rasti nepavyksta pardavimo sandėlio esamame inventoriuje. Šiai tvirtinimo taisyklei yra dvi išlygos:
-
-- Prekė taip pat konfigūruojama su **Tuščios problemos leidimas** įjungta, vartotojai gali praleisti serijinio numerio įrašymą ir parduoti prekę be jokio paskirto serijinio numerio.
-- Jei prekė ir (ar) pardavimo sandėlis yra konfigūruojamas su **Fiziniu neigiamu inventoriumi** įjungtu, programa priima ir parduoda serijinį numerį, kuris negali būti patvirtintas inventoriuje sandėlyje, kuris parduodamas pagal jį. Šis konfigūravimas leidžia inventoriaus transakciją konkrečiai prekei ar serijiniam numeriui būti neigiamam ir dėl to, sistema leis nežinomų serijinių numerių prekybą.
-
-> [!IMPORTANT]
-> Siekiant įsitikinti, kad EKA programa gali tinkamai tvirtinti, ar serijinis numeris yra parduodamas kaip **Aktyvus** serijinis prekių tipas, kuris yra pardavimo sandėlio inventoriuje, būtina organizacijoms **Produkto prieinamumas su sekimo dimensijos** darbą atlikti „Commerce“ štabe ir kartu **1130** produkto prieinamumo paskirstymo darbą per „Commerce“ štabo dažniu režimu. Kadangi naujas serijinės atsargos yra gaunamos į pardavimo sandėlį siekiant EKA patvirtinti inventoriaus serijinių numerių prieinamumą, inventoriaus pagrindiniai duomenys turi dažnai naujinti kanalo duomenų bazę su naujausiais inventoriaus prieinamumo duomenimis. Darbas **Produkto prieinamumas su sekimo dimensijomis** ima momentinę ekrano nuotrauką pagrindinio inventoriaus, įskaitant serijinius numerius visiems įmonių sandėliams. **1130** paskirstymo darbas paima to inventoriaus momentinę ekrano nuotrauką ir ją bendrina su visomis konfigūruotomis kanalo duomenų bazėmis.
-
-### <a name="active-in-sales-process-serial-configurations"></a>Aktyvios pardavimų proceso serijinėse konfigūracijose
-
-Prekės konfigūruotos su serijine dimensija kaip **Aktyvios pardavimo procese** nepereina per inventoriaus tvirtinimo logiką, nes konfigūravimas taikomas inventoriaus serijiniams numeriams nėra registruojamas iš anksto atsargoms ir serijiniai numeriai nėra aprėpiami pardavimo metu.  
-
-Jei **Tuščia problema leidžiama** taip pat konfigūruojama **Aktyvios prekybos procese** konfigūruotos prekės, serijinio numerio įrašas gali būti praleistas. Jei **Tuščia problema leidžiama** nėra konfigūruota, programa prašo vartotojo įvesti serijinį numerį net jei jis nebus patvirtintas pagal prieinamą inventorių.
-
-### <a name="apply-serial-numbers-during-creation-of-pos-transactions"></a>Taikyti serijinius numerius EKA transakcijų kūrimo metu
-
-EKA programa nedelsiant skatina vartotojus serijiniams numeriams apimti, kai parduodamos serijinės prekės, bet programa leidžia vartotojams praleisti įvedimą serijinio numerio iki tam tikro taško pardavimo metu. Vartotojui pradėjus apimti mokėjimą, programa įgalina ir reikalauja serijinio numerio įvedimo bet kurioms prekėms, kurios nėra konfigūruotos siekiant atitikti per tolesnius siuntimus ar paėmimus. Bet kurios serijinės prekės sukonfigūruotos grynų ir atsiėmimo ar atsiėmimo įgyvendinimo metu, prašo vartotojo apimti serijinį numerį (ar sutikti palikti tuščią, jei prekių konfigūravimas leidžia tą daryti) prieš užbaigiant pardavimą.
-
-Serijinės prekės parduodamos ateities paėmimui ar siuntimui, EKA vartotojai gali praleisti serijinio numerio įvedimą iš pradžių ir vis dar užbaigti kliento užsakymo kūrimą.   
-
-> [!NOTE]
-> Parduodant ar įgyvendinant serijinius produktus per EKA programą, „1“ kiekis yra įgalinamas serijinėms prekėms pardavimo transakcijoje. Tai yra rezultatas, kaip serijinio numerio informacija sekama pardavimų eilutėje. Parduodant ar įgyvendinant transakciją keliems serijiniams produktams per EKA, kiekviena eilutė turi būti konfigūruojama su „1“ kiekiu. 
-
-### <a name="apply-serial-numbers-during-customer-order-fulfillment-or-pickup"></a>Taikyti serijinius numerius kliento užsakymo įgyvendinimo ar paėmimo metu
-
-Įgyvendinant kliento užsakymo eilutes serijiniams produktams naudojant **Užsakymo įgyvendinimo** veiksmą EKA, EKA įgalina aprėpti serijinį numerį prieš paskutinį įgyvendinimą. Dėl to, jei serijinis numeris nėra pateiktas pradinio užsakymo aprėpties metu, jis turi būti apimtas paėmimo, supakavimo ar siuntimo procesuose EKA. Tvirtinimas yra atliekamas kiekvienu veiksmu ir vartotojo tik bus paklausta serijinio numerio duomenų, jei jų nėra ar jie negalioja. Pavyzdžiui, jei vartotojas praleidžia paėmimą ar supakavimo žingsnius ir nedelsiant pradeda siuntimą, o serijinis numeris nėra registruotas eilutei, EKA reikalaus serijinio numerio įvedimo prieš paskutinio sąskaitos veiksmo užbaigimą. Įjungiant serijinio numerio aprėptį užsakymo įgyvendinimo operacijų EKA metu, visos anksčiau minėtos taisyklės šiame skyriuje vis dar bus taikomos. Tik serijinės prekės, konfigūruotos kaip **Aktyvios** pereina per serijinio numerio inventoriaus atsargų tvirtinimą. Prekės konfigūruotos kaip **Aktyvios prekybos procese** nebus patvirtintos. Jei **Fizinės neigiamos atsargos** leidžiamos **Aktyviose** produktuose, bet koks serijinis numeris bus priimtas nepriklausomai nuo atsargų prieinamumo. Abiem **Aktyviems** ir **Aktyviems prekybos procesams** prekėms, jei **Tuščia problema leidžiama** yra konfigūruota, vartotojas gali palikti serijinius numerius tuščius, jei nori paėmimo, pakavimo ir siuntimo veiksmų metu.
-
-Patvirtinimai serijiniams numeriams taip pat vyks, kai vartotojas atliks paėmimo veiksmus kliento užsakymuose EKA. EKA programa neleidžia atlikti paėmimo serijiniams produktams, nebent jis praeina pro patvirtinimą kaip minėta anksčiau. Patvirtinimai visada paremti produkto sekimo dimensija ir pardavimo sandėlio konfigūravimais. 
-
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
-[Atvežamų atsargų operacija EKA](./pos-inbound-inventory-operation.md)
+[Atvežamų atsargų operacija EKA](https://docs.microsoft.com/dynamics365/commerce/pos-inbound-inventory-operation)
 
-[Siunčiamų atsargų operacija EKA](./pos-outbound-inventory-operation.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[Siunčiamų atsargų operacija EKA](https://docs.microsoft.com/dynamics365/commerce/pos-outbound-inventory-operation)

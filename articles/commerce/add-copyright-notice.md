@@ -2,24 +2,27 @@
 title: Įtraukti informaciją apie autorių teises
 description: Šioje temoje aprašoma, kaip į el. prekybos svetainę įtraukti informaciją apie autorių teises.
 author: psimolin
+manager: AnnBe
 ms.date: 10/16/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
+ms.search.scope: Operations, Retail, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 4a9a7fed4393f9c35b0bdc765fe7d0723c193f89
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
-ms.translationtype: MT
+ms.openlocfilehash: 838047cac694c65047332e146a7c43ee2ae0f401
+ms.sourcegitcommit: 1a12b42cc17f004a981c716aed3da6cf538475a5
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7964761"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4414474"
 ---
 # <a name="add-a-copyright-notice"></a>Įtraukti informaciją apie autorių teises
 
@@ -49,7 +52,7 @@ Norėdami kiekvieno puslapio, kuriame naudojamas konkretus šablonas, apačioje 
 1. Dešinėje esančios ypatybių srities lauke **Pastraipa** įtraukite pranešimą apie autorių teises. Pavyzdžiui, įveskite **Autorių teisės priklauso „Fabrikam“, 2019 m.**
 1. Pasirinkite **Įrašyti**, **Baigti redagavimą**, tada – **Publikuoti**.
 1. Eikite į **Šablonai**, pasirinkite šabloną, tada – **Redaguoti**.
-1. Dalyje **Puslapio struktūra** išplėskite **Pagrindinis tekstas**, o tada – **Numatytasis puslapis**.
+1. Dalyje **Puslapio struktūa** išplėskite **Pagrindinis tekstas**, tada – **Numatytasis puslapis**.
 1. Pasirinkite prie elemento **Poraštės vieta** esantį daugtaškio mygtuką, tada – **Įtraukti fragmentą**.
 1. Pasirinkite anksčiau sukurtą fragmentą, tada – **Pasirinkti**.
 1. Pasirinkite **Baigti redagavimą**, kad užregistruotumėte šabloną, o tada pasirinkite **Publikuoti**, kad publikuotumėte jį.
@@ -66,10 +69,9 @@ Poraštė su informacija apie autorių teises automatiškai atsiranda visų pusl
 
 [Įtraukti parankinių piktogramą](add-favicon.md)
 
+[Įtraukti pasveikinimo pranešimą](add-welcome-message.md)
+
 [Kalbų įtraukimas į savo svetainę](add-languages-to-site.md)
 
 [Įtraukite scenarijaus kodą į svetainės puslapius, kad būtų palaikoma telemetrija](add-telemetry.md)
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,9 +2,11 @@
 title: Vartotojų priskyrimas saugos vaidmenims
 description: Kad vartotojai galėtų pasiekti „Finance and Operations“ programas, jiems reikia priskirti saugos vaidmenis.
 author: Peakerbl
+manager: AnnBe
 ms.date: 05/06/2020
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysSecRolesEditUsers, SysSecAssignmentQueryLookup, SysQueryForm, SysSecRoleExcludeUsers
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6d65c4dafda63b7a54dd343652b0f4b498e064f4aee0fba43c34d40d73ac5062
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f78c24e8c2ffe5418ce119e19b7c0193f01f64b8
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6748341"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4679869"
 ---
 # <a name="assign-users-to-security-roles"></a>Vartotojų priskyrimas saugos vaidmenims
 
@@ -55,6 +57,3 @@ Vartotojus, kurie neautomatiniu būdu priskirti saugos vaidmenims, administrator
 2. Medyje pasirinkite vaidmenį, tada meniu **Vaidmeniui priskirti vartotojai** pasirinkite **Rankiniu būdu priskirti / pašalinti vartotojus**.
 4. Dalyje **Priskirti vartotojus vaidmeniui arba iš jo pašalinti** išvardyti vartotojai, kuriems nebuvo priskirtas vaidmuo, ir laukas **Priskyrimo režimas** nustatytas į **Nėra**. Pasirinkite vieną ar daugiau vartotojų, kuriems reikia priskirti vaidmenį.
 5. Dalyje **Veiksmų sritis** pasirinkite **Priskirti vaidmeniui**. Laukas **Priskyrimo režimas** atnaujinamas į **Rankinis**, o vartotojams priskirtas naujas vaidmuo.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

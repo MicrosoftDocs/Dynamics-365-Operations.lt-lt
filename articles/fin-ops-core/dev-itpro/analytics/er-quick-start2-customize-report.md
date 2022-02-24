@@ -2,27 +2,27 @@
 title: Pakoreguokite ER formatą, kad sugeneruotumėte pasirinktinį elektroninį dokumentą
 description: Šioje temoje paaiškinama, kaip pakoreguoti „Microsoft” pateiktą elektroninės ataskaitos angl. „Electronic reporting“ (ER) formatą, kad jis sugeneruotų pasirinktinį elektroninį dokumentą.
 author: NickSelin
+manager: AnnBe
 ms.date: 06/22/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERParameters, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner, ERVendorTable
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom:
-- "220314"
-- intro-internal
+ms.custom: 220314
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 47d8091e9199597857791f58f14587e2dea027e0
-ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
+ms.openlocfilehash: 20e7a32ac5f6ab21f89ed3c11c64458286864c9d
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "7605235"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680175"
 ---
 # <a name="adjust-an-er-format-to-generate-a-custom-electronic-document"></a>Pakoreguokite ER formatą, kad sugeneruotumėte pasirinktinį elektroninį dokumentą
 
@@ -98,7 +98,7 @@ Kaip elektroninių ataskaitų funkcinio konsultanto vartotojas, turite sukonfig�
 4. **Priedai** skirtuke nustatykite tolesnius parametrus:
 
     - **Konfigūracijos** lauke pasirinkite **Failas** tipą, skirtą **USMF** įmonei.
-    - **Užduoties archyvas**, **Laikini**, **Bazinė linija** ir **Kiti** laukuose pasirinkite **Failas** tipą.
+    -  **Užduoties archyvas**, **Laikini**, **Bazinė linija** ir **Kiti** laukuose pasirinkite **Failas** tipą.
 
 Norėdami sužinoti daugiau apie ER parametrus, žr. [ER sistemos konfigūracija](electronic-reporting-er-configure-parameters.md).
 
@@ -144,7 +144,7 @@ Norėdami pridėti standartines ER konfigūracijas prie dabartinės „Microsoft
 5. **Versijos** „FastTab” skirtuke pasirinkite pasirinktos ER formato konfigūracijos **1.1** versiją.
 6. Pasirinkite **Importuoti**, kad pasirinktą versiją atsisiųstumėte iš Bendrosios saugyklos į dabartinę „Finance“ programą.
 
-![Konfigūracijos saugyklos puslapis.](./media/er-quick-start2-import-solution1.png)
+![Konfigūracijos saugyklos puslapis](./media/er-quick-start2-import-solution1.png)
 
 > [!TIP]
 > Jei kyla problemų prisijungiant prie [Bendrosios saugyklos ](er-download-configurations-global-repo.md), vietoj to galite [atsisiųsti konfigūracijas](download-electronic-reporting-configuration-lcs.md) iš „Microsoft Dynamics Lifecycle Services (LCS)”.
@@ -160,7 +160,7 @@ Norėdami pridėti standartines ER konfigūracijas prie dabartinės „Microsoft
     - **Apmokėjimo modelio susiejimas 1611** – šioje konfigūracijoje yra [modelio susiejimo ](general-electronic-reporting.md#data-model-and-model-mapping-components) ER komponentas, aprašantis, kaip duomenų modelis užpildomas programos duomenimis vykdymo metu.
     - **BACS (JK)** – šioje konfigūracijoje yra [formato](general-electronic-reporting.md#FormatComponentOutbound) ir formato susiejimo ER komponentai. Formato komponentas nurodo ataskaitos maketą. Formato susiejimo komponente yra modelio duomenų šaltinis ir nurodo, kaip ataskaitos maketas yra užpildomas naudojant šį duomenų šaltinį vykdymo metu.
 
-![Konfigūracijų puslapis su nurodytomis ER konfigūracijomis prieinamas medyje.](./media/er-quick-start2-imported-solution1.png)
+![Konfigūracijų puslapis](./media/er-quick-start2-imported-solution1.png)
 
 ## <a name="prepare-a-vendor-payment-for-processing"></a><a id="PrepareVendorPayment"></a>Paruoškite tiekėjo mokėjimą apdorojimui
 
@@ -172,14 +172,14 @@ Turite pridėti tiekėjo paskyros banko informaciją, kuri bus paminėta vėliau
 2. **Visi tiekėjai** puslapyje pasirinkite **GB_SI_000001** tiekėjo paskyrą, tada Veiksmų srityje **Tiekėjas** skirtuke **Nustatyti** grupę, pasirinkite **Banko sąskaitos**.
 3. **Tiekėjo banko sąskaitos** puslapyje pasirinkite **Nauja** ir įveskite šią informaciją:
 
-    1. **Banko sąskaita** lauke įveskite **GBP OPER**.
+    1. **Banko sąskaita**  lauke įveskite **GBP OPER**.
     2. **Banko grupė** lauke pasirinkite **BankoGBP**.
     3. **Banko sąskaitos numeris** lauke įveskite **202015**.
     4. **SWIFT kodas** lauke įveskite <a id="DefineSWIFTCode"></a>**CHASDEFXXXX**.
     5. **IBAN** lauke įveskite **GB33BUKB20201555555555**.
     6. **Banko kodas** lauke palikite numatytąją vertę, <a id="DefineRoutingNumber"></a>**123456**.
 
-    ![Tiekėjų bankų paskyrų puslapis.](./media/er-quick-start2-bank-account.png)
+    ![Tiekėjų bankų paskyrų puslapis](./media/er-quick-start2-bank-account.png)
 
 4. Pasirinkite **Įrašyti**.
 5. Uždarykite puslapį.
@@ -187,14 +187,14 @@ Turite pridėti tiekėjo paskyros banko informaciją, kuri bus paminėta vėliau
 7. Jei reikia, tiekėjo informacijos puslapyje pasirinkite **Redaguoti**, kad puslapis būtų redaguojamas.
 8. **Mokėjimas** „FastTab” skirtuke **Banko paskyra** lauke pasirinkite **GBP OPER**.
 
-    ![Tiekėjo išsamios informacijos puslapis.](./media/er-quick-start2-bank-account-reference.png)
+    ![Tiekėjo išsamios informacijos puslapis](./media/er-quick-start2-bank-account-reference.png)
 
 9. Pasirinkite **Įrašyti**.
 10. Uždarykite puslapį.
 
 ### <a name="enter-a-vendor-payment"></a><a id="EnterVendorPayment"></a>Įveskite tiekėjo mokėjimą
 
-Turite sukurti naują tiekėjo mokėjimą naudodami [mokėjimo pasiūlymą](../../../finance/accounts-payable/create-vendor-payments-payment-proposal.md).
+Turite sukurti naują tiekėjo mokėjimą naudodami [mokėjimo pasiūlymą](https://docs.microsoft.com/dynamics365/finance/accounts-payable/create-vendor-payments-payment-proposal).
 
 1. Eikite į **Mokėtinos sumos** \> **Mokėjimai** \> **Tiekėjo mokėjimų žurnalas**.
 2. **Tiekėjo mokėjimo žurnalas** puslapyje pasirinkite **Nauja**.
@@ -204,11 +204,11 @@ Turite sukurti naują tiekėjo mokėjimą naudodami [mokėjimo pasiūlymą](../.
 6. Dialogo lange **Tiekėjo mokėjimo pasiūlymas** konfigūruokite sąlygas įrašams, skirtiems tik **GB_SI_000001** tiekėjo paskyrai, filtruoti ir tada pasirinkite **Gerai**.
 7. Pasirinkite **00000007_SF** sąskaitos faktūros eilutę ir pasirinkite **Kurti mokėjimą**.
 
-    ![Tiekėjo mokėjimo pasiūlymo dialogo langas.](./media/er-quick-start2-payment-proposal.png)
+    ![Tiekėjo mokėjimo pasiūlymo dialogo langas](./media/er-quick-start2-payment-proposal.png)
 
 8. Patikrinkite, ar įvestas apmokėjimas sukonfigūruotas naudoti **Elektroninis** mokėjimo metodą.
 
-    ![Puslapis Tiekėjo mokėjimai.](./media/er-quick-start2-payment-line.png)
+    ![Puslapis Tiekėjo mokėjimai](./media/er-quick-start2-payment-line.png)
 
 ## <a name="process-a-vendor-payment-by-using-the-standard-er-format"></a><a id="ProcessVendorPayment1"></a>Apdorokite tiekėjo mokėjimą naudodami standartinį ER formatą
 
@@ -222,7 +222,7 @@ Turite sukonfigūruoti elektroninio mokėjimo metodą, kad jis naudotų importuo
 4. **Failo formatai** „FastTab“ skirtuke nustatykite **Bendras elektroninis eksportavimo formatas** į **Taip**.
 5. Lauke **Eksportuoti formato konfigūraciją** pasirinkite **BACS (JK)** formato konfigūraciją.
 
-    ![Mokėjimo būdai – tiekėjų puslapis, skirtas nustatyti elektroninio mokėjimo būdu tiekėjo mokėjimams apdoroti, naudojant standartinį formatą.](./media/er-quick-start2-method-of-payment1.png)
+    ![Mokėjimo metodai – tiekėjų puslapis](./media/er-quick-start2-method-of-payment1.png)
 
 6. Pasirinkite **Įrašyti**.
 
@@ -239,7 +239,7 @@ Turite sukonfigūruoti elektroninio mokėjimo metodą, kad jis naudotų importuo
 5. Pasirinkite **Gerai**.
 6. **Elektroninės ataskaitos parametrai** dialogo lange nustatykite **Spausdinti kontrolės ataskaitą** pasirinktį į **Taip**, tada pasirinkite **Gerai**.
 
-    ![Elektroninių ataskaitų parametrų dialogo puslapis.](./media/er-quick-start2-payment-dialog1.png)
+    ![Elektroninių ataskaitų parametrų dialogo puslapis](./media/er-quick-start2-payment-dialog1.png)
 
     > [!NOTE]
     > Be mokėjimo failo, taip pat galite generuoti kontrolės ataskaitą.
@@ -249,9 +249,9 @@ Turite sukonfigūruoti elektroninio mokėjimo metodą, kad jis naudotų importuo
     - Kontrolės ataskaita „Excel” formatu
     - Mokėjimo failas TXT formatu
 
-        Atkreipkite dėmesį, kad pagal pateikto ER formato [struktūrą](#PositionRoutingNumber), sugeneruotame faile mokėjimo eilutės failas prasideda banko kodu, kuris buvo [nurodytas](#DefineRoutingNumber) sukonfigūruotai banko paskyrai.
+        Atkreipkite dėmesį, kad pagal pateikto ER formato [struktūrą](#PositionRoutingNumber), sugeneruotame faile mokėjimo eilutės failas  prasideda banko kodu, kuris buvo [nurodytas](#DefineRoutingNumber) sukonfigūruotai banko paskyrai.
 
-        ![Mokėjimo failas TXT formatu.](./media/er-quick-start2-payment-file1.png)
+        ![Mokėjimo failas TXT formatu](./media/er-quick-start2-payment-file1.png)
 
 ## <a name="customize-the-standard-er-format"></a><a id="CustomizeProvidedFormat"></a>Pritaikykite standartinį ER formatą
 
@@ -267,13 +267,13 @@ Pavyzdžiui, šiame skyriuje rodomas pavyzdys, kurį norite naudoti su „Micros
 4. **Nauja** lauko grupėje pasirinkite **Išvesti iš Pavadinimo: BACS (UK), „Microsoft”** parinktį.
 5. **Pavadinimas** lauke įveskite **BACS (JK pritaikytas)**.
 
-    ![Konfigūracijos išplečiamojo dialogo lango kūrimas.](./media/er-quick-start2-add-derived-format.png)
+    ![Konfigūracijos išplečiamojo dialogo lango kūrimas](./media/er-quick-start2-add-derived-format.png)
 
 6. Pasirinkite **Kurti konfigūraciją**.
 
 **BACS (pritaikyta JK)** sukuriama ER formato konfigūracijos versija 1.1.1. Ši versija turi [būseną](general-electronic-reporting.md#component-versioning) **Juodraštis** ir ji gali būti redaguojama. Jūsų pritaikyto ER formato dabartinis turinys atitinka „Microsoft” pateikto formato turinį.
 
-![Konfigūracijos puslapis su BACS (pritaikyta JK) ER formato konfigūracijos versija 1.1.1.](./media/er-quick-start2-derived-format-configuration1.png)
+![Konfigūracijų puslapis](./media/er-quick-start2-derived-format-configuration1.png)
 
 ### <a name="edit-a-custom-format"></a><a id="ConfigureDerivedFormat"></a>Redaguoti pritaikytą formatą
 
@@ -291,9 +291,9 @@ Turite sukonfigūruoti savo pritaikytą formatą, kad jis atitiktų banko konkre
     - **Operacijos** **Seka** tipo elementas. Šis elementas naudojamas generuoti vieną mokėjimo eilutę mokėjimo faile.
     - **Operacija** **Seka** tipo elementas. Šis elementas naudojamas generuoti atskirus vienos mokėjimo eilutės laukus.
 
-7. Pasirinkite **operacijos** elementą.
+7. Pasirinkite **opearcija** elementą.
 
-    ![Operacijos elementas, esantis ER operacijų kūrimo įrankyje.](./media/er-quick-start2-derived-format0.png)
+    ![Operacijos elementas, esantis ER operacijų kūrimo įrankyje](./media/er-quick-start2-derived-format0.png)
 
     > [!NOTE]
     > Pateikta ataskaita sukonfigūruota taip, kad <a id="PositionRoutingNumber"></a>kiekviena mokėjimo eilutė prasideda banko kodu. **tiek.BankoKodas** formato elementas naudojamas šiam tikslui. 
@@ -311,13 +311,13 @@ Turite sukonfigūruoti savo pritaikytą formatą, kad jis atitiktų banko konkre
 9. Formato struktūros medyje pasirinkite **tiek.BankoSWIFT**.
 10. Pasirinkite **Perkelti aukštyn**, kad perkeltumėte pasirinkto formato elementą aukštyn vienu lygiu. Kartokite šį veiksmą, kol **tiek.BankoSWIFT** elementas taps <a id="PositionSWIFTCode"></a>pirmu elementu, esančiu pirminiame **operacija** elemente.
 
-    ![TiekBankoSWIFT kaip pirmas elementas, esantis ER operacijų kūrimo įrankio operacijoje.](./media/er-quick-start2-derived-format1.png)
+    ![Tiek.BankoSWIFT kaip pirmas elementas, esantis ER operacijų kūrimo įrankio operacijoje](./media/er-quick-start2-derived-format1.png)
 
 11. Kol **tiek.BankoSWIFT** vis dar yra pasirinkta formato struktūros medyje, pasirinkite **Susiejimas** skirtuke ir tada išplėskite **modelis** duomenų šaltinį.
 12. Išplėskite **modelis.Mokėjimas** \> **modelis.Mokėjimas.KreditoriausAgentas** ir pasirinkite **modelis.Mokėjimas. KreditoriausAgentas.BICFI** duomenų šaltinio lauką. Šio duomenų šaltinio lauke rodomas tiekėjo banko SWIFT kodas, kuriam priskirtas agento vaidmuo apdorojant tiekėjo mokėjimą.
 13. Pasirinkite **Susieti**. **tiek.BankoSWIFT** formato elementas dabar yra susietas su **modelis.Mokėjimas.KreditoriausAgentas.BICFI** duomenų šaltinio lauku, kad SWIFT kodai būtų įvesti sugeneruotuose mokėjimo failuose.
 
-    ![tiekBankoSWIFT formato elementas, susietas su modelis.Mokėjimas.KreditoriausAgentas.BICFI duomenų šaltinio lauku ER operacijų kūrimo įrankyje.](./media/er-quick-start2-derived-format2.png)
+    ![tiek.BankoSWIFT formato elementas, susietas su modelis.Mokėjimas.KreditoriausAgentas.BICFI duomenų šaltinio lauku ER operacijų kūrimo įrankyje](./media/er-quick-start2-derived-format2.png)
 
 14. Pasirinkite **Įrašyti**.
 15. Uždarykite kūrimo įrankio puslapį.
@@ -335,7 +335,7 @@ Norėdami naudoti ER formato juodraščio versiją, turite aiškiai pažymėti E
 5. Kairiojoje srityje esančiame konfigūracijos medyje pasirinkite **BACS (pritaikyta JK)**.
 6. Nustatykite **Leist juodraštį** parinktį į **Taip**.
 
-    ![Paleiskite juodraštinę pasirinktį Konfigūracijų puslapyje.](./media/er-quick-start2-derived-format-configuration2.png)
+    ![Paleiskite juodraštinę pasirinktį Konfigūracijų puslapyje](./media/er-quick-start2-derived-format-configuration2.png)
 
 ## <a name="process-a-vendor-payment-by-using-the-custom-er-format"></a><a id="ProcessVendorPayment2"></a>Apdorokite tiekėjo mokėjimą naudodami pritaikytą ER formatą
 
@@ -349,7 +349,7 @@ Turite sukonfigūruoti elektroninį mokėjimo būdą, kad jūsų pritaikyto ER f
 4. **Failo formatas** „FastTab“ skirtuke nustatykite **Bendras elektroninis eksportavimo formatas** į **Taip**.
 5. **Eksportuoti formato konfigūraciją** lauke pasirinkite **BACS (pritaikyta JK)** formato konfigūraciją.
 
-    ![Mokėjimo būdai – tiekėjų puslapis, skirtas nustatyti elektroninio mokėjimo būdu tiekėjo mokėjimams apdoroti, naudojant pritaikytą formatą.](./media/er-quick-start2-method-of-payment2.png)
+    ![Mokėjimo metodai – tiekėjų puslapis](./media/er-quick-start2-method-of-payment2.png)
 
 6. Pasirinkite **Įrašyti**.
 
@@ -378,7 +378,7 @@ Turite sukonfigūruoti elektroninį mokėjimo būdą, kad jūsų pritaikyto ER f
 
         Atkreipkite dėmesį, kad pagal jūsų pritaikyto ER formato struktūrą, sugeneruoto failo mokėjimo eilutė dabar [prasideda](#PositionSWIFTCode) SWIFT kodu,  [įvestu](#DefineSWIFTCode) tiekėjo, kurio apmokėjimas buvo apdorotas, banko sąskaitai.
 
-        ![Mokėjimo failas TXT formatu, naudojamas tiekėjo mokėjimui apdoroti.](./media/er-quick-start2-payment-file2.png)
+        ![Mokėjimo failas TXT formatu](./media/er-quick-start2-payment-file2.png)
 
 ## <a name="import-new-versions-of-the-standard-er-format-configurations"></a><a id="ImportERSolution2"></a>Importuokite standartinio ER formato konfigūracijų naujas versijas
 
@@ -395,7 +395,7 @@ Norėdami pridėti standartinių ER konfigūracijų naujas versijas prie dabarti
 5. **Versijos** „FastTab” skirtuke pasirinkite pasirinktos ER formato konfigūracijos **3.3** versiją.
 6. Pasirinkite **Importuoti**, kad pasirinktą versiją atsisiųstumėte iš Bendrosios saugyklos į dabartinę „Finance“ programą.
 
-![Konfigūracijos saugyklos puslapis, Versijos "FastTab", Importavimo mygtukas.](./media/er-quick-start2-import-solution2.png)
+![Konfigūracijos saugyklos puslapis](./media/er-quick-start2-import-solution2.png)
 
 > [!TIP]
 > Jei kyla problemų prisijungiant prie [Bendrosios saugyklos](er-download-configurations-global-repo.md), vietoj to galite [atsisiųsti konfigūracijas](download-electronic-reporting-configuration-lcs.md) iš LCS.
@@ -410,11 +410,11 @@ Norėdami pridėti standartinių ER konfigūracijų naujas versijas prie dabarti
 6. **Formato kūrimo įrankis** puslapyje išplėskite **BACSAtaskaitosAplankas** formato elementą.
 7.  Atkreipkite dėmesį, kad versijoje 3.3 yra **MokėjimoPažymosAtaskaita** formato elementas, kuris naudojamas mokėjimo pažymos ataskaitai generuoti, kai apdorojamas tiekėjo mokėjimas.
 
-    ![MokėjimoPažymosAtaskaitos formato elementas ER operacijų kūrimo įrankyje.](./media/er-quick-start2-imported-solution2.png)
+    ![MokėjimoPažymosAtaskaitos formato elementas ER operacijų kūrimo įrankyje](./media/er-quick-start2-imported-solution2.png)
 
 8. Uždarykite kūrimo įrankio puslapį.
 
-## <a name="adopt-the-changes-in-the-new-version-of-an-imported-format-in-a-custom-format"></a><a id="AdoptNewBaseVersion"></a>Patvirtinkite importuoto formato naujos versijos pakeitimus pritaikytame formate
+## <a name="adopt-the-changes-in-the-new-version-of-an-imported-format-in-a-custom-format"></a><a id="AdoptNewBaseVersion"></a>Patvirtinkite importuoto formato naujos versijos pakeitimus pritaikytame formate 
 
 ### <a name="complete-the-current-draft-version-of-a-custom-format"></a><a id="CompleteDerivedFormat"></a>Užbaikite pritaikyto formato esamą juodraštinę versiją
 
@@ -436,14 +436,14 @@ Norėdami naudoti naujas **BACS (JK)** formato 3.3 versijos funkcijas jūsų tin
 3. **Versijos** „FastTab” skirtuke pasirinkite versiją **1.1.2** ir pasirinkite **Pritaikyti kitoje vietoje**.
 4. **Pritaikyti kitoje vietoje** dialogo lange **Tikslinė versija** lauke pasirinkite pagrindinės konfigūracijos **3.3** versiją pritaikyti ją kaip naują pagrindinę versiją ir naudoti ją konfigūracijai atnaujinti.
 
-    ![Pritaikymo kitoje vietoje dialogo langas.](./media/er-quick-start2-rebase1.png)
+    ![Pritaikymo kitoje vietoje dialogo langas](./media/er-quick-start2-rebase1.png)
 
 5. Pasirinkite **Gerai**.
 6. Atkreipkite dėmesį, kad juodraštinės versijos numeris pakeistas iš **1.1.2** į **3.3.2**, kad parodytų pagrindinės versijos pasikeitimą.
 
     Kai pritaikyta versija ir naujoji versija suliejamos, gali atsirasti konfliktų dėl formatų, kurie negali būti automatiškai sulieti, pasikeitimų.
 
-    ![Pritaikykite konfigūraciją su konfliktais kitoje vietoje Konfigūracijų puslapyje.](./media/er-quick-start2-rebase2.png)
+    ![Pritaikykite konfigūraciją su konfliktais kitoje vietoje Konfigūracijų puslapyje](./media/er-quick-start2-rebase2.png)
 
     Jei atsirado konfliktų, jie turi būti išspręsti neautomatiniu būdu formato kūrimo įrankyje.
 
@@ -451,13 +451,13 @@ Norėdami naudoti naujas **BACS (JK)** formato 3.3 versijos funkcijas jūsų tin
 8. Pasirinkite **Dizaino įrankis**.
 9. **Formato kūrimo įrankis** puslapyje **Išsami informacija** „FastTab” pasirinkite pritaikyto kitoje vietoje konflikto įrašą ir pasirinkite **Taikyti pagrindinę vertę**.
 
-    ![Pritaikykite konflikto įrašą kitoje vietoje ER operacijų kūrimo įrankyje.](./media/er-quick-start2-rebase3.png)
+    ![Pritaikykite konflikto įrašą kitoje vietoje ER operacijų kūrimo įrankyje](./media/er-quick-start2-rebase3.png)
 
 10. Pasirinkite **Įrašyti**.
 
     Pritaikyto kitoje vietoje konflikto įrašas nebeatsiras **Išsami informacija** „FastTab”.
 
-    ![Konfliktas išspręstas ER operacijų kūrimo įrankyje.](./media/er-quick-start2-rebase4.png)
+    ![Konfliktas išspręstas ER operacijų kūrimo įrankyje](./media/er-quick-start2-rebase4.png)
 
     > [!NOTE]
     > Jūs išsprendėte konfliktą patvirtinę, kad šioje pagrindinio modelio versijoje Nr.3 turi būti naudojama šiame ER formate.
@@ -465,7 +465,7 @@ Norėdami naudoti naujas **BACS (JK)** formato 3.3 versijos funkcijas jūsų tin
 11. Išplėskite **BACSAtaskaitųAplankas** \> **failas** \>**operacijos** \> **operacija**.
 12. **Susiejimas** skirtuke atkreipkite dėmesį, kad jūsų pritaikyto ER formato versijoje 3.3.2 yra tiek jūsų tinkinimas (**tiek.BankoSWIFT** formato elementas ir jo susiejimas) ir nauja „Microsoft” pateikta pagrindinio ER formato versijos 3.3 versijos funkcija ( **MokėjimoPažymosAtaskaita** formato elemento kartu su jo įdėtais elementais ir sukonfigūruotais susiejimais). Tik keliais pelės spustelėjimais patvirtinote naujos pagrindinės versijos pakeitimus suliedami juos su jūsų tinkinimu.
 
-    ![Sulietas formatas ER operacijų kūrimo įrankyje.](./media/er-quick-start2-rebase5.png)
+    ![Sulietas formatas ER operacijų kūrimo įrankyje](./media/er-quick-start2-rebase5.png)
 
 13. Uždarykite kūrimo įrankio puslapį.
 
@@ -490,7 +490,7 @@ Norėdami naudoti naujas **BACS (JK)** formato 3.3 versijos funkcijas jūsų tin
     - Nustatykite parinktį **Spausdinti kontrolės ataskaitą** į **Taip**.
     - Nustatykite **Spausdinti mokėjimo pažymą** parinktį į **Taip**.
 
-    ![Elektroninių ataskaitų parametrų dialogo langas.](./media/er-quick-start2-payment-dialog2.png)
+    ![Elektroninių ataskaitų parametrų dialogo langas](./media/er-quick-start2-payment-dialog2.png)
 
     > [!NOTE]
     > Be mokėjimo failo galite generuoti tiek kontrolės ataskaita, tiek mokėjimo pažymos ataskaitą.
@@ -501,19 +501,16 @@ Norėdami naudoti naujas **BACS (JK)** formato 3.3 versijos funkcijas jūsų tin
     - Kontrolės ataskaita „Excel” formatu
     - Mokėjimo pažymos ataskaita „Excel” formatu
 
-        ![Mokėjimo pažymos ataskaita „Excel” formatu.](./media/er-quick-start2-payment-advice-report.png)
+        ![Mokėjimo pažymos ataskaita „Excel” formatu](./media/er-quick-start2-payment-advice-report.png)
 
     - Mokėjimo failas TXT formatu
 
         Atkreipkite dėmesį į sugeneruoto failo, prasidedančio SWIFT kodu, kuris buvo įvestas tiekėjo, kurio apmokėjimas apdorojamas, banko sąskaitai, mokėjimo eilutę.
 
-        ![Mokėjimo failas TXT formatu, naudojamas tiekėjo mokėjimui apdoroti, naudojant pakartotiną ER formatą.](./media/er-quick-start2-payment-file3.png)
+        ![Mokėjimo failas TXT formatu](./media/er-quick-start2-payment-file3.png)
 
 ## <a name="additional-resources"></a><a id="References"></a>Papildomi ištekliai
 
 - [Elektroninių ataskaitų apžvalga](general-electronic-reporting.md)
 - [ER konfigūracijų atsisiuntimas iš „Lifecycle Services“](download-electronic-reporting-configuration-lcs.md)
 - [ER konfigūracijų atsisiuntimas iš „Configuration service” Bendrosios saugyklos](er-download-configurations-global-repo.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

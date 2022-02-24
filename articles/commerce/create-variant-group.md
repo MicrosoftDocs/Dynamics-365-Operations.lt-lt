@@ -2,9 +2,11 @@
 title: Variantų grupės kūrimas
 description: Šioje temoje aprašoma, kaip naudojant „Microsoft Dynamics 365 Commerce“ sukurti produkto variantų, besiskiriančių dydžiu, stiliumi ar spalva, grupę.
 author: samjarawan
+manager: annbe
 ms.date: 01/27/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: RetailSizeGroupTable, ConfigGroupIdLookup, RetailStyleGroupTable
 audience: Application User
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 49e6860fa22bbfba8b86a8243fa29b831e22b489d967a45310648e5debd7512b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e19d9a2549fa9957126592f3db7e468147997261
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6749936"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4965158"
 ---
 # <a name="create-a-variant-group"></a>Variantų grupės kūrimas
 
@@ -29,7 +31,7 @@ ms.locfileid: "6749936"
 
 Šioje temoje aprašoma, kaip naudojant „Microsoft Dynamics 365 Commerce“ sukurti produkto variantų, besiskiriančių dydžiu, stiliumi ar spalva, grupę.
 
-## <a name="overview"></a>Peržiūra
+## <a name="overview"></a>Peržiūrėti
 
 „Dynamics 365 Commerce“ palaikomi keli produktų variantai. Ji puikiai tinka įvairių produktų kategorijų variantų grupėms nustatyti. Pavyzdžiui, galima sukurti marškinėlių dydžių grupę, įtraukus labai mažą, mažą, vidutinį, didelį ir labai didelį dydžius, ar spalvų grupę, įtraukus visas galimas produkto spalvas. Variantų grupes reikėtų įtraukti prieš įtraukiant produktus.
 
@@ -61,7 +63,7 @@ Norėdami į dydžių grupę įtraukti atributų, atlikite tolesnius veiksmus.
 
 Toliau pateiktame vaizde parodytas dydžių grupės pavyzdys „kasdienių marškinių dydžiai“.
 
-![Dydžių grupės kūrimas.](media/create-variant-group.png)
+![Dydžių grupės kūrimas](media/create-variant-group.png)
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
@@ -70,6 +72,3 @@ Toliau pateiktame vaizde parodytas dydžių grupės pavyzdys „kasdienių marš
 [Mažmeninės prekybos produktų nustatymas](set-up-retail-products.md)
 
 [Produktų dimensijos](../supply-chain/pim/product-dimensions.md?toc=/dynamics365/commerce/toc.json)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
