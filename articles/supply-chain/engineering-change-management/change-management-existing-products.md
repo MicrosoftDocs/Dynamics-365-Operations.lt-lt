@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-05-02
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: f0fba0a9234e5b7cb055f7b97578bff72f1d06ac
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.openlocfilehash: e356ef8339f8f71965bf9313e14fed3d0810152d
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7571982"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103618"
 ---
 # <a name="enable-change-management-on-existing-products"></a>Pakeitimų valdymo įjungimas esamiems produktams
 
@@ -27,12 +27,9 @@ ms.locfileid: "7571982"
 
 Įgalinę esamo produkto pakeitimų valdymą, galite sukurti to produkto versijas ir sekti jo naudojimo metu atliktus keitimus. Todėl galite sekti šiuos pakeitimus naudodami keitimų užsakymus. Norėdami įgalinti pakeitimų valdymą, turite konvertuoti atitinkamus produktus į *inžinerijos prekes* (dar vadinamas inžinerijos produktais). Inžinerijos produktai – tai produktai, kurių versijos nustatomos ir kurie valdomi atliekant keitimų valdymą. Naudodamiesi vedliu pereisite per konvertavimo procesą.
 
-## <a name="turn-on-the-feature-in-your-system"></a>Funkcijos įjungimas sistemoje
+## <a name="turn-this-feature-on-or-off"></a>Įjungti arba išjungti šią funkciją
 
-Norėdami naudotis šia galimybe turite atlikti tolesnes užduotis.
-
-1. Įjunkite inžinerinių keitimų valdymo funkciją ir jos konfigūracijos raktą, kaip aprašyta skyriuje [Inžinerinių keitimų valdymo apžvalga](product-engineering-overview.md).
-1. Funkcijų valdymo srityje įjunkite funkciją *Keitimų valdymo įjungimas esamiems produktams*. Daugiau informacijos žr. [Funkcijų valdymo apžvalga](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Šioje temoje aprašytos funkcijos reikalauja, kad jūsų *sistemoje būtų* *įjungtas* ir inžinerinio keitimo valdymas, ir esamų produktų keitimo valdymas. Išsamesnės informacijos apie šių funkcijų įjungimą ir išjungimą žr. Inžinerinių [pakeitimų valdymo peržiūra](product-engineering-overview.md).
 
 ## <a name="restrictions-and-limitations"></a>Suvaržymai ir apribojimai
 

@@ -1,26 +1,23 @@
 ---
 title: Reguliavimo naujinimai
 description: Šioje temoje pateikiamas suplanuotų ir išleistų reguliavimo „Microsoft Dynamics 365 Finance“ naujinimų sąrašas.
-author: ShylaThompson
-manager: AnnBe
-ms.date: 11/13/2020
+author: VStamberg
+ms.date: 01/20/2022
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
 ms.search.region: Global
-ms.author: roschlom
+ms.author: vastrup
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 46e9b3c3d47207715d0eee689913073d363f3af3
-ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
-ms.translationtype: HT
+ms.openlocfilehash: 663b7d3162af6d385bc9c445b1e98cf5f74a1471
+ms.sourcegitcommit: f2a78e0d7d461ca843ac2f9abff7690275db9196
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "4517505"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8105569"
 ---
 # <a name="regulatory-updates"></a>Reguliavimo naujinimai
 
@@ -28,7 +25,7 @@ ms.locfileid: "4517505"
 
 Šioje temoje išvardijami reguliavimo naujinimai, planuojami ir išleidžiami „Dynamics 365 Finance“ palaikomose lokalėse. Pristatymo terminai gali keistis ir numatomos funkcijos gali skirtis arba būti neišleistos. Daugiau informacijos žr. [„Microsoft“ strategija](https://go.microsoft.com/fwlink/p/?linkid=2007332). 
 
-Reglamentavimo atnaujinimai yra funkcijos, kurios sukurtos siekiant laikytis naujų arba pasikeitusių konkrečių šalių teisės aktų. Norėdami sužinoti daugiau apie planuojamas ir išleistas konkrečių šalių funkcijas, žr. [„Dynamics 365“ ir „Power Platform“ išleidimo planus](https://docs.microsoft.com/business-applications-release-notes/index).
+Reglamentavimo atnaujinimai yra funkcijos, kurios sukurtos siekiant laikytis naujų arba pasikeitusių konkrečių šalių teisės aktų. Norėdami gauti daugiau informacijos apie planuojamas ir paleistas šaliai skirtas priemones, žr. " [Dynamics 365" ir paleidimo Power Platform planus](/business-applications-release-notes/index).
 
 „Microsoft“ siekia kuo anksčiau įgyvendinti naujus reglamentavimo reikalavimus. Faktinė išleidimo data priklauso nuo įstatymo paskelbimo datos, vietos valdžios institucijų reikalavimų informacijos pasiekiamumo, tikrinimo įrankių pasiekiamumo ir pakeitimų dydžio bei sudėtingumo.
 
@@ -41,49 +38,44 @@ Reguliavimo naujinimai, išleidžiami kaip mėnesio naujinimo dalis, nurodomi ti
 Naujausių reglamentavimo naujinių planų ieškokite toliau pateiktoje lentelėje.   
 
 |Šalis|Išleidimo data|Leidimo versija|Reguliavimo naujinimas|
-|--------------------|---------------|-------|-------|
-|      Austrija         |   2020 m. rugsėjo mėn.      | 10.0.15      |   2020 m. ataskaitų PVM deklaracijos formatas U30 buvo atnaujintas   |
-|      Bahreinas         |   2020 m. birželio mėn.      | 10.0.13      |   SF išdavimo terminas (GCC)   |
-|      Bahreinas         |   2020 m. rugsėjo mėn.      | 10.0.13      |   Bahreino projekto SF   |
-|      Bahreinas         |   2020 m. birželio mėn.      | 10.0.13      |   Bahreino PVM deklaracija – įjungti operacijos aprašą   |   
-|      Brazilija         |   2020 m. rugpjūčio mėn.      | 10.0.14, 10.0.13      |   ADRCST deklaracija PR   |
-|      Brazilija         |   2020 m. gegužės mėn.      | 10.0.13      |   SPED ECF 6 maketas   |
-|      Brazilija         |   Liepos 2020 d.      | 10.0.13      |   SPED Fiscal - Įrašas C176 - RS valstija   |
-|      Brazilija         |   2020 m. spalio mėn.      | 10.0.16, 10.0.15HF, 10.0.14HF, 10.0.13HF      |   NF-e NT2019.001 v1.51 – patvirtinimo taisyklių priėmimas, kai išmokos kodas Distrito Federal   |
-|      Brazilija         |   2020 m. spalio mėn.      | 10.0.16      |   SPED Fiscal – 015 maketas   |
-|      Brazilija         |   2020 m. lapkričio mėn.      | 10.0.15HF      |   SPED Fiscal ICMS / IPI įrašo C176 naujinimas, skirtas RS valstijai   |
-|      Brazilija         |   2020 m. spalio mėn.      | 10.0.16      |   DRCST deklaracija SC – SEF 262/2020   |
-|      Brazilija         |   2020 m. spalio mėn.      | 10.0.16      |   SPED Fiscal ICMS / IPI įrašas C176   |
-|      Čekijos Respublika      |   Liepos 2020 d.      | 10.0.13      |   PVM kontroliavimo pranešimo pakeitimai XML schemoje (sąskaitų sąrašas)   |
-|      Čekijos Respublika         |   Liepos 2020 d.      | 10.0.13      |   PVM deklaracija XML, PVM deklaracijos peržiūra „Excel“ ir PVM kontrolės pareiškimas XML formatais pagal mokesčių deklaravimo modelį   |
-|      Europa        |   2020 m. rugpjūčio mėn.       | 10.0.14      |   Partnerio PVM ID perkėlimas į „Intrastat“  |
-|      Suomija         |   Liepos 2020 d.       | 10.0.13      |   Suomijos elektroninių SF palaikymas  |
-|      Indija         |   Liepos 2020 d.      | 10.0.13      |   TCS taikymas prekių pardavimuose, kaip nurodyta skyriuje 206C (1H) – ribinė vertė pagal PAN pagrįstą operacijų sankaupą.  |
-|      Indija         |   2020 m. rugpjūčio mėn., 2020 m. birželio mėn.      | 10.0.13      |   Kredito / debeto pažyma su eksportavimo SF  |
-|      Indija         |   2020 m. rugpjūčio mėn.      | 10.0.13      |   Elektroninė SF pagal GST  |
-|      Indija         |   Liepos 2020 d.      | 10.0.13      |   Naujas GSTR (ANX-1 ir ANX-2) grąžinimo neprisijungus įrankis (beta versija)  |
-|      Indija         |   2020 m. spalio mėn.      | 10.0.14HF, 10.0.13HF      |   El. SF pagal GST atsargų perkėlimo užsakymą Indijoje|
-|      Indija         |   2020 m. spalio mėn.      | 10.0.14HF, 10.0.13HF      |   El. SF pagal Indijos GST su keliomis GSTIN registracijomis|
-|      Indija         |   2020 m. rugsėjo mėn.      | 10.0.13HF      |   Išskaitomo mokesčio koeficientas 3 / 5 dešimtainio skyriklio vietomis|
-|      Indija         |   2020 m. rugsėjo mėn.      | 10.0.14HF      |   Numeracijos grupė: GSTNSG, operacijos tipas: GST SF, kad būtų galima nustatyti mokesčių informacijos 0073 GST nuorodos numeracijų grupę|
-|      Italija         |   Liepos 2020 d.      | 10.0.13      |   Pasikeitimai Italijos elektroninių sąskaitų formate - „FatturaPA“ |
-|      Malaizija         |   Liepos 2020 d.      | 10.0.13      |   SST ataskaita |
-|      Meksika         |   2020 m. rugsėjo mėn.      | 10.0.13HF      |   CFDI URL schemos vieta pagrįsta dokumentu „Anexo 20” |
-|      Olandija         |   2020 m. spalio mėn.      | 10.0.16     |   Intrastat formatas atnaujinamas pradedant nuo 2021 m. |
-|      Norvegija         |   2020 m. rugpjūčio mėn.      | 10.0.14     |   SAF-T – operacijų grupavimo lygis pagal kvitą turi būti nurodytas operacijos elemento lygiu, o ne žurnalo. |
-|      Lenkija          |   2020 m. rugsėjo mėn.     | 10.0.14     |   Lenkija: JPK-V7M (VDEK) „Excel” formatas – SSRS ataskaitai pakeisti  |
-|      Lenkija          |   Liepos 2020 d.     | 10.0.15, 10.0.14HF, 10.0.13     |   Neprivalomi paskirstymo mokėjimo gerinimai |
-|      Lenkija          |   2020 m. spalio mėn.     | 10.0.13HF     |   Privalomi paskirstymo mokėjimo gerinimai |
-|      Lenkija          |   2020 m. lapkričio mėn.     | 10.0.16, 10.0.15, 10.0.14, 10.0.13     |   JPK-V7M (VDEK) – pardavimo dokumento tipas FP ir RO, skirtas mažmeninės prekybos operacijoms |
-|      Lenkija          |   2020 m. rugsėjo mėn.     | 10.0.15     |   Lenkija: JPK-V7M (VDEK) – atrakinti galimybę vykdyti ataskaitos generavimą dalimis |
-|      Lenkija          |   2020 m. spalio mėn.     | 10.0.16     |   JPK-V7M (VDEK) ataskaita – parametro „savanoriškai paskirstyti apmokėjimą“ įsisavinimas |
-|      Rusija          |   2020 m. rugpjūčio mėn.     | 10.0.14    |   Apskaitos ataskaitų formatas keičiamas nuo 2020 m.  |
-|      Rusija          |   Liepos 2020 d.     | 10.0.13    |   Nuvertėjimo apskaičiavimas pagal Pirkimo kainą ir pagrindinius remonto darbus taikant Nuvertėjimu priedą Mokesčių apskaitoje  |
-|      Rusija          |   2020 m. lapkričio mėn.     | 10.0.16    |   PVM deklaracijos formatas atnaujinamas iki versijos 5.07, pradedant nuo 2020 m. 4 ketvirčio|
+|--------------------|---------------|-------|-------| 
+|      Austrija         |   2021 m. rugpjūčio mėn.      | 10.0.22      |   PVM deklaracija XML formatu ir peržiūra "Excel"   |
+|      Austrija         |   2021 m. rugsėjo mėn.      | 10.0.22 HF      |   "Intrastat" formatas atnaujintas pradedant nuo 2022 m. – kilmės šalis ir partnerio PVM ID išsiuntimuose tampa privalomi   |
+|      Belgija        |   2021 spalio mėn.      | 10.0.22 HF     |   Intrastat operacijų kodai nuo 2022 bus pakeisti į 2 skaitmenis  |
+|      Brazilija         |   2021 m. rugpjūčio mėn.      | 10.0.22      |   NF-e NT2020.006 - Skaitmeninės platformos tarpininko identifikacija (Išdėstymas ir patvirtinimo taisyklių naujinimai)   |
+|      Brazilija         |   2021 m. gruodžio mėn.         | 10.0.22, 10.0.23, 10.0.24         |    "SPED Fiscal" maketas 2022  |
+|      Čekijos Respublika         |   2021 spalio mėn.         | 10.0.23 val.         |     "Intrastat" formatas atnaujintas pradedant nuo 2022 m. – kilmės šalis ir partnerio PVM ID išsiuntimuose tampa privalomi  |
+|      Danija         |   2021 m. gruodžio mėn.         | 10.0.22 HF         |    Intrastat formatas atnaujinamas pradedant nuo 2022 m.  |
+|      Estija         |   2021 m. gruodžio mėn.      | 10.0.22 HF      |   "Intrastat" formatas atnaujintas pradedant nuo 2022 m. – kilmės šalis ir partnerio PVM ID išsiuntimuose tampa privalomi  |
+|      Suomija         |   2021 m. lapkričio mėn.         | 10.0.22 HF         |    "Intrastat" formatas atnaujintas nuo 2022 m.  |
+|      Vokietija        |   2021 m. rugpjūčio mėn.       | 10.0.22 HF      |   "Intrastat" formato INSTAT XML atnaujinama nuo 2022. "Intrastat" formato TXT netaikomas iš 01.07.2021  |
+|      Vokietija        |   2021 spalio mėn.       | 10.0.23      |   PVM deklaracija XML ir peržiūra "Excel" (naujas dizainas su sumomis mokesčių kodo valiuta, išeiimas iš lango su atvirkštinio mokesčio funkcija gali būti vykdomas ne DE juridiniuose subjektuose ir gali surinkti mokesčių operaciją iš kelių juridinių subjektų)  |
+|      Italija         |   2021 m. lapkričio mėn.         | 10.0.22HF, 10.0.23 HF, 10.0.24         |    Elektroninių SF išrašymas užsienio operacijoms  |
+|      Meksika         |   2021 m. lapkričio mėn.      | 10.0.22      |   Carta de Porte papildoma CFDI dokumentų informacija   |
+|      Meksika         |   2021 m. gruodžio mėn.      | 10.0.24      |   Carta de Porte 2.0 papildoma versija  |
+|      Olandija        |   2021 spalio mėn.      | 10.0.22 HF      |   2 skaitmenų operacijų kodai Intrastat failo formatu nuo 2022  |
+|      Naujoji Zelandija         |   2021 m. rugpjūčio mėn.      | 10.0.22    |   GST deklaracijos forma GST101A  |
+|      Norvegija        |   2021 m. lapkričio mėn.      | 10.0.24      |   PVM deklaracijos formatas 2022 su tiesioginiu pateikimu – Dynamics 365 Finance |
+|      Omanas         |   2021 m. rugpjūčio mėn.      | 10.0.22      |   PVM deklaracija – 1 versija |
+|      Lenkija          |   2021 spalio mėn.     | 10.0.23, 10.0.24     |   JPK_V7M – nauja schemos versija nuo 2022 m. sausio mėn. |
+|      Lenkija          |   2021 m. lapkričio mėn.     | 10.0.24 val.     |   Metinė komercinių operacijų mokėjimo datų ataskaita |
+|      Lenkija          |   2021 spalio mėn.     | 10.0.24     |   Elektroninis ES pardavimo sąrašo (PVM–UE) formatas |
+|      Rusija          |   2021 spalio mėn.     | 10.0.22HF, 10.0.23, 10.0.24    |   Pardavimo, pirkimo knygų ir faktūrų žurnalų pakeitimai|
+|      Rusija          |   2021 spalio mėn.     | 10.0.24 val.    |   Keisti PVM deklaracijos formatus su priedas|
+|      Rusija          |   2021 m. lapkričio mėn.     | 10.0.24    |   Federaliniai apskaitos standartai 6/2020 (Ilgalaikis turtas)|
+|      Saudo Arabija          |   2021 m. lapkričio mėn.     | 10.0.22HF, 10.0.23    |   Elektroninių SF išrašymo generavimas Saudo Arabijoje – 1 etapas|
+|      Saudo Arabija          |   2021 m. lapkričio mėn.     | 10.0.22HF, 10.0.23 HF, 10.0.24    |   Mažmeninė prekyba – elektroninių SF išrašymas Saudo Arabijoje – 1 etapas|
+|      Ispanija          |   2021 spalio mėn.     | 10.0.23    |    PVM deklaracijos modelis 303 txt ir peržiūra "Excel"|
+|      Ispanija          |   2021 m. rugsėjo mėn.     | 10.0.22    |    Bus atnaujintas 2022 ataskaitų "Intrastat" formatas – partnerio PVM ID ir kilmės šalis išsiuntimuose bus privalomi|
+|      Švedija          |   2021 spalio mėn.     | 10.0.22 HF    |    "Intrastat" formatas atnaujinamas pradedant nuo 2022 m. – išsiuntimuose tampa privaloma kilmės šalis ir partnerio PVM ID. Bus naudojami 2 skaitmenų operacijų kodai.|
+|      Jungtinė Karalystė          |   2021 m. rugpjūčio mėn.     | 10.0.22    |    UK – MTD apgaulės apsauga 2021)|
 
 
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
-- Visus suplanuotus ir išleistus reguliavimo naujinimus galite rasti puslapyje [„Lifecycle Services“ – problemų ieška](https://lcs.dynamics.com/Logon/Index) (būtina prisijungti).
+- Daugiau informacijos apie visus suplanuotus ir išleistiems šaliai brangus reguliavimo [atnaujinimus žr. Ieškoti šaliai brangesnių reguliavimo naujinimų](search-for-regulatory-updates.md). (Būtina prisijungti.)
 - Palaikomų lokalių sąrašą žr. puslapyje [Tarptautinio pasiekiamumo vadovas](https://aka.ms/dynamics_365_international_availability_deck).
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

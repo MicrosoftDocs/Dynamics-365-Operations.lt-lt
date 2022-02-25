@@ -2,67 +2,62 @@
 title: Siunčiamo darbo krūvio vizualizavimas
 description: Šioje temoje pateikta informacija apie siunčiamos darbo apkrovos vizualizaciją. Ši funkcija leidžia sandėlio vadovams ir prižiūrėtojams sukurti tinkintus darbo krūvio grafikus, kurie gali būti naudojami siekiant stebėti esamo darbo progresą ir jo turimą kiekį. Sandėlio vadovai gali sukurti keletą rodinių ir nustatyti automatinį paleidimą iš naujo, kaip būtina.
 author: Mirzaab
-manager: tfehr
 ms.date: 08/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-08-28
-ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 2515a71297df7213f93a4c619f7eebf1c2411b39
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.dyn365.ops.version: 10.0.13
+ms.openlocfilehash: db6ceb40279e53e9c4751a7ceb3db895e889a7c0
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4965557"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8102893"
 ---
 # <a name="outbound-workload-visualization"></a>Siunčiamo darbo krūvio vizualizavimas
 
 [!include [banner](../includes/banner.md)]
 
-Papildomos nustatymų galimybės prieinamos iš **Siunčiamo darbo krūvio vizualizavimo** puslapio leidžia sandėlio vadovams ir prižiūrėtojams sukurti tinkintus darbo krūvių grafikus, kuriuos galima naudoti siekiant stebėti esamo darbo progresą ir likusį jo kiekį. Sandėlio vadovai gali sukurti keletą rodinių ir nustatyti automatinį paleidimą iš naujo, kaip būtina. Siunčiamo darbo krūvio vizualizavijos yra tinkamas siekiant rodyti sandėlio vykdymo puslapius.
+Papildomos nustatymų galimybės prieinamos iš **Siunčiamo darbo krūvio vizualizavimo** puslapio leidžia sandėlio vadovams ir prižiūrėtojams sukurti tinkintus darbo krūvių grafikus, kuriuos galima naudoti siekiant stebėti esamo darbo progresą ir likusį jo kiekį. Sandėlio vadovai gali sukurti keletą rodinių ir nustatyti automatinį paleidimą iš naujo, kaip būtina. Siunčiamo darbo krūvio vizualizavimai yra tinkami siekiant rodyti sandėlio vykdymo puslapius.
 
 Šią funkciją galima naudoti siekiant sekti paėmimo darbo progresą. Funkcija yra integruojama su darbo valdymu ir jei jis yra nustatytas, siunčiamos darbo krūvio vizualizacijos gali rodyti valandų skaičių apskaičiavimą, kuris liko rodomam darbo paėmimui (filtruojamam).
 
-## <a name="turn-on-the-outbound-workload-visualization-feature"></a>Įjungti siunčiamą darbo krūvio vizualizacijos funkciją
+## <a name="turn-the-outbound-workload-visualization-feature-on-or-off"></a>Įjungti arba išjungti siunčiamo darbo krūvio vizualizacijos funkciją
 
-Kad galėtumėte naudoti šią funkciją, ji turi būti įjungta jūsų sistemoje. Adminsitratoriai gali naudoti [Funkcijos valdymą](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) nustatymus tam, kad patikrintų funkcijos būseną ir ją įjungtų. Darbo srityje **Funkcijų valdymas** ši funkcija yra nurodyta toliau pateikiamu būdu.
-
-- **Modulis:** *Sandėlio valdymas*
-- **Funkcijos pavadinimas:** *Siunčiama darbo krūvio vizualizacija*
+Kaip ir tiekimo grandinės valdymo versija 10.0.25 ši funkcija įjungiama pagal numatytąjį nustatymą. Administratoriai šią funkciją gali įjungti arba išjungti funkcijų *valdymo* darbo srityje ieškodami siunčiamų darbo krūvio [vizualizavimo](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) priemonių.
 
 ## <a name="set-up-outbound-workload-visualizations"></a>Nustatyti siunčiamas darbo krūvio vizualizacijas
 
 Norėdami nustatyti vizualizacijas, sukuriate filtrų kolekciją (rodinius) ir nustatote kiekvieną filtrą taip, kad jis rodytų kitą analizės tipą. Naudojate **Konfigūruoti filtrus** puslapį, kad nustatytumėte filtrus.
 
-Norėdami nustatyti siunčiamo darbo krūvio vizualzaciją, atlikite šiuos žingsnius.
+Norėdami nustatyti siunčiamo darbo krūvio vizualizavimą, atlikite šiuos žingsnius.
 
 1. Eikite į **Sandėlio valdymas \> Sandėlio stebėjimo ataskaitas \> Siunčiamo darbo krūvio vizualizacija**.
 
-    Rodomas puslapis **Siunčiamo darbo krūvio vizualizacija**. Jum sukūrus keletą filtrų, šis puslapis rodys jūsų vizualizaciją. Galite sukurti tiek filtrų, kiek norite. Visi jūsų sukurti filtrai įrašomi į vartotojo paskyrą taip, kad galėtumėte vėliau juos naudoti. Kitaip tariant, kiekvienas vartotojas turės jo sukurtą filtrų rinkinį. Tie filtrai nebus bendrinti su kitais vartotojais.
+    Rodomas puslapis **Siunčiamo darbo krūvio vizualizacija**. Jums sukūrus keletą filtrų, šis puslapis rodys jūsų vizualizaciją. Galite sukurti tiek filtrų, kiek norite. Visi jūsų sukurti filtrai įrašomi į vartotojo paskyrą taip, kad galėtumėte vėliau juos naudoti. Kitaip tariant, kiekvienas vartotojas turės jo sukurtą filtrų rinkinį. Tie filtrai nebus bendrinti su kitais vartotojais.
 
-1. Puslapyje **Siunčiama darbo krūvio vizualizacija**, veiksmų juostoje skirtukte **Filtrai** rinkitės **Konfigūruoti filtrus**.
+1. Puslapyje **Siunčiama darbo krūvio vizualizavimas**, veiksmų juostos skirtuke **Filtrai** rinkitės **Konfigūruoti filtrus**.
 1. Puslapyje **Konfigūruoti filtrus** veiksmų juostoje rinkitės **Naujas** , kad įtrauktumėte filtrą ir tada nustatykite tolesnius laukelius jam:
 
-    - **X-ašės grupės lentelė** – Pasirinkite lentelę, kurioje yra laukelis naudotinas grupei X-ašies vertės.
+    - **X-ašies grupės lentelė** – Pasirinkite lentelę, kurioje yra laukelis naudotinas grupei X-ašies vertės.
     - **X-ašies grupės laukelis** – Iš lentelės laukelių, kurią pasirinkote  **X-ašies grupės lentelės** laukelio pasirinkite laukelį, kuris turi būti naudojamas grupei X-ašies vertės.
-    - **X-ašės vertės lentelė** – Pasirinkite lentelę, kurioje yra laukelis naudotinas tolesnei grupės analizei.
+    - **X-ašies vertės lentelė** – Pasirinkite lentelę, kurioje yra laukelis naudotinas tolesnei grupės analizei.
     - **X-ašies vertės laukelis** – Iš lentelės laukelių, kurią pasirinkote  **X-ašies vertės lentelės** laukelio pasirinkite laukelį, kuriame pateikiamos vertės, analizuotinos šiai grupei.
     - **Automatinis paleidimas iš naujo** – Pasirinkite, ar vizualizacija turi būti paleista iš naujo automatiškai.
     - **Paleidimo iš naujo intervalas (minutės)** – Įveskite minučių skaičių tarp automatinių paleidimų iš naujo.
     - **Rodymo lygis** – Pasirinkite, ar grafikas turi rodyti atviras eilutes ar atvirus antraščių skaičius.
-    - **Paėmimo tipas** – Jei nustatote **Rodymo lygis** flaukelį t _Atviros eilutės_, pasirinkite, ar atvirų darbo eilučių skaičius grafike turi apimti pradinius paėmimus, suplanuotus ar tiek pradinius, tiek suplanuotus.
+    - **Paėmimo tipas** – Jei nustatote **Rodymo lygis** laukelį t _Atviros eilutės_, pasirinkite, ar atvirų darbo eilučių skaičius grafike turi apimti pradinius paėmimus, suplanuotus ar tiek pradinius, tiek suplanuotus.
     - **Saitas** – Pasirinkite saitą, kad įkeltumėte jam grafiką.
     - **Sandėlis** – Pasirinkite sandėlį, kad įkeltumėte jam grafiką.
     - **Apimamos dienos** – Įveskite dienų skaičių praeityje, kurioms turi būti sukurtas grafikas.
-    - **Darbo užsakymo tipas** – Pasirinkite siunčiamo filtruojamųo darbo užsakymo tipus.
+    - **Darbo užsakymo tipas** – Pasirinkite siunčiamo filtruojamo darbo užsakymo tipus.
 
-    ![Konfigūruoti filtrų puslapį](media/work-viz-filters-1.png "Konfigūruoti filtrų puslapį")
+    ![Konfigūruoti filtrų puslapį.](media/work-viz-filters-1.png "Konfigūruoti filtrų puslapį")
 
 1. Užverkite **Konfigūruoti filtrus** puslapį ir grįžkite į **Siunčiamos darbo apkrovos vizualizacijos** puslapį.
 
@@ -72,11 +67,11 @@ Norėdami nustatyti siunčiamo darbo krūvio vizualzaciją, atlikite šiuos žin
     - **Naujinta paskutiniu metu** – Šis laukelis rodo datą ir laiką, kai informacija grafike buvo naujinta paskutinį kartą.
     - **Apskaičiuotas/realus laikas** – Jei darbo standartai yra nustatyti jūsų sistemoje, nustatykite parinktį į *Taip* tam, kad ji rodytų apskaičiuotą paėmimo laiką kiekvieno grafiko stulpelio viršuje. Jei nenaudojate darbo standartu, ši parinktis yra neprieinama.
 
-    ![Vizualizacijos pavyzdys](media/work-viz-chart.png "Vizualizacijos pavyzdys")
+    ![Vizualizacijos pavyzdys.](media/work-viz-chart.png "Vizualizacijos pavyzdys")
 
 1. Rinkitės bet kurią juosta grafike, kad peržiūrėtumėte susietą darbo eilutės išsamią informaciją.
 
-    ![Darbo eilutės informacija](media/work-viz-work-details.png "Darbo eilutės informacija")
+    ![Darbo eilutės informacija.](media/work-viz-work-details.png "Darbo eilutės informacija")
 
 ## <a name="example-outbound-workload-visualization-for-zones"></a>Pavyzdys: Siunčiamo darbo krūvio vizualizacija zonoms
 
@@ -90,10 +85,13 @@ Norėdami nustatyti siunčiamo darbo krūvio vizualzaciją, atlikite šiuos žin
 - **X-ašies vertės laukelis** – Rinkitės _Darbo būsena_, nes norite peržiūrėti kiekvieną darbo būseną.
 - **Automatinis paleidimas iš naujo** – Pasirinkite, ar vizualizacija turi būti paleista iš naujo automatiškai.
 - **Paėmimo tipas** – Rinkitės _Pradiniai atsiėmimai ir suplanuoti atsiėmimai_, nes norite įtraukti tiek pradinius atsiėmimui, tiek iš suplanuotų vietų. Kitaip tariant, jūs iš esmės norite įtraukti visas turimas darbo eilutes.
-- **Rodomas lygis** – Rinkitės _Atviros eilutės_, nes norite peržiūrėti kiekvienos eilutės informaciją, o ner kiekvienos darbo antraštės.
+- **Rodomas lygis** – Rinkitės _Atviros eilutės_, nes norite peržiūrėti kiekvienos eilutės informaciją, o ne kiekvienos darbo antraštės.
 
 Tolesnis paveikslėlis rodo esančio grafiko pavyzdį.
 
-![Zona prieš darbo būsenos vizualizacija](media/work-viz-chart.png "Zona prieš darbo būsenos vizualizacija")
+![Zona prieš darbo būsenos vizualizacija.](media/work-viz-chart.png "Zona prieš darbo būsenos vizualizacija")
 
 Šis grafikas rodo dvi zonos, kurių pavadinimas **AUKŠTAS** ir **BENDRI**, taip pat zoną pavadinimu **Tuščia**. **Tuščia** zona rodo visas darbo eilutes, kurios nėra jokios zonos narės. Grafikas visada rodo visus nesusijusius filtruotus duomenis, tokius kaip **Tušti**, tam, kad pateiktų kiek įmanoma daugiau vaizdo. Zonoje **AUKŠTAS** grafikas rodo tris užvertas eilutes ir keturias atvertas. Zonoje **BENDRI** grafikas rodo keturias užvertas eilutes ir vieną atvertą ir 24 atšauktų. Galiausiai, grafikas rodo aštuonias užvertas eilutes, kurios nėra jokios zonos dalis ir dėl to išvardytos kaip **Tuščios**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

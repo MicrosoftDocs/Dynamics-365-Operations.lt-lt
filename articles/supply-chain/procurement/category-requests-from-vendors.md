@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2021-04-19
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 560b62183f9c0c45c872998373a90dc9dc0ebbb3
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.openlocfilehash: 5d06f05ca27ed8fe58a9a24fcde8c0082662b866
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7571718"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103117"
 ---
 # <a name="category-requests-from-vendors"></a>Kategorijų užklausos iš tiekėjų
 
@@ -26,11 +26,11 @@ Kategorijos užklausos procesas leidžia tiekėjams susieti naujas įsigijimo ka
 
 Kategorijos užklausas inicijuoja tiekėjai Tiekėjo **informacijos darbo** srityje. Tada jos bus pateiktos jūsų institucijai peržiūrėti ir patvirtinti. Patvirtintos kategorijos yra įtraukiami į tiekėjo sąskaitos įsigijimo kategorijų sąrašą.
 
-## <a name="turn-on-the-feature-in-your-system"></a>Funkcijos įjungimas sistemoje
+## <a name="turn-the-category-requests-from-vendors-feature-on-or-off"></a>Įjungti arba išjungti kategorijų užklausas iš tiekėjų funkcijos
 
-Jei jūsų sistema dar neapima šioje temoje aprašomos funkcijos, eikite į Funkcijų valdymą ir įjunkite funkciją Leisti tiekėjams taikyti įsigijimo kategorijoms naudodami [tiekėjų](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) *bendradarbiavimo* funkciją.
+Kaip ir tiekimo grandinės valdymo versija 10.0.25 ši funkcija įjungiama pagal numatytąjį nustatymą. Administratoriai gali įjungti arba išjungti šią funkciją *ieškodami leisti tiekėjams taikyti įsigijimo kategorijoms*[naudojant tiekėjų bendradarbiavimo funkciją funkcijų valdymo darbo](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) srityje.
 
-Kai priemonė įjungta, vis dar galite rankiniu būdu įtraukti įsigijimo kategorijas į tiekėjų sąskaitas. Dėl išsamesnės informacijos, žr. [Konkrečių įsigijimo kategorijų tiekėjų tvirtinimas](tasks/approve-vendors-specific-procurement-categories.md).
+Jei ši funkcija įjungta, vis dar galite rankiniu būdu įtraukti įsigijimo kategorijas į tiekėjų sąskaitas. Dėl išsamesnės informacijos, žr. [Konkrečių įsigijimo kategorijų tiekėjų tvirtinimas](tasks/approve-vendors-specific-procurement-categories.md).
 
 ## <a name="vendor-collaboration-requirements"></a>Tiekėjo bendradarbiavimo reikalavimai
 

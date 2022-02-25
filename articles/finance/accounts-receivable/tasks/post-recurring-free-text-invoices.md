@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0389db98c00f8ad98a9cf919a21110c31206949199f06328782d25e9c415b315
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 3d30dd5ba29ee34784921047627642644c0c4ab2
+ms.sourcegitcommit: 6102f70d4595d01b90afe5b23dfd8ec2ea030653
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6762168"
+ms.lasthandoff: 02/16/2022
+ms.locfileid: "8182484"
 ---
 # <a name="generate-and-post-recurring-free-text-invoices"></a>Generuoti ir registruoti pasikartojančias laisvos formos SF
 
@@ -30,17 +30,17 @@ Pasikartojančios SF naudojamos reguliariai klientams išrašyti SF už tą pač
 ## <a name="generate-recurring-invoices"></a>Generuoti pasikartojančias SF
 
 ## <a name="post-recurring-invoices"></a>Registruoti pasikartojančias SF
-1. Pasirinkite Gautinos sumos > Sąskaitos faktūros > Pasikartojančios SF > Registruoti pasikartojančias SF.
+1. Eikite **į gautinų sumų > sf> pasikartojančias SF > pasikartojančias SF**.
     * Naudokite šį puslapį, kad peržiūrėtumėte ir spausdintumėte jau sugeneruotas pasikartojančias SF.  
 2. Sąraše spustelėkite saitą pasirinktoje eilutėje.
     * Pasirinkite pasikartojančių SF grupę.  
-3. Spustelėkite Sumos.
+3. Spustelėkite **Sumos**.
     * Tikrinkite pasikartojančių SF grupės bendrąsias sumas.  
-4. Spustelėkite Uždaryti.
-    * Kiekviena eilutė toliau yra pasikartojanti laisvos formos SF. Galite pasirinkti eilutę ir spustelėti mygtuką „Informacija‟, kad peržiūrėtumėte laisvos formos SF informaciją.  
-5. Spustelėkite Tikrinti.
+4. Spustelėkite **Uždaryti**.
+    * Kiekviena eilutė toliau yra pasikartojanti laisvos formos SF. Norėdami peržiūrėti laisvos formos SF informaciją, galite **pasirinkti eilutę** ir spustelėti mygtuką Išsami informacija.  
+5. Spustelėkite **Tikrinti**.
     * Patikrinkite, ar pasirinktose SF nėra klaidų, bet SF neregistruokite.  
-6. Spustelėkite Registruoti.
+6. Spustelėkite **Registruoti**.
     * Registruokite pasirinktas SF.  
 
 

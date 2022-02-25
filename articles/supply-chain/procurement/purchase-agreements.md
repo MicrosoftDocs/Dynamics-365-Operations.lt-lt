@@ -1,12 +1,10 @@
 ---
 title: Pirkimo sutartys
 description: Šiame straipsnyje pateikta informacija apie pirkimo sutartis. Pirkimo sutartis yra sutartis, kurią pasirašiusi organizacija įsipareigoja per tam tikrą laiką keliais pirkimo užsakymais įsigyti nurodytą kiekį arba sumą. Už šį įsipareigojimą pirkėjas gauna specialias kainas ir nuolaidas.
-author: RichardLuan
-manager: tfehr
+author: Henrikan
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AgreementClassification, AgreementLine, AgreementLinePrompt, PurchAgreement, PurchAgreementCreate, PurchAgreementGenerateReleaseOrder, PurchAgreementHistory, PurchAgreementInvoiceJournal, PurchLine, AgreementLines
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 11634
 ms.assetid: 8ac20adf-7412-4929-be8c-aaedf23a76ad
 ms.search.region: Global
-ms.author: riluan
+ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9cd3c18129724cc67560aee7bf9fc0e5dcd2ebc3
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
-ms.translationtype: HT
+ms.openlocfilehash: d8084ebed80a509d543053867bb1f4d483b3f8eb
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5017192"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103743"
 ---
 # <a name="purchase-agreements"></a>Pirkimo sutartys
 
@@ -43,10 +41,7 @@ Jei nenorite, kad jūsų pirkimo sutartis būtų naudojama ir patvirtinama, nust
 Galite nurodyti pirminį atsakingą darbininką ir antrinį atsakingą darbininką pirkimo sutarties klasifikacijoje. Šios vertės bus perkeltos į gautą pirkimo sutartį. Neprivalote įtraukti atsakingų darbininkų į pirkimo sutartį; juos galima keisti tiesiogiai kiekvienu konkrečiu atveju pačioje pirkimo sutartyje. Negalite nurodyti antrinio atsakingo darbininko nenurodę pirminio atsakingo darbininko, tačiau antrinio atsakingo darbininko nurodyti nebūtina. Negalima nurodyti to paties darbininko ir kaip pirminio, ir kaip antrinio atsakingo darbininko.
 
 > [!IMPORTANT]
-> Prieš naudodami atsakingos šalies funkciją, turite ją įjungti savo sistemoje. Administratoriai gali naudoti [funkcijos valdymas](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) parametrus, norėdami sužinoti funkcijos būseną ir įjungti ją. Darbo srityje **Funkcijų valdymas** ši funkcija yra nurodyta toliau pateikiamu būdu.
-> 
-> - **Modulis:** *Paraiškos*
-> - **Funkcijos pavadinimas:** *Už pirkimo sutartį atsakinga šalis*
+> Norint naudoti atsakingo asmens funkciją, ją reikia įjungti jūsų sistemoje. Kaip ir tiekimo grandinės valdymas 10.0.25 ši funkcija įjungiama pagal numatytąjį nustatymą. Administratoriai gali įjungti arba išjungti šią funkciją, ieškodami už *pirkimo sutartį atsakingo asmens funkcijos* funkcijų [valdymo darbo](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) srityje.
 
 ## <a name="commitment-types"></a>Įsipareigojimo tipai
 Kiekviena pirkimo sutarties eilutė įpareigoja ką nors pirkti. Galite naudoti kelių pirkimo užsakymų (PU) eilutes, norėdami įvykdyti įsipareigojimą. Yra keturi įsipareigojimų tipai:
@@ -104,12 +99,13 @@ Jei sukuriate vidinės įmonės PU, kuris naudoja vidinės įmonės pirkimo suta
 ## <a name="financial-dimensions-on-purchase-agreements"></a>Pirkimo sutarčių finansinės dimensijos
 Galite nukopijuoti finansines dimensijas į dokumento antraštes arba į atskiras pirkimo sutarties eilutes. Jei pakeičiate dimensijas sutarties antraštėje arba sutarties eilutėje, pakeitimas neturi įtakos jokiems išleistiems užsakymams, tačiau jis atsispindės visuose naujuose užsakymuose.
 
-<a name="additional-resources"></a>Papildomi ištekliai
---------
+## <a name="additional-resources"></a>Papildomi ištekliai
 
-[Pirkimo sutarties kūrimas](tasks/create-purchase-agreement.md)
-
-[Pirkimo leidimo užsakymo kūrimas iš pirkimo sutarties](tasks/create-purchase-release-order-purchase-agreement.md)
+- [Pirkimo sutarties kūrimas](tasks/create-purchase-agreement.md)
+- [Pirkimo sutarties taikymas kuriant pirkimo užsakymą](tasks/create-purchase-release-order-purchase-agreement.md)
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

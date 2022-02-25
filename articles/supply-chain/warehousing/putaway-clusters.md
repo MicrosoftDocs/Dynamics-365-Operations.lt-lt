@@ -2,25 +2,22 @@
 title: Atidėjimo klasteriai
 description: Atidėjimo klasteriai siūlo būda paimti keletą licencijos lentelių tuo pačiu metu ir tada paimti jas atidėjimui skirtingose vietose. Jos gali būti labai naudingos mažmenos verslui, kai licencijos lentelės dažniausiai nėra pilni inventoriaus padėklai.
 author: Mirzaab
-manager: tfehr
 ms.date: 10/19/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-10-19
-ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 6a330ddccbd17c92443232fc8488e36a59235773
-ms.sourcegitcommit: cfd84321fba38e02e270d361df369a536a48efa3
-ms.translationtype: HT
+ms.dyn365.ops.version: 10.0.7
+ms.openlocfilehash: d5aa579394a0e3bd4c27cd44c9ff98951b3bfe1c
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/11/2020
-ms.locfileid: "4512335"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103668"
 ---
 # <a name="putaway-clusters"></a>Atidėjimo klasteriai
 
@@ -28,12 +25,9 @@ ms.locfileid: "4512335"
 
 Atidėjimo klasteriai siūlo būda paimti keletą licencijos lentelių tuo pačiu metu ir tada paimti jas atidėjimui skirtingose vietose. Šis procesas dažnai yra vadinamas *pieno vykdymu*. Atidėjimo klasteriai gali būti labai naudingi mažmenos verslui, kai licencijos lentelės dažniausiai nėra pilni inventoriaus padėklai. 
 
-## <a name="turn-on-the-cluster-putaway-feature"></a>įjunkite klasterio atidėjimo funkciją
+## <a name="turn-the-cluster-putaway-feature-on-or-off"></a>Įjungti arba išjungti klasterio padėjusi priemonę
 
-Kad galėtumėte naudoti šią funkciją, ji turi būti įjungta jūsų sistemoje. Administratoriai gali naudoti [Funkcijos valdymas](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) darbo sritį, norėdami sužinoti funkcijos būseną ir įjungti ją, jei reikia. Ten ši funkcija pateikiama taip:
-
-- **Modulis:** *Sandėlio valdymas*
-- **Funkcijos pavadinimas:** *Klasterio atidėjimo funkcija*
+Norint naudotis šioje temoje aprašytomis funkcijomis, *jūsų* sistemoje turi būti įjungta klasterio atidavimo funkcija. Kaip ir tiekimo grandinės valdymas 10.0.25 ši funkcija yra privaloma ir jos išjungti negalima. Jei naudojate senesnę nei 10.0.25 versiją, tada administratoriai gali įjungti arba išjungti šią funkciją ieškodami klasterio *padėjas*[funkcijos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) funkcijų valdymo darbo srityje.
 
 ## <a name="setup-for-the-example-scenario"></a>Nustatymas pavyzdžio scenarijui
 
@@ -118,7 +112,7 @@ Atidėjimo klasterio profilis nustato, ar prekė eis pagrindžiant vieta, kuri y
 
 ### <a name="mobile-device-menu-items"></a>Mobiliojo įrenginio meniu elementai
 
-Du nauji mobiliojo įrenginio meniu prekės yra prieinamos šiai funkcijai. **Gauti ir rūšiuoti klasterį** meniu prekė yra naudojama siekiant rūšiuoti gautą inventorių į atidėjimo klasterį po gavimo. **Klasterio atidėjimo** meniu prekė yra naudojama norint atidėti klasterį po jo priskyrimo. 
+Du nauji mobiliojo įrenginio meniu prekės yra prieinamos šiai funkcijai. **Gauti ir rūšiuoti klasterį** meniu prekė yra naudojama siekiant rūšiuoti gautą inventorių į atidėjimo klasterį po gavimo. **Klasterio atidėjimo** meniu prekė yra naudojama norint atidėti klasterį po jo priskyrimo.
 
 #### <a name="receive-and-sort-cluster"></a>Gauti ir rūšiuoti klasterį
 
@@ -231,7 +225,7 @@ Sukurkite naują mobiliojo įrenginio meniu prekę klasterio atidėjimui po jo p
 
 #### <a name="receive-and-sort-the-inventory-into-a-cluster"></a>Gaukite ir rūšiuokite inventorių į klasterį
 
-1. Prisijunkite prie sandėlio programos kaip vartotojas, kuris nustatė sandėliui *61*.
+1. Prisijunkite prie sandėlio valdymo mobiliųjų įrenginių programėlės kaip vartotojas, nustatytas *61 sandėliui*.
 1. Pagrindiniame meniu pasirinkite **Įvestis**.
 1. Meniu **Įvestis** rinkitės **Gauti ir rūšiuoti klasterį**.
 1. Laukelyje **Ponum** įveskite pirkimo užsakymo numerį.
@@ -273,7 +267,7 @@ Prieš tai, kai prekės klasteryje gali būti atidėtos, klasterį reikia užver
 
 #### <a name="put-the-cluster-away"></a>Klasterio atidėjimas
 
-1. Prisijunkite prie sandėlio programos kaip vartotojas, kuris nustatė sandėliui *61*.
+1. Prisijunkite prie sandėlio valdymo mobiliųjų įrenginių programėlės kaip vartotojas, nustatytas *61 sandėliui*.
 1. Pagrindiniame meniu pasirinkite **Įvestis**.
 1. Meniu **įvestis** rinkitės **Klasterio atidėjimas**.
 1. Rinkitės **Klasterio ID** ir įveskite klasterio ID, kurį įvedėte anksčiau užvertam klasteriui.
@@ -287,7 +281,7 @@ Prieš tai, kai prekės klasteryje gali būti atidėtos, klasterį reikia užver
 
     Turite standartines parinktis, kurios viršys arba praleis šį žingsnį.
 
-    ![Klasterio atidėjimas: Padėjimo puslapis](media/Cluster_putaway-Put.png "Klasterio atidėjimas: Padėjimo puslapis")
+    ![Klasterio atidėjimas: Padėjimo puslapis.](media/Cluster_putaway-Put.png "Klasterio atidėjimas: Padėjimo puslapis")
 
 1. Rinkitės **GERAI**, kad patvirtintumėte klasterio atidėjimą.
 
@@ -296,3 +290,6 @@ Prieš tai, kai prekės klasteryje gali būti atidėtos, klasterį reikia užver
 ## <a name="notes-and-tips"></a>Pastabos ir patarimai
 
 Dėl atvejų, kai klasterio ID tampa valdančia licencijos plokštele pakrautam padėklui, padėjimo padėtis automatiškai suteikiama, kai nuskaitomas atitinkamas klasterio ID. Negalima nuskaityti jokios tolesnės licencijos plokštelės, net jei licencijos plokštelės sukūrimas nustatytas į rankinį.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

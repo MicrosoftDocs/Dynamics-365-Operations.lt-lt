@@ -2,27 +2,24 @@
 title: ES pardavimo sąrašo ataskaitos
 description: Šiame straipsnyje pateikta informacija apie Europos Sąjungos (ES) Pardavimo sąrašo ataskaitas.
 author: EvgenyPopovMBS
-manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 02/17/2022
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EUSalesList
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 12811
 ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hungary, Ireland, Italy, Latvia, Lithuania, Netherlands, Poland, Spain, Sweden, United Kingdom
 ms.author: epopov
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 68cbd8d3495f8c10c57fa0751fabb03a6946c7dd
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: af49817667999dd02a96a7a9bd5bb966be652d35
+ms.sourcegitcommit: 68114cc54af88be9a3a1a368d5964876e68e8c60
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408227"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323479"
 ---
 # <a name="eu-sales-list-reporting"></a>ES pardavimo sąrašo ataskaitos
 
@@ -30,8 +27,7 @@ ms.locfileid: "4408227"
 
 Šiame straipsnyje pateikta informacija apie Europos Sąjungos (ES) Pardavimo sąrašo ataskaitas.
 
-<a name="eu-sales-list-reporting"></a>ES pardavimo sąrašo ataskaitos
------------------------
+## <a name="eu-sales-list-reporting"></a>ES pardavimo sąrašo ataskaitos
 
 Tiekėjas, tiekiantis įmonėms, įsteigtoms Europos Sąjungoje (ES), prekes ar paslaugas ES viduje, turi pateikti į Vidaus tiekimo deklaraciją (ES pardavimo sąrašą arba ESL). Apskritai ESL būtina pateikta mokesčių inspekcijoms ne vėliau kaip paskutinę mėnesio po kalendorinio laikotarpio, kurį apima ESL, dieną. Tiekėjas turi ant ESL nurodyti savo pridėtinės vertės mokesčio (PVM) identifikavimo numerį ir taip pat nurodyti tokią informaciją pagal klientą.
 
@@ -72,13 +68,19 @@ Pateiktoje lentelėje parodytos būtinosios sąlygos, kurias reikia įvykdyti pr
 <td>Nustatykite neapmokestinimo identifikavimo parametrus puslapyje <strong>Valstybės / regiono parametrai</strong> (spustelėkite <strong>Mokestis</strong> &gt; <strong>Sąranka</strong> &gt; <strong>PVM</strong> &gt; <strong>Valstybės / regiono parametrai</strong>). Puslapyje sukurkite kiekvienos valstybės / regiono, kuriame sandorio šalių, įrašą ir nurodykite tokią informaciją.
 <ul>
 <li><strong>Valstybė / regionas</strong> – pasirinkite valstybę / regioną, kurią norite susieti su neapmokestinimo identifikavimu.</li>
-<li><strong>PVM</strong> – įveskite pasirinktos valstybės / regiono neapmokestinimo identifikavimo numerį (t. y. neapmokestinimo numerio prefiksą).</li>
+<li><strong>PVM</strong>  – įveskite pasirinktos šalies/regiono PVM mokėtojo kodą (t. y. PVM registracijos numerį arba pvm mokėtojo kodo prefiksą).</li>
 <li><strong>Tikrinti neapmokestinimo numerį</strong> – pažymėkite šį žymės langelį, jei norite patikrinti pasirinktos valstybės / regiono neapmokestinimo identifikavimo duomenis.</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><strong>Sąranka: </strong>Neapmokestinimo numeriai</td>
-<td>Sukurkite savo kitų sandorio šalių neapmokestinimo numerius puslapyje <strong>Neapmokestinimo numeriai</strong> (spustelėkite <strong>Mokestis</strong> &gt; <strong>Sąranka</strong> &gt; <strong>PVM</strong> &gt; <strong>Neapmokestinimo numeriai</strong>). Puslapyje sukurkite kiekvieno neapmokestinimo numerio įrašą ir nurodykite tokią informaciją.
+<td><strong>Nustatymas: PVM</strong> registracijos numeriai</td>
+<td>Kurkite PVM registracijos numerius savo šalims puslapyje Visi klientai (<strong></strong><strong></strong>&gt;<strong></strong>&gt; eikite į Pardavimo ir rinkodaros klientai Visi klientai, pasirinkite kliento įrašą, <strong></strong><strong></strong>&gt; tada pasirinkite klientų registracijos ID)<strong></strong> arba tiekėjų puslapį (<strong></strong><strong></strong>&gt;<strong></strong> eikite į Įsigijimai ir pasirinkimas tiekėjų tiekėjams&gt;, pasirinkite tiekėjo įrašą, <strong>tada pasirinkite Tiekėjai</strong><strong></strong>&gt;<strong>Registracijos PVM</strong>). Skirtuke <strong>Bendra,</strong><strong>registracijos ID</strong> "FastTab", sukurkite įrašą ir nurodykite šią informaciją:
+<ul>
+<li><strong>Registracijos tipas</strong> – pasirinkite registracijos tipą, priskirtą <strong>pagrindinės įmonės šalies / regiono PVM ID</strong> registracijos kategorijai.</li>
+<li><strong>Registracijos numeris</strong> – įveskite pagrindinės įmonės PVM registracijos numerį.</li>
+<li><strong>Galioja</strong> – pasirinkite PVM registracijos numerio naudojimo laikotarpio pradžios lauką.</li>
+</ul>  
+Arba galite sukurti savo kitų šalių PVM <strong>registracijos numerį PVM mokėtojų numerių puslapyje (</strong><strong></strong>&gt; eikite į Mokesčio<strong></strong>&gt;<strong></strong>&gt; nustatymo PVM mokėtojų kodus).<strong></strong> Puslapyje sukurkite kiekvieno neapmokestinimo numerio įrašą ir nurodykite tokią informaciją.
 <ul>
 <li><strong>Valstybė / regionas </strong>– pasirinkite valstybę / regioną, kuriame kita sandorio šalis registruota kaip mokesčių mokėtoja.</li>
 <li><strong>Neapmokestinimo numeris</strong> – įveskite kitos sandorio šalies neapmokestinimo numerį.</li>
@@ -87,7 +89,7 @@ Pateiktoje lentelėje parodytos būtinosios sąlygos, kurias reikia įvykdyti pr
 </tr>
 <tr class="even">
 <td><strong>Sąranka: </strong>kitų sandorio šalių mokesčių registracija</td>
-<td>Nustatykite kitų sandorio šalių mokesčių registracijos informaciją puslapyje <strong>Visi klientai</strong> (spustelėkite <strong>Pardavimas ir rinkodara</strong> &gt; <strong>Klientai</strong> &gt; <strong>Visi klientai</strong>, pasirinkite kliento įrašą ir tada spustelėkite <strong>Parinktys</strong> &gt; <strong>Keisti rodinį</strong> &gt; <strong>Išsamios informacijos rodinys</strong>) arba puslapyje <strong>Tiekėjai</strong> (spustelėkite <strong>Įsigijimas ir šaltinio pasirinkimas</strong> &gt; <strong>Tiekėjai</strong> &gt; <strong>Tiekėjai</strong>, pasirinkite tiekėjo įrašą ir tada spustelėkite <strong>Parinktys</strong> &gt; <strong>Keisti rodinį</strong> &gt; <strong>Išsamios informacijos rodinys</strong>). FastTab <strong>Sąskaita faktūra ir pristatymas</strong> lauke <strong>Neapmokestinimo numeris</strong> pasirinkite mokesčių mokėtojo kodą.</td>
+<td>Nustatykite kitų sandorio šalių mokesčių registracijos informaciją puslapyje <strong>Visi klientai</strong> (spustelėkite <strong>Pardavimas ir rinkodara</strong> &gt; <strong>Klientai</strong> &gt; <strong>Visi klientai</strong>, pasirinkite kliento įrašą ir tada spustelėkite <strong>Parinktys</strong> &gt; <strong>Keisti rodinį</strong> &gt; <strong>Išsamios informacijos rodinys</strong>) arba puslapyje <strong>Tiekėjai</strong> (spustelėkite <strong>Įsigijimas ir šaltinio pasirinkimas</strong> &gt; <strong>Tiekėjai</strong> &gt; <strong>Tiekėjai</strong>, pasirinkite tiekėjo įrašą ir tada spustelėkite <strong>Parinktys</strong> &gt; <strong>Keisti rodinį</strong> &gt; <strong>Išsamios informacijos rodinys</strong>). <strong>SF ir pristatymo "</strong> FastTab", lauke <strong>PVM mokėtojo kodas</strong>, pasirinkite PVM registracijos numerį.</td>
 </tr>
 <tr class="odd">
 <td><strong>Sąranka: </strong>PVM</td>
@@ -160,3 +162,6 @@ Baigę tam tikro laikotarpio ataskaitinį procesą (pavyzdžiui, kai mokesčių 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

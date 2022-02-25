@@ -2,22 +2,22 @@
 title: Kredito valdymo nustatymas
 description: Šioje temoje aprašomas nustatymas, kurio reikia kredito valdymui.
 author: JodiChristiansen
-ms.date: 09/04/2019
+ms.date: 02/15/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 9b9e756b678786d2c5a8c5bb9e890ce988090c09
-ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
+ms.openlocfilehash: 6977789b039c3e77e6d697e32bf4cac69c35a901
+ms.sourcegitcommit: 6102f70d4595d01b90afe5b23dfd8ec2ea030653
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "7753673"
+ms.lasthandoff: 02/16/2022
+ms.locfileid: "8182459"
 ---
 # <a name="credit-management-setup"></a>Kredito valdymo nustatymas 
 
@@ -25,7 +25,7 @@ ms.locfileid: "7753673"
 
 ## <a name="credit-management-workflows"></a>Kredito valdymo darbo eigos
 
-Eikite į **Kreditai ir mokėjimų priežiūros \> Nustatymas \> Kreditų valdymo darbo eigos**, kad apibrėžtumėte darbo eigas, kurios naudojamos kredito limito koregavimams valdyti.
+Eikite į **Kreditai ir mokėjimų priežiūros \> Nustatymas \>Kreditų valdymo darbo eigos**, kad apibrėžtumėte darbo eigas, kurios naudojamos kredito limito koregavimams valdyti.
 
 - Galite sukurti darbo eigą, kuri leidžia patvirtinti kredito limitų koregavimų paketą vienu patvirtinimu.
 - Galite įtraukti darbo eigą eilutės lygiu, kad galėtumėte patvirtinti kredito limito koregavimus atskirai.
@@ -39,7 +39,7 @@ Galite sulaikyti pardavimo užsakymą, jei užsakymo mokėjimo sąlygos neatitin
 
 Jeigu mokėjimo sąlygų reitingavimas aktyvus ir užsakymo mokėjimo sąlygos turi aukštesnį reitingą nei numatytosios kliento mokėjimo sąlygos, pardavimo užsakymas bus sulaikytas.
 
-Norėdami nustatyti mokėjimo sąlygų reitingus, eikite į **Kreditas ir surinkimas \> Sąranka \> Kredito valdymo sąranka \> Mokėjimų sąlygų reitingavimas**  
+Norint nustatyti mokėjimo sąlygų rangą, eikite į Kreditas **ir rinkiniai Nustatymo \> kredito \> valdymo nustatymo \> rango mokėjimo sąlygos**.  
 
 ### <a name="ranking-settlement-discounts"></a>Sudengimo nuolaidų reitingavimas
 
@@ -86,7 +86,7 @@ Galite sukurti sąskaitos būsenas puslapyje **Sąskaitų būsenos** (**Kreditas
 
 ## <a name="scoring-groups"></a>Rezultatų grupės
 
-Galite nustatyti vertinimo grupes, kad nustatytumėte rizikos faktorius ir kriterijus, naudojamus jiems išmatuoti. Kai informacija apie klientą taikoma vertinimo grupei, apskaičiuojamas kiekvieno rizikos veiksnio balas, pagal kurį klientas įtraukiamas į rizikos grupę. Rizikos grupė gali būti naudojama kredito tinkamumui nustatyti ir automatiniam kredito limitų apskaičiavimui.
+Norėdami apibrėžti rizikos **faktorius ir kriterijus,** naudojamus jiems įvertinti, galite nustatyti vertinimo grupes. Kai informacija apie klientą taikoma vertinimo grupei, apskaičiuojamas kiekvieno rizikos veiksnio balas, pagal kurį klientas įtraukiamas į rizikos grupę. Rizikos grupė gali būti naudojama kredito tinkamumui nustatyti ir automatiniam kredito limitų apskaičiavimui.
 
 Galite sukurti vertinimo grupes puslapyje **Vertinimo grupės** (**Kreditas ir surinkimas \> Sąranka \> Kredito valdymo sąranka \> Rizika \> Vertinimo grupės**).
 
@@ -138,7 +138,7 @@ Galite įtraukti padengimo tipus puslapyje **Padengimo tipai** (**Kreditas ir su
 
 ## <a name="automatic-credit-limits"></a>Automatiniai kredito limitai
 
-Galite sukurti automatinių kredito limitų kriterijus puslapyje **Automatiniai kredito limitai** (**Kreditas ir surinkimas \> Sąranka \> Kredito valdymo sąranka \> Rizika \> Automatiniai kredito limitai**).
+Galite sukurti automatinių kredito limitų kriterijus puslapyje **Automatiniai kredito limitai** (**Kreditas ir surinkimas \>Sąranka \> Kredito valdymo sąranka \> Rizika \> Automatiniai kredito limitai**).
 
 1. Pasirinkite rizikos grupę, kuriai reikia priskirti automatinį kredito limitą.
 2. Pasirinkite automatinio kredito limito valiutą. Galite sukurti kelis automatinius kreditų limitus skirtingomis valiutomis toje pačioje rizikos grupėje.

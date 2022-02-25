@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: Version 10.0.6
-ms.openlocfilehash: 98d28c39b2923afecc851299a07aa3b93ef2edce
-ms.sourcegitcommit: ac23a0a1f0cc16409aab629fba97dac281cdfafb
+ms.openlocfilehash: 27e9e977193f9ff5c8188b780e8de955742c4ebe
+ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/29/2021
-ms.locfileid: "7867299"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323880"
 ---
 # <a name="design-a-new-er-configuration-to-generate-reports-in-word-format"></a>Naujos ER konfigūracijos, skirtos ataskaitų generavimui „Word“ formatu, kūrimas
 
@@ -28,7 +28,7 @@ Norėdami generuoti ataskaitas kaip „Microsoft Word” dokumentus, turite suku
 
 ![Valdiklio ataskaitos pavyzdinis šablonas „Word” darbalaukio programoje.](./media/er-design-configuration-word-image1.png)
 
-Norėdami naudoti „Word” dokumentą kaip ataskaitų „Word” formatu šabloną, galite sukonfigūruoti naują [Elektroninių ataskaitų (ER)](general-electronic-reporting.md) [sprendimą](er-quick-start1-new-solution.md). Šis sprendimas turi apimti ER [konfigūraciją,](general-electronic-reporting.md#Configuration) kurioje yra ER [formato](general-electronic-reporting.md#FormatComponentOutbound) komponentas.
+Norėdami naudoti „Word” dokumentą kaip ataskaitų „Word” formatu šabloną, galite sukonfigūruoti naują [Elektroninių ataskaitų (ER)](general-electronic-reporting.md) [sprendimą](er-quick-start1-new-solution.md). Šis sprendimas turi apimti ER konfigūraciją [, kurioje](general-electronic-reporting.md#Configuration) yra ER formato komponentas.
 
 > [!NOTE]
 > Kai kuriate naują ER formato konfigūraciją generuoti ataskaitoms „Word” formatu, turite pasirinkti **„Word”** kaip formato tipą išplečiamajame dialogo lange **Kurti konfigūraciją** arba palikti lauką **Formato tipas** tuščią.

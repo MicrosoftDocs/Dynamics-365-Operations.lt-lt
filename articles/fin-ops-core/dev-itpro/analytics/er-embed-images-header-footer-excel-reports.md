@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2021-06-01
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 20bcf26e1510634c5ee7043576a480ce15889923
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
-ms.translationtype: HT
+ms.openlocfilehash: 3f3f77a9e6104a31995c9ee398504982fe43ac9e
+ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7344125"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323780"
 ---
 # <a name="design-an-er-format-to-generate-a-report-in-excel-format-with-embedded-images-in-page-headers-or-footers"></a>ER formato kūrimas, kad būtų galima sugeneruoti „Excel” formato ataskaitą su į puslapių antraštes ar poraštes įdėtais vaizdais
 
@@ -153,9 +153,9 @@ Norėdami pridėti standartines ER konfigūracijas prie dabartinio „Dynamics 3
 3. Puslapio **Konfigūracijos** konfigūracijos medžio kairėje pusėje išplėskite **Sąskaitos faktūros modelis**.
 4. Kartu su pasirinktu ER formatu **Laisvos formos sąskaita faktūra („Excel”)** buvo importuotos kitos būtinos ER konfigūracijos. Įsitikinkite, kad sekančios ER konfigūracijos yra prieinamos konfigūracijos medyje:
 
-    - **Sąskaitos faktūros modelis** – šioje konfigūracijoje yra [duomenų modelio](general-electronic-reporting.md#data-model-and-model-mapping-components) ER komponentas, rodantis sąskaitos faktūros verslo domeno duomenų struktūrą.
-    - **Sąskaitos faktūros modelio susiejimas** – šioje konfigūracijoje yra [modelio susiejimo ](general-electronic-reporting.md#data-model-and-model-mapping-components) ER komponentas, aprašantis, kaip duomenų modelis užpildomas programos duomenimis vykdymo metu.
-    - **Laisvos formos sąskaita faktūra („Excel”)** – šioje konfigūracijoje yra [formato](general-electronic-reporting.md#FormatComponentOutbound) ir formato susiejimo ER komponentai. Formato komponentas nurodo ataskaitos maketą, paremtą „Excel” formato šablonu. Formato susiejimo komponentas apima modelio duomenų šaltinį ir nurodo, kaip šis duomenų šaltinis naudojamas ataskaitos maketui užpildyti vykdymo metu.
+    - **SF modelis** – šioje konfigūracijoje yra duomenų modelio ER komponentas, nurodantis SF išrašymo verslo domeno duomenų struktūrą.
+    - **SF modelio susiejimas** – šioje konfigūracijoje yra modelio susiejimo ER komponentas, kuris apibūdina, kaip duomenų modelis užpildomas programos duomenimis apdorojimo laiku.
+    - **Laisvos formos SF (Excel)** – šioje konfigūracijoje yra formato ir formato susiejimo ER komponentai. Formato komponentas nurodo ataskaitos maketą, paremtą „Excel” formato šablonu. Formato susiejimo komponentas apima modelio duomenų šaltinį ir nurodo, kaip šis duomenų šaltinis naudojamas ataskaitos maketui užpildyti vykdymo metu.
 
 ![Importuotos ER konfigūracijos puslapyje Konfigūracijos.](./media/er-embed-images-header-footer-excel-reports-imported-solution.png)
 

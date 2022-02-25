@@ -1,12 +1,10 @@
 ---
 title: Vartotojų priskyrimas saugos vaidmenims
-description: Kad vartotojai galėtų pasiekti „Finance and Operations“ programas, jiems reikia priskirti saugos vaidmenis.
+description: Norint pasiekti „Finance and Operations“ programas, vartotojams turi būti priskirti saugos vaidmenys.
 author: Peakerbl
-manager: AnnBe
-ms.date: 05/06/2020
+ms.date: 02/09/2022
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysSecRolesEditUsers, SysSecAssignmentQueryLookup, SysQueryForm, SysSecRoleExcludeUsers
 audience: Application User
@@ -15,18 +13,18 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f78c24e8c2ffe5418ce119e19b7c0193f01f64b8
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
-ms.translationtype: HT
+ms.openlocfilehash: 36874b996cc5708f6fd7fbc45251f3066b5b1c97
+ms.sourcegitcommit: f2a78e0d7d461ca843ac2f9abff7690275db9196
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4679869"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8105543"
 ---
-# <a name="assign-users-to-security-roles"></a>Vartotojų priskyrimas saugos vaidmenims
+# <a name="manage-users-and-security-roles"></a>Vartotojų ir saugos vaidmenų valdymas
 
 [!include [banner](../../includes/banner.md)]
 
-Norėdami „Finance and Operations” programose naudoti bet ką, išskyrus bendrąsias galimybes, vartotojai turi būti priskirti saugos vaidmenims. Galite priskirti vartotojus vaidmenims automatiškai, remiantis taisyklėmis ir verslo duomenimis, pašalinti vartotojus iš automatinio vaidmenų priskyrimo arba įtraukti vartotojus į vaidmenis neautomatiniu būdu.
+Jei norite naudoti ne bendrąsias finansų ir operacijų programėlių galimybes, vartotojai turi būti priskirti saugos vaidmenims. Galite priskirti vartotojus vaidmenims automatiškai, remiantis taisyklėmis ir verslo duomenimis, pašalinti vartotojus iš automatinio vaidmenų priskyrimo arba įtraukti vartotojus į vaidmenis neautomatiniu būdu.
 
 ## <a name="automatically-assign-users-to-roles"></a>Automatinis vartotojų priskyrimas vaidmenims
 Šia procedūra paaiškinama, kaip sistemos administratoriai gali automatiškai pagal verslo duomenis priskirti vartotojus vaidmenims. 
@@ -42,6 +40,8 @@ Norėdami „Finance and Operations” programose naudoti bet ką, išskyrus ben
 10. Peržiūrėkite vaidmenis, priskirtus skirtingiems vartotojams, kad patvirtintumėte, jog vaidmenų priskyrimo užklausa yra teisinga. Jei reikia, pakoreguokite ir vykdykite iš naujo.
 
 ## <a name="exclude-users-from-automatic-role-assignment"></a>Vartotojų šalinimas iš automatinio vaidmenų priskyrimo
+Šia procedūra paaiškinama, kaip pašalinti vartotojus iš automatinio vaidmenų priskyrimo.
+
 1. Uždarykite puslapį.
 2. Eikite į **Naršymo sritis > Moduliai > Sistemos administravimas > Sauga > Priskirti vartotojus vaidmenims**.
 3. Medyje pasirinkite Apskaitos prižiūrėtojas. Pasirinkite vaidmenį. Šiam pavyzdžiui pasirinkite Apskaitos prižiūrėtojas.  
@@ -57,3 +57,19 @@ Vartotojus, kurie neautomatiniu būdu priskirti saugos vaidmenims, administrator
 2. Medyje pasirinkite vaidmenį, tada meniu **Vaidmeniui priskirti vartotojai** pasirinkite **Rankiniu būdu priskirti / pašalinti vartotojus**.
 4. Dalyje **Priskirti vartotojus vaidmeniui arba iš jo pašalinti** išvardyti vartotojai, kuriems nebuvo priskirtas vaidmuo, ir laukas **Priskyrimo režimas** nustatytas į **Nėra**. Pasirinkite vieną ar daugiau vartotojų, kuriems reikia priskirti vaidmenį.
 5. Dalyje **Veiksmų sritis** pasirinkite **Priskirti vaidmeniui**. Laukas **Priskyrimo režimas** atnaujinamas į **Rankinis**, o vartotojams priskirtas naujas vaidmuo.
+
+## <a name="manually-remove-users-from-roles"></a>Rankiniu būdu pašalinti vartotojus iš vaidmenų
+Vartotojus, kurie neautomatiniu būdu priskirti saugos vaidmenims, administratorius taip pat turi pašalinti neautomatiniu būdu. Šie vartotojai nėra pašalinami iš vaidmenų pagal automatinio vaidmenų priskyrimo taisykles.
+
+1. Eikite į **Naršymo sritis > Moduliai > Sistemos administravimas > Sauga > Priskirti vartotojus vaidmenims**.
+2. Norėdami pašalinti vieną vartotoją, atlikite šiuos veiksmus:
+   1. Medyje pasirinkite vaidmenį. 
+   2. Srityje Vartotojai **, priskirti vaidmeniui**, pasirinkite vartotoją, kurį reikia pašalinti.
+   3. Pasirinkite **Pašalinti** ir vartotojas pašalintas iš vaidmens.
+3. Norėdami pašalinti kelis vartotojus, atlikite šiuos veiksmus:
+   1. Medyje pasirinkite vaidmenį. 
+   2. Srityje Vartotojai **, priskirti vaidmeniui, pasirinkite** Rankiniu būdu **priskirti / pašalinti vartotojus**.
+   3. Priskirti vartotojus **vaidmenų puslapyje arba iš jo** pašalinti vartotojai, kurie nebuvo priskirti vaidmeniui, **·** **priskyrimo režimo stulpelyje** yra Nėra. Pasirinkite vartotojus, kurių vaidmens reikia neįtraukti.
+   4. Dalyje **Veiksmų sritis** pasirinkite **Pašalinti iš vaidmens**. Dabar **priskyrimo** režimo stulpelis atnaujintas **į Rankinis**, o vartotojai dabar neįtraukti į vaidmenį.
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

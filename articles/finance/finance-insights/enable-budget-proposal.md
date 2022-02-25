@@ -1,50 +1,42 @@
 ---
-title: Biudžeto pasiūlymų įjungimas (peržiūros versija)
+title: Įjungti biudžeto pasiūlymą
 description: Šioje temoje paaiškinama, kaip įjungti modulio Finansinės įžvalgos funkciją Biudžeto pasiūlymas.
 author: ShivamPandey-msft
-manager: AnnBe
-ms.date: 07/24/2020
+ms.date: 02/11/2022
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14151
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-24
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: d8443c4e3e6f3d3a90acedc7c05b2846d6b68369
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
-ms.translationtype: HT
+ms.openlocfilehash: cd0ba4307f93148c241810759df9a95578592ba9
+ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4646210"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "8109559"
 ---
-# <a name="enable-budget-proposals-preview"></a>Biudžeto pasiūlymų įjungimas (peržiūros versija)
+# <a name="enable-budget-proposal"></a>Įjungti biudžeto pasiūlymą
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Šioje temoje paaiškinama, kaip įjungti modulio Finansinės įžvalgos funkciją Biudžeto pasiūlymas.
 
-1. Naudokite informaciją iš aplinkos puslapio portale „Microsoft Dynamics Lifecycle Services“ (LCS), kad prisijungtumėte prie pirminio „Azure SQL“ tos aplinkos egzemplioriaus. Norėdami įjungti smėlio dėžės aplinkos testus, vykdykite tolesnę Transact-SQL (T-SQL) komandą. (Gali reikėti įjungti prieigą prie savo IP adreso portale LCS, kad galėtumėte nuotoliniu būdu prisijungti prie programos objektų serverio \[AOS\].)
-
-    `INSERT INTO SYSFLIGHTING (FLIGHTNAME, ENABLED) VALUES ('BudgetIntelligentBudgetRegisterProposalFeature', 1)`
-
-    > [!NOTE]
-    > Jei jūsų „Microsoft Dynamics 365 Finance“ įdiegtis yra „Service Fabric“ įdiegtis, galite praleisti šį veiksmą. Modulio Finansinės įžvalgos komanda jums jau turėjo įjungti testą. Jei nematote funkcijos darbo srityje **Funkcijų valdymas** arba jei, bandant jas įjungti, kyla problemų, atsiųskite el. laišką [programos Finansinės įžvalgos peržiūros versijos komandai](mailto:fiap@microsoft.com).
-
-2. Atidarykite darbo sritį **Funkcijų valdymas** ir atlikite tolesnius veiksmus.
+1. Atidarykite darbo sritį **Funkcijų valdymas** ir atlikite tolesnius veiksmus.
 
     1. Pasirinkite **Tikrinti, ar yra naujinimų**.
-    2. Ieškokite **Biudžeto pasiūlymas** ir įjunkite šią funkciją.
+    2. Skirtuke **Visi** ieškokite Biudžeto **pasiūlymas**. Jei tos priemonės nerandate, ieškokite **(Peržiūrėti) biudžeto pasiūlymo**. 
+    3. Įjungti funkciją.
 
-3. Nueikite į **Biudžeto sudarymas \> Sąranka \> Pagrindinio biudžeto sudarymas \> Biudžeto pasiūlymas (peržiūros versija)** ir pasirinkite **Įjungti funkciją**.
+2. Eikite **į Biudžeto nustatymo \>\> pagrindinio biudžeto nustatymo \> pasiūlymą** ir pasirinkite Funkciją **Įgalinti**.
 
-#### <a name="privacy-notice"></a>Privatumo pranešimas
-Peržiūros versijos (1) gali naudoti mažiau privatumo ir mažiau saugos priemonių nei „Dynamics 365 Finance and Operations“ paslauga, (2) jos nėra įtrauktos į aptarnavimo lygio sutartį (SLA), (3) jos neturėtų būti naudojamos apdoroti asmens duomenims ar kitiems duomenims, kuriems taikomi teisiniai ir atitikimo teisės aktai (4) ir jų palaikymas yra ribotas.
+> [!NOTE]
+> Biudžeto **pasiūlymo funkcijai** reikia bent trijų metų biudžeto arba faktinių duomenų. Ši priemonė naudoja trijų–dešimties metų duomenis projekcijose. Daugiau nei trijų metų duomenys pateikia geresnių rezultatų. Pati data tinka geriausiai, kai vertės gali variacijos. Jei duomenyse yra visi pastovūs duomenys, pvz., nuomos išlaidos, mokymas gali nepavykti, nes trūksta pokyčio nereikalauja AI, kad būtų galima projektuoti sumas.
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

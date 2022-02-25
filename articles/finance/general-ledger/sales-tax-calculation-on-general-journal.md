@@ -2,7 +2,7 @@
 title: Bendrojo žurnalo eilučių PVM apskaičiavimas
 description: Šioje temoje paaiškinama, kaip bendrojo žurnalo eilutėse apskaičiuojami įvairių tipų sąskaitų (tiekėjo, kliento, DK ir projekto) PVM.
 author: EricWangChen
-ms.date: 04/22/2021
+ms.date: 02/16/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2019-08-14
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: 654917705400e0aecc7240e12f68d578827f6ad2
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
-ms.translationtype: HT
+ms.openlocfilehash: 684b38a4940ff00978201334d1db0cef87b79b35
+ms.sourcegitcommit: 4d52c67f52ad0add63cd905df61367b344389069
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7488316"
+ms.lasthandoff: 02/16/2022
+ms.locfileid: "8311959"
 ---
 # <a name="sales-tax-calculation-on-general-journal-lines"></a>Bendrojo žurnalo eilučių PVM apskaičiavimas
 [!include [banner](../includes/banner.md)]
@@ -77,19 +77,9 @@ Toliau pateikiamoje diagramoje taisyklė pavaizduota grafiškai.
 
 ### <a name="account-type-is-customer"></a>Sąskaitos tipas yra Klientas
 
-Jei kvite yra žurnalo eilutė, kurios sąskaitos tipas yra **Klientas**, visoms kvito žurnalo eilutėms taikoma ta pati mokesčių kryptis. Toliau pateikiamuose punktuose rodomos galimos klientų sąskaitų mokesčių kryptys.
+Jei kvite yra žurnalo eilutė, kurios sąskaitos tipas yra **Klientas**, visos žurnalo eilutės kvite taiko tą pačią mokesčių kryptį. 
 
-• Jei PVM kodas yra neapmokestinamas, PVM kryptis yra Neapmokestinamas pirkimas.
-
-• Jei PVM kodas yra intracom PVM, PVM kryptis yra Gautinas PVM.
-
-• Jei PVM kodas yra atvirkštinis mokestis, PVM kryptis yra Gautinas PVM.
-
-Kitu atveju PVM kryptis yra Mokėtinas PVM.
-
-Toliau pateikiamoje diagramoje taisyklė pavaizduota grafiškai.
-
-![Klientų sąskaitų mokesčių krypties galimybės.](media/Sales-Tax-Direction-Customer.jpg)
+Jei PVM kodas yra neapmokestinamas, PVM kryptis yra Neapmokestinamas pardavimas. Kitu atveju PVM kryptis yra Mokėtinas PVM.
 
 ### <a name="account-type-is-ledger"></a>Sąskaitos tipas yra DK
 

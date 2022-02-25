@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-06-08
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: e24bceac9457212ecaafda876d19ba62df049371
-ms.sourcegitcommit: 2113678369f47944f8725ca656f461fa159f87f6
-ms.translationtype: HT
+ms.openlocfilehash: 7921983a965af5557f54f608418c8ec922256ba6
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/27/2021
-ms.locfileid: "7471841"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103643"
 ---
 # <a name="generate-variants-for-engineering-products"></a>Generuoti inžinerijos produktų variantus
 
@@ -23,15 +23,9 @@ ms.locfileid: "7471841"
 
 Šioje temoje aprašoma, kaip generuoti inžinerijos produktų variantus.
 
-## <a name="turn-on-variant-generation-for-engineering-products"></a>Inžinierinių produktų variantų įjungimas
+## <a name="turn-variant-generation-for-engineering-products-on-or-off"></a>Įjungti arba išjungti inžinerijos produktų varianto generavimą
 
-Kad galėtumėte naudoti šią funkciją, ji turi būti įjungta jūsų sistemoje. Administratoriai gali naudoti [funkcijos valdymas](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) parametrus, norėdami sužinoti funkcijos būseną ir įjungti ją. Darbo srityje **Funkcijų valdymas** ši funkcija yra nurodyta toliau pateikiamu būdu.
-
-- **Modulis:** *inžinerinių pakeitimų valdymas*
-- **Funkcijos pavadinimas:** *Varianto kūrimas inžineriniams produktams*
-
-> [!IMPORTANT]
-> Inžinerijos produktų funkcijos varianto generavimas *jūsų sistemoje bus matomas tik* įgalinus inžinerijos *keitimo valdymo konfigūracijos* raktą. Dėl instrukcijų, žr. [Inžinerinė pakeitimo valdymo apžvalga](product-engineering-overview.md).
+Šioje temoje aprašytos funkcijos reikalauja, kad jūsų *sistemai būtų įjungtas* *ir* inžinerijos produktų funkcijų inžinerinių pakeitimų valdymas, ir variantų generavimas. Išsamesnės informacijos apie šių funkcijų įjungimą ir išjungimą žr. Inžinerinių [pakeitimų valdymo peržiūra](product-engineering-overview.md).
 
 ## <a name="generate-one-or-more-new-variants-of-an-engineering-product"></a>Generuoti vieną ar daugiau naujų inžinerijos produkto variantų
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-03-31
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 872a08241f3d0156d0ccf1f89443e3a894656404
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: 6663188334c70035906f924c7850a0dc5002f306
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7777607"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103068"
 ---
 # <a name="license-plate-receiving-via-the-warehouse-management-mobile-app"></a>Numerio lentelės gavimas naudojant sandėlio valdymo mobiliųjų įrenginių programėlę
 
@@ -77,15 +77,13 @@ Kai ši funkcija įjungta, mobiliojo įrenginio meniu elementai, skirti numerio 
 - **Rodyti išsamią suvestinę** – numerio lentelės gavimo metu darbuotojai matys papildomą puslapį, kuriame bus rodoma visa ASN informacija.
 - **Praleisti suvestinę** – darbuotojai nematys visos ASN informacijos. Sandėlio darbuotojai taip pat negalės nustatyti perdavimo kodo arba pridėti išimtis gavimo proceso metu.
 
-Kad ši funkcija būtų pasiekiama jūsų sistemoje, *·* funkcijų valdyme turi būti įjungtas puslapis Valdiklis, ar rodyti gavimo suvestinės puslapį mobiliuosiuose [įrenginiuose](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md). (Kaip tiekimo grandinės valdymo versija 10.0.21, ši funkcija yra įjungta pagal numatytuosius nustatymus.)
+Jei norite naudoti šią funkciją, valdymas *, ar rodyti gaunamą suvestinės puslapį mobiliųjų* įrenginių priemonėje, turi būti įjungtas jūsų sistemoje. Kaip ir tiekimo grandinės valdymo versija 10.0.21 ši funkcija įjungiama pagal numatytąjį nustatymą. Kaip ir tiekimo grandinės valdymas 10.0.25 ši funkcija yra privaloma ir jos išjungti negalima. Jei naudojate senesnę nei 10.0.25 versiją, tada administratoriai gali įjungti arba išjungti šią funkciją ieškodami kontrolės, *·*[ar](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) rodyti gavimo suvestinės puslapį mobiliųjų įrenginių funkcija funkcijų valdymo darbo srityje.
 
 ## <a name="prevent-transfer-ordershipped-license-plates-from-being-used-at-warehouses-other-than-the-destination-warehouse"></a>Neleisti perkėlimo užsakyme siunčiamų numerio lentelių naudoti ne paskirties sandėlyje
 
 Numerio lentelės gavimo proceso negalima naudoti, jei ASN yra numerio lentelės ID, kuris jau egzistuoja ir turi faktinių turimų duomenų kitoje sandėlio vietoje, nei sandėlio vietoje, kur vyksta numerio lentelės registracija.
 
-Perkėlimo užsakymo scenarijuose, kuriuose tranzito sandėlis neseka numerio lentelių (todėl taip pat neseka kiekvienos numerio lentelės faktinių turimų atsargų), galite naudoti funkciją *Neleisti perkėlimo užsakyme siunčiamų numerio lentelių naudoti ne paskirties sandėlyje*, kad būtų išvengta faktinių turimų numerio lentelių atnaujinimo tranzito metu.
-
-Jei norite, kad ši funkcija veiktų jūsų sistemoje, turite įjungti *Neleisti naudoti perkėlimo užsakymo išsiųstas numerio lenteles kituose sandėliuose, išskyrus kelionės tikslo sandėlį* funkciją [funkcijų valdyme](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Perkėlimo užsakymo scenarijuose, kuriuose tranzito sandėlis neseka numerio lentelių (todėl taip pat neseka kiekvienos numerio lentelės faktinių turimų atsargų), galite naudoti funkciją *Neleisti perkėlimo užsakyme siunčiamų numerio lentelių naudoti ne paskirties sandėlyje*, kad būtų išvengta faktinių turimų numerio lentelių atnaujinimo tranzito metu. Kad ši funkcija būtų galima, *jūsų* sistemoje turi būti įjungta funkcija Neleisti naudoti perkėlimo užsakymo išsiųstų numerio numerių kituose sandėliuose, nei paskirties sandėlio funkcija. Kaip ir tiekimo grandinės valdymas 10.0.25 ši funkcija yra privaloma ir jos išjungti negalima. Jei naudojate senesnę nei 10.0.25 versiją, [tada administratoriai gali įjungti arba išjungti šią funkciją ieškodami jos funkcijų valdymo darbo](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) srityje.
 
 Norėdami valdyti funkciją, kai ji pasiekiama, atlikite toliau pateiktus veiksmus.
 

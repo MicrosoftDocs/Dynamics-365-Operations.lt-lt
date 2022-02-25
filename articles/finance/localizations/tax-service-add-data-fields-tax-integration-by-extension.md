@@ -2,7 +2,7 @@
 title: Įtraukti duomenų laukus į mokesčių integravimą naudojant plėtinius
 description: Šioje temoje paaiškinama, kaip naudoti X++ plėtinius norint įtraukti duomenų laukus į mokesčių integravimą.
 author: qire
-ms.date: 04/20/2021
+ms.date: 02/17/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 8bdd56ebdd50c1eae98094725a01bf9c5ec52bb4e689eb282f80631810a65725
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: acbe8070424febf24883362448ea56857d9d72d9
+ms.sourcegitcommit: 68114cc54af88be9a3a1a368d5964876e68e8c60
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6721663"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323578"
 ---
 # <a name="add-data-fields-in-the-tax-integration-by-using-extension"></a>Įtraukti duomenų laukus į mokesčių integravimą naudojant plėtinį
 
@@ -353,15 +353,77 @@ final static class TaxIntegrationCalculationActivityOnDocument_CalculationServic
 }
 ```
 
-Šiuo kodu yra `_destination` viršelio objektas, naudojamas registruoti užklausai generuoti, `_source` ir yra `TaxIntegrationLineObject` objektas. 
+Šiuo kodu yra `_destination` viršelio objektas, naudojamas registruoti užklausai generuoti, `_source` ir yra `TaxIntegrationLineObject` objektas.
 
 > [!NOTE]
-> * Apibrėžkite raktą, kuris naudojamas užklausos formoje kaip `private const str`.
-> * Naudodami metodą `copyToTaxableDocumentLineWrapperFromTaxIntegrationLineObjectByLine` nustatykite metodo `SetField` lauką. Antrojo parametro duomenų tipas turi būti `string`. Jei duomenų tipas ne, konvertuoti `string` į `string`.
+> Nustatykite raktą, kuris naudojamas užklausos formoje kaip privatus const **str**. Eilutė turi būti lygiai tokia pati, kaip ir temoje įtrauktas matavimo pavadinimas: [įtraukti duomenų laukus į mokesčių konfigūracijas](tax-service-add-data-fields-tax-configurations.md).
+> Nustatykite lauką **copyToTaxableDocumentLineWraobjectFromTaxIntegrationLineObjectByLine** metode naudodami **SetField** metodą. Antrojo parametro duomenų tipas turi būti **eilutė**. Jei duomenų tipas nėra eilutė **, konvertuokite** jį.
+> Jei X++ išvarditi **tipas** išplėstas, atsidėmėkite skirtumą tarp jo vertės, žymės ir pavadinimo.
+> 
+>   - Išvarditi vertė yra integer.
+>   - Išvardi jos žymė gali skirtis pageidaujamose kalbose. Nenaudokite enum2Str **enum2Str** enum tipui konvertuoti į eilutę.
+>   - Išvarditi rekomenduojama, nes jis fiksuotas. **enum2Symbol** gali būti naudojamas konvertuojant išvardiimą į jo pavadinimą. Išvardijimo reikšmė, įtraukta į mokesčių konfigūraciją, turi būti lygiai tokia pati kaip išvardijimo pavadinimas.
+
+## <a name="model-dependency"></a>Modelio priklausomybė
+
+Norėdami sėkmingai sukurti projektą, modelio priklausomybei įtraukite šiuos nuorodų modelius:
+
+- Application Programos forma
+- Application Mokėjimo prašymas
+- Mokesčių modulis
+- Dimensijos, jei naudojama finansinė dimensija
+- Kiti reikalingi modeliai, nurodyti kode
+
+## <a name="validation"></a>Patikrinimas
+
+Atlikę ankstesnius veiksmus, galite patikrinti savo keitimus.
+
+1. Finansuose eikite į **mokėtinas** sumas ir **į URL įtraukite &debug=vsCconfirmExit%2>**. Pavyzdžiui,https://usnconeboxax1aos.cloud.onebox.dynamics.com/?cmp=DEMF&mi=PurchTableListPage&debug=vs%2CconfirmExit&. Galutinis yra **&** būtinas.
+2. Atidaryti pirkimo **užsakymo puslapį** ir pasirinkti **Naujas,** kad būtų sukurtas pirkimo užsakymas.
+3. Nustatykite pritaikyto lauko vertę ir pasirinkite **PVM**. Trikčių diagnostikos failas su prefiksu, **TaxServiceTroubleshootingLog atsisiųstas** automatiškai. Šiame faile yra operacijos informacija, užregistruota Mokesčių skaičiavimo paslaugoje. 
+4. Patikrinkite, ar pritaikytas įtrauktas laukas yra mokesčių tarnybos skaičiavimo įvesties **JSON skyriuje** ir ar jo vertė teisinga. Jei vertė neteisinga, šiame dokumente du kartus patikrinkite veiksmus.
+
+Failo pavyzdys:
+
+```
+===Tax service calculation input JSON:===
+{
+  "TaxableDocument": {
+    "Header": [
+      {
+        "Lines": [
+          {
+            "Line Type": "Normal",
+            "Item Code": "",
+            "Item Type": "Item",
+            "Quantity": 0.0,
+            "Amount": 1000.0,
+            "Currency": "EUR",
+            "Transaction Date": "2022-1-26T00:00:00",
+            ...
+            /// The new fields added at line level
+            "Cost Center": "003",
+            "Project": "Proj-123"
+          }
+        ],
+        "Amount include tax": true,
+        "Business Process": "Journal",
+        "Currency": "",
+        "Vendor Account": "DE-001",
+        "Vendor Invoice Account": "DE-001",
+        ...
+        // The new fields added at header level, no new fields in this example
+        ...
+      }
+    ]
+  },
+}
+...
+```
 
 ## <a name="appendix"></a>Priedas
 
-Šiame priede rodomas visas finansinių dimensijų (išlaidų centro ir projekto) integravimo eilutės lygiu **pavyzdžio** **kodas** .
+Šiame priede rodomas visas pavyzdinis kodas, skirtas finansinių dimensijų, **išlaidų centro ir** **projekto integravimui** eilutės lygiu.
 
 ### <a name="taxintegrationlineobject_extensionxpp"></a>TaxIntegrationLineObject_Extension.xpp
 

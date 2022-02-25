@@ -2,33 +2,33 @@
 title: Tiekėjų sąskaitų faktūrų strategijų nustatymas
 description: Šioje temoje paaiškinama, kaip nustatyti tiekėjų SF strategijas.
 author: ShivamPandey-msft
-ms.date: 07/11/2019
+ms.date: 02/11/2022
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
 ms.search.form: VendParameters,  SysPolicyListPage, SysPolicyParameters, SysPolicySourceDocumentRuleType, SysPolicy, SysPolicySourceDocumentRule, SysQueryForm, SysQueryTableLookUp, SysQueryPrefixLookUp, SysQueryFieldLookUp
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 339f52727b6f5a680f711cf4e6e0b8b0bc290853316fc2f2ff63164c8292d2d8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 1f9707c7b283f42729126efa57e890e0df65ca8b
+ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6728846"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "8109761"
 ---
 # <a name="set-up-vendor-invoice-policies"></a>Tiekėjų sąskaitų faktūrų strategijų nustatymas
 
 [!include [banner](../../includes/banner.md)]
 
-Šioje temoje paaiškinama, kaip nustatyti tiekėjų SF strategijas. Tiekėjo SF strategijos vykdomos, kai registruojate tiekėjo SF naudodami puslapį Tiekėjo SF ir kai atidarote tiekėjo SF puslapį Strategijos pažeidimai. Taip pat galite sukonfigūruoti, kad tiekėjo SF darbo eiga vykdytų tiekėjo SF strategijas kiekvieną kartą, kai į darbo eigą pateikiate SF. 
+Šioje temoje paaiškinama, kaip nustatyti tiekėjų SF strategijas. Tiekėjo SF strategijos paleidžiamos, kai užregistruojate tiekėjo **SF** naudodami tiekėjo SF puslapį ir kai atidarote tiekėjo SF **strategijos pažeidimų** puslapį. Taip pat galite sukonfigūruoti, kad tiekėjo SF darbo eiga vykdytų tiekėjo SF strategijas kiekvieną kartą, kai į darbo eigą pateikiate SF. 
 
 - Tiekėjo SF strategijos netaikomos SF, kurios sukurtos SF registre ar SF žurnale.  
-- SF gretinimo tikrinimo metu tiekėjo SF strategijos nenaudojamos – jis nustatomas puslapyje Mokėtinų sumų parametrai.  
-- Šiame įraše naudojama demonstracinė įmonė USMF. Šiuos veiksmus paprastai atlieka mokėtinų sumų vadovo arba apskaitos vadovo vaidmuo. Prieš pradėdami įsitikinkite, kad pasirinktas SF gretinimo konfigūracijos raktas.
+- SF gretinimo tikrinimas naudoja ne tiekėjo SF strategijas, bet yra nustatomas mokėtinų **sumų parametrų** puslapyje.  
+- Šiame įraše naudojama demonstracinė įmonė USMF. Šiuos veiksmus paprastai atlieka mokėtinų sumų vadovo arba apskaitos vadovo vaidmuo. Prieš pradėdami įsitikinkite, kad pasirinktas **SF gretinimo** konfigūracijos raktas.
 
 
 ## <a name="prepare-to-create-vendor-invoice-policies"></a>Pasiruošti kurti tiekėjo SF strategijas
@@ -56,7 +56,7 @@ ms.locfileid: "6728846"
 2. Pasirinkite **Naujas**.
 3. Įveskite reikšmes laukuose **Profilis** ir **Aprašas**.
 4. Išplėskite arba sutraukite sekciją **Strategijos organizacijos**.
-5. Medyje pasirinkite **„Contoso Entertainment System“ JAV**.
+5. Medyje pasirinkite **„Contoso“ pramogų sistema (JAV)**.
 6. Pasirinkite **Įtraukti**.
 7. Išplėskite arba sutraukite sekciją **Strategijos taisyklės**.
 8. Pasirinkite **Kurti strategijos taisyklę**.

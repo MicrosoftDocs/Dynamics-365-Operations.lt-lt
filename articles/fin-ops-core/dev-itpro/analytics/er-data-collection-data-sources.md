@@ -15,20 +15,20 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2021-01-01
 ms.dyn365.ops.version: AX 10.0.16
-ms.openlocfilehash: f001734baf9aee59f0a61d21ca5a99af0c55b56f
-ms.sourcegitcommit: 7e32e5e39e762a4b1606161cb603a450d13b5251
-ms.translationtype: HT
+ms.openlocfilehash: 185fb9a33cb4cc655dfdf640b4c239d617426c64
+ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "7413608"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323906"
 ---
 # <a name="use-data-collection-data-sources-in-electronic-reporting-formats"></a>DUOMENŲ RINKIMO duomenų šaltinių naudojimas elektroninių ataskaitų formatuose
 
 [!include [banner](../includes/banner.md)]
 
-Galite naudoti [elektroninių ataskaitų (ER)](general-electronic-reporting.md) sistemos operacijų dizaino įrankį, kad sukonfigūruotumėte ER sprendimo, naudojamo siunčiamiems dokumentams skirtingais formatais generuoti, [formato](general-electronic-reporting.md#FormatComponentOutbound) komponentą. Sukonfigūruoto formato komponento hierarchinė struktūra susideda iš įvairių tipų formato elementų. Šie formato elementai naudojami sugeneruotiems dokumentams užpildyti reikiama informacija vykdymo metu. Numatyta, kad kai vykdote ER formatą, formato elementai vykdomi tokia pačia tvarka, kokia jie pateikiami formato hierarchijoje: po vieną, iš viršaus į apačią.
+Elektroninių ataskaitų [(ER)](general-electronic-reporting.md) sistemos operacijų konstruktorių galite naudoti norėdami konfigūruoti ER sprendimo, kuris naudojamas siunčiamų dokumentų skirtingo formato dokumentams generuoti, formato komponentą. Sukonfigūruoto formato komponento hierarchinė struktūra susideda iš įvairių tipų formato elementų. Šie formato elementai naudojami sugeneruotiems dokumentams užpildyti reikiama informacija vykdymo metu. Numatyta, kad kai vykdote ER formatą, formato elementai vykdomi tokia pačia tvarka, kokia jie pateikiami formato hierarchijoje: po vieną, iš viršaus į apačią.
 
-Kai ER vykdo formato elementą, kuriame yra susiejimas, vykdoma to susiejimo formulė, o formato elementas šią vertę įtraukia į sugeneruotą dokumentą. Pavyzdžiui, susiejimas į formato elementą gali perduoti [duomenų modelio](general-electronic-reporting.md#data-model-and-model-mapping-components) lauko vertę. Galite sukonfigūruoti DUOMENŲ RINKIMO duomenų šaltinį duomenų modelio laukų vertėms rinkti vykdymo metu, vertėms sumuoti ir dokumentui sugeneruoti naudojant surinktas vertes. Jei norite naudoti šį metodą, pakeiskite pradinį susiejimą taip, kad sukonfigūruotas DUOMENŲ RINKIMO duomenų šaltinis būtų naudojamas duomenų modelio lauko vertei į formato elementą perduoti. Perduodami vertes į DUOMENŲ RINKIMO duomenų šaltinį, galite surinkti reikiamą informaciją, kurią galėsite naudoti ateityje.
+Kai ER vykdo formato elementą, kuriame yra susiejimas, vykdoma to susiejimo formulė, o formato elementas šią vertę įtraukia į sugeneruotą dokumentą. Pavyzdžiui, susiejimas į formato elementą gali perduoti duomenų modelio lauko vertę. Galite sukonfigūruoti DUOMENŲ RINKIMO duomenų šaltinį duomenų modelio laukų vertėms rinkti vykdymo metu, vertėms sumuoti ir dokumentui sugeneruoti naudojant surinktas vertes. Jei norite naudoti šį metodą, pakeiskite pradinį susiejimą taip, kad sukonfigūruotas DUOMENŲ RINKIMO duomenų šaltinis būtų naudojamas duomenų modelio lauko vertei į formato elementą perduoti. Perduodami vertes į DUOMENŲ RINKIMO duomenų šaltinį, galite surinkti reikiamą informaciją, kurią galėsite naudoti ateityje.
 
 Konfigūruodami DUOMENŲ RINKIMO duomenų šaltinį, nurodykite vertės tipą, kuris bus tvarkomas duomenų šaltinyje. Renkant vertes šiuo metu palaikomi tolesni [duomenų tipai](er-formula-supported-data-types-primitive.md).
 

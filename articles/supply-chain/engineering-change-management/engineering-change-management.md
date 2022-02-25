@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: f362aef527272781464d5c1a17f0a382cfb8cacc
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.openlocfilehash: 93f5c3e4951784a6c4925b8f9026816bfaf551ee
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7568140"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8102918"
 ---
 # <a name="manage-changes-to-engineering-products"></a>Valdyti inžinerinių produktų keitimus
 
@@ -123,7 +123,7 @@ Norėdami peržiūrėti paveiktas operacijas, užblokuoti pasirinktas operacijas
     - **Peržiūrėti visas operacijas** – Atidaromas pilnas visų operacijų sąrašas, o ne tik atidarytos operacijos.
 
 > [!IMPORTANT]
-> Mygtukas **Pranešti apie gamybą** galimas tik tada, kai jūsų sistemoje *įjungti gamybos funkcijos* inžineriniai pranešimai. Dėl instrukcijų, žr. [Inžinerinė pakeitimo valdymo apžvalga](product-engineering-overview.md).
+> Mygtukas **Pranešti apie** gamybą galimas tik tada *, kai gamybos* priemonės inžineriniai pranešimai įjungti jūsų sistemai. Instrukcijas, kaip įjungti šią priemonę ir jos būtinąsias sąlygas, žr. inžinerinių [pakeitimų valdymo apžvalgą](product-engineering-overview.md).
 
 #### <a name="review-and-process-change-notifications-for-transactions"></a><a name="review-notifications"></a>Peržiūrėkite ir apdorokite operacijų pakeitimų pranešimus
 
@@ -136,7 +136,7 @@ Galite skaityti ir apdoroti pakeitimų pranešimus, kuriuos gaunate šiais būda
 Kai peržiūrite gamybos užsakymo pranešimus **Inžinerijos pranešimų** puslapyje, galite vadovautis saitais į susijusius pakeitimo arba gamybos užsakymus, pasirinkdami stulpelių vertes arba naudodami susijusias komandas Veiksmų srityje. Įvertinę pakeitimą ir kaip reikalinga, atšaukę ar modifikavę gamybos užsakymus, galite pažymėti pranešimą kaip išspręstą. Pasirinkite pranešimą, o tada Veiksmų srityje pasirinkite **Išspręsti**. Pranešimas yra pašalinamas iš visų vartotojų rodinių.
 
 > [!IMPORTANT]
-> Norint siųsti gamybos užsakymų pranešimus, jūsų sistemoje turi būti įjungti *gamybos priemonės inžinerijos* pranešimai. Dėl instrukcijų, žr. [Inžinerinė pakeitimo valdymo apžvalga](product-engineering-overview.md).
+> Norint siųsti gamybos užsakymų pranešimus, reikia, kad *jūsų* sistemoje būtų įjungti gamybos priemonės inžinerijos pranešimai. Instrukcijas, kaip įjungti šią priemonę ir jos būtinąsias sąlygas, žr. inžinerinių [pakeitimų valdymo apžvalgą](product-engineering-overview.md).
 
 ### <a name="create-a-change-order-from-a-change-request"></a>Sukurkite pokyčių užsakymą iš užklausos
 

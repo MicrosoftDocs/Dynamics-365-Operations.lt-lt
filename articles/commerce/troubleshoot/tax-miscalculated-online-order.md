@@ -2,7 +2,7 @@
 title: Neteisingai apskaičiuoti internetinių užsakymų mokesčiai
 description: Šioje temoje pateikiamos trikčių diagnostikos priemonės, galinčios padėti, kai netinkamai apskaičiuojami internetinių užsakymų mokesčiai arba kai pardavimo eilutės mokesčių grupė nustatyta neteisingai.
 author: Reza-Assadi
-ms.date: 03/11/2021
+ms.date: 02/16/2022
 ms.topic: Troubleshooting
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: e51ae789dad2c7b5118be2cf8a88f4e4090a8c74c8259b4eaaddad1a134af80a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 0e4361b436cc78eccaff29dfa2927d342e26072d
+ms.sourcegitcommit: 4d52c67f52ad0add63cd905df61367b344389069
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6715265"
+ms.lasthandoff: 02/16/2022
+ms.locfileid: "8312036"
 ---
 # <a name="taxes-on-online-orders-are-incorrectly-calculated"></a>Neteisingai apskaičiuoti internetinių užsakymų mokesčiai
 
@@ -32,7 +32,18 @@ ms.locfileid: "6715265"
 
 Kai pateikiamas el. prekybos užsakymas, mokesčiai apskaičiuojami neteisingai arba netinkamai nustatoma pardavimo eilutės mokesčių grupė.
 
-## <a name="resolution"></a>Sprendimas
+## <a name="resolution"></a>Paaiškinimas
+
+### <a name="configure-general-sales-tax-groups-in-commerce-headquarters"></a>Bendrųjų PVM grupių konfigūravimas „Commerce Headquarters”
+
+Norėdami konfigūruoti bendrąsias PVM grupes „Commerce Headquarters“, atlikite šiuos veiksmus.
+
+1. Eikite į **Mokestis \> Netiesioginiai mokesčiai \> PVM \> PVM grupė**.
+1. Kairiojoje naršymo srityje pasirinkite norimą konfigūruoti mokesčių grupę.
+1. „FastTab” **Mažmeninės prekybos paskirties vietos mokestis** sukonfigūruokite PVM grupės mokesčius.
+
+> [!NOTE]
+> Siuntai, kurios neapima PVM, kurį nustato kliento adresas, eilutės pristatymo adresas ir paskirties vietos mokesčiai, sukonfigūruoti mokesčių grupei, lemia mokesčių grupę. Dėl išsamesnės informacijos, žr. [Nustatyti mokesčius interneto parduotuvėms pagrįstoms paskirties vietoms](/dynamicsax-2012/appuser-itpro/set-up-taxes-for-online-stores-based-on-destination).
 
 ### <a name="configure-the-sales-tax-for-a-retail-store-in-commerce-headquarters"></a>Konfigūruoti mažmeninės prekybos parduotuvės PVM „Commerce Headquarters“
 
@@ -57,17 +68,6 @@ Norėdami konfigūruoti kliento adreso PVM „Commerce Headquarters“, atlikite
 
 > [!NOTE]
 > Siuntimo, kuriam taikomas kliento adreso PVM, eilutės pristatymo adresas nurodo eilutės mokesčių grupę. Jei klientas siunčia į esamą adresą, kurio mokesčių grupė jau yra sukonfigūruota, bus naudojama esama mokesčių grupė. Pagal numatytuosius nustatymus, kai adresai kuriami, jie neturi mokesčių grupės.
-
-### <a name="configure-general-sales-tax-groups-in-commerce-headquarters"></a>Bendrųjų PVM grupių konfigūravimas „Commerce Headquarters”
-
-Norėdami konfigūruoti bendrąsias PVM grupes „Commerce Headquarters“, atlikite šiuos veiksmus.
-
-1. Eikite į **Mokestis \> Netiesioginiai mokesčiai \> PVM \> PVM grupė**.
-1. Kairiojoje naršymo srityje pasirinkite mokesčių grupę, kurią norite konfigūruoti.
-1. „FastTab” **Mažmeninės prekybos paskirties vietos mokestis** sukonfigūruokite PVM grupės mokesčius.
-
-> [!NOTE]
-> Siuntimo, kai nėra kliento adreso PVM, mokesčių grupę nustato eilutės pristatymo adresas ir paskirties vietos mokesčiai, sukonfigūruoti mokesčių grupei. Dėl išsamesnės informacijos, žr. [Nustatyti mokesčius interneto parduotuvėms pagrįstoms paskirties vietoms](/dynamicsax-2012/appuser-itpro/set-up-taxes-for-online-stores-based-on-destination).
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 

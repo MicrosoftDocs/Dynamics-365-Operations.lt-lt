@@ -2,24 +2,24 @@
 title: Tiekėjo SF automatizavimo darbo sritis
 description: Šioje temoje paaiškinama, kaip nustatyti darbo sritį, kuri susijusi su tiekėjo SF ir kurioje pateikiama informacija, pasiekiama naudojant „Microsoft Power BI”.
 author: abruer
-ms.date: 09/28/2020
+ms.date: 02/14/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.assetid: ''
 ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2020-09-21
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: dde77a19fae9af8f40af8b14259a29db80f4a80cf8be75233a463d6fec2dac46
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: f28cc5f63df2f0d8a4c8cae407f7166aa4fa03db
+ms.sourcegitcommit: 6102f70d4595d01b90afe5b23dfd8ec2ea030653
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722724"
+ms.lasthandoff: 02/16/2022
+ms.locfileid: "8182584"
 ---
 # <a name="vendor-invoice-automation-workspace"></a>Tiekėjo SF automatizavimo darbo sritis
 
@@ -60,14 +60,14 @@ Kai funkcija **Tiekėjo SF automatizavimas** įjungta, darbo srities viršuje at
 
 Rodinio **Mano darbas** dalies **Laukiančių SF suvestinė** plytelėse pateikiama jūsų tiekėjo SF būsenų apžvalga. Galite peržiūrėti dar neregistruotus žurnalus ir sulaikytas SF. Be to, yra keturios toliau pateiktos plytelės, susietos su funkcija Tiekėjo SF automatizavimas.
 
-- Būtinas rankinis gavimo kvito gretinimas
-- Gretinimo tikrinimas nesėkmingas
-- SF nepateiktos darbo srautui
-- SF neimportuotos
+- **Būtinas rankinis gavimo kvito gretinimas**
+- **Gretinimo tikrinimas nesėkmingas**
+- **SF nepateiktos darbo srautui**
+- **SF neimportuotos**
 
-(Šios keturios plytelės reikalauja, kad funkcijų valdyme būtų įjungta funkcija Tiekėjo SF automatizavimas.)
+(Šiuose keturiuose numeriuose reikalaujama, kad tiekėjo SF automatizavimo priemonė būtų įjungta **Priemonių valdymas**.)
 
-Norint naudoti plytelę **Atkurti tiekėjo SF**, funkcija turi būti įjungta mokėtinų sumų parametruose. Eikite į **Mokėtinos sumos \> Mokėtinų sumų parametrai**, tada skirtuke **SF** nustatykite parinktį **Leisti tiekėjo SF atkūrimą** į **Taip**.
+Norint naudoti tiekėjo **SF susigrąžinimo išklotinės** dalies funkciją reikia įjungti mokėtinų **sumų parametrus**. Eikite į **Mokėtinos sumos \> Mokėtinų sumų parametrai**, tada skirtuke **SF** nustatykite parinktį **Leisti tiekėjo SF atkūrimą** į **Taip**.
 
 Kai funkcija įjungta, darbo srities skyriuje **Žurnalai** matysite tris sugrupuotas plyteles. Plytelių pavadinimai yra **Žurnalai**, **Žurnalai – priskirti man** ir **SF telkinys**. 
 

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 943eee819c08704212ceb5e02921c36e7f1032dc
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: 0709574ea44fcf841321044da31781862fcf1420
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7777844"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103693"
 ---
 # <a name="standard-saved-views-for-supply-chain-management"></a>„Supply Chain Management” standartiniai įrašyti rodiniai
 
@@ -37,9 +37,9 @@ Norėdami gauti daugiau informacijos apie tai, kaip pritaikyti ir pervardyti įr
 
 ## <a name="available-saved-views-and-how-to-enable-them"></a>Galimi įrašyti rodiniai ir kaip juos įgalinti
 
-Norėdami naudoti įrašytą rodinių funkciją neatsižvelgdami į tai, ar naudosite standartinius įrašytus rodinius, turite įjungti funkciją *Įrašyti rodiniai* [Funkcijų valdymas](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Norėdami naudoti bet kokius įrašytus rodinius, neatsižvelgdami į tai, ar naudosite standartinius įrašytus rodinius, *·*[turite](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) įjungti funkcijos valdymo funkciją Įrašyti rodiniai (pagal numatytuosius nustatymus ši funkcija įjungta 10.0.21 versijoje).
 
-Likusiuose šios temos skyriuose pateikiamos lentelės, kurios aprašo standartinius įrašytus rodinius, kurie šiuo metu galimi kiekvienam susijusiam moduliui. Kiekvienoje lentelėje rodomas kiekvieno įrašyto rodinio pavadinimas, puslapis, kuriame jį galima rasti, ir jo aprašymas. Kiekvienoje lentelėje taip pat rodomas funkcijos, kurioje yra įrašytas rodinys, pavadinimas. Norėdami matyti standartinį įrašytą rodinį savo sistemoje, turite įjungti nurodytą funkciją [Funkcijų valdymas](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Likusiuose šios temos skyriuose pateikiamos lentelės, kurios aprašo standartinius įrašytus rodinius, kurie šiuo metu galimi kiekvienam susijusiam moduliui. Kiekvienoje lentelėje rodomas kiekvieno įrašyto rodinio pavadinimas, puslapis, kuriame jį galima rasti, ir jo aprašymas. Kiekvienoje lentelėje taip pat rodomas funkcijos, kurioje yra įrašytas rodinys, pavadinimas. Norėdami matyti standartinį įrašytą rodinį savo sistemoje, turite įjungti nurodytą funkciją [Funkcijų valdymas](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md). Kaip ir versijoje 10.0.25 visi išvardyti rodiniai įjungiami pagal numatytuosius parametrus.
 
 ## <a name="saved-views-for-the-inventory-management-module"></a>Įrašyti atsargų valdymo modulio rodiniai
 
@@ -47,15 +47,15 @@ Likusiuose šios temos skyriuose pateikiamos lentelės, kurios aprašo standarti
 
 | Puslapis | Rodinio pavadinimas | Peržiūrėti aprašą | Funkcijos pavadinimas |
 |---|---|---|---|
-| Turimų atsargų sąrašas | Finansai | Šis supaprastintas rodinys leidžia jums sutelkti dėmesį į finansinę informaciją, kol valdote turimų atsargų atsargas. | Įrašyti atsargų valdymo rodiniai (Įjungta pagal numatytuosius nustatymus pradedant nuo versijos 10.0.21.) |
-| Turimų atsargų sąrašas | Kokybės kontrolė | Šis supaprastintas rodinys leidžia jums sutelkti dėmesį į kokybės vadybą, kol valdote turimų atsargų atsargas. | Įrašyti atsargų valdymo rodiniai (Įjungta pagal numatytuosius nustatymus pradedant nuo versijos 10.0.21.) |
-| Turimų atsargų sąrašas | Gavimas | Šis supaprastintas rodinys leidžia jums sutelkti dėmesį į gavimo operacijas, kol valdote turimų atsargų atsargas. | Įrašyti atsargų valdymo rodiniai (Įjungta pagal numatytuosius nustatymus pradedant nuo versijos 10.0.21.) |
-| Turimų atsargų sąrašas | Pristatymas | Šis supaprastintas rodinys leidžia jums sutelkti dėmesį į siuntimo operacijas, kol valdote turimų atsargų atsargas. | Įrašyti atsargų valdymo rodiniai (Įjungta pagal numatytuosius nustatymus pradedant nuo versijos 10.0.21.) |
-| Operacijos | Supaprastinta | Šis supaprastintas rodinys leidžia peržiūrėti atsargų būseną, nepateikiant finansinės informacijos ir kitų mažiau dažnai naudojamų laukų. | Įrašyti atsargų valdymo rodiniai (Įjungta pagal numatytuosius nustatymus pradedant nuo versijos 10.0.21.) |
-| Perkėlimo užsakymai | Pristatymas | Šis supaprastintas rodinys leidžia jums sutelkti dėmesį į siuntimo operacijas, kol valdote perkėlimo užsakymus. | Įrašyti atsargų valdymo rodiniai (Įjungta pagal numatytuosius nustatymus pradedant nuo versijos 10.0.21.) |
-| Perkėlimo užsakymai | Gavimas | Šis supaprastintas rodinys leidžia jums sutelkti dėmesį į gavimo operacijas, kol valdote perkėlimo užsakymus. | Įrašyti atsargų valdymo rodiniai (Įjungta pagal numatytuosius nustatymus pradedant nuo versijos 10.0.21.) |
-| Perkėlimo užsakymai | Kokybės kontrolė | Šis supaprastintas rodinys leidžia jums sutelkti dėmesį į kokybės kontrolę, kol valdote perkėlimo užsakymus. | Įrašyti atsargų valdymo rodiniai (Įjungta pagal numatytuosius nustatymus pradedant nuo versijos 10.0.21.) |
-| Perkėlimo užsakymai | Finansai | Šis supaprastintas rodinys leidžia jums sutelkti dėmesį į finansinę informaciją, kol valdote perkėlimo užsakymus. | Įrašyti atsargų valdymo rodiniai (Įjungta pagal numatytuosius nustatymus pradedant nuo versijos 10.0.21.) |
+| Turimų atsargų sąrašas | Finansai | Šis supaprastintas rodinys leidžia jums sutelkti dėmesį į finansinę informaciją, kol valdote turimų atsargų atsargas. | Įrašyti atsargų valdymo rodiniai<br><br>(Pagal numatytąją reikšmę kaip versijos 10.0.21) |
+| Turimų atsargų sąrašas | Kokybės kontrolė | Šis supaprastintas rodinys leidžia jums sutelkti dėmesį į kokybės vadybą, kol valdote turimų atsargų atsargas. | Įrašyti atsargų valdymo rodiniai<br><br>(Pagal numatytąją reikšmę kaip versijos 10.0.21) |
+| Turimų atsargų sąrašas | Gavimas | Šis supaprastintas rodinys leidžia jums sutelkti dėmesį į gavimo operacijas, kol valdote turimų atsargų atsargas. | Įrašyti atsargų valdymo rodiniai<br><br>(Pagal numatytąją reikšmę kaip versijos 10.0.21) |
+| Turimų atsargų sąrašas | Pristatymas | Šis supaprastintas rodinys leidžia jums sutelkti dėmesį į siuntimo operacijas, kol valdote turimų atsargų atsargas. | Įrašyti atsargų valdymo rodiniai<br><br>(Pagal numatytąją reikšmę kaip versijos 10.0.21) |
+| Operacijos | Supaprastintas | Šis supaprastintas rodinys leidžia peržiūrėti atsargų būseną, nepateikiant finansinės informacijos ir kitų mažiau dažnai naudojamų laukų. | Įrašyti atsargų valdymo rodiniai<br><br>(Pagal numatytąją reikšmę kaip versijos 10.0.21) |
+| Perkėlimo užsakymai | Pristatymas | Šis supaprastintas rodinys leidžia jums sutelkti dėmesį į siuntimo operacijas, kol valdote perkėlimo užsakymus. | Įrašyti atsargų valdymo rodiniai<br><br>(Pagal numatytąją reikšmę kaip versijos 10.0.21) |
+| Perkėlimo užsakymai | Gavimas | Šis supaprastintas rodinys leidžia jums sutelkti dėmesį į gavimo operacijas, kol valdote perkėlimo užsakymus. | Įrašyti atsargų valdymo rodiniai<br><br>(Pagal numatytąją reikšmę kaip versijos 10.0.21) |
+| Perkėlimo užsakymai | Kokybės kontrolė | Šis supaprastintas rodinys leidžia jums sutelkti dėmesį į kokybės kontrolę, kol valdote perkėlimo užsakymus. | Įrašyti atsargų valdymo rodiniai<br><br>(Pagal numatytąją reikšmę kaip versijos 10.0.21) |
+| Perkėlimo užsakymai | Finansai | Šis supaprastintas rodinys leidžia jums sutelkti dėmesį į finansinę informaciją, kol valdote perkėlimo užsakymus. | Įrašyti atsargų valdymo rodiniai<br><br>(Pagal numatytąją reikšmę kaip versijos 10.0.21) |
 
 ## <a name="saved-views-for-the-master-planning-module"></a>Įrašyti pagrindinio planavimo modulio rodiniai
 
@@ -63,8 +63,8 @@ Likusiuose šios temos skyriuose pateikiamos lentelės, kurios aprašo standarti
 
 | Puslapis | Rodinio pavadinimas | Peržiūrėti aprašą | Funkcijos pavadinimas |
 |---|---|---|---|
-| Suplanuoti užsakymai: informacijos apie suplanuotą užsakymą puslapis | Supaprastinta | Šis supaprastintas rodinys apima tik laukus, kurie dažniausiai naudojami dirbti su vieno suplanuoto užsakymo informacija. Tokiu būdu ji pateikia paprastesnę peržiūrą ir supaprastintą darbo procesą. | Planuotų užsakymų įrašyti rodiniai |
-| Suplanuoti užsakymai: informacijos apie suplanuotų užsakymą sąrašą | Supaprastinta | Šis supaprastintas rodinys apima tik laukus, kurie dažniausiai naudojami dirbti su planuotų užsakymų sąrašu. Tokiu būdu ji pateikia paprastesnę peržiūrą ir supaprastintą darbo procesą. | Planuotų užsakymų įrašyti rodiniai |
+| Suplanuoti užsakymai: informacijos apie suplanuotą užsakymą puslapis | Supaprastinta | Šis supaprastintas rodinys apima tik laukus, kurie dažniausiai naudojami dirbti su vieno suplanuoto užsakymo informacija. Tokiu būdu ji pateikia paprastesnę peržiūrą ir supaprastintą darbo procesą. | Planuotų užsakymų įrašyti rodiniai<br><br>(Pagal numatytąją reikšmę kaip versijos 10.0.25) |
+| Suplanuoti užsakymai: informacijos apie suplanuotų užsakymą sąrašą | Supaprastintas | Šis supaprastintas rodinys apima tik laukus, kurie dažniausiai naudojami dirbti su planuotų užsakymų sąrašu. Tokiu būdu ji pateikia paprastesnę peržiūrą ir supaprastintą darbo procesą. | Planuotų užsakymų įrašyti rodiniai<br><br>(Pagal numatytąją reikšmę kaip versijos 10.0.25) |
 
 ## <a name="saved-views-for-the-procurement-and-sourcing-module"></a>Įrašyti įsigijimo ir išteklių tiekimo modulio rodiniai
 
@@ -72,10 +72,10 @@ Likusiuose šios temos skyriuose pateikiamos lentelės, kurios aprašo standarti
 
 | Puslapis | Rodinio pavadinimas | Peržiūrėti aprašą | Funkcijos pavadinimas |
 |---|---|---|---|
-| Pirkimo užsakymo informacija | Užsakymo kūrimas | Šis supaprastintos peržiūros numeris optimizuotas kuriant naujus pirkimo užsakymus. | Įrašyti pirkimo užsakymų rodiniai |
-| Pirkimo užsakymo informacija | Atsargų valdymas | Šis supaprastintos peržiūros rodinys yra optimizuotas atlikti su atsargomis susijusias veiklas, pvz., toliau vykdyti gautas atsargas, gauti atsargas, patikrinti grynuosius reikalavimus ir koreguoti užsakymo kiekius. | Įrašyti pirkimo užsakymų rodiniai |
-| Pirkimo užsakymo informacija | Finansų valdymas | Šis supaprastintos peržiūros rodinys optimizuotas atlikti su finansais susijusias veiklas, pvz., sąskaitų faktūrų išrašymą ir kainų, bendrųjų sumų bei mokesčių tikrinimą. | Įrašyti pirkimo užsakymų rodiniai |
-| Pirkimo užsakymo informacija | Užsakymo patvirtinimas | Šis supaprastintas rodinys optimizuotas pirkimo užsakymams tvirtinti. | Įrašyti pirkimo užsakymų rodiniai |
+| Pirkimo užsakymo informacija | Užsakymo kūrimas | Šis supaprastintos peržiūros numeris optimizuotas kuriant naujus pirkimo užsakymus. | Įrašyti pirkimo užsakymų rodiniai<br><br>(Pagal numatytąją reikšmę kaip versijos 10.0.25) |
+| Pirkimo užsakymo informacija | Atsargų valdymas | Šis supaprastintos peržiūros rodinys yra optimizuotas atlikti su atsargomis susijusias veiklas, pvz., toliau vykdyti gautas atsargas, gauti atsargas, patikrinti grynuosius reikalavimus ir koreguoti užsakymo kiekius. | Įrašyti pirkimo užsakymų rodiniai<br><br>(Pagal numatytąją reikšmę kaip versijos 10.0.25) |
+| Pirkimo užsakymo informacija | Finansų valdymas | Šis supaprastintos peržiūros rodinys optimizuotas atlikti su finansais susijusias veiklas, pvz., sąskaitų faktūrų išrašymą ir kainų, bendrųjų sumų bei mokesčių tikrinimą. | Įrašyti pirkimo užsakymų rodiniai<br><br>(Pagal numatytąją reikšmę kaip versijos 10.0.25) |
+| Pirkimo užsakymo informacija | Užsakymo tvirtinimas | Šis supaprastintas rodinys optimizuotas pirkimo užsakymams tvirtinti. | Įrašyti pirkimo užsakymų rodiniai<br><br>(Pagal numatytąją reikšmę kaip versijos 10.0.25) |
 
 ## <a name="saved-views-for-the-product-information-management-module"></a>Įrašyti Produkto informacijos valdymo modulio rodiniai
 
@@ -83,11 +83,11 @@ Likusiuose šios temos skyriuose pateikiamos lentelės, kurios aprašo standarti
 
 | Puslapis | Rodinio pavadinimas | Peržiūrėti aprašą | Funkcijos pavadinimas |
 |---|---|---|---|
-| Išleistų produktų sąrašas | Produkto kūrimas | Supaprastintas puslapio rodinys apima tik kuriant produktus dažniausiai naudojamus laukus. | Įrašyti išleistų produktų rodiniai (įjungta pagal numatytuosius nustatymus pradedant nuo versijos 10.0.21.) |
-| Patvirtinto produkto informacija | Produkto kūrimas | Supaprastintas puslapio rodinys apima tik kuriant produktus dažniausiai naudojamus laukus. | Įrašyti išleistų produktų rodiniai (įjungta pagal numatytuosius nustatymus pradedant nuo versijos 10.0.21.) |
-| Patvirtinto produkto informacija | Logistinės informacijos valdymas | Supaprastintas puslapio rodinys apima tik tvarkant produktų logistikos informaciją dažniausiai naudojamus laukus. | Įrašyti išleistų produktų rodiniai (įjungta pagal numatytuosius nustatymus pradedant nuo versijos 10.0.21.) |
-| Patvirtinto produkto informacija | Pirkimo informacijos valdymas | Supaprastintas puslapio rodinys apima tik tvarkant produktų pirkimo informaciją dažniausiai naudojamus laukus. | Įrašyti išleistų produktų rodiniai (įjungta pagal numatytuosius nustatymus pradedant nuo versijos 10.0.21.) |
-| Patvirtinto produkto informacija | Pardavimo informacijos valdymas | Supaprastintas puslapio rodinys apima tik tvarkant su pardavimu susijusią informaciją dažniausiai naudojamus laukus. | Įrašyti išleistų produktų rodiniai (įjungta pagal numatytuosius nustatymus pradedant nuo versijos 10.0.21.) |
+| Išleistų produktų sąrašas | Produkto kūrimas | Supaprastintas puslapio rodinys apima tik kuriant produktus dažniausiai naudojamus laukus. | Įrašyti išleistų produktų rodiniai<br><br>(Pagal numatytąją reikšmę kaip versijos 10.0.21) |
+| Patvirtinto produkto informacija | Produkto kūrimas | Supaprastintas puslapio rodinys apima tik kuriant produktus dažniausiai naudojamus laukus. | Įrašyti išleistų produktų rodiniai<br><br>(Pagal numatytąją reikšmę kaip versijos 10.0.21) |
+| Patvirtinto produkto informacija | Logistinės informacijos valdymas | Supaprastintas puslapio rodinys apima tik tvarkant produktų logistikos informaciją dažniausiai naudojamus laukus. | Įrašyti išleistų produktų rodiniai<br><br>(Pagal numatytąją reikšmę kaip versijos 10.0.21) |
+| Patvirtinto produkto informacija | Pirkimo informacijos valdymas | Supaprastintas puslapio rodinys apima tik tvarkant produktų pirkimo informaciją dažniausiai naudojamus laukus. | Įrašyti išleistų produktų rodiniai<br><br>(Pagal numatytąją reikšmę kaip versijos 10.0.21) |
+| Patvirtinto produkto informacija | Pardavimo informacijos valdymas | Supaprastintas puslapio rodinys apima tik tvarkant su pardavimu susijusią informaciją dažniausiai naudojamus laukus. | Įrašyti išleistų produktų rodiniai<br><br>(Pagal numatytąją reikšmę kaip versijos 10.0.21) |
 
 ## <a name="saved-views-for-the-production-control-module"></a>Gamybos kontrolės modulio įrašyti rodiniai
 
@@ -95,10 +95,10 @@ Likusiuose šios temos skyriuose pateikiamos lentelės, kurios aprašo standarti
 
 | Puslapis | Rodinio pavadinimas | Peržiūrėti aprašą | Funkcijos pavadinimas |
 |---|---|---|---|
-| Gamybos užsakymo BOM puslapis | Supaprastinta | Šiame supaprastintame rodinyje pateikiami tik dažniausiai naudojamus laukus. Tokiu būdu ji pateikia paprastesnę peržiūrą ir supaprastintą darbo procesą. | Įrašyti gamybos kontrolės rodiniai (įjungta pagal numatytuosius nustatymus, pradedant nuo versijos 10.0.21.) |
-| Informacijos apie gamybos užsakymą puslapis | Supaprastinta | Šiame supaprastintame rodinyje pateikiami tik dažniausiai naudojamus laukus. Tokiu būdu ji pateikia paprastesnę peržiūrą ir supaprastintą darbo procesą. | Įrašyti gamybos kontrolės rodiniai (įjungta pagal numatytuosius nustatymus, pradedant nuo versijos 10.0.21.) |
-| Gamybos užsakymo atsiėmimo sąrašo puslapis | Supaprastinta | Šiame supaprastintame rodinyje pateikiami tik dažniausiai naudojamus laukus. Tokiu būdu ji pateikia paprastesnę peržiūrą ir supaprastintą darbo procesą. | Įrašyti gamybos kontrolės rodiniai (įjungta pagal numatytuosius nustatymus, pradedant nuo versijos 10.0.21.) |
-| Gamybos užsakymų sąrašo puslapis | Supaprastinta | Šiame supaprastintame rodinyje pateikiami tik dažniausiai naudojamus laukus. Tokiu būdu ji pateikia paprastesnę peržiūrą ir supaprastintą darbo procesą. | Įrašyti gamybos kontrolės rodiniai (įjungta pagal numatytuosius nustatymus, pradedant nuo versijos 10.0.21.) |
+| Gamybos užsakymo BOM puslapis | Supaprastinta | Šiame supaprastintame rodinyje pateikiami tik dažniausiai naudojamus laukus. Tokiu būdu ji pateikia paprastesnę peržiūrą ir supaprastintą darbo procesą. | Įrašyti gamybos kontrolės rodiniai<br><br>(Pagal numatytąją reikšmę kaip versijos 10.0.21) |
+| Informacijos apie gamybos užsakymą puslapis | Supaprastintas | Šiame supaprastintame rodinyje pateikiami tik dažniausiai naudojamus laukus. Tokiu būdu ji pateikia paprastesnę peržiūrą ir supaprastintą darbo procesą. | Įrašyti gamybos kontrolės rodiniai<br><br>(Pagal numatytąją reikšmę kaip versijos 10.0.21) |
+| Gamybos užsakymo atsiėmimo sąrašo puslapis | Supaprastintas | Šiame supaprastintame rodinyje pateikiami tik dažniausiai naudojamus laukus. Tokiu būdu ji pateikia paprastesnę peržiūrą ir supaprastintą darbo procesą. | Įrašyti gamybos kontrolės rodiniai<br><br>(Pagal numatytąją reikšmę kaip versijos 10.0.21) |
+| Gamybos užsakymų sąrašo puslapis | Supaprastintas | Šiame supaprastintame rodinyje pateikiami tik dažniausiai naudojamus laukus. Tokiu būdu ji pateikia paprastesnę peržiūrą ir supaprastintą darbo procesą. | Įrašyti gamybos kontrolės rodiniai<br><br>(Pagal numatytąją reikšmę kaip versijos 10.0.21) |
 
 ## <a name="saved-views-for-the-sales-and-marketing-module"></a>Pardavimų ir rinkodaros modulio įrašyti rodiniai
 
@@ -106,10 +106,10 @@ Likusiuose šios temos skyriuose pateikiamos lentelės, kurios aprašo standarti
 
 | Puslapis | Rodinio pavadinimas | Peržiūrėti aprašą | Funkcijos pavadinimas |
 |---|---|---|---|
-| Važtaraščių žurnalas | Žurnalo peržiūra | Šis supaprastintas rodinys apima tik laukus, kurie dažniausiai naudojami važtaraščių žurnalams peržiūrėti. | Pardavimų ir rinkodaros modulio įrašyti rodiniai |
-| Pardavimo užsakymas | Užsakymo kūrimas | Šis supaprastintas rodinys apima tik laukus, kurie dažniausiai naudojami pardavimų užsakymams kurti. | Pardavimų ir rinkodaros modulio įrašyti rodiniai |
-| Pardavimo užsakymas | Užsakymo peržiūra | Šis supaprastintas rodinys apima tik laukus, kurie dažniausiai naudojami pardavimų užsakymams peržiūrėti. | Pardavimų ir rinkodaros modulio įrašyti rodiniai |
-| Pardavimo pasiūlymas | Kainos pasiūlymo kūrimas | Šis supaprastintas rodinys apima tik laukus, kurie dažniausiai naudojami pardavimų kainos pasiūlymams kurti. | Pardavimų ir rinkodaros modulio įrašyti rodiniai |
+| Važtaraščių žurnalas | Žurnalo peržiūra | Šis supaprastintas rodinys apima tik laukus, kurie dažniausiai naudojami važtaraščių žurnalams peržiūrėti. | Pardavimų ir rinkodaros modulio įrašyti rodiniai<br><br>(Pagal numatytąją reikšmę kaip versijos 10.0.25) |
+| Pardavimo užsakymas | Užsakymo kūrimas | Šis supaprastintas rodinys apima tik laukus, kurie dažniausiai naudojami pardavimų užsakymams kurti. | Pardavimų ir rinkodaros modulio įrašyti rodiniai<br><br>(Pagal numatytąją reikšmę kaip versijos 10.0.25) |
+| Pardavimo užsakymas | Užsakymo apžvalga | Šis supaprastintas rodinys apima tik laukus, kurie dažniausiai naudojami pardavimų užsakymams peržiūrėti. | Pardavimų ir rinkodaros modulio įrašyti rodiniai<br><br>(Pagal numatytąją reikšmę kaip versijos 10.0.25) |
+| Pardavimo pasiūlymas | Pasiūlymo kūrimas | Šis supaprastintas rodinys apima tik laukus, kurie dažniausiai naudojami pardavimų kainos pasiūlymams kurti. | Pardavimų ir rinkodaros modulio įrašyti rodiniai<br><br>(Pagal numatytąją reikšmę kaip versijos 10.0.25) |
 
 ## <a name="saved-views-for-the-warehouse-management-module"></a>Įrašyti sandėlio valdymo modulio rodiniai
 
@@ -117,13 +117,13 @@ Likusiuose šios temos skyriuose pateikiamos lentelės, kurios aprašo standarti
 
 | Puslapis | Rodinio pavadinimas | Peržiūrėti aprašą | Funkcijos pavadinimas |
 |---|---|---|---|
-| Visi kroviniai | Gavimo apdorojimas | Šis supaprastintas rodinys apima tik laukus, kurie dažniausiai naudojami gavimo kroviniams apdoroti. | Įrašyti rodiniai krovinio apdorojimui |
-| Visi kroviniai | Siuntimo apdorojimas | Šis supaprastintas rodinys apima tik laukus, kurie dažniausiai naudojami siuntimo kroviniams apdoroti. | Įrašyti rodiniai krovinio apdorojimui |
-| Visos siuntos | Gavimo apdorojimas | Šis supaprastintas rodinys apima tik laukus, kurie dažniausiai naudojami gaunamoms siuntoms apdoroti. | Įrašyti rodiniai siuntos apdorojimui |
-| Visos siuntos | Siuntimo apdorojimas | Šis supaprastintas rodinys apima tik laukus, kurie dažniausiai naudojami išsiunčiamoms siuntoms apdoroti. | Įrašyti rodiniai siuntos apdorojimui |
-| Visos bangos | Supaprastinta | Šiame supaprastintame rodinyje pateikiami tik dažniausiai naudojamus laukus. Tokiu būdu ji pateikia paprastesnę peržiūrą ir supaprastintą darbo procesą. | Įrašytas rodinys bangos apdorojimui |
-| Krovinio planavimo darbo sritis | Supaprastinta | Šiame supaprastintame rodinyje pateikiami tik dažniausiai naudojamus laukus. Tokiu būdu ji pateikia paprastesnę peržiūrą ir supaprastintą darbo procesą. | Įrašyti rodiniai krovinio planavimo darbo sričiai |
-| Darbo informacija | Supaprastinta | Šiame supaprastintame rodinyje pateikiami tik dažniausiai naudojamus laukus. Tokiu būdu ji pateikia paprastesnę peržiūrą ir supaprastintą darbo procesą. | Įrašytas išsamios darbo informacijos puslapio rodinys |
+| Visi kroviniai | Gavimo apdorojimas | Šis supaprastintas rodinys apima tik laukus, kurie dažniausiai naudojami gavimo kroviniams apdoroti. | Įrašyti rodiniai krovinio apdorojimui<br><br>(Pagal numatytąją reikšmę kaip versijos 10.0.25) |
+| Visi kroviniai | Siuntimo apdorojimas | Šis supaprastintas rodinys apima tik laukus, kurie dažniausiai naudojami siuntimo kroviniams apdoroti. | Įrašyti rodiniai krovinio apdorojimui<br><br>(Pagal numatytąją reikšmę kaip versijos 10.0.25) |
+| Visos siuntos | Gavimo apdorojimas | Šis supaprastintas rodinys apima tik laukus, kurie dažniausiai naudojami gaunamoms siuntoms apdoroti. | Įrašyti rodiniai siuntos apdorojimui<br><br>(Pagal numatytąją reikšmę kaip versijos 10.0.25) |
+| Visos siuntos | Siuntimo apdorojimas | Šis supaprastintas rodinys apima tik laukus, kurie dažniausiai naudojami išsiunčiamoms siuntoms apdoroti. | Įrašyti rodiniai siuntos apdorojimui<br><br>(Pagal numatytąją reikšmę kaip versijos 10.0.25) |
+| Visos bangos | Supaprastintas | Šiame supaprastintame rodinyje pateikiami tik dažniausiai naudojamus laukus. Tokiu būdu ji pateikia paprastesnę peržiūrą ir supaprastintą darbo procesą. | Įrašytas rodinys bangos apdorojimui<br><br>(Pagal numatytąją reikšmę kaip versijos 10.0.25) |
+| Krovinio planavimo darbo sritis | Supaprastintas | Šiame supaprastintame rodinyje pateikiami tik dažniausiai naudojamus laukus. Tokiu būdu ji pateikia paprastesnę peržiūrą ir supaprastintą darbo procesą. | Įrašyti rodiniai krovinio planavimo darbo sričiai<br><br>(Pagal numatytąją reikšmę kaip versijos 10.0.25) |
+| Darbo informacija | Supaprastintas | Šiame supaprastintame rodinyje pateikiami tik dažniausiai naudojamus laukus. Tokiu būdu ji pateikia paprastesnę peržiūrą ir supaprastintą darbo procesą. | Įrašytas išsamios darbo informacijos puslapio rodinys<br><br>(Pagal numatytąją reikšmę kaip versijos 10.0.25) |
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

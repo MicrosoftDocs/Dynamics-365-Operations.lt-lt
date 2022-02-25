@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f1438ed6bcec485ff9665ffd9659c938f5cac478
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: 4db1173b35cd196ab39fae3cac3754439fab84d0
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7778136"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103168"
 ---
 # <a name="monitor-a-master-planning-run"></a>Bendrojo planavimo vykdymo stebėjimas
 
@@ -28,23 +28,22 @@ ms.locfileid: "7778136"
 
 Puslapyje **Peržiūrėti bendrojo planavimo eigą** galite peržiūrėti istorinius bendrojo planavimo vykdymus kaip Gantt diagramą. Ši funkcija gali padėti jums suprasti įvairių bendrojo planavimo etapų laiką. Dėl dabartinės aktyvios planavimo užduoties, puslapį **Peržiūrėti pagrindinio planavimo eigą** galima naudoti norint sekti eigą ir peržiūrėti apskaičiuotą likusį laiką.
 
-### <a name="turn-on-and-use-the-master-plan-progress-visualization-feature"></a>Pagrindinio plano eigos vizualizacijos funkcijos įjungimas ir naudojimas
+### <a name="turn-the-master-plan-progress-visualization-feature-on-or-off"></a>Įjungti arba išjungti bendrojo plano eigos vizualizavimo funkciją
 
-Norėdami naudoti šią funkciją, atlikite toliau nurodytus veiksmus.
+Kaip ir tiekimo grandinės valdymo versija 10.0.21 ši funkcija įjungiama pagal numatytąjį nustatymą. Kaip ir tiekimo grandinės valdymas 10.0.25 ši funkcija yra privaloma ir jos išjungti negalima. Jei naudojate senesnę nei 10.0.25 versiją, *·*[tada](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) administratoriai gali įjungti arba išjungti šią funkciją ieškodami bendrojo planavimo eigos vizualizavimo funkcijos funkcijų valdymo darbo srityje.
 
-1. Darbo srityje **Funkcijos valdymas** skirtuke **Naujas** iš sąrašo pasirinkite **Pagrindinio planavimo eigos vizualizavimas**. Jei funkcija neatsiranda skirtuke **Naujas**, žiūrėkite skirtukus **Neįjungta** ir **Visi**.
-1. Pasirinkite **Įjungti dabar**. Arba pasirinkite **Grafikas** ir pasirinkite laiką, kada norite, kad funkcija būtų įjungta. (Kaip tiekimo grandinės valdymo versija 10.0.21, ši funkcija yra įjungta pagal numatytuosius nustatymus.)
+### <a name="use-the-master-plan-progress-visualization-feature"></a>Naudoti bendrojo plano eigos vizualizavimo funkciją
 
 Puslapyje **Bendrojo planavimo eiga** puslapyje gali būti rodomos istorinės planavimo užduotys ir aktyvios planavimo užduotys. 
 
 Norint peržiūrėti istorines planavimo užduotis, galimos dvi parinktys. 
 
 1. Eikite į **Bendrasis planavimas \> Sąranka \> Planai \> Bendrieji planai**, tada veiksmų skyde pasirinkite **Istorija**. Pasirinkę pageidaujamą užduotį, pasirinkite **Užklausos**, tada pasirinkite **Peržiūrėti eigą**
-1. Eikite į **Bendrasis planavimas \> Darbo sritys \> Bendrasis planavimas**, bendrajame planavime spustelėkite **Istorija**. Pasirinkę pageidaujamą užduotį, pasirinkite **Užklausos**, tada pasirinkite **Peržiūrėti eigą**
+1. Eikite į **Bendrasis planavimas\> Darbo sritys \> Bendrasis planavimas**, bendrajame planavime spustelėkite **Istorija**. Pasirinkę pageidaujamą užduotį, pasirinkite **Užklausos**, tada pasirinkite **Peržiūrėti eigą**
 
 Norint peržiūrėti aktyvias planavimo užduotis, galimos dvi parinktys. 
 1. Eikite į **Bendrasis planavimas \> Darbo sritys \> Bendrasis planavimas**, veiksmų skyde pasirinkite **Nebaigta planavimo eiga**. Pasirinkę pageidaujamą užduotį, pasirinkite **Užklausos**, tada pasirinkite **Peržiūrėti eigą**.
-1. Eikite į **Bendrasis planavimas \> Darbo sritys \> Bendrasis planavimas**, bendrajame planavime spustelėkite **Peržiūrėti eigą**. Pasirinkę pageidaujamą užduotį, pasirinkite **Užklausos**, tada pasirinkite **Peržiūrėti eigą**
+1. Eikite į **Bendrasis planavimas\> Darbo sritys \> Bendrasis planavimas**, bendrajame planavime spustelėkite **Peržiūrėti eigą**. Pasirinkę pageidaujamą užduotį, pasirinkite **Užklausos**, tada pasirinkite **Peržiūrėti eigą**
 
 Atkreipkite dėmesį, kad aktyvias užduotis galite peržiūrėti, tik kai vykdoma planavimo užduotis.
 

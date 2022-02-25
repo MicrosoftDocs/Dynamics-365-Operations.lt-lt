@@ -2,7 +2,7 @@
 title: Produkto gyvavimo ciklo būsenos ir perlaidos
 description: Šioje temoje paaiškinta, kaip gali valdyti perlaidas, kurioms leidžiama būti visose gyvavimo ciklo būsenos kai inžinerijos produktas eina per savo gyvavimo ciklą.
 author: t-benebo
-ms.date: 09/28/2020
+ms.date: 02/17/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 12f95feda887b5f1284624e5f072b498a78d00e1
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.openlocfilehash: 1e9b8a9f25edfa654a57e0ab4071cd93c8033d85
+ms.sourcegitcommit: d375ef4138e898621416754c40770d8ccca4d271
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7574646"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8322749"
 ---
 # <a name="product-lifecycle-states-and-transactions"></a>Produkto gyvavimo ciklo būsenos ir perlaidos
 
@@ -93,5 +93,13 @@ Pavyzdžiui, tarkime, jūs norite parduoti tik vieną tam produkto variantą (ra
 - Priskirkite produktą ciklo būsenai, kuri leidžia procesą. Pavyzdžiui, priskirkite marškinėlių produktą kaip pardavimo ciklo *būseną* kuri leidžia pardavimo užsakymo *verslo procesui*.
 - Priskirkite parduodamą variantą ciklo būsenai, kuri leidžia procesą. Pavyzdžiui, taip pat priskirkite raudoną variantą pardavimo ciklo *būsenai*.
 - Visiems kitiems variantams priskirti kitą ciklo būseną, kai procesas užblokuotas. Pvz., priskirkite baltą variantą (ir visus kitus variantus) pagal ciklo būseną Parduoti negalima, o tai *neleidžia* pardavimo užsakymo *verslo proceso*.
+
+## <a name="default-product-lifecycle-states"></a>Numatytosios produkto ciklo valstijos
+
+Numatytoji inžinerijos versijos ciklo būsena nurodyta jos inžinerijos kategorijoje. Būsena bus numatyta kuriant naują inžinerijos versiją, įskaitant pirmąją naujo produkto versiją.
+
+Kai kuriate naują produktą arba inžinerijos produktą, taip pat galite nustatyti numatytąją ciklo būseną, nurodydami jį produktui priskirtos paleidimo strategijos šablone išleistame produkte.
+
+Šiuo atveju, kuriant naują inžinerijos produktą, produkto ciklo būsena gali skirtis nuo versijos.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

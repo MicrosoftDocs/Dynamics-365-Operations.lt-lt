@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-12-10
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 959b8b85fe55ed5e0a93b5b614c3f6166bbd2bb6ef07e9d0f0f4c2b1ea3c4659
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: b12740e58b2bf8667bee8a2c51917d69771779f2
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6721324"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103368"
 ---
 # <a name="override-the-default-reservation-principle-for-materials-in-production"></a>Numatytojo medžiagų gamybos rezervavimo principo perrašymas
 
@@ -31,12 +31,9 @@ Kai kuriate naują gamybos arba paketinį užsakymą, esate paraginamas pasirink
 
 Pavyzdžiui, jei turite žaliavų ar ingredientų, kuriems reikia paėmimo darbo, tiems produktams sukurtoms KS ar formulės eilutes reikia rezervuoti faktiškai, nes faktinis rezervavimas yra būtina sandėlio darbo generavimo sąlyga. Paprastai, jei norite, kad rezervavimas būtų atliekamas automatiškai, pasirenkate vieną iš šių rezervavimo principų: *įvertinimas*, *planavimas*, *paleidimas* arba *pradžia*. Kita vertus, jei turite medžiagų ar ingredientų, kuriems nereikia paėmimo darbo, nes jie suvartojami tiesiai iš vietos, paprastai pasirenkate *neautomatinį* rezervavimo principą, kuris neatlieka jokių faktinių rezervavimų ar negeneruoja jokio paėmimo darbo.
 
-## <a name="turn-on-the-feature"></a>Funkcijos įjungimas
+## <a name="turn-the-override-default-production-reservation-feature-on-or-off"></a>Įjungti arba išjungti numatytąją gamybos rezervavimo funkciją
 
-Prieš naudodami šią funkciją, turite ją įjungti savo sistemoje. Administratoriai gali naudoti [funkcijos valdymas](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) parametrus, norėdami sužinoti funkcijos būseną ir įjungti ją. Darbo srityje **Funkcijų valdymas** ši funkcija yra nurodyta toliau pateikiamu būdu.
-
-- **Modulis:** *Gamybos kontrolė*
-- **Funkcijos pavadinimas:** *Numatytojo gamybos rezervavimo perrašymas*
+Kaip ir tiekimo grandinės valdymo versija 10.0.25 ši funkcija įjungiama pagal numatytąjį nustatymą. Administratoriai šią funkciją gali įjungti arba išjungti, naudodamiesi funkcijų *valdymo darbo srityje funkcija Perrašyti* numatytąją [gamybos rezervavimo](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) funkciją.
 
 ## <a name="assign-a-production-reservation-policy-to-an-item-model-group"></a>Priskirkite gamybos rezervavimo strategiją prekių modelių grupei
 

@@ -2,25 +2,25 @@
 title: Trišalės atitikimo strategijos
 description: Šioje temoje pateikiami trišalio atitikimo pavyzdžiai.
 author: abruer
-ms.date: 10/26/2017
+ms.date: 02/11/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: VendInvoicePostingHistory
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 2761
 ms.assetid: 70f3cb1a-18b7-4474-95ec-28b2410dd8f8
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d33a8cb001f1cd2f79c2a174710af90af423b9b3abc66eb80aa4811953ea4a14
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: cffdc06216ce8ab1bfb79265f265bec1aee334c5
+ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722844"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "8109998"
 ---
 # <a name="three-way-matching-policies"></a>Trišalės atitikimo strategijos
 
@@ -42,15 +42,15 @@ ms.locfileid: "6722844"
 
 ### <a name="prerequisites"></a>Būtinieji komponentai
 
--   Ken nustato trišalio atitikimo juridinio subjekto lygiu atitikimo strategiją.
--   Ken nustato juridinio subjekto Automatiškai atnaujinti antraštės atitikimo būsenos perjungimą į Taip.
--   Ken nustato juridinio subjekto lauką Gretinti kainų sumas į Procentas ir įveda 15 % kaip leistino nuokrypio procentą.
--   Ken nustato prekės lygio atitikimo strategiją prekei 1500 – „CNC Milicron“ įrenginys į trišalį atitikimą. Ši prekė yra turto prekė, „Fabrikam“ naudojama gamyboje. Šios prekės sąskaitos faktūros yra sugretinamos su pirkimo užsakymo eilutėmis dėl kainos ir su produkto gavimo kvitais dėl kiekio.
--   Tony įveda paraišką penkiems „CNC Milicron“ įrenginiams. Alicia, „Fabrikam“ pirkimo užsakymų klerkas, išduoda pirkimo užsakymą tiekti prekes juridiniam subjektui, kurio vardas yra „Contoso“.
+-   Ken nustato atitikimo **strategiją** juridinio subjekto lygiu kaip trijinį **atitikimą**.
+-   Ken nustato būseną **Automatiškai atnaujinti antraštės atitikimo būseną** juridiniame subjekte kaip **Taip**.
+-   Ken nustato juridinio subjekto bendrųjų **gre tavimo kainų sumų lauką kaip procentinę** **dalį ir įveda 15% kaip leistino nuokrypio** procentinę dalį **.**
+-   Ken nustato atitikimo strategiją prekės 1500 prekės lygiu –²icron Machine yra **triačiu atitikimu**. Ši prekė yra turto prekė, „Fabrikam“ naudojama gamyboje. Šios prekės sąskaitos faktūros yra sugretinamos su pirkimo užsakymo eilutėmis dėl kainos ir su produkto gavimo kvitais dėl kiekio.
+-   Tony įveda paraišką penkiems „CNC Milicron“ įrenginiams. Alicia, „Fabrikam“ pirkimo užsakymų klerkas, išduoda pirkimo užsakymą tiekti prekes juridiniam subjektui, kurio vardas yra Contoso.
 
-    | Prekės Nr.                 | Kiekis | Vnt. kaina | Grynoji suma | Išlaidų kodas        | Išlaidų vertė |
+    | Prekės numeris                 | Kiekis | Vnt. kaina | Grynoji suma | Išlaidų kodas        | Išlaidų vertė |
     |-----------------------------|----------|------------|------------|---------------------|---------------|
-    | 1500 – „CNC Milicron“ įrenginys | 5        | 8 000,00   | 40 000,00  | Siuntimas ir tvarkymas | 3,000.00      |
+    | 1500 – „CNC Milicron“ įrenginys | 5        | 8 000,00   | 40 000,00  | Siuntimas ir tvarkymas | 3 000,00      |
 
 -   Arnie, „Contoso“ gautinų sumų klerkas, peržiūri savaitės siuntas. Arnie pasirenka siuntos operacijas, kurių sąskaitas faktūras išrašyti „Fabrikam“ už „CNC Milicron“ įrenginių pristatymą. Arnie įtraukia mokestį už siuntimą ir tvarkymą. „Fabrikam“ atsižvelgs į mokestį kaip į turto savikainos dalį.
 
@@ -65,7 +65,7 @@ ms.locfileid: "6722844"
 
 Popierinėje „Contoso“ sąskaitoje faktūroje pateikta ši informacija.
 
-| Produktas                        | Kiekis | Vnt. kaina | Grynoji suma |
+| Prekė                        | Kiekis | Vnt. kaina | Grynoji suma |
 |-----------------------------|----------|------------|------------|
 | 1500 – „CNC Milicron“ įrenginys | 5        | 8 100,00   | 40,500.00  |
 | Siuntimas ir tvarkymas       |          |            | 4,000.00   |
@@ -91,11 +91,11 @@ Kiekis ir sumos yra mažos, kilo problemų su pristatymu iš kai kurių tiekėj�
 
 ### <a name="prerequisites"></a>Būtinieji komponentai
 
--   Ken nustato atitikimo strategiją juridinio subjekto lygiu iki dvišalio atitikimo.
--   Ken nustato juridinio subjekto lauką Gretinti kainų sumas į Procentas ir įveda 10 % kaip leistino nuokrypio procentą.
+-   Ken juridinio **subjekto** lygyje nustato atitikimo strategiją kaip **dvi savaites atitinkančią**.
+-   Ken nustato juridinio **subjekto bendrųjų** gre tavimo kainų sumų lauką kaip **procentinę** **dalį ir įveda 10% kaip** leistino nuokrypio **procentinę dalį.**
 -   Ken nustato vieneto kainos leistiną nuokrypį visoms prekėms iki 2 %.
--   Cassie nustato prekės ir tiekėjo kombinacijos lygio atitikimo strategiją prekei PH2500 – kompiuteriui ir tiekėjui „Contoso“ iki trišalio atitikimo.
--   Alicia, pirkimo užsakymo klerkas „Fabrikam“ Malaizijos padalinyje „Contoso“ išduoda pirkimo užsakymus tiekti tris prekes, kaip parodyta toliau pateiktoje lentelėje. Kai ji sukuria pirkimo užsakymą, ji nepaiso atitikimo strategijos, skirtos belaidei pelei, todėl atitikimas tampa trišalis, o nebe dvišalis.
+-   "Įmonės" nustato **prekės** ir tiekėjo derinio lygio atitikimo strategiją – PREKĖS CONTOSO2500 – kompiuterio ir tiekėjo "Contoso" triaipipuoju **atitikimu**.
+-   Alicia, pirkimo užsakymo klerkas „Fabrikam“ Malaizijos padalinyje, „Contoso“ išduoda pirkimo užsakymus tiekti tris prekes, kaip parodyta toliau pateiktoje lentelėje. Kai kuria pirkimo užsakymą, ji **panaikina** atitikimo strategiją, pagal kuria pelės žymeklis turi būti trijuose atitikmens parametruose, o ne dvi parinktame atitikmenyje.
 
     | Prekės numeris           | Kiekis | Vnt. kaina | Grynoji suma | Atitikimo strategija (numatytasis įrašas) | Atitikimo strategija (nurodyta pirkimo užsakymo eilutėje) |
     |-----------------------|----------|------------|------------|---------------------------------|----------------------------------------------|
@@ -114,7 +114,7 @@ Kiekis ir sumos yra mažos, kilo problemų su pristatymu iš kai kurių tiekėj�
 
 Popierinėje „Contoso“ sąskaitoje faktūroje pateikta ši informacija.
 
-| Produktas                  | Kiekis | Vnt. kaina | Grynoji suma |
+| Prekė                  | Kiekis | Vnt. kaina | Grynoji suma |
 |-----------------------|----------|------------|------------|
 | PH2500 – kompiuteris     | 2        | 2 500,00   | 5 000,00   |
 | MM01 – belaidė pelė | 2        | 41.00      | 82.00      |
@@ -134,7 +134,7 @@ Atkreipkite dėmesį į toliau nurodytas prekes:
 -   MM01 – belaidės pelės eilutės produkto gavimo kiekio sugretinimo stulpelyje yra įspėjamoji piktograma, nes sąskaitos faktūros eilutė nesugretinta su produkto gavimo kvitu. Stulpelyje Vieneto kainos gretinimas yra įspėjamoji piktograma, nes viršytas 2 % vieneto kainos leistinas nuokrypis.
 -   USB atmintinės eilutės Produkto gavimo kiekio gretinimo stulpelis yra tuščias, nes dvipusis atitikimas neatitinka sąskaitos faktūros eilutės ir produkto gavimo kvito eilutės kiekių.
 
-Jei reikalingas registruojamų sąskaitų faktūrų su jų gretinimo nesutapimais patvirtinimas, reikia pasirinkti perjungimą Tvirtinti registravimą su gretinimo nesutapimais puslapyje Sąskaitos faktūros gretinimo informacija, prieš registruojant sąskaitos faktūros su kainos gretinimo ir kiekio gretinimo klaidomis. Jei patvirtinimo nereikia, sąskaitos faktūros apdorojimą galima tęsti, jei nėra jokių kitų registravimo klaidų.
+Jei reikia SF, kurios turi būti registruojamos su gretinimo nesutapimų, **·** **patvirtinimo** registravimo gretinimo nesutapimų puslapyje turi būti pasirinkta SF gretinimo informacijos puslapyje, kad SF būtų užregistruota su kainų gretinimo klaidomis ir kiekio gretinimo klaidomis. Jei patvirtinimo nereikia, sąskaitos faktūros apdorojimą galima tęsti, jei nėra jokių kitų registravimo klaidų.
 
 
 Daugiau informacijos žr. [Mokėtinų sumų SF gretinimo apžvalga](accounts-payable-invoice-matching.md).

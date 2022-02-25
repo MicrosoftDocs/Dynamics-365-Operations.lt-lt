@@ -2,11 +2,9 @@
 title: Brūkšninių kodų vaizdams generuoti brūkšninio kodo duomenų šaltinių naudojimas
 description: Šioje temoje paaiškinama, kaip naudoti brūkšninio kodo duomenų šaltinius brūkšninio kodo vaizdams generuoti.
 author: NickSelin
-manager: AnnBe
 ms.date: 10/21/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERModelMappingDesigner, EROperationDesigner
 audience: Application User, Developer, IT Pro
@@ -17,18 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: Version 10.0.13
-ms.openlocfilehash: 3fb754267de1120bc3c086d49cb7c63028183bda
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
-ms.translationtype: HT
+ms.openlocfilehash: a5a396080d8b5dd4c2ed9a0eb15c1286e8799ebf
+ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681429"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323957"
 ---
 # <a name="use-barcode-data-sources-to-generate-bar-code-images"></a>Brūkšninių kodų vaizdams generuoti brūkšninio kodo duomenų šaltinių naudojimas
 
 [!include[banner](../includes/banner.md)]
 
-Galite naudoti [Elektroninės ataskaitos (angl. ER)](general-electronic-reporting.md)sistemą, kad sukurtumėte [ER formato komponentus](general-electronic-reporting.md#FormatComponentOutbound), kuriuos galite paleisti jums reikalingų elektroninių ir spausdintinų siunčiamų dokumentų generavimui. Norėdami sugeneruoti siunčiamą dokumentą „Microsoft Office” formatu, turite nurodyti ataskaitos maketą, naudodami „Microsoft Excel” dokumentą arba „Microsoft Word” dokumentą kaip ataskaitos šabloną. [ER operacijų kūrėjas](general-electronic-reporting.md#building-a-format-that-uses-a-data-model-as-a-base) suteikia galimybę pridėti „Excel” arba „Word” dokumentą kaip šabloną ER formatu. Toliau nurodyti pavadinti elementai pridėtame šablone yra susieti su sukonfigūruoto formato komponentų elementais:
+Elektroninių ataskaitų [(ER)](general-electronic-reporting.md) sistemą galite naudoti norėdami sukurti ER formato komponentus, kuriuos galite vykdyti norėdami generuoti elektroninius ir spausdintimus siunčiamus dokumentus, kurių jums reikia. Norėdami sugeneruoti siunčiamą dokumentą „Microsoft Office” formatu, turite nurodyti ataskaitos maketą, naudodami „Microsoft Excel” dokumentą arba „Microsoft Word” dokumentą kaip ataskaitos šabloną. [ER operacijų kūrėjas](general-electronic-reporting.md#building-a-format-that-uses-a-data-model-as-a-base) suteikia galimybę pridėti „Excel” arba „Word” dokumentą kaip šabloną ER formatu. Toliau nurodyti pavadinti elementai pridėtame šablone yra susieti su sukonfigūruoto formato komponentų elementais:
 
 - Turinio valdikliai „Word”
 - Pavadinti lapai, diapazonai, langeliai, figūros ir vaizdai „Excel”
@@ -39,7 +37,7 @@ ER dabar palaiko **Brūkšninis kodas** duomenų šaltinio tipą. Todėl dabar g
 
 Šie vietos rezervavimo ženklai gali būti naudojami ataskaitų šablonuose, norint įvesti brūkšninių kodų vaizdus:
 
-- [Paveikslėlio](https://docs.microsoft.com/office/client-developer/word/content-controls-in-word)„Word” turinio valdiklis
+- [Paveikslėlio](/office/client-developer/word/content-controls-in-word)„Word” turinio valdiklis
 - [Paveikslėlio ](https://support.office.com/article/insert-pictures-3c51edf4-22e1-460a-b372-9329a8724344) objektas „Excel”
 
 Naudodami **Brūkšninis kodas** duomenų šaltinį, galite generuoti brūkšninius kodus šiais formatais:
@@ -47,9 +45,9 @@ Naudodami **Brūkšninis kodas** duomenų šaltinį, galite generuoti brūkšnin
 - Vienos dimensijos brūkšniniai kodai:
 
     - Codabar
-    - Code 39
-    - Code 93
-    - Code 128
+    - Kodas 39
+    - Kodas 93
+    - Kodas 128
     - EAN-8
     - EAN-13
     - ITF-14
@@ -118,21 +116,21 @@ Jei dar nebaigėte pavyzdžio, pateikiamo [Įdėti vaizdai ir formos jūsų suge
 
 | Turinio aprašas         | Failo vardas                   |
 |-----------------------------|-----------------------------|
-| ER duomenų modelio konfigūracija | cheques.xml šablonas       |
-| ER formato konfigūracija     | Čekių spausdinimas formatas.xml |
+| ER duomenų modelio konfigūracija | [cheques.xml šablonas](https://download.microsoft.com/download/6/e/a/6ea166fd-1382-4fdb-8dcb-0f13379f9c8e/Modelforcheques.xml)      |
+| ER formato konfigūracija     | [Čekių spausdinimas formatas.xml](https://download.microsoft.com/download/1/7/c/17c301e3-c4ee-4886-ae75-440fcc002c8c/Chequesprintingformat.xml) |
 
 Be to, atsisiųskite nurodytą „Excel” failą, kuriame yra modifikuotas pateikto ER sprendimo šablonas.
 
 | Turinio aprašas | Failo vardas                 |
 |---------------------|---------------------------|
-| Ataskaitos šablonas     | Čekio šablonas Excel.xlsx |
+| Ataskaitos šablonas     | [Čekio šablonas Excel.xlsx](https://download.microsoft.com/download/3/b/d/3bd3b944-da8f-43b4-8533-3c1292a4c3ef/CheckTemplateExcel.xlsx) |
 
 ### <a name="activate-a-configuration-provider"></a><a name="ExampleProvider"></a>Konfigūracijų teikėjo aktyvinimas
 
 1. Eikite į **Organizacijos administravimas** \> **Darbo sritys** \> **Elektroninės ataskaitos**.
 2. **Lokalizavimo konfigūracijos** puslapyje **Konfigūracijos tiekėjai** dalyje įsitikinkite, kad [konfigūracijos tiekėjas](general-electronic-reporting.md#Provider), nurodytas kaip **Litware, Inc.** įmonės pavyzdys, ir kad jis pažymėtas kaip aktyvus. Jeigu jis nenurodytas ar nepažymėtas kaip aktyvus, atlikite veiksmus temoje [Konfigūracijų teikėjo kūrimas ir jo aktyvios būsenos pažymėjimas](tasks/er-configuration-provider-mark-it-active-2016-11.md).
 
-![Įmonės pavyzdžio nustatymas į aktyvią būseną Lokalizavimo konfigūracijų puslapyje](./media/er-barcode-data-source-active-provider.png)
+![Įmonės pavyzdžio nustatymas į aktyvią būseną Lokalizavimo konfigūracijų puslapyje.](./media/er-barcode-data-source-active-provider.png)
 
 ### <a name="import-the-provided-er-solution"></a><a name="ExampleImportSolution"></a>Importuokite pateiktą ER sprendimą
 
@@ -162,14 +160,14 @@ Be to, atsisiųskite nurodytą „Excel” failą, kuriame yra modifikuotas pate
 7. Veiksmų srityje pasirinkite **Spausdinimo bandymas**.
 8. Dialogo lange nustatykite **Perduodamo čekio formato** pasirinktį į **Taip**, tada pasirinkite **Gerai**.
 
-    ![Čekio maketas – spausdinimo bandymo dialogo langas](./media/er-barcode-data-source-check-layout.png)
+    ![Čekio maketas – spausdinimo bandymo dialogo langas.](./media/er-barcode-data-source-check-layout.png)
 
 ### <a name="review-the-generated-payment-check"></a><a name="ExampleReviewGeneratedCheque"></a>Sugeneruoto mokėjimo čekio peržiūra
 
 - Atidaryti sugeneruotą tikrinimą programoje „Excel”.
 2. Peržiūrėti sugeneruotą čekį.
 
-    ![Sugeneruotas mokėjimo čekis „Excel”](./media/er-barcode-data-source-cheque1.png)
+    ![Sugeneruotas mokėjimo čekis „Excel”.](./media/er-barcode-data-source-cheque1.png)
 
 ### <a name="modify-the-format-of-the-provided-er-solution"></a><a name="ExampleModifyFormat"></a>Pateikto ER sprendimo formato modifikavimas
 
@@ -177,7 +175,7 @@ Be to, atsisiųskite nurodytą „Excel” failą, kuriame yra modifikuotas pate
 
 Galite naudoti „Excel” darbalaukio programą atidaryti jūsų anksčiau importuotą **Čekio šablonas Excel.xlsx** failą. Atkreipkite dėmesį, kad šis šablonas skiriasi nuo šablono, kurį naudojote sugeneruoti čekį pateiktame ER sprendime. Be to, jame yra **SumosBrūkšninisKodas** elementas, skirtas brūkšninio kodo vaizdui.
 
-![SumosBrūkšninisKodas elementas „Excel” šablone](./media/er-barcode-data-source-cheque2.png)
+![SumosBrūkšninisKodas elementas „Excel” šablone.](./media/er-barcode-data-source-cheque2.png)
 
 Dabar turite modifikuoti ER sprendimą ir tada [iš naujo pritaikyti](modify-electronic-reporting-format-reapply-excel-template.md) modifikuotą šabloną.
 
@@ -188,7 +186,7 @@ Dabar turite modifikuoti ER sprendimą ir tada [iš naujo pritaikyti](modify-ele
 5. „ER Operations” kūrimo įrankyje pasirinkite **Susiejimas** skirtuką dešinėje puslapio pusėje, tada formato medžio srityje kairėje pasirinkite **Plėsti/sutraukti**.
 6. Atkreipkite dėmesį, kad visi langelio formato elementai yra susieti su atitinkamais duomenų šaltiniais.
 
-    ![Langelio formato elementų susiejimas su duomenų šaltiniais „ER Operations” kūrimo įrankyje](./media/er-barcode-data-source-cells-bound.png)
+    ![Langelio formato elementų susiejimas su duomenų šaltiniais „ER Operations” kūrimo įrankyje.](./media/er-barcode-data-source-cells-bound.png)
 
 7. Pasirinkite **Formatuoti** skirtuką dešinėje puslapio pusėje.
 8. Veiksmų srityje pasirinkite daugtaškį ( **...**) ir pasirinkite **Importuoti**.
@@ -197,7 +195,7 @@ Dabar turite modifikuoti ER sprendimą ir tada [iš naujo pritaikyti](modify-ele
 11. Pasirinkite **Susiejimas** skirtuką dešinėje puslapio pusėje, tada formato medžio srityje kairėje pasirinkite **Plėsti/sutraukti**.
 12. Atkreipkite dėmesį, kad **SumosBrūkšninisKodas** langelio elementas buvo pridėtas prie formato. Šis elementas yra susietas su **SumosBrūkšninisKodas** pridėtu į modifikuotą „Excel” šabloną elementu kaip vietos rezervavimo ženklas brūkšninio kodo vaizdui.
 
-    ![SumosBrūkšninisKodas langelio elementas, pridėtas prie formato, esančio „ER Operations” kūrimo įrankyje](./media/er-barcode-data-source-cell-added.png)
+    ![SumosBrūkšninisKodas langelio elementas, pridėtas prie formato, esančio „ER Operations” kūrimo įrankyje.](./media/er-barcode-data-source-cell-added.png)
 
 #### <a name="add-a-new-barcode-data-source"></a><a name="ExampleModifyFormatAddDataSource"></a>Naujo brūkšninio kodo duomenų šaltinio pridėjimas
 
@@ -206,14 +204,14 @@ Tada turite pridėti naują **Brūkšninis kodas** tipo duomenų šaltinis.
 1. „ER Operations” kūrimo įrankyje **Susiejimas** skirtuke, dešinėje puslapio pusėje, pasirinkite **spausdinti** duomenų šaltinį.
 2. Pasirinkite **Pridėto**, tada **Funkcijos** grupėje pasirinkite **Brūkšninis kodas** duomenų šaltinio tipą.
 
-    ![Brūkšninio kodo duomenų šaltinio tipo pasirinkimas](./media/er-barcode-data-source-add.png)
+    ![Brūkšninio kodo duomenų šaltinio tipo pasirinkimas.](./media/er-barcode-data-source-add.png)
 
 3. Dialogo lango lauke **Pavadinimas** įveskite **Brūkšninis kodas**.
 4. **Brūkšninis formatas**, pasirinkite **Kodas 128**.
 5. **Plotis** lauke įveskite **500**.
 6. Pasirinkite **Gerai**.
 
-    ![Duomenų bazės ypatybių dialogo langas](./media/er-barcode-data-source-add2.png)
+    ![Duomenų bazės ypatybių dialogo langas.](./media/er-barcode-data-source-add2.png)
 
 #### <a name="bind-a-new-format-element"></a><a name="ExampleModifyFormatBindFormatElement"></a>Naujo formato elemento susiejimas
 
@@ -224,7 +222,7 @@ Tada turite susieti naujo formato elementą su ką tik pridėtu duomenų šaltin
 3. Veiksmų srityje pasirinkite **Rodyti išsamią informaciją**.
 4. Atkreipkite dėmesį, kad, kadangi **Brūkšninis kodas** duomenų šaltinis atvaizduojamas kaip susietas su funkcija, kurioje yra vienas parametras, susieto formato elemento pavadinimas automatiškai paimtas kaip šio parametro argumentas.
 
-    ![Išsami informacija apie brūkšninio kodo duomenų šaltinį „ER Operations” kūrimo įrankyje ](./media/er-barcode-data-source-bind1.png)
+    ![Išsami informacija apie brūkšninio kodo duomenų šaltinį „ER Operations” kūrimo įrankyje.](./media/er-barcode-data-source-bind1.png)
 
 5. Norėdami koreguoti susiejimą, pasirinkite **Redaguoti formulę**.
 
@@ -234,7 +232,7 @@ Tada turite susieti naujo formato elementą su ką tik pridėtu duomenų šaltin
 7. Pasirinkite **Įrašyti** ir uždarykite [ER Formulės kūrimo įrankį](general-electronic-reporting-formula-designer.md).
 8. Atkreipkite dėmesį, kad susiejimas buvo pakoreguotas.
 
-    ![Pakoreguotas susiejimas su „ER Operations” kūrimo įrankyje](./media/er-barcode-data-source-bind2.png)
+    ![Pakoreguotas susiejimas su „ER Operations” kūrimo įrankyje.](./media/er-barcode-data-source-bind2.png)
 
 9. Pasirinkite **Įrašyti** ir uždarykite „ER Operations” kūrimo įrankį.
 
@@ -279,7 +277,7 @@ Pasirinkto formato juodraštinė versija pažymėta kaip galima naudoti, kai pal
 6. Pasirinkite **Gerai**.
 7. Peržiūrėti sugeneruotą čekį. Atkreipkite dėmesį, kad brūkšninis kodas buvo sugeneruotas užkoduoti čekio mokėtiną sumą.
 
-    ![Sugeneruotas mokėjimo čekis su brūkšninio kodu „Excel” programoje](./media/er-barcode-data-source-cheque3.png)
+    ![Sugeneruotas mokėjimo čekis su brūkšninio kodu „Excel” programoje.](./media/er-barcode-data-source-cheque3.png)
 
 > [!IMPORTANT]
 > Parodoma išimtis, jei **Brūkšninis kodas** duomenų šaltinio argumentas neatitinka atitinkamų reikalavimų, būdingų brūkšninio kodo formatui. Pavyzdžiui, kai **Brūkšninis kodas** duomenų šaltinis yra iškviečiamas sugeneruoti [EAN-8 ](https://wikipedia.org/wiki/EAN-8) pateikto teksto brūkšninį kodą, parodoma išimtis, jei tekstas viršija septynis simbolius.
@@ -290,7 +288,7 @@ Kaip aprašyta [Spausdintinų FTI formų generavimas](er-generate-printable-fti-
 
 Tačiau, kai naudojate **Brūkšninis kodas** duomenų šaltinį brūkšniniams kodams kurti, šių brūkšninių kodų atvaizdavimas nepriklauso nuo jokio šrifto. Todėl galite lengvai konvertuoti dokumentus, kuriuose yra brūkšniniai kodai, į PDF formatą. Toliau pateiktame paveikslėlyje rodoma sugeneruoto mokėjimo čekio, [konvertuoto](electronic-reporting-destinations.md#OutputConversionToPDF) į PDF, peržiūra, pagrįsta sukonfigūruoto ER[paskirties vietos](electronic-reporting-destinations.md) nustatymu.
 
-![Mokėjimo čekio PDF peržiūra](./media/er-barcode-data-source-cheque4.png)
+![Mokėjimo čekio PDF peržiūra.](./media/er-barcode-data-source-cheque4.png)
 
 ## <a name="limitations"></a>Apribojimai
 
@@ -303,3 +301,6 @@ Tačiau, kai naudojate **Brūkšninis kodas** duomenų šaltinį brūkšniniams 
 - [Elektroninių ataskaitų paskirties vietos](electronic-reporting-destinations.md)
 - [Elektroninių ataskaitų formulių kalba](er-formula-language.md)
 - [NUMERIOFORMATO funkcija](er-functions-text-numberformat.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

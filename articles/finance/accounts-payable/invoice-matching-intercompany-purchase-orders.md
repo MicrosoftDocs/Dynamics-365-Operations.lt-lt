@@ -2,31 +2,31 @@
 title: SF gretinimas ir įmonės vidaus pirkimo užsakymai
 description: Gali būti nustatyta, kad perkantysis juridinis subjektas, kuris susijęs su vidinės įmonės prekybos operacija, naudoja mokėtinų sumų SF gretinimą. Tokiu atveju ir vidinės įmonės prekybos, ir mokėtinų sumų SF gretinimo registravimo reikalavimai turi būti įvykdyti prieš registruojant vidinės įmonės tiekėjo SF.
 author: abruer
-ms.date: 10/26/2017
+ms.date: 02/11/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: PurchLineMatchingPolicy
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 3101
 ms.assetid: 9c7c2e44-45f8-4325-b6de-a09fe790f9cf
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: afa7021278d5dc8ba307ae1cf72504d08660f7ce34dea86ce2e8ca2a709366b0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: e884e96e1275f9162b642bbe48c2d891c6434002
+ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737387"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "8109973"
 ---
 # <a name="invoice-matching-and-intercompany-purchase-orders"></a>SF gretinimas ir įmonės vidaus pirkimo užsakymai
 
 [!include [banner](../includes/banner.md)]
 
-Gali būti nustatyta, kad perkantysis juridinis subjektas, kuris susijęs su vidinės įmonės prekybos operacija, naudoja mokėtinų sumų SF gretinimą. Kai formos **Mokėtinų sumų parametrai** lauke **Registruoti SF su nesutapimais** nustatyta **Reikalauti patvirtinimo**, bus vykdomas SF gretinimo tikrinimas. Tokiu atveju ir vidinės įmonės prekybos, ir mokėtinų sumų SF gretinimo registravimo reikalavimai turi būti įvykdyti prieš registruojant vidinės įmonės tiekėjo SF.
+Gali būti nustatyta, kad perkantysis juridinis subjektas, kuris susijęs su vidinės įmonės prekybos operacija, naudoja mokėtinų sumų SF gretinimą. Kai mokėtinų **sumų parametrų puslapyje** nustatytas laukas **Registruoti SF su nesutapimų** yra nustatytas kaip **Būtinas patvirtinimas**, bus atliktas SF gretinimo tikrinimas. Tokiu atveju ir vidinės įmonės prekybos, ir mokėtinų sumų SF gretinimo registravimo reikalavimai turi būti įvykdyti prieš registruojant vidinės įmonės tiekėjo SF.
 
 Šios temos pavyzdžiuose naudojama toliau pateikta vidinės įmonės prekybos sąranka.
 -   Fabrikam Purchase yra perkantysis juridinis subjektas.
@@ -37,24 +37,24 @@ Gali būti nustatyta, kad perkantysis juridinis subjektas, kuris susijęs su vid
 -   Subjekte Fabrikam Sales nurodoma 4020 kliento įmonės vidaus informacija. Fabrikam Purchase yra nurodytas kaip tiekėjo įmonė, o 3024 tiekėjas yra nurodytas kaip tiekėjo sąskaita, atitinkanti Fabrikam Sales juridinį subjektą.
 
 Pavyzdžiuose naudojama toliau pateikta mokėtinų sumų SF gretinimo sąranka įmonei Fabrikam Purchase.
--   Puslapyje Mokėtinų sumų parametrai pasirinkta parinktis Įgalinti SF gretinimo tikrinimą.
--   Puslapyje Mokėtinų sumų parametrai laukas Registruoti SF su nesutapimais nustatytas į Reikalauti patvirtinimo.
+-   Mokėtinų **sumų parametrų puslapyje** pasirinkta parinktis **Įgalinti SF gretinimo** tikrinimą.
+-   Mokėtinų **sumų parametrų** puslapyje laukas **Registruoti SF su nesutapimų** nustatytas kaip **Reikalauti patvirtinimo**.
 -   Leistino juridinio subjekto kainų nuokrypio procentas yra 2 procentai.
 
 ## <a name="example-price-matching-and-intercompany-trade"></a> Pavyzdys: kainos gretinimas ir įmonės vidaus prekyba
 Vidinės įmonės tiekėjo SF ir vidinės įmonės kliento SF grynosios sumos turi būti lygios. Šiuo reikalavimu nepaisomi bet kokie taikomi SF gretinimo patvirtinimai ar leistino kainos nuokrypio procentai. Pavyzdžiui, atliekate toliau nurodytus veiksmus.
 1.  Subjekte Fabrikam Purchase 4020 klientui sukurti pardavimo užsakymą SO888. Vidinės įmonės pirkimo užsakymas ICPO222 automatiškai kuriamas tiekėjui 3024 Fabrikam Purchase įmonėje ir pardavimo užsakymas ICSO888 automatiškai kuriamas Fabrikam Sales įmonėje.
 2.  Subjekte Fabrikam Sales uržregistruoti, kad prekės gautos, ir registruoti važtaraštį. ICSO888 būsena pakito į – pristatyta. ICPO222 būsena pakito – gauta.
-3.  Subjekte Fabrikam Sales atnaujinti SF ICSO888. Vieneto kaina yra 0,45, ir atnaujinta 100 prekių.
+3.  Fabrikam Sales atnaujinkite ICSO888 SF. Vieneto kaina yra 0,45, ir atnaujinta 100 prekių.
 4.  Subjekte Fabrikam Purchase sukurti SF ICPO222. Netyčia grynąją kainą pakeičiate iš 45,00 į 54,00. Rodoma piktograma, kuri nurodo, kad kaina leistiną kainos nuokrypį viršija 2 procentais.
-5.  Puslapyje SF gretinimo informacija pasirinkite parinktį, kuria patvirtinamas registravimas su gretinimo nesutapimais. Puslapyje Tiekėjo SF spustelėkite Gerai. Jei tiekėjo SF nebūtų vidinės įmonės tiekėjo SF, registravimas būtų sėkmingas. Tačiau, kadangi dirbate su vidinės įmonės tiekėjo SF, registravimas yra nesėkmingas. Vykdant vidinės įmonės prekybą, vidinės įmonės pardavimo užsakymo SF sumos turi būti lygios atitinkamo vidinės įmonės pirkimo užsakymo SF sumoms. Norėdami išspręsti šią problemą, turite pataisyti SF grynąją kainą, ją grąžindami į numatytąją kainą – 45,00.
+5.  Informacijos apie SF **gretinimą** puslapyje pasirinkite pasirinktį, norėdami patvirtinti registravimą gretinimo nesutapimų. **Tiekėjo SF puslapyje** spustelėkite **Gerai**. Jei tiekėjo SF nebūtų vidinės įmonės tiekėjo SF, registravimas būtų sėkmingas. Tačiau, kadangi dirbate su vidinės įmonės tiekėjo SF, registravimas yra nesėkmingas. Vykdant vidinės įmonės prekybą, vidinės įmonės pardavimo užsakymo SF sumos turi būti lygios atitinkamo vidinės įmonės pirkimo užsakymo SF sumoms. Norėdami išspręsti šią problemą, turite pataisyti SF grynąją kainą, ją grąžindami į numatytąją kainą – 45,00.
 
 ## <a name="example-quantity-matching-with-intercompany-trade"></a> Pavyzdys: kiekio gretinimas su vidinės įmonės prekyba
 Vidinės įmonės pirkimo ir pardavimo užsakymo kiekiai turi būti lygūs. Šiuo reikalavimu nepaisomi bet kokie taikomi SF gretinimo patvirtinimai. Šiame pavyzdyje naudojama toliau nurodyta papildoma vidinės įmonės prekybos sąranka.
 -   Subjekte Fabrikam Purchase 3024 tiekėjo veiksmų strategija nustatoma automatiškai registruoti tiek pradinę kliento SF, tiek vidinės įmonės tiekėjo SF.
 
 Šiame pavyzdyje naudojama toliau nurodyta papildoma mokėtinų sumų SF gretinimo įmonei Fabrikam Purchase sąranka.
--   Modelių grupės, kurią naudoja prekė B-R14, Prekių modelių grupių puslapyje, pasirinkta parinktis Gavimo reikalavimai.
+-   Modelių grupės **, kurią naudoja** prekė B-R14, **puslapyje Prekių modelių grupės pasirinkta parinktis** Gavimo reikalavimai.
 -   Turimas B-R14 prekės kiekis 0 (nulis).
 
 Pavyzdžiui, atliekate toliau nurodytus veiksmus.

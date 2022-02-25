@@ -1,16 +1,13 @@
 ---
 title: Naršymo kelio modulis
-description: Šioje temoje aprašomi naršymo kelio moduliai ir tai, kaip jų įtraukti į „Microsoft Dynamics 365 Commerce“ svetainių puslapius.
+description: Šioje temoje aprašomi „duonos trupinėlių“ (angl. breadcrumb) moduliai ir tai, kaip jų įtraukti į „Microsoft Dynamics 365 Commerce“ svetainių puslapius.
 author: anupamar-ms
-manager: annbe
 ms.date: 10/20/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -18,20 +15,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: ec9f5c72b03d9fd76055369e24491db5c7633cdf
-ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
-ms.translationtype: HT
+ms.openlocfilehash: f387b6353e58ebb454b74568ddc17ae6d25d7e36
+ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "4517165"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "8109737"
 ---
 # <a name="breadcrumb-module"></a>Naršymo kelio modulis
 
 [!include [banner](includes/banner.md)]
 
-Šioje temoje aprašomi naršymo kelio moduliai ir tai, kaip jų įtraukti į „Microsoft Dynamics 365 Commerce“ svetainių puslapius.
-
-## <a name="overview"></a>Peržiūra
+Šioje temoje aprašomi „duonos trupinėlių“ (angl. breadcrumb) moduliai ir tai, kaip jų įtraukti į „Microsoft Dynamics 365 Commerce“ svetainių puslapius.
 
 Naršymo kelio moduliai naudojami antrinei navigacijai svetainės puslapiuose. Jis paprastai rodomas puslapio viršuje, po antrašte. Nors naršymo kelio modulius galima įtraukti į bet kurį puslapį, dažniausiai jie naudojami produkto informacijos puslapiuose (PDP), kad būtų rodoma produktų kategorijų hierarchija ir būtų užtikrintas greitas būdas naršyti po svetainę. Naršymo kelio modulis taip pat gali būti naudojamas siekiant parodyti saitą „Atgal į rezultatus“, kai vartotojai atidaro PDP ieškos ar sąrašo puslapyje. Šitaip vartotojai gali greitai grįžti prie filtruoto sąrašo puslapio ir tęsti apsipirkimą.
 
@@ -42,7 +37,7 @@ Puslapiuose, kurie turi produktų kategorijos konteksto, pvz., PDP ir kategorijo
 
 Toliau pateiktame paveikslėlyje parodytas naršymo kelio modulio pavyzdys, rodantis kategorijų hierarchiją PDP.
 
-![Naršymo kelio modulio pavyzdys](./media/ecommerce-breadcrumb.PNG)
+![Naršymo kelio modulio pavyzdys.](./media/ecommerce-breadcrumb.PNG)
 
 ## <a name="breadcrumb-module-settings"></a>Naršymo modulio parametrai
 
@@ -95,3 +90,6 @@ Norėdami į PDP įtraukti naršymo kelio modulį ir nustatyti reikiamas ypatybe
 [Pirkimo langelio modulis](add-buy-box.md)
 
 [SDK ir modulių bibliotekos naujinimai](e-commerce-extensibility/sdk-updates.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 20085c51230d3ceca46c5119fecbc3cf3291ecd4
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.openlocfilehash: 031b92f827979c01dbf0208ba21ae827fb13920b
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7578565"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103493"
 ---
 # <a name="location-product-dimension-mixing"></a>Vietos produkto dimensijos maišymas
 
@@ -26,12 +26,9 @@ ms.locfileid: "7578565"
 
 Vietos produkto dimensijos maišymas yra vietos profilio funkcija, padedanti pagerinti vietos valdymą, kai produkto variantai arba produktai, turintys dimensijas, yra naudojami pvz., mados industrijoje. Ji leidžia Jums nuspręsti, ar konfigūracijas, spalvas, stilius ir dydžius galima maišyti tam tikram vietos profiliui, taip pat ar vieną iš šių dimensijų arba jų derinį galima įtraukti į tą pačią vietą.
 
-## <a name="turn-on-the-location-product-dimension-mixing-feature"></a>Vietos produkto dimensijos maišymo funkcijos įjungimas
+## <a name="turn-the-location-product-dimension-mixing-feature-on-or-off"></a>Įjungti arba išjungti vietos produkto dimensijų maišymo priemonę
 
-Norėdami naudoti vietos produkto dimensijos maišymą, ši funkcija turi būti įjungta jūsų sistemoje. Administratoriai gali naudoti [Funkcijos valdymas](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) darbo sritį, norėdami sužinoti funkcijos būseną ir įjungti ją, jei reikia. Ten ši funkcija pateikiama taip:
-
-- **Modulis:** *sandėlio valdymas*
-- **Funkcijos pavadinimas:** *Vietos produkto dimensijos maišymas*
+Norint naudoti šioje temoje aprašytas funkcijas, *jūsų sistemai turi* būti įjungta vietos produkto dimensijų maišymo funkcija. Kaip ir tiekimo grandinės valdymas 10.0.25 ši funkcija yra privaloma ir jos išjungti negalima. Jei naudojate senesnę nei 10.0.25 versiją, tada *·*[administratoriai gali įjungti arba išjungti šią funkciją ieškodami vietos produkto dimensijų maišymo funkcijos funkcijų valdymo](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) darbo srityje.
 
 ## <a name="setup"></a>Sąranka
 

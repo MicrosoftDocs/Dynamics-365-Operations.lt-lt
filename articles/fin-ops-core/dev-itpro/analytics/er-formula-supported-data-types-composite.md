@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 72b97b2f7091883e445b2e8474ca140217bda004b0c4d8988411b9ed4209e254
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: bf7178888e39a5f26ae92e77df9c996374b76bf3
+ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6758269"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323670"
 ---
 # <a name="supported-composite-data-types-for-electronic-reporting-formulas"></a>Palaikomi elektroninių ataskaitų formulių sudėtiniai duomenų tipai
 
@@ -27,7 +27,7 @@ ms.locfileid: "6758269"
 
 Duomenų tipas *klasė* nurodo viešą programos klasė. ER jis pateikiamas kaip [*įrašas*](#record) kuriame yra atskiras kiekvieno viešo nuorodos klasės metodo laukas. Kai metodo iškvietimas yra parametras, taip pat turite nurodyti reikalingus atitinkamų tipų argumentus ER išraiškoje, kuri sukonfigūruota iškviesti metodą.
 
-ER [žemėlapyje](general-electronic-reporting.md#data-model-and-model-mapping-components) ir [formatė](general-electronic-reporting.md#FormatComponentOutbound) sudedamosios dalys, kurias galite įtraukti į **Klasės** duomenų šaltinius, kurie pristatomi kaip duomenų šaltinis ir grąžina *klasės* tipo vertę. Šis duomenų šaltinis parodo viešąjį klasės, kuri gali būti iškviesta apdorojimo metu, metodus.
+ER susiejime ir formato komponentuje galite įtraukti klasės duomenų šaltinį, **kuris** pateikiamas kaip duomenų šaltinis ir pateikia klasės tipo *vertę*. Šis duomenų šaltinis parodo viešąjį klasės, kuri gali būti iškviesta apdorojimo metu, metodus.
 
 > [!NOTE]
 > Tik vertės grąžinimo metodai gali būti iškviesti iš ER išraiškų.

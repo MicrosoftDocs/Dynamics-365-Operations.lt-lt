@@ -1,12 +1,10 @@
 ---
 title: El. pašto ER paskirties vietos tipas
-description: Šioje temoje paaiškinama, kaip sukonfigūruoti elektroninių ataskaitų (ER) formato, kuris sukonfigūruotas siunčiamiems dokumentams generuoti, kiekvieno APLANKO ar FAILO komponento el. pašto paskirties vietą.
+description: Šioje temoje paaiškinama, kaip konfigūruoti el. pašto paskirties vietą kiekvienam APLANKO ar FAILO komponentui elektroninių ataskaitų (ER) formatu.
 author: NickSelin
-manager: AnnBe
-ms.date: 12/03/2020
+ms.date: 08/03/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: DocuType, ERSolutionTable, ERFormatDestinationTable
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: c6242ecb44a206aacc0e1b1b3c4f588eadd18882
-ms.sourcegitcommit: 53174ed4e7cc4e1ba07cdfc39207e7296ef87c1f
-ms.translationtype: HT
+ms.openlocfilehash: 2248b8a35b076eb778a50bbbc67d083380ceee62
+ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/07/2020
-ms.locfileid: "4690131"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8324013"
 ---
 # <a name="email-er-destination-type"></a>El. pašto ER paskirties vietos tipas
 
@@ -44,28 +42,59 @@ Taip pat galite [sugrupuoti](#grouping) kelis komponentus **Aplankas** ar **Fail
 
 Vieno ER formato konfigūracijoje galima sukonfigūruoti kelias komponentų grupes. Tokiu būdu galite konfigūruoti el. pašto paskirties vietą kiekvienai komponentų grupei ir el. pašto paskirties vietą kiekvienam komponentui.
 
+## <a name="enable-an-email-destination"></a>El. pašto paskirties vietos įgalinimas
+
+Norėdami siųsti vieną ar daugiau išvesties failų el. paštu, atlikite šiuos veiksmus.
+
+1. Norėdami **Elektroninės SF vietą** puslapyje **Failo paskirtis** „FastTab“, rinkitės komponentą ar jų grupę tinklelyje..
+2. Rinkitės **Nustatymai** ir tada **Paskirties nustatymai** teksto laukelyje **El. paštas** skirtuke nustatykite **Įjungti** paskirtį į **Taip**.
+
+[![El. pašto paskirties vietą parinkties Įjungta nustatymas į parametrą Taip.](./media/ER_Destinations-EnableSingleDestination.png)](./media/ER_Destinations-EnableSingleDestination.png)
+
 ## <a name="configure-an-email-destination"></a>El. pašto paskirties vietos konfigūravimas
 
-Norėdami nusiųsti išvesties failą arba keletą išvesties failų el. paštu, puslapio **Elektroninų ataskaitų paskirties vieta** „FastTab“ **Failo paskirties vieta** pasirinkite komponentą arba komponentų grupę tinklelyje, tada pasirinkite **Parametrai**. Atsiradusiame dialogo lange **Paskirties parametrai**, skirtuke **El. paštas** nustatykite parinktį **Įjungta** į parametrą **Taip**. Tada galite nurodyti el. laiško gavėjus ir redaguoti el. laiško temą bei tekstą. Galite nustatyti nuolatinį el. laiško temos ir laiško tekstą arba galite naudoti ER [formules](er-formula-language.md), norėdami el. laiškų tekstą kurti dinamiškai.
+### <a name="email-content"></a>El. laiško turinys
+
+Galite redaguoti el. laiško temą ir tekstą.
+
+Lauke **Tema** įveskite el. laiško temos tekstą, kuris turi būti rodomas vykdymo metu sugeneruoto elektroninio laiško temos lauke. Lauke **Tekstas** įveskite el. laiško tekstą, kuris turi būti rodomas elektroninio laiško teksto lauke. Galite nustatyti nuolatinį el. laiško temos tekstą ir turinio tekstą arba galite naudoti ER [formules](er-formula-language.md), norėdami el. laiškų tekstą kurti dinamiškai vykdymo metu. Sukonfigūruota formulė turi pateikti tipo [Eilutė](er-formula-supported-data-types-primitive.md#string) vertę.
+
+Jūsų el. laiško tekstas kuriamas TEKSTINIU arba HTML formatu, tai priklauso nuo el. pašto kliento. Galite naudoti bet kurį maketą, stilių ir prekės ženklus, kuriuos leidžia HTML ir įdėtieji pakopinio stiliaus aprašai (CSS).
+
+> [!NOTE]
+> El. pašto klientai įveda maketo ir stiliaus apribojimus, dėl kurių gali reikėti atlikti HTML ir CSS, naudojamų pranešimo tekste, koregavimus. Rekomenduojame susipažinti su geriausia HTML kūrimo praktika, kurią palaikys populiariausi el. pašto klientai.
+>
+> Naudokite tinkamą kodavimą, kad įdiegtumėte grįžimo į eilutės pradžią funkciją, priklausančią nuo teksto formatavimo. Daugiau informacijos ieškokite duomenų tipo [Eilutė](er-formula-supported-data-types-primitive.md#string) apibrėžtyje.
+
+### <a name="email-addresses"></a>El. pašto adresai
+
+Galite nurodyti el. laiško siuntėją ir el. laiško gavėjus. Pagal numatytuosius parametrus el. laiškas siunčiamas dabartinio vartotojo vardu. Norėdami nurodyti kitą el. laiško siuntėją, turite konfigūruoti lauką **Iš**.
+
+> [!NOTE]
+> Kai el. pašto paskirties vieta sukonfigūruota, **Iš** lauko, kuris matomas tik vartotojams turintiems `ERFormatDestinationSenderEmailConfigure` saugumo teises, **Konfigūruoti siuntėjo el. pašto adresą ER formato paskirtims**.
+>
+> Kai el. pašto paskirtis yra siūloma keisti [vykdymo laiku](electronic-reporting-destinations.md#security-considerations), laukelyje **Froma** yra matoma tik vartotojams, turintiems `ERFormatDestinationSenderEmailMaintain` saugos teises, **Išlaikyti siuntėjo el. pašto adresą ER formato paskirčiai**.
+>
+> Kai **Fromos** laukelis yra konfigūruojamas siekiant naudoti el. pašto adresą, o ne esamo vartotojo, arba **Siųsti kaip** ar **Siųsti kieno vardu** teisės turi būti tinkamai [nustatytos](/microsoft-365/solutions/allow-members-to-send-as-or-send-on-behalf-of-group) iš anksto. Kitu atveju vykdymo metu pateikiama ši išimtis: „Nepavyko siųsti el. laiško kaip iš abonemento, patikrinkite teises Siųsti kaip" skyriuje \<from email account\> iš \<current user account\> bei\<from email account\>.
+
+Galite konfigūruoti lauką **Iš**, kad būtų grąžinamas daugiau nei vienas el. pašto adresas. Šiuo atveju, vardas sąraše naudojamas kaip el. pašto siuntėjo adresas.
+
+Norėdami nurodyti el. pašto gavėjus, turite sukonfigūruoti **Į** ir **Kopija** (pasirinktinai).
 
 ER el. pašto adresus galite konfigūruoti dviem būdais. Konfigūravimą galima baigti taip pat, kaip jį baigia spausdinimo valdymo funkcija, arba galima nustatyti el. pašto adresą, naudojant tiesioginę nuorodą į ER konfigūraciją per formulę.
 
-[![El. pašto paskirties vietą parinkties Įjungta nustatymas į parametrą Taip](./media/ER_Destinations-EnableSingleDestination.png)](./media/ER_Destinations-EnableSingleDestination.png)
-
 ## <a name="email-address-types"></a>El. pašto adresų tipai
 
-Jei dialogo lange **Paskirties parametrai** pasirinksite parinktį **Redaguoti**, esančią šalia lauku **Kam** arba **Kopija**, bus rodomas dialogo langas **Siųsti el. laišką**. Pasirinkite **Įtraukti**, tada pasirinkite norimą naudoti el. pašto adreso tipą. Šiuo metu palaikomi du tipai: **Spausdinimo valdymo el. laiškas** ir **Konfigūravimo el. laiškas**.
+Jei rinksitės **Redaguoti** šalia **Iš**, **į** ar **Kopijos** laukelio **Paskirties nustatymų** teksto laukelyje, atitinkamas **El. paštas iš**, **El. laiško kam**, ar **El. laiško kopija** teksto laukelis pasirodys. Ten galite konfigūruoti el. laiško siuntėją ir el. pašto gavėjus. Pasirinkite **Įtraukti**, tada pasirinkite norimą naudoti el. pašto adreso tipą. Šiuo metu palaikomi du tipai: **Spausdinimo valdymo el. laiškas** ir **Konfigūravimo el. laiškas**.
 
-[![El. pašto adreso tipo pasirinkimas](./media/ER_Destinations-EmailSelectAddressType.png)](./media/ER_Destinations-EmailSelectAddressType.png)
+[![El. pašto adreso tipo pasirinkimas.](./media/ER_Destinations-EmailSelectAddressType.png)](./media/ER_Destinations-EmailSelectAddressType.png)
 
 ### <a name="print-management-email"></a>Spausdinimo valdymo el. paštas
 
-Jei pasirinksite **Spausdinimo valdymo el. laiškas** kaip el. pašto adreso tipą, galite įvesti fiksuotus el. pašto adresus dialogo lange **Siųsti el. laišką** nustatydami toliau nurodytus laukus.
+Jei rinksitės **Spausdinti valdymo el. paštą** kaip el. pašto adreso tipą, galite įvesti pastovius el. pašto adresus **El. laiškas iš**, **El. laiškas kam**, ar **El. laiško kopija** teksto laukelį nustatydami tolesnius laukelius:
 
 - Lauke **El. pašto šaltinis** pasirinkite **Nėra**.
 - Lauke **Papildomi el. pašto adresai, atskirti „;“** įveskite fiksuotus el. pašto adresus.
-
-![Fiksuotų el. pašto adresų konfigūravimas](./media/er_destinations-emailfixedaddress.png)
 
 Taip pat galite gauti el. pašto adresus iš šalies, kurios siuntimo dokumentas generuojamas, kontaktinės informacijos. Norėdami naudoti nefiksuotus el. pašto adresus, lauke **El. pašto šaltinis** pasirinkite failo paskirties vietos [vaidmenį](../../fin-ops/organization-administration/overview-global-address-book.md#party-roles). Palaikomi toliau nurodyti vaidmenys.
 
@@ -78,6 +107,7 @@ Taip pat galite gauti el. pašto adresus iš šalies, kurios siuntimo dokumentas
 - Pretendentas
 - Galimas tiekėjas
 - Neleidžiamas tiekėjas
+- Juridinis subjektas
 
 Pavyzdžiui, norėdami sukonfigūruoti ER formato el. pašto paskirties vietą, kuri naudojama tiekėjo mokėjimams apdoroti, pasirinkite vaidmenį **Tiekėjas**.
 
@@ -88,11 +118,9 @@ Pasirinkę pageidaujamą vaidmenį, spustelėkite mygtuką **Susieti** (grandin�
 
 Puslapio **Formulės dizino įrankis** lauke **Formulė** įveskite konkretaus dokumento nuorodą į palaikomą vaidmenį. Užuot įvedę nuorodą, srityje **Duomenų šaltinis** raskite ir pasirinkite duomenų šaltinio mazgą, kuris nurodo sukonfigūruoto vaidmens sąskaitą, tada pasirinkite **Įtraukti duomenų šaltinį**, kad atnaujintumėte formulę. Pvz., jei sukonfigūruosite el. pašto paskirties vietą, skirtą konfigūracijai **ISO 20022 kreditų perkėlimas**, kuri naudojama tiekėjo mokėjimams apdoroti, tiekėjo sąskaitą nurodantis mazgas yra `'$PaymentsForCoveringLetter'.Creditor.Identification.SourceID`.
 
-![El. pašto šaltinio sąskaitos konfigūravimas](./media/er_destinations-emaildefineaddresssource.gif)
+![El. pašto šaltinio sąskaitos konfigūravimas.](./media/er_destinations-emaildefineaddresssource.gif)
 
 Jei sukonfigūruoto vaidmens sąskaitų numeriai yra unikalūs visame „Microsoft Dynamics 365 Finance“ egzemplioriuje, dialogo lango **Siųsti el. laišką** laukas **El. pašto šaltinio įmonė** gali likti tuščias.
-
-![Tuščias laukas El. pašto šaltinio įmonė](./media/er_destinations-emaildefineaddresssourceformula.png)
 
 Taip pat gali būti, kad skirtingose įmonėse ([juridiniuose subjektuose](../../fin-ops/organization-administration/organizations-organizational-hierarchies.md#legal-entities)) užregistruotos skirtingos [bendrosios adresų knygelės](../../fin-ops/organization-administration/overview-global-address-book.md) šalys taip, kad jos naudoja tą patį sąskaitos numerį, kad užpildytų sukonfigūruotą vaidmenį. Šiuo atveju sukonfigūruoto vaidmens sąskaitų numeriai nėra unikalūs visame „Finance“ egzemplioriuje. Todėl tam, kad tiesiogiai pasirinktumėte šalį, negalite nurodyti tik sąskaitos numerio. Taip pat turite nurodyti įmonę, kurioje šalis buvo įregistruota, kad būtų galima įvesti sukonfigūruotą vaidmenį. Pasirinkę mygtuką **Susieti** (grandinės simbolis), esantį greta dialogo lango **Siųsti el. laišką** lauko **El. pašto šaltinio įmonė**, kad atidarytumėte puslapį [Formulės dizaino įrankis](general-electronic-reporting-formula-designer.md). Tada galite naudoti šį puslapį, kad sukonfigūruotumėte formulę, kuri vykdymo metu pateikė, įmonės, kuriai reikia surasti pageidaujamą šaltinį, kodą.
 
@@ -110,13 +138,11 @@ Norėdami nurodyti el. pašto adresų, kurie turi būti naudojami vykdymo metu, 
 > [!NOTE]
 > Jei lauke **Paskirtis** pasirenkami tikslai ir parinktis **Pagrindinis kontaktas** nustatoma į parametrą **Taip** tuo pačiu metu, kiekvienas el. laiškas, atitinkantis bent vieną sukonfigūruotą kriterijų, bus naudojamas vykdymo metu.
 
-![El. pašto šaltinio atributų sąskaitos konfigūravimas](./media/er_destinations-emaildefineaddresssourceattributes.png)
-
 ### <a name="configuration-email"></a>Konfigūravimo el. laiškas
 
-Pasirinkite **konfigūracijos el. pašto adresą** kaip el. pašto adreso tipą, jei naudojama konfigūracija yra duomenų šaltinių, kurie pateikia vieną el. pašto adresą arba keletą el. pašto adresų, atskirtų kabliataškiais (;), mazgas. Formulių dizaino įrankyje galite naudoti [duomenų šaltinius](general-electronic-reporting.md#FormatComponentOutbound) ir [funkcijas](er-formula-language.md#functions), norėdami gauti tinkamai suformatuotą el. pašto adresą arba tinkamai suformatuotus el. pašto adresus, atskirtus kabliataškiais. Pavyzdžiui, jei naudojate konfigūraciją **ISO 20022 kredito perkėlimas**, mazgas, kuris nurodo pirminį tiekėjo el. pašto adresą iš tiekėjo kontaktinės informacijos, į kurią turi būti siunčiamas lydraštis, yra `'$PaymentsForCoveringLetter'.Creditor.ContactDetails.Email`.
+Pasirinkite **konfigūracijos el. pašto adresą** kaip el. pašto adreso tipą, jei naudojama konfigūracija yra duomenų šaltinių, kurie pateikia vieną el. pašto adresą arba keletą el. pašto adresų, atskirtų kabliataškiais (;), mazgas. Norėdami gauti tinkamai suformatuotą [el](er-formula-language.md#Functions) . pašto adresą arba tinkamai suformatuotą el. pašto adresus, atskirtus kabliataškiais, galite naudoti duomenų šaltinius ir funkcijas. Pavyzdžiui, jei naudojate konfigūraciją **ISO 20022 kredito perkėlimas**, mazgas, kuris nurodo pirminį tiekėjo el. pašto adresą iš tiekėjo kontaktinės informacijos, į kurią turi būti siunčiamas lydraštis, yra `'$PaymentsForCoveringLetter'.Creditor.ContactDetails.Email`.
 
-[![El. pašto adreso šaltinio konfigūravimas](./media/ER_Destinations-EmailDefineAddressSource2.png)](./media/ER_Destinations-EmailDefineAddressSource2.png)
+[![El. pašto adreso šaltinio konfigūravimas.](./media/ER_Destinations-EmailDefineAddressSource2.png)](./media/ER_Destinations-EmailDefineAddressSource2.png)
 
 ## <a name="group-format-components"></a><a id="grouping"></a>Formato komponentų grupė
 
@@ -134,14 +160,17 @@ Norėdami išgrupuoti formato komponentus, „FastTab“ **Failo paskirties viet
 
 Toliau pateiktoje iliustracijoje vaizduojama ER formato struktūra, sukonfigūruota, kad būtų sukurtas suglaudintas siunčiamas failas, kuriame yra priminimo laiško pastaba ir tinkamos kliento SF PDF formatu.
 
-[![Siuntimo dokumentus generuojančio ER formato struktūra](./media/ER_Destinations-Email-Grouping1.png)](./media/ER_Destinations-Email-Grouping1.png)
+[![Siuntimo dokumentus generuojančio ER formato struktūra.](./media/ER_Destinations-Email-Grouping1.png)](./media/ER_Destinations-Email-Grouping1.png)
 
 Toliau pateiktoje iliustracijoje parodytas šioje temoje aprašytas atskirų komponentų grupavimo ir naujos grupės **el. pašto** paskirties vietos procesas, kad priminimo laiško pažyma būtų išsiųsta kartu su atitinkamomis kliento SF kaip el. laiško priedai.
 
-[![Atskirų komponentų grupavimas ir el. pašto paskirties vietos įjungimas](./media/ER_Destinations-Email-Grouping2.gif)](./media/ER_Destinations-Email-Grouping2.gif)
+[![Atskirų komponentų grupavimas ir el. pašto paskirties vietos įjungimas.](./media/ER_Destinations-Email-Grouping2.gif)](./media/ER_Destinations-Email-Grouping2.gif)
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 - [Elektroninių ataskaitų (ER) apžvalga](general-electronic-reporting.md)
 - [Elektroninių ataskaitų (ER) paskirties vietos](electronic-reporting-destinations.md)
 - [Elektroninių ataskaitų (ER) formulių kūrimo įrankis](general-electronic-reporting-formula-designer.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

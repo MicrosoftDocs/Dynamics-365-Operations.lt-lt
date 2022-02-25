@@ -2,7 +2,7 @@
 title: Generuoti finansines ataskaitas
 description: Šioje temoje parašoma informacija apie finansinės ataskaitos generavimą.
 author: jinniew
-ms.date: 03/08/2021
+ms.date: 02/08/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 101cf2b29bb6f91cec5a3dac0be30b53388905c96ecf481f5b7b3e90cda3f804
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 00a860089265800ca1a0058f222d5e85c360501c
+ms.sourcegitcommit: 6a269db08e8bb3bb3405c9f4a512091d13c80faa
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6740268"
+ms.lasthandoff: 02/14/2022
+ms.locfileid: "8119532"
 ---
 # <a name="generate-financial-reports"></a>Generuoti finansines ataskaitas
 
@@ -28,14 +28,27 @@ ms.locfileid: "6740268"
 
 Šioje temoje parašoma informacija apie finansinės ataskaitos generavimą.
 
-Norėdami sugeneruoti ataskaitą, atidarykite ataskaitos aprašą ir tada pasirinkite mygtuką **Generuoti** įrankių juostoje. Atsidarys **Ataskaitos eilės būsena** puslapis ir nurodys jūsų ataskaitos vietą eilėje. Pagal numatytuosius parametrus, sugeneruota ataskaita bus atidaroma žiniatinklio peržiūros programoje.
+Norėdami sugeneruoti ataskaitą, atidarykite ataskaitos aprašą ir įrankių juostoje pasirinkite **Generuoti**. Atidaroma **ataskaitų darbo** grupės būsenos puslapis, kuris nurodo jūsų ataskaitos vietą eilėje.
 
-Galima naudoti toliau nurodytas ataskaitų generavimo parinktis.
+Kai vyksta ataskaitos generavimas, šie ataskaitų eilės būsenos indikatoriai gali būti matomi ataskaitos **eilės būsenos** puslapyje.
+
+| Būsena          | Apskritis | Aprašymas|
+|-----------------|--------|--------------------|
+| Perkeliama į eilę        | Laikinosios |Ataskaitos aprašas tikrinamas prieš ataskaitos įeidami į generavimo eilę.                    |
+| Darbo grupėje          | Laikinosios | Ataskaita įveda ataskaitos generavimo eilę ir laukia, kol ji bus apdorota.                      |
+| Vykdoma      | Laikinosios | Ši būsena paprastai yra po darbo eilėje **būsenos** ir paprastai pereina į **galutinę** būseną, kai baigiama apdoroti.       |
+| PostProcessing | Laikinosios | Ši būsena seka po apdorojimo būsenos **ir nurodo, kad visi ataskaitos duomenys surinkti, bet šie veiksmai, pvz., skaičiavimas** ir sumavimas, yra atliekami.            |
+| Atšaukiama      | Laikinosios | Vartotojo pageidavimu ataskaitos atšaukiamos. Ši būsena nustatyta pagal vartotojo reikalaujamo atšaukimo ataskaitą, kurios būsena Darbo **grupės arba** **Apdorojimas**. Sistema bando nustatyti ataskaitos būseną **Atšaukta**, nebent sistema yra per toli ir turi užbaigti ją kitoje būsenoje. |
+| Atšauktas        | Galutinis | Ataskaita baigta apdoroti, bet ji nebaigta dėl vartotojo reikalaujamo stabdymo.            |
+| Užbaigta       | Galutinis | Ataskaita paruošta naudoti.                      |
+| Atlikta nesėkmingai          | Galutinis | Ataskaita baigta, bet jos atlikti nepavyko, todėl jos naudoti negalima. |
+
+Pagal numatytuosius parametrus, sugeneruota ataskaita bus atidaroma žiniatinklio peržiūros programoje. Galima naudoti toliau nurodytas ataskaitų generavimo parinktis.
 
 - Nustatykite grafiką, pagal kurį ataskaita arba ataskaitų grupė bus sugeneruota automatiškai
 - Patikrinkite, ar ataskaitoje netrūksta sąskaitų arba duomenų, ir patikrinkite ataskaitos tikslumą
 
-Generuojant ataskaitą, naudojamos parinktys, kurias nurodėte skirtukuose Ataskaitos aprašas.
+Generuojant ataskaitą naudojamos pasirinktys, kurias nurodėte ataskaitos aprašo skirtukuose.
 
 ## <a name="generate-a-financial-report"></a>Generuoti finansinę ataskaitą
 
@@ -61,9 +74,9 @@ Ataskaitų grupės yra efektyvus būdas vienu metu generuoti keletą ataskaitų.
 4. Įrašykite ataskaitų grupę.
 
 ## <a name="schedule-report-generation"></a>Ataskaitos generavimo planavimas
-Siekdamos laikytis verslo procesų, daug įmonių turi pagrindinį ataskaitų, kurios rengiamos suplanuotais intervalais, rinkinį. Galite suplanuoti, kad ataskaita būtų generuojama reguliariai, pavyzdžiui, kasdien, kas savaitę, kas mėnesį arba kasmet. Tai gali būti viena ataskaita arba ataskaitų grupė, į kurią būtų įtrauktos kelios įmonės. Reikia įvesti jums suteiktus kredencialus (kiekvienos nurodytos įmonės), kurie pateikti ataskaitų medžio apraše. Jei kredencialai netinkami, ataskaitoje bus rodoma tik ta informacija, kurią pasiekti turite teisę, pavyzdžiui, įmonė, prie kurios tuo metu esate prisiregistravę. Išvesties informacija pirmiausia skaitoma iš ataskaitos grupės, o tada – iš atskirų ataskaitų.
+Siekdamos laikytis verslo procesų, daug įmonių turi pagrindinį ataskaitų, kurios rengiamos suplanuotais intervalais, rinkinį. Galite suplanuoti, kad ataskaita būtų generuojama reguliariai, pavyzdžiui, kasdien, kas savaitę, kas mėnesį arba kasmet. Tai gali būti viena ataskaita arba ataskaitų grupė, į kurią būtų įtrauktos kelios įmonės. Reikia įvesti jums suteiktus kredencialus (kiekvienos nurodytos įmonės), kurie pateikti ataskaitų medžio apraše. Jei kredencialai negalioja, ataskaitoje bus rodoma tik informacija, kurią turite prieigos teisė, pvz., įmonė, prie kurios tuo metu esate prisiregistravę. Išvesties informacija pirmiausia skaitoma iš ataskaitos grupės, o tada – iš atskirų ataskaitų.
 
-Sukūrus ir įrašius ataskaitų grafikus, jie bus rodomi naršymo srities dalyje Ataskaitų grafikai. Galite sukurti ataskaitoms tvarkyti skirtus aplankus. Jei viena į grafiką įtraukta ataskaita nepaleidžiama, visos kitos ataskaitos bus paleidžiamos.
+Kadangi ataskaitos grafikai sukuriami ir įrašomi, jie rodomi ataskaitų grafikų naršymo srityje. Galite sukurti ataskaitoms tvarkyti skirtus aplankus. Jei viena į grafiką įtraukta ataskaita nepaleidžiama, visos kitos ataskaitos bus paleidžiamos.
 
 > [!IMPORTANT]
 > Norint kurti, modifikuoti ar panaikinti ataskaitų grafikus, jums turi būti suteiktas dizainerio arba administratoriaus vaidmuo. Vykdant ataskaitą, vartotojo, sukūrusio grafiką, kredencialai naudojami ataskaitai generuoti.
@@ -99,13 +112,13 @@ Kad galėtumėte panaikinti ataskaitos grafiką, turite būti ataskaitos grafiko
 
 1. Ataskaitų kūrimo įrankyje, naršymo srityje pasirinkite **Ataskaitų grafikai**.
 2. Pasirinkti ataskaitų grafiką, kurį norite panaikinti, ir tada pasirinkite **Naikinti** arba paspauskite klavišą **Naikinti**.
-3. Naikinimo patvirtinimo dialogo lange pasirinkite **Taip** norėdami visam laikui panaikinti ataskaitos grafiką. Jei neturite teisės naikinti grafiko, rodomas pranešimas, ir ataskaita nepanaikinama.
+3. Naikinimo patvirtinimo dialogo lange pasirinkite **Taip** norėdami visam laikui panaikinti ataskaitos grafiką. Jei neturite teisės naikinti grafiko, bus rodomas pranešimas, o ataskaita nebus panaikinta.
 
 ### <a name="credentials-and-report-schedules"></a>kredencialai ir ataskaitų grafikai
 
 Jei neįvesite kredencialų, kuriuos reikia įvesti prie visų įmonių, įtrauktų į ataskaitas, įrašydami ataskaitos grafiką gausite šį pranešimą: „Turite įvesti savo kredencialus prie įmonių, esančių šiame ataskaitų grafike. Norėdami įvesti kredencialus, pasirinkite mygtuką Teisės.“
 
-Pavyzdžiui, naudotojas prisijungia prie A įmonės, įvesdamas savo prisijungimo vardą ir slaptažodį. Naudotojas sukuria ataskaitos, kuri renka duomenis iš kelių įmonių naudodama ataskaitų medžio aprašą, grafiką. Įrašęs šį ataskaitos grafiką, naudotojas paprašoma įvesti kitų į ataskaitų medžio aprašą įtrauktų įmonių kredencialus. Kai kredencialų galiojimo laikas baigiasi, paveiktos ataskaitos ataskaitų grafike negeneruojamos, kol kredencialai atnaujinami. Ataskaitų eilėje rodomas pranešimas, kuriame nurodoma, kad būtina atnaujinti teises. Ataskaitų grafikas sutrinka esant bet kuriam iš šių scenarijų (nes šiais atvejais būtini kredencialai):
+Pavyzdžiui, naudotojas prisijungia prie A įmonės, įvesdamas savo prisijungimo vardą ir slaptažodį. Naudotojas sukuria ataskaitos, kuri renka duomenis iš kelių įmonių naudodama ataskaitų medžio aprašą, grafiką. Įrašęs šį ataskaitos grafiką, naudotojas paprašoma įvesti kitų į ataskaitų medžio aprašą įtrauktų įmonių kredencialus. Kai jūsų kredencialai baigia galioti, paveiktos ataskaitos grafiko ataskaitos nesugeneruojama, kol kredencialai nebus atnaujinti. Ataskaitų eilėje rodomas pranešimas, kuriame nurodoma, kad būtina atnaujinti teises. Ataskaitų grafikas sutrinka esant bet kuriam iš šių scenarijų (nes šiais atvejais būtini kredencialai):
 
 - į atskiros ataskaitos ataskaitų medį įtraukta nauja įmonė;
 - Buvo modifikuota ataskaitų grupėje esanti ataskaita.
@@ -116,12 +129,12 @@ Norėdami tęsti, dialogo lange pasirinkite **Ataskaitų grafikas** spustelėkit
 ## <a name="missing-account-analysis-feature"></a>Trūkstamų sąskaitų analizės funkcija
 Galite ieškoti finansinių sąskaitų ir dimensijų, kurių gali trūkti visuose eilučių aprašuose, ataskaitų medžio aprašuose ir ataskaitų aprašuose kūrimo bloko grupėje. Tai naudinga kuriant arba naujinant keletą sąskaitų arba kūrimo blokų per trumpą laikotarpį, ir norint patikrinti, ar į ataskaitas įtraukta visa nauja informacija.
 
-Trūkstamos sąskaitos nustatomos naudojant mažiausią ir didžiausią reikšmes iš eilutės aprašo arba ataskaitų medžio aprašo, ir tada rodomas sąskaitų, kurių nėra eilutės apraše arba ataskaitų medžio apraše, bet kurios yra finansinių duomenų informacijoje, sąrašas. Jei trūkstamos sąskaitos vertė yra didesnė arba mažesnė nei eilutės apraše nurodyta vertė, ta sąskaita į trūkstamų sąskaitų sąrašą neįtraukiama.
+Trūkstamos sąskaitos nustatomos naudojant žemiausią ir didžiausią eilutės apibrėžimo arba ataskaitų medžio apibrėžimo vertę, tada rodomas sąskaitų, kurių nėra eilutės apibrėžime arba ataskaitų medžio apibrėžime, bet yra finansiniuuose duomenyse, sąrašas. Jei trūkstama sąskaita yra didesnė arba mažesnė nei eilutės apibrėžimo vertės, ši sąskaita neįtraukiama į trūkstamų sąskaitų sąrašą.
 
 > [!TIP]
 > Tikrinimo tikslais šį procesą reikia paleisti prieš generuojant mėnesio ataskaitas ir kuriant naujus kūrimo blokus.
 
-Mažiau tikėtina, kad sąskaitų truks ataskaitose, turinčiose reikšmių diapazonus. Jei įmanoma, naudokite diapazonus kūrimo bloke, kad būtų įtrauktos naujos sukurtos sąskaitos. Jei kurios nors ataskaitos apraše įmonės nuostata yra @ANY, galima įeiti į konkrečią įmonę ir įvykdyti tos įmonės duomenyse trūkstamų sąskaitų analizę.
+Mažiau tikėtina, kad sąskaitų truks ataskaitose, turinčiose reikšmių diapazonus. Jei galima, kad kuriant naujas sąskaitas būtų galima naudoti kūrimo bloko diapazonus. Jei kurios nors ataskaitos apraše įmonės nuostata yra @ANY, galima įeiti į konkrečią įmonę ir įvykdyti tos įmonės duomenyse trūkstamų sąskaitų analizę.
 
 > [!NOTE]
 > Jei buvo įtraukta nauja įmonė, turite įtraukti naują įmonę į ataskaitų medžius visose esamose ataskaitose, arba įmonė nebus įtraukta į trūkstamų sąskaitų analizę.
@@ -134,8 +147,8 @@ Mažiau tikėtina, kad sąskaitų truks ataskaitose, turinčiose reikšmių diap
 4. Lauke **Grupuoti pagal** pasirinkite rezultatų rūšiavimo parinktį. Rezultatus galima rikiuoti pagal konkretų kūrimo bloką arba dimensiją ir verčių rinkinius.
 5. Peržiūrėkite pateiktus rezultatus. Pažymėjus viršutinėje srityje esantį elementą, apatinėje srityje pateikiama papildomos informacijos apie išimtį. Nurodomos susijusios dimensijos, vertės ir ataskaitos.
 6. Norėdami atidaryti paveiktą elementą, pasirinkite susietą piktogramą rodoma sąrašo srityje, arba spustelėkite elementą dešiniuoju pelės klavišu ir pasirinkite **Atidaryti**. Norėdami pasirinkti kelis elementus, palaikykite nuspaudę klavišą **Ctrl**, kol pažymėsite apatinėje srityje esančius elementus.
-7. Jei grąžinama reikšmių, kūrimo blokų arba ataskaitų, kurios neturi būti įtrauktos į analizę, spustelėkite elementą dešiniuoju pelės klavišu ir pasirinkite **Neįtraukti** arba pažymėkite žymės langelį **Neįtraukti**, esantį šalia elemento, kad pašalintumėte elementą iš sąrašo. Neįtraukti elementai neįtraukiami atnaujinus sąrašą. Norėdami pasirinkti kelis elementus, palaikykite nuspaudę klavišą **Ctrl**, kol pažymėsite apatinėje srityje esančius elementus. Norėdami peržiūrėti visus elementus, įskaitant anksčiau analizėje pasirinktus rezultatus, pasirinkite **Rodyti neįtrauktus blokus ir vertes** žymės langelį, tada pasirinkite **Atnaujinti**.
-8. Pasirinkite **Atnaujinti** norėdami atnaujinti išimtis, kurias sutvarkėte. Pasirinkite **Taip**, norėdami visiškai atnaujinti visus rezultatus, arba pasirinkite **Ne**, norėdami iš dalies atnaujinti sutvarkytus elementus.
+7. Jei grąžinamos kokios nors vertės, kūrimo blokai ar ataskaitos, kurių nereikia įtraukti į analizę, **dešiniuoju** pelės mygtuku spustelėkite prekę ir pasirinkite Pašalinti arba pasirinkite šalia prekės esantį žymės langelį Pašalinti, **kad** pašalintumėte prekę iš sąrašo. Neįtrauktos prekės nėra įtraukiamos atnaujinant sąrašą. Norėdami pasirinkti kelis elementus, palaikykite nuspaudę klavišą **Ctrl**, kol pažymėsite apatinėje srityje esančius elementus. Norėdami peržiūrėti visus elementus, įskaitant anksčiau analizėje pasirinktus rezultatus, pasirinkite **Rodyti neįtrauktus blokus ir vertes** žymės langelį, tada pasirinkite **Atnaujinti**.
+8. Pasirinkite Atnaujinti **,** norėdami atnaujinti išimčių, kurias iškrendėte, sąrašą. Pasirinkite **Taip**, norėdami visiškai atnaujinti visus rezultatus, arba pasirinkite **Ne**, norėdami iš dalies atnaujinti sutvarkytus elementus.
 
     > [!NOTE]
     > Atidaroma forma automatiškai atkuriama, nebent ji buvo atidaryta per pastarąsias 15 minutes.

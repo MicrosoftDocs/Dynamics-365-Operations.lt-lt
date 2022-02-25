@@ -15,12 +15,12 @@ ms.search.region: global
 ms.author: mirzaab
 ms.search.validFrom: 2021-02-09
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 13c99854224a6d220e73a43636d85ec1951f8149
-ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
+ms.openlocfilehash: 4ea0fcfa7a165587567968f95549799859edaa60
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7901877"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103718"
 ---
 # <a name="mobile-device-user-settings"></a>Mobiliojo įrenginio vartotojo parametrai
 
@@ -39,12 +39,9 @@ Naujoje Sandėlio valdymo mobiliųjų įrenginių programėlėje yra programai s
 > [!IMPORTANT]
 > *Mobiliojo įrenginio vartotojo parametrų* funkcija taikoma tik naujai Sandėlio valdymo mobiliųjų įrenginių programėlei. Jis neveikia senoje sandėlio programoje.
 
-## <a name="turn-on-the-mobile-device-user-settings-feature"></a>Mobiliojo įrenginio vartotojo parametrų funkcijos įjungimas
+## <a name="turn-the-mobile-device-user-settings-feature-on-or-off"></a>Įjungti arba išjungti mobiliojo įrenginio vartotojo parametrų funkciją
 
-Kad galėtumėte naudoti šią funkciją, ji turi būti įjungta jūsų sistemoje. Administratoriai gali naudoti [funkcijos valdymas](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) parametrus, norėdami sužinoti funkcijos būseną ir įjungti ją. Darbo srityje **Funkcijų valdymas** ši funkcija yra nurodyta toliau pateikiamu būdu.
-
-- **Modulis:** *Sandėlio valdymas*
-- **Funkcijos pavadinimas:** *Naujos sandėlio programos vartotojo parametrai, piktogramos ir veiksmų pavadinimai*
+Norėdami naudoti šioje temoje aprašytas funkcijas, *turite įjungti savo sistemą vartotojo parametrus, piktogramas* ir naujos sandėlio programos funkcijos veiksmų pavadinimus. Kaip ir tiekimo grandinės valdymas 10.0.25 ši funkcija yra privaloma ir jos išjungti negalima. Jei naudojate senesnę nei 10.0.25 versiją, *tada administratoriai gali įjungti arba išjungti šią funkciją ieškodami naujo sandėlio programos funkcijos vartotojo parametrų,*[piktogramų](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) ir veiksmų pavadinimų funkcijų funkcijų valdymo darbo srityje.
 
 ## <a name="create-and-manage-user-settings"></a>Vartotojo parametrų kūrimas ir valdymas
 

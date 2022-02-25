@@ -2,11 +2,9 @@
 title: Sandėlio valdymo turimų įrašų valymo užduotis
 description: Šioje temoje aprašoma turimų atsargų valymo užduotis, kuri padeda pagerinti sistemos efektyvumą nustatant ir naikinant susijusius, bet nereikalingus įrašus.
 author: perlynne
-manager: tfehr
 ms.date: 04/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysOperationTemplateForm
 audience: Application User
@@ -14,15 +12,17 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-04-03
-ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: f045b9686bbdfcf3e82f5158f0fd28860354b7d7
-ms.sourcegitcommit: b6686265314499056690538eaa95ca51cff7c720
-ms.translationtype: HT
+ms.dyn365.ops.version: 10.0.12
+ms.openlocfilehash: b2bdfb7fa0c9c4d9e1f630a41357dc405f0082bc
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5014488"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103868"
 ---
 # <a name="warehouse-management-on-hand-entries-cleanup-job"></a>Sandėlio valdymo turimų įrašų valymo užduotis
+
+[!include [banner](../includes/banner.md)]
 
 Užklausų, naudojamų skaičiuojant turimas atsargas, efektyvumas priklauso nuo įtrauktų lentelių įrašų skaičius. Vienas iš būdų pagerinti efektyvumą yra sumažinti įrašų, kuriuos turi įvertinti duomenų bazė, skaičių.
 
@@ -58,7 +58,7 @@ Tačiau efektyvumo patobulinimas, kurį suteikia valymo užduotis, turėtų pade
 
 ## <a name="make-the-maximum-execution-time-setting-available"></a><a name="max-execution-time"></a>Maksimalaus vykdymo laiko parametro įgalinimas
 
-Pagal numatytuosius nustatymus **Maksimalaus vykdymo laiko** parametras yra nepasiekiamas. Jei norite juo naudotis, turite naudoti [funkcijų valdymą](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), kad galėtumėte įjungti susijusią priemonę savo sistemoje. Darbo srityje **Funkcijų valdymas** ši funkcija yra nurodyta toliau pateikiamu būdu.
+Maksimalaus **vykdymo laiko** parametras galimas *tik tada, kai* įjungta sandėlio valdymo įrašų valymo užduoties funkcija Maksimalus vykdymo laikas. Kaip ir tiekimo grandinės valdymo versija 10.0.25 ši funkcija įjungiama pagal numatytąjį nustatymą. Administratoriai gali *įjungti*[arba](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) išjungti šią funkciją ieškodami sandėlio valdymo užduoties priemonės Atsargų valdymo darbo srityje maksimalaus vykdymo laiko.
 
-- **Modulis:** *sandėlio valdymas*
-- **Funkcijos pavadinimas:** *maksimalus vykdymo laikas sandėlio valdymo turimų įrašų valymo užduočiai*
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

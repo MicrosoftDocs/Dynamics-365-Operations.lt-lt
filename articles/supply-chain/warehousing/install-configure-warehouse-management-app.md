@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.search.validFrom: 2021-02-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 54962b48dee05b2cd62fd3ea8814e4c965ba7818
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
-ms.translationtype: HT
+ms.openlocfilehash: 812dd30e0e444bc310fc81edd16958e0c0747885
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069384"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103418"
 ---
 # <a name="install-and-connect-the-warehouse-management-mobile-app"></a>Sandėlio valdymo mobiliųjų įrenginių programėlės diegimas ir prijungimas
 
@@ -39,12 +39,9 @@ Sandėlio valdymo mobiliųjų įrenginių programėlę galima naudoti tiek „Wi
 - „Windows 10” („Universal Windows Platform“ \[„UWP”\]) 2018 m. spalio mėn atnaujinimas 1809 (10.0.17763 komponavimo versija) arba naujesnė
 - „Android 4.4“ arba naujesnė versija
 
-## <a name="turn-on-the-feature"></a>Funkcijos įjungimas
+## <a name="turn-warehouse-management-mobile-app-features-or-or-off-in-supply-chain-management"></a>Išjungti sandėlio valdymo mobiliosios programos funkcijas arba išjungti tiekimo grandinės valdymą
 
-Norint naudoti programą, susijusi funkcija turi būti įjungta jūsų sistemoje. Administratoriai gali naudoti [Funkcijos valdymas](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) darbo sritį, norėdami sužinoti funkcijos būseną ir įjungti ją, jei reikia. Ten ši funkcija pateikiama taip:
-
-- **Modulis:** *Sandėlio valdymas*
-- **Funkcijos pavadinimas:** *Naujos sandėlio programos vartotojo parametrai, piktogramos ir veiksmų pavadinimai*
+Norint naudoti sandėlio valdymo mobiliąją programą, *jūsų sistemoje turi būti įjungti vartotojo parametrai,* piktogramos ir naujos sandėlio programos funkcijos veiksmų pavadinimai. Kaip ir tiekimo grandinės valdymas 10.0.25 ši funkcija yra privaloma ir jos išjungti negalima. Jei naudojate senesnę nei 10.0.25 versiją, *tada administratoriai gali įjungti arba išjungti šią funkciją ieškodami naujo sandėlio programos funkcijos vartotojo parametrų,*[piktogramų](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) ir veiksmų pavadinimų funkcijų funkcijų valdymo darbo srityje.
 
 ## <a name="get-the-warehouse-management-mobile-app"></a>Gauti Sandėlio valdymo mobiliųjų įrenginių programėlę
 
@@ -144,9 +141,9 @@ Sertifikatai gali būti naudojami kaip slaptieji raktai programos tapatybei įro
 
 Turite nustatyti, kad sertifikatas būtų pasiekiamas kiekviename įrenginyje, kuriame paleidžiate Sandėlio valdymo mobiliųjų įrenginių programėlę. Norėdami gauti daugiau informacijos apie tai, kaip valdyti „Intune“ kontroliuojamų įrenginių sertifikatus, jei naudojate „Intune“, žr. [Sertifikatų naudojamas autentifikavimui programoje „Microsoft Intune“](/mem/intune/protect/certificates-configure).
 
-## <a name="configure-the-warehouse-management-mobile-app-for-cloud-and-edge-scale-units"></a>Sukonfigūruokite saugyklos valdymo programą mobiliesiems debesies ir krašto mastelio vienetams
+## <a name="configure-the-warehouse-management-mobile-app-for-cloud-and-edge-scale-units"></a>mobiliosios programos „Warehouse Management“ konfigūravimas debesiui ir briaunos skalės vienetams
 
-Reikia atlikti kelis papildomus veiksmus, jei planuojate paleisti Sandėlio valdymo programą mobiliesiems debesies ar krašto mastelio įrenginyje. Instrukcijas žr [Sukonfigūruokite saugyklos valdymo programą mobiliesiems debesies ir krašto mastelio vienetams](../cloud-edge/cloud-edge-workload-setup-warehouse-app.md).
+Jei planuojate paleisti sandėlio valdymo mobiliąją programą naudojant debesies ar kraštų skalės vienetą, reikia atlikti keletą papildomų veiksmų. Instrukcijų ieškokite sandėlio valdymo [mobiliosios programos konfigūravimas debesies ir briaunos skalės vienetams](../cloud-edge/cloud-edge-workload-setup-warehouse-app.md).
 
 ## <a name="configure-the-application-by-importing-connection-settings"></a>Programos konfigūravimas importuojant ryšio parametrus
 
@@ -310,6 +307,6 @@ Jeigu įrenginys buvo pamestas arba pažeista jo sauga, turite pašalinti jo pri
 
 - [Mobiliojo įrenginio naudotojo nustatymai](mobile-device-user-settings.md)
 - [„Warehouse Management” mobiliųjų įrenginių programėlės veiksmų piktogramų ir pavadinimų priskyrimas](step-icons-titles.md)
-- [Sukonfigūruokite saugyklos valdymo programą mobiliesiems debesies ir krašto mastelio vienetams](../cloud-edge/cloud-edge-workload-setup-warehouse-app.md)
+- [mobiliosios programos „Warehouse Management“ konfigūravimas debesiui ir briaunos skalės vienetams](../cloud-edge/cloud-edge-workload-setup-warehouse-app.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

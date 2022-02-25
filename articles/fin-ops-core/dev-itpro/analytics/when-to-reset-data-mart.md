@@ -2,7 +2,7 @@
 title: Duomenų srities nustatymo iš naujo DUK
 description: Šioje temoje pateikiami atsakymai į kai kuriuos dažnai užduodamus klausimus apie duomenų srities nustatymą iš naujo.
 author: jinniew
-ms.date: 07/16/2021
+ms.date: 02/14/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2021-05-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: e5a40342306eb9888b456a865ab2220dccfe65f8ccecc67bf8fc16f907e06977
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 53f45f469c39f9e389763aa0daed658e5a62d377
+ms.sourcegitcommit: 6a269db08e8bb3bb3405c9f4a512091d13c80faa
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767760"
+ms.lasthandoff: 02/14/2022
+ms.locfileid: "8119517"
 ---
 # <a name="data-mart-resets-faq"></a>Duomenų srities nustatymo iš naujo DUK
 
@@ -35,8 +35,9 @@ Norint užtikrinti, kad seni duomenys nėra įterpti, duomenų srities nustatym�
 
 Jei jūsų situacijai tinka vienas ar daugiau iš šių sakinių, jūsų organizacijai gali būti naudinga iš naujo nustatyti duomenų sritį:
 
-- Programos duomenų bazė buvo atkurta.
-- Atidarėte pagalbos kvitą, o pagalbos inžinierius jums nurodė iš naujo nustatyti duomenų sritį kaip trikčių diagnostikos veiksmo dalį.
+- **Programos duomenų bazė buvo atkurta**
+- **Atidarėte palaikymo bilietą** – palaikymo inžinierius nurodėte iš naujo nustatyti duomenų saugyklą kaip trikčių diagnostikos veiksmo dalį.
+- **Didelis pasenusių įrašų procentas –** patys susenę įrašai nebūtinai atspindi duomenų saugyklų iš naujo nustatymus. Dėl didelės duomenų pasenusios procentinės dalies gali sumažėti bendras ataskaitos generavimas ir integravimo našumas bei gali būti papildomai naudojama duomenų bazės vieta. Rekomenduojame duomenų saugyklą nustatyti iš naujo, kad būtų pašalinti pasenusii duomenys, kai duomenų saugykloje yra daugiau nei 80% pasenusių duomenų.
  
 > [!NOTE]
 > Duomenų srities nustatymą iš naujo paveikia didžiosios knygos ir biudžeto operacijos jūsų duomenų bazėje. Priklausomai nuo operacijų skaičiaus jūsų sistemoje, duomenų srities nustatymas iš naujo gali būti atliktas per 15 minučių arba užtrukti iki keturių valandų. Jei jūsų nustatymas iš naujo užtrunka ilgiau nei keturias valandas, rekomenduojame kreiptis į klientų aptarnavimo tarnybą.
@@ -45,13 +46,12 @@ Jei jūsų situacijai tinka vienas ar daugiau iš šių sakinių, jūsų organiz
 
 Šiomis tam tikromis aplinkybėmis nerekomenduojame jums iš naujo nustatyti duomenų sritį:
 
-- Kyla našumo problemų, susijusių su duomenų sinchronizavimu.
+- Patiriate duomenų integravimo našumo problemas.
 - Turite pasikartojantį nustatymo iš naujo šabloną dėl bet kurios iš šių priežasčių:
 
-    - **Trūkstami duomenys** – Jei pastebite, kad trūksta duomenų, atidarykite palaikymo kvitą su „Microsoft”, kad peržiūrėtumėte savo ataskaitos formatą ir galimas duomenų sinchronizavimo problemas.
+    - **Trūksta arba netikėtų duomenų ataskaitoje** – jei pastebite, kad duomenų nėra, atidarykite palaikymo kvitą "Microsoft", kad peržiūrėtumėte savo ataskaitos formatą ir galimus duomenų sinchronizavimo klausimus.
     - **Įstrigti integravimo būsena**
-    - **Pasenę įrašai** – Vien pasenę įrašai nebūtinai pateisina duomenų srities atkūrimą iš naujo. Jei jūsų duomenų rinkinys didelis, atkūrimo procedūra užtruks, tačiau mažai tikėtina, kad kažkas bus patobulinta.
-
+   
 ## <a name="if-i-reset-the-data-mart-will-i-lose-reports-that-ive-already-designed"></a>Jei iš naujo nustatysite duomenų saugyklą, prarasite jau sukurtas ataskaitas?
 
 Ne. Jūsų ataskaitos saugomos SQL lentelėse, kurių nepaveikia duomenų srities nustatymas iš naujo. Jei esate susirūpinę, kad prarasite savo sukurtas ataskaitas, galite sukurti atsargines dizainų, kurių nenorite prarasti, kopijas. Norėdami sukurti atsargines kopijas, atidarykite „Report Designer” ir eikite į **Įmonė \> Įmonės \> Kūrimo blokai \> Eksportavimas**.

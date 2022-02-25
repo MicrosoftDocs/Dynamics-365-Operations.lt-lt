@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-05-17
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 6b8d663fa9743fae83654ed9938b4131e0fa08b9
-ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
+ms.openlocfilehash: a687c26cacc0dbdaf0091b2d26277864553ca1bf
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7902197"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103318"
 ---
 # <a name="assign-step-icons-and-titles-for-the-warehouse-management-mobile-app"></a>„Warehouse Management” mobiliųjų įrenginių programėlės veiksmų piktogramų ir pavadinimų priskyrimas
 
@@ -27,12 +27,9 @@ Toliau pateikti pavyzdžiai rodo, kaip veiksmų piktogramos ir pavadinimai rodom
 
 ![Veiksmo piktogramos ir veiksmo pavadinimo pavyzdys „Warehouse Management” mobiliųjų įrenginių programėlėje.](media/step-icon-example.png "Veiksmo piktogramos ir veiksmo pavadinimo pavyzdys „Warehouse Management” mobiliųjų įrenginių programėlėje")
 
-## <a name="turn-on-this-feature-in-your-system"></a>Funkcijos įjungimas jūsų sistemoje
+## <a name="turn-this-feature-on-or-off"></a>Įjungti arba išjungti šią funkciją
 
-Kad galėtumėte naudoti šią funkciją, ji turi būti įjungta jūsų sistemoje. Administratoriai gali naudoti [Funkcijos valdymą](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) nustatymus tam, kad patikrintų funkcijos būseną ir ją įjungtų. Darbo srityje **Funkcijų valdymas** ši funkcija yra nurodyta toliau pateikiamu būdu.
-
-- **Modulis:** *Sandėlio valdymas*
-- **Funkcijos pavadinimas:** *Naujos sandėlio programos vartotojo parametrai, piktogramos ir veiksmų pavadinimai*
+Norėdami naudoti šioje temoje aprašytas funkcijas, *turite įjungti savo sistemą vartotojo parametrus, piktogramas* ir naujos sandėlio programos funkcijos veiksmų pavadinimus. Kaip ir tiekimo grandinės valdymas 10.0.25 ši funkcija yra privaloma ir jos išjungti negalima. Jei naudojate senesnę nei 10.0.25 versiją, *tada administratoriai gali įjungti arba išjungti šią funkciją ieškodami naujo sandėlio programos funkcijos vartotojo parametrų,*[piktogramų](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) ir veiksmų pavadinimų funkcijų funkcijų valdymo darbo srityje.
 
 ## <a name="standard-step-ids-classes-and-icons"></a>Standartinės veiksmo ID, klasės ir piktogramos
 

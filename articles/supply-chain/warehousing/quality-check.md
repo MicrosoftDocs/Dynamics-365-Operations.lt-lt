@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: a3a565ea566dd2bf4d8c793b3340c78c9f4ed0a2
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.openlocfilehash: 0848eeb2ad073915ad90d2fd2a4a91f0f420c0ab
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7565308"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103293"
 ---
 # <a name="quality-check"></a>Kokybės patikra
 
@@ -39,12 +39,9 @@ Naudojant šią funkciją atvykimo ir kokybės kontrolė vyksta tokiu būdu:
 
 Šis procesas taip pat gali būti nustatytas taip, kad visi nuskaityti licencijos numeriai būtų nedelsiant nukreipti į kokybės tikrinimo vietą.
 
-## <a name="turn-on-the-quality-check-feature"></a>Įjunkite kokybės tikrinimo funkciją
+## <a name="turn-the-quality-check-feature-on-or-off"></a>Įjungti arba išjungti kokybės tikrinimo funkciją
 
-Prieš tai kai galite naudoti *Kokybės tikrinimo* funkciją, ji turi būti įjungta jūsų sistemoje. Administratoriai gali naudoti [funkcijų valdymo](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) parametrus, kad patikrintų funkcijos būseną ir įjungtų ją, kai reikia. Darbo srityje **Funkcijų valdymas** ši funkcija yra nurodyta toliau pateikiamu būdu.
-
-- **Modulis:** *Sandėlio valdymas*
-- **Funkcijos pavadinimas:** *Kokybės tikrinimas*
+Norint naudotis šioje temoje aprašytomis funkcijomis, *jūsų* sistemoje turi būti įjungta kokybės tikrinimo funkcija. Kaip ir tiekimo grandinės valdymas 10.0.25 ši funkcija yra privaloma ir jos išjungti negalima. Jei naudojate senesnę nei 10.0.25 versiją, *·*[tada](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) administratoriai gali įjungti arba išjungti šią funkciją ieškodami kokybės tikrinimo funkcijos funkcijų valdymo darbo srityje.
 
 ## <a name="set-up-the-feature-for-the-example-scenario"></a>Nustatykite funkciją pavyzdiniam scenarijui
 

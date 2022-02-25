@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-08
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 541e6c42ae1fa7d803b5becc1b52e34860777594
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.openlocfilehash: 527bd24d7f2e9a05f6e617c222005186520f9968
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920603"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103794"
 ---
 # <a name="wave-allocation"></a>Bangos paskirstymas
 
@@ -67,7 +67,7 @@ Norėdami nustatyti lygiagretųjį apdorojimą:
 
 ## <a name="enable-or-disable-parallelization-across-all-legal-entities"></a>Lygiagretinimo visuose juridiniuose subjektuose įjungimas arba išjungimas
 
-Rekomenduojame nustatyti „`allocateWave`” metodą, kuris būtų lygiagrečiai vykdomas visuose juridiniuose subjektuose, nes tai padeda padidinti bangos apdorojimo efektyvumą. Nuo „Supply Chain Management” 10.0.17 versijos, funkcija *Bangų lygiagretinimas bangos paskirstymo metodui* yra įgalinta pagal numatytuosius nustatymus visuose naujuose ir atnaujintuose diegimuose ir jos negalima išjungti dar kartą. Įgalinus šią funkciją, atsitinka taip:
+Rekomenduojame nustatyti „`allocateWave`” metodą, kuris būtų lygiagrečiai vykdomas visuose juridiniuose subjektuose, nes tai padeda padidinti bangos apdorojimo efektyvumą. Nuo tiekimo grandinės valdymo 10.0.17 versijos, *bangų* lygiagretinimo funkcija Paskirstyti bangą yra įjungta pagal numatytuosius nustatymus visoms naujiems ir atnaujintoms diegimams ir jos negalima išjungti dar kartą. Įgalinus šią funkciją, atsitinka taip:
 
 - Atnaujinamas „`allocateWave`” metodas, kad būtų įtraukiamas užduoties konfigūracijos parametras, leidžiantis jums naudoti **Bangos apdorojimo metodų** puslapį nustatyti tuo pačiu metu vykdomų užduočių skaičių, atitinkantį lygiagrečių apdorojimų skaičių. Dėl to, bangos paskirstymo veiksme sunaudotas laikas (paprastai nuo 30% iki 60% bendro apdorojimo laiko) yra sumažinamas koeficientu, maždaug atitinkantį užduočių skaičių. Taip pat, galima pasirinkti, kuris paketas bus priskirtas šioms užduotims apdoroti. Svarbu pažymėti, kad visi jūsų juridiniai subjektai bus sukonfigūruoti bangų pakete apdorojimui. Sandėliams, kurie jau sukonfigūruoti apdoroti bangas pakete, ir sandėliams, kurie jau sukonfigūruoti naudoti „`allocateWave`” metodą lygiagrečiai, bus išlaikyta esama konfigūracija.
 - Pagal numatytuosius nustatymus, visi nauji juridiniai subjektai yra sukonfigūruojami bangų pakete apdorojimui. Visiems naujiems sandėliams, kuriuose įgalinta **Sandėlio valdymo procesų** parinktis, bus sukonfigūruotas „`allocateWave`” metodas lygiagrečiam vykdymui pagal numatytuosius nustatymus.

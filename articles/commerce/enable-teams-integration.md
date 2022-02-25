@@ -2,7 +2,7 @@
 title: „ Dynamics 365 Commerce” ir „Microsoft Teams” integravimo įgalinimas
 description: Šioje temoje aprašoma, kaip įgalinti „Microsoft Dynamics 365 Commerce” ir „Microsoft Teams” integravimą.
 author: gvrmohanreddy
-ms.date: 03/31/2021
+ms.date: 02/17/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-01-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 9910ee48a0792c89a4e04ec8685fd02484e45575d70b06454dea56a89ee8c914
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 52b1a889a15cfe2e6e104e38b7d257f80762954f
+ms.sourcegitcommit: 68114cc54af88be9a3a1a368d5964876e68e8c60
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6775343"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323435"
 ---
 # <a name="enable-dynamics-365-commerce-and-microsoft-teams-integration"></a>„ Dynamics 365 Commerce” ir „Microsoft Teams” integravimo įgalinimas
 
@@ -38,15 +38,23 @@ Prieš įgalindami „Microsoft Teams” integravimą su „Commerce”, turite 
 Norėdami užregistruoti „Teams” programą savo nuomotojui „Azure” portale, atlikite šiuos veiksmus.
 
 1. Atlikite skyriuje [Greitas pasirengimas darbui: Registruoti programą „Microsoft” tapatybės platformoje](/azure/active-directory/develop/quickstart-register-app) pateiktus veiksmus, norėdami užregistruoti „Teams” programą jūsų nuomotojui „Azure” portale.
-1. Nukopijuokite **Programos (kliento) ID** reikšmę iš **Apžvalgos** puslapio užregistruotai programai. Šią reikšmę naudosite „Teams” integravimo įgalinimui „Commerce” būstinėje.
-1. Nukopijuokite sertifikato reikšmę, kuri buvo įvesta, kai [įtraukėte sertifikatą](/azure/active-directory/develop/quickstart-register-app#add-a-certificate) 1 veiksme. Sertifikatas taip pat vadinamas viešuoju raktu arba programos raktu. Šią reikšmę naudosite „Teams” integravimo įgalinimui „Commerce” būstinėje.
+1. Skirtuke **Programos registracija** pasirinkite programą, kurią sukūrėte ankstesniu veiksmu. Tada skirtuke Autentifikavimas **pasirinkite** Įtraukti **platformą**.
+1. Dialogo lange pasirinkite **Internetas**. Tada į nukreipimo **URL** lauką įveskite URL formatu / **\<HQUrl\> autorizavimo būdu**. Pakeiskite **\<HQUrl\>** "Commerce Headquarters" URL (pvz., `https://hxennugbjtweufmdeo385f47fadb6aa9a0aos.cloudax.int.dynamics.com/oauth`).
+1. Užregistruotos **programos** peržiūros puslapyje nukopijuokite programos **(kliento) ID vertę**. Turite pateikti šią vertę, kad kitame skyriuje būtų galima įgalinti "Teams" integravimą "Commerce Headquarters".
+1. Norėdami pridėti kliento slaptą [kliento slaptą, vadovaukitės](/azure/active-directory/develop/quickstart-register-app#add-a-client-secret) instrukcijomis, pateikiamomis prie kliento slapto. Tada nukopijuokite **kliento Slaptą** vertę. Turite pateikti šią vertę, kad kitame skyriuje būtų galima įgalinti "Teams" integravimą "Commerce Headquarters".
+1. Pasirinkite **API teises**, tada pasirinkite **Įtraukti teisę**.
+1. **Užklausos API teisių dialogo** lange pasirinkite "Microsoft Graph **",** **pasirinkite** Perduotas teises, **išplėskite** Grupė, pasirinkite **Group.ReadWrite.Visi**, tada pasirinkite **Įtraukti teises.**
+1. Užklausos API teisių dialogo lange pasirinkite Įtraukti teisę, **pasirinkite** "Microsoft Graph **",** pasirinkite Programos teisės, **·** **išplėskite** Grupė, pasirinkite **Group.ReadWrite.All**, tada pasirinkite **Įtraukti teises.** **·**
+1. **Užklausos API teisių dialogo** lange pasirinkite **Įtraukti teisę**. Skirtuke **APIs mano organizacija naudoja**, ieškokite " **Microsoft Teams Retail Service"** ir pasirinkite jį.
+1. Pasirinkite **perduotas teises**, išplėskite **TaskPublishing**, pasirinkite **TaskPublising.ReadWrite.Visi**, tada pasirinkite **Įtraukti teises**. Norėdami gauti daugiau informacijos, žr. [Kliento programos konfigūravimas, kad būtų galima pasiekti žiniatinklio API](/azure/active-directory/develop/quickstart-configure-app-access-web-apis).
 
 Norėdami įgalinti „Teams” integravimą „Commerce“ būstinėje, atlikite nurodytus veiksmus.
 
 1. Eikite į **Mažmeninė prekyba ir komercija \> Kanalų sąranka \> „Microsoft Teams” integravimo konfigūracija**.
 1. Veiksmų srityje pasirinkite **Redaguoti**.
 1. Nustatykite parinktį **Įgalinti „Microsoft Teams” integravimą** į **Taip**.
-1. Laukuose **Programos ID** ir **Programos raktas** įveskite reikšmes, gautas registruojant „Teams” programą „Azure” portale.
+1. **Programos ID lauke įveskite** programos (kliento **) ID** vertę, kurią gavote registravę programą "Teams" "Azure" portale.
+1. Programos rakto **lauke įveskite** slaptą **vertę**, kurią gavote į "Azure" portalą įdę kliento slaptažodį.
 1. Veiksmų srityje pasirinkite **Įrašyti**.
 
 Šioje iliustracijoje pateikiamas „Teams” integravimo „Commerce” būstinėje konfigūracijos pavyzdys.

@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-04-22
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: a709528b04e82c32f644073f79513b7ef11bb6bf
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.openlocfilehash: 7e3a86e2aa0e7182f7f9e853b9e8667e677a8ad6
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920728"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8102718"
 ---
 # <a name="firm-planned-orders"></a>Galutinai suplanuoti užsakymai
 
@@ -35,17 +35,15 @@ Yra trys suplanuotų užsakymų virtimo metodai:
 
 Dauguma suplanuoto užsakymo funkcijų yra galimos visuose standartiniuose „Microsoft Dynamics 365 Supply Chain Management“ diegimuose, naudojant „Planning Optimization“. Tačiau kai kurios šioje temoje aprašomos funkcijos turi būti įjungtos funkcijų valdymas prieš jas naudojant.
 
-### <a name="enable-parallelized-firming-of-planned-orders"></a>Įjungti paralelų suplanuotų užsakymų pasirašymą
+### <a name="turn-parallelized-firming-of-planned-orders-on-or-off"></a>Įjungti arba išjungti suplanuotų užsakymų lygiagretųjį tvirtavimą
 
-Lygiagretus tvirtinimo procesas padeda pagreitinti tvirtinimo procesą, lygiagrečiai jį keliose gijose. Šis būdas gali būti naudingas, kai daugelis suplanuotų užsakymų yra patvirtinti.
-
-Norėdami, kad jūsų sistemoje šios funkcijos būtų galimos, eikite į Funkcijų [valdymas ir](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)įjunkite *suplanuotų užsakymų funkcijos lygiagretų* tvirtavimą. (Kaip ir tiekimo grandinės valdymo versija 10.0.21, ši funkcija įjungiama pagal numatytąjį nustatymą.)
+Lygiagretus tvirtinimo procesas padeda pagreitinti tvirtinimo procesą, lygiagrečiai jį keliose gijose. Šis būdas gali būti naudingas, kai daugelis suplanuotų užsakymų yra patvirtinti. Norint naudotis šia funkcija, jūsų sistemai *turi būti* įjungta lygiagretaus suplanuotų užsakymų tvirtinimo funkcija. Kaip ir tiekimo grandinės valdymo versija 10.0.21 ši funkcija įjungiama pagal numatytąjį nustatymą. Kaip ir tiekimo grandinės valdymas 10.0.25 ši funkcija yra privaloma ir jos išjungti negalima. Jei naudojate senesnę nei 10.0.25 versiją, [...](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)*šią funkciją galite įjungti arba išjungti nueidami į Funkcijų valdymą ir ieškodami lygiagrečio suplanuotų užsakymų tvirtinimo* funkcijos.
 
 ### <a name="enable-planned-order-firming-with-filtering"></a>Įjungti suplanuoto užsakymo tvirtinimo naudojant filtravimą
 
 Suplanuotų užsakymų virtimas naudojant filtravimą leidžia nurodyti loginius kriterijus, pagal kuriuos galima pasirinkti, kuriuos suplanuotus užsakymus patvirtinti. Taip pat galite peržiūrėti, kurie suplanuoti užsakymai buvo pasirinkti, vykdyti procesą fone ir / arba suplanuoti jį kaip paketinę užduotį.
 
-Norėdami, kad jūsų sistemoje šios funkcijos būtų galimos, eikite į Funkcijų [valdymas ir](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)įjunkite *suplanuotų užsakymų funkcijos pasirašymą su filtravimu* tvirtavimą.
+Kaip ir tiekimo grandinės valdymo versija 10.0.25 ši funkcija įjungiama pagal numatytąjį nustatymą. Administratoriai šią funkciją gali įjungti arba išjungti ieškodami *suplanuoto* užsakymo tvirtinto pagal filtravimo funkciją [funkcijų valdymo darbo](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) srityje.
 
 ### <a name="enable-auto-firming-for-planning-optimization"></a>Įjungti automatinį planavimo optimizavimo patvirtinimą
 

@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-05-19
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: c65f929120d2501fa3873880179a9b53ab79c60c73fd4d597fb6151b1c5bb2b9
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 31953fd29c471e52bd63dbb02c20f5f224c3cae2
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720401"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103049"
 ---
 # <a name="manage-changes-in-formulas-and-their-ingredients"></a>Formulių ir jų ingredientų pakeitimų valdymas
 
@@ -27,12 +27,9 @@ Jei naudojate „Microsoft Dynamics 365 Supply Chain Management” proceso gamyb
 - **Sudėtiniai ir šalutiniai produktai:** Redaguokite formulėje nurodytų sudėtinių ir šalutinių produktų kiekius ir kitą informaciją.
 - **Esamo svorio prekės:** Valdykite esamo svorio prekių pakeitimus.
 
-## <a name="turn-on-this-feature-in-your-system"></a>Funkcijos įjungimas jūsų sistemoje
+## <a name="turn-this-feature-on-or-off"></a>Įjungti arba išjungti šią funkciją
 
-Norėdami naudotis šia galimybe turite atlikti tolesnes užduotis.
-
-1. Įgalinkite *Inžinerinių keitimų valdymo* funkciją ir jos konfigūracijos raktą, kaip aprašyta skyriuje [Inžinerinių keitimų valdymo apžvalga](product-engineering-overview.md). Kaip nurodyta toje temoje, įsitikinkite, kad taip pat įgalinote **Gamybos procesų pakeitimų valdymo** licencijos raktą, kuris yra įdėtas po pagrindiniu **Inžinerinių keitimų valdymo** licencijos raktu.
-1. Įjunkite *Formulių ir jų ingredientų keitimų valdymo* funkciją [Funkcijų valdyme](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Šioje temoje aprašytos funkcijos reikalauja, kad *jūsų* *sistemai būtų įjungtas ir inžinerijos* pakeitimų valdymas, ir formulių pakeitimai bei jų ingredientų funkcijos. Išsamesnės informacijos apie šių funkcijų įjungimą ir išjungimą žr. Inžinerinių [pakeitimų valdymo peržiūra](product-engineering-overview.md).
 
 ## <a name="feature-naming-conventions"></a>Funkcijų pavadinimų suteikimo konvencijos
 

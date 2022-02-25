@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 2fa82c721316fb21442e1cfc00ba00ff8cb2b750
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: 67fa97c938f091c23a41ddd5aaf34a32c5a13c93
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7778236"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8102831"
 ---
 # <a name="report-as-finished-from-the-job-card-device"></a>Pranešti kaip baigtą iš užduoties kortelės įrenginio
 
@@ -81,7 +81,7 @@ Toliau pateikti skyriai aprašo, kaip nustatyti sekimo numerio grupes tam, kad b
 
 Norėdami leisti rankiniu būdu nustatyti paketo numerius, atlikite šiuos veiksmus, kad nustatytumėte sekimo numerių grupę.
 
-1. Eikite į **Atsargų valdymas \> Nustatymas \> Dimensijos \> Sekimo numerių grupes**.
+1. Eikite į **Atsargų valdymas \>Nustatymas \>Dimensijos \>Sekimo numerių grupes**.
 1. Sukurkite arba pasirinkite sekimo numerių grupę, kurią norite nustatyti.
 1. **Bendra** skirtuke „FastTab” nustatykite **Rankinis** pasirinktį į **Taip**.
 
@@ -114,7 +114,7 @@ Naudojant šį scenarijų, **Paketo numerio** laukas, kurį **Eigos ataskaita** 
 
 Jei paketo numeriai turi būti automatiškai priskirti, be darbuotojo įvesties, atlikite šiuos veiksmus, norėdami nustatyti sekimo numerių grupę.
 
-1. Eikite į **Atsargų valdymas \> Nustatymas \> Dimensijos \> Sekimo numerių grupes**.
+1. Eikite į **Atsargų valdymas \>Nustatymas \>Dimensijos \>Sekimo numerių grupes**.
 1. Sukurkite arba pasirinkite sekimo numerių grupę, kurią norite nustatyti.
 1. **Bendra** skirtuke „FastTab” nustatykite **Tik atsargų operacijos** pasirinktį į **Ne**.
 1. Nustatykite **Rankinis** pasirinktis **Nr.**.
@@ -161,7 +161,7 @@ Toliau pateikti skyriai aprašo, kaip nustatyti sekimo numerio grupes tam, kad b
 
 Tam, kad leistumėte rankiniu būdu priskirti serijinius numerius, atlikite šiuos žingsnius tam, kad nustatytumėte sekimo numerio grupes.
 
-1. Eikite į **Atsargų valdymas \> Nustatymas \> Dimensijos \> Sekimo numerių grupes**.
+1. Eikite į **Atsargų valdymas \>Nustatymas \>Dimensijos \>Sekimo numerių grupes**.
 1. Sukurkite arba pasirinkite sekimo numerių grupę, kurią norite nustatyti.
 1. **Bendra** skirtuke „FastTab” nustatykite **Rankinis** pasirinktį į **Taip**.
 
@@ -180,7 +180,7 @@ Kai naudojate šį scenarijų, **Serijinio numerio** laukelis tam **Ataskaitos p
 
 Tam, kad pateiktumėte iš anksto nustatytą serijinių numerių sąrašą, atlikite šiuos žingsnius tam, kad nustatytumėte sekimo numerio grupes.
 
-1. Eikite į **Atsargų valdymas \> Nustatymas \> Dimensijos \> Sekimo numerių grupes**.
+1. Eikite į **Atsargų valdymas \>Nustatymas \>Dimensijos \>Sekimo numerių grupes**.
 1. Sukurkite arba pasirinkite sekimo numerių grupę, kurią norite nustatyti.
 1. **Bendra** skirtuke „FastTab” nustatykite **Tik atsargų operacijos** pasirinktį į **Taip**.
 1. Naudokite **Kiekiui** laukelį, kad išskirstytumėte serijinius numerius kiekiams po vieną.
@@ -197,7 +197,7 @@ Kai naudojate šį scenarijų, **Serijinio numerio** laukelis tam **Ataskaitos p
 
 Jei serijinis numeris turi būti priskirtas automatiškai be darbuotojo indėlio, atlikite šiuos veiksmus tam, kad nustatytumėte sekimo numerio grupę.
 
-1. Eikite į **Atsargų valdymas \> Nustatymas \> Dimensijos \> Sekimo numerių grupes**.
+1. Eikite į **Atsargų valdymas \>Nustatymas \>Dimensijos \>Sekimo numerių grupes**.
 1. Sukurkite arba pasirinkite sekimo numerių grupę, kurią norite nustatyti.
 1. **Bendra** skirtuke „FastTab” nustatykite **Tik atsargų operacijos** pasirinktį į **Ne**.
 1. Nustatykite **Rankinis** pasirinktis **Nr.**.
@@ -216,17 +216,17 @@ Papildomiems sandėlių procesams gali būti naudojama numerio lentelės dimensi
 
 ### <a name="enable-license-plate-reporting-and-label-printing"></a>Numerio lentelės ataskaita ir etiketės spausdinimas
 
-Norėdami naudoti šiame skyriuje aprašytas funkcijas, turite naudoti [funkcijų valdymą,](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), kad galėtumėte įjungti šias funkcijas (šia tvarka):
+Norėdami naudoti šiame skyriuje aprašytas funkcijas, turite naudoti [funkcijų valdymą, ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), kad galėtumėte įjungti šias funkcijas (šia tvarka):
 
-1. Numerio lentelė, skirta skelbimui, kad baigta, įtraukta į užduoties kortelės įrenginį (kaip tiekimo grandinės valdymo versija 10.0.21, ši funkcija įjungta pagal numatytuosius nustatymus.)
-1. Įgalinkite automatinį numerio lentelės numerio generavimą, kai Užduoties kortelės įrenginyje pranešama apie pabaigimą
-1. Spausdinti etiketę iš užduoties kortelės įrenginio
+1. *Užbaigtos ataskaitos numerio lentelė įtraukta į užduoties kortelės įrenginį*<br>(Kaip ir tiekimo grandinės valdymo versija 10.0.21, ši funkcija įjungiama pagal numatytąjį nustatymą. Kaip ir tiekimo grandinės valdymo versija 10.0.25, ši funkcija yra privaloma.)
+1. *Įgalinkite automatinį numerio lentelės numerio generavimą, kai Užduoties kortelės įrenginyje pranešama apie pabaigimą*<br>(Kaip ir tiekimo grandinės valdymo versija 10.0.25, ši funkcija yra privaloma.)
+1. *Spausdinti etiketę iš užduoties kortelės įrenginio*<br>(Kaip ir tiekimo grandinės valdymo versija 10.0.25, ši funkcija yra privaloma.)
 
 ### <a name="set-up-reporting-as-finished-to-a-license-plate"></a>Nustatykite baigimo pranešimą į numerio lentelę
 
 Norėdami kontroliuoti, ar darbuotojai turėtų dar kartą panaudoti numerio lentelę, ar generuoti naują numerio lentelę, kai jie praneša apie baigtus kiekius, atlikite šiuos veiksmus.
 
-1. Eikite į **Gamybos kontrolė \> Sąranka \> Gamybos vykdymas \> Konfigūruoti įrenginių užduoties kortelę**.
+1. Eikite į **Gamybos kontrolė \> Sąranka \> Gamybos vykdymas \>Konfigūruoti įrenginių užduoties kortelę**.
 2. Nustatykite šias parinktis kiekvienam įrenginiui:
 
     - **Generuoti numerio lentelę** – nustatykite šią pasirinktį į **Taip**, kad sugeneruotumėte naują numerio lentelę kiekvienai baigimo ataskaitai. Nustatykite į **Ne**, jei esama numerio lentelė turėtų būti naudojama kiekvienai baigimo ataskaitai.

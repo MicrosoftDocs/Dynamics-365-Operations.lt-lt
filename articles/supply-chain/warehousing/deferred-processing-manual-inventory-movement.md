@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: Mirzaab
 ms.search.validFrom: 2021-04-27
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: f5c9ba7079895feeb0c171f2021479587aa13cc9
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: 21dd01448fcf6c2b3ca90a5476fad061bb0f55e4
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7777671"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8102744"
 ---
 # <a name="deferred-processing-of-manual-inventory-movement"></a>Atidėtas atsargų perkėlimo neautomatinis apdorojimas
 
@@ -32,10 +32,10 @@ Fono apdorojimas pasiektas naudojant funkciją Apdoroti [sandėlio programos](wa
 
 Norėdami naudoti šią funkciją, įjunkite toliau nurodytą funkcijas [funkcijų valdyme](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md). Turite įjungti juos šia tvarka:
 
-1. Visos organizacijos darbo blokavimas (kaip tiekimo grandinės valdymo versija 10.0.21, ši funkcija yra privaloma, todėl ji įjungta pagal numatytuosius nustatymus ir jos negalima išjungti dar kartą.)
-1. Apdoroti sandėlio programos įvykius
-1. Atidėtos padėjimo operacijos
-1. Atidėtas rankinio atsargų perkėlimo operacijos apdorojimas
+1. *Darbo blokavimas organizacijos mastu*<br>(Kaip ir tiekimo grandinės valdymo versija 10.0.21, ši funkcija yra privaloma, todėl ji įjungta pagal numatytuosius nustatymus ir jos negalima išjungti dar kartą.)
+1. *Apdoroti sandėlio programos įvykius*<br>(Kaip ir tiekimo grandinės valdymo versija 10.0.25, ši funkcija įjungiama pagal numatytąjį nustatymą.)
+1. *Atidėtos padėjimo operacijos*
+1. *Atidėtas rankinio atsargų perkėlimo operacijos apdorojimas*<br>(Kaip ir tiekimo grandinės valdymo versija 10.0.25, ši funkcija yra privaloma, todėl ji įjungta pagal numatytuosius nustatymus ir jos negalima išjungti dar kartą.)
 
 ## <a name="configure-the-work-processing-policies"></a>Darbo apdorojimo strategijų konfigūravimas
 

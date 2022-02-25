@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-08
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 4b7c01a21dcbe7543332439ee6fd371b426851f4
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.openlocfilehash: b89a13e72816bbf140986bd5450d037cf2510753
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579933"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103518"
 ---
 # <a name="wave-creation-and-processing"></a>Bangos kūrimas ir apdorojimas
 
@@ -190,9 +190,9 @@ Jei reikia, galite atšaukti apdorotą bangą. Norėdami atšaukti bangą ir suk
 
 Naudokite puslapį **Išsami bangos paketinės užduoties informacija** norėdami patikrinti paketines užduotis ir su bet kuria banga susijusias užduotis. Tai ypač naudinga nepavykusios bangos trikčių diagnostikai. Be šios funkcijos, įprastai tik administratoriai turės prieigą prie paketinės užduoties informacijos. Puslapis **Išsami bangos paketinės užduoties informacija** gali būti padarytas prieinamu ne administratoriaus vartotojams ir pateikti paketinių ir susijusių užduočių rodinį „tik skaityti”.
 
-### <a name="enable-the-wave-batch-job-details-page"></a>Puslapio Išsami bangos paketinės užduoties informacija įgalinimas
+### <a name="turn-the-wave-batch-job-details-page-on-or-off"></a>Įjungti arba išjungti bangos paketinės užduoties informacijos puslapį
 
-Jei jūsų sistemoje dar nėra puslapio **Išsami bangos paketinės užduoties informacija**, eikite į [Funkcijų valdymą](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) ir įjunkite *Išsamios bangos paketinės užduoties informacijos* funkciją.
+Kaip ir tiekimo grandinės valdymo versija 10.0.25, **bangos** paketinės užduoties informacijos puslapis įjungtas pagal numatytuosius nustatymus. Administratoriai gali įjungti arba išjungti šią funkciją funkcijų *valdymo* darbo srityje ieškodami funkcijos Bangos paketinės [užduoties](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) informacija.
 
 ### <a name="use-the-wave-batch-job-details-page"></a>Puslapio Išsami bangos paketinės užduoties informacija naudojimas
 

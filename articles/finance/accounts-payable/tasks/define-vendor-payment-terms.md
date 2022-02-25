@@ -2,23 +2,23 @@
 title: Tiekėjo mokėjimo sąlygų apibrėžimas
 description: Šioje temoje aiškinama kaip nustatyti tiekėjo SF mokėjimo sąlygas.
 author: abruer
-ms.date: 07/09/2019
+ms.date: 02/11/2022
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
 ms.search.form: PaymTerm, CashDisc
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e70a68ab5e14e8dadfd8d61f696f5971c8e60262d0fd55c5de1589e572ff8085
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 2199c12e92d631d3eb058637c48b53335d779f2d
+ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722988"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "8109821"
 ---
 # <a name="define-vendor-payment-terms"></a>Tiekėjo mokėjimo sąlygų apibrėžimas
 
@@ -27,10 +27,10 @@ ms.locfileid: "6722988"
 Šioje temoje aiškinama kaip nustatyti tiekėjo SF mokėjimo sąlygas. Šioje užduotyje naudojama demonstracinė įmonė USMF.
 
 1. Pasirinkite **Naršymo sritis > Moduliai > Mokėtinos sumos > Mokėjimo konfigūracija > Mokėjimo sąlygos**.
-2. Pasirinkite **Naujas**. Mokėjimo sąlygų puslapis naudojamas apibrėžti, kaip bus skaičiuojamas terminas. Ji nenaudojamas apibrėžti, kaip bus skaičiuojama mokėjimo nuolaidos data.  
+2. Pasirinkite **Naujas**. Mokėjimo **sąlygų puslapis** naudojamas nurodyti, kaip bus skaičiuojamas terminas. Ji nenaudojamas apibrėžti, kaip bus skaičiuojama mokėjimo nuolaidos data.  
 3. Lauke **Mokėjimo sąlygos** surinkite reikšmę.
 4. Lauke **Aprašo laukas** surinkite reikšmę.
-5. Lauke **Dienos** įveskite skaičių. Čia įvestas skaičius bus pridedamas prie termino arba prie laikotarpio, nurodyto srityje Mokėjimo būdas. Pvz., pasirinkus **Grynoji**, skaičius bus pridėtas prie termino. Jei pasirinksite **Dabartinis mėnesis**, skaičius bus pridedamas prie dabartinio mėnesio paskutinės dienos, kad būtų apskaičiuota termino pabaigos data.  
+5. Lauke **Dienos** įveskite skaičių. Čia įvestas numeris bus naudojamas pridėti prie termino arba prie laikotarpio pabaigos, nurodytos mokėjimo **metode**. Pvz., pasirinkus **Grynoji**, skaičius bus pridėtas prie termino. Jei pasirinksite **Dabartinis mėnesis**, skaičius bus pridedamas prie dabartinio mėnesio paskutinės dienos, kad būtų apskaičiuota termino pabaigos data.  
 6. Pasirinkite **Įrašyti**.
 7. Uždarykite puslapį.
 8. Pasirinkit **Mokėtinos sumos > Mokėjimo konfigūracija > Mokėjimo nuolaida**.
@@ -39,7 +39,7 @@ ms.locfileid: "6722988"
 11. Lauke **Aprašymas įveskite** surinkite reikšmę.
 12. Jei tiekėjas siūlo pakopinę nuolaidą, baigus galioti dabartinei nuolaidai, pasirinkite kitą mokėjimo nuolaidą.
 13. Uždarykite puslapį.
-14. Lauke **Dienos** įveskite skaičių. Kiekis, įvestas lauke **Dienos**, pagal tai, kokia parinktis buvo pasirinkta lauke **Grynoji/dabartinė**, bus naudojamas skaičiuoti mokėjimo nuolaidos datai. Jei buvo pasirinkta **Grynoji**, norint nustatyti mokėjimo nuolaidos datą, kiekis bus pridėtas prie SF datos. Jei buvo pasirinktas **Dabartinis mėnesis**, norint nustatyti mokėjimo nuolaidos datą, kiekis bus pridėtas prie dabartinio mėnesio pabaigos.  
+14. Lauke **Dienos** įveskite skaičių. Lauke Dienos įvestas kiekis **bus** **naudojamas** mokėjimo nuolaidos datai skaičiuoti, remiantis tuo, **kokia pasirinktis pasirinkta lauke Net/Current**. Jei buvo pasirinkta **Grynoji**, norint nustatyti mokėjimo nuolaidos datą, kiekis bus pridėtas prie SF datos. Jei buvo pasirinktas **Dabartinis mėnesis**, norint nustatyti mokėjimo nuolaidos datą, kiekis bus pridėtas prie dabartinio mėnesio pabaigos.  
 15. Lauke **Nuolaida** įveskite mokėjimo nuolaidos procentą. 
 16. Įveskite pagrindinę sąskaitą, į kurią bus registruojamos kliento SF taikoma mokėjimo nuolaida, tada įveskite pagrindinę sąskaitą, į kurią bus registruojamos tiekėjo SF taikoma mokėjimo nuolaida. Jei **Taikyti nuolaidą korespondentinėms sąskaitoms** nustatyta kaip **Naudoti pagrindinę sąskaitą, skirtą tiekėjo nuolaidoms**, bus naudojama pagrindinė sąskaita. Jei parinktis nustatyta į **Sąskaitos faktūros eilutėse esančios sąskaitos**, mokėjimo nuolaida bus registruojama turto / išlaidų sąskaitose, esančiose SF eilutėse.  
 17. Pasirinkite **Įrašyti**.
