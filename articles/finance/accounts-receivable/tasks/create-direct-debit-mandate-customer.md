@@ -2,9 +2,11 @@
 title: Kurti kliento tiesioginio debeto įgaliojimą
 description: Šis užduočių vadovas parodo, kaip sukurti tiesioginio debeto įgaliojimą ir jį naudoti SF.
 author: ShivamPandey-msft
+manager: AnnBe
 ms.date: 08/08/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustTable, CustBankAccounts, BankAccountTable, CustPaymMode, CustDirectDebitMandate, BankAccountTableLookUp, SrsReportViewerForm,  LogisticsAddressCityLookup, CustFreeInvoice, CustTableLookup
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 51fea2b9a0f25b078abc3ca83ee02c585eaf465128bebba0234ffadb030ef42a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f746da0bcf2b1e0cb09af6b5e2ea61938213c924
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6740055"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4991047"
 ---
 # <a name="create-a-direct-debit-mandate-for-a-customer"></a>Kurti kliento tiesioginio debeto įgaliojimą
 
@@ -87,6 +89,3 @@ ms.locfileid: "6740055"
 3. Pasirinkite klientą, prie kurio pridėjote įgaliojimą.
 4. Lauke **Tiesioginio debeto įgaliojimo ID** įveskite arba pažymėkite reikšmę.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

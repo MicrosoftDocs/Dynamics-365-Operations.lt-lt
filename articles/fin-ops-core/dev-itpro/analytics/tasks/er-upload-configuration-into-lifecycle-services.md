@@ -1,12 +1,10 @@
 ---
 title: Konfigūracijos nusiuntimas į „Lifecycle Services‟
-description: Šioje temoje aiškinama, kaip sistemos administratoriaus arba elektroninių ataskaitų kūrėjo vaidmenį turintis vartotojas gali sukurti naują elektroninių ataskaitų (ER) konfigūraciją ir ją nusiųsti į „Microsoft Dynamics Lifecycle Services‟ (LCS).
+description: Šioje temoje paaiškinama, kaip sukurti naują elektroninių ataskaitų (ER) konfigūraciją ir nusiųsti ją į „Microsoft Dynamics Lifecycle Services“ (LCS).
 author: NickSelin
-manager: AnnBe
-ms.date: 09/14/2020
+ms.date: 06/17/2021
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERSolutionCreateDropDialog, ERDataModelDesigner, ERDataModelContentsItemCreationDialog, ERSolutionRepositoryTable, ERSolutionRepositoryCreateDropDialog, ERSolutionImport
 audience: Application User
@@ -15,18 +13,21 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2ebafb52882fd33f4f0ef140c5d23d3288af97a2
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
-ms.translationtype: HT
+ms.openlocfilehash: b480351875c7d300db790a68d61a402218f8ee36d8247188b912762f21d035b3
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684168"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6720765"
 ---
-# <a name="upload-a-configuration-into-lifecycle-services"></a>Konfigūracijos nusiuntimas į „Lifecycle Services‟
+# <a name="upload-a-configuration-into-lifecycle-services"></a>Konfigūracijos nusiuntimas į „Lifecycle Services”
 
 [!include [banner](../../includes/banner.md)]
 
 Šioje temoje aiškinama, kaip sistemos administratoriaus arba elektroninių ataskaitų kūrėjo vaidmenį turintis vartotojas gali sukurti naują [elektroninių ataskaitų (ER) konfigūraciją](../general-electronic-reporting.md#Configuration) ir ją nusiųsti į [projekto lygio turto biblioteką](../../lifecycle-services/asset-library.md) „Microsoft Dynamics Lifecycle Services‟ (LCS).
+
+> [!IMPORTANT]
+> LCS naudojimas kaip ER konfigūracijų saugyklos yra [nerekomenduojamas](../../../../finance/get-started/removed-deprecated-features-finance.md#features-removed-or-deprecated-in-the-finance-10017-release). Daugiau informacijos rasite [„Regulatory Configuration Service“ (RCS) – „Lifecycle Services“ (LCS) saugykla nerekomenduojama](../../../../finance/localizations/rcs-lcs-repo-dep-faq.md).
 
 Šiame pavyzdyje sukursite pavyzdinės įmonės pavadinimu „Litware, Inc“ konfigūraciją ir nusiųsite į LCS. Šiuos veiksmus galima atlikti bet kurioje įmonėje, nes ER konfigūracijas visos įmonės naudoja bendrai. Norint atlikti šiuos veiksmus, pirmiausia reikia atlikti veiksmus, nurodytus [Sukurti konfigūracijų teikėjus ir juos pažymėti kaip aktyvius](er-configuration-provider-mark-it-active-2016-11.md). Taip pat reikia prieigos prie LCS.
 
@@ -145,3 +146,6 @@ ms.locfileid: "4684168"
     Turi būti nurodyta ER konfigūracija, kurią nusiuntėte.
 
     Atkreipkite dėmesį, kad, jei tiekėjai turi prieigą prie šio LCS projekto, nusiųstąją LCS konfigūraciją galima importuoti į kitą egzempliorių.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

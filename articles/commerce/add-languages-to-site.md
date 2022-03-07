@@ -2,36 +2,30 @@
 title: Kalbų įtraukimas į savo svetainę
 description: Šioje temoje paaiškinama, kaip į „Microsoft Dynamics 365 Commerce“ svetainę įtraukti papildomų kalbų palaikymą.
 author: bicyclingfool
-manager: annbe
 ms.date: 12/12/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: fa3029387d5f1ca605fc9559c4272c8dfebcddaf
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: d118c90dc16be964bb22aa6f170fe2d2f009b3e9
+ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4414286"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "7964559"
 ---
 # <a name="add-languages-to-your-site"></a>Kalbų įtraukimas į savo svetainę
-
 
 [!include [banner](includes/banner.md)]
 
 Šioje temoje paaiškinama, kaip į „Microsoft Dynamics 365 Commerce“ svetainę įtraukti papildomų kalbų palaikymą.
-
-## <a name="overview"></a>Peržiūrėti
 
 Savo svetainę galite lokalizuoti į bet kurią „Commerce“ palaikomą kalbą. (Palaikomų kalbų sąrašas parodytas tolesnėje šios temos dalyje). Norėdami į savo svetainę įtraukti kalbą, pirmiausia ją turite įtraukti į internetinę parduotuvę, susietą su jūsų svetaine.
 
@@ -171,8 +165,9 @@ Dabar bus pasiekiama jūsų įtraukta kalba, kad galėtumėte sukonfigūruoti sv
 
 [Įtraukti parankinių piktogramą](add-favicon.md)
 
-[Įtraukti pasveikinimo pranešimą](add-welcome-message.md)
-
 [Įtraukti informaciją apie autorių teises](add-copyright-notice.md)
 
 [Įtraukite scenarijaus kodą į svetainės puslapius, kad būtų palaikoma telemetrija](add-telemetry.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

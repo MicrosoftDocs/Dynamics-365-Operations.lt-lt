@@ -2,8 +2,11 @@
 title: ER ALLITEMS funkcija
 description: Šioje temoje pateikiama informacija apie tai, kaip naudojama modulio Elektroninės ataskaitos (ER) ALLITEMS funkcija.
 author: NickSelin
+manager: kfend
 ms.date: 12/04/2019
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
@@ -14,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cf1e05e9377ba18ad0269a48b13bd242a8e5356f4a52ea3723e347dcf5e138e0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 15ab88512e49b51dbefa19056c3e1846715dcadb
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719853"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4687773"
 ---
 # <a name="allitems-er-function"></a>ER ALLITEMS funkcija
 
@@ -62,6 +65,3 @@ Jei kaip duomenų tipo *Įrašų sąrašas* duomenų šaltinį įvedate **Vend**
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Sąrašo funkcijos](er-functions-category-list.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

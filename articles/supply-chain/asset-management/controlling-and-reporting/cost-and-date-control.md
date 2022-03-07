@@ -1,12 +1,10 @@
 ---
 title: Kaštų ir datos valdymas
 description: Šioje temoje aiškinamas kaštų ir datos valdymas turto valdyme.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/23/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetBICostControlWorkspace, EntAssetWorkOrderDateControl, EntAssetWorkOrderForecastCostInfoPart, EntAssetMaintenanceCostTrans, EntAssetWorkOrderDateControlCalcDialog, EntAssetCostControl, EntAssetCostObjectCalendar, EntAssetWorkOrderCostInfoPart
 audience: Application User
@@ -14,23 +12,21 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 1de12233ff296f77ba9984fa8d957d4c2bc90b3f
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
-ms.translationtype: HT
+ms.openlocfilehash: 826e0aab8c717bb951d80aff61b2d72dad802189706f720c48e72c8a1c393ead
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5019080"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6731918"
 ---
 # <a name="cost-and-date-control"></a>Kaštų ir datos valdymas
 
 [!include [banner](../../includes/banner.md)]
 
- 
-
-Turto valdyme galite apskaičiuoti kaštus, kad galėtumėte peržiūrėti faktinius kaštus, palygintus su turto, funkcinių vietų ir darbo užsakymų biudžeto kaštais. Faktiniai kaštai pagrįsti užregistruotomis operacijomis. 
+Turto valdyme galite apskaičiuoti kaštus, kad galėtumėte peržiūrėti faktinius kaštus, palygintus su turto, funkcinių vietų ir darbo užsakymų biudžeto kaštais. Faktiniai kaštai pagrįsti užregistruotomis operacijomis.
 
 Taip galite apskaičiuoti datą, jei norite palyginti darbo užsakymų suplanuotas pradžios ir pabaigos datas su faktinėmis pradžios ir pabaigos datomis.
 
@@ -48,8 +44,8 @@ Su turtu, funkcinėmis vietomis ir darbo užsakymais susiję skaičiavimai yra b
 
 5. Galite naudoti lauką **Lygis**, kad nurodytumėte, kiek išsamios informacijos, susijusios su funkcinėmis vietomis, turi būti kaštų valdymo eilutėse. 
 
-    Pavyzdžiui, jei į lauką įvesite skaičių „1“, o funkcinės vietos struktūra turi kelių lygių hierarchiją, visos kaštų valdymo eilutės, skirtos funkcinei vietai, bus rodomos viršuje, todėl valandas į eilutę galėsite įtraukti iš žemesniame lygmenyje patalpintų funkcinių vietų. 
-    
+    Pavyzdžiui, jei į lauką įvesite skaičių „1“, o funkcinės vietos struktūra turi kelių lygių hierarchiją, visos kaštų valdymo eilutės, skirtos funkcinei vietai, bus rodomos viršuje, todėl valandas į eilutę galėsite įtraukti iš žemesniame lygmenyje patalpintų funkcinių vietų.
+
     Jei lauke **Lygis** įvesite skaičių „0“, matysite išsamų rezultatą, rodantį visų funkcinių vietų lygių, su kuriais jos yra susijusios, kaštų valdymo eilutes.
 
 6. Perjungimo mygtuke **Rodyti atvirus patvirtintus** pažymėkite Taip, jei norite į skaičiavimą įtraukti tą stulpelį.
@@ -62,11 +58,11 @@ Su turtu, funkcinėmis vietomis ir darbo užsakymais susiję skaičiavimai yra b
 
     Toliau pateiktame paveiksle rodomas dialogo langas **Turto kaštų valdymas**.
 
-    ![Dialogo langas „Turto kaštų valdymas“](media/01-controlling-and-reporting.png)
+    ![Dialogo langas „Turto kaštų valdymas“.](media/01-controlling-and-reporting.png)
 
 10. Puslapyje **Turto kaštų valdymas** spustelėkite mygtukus **Grupuoti pagal**, kad būtų rodomas pageidaujamas skaičiavimo išsamumo lygis. Pažymėti mygtukai **Grupuoti pagal** yra paryškinti. Norėdami suaktyvinti arba išjungti, spustelėkite mygtuką.
 
-## <a name="example"></a>Pavyzdys
+## <a name="example-of-calculation-results-in-asset-cost-control"></a>Turto kaštų valdymas skaičiavimo rezultatų pavyzdys
 
 Toliau pateiktoje ekrano kopijoje rodomas **Turto kaštų valdymas** skaičiavimo rezultatų pavyzdys.
 
@@ -75,10 +71,9 @@ Toliau pateiktoje ekrano kopijoje rodomas **Turto kaštų valdymas** skaičiavim
 - Laukuose **Atviri patvirtinti kaštai** rodomi įsipareigojimai sumokėti už elementus, valandas ir paslaugas, kurias užsakėte arba gavote, bet neapmokėjote. 
 - Kai visos naudojimo registracijos užregistruotos, lauke **Faktiniai kaštai** rodomi susiję kaštai.
 
-![„Turto kaštų valdymas“ skaičiavimo rezultatų pavyzdys](media/02-controlling-and-reporting.png)
+![„Turto kaštų valdymas“ skaičiavimo rezultatų pavyzdys.](media/02-controlling-and-reporting.png)
 
 Kitas būdas skaičiuoti kaštus – atlikti kelis pasirinkimus **Visas turtas** arba **Aktyvus turtas**. Tada skirtuke **Bendra** spustelėkite mygtuką **Kaštų valdymas**. Dialogo lange **Turto kaštų valdymas** pažymėtas turtas yra automatiškai įtraukiamas į „FastTab“ **Įtrauktini įrašai** lauką **Turtas**. Spustelėkite **Gerai** ir rodomas pasirinkto turto kaštų skaičiavimas. Tą pačią procedūrą galima atlikti su funkcinėmis vietomis dalyje **Visos funkcinės vietos** arba **Aktyvios funkcinės vietos** ir su darbo užsakymais dalyje **Visi darbo užsakymai** arba **Aktyvūs darbo užsakymai**.
-
 
 ## <a name="work-order-date-control"></a>Darbo užsakymo datos kontrolė
 
@@ -96,7 +91,7 @@ Naudokite šį puslapį, kad galėtumėte peržiūrėti numatytas pradžios ir p
 
 6. Spustelėkite mygtukus **Grupuoti pagal**, kad būtų rodomas pageidaujamas išsamus skaičiavimo lygis. Pažymėti mygtukai **Grupuoti pagal** yra paryškinti. Norėdami suaktyvinti arba išjungti, spustelėkite mygtuką.
 
-## <a name="example"></a>Pavyzdys
+## <a name="example-of-calculation-results-in-work-order-date-control"></a>Darbo užsakymo datos valdymas skaičiavimo rezultatų pavyzdys
 
 Toliau pateiktoje ekrano kopijoje rodomas rezultatų **Darbo užsakymo datos valdymas** pavyzdys.
 
@@ -104,6 +99,9 @@ Toliau pateiktoje ekrano kopijoje rodomas rezultatų **Darbo užsakymo datos val
 - Lauke **Vid. pabaigos delsa** rodomas dienų tarp darbo užsakymo suplanuotos pabaigos datos, palygintos su faktine pabaigos data, skirtumas. Jei, pavyzdžiui, faktinė pabaigos data buvo trys dienos iki suplanuotos pabaigos datos, lauke bus rodoma „3“.  
 - Laukuose **Įvykiai** rodomas laiko nuokrypių, susijusių su darbo užsakymo suplanuota ir faktine pradžios data ir suplanuota ir faktine pradžios data, skaičius.
 
-![„Darbo užsakymo datos valdymas“ skaičiavimo rezultatų pavyzdys](media/03-controlling-and-reporting.png)
+![„Darbo užsakymo datos valdymas“ skaičiavimo rezultatų pavyzdys.](media/03-controlling-and-reporting.png)
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

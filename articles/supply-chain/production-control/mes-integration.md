@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-10-01
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: ea39a1fc9092aaa4622c7193f7538acc85aa0f46
-ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
-ms.translationtype: MT
+ms.openlocfilehash: 14e86a49777eefefae711bfe0d756361b09d69c2
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/10/2022
-ms.locfileid: "7952682"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778454"
 ---
 # <a name="integrate-with-third-party-manufacturing-execution-systems"></a>Integravimas trečiosios šalies gamybos vykdymo sistemose
 
@@ -37,17 +37,10 @@ Toliau esanti iliustracija pateikia įprastą verslo įvykių, procesų ir prane
 
 ## <a name="turn-on-the-mes-integration-feature"></a>Įjungti MES integravimo funkciją
 
-Prieš tai kai galėsite naudoti šią priemonę, administratorius turi įjungti ją jūsų sistemoje, kaip aprašyta toliau pateiktoje procedūroje.
+Kad galėtumėte naudoti šią funkciją, ji turi būti įjungta jūsų sistemoje. Administratoriai gali naudoti [funkcijos valdymas](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) parametrus, norėdami sužinoti funkcijos būseną ir įjungti ją. Darbo srityje **Funkcijų valdymas** ši funkcija yra nurodyta toliau pateikiamu būdu.
 
-1. Eikite į **Sistemos administravimas \> Sąranka \> Licencijos konfigūracija**.
-1. Įsitikinkite, kad **laiko ir lankomumo** licencijos raktas įgalintas (rodoma varnelė). Šis licencijos raktas yra būtinas, kadangi jis valdo gamybos vykdymo sistemos funkcijas ir duomenis. Jei ji neįgalinta, atlikite šiuos veiksmus:
-    1. Įdėkite savo sistemą į priežiūros režimą kaip aprašyta [Priežiūros režime](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
-    1. Licencijos **konfigūracijos puslapyje** pažymėkite žymės langelį Laikas **ir** lankomumas.
-    1. Išjungti priežiūros režimą, kaip aprašyta priežiūros [režimu](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md)
-1. Eikite į **sistemos administravimo darbo sričių funkcijų \>\>** valdymą.
-1. Įjungti toliau išvardytas priemones (žr. funkcijų [valdymo](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) peržiūrą):
-    - **Modulis:** *Gamybos kontrolė*
-    - **Funkcijos pavadinimas:** *gamybos vykdymo sistemos integravimas*
+- **Modulis:** *Gamybos kontrolė*
+- **Funkcijos pavadinimas:** *gamybos vykdymo sistemos integravimas*
 
 ## <a name="processes-available-for-mes-integration"></a>Galimi MES integravimo procesai
 
@@ -60,7 +53,7 @@ Galite įgalinti bet kurį arba visus šiuos integravimo procesus.
 | Ataskaita apie pagamintą arba nurašytą kiekį | Šis procesas suteikia tiekimo grandinės valdymą ir informaciją apie gerų ir klaidų kiekius, kurie pranešami gamybos užduotyje naudojant MES. Taip užtikrinama, kad darbo laiko prižiūrėtojai turėtų naujausias gamybos plano eigos vaizdą. |
 | Ataskaita apie medžiagų suvartojimą | Šis procesas teikia tiekimo grandinės valdymą, remiantis MES, informacija apie suvartotų medžiagų kiekį. Ji atlieka naujausias atsargų įrašus, prieinamus kitiems svarbiams procesams, pvz., planavimui ir pardavimui. |
 | Ataskaitai skirtas laikas, sunaudotas operacijai | Šis procesas suteikia tiekimo grandinės valdymą ir informaciją apie laiką, kuris naudojamas specialiai operacijai. |
-| Baigti gamybos užsakymą | Šis procesas informuos tiekimo grandinės valdymą, kad MES atnaujino gamybos užsakymą į galutinę būseną *Baigta*. Ši būsena nurodo, kad pagal gamybos užsakymą daugiau kiekių nebus gaminama. |
+| Baigti gamybos užsakymą | Šis procesas informuos tiekimo grandinės valdymą, kad MES atnaujino gamybos užsakymą į galutinę būseną *·* Baigta. Ši būsena nurodo, kad pagal gamybos užsakymą daugiau kiekių nebus gaminama. |
 
 ## <a name="monitor-incoming-messages"></a>Gautų pranešimų stebėjimas
 
@@ -152,11 +145,11 @@ Toliau pateikiamoje lentelėje rodomi laukai, kuriuos palaiko `ReportFinishedLin
 | `ProductionWarehouseLocationId` | Pasirinktina | Eilutė |
 | Nuo `InventoryDimension1` iki `InventoryDimension12` | Pasirinktina | Eilutė |
 
-12 extensible dimensijų `InventoryDimension1``InventoryDimension12` (per) reikalauja pritaikymo, bet ne visada naudojamos. Daugiau informacijos apie jas rasite naujų atsargų [dimensijų pridėjimas naudojant plėtinį](../../fin-ops-core/dev-itpro/extensibility/inventory-dimensions.md).
+12 extensible dimensijų `InventoryDimension1``InventoryDimension12` (per) reikalauja pritaikymo, bet ne visada naudojamos. Daugiau informacijos apie jas rasite [plėtiniu Įtraukti naujas atsargų dimensijas.](../../fin-ops-core/dev-itpro/extensibility/inventory-dimensions.md)
 
 ### <a name="material-consumption-picking-list-message"></a>Medžiagų suvartojimo (išrinkimo sąrašas) pranešimas
 
-Medžiagų *suvartojimo (išrinkimo dokumentų)* pranešimas `_messageType` yra vertė `ProdProductionOrderPickingList`. Toliau pateikiamoje lentelėje rodomi laukai, kuriuos palaiko šis pranešimas.
+Medžiagų *suvartojimo (išrinkimo dokumentų)* pranešimas `_messageType` yra `ProdProductionOrderPickingList` vertė. Toliau pateikiamoje lentelėje rodomi laukai, kuriuos palaiko šis pranešimas.
 
 | Lauko pavadinimas | Būsena | Tipas |
 |---|---|---|
@@ -198,7 +191,7 @@ Toliau pateikiamoje lentelėje rodomi laukai, kuriuos palaiko `RouteCardLines` k
 
 | Lauko pavadinimas | Būsena | Tipas |
 |---|---|---|
-| `OperationNumber` | Privalomas | Sveikasis skaičius |
+| `OperationNumber` | Privalomas | Privaloma, integer |
 | `OperationPriority` | Pasirinktina | Išvardimis \| (pirminis antrinis1 \| antrinis2... \|\| Antrinis 20) |
 | `OperationId` | Pasirinktina | Eilutė |
 | `OperationsResourceId` | Pasirinktina | Eilutė |
@@ -249,5 +242,5 @@ Tokiais atvejais galite pasinaudoti standartine tiekimo grandinės valdymo įsp�
 
 Pavyzdžiui, galite nustatyti šiuos įspėjimus, kad galėtumėte pateikti atsiliepimus apie pranešimo būseną:
 
-- Kurti verslo įvykį ("Siųsti išoriškai"), kuris naudojamas, kai pranešimas *nepavyko*.
+- Kurti verslo įvykį ("Siųsti išoriškai"), kuris naudojamas, kai pranešimas *·* nepavyko.
 - Siųsti pranešimą ir el. laišką IT administratoriui arba gamybos laiko vadybininkui.

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.0
-ms.openlocfilehash: 59c4c100275917f3f9bf489c7d64b276275f1872
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
-ms.translationtype: MT
+ms.openlocfilehash: 14a32f7fc4608ef8910646f80786a188c46dc89d
+ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7778088"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "6102619"
 ---
 # <a name="wave-label-printing"></a>Bangos žymos spausdinimas
 
@@ -53,9 +53,9 @@ Bangos žymos spausdinimas siūlo šiuo pagerinimus:
 
 ## <a name="turn-on-the-wave-label-printing-feature"></a>Įjunkite bangos žymos spausdinimo savybę
 
-Kaip tiekimo grandinės valdymo versija 10.0.21, ši funkcija yra privaloma, todėl ji yra įjungta pagal numatytuosius nustatymus ir negali būti išjungtas dar kartą. Tačiau funkcija vis dar pateikiama [funkcijų valdyme](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) tokiu būdu:
+Prieš naudodami šią funkciją, *Bangos žymos spausdinimas* savybę, ji turi būti įjungta jūsų sistemoje. Administratoriai gali naudoti [Funkcijos valdymas](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) darbo sritį, norėdami sužinoti funkcijos būseną ir įjungti ją, jei reikia. Ten ši funkcija pateikiama taip:
 
-- **Modulis:** *Warehouse management*
+- **Modulis:** *Sandėlio valdymas*
 - **Savybės pavadinimas:** *Bangos žymos spausdinimas*
 
 ## <a name="scenario-1-wave-label-printing-where-a-single-wave-label-is-generated"></a>Scenarijus 1: Bangos žymos spausdinimas, kai atskira bangos žymė yra sukuriama
@@ -197,7 +197,7 @@ Bangos šablonas leidžia jums susieti konkrečius bangų metodų atvejus pagal 
     ```
 
     > [!NOTE]
-    > Šie nustatymai atspausdins vieną kiekvienos žymos kopiją. Jei jums reikia daugiau kopijų (pavyzdžiui, vienos kopijos vienai padėklo pusei), nustatykite **n** vertę **\^ PQn** skyriui poraštėje reikiamam kopijų skaičiui. Pavyzdžiui, keturių kiekvienos žymos kopijų spausdinimui, nustatykite **\^ PQ4**.
+    > Šie nustatymai atspausdins vieną kiekvienos žymos kopiją. Jei jums reikia daugiau kopijų (pavyzdžiui, vienos kopijos vienai padėklo pusei), nustatykite **n** vertę **\^PQn** skyriui poraštėje reikiamam kopijų skaičiui. Pavyzdžiui, keturių kiekvienos žymos kopijų spausdinimui, nustatykite **\^PQ4**.
 
 Jūsų žymė dabar paruošta naudojimui.
 
@@ -420,7 +420,7 @@ Bangos šablonas leidžia jums susieti konkrečius bangų metodų atvejus pagal 
     ```
 
     > [!NOTE]
-    > Šie nustatymai atspausdins vieną kiekvienos žymos kopiją. Jei jums reikia daugiau kopijų (pavyzdžiui, vienos kopijos vienai padėklo pusei), nustatykite **n** vertę **\^ PQn** skyriui poraštėje reikiamam kopijų skaičiui. Pavyzdžiui, keturių kiekvienos žymos kopijų spausdinimui, nustatykite **\^ PQ4**.
+    > Šie nustatymai atspausdins vieną kiekvienos žymos kopiją. Jei jums reikia daugiau kopijų (pavyzdžiui, vienos kopijos vienai padėklo pusei), nustatykite **n** vertę **\^PQn** skyriui poraštėje reikiamam kopijų skaičiui. Pavyzdžiui, keturių kiekvienos žymos kopijų spausdinimui, nustatykite **\^PQ4**.
 
 Jūsų žymė dabar paruošta naudojimui.
 
@@ -647,7 +647,7 @@ Pagrindinis skirtumas tarp šio scenarijaus konfigūravimo ir scenarijus 1 konfi
     ```
 
     > [!NOTE]
-    > Šie nustatymai atspausdins vieną kiekvienos žymos kopiją. Jei jums reikia daugiau kopijų (pavyzdžiui, vienos kopijos vienai padėklo pusei), nustatykite **n** vertę **\^ PQn** skyriui poraštėje reikiamam kopijų skaičiui. Pavyzdžiui, keturių kiekvienos žymos kopijų spausdinimui, nustatykite **\^ PQ4**.
+    > Šie nustatymai atspausdins vieną kiekvienos žymos kopiją. Jei jums reikia daugiau kopijų (pavyzdžiui, vienos kopijos vienai padėklo pusei), nustatykite **n** vertę **\^PQn** skyriui poraštėje reikiamam kopijų skaičiui. Pavyzdžiui, keturių kiekvienos žymos kopijų spausdinimui, nustatykite **\^PQ4**.
 
 1. Pirmoji žymė dabar paruošta naudojimui.
 1. Sukurkite antrą maketo įrašą, kuris turi šiuos nustatymus:
@@ -721,7 +721,7 @@ Pagrindinis skirtumas tarp šio scenarijaus konfigūravimo ir scenarijus 1 konfi
     ```
 
     > [!NOTE]
-    > Šie nustatymai atspausdins vieną kiekvienos žymos kopiją. Jei jums reikia daugiau kopijų (pavyzdžiui, vienos kopijos vienai padėklo pusei), nustatykite **n** vertę **\^ PQn** skyriui poraštėje reikiamam kopijų skaičiui. Pavyzdžiui, keturių kiekvienos žymos kopijų spausdinimui, nustatykite **\^ PQ4**.
+    > Šie nustatymai atspausdins vieną kiekvienos žymos kopiją. Jei jums reikia daugiau kopijų (pavyzdžiui, vienos kopijos vienai padėklo pusei), nustatykite **n** vertę **\^PQn** skyriui poraštėje reikiamam kopijų skaičiui. Pavyzdžiui, keturių kiekvienos žymos kopijų spausdinimui, nustatykite **\^PQ4**.
 
 1. Antroji žymė dabar paruošta naudojimui.
 1. Sukurkite trečią maketo įrašą, kuris turi šiuos nustatymus:
@@ -933,6 +933,5 @@ Didžiojoje dalyje šių puslapių, galite rasti atitinkamą funkciją pasirink�
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 - [Pakartotinis bangos žymų spausdinimas ir anuliavimas](reprint-and-void-wave-labels.md)
-- [Planuoti bangos žymos spausdinimą bangos vykdymo metu](configure-task-based-wave-label-printing.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

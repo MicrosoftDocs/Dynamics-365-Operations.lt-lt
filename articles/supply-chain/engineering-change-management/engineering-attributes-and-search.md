@@ -12,13 +12,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
-ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 59710f0366418e240a4109e7cf8fcf84073110bf
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
-ms.translationtype: MT
+ms.dyn365.ops.version: Release 10.0.15
+ms.openlocfilehash: 5cb4c2b9b4a3c54e71f73369096d00b436079c1c
+ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103218"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7475017"
 ---
 # <a name="engineering-attributes-and-engineering-attribute-search"></a>Inžineriniai atributai ir inžinerinio atributo paieška
 
@@ -72,9 +72,9 @@ Norėdami peržiūrėti, sukurti ar redaguoti inžinerinių pakeitimų užklaus�
 
 Produktų struktūrose, pvz., komplektavimo specifikacijose (KS) arba formulėse, pasirinkti atributai gali būti perduoti iš antrinių prekių iki pirminių prekių. Apie šį procesą galite galvoti kaip apie „atvirkštinį paveldėjimą".
 
-#### <a name="turn-engineering-attribute-inheritance-on-or-off"></a>Įjungti arba išjungti inžinerijos atributų paveldėjimą
+#### <a name="turn-on-this-feature-for-your-system"></a>Šios funkcijos įjungimas sistemoje
 
-Šiai funkcijai reikia, kad jūsų *sistemai būtų įjungtas* *ir inžinerinių pakeitimų valdymo* funkcijų inžinerijos pakeitimų valdymas ir patobulintas atributų paveldėjimas. Išsamesnės informacijos apie šių funkcijų įjungimą ir išjungimą žr. Inžinerinių [pakeitimų valdymo peržiūra](product-engineering-overview.md).
+Jei jūsų sistemoje dar nėra šioje temoje aprašytų funkcijų, eikite į [Funkcijų valdymas](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) ir įjunkite *Pagerintas atributo paveldimumas Engineering Change Management* funkcijai.
 
 #### <a name="attribute-inheritance-example"></a>Atributų paveldėjimo pavyzdys
 

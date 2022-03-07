@@ -1,12 +1,10 @@
 ---
 title: KS ir formulės
 description: Šioje temoje pateikiama informacija apie KS ir formules, kurios yra svarbi produktų ir produktų variantų aprašų dalis.
-author: cvocph
-manager: tfehr
+author: johanhoffmann
 ms.date: 11/03/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BOMConsistOf, BOMDesigner, BOMTable, EcoResProductProcessManufacturingWorkspace, ProdBOM, ProdJournalTransBOM, ProdBOMCurrent, PmfBOMDesignerEditCoBy, ProdJournalPickingListLineSummary, ProdBOMOverview, PmfCoReqPlanning, EcoResProductProdTypeFormulaNoActiveFormulaFormPart, EcoResItemsMissingActiveRouteVersionFormPart, EcoResItemsProdTypeBOMExpiringBOMFormPart, BOMDesignerBOMVersion, BOMExpandPurch, BOMChangeLine, BOMExpandSales, EcoResItemsProdTypeBOMExpiringRouteFormPart, EngChgEcmBomDesigner, EngChgEcmProductBOMItemIdLookup, EngChgEcmProductBOMConsistOf, EngChgEcmBOMCopyDialog, EngChgEcmBomDesignerEditBom, BOMDesignerFilterDialog, BOMDesignerFilterDialog, BOMPartOf, BOMSetupReportFinish, EcoResItemsMissingActiveBOMVersionFormPart, BOMIdLookup, EcoResProductProdTypeFormulaNoActiveRouteFormPart, BOMExpandPurchRFQ, EngChgCaseRouteTablePart
 audience: Application User
@@ -15,15 +13,15 @@ ms.custom: 19331
 ms.assetid: c19b437a-2de2-4728-9477-2bcb0c2b1f5e
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 01491f15405e28e63e4b83f9a9c7af90c2e4a1b5
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.openlocfilehash: 12a70720775d9903a875dd1759ea2372f1f3b122
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4966485"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7578013"
 ---
 # <a name="bills-of-materials-and-formulas"></a>KS ir formulės
 
@@ -31,8 +29,7 @@ ms.locfileid: "4966485"
 
 Šioje temoje pateikiama informacija apie KS ir formules, kurios yra svarbi produktų ir produktų variantų aprašų dalis. KS ir formulės nurodo reikiamas konkretaus produkto medžiagas arba sudedamąsias dalis. Formulės taip pat nurodo sudėtinius produktus arba šalutinius produktus, kurie gauname konkrečiame gamybos kontekste. 
 
-<a name="bills-of-materials"></a>Komplektavimo specifikacijos
-------------------
+## <a name="bills-of-materials"></a>Komplektavimo specifikacijos
 
 Komplektavimo specifikacija (KS) apibrėžia komponentus, kurių reikia norint pagaminti produktą. Komponentai gali būti žaliavos, pusiau baigti produktai arba ingredientai. Kai kuriais atvejais KS specifikacijoje gali būti nurodoma į paslaugas. Tačiau paprastai KS specifikacijose apibūdinami reikalingi *medžiagų ištekliai*.  
 
@@ -56,7 +53,7 @@ Formulė yra KS potipis, paprastai naudojama proceso gamyboje. Be komponentų ir
 Produkto cikle dėl įvairių priežasčių galima kurti įvairių tipų KS.
 
 -   **Eskizinė / juodraščio KS** – šioje KS pradiniame kūrimo etape pateikiamas reikalingų medžiagų įvertinimo juodraštis, ir ši KS padeda apytikriai įvertinti išlaidas ir produktų atributus. Įmonės išteklių planavimo (ERP) modulyje ši KS paprastai nenaudojama.
--   **Inžinerinė KS** – ši KS paprastai naudojama kuriant produktus, paremtus esamais produktų portfeliais. Inžinerinių KS struktūra skirta supaprastinti kūrimo procesui ir sudėtingams produktams grupuoti į inžinerijos modulius. Paprastų produktų KS gali būti įmanoma kurti faktinės gamybos procesui. Tačiau kitų produktų inžinerines KS reikia konvertuoti į faktinės gamybos KS. KS hierarchijoje inžinerines KS paprastai vaizduoja fiktyvios eilutės. Nors inžinerines KS galima naudoti planuojant ir vykdant gamybos operacijas, naudoti šį būdą gali būti neefektyvu, ypač vykdant pasikartojančias operacijas, kai kuriama daug užsakymų.
+-   **Inžinerinė KS** – ši KS paprastai naudojama kuriant produktus, paremtus esamais produktų portfeliais. Inžinerinių KS struktūra skirta supaprastinti kūrimo procesui ir sudėtingiems produktams grupuoti į inžinerijos modulius. Paprastų produktų KS gali būti įmanoma kurti faktinės gamybos procesui. Tačiau kitų produktų inžinerines KS reikia konvertuoti į faktinės gamybos KS. KS hierarchijoje inžinerines KS paprastai vaizduoja fiktyvios eilutės. Nors inžinerines KS galima naudoti planuojant ir vykdant gamybos operacijas, naudoti šį būdą gali būti neefektyvu, ypač vykdant pasikartojančias operacijas, kai kuriama daug užsakymų.
 -   **Planavimo KS** – ši KS naudojama planuoti medžiagų poreikiams. Komponentų ir ingredientų poreikis apskaičiuojamas pagal galutinių produktų poreikį. Kaip ir įkainojimo KS specifikacijos, planavimo KS specifikacijos gali nurodyti konkretų medžiagų mišinį, naudojamą tam tikru laikotarpiu.
 -   **Gamybos KS** – tai KS, naudojama konkrečioje gamyboje. Gamybos KS specifikacijoje reikia atsižvelgti į faktinius išteklius, kurie naudojami gaminant produktą. Sukūrus gamybos užsakymą, paketinį užsakymą ar „kanban‟, keli KS specifikacijų lygiai, kuriuos vaizduoja fiktyvios eilutės, sutraukiami į vieną lygį ir paskirstomi užsakymo operacijoms.
 -   **Įkainojimo KS** – ši KS naudojama įvertintai produkto savikainai apskaičiuoti. Pvz., įkainojimo KS galite naudoti, kai naudojama standartinė savikaina arba skaičiuojama nurodyto produkto įvertinta suplanuota savikaina. Įkainojimo KS specifikacijos gali nurodyti į planuojamą naudoti konkretų medžiagų ir išteklių mišinį. Todėl įkainojimo KS galite naudoti kurdami reprezentatyvią įvertintą laikotarpio savikainą ir siekdami išvengti per laiką atsirandančių nuokrypių.
@@ -117,3 +114,6 @@ Pasirinkite **Tiekėjo** eilučių tipą, jei gamybos procese dalyvauja subrango
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

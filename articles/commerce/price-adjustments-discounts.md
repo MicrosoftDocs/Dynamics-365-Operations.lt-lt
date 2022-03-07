@@ -2,16 +2,13 @@
 title: Kainų koregavimas ir nuolaidos
 description: Šiame straipsnyje pateikiama informacija apie kainų koregavimus ir nuolaidas „Dynamics 365 Commerce“.
 author: scott-tucker
-manager: AnnBe
-ms.date: 11/16/2020
+ms.date: 06/11/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailParameters, RetailPeriodicDiscount
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 15891
 ms.assetid: bab5adf3-ddf0-4c22-a2eb-b4d25b88de99
 ms.search.region: global
@@ -19,12 +16,12 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 0c2adaa5cd935d5b593bfbb3215d3466fcafab7b
-ms.sourcegitcommit: 1d74636bf9db5fb33e998322899504b709b4f89f
+ms.openlocfilehash: 44c03ae0a04d648e788a72d8f6dcc3671c5736c7
+ms.sourcegitcommit: 7c9d6be464db058511df9cb6ba162d21dc0554e8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/19/2020
-ms.locfileid: "4584320"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "6240947"
 ---
 # <a name="price-adjustments-and-discounts"></a>Kainų koregavimas ir nuolaidos
 
@@ -51,3 +48,13 @@ Yra daug tipų nuolaidų:
 - **Siuntimo nuolaida** – Nuolaida, kuri yra taikoma, kai perlaidos bendra suma yra didesnė nei nurodyta suma ir konkretus pristatymo būdas (pavyzdžiui, dviejų dienų siuntimas ar siuntimas per naktį) naudojamas užsakyme.
 
 Tiek kainų korekcijas, tiek nuolaidas galima susieti su kainų grupėmis. Kainų grupės gali būti susietos su kanalais, katalogais, priskyrimais ir lojalumo programomis.
+
+> [!NOTE]
+> Nuolaidos prekių nuolaidai ir ribinei vertei taikomos ypatybės, kurių pavadinimai Skaičiuoti produktus, kuriems nuolaida nėra taikoma" ir „Skaičiuoti produktus, kuriems nuolaida nėra taikoma, kaip ribinė reikšmė". Jei šios ypatybės įgalintos, prekė, kuri neturi teisės į jokias nuolaidas, vis tiek gali padėti nustatyti nuolaidos operaciją, bet netinkama prekė negaus nuolaidos. 
+> 
+> Pavyzdžiui, jei sukuriate nuolaidą prekių maišai su dviem eilutėmis A ir B, kur klientui 10% nuolaida turi būti atjungta, o A prekės konfigūracija pažymėta Kaip Neleisti visų nuolaidų, tai paprastai reiškia, kad A prekė neįtraukiama į nuolaidą. Tačiau, jei įgalinta ypatybė Skaičiuoti produktus, kuriems netaikoma nuolaida, prekę A galima naudoti norint pritaikyti nuolaidą prekių prekių nuolaidai, tačiau 10% nuolaida bus taikoma tik prekei B. Panaši logika taikoma ribinei nuolaidai. 
+>
+> Tačiau ypatybė „Skaičiuoti produktus, kuriems taikoma nuolaida siekiant slenkstį“, turi papildomą galimybę, kai ji lyginama su nuolaidų prekių nuolaidai taikoma ypatybė Skaičiuoti produktus, kuriems nuolaida nėra taikoma. Jei įgalinta ribinė nuolaida ir jei yra prekė, kuriai taikoma esama nuolaida, kuri apsaugotų nuo bet kokių kitų nuolaidų, už šią prekę sumokėta kaina atitiktų ribinę vertę, tačiau ši prekė negaus papildomos nuolaidos.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

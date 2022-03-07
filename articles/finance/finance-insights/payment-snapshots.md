@@ -1,34 +1,32 @@
 ---
-title: Momentinių kopijų apžvalga (peržiūros versija)
+title: Momentinių kopijų apžvalga
 description: Šioje temoje aprašoma momentinės kopijos funkcija, kuri leidžia įrašyti pinigų srautų prognozę analizei arba palyginimui su aktuarijų vėliau. Kai sugeneruojate pinigų srautų prognozę, šią prognozę galite įrašyti kaip momentinę nuotrauką. Tada galite naudoti šias momentines nuotraukas, kad galėtumėte redaguoti į prognozę įtrauktus abonentus, arba palyginti prognozuojamą fotografiją su faktiniais duomenimis.
 author: ShivamPandey-msft
-manager: AnnBe
-ms.date: 05/19/2020
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
-ms.custom: 14151
+ms.custom:
+- "14151"
+- intro-internal
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-19
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: f0d0bdde8b69148c72b8c645e040f0e596ecba92
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: bcaaa9fe13e36bbe71e29d82c9f22a4fff9248ef
+ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4645630"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "7386568"
 ---
-# <a name="snapshots-overview-preview"></a>Momentinių kopijų apžvalga (peržiūros versija)
+# <a name="snapshots-overview"></a>Momentinių kopijų apžvalga
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Momentinės kopijos leidžia organizacijoms redaguoti ir įrašyti informaciją apie savo grynųjų pinigų padėtį ir grynųjų pinigų prognozes tam tikru laiku. Galite lyginti momentinę kopiją su faktiniais finansais, patikrinti nuokrypį ir naudoti šią informaciją pinigų srautų prognozėms per tam tikrą laiką pagerinti. Kalbant konkrečiau, momentines kopijas galima naudoti toliau nurodytais būdais.
 
@@ -46,5 +44,4 @@ Norėdami palyginti kelias momentines kopijas, pasirinkite **Palyginti momentine
 
 Norėdami palyginti faktinius finansinius rezultatus su prognoze, kuri buvo įrašyta kaip momentinė kopija, pasirinkite **Palyginti su faktiniais duomenimis**. Puslapyje **Momentinių kopijų palyginimas** bus rodomas faktinių sumų ir prognozės palyginimas. Viršutinėje puslapio dalyje esančioje diagramoje parodomi grynųjų pinigų įplaukų, grynųjų pinigų srautų ir banko balansų persidengiantys laikotarpių tarp dviejų kadrų palyginimas. Apatinėje dalyje esantis tinklelis nurodo išsamų kiekvieno likvidumo sumos faktinių balansų per laikotarpį ir prognozuojamo balanso palyginimą. Tinklelyje esantis stulpelis **Nuokrypis** rodo skirtumą tarp faktinio balanso per laikotarpį ir prognozuojamo balanso.
 
-#### <a name="privacy-notice"></a>Privatumo pranešimas
-Peržiūros versijos (1) gali naudoti mažiau privatumo ir mažiau saugos priemonių nei „Dynamics 365 Finance and Operations“ paslauga, (2) jos nėra įtrauktos į aptarnavimo lygio sutartį (SLA), (3) jos neturėtų būti naudojamos apdoroti asmens duomenims ar kitiems duomenims, kuriems taikomi teisiniai ir atitikimo teisės aktai (4) ir jų palaikymas yra ribotas.
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

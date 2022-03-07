@@ -2,19 +2,19 @@
 title: Programėlių paslaugos „Finance and Operations“ aprašas
 description: Šioje temoje pateikiamas programėlių paslaugos „Finance and Operations“ aprašas.
 author: tomhig
-ms.date: 01/05/2022
+ms.date: 11/17/2021
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
 ms.search.region: Global
 ms.author: whigginb
 ms.search.validFrom: 2021-09-03
-ms.openlocfilehash: 85f82a863f0bde4c0414760fa2477651242538f2
-ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
-ms.translationtype: MT
+ms.openlocfilehash: 262cf00bdca63876c284be40954ca5de559b993a
+ms.sourcegitcommit: f11ad8d7ee8a4d2ee1a1bb601622b50e14955c4a
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/10/2022
-ms.locfileid: "7952371"
+ms.lasthandoff: 11/18/2021
+ms.locfileid: "7825405"
 ---
 # <a name="service-description-for-finance-and-operations-apps"></a>Programėlių paslaugos „Finance and Operations“ aprašas
 
@@ -117,7 +117,7 @@ Daugiau informacijos rasite [diegimo projekto insąrangoje](../imp-lifecycle/onb
 ### <a name="countryregion-specific-considerations"></a>Konkrečių šalių / regionų svarstymai
 
 - Klientai, industrijos ar komercinėse organizacijose, verslus su Prancūzijos subjektais, kuriems reikia vietinių duomenų, turėtų [„Finance and Operations“ būti peržiūrimi Prancūzijoje](../../dev-itpro/deployment/france-local-deployment.md).
-- Klientai, kinijos operacijoms vykdantys operacijas, turi peržiūrėti ["Azure China" "Book"](/azure/china/)[Finance and Operations ir operuoja 21 "21" Iš](../../dev-itpro/deployment/china-local-deployment.md) Kinijos.
+- Klientai, kurie turi operacijas Kinijos turi peržiūrėti [„Finance and Operations“ „21Winet Kinija“](../../dev-itpro/deployment/china-local-deployment.md).
 - Klientai, kurie turi operacijas Rusijoje, turi peržiūrėti [Rusijos asmeninių duomenų lokalizavimo įstatymą](/business-applications-release-notes/october18/dynamics365-finance-operations/russian-regulations-on-prem#when-will-the-cloud-deployment-option-of-dynamics-365-for-finance-and-operations-be-generally-available-for-russia).
 
 ### <a name="general-data-protection-regulation-gdpr"></a>Bendrasis duomenų apsaugos reglamentas (BDAR)
@@ -314,9 +314,9 @@ Pirminės duomenų saugyklos palaikomos dubliuojant. Todėl kiekvienos tarnybos 
 | „Microsoft" įdiegia antrinę aplinką „Azure" suporuotame duomenų centre, kai įdiegiamas pirminis gamybos egzempliorius. Norėdami gauti daugiau informacijos, žr. [verslo tęstinumo ir įvykių susigrąžinimo nelaimių atveju (BCDR): „Azure“ sugretinti regionai](/azure/best-practices-availability-paired-regions). | None |
 | „Microsoft" įgalina „Azure SQL" ir „Azure Blob Storage ", įdiegę pirminį gamybos egzempliorių. | None |
 | „Microsoft" įgalina automatinę atsarginę kopiją „Azure SQL" duomenų bazėse. | None |
-| <p>Kai įvyksta nesklandimas, „Microsoft“ nustato, ar reikia atlikti kliento failo failą ir ar bus prarasti duomenys. Klientai gali prarasti duomenis iki 15 minučių, tai priklauso nuo pametimo pobūdžio ir laiko. | Duomenų praradimo atveju klientui gali reikėti pateikti rašytinę galutinę sąskaitą, kad būtų suaktyvinamas failo paleidimas. |
+| <p>Kai įvyksta nesklandimas, „Microsoft“ nustato, ar reikia atlikti kliento failo failą ir ar bus prarasti duomenys. Duomenų praradimas gali būti iki 5 sekundžių. Norėdami gauti daugiau informacijos, žr. [„Azure SQL" duomenų bazės geografinio atkūrimo atstatyti](https://azure.microsoft.com/blog/azure-sql-database-geo-restore).</p><p>Jei duomenys bus prarasti, „Microsoft" paprašys, kad klientas atjungtų nuo failo failo.</p> | Duomenų praradimo atveju, klientui gali reikėti pateikti nurašoimą, kad būtų suaktyvinamas failo paleidimas. |
 | Kai paleidžiamas failo laikas, taikoma tarnyba veikia ribotu režimu. Naujinimo priežiūros negalima įjungti permetimo režimu. | Klientas negali prašyti paketo diegimo arba kitų reguliarių priežiūros užklausų failo režimu. |
-| Kai duomenų centras pradeda veikti, „Microsoft" nepavyksta grįžti į gamybos egzempliorių pirminio „Azure" regione. Normalių operacijų santrauka. | Klientui gali tekti pasirašyti nepasilaikyus gamybos egzemplioriaus, pirminio "Azure" regione. |
+| Kai duomenų centras pradeda veikti, „Microsoft" nepavyksta grįžti į gamybos egzempliorių pirminio „Azure" regione. Normalių operacijų santrauka. | Klientui gali tekti atsijungti neišjungus gamybos egzemplioriaus, pirminio „Azure" regione. |
 
 ## <a name="finance-and-operations-support-offerings"></a>„Finance and Operations“ pasiūlymų palaikymas
 
@@ -356,7 +356,6 @@ Jei incidentai susiję su „Finance and Operations“ programėle, klientai per
 - **[Licencijavimo vadovas](https://www.microsoft.com/licensing/docs/view/Microsoft-Dynamics-365)** – norėdami daugiau sužinoti apie „Dynamics 365" licenciją, naudokite šį vadovą.
 - **[Klientų palaikymas](https://dynamics.microsoft.com/support/)** – gaukite pramonės šaką tinkantį „Dynamics 365" programėlių palaikymą.
 - **[„Dynamics Lifecycle Services"](https://lcs.dynamics.com/)** – valdykite savo programos vykdymo ciklą ir pereisite prie numatymų, pasikartojančių, aukštos kokybės diegimo.
-- **["Dynamics 365" diegimo vadovas – "Dynamics 365" diegimo vadovo dokumentų laiko patikrinti principai ir pateikiami prescriptiniai patarimai architektui, kurti, išbandyti ir diegti](https://aka.ms/D365ImplementationGuideFlip)** Success by Design "Dynamics 365" sprendimus.
 
 ## <a name="definitions"></a>Sąvokos
 
@@ -429,10 +428,6 @@ SLA taikoma „Microsoft" interneto paslaugoms. Daugiau informacijos rasite fail
 ### <a name="service-update"></a>Paslaugos naujinimas
 
 „Microsoft Finance and Operations“ tarnybų aplinkos nuosekliai, naudojant tarnybos naujinimus. Klientai pagal savo verslo poreikius nustato savo aptarnavimo atnaujinimo kalendorių. Norėdami sužinoti daugiau, žr. [Senos versijos paslaugų naujinimai](../../dev-itpro/lifecycle-services/oneversion-overview.md).
-
-### <a name="success-by-design"></a>[Success by Design](/dynamics365/fasttrack/success-by-design-overview)
-
-Sistema, kuri sistema sistemiškai rodo vykdymą svarbiais etapais, siekiant užtikrinti Dynamics 365 sprendimo optimalią architektūrą, saugumą, našumą ir vartotojų patirtį.
 
 ### <a name="user"></a>Vartotojas
 

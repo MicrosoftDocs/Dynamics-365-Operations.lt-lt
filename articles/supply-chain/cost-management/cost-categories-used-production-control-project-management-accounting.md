@@ -2,11 +2,9 @@
 title: Moduliuose Gamybos kontrolė ir Projektų valdymo apskaita naudojamos išlaidų kategorijos
 description: Kai kurių tipų gamybos darbą galima taikyti projekto laiko įvertinimui ir ataskaitoms. Šiame straipsnyje pateikiama informacija apie tai, kokias gamybos darbo išlaidų kategorijas turite apibrėžti gamybos ir projektų tikslais.
 author: AndersGirke
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjCategory
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 59bf9c165af83aeb66586adc2d2bfc1bb5068601
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.openlocfilehash: 374ff726673a2360ba05f931a80c4906eaec38b0df44e12c69898d77b819a4a7
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4967863"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6742757"
 ---
 # <a name="cost-categories-used-in-production-control-and-project-management-accounting"></a>Moduliuose Gamybos kontrolė ir Projektų valdymo apskaita naudojamos išlaidų kategorijos
 
@@ -43,3 +41,6 @@ Papildomi puslapio **Išlaidų kategorijos** mygtukai suteikia prieigą prie su 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

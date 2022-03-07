@@ -2,35 +2,30 @@
 title: Krepšelio modulis
 description: Šioje temoje aprašomi krepšelio moduliai ir tai, kaip jų įtraukti į „Microsoft Dynamics 365 Commerce“ svetainių puslapius.
 author: anupamar-ms
-manager: annbe
-ms.date: 10/20/2020
+ms.date: 12/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 33db06ecfa2a8fa93cde3c4f1b31d6b30bfd0c34
-ms.sourcegitcommit: 12d271bb26c7490e7525d9b4bbf125cdc39fef43
-ms.translationtype: HT
+ms.openlocfilehash: f2db61cf23c217365274297c6e9878a4eb5679f8d9502cb70484372ae43f6b18
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/07/2020
-ms.locfileid: "4414504"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6716889"
 ---
 # <a name="cart-module"></a>Krepšelio modulis
 
 [!include [banner](includes/banner.md)]
 
 Šioje temoje aprašomi krepšelio moduliai ir tai, kaip jų įtraukti į „Microsoft Dynamics 365 Commerce“ svetainių puslapius.
-
-## <a name="overview"></a>Peržiūra
 
 Krepšelio modulyje rodomos prekes, kurios buvo įtrauktos į krepšelį, prieš klientui išsiregistruojant. Šiame modulyje taip pat rodoma užsakymo suvestinė, be to, klientui leidžiama taikyti arba pašalinti reklaminius kodus.
 
@@ -40,23 +35,24 @@ Krepšelio modulis generuoja duomenis pagal krepšelio ID, kuris yra naršyklės
 
 Toliau pateiktame paveikslėlyje parodytas „Fabrikam“ svetainėje esančio krepšelio puslapio pavyzdys.
 
-![Krepšelio modulio, esančio „Fabrikam” svetainėje, pavyzdys](./media/cart2.PNG)
+![Krepšelio modulio, esančio „Fabrikam” svetainėje, pavyzdys.](./media/cart2.PNG)
 
 Toliau pateiktame paveikslėlyje parodytas „Fabrikam“ svetainėje esančio krepšelio puslapio pavyzdys. Šiame pavyzdyje yra eilutės prekės paėmimo mokestis.
 
-![Krepšelio modulio su eilutės prekės tvarkymo mokesčiu pavyzdys](./media/ecommerce-handling-fee.png)
+![Krepšelio modulio su eilutės prekės tvarkymo mokesčiu pavyzdys.](./media/ecommerce-handling-fee.png)
 
 ## <a name="cart-module-properties-and-slots"></a>Krepšelio modulio ypatybės ir vietos
 
-| Ypatybė | Reikšmės | aprašymas |
+| Ypatybė | Reikšmės | Aprašas |
 |----------------|--------|-------------|
 | Antraštė | Antraštės tekstas ir antraštės žymė (**H1**, **H2**, **H3**, **H4**, **H5** ar **H6**) | Vežimėlio antraštė, tokia kaip „Apsipirkimo maišelis“ arba „Prekės jūsų vežimėlyje“. |
 | Rodyti nėra sandėlyje klaidas | **Teisinga** arba **Klaidinga** | Jei ši ypatybė nustatyta į **Tiesa**, vežimėlio puslapyje bus rodomos su atsargomis susijusios klaidos. Rekomenduojame nustatyti šią ypatybę į **Tiesa**, jei atsargų tikrinimai yra taikomi svetainėje. |
-| Rodyti eilutės prekių siuntimo mokesčius | **Teisinga** arba **Klaidinga** | Jei ši ypatybė yra nustatytą į **Teisinga**, vežimėlio eilučių prekės rodys siuntimo mokesčius, jei tokia informacija yra prieinama. Ši savybė nėra palaikoam „Fabrikam“ temoje, nes vartotojai pasirenka siuntimą tik išsiregistravimo sraute. Nepaisant to, šią funkciją galima įjungti kituose darbo srautuose, jei tai taikoma. |
+| Rodyti eilutės prekių siuntimo mokesčius | **Teisinga** arba **Klaidinga** | Jei ši ypatybė yra nustatytą į **Teisinga**, vežimėlio eilučių prekės rodys siuntimo mokesčius, jei tokia informacija yra prieinama. Ši savybė nėra palaikoma „Fabrikam“ temoje, nes vartotojai pasirenka siuntimą tik išsiregistravimo sraute. Nepaisant to, šią funkciją galima įjungti kituose darbo srautuose, jei tai taikoma. |
+| Rodyti galimas akcijas| **Teisinga** arba **Klaidinga** | Jei ši ypatybė nustatyta į **Taip**, vežimėlis rodys prieinamas akcijas pagal prekes vežimėlyje. Ši galimybė yra prieinama „Dynamics 365 Commerce“ 10.0.16 leidime. |
 
 ## <a name="modules-that-can-be-used-in-a-cart-module"></a>Moduliai, kuriuos galima naudoti krepšelio modulyje
 
-- **Teksto blokas** – šis modulis palaiko pasirinktinių pranešimų krepšelio modulyje galimybę. Pranešimai grindžiami turinio valdymo sistema (TVS). Galimą įtraukti bet kokį pranešimą, pvz., „Jei kyla problemų dėl užsakymo, kreipkitės numeriu 1-800-Fabrikam“.
+- **Teksto blokas** – šis modulis palaiko pasirinktinių pranešimų krepšelio modulyje galimybę. Pranešimai grindžiami turinio valdymo sistema (TVS). Galimą įtraukti bet kokį pranešimą, pvz., „Jei kyla problemų dėl užsakymo, kreipkitės numeriu 1-800-Fabrikam.“
 - **Parduotuvės parinkiklis** – naudojant šį modulį rodomas netoliese esančių parduotuvių, kuriose galima atsiimti prekę, sąrašas. Jis leidžia vartotojams įvesti vietą, kad surastų netoliese esančias parduotuves. Daugiau informacijos apie šį modulį žr. [Parduotuvės parinkiklio modulis](store-selector.md).
 
 ## <a name="module-properties"></a>Modulio ypatybės
@@ -117,3 +113,6 @@ Norėdami į naują puslapį įtraukti krepšelio modulį ir nustatyti reikiamas
 [Mažmeninės prekybos kanalų atsargų pasiekiamumo apskaičiavimas](calculated-inventory-retail-channels.md)
 
 [Internetinių funkcijų šablono kūrimas](online-functionality-profile.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

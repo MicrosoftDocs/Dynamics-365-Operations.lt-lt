@@ -2,11 +2,9 @@
 title: Numeracijos apžvalga
 description: Numeracija naudojama bendrųjų duomenų įrašų ir operacijų įrašų, kuriems reikia identifikatorių, nuskaitomiems unikaliems identifikatoriams sugeneruoti.
 author: MargoC
-manager: AnnBe
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: NumberSequenceTableListPage, NumberSequenceConfiguration
 audience: Application User, IT Pro
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 41a3beca0fb373ba985a2d01dd15cdc5a60e2919
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: 95cb8bffee313b5d7c057684666d5ffebbd42a0c
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4797075"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5747691"
 ---
 # <a name="number-sequences-overview"></a>Numeracijos apžvalga
 
@@ -115,3 +113,6 @@ Rekomenduojame naudoti netęstines numeracijas, kad užtikrintumėte geresnį na
 Nutrūkus maitinimui, įvykus klaidai arba kitai netikėtai trikčiai, sistema negali perskirstyti tęstinių numeracijų skaičių automatiškai. Galite vykdyti valymo procesą rankiniu būdu arba automatiškai atkurti prarastus numerius.
 
 Atidžiai apsvarstykite serverio naudojimą, kai planuojate valymo procesą. Rekomenduojame ne piko valandomis atlikti valymą kaip paketinę užduotį.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

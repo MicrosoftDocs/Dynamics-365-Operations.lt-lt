@@ -1,28 +1,25 @@
 ---
 title: Prevencinės priežiūros apžvalga
 description: Šioje temoje aptariama prevencinė priežiūra skiltyje Turto valdymas.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/27/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 36a70a3e60566fd8048ad404e0c391d898053a0a
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
-ms.translationtype: HT
+ms.openlocfilehash: 8c313a7873ae63b5bb85665067160fdcd6dc15a5
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5016733"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7985060"
 ---
 # <a name="preventive-maintenance-overview"></a>Prevencinės priežiūros apžvalga
 
@@ -36,5 +33,8 @@ Priežiūros planai naudojami atliekant prevencinę ir atsakomąją priežiūrą
 
 Toliau pateiktame paveikslėlyje matyti darbo eigos apžvalga, pradedant priežiūros planų ir priežiūros ciklų kūrimu ir baigiant darbo užsakymų turtui kūrimu, paremtu minėtais priežiūros planais ir priežiūros ciklais.
 
-![1 pav.](media/01-preventive-maintenance.png)
+![1 iliustracija.](media/01-preventive-maintenance.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,15 +2,12 @@
 title: „Dynamics 365 Commerce“ produktų įvertinimų sinchronizavimas
 description: Šioje temoje aprašoma, kaip sinchronizuoti produktų įvertinimus naudojant „Microsoft Dynamics 365 Commerce“.
 author: gvrmohanreddy
-manager: annbe
 ms.date: 02/06/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -18,12 +15,12 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: dec87b548f3a218e1f833b752305f373e893b14c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f2112c87912a1d130017c5804c4193b62c1e5a476be79bfd485640ec98b42f77
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4414414"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6730904"
 ---
 # <a name="sync-product-ratings-in-dynamics-365-commerce"></a>„Dynamics 365 Commerce“ produktų įvertinimų sinchronizavimas
 
@@ -31,7 +28,7 @@ ms.locfileid: "4414414"
 
 Šioje temoje aprašoma, kaip sinchronizuoti produktų įvertinimus naudojant „Microsoft Dynamics 365 Commerce“.
 
-## <a name="overview"></a>Peržiūrėti
+## <a name="overview"></a>Peržiūra
 
 Norint produktų įvertinimus naudoti daugiakanaliuose, pvz., elektroniniame kasos aparate (EKA) ir skambučių centruose, produktų įvertinimus iš vertinimų ir atsiliepimų paslaugos reikia importuoti į „Commerce“ kanalo duomenų bazę. Kai produktų įvertinimai pateikiami daugiakanaliuose, jie gali netiesiogiai padėti klientams bendraujant su pardavimo darbuotojais.
 
@@ -62,7 +59,7 @@ Norėdami patikrinti, ar yra antrinė užduotis **RetailProductRating**, atlikit
 
 Toliau pateiktoje iliustracijoje rodomas išsamios antrinės užduoties informacijos programoje „Commerce“ pavyzdys.
 
-![Išsami antrinės užduoties „RetailProductRating“ informacija](media/rnr-hq-ratings-sub-job.png)
+![Išsami antrinės užduoties „RetailProductRating“ informacija.](media/rnr-hq-ratings-sub-job.png)
 
 > [!NOTE]
 > Jeigu antrinės užduoties **RetailProductRating** nerandate, galbūt užduotį **Produkto įvertinimų sinchronizavimas** ir užduotį **1040 CDX** įvykdėte prieš inicijuodami „Commerce” planuoklę. Tokiu atveju atlikite toliau nurodytus veiksmus, kad vykdytumėte užduotį **Visas duomenų sinchronizavimas**.
@@ -86,7 +83,7 @@ Norėdami produkto įvertinimus iš įvertinimų ir atsiliepimų tarnybos import
 
 Toliau pateiktoje iliustracijoje rodomas antrinės užduoties konfigūracijos programoje „Commerce“ pavyzdys.
 
-![Produkto įvertinimų sinchronizavimo paketinės užduoties konfigūracija](media/rnr-hq-batchjob-recurrence.png)
+![Produkto įvertinimų sinchronizavimo paketinės užduoties konfigūracija.](media/rnr-hq-batchjob-recurrence.png)
 
 ## <a name="verify-that-the-batch-job-for-product-rating-synchronization-was-successful"></a>Tikrinimas, ar produkto įvertinimų sinchronizavimo paketinė užduotis buvo sėkmingai įvykdyta
 
@@ -98,7 +95,7 @@ Norėdami patikrinti, ar paketinė užduotis **Produkto įvertinimų sinchroniza
 
 Toliau pateiktoje iliustracijoje parodytas išsamios paketinės užduoties informacijos programoje „Commerce“ pavyzdys, kai paketinė užduotis suplanuota vykdyti kas dvi valandas.
 
-![Produkto įvertinimų sinchronizavimo paketinės užduoties išsami informacija](media/rnr-hq-batchjob-status-checking.png)
+![Produkto įvertinimų sinchronizavimo paketinės užduoties išsami informacija.](media/rnr-hq-batchjob-status-checking.png)
 
 ## <a name="make-product-ratings-available-at-the-pos"></a>Produkto įvertinimų pateikimas EKA
 
@@ -116,22 +113,25 @@ Norėdami EKA įjungti produkto įvertinimus, atlikite toliau nurodytus veiksmus
 
 Toliau pateiktame paveikslėlyje parodytas „Commerce“ parametrų konfigūracijos norint EKA įjungti produkto įvertinimus pavyzdys.
 
-![„Commerce“ parametrų konfigūracijos norint EKA įjungti produkto įvertinimus pavyzdys](media/rnr-hq-enable-ratings-in-pos.png)
+![„Commerce“ parametrų konfigūracijos norint EKA įjungti produkto įvertinimus pavyzdys.](media/rnr-hq-enable-ratings-in-pos.png)
 
 Tolesnėje iliustracijoje pateikiamas produkto įvertinimų EKA pavyzdys.
 
-![Produkto įvertinimai EKA](media/rnr-pos-catalog-ratings.png)
+![Produkto įvertinimai EKA.](media/rnr-pos-catalog-ratings.png)
 
 Toliau pateiktoje iliustracijoje pateikiamas produkto įvertinimų skambučių centro kanaluose pavyzdys.
 
-![Produkto įvertinimai skambučių centro kanale](media/rnr-call-center-ratings.png)
+![Produkto įvertinimai skambučių centro kanale.](media/rnr-call-center-ratings.png)
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Įvertinimų ir atsiliepimų apžvalga](ratings-reviews-overview.md)
 
-[Prisijunkite, norėdami naudoti įvertinimus ir atsiliepimus](opt-in-ratings-reviews.md)
+[Norėdami naudoti įvertinimus ir atsiliepimus, prisijunkite](opt-in-ratings-reviews.md)
 
 [Įvertinimų ir atsiliepimų tvarkymas](manage-reviews.md)
 
 [Įvertinimų ir atsiliepimų konfigūravimas](configure-ratings-reviews.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,30 +1,27 @@
 ---
-title: " Bazinė kaina ir prekybos sutartys"
+title: Bazinė kaina ir prekybos sutartys
 description: Ši procedūra padeda kurti konkretaus kanalo pardavimo kainos prekybos sutartis.
 author: josaw1
-manager: AnnBe
 ms.date: 08/12/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PriceDiscGroup, RetailStoreTable, RetailChannelPriceGroup, EcoResProductDetailsExtended, PriceDiscAdmTable, PriceDiscAdm
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 44dc059f7bfc3ba83a375c197ce67f1378a9bc9b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: df4d0042e51524c1d50568e969b59923a7ba4a65
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4414407"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5789809"
 ---
-# <a name="base-price-and-trade-agreements"></a> Bazinė kaina ir prekybos sutartys
+# <a name="base-price-and-trade-agreements"></a>Bazinė kaina ir prekybos sutartys
 
 [!include [banner](../includes/banner.md)]
 
@@ -64,9 +61,12 @@ ms.locfileid: "4414407"
 32. Lauke **Elemento ryšiai** įveskite reikšmę.
 33. Lauke **Sumos valiuta** įveskite skaičių.
 34. „fastTab“ **Išsami informacija** pažymėkite arba atžymėkite žymės langelį **Surasti kitą**. Kai **Surasti kitą** nustatytas kaip Taip, kainodaros modulis toliau ieškos taikytinų prekybos sutarčių su mažesne pardavimo kaina. Kai **Surasti kitą** nustatytas kaip Ne, kainodaros modulis nebeieško ir naudoja prekybos sutartį.  
-35. Spustelėkite **Registruoti.**
+35. Spustelėkite **Registruoti**.
 36. Spustelėkite **Gerai**.
 37. Uždarykite puslapį.
 38. **Veiksmų sritis** spustelėkite Parduoti.
 39. Spustelėkite **Pardavimo kaina**.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

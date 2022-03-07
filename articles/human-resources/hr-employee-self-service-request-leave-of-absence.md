@@ -2,11 +2,9 @@
 title: Atostogų prašymas
 description: Pateikite atostogų prašymą.
 author: andreabichsel
-manager: AnnBe
 ms.date: 06/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: ESSLeaveofAbsenceRequestEntry, EssWorkspace
 audience: Application User
@@ -18,14 +16,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-06-01
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 1f50e45a9acaf5295b40648ea5701885ae0ea844
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 7c774deffb58e53bab4ea32195e02baba8854d6f
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419793"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5790721"
 ---
 # <a name="request-a-leave-of-absence"></a>Atostogų prašymas
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Galite pateikti atostogų prašymą ir peržiūrėti savo atostogų prašymų būseną programoje „Dynamics 365 Human Resources“.
 
@@ -53,3 +53,6 @@ Galite pateikti atostogų prašymą ir peržiūrėti savo atostogų prašymų b�
 ## <a name="see-also"></a>Taip pat žiūrėkite
 
 [Atostogų sustabdymas](hr-leave-and-absence-suspend-leave.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

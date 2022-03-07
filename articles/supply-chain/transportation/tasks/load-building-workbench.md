@@ -2,29 +2,28 @@
 title: Krovinio kūrimo darbo sritis
 description: Ši tema aprašo, kaip dirbti su krovinio kūrimo darbo sritimi.
 author: Henrikan
-manager: ''
 ms.date: 10/30/2020
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: TMSLoadBuildWorkbench,TMSLoadBuildTemplateCreate,TMSLoadBuildStrategy
+ms.search.form: TMSLoadBuildWorkbench,TMSLoadBuildTemplateCreate,TMSLoadBuildStrategy,TMSLoadBuildTemplateApply
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: henrikan
 ms.search.validFrom: 2020-10-30
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 429a8bac5491a342ecbc8b67c59c71715a4b0889
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
-ms.translationtype: HT
+ms.openlocfilehash: 306ca4f77d9c1d4879d750992e51c8b83917839e
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4646417"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7574862"
 ---
 # <a name="load-building-workbench"></a>Krovinio kūrimo darbo sritis
+
+[!include [banner](../../includes/banner.md)]
 
 Krovinio kūrimo darbo sritis leidžia jums taikyti krovinio kūrimo strategijas kuriant krovinius.
 
@@ -32,7 +31,7 @@ Krovinio kūrimo darbo sritis leidžia jums taikyti krovinio kūrimo strategijas
 
 Naudojate krovinio kūrimo strategijas automatiniu būdu sukurti krovinius. Ši funkcija gali būti naudinga tolesnėse situacijose:
 
-- Jei reguliariai sunčiate konkretų produktų rinkinį, krovinio strategijos padės sutaupyti laiko, nes jums nereikės sukurti to paties krovinio kas kartą.
+- Jei reguliariai siunčiate konkretų produktų rinkinį, krovinio strategijos padės sutaupyti laiko, nes jums nereikės sukurti to paties krovinio kas kartą.
 - Jei norite išvengti pusiau pilnų krovinių siekiant maksimizuoti efektyvumą, krovinio strategijos gali padėti užpildyti kiekvieną krovinį kaip įmanoma labiau.
 
 Krovinio kūrimo strategijos klasė pavadinimu `TMSLoadBuildingVolumeStrategy` suteikia krovinio kūrimo strategiją pavadinimu *Apimtimi pagrįsta krovinio kūrimo strategija*. Naudojant šią strategiją galima naudoti maksimalias aukščio ir svorio reikšmes, nurodytas krovinio šablone, arba galima nepaisyti parametrų įvedant naujas reikšmes. Ši strategija yra tik strategija įtraukta nestandartiniu būdu. (Nepaisant to, galite turėti tinkintas strategijas.)
@@ -47,12 +46,12 @@ Norėdami sukurti krovinio kūrimo strategiją, atlikite šiuos žingsnius.
 1. Įveskite unikalų strategijos pavadinimą, pasirinkite krovinio kūrimo strategijos klasę jam ir įveskite aprašą.
 1. Veiksmų srityje pasirinkite **Įrašyti**.
 1. Veiksmų srityje pasirinkite **Parametrai**.
-1. Puslapyje **Krovinio kūrimo strategijos parametrai** puslapyje rinkitės **Apimties talpa** sąraše ir tada **Vertės** laujelyje įveskite krovinio bendros apimties pajėgumo procentą, kuris turi būti taikomas naujai krovinio kūrimo strategijai.
+1. Puslapyje **Krovinio kūrimo strategijos parametrai** puslapyje rinkitės **Apimties talpa** sąraše ir tada **Vertės** laukelyje įveskite krovinio bendros apimties pajėgumo procentą, kuris turi būti taikomas naujai krovinio kūrimo strategijai.
 1. Pasirinkite **Krovinio pajėgumas** sąraše ir tada **Vertės** laukelyje įveskite krovinio bendro svorio pajėgumo procentą, kuris turi būti taikomas naujai krovinio kūrimo strategijai.
 1. Uždarykite **Krovinio kūrimo strategijos parametrų** puslapį.
 1. Uždarykite **Krovinio kūrimo strategijų parametrų** puslapį.
 
-Dabar galite priskirti krovinio kūrimo strategiją tam, kad sukurtumėte krovinio šabloną. Kitu atveju, galite naudoti jį tiesiogiai krovinio planavimo darbo srtiyje.
+Dabar galite priskirti krovinio kūrimo strategiją tam, kad sukurtumėte krovinio šabloną. Kitu atveju, galite naudoti jį tiesiogiai krovinio planavimo darbo srityje.
 
 ## <a name="use-a-load-building-strategy-in-the-load-building-workbench"></a>Naudokite krovinio kūrimo strategiją krovinio kūrimo darbo srityje
 
@@ -63,7 +62,10 @@ Dabar galite priskirti krovinio kūrimo strategiją tam, kad sukurtumėte krovin
     - Jei nustatote krovinio kūrimo šabloną ir jai priskiriate krovinio kūrimo strategiją, veiksmų juostoje, **Valdyti šablonus** skirtuke, rinkitės **Taikyti šabloną**. Tada **Taikyti krovinio kūrimo šabloną** iškrentančiame teksto laukelyje pasirinkite šabloną **Krovinio kūrimo šablono pavadinimo** laukelyje.
 
 1. „FastTab“ **Krovinio šablonų seka** pasirinktie vieną ar daugiau [krovinio šablonų](load-template.md). Darbo sritis bandys priderinti krovinį prie šių talpyklų tipų čia nurodyta seka. Dažniausiai, galite padėti mažiausias talpyklas sąrašo viršuje, kad užtikrintumėte, jog mažiausias galimas konteineris yra pasirinktas pirma.
-1. Veiksmų juosoje rinkitės **Siūlyti krovinius**.
+1. Veiksmų juostoje pasirinkite **Siūlyti krovinius**.
 1. Peržiūrėkite siūlomus krovinius ir krovinių eilutes.
 1. Veiksmų juostoje rinkitės **Kurti krovinius** tam, kad sukurtumėte krovinius pagrįstus šaltinio dokumentų linijoje **Siūlomų krovinių linijų** „FastTab“.
 1. Uždarykite **Krovinio kūrimo darbo srities** puslapį.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

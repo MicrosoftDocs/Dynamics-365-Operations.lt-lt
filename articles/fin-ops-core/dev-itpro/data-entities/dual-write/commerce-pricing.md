@@ -2,11 +2,9 @@
 title: „Dynamics 365 Commerce“ kainodaros mechanizmo naudojimas su „Dynamics 365 Sales“
 description: Šioje temoje aprašoma, kaip naudoti „Microsoft Dynamics 365 Commerce” kainodaros mechanizmą, norint kurti pardavimo pasiūlymus programoje „Dynamics 365 Sales”.
 author: ShalabhjainMSFT
-manager: AnnBe
 ms.date: 11/19/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
@@ -18,12 +16,12 @@ ms.search.industry: ''
 ms.author: shajain
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-11-03
-ms.openlocfilehash: fad5c21d75db62b85efe803f1667dd3f9164a5fc
-ms.sourcegitcommit: 597476103bb695e3cbe6d9ffcd7a466400346636
+ms.openlocfilehash: 70282eb7856ae6b37e885eac2daf49efd971087d7c204af4b653263edb0d8fc4
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "4594923"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6716075"
 ---
 # <a name="use-the-dynamics-365-commerce-pricing-engine-with-dynamics-365-sales"></a>„Dynamics 365 Commerce“ kainodaros mechanizmo naudojimas su „Dynamics 365 Sales“
 
@@ -33,7 +31,7 @@ ms.locfileid: "4594923"
 
 „Dynamics 365 Commerce“ kainodaros mechanizmas palaiko daugumą įmonių ir vartotojų (B2C) kainodaros scenarijų, pvz., parduotuvės lygio kainodarą, kainodarą pagal priskyrimą ir lojalumą, prekių rinkinio nuolaidas, kiekio nuolaidas ir ribines nuolaidas. Kainodaros mechanizmas naudoja sudėtingas taisykles nustatyti geriausią konkretaus pasiūlymo ar užsakymo kainą.
 
-Kai naudojate [dvigubą rašymą](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-overview), turite tris parinktis savo kainodaros poreikiams. Galite naudoti statinę kainodarą, gaunamą iš „Dynamics 365 Sales“ kainoraščio, „Dynamics 365 Supply Chain Management“ kainodaros mechanizmą arba „Dynamics 365 Commerce“ kainodaros mechanizmą. Iš šių parinkčių „Commerce“ kainodaros mechanizmas geriausiai atitinka B2C scenarijus.
+Kai naudojate [dvigubą rašymą](./dual-write-overview.md), turite tris parinktis savo kainodaros poreikiams. Galite naudoti statinę kainodarą, gaunamą iš „Dynamics 365 Sales“ kainoraščio, „Dynamics 365 Supply Chain Management“ kainodaros mechanizmą arba „Dynamics 365 Commerce“ kainodaros mechanizmą. Iš šių parinkčių „Commerce“ kainodaros mechanizmas geriausiai atitinka B2C scenarijus.
 
 ## <a name="use-the-commerce-pricing-engine-in-sales"></a>„Commerce“ kainodaros mechanizmo naudojimas programoje „Sales“
 
@@ -44,7 +42,7 @@ Kai vartotojai pradeda pasiūlymą programoje „Sales“, dvigubo rašymo siste
 
 ## <a name="prerequisites"></a>Būtinieji komponentai
 
-- Kad galėtumėte naudoti „Commerce“ kainodaros mechanizmą programoje „Sales“, turite atlikti veiksmus, nurodytus dokumente iš [Potencialių klientų pavertimas grynaisiais pinigais naudojant dvigubo rašymo funkciją](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-prospect-to-cash/).
+- Kad galėtumėte naudoti „Commerce“ kainodaros mechanizmą programoje „Sales“, turite atlikti veiksmus, nurodytus dokumente iš [Potencialių klientų pavertimas grynaisiais pinigais naudojant dvigubo rašymo funkciją](./dual-write-prospect-to-cash.md).
 - Turite išjungti prekybos sutarties vertinimą, skirtą neautomatinei įvesčiai, atlikdami tolesnius veiksmus.
 
     1. Savo „Commerce“ aplinkoje eikite į **Gautinos sumos \> Nustatymai \> Gautinų sumų parametrai**.
@@ -52,4 +50,7 @@ Kai vartotojai pradeda pasiūlymą programoje „Sales“, dvigubo rašymo siste
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
-[Potencialių klientų pavertimas grynaisiais pinigais dvigubo rašymo funkcijoje](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-prospect-to-cash/)
+[Potencialių klientų pavertimas grynaisiais pinigais dvigubo rašymo funkcijoje](./dual-write-prospect-to-cash.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

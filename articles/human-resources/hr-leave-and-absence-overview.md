@@ -1,31 +1,32 @@
 ---
 title: Atostogų ir neatvykimų apžvalga
-description: „Dynamics 365 Human Resources” atostogų ir neatvykimų darbo sritis suteikia lanksčią sistemą naujų atostogų planų kūrimui. Ji taip pat suteikia darbo eigas prašymų valdymui ir intuityvų savitarnos puslapį darbuotojams prašyti išleisti iš darbo.
-author: andreabichsel
-manager: AnnBe
-ms.date: 06/01/2020
-ms.topic: article
+description: „Dynamics 365 Human Resources” atostogų ir neatvykimų darbo sritis suteikia lanksčią sistemą naujų atostogų planų kūrimui.
+author: twheeloc
+ms.date: 10/28/2021
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: LeavePlanFormPart, LeaveAbsenceWorkspace
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
-ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ea58c3a08e74eea1ab51aa19a5a28445a9bcbb04
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 344b4bba144a311530ce7be3b4bc230ce9cf8d1a
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419776"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069026"
 ---
 # <a name="leave-and-absence-overview"></a>Atostogų ir neatvykimų apžvalga
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 „Dynamics 365 Human Resources“ padeda jums suteikti puikias atostogų išmokas savo darbuotojams. Darbo sritis **Atostogos ir neatvykimai** suteikia lanksčią sistemą naujų atostogų planų kūrimui. Ji taip pat suteikia darbo eigas prašymų valdymui ir intuityvų savitarnos puslapį darbuotojams prašyti išleisti iš darbo. Analizė padeda organizacijai matuoti ir stebėti atostogų balansus ir atostogų planų naudojimą.
 
@@ -35,7 +36,8 @@ Norėdami kurti atostogų planus savo darbuotojams, turite atlikti keletą sąra
 
 - [Atostogų ir neatvykimų parametrų konfigūravimas](hr-leave-and-absence-parameters.md)
 - [Darbo laiko kalendoriaus kūrimas](hr-leave-and-absence-working-time-calendar.md)
-- [Atostogų užklausos darbo eigos kūrimas](hr-leave-and-absence-workflow.md)
+- [Prašymo išeiti atostogų darbo eigos kūrimas](hr-leave-and-absence-workflow.md)
+- [Neatvykimų vadovo vaidmens konfigūravimas](hr-configure-absence-manager.md)
 
 ## <a name="create-and-manage-leave-plans"></a>Sukurti ir valdyti atostogų planus
 
@@ -51,6 +53,10 @@ Prieš kurdami savo darbuotojų atostogų planus, turite sukurti atostogų ir ne
 
 Jūsų darbuotojai gali pateikti prašymus išleisti iš darbo, o jūs galite valdyti juos **Darbuotojo savitarna** darbo srityje.
 
-[Prašymai išleisti iš darbo](hr-employee-self-service-request-time-off.md)
-[Atostogų ir neatvykimų prašymų valdymas](hr-employee-self-service-manage-requests.md)
+- [Prašyti išleisti iš darbo](hr-employee-self-service-request-time-off.md)
+- [Atostogų ir leidimo neatvykti prašymų valdymas](hr-employee-self-service-manage-requests.md)
+- [Konfigūruoti neatvykimų vadovo vaidmenį](hr-configure-absence-manager.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

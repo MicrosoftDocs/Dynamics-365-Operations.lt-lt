@@ -1,24 +1,27 @@
 ---
 title: Naujo produkto kūrimas
 description: Šioje temoje aprašoma, kaip sukurti naują konfigūraciją.
-author: t-benebo
+author: ShylaThompson
+manager: tfehr
 ms.date: 07/22/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResProductListPage, EcoResProductCreate, EcoResProductDetails, EcoResProductInventoryDimensionGroups
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: benebotg
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f509758ed062b756d99c93b2721c99dcdbae5155
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 2a4745fe4fc44f85bcfd388ee573f5a6d0cd8519
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7575589"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4433594"
 ---
 # <a name="create-a-new-product"></a>Naujo produkto kūrimas
 
@@ -40,6 +43,3 @@ ms.locfileid: "7575589"
 3. Lauke **Sekimo dimensijų grupė** įveskite arba pasirinkite reikšmę. Sekimo dimensijų grupe nustatoma, kurias kiekvienos produkto operacijos sekimo dimensijas turite įvesti ir kaip jis bus tvarkomas atsargose.  
 4. Pasirinkite **Gerai**.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

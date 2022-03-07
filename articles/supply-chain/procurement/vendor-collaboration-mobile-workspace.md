@@ -1,27 +1,25 @@
 ---
 title: Tiekėjo bendradarbiavimo mobilioji darbo sritis
 description: Šioje temoje pateikiama informacijos apie tiekėjų bendradarbiavimo mobiliąją darbo sritį. Ši darbo sritis padeda jūsų tiekėjams matyti naujausią jiems patvirtinti atsiųstų pirkimo užsakymų informaciją. Jie taip pat gali peržiūrėti informaciją apie naujus ir atnaujintus pirkimo užsakymus ir kontaktus.
-author: RichardLuan
-manager: tfehr
+author: Henrikan
 ms.date: 12/01/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.custom: 267074
 ms.assetid: 1d293b3a-2fa2-418d-9347-78c2809d67fe
 ms.search.region: global
-ms.author: riluan
+ms.author: henrikan
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 5cd8a2b2db7147aca6bdc29ba15d99a619ddb4f8
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
-ms.translationtype: HT
+ms.openlocfilehash: efbd0afb0d84f76058b75126af200a9b10197559
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5020841"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7577029"
 ---
 # <a name="vendor-collaboration-mobile-workspace"></a>Tiekėjo bendradarbiavimo mobilioji darbo sritis
 
@@ -58,8 +56,8 @@ Tiekėjo bendradarbiavimo žiniatinklio sąsaja žiniatinklio kliente turi būti
 ## <a name="prerequisites"></a>Būtinieji komponentai
 Būtinosios sąlygos skiriasi ir priklauso nuo jūsų organizacijoje visuotinai įdiegtos „Microsoft Dynamics 365“ versijos.
 
-### <a name="prerequisites-if-you-use-supply-chain-management"></a>Būtinosios sąlygos naudojant Tiekimo grandinės valdymą
-Jei jūsų organizacijoje visuotinai įdiegtas Tiekimo grandinės valdymas, sistemos administratorius turi publikuoti mobiliąją darbo sritį **Tiekėjų bendradarbiavimas**. Instrukcijų ieškokite dalyje [Mobiliosios darbo srities publikavimas](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
+### <a name="prerequisites-if-you-use-supply-chain-management"></a>Būtinosios sąlygos naudojant „Supply Chain Management”
+Jei jūsų organizacijoje visuotinai įdiegtas „Supply Chain Management”, sistemos administratorius turi publikuoti mobiliąją darbo sritį **Tiekėjų bendradarbiavimas**. Instrukcijų ieškokite dalyje [Mobiliosios darbo srities publikavimas](../../fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
 ### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Būtinosios sąlygos, jei naudojate „Microsoft Dynamics 365 for Operations“ 1611 versiją su 3 platformos naujinimu arba naujesnę versiją
 Jei jūsų organizacijoje visuotinai įdiegta „Microsoft Dynamics 365 for Operations“ 1611 versija su 3 platformos naujinimu arba naujesnė versija, sistemos administratorius turi įvykdyti tolesnes būtinąsias sąlygas. 
@@ -74,12 +72,12 @@ Jei jūsų organizacijoje visuotinai įdiegta „Microsoft Dynamics 365 for Oper
 </thead>
 <tbody>
 <tr class="odd">
-<td>KB 3216943 reikia įdiegti, jei naudojate platformos 3 naujinimą.</td>
+<td>KB 3216943 reikia įdiegti, jei&#39;naudojate platformos 3 naujinimą.</td>
 <td>Sistemos administratorius</td>
-<td>KB 3216943 yra dvejetainis naujinimas, būtinas, jei naudojate platformos 3 naujinimą. Norėdamas įdiegti šią KB, sistemos administratorius turi atlikti šiuos veiksmus.
+<td>KB 3216943 yra dvejetainis naujinimas, būtinas, jei&#39;naudojate platformos 3 naujinimą. Norėdamas įdiegti šią KB, sistemos administratorius turi atlikti šiuos veiksmus.
 <ol>
 <li>Atsisiųskite KB 3216943 iš „Microsoft Dynamics Lifecycle Services“ (LCS).</li>
-<li>Įdiekite dvejetainį naujinimą, kuris pristatomas kaip įdiegiamas paketas. Informacijos apie tai, kaip taikyti įdiegiamą paketą, rasite <a href="../../dev-itpro/deployment/apply-deployable-package-system.md">Visuotinai įdiegiamo paketo taikymas</a>.</li>
+<li>Įdiekite dvejetainį naujinimą, kuris pristatomas kaip įdiegiamas paketas. Informacijos apie tai, kaip taikyti įdiegiamą paketą, rasite <a href="/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Visuotinai įdiegiamo paketo taikymas</a>.</li>
 </ol></td>
 </tr>
 <tr class="even">
@@ -87,14 +85,14 @@ Jei jūsų organizacijoje visuotinai įdiegta „Microsoft Dynamics 365 for Oper
 <td>Sistemos administratorius</td>
 <td>KB 4013633 yra X++ naujinimas arba metaduomenų karštoji pataisa, kurioje yra mobilioji darbo sritis <strong>Turimos atsargos</strong>. Norėdamas įdiegti KB 4013633, sistemos administratorius turi atlikti tolesnius veiksmus.
 <ol>
-<li><a href="../../dev-itpro/migration-upgrade/download-hotfix-lcs.md">Atsisiųsti metaduomenų karštąją pataisą iš LCS</a>.</li>
-<li><a href="../../dev-itpro/migration-upgrade/install-metadata-hotfix-package.md">Įdiekite metaduomenų karštąją pataisą</a>.</li><li><a href="../../dev-itpro/deployment/create-apply-deployable-package.md">Sukurkite diegiamą paketą</a>, kuriame yra modelis <strong>SCMMobile</strong>, o tada įkelkite diegiamą paketą į LCS.</li>
-<li><a href="../../dev-itpro/deployment/apply-deployable-package-system.md">Visuotinai diegiamo paketo taikymas</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">Atsisiųsti metaduomenų karštąją pataisą iš LCS</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Įdiekite metaduomenų karštąją pataisą</a>.</li><li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Sukurkite diegiamą paketą</a>, kuriame yra modelis <strong>SCMMobile</strong>, o tada įkelkite diegiamą paketą į LCS.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Visuotinai diegiamo paketo taikymas</a>.</li>
 </ol></td>
 </tr>
 <tr class="odd">
 <td><strong>Tiekėjų bendradarbiavimo</strong> mobilioji darbo sritis turi būti paskelbta.</td><td>Sistemos administratorius</td>
-<td>Žr. <a href="../../dev-itpro/mobile-apps/publish-mobile-workspace.md">Mobiliosios darbo srities publikavimas</a>.</td>
+<td>Žr. <a href="/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Mobiliosios darbo srities publikavimas</a>.</td>
 </tr>
 <tr class="even">
 <td>Su tiekėju susijęs vartotojas turi pasiekti tiekėjų bendradarbiavimo žiniatinklio sąsają žiniatinklio kliente ir nustatyti tiekėjo bendradarbiavimo vartotoją.</td><td>Pirkimo specialistai ir sistemos administratorius</td>
@@ -103,7 +101,7 @@ Jei jūsų organizacijoje visuotinai įdiegta „Microsoft Dynamics 365 for Oper
 <li><a href="vendor-collaboration-work-external-vendors.md">Tiekėjų bendradarbiavimo sąsajos naudojimas veiklai su išoriniais tiekėjais vykdyti</a></li>
 <li><a href="manage-vendor-collaboration-users.md">Tiekėjo bendradarbiavimo vartotojų valdymas</a></li>
 <li><a href="set-up-maintain-vendor-collaboration.md">Tiekėjo bendradarbiavimo nustatymas ir tvarkymas</a></li>
-<li><a href="vendor-collaboration-work-customers-dynamics-365-operations.md">Tiekėjų bendradarbiavimo sąsajos naudojimas dirbant su klientais Tiekimo grandinės valdyme</a></li>
+<li><a href="vendor-collaboration-work-customers-dynamics-365-operations.md">Tiekėjų bendradarbiavimo sąsajos naudojimas dirbant su klientais „Supply Chain Management”</a></li>
 </ul></td>
 </tr>
 </tbody>
@@ -122,12 +120,12 @@ Mobiliosios programos „Finance and Operations“ atsisiuntimas ir diegimas.
 4.  Kai prisijungsite pirmą kartą, bus rodomas raginimas įvesti savo vartotojo vardą ir slaptažodį. Įveskite savo kredencialus.
 5.  Prisijungus rodomos galimos jūsų įmonės darbo sritys. Atkreipkite dėmesį, kad sistemos administratoriui paskelbus naują darbo sritį vėliau turėsite atnaujinti mobiliųjų darbo sričių sąrašą.
 
-    [![Patraukite norėdami atnaujinti](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
+    [![Atnaujinimas patempiant žemyn.](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
 
 ## <a name="use-the-vendor-collaboration-mobile-workspace"></a>Tiekėjų bendradarbiavimo mobiliosios darbo srities naudojimas
 Kai pasirinksite **Tiekėjų bendradarbiavimo** darbo sritį, matysite pateiktas pasirinktis.
 
-![Tiekėjo bendradarbiavimo mobilioji darbo sritis](./media/vendor-collaboration-mobile-app.png)
+![Tiekėjo bendradarbiavimo mobilioji darbo sritis.](./media/vendor-collaboration-mobile-app.png)
 
 **Tiekėjų bendradarbiavimo** darbo sritis apima nurodytus puslapius.
 
@@ -169,3 +167,6 @@ Rodomi visi pakeitimai, atlikti užsakymo eilutės atsakyme. Tačiau nerodomos �
 
 ### <a name="open-confirmed-orders"></a>Atidaryti patvirtintus užsakymus
 Kai klientas patvirtins pirkimo užsakymą (t. y. jo būsena bus pakeista į **Patvirtinta**), užsakymas pasirodys atidarytame patvirtiname užsakyme. Šiame sąraše jis bus rodomas tol, kol bus užregistruotas kaip gautas kliento.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

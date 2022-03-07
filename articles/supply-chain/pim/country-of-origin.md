@@ -1,7 +1,7 @@
 ---
 title: Kilmės šalis / regionas
 description: Daugelis organizacijų išduoda sertifikatus savo pardavėjams tam, kad užtikrintų, jog jų produktai atitiktų sertifikato standartus. Šie sertifikatai dažnai priklauso nuo kilmės šalies. Šiame skyriuje pateikiama informacija apie kilmės šalies savybes, kurios leidžia jums susieti gaminį su jo kilmės šalimi ir sekti gaminių sertifikatus.
-author: t-benebo
+author: dasani-madipalli
 ms.date: 07/15/2020
 ms.topic: article
 ms.prod: ''
@@ -10,15 +10,15 @@ ms.search.form: COOVendorCerts
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: benebotg
+ms.author: damadipa
 ms.search.validFrom: 2020-07-15
-ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: a2740f6b1ccb52073b013e613d8ab779cc088180
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
-ms.translationtype: MT
+ms.dyn365.ops.version: Release 10.0.9
+ms.openlocfilehash: fde4211e4449c28eda8ac7a23ddfc346d2c7e8359d9e473821bdefe76db65616
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7777643"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6739783"
 ---
 # <a name="country-of-origin"></a>Kilmės šalis / regionas
 
@@ -28,7 +28,7 @@ Daugelis organizacijų išduoda sertifikatus savo pardavėjams tam, kad užtikri
 
 ## <a name="turn-on-the-country-of-origin-feature"></a>Kilmės šalies funkcijos įjungimas
 
-Kaip tiekimo grandinės valdymo versija 10.0.21, ši funkcija yra įjungta pagal numatytuosius nustatymus. Administratoriai gali naudoti [funkcijų valdymo](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) puslapį, kad patikrintų funkcijos būseną ir prireikus ją įjungtų arba išjungtų. Čia funkcija yra nurodyta kaip:
+Kad galėtumėte naudoti šią funkciją, ji turi būti įjungta jūsų sistemoje. Administratoriai gali naudoti [funkcijos valdymas](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) parametrus, norėdami sužinoti funkcijos būseną ir įjungti ją. Darbo srityje **Funkcijų valdymas** ši funkcija yra nurodyta toliau pateikiamu būdu.
 
 - **Modulis:** *Produkto informacijos valdymas*
 - **Funkcijos pavadinimas:** *Kilmės šalies tvarkymo funkcija*

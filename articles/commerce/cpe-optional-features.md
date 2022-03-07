@@ -2,29 +2,26 @@
 title: Konfigūruokite pasirinktas savybes „Dynamics 365 Commerce“ vertinimo aplinkoje
 description: Šiame skyriuje paaiškinama, kaip sukonfigūruoti pasirenkamas funkcija „Microsoft Dynamics 365 Commerce“ vertinimo aplinkoje.
 author: psimolin
-manager: annbe
 ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Operations, Retail, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 6f7ba7e6de3791720458b509059f008423c73a82
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 2f4e93b7ece7652b72ae2067be4de73f45a8261ada1b0bc731e2bd2147dcccc6
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4414242"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6728296"
 ---
-# <a name="configure-optional-features-for-a-dynamics-365-commerce-evaluation-environment"></a>Konfigūruokite pasirinktas savybes „Dynamics 365 Commerce“ vertinimo aplinkoje
+# <a name="configure-optional-features-for-a-dynamics-365-commerce-evaluation-environment"></a>Pasirinktinių „Dynamics 365 Commerce” vertinimo aplinkos funkcijų konfigūravimas
 
 [!include [banner](includes/banner.md)]
 
@@ -78,7 +75,7 @@ Jei norite įvertinti operacines el. pašto funkcijas, turi būti įvykdytos ši
 1. Naudokite meniu kairėje ir eikite į **Moduliai \> Mažmena ir komercija \> Būstinės sąranka \> Parametrai \> Elektroninio pašto parametrai**.
 1. Skirtuko **SMTP parametrai** lauke **Siunčiamo pašto serveris** įveskite savo SMTP serverio ar el. pašto tarnybos FQDN arba IP adresą.
 1. Lauke **SMTP prievado numeris** įveskite prievado numerį. (Jei nenaudojate saugiųjų jungčių lygmens \[SSL\], numatytasis prievado numeris yra **25**.)
-1. Jei reikalinga autentifikacija, įveskite reikšmes laukuose **Vartotojo vardas** ir **Slaptažodis**.
+1. Jei reikalingas autentifikavimas, įveskite reikšmes laukuose **Vartotojo vardas** ir **Slaptažodis**.
 1. Pasirinkite **Įrašyti**.
 1. Pasirinkite **Atnaujinti**.
 1. Skirtuko **Bandomasis el. laiškas** lauke **El. pašto teikėjas** pasirinkite **SMTP**.
@@ -103,7 +100,7 @@ Kiekvieno operacinio įvykio, dėl kurio norite siųsti el. laiškus, el. laišk
 
 Galbūt norėsite el. laiškų šablonus tinkinti, kad juose būtų naudojami skirtingi vaizdai. Arba jums reikėtų atnaujinti nuorodas į šablonus tam, kad jie galėtų patekti į jūsų vertinimo aplinką. Šia procedūra paaiškinama, kaip atsisiųsti numatytuosius šablonus, juos tinkinti ir atnaujinti sistemos šablonus.
 
-1. Tinklo naršyklėje, atsisiųskite [„Microsoft Dynamics 365 Commerce Evaluation“ nustatytuosius elektroninio pašto šablonų archyvuotą failą](https://download.microsoft.com/download/d/7/b/d7b6c4d4-fe09-4922-9551-46bbb29d202d/Commerce.Preview.Default.Email.Templates.zip) į savo vietos kompiuterį. Šiame faile yra tolesni HTML dokumentai.
+1. Tinklo naršyklėje atsisiųskite [„Microsoft Dynamics 365 Commerce“ vertinimo numatytųjų el. pašto šablonų archyvuotą failą](https://download.microsoft.com/download/d/7/b/d7b6c4d4-fe09-4922-9551-46bbb29d202d/Commerce.Preview.Default.Email.Templates.zip) į savo vietos kompiuterį. Šiame faile yra tolesni HTML dokumentai.
 
     - Užsakymo patvirtinimo šablonas
     - Dovanų kortelės išdavimo šablonas
@@ -136,15 +133,15 @@ Toliau nurodyti atpažinimo ženklai taikomi bendram pardavimo užsakymui.
 
 | Atpažinimo ženklo pavadinimas | Atpažinimo ženklas |
 |-------------------|-------|
-| Užsakymo numeris      | %salesid% |
-| Kliento pavadinimas   | %customername% |
-| Pristatymo adresas  | %deliveryaddress% |
-| Sąskaitų siuntimo adresas   | %customeraddress% |
-| Užsakymo data        | %shipdate% |
-| Pristatymo režimas     | %modeofdelivery% |
-| Nuolaida          | %discount% |
-| PVM         | %tax% |
-| Užsakymo suma       | %total% |
+| Užsakymo numeris      | „%salesid%“ |
+| Kliento pavadinimas   | „%customername%“ |
+| Pristatymo adresas  | „%deliveryaddress%“ |
+| Sąskaitų siuntimo adresas   | „%customeraddress%“ |
+| Užsakymo data        | „%shipdate%“ |
+| Pristatymo režimas     | „%modeofdelivery%“ |
+| Nuolaida          | „%discount%“ |
+| PVM         | „%tax%“ |
+| Užsakymo suma       | „%total%“ |
 
 #### <a name="sales-line"></a>Pardavimo eilutė
 
@@ -157,16 +154,16 @@ Tolesni atpažinimo ženklai pakeičiami kiekvieno užsakymo produkto reikšmėm
 |------------------------|-------|
 | Produktų sąrašas – pradžia   | \<!--%tablebegin.salesline% --\> |
 | Produktų sąrašas – pabaiga     | \<!--%tableend.salesline%--\> |
-| Produkto pavadinimas           | %lineproductname% |
-| aprašymas            | %lineproductdescription% |
-| Kiekis               | %linequantity% |
-| Eilutės vieneto kaina        | %lineprice% (tikrinti) |
-| Iš viso eilutės elementų        | %linenetamount% |
-| eilutės nuolaida          | %linediscount% |
-| Siuntimo data              | %lineshipdate% |
-| Įsigijimo metodas     | %linedeliverymode% |
-| pristatymo adresas       | %linedeliveryaddress% |
-| Eilutės pardavimo vienetas | %lineunit% |
+| Produkto pavadinimas           | „%lineproductname%“ |
+| aprašymas            | „%lineproductdescription%“ |
+| Kiekis               | „%linequantity%“ |
+| Eilutės vieneto kaina        | %lineprice% (patikrinti) |
+| Iš viso eilutės elementų        | „%linenetamount%“ |
+| eilutės nuolaida          | „%linediscount%“ |
+| Siuntimo data              | „%lineshipdate%“ |
+| Įsigijimo metodas     | „%linedeliverymode%“ |
+| pristatymo adresas       | „%linedeliveryaddress%“ |
+| Eilutės pardavimo vienetas | „%lineunit%“ |
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
@@ -180,10 +177,13 @@ Tolesni atpažinimo ženklai pakeičiami kiekvieno užsakymo produkto reikšmėm
 
 [„Dynamics 365 Commerce“ vertinimo aplinkos DUK](cpe-faq.md)
 
-[„Microsoft Lifecycle Services“ (LCS)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
+[„Microsoft Lifecycle Services“ (LCS)](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
 
-[„Retail Cloud Scale Unit“ (RCSU)](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-retail/retail-cloud-scale-unit)
+[„Retail Cloud Scale Unit“ (RCSU)](/business-applications-release-notes/october18/dynamics365-retail/retail-cloud-scale-unit)
 
 [„Microsoft Azure“ portalas](https://azure.microsoft.com/features/azure-portal)
 
 [„Dynamics 365 Commerce“ svetainė](https://aka.ms/Dynamics365CommerceWebsite)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

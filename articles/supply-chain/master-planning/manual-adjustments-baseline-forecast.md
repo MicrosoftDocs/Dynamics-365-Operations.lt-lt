@@ -1,10 +1,12 @@
 ---
 title: Neautomatiniai pagrindinės prognozės koregavimai
 description: Šioje temoje aiškinama, kaip galima neautomatiškai koreguoti pagrindinę prognozę ir peržiūrėti prognozės informaciją.
-author: ChristianRytt
+author: roxanadiaconu
+manager: tfehr
 ms.date: 01/07/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqDemPlanForecastViewer
 audience: Application User
@@ -13,15 +15,15 @@ ms.custom: 72704
 ms.assetid: e7c5d44e-07bc-40b1-a4b3-8ba46483ef9e
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: crytt
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4d00061efa551c9fe2ad9d0e441bba44e70b071c
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
-ms.translationtype: MT
+ms.openlocfilehash: afdcbb98c96b2a685f64a16886b9a064ed13c2c0
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103768"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4967035"
 ---
 # <a name="make-manual-adjustments-to-the-baseline-forecast"></a>Neautomatiniai pagrindinės prognozės koregavimai
 
@@ -67,13 +69,14 @@ Puslapyje **Poreikio prognozės informacija** toliau nurodyta informacija pateik
 
 **Pastabos**
 
-- Poreikio *prognozės informacijos funkcijos* prognozės modelio pasirinkimas įtraukia parametrus į informacijos apie poreikio prognozę puslapį, kuris leidžia pasirinkti įtraukti norimus prognozės **modelius**. Kaip ir tiekimo grandinės valdymo versija 10.0.21 ši funkcija įjungiama pagal numatytąjį nustatymą. Kaip ir tiekimo grandinės valdymas 10.0.25 ši funkcija yra privaloma ir jos išjungti negalima. Jei naudojate senesnę nei 10.0.25 versiją, tada administratoriai gali įjungti arba išjungti šią funkciją ieškodami *prognozės*[modelio](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pasirinkimo duomenų funkcijos, kuri yra funkcijų valdymo darbo srityje.
-- Patikimumo intervalas, kuris rodomas puslapio dalyje **Prognozė**, nurodo skirtumą tarp viršutinės ir apatinės patikimumo intervalo ribų. Norėdami peržiūrėti apatinės ir viršutinės ribų reikšmes, nuveskite žymeklį virš diagramos dalyje **Praeities poreikis ir prognozė grafiškai**.
-- Jei naudojate poreikio prognozių „Microsoft Azure“ mašininį mokymą, galite nurodyti generuojamos prognozės patikimumo lygio procentinę dalį. Patikimumo intervalą sudaro reikšmės, kurios nurodo tinkamus poreikio prognozės įvertinimus. 95 procentų patikimumo lygio procentas nurodo 5 % tikimybę, kad prognozės rezultatas nepateks į patikimumo intervalo diapazoną.
+-   Jei funkcijų valdyme įgalinsite **Prognozės modelio pasirinkimas iš Poreikio prognozės išsamios informacijos**, galėsite pasirinkti prognozės modelius, kuriuos norite įtraukti į retrospektyvinę prognozę, puslapyje **Poreikio prognozės išsami informacija** .
+-   Patikimumo intervalas, kuris rodomas puslapio dalyje **Prognozė**, nurodo skirtumą tarp viršutinės ir apatinės patikimumo intervalo ribų. Norėdami peržiūrėti apatinės ir viršutinės ribų reikšmes, nuveskite žymeklį virš diagramos dalyje **Praeities poreikis ir prognozė grafiškai**.
+-   Jei naudojate poreikio prognozių „Microsoft Azure“ mašininį mokymą, galite nurodyti generuojamos prognozės patikimumo lygio procentinę dalį. Patikimumo intervalą sudaro reikšmės, kurios nurodo tinkamus poreikio prognozės įvertinimus. 95 procentų patikimumo lygio procentas nurodo 5 % tikimybę, kad prognozės rezultatas nepateks į patikimumo intervalo diapazoną.
 
 Taip pat galite atlikti neautomatinius prognozės koregavimus puslapyje **Poreikio prognozės informacija**, pakeisdami reikšmes eilutėje **Prognozė**, kuri yra dalyje **Prognozė**.
 
-## <a name="additional-resources"></a>Papildomi ištekliai
+<a name="additional-resources"></a>Papildomi ištekliai
+--------
 
 [Prognozės tikslumo stebėjimas](monitor-forecast-accuracy.md)
 
@@ -81,6 +84,3 @@ Taip pat galite atlikti neautomatinius prognozės koregavimus puslapyje **Poreik
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

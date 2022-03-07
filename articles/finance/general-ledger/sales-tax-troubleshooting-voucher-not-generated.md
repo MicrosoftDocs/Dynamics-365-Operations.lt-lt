@@ -2,9 +2,11 @@
 title: Kvitas nesugeneruojamas
 description: Šioje temoje pateikiama trikčių diagnostikos informacija, kuri gali padėti, kai kvitas turėtų būti generuojamas, bet jo nėra.
 author: qire
+manager: beya
 ms.date: 04/13/2021
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application user
 ms.reviewer: kfend
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 1fbd5b5bb4a1d2a0c498b2abac82bd6f5ff3f1d2ed9960885eb8f44cbb17884d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: eafc9110ec58be5083569188d59b67a62e86c85d
+ms.sourcegitcommit: 57668404d61359b33e0c0280f2f7c4eb829b1ed2
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6759877"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5947682"
 ---
 # <a name="voucher-isnt-generated"></a>Kvitas nesugeneruojamas
 
@@ -26,14 +28,14 @@ ms.locfileid: "6759877"
 
 Jei kvitas turi būti sugeneruotas, bet kvito operacijų puslapyje nerodyti kvitų, norėdami pašalinti šią problemą, atlikite toliau nurodytus veiksmus, nurodytus **skyriuose**.
 
-[![Kvito operacijų puslapis, kuriame nėra kvitų.](./media/voucher-not-generated-Picture1.png)](./media/voucher-not-generated-Picture1.png)
+[![Kvito operacijų puslapis, kuriame nėra kvitų](./media/voucher-not-generated-Picture1.png)](./media/voucher-not-generated-Picture1.png)
 
 ## <a name="check-the-tax-applicability"></a>Patikrinti mokesčio taikomumą
 
 1. Pereikite į **periodinių** \>**mokesčių užduočių** \> **papildomos knygos žurnalo įrašus, kurie dar nepervesti**.
 2. Jei yra žurnalo įrašas, pasirinkite jį, tada pasirinkite **Perkelti** dabar.
 
-    [![Perkelti dabar mygtuką papildomos knygos žurnalo įrašuose, kurie dar neperduoti puslapyje.](./media/voucher-not-generated-Picture2.png)](./media/voucher-not-generated-Picture2.png)
+    [![Perkelti dabar mygtuką papildomos knygos žurnalo įrašuose, kurie dar neperduoti puslapyje](./media/voucher-not-generated-Picture2.png)](./media/voucher-not-generated-Picture2.png)
 
 3. Dar kartą **atidarykite** kvito operacijų puslapį, kad pamatytumėte, ar kvitas buvo sugeneruotas.
 

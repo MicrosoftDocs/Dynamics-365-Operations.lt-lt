@@ -2,16 +2,13 @@
 title: Kvito numerių atkūrimas
 description: Šioje temoje aprašoma, kaip atkurti tam tikros dienos (pavyzdžiui, per mokestinius metus ar kalendorinius metus) kvitų numerius, kurie yra naudojami įvairiems veiksmams.
 author: ShalabhjainMSFT
-manager: AnnBe
 ms.date: 10/06/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-Commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail, Commerce
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +16,12 @@ ms.search.industry: Retail, Commerce
 ms.author: asharchw
 ms.search.validFrom: 2020-01-14
 ms.dyn365.ops.version: Application update 10.0.9
-ms.openlocfilehash: 31ba82ac5e032734e00f2aee12339bc85a53550b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 855c39f15db6de8fac1f0cd4667eec485c70542b9aebde0d7085e2703f4609bb
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4414279"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6733874"
 ---
 # <a name="reset-receipt-numbers"></a>Kvitų numerių nustatymas iš naujo 
 
@@ -58,7 +55,7 @@ Norėdami įjungti atkūrimą, atlikite toliau nurodytus veiksmus.
 1. Lauke **Nustatyti kvito tipą** pasirinkite **Vieną kartą** arba **Kasmet**.
 1. Pasirinkite **Gerai**.
 
-![Kvito atkūrimo datos pasirinkimas](media/Enable_receipt_reset.png "Kvito atkūrimo datos pasirinkimas")
+![Kvito atkūrimo datos pasirinkimas.](media/Enable_receipt_reset.png "Kvito atkūrimo datos pasirinkimas")
 
 Pasirinkus datą, ji pasirodys stulpelyje **Kito kvito numerio atkūrimo data**. Atkūrimo data taikoma visų tipų kvitų gavimo operacijoms. Todėl atkuriama visų tipų kvitų numerių seka.
 
@@ -68,3 +65,6 @@ Norėdami išvalyti būsimas atkūrimo datas, galite naudoti funkciją **Ištrin
 
 > [!NOTE]
 > Priklausomai nuo jūsų pasirinktos atkūrimo datos ir kvito formato, gali būti, kad turėsite kvitų numerių dublikatus. Nors elektroninės kasos aparato (EKA) sistema gali valdyti šias situacijas, grąžinimų apdorojimo procesas užtrunka ilgiau, nes pardavėjai turi pasirinkti vieną iš dviejų kvitų dublikatų. Jei nebuvo pagalvota apie dublikatų kvitus, gali kilti kitų su duomenų valymu susijusių sunkumų. Todėl rekomenduojame naudoti dinaminius datos simbolius (pvz., **ddd**, **MM**, **DD** ir **YY**), kad išvengtumėte kvitų numerių dublikatų po atkūrimo.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

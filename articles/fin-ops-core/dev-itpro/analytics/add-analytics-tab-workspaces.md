@@ -1,25 +1,23 @@
 ---
 title: Analizės įtraukimas į darbo sritis naudojant „Power BI Embedded“
 description: Šioje temoje rodoma, kaip įterpti „Power BI“ ataskaitą darbo srities skirtuke Analizė.
-author: tjvass
-manager: AnnBe
+author: RichdiMSFT
 ms.date: 06/21/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application user, IT Pro
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: tjvass
+ms.author: richdi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 53c9d6343422f64aed74ce436bafd2c8b2ce1c3e
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
-ms.translationtype: HT
+ms.openlocfilehash: ed562dca621acea24efa3f157f695257cb919cdda577cf9ae6dd0b0c942e1b70
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4680941"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6760157"
 ---
 # <a name="add-analytics-to-workspaces-by-using-power-bi-embedded"></a>Analizės įtraukimas į darbo sritis naudojant „Power BI Embedded“
 
@@ -28,12 +26,12 @@ ms.locfileid: "4680941"
 > [!NOTE]
 > Šią funkcija palaiko 7.2 arba vėlesnės versijos „Finance and Operations“.
 
-## <a name="introduction"></a>Įžanga
+## <a name="introduction"></a>Įvadas
 Šioje temoje rodoma, kaip įterpti „Microsoft Power BI“ ataskaitą darbo srities skirtuke **Analizė**. Čia pateiktame pavyzdyje išplėsime Transporto parko valdymo programos darbo sritį **Rezervacijų valdymas**, kad skirtuke **Analizė** galėtume įterpti analizės darbo sritį.
 
 ## <a name="prerequisites"></a>Būtinieji komponentai
 + Prieiga prie projektuotojo terpės, kurioje veikia 8-asis ar naujesnis platformos atnaujinimas.
-+ Naudojant „Microsoft Power BI Desktop Dekstop“ programą sukurta analizės ataskaita (.pbix failas), kurioje yra iš objekto parduotuvės duomenų bazės gaunamas duomenų modelis.
++ Naudojant „Microsoft Power BI Desktop“ programą sukurta analizės ataskaita (.pbix failas), kurioje yra iš objekto parduotuvės duomenų bazės gaunamas duomenų modelis.
 
 ## <a name="overview"></a>Apžvalga
 Nesvarbu, ar išplečiate esamą, ar sukuriate naują asmeninę programos darbo sritį, informatyviems ir interaktyviems verslo duomenų rodiniams pristatyti galite naudoti įdėtuosius analizės rodinius. Analizės darbo srities įtraukimo procesą sudaro keturi veiksmai.
@@ -56,11 +54,11 @@ Atlikite šiuos veiksmus, norėdami įtraukti .pbix failą kaip „Visual Studio
 3. Dialogo lange **Naujo elemento įtraukimas**, esančio parinktyje **Operacijų artefaktai**, pasirinkite šabloną **Išteklius**.
 4. Įveskite pavadinimą, kuris bus naudojamas nurodant ataskaitą X++ metaduomenyse, tada spustelėkite **Įtraukti**.
 
-    ![Naujos prekės dialogo lango įtraukimas](media/analytical-workspace-add.png)
+    ![Naujos prekės dialogo lango įtraukimas.](media/analytical-workspace-add.png)
 
 5. Raskite .pbix failą, kuriame yra analizės ataskaitos apibrėžimas, tada spustelėkite **Atidaryti**.
 
-    ![Pasirinkite ištekliaus failo dialogo langą](media/analytical-workspace-select-resource.png)
+    ![Pasirinkite ištekliaus failo dialogo langą.](media/analytical-workspace-select-resource.png)
 
 Įtraukę .pbix failą kaip „Dynamics 365“ išteklių, ataskaitas galite įdėti į darbo sritis ir, naudodami meniu elementus, įtraukti tiesioginių saitų.
 
@@ -69,7 +67,7 @@ Atlikite šiuos veiksmus, norėdami įtraukti .pbix failą kaip „Visual Studio
 
 Toliau pavaizduota, kaip forma **FMClerkWorkspace** atrodo „Microsoft Visual Studio“ dizaineryje.
 
-![Forma FMClerkWorkspace prieš pakeitimus](media/analytical-workspace-definition-before.png)
+![Forma „FMClerkWorkspace” prieš pakeitimus.](media/analytical-workspace-definition-before.png)
 
 Atlikite šiuos veiksmus, norėdami išplėsti darbo srities **Rezervacijų valdymas** formos apibrėžimą.
 
@@ -94,7 +92,7 @@ Atlikite šiuos veiksmus, norėdami išplėsti darbo srities **Rezervacijų vald
 
 Toliau pavaizduota, kaip atrodo dizainas pritaikius šiuos pakeitimus.
 
-![FMClerkWorkspace po pakeitimų](media/analytical-workspace-definition-after.png)
+![„FMClerkWorkspace” po pakeitimų.](media/analytical-workspace-definition-after.png)
 
 Pridėję formų valdiklių, kurie bus naudojami darbo srities ataskaitai įdėti, turite apibrėžti, kokio dydžio turi būti pagrindinis valdiklis, kad tilptų į maketą. Pagal numatytuosius nustatymus puslapiai **Filtrų sritis** ir **Skirtukas** bus rodomi ataskaitoje. Tačiau šių valdiklių matomumą galite keisti atitinkamai pagal tikslinį ataskaitos vartotoją.
 
@@ -144,7 +142,7 @@ Atlikite šiuos veiksmus, norėdami įtraukti verslo logiką, inicijuojančią �
 
 Užbaigėte verslo logikos įtraukimo užduotį, skirtą įdėtam ataskaitų peržiūros programos valdikliui inicijuoti. Toliau pavaizduota, kaip atrodo darbo sritis pritaikius šiuos pakeitimus.
 
-![Į darbo sritį įdėta ataskaita](media/analytical-workspace-final.png)
+![Į darbo sritį įdėta ataskaita.](media/analytical-workspace-final.png)
 
 > [!NOTE]
 > Esamą operacijų rodinį galite pasiekti naudodami virš puslapio pavadinimo esančius darbo srities skirtukus.
@@ -175,3 +173,6 @@ public static void initializeReportControl(
 | showFilterPane   | Būlio logikos vertė, kuria nurodoma, ar filtro sritis turi būti rodoma (**true**), ar paslėpta (**klaidinga**).     |
 | showNavPane      | Būlio logikos vertė, kuria nurodoma, ar naršymo sritis turi būti rodoma (**true**), ar paslėpta (**klaidinga**). |
 | defaultFilters   | Numatytieji „Power BI“ ataskaitos filtrai.                                                                 |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

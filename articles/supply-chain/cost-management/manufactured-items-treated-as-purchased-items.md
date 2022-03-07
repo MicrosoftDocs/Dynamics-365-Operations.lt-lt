@@ -1,12 +1,10 @@
 ---
 title: Produktų, kuriuos galima gaminti arba įsigyti, nustatymas
 description: 'Produktai gali būti gaunami įvairiais būdais: jų galima pagaminti arba įsigyti (nusipirkti). Šiame straipsnyje aprašomi keli dažni punktai, kuriuos reikėtų apsvarstyti konfigūruojant kelių produktų šaltinių naudojimą.'
-author: cvocph
-manager: tfehr
+author: AndersGirke
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqGroup, ReqItemTable
 audience: Application User
@@ -15,15 +13,15 @@ ms.custom: 21841
 ms.assetid: acc608b7-2cad-4fba-afee-9b7cc93761ec
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7acf4952c1dbb33f4ec615d1ecb9d508a9e7b980
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.openlocfilehash: 344a022561fa425747e7674bd600c65d70229557
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4967513"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7568236"
 ---
 # <a name="set-up-products-that-can-be-produced-or-procured"></a>Produktų, kuriuos galima gaminti arba įsigyti, nustatymas
 
@@ -41,3 +39,6 @@ Norėdami neleisti skaičiuoti, pasirinkite išskleidimo vėliavėlę **Stabdyti
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

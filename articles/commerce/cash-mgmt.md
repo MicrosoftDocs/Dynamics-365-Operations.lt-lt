@@ -10,7 +10,6 @@ ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ed0f77f7-3609-4330-bebd-ca3134575216
 ms.search.region: global
@@ -18,12 +17,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-05-21
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 0c561c39dfcbfa739c5a22394c05191e7f9bc107
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ce75a191726fc430347f057ac511188acfbbf76e
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4414312"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5213167"
 ---
 # <a name="cash-management-improvements"></a>Grynųjų pinigų valdymo patobulinimai
 
@@ -62,3 +61,6 @@ Norėdami nustatyti naują grynųjų pinigų valdymo funkciją, atlikite toliau 
 - Jei derinant pažymėta operacija nėra subalansuojama, vartotojas turi įvesti nesubalansuoto suderinimo priežasties aprašą. Vartotojai gali pasirinkti vieną operaciją ir suderinti ją pagal poreikį naudodami atitinkamą priežasties aprašą.
 - Vartotojai gali ir toliau derinti operacijas bei naikinti operacijų suderinimą, kol pamaina neuždaryta. Uždarius pamainą, operacijų suderinimo panaikinti negalima.
 - Kai vartotojas pasirenka uždaryti pamainą, „Commerce“ patikrina, ar pamainoje nėra nesuderintų grynųjų pinigų valdymo operacijų. Vartotojai negali uždaryti pamainos, jei yra nesuderintų operacijų.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

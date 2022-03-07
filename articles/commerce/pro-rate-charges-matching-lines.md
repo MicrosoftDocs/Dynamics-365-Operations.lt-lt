@@ -2,16 +2,13 @@
 title: Proporcingas antraštės išlaidų paskirstymas atitinkančioms pardavimo eilutėms
 description: Šioje temoje aprašomos papildomos „Commerce“ kanalų užsakymų apskaičiavimo ir automatinio apmokestinimo galimybės, naudojant išplėstinę automatinio apmokestinimo funkciją.
 author: hhaines
-manager: annbe
 ms.date: 03/30/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +16,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 048885cac7a316e144b2df072da405d74096203f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 0de29e1817840c172f9235f2ee48251c4878a0573d270a60fde5b42ba6f88d31
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4414221"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6774514"
 ---
 # <a name="prorate-header-charges-to-matching-sales-lines"></a>Proporcingas antraštės išlaidų paskirstymas atitinkančioms pardavimo eilutėms
 
@@ -33,7 +30,7 @@ ms.locfileid: "4414221"
 
 Šioje temoje aprašomos antraštės lygio automatinio apmokestinimo grupavimo ir jų skirstymo „Commerce“ pardavimo eilutėse funkcijos. Ši funkcija yra skirta operacijoms, kurios sukurtos elektroniniame kasos aparate (EKA) naudojant „Retail“ 10.0.1 versiją ir pardavimo operacijoms, kurios sukurtos skambučių centre naudojant „Retail“ 10.0.2 versiją.
 
-Ši funkcija galima tik tuo atveju, jei įjungta funkcija [Išplėstinės automatinės išlaidos](https://docs.microsoft.com/dynamics365/unified-operations/retail/omni-auto-charges) ir naudojama puslapyje **Prekybos parametrai** esanti parinktis. Be to, patobulintas automatinis apskaičiavimo metodas gali būti taikomas tik pardavimo užsakymams, kurie sukuriami per „Commerce“ kanalus (EKA, skambučių centrą ir „e-Commerce“ platformą „Dynamics“).
+Ši funkcija galima tik tuo atveju, jei įjungta funkcija [Išplėstinės automatinės išlaidos](/dynamics365/unified-operations/retail/omni-auto-charges) ir naudojama puslapyje **Prekybos parametrai** esanti parinktis. Be to, patobulintas automatinis apskaičiavimo metodas gali būti taikomas tik pardavimo užsakymams, kurie sukuriami per „Commerce“ kanalus (EKA, skambučių centrą ir „e-Commerce“ platformą „Dynamics“).
 
 Ši nauja funkcija suteikia organizacijoms daugiau lankstumo apskaičiuojant automatinį apmokestinimą antraščių lygiu ir jį taikant pardavimo sandoriams.
 
@@ -41,7 +38,7 @@ Ankstesnėse nei 10.0.1 programos versijose antraštės lygio automatinės išla
 
 Pavyzdžiui, antraštės lygio automatinės išlaidos nustatomos ir priskiriamos pristatymo būdui **99** ir pristatymo būdui **11**. Sukuriamas pardavimo užsakymas ir užsakymo antraštėje nustatomas pristatymo būdas **99**. Tačiau kai kurios pardavimo eilutės nustatomos taip, kad jos siunčiamos naudojant pristatymo būdą **11**. Šiuo atveju tik antraštės lygio išlaidos, susietos su pristatymo būdu **99**, yra apdorojamos ir taikomos pardavimo užsakymui.
 
-„Commerce“ antraštės lygio išlaidos turi papildomą funkciją, leidžiančią apibrėžti [pakopinę išlaidų konfigūraciją](https://docs.microsoft.com/dynamics365/unified-operations/retail/configure-call-center-delivery), kuri pagrįsta užsakymo verte. Pavyzdžiui, jei užsakymo vertė yra tarp 50,00 USD ir 200,00 USD, galbūt organizacija norės taikyti 5,00 USD transportavimo išlaidų mokestį. Tačiau, jei užsakymo vertė yra tarp 200,01 ir 500,00 USD, transportavimo mokestis gali būti 4,00 USD.
+„Commerce“ antraštės lygio išlaidos turi papildomą funkciją, leidžiančią apibrėžti [pakopinę išlaidų konfigūraciją](/dynamics365/unified-operations/retail/configure-call-center-delivery), kuri pagrįsta užsakymo verte. Pavyzdžiui, jei užsakymo vertė yra tarp 50,00 USD ir 200,00 USD, galbūt organizacija norės taikyti 5,00 USD transportavimo išlaidų mokestį. Tačiau, jei užsakymo vertė yra tarp 200,01 ir 500,00 USD, transportavimo mokestis gali būti 4,00 USD.
 
 Kai kurios organizacijos nori pakopinių išlaidų skaičiavimo išmokų, pateiktų antraštės lygio išlaidose. Tačiau scenarijuose, kurie susiję su pristatymo būdais, jos taip pat nori įsitikinti, kad skaičiuojamos išlaidos yra pagrįstos kiekvienoje pardavimo eilutėje nurodyto pristatymo būdo atitikimu.
 
@@ -59,9 +56,9 @@ Tolesniuose dviejuose scenarijuose aprašoma, kaip šios išlaidos skaičiuojamo
 
 Tokiu atveju organizacija nustatė antraštės lygio išlaidų pristatymo būdo ryšį **99** ir pristatymo būdo ryšį **11**. Pristatymo būdo **21** automatinės išlaidos nekonfigūruojamos.
 
-![Pristatymo būdo 99 automatinės išlaidos, kai atitikimo eilutės proporcingas paskirstymas yra išjungtas](media/99_disabled.png)
+![Pristatymo būdo 99 automatinės išlaidos, kai atitikimo eilutės proporcingas paskirstymas yra išjungtas.](media/99_disabled.png)
 
-![Pristatymo būdo 11 automatinės išlaidos, kai atitikimo eilutės proporcingas paskirstymas yra išjungtas](media/11_disabled.png)
+![Pristatymo būdo 11 automatinės išlaidos, kai atitikimo eilutės proporcingas paskirstymas yra išjungtas.](media/11_disabled.png)
 
 Skambučių centre sukuriamas pardavimo užsakymo ir nustatomas pristatymo būdas **99**. Šiame užsakyme yra penkios prekės. Dvi užsakymo eilutės sukonfigūruotos naudoti pristatymo būdą **99**, dvi eilutės sukonfigūruotos naudoti pristatymo būdą **11**, o viena eilutė sukonfigūruota naudoti pristatymo būdą **21**, kaip parodyta tolesnėje lentelėje.
 
@@ -75,15 +72,15 @@ Skambučių centre sukuriamas pardavimo užsakymo ir nustatomas pristatymo būda
 
 Tokiu atveju visas užsakymas vertinamas pagal pristatymo būdo **99** automatinių išlaidų lentelę. Bendra visų pardavimo eilučių suma naudojama nustatant atitinkamą pakopą automatinių išlaidų konfigūracijoje, o šis mokestis taikomas užsakymo antraštės lygiu. Šiame pavyzdyje užsakymo suma yra 165,00 USD, o 15,00 USD transportavimo mokestis taikomas užsakymo antraštei. Sukonfigūruotos pristatymo būdo **11** automatinės išlaidos niekada nenurodomos ir taikomos.
 
-Tokiu atveju, jei klientas grąžina kai kurias užsakymo prekes ir jei [išlaidų kodas buvo sukonfigūruotas taip, kad pinigai būtų grąžinti](https://docs.microsoft.com/dynamics365/unified-operations/retail/omni-auto-charges#setup-and-configuration-2), visos antraštės lygio išlaidos yra sistemiškai taikomas grąžinimui, net jei grąžinamos tik kai kurios prekės.
+Tokiu atveju, jei klientas grąžina kai kurias užsakymo prekes ir jei [išlaidų kodas buvo sukonfigūruotas taip, kad pinigai būtų grąžinti](/dynamics365/unified-operations/retail/omni-auto-charges#setup-and-configuration-2), visos antraštės lygio išlaidos yra sistemiškai taikomas grąžinimui, net jei grąžinamos tik kai kurios prekės.
 
 ### <a name="scenario-2"></a>2 scenarijus
 
 Tokiu atveju nustatyti antraštės lygio išlaidų pristatymo būdo ryšys **99** ir pristatymo būdo ryšys **11**. Tačiau šių automatinių išlaidų lentelėse nustatoma parinkties **Proporcingai paskirstyti atitinkančioms pardavimo eilutėms** reikšmę **Taip**.
 
-![Pristatymo būdo 99 automatinės išlaidos, kai atitikimo eilutės proporcingas paskirstymas yra įjungtas](media/99_enabled.png)
+![Pristatymo būdo 99 automatinės išlaidos, kai atitikimo eilutės proporcingas paskirstymas yra įjungtas.](media/99_enabled.png)
 
-![Pristatymo būdo 11 automatinės išlaidos, kai atitikimo eilutės proporcingas paskirstymas yra įjungtas](media/11_enabled.png)
+![Pristatymo būdo 11 automatinės išlaidos, kai atitikimo eilutės proporcingas paskirstymas yra įjungtas.](media/11_enabled.png)
 
 Šiame scenarijuje naudojamas tas pats pardavimo užsakymas, kuriame yra penkios eilutės. Nustatytas užsakymo antraštės pristatymo būdas **99**, bet kiekvienos pardavimo užsakymo prekės pristatymo būdas sukonfigūruojamas, kaip parodyta toliau pateiktoje lentelėje.
 
@@ -133,9 +130,9 @@ Kadangi automatinių išlaidų konfigūracija nustatyta proporcingai paskirstyti
     - Bendra produkto vertė = 15 USD
     - **Išlaidų vertė = 0 USD** (Šio kliento ir pristatymo būdo derinio automatinės išlaidos nesukonfigūruotos.)
 
-    ![Pristatymo būdo 11 išlaidos patenka į paryškintą pakopą](media/step2mode11.png)
+    ![Pristatymo būdo 11 išlaidos patenka į paryškintą pakopą.](media/step2mode11.png)
 
-    ![Pristatymo būdo 99 išlaidos patenka į paryškintą pakopą](media/step2mode99.png)
+    ![Pristatymo būdo 99 išlaidos patenka į paryškintą pakopą.](media/step2mode99.png)
 
 3. Sistema apskaičiuoja išlaidų vertė, kuri turi būti taikoma kiekvienai eilutei, pagal proporcingo paskirstymo logiką, kuri proporcingą eilutės vertę nuskaito palygindama ją su bendra grupės produktų verte.
 
@@ -166,7 +163,7 @@ Kadangi automatinių išlaidų konfigūracija nustatyta proporcingai paskirstyti
 
 Todėl šiame pavyzdyje 81334 prekei bus priskirtas 5,62 transportavimo mokestis. Šias išlaidas galite peržiūrėti pardavimo eilutės puslapyje **Išlaidų tvarkymas**. Tolesnėje iliustracijoje rodoma, kaip rodomas šis 81334 prekės puslapis.
 
-![81334 prekės pardavimo eilutės proporcingai paskirstytos išlaidos](media/proratedlinecharge.png)
+![81334 prekės pardavimo eilutės proporcingai paskirstytos išlaidos.](media/proratedlinecharge.png)
 
 Kai šis skaičiavimo metodas naudojamas dalinio grąžinimo scenarijuje, jei išlaidų kodas yra grąžinamas, tik dalis išlaidų, paskirstytų tai eilutei, bus grąžinta grąžinus prekę.
 
@@ -175,3 +172,6 @@ Kai šis skaičiavimo metodas naudojamas dalinio grąžinimo scenarijuje, jei i�
 [Integruoto kanalo išplėstinės automatinės išlaidos](omni-auto-charges.md)
 
 [Automatinių išlaidų įjungimas ir konfigūravimas pagal kanalą](auto-charges-by-channel.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

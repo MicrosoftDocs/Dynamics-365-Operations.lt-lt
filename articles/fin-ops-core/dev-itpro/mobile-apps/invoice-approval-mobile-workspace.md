@@ -1,12 +1,10 @@
 ---
 title: Mobilioji darbo sritis Sąskaitos faktūros tvirtinimas
-description: Šioje temoje pateikiama informacija apie mobiliąją darbo sritį Sąskaitos faktūros tvirtinimas Šioje darbo srityje pateikiamas sąskaitų faktūrų, kurios buvo jums priskirtos tiekėjo SF antraštės darbo eigos procese, sąrašas.
+description: Šioje temoje pateikiama informacija apie mobiliąją darbo sritį Sąskaitos faktūros tvirtinimas
 author: abruer
-manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 8d4b40c7ce8939248e85b6b6f3d359bd16e35b0d
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
-ms.translationtype: HT
+ms.openlocfilehash: 0d19e99776f04eab28eb7371bc0ac90ac046b62af0ad785fd3ab28309cae43ab
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683413"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6759985"
 ---
 # <a name="invoice-approvals-mobile-workspace"></a>Mobilioji darbo sritis Sąskaitos faktūros tvirtinimas
 
@@ -74,7 +72,7 @@ Mobiliosios programos „Finance and Operations“ atsisiuntimas ir diegimas.
 3.  Kai prisijungsite pirmą kartą, bus rodomas raginimas įvesti savo vartotojo vardą ir slaptažodį. Įveskite savo kredencialus.
 4.  Prisijungus rodomos galimos jūsų įmonės darbo sritys. Atkreipkite dėmesį, kad sistemos administratoriui paskelbus naują darbo sritį vėliau turėsite atnaujinti mobiliųjų darbo sričių sąrašą.
 
-    [![Patraukite norėdami atnaujinti](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
+    [![Atnaujinimas patempiant žemyn.](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
 
 ## <a name="approve-invoices-by-using-the-invoice-approvals-mobile-workspace"></a>Sąskaitų faktūrų tvirtinimas naudojant mobiliąją darbo sritį Sąskaitos faktūros tvirtinimas
 1.  Savo mobiliajame įrenginyje pasirinkite darbo sritį **Sąskaitos faktūros tvirtinimas**.
@@ -86,3 +84,6 @@ Mobiliosios programos „Finance and Operations“ atsisiuntimas ir diegimas.
 7.  Pasirinkite **Priedai**, kad peržiūrėtumėte prie sąskaitos faktūros pridėtas pastabas ar failus.
 8.  Puslapyje **Sąskaitos faktūros informacija** pasirinkite atitinkamą darbo eigos veiksmą, kad užbaigtumėte savo peržiūros procesą.
 9.  Pasirinkite **Atlikta**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

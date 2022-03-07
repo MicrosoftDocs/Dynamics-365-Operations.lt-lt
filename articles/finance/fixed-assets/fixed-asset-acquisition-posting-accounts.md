@@ -1,10 +1,12 @@
 ---
 title: Ilgalaikio turto įsigijimo registravimo sąskaitos
 description: Šiame straipsnyje paaiškinama, kaip nustatyti turto įgijimo DK registravimo sąskaitas.
-author: moaamer
+author: ShylaThompson
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetPosting
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: roschlom
 ms.custom: 23021
 ms.assetid: d7e86f72-95db-4423-9b04-761e9536a959
 ms.search.region: Global
-ms.author: moaamer
+ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7718ab6ad40dd135a79d2d07def19465aef68b33
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
-ms.translationtype: MT
+ms.openlocfilehash: fa0d73790a20f3fe5bb76b87e635b1f16e034479
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7675029"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4976121"
 ---
 # <a name="fixed-asset-acquisition-posting-accounts"></a>Ilgalaikio turto įsigijimo registravimo sąskaitos
 
@@ -42,6 +44,3 @@ Norėdami gauti daugiau informacijos, žr. [Turto pirkimas įsigyjant](acquire-a
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

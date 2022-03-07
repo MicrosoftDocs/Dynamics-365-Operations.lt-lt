@@ -2,11 +2,9 @@
 title: Perklasifikuoti ilgalaikį turtą
 description: Norėdami perklasifikuoti ilgalaikį turtą, turite perkelti jį į naują ilgalaikio turto grupę arba toje pačioje grupėje priskirti jam naują ilgalaikio turto numerį.
 author: saraschi2
-manager: AnnBe
 ms.date: 05/14/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4cfc1425aca7a62205e0c7c50237f206a179a0e7
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 8935213c4629de408a48df5e54a2122324e1b3e7
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4968859"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5823937"
 ---
 # <a name="reclassify-fixed-assets"></a>Perklasifikuoti ilgalaikį turtą
 
@@ -45,3 +43,6 @@ Atlikite šiuos veiksmus, norėdami perklasifikuoti ilgalaikį turtą:
 5. Lauke **Perklasifikavimo data** įveskite datą.
 6. Lauke **Kvitų serijos** įveskite arba pasirinkite reikšmę.
 7. Spustelėkite **Gerai**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

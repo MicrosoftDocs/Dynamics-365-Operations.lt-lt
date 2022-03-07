@@ -1,7 +1,7 @@
 ---
 title: Apskaitos šaltinių naršyklė
 description: Šiame straipsnyje pateikiama informacija apie Apskaitos šaltinių naršyklę, kurią galite naudoti Didžiosios knygos apskaitos įrašų šaltinio informacijos išsamiai analizei atlikti.
-author: rcarlson
+author: ShylaThompson
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ab098aa36d6fa6c34beaaa31ecfbb1eb47840e343d7dee3d9cd3034d6ff8f9c8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4624a740538493c247b6c3a0f051ed6208c52504
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6749203"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5820936"
 ---
 # <a name="accounting-source-explorer"></a>Apskaitos šaltinių naršyklė
 
@@ -46,10 +46,8 @@ Apie šaltinio dokumentus, kurie naudoja šaltinio dokumentų nuorodos tapatybė
 
 Apskaitos šaltinių naršyklėje nuo šių dokumentų taip pat galima pereiti prie faktinio šaltinio dokumento.
 
-> [!NOTE]
-> Pradedant 10.0.20 versija, mygtukas **Naujinti** suteikia du papildomus diapazonus, skirtus apriboti pradinę užklausą, kuri vykdoma norint įvesti duomenis puslapyje. Šie papildomi diapazonai galimi ir 10.0.19 versijoje kaip tarnybos atnaujinimas. Buvo įtraukti šie laukai:
->
-> - Nuo kvito, Iki kvito
-> - Iš pagrindinės sąskaitos, Į pagrindinę sąskaitą
+
+
+
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,15 +2,12 @@
 title: Elektroninio kasos aparato (EKA) komisinių sekimas naudojant pardavimo grupes
 description: Mažmeninėje prekyboje įprasta sekti pardavimus pagal su klientu dirbusį atstovą, kuris teikė pagalbą, atliko papildomą pardavimą, kryžminį pardavimą ir operacijos apdorojimą.
 author: jblucher
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 261234
 ms.assetid: 7cd68ecc-cc09-48ab-8cb8-48d5c304effa
 ms.search.region: global
@@ -18,12 +15,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: afbf69c072ae205e973203d97a5fbca7504ae04f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: ca77ad5564cc93e9fcf335b5a49548f91c7c13face41fd73477ae4083f78be57
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4414232"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6770914"
 ---
 # <a name="track-commissions-in-the-point-of-sale-pos-by-using-sales-groups"></a>Elektroninio kasos aparato (EKA) komisinių sekimas naudojant pardavimo grupes
 
@@ -72,7 +69,7 @@ Yra keletas parduotuvės funkcijų šablono parametrų, kuriuos naudojant nustat
 
 ## <a name="displaying-the-sales-representative-information-on-the-pos-transactions-screen"></a>Informacijos apie pardavimo atstovą rodymas EKA operacijų ekrane
 
-EKA operacijos ekraną ir turinį galima konfigūruoti naudojant ekrano išdėstymo kūrimo priemonę ir priskirti ekrano išdėstymus parduotuvėms, registrams arba darbuotojams.Lauką **Pardavimo atstovas** galima įtraukti į Kvitų srities skirtuką Eilutės.Taip bus rodomas kiekvienos operacijos ekrano eilutės nurodytos pardavimo grupės ID.
+EKA operacijos ekraną ir turinį galima konfigūruoti naudojant ekrano išdėstymo kūrimo priemonę ir priskirti ekrano išdėstymus parduotuvėms, registrams arba darbuotojams. Laukelis **Prekybos atstovas** gali būti įtrauktas į eilučių skirtuką kvito juostoje.  Jis rodys konkrečios prekybos grupės ID kiekvienai eilutei transakcijos ekrane.
 
 ## <a name="adding-sales-representative-operations-to-pos-button-grids"></a>Pardavimo atstovo operacijų įtraukimas į EKA mygtukynus
 
@@ -80,11 +77,14 @@ Naudodamiesi EKA vartotojai gali konfigūruoti į ekrano išdėstymus įtraukiam
 
 | Operacija                                 | aprašymas |
 |-------------------------------------------|-------------|
-| Nustatyti pardavimo atstovą eilutėje          | EKA operacijoje rodomas tinkamų parduotuvės pardavimo grupių (ID : Pavadinimas) sąrašas.Šiame sąraše pasirinkus pardavimo grupę („Sales“) nustatoma dabartinės operacijos eilutės vertė. |
+| Nustatyti pardavimo atstovą eilutėje          | EKA operacijoje rodomas tinkamų parduotuvės pardavimo grupių (ID : Pavadinimas) sąrašas. Prekybos grupės pasirinkimas iš sąrašo nustatys vertę esamoje transakcijos eilutėje. |
 | Išvalyti pardavimo atstovą eilutėje        | Atliekant šią EKA operaciją iš dabartinės operacijos eilutės pašalinama dabartinė pardavimo grupės („Sales“) vertė. |
-| Nustatyti operacijos pardavimo atstovą   | EKA operacijoje rodomas tinkamų parduotuvės pardavimo grupių (ID : Pavadinimas) sąrašas.Šiame sąraše pasirinkus pardavimo grupę („Sales“) nustatoma numatytoji dabartinės operacijos vertė. Nustatomos visos esamos eilutės, kurioms nepriskirta pardavimo grupė, taip pat visos vėliau įtrauktos eilutės. |
+| Nustatyti operacijos pardavimo atstovą   | EKA operacijoje rodomas tinkamų parduotuvės pardavimo grupių (ID : Pavadinimas) sąrašas. Prekybos grupės pasirinkimas iš sąrašo nustatys numatytą vertę esamoje transakcijos eilutėje. Nustatomos visos esamos eilutės, kurioms nepriskirta pardavimo grupė, taip pat visos vėliau įtrauktos eilutės. |
 | Išvalyti operacijos pardavimo atstovą | Atliekant šią EKA operaciją iš dabartinės operacijos pašalinama dabartinė numatytoji pardavimo grupės („Sales“) vertė. Tai neturi įtakos kitoms jau esamoms operacijos eilutėms. |
 
 ## <a name="calculating-commissions"></a>Komisinių skaičiavimas
 
-Nurodytų pardavimo grupių darbuotojų komisiniai skaičiuojami registruojant išrašą arba pardavimo užsakymą.Komisinių suma nustatoma pagal pardavimo grupėje nurodytą darbuotojo komisinių dalį ir susijusius klientui ir (arba) operacijos produktams taikomus komisinių skaičiavimo parametrus.
+Nurodytų pardavimo grupių darbuotojų komisiniai skaičiuojami registruojant išrašą arba pardavimo užsakymą. Komisinio mokesčio sąskaita yra nustatoma pagal darbuotojo komisinę dalį, kaip nustatyta prekybos grupėje ir susieto komisinio mokesčio skaičiavimo nustatymuose klientui ir (arba) produktams transakcijoje.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

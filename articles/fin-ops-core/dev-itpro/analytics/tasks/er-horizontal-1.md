@@ -1,12 +1,10 @@
 ---
 title: 'ER: horizontaliai išplečiamų diapazonų naudojimas norint dinamiškai įtraukti stulpelius į „Excel“ ataskaitas (1 dalis – Formato kūrimas)'
-description: Toliau nurodytuose veiksmuose paaiškinta, kaip vartotojas, kuriam priskirtas sistemos administratoriaus arba elektroninių ataskaitų kūrėjo vaidmuo, gali konfigūruoti elektroninių ataskaitų (ER) formatą, norėdamas ataskaitas generuoti kaip OPENXML darbalapių („Excel“) failus, kuriuose būtinus stulpelius galima dinamiškai kurti kaip horizontaliai išplečiamus diapazonus.
+description: Šioje temoje aprašoma, kaip konfigūruoti elektroninių ataskaitų (ER) formatą generuoti ataskaitoms, tokioms kaip OPENXML darbalapių („Excel”) failai. (1 dalis)
 author: NickSelin
-manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 04/23/2021
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERSolutionTable, ERSolutionCreateDropDialog, EROperationDesigner, ERComponentTypeDropDialog
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e36a2238ab4c67a2384d6da2a1e2c767414c21a1
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 2681f243c9f8c0c4dac65caeb55b76b37d1b262838c49696a2371a9c05cc7629
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684504"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6712645"
 ---
 # <a name="er-use-horizontally-expandable-ranges-to-dynamically-add-columns-in-excel-reports-part-1---design-format"></a>ER: horizontaliai išplečiamų diapazonų naudojimas norint dinamiškai įtraukti stulpelius į „Excel“ ataskaitas (1 dalis – Formato kūrimas)
 
@@ -36,7 +34,7 @@ Norėdami atlikti šiuos veiksmus, pirmiausia turite baigti šiuos tris užduoč
 
 „ER: finansinių dimensijų naudojimas kaip duomenų šaltinis (2 dalis. Modelio susiejimas)“
 
-Taip pat turite atsisiųsti ir įrašyti vietinę šablono kopiją su ataskaitos pavyzdžiu, esančią čia [Finansinių ataskaitų pavyzdžių žiniatinklio tarnybos ataskaita](https://go.microsoft.com/fwlink/?linkid=862266).
+Taip pat turite atsisiųsti ir įrašyti vietinę šablono kopiją su ataskaitos pavyzdžiu, esančią čia [Finansinių ataskaitų pavyzdžių žiniatinklio tarnybos ataskaita](https://download.microsoft.com/download/3/1/3/313e2090-bc0a-421f-bf96-c58da9bc0dea/SampleFinDimWsReport.xlsx).
 
 Ši procedūra yra skirta į 1611 „Dynamics 365 for Operations“ versiją įtrauktai funkcijai aprašyti.
 
@@ -148,3 +146,6 @@ Taip pat turite atsisiųsti ir įrašyti vietinę šablono kopiją su ataskaitos
 49. Spustelėkite Įrašyti.
 50. Uždarykite puslapį.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -2,9 +2,11 @@
 title: Tvirtinimas ir perkėlimas
 description: Šioje temoje paaiškinama, kaip naudoti patvirtinimo ir perkėlimo funkciją, leidžiančią vartotojams išsiųsti iš sandėlio krovinius prieš baigiant visus su šiais kroviniais susijusius darbus.
 author: mirzaab
+manager: tfehr
 ms.date: 07/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLoadTemplate,WHSWorkTemplateTable,WHSLoadPlanningWorkbench
 audience: Application User
@@ -12,13 +14,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
-ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 7b487684980f60112d9af6bea02672f7e919c834
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
-ms.translationtype: MT
+ms.dyn365.ops.version: Release 10.0.8
+ms.openlocfilehash: d4e7476e6c1b0ac404caf32f198a4a62e1dd1200
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103594"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5251799"
 ---
 # <a name="confirm-and-transfer"></a>Tvirtinimas ir perkėlimas
 
@@ -45,17 +47,20 @@ Galite skaidyti tik tuos krovinius, kurie atitinka visus šiuos kriterijus:
 
 - Viena ar daugiau krovinio eilučių pakėlė kiekius.
 - Krovinio būsena yra „neįkeltas”.
-- Nėra krovinio eilutės duomenų. (Šie duomenys sukuriami kuriant numerio lentelės konsolidaciją išdėstymo vietoje ir Patvirtinti ir perkelti funkcija nepalaiko numerio lentelės konsolidacijos.)
-- Nėra laukiama atsargų, kurios turi būti supakuotos, pakavimo vietoje. (Toliau *Patvirtinimo ir perkėlimo* funkcija nepalaiko atsargų, kurios buvo išrinktos į packų stotį, bet dar nesupakuotos, nebent supakuoti konteineriai būtų padėti į paėmimo vietas, kuriose sukurtas pakrovimo darbas.)
+- Nėra krovinio eilutės duomenų. (Šie duomenys sukuriami kuriant numerio lentelės konsolidaciją išdėstymo vietoje ir *Patvirtinti ir perkelti* funkcija nepalaiko numerio lentelės konsolidacijos.)
+- Nėra laukiama atsargų, kurios turi būti supakuotos, pakavimo vietoje. (*Patvirtinti ir perkelti* funkcija nepalaiko atsargų, paimtų į paketo stotį, bet kurios dar nebuvo supakuotos.)
 
 > [!NOTE]
 > Ši funkcija skiriasi nuo transportavimo krovinio funkcijos, kuri turėtų būti naudojama sandėliuose, kurie niekuomet neplanuoja ir nekuria krovinių prieš paėmimą, bet vietoj to atlaisvina vietos transportavimui, kai paėmimas baigiamas.
 >
 > Naudokite *Patvirtinti ir perkelti* funkciją tokiose situacijose, kai kroviniai paprastai planuojami ir sukuriami iš anksto, tačiau kartais pasitaiko išimčių, kai krovinys netelpa į transporto priemonę (pvz., sunkvežimį).
 
-## <a name="turn-the-confirm-and-transfer-feature-on-or-off"></a>Patvirtinimo ir perkėlimo funkcijos išjungimas
+## <a name="turn-on-confirm-and-transfer"></a>Įjungti patvirtinti ir perkelti
 
-Norint naudotis šioje temoje aprašytomis funkcijomis, *jūsų* sistemoje turi būti įjungta patvirtinimo ir perkėlimo funkcija. Kaip ir tiekimo grandinės valdymas 10.0.25 ši funkcija yra privaloma ir jos išjungti negalima. Jei naudojate senesnę nei 10.0.25 versiją, *·*[tada](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) administratoriai gali įjungti arba išjungti šią funkciją ieškodami funkcijų valdymo darbo srityje funkcijos Patvirtinti ir perkelti.
+Prieš naudojantis *Patvirtinti ir perkelti* funkciją, įjunkite ją savo sistemoje. Administratoriai gali naudoti [funkcijų valdymo](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) parametrus, kad patikrintų funkcijos būseną ir įjungtų ją, kai reikia. Darbo srityje **Funkcijų valdymas** ši funkcija yra nurodyta toliau pateikiamu būdu.
+
+- **Modulis:** *sandėlio valdymas*
+- **Funkcijos pavadinimas:** *Patvirtinti ir perkelti*
 
 ## <a name="set-up-confirm-and-transfer"></a>Nustatyti patvirtinti ir perkelti
 
@@ -128,14 +133,14 @@ Norėdami sukurti tinkamą krovinį, pirmiausia kurkite tris pardavimų užsakym
 1. Pakartokite 1–4 veiksmus, kad pridėtumėte antrą pardavimo užsakymą tam pačiam klientui ir sandėliui.
 1. Pridėkite dvi pardavimų eilutes, turinčias šias vertes. Pridėjus kiekvieną eilutę, rezervuokite atsargas kaip aprašyta 6-8 veiksmuose.
 
-    - **1-a eilutė:** nustatykite lauką **Prekės numeris** į *M9200*, lauką **Kiekis** į *30* ir lauką **Vienetas** į *už vnt*.
-    - **2-a eilutė:** nustatykite lauką **Prekės numeris** į *M9201*, lauką **Kiekis** į *20* ir lauką **Vienetas** į *už vnt*.
+    - **1-a eilutė:** nustatykite lauką **Prekės numeris** į *M9200*, lauką **Kiekis** į *30* ir lauką **Vienetas** į *už vnt.*
+    - **2-a eilutė:** nustatykite lauką **Prekės numeris** į *M9201*, lauką **Kiekis** į *20* ir lauką **Vienetas** į *už vnt.*
 
 1. Pakartokite 1–4 veiksmus, kad pridėtumėte trečią pardavimo užsakymą tam pačiam klientui ir sandėliui.
 1. Pridėkite dvi pardavimų eilutes, turinčias šias vertes. Pridėjus kiekvieną eilutę, rezervuokite atsargas kaip aprašyta 6-8 veiksmuose.
 
-    - **1-a eilutė:** nustatykite lauką **Prekės numeris** į *M9201*, lauką **Kiekis** į *20* ir lauką **Vienetas** į *už vnt*.
-    - **2-a eilutė:** nustatykite lauką **Prekės numeris** į *M9202*, lauką **Kiekis** į *60* ir lauką **Vienetas** į *už vnt*.
+    - **1-a eilutė:** nustatykite lauką **Prekės numeris** į *M9201*, lauką **Kiekis** į *20* ir lauką **Vienetas** į *už vnt.*
+    - **2-a eilutė:** nustatykite lauką **Prekės numeris** į *M9202*, lauką **Kiekis** į *60* ir lauką **Vienetas** į *už vnt.*
 
 #### <a name="load-planning-workbench"></a>Krovinio planavimo darbo sritis
 

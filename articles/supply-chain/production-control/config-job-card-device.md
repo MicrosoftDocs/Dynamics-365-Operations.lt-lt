@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: 4c7a9585d96a1e08790e0f3c972e704971f27dc0
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
-ms.translationtype: MT
+ms.openlocfilehash: 0382e34664f20389c43e8dec4437f0078fa1f60a
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103443"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7777745"
 ---
 # <a name="configure-job-card-for-devices"></a>Konfigūruoti įrenginių užduoties kortelę
 
@@ -34,19 +34,21 @@ Norėdami naudoti kai kuriuos šioje temoje aprašytus parametrus, juos turite �
 
 Norėdami naudoti šią funkciją, įjunkite toliau išvardytas funkcijas puslapyje [funkcijų valdymas](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) (nurodyta tvarka):
 
-1. *Užbaigtos ataskaitos numerio lentelė įtraukta į užduoties kortelės įrenginį*<br>(Kaip ir tiekimo grandinės valdymo versija 10.0.21, ši funkcija įjungiama pagal numatytąjį nustatymą. Kaip ir tiekimo grandinės valdymo versija 10.0.25, ši funkcija yra privaloma.)
-1. *Įgalinkite automatinį numerio lentelės numerio generavimą, kai Užduoties kortelės įrenginyje pranešama apie pabaigimą*<br>(Kaip ir tiekimo grandinės valdymo versija 10.0.25, ši funkcija yra privaloma.)
+1. Numerio lentelė, skirta skelbimui, kad baigta, įtraukta į užduoties kortelės įrenginį (kaip tiekimo grandinės valdymo versija 10.0.21, ši funkcija įjungta pagal numatytuosius nustatymus).
+1. Įgalinkite automatinį numerio lentelės numerio generavimą, kai Užduoties kortelės įrenginyje pranešama apie pabaigimą
 
 ### <a name="print-label"></a>Spausdinti žymą
 
 Norėdami naudoti šią funkciją, įjunkite toliau išvardytas funkcijas puslapyje [funkcijų valdymas](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) (nurodyta tvarka):
 
-1. *Užbaigtos ataskaitos numerio lentelė įtraukta į užduoties kortelės įrenginį*<br>(Kaip ir tiekimo grandinės valdymo versija 10.0.21, ši funkcija įjungiama pagal numatytąjį nustatymą. Kaip ir tiekimo grandinės valdymo versija 10.0.25, ši funkcija yra privaloma.)
-1. *Spausdinti etiketę iš užduoties kortelės įrenginio*<br>(Kaip ir tiekimo grandinės valdymo versija 10.0.25, ši funkcija yra privaloma.)
+1. Numerio lentelė, skirta skelbimui, kad baigta, įtraukta į užduoties kortelės įrenginį (kaip tiekimo grandinės valdymo versija 10.0.21, ši funkcija įjungta pagal numatytuosius nustatymus.)
+1. Spausdinti etiketę iš užduoties kortelės įrenginio
 
 ### <a name="allow-locking-of-touch-screen"></a>Leisti užrakinti jutiklinį ekraną
 
-Kaip ir tiekimo grandinės valdymo versija 10.0.21 ši funkcija įjungiama pagal numatytąjį nustatymą. Kaip ir tiekimo grandinės valdymas 10.0.25 ši funkcija yra privaloma ir jos išjungti negalima. Jei naudojate senesnę nei 10.0.25 versiją, tada administratoriai gali įjungti arba išjungti šią funkciją ieškodami funkcijos, kad užduoties kortelės įrenginys *ir užduoties kortelių mokėjimo terminalas būtų užrakinti taip, kad būtų galima juos*[dearizuoti](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) funkcijų valdymo darbo srityje.
+Kaip tiekimo grandinės valdymo versija 10.0.21, ši funkcija yra įjungta pagal numatytuosius nustatymus. Jei norite jį naudoti, įsitikinkite, kad funkcijų valdymo metu įjungta [ši](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) funkcija:
+
+- Funkcija skirta užrakinti darbo kortelės prietaisą ir darbo kortelės terminalą jų valymui
 
 ## <a name="manage-your-device-configurations"></a>Jūsų įrenginio konfigūracijų tvarkymas
 

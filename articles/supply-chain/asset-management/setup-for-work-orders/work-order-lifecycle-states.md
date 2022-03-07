@@ -1,12 +1,10 @@
 ---
 title: Darbo užsakymų ciklo būsenos
 description: Šioje temoje paaiškinamos darbo užsakymų ciklo būsenos modulyje Turto valdymas.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/13/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetWorkOrderLifecycleState, EntAssetWorkOrderLifecycleModel
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 2a8052942ff97c9e8033d5915723e82c42f964c8
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 04e0bb3b1b99299c344a393e72cbe6f380e380af
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5021584"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5825619"
 ---
 # <a name="work-order-lifecycle-states"></a>Darbo užsakymų ciklo būsenos
 
@@ -138,3 +136,6 @@ Sukūrus reikiamas darbo užsakymų ciklo būsenas, jas galima suskirstyti į da
 9. Darbo užsakymo ciklo modelį įrašykite.
 
 ![Darbo užsakymo ciklo modelių puslapis](media/15-setup-for-work-orders.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

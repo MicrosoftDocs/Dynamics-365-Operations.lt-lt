@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: da835306e523129fb667153ff6a5fbe574f2769649639595c90af603f1258e4a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 248de8e12703a84482b67d0899857a6efb33531c
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6758004"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6023444"
 ---
 # <a name="update-certificate-numbers-and-dates-for-tds-transactions"></a>Naujinkite sertifikato numerius ir datas TDS operacijoms
 
@@ -33,7 +33,7 @@ Norėdami naujinti sertifikatų numerius ir datas, atlikite šiuos veiksmus TDS 
 
 1. Eikite į **Mokestis \> Deklaracijos \> Išskaitomas mokestis \> Naujintas sertifikatas**.
 
-    [![Atnaujinti sertifikato puslapį.](./media/apac-ind-TDS-45.png)](./media/apac-ind-TDS-45.png)
+    [![Atnaujinti sertifikato puslapį](./media/apac-ind-TDS-45.png)](./media/apac-ind-TDS-45.png)
 
 2. Skirtuko **Atnaujinti sertifikatą** puslapyje, skyriuje **Pasirinkti**, mokesčių **tipo lauke** pasirinkite **TDS**.
 3. Lauke **Sertifikato numeris** pasirinkite kliento arba tiekėjo TDS sertifikato numerį.
@@ -60,4 +60,4 @@ Norėdami naujinti sertifikatų numerius ir datas, atlikite šiuos veiksmus TDS 
 8. Pasirinkite **Atnaujinti**, kad būtų **atnaujinti sertifikato** numerio **ir sertifikato datos** laukai, skirti TDS operacijoms apatiniame tinklelyje.
 10. Eikite į **Mokesčiai \> Netiesioginiai mokesčiai \> Išskaitomi mokesčiai \> Atkuriami sertifikatai** ir rinkitės **Užklausa** orėdami peržiūrėti atnaujintas operacijų eilutes, kuriose yra naujų sertifikatų numeriai **Sertifikatų operacijos** puslapyje.
 
-    [![Sertifikato operacijų sąrašo puslapis.](./media/apac-ind-TDS-46.png)](./media/apac-ind-TDS-46.png)
+    [![Sertifikato operacijų sąrašo puslapis](./media/apac-ind-TDS-46.png)](./media/apac-ind-TDS-46.png)

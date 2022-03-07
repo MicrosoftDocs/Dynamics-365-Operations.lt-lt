@@ -2,16 +2,13 @@
 title: Atsisakyti asmeniniams poreikiams pritaikytų rekomendacijų
 description: Šioje temoje pateikiama informacija, kaip galite leisti klientams atsisakyti asmeniniams poreikiams pritaikytų rekomendacijų, naudojant „Microsoft Dynamics 365 Commerce“.
 author: bebeale
-manager: AnnBe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: ''
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,20 +16,18 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 6a64b45e1326673dd84c3c705491c9c100cdd069
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: f634e39fe8ca7ffecfd1952933cb82e1bfe7d5a8eec28a61e1d78d21847f95f6
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4414319"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6772942"
 ---
-# <a name="opt-out-of-personalized-recommendations"></a>Atsisakyti asmeniniams poreikiams pritaikytų rekomendacijų
+# <a name="opt-out-of-personalized-recommendations"></a>Personalizuotų rekomendacijų atsisakymas
 
 [!include [banner](includes/banner.md)]
 
 Šioje temoje pateikiama informacija, kaip galite leisti klientams atsisakyti asmeniniams poreikiams pritaikytų rekomendacijų, naudojant „Microsoft Dynamics 365 Commerce“.
-
-## <a name="overview"></a>Peržiūrėti
 
 Kuriant paskyrą, nauji klientai automatiškai gauna asmeniniams poreikiams pritaikytas rekomendacijas. Tačiau „Dynamics 365 Commerce“ siūlo įvairius būdus, kaip mažmenininkams leisti vartotojams atsisakyti gauti šias rekomendacijas ir apriboti jų asmeninių duomenų tvarkymą. Autentifikuoti vartotojai, kurie atsisako gauti asmeniniams poreikiams pritaikytas rekomendacijas, iškart nustos matyti asmeniniams poreikiams pritaikytus sąrašus. Be to, visi asmeniniai duomenys, kurie renkami asmeninių poreikių pritaikymui, bus pašalinti iš asmeniniams poreikiams pritaikytų rekomendacijų modelių.
 
@@ -49,11 +44,11 @@ Mažmenininkai gali atsisakyti asmeniniams poreikiams pritaikytų rekomendacijų
 1. Pagrindiniame operacijų skyriaus puslapyje ieškokite **visi klientai**.
 1. Ieškokite ir pasirinkite klientą, tada pasirinkite „FastTab“ **Mažmeninė prekyba**.
 
-    ![„FastTab“ mažmeninė prekyba](./media/Disablepersonalizationpart1.png)
+    ![„FastTab“ mažmeninė prekyba.](./media/Disablepersonalizationpart1.png)
 
 1. Būdami **Privatumas**, nustatykite parinktį **Išjungti asmeninius poreikius** į **Taip**.
 
-    ![Privatumo nustatymai](./media/Disablepersonalizationpart2.png)
+    ![Privatumo nustatymai.](./media/Disablepersonalizationpart2.png)
 
 1. Pasirinkite **Išsaugoti** ir uždarykite puslapį.
 
@@ -104,3 +99,6 @@ Toliau parodytame pavyzdyje matoma, kaip mažmenininkas gali įvykdyti šią už
 [Rekomendacijų su demonstraciniais duomenimis kūrimas](product-recommendations-demo-data.md)
 
 [DUK apie produktų rekomendacijas](faq-recommendations.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

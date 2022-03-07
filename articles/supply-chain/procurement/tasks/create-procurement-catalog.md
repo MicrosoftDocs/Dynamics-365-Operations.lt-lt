@@ -1,26 +1,24 @@
 ---
 title: Įsigijimo katalogo kūrimas
 description: Šioje temoje aiškinama, kaip sukurti darbo eigą.
-author: RichardLuan
-manager: tfehr
+author: Henrikan
 ms.date: 07/19/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProcCategoryHierarchyManagement, CatProcureCatalogListPage, CatProcureCatalogCreate, CatProcureCatalogEdit, SysPolicyListPage, SysPolicy, CatCatalogPolicyRule, PurchReqTableListPage, PurchReqCreate, PurchReqTable, PurchReqAddItem
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: riluan
+ms.author: henrikan
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: eaf8b8d8b369aa704344d6984a0f111af6e4285b
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
-ms.translationtype: HT
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: ef3747874d43143925bd08dbecc2d60f4e38701a
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5016482"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7565428"
 ---
 # <a name="create-a-procurement-catalog"></a>Įsigijimo katalogo kūrimas
 
@@ -65,3 +63,6 @@ ms.locfileid: "5016482"
 7. Pasirinkite **Įtraukti į eilutes**.
 8. Pasirinkite **Gerai**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

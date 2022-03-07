@@ -1,46 +1,51 @@
 ---
 title: Skolinti prekę darbuotojui
 description: Ši procedūra parodo, kaip paskolinti prekę darbuotojui ir įrašyti prekę grąžinantį darbuotoją.
-author: andreabichsel
-manager: AnnBe
-ms.date: 08/29/2018
+author: twheeloc
+ms.date: 11/03/2021
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HcmPersonLoan, HcmPersonLookup, HcmPersonnelManagementWorkspace
 audience: Application User
-ms.reviewer: anbichse
-ms.search.scope: Core, Operations
+ms.search.scope: Human Resources
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e9a80f5ebca69d1dc6c286367edfe81f21a7bc9e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 6356b50e0e3c337c88de86d271bc4438fdd451db
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419708"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070230"
 ---
 # <a name="loan-item-to-a-worker"></a>Skolinti prekę darbuotojui
 
 
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
-Ši procedūra parodo, kaip paskolinti prekę darbuotojui ir įrašyti prekę grąžinantį darbuotoją. Darbuotojai taip pat gali prašyti paskolinti prekių per savo darbuotojų savitarnos puslapius. Kuriant šią procedūrą naudojama demonstracinių duomenų įmonė yra USMF.
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 
-## <a name="loan-item-to-a-worker"></a>Skolinti prekę darbuotojui
-1. Pasirinkite Personalas > Darbuotojai > Skolinamos prekės > Paskolinta įranga.
-2. Spustelėkite Naujas.
-3. Lauke Asmuo įveskite arba pasirinkite reikšmę.
-4. Lauke Panaudos objektas įveskite arba pasirinkite reikšmę.
-5. Lauke „Planuojamas grąžinimas“ įveskite datą, kada darbuotojas turi grąžinti paskolintą prekę.
-6. Spustelėkite Įrašyti.
+
+Ši procedūra parodo, kaip paskolinti prekę darbuotojui ir įrašyti darbuotojo grąžintą paskolos prekę. Darbuotojai taip pat gali prašyti paskolinti daiktus per savo **Darbuotojų savitarna** puslapį. The **USMF** šiai procedūrai sukurti buvo pasitelkta demonstracinių duomenų įmonė.
+
+
+## <a name="loan-an-item-to-a-worker"></a>Paskolinti daiktą darbuotojui
+
+1. Eiti į **Žmogiškieji ištekliai \> Darbininkai \> Paskolos daiktai \> Paskolinta įranga**.
+2. Pasirinkite **Nauja**.
+3. Viduje konors **Asmuo** lauką, įveskite arba pasirinkite reikšmę.
+4. Viduje konors **Paskolos daiktas** lauke įveskite arba pasirinkite reikšmę.
+5. Viduje konors **Planuojamas sugrįžimas** laukelyje įveskite datą, kada darbuotojas turi grąžinti paskolos prekę.
+6. Pasirinkite **Įrašyti**.
 7. Uždarykite puslapį.
 
 ## <a name="return-a-loan-item"></a>Grąžinti paskolintą prekę
-1. Pasirinkite Personalas > Darbuotojai > Skolinamos prekės > Paskolinta įranga.
-2. Spustelėkite Redaguoti.
-3. Lauke „Faktinis grąžinimas“ įveskite datą.
 
+1. Eiti į **Žmogiškieji ištekliai \> Darbininkai \> Paskolos daiktai \> Paskolinta įranga**.
+2. Pasirinkite **Redaguoti**.
+3. Viduje konors **Faktinė grąža** lauke įveskite datą.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

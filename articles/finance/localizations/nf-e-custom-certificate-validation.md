@@ -2,9 +2,11 @@
 title: NF-e pasirinktinio sertifikato patvirtinimas
 description: Šioje temoje pateikiama informacija apie NF-e pasirinktinio sertifikato suaktyvinimą ir naudojimą.
 author: gionoder
-ms.date: 07/29/2021
+manager: AnnBe
+ms.date: 10/06/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -15,19 +17,21 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 8144e16b127bdbe954ef44f52c5ac71689a2036e6085e9a4ccc8bb17f91ae9b8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f13e8b8229bbd9e174e5bde7858a468048ba309b
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6755596"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4990091"
 ---
 # <a name="nf-e-custom-certificate-validation"></a>NF-e pasirinktinio sertifikato patvirtinimas
 
 [!include [banner](../includes/banner.md)]
 
-Pagal **numatytuosius nustatymus serverio** autentifikavimo paskirties ypatybė iš sertifikatų, kuriuos išdavė brazilijos šakninio sertifikato institucija, turi būti įjungta rankiniu būdu. Kai kuriais atvejais automatinio sertifikato atnaujinimo funkcija gali išjungti šią ypatybę, kad ji nebūtų suaktyvinta. Jei taip nutinka, tai turi įtakos TLS ryšiui, kuris tampa nebepatikimas. Tai taip pat turi įtakos galimybei išduoti Brazilijos elektroninį mokesčių dokumento modelį 55 (NF-e) gamybos aplinkoms Minas Žeraiso (MG) ir Paranos (PR) valstijose.
+Įjungus NF-e pasirinktinio sertifikato tikrinimo funkciją, pasirinktinis patvirtinimas leidžia palaikyti ryšį su žiniatinklio tarnybomis. Šis ryšys reikalingas norint perduoti NF-e ir vykdyti SEFAZ autorizavimą.
 
-Norėdami įjungti **NF-e pasirinktinio sertifikato tikrinimo pataisą**, eikite į **Funkcijų valdymas**. Ši funkcija leidžia alternatyvų V5 ir V10 sertifikatų patikrinimo sprendimą ir leidžia patikimą ryšį su tinklo paslaugomis, o tai būtina norint užtikrinti saugų NF-e perdavimą ir autorizavimo gavimą iš SEFAZ.
+Sertifikato V5 ypatybę **Serverio autentifikavimo paskirtis** suteikia Brazilijos šakninio sertifikato institucija. Esant numatytiesiems parametrams, ši ypatybė yra išjungta ir turi būti įjungta rankiniu būdu. Kai kuriais atvejais automatinio sertifikato atnaujinimo funkcija gali išjungti šią ypatybę, kad ji nebūtų suaktyvinta. Jei taip nutinka, tai turi įtakos TLS ryšiui, kuris tampa nebepatikimas. Tai taip pat turi įtakos galimybei išduoti NF-e gamybos aplinkoms Minas Žeraiso (MG) ir Paranos (PR) valstijose.
 
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+Šis naujinimas leidžia naudoti alternatyvų sprendimą sertifikato patvirtinimui, o tai reiškia galimybę užmegzti saugų ryšį.
+
+

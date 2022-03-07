@@ -1,12 +1,10 @@
 ---
 title: Kliento mokėjimo prognozių naudojimas (peržiūros versija)
-description: Šioje temoje kalbama apie būtinuosius komponentus ir bendruosius veiksmus, kurių reikia norint naudoti bandomąją finansinių įžvalgų versiją.
+description: Šioje temoje kalbama apie būtinuosius komponentus ir bendruosius veiksmus, kurių reikia norint naudoti bandomąją „Finance insights” versiją.
 author: ShivamPandey-msft
-manager: AnnBe
 ms.date: 11/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-11-16
 ms.dyn365.ops.version: AX 10.0.14
-ms.openlocfilehash: e0445046d8016dfa2c02c1ff1a05bdd148f9409a
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 21c5236b6d7e7ce7bd968f1511723a3646fe7a29
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4969258"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897797"
 ---
 # <a name="use-customer-payment-predictions-preview"></a>Kliento mokėjimo prognozių naudojimas (peržiūros versija)
 
@@ -51,10 +49,10 @@ Sąrašo puslapyje **Mokėjimo prognozavimas pagal operaciją** galite peržiūr
 Srityje **Susijusi informacija** dešinėje puslapio pusėje rodoma daugiau informacijos apie prognozes.
 
 - Tinklelyje pasirinkus operaciją, „FastTab“ **Mokėjimo prognozė** rodoma išsami informacija apie mokėjimo prognozes talpyklose **Laiku**, **Vėlavimas** ir **Žymus vėlavimas**. Skiltyje **Svarbiausi veiksniai** pateikiami pagrindiniai veiksniai, lemiantys prognozes. Svarbiausi veiksniai yra pasirinktos operacijos ir (arba) tos operacijos kliento atributai.
-- „FastTab“ **Customer Insights** nurodo esamą pasirinktos operacijos kliento SF, mokėjimo ir surinkimo statistiką.
+- „FastTab“ **„Customer Insights”** nurodo esamą pasirinktos operacijos kliento SF, mokėjimo ir surinkimo statistiką.
 - „FastTab“ **Kliento retrospektyva** rodo kliento mokėjimo retrospektyvą talpyklose **Laiku**, **Vėlavimas** ir **Žymus vėlavimas**.
 
-Duomenys, esantys skiltyje **Svarbiausi veiksniai** ir „FastTab“ **Customer Insights** bei **Klientų retrospektyva**, padeda paaiškinti mokėjimo prognozes. Tai gali padėti padidinti jūsų pasitikėjimą prognozių veiksmingumu.
+Duomenys, esantys skiltyje **Svarbiausi veiksniai** ir „FastTab“ **„Customer Insights”** bei **Klientų retrospektyva**, padeda paaiškinti mokėjimo prognozes. Tai gali padėti padidinti jūsų pasitikėjimą prognozių veiksmingumu.
 
 [![Grafinių duomenų, susijusių su mokėjimais, indikatoriai srityje Susijusi informacija](./media/payment-prediction-gauges.png)](./media/payment-prediction-gauges.png)
 
@@ -92,7 +90,7 @@ Duomenys, esantys skiltyje **Svarbiausi veiksniai** ir „FastTab“ **Customer 
 
 ## <a name="improving-the-accuracy-of-payment-predictions"></a>Mokėjimo prognozių tikslinimas
 
-Mokėjimo prognozių tikslumą galite peržiūrėti pasirinkę **Kreditas ir surinkimai \> Sąranka \>Finansinės įžvalgos \> Finansinių įžvalgų parametrai**. Skirtuke **Klientų mokėjimo įžvalgos**, skiltyje **Prognozės modelis** rodomas prognozės modelio tikslumas kaip procentinė dalis.
+Mokėjimo prognozių tikslumą galite peržiūrėti pasirinkę **Kreditas ir surinkimai \> Sąranka \> „Finance Insights” \> „Finance Insights” parametrai**. Skirtuke **Klientų mokėjimo įžvalgos**, skiltyje **Prognozės modelis** rodomas prognozės modelio tikslumas kaip procentinė dalis.
 
 [![Mokėjimo prognozių tikslumas](./media/finance-insights-parameters-accuracy-2nd.png)](./media/finance-insights-parameters-accuracy-2nd.png)
 
@@ -102,10 +100,13 @@ Jei jūsų netenkina tikslumas, pasirinkite saitą **Tikslinti modelį**, kad at
 
 ## <a name="release-details"></a>Išleidimo informacija
 
-Bandomąją modulio Finansinės įžvalgos viešosios peržiūros versiją galima įdiegti Jungtinėse Amerikos Valstijose, Europoje ir Jungtinėje Karalystėje. „Microsoft“ palaipsniui į palaikomų regionų sąrašą įtraukia daugiau regionų.
+Bandomąją „Finance Insights” viešosios peržiūros versiją galima įdiegti Jungtinėse Amerikos Valstijose, Europoje ir Jungtinėje Karalystėje. „Microsoft“ palaipsniui į palaikomų regionų sąrašą įtraukia daugiau regionų.
 
-Viešosios peržiūros versijos funkcijos gali ir turi būti įjungtos tik 2 pakopos smėlio dėžės aplinkose. Sąrankos ir DI modelių, sukurtų smėlio dėžės aplinkoje, negalima perkelti į gamybos aplinką. Norėdami gauti daugiau informacijos, žr. [„Microsoft Dynamics 365“ peržiūros versijų papildomos naudojimo sąlygos](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-terms).
+Viešosios peržiūros versijos funkcijos gali ir turi būti įjungtos tik 2 pakopos smėlio dėžės aplinkose. Sąrankos ir DI modelių, sukurtų smėlio dėžės aplinkoje, negalima perkelti į gamybos aplinką. Norėdami gauti daugiau informacijos, žr. [„Microsoft Dynamics 365“ peržiūros versijų papildomos naudojimo sąlygos](../../fin-ops-core/fin-ops/get-started/public-preview-terms.md).
 
 ## <a name="privacy-notice"></a>Privatumo pranešimas
 
 Peržiūros versijos (1) gali naudoti mažiau privatumo ir mažiau saugos priemonių nei „Dynamics 365 Finance and Operations“ paslauga, (2) jos nėra įtrauktos į aptarnavimo lygio sutartį (SLA), (3) jos neturėtų būti naudojamos apdoroti asmens duomenims ar kitiems duomenims, kuriems taikomi teisiniai ir atitikimo teisės aktai (4) ir jų palaikymas yra ribotas.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

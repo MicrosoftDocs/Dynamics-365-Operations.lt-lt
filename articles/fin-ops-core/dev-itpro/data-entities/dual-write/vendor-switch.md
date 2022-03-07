@@ -1,35 +1,26 @@
 ---
 title: Perjungti iš vieno tiekėjo dizaino į kitą
-description: Šioje temoje aprašoma, kaip perjungti tiekėjo duomenų integravimą programose „Finance and Operations“ ir „Dataverse“.
+description: Šioje temoje aprašoma, kaip perjungti tiekėjo duomenų integravimą tarp „Finance and Operations“ programų ir Dataverse.
 author: RamaKrishnamoorthy
-manager: AnnBe
 ms.date: 09/20/2019
 ms.topic: article
-ms.prod: ''
-ms.service: dynamics-ax-applications
-ms.technology: ''
-ms.search.form: ''
 audience: Application User, IT Pro
-ms.reviewer: rhaertle
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: tfehr
 ms.search.region: global
-ms.search.industry: ''
 ms.author: ramasri
-ms.dyn365.ops.version: ''
-ms.search.validFrom: 2019-09-20
-ms.openlocfilehash: d2c22123d5f05945b34eb107c5b912852aec387a
-ms.sourcegitcommit: 7e1be696894731e1c58074d9b5e9c5b3acf7e52a
-ms.translationtype: HT
+ms.search.validFrom: 2020-01-06
+ms.openlocfilehash: 80de21b5e46e4f274626fa311f16e81312a2f5ab
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4744470"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8062755"
 ---
 # <a name="switch-between-vendor-designs"></a>Perjungimas iš vieno tiekėjo dizaino į kitą
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 
 
@@ -50,14 +41,14 @@ Norėdami sukurti naujus darbo eigos procesus, naudojant darbo eigos proceso ša
 
 1. Sukurkite darbo eigos procesą lentelei **Tiekėjas** ir pasirinkite darbo eigos proceso šabloną **Tiekėjų kūrimas lentelėje Paskyros**. Tada pasirinkite **Gerai**. Šioje darbo eigoje tvarkomas lentelės **Paskyra** tiekėjų kūrimo scenarijus.
 
-    ![Tiekėjų kūrimas darbo eigos proceso lentelėje Klientai](media/create_process.png)
+    ![Tiekėjų kūrimas darbo eigos proceso lentelėje Klientai.](media/create_process.png)
 
 2. Sukurkite darbo eigos procesą lentelei **Tiekėjas** ir pasirinkite darbo eigos proceso šabloną **Atnaujinti tiekėjus lentelėje Paskyros**. Tada pasirinkite **Gerai**. Šioje darbo eigoje tvarkomas lentelės **Paskyra** tiekėjų naujinimo scenarijus.
 3. Sukurkite darbo eigos procesą lentelei **Paskyra** ir pasirinkite darbo eigos proceso šabloną **Tiekėjų kūrimas lentelėje Tiekėjai**.
 4. Sukurkite darbo eigos procesą lentelei **Paskyra** ir pasirinkite darbo eigos proceso šabloną **Tiekėjų atnaujinimas lentelėje Tiekėjai**.
 5. Priklausomai nuo poreikių, darbo eigas galite konfigūruoti kaip realaus laiko arba foninę darbo eigą. Norėdami sukonfigūruoti darbo eigą kaip foninę darbo eigą, pasirinkite **Konvertuoti į foninę darbo eigą**.
 
-    ![Mygtukas „Konvertuoti į foninę darbo eigą“](media/background_workflow.png)
+    ![Mygtukas „Konvertuoti į foninę darbo eigą“.](media/background_workflow.png)
 
 6. Aktyvinkite lentelėms **Paskyra** ir **Tiekėjas** sukurtas darbo eigas, kad pradėtumėte naudoti lentelę **Paskyra** ir galėtumėte saugoti tipo **Organizacija** informaciją tiekėjams.
 
@@ -78,3 +69,6 @@ Norėdami sukurti naujus darbo eigos procesus, naudojant darbo eigos proceso ša
 4. Sukurkite darbo eigos procesą lentelei **Kontaktai** ir pasirinkite šabloną **Tiekėjų atnaujinimas tipo Asmuo lentelėje Tiekėjai**.
 5. Priklausomai nuo poreikių, darbo eigas galite konfigūruoti kaip realaus laiko arba foninę darbo eigą. Norėdami sukonfigūruoti darbo eigą kaip foninę darbo eigą, pasirinkite **Konvertuoti į foninę darbo eigą**.
 6. Aktyvinkite lentelėms **Kontaktai** ir **Tiekėjas** sukurtas darbo eigas, kad pradėtumėte naudoti lentelę **Kontaktai** ir galėtumėte saugoti tipo **Asmuo** informaciją tiekėjams.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

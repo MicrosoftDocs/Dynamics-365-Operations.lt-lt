@@ -1,12 +1,10 @@
 ---
 title: Darbo valandų valdymas
 description: Šioje temoje paaiškinamas modulio Turto valdymas darbo valandų valdymas.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/23/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetHourControl
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: cc4382d72e032fdfad05f2077ffe8e41e64c6a55
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
-ms.translationtype: HT
+ms.openlocfilehash: 90c4f649cc9ea45341ede923294a7c5a892cd68714db356c3799430d18f5de60
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5018476"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6742781"
 ---
 # <a name="work-hour-control"></a>Darbo valandų valdymas
 
@@ -68,8 +66,11 @@ Toliau pateiktoje ekrano kopijoje rodomas **Turto valandų valdymas** skaičiavi
 - Lauke **Faktinės valandos** rodomos darbo užsakymuose užregistruotos valandos. 
 - Lauke **Skirtos valandos** rodomos visos valandos, kurias jūsų įmonė skyrė pagal darbo užsakymus.
 
-![Turto valandų valdymo skaičiavimo pavyzdys](media/04-controlling-and-reporting.png)
+![Turto valandų valdymo skaičiavimo pavyzdys.](media/04-controlling-and-reporting.png)
 
 Kitas būdas skaičiuoti valandas – atlikti kelis pasirinkimus srityse **Visas turtas** arba **Aktyvus turtas**. Tada spustelėkite mygtuką **Valandų valdymas**, esantį „FastTab“ **Bendra**. Pasirinktas turtas automatiškai įterpiamas į „FastTab“ **Įtrauktini įrašai** lauką **Turtas**. Dialogo lange **Turto valandų valdymas** spustelėkite **Gerai** – bus rodomas pasirinkto turto skaičiavimas. Tą pačią procedūrą galima atlikti su funkcinėmis vietomis dalyje **Visos funkcinės vietos** arba **Aktyvios funkcinės vietos** ir su darbo užsakymais dalyje **Visi darbo užsakymai** arba **Aktyvūs darbo užsakymai**.
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

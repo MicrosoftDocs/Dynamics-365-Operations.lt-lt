@@ -1,7 +1,7 @@
 ---
 title: Kurti važtaraštį
 description: Šioje temoje aprašoma, kaip kurti važtaraštį, kai naudojami sandėlio valdymo procesai.
-author: Henrikan
+author: MarkusFogelberg
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 193583
 ms.assetid: 1ad0c1cb-4346-4042-a59b-923115fac03e
 ms.search.region: Global
-ms.author: henrikan
+ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b79408e21e9acda12617cf35464007e58ae1b5fe
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: a14d971475c71e6a02957acfa0c6e6494c4638fc
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7573134"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5807637"
 ---
 # <a name="create-a-bill-of-lading"></a>Kurti važtaraštį
 

@@ -1,10 +1,12 @@
 ---
 title: Šabloninės KS kūrimas
 description: Galite sukurti šabloninę KS naudodamiesi įvairiais būdais.
-author: kamaybac
+author: ShylaThompson
+manager: tfehr
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMATemplateBOMTable
 audience: Application User
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c10bf5e758a1752e1c50c602db85e0c53ee3e662
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 5afcb8171b674281faf8100d5c01fdff8d6ff764
+ms.sourcegitcommit: 34b8f6f5c6134b7b97a9fb41d0b2e63215c67062
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7571502"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470790"
 ---
 # <a name="create-a-template-bom"></a>Šabloninės KS kūrimas   
 

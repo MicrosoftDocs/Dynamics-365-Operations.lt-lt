@@ -1,12 +1,10 @@
 ---
 title: „Power BI“ Kaštų apskaitos analizė
-description: Šioje temoje paaiškinta, kas įtraukiama į „Power BI“ turinio Kaštų apskaitos analizė. Jame paaiškinta, kaip pasiekti „Power BI“ ataskaitas, ir pateikta informacija apie duomenų modelį ir objektus, naudojamus turinio paketui kurti.
+description: Šioje temoje paaiškinta, kas įtraukiama į „Power BI“ turinio Kaštų apskaitos analizė.
 author: AndersGirke
-manager: AnnBe
 ms.date: 10/02/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: kfend
@@ -16,18 +14,18 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c15995edb5d65a00207fdb425447779d3a17d993
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
-ms.translationtype: HT
+ms.openlocfilehash: d3b8832e5a5612fd0311811f43454689d5b274c36404b4fb92b710411d45e573
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683876"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6747374"
 ---
-# <a name="cost-accounting-analysis-power-bi-content"></a>„Power BI“ Kaštų apskaitos analizė
+# <a name="cost-accounting-analysis-power-bi-content"></a>Kaštų apskaitos analizės „Power BI“ turinys
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje paaiškinta, kas įtraukiama į „Microsoft Power BI“ paketą **Kaštų apskaitos analizė**. Jame paaiškinta, kaip pasiekti „Power BI“ ataskaitas, ir pateikta informacija apie duomenų modelį ir objektus, naudojamus turinio paketui kurti.
+Šioje temoje paaiškinta, kas įtraukiama į **Kaštų apskaitos analizės** „Microsoft Power BI“ turinį. Jame paaiškinta, kaip pasiekti „Power BI“ ataskaitas, ir pateikta informacija apie duomenų modelį ir objektus, naudojamus turinio paketui kurti.
 
 ## <a name="overview"></a>Peržiūrėti
 
@@ -42,7 +40,7 @@ Norėdami daugiau sužinoti apie išlaidų apskaitą, žr. [Išlaidų apskaitos 
 Nustatydami kaštų apskaitos prieigos lygio saugą ir ją suderindami su „Power BI“ eilutės lygio sauga, visiems išlaidų objektų savininkams galite suteikti prieigą prie „Power BI“ turinio **Kaštų apskaitos analizė**. Tada visi vaizdinių priemonių duomenys bus filtruojami pagal išlaidų apskaitos valdomą prieigos lygį. Norėdami daugiau sužinoti apie prieigos lygio saugą ir eilutės lygio saugą, žr. temą [Power BI turinio išlaidų apskaitos analizės saugos nustatymas](setup-security-cost-accounting-content-pack.md).
 
 ## <a name="accessing-the-power-bi-content"></a>Prieiga prie „Power BI“ turinio
-„Power BI“turinį **Kaštų apskaitos analizė** galite rasti bendrai naudojamo turto bibliotekoje „Microsoft Dynamics Lifecycle Services“ (LCS). Norėdami gauti daugiau informacijos apie tai, kaip atsisiųsti turinį ir įdiegti jį savo organizacijoje, žr. [„Power BI“ turinys LCS iš „Microsoft“ ir jūsų partnerių](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/12/12/power-bi-content-from-microsoft-and-your-partners/).
+„Power BI“turinį **Kaštų apskaitos analizė** galite rasti bendrai naudojamo turto bibliotekoje „Microsoft Dynamics Lifecycle Services“ (LCS). Norėdami gauti daugiau informacijos apie tai, kaip atsisiųsti turinį ir įdiegti jį savo organizacijoje, žr. [„Power BI“ turinys LCS iš „Microsoft“ ir jūsų partnerių](/archive/blogs/dynamicsaxbi/power-bi-content-from-microsoft-and-your-partners).
 
 Įsitikinkite, kad atsisiunčiate tą turinį **Kaštų apskaitos analizė**, kuris taikomas jūsų naudojamai „Microsoft Dynamics 365“ versijai.
 
@@ -123,3 +121,6 @@ Tolesniais duomenimis pildomi „Power BI“ turinio **Kaštų apskaitos analiz�
 | Finansiniai kalendoriai                   | Kalendorius, kalendoriaus aprašymas                                                                                       |
 | Finansiniai metai                       | Kalendoriniai metai                                                                                                        |
 | Ataskaitiniai laikotarpiai                     | Kalendorinių metų laikotarpis                                                                                                 |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

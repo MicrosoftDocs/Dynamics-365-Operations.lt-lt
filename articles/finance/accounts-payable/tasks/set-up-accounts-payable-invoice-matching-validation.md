@@ -2,23 +2,23 @@
 title: Mokėtinų sumų SF gretinimo tikrinimo nustatymas
 description: Šioje temoje pateikiama informacija apie tai, kaip nustatyti mokėtinų sumų SF gretinimo tikrinimą.
 author: abruer
-ms.date: 02/14/2022
+ms.date: 06/26/2019
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
 ms.search.form: VendParameters
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: roschlom
 ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 602666df4cf015791398939a3067a2cae85a12eb
-ms.sourcegitcommit: 6102f70d4595d01b90afe5b23dfd8ec2ea030653
-ms.translationtype: MT
+ms.openlocfilehash: 15fbb5481e3ff8760f536f1d5eeff76370216b37
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8182560"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5827751"
 ---
 # <a name="set-up-accounts-payable-invoice-matching-validation"></a>Mokėtinų sumų SF gretinimo tikrinimo nustatymas
 
@@ -54,7 +54,7 @@ Galimi keturi skirtingi gretinimo tikrinimo tipai.
 12. Lauke **Pirkimo kainos visas leistinas nuokrypis** įveskite sumą apskaitos valiuta. Šis laukas pasiekiamas, kai lauke **Gretinti kainų bendras sumas** pasirinkta reikšmė **Suma** arba **Procentas ir suma**.
 13. Lauke **Rodyti kainų bendrų sumų gretinimo piktogramą** pasirinkite, kada rodyti piktogramą, jei SF gretinimo nesutapimas viršija leistiną nuokrypį. Piktograma gali būti rodoma, kai teigiamas nesutapimas viršija leistiną nuokrypį arba kai teigiamas ar neigiamas nesutapimas viršija leistiną nuokrypį.
 Pvz., leistinas nuokrypis yra 5 proc., o pirkimo užsakymo eilutės kainos bendroji suma yra 10,00. Todėl kainų gretinimo piktograma rodoma, jei SF eilutės kainos bendroji suma viršija 10,50. Pažymėjus parinktį **Jei didesnis arba mažesnis nei leistinas nuokrypis**, piktograma taip pat rodoma, kai sąskaitos faktūros eilučių kainų bendra suma yra mažesnė nei 9,50.
-13. Nustatykite išlaidų **gretinimą**.
+13. Mokesčių gretinimo nustatymas.
 14. Norėdami sugretinti faktinius mokesčius su numatytais mokesčiais pagal pirkimo užsakymo informaciją, pažymėkite žymės langelį **Gretinti mokesčius**.
 
 ## <a name="set-up-unit-price-tolerance-percentages"></a>Leistinų prekių kainų nuokrypių procentų nustatymas
@@ -75,7 +75,7 @@ Pagal numatytąjį nustatymą leidžiami ir neigiami kainų nesutapimai. Tačiau
 
 ## <a name="set-up-matching-policy-override"></a>Atitikimo strategijos keitimo nustatymas
 
-Eikite **į mokėtinų sumų > nustatymas > SF gretinimo nustatymas >** **Atitikimo strategija, kad apibrėžtų numatytąjį eilučių atitikimo strategijos** **lauko įrašą pirkimo užsakymo** puslapyje. Ši sąranka neprivaloma. Naudokite šį puslapį norėdami nustatyti dviaigius prekių, tiekėjų ar prekių ir tiekėjų derinių gretinimą ar triaipipą gretinimą. Naudodami šiuos įrašus galite apibrėžti detalesnes atitikimo strategijas nei juridinio subjekto atitikimo strategija, kurią apibrėžėte puslapyje **Mokėtinų sumų parametrai**. Numatytoji juridinio subjekto eilučių atitikimo strategija taikoma visoms prekėms ir tiekėjams, išskyrus tuos, kuriems šiame puslapyje yra apibrėžta kita atitikimo strategija.
+Norėdami apibrėžti numatytąjį lauko Atitikimo strategija įrašą, skirtą formos Pirkimo užsakymas eilutėms, eikite į **Mokėtinos sumos > Sąranka > SF gretinimo sąrankas > Atitikimo strategija**. Ši sąranka neprivaloma. Naudokite šią formą, jei norite nustatyti dvikryptį arba trikryptį prekių, tiekėjų arba prekių ir tiekėjų derinių gretinimą. Naudodami šiuos įrašus galite apibrėžti detalesnes atitikimo strategijas nei juridinio subjekto atitikimo strategija, kurią apibrėžėte puslapyje **Mokėtinų sumų parametrai**. Numatytoji juridinio subjekto eilučių atitikimo strategija taikoma visoms prekėms ir tiekėjams, išskyrus tuos, kuriems šiame puslapyje yra apibrėžta kita atitikimo strategija.
 
 Šiame puslapyje pažymėkite **Atitikimo strategijos lygis**. Atitikimo strategijų hierarchijoje pasirinkite eilučių atitikimo strategijos lygį.
 

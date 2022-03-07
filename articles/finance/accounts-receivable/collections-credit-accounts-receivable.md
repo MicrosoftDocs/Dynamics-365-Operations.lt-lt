@@ -2,9 +2,11 @@
 title: Surinkimas gautinų sumų modulyje
 description: Gautinų sumų surinkimo informacija valdoma viename centriniame rodinyje naudojant „Microsoft Dynamics 365 Finance“ puslapį Surinkimas. Naudodami šį centrinį rodinį kredito ir surinkimo vadovai gali valdyti surinkimą. Surinkimo agentai pradėti surinkimo procesą gali iš klientų sąrašų, kurie sugeneruojami naudojant iš anksto apibrėžtus surinkimo kriterijus, arba iš puslapio Klientai.
 author: ShivamPandey-msft
+manager: AnnBe
 ms.date: 10/26/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustAgingSnapshot, CustBankAccounts, CustCollections, CustCollectionsActivitiesListPage, CustCollectionsAgent, CustCollectionsCaseListPage, CustCollectionsPool, CustCollectionsPoolsListPage, CustTable
 audience: Application User
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b143ebead89804af57e7d2dbfa6f7d366c1ae664573776d78bff44763ddeb819
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4dd9887debf73b94fb976af873690dcc53b8f53c
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723924"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5224794"
 ---
 # <a name="collections-in-accounts-receivable"></a>Surinkimas gautinų sumų modulyje
 
@@ -99,7 +101,8 @@ Nurašymo operacija sukuriama operacijos valiuta.
 
 Daugiau informacijos žr. [Kurti kliento nurašymo žurnalą](tasks/create-write-off-journal-customer.md)
 
-## <a name="process-not-sufficient-funds-nsf-payments"></a>Apdoroti lėšų trūkumo (NSF) mokėjimus  
+<a name="process-not-sufficient-funds-nsf-payments"></a>Apdoroti lėšų trūkumo (NSF) mokėjimus  
+--------------------------------------------
 
 NSF mokėjimus galite tvarkyti paspaudę NSF mokėjimą Mokėjimų priežiūros puslapyje. Kai paspausite šį mygtuką, mokėjimas bus atšauktas. Jei klientui taikomas NSF mokestis, sukuriama mokesčio operacija mokėjimo žurnale. Mokesčio suma grindžiama automatinių mokesčių parametrais. NSF mokėjimams automatiškai taikomi mokesčiai, kurie nurodomi pagal mokesčių grupę, pasirenkamą banko sąskaitų puslapyje atitinkamai banko sąskaitai.
 

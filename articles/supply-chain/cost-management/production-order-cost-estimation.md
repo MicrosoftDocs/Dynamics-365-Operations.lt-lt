@@ -11,6 +11,7 @@ ms.technology: ''
 ms.search.form: BOMCalcTrans, InventCostTrans, ProdCalcTrans, ProdTableJour, ProdTableListPage
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: 80633
 ms.assetid: b4625d10-c852-4fda-b718-79df458de0d4
 ms.search.region: Global
@@ -18,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 53f54c64b1c78e7385f0fde5ad1023c5b4e0af4f
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 4a101f82e60113941d389421b19cddc1ad123ce9
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4967313"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4433678"
 ---
 # <a name="production-order-cost-estimation"></a>Gamybos užsakymo savikainos įvertinimas
 

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 92c7c8f0df3e6acde7cd9b1299f799ace35ca6a86c801a0a333321c56d8502eb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9430bc1386f127d02b598d6cad1b53f66e0cf2ba
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6778145"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6023435"
 ---
 # <a name="set-up-withholding-tax-settlement-periods-for-the-tds-tax-type"></a>Nustatykite išskaitomo mokesčio sudengimo laikotarpius TDS mokesčių tipui
 
@@ -31,7 +31,7 @@ ms.locfileid: "6778145"
 
 1. Pasirinkite **Mokestis \> Netiesioginiai mokesčiai \> Išskaitomas mokestis \> Išskaitomo mokesčio sudengimo laikotarpiai**.
 
-    [![Išskaitomo mokesčio sudengimo laikotarpių puslapis.](./media/apac-ind-TDS-13.png)](./media/apac-ind-TDS-13.png)
+    [![Išskaitomo mokesčio sudengimo laikotarpių puslapis](./media/apac-ind-TDS-13.png)](./media/apac-ind-TDS-13.png)
 
 2. Mokesčio **tipo lauke** pasirinkite **TDS** norėdami nustatyti TDS mokesčio sudengimo laikotarpius.
 3. Pasirinkite **Nauja**, kad sukurtumėte eilutę.
@@ -47,6 +47,6 @@ ms.locfileid: "6778145"
     > [!NOTE]
     > Norėdami vykdyti periodinio TDS sudengimo procesą, eikite į **DK \> Periodinis \> Išskaitomas mokestis \> Išskaitomo mokesčio mokėjimas**.
 
-    [![Išskaitomo mokesčio mokėjimo puslapis.](./media/apac-ind-TDS-15.png)](./media/apac-ind-TDS-15.png)
+    [![Išskaitomo mokesčio mokėjimo puslapis](./media/apac-ind-TDS-15.png)](./media/apac-ind-TDS-15.png)
 
 12. Uždarykite puslapį.

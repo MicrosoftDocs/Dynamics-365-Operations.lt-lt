@@ -2,11 +2,9 @@
 title: Asortimento nustatymas
 description: Šiame straipsnyje aprašyta, kas yra asortimentas ir paaiškinta, kaip asortimentus nustatyti sprendime „Dynamics 365 Commerce“.
 author: jblucher
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailAssortmentDetails
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 32edf6534716236706847556a14b951f18ef40ae
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.openlocfilehash: 31ec0079584832537431872fea61a07b58d31648cdac0f29a469bc977009622f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4969831"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6774490"
 ---
 # <a name="set-up-assortments"></a>Asortimentų nustatymas
 
@@ -33,7 +31,7 @@ ms.locfileid: "4969831"
 
 Asortimentas yra susijusių produktų, kuriuos priskiriate prekybos kanalui, pvz., plytos ir skiedinys sandėlyje arba internetinėje parduotuvėje, rinkinys. Asortimentą galite naudoti identifikuoti produktams, kurie yra kiekvienoje parduotuvėje. Galite naudoti asortimentą identifikuoti produktus, kurie yra kiekvienoje parduotuvėje. Asortimente gali būti produktų kategorijos. Todėl visi konkrečiai kategorijai priskirti produktai yra įtraukti į asortimentą. Asortimentas taip pat gali apimti konkrečius produktus ir konkrečius produktų variantus. Kurdami asortimentą, tuo pat metu galite priskirti tūkstančius produktų savo kanalams, bet kartu ir visus derinius, kurių reikia jūsų parduotuvėms. Galite nustatyti tiek produktų asortimente, kiek jums reikia. Kiekvieną produktą galima įtraukti į vieną ar daugiau asortimentų, o kiekvieną asortimentą galima priskirti vienam ar keliems kanalams. Pavyzdžiui, nustatykite vieną asortimentą, kuris apima bazinį produktų rinkinį. Šį asortimentą gauna visos parduotuvės. Tada nustatykite kitą asortimentą, kuris apima tik didelę sporto įrangą. Šį asortimentą gauna tik didesnės parduotuvės. Toliau pateikiamoje diagramoje parodyta, kaip priskirti produktus asortimentui ir kaip asortimentus priskirti kanalams.
 
-![Prekių asortimento ryšiai](./media/assortments_relationship.gif)
+![Prekių asortimento ryšiai.](./media/assortments_relationship.gif)
 
 ## <a name="prerequisites"></a>Būtinieji komponentai
 
@@ -54,3 +52,6 @@ Baigę skirstyti, galite sukurti asortimentą ir priskirti jį savo kanalams. No
 2. Pasirinkite kanalus arba aukšto lygio kanalų grupes, kurioms taikomas asortimentas.
 3. Pridėti produktų kategorijas, atskirus produktus ar produktų variantus į asortimentą. Galite įtraukti visus produktus į tam tikrą kategoriją arba pašalinti pasirinktus produktus iš kategorijos, kuri yra įtraukta į asortimentą.
 4. Paskelbkite asortimentą. Paskelbus asortimentą, automatiškai paleidžiama asortimento planuoklė. Šis procesas generuoja produktų sąrašą. Baigus procesą, produktai tampa prieinami kanaluose, kuriems yra priskirtas asortimentas. Jei daromi paskelbto asortimento pakeitimai arba keičiami kanalai, kuriems priskirtas asortimentas, jis turi būti atnaujintas. Norėdami atnaujinti asortimentą po pakeitimų, galite paleisti asortimento planuoklę kaip paketinę užduotį.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,12 +1,10 @@
 ---
-title: Peržiūrėti
+title: Administravimo apžvalga
 description: Vadovaudamiesi šiuo administratoriaus vadovu galėsite nustatyti, valdyti programą „Dynamics 365 Human Resources“ bei šalinti jos gedimus.
 author: andreabichsel
-manager: AnnBe
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: SystemAdministrationWorkspaceForm
 audience: Application User
@@ -18,14 +16,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8008a7e78bb1d1568a79fab436194a04d1ff683c
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 7a5f6ff75667f79894fce09b4fafeeaf31eea31e
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527866"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5889769"
 ---
-# <a name="overview"></a>Peržiūrėti
+# <a name="administration-overview"></a>Administravimo apžvalga
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
@@ -41,15 +41,15 @@ Vadovaudamiesi šiuo administratoriaus vadovu galėsite nustatyti, valdyti progr
 
 - Duomenų integravimo nustatymas
   - [Duomenų integravimo technologijos pasirinkimas](hr-admin-integration-choose-technology.md)
-  - [„Common Data Service“ integravimo konfigūravimas](hr-admin-integration-common-data-service.md)
+  - [„Dataverse“ integravimo konfigūravimas](hr-admin-integration-common-data-service.md)
   - [Integravimo su „Finance“ konfigūravimas](hr-admin-integration-finance.md)
   - [Integravimo su „Dayforce“ konfigūravimas](hr-admin-integration-dayforce.md)
   - [Pasikartojančių duomenų eksportavimo programos kūrimas](hr-admin-integration-recurring-data-export.md)
   - Integravimas su „Office“
-    - [„Office“ integravimo mokomoji programa](../dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/unified-operations/talent/toc.json)
-    - [Objekto duomenų naujinimas programoje „Excel“](../dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/unified-operations/talent/toc.json)
-    - [Atidarymo programoje „Excel“ patirčių kūrimas](../dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/unified-operations/talent/toc.json)
-    - [„Office“ integravimo trikčių šalinimas](../dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/dynamics365/unified-operations/talent/toc.json)
+    - [„Office“ integravimo mokomoji programa](../fin-ops-core/dev-itpro/office-integration/office-integration-tutorial.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json)
+    - [Objekto duomenų naujinimas programoje „Excel“](../fin-ops-core/dev-itpro/office-integration/use-excel-add-in.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json)
+    - [Atidarymo programoje „Excel“ patirčių kūrimas](../fin-ops-core/dev-itpro/office-integration/office-integration-edit-excel.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json)
+    - [„Office“ integravimo trikčių šalinimas](../fin-ops-core/dev-itpro/office-integration/office-integration-troubleshooting.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json)
 
 - [Funkcijų valdymas](hr-admin-manage-features.md)
 
@@ -84,7 +84,7 @@ Vadovaudamiesi šiuo administratoriaus vadovu galėsite nustatyti, valdyti progr
   - [Dokumentų ar mokymų kūrimas naudojant užduočių įrašymo priemonę](../fin-ops-core/dev-itpro/user-interface/task-recorder-training-docs.md?toc=/dynamics365/human-resources/toc.json)
 
 - „Human Resources“ trikčių šalinimas
-  - [Palaikymo gavimas](hr-admin-troubleshooting-support.md)
+  - [Palaikymo gavimas](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md)
   - [Efektyvumo optimizavimas naudojant automatinio valymo užduotis](hr-admin-troubleshooting-batch-history.md)
   - [Neatnaujinamos analizės ataskaitos](hr-admin-troubleshooting-analytic-reports.md)
   - [Nepavyksta sukurti aplinkos „Power Apps“ administravimo centre](hr-admin-troubleshooting-power-apps.md)
@@ -102,3 +102,5 @@ Vadovaudamiesi šiuo administratoriaus vadovu galėsite nustatyti, valdyti progr
 - [Kas nauja ar pasikeitė programoje „Human Resources”](hr-admin-whats-new.md)
 - [Kūrėjo vadovas](hr-developer-overview.md)
 - [Vartotojo vadovas](hr-hrpro-overview.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -3,23 +3,24 @@ title: Aptarnavimo objektų apžvalga
 description: Šioje temoje pateikiama apžvalga, kaip dirbti su aptarnavimo objektais.
 author: kamaybac
 ms.date: 07/25/2019
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: SMAServiceObjectTable
 audience: Application User
 ms.reviewer: kamaybac
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ad758d32c6e9de0758c6fddb57a7dea886ab73d4
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
-ms.translationtype: MT
+ms.openlocfilehash: 9cf5e146bb7eab4df5807c6a55f773bfb31a4c5e
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7986440"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7571382"
 ---
 # <a name="service-objects-overview"></a>Aptarnavimo objektų apžvalga
 

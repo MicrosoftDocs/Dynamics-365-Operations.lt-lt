@@ -2,26 +2,26 @@
 title: Intrastat apžvalga
 description: Šioje temoje pateikta informacija apie Intrastat ataskaitas už prekybą prekėmis ir, kai kuriais atvejais, paslaugomis Europos Sąjungos (ES) šalyse / regionuose. Jame pateikta ataskaitų proceso apžvalga ir aprašyti reikiami parametrai ir būtinosios sąlygos.
 author: EvgenyPopovMBS
-manager: AnnBe
 ms.date: 01/13/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: Intrastat
 audience: Application User
 ms.reviewer: kfend
-ms.custom: 28581
+ms.custom:
+- "28581"
+- intro-internal
 ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hungary, Ireland, Italy, Latvia, Lithuania, Netherlands, Poland, Spain, Sweden, United Kingdom
 ms.author: epopov
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 9396637c27707f1732d06ec704c7e609aa6c170b
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: a5e74b43bbeae011b2cde5c29d5a05aab28ec07e
+ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4962729"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "6340066"
 ---
 # <a name="intrastat-overview"></a>Intrastat apžvalga
 
@@ -86,6 +86,7 @@ Toliau pateikiamoje lentelėje nurodytos Intrastat ataskaitų būtinosios sąly
 <li><strong>Kilmės šalis / regionas</strong> – pasirinkite numatytąją šalį / regioną, kur buvo gautos ar pagamintos visos prekės.</li>
 <li><strong>Kilmės / paskirties apskritis / rajonas</strong> – pasirinkite numatytąją gavimo paskirties apskritį / rajoną ir išsiuntimo kilmės rajoną / apskritį.</li>
 <li><strong>Grynasis svoris, kg</strong></li>
+<li><strong>Pašalinti</strong>- šį parametrą norint neleisti perkelti operacijų su šiuo produktu į „Intrastat“</li>
 </ul></td>
 </tr>
 <tr class="odd">
@@ -139,7 +140,7 @@ Toliau pateikiamuose skyriuose aprašomos nuostatos, kurios reikalingos kuriant 
 </tr>
 <tr class="even">
 <td>Operacijų kodai</td>
-<td>Pagal savo šalies / regiono reikalavimus nustatykite operacijos pobūdį. Kiekvienam operacijos kodui, kurį nustatote, turite nustatyti taisykles, skirtas skaičiuoti perkėlimo užsakymų ir pardavimo / pirkimo užsakymų SF sumoms ir statistinėms sumoms.
+<td>Pagal savo šalies&#39; / regiono&#39; reikalavimus nustatykite operacijos pobūdį. Kiekvienam operacijos kodui, kurį nustatote, turite nustatyti taisykles, skirtas skaičiuoti perkėlimo užsakymų ir pardavimo / pirkimo užsakymų SF sumoms ir statistinėms sumoms.
 <ul>
 <li>Perkėlimo užsakymams nustatote vieną iš toliau pateiktų SF sumų ir statistinių sumų skaičiavimo taisyklių.
 <ul>
@@ -158,7 +159,7 @@ Toliau pateikiamuose skyriuose aprašomos nuostatos, kurios reikalingos kuriant 
 </tr>
 <tr class="odd">
 <td>Transportavimo metodai</td>
-<td>Pagal savo šalies / regiono reikalavimus nustatykite transportavimo būdą. Kiekvieno pristatymo būdo numatytąjį transportavimo būdą galite nustatyti <strong>Užsienio prekybos</strong> skirtuke.</td>
+<td>Pagal savo šalies&#39; / regiono&#39; reikalavimus nustatykite transportavimo būdą. Kiekvieno pristatymo būdo numatytąjį transportavimo būdą galite nustatyti <strong>Užsienio prekybos</strong> skirtuke.</td>
 </tr>
 <tr class="even">
 <td>Uostai</td>
@@ -206,7 +207,7 @@ Norėdami nustatyti toliau pateiktos lentelės parametrus, naudokite **Užsienio
 </ul></li>
 <li><strong>Perkėlimas</strong> – nurodykite operacijų perkėlimo į Intrastat žurnalą kriterijus. Galite nurodyti, kad operacijos būtų perkeliamos tik tada, kai prekės atitinka vieną ar visus toliau nurodytus kriterijus.
 <ul>
-<li>Prekės nėra aptarnavimo prekės.</li>
+<li>Prekės nėra&#39; aptarnavimo prekės.</li>
 <li>Prekės turi prekės kodą.</li>
 <li>Prekės turi svorį.</li>
 <li>Prekės turi papildomų vienetų.</li>
@@ -226,7 +227,7 @@ Norėdami nustatyti toliau pateiktos lentelės parametrus, naudokite **Užsienio
 </tr>
 <tr class="even">
 <td>Agento kontaktinė informacija</td>
-<td>Nurodykite agento vardą ir pavardę, adresą, mokesčių lengvatos numerį, telefono numerį ir fakso numerį.</td>
+<td>Nurodykite agento&#39; vardą ir pavardę, adresą, mokesčių lengvatos numerį, telefono numerį ir fakso numerį.</td>
 </tr>
 <tr class="odd">
 <td>Šalies / regiono ypatybės</td>
@@ -239,3 +240,6 @@ Norėdami nustatyti toliau pateiktos lentelės parametrus, naudokite **Užsienio
 </tbody>
 </table>
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

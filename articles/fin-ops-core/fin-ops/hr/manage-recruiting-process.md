@@ -1,12 +1,10 @@
 ---
 title: Įdarbinimo procesų valdymas
-description: Šiame straipsnyje aprašoma koncepcija, kurią darbdaviai gali naudoti norėdami sekti įdarbinimo proceso veiksmus, įskaitant pastangas reklamuoti laisvas darbo vietas ir pretendentus, pretendento ir prašymo informacijos sekimą, pokalbius su pretendentais ir vieno ar daugiau kandidatų pasirinkimą, norint užpildyti laisvas darbo vietas jūsų organizacijoje.
+description: Šioje temoje aprašoma sąvoka, kurią įdarbintojai gali naudoti norėdami sekti įdarbinimo proceso veiksmus.
 author: andreabichsel
-manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 01/10/2022
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HRMApplication, HRMRecruitingTable
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 71e30a30aee5edcea2e24b326b0f263612b6b897
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: c9a5e89e700858ed9e625fbdee630fa14ebea26e
+ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4798048"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "7965069"
 ---
 # <a name="manage-recruiting-processes"></a>Įdarbinimo procesų valdymas
 
@@ -44,7 +42,7 @@ ms.locfileid: "4798048"
 - Prašymo terminas.
 - Numatoma pradžios data.
 
-Įdarbinimo projekte **Darbo skelbimas**, naudojamas **Darbuotojų savitarna** laisvoms pareigoms reklamuoti. Norint rodyti laisvas pareigas darbuotojams, įdarbinimo projekte turi būti **Darbo skelbimas**, o laukas **Rodyti darbuotojų savitarną** turi būti nustatytas į Taip, **Prašymo terminas** turi būti nustatytas į ateitį ir įdarbinimo projekto būsena **Projekto būsena** turi būti Pradėta. Šioje lentelėje pateikiamos galimos įdarbinimo projekto būsenos ir jų aprašas.
+Įdarbinimo projekte pateikiama darbo **skelbimo** vertė, naudojama darbuotojų savitarnos puslapyje **atidarymui** skelbti. Pradžia gali būti rodoma darbuotojams, tik jei įdarbinimo projekto darbo skelbimo vertė, laukas Rodyti darbuotojo savitarnos paslauga yra nustatytas kaip Taip, prašymo termino lauke nustatyta būsima data, o įdarbinimo projekto projekto būsenos vertė **yra** **·** **·** **·** **·** **Pradėta**. Šioje lentelėje pateikiamos galimos įdarbinimo projekto būsenos ir jų aprašas.
 
 | Būsena    | Nurodo, kad...                                                                         |
 |-----------|-----------------------------------------------------------------------------------------|
@@ -57,7 +55,7 @@ Darbdaviai gali įrašyti **Publikavimo kanalai**, naudojamus reklamuoti laisvas
 
 ## <a name="applicants"></a>Pretendentai
 
-Pretendentas yra asmuo, kuris kreipiasi dėl darbo jūsų įmonėje. Pretendentai yra bendri tarp visų jūsų organizacijos juridinių subjektų, tai suteikia jums didelį telkinį talentų paieškoms. Galite tvarkyti pretendentų kompetencijas, nuorodas, patogumų užklausas ir asmeninę informaciją. Kuriant pretendento įrašą, sukuriamas to pretendento asmens įrašas visuotinėje adresų knygelėje. Norėdami atnaujinti pretendentų visuotinės adresų knygelės informaciją, galite naudoti puslapį **Pretendentas**:
+Pretendentas yra asmuo, kuris kreipiasi dėl darbo jūsų įmonėje. Pretendentai bendrai naudojami tarp visų jūsų organizacijos juridinių subjektų. Todėl jūs turite didelį talentų telkinį, į kurį galima ieškoti. Galite tvarkyti pretendentų kompetencijas, nuorodas, patogumų užklausas ir asmeninę informaciją. Kuriant pretendento įrašą, sukuriamas to pretendento asmens įrašas visuotinėje adresų knygelėje. Norėdami atnaujinti pretendentų visuotinės adresų knygelės informaciją, galite naudoti puslapį **Pretendentas**:
 
 - Adreso informacija
 - Kontaktinė informacija
@@ -86,7 +84,7 @@ Prašymo būsena rodo, kokiame įdarbinimo proceso etape yra šis prašymas. Ši
 
 ### <a name="correspondence-actions"></a>Atsakomieji veiksmai
 
-Atsakomasis **Prašymo** veiksmas nurodo dokumento arba el. laiško šabloną, kurį naudosite norėdami susisiekti su prašymą pateikusiu pretendentu. Galite susieti **Prašymo žymės** su atsakomaisiais veiksmais, kad bendraudami su pretendentais galėtumėte naudoti vertes iš puslapių Prašymas, Pretendentas, Interviu ir Įdarbinimo projektas. Atsakomiesiems veiksmams galima sukurti **Prašymo el. pašto šablonai** norint greitai išsiųsti el. laiškus pretendentams, pateikusiems prašymą su tam tikra būsenos ir atsakomojo veiksmo kombinacija. Pvz., galite išsiųsti patvirtinimo laišką visiems prašymams, kurių **Būsena** yra Gauta ir **Atsakomasis veiksmas** yra Gauta. Išsiuntę el. laišką, turite pasirinktį automatiškai atnaujinti prašymų būseną.
+Prašymo atsako veiksmas lemia dokumento ar el. laiško šabloną, kurį naudojate palaikyti ryšį su pretendentu, kuris pateikė prašymą. Susiedami prašymo žymes su atsakomąsias priemones, ryšių su pretendentais metu galite naudoti vertes iš prašymo, pretendento, pokalbio ir **įdarbinimo** **projekto** **·** **·** **puslapių**. Sukurdami prašymo el. laiškų šablonus, susirašinėjimo veiksmams galite greitai siųsti el. laiškus pretendentams, kurių prašymai turi tam tikrą būsenos ir atsako **veiksmo** derinį. Pavyzdžiui, galite siųsti patvirtinimo el. laišką visiems prašymams, kurių būsenos vertė yra Gauta **ir Gauta atsako atsako** **·** **·** **vertė**. Išsiuntę el. laišką galite pasirinkti automatiškai atnaujinti prašymų būseną.
 
 ## <a name="application-routing"></a>Prašymo nukreipimas
 
@@ -103,3 +101,5 @@ Jei prašymą turi peržiūrėti keli darbuotojai, galite naudoti puslapį **Pra
 ## <a name="hiring-applicants"></a>Pretendentų samda
 
 Norėdami samdyti pretendentą naudokite puslapį **Prašymai**. Įdarbinant pretendentą, prašymo įrašo būsena yra **Įdarbinta**, o pretendento visuotinės adresų knygelės asmens įrašas susiejamas su naujo darbuotojo įrašu. Visuotinės adresų knygos informacijos pakeitimai pagal naujo darbuotojo įrašus rodomi ir pretendento įraše. Tai gali padėti sumažinti duomenų įvedimą, jei naujas darbuotojas kada nors pretenduos į kitą darbo vietą jūsų įmonėje. Norėdami samdyti esamą darbuotoją į naujas pareigas, spustelėję **Pakeisti pareigas** išplečiamajame sąraše **Prašymo būsena**, pradėkite perkėlimo procesą.
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

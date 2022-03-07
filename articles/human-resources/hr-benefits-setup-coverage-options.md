@@ -1,36 +1,42 @@
 ---
 title: Padengimo parinkčių kūrimas
-description: „Microsoft Dynamics 365 Human Resources” padengimo parinktys yra padengimo lygiai, skirti išmokų plano ar programos dalyviams išrinkti.
-author: andreabichsel
-manager: AnnBe
-ms.date: 04/06/2020
+description: Šioje temoje paaiškintos „Microsoft Dynamics 365 Human Resources” padengimo parinktys yra padengimo lygiai, skirti išmokų plano ar programos dalyviams išrinkti.
+author: twheeloc
+ms.date: 08/24/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8690dbe00c2316ccf745f5222c3cbaa9c3379f85
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 01eb0c56578cf6f6b070c4a05768ec5361993555
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419766"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8065873"
 ---
 # <a name="create-coverage-options"></a>Padengimo parinkčių kūrimas
 
-„Microsoft Dynamics 365 Human Resources” padengimo parinktys yra padengimo lygiai, skirti išmokų plano ar programos dalyviams išrinkti. Pvz., padengimo parinktys gali apimti medicinos planą, skirtą **tik darbuotojams**, arba gyvybės draudimo planą, skirtą gaunantiems **2 x atlyginimus**. Apibrėžus išmokų padengimo parinktis, jas galima naudoti pakartotinai. Galite susieti parinktį su vienu ar daugiau planų.
 
-Apibrėžę padengimo parinktis, susiekite padengimo parinktis su išmokų plano tipu. Tada plano tipas susiejamas su išmokų planu ar programa. Su plano tipu susietas parinktis galima taikyti visiems planams, sukurtiems, naudojant šį plano tipą. 
+[!INCLUDE [PEAP](../includes/peap-2.md)]
 
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+Padengimo galimybės nustato tai, kas turėtų būti apdraustas arba tai, koks padengimas yra galimas draudimo plane. Pavyzdžiui, medicininiame plane galite turėti **tik darbuotojas** parinktį, **darbuotojas + 1** parinktį ir **šeima** parinktį. Gyvybės draudimui galite pasiūlyti **1 x atlyginimo** arba **2 x atlyginimo** padengimą.
+
+Apibrėžę išmokų padengimo parinktis, jas galite naudoti pakartotinai. Galite susieti parinktį su vienu ar daugiau planų.
+
+> [!IMPORTANT]
+> Apibrėžę padengimo parinktis, susiekite jas su išmokų plano tipu. Tada plano tipas susiejamas su išmokų planu ar programa. Su plano tipu susietas parinktis galima taikyti visiems sukurto tipo planams.
+
+## <a name="create-coverage-options"></a>Padengimo parinkčių kūrimas
 1. Darbo srities **Išmokų valdymas** dalyje **Sąranka** pasirinkite **Padengimo parinktys**.
 
 2. Pasirinkite **Naujas**.
@@ -41,9 +47,9 @@ Apibrėžę padengimo parinktis, susiekite padengimo parinktis su išmokų plano
    | --- | --- |
    | **Padengimo parinktis** | Unikalus padengimo parinkties pavadinimas. |
    | **Aprašas** | Padengimo parinkties aprašas. |
-   | **Padengimo kodas** | Pagal padengimo kodus kiekvienam reikalavimus atitinkančiam dengiamam asmens tipui priskiriama mažiausia ir didžiausia suma. Padengimo kodas nurodo, kas yra dengiamas, arba plano tipui leidžiamą padengimo sumą. Padengimo suma galima išreikšti doleriais arba procentais. Pavyzdys:</br></br>- **„Emp+1“** – kad būtų tinkamas, darbuotojas turi būti pasirinkęs vieną priklausomąjį (jei pasirinkta daugiau nei vienas, darbuotojas nebetinka).</br></br>- **„Emp+family“** – kad būtų tinkamas, darbuotojas turi būti pasirinkęs bent du priklausomuosius. |
+   | **Padengimo kodas** | Pagal padengimo kodus kiekvienam reikalavimus atitinkančiam dengiamam asmens tipui priskiriama mažiausia ir didžiausia suma. Padengimo kodas nurodo, kas yra dengiamas, arba plano tipui leidžiamą padengimo sumą. Padengimo suma galima išreikšti doleriais arba procentais. Pavyzdys:<ul><li>**Darbuotojas+1** – tam, kad būtų tinkamas, darbuotojas turi būti pasirinkęs vieną priklausomąjį (jei pasirinkta daugiau nei vienas, darbuotojas nebetinka).</li><li>**Darbuotojas+šeima** – tam, kad būtų tinkamas, darbuotojas turi būti pasirinkęs bent du priklausomuosius.</li></ul> |
    | **Didžiausias skaičius** | Didžiausias priklausomųjų skaičius. |
-   | **Būsena** | Padengimo parinkties būsena. Jei padengimo parinkties būsena nustatyta kaip neaktyvi, plano tipų padengimo parinkčių pasirinkti negalima. |
+   | **Būsena** | Padengimo parinkties būsena. Jei padengimo parinkties būsena nustatyta kaip **neaktyvi**, plano tipams negalima pasirinkti padengimo parinkties. |
    | **Procentas** | Procentinė suma. Šis laukas yra aktyvus tik tada, kai padengimo kodo lauke buvo pasirinkta % x atlyginimas. |
    | **Daliklis** | Skaičiuojant naudojamas daliklis, kai pasirenkamas padengimo kodas % x atlyginimas. |
    | **Mažiausias procentas** | Mažiausias procentinis dydis, kai pasirenkamas padengimo kodas procentais. |
@@ -59,3 +65,6 @@ Apibrėžę padengimo parinktis, susiekite padengimo parinktis su išmokų plano
    | **Leisti darbuotojo padengimo sumą** | Nurodo, ar leisti darbuotojams keisti padengimo sumą išmokų savitarnoje, kai jie renkasi išmokas. Jei pažymėsite šį žymės langelį, sistema apskaičiuos išmokų plano parametrus pagal padengimo sumą, kurią darbuotojas įveda darbuotojų savitarnoje. |
 
 6. Pasirinkite **Įrašyti**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

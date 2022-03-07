@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: riluan
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-05-26
-ms.openlocfilehash: a7bfe998d2d787203a507a831c171fc43b03fedc
-ms.sourcegitcommit: cc9921295f26804259cc9ec5137788ec9f2a4c6f
+ms.openlocfilehash: 4d1022eec633bf0a9edb4d5b26982853cec836d7
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "4839554"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4455423"
 ---
 # <a name="inventory-availability-in-dual-write"></a>Atsargų pasiekiamumas dvigubam rašymui
 
@@ -57,64 +57,3 @@ Dialogo langas grąžina ATP informaciją iš „Supply Chain Management”. Pat
 - Gavimo kiekis
 - Išdavimo kiekis
 - Turimas kiekis
-
-## <a name="how-it-works"></a>Kaip tai veikia
-
-Kai pasirenkate mygtuką **Turimos atsargos** puslapiuose **Pasiūlymai**, **Užsakymai**, arba **Sąskaitos faktūros** tiesioginio dvigubo rašymo iškvietimas pateikiamas **Turimų atsargų** API. API apskaičiuoja turimos tam tikro produkto atsargas. Rezultatas saugomas **„InventCDSInventoryOnHandRequestEntity”** ir **„InventCDSInventoryOnHandEntryEntity”** lentelėse, o tada įrašomas į „Dataverse” naudojant dvigubą rašymą. Norėdami naudoti šią funkciją, turite paleisti šias dvigubo rašymo schemas. Praleiskite pradinį sinchronizavimą, kai paleidžiate schemas.
-
-- Turimų CDS atsargų įrašai („msdyn_inventoryonhandentries”)
-- Turimų CDS atsargų užklausos („msdyn_inventoryonhandrequests”)
-
-## <a name="templates"></a>Šablonai
-Šie šablonai yra galimi rodyti turimų atsargų duomenims.
-
-„Finance and Operations” programos | „Customer engagement“ programa | Aprašymas 
----|---|---
-[CDS turimų atsargų įrašai](#145) | „msdyn_inventoryonhandentries” |
-[CDS turimų atsargų užklausos](#147) | „msdyn_inventoryonhanrequests” |
-
-[!include [banner](../../includes/dual-write-symbols.md)]
-
-###  <a name="cds-inventory-on-hand-entries-msdyn_inventoryonhandentries"></a><a name="145"></a> Turimų CDS atsargų įrašai („msdyn_inventoryonhandentries”)
-
-Naudojant šį šabloną sinchronizuojami duomenys tarp „Finance and Operations“ programų ir „Dataverse“.
-
-„Finance and Operations“ laukas | Schemos tipas | „Customer engagement“ laukas | Numatytoji reikšmė
----|---|---|---
-`REQUESTID` | = | `msdyn_request.msdyn_requestid` |
-`INVENTORYSITEID` | = | `msdyn_inventorysite.msdyn_siteid` |
-`INVENTORYWAREHOUSEID` | = | `msdyn_inventorywarehouse.msdyn_warehouseidentifier` |
-`AVAILABLEONHANDQUANTITY` | > | `msdyn_availableonhandquantity` |
-`AVAILABLEORDEREDQUANTITY` | > | `msdyn_availableorderedquantity` |
-`ONHANDQUANTITY` | > | `msdyn_onhandquantity` |
-`ONORDERQUANTITY` | > | `msdyn_onorderquantity` |
-`ORDEREDQUANTITY` | > | `msdyn_orderedquantity` |
-`RESERVEDONHANDQUANTITY` | > | `msdyn_reservedonhandquantity` |
-`RESERVEDORDEREDQUANTITY` | > | `msdyn_reservedorderedquantity` |
-`TOTALAVAILABLEQUANTITY` | > | `msdyn_totalavailablequantity` |
-`ATPDATE` | = | `msdyn_atpdate` |
-`ATPQUANTITY` | > | `msdyn_atpquantity` |
-`PROJECTEDISSUEQUANTITY` | > | `msdyn_projectedissuequantity` |
-`PROJECTEDONHANDQUANTITY` | > | `msdyn_projectedonhandquantity` |
-`PROJECTEDRECEIPTQUANTITY` | > | `msdyn_projectedreceiptquantity` |
-`ORDERQUANTITY` | > | `msdyn_orderquantity` |
-`UNAVAILABLEONHANDQUANTITY` | > | `msdyn_unavailableonhandquantity` |
-
-###  <a name="cds-inventory-on-hand-requests-msdyn_inventoryonhandrequests"></a><a name="147"></a>Turimų CDS atsargų užklausos (msdyn_inventoryonhandrequests)
-
-Naudojant šį šabloną sinchronizuojami duomenys tarp „Finance and Operations“ programų ir „Dataverse“.
-
-„Finance and Operations“ laukas | Schemos tipas | „Customer engagement“ laukas | Numatytoji reikšmė
----|---|---|---
-`REQUESTID` | = | `msdyn_requestid` |
-`PRODUCTNUMBER` | < | `msdyn_product.msdyn_productnumber` |
-`ISATPCALCULATION` | << | `msdyn_isatpcalculation` |
-`ORDERQUANTITY` | < | `msdyn_orderquantity` |
-`INVENTORYSITEID` | < | `msdyn_inventorysite.msdyn_siteid` |
-`INVENTORYWAREHOUSEID` | < | `msdyn_inventorywarehouse.msdyn_warehouseidentifier` |
-`REFERENCENUMBER` | < | `msdyn_referencenumber` |
-`LINECREATIONSEQUENCENUMBER` | < | `msdyn_linecreationsequencenumber` |
-
-
-
-

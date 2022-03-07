@@ -1,12 +1,10 @@
 ---
-title: " Kurti ir susieti aparatūros stotį"
+title: Aparatūros stoties kūrimas ir susiejimas
 description: Šioje procedūroje nurodyta, kaip kurti naują aparatūros stotį.
 author: jashanno
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: RetailHardwareStation, RetailStoreTable
 audience: Application User
@@ -16,20 +14,20 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: adbd5ef1cafe778cf897aafb05c77fca89be3e20
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.openlocfilehash: 582530f53a401519ed78442041415dffd4a4756ca2a18721f6b4761d8a735331
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4964925"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6756506"
 ---
-# <a name="create-and-associate-a-hardware-station"></a> Kurti ir susieti aparatūros stotį
+# <a name="create-and-associate-a-hardware-station"></a>Aparatūros stoties kūrimas ir susiejimas
 
 [!include [banner](../includes/banner.md)]
 
 Šioje procedūroje nurodyta, kaip kurti naują aparatūros stotį. Naujos aparatūros šablonas bus sukurtas ir naudojamas naujoms aparatūros stotims į iš anksto nustatytą parduotuvę (kanalą) įtraukti. Šioje procedūroje naudojama demonstracinių duomenų įmonė USRT.
 
-1. Eikite į Prekybos pagrindai > Kanalai >... > .. > .. > Aparatūros stoties profiliai.
+1. Eikite į Prekybos pagrindai > Kanalai >.. > .. > .. > Aparatūros stoties profiliai.
 2. Spustelėkite Naujas.
 3. Lauke Aparatūros stoties ID įveskite „TestHWProfile“.
 4. Lauke Pavadinimas surinkite reikšmę.
@@ -42,7 +40,7 @@ ms.locfileid: "4964925"
     * Tai yra standartinis paketas, teikiamas su nauja aplinka. Versijos numeris gali skirtis.  
 11. Spustelėkite Įrašyti.
 12. Uždarykite puslapį.
-13. Eikite į „Retail and Commerce“ > Kanalai > Visos parduotuvės.
+13. Eikite į Mažmeninė prekyba ir prekyba > Kanalai > Visos parduotuvės.
 14. Sąraše pasirinkite 17 eilutę.
     * Jei naudojate demonstracinių duomenų įmonę USRT, tai yra „Houston“ parduotuvė.  
 15. Sąraše spustelėkite saitą pasirinktoje eilutėje.
@@ -57,3 +55,6 @@ ms.locfileid: "4964925"
 23. Lauke EFT terminalo ID įveskite reikšmę.
 24. Spustelėkite Įrašyti.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

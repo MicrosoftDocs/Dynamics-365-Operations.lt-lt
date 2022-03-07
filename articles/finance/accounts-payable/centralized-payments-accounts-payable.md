@@ -1,32 +1,34 @@
 ---
 title: Mokėtinų sumų centralizuoti mokėjimai
-description: Organizacijos, sudarytos iš kelių juridinių subjektų, gali kurti ir valdyti mokėjimus naudodamos vieną juridinį subjektą, kuris tvarko visus mokėjimus. Todėl to pačio mokėjimo nereikia įvesti į kelis juridinius subjektus. Šioje temoje pateikiami pavyzdžiai, kurie parodo, kaip centralizuotų mokėjimų registravimas tvarkomas įvairiuose scenarijuose.
+description: Organizacijos, sudarytos iš kelių juridinių subjektų, gali kurti ir valdyti mokėjimus naudodamos vieną juridinį subjektą, kuris tvarko visus mokėjimus. Todėl to pačio mokėjimo nereikia įvesti į kelis juridinius subjektus. Šiame straipsnyje pateikti pavyzdžiai, parodantys, kaip įvairių scenarijų atvejais atliekamas centralizuotų mokėjimų registravimas.
 author: abruer
-ms.date: 02/15/2022
+manager: AnnBe
+ms.date: 02/12/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: roschlom
 ms.custom: 14341
 ms.assetid: 7bd02e32-2416-4ac6-8a60-85525267fdb7
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3030bc7d2501e2162758c94c0dc1a073655c9c0f
-ms.sourcegitcommit: 6102f70d4595d01b90afe5b23dfd8ec2ea030653
+ms.openlocfilehash: 90a8ec6fa1515b179b0cf1df034d8217b926cc5a
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8182523"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5003558"
 ---
 # <a name="centralized-payments-for-accounts-payable"></a>Mokėtinų sumų centralizuoti mokėjimai
 
 [!include [banner](../includes/banner.md)]
 
-Organizacijos, sudarytos iš kelių juridinių subjektų, gali kurti ir valdyti mokėjimus naudodamos vieną juridinį subjektą, kuris tvarko visus mokėjimus. Todėl to pačio mokėjimo nereikia įvesti į kelis juridinius subjektus. Šioje temoje pateikiami pavyzdžiai, kurie parodo, kaip centralizuotų mokėjimų registravimas tvarkomas įvairiuose scenarijuose.
+Organizacijos, sudarytos iš kelių juridinių subjektų, gali kurti ir valdyti mokėjimus naudodamos vieną juridinį subjektą, kuris tvarko visus mokėjimus. Todėl to pačio mokėjimo nereikia įvesti į kelis juridinius subjektus. Šiame straipsnyje pateikti pavyzdžiai, parodantys, kaip įvairių scenarijų atvejais atliekamas centralizuotų mokėjimų registravimas.
 
 Organizacijos, sudarytos iš kelių juridinių subjektų, gali kurti ir valdyti mokėjimus naudodamos juridinį subjektą, kuris tvarko visus mokėjimus. Todėl to pačio mokėjimo nereikia įvesti į kelis juridinius subjektus. Be to, organizacija sutaupo laiko, nes mokėjimo procesas yra supaprastinamas.
 
@@ -298,6 +300,3 @@ Fabrikam sugeneruoja 75,00 dydžio mokėjimą tiekėjui 3004, Fourth Coffee. Mok
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

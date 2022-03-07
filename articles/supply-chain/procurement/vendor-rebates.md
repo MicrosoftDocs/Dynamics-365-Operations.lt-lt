@@ -1,26 +1,24 @@
 ---
 title: Tiekėjo grąžinimai
 description: Šioje temoje apžvelgiamos dažniausios užduotys, kurias galite norėti atlikti dirbdami su tiekėjų grąžinimais. Tiekėjų grąžinimų funkcija įmonėms padeda geriau valdyti savo tiekėjų grąžinimo programas – automatizuojamos užduotys, reikalingos norint gautus grąžinimus administruoti, sekti ir teikti jų paraiškas.
-author: omulvad
-manager: tfehr
+author: Henrikan
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TAMVendRebateAgreement
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 2012
-ms.openlocfilehash: 46d6beb287f7d034c6fde09999f7854695a4987c
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.openlocfilehash: ec8d054d023b7e3f6611199e60f661c480d44d57
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4966660"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7566868"
 ---
 # <a name="vendor-rebates"></a>Tiekėjo grąžinimai
 
@@ -55,7 +53,7 @@ Tiekėjo grąžinimo sutartis yra sutarties su tiekėju įrašas, kuriame nurody
 
 Norėdami atidaryti puslapį **Tiekėjų grąžinimo sutartys**, pasirinkite **Paraiškos** &gt; **Tiekėjų grąžinimai** &gt; **Grąžinimo sutartys**.
 
-![Pirkimo sutartis](media/purchase-agreement.PNG)
+![Pirkimo sutartis.](media/purchase-agreement.PNG)
 
 Puslapyje **Tiekėjų grąžinimo sutartys** galite peržiūrėti išsamią informaciją apie suderėtas tiekėjo sutarties sąlygas.
 
@@ -131,7 +129,7 @@ Paraiškas patvirtinus, jas galima apdoroti modulyje Mokėtinos sumos (A/P). Gr�
 
     Paraiškos sumai registruojamas grąžinimų kaupimo žurnalas. Šis registravimas iš gautinų sukauptų tiekėjo grąžinimų sąskaitos išskaito numatomą tiekėjo kreditą ir į laikiną gautų sukauptų tiekėjo grąžinimų sąskaitą įskaito numatomą pelną.
 
-    ![Pranešimas](media/message.png)
+    ![Pranešimas.](media/message.png)
 
 5. Grąžinimų sąraše pasirinkite eilutę, tada veiksmų srityje pasirinkite **Grąžinimo operacijos**, kad pamatytumėte šio grąžinimų kaupimo registravimo žurnalo paketo numerį ir į jį pereitumėte.
 
@@ -166,3 +164,6 @@ Tiekėjo grąžinimų tvarkymo procesas apima kelias rankines sekimo užduotis, 
 - Generuoti tikslias grąžinimo paraiškas
 - Didžiojoje knygoje kaupti numatomas gautinas sumas ir tarpinį pelną
 - Suteiktina nuolaida atnaujinti tiekėjo balansą ir pajamų ataskaitą
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

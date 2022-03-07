@@ -1,12 +1,10 @@
 ---
 title: Priežiūros užklausos kūrimas
 description: Šioje temoje aprašoma, kaip modulyje Turto valdymas sukurti priežiūros užklausą.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 10/01/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetRequestTableCreate
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: f45378405d9ea06ae847d93b7eacd9badf6d7e00
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
-ms.translationtype: HT
+ms.openlocfilehash: 4b48a0504b79d2edf7815296312c7839052092e7d6773b7ebd5d38cbb59c9428
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5019183"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6714985"
 ---
 # <a name="create-maintenance-requests"></a>Priežiūros užklausos kūrimas
 
@@ -32,7 +30,7 @@ ms.locfileid: "5019183"
 
 Priežiūros užklausas galima kurti tada, kai techninės priežiūros darbuotojai arba gamybos darbuotojai nustato, kad įrangą reikia taisyti, tačiau remonto atlikti iš karto negalima.
 
-**Pavyzdžiui:** Pavyzdžiui, techninės priežiūros darbuotojas atlieka remonto darbus ir pamato, kad reikia sutaisyti toje pačioje vietoje esančią detalę. Tačiau techninės priežiūros darbuotojas neturi laiko ar reikalingų atsarginių dalių, kad atliktų remonto darbus. Todėl techninės priežiūros darbuotojas sukuria priežiūros užklausą ir trumpai aprašo problemą.
+**Pavyzdys:** Atlikdamas remonto darbus, techninės priežiūros darbuotojas pastebi, kad reikia sutaisyti kitą detalę, esančią toje pačioje vietoje. Tačiau techninės priežiūros darbuotojas neturi laiko ar reikalingų atsarginių dalių, kad atliktų remonto darbus. Todėl jis sukuria detalės priežiūros užklausą ir trumpai aprašo problemą.
 
 Srities **Susijusi informacija**, esančios dešinėje puslapio **Visas turtas** arba **Aktyvus turtas** pusėje (**Turto valdymas**\>**Bendra**\>**Turtas**\>**Visas turtas** arba **Aktyvus turtas**), skyriuje **Aktyvios priežiūros užklausos** rodomos aktyviosios priežiūros užklausos, kurios pridėtos prie pasirinkto turto.
 
@@ -54,7 +52,7 @@ Srities **Susijusi informacija**, esančios dešinėje puslapio **Visas turtas**
 11. Lauke **Pastabos** įveskite papildomas pastabas.
 12. Pasirinkite **Gerai**.
 
-![Kurti priežiūros užklausą](media/03-manage-maintenance-requests.png)
+![Kurti priežiūros užklausą.](media/03-manage-maintenance-requests.png)
 
 ## <a name="subsequent-processing-of-maintenance-requests"></a>Vėlesnis priežiūros užklausų apdorojimas
 
@@ -69,7 +67,10 @@ Išsamios informacijos rodinyje galite atnaujinti įvairią informaciją. Štai 
 - Pasirinkite priežiūros užduoties tipą ir, jei reikia, atitinkamą priežiūros užduoties variantą ir prekybą.
 - Laukuose **Platuma** ir **Ilguma** įveskite geografines koordinates. Visos į priežiūros užklausą įtrauktos koordinatės automatiškai perkeliamos į atitinkamą darbo užsakymą. 
 
-![Priežiūros užklausos atnaujinimas](media/04-manage-maintenance-requests.png)
+![Priežiūros užklausos atnaujinimas.](media/04-manage-maintenance-requests.png)
 
 > [!NOTE]
 > Jei kurdami priežiūros užklausą pasirenkate turtą, prie jo galite pridėti vieną gedimą. Sukūrę priežiūros užklausą, pagal poreikius galite pridėti ir daugiau gedimų. Norėdami pridėti daugiau gedimų, puslapyje **Visos priežiūros užklausos** pasirinkite **Turto gedimas**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,12 +1,10 @@
 ---
 title: Pagrindinis biudžeto sudarymo puslapis
 description: Šioje temoje pateikiama „Microsoft Dynamics 365 Finance“ biudžeto sudarymo funkcinių komponentų, įrankių ir ataskaitų kūrimo galimybių apžvalga.
-author: ShylaThompson
-manager: AnnBe
-ms.date: 08/09/2017
+author: panolte
+ms.date: 04/29/2021
 ms.topic: index-page
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BudgetPlanningWorkspace
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: roschlom
 ms.custom: 106043
 ms.assetid: 702f692e-ad1c-4798-8d3e-c3cf8591d3fa
 ms.search.region: Global
-ms.author: roschlom
+ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: af006a94d29781473c164d108fb48ca7d00d169d
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: a2597dda47e3441d2c41497081849a2213974e55
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4962915"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6187921"
 ---
 # <a name="budgeting-home-page"></a>Pagrindinis biudžeto sudarymo puslapis
 
@@ -30,8 +28,7 @@ ms.locfileid: "4962915"
 
 Šioje temoje pateikiama biudžeto sudarymo funkcinių komponentų, įrankių ir ataskaitų kūrimo galimybių apžvalga. 
 
-<a name="components-of-budgeting-functionality"></a>Biudžeto sudarymo funkciniai komponentai
--------------------------------------
+## <a name="components-of-budgeting-functionality"></a>Biudžeto sudarymo funkciniai komponentai
 
 Įmonės išteklių planavimo ciklą paprastai sudaro planavimo, biudžeto sudarymo ir prognozavimo veikla.
 
@@ -70,3 +67,6 @@ Pavyzdžiui, galite apibrėžti, kas sudaro biudžetus, kas įtraukiama į biud�
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,23 +2,24 @@
 title: Egipto PVM deklaracija
 description: Šioje temoje paaiškinama, kaip sukonfigūruoti ir sugeneruoti Egipto PVM grąžinimo formą.
 author: sndray
-ms.date: 06/03/2021
+ms.date: 03/10/2021
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
 ms.search.scope: ''
 ms.search.region: Global
-ms.author: sndray
+ms.author: tfehr
 ms.search.validFrom: 2017-06-20
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: a67c6e00b94d49b3eb279416407f603923e53b2e
-ms.sourcegitcommit: 7aa7d756e1e98a53da62e03c608a9597ef9893ea
+ms.openlocfilehash: cfbcffd6d9401394cd3089977680500806edd663
+ms.sourcegitcommit: d18d9cdb175c9d42eafbed66352c24b2aa94258b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "7403953"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5881451"
 ---
 #  <a name="vat-declaration-for-egypt-eg-00002"></a>Egipto PVM deklaracija (EG-00002)
 
@@ -77,7 +78,7 @@ Konkrečios programos parametrai leidžia nustatyti kriterijus, kaip mokesčių 
 
 Egipto pardavimo ir pirkimo knygų ataskaitose yra stulpelių rinkinys, atitinkantis konkrečias operacijų klasifikacijas: operacijų tipus, produktus ir dokumentus, būdingus Egiptui. Užuot šias naujas klasifikacijas įtraukus kaip naujus įvesties duomenis, kai paskeliami sandoriai, klasifikacijos apibrėžiamos pagal skirtingas peržvalgas, kurios buvo įvestos pasirinkus **Konfigūracijos** > **Konkrečios programos parametrų nustatymas** > **Sąranka**, atsižvelgiant į Egipto PVM ataskaitų reikalavimus. 
 
-![Konkrečios programos parametrų puslapis.](media/egypt-vat-declaration-setup1.png)
+![Konkrečios programos parametrų puslapis](media/egypt-vat-declaration-setup1.png)
 
 Šios peržvalgos konfigūracijos naudojamos klasifikuojant pirkimo ir pardavimo PVM knygų ataskaitų operacijas:
 
@@ -85,7 +86,6 @@ Egipto pardavimo ir pirkimo knygų ataskaitose yra stulpelių rinkinys, atitinka
 - **VATRateTypeLookup** > B stulpelis: mokesčio tipas
 - **VATRateTypeLookup** > C stulpelis: mokesčio elemento tipas
 - **PurchaseOperationTypeLookup** > A stulpelis: dokumento tipas
-- **CustomerTypeLookup** > A stulpelis: dokumento tipas
 - **SalesOperationTypeLookup** > N stulpelis: operacijos tipas
 - **SalesItemTypeLookup** > O stulpelis: elemento tipas
 
@@ -99,8 +99,6 @@ Norėdami nustatyti skirtingas peržvalgas, naudojamas PVM deklaravimo ir susiju
 6. Visoms galimoms peržvalgoms pakartokite 3–5 veiksmus.
 7. Pasirinkite **Pridėti**, jei norite įtraukti paskutinio įrašo eilutę, o stulpelyje **Peržvalgos rezultatas** pasirinkite **Netaikoma**. 
 8. Likusiuose stulpeliuose pasirinkite **Ne tuščia**. 
-9. Lauke **Būsena** pasirinkite **Baigta**.
-10. Pasirinkite **Įrašyti** ir uždarykite puslapį **Programos parametrai**.
 
 > [!NOTE]
 > Pridėję paskutinį įrašą, **Netaikoma**, apibrėžiate tokią taisyklę: kai pardavimų mokesčių grupė, prekių pardavimų mokesčių grupė, mokesčio kodas ir pavadinimas, perduotas kaip argumentas, neatitinka jokių ankstesnių taisyklių, operacijos neįtraukiamos į pardavimų PVM knygą. Nors ši taisyklė naudojama generuojant ataskaitą, taisyklė padeda išvengti ataskaitos generavimo klaidų, kai trūksta taisyklės konfigūracijos.
@@ -141,7 +139,7 @@ Toliau pateikiamose lentelėse pateikiamas pavyzdinis aprašytų peržvalgos kon
 | Paslaugos       | 7    | VAT_SERV                | *Užpildytas* | SaleExempt            |
 | Paslaugos       | 8    | VAT_SERV                | *Užpildytas* | SalesExemptCreditNote |
 | Koregavimai    | 9    | *Tuščias*                 | VAT_ADJ     | Pardavimas                 |
-| Koregavimai    | 10   | *Tuščias*                 | VAT_ADJ     | Pardavimo kredito pažyma       |
+| Koregavimai    | 10   | *Tuščias*                 | VAT_ADJ     | Pirkimas              |
 | Netaikoma | 11   | *Užpildytas*             | *Užpildytas* | *Užpildytas*           |
 
 **PurchaseItemTypeLookup**
@@ -151,14 +149,16 @@ Toliau pateikiamose lentelėse pateikiamas pavyzdinis aprašytų peržvalgos kon
 | Prekės                  | 1    | VAT_GOODS               | *Užpildytas* | Pirkimas                 |
 | Prekės                  | 2    | VAT_GOODS               | *Užpildytas* | PurchaseCreditNote       |
 | Paslaugos               | 3    | VAT_SERV                | *Užpildytas* | Pirkimas                 |
-| Paslaugos               | 4    | VAT_SERV                | *Užpildytas* | PurchaseCreditNote       |
+| Paslaugos               | 4    | VAT_SERV                | *Užpildytas*  | PurchaseCreditNote       |
 | Mašina ir įranga  | 5    | VAT_M&E                 | *Užpildytas* | Pirkimas                 |
 | Mašina ir įranga  | 6    | VAT_M&E                 | *Užpildytas* | PurchaseCreditNote       |
 | Dalių mašinos         | 7    | VAT_PARTS               | *Užpildytas* | Pirkimas                 |
 | Dalių mašinos         | 8    | VAT_PARTS               | *Užpildytas* | PurchaseCreditNote       |
 | Lengvatos             | 9    | VAT_EXE                 | *Ne bankas*  | PurchaseExempt           |
 | Lengvatos             | 10   | VAT_EXE                 | *Užpildytas* | PurchaseExemptCreditNote |
-| Netaikoma         | 11   | *Užpildytas*             | *Užpildytas* | *Užpildytas*              |
+| Netaikoma         | 11   | *Tuščias*                 | VAT_ADJ     | *Užpildytas*              |
+| Netaikoma         | 12   | *Užpildytas*             | *Užpildytas* | *Užpildytas*              |
+| Netaikoma         | 13   | *Tuščias*                 | *Užpildytas* | *Užpildytas*              |
 
 **PurchaseOperationTypeLookup**
 
@@ -175,17 +175,6 @@ Toliau pateikiamose lentelėse pateikiamas pavyzdinis aprašytų peržvalgos kon
 | Koregavimai    | 9    | *Tuščias*          | VAT_ADJ     | PurchaseCreditNote       |
 | Koregavimai    | 10   | *Tuščias*          | VAT_ADJ     | Pirkimas                 |
 | Netaikoma | 11   | *Užpildytas*      | *Užpildytas* | *Užpildytas*              |
-
-**CustomerTypeLookup**
-
-|    Paieškos rezultatas    | Eilutė | PVM grupė |
-|---------------------|------|-----------------|
-| Organizacija        |  1   | VAT_LOCAL       |
-| Organizacija        |  2   | VAT_EXPORT      |
-| Organizacija        |  3   | VAT_EXE         |
-| Galutinis vartotojas      |  4   | VAT_FINALC      |
-| Vieša organizacija |  5   | VAT_PUBLIO      |
-| Netaikoma      |  6   | *Užpildytas*     |
 
 **VATRateTypeLookup**
 
@@ -206,7 +195,7 @@ Jei norite generuoti PVM grąžinimo formos ataskaitą „Microsoft Excel“ for
 2. Skirtuke **Pardavimų mokestis**, dalyje **Mokesčių parinktys**, laukelyje **PVM išrašo formato išdėstymas** pasirinkite **PVM „Excel“ deklaracija (EG)**. Jei laukelį paliekate tuščią, standartinė pardavimų mokesčių ataskaita bus generuojama SSRS formatu.
 3. Pasirinkite **Kategorijų hierarchija**. Ši kategorija įgalina prekių kodą užsienio prekybos skirtuko operacijose, kad naudotojai galėtų pasirinkti ir klasifikuoti prekes ir paslaugas. Šios klasifikacijos aprašas išsamiai aprašytas pardavimo ir pirkimo operacijų ataskaitose. Ši konfigūracija yra pasirenkama.
 
-![Deklaracijos forma.](media/egypt-vat-declaration-setup2.png)
+![Deklaracijos forma](media/egypt-vat-declaration-setup2.png)
 
 
 ## <a name="generate-a-vat-return-report"></a>Generuoti PVM grąžinimo ataskaitą

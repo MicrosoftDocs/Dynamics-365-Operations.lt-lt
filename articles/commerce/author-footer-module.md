@@ -2,27 +2,24 @@
 title: Poraštės modulis
 description: Šioje temoje aprašomi poraštės moduliai ir tai, kaip juos kurti programoje „Dynamics 365 Commerce“.
 author: anupamar-ms
-manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 42a71ea9498461febca80952acc3158517918332
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 2768317092f43862f26847c4b4c57f5929d43912
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4414327"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346783"
 ---
 # <a name="footer-module"></a>Poraštės modulis  
 
@@ -30,13 +27,11 @@ ms.locfileid: "4414327"
 
 Šioje temoje aprašomi poraštės moduliai ir tai, kaip juos kurti programoje „Microsoft Dynamics 365 Commerce“.
 
-## <a name="overview"></a>Peržiūrėti
-
 Poraštės modulis yra specialus konteineris, kuriame laikomi moduliai, rodomi puslapio poraštėje. Pavyzdžiui, jame gali būti saitų su įvairiais svetainės puslapiais, pvz., puslapiais **Susisiekite su mumis** ir **Parduotuvės strategijos**.
 
 Toliau pateiktame paveikslėlyje parodytas svetainės puslapyje esančio poraštės modulio pavyzdys.
 
-![Poraštės modulio pavyzdys](./media/ecommerce-footer.PNG)
+![Poraštės modulio pavyzdys.](./media/ecommerce-footer.PNG)
 
 ## <a name="footer-module-properties"></a>Poraštės modulių ypatybės 
 
@@ -87,3 +82,6 @@ Fragmentą įtraukdami į puslapio šablonus padedate užtikrinti, kad poraštė
 [Antraštės modulis](author-header-module.md)
 
 [Poraštės modulis](author-footer-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

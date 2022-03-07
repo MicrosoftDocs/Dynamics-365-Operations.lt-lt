@@ -15,19 +15,18 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-07-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 825aa327cc1530675fad57be6fc1b4313f0cf998
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
-ms.translationtype: MT
+ms.openlocfilehash: 80bba5446eb7a87d96a7da4ae856cb5ca114ce52
+ms.sourcegitcommit: 24e20b3b96834b23311f1bf5dbab28baf3323728
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8068975"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "7483787"
 ---
 # <a name="ready-to-pay"></a>Parengta mokėti
 
-
-[!INCLUDE [PEAP](../includes/peap-1.md)]
-
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+[!include [preview feature](./includes/preview-feature.md)]
 
 > [!NOTE]
 > Jei norite pažymėti darbuotoją kaip paruoštą mokėti, pirmiausia turite įgalinti funkciją **(Peržiūrėti) algalapio integravimą** Funkcijų valdyme. Daugiau informacijos apie peržiūros versijos funkcijų įjungimą žr. skyrių [Funkcijų valdymas](hr-admin-manage-features.md).
@@ -73,9 +72,10 @@ Jei nors vienas iš šių tikrinimų nepavyksta, negalite pažymėti darbuotojo 
 
 Jei laukas **Paruošta mokėti** yra **Ne**, tai reiškia, kad turite atlikti veiksmą, užtikrinantį darbuotojo profilio užbaigimą. Tai nesustabdys duomenų parodymo bet kuriame duomenų objekte. 
 
-## <a name="process-automation"></a>Proceso automatizavimas
+## <a name="known-issues"></a>Žinomos problemos
 
-Galite automatizuoti visų darbuotojų tikrinimą naudodami [procesų automatizavimą](/dynamics365/fin-ops-core/dev-itpro/sysadmin/process-automation). Kompensavimo valdymo **darbo srityje** eikite į **Saitų**\> **parametrų** \>**procesų automatizavimas**.
+- Turite išjungti funkciją **Supaprastintas darbuotojo įrašas** Funkcijų valdyme. Plytelės kompensacijų valdymo darbo srityje neveiks tinkamai, jei naudosite šią funkciją.
+- Puslapio **Darbuotojas** skirtuko **Algalapis** grupė **Paruošta mokėti** yra pasiekiama bet kuriam vartotojo vaidmeniui. 
 
 ## <a name="see-also"></a>Taip pat žiūrėkite
 

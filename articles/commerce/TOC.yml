@@ -1,13 +1,11 @@
-- name: „Dynamics 365 Commerce”
+- name: „Dynamics 365 Commerce“
   items:
-    - name: „Dynamics 365 Commerce”
+    - name: „Dynamics 365 Commerce“
       items:
         - name: „Dynamics 365 Commerce“ pagrindinis puslapis
           href: index.md
-        - name: Pradėti
+        - name: Pradžia
           items:
-            - name: Paslaugos aprašymas
-              href: ../fin-ops-core/fin-ops/get-started/service-description.md?toc=/dynamics365/commerce/toc.json
             - name: Prieš perkant
               href: ../fin-ops-core/fin-ops/get-started/before-you-buy.md?toc=/dynamics365/commerce/toc.json
             - name: Vienos versijos paslaugų naujinimai
@@ -74,6 +72,10 @@
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/commerce/toc.json
                 - name: „Commerce Data Exchange“ diegimo nurodymai
                   href: dev-itpro/implementation-considerations-cdx.md
+                - name: '„Finance and Operations“ programos, valdomos „21Vianet“ Kinijoje'
+                  href: ../fin-ops-core/dev-itpro/deployment/china-local-deployment.md?toc=/dynamics365/commerce/toc.json
+                - name: „Finance and Operations“ programos Prancūzijoje
+                  href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/commerce/toc.json
             - name: Palaikymo gavimas
               href: ../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md?toc=/dynamics365/commerce/toc.json
             - name: Plėtojimas ir N-1 palaikymas
@@ -92,15 +94,15 @@
                   items:
                     - name: Kas nauja ar pasikeitė „Commerce“ pagrindiniame puslapyje
                       href: get-started/whats-new-home-page.md
-                    - name: „Commerce 10.0.25“ (2022 m. balandžio mėn.)
-                      href: get-started/whats-new-commerce-10-0-25.md
-                    - name: „Commerce 10.0.24“ (2022 m. vasario mėn.)
-                      href: get-started/whats-new-commerce-10-0-24.md
-                    - name: „Commerce 10.0.23“ (2022 m. sausio mėn.)
-                      href: get-started/whats-new-commerce-10-0-23.md
-                - name: Pašalintos arba nerekomenduojamos funkcijos
+                    - name: „Commerce 10.0.19“ (2021 m. liepos mėn.)
+                      href: get-started/whats-new-commerce-10-0-19.md
+                    - name: „Commerce 10.0.18“ (2021 m. gegužės mėn.)
+                      href: get-started/whats-new-commerce-10-0-18.md
+                    - name: „Commerce 10.0.17“ (2021 m. balandžio mėn.)
+                      href: get-started/whats-new-commerce-10-0-17.md
+                - name: Pašalintos arba nebenaudojamos funkcijos
                   items:
-                    - name: Pašalintos arba nerekomenduojamos funkcijos pagrindinis puslapis
+                    - name: Pašalintų arba nebenaudojamų funkcijų pagrindinis puslapis
                       href: ../fin-ops-core/fin-ops/get-started/removed-deprecated-features-home-page.md?toc=/dynamics365/commerce/toc.json
                     - name: Pašalintos arba nebenaudojamos „Finance and Operations“ funkcijos
                       href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/commerce/toc.json
@@ -126,6 +128,8 @@
                   href: ../fin-ops-core/dev-itpro/user-interface/task-recorder-training-docs.md?toc=/dynamics365/commerce/toc.json
                 - name: Vaizdo įrašai
                   href: ../fin-ops-core/fin-ops/get-started/videos.md?toc=/dynamics365/commerce/toc.json
+                - name: Aiškinamasis terminų žodynas
+                  href: ../fin-ops-core/fin-ops/get-started/glossary.md?toc=/dynamics365/commerce/toc.json
             - name: Mokymosi katalogas
               items:
                 - name: Mokymosi katalogo pagrindinis puslapis
@@ -220,7 +224,7 @@
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/move-on-prem-to-cloud.md?toc=/dynamics365/commerce/toc.json
                 - name: Keli LCS projektai ir gamybos aplinkos viename „Azure AD“ nuomotojuje
                   href: ../fin-ops-core/fin-ops/get-started/implement-multiple-projects-aad-tenant.md?toc=/dynamics365/commerce/toc.json
-                - name: „Finance and Operations Commerce“ projektų įdiegimas
+                - name: „Finance and Operations Commerce“ projektų diegimas
                   href: dev-itpro/implementing-dynamics-365-fin-and-ops-retail-projects.md
                 - name: 'Projektų naujų aplinkų, „Azure DevOps“ ir šakų nustatymas'
                   href: dev-itpro/new-environments-visual-studio-teams-branch-retail-projects.md
@@ -236,7 +240,9 @@
                   href: commerce-architecture.md
                 - name: „Dynamics 365 Commerce“ autentifikavimo srautai
                   href: arch-auth-flow.md
-                - name: Nuotoliniu būdu valdomos prekybos architektūra
+                - name: „Dynamics 365 Commerce“ komponento versijų kūrimo reikalavimai
+                  href: arch-component-versioning.md
+                - name: „Commerce Scale Unit“ architektūra
                   href: dev-itpro/retail-server-architecture.md
                 - name: Parduotuvės topologijos pasirinkimas
                   href: dev-itpro/retail-in-store-topology.md
@@ -248,15 +254,9 @@
                       href: dev-itpro/define-retail-channel-communications-cdx.md
                     - name: „Commerce Data Exchange“ trikčių šalinimas
                       href: dev-itpro/CDX-Troubleshooting.md
-                    - name: „Commerce Data Exchange“ paketų rūšiavimas pagal pirminį indeksą
-                      href: CDX-package-sort.md
                 - name: „Modern POS“ architektūra
                   href: dev-itpro/retail-modern-pos-architecture.md
-                - name: „Commerce“ parduotuvės technologijos dėklo modernizavimas (techninė dokumentacija)
-                  href: 'https://www.microsoft.com/download/details.aspx?id=103896'
-                - name: „Commerce“ diegimas ir trikčių šalinimas neprisijungus
-                  href: dev-itpro/implementation-considerations-offline.md
-                - name: Interneto parduotuvės katalogo publikavimas
+                - name: Internetinių parduotuvių publikavimo architektūra
                   href: dev-itpro/retail-online-store-publishing-architecture.md
                 - name: „Retail Channel Performance Power BI“ turinys
                   href: ../fin-ops-core/dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data.md?toc=/dynamics365/commerce/toc.json
@@ -292,28 +292,6 @@
                   href: ../fin-ops-core/dev-itpro/deployment/apply-deployable-package-system.md?toc=/dynamics365/commerce/toc.json
                 - name: Pradinių duomenų inicijavimas naujose „Commerce“ aplinkose
                   href: enable-configure-retail-functionality.md
-        - name: Diegimas
-          items:
-            - name: Programos ciklo valdymas
-              items:
-                - name: „Dynamics 365 Commerce“ komponento versijų kūrimo reikalavimai
-                  href: arch-component-versioning.md
-            - name: Įgyvendinimo ir naujinimo rekomendacijos
-              items:
-                - name: Įgyvendinimo ir naujinimo rekomendacijų apžvalga
-                  href: go-live/go-live-overview.md
-                - name: Efektyvumas
-                  items:
-                    - name: Vaizdų optimizavimas
-                      href: go-live/performance-optimize-images.md
-                    - name: „JavaScript“ sumažinimas neįtraukiant nenaudojamų modulių
-                      href: go-live/performance-reduce-javascript.md
-            - name: AX 2012 laipsniškas išleidimas
-              items:
-                - name: 'Plėtojimas ir N-1 palaikymas, skirtas „Commerce“'
-                  href: dev-itpro/overview-upgrade-n-minus1.md
-                - name: 'Laipsniško išleidimo (N-1) diegimo, konfigūravimo ir pritaikymo vadovas'
-                  href: dev-itpro/n-1-installation-configuration.md
         - name: Kanalų nustatymas
           items:
             - name: Kanalų apžvalga
@@ -386,12 +364,8 @@
                   href: channel-setup-retail.md
                 - name: Mažmeninės prekybos darbininkų konfigūravimas
                   href: tasks/worker.md
-                - name: '„Modern Point of Sale“ (MPOS), „Cloud POS“ ir „Store Commerce“'
+                - name: Modernusis elektroninis kasos aparatas (MPOS) ir „Cloud POS“
                   items:
-                    - name: „Store Commerce“ programa „Microsoft Dynamics 365 Commerce“ (peržiūros versija)
-                      href: dev-itpro/store-commerce.md
-                    - name: Įrenginių valdymo diegimo instrukcijos
-                      href: implementation-considerations-devices.md
                     - name: Pasirinkimas tarp MPOS ir „Cloud POS“
                       href: MPOS-or-CPOS.md
                     - name: EKA operacijos prisijungus ir neprisijungus prie interneto
@@ -406,6 +380,8 @@
                       href: ../supply-chain/pim/search-products-product-variants.md?toc=/dynamics365/commerce/toc.json
                     - name: Grynųjų pinigų valdymo patobulinimai
                       href: cash-mgmt.md
+                    - name: EKA atsargų peržvalga
+                      href: product-variants-POS.md
                     - name: EKA operacijų sulaikymas ir atnaujinimas
                       href: pos-suspend-recall-transactions.md
                     - name: Autonominės EKA funkcijos
@@ -448,18 +424,6 @@
                           href: set-up-manage-images-retail-mpos.md
                         - name: Klientų vaizdai EKA
                           href: pos-image.md
-                        - name: URL atidarymas EKA
-                          href: open-url-in-pos.md
-                    - name: Mokėjimai
-                      items:
-                        - name: Dovanų kortelės
-                          items:
-                            - name: Išorinių dovanų kortelių palaikymas
-                              href: dev-itpro/gift-card.md
-                    - name: RSAT
-                      items:
-                        - name: Testavimo įrašymo priemonė ir „Cloud POS“ skirtas „Regression Suite Automation Tool“
-                          href: dev-itpro/pos-rsat.md
                     - name: Pardavimo darbuotojai
                       items:
                         - name: EKA komisinių sekimas naudojant pardavimo grupes
@@ -556,16 +520,8 @@
                       href: tasks/configure-credit-card-processing.md
                     - name: Dialogo lango „Grąža“ praleidimas EKA
                       href: dev-itpro/skip-change-due.md
-                    - name: '„Dynamics 365 Payment Connector“, skirta sprendimui „Adyen“'
-                      items:
-                        - name: '„Dynamics 365 Payment Connector“, skirto sprendimui „Adyen“, apžvalga'
-                          href: dev-itpro/adyen-connector.md
-                        - name: '„Dynamics 365 Payment Connector“, skirto sprendimui „Adyen“, nustatymas'
-                          href: dev-itpro/adyen-connector-setup.md
-                        - name: 'DUK apie „Dynamics 365 Payment Connector“, skirto sprendimui „Adyen“'
-                          href: dev-itpro/adyen-connector-faq.md
-                        - name: '„Dynamics 365 Payment Connector“, skirtos sprendimui „Adyen“, trikčių šalinimas'
-                          href: dev-itpro/adyen-connector-troubleshoot.md
+                    - name: „Adyen“ mokėjimo jungtis
+                      href: dev-itpro/adyen-connector.md
                     - name: Internetinių mokėjimo priemonių įrašymas naudojant „Adyen“ jungtį
                       href: dev-itpro/adyen-connector-listPI.md
                     - name: Griežtas kliento autentiškumo patvirtinimas (SCA) naudojant „Adyen“ jungtį
@@ -580,8 +536,6 @@
                       href: duplicate-payment-protection.md
                     - name: Integruotų kanalų mokėjimų apžvalga
                       href: omni-channel-payments.md
-                    - name: Keli galimi mokėjimo būdai atsiimant prekes parduotuvėje
-                      href: dev-itpro/multiple-payments-pickup.md
                     - name: Daugiakanaliai „Commerce“ užsakymų mokėjimai
                       href: dev-itpro/commerce-payments.md
                     - name: Archyvuoti kredito kortelės operacijų duomenis
@@ -592,8 +546,6 @@
                       href: paypal.md
                     - name: Mokėjimo naudojant piniginę palaikymas
                       href: wallets.md
-                    - name: Išplėstiniai mokėjimai parduotuvės pirkimo užbaigime
-                      href: dev-itpro/enhanced-sca.md
                     - name: DUK apie mokėjimus
                       href: dev-itpro/payments-retail.md
                 - name: El. laiškai ir pranešimai
@@ -606,8 +558,6 @@
                   href: dev-itpro/manage-bing-maps.md
                 - name: Kliento paėmimo laiko atkarpų kūrimas ir naujinimas
                   href: dev-itpro/pickup-timeslots.md
-                - name: 'Produkto dimensijos reikšmių konfigūravimas, kad jos būtų rodomos kaip pavyzdžiai'
-                  href: dev-itpro/dimensions-swatch.md
         - name: Jūsų produktų ir paslaugų reklamavimas parduotuvėje
           items:
             - name: 'Kategorijos, produktai ir asortimentai'
@@ -700,8 +650,6 @@
                   href: tasks/base-price-trade-agreements.md
                 - name: Prekybos sutarčių kūrimas naudojant kategorijos kainų taisykles
                   href: tasks/category-pricing-rules-trade-agreements.md
-                - name: Tikslios kainos ir nuolaidos skaičiavimo atidėjimas
-                  href: delayed-price-calculation.md
             - name: Rekomendacijos
               items:
                 - name: Produktų rekomendacijų apžvalga
@@ -746,14 +694,6 @@
                   href: configure-ratings-reviews.md
                 - name: Produktų įvertinimų sinchronizavimas
                   href: sync-product-ratings.md
-                - name: Neautomatinio vadovo įvertinimų ir apžvalgų publikavimo įjungimas
-                  href: manual-publish-rating-reviews.md
-                - name: Įvertinimų ir atsiliepimų importavimas ir eksportavimas
-                  href: import-export-reviews.md
-                - name: Ryšių tarp tarnybų autentifikavimo konfigūravimas
-                  href: service-to-service-auth.md
-                - name: DUK apie įvertinimus ir apžvalgas
-                  href: ratings-reviews-faq.md
             - name: Atsargų tvarkymas
               items:
                 - name: Atsargos
@@ -774,8 +714,6 @@
                       href: pos-outbound-inventory-operation.md
                     - name: Mažmeninės prekybos kanalų atsargų pasiekiamumo apskaičiavimas
                       href: calculated-inventory-retail-channels.md
-                    - name: Atsargų peržvalgos operacija EKA
-                      href: pos-inventory-lookup-operation.md
                 - name: Pirkimo užsakymai
                   items:
                     - name: Pirkimo užsakymų apžvalga
@@ -804,8 +742,6 @@
                   href: multiple-pickup-modes.md
                 - name: Kliento užsakymo paėmimo EKA apdorojimas
                   href: process-order-pickup-POS.md
-                - name: Svečių pirkimo užbaigimo užsakymo peržvalgos įjungimas
-                  href: order-lookup-guest.md
             - name: Pardavimo užsakymai
               items:
                 - name: Skambučių centro užsakymų kūrimas
@@ -830,18 +766,12 @@
                   href: notifications-pos.md
                 - name: Tęstinumo programų pardavimas ir pardavimo užsakymų apdorojimas
                   href: tasks/use-continuity-program.md
-                - name: Klientų įregistravimo pranešimų EKA įjungimas
+                - name: Klientų įregistravimo pranešimų elektroniniame kasos aparate (EKA) įjungimas
                   href: enable-customer-check-in.md
-            - name: Prekių ir pinigų grąžinimai
+            - name: Grąžinimai
               items:
-                - name: Grąžinimų kūrimas EKA
-                  href: POS-returns.md
-                - name: Serijos numeriais kontroliuojamų produktų grąžinimas naudojant EKA
-                  href: POS-serial-returns.md
                 - name: Susieti grąžinimai
                   href: dev-itpro/linked-refunds.md
-                - name: 'Atsietų grąžinimų apdorojimas naudojant „Dynamics 365 Commerce Payment Connector“, skirtą „Adyen“'
-                  href: dev-itpro/unlinked-refunds.md
                 - name: Į parduotuvės asortimentą neįtrauktų produktų pardavimas ir grąžinimas
                   href: sell-return-outside-assortments.md
                 - name: Pakeitimo sukonfigūravimas ir apdorojimas grąžinimo užsakyme
@@ -856,10 +786,6 @@
           items:
             - name: Klientų valdymas parduotuvėse
               href: customer-mgmt-stores.md
-            - name: Asinchroninis kliento kūrimo režimas
-              href: async-customer-mode.md
-            - name: Asinchroninių klientų konvertavimas į sinchroninius klientus
-              href: convert-async-to-sync.md
             - name: Ryšiai su klientais
               items:
                 - name: Ryšių su klientais apžvalga
@@ -880,7 +806,7 @@
           items:
             - name: Išrašų apžvalga
               href: retail-statements.md
-            - name: Parduotuvės operacijų tikrinimas išrašų duomenims apskaičiuoti
+            - name: Operacijų vientisumo tikrintuvas
               href: valid-checker.md
             - name: Mažmeninės prekybos operacijų vientisumo tikrintuvo taisyklių išjungimas
               href: disable-consistency-check-rule.md
@@ -966,8 +892,6 @@
                   href: set-up-B2C-tenant.md
                 - name: Vartotojo registracijos pasirinktinių puslapių sąranka
                   href: custom-pages-user-logins.md
-                - name: Įgalinti automatinį tapatybės įrašų susiejimą su kliento sąskaitomis
-                  href: identity-record-linking.md
                 - name: „Commerce” aplinkos kelių B2C nuomotojų konfigūravimas
                   href: configure-multi-B2C-tenants.md
                 - name: „Dynamics 365 Commerce“ esantys domenai
@@ -980,8 +904,6 @@
                   href: enable-store-detection.md
                 - name: El. prekybos skaitmeninių dovanų kortelės
                   href: digital-gift-cards.md
-                - name: 'Produkto, kuris bus perkamas nemokamai, konfigūravimas'
-                  href: configure-free-product.md
                 - name: „Dynamics 365 Commerce“ svetainių naršyklės reikalavimai
                   href: browser-requirements.md
             - name: Svetainės pavyzdžio apžvalga
@@ -1002,8 +924,6 @@
                   href: manage-ecommerce-users-roles.md
                 - name: Atsargų parametrų taikymas
                   href: inventory-settings.md
-                - name: Produkto įtraukimo į krepšelį parametrų taikymas
-                  href: add-cart-settings.md
                 - name: Ieškos modulio optimizavimo (SEO) aplinkybės jūsų svetainei
                   href: search-engine-optimization-considerations.md
                 - name: Turinio saugos strategijos (CSP) tvarkymas
@@ -1012,8 +932,6 @@
                   href: web-activity-opt-out.md
                 - name: Matavimo vieneto parametrų taikymas
                   href: unit-of-measure.md
-                - name: Rodymo parametrų taikymas produkto dimensijoms
-                  href: dimension-settings.md
             - name: Svetainės turinio tvarkymas
               items:
                 - name: Turinio įtraukimo būdai
@@ -1038,11 +956,13 @@
                       href: style-presets.md
                     - name: Įtraukti parankinių piktogramą
                       href: add-favicon.md
+                    - name: Įtraukti pasveikinimo pranešimą
+                      href: add-welcome-message.md
                     - name: Įtraukti informaciją apie autorių teises
                       href: add-copyright-notice.md
                     - name: Įtraukti kalbas
                       href: add-languages-to-site.md
-                    - name: 'Įtraukti scenarijaus kodą į svetainės puslapius, kad būtų palaikoma telemetrija'
+                    - name: 'Įtraukite scenarijaus kodą į svetainės puslapius, kad būtų palaikoma telemetrija'
                       href: add-telemetry.md
                 - name: Moduliai
                   items:
@@ -1086,12 +1006,6 @@
                       href: customize-site-navigation.md
                     - name: Puslapio URL kūrimas
                       href: create-page-URL.md
-                - name: „Adventure Works“ tema
-                  items:
-                    - name: „Adventure Works“ temos apžvalga
-                      href: adventure-works-theme.md
-                    - name: „Adventure Works“ temos diegimas
-                      href: install-adventure-works.md
             - name: Skaitmeninio turto valdymas
               items:
                 - name: Skaitmeninio turto valdymo apžvalga
@@ -1146,16 +1060,6 @@
                       href: add-hero-module.md
                     - name: Vaizdo įrašų leistuvo modulis
                       href: add-video-player.md
-                    - name: Aktyvaus vaizdo modulis
-                      href: active-image-module.md
-                    - name: Vaizdų sąrašo modulis
-                      href: image-list-module.md
-                    - name: Interaktyvių funkcijų modulis
-                      href: interactive-feature-module.md
-                    - name: Prenumeruoti modulį
-                      href: subscribe-module.md
-                    - name: Plytelių sąrašo modulis
-                      href: tile-list-module.md
                 - name: Antraštės ir poraštės moduliai
                   items:
                     - name: Antraštės modulis
@@ -1204,8 +1108,6 @@
                       href: order-confirmation-module.md
                     - name: Dovanų kortelės modulis
                       href: add-giftcard.md
-                    - name: Užsakymo peržvalgos modulis
-                      href: order-lookup-module.md
                 - name: Parduotuvės ieškiklio moduliai
                   items:
                     - name: Žemėlapio modulis
@@ -1234,9 +1136,7 @@
                       href: nav-menu-module.md
                     - name: Svetainės išrinkiklio modulis
                       href: site-selector.md
-                    - name: Šalies / regiono išrinkiklio modulis
-                      href: country-region-picker-module.md
-                - name: Ieškos moduliai
+                - name: Ieškoti modulių
                   items:
                     - name: Ieškos rezultatų modulis
                       href: search-result-module.md
@@ -1254,12 +1154,6 @@
               items:
                 - name: Generuoti interneto kanalo ataskaitas
                   href: generate-reports.md
-            - name: Orientavimas
-              items:
-                - name: 'Orientavimas pagal įrenginį, rinką ir geografinę vietą'
-                  href: targeting-overview.md
-                - name: Geografinės srities aptikimo ir peradresavimo nustatymas
-                  href: geo-detection-redirection.md
             - name: Eksperimentavimas
               items:
                 - name: Eksperimentavimas „Dynamics 365 Commerce“
@@ -1290,16 +1184,10 @@
           items:
             - name: B2B el. prekybos svetainės nustatymas
               href: b2b/set-up-b2b-site.md
-            - name: B2B verslo partnerių valdymas naudojant klientų hierarchijas
-              href: b2b/partners-customer-hierarchies.md
+            - name: B2B organizacijų modeliavimo hierarchijų kūrimas
+              href: b2b/org-model.md
             - name: Verslo partnerio vartotojų valdymas B2B el. prekybos svetainėse
               href: b2b/manage-b2b-users.md
-            - name: Verslo partnerių vartotojų valdymas B2B el. prekybos svetainėse naudojant „Dynamics 365 Sales“
-              href: b2b/prospect-management-sales.md
-            - name: Greitas B2B svetainės užsakymų pateikimas
-              href: b2b/quick-bulk-orders.md
-            - name: B2B el. komercijos svetainių SF valdymas
-              href: b2b/invoice-management.md
             - name: B2B el. prekybos svetainių kliento sąskaitos mokėjimo metodo konfigūravimas
               href: b2b/payment-method.md
             - name: B2B el. prekybos svetainių produktų kiekio apribojimų nustatymas
@@ -1320,74 +1208,30 @@
               href: set-up-rfm-analysis.md
             - name: „Microsoft Clarity“ nustatymas „Dynamics 365 Commerce“
               href: set-up-clarity.md
-            - name: „Commerce“ analizė (peržiūros versija)
-              href: commerce-analytics.md
         - name: Globalizacija
           items:
             - name: „Commerce“ kanalo fiskalinės integracijos peržiūra
               href: localizations/fiscal-integration-for-retail-channel.md
             - name: „Commerce“ kanalo fiskalinės integracijos nustatymas
               href: localizations/setting-up-fiscal-integration-for-retail-channel.md
-            - name: Fiskalinės integracijos pavyzdžio kūrimo srauto nustatymas
-              href: localizations/fiscal-integration-sample-build-pipeline.md
             - name: Vartotojo apibrėžti mažmeninės prekybos parduotuvių sertifikatų profiliai
               href: localizations/certificate-profiles-for-retail-stores.md
-            - name: „Regulatory Configuration Service“ (RCS)
+            - name: Regulatory Configuration Service
               items:
-                - name: „Regulatory Configuration Service“ (RCS) apžvalga
+                - name: „Regulatory Configuration Service“ apžvalga
                   href: ../finance/localizations/rcs-overview.md?toc=/dynamics365/commerce/toc.json
-                - name: (RCS) „Regulatory Configuration Service“ (RCS) – globalizacijos funkcijos
+                - name: „Regulatory Configuration Service“ – globalizacijos funkcijos
                   href: ../finance/localizations/rcs-globalization-feature.md?toc=/dynamics365/commerce/toc.json
-                - name: Elektroninių ataskaitų konfigūracijų „Regulatory Configuration Service“ (RCS) kūrimas ir nusiuntimas į bendrąją saugyklą
+                - name: ER konfigūracijų „Regulatory Configuration Service“ kūrimas ir nusiuntimas į bendrąją saugyklą
                   href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/commerce/toc.json
-                - name: „Regulatory Configuration Service“ (RCS) – „Lifecycle Services“ saugyklos netinkamumas
-                  href: ../finance/localizations/rcs-lcs-repo-dep-faq.md?toc=/dynamics365/commerce/toc.json
-                - name: ER konfigūracijų atsisiuntimas „Commerce“
-                  items:
-                    - name: Konfigūracijų atsisiuntimas iš RCS
-                      href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/commerce/toc.json
-                    - name: Konfigūracijų importavimas iš RCS
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/commerce/toc.json
-                    - name: Visuotinė saugykla (GR)
-                      items:
-                        - name: Konfigūracijų importavimas iš GR
-                          href: ../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md?toc=/dynamics365/commerce/toc.json
-                        - name: Atnaujintų ER konfigūracijų versijų importavimas
-                          href: ../fin-ops-core/dev-itpro/analytics/er-download-updated-versions-global-repo.md?toc=/dynamics365/commerce/toc.json
-                        - name: Išplėstinis filtravimas konfigūracijoms rasti GR
-                          href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/commerce/toc.json
-                        - name: Konfigūracijų nusiuntimas į GR
-                          href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/commerce/toc.json
-                        - name: Konfigūracijų bendrinimas GR
-                          href: ../finance/localizations/rcs-global-repo-share-configuration.md?toc=/dynamics365/commerce/toc.json
-                        - name: Konfigūracijų RCS visuotinėje saugykloje naudojimo nutraukimas
-                          href: ../finance/localizations/discontinuing-configurations-rcs-global-repo.md?toc=/dynamics365/commerce/toc.json
             - name: Austrija
               items:
                 - name: 'Fiskalinės registracijos paslaugos integravimo pavyzdys, skirtas Austrijai'
                   href: localizations/emea-aut-fi-sample.md
-                - name: 'Fiskalinės integracijos pavyzdžio, skirto Austrijai, visuotinio diegimo gairės (senstelėjusios)'
-                  href: localizations/emea-aut-fi-sample-sdk.md
             - name: Brazilija
               items:
                 - name: „Commerce“ lokalizavimas Brazilijai
                   href: localizations/latam-bra-commerce-localization.md
-                - name: „Commerce“ lokalizavimo nustatymas ir diegimas Brazilijai
-                  href: localizations/latam-bra-deployment.md
-                - name: NFC-e finansinių dokumentų funkcijos „Commerce“ EKA Brazilijai
-                  href: localizations/latam-bra-nfce.md
-                - name: Klientų informacijos valdymas EKA Brazilijai
-                  href: localizations/latam-bra-customer-information.md
-                - name: NFC-e dokumentų atšaukimas ir grąžinimas „Commerce“ EKA Brazilijai
-                  href: localizations/latam-bra-nfce-cancel-return.md
-                - name: 'Atidėtas NFC–e dokumentų, išduotų atsakomųjų priemonių režimu neprisijungus, registravimas'
-                  href: localizations/latam-bra-nfce-contingency-mode.md
-                - name: Brazilijos finansinių dokumentų registravimas naudojant mažmeninės prekybos išrašus „Commerce“ būstinėje
-                  href: localizations/latam-bra-retail-statements.md
-                - name: CF-e finansinis dokumentas ir integravimas į SAT funkcijas „Commerce POS“ Brazilijai
-                  href: localizations/latam-bra-cf-e-sat.md
-                - name: '„Dynamics 365 Payment Connector“, skirta „Adyen“, „Commerce POS“ Brazilijai'
-                  href: localizations/latam-bra-adyen.md
             - name: Rytų Europa
               items:
                 - name: Bendroji
@@ -1404,34 +1248,22 @@
                   items:
                     - name: 'Fiskalinės registracijos paslaugos integravimo pavyzdys, skirtas Čekijos Respublikai'
                       href: localizations/emea-cze-fi-sample.md
-                    - name: 'Fiskalinės integracijos pavyzdžio, skirto Čekijos Respublikai, visuotinio diegimo gairės (senstelėjusios)'
-                      href: localizations/emea-cze-fi-sample-sdk.md
                 - name: Lenkija
                   items:
                     - name: Fiskalinio spausdintuvo integracijos pavyzdys (Lenkija)
                       href: localizations/emea-pol-fpi-sample.md
                     - name: Klientų informacijos valdymas (Lenkija)
                       href: localizations/emea-pol-customer-information.md
-                    - name: 'Fiskalinės integracijos pavyzdžio, skirto Lenkijai, visuotinio diegimo gairės (senstelėjusios)'
-                      href: localizations/emea-pol-fpi-sample-sdk.md
             - name: Prancūzija
               items:
                 - name: Kasos aparato funkcijos
                   href: localizations/emea-fra-cash-registers.md
                 - name: Kasos aparatų diegimo gairės
-                  href: localizations/emea-fra-fi-deployment.md
-                - name: Finansinio archyvo ir duomenų vientisumo tikrinimas
-                  href: localizations/emea-fra-fiscal-archive.md
-                - name: Perkėlimas iš senstelėjusių funkcijų Prancūzijai
-                  href: localizations/emea-fra-fi-migration.md
-                - name: Kasos aparatų diegimo gairės (senstelėjusios)
                   href: localizations/emea-fra-deployment.md
             - name: Vokietija
               items:
                 - name: 'Fiskalinės registracijos paslaugos integravimo pavyzdys, skirtas Vokietijai'
                   href: localizations/emea-deu-fi-sample.md
-                - name: 'Fiskalinės integracijos pavyzdžio, skirto Vokietijai, visuotinio diegimo gairės (senstelėjusios)'
-                  href: localizations/emea-deu-fi-sample-sdk.md
             - name: Indija
               items:
                 - name: Kasos aparatų prekių ir paslaugų mokesčio (PPM) integravimas
@@ -1440,18 +1272,14 @@
                   href: localizations/apac-ind-loc-deployment-guidelines.md
                 - name: Plėtojimo ir N-1 palaikymas (Indija)
                   href: localizations/apac-ind-n-1-for-india.md
-                - name: QR kodų generavimas ir spausdinimas kvituose Indijai
+                - name: QR kodų generavimas ir spausdinimas kvituose
                   href: localizations/ind-generate-qr-code-print-receipt.md
-                - name: El. prekybos svetainių prekių ir paslaugų mokesčio (PPM) integravimas
-                  href: localizations/apac-ind-e-commerce.md
             - name: Italija
               items:
                 - name: Fiskalinio spausdintuvo integracijos pavyzdys (Italija)
                   href: localizations/emea-ita-fpi-sample.md
                 - name: Klientų informacijos valdymas (Italija)
                   href: localizations/emea-ita-customer-information.md
-                - name: 'Fiskalinės integracijos pavyzdžio, skirto Italijai, visuotinio diegimo gairės (senstelėjusios)'
-                  href: localizations/emea-ita-fpi-sample-sdk.md
             - name: Meksika
               items:
                 - name: Visuotinės CFDI el. sąskaitos faktūros (Meksika)
@@ -1461,35 +1289,13 @@
                 - name: Kasos aparato funkcijos
                   href: localizations/emea-nor-cash-registers.md
                 - name: Kasos aparatų diegimo gairės
-                  href: localizations/emea-nor-fi-deployment.md
-                - name: Kasos aparatų diegimo gairės (senstelėjusios)
                   href: localizations/emea-nor-loc-deployment-guidelines.md
-            - name: Rusija
-              items:
-                - name: „Commerce“ lokalizavimas Rusijai
-                  href: localizations/rus-commerce-localization.md
-                - name: „Commerce“ lokalizavimo Rusijai nustatymas
-                  href: localizations/rus-commerce-setup.md
-                - name: Išankstiniai mokėjimai „Commerce“ Rusijai
-                  href: localizations/rus-commerce-prepayments.md
-                - name: Supaprastintas kliento adreso formatas „Commerce“ EKA Rusijai
-                  href: localizations/rus-simplified-address.md
-                - name: Fiskalinio spausdintuvo integracijos pavyzdys (Rusija)
-                  href: localizations/rus-fpi-sample.md
-                - name: Klientų informacijos valdymas (Rusija)
-                  href: localizations/rus-customer-information.md
-            - name: Saudo Arabija
-              items:
-                - name: QR kodų generavimas ir spausdinimas kvituose (Saudo Arabija)
-                  href: localizations/emea-sau-qr-code.md
             - name: Švedija
               items:
                 - name: Kasos aparato funkcijos
                   href: localizations/emea-swe-cash-registers.md
                 - name: Švedijos kontrolės įtaiso integracijos pavyzdys
                   href: localizations/emea-swe-fi-sample.md
-                - name: 'Kontrolės įtaiso integracijos pavyzdžio, skirto Švedijai, visuotinio diegimo gairės (senstelėjusios)'
-                  href: localizations/emea-swe-fi-sample-sdk.md
                 - name: „Retail POS“ integravimo su kontrolės įtaisais pavyzdys (senesnis)
                   href: localizations/retail-sdk-control-unit-sample.md
         - name: Ataskaitų ir „Power BI“ integravimai
@@ -1592,8 +1398,6 @@
           items:
             - name: Elektroninių ataskaitų apžvalga
               href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting.md?toc=/dynamics365/commerce/toc.json
-            - name: Elektroninių ataskaitų komponentai
-              href: ../fin-ops-core/dev-itpro/analytics/er-overview-components.md?toc=/dynamics365/commerce/toc.json
             - name: Konfigūracijos
               items:
                 - name: Konfigūracijų kūrimas
@@ -1638,12 +1442,6 @@
               items:
                 - name: Formulės kalba
                   href: ../fin-ops-core/dev-itpro/analytics/er-formula-language.md?toc=/dynamics365/commerce/toc.json
-                - name: Palaikomi ER formulių duomenų tipai
-                  items:
-                    - name: Pagrindinių duomenų tipai
-                      href: ../fin-ops-core/dev-itpro/analytics/er-formula-supported-data-types-primitive.md?toc=/dynamics365/commerce/toc.json
-                    - name: Sudėtinių duomenų tipai
-                      href: ../fin-ops-core/dev-itpro/analytics/er-formula-supported-data-types-composite.md?toc=/dynamics365/commerce/toc.json
                 - name: Funkcijos
                   items:
                     - name: Konteineris
@@ -1658,8 +1456,6 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-datetime.md?toc=/dynamics365/commerce/toc.json
                         - name: AddDays
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-adddays.md?toc=/dynamics365/commerce/toc.json
-                        - name: ChangeTimeZone
-                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-changetimezone.md?toc=/dynamics365/commerce/toc.json
                         - name: DateFormat
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-dateformat.md?toc=/dynamics365/commerce/toc.json
                         - name: DateTimeFormat
@@ -1686,9 +1482,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-sessiontoday.md?toc=/dynamics365/commerce/toc.json
                         - name: Today
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-today.md?toc=/dynamics365/commerce/toc.json
-                        - name: WeekNum
-                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-weeknum.md?toc=/dynamics365/commerce/toc.json
-                    - name: List
+                    - name: Sąrašas
                       items:
                         - name: Sąrašo funkcijos
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-list.md?toc=/dynamics365/commerce/toc.json
@@ -1806,8 +1600,6 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-lower.md?toc=/dynamics365/commerce/toc.json
                         - name: Mid
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-mid.md?toc=/dynamics365/commerce/toc.json
-                        - name: NewGUID
-                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-newguid.md?toc=/dynamics365/commerce/toc.json
                         - name: NumberFormat
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-numberformat.md?toc=/dynamics365/commerce/toc.json
                         - name: NumeralsToText
@@ -1914,12 +1706,12 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-text.md?toc=/dynamics365/commerce/toc.json
             - name: ER formatų kūrimas siunčiamiems dokumentams įvairiais formatais generuoti
               items:
-                - name: 'Konfigūracijos, skirtos ataskaitoms OPENXML formatu generuoti, kūrimas'
-                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-reports-openxml-2016-11.md?toc=/dynamics365/commerce/toc.json
                 - name: Konfigūracijų kūrimas siunčiamiems dokumentams „Excel“ formatu generuoti
                   items:
                     - name: Konfigūracijų kūrimas dokumentams „Excel“ formatu generuoti
                       href: ../fin-ops-core/dev-itpro/analytics/er-fillable-excel.md?toc=/dynamics365/commerce/toc.json
+                    - name: Ataskaitų generavimo OPENXML formatu pavyzdys
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-reports-openxml-2016-11.md?toc=/dynamics365/commerce/toc.json
                     - name: ER formatų modifikavimas iš naujo pritaikant „Excel“ šablonus
                       href: ../fin-ops-core/dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md?toc=/dynamics365/commerce/toc.json
                     - name: Dinaminis stulpelių įtraukimas į „Excel“ ataskaitas naudojant horizontaliai išplečiamus diapazonus
@@ -1928,8 +1720,6 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-1.md?toc=/dynamics365/commerce/toc.json
                         - name: 'Formatų, skirtų stulpeliams dinamiškai įtraukti į „Excel“ ataskaitas, paleidimas'
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-2.md?toc=/dynamics365/commerce/toc.json
-                    - name: ER formato kūrimas „Excel“ sugeneruotų dokumentų puslapiams numeruoti
-                      href: ../fin-ops-core/dev-itpro/analytics/er-paginate-excel-reports.md?toc=/dynamics365/commerce/toc.json
                 - name: Ataskaitų generavimo „Word“ formatu konfigūracijų kūrimas
                   items:
                     - name: Ataskaitų generavimo „Word“ formatu naujos ER konfigūracijos kūrimas
@@ -1952,8 +1742,6 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-2-review-configurations.md?toc=/dynamics365/commerce/toc.json
                         - name: Ataskaitų „Office“ formatais su įdėtaisiais vaizdais generavimas
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-3-generate-reports.md?toc=/dynamics365/commerce/toc.json
-                    - name: 'ER formato kūrimas, kad būtų galima sugeneruoti „Excel” ataskaitą su į puslapių antraštes ar poraštes įdėtais vaizdais'
-                      href: ../fin-ops-core/dev-itpro/analytics/er-embed-images-header-footer-excel-reports.md?toc=/dynamics365/commerce/toc.json
                 - name: Sugeneruotų XML failų skaidymas pagal failo dydį ir turinio kiekį
                   href: ../fin-ops-core/dev-itpro/analytics/er-split-files.md?toc=/dynamics365/commerce/toc.json
                 - name: KS simbolių sulaikymas sugeneruotuose failuose
@@ -1980,8 +1768,6 @@
                   items:
                     - name: Konfigūracijų kūrimas norint importuoti duomenis iš išorinio XML failo
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-required-configurations-import-data.md?toc=/dynamics365/commerce/toc.json
-                    - name: Paketinis duomenų importavimas iš rankiniu būdu pasirinktų failų
-                      href: ../fin-ops-core/dev-itpro/analytics/er-configure-data-import-batch.md?toc=/dynamics365/commerce/toc.json
                 - name: Duomenų importavimo paketiniu režimu iš „SharePoint“ esančių failų konfigūravimas
                   href: ../fin-ops-core/dev-itpro/analytics/er-configure-data-import-sharepoint.md?toc=/dynamics365/commerce/toc.json
                 - name: Failų importavimas XML formatu
@@ -2004,10 +1790,10 @@
                       href: ../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/dynamics365/commerce/toc.json
                     - name: Konfigūracijų importavimas (LBD)
                       href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/dynamics365/commerce/toc.json
-                - name: „Regulatory Configuration Service“ (RCS)
+                - name: Regulatory service (RCS)
                   items:
-                    - name: „Regulatory Configuration Service“ (RCS) apžvalga
-                      href: ../finance/localizations/rcs-overview.md?toc=/dynamics365/commerce/toc.json
+                    - name: RCS globalizacijos funkcijos
+                      href: ../finance/localizations/rcs-globalization-feature.md?toc=/dynamics365/commerce/toc.json
                     - name: ER konfigūracijų atsisiuntimas „Commerce“
                       items:
                         - name: Konfigūracijų atsisiuntimas iš RCS
@@ -2084,14 +1870,10 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-4.md?toc=/dynamics365/commerce/toc.json
                         - name: 'Formatų, skirtų dokumentų valdymo failams naudoti, modifikavimas ir taikymas'
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-5.md?toc=/dynamics365/commerce/toc.json
-                    - name: BRŪKŠNINIO KODO naudojimas brūkšninio kodo vaizdams generuoti
-                      href: ../fin-ops-core/dev-itpro/analytics/er-barcode-data-sources.md?toc=/dynamics365/commerce/toc.json
-                    - name: 'Konfigūruokite PERŽVALGOS duomenų šaltinius, kad būtų galima naudoti konkretaus ER prašymo parametrus'
-                      href: ../fin-ops-core/dev-itpro/analytics/er-lookup-data-sources.md?toc=/dynamics365/commerce/toc.json
-                    - name: DUOMENŲ RINKINIO duomenų šaltinių naudojimas ER formatuose
-                      href: ../fin-ops-core/dev-itpro/analytics/er-data-collection-data-sources.md?toc=/dynamics365/commerce/toc.json
                     - name: Duomenų šaltinių derinimas
                       href: ../fin-ops-core/dev-itpro/analytics/er-debug-data-sources.md?toc=/dynamics365/commerce/toc.json
+                    - name: BRŪKŠNINIO KODO naudojimas brūkšninio kodo vaizdams generuoti
+                      href: ../fin-ops-core/dev-itpro/analytics/er-barcode-data-sources.md?toc=/dynamics365/commerce/toc.json
                 - name: Modelių susiejimų konfigūravimas
                   items:
                     - name: Nuo šalies konteksto priklausomo ER modelio susiejimų konfigūravimas
@@ -2158,15 +1940,13 @@
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-destinations-2016-11.md?toc=/dynamics365/commerce/toc.json
                     - name: Nuo veiksmo priklausančių paskirties vietų konfigūravimas
                       href: ../fin-ops-core/dev-itpro/analytics/er-action-dependent-destinations.md?toc=/dynamics365/commerce/toc.json
-                    - name: Konkrečių spausdinimo valdymo įrašų ER paskirties vietų konfigūravimas
-                      href: ../fin-ops-core/dev-itpro/analytics/er-named-destinations.md?toc=/dynamics365/commerce/toc.json
                 - name: Nuorodos į ER formatą nustatymas
                   href: ../fin-ops-core/dev-itpro/analytics/er-extended-format-lookup.md?toc=/dynamics365/commerce/toc.json
                 - name: Automatiškas sugeneruotų ataskaitų tvirtinimas
                   items:
                     - name: Sugeneruotų ataskaitų rezultatų sekimas ir jų palyginimas su bazinėmis vertėmis
                       href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline.md?toc=/dynamics365/commercetoc.json
-                    - name: Sugeneruotų ER ataskaitų rezultatų sekimo ir palyginimo su bazinėmis vertėmis patobulinimas
+                    - name: Sugeneruotų ER ataskaitų rezultatų sekimo ir palyginimo su bazinėmis vertėmis patobulinimai
                       href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline-replace.md?toc=/dynamics365/commerce/toc.json
                     - name: Automatinis tikrinimas su ER
                       href: ../fin-ops-core/dev-itpro/analytics/er-automate-testing.md?toc=/dynamics365/commerce/toc.json
@@ -2176,12 +1956,8 @@
                       href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md?toc=/dynamics365/commerce/toc.json
                     - name: Spausdintinų laisvos formos sąskaitų faktūrų (FTI) formų generavimas
                       href: ../fin-ops-core/dev-itpro/analytics/er-generate-printable-fti-forms.md?toc=/dynamics365/commerce/toc.json
-                - name: Efektyvių elektroninių ataskaitų sprendimų kūrimas
-                  items:
-                    - name: Elektroninių ataskaitų formatų vykdymo sekimas siekiant diagnozuoti našumo problemas
-                      href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/commerce/toc.json
-                    - name: Elektroninių ataskaitų konfigūracijų našumo trikčių šalinimas
-                      href: ../fin-ops-core/dev-itpro/analytics/er-troubleshoot-perf-issues-in-configurations.md?toc=/dynamics365/commerce/toc.json
+                - name: ER formatų vykdymo sekimas siekiant diagnozuoti našumo problemas
+                  href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/commerce/toc.json
                 - name: Verslo dokumentų valdymas (BDM)
                   items:
                     - name: BDM apžvalga
@@ -2200,35 +1976,21 @@
                   href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md?toc=/dynamics365/commerce/toc.json
                 - name: API keitimai
                   items:
-                    - name: Programos 7.3 naujinimas
+                    - name: „Application update 7.3“
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app73.md?toc=/dynamics365/commerce/toc.json
-                    - name: Programos 10.0.11 naujinimas
+                    - name: „Application update 10.0.11“
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-11.md?toc=/dynamics365/commerce/toc.json
-                    - name: Programos 10.0.17 naujinimas
+                    - name: „Application update 10.0.17“
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-17.md?toc=/dynamics365/commerce/toc.json
-                    - name: Programos 10.0.19 naujinimas
-                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-19.md?toc=/dynamics365/commerce/toc.json
-                    - name: Programos 10.0.21 naujinimas
-                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-21.md?toc=/dynamics365/commerce/toc.json
-                    - name: Programos 10.0.23 naujinimas
-                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-23.md?toc=/dynamics365/commerce/toc.json
-                    - name: Programos 10.0.25 naujinimas
-                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-25.md?toc=/dynamics365/commerce/toc.json
                 - name: Pasirinktinės saugyklos vietos sugeneruotiems dokumentams nurodymas
                   items:
                     - name: 'Įvykio prenumeravimas, kad prenumeratos apdorojimo programai galima būtų pateikti užklausą dėl atsakymo'
                       href: ../fin-ops-core/dev-itpro/analytics/er-custom-storage-generated-documents.md?toc=/dynamics365/commerce/toc.json
                     - name: ER paskirties vietos kūrimo perdavimas pasirinktinės paskirties vietos gamyklai
                       href: ../fin-ops-core/dev-itpro/analytics/er-custom-storage-generated-files.md?toc=/dynamics365/commerce/toc.json
-                    - name: Pasirinktinės paskirtie vietos sugeneruotiems dokumentams diegimas
-                      href: ../fin-ops-core/dev-itpro/analytics/er-custom-file-destination.md?toc=/dynamics365/commerce/toc.json
-                - name: „USER INPUT PARAMETER“ tipo duomenų šaltinio verčių inicijavimas iš šaltinio kodo
+                - name: VARTOTOJO ĮVESTIES PARAMETRO tipo duomenų šaltinio verčių inicijavimas iš šaltinio kodo
                   href: ../fin-ops-core/dev-itpro/analytics/er-initiate-uip-data-source-value-from-source-code.md?toc=/dynamics365/commerce/toc.json
-                - name: 'Kodo keitimas, kad vartotojai galėtų konfigūruoti ir naudoti įvardytąsias ER paskirties vietas'
-                  href: ../fin-ops-core/dev-itpro/analytics/er-api-named-destinations.md?toc=/dynamics365/commerce/toc.json
-                - name: Gaunamų dokumentų pasirinktinio ER šaltinio ‭visuotinis diegimas
-                  href: ../fin-ops-core/dev-itpro/analytics/er-custom-file-source.md?toc=/dynamics365/commerce/toc.json
-        - name: „Finance and Operations“ („Dynamics 365“) mobiliųjų įrenginių programėlė
+        - name: „Finance and Operations“ („Dynamics 365“) mobilioji programa
           items:
             - name: Mobiliųjų įrenginių programėlės pagrindinis puslapis
               href: ../fin-ops-core/dev-itpro/mobile-apps/Mobile-app-home-page.md?toc=/dynamics365/commerce/toc.json
@@ -2272,11 +2034,11 @@
               href: ../fin-ops-core/dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/commerce/toc.json
             - name: Objektų duomenų atidarymas „Excel“ ir jų atnaujinimas naudojant „Excel“ skirtą papildinį
               href: ../fin-ops-core/dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/commerce/toc.json
-            - name: DUK apie atidarymo programoje „Excel“ patirtis
+            - name: Atidarymo programoje „Excel“ patirčių kūrimas
               href: ../fin-ops-core/dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/commerce/toc.json
             - name: Šablonų įtraukimas į meniu Atidaryti eilutes programoje „Excel“
               href: ../fin-ops-core/dev-itpro/user-interface/add-templates-open-lines-excel-menu.md?toc=/dynamics365/commerce/toc.json
-            - name: Atidarymo tinkinimas „Microsoft Office“ meniu
+            - name: „Atidaryti“ tinkinimas „Microsoft Office“ meniu
               href: ../fin-ops-core/dev-itpro/office-integration/customize-open-office-menu.md?toc=/dynamics365/commerce/toc.json
             - name: El. pašto konfigūravimas ir siuntimas
               href: ../fin-ops-core/fin-ops/organization-administration/configure-email.md?toc=/dynamics365/commerce/toc.json
@@ -2318,8 +2080,6 @@
                   href: ../fin-ops-core/fin-ops/organization-administration/plan-configuration-global-address-book-additional-address-books.md?toc=/dynamics365/commerce/toc.json
                 - name: Visuotinės adresų knygelės konfigūravimas
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/configure-global-address-book.md?toc=/dynamics365/commerce/toc.json
-                - name: Adreso sąranka
-                  href: ../fin-ops-core/fin-ops/organization-administration/global-address-book-address-setup.md?toc=/dynamics365/commerce/toc.json
                 - name: DUK apie adresų knygeles
                   href: ../fin-ops-core/fin-ops/organization-administration/qa-address-books.md?toc=/dynamics365/commerce/toc.json
                 - name: Adresų knygelių konfigūravimas
@@ -2348,8 +2108,6 @@
                       href: ../fin-ops-core/fin-ops/organization-administration/configure-approval-process-workflow.md?toc=/dynamics365/commerce/toc.json
                     - name: Patvirtinimo veiksmų konfigūravimas
                       href: ../fin-ops-core/fin-ops/organization-administration/configure-approval-step-workflow.md?toc=/dynamics365/commerce/toc.json
-                    - name: Išlaidų redaktorių konfigūravimas
-                      href: ../fin-ops-core/fin-ops/organization-administration/configure-expenditure-reviewers.md?toc=/dynamics365/commerce/toc.json
                     - name: Neautomatizuotų sprendimų konfigūravimas
                       href: ../fin-ops-core/fin-ops/organization-administration/configure-manual-decision-workflow.md?toc=/dynamics365/commerce/toc.json
                     - name: Sąlyginių sprendimų konfigūravimas
@@ -2426,355 +2184,173 @@
               href: ../fin-ops-core/fin-ops/organization-administration/configure-email.md?toc=/dynamics365/commerce/toc.json
             - name: "Datos\_/ laiko duomenys ir laiko juostos"
               href: ../fin-ops-core/fin-ops/organization-administration/date-time-zones.md?toc=/dynamics365/commerce/toc.json
-        - name: Programavimas
+        - name: Išplečiamumas
           items:
-            - name: Kryžminis sprendimas
+            - name: „Commerce“ plėtra ir išplečiamumas
+              href: dev-itpro/dev-retail-home-page.md
+            - name: Interneto kanalo išplečiamumas
               items:
-                - name: „Commerce SDK“ apžvalga
+                - name: Interneto kanalo išplečiamumo apžvalga
+                  href: e-commerce-extensibility/overview.md
+                - name: Pradžia
                   items:
-                    - name: Pavyzdžiai ir nuorodų paketai
-                      href: dev-itpro/retail-sdk/sdk-github.md
-                    - name: Senesnių „Retail SDK“ perkėlimas
-                      href: dev-itpro/retail-sdk/migrate-commerce-sdk.md
-                    - name: „Commerce“ parduotuvės technologijos dėklo modernizavimas (techninė dokumentacija)
-                      href: 'https://www.microsoft.com/download/details.aspx?id=103896'
-                - name: Aplinkos sąranka
-                  items:
-                    - name: Vietinė kūrimo aplinka
-                      href: dev-itpro/setup-local-dev-env.md
-                    - name: „Commerce SDK“ kūrimo srautas
-                      href: dev-itpro/retail-sdk/sdk-build-pipeline.md
-                    - name: „Commerce SDK“ kūrimo srautas (nepriklausomi paketai)
-                      href: dev-itpro/build-pipeline.md
-                - name: Mokėjimai
-                  items:
-                    - name: Visuotinis mokėjimo jungčių diegimas
-                      href: dev-itpro/deploy-payment-connector.md
-                    - name: Mokėjimo duomenų naudojimas
-                      href: payment-connector-data-fields.md
-                    - name: Arbatpinigių davimo atliekant mokėjimus palaikymo SDK
-                      href: dev-itpro/tipping.md
-                    - name: Papildantysis užsakymų sąskaitų faktūrų išrašymo įrašymas
-                      href: dev-itpro/incremental-capture.md
-                - name: Lokalizacija
-                  items:
-                    - name: „Commerce“ plėtinių išteklių ir žymų failų tinkinimas
-                      href: dev-itpro/extension-resource-localization.md
-            - name: Nuotoliniu būdu valdoma prekyba
-              items:
-                - name: API ir nuorodos
-                  items:
-                    - name: „Commerce Scale Unit“ kliento ir vartotojo API
-                      href: dev-itpro/retail-server-customer-consumer-api.md
-                    - name: „Retail Server“ API naudojimas išorinėse programose
-                      href: dev-itpro/consume-retail-server-api.md
-                    - name: '„Typescript“ ir C# tarpiniai serveriai, skirti „Retail POS“'
-                      href: dev-itpro/typescript-proxy-retail-pos.md
-                    - name: „Commerce runtime “ (CRT) architektūra ir konfigūracija
-                      href: dev-itpro/commerce-runtime-overview.md
-                    - name: „Commerce Runtime‟ (CRT) paslaugos
-                      href: dev-itpro/crt-services.md
-                - name: Naujų funkcijų kūrimas
-                  items:
-                    - name: „Commerce Scale Unit“ API kūrimas
-                      href: dev-itpro/retail-server-icontroller-extension.md
-                    - name: „Commerce runtime“ (CRT) išplečiamumas
-                      href: dev-itpro/commerce-runtime-extensibility.md
-                    - name: Plėtinio įvykių registravimas „Application Insights“
-                      href: dev-itpro/commerce-application-insights.md
-                    - name: Asinchroninių „Commerce“ (CRT) API kūrimas
-                      href: dev-itpro/async-commerce-extension.md
-                    - name: Kanalo duomenų bazės plėtiniai
-                      href: dev-itpro/channel-db-extensions.md
-                    - name: „Commerce Data Exchange“ išplėtimas – paslauga realiuoju laiku
-                      href: dev-itpro/extend-commerce-data-exchange.md
-                - name: Esamų funkcijų išplėtimas
-                  items:
-                    - name: „Commerce Runtime‟ (CRT) išplečiamumas ir paleidikliai
-                      href: dev-itpro/commerce-runtime-extensibility-trigger.md
-                    - name: Kanalo duomenų bazės iš anksto išplėsti stulpeliai
-                      href: dev-itpro/extended-columns.md
-                    - name: Pasirinktinio „Commerce Data Exchange“ sinchronizavimo naudojant plėtinį įjungimas
-                      href: dev-itpro/cdx-extensibility.md
-                    - name: „Commerce Store“ kvitų išplėtimas
-                      href: dev-itpro/retail-sdk/retail-sdk-samples.md
-                    - name: Kliento atributai
-                      href: dev-itpro/customer-attributes.md
-                    - name: Užsakymų atributai
-                      href: dev-itpro/order-attributes.md
-                    - name: „Retail“ kanalų slaptųjų raktų tvarkymas
-                      href: dev-itpro/manage-secrets.md
-                - name: Pavyzdžiai
-                  items:
-                    - name: Operacijų blokavimas naudojant paleidiklius
-                      href: dev-itpro/trigger-example-blocking-transaction.md
-                    - name: Lojalumo plėtinio pavyzdys
-                      href: dev-itpro/retail-sdk/loyalty-extension-sample.md
-                    - name: Važtaraščių plėtinių taškai vykdant užsakymą
-                      href: dev-itpro/extensions-shipping-carrier-integration.md
-                - name: Paketai ir diegimas
-                  items:
-                    - name: „Cloud Scale Unit“ plėtinio šalinimas
-                      href: dev-itpro/retail-sdk/remove-csu-package.md
-            - name: Store Commerce
-              items:
-                - name: Apžvalga
-                  items:
-                    - name: EKA plėtinio apžvalga
-                      href: dev-itpro/pos-extension/pos-extension-overview.md
-                    - name: EKA plėtinių koncepcijos ir terminologija
-                      href: dev-itpro/pos-extension/pos-extension-basics.md
-                    - name: EKA plėtinių perkėlimas į „Commerce SDK“
-                      href: dev-itpro/pos-extension/migrate-pos-extension.md
-                - name: Aplinkos sąranka
-                  items:
-                    - name: Vietinė kūrimo aplinka
-                      href: dev-itpro/setup-local-dev-env.md
-                    - name: EKA plėtinių paketo projekto kūrimas
-                      href: dev-itpro/pos-extension/create-pos-extension-package.md
-                    - name: „Modern POS“ plėtinio paketo .appx failo kūrimas
-                      href: dev-itpro/pos-extension/create-pos-extension-appx.md
-                    - name: EKA plėtinių derinimas
-                      href: dev-itpro/pos-extension/debug-pos-extension.md
-                - name: API ir nuorodos
-                  items:
-                    - name: EKA plėtinių paketų informacijos peržiūra
-                      href: dev-itpro/view-pos-extension-package-details.md
-                    - name: EKA API
-                      href: dev-itpro/pos-apis.md
-                    - name: EKA valdiklių naudojimas plėtiniuose
-                      href: dev-itpro/pos-extension/controls-pos-extension.md
-                    - name: Dvigubo EKA ekrano rodinio išplėtimas
-                      href: dev-itpro/pos-dual-display-extension.md
-                    - name: Pasirinktinių nuotoliniu būdu valdomos „Commerce“ API ir objektų EKA naudojimas
-                      href: dev-itpro/pos-extension/consume-apis-pos.md
-                    - name: Išorinių ar trečiųjų šalių bibliotekų naudojimas EKA plėtiniuose
-                      href: dev-itpro/pos-extension/knockout-pos-extension.md
-                - name: Naujų funkcijų kūrimas
-                  items:
-                    - name: EKA plėtinių kūrimas
-                      href: dev-itpro/add-pos-operations.md
-                    - name: Pasirinktinio rodinio kūrimas EKA
-                      href: dev-itpro/pos-extension/custom-pos-view.md
-                    - name: Naujo aparatūros įrenginio kūrimas ir integravimas su EKA
-                      href: dev-itpro/hardware-device-extension.md
-                    - name: Mokėjimų galutiniams naudotojams integravimo į mokėjimo terminalą kūrimas
-                      href: dev-itpro/end-to-end-payment-extension.md
-                    - name: Pasirinktinių lokalizuotų klaidų pranešimų kūrimas mokėjimo terminalo plėtiniams
-                      href: dev-itpro/payment-custom-error-messages.md
-                    - name: Apsaugos nuo mokėjimo dubliavimosi mokėjimo jungtyje įjungimas
-                      href: dev-itpro/duplicate-payments-protection.md
-                - name: Esamų funkcijų išplėtimas
-                  items:
-                    - name: EKA rodinių išplėtimas pasirinktiniais stulpeliais ir programos juostos mygtukais
-                      href: dev-itpro/pos-view-extension.md
-                    - name: 'EKA rodinių išplėtimas, kad būtų galima įtraukti pasirinktinius valdiklius'
-                      href: dev-itpro/pos-control-non-screen.md
-                    - name: EKA antraštės juostos išplėtimas
-                      href: dev-itpro/pos-header-bar.md
-                    - name: EKA pranešimų išplėtimas
-                      href: dev-itpro/extend-pos-notification.md
-                    - name: EKA užklausų apdorojimo programų perrašymas
-                      href: dev-itpro/pos-handler.md
-                    - name: EKA paleidikliai
-                      href: dev-itpro/pos-trigger-printing.md
-                    - name: EKA krepšelio rodinys
-                      items:
-                        - name: EKA krepšelio peržiūros įvykiai ir apdorojimo programos
-                          href: dev-itpro/cart-view-handlers.md
-                        - name: Pasirinktinių laukų įtraukimas į EKA bendrųjų sumų sritį
-                          href: dev-itpro/custom-field-pos-totals.md
-                        - name: Pasirinktinių stulpelių įtraukimas į EKA operacijų tinklelį
-                          href: dev-itpro/pos-custom-transaction-column.md
-                        - name: Pasirinktinių valdiklių įtraukimas į EKA krepšelio rodinį
-                          href: dev-itpro/pos-custom-transaction.md
-                    - name: Pasirinktinių valdiklių įtraukimas į EKA rodinius
-                      href: dev-itpro/pos-custom-control.md
-                    - name: EKA mokėjimo plėtinys
-                      href: dev-itpro/pos-payment-extension.md
-                - name: Paketai ir diegimas
-                  items:
-                    - name: MPOS plėtinių paketo kūrimas
-                      href: dev-itpro/pos-extension/mpos-extension-packaging.md
-                    - name: MPOS (MSIX) plėtinių paketo kodo parašas
-                      href: dev-itpro/pos-extension/mpos-extension-signing.md
-                    - name: „Cloud POS“ plėtinių paketo kūrimas
-                      href: dev-itpro/pos-extension/cpos-extension-package.md
-            - name: El. prekyba
-              items:
-                - name: Apžvalga
-                  items:
-                    - name: Interneto kanalo išplečiamumo apžvalga
-                      href: e-commerce-extensibility/overview.md
-                    - name: El. prekybos architektūros apžvalga
-                      href: e-commerce-extensibility/architectural-overview.md
-                    - name: El. prekybos komponentai
-                      href: e-commerce-extensibility/ecommerce-components.md
                     - name: Darbo su el. prekybos išplečiamumo internetu kūrimu pradžia
                       href: e-commerce-extensibility/sdk-getting-started.md
                     - name: Sistemos reikalavimai
                       href: e-commerce-extensibility/system-requirements.md
-                - name: Aplinkos sąranka
-                  items:
-                    - name: Programavimo aplinka
+                    - name: Kūrimo aplinkos nustatymas
                       href: e-commerce-extensibility/setup-dev-environment.md
                     - name: Kūrimo aplinkos (.env) failo konfigūravimas
                       href: e-commerce-extensibility/configure-env-file.md
                     - name: El. prekybos kūrimo aplinkos konfigūravimas pagal „Commerce“ debesies aplinką
                       href: e-commerce-extensibility/debug-tier-1.md
-                - name: API ir nuorodos
+                    - name: „Azure DevOps“ kodo bendrinimo sąranka ir kūrimo srauto sukūrimas
+                      href: e-commerce-extensibility/set-up-code-sharing-build-pipeline.md
+                - name: Platformos apžvalga
                   items:
+                    - name: El. prekybos architektūros apžvalga
+                      href: e-commerce-extensibility/architectural-overview.md
+                    - name: El. prekybos komponentai
+                      href: e-commerce-extensibility/ecommerce-components.md
                     - name: CLI komandos nuoroda
                       href: e-commerce-extensibility/cli-command-reference.md
-                    - name: Modulio anatomija
-                      items:
-                        - name: Modulių apžvalga
-                          href: e-commerce-extensibility/modules-overview.md
-                        - name: Modulio apibrėžties failas
-                          href: e-commerce-extensibility/module-definition-file.md
-                        - name: Modulio reagavimo komponento failas
-                          href: e-commerce-extensibility/module-react-file.md
-                        - name: Modulio rodinio failas
-                          href: e-commerce-extensibility/module-view-file.md
-                        - name: Modulio duomenų failas
-                          href: e-commerce-extensibility/module-data-file.md
-                        - name: Modulio failo maketas
-                          href: e-commerce-extensibility/module-mock-file.md
-                        - name: Modulio bandomasis failas
-                          href: e-commerce-extensibility/module-test-file.md
-                        - name: Modulio props.autogenerated.ts failas
-                          href: e-commerce-extensibility/module-props-autogenerated-ts-file.md
-                        - name: Modulio konfigūracijos iš anksto nustatytos parinktys
-                          href: e-commerce-extensibility/module-config-presets.md
-                - name: Naujų funkcijų kūrimas
+                - name: Modulio anatomija
                   items:
-                    - name: Moduliai
-                      items:
-                        - name: Naujo modulio kūrimas
-                          href: e-commerce-extensibility/create-new-module.md
-                        - name: Modulio konfigūracijos laukų įtraukimas
-                          href: e-commerce-extensibility/add-module-config-fields.md
-                        - name: Modulių peržiūra ir derinimas
-                          href: e-commerce-extensibility/test-module.md
-                        - name: Testuoti modulius naudojant modulių maketus
-                          href: e-commerce-extensibility/test-module-mock.md
-                        - name: Testuoti modulius naudojant puslapių maketus
-                          href: e-commerce-extensibility/test-page-mock.md
-                        - name: Konteinerių moduliai
-                          href: e-commerce-extensibility/container-modules.md
-                        - name: Kurti maketų konteinerio modulį
-                          href: e-commerce-extensibility/create-layout-container.md
-                        - name: Kurti puslapių konteinerio modulį
-                          href: e-commerce-extensibility/create-page-containers.md
-                        - name: Lokalizuoti modulį
-                          href: e-commerce-extensibility/localize-module.md
-                        - name: Išplėstinis
-                          items:
-                            - name: Užklausos ypatybių objektas
-                              href: e-commerce-extensibility/request-properties-object.md
-                            - name: Programėlės parametrai
-                              href: e-commerce-extensibility/app-settings.md
-                            - name: Svetainės kūrimo įrankio visuotinio konfigūravimo parametrų konfigūravimas pagal įjungtas funkcijas
-                              href: e-commerce-extensibility/config-settings-for-features.md
-                            - name: Platformos parametrų failas
-                              href: e-commerce-extensibility/platform-settings.md
-                            - name: Slapukų API apžvalga
-                              href: e-commerce-extensibility/cookie-api-overview.md
-                            - name: Interaktyviųjų komponentų peržiūra
-                              href: e-commerce-extensibility/interactive-components.md
-                            - name: Padaryti būsenos Prisijungęs maketą per vietinį kūrimą
-                              href: e-commerce-extensibility/mock-sign-in.md
-                            - name: 'Modulio ypatybių, kurios turi būti rodomos pagal kontekstą, konfigūravimas'
-                              href: e-commerce-extensibility/configure-properties-context.md
-                            - name: Modulių globalizavimas naudojant klasę CultureInfoFormatter
-                              href: e-commerce-extensibility/globalize-modules.md
-                            - name: „Azure Key Vault“ nustatymas saugos raktui valdyti
-                              href: e-commerce-extensibility/set-up-key-vault.md
-                            - name: Vaizdo komponentas
-                              href: e-commerce-extensibility/image-component.md
-                    - name: Veiksmai su duomenimis
-                      items:
-                        - name: Veiksmų su duomenimis apžvalga
-                          href: e-commerce-extensibility/data-actions.md
-                        - name: Duomenų veiksmų talpyklos parinktys
-                          href: e-commerce-extensibility/data-action-cache.md
-                        - name: 'Testuoti veiksmus su duomenimis, naudojant maketus'
-                          href: e-commerce-extensibility/test-data-action-mocks.md
-                        - name: Puslapio įkėlimo veiksmai su duomenimis
-                          href: e-commerce-extensibility/page-load-data-action.md
-                        - name: Įvykiu grindžiami veiksmai su duomenimis
-                          href: e-commerce-extensibility/event-based-data-actions.md
-                        - name: Pagrindiniai veiksmai su duomenimis
-                          href: e-commerce-extensibility/core-data-actions.md
-                        - name: „Commerce Scale Unit“ API iškvietimas
-                          href: e-commerce-extensibility/call-retail-server-apis.md
-                        - name: „Retail Server” plėtinio API iškvietimas
-                          href: e-commerce-extensibility/call-retail-extension-api.md
-                        - name: Išplėstinis
-                          items:
-                            - name: Veiksmai su grandinės duomenimis
-                              href: e-commerce-extensibility/chain-data-actions.md
-                            - name: Veiksmai su paketo duomenimis
-                              href: e-commerce-extensibility/batch-data-actions.md
-                            - name: Stebimi veiksmai su duomenimis
-                              href: e-commerce-extensibility/create-observable-data-action.md
-                            - name: Būsenos moduliuose bendrinimas
-                              href: e-commerce-extensibility/share-state-across-modules.md
-                            - name: Duomenų veiksmų talpyklos parametrai
-                              href: e-commerce-extensibility/data-action-cache-settings.md
-                            - name: Serverio duomenų veiksmų iškvietimas su AJAX
-                              href: e-commerce-extensibility/data-actions-with-ajax.md
-                    - name: Temos
-                      items:
-                        - name: Temų apžvalga
-                          href: e-commerce-extensibility/theming.md
-                        - name: Temos kūrimas
-                          href: e-commerce-extensibility/create-theme.md
-                        - name: Temos parametrų konfigūravimas
-                          href: e-commerce-extensibility/configure-theme-settings.md
-                        - name: Iš anksto nustatytų temos stilių rinkinių konfigūravimas
-                          href: e-commerce-extensibility/theme-style-presets.md
-                        - name: Pasirinktinių išteklių įtraukimas į tinkinimo kodą
-                          href: e-commerce-extensibility/add-custom-resources.md
-                    - name: Scenarijaus įvedimas
-                      items:
-                        - name: Scenarijaus injektoriai
-                          href: e-commerce-extensibility/script-injector.md
-                    - name: Jungtys
-                      items:
-                        - name: Jungčių konfigūravimas ir įjungimas
-                          href: e-commerce-extensibility/connectors.md
-                - name: Esamų funkcijų išplėtimas
+                    - name: Modulių apžvalga
+                      href: e-commerce-extensibility/modules-overview.md
+                    - name: Modulio apibrėžties failas
+                      href: e-commerce-extensibility/module-definition-file.md
+                    - name: Modulio reagavimo komponento failas
+                      href: e-commerce-extensibility/module-react-file.md
+                    - name: Modulio rodinio failas
+                      href: e-commerce-extensibility/module-view-file.md
+                    - name: Modulio duomenų failas
+                      href: e-commerce-extensibility/module-data-file.md
+                    - name: Modulio failo maketas
+                      href: e-commerce-extensibility/module-mock-file.md
+                    - name: Modulio bandomasis failas
+                      href: e-commerce-extensibility/module-test-file.md
+                    - name: Modulio props.autogenerated.ts failas
+                      href: e-commerce-extensibility/module-props-autogenerated-ts-file.md
+                    - name: Modulio konfigūracijos iš anksto nustatytos parinktys
+                      href: e-commerce-extensibility/module-config-presets.md
+                - name: Modulių kūrimas
                   items:
-                    - name: Moduliai
-                      items:
-                        - name: Modulių bibliotekos modulio klonavimas
-                          href: e-commerce-extensibility/clone-starter-module.md
-                        - name: Modulio apibrėžties išplėtimas
-                          href: e-commerce-extensibility/extend-module-definition.md
-                    - name: Veiksmai su duomenimis
-                      items:
-                        - name: Veiksmų su duomenimis perrašymai
-                          href: e-commerce-extensibility/data-action-overrides.md
-                        - name: Duomenų veiksmų trikčių gaudyklės
-                          href: e-commerce-extensibility/data-action-hooks.md
-                    - name: Temos
-                      items:
-                        - name: Temos išplėtimas modulio plėtiniams įtraukti
-                          href: e-commerce-extensibility/theme-module-extensions.md
-                        - name: Modulių bibliotekos komponento keitimas temoje
-                          href: e-commerce-extensibility/override-theme-component.md
-                        - name: Temos išplėtimas iš pagrindinės temos
-                          href: e-commerce-extensibility/extend-theme.md
-                - name: Paketai ir diegimas
+                    - name: Naujo modulio kūrimas
+                      href: e-commerce-extensibility/create-new-module.md
+                    - name: Modulių bibliotekos modulio klonavimas
+                      href: e-commerce-extensibility/clone-starter-module.md
+                    - name: Modulio konfigūracijos laukų įtraukimas
+                      href: e-commerce-extensibility/add-module-config-fields.md
+                    - name: Modulių peržiūra ir derinimas
+                      href: e-commerce-extensibility/test-module.md
+                    - name: Testuoti modulius naudojant modulių maketus
+                      href: e-commerce-extensibility/test-module-mock.md
+                    - name: Testuoti modulius naudojant puslapių maketus
+                      href: e-commerce-extensibility/test-page-mock.md
+                    - name: Konteinerių moduliai
+                      href: e-commerce-extensibility/container-modules.md
+                    - name: Kurti maketų konteinerio modulį
+                      href: e-commerce-extensibility/create-layout-container.md
+                    - name: Kurti puslapių konteinerio modulį
+                      href: e-commerce-extensibility/create-page-containers.md
+                    - name: Lokalizuoti modulį
+                      href: e-commerce-extensibility/localize-module.md
+                - name: Išplėstinės modulio temos
+                  items:
+                    - name: Užklausos ypatybių objektas
+                      href: e-commerce-extensibility/request-properties-object.md
+                    - name: Programėlės parametrai
+                      href: e-commerce-extensibility/app-settings.md
+                    - name: Platformos parametrų failas
+                      href: e-commerce-extensibility/platform-settings.md
+                    - name: Modulio apibrėžties išplėtimas
+                      href: e-commerce-extensibility/extend-module-definition.md
+                    - name: Slapukų API apžvalga
+                      href: e-commerce-extensibility/cookie-api-overview.md
+                    - name: Interaktyviųjų komponentų peržiūra
+                      href: e-commerce-extensibility/interactive-components.md
+                    - name: Padaryti būsenos Prisijungęs maketą per vietinį kūrimą
+                      href: e-commerce-extensibility/mock-sign-in.md
+                    - name: 'Modulio ypatybių, kurios turi būti rodomos pagal kontekstą, konfigūravimas'
+                      href: e-commerce-extensibility/configure-properties-context.md
+                    - name: Modulių globalizavimas naudojant CultureInfoFormatter klasę
+                      href: e-commerce-extensibility/globalize-modules.md
+                    - name: „Azure Key Vault“ nustatymas saugos raktui valdyti
+                      href: e-commerce-extensibility/set-up-key-vault.md
+                - name: Kurti veiksmus su duomenimis
+                  items:
+                    - name: Veiksmų su duomenimis apžvalga
+                      href: e-commerce-extensibility/data-actions.md
+                    - name: Duomenų veiksmų talpyklos parinktys
+                      href: e-commerce-extensibility/data-action-cache.md
+                    - name: 'Testuoti veiksmus su duomenimis, naudojant maketus'
+                      href: e-commerce-extensibility/test-data-action-mocks.md
+                    - name: Puslapio įkėlimo veiksmai su duomenimis
+                      href: e-commerce-extensibility/page-load-data-action.md
+                    - name: Įvykiu grindžiami veiksmai su duomenimis
+                      href: e-commerce-extensibility/event-based-data-actions.md
+                    - name: Pagrindiniai veiksmai su duomenimis
+                      href: e-commerce-extensibility/core-data-actions.md
+                    - name: „Retail Server” API iškvietimas
+                      href: e-commerce-extensibility/call-retail-server-apis.md
+                    - name: „Retail Server” plėtinio API iškvietimas
+                      href: e-commerce-extensibility/call-retail-extension-api.md
+                - name: Išplėstinės veiksmų su duomenimis temos
+                  items:
+                    - name: Veiksmai su grandinės duomenimis
+                      href: e-commerce-extensibility/chain-data-actions.md
+                    - name: Veiksmai su paketo duomenimis
+                      href: e-commerce-extensibility/batch-data-actions.md
+                    - name: Stebimi veiksmai su duomenimis
+                      href: e-commerce-extensibility/create-observable-data-action.md
+                    - name: Būsenos moduliuose bendrinimas
+                      href: e-commerce-extensibility/share-state-across-modules.md
+                    - name: Duomenų veiksmų talpyklos parametrai
+                      href: e-commerce-extensibility/data-action-cache-settings.md
+                    - name: Veiksmų su duomenimis perrašymai
+                      href: e-commerce-extensibility/data-action-overrides.md
+                    - name: Duomenų veiksmų trikčių gaudyklės
+                      href: e-commerce-extensibility/data-action-hooks.md
+                    - name: Serverio duomenų veiksmų iškvietimas su AJAX
+                      href: e-commerce-extensibility/data-actions-with-ajax.md
+                - name: Temų vystymas
+                  items:
+                    - name: Temų apžvalga
+                      href: e-commerce-extensibility/theming.md
+                    - name: Temos kūrimas
+                      href: e-commerce-extensibility/create-theme.md
+                    - name: Temos parametrų konfigūravimas
+                      href: e-commerce-extensibility/configure-theme-settings.md
+                    - name: Iš anksto nustatytų temos stilių rinkinių konfigūravimas
+                      href: e-commerce-extensibility/theme-style-presets.md
+                    - name: Temos išplėtimas modulio plėtiniams įtraukti
+                      href: e-commerce-extensibility/theme-module-extensions.md
+                    - name: Modulių bibliotekos komponento keitimas temoje
+                      href: e-commerce-extensibility/override-theme-component.md
+                    - name: Temos išplėtimas iš pagrindinės temos
+                      href: e-commerce-extensibility/extend-theme.md
+                    - name: Pasirinktinių išteklių įtraukimas į tinkinimo kodą
+                      href: e-commerce-extensibility/add-custom-resources.md
+                - name: Scenarijaus įvedimas
+                  items:
+                    - name: Scenarijaus injektoriai
+                      href: e-commerce-extensibility/script-injector.md
+                - name: Jungtys
+                  items:
+                    - name: Jungčių konfigūravimas ir įjungimas
+                      href: e-commerce-extensibility/connectors.md
+                - name: Telemetrija ir analizė
+                  items:
+                    - name: Telemetrijos registravimo programa
+                      href: e-commerce-extensibility/telemetry-logger.md
+                - name: Visuotinis diegimas ir techninė priežiūra
                   items:
                     - name: Konfigūracijų paketų kūrimas ir diegimas interneto aplinkoje
                       href: e-commerce-extensibility/package-deploy.md
                     - name: SDK ir modulių bibliotekos naujinimai
                       href: e-commerce-extensibility/sdk-updates.md
-                    - name: „Azure DevOps“ kodo bendrinimo sąranka ir kūrimo srauto sukūrimas
-                      href: e-commerce-extensibility/set-up-code-sharing-build-pipeline.md
-                - name: 'Geriausia praktika, efektyvumas ir DUK'
+                - name: Geriausia praktika ir DUK
                   items:
                     - name: Geriausia „Dynamics 365 Commerce“ kūrimo praktika
                       href: e-commerce-extensibility/best-practices-dev.md
@@ -2782,60 +2358,184 @@
                       href: e-commerce-extensibility/sdk-faq.md
                     - name: Geriausios „Dynamics 365 Commerce“ kūrimo praktikos derinimas
                       href: e-commerce-extensibility/debugging-best-practices.md
-                    - name: El. prekybos svetainių puslapių tikrinimas dėl atminties nutekėjimų
-                      href: e-commerce-extensibility/memory-leak-detection.md
-                    - name: Efektyvumas
-                      items:
-                        - name: Puslapio kaupimo gaudyklėje konfigūravimas
-                          href: e-commerce-extensibility/page-caching.md
-                        - name: Duomenų veiksmo egzemplioriaus talpykla
-                          href: e-commerce-extensibility/instance-cache.md
-                    - name: Telemetrija ir analizė
-                      items:
-                        - name: Telemetrijos registravimo programa
-                          href: e-commerce-extensibility/telemetry-logger.md
-            - name: Commerce HQ
+            - name: Retail SDK
               items:
-                - name: Paketai ir diegimas
-                  items:
-                    - name: '„Commerce“ mokėjimo paketo, skirto finansams ir operacijoms, kūrimas'
-                      href: dev-itpro/payment-connector-package.md
-            - name: „Retail SDK“ (senesnė)
+                - name: „Retail SDK“ architektūra
+                  href: dev-itpro/retail-sdk/retail-sdk-overview.md
+                - name: Būsimi „Retail SDK“ pakeitimai
+                  href: dev-itpro/UpcomingSDKChanges.md
+                - name: Naujinimai ir ALM pakeitimai iš versijos 10.0.10 į 10.0.13
+                  href: dev-itpro/dev-changes-10-13.md
+                - name: „Commerce“ ir „Finance and Operations“ kūrimo sistemų suliejimas
+                  href: dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build.md
+                - name: „Retail SDK“ perkėlimas iš „Visual Studio 2015“ į „Visual Studio 2017“
+                  href: dev-itpro/retail-sdk/migrate-sdk.md
+                - name: „Retail SDK“ išplečiamumo pavyzdžiai
+                  href: dev-itpro/retail-sdk/retail-sdk-extensibility-samples.md
+                - name: Diegiamų paketų kūrimas
+                  href: dev-itpro/retail-sdk/retail-sdk-packaging.md
+                - name: Programavimas naudojant aplinkos diegimo debesyje įrankį be administravimo prieigos
+                  href: dev-itpro/cloud-dev-box.md
+                - name: „Commerce SDK“ kūrimo srauto nustatymas
+                  href: dev-itpro/retail-sdk/SDK-build-pipeline.md
+                - name: Pavyzdžių ir paketų atsisiuntimas iš „GitHub“ ir „NuGet“
+                  href: dev-itpro/retail-sdk/sdk-github.md
+                - name: „Retail SDK“ DUK
+                  href: dev-itpro/retail-sdk/sdk-faq.md
+            - name: Elektroninio kasos aparato išplečiamumas
               items:
-                - name: Apžvalga
+                - name: EKA ekrano maketai
+                  href: pos-screen-layouts.md
+                - name: URL atidarymas EKA
+                  href: Open-URL-in-POS.md
+                - name: EKA maketų dizaino įrankio diegimas
+                  href: install-pos-layout-designer.md
+                - name: Dvigubo EKA ekrano rodinio išplėtimas
+                  href: dev-itpro/pos-dual-display-extension.md
+                - name: Pasirinktinių valdiklių įtraukimas į EKA rodinius
+                  href: dev-itpro/pos-custom-control.md
+                - name: EKA operacijų įtraukimas į EKA maketus naudojant mygtukų dizaino įrankį
+                  href: dev-itpro/add-POS-operations.md
+                - name: EKA API
+                  href: dev-itpro/POS-APIs.md
+                - name: EKA mokėjimo plėtinys
+                  href: dev-itpro/pos-payment-extension.md
+                - name: Arbatpinigių davimo atliekant EKA mokėjimus palaikymo SDK
+                  href: dev-itpro/tipping.md
+                - name: Išorinių dovanų kortelių palaikymas
+                  href: dev-itpro/gift-card.md
+                - name: Prekės ženklų kūrimas ir taikymas programoje „Retail Experience“
+                  href: dev-itpro/create-retail-experience-app.md
+                - name: Programos „POS Hybrid“ nustatymas sistemose „Android“ ir „iOS“
+                  href: dev-itpro/hybridApp.md
+                - name: EKA užklausų apdorojimo programos perrašymas
+                  href: dev-itpro/pos-handler.md
+                - name: EKA plėtinių paketų informacijos peržiūra
+                  href: dev-itpro/view-pos-extension-package-details.md
+                - name: Testavimo įrašymo priemonė ir „Cloud POS“ „Regression Suite Automation Tool“
+                  href: dev-itpro/pos-rsat.md
+                - name: Pasirinktinių laukų įtraukimas į EKA bendrųjų sumų sritį
+                  href: dev-itpro/custom-field-pos-totals.md
+                - name: Rodyti pasirinktinius pranešimus EKA
+                  href: dev-itpro/extend-pos-notification.md
+                - name: 'Pasirašykite MPOS, naudodami kodo pasirašymo sertifikatą'
+                  href: dev-itpro/pos-app-signing-certificate.md
+                - name: EKA rodinių išplėtimas pasirinktiniais stulpeliais ir programos juostos mygtukais
+                  href: dev-itpro/pos-view-extension.md
+                - name: Pasirinktinių valdiklių įtraukimas į „Modern POS“ operacijų puslapius
+                  href: dev-itpro/pos-custom-transaction.md
+                - name: Pasirinktinių stulpelių įtraukimas į EKA operacijų tinklelį
+                  href: dev-itpro/pos-custom-transaction-column.md
+                - name: EKA API sąsajų iškvietimas arba operacijos iš EKA plėtinių
+                  href: dev-itpro/pos-api-extension.md
+                - name: EKA paleidikliai
+                  href: dev-itpro/pos-trigger-printing.md
+                - name: Pasirinktinių valdiklių įtraukimas į ne ekrano dizaino įrankiu sukurtus EKA rodinius
+                  href: dev-itpro/pos-control-non-screen.md
+                - name: EKA pavyzdžių vykdymas
+                  href: dev-itpro/pos-run-samples.md
+                - name: Įrenginių valdymo diegimo instrukcijos
+                  href: implementation-considerations-devices.md
+                - name: EKA krepšelio peržiūros įvykiai ir apdorojimo programos
+                  href: dev-itpro/cart-view-handlers.md
+                - name: Pasirinktinių mygtukų įtraukimas į EKA antraštės juostą
+                  href: dev-itpro/pos-header-bar.md
+                - name: EKA nepriklausomo paketo SDK
                   items:
-                    - name: „Retail“ programinės įrangos kūrimo rinkinys (SDK)
-                      href: dev-itpro/retail-sdk/retail-sdk-overview.md
-                    - name: „Retail“ programinės įrangos kūrimo rinkinio (SDK) išplečiamumo pavyzdžiai
-                      href: dev-itpro/retail-sdk/retail-sdk-extensibility-samples.md
-                    - name: „Retail SDK“ DUK
-                      href: dev-itpro/retail-sdk/sdk-faq.md
-                    - name: „Retail SDK“ perkėlimas iš „Visual Studio 2015“ į „Visual Studio 2017“
-                      href: dev-itpro/retail-sdk/migrate-sdk.md
-                - name: Aplinkos sąranka
-                  items:
-                    - name: Programavimas naudojant aplinkos diegimo debesyje įrankį be administravimo prieigos
-                      href: dev-itpro/cloud-dev-box.md
-                    - name: EKA pavyzdžių vykdymas
-                      href: dev-itpro/pos-run-samples.md
-                - name: Nuoroda
-                  items:
-                    - name: El. komercijos platformos programinės įrangos kūrimo rinkinys (SDK)
-                      href: dev-itpro/ecommerce-platform-sdk.md
-                    - name: Interneto parduotuvių konfigūravimas
-                      href: dev-itpro/configure-online-store.md
-                    - name: Autentifikavimo paslaugų teikėjų konfigūravimas
-                      href: dev-itpro/configure-authentication-providers.md
-                - name: Paketai ir diegimas
-                  items:
-                    - name: Diegiamų paketų kūrimas
-                      href: dev-itpro/retail-sdk/retail-sdk-packaging.md
-                    - name: 'Pasirašykite MPOS, naudodami kodo pasirašymo sertifikatą'
-                      href: dev-itpro/pos-app-signing-certificate.md
-                    - name: Hibridinės EKA programos nustatymas sistemose „Android“ ir „iOS“
-                      href: dev-itpro/hybridapp.md
-                    - name: Prekės ženklų kūrimas ir taikymas programoje „Retail Experience“
-                      href: dev-itpro/create-retail-experience-app.md
+                    - name: EKA plėtinio apžvalga
+                      href: dev-itpro/pos-extension/pos-extension-overview.md
+                    - name: Darbo su EKA plėtiniais pradžia
+                      href: dev-itpro/pos-extension/pos-extension-getting-started.md
+                    - name: EKA plėtinių paketo projekto kūrimas
+                      href: dev-itpro/pos-extension/create-pos-extension-package.md
+                    - name: „Modern POS“ plėtinio „appx“ failo kūrimas
+                      href: dev-itpro/pos-extension/create-pos-extension-appx.md
+                    - name: EKA plėtinio derinimas
+                      href: dev-itpro/pos-extension/debug-pos-extension.md
+            - name: „Hardware Station“ išplečiamumas
+              items:
+                - name: „Hardware Station“ ir išplečiamumas
+                  href: dev-itpro/hardware-station-extensibility.md
+                - name: EKA integravimas su nauju aparatūros įrenginiu
+                  href: dev-itpro/hardware-device-extension.md
+            - name: „Retail Server“ išplečiamumas
+              items:
+                - name: „Commerce Scale Unit“ kliento ir vartotojo API
+                  href: dev-itpro/retail-server-customer-consumer-api.md
+                - name: „Retail Server“ plėtinio API („Retail SDK“ 10.0.11 ir vėlesnė versija) kūrimas
+                  href: dev-itpro/retail-server-icontroller-extension.md
+                - name: Kurti naują „Retail Server“ plėtinio API („Retail SDK“ 10.0.11 ir ankstesnė versija)
+                  href: dev-itpro/retail-server-extension.md
+                - name: „Retail Typescript“ ir C# tarpiniai serveriai
+                  href: dev-itpro/typescript-proxy-retail-pos.md
+                - name: „Retail Server“ API naudojimas išorinėse programose
+                  href: dev-itpro/consume-retail-server-api.md
+            - name: „Commerce Runtime“ (CRT) išplečiamumas
+              items:
+                - name: CRT architektūra ir konfigūravimas
+                  href: dev-itpro/commerce-runtime-overview.md
+                - name: CRT tarnybos
+                  href: dev-itpro/crt-services.md
+                - name: CRT plėtinio šablonas
+                  href: dev-itpro/commerce-runtime-extensibility.md
+                - name: „Retail“ kanalų slaptųjų raktų tvarkymas
+                  href: dev-itpro/manage-secrets.md
+                - name: CRT išplečiamumas ir paleidikliai
+                  href: dev-itpro/commerce-runtime-extensibility-trigger.md
+                - name: Operacijų blokavimas naudojant paleidiklius
+                  href: dev-itpro/trigger-example-blocking-transaction.md
+                - name: Lojalumo pratęsimas
+                  href: dev-itpro/retail-sdk/loyalty-extension-sample.md
+                - name: Važtaraščių plėtinių taškai
+                  href: dev-itpro/extensions-shipping-carrier-integration.md
+                - name: Kanalo duomenų bazės plėtiniai
+                  href: dev-itpro/channel-db-extensions.md
+                - name: Pasirinktinio CDX sinchronizavimo naudojant plėtinį įjungimas
+                  href: dev-itpro/cdx-extensibility.md
+                - name: Užsakymo atributų nurodymas ir nustatymas
+                  href: dev-itpro/order-attributes.md
+                - name: Kliento atributai
+                  href: dev-itpro/customer-attributes.md
+                - name: Kvito plėtiniai
+                  href: dev-itpro/retail-sdk/retail-sdk-samples.md
+                - name: Plėtinio įvykių registravimas „Application Insights“
+                  href: dev-itpro/commerce-application-insights.md
+                - name: Asinchroninės „Commerce“ (CRT) API kūrimas verslo logikoje
+                  href: dev-itpro/async-commerce-extension.md
+                - name: Kanalo duomenų bazės iš anksto išplėsti stulpeliai
+                  href: dev-itpro/extended-columns.md
+                - name: „Commerce Data Exchange“ išplėtimas – paslauga realiuoju laiku
+                  href: dev-itpro/extend-commerce-data-exchange.md
+            - name: Mokėjimo jungties išplečiamumas
+              items:
+                - name: Mokėjimų integravimo į mokėjimo terminalą kūrimas
+                  href: dev-itpro/end-to-end-payment-extension.md
+                - name: Mokėjimo jungties ir mokėjimo įrenginio įdiegimas (techninė dokumentacija)
+                  href: 'https://download.microsoft.com/download/e/2/7/e2735c65-1e66-4b8d-8a3c-e6ef3a319137/The Guide to Implementing Payment Connector and Payment Device_update.pdf'
+                - name: Visuotinis mokėjimo jungčių diegimas
+                  href: dev-itpro/deploy-payment-connector.md
+                - name: Papildantysis operacijų skyriaus sąskaitų faktūrų išrašymo įrašymas
+                  href: dev-itpro/incremental-capture.md
+                - name: Pasirinktinių lokalizuotų klaidų pranešimų kūrimas mokėjimo terminalo plėtiniams
+                  href: dev-itpro/payment-custom-error-messages.md
+                - name: „Windows“ diegimo programų kūrimas mokėjimo jungtims
+                  href: dev-itpro/create-windows-installer-payment-connector.md
+                - name: Mokėjimo duomenų naudojimas
+                  href: payment-connector-data-fields.md
+                - name: Apsaugos nuo mokėjimo dubliavimosi mokėjimo jungtyje įjungimas
+                  href: dev-itpro/duplicate-payments-protection.md
+                - name: '„Commerce“ mokėjimo paketo, skirto „Finance and Operations“ kūrimas'
+                  href: dev-itpro/payment-connector-package.md
+            - name: Trečiosios šalies ir el. prekybos išplečiamumas
+              items:
+                - name: Interneto parduotuvių konfigūravimas
+                  href: dev-itpro/configure-online-store.md
+                - name: Autentifikavimo paslaugų teikėjų konfigūravimas
+                  href: dev-itpro/configure-authentication-providers.md
+                - name: El. prekybos platformos SDK
+                  href: dev-itpro/ecommerce-platform-sdk.md
+            - name: „Commerce“ plėtinių išteklių ir žymų failų lokalizavimas
+              href: dev-itpro/extension-resource-localization.md
         - name: Trikčių šalinimas
           items:
             - name: Užsakymų apdorojimas
@@ -2880,15 +2580,13 @@
                   href: troubleshoot/pickup-store-missing.md
                 - name: 'Galima atsiskaityti už prekes, kurių nėra atsargose'
                   href: troubleshoot/items-without-inventory-checked-out.md
-                - name: 'Įvertinimų tikslinimo priemonė rodoma ieškos rezultatuose ir kategorijos puslapiuose, kai įvertinimų ir atsiliepimų sprendimas nėra įjungtas'
-                  href: troubleshoot/hide-ratings-refiner.md
             - name: SDK trikčių šalinimas
               items:
                 - name: 'Nustatykite el. prekybos kūrimo aplinką, kad būtų galima derinti su „Tier 1 Retail Server“ VM'
                   href: troubleshoot/set-up-dev-environment-debugging.md
-    - name: Finansų ir operacijų programų kūrimas ir administravimas
+    - name: „Finance and Operations“ programų kūrimas ir administravimas
       href: ../fin-ops-core/dev-itpro/index.md
-    - name: „Dynamics 365 Finance“
+    - name: „Dynamics 365 Finance”
       href: ../finance/index.md
-    - name: „Dynamics 365 Supply Chain Management“
+    - name: „Dynamics 365 Supply Chain Management”
       href: ../supply-chain/index.md

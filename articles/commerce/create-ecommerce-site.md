@@ -2,11 +2,9 @@
 title: Sukurkite e-komercijos saitą
 description: Ši tema aprašo žingsnius ir informaciją, kurie yra būtini norint sukurti e-komercijos saitą „Dynamics 365 Commerce“ saito kūrimo įrankyje.
 author: bicyclingfool
-manager: AnnBe
 ms.date: 07/02/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application user
@@ -18,12 +16,12 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: cf084f90d203d84c91ddf7c0d963780b895ef23d
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 61fe44df7165780be2dd00be3f210ab2da05ddfe
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4963040"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5795792"
 ---
 # <a name="create-an-e-commerce-site"></a>Sukurkite e-komercijos saitą
 
@@ -31,7 +29,7 @@ ms.locfileid: "4963040"
 
 Ši tema aprašo žingsnius ir informaciją, kurie yra būtini norint sukurti e-komercijos saitą „Dynamics 365 Commerce“ saito kūrimo įrankyje.
 
-Kai jūsų suteikiate licenciją „Dynamics 365 Commerce“ pajėgumams, sait kūrimo įrankis bus aprūpintas pradžios saitu, kurį galėsite naudoti pagal jūsų turimo saito pagrindus. Tačiau, jei norite pradėti nuo nulio, arba, jei norite sukurti antrą svetainę, turite sukurti naują svetainę svetainės kūrimo aplinkoje. 
+Kai jūsų suteikiate licenciją „Dynamics 365 Commerce“ pajėgumams, saito kūrimo įrankis bus aprūpintas pradžios saitu, kurį galėsite naudoti pagal jūsų turimo saito pagrindus. Tačiau, jei norite pradėti nuo nulio, arba, jei norite sukurti antrą svetainę, turite sukurti naują svetainę svetainės kūrimo aplinkoje. 
 
 ## <a name="set-up-your-site"></a>Svetainės nustatymas
 
@@ -74,3 +72,6 @@ Sukūrę svetainę, patikrinti, ar ji susieta su internetine parduotuve, galite 
 [Turinio pristatymo tinklo (CDN) palaikymo įtraukimas](add-cdn-support.md)
 
 [Parduotuvės nustatymo pagal vietą įgalinimas](enable-store-detection.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

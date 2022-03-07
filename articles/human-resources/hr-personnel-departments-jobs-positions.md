@@ -2,30 +2,29 @@
 title: Darbo jėgos organizavimas naudojant padalinius, užduotis ir pareigas
 description: Padaliniai, užduotys ir pareigos yra organizaciniai elementai, tvarkomi modulyje Personalas. Šiame straipsnyje pateikiama abstrakti informacija apie šiuos elementus.
 author: andreabichsel
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 ms.search.form: HcmJob, HcmPosition, OMOperatingUnit, HcmPersonnelManagementWorkspace
 audience: Application User
-ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources, Retail
+ms.search.scope: Human Resources
 ms.custom: 87933
 ms.assetid: eb5dcacb-a5fe-451d-b30a-7ef14da65d81
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 826de9e1e5d70ba1ec088b44254c871726b5c38e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: cd50bf7e8e03d72d6d0e1e2b0b065a5d9c7a3ef44e96f92a5fc342a0d820d8e1
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419703"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6778801"
 ---
 # <a name="organize-your-workforce-by-using-departments-jobs-and-positions"></a>Darbo jėgos organizavimas naudojant padalinius, užduotis ir pareigas
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Padaliniai, užduotys ir pareigos yra organizaciniai elementai, tvarkomi modulyje Personalas. Šiame straipsnyje pateikiama abstrakti informacija apie šiuos elementus. 
 
@@ -43,12 +42,11 @@ Padaliniai, užduotys ir pareigos yra organizaciniai elementai, tvarkomi modulyj
 |**Personalas**|Personalo vadovas (centrinis regionas)|Personalo vadovas|
 
 
- <a name="departments"></a>Padaliniai
-------------
+##  <a name="departments"></a>Padaliniai
 
 Padalinys yra valdymo vienetas, atitinkantis organizacijos kategoriją arba funkcinę sritį, skirtą tam tikrai organizacijos veiklos sričiai, pvz., pardavimui arba apskaitai, valdyti. Padalinys naudojamas informuoti apie funkcines sritis ir jam gali būti priskirta pelno ir nuostolio atsakomybė. Be to, padalinyje gali būti išlaidų centrų grupė. Pardavimo, apskaitos ir personalo valdymo skyriai galėtų būti vieni iš organizacijos padalinių pavyzdžių.
 
-## <a name="jobs-and-positions"></a> Užduotys ir pareigos
+## <a name="jobs-and-positions"></a>Užduotys ir pareigos
 Užduotis yra užduočių ir pareigų, kurias asmeniui reikia įvykdyti, rinkinys. Pozicija yra individualus užduoties egzempliorius. Užduočiai atlikti būtinos atsakomybės ribos, darbo užduotys, užduočių funkcijos, įgūdžiai, išsilavinimo informacija taip pat būtini pareigoms, susijusioms su ta užduotimi, eiti.
 ### <a name="job-tasks"></a>Darbo užduotys
 
@@ -97,8 +95,7 @@ Užduočių tipai naudojami panašiems darbams klasifikuoti į kategorijas. Kaip
 
 Atsakomybės ribos naudojamos užduotį atliekančio darbuotojo darbo vaidmenims, procesams ir produktams, už kuriuos jis yra atsakingas, apibrėžti. Pvz., buhalterio atsakomybės ribos gali būti apibrėžtos kaip „Produkto A finansinės ataskaitos“.
 
-<a name="positions"></a>Pareigybės
-----------
+## <a name="positions"></a>Pareigybės
 
 Pareigos yra svarbus žemesniojo organizacijos hierarchijos lygio elementas. Pozicija yra individualus užduoties egzempliorius. Pvz., pareigos „Pardavimo vadybininkas (rytų regionas)“ yra tik vienos iš pareigų, susietų su užduotimi „Pardavimo vadovas“. Pareigos atitinka padalinį ir yra priskiriamos darbuotojams.
 ### <a name="position-creation-and-maintenance"></a>Pareigų kūrimas ir priežiūra
@@ -165,3 +162,6 @@ Galite keisti lentelėje pateiktą informaciją, susijusią su pareigomis ar už
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

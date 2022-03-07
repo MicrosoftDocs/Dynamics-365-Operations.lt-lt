@@ -2,11 +2,9 @@
 title: Nauji ar atnaujinti užduočių vedliai (2016 m. lapkričio mėn.)
 description: Šioje temoje išvardijami nauji ar atnaujinti užduočių vedliai, kurie buvo išleisti „Microsoft“ APQC bendrojoje bibliotekoje (2016 m. lapkričio mėn.; skirta visoms kalboms), skirtoje „Microsoft Dynamics 365 for Operations“. Išleista jokia nauja darbo pradžios biblioteka.
 author: josaw1
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -16,12 +14,12 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 9c422b0d24c3f7bd4cd9b4b4d00fb26597bfdebb
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
-ms.translationtype: HT
+ms.openlocfilehash: 3f36ceb535919991c1be0501daabd94e966723fa875cf8765439212d235e82a3
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4796687"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6728132"
 ---
 # <a name="new-or-updated-task-guides-november-2016"></a>Nauji ar atnaujinti užduočių vedliai (2016 m. lapkričio mėn.)
 
@@ -547,3 +545,6 @@ APQC bendrojoje bibliotekoje (2016 m. lapkričio mėn.; skirta visoms kalboms) p
 [Nauji ar atnaujinti užduočių vedliai (2016 m. gegužės mėn.)](new-updated-task-guides-available-may-2016.md)
 
 [Nauji ar atnaujinti užduočių vedliai (2016 m. rugpjūčio mėn.)](new-updated-task-guides-available-august-2016.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

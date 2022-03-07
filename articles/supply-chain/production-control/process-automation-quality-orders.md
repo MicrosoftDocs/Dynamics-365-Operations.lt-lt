@@ -10,16 +10,17 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2021-05-28
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: fa0c9ea5a2e92ae5af7d937b5f7f16df0ee3c9ef
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
-ms.translationtype: MT
+ms.openlocfilehash: 131d88c51755a433a874ac0fe086b3eaa48f161c
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7985192"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7572798"
 ---
 # <a name="invoke-process-automation-flows-to-create-quality-orders"></a>Proceso automatizavimo srautų iškvietimas kokybės užsakymams kurti
 
 [!include [banner](../includes/banner.md)]
+[!INCLUDE [preview-banner](../includes/preview-banner.md)]
 
 Organizacijos turi didėjantį poreikį automatizuoti standartinius verslo procesus, suteikti patogesnes sąveikas su darbuotojais ir naudoti įvairius duomenų signalus ir sistemas, kad verslo procesai būtų vykdomi automatiškai. Naudojant robotinį procesų automatizavimą (RPA) ir „Microsoft Power Automate”, įmonės gali naudoti „jokių kodų” patirtį pasikartojantiems procesams automatizuoti, tokiu būdu didinant efektyvumą ir tikslumą.
 

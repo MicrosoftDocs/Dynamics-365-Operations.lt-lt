@@ -1,30 +1,31 @@
 ---
-title: Darbo su elektroninių SF priedu Italijai pradžia
-description: Šioje temoje pateikiama informacija, kuri padės jums pradėti naudotis elektroninių SF išrašymo priedu Italijai.
+title: Darbo su Italijos elektroninių SF išrašymo priedu pradžia
+description: Šioje temoje pateikiama informacija, kuri padės jums pradėti naudotis Italijos elektroninių SF išrašymo priedu „Microsoft Dynamics 365 Finance” ir „Dynamics 365 Supply Chain Management”.
 author: gionoder
+manager: AnnBe
 ms.date: 09/22/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.custom:
-- "97423"
-- intro-internal
+ms.search.scope: Core, Operations
+ms.custom: 97423
 ms.assetid: ''
 ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: c0197ff9d93833aa50fef56ec597fa0c904d792d
-ms.sourcegitcommit: 8bcb9c13eccb14e61c39ca6578d135b64090fad2
-ms.translationtype: MT
+ms.openlocfilehash: c513141f820c95fe3842478361693701f1e3641b
+ms.sourcegitcommit: f860ac2b18f6bbbfc4a46b497baec2477105b116
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8313651"
+ms.lasthandoff: 10/19/2020
+ms.locfileid: "4446171"
 ---
-# <a name="get-started-with-electronic-invoicing-for-italy"></a>Darbo su elektroninių SF priedu Italijai pradžia
+# <a name="get-started-with-the-electronic-invoicing-add-on-for-italy"></a>Darbo su Italijos elektroninių SF išrašymo priedu pradžia
 
 [!include [banner](../includes/banner.md)]
 
@@ -32,7 +33,7 @@ ms.locfileid: "8313651"
 > [!IMPORTANT]
 > Italijos elektroninių SF išrašymo priedas šiuo metu gali nepalaikyti visų funkcijų, pasiekiamų elektroninėms SF „Microsoft Dynamics 365 Finance” ir „Dynamics 365 Supply Chain Management”. 
 
-Šioje temoje pateikiama informacija, kuri padės jums pradėti naudotis elektroninių SF išrašymo priedu Italijai. Ji padės atlikti konfigūracijos veiksmus, priklausančius nuo šalies, „Regulatory Configuration Services” (RCS) ir „Finance”. Ji taip pat paaiškina, kaip pateikti elektronines SF, sugeneruotas Italijai būdingu formatu **„FatturaPA”**, naudojant paslaugą, ir kaip peržiūrėti apdorojimo rezultatus.
+Šioje temoje pateikiama informacija, kuri padės jums pradėti naudotis Italijos elektroninių SF išrašymo priedu. Ji padės atlikti konfigūracijos veiksmus, priklausančius nuo šalies, „Regulatory Configuration Services” (RCS) ir „Finance”. Ji taip pat paaiškina, kaip pateikti elektronines SF, sugeneruotas Italijai būdingu formatu **„FatturaPA”**, naudojant paslaugą, ir kaip peržiūrėti apdorojimo rezultatus.
 
 ## <a name="prerequisites"></a>Būtinieji komponentai
 
@@ -61,7 +62,7 @@ RCS nustatymo metu galėsite atlikti toliau pateiktas užduotis.
 
 4. Pasirinkite funkciją **El. SF eksportavimas (IT)** ir pasirinkite **Importuoti**.
 
-![Funkcijos Elektroninių SF eksportavimas (IT) importavimas.](media/e-Invoicing-services-get-started-ITA-Select-Import-e-Invoicing-feature.png)
+![Funkcijos El. SF eksportavimas (IT) importavimas](media/e-Invoicing-services-get-started-ITA-Select-Import-e-Invoicing-feature.png)
 
 Kai importuojate funkciją **El. SF eksportavimas (IT)** iš visuotinės saugyklos, taip pat importuojami visi kituose skyriuose aprašyti parametrai.
 
@@ -69,13 +70,13 @@ Kai importuojate funkciją **El. SF eksportavimas (IT)** iš visuotinės saugykl
 
 1. Puslapio **El. SF išrašymo funkcijos** skirtuke **Versijos** pasirinkite **Naujas**. 
 
-    ![Naujos elektroninių SF išrašymo funkcijos versijos įtraukimas.](media/e-Invoicing-services-get-started-ITA-Select-New-e-Invoicing-feature-version.png)
+    ![Naujos el. SF išrašymo funkcijos versijos įtraukimas](media/e-Invoicing-services-get-started-ITA-Select-New-e-Invoicing-feature-version.png)
 
     Taip pat sukonfigūruosite elektroninių ataskaitų (ER) formatus, susietus su el. SF išrašymo funkcija.
 
 2. Skirtuke **Konfigūracijos** pasirinkite **Įtraukti**, norėdami valdyti konfigūracijos versijas.
 
-    ![Elektroninės SF išrašymo funkcijos konfigūracijos versijų valdymas.](media/e-Invoicing-services-get-started-ITA-Manage-e-Invoicing-feature-configurations.png)
+    ![El. SF išrašymo funkcijos konfigūracijos versijų valdymas](media/e-Invoicing-services-get-started-ITA-Manage-e-Invoicing-feature-configurations.png)
 
     Šio etapo metu galite įtraukti ir konfigūruoti įvairių failų, kurie naudojami Italijos el. SF eksportuoti, ER formatus. Jei naudojate Italijos „FatturaPA” el. SF, naudokite toliau pateiktas standartines konfigūracijas arba faktines tinkintas konfigūracijas, kurias naudojate el. SF išrašymui.
 
@@ -87,17 +88,17 @@ Kai importuojate funkciją **El. SF eksportavimas (IT)** iš visuotinės saugykl
 3. Pasirinkite konkrečią ER formato failo konfigūraciją.
 4. Norėdami atidaryti puslapį **Formato dizaino įrankis**, pasirinkite **Redaguoti** arba **Peržiūrėti**.
 
-    ![Puslapio Formato dizaino įrankis atidarymas.](media/e-Invoicing-services-get-started-ITA-Configuration-ER-format-designer.png)
+    ![Puslapio Formato dizaino įrankis atidarymas](media/e-Invoicing-services-get-started-ITA-Configuration-ER-format-designer.png)
 
 5. Norėdami redaguoti ir peržiūrėti ER formato failo konfigūracijas, naudokite puslapį **Formato dizaino įrankis**.
 
-    ![Formato dizaino įrankio puslapis.](media/e-Invoicing-services-get-started-ITA-ER-format-designer.png)
+    ![Formato dizaino įrankio puslapis](media/e-Invoicing-services-get-started-ITA-ER-format-designer.png)
 
 ## <a name="manage-the-e-invoicing-feature-setups"></a>El. SF išrašymo funkcijos nustatymų valdymas
 
 - Puslapio **El. SF išrašymo funkcijos** skirtuke **Nustatymai** pasirinkite **Įtraukti**, **Naikinti** arba **Redaguoti**, norėdami valdyti el. SF išrašymo funkcijos nustatymus.
 
-![Elektroninių SF išrašymo funkcijos nustatymų valdymas.](media/e-Invoicing-services-get-started-ITA-Manage-e-Invoicing-feature-setup.png)
+![El. SF išrašymo funkcijos nustatymų valdymas](media/e-Invoicing-services-get-started-ITA-Manage-e-Invoicing-feature-setup.png)
 
 Atlikdami šį veiksmą galite konfigūruoti įvykius, taikomus elektroninėms SF, įskaitant XML išvesties failų generavimą **„FatturaPA”** formatu ir pasirašymą skaitmeniniu būdu (jei reikia).
 
@@ -107,20 +108,20 @@ Atlikdami šį veiksmą galite konfigūruoti įvykius, taikomus elektroninėms S
 2. Pasirinkite **Redaguoti**.
 3. Puslapyje **Funkcijos versijos nustatymas** pasirinkite skirtuką **Veiksmai**, norėdami valdyti veiksmų sąrašą. Skirtukas Veiksmai nurodo operacijų, kurios turi būti vykdomos eilės tvarka siekiant visiškai įvykdyti įvykį, sąrašą.
 
-    ![Skirtukas Veiksmai.](media/e-Invoicing-services-get-started-ITA-Select-Actions.png)
+    ![Skirtukas Veiksmai](media/e-Invoicing-services-get-started-ITA-Select-Actions.png)
 
     | Veiksmo ID | Veiksmo pavadinimas        | Veiksmo aprašas                                     |
     |-----------|--------------------|--------------------------------------------------------|
-    | 1         | Transformuoti dokumentą | Kurkite el. SF XML failą **„FatturaPA”** formatu. |
+    | 1         | Pakeisti dokumentą | Kurkite el. SF XML failą **„FatturaPA”** formatu. |
     | 2         | Pasirašyti dokumentą      | Pritaikykite skaitmeninį parašą XML failui.             |
 
 4. Norėdami peržiūrėti ir tvarkyti taikymo taisykles, pasirinkite skirtuką **Taikymo taisyklės**. Pritaikymo taisyklės nurodo kontekstą, kuriame bus vykdomas veiksmas.
 
-    ![Skirtukas Taikymo taisyklės.](media/e-Invoicing-services-get-started-ITA-Select-Applicability-rules.png)
+    ![Skirtukas Taikymo taisyklės](media/e-Invoicing-services-get-started-ITA-Select-Applicability-rules.png)
 
 5. Pasirinkite skirtuką **Kintamieji**, norėdami peržiūrėti ir tvarkyti kintamuosius.
 
-    ![Skirtukas Kintamieji.](media/e-Invoicing-services-get-started-ITA-Select-Variables.png)
+    ![Skirtukas Kintamieji](media/e-Invoicing-services-get-started-ITA-Select-Variables.png)
 
 6. Nustatykite viešuosius kintamuosius, reikalingus veiksmams vykdyti.
 
@@ -135,7 +136,7 @@ Veiksmai ir parametrai, reikalingi **Projekto SF** funkcijos nustatymui konfigū
 3. Lauke **Galioja nuo** pasirinkite datą, kada aplinka turėtų įsigalioti.
 4. Pasirinkite **Įjungti**. 
 
-![Elektroninės SF išrašymo aplinkos įgalinimas.](media/e-Invoicing-services-get-started-ITA-Enable-e-Invoicing-environment.png)
+![El. SF išrašymo aplinkos įgalinimas](media/e-Invoicing-services-get-started-ITA-Enable-e-Invoicing-environment.png)
 
 ## <a name="publish-the-e-invoicing-feature"></a>El. SF išrašymo funkcijos publikavimas
 
@@ -151,9 +152,9 @@ Galite publikuoti el. SF išrašymo funkciją pakeisdami versijos būseną į **
 1. Puslapio **El. SF išrašymo funkcijos** skirtuke **Versijos** pasirinkite el. SF išrašymo funkcijos versiją, kurios būsena yra **Baigta**.
 2. Pasirinkite **Keisti būseną \> Publikuoti**.
 
-![Elektroninės SF išrašymo funkcijos būsenos keitimas.](media/e-Invoicing-services-get-started-ITA-Change-status-of-e-Invoicing-feature.png)
+![El. SF išrašymo funkcijos būsenos keitimas](media/e-Invoicing-services-get-started-ITA-Change-status-of-e-Invoicing-feature.png)
 
-## <a name="set-up-electronic-invoicing-integration-in-finance"></a>Elektroninių SF išrašymo priedo integravimo nustatymas „Finance”
+## <a name="set-up-the-electronic-invoicing-add-on-integration-in-finance"></a>Elektroninių SF išrašymo priedo integravimo nustatymas „Finance”
 
 „Finance” nustatymo metu galėsite atlikti toliau pateiktas užduotis.
 
@@ -172,7 +173,7 @@ Galite publikuoti el. SF išrašymo funkciją pakeisdami versijos būseną į **
 1. Eikite į **Organizacijos administravimas \> Nustatymas \> Elektroninių dokumentų parametrai**.
 2. Skirtuke **Funkcijos** pažymėkite žymės langelį **Įjungta** eilutėje, skirtoje funkcijos nuorodai **IT00036**.
 
-![Funkcijos „FatturaPA” įjungimas.](media/e-Invoicing-services-get-started-ITA-Enable-FatturaPA-feature.png)
+![Funkcijos „FatturaPA” įjungimas](media/e-Invoicing-services-get-started-ITA-Enable-FatturaPA-feature.png)
 
 #### <a name="configure-electronic-documents"></a>Elektroninių dokumentų konfigūravimas
 
@@ -187,7 +188,7 @@ Galite publikuoti el. SF išrašymo funkciją pakeisdami versijos būseną į **
     - Dalyje **Kliento SF žurnalas** pasirinkite **Kliento SF kontekstas**.
     - Dalyje **Projekto SF** pasirinkite **Projekto SF kontekstas**.
 
-![Atsakymų tipų nustatymas.](media/e-Invoicing-services-get-started-ITA-Set-up-response-types.png)
+![Atsakymų tipų nustatymas](media/e-Invoicing-services-get-started-ITA-Set-up-response-types.png)
 
 ## <a name="electronic-invoice-processing"></a>El. SF apdorojimas
 
@@ -203,19 +204,19 @@ Apdorojimo „Finance” metu atliksite toliau pateiktas užduotis.
 Dokumentus galite pateikti neautomatiniu būdu, atsižvelgdami į el. SF dokumentų poreikį.
 
 > [!NOTE]
-> Prieš tęsdami įsitikinkite, kad nustatymas, reikalingas Italijos el. SF, buvo užbaigtas. Daugiau informacijos žr. [Kliento elektroninės SF](./emea-ita-e-invoices.md). Turėkite omenyje, kad kai kurie toje temoje aprašyti nustatymo veiksmai gali būti nepasiekiami dėl elektroninių SF išrašymo priedo aktyvinimo.
+> Prieš tęsdami įsitikinkite, kad nustatymas, reikalingas Italijos el. SF, buvo užbaigtas. Daugiau informacijos žr. [Kliento elektroninės SF](https://docs.microsoft.com/dynamics365/finance/localizations/emea-ita-e-invoices). Turėkite omenyje, kad kai kurie toje temoje aprašyti nustatymo veiksmai gali būti nepasiekiami dėl elektroninių SF išrašymo priedo aktyvinimo.
 
 1. Eikite į **Organizacijos administravimas \> Laikotarpio \> Elektroniniai dokumentai \> Pateikti elektroninius dokumentus**.
 2. Pirmą kartą pateikę bet kokį dokumentą, nustatykite parinktį **Iš naujo pateikti dokumentus** į **Ne**. Jei turite iš naujo pateikti dokumentą naudodami paslaugą, nustatykite šią parinktį į **Taip**.
 3. „FastTab” **Įtrauktini įrašai** pasirinkite **Filtruoti**, kad būtų atidarytas dialogo langas **Užklausa**, kuriame galite kurti užklausą, norėdami pasirinkti dokumentus pateikimui.
 
-![Dialogo langas Pateikti elektroninius dokumentus.](media/e-Invoicing-services-get-started-ITA-Submission-form.png)
+![Dialogo langas Pateikti elektroninius dokumentus](media/e-Invoicing-services-get-started-ITA-Submission-form.png)
 
 #### <a name="filter-query"></a>Filtro užklausa
 
 1. Dialogo lange **Užklausa** konfigūruokite pardavimo SF ir projekto SF filtravimo sąlygas arba palikite sąlygas tuščias, kad būtų įtrauktos visos nepateiktos SF.
 
-    ![Pateikimo filtro kriterijų nustatymas.](media/e-Invoicing-services-get-started-ITA-Set-up-Submission-filter-criteria.png)
+    ![Pateikimo filtro kriterijų nustatymas](media/e-Invoicing-services-get-started-ITA-Set-up-Submission-filter-criteria.png)
 
 2. Pasirinkite **Gerai**, kad uždarytumėte dialogo langą **Užklausa**.
 3. Pasirinkti **Gerai**, norėdami pateikti pasirinktus dokumentus.
@@ -229,13 +230,13 @@ Galite peržiūrėti visų pateiktų dokumentų pateikimo žurnalus.
 1. Eikite į **Organizacijos administravimas \> Laikotarpio \> Elektroniniai dokumentai \> Elektroninio dokumento pateikimo žurnalas**.
 2. Lauke **Dokumento tipas** pasirinkite **Kliento SF žurnalas** arba **Projekto SF**, norėdami filtruoti pagal reikiamus elektroninius dokumentus.
 
-    ![Dokumento tipo pasirinkimas norint peržiūrėti pateikimo žurnalus.](media/e-Invoicing-services-get-started-ITA-Select-Document-type-for-viewing-submission-log.png)
+    ![Dokumento tipo pasirinkimas norint peržiūrėti pateikimo žurnalus](media/e-Invoicing-services-get-started-ITA-Select-Document-type-for-viewing-submission-log.png)
 
     Stulpelyje **Pateikimo būsena** rodoma reikšmė nurodo pateikimo proceso būseną. Ji nurodo, ar procesas buvo vykdomas kaip sukonfigūruotas ir ar reikia papildomų veiksmų.
 
 3. Norėdami peržiūrėti išsamią pateikimo vykdymo žurnalų informaciją, veiksmų srityje pasirinkite **Užklausos \> Pateikimo informacija**.
 
-    ![Pateikimo žurnalo informacijos peržiūra.](media/e-Invoicing-services-get-started-ITA-View-Submission-log-details.png)
+    ![Pateikimo žurnalo informacijos peržiūra](media/e-Invoicing-services-get-started-ITA-View-Submission-log-details.png)
 
 4. „FastTab” **Apdorojimo veiksmai** galite peržiūrėti veiksmų, sukonfigūruotų funkcijos versijoje, nustatytoje RCS, vykdymo žurnalą. Stulpelyje **Būsena** nurodoma, ar veiksmas sėkmingai įvykdytas.
 5. „FastTab” **Veiksmų failai** galite peržiūrėti tarpinius failus, sugeneruotus veiksmų vykdymo metu. Galite pasirinkti **Peržiūrėti**, norėdami atsisiųsti išvesties XML failą **FatturaPA** formatu ir peržiūrėti jo turinį.
@@ -243,8 +244,5 @@ Galite peržiūrėti visų pateiktų dokumentų pateikimo žurnalus.
 ## <a name="related-topics"></a>Susijusios temos
 
 - [Elektroninių SF išrašymo priedo apžvalga](e-invoicing-service-overview.md)
-- [Darbo su elektroninių SF priedu pradžia](e-invoicing-get-started.md)
-- [Elektroninių SF nustatymas](e-invoicing-setup.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+- [Darbo su elektroninių SF išrašymo priedu pradžia](e-invoicing-get-started.md)
+- [Elektroninių SF išrašymo priedo nustatymas](e-invoicing-setup.md)

@@ -1,24 +1,26 @@
 ---
 title: Įtraukti išraiškos apribojimą į produkto konfigūravimo modelį
 description: Ši procedūra nurodo, kaip į produkto konfigūracijos modelį galima įtraukti naują apribojimo išraišką.
-author: t-benebo
+author: ShylaThompson
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard, EcoResProductVariantMaintainWorkspace, PCProductConfigurationModelListPage, PCProductConfigurationModelDetails, SysClientPolymorphicCreateSelector, PCConstraintEditor, PCRuntimeConfiguratorValidate
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: benebotg
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 77e8b991a2615a8f5d238acc4655f231edb6ca98
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 411e20bd8631b70df981c5785f502693d5ba3705
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7569654"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4987134"
 ---
 # <a name="add-an-expression-constraint-to-a-product-configuration-model"></a>Įtraukti išraiškos apribojimą į produkto konfigūravimo modelį
 
@@ -26,28 +28,25 @@ ms.locfileid: "7569654"
 
 Ši procedūra nurodo, kaip į produkto konfigūracijos modelį galima įtraukti naują apribojimo išraišką. Jame parodoma, kaip galima įgalioti, kad kampo apsauga turi būti taikoma garsiakalbiui, jei vartotojas pasirinko priekines metalo groteles. Procedūros metu naudojamas aukščiausios klasės garsiakalbio komponentas demonstracinės įmonės USMF.
 
-## <a name="create-an-expression-constraint"></a>Kaip sukurti išraiškos apribojimą
 
-1. Eikite į **Produkto informacijos valdymas \> Produktai \> Produkto konfigūracijos modeliai**.
+## <a name="create-an-expression-constraint"></a>Kaip sukurti išraiškos apribojimą
+1. Spustelėkite Produkto varianto modelio aprašą.
+2. Spustelėkite Produkto konfigūracijos modeliai.
 3. Sąraše raskite ir pasirinkite norimą įrašą.
     * Šiame pavyzdyje naudojamas aukščiausios klasės garsiakalbio modelis.  
-4. Šiame sąraše pasirinkite nuorodą pasirinktoje eilutėje.
-5. Išplėskite **skyrių** Apribojimai.
-6. Pasirinkite **Įtraukti**.
-7. Pasirinkite **Kurti**.
-8. Lauke **Pavadinimas** įveskite reikšmę.
+4. Sąraše spustelėkite saitą pasirinktoje eilutėje.
+5. Išplėskite skyrių Apribojimai.
+6. Spustelėkite Pridėti.
+7. Spustelėkite Kurti.
+8. Lauke Pavadinimas surinkite reikšmę.
 
 ## <a name="enter-expression"></a>Įvesti išraišką
-
-1. Pasirinkite **Redaguoti išraišką**.
+1. Spustelėkite Redaguoti išraišką.
     * Jei atrakinsite vartotojo sąsają užduočių įrašymo metu šiame etape, galite naudoti „IntelliSense“ ir simbolių sąrašą apribojimo išraiškai sukurti.  
-2. Lauke **„ConstraintBody“** įveskite, 'Implies[FrontGrill=="Metal", CornerProtection] '.
+2. Lauke „ConstraintBody“ įveskite 'Implies[FrontGrill=="Metal", CornerProtection]'.
     * Šios išraiškos logika nurodo: jei priekyje grotelės yra metalinės, tada turi būti pasirinkta kampo apsaugos pasirinktis.  
-3. Pasirinkite **Tikrinti**.
+3. Spustelėkite Tikrinti.
     * Patikrinimo funkcija patikrina apribojimo išraišką, ar joje nėra sintaksės klaidų.  
-4. Pasirinkite **Uždaryti**.
-5. Pasirinkite **Gerai**.
+4. Spustelėkite Uždaryti.
+5. Spustelėkite GERAI.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

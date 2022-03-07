@@ -1,10 +1,12 @@
 ---
 title: Spartieji klavišai
-description: Šioje temoje pateikta sparčiųjų klavišų derinių, kuriuos galima naudoti dirbant su finansų ir operacijų programėle, apžvalga.
+description: Šioje temoje pateikiama sparčiųjų klavišų derinių, kuriuos galite naudoti dirbdami su „Finance and Operations” programomis, peržiūra.
 author: jasongre
-ms.date: 02/11/2022
+manager: AnnBe
+ms.date: 10/05/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
@@ -14,21 +16,18 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5243ea35138aa37d9fc54821e0923d0fa47c95de
-ms.sourcegitcommit: 6a269db08e8bb3bb3405c9f4a512091d13c80faa
-ms.translationtype: MT
+ms.openlocfilehash: d2dee0b1eb911764ea68f9b6df5516bf2cb81d07
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/14/2022
-ms.locfileid: "8119557"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798231"
 ---
 # <a name="keyboard-shortcuts"></a>Spartieji klavišai
 
 [!include [banner](../includes/banner.md)]
 
-
-[!INCLUDE [PEAP](../../../includes/peap-1.md)]
-
-Spartieji klavišai gali padėti greitai ir efektyviai įvesti duomenis į finansų ir operacijų programėles. 
+Naudodami toliau pateikiamus sparčiuosius klavišus, duomenis įvesite greitai ir efektyviai „Finance and Operations” programose.
 
 > [!NOTE]
 > Čia aprašyti spartieji klavišai pagrįsti amerikietišku klaviatūros išdėstymu. Kitokio klaviatūros išdėstymo klaviatūrų klavišai gali nevisiškai atitikti JAV klaviatūros klavišus.
@@ -37,11 +36,11 @@ Kai kurie šio puslapio spartieji klavišai yra *pagrindiniai deriniai*, o tai r
 
 ## <a name="finding-a-shortcut"></a>Sparčiųjų klavišų radimas
 
-Vartotojai gali atrasti šiuo metu galimas nuorodas tiesiai iš vartotojo sąsajos. Tiesiog dešiniuoju pelės mygtuku spustelėkite valdiklį ir pasirinkite **Peržiūrėti sparčiuosius klavišus**. Bus atidarytas dialogo langas, rodantis sparčiuosius klavišus, kuriuos galite naudoti priklausomai nuo to, kurioje puslapio vietoje esate. Taip pat galite paspausti Alt+Shift+K, kad atsidarytumėte šį dialogo langą (ir antrą kartą paspauskite Alt+Shift+K, kad pamatytumėte visas šiuo metu galimas puslapio nuorodas).    
+Nuo platformos 11 naujinimo vartotojai gali rasti šiuo metu galimus sparčiuosius klavišus tiesiai iš vartotojo sąsajos. Tiesiog dešiniuoju pelės mygtuku spustelėkite valdiklį ir pasirinkite **Peržiūrėti sparčiuosius klavišus**. Bus atidarytas dialogo langas, rodantis sparčiuosius klavišus, kuriuos galite naudoti priklausomai nuo to, kurioje puslapio vietoje esate.
 
 ## <a name="action-shortcuts"></a>Veiksmų spartieji klavišai
 
-| Norėdami tai padaryti                                      | Paspauskite                             |
+| Norėdami tai padaryti                                      | Spausti                            |
 |-------------------------------------------------|----------------------------------|
 | Atidaryti ieškos veiksmą                              | Ctrl + ’ arba Alt + Q                  |
 | Perkelti į standartinę veiksmų sritį                | „Alt“ + M, A arba „Ctrl“ + F6               |
@@ -130,10 +129,8 @@ Vartotojai gali atrasti šiuo metu galimas nuorodas tiesiai iš vartotojo sąsaj
 
 ## <a name="grid-shortcuts"></a>Tinklelio spartieji klavišai
 
-| Norėdami tai padaryti                                                                                                             | Paspauskite                            |
+| Norėdami tai padaryti                                                                                                             | Spausti                           |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------|
-| Vertikalioji slinktis                                                                                                     | Pelės ratas                     |
-| Horizontalioji slinktis                                                                                                   | Shift + pelės ratas             |
 | Perkelti į kitą / ankstesnį stulpelį                                                                                       | Tab / Shift + Tab                 |
 | Perkelti į kitą / ankstesnę eilutę                                                                                          | Rodyklė žemyn / rodyklė aukštyn           |
 | Perkelti į kitą / ankstesnę eilutę nepasirinkus<blockquote>[!NOTE] Šis spartusis klavišas taikomas tik žymint kelis elementus.</blockquote> | „Ctrl“ + rodyklė aukštyn / „Ctrl“ + rodyklė žemyn |
@@ -145,24 +142,22 @@ Vartotojai gali atrasti šiuo metu galimas nuorodas tiesiai iš vartotojo sąsaj
 | Perkelti į pirmą įrašą                                                                                               | CTRL + HOME                       |
 | Perkelti į paskutinį įrašą                                                                                                | CTRL + END                        |
 | Pasirinkti arba išvalyti visas eilutes                                                                                               | Ctrl + Shift + M                    |
-| Pereikite į pirmąją pažymėtąją eilutę.                                                                                           | Alt+Shift+M, F                  |
-| Perkelti į kitą eilutę                                                                                            | Alt+Shift+M, L                  |
-| Perkelti į ankstesnę eilutę                                                                                        | Alt+Shift+M, P                  |
-| Perkelti į pirmą įrašą                                                                                           | Alt+Shift+M, N                  |
+| Pereikite į pirmąją pažymėtąją eilutę.                                                                                           | Alt+Shift+M, F                    |
+| Perkelti į kitą eilutę                                                                                            | Alt+Shift+M, L                    |
+| Perkelti į ankstesnę eilutę                                                                                        | Alt+Shift+M, P                    |
+| Perkelti į pirmą įrašą                                                                                           | Alt+Shift+M, N                    |
 | Vykdyti numatytąjį tinklelio veiksmą<blockquote>[!NOTE] Šis spartusis klavišas įjungiamas, kai įvesties vieta yra langelyje su hipersaitu ir visi to stulpelio langeliai yra su hipersaitais.</blockquote> | Enter                           |
 | Perkelti įvesties vietą iš pasirinktos eilutės į antraštės eilutę ir atvirkščiai                                                               | Alt + Shift + H                     |
 | Padidinti / sumažinti dabartinį stulpelį (įvesties vietą nustatant antraštės eilutėje)                                                  | Rodyklė dešinėn / rodyklė kairėn        |
-| Perkelti dabartinį stulpelį į paskesne/ankstesne padėtį (su židiniu antraštės eilutėje)                                   | CTRL + Shift + rodyklė dešinėn / Ctrl + shift + rodyklė kairėn |
-| Atidaryti dabartinio stulpelio tinklelio filtravimą (įvesties vietą nustatant antraštės eilutėje)                                              | Įvesti                           |
-| Pakeisti dabartinio stulpelio dydį, kad tiktų į turinį (akcentuojant antraštės eilutę)                                           | A (arba dukart spustelėti stulpelio dydžio keitimo rankeną) |
+| Atidaryti dabartinio stulpelio tinklelio filtravimą (įvesties vietą nustatant antraštės eilutėje)                                              | Enter                           |
 
 ## <a name="input-control-shortcuts"></a>Įvesties valdymo spartieji klavišai
 
-| Norėdami tai padaryti                                                                   | Paspauskite                          |
+| Norėdami tai padaryti                                                                   | Spausti                         |
 |------------------------------------------------------------------------------|-------------------------------|
 | Atidaryti hipersaitą                                                           | „Ctrl“ + „Enter“                    |
-| Įvesti seanso datą į datos lauką.                                       | D                             |
-| Įvesti dabartinę datą į datos lauką                                       | A                             |
+| Įvesti seanso datą į datos lauką.                                       | D                         |
+| Įvesti dabartinę datą į datos lauką                                       | A                         |
 | Atidaryti peržvalgą, pasirinktinio įvedimo lauką, datos parinkiklį, išplečiamąjį dialogo langą                         | „Alt“ + rodyklė žemyn                |
 | Uždaryti peržvalgą, pasirinktinio įvedimo lauką, datos parinkiklį, išplečiamąjį dialogo langą                        | Esc                           |
 | Suaktyvinti peržvalgą (kai peržvalga jau atidaryta)                   | „Alt“ + rodyklė žemyn                |
@@ -209,8 +204,8 @@ Vartotojai gali atrasti šiuo metu galimas nuorodas tiesiai iš vartotojo sąsaj
 | Naudoti įrankį Perkelti (kai įjungtas personalizavimo režimas)                                                                       | P                                   |
 | Kaip perkeltiną pasirinkti dabartinį valdiklį (naudojant įrankį Perkelti ir dar nepasirinkus jokio perkeltino valdiklio)  | Tarpo klavišas arba „Enter“ klavišas                      |
 | Išvalyti perkeltiną valdiklį (naudojant įrankį Perkelti)                                                                   | Esc                                 |
-| Pasirinktą valdiklį perkelkite į kitą padėtį (naudojant įrankį Perkelti)                                              | Tabuliavimo klavišas, rodyklė dešinėn arba rodyklė žemyn    |
-| Pasirinktą valdiklį perkelti įankstesnę padėtį (naudojant įrankį Perkelti)                                          | „Shift“ + tabuliavimo klavišas, rodyklė kairėn arba rodyklė aukštyn |
+| Perkelti į kitą pasirinkto valdiklio padėtį (naudojant įrankį Perkelti)                                          | Tabuliavimo klavišas, rodyklė dešinėn arba rodyklė žemyn    |
+| Perkelti į ankstesnę pasirinkto valdiklio padėtį (naudojant įrankį Perkelti)                                      | „Shift“ + tabuliavimo klavišas, rodyklė kairėn arba rodyklė aukštyn |
 | Naudoti įrankį Slėpti (kai įjungtas personalizavimo režimas)                                                                       | H                                   |
 | Perjungti, ar dabartinis valdiklis matomas, ar paslėptas (naudojant įrankį Slėpti)                                     | Tarpo klavišas arba „Enter“ klavišas                      |
 | Naudoti įrankį Praleisti (kai įjungtas personalizavimo režimas)                                                                       | Tūkst.                                   |
@@ -256,14 +251,7 @@ Vartotojai gali atrasti šiuo metu galimas nuorodas tiesiai iš vartotojo sąsaj
 | Išplėsti / sutraukti animuotą iššokantįjį raginimą (leidžiant užduoties vadovą)              | Alt+R,C                    |
 | Rodyti daugiau / mažiau informacijos animuotame iššokančiajame raginime (leidžiant užduoties vadovą) | Alt+R,M                    |
 
-## <a name="focus-management"></a>Židinio valdymas 
-Židinio valdymas apibūdina, kaip programoje tvarkomas vartotojo dėmesys. Finansų ir operacijų programėlės turi specializuotas židinio elgsenas, skirtas optimizuoti vartotojų produktyvumą, ypač duomenų įvedimo scenarijuose. Židinio veikimo būdas apima:  
-
--  Kai puslapis įkeltas, pirmas redaguojamas įvesties valdiklis puslapyje fokusuos ir galės nedelsiant priimti vartotojo įvestį. Jei puslapyje nėra redaguojamo įvesties valdiklio, atsarginė pradinio židinio pasirinktis yra pirmasis įvesties valdiklis puslapyje, po kurio – pirmas, konvertuojamas puslapio valdiklis.   
--  Paprastai pasirinkus mygtuką, veiksmas apdorojamas ir židiniu gali būti grįžta į puslapį. Tokiu atveju židinio sistema grįžta prie pasirinkto mygtuko valdiklio. Tai taikoma finansų ir operacijų programėlei **,** išskyrus atvejus, kai mygtukas yra veiksmų srityje arba įrankių juostoje. Tokiais atvejais, kai veiksmas užbaigiamas, židinio grąžinimas grįžta į paskutinį valdiklį, *esantį* ne veiksmų srityje (arba įrankių juostoje), kuri buvo židinėta prieš pasirinkus mygtuką.
-
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Klaviatūros spartieji klavišai trūkstamų sąskaitų analizei atlikti](../../../finance/general-ledger/financial-reporting-keyboard-shortcuts.md)
 
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

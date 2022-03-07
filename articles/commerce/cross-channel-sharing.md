@@ -2,35 +2,30 @@
 title: Kelių kanalų bendrinimo funkcijos įjungimas ir naudojimas
 description: Šioje temoje aprašoma, kaip įjungti ir naudoti „Microsoft Dynamics 365 Commerce” svetainių daryklės kelių kanalų bendrinimo funkciją.
 author: psimolin
-manager: annbe
 ms.date: 10/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 77284045bda193500117978102c0565c5f15ec6d
-ms.sourcegitcommit: 1a12b42cc17f004a981c716aed3da6cf538475a5
-ms.translationtype: HT
+ms.openlocfilehash: 05614b3ec14bfca9551242e5cf31aee0cb21c39a85150114af446a187fac998a
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4414476"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6742421"
 ---
-# <a name="enable-and-use-cross-channel-sharing"></a>Kelių kanalų bendrinimo funkcijos įjungimas ir naudojimas
+# <a name="enable-and-use-cross-channel-sharing"></a>Bendrinimo tarp kelių kanalų įjungimas
 
 [!include [banner](includes/banner.md)]
 
 Šioje temoje aprašoma, kaip įjungti ir naudoti „Microsoft Dynamics 365 Commerce” svetainių daryklės kelių kanalų bendrinimo funkciją.
-
-## <a name="overview"></a>Peržiūra
 
 Kelių kanalų bendrinimo funkcija leidžia mažmenininkams pakartotinai naudoti ir bendrinti turinį keliuose svetainės kanaluose. Ši galimybė naudinga, kai svetainės kanalų pagrindinė kalba yra suderinama arba kai juose yra daug bendrų turinio elementų.
 
@@ -53,15 +48,15 @@ Norėdami įjungti kelių kanalų bendrinimo funkciją „Commerce” svetainių
 1. Eikite į **Svetainės parametrai \> Funkcijos**.
 1. Nustatykite funkcijos **Keli kanalai** parinktį į **Įjungta**.
 
-    ![Parinktis Keli kanalai nustatyta į Įjungta „Commerce” svetainių daryklėje](./media/enabling-cross-channel-sharing.png)
+    ![Parinktis Keli kanalai nustatyta į Įjungta „Commerce” svetainių daryklėje.](./media/enabling-cross-channel-sharing.png)
 
 Po to, kai įgalinsite kelių kanalų bendrinimo funkciją, kelių kanalų informacija bus rodoma skyriuje **Kanalai** , esančiame **Svetainės parametrai \> Funkcijos**, kaip parodyta toliau pateiktos iliustracijos pavyzdyje.
 
-![Kanalų informacija matoma, kai įjungta kelių kanalų bendrinimo funkcija](./media/channels-cross-channel.png)
+![Kanalų informacija matoma, kai įjungta kelių kanalų bendrinimo funkcija.](./media/channels-cross-channel.png)
 
 Be to, įjungus kelių kanalų bendrinimo funkciją, į lauką **Kanalas**, esantį viršutiniame dešiniajame „Commerce” svetainių daryklės kampe, bus įtraukta parinktis **Kelių kanalų internetinė parduotuvė**, kurią galima naudoti kelių kanalų turiniui valdyti, kaip parodyta toliau pateiktoje iliustracijoje.
 
-![Parinktis Kelių kanalų internetinė parduotuvė, esanti lauke Kanalai, įjungus kelių kanalų bendrinimo funkciją](./media/cross-channel-dropdown.png)
+![Parinktis Kelių kanalų internetinė parduotuvė, esanti lauke Kanalai, įjungus kelių kanalų bendrinimo funkciją.](./media/cross-channel-dropdown.png)
 
 ## <a name="create-and-use-cross-channel-content"></a>Kelių kanalų turinio kūrimas ir naudojimas
 
@@ -88,10 +83,10 @@ Norėdami sukurti kelių kanalų puslapį „Commerce” svetainių daryklėje, 
 1. Eikite į **Puslapiai** ir pasirinkite **Naujas**, kad sukurtumėte naują puslapį.
 1. Dialogo lange **Pasirinkti šabloną** pasirinkite šabloną, pvz., **Rinkodara**.
 1. Dalyje **Puslapio pavadinimas** įveskite puslapio pavadinimą, (pavyzdžiui, **Kelių kanalų puslapis**).
-1. Dalyje **Puslapio URL** įveskite puslapio URL (pvz., **examplepage**) ir pasirinkite **Gerai**.
+1. Dalyje **Puslapio URL** įveskite puslapio URL (pvz., **pavyzdinispuslapis**) ir pasirinkite **Gerai**.
 1. Naujo puslapio vietoje **Pagrindinis** pasirinkite daugtaškio mygtuką (**...**) ir **Įtraukti fragmentą**.
 1. Dialogo lange **Įtraukti fragmentą** pasirinkite kelių kanalų fragmentą, turintį reklaminę juostą, kurį sukūrėte anksčiau, ir pasirinkite **Gerai**.
-1. Norėdami peržiūrėti puslapį, pasirinkite **Įrašyti** ir **Peržiūrėti**. Turėtumėte matyti reklaminę juostą, kurioje parašyta „Keli kanalai”.
+1. Norėdami peržiūrėti puslapį, pasirinkite **Įrašyti** ir **Peržiūrėti**. Turėtumėte matyti reklaminę juostą, kurioje parašyta „Keli kanalai.”
 1. Pasirinkite **Baigti redagavimą**, kad užregistruotumėte puslapį, o tada pasirinkite **Publikuoti**, kad publikuotumėte jį.
 
 ### <a name="create-a-channel-specific-page-that-uses-cross-channel-content"></a>Kanalui būdingo puslapio, naudojančio kelių kanalų turinį, kūrimas
@@ -103,10 +98,10 @@ Norėdami sukurti kanalui būdingą puslapį „Commerce” svetainių daryklėj
 1. Iš konkretaus kanalo, pvz., **„Fabrikam“ išplėstinė internetinė parduotuvė**, eikite į **Puslapiai** ir pasirinkite **Naujas**, norėdami sukurti naują puslapį.
 1. Dialogo lange **Pasirinkti šabloną** pasirinkite šabloną, pvz., **Rinkodara**.
 1. Dalyje **Puslapio pavadinimas** įveskite puslapio pavadinimą, (pavyzdžiui, **Kanalui būdingas puslapis**).
-1. Dalyje **Puslapio URL** įveskite puslapio URL (pvz., **channelspecificpage**) ir pasirinkite **Gerai**.
+1. Dalyje **Puslapio URL** įveskite puslapio URL (pvz., **kanaluibūdingaspuslapis**) ir pasirinkite **Gerai**.
 1. Naujo puslapio vietoje **Pagrindinis** pasirinkite daugtaškio mygtuką (**...**) ir **Įtraukti fragmentą**.
 1. Dialogo lango **Įtraukti fragmentą** dalyje **Kanalas** pasirinkite **Kelių kanalų internetinė parduotuvė**. Kelių kanalų fragmentas, kurį sukūrėte anksčiau, turėtų būti rodomas sąraše. Pasirinkite jį, tada pasirinkite **Gerai**.
-1. Norėdami peržiūrėti puslapį, pasirinkite **Įrašyti** ir **Peržiūrėti**. Turėtumėte matyti reklaminę juostą, kurioje parašyta „Keli kanalai”.
+1. Norėdami peržiūrėti puslapį, pasirinkite **Įrašyti** ir **Peržiūrėti**. Turėtumėte matyti reklaminę juostą, kurioje parašyta „Keli kanalai.”
 1. Pasirinkite **Baigti redagavimą**, kad užregistruotumėte puslapį, o tada pasirinkite **Publikuoti**, kad publikuotumėte jį.
 
 ### <a name="create-a-channel-specific-version-of-a-cross-channel-page"></a>Kanalui būdingos kelių kanalų puslapio versijos kūrimas
@@ -123,7 +118,7 @@ Norėdami sukurti kanalui būdingą kelių kanalų puslapio versiją „Commerce
 1. Dialogo lange **Įtraukti modulį** pasirinkite modulį **Reklaminė juosta**, tada pasirinkite **Gerai**.
 1. Modulio **Reklaminė juosta** ypatybių srityje pasirinkite **Įtraukti pranešimą**, tada pasirinkite **Pranešimas**.
 1. Dialogo lango **Pranešimas** dalyje **Tekstas** įveskite **Kanalui būdingas** ir pasirinkite **Gerai**.
-1. Norėdami peržiūrėti puslapį, pasirinkite **Įrašyti** ir **Peržiūrėti**. Turėtumėte matyti reklaminę juostą, kurioje parašyta „Kanalui būdingas”.
+1. Norėdami peržiūrėti puslapį, pasirinkite **Įrašyti** ir **Peržiūrėti**. Turėtumėte matyti reklaminę juostą, kurioje parašyta „Kanalui būdingas.”
 1. Pasirinkite **Baigti redagavimą**, kad užregistruotumėte puslapį, o tada pasirinkite **Publikuoti**, kad publikuotumėte jį.
 
 Dabar, jei naudosite pagrindinį kanalo URL ir eisite į tos svetainės kelių kanalų puslapio URL, vietoje kelių kanalo turinio matysite kanalui būdingą turinį.
@@ -137,3 +132,6 @@ Dabar, jei naudosite pagrindinį kanalo URL ir eisite į tos svetainės kelių k
 [Dokumentų būsenos ir vykdymo ciklas](document-states-overview.md)
 
 [Darbas su publikavimo grupėmis](publish-groups.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

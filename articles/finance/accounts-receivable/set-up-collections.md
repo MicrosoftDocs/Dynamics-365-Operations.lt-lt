@@ -2,25 +2,28 @@
 title: Mokėjimų priežiūros nustatymas
 description: Šiame straipsnyje paaiškinama, kaip nustatyti mokėjimų priežiūros funkcijas.
 author: ShivamPandey-msft
+manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustCollectionsActivitiesListPage
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 14031
 ms.assetid: dcc6da2f-9af5-4f1d-abaa-b72967b66979
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f2e06da265271e2148804c51abc7cd9ffc29a3e20e73dda3a1a23966f0e6586e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8f8e066b1df3eb3a26d488e1c014f4ae3f31395a
+ms.sourcegitcommit: e544c51a68ad5daf748c0e877bdbde094ad40bd2
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6769823"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4446213"
 ---
 # <a name="set-up-collections"></a>Mokėjimų priežiūros nustatymas
 
@@ -40,7 +43,8 @@ ms.locfileid: "6769823"
 
 Šie punktai išsamiau aptariami likusioje šios temos dalyje. 
 
-## <a name="set-up-aging-period-definitions"></a>Nustatyti skirstymo pagal terminus laikotarpių apibrėžimus
+<a name="set-up-aging-period-definitions"></a>Nustatyti skirstymo pagal terminus laikotarpių apibrėžimus
+-------------------------------
 
 Nustatykite skirstymo pagal terminus laikotarpio apibrėžtį. Skirstymo pagal terminus laikotarpio apibrėžtis apibrėžia stulpelius, kurie rodomi **Pagal terminus suskirstytų balansų**, **Surinkimo veiklų** ir **Surinkimo atvejų** sąrašo puslapiuose. Ji taip pat apibrėžia laikotarpius, kurie rodomi **Surinkimo** puslapyje. Jei nustatytas klientų telkinys, naudojamas telkiniui skirtas skirstymo pagal terminus laikotarpis. Jei telkiniai nenustatyti, naudojama numatytoji skirstymo pagal terminus laikotarpio apibrėžtis, nurodyta puslapyje **Gautinų sumų parametrai**. Jei nenurodyta jokia numatytoji skirstymo pagal terminus laikotarpio apibrėžtis, naudojama pirmoji puslapyje **Skirstymo pagal terminus laikotarpio apibrėžtys** nurodyta skirstymo pagal terminus laikotarpio apibrėžtis.
 
@@ -111,6 +115,3 @@ Daugiau informacijos ieškokite šiose temose:
 
  - [Peržiūrėti mokėjimų priežiūros informaciją](tasks/review-collections-information.md)
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

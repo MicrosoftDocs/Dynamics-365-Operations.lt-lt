@@ -1,12 +1,10 @@
 ---
 title: Programos metaduomenų, kurie bus naudojami RCS, parengimas
-description: Šios temos veiksmai paaiškina, kaip vartotojas gali kurti naują elektroninės ataskaitos (ER) konfigūraciją, kurioje yra programos metaduomenys, skirti ER modelio susiejimo konfigūracijoms kurti naudojant „Regulatory Configuration Service“ (RCS).
+description: Šioje temoje apibūdinama, kaip sukurti naują ataskaitos konfigūraciją, kurioje yra programos metaduomenys.
 author: NickSelin
-manager: AnnBe
 ms.date: 06/28/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: dbc1ca45a39f2a5c3309276f9e2f5d2b7d2ba5f7
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
-ms.translationtype: HT
+ms.openlocfilehash: 71a33a69796b31c456bfcc5abbb3b18bcb1064be65c1c58b36656a9cebfbf47d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684096"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6750579"
 ---
 # <a name="prepare-application-metadata-to-be-used-in-rcs"></a>Programos metaduomenų, kurie bus naudojami RCS, parengimas
 [!include [banner](../../includes/banner.md)]
@@ -80,3 +78,6 @@ Siūlome tam tikrų su užsienio prekybos operacijomis susijusių metaduomenų, 
 3.    Spustelėkite **Gerai**. 
     
 Sukurta ER metaduomenų konfigūracija įrašyta kaip XML failas, kurį galima importuoti į RCS ir naudoti kaip užsienio prekybos verslo srities metaduomenų informacijos šaltinį. Remdamiesi šia informacija, galime nurodyti susiejimą tarp programos metaduomenų ir ER duomenų modelio.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

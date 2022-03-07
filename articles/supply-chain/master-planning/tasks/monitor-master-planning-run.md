@@ -1,24 +1,26 @@
 ---
 title: Bendrojo planavimo vykdymo stebėjimas
 description: Šioje temoje paaiškinama, kaip gamybos planuotojas gali matyti, ar vyksta bendrasis planavimas.
-author: ChristianRytt
+author: josaw1
+manager: tfehr
 ms.date: 11/04/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard, ReqCreatePlanWorkspace, ReqTransPlanCard, SysQueryForm, InventItemIdLookupSimple, ReqLog, ReqProcessTaskTrace
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: crytt
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4db1173b35cd196ab39fae3cac3754439fab84d0
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
-ms.translationtype: MT
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 2dea87ac106e79339b8cb6bb2c28e36e35de4a1a
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103168"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5226104"
 ---
 # <a name="monitor-a-master-planning-run"></a>Bendrojo planavimo vykdymo stebėjimas
 
@@ -28,11 +30,12 @@ ms.locfileid: "8103168"
 
 Puslapyje **Peržiūrėti bendrojo planavimo eigą** galite peržiūrėti istorinius bendrojo planavimo vykdymus kaip Gantt diagramą. Ši funkcija gali padėti jums suprasti įvairių bendrojo planavimo etapų laiką. Dėl dabartinės aktyvios planavimo užduoties, puslapį **Peržiūrėti pagrindinio planavimo eigą** galima naudoti norint sekti eigą ir peržiūrėti apskaičiuotą likusį laiką.
 
-### <a name="turn-the-master-plan-progress-visualization-feature-on-or-off"></a>Įjungti arba išjungti bendrojo plano eigos vizualizavimo funkciją
+### <a name="turn-on-and-use-the-master-plan-progress-visualization-feature"></a>Pagrindinio plano eigos vizualizacijos funkcijos įjungimas ir naudojimas
 
-Kaip ir tiekimo grandinės valdymo versija 10.0.21 ši funkcija įjungiama pagal numatytąjį nustatymą. Kaip ir tiekimo grandinės valdymas 10.0.25 ši funkcija yra privaloma ir jos išjungti negalima. Jei naudojate senesnę nei 10.0.25 versiją, *·*[tada](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) administratoriai gali įjungti arba išjungti šią funkciją ieškodami bendrojo planavimo eigos vizualizavimo funkcijos funkcijų valdymo darbo srityje.
+Norėdami naudoti šią funkciją, atlikite toliau nurodytus veiksmus.
 
-### <a name="use-the-master-plan-progress-visualization-feature"></a>Naudoti bendrojo plano eigos vizualizavimo funkciją
+1. Darbo srityje **Funkcijos valdymas** skirtuke **Naujas** iš sąrašo pasirinkite **Pagrindinio planavimo eigos vizualizavimas**. Jei funkcija neatsiranda skirtuke **Naujas**, žiūrėkite skirtukus **Neįjungta** ir **Visi**.
+1. Pasirinkite **Įjungti dabar**. Arba pasirinkite **Grafikas** ir pasirinkite laiką, kada norite, kad funkcija būtų įjungta.
 
 Puslapyje **Bendrojo planavimo eiga** puslapyje gali būti rodomos istorinės planavimo užduotys ir aktyvios planavimo užduotys. 
 

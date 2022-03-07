@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-11-17
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 615d17c71b904d426081d4c57492ba7e95c2c749
-ms.sourcegitcommit: 65f9e2584c0530b1a71655aae09101691726b47f
+ms.openlocfilehash: f276f49e5b1bc2814dc851f1ad4204a151d86c43
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "4650675"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5222388"
 ---
 # <a name="reduce-balance-depreciation-after-a-split"></a>Mažėjančios vertės nusidėvėjimas po skaidymo
 
@@ -45,3 +44,6 @@ Pavyzdžiui, šios sąlygos galioja.
 Pradinio turto nusidėvėjimo suma yra 1822,25 USD. Ši suma yra lygi NBV prieš registruojant išskaidytą operaciją (9111,25 USD), pridėjus įsigijimo suderinimą, sugeneruotą registruojant skaidymo operaciją (–8000 USD), pridėjus nusidėvėjimo suderinimą, sugeneruotą per išskaidytą operaciją (711 USD). Todėl antraisiais metais nusidėvėjimas yra (1822,25 × 18 proc.) ÷ 12 = 27,33 USD.
 
 Pirmaisiais metais naujo ilgalaikio turto nusidėvėjimo suma yra (8000 × 18 proc.) ÷ 12 = 120 USD.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

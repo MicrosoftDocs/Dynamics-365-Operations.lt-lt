@@ -1,10 +1,12 @@
 ---
 title: „Power BI“ turinys Sandėlio našumas
-description: Šioje temoje paaiškinama, kas įtraukta į sandėlio efektyvumo „Power BI“ turinį.
+description: Šioje temoje paaiškinama, kas įtraukta į sandėlio efektyvumo „Power BI“ turinį. Jame paaiškinta, kaip pasiekti „Power BI“ ataskaitas, ir pateikta informacija apie duomenų modelį ir objektus, naudojamus turinio paketui kurti.
 author: Mirzaab
+manager: AnnBe
 ms.date: 12/18/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: WHSWarehousePerformancePowerBI
 audience: Application User, IT Pro
@@ -15,18 +17,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: db56d1bd26f27987f00126ac1a6434cf36691fbf594cab3dd1260ed5251480a9
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4594c6c09abdac72a03ac1338701d2291b234106
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6750555"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4687406"
 ---
 # <a name="warehouse-performance-power-bi-content"></a>„Power BI“ turinys Sandėlio našumas
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje paaiškinama, kas įtraukta į **sandėlio efektyvumo** „Microsoft Power BI“ turinį. Jame paaiškinta, kaip pasiekti „Power BI“ ataskaitas, ir pateikta informacija apie duomenų modelį ir objektus, naudojamus turinio paketui kurti.
+Šioje temoje paaiškinama, kas įtraukta į „Microsoft Power BI“ turinį **Sandėlio našumas**. Jame paaiškinta, kaip pasiekti „Power BI“ ataskaitas, ir pateikta informacija apie duomenų modelį ir objektus, naudojamus turinio paketui kurti.
 
 ## <a name="overview"></a>Peržiūrėti
 
@@ -109,6 +111,3 @@ Tolesniais duomenimis pildomi „Power BI“ turinio **Sandėlio našumas** atas
 | Siuntimo efektyvumas        | Išsiųsta pagal produktą                       | CustPackingSlipOnTimeStatus           | Anksti, Laiku ir Pavėluotai (žr. anksčiau šioje lentelėje pateiktus aprašymus). |
 | Siuntimo efektyvumas        | Išsiųsta pagal klientą                      | CustPackingSlipOnTimeStatus           | Anksti, Laiku ir Pavėluotai (žr. anksčiau šioje lentelėje pateiktus aprašymus). |
 | Siuntimo efektyvumas        | Išsiųsta pagal teritoriją / sandėlį              | CustPackingSlipOnTimeStatus           | Anksti, Laiku ir Pavėluotai (žr. anksčiau šioje lentelėje pateiktus aprašymus). |
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

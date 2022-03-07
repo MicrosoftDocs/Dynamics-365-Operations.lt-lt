@@ -2,11 +2,9 @@
 title: Naujos produkto hierarchijos kūrimas
 description: Šioje temoje aprašoma, kaip programoje „Microsoft Dynamics 365 Commerce“ sukuti naują produkto hierarchiją.
 author: samjarawan
-manager: annbe
 ms.date: 01/27/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -16,21 +14,21 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: c7d0c792a8590be474b05dea262ae11d15e0ada3
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.openlocfilehash: 68f6bc5b30cd4d7f7eea05233348b10608a4d6e63d4b8508bdb2088f88c445dc
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4965220"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6745997"
 ---
-# <a name="create-a-new-product-hierarchy"></a>Naujos produkto hierarchijos kūrimas
+# <a name="create-a-new-product-hierarchy"></a>Naujos produktų hierarchijos kūrimas
 
 
 [!include [banner](includes/banner.md)]
 
 Šioje temoje aprašoma, kaip programoje „Microsoft Dynamics 365 Commerce“ sukuti naują produkto hierarchiją.
 
-## <a name="overview"></a>Peržiūrėti
+## <a name="overview"></a>Peržiūra
 
 „Dynamics 365 Commerce“ palaiko kelis mažmeninės prekybos kanalus. Šie mažmeninės prekybos kanalai apima interneto parduotuves, skambučių centrus ir mažmeninės prekybos parduotuves (taip pat vadinamas fizinėmis parduotuvėmis). Kiekviename mažmeninės prekybos parduotuvės kanale gali būti naudojami savi mokėjimo būdai, kainų grupės, elektroninių kasos aparatų (EKA) registrai, pajamų ir išlaidų sąskaitos bei darbuotojai. Prieš kurdami mažmeninės prekybos parduotuvės kanalą, turite nustatyti visus šiuos elementus. 
 
@@ -66,7 +64,7 @@ Norėdami įtraukti hierarchijos mazgų, atlikite tolesnius veiksmus.
 
 Toliau pateiktame vaizde parodytas naujo produkto hierarchijos mazgo kūrimas.
 
-![Produkto hierarchijos kūrimas](media/create-product-hierarchy.png)
+![Produkto hierarchijos kūrimas.](media/create-product-hierarchy.png)
 
 ## <a name="other-settings"></a>Kiti parametrai
 
@@ -79,3 +77,6 @@ Kategorijos atributų grupes taip pat galima priskirti kiekvienai grupei, jei re
 [Produktų kategorijų ir produktų valdymas ](category-management-product-creation.md)
 
 [Prekybos objektų rūšiavimo tvarkos keitimas](custom-order-categories-nav-retail-prod-hierarchy.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

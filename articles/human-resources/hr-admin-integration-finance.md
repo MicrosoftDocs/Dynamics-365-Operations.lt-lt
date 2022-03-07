@@ -2,15 +2,12 @@
 title: Integravimo su „Finance “ konfigūravimas
 description: Šiame straipsnyje aprašomos funkcijos, kurias galima naudoti integruojant iš „Dynamics 365 Human Resources“ ir „Dynamics 365 Finance“.
 author: andreabichsel
-manager: AnnBe
 ms.date: 03/26/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: SystemAdministrationWorkspaceForm
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -18,20 +15,22 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3b4d6369ab567879e23e1f132265aaff45c8ce47
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 81b65d1aeeff6c4459fe0b2637013009958cfd55
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527925"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360645"
 ---
 # <a name="configure-integration-with-finance"></a>Integravimo su „Finance“ konfigūravimas
 
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Norėdami integruoti „Dynamics 365 Human Resources“ su „Dynamics 365 Finance“, galite naudoti šabloną „Iš „Human Resources“ į „Finance“, kuris yra [Duomenų integravimo priemonė](https://docs.microsoft.com/powerapps/administrator/data-integrator). Šablonas „Iš „Human Resources“ į „Finance“ suaktyvina užduočių, pareigų ir darbuotojų duomenų srautą. Šablonas leidžia duomenų srautą iš „Human Resources“ į „Finance“, tačiau neleidžia duomenų srauto iš „Finance“ į „Human Resources“.
+Norėdami integruoti „Dynamics 365 Human Resources“ su „Dynamics 365 Finance“, galite naudoti šabloną „Iš „Human Resources“ į „Finance“, kuris yra [Duomenų integravimo priemonė](/powerapps/administrator/data-integrator). Šablonas „Iš „Human Resources“ į „Finance“ suaktyvina užduočių, pareigų ir darbuotojų duomenų srautą. Šablonas leidžia duomenų srautą iš „Human Resources“ į „Finance“, tačiau neleidžia duomenų srauto iš „Finance“ į „Human Resources“.
 
-![Iš „Human Resources“ į „Finance“ integravimo srautas](./media/hr-admin-integration-finance-flow.png)
+![Iš „Human Resources“ į „Finance“ integravimo srautas.](./media/hr-admin-integration-finance-flow.png)
 
 Sprendime „Iš „Human Resources“ į „Finance“ pateikiami tolesni duomenų sinchronizavimo tipai.
 
@@ -44,7 +43,7 @@ Sprendime „Iš „Human Resources“ į „Finance“ pateikiami tolesni duome
 
 Integravimo sprendimui reikia tokių „Human Resource“ ir „Finance“ versijų: 
 
-- Dynamics 365 Human Resources Common Data Service
+- Dynamics 365 Human Resources Dataverse
 - „Dynamics 365 Finance“ 7.2 ir naujesnė versija
 
 ## <a name="template-and-tasks"></a>Šablonai ir užduotys
@@ -55,7 +54,7 @@ Prieiga prie šablono „Iš „Human Resources“ į „Finance“.
 
 2. Pasirinkite **Projektai** ir viršutiniame dešiniajame kampe pasirinkite **Naujas projektas**. Sukurkite naują kiekvieno juridinio subjekto, kurį norite integruoti į „Finance“, projektą.
 
-3. Pasirinkite **„Human Resources“ („Human Resources Common Data Service“ į „Finance“)**, norėdami sinchronizuoti įrašus iš „Human Resources “ į „Finance“.
+3. Pasirinkite **„Human Resources“ („Human Resources Dataverse“ į „Finance“)**, norėdami sinchronizuoti įrašus iš „Human Resources “ į „Finance“.
 
 Šis šablonas naudojamas norint sinchronizuoti tolesnius įrašus iš „Human Resources“ į „Finance“.
 
@@ -81,14 +80,14 @@ Tolesnių šablonų susiejimo lentelėse užduoties pavadinimą sudaro objektai,
 
 ### <a name="job-functions-to-compensation-job-function"></a>Užduoties funkcijos į kompensavimo užduoties funkciją
 
-| „Common Data Service“ objektas (šaltinis) | „Finance“ objektas (paskirties vieta) |
+| „Dataverse“ lentelė (šaltinis) | „Finance“ objektas (paskirties vieta) |
 |-------------------------------------|---------------------------------------------|
 | cdm_name (cdm_Job funkcijos pavadinimas)  | JOBFUNCTIONID   (JOBFUNCTIONID)            |
 | cdm_description   (cdm_description) | APRAŠAS   (APRAŠAS)                 |
 
 ### <a name="departments-to-operating-unit"></a>Padaliniai į valdymo vienetą
 
-| „Common Data Service“ objektas (šaltinis)           | „Finance“ objektas (paskirties vieta) |
+| „Dataverse“ lentelė (šaltinis)           | „Finance“ objektas (paskirties vieta) |
 |-----------------------------------------------|---------------------------------------------|
 | cdm_name (cdm_name)                           | PAVADINIMAS (PAVADINIMAS)                                 |
 | cdm_departmentnumber   (cdm_departmentnumber) | OPERATINGUNITNUMBER   (OPERATINGUNITNUMBER) |
@@ -97,7 +96,7 @@ Tolesnių šablonų susiejimo lentelėse užduoties pavadinimą sudaro objektai,
 
 ### <a name="job-types-to-compensation-job-type"></a>Užduoties tipai į Kompensavimo užduoties tipą
 
-| „Common Data Service“ objektas (šaltinis)   | „Finance“ objektas (paskirties vieta) |
+| „Dataverse“ lentelė (šaltinis)   | „Finance“ objektas (paskirties vieta) |
 |---------------------------------------|---------------------------------------------|
 | cdm_name (cdm_name)                   | JOBTYPEID   (JOBTYPEID)                     |
 | cdm_description   (cdm_description)   | APRAŠAS   (APRAŠAS)                 |
@@ -105,7 +104,7 @@ Tolesnių šablonų susiejimo lentelėse užduoties pavadinimą sudaro objektai,
 
 ### <a name="jobs-to-jobs"></a>Darbai į darbus
 
-| „Common Data Service“ objektas (šaltinis)                           | „Finance“ objektas (paskirties vieta)           |
+| „Dataverse“ lentelė (šaltinis)                           | „Finance“ objektas (paskirties vieta)           |
 |---------------------------------------------------------------|-------------------------------------------------------|
 | cdm_name (cdm_name)                                           | JOBID (JOBID)                                         |
 | cdm_maximumnumberofpositions   (cdm_maximumnumberofpositions) | MAXIMUMNUMBEROFPOSITIONS   (MAXIMUMNUMBEROFPOSITIONS) |
@@ -115,7 +114,7 @@ Tolesnių šablonų susiejimo lentelėse užduoties pavadinimą sudaro objektai,
 
 ### <a name="jobs-to-job-detail"></a>Užduotys į užduoties išsamią informaciją
 
-| „Common Data Service“ objektas (šaltinis)                             | „Finance“ objektas (paskirties vieta) |
+| „Dataverse“ lentelė (šaltinis)                             | „Finance“ objektas (paskirties vieta) |
 |-----------------------------------------------------------------|---------------------------------------------|
 | cdm_name (cdm_name)                                             | JOBID (JOBID)                               |
 | cdm_jobtypeid.cdm_name   (užduoties tipas (užduoties tipo pavadinimas))             | JOBTYPEID   (JOBTYPEID)                     |
@@ -126,23 +125,23 @@ Tolesnių šablonų susiejimo lentelėse užduoties pavadinimą sudaro objektai,
 
 ### <a name="position-types-to-position-type"></a>Pareigų tipai į pareigų tipą
 
-| „Common Data Service“ objektas (šaltinis)       | „Finance“ objektas (paskirties vieta) |
+| „Dataverse“ lentelė (šaltinis)       | „Finance“ objektas (paskirties vieta) |
 |-------------------------------------------|---------------------------------------------|
 | cdm_name (cdm_name)                       | POSITIONTYPEID   (POSITIONTYPEID)           |
 | cdm_description   (cdm_description)       | APRAŠAS   (APRAŠAS)                 |
-| cdm_classification   (cdm_classification) | KLASIFIKACIJA   (KLASIFIKACIJA)           |
+| cdm_classification (cdm_classification) | KLASIFIKACIJA (KLASIFIKACIJA)           |
 
 ### <a name="job-positions-to-base-position"></a>Darbo pareigos į pagrindines pareigas
 
-| „Common Data Service“ objektas (šaltinis)           | „Finance“ objektas (paskirties vieta) |
+| „Dataverse“ lentelė (šaltinis)           | „Finance“ objektas (paskirties vieta) |
 |-----------------------------------------------|---------------------------------------------|
-| cdm_jobpositionnumber   (Pareigų numeris) | POSICIONID (POSICIONID)                      |
+| cdm_jobpositionnumber (Pareigų numeris) | POSICIONID (POSICIONID)                      |
 
 ### <a name="job-positions-to-position-details"></a>Darbo pareigos į pareigų išsamią informaciją
 
-| „Common Data Service“ objektas (šaltinis)              | „Finance“ objektas (paskirties vieta)       |
+| „Dataverse“ lentelė (šaltinis)              | „Finance“ objektas (paskirties vieta)       |
 |--------------------------------------------------------------------------|---------------------------------------------------|
-| cdm_jobpositionnumber  (Pareigų numeris)                            | POSICIONID (POSICIONID)                             |
+| cdm_jobpositionnumber (Pareigų numeris)                            | POSICIONID (POSICIONID)                             |
 | cdm_jobid.cdm_name   (užduotis (pavadinimas))                                        | JOBID (JOBID)                                    |
 | cdm_description   (cdm_description)                                        | APRAŠAS   (APRAŠAS)                       |
 | cdm_departmentid.cdm_departmentnumber   (padalinys (padalinio numeris)) | DEPARTMENTNUMBER   (DEPARTMENTNUMBER)             |
@@ -154,7 +153,7 @@ Tolesnių šablonų susiejimo lentelėse užduoties pavadinimą sudaro objektai,
 
 ### <a name="job-positions-to-position-durations"></a>Darbo pareigos į pareigų trukmę
 
-| „Common Data Service“ objektas (šaltinis)             | „Finance“ objektas (paskirties vieta) |
+| „Dataverse“ lentelė (šaltinis)             | „Finance“ objektas (paskirties vieta) |
 |-------------------------------------------------|---------------------------------------------|
 | cdm_jobpositionnumber   (Pareigų numeris)   | POSICIONID (POSICIONID)                      |
 | Apskaičiuotas   aktyvinimas (apskaičiuotas aktyvinimas) | VALIDFROM (VALIDFROM)                        |
@@ -162,7 +161,7 @@ Tolesnių šablonų susiejimo lentelėse užduoties pavadinimą sudaro objektai,
 
 ### <a name="job-positions-to-position-hierarchies"></a>Darbo pareigos į pareigų hierarchijas
 
-| „Common Data Service“ objektas (šaltinis)        | „Finance“ objektas (paskirties vieta) |
+| „Dataverse“ lentelė (šaltinis)        | „Finance“ objektas (paskirties vieta) |
 |-----------------------------------------------------------------------------------------------|---------------------------------------------|
 | cdm_jobpositionnumber   (Pareigų numeris)                                                 | POSICIONID(POSICIONID)                      |
 | cdm_parentjobpositionid.cdrjobposicionnumber   (cdm_parentjobpositionid.cdmarjobposicionnumber) | PARENTPOSICIONID (PARENTPOSICIONID)         |
@@ -172,7 +171,7 @@ Tolesnių šablonų susiejimo lentelėse užduoties pavadinimą sudaro objektai,
 
 
 ### <a name="workers-to-worker"></a>Darbininkai į darbininką
-| „Common Data Service“ objektas (šaltinis)           | „Finance“ objektas (paskirties vieta)       |
+| „Dataverse“ lentelė (šaltinis)           | „Finance“ objektas (paskirties vieta)       |
 |-----------------------------------------------|---------------------------------------------------|
 | cdm_birthdate   (cdm_birthdate)               | BIRTHDATE   (BIRTHDATE)                           |
 | cdm_gender   (cdm_gender)                     | LYTIS (LYTIS)                                   |
@@ -191,7 +190,7 @@ Tolesnių šablonų susiejimo lentelėse užduoties pavadinimą sudaro objektai,
 
 ### <a name="employments-to-employment"></a>Įdarbinimai į įdarbinimą
 
-| „Common Data Service“ objektas (šaltinis)                             | „Finance“ objektas (paskirties vieta) |
+| „Dataverse“ lentelė (šaltinis)                             | „Finance“ objektas (paskirties vieta) |
 |-----------------------------------------------------------------|---------------------------------------------|
 | cdm_employmentstartdate   (cdm_employmentstartdate)             | EMPLOYMENTSTARTDATE   (EMPLOYMENTSTARTDATE) |
 | cdm_employmentenddate   (cdm_employmentenddate)                 | EMPLOYMENTENDDATE   (EMPLOYMENTENDDATE)     |
@@ -201,7 +200,7 @@ Tolesnių šablonų susiejimo lentelėse užduoties pavadinimą sudaro objektai,
 
 ### <a name="employments-to-employment-detail"></a>Įdarbinimai į įdarbinimo išsamią informaciją
 
-| „Common Data Service“ objektas (šaltinis)                             | „Finance“ objektas (paskirties vieta)   |
+| „Dataverse“ lentelė (šaltinis)                             | „Finance“ objektas (paskirties vieta)   |
 |-----------------------------------------------------------------|-----------------------------------------------|
 | cdm_employmentstartdate   (cdm_employmentstartdate)             | EMPLOYMENTSTARTDATE   (EMPLOYMENTSTARTDATE)   |
 | cdm_employmentenddate   (cdm_employmentenddate)                 | EMPLOYMENTENDDATE   (EMPLOYMENTENDDATE)       |
@@ -219,7 +218,7 @@ Tolesnių šablonų susiejimo lentelėse užduoties pavadinimą sudaro objektai,
 
 ### <a name="position-worker-assignment-to-position-worker-assignments"></a>Darbininko pareigų priskyrimas į darbininko pareigų priskyrimus
 
-| „Common Data Service“ objektas (šaltinis)                             | „Finance“ objektas (paskirties vieta)   |
+| „Dataverse“ lentelė (šaltinis)                             | „Finance“ objektas (paskirties vieta)   |
 |-----------------------------------------------------------------|-----------------------------------------------|
 | cdm_workerid.cdm_workernumber   (cdm_workerid.cdm_workernumber) | PERSONNELNUMBER   (PERSONNELNUMBER)           |
 | cdm_jobpositionnumber   (Pareigų numeris)                   | POSICIONID(POSICIONID)                        |
@@ -228,7 +227,7 @@ Tolesnių šablonų susiejimo lentelėse užduoties pavadinimą sudaro objektai,
 
 ### <a name="worker-addresses-to-worker-postal-address-v2"></a>Darbininko adresai adresai į darbininko pašto adresą V2
 
-| „Common Data Service“ objektas (šaltinis)                             | „Finance“ objektas (paskirties vieta)   |
+| „Dataverse“ lentelė (šaltinis)                             | „Finance“ objektas (paskirties vieta)   |
 |-----------------------------------------------------------------|-----------------------------------------------|
 | cdm_workerid.cdm_workernumber   (cdm_workerid.cdm_workernumber) | PERSONNELNUMBER   (PERSONNELNUMBER)           |
 | cdm_addresstype   (cdm_addresstype)                             | ADDRESSLOCATIONROLES   (ADDRESSLOCATIONROLES) |
@@ -248,10 +247,12 @@ Integruojant duomenis iš „Human Resources“ į „Finance“, integravimu bu
 
 Problema gali įvykti su **Darbininkas**, kuriam naudojamas **Personalo numeris** siekiant gretinti, ir **Pareigos**. Užduotims nenaudojamos numeracijos. Todėl, jei tas pats užduoties ID yra ir „Human Resources“, ir „Finance“ srityje, „Human Resources“ informacija perrašys „Dynamics 365 Finance“ informaciją. 
 
-Norėdami išvengti pasikartojančių ID problemų, galite pridėti priešvardį [numeracijoje](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/organization-administration/number-sequence-overview?toc=/dynamics365/unified-operations/talent/toc.json) arba numeracijoje nustatyti pradžios numerį, kuris nepatenka į kitos sistemos numeracijos intervalą. 
+Norėdami išvengti pasikartojančių ID problemų, galite pridėti priešvardį [numeracijoje](/dynamics365/unified-operations/fin-and-ops/organization-administration/number-sequence-overview?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json) arba numeracijoje nustatyti pradžios numerį, kuris nepatenka į kitos sistemos numeracijos intervalą. 
 
 Vietos ID, naudojamas darbuotojo adresui, nėra numeracijos dalis. Integruojant darbuotojo adresą iš „Human Resources“ į „Finance“, jei darbuotojo adresas jau yra „Finance“, gali būti sukurtas pasikartojantis adreso įrašas. 
 
 Toliau pateiktoje iliustracijoje vaizduojamas šablono susiejimo pavyzdys duomenų integratoriuje. 
 
-![Šablono susiejimas](./media/IntegrationMapping.png)
+![Šablono Susiejimas.](./media/IntegrationMapping.png)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

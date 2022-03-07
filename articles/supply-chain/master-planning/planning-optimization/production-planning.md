@@ -11,16 +11,14 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2020-12-15
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 85167e3de5f586c341143a43412501377a6c689e
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: d0e2a730743a7921578278f23d0d2272b8e052174620c8a6c86c3e1809cdae7c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7570902"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6739016"
 ---
 # <a name="production-planning"></a>Gamybos planavimas
-
-[!include [banner](../../includes/banner.md)]
 
 Planavimo optimizavimas palaiko kelis gamybos scenarijus. Jei pereinate iš esamo, įtaisyto bendrojo planavimo mechanizmo, svarbu žinoti apie pasikeitusį veikimo būdą.
 

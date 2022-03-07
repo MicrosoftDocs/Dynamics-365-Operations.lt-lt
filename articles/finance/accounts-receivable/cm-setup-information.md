@@ -1,23 +1,23 @@
 ---
 title: Kredito valdymo nustatymas
 description: Šioje temoje aprašomas nustatymas, kurio reikia kredito valdymui.
-author: JodiChristiansen
-ms.date: 02/15/2022
+author: mikefalkner
+ms.date: 09/04/2019
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: roschlom
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 6977789b039c3e77e6d697e32bf4cac69c35a901
-ms.sourcegitcommit: 6102f70d4595d01b90afe5b23dfd8ec2ea030653
-ms.translationtype: MT
+ms.openlocfilehash: 4cfb747c9a510474d0ca27a595158cd6e6d24359a37f665f64b4c640536874aa
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8182459"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6723948"
 ---
 # <a name="credit-management-setup"></a>Kredito valdymo nustatymas 
 
@@ -39,7 +39,7 @@ Galite sulaikyti pardavimo užsakymą, jei užsakymo mokėjimo sąlygos neatitin
 
 Jeigu mokėjimo sąlygų reitingavimas aktyvus ir užsakymo mokėjimo sąlygos turi aukštesnį reitingą nei numatytosios kliento mokėjimo sąlygos, pardavimo užsakymas bus sulaikytas.
 
-Norint nustatyti mokėjimo sąlygų rangą, eikite į Kreditas **ir rinkiniai Nustatymo \> kredito \> valdymo nustatymo \> rango mokėjimo sąlygos**.  
+Norėdami nustatyti mokėjimo sąlygų reitingus, eikite į **Kreditas ir surinkimas \> Sąranka \> Kredito valdymo sąranka \> Mokėjimų sąlygų reitingavimas**  
 
 ### <a name="ranking-settlement-discounts"></a>Sudengimo nuolaidų reitingavimas
 
@@ -86,7 +86,7 @@ Galite sukurti sąskaitos būsenas puslapyje **Sąskaitų būsenos** (**Kreditas
 
 ## <a name="scoring-groups"></a>Rezultatų grupės
 
-Norėdami apibrėžti rizikos **faktorius ir kriterijus,** naudojamus jiems įvertinti, galite nustatyti vertinimo grupes. Kai informacija apie klientą taikoma vertinimo grupei, apskaičiuojamas kiekvieno rizikos veiksnio balas, pagal kurį klientas įtraukiamas į rizikos grupę. Rizikos grupė gali būti naudojama kredito tinkamumui nustatyti ir automatiniam kredito limitų apskaičiavimui.
+Galite nustatyti vertinimo grupes, kad nustatytumėte rizikos faktorius ir kriterijus, naudojamus jiems išmatuoti. Kai informacija apie klientą taikoma vertinimo grupei, apskaičiuojamas kiekvieno rizikos veiksnio balas, pagal kurį klientas įtraukiamas į rizikos grupę. Rizikos grupė gali būti naudojama kredito tinkamumui nustatyti ir automatiniam kredito limitų apskaičiavimui.
 
 Galite sukurti vertinimo grupes puslapyje **Vertinimo grupės** (**Kreditas ir surinkimas \> Sąranka \> Kredito valdymo sąranka \> Rizika \> Vertinimo grupės**).
 

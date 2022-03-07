@@ -1,7 +1,9 @@
-- name: „Dynamics 365 for Talent”
-  href: talent-welcome.md
+- name: „Dynamics 365 Talent“ panaikinimas
+  href: ../human-resources/hr-talent-retire.md?toc=/dynamics365/talent/toc.json
   items:
-    - name: Pradžia
+    - name: „Dynamics 365 Talent“ pagrindinis puslapis
+      href: ./index.md
+    - name: Pradėti
       items:
         - name: Darbo su „Talent“ pradžia
           href: talent-get-started.md
@@ -151,7 +153,7 @@
         - name: Duomenų eksportavimas iš „Attract“ ir „Onboard“
           href: attract-onboard-export-data.md
         - name: Drobės programėlių įterpimas iš „Power Apps“
-          href: ../fin-and-ops/get-started/embed-power-apps.md?toc=/dynamics365/unified-operations/talent/toc.json
+          href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json
         - name: Pagalba dėl „Talent“
           href: talent-support.md
     - name: Organizacijos aprūpinimas personalu naudojant „Attract“

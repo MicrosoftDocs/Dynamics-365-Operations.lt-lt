@@ -1,12 +1,10 @@
 ---
 title: Gedimų valdymas
 description: Šioje temoje aiškinamas gedimų valdymas modulyje Turto valdymas.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/13/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetFaultArea, EntAssetFaultDesigner, EntAssetFaultCopyFromObjectType, EntAssetFaultRemedy, EntAssetObjectFaultRelationRequestInfoPart, EntAssetObjectFaultRelationWorkOrderInfoPart, EntAssetFaultCreateCombinations, EntAssetObjectFaultSymptom, EntAssetObjectFaultSymptomListPage, EntAssetFaultType, EntAssetFaultSymptom, EntAssetFaultCause
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 176fbebcf88e7557bf2bafc56524cd2ec015220e
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
-ms.translationtype: HT
+ms.openlocfilehash: 149d4fc8026a2a1878155d2b708cf3a79dd0e5af966db4e7f9339d8ca582da70
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5020969"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6711958"
 ---
 # <a name="fault-management"></a>Gedimų valdymas
 
@@ -39,7 +37,7 @@ Gedimų registravimo ir valdymo procesą sudaro toliau pateikiami veiksmai.
 
 Toliau pateikiama pavyzdžių, padėsiančių suprasti skirtumą tarp gedimų požymių, gedimų sričių ir gedimų tipų.
 
-**Gedimų požymiai.**
+**Gedimų požymiai:**
 
 - Įtampų disbalansas
 - Trumpasis jungimas
@@ -47,14 +45,14 @@ Toliau pateikiama pavyzdžių, padėsiančių suprasti skirtumą tarp gedimų po
 - Nuotėkis
 - Vibracija
 
-**Gedimų sritys.**
+**Gedimų sritys:**
 
 - Elektra
 - Mechanika
 - Hidraulika
 - Pneumatika
 
-**Gedimų tipai.**
+**Gedimų tipai:**
 
 - Sugedusi pagrindinė statoriaus apvija
 - Sugedęs diodas
@@ -108,7 +106,7 @@ Gedimų dizaino įrankiu nustatomi turto tipų gedimų duomenys.
 
 7. Pasirinkite **Įrašyti**, kad įrašytumėte pakeitimus.
 
-![Gedimų dizaino įrankio puslapis](media/21-setup-for-work-orders.png)
+![Gedimų dizaino įrankio puslapis.](media/21-setup-for-work-orders.png)
 
 ## <a name="create-fault-causes"></a>Gedimų priežasčių kūrimas
 
@@ -132,3 +130,6 @@ Atlikite toliau pateikiamus veiksmus, norėdami sukurti pasiūlymų dėl gedimų
 
 > [!NOTE]
 > Jei reikia, galite pakeisti gedimų požymių, sričių, tipų, priežasčių ir šalinimo priemonių pavadinimus. Pavadinimo pakeitimai automatiškai fiksuojami atitinkamo gedimo registracijos įrašuose.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

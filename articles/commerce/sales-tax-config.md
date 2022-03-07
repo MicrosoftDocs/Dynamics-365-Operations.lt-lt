@@ -1,16 +1,13 @@
 ---
-title: Konfigūruoti pardavimo mokesčius interneto užsakymams
-description: Šioje temoje pateikta pardavimo mokesčių grupės parinkimo skirtingiems interneto užsakymų tipams apžvalga „Dynamics 365 Commerce“.
+title: Konfigūruoti PVM internetiniams užsakymams
+description: Šioje temoje pateikta PVM grupės parinkimo skirtingiems interneto užsakymų tipams apžvalga „Dynamics 365 Commerce“.
 author: gvrmohanreddy
-manager: AnnBe
-ms.date: 11/16/2020
+ms.date: 04/02/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -18,68 +15,73 @@ ms.search.industry: Retail
 ms.author: gmohanv
 ms.search.validFrom: 2020-11-01
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 40c20bf13779f73289e43df21b763e1b864686a7
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
-ms.translationtype: HT
+ms.openlocfilehash: 5801bbfb5b5850cb4c9ae06140bff5adca9b368febdc06d69c538fc49f9ee40a
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4530202"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6772966"
 ---
-# <a name="configure-sales-tax-for-online-orders"></a>Konfigūruoti pardavimo mokesčius interneto užsakymams
+# <a name="configure-sales-tax-for-online-orders"></a>Konfigūruoti PVM internetiniams užsakymams
 
-[!include [banner](../includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
+[!include [banner](includes/banner.md)]
 
-Šioje temoje pateikta pardavimo mokesčių grupės parinkimo skirtingiems interneto užsakymų tipams apžvalga. 
+Šioje temoje pateikta PVM pasirinkimo skirtingiems internetinių užsakymų tipams, naudojant paskirties vieta arba kliento paskyra pagrįstus mokesčių parametrus, apžvalga. 
 
-Jūsų e-komercijos kanalas gali palaikyti parinktis tokias kaip interneto užsakymų pristatymas ar paėmimas. Pardavimo mokesčių taikymas yra paremtas parinktimi, kurią pasirinko jūsų interneto vartotojai. Kai saito klientas pasirenka įsigyti prekę internetu ir gauna ją atsiųstą pasirinktu adresu, pardavimo mokesčiai yra nustatomi pagal siuntėjo siuntimo adreso mokesčių grupės nustatymus. Kai klientas pasirenka atsiimti įsigytą prekę iš parduotuvės, pardavimo mokesčiai yra nustatomi pagal paėmimo parduotuvės mokesčių grupės nustatymą. 
+Galbūt norėsite, kad jūsų e-komercijos kanalas palaikytų tokias parinktis, kaip interneto užsakymų pristatymas ar paėmimas. PVM taikymas yra paremtas parinktimi, kurią pasirinko jūsų internetiniai klientai. 
 
-## <a name="orders-shipped-to-a-customer-address"></a>Užsakymai siųsti kliento adresu 
+## <a name="destination-based-taxes-for-online-orders"></a>Paskirties vieta pagrįsti mokesčiai, taikomi internetiniams užsakymams
 
-Bendrai, mokesčiai interneto užsakymams, kurie siunčiami kliento adresu yra nustatyti pagal paskirties vietą. Visos pardavimo mokesčių grupės turi mažmenos paskirties mokesčių tikslais konfigūravimą, kuriame jūsų verslas gali nustatyti paskirties vietos išsamią informaciją, tokią kaip šalis/regionas, valstija, valstybė ir miestas hierarchine tvarka. Padarius interneto užsakymą, „Commerce“ mokesčių variklis naudoja kiekvienos eilutės prekės užsakyme pristatymo adresą ir suranda pardavimo mokesčių grupes su atitinkančiais paskirties vietos pagrįstais mokesčių kriterijais. Pavyzdžiui, interneto užsakymui su eilutės prekės pristatymo adresu į San Franciską, Kaliforniją, mokesčių variklis suras pardavimo mokesčių grupę ir kodą Kalifornijai ir tada apskaičiuos mokesčiu kiekvienai eilutės prekei atitinkamai.  
+Bendrai, mokesčiai interneto užsakymams, kurie siunčiami kliento adresu yra nustatyti pagal paskirties vietą. Visos PVM grupės turi mažmeninę paskirties vieta pagrįstą konfigūraciją, kurioje jūsų verslas gali nustatyti paskirties vietos išsamią informaciją, tokią kaip šalis arba regionas, valstybė, valstija ir miestas hierarchine tvarka.
 
-## <a name="customer-based-tax-groups"></a>Klientu pagrįsta mokesčių grupė
+### <a name="orders-delivered-to-customer-address"></a>Užsakymai, pristatyti kliento adresu
 
-„Commerce“ štabe, esama dviejų vietų, kuriose kliento mokesčio grupės yra sukonfigūruotos:
+Padarius internetinį užsakymą, „Commerce“ mokesčių variklis naudoja kiekvienos eilutės prekės užsakymo pristatymo adresą ir suranda PVM grupes su atitinkamais paskirties vieta pagrįstais mokesčių kriterijais. Pavyzdžiui, interneto užsakymui su eilutės prekės pristatymo adresu į San Franciską, Kaliforniją, mokesčių variklis suras PVM grupę ir kodą Kalifornijai ir tada apskaičiuos mokesčiu kiekvienai eilutės prekei atitinkamai.
 
-- **Kliento profilis**
-- **Kliento siuntimo adresas**
+### <a name="order-pick-up-in-store"></a>Užsakymų atsiėmimas parduotuvėje
 
-### <a name="if-a-customers-profile-has-a-tax-group-configured"></a>Jei kliento profilis turi sukonfigūruotą mokesčių grupę
+Užsakymo eilutėms su nurodytu atsiėmimu parduotuvėje ar per langelį, bus taikoma mokesčių grupė iš pasirinktos atsiėmimo parduotuvės. Daugiau informacijos apie tai, kaip nustatyti PVM parinktai parduotuvei, rasite [Nustatyti kitas mokesčių parinktis parduotuvėms](/dynamicsax-2012/appuser-itpro/set-other-tax-options-for-stores).
 
-Kliento profilio įrašas štabe gali turėti sukonfigūruotą pardavimo mokesčių grupę, nepaisant to interneto užsakymams pardavimo mokesčių grupė sukonfigūruota kliento profilyje nebus naudojama mokesčių variklio. 
+## <a name="customer-account-based-taxes-for-online-orders"></a>Kliento paskyra pagrįsti mokesčiai, taikomi internetiniams užsakymams
 
-### <a name="if-a-customers-shipping-address-has-a-tax-group-configured"></a>Jei kliento siuntimo adresas turi sukonfigūruotą mokesčių grupę
+Gali būti toks verslo scenarijus, kuriame norėsite konfigūruoti PVM grupę konkrečiai kliento paskyrai „Commerce” būstinėje. Būstinėje yra dvi vietos, kuriose galite konfigūruoti PVM pagal kliento paskyrą. Norėdami jas pasiekti, pirmiausia turėsite pasiekti išsamios kliento informacijos puslapį eidami į **Mažmeninė prekyba ir komercija \> Klientai \> Visi klientai** ir tada pasirinkdami klientą.
 
-Jei kliento siuntimo adreso įrašas turi kitą sukonfigūruotą mokesčių grupę ir interneto užsakymą (ar eilutės prekę) siunčiamą kliento siuntimo adresu, sukonfigūruota mokesčių grupė kliento adreso įraše bus naudojama mokesčių variklio mokesčių apskaičiavimui.
+Dvi vietos, kuriose galite konfigūruoti PVM pagal kliento paskyrą, yra:
 
-#### <a name="configure-a-tax-group-for-a-customers-shipping-address-record"></a>Konfigūruoti mokesčių grupę kliento siuntimo adreso įrašui
+- **PVM grupė**, esanti kliento išsamios informacijos puslapio „FastTab” **Sąskaita faktūra ir pristatymas**. 
+- **PVM**, esanti puslapio **Tvarkyti adresus** „FastTab” **Bendra**. Norėdami nusigauti ten iš išsamios kliento informacijos puslapio, pasirinkite konkretų adresą iš „FastTab” **Adresai** ir tada pasirinkite **Išplėstiniai**.
 
-Norėdami Konfigūruoti mokesčių grupę kliento siuntimo adreso įrašui „Commerce“ štabe, atlikite šiuos žingsnius.
+> [!TIP]
+> Jeigu internetiniams klientų užsakymams norite taikyti tik paskirties vieta pagrįstus mokesčius ir išvengti kliento paskyra pagrįstų mokesčių, įsitikinkite, kad laukas **PVM grupė** yra tuščias išsamios kliento informacijos puslapio „FastTab” **Sąskaita faktūra ir pristatymas**. Norėdami užtikrinti, kad nauji klientai, kurie registruojasi naudodami interneto kanalą, nepaveldėtų PVM grupės parametrų iš numatytųjų klientų ar klientų grupės parametrų, užtikrinkite, kad laukas **PVM grupė** taip pat būtų tuščias internetinio kanalo numatytiesiems kliento ir kliento grupės parametrams (**Mažmeninė prekyba ir komercija \> Klientai \> Klientų grupės**).
 
-1. Eikite į **Visi klientai** ir tada rinkitės norimą klientą. 
-1. „FastTab“ **Adresa** pasirinkite norimą adresą ir tada rinkitės **Daugiau parinkčių \> Papildomos**. 
-1. Skirtuke **Bendri** puslapyje **Valdyti adresus**, nustatykite pardavimo mokesčių vertę, kaip būtina.
+## <a name="determine-destination-based-tax-or-customer-account-based-tax-applicability"></a>Paskirties vieta arba kliento paskyra pagrįstų mokesčių taikomumo nustatymas 
 
-> [!NOTE]
-> Mokesčių grupė yra nustatoma naudojant užsakymo eilutės pristatymo adresą ir paskirties vieta pagrįstus mokesčius, kurie sukonfigūruojami pačioje mokesčių grupėje. Dėl išsamesnės informacijos, žr. [Nustatyti mokesčius interneto parduotuvėms pagrįstoms paskirties vietoms](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-taxes-for-online-stores-based-on-destination).
+Šioje lentelėje paaiškinama, ar internetiniams užsakymams taikomi mokesčiai yra pagrįsti paskirties vieta ar kliento paskyra. 
 
-## <a name="order-pickup-in-store"></a>Užsakymo atsiėmimas parduotuvėje
-
-Užsakymo eilutėms su atsiėmimu parduotuvėje ar per langelį, bus taikoma mokesčių grupė iš pasirinktos atsiėmimo parduotuvės. Dėl informacijos apie tai, kaip konfigūruoti mokesčių grupę parinktai parduotuvei, žr. [Nustatyti kitas mokesčių parinktis parduotuvėms](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-other-tax-options-for-stores).
-
-> [!NOTE]
-> Kai užsakymo eilutė yra atsiimama parduotuvėje, kliento adreso mokesčių nustatymai (jei nustatyti) bus ignoruojami mokesčių variklio ir bus taikomi atsiėmimo parduotuvėje mokesčiai. 
+| Kliento tipas | Siuntimo adresas                   | Klientas > Sąskaita faktūra ir pristatymas > PVM grupė? | Kliento paskyros adresas būstinėje? | Kliento adresas > Išplėstiniai > Bendra > PVM grupė?                                              | Pritaikyta PVM grupė      |
+|---------------|------------------------------------|-----------------------------------------------------|-----------------------------------|--------------------------------------------------------------------------------------------------------|------------------------------|
+| Svečias         | Manhatanas, NY                      | Ne (tuščia)                                                | Ne (tuščia)                              | Ne (tuščia)                                                                                                   | NY (paskirties vieta pagrįsti mokesčiai) |
+| Prisijungta     | Ostinas, TX                          | Ne (tuščia)                                             | Taip                               | Nėra<br/><br/>Naujas adresas pridėtas per interneto kanalą.                                                            | TX (paskirties vieta pagrįsti mokesčiai) |
+| Prisijungta     | San Fransiskas, CA (Atsiėmimas parduotuvėje) | Taip (NY)                                            | Netaikoma                              | Netaikoma                                                                                                    | CA (paskirties vieta pagrįsti mokesčiai) |
+| Prisijungta     | Hiustonas, TX                         | Taip (NY)                                            | Taip                               | Taip (NY)<br/><br/>Naujas adresas pridėtas per interneto kanalą ir PVM grupė perimta iš kliento paskyros. | NY (kliento paskyra pagrįsti mokesčiai)  |
+| Prisijungta     | Ostinas, TX                          | Taip (NY)                                            | Taip                               | Taip (NY)<br/><br/>Naujas adresas pridėtas per interneto kanalą ir PVM grupė perimta iš kliento paskyros. | NY (kliento paskyra pagrįsti mokesčiai)  |
+| Prisijungta     | Sarasota, Fl                       | Taip (NY)                                            | Taip                               | Taip (WA)<br/><br/>Rankiniu būdu nustatyta į WA.                                                                          | WA (kliento paskyra pagrįsti mokesčiai)  |
+| Prisijungta     | Sarasota, Fl                       | Ne (tuščia)                                                | Taip                               | Taip (WA)<br/><br/>Rankiniu būdu nustatyta į WA.                                                                          | WA (kliento paskyra pagrįsti mokesčiai)  |
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
-[PVM apžvalga](https://docs.microsoft.com/dynamics365/finance/general-ledger/indirect-taxes-overview?toc=/dynamics365/commerce/toc.json) 
+[Mokesčių nustatymas internetinėms parduotuvėms pagal vietą](/dynamicsax-2012/appuser-itpro/set-up-taxes-for-online-stores-based-on-destination)
 
-[PVM skaičiavimo metodai lauke Kilmė](https://docs.microsoft.com/dynamics365/finance/general-ledger/sales-tax-calculation-methods-origin-field?toc=/dynamics365/commerce/toc.json) 
+[PVM apžvalga](../finance/general-ledger/indirect-taxes-overview.md?toc=%2fdynamics365%2fcommerce%2ftoc.json) 
 
-[ PVM priskyrimas ir perrašymai​](https://docs.microsoft.com/dynamics365/supply-chain/procurement/tasks/sales-tax-assignment-overrides?toc=/dynamics365/commerce/toc.json) 
+[PVM skaičiavimo metodai lauke Kilmė](../finance/general-ledger/sales-tax-calculation-methods-origin-field.md?toc=%2fdynamics365%2fcommerce%2ftoc.json) 
 
-[PVM kodų skaičiavimo parinktys Visa suma ir Intervalas](https://docs.microsoft.com/dynamics365/finance/general-ledger/whole-amount-interval-options-sales-tax-codes?toc=/dynamics365/commerce/toc.json) 
+[ PVM priskyrimas ir perrašymai​](../supply-chain/procurement/tasks/sales-tax-assignment-overrides.md?toc=%2fdynamics365%2fcommerce%2ftoc.json) 
+
+[PVM kodų skaičiavimo parinktys Visa suma ir Intervalas](../finance/general-ledger/whole-amount-interval-options-sales-tax-codes.md?toc=%2fdynamics365%2fcommerce%2ftoc.json) 
 
 [Atleidimo nuo mokesčių skaičiavimas](tax-exempt-price-inclusive.md) 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

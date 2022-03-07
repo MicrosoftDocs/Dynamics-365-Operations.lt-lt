@@ -12,13 +12,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-11-13
-ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 84ff0a466c037db05aecaff14aa2e17990ce8799
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
-ms.translationtype: MT
+ms.dyn365.ops.version: Release 10.0.15
+ms.openlocfilehash: f46d55bf7a670e983fb65a9ca303bc02568247ed
+ms.sourcegitcommit: bef7bd2aac00d7eb837fd275d383b7a5c3f1c1ee
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103143"
+ms.lasthandoff: 04/19/2021
+ms.locfileid: "5911301"
 ---
 # <a name="work-with-location-directives"></a>Darbas su vietos nurodymais
 
@@ -51,7 +51,7 @@ Prieš tai, kai galite sukurti vietos nurodymus, privalote atlikti šiuos žings
 
 Daugelis laukelių, kurie gali būti nustatyti vietos nurodymams yra bendri visiems darbo užsakymo tipams. Nepaisant to, kiti laukeliai yra konkretūs konkretiems darbo užsakymo tipams.
 
-![Vietos nurodymų darbo užsakymo tipai.](media/Location_Directives_Work_Order_Types.png "Vietos nurodymų darbo užsakymo tipai")
+![Vietos nurodymų darbo užsakymo tipai](media/Location_Directives_Work_Order_Types.png "Vietos nurodymų darbo užsakymo tipai")
 
 > [!NOTE]
 > Du darbo tipai, *Atšauktas darbas* ir *Ciklo skaičiavimas* yra naudojami tik sistemos. Vietos nurodymai negali būti sukurti šiems darbo užsakymo tipams.
@@ -164,7 +164,7 @@ Laukeliai **Vietos direktyvų** „FastTab“ yra konkretūs siekiant dirbti su 
     > [!NOTE]
     > Šis laukelis prieinamas tik pasirinktiems darbo užsakymo tipams, kai papildymas leidžiamas. Dėl viso sąrašo, žr. [Laukeliai, kurie yra konkretūs darbo užsakymo tipams](#fields-specific-types) skyriuje anksčiau šioje temoje.
 
-- **Nustatyta** – Nurodykite, ar atidėjimo kiekis turi būti visas kiekis licencijos ženkle ar jis turi būti pagal prekę. Naudokite šį laukelį, kad padėtumėte užtikrinti, jog visi turiniai licencijos ženkle padedami į vieną vietą ir kad sistema nesiūlo jums atskirti turinių į keletą vietų **ASN** (licencijos numerio gavimas), **Maišytas licencijos numeris** gaunamas ir **Klasterio** gavimo procesai. (Gavimo procesas **Klasterio** reikalauja, kad [Klasterio atidėjimo funkcija](putaway-clusters.md) būtų įjungta.) Toks vietos direktyvos eilės elgesys, eilučių ir vietos direktyvos veiksmai skirsis priklausomai nuo jūsų pasirinktos vertės. „FastTab“ **Eilutės** naudojamos tik, kai **Nustatyta** nustatyta į *Prekė*.
+- **Nustatyta** – Nurodykite, ar atidėjimo kiekis turi būti visas kiekis licencijos ženkle ar jis turi būti pagal prekę. Naudokite šį laukelį, kad padėtumėte užtikrinti, jog visi turiniai licencijos ženkle padedami į vieną vietą ir kad sistema nesiūlo jums atskirti turinių į keletą vietų **ASN** (licencijos numerio gavimas), **Maišytas licencijos numeris** gaunamas ir **Klasterio** gavimo procesai. (Gavimo procesas **Klasterio** reikalauja, kad *Klasterio atidėjimo funkcija* būtų įjungta.) Toks vietos direktyvos eilės elgesys, eilučių ir vietos direktyvos veiksmai skirsis priklausomai nuo jūsų pasirinktos vertės. „FastTab“ **Eilutės** naudojamos tik, kai **Nustatyta** nustatyta į *Prekė*.
 
     > [!NOTE]
     > Šis laukelis prieinamas tik pasirinktiems darbo užsakymo tipams, kai papildymas leidžiamas. Dėl viso sąrašo, žr. [Laukeliai, kurie yra konkretūs darbo užsakymo tipams](#fields-specific-types) skyriuje.

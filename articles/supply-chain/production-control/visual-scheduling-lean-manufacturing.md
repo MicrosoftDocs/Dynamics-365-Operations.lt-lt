@@ -2,13 +2,16 @@
 title: „Lean manufacturing“ vaizdinis planavimas
 description: Šioje temoje pateikiama informacijos apie „Kanban“ grafiko sritį, kurią gamybos planuotojas gali naudoti norėdamas valdyti ir optimizuoti „kanban“ užduočių gamybos planą.
 author: johanhoffmann
+manager: tfehr
 ms.date: 06/16/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KanbanBoard, KanbanJobSchedulingListPage, LeanProductionFlowVisualization, KanbanBoardUnplannedJobs
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -16,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: af5803793a4874ee73f943d0f059047458c37dc48b7d3276dadc8d8803599fb9
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 45a63ab0f5baadf6bef646224b3f0bf5327ee923
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6764817"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4433348"
 ---
 # <a name="visual-scheduling-for-lean-manufacturing"></a>„Lean manufacturing“ vaizdinis planavimas
 
@@ -47,7 +50,7 @@ Galite planuoti tik užduotis, kurių tipas **Procesas**. „Kanban“ užduotis
 ## <a name="kanban-schedule-board"></a>„Kanban“ grafiko sritis
 Puslapyje **„Kanban“ grafiko sritis** yra septyni pagrindiniai elementai, kaip parodyta paveikslėlyje. 
 
-![„Kanban“ grafiko sritis.](./media/kanban-schedule-board-1024x554.png)
+![„Kanban“ grafiko sritis](./media/kanban-schedule-board-1024x554.png)
 1.  Veiksmų sritis
 2.  Filtruoti laukus
 3.  Nesuplanuotų užduočių mygtukas
@@ -71,7 +74,7 @@ Norėdami patobulinti „Kanban“ grafiko srities pateikiamą apžvalgą, galit
 ## <a name="plan-unplanned-jobs"></a>Planuoti nesuplanuotas užduotis
 Galite suplanuoti nesuplanuotas „kanban“ užduotis dialogo lange **Planuoti nesuplanuotas užduotis**. Norėdami atidaryti šį dialogo langą spustelėkite mygtuką **Nesuplanuotos užduotys**, kuris rodo dabartinį nesuplanuotų užduočių skaičių. Arba spustelėkite **Planuoti nesuplanuotas užduotis** veiksmų srities skirtuke **Sritis**. Dialogo lange rodomas nesuplanuotų darbo elemento „kanban“ užduočių sąrašas. Galite naudoti lauką **Filtras** norėdami filtruoti visus tinklelio laukus. Pavyzdžiui, galite filtruoti konkretaus produkto „kanban“ užduotis. Po to, kai gaunate užduočių, kurias norite planuoti, filtruotą sąrašą, pasirinkite jas sąraše ir spustelėkite **Gerai**. Norėdami užduotis planuoti automatiškai, nustatykite parinktį **Automatinis planavimas** į **Taip**. Šiuo atveju laikotarpio užduotys planuojamos pagal jų terminą. Be to, galite planuoti užduotis pagal laikotarpį. Tiesiog pasirinkite laikotarpį lauke **Laikotarpis**. Šiame paveikslėlyje rodomas dialogo lango **Planuoti neplanuotas užduotis** pavyzdys. 
 
-![Dialogo langas Planuoti nesuplanuotas užduotis.](./media/plan-unplanned-jobs-1024x564.png)
+![Dialogo langas Planuoti nesuplanuotas užduotis](./media/plan-unplanned-jobs-1024x564.png)
 
 ## <a name="sequence-kanban-jobs-within-the-same-period"></a>Išdėstyti „kanban“ užduotis tame pačiame laikotarpyje
 Galite pakeisti vienos ar daugiau pasirinktų laikotarpio užduočių seką. Ši galimybė gali būti naudinga, jei norite nustatyti kai kurių laikotarpio užduočių pirmumą. Be to, galite norėti išdėstyti užduotis, kurių produktų atributai yra vienodi, kad optimizuotumėte užduočių vykdymą. Galite pakeisti seką naudodami nuvilkimo operaciją arba meniu elementus **Atgal** ir **Pirmyn**, esančius veiksmų srities skirtuke **Sritis**.
@@ -87,10 +90,8 @@ Užduotis galima iš naujo priskirti iš vieno laikotarpio kitam. Ši galimybė 
 -   Puslapis **Gamybos eigos vizualizavimas**
 
 
-## <a name="additional-resources"></a>Papildomi ištekliai
+<a name="additional-resources"></a>Papildomi ištekliai
+--------
 
 [„Lean manufacturing“ „kanban“ užduočių planavimas](lean-manufacturing-kanban-job-scheduling.md)
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

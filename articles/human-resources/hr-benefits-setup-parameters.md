@@ -1,31 +1,33 @@
 ---
 title: Nustatykite Priedų valdymą ir Darbuotojo savitarnos parametrus visoms įmonėms
 description: Konfigūruokite parametrus naudų valdymui ir darbuotojo savitarnai „Microsoft Dynamics 365 Human Resources“.
-author: andreabichsel
-manager: tfehr
-ms.date: 12/07/2020
+author: twheeloc
+ms.date: 08/24/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b50c4f71789c34f08ce810312f3c3198303b031e
-ms.sourcegitcommit: d02fae79d5c02a4bc4f4b16a410c2f5ce026c204
-ms.translationtype: HT
+ms.openlocfilehash: 822e5b37be7b2d5712d61bf7fb00f40d1692f406
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "4962445"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8066930"
 ---
 # <a name="set-benefits-management-and-employee-self-service-parameters-for-all-companies"></a>Nustatykite Priedų valdymą ir Darbuotojo savitarnos parametrus visoms įmonėms
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Prieš tai, kai nustatysite priedų planus „Microsoft Dynamics 365 Human Resources“, turite sukonfigūruoti Priedų valdymo parametrus. Pagal šios parametrus nustatomos numatytosios vertės, priežasčių kodai ir kitos pasirinktys. 
 
@@ -54,7 +56,7 @@ Prieš tai, kai nustatysite priedų planus „Microsoft Dynamics 365 Human Resou
 
 3. Pasirinkite **Įrašyti**.
 
-## <a name="configure-employee-self-service-parameters"></a>Konfigūruoti darbuotojo savitarnos parametrus
+## <a name="configure-employee-self-service-parameters"></a>Darbuotojų savitarnos dalies parametrų konfigūravimas
 
 1. **Išmokų valdymo** darbo srityje, **Nustatymo** skyriuje, pasirinkite **Žmogiškųjų išteklių pasidalyti parametrai**.
 
@@ -68,3 +70,6 @@ Prieš tai, kai nustatysite priedų planus „Microsoft Dynamics 365 Human Resou
 3. Pasirinkite **Įrašyti**.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

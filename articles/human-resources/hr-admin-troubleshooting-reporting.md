@@ -2,7 +2,7 @@
 title: Ataskaitų parinktys
 description: Šiame straipsnyje aiškinama, kaip išspręsti problemą, kai klientas nori tinkinti „Microsoft Dynamics 365 Human Resources“ ataskaitas arba sukurti naujų ataskaitų.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 51d84df5c3c29510e2742148b8c260a2cf402639
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 830c8c32128a8dfc1b009557afb272e48ae3a1ff
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527722"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5113528"
 ---
 # <a name="reporting-options"></a>Ataskaitų parinktys
 
@@ -42,10 +42,10 @@ Vartotojui nepavyksta tinkinti įdėtųjų „Microsoft Power BI“ ataskaitų.
 
 **Sprendimas**
 
-- „Human Resources“ duomenis, kurių srautai juda į „Common Data Service“, galima paskelbti naudojantis „Power Apps“ „Common Data Service“ jungtimi su „Power BI Desktop“. Atminkite, kad „Common Data Service“ pateikiamas „Human Resources“ duomenų porinkinis. Daugiau informacijos apie „Power BI“ ir ataskaitų sritis ieškokite temoje [„Power BI“ ataskaitų ir ataskaitų sričių, naudojant „Power Apps Common Data Service“, kūrimas](https://powerapps.microsoft.com/blog/cdsconnectortopowerbi).
+- „Human Resources“ duomenis, kurių srautai juda į „Dataverse“, galima paskelbti naudojantis „Power Apps“ „Dataverse“ jungtimi su „Power BI Desktop“. Atminkite, kad „Dataverse“ pateikiamas „Human Resources“ duomenų porinkinis. Daugiau informacijos apie „Power BI“ ir ataskaitų sritis ieškokite temoje [„Power BI“ ataskaitų ir ataskaitų sričių, naudojant „Power Apps Common Data Service“, kūrimas](https://powerapps.microsoft.com/blog/cdsconnectortopowerbi).
 - Elektronines ataskaitas (ER) galima naudoti kai kurioms „Human Resources“ ataskaitoms. Kliento kuriamus tinkinimus galima atlikti per ER konfigūravimo pasirinktis.
 - Duomenis į „Microsoft Excel“ arba „Microsoft Word“ galima eksportuoti naudojant įvairius duomenų objektus, pateikiamus „Human Resources“ integravus jį su „Microsoft Office“.
 
 **Ilgalaikis sprendimas**
 
-Bus pasiekiama papildomų „Power BI“ parinkčių, o „Common Data Service“ priklausys daugiau duomenų ir objektų.
+Bus pasiekiama papildomų „Power BI“ parinkčių, o „Dataverse“ priklausys daugiau duomenų ir objektų.

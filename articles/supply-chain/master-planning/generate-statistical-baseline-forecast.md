@@ -1,10 +1,12 @@
 ---
 title: Pagrindinės statistinės prognozės generavimas
 description: Šioje temoje pateikiama informacija apie parametrus ir filtrus, kurie naudojami skaičiuojant poreikio prognozę.
-author: ChristianRytt
+author: roxanadiaconu
+manager: tfehr
 ms.date: 07/08/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqDemPlanCreateForecastDialog
 audience: Application User
@@ -13,15 +15,15 @@ ms.custom: 72683
 ms.assetid: 42190463-2a64-4f63-b653-10cac3df0692
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: crytt
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8f34f1721b6215ac09173a346c1f3f1e6b262247
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: b60fbcc4fe1b3da701245390ab4397ebb700f892
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577533"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5007983"
 ---
 # <a name="generate-a-statistical-baseline-forecast"></a>Pagrindinės statistinės prognozės generavimas
 
@@ -67,13 +69,11 @@ Jei prognozė generuojama ne dideliam prekių rinkiniui, bet, pavyzdžiui, viena
 > [!NOTE]
 > Gana lygia atrodanti prognozė gali būti dėl istorinių duomenų, kurie yra iš ilgesnio istorinio laikotarpio (mažiausiai 3 laikotarpiai, kad būtų galima išrinkti pasikartojimus, pvz., 3 metai su mėnesine prognoze). Norėdami gauti geresnį rezultatą, galite pabandyti pakeisti laiko intervalo detalumą arba padidinti laiko intervalą.
 
-## <a name="additional-resources"></a>Papildomi ištekliai
+<a name="additional-resources"></a>Papildomi ištekliai
+--------
 
 - [Poreikio prognozavimo nustatymas](demand-forecasting-setup.md)
 
 - [Neautomatiniai pagrindinės prognozės koregavimai](manual-adjustments-baseline-forecast.md)
 
 - [Pakoreguotos prognozės įgaliojimas](authorize-adjusted-forecast.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

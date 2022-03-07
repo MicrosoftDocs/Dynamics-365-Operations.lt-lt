@@ -1,12 +1,10 @@
 ---
 title: Informacijos ieška naudojant peržvalgas
-description: Daugelyje laukų yra peržvalgos, kurias naudodami galite lengvai surasti tinkamą ar norimą reikšmę. Į peržvalgas buvo įtrauktos kelios patobulintos funkcijos, todėl šiuos valdiklius bus galima dažniau naudoti, o vartotojai dirbs našiau. Šioje temoje aprašomos šios naujos peržvalgos funkcijos ir pateikiami keli naudingi patarimai apie optimalų peržvalgų naudojimą sistemoje.
+description: Šioje temoje aprašomos šios naujos peržvalgos funkcijos ir pateikiami keli naudingi patarimai apie optimalų peržvalgų naudojimą sistemoje.
 author: jasongre
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d75e66e8fb9f1a227c9dd15f92ca5db433c0db4a
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: adb8e1a0fef93fdd66a4cbac82689ff7a19aca4a
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4798148"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5754781"
 ---
 # <a name="find-information-by-using-lookups"></a>Informacijos ieška naudojant peržvalgas
 
@@ -83,3 +81,6 @@ Vartotojas turi išvalyti peržvalgos valdiklio reikšmę, atidaryti peržvalgos
 Pritaikęs filtrą (žr. toliau pateiktą vaizdą) vartotojas gali įprastai surasti ir pasirinkti eilutę.
 
 ![filtereditemlookup](./media/filtereditemlookup.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,55 +1,64 @@
 ---
-title: Kliento mokėjimo prognozių įjungimas
-description: Šioje temoje paaiškinama, kaip įjungti ir konfigūruoti modulio „Finance Insights” funkciją Kliento mokėjimo prognozės.
+title: Kliento mokėjimo prognozių įjungimas (peržiūros versija)
+description: Šioje temoje paaiškinama, kaip įjungti ir konfigūruoti modulio Finansinės įžvalgos funkciją Kliento mokėjimo prognozės.
 author: ShivamPandey-msft
-ms.date: 02/11/2022
+manager: AnnBe
+ms.date: 05/27/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 14151
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: b83d1230c94462ca722ad7ceb7b2185afd636aae
-ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
-ms.translationtype: MT
+ms.openlocfilehash: e10aa9342ec9f089ef8ecec5e1221a31c580fc87
+ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8109609"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4644998"
 ---
-# <a name="enable-customer-payment-predictions"></a>Kliento mokėjimo prognozių įjungimas
+# <a name="enable-customer-payment-predictions-preview"></a>Kliento mokėjimo prognozių įjungimas (peržiūros versija)
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
-Šioje temoje paaiškinama, kaip įjungti ir konfigūruoti modulio „Finance Insights” funkciją Kliento mokėjimo prognozės. Įjunkite priemonių valdymo darbo srities funkciją **ir** įveskite konfigūracijos parametrus finansų žinių **konfigūracijos** puslapyje. Šioje temoje taip pat pateikiama informacija, kuri gali padėti veiksmingai naudoti funkciją.
+Šioje temoje paaiškinama, kaip įjungti ir konfigūruoti modulio Finansinės įžvalgos funkciją Kliento mokėjimo prognozės. Galite įjungti funkciją darbo srityje **Funkcijų valdymas**, o konfigūracijos parametrus įvesti puslapyje **Modulio Finansinės įžvalgos parametrai**. Šioje temoje taip pat pateikiama informacija, kuri gali padėti veiksmingai naudoti funkciją.
 
 > [!NOTE]
-> Prieš atlikdami šiuos veiksmus, būtinai atlikite būtinuosius veiksmus, aprašytus temoje [Konfigūravimas moduliui „Finance Insights”](configure-for-fin-insites.md).
+> Prieš atlikdami šiuos veiksmus, būtinai atlikite būtinuosius veiksmus, aprašytus temoje [Konfigūravimas moduliui Finansinės įžvalgos](configure-for-fin-insites.md).
 
-1. Įjungti kliento mokėjimo numatymų funkciją:
+1. Naudokite informaciją iš aplinkos puslapio portale „Microsoft Dynamics Lifecycle Services“ (LCS), kad prisijungtumėte prie pirminio „Azure SQL“ tos aplinkos egzemplioriaus. Norėdami įjungti smėlio dėžės aplinkos testus, vykdykite tolesnę Transact-SQL (T-SQL) komandą. (Gali reikėti įjungti prieigą prie savo IP adreso portale LCS, kad galėtumėte nuotoliniu būdu prisijungti prie programos objektų serverio \[AOS\].)
 
-    1. Atidarykite parinkties **Funkcijos valdymas** darbo sritį.
-    2. Pasirinkite **Tikrinti, ar yra naujinimų**.
-    3. Skirtuke **Visi** ieškokite kliento **mokėjimo numatyių**. Jei tos priemonės nerandate, ieškokite **(Peržiūrėti) kliento mokėjimo numatymams**. 
-    4. Įjungti funkciją.
+    `INSERT INTO SYSFLIGHTING (FLIGHTNAME, ENABLED, PARTITION) VALUES ('PayPredEnableFeature', 1, 5637144576)`
 
-    Kliento mokėjimo numatyma dabar įjungta ir parengta konfigūruoti.
+    > [!NOTE]
+    > Jei jūsų „Microsoft Dynamics 365 Finance“ įdiegtis yra „Service Fabric“ įdiegtis, galite praleisti šį veiksmą. Modulio Finansinės įžvalgos komanda jums jau turėjo įjungti testą. Jei nematote funkcijos darbo srityje **Funkcijų valdymas** arba jei kyla problemų bandant ją įjungti, kreipkitės adresu <fiap@microsoft.com>.
 
-2. Funkcijos Kliento mokėjimo įžvalgos konfigūravimas
+2. Funkcijos Kliento mokėjimo įžvalgos įjungimas
 
-    1. Eikite **į Kreditas ir rinkiniai \> Nustatymo \> finansai žinių \> kliento mokėjimų numatyme**.
-    2. Finansų žinių **konfigūracijos puslapio skirtuke Kliento mokėjimo numatymas pasirinkite Peržiūrėti duomenų laukus,** **naudojamus** **·** **numatymo modelyje, kad atidarytumėte duomenų laukus numatymo modelio puslapiui.** Čia galite peržiūrėti numatytąjį laukų, kurie naudojami kuriant kliento mokėjimo prognozių dirbtinio intelekto (DI) prognozavimo modelį, sąrašą.
+    1. Eikite į **Sistemos administravimas \> Darbo sritys \> Funkcijų valdymas**.
+    2. Rasti funkciją, pavadintą **Kliento mokėjimo įžvalgos (peržiūros versija)**.
+    3. Pasirinkite **Įjungti dabar**.
 
-        Norėdami naudoti numatytąjį laukų sąrašą numatymo modeliui sukurti, **uždarykite duomenų laukus numatymo modelio puslapiui,** **tada, finansų žinių konfigūracijos puslapyje, nustatykite pasirinktį** **Įgalinti priemonę kaip** Taip **.**
-        
-   > [!NOTE]
-   > Kliento **mokėjimų numatymo funkcija reikalauja daugiau** nei 100 operacijų per praėjusius šešis iki devynių mėnesių. Operacijos gali būti laisvos formos SF, pardavimo užsakymai ir kliento mokėjimai. Šie duomenys turi būti paskirstyti pagal **laikus**, pavėluotus **ir** labai vėluoja **parametrus**.    
-     
+    Funkcija Kliento mokėjimo įžvalgos dabar yra įjungta ir parengta konfigūruoti.
+
+3. Funkcijos Kliento mokėjimo įžvalgos konfigūravimas
+
+    1. Nueikite į **Kreditas ir surinkimas \> Sąranka \> Finansinės įžvalgos \> Modulio Finansinės įžvalgos parametrai**.
+
+        [![Puslapis Modulio Finansinės įžvalgos parametrai prieš funkciją konfigūruojant](./media/finance-insights-parameters.png)](./media/finance-insights-parameters.png)
+
+    2. Puslapio **Modulio Finansinės įžvalgos parametrai** skirtuke **Kliento mokėjimo įžvalgos** pasirinkite saitą **Peržiūrėti duomenų laukus, naudojamus prognozavimo modelyje**, kad atidarytumėte puslapį **Prognozavimo modelio duomenų laukai**. Čia galite peržiūrėti numatytąjį laukų, kurie naudojami kuriant kliento mokėjimo prognozių dirbtinio intelekto (DI) prognozavimo modelį, sąrašą.
+
+        Norėdami naudoti numatytąjį laukų sąrašą, kad būtų galima sukurti prognozavimo modelį, uždarykite puslapį **Prognozavimo modelio duomenų laukai**, tada puslapyje **Modulio Finansinės įžvalgos parametrai** nustatykite parinktį **Įjungti funkciją** kaip **Taip**.
 
     3. Nurodykite „labai pavėluotą“ operacijos laikotarpį, kad nustatytumėte, ką jūsų įmonei reiškia prognozavimo talpykla **Labai vėluoja**.
 
@@ -62,13 +71,23 @@ ms.locfileid: "8109609"
         > [!NOTE]
         > Pakeitus „labai vėluojantį“ operacijos laikotarpį ir pasirinkus **Pakeisti vėlavimo ribinę reikšmę** po to, kai buvo sukurtas kliento mokėjimų DI prognozavimo modelis, esamas prognozavimo modelis panaikinamas ir sukuriamas naujas modelis. Naujas prognozavimo modelis perkels operacijas į „labai vėluojantį“ laikotarpį, atsižvelgdamas į parametrus, įvestus jam nustatyti.
 
-    4. Kai baigsite apibrėžti „labai vėluojantį“ operacijos laikotarpį, pasirinkite **Kurti prognozavimo modelį**, kad sukurtumėte prognozavimo modelį. Finansų **žinių žinių** konfigūracijos puslapyje esantis **Numatymo modelio** skyrius rodo numatymo modelio būseną.
+    4. Kai baigsite apibrėžti „labai vėluojantį“ operacijos laikotarpį, pasirinkite **Kurti prognozavimo modelį**, kad sukurtumėte prognozavimo modelį. Puslapio **Modulio Finansinės įžvalgos parametrai** skyriuje **Prognozavimo modelis** rodoma prognozavimo modelio būsena.
 
         > [!NOTE]
         > Bet kuriuo metu kurdami prognozavimo modelį, galite pasirinkti **Iš naujo nustatyti modelio kūrimą**, kad procesas būtų paleistas iš naujo.
 
     Funkcija jau sukonfigūruota ir yra parengta naudoti.
 
-Kai priemonė įjungta ir sukonfigūruota, o sukurtas **ir veikia numatymo modelis,** **finansų** žinių parametrų puslapio skyriuje Numatymo modelis rodomas modelio tikslumas.
+Kai funkcija įjungta ir sukonfigūruota, o prognozavimo modelis sukurtas ir veikia, puslapio **Modulio Finansinės įžvalgos parametrai** skyriuje **Prognozavimo modelis** rodomas modelio tikslumas, kaip parodyta šioje iliustracijoje.
 
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+[![Prognozavimo modelio tikslumas puslapyje Modulio Finansinės įžvalgos parametrai](./media/finance-insights-parameters-accuracy.png)](./media/finance-insights-parameters-accuracy.png)
+
+## <a name="release-details"></a>Išleidimo informacija
+
+Bandomąją modulio Finansinės įžvalgos viešosios peržiūros versiją galima įdiegti Jungtinėse Amerikos Valstijose, Europoje ir Jungtinėje Karalystėje. „Microsoft“ palaipsniui į palaikomų regionų sąrašą įtraukia daugiau regionų.
+
+Viešosios peržiūros versijos funkcijos gali ir turi būti įjungtos tik 2 pakopos smėlio dėžės aplinkose. Sąrankos ir DI modelių, sukurtų smėlio dėžės aplinkoje, negalima perkelti į gamybos aplinką. Norėdami gauti daugiau informacijos, žr. [„Microsoft Dynamics 365“ peržiūros versijų papildomos naudojimo sąlygos](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-terms).
+
+## <a name="privacy-notice"></a>Privatumo pranešimas
+
+Peržiūros versijos (1) gali naudoti mažiau privatumo ir mažiau saugos priemonių nei „Dynamics 365 Finance and Operations“ paslauga, (2) jos nėra įtrauktos į aptarnavimo lygio sutartį (SLA), (3) jos neturėtų būti naudojamos apdoroti asmens duomenims ar kitiems duomenims, kuriems taikomi teisiniai ir atitikimo teisės aktai (4) ir jų palaikymas yra ribotas.

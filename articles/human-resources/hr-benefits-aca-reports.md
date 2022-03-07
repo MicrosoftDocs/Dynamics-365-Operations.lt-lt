@@ -1,70 +1,94 @@
 ---
 title: Ataskaitų pagal įstatymą dėl prieinamos sveikatos priežiūros (ACA) generavimas
-description: Funkcijos pasiekiamos siekiant padėti darbdaviams, kuriems reikia sekti formose 1095-B ir 1095-C pateiktą informaciją, pagrindžiant Darbdavio įgaliojimų dalį pagal įstatymą dėl prieinamos sveikatos priežiūros. Atkreipkite dėmesį, kad ši funkcija įjungta tik juridiniams subjektams Jungtinėse Amerikos Valstijose.
+description: Prieinamos sveikatos priežiūros ataskaitos sukuria formas 1095-B ir 1095-C palaikančias **Darbdavio mandato** dalį prieinamos sveikatos priežiūros akto.
 author: andreabichsel
-manager: AnnBe
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
-ms.reviewer: anbichse
-ms.search.scope: Core, Human Resources
+ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 3555be3067db459625df9f9b0ac6b78fc2715289
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: c8f336e31e77391ef7e2bc2dca901e6a78fbb914
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419725"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8067006"
 ---
-# <a name="generate-affordable-care-act-aca-reports"></a>Ataskaitų pagal įstatymą dėl prieinamos sveikatos priežiūros (ACA) generavimas
+# <a name="generate-aca-reports"></a>ACA ataskaitų generavimas
 
-Funkcijos pasiekiamos siekiant padėti darbdaviams, kuriems reikia sekti formose 1095-B ir 1095-C pateiktą informaciją, pagrindžiant **Darbdavio įgaliojimų** dalį pagal įstatymą dėl prieinamos sveikatos priežiūros. Atkreipkite dėmesį, kad ši funkcija įjungta tik juridiniams subjektams Jungtinėse Amerikos Valstijose.
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+Prieinamos sveikatos priežiūros ataskaitos sukuria formas 1095-B ir 1095-C palaikančias **Darbdavio mandato** dalį prieinamos sveikatos priežiūros akto.
+
+> [!NOTE]
+> ACA ataskaitos yra įjungtos tik juridiniams asmenims JAV.
 
 ## <a name="getting-started"></a>Darbo pradžia
-Pradėdami sekti informaciją, kurią reikia pranešti formose 1095-B ir 1095-C, pirmiausia turite sukurti vieną ar daugiau prieinamos sveikatos priežiūros draudimo grupių. Šios sveikatos priežiūros draudimo grupės bus naudojamos siekiant nurodyti darbuotojui pateiktą draudimo pasiūlymą, darbuotojams tenkančią mažiausios mėnesinės įmokos dalį (jei išlaidos viršija federalinę skurdo ribą), taip pat Saugų prieglobstį, kurį naudoja darbdavys, jei taikoma. Naudodami įstatymo dėl prieinamos sveikatos priežiūros grupes, galėsite tvarkyti šių laukų informaciją neliesdami kiekvieno darbuotojo įrašo, kai sąlygos yra tos pačios. Be to, prieinamos sveikatos priežiūros draudimo grupes galima lengvai priskirti vienam ar daugiau darbuotojų, naudojant puslapyje pateiktą funkciją Masinis priskyrimas.
+
+Norėdami sekti informaciją 1095-B ir 1095-C formoms, pirmiausia sukurkite vieną ir daugiau prieinamos sveikatos priežiūros aprėpties grupių. Prieinamos sveikatos priežiūros grupės rodo:
+
+- Aprėpties pasiūlymas pateiktas darbuotojui
+- Darbuotojo dalis mažiausių kaštų mėnesio premijos, jei kaštai viršija federalinį skurdo lygį
+- Saugų uostą naudojamą darbuotojo, jei taikomas
+
+Prieinamos sveikatos priežiūros aprėpties grupė jums leidžia valdyti informaciją šiems laukeliams nekeičiant kiekvieno darbuotojo įrašo, kai sąlygos nekinta. Galtie nesunkiai iš naujo paskirti prieinamos sveikatos priežiūros aprėpties grupes vienam ar keliems darbuotojams su **Masinio paskyrimo** parinktimi puslapyje.
 
 ## <a name="maintaining-multiple-versions-of-a-coverage-group"></a>Kelių draudimo grupės versijų išlaikymas
-Galite išlaikyti kelias draudimo grupės versijas, o tai leidžia atlikti pakeitimus ir išlaikyti grupės informaciją aktualią nekuriant naujos grupės ir iš naujo nepriskiriant darbuotojų prie jos, kai kas nors jūsų organizacijoje arba siūlomose išmokose pasikeičia. 
 
-Sukūrę reikalingas prieinamos sveikatos priežiūros draudimo grupes, galite pasirinkti masiškai priskirti grupes darbuotojams, naudodami puslapyje pateiktą funkciją **Masinis priskyrimas**, arba galite eiti į kiekvieno darbuotojo įrašą ir nurodyti, ar tam darbuotojui reikia sekti ir pranešti ACA informaciją, taip pat priskirti darbuotoją prieinamos sveikatos priežiūros draudimo grupei.
+Galite išlaikyti kelias bet kurios aprėpties grupės versijas. Ši funkcija jums leidžia atlikti keitimus be poreikio kurti naują grupę ir paskirti jai darbuotojus. 
 
-Jei darbuotojo prieinamos sveikatos priežiūros draudimo informacijos sekti ir pranešti nereikia, pavyzdžiui, jei darbuotojas dirba ne visą darbo dieną, lauke **Nurodyti draudimą** gali būti nustatyta reikšmė Ne. Nors kiekvieną darbuotoją, kurio ACA informaciją reikia sekti, būtina priskirti prieinamos sveikatos priežiūros draudimo grupei, vis dar galite pakeisti parinktis **Draudimo pasiūlymas**, **Darbuotojui tenkanti išlaidų dalis** ir **Saugus prieglobstis** bet kurį mėnesį arba mėnesius, kuriais gali reikėti kitokių reikšmių, nei įvestos prieinamos sveikatos priežiūros draudimo grupėje.
+Jums kuriant ACA aprėpties grupes, galite kurti masių priskyrimą grupėms ir darbuotojams su **masių priskyrimo** parinktimi. Galite ir atskirai priskirti darbuotojus grupėms siekiant sekti ir pranešti ACA informaciją bei paskirti darbuotoją prienamų sveikatos priežiūros paslaugų aprėpties grupei.
 
-Norėdami įvesti bet kokios prieinamos sveikatos priežiūros draudimo grupės reikšmių išimtis, spustelėkite saitą Prieinamos sveikatos priežiūros draudimas, kurį rasite skirtuko Įdarbinimas skyriaus Papildoma informacija puslapyje Darbininko informacija.
+Jums nereikia sekti kai kurios ACA aprėpties informacijos, tokios kaip ne pilno etato darbuotojams. Tokiu atveju, nustatykite **Pranešti aprėptį** laukelį į **Ne**. Nepaisant to, kad turite priskirti kiekvieną darbuotoją sekamai ACA informacijai į prieinamų sveikatos priežiūros paslaugų aprėpties grupę, vis dar galite keisti tolesnes parinktis bet kuriems mėnesiams, kuriems reikia kitų verčių:
+
+- **Draudimo pasiūlymas**
+- **Darbuotojui tenkanti išlaidų dalis**
+- **Saugus prieglobstis**
+
+Norėdami įvesti išlygas prieinamoms sveikatos priežiūros paslaugų grupems vertėms, rinkitės **Prieinamos sveikatos priežiūros paslaugos** nuorodą **Darbuotojo išsami informacija** puslapyje skyriuje **Papildoma informacija** esančiame **Darbuotojo skirtukas**.
 
 ## <a name="reporting-health-care-coverage"></a>Sveikatos priežiūros draudimo ataskaitos
-Be sekimo, koks sveikatos draudimas pasiūlytas visą darbo dieną dirbančiam darbuotojui (jei apskritai pasiūlytas), ar darbdavys siūlo darbdavio remiamą savarankišką sveikatos draudimą, į kurį įtrauktas darbuotojas (nepaisant, ar darbuotojas dirba visą darbo dieną ar ne visą), 1095-C formoje reikia pateikti papildomą informaciją. Kiekvienas darbuotojas (įskaitant priklausomuosius), kuriems taikomi darbdavio remiami išmokų planai, turi būti įtrauktas į tų mėnesių, kuriais planai buvo taikomi, ataskaitą. 
 
-Galite nurodyti, ar turi būti pranešta apie kiekvieną Išmokų planą, pasirinkdami žymės langelį **Reikia perduoti ACA**.
+Kartu su sveikatos draudimo aprėpties sekimu siūlomu pilno etato darbuotojams, jei darbdavys siūlo darbuotojo remiamaą draduimą sveikatos paslaugoms, už kurį darbuotojas yra įtrauktas (nepriklausomai nuo jo darbo pilnu ar ne pilnu etatu), papipldoma informacija turi būti pranešta 1095-C formoje. Kiekvienas darbuotojas (įskaitant priklausomuosius), kuriems taikomi darbdavio remiami išmokų planai, turi būti įtrauktas į tų mėnesių, kuriais planai buvo taikomi, ataskaitą. 
 
-Be to, jei darbuotojai pasirinko išmokos taikymą savo priklausomiesiems, puslapyje Prižiūrėti išmokas galite nurodyti datas, kada kiekvieno darbuotojo priklausomiesiems buvo taikomos išmokos. Kad nurodytumėte, kad priklausomajam taikoma išmoka, pasirinkite mygtuką Redaguoti veiksmų srityje Priklausomųjų „FastTab“.
+Galite nurodyti, ar norite, kad kiekvienas išmokų planas būtų praneštas pasirenkant **ACA ataskaitas** žymimame laukelyje.
+
+Taip pat, jei darbuotojas pasirinko turėti išlaikytinių šiame išmokų plane, galite nurodyti išlaikytinių datas kiekvienam darbuotojui **Išlaikyti išmokas** puslapyje. Norėdami nurodyti, kad išlaikytinis yra apdraustas išmoka, rinkitės **Redaguoti** mygtuką veiksmų juostoje **Išlaikytiniai** greitame skirtuke.
 
 Puslapyje **Priklausomųjų draudimo datų tvarkytuvas** galite nurodyti datas, kada priklausomajam buvo taikoma išmoka. Šiame puslapyje įvedus datas, puslapyje **Prižiūrėti išmokas** bus automatiškai pasirinktas žymės langelis **Apdraustas**.
 
-## <a name="generate-1095b-and-1095c-forms"></a>Generuoti 1095B ir 1095C formas
-Taip pat galite generuoti 109-B ir 1095-C formas iš produkto ir jas paskirstyti kiekvienam darbuotojui. Elektroniniu būdu generuojamus 1095-C ir atitinkamos 1094-C siunčiamus failus, kuriuos galima naudoti siunčiant į IRS, taip pat galima generuoti ir iš sistemos.  
+## <a name="generate-1095-b-and-1095-c-forms"></a>Kurti 1095-B ir 1095-C formas
 
-Generuodami 1095-C formą, įveskite atitinkamus mokestinius metus ir nurodykite, ar socialinio draudimo numeriai turėtų būti paslėpti. Jei spausdinate 1095-C formas, skirtas daugiau nei 500 darbuotojų, gausite daugiau nei vieną PDF failą. Rekomenduojama padidinti į **maksimalų failo dydį** lange **Dokumentų valdymo parametrai** iki 150 MB.
+Galite taip pat kurti 1095-B ir 1095-C formas produkte ir dalyti juos visiems savo darbuotojams. Sistema gali elektroniniu būdu kurti 1095-C formas ir 1094-C IRS perdavimo failus.  
+
+Kuriant 1095-C formą, įveskite atitinkamus mokesčių metus ir nurodykite socialinio draudimo numerius, kurie turi būti paslėpti. Jei spausdinate 1095-C formas daugiau nei 500 darbuotojų, gausite daugiau nei vieną PDF failą. Rekomenduojama padidinti į **maksimalų failo dydį** lange **Dokumentų valdymo parametrai** iki 150 MB.
 
 ## <a name="viewing-information"></a>Informacijos peržiūra
+
 Norėdami peržiūrėti, kurie darbuotojai buvo priskirti kiekvienai draudimo grupei, kurių darbuotojų nereikia įtraukti į ataskaitą ir kurie darbuotojai nepriskirti, galite naudoti puslapį **Darbininko prieinamos sveikatos priežiūros draudimas**.
 
-Jei numatytųjų prieinamos sveikatos priežiūros draudimo grupės reikšmių nepaisoma, prie pakeistos reikšmės atsiras žvaigždutė. Jei visų 12 mėnesių reikšmės sutampa ir jų nebuvo nepaisoma, reikšmė bus išspausdinta stulpelyje **Visi 12 mėnesių**.
+Jei bet kurios iš numatytų verčių prieinamų sveikatos priežiūros paslaugų grupė buvo viršyta, žvaigždutė pasirodys šalia pakeistos vertės. Jei visų 12 mėnesių reikšmės sutampa ir jų nebuvo nepaisoma, reikšmė bus išspausdinta stulpelyje **Visi 12 mėnesių**.
 
-Taip pat galite naudoti užklausos langą, kad suprastumėte, kurie darbuotojai buvo pažymėti kaip Nereikia perduoti ACA, o tai reiškia, kad jums nereikia sekti, ar jiems buvo pasiūlytas draudimas, o metų pabaigoje jiems nereikės išduoti 1095-C. Pasirinkdami **Nereikia perduoti ACA** lauke **Filtruoti pagal**, galite generuoti sąrašą visų darbuotojų, kurie buvo pažymėti kaip neturintys gauti 1095-C.
+Galite taip pat prašyti lango suprasti, kurie darbuotojai buvo pažymėti kaip ACA neįtraukti. Jums nereikia sekti, ar aprėptis buvo siūloma jiems ar jiems nereikia išduoti 1095-C metų gale. Rinkitės **Ne ACA pranešami** laukelyje **Filtruoti pagal** siekiant sukurti darbuotojų sąrašą, kurie negaus 1095-C.
 
-Be darbuotojų, kurių atveju nereikia perduoti ACA, peržiūros taip pat galite peržiūrėti darbuotojus, kurie nepriskirti (laukas **ACA ataskaitos draudimas** yra tuščias) arba priskirti prieinamos sveikatos priežiūros draudimo grupei, kuri metais, pasirinktais lauke **Metai**, nebegalioja.
+Taip pat, galite peržiūrėti visus darbuotjus, kurie nebuvo priskirti (**ACA ataskaitos aprėpties** laukelis tuščias) arba kurie nebuvo priskirti prieinamų sveikatos priežiūros paslaugų grupei, kuri nebegalioja pasirinktų **Metų** laukelyje.
 
 Galite eksportuoti darbuotojų sąrašus, kurie sugeneruoti naudojant filtravimo parinktis, į „Excel“.
 
-Jei jums reikia pranešti apie apdraustus asmenis, nes kaip darbdavys teikiate savarankišką draudimą, taip pat galite peržiūrėti priklausomuosius, kuriems taikomi išmokų planai ir kurie buvo pažymėti kaip **Reikia perduoti ACA**, veiksmų srities juostelėje pasirinkdami veiksmą Peržiūrėti priklausomojo draudimą.
+Jums reikia pranešti apdraustus asmenis, nes suteikiate savarankišką draudimą, galite peržiūrėti visus išlaikytinius, kurie apdrausti išmokų planais ir pažymėti kaip **ACA pranešama**. Rinkitės **Žiūrėti išlaikytinių draudimą** veiksmų juostoje.
 
-**Pastaba:** užklausos lange bus rodomos tik tos išmokos, kurių planas buvo pažymėtas kaip **Reikia perduoti ACA**.
+> [!NOTE]
+> Tik išmokų planai pažymėti kaip **ACA pranešami** rodomi užklausos lange.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

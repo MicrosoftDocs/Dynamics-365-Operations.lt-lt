@@ -1,25 +1,27 @@
 ---
 title: Suaktyvinti gamybos eigos versiją
 description: Norėdami kurti gamybos eigos versijos „kanban“ ir apdoroti gamybos eigos versijos veiklas, versiją turite suaktyvinti.
-author: johanhoffmann
+author: cvocph
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LeanProductionFlow
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: johanho
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 57facac81febda1102defb11aa3b214e95a6bbe0
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 0b3019b06651b2c96df7c971a563865c9c140429
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579333"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4998824"
 ---
 # <a name="activate-a-production-flow-version"></a>Suaktyvinti gamybos eigos versiją
 
@@ -38,6 +40,3 @@ Norėdami kurti gamybos eigos versijos „kanban“ ir apdoroti gamybos eigos ve
 5. Spustelėkite Aktyvinti.
 6. Spustelėkite GERAI.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

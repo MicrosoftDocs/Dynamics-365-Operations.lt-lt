@@ -2,11 +2,9 @@
 title: (RCS) Failų importavimas XML formatu su pasirinktiniais atributais
 description: Šioje temoje pateikiama informacija apie tai, kaip vartotojas gali kurti ER formato konfigūraciją ir XML formatu importuoti failus, kuriuose yra pasirinktinių atributų.
 author: NickSelin
-manager: AnnBe
 ms.date: 07/01/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-07-28
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d1d4c8c1d81faa60193d2339fd6541e752c2e2f9
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
-ms.translationtype: HT
+ms.openlocfilehash: b9447c827a02acb616bbfdcb2c7305e8bdd013c9811e28bb25256db056d85d6a
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684144"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6720717"
 ---
 # <a name="rcs-import-files-in-xml-format-with-optional-attributes"></a>(RCS) Failų importavimas XML formatu su pasirinktiniais atributais
 
@@ -123,3 +121,6 @@ ms.locfileid: "4684144"
 
 > [!NOTE]
 > Tas pats failas buvo importuotas kaip formato dizainas. Dabar elemento „dokumentas“ atributą „ID“ laikykite pasirinktinu.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

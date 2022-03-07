@@ -2,11 +2,8 @@
 title: ER DATEVALUE funkcija
 description: Šioje temoje pateikiama informacija apie tai, kaip naudojama modulio Elektroninės ataskaitos (ER) DATEVALUE funkcija.
 author: NickSelin
-manager: kfend
-ms.date: 12/04/2019
-ms.topic: article
+ms.date: 09/08/2021
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
@@ -17,18 +14,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 43e65055b0803ed330a19568f9565c3fae488ab2
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
-ms.translationtype: HT
+ms.openlocfilehash: 446f1357e54342073e73f86ef36e6467e029ebc4
+ms.sourcegitcommit: e7eeca05d738e9e46d6185d1ba349836ebafc1a4
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682418"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "7485579"
 ---
 # <a name="datevalue-er-function"></a>ER DATEVALUE funkcija
 
 [!include [banner](../includes/banner.md)]
 
-`DATEVALUE` funkcija pateikia tipo *Data* reikšmę, kuri iš nurodytos teksto reikšmės nurodytu formatu ir, jei tai pasirenkama, nurodytoje [kultūroje](https://docs.microsoft.com/bingmaps/rest-services/common-parameters-and-types/supported-culture-codes), konvertuojama į datos reikšmę. Daugiau informacijos apie palaikomus formatus rasite temose [standartinis](https://msdn.microsoft.com/library/az4se3k1(v=vs.110).aspx) ir [pasirinktinis](https://msdn.microsoft.com/library/8kb3ddd4(v=vs.110).aspx).
+Funkcija `DATEVALUE` grąžina *[Datos](er-formula-supported-data-types-primitive.md#date)* reikšmę, kuri iš nurodytos teksto reikšmės nurodytu formatu ir, jei tai pasirenkama, nurodytoje [kultūroje](/bingmaps/rest-services/common-parameters-and-types/supported-culture-codes), konvertuojama į datos / laiko reikšmę. Daugiau informacijos apie palaikomus formatus rasite temose [standartinis](/dotnet/standard/base-types/standard-date-and-time-format-strings) ir [pasirinktinis](/dotnet/standard/base-types/custom-date-and-time-format-strings).
 
 ## <a name="syntax-1"></a>1-oji sintaksė
 
@@ -44,19 +41,19 @@ DATEVALUE (text, format, culture)
 
 ## <a name="arguments"></a>Argumentai
 
-`text`: *Eilutė*
+`text`: *[Eilutė](er-formula-supported-data-types-primitive.md#string)*
 
 Tekstas, nurodantis formatuotiną reikšmę.
 
 `format`: *Eilutė*
 
-Nurodyto teksto formatas.
+Nurodyto teksto formatas. Daugiau informacijos apie palaikomus formatus rasite temose [standartinis](/dotnet/standard/base-types/standard-date-and-time-format-strings) ir [pasirinktinis](/dotnet/standard/base-types/custom-date-and-time-format-strings).
 
 `culture`: *Eilutė*
 
-Kultūra, naudojama nurodytam tekstui formatuoti.
+Kultūra, naudojama nurodytam tekstui formatuoti. Daugiau informacijos apie palaikomas kultūras rasite [kultūra](/bingmaps/rest-services/common-parameters-and-types/supported-culture-codes).
 
-## <a name="return-values"></a>Pateikiamos reikšmės
+## <a name="return-values"></a>Grįžties vertės
 
 *Data*
 
@@ -79,3 +76,6 @@ Tačiau `DATEVALUE ("21-Gen-2016", "dd-MMM-yyyy", "EN-US")` pateikia išimtį, k
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Datos ir laiko funkcijos](er-functions-category-datetime.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
