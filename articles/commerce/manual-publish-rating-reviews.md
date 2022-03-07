@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-09-03
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 443ebaa13d7ac29df66ffe77a2ed938e44a0c488
-ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
-ms.translationtype: MT
+ms.openlocfilehash: 25ae7074fcf39bf4408ea1fa0acfc334281bb254
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7968208"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7675054"
 ---
 # <a name="enable-manual-publishing-of-ratings-and-reviews-by-a-moderator"></a>Neautomatinio vadovo įvertinimų ir atsiliepimų publikavimo įjungimas
 
@@ -68,17 +68,3 @@ Norėdami peržiūrėti ir publikuoti įvertinimų ir atsiliepimų tendencijas �
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Įvertinimų ir atsiliepimų apžvalga](ratings-reviews-overview.md)
-
-[Norėdami naudoti įvertinimus ir atsiliepimus, prisijunkite](opt-in-ratings-reviews.md)
-
-[Įvertinimų ir atsiliepimų tvarkymas](manage-reviews.md)
-
-[Įvertinimų ir atsiliepimų konfigūravimas](configure-ratings-reviews.md)
-
-[Produktų įvertinimų sinchronizavimas](sync-product-ratings.md)
-
-[Importuoti ir eksportuoti įvertinimus ir apžvalgas](import-export-reviews.md)
-
-[Konfigūruoti paslaugos autentifikavimą](service-to-service-auth.md)
-
-[DUK apie įvertinimus ir apžvalgas](ratings-reviews-faq.md)

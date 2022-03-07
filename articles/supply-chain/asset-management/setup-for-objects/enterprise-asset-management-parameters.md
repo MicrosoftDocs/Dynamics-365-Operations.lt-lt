@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1659fd3b4c173ffe09f245631309d329bba5b1bd
-ms.sourcegitcommit: f2a78e0d7d461ca843ac2f9abff7690275db9196
-ms.translationtype: MT
+ms.openlocfilehash: 8df8e6204e9c64305387e6aed304142d7f13b33a
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8105494"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5808333"
 ---
 # <a name="asset-management-parameters"></a>Turto valdymo parametrai
 
@@ -49,7 +49,7 @@ Skirtuke **Darbo užsakymai** pateikiami šie parametrai:
 - **Numatytasis darbo užsakymo tipas** apibrėžia standartinius parametrus kuriant darbo užsakymą.  
 - **Prevencinis darbo užsakymo tipas** apibrėžia darbo užsakymo tipą, naudojamą kuriant darbo užsakymus iš priežiūros planų. Jei šis laukas paliekamas tuščias, naudojamas lauke **Numatytasis darbo užsakymo tipas** esantis darbo užsakymo tipas.  
 - Lauke **Susijęs darbo užsakymo šablonas** nurodomas maksimalus darbo užsakymų, kurie gali būti susieti su darbo užsakymu, skaičius. Pavyzdžiui, ## leidžia naudoti iki 99 susietų darbo užsakymų. Jei apibrėžiate šabloną, kaip aprašyta čia, susiję darbo užsakymai bus sunumeruoti [darbo užsakymo, su kuriuo susietas darbo užsakymas, ID]-01, -02, -03 ir t. t. Jei šiame lauke neapibrėžiate šablono, susijęs darbo užsakymas gaus kitą nuoseklų darbo užsakymo ID.  
-- Pasirinkite **Taip**, jei **norite kopijuoti klaidas**, jei norite automatiškai kopijuoti klaidas, užregistruotas priežiūros užklausose, į susijusius darbo užsakymus. 
+- Mygtuke **Kopijuoti gedimus** pasirinkite **Taip**, jei norite automatiškai nukopijuoti klaidas, užregistruotas darbo užsakymuose, į susijusias priežiūros užklausas. 
 - Lauke **Lygis** galite apibrėžti funkcinės vietos lygį, kuris automatiškai įterpiamas į darbo užsakymą, jei visos susijusios darbo užsakymo užduotys nurodo tą pačią funkcinę vieta. Jei darbo užsakymo užduotys ne visos susijusios su ta pačia funkcine vieta apibrėžtame lygyje, darbo užsakymo laukas **Funkcinė vieta** paliekamas tuščias. Pavyzdžiui, jei šiame lauke įterpiate skaičių „1“, jis nurodo aukščiausią funkcinės vietos struktūros lygį. Jei šiame lauke įterpiate skaičių „0“, vadinasi nesate apibrėžę konkretaus funkcinės vietos lygio, o tik tai, kad visos darbo užsakymo užduotys turi būti susietos su ta pačia funkcine vieta, kurioje ta funkcinė vieta turi būti pridėta prie darbo užsakymo.  
 - Žurnalai, naudojami registruojant suvartojimą darbo užsakyme, gali būti pasirinkti FastTab **Bendra** laukuose **Valanda**, **Prekė** ir **Išlaidos**.  
 - Lauke **Produkto kalbos šaltinis** pasirinkite, kuri kalba bus naudojama produktų pavadinimams turto valdymo ataskaitose. Galite pasirinkti įmonės paskyroje nustatytą kalbą arba šiuo metu nustatytą prisiregistravusio vartotojo kalbą.  
@@ -99,7 +99,7 @@ Toliau pateiktame sąraše aprašyti visis laukai, susiję su vertinimo rezultat
 
 ## <a name="the-document-types-tab"></a>Skirtukas Dokumentų tipai
 
-Pasirinkite dokumentų tipus, kurie turėtų būti pasiekiami kaip spausdinimo priedai, susiję su darbo užsakymo ataskaita. Tai atliekama pasirinkus dokumento tipą dalyje **Pasiekiama** ir pasirinkus ![rodyklę pirmyn.](media/15-setup-for-objects.png). Jei norite pašalinti pasirinktą dokumento tipą, pasirinkite dokumento tipą dalyje **Pasirinkta**, tada pasirinkite ![rodyklę atgal](media/16-setup-for-objects.png).
+Pasirinkite dokumentų tipus, kurie turėtų būti pasiekiami kaip spausdinimo priedai, susiję su darbo užsakymo ataskaita. Tai atliekama pasirinkus dokumento tipą dalyje **Pasiekiama** ir pasirinkus ![rodyklę pirmyn](media/15-setup-for-objects.png). Jei norite pašalinti pasirinktą dokumento tipą, pasirinkite dokumento tipą dalyje **Pasirinkta**, tada pasirinkite ![rodyklę atgal](media/16-setup-for-objects.png).
 
 ## <a name="the-number-sequences-tab"></a>Skirtukas Numeravimas
 

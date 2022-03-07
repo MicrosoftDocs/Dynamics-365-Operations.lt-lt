@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 5c772a19958ebf0687d09af4c3055c733d99d750
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 2225bdca654e164d97feec7848f077f54054b37f
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4414442"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5257104"
 ---
 # <a name="page-model-glossary"></a>Puslapio modelio žodynas
 
@@ -64,3 +63,6 @@ Toliau pateikiamoje lentelėje pateikiama terminų, kuriuos reikia žinoti, kai 
 [Šablonų ir maketų apžvalga](templates-layouts-overview.md)
 
 [Svetainės naršymo tinkinimas](customize-site-navigation.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

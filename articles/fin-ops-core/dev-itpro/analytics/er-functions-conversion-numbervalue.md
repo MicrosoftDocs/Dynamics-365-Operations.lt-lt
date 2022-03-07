@@ -2,11 +2,9 @@
 title: ER NUMBERVALUE funkcija
 description: Šioje temoje pateikiama informacija apie tai, kaip naudojama modulio Elektroninės ataskaitos (ER) NUMBERVALUE funkcija.
 author: NickSelin
-manager: kfend
 ms.date: 12/05/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d3eec6dc5a472f366c9029456fe05cf1e431e1c5
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 84d7f17f37a83547522cf09047b72100f6f5b859
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4685984"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5755353"
 ---
 # <a name="numbervalue-er-function"></a>ER NUMBERVALUE funkcija
 
@@ -63,3 +61,6 @@ Gaunama skaitinė reikšmė.
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Tipų konvertavimo funkcijos](er-functions-category-type-conversion.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

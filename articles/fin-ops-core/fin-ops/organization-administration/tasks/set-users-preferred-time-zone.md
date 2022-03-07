@@ -2,11 +2,9 @@
 title: Vartotojo pageidaujamos laiko zonos nustatymas
 description: Šioje procedūroje paaiškinama, kaip sistemos administratoriaus vaidmens vartotojas gali nustatyti vartotojo laiko zoną.
 author: pvillads
-manager: AnnBe
 ms.date: 07/08/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysUserManagement, SysUserSetup
 audience: Application User
@@ -15,16 +13,19 @@ ms.search.region: Global
 ms.author: pvillads
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: cd336a59481c77d4e0a22f14f8bb2ce6dbd8f028
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
-ms.translationtype: HT
+ms.openlocfilehash: 32417694e53600836370ecc5601d36057cc55de9
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4798960"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8065610"
 ---
 # <a name="set-a-users-preferred-time-zone"></a>Vartotojo pageidaujamos laiko zonos nustatymas
 
 [!include [banner](../../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../../includes/peap-1.md)]
 
 Pateiktoje procedūroje paaiškinama, kaip sistemos administratoriaus vaidmens vartotojas gali nustatyti vartotojo laiko juostą.
 
@@ -35,3 +36,6 @@ Pateiktoje procedūroje paaiškinama, kaip sistemos administratoriaus vaidmens v
 5. Lauke **Laiko juosta** pasirinkite parinktį iš išplečiamojo meniu.
 6. Pasirinkite **Įrašyti**.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

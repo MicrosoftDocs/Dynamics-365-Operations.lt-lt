@@ -1,12 +1,10 @@
 ---
 title: Archyvo ER paskirties vietos tipas
-description: Šioje temoje pateikiama informacija apie tai, kaip sukonfigūruoti elektroninių ataskaitų (ER) formato, kuris sukonfigūruotas siunčiamiems dokumentams generuoti, kiekvieno APLANKO ar FAILO komponento archyvo paskirties vietą.
+description: Šioje temoje pateikiama informacija apie tai, kaip konfigūruoti archyvo paskirties vietą kiekvienam APLANKO ar FAILO komponentui elektroninių ataskaitų (ER) formatu.
 author: NickSelin
-manager: AnnBe
 ms.date: 11/30/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: DocuType, ERSolutionTable, ERFormatDestinationTable
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 3dee7ec614ec1372feaa1150f5e4ebb14c32f60e
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 18c662fee0cedaa55f63ffeb25b0d61ee7baffda
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4679683"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5753533"
 ---
 # <a name="archive-er-destination-type"></a>Archyvo ER paskirties vietos tipas
 
@@ -57,3 +55,6 @@ Kai nustatyta dokumento tipo vieta yra **„Azure“ saugykla**, galite įrašyt
 - [Elektroninių ataskaitų (ER) apžvalga](general-electronic-reporting.md)
 - [Elektroninių ataskaitų (ER) paskirties vietos](electronic-reporting-destinations.md)
 - [Dokumentų valdymo konfigūravimas](../../fin-ops/organization-administration/configure-document-management.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

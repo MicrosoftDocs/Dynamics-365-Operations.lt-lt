@@ -2,36 +2,30 @@
 title: Papildyti kategorijos nukreipimo puslapį
 description: Šioje temoje aptariamas kategorijos puslapių papildymas sprendime „Dynamics 365 Commerce“.
 author: v-chgri
-manager: annbe
 ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Operations, Retail, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: ca31ec7d2eee7d2b0c863506338341a870ff07ee
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 5e18439fc0e91619cade33b83b87be0d5c4d1040
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4414347"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5799016"
 ---
 # <a name="enrich-a-category-landing-page"></a>Papildyti kategorijos nukreipimo puslapį
-
 
 [!include [banner](includes/banner.md)]
 
 Šioje temoje aptariamas kategorijos puslapių papildymas sprendime „Dynamics 365 Commerce“.
-
-## <a name="overview"></a>Peržiūrėti
 
 „Commerce“ pateikiamas numatytasis kategorijos nukreipimo puslapis, kuris naudojamas, kai rodomi kategorijos duomenys. Numatytame kategorijos puslapyje yra būtini elementai, pvz., tikslinimo priemonės, produktų išdėstymas pagal kategorijas, rūšiavimo parinktys, pasirinkimo suvestinė ir skaidymo į puslapius valdikliai. 
 
@@ -64,4 +58,9 @@ Norėdami papildyti kategorijos puslapį, atlikite šiuos veiksmus.
 
 [Papildyti produkto puslapį](enrich-product-page.md)
 
-[Puslapio turinio pritaikymo neįgaliesiems patikra](verify-accessibility.md)
+[Patikrinti puslapio turinio pritaikymą neįgaliesiems](verify-accessibility.md)
+
+[Sukurti dinaminius e-komercijos puslapius pagal URL parametrus](create-dynamic-pages.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

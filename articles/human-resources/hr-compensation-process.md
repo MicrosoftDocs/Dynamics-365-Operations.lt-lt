@@ -2,29 +2,28 @@
 title: Kompensavimo apdorojimas
 description: Kompensavimo apdorojimas suteikia galimybę apskaičiuoti naujos bazinės kompensacijos sumas darbuotojams pagal kapitalo koregavimus, nuopelnų padidinimo tikslus ir našumą.
 author: andreabichsel
-manager: AnnBe
 ms.date: 11/01/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
-ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources
+ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 979a4f311d59cb51cdf0fc6ce85d5b3338ffa870
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 1a60ab866f3ad06acc747f8c8b80a65e767b27c8
+ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419716"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "6051358"
 ---
 # <a name="process-compensation"></a>Kompensavimo apdorojimas
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Kompensavimo apdorojimas suteikia galimybę apskaičiuoti naujos bazinės kompensacijos sumas darbuotojams pagal kapitalo koregavimus, nuopelnų padidinimo tikslus ir našumą. Šiame straipsnyje apžvelgiamas pastoviosios atlyginimo dalies planų bazinio kompensacijos srauto apdorojimas neatsižvelgiant į darbuotojo našumą.
 
@@ -77,3 +76,6 @@ Peržiūrėję darbuotojo kompensacijos sumas ir atlikę rekomenduojamų reikšm
 Kai vieno ar daugiau darbuotojų įvykių būsena buvo atnaujinta į Patvirtinta, jie gali būti įkelti į darbuotojų pastoviųjų atlyginimo dalių įrašus. Tai galite padaryti po vieną pasirinkdami kiekvieną darbuotojo įvykį ir spustelėdami mygtuką **Įkelti darbuotojo kompensaciją**, esantį puslapyje **Darbuotojo rezultatai**, arba spustelėdami **Įkelti kompensaciją** puslapyje **Proceso rezultatai**, kad įkeltumėte visus patvirtintus darbuotojo įvykius vienu metu.
 
 Dialogo lange **Įkelti kompensaciją** spustelėjus **Gerai**, į puslapį **Darbuotojo pastovioji atlyginimo dalis** bus pridėtos nenulinės kompensacijos veiksmo eilutės.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

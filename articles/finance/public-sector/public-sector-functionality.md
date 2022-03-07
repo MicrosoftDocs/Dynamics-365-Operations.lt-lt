@@ -1,6 +1,6 @@
 ---
 title: Viešojo sektoriaus pagrindinis puslapis
-description: „Microsoft Dynamics 365 Finance“ įgalina verslo procesus, kurie yra naudojami tiek viešajame, tiek privačiajame sektoriuose, pvz., biudžeto sudarymo, pirkimo, mokėtinų ir gautinų sumų užduotis.
+description: „Dynamics 365 Finance“ palaiko bendrus viešojo sektoriaus verslo procesus. Jie apima biudžeto, pirkimo, mokėtinų sumų ir gautinų sumų užduotis.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: SysConfiguration
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 20691
 ms.assetid: 391a6899-7011-40bc-b54b-5665b06bcecb
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Public sector
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f4a3722cf286909c83b5154137c86508929a2691
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 7d4b499337d26e2209ee73f2f8ea93f55a124652
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4459535"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5218737"
 ---
 # <a name="public-sector-home-page"></a>Viešojo sektoriaus pagrindinis puslapis
 
@@ -60,9 +59,8 @@ Naudokite viešojo sektoriaus funkcijas, kurios padės laikytis viešojo sektori
 ## <a name="how-does-the-public-sector-configuration-key-relate-to-other-configuration-keys"></a>Kaip viešojo sektoriaus konfigūracijos raktas susijęs su kitais konfigūracijos raktais?
 Šioje lentelėje pateikiama informacija apie tai, kaip šis konfigūracijos raktas yra susijęs su kitais konfigūracijos raktais.
 
-|            |                                                                                                                                                                                                                     |
+|   **Išsamiai**         |              **Aprašas**                                                                                                                                                                                        |
 |------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Išsamiai** | **Aprašas**                                                                                                                                                                                                     |
 | Pirminis raktas | Nėra                                                                                                                                                                                                                |
 | Antriniai raktai | **Išplėstinės didžiosios knygos įrašas** konfigūracijos raktas (AdvancedLedgerEntry) **Viešasis sektorius 1099G** konfigūracijos raktas (Tax1099G) **Viešasis sektorius 1099S** konfigūracijos raktas (Tax1099S) **Prancūzijos reglamentavimas** konfigūracijos raktas |
 
@@ -74,3 +72,6 @@ Naudokite viešojo sektoriaus funkcijas, kurios padės laikytis viešojo sektori
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

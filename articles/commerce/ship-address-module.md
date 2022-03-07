@@ -2,35 +2,30 @@
 title: Siuntimo adreso modulis
 description: Ši tema paaiškina siuntimo adreso modulį ir tai, kaip jį sukonfigūruoti „Microsoft Dynamics 365 Commerce“.
 author: anupamar-ms
-manager: annbe
-ms.date: 08/05/2020
+ms.date: 02/11/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Operations, Retail, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: aeaa410fde29b285fdbbdd6acac19b0c4e917aa5
-ms.sourcegitcommit: 12d271bb26c7490e7525d9b4bbf125cdc39fef43
-ms.translationtype: HT
+ms.openlocfilehash: 30baef62e03cdaa766133efc4b182c61da3dc7b67e077d80716a035f0b5e40e2
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/07/2020
-ms.locfileid: "4414508"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6765199"
 ---
 # <a name="shipping-address-module"></a>Siuntimo adreso modulis
 
 [!include [banner](includes/banner.md)]
 
-Ši tema aprašo siuntimo adreso modulį ir tai, kaip jį sukonfigūruoti „Microsoft Dynamics 365 Commerce“.
-
-## <a name="overview"></a>Peržiūra
+Ši tema paaiškina siuntimo adreso modulį ir tai, kaip jį sukonfigūruoti „Microsoft Dynamics 365 Commerce“.
 
 Siuntimo adreso modulis leidžia klientams įtraukti ar pasirinkti siuntimo adresą užsakymui išsiregistravimo srauto metu. Jei klientas yra prisijungęs, visi anksčiau tam klientui įrašyti adresai bus rodomi, o klientas galės iš jų pasirinkti. Klientas taip pat gali įtraukti naują adresą. Siuntimo adreso modulis yra naudojamas visoms užsakymo prekėms, kuriems reikalingas siuntimas.
 
@@ -42,14 +37,16 @@ Nepaisant to, kad siuntimo adreso modulis neleidžia patvirtinti adreso, ši fun
 
 Tolesnis paveikslėlis rodo naujo siuntimo adreso modulio pavyzdį išsiregistravimo puslapyje.
 
-![Siuntimo adreso pavyzdžio modulis išsiregistravimo puslapyje](./media/ecommerce-shippingaddress.PNG)
+![Siuntimo adreso pavyzdžio modulis išsiregistravimo puslapyje.](./media/ecommerce-shippingaddress.PNG)
 
 ## <a name="module-properties"></a>Modulio ypatybės
 
-| Ypatybės pavadinimas | Reikšmės | aprašymas |
+| Ypatybės pavadinimas | Reikšmės | Aprašas |
 |---------------|--------|-------------|
 | Antraštė | Antraštės tekstas ir antraštės žymė (**H1**, **H2**, **H3**, **H4**, **H5** ar **H6**) | Pasirenkama antraštė siuntimo adreso moduliui. |
 | Rodyti adreso tipą | **Teisinga** arba **Klaidinga** | Jei šios pasirenkamos ypatybės yra nustatytos į **Teisingos**, bus rodomas adreso tipas, toks kaip **Namų** ar **Įmonės**. Jei nėra nurodyta jokio adreso tipo, adresas automatiškai bus įrašomas kaip **Tipas**=**Kitas**. |
+| Įjungti automatinį pasiūlymą| **Teisinga** arba **Klaidinga** | Jei ši pasirinktinė ypatybė nustatyta į **Teisinga**, bus pateikiami automatiniai adreso pasiūlymai. Šiuos pasiūlymus teikia „Bing” žemėlapiai. Daugiau informacijos, kaip nustatyti „Bing” žemėlapių integravimą jūsų svetainėje, žr. [Parduotuvės išrinkiklio modulis](store-selector.md). Ši funkcija yra prieinama „Commerce“ versijos 10.0.15 leidime.|
+|Automatinio pasiūlymo parinktys| Skaičius| Jei automatiniai adreso pasiūlymai įgalinti, galite nurodyti papildomas parinktis, pvz., didžiausią pasiūlymų, kuriuos reikia pateikti, skaičių.|
 
 ## <a name="add-a-shipping-address-module-to-a-checkout-page-and-set-the-required-properties"></a>Įtraukite siuntimo adreso modulį į galutinį puslapį ir nustatykite reikiamas ypatybes
 
@@ -72,3 +69,8 @@ Siuntimo adreso modulis gali būti įtrauktas tik į galutinį modulį. Dėl iš
 [Išsamios užsakymo informacijos modulis](order-confirmation-module.md)
 
 [Dovanų kortelės modulis](add-giftcard.md)
+
+[Parduotuvės išrinkiklio modulis](store-selector.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

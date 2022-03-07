@@ -2,11 +2,9 @@
 title: Naršymo ieška
 description: Šioje temoje aiškinama, kaip naudoti ieškos funkciją, norint pasiekti puslapius.
 author: aneesmsft
-manager: AnnBe
-ms.date: 04/27/2017
+ms.date: 08/11/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
@@ -16,16 +14,19 @@ ms.search.region: Global
 ms.author: aneesa
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 43fa263bcbb6f5a6465af59ffb744aa865d66239
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
-ms.translationtype: HT
+ms.openlocfilehash: 9e689bef43930dbe364baefaa9f4d0231394ff4f
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4799111"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069989"
 ---
 # <a name="navigation-search"></a>Naršymo ieška
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Šioje temoje aiškinama, kaip naudoti ieškos funkciją, norint pasiekti puslapius.
 
@@ -36,7 +37,7 @@ Norėdami naudoti šią funkciją, spustelėkite **Ieškos** piktogramą, kad b�
 > [!NOTE]
 > **Ieškos** langelis padeda rasti ir pereiti į puslapius. Jis nepadės rasti konkrečių duomenų ar veiksmų.
 
-[![ieškos laukas](media/navigation-search.png "Ieškos laukas")
+![ieškos laukas.](media/navigation-search.png "Ieškos laukas")
 
 ## <a name="quickly-navigate-to-a-particular-page"></a>Greitas perėjimas į konkretų puslapį
 
@@ -62,3 +63,6 @@ Ieškos rezultatų sąrašas apribotas iki 10 elementų. Jei rezultatuose nerand
 ## <a name="development"></a>Plėtra
 
 Programavimo požiūriu naršymo ieškos funkciją labai lengva įdiegti, nes tarp meniu elementų diegimo ir jų rodymo ieškos rezultatuose praktiškai nėra vėlavimo. Kol į meniu elementus nurodoma iš naršymo srities ar ataskaitų srities, jie automatiškai tampa ieškotinais.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

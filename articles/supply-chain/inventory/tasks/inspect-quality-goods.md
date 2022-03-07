@@ -1,60 +1,52 @@
 ---
 title: Prekių kokybės tikrinimas
-description: Šioje temoje paaiškinama, kaip apdoroti kokybės užsakymus.
-author: yufeihuang
-ms.date: 03/23/2021
+description: Šioje temoje paaiškinama, kaip apdoroti kokybės užsakymą.
+author: perlynne
+manager: tfehr
+ms.date: 08/01/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventQualityOrderTable, InventQualityOrderLineResults, HcmWorkerLookUp
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: yufeihuang
+ms.author: perlynne
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cc2fbbedb608b38c6855fbd48ff0c3e26ee3e0bc
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: dbfb3733cc52f0f8f54ab4388764429387358ee7
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7575853"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5011527"
 ---
 # <a name="inspect-the-quality-of-goods"></a>Prekių kokybės tikrinimas
 
 [!include [banner](../../includes/banner.md)]
 
-Šioje temoje paaiškinama, kaip apdoroti kokybės užsakymus. Kokybės patikrinimus paprastai atlieka kokybės klerkas.
+Šioje temoje paaiškinama, kaip apdoroti kokybės užsakymą. Šį vadovą galite vykdyti demonstracinių duomenų įmonėje USMF. Prieš pradėdami šį procedūros pavyzdį, turite patvirtinti pirkimo užsakymą „000016“ ir užregistruoti produkto gavimo kvitą. Tai automatiškai sukurs kokybės užsakymą. Kokybės patikrinimus paprastai atlieka kokybės klerkas.
 
-Jei įdiegti standartiniai demonstraciniai duomenys, galite naudoti juos šios temos procedūroms atlikti. Norėdami naudoti demonstracinius duoemnis, pasirinkite *„USMF”* juridinį subjektą. Tada turite patvirtinti pirkimo užsakymą *000016* ir užregistruoti produkto gavimo kvitą. Kokybės užsakymas generuojamas automatiškai.
 
-## <a name="step-1-select-a-quality-order"></a>1 veiksmas: Pasirinkti kokybės užsakymą
+## <a name="select-a-quality-order"></a>Pasirinkti kokybės užsakymą
+1. Naršymo srityje eikite į **Moduliai > Atsargų valdymas > Periodinės užduotys > Kokybės valdymas > Kokybės užsakymai**.
+2. Pasirinkite kokybės užsakymą, sukurtą prieš jums pradedant šią procedūrą.  
 
-Norėdami pasirinkti kokybės užsakymą, atlikite šiuos veiksmus.
-
-1. Eikite į **Atsargų valdymas \> Periodinės užduotys \> Kokybės valdymas \> Kokybės užsakymai**.
-1. Pasirinkite kokybės užsakymą, sukurtą prieš jums pradedant šią procedūrą.
-
-## <a name="step-2-record-test-results"></a>2 veiksmas: Įrašyti tikrinimo rezultatus
-
-Norėdami įrašyti tikrinimo rezultatus, atlikite šiuos veiksmus.
-
+## <a name="record-test-results"></a>Įrašyti tikrinimo rezultatus
 1. Pasirinkite **Rezultatai**.
-1. Pasirinkite **Redaguoti**.
-1. Lauke **Rezultatų kiekis** įveskite skaičių.
-1. Lauke **Išvados** pasirinkite norimą įrašą. Šiame pavyzdyje rezultatas priklauso nuo iš anksto nustatytos baigties. Paprastai įrašomas konkretesnis bandymo rezultatas, pavyzdžiui, dydis ar kitas matmuo.
-1. Pasirinkite **Įrašyti**.
-1. Uždarykite puslapį.
+2. Pasirinkite **Redaguoti**.
+3. Lauke **Rezultatų kiekis** įveskite skaičių.
+4. Lauke **Baigtis** išplečiamajame meniu pasirinkite norimą įrašą.  
+- Šiame pavyzdyje rezultatas priklauso nuo iš anksto nustatytos baigties. Paprastai įrašomas konkretesnis bandymo rezultatas, pavyzdžiui, dydis ar kitas matmuo.  
+5. Pasirinkite **Įrašyti**.
+6. Uždarykite puslapį.
 
-## <a name="step-3-validate-the-quality-order"></a>3 veiksmas: Tikrinti kokybės užsakymą
-
-Norėdami patvirtinti kokybės užsakymą, atlikite šiuos veiksmus.
-
+## <a name="validate-the-quality-order"></a>Tikrinti kokybės užsakymą
 1. Pasirinkite **Tikrinti**.
-1. Lauke **Patvirtinta pagal** pasirinkite vartotoją, kuris atlieka patikrinimą.
-1. Pasirinkite **Pasirinkti**.
-1. Pasirinkite **Gerai**.
-1. Uždarykite puslapį.
+2. Lauke **Patikrino** išplečiamajame meniu pasirinkite vartotoją, kuris atlieka patikrinimą.  
+3. Spustelėkite **Pažymėti**.
+4. Pasirinkite **Gerai**.
+5. Uždarykite puslapį.
 
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

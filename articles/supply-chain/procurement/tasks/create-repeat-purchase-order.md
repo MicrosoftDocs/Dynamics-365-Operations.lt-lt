@@ -1,26 +1,24 @@
 ---
 title: Pasikartojančio pirkimo užsakymo kūrimas
 description: Šioje temoje rodoma, kaip sukurti pakartotinį pirkimo užsakymą (PO) kopijuojant eilutes iš ankstesnio pirkimo užsakymo dokumento į naują PO arba esamą PO.
-author: RichardLuan
-manager: tfehr
+author: Henrikan
 ms.date: 07/29/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchTable, PurchTablePart, PurchCreateOrder, PurchCopying
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: riluan
+ms.author: henrikan
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 65eb801fb363ce2484dcce4d086d1b2b5ad3388f
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
-ms.translationtype: HT
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 3af29594326501359e4722b92d6c5235cf25af9c
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5017347"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7569390"
 ---
 # <a name="create-a-repeat-purchase-order"></a>Pasikartojančio pirkimo užsakymo kūrimas
 
@@ -69,3 +67,6 @@ Užuot kopijavus visą užsakymą, dažniau yra kuriamas naujas PU ir įvedama P
 4. Pasirinkite eilutę pageidaujamam pirkimo užsakymui. Atkreipkite dėmesį, kad taip pat pažymima viena užsakymo eilutę, esanti šiame PU.  
 5. Pasirinkite **Gerai**. Papildoma užsakymo eilutė buvo įtraukta į pirkimo užsakymą.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

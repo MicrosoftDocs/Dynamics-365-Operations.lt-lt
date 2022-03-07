@@ -1,6 +1,6 @@
 ---
-title: Elektroninių ataskaitų formatų modifikavimas iš naujo pritaikant „Excel‟ šablonus
-description: Šioje temoje pateikiama informacija apie tai, kaip galite modifikuoti elektroninių ataskaitų (ER) formatą, naudojamą verslo dokumentams generuoti, iš naujo pritaikant modifikuotą „Excel“ šabloną.
+title: Elektroninių ataskaitų formatų modifikavimas iš naujo pritaikant „Excel“ šablonus
+description: Šioje temoje aprašoma, kaip modifikuoti elektroninių ataskaitų (ER) formatą, naudojamą verslo dokumentams generuoti, iš naujo pritaikant modifikuotą „Excel“ šabloną.
 author: NickSelin
 manager: AnnBe
 ms.date: 06/01/2017
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fa15ae3111f7b91fd63afedb3ef21709d7d866d8
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 3d828412e0d804acf6e6141778512e899bc78a7d
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682222"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092849"
 ---
 # <a name="modify-electronic-reporting-formats-by-reapplying-excel-templates"></a>Elektroninių ataskaitų formatų modifikavimas iš naujo pritaikant „Excel‟ šablonus
 

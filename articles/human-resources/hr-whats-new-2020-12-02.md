@@ -2,30 +2,29 @@
 title: Kas naujo ar pasikeitusio „Dynamics 365 Human Resources“ 2020 m. gruodžio 2 d.
 description: Ši tema aprašo funkcijas, kurios yra naujos arba pakeistos „Microsoft Dynamics 365 Human Resources“ nuo 2020 m. gruodžio 2 d.
 author: marcelbf
-manager: tfehr
 ms.date: 12/02/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: aba35563266d1149131124f489f89da61432bfb2
-ms.sourcegitcommit: 0354ca7e566fbd2eb0aabdd40000d4ac5c44ea78
+ms.openlocfilehash: b7d9ecea08f5095e7fa8501d690bbabbd54e6501
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "4669180"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5802244"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-december-2-2020"></a>Kas naujo ar pasikeitusio „Dynamics 365 Human Resources“ 2020 m. gruodžio 2 d.
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Šioje temoje aprašomos naujos, pasikeitusios ar netrukus pasirodysiančios „Dynamics 365 Human Resources“ funkcijos.
 
@@ -61,7 +60,7 @@ Toliau nurodyti klaidų ištaisymai įtraukti į šį leidimą.
 | 514087 | BenefitEligibilityProcessResult turi apimti datą ir laiką, kuris buvo naudojamas apdorojimo metu. | BenefitEligibility apdorojimo rezultatai dabar apima duomenų laiko antspaudą paskutiniam apdorojimui, kurio trūko anksčiau. |
 | 526903 | Priedų įtraukimas nepavyksta planams su priklausiniais, kai **Automatinio pasirinkimo gavėjai** yra įjungti **Žmogiškųjų išteklių bendrinti parametrai**. | Fiksuota problema, kai naudos įtraukimas nepavyko priklausiniams, kai **Automatinio pasirnkimo gavėjų** parinktis buvo įjungta nustatytiesiems gavėjams. |
 | 521922 | **Rodyti nebuvimą be išsamios informacijos** parameteras rodo nebuvimo užklausų išsamią informaciją komandos nebuvimo kalendoriuje. | Atostogų tipas, atostogų tipo spalva ir dienų išsami informacija buvo rodoma komandos nebuvimo kalendoriuje, kai **Rodyti nebuvimą be išsamios informacijos** buvo nustatytas į **Taip** skyriuje **Atostogų ir nebuvimo parametrai**. Tai buvo pažymėta ir dabar atostogų tipas neberodomas ir nustatytoji atostogų tipo spalva (tamsiai mėlyna) yra naudojama visiems atostogų tipams komandos nebuvimo kalendoriuje. |
-| 527316 | Pareigų keitimai darbui, pareigoms ir darbuotojo pranešimams nesinchronizuojami. | Pareigų sąsjas buvo anksčiau įtrauktos į darbą, pareigas ir darbuotojo objektus. Sinchronizavimas su šiais susijusiais darbais sinchrozavimui žmogiškuosiuose ištekliuose į „Common Data Service“, bet neveikia pranešimams iš „Common Data Service“. Tai buvo pažymėta. |
+| 527316 | Pareigų keitimai darbui, pareigoms ir darbuotojo pranešimams nesinchronizuojami. | Pareigų sąsjas buvo anksčiau įtrauktos į darbą, pareigas ir darbuotojo objektus. Sinchronizavimas su šiais susijusiais darbais sinchrozavimui žmogiškuosiuose ištekliuose į „Dataverse“, bet neveikia pranešimams iš „Dataverse“. Tai buvo pažymėta. |
 | 512275 | Pašalinkite spalvos parinktis iš **Atostogų ir nebuvimo parametrai**. | Dabar spalvos yra nustatytos pagal atostogų tipą, spalvų parinktys nebėra reikalingos **Atostogų ir nebuvimo parametrams**, dėl to jos buvo panaikintos. |
 | 437112 | Neteisingas klaidos pranešimo tekstas darbuotojo padėties priskyrime. | Naujintas klaidos pranešimas darbuotojo samdymo metu ir bandymas priskirti darbuotoją pareigoms neveikia. Naujintas pranešimas **Nurodyta padėtis nebeveikia kaip darbuotojo pradžios data. Prašome patikrinti šių pareigų trukmę.** |
 | 527816 | Vykdymo triktys su **Nebuvimo** puslapiu. | Vykdymas buvo pagerintas pagal **Nebuvimą** puslapiu. |
@@ -92,3 +91,6 @@ Norėdami gauti visą planuojamų funkcijų ir jų suplanuotų leidimų sąraš�
 [„Dynamics 365 Human Resources“ 2020 m. leidimo 2 bangos apžvalga](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/)</br>
 [Atnaujinimo procesas](hr-admin-setup-update-process.md)</br>
 [Funkcijų valdymas](hr-admin-manage-features.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

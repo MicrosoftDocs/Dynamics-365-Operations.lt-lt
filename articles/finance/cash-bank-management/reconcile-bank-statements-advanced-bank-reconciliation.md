@@ -2,11 +2,9 @@
 title: Banko išrašų derinimas naudojant išplėstinį banko banko derinimą
 description: Pažangaus banko suderinimo funkcija suteikia galimybę importuoti elektroninius banko išrašus ir automatiškai juos suderinti su banko operacijomis programoje „Microsoft“ „Dynamics 365 Finance“. Šioje temoje paaiškinamas derinimo procesas.
 author: saraschi2
-manager: AnnBe
 ms.date: 06/22/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BankReconciliationWorksheet
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 92c04a47b134584280736f4d3d2fa401d2a2a9b7
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.openlocfilehash: fbfa999d2aaa4b6dad711bb57916a68fb37c57d9add09092783ad3a8d6450c1f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4969433"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6714453"
 ---
 # <a name="reconcile-bank-statements-by-using-advanced-bank-reconciliation"></a>Banko išrašų derinimas naudojant išplėstinį banko derinimą
 
@@ -30,8 +28,7 @@ ms.locfileid: "4969433"
 
 Pažangaus banko suderinimo funkcija suteikia galimybę importuoti elektroninius banko išrašus ir automatiškai juos suderinti su banko operacijomis programoje „Dynamics 365 Finance“. Šioje temoje paaiškinamas derinimo procesas.  
 
-<a name="import-an-electronic-bank-statement"></a>Elektroninio banko išrašo importavimas
------------------------------------
+## <a name="import-an-electronic-bank-statement"></a>Elektroninio banko išrašo importavimas
 
 Banko išrašai importuojami puslapyje **Banko išrašai** naudojant veiksmą **Importuoti išrašą**. Banko išraše banko sąskaita nurodoma naudojant reikšmių, nustatytų banko sąskaitos informacijoje, derinį. Šios reikšmės apima banko pavadinimą, banko sąskaitos numerį, banko kodą, Tarptautinės organizacijos, teikiančios finansinių pranešimų perdavimo paslaugas (SWIFT) kodą ir tarptautinį banko sąskaitos numerį (IBAN). 
 
@@ -95,3 +92,6 @@ Banko išrašo operacijos, kurių būseną derinimo darbalapyje pažymėjote kai
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

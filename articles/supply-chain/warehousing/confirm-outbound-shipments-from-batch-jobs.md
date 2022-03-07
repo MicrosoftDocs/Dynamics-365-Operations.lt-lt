@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-07-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: f68dcfc0c1454ee5b095e186c52faa6c83bf8dc6
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
-ms.translationtype: MT
+ms.openlocfilehash: 4af84383fe1d214849d5d05463bd0cbfad7d0536
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103920"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778478"
 ---
 # <a name="confirm-outbound-shipments-from-batch-jobs"></a>Patvirtinti siunčiamas siuntas naudojant paketines užduotis
 
@@ -25,9 +25,12 @@ ms.locfileid: "8103920"
 
 Ši tema aprašo, kaip nustatyti pakuotės užduotį, kuri automatiškai tvirtina išorės perdavimo užsakymo siuntimus paruoštiems siųsti kroviniams. Čia aprašyta pakuotės užduotis taikoma tik persiunčiamiems užsakymo siuntimams, o ne prekybos užsakymams.
 
-## <a name="turn-the-confirm-outbound-shipments-from-batch-jobs-feature-on-or-off"></a>Įjungti arba išjungti paketinių užduočių funkciją patvirtinti siunčiamas siuntas
+## <a name="enable-the-confirm-outbound-shipments-from-batch-jobs-feature"></a>Įjunkite išorės siuntimų patvirtinimą pakuotės užduočių funkcijai
 
-Norint naudotis šioje temoje aprašytomis funkcijomis, *sistemoje turi būti įjungta paketinių* užduočių patvirtinimo siuntų funkcija. Kaip ir tiekimo grandinės valdymo versija 10.0.21 ši funkcija įjungiama pagal numatytąjį nustatymą. Kaip ir tiekimo grandinės valdymas 10.0.25 ši funkcija yra privaloma ir jos išjungti negalima. Jei naudojate senesnę nei 10.0.25 versiją, *·*[tada administratoriai gali įjungti arba išjungti šią funkciją ieškodami siunčiamų siuntų patvirtinimo iš paketinių užduočių funkcijų funkcijų valdymo](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) darbo srityje.
+Kaip tiekimo grandinės valdymo versija 10.0.21, ši funkcija yra įjungta pagal numatytuosius nustatymus. Administratoriai gali naudoti [funkcijų valdymo](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) puslapį, kad patikrintų funkcijos būseną ir prireikus ją įjungtų arba išjungtų. Čia funkcija yra nurodyta kaip:
+
+- **Modulis** - *Sandėlio valdymas*
+- **Funkcijos pavadinimas** - *Išorės siuntimų patvirtinimas pakuotės užduočių funkcijai*
 
 ## <a name="process-outbound-shipments"></a>Apdoroti siunčiamas siuntas
 

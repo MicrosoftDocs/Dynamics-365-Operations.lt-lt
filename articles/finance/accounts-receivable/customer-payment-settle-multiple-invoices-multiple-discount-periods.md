@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6c86423c9e3453d8be11e6bdbc3484647e26e9eeec59c9a2e888cc5a2b2b5592
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e68ef15fed1841bcbf006929f3c6441d62798fc8
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6769064"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5819919"
 ---
 # <a name="use-one-payment-to-settle-invoices-that-span-multiple-discount-periods"></a>Naudokite vieną mokėjimą, kad sudarytumėte sąskaitas, kuriose yra keli skirtingi nuolaidų laikotarpiai
 
@@ -66,7 +66,7 @@ Jei Arnas sukuria mokėjimų žurnalą, kad visiškai sudengtų šias sąskaitas
 | Pasirinkta ir paryškinta | Įprastas            | LFSF-10042 | 4032    | 2015-06-25 | 2015-07-25 | 10042   | 1000,00                             |                                       | USD      | 990,00           |
 
 ## <a name="partial-settlement-on-june-29"></a>Dalinis sudengimas birželio 29 d.
-4032 klientas gali sumokėti dalinę sumą, pvz., pusę kiekvienos sąskaitos faktūros. Arnas sukuria 4032 kliento mokėjimą, tada atsidaro puslapį **Sudengti operacijas**. Puslapyje **Sudengti operacijas** Arnas pažymi visas tris sudengtinas sąskaitos faktūros eilutes. Kiekvienoje eilutėje Arnas įveda sudengtiną sumą pagal kliento pateiktas instrukcijas. Kai Arnas pasirenka eilutę, Arnas mato tos eilutės nuolaidos sumą ir pritaikytos mokėjimo nuolaidos sumą. Kadangi klientas moka už pusę sąskaitos faktūros, Arnas mato, kad LFSF-10042 lauko **Mokėjimo nuolaidos suma** vertė yra **20,00**, bet vertė lauke **Pritaikyta mokėjimo nuolaida** yra **10,00**. Mokėjimo suma yra 1485,00.
+4032 klientas gali sumokėti dalinę sumą, pvz., pusę kiekvienos sąskaitos faktūros. Arnas sukuria 4032 kliento mokėjimą, tada atsidaro puslapį **Sudengti operacijas**. Puslapyje **Sudengti operacijas** Arnas pažymi visas tris sudengtinas sąskaitos faktūros eilutes. Kiekvienoje eilutėje jis įveda sudengtiną sumą pagal kliento pateiktas instrukcijas. Kai Arnas pasirenka eilutę, jis mato tos eilutės nuolaidos sumą ir pritaikytos mokėjimo nuolaidos sumą. Kadangi klientas moka už pusę sąskaitos faktūros, Arnas mato, kad LFSF-10042 lauko **Mokėjimo nuolaidos suma** vertė yra **20,00**, bet vertė lauke **Pritaikyta mokėjimo nuolaida** yra **10,00**. Mokėjimo suma yra 1485,00.
 
 | Žymėti                     | Naudokite mokėjimo nuolaidą | Kvitas   | Paskyra | Data      | Terminas  | PVM sąskaita faktūra | Operacijos valiutos debeto suma | Operacijos valiutos kredito suma | Valiuta | Sudengtina suma |
 |--------------------------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------------|---------------------------------------|----------|------------------|
@@ -74,11 +74,11 @@ Jei Arnas sukuria mokėjimų žurnalą, kad visiškai sudengtų šias sąskaitas
 | Pasirinkta                 | Įprastas            | LFSF-10041 | 4032    | 2015-06-25 | 2015-07-25 | 10041   | 1000,00                             |                                       | USD      | 495,00           |
 | Pasirinkta ir paryškinta | Įprastas            | LFSF-10042 | 4032    | 2015-06-25 | 2015-07-25 | 10042   | 1000,00                             |                                       | USD      | 490,00           |
 
-Arnas taip pat gali rankiniu būdu įvesti mokėjimo sumą 1 485,00 prieš atidarydamas puslapį **Sudengti operacijas**. Jei Arnas rankiniu būdu įveda mokėjimo sumą ir tada pažymi visas tris operacijas, bet nepakoreguoja kiekvienos operacijos lauko **Sudengtina suma** vertės, uždarius puslapį pateikiamas tolesnis pranešimas:
+Arnas taip pat gali rankiniu būdu įvesti mokėjimo sumą 1 485,00 prieš atidarydamas puslapį **Sudengti operacijas**. Jei Arnas rankiniu būdu įveda mokėjimo sumą ir tada pažymi visas tris operacijas, bet nepakoreguoja kiekvienos operacijos lauko **Sudengtina suma** vertės, uždarius puslapį pateikiamas tolesnis pranešimas.
 
 > Pažymėtų operacijų bendra suma skiriasi nuo žurnalo sumos. Ar pakeisti žurnalo sumą?
 
-Jei Arnas nori, kad mokėjimo suma būtų tik 1485,00, Arnas spustelėja **Ne** ir tada registruoja žurnalą. Operacijos sudengiamos tokiu būdu:
+Jei Arnas nori, kad mokėjimo suma būtų tik 1485,00, jis spustelėja **Ne** ir tada registruoja žurnalą. Operacijos sudengiamos tokiu būdu:
 
 1.  Sąskaitos faktūros LFSF-10040 suma 1000,00 yra visiškai sudengiama, nes ji buvo įvesta gegužės 15 d. ir yra seniausia sąskaita faktūra. Mokėjimo nuolaida nepritaikyta. Likusi mokėjimo operacijos suma yra 485,00.
 2.  Sąskaita faktūra LFSF-10041 visiškai nesudengiama. Sąskaitos faktūros LFSF-10041 ir LFSF-10042 buvo įvestos tą pačią dieną. Tačiau sąskaitai faktūrai LFSF-10041 galima pritaikyti 1 procento nuolaidą, o sąskaitai faktūrai LFSF-10042 – 2 procentų nuolaidą. Kadangi didesnę nuolaidą galima pritaikyti sąskaitai faktūrai LFSF-10042, likusi 485,00 suma sudengia sąskaitą faktūrą LFSF-10042.

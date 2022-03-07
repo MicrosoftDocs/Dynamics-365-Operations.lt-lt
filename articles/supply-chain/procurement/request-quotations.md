@@ -1,28 +1,28 @@
 ---
 title: Pasiūlymų patvirtinimų (RFQ) apžvalga
 description: Šioje temoje pateikiama pasiūlymų patvirtinimų (RFQ) apžvalga. Organizacijos išduoda RFQ, kai nori pirkti prekes arba paslaugas ir gauti konkurencingų pasiūlymų iš kelių tiekėjų.
-author: RichardLuan
-manager: tfehr
+author: Henrikan
 ms.date: 10/05/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchRFQCaseTable, PurchRFQCaseTableListPage, PurchRFQCompare, PurchRFQReplyTable, PurchRFQVendReplyTableListPage, BOMExpandPurchRFQ, PurchRFQReplyFollowupItem, PurchRFQCaseVend, PurchRFQReplyFollowup, PurchRFQCaseAmendmentInfo, PurchRFQReplyFollowupCase, PurchRFQReplyStatus, PurchRFQCaseReplyFields, PurchRFQAddQuestionnaire, PurchRFQAmendmentWizard, PurchRFQReplyTableStatus, PurchRFQReplyTableListPage, PurchRFQCancelWizard
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: 2154
+ms.custom:
+- "2154"
+- intro-internal
 ms.assetid: 3936996e-d943-46ca-8385-84c042990f1d
 ms.search.region: Global
-ms.author: riluan
+ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5b3338e1837496605ce94a54eb57a32b1b83145b
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 9965e906bdbbf93cdced66b8b39b85a47c62b080
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5016936"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7569486"
 ---
 # <a name="requests-for-quotation-rfqs-overview"></a>Pasiūlymų patvirtinimų (RFQ) apžvalga
 
@@ -39,13 +39,13 @@ RFQ procesą sudaro toliau pateiktos užduotys.
 
 Toliau esančiame paveikslėlyje pateikiama RFQ proceso apžvalga.
 
-[![RFQ procesas](./media/rfq-process-458x1024.jpg)](./media/rfq-process.jpg)
+[![RFQ procesas.](./media/rfq-process-458x1024.jpg)](./media/rfq-process.jpg)
 
 Galite kurti RFQ atvejį iš suplanuotų užsakymų, pirkimo paraiškos arba įvesti neautomatiniu būdu. RFQ atvejis yra pagrindinis dokumentas, naudojamas išduodant RFQ kiekvienam tiekėjui.
 
 Paruošę RFQ atvejį ir įtraukę tiekėjų, RFQ atvejyje pasirinkite **Siųsti** (viešajame sektoriuje – **Siųsti ir publikuoti**). Generuojamas kiekvieno tiekėjo, kuriam siunčiate RFQ, RFQ žurnalas. Galite konfigūruoti siuntimo veiksmo spausdinimo parinktis, kad kiekvieno tiekėjo ataskaita būtų spausdinama arba siunčiama kiekvieno tiekėjo el. pašto adresu. Be to, naudojant kiekvieno tiekėjo RFQ žurnalą galima generuoti ataskaitą, kurią galima siųsti arba pakartotinai siųsti tiekėjui vėliau. Taip pat galite konfigūruoti siuntimo veiksmą, kad būtų sugeneruotas atsakymo lapas, kurį tiekėjas gali užpildyti.
 
-Šioje temoje aprašomas RFQ tvarkymo procesas, kai nenaudojamas tiekėjo bendradarbiavimas. Jei jūsų sistemoje nustatytas tiekėjų bendradarbiavimas, tiekėjai gali įvesti kainos siūlymus tiesiai į Tiekimo grandinės valdymą. Daugiau informacijos apie tiekėjo bendradarbiavimą žr. puslapiuose [Tiekėjo bendradarbiavimas su klientais](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations) ir [Tiekėjo bendradarbiavimas su išoriniais tiekėjais](vendor-collaboration-work-external-vendors.md).
+Šioje temoje aprašomas RFQ tvarkymo procesas, kai nenaudojamas tiekėjo bendradarbiavimas. Jei jūsų sistemoje nustatytas tiekėjų bendradarbiavimas, tiekėjai gali įvesti kainos siūlymus tiesiai į „Supply Chain Management”. Daugiau informacijos apie tiekėjo bendradarbiavimą žr. puslapiuose [Tiekėjo bendradarbiavimas su klientais](/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations) ir [Tiekėjo bendradarbiavimas su išoriniais tiekėjais](vendor-collaboration-work-external-vendors.md).
 
 Jei reikia pakeisti išsiųstą RFQ, baigę galite pakartotinai išsiųsti RFQ tiekėjams naudodami du keitimo veiksmus: kurti ir baigti.
 
@@ -80,21 +80,21 @@ Pasirinkite tiekėjui siunčiamo el. pašto pranešimo šabloną puslapyje **Par
 - %Kainos pasiūlymo grąžinimo priežastis%
 - %Pakeitimo priežastis%
 - %Pakeitimą parengė%
-- %Įmonė%
+- „%Company%“
 - %RFQ atvejo pavadinimas%
 - %Galiojimo pabaigos data ir laikas%
-- %Date%
+- „%Date%“
 
-Atpažinimo ženklus %Kainos pasiūlymo grąžinimo priežastis% ir %Pakeitimo priežastis% įsigijimo specialistas pakeičia tekstu, kurį gali įvesti atlikęs šiuos pakeitimus naudodamas vedlį **Pakeitimas**. Atpažinimo ženklų %Pakeitimą parengė% ir %Įmonė% vertės automatiškai paimamos iš RFQ. Atpažinimo ženklas %Date% pakeičiamas esama data.
+Atpažinimo ženklus %Kainos pasiūlymo grąžinimo priežastis% ir %Pakeitimo priežastis% įsigijimo specialistas pakeičia tekstu, kurį gali įvesti užbaigęs šiuos pakeitimus vedlyje **Pakeitimas**. Atpažinimo ženklų %Amendment prepared by% ir %Company% vertės automatiškai paimamos iš RFQ. Atpažinimo ženklas %Date% pakeičiamas esama data.
 
 Jei norite atšaukti RFQ po to, kai jis buvo išsiųstas, tai galite atlikti iš RFQ atvejo. Norint atšaukti, atšaukimo pranešimui nusiųsti tiekėjo kontaktiniams asmenims turi būti naudojamas el. laiško šablonas. Šabloną reikia pasirinkti puslapyje **Paraiškų parametrai**. Kai sukuriamas šablonas, jame gali būti toliau nurodytų pakeitimo atpažinimo ženklų.
 
 - %Nutraukimo priežastis%
 - %RFQ atvejis%
 - %RFQ nutraukta%
-- %Įmonė%
+- „%Company%“
 - %RFQ atvejo pavadinimas%
-- %Date%
+- „%Date%“
 
 Atpažinimo ženklas %Reason for cancellation% pakeičiamas tekstu, kurį įsigijimo specialistas gali įvesti vedlyje **Atšaukimas**. Atpažinimo ženklas %Date% pakeičiamas esama data.
 
@@ -115,7 +115,7 @@ Pirkimo vadovas arba agentas gali kurti ir tvarkyti siūlymų tipus, kad atitikt
 Galite nurodyti tam tikrus tipus informacijos, kurią norite gauti iš tiekėjų, kai jie atsakys (siūlys kainą) į pasiūlymo patvirtinimą (RFQ). Laukai, kurie pažymėti kaip numatytieji, yra įtraukti į elektroninę formą, skirtą bendradarbiavimui su tiekėju. Norėdami konfigūruoti parametrus:
 
 1. Jei to dar nepadarėte, naudokite [funkcijų valdymo](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) puslapį, kad suaktyvintumėte funkciją *Pasirinkti RFQ laukus, įtraukiamus į tiekėjo RFQ atsakymo formas*.
-1. Eikite į **Įsigijimas ir šaltinio pasirinkimas > Sąranka > Įsigijimo ir šaltino paasirinkimo parametrai**.
+1. Eikite į **Įsigijimas ir šaltinio pasirinkimas > Sąranka > Įsigijimo ir šaltino pasirinkimo parametrai**.
 1. Atidarykite skirtuką **Pasiūlymo patvirtinimas**.
 1. Pasirinkite **Numatytieji pasiūlymo patvirtinimai** atsakymo laukų nuorodą po antrašte **Nustatyti numatytąsias pasiūlymų patvirtinimo vertes**.
 1. Atidaromas dialogo langas **Numatytieji pasiūlymo patvirtinimo atsakymo laukai**.
@@ -167,7 +167,7 @@ Jei sukonfigūruojate mažiau ribojamą pakeitimo procesą, prieš keisdami jau 
 
 Jei sukonfigūruosite mažiau ribojamą pakeitimo procesą, neturite pasirinkti **Kurti** prieš keisdami jau išsiųsto RFQ atvejo laukus. Tačiau turite patys į RFQ atvejį įtraukti pakeitimo pastabą ir pakartotinai išsiųsti atvejį. Turėkite omenyje, kad šį metodą galima naudoti tik jei nė vienas atsakymas (kainos siūlymas) nebuvo redaguotas. Jei įvedėte atsakymą ir jo būsena yra **Gauta**, mygtuko **Siųsti** naudoti negalima. Tokiu atveju turite pasirinkti **Kurti** ir **Baigti**, kaip turite daryti vykdydami labiau apribotą procesą. Tada atsakymas nustatomas iš naujo, kad atspindėtų RFQ atvejo keitimus.
 
-Jei tiekėjai naudoja tiekėjo bendradarbiavimo sąsają pasiūlymams įvesti, visada turite naudoti pakeitimo procesą, kad praneštumėte tiekėjams apie RFQ atvejo keitimus. Šis procesas padeda išvengti atvejų, kai tiekėjai teikia kainos siūlymus naudodami pasenusį RFQ atvejį, kol jų kainos siūlymas vis dar tvarkomas. Daugiau informacijos apie tiekėjo bendradarbiavimą žr. puslapyje [Tiekėjo bendradarbiavimas su išoriniais tiekėjais](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-external-vendors).
+Jei tiekėjai naudoja tiekėjo bendradarbiavimo sąsają pasiūlymams įvesti, visada turite naudoti pakeitimo procesą, kad praneštumėte tiekėjams apie RFQ atvejo keitimus. Šis procesas padeda išvengti atvejų, kai tiekėjai teikia kainos siūlymus naudodami pasenusį RFQ atvejį, kol jų kainos siūlymas vis dar tvarkomas. Daugiau informacijos apie tiekėjo bendradarbiavimą žr. puslapyje [Tiekėjo bendradarbiavimas su išoriniais tiekėjais](/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-external-vendors).
 
 Jei norite pakviesti papildomus tiekėjus siūlyti kainą ir nebuvo atlikta jokių RFQ atvejo keitimų, galite naudoti mygtuką **Siųsti**. Įtraukti tiekėjai bus rodomi puslapyje **Siųsti** ir gaus kvietimą el. paštu.
 
@@ -246,3 +246,6 @@ Tolesniame pavyzdyje galite matyti RFQ atvejo aukščiausią ir žemiausią būs
 | Priimti vieną pasiūlymų. (arba bent vieną eilutę) |                          Gauta                           |                           Priimta                           |                    Gauta                    |                    Priimta                     |                   Gauta                   |                   Priimta                    |
 |           Atmeskite visus kitus kainos siūlymus.           |                          Atmestas                           |                           Priimta                           |                    Atmestas                    |                    Priimta                     |                   Atmestas                   |                   Priimta                    |
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

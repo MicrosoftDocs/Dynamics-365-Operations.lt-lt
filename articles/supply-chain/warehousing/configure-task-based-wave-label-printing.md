@@ -1,22 +1,22 @@
 ---
 title: Planuoti bangos žymos spausdinimą bangos vykdymo metu
 description: Šioje temoje aprašoma, kaip nustatyti ir naudoti funkcijas, skirtas užduotimi pagrįstam bangos žymų spausdinimui.
-author: perlynne
+author: MSFTGarm
 ms.date: 06/09/2021
 ms.topic: article
 ms.search.form: WHSPostMethod, WHSWavePostMethodTaskConfig, WHSWaveTemplateTable, WHSParameters, WHSWaveTableListPage, WHSWorkTableListPage, WHSWorkTable, BatchJobEnhanced, WHSPlannedWorkOrder
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: perlynne
+ms.author: v-obaranov
 ms.search.validFrom: 2021-06-09
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 1323538765308ec3dd366456e31f5e08b08ce5ab
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
-ms.translationtype: MT
+ms.openlocfilehash: 652e6fb3f586fc873ffabf2c741e5c99216931461f159a42f08f9922e756280f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920154"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6735901"
 ---
 # <a name="schedule-wave-label-printing-during-wave"></a>Planuoti bangos žymos spausdinimą bangos vykdymo metu
 
@@ -33,14 +33,14 @@ Kai naudojate *Užduotimi pagrįstos bangos žymų spausdinimo* funkciją, siste
 Norėdami naudoti funkcijas, aprašytas šioje temoje, jos turi būti įjungtos jūsų sistemai. Naudokite darbo sritį [Funkcijų valdymas](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), kad įjungtumėte funkcijas pateikta tvarka:
 
 1. *Bangos žymų spausdinimas* – ši funkcija būtina norint įgalinti bangos procesų metodą bangos žymų spausdinimui.
-1. *Visos organizacijos darbo blokavimas* – ši funkcija reikalingas tiek rankiniam, tiek automatiniam suplanuoto darbo kūrimo konfigūravimui. (Kaip ir tiekimo grandinės valdymo versija 10.0.21, ši funkcija yra privaloma, todėl ji įjungta pagal numatytuosius nustatymus ir jos negalima išjungti dar kartą.)
+1. *Visos organizacijos darbo blokavimas* – ši funkcija reikalingas tiek rankiniam, tiek automatiniam suplanuoto darbo kūrimo konfigūravimui.
 1. *Užduotimi pagrįstas bangos žymos spausdinimas* – ši funkcija reikalinga norint bangos žymos spausdinimą padalyti į atskirą operacijos aprėptį.
 
 ## <a name="manually-enable-the-new-wave-step-method"></a>Naujos bangos veiksmo metodo įgalinimas rankiniu būdu
 
 Pirmiausia turite sukurti naują bangos veiksmo metodą ir įgalinti jį lygiagrečiam asinchroniniam užduoties apdorojimui.
 
-1. Eikite į **Sandėlio tvarkymas \> Sąranka \> Bangos \> Bangos apdorojimo metodai**.
+1. Eikite į **Sandėlio valdymas \>Sąranka \> Bangos \> Bangos apdorojimo metodai**.
 1. Veiksmų srityje pasirinkite **Pakartotinai generuoti metodą**. Atkreipkite dėmesį, kad *„waveLabelPrinting”* yra įtrauktas į bangos proceso metodų, kuriuos galite naudoti savo siuntimo bangos šablonuose, sąrašą.
 1. Pasirinkite įrašą, kuriame laukas **Metodo pavadinimas** yra nustatytas į *„waveLabelPrinting”*, o tada veiksmų srityje pasirinkite **Užduoties konfigūracija**.
 1. Veiksmų srityje pasirinkite **Nauja**, kad pridėtumėte eilutę į tinklelį. Tada nustatykite šiuos laukus naujai eilutei:
@@ -51,7 +51,7 @@ Pirmiausia turite sukurti naują bangos veiksmo metodą ir įgalinti jį lygiagr
 
 Dabar galite atnaujinti esamą bangos šabloną taip, kad jis naudotų *Bangos žymos spausdinimo* bangos apdorojimo metodą. Taip pat, galite sukurti naują bangos šabloną, kuris naudoja tą metodą.
 
-1. Eikite į **Sandėlio valdymas \> Nustatymas \> Bangos \> Bangų šablonai**.
+1. Eikite į  **Sandėlio valdymas\>Nustatymas \> Bangos \> Bangų šablonai**.
 1. Veiksmų srityje pasirinkite **Redaguoti**.
 1. Sąrašo srityje pasirinkite bangos šabloną atnaujinimui. (Jei tikrinimo tikslais naudojate demonstracinius duomenis, galite pasirinkti *Numatytasis 24 siuntimas*. )
 1. „FastTab” **Metodai** stulpelyje **Likę metodai** pasirinkite eilutę, kurioje laukas **Pavadinimas** nustatytas į *„waveLabelPrinting”*.

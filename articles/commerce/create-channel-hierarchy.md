@@ -2,36 +2,33 @@
 title: Kanalo naršymo hierarchijos kūrimas
 description: Šioje temoje aprašoma, kaip „Microsoft Dynamics 365 Commerce“ sukurti kanalo naršymo hierarchiją.
 author: samjarawan
-manager: annbe
-ms.date: 01/27/2020
+ms.date: 04/27/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: e83860667f142adcc85cd8542d521e18f16dbc2c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: d522838bdddf6cda6d7e451b27183f733e3de53df865d49cdadf846cf99cc953
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4414243"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6749960"
 ---
-# <a name="create-a-channel-navigation-hierarchy"></a>Kanalo naršymo hierarchijos kūrimas
+# <a name="create-a-channel-navigation-hierarchy"></a>Kanalų naršymo hierarchijos kūrimas
 
 
 [!include [banner](includes/banner.md)]
 
 Šioje temoje aprašoma, kaip „Microsoft Dynamics 365 Commerce“ sukurti kanalo naršymo hierarchiją.
 
-## <a name="overview"></a>Peržiūrėti
+## <a name="overview"></a>Peržiūra
 
 Kanalo naršymo hierarchija naudojama, norint grupuoti ir skirstyti produktus į kategorijas, kad produktus būtų galima naršyti internete arba elektroniniame kasos aparate (EKA).
 
@@ -52,7 +49,7 @@ Norėdami sukurti kanalo naršymo hierarchiją, atlikite tolesnius veiksmus.
 
 Toliau pateiktame vaizde parodytas šakninio mazgo pavyzdys.
 
-![Šakninio mazgo pavyzdys](media/create-channel-hierarchy-1.png)
+![Šakninio mazgo pavyzdys.](media/create-channel-hierarchy-1.png)
 
 ## <a name="create-navigation-category-nodes"></a>Naršymo kategorijos mazgų kūrimas
 
@@ -68,7 +65,7 @@ Norėdami sukurti papildomų naršymo kategorijos mazgų, nurodančių kanalo pr
 
 Toliau pateiktame vaizde parodytas baigtos kanalo naršymo hierarchijos pavyzdys.
 
-![Kanalo hierarchijos pavyzdys](media/create-channel-hierarchy-2.png)
+![Kanalo hierarchijos pavyzdys.](media/create-channel-hierarchy-2.png)
 
 ## <a name="add-products-to-category-nodes"></a>Produktų įtraukimas į kategorijų mazgus
 
@@ -80,11 +77,11 @@ Norėdami įtraukti produktus į kategorijų mazgus, atlikite tolesnius veiksmus
 1. Veiksmų srityje pasirinkite **Įrašyti**.
 
 > [!NOTE]
-> Įtraukti produktus į mazgą kanalo naršymo hierarchijoje nepakanka, kad produktai būtų rodomi pasirinktame kanale, produktus taip pat reikia pateikti pagal produktą.
+> Įtraukti produktus į mazgą kanalo naršymo hierarchijoje nepakanka, kad produktai būtų rodomi pasirinktame kanale, produktus taip pat reikia pateikti pagal produktą. Daugiau informacijos apie asortimentus ieškokite [asortimento](assortments.md) valdymas.
 
 Toliau pateiktame vaizde parodytas mazgo pavyzdys su įtrauktais produktais.
 
-![Produktai, įtraukti į kategorijos mazgą](media/create-channel-hierarchy-3.png)
+![Produktai, įtraukti į kategorijos mazgą.](media/create-channel-hierarchy-3.png)
 
 ## <a name="add-product-attribute-groups-to-category-nodes"></a>Produktų atributų grupių įtraukimas į kategorijų mazgus
 
@@ -100,10 +97,13 @@ Norėdami įtraukti produkto atributo grupę į kategorijos mazgą, atlikite tol
 
 Toliau pateiktame vaizde parodytas mazgo pavyzdys su įtrauktomis produktų atributų grupėmis.
 
-![Produktų atributų grupės mazge](media/create-channel-hierarchy-4.png)
+![Produktų atributų grupės mazge.](media/create-channel-hierarchy-4.png)
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Asortimentų nustatymas](set-up-assortments.md)
 
 [Atributų ir atributų grupių tvarkymas](attribute-attributegroups-lifecycle.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

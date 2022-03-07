@@ -2,27 +2,24 @@
 title: PVM ataskaitos Europoje
 description: Šioje temoje pateikiama bendra informacija apie pridėtinės vertės mokesčio (PVM) išrašo, skirto kai kurioms Europos šalims, nustatymą ir generavimą.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxAuthority, TaxReportCollection, TaxTable
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 266844
 ms.search.region: Austria, Belgium, Czech Republic, Estonia, Finland, Germany, Latvia, Lithuania, Netherlands, Sweden
 ms.author: kfend
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 65ea2f40171a470cab0550aecff07567be4aaa78
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: b028c5a185b4e7626dd9258630cc469c4439fc37d1c9d1cd7d42007b0ec85736
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408214"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6741490"
 ---
 # <a name="vat-reporting-for-europe"></a>PVM ataskaitos Europoje
 
@@ -40,7 +37,7 @@ ms.locfileid: "4408214"
 -   Vokietija
 -   Latvija
 -   Lietuva
--   Olandija
+-   Nyderlandai
 -   Švedija
 
 ## <a name="vat-statement-overview"></a>PVM išrašo apžvalga
@@ -48,7 +45,7 @@ PVM išrašas pagrįstas PVM operacijų sumomis. PVM išrašo generavimo procesa
 
 Reikia nustatyti kiekvieno PVM ataskaitų kodo konkretų ataskaitos maketą. Tuo pat metu PVM kodai yra susiejami su konkrečiu PVM rinkėju per PVM sudengimo laikotarpius. Reikia nustatyti kiekvieno PVM rinkėjo ataskaitos maketą. Todėl PVM kodo ataskaitos sąrankoje galima pasirinkti tik PVM ataskaitų kodus su tuo pačiu ataskaitos maketu, kuris nustatytas ir priskirtas PVM rinkėjui PVM kodo PVM sudengimo laikotarpiuose. PVM operacija, sugeneruota užregistravus užsakymą arba žurnalą, apima PVM kodą, PVM šaltinį, PVM kryptį ir operacijos sumas (mokesčio bazinę sumą ir mokesčio sumą apskaitos valiuta, PVM valiuta ir operacijos valiuta). Atsižvelgiant į mokesčio operacijos atributų derinį, operacijos sumos sudaro bendras PVM kodų nurodytų PVM ataskaitų kodų sumas. Tolesnėje iliustracijoje pavaizduotas duomenų ryšys.
 
-![diagrama](./media/diagram4.jpg)
+![diagrama.](./media/diagram4.jpg)
 
 ## <a name="vat-statement-setup"></a>PVM išrašo sąranka
 Norėdami generuoti PVM išrašą, turite atlikti tolesnius veiksmus.
@@ -65,7 +62,7 @@ PVM ataskaitų kodai yra langelių kodai PVM išraše arba žymių pavadinimai X
 
 ### <a name="sales-tax-codes-for-vat-reporting"></a>PVM kodai, skirti PVM ataskaitos teikti
 
-<!---For general information about setting up sales tax codes, see [Set up sales tax codes](../general-ledger/tasks/set-up-sales-tax-codes.md).-->  PVM operacijų bazines sumas ir mokesčių sumas galima sujungti PVM išrašo ataskaitų koduose (XML žymės arba deklaracijos langeliai). Tai galima nustatyti puslapyje <strong>PVM kodai</strong> susiejant PVM kodų skirtingų operacijų tipų PVM ataskaitų kodus. Toliau pateikiamoje lentelėje aprašomi PVM kodų ataskaitų sąrankos operacijų tipai. Skaičiuojant įtraukiamos visų šaltinių tipų, išskyrus PVM, operacijos.
+<!---For general information about setting up sales tax codes, see [Set up sales tax codes](../general-ledger/tasks/set-up-sales-tax-codes.md).--> PVM operacijų bazines sumas ir mokesčių sumas galima sujungti PVM išrašo ataskaitų koduose (XML žymės arba deklaracijos langeliai). Tai galima nustatyti puslapyje <strong>PVM kodai</strong> susiejant PVM kodų skirtingų operacijų tipų PVM ataskaitų kodus. Toliau pateikiamoje lentelėje aprašomi PVM kodų ataskaitų sąrankos operacijų tipai. Skaičiuojant įtraukiamos visų šaltinių tipų, išskyrus PVM, operacijos.
 
 <table>
 <colgroup>
@@ -251,9 +248,9 @@ d<li>Operacijos <strong>Mokesčio bazinė suma</strong> arba <strong>Mokesčio s
 
 Galite naudoti elektronines ataskaitas (ER), kad sukonfigūruotumėte išrašus ir ataskaitas bei eksportuotumėte duomenis skirtingais elektroniniais formatais nekeisdami X++ kodo. Papildoma informacija:
 
--   [Elektroninių ataskaitų apžvalga](../../dev-itpro/analytics/general-electronic-reporting.md)
--   [Elektroninių ataskaitų konfigūracijų atsisiuntimas iš „Lifecycle Services“](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)
--   [Lokalizavimo reikalavimai – GER konfigūracijos kūrimas](../../dev-itpro/analytics/electronic-reporting-configuration.md)
+-   [Elektroninių ataskaitų apžvalga](../../fin-ops-core/dev-itpro/analytics/general-electronic-reporting.md)
+-   [Elektroninių ataskaitų konfigūracijų atsisiuntimas iš „Lifecycle Services“](../../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)
+-   [Lokalizavimo reikalavimai – GER konfigūracijos kūrimas](../../fin-ops-core/dev-itpro/analytics/electronic-reporting-configuration.md)
 
 ## <a name="countryspecific-resources-for-vat-statements"></a>PVM išrašų konkrečiai šaliai būdingi ištekliai
 Kiekvienos šalies PVM išrašas turi atitikti šalies teisės reikalavimus. Toliau pateiktoje lentelėje nurodytoms šalims priskiriami PVM išrašų iš anksto nustatyti bendrieji modeliai ir formatai.
@@ -270,10 +267,13 @@ Kiekvienos šalies PVM išrašas turi atitikti šalies teisės reikalavimus. Tol
 | Italija          | [Išsami informacija apie Italijos PVM išrašus](emea-ita-vat-statements-details.md)            |
 | Latvija         | [PVM išrašo informacija, skirta Latvijai](emea-lva-vat-statement-details.md)           |
 | Lietuva      | [PVM išrašo informacija, skirta Lietuvai](emea-ltu-vat-statement-details.md)         |
-| Olandija    | [PVM deklaracija (Nyderlandai)](emea-nl-vat-declaration.md)           |
+| Nyderlandai    | [PVM deklaracija (Nyderlandai)](emea-nl-vat-declaration.md)           |
 | Švedija         | [PVM ataskaita (Švedija)](emea-swe-sales-tax-payment-report-sweden.md)          |
 
 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

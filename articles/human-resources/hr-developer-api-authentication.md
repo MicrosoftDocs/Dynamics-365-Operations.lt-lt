@@ -2,11 +2,9 @@
 title: Autentifikavimas
 description: Šiame straipsnyje pateikiama peržiūros informacija apie tai, kaip autentifikuoti „Microsoft Dynamics 365 Human Resources“ duomenų taikomojo programavimo sąsają (API).
 author: andreabichsel
-manager: AnnBe
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -18,14 +16,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a0509ce99205d49d516e180203ffb65a1dc09a7c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 3dffe1db98ba39fde2229e69bc70bdbf113ff6ad
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419652"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5793686"
 ---
 # <a name="authentication"></a>Autentifikavimas
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Šiame straipsnyje pateikiama peržiūros informacija apie tai, kaip autentifikuoti „Microsoft Dynamics 365 Human Resources“ duomenų taikomojo programavimo sąsają (API).
 
@@ -185,3 +185,6 @@ namespace TalentODataPoC
 ```
 
 Nuskaitę prieigos atpažinimo ženklą, perduosite šį ženklą autorizavimo antraštėje kaip pateikėjo atpažinimo ženklą kartu su kiekviena užklausa, kurią siunčiate duomenų API, kaip aprašyta anksčiau.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

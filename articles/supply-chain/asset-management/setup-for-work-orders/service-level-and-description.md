@@ -1,12 +1,10 @@
 ---
 title: Aptarnavimo lygis ir aprašas
 description: Šioje temoje paaiškintas aptarnavimo lygis ir aprašas modulyje Turto valdymas.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/13/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetObjectServiceLevel, EntAssetWorkOrderStandardDescription, EntAssetWorkOrderServiceLevel, EntAssetServiceLevelLookup
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 8bb56e5103bd9e18e88c164cd308e55d48e64823
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: d50955d510dca21c3de160fd280ff53ba54926a5
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5019384"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356469"
 ---
 # <a name="service-level-and-description"></a>Aptarnavimo lygis ir aprašas
 
@@ -47,7 +45,7 @@ Sukūrę darbo užsakymą galbūt norėsite nustatyti darbo užsakymo aptarnavim
 8. Jei be darbo užsakymo pabaigos datos norite nustatyti jo pabaigos laiką, nustatykite parinkties **Nustatyti pabaigos laiką** nuostatą **Taip**. Tada lauke **Pabaigos laikas** įveskite pabaigos laiką. Jei nustatysite parinkties nuostatą **Ne**, bus naudojamas dabartinis dienos laikas.
 9. Pasirinkite **Įrašyti**.
 
-![Darbo užsakymų paslaugos lygio puslapis](media/19-setup-for-work-orders.png)
+![Darbo užsakymų paslaugos lygio puslapis.](media/19-setup-for-work-orders.png)
 
 ## <a name="create-a-description"></a>Aprašo kūrimas
 
@@ -55,3 +53,6 @@ Sukūrę darbo užsakymą galbūt norėsite nustatyti darbo užsakymo aptarnavim
 2. Pasirinkite **Naujas**.
 3. Lauke **Aprašas** įveskite aprašą.
 4. Pasirinkite **Įrašyti**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

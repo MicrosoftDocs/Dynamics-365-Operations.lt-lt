@@ -2,11 +2,9 @@
 title: Darbo eigos patvirtinimo procesų konfigūravimas
 description: Naudokite šią procedūrą, norėdami konfigūruoti patvirtinimo proceso ypatybes.
 author: ChrisGarty
-manager: AnnBe
 ms.date: 01/24/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a7dc365bc2a317b67235f1ad01a4157089e0079d
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: 998ee15d828feefb0a9691138ae8001331283d5b866386500f5cf5de48291b43
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4798934"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6756326"
 ---
 # <a name="configure-approval-processes-in-a-workflow"></a>Darbo eigos patvirtinimo procesų konfigūravimas
 
@@ -183,3 +181,6 @@ Patvirtinimo procesą sudaro patvirtinimo veiksmai. Atlikite šią procedūrą, 
 1. Darbo eigos rengyklėje dukart spustelėkite patvirtinimo procesą. Darbo eigos rengyklėje rodomi patvirtinimo proceso veiksmai.
 2. Norėdami įtraukti patvirtinimo veiksmą, vilkite veiksmą iš srities **Darbo eigos elementai** į drobę.
 3. Norėdami konfigūruoti patvirtinimo veiksmą, žr. [Patvirtinimo veiksmų konfigūravimas darbo eigoje](configure-approval-step-workflow.md).
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

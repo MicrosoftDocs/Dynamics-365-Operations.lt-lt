@@ -1,7 +1,7 @@
 ---
 title: Atsargų žymių inventorizacija
 description: Šioje temoje pateikiama informacija apie žymių skaičiavimą, kurį naudojate norėdami palyginti faktinį sandėlio turinį su turimomis atsargomis.
-author: yufeihuang
+author: MarkusFogelberg
 ms.date: 06/10/2019
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 11594
 ms.assetid: 03772d0e-5c37-454c-ab85-82bc8b60a76d
 ms.search.region: Global
-ms.author: yufeihuang
+ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 64315b8c5f0be1dbd19239a8b07746e90aebb0d4
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 1df4a97dee3dc24856a1b40f3dc8dd095338b614
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567372"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5825968"
 ---
 # <a name="inventory-tag-counting"></a>Atsargų žymių inventorizacija
 

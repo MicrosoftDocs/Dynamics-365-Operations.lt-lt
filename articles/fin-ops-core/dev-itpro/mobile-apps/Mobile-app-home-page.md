@@ -2,26 +2,24 @@
 title: Mobiliosios programos pagrindinis puslapis
 description: Šioje temoje aprašoma mobiliųjų įrenginių programėlė „Finance and Operations“ („Dynamics 365“) ir pateikiamos nuorodos į išteklius, kurie jums gali padėti tai įgyvendinti savo organizacijoje.
 author: ChrisGarty
-manager: AnnBe
 ms.date: 01/22/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
-ms.custom: 272853
+ms.custom: intro-internal
 ms.assetid: c99f818f-27b3-4e45-92b4-74272dad0e17
 ms.search.region: Global
 ms.author: cgarty
 ms.dyn365.ops.version: Platform update 4
 ms.search.validFrom: 2017-02-28
-ms.openlocfilehash: e4a9d6424e2d214624c148c0565c88ea4cf4ccf9
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
-ms.translationtype: HT
+ms.openlocfilehash: 8a91f603b4dd058341110c59039a6d3c782e06ee768fbf0e7f94e9527a6354ba
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683463"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6729713"
 ---
 # <a name="mobile-app-home-page"></a>Mobiliosios programos pagrindinis puslapis
 
@@ -29,8 +27,7 @@ ms.locfileid: "4683463"
 
 Šioje temoje aprašoma mobiliųjų įrenginių programėlė **„Finance and Operations“ („Dynamics 365“)** ir pateikiamos nuorodos į išteklius, kurie jums gali padėti tai įgyvendinti savo organizacijoje.
 
-<a name="overview"></a>Apžvalga
---------
+## <a name="overview"></a>Apžvalga
 
 Mobilioji programa jūsų organizacijai suteikia galimybę pasiekti savo verslo procesus mobiliuosiuose įrenginiuose. Kai jūsų IT administratorius jūsų organizacijoje įjungia mobiliųjų darbo sričių funkciją, vartotojai gali prisijungti prie programos ir iš karto pradėti vykdyti verslo procesus iš savo mobiliųjų įrenginių. Mobilioji programa apima toliau nurodytas funkcijas, kurios gali padėti padidinti efektyvumą.
 
@@ -42,7 +39,7 @@ Mobilioji programa jūsų organizacijai suteikia galimybę pasiekti savo verslo 
 ## <a name="elements-of-the-mobile-app"></a>Mobiliosios programos elementai
 Mobiliosios programos naršymą sudaro keturios pagrindinės koncepcijos: ataskaitų sritis, darbo sritis, puslapiai ir veiksmai. 
 
-[![Mobiliosios programos naršymo sąvokos](./media/mobilephoneapp1-1024x536.png)](./media/mobilephoneapp1.png)
+[![Mobiliosios programos naršymo sąvokos.](./media/mobilephoneapp1-1024x536.png)](./media/mobilephoneapp1.png)
 
 1. Paleidus programą atidaroma **ataskaitų sritis**.
 2. Ataskaitų srityje galite peržiūrėti paskelbtų **darbo sričių** sąrašą.
@@ -56,7 +53,7 @@ Mobiliosios programos naršymą sudaro keturios pagrindinės koncepcijos: ataska
 ## <a name="implementation-process"></a>Diegimo procesas
 Tolesnėje iliustracijoje parodytas mobiliųjų darbo sričių, kurias teikia „Microsoft“, ir pasirinktinių mobiliųjų darbo sričių diegimo procesas. 
 
-[![Mobiliųjų programų diegimo procesas](./media/Mobile-implementation-process-5.png)](./media/Mobile-implementation-process-5.png)
+[![Mobiliųjų programų diegimo procesas.](./media/Mobile-implementation-process-5.png)](./media/Mobile-implementation-process-5.png)
 
 Šioje lentelėje pateikiami saitai į išteklius, kurie gali padėti įdiegti mobiliąsias darbo sritis, kurias teikia „Microsoft“, ir pasirinktines mobiliąsias darbo sritis. Skaičiai pirmajame stulpelyje atitinka sunumeruotus veiksmus ankstesnėje iliustracijoje.
 
@@ -80,12 +77,12 @@ Tolesnėje iliustracijoje parodytas mobiliųjų darbo sričių, kurias teikia �
 <td>1</td>
 <td>Sistemos administratorius</td>
 <td>Programos „Finance and Operations“ diegimas jūsų organizacijoje.</td>
-<td><ul><li>Jei dar neįdiegėte kokios nors „Microsoft Dynamics 365“ versijos, žr. <a href="../deployment/deploy-demo-environment.md">Visuotinis demonstracinės aplinkos diegimas</a>.</li><li>Norėdami peržiūrėti mobiliųjų sričių, kurias galima naudoti, sąrašą, žr. <a href="mobile-workspaces-released.md">Neseniai išleistos mobiliosios darbo sritys</a>.</li></ul></td>
+<td><ul><li>Jei dar neįdiegėte&#39;kokios nors „Microsoft Dynamics 365“ versijos, žr. <a href="../deployment/deploy-demo-environment.md">Visuotinis demonstracinės aplinkos diegimas</a>.</li><li>Norėdami peržiūrėti mobiliųjų sričių, kurias galima naudoti, sąrašą, žr. <a href="mobile-workspaces-released.md">Neseniai išleistos mobiliosios darbo sritys</a>.</li></ul></td>
 </tr>
 <tr class="even">
 <td>2</td>
 <td>Sistemos administratorius</td>
-<td><strong>Jei naudojate „Microsoft Dynamics 365 for Operations“ 1611 versiją:</strong> atsisiųskite ir įdiekite KB, kurie įgalina „Microsoft“ teikiamas mobiliąsias darbo sritis.</td>
+<td><strong>Jei&#39;naudojate „Microsoft Dynamics 365 for Operations“ 1611 versiją:</strong> atsisiųskite ir įdiekite KB, kurie įgalina „Microsoft“ teikiamas mobiliąsias darbo sritis.</td>
 <td>Daugiau informacijos ieškokite šiose temose:
 <ul>
 
@@ -93,8 +90,8 @@ Tolesnėje iliustracijoje parodytas mobiliųjų darbo sričių, kurias teikia �
 <li><a href="../../../supply-chain/inventory/inventory-on-hand-mobile-workspace.md">Turimų atsargų mobilioji darbo sritis</a></li>
 <li><a href="../../../supply-chain/sales-marketing/sales-orders-mobile-workspace.md">Pardavimo užsakymų mobilioji darbo sritis</a></li>
 <li><a href="../../../supply-chain/procurement/vendor-collaboration-mobile-workspace.md">Tiekėjo bendradarbiavimo mobilioji darbo sritis</a></li>
-<li><a href="../../../finance/project-management/project-time-entry-mobile-workspace.md">Projekto laiko įrašų mobilioji darbo sritis</a></li>
-<li><a href="../../../finance/expense-management/expense-management-mobile-workspace.md">Išlaidų valdymo mobilioji darbo sritis</a></li>
+<li><a href="/dynamics365/project-operations/prod-pma/project-time-entry-mobile-workspace">Projekto laiko įrašų mobilioji darbo sritis</a></li>
+<li><a href="/dynamics365/project-operations/prod-exp/expense-management-mobile-workspace">Išlaidų valdymo mobilioji darbo sritis</a></li>
 
 </ul></td>
 </tr>
@@ -151,3 +148,6 @@ Tolesnėje iliustracijoje parodytas mobiliųjų darbo sričių, kurias teikia �
 
 ## <a name="troubleshooting"></a>Trikčių šalinimas
 [Mobiliosios platformos ištekliai](platform/mobile-platform-home-page.md#troubleshooting-the-app)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

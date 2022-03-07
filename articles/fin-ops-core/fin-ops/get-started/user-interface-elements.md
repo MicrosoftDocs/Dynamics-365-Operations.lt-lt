@@ -2,11 +2,9 @@
 title: Vartotojo sąsajos elementai
 description: Šioje temoje aprašyti programos vartotojo sąsajos (UI) elementai.
 author: tlefor
-manager: AnnBe
 ms.date: 08/09/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: tlefor
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 3e087a1abec9bf177bb831b9bbfa12895054ad07
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: feb6d5751bc22c05dbd2f01f47d5a0f99fca07a0
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4797950"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5754733"
 ---
 # <a name="user-interface-elements"></a>Vartotojo sąsajos elementai
 
@@ -86,3 +84,6 @@ Toliau pateiktame vaizde parodyti šių rūšių pranešimų pavyzdžiai.
 *Sąrašu* vadinamas įrašų rinkinys, per kurį galite slinkti. Šie įrašai gali būti pateikiami puslapyje juos spustelėjus. Dažnai tokiu atveju bus atidarytas tinklelis.
 
 ![Toliau pateiktame vaizde parodyti įrankių juostų, tinklelių ir sąrašų pavyzdžiai.](media/user-interface-08.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

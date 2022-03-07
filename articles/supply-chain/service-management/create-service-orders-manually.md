@@ -1,26 +1,29 @@
 ---
 title: Aptarnavimo užsakymų kūrimas rankiniu būdu
 description: Galite aptarnavimo užsakymus kurti rankiniu būdu naudodami aptarnavimo sutartį arba naudodami formą **Aptarnavimo užsakymai**.
-author: kamaybac
+author: ShylaThompson
+manager: tfehr
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAServiceOrderTable, SMAAgreementTable
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c1fad4abcf39021f94db50c07a39803af31f85c2
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 51cfdb94a368df9e7082af3c768c79df44000342
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7578853"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4433620"
 ---
 # <a name="create-service-orders-manually"></a>Aptarnavimo užsakymų kūrimas rankiniu būdu    
 
@@ -34,17 +37,17 @@ Galite aptarnavimo užsakymus kurti rankiniu būdu naudodami aptarnavimo sutart�
 
 ## <a name="create-a-service-order-manually-from-a-service-agreement"></a>Rankinis aptarnavimo užsakymo kūrimas iš aptarnavimo sutarties
 
-1.  Pasirinkite **Aptarnavimo valdymas** \> **Bendrasis** \> **Aptarnavimo sutartys** \> **Aptarnavimo sutartys**.
+1.  Spustelėkite **Aptarnavimo valdymas** \> **Bendrasis** \> **Aptarnavimo sutartys** \> **Aptarnavimo sutartys**.
 
 2.  Pasirinkite aptarnavimo sutartį arba sukurkite naują aptarnavimo sutartį.
 
-3.  Pasirinkite skirtuką **Pristatyti** ir grupėje **Kurti** pasirinkite **Suplanuoti aptarnavimo užsakymai** norėdami atidaryti formą **Kurti aptarnavimo užsakymus**.
+3.  Spustelėkite skirtuką **Pristatyti** ir grupėje **Kurti** spustelėkite **Suplanuoti aptarnavimo užsakymai** norėdami atidaryti formą **Kurti aptarnavimo užsakymus**.
 
 ## <a name="create-a-service-order-manually-in-the-service-orders-form"></a>Neautomatinis aptarnavimo užsakymo kūrimas formoje Aptarnavimo užsakymai
 
-1.  Pasirinkite **Aptarnavimo valdymas** \> **Bendra** \> **Aptarnavimo užsakymai** \> **Aptarnavimo užsakymai**.
+1.  Spustelėkite **Aptarnavimo valdymas** \> **Bendra** \> **Aptarnavimo užsakymai** \> **Aptarnavimo užsakymai**.
 
-2.  Pasirinkite **Nauja**, kad sukurtumėte naują paslaugų užsakymą.
+2.  Norėdami sukurti naują aptarnavimo užsakymą, paspauskite Ctrl+N.
 
 3.  Sukurkite aptarnavimo užsakymo eilutes.
 
@@ -53,9 +56,9 @@ Galite aptarnavimo užsakymus kurti rankiniu būdu naudodami aptarnavimo sutart�
 
 ## <a name="create-a-service-order-from-a-project"></a>Aptarnavimo užsakymo kūrimas iš projekto
 
-1.  Eikite į **Projektų valdymas ir apskaita** \> **Bendra** \> **Projektai** \> **Visi projektai**.
+1.  Spustelėkite **Projektų valdymas ir apskaita** \> **Bendra** \> **Projektai** \> **Visi projektai**.
 
-2.  Formoje **Projektai**, esančioje **Veiksmų sritis**, pasirinkite skirtuką **Valdyti** \> pasirinkite **Aptarnavimas** \> **Aptarnavimo užsakymai**.
+2.  Formoje **Projektai**, esančioje **Veiksmų sritis**, spustelėkite skirtuką **Valdyti** \> spustelėkite **Aptarnavimas** \> **Aptarnavimo užsakymai**.
 
 3.  Vadovaukitės ankstesne aptarnavimo užsakymo kūrimo rankiniu būdu procedūra formoje **Aptarnavimo užsakymai**. Lauke **Projekto ID** rodoma projekto nuoroda.
 
@@ -66,19 +69,19 @@ Galite aptarnavimo užsakymus kurti rankiniu būdu naudodami aptarnavimo sutart�
 
 Aptarnavimo užsakymą galima sukurti formoje **Pardavimo užsakymai** naudodami vedlį **Kurti naują aptarnavimo užsakymą pagal pardavimo užsakymą**.
 
-1.  Eikite į **Pardavimas ir rinkodara** \> **Bendra** \> **Pardavimo užsakymai** \> **Visi pardavimo užsakymai**.
+1.  Spustelėkite **Pardavimas ir rinkodara** \> **Bendra** \> **Pardavimo užsakymai** \> **Visi pardavimo užsakymai**.
 
 2.  Atidarykite reikalingą pardavimo užsakymą.
 
-3.  Skirtuke **Pardavimo užsakymas** pasirinkę **Aptarnavimo užsakymas** paleiskite vedlį **Kurti naują aptarnavimo užsakymą, pagrįstą pardavimo užsakymu**.
+3.  Skirtuke **Pardavimo užsakymas** spustelėję **Aptarnavimo užsakymas** paleiskite vedlį **Kurti naują aptarnavimo užsakymą, pagrįstą pardavimo užsakymu**.
 
-4.  Pasirinkite **Tolesnis \>**, tuomet atlikite toliau nurodytus veiksmus puslapyje **Pasirinkite aptarnavimo užsakymo sutartį**:
+4.  Spustelėkite **Tolesnis \>**, tuomet atlikite toliau nurodytus veiksmus puslapyje **Pasirinkite aptarnavimo užsakymo sutartį**:
     
       - Naudokite lauką **Aptarnavimo sutartis** aptarnavimo sutarčiai, su kuria naujasis aptarnavimo užsakymas turi būti susietas, pasirinkti.
     
       - (Pasirinktinai:) naudokite lauką **Projekto ID**, kad šį aptarnavimo užsakymą susietumėte su tam tikru projektu.
 
-5.  Pasirinkite **Tolesnis \>**, tuomet atlikite toliau nurodytus veiksmus puslapyje **Kurti aptarnavimo užsakymą**:
+5.  Spustelėkite **Tolesnis \>**, tuomet atlikite toliau nurodytus veiksmus puslapyje **Kurti aptarnavimo užsakymą**:
     
       - Įveskite datą ir laiką, kad aptarnavimo skambutis prasidėtų lauke **Pageidaujamas aptarnavimo laikas**.
     
@@ -88,17 +91,14 @@ Aptarnavimo užsakymą galima sukurti formoje **Pardavimo užsakymai** naudodami
     
       - Lauke **Kontakto ID** pasirinkite kliento įmonės asmenį, su kuriuo bus susisiekta dėl aptarnavimo užsakymo.
 
-6.  Pasirinkite **Tolesnis\>** ir pasirinkite **Baigti**.
+6.  Spustelėkite **Tolesnis \>**, tada spustelėkite **Baigti**.
 
 
 ## <a name="see-also"></a>Taip pat žiūrėkite
 
 [Aptarnavimo užsakymai](service-orders.md)
 
-[Automatinis aptarnavimo užsakymų kūrimas](create-service-orders-automatically.md)
+[Automatiškai kurkite aptarnavimo užsakymus](create-service-orders-automatically.md)
 
 [Aptarnavimo užsakymų kūrimas (klasės forma)](https://technet.microsoft.com/library/aa553901\(v=ax.60\)) 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

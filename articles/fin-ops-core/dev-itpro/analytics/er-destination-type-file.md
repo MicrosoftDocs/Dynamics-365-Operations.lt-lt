@@ -2,11 +2,9 @@
 title: Failo ER paskirties vietos tipas
 description: Šioje temoje pateikiama informacija apie tai, kaip sukonfigūruoti ER formato failo paskirties vietą.
 author: NickSelin
-manager: AnnBe
 ms.date: 01/27/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: DocuType, ERSolutionTable, ERFormatDestinationTable
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 2e192a3d768b2f99330129260fa60ad231796710
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
-ms.translationtype: HT
+ms.openlocfilehash: adb32efd3849c94294d9fe9e706f39d209116d259e0d964d1558cc0e49009a5a
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4679635"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6760803"
 ---
 # <a name="file-destination"></a>Failo paskirties vieta
 
@@ -32,9 +30,12 @@ Galite sukonfigūruoti elektroninių ataskaitų (ER) formato, kuris sukonfigūru
 
 Jei puslapyje **Paskirties vietos parametrai** parinktyje **Įjungta** nustatysite **Taip**, konfigūracijos vykdymui pasibaigus, pateikiamas atidarymo arba įrašymo dialogo langas.
 
-[![Paskirties vietos parametrų puslapis](./media/ER_Destinations-EnableFileDestination.png)](./media/ER_Destinations-EnableFileDestination.png)
+[![Paskirties vietos parametrų puslapis.](./media/ER_Destinations-EnableFileDestination.png)](./media/ER_Destinations-EnableFileDestination.png)
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 - [Elektroninių ataskaitų (ER) apžvalga](general-electronic-reporting.md)
 - [Elektroninių ataskaitų (ER) paskirties vietos](electronic-reporting-destinations.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

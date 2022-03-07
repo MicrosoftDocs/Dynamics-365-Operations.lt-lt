@@ -2,11 +2,9 @@
 title: Pretendento samdymas naudojant įdarbinimo funkciją
 description: Ši procedūra leidžia samdytojui samdyti pretendentą, kuris pateikė prašymą per konkretų įdarbinimo projektą.
 author: andreabichsel
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HRMApplication, HcmWorkerNewWorker, HcmPositionLookup, HcmWorker, HcmPosition, HcmPositionDateManager,  DefaultDashboard
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 120fc00de7b66490c491d70b38aae79190de708f
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: 531b1e7d12db844ff438698699b2827f5b72601f
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4797288"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5752011"
 ---
 # <a name="hiring-candidate-through-recruiting"></a>Pretendento samdymas naudojant įdarbinimo funkciją
 
@@ -45,3 +43,6 @@ ms.locfileid: "4797288"
 15. Išplėskite arba sutraukite skyrių „Kontaktinė informacija“.
 16. Išplėskite arba sutraukite skyrių „Asmeninė informacija“.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

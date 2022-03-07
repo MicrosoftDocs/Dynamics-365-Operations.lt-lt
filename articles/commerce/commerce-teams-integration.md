@@ -3,22 +3,23 @@ title: „Dynamics 365 Commerce” ir „Microsoft Teams” integravimo apžvalg
 description: Šioje temoje pateikiama „Microsoft Dynamics 365 Commerce” ir „Microsoft Teams” integravimo apžvalga.
 author: gvrmohanreddy
 ms.date: 03/31/2021
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
 ms.search.scope: Retail, Core, Operations
+ms.custom: intro-internal
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-01-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 39de59d182fd6f4cb1616a47a09b44cd249f2187
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
-ms.translationtype: MT
+ms.openlocfilehash: 6d82c1cafe35db5523c58870f4dcb2a7f63134a1
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984200"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352643"
 ---
 # <a name="dynamics-365-commerce-and-microsoft-teams-integration-overview"></a>„Dynamics 365 Commerce” ir „Microsoft Teams” integravimo apžvalga
 
@@ -42,7 +43,7 @@ ms.locfileid: "7984200"
 
 Prieš pradėdami naudoti „Microsoft Teams” integravimo funkcijas, užtikrinkite šias būtinąsias sąlygas:
 
-- Microsoft 365 Verslo standartinė licencija (ši licencija apima Komandas.)
+- „Microsoft 365 Business Standard” licenciją (Ši licencija apima „Teams”.)
 - „Azure Active Directory” ( „Azure AD”) paskyras visiems parduotuvių vadovams ir darbuotojams
 - Elektroninio kasos aparato (EKA) sistemas, sukonfigūruotas naudojant „Azure AD” autentifikavimą
 

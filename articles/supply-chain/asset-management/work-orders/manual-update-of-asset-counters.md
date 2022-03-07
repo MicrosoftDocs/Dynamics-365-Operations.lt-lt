@@ -1,12 +1,10 @@
 ---
 title: Neautomatinis turto skaitiklių atnaujinimas
 description: Šioje temoje aprašomas turto skaitiklių naujinimas rankiniu būdu skiltyje Turto valdymas.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetCounter
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 5318bac961682f88e192ac70c4993c62b69b399c
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
-ms.translationtype: HT
+ms.openlocfilehash: 74d840cbb064018560a6abc2823f520c2f3179ac42b149c0507c9421a4e73391
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5020890"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6776439"
 ---
 # <a name="manual-update-of-asset-counters"></a>Neautomatinis turto skaitiklių atnaujinimas
 
@@ -56,10 +54,13 @@ Atkreipkite dėmesį į toliau nurodytus punktus.
 
 Toliau pateiktame paveikslėlyje parodytas puslapio **Turto skaitikliai** pavyzdys.
 
-![1 pav.](media/11-work-orders.png)
+![1 iliustracija.](media/11-work-orders.png)
 
 Puslapyje **Turto skaitikliai** (**Turto valdymas** > **Užklausos** > **Turtas** > **Turto skaitikliai**) galite pagal poreikį tuo pačiu metu registruoti skaitiklius keliems ištekliams.
 
 >[!NOTE]
 >Galite nustatyti intervalą, kad nustatytumėte nuokrypius, kurie atsiranda rankiniu būdu registruojant skaitiklius. Taip pat galite nurodyti pranešimo, kuris rodomas, jei registruojant nukrypstama nuo nurodyto intervalo, tipą. Daugiau informacijos, kaip nustatyti skaitiklius, žr. [Skaitikliai](../setup-for-objects/counters.md).
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

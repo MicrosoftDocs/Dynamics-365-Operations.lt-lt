@@ -2,7 +2,7 @@
 title: Išmokų plano kūrimas
 description: Nustatykite išmokų planus programoje „Dynamics 365 Human Resources“.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: bcbf4c1a7f136e5563bf1210b6c09228dad95dea
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 7d398da8fa53f39cfbdc3911d5acd0967f0c5d5b
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419674"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5464283"
 ---
 # <a name="create-a-benefits-plan"></a>Išmokų plano kūrimas
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Šiame straipsnyje pateikiama, kaip nustatyti išmokų planus programoje „Dynamics 365 Human Resources“.
 
@@ -159,3 +161,6 @@ Galite pateikti plano aprašą, kad darbuotojams būtų lengviau rinktis išmoka
 1. Darbo srities **Išmokų valdymas** dalyje **Planai** pasirinkite **Išmokų planai**.
 
 2. Pasirinkite **Lanksčiųjų kreditų programos**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

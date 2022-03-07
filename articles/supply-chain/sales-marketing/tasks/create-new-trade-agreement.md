@@ -1,24 +1,27 @@
 ---
 title: Kurti naują prekybos sutartį
 description: Ši procedūra nurodo, kaip sukurti prekybos sutartį, kurioje registruojate naują produkto pardavimo kainą, dėl kurios sutarėte su konkrečiu klientu.
-author: Henrikan
+author: omulvad
+manager: tfehr
 ms.date: 06/25/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TradeNonStockedConversion, TradeNonStockedConversionChangeWizard, TradeNonStockedConversionCheckWorksheet, TradeNonStockedConversionWizard, TradeNonStockedRegister
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Operations
 ms.search.region: Global
-ms.author: henrikan
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a16a39d95605900be0fa1e339b8cd0755ba85189
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 43426e77c30e46f4dd1cc117c38cf6ba5437655b
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7573422"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4433398"
 ---
 # <a name="create-a-new-trade-agreement"></a>Kurti naują prekybos sutartį
 
@@ -26,8 +29,8 @@ ms.locfileid: "7573422"
 
 Ši procedūra nurodo, kaip sukurti prekybos sutartį, kurioje registruojate naują produkto pardavimo kainą, dėl kurios sutarėte su konkrečiu klientu. Šią procedūrą galite vykdyti demonstracinėje duomenų įmonėje USMF arba su savo duomenimis. Jei naudojate savo duomenis, prieš pradėdami šį vadovą turite įsitikinti, kad egzistuoja prekybos sutarčių žurnalo pavadinimas, kai numatytasis ryšys nustatytas kaip „Kaina (pardavimai)“.
 
-## <a name="create-and-post-a-new-trade-agreement-journal"></a>Kurti ir registruoti naują prekybos sutarčių žurnalą
 
+## <a name="create-and-post-a-new-trade-agreement-journal"></a>Kurti ir registruoti naują prekybos sutarčių žurnalą
 1. Eikite į **Naršymo sritis > Moduliai > Pardavimas ir rinkodara > Kainos ir nuolaidos > Prekybos sutarčių žurnalai**.
 2. Spustelėkite **Naujas**.
 3. Lauke **Pavadinimas** spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
@@ -54,31 +57,19 @@ ms.locfileid: "7573422"
 16. Spustelėkite **Tikrinti**.
 17. Spustelėkite **Tikrinti pasirinktas eilutes**.
 18. Spustelėkite **Gerai**.
-19. Spustelėkite **Registruoti**.
+19. Spustelėkite **Registruoti.**
 20. Spustelėkite **Gerai**.
 
 ## <a name="view-trade-agreements-for-a-product"></a>Peržiūrėti produkto prekybos sutartis
-
 1. Eikite į **Naršymo sritis > Moduliai > Produkto informacijos valdymas > Produktai > Patvirtinti produktai**.
 2. Sąraše raskite ir pasirinkite produktą, kurio kainą ką tik atnaujinote.
 3. **Veiksmų srityje** spustelėkite **Pardavimas**.
 4. Spustelėkite **Peržiūrėti prekybos sutartis**.
     
-    Peržiūrėkite kainos prekybos sutarties informaciją, kurią ką tik sukūrėte.
+    Peržiūrėkite kainos prekybos sutarties informaciją, kurią ką tik sukūrėte.    
 
 5. Uždarykite puslapį.
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
-
-### <a name="whitepaper"></a>Techninė Dokumentacija
-
-Norėdami gauti daugiau informacijos, atsisiųskite šią techninę dokumentaciją (sukurtą AX2012 palaikymui, tačiau vis dar taikoma „Dynamics 365 Supply Chain Management”)
-
-- [Prekybos sutartys](https://download.microsoft.com/download/0/2/9/02972c8b-0159-4936-a3ef-1e64252b2d2f/TradeAgreementsInAX.pdf)
-
 ### <a name="community-blogs"></a>Bendruomenės tinklaraščiai
-
 - [Pardavimo kainos „Dynamics 365 for Finance and Operations“](https://financefunction.tech/2018/11/14/sales-prices-in-dynamics-365-for-finance-and-operations/#sales_price_in_trade_agreements)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

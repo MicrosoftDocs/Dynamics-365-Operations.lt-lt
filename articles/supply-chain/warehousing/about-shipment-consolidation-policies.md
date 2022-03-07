@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: WHSShipConsolidationPolicy, WHSShipConsolidationWorkbench, WHSShipConsolidationError, WHSShipConsolidationSetShipment, WHSShipConsolidationPolicySelect, WHSShipPlanningListPage, TMSCarrierGroup, WHSShipConsolidationTemplate, WHSShipConsolidationTemplateApply, WHSShipConsolidationTemplateCreate
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: f895b13b2e11d4cb341f80b3cfeb40ed998ccfc4
-ms.sourcegitcommit: d9bffbeae2ba14f06294dd275383077d4d65c4fa
+ms.openlocfilehash: 0823bd6f346e068e28f0f46227dfbdfabb52d238
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "4654225"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5233252"
 ---
 # <a name="shipment-consolidation-policies"></a>Siuntos konsolidacijos strategijos
 
@@ -135,3 +134,6 @@ Tolesnėje lentelėje apibendrinama, kaip veikia siuntos konsolidacija, kai nena
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 - [Siuntos konsolidacijos strategijų konfigūravimas](configure-shipment-consolidation-policies.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

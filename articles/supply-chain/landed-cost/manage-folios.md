@@ -2,9 +2,11 @@
 title: Registravimo lapų tvarkymas
 description: Ši tema aprašo, kaip dirbti su registravimo lapais. Registravimo lapas įprastai susideda iš vieno tiekėjo vienos siuntos prekių vienam objektui ar įmonei. Viename registracijos lape esančios prekės gali būti viename konteineryje arba gali būti paskirstytos keliuose konteineriuose.
 author: sherry-zheng
+manager: tfehr
 ms.date: 12/14/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ITMFolioTable, ITMFolioTableListPage
 audience: Application User
@@ -13,17 +15,18 @@ ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-14
-ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 5b84237844ec1d8f6c0716a0a13b05c83b358901
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.17
+ms.openlocfilehash: 2205ad8da1987130e97054b3f20749bce61198dd
+ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7575781"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5500843"
 ---
 # <a name="manage-folios"></a>Registravimo lapų tvarkymas
 
 [!include [banner](../../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Registravimo lapai dažnai nustatomi pagal muitinės taisykles. Jie gali susidėti iš vieno tiekėjo vienos siuntos prekių vienam objektui ar įmonei. Viename registracijos lape esančios prekės gali būti viename konteineryje arba gali būti paskirstytos keliuose konteineriuose.
 

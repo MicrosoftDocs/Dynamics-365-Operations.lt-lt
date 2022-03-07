@@ -2,11 +2,9 @@
 title: Darbuotojų savitarnos konfigūravimas
 description: Programoje „Microsoft Dynamics 365 Human Resources“ galite konfigūruoti aukščiausio lygio naršymo plyteles darbuotojo savitarnoje.
 author: andreabichsel
-manager: AnnBe
 ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
@@ -18,14 +16,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d1534e37e83e22dd9860de54165c062935db3798
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 3e763a09e0a0f13eb7222a6ffbcb31b6230b83f4
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419770"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5797940"
 ---
 # <a name="configure-employee-self-service"></a>Darbuotojų savitarnos konfigūravimas
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Programoje „Microsoft Dynamics 365 Human Resources“ galite konfigūruoti aukščiausio lygio naršymo plyteles darbuotojo savitarnoje. Išmokų plano plytelės nukreipia vartotojus į išlaidų planus, kuriems jie tinkami.
 
@@ -72,3 +72,6 @@ Programoje „Microsoft Dynamics 365 Human Resources“ galite konfigūruoti auk
    | **„End“** | Plytelės naudojimo pabaigos data ir laikas. |
 
 4. Pasirinkite **Įrašyti**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,12 +1,10 @@
 ---
 title: Pirkimo paraiškos darbo eiga
 description: Darbo eigos proceso metu, pirkimo paraiškos pereina redagavimo procesą, nuo pirminės būsenos Juodraštis iki galutinės būsenos Patvirtinta. Kai pirkimo paraiška pateikiamai peržiūrai, pradedamas darbo eigos procesas. Pirkimo paraišką patvirtinus, pirkimo paraiškos eilutėms galima sugeneruoti pirkimo užsakymą ir pateikti tiekėjui, kad jį įvykdytų.
-author: RichardLuan
-manager: tfehr
+author: Henrikan
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchReqAuthorization, WorkflowParticipantExpenToken
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 2234
 ms.assetid: dad3ba5a-2892-45d2-874a-300896f59b34
 ms.search.region: Global
-ms.author: riluan
+ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f6069e2ab93e1ce4299669850bdae37e82b17428
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
-ms.translationtype: HT
+ms.openlocfilehash: 66305688d1613b9882d3778a81886728df934931
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5021985"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7569462"
 ---
 # <a name="purchase-requisition-workflow"></a>Pirkimo paraiškos darbo eiga
 
@@ -53,7 +51,7 @@ Galite sukonfigūruoti darbo eigą, kad ji atspindėtų jūsų organizacijos pir
 -   **Pirkimo agentas** – vartotojas, atliekantis įsigijimo peržiūrą ir galintis patvirtinti dokumentą.
 -   **Prašytojo vadovas** – vartotojas, atliekantis vadybinę peržiūrą ir galintis patvirtinti dokumentą.
 
-![Pirkimo paraiškos darbo eigos peržiūros procesas](./media/purchreqworkflowoverview_submission.gif)  
+![Pirkimo paraiškos darbo eigos peržiūros procesas.](./media/purchreqworkflowoverview_submission.gif)  
 Šiame pavyzdyje į pirkimo paraiškos darbo eigos procesą įeina šie žingsniai:
 
 1.  Rengėja pirkimo paraišką pateikia peržiūrai.
@@ -76,7 +74,7 @@ Galite sukonfigūruoti darbo eigą, kad ji atspindėtų jūsų organizacijos pir
 -   **Skyriaus vadovas** – vartotojas, atliekantis išlaidų peržiūrą ir galintis patvirtinti dokumentą.
 -   **Grupės vadovas** – vartotojas, atliekantis teisės pasirašyti peržiūrą ir galintis patvirtinti dokumentą.
 
-![Pirkimo paraiškos eilutės darbo eigos peržiūros procesas](./media/purchreqlineworkflowoverview.gif)  
+![Pirkimo paraiškos eilutės darbo eigos peržiūros procesas.](./media/purchreqlineworkflowoverview.gif)  
 Šiame pavyzdyje į pirkimo paraiškos eilučių darbo eigos procesą įeina šie žingsniai:
 
 1.  Rengėja pirkimo paraišką pateikia peržiūrai. Kiekviena eilutė nukreipiama peržiūrėtojui, kuris darbo eigos proceso metu sukonfigūruojamas ją gauti.
@@ -107,8 +105,7 @@ Išlaidų peržiūrėtojus galite nustatyti puslapyje **Pirkimo paraiškų išla
 
 Norėdami naudoti vieną iš darbo eigoje nustatytų išlaidų peržiūrėtojų, atitinkamo darbo eigos elemento ypatybėse **Priskyrimas** parinktį **Dalyvio tipas** turite nustatyti į **Išlaidų dalyviai**.
 
-<a name="additional-resources"></a>Papildomi ištekliai
---------
+## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Vartojimo paraiškos kūrimas](tasks/create-requisition-consumption.md)
 
@@ -120,3 +117,6 @@ Norėdami naudoti vieną iš darbo eigoje nustatytų išlaidų peržiūrėtojų,
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: Ilgalaikio turto nusidėvėjimo konvencijos
 description: Šioje temoje aprašomos ilgalaikio turto nusidėvėjimo konvencijos.
 author: saraschi2
-manager: AnnBe
 ms.date: 09/04/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bd0153b5d735e1d565b67db6c66c854ff738509c
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 684e81354559401cfb0095a6455fd9def44d5a6a
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4969208"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5827127"
 ---
 # <a name="fixed-asset-depreciation-conventions"></a>Ilgalaikio turto nusidėvėjimo konvencijos
 
@@ -42,3 +40,6 @@ Nusidėvėjimo konvencijas galima priskirti ilgalaikio turto grupės knygos sąr
 | Mėnesio vidurys (mėnesio 15 d.) | Norėdami apskaičiuoti metų, kuriais nuosavybė atiduota eksploatuoti, nusidėvėjimą, visų metų nusidėvėjimą padauginkite iš trupmenos. Šios trupmenos skaitiklis (viršutinis skaitmuo) yra metų, kuriais nuosavybė eksploatuojama, visų mėnesių skaičius plius 1/2 arba (0,5). Vardiklis (apatinis skaitmuo) yra 12. Jei nuosavybė nurašoma prieš atkūrimo laikotarpio pabaigą, naudokite tą patį metodą skaičiuodami perdavimo metų nusidėvėjimą. |
 | Pusė metų (metų pradžia) | Turto, kurio lauke <strong>Atiduota eksploatuoti</strong> nurodyta data yra pirmoje metų pusėje, nusidėvėjimas prasideda pirmąją metų dieną (visi metai). Turto, kurio lauke <strong>Atiduota eksploatuoti</strong> nurodyta data yra antroje metų pusėje, nusidėvėjimas prasideda metų viduryje. |
 | Pusė metų (kiti metai)     | Turto, kurio lauke <strong>Atiduota eksploatuoti</strong> nurodyta data yra pirmoje metų pusėje, nusidėvėjimas prasideda pirmąją metų dieną (visi metai). Turto, kurio lauke <strong>Atiduota eksploatuoti</strong> nurodyta data yra antroje metų pusėje, nusidėvėjimas prasideda pirmąją kitų metų dieną. Laikoma, kad turtas, kuris grąžinamas per pirmąją metų pusę, yra grąžinamas nusidėvėjimo tikslais paskutiniąją ankstesnių metų dieną. Nusidėvėjimas, kuris užregistruotas einamaisiais metais, turi būti atšauktas arba pakoreguotas. Laikoma, kad turtas, kuris grąžinamas per antrąją metų pusę, yra grąžinamas nusidėvėjimo tikslais paskutiniąją grąžinimo metų dieną. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

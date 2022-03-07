@@ -2,15 +2,12 @@
 title: Atnaujinimo procesas
 description: „Microsoft Dynamics 365 Human Resources“ yra tipiška programinės įrangos nuomos paslauga („SaaS“), teikianti nepertraukiamus, bekontakčius paslaugų naujinimus, skirtus programai ir platformai keisti.
 author: andreabichsel
-manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: SystemAdministrationWorkspaceForm
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -18,16 +15,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-27
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d841a026f589d774ec5ada3ac9adcc84dde9aee1
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
-ms.translationtype: HT
+ms.openlocfilehash: 2af1f710ca010041bd684bca8ecfa6f20ac30d46
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527817"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8063115"
 ---
 # <a name="update-process"></a>Atnaujinimo procesas
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+
 
 „Microsoft Dynamics 365 Human Resources“ yra puiki programinės įrangos nuomos paslauga („SaaS“), teikianti nepertraukiamus, bekontakčius paslaugų naujinimus. Šiuose naujinimuose yra programos ir platformų keitimų, kurie dažnai teikia esminius paslaugų pagerinimus, įskaitant reguliavimo naujinimus.
 
@@ -39,11 +38,11 @@ Naujinimai išleidžiami reguliariais intervalais visoms aplinkoms. „Human Res
 
 „Human Resources“ naujinimai taikomi visoms aplinkoms automatiškai. „Human Resources“ teikia dviejų tipų leidimus:
 
-- **Paslaugų naujinimai**: naujinimai, kuriuose yra klaidų taisymai ir naujos funkcijos, vykdomi kas dvi savaites. Į paslaugos naujinimus taip pat įtraukiami taikomi platformų naujinimai, kai jie išleidžiami. Norėdami sužinoti, kada platformų naujinimai išleidžiami, žr. [3 lentelė: platformų leidimai](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy#table-3-platform-releases). Naujinimai kas dvi savaites regionuose bus įdiegti etapais. Daugiau informacijos apie naujinimus kas dvi savaites žr. [Kas nauja arba pasikeitė programoje „Dynamics 365 Human Resources“](hr-admin-whats-new.md).
+- **Paslaugų naujinimai**: naujinimai, kuriuose yra klaidų taisymai ir naujos funkcijos, vykdomi kas dvi savaites. Į paslaugos naujinimus taip pat įtraukiami taikomi platformų naujinimai, kai jie išleidžiami. Norėdami sužinoti, kada platformų naujinimai išleidžiami, žr. [3 lentelė: platformų leidimai](../fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy.md#table-3-platform-releases). Naujinimai kas dvi savaites regionuose bus įdiegti etapais. Daugiau informacijos apie naujinimus kas dvi savaites žr. [Kas nauja arba pasikeitė programoje „Dynamics 365 Human Resources“](hr-admin-whats-new.md).
 
     Visi palaikomi duomenų centrai teikia naujinimus kas dvi savaites, nebent nurodyta kitaip. JAV, Australija, Europa, JK, Azija ir Kanada yra įtraukiamos į naujinimus, vykdomus kas dvi savaites. 
 
-- **„Common Data Service“ sprendimų naujinimai**: šie naujinimai vykdomi maždaug kas šešios savaitės, jei reikia. Juose yra naujų objektų ir esamų objektų, esančių „Common Data Service“, keitimų. Šie naujinimai išleidžiami tuose pačiuose regionuose kaip ir naujinimams, vykdomiems kas dvi savaites, bei užtrunka apie šešias savaites, kol jie dubliuojami visuose duomenų centruose. Sprendimų naujinimai sutampa arba nesutampa su paslaugų naujinimais, vykdomais kas dvi savaites.
+- **„Dataverse“ sprendimų naujinimai**: šie naujinimai vykdomi maždaug kas šešios savaitės, jei reikia. Juose yra naujų objektų ir esamų objektų, esančių „Dataverse“, keitimų. Šie naujinimai išleidžiami tuose pačiuose regionuose kaip ir naujinimams, vykdomiems kas dvi savaites, bei užtrunka apie šešias savaites, kol jie dubliuojami visuose duomenų centruose. Sprendimų naujinimai sutampa arba nesutampa su paslaugų naujinimais, vykdomais kas dvi savaites.
 
 > [!NOTE]
 > Sprendimų naujinimai pasiekiami visuose duomenų centruose, kai jie išleidžiami. Jei nenorite laukti, kol naujinimai bus dubliuojami automatiškai, galite rankiniu būdu taikyti šiuos naujinimus bet kuriai aplinkai bet kuriame duomenų centre.
@@ -56,14 +55,14 @@ Kai reikia, „Human Resources“ taip pat teikia šiuos taisymų tipus:
 
 Leidimai yra peržiūrimi, tikrinami ir patvirtinami vidinėje aplinkoje. Kai atsijungiama nuo komponavimo versijų, jos bus įdiegtos gamybai.
 
-## <a name="release-cadence-exceptions-in-2020"></a>Numatomi išleidimo intervalai 2020 m.
+## <a name="release-cadence-exceptions-in-2021"></a>Numatomi išleidimo intervalai 2021 m.
 
-Norint atsiskaityti už atostogas, toliau pateiktas 2020 m. lapkričio ir gruodžio mėn. leidimų grafikas.
+Norint atsiskaityti už atostogas, toliau pateiktas 2021 m. lapkričio ir gruodžio mėn. leidimų grafikas.
 
-- Lapkričio mėn. leidimas: lapkričio 2 d. – lapkričio 13 d.
-- Gruodžio mėn. leidimas: lapkričio 30 d. – gruodžio 11 d.
+- Lapkričio mėn. leidimas: lapkričio 1 d. – lapkričio 14 d.
+- Gruodžio mėn. leidimas: lapkričio 29 d. – gruodžio 12 d.
  
-Dviejų savaičių išleidimo intervalai bus tęsiami kaip įprasta 2021 m. sausio 11 d.
+Dviejų savaičių išleidimo intervalai bus tęsiami kaip įprasta 2022 m. sausio 10 d.
 
 ## <a name="communications"></a>Kontaktai
 
@@ -71,11 +70,11 @@ Galite sužinoti, kas rengiama programai „Human Resources“ ir ką išleidome
 
 - [„Dynamics 365 Human Resources“ veiksmų planas](https://dynamics.microsoft.com/roadmap/human-resources/)
 
-- [„Dynamics 365“ leidimo planai](https://docs.microsoft.com/dynamics365/release-plans/)
+- [„Dynamics 365“ leidimo planai](/dynamics365/release-plans/)
 
 - [Kas nauja arba pasikeitė „Dynamics 365 Human Resources“](hr-admin-whats-new.md)
 
-- [Problemų ieška portale „Lifecycle Services“ (LCS)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/lifecycle-services/issue-search-lcs) (tik su platforma susijusioms klaidoms)
+- [Problemų ieška portale „Lifecycle Services“ (LCS)](../fin-ops-core/dev-itpro/lifecycle-services/issue-search-lcs.md) (tik su platforma susijusioms klaidoms)
 
 - [„Human Resources“ tinklaraštis](https://community.dynamics.com/365/talent/b/dynamics365fortalent)
 
@@ -83,7 +82,7 @@ Galite sužinoti, kas rengiama programai „Human Resources“ ir ką išleidome
 
 ## <a name="preview-features-in-a-sandbox-environment"></a>Peržiūros funkcijos smėlio dėžės aplinkoje
 
-Galite patikrinti peržiūros funkcijas smėlio dėžės aplinkoje prieš įjungdami jas savo gamybos aplinkoje. Daugiau informacijos apie naujų funkcijų įjungimą žr. temoje [Funkcijų valdymo apžvalga](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview).
+Galite patikrinti peržiūros funkcijas smėlio dėžės aplinkoje prieš įjungdami jas savo gamybos aplinkoje. Daugiau informacijos apie naujų funkcijų įjungimą žr. temoje [Funkcijų valdymo apžvalga](../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 Visos naujos funkcijos išlieka peržiūroje bent 30 dienų ir paprastai 30–60 dienų. Pagrindinės funkcijos paprastai pasiekiamos kiekvienų metų spalį ir balandį po peržiūros laikotarpio. Kai tik pradedame naujas galimybes darbo srityje Funkcijų valdymas, galite jas įjungti. Kai kurios funkcijos gali būti pagal numatytuosius parametrus.
 
@@ -97,11 +96,14 @@ Norėdami gauti daugiau informacijos apie smėlio dėžės aplinkos parengimą, 
 
 ## <a name="report-bugs"></a>Pranešimas apie klaidas
 
-Tikrinandami peržiūros funkcijas arba išbandandydami naujas galimybes, galite aptikti elementų, neveikiančių taip, kaip tikėtasi. Praneškite apie klaidas per [„Microsoft Dynamics 365“ palaikymą](https://dynamics.microsoft.com/support/).
+Tikrindami peržiūros funkcijas arba išbandydami naujas galimybes, galite aptikti elementų, neveikiančių taip, kaip tikėtasi. Praneškite apie klaidas per [„Microsoft Dynamics 365“ palaikymą](https://dynamics.microsoft.com/support/).
 
 ## <a name="see-also"></a>Taip pat žiūrėkite
 
-[„Dynamics 365“ ir „Power Platform“ leidimo planai](https://docs.microsoft.com/dynamics365/release-plans)</br>
+[„Dynamics 365“ ir „Power Platform“ leidimo planai](/dynamics365/release-plans)</br>
 [Kas nauja ar pasikeitė programoje „Dynamics 365 Human Resources”](hr-admin-whats-new.md)</br>
-[Programinės įrangos ciklo strategija](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy)
+[Programinės įrangos ciklo strategija](../fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

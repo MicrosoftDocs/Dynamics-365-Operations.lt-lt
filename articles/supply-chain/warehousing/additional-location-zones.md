@@ -2,9 +2,11 @@
 title: Papildomos vietos zonos
 description: Šioje temoje apžvelgiamos naujos vietos zonos, kurios pridėtos į „Microsoft Dynamics 365 Supply Chain Management”.
 author: Mirzaab
+manager: tfehr
 ms.date: 07/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLocationBuild, WHSZone
 audience: Application User
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: dd9e97cabe5e3d3bdc261a7280930b73eb8e1419
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
-ms.translationtype: MT
+ms.openlocfilehash: 4e8d8ddb65ea49f3d5278db0cac6ae891ab40ecf
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103843"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5233228"
 ---
 # <a name="additional-location-zones"></a>Papildomos vietos zonos
 
@@ -30,9 +32,12 @@ Galimi trys nauji zonų laukai „Microsoft Dynamics 365 Supply Chain Management
 
 Norint naudoti zonos laukus, papildomų nustatymų nereikia.
 
-## <a name="turn-the-additional-location-zone-feature-on-or-off"></a>Įjungti arba išjungti papildomos vietos zonos funkciją
+## <a name="turn-on-the-additional-location-zone-feature"></a>Papildomos vietos zonos įjungimo funkcija
 
-Kaip ir tiekimo grandinės valdymo versija 10.0.25 ši funkcija įjungiama pagal numatytąjį nustatymą. Administratoriai gali įjungti arba išjungti šią funkciją ieškodami papildomos *vietos zonų* funkcijos funkcijų [valdymo darbo](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) srityje.
+Norint naudoti *Papildomos vietos zona* funkciją, įjunkite ją savo sistemoje. Administratoriai gali naudoti [funkcijų valdymo](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) parametrus, kad patikrintų funkcijos būseną ir įjungtų ją, kai reikia. Darbo srityje **Funkcijų valdymas** ši funkcija yra nurodyta toliau pateikiamu būdu.
+
+- **Modulis:** *sandėlio valdymas*
+- **Funkcijos pavadinimas:** *Papildomos vietos zona*
 
 ## <a name="use-location-zones"></a>Vietos zonų naudojimas
 

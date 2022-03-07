@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2c8cf4866b6a8c239359d726d8cd4f03a9eb4137
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
-ms.translationtype: MT
+ms.openlocfilehash: b3c867af3b4d93e5a124d14e88eae60ff45987aebc639bd78806ff7a12009447
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8324092"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6770001"
 ---
 # <a name="customize-electronic-reporting-configurations-to-generate-an-electronic-document"></a>Elektroninių ataskaitų konfigūracijų tinkinimas elektroniniam dokumentui generuoti
 
@@ -120,7 +120,7 @@ Norėdami įtraukti standartines ER konfigūracijas į dabartinį „Finance” 
 3. Puslapyje **Konfigūracijos** išplėskite „FastTab” **Konfigūracijos komponentai**.
 4. Kairiosios srities konfigūracijos medyje išplėskite **SF modelis**, tada – **UBL pardavimo SF**.
 
-Atkreipkite dėmesį, kad kartu su pasirinktu ER formatu **PEPPOL pardavimo SF** buvo importuotos kitos būtinos ER konfigūracijos. Kadangi naujos ER konfigūracijų versijos nuolat publikuojamos bendrojoje saugykloje ir LCS, kad atitinkami sprendimai atitiktų naujus reikalavimus, buvo importuotos naujausios reikiamo duomenų modelio konfigūracijos versijos ir jo modelio susiejimo konfigūracijos.
+Atkreipkite dėmesį, kad kartu su pasirinktu ER formatu **PEPPOL pardavimo SF** buvo importuotos kitos būtinos ER konfigūracijos. Kadangi naujos ER konfigūracijų versijos nuolat publikuojamos bendrojoje saugykloje ir LCS, kad atitinkami sprendimai atitiktų naujus reikalavimus, buvo importuotos naujausios reikiamo [duomenų modelio](general-electronic-reporting.md#data-model-and-model-mapping-components) konfigūracijos versijos ir jo [modelio susiejimo](general-electronic-reporting.md#data-model-and-model-mapping-components) konfigūracijos.
 
 ![Puslapis Konfigūracijos.](./media/er-quick-start3-imported-solution1a.png)
 
@@ -133,7 +133,7 @@ Tada patikrinkite, ar toliau pateiktos konfigūracijos prieinamos konfigūracijo
 
 - ER duomenų modelio konfigūracija **SF modelis** (iš pradžių pavadinta **Kliento SF modelis**):
 
-    - 11 versijoje yra duomenų modelio ER komponento 10 versija, nurodanti SF išrašymo verslo domeno duomenų struktūrą. Ši ER konfigūracija buvo importuota kaip importuoti pasirinkto ER formato **PEPPOL pardavimo SF** aukštesnio lygmens elementas.
+    - 11 versijoje yra [duomenų modelio](general-electronic-reporting.md#data-model-and-model-mapping-components) ER komponento 10 versija, nurodanti SF išrašymo verslo domeno duomenų struktūrą. Ši ER konfigūracija buvo importuota kaip importuoti pasirinkto ER formato **PEPPOL pardavimo SF** aukštesnio lygmens elementas.
     - 50 versijoje yra duomenų modelio ER komponento 31 versija. Ši ER konfigūracija buvo importuota kaip ER modelio susiejimo konfigūracijos **SF modelio susiejimas** 2019 m. rugpjūčio 7 d. versijos aukštesnio lygmens elementas.
 
     ![ER duomenų modelio konfigūracija SF modelis puslapyje Konfigūracijos.](./media/er-quick-start3-imported-solution1b1.png)
@@ -143,7 +143,7 @@ Tada patikrinkite, ar toliau pateiktos konfigūracijos prieinamos konfigūracijo
 
 - ER modelio konfigūracija **SF modelio susiejimas** (iš pradžių pavadinta **Kliento SF modelio susiejimas**):
 
-    - 50.19 versija buvo importuota kaip naujausias ER duomenų modelio konfigūracijos **SF modelis** 50 versijos diegimas. Joje yra du modelio susiejimo ER komponentai, aprašantys, kaip duomenų modelis užpildomas programos duomenimis vykdymo metu.
+    - 50.19 versija buvo importuota kaip naujausias ER duomenų modelio konfigūracijos **SF modelis** 50 versijos diegimas. Joje yra du [modelio susiejimo](general-electronic-reporting.md#data-model-and-model-mapping-components) ER komponentai, aprašantys, kaip duomenų modelis užpildomas programos duomenimis vykdymo metu.
 
     ![ER modelio susiejimo konfigūracija SF modelio susiejimas puslapyje Konfigūracijos.](./media/er-quick-start3-imported-solution1b2.png)
 
@@ -152,7 +152,7 @@ Tada patikrinkite, ar toliau pateiktos konfigūracijos prieinamos konfigūracijo
 
 - ER formato konfigūracija **UBL pardavimo SF**:
 
-    - 11.2 versijoje yra formato ir formato susiejimo ER komponentai. Formato komponentas nurodo ataskaitos maketą. Formato susiejimo komponentas apima modelio duomenų šaltinį ir nurodo, kaip šis duomenų šaltinis naudojamas ataskaitos maketui užpildyti vykdymo metu. Šis ER formatas buvo sukonfigūruotas generuoti el. SF universaliosios verslo kalbos (UBL) formatu. Jis buvo importuotas kaip importuoti pasirinkto ER formato **PEPPOL pardavimo SF** pirminis elementas.
+    - 11.2 versijoje yra [formato](general-electronic-reporting.md#FormatComponentOutbound) ir formato susiejimo ER komponentai. Formato komponentas nurodo ataskaitos maketą. Formato susiejimo komponentas apima modelio duomenų šaltinį ir nurodo, kaip šis duomenų šaltinis naudojamas ataskaitos maketui užpildyti vykdymo metu. Šis ER formatas buvo sukonfigūruotas generuoti el. SF universaliosios verslo kalbos (UBL) formatu. Jis buvo importuotas kaip importuoti pasirinkto ER formato **PEPPOL pardavimo SF** pirminis elementas.
 
 - ER formato konfigūracija **PEPPOL pardavimo SF**:
 

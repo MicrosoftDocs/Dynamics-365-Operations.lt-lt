@@ -2,9 +2,11 @@
 title: Nustatykite visuotinį išskaitymo mokestį
 description: Šioje temoje išvardyti žingsniai, kuriais galima nustatyti visuotinį išskaitymo mokestį pardavimams ir pirkimams.
 author: roschlom
+manager: AnnBe
 ms.date: 01/12/2021
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2020-01-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: d68722d7e045f407ed20ae0728734cc70119a67d5d1b644155123219a8af14fd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7ee577651694f0553447d6e9d0851402a586f363
+ms.sourcegitcommit: 630a0b3f800f36ced49b79156dd52132904fef75
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6761259"
+ms.lasthandoff: 01/25/2021
+ms.locfileid: "5060770"
 ---
 # <a name="set-up-global-withholding-tax"></a>Nustatykite visuotinį išskaitymo mokestį
 
@@ -45,6 +47,3 @@ ms.locfileid: "6761259"
 7. Nustatykite išskaitomo mokesčio grupes **Prekės išskaitymo mokesčio grupių** puslapyje prekei ar paslaugoms.
 
 8. Nustatykite **Mažiausią sąskaitos sumą** puslapyje **Bendrosios apskaitos knygos parametrai > Išskaitymo mokesčio** puslapyje.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

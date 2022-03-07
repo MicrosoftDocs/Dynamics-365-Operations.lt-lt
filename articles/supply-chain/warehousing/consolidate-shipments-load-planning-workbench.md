@@ -1,5 +1,5 @@
 ---
-title: Siuntų konsolidacija išleidžiant į sandėlį iš krovinio planavimo darbo srities
+title: Siuntų konsolidacija naudojant išleidimo į sandėlį funkciją krovinio planavimo darbo srityje
 description: Šioje temoje pateikiamas scenarijus, kai į sandėlį išleidžiami keli to paties krovinio užsakymai, o tada jie automatiškai konsoliduojami į siuntas.
 author: GarmMSFT
 ms.date: 05/12/2020
@@ -10,17 +10,17 @@ ms.search.form: WHSShipConsolidationPolicy, WHSShipConsolidationWorkbench
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: mirzaab
+ms.author: kamaybac
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: b724b3f040a1b277d99dd067525dfda2b47ca73b
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 58a1f6237e37815dd0b4ae3d7a0d46157db5a808
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577893"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5831343"
 ---
-# <a name="consolidate-shipments-by-releasing-to-warehouse-from-the-load-planning-workbench"></a>Siuntų konsolidacija išleidžiant į sandėlį iš krovinio planavimo darbo srities
+# <a name="consolidate-shipments-by-using-release-to-warehouse-from-the-load-planning-workbench"></a>Siuntų konsolidacija naudojant išleidimo į sandėlį funkciją krovinio planavimo darbo srityje
 
 [!include [banner](../includes/banner.md)]
 

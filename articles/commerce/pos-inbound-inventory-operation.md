@@ -2,16 +2,13 @@
 title: Gaunamų atsargų operacijos EKA
 description: Šioje temoje aprašomos gaunamų atsargų operacijų elektroniniame kasos aparate (EKA) galimybės.
 author: hhaines
-manager: annbe
 ms.date: 09/17/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,21 +16,21 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 89021a85c2b215695d7cc25215c049205f71956d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 8848c10e9f8f931ee66414075d28b8910a02e5a000525a63bc38ab6851f11276
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4414374"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6741787"
 ---
-# <a name="inbound-inventory-operation-in-pos"></a>Gaunamų atsargų operacijos EKA
+# <a name="inbound-inventory-operation-in-pos"></a>Atvežamų atsargų operacija EKA
 
 [!include [banner](includes/banner.md)]
 
 „Microsoft Dynamics 365 Commerce“ 10.0.10 ir naujesnėse versijoje gaunamos ir siunčiamos operacijos elektroniniame kasos aparate (EKA) keičia paėmimo ir gavimo operacijas.
 
 > [!NOTE]
-> Komercijos versijoje 10.0.10 ir velesnėse, bet kokios naujos savybės POS programoje, susijusios su parduotuvės atsargų gavimo pagal prekybos užsakymos ir perdavimo užsakymus bus pridėtos prie **Vidaus operacijos** POS veikimo. Jei šiuo metu naudojate EKA paėmimo ir gavimo operaciją, rekomenduojame sukurti strategiją, skirtą pakeisti šią operaciją naujomis gaunamomis ir siunčiamomis operacijomis. Nors paėmimo ir gavimo operacija nebus pašalinta iš produkto, po 10.0.9. versijos į ją nebebus investuojama funkciniu ir našumo požiūriu.
+> Komercijos versijoje 10.0.10 ir vėlesnėse, bet kokios naujos savybės EKA programoje, susijusios su parduotuvės atsargų gavimo pagal prekybos užsakymus ir perdavimo užsakymus bus pridėtos prie **Vidaus operacijos** EKA veikimo. Jei šiuo metu naudojate EKA paėmimo ir gavimo operaciją, rekomenduojame sukurti strategiją, skirtą pakeisti šią operaciją naujomis gaunamomis ir siunčiamomis operacijomis. Nors paėmimo ir gavimo operacija nebus pašalinta iš produkto, po 10.0.9. versijos į ją nebebus investuojama funkciniu ir našumo požiūriu.
 
 ## <a name="prerequisite-configure-an-asynchronous-document-framework"></a>Būtinoji sąlyga: nesinchroninės dokumentų sistemos konfigūravimas
 
@@ -59,7 +56,7 @@ Norėdami sukonfigūruoti nesinchroninę dokumentų sistemą, atlikite toliau pa
 ### <a name="create-and-schedule-two-batch-jobs-for-the-document-processing-and-monitoring-tasks"></a>Dviejų paketinių užduočių, skirtų dokumentų apdorojimo ir stebėjimo užduotims, kūrimas ir planavimas
 
 > [!NOTE]
-> Komercinėje versijoje 10.0.13 ir velesnėje, neprivalote konfigūruoti šių paketinių užduočių per paketinės užduotės sistemą. Paketiniai procesai gali būti konfigūruojami per **Mažmeninė prekyba ir Komercija > Mažmeninės prekybos ir Komercijos IT** meniu. Naudokite **Mažmeninės prekybos dokumento operacijų stebėjimą** ir **Mažmeninės prekybos dokumento operacijos apdorojimo** meniu parinktis paketinių užduočių konfigūravimui.
+> Komercinėje versijoje 10.0.13 ir vėlesnėje, neprivalote konfigūruoti šių paketinių užduočių per paketinės užduoties sistemą. Paketiniai procesai gali būti konfigūruojami per **Mažmeninė prekyba ir Komercija > Mažmeninės prekybos ir Komercijos IT** meniu. Naudokite **Mažmeninės prekybos dokumento operacijų stebėjimą** ir **Mažmeninės prekybos dokumento operacijos apdorojimo** meniu parinktis paketinių užduočių konfigūravimui.
 
 Jūsų sukurtos paketinės užduotys bus naudojamos dokumentams, kurių nepavyko sukurti arba kurių kūrimui skirtas laikas baigėsi, apdoroti. Taip pat jos bus naudojamos, kai aktyvių atsargų dokumentų, apdorojamų EKA, skaičius viršys sistemos sukonfigūruotą vertę.
 
@@ -73,7 +70,7 @@ Jūsų sukurtos paketinės užduotys bus naudojamos dokumentams, kurių nepavyko
 
 ## <a name="prerequisite-add-inbound-operation-to-the-pos-screen-layout"></a>Būtinoji sąlyga: įtraukti gaunamą operaciją į EKA ekrano maketą
 
-Prieš jūsų organizacijai naudojant gaunamų operacijų funkciją, reikia sukonfigūruoti EKA operaciją **Gaunamos operacijos** viename ar daugiau [EKA ekrano maketų](https://docs.microsoft.com/dynamics365/unified-operations/retail/pos-screen-layouts). Prieš diegdami naują operaciją gamybos aplinkoje, įsitikinkite, kad kruopščiai ją išbandėte ir apmokėte savo vartotojus ją naudoti.
+Prieš jūsų organizacijai naudojant gaunamų operacijų funkciją, reikia sukonfigūruoti EKA operaciją **Gaunamos operacijos** viename ar daugiau [EKA ekrano maketų](/dynamics365/unified-operations/retail/pos-screen-layouts). Prieš diegdami naują operaciją gamybos aplinkoje, įsitikinkite, kad kruopščiai ją išbandėte ir apmokėte savo vartotojus ją naudoti.
 
 ## <a name="overview"></a>Apžvalga
 
@@ -162,9 +159,9 @@ Jei reikia, galite pasirinkti **Gauti viską** programos juostoje, kad greitai p
 
 Ši funkcija veikia tik pirkimo užsakymo gavimui. Neįmanoma gauti prekių, pagal perkėlimo užsakymus, kai prekės prieš tai nebuvo užsakytos ir išsiųstos iš siuntimo sandėlio.
 
-Vartotojai negali pridėti naujų prekių į pirkimo užsakymą EKA gavimo metu, jei pirkimo užsakymas [keisti valdymo darbo eigą](https://docs.microsoft.com/dynamics365/supply-chain/procurement/purchase-order-approval-confirmation) yra įgalintas prekybos būstinėje (PB). Kad įgalintumėte pakeitimų tvarkymą, pirmiausia visi pirkimo užsakymo pakeitimai privalo būti patvirtinti prieš leidžiant gavimą. Kadangi šis procesas leidžia gavėjui pridėti naujas eilutes į pirkimo užsakymą, gavimas bus nesėkmingas, jei pakeitimų tvarkymo darbo eiga bus įjungta. Jei pakeitimų tvarkymas yra įgalintas visiems pirkimo užsakymams arba tiekėjui, susietu su pirkimo užsakymu, kuris yra aktyviai gaunamas EKA, vartotojas negali pridėti naujų prekių į pirkimo užsakymą EKA gavimo metu. 
+Vartotojai negali pridėti naujų prekių į pirkimo užsakymą EKA gavimo metu, jei pirkimo užsakymas [keisti valdymo darbo eigą](../supply-chain/procurement/purchase-order-approval-confirmation.md) yra įgalintas prekybos būstinėje (PB). Kad įgalintumėte pakeitimų tvarkymą, pirmiausia visi pirkimo užsakymo pakeitimai privalo būti patvirtinti prieš leidžiant gavimą. Kadangi šis procesas leidžia gavėjui pridėti naujas eilutes į pirkimo užsakymą, gavimas bus nesėkmingas, jei pakeitimų tvarkymo darbo eiga bus įjungta. Jei pakeitimų tvarkymas yra įgalintas visiems pirkimo užsakymams arba tiekėjui, susietu su pirkimo užsakymu, kuris yra aktyviai gaunamas EKA, vartotojas negali pridėti naujų prekių į pirkimo užsakymą EKA gavimo metu.
 
-Funkcija, įgalinanti pridėti eilutes, negali būti naudojama kaip apėjimo būdas gauti papildomus prekių kiekius, kurie jau įtraukti į pirkimo užsakymą. Per didelis gavimas yra tvarkomas per standartinius [per didelis gavimas](https://docs.microsoft.com/dynamics365/commerce/pos-inbound-inventory-operation#over-receiving-validations) parametrus, pritaikytus pirkimo užsakymo produkto eilutei. 
+Funkcija, įgalinanti pridėti eilutes, negali būti naudojama kaip apėjimo būdas gauti papildomus prekių kiekius, kurie jau įtraukti į pirkimo užsakymą. Per didelis gavimas yra tvarkomas per standartinius [per didelis gavimas](#over-receiving-validations) parametrus, pritaikytus pirkimo užsakymo produkto eilutei.
 
 Jeigu funkcija **Pridėti eilutes į pirkimo užsakymą EKA gavimo metu** yra įgalinta ir vartotojas gauna kartu su EKA **Grįžtama operacija**, jeigu vartotojas nuskaito ar įveda prekės brūkšninį kodą ar numerį, kuris nėra atpažintas kaip prekė, esanti dabartiniame pirkimo užsakyme, bet yra atpažintas kaip tinkama prekė, tuomet vartotojas gauna pranešimą apie prekės įtraukimą į pirkimo užsakymą. Jei vartotojas prideda prekę į pirkimo užsakymą, kiekis įvestas į **Gaunama dabar** laikomas pirkimo užsakymo eilutei užsakytu kiekiu.
 
@@ -182,7 +179,7 @@ Kai pasirenkate **Pristabdyti gavimą**, dokumento būsena pakeičiama į **Pris
 
 ### <a name="review"></a>Peržiūra
 
-Prieš paskutinį komercijos biuro kvito įsipareigojimą, galite naudoti Peržiūros funkciją tam, kad peržiūrėtumėte funkciją ir patvirtintumėte vidaus dokumentą. Peržiūra perspės jus apie visus dingusius ar neteisingus duomenis, kurie galėjo sukelti apdorojimo sutrikimą ir suteiks jums galimybę pataisyti problemas prie kvito užklausos pateikimą. Tam, kad įjungtumėte **Peržiūros** funkciją programų juostoje, įjunkite **Įjungti POS patvirtinimą vidaus ir išorės atsargų operacijose** funkciją per **Funkcijos valdymo** darbo sritį komercijos štabe (HQ).
+Prieš paskutinį komercijos biuro kvito įsipareigojimą, galite naudoti Peržiūros funkciją tam, kad peržiūrėtumėte funkciją ir patvirtintumėte vidaus dokumentą. Peržiūra perspės jus apie visus dingusius ar neteisingus duomenis, kurie galėjo sukelti apdorojimo sutrikimą ir suteiks jums galimybę pataisyti problemas prie kvito užklausos pateikimą. Tam, kad įjungtumėte **Peržiūros** funkciją programų juostoje, įjunkite **Įjungti EKA patvirtinimą vidaus ir išorės atsargų operacijose** funkciją per **Funkcijos valdymo** darbo sritį komercijos štabe (HQ).
 
 **Peržiūros** funkcija patvirtina tolesnes problemas vidaus dokumente:
 
@@ -190,7 +187,7 @@ Prieš paskutinį komercijos biuro kvito įsipareigojimą, galite naudoti Perži
 - **Per mažas gavimas** – dabar gavimo kiekis yra mažesnis nei užsakytas kiekis. Šios problemos rimtumą nulemia per mažo gavimo konfigūravimas biuro štabe (HQ).
 - **Serijinis numeris** – serijinis numeris nėra pateiktas ar nepatvirtintas serijiniuose elementuose, kurie reikalauja serijinio numerio registravimui inventoriuje.
 - **Vieta nenustatyta** – vieta nėra nustatyta vietos kontroliuojamam elementui, kuriame tuščia vieta nėra leidžiama.
-- **Panaikinti eilutes** – užsakymas turi aa komercijos štabo (HQ) naudotojo panaikintų eilučių, kurios yra nežinomos POS programai.
+- **Panaikinti eilutes** – užsakymas turi aa komercijos štabo (HQ) naudotojo panaikintų eilučių, kurios yra nežinomos EKA programai.
 
 Nustatykite **Įjungti automatinį patvirtinimą** parametrą į **Taip** **Prekybos parametruose** > **Atsargos** > **Atsargų laikymas** tam, kad patvirtinimas būtų įgyvendinamas automatiškai, kai **Pabaigtas gavimas** yra pasirinktas.
 
@@ -221,3 +218,6 @@ Dokumentui įgijus būseną **Pageidaujama**, jis matomas skirtuke **Aktyvieji**
 ## <a name="related-topics"></a>Susijusios temos
 
 [Siunčiamų atsargų operacijos EKA](pos-outbound-inventory-operation.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

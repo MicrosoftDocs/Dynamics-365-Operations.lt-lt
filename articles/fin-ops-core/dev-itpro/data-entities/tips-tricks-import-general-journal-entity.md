@@ -1,10 +1,12 @@
 ---
-title: Geriausia kvitų importavimo praktika naudojant bendrojo žurnalo objektą
+title: Geriausia kvitų importavimo praktika naudojant objektą Bendrasis žurnalas
 description: Šioje temoje pateikiama patarimų, kaip į bendrąjį žurnalą importuoti duomenų naudojant objektą Bendrasis žurnalas.
 author: rcarlson
+manager: AnnBe
 ms.date: 04/20/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
@@ -14,19 +16,16 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 42bc804393d050e5ff722c46c9ce50ece54c5a0b
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
-ms.translationtype: MT
+ms.openlocfilehash: f5b36e11bd9ef338334f7ac1b6412edb7754010f
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065075"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4687648"
 ---
-# <a name="importing-vouchers-by-using-the-general-journal-entity"></a>Geriausia kvitų importavimo praktika naudojant bendrojo žurnalo objektą
+# <a name="best-practices-for-importing-vouchers-by-using-the-general-journal-entity"></a>Geriausia kvitų importavimo praktika naudojant objektą Bendrasis žurnalas
 
 [!include [banner](../includes/banner.md)]
-
-
-[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Šioje temoje pateikiama patarimų, kaip į bendrąjį žurnalą importuoti duomenų naudojant objektą Bendrasis žurnalas.
 
@@ -66,6 +65,3 @@ Tolesniuose skyriuose aprašomas šių parametrų poveikis. Juose taip pat aišk
 - Jei laukas **Kvito numeris** nustatytas į parinktį **Automatiškai sugeneruotas**, importuoti nepavyks. Lauko **Kvito numeris** nustatymas **Automatiškai sugeneruotas** nepalaikomas.
 
 Pagal numatytuosius parametrus objektas Bendrasis žurnalas naudoja rinkiniu pagrįstą apdorojimą. Įvertinę savo organizacijos verslo poreikius, nustatymą **Rinkiniu pagrįstas apdorojimas** galite pakeisti, darbo srityje **Duomenų valdymas** spustelėdami **Duomenų objektai**. Rinkiniu pagrįstas apdorojimas yra naudojamas importavimo procesui pagreitinti. Jeigu naudojate rinkiniu pagrįsto apdorojimo, importavimo procesas naudojant objektą Bendrasis žurnalas bus lėtesnis.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

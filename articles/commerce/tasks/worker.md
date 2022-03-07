@@ -1,30 +1,27 @@
 ---
-title: " Konfigūruoti darbininką"
+title: Konfigūruoti darbininką
 description: Šioje procedūroje parodoma, kaip darbininką sukonfigūruoti kaip pardavimo atstovą, kuriam taikomi EKA pardavimo komisiniai.
 author: jblucher
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CommissionSalesGroup, CommissionSalesMember, DirPartyLookup, HcmWorker
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: fd437f549ffc1f8879ce3814ace1193040b280e1
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 43e65de1fda223c2d0503848e7e57936898c1b73
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4414436"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5804070"
 ---
-# <a name="configure-a-worker"></a> Konfigūruoti darbininką
+# <a name="configure-a-worker"></a>Konfigūruoti darbininką
 
 [!include [banner](../includes/banner.md)]
 
@@ -57,3 +54,6 @@ ms.locfileid: "4414436"
 6. Lauke Numatytoji grupė įveskite arba pasirinkite reikšmę.
 7. Spustelėkite Įrašyti.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

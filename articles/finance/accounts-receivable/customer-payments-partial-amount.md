@@ -2,9 +2,11 @@
 title: Kliento dalinės sumos mokėjimai
 description: Kartais klientai atlieka mokėjimą, kuris yra mažesnis nei sąskaitos faktūros suma. Šiame straipsnyje aprašytos įvairios pasirinktys šiai situacijai tvarkyti. Jums prieinamos parinktys priklauso nuo jūsų verslo poreikių ir konfigūracijų.
 author: ShivamPandey-msft
+manager: AnnBe
 ms.date: 01/08/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustPaymEntry
 audience: Application User
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2b4a930f7bb070d3105eff3978774bfd8a3ffbfd2b8eb77097028411da619c64
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 382efadbac2cece209331c79de4095586f12d4a7
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6769040"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5012229"
 ---
 # <a name="customer-payments-for-a-partial-amount"></a>Kliento dalinės sumos mokėjimai
 
@@ -28,7 +30,8 @@ ms.locfileid: "6769040"
 
 Kartais klientai atlieka mokėjimą, kuris yra mažesnis nei sąskaitos faktūros suma. Šiame straipsnyje aprašytos įvairios pasirinktys šiai situacijai tvarkyti. Jums prieinamos parinktys priklauso nuo jūsų verslo poreikių ir konfigūracijų.
 
-## <a name="partial-payment-with-no-discount"></a>Dalinis mokėjimas be nuolaidos
+<a name="partial-payment-with-no-discount"></a>Dalinis mokėjimas be nuolaidos
+--------------------------------
 
 Klientai gali sumokėti dalį sumos, nes tiesiog neturi pakankamai grynųjų pinigų visai sąskaitos faktūros sumai apmokėti arba kilus konfliktui dėl prekės, už kurią išrašyta sąskaita faktūra. Tokiu atveju sąskaitą faktūrą galima iš dalies sudengti atliekant mokėjimą. Sąskaita faktūra liks atidaryta ir joje bus rodomas balansas.
 
@@ -56,6 +59,3 @@ Klientai gali atlikti dalinį mokėjimą, jei likusi suma nebus mokama, tačiau 
 
 
 Daugiau informacijos žr. [Mokėti kliento mokėjimus](tasks/deposit-customer-payments.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

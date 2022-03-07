@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: fde81efed6b8a72e2149056f0196e4f9d60e59f2
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: bc1a8570e60e2b17f27c3e63c5ff847b3cb7a2dd
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7345524"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358463"
 ---
 # <a name="calculate-tds-on-invoices-using-journals"></a>Skaičiuoti SF TDS naudojant žurnalus
 
@@ -65,6 +65,6 @@ Pradėkite veiksmą atidarydami **Bendrųjų žurnalų** puslapį (**Didžioji k
 
 8. Įveskite kitą reikiamą informaciją. Patikrinkite ir užregistruokite žurnalą. TDS suma, apskaičiuota pirkimo SF, užregistruojama mokėtinoje sąskaitoje. TDS suma, apskaičiuota pardavimo SF, užregistruojama gautinų sumų sąskaitoje, kuri nustatoma kiekvienam TDS mokesčio kodui TDS grupėje. TDS mokesčių kodų mokėtinos sumos arba gautinos sąskaitos nustatomos puslapyje **Išskaitomo mokesčio kodai**.
 
-9. Rinkitės **Publikuotas išskaitomas mokestis** norėdami atverti **Išskaitomo mokesčio perlaidų** puslapį. Laukelyje **Vertė** – bendrasis procentas, naudojamas rodomos operacijos TDS apskaičiuoti.
+9. Rinkitės **Publikuotas išskaitomas mokestis** norėdami atverti **Išskaitomo** **mokesčio** **perlaidų** puslapį. Laukelyje **Vertė** – bendrasis procentas, naudojamas rodomos operacijos TDS apskaičiuoti.
 
    Laukeliai **Peržiūra**, **Bendra** ir **Suma** skirtukuose išskaitomo mokesčių operacijų puslapyje rodo apskaičiuotą TDS sumą ir pakoreguotos TDS sumos informaciją kiekvienam TDS mokesčių kodui, pridėtame prie TDS grupės.

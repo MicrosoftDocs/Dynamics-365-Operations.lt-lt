@@ -1,7 +1,7 @@
 ---
 title: Susieti atsargų paketus
 description: Šiame straipsnyje pateikiama informacijos apie tai, kaip konsoliduoti du arba kelis atsargų paketus sulietame pakete.
-author: yufeihuang
+author: pjacobse
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 39782
 ms.assetid: 07c5e98b-10fd-4f5c-b471-41d2150f47b0
 ms.search.region: Global
-ms.author: yufeihuang
+ms.author: pjacobse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 83c7fa6bf596510c3b902c12433cc55842ebe0b4
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: b3594e9f5e26eeecbcb22e67807df9720fdd9ef8
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7571910"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5808189"
 ---
 # <a name="merge-inventory-batches"></a>Susieti atsargų paketus
 
@@ -130,7 +130,7 @@ Produktų dimensijos, sekimo dimensijos ir saugojimo dimensijos tvarkomos toliau
 ## <a name="how-does-posting-work"></a>Kaip veikia registravimas?
 Registravimas veikia dviem būdais, atsižvelgiant į tai, ar naudojate žurnalų patvirtinimo procesą. Galite naudoti veiksmus **Perkelti į žurnalą** ir **Registruoti paketų suliejimą** norėdami perkelti paketo suliejimą į žurnalą, kur jį galima patikrinti ir užregistruoti, arba galite paketo suliejimą užregistruoti tiesiogiai. Pagrindinis dviejų veiksmų skirtumas yra tas, kad perkeliant į žurnalą paketų suliejimas neregistruojamas. Abiem veiksmais sukuriamas naujas paketas, jei nepasirinktas esamas, atnaujinama visa paketo informacija ir atributų reikšmės bei sukuriamas atsargų žurnalas.
 
--   **Perkelti į žurnalą** – paketų suliejimo informaciją perkelti į naują atsargų žurnalą. Jei nustatėte automatinį rezervavimą, rezervuojami šaltinio paketų kiekiai. Paketų suliejimo informacijos pakeisti negalima. Norėdami modifikuoti paketų suliejimą, turite panaikinti žurnalą. Žurnalas gali būti naudojamas kaip užduotis, kurią vėliau turi atlikti kitas darbuotojas. Paketo kiekio rezervavimas žurnalo eilutėje yra saugomas. Toks paskirstymas leidžia kokybės planuotojui ar sandėlio vadovui kurti užduotis savo darbuotojams.
+-   **Perkelti į žurnalą** – paketų suliejimo informaciją perkelti į naują atsargų žurnalą. Jei nustatėte automatinį rezervavimą, rezervuojami šaltinio paketų kiekiai. Paketų suliejimo informacijos pakeisti negalima. Norėdami modifikuoti paketų suliejimą, turite panaikinti žurnalą. Žurnalas gali būti naudojamas kaip užduotis, kurią vėliau turi atlikti kitas darbuotojas. Paketo kiekio rezervavimas žurnalo eilutėje yra saugomas. Toks paskirstymas kokybės planuotojui ar sandėlio vadovui leidžia kurti užduotis savo darbuotojams.
 -   **Registruoti paketų suliejimą** – paketų suliejimą registruoti tiesiogiai. Šį veiksmą galima atlikti įvykus fiziniam suliejimui.
 
 Galite patvirtinti paketų suliejimo atsargų žurnalą sąrašo puslapyje **Visi paketų suliejimai**. Spustelėkite **Žurnalas** &gt; **Registruoti**. Užregistravus žurnalą, negalima pakeisti sulieto paketo informacijos. Kai perkeliate paketų susiejimą į atsargų žurnalą, informaciją galite pakeisti, tik jei žurnalas panaikinamas.

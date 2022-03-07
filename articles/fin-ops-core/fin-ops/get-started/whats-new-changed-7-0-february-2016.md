@@ -2,11 +2,9 @@
 title: Kas nauja ar pasikeitė programoje „Dynamics AX 7.0“ (2016 m. vasario mėn.)
 description: Šiame straipsnyje aprašomos naujos ir pakeistos „Microsoft Dynamics AX 7.0“ funkcijos. Šioje versijoje pateikiamos platformos ir programos funkcijos, ir ji išleista 2016 m. vasario mėn.
 author: sericks007
-manager: AnnBe
 ms.date: 10/23/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ROBOTS: NOINDEX, NOFOLLOW
 audience: Application User, Developer, IT Pro
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3c1b63ba623eb1699938476825a77fd40d838142
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
-ms.translationtype: HT
+ms.openlocfilehash: bcc69cbf418131d0b1747f1c904de3188d7ba84216cb3145607b45553263244c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4797224"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6757224"
 ---
 # <a name="whats-new-or-changed-in-dynamics-ax-70-february-2016"></a>Kas nauja ar pasikeitė programoje „Dynamics AX 7.0“ (2016 m. vasario mėn.)
 
@@ -734,7 +732,7 @@ Darbo srityje <strong>Katalogų valdymas</strong> galima naudoti toliau nurodyta
 </tr>
 <tr>
 <td>Perkelkite duomenis tarp „Microsoft Dynamics AX“ operacijų skyriaus ir kanalų naudodami „Commerce Data Exchange“.</td>
-<td>„Commerce Data Exchange“ yra sistema, kuri perkelia duomenis tarp „Microsoft Dynamics AX“ ir mažmeninės prekybos kanalų, pvz., interneto parduotuvių ar fizinių parduotuvių. Daugiau informacijos rasite <a href="https://technet.microsoft.com/library/dn741440.aspx">Commerce Data Exchange [AX 2012]</a>.</td>
+<td>„Commerce Data Exchange“ yra sistema, kuri perkelia duomenis tarp „Microsoft Dynamics AX“ ir mažmeninės prekybos kanalų, pvz., interneto parduotuvių ar fizinių parduotuvių. Daugiau informacijos rasite <a href="/dynamicsax-2012/appuser-itpro/commerce-data-exchange">Commerce Data Exchange [AX 2012]</a>.</td>
 <td>Funkcijos atitinka „Microsoft Dynamics AX 2012 CU8“ funkcijas. Tačiau atminkite toliau pateiktą informaciją.
 <ul>
 <li>„Commerce Data Exchange“ iš naujo suprojektuota debesiui.</li>
@@ -1033,3 +1031,6 @@ Nepridėta jokių naujų funkcijų.
 [Kas nauja ar pasikeitė „Finance and Operations“ pagrindiniame puslapyje](whats-new-changed.md)
 
 [Nauji užduočių vedliai (2016 m. vasario mėn.)](new-task-guides-available-february-2016.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

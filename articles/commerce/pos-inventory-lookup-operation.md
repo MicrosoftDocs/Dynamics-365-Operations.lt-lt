@@ -2,7 +2,7 @@
 title: Atsargų paieškos operacija EKA
 description: Šioje temoje aprašoma, kaip naudoti atsargų peržvalgos operaciją kasos punkte (EKA) norint peržiūrėti turimų produktų atsargas parduotuvėse ir „Dynamics 365 Commerce“ sandėliuose.
 author: boycezhu
-ms.date: 08/12/2021
+ms.date: 05/11/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application update 5, AX 8.0
-ms.openlocfilehash: ded7c0aa00d0806dfe4eb4e182abbbf66fd76d5b
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: b697583f2ebf9950ad805d4f415dafb2c891de8052d4a47563b048059475030f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7343841"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6745337"
 ---
 # <a name="inventory-lookup-operation-in-pos"></a>Atsargų paieškos operacija EKA
 
@@ -52,26 +52,25 @@ Vietų sąrašo rodinys apima visas parduotuves ir sandėlius, sukonfigūruotus 
 
 Toliau nurodyti veiksmai galimi EKA programų juostoje:
 
-- **Rūšiuoti** – šis veiksmas leidžia EKA vartotojui rūšiuoti duomenis sąrašo rodinyje pagal įvairius kriterijus. Rūšiavimas pagal vietą yra numatytoji rūšiavimo pasirinktis.
-
-    - **Geografinė vieta** (nuo artimiausios vietos iki tos vietos, palyginti su dabartinės parduotuvės atstumu)
-    - **Pavadinimas** (didėjimo ar mažėjimo tvarka)
-    - **Parduotuvės numeris** (didėjimo ar mažėjimo tvarka)
-    - **Atsargos** (mažėjimo tvarka)
-    - **Užsakyta** (mažėjimo tvarka)
-    - **Užsakyta** (mažėjimo tvarka)
-
+- **Rūšiuoti** – šis veiksmas leidžia EKA vartotojui rūšiuoti duomenis sąrašo rodinyje pagal įvairius kriterijus. Rūšiavimas pagal vietą yra numatytoji rūšiavimo pasirinktis. 
+  - **Geografinė vieta** (nuo artimiausios vietos iki tos vietos, palyginti su dabartine parduotuve)
+  - **Pavadinimas** (didėjimo ar mažėjimo tvarka)
+  - **Parduotuvės numeris** (didėjimo ar mažėjimo tvarka)
+  - **Atsargos** (mažėjimo tvarka)
+  - **Užsakyta** (mažėjimo tvarka)
+  - **Užsakyta** (mažėjimo tvarka)
 - **Filtras** – šis veiksmas leidžia EKA vartotojo peržiūrėti filtruotus duomenis tam tikroje vietoje.
 - **Rodyti parduotuvės pasiekiamumą** – šis veiksmas leidžia EKA vartotojui peržiūrėti prieinamus prieinamus atsargų (ATP) kiekius pasirinktoje parduotuvėje.
 - **Rodyti parduotuvės vietą** – šiuo veiksmu atidaromas atskiras puslapis, kuriame rodomas pasirinktos parduotuvės žemėlapio rodinys, adresas ir parduotuvės valandos.
-- **Paėmimo parduotuvė** – Šis veiksmas sukuria kliento užsakymą, skirtą produkto variantui, kuris bus paimtas iš pasirinktos parduotuvės ir nukreipia vartotoją į operacijos ekraną.
-- **Produkto siuntimas** – Šis veiksmas sukuria kliento užsakymą, skirtą produkto variantui, kuris bus siunčiamas iš pasirinktos parduotuvės ir nukreipia vartotoją į operacijos ekraną.
+- **Paėmimo parduotuvė** - Šis veiksmas sukuria kliento užsakymą, skirtą produkto variantui, kuris bus paimtas iš pasirinktos parduotuvės ir nukreipia vartotoją į operacijos ekraną.
+- **Produkto siuntimas** - Šis veiksmas sukuria kliento užsakymą, skirtą produkto variantui, kuris bus siunčiamas iš pasirinktos parduotuvės ir nukreipia vartotoją į operacijos ekraną.
 - **Peržiūrėti visus variantus** – jei produktas turi variantų, šis veiksmas perjungiamas iš sąrašo rodinio į matricos rodinį, kuriame rodoma informacija apie visų produkto variantų atsargas.
 - **Įtraukti į operaciją** – šiuo veiksmu produktas pridedamas prie krepšelio ir nukreipia vartotoją į operacijos ekraną.
 
 > [!NOTE]
-> Vieta pagrįsta rikiavimo tvarka, kuri buvo įvesta „Commerce" 10.0.17 leidime, rodo dabartinę parduotuvę viršuje. Dėl kitų vietų, vietos rūšiavimo atstumą tarp vietos ir dabartinės parduotuvės lemia „Commerce Headquarters" apibrėžtos koordinatės (platumos ir ilgumos). Informacija apie parduotuvę apibrėžiama pirminiame su parduotuve susieto valdymo vieneto adrese. Ne parduotuvės sandėliui vietos informacija nustatoma sandėlio adrese. Prieš versijai 10.0.17 sąrašo rodinyje visada rodoma dabartinė parduotuvė viršuje ir rūšiuojamos kitos vietos abėcėlės tvarka.
->
+> Vietos rūšiavimo atstumą tarp vietos ir dabartinės parduotuvės lemia „Commerce Headquarters" apibrėžtos koordinatės (platumos ir ilgumos). Informacija apie parduotuvę apibrėžiama pirminiame su parduotuve susieto valdymo vieneto adrese. Ne parduotuvės sandėliui vietos informacija nustatoma sandėlio adrese. Jei dabartinė parduotuvė neturi apibrėžtų koordinačių, pagal vietą nustatyta rūšiavimo pasirinktis sąrašo viršuje rodys dabartinę parduotuvę, o tada surūšiuos kitas vietas pagal pavadinimą.
+
+> [!NOTE]
 > **Rodyti parduotuvės pasiekiamumą**, **Rodyti parduotuvės vietą**, **Paėmimas parduotuvėje** ir **Produkto siuntimo** veiksmai nėra prieinami ne parduotuvės vietose.
 
 ## <a name="inventory-lookup-matrix-view-for-variants"></a>Variantų atsargų peržvalgos matricos rodinys
@@ -95,10 +94,10 @@ Dimensijų verčių rodymo tvarka matricos rodinyje yra pagrįsta dimensijos rod
 Galimi veiksmai yra prieinami matricos rodymo laukelyje:
 
 - **Parduoti dabar** – šiuo veiksmu pasirenkamas variantas prie krepšelio ir nukreipia vartotoją į operacijos ekraną.
-- **Paėmimo parduotuvė** – Šis veiksmas sukuria kliento užsakymą, pasirinktam variantui, kuris bus paimtas iš pasirinktos parduotuvės ir nukreipia vartotoją į operacijos ekraną.
-- **Produkto siuntimas** – Šis veiksmas sukuria kliento užsakymą, pasirinktam variantui, kuris bus siunčiamas iš pasirinktos parduotuvės ir nukreipia vartotoją į operacijos ekraną.
+- **Paėmimo parduotuvė** - Šis veiksmas sukuria kliento užsakymą, pasirinktam variantui, kuris bus paimtas iš pasirinktos parduotuvės ir nukreipia vartotoją į operacijos ekraną.
+- **Produkto siuntimas** - Šis veiksmas sukuria kliento užsakymą, pasirinktam variantui, kuris bus siunčiamas iš pasirinktos parduotuvės ir nukreipia vartotoją į operacijos ekraną.
 - **Pasiekiamumas** – šiuo veiksmu vartotojas pereis į atskirą puslapį, kuriame rodomi pasirinktos parduotuvės pasirinkto varianto ATP kiekiai.
-- **Rodyti visas vietas** – is veiksmas perjungia į standartinį atsargų prieinamumo sąrašo rodinį, kuriame rodoma pasirinkto varianto atsargų informacija.
+- **Rodyti visas vietas** - is veiksmas perjungia į standartinį atsargų prieinamumo sąrašo rodinį, kuriame rodoma pasirinkto varianto atsargų informacija.
 - **Peržiūrėti išsamią produkto informaciją** – šiuo veiksmu vartotojas nukreipiamas į pasirinkto varianto produkto informacijos puslapį (PDP).
 
 ## <a name="access-inventory-lookup-from-other-pages-in-pos"></a>Pasiekti atsargų peržvalgą iš kitų EKA puslapių
@@ -125,5 +124,7 @@ Naudojant „Commerce release 10.0.9" ir anksčiau, galima faktinė atsargų per
 [EKA vartotojo sąsajos vaizdinio elemento konfigūracijos](pos-screen-layouts.md)
 
 [Mažmeninės prekybos kanalų atsargų pasiekiamumo apskaičiavimas](calculated-inventory-retail-channels.md)
+
+
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

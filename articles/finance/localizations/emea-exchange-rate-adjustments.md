@@ -2,27 +2,24 @@
 title: Valiutos kurso koregavimai
 description: Šioje temoje pateikiama informacija apie valiutos kurso koregavimo funkciją, skirtą vartotojams, kurių juridiniai subjektai yra Estijoje, Čekijos Respublikoje, Latvijoje, Lietuvoje, Lenkijoje ir Rusijoje.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 04/10/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerParameters
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 272683
 ms.search.region: Czech Republic, Estonia, Hungary, Latvia, Lithuania, Poland, Russia
 ms.author: kfend
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 8ea7993312434a25805bd7d22ade2c7b772a5c1d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f2b412a284ff2a12ba15c7a50bd6028d043141fd
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408228"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5826110"
 ---
 # <a name="exchange-rate-adjustments"></a>Valiutos kurso koregavimai
 
@@ -97,3 +94,6 @@ Sistema veikia taip pat, nepaisant to, ar puslapio **DK parametrai** dalies **Op
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

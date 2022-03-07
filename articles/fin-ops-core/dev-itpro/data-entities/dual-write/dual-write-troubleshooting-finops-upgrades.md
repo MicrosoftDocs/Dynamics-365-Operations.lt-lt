@@ -1,12 +1,10 @@
 ---
-title: Trikčių, susijusių su „Finance and Operations” programų naujinimais, šalinimas
+title: „Finance and Operations“ programų plėtočių problemų sprendimas
 description: Šioje temoje pateikiama trikčių šalinimo informacija, kuri gali padėti išspręsti problemas, susijusias su „Finance and Operations” programų naujinimais.
 author: RamaKrishnamoorthy
-manager: AnnBe
 ms.date: 03/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
@@ -18,14 +16,14 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: c76b35ed3af766f42484a118a4a0407d969b5240
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 92a95e5a0f603eb5f9afbf14ba924df168e44203
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683604"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350865"
 ---
-# <a name="troubleshoot-issues-related-to-upgrades-of-finance-and-operations-apps"></a>Trikčių, susijusių su „Finance and Operations” programų naujinimais, šalinimas
+# <a name="troubleshoot-issues-from-upgrades-of-finance-and-operations-apps"></a>„Finance and Operations“ programų plėtočių problemų sprendimas
 
 [!include [banner](../../includes/banner.md)]
 
@@ -42,7 +40,7 @@ ms.locfileid: "4683604"
 
 **Reikiamas vaidmuo, norint spręsti problemą:** sistemos administratorius
 
-Kai bandote naudoti objektą **DualWriteProjectConfiguration**, kad atnaujintumėte „Finance and Operations” programą į „Platform Update 30“, galite gauti klaidos pranešimą, panašų į šį pavyzdį.
+Kai bandote naudoti **„DualWriteProjectConfiguration”** lentelę, kad atnaujintumėte „Finance and Operations” programą į „Platform Update 30“, galite gauti klaidos pranešimą, panašų į šį pavyzdį.
 
 ```console
 Infolog diagnostic message: 'Cannot select a row in Dual write project sync (DualWriteProjectConfiguration). The SQL database has issued an error.' on category 'Error'. 10/28/2019 15:18:20: Infolog diagnostic message: 'Object Server Database Synchronizer: ' on category 'Error'. 10/28/2019 15:18:20: Infolog diagnostic message: '[Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'ISDELETE'.' on category 'Error'. 10/28/2019 15:18:20: Infolog diagnostic message: 'SELECT T1.PROJECTNAME,T1.EXTERNALENTITYNAME,T1.INTERNALENTITYNAME,T1.EXTERNALENVIRONMENTURL,T1.STATUS,T1.ENABLEBATCHLOOKUP,T1.PARTITIONMAP,T1.QUERYFILTEREXPRESSION,T1.INTEGRATIONKEY,T1.ISDELETE,T1.ISDEBUGMODE,T1.RECVERSION,T1.PARTITION,T1.RECID FROM DUALWRITEPROJECTCONFIGURATION T1 WHERE (PARTITION=5637144576)' on category 'Error'. 10/28/2019 15:18:20: Infolog diagnostic message: 'session 1043 (Admin)' on category 'Error'. 10/28/2019 15:18:20: Infolog diagnostic message: 'Stack trace: Call to TTSCOMMIT without first calling TTSBEGIN.' on category 'Error'.
@@ -53,7 +51,7 @@ Microsoft.Dynamics.AX.Framework.Database.TableSyncException: Custom action threw
 Norėdami ištaisyti klaidą, atlikite toliau nurodytus veiksmus.
 
 1. Prisijunkite prie „Finance and Operations” programos virtualiosios mašinos.
-2. Atidarykite  „Visual Studio” kaip administratorius, taip pat atidarykite programos objektų medį (AOT).
+2. Atidarykite „Visual Studio” kaip administratorius, taip pat atidarykite programos objektų medį (AOT).
 3. Ieškoti **DualWriteProjectConfiguration**.
 4. Programos objektų medyje (AOT) dešiniuoju pelės mygtuku spustelėkite **DualWriteProjectConfiguration** ir pasirinkite **Įtraukti į naują projektą**. Pasirinkite **Gerai**, kad sukurtumėte naują projektą, kuriame naudojamos numatytosios parinktys.
 5. Sprendimų naršyklėje dešiniuoju pelės klavišu spustelėkite **Projekto ypatybės** ir nustatykite **Kuriant sinchronizuoti duomenų bazę** kaip **Teisinga**.
@@ -62,7 +60,7 @@ Norėdami ištaisyti klaidą, atlikite toliau nurodytus veiksmus.
 8. Norėdami sinchronizuoti visą duomenų bazę, pasirinkite **Sinchronizuoti**.
 9. Sėkmingai atlikę visos duomenų bazės sinchronizavimą, iš naujo įvykdykite duomenų bazės sinchronizavimo veiksmą „Microsoft Dynamics Lifecycle Services (LCS)” portale ir, jei taikytina, naudokite neautomatizuoto naujinimo scenarijus, kad galėtumėte tęsti naujinimą.
 
-## <a name="missing-entity-fields-issue-on-maps"></a>Trūkstamų objektų laukų problema schemose
+## <a name="missing-table-columns-issue-on-maps"></a>Trūksta lentelės stulpelių schemose
 
 **Reikiamas vaidmuo, norint spręsti problemą:** sistemos administratorius
 
@@ -70,24 +68,27 @@ Norėdami ištaisyti klaidą, atlikite toliau nurodytus veiksmus.
 
 *Trūksta šaltinio lauko \<field name\> schemoje.*
 
-![Trūkstamo šaltinio lauko klaidos pranešimo pavyzdys](media/error_missing_field.png)
+![Trūkstamo šaltinio stulpelio klaidos pranešimo pavyzdys.](media/error_missing_field.png)
 
-Norėdami išspręsti problemą, pirmiausia atlikite šiuos veiksmus, kad įsitikintumėte, kad laukai yra objekte.
+Norėdami išspręsti problemą, pirmiausia atlikite šiuos veiksmus, kad įsitikintumėte, kad stulpeliai yra lentelėje.
 
 1. Prisijunkite prie „Finance and Operations” programos VM.
-2. Eikite į **Darbo sritys \> Duomenų valdymas**, pasirinkite plytelę **Sistemos parametrai**, tada skirtuke **Lentelės parametrai** pasirinkite **Atnaujinti objektų sąrašą**, kad atnaujintumėte lenteles.
-3. Eikite į **Darbo sritys \> Duomenų valdymas**, pasirinkite skirtuką **Duomenų lentelės** ir įsitikinkite, kad objektas yra sąraše. Jei objekto nėra sąraše, prisijunkite prie „Finance and Operations” programos VM ir įsitikinkite, kad objektas yra pasiekiamas.
+2. Eikite į **Darbo sritys \> Duomenų valdymas**, pasirinkite plytelę **Sistemos parametrai**, tada skirtuke **Lentelės parametrai** pasirinkite **Atnaujinti lentelių sąrašą** tam, kad atnaujintumėte lenteles.
+3. Eikite į **Darbo sritys \> Duomenų valdymas**, pasirinkite skirtuką **Duomenų lentelės** ir įsitikinkite, kad lentelė yra sąraše. Jei lentelės nėra sąraše, prisijunkite prie „Finance and Operations” programos VM ir įsitikinkite, kad lentelė yra pasiekiama.
 4. Eikite į „Finance and Operations” programos **dvigubo rašymo puslapį** ir atidarykite puslapį **Susiejimas su lentele**.
-5. Pasirinkite **Atnaujinti objektų sąrašą**, kad susiejimų su lentele laukai būtų užpildyti automatiškai.
+5. Pasirinkite **Atnaujinti lentelių sąrašą** tam, kad susiejimų su lentele stulpeliai būtų užpildyti automatiškai.
 
 Jei problema išlieka, atlikite šiuos veiksmus.
 
 > [!IMPORTANT]
-> Šie veiksmai padės jums pašalinti objektą ir vėl jį pridėti. Norėdami išvengti problemų, tiksliai atlikite nurodytus veiksmus.
+> Šie veiksmai padės jums pašalinti lentelę ir vėl ją pridėti. Norėdami išvengti problemų, tiksliai atlikite nurodytus veiksmus.
 
 1. „Finance and Operations” programoje eikite į **Darbo sritys \> Duomenų valdymas** ir pasirinkite plytelę **Duomenų lentelės**.
-2. Raskite objektą, kuriam trūksta atributo. Įrankių juostoje spustelėkite **Modifikuoti paskirties vietos susiejimą**.
+2. Raskite lentelę, kuriai trūksta atributo. Įrankių juostoje spustelėkite **Modifikuoti paskirties vietos susiejimą**.
 3. Srityje **Susieti išdėstymą su paskirties vieta** spustelėkite **Generuoti susiejimą**.
 4. Eikite į „Finance and Operations” programos **dvigubo rašymo puslapį** ir atidarykite puslapį **Susiejimas su lentele**.
 5. Jei atributas nėra automatiškai užpildomas schemoje, įtraukite jį neautomatiniu būdu spustelėdami mygtuką **Įtraukti atributą**, o tada – **Įrašyti**. 
 6. Pasirinkite schemą ir spustelėkite **Vykdyti**.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

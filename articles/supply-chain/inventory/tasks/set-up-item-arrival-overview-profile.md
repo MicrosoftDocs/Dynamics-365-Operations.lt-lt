@@ -1,31 +1,30 @@
 ---
 title: Gaunamų prekių apžvalgos profilio nustatymas
 description: Šioje temoje aprašyta gaunamų prekių apžvalgos profilio sąranka.
-author: ShylaThompson
-manager: tfehr
+author: yufeihuang
 ms.date: 07/30/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WMSArrivalOverviewProfile
 audience: Application User
 ms.reviewer: kamaybac
+ms.custom: intro-internal
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: kamaybac
+ms.author: yufeihuang
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5ecfe132d9b0e096c5fdf015f80a6efb34c9b178
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: a9a98c84c0dcc86e58b74f53a9061c4a0518ecbf
+ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4961439"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "7964811"
 ---
 # <a name="set-up-an-item-arrival-overview-profile"></a>Gaunamų prekių apžvalgos profilio nustatymas
 
-[!include [banner](../../includes/banner.md)]]
+[!include [banner](../../includes/banner.md)]
 
 Šioje temoje aprašyta gaunamų prekių apžvalgos profilio sąranka. Gaunamų prekių apžvalgos profilis yra rinkinys taisyklių, kurios taikomos, kai vartotojas atidaro puslapį „Gaunamų prekių apžvalga“. Šią procedūrą galite naudoti demonstracinių duomenų įmonėje USMF. Šią procedūrą paprastai atlieka gavimo klerkas.
 
@@ -44,7 +43,7 @@ ms.locfileid: "4961439"
 8. Lauke **Sandėliai** įveskite reikšmę. Filtruokite vieną ar daugiau sandėlių.  
 9. Lauke **Pristatymo būdas** pasirinkite reikšmę. Nustato filtrą, kad būtų rodomos tik šio pristatymo būdo gaunamų prekių eilutės.  
 10. Lauke **Pavadinimas** pasirinkite WHS.
-11. Lauke **Sandėlys** pasirinkite 24 sandėlį. Tai numatytasis sandėlis, kuris bus naudojamas registruotoms šio profilio gaunamų prekių eilutėms.  
+11. Lauke **Sandėlis** pasirinkite 24 sandėlį. Tai numatytasis sandėlis, kuris bus naudojamas registruotoms šio profilio gaunamų prekių eilutėms.  
 12. Lauke **Vieta** pasirinkite **Galinės durys**. Tai numatytoji vieta, kuri bus naudojama registruotoms šio profilio gaunamų prekių eilutėms.  
 13. Išplėskite arba sutraukite skyrių **Gavimo užklausos informacija**.
 14. Lauke **Apriboti į vietą** pasirinkite 2 vietą. Nustato filtrą, kad būtų rodomos tik šios teritorijos gaunamų prekių eilutės.  
@@ -53,3 +52,6 @@ ms.locfileid: "4961439"
 17. Pasirinkite **Įrašyti**.
 18. Uždarykite puslapį.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

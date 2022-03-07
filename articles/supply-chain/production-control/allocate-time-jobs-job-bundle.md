@@ -2,11 +2,9 @@
 title: Laiko paskirstymas sugrupuotų užduočių užduotims
 description: Užduotis sugrupuoti galite modulyje Gamybos vykdymas. Tada puslapyje Užduočių sąrašas tuo pačiu metu galite pradėti kelias užduotis.
 author: johanhoffmann
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: JmgBundleSlize, JmgProdParameters, JmgRegistration
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 382cf8d12d9695c80c3b13497886d20f29f3680c
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 86fbc81de8ba59f0782bd9af5b50bfcf45d5621a
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4966585"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193050"
 ---
 # <a name="allocate-time-to-jobs-in-a-job-bundle"></a>Laiko paskirstymas sugrupuotų užduočių užduotims
 
@@ -54,8 +52,8 @@ Toliau pateikiamoje lentelėje nurodytos kiekvienai užduočiai atlikti sugaišt
 
 | Užduotis    | Pradžios laikas | Pabaigos laikas | Grupės laikas |
 |--------|------------|----------|-------------|
-| 1 užduotis  | 09:00      | 11.00    | 2 valandos     |
-| 2 užduotis  | 10:00      | 13.00    | 3 valandos     |
+| 1 užduotis  | 09:00      | 11:00    | 2 valandos     |
+| 2 užduotis  | 10:00      | 13:00    | 3 valandos     |
 | 3 užduotis  | 10:00      | 15:00    | 5 valandos     |
 | Grupuoti | 09:00      | 15:00    | 6 valandos     |
 
@@ -82,7 +80,7 @@ Toliau pateikiamuose skyriuose aprašomi apskaičiuoto laiko kiekvienam paskirst
 ## <a name="net-time-allocation-key"></a>Grynojo laiko paskirstymo raktas
 Ši lentelė parodo paskirstyto laiko skaičiavimo formulę. Štai formulė: Suskaičiuotas laikas pagal ataskaitą = Grupės laikas ÷ Užduočių skaičius
 
-|                              | 09:00–10:00 (1 val.) | 10:00–11:00 (1 val.) | 11:00–13:00 (2 val.) | 13:00–15:00 (2 val.) | Paskirstytas laikas |
+| Pavyzdys                       | 09:00–10:00 (1 val.) | 10:00–11:00 (1 val.) | 11:00–13:00 (2 val.) | 13:00–15:00 (2 val.) | Paskirstytas laikas |
 |------------------------------|----------------------|----------------------|-----------------------|-----------------------|----------------|
 | Grupės užduočių skaičius | 1                    | 3                    | 2                     | 1                     | Netaikoma |
 | 1 užduotis                        | 1 ÷ 1 = 1 val.       | 1 ÷ 3 = 0,33 val.    | Netaikoma        | Netaikoma        | 1,33 valandos     |
@@ -102,11 +100,14 @@ Tarkime, tris užduotis atlieka darbuotojas, kurio valandinis uždarbis yra 12,0
 
 | Užduotis   | Koreguotų išlaidų už valandą skaičiavimas | Koreguotos išlaidos už valandą | Paskirstytas laikas | Bendrosios užduoties išlaidos |
 |-------|----------------------------------------|-------------------------|----------------|-------------------|
-| 1 užduotis | (1,33 ÷ 2) × 12.00 USD                 | 8,00 USD                | 2 valandos        | 16,00 USD         |
-| 2 užduotis | (1,33 ÷ 3) × 12.00 USD                 | 5,33 USD                | 3 valandos        | 16,00 USD         |
-| 3 užduotis | (3,33 ÷ 5) × 12.00 USD                 | 8,00 USD                | 5 valandos        | 40,00 USD         |
+| 1 užduotis | (1,33 ÷ 2) × 12,00 USD                 | 8,00 USD                | 2 valandos        | 16,00 USD         |
+| 2 užduotis | (1,33 ÷ 3) × 12,00 USD                 | 5,33 USD                | 3 valandos        | 16,00 USD         |
+| 3 užduotis | (3,33 ÷ 5) × 12,00 USD                 | 8,00 USD                | 5 valandos        | 40,00 USD         |
 
 Koreguotos išlaidos už valandą ir užduoties laikas registruojamas gamybos žurnale. **Pastaba:** jei pasirinksite pasirinktį **Išlaidų kategorija** skirtuke **Bendra**, esančiame puslapyje **Gamybos užsakymo numatytoji informacija**, faktinis kiekvienos užduoties laikas perkeliamas į gamybos žurnalą, kur savikaina taikoma konkrečios užduoties savikainos kategorijai.
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

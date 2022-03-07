@@ -2,25 +2,28 @@
 title: Nuomos registravimo tipai
 description: Šioje temoje aprašomi registravimo tipai, naudojami turto nuomos operacijose.
 author: moaamer
-ms.date: 04/12/2021
+manager: Ann Beebe
+ms.date: 10/28/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: AssetLeasePostingAccounts
+ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 721463000c05eb1774335ccce1af39468c2aed9f179e5e88d8725f4d265d6870
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ceb4fbeb4dbf2f535e05a9d46c84169435d2803b
+ms.sourcegitcommit: aeee39c01d3f93a6dfcf2013965fa975a740596a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718252"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4446202"
 ---
 # <a name="lease-posting-types"></a>Nuomos registravimo tipai
 
@@ -89,6 +92,15 @@ Sąskaita yra susieta su naudojimo teise valdomo turto priešpriešine turto są
 **Debetas:** nusidėvėjimo išlaidos XXX<br>
 **Kreditas:** sukauptas nusidėvėjimas XXX
 
+## <a name="retained-earnings"></a>Nepaskirstytas pelnas
+
+Sąskaita yra susieta su išsaugotomis pajamomis. Ši sąskaita gali būti debetuota arba kredituota į perkėlimo koregavimo žurnalo įrašą, naudojant visos retrospektyvos metodą arba kaupiamąjį atgalinės datos parinkties A metodą. Skirtumo tarp pradinio naudojimo teise valdomo turto ir noro uostos įsipareigojimo suma rezervuojama kaip išaugotos pajamos. Retais atvejais nepaskirstytas pelnas taip pat gali būti paveiktas atliekant nuomos modifikaciją, jei nuomos klasifikacija pasikeičia iš finansų į veiklos, kad būtų galima padidinti arba sumažinti naudojimo teise valdomo turto vertę ir prilyginti nuomos įsipareigojimui.
+
+**Žurnalo įrašų pavyzdžiai:** perkėlimo koregavimas (visos retrospektyvos arba kaupiamasis atgalinės datos parinkties A metodas)<br>
+**Debetas:** nuomos įsipareigojimas XXX<br>
+**Kreditas:** nuomos turtas XXX<br>
+**Kreditas:** išsaugotos pajamos XXX
+
 ## <a name="variable-payment"></a>Kintamas mokėjimas
 
 Sąskaita yra susieta su kintamaisiais nuomos mokėjimais, kuriuos sukuria indekso perkainojimas pagal ASC 842, ASC 840 ir IAS 17 nuomos sutartis. Nuomos mokėjimo grafike kintamieji mokėjimai įtraukiami į stulpelį **Kintamieji mokėjimai**. Ši sąskaita debetuojama, kai SF kuriama pagal mokėjimo grafiko eilutę, kurioje yra kintamasis mokėjimas.
@@ -142,6 +154,3 @@ Sąskaita, kuri pasirenkama kiekvienam išlaidų tipui, debetuojama, kai sugener
 
 > [!NOTE]
 > Korespondentinė sąskaita pasirenkama nuomos lygyje eilutėse, skirtose eksploatavimo išlaidų mokėjimo grafikui. Ši korespondentinė sąskaita gali būti susieta su tiekėju arba su DK sąskaita.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

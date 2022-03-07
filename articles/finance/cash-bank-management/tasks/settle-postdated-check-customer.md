@@ -2,9 +2,11 @@
 title: Vėlesnio čekio iš kliento sudengimas
 description: Galite sudengti vėlesnį čekį, kai čekis apdorojamas banko.
 author: kweekley
+manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustPostDatedChecks, SystemDate, LedgerJournalTable, LedgerJournalTransDaily, LedgerTransVoucher
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ab591fc3ac529e65c15ee083377954a83363edd528861aff9bc449bfc10c7735
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: abcd6532c294223e768d1a01d97309e35c30edbe
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6771733"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5217415"
 ---
 # <a name="settle-a-postdated-check-from-a-customer"></a>Vėlesnio čekio iš kliento sudengimas
 

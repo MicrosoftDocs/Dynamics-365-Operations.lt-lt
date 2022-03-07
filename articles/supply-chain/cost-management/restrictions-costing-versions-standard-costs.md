@@ -2,11 +2,9 @@
 title: Standartinių savikainų įkainojimo versijų apribojimai
 description: Šioje temoje aprašomi apribojimai, taikomi standartinių savikainų įkainojimo versijai.
 author: AndersGirke
-manager: tfehr
 ms.date: 01/17/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CostingVersion
 audience: Application User
@@ -18,12 +16,12 @@ ms.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5339c3c4a62b94a06cbffc200ed1e9b227d6b6af
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.openlocfilehash: 2028cdabde3d01de16050b38893ec9e42353ae542be7a0cd7362cf62e9315170
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4963793"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6748792"
 ---
 #  <a name="restrictions-on-costing-versions-for-standard-costs"></a>Standartinių savikainų įkainojimo versijų apribojimai
 
@@ -41,8 +39,7 @@ Tolesni apribojimai padeda užtikrinti griežtą standartinių įkainojimo princ
 
 Prekės standartinių išlaidų duomenys gali būti kopijuojami į kitą įkainojimo versiją, į kurią įtrauktos standartinės išlaidos arba planuojamos išlaidos. Tačiau prekės planuojamų išlaidų duomenys negali būti kopijuojami į išlaidų versiją, į kurią įtrauktos standartinės savikainos, nes anksčiau šioje temoje išvardyti apribojimai netaikomi planuojamoms išlaidoms.
 
-<a name="related-topics"></a>Susijusios temos
---------
+## <a name="related-topics"></a>Susijusios temos
 
 [Įkainojimo versijų apžvalga](costing-versions.md)
 
@@ -50,3 +47,6 @@ Prekės standartinių išlaidų duomenys gali būti kopijuojami į kitą įkaino
 
 [Pagamintų prekių standartinių savikainų paruošimas priežiūrai](update-standard-costs-manufacturing-environment.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

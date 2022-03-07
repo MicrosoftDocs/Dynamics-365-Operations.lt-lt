@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: v-gfedorova
 ms.search.validFrom: 2021-05-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: d767fdce861ccb481a3fe289480a51a7534dc207
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
-ms.translationtype: MT
+ms.openlocfilehash: bfd381160bcfd1e6e5489e16cc22178b8a5142ee
+ms.sourcegitcommit: e6437d994c3be0c5bb4a9263af3aa8351020d83a
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920229"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "6248794"
 ---
 # <a name="physical-remaining-quantity-in-the-unit-must-not-be-zero"></a>Faktinis likęs kiekis, nurodytas vienetais, negali būti lygus nuliui
 
@@ -63,10 +63,10 @@ Naudokite toliau pateiktą procedūrą, kad peržiūrėtumėte savo krovinio eil
 
 1. Eikite į **Sandėlio valdymas \> Kroviniai \> Visi kroviniai**.
 1. Pasirinkite krovinį, pagal kurį negalima sugeneruoti važtaraščio.
-1. Veiksmų srities skirtuko Siuntimas **ir Gauti** grupėje Atšaukimas pasirinkite Atšaukti **siuntos** **patvirtinimą**.
-1. Skirtuke **Krovinio** eilutės pasirinkite prekės, kuri viršija pristatymo perviršį, krovinio eilutę.
+1. Veiksmų srities skirtuke  **Siųsti ir gauti**, grupėje  **Atšaukti** pasirinkite  **Atšaukti siuntos patvirtinimą**.
+1. Skirtuke  **Krovinio eilutės** pasirinkite prekės, viršijančios pristatymo perviršį, krovinio eilutę.
 1. Pasirinkite **Sumažinti paimtą kiekį**, kad pakoreguotumėte paimtą kiekį.
-1. Skirtuke **Eilutės informacija pasirinkite** **Užsakymas**.
+1. Skirtuke  **Eilutės informacija** pasirinkite **Užsakymas**.
 1. Nustatykite **Kiekio** lauką į paimtą kiekį (tai yra, į lauko **Darbo sukurto kiekio** reikšmę), kad būtų galima atlikti važtaraščio generavimą.
 
 ### <a name="review-your-load-lines-and-make-adjustments-to-ensure-that-the-unit-and-quantity-are-aligned-with-the-decimal-precision-of-the-unit"></a>Peržiūrėkite krovinio eilutes ir atlikite koregavimus, siekiant užtikrinti, kad vienetas ir kiekis yra sulygiuoti dešimtainiu vieneto tikslumu

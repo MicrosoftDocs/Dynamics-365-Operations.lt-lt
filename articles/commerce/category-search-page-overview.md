@@ -2,27 +2,23 @@
 title: Numatytojo kategorijos nukreipimo puslapio ir ieškos rezultatų puslapio apžvalga
 description: Šioje temoje apžvelgiami numatytasis „Dynamics 365 Commerce“ kategorijos nukreipimo puslapis ir ieškos rezultatų puslapis.
 author: ashishmsft
-manager: annbe
 ms.date: 06/30/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Operations, Retail, Core
-ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: e85449c10fa4a768a144ce423a77bd1fc2c94352
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 6f61ee8ec212185e195e2cf1a9d6d25c31e4f672
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4414313"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7982439"
 ---
 # <a name="default-category-landing-page-and-search-results-page-overview"></a>Numatytojo kategorijos nukreipimo puslapio ir ieškos rezultatų puslapio apžvalga
 
@@ -34,7 +30,7 @@ ms.locfileid: "4414313"
 
 Numatytasis kategorijos nukreipimo puslapis yra puslapis, į kurį paprastai perkeliami svetainės vartotojai, pasirinkę kategoriją naršymo hierarchijoje. Kategorijos puslapyje galite naršyti bei rikiuoti ir tikslinti į kategorijas suskirstytus produktus.
 
-![Numatytasis kategorijos nukreipimo puslapis](./media/SimpleCategoryLandingDressCategory.png)
+![Numatytasis kategorijos nukreipimo puslapis.](./media/SimpleCategoryLandingDressCategory.png)
 
 Puslapio viršuje yra antraštė, rodanti visas produktų kategorijas ir kitus puslapius, kuriuos prekybos vadovas suskirstė į kategorijas. Ši konfigūracija atliekama konfigūruojant kanalų naršymo hierarchiją. Puslapio apačioje yra poraštė, kurioje yra spartieji saitai su įvairiomis temomis, kurios gali sudominti pirkėjus.
 
@@ -58,13 +54,13 @@ Toliau nurodyti esminiai kategorijos komponentai.
 
 Jei norite, kad kategorijos nukreipimo puslapyje konkreti kategorija būtų labiau pritaikyta, galite tos kategorijos nukreipimo puslapį papildyti. Pavyzdžiui, galite įtraukti rinkodaros vaizdo įrašą ir istorijų apie kategoriją, kad patrauktumėte pirkėjo dėmesį. Norėdami gauti daugiau informacijos, žr. [Kategorijos nukreipimo puslapio papildymas](enrich-category-page.md).
 
-![Papildytas kategorijos nukreipimo puslapis](./media/CategoryLandingPages.png)
+![Papildytas kategorijos nukreipimo puslapis.](./media/CategoryLandingPages.png)
 
 ## <a name="auto-suggest-and-search-results-pages"></a>Automatinio siūlymo ir ieškos rezultatų puslapiai
 
 Svetainės vartotojai ją gali naršyti eidami į kategoriją iš naršymo hierarchijos arba įvesdami ieškos terminą ieškos lauke.
 
-Vartotojams tik pradėjus vesti tekstą ieškos lauke, jie patira įtraukiančią automatinio siūlymo funkciją, siūlančią ieškos terminus.
+Vartotojams tik pradėjus vesti tekstą ieškos lauke, jie patiria įtraukiančią automatinio siūlymo funkciją, siūlančią ieškos terminus.
 
 Toliau pateikiami keli pasiūlymų tipai, kurie gali būti rodomi.
 
@@ -72,15 +68,15 @@ Toliau pateikiami keli pasiūlymų tipai, kurie gali būti rodomi.
 - **Produktai** yra tiesioginiai saitai su produktų išsamios informacijos puslapiu.
 - **Aprėptos kategorijos Ieškos pasiūlymuose** išvardytos įvairios kategorijos, vartotojams leidžiančios ieškoti raktažodžio konkrečioje kategorijoje.
 
-![Įtraukianti automatinio siūlymo funkcija](./media/ImmersiveAutoSuggestUX.png)
+![Įtraukianti automatinio siūlymo funkcija.](./media/ImmersiveAutoSuggestUX.png)
 
 Kai vartotojai pasirenka vieną iš raktažodžių arba aprėptos kategorijos ieškos pasiūlymų, arba kai nėra pasiūlymų, susijusių su jų įvestu ieškos terminu, jie nukreipiami į ieškos rezultatų puslapį. Norėdami rasti pageidaujamą prekę, tada vartotojai gali naršyti, rikiuoti ir tikslinti ieškos rezultatų sąrašą.
 
-![Ieškos nukreipimas](./media/SearchLanding.png)
+![Ieškos nukreipimas.](./media/SearchLanding.png)
 
 Toliau nurodyti esminiai ieškos rezultatų puslapio komponentai.
 
-- **Produktų išdėstymo plytelėse** rodomi vartotojo ieškos produktai. Numatyta, kad šios plytelės rikiuojamos pagal debesų technologija paramtą vartotojo ieškos aktualumo balą.
+- **Produktų išdėstymo plytelėse** rodomi vartotojo ieškos produktai. Numatyta, kad šios plytelės rikiuojamos pagal debesų technologija paremtą vartotojo ieškos aktualumo balą.
 - **Tikslinimo priemonės ir pasirinkimų suvestinė** yra filtrai, kurie nurodo skaičių ir kuriuos naudojant galima tikslinti prekes. Prekybos vadovas jas konfigūruoja konfigūruodamas kanalų kategorijų ir produktų atributų metaduomenis.
 - **Rikiavimo parinktis** svetainės lankytojai naudoja produktams rikiuoti. Numatyta, kad galimos tolesnės rikiavimo parinktys.
 
@@ -97,7 +93,7 @@ Toliau nurodyti esminiai ieškos rezultatų puslapio komponentai.
 
 >[!NOTE]
 >Šios debesų kompiuterijos ieškos galimybės prieinamos 10.0.8 versijoje. Įsitikinkite, kad dalyje **Prekybos parametrai > Konfigūracijos parametrai** yra įrašas, skirtas „Productsearch.UseAzureSearch” nustatytas kaip „true”. 
-![Konfigūracijos parametrai debesies aplinkos ieškoje](./media/CloudPoweredSearchConfigurationParameters.png)
+![Konfigūracijos parametrai debesies aplinkos ieškoje.](./media/CloudPoweredSearchConfigurationParameters.png)
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
@@ -111,3 +107,6 @@ Toliau nurodyti esminiai ieškos rezultatų puslapio komponentai.
 
 [Paskyrų tvarkymo puslapių apžvalga](quick-tour-account-management.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

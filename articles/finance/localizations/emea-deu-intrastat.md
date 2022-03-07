@@ -1,26 +1,24 @@
 ---
 title: Vokietijos Intrastat
 description: Šioje temoje pateikiama informacija apie „Intrastat” deklaraciją Vokietijoje.
-author: anasyash
-ms.date: 09/09/2021
+author: andosip
+ms.date: 08/2/2021
 ms.topic: article
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: anasyash
+ms.author: v-aosipov
 ms.search.validFrom: ''
-ms.openlocfilehash: 50c412fdfd7118843d285cbb70e8e44847c9d4a5
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
+ms.openlocfilehash: e1dbf0997417f9f1ad313e6a7b3c2c9cfae41efc6b1cfda60a5500ae0af94709
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7487930"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6759848"
 ---
 # <a name="german-intrastat"></a>Vokietijos Intrastat
 
-[!include [banner](../includes/banner.md)]
-
-Puslapis **„Intrastat”** yra naudojamas generuoti ir skelbti informaciją apie prekybą tarp Europos Sąjungos (ES) šalių. Vokietijos Intrastat deklaracijoje yra informacijos apie prekybą prekėmis ataskaitoms. Ataskaita suformuota pagal Vokietijos valdžios institucijų gaires, pateiktas [6.2 failo deklaracijos INSTAT/XML formatu](https://www-idev.destatis.de/idev/doc/intra_en/hilfe6_2.html) puslapyje.
+Puslapis **„Intrastat”** yra naudojamas generuoti ir skelbti informaciją apie prekybą tarp Europos Sąjungos (ES) šalių. Vokietijos Intrastat deklaracijoje yra informacijos apie prekybą prekėmis ataskaitoms.
 
 Toliau pateiktoje lentelėje rodomi Vokietijos „Intrastat” deklaracijos laukai.
 
@@ -73,16 +71,15 @@ Toliau pateiktoje lentelėje rodomi Vokietijos „Intrastat” deklaracijos lauk
     3. **Ataskaitos formatų susiejimas** lauke pasirinkite **„Intrastat” ataskaita**.
     4. „FastTab” **Prekių kodų hierarchija** lauke **Kategorijų hierarchija** pasirinkite **„Intrastat”**.
     5. **Operacijos kodas** lauke rinkitės pasirinkite turto perkėlimų operacijos kodą. Naudojate šį kodą operacijoms, kurios sukuria esamus ar planuotus turto pervedimus gavus atlygį (finansinis ar kitas). Taip pat jį naudojate pataisymams.
-    6. **Kredito pažyma** lauke rinkitės pasirinkite prekių grąžinimo operacijos kodą.
-    7. Lauke **Darbuotojas** pasirinkite kontaktinį asmenį „Intrastat” ataskaitai. Taip pat galite skirtuke **Kontaktas** įvesti arba pasirinkti laukų **Pavadinimas**, **Telefonas**, **Faksas**, **El. paštas** ir **Internetinis adresas** reikšmes. Šie laukai yra įtraukti į ataskaitą.
-    8. Valdžios **lauke** pasirinkite Intrastat instituciją.
-    9. Eikite į **Mokesčiai** > **Netiesioginiai mokesčiai** > **Pardavimo mokesčiai** > **Pardavimo mokesčio įgaliojimai** ir įveskite tolesnę informaciją apie „Intrastat“ teises, kurias pasirinkote ankstesniame žingsnyje:
+    6. **Kredito pažyma** lauke rinkitės pasirinkite prekių grąžinimo operacijos kodą. Naudojate šį kodą prekių grąžinimui po to, kai pradinė operacija bus iš anksto įrašyta operacijos kode.
+    7. Valdžios **lauke** pasirinkite Intrastat instituciją.
+    8. Eikite į **Mokesčiai** > **Netiesioginiai mokesčiai** > **Pardavimo mokesčiai** > **Pardavimo mokesčio įgaliojimai** ir įveskite tolesnę informaciją apie „Intrastat“ teises, kurias pasirinkote ankstesniame žingsnyje:
 
        - Valdžios institucijos identifikacija
-       - Adresas
+       - Adresas 
        - Kontaktinė informacija
 
-    10. Skirtuke **Šalies/regiono ypatybės**, laukelyje **šalis/regionas**, išvardykite visas šalis ar regionus, su kuriais įmonė daro verslą. Kiekvienos šalies arba regiono **šalies/regiono tipo** laukeliui rinkitės **ES**, kad šalis arba regionas būtų jūsų Intrastat ataskaitoje.
+    9. Skirtuke **Šalies/regiono ypatybės**, laukelyje **šalis/regionas**, išvardykite visas šalis ar regionus, su kuriais įmonė daro verslą. Kiekvienos šalies arba regiono **šalies/regiono tipo** laukeliui rinkitės **ES**, kad šalis arba regionas būtų jūsų Intrastat ataskaitoje.
 
 4. Nustatyti regiono kodus.
 

@@ -1,39 +1,38 @@
 ---
 title: Atostogų pirkimo ir pardavimo strategijų valdymas
 description: Galite suteikti darbuotojams galimybę pirkti ir parduoti atostogas programoje „Dynamics 365 Human Resources“.
-author: andreabichsel
-manager: AnnBe
-ms.date: 08/20/2020
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: LeaveBuySellPolicy, LeavePlanFormPart, LeaveAbsenceWorkspace
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-06-01
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 55d29c42cc1b2d69517e2fcd458ee6a1bdf5277f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 06682a81b09f90de0ef5eb1b656338e634f229db
+ms.sourcegitcommit: e91a1797192fd9bc4048b445bb5c1ad5d333d87d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419773"
+ms.lasthandoff: 11/01/2021
+ms.locfileid: "7728886"
 ---
 # <a name="manage-buy-and-sell-leave-policies"></a>Atostogų pirkimo ir pardavimo strategijų valdymas
 
-Galite įgalinti darbuotojus pirkti ir parduoti atostogas, sukuriant atostogų pirkimo ir pardavimo strategiją. Galite konfigūruoti šias strategijas, kad galėtumėte naudotis darbo eiga patvirtinimams, nustatyti maksimalias sumas bei tarifus, ir nustatyti pirkimo ir pardavimo tarifus.  
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+Galite įgalinti darbuotojus pirkti ir parduoti atostogas, sukuriant atostogų pirkimo ir pardavimo strategiją. Galite konfigūruoti šias strategijas, kad galėtumėte naudotis darbo eiga patvirtinimams, nustatyti maksimalias sumas bei tarifus, ir nustatyti pirkimo ir pardavimo tarifus. 
 
 ## <a name="enable-employees-to-buy-and-sell-leave"></a>Suteikite darbuotojams galimybę pirkti ir parduoti atostogas
 
 1. **Atostogų ir neatvykimų parametrų** puslapyje, **Leisti darbuotojams pirkti atostogas** ir **Leisti darbuotojams parduoti atostogas** dalyse, pasirinkite **Taip**.
 
-## <a name="create-a-buy-and-sell-leave-policy"></a>Sukurkite atostogų pirkimo ir pardavimo strategiją 
+## <a name="create-a-buy-and-sell-leave-policy"></a>Sukurkite atostogų pirkimo ir pardavimo strategiją
 
 1. Puslapyje **Atostogos ir neatvykimai** pasirinkite skirtuką **Saitai**. 
 
@@ -80,3 +79,6 @@ Galite įgalinti darbuotojus pirkti ir parduoti atostogas, sukuriant atostogų p
 [Sukauptų atostogų ir neatvykimų planai](hr-leave-and-absence-accrue.md)</br>
 [Atostogų pirkimas ir pardavimas](hr-employee-self-service-buy-sell-leave.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

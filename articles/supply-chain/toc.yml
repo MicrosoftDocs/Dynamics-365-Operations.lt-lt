@@ -1,39 +1,11 @@
-- name: Dynamics 365 Supply Chain Management
+- name: „Dynamics 365 Supply Chain Management”
   items:
-    - name: Dynamics 365 Supply Chain Management
+    - name: „Dynamics 365 Supply Chain Management”
       items:
         - name: „Dynamics 365 Supply Chain Management“ pagrindinis puslapis
           href: index.md
-        - name: Kas nauja ar pasikeitė
+        - name: Pradžia
           items:
-            - name: Kas nauja ar pasikeitė „Finance and Operations“ programose
-              href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/supply-chain/toc.json
-            - name: Kas nauja ar pasikeitė „Supply Chain Management“
-              items:
-                - name: Kas nauja ar pasikeitė „Supply Chain Management“ pagrindinis puslapis
-                  href: get-started/whats-new-home-page.md
-                - name: „Supply Chain Management 10.0.25“ (2022 m. balandžio mėn.)
-                  href: get-started/whats-new-scm-10-0-25.md
-                - name: „Supply Chain Management 10.0.24“ (2022 m. vasario mėn.)
-                  href: get-started/whats-new-scm-10-0-24.md
-                - name: „Supply Chain Management 10.0.23“ (2022 m. sausio mėn.)
-                  href: get-started/whats-new-scm-10-0-23.md
-            - name: Pašalintos arba nerekomenduojamos funkcijos
-              items:
-                - name: Pašalintos arba nerekomenduojamos funkcijos pagrindinis puslapis
-                  href: ../fin-ops-core/fin-ops/get-started/removed-deprecated-features-home-page.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Pašalintos arba nebenaudojamos „Dynamics 365 Supply Chain Management“ funkcijos
-                  href: get-started/removed-deprecated-features-scm-updates.md
-                - name: Pašalintos arba nebenaudojamos funkcijos ankstesniuose leidimuose
-                  href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/supply-chain/toc.json
-            - name: Atidėtos AX 2012 funkcijos
-              href: ../fin-ops-core/fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/supply-chain/toc.json
-            - name: 2009 m. ir 2012 m. „Microsoft Dynamics AX” standartinio palaikymo pabaiga
-              href: ../fin-ops-core/fin-ops/get-started/mainstream-support-ax-2009-2012.md?toc=/dynamics365/supply-chain/toc.json
-        - name: Pradėti
-          items:
-            - name: Paslaugos aprašymas
-              href: ../fin-ops-core/fin-ops/get-started/service-description.md?toc=/dynamics365/supply-chain/toc.json
             - name: Prieš perkant
               href: ../fin-ops-core/fin-ops/get-started/before-you-buy.md?toc=/dynamics365/supply-chain/toc.json
             - name: Registravimasis prenumeratų peržiūros versijai gauti
@@ -88,6 +60,34 @@
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Vietiniams visuotiniams diegimams skirto sandėliavimo konfigūravimas
                   href: ../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md?toc=/dynamics365/supply-chain/toc.json
+                - name: '„Finance and Operations“ programos, valdomos „21Vianet“ Kinijoje'
+                  href: ../fin-ops-core/dev-itpro/deployment/china-local-deployment.md?toc=/dynamics365/supply-chain/toc.json
+                - name: „Finance and Operations“ programos Prancūzijoje
+                  href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/supply-chain/toc.json
+            - name: Kas nauja ar pasikeitė
+              items:
+                - name: Kas nauja ar pasikeitė „Finance and Operations“ programose
+                  href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Kas nauja ar pasikeitė „Supply Chain Management“
+                  items:
+                    - name: Kas nauja ar pasikeitė „Supply Chain Management“ pagrindinis puslapis
+                      href: get-started/whats-new-home-page.md
+                    - name: „Supply Chain Management 10.0.16“ (2021 m. vasario mėn.)
+                      href: get-started/whats-new-scm-10-0-16.md
+                    - name: „Supply Chain Management 10.0.15“ (2021 m. sausio mėn.)
+                      href: get-started/whats-new-scm-10-0-15.md
+                    - name: „Supply Chain Management 10.0.14“ (2020 m. lapkričio mėn.)
+                      href: get-started/whats-new-scm-10-0-14.md
+                - name: Pašalintos arba nebenaudojamos funkcijos
+                  items:
+                    - name: Pašalintos arba nebenaudojamos „Dynamics 365 Supply Chain Management“ funkcijos
+                      href: get-started/removed-deprecated-features-scm-updates.md
+                    - name: Pašalintos arba nebenaudojamos funkcijos ankstesniuose leidimuose
+                      href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Atidėtos AX 2012 funkcijos
+                  href: ../fin-ops-core/fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/supply-chain/toc.json
+                - name: 2009 m. ir 2012 m. „Microsoft Dynamics AX” standartinio palaikymo pabaiga
+                  href: ../fin-ops-core/fin-ops/get-started/mainstream-support-ax-2009-2012.md?toc=/dynamics365/supply-chain/toc.json
             - name: Dokumentacijos ištekliai
               items:
                 - name: Žinyno sistema
@@ -104,6 +104,8 @@
                   href: ../fin-ops-core/dev-itpro/user-interface/task-recorder-training-docs.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Vaizdo įrašai
                   href: ../fin-ops-core/fin-ops/get-started/videos.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Aiškinamasis terminų žodynas
+                  href: ../fin-ops-core/fin-ops/get-started/glossary.md?toc=/dynamics365/supply-chain/toc.json
             - name: Mokymosi katalogas
               items:
                 - name: Mokymosi katalogo pagrindinis puslapis
@@ -152,16 +154,12 @@
                   href: ../fin-ops-core/fin-ops/get-started/personalize-user-experience.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Įrašyti rodiniai
                   href: ../fin-ops-core/fin-ops/get-started/saved-views.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Standartiniai įrašyti „Supply Chain Management“ rodiniai
-                  href: get-started/saved-views-scm.md
                 - name: Tinklelio charakteristikos
                   href: ../fin-ops-core/fin-ops/get-started/grid-capabilities.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Pasirinktinių laukų kūrimas ir naudojimas
                   href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Drobės programėlių įterpimas iš „Power Apps“
                   href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Trečiosios šalies programų įdėjimas
-                  href: ../fin-ops-core/fin-ops/get-started/embed-website.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Informacijos ieška naudojant peržvalgas
                   href: ../fin-ops-core/fin-ops/get-started/use-lookups-to-find-information.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Seanso datos keitimas
@@ -176,8 +174,8 @@
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/implementation-lifecycle.md?toc=/dynamics365/supply-chain/toc.json
                 - name: „Finance and Operations“ programų architektūra
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/architecture-overview.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Microsoft FastTrack
-                  href: /dynamics365/fasttrack/
+                - name: „Microsoft FastTrack for Finance and Operations“
+                  href: ../fin-ops-core/fin-ops/get-started/fasttrack-dynamics-365-overview.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Diegimo projekto priėmimas
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/onboard.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Aplinkos planavimas
@@ -204,86 +202,6 @@
           items:
             - name: Globalizacijos ištekliai
               href: ../fin-ops-core/dev-itpro/lcs-solutions/country-region.md?toc=/dynamics365/supply-chain/toc.json
-            - name: Globalizavimo tarnybos
-              items:
-                - name: Globalizavimo tarnybų apžvalga
-                  href: ../finance/localizations/globalization-services-overview.md?toc=/dynamics365/supply-chain/toc.json
-                - name: „Regulatory Configuration Service“ (RCS)
-                  items:
-                    - name: „Regulatory Configuration Service“ (RCS) apžvalga
-                      href: ../finance/localizations/rcs-overview.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: „Regulatory Configuration Service“ (RCS) – globalizacijos funkcijos
-                      href: ../finance/localizations/rcs-globalization-feature.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Elektroninių ataskaitų konfigūracijų „Regulatory Configuration Service“ (RCS) kūrimas ir nusiuntimas į bendrąją saugyklą
-                      href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: „Regulatory Configuration Service“ (RCS) – „Lifecycle Services“ saugyklos netinkamumas
-                      href: ../finance/localizations/rcs-lcs-repo-dep-faq.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: ER konfigūracijų atsisiuntimas į „Supply Chain Management“
-                      items:
-                        - name: Konfigūracijų atsisiuntimas iš RCS
-                          href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Konfigūracijų importavimas iš RCS
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Visuotinė saugykla (GR)
-                      items:
-                        - name: Konfigūracijų importavimas iš GR
-                          href: ../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Atnaujintų ER konfigūracijų versijų importavimas
-                          href: ../fin-ops-core/dev-itpro/analytics/er-download-updated-versions-global-repo.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Išplėstinis filtravimas konfigūracijoms rasti GR
-                          href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Konfigūracijų nusiuntimas į GR
-                          href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/fsupply-chain/toc.json
-                        - name: Konfigūracijų bendrinimas GR
-                          href: ../finance/localizations/rcs-global-repo-share-configuration.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Konfigūracijų RCS visuotinėje saugykloje naudojimo nutraukimas
-                          href: ../finance/localizations/discontinuing-configurations-rcs-global-repo.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Elektroninių SF išrašymas
-                  items:
-                    - name: Elektroninių SF išrašymo apžvalga
-                      href: ../finance/localizations/e-invoicing-service-overview.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Elektroninių SF išrašymo administravimo komponentai
-                      href: ../finance/localizations/e-invoicing-service-administration.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Elektroninių SF išrašymo „Regulatory Configuration Services“ (RCS) konfigūravimas
-                      href: ../finance/localizations/e-invoicing-configuration-rcs.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Elektroninių SF išdavimas „Finance“ ir „Supply Chain Management“
-                      href: ../finance/localizations/e-invoicing-issuing-electronic-invoices-finance-supply-chain-management.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: „Azure“ saugyklos paskyros ir „Key Vault“ kūrimas
-                      href: ../finance/localizations/e-invoicing-create-azure-storage-account-key-vault.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Naudojimo valdymo ataskaitų sritis
-                      href: ../finance/localizations/e-invoicing-usage-management-dashboard.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Pradėti
-                      items:
-                        - name: Darbo su elektroninių SF išrašymo tarnybos administravimu pradžia
-                          href: ../finance/localizations/e-invoicing-get-started-service-administration.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Darbo su elektroninių SF išrašymu pradžia
-                          href: ../finance/localizations/e-invoicing-get-started.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Darbo su elektroninių SF išrašymu Brazilijai pradžia
-                          href: ../finance/localizations/e-invoicing-bra-get-started.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Darbo su elektroninių SF išrašymu Egiptui pradžia
-                          href: ../finance/localizations/e-invoicing-eg-get-started.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Darbo su elektroninių SF išrašymu Meksikai pradžia
-                          href: ../finance/localizations/e-invoicing-mex-get-started.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Elektroninių SF išrašymo nustatymas
-                          href: ../finance/localizations/e-invoicing-setup.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Elektroninių SF išrašymo DUK
-                      href: ../finance/localizations/e-invoicing-faq.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Mokesčių skaičiavimas
-                  items:
-                    - name: Mokesčių skaičiavimo apžvalga
-                      href: ../finance/localizations/global-tax-calcuation-service-overview.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Pradėti naudoti mokesčių skaičiavimą
-                      href: ../finance/localizations/global-get-started-with-tax-calculation-service.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Mokesčių funkcijų palaikymas perkėlimo užsakymams
-                      href: ../finance/localizations/tasks/Tax-feature-support-for-transfer-order.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Duomenų laukų įtraukimas į mokesčių konfigūracijas
-                      href: ../finance/localizations/tax-service-add-data-fields-tax-configurations.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Duomenų laukų įtraukimas į mokesčių integravimą naudojant plėtinius
-                      href: ../finance/localizations/tax-service-add-data-fields-tax-integration-by-extension.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Kelių PVM registracijų numeriai
-                      href: ../finance/localizations/emea-multiple-vat-registration-numbers.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Bendrųjų duomenų peržvalgos aplinkos nustatymas
-                      href: ../finance/localizations/tax-service-set-up-environment-master-data-lookup.md?toc=/dynamics365/supply-chain/toc.json
             - name: Reglamentavimo naujinimai
               href: ../finance/localizations/regulatory-updates.md?toc=/dynamics365/supply-chain/toc.json
             - name: Indija
@@ -298,27 +216,17 @@
                   items:
                     - name: Tiekėjo tranzito prekės
                       href: ../finance/localizations/rus-goods-transit-vendor.md?toc=/dynamics365/supply-chain/toc.json
-        - name: Paskirstyta hibridinė topologija
+        - name: Debesis ir briauna
           items:
-            - name: Skalės vienetai paskirstytoje hibridinėje topologijoje
+            - name: Gamybos ir sandėlio valdymo darbo krūvių debesies ir briaunos skalės vienetas
               href: cloud-edge/cloud-edge-landing-page.md
-            - name: Briaunos skalės vienetų diegimas pasirinktinėje aparatūroje naudojant LBD
-              href: cloud-edge/cloud-edge-edge-scale-units-lbd.md
             - name: 'Gamybos vykdymo darbo krūviai, skirti debesies ir briaunos skalės vienetams'
               href: cloud-edge/cloud-edge-workload-manufacturing.md
             - name: 'Sandėlio valdymo darbo krūviai, skirti debesies ir briaunos skalės vienetams'
               href: cloud-edge/cloud-edge-workload-warehousing.md
-            - name: mobiliosios programos „Warehouse Management“ konfigūravimas debesiui ir briaunos skalės vienetams
-              href: cloud-edge/cloud-edge-workload-setup-warehouse-app.md
-            - name: 'Sandėlio užsakymai, skirti debesies ir briaunos skalės vienetams'
-              href: cloud-edge/cloud-edge-warehouse-order.md
-            - name: Sandėlio atsargų koregavimas
-              href: cloud-edge/cloud-edge-warehouse-inventory-adjustment.md
-            - name: Pranešimų procesoriaus pranešimai
-              href: cloud-edge/cloud-edge-message-processor-messages.md
         - name: Turto valdymas
           items:
-            - name: Turto valdymo apžvalga
+            - name: Išteklių valdymo apžvalga
               href: asset-management/index.md
               items:
                 - name: Funkcinės vietos ir ištekliai
@@ -381,10 +289,12 @@
                   href: asset-management/objects/object-timeline.md
                 - name: Turto rodinys
                   href: asset-management/objects/object-view.md
-                - name: Turto atributų apžvalga
+                - name: Turto atributo apžvalga
                   href: asset-management/objects/object-specification-overview.md
             - name: Priežiūros užklausų nustatymas
               items:
+                - name: Priežiūros užklausos
+                  href: asset-management/setup-for-maintenance-requests/requests.md
                 - name: Priežiūros užklausos ciklo būsenos
                   href: asset-management/setup-for-maintenance-requests/request-stages.md
                 - name: Priežiūros užklausos tipai
@@ -407,11 +317,11 @@
                   href: asset-management/manage-maintenance-requests/maintenance-request-reports.md
             - name: Darbo užsakymų nustatymas
               items:
-                - name: 'Priežiūros užduočių tipai, kategorijos, variantai, keitimas ir kontroliniai sąrašai'
+                - name: 'Priežiūros užduoties tipo kategorijos ir priežiūros užduočių tipai, priežiūros užduočių tipo variantai, priežiūros užduočių prekyba ir prižiūrimo turto kontroliniai sąrašai'
                   href: asset-management/setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md
                 - name: Darbo užsakymų ciklo būsenos
                   href: asset-management/setup-for-work-orders/work-order-lifecycle-states.md
-                - name: Darbo užsakymo tipai
+                - name: Darbo užsakymų tipai
                   href: asset-management/setup-for-work-orders/work-order-types.md
                 - name: Darbo užsakymo projekto sąranka
                   href: asset-management/setup-for-work-orders/work-order-project-setup.md
@@ -453,8 +363,6 @@
               items:
                 - name: 'Prognozės, darbo užsakymai ir projektai'
                   href: asset-management/integration-to-project-management-and-accounting/forecasts-work-orders-and-projects.md
-                - name: Kliento turto priežiūros sąskaita
-                  href: asset-management/integration-to-project-management-and-accounting/customer-billing.md
             - name: Turto valdymo integravimas naudojant ilgalaikį turtą
               href: asset-management/integration-to-fixed-assets/fixed-asset-integration.md
             - name: Profilaktinė ir reaguojamoji priežiūra
@@ -523,7 +431,7 @@
                   href: asset-management/controlling-and-reporting/work-hour-control.md
                 - name: Turto gedimų kaštų kontrolė
                   href: asset-management/controlling-and-reporting/asset-fault-cost-control.md
-                - name: Turto gedimų analizė
+                - name: Turto klaidų analizė
                   href: asset-management/controlling-and-reporting/asset-fault-analysis.md
                 - name: Turto KPI
                   href: asset-management/controlling-and-reporting/asset-kpis.md
@@ -531,14 +439,10 @@
                   href: asset-management/controlling-and-reporting/item-where-used.md
                 - name: Priežiūros būsena
                   href: asset-management/controlling-and-reporting/maintenance-status.md
-            - name: Turto valdymas iš mobiliųjų įrenginių programėlės
-              items:
-                - name: Turto valdymo mobiliosios darbo srities nustatymas
-                  href: asset-management/set-up-asset-management-mobile.md
-                - name: Turto valdymo mobiliosios darbo srities naudojimas
-                  href: asset-management/asset-management-mobile-workspace.md
             - name: Turto valdymo integravimas su „Dynamics 365 Guides“
               href: asset-management/asset-management-guides-integration.md
+            - name: Turto valdymo mobilioji darbo sritis
+              href: asset-management/asset-management-mobile-workspace.md
         - name: Duomenų valdymas
           items:
             - name: Paskirties objektai
@@ -615,22 +519,8 @@
               href: ../fin-ops-core/dev-itpro/analytics/setup-security-cost-accounting-content-pack.md?toc=/dynamics365/supply-chain/toc.json
             - name: „Microsoft Power BI‟ ataskaitų turinio paketo naudojimas
               href: ../fin-ops-core/dev-itpro/analytics/cost-accounting-analysis-content-pack.md?toc=/dynamics365/supply-chain/toc.json
-            - name: „Finance and Operations“ mobiliųjų įrenginių programėlės kaštų kontrolės darbo srities naudojimas
+            - name: „Finance and Operations“ mobiliosios programos kaštų kontrolės darbo srities naudojimas
               href: ../finance/cost-accounting/cost-controlling-mobile-workspace.md?toc=/dynamics365/supply-chain/toc.json
-        - name: Visuotinė atsargų apskaita
-          items:
-            - name: Visuotinės atsargų apskaitos pagrindinis puslapis
-              href: global-inventory-accounting/global-inventory-accounting-home.md
-            - name: Darbo su visuotine atsargų apskaita pradžia
-              href: global-inventory-accounting/get-started-with-gia.md
-            - name: 'Verslo dokumentai, kuriuos palaiko visuotinių atsargų apskaita'
-              href: global-inventory-accounting/business-documents-supported.md
-            - name: „Power BI“ įjungimas visuotinei atsargų apskaitai
-              href: global-inventory-accounting/enable-power-bi-for-gia.md
-            - name: Konvencijos
-              href: global-inventory-accounting/conventions.md
-            - name: Visuotinės atsargų apskaitos didžioji knyga
-              href: global-inventory-accounting/global-inventory-accounting-ledger.md
         - name: Kaštų valdymas
           items:
             - name: Kaštų valdymo pagrindinis puslapis
@@ -709,10 +599,8 @@
                   href: cost-management/inventory-close.md
                 - name: Turimų atsargų išlaidų reikšmių koregavimas
                   href: cost-management/adjust-hand-inventory-cost-values.md
-                - name: Atsargų vertės ataskaitos
+                - name: Atsargų vertės saugyklos ataskaita
                   href: cost-management/inventory-value-report-storage.md
-                - name: Atsargų vertės ataskaitos pavyzdžiai ir logika
-                  href: cost-management/inventory-value-report-examples.md
                 - name: Atsargų skirstymo pagal terminus ataskaitos saugykla
                   href: cost-management/inventory-aging-report-storage.md
                 - name: Atsargų skirstymo pagal terminus ataskaitos pavyzdžiai ir logika
@@ -753,6 +641,8 @@
                   href: cost-management/amortize-constant-costs-manufactured-item.md
             - name: Kaštų valdymo „Power BI“ turinio paketas
               href: ../fin-ops-core/dev-itpro/analytics/cost-management-content-pack.md?toc=/dynamics365/supply-chain/toc.json
+            - name: Kaštų valdymo trikčių šalinimas
+              href: cost-management/troubleshoot-costmanagement.md
         - name: Ataskaitų ir „Power BI“ integravimai
           items:
             - name: Ataskaitos ir analizė naudojant „Power BI“
@@ -861,19 +751,17 @@
               items:
                 - name: Konfigūracijų kūrimas
                   href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-configuration.md?toc=/dynamics365/supply-chain/toc.json
-                - name: ER konfigūracijų priklausomybės nuo kitų komponentų apibrėžimas
-                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Elektroninių ataskaitų sprendimo komponentų kūrimas
                   items:
                     - name: Konkretaus domeno duomenų modelio kūrimas
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-domain-specific-data-model-2016-11.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Programai būdingų metaduomenų parengimas
                       items:
-                        - name: 'Programos metaduomenų ER, kurie bus naudojami RCS, parengimas'
+                        - name: '(ER) Programos metaduomenų, kurie bus naudojami RCS, parengimas'
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/prepare-application-metadata-rcs.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Prieiga prie programos metaduomenų RCS naudojant ER konfigūraciją
+                        - name: (RCS) Prieiga prie programos metaduomenų naudojant ER konfigūraciją
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/access-application-metadata-er-configuration.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Prieiga prie programos metaduomenų RCS naudojant prijungtas programas
+                        - name: (RCS) Prieiga prie programos metaduomenų naudojant prijungtas programas
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/access-application-metadata-using-connected-applications.md?toc=/dynamics365/supply-chain/toc.json
                         - name: Modelių susiejimų nustatymas ir duomenų šaltinių pasirinkimas
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-define-model-mapping-select-data-sources-2016-11.md?toc=/dynamics365/supply-chain/toc.json
@@ -885,36 +773,24 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-map-components-data-model-elements--2016-11.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Paruoštų ER sprendimų tikrinimas paskirties programoje
                       items:
-                        - name: Konfigūracijų importavimas iš RCS
+                        - name: (ER) Konfigūracijų importavimas iš RCS
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/supply-chain/toc.json
                         - name: Mokėjimų elektroninių dokumentų generavimas naudojant formato konfigūraciją
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-electronic-payments.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Formato naujinimas pritaikant naują pagrindinę to formato versiją
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-upgrade-format.md?toc=/dynamics365/supply-chain/toc.json
-            - name: Formulių konstruktoriai ER
+            - name: Elektroninių ataskaitų formulių konstruktoriai
               items:
                 - name: Formulių konstruktorius
                   href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-formula-designer.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Išplėstinis formulių konstruktorius
                   href: ../fin-ops-core/dev-itpro/analytics/er-advanced-formula-editor.md?toc=/dynamics365/supply-chain/toc.json
-            - name: Formulių kalba ir funkcijos
+            - name: Formulės kalba ir funkcijos
               items:
                 - name: Formulės kalba
                   href: ../fin-ops-core/dev-itpro/analytics/er-formula-language.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Palaikomi ER formulių duomenų tipai
-                  items:
-                    - name: Pagrindinių duomenų tipai
-                      href: ../fin-ops-core/dev-itpro/analytics/er-formula-supported-data-types-primitive.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Sudėtinių duomenų tipai
-                      href: ../fin-ops-core/dev-itpro/analytics/er-formula-supported-data-types-composite.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Funkcijos
                   items:
-                    - name: Konteineris
-                      items:
-                        - name: Konteinerio funkcijos
-                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-container.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Base64StringToContainer
-                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-container-base64stringtocontainer.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Data ir laikas
                       items:
                         - name: Datos ir laiko funkcijos
@@ -945,11 +821,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-sessionnow.md?toc=/dynamics365/supply-chain/toc.json
                         - name: SessionToday
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-sessiontoday.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Today
-                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-today.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: WeekNum
-                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-weeknum.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: List
+                    - name: Sąrašas
                       items:
                         - name: Sąrašo funkcijos
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-list.md?toc=/dynamics365/supply-chain/toc.json
@@ -975,8 +847,6 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-isempty.md?toc=/dynamics365/supply-chain/toc.json
                         - name: Sąrašas
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-list.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: ListDistinct
-                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-listdistinct.md?toc=/dynamics365/supply-chain/toc.json
                         - name: ListJoin
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-listjoin.md?toc=/dynamics365/supply-chain/toc.json
                         - name: ListOfFields
@@ -1005,22 +875,14 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-and.md?toc=/dynamics365/supply-chain/toc.json
                         - name: Case
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-case.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Contains
-                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-contains.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: EndsWith
-                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-endswith.md?toc=/dynamics365/supply-chain/toc.json
                         - name: If
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-if.md?toc=/dynamics365/supply-chain/toc.json
                         - name: Not
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-not.md?toc=/dynamics365/supply-chain/toc.json
                         - name: Or
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-or.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: StartsWith
-                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-startswith.md?toc=/dynamics365/supply-chain/toc.json
                         - name: ValueIn
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-valuein.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: ValueInLarge
-                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-valueinlarge.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Matematinės
                       items:
                         - name: Matematinės funkcijos
@@ -1116,7 +978,7 @@
                         - name: CurCredRef
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-curcredref.md?toc=/dynamics365/supply-chain/toc.json
                         - name: FA_Balance
-                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-fabalance.md?toc=/dynamics365supply-chain/toc.json
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-fabalance.md?toc=/dynamics365/supply-chain/toc.json
                         - name: FA_Sum
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-fasum.md?toc=/dynamics365/supply-chain/toc.json
                         - name: GetCurrentCompany
@@ -1143,10 +1005,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-conversion-intvalue.md?toc=/dynamics365/supply-chain/toc.json
                         - name: 'Tipas: NumberValue'
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-conversion-numbervalue.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: 'Tipas: Value'
+                        - name: 'Tipas: reikšmė'
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-conversion-value.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: 'Konteineris: Base64StringToContainer'
-                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-container-base64stringtocontainer.md?toc=/dynamics365/supply-chain/toc.json
                         - name: 'Data ir laikas: DateTimeValue'
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-datetimevalue.md?toc=/dynamics365/supply-chain/toc.json
                         - name: 'Data ir laikas: DateToDateTime'
@@ -1169,51 +1029,81 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-numberformat.md?toc=/dynamics365/supply-chain/toc.json
                         - name: 'Tekstas: QrCode'
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-qrcode.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: 'Tekstas: Text'
+                        - name: 'Tekstas: tekstas'
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-text.md?toc=/dynamics365/supply-chain/toc.json
-            - name: ER formatų kūrimas siunčiamiems dokumentams įvairiais formatais generuoti
+            - name: Atskirų ER konfigūracijų ER modelio susiejimo valdymas
+              href: ../fin-ops-core/dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/dynamics365/supply-chain/toc.json
+            - name: 'Duomenų modelio aprašo pasirinkimas, kuriant formatus'
+              href: ../fin-ops-core/dev-itpro/analytics/tasks/er-select-data-model-definition-creating-er-format-july-2017.md?toc=/dynamics365/supply-chain/toc.json
+            - name: 'Išplėstinės filtravimo parinktys, ieškant konfigūracijų visuotinėje saugykloje'
+              href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/supply-chain/toc.json
+            - name: 'Ataskaitų, įtraukiant turinį kaip neapdorotą XML, generavimas'
+              href: ../fin-ops-core/dev-itpro/analytics/er-generate-reports-raw-xml.md?toc=/dynamics365/supply-chain/toc.json
+            - name: (ER) Visos įmonės duomenų šaltiniai elektroninėse ataskaitose
+              href: ../fin-ops-core/dev-itpro/analytics/er-cross-company-data-sources.md?toc=/dynamics365/supply-chain/toc.json
+            - name: ER formatų kūrimas siunčiamiems elektroniniams dokumentams įvairiais formatais generuoti
               items:
-                - name: Konfigūracijų kūrimas siunčiamiems dokumentams „Excel“ formatu generuoti
-                  items:
-                    - name: Konfigūracijų kūrimas dokumentams „Excel“ formatu generuoti
-                      href: ../fin-ops-core/dev-itpro/analytics/er-fillable-excel.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Ataskaitų generavimo OPENXML formatu pavyzdys
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-reports-openxml-2016-11.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: ER formatų modifikavimas iš naujo pritaikant „Excel“ šablonus
-                      href: ../fin-ops-core/dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Dinaminis stulpelių įtraukimas į „Excel“ ataskaitas naudojant horizontaliai išplečiamus diapazonus
-                      items:
-                        - name: 'Formatų, skirtų stulpeliams dinamiškai įtraukti į „Excel“ ataskaitas, kūrimas'
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-1.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: 'Formatų, skirtų stulpeliams dinamiškai įtraukti į „Excel“ ataskaitas, paleidimas'
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-2.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Ataskaitų generavimo „Word“ formatu konfigūracijų kūrimas
-                  items:
-                    - name: Ataskaitų generavimo „Word“ formatu naujos ER konfigūracijos kūrimas
-                      href: ../fin-ops-core/dev-itpro/analytics/er-design-configuration-word.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: 'Pakartotinis ER konfigūracijų naudojimas su „Excel“ šablonais, kad būtų galima generuoti ataskaitas „Word“ formatu'
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-configuration-word-2016-11.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Sulaikyti Word turinio valdiklius sugeneruotose ataskaitose
-                      href: ../fin-ops-core/dev-itpro/analytics/er-design-configuration-word-suppress-controls.md?toc=/dynamics365/supply-chain/toc.json
+                - name: '(ER) Konfigūracijos, skirtos ataskaitoms OPENXML formatu generuoti, kūrimas'
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-reports-openxml-2016-11.md?toc=/dynamics365/supply-chain/toc.json
+                - name: (ER) Ataskaitų generavimo „Word“ formatu konfigūracijų kūrimas
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-configuration-word-2016-11.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Konfigūracijų kūrimas pildymui PDF šablonuose
                   href: ../fin-ops-core/dev-itpro/analytics/er-fillable-pdf.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Vaizdų ir figūrų įdėjimas
+            - name: Vaizdų ir figūrų įdėjimas
+              items:
+                - name: '(ER) Vaizdų ir figūrų įdėjimas į dokumentus, kuriuos generuojate'
+                  href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-embed-images-shapes.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Įdedamų vaizdų ir figūrų pavyzdys
                   items:
-                    - name: 'Vaizdų ir figūrų įdėjimas į dokumentus, kuriuos generuojate'
-                      href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-embed-images-shapes.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Įdedamų vaizdų ir figūrų pavyzdys
-                      items:
-                        - name: Ataskaitų generavimo „Office“ formatais su įdėtaisiais vaizdais konfigūracijų kūrimas
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-july-2017.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Ataskaitų generavimo „Office“ formatais su įdėtaisiais vaizdais konfigūracijų peržiūra
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-2-review-configurations.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Ataskaitų „Office“ formatais su įdėtaisiais vaizdais generavimas
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-3-generate-reports.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Sugeneruotų XML failų skaidymas pagal failo dydį ir turinio kiekį
-                  href: ../fin-ops-core/dev-itpro/analytics/er-split-files.md?toc=/dynamics365/supply-chain/toc.json
-                - name: KS simbolių sulaikymas sugeneruotuose failuose
-                  href: ../fin-ops-core/dev-itpro/analytics/er-suppress-bom-characters.md?toc=/dynamics365/supply-chain/toc.json
-            - name: Prašymų duomenų naujinimas naudojant ER
+                    - name: Ataskaitų generavimo „Office“ formatais su įdėtaisiais vaizdais konfigūracijų kūrimas
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-july-2017.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Ataskaitų generavimo „Office“ formatais su įdėtaisiais vaizdais konfigūracijų peržiūra
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-2-review-configurations.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Ataskaitų „Office“ formatais su įdėtaisiais vaizdais generavimas
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-3-generate-reports.md?toc=/dynamics365/supply-chain/toc.json
+            - name: Elektroninių ataskaitų formatų modifikavimas iš naujo pritaikant „Excel“ šablonus
+              href: ../fin-ops-core/dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md?toc=/dynamics365/supply-chain/toc.json
+            - name: ER konfigūracijų priklausomybės nuo kitų komponentų apibrėžimas
+              href: ../fin-ops-core/dev-itpro/analytics/tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md?toc=/dynamics365/supply-chain/toc.json
+            - name: ER sprendimo kūrimas norint naudoti finansines dimensijas
+              items:
+                - name: 'Duomenų modelių, pagal kuriuos finansinės dimensijos būtų naudojamos kaip duomenų šaltiniai, kūrimas'
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-1.md?toc=/dynamics365/supply-chain/toc.json
+                - name: 'Modelių, pagal kuriuos finansinės dimensijos būtų naudojamos kaip duomenų šaltiniai, susiejimas'
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-2.md?toc=/dynamics365/supply-chain/toc.json
+                - name: 'Ataskaitų, pagal kurias finansinės dimensijos būtų naudojamos kaip duomenų šaltiniai, kūrimas'
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-3.md?toc=/dynamics365/supply-chain/toc.json
+                - name: 'Ataskaitų, kurios finansines dimensijas naudoja kaip duomenų šaltinius, taikymas'
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-4.md?toc=/dynamics365/supply-chain/toc.json
+            - name: ER formatų kūrimas norint atlikti skaičiavimo ir sumavimo veiksmus naudojant sugeneruotos išvesties informaciją
+              items:
+                - name: Formatų kūrimas norint atlikti skaičiavimo ir sumavimo veiksmus
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-format-counting-summing-1.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Formato konfigūravimas norint atlikti skaičiavimo ir sumavimo veiksmus
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-format-counting-summing-2.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Skaičiavimų naudojimas skaičiavimo ir sumavimo veiksmų išvestims generuoti
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-format-counting-summing-3.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Formatų taikymas norint atlikti skaičiavimo ir sumavimo veiksmus
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-format-counting-summing-4.md?toc=/dynamics365/supply-chain/toc.json
+            - name: Dinaminis stulpelių įtraukimas į „Excel“ ataskaitas naudojant horizontaliai išplečiamus diapazonus
+              items:
+                - name: 'Formatų, skirtų stulpeliams dinamiškai įtraukti į „Excel“ ataskaitas naudojant horizontaliai išplečiamus diapazonus, kūrimas'
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-1.md?toc=/dynamics365/supply-chain/toc.json
+                - name: 'Formatų, skirtų stulpeliams dinamiškai įtraukti į „Excel“ ataskaitas naudojant horizontaliai išplečiamus diapazonus, taikymas'
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-2.md?toc=/dynamics365/supply-chain/toc.json
+            - name: Dokumentų valdymo failų naudojimas formato išvestyse
+              items:
+                - name: 'Duomenų modelių, skirtų dokumentų valdymo failams naudoti ER išvestyse, ruošimas'
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-1.md?toc=/dynamics365/supply-chain/toc.json
+                - name: 'Duomenų modelių, skirtų dokumentų valdymo failams naudoti ER išvestyse, išplėtimas'
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-2.md?toc=/dynamics365/supply-chain/toc.json
+                - name: 'Formatų, skirtų dokumentų valdymo failams naudoti ER išvestyse, kūrimas'
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-3.md?toc=/dynamics365/supply-chain/toc.json
+                - name: 'Formatų, skirtų dokumentų valdymo failams naudoti ER išvestyse, taikymas'
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-4.md?toc=/dynamics365/supply-chain/toc.json
+                - name: 'Formatų, skirtų dokumentų valdymo failams naudoti ER išvestyse, modifikavimas ir taikymas'
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-5.md?toc=/dynamics365/supply-chain/toc.json
+            - name: Prašymo duomenų naujinimas naudojant elektronines ataskaitas
               items:
                 - name: Elektroninių dokumentų generavimas ir prašymų duomenų naujinimas
                   href: ../fin-ops-core/dev-itpro/analytics/generate-electronic-documents-update-application-data.md?toc=/dynamics365/supply-chain/toc.json
@@ -1235,8 +1125,6 @@
                   items:
                     - name: Konfigūracijų kūrimas norint importuoti duomenis iš išorinio XML failo
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-required-configurations-import-data.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Paketinis duomenų importavimas iš rankiniu būdu pasirinktų failų
-                      href: ../fin-ops-core/dev-itpro/analytics/er-configure-data-import-batch.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Duomenų importavimo paketiniu režimu iš „SharePoint“ esančių failų konfigūravimas
                   href: ../fin-ops-core/dev-itpro/analytics/er-configure-data-import-sharepoint.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Failų importavimas XML formatu
@@ -1245,150 +1133,52 @@
                       href: ../fin-ops-core/dev-itpro/analytics/rcs-optional-attributes.md?toc=/dynamics365/supply-chain/toc.json
                     - name: ER formatų konfigūravimas norint importuoti XML formato failus su pasirinktiniais atributais
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/import-files-xml-format-optional-attributes.md?toc=/dynamics365/supply-chain/toc.json
+            - name: Sugeneruotų XML failų skaidymas pagal failo dydį ir turinio kiekį
+              href: ../fin-ops-core/dev-itpro/analytics/er-split-files.md?toc=/dynamics365/supply-chain/toc.json
+            - name: Apskaičiuotojo lauko tipo ER duomenų šaltinių parametrizuotų skambučių palaikymas
+              href: ../fin-ops-core/dev-itpro/analytics/er-calculated-field-type.md?toc=/dynamics365/supply-chain/toc.json
             - name: Konfigūracijos ciklas
               items:
                 - name: Konfigūracijų ciklo valdymas
                   href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-manage-configuration-lifecycle.md?toc=/dynamics365/supply-chain/toc.json
-                - name: „Lifecycle Services“ (LCS)
+                - name: Konfigūracijų nusiuntimas į „Lifecycle Services“
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-upload-configuration-into-lifecycle-services.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Konfigūracijų importavimas iš „Lifecycle Services“
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-import-configuration-lifecycle-services.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Konfigūracijų atsisiuntimas iš „Lifecycle Services“
+                  href: ../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Konfigūracijų importavimas
+                  href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/dynamics365/supply-chain/toc.json
+                - name: ER konfigūracijų atsisiuntimas iš RCS saugyklos
                   items:
-                    - name: Konfigūracijų nusiuntimas į LCS
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-upload-configuration-into-lifecycle-services.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Konfigūracijų importavimas iš LCS
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-import-configuration-lifecycle-services.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Konfigūracijų atsisiuntimas iš LCS
-                      href: ../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Konfigūracijų importavimas (LBD)
-                      href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/dynamics365/supply-chain/toc.json
-                - name: „Regulatory Configuration Service“ (RCS)
-                  items:
-                    - name: „Regulatory Configuration Service“ (RCS) apžvalga
-                      href: ../finance/localizations/rcs-overview.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: ER konfigūracijų atsisiuntimas į „Supply Chain Management“
-                      items:
-                        - name: Konfigūracijų atsisiuntimas iš RCS
-                          href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Konfigūracijų importavimas iš RCS
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Visuotinė saugykla (GR)
-                      items:
-                        - name: Konfigūracijų importavimas iš GR
-                          href: ../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Atnaujintų ER konfigūracijų versijų importavimas
-                          href: ../fin-ops-core/dev-itpro/analytics/er-download-updated-versions-global-repo.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Išplėstinis filtravimas konfigūracijoms rasti GR
-                          href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Konfigūracijų nusiuntimas į GR
-                          href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Konfigūracijų bendrinimas GR
-                          href: ../finance/localizations/rcs-global-repo-share-configuration.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Konfigūracijų RCS visuotinėje saugykloje naudojimo nutraukimas
-                          href: ../finance/localizations/discontinuing-configurations-rcs-global-repo.md?toc=/dynamics365/supply-chain/toc.json
-            - name: Greito pasirengimo darbui vadovai
-              items:
-                - name: ER formato koregavimas pasirinktiniam elektroniniam dokumentui sugeneruoti
-                  href: ../fin-ops-core/dev-itpro/analytics/er-quick-start2-customize-report.md?toc=/dynamics365/supply-chain/toc.json
-                - name: 'Naujo ER sprendimo, skirto spausdinti pasirinktinę ataskaitą, kūrimas'
-                  href: ../fin-ops-core/dev-itpro/analytics/er-quick-start1-new-solution.md?toc=/dynamics365/supply-chain/toc.json
-                - name: ER sprendimo koregavimas pasirinktiniam elektroniniam dokumentui sugeneruoti
-                  href: ../fin-ops-core/dev-itpro/analytics/er-quick-start3-customize-report.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Konfigūracijų atsisiuntimas iš RCS tipo ER saugyklos
+                      href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Konfigūracijų importavimas iš RCS
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/supply-chain/toc.json
             - name: Mokymo programos
               items:
-                - name: 'Sužinokite, kaip naudoti duomenų šaltinius'
+                - name: Duomenų šaltinių SUJUNGIMO naudojimas norint gauti duomenis iš kelių programos lentelių
+                  href: ../fin-ops-core/dev-itpro/analytics/er-join-data-sources.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Nuo šalies konteksto priklausomo ER modelio susiejimų konfigūravimas
+                  href: ../fin-ops-core/dev-itpro/analytics/er-country-dependent-model-mapping.md?toc=/dynamics365/supply-chain/toc.json
+                - name: 'ER formatų konfigūravimas, kurį atlikus naudojami juridiniam subjektui nurodyti parametrai'
+                  href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-configure-format.md?toc=/dynamics365/supply-chain/toc.json
+                - name: ER formato parametrų nustatymas kiekvienam juridiniam subjektui
+                  href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-set-up.md?toc=/dynamics365/supply-chain/toc.json
+                - name: ER formato elementų vykdymo atidėjimas
                   items:
-                    - name: SUJUNGIMO naudojimas duomenims iš kelių lentelių gauti
-                      href: ../fin-ops-core/dev-itpro/analytics/er-join-data-sources.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: 'Naudokite NEAPDOROTĄ XML, kad įtrauktumėte turinį'
-                      href: ../fin-ops-core/dev-itpro/analytics/er-generate-reports-raw-xml.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: APSKAIČIUOTOJO LAUKO duomenų šaltinių parametrizuotų skambučių palaikymas
-                      items:
-                        - name: Vartotojo patirties ir naudojimo priežiūros tobulinimas
-                          href: ../fin-ops-core/dev-itpro/analytics/er-calculated-field-type.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Prieigos prie duomenų tobulinimas
-                          href: ../fin-ops-core/dev-itpro/analytics/er-calculated-field-ds-performance.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: ER duomenų šaltiniai tarp įmonių
-                      href: ../fin-ops-core/dev-itpro/analytics/er-cross-company-data-sources.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: FINANSINIŲ DIMENSIJŲ INFORMACIJOS duomenų šaltinių naudojimas
-                      items:
-                        - name: Kurti duomenų modelius
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-1.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: 'Susieti modelius, kad būtų galima naudoti finansines dimensijas'
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-2.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Kūrimo ataskaitos
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-3.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Paleisti ataskaitas
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-4.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: 'Naudoti sugeneruotą išvestį kaip duomenų šaltinį, kad būtų galima atlikti skaičiavimą ir sumavimą'
-                      items:
-                        - name: Kurti formatus
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-format-counting-summing-1.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Formato konfigūravimas norint atlikti skaičiavimo ir sumavimo veiksmus
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-format-counting-summing-2.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Generuoti išvestį skaičiavimui ir sumavimui
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-format-counting-summing-3.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Formatų taikymas norint atlikti skaičiavimo ir sumavimo veiksmus
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-format-counting-summing-4.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: 'DOKUMENTŲ ryšių naudojimas, kad būtų galima pasiekti dokumentų valdymo failus'
-                      items:
-                        - name: Duomenų modelių paruošimas
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-1.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: 'Duomenų modelių išplėtimas, kad būtų galima naudoti dokumentų valdymo failus'
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-2.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Kurti formatus
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-3.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: 'Formatų, skirtų dokumentų valdymo failams naudoti, taikymas'
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-4.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: 'Formatų, skirtų dokumentų valdymo failams naudoti, modifikavimas ir taikymas'
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-5.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: BRŪKŠNINIO KODO naudojimas brūkšninio kodo vaizdams generuoti
-                      href: ../fin-ops-core/dev-itpro/analytics/er-barcode-data-sources.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: 'Konfigūruokite PERŽVALGOS duomenų šaltinius, kad būtų galima naudoti konkretaus ER prašymo parametrus'
-                      href: ../fin-ops-core/dev-itpro/analytics/er-lookup-data-sources.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: DUOMENŲ RINKINIO duomenų šaltinių naudojimas ER formatuose
-                      href: ../fin-ops-core/dev-itpro/analytics/er-data-collection-data-sources.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Duomenų šaltinių derinimas
-                      href: ../fin-ops-core/dev-itpro/analytics/er-debug-data-sources.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Modelių susiejimų konfigūravimas
-                  items:
-                    - name: Nuo šalies konteksto priklausomo ER modelio susiejimų konfigūravimas
-                      href: ../fin-ops-core/dev-itpro/analytics/er-country-dependent-model-mapping.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Atskirų ER konfigūracijų ER modelio susiejimo valdymas
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Kelių vieno modelio šakninio elemento išvestų susiejimų valdymas
-                      href: ../fin-ops-core/dev-itpro/analytics/er-multiple-model-mappings.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Formatų konfigūravimas
-                  items:
-                    - name: Modelių aprašų pasirinkimas kuriant formatus
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-select-data-model-definition-creating-er-format-july-2017.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: 'ER formatų konfigūravimas, kurį atlikus naudojami juridiniam subjektui nurodyti parametrai'
-                      href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-configure-format.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: ER formato parametrų nustatymas kiekvienam juridiniam subjektui
-                      href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-set-up.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: ER formato elementų vykdymo atidėjimas
-                      items:
-                        - name: Sekos elemento vykdymo atidėjimas
-                          href: ../fin-ops-core/dev-itpro/analytics/er-defer-sequence-element.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: XML elemento vykdymo atidėjimas
-                          href: ../fin-ops-core/dev-itpro/analytics/er-defer-xml-element.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Ataskaitų keliomis kalbomis kūrimas
-                      href: ../fin-ops-core/dev-itpro/analytics/er-design-multilingual-reports.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Didelių siunčiamų dokumentų glaudinimas
-                      href: ../fin-ops-core/dev-itpro/analytics/er-compress-outbound-files.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Sukonfigūruotų ER komponentų tikrinimas
-                  href: ../fin-ops-core/dev-itpro/analytics/er-components-inspections.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Duomenų susiejimo santykinis kelias
-                  href: ../fin-ops-core/dev-itpro/analytics/relative-path-data-bindings-er-models-format.md?toc=/dynamics365/supply-chain/toc.json
-            - name: ER sprendimų naudojimas „Supply Chain Management“
+                    - name: Sekos elemento vykdymo atidėjimas
+                      href: ../fin-ops-core/dev-itpro/analytics/er-defer-sequence-element.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: XML elemento vykdymo atidėjimas
+                      href: ../fin-ops-core/dev-itpro/analytics/er-defer-xml-element.md?toc=/dynamics365/supply-chain/toc.json
+            - name: Elektroninių ataskaitų sprendimų „Finance and Operations“ naudojimas
               items:
                 - name: Sistemos konfigūravimas
                   items:
                     - name: Elektroninių ataskaitų sistemos konfigūravimas
                       href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-er-configure-parameters.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Kurti atsargines ER šablonų kopijas ir atkurti
-                      items:
-                        - name: ER šablonų atsarginių kopijų saugykla
-                          href: ../fin-ops-core/dev-itpro/analytics/er-backup-storage-templates.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: ER perkėlimo valymas
-                          href: ../fin-ops-core/dev-itpro/analytics/er-migration-cleanup.md?toc=/dynamics365/supply-chain/toc.json
+                      href: ../fin-ops-core/dev-itpro/analytics/er-backup-storage-templates.md?toc=/dynamics365/supply-chain/toc.json
                     - name: 'Konfigūracijos teikėjų kūrimas, pažymint juos kaip aktyvius'
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Paskirties vietos
@@ -1411,76 +1201,40 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-screen.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Paskirties vietų konfigūravimas
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-destinations-2016-11.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Nuo veiksmo priklausančių paskirties vietų konfigūravimas
-                      href: ../fin-ops-core/dev-itpro/analytics/er-action-dependent-destinations.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Konkrečių spausdinimo valdymo įrašų ER paskirties vietų konfigūravimas
-                      href: ../fin-ops-core/dev-itpro/analytics/er-named-destinations.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Nuorodos į ER formatą nustatymas
                   href: ../fin-ops-core/dev-itpro/analytics/er-extended-format-lookup.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Automatiškas sugeneruotų ataskaitų tvirtinimas
                   items:
                     - name: Sugeneruotų ataskaitų rezultatų sekimas ir jų palyginimas su bazinėmis vertėmis
                       href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Sugeneruotų ER ataskaitų rezultatų sekimo ir palyginimo su bazinėmis vertėmis patobulinimas
+                    - name: Sugeneruotų ER ataskaitų rezultatų sekimo ir palyginimo su bazinėmis vertėmis patobulinimai
                       href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline-replace.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Automatinis tikrinimas su ER
+                    - name: Bandymų automatizavimas naudojant elektronines ataskaitas
                       href: ../fin-ops-core/dev-itpro/analytics/er-automate-testing.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Verslo procesų automatizavimas naudojant elektroninių ataskaitų konfigūracijas
                   items:
-                    - name: ER konfigūravimas siekiant perkelti duomenis į „Power BI“
+                    - name: Elektroninių ataskaitų konfigūravimas duomenims perkelti į „Power BI“
                       href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Spausdintinų laisvos formos sąskaitų faktūrų (FTI) formų generavimas
                       href: ../fin-ops-core/dev-itpro/analytics/er-generate-printable-fti-forms.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Efektyvių elektroninių ataskaitų sprendimų kūrimas
+                - name: ER formatų vykdymo sekimas siekiant diagnozuoti našumo problemas
+                  href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Verslo dokumentų valdymas
                   items:
-                    - name: Elektroninių ataskaitų formatų vykdymo sekimas siekiant diagnozuoti našumo problemas
-                      href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Elektroninių ataskaitų konfigūracijų našumo trikčių šalinimas
-                      href: ../fin-ops-core/dev-itpro/analytics/er-troubleshoot-perf-issues-in-configurations.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Verslo dokumentų valdymas (BDM)
-                  items:
-                    - name: BDM apžvalga
+                    - name: Verslo dokumentų valdymo apžvalga
                       href: ../fin-ops-core/dev-itpro/analytics/er-business-document-management.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Nauja dokumento vartotojo sąsaja BDM
+                    - name: Nauja dokumento vartotojo sąsaja verslo dokumentų valdyme
                       href: ../fin-ops-core/dev-itpro/analytics/er-business-document-management-new-template-ui.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Verslo dokumentų šablonų redagavimas BDM
-                      items:
-                        - name: Naujų laukų įtraukimas į verslo dokumento šabloną „Microsoft Excel“
-                          href: ../fin-ops-core/dev-itpro/analytics/er-bdm-add-field-to-excel-template.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Verslo dokumento šablono struktūros naujinimas
-                          href: ../fin-ops-core/dev-itpro/analytics/er-bdm-update-structure.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Naujų laukų įtraukimas į verslo dokumento šabloną „Microsoft Excel“
+                      href: ../fin-ops-core/dev-itpro/analytics/er-bdm-add-field-to-excel-template.md?toc=/dynamics365/supply-chain/toc.json
             - name: ER sistemos API
               items:
-                - name: Įtaisytųjų funkcijų sąrašo išplėtimas
+                - name: Elektroninių ataskaitų funkcijų sąrašo išplėtimas
                   href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md?toc=/dynamics365/supply-chain/toc.json
-                - name: API keitimai
-                  items:
-                    - name: Programos 7.3 naujinimas
-                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app73.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Programos 10.0.11 naujinimas
-                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-11.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Programos 10.0.17 naujinimas
-                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-17.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Programos 10.0.19 naujinimas
-                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-19.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Programos 10.0.21 naujinimas
-                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-21.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Programos 10.0.23 naujinimas
-                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-23.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Programos 10.0.25 naujinimas
-                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-25.md?toc=/dynamics365/supply-chain/toc.json
+                - name: „Application Update 7.3“ elektroninės ataskaitų sistemos API pakeitimai
+                  href: ../fin-ops-core/dev-itpro/analytics/er-apis-app73.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Pasirinktinės saugyklos vietos sugeneruotiems dokumentams nurodymas
-                  items:
-                    - name: 'Įvykio prenumeravimas, kad prenumeratos apdorojimo programai galima būtų pateikti užklausą dėl atsakymo'
-                      href: ../fin-ops-core/dev-itpro/analytics/er-custom-storage-generated-documents.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: ER paskirties vietos kūrimo perdavimas pasirinktinės paskirties vietos gamyklai
-                      href: ../fin-ops-core/dev-itpro/analytics/er-custom-storage-generated-files.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Pasirinktinės paskirtie vietos sugeneruotiems dokumentams diegimas
-                  href: ../fin-ops-core/dev-itpro/analytics/er-custom-file-destination.md?toc=/dynamics365/supply-chain/toc.json
-                - name: „USER INPUT PARAMETER“ tipo duomenų šaltinio verčių inicijavimas iš šaltinio kodo
-                  href: ../fin-ops-core/dev-itpro/analytics/er-initiate-uip-data-source-value-from-source-code.md?toc=/dynamics365/supply-chain/toc.json
-                - name: 'Kodo keitimas, kad vartotojai galėtų konfigūruoti ir naudoti įvardytąsias ER paskirties vietas'
-                  href: ../fin-ops-core/dev-itpro/analytics/er-api-named-destinations.md?toc=/dynamics365/finance/toc.json
+                  href: ../fin-ops-core/dev-itpro/analytics/er-custom-storage-generated-documents.md?toc=/dynamics365/supply-chain/toc.json
         - name: Atsargų valdymas
           items:
             - name: Atsargų valdymo apžvalga
@@ -1493,46 +1247,24 @@
                   href: inventory/tasks/set-up-item-arrival-overview-profile.md
             - name: Kokybės valdymas
               items:
-                - name: Kokybės ir neatitikimo valdymo peržiūra
+                - name: Kokybės valdymo apžvalga
+                  href: inventory/enable-quality-management.md
+                - name: Kokybės valdymo procesai
                   href: inventory/quality-management-processes.md
-                - name: Kokybės ir neatitikimo valdymo įjungimas ir konfigūravimas
-                  items:
-                    - name: Kokybės ir neatitikimo valdymo įjungimas
-                      href: inventory/enable-quality-management.md
-                    - name: Kokybės valdymo bandymo priemonės
-                      href: inventory/quality-test-instruments.md
-                    - name: Kokybės valdymo bandymai
-                      href: inventory/quality-tests.md
-                    - name: Kokybės valdymo bandymo kintamieji
-                      href: inventory/quality-test-variables.md
-                    - name: Kokybės valdymo bandymo grupės
-                      href: inventory/quality-test-groups.md
-                    - name: Kokybės valdymo prekių grupės
-                      href: inventory/quality-groups.md
-                    - name: Kokybės valdymo prekių pavyzdžių ėmimas
-                      href: inventory/quality-item-sampling.md
-                    - name: Kokybės susiejimai
-                      href: inventory/quality-associations.md
-                    - name: Už neatitikimų tvirtinimą atsakingi darbuotojai
-                      href: inventory/quality-responsible-workers.md
-                    - name: Neatitikimo problemų tipai
-                      href: inventory/quality-problem-types.md
-                    - name: Neatitikimo sulaikymo zonos
-                      href: inventory/quality-quarantine-zones.md
-                    - name: Neatitikimo diagnostikos tipai
-                      href: inventory/quality-diagnostic-types.md
-                    - name: Neatitikimo operacijos
-                      href: inventory/quality-operations.md
-                    - name: Neatitikimo operacijų mokesčiai
-                      href: inventory/quality-charges.md
-                - name: Darbas su kokybės užsakymais
-                  href: inventory/quality-orders.md
+                - name: Sandėlio procesų kokybės valdymas
+                  href: inventory/quality-management-for-warehouses-processes.md
+                - name: Neatitikimo valdymas
+                  href: inventory/enable-nonconformance-management.md
+                - name: Būtinųjų valdymo sąlygų nustatymas
+                  href: inventory/tasks/set-up-prerequisites-nonconformance-management.md
+                - name: Atitikimo kūrimas ir apdorojimas
+                  href: inventory/tasks/create-process-non-conformance.md
+                - name: Sulaikymo užsakymai
+                  href: inventory/quarantine-orders.md
+                - name: Kokybės užsakymų nustatymas
+                  href: inventory/tasks/set-up-quality-orders.md
                 - name: Prekių kokybės tikrinimas
                   href: inventory/tasks/inspect-quality-goods.md
-                - name: Neatitikimo kūrimas ir apdorojimas
-                  href: inventory/tasks/create-process-non-conformance.md
-                - name: Darbas su sulaikymo užsakymais
-                  href: inventory/quarantine-orders.md
                 - name: Atsargų blokavimas
                   href: inventory/inventory-blocking.md
                 - name: Atsargų blokavimo kūrimas ir tvarkymas
@@ -1605,24 +1337,8 @@
                   href: cost-management/adjust-hand-inventory-cost-values.md
                 - name: Atsargų dimensijos einamosios vidutinės kainos sekimas
                   href: cost-management/track-running-average-cost-per-inventory-dimension.md
-            - name: Atsargų operacijų archyvavimas
-              href: inventory/archive-inventory-transactions.md
             - name: Atsargų matomumo papildinys
-              items:
-                - name: Atsargų matomumo papildinio apžvalga
-                  href: inventory/inventory-visibility.md
-                - name: Atsargų matomumo diegimas ir nustatymas
-                  href: inventory/inventory-visibility-setup.md
-                - name: Atsargų matomumo konfigūravimas
-                  href: inventory/inventory-visibility-configuration.md
-                - name: Atsargų matomumo programos naudojimas
-                  href: inventory/inventory-visibility-power-platform.md
-                - name: Atsargų matomumo rezervavimai
-                  href: inventory/inventory-visibility-reservations.md
-                - name: Atsargų matomumo viešos API
-                  href: inventory/inventory-visibility-api.md
-                - name: Patarimai dėl atsargų matomumo
-                  href: inventory/inventory-visibility-tips.md
+              href: inventory/inventory-visibility.md
         - name: IoT įžvalgos
           items:
             - name: Pagrindinis IoT įžvalgų puslapis
@@ -1651,64 +1367,32 @@
                   href: master-planning/planning-optimization/planning-optimization-overview.md
                 - name: Darbo su planavimo optimizavimu pradžia
                   href: master-planning/planning-optimization/get-started.md
-                - name: Planavimo optimizavimo išleidimo procesas ir išleidimo retrospektyva
-                  href: master-planning/planning-optimization/release-process.md
                 - name: Planavimo optimizavimo tinkamumo analizė
                   href: master-planning/planning-optimization/planning-optimization-fit-analysis.md
-                - name: Skirtumas tarp įtaisytojo bendrojo planavimo ir planavimo optimizavimo
-                  href: master-planning/planning-optimization/planning-optimization-differences-with-built-in.md
-                - name: Planavimo optimizavimo nenaudojami parametrai
-                  href: master-planning/planning-optimization/not-used-parameters.md
-                - name: Tiekimo grafikas
-                  href: master-planning/supply-schedule.md
                 - name: Filtrų taikymas planui
                   href: master-planning/planning-optimization/plan-filters.md
                 - name: Bendrasis planavimas su poreikio prognoze
                   href: master-planning/planning-optimization/demand-forecast.md
                 - name: Bendrasis planavimas su įsigijimo prekybos sutartimis
                   href: master-planning/planning-optimization/purchase-trade-agreement.md
-                - name: Planavimo optimizavimui naudojami datos ir laiko parametrai
-                  href: master-planning/planning-optimization/date-time-used.md
                 - name: Laiko rezervai
                   href: master-planning/planning-optimization/safety-margins.md
-                - name: Leistinas uždelsimo nuokrypis (neigiamos dienos)
-                  href: master-planning/planning-optimization/delay-tolerance.md
-                - name: Pirkimo paraiškos
-                  href: master-planning/planning-optimization/purchase-requisitions.md
-                - name: Gamybos planavimas
-                  href: master-planning/planning-optimization/production-planning.md
-                - name: Planavimas su neribotu pajėgumu
-                  href: master-planning/planning-optimization/infinite-capacity-planning.md
-                - name: Planavimas su išteklių pasirinkimu pagal pajėgumą
-                  href: master-planning/planning-optimization/capability-based-scheduling.md
-                - name: Prioritetu grindžiamas planavimas
-                  href: master-planning/planning-optimization/priority-based-planning.md
                 - name: Atsargų žymėjimas naudojant planavimo optimizavimą
                   href: master-planning/planning-optimization/marking.md
                 - name: Vidinės įmonės planavimas
                   href: master-planning/planning-optimization/Intercompany-planning.md
                 - name: Produktų su tam tikromis produkto ciklo būsenomis neįtraukimas
                   href: master-planning/planning-optimization/product-lifecycle-state.md
-                - name: Papildymo metodai ir kiekio modifikavimas
-                  href: master-planning/planning-optimization/replenishment-methods-quantity-modification.md
-                - name: Padengimo laiko ribos
-                  href: master-planning/planning-optimization/coverage-time-fence.md
-                - name: Grynieji poreikiai ir iškvietimo informacija naudojant planavimo optimizavimą
-                  href: master-planning/planning-optimization/net-requirements.md
                 - name: Suplanuotų užsakymų tvirtinimas
                   href: master-planning/planning-optimization/approved-planned-order.md
-                - name: Galutinai suplanuoti užsakymai
-                  href: master-planning/planning-optimization/planned-order-firming.md
-                - name: Supaprastinti planuoti užsakymai
-                  href: master-planning/planning-optimization/planned-orders-simplified.md
+                - name: Automatinis patvirtinimas naudojant planavimo optimizavimo funkciją
+                  href: master-planning/planning-optimization/planning-optimization-auto-firming.md
                 - name: Planavimas su neigiamais turimais kiekiais
                   href: master-planning/planning-optimization/negative-on-hand.md
                 - name: Plano retrospektyvos ir planavimo žurnalų peržiūra
                   href: master-planning/planning-optimization/plan-history-logs.md
                 - name: Planavimo užduoties atšaukimas
                   href: master-planning/planning-optimization/cancel-planning-job.md
-                - name: Veiksmų pranešimai
-                  href: master-planning/action-messages.md
                 - name: Planavimo optimizavimo trikčių diagnostika
                   href: master-planning/planning-optimization/planning-optimization-trouble-shooting.md
                 - name: Planavimo optimizavimo išplečiamumas
@@ -1729,18 +1413,18 @@
                   href: master-planning/tasks/constrained-plan.md
                 - name: Sudėtinių produktų medžiagų plano kūrimas
                   href: master-planning/tasks/create-material-plan-co-products.md
-                - name: Suplanuotų užsakymų priežiūra
+                - name: Suplanuotų užsakymų tvarkymas
                   href: master-planning/maintain-planned-orders.md
                 - name: Prekių pakankamų atsargų pildymas
                   href: master-planning/safety-stock-replenishment.md
-                - name: Pakankamų atsargų žurnalo naudojimas mažiausiam prekių padengimui atnaujinti
-                  href: master-planning/safety-stock-journal.md
-                - name: Atidėjimai
+                - name: Delsos
                   href: master-planning/delays.md
                 - name: Bendrojo planavimo užduoties atšaukimas
                   href: master-planning/cancel-master-planning-job.md
                 - name: Sekimo naudojimas išskleidimo tikslais
                   href: master-planning/trace-explosion.md
+                - name: Veiksmų pranešimai
+                  href: master-planning/action-messages.md
                 - name: Bendrojo planavimo vykdymo stebėjimas
                   href: master-planning/tasks/monitor-master-planning-run.md
                 - name: Vietos grafiko kūrimas
@@ -1749,8 +1433,6 @@
                   href: master-planning/tasks/create-plan-site.md
                 - name: Kalendoriai ir bendrasis planavimas
                   href: master-planning/supply-chain-calendars-master-planning.md
-                - name: Išspręskite planavimo mechanizmo klaidą „Nepavyko rasti pakankamai pajėgumo“
-                  href: master-planning/not-enough-capacity-error-resolution.md
                 - name: Bendrojo planavimo efektyvumo patobulinimas
                   href: master-planning/master-planning-performance.md
                 - name: Planavimo mechanizmo našumo tobulinimas
@@ -1775,42 +1457,36 @@
                   href: master-planning/more-about-dynamic-negative-days.md
                 - name: Vidinės įmonės plano kūrimas
                   href: master-planning/tasks/create-intercompany-plan.md
-                - name: Siunčiamo suplanuoto vidinės įmonės poreikio peržiūra
+                - name: Siunčiamo suplanuoto vidinių įmonių poreikio peržiūra
                   href: master-planning/tasks/view-outbound-planned-intercompany-demand.md
-                - name: Grynieji poreikiai ir iškvietimo informacija naudojant įtaisytąjį bendrąjį planavimą
-                  href: master-planning/net-requirements-built-in-master-planning.md
-            - name: Prognozavimas
+                - name: Bendradarbiavimas su vidinės tiekimo grandinės klientais
+                  href: master-planning/tasks/collaborate-internal-supply-chain-customers.md
+            - name: Poreikio prognozavimas
               items:
-                - name: Poreikio ir tiekimo prognozavimas
-                  items:
-                    - name: Atsargų prognozės
-                      href: master-planning/inventory-forecast.md
-                    - name: 'Vadovas: Poreikio prognozės modifikavimas rankiniu būdu'
-                      href: master-planning/tasks/modify-demand-forecast-manually.md
-                - name: Poreikio prognozavimas
-                  items:
-                    - name: Poreikio prognozavimo apžvalga
-                      href: master-planning/introduction-demand-forecasting.md
-                    - name: Poreikio prognozavimo nustatymas
-                      href: master-planning/demand-forecasting-setup.md
-                    - name: Pagrindinės statistinės prognozės generavimas
-                      href: master-planning/generate-statistical-baseline-forecast.md
-                    - name: Rankinis pagrindinės prognozės koregavimas
-                      href: master-planning/manual-adjustments-baseline-forecast.md
-                    - name: Pakoreguotos prognozės įgaliojimas
-                      href: master-planning/authorize-adjusted-forecast.md
-                    - name: Poreikio prognozių praeities duomenų importavimas
-                      href: master-planning/import-historical-data.md
-                    - name: Pašalinių reikšmių šalinimas iš praeities operacijų duomenų skaičiuojant poreikio prognozę
-                      href: master-planning/remove-historical-outliers-calculating-demand-forecast.md
-                    - name: Prognozės tikslumo stebėjimas
-                      href: master-planning/monitor-forecast-accuracy.md
-                    - name: 'Vadovas: Pagrindinės prognozės kūrimas'
-                      href: master-planning/tasks/create-baseline-forecast.md
-                - name: Bendrasis planavimas su prognoze
-                  items:
-                    - name: Prognozės mažinimo raktai
-                      href: master-planning/reduction-keys.md
+                - name: Poreikio prognozavimo apžvalga
+                  href: master-planning/introduction-demand-forecasting.md
+                - name: Poreikio prognozavimo nustatymas
+                  href: master-planning/demand-forecasting-setup.md
+                - name: Poreikio prognozių praeities duomenų importavimas
+                  href: master-planning/import-historical-data.md
+                - name: Pagrindinės statistinės prognozės generavimas
+                  href: master-planning/generate-statistical-baseline-forecast.md
+                - name: Rankinis pagrindinės prognozės koregavimas
+                  href: master-planning/manual-adjustments-baseline-forecast.md
+                - name: Pakoreguotos prognozės įgaliojimas
+                  href: master-planning/authorize-adjusted-forecast.md
+                - name: Prognozės tikslumo stebėjimas
+                  href: master-planning/monitor-forecast-accuracy.md
+                - name: Pašalinių reikšmių šalinimas iš praeities operacijų duomenų skaičiuojant poreikio prognozę
+                  href: master-planning/remove-historical-outliers-calculating-demand-forecast.md
+                - name: Mažinimo raktai
+                  href: master-planning/reduction-keys.md
+                - name: Pagrindinės prognozės kūrimas
+                  href: master-planning/tasks/create-baseline-forecast.md
+                - name: Poreikio prognozės modifikavimas rankiniu būdu
+                  href: master-planning/tasks/modify-demand-forecast-manually.md
+            - name: Bendrojo planavimo trikčių šalinimas
+              href: master-planning/troubleshoot-masterplanning.md
         - name: Mobiliųjų įrenginių programėlė
           items:
             - name: Mobiliųjų įrenginių programėlės pagrindinis puslapis
@@ -1826,7 +1502,7 @@
                 - name: Kaštų kontrolė
                   href: ../finance/cost-accounting/cost-controlling-mobile-workspace.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Išlaidų valdymas
-                  href: /dynamics365/project-operations/prod-exp/expense-management-mobile-workspace?toc=%2fdynamics365%2fsupply-chain%2ftoc.json
+                  href: ../finance/expense-management/expense-management-mobile-workspace.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Turimos atsargos
                   href: inventory/inventory-on-hand-mobile-workspace.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Sąskaitų faktūrų patvirtinimai
@@ -1834,11 +1510,11 @@
                 - name: Mano komanda
                   href: ../fin-ops-core/dev-itpro/mobile-apps/manager-self-service-mobile-workspace.md?toc=/dynamics365/supply-chain/toc.json
                 - name: „Project“ mobiliųjų programų apžvalga
-                  href: /dynamics365/project-operations/prod-pma/project-mobile-application-overview?toc=%2fdynamics365%2fsupply-chain%2ftoc.json
+                  href: ../finance/project-management/project-mobile-application-overview.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Projekto laiko įrašas
-                  href: /dynamics365/project-operations/prod-pma/project-time-entry-mobile-workspace?toc=%2fdynamics365%2fsupply-chain%2ftoc.json
+                  href: ../finance/project-management/project-time-entry-mobile-workspace.md?toc=/dynamics365/supply-chain/toc.json
                 - name: '"Project Timesheet"'
-                  href: /dynamics365/project-operations/prod-pma/project-timesheet?toc=%2fdynamics365%2fsupply-chain%2ftoc.json
+                  href: ../finance/project-management/project-timesheet.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Pirkimo užsakymo patvirtinimas
                   href: procurement/purchase-order-mobile-workspace.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Pardavimo užsakymai
@@ -1855,11 +1531,11 @@
               href: ../fin-ops-core/dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/supply-chain/toc.json
             - name: Objektų duomenų atidarymas „Excel“ ir jų atnaujinimas naudojant „Excel“ skirtą papildinį
               href: ../fin-ops-core/dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/supply-chain/toc.json
-            - name: DUK apie atidarymo programoje „Excel“ patirtis
+            - name: Atidarymo programoje „Excel“ patirčių kūrimas
               href: ../fin-ops-core/dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/supply-chain/toc.json
             - name: Šablonų įtraukimas į meniu Atidaryti eilutes programoje „Excel“
               href: ../fin-ops-core/dev-itpro/user-interface/add-templates-open-lines-excel-menu.md?toc=/dynamics365/supply-chain/toc.json
-            - name: Atidarymo tinkinimas „Microsoft Office“ meniu
+            - name: Atidarytų elementų tinkinimas „Microsoft Office“ meniu
               href: ../fin-ops-core/dev-itpro/office-integration/customize-open-office-menu.md?toc=/dynamics365/supply-chain/toc.json
             - name: El. pašto konfigūravimas ir siuntimas
               href: ../fin-ops-core/fin-ops/organization-administration/configure-email.md?toc=/dynamics365/supply-chain/toc.json
@@ -1901,8 +1577,6 @@
                   href: ../fin-ops-core/fin-ops/organization-administration/plan-configuration-global-address-book-additional-address-books.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Visuotinės adresų knygelės konfigūravimas
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/configure-global-address-book.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Adreso sąranka
-                  href: ../fin-ops-core/fin-ops/organization-administration/global-address-book-address-setup.md?toc=/dynamics365/supply-chain/toc.json
                 - name: DUK apie adresų knygeles
                   href: ../fin-ops-core/fin-ops/organization-administration/qa-address-books.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Adresų knygelių konfigūravimas
@@ -1931,8 +1605,6 @@
                       href: ../fin-ops-core/fin-ops/organization-administration/configure-approval-process-workflow.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Patvirtinimo veiksmų konfigūravimas
                       href: ../fin-ops-core/fin-ops/organization-administration/configure-approval-step-workflow.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Išlaidų redaktorių konfigūravimas
-                      href: ../fin-ops-core/fin-ops/organization-administration/configure-expenditure-reviewers.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Neautomatizuotų sprendimų konfigūravimas
                       href: ../fin-ops-core/fin-ops/organization-administration/configure-manual-decision-workflow.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Sąlyginių sprendimų konfigūravimas
@@ -2015,6 +1687,8 @@
               href: procurement/procurement-sourcing-overview.md
             - name: Įsigijimo ir šaltinio pasirinkimo darbo eiga
               href: procurement/procurement-sourcing-workflows.md
+            - name: Įsigijimo ir šaltinio pasirinkimo darbo eigų trikčių diagnostika
+              href: procurement/troubleshoot-procurementworkflows.md
             - name: Įsigijimo katalogai
               items:
                 - name: Įsigijimo katalogų apžvalga
@@ -2035,8 +1709,6 @@
                   href: procurement/request-quotations.md
                 - name: Pasiūlymo patvirtinimo kūrimas
                   href: procurement/tasks/create-request-quotation.md
-                - name: 'Užantspauduotas kainos pasiūlymas, skirtas RFQ'
-                  href: procurement/sealed-bidding.md
                 - name: 'Paraiškos, kurioje naudojamas RFQ, kūrimas'
                   href: procurement/tasks/create-requisition-uses-rfq.md
                 - name: RFQ vertinimo būdo kūrimas
@@ -2055,12 +1727,10 @@
                   href: procurement/purchase-order-approval-confirmation.md
                 - name: Pirkimo užsakymų patvirtinimo mobilioji darbo sritis
                   href: procurement/purchase-order-mobile-workspace.md
-                - name: Vidinės įmonės pirkimo užsakymo kūrimas ir SF išrašymas vidiniais įmonės tikslais
-                  href: sales-marketing/intercompany-purchase-order-for-internal-use.md
-                - name: Tikrinti vidinės įmonės užsakymo kainų nesutapimus
-                  href: sales-marketing/intercompany-check-price-discrepancies.md
                 - name: Prekių gavimo įrašymas pirkimo užsakyme
-                  href: procurement/tasks/record-receipt-goods-purchase-order.md
+                  href: ../supply-chain/procurement/tasks/record-receipt-goods-purchase-order.md
+                - name: Pirkimo užsakymų trikčių diagnostika
+                  href: procurement/troubleshoot-purchaseorders.md
             - name: Pirkimo užsakymo kūrimas
               items:
                 - name: Pirkimo užsakymų kūrimas rankiniu būdu
@@ -2071,7 +1741,9 @@
                   href: procurement/tasks/create-purchase-order-delivery-schedule.md
                 - name: Kurti vienkartinio tiekėjo pirkimo užsakymą
                   href: procurement/tasks/create-purchase-order-one-time-supplier.md
-                - name: Taikyti pirkimo sutartį kuriant pirkimo užsakymą
+                - name: Kurti pirkimo leidimą išduoti kuriant pirkimo užsakymą
+                  href: procurement/tasks/create-purchase-release-order-creating-purchase-order.md
+                - name: Pirkimo leidimo užsakymo kūrimas iš pirkimo sutarties
                   href: procurement/tasks/create-purchase-release-order-purchase-agreement.md
                 - name: Pirkimo grąžinimo užsakymo kūrimas
                   href: procurement/tasks/create-purchase-return-order.md
@@ -2091,6 +1763,8 @@
                   href: procurement/automatic-charges-allocation.md
                 - name: Tiekėjo grąžinimai
                   href: procurement/vendor-rebates.md
+                - name: 'Kainų, nuolaidų, sutarčių ir grąžinimų trikčių šalinimas'
+                  href: procurement/troubleshooting-pricediscountagreements.md
             - name: Pirkimo strategijos
               items:
                 - name: Pirkimo strategijų apžvalga
@@ -2105,6 +1779,8 @@
                   href: procurement/product-receipt-against-purchase-orders.md
                 - name: Tiekėjo SF apžvalga
                   href: ../finance/accounts-payable/vendor-invoices-overview.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Produkto gavimo dokumentų ir SF išrašymo trikčių šalinimas
+                  href: procurement/troubleshooting-productreceiptinvoicing.md
             - name: Tiekėjų valdymas ir bendradarbiavimas
               items:
                 - name: Tiekėjo bendradarbiavimo nustatymas ir tvarkymas
@@ -2125,14 +1801,8 @@
                   href: procurement/vendor-onboarding.md
                 - name: Tiekėjo bendradarbiavimas su išoriniais tiekėjais
                   href: procurement/vendor-collaboration-work-external-vendors.md
-                - name: Tiekėjo sertifikavimo priežiūra
-                  href: ../finance/public-sector/manage-vendor-certification.md
-                - name: Kategorijų užklausos iš tiekėjų
-                  href: procurement/category-requests-from-vendors.md
                 - name: Tiekėjo bendradarbiavimas su klientais
                   href: procurement/vendor-collaboration-work-customers-dynamics-365-operations.md
-                - name: Tiekėjo banko sąskaitos informacijos priežiūra
-                  href: ../finance/accounts-payable/maintain-vendor-bank-info.md
                 - name: Tiekėjų katalogų importavimas
                   href: procurement/vendor-catalogs-import.md
                 - name: Išorinio katalogo nustatymas el. įsigijimų išėjimo laikui žymėti
@@ -2155,12 +1825,10 @@
               items:
                 - name: Projekto išteklių informacijos nustatymas
                   href: procurement/tasks/set-up-project-resource-information.md
-                - name: Projekto biudžeto darbo eigos kūrimas ir pateikimas
+                - name: Projektų biudžetų teikimas ir tvirtinimas
                   href: procurement/tasks/submit-approve-project-budget.md
                 - name: Projektų biudžetų tikslinimų teikimas ir tvirtinimas
                   href: procurement/tasks/submit-approve-project-budget-revision.md
-            - name: DUK apie įsigijimą
-              href: procurement/procurement-faq.md
         - name: Produkto informacijos valdymas
           items:
             - name: Produktų informacijos apžvalga
@@ -2185,8 +1853,6 @@
                   href: pim/tasks/create-product-master.md
                 - name: Iš anksto apibrėžtų produkto variantų kūrimas
                   href: pim/tasks/create-predefined-product-variants.md
-                - name: Matavimo vienetų valdymas
-                  href: pim/tasks/manage-unit-measure.md
                 - name: Produkto varianto matavimo vieneto konvertavimas
                   href: pim/uom-conversion-per-product-variant.md
                 - name: Vienos įmonės išleisto produkto kūrimas
@@ -2243,8 +1909,6 @@
                   href: production-control/bom-designer-functionality.md
                 - name: Formulės konstruktoriaus naudojimas
                   href: production-control/formula-designer.md
-                - name: Numatytojo gamybos medžiagų rezervavimo principo nepaisymas
-                  href: production-control/override-default-reservation-principle.md
                 - name: Produktų variantų įtraukimas į pirkimo užsakymus naudojant variantų svorius
                   href: pim/tasks/add-variant-products-purchase-order-variant-weights.md
                 - name: Konfigūruojamojo produkto pardavimo užsakymo kūrimas
@@ -2255,6 +1919,8 @@
                   href: pim/tasks/set-up-attribute-based-pricing-configurable-products.md
                 - name: KS skaičiavimai
                   href: cost-management/bom-calculations.md
+                - name: Produkto informacijos trikčių šalinimas
+                  href: pim/troubleshooting-productinformation.md
             - name: Produkto konfigūracija
               items:
                 - name: Produkto konfigūracijos apžvalga
@@ -2285,8 +1951,6 @@
                   items:
                     - name: Produkto konfigūracijos modelio nustatymas
                       href: pim/set-up-maintain-product-configuration-model.md
-                    - name: Produkto konfigūracijos modelio skaičiavimai
-                      href: pim/config-model-calculations.md
                     - name: DUK apie produkto konfigūracijos modelio skaičiavimą
                       href: pim/calculate-product-configuration-models.md
                     - name: Konfigūracijos taisyklė
@@ -2317,8 +1981,8 @@
                       href: pim/tasks/approve-product-configuration-model.md
                     - name: Produktų modelių duomenų perkėlimas
                       href: pim/tasks/transfer-data-product-models.md
-            - name: DUK apie produkto informacijos valdymą
-              href: pim/product-information-faq.md
+                - name: Produkto konfigūravimo priemonės trikčių šalinimas
+                  href: pim/troubleshooting-productconfigurator.md
         - name: Inžinerinių pakeitimų valdymas
           items:
             - name: Inžinerinių pakeitimų valdymo apžvalga
@@ -2337,10 +2001,6 @@
               href: engineering-change-management/engineering-attributes-and-search.md
             - name: Inžinerinės versijos ir inžinerinių produktų kategorijos
               href: engineering-change-management/engineering-versions-product-category.md
-            - name: Formulių ir ingredientų keitimų valdymas
-              href: engineering-change-management/manage-formula-changes.md
-            - name: Pakeitimų valdymo įjungimas esamiems produktams
-              href: engineering-change-management/change-management-existing-products.md
             - name: Produkto ciklo būsena ir operacijos
               href: engineering-change-management/product-lifecycle-state-transactions.md
             - name: Inžinierinių produktų keitimų valdymas
@@ -2349,10 +2009,6 @@
               href: engineering-change-management/product-readiness.md
             - name: Išleisto produkto struktūra
               href: engineering-change-management/release-product-structure.md
-            - name: Inžinierinių produktų variantų generavimas
-              href: engineering-change-management/engineering-variants.md
-            - name: DUK apie inžinerinių pakeitimų valdymą
-              href: engineering-change-management/change-management-faq.md
         - name: Gamybos kontrolė
           items:
             - name: Gamybos procesų apžvalga
@@ -2361,12 +2017,6 @@
               href: production-control/mixed-mode-plan.md
             - name: Subrangos darbo valdymas gamybos metu
               href: production-control/manage-subcontract-work-production.md
-            - name: Bendra užduočių ID numerių seka
-              href: production-control/unified-job-ids.md
-            - name: Proceso automatizavimo srautų iškvietimas kokybės užsakymams sukurti
-              href: production-control/process-automation-quality-orders.md
-            - name: Integravimas trečiosios šalies gamybos vykdymo sistemose
-              href: production-control/mes-integration.md
             - name: Diskretinė (surenkamoji) gamyba
               items:
                 - name: Bendrųjų gamybos duomenų tvarkymas
@@ -2377,12 +2027,12 @@
                       href: production-control/bill-of-material-bom.md
                     - name: KS kūrimo įrankio funkcija
                       href: production-control/bom-designer-functionality.md
-                    - name: Numatytojo gamybos medžiagų rezervavimo principo nepaisymas
-                      href: production-control/override-default-reservation-principle.md
                     - name: Fiktyvios prekės
                       href: production-control/phantom-items.md
                     - name: KS skaičiavimai
                       href: cost-management/bom-calculations.md
+                    - name: Matavimo vieneto valdymas
+                      href: pim/tasks/manage-unit-measure.md
                     - name: Gamybos parametrai modulyje Gamybos vykdymas
                       href: production-control/production-parameters-manufacturing-execution.md
                     - name: „Operations“ ištekliai
@@ -2447,6 +2097,16 @@
                       href: production-control/release-production-orders.md
                     - name: Gamybos užsakymų skelbimas baigtais
                       href: production-control/report-production-orders-as-finished.md
+                    - name: Gamybos vietos vykdymo sąsajos nustatymas ir naudojimas
+                      items:
+                        - name: Gamybos vietos vykdymo sąsajos konfigūravimas
+                          href: production-control/production-floor-execution-configure.md
+                        - name: Gamybos vietos vykdymo sąsajos kūrimas
+                          href: production-control/production-floor-execution-tabs.md
+                        - name: 'Įrenginio, skirto paleisti gamybos vietos vykdymo sąsają, nustatymas'
+                          href: production-control/production-floor-execution-setup.md
+                        - name: Kaip darbuotojai naudoja gamybos vietos vykdymo sąsają
+                          href: production-control/production-floor-execution-use.md
                     - name: Įrenginių užduoties kortelių konfigūravimas
                       href: production-control/config-job-card-device.md
                     - name: Skelbimas baigtu iš užduoties kortelės įrenginio
@@ -2501,9 +2161,11 @@
                       href: production-control/absence-registration-in-time-and-attendance.md
                     - name: Nukrypimų grupės
                       href: production-control/time-attendance-flex-groups.md
-            - name: „Lean manufacturing“
+                - name: Atskiros gamybos trikčių šalinimas
+                  href: production-control/troubleshoot-discretemanufacturing.md
+            - name: LEAN gamyba
               items:
-                - name: „Lean manufacturing“ apžvalga
+                - name: LEAN gamybos apžvalga
                   href: production-control/lean-manufacturing-overview.md
                 - name: Subranga pagal veiklą
                   href: production-control/activity-based-subcontracting.md
@@ -2653,46 +2315,8 @@
                       href: production-control/consumption.md
                     - name: Gamybos registravimas
                       href: cost-management/production-posting.md
-            - name: Gamybos vietos vykdymo sąsajos nustatymas ir naudojimas
-              items:
-                - name: Gamybos vietos vykdymo sąsajos konfigūravimas
-                  href: production-control/production-floor-execution-configure.md
-                - name: Gamybos vietos vykdymo sąsajos kūrimas
-                  href: production-control/production-floor-execution-tabs.md
-                - name: 'Įrenginio, skirto paleisti gamybos vietos vykdymo sąsają, nustatymas'
-                  href: production-control/production-floor-execution-setup.md
-                - name: Kaip darbuotojai naudoja gamybos vietos vykdymo sąsają
-                  href: production-control/production-floor-execution-use.md
-                - name: Gamybos vietos vykdymo sąsajos projektavimas
-                  href: production-control/production-floor-execution-styles.md
-                - name: Gamybos vietos vykdymo sąsajos tinkinimas
-                  href: production-control/production-floor-execution-customize.md
-        - name: Grąžinimų valdymas
-          items:
-            - name: Grąžinimų valdymo modulio peržiūra
-              href: rebate-management/rebate-management-overview.md
-            - name: Grąžinimų valdymo modulio nustatymas ir konfigūravimas
-              items:
-                - name: Grąžinimų valdymo modulio įjungimas jūsų sistemai
-                  href: rebate-management/rebate-management-enable.md
-                - name: Grąžinimų valdymo parametrai
-                  href: rebate-management/rebate-management-parameters.md
-                - name: Grąžinimų valdymo sandorio darbo eigos
-                  href: rebate-management/rebate-management-workflows.md
-                - name: Grąžinimo mažinimo principai
-                  href: rebate-management/rebate-reduction-principle.md
-                - name: Grąžinimo būsenos
-                  href: rebate-management/rebate-statuses.md
-                - name: Grąžinimų valdymo grupės
-                  href: rebate-management/rebate-management-groups.md
-                - name: Grąžinimų valdymo registravimo sąranka
-                  href: rebate-management/rebate-management-posting.md
-            - name: Grąžinimų valdymo sandoriai
-              href: rebate-management/rebate-management-deals.md
-            - name: 'Grąžinimų apdorojimas, peržiūra ir registravimas'
-              href: rebate-management/process-review-post.md
-            - name: Atskaitymų valdymas naudojant atskaitymų darbo sritį
-              href: rebate-management/deduction-workbench.md
+                - name: Apdirbamosios gamybos trikčių šalinimas
+                  href: production-control/troubleshoot-processmanufacturing.md
         - name: Pardavimas ir rinkodara
           items:
             - name: Pardavimo ir rinkodaros apžvalga
@@ -2731,8 +2355,8 @@
                   href: sales-marketing/tasks/manage-order-holds.md
                 - name: Pardavimo užsakymų tvirtinimas
                   href: sales-marketing/tasks/confirm-sales-orders.md
-                - name: DUK apie pardavimo užsakymą
-                  href: sales-marketing/sales-orders-faq.md
+                - name: Pardavimo užsakymų trikčių šalinimas
+                  href: sales-marketing/troubleshooting-sales.md
             - name: Pardavimo sutartys
               items:
                 - name: Pardavimo sutarčių apžvalga
@@ -2755,63 +2379,9 @@
                   href: sales-marketing/tasks/mass-sales-quotations.md
                 - name: Pardavimo pasiūlymų kūrimas ir redagavimas
                   href: sales-marketing/tasks/create-edit-sales-quotations.md
-            - name: Vidinės įmonės prekyba
-              items:
-                - name: Vidinės įmonės prekybos nustatymas
-                  items:
-                    - name: Vidinės įmonės prekybos nustatymas
-                      href: sales-marketing/intercompany-trade-set-up.md
-                    - name: Vidinės įmonės parametrai
-                      href: sales-marketing/intercompany-parameters.md
-                    - name: 'Vidinės įmonės prekybos tiekėjų, klientų ir prekių nustatymas'
-                      href: sales-marketing/intercompany-set-up-vendors-customers-items.md
-                    - name: Vidinės įmonės užsakymų mokesčių nustatymas
-                      href: sales-marketing/intercompany-set-up-charges.md
-                    - name: 'Parametrų, skirtų vidinės įmonės užsakymui registruoti, nustatymas'
-                      href: sales-marketing/intercompany-set-up-parameters-to-post-order.md
-                - name: Vidinės įmonės informacijos sinchronizavimas
-                  items:
-                    - name: Vidinės įmonės kainų ir nuolaidų sinchronizavimas
-                      href: sales-marketing/intercompany-sync-prices-discounts.md
-                    - name: Vidinės įmonės išlaidų sinchronizavimas
-                      href: sales-marketing/intercompany-sync-charges.md
-                    - name: Vidinės įmonės klientų informacijos sinchronizavimas
-                      href: sales-marketing/intercompany-synch-customer-information.md
-                    - name: Vidinės įmonės perdavimo kodų sinchronizavimas
-                      href: sales-marketing/intercompany-synchronize-disposition-codes.md
-                - name: Vidinės įmonės pardavimo užsakymai ir SF
-                  items:
-                    - name: Vidinės įmonės pirkimo ir pardavimo užsakymų kūrimas keliose įmonėse
-                      href: sales-marketing/intercompany-orders-in-several-companies.md
-                    - name: Vidinės įmonės užsakymai ir grąžinimo užsakymai
-                      href: sales-marketing/intercompany-orders-and-return-orders.md
-                    - name: Vidinės įmonės pardavimo užsakymo kūrimas vidiniais įmonės tikslais
-                      href: sales-marketing/intercompany-sales-order-for-internal-use.md
-                    - name: Vidinės įmonės pardavimo užsakymo kūrimas ir sąskaitos faktūros išrašymas išoriniam klientui
-                      href: sales-marketing/intercompany-sales-order-for-external-customer.md
-                    - name: Vidinės įmonės rezervavimai
-                      href: sales-marketing/intercompany-reservations.md
-                    - name: Pradinio vidinės įmonės pardavimo užsakymo keitimas arba naikinimas
-                      href: sales-marketing/intercompany-change-delete-original-sales-order.md
-                    - name: Vidinės įmonės užsakymų keitimas
-                      href: sales-marketing/intercompany-change-orders.md
-                    - name: Vidinės įmonės paketų ir serijų numeriai
-                      href: sales-marketing/intercompany-batch-serial-numbers.md
-                    - name: Vidinės įmonės važtaraščiai
-                      href: sales-marketing/intercompany-packing-slips.md
-                    - name: Vidinės įmonės klientų SF mokėjimų automatinis registravimas
-                      href: sales-marketing/intercompany-register-customer-payments-automatically.md
-                - name: Vidinės įmonės pirkimo užsakymai
-                  items:
-                    - name: Vidinės įmonės pirkimo užsakymo kūrimas ir SF išrašymas vidiniais įmonės tikslais
-                      href: sales-marketing/intercompany-purchase-order-for-internal-use.md
-                    - name: Tikrinti vidinės įmonės užsakymo kainų nesutapimus
-                      href: sales-marketing/intercompany-check-price-discrepancies.md
-                - name: Vidinės įmonės valiutų konvertavimai
-                  href: sales-marketing/intercompany-currency-conversions.md
-                - name: Vidinės įmonės bendrasis planavimas
-                  href: sales-marketing/intercompany-master-scheduling.md
-            - name: Grąžinimas
+                - name: Pardavimo pasiūlymų trikčių šalinimas
+                  href: sales-marketing/troubleshooting-salesquotation.md
+            - name: Grąžinimai
               items:
                 - name: Pardavimo grąžinimai
                   href: warehousing/sales-returns.md
@@ -2833,10 +2403,8 @@
                   href: sales-marketing/customer-portal-customize.md
             - name: Prekybos nuolaida
               href: sales-marketing/trade-allowance.md
-            - name: Naujos prekybos sutarties sukūrimas
+            - name: Naujos prekybos sutarties kūrimas
               href: sales-marketing/tasks/create-new-trade-agreement.md
-            - name: Pardavimo istorijos valymo našumo patobulinimai
-              href: sales-marketing/sales-update-history-cleanup-performance-improvements.md
         - name: Aptarnavimo valdymas
           items:
             - name: Aptarnavimo valdymo apžvalga
@@ -3121,10 +2689,6 @@
               href: transportation/tasks/load-template.md
             - name: Vertinimo šablonai
               href: transportation/tasks/setup-a-rating-profile.md
-            - name: LTL klasės
-              href: transportation/ltl-class.md
-            - name: NMFC kodai
-              href: transportation/nmfc-codes.md
             - name: Vežėjo degalų indekso nustatymas
               href: transportation/tasks/set-up-carrier-fuel-index.md
             - name: Transportavimo mokėjimo priemonės nustatymas
@@ -3143,58 +2707,6 @@
               href: transportation/tasks/set-up-shipping-carriers.md
             - name: Prekės transportavimo apribojimų nustatymas
               href: transportation/tasks/set-up-transportation-constraints-item.md
-        - name: Gabenimo išlaidos
-          items:
-            - name: Gabenimo išlaidų modulio peržiūra
-              href: landed-cost/landed-cost-overview.md
-            - name: Kaip gabenimo išlaidos prilygsta transportavimo valdymui
-              href: landed-cost/landed-cost-vs-tms.md
-            - name: Gabenimo išlaidų modulio nustatymas ir konfigūravimas
-              items:
-                - name: Gabenimo išlaidų modulio įjungimas jūsų sistemai
-                  href: landed-cost/landed-cost-enable.md
-                - name: Gabenimo išlaidų parametrai
-                  href: landed-cost/landed-cost-parameters.md
-                - name: Gabenimo išlaidų įsigijimo ir tiekimo parametrai
-                  href: landed-cost/landed-cost-procurement-parameters.md
-                - name: Reiso būsenos nustatymas
-                  href: landed-cost/voyage-status-setup.md
-                - name: Krovininio konteinerio nustatymas
-                  href: landed-cost/shipping-container-setup.md
-                - name: Pristatymo informacijos sąranka
-                  href: landed-cost/delivery-information-setup.md
-                - name: Kelių atkarpų kelionės sąranka
-                  href: landed-cost/multi-leg-journey-setup.md
-                - name: Siuntimo informacijos sąranka
-                  href: landed-cost/shipping-information-setup.md
-                - name: Įkainojimo parametrų verčių sąranka
-                  href: landed-cost/costing-parameters-setup.md
-                - name: Numatytieji didžiosios knygos aprašai
-                  href: landed-cost/defult-descriptions.md
-            - name: Tiekėjo parametrai įtraukti gabenimo išlaidoms
-              href: landed-cost/vendors-landed-cost-settings.md
-            - name: 'Darbas su reisais, konteineriais ir važtaraščiais'
-              items:
-                - name: Reisų tvarkymas
-                  href: landed-cost/manage-voyages.md
-                - name: Krovininių konteinerių tvarkymas
-                  href: landed-cost/manage-shipping-containers.md
-                - name: Važtaraščių tvarkymas
-                  href: landed-cost/manage-folios.md
-            - name: Įeinančių reisų ir krovininių konteinerių sekimas
-              href: landed-cost/inbound-tracking.md
-            - name: Gabenimo išlaidų apskaičiavimas ir valdymas
-              href: landed-cost/estimate-manage-landed-costs.md
-            - name: Tranzito apdorojimas
-              href: landed-cost/in-transit-processing.md
-            - name: Pertekliaus / stygiaus operacijų apdorojimas
-              href: landed-cost/over-under-transactions.md
-            - name: Naujinti atidėjimo stebėjimą
-              href: landed-cost/update-tracking-putaway.md
-            - name: Gabenimo išlaidų užklausos
-              href: landed-cost/landed-cost-inquiries.md
-            - name: Gabenimo išlaidų ataskaitos
-              href: landed-cost/landed-cost-reports.md
         - name: Sandėlio valdymas
           items:
             - name: Sandėlio valdymo apžvalga
@@ -3207,8 +2719,6 @@
                   href: warehousing/tasks/register-items-advanced-warehousing.md
                 - name: 'Prekių, kurioms įjungta pagrindinio sandėliavimo funkcija, registravimas naudojant prekių gavimo žurnalą'
                   href: warehousing/tasks/register-items-basic-warehousing.md
-                - name: Gaunamų ASN importavimas naudojant V2 duomenų objektą
-                  href: warehousing/import-asn-v2-data-entity.md
                 - name: Produktų paskirstymas iš gavimo sandėlio į parduotuves
                   href: warehousing/tasks/cross-dock-products-receiving-warehouse-stores.md
                 - name: Pirkimo užsakymo atidėjimo vietos nurodymo nustatymas
@@ -3219,22 +2729,26 @@
                   href: warehousing/location-product-dimension-mixing.md
                 - name: Atidėjimo klasteriai
                   href: warehousing/putaway-clusters.md
-                - name: Sandėlio procesų kokybės valdymas
-                  href: inventory/quality-management-for-warehouses-processes.md
                 - name: Kokybės patikra
                   href: warehousing/quality-check.md
+                - name: Sandėlio gavimo operacijų trikčių šalinimas
+                  href: warehousing/troubleshoot-warehouse-inbound.md
             - name: Sandėlio siuntimo operacijos
               items:
-                - name: Lanksti sandėlio dimensijų rezervavimo strategija
-                  href: warehousing/flexible-warehouse-level-dimension-reservation.md
-                - name: Išleisti į sandėlį
-                  href: warehousing/release-to-warehouse-process.md
+                - name: 'Rezervavimai, atliekami valdant sandėlį'
+                  items:
+                    - name: Lanksti sandėlio dimensijų rezervavimo strategija
+                      href: warehousing/flexible-warehouse-level-dimension-reservation.md
+                    - name: 'Rezervavimų, atliekamų valdant sandėlį, trikčių šalinimas'
+                      href: warehousing/troubleshoot-warehouse-reservations.md
                 - name: Dalinis išleidimas ir dalinis siuntimas
                   items:
                     - name: Dalinis transportuojamo krovinio siuntimas
                       href: warehousing/partial-shipping-of-transport-loads.md
                     - name: Iš dalies rezervuotų perkėlimo užsakymų paketinis išleidimas
                       href: warehousing/batch-release-of-partially-reserved-transfer-orders.md
+                    - name: Dalinių išleidimų ir dalinių siuntimų trikčių šalinimas
+                      href: warehousing/troubleshoot-warehouse-partial-release-shipment.md
                 - name: Paėmimas ir pakavimas
                   items:
                     - name: Klasterio paėmimo nustatymas
@@ -3243,10 +2757,8 @@
                       href: warehousing/cluster-position-full.md
                     - name: Sistemos nukreiptas klasterio paėmimas
                       href: warehousing/system-directed-cluster-pick.md
-                    - name: Per didelis pardavimo užsakymų ir perkėlimo užsakymų paėmimas
-                      href: warehousing/over-picking-for-sales-and-transfer-orders.md
-                    - name: Skirtingų pakavimo ir saugojimo dimensijų nustatymas
-                      href: warehousing/packing-vs-storage-dimensions.md
+                    - name: Krovimo į konteinerius nustatymas
+                      href: warehousing/tasks/set-up-containerization.md
                     - name: Paketo ir numerio lentelės patvirtinimas
                       href: warehousing/batch-and-license-plate-confirmation.md
                     - name: Numerio lentelės žymės spausdinimo įgalinimas
@@ -3271,14 +2783,14 @@
                       href: warehousing/warehouse-slotting.md
                     - name: Vietos nurodymo atsargų paėmimo skirstymas pagal terminus
                       href: warehousing/location-directive-inventory-picking-aging.md
-                    - name: Fiksavimas
-                      href: warehousing/anchoring.md
                     - name: Siunčiamas rūšiavimas
                       href: warehousing/outbound-sorting.md
                     - name: Padėti prie sienos / padėti parduotuvėje
                       href: warehousing/put-to-wall-put-to-store.md
                     - name: Siunčiamo darbo krūvio vizualizavimas
                       href: warehousing/outbound-workload-visualization.md
+                    - name: Paėmimo ir pakavimo trikčių šalinimas
+                      href: warehousing/troubleshoot-warehouse-picking-packing.md
                 - name: Papildymas
                   items:
                     - name: Papildymo apžvalga
@@ -3295,6 +2807,8 @@
                       href: warehousing/replenishment-strategies.md
                     - name: Papildymas pagal vietos erdvę
                       href: warehousing/replenishment-over-location-capacity.md
+                    - name: Sandėlio papildymo trikčių šalinimas
+                      href: warehousing/troubleshoot-warehouse-replenishment.md
                 - name: Krovinio kūrimas ir siuntos
                   items:
                     - name: Tvirtinimas ir perkėlimas
@@ -3305,28 +2819,30 @@
                       href: warehousing/advanced-load-building-during-wave.md
                     - name: Išleidimo į sandėlį taisyklė
                       href: warehousing/release-to-warehouse-rule.md
-                    - name: Mažų siuntinių gabenimas
-                      href: warehousing/small-parcel-shipping.md
+                    - name: Bangos šablonų grupavimas
+                      href: warehousing/wave-template-grouping.md
+                    - name: Pakartotinis bangos žymų spausdinimas ir anuliavimas
+                      href: warehousing/reprint-and-void-wave-labels.md
+                    - name: Krovinio kūrimo ir siuntų trikčių šalinimas
+                      href: warehousing/troubleshoot-warehouse-loads-shipments.md
                 - name: Siuntos konsolidacijos strategijos
                   items:
                     - name: Siuntos konsolidacijos strategijos
                       href: warehousing/about-shipment-consolidation-policies.md
                     - name: Siuntos konsolidacijos strategijų konfigūravimas
                       href: warehousing/configure-shipment-consolidation-policies.md
-                    - name: '1 scenarijus – konsoliduoti siuntas, išleistas į sandėlį naudojant automatinį pardavimo užsakymų išleidimą'
+                    - name: '1 scenarijus – konsoliduoti siuntas, kai jos išleidžiamos į sandėlį naudojant automatinį pardavimo užsakymų išleidimą'
                       href: warehousing/consolidate-shipments-automatic.md
-                    - name: '2 scenarijus – konsoliduoti siuntas, kai siuntos konsolidacijos strategijos nepaisoma'
+                    - name: '2 scenarijus – konsoliduoti siuntas, kai siuntos konsolidacijos strategijos nepaisoma išleidimo į sandėlį puslapyje'
                       href: warehousing/consolidate-shipments-release-to-warehouse-override.md
-                    - name: 3 scenarijus – konsoliduoti siuntas išleidžiant į sandėlį krovinio planavimo darbo srityje
+                    - name: 3 scenarijus – konsoliduoti siuntas naudojant išleidimo į sandėlį funkciją krovinio planavimo darbo srityje
                       href: warehousing/consolidate-shipments-load-planning-workbench.md
                     - name: 4 scenarijus – konsoliduoti siuntas naudojant siuntų konsolidavimo darbo sritį
                       href: warehousing/consolidate-shipments-manual-workbench.md
                     - name: 5 scenarijus – konsoliduoti siuntas rankiniu būdu naudojant siuntų konsolidavimo puslapį
                       href: warehousing/consolidate-shipments-manual-form.md
-                - name: Bangos kūrimas ir apdorojimas
-                  href: warehousing/wave-processing.md
-                - name: Pakartotinis bangos žymų spausdinimas ir anuliavimas
-                  href: warehousing/reprint-and-void-wave-labels.md
+                - name: Sandėlio siuntimo operacijų trikčių šalinimas
+                  href: warehousing/troubleshoot-warehouse-outbound.md
             - name: Visose sandėlio operacijose
               items:
                 - name: Sandėlio darbo strategijos
@@ -3341,8 +2857,6 @@
                       href: warehousing/manage-warehouse-workers.md
                     - name: Atidėtas sandėlio darbo apdorojimas
                       href: warehousing/deferred-put.md
-                    - name: Atidėtas rankinio atsargų perkėlimo operacijos apdorojimas
-                      href: warehousing/deferred-processing-manual-inventory-movement.md
                 - name: Prekių skirstymas
                   items:
                     - name: Prekių skirstymas iš gamybos užsakymų į pakrovimo rampas
@@ -3365,8 +2879,6 @@
                       href: warehousing/partial-location-cycle-counting.md
                     - name: Dalinio vietos ciklų skaičiavimo proceso apibrėžimas
                       href: warehousing/tasks/define-partial-location-cycle-counting-process.md
-                    - name: Ciklo skaičiavimo scenarijų pavyzdžiai
-                      href: warehousing/cycle-counting-scenarios.md
                     - name: Sandėlio valdymo turimų įrašų valymo užduotis
                       href: warehousing/onhand-cleanup.md
                     - name: Atsargų žurnalai
@@ -3387,66 +2899,10 @@
                       href: warehousing/change-work-pool-on-work.md
                     - name: Prekės konsolidacija – vietos naudojimas
                       href: warehousing/item-consolidation-location-utilization.md
+                    - name: Sandėlio darbo trikčių šalinimas
+                      href: warehousing/troubleshoot-warehouse-work.md
                     - name: Darbo skaidymas
                       href: warehousing/work-split.md
-                    - name: Medžiagų tvarkymo įrangos sąsaja (MHAX)
-                      href: warehousing/mhax.md
-            - name: Sandėlio programa
-              items:
-                - name: 'Mobiliųjų įrenginių diegimas, nustatymas ir naudojimas'
-                  items:
-                    - name: Kas nauja ar pasikeitė „Warehouse Management“ mobiliųjų įrenginių programėlėje
-                      href: warehousing/whats-new-wma.md
-                    - name: „Warehouse Management“ mobiliųjų įrenginių programėlės diegimas ir prijungimas
-                      href: warehousing/install-configure-warehouse-management-app.md
-                    - name: Sandėlio programos diegimas ir prijungimas
-                      href: warehousing/install-configure-warehousing-app.md
-                    - name: Mobiliųjų brūkšninių kodų palaikymas
-                      href: warehousing/mobile-barcode-support.md
-                    - name: Brūkšninių kodų nuskaitymas „Warehouse Management“ mobiliųjų įrenginių programėle naudojant kamerą
-                      href: warehousing/scan-bar-codes-using-a-camera.md
-                - name: Mobiliųjų įrenginių laukų ir meniu nustatymas
-                  items:
-                    - name: „Warehouse Management“ mobiliųjų įrenginių programėlės laukų konfigūravimas
-                      href: warehousing/configure-app-field-names-priorities-warehouse.md
-                    - name: Mobiliųjų įrenginių nustatymas darbui sandėlyje
-                      href: warehousing/configure-mobile-devices-warehouse.md
-                    - name: „Warehouse Management“ mobiliųjų įrenginių programėlės veiksmų pavadinimų ir instrukcijų tinkinimas
-                      href: warehousing/mobile-app-titles-instructions.md
-                    - name: Paaukštintų laukų konfigūravimas mobiliajame įrenginyje atliekamiems veiksmams
-                      href: warehousing/warehouse-app-promoted-fields.md
-                    - name: Mobiliojo įrenginio meniu elementų aplinkinių veiksmų konfigūravimas
-                      href: warehousing/warehouse-app-detours.md
-                    - name: Su „Warehouse Management“ mobiliųjų įrenginių programėle gaunama numerio lentelė
-                      href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
-                    - name: Mobiliojo įrenginio meniu elemento pirkimo užsakymo darbui atlikti nustatymas
-                      href: warehousing/tasks/set-up-mobile-device-menu.md
-                    - name: Mobiliojo įrenginio meniu elemento gautoms prekėms registruoti nustatymas
-                      href: warehousing/tasks/set-up-mobile-device-menu-item-register-received-items.md
-                    - name: 'Mobiliojo įrenginio meniu elemento nustatymas, norint pateikti paėmimo eilučių apžvalgą'
-                      href: warehousing/pick-line-overview.md
-                    - name: Mobiliojo įrenginio meniu elemento numerių lentelėms konsoliduoti kūrimas
-                      href: warehousing/tasks/create-mobile-device-license-plate-consolidation.md
-                    - name: Mišrių numerių lentelių gavimas mobiliajame įrenginyje
-                      href: warehousing/mixed-license-plate-receiving.md
-                    - name: Konfigūracijos Rodyti senesnius paketus sandėlyje konfigūravimas mobiliajame įrenginyje
-                      href: warehousing/display-older-batches-within-warehouses.md
-                    - name: Seniausio paketo paėmimas mobiliajame įrenginyje
-                      href: warehousing/pick-oldest-batch.md
-                - name: Visuotiniai mobiliojo įrenginio parametrai
-                  href: warehousing/mobile-device-parameters.md
-                - name: Mobiliojo įrenginio vartotojų paskyros
-                  href: warehousing/mobile-device-work-users.md
-                - name: Mobiliojo įrenginio vartotojo parametrai
-                  href: warehousing/mobile-device-user-settings.md
-                - name: Sandėlio programos įvykių apdorojimas
-                  href: warehousing/warehouse-app-events.md
-                - name: Sandėlio mobiliųjų procesų išplėtimas
-                  items:
-                    - name: Proceso vadovo sistema
-                      href: warehousing/process-guide-framework.md
-                    - name: Veiksmų piktogramų ir pavadinimų priskyrimas
-                      href: warehousing/step-icons-titles.md
             - name: Sandėlio nustatymas
               items:
                 - name: Sandėlio konfigūracija
@@ -3459,36 +2915,14 @@
                       href: warehousing/control-warehouse-location-directives.md
                     - name: Darbas su vietos nurodymais
                       href: warehousing/create-location-directive.md
-                    - name: Sandėlio operacijų produktų filtrų konfigūravimas
-                      href: warehousing/filters-and-filter-codes.md
                     - name: Sandėliavimo limitų vieta
                       href: warehousing/location-stocking-limits.md
-                    - name: Bangos generavimas ir apdorojimas
-                      items:
-                        - name: Bangos apdorojimo pavyzdžio konfigūravimas
-                          href: warehousing/tasks/configure-wave-processing.md
-                        - name: Sandėlio parametrai bangos apdorojimui
-                          href: warehousing/wave-warehouse-parameters.md
-                        - name: Bangos šablonai
-                          href: warehousing/wave-templates.md
-                        - name: Bangos veiksmo kodai
-                          href: warehousing/wave-step-codes.md
-                        - name: Bangos šablonų grupavimas
-                          href: warehousing/wave-template-grouping.md
-                        - name: Bangos paskirstymas
-                          href: warehousing/wave-allocation-method.md
-                        - name: Darbo kūrimo bangos metu planavimas
-                          href: warehousing/configure-wave-schedule-work-creation.md
-                        - name: Bangos vykdymo pranešimai
-                          href: warehousing/wave-execution-notifications.md
-                        - name: Bangos žymos spausdinimas
-                          href: warehousing/configure-wave-label-printing.md
-                        - name: Bangos žymos spausdinimo bangos metu planavimas
-                          href: warehousing/configure-task-based-wave-label-printing.md
-                        - name: Krovimas į konteinerius
-                          href: warehousing/wave-containerization.md
-                        - name: Konteinerių pakavimo strategijos
-                          href: warehousing/container-packing-strategy-overview.md
+                    - name: Bangos veiksmo kodai
+                      href: warehousing/wave-step-codes.md
+                    - name: Bangos apdorojimo konfigūravimas
+                      href: warehousing/tasks/configure-wave-processing.md
+                    - name: Bangos žymos spausdinimo nustatymas ir naudojimas
+                      href: warehousing/configure-wave-label-printing.md
                     - name: Automatinis siuntų naujinimas
                       href: warehousing/auto-update-shipment.md
                     - name: Vietos šablono kūrimas
@@ -3513,14 +2947,52 @@
                       href: warehousing/system-group-on-open-work-list.md
                     - name: Numerio lentelės etikečių dokumentų maršrutų planavimo maketas
                       href: warehousing/document-routing-layout-for-license-plates.md
-                    - name: GS1 brūkšniniai kodai ir QR kodai
-                      href: warehousing/gs1-barcodes.md
+                    - name: Mobiliųjų brūkšninių kodų palaikymas
+                      href: warehousing/mobile-barcode-support.md
                     - name: Sandėlių perkėlimo užsakymų nustatymas
                       href: warehousing/transfer-orders-warehouse.md
+                    - name: Sandėlio konfigūracijos trikčių šalinimas
+                      href: warehousing/troubleshoot-warehouse-configuration.md
+                - name: Sandėlio programos diegimas ir konfigūravimas
+                  items:
+                    - name: Sandėlio programos diegimas ir prijungimas
+                      href: warehousing/install-configure-warehousing-app.md
+                    - name: Brūkšninių kodų nuskaitymas sandėlio programėle naudojant kamerą
+                      href: warehousing/scan-bar-codes-using-a-camera.md
+                    - name: Laukų pavadinimų konfigūravimas sandėlio programoje
+                      href: warehousing/configure-app-field-names-priorities-warehouse.md
+                    - name: Mobiliųjų įrenginių nustatymas darbui sandėlyje
+                      href: warehousing/configure-mobile-devices-warehouse.md
+                    - name: Sandėlio programos įvykio apdorojimas
+                      href: warehousing/warehouse-app-events.md
+                    - name: Su sandėlio programa gaunama numerio lentelė
+                      href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
+                    - name: Mobiliojo įrenginio meniu elemento pirkimo užsakymo darbui atlikti nustatymas
+                      href: warehousing/tasks/set-up-mobile-device-menu.md
+                    - name: Mobiliojo įrenginio meniu elemento gautoms prekėms registruoti nustatymas
+                      href: warehousing/tasks/set-up-mobile-device-menu-item-register-received-items.md
+                    - name: 'Mobiliojo įrenginio meniu elemento nustatymas, norint pateikti paėmimo eilučių apžvalgą'
+                      href: warehousing/pick-line-overview.md
+                    - name: Mobiliojo įrenginio meniu elemento numerių lentelėms konsoliduoti kūrimas
+                      href: warehousing/tasks/create-mobile-device-license-plate-consolidation.md
+                    - name: Mišrių numerių lentelių gavimas mobiliajame įrenginyje
+                      href: warehousing/mixed-license-plate-receiving.md
+                    - name: Konfigūracijos Rodyti senesnius paketus sandėlyje konfigūravimas mobiliajame įrenginyje
+                      href: warehousing/display-older-batches-within-warehouses.md
+                    - name: Seniausio paketo paėmimas mobiliajame įrenginyje
+                      href: warehousing/pick-oldest-batch.md
+                    - name: Proceso vadovo sistema
+                      href: warehousing/process-guide-framework.md
+                    - name: Sandėlio programos ryšio problemos šalinimas
+                      href: warehousing/troubleshoot-warehouse-app-connection.md
                 - name: Plėtojimas ir perėjimas
                   items:
                     - name: Sandėlio valdymo procesų plėtojimas iš „Microsoft Dynamics AX 2012“ į „Finance and Operations”
                       href: warehousing/upgrade-migration-warehouse-management-processes.md
+                    - name: Plėtojimo ir perėjimo į išplėstinio sandėlio valdymo funkciją trikčių šalinimas
+                      href: warehousing/troubleshoot-warehouse-upgrade-migration.md
+                - name: Sandėlio nustatymo trikčių šalinimas
+                  href: warehousing/troubleshoot-warehouse-setup.md
         - name: „Supply Chain Management“ kūrimas
           items:
             - name: Ganto valdiklio kūrimo vadovas
@@ -3529,397 +3001,9 @@
               href: transportation/create-new-transportation-management-engine.md?toc=/dynamics365/supply-chain/toc.json
             - name: Atsargų turimų duomenų objektų išplėtimas
               href: inventory/extend-on-hand-entities.md
-        - name: Trikčių šalinimas
-          items:
-            - name: Kaštų valdymas
-              items:
-                - name: Inventoriaus senėjimo ataskaitos neatitikimai
-                  href: troubleshooting/costing/aging-report-discrepancies.md
-                - name: Įspėjimai arba klaidos keičiant didžiosios knygos laikotarpio būseną neuždarant atsargų
-                  href: troubleshooting/costing/change-ledger-period-without-closing.md
-                - name: Funkciniai pertrūkiai tarp atsargų vertės / senėjimo ataskaitų ir jų laikymo versijų
-                  href: troubleshooting/costing/function-gaps-storage-reports.md
-                - name: 'Atnaujinimo nesuderinamumas įvyksta, kai atsargų vertinimo metodas yra standartinė savikaina arba slankusis vidurkis'
-                  href: troubleshooting/costing/update-conflict-standard-moving.md
-                - name: Kopijuojant prekių modelių grupes į kitą juridinį subjektą trūksta lauko parametrų
-                  href: troubleshooting/costing/copying-item-model-groups.md
-                - name: Ataskaitoje Vykdomos netiesioginės išlaidos pateikiami panaikinti gamybos užsakymai
-                  href: troubleshooting/costing/indirect-costs-in-pr.md
-                - name: Pirkimo kaupimas užregistruotas su nulinės vertės produkto gavimo kvito nuline suma
-                  href: troubleshooting/costing/posting-to-purchase.md
-                - name: Faktiškai gauti pirkimo užsakymai nerodomi atsargų uždarymo ataskaitoje
-                  href: troubleshooting/costing/purchase-orders-rece.md
-                - name: Prekės kainos puslapio aktyvių kainų skirtuke nėra pradžios datos
-                  href: troubleshooting/costing/there-is-no-from-dat.md
-            - name: Atsargų valdymas
-              items:
-                - name: Nerandate atsargų žurnalų išplečiamojo dialogo lango „Darbo eiga”
-                  href: troubleshooting/inventory/cant-find-workflow-dropdown.md
-                - name: Atsargų žurnalo darbo eiga niekada nebaigta ir žurnalo apdoroti negalima
-                  href: troubleshooting/inventory/cant-post-inventory-journal.md
-                - name: Jūsų atsargų žurnalas užrakintas ir darbo eigos paketinė užduotis neveikia
-                  href: troubleshooting/inventory/inventory-journal-locked-workflow.md
-                - name: Vienetas ir vienetų kiekis atsargų žurnale veikia netinkamai
-                  href: troubleshooting/inventory/journal-unit-quantity-incorrect.md
-                - name: 'Atsargų žurnalo darbo eigos sąlygos taikomos žurnalo lygiu, o ne eilutės lygiu'
-                  href: troubleshooting/inventory/journal-workflow-conditions.md
-                - name: 'Turimų atsargų sąrašo puslapio filtravimo sritis veikia ne taip, kaip tikėtasi'
-                  href: troubleshooting/inventory/on-hand-filter-unexpected.md
-                - name: Didžiausias sandėliavimo vieneto dešimtainių skaičius yra 0.
-                  href: troubleshooting/inventory/sku-max-decimals-zero.md
-                - name: Kelios paketų numerių atsargų operacijos be faktinio atnaujinimo
-                  href: troubleshooting/inventory/multiple-inventory-t.md
-                - name: Dėl ataskaitos atšaukimo kaip baigtos sukuriama netikėta atidaryta operacija
-                  href: troubleshooting/inventory/reverse-report-as-fi.md
-                - name: 'Išrinkimo dokumento ataskaitoje nerodomos naujos pastabos, pridėtos prie žurnalo'
-                  href: troubleshooting/inventory/unable-to-print-the.md
-                - name: 'Kiekis pradėtame sulaikymo užsakyme neatnaujinamas, kai užsakymas skaidomas'
-                  href: troubleshooting/inventory/quantity-on-a-start.md
-                - name: 'Laukas Paskutinio bandymo data neatnaujinamas, kai sukuriami keli kokybės užsakymai'
-                  href: troubleshooting/inventory/the-field-last-test.md
-                - name: 'Kai esamo svorio kiekis yra suskaidytas, vietoj vardinio kiekio naudojamas mažiausias kiekis'
-                  href: troubleshooting/inventory/while-splitting-the.md
-            - name: Bendrasis planavimas
-              items:
-                - name: 'Sistema negali rasti suplanuoto užsakymo, kai ji veikia su keliais užsakymais'
-                  href: troubleshooting/planning/planned-order-not-exist.md
-                - name: KS išskleidimas veikia skirtingai patvirtintiems ir numatytiems gamybos užsakymams
-                  href: troubleshooting/planning/bom-explosion-works-differently.md
-                - name: 'Vėlinimo vertė nėra naujinama, kai iš naujo suplanuojate suplanuotą užsakymą'
-                  href: troubleshooting/planning/delay-value-not-updated.md
-                - name: 'Suplanuoti užsakymai užtrunka ilgai, kai yra naujinami'
-                  href: troubleshooting/planning/planned-order-long-update.md
-                - name: Suplanuoti užsakymai generuojami atsargomis su gamybos užsakymais
-                  href: troubleshooting/planning/planned-orders-in-stock-items.md
-                - name: Gamybos planavimas nepaiso laiko rezervų
-                  href: troubleshooting/planning/prod-schedule-safety-margins.md
-                - name: 'Bendruoju planavimu planuojama daugiau, nei yra'
-                  href: troubleshooting/planning/respect-capacity-limitations.md
-                - name: Rasta nepakankamai pajėgumų
-                  href: troubleshooting/planning/not-enough-capacity-error.md
-                - name: 'Kai veikia įtaisytas bendrojo planavimo modulis, rodomas klaidos pranešimas'
-                  href: troubleshooting/planning/deprecated-master-planning-error.md
-                - name: Prekėje negali būti KS arba formulės
-                  href: troubleshooting/planning/item-cannot-have-bom-formula.md
-                - name: Nėra bendrojo plano parametrų
-                  href: troubleshooting/planning/no-parameters-for-master-plan.md
-                - name: 'Prieš patvirtinant suplanuotą gamybos užsakymą, reikia sudaryti jo grafiką'
-                  href: troubleshooting/planning/planned-order-must-be-scheduled.md
-                - name: Operacijų produktas sulaikytas
-                  href: troubleshooting/planning/product-is-on-hold.md
-                - name: Pasirinktas formulės numeris nėra patvirtintas naudoti paketiniam užsakymui.
-                  href: troubleshooting/planning/selected-formula-not-approved.md
-                - name: Tiekėjo kodas nėra įgaliotas naudoti konkrečiam produktui ir datai
-                  href: troubleshooting/planning/vendor-code-not-authorized.md
-                - name: 'Tiekėjas nenurodytas, kai tvirtinami suplanuoti užsakymai'
-                  href: troubleshooting/planning/vendor-not-specified.md
-                - name: Tiesiogiai išvesti patvirtinti užsakymai apdorojami peržiūros versijos darbo eiga
-                  href: troubleshooting/planning/firmed-directly-deri.md
-                - name: Negalite filtruoti bendrojo planavimo prekių pagal jų susijusias padengimo grupės vertes
-                  href: troubleshooting/planning/master-planning-batc.md
-                - name: Bendrasis planavimas generuoja suplanuotus fiktyvių produktų užsakymus
-                  href: troubleshooting/planning/planned-orders-are-g.md
-                - name: 'Suplanuotas pirkimo užsakymas, sukurtas, kai pirkimas yra per neigiamas dienas'
-                  href: troubleshooting/planning/planning-optimisatio.md
-                - name: Negalima atnaujinti prognozuojamų vieneto išlaidų importuojant poreikio prognozės įrašus
-                  href: troubleshooting/planning/unable-to-upload-the.md
-                - name: Negalima pašalinti sandėlio poreikio prognozės dimensijos iš prognozės eilučių
-                  href: troubleshooting/planning/warehouse-removal-fr.md
-                - name: 'Esate raginami įrašyti prekių padengimo parametrus, net jei neatlikote jokių keitimų'
-                  href: troubleshooting/planning/when-importing-to-th.md
-            - name: Įsigijimas
-              items:
-                - name: Pirkimo užsakymo eilutės duomenų nesutapimai
-                  href: troubleshooting/procurement/purchase-order-line-data-issues.md
-                - name: Vienas arba daugiau apskaitos paskirstymų yra per daug arba per mažai paskirstyti
-                  href: troubleshooting/procurement/accounting-over-under-distributed.md
-                - name: Galite atlikti tik visiškai paskirstytų eilučių numerių pirkimo užsakymo veiksmą
-                  href: troubleshooting/procurement/action-requires-full-distribution.md
-                - name: Negalima pakeisti patvirtinto tiekėjo galiojimo datos
-                  href: troubleshooting/procurement/approved-vendor-effective-date.md
-                - name: Atšaukti pirkimo užsakymai pasirodo juodraščio sąraše darbo srityje
-                  href: troubleshooting/procurement/canceled-po-in-draft-list.md
-                - name: Operacijos gali būti registruojamos sustabdytoje didžiosios knygos sąskaitoje
-                  href: troubleshooting/procurement/canceled-receipts-posted.md
-                - name: Atšaukus pristatymo likutį pirkimo užsakymas perkeliamas į būseną Patvirtinta
-                  href: troubleshooting/procurement/change-management-canceled-remainder.md
-                - name: Negalite konsoliduoti kelių gavimo dokumentų į vieną pirkimo užsakymą
-                  href: troubleshooting/procurement/consolidate-multiple-receipts.md
-                - name: Numatytoji mokesčių grupė ir mokėjimo nuolaida nėra užpildytos sąskaitos faktūros sąskaitoje
-                  href: troubleshooting/procurement/default-tax-group-and-discount.md
-                - name: Pakeitus pirkimo užsakymo pristatymo adresą pristatymo pavadinimas nesinchronizuojamas
-                  href: troubleshooting/procurement/delivery-name-isnt-synced.md
-                - name: Registruojant tiekėjo SF įvyksta išimtis
-                  href: troubleshooting/procurement/invocation-target-exception.md
-                - name: Importuoti pirkimo užsakymai rodo neteisingus eilučių numerius
-                  href: troubleshooting/procurement/line-number-increments.md
-                - name: Pirkimo sutarties maksimalus limitas nėra veiksmingas pirkimo paraiškoje
-                  href: troubleshooting/procurement/max-limit-on-requisition.md
-                - name: Patvirtinant pirkimo užsakymą įvyksta klaida „Objekto nuoroda nenustatyta“
-                  href: troubleshooting/procurement/object-reference-not-set.md
-                - name: Apskaitos paskirstymai yra per daug arba per mažai paskirstyti
-                  href: troubleshooting/procurement/over-under-distribution.md
-                - name: Negalite įtraukti lauko Kainos kiekis į pirkimo sutarties puslapį
-                  href: troubleshooting/procurement/personalize-purchase-agreement-price.md
-                - name: Pirkimo užsakymai neatspindi juridinio subjekto kalbos nustatymų
-                  href: troubleshooting/procurement/po-language.md
-                - name: Pirkimo užsakymo kvite nenurodyti visi mokesčiai
-                  href: troubleshooting/procurement/po-receipt-missing-charges.md
-                - name: Vienetų kainos pirkimo užsakymuose neskaičiuojamos pagal vienetų konvertavimą
-                  href: troubleshooting/procurement/po-unit-prices-not-calculated.md
-                - name: Parametras Registruoti DK mokesčių sąskaitoje nėra įjungtas
-                  href: troubleshooting/procurement/post-setting-turned-off.md
-                - name: Iš naujo pateikiant pirkimo užsakymą į darbo eigą po keitimo įvyko klaida
-                  href: troubleshooting/procurement/resubmit-po-after-change.md
-                - name: Prekybos sutarties valiutos konvertavimo problemos
-                  href: troubleshooting/procurement/trade-agreement-currencies.md
-                - name: Prekybos sutarties sąlygos netaikomas importuoto užsakymo eilutėms
-                  href: troubleshooting/procurement/trade-agreement-not-applied.md
-                - name: Prekybos sutartys gali būti kuriamos iš atmestų RFQ
-                  href: troubleshooting/procurement/trade-agreements-from-rejected-rfq.md
-                - name: Tiekėjo grąžinimas nėra kaupiamas pagal sąskaitas faktūras
-                  href: troubleshooting/procurement/vendor-rebate-not-cumulated.md
-                - name: 'Produkto gavimo kvito numeris suvartojamas net tada, kai nėra generuojamas kvitas'
-                  href: troubleshooting/procurement/voucher-number-consumed.md
-                - name: Negalima išrašyti SF su klientu susietam pardavimo užsakymui
-                  href: troubleshooting/procurement/not-able-to-invoice-.md
-                - name: 'Paprašius atlikti keitimą, eilutės negalima įtraukti į pirkimo paraišką'
-                  href: troubleshooting/procurement/purchase-requisition.md
-            - name: Produkto informacijos valdymas
-              items:
-                - name: Negalite panaikinti išleisto produkto
-                  href: troubleshooting/products/cant-delete-released-prod.md
-                - name: Netinkamai suapvalinti sveikieji skaičiai skaičiuojant produkto konfigūracijos modelius
-                  href: troubleshooting/products/integers-incorrectly-rounded.md
-                - name: 'Prekės tekstas perrašomas, kai produktas konfigūruojamas pardavimo užsakymo eilutėje'
-                  href: troubleshooting/products/text-overwritten-configured-item.md
-                - name: Negalite taikyti šablono išleistam produktui kurti
-                  href: troubleshooting/products/apply-template-in-re.md
-                - name: Negalite importuoti prekės naudodami objektą Išleisti produktai V2
-                  href: troubleshooting/products/cannot-import-with-r.md
-                - name: Pirkimo užsakymuose nerodomas išverstas produkto tekstas
-                  href: troubleshooting/products/when-the-customer-ad.md
-            - name: Gamybos kontrolė
-              items:
-                - name: Įkainojimo atvirkštine tvarka klaida uždarant atsargas
-                  href: troubleshooting/production/backflush-costing-calculation-error.md
-                - name: Negalima užbaigti gamybos užsakymo dėl KS reikšmės consumptionCost klaidos
-                  href: troubleshooting/production/bom-consumption-cost-error.md
-                - name: Kuriant naują gamybos užsakymą negalima įterpti KS ir maršruto
-                  href: troubleshooting/production/cant-insert-bom-route-number.md
-                - name: 'Ankstesnės vykdomos užduotys baigiamos, kai pranešama apie paskutinės užduoties dalinį kiekį'
-                  href: troubleshooting/production/in-progress-jobs-ended.md
-                - name: 'Prekės RM visiškai rezervuoti negalima, kai išleidžiamas gamybos užsakymas'
-                  href: troubleshooting/production/item-rm-not-reserved.md
-                - name: Skelbimo baigtu naujinimas nepavyko ir buvo pateikta trūkstamo kiekio klaida
-                  href: troubleshooting/production/missing-report-finished-quantity.md
-                - name: 'Klaida, kai paskelbiama ataskaita kaip baigtas žurnalas'
-                  href: troubleshooting/production/posting-report-as-.md
-                - name: 'Keičiant gamybos užsakymo būseną iš Paskelbta, kad baigta į Baigta, įvyko klaida'
-                  href: troubleshooting/production/production-order-status-error.md
-                - name: Gamybos užsakymai nėra rodomi ženklinimo puslapyje
-                  href: troubleshooting/production/production-orders-marking-page.md
-                - name: Pakeitus darbuotojo vardą adresų knygelėje išteklių vardas nėra atnaujinamas
-                  href: troubleshooting/production/resource-name-not-updated.md
-                - name: Bendro prekių kiekio klaida bandant baigti gamybos užsakymą
-                  href: troubleshooting/production/total-good-quantity-order-error.md
-                - name: Negalima sekti gatavų prekių serijos numerių pagal suvartotų prekių serijos numerius
-                  href: troubleshooting/production/trace-finished-goods-consumed-goods.md
-                - name: 'Negalima rezervuoti arba išleisti darbo, nes šiuo metu naudojami procesai'
-                  href: troubleshooting/production/warehouse-management-processes-used.md
-                - name: Nesilaikoma KS eilučių sunaudojimo principo parametrų
-                  href: troubleshooting/production/flushing-principle-n.md
-                - name: Paketo numeris išvalomas pasirinkus naują partijos ID
-                  href: troubleshooting/production/when-customer-is-try.md
-                - name: 'Iš naujo nustatant gamybos užsakymus per paketinę užduotį, nesilaikoma vėlyvo pasirinkimo'
-                  href: troubleshooting/production/late-selection-is-no.md
-                - name: 'Vartotojai gali atsisakyti produktų, kurie paskelbti baigtais, medžiagų eilučių'
-                  href: troubleshooting/production/raw-material-lines-a.md
-                - name: 'Klaida, kai paskelbiama ataskaita kaip baigtas žurnalas'
-                  href: troubleshooting/production/posting-report-as-.md
-                - name: Išrinkimo dokumento žurnalo sandėlis neatnaujintas KS eilutėje
-                  href: troubleshooting/production/the-warehouse-in-pic.md
-            - name: Grąžinimų valdymas
-              items:
-                - name: Kliento grąžinimų kaupimas naudojant prekių grąžinimo grupes nepavyksta
-                  href: troubleshooting/rebates/cumulating-customer-.md
-            - name: Pardavimas ir rinkodara
-              items:
-                - name: Nepavyksta atlikti pardavimo atnaujinimų istorijos valymo užduoties arba yra našumo problemų
-                  href: troubleshooting/sales/sales-update-history-cleanup-job-performance-issues.md
-                - name: Vidinės įmonės procese nepalaikomas paketo elementas
-                  href: troubleshooting/sales/bundle-item-intercompany-process.md
-                - name: 'Negalima atšaukti vidinės įmonės pirkimo užsakymo, susieto su pardavimo užsakymu'
-                  href: troubleshooting/sales/cancel-intercompany-purchase-order.md
-                - name: Atšaukus užsakymą rezervacijų pašalinti negalima
-                  href: troubleshooting/sales/cancel-order-reservations-not-removed.md
-                - name: 'Jei yra dvi persidengiančių datų prekybos sutartys, visada pasirenkama ta pati sutartis'
-                  href: troubleshooting/sales/same-trade-agreement-selected.md
-                - name: Negalima pakeisti aptarnavimo prekės pardavimo kiekio pardavimo pasiūlymo eilutėje
-                  href: troubleshooting/sales/service-item-sales-quantity.md
-                - name: 'Mokesčių informacija nėra atnaujinama, jei pakeičiama pardavimo užsakymo antraštės vieta'
-                  href: troubleshooting/sales/tax-information-not-updated.md
-                - name: Atšaukiant pardavimo užsakymą kiekio sumažinti negalima
-                  href: troubleshooting/sales/quantity-cannot-be-reduced.md
-                - name: 'Sistemos administratoriai negali išvalyti užsakymo sulaikymų, nes jie nėra įgalioti'
-                  href: troubleshooting/sales/system-administrator.md
-            - name: Transportavimo valdymas
-              items:
-                - name: Pagrindinę sąskaitą kaip kredito sąskaitą galima pridėti tik dėl derinimo priežasčių
-                  href: troubleshooting/transportation/reconciliation-reaso.md
-            - name: Sandėlio valdymas
-              items:
-                - name: „Warehouse mobile app“
-                  items:
-                    - name: Nustatant programos ryšį nepavyko rasti sertifikato maršruto saugumą užtikrinančios priemonės
-                      href: troubleshooting/warehousing/certification-path-app-connection-error.md
-                    - name: Naujinant ir perkeliant į WMS nepavyko rasti sertifikato maršruto saugumą užtikrinančios priemonės
-                      href: troubleshooting/warehousing/upgrade-migration-certification-path-error.md
-                - name: Apdorojimo problemos įdiegus skalės vieneto sandėlio apkrovą
-                  href: troubleshooting/warehousing/Scale-unit-warehouse-workload-installation-issues.md
-                - name: 'Paketo numerio automatinio rezervavimo raginimas rodomas, net jei yra atsargų'
-                  href: troubleshooting/warehousing/auto-reservation-prompt-shown.md
-                - name: Negalima panaikinti paėmimo darbo blokavimo dėl nebaigto papildymo darbo
-                  href: troubleshooting/warehousing/blocked-unfinished-replenishment-work.md
-                - name: 'Negalima atšaukti važtaraščio po to, kai jis publikuotas prekybos užsakyme'
-                  href: troubleshooting/warehousing/cancel-posted-packing-slip.md
-                - name: 'Negalima perkelti numerio lentelės, jei serijos numeryje leidžiamas tuščias išdavimas ir tuščias gavimas'
-                  href: troubleshooting/warehousing/cant-move-license-plate.md
-                - name: 'Negalima perkelti inventoriaus į vietą, kurią valdo licencijos plokštelė'
-                  href: troubleshooting/warehousing/cant-reduce-picked-quantities.md
-                - name: Klasterio šablono rasti nepavyko
-                  href: troubleshooting/warehousing/cluster-profile-not-found-error.md
-                - name: Pristatymo pažymos koregavimo apdoroti negalima
-                  href: troubleshooting/warehousing/delivery-note-correction.md
-                - name: Kuriant serijos prekės perkėlimo užsakymą įvyko klaida tvirtinant siuntą
-                  href: troubleshooting/warehousing/dimension-location-left-blank.md
-                - name: 'Sandėlio, kuriame veikia WMS, tiesioginio pristatymo apdoroti nepavyko'
-                  href: troubleshooting/warehousing/direct-delivery-wms-enabled-warehouse.md
-                - name: 'Naudojant rampos valdymo šabloną, atsargų tipai maišomi'
-                  href: troubleshooting/warehousing/dock-management-inventory-mixing.md
-                - name: Kelių SKU parinktis neįvertina kelių vietos nurodymo veiksmų
-                  href: troubleshooting/warehousing/evaluate-multiple-location-directive-actions.md
-                - name: 'Paėmimo darbas nesugeneruojamas iš karto, kai išleidžiamas siunčiamas krovinys'
-                  href: troubleshooting/warehousing/generate-work-immediately-load-release.md
-                - name: 'Kai mobiliųjų įrenginių programėlėje nuskaitomas numerio lentelės ID, įvyksta netinkamos numerio lentelės klaida'
-                  href: troubleshooting/warehousing/invalid-license-plate.md
-                - name: Atsargų savininkas neleidžiamas apdorojant perkėlimą sandėlio programoje
-                  href: troubleshooting/warehousing/inventory-owner-not-allowed.md
-                - name: Sistema negali atnaujinti atsargų kiekio dėl nepakankamų operacijų
-                  href: troubleshooting/warehousing/inventory-quantity-insufficient-transactions.md
-                - name: Negalima pažymėti atsargų būsenos pakeitimo darbo tipo stulpelyje
-                  href: troubleshooting/warehousing/inventory-status-change-work-type.md
-                - name: Netinkamos numerio lentelės arba vietos klaida nuskaitant mobiliųjų įrenginių programėlėje
-                  href: troubleshooting/warehousing/license-plate-location-invalid.md
-                - name: Numerio lentelės kiekis netinkamas registruojant gaunamus užsakymus
-                  href: troubleshooting/warehousing/license-plate-quantity-not-valid.md
-                - name: Numerio lentelės specifikacijos klaida patvirtinant perkėlimo užsakymo siuntimą
-                  href: troubleshooting/warehousing/license-plate-specified-location.md
-                - name: Viena iš eilučių jau yra krovinyje
-                  href: troubleshooting/warehousing/line-already-on-load.md
-                - name: Krovinio svorio klaida ir atnaujinimas atšauktas apdorojant darbą tarp vietų
-                  href: troubleshooting/warehousing/load-weight-positive-numbers.md
-                - name: 'Maišytos licencijos plokštelės gavimas neveikia jokiam suteiktam kodui, išskyrus kredito'
-                  href: troubleshooting/warehousing/mixed-license-plate-receiving.md
-                - name: Administratoriaus vaidmenį galima naudoti tik norint pasiekti mobiliųjų įrenginių programėlės emuliatorių
-                  href: troubleshooting/warehousing/mobile-app-emulator-administrator.md
-                - name: Perkeliant iš pagrindinio sandėliavimo funkcijos į išplėstinio sandėliavimo funkciją kyla problemų
-                  href: troubleshooting/warehousing/move-basic-to-advanced-warehousing.md
-                - name: 'Buvo rasta nepakankamai darbo klasteriui, kai naudojamas sistemos nurodomas klasterio paėmimas'
-                  href: troubleshooting/warehousing/not-enough-work-for-cluster.md
-                - name: 'Užsakymo būsena išlieka Iš dalies išleista, net išrašus pardavimo užsakymo sąskaitą faktūrą'
-                  href: troubleshooting/warehousing/order-status-partially-released.md
-                - name: Negalima naudoti „Warehouse Management“ mobiliųjų įrenginių programėlės daliniam paėmimui atlikti
-                  href: troubleshooting/warehousing/partial-picking-warehouse-app.md
-                - name: Įjungti atsargų būsenos keitimą daliniam kiekio darbui
-                  href: troubleshooting/warehousing/partial-quantity-inventory-status.md
-                - name: Spausdinti pristatymo pažymą arba pakavimo turinį pagal sandėlį arba vietą
-                  href: troubleshooting/warehousing/print-documents-by-warehouse.md
-                - name: 'Kiekis netinkamas, kai vienoje vietoje yra paėmimo darbas su keliais LP'
-                  href: troubleshooting/warehousing/quantity-invalid-multiple-license-plates.md
-                - name: 'Kiekis netinkamas, kai atliekamas išskaidytas kelių paketų paėmimas'
-                  href: troubleshooting/warehousing/quantity-invalid-split-pick.md
-                - name: Negalima iš naujo išleisti iš dalies išsiųsto krovinio į sandėlį
-                  href: troubleshooting/warehousing/rerelease-partially-shipped-load.md
-                - name: 'Sistema negali atlikti rezervacijų, nes atsargose nurodyta 0,00'
-                  href: troubleshooting/warehousing/reservations-0-inventory-available.md
-                - name: Negalima sukurti grąžinimo pardavimo užsakymo krovinio eilutės dėl neleistinų atsargų dimensijų
-                  href: troubleshooting/warehousing/return-order-invalid-dimensions.md
-                - name: Nepavyko išleisti pardavimo užsakymo su sandėlio siuntimo operacijomis
-                  href: troubleshooting/warehousing/sales-order-not-released.md
-                - name: 'Krovinio siuntimas patvirtintas, tačiau nėra užregistruotų eilučių'
-                  href: troubleshooting/warehousing/shipment-confirmed-no-posting.md
-                - name: Intervalo šablonuose nepaisoma virš paketo esančių prekių turimų atsargų
-                  href: troubleshooting/warehousing/slotting-templates-inventory-batch-above.md
-                - name: Negalima išleisti dalinio kiekio su virš paketo esančia rezervavimo hierarchija
-                  href: troubleshooting/warehousing/specify-dimensions-above-location.md
-                - name: Nepatvirtinti pirkimo užsakymai patvirtinami paleidus funkciją Atnaujinti produkto gavimo kvitus
-                  href: troubleshooting/warehousing/unconfirmed-purchase-orders-confirmed.md
-                - name: Negalima atšaukti atsargų rezervacijos pardavimo užsakymo eilutėje
-                  href: troubleshooting/warehousing/unreserve-inventory-sales-line.md
-                - name: 'Negalite patvirtinti siuntimo, nes klientas yra sulaikytas'
-                  href: troubleshooting/warehousing/customer-is-on-hold.md
-                - name: 'Negalite patvirtinti siuntimo, nes krovinio eilučių kiekis lygus nuliui'
-                  href: troubleshooting/warehousing/load-line-quantity-is-zero.md
-                - name: 'Negalima atnaujinti krovinio eilutės, nes išleistas kiekis būtų neigiamas'
-                  href: troubleshooting/warehousing/released-qty-cannot-be-negative.md
-                - name: Atšaukti produkto gavimo kvitai neatnaujina operacijų būsenos į Užregistruota
-                  href: troubleshooting/warehousing/canceled-product-receipts.md
-                - name: Neteisingas faktiškai atnaujinamo kiekio dešimtainis apvalinimas
-                  href: troubleshooting/warehousing/decimal-rounding-of-quantity.md
-                - name: 'Faktinis likęs kiekis, išreikštas vienetu, negali būti lygus nuliui'
-                  href: troubleshooting/warehousing/physical-remaining-q.md
-                - name: 'Paimtas kiekis nepakankamas, kai generuojamas važtaraštis'
-                  href: troubleshooting/warehousing/picked-quantity-is-n.md
-                - name: 'Kiekis viršija pristatymo perviršio procentinę dalį, kai generuojamas važtaraštis'
-                  href: troubleshooting/warehousing/quantity-exceeds-over-pack-slip.md
-                - name: 'Kiekis, kurį bandote atnaujinti, viršija gautą / pristatytą kiekį'
-                  href: troubleshooting/warehousing/quantity-exceeds-rec-del.md
-                - name: 'Kiekis viršija pristatymo trūkumo procentinę dalį, kai generuojamas važtaraštis'
-                  href: troubleshooting/warehousing/quantity-exceeds-under-pack-slip.md
-                - name: 'Registruojant išrinkimo dokumentą įvyksta klaida, kai pasirenkama vieta'
-                  href: troubleshooting/warehousing/error-cannot-update.md
-                - name: Pakavimo stotyje nerodomos produkto pastabos
-                  href: troubleshooting/warehousing/packing-station-not-.md
-                - name: 'Vietos šablone neleidžiamos neigiamos atsargos, bet leidžiamos neigiamos turimos atsargos'
-                  href: troubleshooting/warehousing/location-profile-set.md
-                - name: Viename kvite spausdinama tik viena kelių darbo antraščių etiketė
-                  href: troubleshooting/warehousing/when-receipting-prod.md
-                - name: Negalite patvirtinti siuntos dėl kalendoriaus klaidos
-                  href: troubleshooting/warehousing/load-has-active-appo.md
-                - name: 'Negalite patvirtinti siuntos, nes darbas neužbaigtas arba jo nėra'
-                  href: troubleshooting/warehousing/open-or-no-work-exis.md
-                - name: 'Negalite patvirtinti siuntos, nes prekės nebuvo paimtos'
-                  href: troubleshooting/warehousing/picked-quantity-is-not-on-final.md
-                - name: 'Negalite patvirtinti siuntos, nes kiekis lygus nuliui'
-                  href: troubleshooting/warehousing/picked-quantity-is-zero.md
-                - name: 'Negalima patvirtinti siuntos, nes kiekis viršija pristatymo pertekliaus procentinę dalį'
-                  href: troubleshooting/warehousing/quantity-exceeds-ove.md
-                - name: 'Negalima patvirtinti siuntos, nes kiekis viršija pristatymo trūkumo procentinę dalį'
-                  href: troubleshooting/warehousing/quantity-exceeds-und.md
-                - name: Paskutinė uždaryto darbo eilutė turi būti Padėti
-                  href: troubleshooting/warehousing/the-last-closed-work.md
-                - name: Krovinio eilučių svorio laukai neatitinka krovinio svorio laukų
-                  href: troubleshooting/warehousing/the-weight-fields-on.md
-                - name: Bangos valyti negalima
-                  href: troubleshooting/warehousing/wave-is-not-eligible.md
-                - name: Svoris turi būti teigiamas
-                  href: troubleshooting/warehousing/weight-must-be-posit.md
-                - name: 'Darbo atšaukti negalima, nes jis užblokuotas'
-                  href: troubleshooting/warehousing/work-cannot-be-canceled-blocked.md
-                - name: Darbo atšaukti negalima dėl būsenos
-                  href: troubleshooting/warehousing/work-cannot-be-canceled-status.md
-                - name: Darbas neužblokuotas
-                  href: troubleshooting/warehousing/work-is-not-blocked.md
-                - name: Darbas lieka užblokuotas
-                  href: troubleshooting/warehousing/work-remains-blocked.md
-                - name: 'Negalite atšaukti darbo, priskirto vartotojui'
-                  href: troubleshooting/warehousing/you-cannot-cancel-wo.md
-    - name: Finansų ir operacijų programų kūrimas ir administravimas
+    - name: „Finance and Operations“ programų kūrimas ir administravimas
       href: ../fin-ops-core/dev-itpro/index.md
-    - name: „Dynamics 365 Finance“
+    - name: „Dynamics 365 Finance”
       href: ../finance/index.md
     - name: „Dynamics 365 Commerce”
       href: ../commerce/index.md
-    - name: Dynamics 365 Human Resources
-      href: ../human-resources/index.md

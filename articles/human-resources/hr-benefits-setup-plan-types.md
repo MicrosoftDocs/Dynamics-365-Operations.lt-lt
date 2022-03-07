@@ -2,15 +2,12 @@
 title: Planų tipų kūrimas
 description: Plano tipas programoje „Microsoft Dynamics 365 Human Resources“ yra konkrečių išmokų tipų aukščiausio lygio grupavimas. Kiekvienam plano tipui taikomas plano tipo kodas, kuriuo nustatomos plano tipo taisykles.
 author: andreabichsel
-manager: AnnBe
 ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -18,14 +15,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 88a6d89bf98ea145bbb6a4eb8f4e052e5f4088e5
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: eb4746425c2faa3c0b1bd3940bf2e03cf7f9595c
+ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419743"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "6057867"
 ---
 # <a name="create-plan-types"></a>Planų tipų kūrimas
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Plano tipas programoje „Microsoft Dynamics 365 Human Resources“ yra konkrečių išmokų tipų aukščiausio lygio grupavimas. Kiekvienam plano tipui taikomas plano tipo kodas, kuriuo nustatomos plano tipo taisykles. Pavyzdžiui, plano tipui „Basic Life“ bus priskiriamas plano tipo kodas „Life“, nes tai yra gyvybės draudimo plano rūšis ir turi atitikti taisykles, nustatytas plano „Life“ tipo kodui. Kitas plano tipas galėtų būti „Supplemental Life“, kuriam taip pat bus taikomas plano tipo kodas „Life“.
 
@@ -63,3 +62,6 @@ Plano tipas gali nurodyti padengimo pasirinktis. Padengimo parinktys nustatytos 
    | **Ataskaitų teikimo langas** | Nurodo gyvenimo įvykio ataskaitų teikimo langą dienomis. **Pastaba**. Jei neįvesite reikšmės, sistema laikys, kad ataskaitų lango reikšmė yra nulis ir gyvenimo įvykio neapdoros. |
 
 5. Pasirinkite **Įrašyti**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

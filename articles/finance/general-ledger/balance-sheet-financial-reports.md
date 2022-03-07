@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b0fae7ccb216ced0cbcbdb69980b3bae754a4980ecaf9314893368ae89459fa0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d916b6593b641ec1c8365475103b1520e07e3768
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6734519"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5821942"
 ---
 # <a name="balance-sheet-financial-reports"></a>Balanso finansinės ataskaitos
 
@@ -28,7 +28,8 @@ ms.locfileid: "6734519"
 
 Šiame straipsnyje aprašytos numatytosios balanso lapų ataskaitos. Be to, jame aprašyti su šiomis ataskaitomis susieti kūrimo blokai. 
 
-## <a name="default-balance-sheet-reports"></a>Numatytosios balanso finansinės ataskaitos
+<a name="default-balance-sheet-reports"></a>Numatytosios balanso finansinės ataskaitos
+-----------------------------
 
 Yra dvi numatytosios balanso ataskaitos. Vienoje ataskaitoje skyriai suspausti. Kitoje ataskaitoje skyriai yra vienas šalia kito.
 
@@ -67,7 +68,8 @@ Norint pateikti skirtingus informacijos ir finansinių duomenų lygius, stulpeli
 
 
 
-## <a name="additional-resources"></a>Papildomi ištekliai
+<a name="additional-resources"></a>Papildomi ištekliai
+--------
 
 [Finansinių ataskaitų apžvalga](financial-reporting-getting-started.md)
 

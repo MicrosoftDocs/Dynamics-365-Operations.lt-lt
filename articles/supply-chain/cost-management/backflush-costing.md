@@ -1,10 +1,12 @@
 ---
 title: Įkainojimas atvirkštine tvarka
 description: Šioje temoje pristatoma įkainojimo atvirkštine tvarka koncepcija, naudojama „Lean manufacturing”.
-author: AndersGirke
+author: cvocph
+manager: tfehr
 ms.date: 04/10/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LeanCosting, LeanCostingTimeBucket
 audience: Application User
@@ -13,15 +15,15 @@ ms.custom: 272063
 ms.assetid: 62a2a7da-ff79-49bf-a6e8-29460ba5252f
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: aevengir
+ms.author: kamaybac
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: d158908182a35b7b4cbf0ad8a5d1fc7df37815d3
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: b01b1c501c992683b4b2f597cf8da2cb269020b1
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579837"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5011877"
 ---
 # <a name="backflush-costing"></a>Įkainojimas atvirkštine tvarka
 
@@ -123,6 +125,3 @@ Norėdami periodiškai įvertinti NG ir sukurti laikotarpio pabaigos būseną, p
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

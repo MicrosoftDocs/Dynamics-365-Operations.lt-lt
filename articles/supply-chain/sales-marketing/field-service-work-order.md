@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: d8051e21c731213e2d74ab6eeb80c239ca9932e6
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: f9395d39a68cd11f57262c791dd7646975c5e516
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4528928"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4998508"
 ---
 # <a name="synchronize-work-orders-in-field-service-to-sales-orders-in-supply-chain-management"></a>„Field Service“ darbo užsakymų sinchronizavimas su „Supply Chain Management“ pardavimo užsakymais
 
@@ -60,15 +59,15 @@ Prieš sinchronizuojant pardavimo užsakymo antraštes ir eilutes, būtina atlik
 
 ## <a name="entity-set"></a>Objektų rinkinys
 
-| **„Field Service“** | **„Supply Chain Management”** |
+| **„Field service“** | **„Supply Chain Management”** |
 |-------------------------|-------------------------|
-| msdyn_workorders        | CDS pardavimo užsakymų antraštės |
-| msdyn_workorderservices | CDS pardavimo užsakymo eilutės   |
-| msdyn_workorderproducts | CDS pardavimo užsakymo eilutės   |
+| msdyn_workorders        | Dataverse pardavimo užsakymo antraštės |
+| msdyn_workorderservices | Dataverse pardavimo užsakymo eilutės   |
+| msdyn_workorderproducts | Dataverse pardavimo užsakymo eilutės   |
 
 ## <a name="entity-flow"></a>Objekto srautas
 
-Darbo užsakymai kuriami „Field Service“. Jei darbo užsakymai apima tik išoriškai tvarkomus produktus, o reikšmė **Darbo užsakymo būsena** nėra **Atidarytas – nesuplanuotas** arba **Uždarytas – atšauktas**, darbo užsakymus galima sinchronizuoti su „Supply Chain Management“ naudojant „Common Data Service“ duomenų integravimo projektą. Darbo užsakymų naujinimai bus sinchronizuojami kaip „Supply Chain Management“ pardavimo užsakymai. Šie naujinimai apima informaciją apie pradinį tipą ir būseną.
+Darbo užsakymai kuriami „Field Service“. Jei darbo užsakymai apima tik išoriškai tvarkomus produktus, o reikšmė **Darbo užsakymo būsena** nėra **Atidarytas – nesuplanuotas** arba **Uždarytas – atšauktas**, darbo užsakymus galima sinchronizuoti su „Supply Chain Management“ naudojant „Microsoft Dataverse“ duomenų integravimo projektą. Darbo užsakymų naujinimai bus sinchronizuojami kaip „Supply Chain Management“ pardavimo užsakymai. Šie naujinimai apima informaciją apie pradinį tipą ir būseną.
 
 ## <a name="estimated-versus-used"></a>Numatoma ir naudojama
 

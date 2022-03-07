@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 4887cde3e4243ae7a4da6402782e69e780ae20331ed80df63ba1239ef5187e41
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: af19a3abd78d543d82f7a8d017e2dc413115a6d8
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6769276"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6018439"
 ---
 # <a name="save-for-my-next-payment-option-doesnt-appear"></a>Nepasirodo parinktis „Įrašyti kitam mokėjimui”
 
@@ -34,7 +34,7 @@ ms.locfileid: "6769276"
 
 Šioje iliustracijoje pateikiamas pirkimo užbaigimo puslapio, kuriame yra žymės langelis **Įrašyti kitam mokėjimui**, pavyzdys.
 
-![Žymės langelis „Įrašyti kitam mokėjimui” mokėjimo modulyje.](media/payment-module-save-payment.jpg)
+![Žymės langelis „Įrašyti kitam mokėjimui” mokėjimo modulyje](media/payment-module-save-payment.jpg)
 
 ## <a name="resolution"></a>Sprendimas
 
@@ -46,7 +46,7 @@ Norėdami patikrinti, ar „Dynamics 365 Payment Connector“, skirta „Adyen�
 1. Pasirinkite internetinę parduotuvę.
 1. Įsitikinkite, kad „FastTab” **Mokėjimo sąskaitos** laukas **Leisti įrašyti el. prekybos mokėjimo informaciją** nustatytas į **Teisinga**.
 
-![Leisti įrašyti mokėjimo informaciją „Commerce Headquarters” elektroninės prekybos lauke.](media/payment-connector-save-payment.jpg)
+![Leisti įrašyti mokėjimo informaciją „Commerce Headquarters” el. prekybos lauke](media/payment-connector-save-payment.jpg)
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 

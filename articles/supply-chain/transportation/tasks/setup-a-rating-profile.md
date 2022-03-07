@@ -2,33 +2,32 @@
 title: Vertinimo šablonai
 description: Šioje temoja aprašoma, kaip nustatyti duomenis kainos profiliams.
 author: Henrikan
-manager: ''
 ms.date: 10/30/2020
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TMSRatingProfile
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: henrikan
 ms.search.validFrom: 2020-10-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3c54e7457813774027debd301d9a0bf8ce1b6d47
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
-ms.translationtype: HT
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: af9051c6bbaed311f1f841a82dfd145633acab2c
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4646415"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7574814"
 ---
 # <a name="rating-profiles"></a>Vertinimo šablonai
 
+[!include [banner](../../includes/banner.md)]
+
 Kainos profiliai rodo logistikos sutartį (bet ne teisinę sutartį). Jis naudojamas siekiant nustatyti gabenimo kainas kroviniams. 
 
-Kiekvienas kainos profilis yra unikalus siuntimo vežėjui. Profilyje susiesite siuntimo vežėją su pagrindinia kaina. Pagrindinė kaina nustato pagrindinės kainos priskyrimą ir pagrindinę kainą. Pagrindinė kaina nustato vežėjo kainą.
+Kiekvienas kainos profilis yra unikalus siuntimo vežėjui. Profilyje susiesite siuntimo vežėją su pagrindine kaina. Pagrindinė kaina nustato pagrindinės kainos priskyrimą ir pagrindinę kainą. Pagrindinė kaina nustato vežėjo kainą.
 
 Galite nustatyti kainos profilį naudodami bendrą puslapį, kuriame rodoma esančių kainų profilių apžvalga. Kitu būdu, galite nustatyti kainos profilį tiesiai iš gabenimo vežėjo. Abiem atvejais, jūsų nustatyta informacija kainos profilyje yra tokia pati.
 
@@ -36,7 +35,7 @@ Galite nustatyti kainos profilį naudodami bendrą puslapį, kuriame rodoma esan
 
 Puslapyje **Kainų profiliai** galite peržiūrėti visus esamus kainų profilius. Galite taip pat redaguoti esančius profilius ir sukurti naujus.
 
-1. Eikite į **Gabenimo valdymą \> Nustatymyžus \> Kainas \> Kainų profilį**.
+1. Eikite į **Gabenimo valdymas \> Nustatymai \> Kainos \> Kainų profilis**.
 1. Veiksmų juostoje pasirinkite **Naujas** tam, kad įtrauktumėte naują kainų profilį į tinklelį ar pasirinkite **Redaguoti** siekiant redaguoti esantį profilį.
 1. Naujo ar esančio kainų profilio eilutėje, nustatykite tolesnius laukelius:
 
@@ -61,3 +60,6 @@ Puslapyje **Kainų profiliai** galite peržiūrėti visus esamus kainų profiliu
 
 > [!NOTE]
 > Profiliai sukurti **Siuntimo vežėjų** puslapyje yra taip pat rodomi **Kainų profilių** puslapyje.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

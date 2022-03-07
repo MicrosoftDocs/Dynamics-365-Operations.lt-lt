@@ -1,12 +1,10 @@
 ---
 title: Konfigūracijos importavimas iš „Lifecycle Services‟
-description: Šioje temoje aiškinama, kaip sistemos administratoriaus arba elektroninių ataskaitų kūrėjo vaidmenį turintis vartotojas gali importuoti naują elektroninių ataskaitų (ER) konfigūracijos versiją iš „Microsoft Dynamics Lifecycle Services‟ (LCS).
+description: Šioje temoje aprašoma, kaip iš Microsoft Dynamics „Lifecycle Services” (LCS) importuoti naują elektroninių ataskaitų konfigūracijos versiją.
 author: NickSelin
-manager: AnnBe
-ms.date: 09/14/2020
+ms.date: 06/17/2021
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERSolutionRepositoryTable, ERSolutionImport
 audience: Application User
@@ -15,18 +13,21 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5c43cdce8d073f04a3158c8beb13a5376e669a4c
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
-ms.translationtype: HT
+ms.openlocfilehash: 05a8ad127df177c54e67ff1f2ddcd8b3a3f51ea12b6e11d087105bd74b6bdb3f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684456"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6712597"
 ---
-# <a name="import-a-configuration-from-lifecycle-services"></a>Konfigūracijos importavimas iš „Lifecycle Services‟
+# <a name="import-a-configuration-from-lifecycle-services"></a>Konfigūracijos importavimas iš „Lifecycle Services”
 
 [!include [banner](../../includes/banner.md)]
 
 Šioje temoje aiškinama, kaip sistemos administratoriaus arba elektroninių ataskaitų kūrėjo vaidmenį turintis vartotojas gali importuoti naują [elektroninių ataskaitų (ER) konfigūracijos](../general-electronic-reporting.md#Configuration) versiją iš [projekto lygio turto bibliotekos](../../lifecycle-services/asset-library.md) „Microsoft Dynamics Lifecycle Services” (LCS).
+
+> [!IMPORTANT]
+> LCS naudojimas kaip ER konfigūracijų saugyklos yra [nerekomenduojamas](../../../../finance/get-started/removed-deprecated-features-finance.md#features-removed-or-deprecated-in-the-finance-10017-release). Daugiau informacijos rasite [„Regulatory Configuration Service“ (RCS) – „Lifecycle Services“ (LCS) saugykla nerekomenduojama](../../../../finance/localizations/rcs-lcs-repo-dep-faq.md).
 
 Šiame pavyzdyje pasirinksite pavyzdinės įmonės pavadinimu „Litware, Inc“ pageidaujamą ER konfigūraciją ir nusiųsite į LCS. Šiuos veiksmus galima atlikti bet kurioje įmonėje, nes ER konfigūracijas visos įmonės naudoja bendrai. Norėdami atlikti šiuos veiksmus, pirmiausia turite atlikti [Konfigūracijos įkėlimas į „Lifecycle Services”](er-upload-configuration-into-lifecycle-services.md) veiksmus. Taip pat reikia prieigos prie LCS.
 
@@ -103,3 +104,6 @@ ms.locfileid: "4684456"
     Šiame pavyzdyje pasirinkite konfigūracijos versiją, kurios būsena – **Bendrinama**.
 
     Atkreipkite dėmesį, kad dabar taip pat galima naudoti ir 1 pasirinktos duomenų modelio konfigūracijos bendrai naudojamą versiją.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

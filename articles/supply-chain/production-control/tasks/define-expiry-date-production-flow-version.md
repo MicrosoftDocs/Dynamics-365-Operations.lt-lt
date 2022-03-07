@@ -1,7 +1,7 @@
 ---
 title: Gamybos eigos versijos galiojimo datos nustatymas
 description: Norėdami gamybos eigos versijos galiojimą ir apdorojimą nutraukti tam tikrą datą arba planuoti aktyvios versijos pakeitimą į naują versiją, turite nustatyti versijos galiojimo datą.
-author: johanhoffmann
+author: cvocph
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -11,15 +11,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: johanho
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9f6ee9177664767c31eaa3e9b65d7559a1a9662f
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 97d652fbf647b62359efe27d4d740f6e38b70b59
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7574430"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5828807"
 ---
 # <a name="define-an-expiry-date-for-a-production-flow-version"></a>Gamybos eigos versijos galiojimo datos nustatymas
 

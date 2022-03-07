@@ -1,30 +1,28 @@
 ---
-title: Kliento portalo vartotojų kūrimas ir valdymas
+title: Kurti ir valdyti klientų portalo vartotojus (yra vaizdo įrašas)
 description: Šioje temoje paaiškinama, kaip sukurti kliento portalo vartotojų paskyras ir nustatyti jų teises.
-author: dasani-madipalli
-manager: tfehr
+author: Henrikan
 ms.date: 07/31/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: damadipa
+ms.author: henrikan
 ms.search.validFrom: 2020-04-22
-ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: e2001d5c0b17ecadf4cb42529d9beb4b3b81805a
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
-ms.translationtype: HT
+ms.dyn365.ops.version: 10.0.13
+ms.openlocfilehash: 4615182e6c3341a376e8e55a1417480e3e3f5ea7
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4528298"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8062495"
 ---
 # <a name="create-and-manage-customer-portal-users"></a>Kliento portalo vartotojų kūrimas ir valdymas
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+[!include [banner](../includes/banner.md)]
+
 
 Parengtame naudoti sprendime nėra būdo vartotojams patiems užsiregistruoti svetainėse, sukurtose naudojant kliento portalą. Norėdami prisijungti ir naudoti svetainę, vartotojai turi gauti administratoriaus pakvietimą. „Microsoft“ tyčia užblokavo galimybę vartotojams registruotis savarankiškai.
 
@@ -35,38 +33,38 @@ Kai vartotojai užsiregistruoja patys, jiems automatiškai sukuriami kontaktų �
 ## <a name="video"></a>Vaizdo
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4ADkI]
 
-[Klientų pakvietimo registruotis ir naudoti savo kliento portalą](https://youtu.be/drGUYHX9QIQ) vaizdo įrašas (rodomas pirmiau) yra įtrauktas į [„Finance and Operations“ grojaraštį](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) prieinamą „YouTube“.
+The [Pakvieskite klientus registruotis ir naudotis jūsų klientų portalu](https://youtu.be/drGUYHX9QIQ) vaizdo įrašas (parodytas aukščiau) yra įtrauktas į [„Finance and Operations“ grojaraštis](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) pasiekiama YouTube.
 
 ## <a name="prerequisite-setup"></a>Būtinieji nustatymo veiksmai
 
-„Power Apps“ portaluose esantys kontaktai saugomi kaip įrašai „Common Data Service“ objekte **Kontaktai**. Tada dvigubo rašymo funkcija pagal poreikį sinchronizuoja šiuos įrašus su „Microsoft Dynamics 365 Supply Chain Management“.
+„Power Apps“ portaluose esantys kontaktai saugomi kaip įrašai „Microsoft Dataverse“ lentelėje **Kontaktai**. Tada dvigubo rašymo funkcija pagal poreikį sinchronizuoja šiuos įrašus su „Microsoft Dynamics 365 Supply Chain Management“.
 
-![Kliento portalo kontaktų sistemos schema](media/customer-portal-contacts.png "Kliento portalo kontaktų sistemos schema")
+![Kliento portalo kontaktų sistemos schema.](media/customer-portal-contacts.png "Kliento portalo kontaktų sistemos schema")
 
-Prieš pradėdami kviesti naujus klientus, įsitikinkite, kad dvigubo rašymo funkcijoje įjungėte susiejimą su objektu **Kontaktas**.
+Prieš pradėdami kviesti naujus klientus, įsitikinkite, kad dvigubo rašymo funkcijoje įjungėte susiejimą su lentele **Kontaktas**.
 
 ## <a name="the-invitation-process"></a>Pakvietimo procesas
 
-Norėdami pakviesti esamą kontaktinį asmenį į klientų portalą, atlikite „Power Apps“ portalų dokumentacijos temoje [Kontaktų pakvietimas į portalus](https://docs.microsoft.com/powerapps/maker/portals/configure/invite-contacts) pateiktus veiksmus.
+Norėdami pakviesti esamą kontaktinį asmenį į klientų portalą, atlikite „Power Apps“ portalų dokumentacijos temoje [Kontaktų pakvietimas į portalus](/powerapps/maker/portals/configure/invite-contacts) pateiktus veiksmus.
 
-Prieš kviesdami klientą prisijungti prie kliento portalo, įsitikinkite, kad kliento [kontakto įrašas](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-contacts) yra pasiekiamas ir nustatytas kaip nurodyta toliau.
+Prieš kviesdami klientą prisijungti prie kliento portalo, įsitikinkite, kad kliento [kontakto įrašas](/powerapps/maker/portals/configure/configure-contacts) yra pasiekiamas ir nustatytas kaip nurodyta toliau.
 
 1. Lauke **Įmonė** pasirinkite juridinį subjektą, kuriam norite priskirti klientą „Supply Chain Management“ sistemoje.
 2. Lauke **Paskyros numeris** pasirinkite kliento paskyros numerį, kuris vartotojui bus priskirtas „Supply Chain Management“ sistemoje.
 
 Sukūrę kontaktą, galėsite jį peržiūrėti „Supply Chain Management“ sistemoje.
 
-Norėdami gauti daugiau informacijos, žr. temą [Portale naudojamo kontakto konfigūravimas](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-contacts) „Power Apps“ portalų dokumentacijoje.
+Norėdami gauti daugiau informacijos, žr. temą [Portale naudojamo kontakto konfigūravimas](/powerapps/maker/portals/configure/configure-contacts) „Power Apps“ portalų dokumentacijoje.
 
-## <a name="out-of-box-web-roles-and-entity-permissions"></a>Parengti naudoti žiniatinklio vaidmenys ir objektų teisės
+## <a name="out-of-box-web-roles-and-table-permissions"></a>Parengti naudoti žiniatinklio vaidmenys ir lentelių teisės
 
-Vartotojų vaidmenis „Power Apps“ portaluose nurodo [žiniatinklio vaidmenys](https://docs.microsoft.com/powerapps/maker/portals/configure/create-web-roles) ir [objektų teisės](https://docs.microsoft.com/powerapps/maker/portals/configure/assign-entity-permissions). Kliento portale iš karto yra nustatyti keli vaidmenys. Galite kurti naujus vaidmenis ir modifikuoti arba pašalinti esamus vaidmenis.
+Vartotojų vaidmenis „Power Apps“ portaluose nurodo [žiniatinklio vaidmenys](/powerapps/maker/portals/configure/create-web-roles) ir [lentelių teisės](/powerapps/maker/portals/configure/assign-entity-permissions). Kliento portale iš karto yra nustatyti keli vaidmenys. Galite kurti naujus vaidmenis ir modifikuoti arba pašalinti esamus vaidmenis.
 
 ### <a name="out-of-box-web-roles"></a>Iš anksto parengti tinklapio vaidmenys
 
 Šiame skyriuje aprašomi žiniatinklio vaidmenys, kurie tiekiami su kliento portalu.
 
-Norėdami gauti daugiau informacijos apie tai, kaip modifikuoti iš anksto parengtus vartotojų vaidmenis, žr. temas [Žiniatinklio vaidmenų kūrimas portaluose](https://docs.microsoft.com/powerapps/maker/portals/configure/create-web-roles) ir [Įrašu pagrįstos saugos įtraukimas į portalus naudojant objektų teises](https://docs.microsoft.com/powerapps/maker/portals/configure/assign-entity-permissions) „Power Apps“ portalų dokumentacijoje.
+Norėdami gauti daugiau informacijos apie tai, kaip modifikuoti iš anksto parengtus vartotojų vaidmenis, žiūrėkite [Žiniatinklio vaidmenų kūrimas portaluose](/powerapps/maker/portals/configure/create-web-roles) ir [Įrašu pagrįstos saugos įtraukimas į portalus naudojant lentelių teises](/powerapps/maker/portals/configure/assign-entity-permissions) „Power Apps“ portalų dokumentacijoje.
 
 #### <a name="administrator"></a>Administratorius
 
@@ -90,9 +88,12 @@ Toliau pateiktoje lentelėje parodyta, kuriuos pardavimo užsakymus sistemoje ga
 
 | Pardavimo užsakymas | Administratorius | Kliento atstovas klientui &nbsp;X | Įgaliotasis vartotojas: Jane | Įgaliotasis vartotojas: Sam | Teisių neturintis vartotojas: May |
 |---|---|---|---|---|---|
-| Kliento&nbsp;X užsakovas:&nbsp;Jane | Taip | Taip | Taip | nr. | nr. |
-| Kliento&nbsp;X užsakovas:&nbsp;Sam | Taip | Taip | nr. | Taip | nr. |
-| Kliento&nbsp;Y užsakovas:&nbsp;May | Taip | nr. | nr. | nr. | nr. |
+| Kliento&nbsp;X užsakovas:&nbsp;Jane | Taip | Taip | Taip | Ne | Ne |
+| Kliento&nbsp;X užsakovas:&nbsp;Sam | Taip | Taip | Ne | Taip | Ne |
+| Kliento&nbsp;Y užsakovas:&nbsp;May | Taip | Ne | Ne | Ne | Ne |
 
 > [!NOTE]
 > Nors tiek Sam, tiek Jane yra kontaktai, kurie dirba klientui X, jie gali matyti tik tuos užsakymus, kuriuos pateikė patys, ir nieko daugiau. Nors May sistemoje pateikė užsakymą, ji negali matyti to užsakymo kliento portale, nes ji yra teisių neturinti vartotoja. (Be to, ji užsakymą pateikė per kitą kanalą, o ne per kliento portalą.)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

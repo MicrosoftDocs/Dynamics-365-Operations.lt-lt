@@ -1,29 +1,31 @@
 ---
 title: Našumo apžvalgų kūrimas
 description: Šioje temoje aiškinama, kaip sukurti efektyvumo vertinimą, ir paaiškinamas kiekvieno vertinimo skyriaus tikslas.
-author: andreabichsel
-manager: AnnBe
-ms.date: 05/05/2020
+author: twheeloc
+ms.date: 08/26/2021
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard, EssWorkspace, HcmDiscussionNewDialog, HcmDiscussion, HcmDiscussionChangeSettings, HcmDiscussionAddGoalDialog, HcmTopicCreate, HcmMeasurementDetailDialog, HcmPerfJournalAdd, HcmEmployeeDevelopmentWorkspace
 audience: Application User
-ms.reviewer: anbichse
-ms.search.scope: Core, Operations
+ms.search.scope: Human Resources
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 99825dd580d617bb47b4f0ece784afbf6573ae8a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 9c3ab4e769008bd8b401967e454aa6402f013773
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419713"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8066955"
 ---
 # <a name="create-performance-reviews"></a>Našumo apžvalgų kūrimas
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 
 Šioje temoje aiškinama, kaip sukurti efektyvumo vertinimą, ir paaiškinamas kiekvieno vertinimo skyriaus tikslas. Ši procedūra buvo sukurta naudojant demonstracinių duomenų įmonę USMF.
@@ -66,15 +68,18 @@ ms.locfileid: "4419713"
 30. Pažymėkite skirtuką **Įvertinimai**.  
 
     - „FastTab“ **Įvertinimo išsami informacija** leidžia darbuotojams įvertinti save, o vadovams – įvertinti darbuotą. Jei naudojami svarbos taškai, svertinė rezultatų vertė bus apskaičiuota automatiškai.  
-    - Norėdami peržiūrėti šį skyrių, įjunkite parametrų nustatymus, skirtus darbuotojo vertinimui rodyti.  
+    - Norėdami peržiūrėti šį skyrių, įgalinkite parametrų nustatymus, kad personalo bendrinamų **parametrų puslapyje būtų rodomi darbuotojų** vertinimai.  
 
-31. Pažymėkite skirtuką **Baigimo etapai**. Jei vertinime naudojama darbo eiga, baigimo etapai bus rodomi tik užbaigus darbo eigą. Jei darbo eiga nenaudojama, tada čia pateikiami tiek darbuotojas, tiek vadovas. Reikiamas žymės langelis pasirenkamas atsižvelgiant į apžvalgos tipo nustatymus.  
+31. Pažymėkite skirtuką **Baigimo etapai**. Jei vertinime naudojama darbo eiga, baigimo etapai bus rodomi tik užbaigus darbo eigą. Jei darbo eiga nenaudojama, tada čia pateikiami tiek darbuotojas, tiek vadovas. žymės **Reikiamas** langelis **Atsijungti** pasirenkamas atsižvelgiant į apžvalgos tipo nustatymus.  
 32. Pasirinkite skirtuką **Bendra**.
 
     - Našumo laikotarpis sukuria numatytąsias pradžios ir pabaigos datas. Šias datas galima redaguoti.  
-    - Būsenos valdo prieigą prie apžvalgą. Jei rodoma būsena **Nepradėta**, visi gali redaguoti vertinimą. Jei rodoma būsena **Vykdoma**, tik darbuotojas gali peržiūrėti ir redaguoti vertinimą. Būsena **Parengta peržiūrėti** suteikia galimybę tik vadovui peržiūrėti ir redaguoti apžvalgą. Būsena **Galutinė apžvalga** tiek darbuotojui, tiek vadovui suteikia galimybę peržiūrėti ir redaguoti apžvalgą, jei taip nustatyta apžvalgos tipe. Būsenos **Baigta** ir **Atšaukta** nurodo, kad apžvalgą galima tik skaityti. Jei peržiūros būsena yra **Atmesta** ir ji grąžinama darbuotojui, darbuotojas ir vadovas gali atlikti reikiamus keitimus, kad darbuotojas galėtų ją pateikti iš naujo.
+    - Būsenos valdo prieigą prie apžvalgą. Jei rodoma būsena **Nepradėta**, visi gali redaguoti vertinimą. Jei rodoma būsena **Vykdoma**, tik darbuotojas gali peržiūrėti ir redaguoti vertinimą. Būsena **Parengta peržiūrėti** suteikia galimybę tik vadovui peržiūrėti ir redaguoti apžvalgą. **Galutinės peržiūros** būsena leidžia darbuotojui ir vadovui peržiūrėti ir redaguoti peržiūrą, jei peržiūros tipe pasirinkta parinktis **Leisti redaguoti galutinėje peržiūroje**. Būsenos **Baigta** ir **Atšaukta** nurodo, kad apžvalgą galima tik skaityti. Jei peržiūros būsena yra **Atmesta** ir ji grąžinama darbuotojui, darbuotojas ir vadovas gali atlikti reikiamus keitimus, kad darbuotojas galėtų ją pateikti iš naujo.
 
 33. Lauke **Apžvalga** įveskite reikšmę.
 34. Pažymėkite skirtuką **Apžvalga**. Kadangi galima keisti vertinimo būsenas, darbuotojas ir vadovas gali įtraukti komentarų kiekvienam tikslui ar kompetencijai.  
-35. Pažymėkite skirtuką **Baigimo etapai**. Darbuotojas ir vadovas užbaigti vertinimą. Kai užbaigti visi privalomi baigimo etapai, būsena pakeičiama į **Užbaigta** ir daugiau negalima atlikti keitimų.  
+35. Pažymėkite skirtuką **Baigimo etapai**. Darbuotojas ir vadovas užbaigti vertinimą. Kai užbaigti visi privalomi atsijungimo etapai, būsena pakeičiama į **Užbaigta** ir daugiau negalima atlikti keitimų.  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

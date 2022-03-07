@@ -1,33 +1,32 @@
 ---
 title: Kas nauja ar pasikeitė sistemoje „Dynamics 365 Human Resources“ (2020 m. kovo 24 d.)
 description: Šiame straipsnyje aprašomos naujos arba pasikeitusios „Microsoft Dynamics 365 Human Resources” funkcijos 2020 m. kovo 24 d.
-author: Darinkramer
-manager: AnnBe
+author: andreabichsel
 ms.date: 03/24/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: jaredha
 ms.search.validFrom: 2020-03-24
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 87b7ea660d94c6d564a8f09d4133b098e0ecedf9
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
-ms.translationtype: HT
+ms.openlocfilehash: dec2f270f53968292ec25cca43c216f26cfc8087
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4526924"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8061416"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-march-24-2020"></a>Kas nauja ar pasikeitė sistemoje „Dynamics 365 Human Resources“ (2020 m. kovo 24 d.)
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+
 
 Šiame straipsnyje aprašomos naujos arba pasikeitusios „Dynamics 365 Human Resources“ funkcijos. Pakeitimai taikomi 8.1.3073 komponavimo versijai. Kai kurių antraščių skaičiai skliausteliuose nurodo „Lifecycle Services“ (LCS) palaikymo numerius kaip nuorodą.
 
@@ -59,7 +58,7 @@ Atlikus šį pakeitimą, galite koreguoti atostogų planų, sukurtų naudojant (
 
 - **Išmokų valdymo peržiūros funkcija** – norėdami gauti daugiau informacijos, įskaitant žinomas problemas, žr. skyrių [Išmokų valdymo peržiūra](hr-benefits-management-overview.md).
 
-## <a name="common-data-service-solution-is-now-available-with-the-following-changes"></a>Common Data Service sprendimas dabar galimas su šiais pakeitimais:
+## <a name="dataverse-solution-is-now-available-with-the-following-changes"></a>Dataverse sprendimas dabar galimas su šiais pakeitimais:
 
 | aprašymas | Pakeitimas |
 | --- | --- |
@@ -71,12 +70,12 @@ Atlikus šį pakeitimą, galite koreguoti atostogų planų, sukurtų naudojant (
 | Nauji kintamosios atlyginimo dalies sąrankos objektai | <ul><li>**Kompensacijų kitimo plano tipas**</li><li>**Kompensacijų kitimo planas**</li><li>**Kintamosios atlyginimo dalies paskirstymo taisyklės**</li><li>**Kompensacijų kitimo plano lygis**</li></ul> |
 | Naujas objektas **Darbuotojo įdarbinimo kalendorius** | <ul><li>Pridėta **Darbo kalendoriaus objektas**</li></ul> |
 | Naujas objektas **Algalapio pareigų informacija** | <ul><li>Pridėta **Algalapio pareigų informacija**</li></ul> |
-| Naujas subjektas **Pavadinimas** | <ul><li>**Pavadinimas** pridėtas</li></ul>Naujas objektas **Pavadinimas** įtrauktas į Common Data Service, bet šiuo metu nėra nurodomas iš objektų **Pareigos** arba **Darbas**. |
+| Naujas subjektas **Pavadinimas** | <ul><li>**Pavadinimas** pridėtas</li></ul>Naujas objektas **Pavadinimas** įtrauktas į Dataverse, bet šiuo metu nėra nurodomas iš objektų **Pareigos** arba **Darbas**. |
 
 > [!NOTE]
-> Abiejų pareigų ir įdarbinimo finansinės dimensijos suteikia vienos krypties integraciją, skirtą atnaujinimams iš „Human Resources“ į Common Data Service. Finansinių dimensijų atnaujinimai dabar nesinchronizuojami iš Common Data Service į „Human Resources“.
+> Abiejų pareigų ir įdarbinimo finansinės dimensijos suteikia vienos krypties integraciją, skirtą atnaujinimams iš „Human Resources“ į Dataverse. Finansinių dimensijų atnaujinimai dabar nesinchronizuojami iš Dataverse į „Human Resources“.
 
-Per artimiausias kelias savaites šie objektų pakeitimai bus galimi visose aplinkose. Norėdami rankiniu būdu įdiegti naujausią Common Data Service sprendimą, skirtą „Human Resources“:
+Per artimiausias kelias savaites šie objektų pakeitimai bus galimi visose aplinkose. Norėdami rankiniu būdu įdiegti naujausią Dataverse sprendimą, skirtą „Human Resources“:
 
 1.  Eikite į [„Power Platform“ administravimo centrą](https://admin.powerplatform.microsoft.com).
 
@@ -119,6 +118,8 @@ Objektas **Įdarbinimo informacija** atnaujintas toliau nurodytais laukais: **Mo
 ## <a name="see-also"></a>Taip pat žiūrėkite
 
 [Kas nauja ar pasikeitė „Human Resources”](hr-admin-whats-new.md)</br>
-[„Dynamics 365 Human Resources“ 2019 m. leidimo 2 bangos apžvalga](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[„Dynamics 365 Human Resources“ 2019 m. leidimo 2 bangos apžvalga](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Atnaujinimo procesas](hr-admin-setup-update-process.md)</br>
 [Funkcijų valdymas](hr-admin-manage-features.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

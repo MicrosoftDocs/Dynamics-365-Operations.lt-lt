@@ -1,10 +1,12 @@
 ---
 title: Tiesioginis pardavimo užsakymų sinchronizavimas tarp „Sales“ ir Tiekimo grandinės valdymo
 description: Šioje temoje aptariami šablonai ir pagrindinės užduotys, naudojami „Dynamics 365 Sales“ pardavimo užsakymus tiesiogiai sinchronizuojant su „Dynamics 365 Supply Chain Management“.
-author: Henrikan
+author: ChristianRytt
+manager: tfehr
 ms.date: 05/09/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
@@ -13,29 +15,29 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
-ms.author: henrikan
+ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: eb41a21395a5d115b779e6b1ef71e9eb1176e28e
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
-ms.translationtype: MT
+ms.openlocfilehash: d30ead63bfba5dc198bd46dfaffe444dde723baa
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8061523"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5261026"
 ---
 # <a name="synchronization-of-sales-orders-directly-between-sales-and-supply-chain-management"></a>Tiesioginis pardavimo užsakymų sinchronizavimas tarp „Sales“ ir Tiekimo grandinės valdymo
 
 [!include [banner](../includes/banner.md)]
 
-
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Šioje temoje aptariami šablonai ir pagrindinės užduotys, naudojami „Dynamics 365 Sales“ pardavimo užsakymus tiesiogiai sinchronizuojant su „Dynamics 365 Supply Chain Management“.
 
 ## <a name="data-flow-in-prospect-to-cash"></a>Duomenų srautas sprendime Potencialūs klientai ir grynieji pinigai
 
-Sprendime Potencialūs klientai ir grynieji pinigai naudojant funkciją Duomenų integravimas sinchronizuojami duomenys „Supply Chain Management“ ir „Sales“ egzemplioriuose. Sprendimo Potencialūs klientai ir grynieji pinigai šablonai, pasiekiami naudojant duomenų integravimo funkciją, įjungia sąskaitų, kontaktų, produktų, pardavimo pasiūlymų, pardavimo užsakymų ir pardavimo SF duomenų srautą tarp „Supply Chain Management” ir „Sales“. Toliau pateiktoje iliustracijoje rodoma, kaip sinchronizuojami „Supply Chain Management “ ir „Sales“ duomenys.
+Sprendime Potencialūs klientai ir grynieji pinigai naudojant funkciją Duomenų integravimas sinchronizuojami duomenys „Supply Chain Management“ ir „Sales“ egzemplioriuose. Sprendimo Potencialūs klientai ir grynieji pinigai šablonai, pasiekiami naudojant duomenų integravimo funkciją, įjungia sąskaitų, kontaktų, produktų, pardavimo pasiūlymų, pardavimo užsakymų ir pardavimo SF duomenų srautą tarp Tiekimo grandinės valdymo ir „Sales“. Toliau pateiktoje iliustracijoje rodoma, kaip sinchronizuojami „Supply Chain Management “ ir „Sales“ duomenys.
 
-[![Duomenų srautas sprendime Potencialūs klientai ir grynieji pinigai.](./media/prospect-to-cash-data-flow.png)](./media/prospect-to-cash-data-flow.png)
+[![Duomenų srautas sprendime Potencialūs klientai ir grynieji pinigai](./media/prospect-to-cash-data-flow.png)](./media/prospect-to-cash-data-flow.png)
 
 ## <a name="templates-and-tasks"></a>Šablonai ir užduotys
 
@@ -56,7 +58,7 @@ Toliau pateikti šablonai ir pagrindinės užduotys yra naudojami pardavimo užs
 Prieš sinchronizuojant pardavimo sąskaitų faktūrų antraštes ir eilutes, būtina atlikti toliau pateiktas sinchronizavimo užduotis.
 
 - Produktai (iš Tiekimo grandinės valdymo į „Sales“) – tiesioginis
-- Sąskaitos (iš „Sales“ į „Supply Chain Management”) – tiesioginis (jei naudojamas)
+- Sąskaitos (iš „Sales“ į Tiekimo grandinės valdymą) – tiesioginis (jei naudojamas)
 - Kontaktai klientams (iš „Sales“ į Tiekimo grandinės valdymą) – tiesioginis (jei naudojamas)
 
 ## <a name="entity-set"></a>Objektų rinkinys
@@ -189,23 +191,23 @@ Toliau pateiktose iliustracijose vaizduojamas šablono susiejimo pavyzdys naudoj
 
 ### <a name="sales-orders-supply-chain-management-to-sales---direct-orderheader"></a>Pardavimo užsakymai (iš Tiekimo grandinės valdymo į „Sales“) – tiesioginis: OrderHeader
 
-[![Šablono susiejimas duomenų integravime, pardavimo užsakymuose („Supply Chain Management“ į Pardavimus) - Tiesioginis: OrderHeader.](./media/sales-order-direct-template-mapping-data-integrator-1.png)](./media/sales-order-direct-template-mapping-data-integrator-1.png)
+[![Šablono susiejimas naudojant funkcija Duomenų integravimas](./media/sales-order-direct-template-mapping-data-integrator-1.png)](./media/sales-order-direct-template-mapping-data-integrator-1.png)
 
 ### <a name="sales-orders-supply-chain-management-to-sales---direct-orderline"></a>Pardavimo užsakymai (iš Tiekimo grandinės valdymo į „Sales“) – tiesioginis: OrderLine
 
-[![Šablono susiejimas duomenų integravime, pardavimo užsakymuose („Supply Chain Management“ į Pardavimus) - Tiesioginis: OrderLine.](./media/sales-order-direct-template-mapping-data-integrator-2.png)](./media/sales-order-direct-template-mapping-data-integrator-2.png)
+[![Šablono susiejimas naudojant funkcija Duomenų integravimas](./media/sales-order-direct-template-mapping-data-integrator-2.png)](./media/sales-order-direct-template-mapping-data-integrator-2.png)
 
 ### <a name="sales-orders-sales-to-supply-chain-management---direct-orderheader"></a>Pardavimo užsakymai (iš „Sales“ į Tiekimo grandinės valdymą) – tiesioginis: OrderHeader
 
-[![Šablono susiejimas duomenų integravime, pardavimo užsakymuose („Sales“ į „Supply Chain Management“ į Pardavimus) - Tiesioginis: OrderHeader.](./media/sales-order-direct-template-mapping-data-integrator-3.png)](./media/sales-order-direct-template-mapping-data-integrator-3.png)
+[![Šablono susiejimas naudojant funkcija Duomenų integravimas](./media/sales-order-direct-template-mapping-data-integrator-3.png)](./media/sales-order-direct-template-mapping-data-integrator-3.png)
 
 ### <a name="sales-orders-sales-to-supply-chain-management---direct-orderline"></a>Pardavimo užsakymai (iš „Sales“ į Tiekimo grandinės valdymą) – tiesioginis: OrderLine
 
-[![Šablono susiejimas duomenų integravime, pardavimo užsakymuose („Sales“ į „Supply Chain Management“ į Pardavimus) - Tiesioginis: OrderLine.](./media/sales-order-direct-template-mapping-data-integrator-4.png)](./media/sales-order-direct-template-mapping-data-integrator-4.png)
+[![Šablono susiejimas naudojant funkcija Duomenų integravimas](./media/sales-order-direct-template-mapping-data-integrator-4.png)](./media/sales-order-direct-template-mapping-data-integrator-4.png)
 
 ## <a name="related-topics"></a>Susijusios temos
 
-[Potencialaus kliento pavertimas pinigais](prospect-to-cash.md)
+[Potencialūs klientai ir grynieji pinigai](prospect-to-cash.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

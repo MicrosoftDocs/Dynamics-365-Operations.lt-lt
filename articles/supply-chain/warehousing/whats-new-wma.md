@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: ceb327599bb2651a37ac51c3e0fdffc39d20c7f6
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
-ms.translationtype: MT
+ms.openlocfilehash: 6f45cacd7f43c8caf836fd1ea24d354e4bcf5853
+ms.sourcegitcommit: 9638d3a2bd592dc28f5952bda4af7dcf06edfaa4
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8067256"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8007579"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Kas nauja ar pasikeitė „Warehouse Management Mobile App” programėlėje
 
@@ -23,45 +23,38 @@ ms.locfileid: "8067256"
 
 Šioje temoje pateikiamos naujos kiekvienos išleistos „Warehouse Management Mobile App”, skirtos „Microsoft Dynamics 365 Supply Chain Management”, versijos funkcijos, klaidų taisymai ir žinomos problemos.
 
-## <a name="version-20150"></a>2.0.15.0 versija
-
-Šioje versijoje pristatomos toliau pateiktos naujos funkcijos, klaidų taisymai ir patobulinimai:
-
-- Patobulintas našumas pašalinus atminties nutekėjimo problemą.
-- Ištaisyta problema, kai kai kurios lauko reikšmės nebuvo tinkamai atnaujintos, kai buvo pasirinktos išsamios informacijos puslapyje.
-
 ## <a name="version-20140"></a>2.0.14.0 versija
 
 Šioje versijoje pristatomos toliau pateiktos naujos funkcijos, klaidų taisymai ir patobulinimai:
 
-- Ištaisyta problema, dėl kurios buvo išjungtas numatytasis mygtukas Pateikti.
+- Išsamskite problemą, kuri uždraudė numatytąjį mygtuką Pateikti.
 
 ## <a name="version-20130"></a>2.0.13.0 versija
 
 Šioje versijoje pristatomos toliau pateiktos naujos funkcijos, klaidų taisymai ir patobulinimai:
  
-- Patobulintas slinkimas tarp puslapių su sklandesne animacija.
-- Ištaisyti priešingi intuityvi atsakymai į braukimo judesius ir retkarčiais užstringantį ekraną.
-- Patobulinti tamsaus režimo teksto ir fono spalvų deriniai, kad būtų geriau skaitoma.
-- Ištaisyta problema, kai keičiant programos lango dydį dalis teksto gali tapti labai maža.
-- Ištaisyta problema, dėl kurios nuskaitant brūkšninius kodus kartais gali sugesti programa.
-- Pridėta galimybė slankiklį pakeisti mygtuku.
-- Ištaisyta problema, dėl kurios programa galėjo rodyti klaidos pranešimą „AADSTS7000215: pateikta netinkama kliento paslaptis“.
-- Ištaisyta užuominų animacija, rodanti, kaip uždaryti puslapį naudojant braukimo žemyn gestą.
-- Pridėta galimybė uždaryti puslapį naudojant brūkštelėjimo gestą.
-- Ištaisyta problema, kai išskleidžiamojo sąrašo pavadinimai nebuvo rodomi **Vartotojo nustatymai** puslapį.
-- Ištaisyta lokalizacijos problema, kai programa neatpažino kablelio (,) kaip dešimtainio skyriklio.
+- Patobulintas paslinkimas tarp puslapių naudojant lygias animacijas.
+- Fiksuotas skaitiklio atsakas perbraukti judesius ir, kartais, ekrano užšaldymą.
+- Patobulintas tamsaus režimo tekstas ir fono spalvų deriniai, kad būtų lengviau perskaityti.
+- Fiksuoti problemą, dėl kurios kai kuris tekstas gali tapti labai mažas, kai iš naujo pakeičiamas programos langas.
+- Išsamskite problemą, kuri kartais gali sudužtėti programa, kai nuskaitomi brūkšniniai kodai.
+- Pridėta galimybė pakeisti mygtuką.
+- Išs peržiūrėkite problemą, dėl kurios programa gali parodyti klaidos pranešimą. "AADSTS7000215: pateiktas netinkamas kliento slaptažodis."
+- Fiksuota užuominos sąkacija, rodanti, kaip uždaryti puslapį naudojant perbraukimą žemyn.
+- Pridėta galimybė uždaryti puslapį naudojant stel įkainį pagal vertę.
+- Išsamdoma problema, kai vartotojo parametrų puslapyje nebuvo rodomi **išplečiamojo sąrašo** pavadinimai.
+- Išsaiskite lokalizavimo problemą, kai programa neatpažįsta kablelio (,) kaip dešimtainio skyriklio.
 - Pagerintas prieinamumas.
-- Pataisyta navigacija **Naujas ryšys** puslapį, kad būtų pagerintas pasiekiamumas.
-- Ištaisyta problema, kai renkantis įvesties lauką nebuvo rodoma minkštoji (ekrane) klaviatūra.
-- Ištaisyta problema, dėl kurios programa gali sugesti, jei naudotojai greitai pakeis jos lango dydį.
-- Ištaisyta problema, kai greitas klavišo paspaudimas kartais buvo interpretuojamas kaip ilgas paspaudimas.
-- Ištaisyta problema, kai programos išdėstymas gali būti sugadintas dėl lauko tinkinimų, atliktų tiekimo grandinės valdyme.
-- Ištaisyta problema, kai prekių vietos nebuvo tinkamai rodomos.
-- Ištaisyta problema, susijusi su trumpu produkto varianto darbo eigos pasirinkimu.
-- Pašalintas nereikalingas laukų, kuriuose yra numatytosios vertės, patvirtinimas.
-- Patobulintas našumas.
-- Pridėtas naujas nustatymas, leidžiantis vartotojams pasirinkti, kaip laukai filtruojami ir išdėstomi kortelės puslapyje.
+- Fiksuoti naršymo sritį naujo **ryšio** puslapyje, kad būtų padidintas pritaikymas neįgaliesiems.
+- Išs tai yra problema, dėl kurios pasirenkant įvesties lauką nereikia rodoma švelniai (ekrane) klaviatūros vieta.
+- Išsamskite problemą, kuri gali sudužti programą, jei vartotojai greitai pa pakeis lango dydį.
+- Išs fiksuota problema, kai "Fast Keypress" kartais buvo aiškinama kaip ilgasis klavišas.
+- Išsamskite problemą, dėl kurios programos maketas gali būti sugadintas dėl tiekimo grandinės valdymo lauko pritaikymo.
+- Išsamskite problemą, dėl kurios prekių vietos nebuvo tinkamai rodomos.
+- Išsamskite problemą, susijusią su trumpu produkto varianto darbo eigos paėmimu.
+- Pašalintas nebūtinas laukų, kuriuose yra iš anksto nustatytų numatytųjų verčių, tikrinimas.
+- Padidintas našumas.
+- Pridėtas naujas parametras, leidžiantis vartotojams pasirinkti, kaip laukai filtruojami ir užsakuojami kortelės puslapyje.
 
 ## <a name="version-20110"></a>2.0.11.0 versija
 

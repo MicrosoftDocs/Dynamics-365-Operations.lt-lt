@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-01-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: ae4a7f9d9576c9d0408f562eb05bc309d0fbca0ecb8530e8c032b2bb80f12ff4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3fc7cff0a3f8d0fbfb196ec5951b138088afece7
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6773819"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6019475"
 ---
 # <a name="dynamics-365-commerce-and-microsoft-teams-integration-faq"></a>„Dynamics 365 Commerce“ ir „Microsoft Teams“ integravimo DUK
 
@@ -45,7 +45,7 @@ Norėdami darbuotojui priskirti mažmeninės prekybos užduočių vadovo vaidmen
 
 „Commerce” būstinėje kiekviena organizacijos hierarchija yra susieta su vienu arba daugiau tikslų. Įsitikinkite, kad hierarchijoje, kurią norite parengti į „Microsoft Teams”, yra su ja susietas **Mažmeninės prekybos ataskaitų** tikslas, kaip parodyta toliau pateiktame pavyzdyje. 
 
-![Organizacijos hierarchijos tikslo pavyzdys „Commerce” būstinėje.](media/d365-commerce-organization-hierarchies-purpose.png)
+![Organizacijos hierarchijos tikslo pavyzdys „Commerce” būstinėje](media/d365-commerce-organization-hierarchies-purpose.png)
 
 ### <a name="how-do-i-enable-retail-store-workers-to-sign-in-to-commerce-point-of-sale-pos-using-azure-active-directory-azure-ad"></a>Kaip įgalinti mažmeninės prekybos parduotuvės darbuotojus prisijungti prie „Commerce” elektroninio kasos aparato (EKA) naudojant „Azure Active Directory” („Azure AD”)?
 

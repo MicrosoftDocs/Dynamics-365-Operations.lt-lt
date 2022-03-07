@@ -2,7 +2,7 @@
 title: Egzemplioriaus kopijavimas
 description: Galite naudoti „Microsoft Dynamics Lifecycle Services“ (LCS), kad nukopijuotumėte „Microsoft Dynamics 365 Human Resources“ duomenų bazę į smėlio dėžės aplinką.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 07/22/2020
 ms.topic: article
 ms.prod: ''
@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 40ca0a4d9733fc2a163daa4ea1c27a3bfae6d3bf
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: e38abf3537d88bb147fbf0030999953025e5820f
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527842"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5466909"
 ---
 # <a name="copy-an-instance"></a>Egzemplioriaus kopijavimas
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
@@ -41,7 +43,7 @@ Kad nukopijuotumėte egzempliorių, atminkite šiuos patarimus:
 
 - Kai kopijuojate „Human Resources“ duomenų bazę, nenukopijuojate elementų (programų arba duomenų), esančių „Microsoft Power Apps“ aplinkoje. Norėdami gauti informacijos apie tai, kaip kopijuoti „Power Apps“ aplinkos elementus, žr. [Aplinkos kopijavimas](https://docs.microsoft.com/power-platform/admin/copy-environment). „Power Apps“ egzempliorius, kurį norite perrašyti, turi būti smėlio dėžės aplinka. Norėdami pakeisti „Power Apps“ gamybos aplinką į smėlio dėžės aplinką, turite būti visuotinis nuomotojo administratorius. Daugiau informacijos apie „Power Apps“ aplinkos keitimą žr. [Egzemplioriaus keitimas](https://docs.microsoft.com/dynamics365/admin/switch-instance).
 
-- Jei kopijuojate egzempliorių į savo smėlio dėžės aplinką ir norite integruoti savo smėlio dėžės aplinką į „Common Data Service”, privalote pasirinktinius laukus iš naujo taikyti „Common Data Service” objektams. Žr. [Taikyti pasirinktinius laukus „Common Data Service”](hr-admin-setup-copy-instance.md?apply-custom-fields-to-common-data-service).
+- Jei kopijuojate egzempliorių į savo smėlio dėžės aplinką ir norite integruoti savo smėlio dėžės aplinką į „Dataverse”, privalote pasirinktinius laukus iš naujo taikyti „Dataverse” lenteles. Žr. [Taikyti pasirinktinius laukus „Dataverse”](hr-admin-setup-copy-instance.md?apply-custom-fields-to-common-data-service).
 
 ## <a name="effects-of-copying-a-human-resources-database"></a>„Human Resources“ duomenų bazės kopijavimo poveikis
 
@@ -80,7 +82,7 @@ Norėdami atlikti šią užduotį, pirmiausia nukopijuokite egzempliorių, tada 
 
 6. Pasirinkite kopijuotiną „Power Apps“ aplinką ir pasirinkite **Kopijuoti**.
 
-7. Kai kopijavimo procesas baigtas, prisijunkite prie paskirties egzemplioriaus ir įjunkite „Common Data Service“ integravimą. Daugiau informacijos ir instrukcijų žr. [„Common Data Service“ integravimo konfigūravimas](https://docs.microsoft.com/dynamics365/talent/hr-common-data-service-integration).
+7. Kai kopijavimo procesas baigtas, prisijunkite prie paskirties egzemplioriaus ir įjunkite „Dataverse“ integravimą. Daugiau informacijos ir instrukcijų žr. [„Dataverse“ integravimo konfigūravimas](https://docs.microsoft.com/dynamics365/talent/hr-common-data-service-integration).
 
 ## <a name="data-elements-and-statuses"></a>Duomenų elementai ir būsenos
 
@@ -122,11 +124,11 @@ Visi paskirties smėlio dėžės aplinkos vartotojai, įskaitant administratoriu
 
 Visi ne administratoriaus teises turintys vartotojai paskirties smėlio dėžės aplinkoje yra išjungti, kad būtų užkirstas kelias nepageidaujamiems prisijungimams smėlio dėžės aplinkoje. Jei reikia, administratoriai gali iš naujo įgalinti vartotojus.
 
-## <a name="apply-custom-fields-to-common-data-service"></a>Taikyti pasirinktinius laukus „Common Data Service”
+## <a name="apply-custom-fields-to-dataverse"></a>Taikyti pasirinktinius laukus „Dataverse”
 
-Jei kopijuojate egzempliorių į savo smėlio dėžės aplinką ir norite integruoti savo smėlio dėžės aplinką į „Common Data Service”, privalote pasirinktinius laukus iš naujo taikyti „Common Data Service” objektams.
+Jei kopijuojate egzempliorių į savo smėlio dėžės aplinką ir norite integruoti savo smėlio dėžės aplinką į „Dataverse”, privalote pasirinktinius laukus iš naujo taikyti „Dataverse” lenteles.
 
-Kiekvienam pasirinktiniam laukui, kurie rodomi „Common Data Service” objektams, atlikite šiuos veiksmus: 
+Kiekvienam pasirinktiniam laukui, kurie rodomi „Dataverse” lentelėse, atlikite šiuos veiksmus: 
 
 1. Eikite į pasirinktinį lauką ir pasirinkite **Redaguoti**.
 
@@ -140,7 +142,7 @@ Kiekvienam pasirinktiniam laukui, kurie rodomi „Common Data Service” objekta
 
 6. Dar kartą pasirinkite **Taikyti pakeitimus**.
 
-Anuliavimo, pakeitimų taikymo, perrinkimo ir pakeitimų taikymo iš naujo procesas ragina schemos „Common Data Service” atnaujinimus, kad būtų įtraukti pasirinktiniai laukai.
+Anuliavimo, pakeitimų taikymo, perrinkimo ir pakeitimų taikymo iš naujo procesas ragina schemos „Dataverse” atnaujinimus, kad būtų įtraukti pasirinktiniai laukai.
 
 Norėdami gauti daugiau informacijos apie pasirinktinius laukus, žr. [Darbas su pasirinktiniais laukais ir jų kūrimas](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/user-defined-fields).
 
@@ -150,3 +152,6 @@ Norėdami gauti daugiau informacijos apie pasirinktinius laukus, žr. [Darbas su
 [Egzemplioriaus šalinimas](hr-admin-setup-remove-instance.md)</br>
 [Atnaujinimo procesas](hr-admin-setup-update-process.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

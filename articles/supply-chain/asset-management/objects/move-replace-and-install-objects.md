@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 022ffc59b1b64913fedaf550f3fdb32141a94031
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 4f5eff3cc1bcf85e1541917edf525d83c124edb7
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5020284"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5253235"
 ---
 # <a name="move-replace-and-install-assets"></a>Turto perkėlimas, keitimas ir diegimas
 
@@ -90,3 +90,6 @@ Naudokite funkciją **Diegti turtą**, kad įdiegtumėte turto struktūrą funkc
 4. Lauke **Funkcinė vieta** pasirinkite naują vietą.
 5. Pagal numatytuosius nustatymus lauke **Galioja** nustatoma dabartinė data ir laikas. Tačiau galima pasirinkti kitą datą ir laiką, nuo kurio pradeda galioti diegimas turto struktūroje.
 6. Pasirinkite **Gerai**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

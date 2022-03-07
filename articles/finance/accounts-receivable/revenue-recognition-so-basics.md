@@ -2,26 +2,23 @@
 title: Įplaukų pripažinimas pardavimo užsakymuose
 description: Šioje temoje aprašomos pagrindinės pardavimo užsakymų ir SF įplaukų pripažinimo funkcijos. Įplaukų pripažinimas galimas pardavimo užsakyme ir atitinkamoje SF, sukuriamoje iš pardavimo užsakymo.
 author: kweekley
-manager: aolson
 ms.date: 08/24/2018
 ms.topic: index-page
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: Customer
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 6e2eafc6785aaf9bc7421bc80c90fa4a7f98a2d4
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 1807e00f5f93bf9359da710af7c9a1f6de652e7ae78cf9604351af969b057b11
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4459537"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6752230"
 ---
 # <a name="revenue-recognition-on-sales-orders"></a>Įplaukų pripažinimas pardavimo užsakymuose
 
@@ -39,7 +36,7 @@ ms.locfileid: "4459537"
 
 Įvedamas šis pardavimo užsakymas ir įtraukiamos trys prekės, nustatytos įplaukų pripažinimui.
 
-[![Įvesti pardavimo užsakymą](./media/revenue-recognition-so-basic-sales-order-header.png)](./media/revenue-recognition-so-basic-sales-order-header.png)
+[![Pardavimo užsakymo įvedimas.](./media/revenue-recognition-so-basic-sales-order-header.png)](./media/revenue-recognition-so-basic-sales-order-header.png)
 
 Yra dvi įplaukų pripažinimo koncepcijos:
 
@@ -48,9 +45,9 @@ Yra dvi įplaukų pripažinimo koncepcijos:
 
     Šiame pavyzdyje pirmoji prekė S0001 priskiriama **1O** (vieno pasikartojimo) įplaukų grafike. Šioje eilutėje rodomas etapo tipo scenarijus, kurio įplaukos bus pripažįstamos po diegimo ateityje. Todėl įplaukos bus atidedamos, kol diegimas bus baigtas.
 
-    Antroji prekė S0008 yra aptarnavimo prekė, nustatyta kaip palaikymo pasibaigus sutarčiai (PCS) prekė. Ilgalaikės inžinerinės paslaugos klientui teikiamos per 12 mėnesių laikotarpį. Todėl, pagal numatytuosius nustatymus produktui priskiriamas **12 mėn.** įplaukų grafikas. Kadangi ši prekė yra PCS prekė, turi būti apibrėžtos sutarties pradžios ir pabaigos datos. Pagal numatytuosius nustatymus sutarties pradžios ir pabaigos datos yra prekės išsamioje informacijoje – skirtuke „Nustatymai“. Įplaukų grafike **12 mėn.** nustatymai apibrėžiami taip, kad sutarties sąlygos būtų automatiškai įrašomos, kaip parodyta šioje iliustracijoje.
+    Antroji prekė S0008 yra aptarnavimo prekė, nustatyta kaip palaikymo pasibaigus sutarčiai (PCS) prekė. Ilgalaikės inžinerinės paslaugos klientui teikiamos per 12 mėnesių laikotarpį. Todėl, pagal numatytuosius nustatymus produktui priskiriamas **12 mėn.** įplaukų grafikas. Kadangi ši prekė yra PCS prekė, turi būti apibrėžtos sutarties pradžios ir pabaigos datos. Pagal numatytuosius nustatymus sutarties pradžios ir pabaigos datos yra prekės išsamioje informacijoje – skirtuke „Nustatymai“. Įplaukų grafike **12M** nustatymai apibrėžiami taip, kad sutarties sąlygos būtų automatiškai įrašomos, kaip parodyta šioje iliustracijoje.
 
-    [![Įplaukų grafikai](./media/revenue-recognition-so-basic-revenue-schedules.png)](./media/revenue-recognition-so-basic-revenue-schedules.png)
+    [![Įplaukų grafikai.](./media/revenue-recognition-so-basic-revenue-schedules.png)](./media/revenue-recognition-so-basic-revenue-schedules.png)
 
     Trečia prekė S0012 yra aparatūra ir įplaukų grafikas jai nėra priskirtas pagal numatytuosius nustatymus. Aparatūros įplaukos pripažįstamos iš karto, kai išrašoma prekės SF.
 
@@ -58,7 +55,7 @@ Yra dvi įplaukų pripažinimo koncepcijos:
 
 Norėdami peržiūrėti papildomą informaciją apie įplaukų vertę ir įplaukų grafiką, naudokite mygtukus, esančius grupėje **Įplaukų pripažinimas**, skirtuke **Tvarkyti**, esančiame pardavimo užsakymo veiksmų srityje. Kadangi šiuo metu pardavimo užsakymas nepatvirtintas, mygtukai, naudojami įplaukoms pripažinti, yra neprieinami. Šie mygtukai tampa prieinami arba neprieinami, nes pardavimo užsakymas vyksta etapais, kurie lemia vykdymą.
 
-[![Pardavimo užsakymo antraštė](./media/revenue-recognition-so-basic-sales-order-header-02.png)](./media/revenue-recognition-so-basic-sales-order-header-02.png)
+[![Pardavimo užsakymo antraštė.](./media/revenue-recognition-so-basic-sales-order-header-02.png)](./media/revenue-recognition-so-basic-sales-order-header-02.png)
 
 Pirmi trys mygtukai pateikia išsamią informaciją apie priekių įplaukų vertę pardavimo užsakymo nustatymuose įplaukų pripažinimui.
 
@@ -73,13 +70,13 @@ Paskutiniai du mygtukai pateikia išsamią informaciją apie šių pardavimo už
 
 Šiame pavyzdyje įplaukų vertės paskirstymas įvyko patvirtintus pardavimo užsakymą. Atkreipkite dėmesį, kad, net jei įplaukų vertės yra paskirstytos skirtingai, bendroji suma, esanti lauke **Pripažintinos įplaukos** turi sutapti su pardavimo užsakymo eilučių, kurių SF išrašyta klientui, suma. Pavyzdžiui, pardavimo užsakymo eilučių suma, neįskaitant mokesčių, yra 1499 $. Todėl **Pripažintinos įplaukos** verčių suma taip pat turi būti 1499 $.
 
-[![Įplaukų vertės paskirstymas](./media/revenue-recognition-so-basic-revenue-price-allocation.png)](./media/revenue-recognition-so-basic-revenue-price-allocation.png)
+[![Įplaukų vertės paskirstymas.](./media/revenue-recognition-so-basic-revenue-price-allocation.png)](./media/revenue-recognition-so-basic-revenue-price-allocation.png)
 
 Taip pat sukuriamas numatomas įplaukų pripažinimo grafikas. Įplaukų grafike naudojama **Pripažintinos įplaukos** vertė kaip atidėtina suma. Prekės S0001 atidedama suma yra 321,21 $ vietoje 300 $, o prekės S0008 atidedama suma yra 160,61 $ vietoje 100 $. Prekė S0012 nėra rodoma numatomame grafike, nes įplaukos nėra atidėtos. Vykdant registravimą, registruojama prekės S0012 1 017,18 $ tiesiogiai įplaukų DK sąskaitoje.
 
-[![Numatomas įplaukų pripažinimo grafikas](./media/revenue-recognition-so-basic-expected-rev-rec-schedule.png)](./media/revenue-recognition-so-basic-expected-rev-rec-schedule.png)
+[![Numatomas įplaukų pripažinimo grafikas.](./media/revenue-recognition-so-basic-expected-rev-rec-schedule.png)](./media/revenue-recognition-so-basic-expected-rev-rec-schedule.png)
 
-## <a name="create-the-packing-slip"></a>Kurti važtaraštį
+## <a name="create-the-packing-slip"></a>Važtaraščio kūrimas
 
 Toliau galima sukurti pardavimo užsakymo važtaraštį. Užregistravus važtaraštį, įplaukos nepripažįstamos. Jei pardavimo užsakymas nebuvo patvirtintas, važtaraščio registravimas nesuaktyvina įplaukų vertės skaičiavimo. Jis taip pat nesuaktyvina numatyto arba galutinio įplaukų pripažinimo grafiko kūrimo. Jei prekių modelių grupė nustatoma atidėti įplaukas važtaraštyje, ji ir toliau bus registruojama naudojant esamas registravimo šablono DK sąskaitas, o ne naujas atidėtų įplaukų sąskaitas, kurios naudojamos registruojant SF.
 
@@ -87,14 +84,17 @@ Toliau galima sukurti pardavimo užsakymo važtaraštį. Užregistravus važtara
 
 Paskutinis veiksmas yra pardavimo užsakymo SF išrašymas. Peržiūrėdami SF kvitą, pastebėsite, kad prekių S0001 ir S0008 įplaukos buvo atidėtos (321,21 $ + 160,61 $ = 481,82 $), o likusi prekės S0012 suma užregistruota įplaukoms (1 017,18 $). Šios vertės sudaro 1 499 $ sumą, kuri atitinka pardavimo užsakymo eilučių sumą.
 
-[![Kvitų operacijos](./media/revenue-recognition-so-voucher-transactions.png)](./media/revenue-recognition-so-voucher-transactions.png)
+[![Kvito operacijos.](./media/revenue-recognition-so-voucher-transactions.png)](./media/revenue-recognition-so-voucher-transactions.png)
 
 Sukūrus SF, mygtukai **Įplaukų vertės paskirstymas**, **Perskirstyti vertę naujose užsakymo eilutėse** ir **Įplaukų pripažinimo grafikas**, skirti įplaukų pripažinimui, tampa prieinami, o mygtukai **Naujinti įplaukų vertės paskirstymą** ir **Numatomas įplaukų pripažinimo grafikas** tampa neprieinami.
 
-[![Galimo įplaukų pripažinimo mygtuko prieinamumas](./media/revenue-recognition-so-basic-after-invoice-buttons.png)](./media/revenue-recognition-so-basic-after-invoice-buttons.png)
+[![Galimo įplaukų pripažinimo mygtuko prieinamumas.](./media/revenue-recognition-so-basic-after-invoice-buttons.png)](./media/revenue-recognition-so-basic-after-invoice-buttons.png)
 
 Mygtukas **Įplaukų vertės paskirstymas** vis dar prieinamas, kad galėtumėte peržiūrėti įplaukų vertės skaičiavimą. Jei pardavimo užsakyme niekas nepasikeitė po to, kai jis buvo patvirtintas, SF registravimas nekeis apskaičiuotos sumos lauke **Pripažintinos įplaukos**.
 
 Numatomas įplaukų pripažinimo grafikas pašalinamas ir pakeičiamas galutiniu įplaukų pripažinimo grafiku. Kiekvieno pardavimo užsakymo eilutės įplaukų grafiko informacija tvarkoma ir naudojama atidėtoms įplaukoms priskaičiuoti prie faktinių įplaukų, kai įvykdomi sutartiniai įsipareigojimai.
 
-[![Galutinis įplaukų pripažinimo grafikas](./media/revenue-recognition-so-revenue-recognition-schedule.png)](./media/revenue-recognition-so-revenue-recognition-schedule.png)
+[![Galutinis įplaukų pripažinimo grafikas.](./media/revenue-recognition-so-revenue-recognition-schedule.png)](./media/revenue-recognition-so-revenue-recognition-schedule.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

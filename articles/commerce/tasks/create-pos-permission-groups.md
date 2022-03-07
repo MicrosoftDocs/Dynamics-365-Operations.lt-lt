@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ac03e1bfb7a2463b31feca0a4303c182a00ad259
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: b2439d1912b3ca013f4a524f3354923d2a3f76ca
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4964825"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5221286"
 ---
 # <a name="create-pos-permission-groups"></a>EKA teisių grupių kūrimas
 
@@ -47,3 +47,6 @@ ms.locfileid: "4964825"
 16. Lauke EKA teisių grupė įveskite arba pasirinkite reikšmę. Visi darbuotojai su šios užduoties pareigomis naudos šios EKA teisių grupės parametrus, nebent darbuotojų EKA teisių nepaisoma pareigų lygyje.  
 17. Pasirinkite **Įrašyti**. Įrašius keitimus, reikia paleisti darbuotojų paskirstymo grafiką, kad keitimai būtų taikomi kanalams.  
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: Kas nauja ar pasikeitė „Dynamics 365 Supply Chain Management“ 10.0.13 versijoje (2020 m. spalio mėn.)
 description: Šioje temoje aprašomos naujos ir pakeistos „Dynamics 365 Supply Chain Management“ 10.0.13 versijos funkcijos.
 author: kamaybac
-manager: tfehr
 ms.date: 07/31/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-07-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 9c5358cbc13c10983cfcbdde95fd573f652cc683
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.openlocfilehash: 238dc7191b5d6cb044b2825e511bdc869d82ca20c03cfbc6129c22a010da3496
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4963565"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6766127"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10013-october-2020"></a>Kas nauja ar pasikeitė „Dynamics 365 Supply Chain Management“ 10.0.13 versijoje (2020 m. spalio mėn.)
 
@@ -35,23 +33,23 @@ ms.locfileid: "4963565"
 
 ## <a name="features-included-in-this-release"></a>Funkcijos, įtrauktos į šį leidimą
 
-Toliau nurodytos funkcijos yra įtrauktos į šį leidimą. Funkcijų pavadinimai susieti su papildoma informacija svetainėje [Leidimų planai](https://docs.microsoft.com/dynamics365/release-plans/). Papildomos nuorodos rodo į papildomus dokumentus, kurie šiuo metu yra prieinami tai funkcijai. Daugumą šių funkcijų reikia įjungti naudojant [Funkcijų valdymas](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), kad galėtumėte jomis naudotis.
+Toliau nurodytos funkcijos yra įtrauktos į šį leidimą. Funkcijų pavadinimai susieti su papildoma informacija svetainėje [Leidimų planai](/dynamics365/release-plans/). Papildomos nuorodos rodo į papildomus dokumentus, kurie šiuo metu yra prieinami tai funkcijai. Daugumą šių funkcijų reikia įjungti naudojant [Funkcijų valdymas](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), kad galėtumėte jomis naudotis.
 
-- [Keisti „inventoriaus uždarymo pašalinimo" terminologiją į „inventoriaus uždarymo panaikinimas“](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/change-terminology-inventory-closing-cancellation-inventory-closing-reverse)<br> - Norėdami gauti daugiau informacijos, žr. [inventoriaus uždarymas](../cost-management/inventory-close.md).
+- [Keisti „inventoriaus uždarymo pašalinimo" terminologiją į „inventoriaus uždarymo panaikinimas“](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/change-terminology-inventory-closing-cancellation-inventory-closing-reverse)<br> - Norėdami gauti daugiau informacijos, žr. [inventoriaus uždarymas](../cost-management/inventory-close.md).
 
-- [Patvirtinti siunčiamas siuntas naudojant paketines užduotis](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/confirm-outbound-shipments-batch-jobs)<br> - Dėl daugiau informacijos, žr. [Įjungti išorės siuntimų patvirtinimą pakuotės užduočių funkcijai](../warehousing/confirm-outbound-shipments-from-batch-jobs.md).
+- [Patvirtinti siunčiamas siuntas naudojant paketines užduotis](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/confirm-outbound-shipments-batch-jobs)<br> - Dėl daugiau informacijos, žr. [Įjungti išorės siuntimų patvirtinimą pakuotės užduočių funkcijai](../warehousing/confirm-outbound-shipments-from-batch-jobs.md).
 
-- [Daugelio įsigijimo užduoties elementų perdavimas](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/delegation-multiple-purchasing-work-items)<br> - Dėl išsamesnės informacijos, žr. [Darbo eigos darbo elementų perdavimas](../../fin-ops-core/fin-ops/organization-administration/tasks/delegate-work-items-workflow.md).
+- [Daugelio įsigijimo užduoties elementų perdavimas](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/delegation-multiple-purchasing-work-items)<br> - Dėl išsamesnės informacijos, žr. [Darbo eigos darbo elementų perdavimas](../../fin-ops-core/fin-ops/organization-administration/tasks/delegate-work-items-workflow.md).
 
-- [Įveskite serijinius numerius rengdami ataskaitą kaip skelbimą baigtu iš užduoties kortelės įrenginio](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/enter-serial-numbers-while-reporting-as-finished-job-card-device)<br> - Dėl daugiau informacijos, žr. [Skelbimas baigtu iš užduoties kortelės įrenginio](../production-control/report-finished-job-device.md).
+- [Įveskite serijinius numerius rengdami ataskaitą kaip skelbimą baigtu iš užduoties kortelės įrenginio](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/enter-serial-numbers-while-reporting-as-finished-job-card-device)<br> - Dėl daugiau informacijos, žr. [Skelbimas baigtu iš užduoties kortelės įrenginio](../production-control/report-finished-job-device.md).
 
-- [Naujos inventoriaus dimensijos produkto versijos sekimui ir padidintiems plėtiniams](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/new-inventory-dimensions-product-version-tracking-enhanced-extensibility)<br> - Norėdami gauti daugiau informacijos, žr. [Produkto dimensijos](../pim/product-dimensions.md).
+- [Naujos inventoriaus dimensijos produkto versijos sekimui ir padidintiems plėtiniams](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/new-inventory-dimensions-product-version-tracking-enhanced-extensibility)<br> - Norėdami gauti daugiau informacijos, žr. [Produkto dimensijos](../pim/product-dimensions.md).
 
-- [Su užsakymo susietos rezervacijos pagrįstos licencijos numeriais](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/order-committed-reservation-based-license-plates-lp-picking-processing)<br> - Dėl platesnės informacijos, žr. [Lanksti licencijos numerių rezervacija](../warehousing/flexible-warehouse-level-dimension-reservation.md#flexible-license-plate-reservation).
+- [Su užsakymo susietos rezervacijos pagrįstos licencijos numeriais](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/order-committed-reservation-based-license-plates-lp-picking-processing)<br> - Dėl platesnės informacijos, žr. [Lanksti licencijos numerių rezervacija](../warehousing/flexible-warehouse-level-dimension-reservation.md#flexible-license-plate-reservation).
 
-- [Darbo paėmimo eilučių apžvalga](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/work-pick-line-overview)
+- [Darbo paėmimo eilučių apžvalga](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/work-pick-line-overview)
 
-- [Gaunamo darbo strategijos patobulinimai](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/work-policy-enhancements-inbound-work)<br> - Norėdami gauti daugiau informacijos, žr. [Sandėlio politikos](../warehousing/warehouse-work-policies.md).
+- [Gaunamo darbo strategijos patobulinimai](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/work-policy-enhancements-inbound-work)<br> - Norėdami gauti daugiau informacijos, žr. [Sandėlio politikos](../warehousing/warehouse-work-policies.md).
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
@@ -67,7 +65,7 @@ Norėdami gauti daugiau informacijos apie klaidų ištaisymus, įtrauktus į kie
 
 Norite sužinoti apie būsimas ir neseniai išleistas mūsų verslo programų ar platformos galimybes?
 
-Peržiūrėkite [„Dynamics 365“: 2020 m. 2-os leidimo bangos planas](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/index). Visą išsamią informaciją užfiksavome viename dokumente, kurį galite naudoti planuodami.
+Peržiūrėkite [„Dynamics 365“: 2020 m. 2-os leidimo bangos planas](/dynamics365-release-plan/2020wave2/index). Visą išsamią informaciją užfiksavome viename dokumente, kurį galite naudoti planuodami.
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>Pašalintos ir pasenusios „Supply Chain Management“ funkcijos
 
@@ -78,4 +76,7 @@ Temoje [Pašalintos arba pasenusios funkcijos „Dynamics 365 Supply Chain Manag
 
 Prieš pašalinant iš produkto bet kokią funkciją, pranešimas apie nebenaudojimą bus paskelbtas [Pašalintos arba pasenusios funkcijos „Dynamics 365 Supply Chain Management“](removed-deprecated-features-scm-updates.md) temoje 12 mėnesių prieš pašalinimą.
 
-Atlikus keitimus, kurie paveikia tik kompiliavimo laiką, bet yra dvejatainiškai suderinami su smėlio dėžės ir gamybos aplinka, nebenaudojimo laikas bus trumpesnis nei 12 mėnesių. Paprastai, tai yra funkciniai naujinimai, kuriuos reikia atlikti kompiliatoriui.
+Atlikus keitimus, kurie paveikia tik kompiliavimo laiką, bet yra dvejetainiškai suderinami su smėlio dėžės ir gamybos aplinka, nebenaudojimo laikas bus trumpesnis nei 12 mėnesių. Paprastai, tai yra funkciniai naujinimai, kuriuos reikia atlikti kompiliatoriui.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

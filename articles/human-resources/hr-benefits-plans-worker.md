@@ -1,31 +1,30 @@
 ---
 title: Darbininko išmokų planų kūrimas
-description: Galite sukurti darbininkų išmokų planus programoje „Microsoft Dynamics 365 Human Resources“, norėdami pasirinkti darbuotojams skirtus išmokų planus ir patvirtinti išmokų planų pasirinkimus.
-author: andreabichsel
-manager: AnnBe
-ms.date: 04/06/2020
+description: Šioje temoje aprašoma, kaip sukurti, pasirinkti ir patvirtinti darbuotojų išmokų planus „Microsoft Dynamics 365 Human Resources“.
+author: twheeloc
+ms.date: 08/23/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: BenefitPlanEmployee, BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0ebd19cba8dd7cac8ccf6d17d4206731be87a225
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 701bc6f1bb3ef684b163c32032e1094c8ae4deb0
+ms.sourcegitcommit: 4f9c889e5cf72f34dd9746a322f8c0d6b983037b
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419671"
+ms.lasthandoff: 08/25/2021
+ms.locfileid: "7417497"
 ---
 # <a name="create-worker-benefit-plans"></a>Darbininko išmokų planų kūrimas
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Galite sukurti darbininkų išmokų planus programoje „Microsoft Dynamics 365 Human Resources“, norėdami pasirinkti darbuotojams skirtus išmokų planus ir patvirtinti išmokų planų pasirinkimus. Paprastai darbuotojai patys pasirenka išmokų planus naudodami darbuotojų savitarnos paslaugą, o tada išmokų administratorius patvirtina pasirinkimus. 
 
@@ -49,3 +48,6 @@ Galite sukurti darbininkų išmokų planus programoje „Microsoft Dynamics 365 
    | Planai | Sparčiajame skirtuke Planai pateikiami planai, atitinkantys nurodytus filtro kriterijus. Atitinkamos konfigūracijos parinktys, kurias nustatė HR darbuotojai ir registracijos pasirinkimai, kuriuos pasirinko darbuotojai, yra įtraukti į kiekvieną eilutę. Apibrėžtas laukas nurodo, ar yra tikrinimo nesutapimų dėl plano pasirinkimo. |
 
 4. Pasirinkite **Įrašyti**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

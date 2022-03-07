@@ -1,5 +1,5 @@
 ---
-title: „Dynamics 365 Commerce” domenai
+title: „Dynamics 365 Commerce“ esantys domenai
 description: Šioje temoje aprašoma, kaip domenai valdomi „Microsoft Dynamics 365 Commerce”.
 author: BrShoo
 manager: AnnBe
@@ -11,20 +11,19 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: ''
 ms.search.region: Global
 ms.search.industry: retail
 ms.author: BrShoo
 ms.search.validFrom: ''
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: cb2b003168d32d05387bd45796d313736b11a41f
-ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
+ms.openlocfilehash: bafa49cc570ddf7e0ff9c3dcb1b6902fb341b790
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "4517360"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5225794"
 ---
-# <a name="domains-in-dynamics-365-commerce"></a>„Dynamics 365 Commerce” domenai
+# <a name="domains-in-dynamics-365-commerce"></a>„Dynamics 365 Commerce“ esantys domenai
 
 [!include [banner](includes/banner.md)]
 
@@ -160,7 +159,7 @@ Jei domenai esami / aktyvūs, bus atlikti toliau pateikti veiksmai.
 
   [Susiekite „Dynamics 365 Commerce“ saitą su interneto kanalu](associate-site-online-store.md)
 
-  [„robots.txt” failų tvarkymas](manage-robots-txt-files.md)
+  [robots.txt failų tvarkymas](manage-robots-txt-files.md)
 
   [Masinis URL peradresavimų nusiuntimas](upload-bulk-redirects.md)
 
@@ -173,3 +172,6 @@ Jei domenai esami / aktyvūs, bus atlikti toliau pateikti veiksmai.
   [Turinio pristatymo tinklo (CDN) palaikymo įtraukimas](add-cdn-support.md)
 
   [Parduotuvės nustatymo pagal vietą įgalinimas](enable-store-detection.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

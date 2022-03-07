@@ -2,11 +2,9 @@
 title: Pasirinktinės saugyklos vietos, skirtos sugeneruotiems dokumentams, nurodymas
 description: Šioje temoje paaiškinama, kaip išplėsti elektroninio ataskaitų (ER) formatų sugeneruotų dokumentų saugojimo vietų sąrašą.
 author: NickSelin
-manager: AnnBe
 ms.date: 02/22/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 5e9afad936a353c8db3c316ad45c4ce28d33b129
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 424917f98ec7c4c044fb5cdae78133d1529aefd9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4680811"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348169"
 ---
 # <a name="specify-a-custom-storage-location-for-generated-documents"></a>Pasirinktinės saugyklos vietos, skirtos sugeneruotiems dokumentams, nurodymas
 
@@ -29,7 +27,7 @@ Elektroninių ataskaitų (ER) sistemos programavimo sąsaja (API) suteikia galim
 
 ## <a name="prerequisites"></a>Būtinieji komponentai
 
-Turite įdiegti topologiją, kuri palaiko nuolatinę komponavimo versiją. (Daugiau informacijos žr. [Visuotinis topologijų, palaikančių nuolatinio komponavimo versijų ir bandymo automatizavimo funkciją, diegimas](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/perf-test/continuous-build-test-automation).) Jums reikia vieno iš toliau nurodytų vaidmenų prieigos prie šios topologijos.
+Turite įdiegti topologiją, kuri palaiko nuolatinę komponavimo versiją. (Daugiau informacijos žr. [Visuotinis topologijų, palaikančių nuolatinio komponavimo versijų ir bandymo automatizavimo funkciją, diegimas](/dynamics365/unified-operations/dev-itpro/perf-test/continuous-build-test-automation).) Jums reikia vieno iš toliau nurodytų vaidmenų prieigos prie šios topologijos.
 
 - Elektroninės ataskaitos kūrėjas
 - Elektroninės ataskaitos funkcijų konsultantas
@@ -41,7 +39,7 @@ Taip pat jums reikia prieigos prie šios topologijos kūrimo aplinkos.
 
 Esamoje topologijoje [sukurkite naują ER formatą](tasks/er-format-configuration-2016-11.md), kad generuotumėte dokumentus, kurių pasirinktinę saugojimo vietą planuojate įtraukti. Taip pat galite [importuoti esamą ER formatą į šią topologiją](general-electronic-reporting-manage-configuration-lifecycle.md).
 
-![Formato dizaino įrankio puslapis](media/er-extend-file-storages-format.png)
+![Formato dizaino įrankio puslapis.](media/er-extend-file-storages-format.png)
 
 > [!IMPORTANT]
 > Jūsų kuriamame arba importuojamame ER formate turi būti bent vienas iš toliau nurodytų formato elementų.
@@ -55,12 +53,12 @@ Esamoje topologijoje [sukurkite naują ER formatą](tasks/er-format-configuratio
 
 Norėdami nurodyti, kaip dokumentai, kuriuos generuoja ER formatas, turi būti nukreipiami, turite sukonfigūruoti [Elektroninių ataskaitų (ER) paskirties vietos](electronic-reporting-destinations.md). Kiekvienoje ER paskirties vietoje, kuri sukonfigūruota saugoti sugeneruotus dokumentus kaip failus, turite nurodyti dokumentų valdymo sistemos dokumento tipą. Galima naudoti skirtingus dokumentų tipus norint nukreipti dokumentus, kuriuos sugeneruoja skirtingi ER formatai.
 
-1. Įtraukite anksčiau sukurto arba importuoto ER formato [dokumento tipą](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-document-management). Toliau pateiktame paveikslėlyje dokumento tipas yra **FileX**.
+1. Įtraukite anksčiau sukurto arba importuoto ER formato [dokumento tipą](../../fin-ops/organization-administration/configure-document-management.md). Toliau pateiktame paveikslėlyje dokumento tipas yra **FileX**.
 2. Norėdami atskirti šį dokumento tipą nuo kitų dokumentų tipų, įtraukite tam tikrą raktažodį į jo pavadinimą. Pavyzdžiui, toliau pateiktame paveikslėlyje pavadinimas yra **(VIETINIS) aplankas**.
 3. Lauke **Klasė** nurodykite **Pridėti failą**.
 4. Lauke **Grupė** nurodykite **Failas**.
 
-![Puslapis Dokumentų tipai](media/er-extend-file-storages-document-type.png)
+![Puslapis Dokumentų tipai.](media/er-extend-file-storages-document-type.png)
 
 > [!NOTE]
 > Dokumentų tipai priklauso nuo įmonės. Norėdami naudoti ER formatą ir sukonfigūruotą paskirties vietą keliose įmonėse, turite sukonfigūruoti atskirą dokumento tipą, skirtą kiekvienai įmonei.
@@ -115,18 +113,18 @@ public DocuRef insertFile(
 - **Archyvas** – kai naudojama ši paskirties vieta, lentelėje ERFormatMappingRunJobTable sukuriamas naujas paleisto ER formato įrašas. Šio įrašo lauke **Suarchyvuota** nustatoma reikšmė **False**. Je ER formatas įvykdomas sėkmingai, sugeneruotas dokumentas pridedamas prie šio įrašo ir paleidžiamas įvykis **AttachingFile()**. Dokumento tipas, pasirinktas šioje ER paskirties vietoje, nurodo pridėto failo saugojimo vietą („Microsoft Azure“ saugyklos arba „Microsoft SharePoint“ aplankas).
 - **Užduoties archyvas** – kai naudojama ši paskirties vieta, lentelėje ERFormatMappingRunJobTable sukuriamas naujas paleisto ER formato įrašas. Šio įrašo lauke **Suarchyvuota** nustatoma reikšmė **True**. Je ER formatas įvykdomas sėkmingai, sugeneruotas dokumentas pridedamas prie šio įrašo ir paleidžiamas įvykis **AttachingFile()**. ER parametruose sukonfigūruoto dokumento tipas nurodo pridėto failo saugojimo vietą („Azure“ saugyklos arba „SharePoint“ aplankas).
 
-![Elektroninių ataskaitų parametrų puslapis](media/er-extend-file-storages-parameters.png)
+![Elektroninių ataskaitų parametrų puslapis.](media/er-extend-file-storages-parameters.png)
 
 ## <a name="configure-an-er-destination"></a>ER paskirties vietos konfigūravimas
 
-1. Sukonfigūruokite vieno iš anksčiau minėtų sukurto arba importuoto ER formato elementų (failo, aplanko, susijungimo arba priedo) suarchyvuotą paskirties vietą. Patarimų žr. [ER paskirties vietų konfigūravimas](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-destinations-2016-11).
+1. Sukonfigūruokite vieno iš anksčiau minėtų sukurto arba importuoto ER formato elementų (failo, aplanko, susijungimo arba priedo) suarchyvuotą paskirties vietą. Patarimų žr. [ER paskirties vietų konfigūravimas](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-destinations-2016-11).
 2. Naudoti anksčiau įtrauktą sukonfigūruotos paskirties vietos dokumento tipą. (Pavyzdžiui, šioje temoje dokumento tipas yra **FileX**.)
 
-![Dialogo langas Paskirties vietos parametrai](media/er-extend-file-storages-destination.png)
+![Dialogo langas Paskirties vietos parametrai.](media/er-extend-file-storages-destination.png)
 
 ## <a name="modify-source-code"></a>Šaltinio kodo modifikavimas
 
-1. Įtraukite naują klasę į savo „Microsoft Visual Studio“ projektą ir parašykite kodą, kad užsiprenumeruotumėte pirmiau paminėtą įvykį **AttachingFile()**. (Daugiau informacijos apie naudojamo šablono išplėtimą žr. [Atsakymas naudojant EventHandlerResult](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/extensibility/respond-event-handler-result).) Pavyzdžiui, naujoje klasėje parašykite kodą, kuris atlieka toliau nurodytus veiksmus.
+1. Įtraukite naują klasę į savo „Microsoft Visual Studio“ projektą ir parašykite kodą, kad užsiprenumeruotumėte pirmiau paminėtą įvykį **AttachingFile()**. (Daugiau informacijos apie naudojamo šablono išplėtimą žr. [Atsakymas naudojant EventHandlerResult](/dynamics365/unified-operations/dev-itpro/extensibility/respond-event-handler-result).) Pavyzdžiui, naujoje klasėje parašykite kodą, kuris atlieka toliau nurodytus veiksmus.
 
     1. Saugokite sugeneruotus failus serverio, kuriame veikia programos objektų serverio (AOS) tarnyba, vietinės failų sistemos aplanke.
     2. Saugokite šiuos sugeneruoti failus tik kai naudojamas naujas dokumento tipas (pvz., tipas **FileX**, kurio pavadinime yra raktažodis „(VIETINIS)“) ir failas yra pridėtas prie įrašo ER vykdymo užduočių žurnale.
@@ -175,3 +173,6 @@ public DocuRef insertFile(
 
 - [Elektroninių ataskaitų (ER) paskirties vietos](electronic-reporting-destinations.md)
 - [Išplečiamumo pagrindinis puslapis](../extensibility/extensibility-home-page.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

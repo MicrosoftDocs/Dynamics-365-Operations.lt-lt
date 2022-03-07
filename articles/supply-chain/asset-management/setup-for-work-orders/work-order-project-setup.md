@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: riluan
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 031e61549474745360ac00f9a66bef7a9dbaaf96
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 9e7f312b7119ac5e4dacbe7edb7b3fd17decd7ad
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5021559"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5245376"
 ---
 # <a name="work-order-project-setup"></a>Darbo užsakymo projekto sąranka
 
@@ -85,3 +85,6 @@ Sąranka užtikrinamas visapusiškas integravimas su moduliu **Projektų valdyma
 > Kaskart sukūrus darbo užsakymo eilutę, modulyje „Turto valdymas” ieškoma projektų grupė, kuri turėtų būti susijusi su darbo užsakymo užduoties projektu. Paieška grindžiama šioje temoje aprašyta sąranka. Kiekviena projektų grupė turi susijusį projekto tipą. Projektų grupės, turinčios projekto tipą **Laikas ir medžiaga** arba **Fiksuota kaina**, galioja tik turtui, kuris yra susijęs su kliento paskyra.
 >
 > Pirminių projektų ir projektų grupių atveju, kai sistema pasirenka galimą darbo užsakymo projektą arba projektų grupę, pasirinkimas grindžiamas įrašais, kuriuos sukūrėte taikydami ankstesnę procedūrą. Siekiant rasti galimą atitikmenį, modulyje „Turto valdymas” peržiūrimi su darbo užsakymo projektu susiję įrašai. Visada pirmiausia tikrinami konkrečiausi deriniai. Kitaip tariant, darbo užsakymo pirminio projekto atveju modulyje „Turto valdymas” pirmiausia ieškoma galimo lauko **Turtas** atitikmens. Jeigu atitikmens nėra, ieškoma lauko **Turto tipas** atitikmens. Jeigu atitikmens nėra, ieškoma lauko **Funkcinė vieta** atitikmens ir t. t. Kaip galite matyti pažvelgę į puslapio **Darbo užsakymo projekto sąranka** išdėstymą, toks elgesys reiškia, kad siekiant nustatyti konkrečiausią derinį, modulyje „Turto valdymas” atitikmenų ieškoma visus įrašus tikrinant iš dešinės į kairę. Jeigu atitikmens nėra, naudojamas numatytasis įrašas, kai pasirinktas tik projekto ID. Panašus procesas vyksta ieškant susijusios projektų grupės. Modulyje „Turto valdymas” pirmiausia ieškoma galimo lauko **Turtas** atitikmens, vėliau lauko **Turto tipas** atitikmens ir tuomet lauko **Darbo užsakymo tipas** atitikmens. Jeigu atitikmens nėra, naudojamas numatytasis įrašas, kai pasirinkta tik projektų grupė.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,10 +1,12 @@
 ---
 title: Ilgalaikio turto operacijų parinktys
 description: Šioje temoje aprašomi galimi skirtingi metodai ilgalaikio turto operacijoms kurti.
-author: moaamer
-ms.date: 08/10/2021
+author: ShylaThompson
+manager: AnnBe
+ms.date: 02/07/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetTable, PurchCreateOrder
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: roschlom
 ms.custom: 23061
 ms.assetid: 338c495b-a4d8-461e-b85b-a83faf673730
 ms.search.region: Global
-ms.author: moaamer
+ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2c5530bb7b0472aad75ec04c00ba828b8efb877d
-ms.sourcegitcommit: 5f5a8b1790076904f5fda567925089472868cc5a
-ms.translationtype: MT
+ms.openlocfilehash: bd1de441cd8c5de9d3684cfe644c33dadb44f5dc
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7891577"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5241103"
 ---
 # <a name="fixed-asset-transaction-options"></a>Ilgalaikio turto operacijų parinktys
 
@@ -46,7 +48,7 @@ Kai pirkimo užsakymas arba Ilgalaikio turto atsargų žurnalas naudojami įsigy
 ## <a name="general-ledger"></a>Didžioji knyga
 Bet kokį ilgalaikio turto operacijos tipą galima registruoti puslapyje Bendrasis žurnalas. Taip pat galite naudoti žurnalus ilgalaikio turto operacijoms registruoti.
 
-### <a name="options-for-entering-fixed-asset-transaction-types"></a>Ilgalaikio turto operacijų tipų įvedimo pasirinktys
+## <a name="options-for-entering-fixed-asset-transaction-types"></a>Ilgalaikio turto operacijų tipų įvedimo pasirinktys
 
 
 | Operacijos tipas                    | Modulis                   | Pasirinktys                                   |
@@ -56,27 +58,15 @@ Bet kokį ilgalaikio turto operacijos tipą galima registruoti puslapyje Bendras
 |                                     | Mokėtinos sumos         | SF žurnalas, SF patvirtinimo žurnalas |
 |                                     | Paraiškos | Pirkimo užsakymas                            |
 | Nusidėvėjimas                        | Ilgalaikis turtas             | Ilgalaikis turtas                              |
-|                                     | Didžioji knyga           | Pagrindinis žurnalas                           |
+|                                     | DK           | Pagrindinis žurnalas                           |
 | Likvidavimas                            | Ilgalaikis turtas             | Ilgalaikis turtas                              |
-|                                     | Didžioji knyga           | Pagrindinis žurnalas                           |
-|                                     | Gautinos sumos      | Laisvos formos SF                         |
+| ** **                               | DK           | Pagrindinis žurnalas                           |
+| ** **                               | Gautinos sumos      | Laisvos formos sąskaita faktūra                         |
 
-Ilgalaikio turto likusių nusidėvėjimo laikotarpių reikšmė nėra atnaujinama, kai nusidėvėjimo operacijos tipo žurnalo eilutė sukuriama neautomatiškai arba importuojama naudojant duomenų objektą. Likusių laikotarpių reikšmė atnaujinama, kai nusidėvėjimo pasiūlymo procesas naudojamas žurnalo eilutei sukurti.
+
+Ilgalaikio turto reikšmė lauke Likusių nusidėvėjimo laikotarpių skaičius nėra atnaujinama, kai nusidėvėjimo operacijos tipo žurnalo eilutė sukuriama neautomatiškai arba importuojama naudojant duomenų objektą. Ši reikšmė atnaujinama, kai nusidėvėjimo pasiūlymo procesas naudojamas žurnalo eilutei sukurti.
 
 Norėdami daugiau informacijos žr. [Ilgalaikio turto integravimas](fixed-asset-integration.md).
 
-Sistema neleidžia registruoti to paties laikotarpio nusidėvėjimo du kartus. Pavyzdžiui, jei du vartotojai atskirai sukuria sausio mėnesio nusidėvėjimo pasiūlymus, pirmo vartotojo nusidėvėjimas bus registruojamas pirmame žurnale. Kai antrasis vartotojas užregistruoja nusidėvėjimą antrame žurnale, sistema patikrina paskutinio nusidėvėjimo vykdymo datą ir neregistruoja to paties laikotarpio nusidėvėjimo antrą kartą.
-
-### <a name="transactions-that-require-a-different-voucher-number"></a>Operacijos, kurioms reikia skirtingo kvito numerio
-
-Toliau nurodytose ilgalaikio turto operacijose bus naudojami skirtingi kvitų numeriai:
-
-- Atliekamas papildomas turto įsigijimas ir skaičiuojamas nusidėvėjimas atgaline data.
-- Turtas suskaidomas.
-- Įjungiamas parametras, naudojamas norint apskaičiuoti nusidėvėjimą likviduojant, po to turtas likviduojamas.
-- Turto paslaugos data yra ankstesnė nei įsigijimo data. Dėl to registruojamas nusidėvėjimo koregavimas.
-
-> [!NOTE]
-> Įvesdami operacijas, įsitikinkite, kad visos operacijos taikomos tam pačiam ilgalaikiam turtui. Kvitas nebus registruojamas, jei jame bus daugiau nei vienas ilgalaikis turtas, net jei didžiosios knygos puslapio **Žurnalų pavadinimai** laukas **Naujas kvitas** nustatytas į **Tik vienas kvito numeris**. Jei į kvitą įtraukiate daugiau nei vieną ilgalaikį turtą, gausite tokį pranešimą pranešimas: „Viename kvite gali būti tik viena ilgalaikio turto operacija” ir negalėsite registruoti kvito.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

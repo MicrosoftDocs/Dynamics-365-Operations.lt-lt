@@ -1,10 +1,12 @@
 ---
 title: Pristatymo grafikai
 description: Naudojant pristatymo grafikus galima sekti užsakymo eilučių kiekį, kai išsiunčiate kelis pardavimo užsakymus, pardavimo pasiūlymus ar pirkimo užsakymus.
-author: Henrikan
+author: ShylaThompson
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchDeliverySchedule, SalesDeliverySchedule, SalesQuotationDeliverySchedule, SalesQuotationDeliverySchedule
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: 213984
 ms.assetid: 44cac104-c36c-4371-a992-9178b3fd65e9
 ms.search.region: Global
-ms.author: henrikan
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b50558c5da71351082d36276a3185e1f91543f2b
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: dfc9467e6c7df70ce749f531bab447513ea3349e
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7573470"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4998583"
 ---
 # <a name="delivery-schedules"></a>Pristatymo grafikai
 
@@ -32,7 +34,7 @@ Naudokite pristatymo grafiką, kai bendras užsakymo ar pasiūlymo eilutės kiek
 
 **Pristatymo grafiko pavyzdys**
 
-| Produktas                              | Reikšmė                                    |
+|                                   |                                          |
 |-----------------------------------|------------------------------------------|
 | Bendrasis užsakymas (pradinė užsakymo eilutė) | 600 kėdžių                               |
 | Pageidaujamas pristatymo grafikas       | 100 kėdžių per mėnesį                     |
@@ -54,6 +56,3 @@ Kai patvirtinsite pardavimo pasiūlymus, gautuose pardavimo užsakymuose rodomas
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

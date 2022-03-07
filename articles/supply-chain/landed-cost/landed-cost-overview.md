@@ -3,22 +3,23 @@ title: Iškrovimo kainos modulis
 description: Modulis „Iškrovimo kaina“ įmonėms padeda racionalizuoti gaunamas siuntų operacijas naudotojams suteikiant visišką finansinę ir logistinę importuoto transportavimo kontrolę iš gamintojo į sandėlį.
 author: sherry-zheng
 ms.date: 12/07/2020
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
+ms.custom: intro-internal
 ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-07
-ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: e4861c0e8b3680f3cd3229facf059b671a4fc765
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
-ms.translationtype: MT
+ms.dyn365.ops.version: Release 10.0.17
+ms.openlocfilehash: e646b5fed29aa4c6e67a83703a51c4a322a1918b
+ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983422"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "6338428"
 ---
 # <a name="landed-cost-module"></a>Iškrovimo kainos modulis
 

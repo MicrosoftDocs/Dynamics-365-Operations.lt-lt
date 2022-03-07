@@ -1,34 +1,30 @@
 ---
 title: Sudengimų apžvalga
 description: Šioje temoje pateikta bendra informacija apie sudengimo procesą. Joje aprašoma, kurie operacijų tipai gali būti sudengti, bei jų sudengimo laikas ir procesas. Taip pat aprašomi sudengimo proceso rezultatai.
-author: panolte
-ms.date: 07/30/2021
-ms.topic: overview
+author: kweekley
+ms.date: 04/10/2020
+ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: CustOpenTrans, LedgerJournalTransCustPaym, LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
 ms.reviewer: roschlom
-ms.custom:
-- "14551"
-- intro-internal
+ms.custom: 14551
 ms.assetid: 0968fa71-5984-415b-8689-759a0136d5d1
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 57f2b209a852bb9513218fab3df118c7d7a2a1e7
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
-ms.translationtype: MT
+ms.openlocfilehash: 7d3ba2b484efa0107ac7e055272ee2169a0fd35c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7986388"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5834865"
 ---
 # <a name="settlement-overview"></a>Sudengimų apžvalga
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
-
 
 Šioje temoje pateikta bendra informacija apie sudengimo procesą. Joje aprašoma, kurie operacijų tipai gali būti sudengti, bei jų sudengimo laikas ir procesas. Taip pat aprašomi sudengimo proceso rezultatai.
 
@@ -76,25 +72,9 @@ Be to, sudengimai gali generuoti operacijas. Pvz., SF ir mokėjimo sudengimas ga
 
 Kai bandote sudengti operaciją, galite pastebėti simbolį, nurodantį, kad operacija pažymėta kitoje vietoje. Tokiu atveju galite pasirinkti operaciją puslapyje **Sudengti operacijas** ir pasirinkti **Užklausa \> Sudengimo lango sudengimas**. Šios užklausos rodinyje nurodomi žurnalai, pardavimo užsakymai, SF, mokėjimo pasiūlymai ir kliento vietos, kurios gali blokuoti sudengimo operaciją. Norėdami išspręsti problemą, galite pasirinkti saitą, kad eitumėte tiesiogiai iš užklausos į blokuojamą vietą. Tada galite atnaujinti dokumentą koregavimais, kurių reikia norint sudengti. Taip pat galite naudoti indikatorių **Pažymėta**, kad nustatytumėte kitus dokumentus, įtrauktus į tą pačią blokuojamą vietą.
 
-## <a name="resolve-issues-with-transactions-that-cant-be-settled"></a>Spręsti problemas, kai yra operacijų, kurių negalima sudengti
-
-Kartais operacijų sudengti negalima, nes šiuo metu dokumentą apdorojusi kita veikla. Jei bandysite sudengti operacijas, įvyksta klaida, nes šios operacijos yra naudojamos. Norėdami išspręsti šią problemą, galite naudoti puslapį **Pažymėtų operacijų informacija** kad rastumėte operacijas, pažymėtas sudengti, ir identifikuotumėte visus kitus prie jų prieitiius procesus.
-
-Operacijos pažymimos sudengti arba kai tiekėjo SF apmokamos arba kai klientai apmoka atviras SF. Kartais šios SF gali būti pažymėtos sudengti. Todėl vartotojai negali jų pasirinkti mokėjimui. SF gali būti pažymėtos kitu kliento mokėjimų žurnalu, pardavimo užsakymu, tiekėjo mokėjimo žurnalu arba pirkimo užsakymu dabartiniame juridiniame subjekte ar kitame juridiniame subjekte.
-
-Jei įvedant kliento mokėjimą operacija yra užblokuota sudengti, atidarykite **kliento pažymėtų operacijų informacijos** puslapį (**Gautinų sumų \> periodinės užduotys \> klientas pažymėjo kaip operacijų informaciją**). Norėdami greitai nustatyti, kur užblokuota operacija, galite nustatyti bet kurį iš šių pasirinkimo parametrų: **Kliento sąskaita**, **Kvitas**, **Data** arba **SF**. Jei nenustatysite jokių pasirinkimo parametrų, sistema siųs visus užblokuotus dabartinės įmonės ar kitos jūsų pasirinktos įmonės dokumentus. Identifikę operaciją, kuri užblokuota sudengti, galite ją pasirinkti, o tada pasirinkti **pasirinktų operacijų atžymėti**. Pasirinkta operacija tada pašalinama iš bet kurio žurnalo, kuriame ji yra. Tačiau dokumentas nepašalinamas iš kitos vietos. Iš to žurnalo pašalinama tik žymėjimo informacija.
-
-Jei įvedant pardavėjo mokėjimą operacija yra užblokuota sudengti, atidarykite **Pardavėjo pažymėtų operacijų informacijos** puslapį (**Mokėtinų sumų \> periodinės užduotys \> pradavėjas pažymėjo kaip operacijų informaciją**). Norėdami greitai nustatyti, kur užblokuota operacija, galite nustatyti bet kurį iš šių pasirinkimo parametrų: **Pradavėjo sąskaita**, **Kvitas**, **Data** arba **SF**. Jei nenustatysite jokių pasirinkimo parametrų, sistema siųs visus užblokuotus dabartinės įmonės ar kitos jūsų pasirinktos įmonės dokumentus. Identifikę operaciją, kuri užblokuota sudengti, galite ją pasirinkti, o tada **pasirinkti pasirinktų operacijų atžymėti** siekiant ištaisyti blokavimo problemą. Pasirinkta operacija tada pašalinama iš bet kurio žurnalo, kuriame ji yra. Tačiau dokumentas nepašalinamas iš kitos vietos. Iš to žurnalo pašalinama tik žymėjimo informacija.
-
-Norėdami identifikuoti visus užblokuotus dokumentus, atidarykite puslapį **Visa pažymėta operacijų informacija** tada (**Gautinų sumų \> periodinės užduotys \> Visa pažymėta operacijų informacija** ar **Mokėtinų sumų \> periodinės užduotys \> Visa pažymėta operacijų informacijas**). Norėdami greitai nustatyti, kur užblokuota operacija, galite nustatyti bet kurį iš šių pasirinkimo parametrų: **Kliento sąskaita**, **Pardavėjo sąskaita**, **Kvitas**, **Data**, ar **SF**. Jei nenustatysite jokių pasirinkimo parametrų, sistema siųs visus užblokuotus dabartinės įmonės ar kitos jūsų pasirinktos įmonės dokumentus. Identifikę operaciją, kuri užblokuota sudengti, galite ją pasirinkti, o tada **pasirinkti pasirinktų operacijų atžymėti** siekiant ištaisyti blokavimo problemą. Pasirinkta operacija tada pašalinama iš bet kurio žurnalo, kuriame ji yra. Tačiau dokumentas nepašalinamas iš kitos vietos. Iš to žurnalo pašalinama tik žymėjimo informacija.
-
-Kad galėtumėte naudoti šią funkciją, ji turi būti įjungta jūsų sistemoje. Administratoriai gali naudoti **Funkcijos valdymas** darbo sritį, norėdami sužinoti funkcijos būseną ir įjungti ją, jei reikia. Ten ši funkcija pateikiama taip:
-
-- **Modulis:** Grynųjų pinigų ir banko valdymas
-- **Priemonės pavadinimas:** pažymėtų operacijų informacijos forma
-
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 - [Sudengti likutį](settle-remainder.md)
+
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

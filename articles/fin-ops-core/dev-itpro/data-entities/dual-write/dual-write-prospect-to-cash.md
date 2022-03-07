@@ -2,11 +2,9 @@
 title: Potencialių klientų pavertimas grynaisiais pinigais dvigubo rašymo funkcijoje
 description: Šioje temoje pateikiama informacija apie potencialų klientą pavertimą grynaisiais pinigais dvigubo rašymo funkcijoje.
 author: RamaKrishnamoorthy
-manager: AnnBe
 ms.date: 01/07/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
@@ -18,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: 3f88d7249af515670c0a3e73a5ef890f04133d19
-ms.sourcegitcommit: 6af7b37b1c8950ad706e684cc13a79e662985b34
+ms.openlocfilehash: 33ed1c7f69fa92bbd123042a139dd8fd0ee3e73a
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "4959606"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5754093"
 ---
 # <a name="prospect-to-cash-in-dual-write"></a>Potencialių klientų pavertimas grynaisiais pinigais dvigubo rašymo funkcijoje
 
@@ -160,3 +158,6 @@ Potencialių klientų pavertimą grynaisiais pinigais sudaro pagrindinių lentel
 [!include [sales quotation header](includes/SalesQuotationHeaderCDSEntity-quote.md)]
 
 [!include [sales quotation line](includes/SalesQuotationLineCDSEntity-QuoteDetails.md)]
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

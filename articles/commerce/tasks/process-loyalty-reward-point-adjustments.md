@@ -1,30 +1,27 @@
 ---
-title: " Apdoroti atlygio už lojalumą taškų koregavimus"
+title: Apdoroti atlygio už lojalumą taškų koregavimus
 description: Ši procedūra parodo, kaip ieškoti lojalumo kortelės informacijos ir koreguoti atlygio už lojalumą taškus.
 author: scott-tucker
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: RetailLoyaltyCards, RetailLoyaltyCardRewardPointTrans, RetailLoyaltyCardRewardPointAdjustment, RetailAffiliationLookup
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: bdbd9fa60fe4d000359e4695a9fb034fae3ca1b0
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 07008234255102e6094e362edcadb116158e9ee770d782fbb654bfc1ce000285
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4414383"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6757350"
 ---
-# <a name="process-loyalty-reward-point-adjustments"></a> Apdoroti atlygio už lojalumą taškų koregavimus
+# <a name="process-loyalty-reward-point-adjustments"></a>Apdoroti atlygio už lojalumą taškų koregavimus
 
 [!include [banner](../includes/banner.md)]
 
@@ -50,3 +47,6 @@ ms.locfileid: "4414383"
 15. Spustelėkite Kortelės operacijos.
 16. Uždarykite puslapį.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

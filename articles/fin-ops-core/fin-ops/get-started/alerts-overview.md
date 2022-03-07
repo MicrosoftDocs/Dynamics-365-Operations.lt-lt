@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 09/04/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EventCreateRule
 audience: Application user
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
-ms.openlocfilehash: 473f53d230d7272ba0fcf78bd05d7020635a870f
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: e57b065dc1a2c0db593b38106f4391e281feb1e6
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4798592"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5565043"
 ---
 # <a name="alerts-overview"></a>Įspėjimų apžvalga
 
@@ -88,3 +87,6 @@ Vaizdo įrašas [Kaip naudoti įspėjimus filtruojamiems duomenis stebėti](http
 Vaizdo įrašas [Įspėjimo taisyklės parinktys](https://youtu.be/cpzimwOjicM) (pateiktas pirmiau) yra įtrauktas į [„Finance and Operations“ grojaraštį](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) „YouTube“.
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

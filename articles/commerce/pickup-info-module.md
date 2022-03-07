@@ -2,27 +2,24 @@
 title: Paėmimo informacijos modulis
 description: Ši tema apima paėmimo informacijos modulį ir aprašo, kaip įtraukti jį į išregistravimo puslapius „Microsoft Dynamics 365 Commerce“.
 author: anupamar-ms
-manager: annbe
 ms.date: 11/06/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-09021
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 61b97d72b6a397737c10476cd6c02764e60f10b1
-ms.sourcegitcommit: 9c05d48f6e03532aa711e1d89d0b2981e9d37200
-ms.translationtype: HT
+ms.openlocfilehash: 52015fb973642bfc6f45901e7c1a265f0ccfc415b1324bc62ef77a5fc72550bb
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "4665353"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6764566"
 ---
 # <a name="pickup-information-module"></a>Paėmimo informacijos modulis
 
@@ -36,14 +33,14 @@ Paėmimo laikai atitinkamoms parduotuvėms turi būti sukonfigūruoti komercijos
 
 Jei paėmimo informacijos modulis sukuriamas išsiregistravimo puslapyje, bet nėra jokių laiko vietų nustatytų parduotuvei, kuri pasirinkta, modulis rodys informaciją, bet vartotojas negalės pasirinkti laiko vietos. Laiko vietos yra pasirenkamos ir nebūtinos užsakymo padarymui.
 
-Jei kelios prekės pasirenkamos paėmimui keletoje parduotuvių, paėmimo informacijos modulis leidžia vartotojui pasirinkti laiko vietą kiekvienai parduotuvei su sąlyga, kad laiko vietos yra joms prieinamos.
+Jei kelios prekės pasirenkamos paėmimui keliose parduotuvių, paėmimo informacijos modulis leidžia vartotojui pasirinkti laiko vietą kiekvienai parduotuvei su sąlyga, kad laiko vietos yra joms prieinamos.
 
 > [!NOTE]
 > Palaikymas laiko vietoms ir išsiregistravimo paėmimo informacijos modulis prieinamas „Dynamics 365 Commerce“ versijoje 10.0.15 ir vėlesnėse.
 
 Tolesnis paveikslėlis rodo pavyzdį laiko vietos pasirinkimo per paėmimo informacijos modulį išsiregistravimo puslapyje.
 
-![Paėmimo informacijos modulio pavyzdys išsiregsitravimo puslapyje](./dev-itpro/media/Curbside_timeslot_eCommerce.PNG)
+![Paėmimo informacijos modulio pavyzdys išsiregistravimo puslapyje.](./dev-itpro/media/Curbside_timeslot_eCommerce.PNG)
 
 ## <a name="module-properties"></a>Modulio ypatybės
 
@@ -59,14 +56,17 @@ Dėl instrukcijų, kaip įtraukti paėmimo informacijos modulį į išsiregistra
 
 Tolesnis paveikslėlis rodo e-komercijos išsiregistravimo puslapio pavyzdį, kuris apima laiko vietas paėmimo eilučių prekėms.
 
-![E-komercijos išsiregistravimo puslapio pavyzdys, kuris apima laiko vietas paėmimo eilučių prekėms.](./dev-itpro/media/Curbside_timeslot_eCommerce_checkoutsummary.PNG)
+![E-komercijos išsiregistravimo puslapio pavyzdys, apimantis laiko vietas paėmimo eilučių prekėms.](./dev-itpro/media/Curbside_timeslot_eCommerce_checkoutsummary.PNG)
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
-[Sukurti ir naujinti laiko vietas kliento paėmimu](dev-itpro/pickup-timeslots.md)
+[Kliento paėmimo laiko atkarpų kūrimas ir naujinimas](dev-itpro/pickup-timeslots.md)
 
 [Pirkimo užbaigimo modulis](add-checkout-module.md)
 
 [Užsakymo patvirtinimo modulis](order-confirmation-module.md)
 
 [Išsamios užsakymo informacijos modulis](account-management.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,33 +1,31 @@
 ---
 title: IoT analizės papildinio diegimas LCS
 description: Šioje temoje aiškinama, kaip portale „Microsoft Dynamics Lifecycle Services“ (LCS) įdiegti IoT analizės papildinį.
-author: robinarh
-manager: tfehr
+author: tonyafehr
 ms.date: 07/07/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: rhaertle
+ms.reviewer: tfehr
 ms.custom: ''
 ms.search.region: Global
-ms.author: rhaertle
+ms.author: tfehr
 ms.search.validFrom: 2020-04-04
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: d55ca1975589699cbce03dcc7bf81e0762738d24
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.openlocfilehash: ebf11b55f1034b9a84dda9ada77c2f1b7f587a58
+ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4963490"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7781594"
 ---
 # <a name="install-the-iot-intelligence-add-in-in-lcs"></a>IoT analizės papildinio diegimas LCS
 
 [!include [banner](../../includes/banner.md)]
 
-Šioje temoje aiškinama, kaip portale „Microsoft Dynamics Lifecycle Services“ (LCS) įdiegti IoT analizės papildinį. Atkreipkite dėmesį, kad priedai negali būti įdiegti demo ar bandyminėje aplinkoje. Kad galėtumėte įdiegti papildinį, turite [sukurti „Azure“ išteklius ](iot-azure-setup.md).
+Šioje temoje aiškinama, kaip portale „Microsoft Dynamics Lifecycle Services“ (LCS) įdiegti IoT analizės papildinį. Atkreipkite dėmesį, kad priedai negali būti įdiegti demo ar bandyminėje aplinkoje. Kad galėtumėte įdiegti papildinį, turite [sukurti „Azure“ išteklius](iot-azure-setup.md).
 
 ## <a name="set-up-the-lcs-environment"></a>LCS aplinkos konfigūravimas
 
@@ -49,9 +47,12 @@ ms.locfileid: "4963490"
 
 LCS sąranka dabar baigta. Kitas veiksmas – [nustatyti scenarijus](iot-scenario-setup.md).
 
-## <a name="uninstall-the-add-in"></a><a id="uninstall-addin"></a>Papildinio šalinimas
+## <a name="uninstall-the-add-in"></a><a id="uninstall-addin"></a> Papildinio šalinimas
 
 1. Programoje „Supply Chain Management“ [išjunkite scenarijus](iot-scenario-setup.md#disable-a-scenario).
 2. LCS eikite į „Supply Chain Management” aplinkos informaciją.
 3. Slinkite iki dalies **Aplinkos papildiniai**.
 4. Prie IoT analizės papildinio pasirinkite **Šalinti**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

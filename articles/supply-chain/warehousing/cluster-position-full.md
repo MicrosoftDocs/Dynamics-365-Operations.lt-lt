@@ -12,13 +12,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-08
-ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 459c8fce892d9437c7466458b7e53743c71da38f
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
-ms.translationtype: MT
+ms.dyn365.ops.version: Release 10.0.8
+ms.openlocfilehash: ad0f8e2fa6b3767c6b5d5549a36d52990f871531
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8102843"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5808851"
 ---
 # <a name="cluster-position-full"></a>Klasterio padėtis pilna
 
@@ -28,9 +28,12 @@ Funkcija *Klasterio padėtis pilna* suteikia alternatyvą griežtesniam darbo pa
 
 Ši funkcija teikia galimybę vykdyti mygtuką **Pilnas** viename iš klasterio darbo vienetų. Senesnėse versijose ši parinktis buvo pasiekiama įprastų užsakymų paėmimui, o ne klasterių paėmimui. Tačiau ši funkcija skiriasi nuo standartinio mygtuko **Pilnas** tuo, kad ji atšaukia likusį darbą. Ji nesiūlo vartotojui įtraukti kitos dėžės į tą patį klasterį ir automatiškai nesukuria naujo darbo.
 
-## <a name="turn-the-cluster-position-full-feature-on-or-off"></a>Įjungti arba išjungti klasterio pareigų visą funkciją
+## <a name="turn-on-the-cluster-position-full-feature"></a>Funkcijos Klasterio padėtis pilna įjungimas
 
-Norint naudoti šioje temoje aprašytas funkcijas, *jūsų sistemoje* turi būti įjungta visos klasterio pareigų funkcija. Kaip ir tiekimo grandinės valdymas 10.0.25 ši funkcija yra privaloma ir jos išjungti negalima. Jei naudojate senesnę nei 10.0.25 versiją, *·*[tada](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) administratoriai gali įjungti arba išjungti šią funkciją ieškodami visos klasterio pareigų funkcijos funkcijų valdymo darbo srityje.
+Kad galėtumėte naudoti šią funkciją, ji turi būti įjungta jūsų sistemoje. Administratoriai gali naudoti [funkcijos valdymas](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) parametrus, norėdami sužinoti funkcijos būseną ir įjungti ją. Darbo srityje **Funkcijų valdymas** ši funkcija yra nurodyta toliau pateikiamu būdu.
+
+- **Modulis:** *Sandėlio valdymas*
+- **Funkcijos pavadinimas:** *Klasterio padėtis pilna*
 
 ## <a name="setup"></a>Sąranka
 

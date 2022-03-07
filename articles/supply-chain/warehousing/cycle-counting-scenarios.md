@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: v-gfedorova
 ms.search.validFrom: 2021-06-08
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: ff67198980765f288b5394d91927ae1826266841
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
-ms.translationtype: MT
+ms.openlocfilehash: 09ca57d6a3654e56e12240af73d6793002eb1794e4b41d25e182b9b1d3b66df5
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103343"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6746800"
 ---
 # <a name="cycle-counting-example-scenarios"></a>Ciklo skaičiavimo pavyzdiniai scenarijai
 
@@ -32,7 +32,10 @@ Kiekvienas šios temos scenarijus nurodo į vertes ir įrašus, kurie yra įtrau
 
 ### <a name="turn-on-support-for-the-warehouse-management-mobile-app"></a>„Warehouse Management Mobile App“ palaikymo įjungimas
 
-Norint naudoti sandėlio valdymo mobiliąją programą, *jūsų sistemoje turi būti įjungti vartotojo parametrai,* piktogramos ir naujos sandėlio programos funkcijos veiksmų pavadinimai. Kaip ir tiekimo grandinės valdymas 10.0.25 ši funkcija yra privaloma ir jos išjungti negalima. Jei naudojate senesnę nei 10.0.25 versiją, *tada administratoriai gali įjungti arba išjungti šią funkciją ieškodami naujo sandėlio programos funkcijos vartotojo parametrų,*[piktogramų](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) ir veiksmų pavadinimų funkcijų funkcijų valdymo darbo srityje.
+Kad būtų galima naudoti naują „Warehouse Management Mobile App” programėlę, sistemoje reikia įtraukti jos palaikymą. Administratoriai gali naudoti [funkcijos valdymas](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) parametrus, norėdami sužinoti funkcijos būseną ir įjungti ją. Darbo srityje **Funkcijų valdymas** ši funkcija yra nurodyta toliau pateikiamu būdu.
+
+- **Modulis:** *Sandėlio valdymas*
+- **Funkcijos pavadinimas:** *Naujos sandėlio programos vartotojo parametrai, piktogramos ir veiksmų pavadinimai*
 
 ### <a name="prepare-demo-data-for-the-scenarios"></a><a name= "prepare-demo-data"></a>Paruoškite demonstracinius duomenis scenarijams
 

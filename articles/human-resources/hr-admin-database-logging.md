@@ -1,31 +1,33 @@
 ---
 title: Duomenų bazės registravimo konfigūravimas ir valdymas
 description: Galite sekti lentelių ir laukų pakeitimus „Dynamics 365 Human Resources” naudodami duomenų bazės registravimą.
-author: Darinkramer
-manager: AnnBe
-ms.date: 06/10/2020
+author: twheeloc
+ms.date: 12/15/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: jaredha
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3dc4658a0a13af95978c66f5aab882902f754a2d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 3cbe4c105b14935db6803e4bded0d891c564fb81
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419718"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8066448"
 ---
 # <a name="configure-and-manage-database-logging"></a>Duomenų bazės registravimo konfigūravimas ir valdymas
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Galite sekti lentelių ir laukų pakeitimus „Dynamics 365 Human Resources” naudodami duomenų bazės registravimą. Šioje temoje aprašoma, kaip:
 
@@ -66,7 +68,22 @@ Norėdami padidinti našumą, apribokite žurnalo įrašus pasirinkdami konkreč
 Galite naudoti **Duomenų bazės pakeitimų registravimas** vedlį, kad nustatytumėte duomenų bazės registravimą. Vedlys suteikia lanksčią galimybę nustatyti lentelių arba laukų registravimą.
 
 1. Eikite į **Sistemos administravimas > Saitai > Duomenų bazė > Duomenų bazės žurnalo nustatymas**. Pasirinkite **Nauja**, kad įjungtumėte **Registravimo duomenų bazės pakeitimai** vedlį.
-2. Baikite vykdyti vedlio žingsnius.
+2. Pasirinkite **Toliau**. 
+3. Vedlio puslapyje Lentelės ir laukai pasirinkite lenteles ir laukus, kuriuose norite įgalinti duomenų **bazės** registravimą, ir pasirinkite **Pirmyn**.
+
+   > [!Note]
+   > Duomenų bazės registravimas negalimas visose Personalo duomenų bazės lentelėse. Pasirinkus Rodyti visas lenteles sąraše išplečiamas lentelių ir laukų sąrašas, kad būtų parodytos visos duomenų bazės lentelės, kuriose galimas duomenų bazės registravimas, bet tai bus viso duomenų bazių lentelių sąrašo **subrinkinyje**.
+
+4. Vedlio pakeitimų tipų puslapyje pasirinkite duomenų operacijas, kurių kiekvienos lentelės ir laukų keitimus norite sekti, ir **pasirinkite** **Pirmyn**. Informacijos apie duomenų operacijas, kurias galima registruoti, ieškokite toliau esančioje lentelėje.
+5. Puslapyje **Baigti** peržiūrėkite atliktus keitimus ir pasirinkite **Baigti**.
+
+| Operacija | Aprašas |
+| -- | -- |
+| Sekti naujas operacijas | Kurti naujų lentelėje sukurtų įrašų žurnalą. |
+| Atnaujinimas | Kurti lentelių įrašų naujinimų žurnalą arba atnaujinimų į atskirai pasirinktus lentelės laukus žurnalą. Jei pasirenkate registruoti lentelės atnaujinimus, žurnalo įrašas sukuriamas kiekvieną kartą, kai atnaujinamas bet kurio lentelės įrašo laukas. Jei pasirenkate registruoti tam tikrų laukų atnaujinimus, žurnalo įrašas sukuriamas tik tų lentelės įrašų laukų atnaujinimų metu. |
+| Panaikinti | Kurti iš lentelės panaikintų įrašų žurnalą. |
+| Pervadinti raktą | Pervardijus lentelės raktą, sukurti žurnalo įrašą. |
+
 
 ## <a name="clean-up-database-logs"></a>Valyti duomenų bazės žurnalus
 
@@ -79,11 +96,14 @@ Galite naikinti dalį arba visus duomenų bazės žurnalus naudodami šias parin
 Norėdami nustatyti duomenų bazės žurnalo valymą, atlikite šiuos veiksmus: 
 
 1. Eikite į **Sistemos administravimas > Saitai > Duomenų bazė > Duomenų bazės žurnalas**. Pasirinkite **Valyti žurnalą**.
-
-2. Pasirinkite žurnalų, kuriuos reikia panaikinti, pasirinkimo būdą įvesdami vieną iš šių pasirinkčių:
+2. Pagal **Įrašai, kuriuos reikia įtraukti** antraštę, pasirinkite **Filtras**.
+3. Pasirinkite metodą, kuris bus naudojamas norint pasirinkti žurnalus, kuriuos norite ištrinti. Įveskite vieną iš šių parinkčių:
 
    - Lentelės ID
    - Žurnalo tipas
    - Sukūrimo data ir laikas
 
-3. Naudokite **Duomenų bazės žurnalo valymas** skirtuką, kad nustatytumėte, kada paleisti žurnalo valymo užduotį. Pagal numatytuosius nustatymus, duomenų bazės žurnalai prieinami 30 dienų.
+4. Naudokite **Duomenų bazės žurnalo valymas** skirtuką, kad nustatytumėte, kada paleisti žurnalo valymo užduotį. Pagal numatytuosius nustatymus, duomenų bazės žurnalai prieinami 30 dienų.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

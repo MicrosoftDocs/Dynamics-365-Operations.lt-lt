@@ -1,38 +1,35 @@
 ---
-title: Darbo su Meksikos elektroninių SF išrašymo priedu pradžia
-description: Šioje temoje pateikiama informacija, kuri padės jums pradėti naudotis Meksikos elektroninių SF išrašymo priedu „Microsoft Dynamics 365 Finance” ir „Dynamics 365 Supply Chain Management”.
+title: Darbo su elektroninių SF priedu Meksikai pradžia
+description: Šioje temoje pateikiama informacija, kuri padės jums pradėti naudotis elektroninių SF išrašymo priedu Meksikai.
 author: gionoder
-manager: AnnBe
 ms.date: 09/22/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 97423
 ms.assetid: ''
 ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 6d15a79a359b3c708b2b33893d700377a57c3eb7
-ms.sourcegitcommit: cfd84321fba38e02e270d361df369a536a48efa3
+ms.openlocfilehash: 2f5dd1d6bc520c9f5349c77dfcabdf2d538881ce
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/11/2020
-ms.locfileid: "4512239"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5840057"
 ---
-# <a name="get-started-with-the-electronic-invoicing-add-on-for-mexico"></a>Darbo su Meksikos elektroninių SF išrašymo priedu pradžia
+# <a name="get-started-with-electronic-invoicing-for-mexico"></a>Darbo su elektroninių SF priedu Meksikai pradžia
 
 [!include [banner](../includes/banner.md)]
 
 > [!IMPORTANT]
 > Meksikos elektroninių SF išrašymo priedas šiuo metu gali nepalaikyti visų funkcijų, pasiekiamų „Comprobante Fiscal Digital por Internet” (CFDI) dokumente ir susijusiame integravime, įtaisytame „Microsoft Dynamics 365 Finance” arba „Dynamics 365 Supply Chain Management”.
 
-Šioje temoje pateikiama informacija, kuri padės jums pradėti naudotis Meksikos elektroninių SF išrašymo priedu. Ji padės atlikti konfigūracijos veiksmus, priklausančius nuo šalies, „Regulatory Configuration Services” (RCS) ir „Finance”. Ji taip pat padeda jums atlikti veiksmus „Finance”, kurių reikia, kad CFDI SF būtų teikiamos naudojant paslaugą, ir paaiškina, kaip peržiūrėti apdorojimo rezultatus ir CFDI SF būsenas.
+Šioje temoje pateikiama informacija, kuri padės jums pradėti naudotis elektroninių SF išrašymo priedu Meksikai. Ji padės atlikti konfigūracijos veiksmus, priklausančius nuo šalies, „Regulatory Configuration Services” (RCS) ir „Finance”. Ji taip pat padeda jums atlikti veiksmus „Finance”, kurių reikia, kad CFDI SF būtų teikiamos naudojant paslaugą, ir paaiškina, kaip peržiūrėti apdorojimo rezultatus ir CFDI SF būsenas.
 
 ## <a name="prerequisites"></a>Būtinieji komponentai
 
@@ -154,7 +151,7 @@ Norint pateikti CFDI SF atšaukimą, reikalingi funkcijų **Atšaukimas** ir **A
 
 ![El. SF išrašymo funkcijos būsenos keitimas](media/e-Invoicing-services-get-started-MEX-Change-status-of-e-Invoicing-feature.png)
 
-## <a name="set-up-electronic-invoicing-add-on-integration-in-finance"></a>Elektroninių SF išrašymo priedo integravimo nustatymas „Finance”
+## <a name="set-up-electronic-invoicing--integration-in-finance"></a>Elektroninių SF išrašymo priedo integravimo nustatymas „Finance”
 
 Norėdami nustatyti elektroninių SF išrašymo priedą „Finance”, atlikite toliau pateiktas užduotis.
 
@@ -207,7 +204,7 @@ Norėdami nustatyti elektroninių SF išrašymo priedą „Finance”, atlikite 
 
 ## <a name="process-electronic-invoices-in-finance"></a>Elektroninių SF apdorojimas „Finance” 
 
-CFDI SF apdorojimo metu „Finance” naudodami elektroninių SF išrašymo priedą galite atlikti toliau pateiktas užduotis.
+CFDI SF apdorojimo metu „Finance” naudodami elektroninių SF išrašymo priedą galite atlikti toliau pateiktas užduotis:
 
 - Pateikti CFDI SF.
 - Peržiūrėti pateikimo vykdymo žurnalus.
@@ -292,10 +289,13 @@ Kai pateikta CFDI SF patvirtinama, jos būsena atnaujinama į **Patvirtinta**.
     ![Atšaukimo pateikimo žurnalų informacijos peržiūra](media/e-Invoicing-services-get-started-MEX-View-cancellation-submission-log-details.png)
 
 ## <a name="privacy-notice"></a>Privatumo pranešimas
-Įgalinant funkcijas MX-00010 ir MX-00016 (CFDI SF ir CFDI atšaukimas) gali reikėti siųsti ribotus duomenis, įskaitant organizacijos mokesčių registracijos ID. Jie bus persiųsti mokesčių inspekcijos patvirtintoms trečiųjų šalių agentūroms, kad būtų galima siųsti elektronines SF šiai mokesčių inspekcijai iš anksto nustatytu formatu, reikalingu integravimui su vyriausybės žiniatinklio tarnyba. Administratorius gali įjungti ir išjungti funkcijas MX-00010 ir MX-00016 (CFDI SF ir CFDI atšaukimas), nuėjęs į **Organizacijos administravimas \> Nustatymas \> Elektroninių dokumentų parametrai**. Pasirinkite skirtuką **Funkcijos**, pasirinkite eilutes, kuriose yra funkcijos MX-00010 ir MX-00016, tada atlikite reikiamą žymėjimą. Duomenims, importuotiems iš šių išorinių sistemų į šią „Dynamics 365” internetinę paslaugą, taikomos [privatumo nuostatos](https://go.microsoft.com/fwlink/?LinkId=512132). Daugiau informacijos ieškokite skyriuose Privatumo pranešimas, esančiuose konkrečios šalies funkcijos dokumentacijoje.
+Norint įjungti funkciją **CFDI Meksikos elektroninė SF (MX)** gali prireikti siųsti ribotus duomenis, kurie apima įmonės mokesčių registravimo ID. Jie bus persiųsti mokesčių inspekcijos patvirtintoms trečiųjų šalių agentūroms, kad būtų galima siųsti elektronines SF šiai mokesčių inspekcijai iš anksto nustatytu formatu, reikalingu integravimui su vyriausybės žiniatinklio tarnyba. Administratorius gali įjungti ir išjungti funkciją **CFDI Meksikos elektroninė SF (MX)**, nuėjęs į **Organizacijos administravimas \> Nustatymas \> Elektroninių dokumentų parametrai**. Skirtuke **Funkcijos** pasirinkite eilutes, kuriose yra funkcija **CFDI Meksikos elektroninė SF (MX)**, ir tinkamai pasirinkite. Duomenims, importuotiems iš šių išorinių sistemų į šią „Dynamics 365” internetinę paslaugą, taikomos [privatumo nuostatos](https://go.microsoft.com/fwlink/?LinkId=512132). Daugiau informacijos ieškokite skyriuose Privatumo pranešimas, esančiuose konkrečios šalies funkcijos dokumentacijoje.
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 - [Elektroninių SF išrašymo priedo apžvalga](e-invoicing-service-overview.md)
-- [Darbo su elektroninių SF išrašymo priedu pradžia](e-invoicing-get-started.md)
-- [Elektroninių SF išrašymo priedo nustatymas](e-invoicing-setup.md)
+- [Darbo su elektroninių SF priedu pradžia](e-invoicing-get-started.md)
+- [Elektroninių SF nustatymas](e-invoicing-setup.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

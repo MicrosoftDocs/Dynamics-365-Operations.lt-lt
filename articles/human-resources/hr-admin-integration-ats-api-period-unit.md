@@ -2,28 +2,28 @@
 title: Laikotarpio vienetas
 description: Šioje temoje aprašoma laikotarpio skyriaus parinktis nustatyta „Dynamics 365 Human Resources“.
 author: jaredha
+manager: tfehr
 ms.date: 02/05/2021
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
+ms.reviewer: anbichse
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 534eae5c86027f08a366db1a8d858d4cf034ec9f
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
-ms.translationtype: MT
+ms.openlocfilehash: a4f99a5e97ad30949c020f9f14c158dc2f679bc2
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8067859"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5466718"
 ---
 # <a name="period-unit"></a>Laikotarpio vienetas
-
-
-[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -33,7 +33,7 @@ Fizinis pavadinimas: mshr_periodunit
 
 Toks numeravimas suteikia parinktį nustatytą laikotarpių matavimo padalinių vertėms.
 
-| Reikšmė | Žyma | Aprašas |
+| Reikšmė | Žyma:  | aprašymas |
 | --- | --- | --- |
 | 200000000 | Dienos | Diena. |
 | 200000001 | Mėnesiai | Mėnesiai. |

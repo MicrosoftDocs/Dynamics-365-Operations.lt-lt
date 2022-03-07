@@ -7,17 +7,17 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: roschlom
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: d8bc4f0a981b75c1b65d51aa1d8fada9c2187e22
-ms.sourcegitcommit: 68114cc54af88be9a3a1a368d5964876e68e8c60
-ms.translationtype: MT
+ms.openlocfilehash: 745a51617f8c87c0f757aee0304ec3efb55d0f98
+ms.sourcegitcommit: f82372b1e9bf67d055fd265b68ee6d0d2f10d533
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323415"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7921220"
 ---
 # <a name="credit-management-parameters-setup"></a>Kreditų valdymo parametrų nustatymas
 
@@ -50,8 +50,7 @@ Taip pat galite nurodyti atidėjimo dienų skaičių prieš dar kartą tikrinant
 
 Jei nenurodysite atidėjimo dienų skaičiaus, kredito taisyklės bus patikrintos kiekviename registravimo etape, kuris nustatytas kreditų valdymo taisyklių vykdymui. Jei pardavimo užsakymą išleisite be registravimo ir dar kartą vykdysite tą patį užsakymo apdorojimo veiksmą, kredito taisyklės vėl bus patikrintos. Pavyzdžiui, užsakymas sulaikytas po patvirtinimo, o jūs jį išleidžiate su arba be registravimo. Šiuo atveju užsakymas vėl bus sulaikytas, jei dar kartą patvirtinsite. Naudokite atidėjimo dienas, jei užsakymas turi būti perkeltas į kitą vykdymo veiksmą be pakartotinio sulaikymo.
 
-> [!Note]
-> Jei viename registravimo poste įvesta atidėjimo diena, visiems registruoti pažymėtims čekiams turi būti atidėjimo dienos.
+Negalite nurodyti vienų registravimo kontrolinių taškų atidėjimo dienų, bet ne kitų. Turite nustatyti visus registravimo kontrolinius taškus taip, kad jie turėtų atidėjimo dienas, arba turite nustatyti juos visus taip, kad jie neturėtų atidėjimo dienų.
 
 - Pažymėkite žymės langelį **Registravimas**, kad būtų vykdomos kreditų valdymo taisyklės, kai vykdomas registravimo kontrolinis taškas, rodomas eilutėje. Jei nepažymėsite žymės langelio, taisyklės bus tikrinamos tik vieną kartą viso registravimo proceso metu.
 - Jei pažymėsite žymės langelį **Registravimas**, nurodykite atidėjimo dienų skaičių, kuris turėtų praeiti prieš vėl tikrinant blokavimo taisykles. Negalite įtraukti atidėjimo dienų, jei žymės langelis **Registravimas** nepažymėtas.
@@ -73,10 +72,10 @@ Kelios kreditų valdymo statistikos yra įtrauktos į „FactBox“ **Kliento kr
 
 - Kreditų valdyme kliento kredito limitas rodomas kliento valiuta. Turite nustatyti kredito limito valiutos kurso tipą kliento valiuta. Lauke **Kredito limito valiutos kurso tipas** pasirinkite valiutos kurso tipą, kuris turi būti naudojamas konvertuojant pirminį kredito limitą į kliento kredito limitą.
 - Nustatykite parinktį **Leisti rankinį kredito limitų redagavimą** kaip **Ne**, kad vartotojai negalėtų redaguoti kredito limitų puslapyje **Klientas**. Jei ši parinktis nustatyta kaip **Ne**, kliento kredito limito pakeitimai gali būti atliekami tik registruojant kredito limito koregavimo operacijas.
-- Nustatykite **pasirinktį Praleisti atsargų rezervavimus** **kaip Taip,** jei norite, kad būtų nepaisoma atsargų rezervavimo, kai patikrinamos kredito valdymo blokavimo taisyklės. Šiuo atveju sistema patikrina eilutės kiekius ir įgalina čekių atidėjimo laikotarpius, neatsižvelgus į atsargų rezervavimo kiekį.
-- Kai įgalintas kredito valdymas, tik laisvos **formos** SF apdoroti naudojamas pranešimo parametras, kai viršijamas kredito limitas. Nors pranešimai vis dar pridedami prie pardavimo užsakymų, kai klientai viršija savo kredito limitą, jei tokie pranešimai neužblokuoja patvirtinimo, išrinkimo dokumentų ir važtaraščių spausdinimo ar SF registravimo.
+- Nustatykite pasirinktį Praleisti atsargų rezervavimus kaip Taip, jei norite, kad būtų nepaisoma **atsargų** **rezervavimo, kai patikrinamos kredito valdymo** blokavimo taisyklės. Šiuo atveju sistema patikrina eilutės kiekius ir įgalina čekių atidėjimo laikotarpius, neatsižvelgus į atsargų rezervavimo kiekį.
+- Kai įgalintas kredito valdymas, tik laisvos formos SF apdoroti naudojamas pranešimo **parametras**, kai viršijamas kredito limitas. Nors pranešimai vis dar pridedami prie pardavimo užsakymų, kai klientai viršija savo kredito limitą, jei tokie pranešimai neužblokuoja patvirtinimo, išrinkimo dokumentų ir važtaraščių spausdinimo ar SF registravimo.
 
-    Numatyta, kad kredito valdymas įgalintas, bet galite jį išjungti. Įgalinus šį raktą, norėdami nustatyti, kada klientai viršija savo kredito limitą, naudojate kredito valdymo blokavimo taisykles ir kontrolinius taškus. Jei jis uždraustas, pranešimai, kurie pridedami prie pardavimo užsakymų, remiantis lauko Pranešimas parametru viršijus kredito limitą **, gali padėti nustatyti,** kada klientai viršija savo kredito limitą.
+    Numatyta, kad kredito valdymas įgalintas, bet galite jį išjungti. Įgalinus šį raktą, norėdami nustatyti, kada klientai viršija savo kredito limitą, naudojate kredito valdymo blokavimo taisykles ir kontrolinius taškus. Jei jis uždraustas, pranešimai, kurie pridedami prie pardavimo užsakymų, remiantis lauko Pranešimas parametru viršijus kredito limitą, gali padėti nustatyti, kada klientai viršija savo kredito **limitą**.
 
 ### <a name="number-sequences-and-shared-number-sequence-parameters"></a>Numeracijos ir bendrinami numeracijos parametrai
 

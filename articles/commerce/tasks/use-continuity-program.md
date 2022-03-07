@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: MCRCustomerService, MCRCustSearch, SalesTable, MCRContinuityCustInfo, MCRCustPaymLookup, CreditCardTokenization, CreditCardLookup, MCRSalesOrderRecap
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2baf0127a35cc62952fd78daaf8204d35ec8d2b3
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 1de6d2cd88ba31f526621497d6fab36db631933e
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4414376"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5232646"
 ---
 # <a name="using-continuity-program"></a>Tęstinumo programos naudojimas
 
@@ -62,3 +61,6 @@ ms.locfileid: "4414376"
     * Įveskite pardavimo užsakymo numerį, kurį įsidėmėjote šios procedūros metu anksčiau. Tokiu būdu šios procedūros metu apdorojimo laikas bus kiek įmanoma trumpesnis. Laukas Pardavimo užsakymo nėra būtinas – galite apdoroti visus bet kurios vienos programos užsakymus.  
 21. Spustelėkite GERAI.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

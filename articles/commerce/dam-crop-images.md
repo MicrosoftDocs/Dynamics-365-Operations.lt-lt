@@ -1,16 +1,13 @@
 ---
-title: Apkarpyti vaizdai
+title: Vaizdų apkarpymas
 description: Šioje temoje aprašoma, kaip apkarpyti vaizdus „Microsoft Dynamics 365 Commerce“ svetainės generatoriuje.
 author: psimolin
-manager: annbe
 ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -18,20 +15,18 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: a8f52c22a57d465ce1c2bedac6e8f13db3e856c0
-ms.sourcegitcommit: 597476103bb695e3cbe6d9ffcd7a466400346636
-ms.translationtype: HT
+ms.openlocfilehash: cb6049a1d98b7286658403b15a071f6f1389f725a9a7a146aab55d43796be60b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "4594483"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6744515"
 ---
-# <a name="crop-images"></a>Apkarpyti vaizdai
+# <a name="crop-images"></a>Vaizdų apkarpymas
 
 [!include [banner](includes/banner.md)]
 
 Šioje temoje aprašoma, kaip apkarpyti vaizdus „Microsoft Dynamics 365 Commerce“ svetainės generatoriuje.
-
-## <a name="overview"></a>Peržiūra
 
 „Commerce“ svetainės generatoriaus medijos biblioteka leidžia apkarpyti vaizdus, kad juos būtų galima optimizuoti skirtingi modulių tipams ir peržiūros sritims.
 
@@ -66,3 +61,6 @@ Baigus pasirinktinį apkarpymą, vaizdo pakeitimai įsigalios beveik iš karto.
 [Vaizdų centro tinkinimas](dam-custom-focal-point.md)
 
 [Naujinti ir aptarnauti statinius failus](upload-serve-static-files.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

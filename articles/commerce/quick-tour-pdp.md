@@ -2,41 +2,36 @@
 title: Produktų informacijos puslapių apžvalga
 description: Šioje temoje pateikiama „Microsoft Dynamics 365 Commerce“ produktų išsamios informacijos puslapių (PDP) apžvalga.
 author: anupamar-ms
-manager: annbe
 ms.date: 01/23/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: c53e74204fad2960dfba972a38c511df7d6672d8
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 48b4e5d66b86e0b1198bd6ff7ce1e7de33f8fde0
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4414452"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7986206"
 ---
-# <a name="product-details-pages-overview"></a>Produktų informacijos puslapių apžvalga
+# <a name="product-details-pages-overview"></a>Produkto informacijos puslapių apžvalga
 
 [!include [banner](includes/banner.md)]
 
 Šioje temoje pateikiama „Microsoft Dynamics 365 Commerce“ produktų išsamios informacijos puslapių (PDP) apžvalga.
 
-## <a name="overview"></a>Peržiūrėti
-
 PDP pateikiama išsami informacija apie produktą ir juose klientai gal pasirinkti produkto parinktis, pvz., dydį, stilių ir spalvą. PDP turi parodyti visą informaciją apie produktą, kurios klientui reikia pirkimo sprendimui priimti.
 
 Toliau pateikiamoje iliustracijoje vaizduojamas PDP pavyzdys.
 
-![Produkto informacijos puslapio pavyzdys](./media/pdp.PNG)
+![Produkto informacijos puslapio pavyzdys.](./media/pdp.PNG)
 
 ## <a name="header-and-footer-modules"></a>Antraštės ir poraštės moduliai
 
@@ -88,3 +83,6 @@ Jeigu rinkodaros turinys yra unikalus konkrečiam produktui, bet koks rinkodaros
 [Paskyrų tvarkymo puslapių apžvalga](quick-tour-account-management.md)
 
 [„Papildyti produkto aprašymo puslapį“.](enrich-product-page.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

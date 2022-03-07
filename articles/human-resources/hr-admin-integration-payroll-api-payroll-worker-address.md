@@ -13,17 +13,14 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-04-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 70e42cbf657a28327699d927731edd36de7c4a64
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
-ms.translationtype: MT
+ms.openlocfilehash: 898ca7b33e39ec33990fecc4c3a7229620fbfddd5ce8ad14423af38047187e55
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069762"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6761979"
 ---
 # <a name="payroll-worker-address"></a>Algalapio darbuotojo adresas
-
-
-[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -37,28 +34,22 @@ Faktinis pavadinimas: „mshr_payrollworkeraddressentity”.
 
 ## <a name="properties"></a>Ypatybės
 
-| Ypatybė</br>**Faktinis pavadinimas**</br>**_Tipas_** | Naudoti | Aprašymas |
+| Ypatybė</br>**Faktinis pavadinimas**</br>**_Tipas_** | Naudoti | Aprašas |
 | --- | --- | --- |
-| **Darbuotojo numeris**</br>„mshr_personnelnumber”</br>*Eilutė* | Tik skaitomas | Unikalus darbuotojo personalo numeris. |
-| **Vietos ID**</br>mshr_locationidbr>*Eilutė* | Tik skaitomas | Adreso ID. |
-| **Gyveno adresu**</br>„mshr_islivedinaddressbr” </br> *[„mshr_NoYes” parinkties nustatymas](hr-admin-integration-payroll-api-no-yes.md)* | Tik skaitomas | Vertė, nurodanti, ar adresas yra darbuotojo vieta. |
-| **Dirbo adresu** </br> „mshr_isworkedinaddressbr” </br>*[„mshr_NoYes” parinkties nustatymas](hr-admin-integration-payroll-api-no-yes.md)* | Tik skaitomas | Vertė, nurodanti, ar adresas yra darbuotojo vieta. |
-| **Šalies regionas**</br>mshr_countryregionid</br>*Eilutė* | Tik skaitomas</br>Būtina | Adrese nurodytas šalies regionas ar šalis. |
-| **Pašto kodas (ZIP)**</br>mshr_zipcode<br>*Eilutė* | Tik skaitomas | Darbuotojui apibrėžtas identifikacijos numeris. |
-| **Gatvė**</br>mshr_street</br>*Eilutė* | Tik skaitomas | Adrese nurodyta gatvė. |
-| **Miestas**</br>mshr_city</br>*Eilutė* | Tik skaitomas | Adrese nurodytas miestas. |
-| **Apskritis**</br>mshr_state</br>*Eilutė* | Tik skaitomas | Adrese nurodyta šalies valstija ar apskritis. |
-| **Apskritis**</br>mshr_county</br>*Eilutė* | Tik skaitomas | Adrese nurodyta šalis. |
-| **Galioja nuo**</br>„mshr_postaladdressvalidfrom”</br>*Datos ir Laiko poslinkis* | Tik skaitomas | Data, nuo kurios galioja adresas. |
-| **Galioja iki**</br>„mshr_postaladdressvalidto”</br>*Datos ir Laiko poslinkis* | Tik skaitomas | Data, nuo kurios galioja adresas. |
-| **Pirminis laukas**</br>mshr_primaryfield</br>*Eilutė* | Tik skaitomas | Pirminis laukas. |
-| **Algalapio darbuotojo adreso ID**</br>„mshr_payrollworkeraddressentityid”</br>*GUID* | Sistemos sugeneruota | Sistemos sugeneruota visuotinai unikali identifikatoriaus (GUID) vertė, norint unikaliai identifikuoti adresą. |
-
-## <a name="relations"></a>Ryšiai
-
-| Ypatybės vertė | Susijęs objektas | Naršymo ypatybė | Rinkimo tipas |
-| --- | --- | --- | --- |
-| _mshr_fk_worker_id_value | [mshr_payrollemployeeentity](hr-admin-integration-payroll-api-payroll-employee.md) | mshr_FK_Worker_id | mshr_FK_PayrollEmployeeEntity_Address |
+| **Miestas**</br>mshr_city</br>*Eilutė* | Tik skaitomas</br>Būtina | Adrese nurodytas miestas.   |
+| **Darbuotojo numeris**</br>„mshr_personnelnumber”</br>*Eilutė* | Tik skaitomas</br>Būtina | Unikalus darbuotojo personalo numeris.  |
+| **Šalies regionas**</br>mshr_countryregionid</br>*Eilutė* | Tik skaitomas</br>Būtina | Adrese nurodytas šalies regionas.  |
+| **Galioja nuo**</br>„mshr_postaladdressvalidfrom”</br>*Datos ir Laiko poslinkis* | Tik skaitomas </br>Būtina | Data, nuo kurios galioja adresas. |
+| **Dirbo adresu** </br> „mshr_isworkedinaddressbr” </br>*[„mshr_NoYes” parinkties nustatymas](hr-admin-integration-payroll-api-no-yes.md)* | Tik skaitomas</br>Būtina | Nurodo, ar adresas yra tas, kuriuo dirba darbuotojas. |
+| **Apygarda**</br>mshr_county</br>*Eilutė* | Tik skaitomas</br>Būtina | Adrese nurodyta apygarda.  |
+| **Algalapio darbuotojo adreso ID**</br>„mshr_payrollworkeraddressentityid”</br>*GUID* | Būtina</br>Sistemos sugeneruota | Sistemos sukurta GUID reikšmė, skirta unikaliai atpažinti adresą.  |
+| **Pirminis laukas**</br>mshr_primaryfield</br>*Eilutė* | Tik skaitomas</br>Būtina |  |
+| **Gatvė**</br>mshr_street</br>*Eilutė* | Tik skaitomas</br>Būtina | Adrese nurodyta gatvė. |
+| **Galioja iki**</br>„mshr_postaladdressvalidto”</br>*Datos ir Laiko poslinkis* | Tik skaitomas </br>Būtina | Data, iki kurios galioja adresas.  |
+| **Vietos ID**</br>mshr_locationidbr>*Eilutė* | Tik skaitomas <br>Būtina | Adreso ID.  |
+| **Pašto kodas (ZIP)**</br>mshr_zipcode<br>*Eilutė* | Tik skaitomas <br>Būtina |Darbuotojui apibrėžtas identifikacijos numeris.  |
+| **Gyveno adresu**</br>„mshr_islivedinaddressbr” </br> *[„mshr_NoYes” parinkties nustatymas](hr-admin-integration-payroll-api-no-yes.md)* | Tik skaitomas</br>Būtina | Nurodo, ar adresas yra tas, kuriuo gyvena darbuotojas. |
+| **Apskritis**</br>mshr_state</br>*Eilutė* | Tik skaitomas</br>Būtina | Adrese nurodyta valstija.  |
 
 ## <a name="example-query"></a>Pavyzdinė užklausa
 

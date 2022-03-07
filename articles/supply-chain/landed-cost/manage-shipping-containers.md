@@ -13,13 +13,13 @@ ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-14
-ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: d3a47aa2ae36cd36a7e92aa2503252021e03f739
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.17
+ms.openlocfilehash: 134e8001a22d62487ead5c4fbd137d61791be6c0
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7573782"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6021181"
 ---
 # <a name="manage-shipping-containers"></a>Gabenimo konteinerių valdymas
 

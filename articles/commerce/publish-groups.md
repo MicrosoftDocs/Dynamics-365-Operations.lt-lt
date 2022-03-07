@@ -2,11 +2,9 @@
 title: Darbas su publikavimo grupėmis
 description: Šioje temoje aprašoma publikavimo grupių funkcija „Microsoft Dynamics 365 Commerce“.
 author: phinneyridge
-manager: annbe
 ms.date: 10/09/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -16,21 +14,18 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-12-12
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 0a4f19af0cdf9c72add0ec18be84e36c807af9ce
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.openlocfilehash: d757f34d3e16850e4f5de122f63b2b3342f612e49f07c7cf6585362999f03c02
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4969881"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6717677"
 ---
 # <a name="work-with-publish-groups"></a>Darbas su publikavimo grupėmis
-
 
 [!include [banner](includes/banner.md)]
 
 Šioje temoje aprašoma publikavimo grupių funkcija „Microsoft Dynamics 365 Commerce“.
-
-## <a name="overview"></a>Peržiūrėti
 
 „E-commerce“ svetainėse ištisus metus nuolat pateikiamas naujas turinys. Naujinimai dažnai pateikiami paketais svarbių el. prekybos įvykių metu, pvz., per šventes, sezonines rinkodaros kampanijas arba reklaminius paleidimus. Šiuose naujinimuose dažnai reikalaujama, kad svetainės turinio grupės (pavyzdžiui, puslapiai, vaizdai, fragmentai ir šablonai) būtų paruošiami, patvirtinami ir publikuojami tuo pačiu metu vienu veiksmu.
 
@@ -119,7 +114,7 @@ Norėdami atšaukti publikavimo grupės planavimą, atlikite tuos pačius veiksm
 > [!NOTE]
 > Labai didelių publikavimo grupių publikavimas gali užtrukti minutę arba dvi, atėjus jų suplanuotam laikui. Atminkite, kad publikavimo veiksmas nėra momentinis ir kad mažesnės publikavimo grupės bus paskelbtos greičiau.
 
-## <a name="publish-groups-faq"></a>DUK apie publikavimo grupes 
+## <a name="publish-groups-faq"></a>DUK apie publikavimo grupes
 
 **Kiek elementų gali būti publikavimo grupėje?**
 
@@ -154,3 +149,6 @@ Nr. Dėl su našumu ir konfliktais susijusių priežasčių sistema privers jus 
 [Šablonų ir maketų apžvalga](templates-layouts-overview.md)
 
 [Svetainės naršymo tinkinimas](customize-site-navigation.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

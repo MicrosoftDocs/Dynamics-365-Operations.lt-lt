@@ -2,11 +2,9 @@
 title: Vartotojo patirties personalizavimas
 description: Šiame straipsnyje paaiškinama, kaip galite personalizuoti programą.
 author: jasongre
-manager: AnnBe
-ms.date: 09/11/2020
+ms.date: 08/09/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysUserSetup, DefaultDashboard
 audience: Application User, IT Pro
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 734f6499753d74b0bac8b2df1381ece4a7824142
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: e3d126bf9ec5687d97dacc8763a221da656fdef1
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4797495"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7344379"
 ---
 # <a name="personalize-the-user-experience"></a>Vartotojo patirties personalizavimas
 
@@ -87,7 +85,7 @@ Trumpųjų mygtukų meniu pateikia kelią keisti puslapio sąsają tam, kad ji g
 
 Taip pat, pagrindiniai personalizavimo tipai yra prieinami spaudžiant dešiniu mygtuku elementą ir tuomet pasirenktant **Personalizuoti**. (Atkreipkite dėmesį, kad ne visi elementai jūsų puslapyje gali būti personalizuoti.) Kai naudojate šį personalizavimo metodą, pasirodo elemento *ypatybių langas*.
 
-![Elemento ypatybių personalizavimas](./media/cli-element-property-window.png)
+![Elemento ypatybių personalizavimas.](./media/cli-element-property-window.png)
 
 Naudojantis ypatybių langu elementą galima personalizuoti toliau išvardytais būdais.
 
@@ -100,7 +98,7 @@ Naudojantis ypatybių langu elementą galima personalizuoti toliau išvardytais 
 
 Priklausomai nuo elemento, ypatybių lange gali būti įterpta kitų personalizavimo galimybių. Pavyzdžiui, ypatybės langas plytoje gali leisti jums paskatinti, kad plyta ataskaitų srytyje ir ypatybių langas elementams nustatytoje ataskaitų srityje gali leisti jums sukurti naują tinkintą darbo sritį.
 
-### <a name="the-personalization-toolbar"></a>Personalizavimo įrankių juosta
+### <a name="personalization-toolbar"></a>Personalizavimo įrankių juosta
 
 Jei norite sukurti keletą puslapio pakeitimų arba pakeitimus, kurie nėra prieinami per kitus mechanizmus (pavyzdžiui, jei norite iš naujo sutvarkyti elementus), galite naudoti **Personalizavimo** įrankių juostą. Norėdami atidaryti įrankių juostą **Personalizavimas**, atlikite vieną iš toliau pateiktų veiksmų.
 
@@ -109,7 +107,7 @@ Jei norite sukurti keletą puslapio pakeitimų arba pakeitimus, kurie nėra prie
 - Bet kurio puslapio veiksmų srities skirtuke **Parinktys** esančioje grupėje **Personalizavimas**, pasirinkite **Pritaikyti šį puslapį asmeniniams poreikiams**.
 - Naršymo juostoje pasirinkite mygtuką **Parametrai** (krumpliaračio simbolis), tada pasirinkite **Personalizavimas**.
 
-[![Personalizavimo įrankių juosta](./media/restyledPersonalizationToolbar.png)](./media/restyledPersonalizationToolbar.png)
+[![Personalizavimo įrankių juosta.](./media/restyledPersonalizationToolbar.png)](./media/restyledPersonalizationToolbar.png)
 
 #### <a name="navigating-the-page"></a>Naršymas puslapyje
 
@@ -149,7 +147,7 @@ Kai kuriuose puslapiuose, kuriuose yra sąrašų, galima veiksmų srities skirtu
 > [!NOTE]
 > Jei funkcija [Įrašyti rodiniai](saved-views.md) įjungta, į darbo sritį perkeliamas turinys yra tiesiogiai susietas su rodiniu. Peržiūros užklausa yra naudojama gauti duomenis į darbo sritį ir atitinkama plyta ar nuoroda darbo srityje atidaro puslapį į tą peržiūrą taip, kad peržiūros užklausa ir personalizavimas jai yra taikomas. Jei peržiūra yra atnaujinama, atitinkami darbo srities elementai bus keičiami į naują peržiūros sąvoką.
 
-[![Įtraukti į darbo sritį](./media/personalization-addtoworkspace.png)](./media/personalization-addtoworkspace.png)
+[![Įtraukti į darbo sritį.](./media/personalization-addtoworkspace.png)](./media/personalization-addtoworkspace.png)
 
 - Norėdami įtraukti sąrašą į darbo sritį, pirmiausia surūšiuokite arba filtruokite puslapio sąrašą, kad informacija būtų rodoma taip, kaip norite, kad ji būtų rodoma darbo srityje. (Jei **Įrašytos peržiūros** funkcija yra įjungta, nebegalite tęsti kol įrašysite peržiūrą, turinčią šias sąlygas.) Tuomet pasirinkite **Įtraukti į darbo sritį**. Pasirinkite darbo sritį, o po to lauke **Pateiktis** paspauskite **Sąrašas**. Paspaudus **Konfigūruoti** rodomas dialogo langas, kuriame galite pasirinkti stulpelius, kurie turėtų būti rodomi darbo srities sąraše. Taip pat galite nurodyti darbo srities sąrašui naudojamą žymą.
 - Tam, kad įtrauktumėte plytą į darbo sritį, pirmiausia filtruokite sąrašą puslapyje taip, kad jis rodytų duomenis, kurie turi būti apibendrinti ir prie kurių norite prieiti greitai. (Jei **Įrašytos peržiūros** funkcija yra įjungta, nebegalite tęsti kol įrašysite peržiūrą, turinčią šias sąlygas.) Tuomet pasirinkite **Įtraukti į darbo sritį**. Pasirinkite darbo sritį, o po to lauke **Pateiktis** paspauskite **Išklotinės dalis**. Paspaudus **Konfigūruoti** rodomas dialogo langas, kuriame galite nurodyti darbo srities išklotinei naudojamą žymą. Taip pat galite nurodyti, ar išklotinėje turėtų būti rodomas skaičius. Po to, kai išklotinė įtraukiama į darbo sritį, galite pasirinkti ją, kad atidarytumėte dabartinį puslapį iš darbo srities. Tada galite peržiūrėti filtruotą sąrašą, susietą su išklotine.
@@ -171,11 +169,94 @@ Ataskaitų sritis dažnai yra pirmasis atidarius programą rodomas puslapis. Jis
 Viena unikali personalizavimo savybė ataskaitų srityje yra galimybė įtraukti plytas. 
 
 - Jei **Viso puslapio programų** savybė yra išjungta, jūs pridedate naują plytą dešinio klavišo elemento paspaudimu ataskaitų srityje ir tuomet pasirenkate  **Įtraukti darbo sritį**. Nauja darbo srities išklotinė sukuriama ataskaitų srities apačioje. Galite pakeisti šios naujos darbo srities išklotinės pavadinimą. Galite taip pat įtraukti sąrašus, plytas ir nuorodas į darbo sritį, kaip aprašyta [Plytų, sąrašų ir nuorodų įtraukimas į darbo sritį](personalize-user-experience.md#adding-tiles-lists-and-links-to-a-workspace) skyrių šioje temoje.
-- Jei **Viso puslapio programų** savybė yra įjungta, jūs pridedate naują plytą dešinio klavišo elemento paspaudimu ataskaitų srityje ir tuomet pasirenkate  **Įtraukti programą**. Teksto laukelyje, pasirinkite, ar norite įtraukti plytą į naują darbo sritį ar plyta turi turinį iš „Power Apps“ ar svetainės. Tuomet atlikite žingsnius, kad sukonfigūruotumėte savo pasirinktą parinktį. Nauja plyta sukuriama ataskaitų srities apačioje. 
+- Jei **Viso puslapio programų** savybė yra įjungta, jūs pridedate naują plytą dešinio klavišo elemento paspaudimu ataskaitų srityje ir tuomet pasirenkate  **Įtraukti programą**. Teksto laukelyje, pasirinkite, ar norite įtraukti plytą į naują darbo sritį ar plyta turi turinį iš „Power Apps“ ar svetainės. Tuomet atlikite žingsnius, kad sukonfigūruotumėte savo pasirinktą parinktį. Nauja plyta sukuriama ataskaitų srities apačioje. Daugiau informacijos apie tai, kaip pridėti, redaguoti, naikinti ir bendrai naudoti šias įdėtąsias programėles, žr. [įdėtųjų puslapių programėles iš „Power Apps“](embed-power-apps.md) ir [įdėtųjų puslapių programėles į](embed-website.md).
 
 ## <a name="sharing-personalizations"></a>Personalizavimo bendrinimas
 
-Personalizavę puslapį galite bendrinti personalizavimą su kitais vartotojais eksportuodami personalizuotą puslapį. Galite tuomet paprašyti kitų vartotojų importuoti personalizuojamą failą. Arba galite perduoti savo personalizavimą administratoriaus teises turinčiam vartotojui. Tokiu būdu tas vartotojas galės jūsų personalizavimo failą vienu metu taikyti keliems vartotojams, naudodamas administravimo puslapį **Personalizavimas**.
+Personalizavę puslapį yra keli būdai, kuriuos galite naudoti siekiant bendrinti savo asmeninimus su kitais vartotojais. Šiame sąraše metodai išdėstomi tvarka nuo dažniausiai rekomenduojamų iki mažiau rekomenduojamų.
+
+1. Publikuoti rodinius vartotojams.
+2. Kopijuoti rodinius ar personalizavimus vartotojams.
+3. Eksportuoti ir importuoti rodinius arba personalizavimus.
+
+### <a name="publish-views-to-users"></a>Publikuoti rodinius vartotojams
+
+Jei įrašytų rodinių funkcija įjungta ir jei puslapis palaiko rodinius, geriausias būdas dalintis personalizavimu su kitais vartotojais yra skelbti rodinį vartotojams, kurie turi vieną ar [daugiau](saved-views.md) saugos vaidmenų. Norėdami gauti išsamesnės informacijos, žr. [Publikavimo peržiūros](saved-views.md#publishing-views).
+
+### <a name="copy-views-or-personalizations-to-users"></a>Kopijuoti rodinius ar personalizavimus vartotojams
+
+Jei įrašytų rodinių funkcija yra išjungta arba jei puslapis nepalaiko rodinių, rekomenduojamas būdas bendrai naudoti personalizavimus yra nukopijuoti [juos](saved-views.md) tarp vartotojų. Šis metodas galimas tik privilegijos vartotojams (pvz., sistemos administratoriams). Tačiau administratoriai sistemoje gali ieškoti konkretaus vartotojo personalizavimo (įskaitant vartotojo asmeninį rodinį, jei įgalinti įrašyti rodiniai) ir kopijuoti konfigūraciją kitiems vartotojams.
+
+Jei įrašyti rodiniai įgalinti, personalizavimo kopijavimui atlikite šiuos veiksmus.
+
+1. Eikite į **Sistemos administravimas \> Sąranka \> Personalizavimas**.
+2. Norėdami kopijuoti asmeninius rodinius, atlikite šiuos veiksmus:
+
+    1. Pasirinkite **Asmeninius rodinius**.
+    2. Pasirinkite norimus rodinius sąraše.
+    3. Pasirinkite **Kopijuoti į vartotojus**.
+    4. Pasirinkite vartotojus, kuriems norite paskirstyti rodinius.
+
+    Norėdami nukopijuoti personalizavimus puslapiuose, kurie nepalaiko rodinių, atlikite šiuos veiksmus:
+
+    1. Pasirinkite **Vartotojo parametrai**.
+    2. Pasirinkite vartotoją, kurio personalizavimą norite paskirstyti.
+    3. Pasirinkite **Tvarkyti visus personalizavimus**.
+    4. Pasirinkite norimus personalizavimus sąraše.
+    5. Pasirinkite **Kopijuoti į vartotojus**.
+    6. Pasirinkite vartotojus, kuriems norite skirstyti personalizavimus.
+
+Jei įrašyti rodiniai nėra įgalinti, personalizavimo kopijavimui atlikite šiuos veiksmus.
+
+1. Eikite į **Sistemos administravimas \> Sąranka \> Personalizavimas**.
+2. Pasirinkite **Taikyti**.
+3. Pasirinkite vartotojus, kuriems norite skirstyti personalizavimus.
+4. Pasirinkite **esamą personalizavimą**.
+5. Raskite ir pasirinkite jus dominaį (vieną) personalizavimą.
+6. Pasirinkite **Gerai**.
+
+### <a name="export-and-import-views-or-personalizations"></a>Eksportuoti ir importuoti rodinius arba personalizavimus
+
+Kitas būdas dalintis personalizavimas yra eksportavimas ir importavimas. Atskiri vartotojai arba administratorius, kuris veikia jų vardu, gali naudoti šį metodą norėdami eksportuoti savo personalizavimus ar rodinius ir suteikti eksportuotą failą kitiems vartotojams, kad jie būtų importuojami. Taip pat vartotojai gali suteikti eksportuotus personalizavimus vartotojui, kuris turi administratoriaus teises ir tada, norėdami pritaikyti personalizavimo failą daugeliui vartotojų tuo pačiu metu, gali naudoti personalizavimo administravimo **puslapį**.
+
+#### <a name="export"></a>Eksportavimas
+
+Tai yra galite eksportuoti vieną iš savo rodinių ar personalizavimo peržiūrų atidarydami atitinkamą puslapį, atidarydami personalizavimo įrankių **juostą** ir pasirinkdami **Eksportuoti**. Daugiau informacijos apie įrankių juostą ieškokite anksčiau šios [temos skyriuje](#personalization-toolbar) Personalizavimo įrankių juosta. Kitu atveju, jei [įrašyti rodiniai](saved-views.md) yra įgalinti, galite eiti į **parametrų \> Vartotojo parinktys \> Personalizavimas** norėdami peržiūrėti visų savo personalizavimų sistemoje sąrašą. Iš ten galite pasirinkti rodinius arba personalizavimus, kuriuos norite eksportuoti, tada pasirinkti **Eksportuoti**.
+
+Be to, administratoriai gali eksportuoti kitų vartotojų personalizavimus, atlikti šiuos veiksmus.
+
+1. Eikite į **Sistemos administravimas \> Sąranka \> Personalizavimas**.
+2. Skirtuke **Vartotojai** pasirinkite norimą vartotoją.
+3. Raskite ir pasirinkite jus dominaį (vieną) personalizavimą ar rodinį.
+4. Pasirinkite **Eksportuoti**.
+
+#### <a name="import"></a>Importas
+
+Norėdami importuoti rodinį arba personalizavimą, galite tik atidaryti personalizavimo **įrankių** juostą ir pasirinkti **Importuoti**. Be to, administratoriai gali importuoti failą ir nedelsdami ją suteikti vienam ar daugiau vartotojų.
+
+Jei įrašyti rodiniai įgalinti, personalizavimo kopijavimui atlikite šiuos veiksmus.
+
+1. Eikite į **Sistemos administravimas \> Sąranka \> Personalizavimas**.
+2. Veiksmų juostoje rinkitės **Importuoti rodinius \> Vartotojo rodiniai**.
+3. Pasirinkite Importuoti režimą:
+
+    - **Pasirinkite konkrečius vartotojus** – suteikite rodinį arba personalizavimą pasirinktiems vartotojams.
+    - **Importuoti taip kaip yra** – importuokite rodinį arba personalizavimą tam pačiam vartotojui, kuris jį eksportavo.
+
+4. Pasirinkite **Naršyti**, tada raskite ir pasirinkite personalizuojamą failą.
+5. Pasirinkite **Toliau**.
+6. Jei 3 **veiksme** pasirinkote konkrečius vartotojus, pasirinkite vartotojus, į kuriuos importuojate personalizavimą.
+7. Pasirinkite **Importuoti**.
+8. Jei reikia, išspręskite konfliktus.
+
+Jei įrašyti rodiniai nėra įgalinti, personalizavimo kopijavimui atlikite šiuos veiksmus.
+
+1. Eikite į **Sistemos administravimas \> Sąranka \> Personalizavimas**.
+2. Pasirinkite **Taikyti**.
+3. Pasirinkite vartotojus, kuriems norite skirstyti personalizavimus.
+4. Pasirinkite **Importuoti personalizavimus iš** failo.
+5. Pasirinkite **Naršyti**, tada raskite ir pasirinkite personalizuojamą failą.
+6. Pasirinkite **Gerai**.
 
 ## <a name="administration-of-personalizations"></a>Personalizavimo parametrų administravimas
 
@@ -186,8 +267,11 @@ Klientams, kurie įjungė **Išsaugotų peržiūrų** funkciją, žr. „Perži�
 Klientams, kurie dar neįjungė [Išsaugotų peržiūrų](saved-views.md) funkcijos, šis puslapis turi keturis skirtukus:
 
 - **Taikyti**: galite importuoti arba pasirinkti personalizavimą vienam ar daugiau vartotojų. Norėdami personalizavimą taikyti vienam ar keliems vartotojams, pirmiausia pasirinkite vaidmenį ir vartotojus, kuriems tas vaidmuo suteiktas. Tada pasirinkite esamą personalizavimą, taikykite pasirinktiems vartotojams arba importuokite personalizavimo failą. Personalizavimas patikrinamas ir taikomas visiems pasirinktiems vartotojams, kai jie kitą kartą atidarys pasirinktą puslapį.
+
 - **Išvalyti**: galite išvalyti visus vieno ar kelių vartotojų puslapio ar darbo srities personalizavimus. Pirmiausia pasirinkite puslapį arba darbo sritį, kad būtų rodomas tą puslapį ar darbo sritį personalizavusių vartotojų sąrašas. Tada pažymėkite vartotojus, kurių puslapio ar darbo srities personalizavimą norėtumėte išvalyti, ir paspauskite **Valyti**. Panaikinami visi personalizavimai, kuriuos pasirinkti vartotojai taikė pasirinktam puslapiui arba darbo sričiai. Šio veiksmo anuliuoti negalima. Tačiau jei buvo įrašytas puslapio ar darbo srities personalizavimas, tokį personalizavimą galima importuoti iš naujo.
+
 - **Vartotojai**: pasirinkite vartotoją, kad būtų rodomas vartotojo personalizuotų puslapių sąrašas. Tada galite įjungti arba išjungti pasirinkto vartotojo galimybę jam naudotis konkrečių puslapių arba visos sistemos personalizavimais. Taip pat galite importuoti, eksportuoti arba išvalyti vartotojo personalizavimą. Be to, galite iš naujo nustatyti vartotojo funkcijų paaiškinimus. Tokiu atveju, jei vartotojas anksčiau atmetė visus iššokančiuosius langus, kurie supažindino su naujomis funkcijomis, jie bus rodomi dar kartą, kai vartotojas susidurs su šiomis funkcijomis.
+
 - **Sistema**: galite laikinai išjungti visų vartotojų sistemos personalizavimus. Šiuo atveju visi personalizavimai panaikinami visiems vartotojams, o visi puslapiai iš naujo nustatomi pagal numatytąją būseną. Jeigu vėliau vėl įjungsite personalizavimą, visi personalizavimai bus pritaikyti iš naujo. Taip pat galite visam laikui išjungti visus visų vartotojų sistemos personalizavimus. Panaikintų personalizavimų atkurti neįmanoma. Todėl prieš atlikdami šią užduotį būtinai eksportuokite visus personalizavimus, kurių vėliau gali prireikti.
 
 ## <a name="personalizing-inventory-dimensions"></a>Atsargų dimensijų personalizavimas
@@ -195,3 +279,6 @@ Klientams, kurie dar neįjungė [Išsaugotų peržiūrų](saved-views.md) funkci
 Personalizuodami puslapyje atsargų dimensijų sąranką, atsižvelkite į parametrus, kurie buvo sukurti naudojant parinktį **Rodyti dimensiją**. Pavyzdžiui, naudojate personalizavimą, norėdami paslėpti paketo numerio atsargų dimensijos stulpelį, tačiau stulpelis rodomas kitą kartą atidarius puslapį. Taip atsitinka todėl, kad atsargų dimensijų stulpelių rodymas valdomas naudojant parametrus **Dimensijos rodinys**. Parametrai **Dimensijos rodinys** taikomi visuose puslapiuose ir naudojantis šiais parametrais panaikinamos visos personalizuotos atskirų puslapių atsargų dimensijų laukų sąrankos.
 
 Todėl ankstesniame pavyzdyje, jei nenorite, kad puslapyje būtų rodomas paketo numerio atsargų dimensijos stulpelis, turite tame puslapyje panaikinti tos dimensijos parinkties **Rodyti dimensijas** žymėjimą.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

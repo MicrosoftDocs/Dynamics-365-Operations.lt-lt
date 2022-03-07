@@ -2,16 +2,13 @@
 title: Skambučių centro užsakymo sulaikymo funkcijų konfigūravimas ir darbas su jomis
 description: Šioje temoje aprašoma, kaip dirbti su užsakymo sulaikymo funkcijomis naudojant „Dynamics 365 Commerce“.
 author: josaw1
-manager: AnnBe
 ms.date: 05/14/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: MCRHoldCodeTable, MCRSalesTableOrderHistory, MCRHoldCodeTrans, MCROrderEventSetup, MCROrderEventTable
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 79132
 ms.assetid: 7c00dc35-73e5-400a-8587-22f37ddfc0e0
 ms.search.region: global
@@ -19,12 +16,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: b11dd48ac629910a82b4d5bfdf9889809b0d829d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 2066e0841658917cb0e6ddc0fbacf98d52098da8
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4414363"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6027461"
 ---
 # <a name="configure-and-work-with-call-center-order-holds"></a>Skambučių centro užsakymo sulaikymo funkcijų konfigūravimas ir jų naudojimas
 
@@ -56,7 +53,7 @@ Abiem atvejais rodomas puslapis **Užsakymo sulaikymai**. Tada vartotojas gali p
 
 Jei skambučių centro kanale pažymėta žymė **Įgalinti užsakymo baigimą**, mokėjimas neturi būti taikomas sulaikytam užsakymui. Tačiau jei pardavimo užsakymas nėra sulaikytas, vartotojai negali išeiti iš pardavimo užsakymo įvedimo puslapio, kol nebus pritaikytas mokėjimas. Žinoma, mokėjimas bus reikalingas prieš atšaukiant užsakymo sulaikymą.
 
-Be to, skambučių centro vartotojai gali dėl kokios nors priežasties rankiniu būdu sulaikyti įtartinus užsakymus dėl galimos apgaulės. Užsakymai taip pat gali būti sulaikyti automatiškai, kai jie atitinka aktyvius apgaulės kriterijus ir taisykles. Daugiau informacijos apie šį užsakymo sulaikymo tipą žr. [Įspėjimų dėl apgaulės nustatymas](https://docs.microsoft.com/dynamics365/unified-operations/retail/set-up-fraud-alerts).
+Be to, skambučių centro vartotojai gali dėl kokios nors priežasties rankiniu būdu sulaikyti įtartinus užsakymus dėl galimos apgaulės. Užsakymai taip pat gali būti sulaikyti automatiškai, kai jie atitinka aktyvius apgaulės kriterijus ir taisykles. Daugiau informacijos apie šį užsakymo sulaikymo tipą žr. [Įspėjimų dėl apgaulės nustatymas](/dynamics365/unified-operations/retail/set-up-fraud-alerts).
 
 ## <a name="viewing-and-managing-orders-that-are-on-hold"></a>Sulaikytų užsakymų peržiūra ir tvarkymas
 
@@ -103,3 +100,6 @@ Jei vartotojai nori išvalyti sulaikymą ir pakeisti užsakymą prieš jį išle
 ## <a name="reporting-options"></a>Ataskaitų parinktys
 
 Eikite į **Mažmeninė prekyba ir prekyba** \> **Užklausos ir ataskaitos** \> **Skambučių centro ataskaitos** \> **Užsakymų sulaikymų ataskaita**, kad sugeneruotumėte ataskaitą apie sulaikytus užsakymus pagal datos diapazoną, sulaikymo kodą ar kitus susijusius kriterijus.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

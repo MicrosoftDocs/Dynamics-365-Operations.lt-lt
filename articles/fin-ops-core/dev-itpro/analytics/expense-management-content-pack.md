@@ -2,11 +2,9 @@
 title: Išlaidų valdymas – „Power BI“ turinys
 description: Šioje temoje paaiškinama, kas įtraukta į „Power BI“ turinio paketą Išlaidų valdymas.
 author: panolte
-manager: AnnBe
 ms.date: 03/18/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: TrvExpenseWorkspace, ExpenseWorkspace
 audience: Application User, IT Pro
@@ -16,12 +14,12 @@ ms.search.industry: Manufacturing
 ms.author: kfend
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: d580502a08c2c176a000616abc3513cc45bd58a6
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
-ms.translationtype: HT
+ms.openlocfilehash: 178a65c44abd0c9c068d4da1f2684a60062da595247560de4cb81d97ab7b6521
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5016457"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6769903"
 ---
 # <a name="expense-management-power-bi-content"></a>Išlaidų valdymas – „Power BI“ turinys
 
@@ -43,7 +41,7 @@ Su Išlaidų valdymo versija 8.1 ir naujesne versija galima naudoti du „Power 
 Visos sumos rodomos įmonės valiuta. Rodomi visų įmonių duomenys, bet prireikus galite naudoti įmonės filtrą. 
 
 ## <a name="accessing-the-power-bi-content"></a>Prieiga prie „Power BI“ turinio
-Expense Admin Dashboard.pbix ir Expense Personal Dashboard.pbix „Power BI“ turinį galite rasti „Microsoft Dynamics Lifecycle Services“ (LCS) bibliotekoje Bendrai naudojamas turtas. Norėdami gauti daugiau informacijos apie tai, kaip atsisiųsti turinį ir įdiegti jį savo organizacijoje, žr. [„Power BI“ turinys LCS iš „Microsoft“ ir jūsų partnerių](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/12/12/power-bi-content-from-microsoft-and-your-partners/).
+Expense Admin Dashboard.pbix ir Expense Personal Dashboard.pbix „Power BI“ turinį galite rasti „Microsoft Dynamics Lifecycle Services“ (LCS) bibliotekoje Bendrai naudojamas turtas. Norėdami gauti daugiau informacijos apie tai, kaip atsisiųsti turinį ir įdiegti jį savo organizacijoje, žr. [„Power BI“ turinys LCS iš „Microsoft“ ir jūsų partnerių](/archive/blogs/dynamicsaxbi/power-bi-content-from-microsoft-and-your-partners).
 Turinys pasiekiamas darbo srityje Išlaidų valdymas kaip įdėtasis „Power Bi“ turinys. Bet kuris išlaidų savininkas gali pats surasti asmenines išlaidas, o prieigą prie administravimo duomenų turi ir visų vartotojų išlaidų duomenis peržiūrėti gali tik mokėtinų sumų tarnautojai ir vadovai.
 
 ## <a name="refreshing-the-power-bi-content"></a>„Power BI turinio atnaujinimas
@@ -93,3 +91,6 @@ Naudojantis „Power BI“ turiniu Išlaidų valdymas, būtina atnaujinti objekt
 | Darbuotojo statistika | Išlaidų ataskaitos pagal savikainos tipą            |
 |                     | Asmeninės išlaidos                       |
 |                     | Išlaidų ataskaitos pagal statistikos grupę     |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

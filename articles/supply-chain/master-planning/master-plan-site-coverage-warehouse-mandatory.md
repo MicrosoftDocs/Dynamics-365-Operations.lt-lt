@@ -1,7 +1,7 @@
 ---
 title: Bendrasis planavimas – teritorijos padengimo poreikis, privalomas sandėlis
 description: Šioje temoje aprašyta, kaip planuojama prekė, kurios teritorija yra padengimo dimensija. Sandėlis yra privaloma dimensija.
-author: ChristianRytt
+author: roxanadiaconu
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: 2454
 ms.assetid: aa135030-f98c-48bf-902c-e52f680dc247
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: crytt
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5dbc73911fcb3e0b0515f490f9f1236b4a12c648
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: e20f964c861f488d92525880af1e152a3fd291461b996ae81a0ab23b1f2129d2
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7573720"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6773326"
 ---
 # <a name="master-planning-for-site-coverage-mandatory-warehouse"></a>Bendrasis planavimas – teritorijos padengimo poreikis, privalomas sandėlis
 

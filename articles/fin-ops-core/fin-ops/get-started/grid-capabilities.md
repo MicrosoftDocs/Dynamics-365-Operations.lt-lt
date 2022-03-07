@@ -1,12 +1,10 @@
 ---
 title: Tinklelio charakteristikos
-description: Šioje temoje aprašomos kelios galingos tinklelio valdiklio funkcijos. Norint turėti prieigą prie šių charakteristikų, turi būti įjungta nauja tinklelio funkcija.
+description: Šioje temoje aprašomos kelios galingos tinklelio valdiklio funkcijos. Norėdami turėti prieigą prie šių galimybių, turite įjungti naują tinklelio funkcija.
 author: jasongre
-manager: AnnBe
-ms.date: 11/17/2020
+ms.date: 08/04/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: DefaultDashboard
 audience: Application User, Developer, IT Pro
@@ -15,40 +13,40 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: fb30cdded33f90bb472c8abdb70875077b1dd985
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 9bdefeedf8bbbe60f3f76d234f9b393cc8e5dbe8ede7e320e00d0b8e20dbbf73
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4693779"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6775247"
 ---
 # <a name="grid-capabilities"></a>Tinklelio charakteristikos
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-Naujas tinklelio valdiklis suteikia daug naudingų ir galingų charakteristikų, kurias galima naudoti siekiant pagerinti vartotojo produktyvumą, kurti įdomesnius savo duomenų rodinius ir gauti prasmingų įžvalgų dėl duomenų. Šiame straipsnyje aptariamos šios charakteristikos: 
+
+Naujas tinklelio valdiklis suteikia keletą naudingų ir galingų charakteristikų, kurias galite naudoti siekiant pagerinti vartotojo produktyvumą, kurti įdomesnius savo duomenų rodinius ir gauti prasmingų įžvalgų dėl duomenų. Šiame straipsnyje aptariamos šios charakteristikos: 
 
 -  Skaičiuojamos sumos
 -  Rašymas anksčiau sistemos
 -  Matematinių išraiškų vertinimas 
 -  Lentelės duomenų grupavimas (įjungta atskirai naudojant funkciją **(Peržiūra) Grupavimas tinkleliuose**)
--  Prisegti sistemos stulpeliai
+-  Fiksuoti stulpeliai
 
 ## <a name="calculating-totals"></a>Skaičiuojamos sumos
-„Finance and Operations“ programose vartotojai gali matyti bendrąsias sumas, esančias tinkleliuose, skaitinių stulpelių apačioje. Šios bendrosios sumos rodomos tinklelio apačioje esančiame poraštės skyriuje. 
+„Finance and Operations“ programose vartotojai gali matyti bendrąsias sumas, esančias tinkleliuose, skaitinių stulpelių apačioje. Tinklelio apačioje esančiame poraštės skyriuje rodomos šios bendrosios sumos. 
 
 ### <a name="showing-the-grid-footer"></a>Tinklelio poraštės rodymas
 Yra poraščių sritis, esanti kiekvieno „Finance and Operations” programų lentelės tinklelio apačioje. Poraštėje gali būti vertingos informacijos, susijusios su duomenimis, kurie rodomi tinklelyje. Toliau pateikiami keletas šios informacijos pavyzdžių:
 
-- Pažymėtų lentelės eilučių skaičius (kai pasirenkamas daugiau nei vienas įrašas)
+- Pažymėtų lentelės eilučių skaičius (kai pasirenkate daugiau nei vieną įrašą)
 - Bendrosios sumos, kurios yra sukonfigūruotų skaitinių stulpelių apačioje
 - Duomenų rinkinį sudarančių eilučių skaičius 
 
-Pagal numatytuosius parametrus ši poraštė paslėpta, tačiau gali būti lengvai įjungiama. Norėdami rodyti tinklelio poraštę, dešiniu pelės klavišu spustelėkite ant stulpelio antraštės tinklelyje ir pažymėkite parinktį **Rodyti poraštę**. Kai poraštė įjungta konkrečiame tinklelyje, šis parametras bus įsimenamas, kol vartotojas nusprendžia paslėpti poraštę, o tai galima atlikti dešiniuoju pelės klavišu spustelėjus ant stulpelio antraštės ir pažymėjus **Paslėpti poraštę**.  Atkreipkite dėmesį, kad veiksmo **Rodyti poraštę / slėpti poraštę** išdėstymo vietą būsimame naujinime numatoma pakeisti. 
+Pagal numatytuosius parametrus ši poraštė paslėpta, tačiau galite ją įjungti. Norėdami rodyti tinklelio poraštę, dešiniu pelės klavišu spustelėkite ant stulpelio antraštės tinklelyje ir pažymėkite parinktį **Rodyti poraštę**. Įjungus konkretaus tinklelio poraštę, šis parametras bus įsimintas tol, kol vartotojas pasirinks slėpti poraštę. Norėdami paslėpti poraštę, dešiniuoju pelės klavišu spustelėkite stulpelio antraštę ir pasirinkite **Slėpti poraštę**.  (Veiksmo **Rodyti poraštę/slėpti poraštę** išdėstymo vieta būsimame naujinime gali persikelti į kitą vietą). 
 
 ### <a name="specifying-columns-with-totals"></a>Stulpelių su bendrosiomis sumomis nurodymas
-Šiuo metu jokie stulpeliai nebus sukonfigūruoti taip, kad pagal numatytuosius parametrus būtų rodomos bendrosios sumos. Užuot, tai laikoma vienkartine sąrankos veikla, panašiai kaip stulpelių pločių reguliavimas tinkleliuose. Kai nurodysite, kad norite matyti stulpelio bendrąsias sumas, šis parametras bus įsimenamas, kai kitą kartą lankysitės puslapyje.  
+Šiuo metu nėra stulpelių, kurie rodytų bendrąsias sumas pagal numatytuosius nustatymus. Užuot, tai laikoma vienkartine sąrankos veikla, panašiai kaip stulpelių pločių reguliavimas tinkleliuose. Kai nurodysite, kad norite matyti stulpelio bendrąsias sumas, šis parametras bus įsimenamas, kai kitą kartą lankysitės puslapyje.  
 
 Yra du būdai konfigūruoti stulpelį, kad būtų rodoma bendroji suma: 
 
@@ -117,20 +115,26 @@ Atkreipkite dėmesį, kad prieš 10.0.16 versiją / 40 platformos naujinį palai
 Pradiniame duomenų grupavime bus išplėstos visos grupės. Galite kurti apibendrintus duomenų rodinius sutraukdami atskiras grupes, taip pat galite naudoti grupių išplėtimą ir sutraukimą, kad būtų lengviau naršyti duomenis. Norėdami išplėsti arba sutraukti grupę, atitinkamoje grupės antraštės eilutėje pasirinkite ševrono (>) mygtuką. Atkreipkite dėmesį, kad atskirų grupių išskleidimo / sutraukimo būsena **neįrašoma** personalizavimo parametruose.
 
 ### <a name="selecting-and-unselecting-rows-at-the-group-level"></a>Eilučių pažymėjimas ir žymėjimo naikinimas grupės lygyje
-Lygiai taip pat, kaip galite pažymėti visas tinklelio eilutes (arba panaikinti jų žymėjimą), pažymėdami žymimąjį langelį tinklelio pirmojo stulpelio viršuje, galite greitai pažymėti visas grupės eilutes (arba panaikinti jų žymėjimą) pasirinkdami žymės langelį atitinkamoje grupės antraštės eilutėje. Grupės antraštės eilutėje esantis žymės langelis visada atspindės dabartinę tos grupės eilučių žymėjimo būseną, neatsižvelgiant į tai, ar pasirinktos visos eilutės, nepasirinkta nei viena eilutė, ar pasirinktos kelios eilutės.
+Lygiai taip pat, kaip galite pažymėti visas tinklelio eilutes (arba panaikinti jų žymėjimą), pažymėdami žymimąjį langelį tinklelio pirmojo stulpelio viršuje, galite greitai pažymėti visas grupės eilutes (arba panaikinti jų žymėjimą) pasirinkdami žymės langelį atitinkamoje grupės antraštės eilutėje. Grupės antraštės eilutėje esantis žymės langelis visada atspindės dabartinę tos grupės eilučių žymėjimo būseną, nepriklausomai nuo to, ar pasirinktos visos eilutės, ar nepasirinkta nei viena eilutė, ar pasirinktos kelios eilutės.
 
 ### <a name="hiding-column-names"></a>Stulpelių pavadinimų slėpimas
 Grupuojant duomenis numatytasis veikimas yra rodyti stulpelio pavadinimą grupės antraštės eilutėje. Pradedant nuo versijos 10.0.14 / 38 platformos naujinimo, galite pasirinkti nerodyti stulpelio pavadinimo grupės antraštės eilutėse pasirinkdami **Tinklelio parinktys** > **Slėpti grupės stulpelio pavadinimą**.
 
-## <a name="pinned-system-columns"></a>Prisegti sistemos stulpeliai
-Naujame tinklelyje esantys eilutės pasirinkimo ir būsenos stulpeliai yra prisegti arba užšaldyti ant kairiausios tinklelio dalies. Todėl, kai šie stulpeliai yra įtraukti į tinklelį, jie visada bus matomi vartotojui, neatsižvelgiant į horizontaliosios slinkties padėtį tinklelyje.   
+## <a name="freezing-columns"></a>Fiksuoti stulpeliai
+Kai kurie tinklelio stulpeliai gali būti labai svarbūs kontekstui, tad nenorite, kad jie praslinktų per rodinį. Vietoj to norite, kad šių stulpelių reikšmė visada būtų matomos. 10.0.17 versija funkcija **Fiksuoti stulpelius tinklelyje** suteikia šį lankstumą vartotojams. 
+
+Norėdami užfiksuoti stulpelį, dešiniuoju pelės klavišu spustelėkite stulpelio antraštę ir pasirinkite **Fiksuoti stulpelį**. Pirmą kartą užbaigus šį veiksmą, pasirinktas stulpelis tampa pirmu stulpeliu ir daugiau neišslinks iš rodinio. Bet kuris kitas vėliau užblokuotas stulpelis bus pridėtas paskutinio užfiksuoto stulpelio dešinėje pusėje. Galite naudoti standartinę funkciją Perkelti pertvarkyti užfiksuotiems stulpeliams taip, kaip jūs norite. Tačiau užfiksuotų stulpelių negalima perkelti taip, kad jie būtų rodomi tarp nefiksuotų stulpelių rinkinio. Taip pat, nefiksuotų stulpelių negalima perkelti taip, kad jie būtų rodomi tarp fiksuotų stulpelių rinkinio.
+
+Norėdami panaikinti stulpelio fiksavimą, dešiniuoju pelės klavišu spustelėkite fiksuoto stulpelio antraštę ir pasirinkite **Nebefiksuoti stulpelio**. 
+
+Atkreipkite dėmesį, kad eilučių pasirinkimo ir būsenos stulpeliai naujame tinklelyje yra visada užfiksuojami kaip du pirmieji stulpeliai. Todėl, kai šie stulpeliai yra įtraukti į tinklelį, jie visada bus matomi vartotojams, neatsižvelgiant į horizontaliosios slinkties padėtį tinklelyje. Šių dviejų stulpelių negalima pertvarkyti.
 
 ## <a name="frequently-asked-questions"></a>Dažnai užduodami klausimai
 ### <a name="how-do-i-enable-the-new-grid-control-in-my-environment"></a>Kaip įjungti naują tinklelio valdiklį mano aplinkoje? 
 
 **10.0.9 / Platformos atnaujinimas 33 ir vėlesnis**
 
-Funkcija **Naujo tinklelio valdymas** yra prieinama tiesiogiai funkcijų valdyme bet kurioje aplinkoje. Įgalinant šią funkciją, kaip ir visas kitas funkcijas, gamyboje taikoma [Papildomų naudojimo sąlygų sutartis](https://go.microsoft.com/fwlink/?linkid=2105274).  
+Funkcija **Naujo tinklelio valdymas** yra prieinama tiesiogiai funkcijų valdyme bet kurioje aplinkoje. Įgalinant šią funkciją, kaip ir visas kitas funkcijas, gamyboje taikoma [Papildomų naudojimo sąlygų sutartis](public-preview-terms.md).  
 
 **10.0.8 / Platformos atnaujinimas 32 ir 10.0.7 / Platformos atnaujinimas 31**
 
@@ -155,11 +159,18 @@ Jei jūsų organizacija atranda puslapį, kuris turi tam tikrų problemų naudod
 
 Ši API bus palaikoma iki 2021 m. spalio išleidimo, kai naujo tinklelio valdymas taps privalomas. Jei sprendžiant tam tikras problemas reikia naudoti šią API, praneškite apie jas „Microsoft”.
 
+### <a name="forcing-a-page-to-use-the-new-grid-after-previously-opting-out-the-grid"></a>Norint pasirinkti puslapį naudoti naują tinklelį, prieš tai pasirinkus tinklelį
+Jei esate pasirinkę atskirą puslapį naudoti naują tinklelį, vėliau, išspręsę susijusias problemas, galite norėti iš naujo įgalinti naują tinklelį. Norėdami tai padaryti, tiesiog reikia pašalinti `forceLegacyGrid()` iškvietimą. Pakeitimas įsigalios tik tada, kai:
+
+- **Aplinkos pakartotinis diegimas**: kai aplinka atnaujinama ir diegiama iš naujo, lentelė, kurioje saugomi puslapiai, kurie atsijungė nuo naujo tinklelio (FormControlReactGridState) automatiškai išvalomi.
+
+- **Neautomatinis lentelės išvalymas**: programavimo scenarijuose turėsite naudoti SQL norėdami išvalyti lentelę FormControlReactGridState, tada iš naujo paleisti AOS. Šiuo veiksmų deriniu bus iš naujo nustatytas puslapių, kurie buvo pasirinkti iš naujo tinklelio, kaupimas talpykloje.  
+
 ## <a name="developer-size-to-available-width-columns"></a>[Kūrėjas] Iki galimo pločio dydžio stulpeliai
 Jei kūrėjas nustato **WidthMode** ypatybę į **SizeToAvailable** stulpeliams naujame tinklelyje, tie stulpeliai iš pradžių turi tokį plotį, kokį jie turėtų, jei ypatybė būtų nustatyta į **SizeToContent**. Tačiau jie ištempiami, norint tinklelyje naudoti bet kokį galimą papildomą plotį. Jei ypatybė nustatyta į **SizeToAvailable** keliems stulpeliams, visi šie stulpeliai bendrai naudoja bet kokį galimą papildomą plotį tinklelyje. Tačiau, jei vartotojas rankiniu būdu keičia vieno iš šių stulpelių dydį, stulpelis tampa statiniu. Jis išliks tokio pločio ir nebebus ištempiamas, kad būtų galima naudoti galimą papildomą tinklelio plotį.  
 
 ## <a name="known-issues"></a>Žinomos problemos
-Šiame skyriuje pateikimas žinomų problemų, susijusių su nauju tinklelio valdikliu, kai funkcija yra peržiūros būsenoje, sąrašas.  
+Šiame skyriuje pateikiamas žinomų naujo tinklelio valdiklio problemų sąrašas.  
 
 ### <a name="open-issues"></a>Atviros problemos
 -  Įjungus **Naujo tinklelio valdymo** funkciją, kai kurie puslapiai ir toliau naudos esamą tinklelio valdymą. Tai atsitiks esant tokiai situacijai:  
@@ -170,20 +181,44 @@ Jei kūrėjas nustato **WidthMode** ypatybę į **SizeToAvailable** stulpeliams 
     Kai vartotojas pirmą kartą susiduria su viena iš šių situacijų, bus rodomas pranešimas dėl puslapio atnaujinimo. Šiai žinutei pasirodžius, puslapis ir toliau naudos esamą tinklelį visiems naudotojams iki kitos produkto naujinimo versijos. Geresnis šių scenarijų valdymas taip, kad naujas tinklelis gali būti naudojamas, bus svarstomas tolesniuose naujinimuose.    
     
 -  [KB 4582758] Įrašai yra neryškūs, kai keičiate mastelį iš 100 į bet kurį kitą procentą
-    
+-  [KB 4592012] Netikėta kliento klaida IE11, įklijuojant kelias eilutes iš „Excel”
+    -  „Microsoft” nesiekia šios problemos sprendimo
+
+### <a name="fixed-as-part-of-10016"></a>10.0.16 pataisymai
+
+-  [KB 4598335] Kelių eilučių valdikliai neatitinka jų „DisplayHeights” sąrašuose/kortelėse 
+-  [KB 4591891] Atžymėjus eilutes dingsta sąskaitos faktūros pasiūlymo eilutės
+-  [KB 4592104] Neįmanoma redaguoti įrašų paspaudus „Spręsti problemą” ir pereiti prie kitos eilutės neištaisant tikrinimo problemos
+-  [KB 4594449] Datų parinkiklis neturi mygtukų „Niekada” ir „Valyti” 
+-  [KB 4594448] Naujame tinklelyje laiko įvedimas apdorojimas kitaip
+-  [KB 4600059] Netikėta kliento el. pašto ribojimo klaida
+-  [KB 4574584] Išlaidų priedo peržiūros versija negalima, kai ant kvito piktogramos užvedamas pelės žymeklis
+
 ### <a name="fixed-as-part-of-10015"></a>10.0.15 pataisymai    
 
--  [KB 4582723] Rodyti pasirinktis, kurios nerodomos vėliau formos gyvavimo cikle
+-  (Kokybės atnaujinimas) [KB 4594444] Netikėta kliento klaida su segmentinio įrašo valdiklio peržiūros versija
+-  [KB 4582723] Nerodomos rodymo parinktis, kai vėliau atliekamos formos gyvavimo cikle
+-  [KB 4591988] Problemos naudojant klaviatūrą pasirenkant reikšmę iš Nuorodos grupės peržvalgos
+-  [KB 4588958] „Regression Suite Automation Tool” (RSAT) bandymas nepavyksta: Klaidos tipas: Negalima nuskaityti ypatybės neapibrėžto teksto
+-  [KB 4591970] Netikėta kliento klaida, kai įklijavimas iš „Excel” buvo atliktas iškart po paspaudimo į tinklelį
+-  [KB 4591904] Neįrašomi duomenų pakeitimai, jei redagavus valdiklį vartotojas iš karto paspaudė ir atidarė kito valdiklio peržvalgą
+-  [KB 4584752] Netikėta kliento klaida su projekto sąskaitos faktūros pasiūlymų puslapiu
+-  [KB 4584540] Neįmanoma palikti tinklelio įklijavus vieną eilutę į žurnalo eilutę
+-  [KB 4591908] Kuriant naują eilutę, fokusavimas lieka ankstesniame stulpelyje
 
 ### <a name="fixed-as-part-of-10014"></a>10.0.14 pataisymai
 
 -  (Kokybinis naujinimas) [KB 4584752] Netikėta kliento klaida su projekto SF pasiūlymų puslapiu
+-  [KB 4583880] „Regression Suite Automation Tool“ (RSAT) bandymai neatitinka „OpenLookup” veiksmo su „Nepavyko nuskaityti neapibrėžtos nuosavybės eilutės rodyklės“
+-  [KB 4583847] Netikėta kliento klaida naršant po peržvalgas
 
 ### <a name="fixed-as-part-of-10013"></a>10.0.13 pataisymai
 
+-  (Kokybinis naujinimas) [KB 4584752] Netikėta kliento klaida su projekto SF pasiūlymų puslapiu
 -  (Kokybinis naujinimas) [KB 4583880] „Regression Suite Automation Tool“ (RSAT) bandymai neatitinka OpenLookup veiksmo su „Nepavyko nuskaityti neapibrėžtos nuosavybės RowIndex“
 -  (Kokybinis naujinimas) [KB 4583847] Netikėta kliento klaida naršant po peržvalgų 
 -  (Kokybinis naujinimas) [Bug 471777] Negali pasirinkti laukelių tinklelėje redagavimui ar mobilios programos sukūrimui
+-  [KB 4582727] Tinklelis užstringa, kai vartotojas gauna kelius kiekius turinčių prekių dialogą
 -  [Bug 474851] Hipersaitai ataskaitos grupės valdikliuose neveikia 
 -  [Bug 474848] Pagerinta išankstinė peržiūra su nerodomais tinkleliais
 -  [KB 4582726] Nėra paisoma RotateSign ypatybės  
@@ -263,3 +298,6 @@ Jei kūrėjas nustato **WidthMode** ypatybę į **SizeToAvailable** stulpeliams 
 ### <a name="quality-update-for-1009platform-update-33"></a>Kokybinis naujinimas, skirtas 10.0.9 / platformos 33 naujinimui
 
 - [KB 4550367] Laiko vertės nėra tinkamai suformatuotos.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

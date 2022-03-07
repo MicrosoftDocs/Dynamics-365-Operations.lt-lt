@@ -1,37 +1,31 @@
 ---
-title: Juridinių subjektų kūrimas
+title: Kurti juridinius subjektus
 description: Šioje temoje aprašoma, kaip „Microsoft Dynamics 365 Commerce“ sukurti juridinius subjektus, kuriuos reikia sukurti ir sukonfigūruoti prieš sukuriant kanalus.
 author: samjarawan
-manager: annbe
 ms.date: 01/27/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 28cbcc42505f1dc90c420adc812735841541c8e0
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 225fd6a07fee29414ac30a4602b4dfccdc4d742b
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4414311"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5800620"
 ---
-# <a name="create-legal-entities"></a>Juridinių subjektų kūrimas
-
+# <a name="create-legal-entities"></a>Kurti juridinius subjektus
 
 [!include [banner](includes/banner.md)]
 
 Šioje temoje aprašoma, kaip „Microsoft Dynamics 365 Commerce“ sukurti juridinius subjektus, kuriuos reikia sukurti ir sukonfigūruoti prieš sukuriant kanalus.
-
-## <a name="overview"></a>Peržiūrėti
 
 Juridinis subjektas yra organizacija, turinti registruotą ar įteisintą teisinę struktūrą. Juridiniai subjektai gali sudaryti teisines sutartis ir privalo paruošti išrašus apie savo veiklą.
 
@@ -86,3 +80,6 @@ Toliau pateiktame vaizde parodytas išsamus juridinio subjekto pavyzdys.
 [Kanalų apžvalga](channels-overview.md)
 
 [Būtinosios kanalo nustatymo sąlygos](channels-prerequisites.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: Didelių dokumentų, sugeneruotų elektroninėse ataskaitose, glaudinimas
 description: Šioje temoje paaiškinama, kaip glaudinti didelius dokumentus, sugeneruotus naudojant elektroninių ataskaitų (ER) formatą.
 author: NickSelin
-manager: kfend
 ms.date: 09/11/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: EROperationDesigner, ERFormatDestinationTable
 audience: Application User, IT Pro
@@ -17,18 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 30de55f9e55911290750c148621fd3d4531686c2
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
-ms.translationtype: HT
+ms.openlocfilehash: 7ef8f730f2e207a8fd28c2bf5167d14f57d6c607314bfc48d4358a59d3ef5c43
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4680859"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6718604"
 ---
 # <a name="compress-large-documents-that-are-generated-in-electronic-reporting"></a>Didelių dokumentų, sugeneruotų elektroninėse ataskaitose, glaudinimas 
 
 [!include [banner](../includes/banner.md)]
 
-Galite naudoti [Elektroninę ataskaitų (ER) sistemą](general-electronic-reporting.md) norėdami sukonfigūruoti sprendimą, kuris iškviečia operacijų duomenis, kad būtų sugeneruotas siunčiamas dokumentas. Šis sugeneruotas dokumentas gali būti gana didelis. Kai šio tipo dokumentas sugeneruojamas, [Programos objektų serverio (AOS)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/dev-tools/access-instances#location-of-packages-source-code-and-other-aos-configurations) atmintis naudojama jo laikymui. Tam tikru momentu dokumentas tada turi būti atsisiųstas iš jūsų „Microsoft Dynamics 365 Finance” programos. Šiuo metu didžiausias vieno dokumento, sugeneruoto ER, dydis ribojamas iki 2 gigabaitų (GB). Be to, „Finance” šiuo metu [riboja](https://fix.lcs.dynamics.com/Issue/Details?bugId=489291) atsisiųsto failo dydį iki 1 GB. Todėl turite sukonfigūruoti ER sprendimą, kuris sumažina tikimybę, kad šie apribojimai bus viršyti, o jūs gausite **Srautas tęsėsi per ilgai** arba **Srautas perkrautas arba nepakankamas aritmetinėje operacijoje** išimtį.
+Galite naudoti [Elektroninę ataskaitų (ER) sistemą](general-electronic-reporting.md) norėdami sukonfigūruoti sprendimą, kuris iškviečia operacijų duomenis, kad būtų sugeneruotas siunčiamas dokumentas. Šis sugeneruotas dokumentas gali būti gana didelis. Kai šio tipo dokumentas sugeneruojamas, [Programos objektų serverio (AOS)](../dev-tools/access-instances.md#location-of-packages-source-code-and-other-aos-configurations) atmintis naudojama jo laikymui. Tam tikru momentu dokumentas tada turi būti atsisiųstas iš jūsų „Microsoft Dynamics 365 Finance” programos. Šiuo metu didžiausias vieno dokumento, sugeneruoto ER, dydis ribojamas iki 2 gigabaitų (GB). Be to, „Finance” šiuo metu [riboja](https://fix.lcs.dynamics.com/Issue/Details?kb=4569432&bugId=453907&dbType=3) atsisiųsto failo dydį iki 1 GB. Todėl turite sukonfigūruoti ER sprendimą, kuris sumažina tikimybę, kad šie apribojimai bus viršyti, o jūs gausite **Srautas tęsėsi per ilgai** arba **Srautas perkrautas arba nepakankamas aritmetinėje operacijoje** išimtį.
 
 Kai konfigūruojate sprendimą, galite pakoreguoti savo ER formatą Operacijų dizaino įrankyje pridėdami **Aplanko** tipo šakninį elementą, kad suglaudintumėte turinį, kurį sugeneravo bet kuris jo įdėtųjų elementų. Glaudinimas vyksta „reikiamu laiku”, kad intensyviausias atminties naudojimas ir failo, kuris bus atsisiųstas, dydis galėtų būti sumažinti.
 
@@ -57,7 +55,7 @@ Prieš vykdydami šioje temoje esančias procedūras, turite atlikti toliau nuro
 1. [Vykdykite importuotą formatą](er-defer-xml-element.md#run-the-imported-format).
 2. Atkreipkite dėmesį, kad sugeneruoto dokumento dydis XML formatu yra 3 kilobaitų (KB).
 
-    ![Nesuglaudinto siunčiamo dokumento peržiūra](./media/er-compress-outbound-files1.png)
+    ![Nesuglaudinto siunčiamo dokumento peržiūra.](./media/er-compress-outbound-files1.png)
 
 ### <a name="modify-the-format-to-compress-the-generated-output"></a>Formato modifikavimas sugeneruotos išvesties glaudinimui
 
@@ -82,7 +80,7 @@ Prieš vykdydami šioje temoje esančias procedūras, turite atlikti toliau nuro
     > [!NOTE] 
     > XML failo, kuris yra zip failas, glaudinimo koeficientas yra 87 procentai. Glaudinimo koeficientas priklauso nuo glaudinimų duomenų.
 
-    ![Suglaudinto siunčiamo dokumento peržiūra](./media/er-compress-outbound-files2.png)
+    ![Suglaudinto siunčiamo dokumento peržiūra.](./media/er-compress-outbound-files2.png)
 
 > [!NOTE]
 > Jei ER [paskirties vieta](electronic-reporting-destinations.md) yra konfigūruojama formato elementui, kuris generuoja išvestį (šiame pavyzdyje – **Ataskaitos** elementas), išvesties glaudinimas bus apeinamas.
@@ -94,3 +92,6 @@ Prieš vykdydami šioje temoje esančias procedūras, turite atlikti toliau nuro
 [Elektroninių ataskaitų (ER) paskirties vietos](electronic-reporting-destinations.md)
 
 [XML elementų ER formatais vykdymo atidėjimas](er-defer-xml-element.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

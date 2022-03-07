@@ -2,27 +2,24 @@
 title: Išskaidyti laikotarpiai periodiniuose žurnaluose
 description: Šioje temoje pateikiama informacija apie išskaidytus laikotarpius periodiniuose ar pasikartojančiuose žurnaluose juridiniams asmenims Čekijoje, Estijoje, Latvijoje, Lenkijoje, Lietuvoje, Rusijoje ir Vengrijoje.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTable
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 261354
 ms.search.region: Czech Republic, Estonia, Hungary, Latvia, Lithuania, Poland
 ms.author: kfend
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 5ea11e94c188c04c6d3d8ab0173fcc2ba56335c3
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: b96eef87724631742b822ee0b7dd589d9e2e1dc3
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408240"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5839876"
 ---
 # <a name="split-periods-in-periodic-journals"></a>Išskaidyti laikotarpiai periodiniuose žurnaluose
 
@@ -48,3 +45,6 @@ Pvz., norėdami generuoti ketvirčio registravimus, įveskite **4** lauke **Laik
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

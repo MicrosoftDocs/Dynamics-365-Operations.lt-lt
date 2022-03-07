@@ -1,26 +1,24 @@
 ---
 title: Kurti pasiūlymo patvirtinimą
 description: Šia procedūra parodoma, kaip kurti pasiūlymo patvirtinimą.
-author: RichardLuan
-manager: tfehr
+author: kamaybac
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchRFQCaseTableListPage, PurchCreateRFQCase, InventLocationIdLookup, PurchRFQCaseTable, InventItemIdLookupSimple, EcoResCategorySingleLookup, UnitOfMeasureLookup, PurchRFQEditLines, PurchRFQEditLinesPrintOptions, VendRFQJournal, SrsReportViewerForm
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: riluan
+ms.author: dabourq
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 59202cb6678660ae035f9f76ebe4267bac01d78f
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 6426b5e655359788822f8dd5c554397ac715c5ed
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5019909"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5812163"
 ---
 # <a name="create-a-request-for-quotation"></a>Kurti pasiūlymo patvirtinimą
 
@@ -80,3 +78,6 @@ Nurodę pagrindinę informaciją apie RFQ, galite nurodyti prekes arba paslaugas
 4. Uždarykite puslapį.
 5. Uždarykite puslapį.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

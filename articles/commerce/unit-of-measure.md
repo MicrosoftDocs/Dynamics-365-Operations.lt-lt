@@ -15,16 +15,17 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 7fe5cf6b57a8897a0bd541146cb1ad17b496d5633c0a1df9d58b2a4fbc868139
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d1fba966434b80c9b64c1f4d9b6b87993d59c0bf
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6761519"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6022379"
 ---
 # <a name="apply-unit-of-measure-settings"></a>Taikyti matavimo vieneto parametrus
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 Šioje temoje aptariami atsargų matavimo vienetų nustatymai ir aprašoma, kaip juos taikyti programoje „Microsoft Microsoft Dynamics 365 Commerce“.
 
@@ -32,7 +33,7 @@ Produktą galima parduoti skirtingais vienetais, pvz., „kiekviena," „pora" i
 
 Toliau pateiktame pavyzdyje parodytas produkto pardavimo vienetas pagal matavimo **vienetą** „Commerce Headquarters" konfigūruotas.
 
-![Produkto, sukonfigūruotas naudojant matavimo vienetą „Commerce Headquarters”, pavyzdys.](./media/Productunit-headquarters.PNG)
+![Produkto, sukonfigūruotas naudojant matavimo vienetą „Commerce Headquarters", pavyzdys](./media/Productunit-headquarters.PNG)
 
 > [!NOTE]
 > Galima naudoti „Commerce" 10.0.19 versijos leidimą, siekiant pritaikyti ir rodyti matavimo vienetą.
@@ -54,11 +55,11 @@ Moduliuose, kuriuose naudojami matavimo vienetų parametrai, yra pirkimo dėžė
 
 Toliau pateiktame pavyzdyje produkto informacijos puslapis (PDP) rodo produkto matavimo **vienetą** (lt).
 
-![PDP, kuriame rodomas matavimo vienetas, pavyzdys.](./media/Productunit-PDP.png)
+![PDP, kuriame rodomas matavimo vienetas, pavyzdys](./media/Productunit-PDP.png)
 
 Toliau pateiktame pavyzdyje produkto surinkimo modulis rodo produkto matavimo **vienetą** (lt).
 
-![Produkto surinkimo mudlis, kuriame rodomas matavimo vienetas, pavyzdys.](./media/Productunit-productcollection.png)
+![Produkto surinkimo mudlis, kuriame rodomas matavimo vienetas, pavyzdys](./media/Productunit-productcollection.png)
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 

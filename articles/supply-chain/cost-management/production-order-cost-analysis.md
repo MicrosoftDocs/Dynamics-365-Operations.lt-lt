@@ -2,11 +2,9 @@
 title: Gamybos užsakymų kaštų analizė
 description: Šiame straipsnyje pateikiama informacija apie galimą atlikti baigtų ir dabartinių gamybos užsakymų išlaidų analizę. Analizuoti įvertintas savikainas ir faktines išlaidas galite naudodami puslapį Kainos skaičiavimas arba ataskaitą Išlaidų įvertinimas ir įkainojimas. Galite peržiūrėti kiekvienos sudedamosios prekės, nukreipimo operacijos ir netiesioginių išlaidų informaciją apie numatytąsias ir faktines išlaidas (ir kiekį).
 author: AndersGirke
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventCostTrans, ProdCalcTrans, ProdTableJour, ProdTableListPage, ProdSetupHistoricalCost
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0858e0e9ed0f09a47954274a05f6da1a2537c4a3
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.openlocfilehash: 1b0690a683cdefaeb5e441d3e2ea467a680a8fc1dd0905b6a94fd72bcbf36e1e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4967288"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6734264"
 ---
 # <a name="production-order-cost-analysis"></a>Gamybos užsakymų kaštų analizė
 
@@ -43,7 +41,7 @@ Nuokrypiais palyginamos deklaruotos gamybos veiklos ir apskaičiuotos standartin
 
 Šioje diagramoje rodomi keturis nuokrypiai, kurie parodo skirtumą tarp gamybos užsakymo faktinių išlaidų ir paskaičiuotų išlaidų įrašuose, gamybos užsakymo pabaigoje. 
 
-![Nuokrypiai, nurodantys skirtumus baigtame gamybos užsakyme](./media/control.jpg) 
+![Nuokrypiai, nurodantys skirtumus baigtame gamybos užsakyme.](./media/control.jpg) 
 
 Gamybos nuokrypius galite analizuoti naudodami puslapį **Nuokrypis** arba ataskaitą **Gamybos nuokrypis**. Norėdami nuokrypius peržiūrėti išsamiai, pagal prekę ir operacijų išteklių ar pagal išlaidų grupę, naudokite rodymo parinktis. Išlaidų paskirstymo strategija atsargų parametruose lemia ar nukrypimai sekami išlaidų grupėse. Taip pat peržiūrėti nuokrypių suvestinę galite naudodami **vieno**, **kelių** ir **bendro** rodymo parinktis. Išsami informacija apie nuokrypius gali padėti suprasti kiekvieno nuokrypio šaltinį. Norėdami numatyti nuokrypius prieš baigdami gamybos užsakymą, analizuokite išsamią informaciją, kuri pateikta ataskaitoje **Išlaidų įvertinimas ir įkainojimas**.
 
@@ -57,10 +55,12 @@ Atskirose ataskaitose pateikiama informacija apie kiekvieną operacijų tipą. N
 -   **Baigtos prekės** − šioje ataskaitoje išvardyti esami gamybos užsakymai ir paskelbtos baigtomis operacijos nuo nurodytos operacijos datos.
 
 
-<a name="additional-resources"></a>Papildomi ištekliai
---------
+## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Bendrieji gamybos nuokrypių šaltiniai](common-sources-of-production-variances.md)
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

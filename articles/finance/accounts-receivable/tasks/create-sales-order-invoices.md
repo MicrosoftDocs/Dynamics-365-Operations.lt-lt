@@ -1,6 +1,6 @@
 ---
-title: Pardavimo užsakymų sąskaitų faktūrų kūrimas
-description: Šioje temoje aprašoma, kaip išrašyti pardavimo užsakymo SF, įskaitant SF suliejimą ir paketinį vykdymą.
+title: Kurti pardavimo užsakymų sąskaitas faktūras
+description: Šiame užduočių vadove aprašomas pardavimo užsakymo SF išrašymas, įskaitant SF suliejimą ir paketinį vykdymą.
 author: ShivamPandey-msft
 ms.date: 06/25/2019
 ms.topic: business-process
@@ -13,24 +13,24 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b6712779ca64f5934edd37730597541679b86e43
-ms.sourcegitcommit: 03f53980a4bc67b73ac2be76a3b3e7331d0db705
+ms.openlocfilehash: 8a6556838a2843f961e1538947a6eda090b94894ed4df8476ea60abeda8056b6
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/18/2021
-ms.locfileid: "7394615"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6771829"
 ---
-# <a name="create-sales-order-invoices"></a>Pardavimo užsakymų sąskaitų faktūrų kūrimas
+# <a name="create-sales-order-invoices"></a>Kurti pardavimo užsakymų sąskaitas faktūras
 
 [!include [banner](../../includes/banner.md)]
 
-Šioje temoje aprašoma, kaip išrašyti pardavimo užsakymo SF, įskaitant SF suliejimą ir paketinį vykdymą. Šioje procedūroje naudojama demonstracinė įmonė USMF.
+Šiame užduočių vadove aprašomas pardavimo užsakymo SF išrašymas, įskaitant SF suliejimą ir paketinį vykdymą. Šioje procedūroje naudojama demonstracinė įmonė USMF.
 
 
 ## <a name="create-an-invoice-from-a-sales-order"></a>Iš pardavimo užsakymo kurti SF
 1. Eikite į **Naršymo sritis > Moduliai >Gautinos sumos > Užsakymai > Išsiųsti pardavimo užsakymai, kuriems neišrašytos SF**.
 2. Sąraše pasirinkite pardavimo užsakymą. 
-3. **Veiksmų srityje** spustelėkite **Sąskaita faktūra > Generuoti > Sąskaita faktūra**. Atkreipkite dėmesį, kad su šiuo pardavimo užsakymu susieti keli važtaraščiai. Vietoj važtaraščio numerio bus rodomas tik žodis *keletas*.  
+3. **Veiksmų srityje** spustelėkite **Sąskaita faktūra > Generuoti > Sąskaita faktūra**. Atkreipkite dėmesį, kad su šiuo pardavimo užsakymu susieti keli važtaraščiai. Vietoj važtaraščio numerio bus rodomas tik žodis  <multiple>.  
 4. Išplėskite skyrių **Parametrai**.
     - Norint užregistruoti SF, turi būti nustatyta registravimo parinktis Taip. Taip pat galite išjungti registravimą ir tik spausdinti SF. Tačiau tą patį rezultatą galite pasiekti vietoj sąskaitos faktūros sukurdami išankstinę SF.  
     - Ši pasirinktis naudojama su paketinėmis užduotimis. Užklausa vykdoma paleidus paketinę užduotį.

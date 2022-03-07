@@ -2,28 +2,28 @@
 title: Samdymo užklausos būsena
 description: Šioje temoje aprašoma samdymo užklausos būsenos parinktis nustatyta „Dynamics 365 Human Resources“.
 author: jaredha
+manager: tfehr
 ms.date: 02/05/2021
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
+ms.reviewer: anbichse
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d845179077fc2e04dfb3bd05eaa70b0a2a016121
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
-ms.translationtype: MT
+ms.openlocfilehash: 0032e6bfdbfd2792dafda8bf24a1b0cbc551740d
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8067106"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5464651"
 ---
 # <a name="recruiting-request-status"></a>Samdymo užklausos būsena
-
-
-[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -33,7 +33,7 @@ Fizinis pavadinimas: mshr_hcmrecruitingrequeststatus
 
 Toks numeravimas suteikia parinktį nustatytą samdymo užklausos verčių būsenai.
 
-| Reikšmė | Žyma | Aprašas |
+| Reikšmė | Žyma:  | aprašymas |
 | --- | --- | --- |
 | 200000000 | Juodraštis | Užklausa yra šablonas ir nėra parengta įjungtam samdymui. |
 | 200000001 | Peržiūrima | Užklausa buvo pateikta ir yra nukreipta darbo eigos patvirtinimui. Prieinama tik įjungus darbo eigą. |

@@ -2,28 +2,19 @@
 title: Kliento lojalumo kortelės ir atlygio taškai
 description: Šioje temoje aprašomas duomenų apie kliento lojalumo korteles ir atlygio taškų integravimas atliekant dvigubą rašymą.
 author: RamaKrishnamoorthy
-manager: AnnBe
 ms.date: 03/10/2019
 ms.topic: article
-ms.prod: ''
-ms.service: dynamics-ax-applications
-ms.technology: ''
-ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: global
-ms.search.industry: ''
 ms.author: ramasri
-ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-10
-ms.openlocfilehash: 28872e9510394cf3d5cee151798d4130b8b6fe27
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: d20dca3e8f15d04b85bcdf102dda8794c68dc2d54acb65dbd0088da1e6c6cdc5
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683503"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6765103"
 ---
 # <a name="customer-loyalty-cards-and-reward-points"></a>Kliento lojalumo kortelės ir atlygio taškai
 
@@ -35,13 +26,10 @@ ms.locfileid: "4683503"
 
 ## <a name="templates"></a>Šablonai
 
-| „Finance and Operations” programėlės | Modeliu grįstos programos „Dynamics 365“ | aprašymas |
+„Finance and operations” programos | „Customer engagement“ programos     | Aprašas
 |-----------------------------|-----------------------------------|-------------|
-| Lojalumo kortelė                | msdyn\_loyaltycards               | Šis šablonas sinchronizuoja informaciją apie klientų lojalumo korteles. |
-| Atlygio taškai už lojalumą       | msdyn\_loyaltyrewardpoints        | Šis šablonas sinchronizuoja informaciją apie klientų atlygio taškus. |
+[Lojalumo kortelė](mapping-reference.md#149) | msdyn_loyaltycards | Šis šablonas sinchronizuoja informaciją apie klientų lojalumo korteles. |
+[Lojalumo lygiai](mapping-reference.md#226) | msdyn_loyaltylevels | Šis šablonas sinchronizuoja informaciją apie klientų atlygio taškus. |
+[Atlygio taškai už lojalumą](mapping-reference.md#150) | „msdyn_loyaltyrewardpoints” | |
 
-[!include [banner](../../includes/dual-write-symbols.md)]
-
-[!include [mapping loyalty card](includes/LoyaltyCard-msdyn-loyaltycards.md)]
-
-[!include [mapping reward points](includes/LoyaltyRewardPoints-msdyn-loyaltyrewardpoints.md)]
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -2,7 +2,7 @@
 title: Nuorodos į originalias sąskaitas kredito pranešimuose
 description: Šioje temoje paaiškinta, kaip nustatyti ir spausdinti originalių sąskaitų numerius susijusiuose kredito pranešimuose.
 author: ilkond
-ms.date: 10/26/2021
+ms.date: 01/12/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: ilyako
 ms.search.validFrom: 2021-03-19
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 7147c5bea5273f385b004effe0844b5f4541a881
-ms.sourcegitcommit: 2113678369f47944f8725ca656f461fa159f87f6
-ms.translationtype: MT
+ms.openlocfilehash: 798e38d7fea53a13d713734dd0521552974176ea
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/27/2021
-ms.locfileid: "7700360"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347839"
 ---
 # <a name="references-to-original-invoices-in-credit-notes"></a>Nuorodos į originalias sąskaitas kredito pranešimuose
 
@@ -95,10 +95,5 @@ Spausdindami laisvą tekstą, klientą ir projekto kredito pažymą, jis apims n
 > [!NOTE]
 > Įsitikinkite, kad spausdinami dokumentų formatai yra tinkamai sukonfigūruoti remiantis prielaida, kad nuorodos į originalias sąskaitas bus atspausdintos.
 
-## <a name="references-to-original-invoices-in-debit-notes"></a>Nuorodos į pradines SF debeto pažymose
-
-Pagal numatytuosius nustatymus galima įvesti kredito pažymų nuorodas į originalias SF. Pavyzdžiui, galite įvesti nuorodas, kai pradinių SF neigiamų (mažėjančių) pataisymų metu.
-
-Norėdami įvesti nuorodas, kai darote teigiamus (didėjančius) pradinių SF taisymus, turite įgalinti nuorodas į **pradines SF funkcijų valdymo darbo srityje debeto** funkciją **Funkcijų valdymas** darbo srityje.  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

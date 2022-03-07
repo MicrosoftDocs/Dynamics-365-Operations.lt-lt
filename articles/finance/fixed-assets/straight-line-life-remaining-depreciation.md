@@ -2,11 +2,9 @@
 title: Tiesiogiai proporcingas likutinės vertės nusidėvėjimas
 description: Šiame straipsnyje apžvelgiamas tiesiogiai proporcingo likutinės vertės nusidėvėjimo metodas.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d2414ea97fefbec1e975498e171496e33057541c
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: b4c150b779ab3ea98ff3390b0dca5a7e7d892ba40a60d350f3a721e0d4e6ca3e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4969009"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6733010"
 ---
 # <a name="straight-line-life-remaining-depreciation"></a>Tiesiogiai proporcingas likutinės vertės nusidėvėjimas
 
@@ -57,9 +55,9 @@ Lauke **Nusidėvėjimo metai** pasirinkus **Finansiniai metai**, likusio tiesiog
 ## <a name="example-of-straight-line-depreciation-of-an-unchanged-fixed-asset"></a>Tiesiogiai proporcingo nepasikeitusio ilgalaikio turto nusidėvėjimo pavyzdys
 Toliau nurodytos ilgalaikio turto charakteristikos.
 
-|                     |        |
+| Laukas               | Reikšmė  |
 |---------------------|--------|
-| Įsigijimo savikaina    | 11 000 |
+| Įsigijimo savikaina    | 11,000 |
 | Likvidacinė vertė       | 1000  |
 | Nusidėvėjimo pagrindas   | 10.000 |
 | Aptarnavimo laikas metais  | 5      |
@@ -79,3 +77,6 @@ Nusidėvėjimo suma yra ta pati kiekvienais metais: (įsigijimo išlaidos – li
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

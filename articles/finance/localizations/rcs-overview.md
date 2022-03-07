@@ -3,26 +3,24 @@ title: Regulatory Configuration Service
 description: Šioje temoje pateikiama „Regulatory Configuration Service” (RCS) galimybių apžvalga ir paaiškinama, kaip pasiekti paslaugą.
 author: JaneA07
 ms.date: 06/04/2021
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: RCS, Regulatory Configuration Services, Localization
 audience: Application User
 ms.reviewer: kfend
-ms.custom:
-- "97423"
-- intro-internal
+ms.custom: 97423
 ms.assetid: ''
 ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-02-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 816b1bf9da9acdd5999320f39fb68fb6deda197c
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
-ms.translationtype: MT
+ms.openlocfilehash: 7f946988f124c814452e1774c700d5c7354f39b0
+ms.sourcegitcommit: 60afcd85b3b5b9e5e8981ebbb57c0161cf05e54b
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983472"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6216567"
 ---
 # <a name="regulatory-configuration-service"></a>Regulatory Configuration Service
 
@@ -43,15 +41,12 @@ ms.locfileid: "7983472"
 
 Galite užsiregistruoti arba prisijungti prie RCS iš [„Regulatory Configuration Service” puslapio](https://marketing.configure.global.dynamics.com/).
 
-![RCS registravimasis/prisijungimas.](media/202103_RCS%20Marketing%20page_updated_1.jpg)
+![RCS registravimasis/prisijungimas](media/202103_RCS%20Marketing%20page_updated_1.jpg)
 
 Puslapyje **„Regulatory Configuration Service”** peržiūrėkite ir priimkite papildomas paslaugos naudojimo sąlygas ir pasirinkite vieną iš šių mygtukų:
 
 - **Registruotis**, jei pirmą kartą naudojatės paslauga ir naudojate darbo el. pašto adresą, kad savo organizacijai parengtumėte paslaugų aplinką
 - **Prisijungti**, jeigu anksčiau buvote prisiregistravę prie paslaugos ir norite pasiekti savo organizacijos aplinką
-
-> [!NOTE] 
-> Pasirašius rekomenduojame į RCS aplinką įtraukti papildomą SysAdmin vartotoją. Šis vartotojas bus laikomas aplinkos sudėtiuoju administratoriumi. Tai padės užtikrinti RCS aplinkos stabilumą, nes SysAdmin vaidmuo – valdyti tos aplinkos vartotojus. Galite pridėti vartotojus naudodami **RCS darbo sritį > administravimo sistemoje**.
 
 ## <a name="regional-availability"></a>Regioninis prieinamumas
 
@@ -96,7 +91,7 @@ Daugiau informacijos apie susijusius komponentus rasite šiose temose:
 
 Kai prisiregistruojate prie RCS aptarnavimo puslapyje, galite susidurti su problema, kuri susijusi „Azure Active Directory“ („Azure AD“). Klaidos pranešimas, kurį gaunate, nurodo, kad RCS registracija šiuo metu išjungta ir turi būti įjungta prieš užbaigiant registracijos procesą.
 
-![RCS registracijos klaidos pranešimas.](media/01_RCSSignUpError.jpg)
+![RCS registracijos klaidos pranešimas](media/01_RCSSignUpError.jpg)
 
 Problema kyla dėl to, kad jūs blokuojate ad hoc abonementų pasirašymą ir ypatybė turi būti įgalinta `AllowAdHocSubscriptions` jūsų nuomininke. 
 

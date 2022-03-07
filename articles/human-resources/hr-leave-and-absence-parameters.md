@@ -1,33 +1,35 @@
 ---
 title: Atostogų ir neatvykimų parametrų konfigūravimas
-description: Žmogiškųjų išteklių parametrų, skirtų atostogoms ir neatvykimams, nustatymas programoje „Dynamics 365 Human Resources“.
-author: andreabichsel
-manager: tfehr
-ms.date: 11/02/2020
+description: Šioje temoje aprašoma, kaip apibrėžti žmogiškųjų išteklių parametrus atostogoms ir nebuvimui Dynamics 365 Human Resources.
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: LeavePlanFormPart, LeaveAbsenceWorkspace
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e1b2de94f9d9ac1ada16b6ef0e7628edbc9d683f
-ms.sourcegitcommit: ffb5998e611b83c2e4f98323f39e3e8f6419c652
-ms.translationtype: HT
+ms.openlocfilehash: 7bd1aebd633af0530c550f8ec7510a0c09985ca1
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/02/2020
-ms.locfileid: "4419809"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8067357"
 ---
 # <a name="configure-leave-and-absence-parameters"></a>Atostogų ir neatvykimų parametrų konfigūravimas
 
-Prieš nustatant atostogų ir neatvykimų planus „Dynamics 365 Human Resources“, naudinga patikrinti visus susijusius žmogiškųjų išteklių parametrų nustatymus, įskaitant:
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+Prieš nustatydami atostogų ir nebuvimo planus Dynamics 365 Human Resources, verta patikrinti visų susijusių parametrų nustatymus **Žmogiškųjų išteklių parametrai**, įskaitant:
 
 - Atostogų užklausų numeraciją
 - Nedarbingumo dėl ligos ar slaugymo akto (FMLA) parametrus
@@ -75,7 +77,7 @@ Prieš nustatant atostogų ir neatvykimų planus „Dynamics 365 Human Resources
 
     - Pasirinkite **Balanso skaičiavimas** rodyti balansams nuo šiandien arba nuo kaupimo laikotarpio. Jei pasirinksite **Šiandienos balansas**, balansas rodys visus šiandienos kaupimus, koregavimus ir užklausas. Jei pasirinksite **Kaupimo laikotarpio balansas**, balansas rodys visus kaupimo laikotarpio, nustatyto pagal atostogų plano dažnumą, kaupimus, koregavimus ir užklausas. 
 
-    - Nustatykite pradžios laiką paketinės užduoties galiojimo pabaigai perkelti.  
+    - Nustatyti **Pradžios laikas** už **Perkelti galiojimo laiką** paketinis darbas.  
     
     - Pasirinkite **Taip** dalyse **Leisti darbuotojams pirkti atostogas** ir **Leisti darbuotojams parduoti atostogas**. Jei pasirinksite **Taip** šioms parinktims, galite kurti atostogų pirkimo ir pardavimo strategijas ir įgalinti darbuotojus pateikti atostogų pirkimo ir pardavimo užklausas.
 
@@ -92,3 +94,6 @@ Prieš nustatant atostogų ir neatvykimų planus „Dynamics 365 Human Resources
 ## <a name="see-also"></a>Taip pat žiūrėkite
 
 - [Atostogų ir neatvykimų apžvalga](hr-leave-and-absence-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

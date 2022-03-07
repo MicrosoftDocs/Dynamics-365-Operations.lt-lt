@@ -1,7 +1,7 @@
 ---
 title: Numatytieji dimensijų ir produkto variantų užsakymo parametrai
 description: Numatytuose užsakymo parametruose nurodyta vieta ir sandėlis, iš kurių bus paimamos arba kuriuose bus laikomos prekės, minimalūs, maksimalūs, sudėtiniai ir standartiniai kiekiai, kurie bus naudojami prekiaujant arba valdant atsargas, vykdymo laikai, stabdymo vėliavėlė ir užsakymų vykdymo perspektyvos būdas.
-author: johanhoffmann
+author: t-benebo
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: 223084
 ms.assetid: fbfbcd7b-dc75-44ab-bffc-8bad576804a4
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: johanho
+ms.author: benebotg
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: dca0aba081321dff5ae061ebe4bddcae0e42bc54
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
-ms.translationtype: MT
+ms.openlocfilehash: 73e6a45dedba0831c15d70ad35676c62a14acabb
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8102769"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5809163"
 ---
 # <a name="default-order-settings-for-dimensions-and-product-variants"></a>Numatytieji dimensijų ir produkto variantų užsakymų parametrai
 
@@ -115,7 +115,7 @@ Galite nurodyti bet kurios aktyvios produkto dimensijos arba aktyvių produkto d
 
 Atkreipkite dėmesį į toliau pateikiamą produkto pavyzdį.
 
-| Produktas                                                | Reikšmė                                   |
+|                                                     |                                         |
 |-----------------------------------------------------|-----------------------------------------|
 | **Produkto pavadinimas**                                    | Fotoelektrinis jutiklis                    |
 | **Prekės Nr.**                                     | XW56                                    |
@@ -186,9 +186,12 @@ Galite pasirinkti sistemos griežtumo lygį tvirtinant kiekius įvestus **Iš an
 
 Griežtas patvirtinimas taikomas **Standartiniam užsakymo kiekio** vertėms nurodytoms **Įsigijimo užsakymas**, **Inventorius** ir **Prekybos užsakymas** „FastTabs“ **Nustatytojo užsakymo parametro** puslapyje. Kiekvienas „FastTab“ turi savo **Daugelį** nustatymų, kurie yra naudojami patvirtinti **Standartinio užsakymo kiekio** vertę nurodytą tam „FastTab“.
 
-### <a name="turn-the-strict-validation-option-on-or-off"></a>Įjungti arba išjungti griežtą tikrinimo parinktį
+### <a name="enable-the-strict-validation-option"></a>Įjungti griežtą patvirtinimo parinktį
 
-Norint naudoti griežtą tikrinimą *, jūsų sistemai turi* būti įjungta numatytojo užsakymo kiekių griežto tikrinimo funkcija. Kaip ir tiekimo grandinės valdymo versija 10.0.21 ši funkcija įjungiama pagal numatytąjį nustatymą. Kaip ir tiekimo grandinės valdymas 10.0.25 ši funkcija yra privaloma ir jos išjungti negalima. Jei naudojate senesnę nei 10.0.25 versiją, [...](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)*šią* funkciją galite įjungti arba išjungti nueidami į Funkcijų valdymą ir ieškodami numatytosios užsakymo kiekių funkcijos Griežtas tikrinimas.
+Prieš tai, kai galite naudoti griežtą patvirtinimo parinktį, ji turi būti įjungta jūsų sistemoje. Administratoriai gali naudoti [Funkcijas valdymo](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) puslapį tam, kad patikrintų funkcijos būseną ir įjungtų ją, jei reikia. Čia funkcija yra nurodyta kaip:
+
+- **Modulis** - *Produkto informacijos valdymas*
+- **Funkcijos pavadinimas** - *Griežtas patvirtinimas dėl nustatytųjų užsakymo kiekio*
 
 ### <a name="set-the-validation-option"></a>Nustatykite patvirtinimo parinktį
 

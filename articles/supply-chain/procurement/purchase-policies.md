@@ -1,28 +1,28 @@
 ---
 title: Pirkimo strategijų apžvalga
 description: Šiame straipsnyje pateikta informacija apie pirkimo strategijas. Pirkimo strategija yra taisyklių rinkinys, valdantis paraiškos procesą. Pirkimo strategijos padeda įsigijimo administratoriams įgyvendinti įsigijimo strategiją sukuriant strategijos struktūrą, suderintą su organizacijos strateginio pirkimo reikalavimais.
-author: RichardLuan
-manager: tfehr
+author: Henrikan
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchReqSourcingPolicyRule, SysPolicy, SysPolicyListPage, PurchReqControlRule, RequisitionReplenishCatAccessPolicyRule, PurchReApprovalPolicyRule, RequisitionReplenishControlRule, PurchReqControlRFQRule
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: 11614
+ms.custom:
+- "11614"
+- intro-internal
 ms.assetid: 729a304d-0f3f-4ccb-bd5b-46ee0976c57f
 ms.search.region: Global
-ms.author: riluan
+ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: def842116e0c6c57d407cb4fb30a26a9e17d9a2c
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
-ms.translationtype: HT
+ms.openlocfilehash: 3cc150ae1a912fbfb4daf505e4240786c2f380a3
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5022211"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7982282"
 ---
 # <a name="purchasing-policies-overview"></a>Pirkimo strategijų apžvalga
 
@@ -134,7 +134,7 @@ Pirkimo užsakymo kūrimo ir poreikio konsolidavimo taisyklė nurodo, kurias str
 -   Skirtuke **Leistinas kainos nuokrypis** galite nustatyti taisykles, kurios naudojamos siekiant patvirtintas pirkimo paraiškas nukreipti atgal į peržiūros procesą, kai padidėja įsigijimo katalogo prekės kaina. Nustatykite didžiausią sumą, kuria pirkimo paraiškos eilutės prekės grynoji suma gali būti padidinta nuo pirkimo paraiškos patvirtinimo ir pirkimo užsakymo sukūrimo laiko. Grynoji suma apskaičiuojama pagal šią formulę: (\[Kiekis × (Vieneto kaina – Nuolaida) ÷ Kainos vienetas\] + Papildomos pirkimo išlaidos) × (100 – nuolaidos procentas) ÷ 100. Jūsų nustatytą kainos nuokrypį viršijančios pirkimo paraiškos eilutės apdorojamos neautomatiškai. Taisyklės, kurias galite konfigūruoti skirtuke **Klaidų apdorojimas**, nustato, kaip apdorojamos pirkimo paraiškos eilutės.
 -   Skirtuke **Klaidų apdorojimas** galite konfigūruoti apdorojimo taisyklę, taikomą pirkimo paraiškai, jei jos patvirtinimas pirkimo užsakymo kūrimo metu nepavyksta dėl tiekėjo klaidos arba kainos nuokrypio klaidos. Pasirinkite vieną iš toliau pateiktų pasirinkčių:
     -   **Veiksmų nėra** – pirkimo paraiškos eilutės lieka puslapyje **Išleisti patvirtintas pirkimo paraiškas**. Pirkimo paraiškos eilučių būsena lieka **Patvirtinta**. Tačiau klaidos turi būti išspręstos, kad pirkimo užsakymas galėtų būti generuojamas pirkimo paraiškos eilutėms.
-    -   **Atšaukti pirkimo paraiškos eilutę** – atšaukiamos pirkimo paraiškos eilutės. Prašytojas gali sukurti naują pirkimo paraišką atšauktoms eilutėms, jei jis ar ji vis dar nori prašyti eilutės elementų.
+    -   **Atšaukti pirkimo paraiškos eilutę** – atšaukiamos pirkimo paraiškos eilutės. Prašytojas gali sukurti naują pirkimo paraišką atšauktoms eilutėms, jei jis vis dar nori prašyti eilutės elementų.
     -   **Kurti naują pirkimo paraiškos eilutę** – kuriamos pirkimo paraiškos eilutės. Generuojamos naujos pirkimo paraiškos, kuriose yra tik pirkimo paraiškos eilutės, kurių tikrinimas nepavyko. Naujai sugeneruotų pirkimo paraiškų būsena yra **Juodraštis**. Šias pirkimo paraiškas galima pateikti pakartotinai peržiūrėti po to, kai tikrinimo klaidos buvo išspręstos. Pirkimo paraiškos eilučių rengėjui yra pranešama, kad eilutės buvo atšauktos, ir kad naujos pirkimo paraiškos buvo sugeneruotos pirkimo paraiškos eilutėms, kurių tikrinimas nepavyko.
 -   Skirtuke **Neautomatinis pirkimo užsakymo kūrimas** galite nurodyti parametrus, kurie nustato, ar pirkimo paraiška turi būti apdorojama neautomatiniu būdu, ar ji gali būti automatiškai konvertuojama į pirkimo užsakymą. Parametrus galite taikyti vidaus katalogo prekėms, išorės katalogo prekėms arba ne katalogo prekėms. Pasirinkite vieną iš toliau pateiktų pasirinkčių:
     -   **Kurti pirkimo užsakymus neautomatiškai** – visų pirkimo paraiškų pirkimo užsakymus kurkite neautomatiškai.
@@ -150,3 +150,6 @@ Pirkimo užsakymo kūrimo ir poreikio konsolidavimo taisyklė nurodo, kurias str
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

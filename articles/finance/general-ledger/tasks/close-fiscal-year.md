@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e1ade9af06848b125fb6253ea1182f6098588150
-ms.sourcegitcommit: 88f8a0369ce66b82314db9639491b695e18a7e5c
-ms.translationtype: MT
+ms.openlocfilehash: 013a5b1ac5b99c6a8ac75885e6d65067d5ed4c2ffd5cc5f625a73963666c0a81
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7902512"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6779511"
 ---
 # <a name="close-the-fiscal-year"></a>Uždaryti finansinius metus
 
@@ -36,7 +36,7 @@ ms.locfileid: "7902512"
 
 4. Nustatykite parinktį **Kurti uždarymo operacijas perkėlimo metu** į Taip arba Ne.
 
-    Jei nustatyta parinktis Taip, sukuriamos dvi operacijos. Finansiniais metais sukuriamas vienas kvitas, skirtas visų DK sąskaitų balansams suskurti iki nulio, o kitais finansiniais metais pradžios balansų kvitas sukuriamas antras kvitas. Jei nustatyta parinktis Ne, sukuriamas vienas kvitas, skirtas kitų finansinių metų pradžios balansams.  
+    Jei nustatyta parinktis Taip, sukuriamos dvi operacijos. Sukuriamas vienas kvitas, skirtas uždaromiems finansiniams metams, kad pelno ir nuostolių DK sąskaitų balansai būtų lygūs nuliui, ir sukuriamas kitas kvitas, skirtas kitų finansinių metų pradžios balansams. Jei nustatyta parinktis Ne, sukuriamas vienas kvitas, skirtas kitų finansinių metų pradžios balansams.  
 
 5. Nustatykite parinktį **Nustatyti finansinių metų būseną kaip Uždaryta visam laikui** į Taip arba Ne.
 

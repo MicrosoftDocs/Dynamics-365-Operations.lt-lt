@@ -2,11 +2,9 @@
 title: Lanksčiųjų kreditų programų sąranka
 description: Galite naudoti lanksčiųju kreditų programas programoje „Microsoft Dynamics 365 Human Resources”, kad užregistruotumėte darbuotojus išmokoms gauti pagal iš anksto nustatytą lanksčiųjų kreditų skaičių.
 author: andreabichsel
-manager: AnnBe
 ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: BenefitCreditPrograms, BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
@@ -18,14 +16,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 157984479a041f0bf4555aa96ed3f7e62e415d81
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: be5b845337f2ac0ec608b48c209abd36443e7b89
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419676"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5805759"
 ---
 # <a name="set-up-flex-credit-programs"></a>Lanksčiųjų kreditų programų sąranka
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Galite naudoti lanksčiųju kreditų programas programoje „Microsoft Dynamics 365 Human Resources”, kad užregistruotumėte darbuotojus išmokoms gauti pagal iš anksto nustatytą lanksčiųjų kreditų skaičių. Darbuotojai gali pasirinkti, kaip priskirti savo lanksčiuosius kreditus. Pavyzdžiui, jeigu darbuotojui taikomas sutuoktinio sveikatos draudimo planas, jie gali norėti naudoti kreditus, kuriuos būtų naudoję sveikatos draudimui, kitoms išmokoms. 
 
@@ -45,3 +45,6 @@ Galite naudoti lanksčiųju kreditų programas programoje „Microsoft Dynamics 
    | **Proporcingumo taisyklė** | Taisyklė, naudojama proporcingai paskirstyti lanksčiuosius kreditus, kai darbuotojas pasamdytas lanksčiųjų kreditų laikotarpio viduryje. </br></br><ul><li>**Nėra** – darbuotojas negauna lanksčiųjų kreditų, jei jis pasamdytas po lanksčiųjų kreditų programos laikotarpio pradžios.</li><li>**Visas kreditas** – darbuotojas gauna visą lanksčiųjų kreditų sumą, neatsižvelgiant į tai, kada jis įdarbintas.</li><li>**Proporcingai paskirstyti** – darbuotojas gauna proporcingai paskirstytą lanksčiųjų kreditų sumą, pagrįstą pagal tai, kada įdarbinimo pradžios data.</li></ul> |
    | **Lanksčiųjų kreditų proporcingumo formulė** | Taisyklė, naudojama proporcingai paskirstyti lanksčiuosius kreditus darbuotojams, pasamdytiems lanksčiųjų kreditų programos išmokų laikotarpio viduryje. Proporcingumas paremtas įdarbinimo pradžios data. Šis laukas naudojamas, tik jei lauke **Proporcingumo taisyklė** pasirinkote **Proporcingai paskirstyti**. </br></br><ul><li>**Kasdien** – proporcingai paskirstomas lanksčiųjų kreditų skaičius, kurį darbuotojas gauna kasdien. Bendras lanksčiųjų kreditų skaičius padalijamas iš laikotarpio dienų skaičiaus. Pavyzdžiui, jeigu jūsų išmokų laikotarpis yra 400 dienų, sistema padalins bendrą lanksčiųjų kreditų skaičių iš 400, kad apskaičiuotų lanksčiųjų kreditų skaičių, kurį per dieną gauna darbuotojai.</li><li>**Einamasis mėnuo** – proporcingai paskirstomas lanksčiųjų kreditų skaičius, kurį darbuotojas gauna per mėnesį, ir suapvalinamas iki esamo mėnesio. Bendras lanksčiųjų kreditų skaičius padalijamas iš laikotarpio mėnesių skaičiaus. Pavyzdžiui, jeigu jūsų išmokų laikotarpis yra 15 mėnesių, sistema padalins bendrą lanksčiųjų kreditų skaičių iš 15, kad apskaičiuotų lanksčiųjų kreditų skaičių, kurį per mėnesį gauna darbuotojai.</li><li>**Kitas mėnuo** – proporcingai paskirstomas lanksčiųjų kreditų skaičius, kurį darbuotojas gauna per mėnesį, ir suapvalinamas iki kito mėnesio. Bendras lanksčiųjų kreditų skaičius padalijamas iš laikotarpio mėnesių skaičiaus. Pavyzdžiui, jeigu jūsų išmokų laikotarpis yra 15 mėnesių, sistema padalina bendrą lanksčiųjų kreditų skaičių iš 15, kad apskaičiuotų lanksčiųjų kreditų skaičių, kurį per mėnesį gauna darbuotojai.</li></ul> |
    
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

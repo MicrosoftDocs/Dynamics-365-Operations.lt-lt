@@ -2,25 +2,23 @@
 title: Siuntų konsolidacija naudojant siuntų konsolidacijos darbo sritį
 description: Šioje temoje pateikiamas scenarijus, kai į sandėlį išleidžiami keli užsakymai, o vėliau jie konsoliduojami į siuntas naudojant siuntos konsolidacijos darbo sritį.
 author: GarmMSFT
-manager: tfehr
 ms.date: 05/12/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSShipConsolidationPolicy, WHSShipConsolidationWorkbench, WHSShipConsolidationSetShipment
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: mirzaab
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: 9d0a2671e18603f701d343a4150128a04c626952
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.openlocfilehash: 916d83c3773b557ae2d89d554846263a740111ea
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4963390"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7578661"
 ---
 # <a name="consolidate-shipments-by-using-the-shipment-consolidation-workbench"></a>Siuntų konsolidacija naudojant siuntų konsolidacijos darbo sritį
 
@@ -266,3 +264,6 @@ Turėtų būti sukurtos keturios siuntos.
 
 - [Siuntos konsolidacijos strategijos](about-shipment-consolidation-policies.md)
 - [Siuntos konsolidacijos strategijų konfigūravimas](configure-shipment-consolidation-policies.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

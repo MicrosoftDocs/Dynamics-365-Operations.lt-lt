@@ -2,28 +2,25 @@
 title: Mokėtinų sumų pagrindinis puslapis
 description: Šioje temoje apžvelgiamas modulis Mokėtinos sumos.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 02/15/2019
 ms.topic: index-page
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendInvoiceWorkspace
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 21901
 ms.assetid: 1e4c2ac4-077b-4678-8733-5cec8f6ff659
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 6a6f53007f8bd04724c43c518c5a9b10856b68d7
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 62e075fc26ee2e183cd859c5ec2c90faa3bfe3ab
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4459565"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897015"
 ---
 # <a name="accounts-payable-home-page"></a>Mokėtinų sumų pagrindinis puslapis
 
@@ -123,7 +120,7 @@ Tolesnėse temose pateikiama informacijos apie sudengimus. Sudengimas – tai mo
 
 #### <a name="whats-new-and-in-development"></a>Kas nauja ir kuriama
 
-Norėdami pamatyti, kokios naujos funkcijos planuojamos, eikite į tinklalapį [„Microsoft Dynamics 365” leidimo planai](https://go.microsoft.com/fwlink/?linkid=2010158). 
+Norėdami pamatyti, kokios naujos funkcijos planuojamos, eikite į tinklalapį [„Microsoft Dynamics 365” leidimo planai](/dynamics365/release-plans/). 
 
 #### <a name="blogs"></a>Tinklaraščiai
 
@@ -145,3 +142,6 @@ Peržiūrėkite mokomuosius vaizdo įrašus, kuriuos dabar galite rasti [„Micr
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

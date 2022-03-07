@@ -4,19 +4,18 @@ description: Šioje temoje pateikiama informacija apie debesies ir briaunos skal
 author: cabeln
 ms.date: 04/22/2021
 ms.topic: article
-ms.search.form: ScaleUnitWorkloadsWorkspace
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: cabeln
 ms.search.validFrom: 2021-04-13
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: ef81ef7ad726ebe0cc6a0acd58cb68d07e222a42
-ms.sourcegitcommit: 0d14c4a1e6cf533dd20463f1a84eae8f6d88f71b
-ms.translationtype: MT
+ms.openlocfilehash: 3111de1f9862cbf926e763f963c86059f4121fc0
+ms.sourcegitcommit: 4b7e9d074e368a08d2f75482b722dce0c69a4bbd
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/14/2022
-ms.locfileid: "8119192"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "7733444"
 ---
 # <a name="scale-units-in-a-distributed-hybrid-topology"></a>Skalės vienetai paskirstytoje topologijoje
 
@@ -52,7 +51,8 @@ Galite konfigūruoti savo telkinio aplinką ir pasirinktų darbo krūvių debesi
 
 ### <a name="dedicated-warehouse-management-workload-capabilities-in-a-scale-unit"></a>Priskirto sandėlio valdymo darbo krūvio pajėgumai skalės vienete
 
-Sandėlio valdymo darbo krūvis leidžia jūsų sandėlio operacijoms atlikti svarstyklių ir veikti resiliuojamoje aplinkoje, naudojant atskirus priežiūros langus. Sandėlio valdymo darbo krūvis palaiko daugumą įmonės centro sandėlio valdymo procesų. Daugiau informacijos rasite [Sandėlio valdymo darbo krūviai debesies ir briaunos skalės vienetams](cloud-edge-workload-warehousing.md).
+Sandėlio valdymo darbo krūvis leidžia paleisti sandėlio valdymo procesus diegiant atskirtą sistemą.
+Daugiau informacijos rasite [Sandėlio valdymo darbo krūviai debesies ir briaunos skalės vienetams](cloud-edge-workload-warehousing.md).
 
 ### <a name="dedicated-manufacturing-execution-workload-capabilities-in-a-scale-unit"></a>Priskirto gamybos vykdymo darbo krūvio pajėgumai skalės vienete
 
@@ -69,7 +69,7 @@ Daugiau informacijos rasite [Gamybos vykdymo darbo krūviai debesies ir briaunos
 
 Įgalindami paskirstytą, hibridinę topologiją, jūs pereinate savo „Supply Chain Management” debesies aplinką, kad ji veiktų kaip telkinys. Taip pat galite susieti papildomas aplinkas, kurios sukonfigūruotos kaip skalės vienetai debesyje arba briaunoje.
 
-### <a name="prerequisites-and-limitations-for-cloud-scale-units"></a><a name="cloud-scale-unit-prerequisites"></a>Debesies skalės vienetų būtinieji komponentai ir apribojimai
+### <a name="prerequisites-and-limitations-for-cloud-scale-units"></a><a name="cloud-scale-unit-prerequisites"></a> Debesies skalės vienetų būtinieji komponentai ir apribojimai
 
 Dabartiniame skalės vienetų leidime kai kurios galimybės dar nėra pasiekiamos, bet laikui bėgant, jos gali būti įtrauktos į vėlesnius leidimus.
 
@@ -114,7 +114,7 @@ Valdymo galimybės, galinčios padėti valdyti darbo krūvių judėjimą, yra ri
 
 Metrikos ir matavimai, galintys padėti pasirinkti geriausią programą jūsų skalės vienetams, dar nėra prieinami. Dirbkite su savo „Microsoft” kontaktu ar diegimo partneriu, kad pasirinktumėte naudingiausią programą.
 
-### <a name="data-processing-during-management-of-scale-units"></a><a name="data-processing-management"></a>Duomenų apdorojimas skalės vienetų valdymo metu
+### <a name="data-processing-during-management-of-scale-units"></a><a name="data-processing-management"></a> Duomenų apdorojimas skalės vienetų valdymo metu
 
 Kai įgalinsite „Dynamics 365” aplinką palaikyti paskirstytą, hibridinę topologiją debesies ir briaunos skalės vienetams, kai kurios valdymo paslaugos bus nuomojamos tik Jungtinėse Amerikos Valstijose, kaip ir LCS. Tai daro įtaką kai kurios administravimo ir konfigūravimo informacijos, kurią naudoja [Skalės vienetų valdymo portalas](https://sum.dynamics.com), perkėlimą ir saugojimą. Štai keletas pavyzdžių:
 
@@ -194,9 +194,9 @@ Skirtuke **Nustatyti darbo krūviai** naudokite **Sukurti darbo krūvį** mygtuk
 
 :::image type="content" source="media/cloud_edge-DefineWorkload.png" alt-text="Apibrėžti darbo krūvių dialogo langą.":::
 
-#### <a name="manage-workloads"></a><a name="manage-workloads"></a> Valdyti darbo krūvius
+#### <a name="manage-workloads"></a>Valdyti darbo krūvius
 
-Įgalinę vieną ar daugiau darbo krūvių, **naudodami parinktį Tvarkyti darbo krūvius galite inicijuoti ir valdyti procesus, pavyzdžiui, išvardytus** šioje lentelėje.
+Įgalinę vieną ar daugiau darbo krūvių, naudodami parinktį Tvarkyti darbo krūvius galite inicijuoti ir valdyti procesus, pavyzdžiui, **išvardytus** šioje lentelėje.
 
 | Apdorojimas | Aprašymas |
 |---|---|
@@ -205,35 +205,13 @@ Skirtuke **Nustatyti darbo krūviai** naudokite **Sukurti darbo krūvį** mygtuk
 | Naujinti darbo krūvius | Sinchronizuoti naujas funkcijas tarp centro ir skalės vieneto darbo krūvių. Jums gali reikėti naudoti šį procesą, pavyzdžiui, kai aptarnavimas lėmė duomenų mainų užklausų pasikeitimą ir (arba) prie darbo krūvio pridėjote naujas lenteles ar laukus. |
 | Perkelti darbo krūvius į svarstyklių vienetą | Suplanuoti darbo krūvį, kuris šiuo metu vykdomas ant svarstyklių vieneto, kad būtų perkeltas į svarstyklių vienetą. Kai vykdomas šis procesas, duomenų sinchronizavimas bus vykdomas, o ir centras, ir skalės vienetas bus nustatyti pakeisti darbo krūvio nuosavybę. |
 | Perkelti skalės vienetą į centrą | Planuoti darbo krūvį, kuris šiuo metu vykdomas svarstyklių vienetu, kad būtų perkeltas į centrą. Kai vykdomas šis procesas, duomenų sinchronizavimas bus vykdomas, o ir centras, ir skalės vienetas bus nustatyti pakeisti darbo krūvio nuosavybę.
-| Perėjimas nelaimės atveju į centrą | <p>Nedelsiant perkelkite esamą darbo krūvį į centrą. *Šio proceso metu bus pakeisti tik šiuo metu hube galimų duomenų nuosavybės teisės.*</p><p><strong>Perspėjimas:</strong> dėl šio proceso gali būti prarasti nesinchronizuoti duomenys ir nepavykęs verslo apdorojimas. Todėl jis turėtų būti naudojamas tik pagal regionus, kur verslo procesai turi būti apdorojami centre, nes svarstyklių vienetas turi panaudą, kurios negalima apriboti per pagrįstą laiką.</p> |
+| Perėjimas nelaimės atveju į centrą | <p>Nedelsiant perkelkite esamą darbo krūvį į centrą. *Šio proceso metu bus pakeisti tik šiuo metu hube galimų duomenų nuosavybės teisės.*</p><p><strong></strong> Perspėjimas: dėl šio proceso gali būti prarasti nesinchronizuoti duomenys ir nepavykęs verslo apdorojimas. Todėl jis turėtų būti naudojamas tik pagal regionus, kur verslo procesai turi būti apdorojami centre, nes svarstyklių vienetas turi panaudą, kurios negalima apriboti per pagrįstą laiką.</p> |
 | Perdkirstyta topologija | Pašalinkite skalės vieneto diegimą ir paleiskite tik ant centro, neišsiųsdami darbo krūvio. |
 
 :::image type="content" source="media/sum-manage-workloads.png" alt-text="Skalės vienetas ir darbo apkrovos valdymo patirtis.":::
 
 > [!TIP]
-> Laikui bėgant didėjantys patobulinimai bus įtraukti į Skalės vienetų valdymo patirtį, kad būtų lengviau atlikti ciklo valdymo operacijas. Konkretūs dabartinio paleidimo pajėgumai dokumentuojami insmitavimo vadove, kurį gali naudoti klientai, kurie turi galimybę pristatyti paskirstytą tiekimo grandinės valdymo topologiją. <!-- KFM: Add a link to the handbook when it is published -->
-
-## <a name="feature-management-considerations-for-workloads"></a>Funkcijos valdymo klausimai, skirti darbo krūviui
-
-Šiame skyriuje paaiškinami kai kurie svarbūs aspektai, į kuriuos turėtumėte atsižvelgti įdiegsdami darbo krūvius, įtraukdami funkcijas arba šalinate paskirstytos topologijos diegimo funkcijas. Keli scenarijai gali turėti įtakos, ar atlikę pakeitimus turėsite [paleisti](#manage-workloads) darbo krūvio atnaujinimą. Tačiau paprastai tai reikės atlikti atnaujindami ar priddami naujas duomenų mainų užklausas ir (arba) kai prie anksčiau įdiegto darbo krūvio pridedate naujų lentelių ar laukų.
-
-### <a name="mandatory-features-for-installing-a-workload"></a>Privalomos darbo krūvio diegimo funkcijos
-
-Kai įdiegiate darbo krūvį, diegimo proceso metu sukuriamas darbo krūvio apibrėžimas, kuriame pateikiama informacija apie duomenų lenteles, kurios naudojamos sinchronizuojant duomenis tarp šių dviejų diegimų. Darbo krūvio apibrėžimo kūrimas automatiškai tvarkomas remiantis funkcijomis, kurios šiuo metu įgalintos [funkcijų valdymo srityje](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md). Toliau esančioje lentelėje pateikiamos priemonės, kurios turi būti įgalintos, norint sugeneruoti darbo krūvio apibrėžimus, kurių reikia norint paleisti sandėlį arba gamybos darbo krūvį.
-
-| Privaloma priemonė | Darbo krūvis |
-|---|---|
-| Automatinis GUID priskirimas WHS vartotojo sukūrimo metu | Sandėlis |
-| Darbo blokavimas organizacijos mastu | Sandėlis |
-| Išsami siuntos bangos žymų informacija | Sandėlis |
-| Skalės vieneto palaikymas sandėlio programos darbo sąrašams | Sandėlis |
-| Gamybos vietos vykdymas | Gamyba |
-
-Kai diegiate darbo [krūvį naudodami vieno langelio programavimo aplinkos arba skalės vieneto tvarkytuvo portalo skalės](https://github.com/microsoft/SCMScaleUnitDevTools)[vieneto diegimo įrankius](https://sum.dynamics.com), visos privalomos funkcijos bus įgalintos automatiškai. Tačiau jei darysite neautomatinį tikrinimo diegimą, kuriame trūksta vienos ar daugiau privalomų priemonių, darbo krūvio įdiegti nepavyks ir gausite pranešimą, kuriame išvardytos trūkstamos funkcijos. Tada turite rankiniu būdu įgalinti šias priemones ir iš naujo skirstyti darbo krūvio diegimą.
-
-### <a name="enabling-or-disabling-features-that-have-data-synchronization-dependencies"></a>Įgalinimo arba išjungimo priemonės, kurių duomenų sinchronizavimo priklausomybė
-
-Priemonės, darančių įtaką duomenų, kurie sinchronizuojami tarp centro ir jo svarstyklių vienetų, pasirinkimui, taip pat daro įtaką darbo krūvio apibrėžimo nustatymui. Todėl svarbu, kad prieš diegiant darbo krūvį šios priemonės būtų įgalintos. Jei įgalinsite šio tipo funkciją paleisdami darbo krūvį, [turite](#manage-workloads) iš naujo sugeneruoti darbo krūvio aprašą paleisdami darbo krūvio atnaujinimą, kai įgalinsite funkciją. Taip pat, jei išjungsite funkciją, kuri turi duomenų sinchronizavimo priklausomybes paleisdami darbo krūvį, turite paleisti darbo krūvio atnaujinimą, [kad](#manage-workloads) iš darbo krūvio aprašo pašalintumėte reikiamą duomenų sinchronizavimo informaciją.
+> Laikui bėgant didėjantys patobulinimai bus įtraukti į Skalės vienetų valdymo patirtį, kad būtų lengviau atlikti ciklo valdymo operacijas. Konkretūs dabartinio leidimo pajėgumai yra dokumentuojami supažindinimo vadove, prieinamu tiems klientams, kurie šiuo metu susipažįsta su paskirstytąja, hibridine „Supply Chain Management” topologija. <!-- KFM: Add a link to the handbook when it is published -->
 
 [!INCLUDE [cloud-edge-privacy-notice](../../includes/cloud-edge-privacy-notice.md)]
 

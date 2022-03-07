@@ -2,33 +2,28 @@
 title: Atsargų buferių ir atsargų lygių konfigūravimas
 description: Šioje temoje paaiškinama, kaip konfigūruoti atsargų buferius ir atsargų lygius, kurie apibrėžia atsargų pasiekiamumo pranešimus „Microsoft Dynamics 365 Commerce“ svetainėse.
 author: boycezhu
-manager: annbe
 ms.date: 06/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Core, Operations, Retail
 ms.search.region: global
 ms.author: boycez
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: ef58dbb756c7bed3924010cb33eff27af66cd0bd
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 842389811169f785235de7ac7d9a49ab903f99ddf7d43f139aba0873a2577d72
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4414375"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6727538"
 ---
 # <a name="configure-inventory-buffers-and-inventory-levels"></a>Atsargų buferių ir atsargų lygių konfigūravimas
 
 [!include [banner](includes/banner.md)]
 
 Šioje temoje paaiškinama, kaip konfigūruoti atsargų buferius ir atsargų lygius, kurie apibrėžia pranešimus apie atsargų pasiekiamumą „Microsoft Dynamics 365 Commerce“ svetainėse.
-
-## <a name="overview"></a>Peržiūra
 
 „Dynamics 365 Commerce“ būstinėje saugomi atsargų duomenys ir įvairūs kanalai, pvz., elektroninis kasos aparatas (EKA), el. prekybos vitrinos ir kitos pasirinktinės integruotos programos, kurios asinchroniškai nuskaito ir įveda atsargų informaciją. Dėl to pasiekiamų atsargų reikšmės, gaunamos iš „Commerce“ būstinės turimų atsargų puslapio, naudojant EKA vartotojo sąsają (UI) ir el. prekybos atsargų pasiekiamumo API, ne visada pasiekiamos realiuoju laiku.
 
@@ -96,7 +91,7 @@ Kai sukuriamas naujas produktas, laukas **Atsargų lygio profilis** kaip ir daug
 
 Norėdami sinchronizuoti atsargų lygio profilių konfigūracijas su kanalais, atlikite tolesnius veiksmus.
 
-1. Eikite į **„Retail and Commerce“** \> **„Retail and Commerce IT“** \> **Paskirstymo grafikas**.
+1. Eikite į **Mažmeninė prekyba ir prekyba** \> **Mažmeninės prekybos ir prekybos IT“** \> **Paskirstymo grafikas**.
 1. Paleiskite paskirstymo grafiką **1040** (**Produktas**).
 
 ## <a name="configure-an-inventory-buffer"></a>Atsargų buferio konfigūravimas
@@ -125,14 +120,14 @@ Kai sukuriamas naujas produktas, laukas **Atsargų buferis** bus nustatytas į r
 
 Norėdami sinchronizuoti atsargų buferių konfigūracijas su kanalais, atlikite tolesnius veiksmus.
 
-1. Eikite į **„Retail and Commerce“** \> **„Retail and Commerce IT“** \> **Paskirstymo grafikas**.
+1. Eikite į **Mažmeninė prekyba ir prekyba** \> **Mažmeninės prekybos ir prekybos IT** \> **Paskirstymo grafikas**.
 1. Paleiskite paskirstymo grafiką **1040** (**Produktas**).
 
 ## <a name="use-inventory-buffers-and-inventory-levels-in-e-commerce-scenario"></a>Atsargų buferių ir atsargų lygių naudojimas el. prekybos scenarijuje
 
 „Commerce“ svetainės kūrimo priemonė naudoja atsargų buferio ir atsargų lygio galimybes „Commerce“ būstinėje, kad galėtų nustatyti atsargų pasiekiamumo pranešimus el. prekybos svetainėse. Daugiau informacijos žr. [Atsargų parametrų taikymas](inventory-settings.md).
 
-Taip pat, jei integruosite trečiosios šalies el. prekybos sprendimą, galite naudoti API **„GetEstimatedAvailability“** ir **„GetEstimatedProductWarehouseAvailability“**, kad produkto atsargų pasiekiamumas būtų rodomas jūsų el. prekybos scenarijuje. Norėdami gauti daugiau informacijos apie šias API, žr [Mažmeninės prekybos kanalų atsargų pasiekiamumo apskaičiavimas](calculated-inventory-retail-channels.md).
+Taip pat, jei integruosite trečiosios šalies el. prekybos sprendimą, galite naudoti API **„GetEstimatedAvailability“** ir **„GetEstimatedProductWarehouseAvailability“**, kad produkto atsargų pasiekiamumas būtų rodomas jūsų el. prekybos scenarijuje. Norėdami gauti daugiau informacijos apie šias API, žr. [Mažmeninės prekybos kanalų atsargų pasiekiamumo apskaičiavimas](calculated-inventory-retail-channels.md).
 
 Atsargų buferio ir atsargų lygių įvedimas suteikia šioms API galimybę pateikti atsargų lygio kodus ir etikečių pranešimus, kurie nustatomi atsižvelgiant į iš viso pasiekiamų ir fiziškai pasiekiamų atsargų reikšmes. API gali būti sukonfigūruota taip, kad būtų galima nustatyti, ar atsargų kiekis pateikiamas kartu su pranešimu, ar galimas kiekis sumažinamas atsargų buferio reikšme.
 
@@ -149,3 +144,6 @@ Norėdami sukonfigūruoti produkto pasiekiamumo API atsakymą, atlikite tolesniu
 [Atsargų parametrų taikymas](inventory-settings.md)
 
 [Mažmeninės prekybos kanalų atsargų pasiekiamumo apskaičiavimas](calculated-inventory-retail-channels.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

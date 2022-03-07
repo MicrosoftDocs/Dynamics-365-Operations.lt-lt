@@ -2,15 +2,12 @@
 title: Integravimas su „LinkedIn Talent Hub“
 description: Šioje temoje paaiškinama, kaip nustatyti „Microsoft Dynamics 365 Human Resources” ir „LinkedIn Talent Hub“ integravimą.
 author: jaredha
-manager: tfehr
 ms.date: 10/20/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -18,18 +15,19 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-10-20
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 6f70e3a6ccf9770c75334d355db5e9df9ee912dd
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
-ms.translationtype: HT
+ms.openlocfilehash: fb75c391809f1ce5c7d48728a735f347ef1784ed
+ms.sourcegitcommit: 696796ca5635863850ae9ef16fc1fb0fc46ce8f0
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527890"
+ms.lasthandoff: 08/28/2021
+ms.locfileid: "7441270"
 ---
 # <a name="integrate-with-linkedin-talent-hub"></a>Integravimas su „LinkedIn Talent Hub“
 
-[!include [banner](includes/preview-feature.md)]
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+> [!IMPORTANT]
+> Šioje temoje aprašytas integravimas tarp „LinkedIn Talent" centro ir „LinkedIn" bus naudojamas „Dynamics 365 Human Resources“ 2021 m. gruodžio 31 d. Po šios datos integravimo tarnyba nebebus galima. Organizacijos, kurios dar nenaudoja integravimo tarnybos, negalės įdiegti paslaugos prieš išeidami į pensiją.
 
 [„LinkedIn Talent Hub”](https://business.linkedin.com/talent-solutions/talent-hub) yra pretendentų sekimo sistemos (ATS) platforma. Ji leidžia vykdyti darbuotojų iešką bei valdyti ir samdyti darbuotojus vienoje vietoje. Integruodami „Microsoft Dynamics 365 Human Resources” su „LinkedIn Talent Hub” galite lengvai sukurti pretendentų, pasamdytų pareigoms, darbuotojų įrašus „Human Resources”.
 
@@ -49,7 +47,7 @@ Sistemos administratorius turi užbaigti sąrankos užduotis, kad būtų galima 
 
 5. Puslapyje **„Dynamics 365 Human Resources”** pasirinkite aplinką, kurią norite susieti su „LinkedIn Talent Hub”, tada pasirinkite **Susieti**.
 
-    ![„LinkedIn Talent Hub” parengimas](./media/hr-admin-integration-talent-hub-onboarding.jpg)
+    ![„LinkedIn Talent Hub” parengimas.](./media/hr-admin-integration-talent-hub-onboarding.jpg)
 
     > [!NOTE]
     > Galite susieti tik su aplinkomis, kuriose jūsų vartotojo abonementas turi administratoriaus prieigą prie „Human Resources” aplinkos ir susijusios „Power Apps” aplinkos. Jei „Human Resources” susiejimo puslapyje nėra pateiktų aplinkų, įsitikinkite, kad turite licencijuotų „Human Resources” aplinkų nuomotojuje ir kad vartotojui, kuriuo prisijungėte prie susiejimo puslapio, suteiktos „Human Resources” aplinkos ir „Power Apps” aplinkos administratoriaus teisės.
@@ -92,7 +90,7 @@ Reikia sukurti „LinkedIn Talent Hub” adapterio programos vartotoją, kad ada
 
 6. Naudokite išplečiamąjį meniu, esantį virš sąrašo, norėdami pakeisti rodinį iš numatytojo rodinio **Įgalinti vartotojai** į **Programos vartotojai**.
 
-    ![Rodinys Programos vartotojai](./media/hr-admin-integration-power-apps-application-users.jpg)
+    ![Rodinys Programos vartotojai.](./media/hr-admin-integration-power-apps-application-users.jpg)
 
 7. Įrankių juostoje pasirinkite **Naujas**.
 
@@ -127,14 +125,14 @@ Reikia sukurti „LinkedIn Talent Hub” adapterio programos vartotoją, kad ada
     - **Pavadinimas**: įveskite „Power Apps” saugos vaidmens, kurį sukūrėte anksčiau, pavadinimą, pvz., **„LinkedIn Talent Hub” HRIS integravimas**.
     - **Vartotojo ID**: pasirinkite vartotoją, kuris turi teises įrašyti duomenis personalo valdyme.
 
-### <a name="create-the-entity-in-common-data-service"></a>Objekto kūrimas „Common Data Service”
+### <a name="create-the-table-in-dataverse"></a>Kurti lenteles „Dataverse“
 
 > [!IMPORTANT]
-> Integravimas su „LinkedIn Talent Hub” priklauso nuo virtualių objektų, esančių „Common Data Service”, skirtoje „Human Resources”. Būtina šio sąrankos veiksmo sąlyga yra sukonfigūruoti virtualius objektus. Informacijos apie tai, kaip konfigūruoti virtualius objektus, žr. [„Common Data Service” virtualių objektų konfigūravimas](https://docs.microsoft.com/dynamics365/human-resources/hr-admin-integration-common-data-service-virtual-entities).
+> Integravimas su „LinkedIn Talent Hub“ priklauso nuo virtalių lentelių  Dataverse“ „Human Resources“. Kaip išankstines sąlygas šiam veiksmui nustatymuose, turite konfigūruoti virtualias lenteles. Dėl informacijos apie tai, kaip konfigūruoti virtualias lenteles, žr. [Konfigūruoti „Dataverse“ virtualias lenteles](./hr-admin-integration-common-data-service-virtual-entities.md).
 
-1. „Human Resources“ atidarykite puslapį **„Common Data Service“ (CDS) integravimas**.
+1. „Human Resources“, atverkite **„Dataverse“ integravimo** puslapį.
 
-2. Pasirinkite skirtuką **Virtualūs objektai**.
+2. Rinkitės **Virtualių lentelių** skirtuką.
 
 3. Filtruokite objektų sąrašą pagal objektų žymas, norėdami rasti **„LinkedIn” eksportuotas kandidatas**.
 
@@ -142,7 +140,7 @@ Reikia sukurti „LinkedIn Talent Hub” adapterio programos vartotoją, kad ada
 
 ## <a name="exporting-candidate-records"></a>Kandidatų įrašų eksportavimas
 
-Baigus sąranką, darbdaviai ir „Human resources” (HR) specialistai gali naudoti funkciją **Eksportuoti į HRIS**, esančią „LinkedIn Talent Hub”, norėdami eksportuoti pasamdyto kandidato įrašus iš „LinkedIn Talent Hub” į „Human Resources”.
+Užbaigus nustatymus, įdarbintojai ir žmogiškųjų išteklių (HR) darbuotojai gali naudoti **Eksportuoti į HRIS** funkciją „LinkedIn Talent Hub“ siekiant eksportuoti pasamdyto kandidato įrašus iš „LinkedIn Talent Hub“ į „Human Resources“.
 
 ### <a name="export-records-from-linkedin-talent-hub"></a>Įrašų eksportavimas iš „LinkedIn Talent Hub”
 
@@ -164,7 +162,7 @@ Kai kandidatas pereina įdarbinimo procesą ir yra pasamdomas, galima eksportuot
     - Lauke **Vieta** įveskite vietą, kurioje darbuotojas dirbs.
     - Įveskite arba patvirtinkite darbuotojo el. pašto adresą.
 
-![Sritis Eksportuoti į HRIS, esanti „LinkedIn Talent Hub”](./media/hr-admin-integration-linkedin-talent-hub-export.jpg)
+![Sritis Eksportuoti į HRIS, esanti „LinkedIn Talent Hub”.](./media/hr-admin-integration-linkedin-talent-hub-export.jpg)
 
 ## <a name="complete-onboarding-in-human-resources"></a>Parengimo užbaigimas „Human Resources”
 
@@ -188,5 +186,8 @@ Toliau pateikta informacija importuojama ir įtraukiama į naują darbuotojo įr
 
 ## <a name="see-also"></a>Taip pat žiūrėkite
 
-[„Common Data Service“ virtualių objektų konfigūravimas](./hr-admin-integration-common-data-service-virtual-entities.md)<br>
-[Kas yra „Common Data Service“?](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro)
+[Konfigūruokite „Dataverse“ virtualias lenteles](./hr-admin-integration-common-data-service-virtual-entities.md)<br>
+[Kas yra „Microsoft Dataverse“?](/powerapps/maker/common-data-service/data-platform-intro)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

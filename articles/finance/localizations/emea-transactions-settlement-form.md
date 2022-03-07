@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: CustVendTransPostingLog_RU
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 270544
 ms.search.region: Czech Republic, Estonia, Hungary, Latvia, Lithuania, Poland
 ms.author: epopov
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: d527f5417ddee57a54b0d65b1de0b4c8ced6ab75
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0034f38ebde15ae5a56632f6f59ec9a6f35a17a6
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408215"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5236180"
 ---
 # <a name="view-transactions-on-settlement-for-eastern-europe"></a>Sudengimo operacijų peržiūra (Rytų Europa)
 
@@ -48,3 +47,6 @@ Su sudengimu susijusi informacija yra išsaugoma ir ją galima peržiūrėti pus
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

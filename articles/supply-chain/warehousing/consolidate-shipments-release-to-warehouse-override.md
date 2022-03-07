@@ -1,12 +1,10 @@
 ---
-title: Siuntų konsolidacija, kai siuntos konsolidacijos strategijos nepaisoma puslapyje Išleisti į sandėlį
+title: Siuntų konsolidacija, kai siuntos konsolidavimo strategija yra perrašyta
 description: Šioje temoje pateikiamas scenarijus, kai viena ar daugiau pardavimo eilučių turi būti rankiniu būdu išleistos į sandėlį iš puslapio Išleisti į sandėlį, o sistemos nustatyta siuntos konsolidacijos strategija turi būti perrašyta prieš išleidimą.
 author: GarmMSFT
-manager: tfehr
 ms.date: 05/12/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSShipConsolidationPolicy, WHSShipConsolidationWorkbench, WHSFilterGroupTable, WHSShipConsolidationSetShipment, WHSShipmentConsolidation, WHSFilterGenerallyAvail, WHSReleaseToWarehouse
 audience: Application User
@@ -15,14 +13,14 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: 4aaaa7949d988607b38dd6e38a3c3497f227b8af
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 1f5d4752c3e3cc325972c6eacd293dc82512bf2eb465c7d06060bfc26327046c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4963341"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6717824"
 ---
-# <a name="consolidate-shipments-when-the-shipment-consolidation-policy-is-overridden-from-the-release-to-warehouse-page"></a>Siuntų konsolidacija, kai siuntos konsolidacijos strategijos nepaisoma puslapyje Išleisti į sandėlį
+# <a name="consolidate-shipments-when-the-shipment-consolidation-policy-is-overridden"></a>Siuntų konsolidacija, kai siuntos konsolidavimo strategija yra perrašyta
 
 [!include [banner](../includes/banner.md)]
 
@@ -83,3 +81,6 @@ Atlikite tolesnius veiksmus, norėdami peržiūrėti sukurtas siuntas.
 
 - [Siuntos konsolidacijos strategijos](about-shipment-consolidation-policies.md)
 - [Siuntos konsolidacijos strategijų konfigūravimas](configure-shipment-consolidation-policies.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

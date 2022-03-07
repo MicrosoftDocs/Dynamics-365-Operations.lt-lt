@@ -2,13 +2,16 @@
 title: Laiko rezervai
 description: Šioje temoje aprašoma, kaip galima naudoti laiko rezervus su planavimo optimizavimo papildiniu, skirtu „Microsoft Dynamics 365 Supply Chain Management”.
 author: ChristianRytt
+manager: tfehr
 ms.date: 09/14/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -16,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-9-14
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 7eb5128f3a337bd728cfe8e6d8d3deb0b6b5ef88
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
-ms.translationtype: MT
+ms.openlocfilehash: 8ab5f1c3cdfa990a73951ddc5a7469644954d5c2
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8074972"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4433466"
 ---
 # <a name="safety-margins"></a>Laiko rezervai
 
@@ -41,7 +44,7 @@ Yra trys laiko rezervų tipai:
 
 Toliau pateiktoje iliustracijoje parodyta, kaip šie laiko rezervai taikomi laikui bėgant.
 
-![Laiko rezervai.](media/safety-margins-1.png)
+![Laiko rezervai](media/safety-margins-1.png)
 
 Visi laiko rezervai apibrėžiami dienomis. Numatytoji vertė yra *0* (nulis), nurodanti, kad netaikomas laiko rezervas. Jei nustatote kelis laiko rezervus, jie visi įtraukiami į bendrą laiką nuo tiekimo *užsakymo datos* iki paklausos *poreikio datos*. Pavyzdžiui, sąrankoje nenustatytas gamybos laikas, o visi trys laiko rezervų tipai nustatyti į vieną dieną. Tokiu atveju nuo tiekimo užsakymo datos ir paklausos poreikio datos bus trys dienos, taigi, jei užsakymo data yra liepos 1 d., poreikio data būtų liepos 4 d.
 
@@ -51,7 +54,7 @@ Gavimo laiko rezervas yra turbūt labiausiai naudojamas iš trijų laiko rezerv�
 
 Toliau pateiktoje iliustracijoje pabrėžiamas gavimo laiko rezervas.
 
-![Gavimo laiko rezervas.](media/safety-margins-2.png)
+![Gavimo laiko rezervas](media/safety-margins-2.png)
 
 Gavimo laiko rezervas paprastai naudojamas kaip buferis, siekiant užtikrinti sandėlio registravimo laiką arba kitus daug laiko reikalaujančius procesus, kurie nėra fiksuojami kaip bendrojo gamybos laiko dalis sistemoje. Pirkimo atveju vienas privalumas yra tai, kad pirkimo užsakymo *pristatymo data* atitinkamai perkeliama į priekį. Jei pratęsite gamybos laiką, užuot naudoję laiko rezervą, tiekėjo vis tiek bus paprašyta pristatyti paskutinę minutę.
 
@@ -61,17 +64,23 @@ Atkreipkite dėmesį, kad gavimo laiko rezervas nėra taikomas, kai tiekimui nau
 
 ### <a name="reorder-margin"></a>Užsakymo laiko rezervas
 
+> [!NOTE]
+> **Jau greitai:** šios funkcijos planavimo optimizavimas dar nepalaiko. Kol ji nepalaikoma, visos reikšmės, įvestos **Užsakymo laiko rezervas, įtrauktas į prekės gamybos laiką**, nebus vertinamos kaip *0* (nulis).
+
 Toliau pateiktoje iliustracijoje pabrėžiamas užsakymo laiko rezervas.
 
-![Užsakymo laiko rezervas.](media/safety-margins-3.png)
+![Užsakymo laiko rezervas](media/safety-margins-3.png)
 
 Užsakymo laiko rezervas įtraukiamas prieš visų suplanuotų užsakymų prekių gamybos laiką bendrojo planavimo metu. Todėl tai užtikrina papildomą laiką, kurio reikia pateikti tiekimo užsakymui. Šis laiko rezervas paprastai naudojamas kaip buferis, siekiant užtikrinti patvirtinimo procesų ir kitų vidinių procesų, reikalingų kuriant tiekimo užsakymus, laiką. Užsakymo laiko rezervas pateikiamas tarp tiekimo *užsakymo datos* ir *pradžios datos*.
 
 ### <a name="issue-margin"></a>Išdavimo laiko rezervas
 
+> [!NOTE]
+> **Jau greitai:** šios funkcijos planavimo optimizavimas dar nepalaiko. Kol ji nepalaikoma, visos reikšmės, įvestos **Išdavimo laiko rezervas, atimtas iš poreikio datos**, nebus vertinamos kaip *0* (nulis).
+
 Toliau pateiktoje iliustracijoje pabrėžiamas išdavimo laiko rezervas.
 
-![Išdavimo laiko rezervas.](media/safety-margins-4.png)
+![Išdavimo laiko rezervas](media/safety-margins-4.png)
 
 Išdavimo laiko rezervas atimamas iš paklausos poreikio datos bendrojo planavimo metu. Tai padeda užtikrinti, kad turėtumėte laiko reaguoti į gaunamus poreikio užsakymus ir juos išsiųsti. Šis laiko rezervas paprastai naudojamas kaip buferis, siekiant užtikrinti siuntimo ir susijusių siunčiamų sandėlio procesų laiką.
 
@@ -81,7 +90,7 @@ Atkreipkite dėmesį, kad kai taikomas išdavimo laiko rezervas, nesutampa susij
 
 ### <a name="turn-on-safety-margins-in-feature-management"></a>Laiko rezervų įjungimas srityje Funkcijų valdymas
 
-Kad galėtumėte naudoti šią funkciją su planavimo optimizavimu, ji turi būti įjungta jūsų sistemoje. Administratoriai gali naudoti [Funkcijos valdymas](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) darbo sritį, norėdami sužinoti funkcijos būseną ir įjungti ją, jei reikia. Ten ši funkcija pateikiama taip:
+Kad galėtumėte naudoti šią funkciją su planavimo optimizavimu, ji turi būti įjungta jūsų sistemoje. Administratoriai gali naudoti [Funkcijos valdymas](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview) darbo sritį, norėdami sužinoti funkcijos būseną ir įjungti ją, jei reikia. Ten ši funkcija pateikiama taip:
 
 - **Modulis:** _Bendrasis planavimas_
 - **Funkcijos pavadinimas:** _Planavimo optimizavimo laiko rezervai_
@@ -159,7 +168,7 @@ Toliau pateikiamoje iliustracijoje vaizduojama matrica, kurioje apibendrinama, k
 - **Sandėlis (WH):** geltona
 - **Tiekėjas (V):** mėlyna
 
-[![Kalendoriaus nustatymo peržiūros matrica.](media/safety-margins-calendar-matrix.png)](media/safety-margins-calendar-matrix-high.png)
+[![Kalendoriaus nustatymo peržiūros matrica](media/safety-margins-calendar-matrix.png)](media/safety-margins-calendar-matrix-high.png)
 
 ## <a name="calculating-delays"></a>Atidėjimų skaičiavimas
 
@@ -167,13 +176,10 @@ Visi trys laiko rezervai įtraukiami, kai sistema nustato, ar užsakymas atidėt
 
 Pavyzdžiui, prekės gamybos laikas yra viena diena , o gavimo laiko rezervas yra trys dienos. Šios prekės pardavimo užsakymas nustatomas taip, kad jis reikalingas šiandien. Šiuo atveju atidėjimas skaičiuojamas kaip *gamybos laikas* + *gavimo laiko rezervas* = keturios dienos. Todėl, jei šiandien yra rugpjūčio 14 d., keturios atidėjimo dienos nustato pristatymą į rugpjūčio 18 d. Toliau pateikiamoje iliustracijoje vaizduojamas šis pavyzdys.
 
-![Atidėjimo skaičiavimo pavyzdys.](media/safety-margins-delays.png)
+![Atidėjimo skaičiavimo pavyzdys](media/safety-margins-delays.png)
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Darbo su planavimo optimizavimu pradžia](get-started.md)
 
 [Planavimo optimizavimo tinkamumo analizė](planning-optimization-fit-analysis.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

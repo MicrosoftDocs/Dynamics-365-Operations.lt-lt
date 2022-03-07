@@ -2,11 +2,9 @@
 title: Organizacijos hierarchijos planavimas
 description: Prieš nustatydami organizacijas ir hierarchijas įsitikinkite, kad suprantate, kaip geriausia modeliuoti savo verslą.
 author: sericks007
-manager: AnnBe
-ms.date: 08/28/2017
+ms.date: 02/19/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: OMHierarchyManager, OMLegalEntity, OMOperatingUnit
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 986d8986375aac9454483d89c46c1b2b6f52e68e
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
-ms.translationtype: HT
+ms.openlocfilehash: ef906c0d60639da763f2a9c1e1adf508b0849b8978dff17cd0e7b3936fc4779e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694694"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6771877"
 ---
 # <a name="plan-your-organizational-hierarchy"></a>Organizacijos hierarchijos planavimas
 
@@ -166,7 +164,7 @@ Valdymo vienetai naudoja pirminio juridinio subjekto šalies aplinką. Tam pači
 
 #### <a name="if-the-organization-is-modeled-as-a-legal-entity"></a>Ar organizacija modeliuojama kaip juridinis subjektas
 
-Palaikomiems šalims / regionams galima sukurti daugumą įstatymuose numatytų ataskaitų. Informacijos apie tai, kokios ataskaitos prieinamos kiekvienoje šalyje / regione, žr. [„Microsoft Dynamics“ lokalizavimo portale](https://mbs.microsoft.com/customersource/global/ax/support/support-news/GFMLocalizationPortalMC). (Reikia „CustomerSource“ prisijungimo.)
+Palaikomiems šalims / regionams galima sukurti daugumą įstatymuose numatytų ataskaitų. 
 
 > [!NOTE]
 > Didžiosios knygos registravimo sluoksnis suteikia galimybę atlikti koregavimo įrašus pirminei įmonei, naudojančiai kitą apskaitos standartą nei antrinė įmonė. Pavyzdžiui, įmonėje, kuri naudoja Jungtinės Karalystės visuotinai priimtą apskaitos praktiką (UK GAAP), galite atlikti koregavimo įrašus registravimo sluoksnyje. Šiuos įrašus galima konsoliduoti į pirminę įmonę, kuri naudoja JAV visuotinai priimtus apskaitos principus (GAAP). Koregavimo įrašai neturi įtakos UK GAAP ataskaitoms.
@@ -241,3 +239,6 @@ Keisti įmonių nereikia norint pasiekti duomenis iš kelių valdymo vienetų. K
 - Prieš modeliuodami pagrindinius pertvarkymo scenarijus, poveikio analizei ir tikrinimo bandymui atlikti naudokite hierarchijos įsigaliojimo datas.
 - Naudodami juodraščio režimą pakeiskite hierarchiją prieš publikuodami naują versiją gamybos aplinkoje.
 - Ribokite skaičių žmonių, turinčių teisę įtraukti organizacijos į hierarchiją arba šalinti iš jos gamybos aplinkoje. Mažesnis skaičius sumažina brangių klaidų ir reikalingų taisymų pavojų.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

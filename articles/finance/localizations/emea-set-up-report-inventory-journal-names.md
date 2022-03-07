@@ -1,28 +1,25 @@
 ---
 title: Atsargų žurnalo ataskaitos
 description: Kai naudojate konfigūruojamas atsargų ataskaitas, pagrįstas elektroninėmis ataskaitomis, turite nustatyti ryšį tarp konkrečios ataskaitos ir žurnalo tipo.
-author: ShylaThompson
-manager: AnnBe
+author: anasyash
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventJournalName
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 265144
 ms.search.region: Estonia, Hungary, Latvia, Lithuania, Poland
-ms.author: v-lenest
+ms.author: anasyash
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: f8b52043f9c09dfe7e80f9fec7b495acd3ccb590
-ms.sourcegitcommit: 092ef6a45f515b38be2a4481abdbe7518a636f85
-ms.translationtype: HT
+ms.openlocfilehash: c2e1f8c534cf63ee65d29ccaa797c8a5a339a87b
+ms.sourcegitcommit: 49f29aaa553eb105ddd5d9b42529f15b8e64007e
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4408249"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7592464"
 ---
 # <a name="inventory-journal-reports"></a>Atsargų žurnalo ataskaitos
 
@@ -30,7 +27,7 @@ ms.locfileid: "4408249"
 
 Kai naudojate konfigūruojamas atsargų ataskaitas, pagrįstas elektroninėmis ataskaitomis, turite nustatyti ryšį tarp konkrečios ataskaitos ir žurnalo tipo.
 
-Norėdami nustatyti ryšį tarp konkrečios ataskaitos ir žurnalo tipo, puslapyje **Atsargų žurnalų pavadinimai** (**Atsargų valdymas** &gt; **Sąranka** &gt; **Žurnalų pavadinimai** &gt; **Atsargos**) įveskite ataskaitos pavadinimą. **Pastaba.** Norėdami nustatyti palaikomas konfigūracijas, atsisiųskite reikiamas elektroninių ataskaitų konfigūracijas. Norėdami daugiau informacijos žr. [Elektroninių ataskaitų konfigūracijų atsisiuntimas iš „Lifecycle Services“](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md). Toliau nurodytoje lentelėje pateikti atsargų ataskaitų su Europoje palaikomomis konfigūracijomis pavyzdžiai.
+Norėdami nustatyti ryšį tarp konkrečios ataskaitos ir žurnalo tipo, puslapyje **Atsargų žurnalų pavadinimai** (**Atsargų valdymas** &gt; **Sąranka** &gt; **Žurnalų pavadinimai** &gt; **Atsargos**) įveskite ataskaitos pavadinimą. **Pastaba.** Norėdami nustatyti palaikomas konfigūracijas, atsisiųskite reikiamas elektroninių ataskaitų konfigūracijas. Norėdami daugiau informacijos žr. [Elektroninių ataskaitų konfigūracijų atsisiuntimas iš „Lifecycle Services“](../../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md). Toliau nurodytoje lentelėje pateikti atsargų ataskaitų su Europoje palaikomomis konfigūracijomis pavyzdžiai.
 
 | Šalis            |    Ataskaitos aprašymas               | Žurnalo tipas     |    Formato susiejimo pavadinimas                  |
 |--------------------|-------------------------------------|------------------|-----------------------------------------|
@@ -38,7 +35,7 @@ Norėdami nustatyti ryšį tarp konkrečios ataskaitos ir žurnalo tipo, puslapy
 | Latvija, Lenkija     | Atsargų perklasifikavimo dokumentas | Perkėlimas         | InventoryReclassificationDocument\_PLLV |
 | Estija            | Atsargų perklasifikavimo dokumentas | Perkėlimas         | InventoryReclassificationDocument\_EE   |
 | Lenkija             | Vidinis VG / VI                      | Judėjimas         | InventJournalLinesDocPL                 |
-| Latvija             |  Atsargų perkėlimo dokumentas         | Judėjimas         | Movement\_LV                            |
+| Latvija             | Atsargų perkėlimo dokumentas         | Judėjimas         | Movement\_LV                            |
 | Latvija             | Atsargų nurašymo dokumentas       | Koregavimas       | InventJournalLines\_LV                  |
 | Latvija             | Perkėlimo pristatymo pastaba              | Perkėlimas         | InternalTransferDeliveryNote\_LV        |
 | Latvija             | Skaičiavimo dokumento ataskaita            | Inventorizacija         | CountedDocument\_LV                     |
@@ -48,3 +45,6 @@ Norėdami nustatyti ryšį tarp konkrečios ataskaitos ir žurnalo tipo, puslapy
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

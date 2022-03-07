@@ -8,6 +8,7 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -15,21 +16,18 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-04-02
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 1857d2e35e369bcd0c8f02a059a307f31da8b3b9
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
-ms.translationtype: MT
+ms.openlocfilehash: 8026abd5c3e0f9b78e8c016731fd7785490bc945
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8067459"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5891107"
 ---
 # <a name="optimize-dataverse-virtual-table-queries"></a>„Dataverse“ virtualiųjų lentelių užklausų optimizavimas
 
-
-[!INCLUDE [PEAP](../includes/peap-1.md)]
-
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 ## <a name="issue"></a>Problema
 
@@ -50,14 +48,14 @@ Viena iš lėto Personalo valdymui skirtų „Dataverse” virtualiųjų lenteli
 Pavyzdys, kur galite pastebėti šį poveikį, yra užklausos pagal Darbuotojo (**„mshr_hcmworkerentity”**) arba Pagrindinio darbuotojo (**„mshr_hcmworkerbaseentity”**) objektą. Galite pastebėti, kad efektyvumo problema pasireiškia keliais skirtingais būdais:
 
 - **Lėtas užklausos vykdymas**: Užklausą pagal virtualiąją lentelę gali pateikti tikėtuosius rezultatus, bet užtrukti daugiau laiko nei tikėtasi užklausos vykdymui užbaigti.
-- **Užklausos skirtasis laikas** : gali pasibaigti užklausos skirtasis laikas ir pateikti šią klaidą: „Buvo gautas prieigos raktas iškviesti Finance and Operations, bet Finance and Operations grąžino klaidą, kurios tipas yra InternalServerError“.
+- **Užklausos skirtasis laikas**: Užklausai gali baigtis skirtasis laikas ir būti grąžinama ši klaida: „Atpažinimo ženklas, skirtas iškviesti „Finance and Operations”, buvo gautas, bet „Finance and Operations” grąžino vidinę serverio klaidą („InternalServerError”).”
 - **Netikėta klaida**: Užklausa gali grąžinti 400 tipo klaidą su šiuo pranešimu: „Įvyko netikėta klaida.”
 
-  ![Klaidos tipas 400 „HcmWorkerBaseEntity” objekte.](./media/HcmWorkerBaseEntityErrorType400.png)
+  ![Klaidos tipas 400 „HcmWorkerBaseEntity” objekte](./media/HcmWorkerBaseEntityErrorType400.png)
 
-- **Buferizavimas**: Užklausa gali pernelyg daug naudoti serverio išteklius ir todėl patirti buferizavimą. Šiuo atveju užklausa grąžina šią klaidą: „Gatas prieigos raktas, skirtas iškviesti Finance and Operations, bet Finance and Operations grąžino 429 tipo klaidą“. Daugiau informacijos apie buferizavimą Personalo valdyme rasite [Buferizavimo DUK](./hr-admin-integration-throttling-faq.md).
+- **Buferizavimas**: Užklausa gali pernelyg daug naudoti serverio išteklius ir todėl patirti buferizavimą. Tokiu atveju užklausa grąžina šią klaidą: „Buvo gautas atpažinimo ženklas „Finance and Operations” iškvietimui, tačiau „Finance and Operations” grąžino 429 tipo klaidą.” Daugiau informacijos apie buferizavimą Personalo valdyme rasite [Buferizavimo DUK](./hr-admin-integration-throttling-faq.md).
 
-  ![Klaidos tipas 429 „HcmWorkerBaseEntity” objekte.](./media/HcmWorkerBaseEntityErrorType429.png)
+  ![Klaidos tipas 429 „HcmWorkerBaseEntity” objekte](./media/HcmWorkerBaseEntityErrorType429.png)
 
 ## <a name="resolution"></a>Sprendimas
 
@@ -99,12 +97,12 @@ Jei kurdami „Power BI” ataskaitą pagal „Dataverse” virtualiąją lentel
 2. Lango **Gauti duomenis** ieškos lauke įveskite **„Common Data Service”**, pasirinkite **„Common Data Service”** jungtį, o tada – **Prisijungti**.
 3. „Common Data Service” lango lauke **Serverio Url** įveskite organizacijos URI jūsų „Dataverse” aplinkai ir pasirinkite **Gerai**.
   
-   ![Įveskite jūsų „Dataverse” aplinkos URI.](./media/PowerBIDataverseURLSetup.png)
+   ![Jūsų „Dataverse” aplinkos URI pavadinimas](./media/PowerBIDataverseURLSetup.png)
   
 4. Naršyklės lange išplėskite **Objektų** mazgą.
 5. Ieškos lauke įveskite **„mshr_hcmworkerbaseentity”** ir pasirinkite objektą.
 6. Pasirinkite **Transformuoti duomenis**.
-7. Viduje konors Power Query Redagavimo langas, pasirinkite **Išplėstinis redaktorius**.
+7. „Power Query“ rengyklės lange pasirinkite **Patobulinta rengyklė**.
 8. Lange **Patobulinta rengyklė** atnaujinkite užklausą, kad ji atrodytų kaip žemiau, pridėdami arba pašalindami masyvo stulpelius taip, kaip jums reikia.
 
    ```
@@ -116,14 +114,14 @@ Jei kurdami „Power BI” ataskaitą pagal „Dataverse” virtualiąją lentel
    in
      selectedWorkerBaseEntityColumns
    ```
-   ![Atnaujinkite užklausą išplėstinėje redagavimo priemonėje Power Query redaktorius.](./media/HcmWorkerBaseEntityPowerQueryEditor.png)
+   ![Užklausos atnaujinimas Patobulintoje rengyklėje, skirtoje „Power Query“ rengyklei](./media/HcmWorkerBaseEntityPowerQueryEditor.png)
 
 9. Pasirinkite **Atlikta**.
 
    > [!NOTE]
    > Jeigu anksčiau gavote 429 tipo užklausos klaidą, jums gali reikėti palaukti kartojimo laikotarpio prieš atnaujinant užklausą, kad ji būtų sėkmingai baigta.
 
-10. Spustelėkite **Uždaryti ir taikyti** ant Power Query Redaktoriaus veiksmų juosta.
+10. Paspauskite **Uždaryti & Taikyti** „Power Query“ rengyklės veiksmų juostoje.
 
 Tada galėsite pradėti kurti „Power BI” ataskaitą pagal stulpelius, pasirinktus iš virtualiosios lentelės.
 
@@ -141,7 +139,7 @@ Tarkim, jei vienas iš duomenų laukų, įtrauktų į programos puslapį, nurodo
 
 Galite naudoti [„Power Apps Monitor”](/powerapps/maker/monitor-overview), kad užtikrintumėte, jog tik jums reikalingi stulpeliai būtų įtraukti į užklausą, skirtą „Power App” duomenims gauti. Galite peržiūrėti „getRows” (gauti eilutes) operacijai sukurtą URL, siekiant užtikrinti, kad jūsų pasirinkti stulpeliai programai bus optimalūs duomenims nuskaityti.
 
-![Naudokite „Power Apps Monitor” operacijai „getData” (gauti duomenis) analizuoti.](./media/HcmWorkerBaseEntityPowerAppsMonitor.png)
+![Naudokite „Power Apps Monitor” operacijai „getData” (gauti duomenis) analizuoti](./media/HcmWorkerBaseEntityPowerAppsMonitor.png)
 
 ### <a name="filtering-the-data-query"></a>Duomenų užklausos filtravimas
 

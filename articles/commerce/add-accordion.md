@@ -2,15 +2,12 @@
 title: Akordeono modulis
 description: Šioje temoje aprašomi akordeono moduliai ir tai, kaip jų įtraukti į „Microsoft Dynamics 365 Commerce“ svetainių puslapius.
 author: anupamar-ms
-manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -18,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 2bb18539f610e5af05f8d9a20a0ba9f34db5c94f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: fa2515a0cbc5b69a1a69e15ec9e1ba2739fa2fbeffb5b0eb22b49fd8cab18e6f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4414265"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6719532"
 ---
 # <a name="accordion-module"></a>Akordeono modulis
 
@@ -31,19 +28,17 @@ ms.locfileid: "4414265"
 
 Šioje temoje aprašomi akordeono moduliai ir tai, kaip jų įtraukti į „Microsoft Dynamics 365 Commerce“ svetainių puslapius.
 
-## <a name="overview"></a>Peržiūra
-
 Akordeono moduliai yra į talpyklas panašūs moduliai, kurie naudojami organizuojant informaciją arba modulius puslapyje ir kurie suteikia sutraukiamus stalčius primenančią funkciją. Akordeono modulis gali būti naudojamas bet kuriame puslapyje.
 
 Kiekviename akordeono modulyje galima įtraukti vieną ar daugiau akordeono elementų modulių. Kiekvienas akordeono elementų modulis vaizduoja sutraukiamą stalčių. Kiekviename akordeono elementų modulyje galima įtraukti vieną ar daugiau modulių. Modulių, kuriuos galima įtraukti į akordeono elementų modulį, tipų apribojimų nėra.
 
 Toliau pateiktame paveikslėlyje parodytas akordeono modulio, kuris naudojamas parduotuvės dažnai užduodamų klausimų (DUK) puslapyje esančiai informacijai tvarkyti, pavyzdys.
 
-![Akordeono modulio pavyzdys](./media/ecommerce-accordion.PNG)
+![Akordeono modulio pavyzdys.](./media/ecommerce-accordion.PNG)
 
 ## <a name="accordion-module-properties"></a>Akordeono modulio ypatybės
 
-| Ypatybės pavadinimas | Reikšmės | aprašymas |
+| Ypatybės pavadinimas | Reikšmės | Aprašas |
 |---------------|--------|-------------|
 | Antraštė | Tekstas | Ši ypatybė nurodo pasirinktinę akordeono modulio teksto antraštę. |
 | Išplėsti viską | **Teisinga** arba **Klaidinga** | Jei reikšmė nustatyta kaip **Teisinga**, išplėtimo / sutraukimo funkcija yra įjungta ir visi akordeono modulyje esantys elementai gali būti išplėsti ir sutraukti. |
@@ -87,3 +82,6 @@ Norėdami į DUK puslapį įtraukti akordeono modulį ir nustatyti jo reikiamas 
 [Skirtuko modulis](add-tab.md)
 
 [Teksto bloko modulis](add-content-rich-block.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

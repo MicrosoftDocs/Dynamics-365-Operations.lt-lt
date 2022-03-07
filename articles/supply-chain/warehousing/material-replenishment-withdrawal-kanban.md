@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b90e4699c440d0dd753cd16ff17cf958507e7872138a7f2c2c84f645f713d3db
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7044aa84dc7ea7adc303c250e75ca6fb4a493800
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6742589"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5831247"
 ---
 # <a name="replenishment-with-withdrawal-kanbans"></a>Papildymas išėmimų „kanban“
 
@@ -30,12 +30,13 @@ ms.locfileid: "6742589"
 Šioje temoje aprašoma, kaip išėmimo „kanban“ naudojama medžiagų papildymui gamybos veikloje.
 
 ## <a name="workflow-for-material-replenishment-that-uses-the-withdrawal-kanban"></a>Darbo eigos medžiagų papildymas, kuriame naudojamas išėmimo „kanban“
+-------------------------------------------------------------------
 
 Išėmimo „kanban“ galima naudoti norint perkelti vienos prekės „kanban“ tarp sandėlių ir gamybos vietų, kur medžiaga naudojama. Išėmimo „kanban“ palaiko atgalinio planavimo medžiagų papildymo sprendimą, kuriame tam, kad būtų suaktyvintas tiekimas pagal tam tikrą poreikį, reikia atgalinio planavimo signalo. 
 
 Toliau pateiktame scenarijuje parodyta atgalinio planavimo papildymo sistema, kurioje atgalinio planavimo signalas suaktyvina „kanban“ kūrimą, siekiant gamybos procesą papildyti medžiagomis. 
 
-[![Atgalinio planavimo signalas suaktyvina „kanban“ kūrimą, siekiant gamybos procesą papildyti medžiagomis.](./media/material-replenishment-with-withdrawal-kanban.png)](./media/material-replenishment-with-withdrawal-kanban.png)
+[![Atgalinio planavimo signalas suaktyvina „kanban“ kūrimą, siekiant gamybos procesą papildyti medžiagomis](./media/material-replenishment-with-withdrawal-kanban.png)](./media/material-replenishment-with-withdrawal-kanban.png)
 
 1.  Išėmimo „kanban“
 2.  „Kanban“ vieta „nuo“ ir sandėlio darbo padėjimo vieta
@@ -72,7 +73,7 @@ Jei atstumas tarp sandėlių vietų ir gamybos įvesties vietos yra nedidelis, g
 
 Šiuo atveju išėmimo „kanban“ perkėlimo veikla sukonfigūruota perkelti tarp dviejų vietų, esančių tame pačiame sandėlyje. Išėmimo „kanban“ perkėlimo veikla nustatyta taip, kad būtų baigta automatiškai. 
 
-[![Perkėlimo veikla baigiama automatiškai, kai įvykdomas „kanban“ paėmimo darbas.](./media/transfer-activities-when-processing-kanban-picking.png)](./media/transfer-activities-when-processing-kanban-picking.png)
+[![Perkėlimo veikla baigiama automatiškai, kai įvykdomas „kanban“ paėmimo darbas](./media/transfer-activities-when-processing-kanban-picking.png)](./media/transfer-activities-when-processing-kanban-picking.png)
 
 1.  Bendrai naudojamas sandėlis, skirtas žaliavoms ir gamybai
 2.  Sandėlio vietos žaliavoms

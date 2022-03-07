@@ -2,25 +2,22 @@
 title: Europos mokesčių direktyvos
 description: Galite nurodyti, kad pardavimo SF ir projekto SF būtų įtrauktas PVM kodų paaiškinimas. Nuorodų numerius galite spausdinti pardavimo SF, laisvos formos SF ir projektų SF.
 author: epodkolz
-manager: AnnBe
 ms.date: 09/17/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hungary, Latvia, Lithuania, Netherlands, Norway, Poland, Spain, Sweden, Switzerland, Turkey, United Kingdom
 ms.author: epodkolz
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 2f0da36e2be20d5ae8c838ed73c6e8aa1c19b621
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: a353b97be70dd385703dd3eeb9db4921cf45f1d614dab3a5b138fdca5e4877a2
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408241"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6767595"
 ---
 # <a name="tax-directives-for-europe"></a>Europos mokesčių direktyvos
 
@@ -33,3 +30,6 @@ ES direktyvoje nurodomos taisyklės, kurių turi laikytis visos šalys narės, d
 
 > [!NOTE]
 > Patikrinkite, ar laukas **PVM specifikacija** nustatytas į **Registracijos valiuta** arba **Registracijos ir įmonės valiuta** puslapio **Formos nustatymas** skirtuke **Bendra** (**Gautinos sumos > Nustatymas > Formos > Formos nustatymas** arba **Projektų valdymas ir apskaita > Nustatymas > Formos > Formos nustatymas**).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

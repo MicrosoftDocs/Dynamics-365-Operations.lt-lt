@@ -10,26 +10,23 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 9a4775c2dba2b9aa8e671ab6c246000303b3a37e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ba2283bbfa2fdce75d3fbef6fcff47dd872c7998
+ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4414412"
+ms.lasthandoff: 02/19/2021
+ms.locfileid: "5478049"
 ---
 # <a name="configure-task-management"></a>Užduočių valdymo konfigūravimas
 
 [!include [banner](includes/banner.md)]
 
 Šioje temoje aprašoma, kaip konfigūruoti užduočių valdymo funkcijas programoje „Microsoft Dynamics 365 Commerce”.
-
-## <a name="overview"></a>Peržiūrėti
 
 Prieš „Dynamics 365 Commerce” vadybininkams ir darbuotojams pradedant naudotis „Commerce“ užduočių valdymo funkcijomis, reikia sukonfigūruoti užduočių valdymą. Konfigūruojant atliekami tokie veiksmai: teisių suteikimas vadybininkams ir darbuotojams, teisių paskirstymas elektroninio kasos aparato (EKA) klientams, EKA pranešimų nustatymas ir plytelės **Užduotys** konfigūravimas EKA programos pagrindiniame puslapyje.
 
@@ -111,3 +108,6 @@ Toliau pateikiamoje iliustracijoje rodomas plytelės **Užduotys** EKA pagrindin
 [Užduočių sąrašų priskyrimas parduotuvėms arba darbuotojams](task-mgmt-assign-lists.md)
 
 [Užduočių valdymas EKA programoje](task-mgmt-POS.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

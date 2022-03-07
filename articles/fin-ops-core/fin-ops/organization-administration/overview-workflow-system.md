@@ -2,30 +2,33 @@
 title: Darbo eigos sistemos apžvalga
 description: Šioje temoje aprašyta darbo eigų sistema.
 author: ChrisGarty
-manager: AnnBe
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
-ms.custom: 56381
+ms.custom:
+- "56381"
+- intro-internal
 ms.assetid: 20b78595-e1d9-439a-ae1c-a776a3438919
 ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 660e01618eea66bc611dd51818694d36993ba9ea
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
-ms.translationtype: HT
+ms.openlocfilehash: 70776ba0a0461998d2c1f62ba05b55cd4307a0f7
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4797001"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8067938"
 ---
 # <a name="workflow-system-overview"></a>Darbo eigos sistemos apžvalga
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Šioje temoje aprašyta darbo eigų sistema.
 
@@ -41,7 +44,7 @@ Darbo eiga yra sistema, veikianti programos objektų serveryje (AOS). Darbo eigo
 
 Darbo eiga rodo verslo procesą. Ji apibrėžia, kaip dokumentas juda sistemoje, parodydama, kas turi įvykdyti užduotį, priimti sprendimą ar patvirtinti dokumentą. Pavyzdžiui, toliau pateikiamoje iliustracijoje rodoma išlaidų ataskaitų darbo eiga.
 
-![Darbo eiga, kurios elementai priskirti vartotojams](./media/workflow_user.gif)
+![Darbo eiga, kurios elementai priskirti vartotojams.](./media/workflow_user.gif)
 
 Norėdami geriau suprasti šią darbo eigą, įsivaizduokite, kad Semas pateikia 7 000 USD išlaidų ataskaitą. Tokiu atveju Ivanas turi peržiūrėti Semo jam pateiktus kvitus. Tada Frank ir Sue turi patvirtinti išlaidų ataskaitą. O dabar tarkime, kad Semas pateikia 11 000 USD išlaidų ataskaitą. Tokiu atveju Ivanas turi peržiūrėti kvitus, o Frenkas, Sju ir Ana turi patvirtinti išlaidų ataskaitą.
 
@@ -71,3 +74,6 @@ Darbo eigos sistemos naudojimas jūsų organizacijoje duoda keleriopos naudos:
 + [Lygiagrečių darbo eigos šakų konfigūravimas](configure-parallel-branch-workflow.md)
 + [Eilutės elemento darbo eigų konfigūravimas](configure-line-item-workflow.md)
 + [DUK apie darbo eigas](workflow-FAQ.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,26 +2,23 @@
 title: EUR-00002 ES Intrastat deklaracijos generavimas
 description: Šia procedūra rodomi veiksmai, kuriuos reikia atlikti norint elektroniniu failo formatu eksportuoti Intrastat deklaraciją ir „Excel‟ formatu peržiūrėti deklaracijos duomenis.
 author: Anasyash
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionRepositoryTable, ERSolutionImport, IntrastatParameters, IntrastatCommodityLookup, IntrastatCompressParameters, Intrastat, SysQueryForm
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hungary, Ireland, Italy, Latvia, Lithuania, Netherlands, Poland, Spain, Sweden, United Kingdom
 ms.author: anasyash
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e2aba5caaaf0fbee511e1a293b09fa8301bb6831
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 57d7fcfeed3b630b2fa1f8ada4e116c230ba5bf0d8a94deeb5f59b6514d8a3c3
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408244"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6760614"
 ---
 # <a name="eur-00002-generate-an-eu-intrastat-declaration"></a>EUR-00002 ES Intrastat deklaracijos generavimas
 
@@ -58,7 +55,7 @@ Kol operacijų neperkelsite į Intrastat, tol negalėsite atlikti šios procedū
     * Įveskite apvalinimo tikslumą, pavyzdžiui, įveskite „0,01‟.  
 7. Lauke Sumos skaitmenų po kablelio skaičius įveskite skaičių.
     * Pvz., įveskite „2‟.  
-8. Lauke Apvalinimas žemiau 1 kg pasirinkite parinktį.
+8. Suapvalinime toliau 1 kg laukelyje, rinkitės parinktį.
     * Pavyzdžiui, pasirinkite Apvalinimas iki 1 kg.  
 9. Lauke Apvalinimo taisyklė įveskite skaičių.
     * Pavyzdžiui, įveskite „1‟, kad svorį apvalintumėte iki sveikojo skaičiaus.  
@@ -114,3 +111,6 @@ Kol operacijų neperkelsite į Intrastat, tol negalėsite atlikti šios procedū
     * Pavyzdžiui, pasirinkite Išsiuntimai.  
 27. Spustelėkite GERAI.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

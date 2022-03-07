@@ -2,35 +2,30 @@
 title: Krepšelio ir pirkimo užbaigimo puslapių apžvalga
 description: Šioje temoje pateikiama „Microsoft Dynamics 365 Commerce“ krepšelio valdymo puslapių apžvalga.
 author: anupamar-ms
-manager: annbe
 ms.date: 09/15/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: e932be31a301ef5aacb68fa4e710d8a9137b7263
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 3e450192025b29c655be49050aa3e61fc8acd898
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4414453"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7982973"
 ---
 # <a name="cart-and-checkout-pages-overview"></a>Krepšelio ir pirkimo užbaigimo puslapių apžvalga
 
 [!include [banner](includes/banner.md)]
 
 Šioje temoje pateikiama „Microsoft Dynamics 365 Commerce“ krepšelio valdymo puslapių apžvalga.
-
-## <a name="overview"></a>Peržiūrėti
 
 El. prekybos svetainės krepšelio puslapyje pateikiamos visos prekės, kurias klientas įtraukė į krepšelį. Krepšelio puslapis sukurtas naudojant krepšelio modulį. Krepšelio modulis yra konteineris, kuris turi visus modulius, kurių reikia norint rodyti krepšelio elementus. Be to, krepšelio modulyje galima naudoti ir kitus modulius rodyti užsakymo suvestinę ir visus reklaminius kodus, kurie buvo taikomi kliento užsakymui.
 
@@ -42,9 +37,9 @@ Krepšelio puslapis naudojamas kaip pirkinių krepšelis ir apima visas prekes, 
 
 Toliau pateiktame paveikslėlyje parodytas krepšelio puslapio pavyzdys, kuris buvo sukurtas naudojant modulių biblioteką ir „Fabrikam“ temą.
 
-![Krepšelio puslapio pavyzdys](./media/cart2.PNG)
+![Krepšelio puslapio pavyzdys.](./media/cart2.PNG)
 
-Pagrindinėje krepšelio puslapio struktūroje pateikiamos visos prekės, kurias klientas įdėjo į krepšelį. Yra pademonstratos visos taikomos nuolaidos. Šios nuolaidos apima sudėtines nuolaidas. Pavyzdžiui, „Pirkite 3 prekes ir gaukite 10% nuolaidą“ arba „įsigykite buteliuką ir kuprinę ir gaukite 10% nuolaidą.“ Užsakymo suvestinės modulyje rodoma suma, mokėtina pritaikius nuolaidas, su siuntimo išlaidomis, mokesčiais ir t. t. Taip pat yra reklaminio kodo modulis, kuris leidžia klientui taikyti arba pašalinti reklaminius kodus.
+Pagrindinėje krepšelio puslapio struktūroje pateikiamos visos prekės, kurias klientas įdėjo į krepšelį. Yra pademonstruotos visos taikomos nuolaidos. Šios nuolaidos apima sudėtines nuolaidas. Pavyzdžiui, „Pirkite 3 prekes ir gaukite 10% nuolaidą“ arba „įsigykite buteliuką ir kuprinę ir gaukite 10% nuolaidą.“ Užsakymo suvestinės modulyje rodoma suma, mokėtina pritaikius nuolaidas, su siuntimo išlaidomis, mokesčiais ir t. t. Taip pat yra reklaminio kodo modulis, kuris leidžia klientui taikyti arba pašalinti reklaminius kodus.
 
 Klientas gali apsipirkti anonimiškai arba kaip prisiregistravęs vartotojas. Jei klientas prisiregistravęs, krepšelio elementai išsaugomi tarp seansų. Tokiu būdu klientas gali toliau apsipirkti iš kelių įrenginių.
 
@@ -58,7 +53,7 @@ Pirkimo užbaigimo puslapis yra vieta, kurioje klientai įveda informaciją, rei
 
 Toliau pateiktame paveikslėlyje parodytas pirkimo užbaigimo puslapio pavyzdys, kuris buvo sukurtas naudojant modulių biblioteką.
 
-![Pirkimo užbaigimo puslapio pavyzdys](./media/Checkout.PNG)
+![Pirkimo užbaigimo puslapio pavyzdys.](./media/Checkout.PNG)
 
 Pagrindinė pirkimo užbaigimo puslapio struktūra yra vieta, kur renkama visa užsakymo informacija. Ši informacija apima siuntimo adresą, pristatymo pasirinktis ir informaciją apie mokėjimą. Užbaigti pirkimą atliekamas nuoseklus srautas, nes informacija turi būti įvesta tam tikra apdorota tvarka. Pavyzdžiui, siuntimo adresą reikia įvesti prieš apskaičiuojant siuntimo išlaidas ir patvirtinant mokėjimą.
 
@@ -88,7 +83,7 @@ Klientas gali atlikti pirkimo užbaigimo procesą kaip svečių vartotojas arba 
 
 ### <a name="order-summary"></a>Užsakymo suvestinė
 
-Pirkimo užbaigime pateikiama krepšelio eilutės elementų suvestinė, kad klientas galėtų patvirtinti užsakymą prieš pateikdamas jį. Eilučių elementų negalima redaguoti atliekant pirkimo užbaigimo seką. Tačiau, jei vartotojas nori grįžti ir redaguoti eilutės elementus, bus pateiktas saitas į krepšelį.
+Pirkimo užbaigime pateikiama krepšelio eilutės elementų suvestinė, kad klientas galėtų patvirtinti užsakymą prieš pateikdamas užsakymą. Eilučių elementų negalima redaguoti atliekant pirkimo užbaigimo seką. Tačiau, jei vartotojas nori grįžti ir redaguoti eilutės elementus, bus pateiktas saitas į krepšelį.
 
 Po to, kai klientas pateikia siuntimo ir sąskaitos pateikimo informaciją, užsakymų suvestinė nurodo sumą, mokėtiną po lojalumo taškų, dovanų kortelių ir kitų mokėjimų.
 
@@ -107,3 +102,6 @@ Daugiau informacijos apie tai, kaip kurti pirkimo užbaigimo puslapį, žr. [Pir
 [Išsamios informacijos apie produktus puslapių apžvalga](quick-tour-pdp.md)
 
 [Paskyrų tvarkymo puslapių apžvalga](quick-tour-account-management.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

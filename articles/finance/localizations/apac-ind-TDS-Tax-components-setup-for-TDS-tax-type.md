@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 11b1336289f1fad0366882a18867ff527900d8bfb14051c909a0b0ff72779073
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6e0a6a05fcb4afb8c8965e25c3089bc1b3d98431
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6726015"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6023443"
 ---
 # <a name="set-up-tax-components-for-the-tds-tax-type"></a>Nustatykite komponentus TDS mokesčių tipui
 
@@ -33,7 +33,7 @@ Atlikite šiuos veiksmus TDS komponentams nustatyti.
 
 1. Eikite į **Mokestis \> Nustatymai \> Išskaitomas mokestis \> Išskaitomo mokesčio komponentai**.
 
-    [![Išskaitomo mokesčio komponentų puslapis.](./media/apac-ind-TDS-9.png)](./media/apac-ind-TDS-9.png)
+    [![Išskaitomo mokesčio komponentų puslapis](./media/apac-ind-TDS-9.png)](./media/apac-ind-TDS-9.png)
 
 2. Mokesčio **tipo lauke** pasirinkite **TDS** norėdami nustatyti TDS mokesčio tipo išskaitomo mokesčio komponentus.
 3. Veiksmų srityje pasirinkite **Nauja** eilutei sukurti.
@@ -50,7 +50,7 @@ Atlikite šiuos veiksmus TDS komponentams nustatyti.
 
     Pavyzdžiui, jei ribinė išimties suma yra 5000, TDS skaičiuojama pagal konkrečią SF eilutę, jei SF eilutės suma viršija 5000 (kitaip tariant, jei ji 5001 ar daugiau).
 
-    [![Ribinės vertės puslapis.](./media/apac-ind-TDS-10.png)](./media/apac-ind-TDS-10.png)
+    [![Ribinės vertės puslapis](./media/apac-ind-TDS-10.png)](./media/apac-ind-TDS-10.png)
 
     > [!NOTE]
     > Ribinė išimties suma turi būti mažesnė už ribinės vertės sumą arba tokia pat.
@@ -66,6 +66,6 @@ Atlikite šiuos veiksmus TDS komponentams nustatyti.
 
 14. Norėdami **kopijuoti** ir kurti kitos TDS komponentų grupės TDS komponentus puslapyje **Išskaitomo mokesčio komponentai** pasirinkite Gerai.
 
-    [![Kopijuoti išskaitomo mokesčio komponentų dialogo langą.](./media/apac-ind-TDS-11.png)](./media/apac-ind-TDS-11.png)
+    [![Kopijuoti išskaitomo mokesčio komponentų dialogo langą](./media/apac-ind-TDS-11.png)](./media/apac-ind-TDS-11.png)
 
 15. Uždarykite puslapį.

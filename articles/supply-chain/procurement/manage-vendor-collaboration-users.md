@@ -1,12 +1,10 @@
 ---
 title: Tiekėjo bendradarbiavimo vartotojų valdymas
 description: Šioje temoje aprašoma, kaip teikti užklausas dėl naujų tiekėjo bendradarbiavimo vartotojų konfigūravimo ir kaip įtraukti naujų tiekėjo bendradarbiavimo kontaktų.
-author: RichardLuan
-manager: tfehr
+author: Henrikan
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: smmContactPerson, VendVendorContactPerson, VendVendorPortalUser
 audience: Application User, IT Pro
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 220744
 ms.assetid: edc19ad0-3565-4d47-98ac-dda6098f63ac
 ms.search.region: Global
-ms.author: riluan
+ms.author: henrikan
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 6356c1d11ba507c0eaa42087bdebe982ef091dbd
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
-ms.translationtype: HT
+ms.openlocfilehash: ff0d11bf2c42f7ae63e3db5f31f3ffea2c28f693
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5019940"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7578133"
 ---
 # <a name="manage-vendor-collaboration-users"></a>Tiekėjo bendradarbiavimo vartotojų valdymas
 
@@ -64,7 +62,7 @@ Prieš teikiant užklausą vartotojui konfigūruoti, tas asmuo turi būti nustat
 4. Skyriuje **Priskirti vartotojų vaidmenis** pažymėkite tų saugos vaidmenų, kuriuos reikia priskirti naujam vartotojui, žymės langelį **Priskirti**.
 5. Spustelėkite **Pateikti**.
 
-Kai su tiekėju susijusio vartotojo užklausa pateikta, nustatoma pasirinkto tiekėjo kodo lauko **Tiekėjo bendradarbiavimo prieiga leidžiama** parinktis **Taip** ir pradedama vartotojo užklausos darbo eiga. Darbo eigos metu sukuriamas naujas vartotojas ir priskiriami saugos vaidmenys. Be to, suaktyvinama „Azure B2B“ tarnyba, kuri inicijuoja sąveiką su „Azure“ portalu ir naują arba esamą ADD paskyrą susieja su „Supply Chain Management“ vartotojo paskyra. Norėdami gauti daugiau informacijos, žr. [Kas yra „Azure AD“ B2B bendradarbiavimas?](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b).
+Kai su tiekėju susijusio vartotojo užklausa pateikta, nustatoma pasirinkto tiekėjo kodo lauko **Tiekėjo bendradarbiavimo prieiga leidžiama** parinktis **Taip** ir pradedama vartotojo užklausos darbo eiga. Darbo eigos metu sukuriamas naujas vartotojas ir priskiriami saugos vaidmenys. Be to, suaktyvinama „Azure B2B“ tarnyba, kuri inicijuoja sąveiką su „Azure“ portalu ir naują arba esamą ADD paskyrą susieja su „Supply Chain Management“ vartotojo paskyra. Norėdami gauti daugiau informacijos, žr. [Kas yra „Azure AD“ B2B bendradarbiavimas?](/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b).
 
 ### <a name="inactivate-a-user"></a>Vartotojo išaktyvinimas
 
@@ -93,3 +91,6 @@ Norėdami pateikti užklausą vartotojo saugos vaidmenims modifikuoti, atlikite 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

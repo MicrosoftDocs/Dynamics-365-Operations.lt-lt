@@ -1,25 +1,27 @@
 ---
 title: Susieti kuro indeksą su vežėju kaip mokestį už papildomas paslaugas
 description: Šiame vadove nurodoma, kaip sukurti papildomų paslaugų priskyrimą, vežėjo papildomų paslaugų mokestį, papildomo degalų mokesčio papildomų paslaugų šabloną ir susieti vežėjo degalų indeksą su vežėju.
-author: Henrikan
+author: ShylaThompson
+manager: tfehr
 ms.date: 11/14/2016
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TMSRatingProfile
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: henrikan
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 458ee935bec970fc02e3222dcb0c176cf5ddd509
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: a1f69a6350a5a84ed19dcb37e174c25b112c16bd
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7580197"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4974140"
 ---
 # <a name="associate-a-fuel-index-with-a-carrier-as-an-accessorial-charge"></a>Susieti kuro indeksą su vežėju kaip mokestį už papildomas paslaugas
 
@@ -75,6 +77,3 @@ ms.locfileid: "7580197"
 6. Sąraše spustelėkite saitą pasirinktoje eilutėje.
 7. Spustelėkite Įrašyti.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,36 +1,31 @@
 ---
 title: Konteinerio modulis
-description: Šioje temoje aprašomi konteinerio moduliai ir tai, kaip jų įtraukti į „Microsoft Dynamics 365 Commerce“ svetainių puslapius.
+description: Šioje temoje konteinerio akordeono moduliai ir tai, kaip jų įtraukti į „Microsoft Dynamics 365 Commerce“ svetainių puslapius.
 author: anupamar-ms
-manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 9bb2c7d56184d009492b4aa839a3546160ad342f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 752d0ddc6f666a5d96a2593c8c246a82dc7e1de2fd4bd2356a275222d7abec29
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4414283"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6715445"
 ---
 # <a name="container-module"></a>Konteinerio modulis
 
 [!include [banner](includes/banner.md)]
 
-Šioje temoje aprašomi konteinerio moduliai ir tai, kaip jų įtraukti į „Microsoft Dynamics 365 Commerce“ svetainių puslapius.
-
-## <a name="overview"></a>Peržiūrėti
+Šioje temoje konteinerio akordeono moduliai ir tai, kaip jų įtraukti į „Microsoft Dynamics 365 Commerce“ svetainių puslapius.
 
 Konteinerio modulis yra modulis, kuriame yra kitų modulių. Pagrindinė konteinerio modulio paskirtis yra naudojant jam nustatytas ypatybes nustatyti jo turimų modulių išdėstymą. Pavyzdžiui, šie moduliai gali būti rodomi vienas šalia kito dviejų stulpelių, trijų stulpelių, keturių stulpelių arba šešių stulpelių makete. Jie taip pat gali būti ribojami pagal konteinerio plotį arba užpildyti ekraną. Į kiekvieną konteinerio modulį taip pat galima įtraukti antraštę.
 
@@ -47,13 +42,13 @@ Palaikomi trys konteinerio moduliai: konteineris, konteineris su 2 vietomis ir k
 
 Toliau pateiktame paveikslėlyje parodytas „Commerce“ svetainių daryklėje esančio konteinerio modulio, kuriame yra karuselės modulis, pavyzdys. Šiame pavyzdyje konteinerio modulio ypatybė **Plotis** nustatyta kaip **Užpildyti ekraną**.
 
-![Konteinerio modulio pavyzdys](./media/ecommerce-container.PNG)
+![Konteinerio modulio pavyzdys.](./media/ecommerce-container.PNG)
 
 ## <a name="container-module-properties"></a>Konteinerio modulio ypatybės
 
-| Ypatybės pavadinimas     | Reikšmės | aprašymas |
+| Ypatybės pavadinimas     | Reikšmės | Aprašas |
 |-------------------|--------|-------------|
-| Antraštė           | Antraštės tekstas ir antraštės žymė (**H1**, **H2**, **H3**, **H4**, **H5** arba **H6**) | Galima nurodyti pasirenkamą konteinerio antraštę. Numatyta, kad naudojama antrašės žymė **H2**. Tačiau žymę galima pakeisti, kad ji atitiktų pritaikymo neįgaliesiems reikalavimus. |
+| Antraštė           | Antraštės tekstas ir antraštės žymė (**H1**, **H2**, **H3**, **H4**, **H5** arba **H6**) | Galima nurodyti pasirenkamą konteinerio antraštę. Numatyta, kad naudojama antraštės žymė **H2**. Tačiau žymę galima pakeisti, kad ji atitiktų pritaikymo neįgaliesiems reikalavimus. |
 | Plotis             | **Priderinti prie konteinerio** arba **Užpildyti ekraną** | Jei reikšmė nustatoma kaip **Priderinti prie konteinerio** (numatytoji reikšmė), konteineryje esantys moduliai ribojami pagal konteinerio plotį. Jei reikšmė nustatoma kaip **Užpildyti ekraną**, moduliai neribojami pagal konteinerio plotį, tačiau jie gali užpildyti ekraną. |
 | Stulpelių skaičius | **1**, **2**, **3**, **4**, **6** arba **12** | Ši ypatybė nustato konteinerio stulpelių skaičių. Konteineryje gali būti iki 12 stulpelių. |
 
@@ -61,7 +56,7 @@ Toliau pateiktame paveikslėlyje parodytas „Commerce“ svetainių daryklėje 
 
 Konteinerio su 2 vietomis tipas yra optimizuotas dviejų stulpelių maketui. Šio tipo konteineryje yra dvi vietos, kad jo moduliai galėtų būti vaizduojami vienas šalia kito.
 
-Naudojant papildomus parametrus, maketą galima optimizuoti skirtingiems rodiniams (mobiliesiems įrenginiams, planšetiniams bei įprastiesms kompiuteriams ir t. t.). Kiekviename rodinyje galima nustatyti kiekvieno stulpelio plotį. Galimi tolesni stulpelių pločio parametrai.
+Naudojant papildomus parametrus, maketą galima optimizuoti skirtingiems rodiniams (mobiliesiems įrenginiams, planšetiniams bei įprastiems kompiuteriams ir t. t.). Kiekviename rodinyje galima nustatyti kiekvieno stulpelio plotį. Galimi tolesni stulpelių pločio parametrai.
 
 - **75 % / 25 %** – pirmojo modulio stulpelių plotis yra 75 procentai, o antrojo – 25 procentai. Taip pat galima naudoti parinktį **25 % / 75 %**.
 - **50 % / 50 %** – abiejų modulių stulpelių plotis yra vienodas.
@@ -115,7 +110,7 @@ Norėdami į naują puslapį įtraukti konteinerio leistuvo modulį ir nustatyti
 1. Vietoje **Konteineris** pasirinkite daugtaškį (**...**), tada – **Įtraukti modulį**.
 1. Dialogo lange **Įtraukti modulį** pasirinkite modulį **Turinio blokas**, tada pasirinkite **Gerai**.
 1. Turinio bloko modulio ypatybių srityje sukonfigūruokite antraštę, vaizdą ir išdėstymą.
-1. Norėdami peržiūrėti puslapį, pasirinkite **Įrašyti** ir **Peržiūrėti**. Turėtumėte matyti vieną ypatybių modulį, priderintą pire konteinerio modulio pločio.
+1. Norėdami peržiūrėti puslapį, pasirinkite **Įrašyti** ir **Peržiūrėti**. Turėtumėte matyti vieną ypatybių modulį, priderintą prie konteinerio modulio pločio.
 1. Konteinerio modulio ypatybių srityje ypatybės **Stulpelių skaičius** reikšmę pakeiskite į **3**.
 1. Pridėkite dar du turinio blokų modulius į konteinerio modulį ir sukonfigūruokite juos.
 1. Norėdami peržiūrėti puslapį, pasirinkite **Įrašyti** ir **Peržiūrėti**. Dabar turėtumėte matyti tris turinio bloko modulius, rodomus vienas šalia kito.
@@ -142,3 +137,6 @@ Norėdami į naują puslapį įtraukti konteinerio leistuvo modulį ir nustatyti
 [Antraštės modulis](author-header-module.md)
 
 [Poraštės modulis](author-footer-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

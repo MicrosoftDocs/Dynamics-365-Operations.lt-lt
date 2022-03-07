@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8bd3c9bea010099f83d16dad70261bc2d46a1dac
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: e3cb5dc59373b7af76fffa1b1c59728c84dfb5fb
+ms.sourcegitcommit: fd62ab3d399b0d6ea0d362f1d403a300e84a576d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4693287"
+ms.lasthandoff: 01/26/2021
+ms.locfileid: "5067628"
 ---
 # <a name="configure-workflow-properties"></a>Darbo eigos ypatybių konfigūravimas
 
@@ -73,6 +73,9 @@ Galite pateikti instrukcijas vartotojams, kurie pateiks apdorotinus ir tvirtinti
     4. Lauke **Išverstas tekstas** įveskite tekstą.
     5. Norėdami personalizuoti tekstą, galite įterpti vietos rezervavimo ženklus. Norėdami instrukcijų apie tai, kaip įvesti vietos rezervavimo ženklą, žr. 3 veiksmą.
     6. Spustelėkite **Uždaryti**.
+
+> [!NOTE]
+> Vietos rezervavimo ženklų negalima pridėti naudojant kopijavimo ir įklijavimo funkciją, nes paskirties informacija nebus įklijuota tinkamai. Norėdami įtraukti vietos rezervavimo ženklus, naudokite sąsają.
 
 ## <a name="specify-when-this-workflow-is-used-through-activation-conditions"></a>Nustatymas, kada naudojama ši darbo eiga naudojant aktyvinimo sąlygas
 

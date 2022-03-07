@@ -2,11 +2,9 @@
 title: Skambučių centro pristatymo būdų ir mokesčių konfigūravimas
 description: Šioje temoje aprašoma, kaip nustatyti skambučių centro užsakymo pristatymo būdus ir su juo susijusius mokesčius „Dynamics 365 Commerce“.
 author: josaw1
-manager: AnnBe
 ms.date: 04/26/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailMCRChannelDetailPage, MCROrderParameters
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: bce2dac680871e14220d3bb94afacea0a617c707
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.openlocfilehash: bd763082969079de2d68e12483ec25871c332e4067f122c6a845d3acd477af62
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4963115"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6748576"
 ---
 # <a name="configure-call-center-delivery-modes-and-charges"></a>Skambučių centro pristatymo būdų ir mokesčių konfigūravimas
 
@@ -65,13 +63,13 @@ Išlaidas galima sukonfigūruoti taip, kad jos būtų taikomos konkrečiam prist
 
 Skyriuje **Eilutės**, jei reikia, vieną ar kelias išlaidų sumas galite apibrėžti pagal valiutą. Išlaidos turi būti susietos su išlaidų kodu, kuriuo apibrėžiamos su išlaidomis susiję finansų registravimo taisyklės. Laukas **Kategorija** naudojamas norint apibrėžti, kaip skaičiuojamos išlaidos. Pvz., jei klientams turi būti taikomas fiksuotas 9,95 USD išlaidų tarifas, kad užsakymą būtų galima išsiųsti taikant konkretų pristatymo būdą, naudokite kategoriją **Fiksuotas**. Jei įmonė nusprendžia apmokestinti klientus procentine dalimi nuo bendros užsakymo sumos, kad padengtų pristatymo išlaidas, naudokite kategoriją **Procentas**. Faktinės klientams tenkančios išlaidos apibrėžiamos lauke **Išlaidų vertė**.
 
-Įmonės dažnai konfigūruoja pakopines išlaidas. Tokiu atveju suma, kurią, klientai sumoka už pristatymą, priklauso nuo užsakymo vertės. Norėdami sukonfigūruoti pakopines išlaidas, laukuose **Suma Nuo** ir **Suma Iki** įveskite reikšmes, o lauke **Išlaidų vertė** apibrėžkite pačią vertę. Pvz., užsakymų, kurių vertė mažesnė nei 50 USD, atveju, mažmenininkas už siuntas antžeminiu transportu taikys 5,95 USD mokestį. Užsakymų, kurių vertė lygi 50 USD arba yra didesnė, bet mažesnė nei 100 USD, atveju, mažmenininkas taikys 7,95 USD mokestį. Galiausiai, užsakymų, kurių vertė lygi 50 USD arba yra didesnė, bet mažesnė nei 100 USD, atveju, mažmenininkas netaikys siuntimo mokesčio. Toliau pateiktoje iliustracijoje pavaizduota šių išlaidų konfigūracija.
+Įmonės dažnai konfigūruoja pakopines išlaidas. Tokiu atveju suma, kurią, klientai sumoka už pristatymą, priklauso nuo užsakymo vertės. Norėdami sukonfigūruoti pakopines išlaidas, laukuose **Suma Nuo** ir **Suma Iki** įveskite reikšmes, o lauke **Išlaidų vertė** apibrėžkite pačią vertę. Pvz., užsakymų, kurių vertė mažesnė nei 50 USD, atveju, mažmenininkas už siuntas antžeminiu transportu taikys 5,95 USD mokestį. Užsakymų, kurių vertė lygi 50 USD arba yra didesnė, bet mažesnė nei 100 USD, atveju, mažmenininkas taikys 7,95 USD mokestį. Galiausiai, užsakymams, kurių vertė lygi arba didesnė 100 USD, atveju, mažmenininkas netaikys siuntimo mokesčio. Toliau pateiktoje iliustracijoje pavaizduota šių išlaidų konfigūracija.
 
-![Fiksuotų pakopinių išlaidų pavyzdys](media/fixedtieredcharges.png)
+![Fiksuotų pakopinių išlaidų pavyzdys.](media/fixedtieredcharges.png)
 
 Išlaidoms, priklausomai nuo jūsų verslo poreikių, galite taikyti mišrias kategorijas. Pvz., visų užsakymų, kurių vertė mažesnė nei 100 USD, atveju, yra taikomas fiksuotas 9,95 USD mokestis už siuntimą. Tada užsakymų, kurių vertė yra lygi 100 USD arba yra didesnė, pristatymo mokesčiai apskaičiuojami taikant 5 proc. tarifą nuo užsakymo vertės. Toliau pateiktoje iliustracijoje pavaizduota šių išlaidų konfigūracija.
 
-![Mišrių pakopinių išlaidų pavyzdys](media/mixedtieredcharges.png)
+![Mišrių pakopinių išlaidų pavyzdys.](media/mixedtieredcharges.png)
 
 ## <a name="apply-delivery-modes-during-order-entry-in-a-call-center"></a>Pristatymo būdų taikymas atliekant užsakymą skambučių centre
 
@@ -83,7 +81,7 @@ Jei pasirinktas produkto pristatymo būdas arba nurodytas užsakymo arba užsaky
 
 ## <a name="calculation-of-delivery-charges-during-entry-of-order"></a>Pristatymo išlaidų apskaičiavimas atliekant užsakymo įvedimą
 
-Jei parametras **Įgalinti užsakymo baigimą** jūsų skambučių centro kanale yra įjungtas, pardavimo užsakymų siuntimo išlaidos apskaičiuojamos automatiškai, kai vartotojai pasirenka **Atlikta**. Puslapio **Pardavimo užsakymo suvestinė** viršuje pateikiamas šis pranešimas: „Pakopinės išlaidos apskaičiuotos“. Apskaičiuotos išlaidos įtraukiamos į lauke **Bendroji pardavimo suma** nurodytą reikšmę. „FastTab“ skirtuko **Suma** lauke **Išlaidos** pateikiama bendra visų išlaidų, apskaičiuotų užsakymui ir eilutėms, suma. Norėdami pamatyti išsamesnę informaciją apie paskirstymą, pasirinkite parinktį **Užsakymas**, pateikiamą puslapyje **Pardavimo užsakymo suvestinė**, tada pasirinkite parinktį **Išlaidos**, kad peržiūrėtumėte, įtrauktumėte arba redaguotumėte išlaidas. Atkreipkite dėmesį, kad pristatymo išlaidų apskaičiavimo metodas užsakymo antraštėje priklauso nuo pristatymo būdo, susieto su antrašte. Eilutės lygio išlaidos už pristatymą apskaičiuojamos atsižvelgus į pristatymo būdą, sukonfigūruotą pardavimo eilutei. Jei skirtingose eilutėse naudojama keletas pristatymo būdų, gali būti taikoma ir kartu įtraukiama keletas mokesčių. Tokiu atveju bendra suma bus nurodyta lauke **Išlaidos**, kuris pateiktas puslapyje **Pardavimo užsakymo suvestinė**.
+Jei parametras **Įgalinti užsakymo baigimą** jūsų skambučių centro kanale yra įjungtas, pardavimo užsakymų siuntimo išlaidos apskaičiuojamos automatiškai, kai vartotojai pasirenka **Atlikta**. Puslapio **Pardavimo užsakymo suvestinė** viršuje pateikiamas šis pranešimas: „Pakopinės išlaidos apskaičiuotos.“ Apskaičiuotos išlaidos įtraukiamos į lauke **Bendroji pardavimo suma** nurodytą reikšmę. „FastTab“ skirtuko **Suma** lauke **Išlaidos** pateikiama bendra visų išlaidų, apskaičiuotų užsakymui ir eilutėms, suma. Norėdami pamatyti išsamesnę informaciją apie paskirstymą, pasirinkite parinktį **Užsakymas**, pateikiamą puslapyje **Pardavimo užsakymo suvestinė**, tada pasirinkite parinktį **Išlaidos**, kad peržiūrėtumėte, įtrauktumėte arba redaguotumėte išlaidas. Atkreipkite dėmesį, kad pristatymo išlaidų apskaičiavimo metodas užsakymo antraštėje priklauso nuo pristatymo būdo, susieto su antrašte. Eilutės lygio išlaidos už pristatymą apskaičiuojamos atsižvelgus į pristatymo būdą, sukonfigūruotą pardavimo eilutei. Jei skirtingose eilutėse naudojama keletas pristatymo būdų, gali būti taikoma ir kartu įtraukiama keletas mokesčių. Tokiu atveju bendra suma bus nurodyta lauke **Išlaidos**, kuris pateiktas puslapyje **Pardavimo užsakymo suvestinė**.
 
 Jei parametras **Įgalinti užsakymo baigimą** išjungtas, vartotojai turi rankiniu būdu paleisti išlaidų apskaičiavimo funkciją. Puslapio **Pardavimo užsakymas** veiksmų srities skirtuke **Pardavimas**, grupėje **Skaičiuoti** pasirinkite **Pakopinės išlaidos**. Bus rodomas pranešimas „Pakopinės išlaidos apskaičiuotos“. Tada galite pasirinkti parinktį **Išlaidos**, pateiktą skirtuke **Pardavimas**, kad peržiūrėtumėte, redaguotumėte arba panaikintumėte apskaičiuotas išlaidas.
 
@@ -94,3 +92,6 @@ Pagreitinimo kodą su bet kokiu sukonfigūruotu pristatymo būdu galite susieti 
 Pvz., užsakymų, kurie kitą dieną bus išsiųsti oru, atveju, paėmimą sandėlyje reikia atlikti kasdien iki 13 val. Tokiu atveju pagreitinimo kodą sukurti galima ir jis bus susietas su bet kuriuo pristatymo kitą dieną būdu, sukonfigūruotu sistemoje. Kai sandėlyje sukuriama išrinkimo banga, atitinkamą pagreitinimo kodą, nurodytą lauke **Pagreitinimas**, galima naudoti kaip filtrą, kad išrinkimas būtų vykdomas tik tiems užsakymams, kurių pristatymo būdai susieti su tuo kodu.
 
 Be to, įvedus skambučių centro užsakymą, pagreitinimo kodą galima rankiniu būdu taikyti pardavimo užsakymo antraštei arba atskirai pardavimo užsakymo eilutei. Taip pat kodą galima naudoti rūšiavimo arba ataskaitų kūrimo tikslais. Kartais užsakymą reikia apdoroti kruopščiai dėl iškilusios klientų aptarnavimo tarnybos problemos. Tokiu atveju užsakymo antraštei arba eilutėms galima taikyti konkretų pagreitinimo kodą, kad vykdymo proceso metu užsakymas būtų greičiau identifikuotas ir greičiau nustatyti jo prioritetai.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

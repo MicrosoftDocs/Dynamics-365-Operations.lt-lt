@@ -11,26 +11,23 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 3891d846f51b5335809876a6557dfb5a031272c8
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0b7756aebac2b8f0881c95b27e5a7c845557be4c
+ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4414411"
+ms.lasthandoff: 02/19/2021
+ms.locfileid: "5477565"
 ---
 # <a name="task-management-overview"></a>Užduočių valdymo apžvalga
 
 [!include [banner](includes/banner.md)]
 
 Šioje temoje pateikiama užduočių valdymo programoje „Microsoft Dynamics 365 Commerce“ apžvalga, skirta vadovams ir darbuotojams.
-
-## <a name="overview"></a>Peržiūrėti
 
 Mažmeninės prekybos aplinkoje visada sunku užtikrinti, kad užduotys būtų atliekamos tinkamo žmogaus tinkamu laiku. Mažmenininkai turi sugebėti pranešti darbuotojams apie būsimas užduotis ir pateikti susijusį verslo kontekstą, kad būtų galima atlikti užduotis tinkamai ir laiku.
 
@@ -53,3 +50,6 @@ Toliau pateiktame paveikslėlyje vaizduojama užduočių valdymo programoje „C
 [Užduočių sąrašų priskyrimas parduotuvėms arba darbuotojams](task-mgmt-assign-lists.md)
 
 [Užduočių valdymas EKA programoje](task-mgmt-POS.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

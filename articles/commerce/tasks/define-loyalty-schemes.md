@@ -1,29 +1,26 @@
 ---
-title: " Nustatyti lojalumo planus"
+title: Nustatyti lojalumo planus
 description: Ši procedūra nurodo, kaip nustatyti lojalumo planą.
 author: jashanno
-manager: AnnBe
 ms.date: 11/14/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Operations, Retail
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2bec8653c05d7684202c0e63d049ddb517e12834
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 3909213aaefa3a63fedfc90e6c02ef89b893b16ff5841bf10249867d406c894c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4414388"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6738653"
 ---
-# <a name="define-loyalty-schemes"></a> Nustatyti lojalumo planus
+# <a name="define-loyalty-schemes"></a>Nustatyti lojalumo planus
 
 [!include [banner](../includes/banner.md)]
 
@@ -70,3 +67,6 @@ ms.locfileid: "4414388"
 27. Spustelėkite Įrašyti.
     * Bet kada pakeitę lojalumo plano kanalus, turite paleisti užduotį Apdoroti lojalumo planus. Tokiu būdu bus atnaujinti kanalų lojalumo planai.  
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

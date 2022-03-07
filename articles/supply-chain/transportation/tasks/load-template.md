@@ -2,31 +2,30 @@
 title: Krovinių šablonai
 description: Ši tema aprašo, kaip nustatyti krovinio šablonus ir kaip susieti krovinio šabloną su nauju kroviniu.
 author: Henrikan
-manager: ''
 ms.date: 10/30/2020
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLoadTemplate
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: henrikan
 ms.search.validFrom: 2020-10-30
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 1ea7f5244b483a1b9d6c55227c676a3878a71d83
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
-ms.translationtype: HT
+ms.openlocfilehash: 694860d1ade74f9fd51a8ac579aa69fe7fb673a8
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4646416"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7569918"
 ---
 # <a name="load-templates"></a>Krovinių šablonai
 
-Jums sukūrus naują krovinį, galtie priskirti krovinio šabloną. Krovinio šablone pateikta informacija apie įrangą ir apie matmenis, tokius kaip aukštis, plotis, gylis ir krovinio apimtis.
+[!include [banner](../../includes/banner.md)]
+
+Sukūrę naują krovinį galite priskirti krovinio šabloną. Krovinio šablone pateikta informacija apie įrangą ir apie matmenis, tokius kaip aukštis, plotis, gylis ir krovinio apimtis.
 
 Ši tema aprašo, kaip nustatyti krovinio šablonus ir kaip susieti krovinio šabloną su nauju kroviniu.
 
@@ -54,3 +53,6 @@ Jums sukūrus naują krovinį, galtie priskirti krovinio šabloną. Krovinio ša
 1. Veiksmų srities **Tiekti ir pareikalauti** skirtuke **Pridėti** grupėje pasirinkite **Į naują krovinį**.
 1. Teksto laukelyje **Krovinio šablonas** **Krovinio šablono ID** laukelyje pasirinkite taikomą šabloną.
 1. Pasirinkite **GERAI** norėdami pritaikyti šabloną.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

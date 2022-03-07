@@ -2,23 +2,26 @@
 title: Nustatyti kliento mokėjimo mokesčius
 description: Sukurkite mokėjimų klientams mokesčius.
 author: ShivamPandey-msft
+manager: AnnBe
 ms.date: 08/09/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustPaymFee, CustPaymModeFee, BankAccountTableLookUp
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 15151987bb398de404994cdd416916c00a8dd1773bbf6d654f6a40160a2f4a49
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b6475671002379d84519df05a0198a17ac000677
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6768368"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4445984"
 ---
 # <a name="establish-customer-payment-fees"></a>Nustatyti kliento mokėjimo mokesčius
 
@@ -48,6 +51,3 @@ Sukurkite mokėjimų klientams mokesčius.
 18. Lauke **Mokesčio valiuta** pasirinkite mokesčio valiutą. Tai valiuta, kuria bus sukurta mokestis.  
 19. Spustelėkite **Įrašyti**.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

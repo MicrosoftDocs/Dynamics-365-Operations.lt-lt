@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: f31dfa1fdbb3732610748abe4a9de851033f2b89
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: a2539880e76ffb1861e0d18227a935a2ef35c120
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4414365"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5210880"
 ---
 # <a name="work-with-preset-layouts"></a>Darbas su esamais maketais
 
@@ -31,7 +30,7 @@ ms.locfileid: "4414365"
 
 Šioje temoje aprašoma, kaip programoje „Microsoft Dynamics 365 Commerce“ dirbti su iš anksto nustatytais maketais.
 
-## <a name="overview"></a>Peržiūrėti
+## <a name="overview"></a>Peržiūra
 
 Prieš atlikdami šioje temoje aprašytas procedūras, būtinai perskaitykite temą [Iš anksto nustatyti ir pasirinktiniai maketai](templates-layouts-overview.md#preset-and-custom-layouts). Bendra apžvalga pateikiama temoje [Šablonų ir maketų apžvalga](templates-layouts-overview.md).
 
@@ -109,3 +108,6 @@ Kai peržiūrėsite iš anksto nustatyto maketo keitimus, atlikite vieną iš to
 [Šablonų ir maketų apžvalga](templates-layouts-overview.md)
 
 [Darbas su šablonais](work-with-templates.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

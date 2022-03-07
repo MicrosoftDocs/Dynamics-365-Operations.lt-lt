@@ -1,12 +1,10 @@
 ---
-title: Naujo produkto kūrimas „Commerce“ aplinkoje
+title: Naujo produkto kūrimas „Commerce“
 description: Šioje temoje aprašoma, kaip programoje „Microsoft Dynamics 365 Commerce“ sukuti naują produktą.
 author: samjarawan
-manager: annbe
 ms.date: 01/27/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -16,21 +14,21 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 3b578c1bdfe1c6b4bf66cc85cc09ed906fb812a8
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.openlocfilehash: 73911d9d8e3fdc6d72eadb8d071382e15dd5375eae8274f88d88b1078e7720f6
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4965323"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6753727"
 ---
-# <a name="create-a-new-product-in-commerce"></a>Naujo produkto kūrimas „Commerce“ aplinkoje
+# <a name="create-a-new-product-in-commerce"></a>Naujo produkto kūrimas „Commerce“
 
 
 [!include [banner](includes/banner.md)]
 
 Šioje temoje aprašoma, kaip programoje „Microsoft Dynamics 365 Commerce“ sukuti naują produktą.
 
-## <a name="overview"></a>Peržiūrėti
+## <a name="overview"></a>Peržiūra
 
 Produktą pirmiausia apibrėžia produkto numeris, pavadinimas ir aprašas. Tačiau, norint apibūdinti produktą ar paslaugą, taip pat būtini kiti duomenys:
 
@@ -51,13 +49,13 @@ Produktą pirmiausia apibrėžia produkto numeris, pavadinimas ir aprašas. Tač
 
 Toliau pateiktame vaizde parodytas įtraukiamas produkto pavyzdys.
 
-![Produkto kūrimas](media/create-new-product.png)
+![Produkto kūrimas.](media/create-new-product.png)
 
 Įtraukus produktą, galima nustatyti jo papildomus duomenis, pvz., **Produkto aprašas**, **Variantų grupės**, **Dimensijų grupės**, **Produkto atributai** ir **Susiję produktai**.
 
 Toliau pateiktame vaizde parodyta papildoma produkto informacija.
 
-![Produkto informacija](media/create-new-product-2.png)
+![Produkto informacija.](media/create-new-product-2.png)
 
 ### <a name="create-product-variants"></a>Kurti produkto variantus
 
@@ -76,23 +74,23 @@ Norint parduoti produktą, jis pirmiausia turi būti pateiktas juridiniam subjek
 
 1. Produkto puslapyje pasirinkite **Išleisti produktus**.
 
-    ![Produkto išleidimas](media/create-new-product-3.png)
+    ![Išleisti produktą.](media/create-new-product-3.png)
 
 1. Pasirinkite išleistiną produktą, tada pasirinkite **Toliau**.
 
-    ![Išleistino produkto pasirinkimas](media/create-new-product-4.png)
+    ![Išleistino produkto pasirinkimas.](media/create-new-product-4.png)
 
 1. Pasirinkite išleistinų produkto variantų rinkinį, tada pasirinkite **Toliau**.
 
-    ![Išleistinų variantų pasirinkimas](media/create-new-product-5.png)
+    ![Išleistinų variantų pasirinkimas.](media/create-new-product-5.png)
 
 1. Pasirinkite juridinį subjektą ir pasirinkite **Toliau**.
 
-    ![Pasirinkite juridinį subjektą](media/create-new-product-6.png)
+    ![Pasirinkite juridinį subjektą.](media/create-new-product-6.png)
 
 1. Pasirinkite **Baigti**.
 
-    ![Produkto išleidimo užbaigimas](media/create-new-product-7.png)
+    ![Produkto išleidimo užbaigimas.](media/create-new-product-7.png)
 
 ## <a name="configure-a-released-product"></a>Išleisto produkto konfigūravimas
 
@@ -107,10 +105,13 @@ Išleidus produktą, reikės jį papildomai konfigūruoti, įskaitant produkto k
 
 Toliau pateiktame vaizde parodytas išleisto produkto konfigūracijos pavyzdys.
 
-![Išleisto produkto konfigūravimas](media/create-new-product-8.png)
+![Išleisto produkto konfigūravimas.](media/create-new-product-8.png)
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
-[Juridinių subjektų kūrimas](channels-legal-entities.md)
+[Kurti juridinius subjektus](channels-legal-entities.md)
 
 [Variantų grupės kūrimas](create-variant-group.md) 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

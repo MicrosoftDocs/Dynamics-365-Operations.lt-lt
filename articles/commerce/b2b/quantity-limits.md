@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 2c8adaad2afee3b735c69a501d7949a807f4e770
-ms.sourcegitcommit: 68114cc54af88be9a3a1a368d5964876e68e8c60
-ms.translationtype: MT
+ms.openlocfilehash: 4c83b96673fa717b034207a41c921a1b197e17ef3588e77b2304ec9e27fa93a6
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323385"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6738776"
 ---
 # <a name="set-product-quantity-limits-for-b2b-e-commerce-sites"></a>Nustatykite produkto kiekio apribojimus B2B el. komercijos saitams
 
@@ -75,9 +75,9 @@ Norėdami įjungti B2B užsakymo kiekių apribojimų funkciją „Commerce“ sa
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
-[B2B el. prekybos svetainės nustatymas](set-up-b2b-site.md)
+[Nustatykite B2B el. komercijos saitą](set-up-b2b-site.md)
 
-[Valdyti B2B verslo partnerius naudojant klientų hierarchijas](partners-customer-hierarchies.md)
+[Kurkite organizacijos modeliavimo hierarchijas B2B organizacijoms](org-model.md)
 
 [Verslo partnerio vartotojų valdymas B2B el. prekybos svetainėse](manage-b2b-users.md)
 

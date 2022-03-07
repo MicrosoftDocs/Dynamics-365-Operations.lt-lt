@@ -1,24 +1,24 @@
 ---
 title: Sudengti likutį
 description: Galite sudengti iš sudengimo veiklos likusią sumą, taikydami ją DK sąskaitai.
-author: twheeloc
-ms.date: 02/16/2022
+author: roschlom
+ms.date: 10/16/2018
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: CustOpenTrans, LedgerJournalTransCustPaym, LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: roschlom
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: roschlom
 ms.search.validFrom: 2018-12-01
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: 881b46774d3ca6a9b91d4dc06babb30c8677183a
-ms.sourcegitcommit: 6102f70d4595d01b90afe5b23dfd8ec2ea030653
-ms.translationtype: MT
+ms.openlocfilehash: 216c5c1d7db72e5f5071f2cd03656df538a64e72
+ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8182409"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7754101"
 ---
 # <a name="settle-remainder"></a>Sudengti likutį
 
@@ -27,13 +27,13 @@ ms.locfileid: "8182409"
 Galite sudengti iš sudengimo veiklos likusią sumą, taikydami ją DK sąskaitai arba kitam klientui. Galite sudengti likutį sudengdami į žurnalą įvestas sumas arba tik sudengdami atidarytas operacijas.
 
 ## <a name="setting-up-defaults"></a>Numatytųjų parametrų nustatymas 
-Prieš naudodami sudengimo **likutį**, turite įgalinti funkciją Sudengti likutį ir nustatyti numatytuosius **parametrus**.
+Prieš naudodami funkciją Sudengti likutį, turite ją įgalinti ir nustatyti numatytuosius parametrus
 
 1)  Spustelėkite **Gautinos sumos > Parametrai > Sudengimai** arba **Mokėtinos sumos > Parametrai > Sudengimai**
-2)  Pasirinkite skirtuką Sudengimas **ir** spustelėkite Įgalinti sudengimo **likutį**.
+2)  Pasirinkite skirtuką **Sudengimas** ir spustelėkite **Įgalinti likučio sudengimą**
 3)  Lauke **Numatytasis priežasties kodas** pasirinkite numatytąjį priežasties kodą. Priežasčių kodai turi būti jau nustatyti **Gautinos sumos > Sąranka > Kliento nurašymo priežasčių kodai** arba **Mokėtinos sumos > Sąranka > Kliento nurašymo priežasčių kodai**. **Numatytoji likučio sudengimo sąskaita** bus numatytoji nurašymo priežasties kodui priskirta sąskaita.
 3)  Atnaujinti **Numatytoji likučio sudengimo sąskaita**, jei reikia.
-4)  Numatytame **žurnalo pavadinime** pasirinkite mokėjimų žurnalą, kuris bus naudojamas, jei norite sukurti mokėjimų žurnalą tik sudengdami atviras operacijas. Jei įgalinsite likučio sudengimo funkciją, turėsite įtraukti numatytąjį žurnalo pavadinimą.
+4)  Lauke **Numatytasis žurnalo pavadinimas** pasirinkite mokėjimų žurnalą, kuris bus naudojamas, jei norite sukurti mokėjimų žurnalą, kai sudengsite tik atviras operacijas. Jei įgalinsite likučio sudengimo funkciją, turėsite įtraukti numatytąjį žurnalo pavadinimą.
 
 ## <a name="settle-remainder-from-a-journal"></a>Sudengti likutį iš žurnalo
 Jei neįgalinsite funkcijos **Sudengti likutį**, vis tiek galėsite įvesti operaciją žurnale, o tada sudengti operacijas pagal tai, kaip jau darėte anksčiau. Spustelėjus mygtuką **Gerai**, atviras sąskaitos faktūros balansas sumažinamas grynųjų pinigų suma. Jei grynieji pinigai nevisiškai sudengia sąskaitą faktūrą, ji paliekama atidaryta su likusia suma, kurią reikės sudengti vėliau.
@@ -58,8 +58,8 @@ Taip pat galite sudengti likutį, kai sudengiate atidarytas operacijas be žurna
 
 Norėdami sudengti likutį, atlikite toliau nurodytus veiksmus.
 
-1)  Puslapyje **Sudengimas** pažymėkite SF arba operacijas, kurias norite sudengti.
-2)  Spustelėkite mygtuką Sudengti **likutį**.
+1)  Puslapyje **Sudengimas** pažymėkite SF arba operacijas, kurias norite sudengti
+2)  Spustelėkite **Sudengti likutį**
 3)  Bus rodomas dialogo langas, kuriame nurodoma su DK sąskaita sudengiama suma, likučiui sudengti naudojama data, parametrų numatytasis priežasties kodas ir parametrų numatytoji sąskaita. 
 4)  Jei norite pakeisti numatytąją priežastį, pasirinkite naują sudengimo priežastį. Sudengimo sąskaita bus pakeista į su priežasties kodu susietą sąskaitą.
 5)  Redaguokite **sudengimo sąskaitą**, jei norite ją pakeisti.

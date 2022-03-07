@@ -2,35 +2,30 @@
 title: Darbas su moduliais
 description: Šioje temoje aprašoma, kaip ir kada naudoti modulius programoje „Microsoft Dynamics 365 Commerce“.
 author: phinneyridge
-manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 301eb6206fb9e02c3aa7d3c07cf368ba800a1ab9
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: ce16aa98a37cd5dec60bcdbf86f59f74810da9755a6d3514bdd3e38a21afb748
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4414364"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6728269"
 ---
 # <a name="work-with-modules"></a>Darbas su moduliais
 
 [!include [banner](includes/banner.md)]
 
 Šioje temoje aprašoma, kaip ir kada naudoti modulius programoje „Microsoft Dynamics 365 Commerce“.
-
-## <a name="overview"></a>Peržiūrėti
 
 Moduliai yra loginiai kūrimo blokai, kurie sudaro puslapio struktūrą, o jų paskirtis ir taikymo sritys yra įvairios. Kai kurie moduliai yra aukšto lygio konteineriai, o jų vienintelė paskirtis – laikyti ir organizuoti kitus modulius (antrinius modulius). Kitų modulių, pvz., paprasto vaizdų išdėstymo modulio, paskirtis yra labai konkreti. Kiti moduliai, pvz., karuselės modulis, patenka tarp šių dviejų kategorijų.
 
@@ -58,11 +53,11 @@ Dauguma įprastų, kasdienių puslapių ir turinio kūrimo užduočių apima tur
 
 Toliau pateiktoje iliustracijoje parodyta, kaip moduliai yra įdėti į pirminio konteinerio modulio vietas.
 
-![Modulių įdėjimas](../commerce/media/basic-module-nesting.png)
+![Modulių įdėjimas.](../commerce/media/basic-module-nesting.png)
 
 ## <a name="add-or-remove-modules"></a>Modulių įtraukimas arba pašalinimas
 
-Tolesnėse procedūrose aprašoma, kaip įtraukti modulių arba juos pašalinti
+Tolesnėse procedūrose aprašoma, kaip įtraukti modulių arba juos pašalinti.
 
 ### <a name="add-a-module"></a>Modulio įtraukimas
 
@@ -73,7 +68,7 @@ Norėdami modulį įtraukti į vietą arba konteinerį puslapyje, atlikite šiuo
     > [!NOTE]
     > Modulių dizaino įrankyje nustatytas modulių, kuriuos galima įtraukti į konkrečią modulio vietą, tipų sąrašas. Šablono autoriai tuomet gali išdirbti leidžiamas modulio parinktis tam, kad padėtų užtikrinti nuoseklų ieškos variklio optimizavimą (SEO) ir leidžiamą efektyvumą puslapiams, kurie yra sukurti pagal specialų šabloną. Įtraukdami modulį į vietą,**Modulio įtraukimas** teksto laukelis automatiškai filtruojamas taip, kad rodytų tik pasirinktoje talpykloje ar vietoje palaikomus modulius. Šis leidžiamų modulių sąrašas yra sudaromas puslapio šablone arba talpyklos modulio apraše.
 
-1. Jei naudojate išorės juostą, pasirinkite elipsę (**...**) šalia modulio pavadinimo ir tuomet pasirinkite **Įtraukti modulį**. Jei naudojate valdiklius tiesiogiai drobėje, pasirinkite pliuso simbolį (**+**) tuščioje vietoje ar adjacente prie šiuo metu pasirinkto modulio ir tuomet pasirinkite **Įtraukti modulį**.
+1. Jei naudojate išorės juostą, pasirinkite elipsę (**...**) šalia modulio pavadinimo ir tuomet pasirinkite **Įtraukti modulį**. Jei naudojate valdiklius tiesiogiai drobėje, pasirinkite pliuso simbolį (**+**) tuščioje vietoje ar šalia prie šiuo metu pasirinkto modulio ir tuomet pasirinkite **Įtraukti modulį**.
 
     > [!NOTE]
     > Jei konteineris arba vieta nepalaiko naujų antrinių modulių, parinktis **Įtraukti modulį** nepasiekiama.
@@ -89,7 +84,7 @@ Norėdami modulį įtraukti į vietą arba konteinerį puslapyje, atlikite šiuo
 
 Norėdami modulį pašalinti iš vietos arba konteinerio puslapyje, atlikite šiuos veiksmus.
 
-1. Išorinėje jusotoje lairėje, pasirinkite elipsę (**...**) šalia šalinamo modulio pavadinimo ir tuomet pasirinkite šiukšlių dėžės simbolį. Kitu atveju, pagrindinėje drobėje galite pasirinkti fragmentą šiukšlių dėžės simbolį pasirinkto modulio įrankių juostoje.
+1. Išorinėje kairinėje juostoje pasirinkite elipsę (**...**) šalia šalinamo modulio pavadinimo ir tuomet pasirinkite šiukšlių dėžės simbolį. Kitu atveju, pagrindinėje drobėje galite pasirinkti fragmentą šiukšlių dėžės simbolį pasirinkto modulio įrankių juostoje.
 1. Kai esate paskatinti patvirtinti, ar norite pašalinti modulį, pasirinkite **Gerai**.
 
 ## <a name="move-a-module-to-a-new-position"></a>Perkelkite modulį į naują padėtį
@@ -173,3 +168,6 @@ Norėdami konfigūruoti konteinerio modulį puslapyje, atlikite šiuos veiksmus.
 
 [Darbas su publikavimo grupėmis](publish-groups.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

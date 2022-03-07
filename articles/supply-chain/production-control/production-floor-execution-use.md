@@ -2,9 +2,11 @@
 title: Kaip darbuotojai naudoja gamybos cecho vykdymo sąsają
 description: Šioje temoje aprašoma, kaip darbuotojo atžvilgiu naudoti gamybos cecho vykdymo sąsają.
 author: johanhoffmann
-ms.date: 01/24/2022
+manager: tfehr
+ms.date: 10/05/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: JmgProductionFloorExecution
 audience: Application User
@@ -12,17 +14,18 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
-ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: 086d05b4080015f6185a083ca20963539f76619f
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
-ms.translationtype: MT
+ms.dyn365.ops.version: Release 10.0.15
+ms.openlocfilehash: 38bc07d37b5c51f143846110c87cff9952d52b0e
+ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8075024"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5500795"
 ---
 # <a name="how-workers-use-the-production-floor-execution-interface"></a>Kaip darbuotojai naudoja gamybos cecho vykdymo sąsają
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Gamybos cecho vykdymo sąsaja yra optimizuota lietimo sąveikai. Jos dizainas suteikia vaizdo kontrastingumą, atitinkantį pritaikymo neįgaliesiems reikalavimus cecho aplinkose. Jis siūlo visas tas pačias funkcines galimybes kaip ir užduoties kortelės įrenginys. Tačiau ji taip pat leidžia vienu metu pradėti kelias užduočių sąrašo užduotis. (Ši galimybė taip pat vadinama *užduočių grupavimu*.) Be to, užduočių sąraše darbuotojai gali atidaryti vadovą, sukurtą „Microsoft Dynamics 365” vadove. Tokiu būdu galima gauti vaizdines „HoloLens” instrukcijas.
 
@@ -32,7 +35,7 @@ Kad darbuotojai galėtų pradėti naudoti įrenginį, prižiūrėtojas arba tech
 
 Kai įrenginys paruoštas, jame atsiranda prisijungimo puslapis. Šiame puslapyje pateikiama informacija apie vietinių darbo elementų užduočių būsenas. Ši informacija periodiškai atnaujinama. Puslapyje darbuotojai naudoja savo ženklo ID, kad prisijungtų. Nors darbuotojai neprivalo turėti „Supply Chain Management” vartotojo abonemento, jie privalo turėti *registruojamo laiko darbuotojo* abonementą, kurį gali naudoti prisijungdami.
 
-![Gamybos cecho vykdymo sąsajos prisijungimo puslapis.](media/pfei-sign-in-page.png "Gamybos cecho vykdymo sąsajos prisijungimo puslapis")
+![Gamybos cecho vykdymo sąsajos prisijungimo puslapis](media/pfei-sign-in-page.png "Gamybos cecho vykdymo sąsajos prisijungimo puslapis")
 
 Likę šios temos skyriai apibūdina, kaip darbuotojai naudoja sąsają.
 
@@ -40,7 +43,7 @@ Likę šios temos skyriai apibūdina, kaip darbuotojai naudoja sąsają.
 
 Skirtuke **Visos užduotys** pateikiamas užduočių sąrašas, kuriame nurodytos visos gamybos užduotys, kurių būsena yra *Nepradėta*, *Sustabdyta* arba *Pradėta*. (Šį skirtuko pavadinimą galima tinkinti ir jūsų sistemoje jis gali būti kitoks.)
 
-![Skirtukas Visos užduotys.](media/pfei-all-jobs-tab.png "Skirtukas Visos užduotys")
+![Skirtukas Visos užduotys](media/pfei-all-jobs-tab.png "Skirtukas Visos užduotys")
 
 Užduočių sąraše yra toliau pateikti stulpeliai. Skaičiai atitinka skaičius ankstesnėje iliustracijoje.
 
@@ -59,7 +62,7 @@ Užduočių sąraše yra toliau pateikti stulpeliai. Skaičiai atitinka skaičiu
 
 Skirtukuose **Aktyvios užduotys** rodomas visų užduočių, kurias prisijungęs darbuotojas jau pradėjo, sąrašas. (Šį skirtuko pavadinimą galima tinkinti ir jūsų sistemoje jis gali būti kitoks.)
 
-![Skirtukas Aktyvios užduotys.](media/pfei-active-jobs-tab.png "Skirtukas Aktyvios užduotys")
+![Skirtukas Aktyvios užduotys](media/pfei-active-jobs-tab.png "Skirtukas Aktyvios užduotys")
 
 Aktyvių užduočių sąraše yra toliau pateikti stulpeliai:
 
@@ -76,7 +79,7 @@ Aktyvių užduočių sąraše yra toliau pateikti stulpeliai:
 
 Skirtukas **Mano mašina** leidžia darbuotojams pasirinkti turtą, kuris yra sujungtas su įrenginio ištekliais, esančiais skirtuko **Visos užduotys** filtrų rinkinyje. Tada darbuotojas gali peržiūrėti pasirinkto turto būseną ir sveikatą skaitydamas vertes (ne daugiau keturių pasirinktų skaitiklių) ir naujausių priežiūros užklausų bei užregistruotų prastovų sąrašus. Darbuotojas taip pat gali reikalauti pasirinkto turto priežiūros ir registruoti bei redaguoti įrenginio prastovą. (Šį skirtuko pavadinimą galima tinkinti ir jūsų sistemoje jis gali būti kitoks.)
  
-![Mano mašina skirtukas.](media/pfei-my-machine-tab.png "Skirtukas Mano mašina")
+![Mano mašina skirtukas](media/pfei-my-machine-tab.png "Skirtukas Mano mašina")
 
 Skirtuke **Mano mašina** yra šie stulpeliai. Skaičiai atitinka skaičius ankstesnėje iliustracijoje.
 
@@ -87,17 +90,18 @@ Skirtuke **Mano mašina** yra šie stulpeliai. Skaičiai atitinka skaičius anks
 
 1. **Nustatymai** – pasirinkite pavarų piktogramą atidaryti dialogo langui, kuriame galėsite pasirinkti, kuriuos skaitiklius peržiūrėti pasirinktam įrenginio turtui. Šių skaitiklių reikšmės rodomos skirtuko **Turto valdymas** viršuje. Meniu **Parametrai** (rodomas toliau pateiktoje ekrano nuotraukoje) leidžia įgalinti ne daugiau keturių skaitiklių. Skaitiklio pasirinkimui naudokite peržvalgos lauką, esantį plytelės viršuje, kiekvienam skaitikliui, kurį norite įgalinti. Peržvalgos lauke pateikiami visi su turtu susiję skaitikliai, pasirinkti puslapio **Turto valdymas** viršuje. Nustatykite kiekvieną skaitiklį stebėti arba **Bendrą** arba **Faktinę** skaitiklio reikšmę. Pavyzdžiui, jei nustatote skaitiklį sekti, kiek valandų veikia mašina, tada turite nustatyti jį kaip **Bendra**. Jei nustatote skaitiklį matuoti vėliausią atnaujintą temperatūrą ar slėgį, tada turite nustatyti jį kaip **Faktinė**. Norėdami įrašyti parametrus ir uždaryti dialogo langą, pasirinkite **Gerai**.
 
-    ![Skirtuko Mano mašina parametrai.](media/pfei-my-machine-tab-settings.png "Skirtuko Mano mašina parametrai")
+    ![Skirtukas Mano mašina](media/pfei-my-machine-tab-settings.png "Skirtukas Mano mašina")
 
 1. **Priežiūros užklausa** – pasirinkite šį mygtuką, jei norite atidaryti dialogo langą, kuriame galite sukurti priežiūros užklausą. Galėsite pateikti aprašą ir pastabą. Užklausa bus pateikta „Supply Chain Management” vartotojui, kuris tada galės konvertuoti priežiūros užklausą į priežiūros darbo užsakymą.
 1. **Registruoti prastovą** – pasirinkite šį mygtuką, jei norite atidaryti dialogo langą, kuriame galite registruoti įrenginio prastovą. Galėsite pasirinkti priežasties kodą ir įvesti prastovos datos / laiko trukmę. Įrenginių prastovos registracija naudojama skaičiuojant įrenginio turto efektyvumą.
 1. **Peržiūrėti arba redaguoti** – pasirinkite šį mygtuką, jei norite atidaryti dialogo langą, kuriame galite redaguoti arba peržiūrėti esamus prastovos įrašus.
 
+
 ## <a name="starting-and-completing-production-jobs"></a>Gamybos užduočių pradžia ir pabaiga
 
 Darbuotojai pradeda gamybos užduotį, pasirinkdami užduotį skirtuke **Visos užduotys** ir tada pasirinkdami **Pradėti užduotį**, kad būtų atidarytas dialogo langas **Pradėti užduotį**.
 
-![Dialogo langas Pradėti užduotį.](media/pfei-start-job-dialog.png "Dialogo langas Pradėti užduotį")
+![Dialogo langas Pradėti užduotį](media/pfei-start-job-dialog.png "Dialogo langas Pradėti užduotį")
 
 Darbuotojai naudoja dialogo langą **Pradėti užduotį**, kad patvirtintų gamybos kiekį ir pradėtų užduotį. Darbuotojai gali koreguoti kiekį pasirinkdami lauką **Kiekis** ir naudodami atsiradusią skaičių klaviatūrą. Tada darbuotojai pasirenka **Pradėti**, kad pradėtų dirbti su užduotimi. Dialogo langas **Pradėti užduotį** uždaromas, o užduotis įtraukiama į skirtuką **Aktyvios užduotys**.
 
@@ -107,96 +111,13 @@ Darbuotojai gali pradėti bet kokios būsenos užduotį. Kai darbuotojas pradeda
 
 Kai darbuotojas užbaigia arba iš dalies užbaigia užduotį, jis gali pateikti prekių kiekių, kurie buvo pagaminti, ataskaitą, pasirinkdamas užduotį skirtuke **Aktyvios užduotys** ir tada – **Teikti ataskaitą apie eigą**. Tada dialogo lange **Teikti ataskaitą apie eigą** darbuotojas įveda prekių kiekį naudodamas skaičių klaviatūrą. Kiekio laukas pagal numatytuosius nustatymus yra tuščias. Įvedęs kiekį, darbuotojas gali atnaujinti užduoties būseną į *Vykdoma*, *Sustabdyta* arba *Baigta*.
 
-![Dialogo langas Teikti ataskaitą apie eigą.](media/pfei-report-progress-dialog.png "Dialogo langas Teikti ataskaitą apie eigą")
-
-## <a name="reporting-good-quantities-on-batch-orders-that-have-co-products-and-by-products"></a>Teikti ataskaitą apie paketiniū užsakymų gerus kiekius, kurie turi sudėtinius ir šalutinius produktus
-
-Darbuotojai gali naudoti gamybos vietos vykdymo sąsają pateikti informaciją apie partijinių užsakymų eigą. Ši ataskaita apima ataskaitos teikimą apie sudėtinius ir šalutinius produktus.
-
-Kai kurie gamintojai, ypač proceso pramonės šakose, paketinius užsakymus naudoja savo gamybos procesams valdyti. Paketiniai užsakymai kuriami pagal formules, tas formules galima nustatyti taip, kad jų išeiga būtų sudėtiiniai ir šalutiniai produktai. Kai pranešamas tų paketinių užsakymų grįžtamasis ryšys, išeigos suma turi būti užregistruota formulėje ir taip pat sudėtiuose bei šalutiniuose produktuose.
-
-Kai darbuotojas užbaigia arba dalinai atlieka paketinio užsakymo užduotį, jie gali pranešti apie kiekvieno produkto, kuris nurodytas kaip užsakymo išeiga, gerų arba nurašomų į atliekas kiekius. Produktų, kurie apibrėžti kaip paketinio užsakymo išeiga gali būti *Formulės*, *Sudėtinio produkto* ar *Šalutinioprodukto* tipo.
-
-Norint pateikti gerų produktų kiekių ataskaitą, darbuotojas pasirenka užduotį skirtuke **Aktyvios užduotys** ir tada pasirenka **Teikti ataskaitą apie eigą**.
-
-Tada **Teikti ataskaitą apie eigą** dialogo lange darbuotojas gali pasirinkti iš produktų, kurie apibrėžti kaip paketinio užsakymo išeiga, apie kuriuos bus teikiamos ataskaitos. Darbuotojas sąraše gali pasirinkti vieną arba daug produktų, tada pasirinkti **Teikti ataskaitą apie eigą**. Kiekvienam produktui pagal numatytuosius nustatymus kiekis yra tuščias, o darbuotojas kiekiui įvesti gali naudoti skaitinę klaviatūrą. Darbuotojas gali naudoti **Ankstesnis** ir **Sekantis** mygtukus, norėdamas judėti tarp pasirinktų produktų. Įvedęs kiekvieno produkto kiekį, darbuotojas gali atnaujinti užduoties būseną į *Vykdoma*, *Sustabdyta* arba *Baigta*.
-
-![Teikti ataskaitą apie sudėtinius ir šalutinius produktus.](media/report-co-by-products.png "Teikti ataskaitą apie sudėtinius ir šalutinius produktus.")
-
-### <a name="reporting-on-batch-orders-for-planning-items"></a>Teikti ataskaitą apie planavimo prekių paketinius užsakymus
-
-Kai darbuotojas baigia užduotį planavimo prekės paketiniame užsakyme, bus pateikta ataskaita tik apie sudėtinių ir šalutinių produktų kiekį, kadangi planavimo prekės neturi *Formulės* tipo prekės.
-
-### <a name="reporting-co-product-variation"></a>Teikti ataskaitą apie sudėtinio produkto variaciją
-
-Jei paketinis užsakymas sukurtas pagal formulės versiją, kai **Sudėtinio produkto variacijos** pasirinkimas nustatytas į *Taip*, darbuotojas gali pranešti apie sudėtinius produktus, kurie nėra paketinių užsakymų aprašo dalis. Ši funkcija naudojama scenarijuose, kur gamybos procese gali atsirasti netikėta produkto išeiga.
-
-Tokiu atveju, darbuotojas gali pateikti ataskaitą apie sudėtinio produkto kiekį ataskaitų eigos dialogo lange pasirinkdamas **Sudėtinio produkto variacijos**. Tuomet darbuotojas gali pasirinkti iš visų išleistų produktų, apibrėžtų kaip sudėtiniai produktai.
+![Dialogo langas Teikti ataskaitą apie eigą](media/pfei-report-progress-dialog.png "Dialogo langas Teikti ataskaitą apie eigą")
 
 ## <a name="reporting-scrap"></a>Atliekų ataskaitos
 
 Kai darbuotojas užbaigia arba iš dalies užbaigia užduotį, jis gali pateikti atliekų ataskaitą, pasirinkdamas užduotį skirtuke **Aktyvios užduotys** ir tada – **Teikti ataskaitą apie atliekas**. Tada dialogo lange **Teikti ataskaitą apie atliekas** darbuotojas įveda atliekų kiekį naudodamas skaičių klaviatūrą. Darbuotojas taip pat pasirenka priežastį (*Nėra*, *Įrenginys*, *Operatorius* arba *Medžiagos*).
 
-![Dialogo langas Teikti ataskaitą apie atliekas.](media/pfei-report-scrap-dialog.png "Dialogo langas Teikti ataskaitą apie atliekas")
-
-## <a name="adjust-material-consumption-and-make-material-reservations"></a>Sureguliuokite medžiagų suvartojimą ir rezervuokite medžiagas
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-<!-- KFM: preview until further notice -->
-
-Darbuotojai gali pritaikyti medžiagų suvartojimą kiekvienam gamybos darbui. Ši funkcija naudojama tais atvejais, kai faktinis medžiagų kiekis, sunaudotas atliekant gamybos užduotį, buvo didesnis arba mažesnis nei planuotas kiekis. Todėl jis turi būti sureguliuotas, kad atsargų lygis būtų aktualus.
-
-Darbuotojai taip pat gali rezervuoti medžiagų partijos ir serijos numerius. Ši funkcija naudojama tais atvejais, kai darbuotojas turi rankiniu būdu nurodyti, kurios medžiagos partijos ar serijos numeriai buvo sunaudoti, kad atitiktų medžiagų atsekamumo reikalavimus.
-
-Darbuotojai gali nurodyti norimą koreguoti kiekį pasirinkdami **Sureguliuokite medžiagą**. Šis mygtukas pasiekiamas šiose vietose:
-
-- Viduje konors **Pranešti apie iškarpą** dialogo langas
-- Viduje konors **Pranešti apie pažangą** dialogo langas
-- Įrankių juostoje dešinėje
-
-### <a name="adjust-material-consumption-from-the-report-scrap-and-report-progress-dialog-boxes"></a>Koreguokite medžiagų sunaudojimą dialogo languose Pranešti apie iškarpą ir Pranešimo apie eigą
-
-Darbuotojui įvedus kiekį, apie kurį reikia pranešti **Pranešti apie pažangą** arba **Pranešti apie iškarpą** dialogo langas, **Sureguliuokite medžiagą** mygtukas tampa pasiekiamas. Kai vartotojas pasirenka šį mygtuką, **Sureguliuokite medžiagą** pasirodo dialogo langas. Šiame dialogo lange pateikiamas prekių, kurias planuojama sunaudoti, sąrašas, kai pranešama apie prekės arba atmestų darbų kiekį.
-
-Dialogo lange esančiame sąraše rodoma ši informacija:
-
-- **Produkto numeris** – Prekės meistras ir gaminio variantas.
-- **Produkto pavadinimas** – produkto pavadinimas.
-- **Pasiūlymas** – Numatomas medžiagos kiekis, kuris bus sunaudotas, kai bus pranešta apie nurodyto darbo kiekio pažangą arba laužą.
-- **Vartojimas** – Faktinis medžiagos kiekis, kuris bus sunaudotas, kai pranešama apie pažangą arba laužą nurodytam darbo kiekiui.
-- **Rezervuota** – Medžiagos kiekis, kuris buvo fiziškai rezervuotas atsargose.
-- **Vienetas** – Medžiagų sąskaitos (BOM) vienetas.
-
-Dešinėje dialogo lango pusėje rodoma ši informacija:
-
-- **Produkto numeris** – Prekės meistras ir gaminio variantas.
-- **Apskaičiuota** – Numatomas suvartojamas kiekis.
-- **Prasidėjo** – Kiekis, kuris buvo pradėtas gamybos darbe.
-- **Likęs kiekis** – Iš numatomo kiekio lieka suvartoti kiekis.
-- **Išleistas kiekis** – Suvartotas kiekis.
-
-Galima atlikti šiuos veiksmus:
-
-- Darbuotojas gali nurodyti kiekį, kurį reikia koreguoti medžiagai pasirinkdamas **Sureguliuokite suvartojimą**. Patvirtinus kiekį, nurodytas kiekis **Vartojimas** stulpelis atnaujinamas pakoreguotu kiekiu.
-- Kai darbuotojas pasirenka **Sureguliuokite medžiagą**, sukuriamas produkcijos paėmimo sąrašo žurnalas. Šiame žurnale yra tokie patys elementai ir kiekiai kaip ir **Sureguliuokite medžiagą** sąrašą.
-- Kai darbuotojas koreguoja kiekį **Sureguliuokite medžiagą** dialogo langas, **Pasiūlymas** atitinkamos žurnalo eilutės laukas atnaujinamas tokiu pat kiekiu. Jei darbuotojas pasirenka **Atšaukti** viduje konors **Sureguliuokite medžiagą** dialogo lange, rinkimo sąrašas ištrinamas.
-- Jei darbuotojas pasirenka **Gerai**, atrankos sąrašas nėra ištrintas. Jis bus paskelbtas, kai apie darbą bus pranešta **Pranešti apie iškarpą** arba **Pranešti apie pažangą** dialogo langas.
-- Jei darbuotojas pasirenka **Atšaukti** viduje konors **Pranešti apie pažangą** arba **Pranešti apie iškarpą** dialogo lange, rinkimo sąrašas ištrinamas.
-
-### <a name="adjust-material-from-the-toolbar-on-the-right"></a>Sureguliuokite medžiagą dešinėje esančioje įrankių juostoje
-
-The **Sureguliuokite medžiagą** mygtuką galima sukonfigūruoti taip, kad jis būtų rodomas įrankių juostoje dešinėje. (Daugiau informacijos žr [Sukurkite gamybos grindų vykdymo sąsają](production-floor-execution-tabs.md) .) Darbuotojas gali pasirinkti **Sureguliuokite medžiagą** atliekamam gamybos darbui. Šiuo atveju, **Sureguliuokite medžiagą** pasirodo dialogo langas, kuriame darbuotojas gali atlikti norimus pakeitimus. Kai atidaromas dialogo langas, gamybos užsakymui sukuriamas produkcijos rinkimo sąrašas, kuriame yra pakoreguotų kiekių eilutės. Jei darbuotojas pasirenka **Paskelbti dabar**, koregavimas patvirtinamas ir išrinkimo sąrašas paskelbiamas. Jei darbuotojas pasirenka **Atšaukti**, rinkimo sąrašas ištrinamas ir koregavimas neatliekamas.
-
-### <a name="reserve-materials"></a>Rezervuoti medžiagas
-
-Viduje konors **Sureguliuokite medžiagą** dialogo lange, darbuotojas gali atlikti ir koreguoti medžiagų rezervacijas pasirinkdamas **Rezervinė medžiaga**. The **Rezervinė medžiaga** Pasirodžiusiame dialogo lange rodomos fiziškai prieinamos prekės atsargos kiekvienam saugojimo ir stebėjimo aspektui.
-
-Jei medžiaga įgalinta išplėstiniams sandėlio procesams, sąraše rodomos tik fiziškai prieinamos medžiagos gamybos įvesties vietos atsargos. Gamybos įvesties vieta apibrėžiama išteklyje, kuriame planuojama gamybos užduotis. Jei prekės numeris yra kontroliuojamas partijos arba serijos numeriu, rodomas visas fiziškai prieinamų partijos ir serijos numerių sąrašas. Norėdamas nurodyti rezervuojamą kiekį, darbuotojas gali pasirinkti **Rezervinė medžiaga**. Norėdami pašalinti esamą rezervaciją, darbuotojas gali pasirinkti **Pašalinti rezervaciją**.
-
-Norėdami gauti daugiau informacijos apie tai, kaip nustatyti gamybos įvesties vietą, žr. šį tinklaraščio įrašą: [Gamybos įvesties vietos nustatymas](/archive/blogs/axmfg/deliver-picked-materials-to-the-locations-where-the-materials-are-consumed-by-operations-in-production).
-
-> [!NOTE]
-> Darbuotojo daromos išlygos **Rezervinė medžiaga** dialogo langas išliks, kai darbuotojas pasirinks **Atšaukti** viduje konors **Pranešti apie pažangą** arba **Pranešti apie iškarpą** dialogo langas.
+![Dialogo langas Teikti ataskaitą apie atliekas](media/pfei-report-scrap-dialog.png "Dialogo langas Teikti ataskaitą apie atliekas")
 
 ## <a name="completing-a-job-and-starting-a-new-job"></a>Užduoties užbaigimas ir naujos užduoties pradėjimas
 
@@ -204,7 +125,7 @@ Paprastai darbuotojai užbaigia užduotį pasirinkdami vieną ar daugiau dabarti
 
 Darbuotojas taip pat gali pradėti naują užduotį, kol ankstesnė užduotis vis dar atidaryta. Vėlgi, darbuotojas pasirenka naują užduotį skirtuke **Visos užduotys** ir tada pasirenka **Pradėti užduotį**. Tačiau šiuo atveju dialogo langas **Pradėti užduotį** praneša darbuotojui, kad jie šiuo metu dirba su užduotimi, todėl jie turi sustabdyti arba užbaigti tą užduotį prieš pradedami naują užduotį.
 
-## <a name="working-on-multiple-jobs-in-parallel"></a>Darbas su keliomis užduotimis vienu metu
+## <a name="working-on-multiple-jobs-in-parallel"></a>Dirbas su keliomis užduotimis vienu metu
 
 Vienas darbuotojas vienu metu gali dirbti su keliomis užduotimis (t. y. lygiagrečiai). Tokiu atveju užduočių, su kuriomis dirba darbuotojas, rinkinys vadinamas *užduočių grupe*. Darbuotojas gali įtraukti naujų užduočių į grupę arba užbaigti vieną ar daugiau grupės užduočių. Toliau pateikti du scenarijai rodo, kaip darbuotojas gali dirbti su užduotimis lygiagrečiai.
 
@@ -212,13 +133,13 @@ Vienas darbuotojas vienu metu gali dirbti su keliomis užduotimis (t. y. lygiagr
 
 Darbuotojas pasirenka tas dvi užduotis skirtuke **Visos užduotys** ir tada pasirenka **Pradėti užduotį**. Dialogo lange **Pradėti užduotį** rodomos abi pasirinktos užduotys, o darbuotojas gali koreguoti kiekį, kad pradėtų darbą su kiekviena užduotimi. Tada darbuotojas patvirtina dialogo langą ir gali pradėti abi užduotis.
 
-### <a name="scenario-2-a-worker-who-has-two-active-jobs-that-are-in-progress-wants-to-start-a-third-job-and-work-on-it-in-parallel-with-the-other-two"></a>2 scenarijus. Darbuotojas, turintis dvi aktyvias atliekamas užduotis, nori pradėti trečią užduotį ir dirbti su tomis dvejomis užduotimis lygiagrečiai
+### <a name="scenario-2-a-worker-who-has-two-active-jobs-that-are-in-progress-wants-to-start-a-third-job-and-work-on-it-in-parallel-with-the-other-two"></a>2 scenarijus. Darbuotojas, turintis dvi aktyvias atliekamas užduotis, nori pradėti trečią užduotį ir dirbti su tomis dviejomis užduotimis lygiagrečiai
 
 Darbuotojas pasirenka trečią užduotį skirtuke **Visos užduotys** ir tada pasirenka **Grupavimas**. Dialogo lange **Grupavimas** darbuotojas gali koreguoti kiekį, kad pradėtų darbą. Tada darbuotojas patvirtina dialogo langą pasirinkdamas **Grupavimas**.
 
 ## <a name="working-on-indirect-activities"></a>Darbas su netiesioginėmis veiklomis
 
-Netiesioginės veiklos yra veiklos, kurios nėra tiesiogiai susijusios su gamybos užsakymu. Netiesioginės veiklos gali būti lanksčiai apibrėžtos, kaip aprašyta [Laiko ir buvimo darbe netiesioginių veiklų nustatymas](/dynamicsax-2012/appuser-itpro/set-up-indirect-activities-for-time-and-attendance).
+Netiesioginės veiklos yra veiklos, kurios nėra tiesiogiai susijusios su gamybos užsakymu. Netiesioginės veiklos gali būti lanksčiai apibrėžtos, kaip aprašyta [Laiko ir buvimo darbe netiesioginių veiklų nustatymas](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-indirect-activities-for-time-and-attendance).
 
 Pavyzdžiui, „Contoso” cecho darbuotoja Shannon nori dalyvauti įmonės susitikime, o susitikimai laikomi netiesiogine veikla. Taikomas vienas iš toliau pateiktų dviejų scenarijų.
 

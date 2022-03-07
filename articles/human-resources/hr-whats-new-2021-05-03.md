@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-05-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 1bfbfabc8ba9c41dfd02c205755042f82387f5e09c88722e2503316bc1cf5feb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4fd0d0d39d19634498f9313aeda4143f9ec81e8f
+ms.sourcegitcommit: f3c28f57d997e824a64485d9a4ce8f198e3bcf23
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6770365"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "6059634"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-may-3-2021"></a>Kas nauja ar pasikeitė sistemoje „Dynamics 365 Human Resources“ (2021 m. gegužės 3 d.)
 
@@ -65,7 +65,7 @@ Toliau pateiktos naujos funkcijos yra peržiūrimos. Daugiau informacijos apie f
 | Išmokų valdymo darbo sritis | [Išmokų valdymo darbo sritis (peržiūra)](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/benefits-management-workspace) | [Išmokų valdymo darbo sritis](hr-benefits-management-workspace.md) |
 | Atostogų ir neatvykimų darbo eigos patirties patobulinimai | [Atostogų ir neatvykimų darbo eigos patirties patobulinimai](https://go.microsoft.com/fwlink/?linkid=2147528) | [Prašyti išleisti iš darbo](hr-employee-self-service-request-time-off.md)|
 | Įgalinti supaprastintą algalapio integravimą (algalapio integravimo API) | [Įjunkite supaprastintas integraciją su mokėjimo tiekėjais](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/enable-simplified-integration-payroll-providers) | [Algalapių integravimo API](hr-admin-integration-payroll-api-introduction.md)|
-| Atostogų kaupimo operacijos tikrinimas | - | [Atostogų kaupimo operacijos tikrinimas](hr-leave-and-absence-accrue.md)|
+| Atostogų kaupimo operacijos tikrinimas | - | [Atostogų kaupimo operacijos tikrinimas](hr-leave-and-absence-accrue.md#preview-leave-accrual-transaction-auditing)|
 
 ## <a name="coming-soon"></a>Jau greitai
 

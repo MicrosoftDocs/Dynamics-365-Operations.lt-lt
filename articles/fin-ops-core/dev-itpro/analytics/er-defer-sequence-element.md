@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-07-01
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 19d1cf0aa6e9b40a0e72a3a74acda6e2579d6ee2
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
-ms.translationtype: MT
+ms.openlocfilehash: a7904924d1c2830287e26eb9fb71bd9a03f210d9
+ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323695"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "5944514"
 ---
 # <a name="defer-the-execution-of-sequence-elements-in-er-formats"></a>Sekos elementų ER formatais vykdymo atidėjimas
 
@@ -28,7 +28,7 @@ ms.locfileid: "8323695"
 
 ## <a name="overview"></a>Peržiūrėti
 
-Norėdami sukonfigūruoti [ER sprendimo, kuris naudojamas siunčiamams dokumentams teksto formatu generuoti, formato komponentą, galite naudoti elektroninių ataskaitų (ER)](general-electronic-reporting.md)[sistemos](tasks/er-format-configuration-2016-11.md) operacijų konstruktorių. Sukonfigūruoto formato komponento hierarchinė struktūra susideda iš įvairių tipų formato elementų. Šie formato elementai naudojami sugeneruotiems dokumentams užpildyti reikiama informacija vykdymo metu. Numatyta, kad kai vykdote ER formatą, formato elementai vykdomi tokia pačia tvarka, kokia jie pateikiami formato hierarchijoje: po vieną, iš viršaus į apačią. Tačiau kūrimo metu galite pakeisti bet kurių sukonfigūruoto formato komponento sekos elementų vykdymo tvarką.
+Galite naudoti [elektroninių ataskaitų (ER)](general-electronic-reporting.md) sistemos operacijų dizaino įrankį, kad [sukonfigūruotumėte](tasks/er-format-configuration-2016-11.md) ER sprendimo, naudojamo siunčiamiems dokumentams teksto formatu generuoti, [formato komponentą](general-electronic-reporting.md#FormatComponentOutbound). Sukonfigūruoto formato komponento hierarchinė struktūra susideda iš įvairių tipų formato elementų. Šie formato elementai naudojami sugeneruotiems dokumentams užpildyti reikiama informacija vykdymo metu. Numatyta, kad kai vykdote ER formatą, formato elementai vykdomi tokia pačia tvarka, kokia jie pateikiami formato hierarchijoje: po vieną, iš viršaus į apačią. Tačiau kūrimo metu galite pakeisti bet kurių sukonfigūruoto formato komponento sekos elementų vykdymo tvarką.
 
 Įjungę sekos elemento sukonfigūruotu formatu parinktį <a name="DeferredSequenceExecution"></a>**Atidėtas vykdymas**, galite atidėti (nukelti) to elemento vykdymą. Šiuo atveju elementas nevykdomas, kol neįvykdomi visi kiti jo pirminio elemento elementai.
 
@@ -88,14 +88,14 @@ Prieš pradėdami, taip pat turite atsisiųsti ir įrašyti šią ER sprendimo p
 6. Konfigūracijos medyje išplėskite **Modelis, norint sužinoti apie atidėtus elementus**.
 7. Peržiūrėkite importuotų ER konfigūracijų sąrašą konfigūracijos medyje.
 
-    ![Importuotos ER konfigūracijos puslapyje Konfigūracijos.](./media/ER-DeferredSequence-Configurations.png)
+    ![Importuotos ER konfigūracijos puslapyje Konfigūracijos](./media/ER-DeferredSequence-Configurations.png)
 
 ### <a name="activate-a-configurations-provider"></a>Aktyvinti konfigūracijų teikėją
 
 1. Eikite į **Organizacijos administravimas** \> **Darbo sritys** \> **Elektroninės ataskaitos**.
 2. Puslapio **Lokalizavimo konfigūracijos** skyriuje **Konfigūracijų teikėjai** įsitikinkite, kad sąraše yra [konfigūracijos teikėjas](general-electronic-reporting.md#Provider), susijęs su pavyzdine įmone „Litware, Inc.“ (`http://www.litware.com`), ir kad jis pažymėtas kaip aktyvus. Jeigu šio konfigūracijos teikėjo sąraše nėra arba jei jis nėra pažymėtas kaip aktyvus, atlikite temoje [Sukurti konfigūracijų teikėją ir jį pažymėti kaip aktyvų](./tasks/er-configuration-provider-mark-it-active-2016-11.md) nurodytus veiksmus.
 
-    ![Pavyzdinė įmonė „Litware, Inc.“ puslapyje Lokalizavimo konfigūracijos.](./media/ER-DeferredSequence-ElectronicReportingWorkspace.png)
+    ![Pavyzdinė įmonė „Litware, Inc.“ puslapyje Lokalizavimo konfigūracijos](./media/ER-DeferredSequence-ElectronicReportingWorkspace.png)
 
 ### <a name="review-the-imported-model-mapping"></a>Importuotų modelių susiejimo peržiūra
 
@@ -117,7 +117,7 @@ Peržiūrėkite ER modelio susiejimo komponento, kuris konfigūruojamas, kad bū
     - Duomenų šaltinis **Sugrupuota**, kurio tipas yra *Grupuoti pagal*, sukonfigūruotas, kad grupuotų duomenų šaltinio **Filtruota** mokesčių operacijas.
     - Agregavimo laukas **TotalSum** duomenų šaltinyje **Sugrupuota** sukonfigūruotas taip, kad apibendrintų vertes lauke **\$TaxAmount** duomenų šaltinyje **Filtruota** visų minėto duomenų šaltinio filtruotų mokesčių operacijų atveju.
 
-        ![Kaupimo laukas „Bendra suma”, esantis parametrų puslapyje Redaguoti „Sugrupuoti pagal”.](./media/ER-DeferredSequence-GroupByParameters.png)
+        ![Agregavimo laukas TotalSum, esantis parametrų puslapyje Redaguoti 'GroupBy'](./media/ER-DeferredSequence-GroupByParameters.png)
 
 9. Peržiūrėkite, kaip sukonfigūruoti duomenų šaltiniai yra susieti su duomenų modeliu ir kaip jie pateikia gautus duomenis, kad būtų galima juos naudoti ER formatu.
 
@@ -125,7 +125,7 @@ Peržiūrėkite ER modelio susiejimo komponento, kuris konfigūruojamas, kad bū
     - Duomenų šaltinio **Filtruota** laukas **\$TaxAmount** yra susietas su duomenų modelio lauku **Data.List.Value**.
     - Duomenų šaltinio **Sugrupuota** laukas **TotalSum** yra susietas su duomenų modelio lauku **Data.Summary.Total**.
 
-    ![Modelio susiejimo dizaino įrankio puslapis.](./media/ER-DeferredSequence-ModelMapping.png)
+    ![Modelio susiejimo dizaino įrankio puslapis](./media/ER-DeferredSequence-ModelMapping.png)
 
 10. Uždarykite puslapius **Modelio susiejimo dizaino įrankis** ir **Modelio susiejimai**.
 
@@ -138,12 +138,12 @@ Peržiūrėkite ER modelio susiejimo komponento, kuris konfigūruojamas, kad bū
 
     - Sekos formato elementas **Ataskaita\\Eilutės** yra sukonfigūruotas taip, kad į siunčiamus dokumentus įtrauktų vieną eilutę, sugeneruota iš įdėtųjų sekos elementų (**Antraštė**, **Įrašas** ir **Suvestinė**).
 
-        ![Sekos formato elementas Eilutės ir įdėtieji elementai puslapyje Formato dizaino įrankis.](./media/ER-DeferredSequence-Format.png)
+        ![Sekos formato elementas Eilutės ir įdėtieji elementai puslapyje Formato dizaino įrankis](./media/ER-DeferredSequence-Format.png)
 
     - Sekos formato elementas **Ataskaita\\Eilutės\\Antraštė** yra sukonfigūruotas taip, kad įtrauktų į siunčiamus dokumentus vieną antraštės eilutę, kurioje rodomi apdorojimo pradžios data ir laikas.
     - Sekos formato elementas **Ataskaita\\Eilutės\\Įrašas** sukonfigūruotas taip, kad įtrauktų į siunčiamus dokumentus vieną įrašo eilutę, kurioje pateikiama atskirų mokesčių operacijų informacija. Šios mokesčių operacijos atskiriamos kabliataškiu.
 
-        ![Sekos formato elementas Įrašas, kuriame kabliataškis naudojamas kaip skyriklis.](./media/ER-DeferredSequence-Format1.png)
+        ![Sekos formato elementas Įrašas, kuriame kabliataškis naudojamas kaip skyriklis](./media/ER-DeferredSequence-Format1.png)
 
     - Sekos formato elementas **Ataskaita\\Eilutės\\Suvestinė** sukonfigūruotas taip, kad įtrauktų į siunčiamus dokumentus vieną suvestinės eilutę, kurioje yra mokesčių verčių suma iš apdorotų mokesčių operacijų.
 
@@ -162,14 +162,14 @@ Peržiūrėkite ER modelio susiejimo komponento, kuris konfigūruojamas, kad bū
     - Elementas **TotalTaxAmount** yra susietas su **model.Data.Summary.Total**, kad būtų sugeneruota apdorotų mokesčių operacijų mokesčių verčių suma.
     - Elementas **ExecutionDateTime** generuoja datą ir laiką (įskaitant milisekundes), kai įtraukiama suvestinės eilutė.
 
-    ![Skirtukas Susiejimas puslapyje Formato dizaino įrankis.](./media/ER-DeferredSequence-Format2.png)
+    ![Skirtukas Susiejimas puslapyje Formato dizaino įrankis](./media/ER-DeferredSequence-Format2.png)
 
 ### <a name="run-the-imported-format"></a>Importuoto formato vykdymas
 
 1. Puslapyje **Formato dizaino įrankis** pasirinkite **Vykdyti**.
 2. Atsisiųskite failą, kuris siūlomas žiniatinklio naršyklėje, ir atidarę jį peržiūrėkite.
 
-    ![Atsisiųstas ataskaitos failo pavyzdys.](./media/ER-DeferredSequence-Run.png)
+    ![Atsisiųstas ataskaitos failo pavyzdys](./media/ER-DeferredSequence-Run.png)
 
 Atkreipkite dėmesį, kad 22 suvestinės eilutėje pateikiama apdorotų operacijų mokesčių verčių suma. Kadangi formatas sukonfigūruotas, kad naudotų susiejimą **model.Data.Summary.Total** šiai sumai pateikti, suma apskaičiuojama iškviečiant telkimą **TotalSum** duomenų šaltinyje **Sugrupuota**, kurio tipas yra *GroupBy*, naudojantis modelių susiejimą. Norint apskaičiuoti šį telkimą, modelių susiejimas pakartojamas visose operacijose, kurios buvo pasirinktos duomenų šaltinyje **Filtruota**. Lygindami 21 ir 22 eilučių vykdymo laikus, galite nustatyti, kad sumos apskaičiavimas truko 10 milisekundžių (ms). Lygindami 2 ir 21 eilučių vykdymo laikus, galite nustatyti, kad visų operacijų eilučių generavimas truko 7 ms. Taigi, iš viso prireikė 17 ms.
 
@@ -183,12 +183,12 @@ Jei operacijų kiekis yra daug didesnis, nei kiekis šiame pavyzdyje, sumavimo t
 4. Sukonfigūruokite išraišką **Surinktų duomenų rakto pavadinimas** kaip `WsColumn`.
 5. Sukonfigūruokite išraišką **Surinktų duomenų rakto reikšmė** kaip `WsRow`.
 
-    ![Sekos elementas Eilutės puslapyje Formato dizaino įrankis.](./media/ER-DeferredSequence-Format3.png)
+    ![Sekos elementas Eilutės puslapyje Formato dizaino įrankis](./media/ER-DeferredSequence-Format3.png)
 
 6. Pasirinkite skaitinį elementą **Ataskaitos\\Eilutės\\Įrašas\\TaxAmount**.
 7. Sukonfigūruokite išraišką **Surinktų duomenų rakto pavadinimas** kaip `SummingAmountKey`.
 
-    ![Skaitinis elementas TaxAmount puslapyje Formato dizaino įrankis.](./media/ER-DeferredSequence-Format4.png)
+    ![Skaitinis elementas TaxAmount puslapyje Formato dizaino įrankis](./media/ER-DeferredSequence-Format4.png)
 
     Galite laikyti šį parametrą virtualaus darbalapio pildymu, kai A1 langelio vertė pridedama prie kiekvienos apdorotos mokesčių operacijos mokesčio sumos vertės.
 
@@ -196,13 +196,13 @@ Jei operacijų kiekis yra daug didesnis, nei kiekis šiame pavyzdyje, sumavimo t
 9. Konfigūruokite išraišką `SUMIF(SummingAmountKey, WsColumn, WsRow)` naudodami įtaisytąją ER funkciją [SUMIF](er-functions-datacollection-sumif.md).
 10. Pasirinkite **Įrašyti**.
 
-    ![Išraiška SUMIF.](./media/ER-DeferredSequence-FormulaDesigner.png)
+    ![Išraiška SUMIF](./media/ER-DeferredSequence-FormulaDesigner.png)
 
 11. Uždarykite puslapį **Formulės konstruktorius**.
 12. Pasirinkite **Įrašyti**, tada pasirinkite **Vykdyti**.
 13. Atsisiųskite ir peržiūrėkite failą, kuris siūlomas žiniatinklio naršyklėje.
 
-    ![Atsisiųstas failas – susumuoti mokesčių vertės.](./media/ER-DeferredSequence-Run1.png)
+    ![Atsisiųstas failas – susumuoti mokesčių vertės](./media/ER-DeferredSequence-Run1.png)
 
     21 eilutėje yra visų apdorotų operacijų bendra mokesčių verčių suma, apskaičiuota naudojant sugeneruotą išvestį kaip duomenų šaltinį. Šis duomenų šaltinis prasideda ataskaitos pradžioje ir tęsiasi iki paskutinės mokesčių operacijos. 22 eilutėje yra visų apdorotų operacijų, apskaičiuotų modelio susiejimo metu naudojant *GroupBy* tipo duomenų šaltinį, mokesčių verčių suma. Atkreipkite dėmesį, kad šios vertės yra lygios. Todėl galima naudoti išvestimi pagrįstą sumavimą, o ne **GroupBy**. Lygindami 2 ir 21 eilučių vykdymo laikus, galite nustatyti, kad visų operacijų eilučių generavimas ir sumavimas truko 9 ms. Todėl, kiek tai susiję su išsamių eilučių generavimu ir mokesčių verčių sumavimu, modifikuotas formatas yra maždaug du kartus spartesnis už pradinį formatą.
 
@@ -211,7 +211,7 @@ Jei operacijų kiekis yra daug didesnis, nei kiekis šiame pavyzdyje, sumavimo t
 16. Pasirinkite **Įrašyti**, tada pasirinkite **Vykdyti**.
 17. Atsisiųskite ir peržiūrėkite failą, kuris siūlomas žiniatinklio naršyklėje.
 
-    ![Atsisiųstas failas su redaguota formule.](./media/ER-DeferredSequence-Run2.png)
+    ![Atsisiųstas failas su redaguota formule](./media/ER-DeferredSequence-Run2.png)
 
     Atkreipkite dėmesį, kad bendra mokesčių verčių suma paskutinėje operacijos informacijos eilutėje dabar yra lygi sumai suvestinės eilutėje.
 
@@ -224,7 +224,7 @@ Jei, pavyzdžiui, turite pateikti mokesčių verčių sumą ataskaitos antrašt�
 3. Pasirinkite **Įrašyti**, tada pasirinkite **Vykdyti**.
 4. Atsisiųskite ir peržiūrėkite failą, kuris siūlomas žiniatinklio naršyklėje.
 
-    ![Atsisiųstas failas, skirtas sumuoti ataskaitos antraštėje.](./media/ER-DeferredSequence-Run3.png)
+    ![Atsisiųstas failas, skirtas sumuoti ataskaitos antraštėje](./media/ER-DeferredSequence-Run3.png)
 
     Atkreipkite dėmesį, kad mokesčių verčių suma 2 suvestinės eilutėje dabar yra lygi 0 (nuliui), nes ši suma dabar apskaičiuojama pagal sugeneruotą išvestį. Kai sugeneruojama 2 eilutė, sugeneruotoje išvestyje dar nėra eilučių, kuriuose būtų operacijų informacijos. Galite sukonfigūruoti šį formatą, kad būtų atidėtas sekos elemento **Ataskaita\\Eilutės\\Suvestinė** vykdymas, kol bus įvykdytas visų mokesčių operacijų sekos elementas **Ataskaita\\Eilutės\\Įrašas**.
 
@@ -233,12 +233,12 @@ Jei, pavyzdžiui, turite pateikti mokesčių verčių sumą ataskaitos antrašt�
 1. Puslapyje **Formato dizaino įrankis** skirtuke **Formatas** pasirinkite sekos elementą **Ataskaita\\Eilutės\\Suvestinė**.
 2. Parinktyje **Atidėtas vykdymas** nustatykite **Taip**.
 
-    ![Sekos elemento Suvestinė atidėto vykdymo parinktis puslapyje Formato dizaino įrankis.](./media/ER-DeferredSequence-Format5.png)
+    ![Sekos elemento Suvestinė atidėto vykdymo parinktis puslapyje Formato dizaino įrankis](./media/ER-DeferredSequence-Format5.png)
 
 3. Pasirinkite **Įrašyti**, tada pasirinkite **Vykdyti**.
 4. Atsisiųskite ir peržiūrėkite failą, kuris siūlomas žiniatinklio naršyklėje.
 
-    ![Atsisiųstas failas – atidėtas vykdymas.](./media/ER-DeferredSequence-Run4.png)
+    ![Atsisiųstas failas – atidėtas vykdymas](./media/ER-DeferredSequence-Run4.png)
 
     Dabar sekos elementas **Ataskaita\\Eilutės\\Suvestinė** dabar vykdomas tik įvykdžius visus kitus jo pirminio elemento **Ataskaita\\Eilutės** įdėtuosius elementus. Todėl jis vykdomas įvykdžius sekos elementą **Ataskaita\\Eilutės\\Įrašas** visų mokesčių operacijų, kurių duomenų šaltinis yra **model.Data.List**, atžvilgiu. 1, 2 ir 3 eilučių ir paskutinės (22) eilutės vykdymo laikai atskleidžia šį faktą.
 

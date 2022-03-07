@@ -1,38 +1,33 @@
 ---
-title: Sukonfigūruokite „Dynamics 365 Commerce“ vertinimo aplinką
+title: „Dynamics 365 Commerce“ vertinimo aplinkos konfigūravimas
 description: Šiame skyriuje paaiškinama, kaip sukonfigūruoti pirkimą internetu, pasiėmimą parduotuvėje „Microsoft Dynamics 365 Commerce“ vertinimo aplinką, po to kai ji buvo parengta.
 author: psimolin
-manager: annbe
-ms.date: 07/16/2020
+ms.date: 12/10/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Operations, Retail, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 6a1ae960f0f530104af7bdea9a8fcb78b01571f5
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 5883a6e68628d706fa19d7d23b68f17007c32890
+ms.sourcegitcommit: eef5d9935ccd1e20e69a1d5b773956aeba4a46bc
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4414240"
+ms.lasthandoff: 12/11/2021
+ms.locfileid: "7913732"
 ---
-# <a name="configure-a-dynamics-365-commerce-evaluation-environment"></a>Sukonfigūruokite „Dynamics 365 Commerce“ vertinimo aplinką
+# <a name="configure-a-dynamics-365-commerce-evaluation-environment"></a>„Dynamics 365 Commerce“ vertinimo aplinkos konfigūravimas
 
 [!include [banner](includes/banner.md)]
 
 Šiame skyriuje paaiškinama, kaip sukonfigūruoti pirkimą internetu, pasiėmimą parduotuvėje „Microsoft Dynamics 365 Commerce“ vertinimo aplinką, po to kai ji buvo parengta.
 
-## <a name="overview"></a>Peržiūra
-
-Pabaikite šio skyriaus procedūras po to, kai jūsų Komercijos vertinimo aplinka buvo parengta ir sukonfigūruota. Dėl informacijo, kaip nustatyti savo Komercijos vertinimo aplinką po jos nustatymo, žr. [Komercijos vertinimo aplinkos nustatymas](provisioning-guide.md).
+Pabaikite šio skyriaus procedūras po to, kai jūsų Komercijos vertinimo aplinka buvo parengta ir sukonfigūruota. Dėl informacijos, kaip nustatyti savo Komercijos vertinimo aplinką po jos nustatymo, žr. [Komercijos vertinimo aplinkos nustatymas](provisioning-guide.md).
 
 Po to kai jūsų Komercijos vertinimo aplinka buvo parengta iki galo, papildomas jos parengimo konfigūravimo žingsniai turi būti pateikti iki tol, kol pradėsite vertinti aplinką. Norėdami atlikti šiuos veiksmus, turite naudoti „Microsoft Dynamics Lifecycle Services“ (LCS) ir „Dynamics 365 Commerce“.
 
@@ -44,6 +39,7 @@ Po to kai jūsų Komercijos vertinimo aplinka buvo parengta iki galo, papildomas
 1. Sąraše pasirinkite savo aplinką.
 1. Aplinkos informacijoje dešinėje, pasirinkite **Prisijungti prie aplinkos**. Būsite nukreipti į komercijos būstinę.
 1. Įsitikinkite, kad viršutiniame dešiniajame kampe pasirinktas juridinis subjektas **USRT**.
+2. Eikite į "Commerce" parametrus > konfigūracijos parametrus ir **įsitikinkite**, kad yra **ProductSearch.UseAzureSearch** įrašas, nustatytas kaip **teisingas**. Jei nėra šio įrašo, galite įtraukti šį įrašą ir paleisti kanalo duomenų bazę > "Commerce Scale" vieneto, susieto su jūsų **eCommerce** svetaine, visas sinchronizavimas.
 
 Po parengimo veiksmų komercijos būstinėje, įsitikinkite, kad **USRT** juridinis asmuo yra visuomet pasirinktas.
 
@@ -109,7 +105,13 @@ Norėdami programoje „Commerce“ įjungti užduotis, atlikite toliau nurodytu
 
     1. Pasirinkite įrašą.
     1. Veiksmų srities skirtuke **Paketinė užduotis** pasirinkite **Keisti būseną**.
-    1. Pasirinkite **Atšaukti**, tuomet pasirinkite **OK**.
+    1. Pasirinkite **Atšaukti**, tuomet pasirinkite **Gerai**.
+
+1. Jei užduoties būsena **išskaitoma,** atlikite šiuos veiksmus:
+
+    1. Pasirinkite įrašą.
+    1. Veiksmų srities skirtuke **Paketinė užduotis** pasirinkite **Keisti būseną**.
+    1. Pasirinkite **Laukiama**, tada – **Gerai**.
 
 Pasirinktinai, taip pat galite nustatyti sutapimo intervalą ties (1) minute šiems veiksmams:
 
@@ -133,7 +135,7 @@ Visų duomenų sinchronizavimo komercijoje vykdymui, atlikite šiuos veiksmus ko
 Norėdami svetainėje atlikti bandomąsias operacijas, galite naudoti tolesnę bandomosios kredito kortelės informaciją.
 
 - **Kortelės numeris:** 4111-1111-1111-1111
-- **Galiojimo pabaigos data:** 10/20
+- **Galiojimo pabaigos data:** 10/30
 - **Kortelės tikrinimo vertės (CVV) kodas:** 737
 
 > [!IMPORTANT]
@@ -144,6 +146,9 @@ Norėdami svetainėje atlikti bandomąsias operacijas, galite naudoti tolesnę b
 Po parengimo ir konfigūravimo žingsnių atlikimo, galite pradėti naudoti savo vertinimo aplinką. Naudokite komercijos vietos kūrėjo URL tam, kad eitumėte į autorizavimo patirtį. Naudokite komercijos vietos kūrėjo URL tam, kad eitumėte į mažmenos kliento vietos patirtį.
 
 Tam, kad sukonfigūruotumėte pasirenkamas jūsų Komercijos vertinimo aplinkos savybes, žr. [Konfigūruoti pasirenkamas savybes savo Komercijos vertinimo aplinkoje](cpe-optional-features.md).
+
+> [!NOTE]
+> Į „Commerce” vertinimo aplinkas yra iš anksto įkeltas „Azure Active Directory“ („Azure AD)” verslas – vartotojui (B2C) nuomotojas demonstraciniais tikslais. Vertinimo aplinkose nėra būtina konfigūruoti savo „Azure AD B2C” nuomotojo. Tačiau jeigu norėdami naudoti savo „Azure AD” B2C nuomotoją konfigūruojate vertinimo aplinką, naudodami „Azure” portalą į „Azure AD” B2C programą būtinai įtraukite ``https://login.commerce.dynamics.com/_msdyn365/authresp`` kaip atsakymo URL.
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
@@ -157,10 +162,15 @@ Tam, kad sukonfigūruotumėte pasirenkamas jūsų Komercijos vertinimo aplinkos 
 
 [„Dynamics 365 Commerce“ vertinimo aplinkos DUK](cpe-faq.md)
 
-[„Microsoft Lifecycle Services“ (LCS)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
+[„Microsoft Lifecycle Services“ (LCS)](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
 
-[„Retail Cloud Scale Unit“ (RCSU)](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-retail/retail-cloud-scale-unit)
+[„Retail Cloud Scale Unit“ (RCSU)](/business-applications-release-notes/october18/dynamics365-retail/retail-cloud-scale-unit)
 
 [„Microsoft Azure“ portalas](https://azure.microsoft.com/features/azure-portal)
 
 [„Dynamics 365 Commerce“ svetainė](https://aka.ms/Dynamics365CommerceWebsite)
+
+[„Commerce” B2C nuomotojo sąranka](set-up-B2C-tenant.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

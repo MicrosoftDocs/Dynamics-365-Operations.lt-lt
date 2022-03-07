@@ -1,7 +1,7 @@
 ---
 title: Kas nauja ar pasikeitė „Dynamics 365 Supply Chain Management“ 10.0.6 (2019 m. lapkritis)
 description: Šioje temoje aprašomos naujos ir pakeistos „Dynamics 365 Supply Chain Management“ 10.0.6 funkcijos.
-author: kamaybac
+author: josaw1
 ms.date: 10/28/2019
 ms.topic: article
 ms.prod: ''
@@ -11,15 +11,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: josaw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: 87bcda25b89135e052a5a883b816ea0bb430479a
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 83798af9c39ae8845125026903741882356d8845
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7568908"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909334"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-1006-november-2019"></a>Kas nauja ar pasikeitė „Dynamics 365 Supply Chain Management“ 10.0.6 (2019 m. lapkritis)
 

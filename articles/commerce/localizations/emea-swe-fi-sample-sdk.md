@@ -1,6 +1,6 @@
 ---
-title: Švedijos valdymo bloko integravimo pavyzdžio diegimo gairės (palikimas)
-description: Šioje temoje pateikiamos gairės, kaip įdiegti valdymo bloko integravimo pavyzdį Švedijoje iš mažmeninės prekybos SDK
+title: Švedijos (senesnių) kontrolės vieneto integravimo pavyzdžio diegimo rekomendacijos
+description: Šioje temoje pateikiamos Švedijos kontrolės vieneto integravimo pavyzdžio diegimo iš "Retail SDK" rekomendacijos
 author: EvgenyPopovMBS
 ms.date: 12/20/2021
 ms.topic: article
@@ -9,44 +9,44 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-3-1
-ms.openlocfilehash: b8d60f32d986dec6bb26d78ebdfe8cee3a6b688a
-ms.sourcegitcommit: 5cefe7d2a71c6f220190afc3293e33e2b9119685
-ms.translationtype: MT
+ms.openlocfilehash: c0e301305fb0d99ab2f8c811f9f560bc5008e02b
+ms.sourcegitcommit: 0d2de52e12fdb9928556d37a4813a67b303695dc
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "8077043"
+ms.lasthandoff: 12/21/2021
+ms.locfileid: "7944895"
 ---
-# <a name="deployment-guidelines-for-the-control-unit-integration-sample-for-sweden-legacy"></a>Švedijos valdymo bloko integravimo pavyzdžio diegimo gairės (palikimas)
+# <a name="deployment-guidelines-for-the-control-unit-integration-sample-for-sweden-legacy"></a>Švedijos (senesnių) kontrolės vieneto integravimo pavyzdžio diegimo rekomendacijos
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje pateikiamos gairės, kaip įdiegti valdymo bloko integravimo pavyzdį Švedijoje iš mažmeninės prekybos programinės įrangos kūrimo rinkinio (SDK) kūrėjo virtualioje mašinoje (VM).Microsoft Dynamics Gyvenimo ciklo paslaugos (LCS). Daugiau informacijos apie šį fiskalinės integracijos pavyzdį žr [Valdymo bloko integravimo pavyzdys Švedijai](emea-swe-fi-sample.md). 
+Šioje temoje pateikiami Švedijos valdymo vieneto integravimo pavyzdžio diegimo iš "Retail" programinės įrangos kūrimo rinkinio (SDK) programuotojo virtualiojoje kompiuteryje (VM) ciklo tarnybose Microsoft Dynamics (LCS) rekomendacijos. Daugiau informacijos apie šį finansinio integravimo pavyzdį ieškokite [Švedijos kontrolės vieneto integravimo pavyzdys](emea-swe-fi-sample.md). 
 
-Švedijos fiskalinės integracijos pavyzdys yra mažmeninės prekybos SDK dalis. Norėdami gauti informacijos apie tai, kaip įdiegti ir naudoti SDK, žr [Mažmeninės prekybos programinės įrangos kūrimo rinkinio (SDK) architektūra](../dev-itpro/retail-sdk/retail-sdk-overview.md). Šį pavyzdį sudaro „Commerce“ vykdymo laiko plėtiniai (CRT), Aparatinės įrangos stotis ir pardavimo vieta (POS). Norėdami paleisti šį pavyzdį, turite modifikuoti ir sukurti CRT, Aparatinės įrangos stotis ir POS projektai. Rekomenduojame naudoti nepakeistą mažmeninės prekybos SDK, kad atliktumėte šioje temoje aprašytus pakeitimus. Taip pat rekomenduojame naudoti šaltinio valdymo sistemą, pvz Azure DevOps kur dar nepakeisti jokie failai.
+Švedijos finansinio integravimo pavyzdys yra mažmeninės prekybos SDK dalis. Informacijos, kaip įdiegti ir naudoti SDK, ieškokite Mažmeninės prekybos programinės [įrangos kūrimo rinkinio (SDK) architektūroje](../dev-itpro/retail-sdk/retail-sdk-overview.md). Šį pavyzdį sudaro "Commerce runtime ( ), Hardware station ir CRT point of sale (EKA) plėtiniai. Norėdami vykdyti šį pavyzdį, turite modifikuoti ir sukurti CRT projektus, "Hardware" stotį ir EKA. Rekomenduojame naudoti nesumoduliuotą "Retail SDK", kad būtų atlikti šioje temoje aprašyti pakeitimai. Taip pat rekomenduojame naudoti šaltinio valdymo sistemą, pvz., Azure DevOps kurioje dar nėra pakeistų failų.
 
 ## <a name="development-environment"></a>Talpinimo aplinka
 
-Atlikite šiuos veiksmus, kad nustatytumėte kūrimo aplinką, kad galėtumėte išbandyti ir išplėsti pavyzdį.
+Norėdami nustatyti programavimo aplinką, kad būtų galima patikrinti ir išplėsti pavyzdį, atlikite šiuos veiksmus.
 
-### <a name="enable-crt-extensions"></a>Įgalinti CRT plėtiniai
+### <a name="enable-crt-extensions"></a>Įjungti CRT plėtinius
 
-The CRT pratęsimo komponentai yra įtraukti į CRT pavyzdžiai. Norėdami užbaigti toliau nurodytas procedūras, atidarykite **CommerceRuntimeSamples.sln** sprendimas pagal **RetailSdk\\ Extensions pavyzdys\\ CommerceRuntime**.
+Plėtinio CRT komponentai įtraukiami į CRT pavyzdžius. Norėdami atlikti šias procedūras, dalyje **·** **RetailSdk \\ SampleExtensions \\ CommerceRuntime atidarykite sprendimą CommerceRuntimeSamples.sln.**
 
 #### <a name="documentprovidercleancashsample-component"></a>DocumentProvider.CleanCashSample komponentas
 
-1. Surask **Runtime.Extensions.DocumentProvider.CleanCashSample** projektą ir jį pastatyti.
-2. Viduje konors **Runtime.Extensions.DocumentProvider.CleanCashSample\\ šiukšliadėžė\\ Derinimas** aplanką, suraskite **Contoso.Commerce.Runtime.DocumentProvider.CleanCashSample.dll** surinkimo failas.
-3. Nukopijuokite surinkimo failą į CRT plėtinių aplankas:
+1. Suraskite **Runtime.Extensions.DocumentProvider.CleanCashSample** projektą ir sukurkite jį.
+2. Aplanke **Runtime.Extensions.DocumentProvider.CleanCashSample \\ talpyklos \\ debug** raskite failą **Contoso.Commerce.Runtime.DocumentProvider.CleanCashSample.dll.**
+3. Nukopijuokite surinkimo failą į CRT plėtinių aplanką:
 
-    - **Prekybos masto vienetas:** Nukopijuokite failą į **\\ šiukšliadėžė\\ ext** aplanką, esantį interneto informacijos paslaugų (IIS) komercijos masto vieneto svetainėje.
-    - **Vietinis CRT Šiuolaikinėje POS:** Nukopijuokite failą į **\\ ext** aplanką pagal vietinį CRT kliento brokerio vieta.
+    - **"Commerce Scale Unit:" kopijuokite failą į talpyklos iš išorės aplanką, esantį informacinių interneto paslaugų** **\\\\** (IIS) "Commerce Scale Unit" vietoje.
+    - **"Modern CRT POS" vieta:** kopijuokite failą į **\\ iš išorės** aplanką, esantį vietinio kliento CRT brokerio vietoje.
 
-4. Raskite plėtinio konfigūracijos failą CRT:
+4. Rasti plėtinio konfigūracijos failą, kuris CRT skirtas:
 
-    - **Prekybos masto vienetas:** Failas pavadintas **commerceruntime.ext.config**, ir jis yra **šiukšliadėžė\\ ext** aplanką, esantį IIS komercijos masto vieneto svetainės vietoje.
-    - **Vietinis CRT Šiuolaikinėje POS:** Failas pavadintas **CommerceRuntime.MPOSOffline.Ext.config**, ir jis priklauso vietiniam CRT kliento brokerio vieta.
+    - **"Commerce Scale Unit:** failas **yra pavadintas commerceruntime.ext.config ir jis yra talpyklos išorinio aplanko** **\\** IIS "Commerce Scale Unit" vietoje.
+    - **"Modern POS" vietinė: failo vardas yra CRT** **CommerceRuntime.MPOSOffline.Ext.config, jis priklauso vietinio** kliento CRT brokerio vietai.
 
-5. Užregistruokite CRT pakeisti plėtinio konfigūracijos failą.
+5. CRT Užregistruokite pakeitimą plėtinio konfigūracijos faile.
 
     ``` xml
     <add source="assembly" value="Contoso.Commerce.Runtime.DocumentProvider.CleanCashSample" />
@@ -54,49 +54,49 @@ The CRT pratęsimo komponentai yra įtraukti į CRT pavyzdžiai. Norėdami užba
 
 #### <a name="extension-configuration-file"></a>Plėtinio konfigūracijos failas
 
-1. Raskite plėtinio konfigūracijos failą CRT:
+1. Rasti plėtinio konfigūracijos failą, kuris CRT skirtas:
 
-    - **Prekybos masto vienetas:** Failas pavadintas **commerceruntime.ext.config**, ir jis yra **šiukšliadėžė\\ ext** aplanką, esantį IIS komercijos masto vieneto svetainės vietoje.
-    - **Vietinis CRT Šiuolaikinėje POS:** Failas pavadintas **CommerceRuntime.MPOSOffline.Ext.config**, ir jis priklauso vietiniam CRT kliento brokerio vieta.
+    - **"Commerce Scale Unit:** failas **yra pavadintas commerceruntime.ext.config ir jis yra talpyklos išorinio aplanko** **\\** IIS "Commerce Scale Unit" vietoje.
+    - **"Modern POS" vietinė: failo vardas yra CRT** **CommerceRuntime.MPOSOffline.Ext.config, jis priklauso vietinio** kliento CRT brokerio vietai.
 
-2. Užregistruokite CRT pakeisti plėtinio konfigūracijos failą.
+2. CRT Užregistruokite pakeitimą plėtinio konfigūracijos faile.
 
     ``` xml
     <add source="assembly" value="Microsoft.Dynamics.Commerce.Runtime.ReceiptsSweden" />
     ```
 
-### <a name="enable-hardware-station-extensions"></a>Įgalinti aparatinės įrangos stoties plėtinius
+### <a name="enable-hardware-station-extensions"></a>Įjungti aparatūros stoties plėtinius
 
-Aparatūros stoties plėtinio komponentai yra įtraukti į aparatinės įrangos stoties pavyzdžius. Norėdami užbaigti toliau nurodytas procedūras, atidarykite **HardwareStationSamples.sln** sprendimas pagal **RetailSdk\\ Extensions pavyzdys\\ HardwareStation**.
+Aparatūros stoties plėtinio komponentai įtraukiami į aparatūros stoties pavyzdžius. Norėdami atlikti šias procedūras, **dalyje** **RetailSdk \\ SampleExtensions HardwareStation atidarykite sprendimą HardwareStationSamples.sln. \\**
 
 #### <a name="cleancash-component"></a>CleanCash komponentas
 
-1. Surask **HardwareStation.Extension.CleanCashSample** projektą ir jį pastatyti.
-2. Viduje konors **Extension.CleanCashSample\\ šiukšliadėžė\\ Derinimas** aplanką, suraskite **Contoso.Commerce.HardwareStation.CleanCashSample.dll** ir **Interop.CleanCash\_ 1\_ 1.dll** surinkimo failai.
-3. Nukopijuokite surinkimo failus į aplanką Hardware station extensions:
+1. Raskite **HardwareStation.Extension.CleanCashSample** projektą ir sukurkite jį.
+2. Aplanke **Extension.CleanCashSample \\ talpyklos \\ debug** raskite **Contoso.Commerce.HardwareStation.CleanCashSample.dll** ir **Interop.CleanCash \_\_ 1 1.dll** surinkimo failus.
+3. Nukopijuokite surinkimo failus į "Hardware" stoties plėtinių aplanką:
 
-    - **Bendrinama aparatinės įrangos stotis:** Nukopijuokite failus į **šiukšliadėžė** aplanką, esantį IIS aparatinės įrangos stoties vietoje.
-    - **Speciali aparatinės įrangos stotis šiuolaikinėje POS:** Nukopijuokite failus į Modern POS kliento tarpininko vietą.
+    - **Bendrai naudojama aparatūros** stotis: kopijuokite failus į **talpyklos** aplanką, esantį IIS aparatūros stoties svetainės vietoje.
+    - **Skirtoji "Modern POS" aparatūros stotis:** kopijuokite failus į "Modern POS" kliento brokerio vietą.
 
-4. Raskite aparatinės įrangos stoties plėtinių plėtinio konfigūracijos failą. Failas pavadintas **HardwareStation.Extension.config**.
+4. Raskite aparatūros stoties plėtinių plėtinio konfigūracijos failą. Failo vardas yra **HardwareStation.Extension.config.**
 
-    - **Bendrinama aparatinės įrangos stotis:** Failas yra IIS aparatinės įrangos stoties vietoje.
-    - **Speciali aparatinės įrangos stotis šiuolaikinėje POS:** Failas yra modernaus POS kliento tarpininko vietoje.
+    - **Bendrai naudojama aparatūros** stotis: failas yra IIS aparatūros stoties svetainės vietoje.
+    - **Skirta "Modern POS" aparatūros** stotis: failas yra "Modern POS" kliento brokerio vietoje.
 
-5. Pridėkite šią eilutę prie **kompozicija** konfigūracijos failo skyrių.
+5. Įtraukite šią eilutę į **konfigūracijos** failo sudėties skyrių.
 
     ``` xml
     <add source="assembly" value="Contoso.Commerce.HardwareStation.CleanCashSample" />
     ```
 
-### <a name="enable-modern-pos-extension-components"></a>Įgalinti Šiuolaikinius POS plėtinių komponentus
+### <a name="enable-modern-pos-extension-components"></a>Įjungti modernaus EKA plėtinio komponentus
 
-1. Atidaryk **ModernPOS.sln** sprendimas pagal **RetailSdk\\ POS**, ir įsitikinkite, kad jį galima sukompiliuoti be klaidų. Be to, įsitikinkite, kad galite paleisti Modern POS iš Visual Studio naudojant **Bėk** komandą.
+1. Atidarykite **ModernPOS.sln sprendimą dalyje RetailSdk POS ir įsitikinkite, kad jį galima** **\\** sukompiliuoti be klaidų. Be to, įsitikinkite, kad naudodami komandą Vykdyti galėsite Visual Studio paleisti "Modern **POS".**
 
     > [!NOTE]
-    > Šiuolaikinės POS neturi būti pritaikytos. Turite įjungti vartotojo abonemento valdymą (UAC) ir, jei reikia, pašalinti anksčiau įdiegtus Modern POS egzempliorius.
+    > "Modern POS" negalima pritaikyti. Turite įgalinti vartotojo abonemento valdymo programą (UAC) ir, jei reikia, pašalinti anksčiau įdiegtus "Modern POS" egzempliorius.
 
-2. Įgalinkite plėtinius, kuriuos reikia įkelti, įtraukdami šias eilutes **plėtiniai.json** failą.
+2. Įjunkite plėtinius, kuriuos reikia įkelti į failo **extensions.json įtraukdami šias** eilutes.
 
     ``` json
     {
@@ -109,15 +109,15 @@ Aparatūros stoties plėtinio komponentai yra įtraukti į aparatinės įrangos 
     ```
 
     > [!NOTE]
-    > Norėdami gauti daugiau informacijos ir pavyzdžių, kaip įtraukti šaltinio kodo aplankus ir įgalinti plėtinius, žr. instrukcijas readme.md faile **Poz.Plėtiniai** projektą.
+    > Norėdami gauti daugiau informacijos ir pavyzdžių, kurie parodo, kaip įtraukti šaltinio kodų aplankus ir įgalinti plėtinius įkelti, žr. instrukcijas eka readme.md failo **plėtinių** projekte.
 
-3. Atkurkite sprendimą.
-4. Debugeryje paleiskite Modern POS ir išbandykite funkcionalumą.
+3. Perkurti sprendimą.
+4. Paleiskite modernų EKA derintuve ir patikrinkite funkcijas.
 
-### <a name="enable-cloud-pos-extension-components"></a>Įgalinti „Cloud POS“ plėtinio komponentus
+### <a name="enable-cloud-pos-extension-components"></a>Įjungti "Cloud POS" plėtinio komponentus
 
-1. Atidaryk **CloudPOS.sln** sprendimas pagal **RetailSdk\\ POS**, ir įsitikinkite, kad jį galima sukompiliuoti be klaidų.
-2. Įgalinkite plėtinius, kuriuos reikia įkelti, įtraukdami šias eilutes **plėtiniai.json** failą.
+1. Atidarykite **CloudPOS.sln sprendimą dalyje RetailSdk POS ir įsitikinkite, kad jį galima** **\\** sukompiliuoti be klaidų.
+2. Įjunkite plėtinius, kuriuos reikia įkelti į failo **extensions.json įtraukdami šias** eilutes.
 
     ``` json
     {
@@ -130,46 +130,46 @@ Aparatūros stoties plėtinio komponentai yra įtraukti į aparatinės įrangos 
     ```
 
     > [!NOTE]
-    > Norėdami gauti daugiau informacijos ir pavyzdžių, kaip įtraukti šaltinio kodo aplankus ir įgalinti plėtinius, žr. instrukcijas readme.md faile **Poz.Plėtiniai** projektą.
+    > Norėdami gauti daugiau informacijos ir pavyzdžių, kurie parodo, kaip įtraukti šaltinio kodų aplankus ir įgalinti plėtinius įkelti, žr. instrukcijas eka readme.md failo **plėtinių** projekte.
 
-3. Atkurkite sprendimą.
-4. Paleiskite sprendimą naudodami **Bėk** komandą ir atlikite mažmeninės prekybos SDK vadove nurodytus veiksmus.
+3. Perkurti sprendimą.
+4. Paleiskite sprendimą naudodami komandą **Vykdyti** ir vykdykite "Retail SDK" vadove nurodytus veiksmus.
 
 ## <a name="production-environment"></a>Gamybos aplinka
 
-Ankstesnė procedūra įgalina plėtinius, kurie yra valdymo bloko integravimo pavyzdžio komponentai. Be to, turite atlikti šiuos veiksmus, kad sukurtumėte diegiamus paketus, kuriuose yra „Commerce“ komponentų, ir pritaikytumėte tuos paketus gamybos aplinkoje.
+Ankstesnė procedūra įgalina plėtinius, kurie yra kontrolinio vieneto integravimo pavyzdžio komponentai. Be to, turite atlikti šiuos veiksmus, jei norite kurti diegtinas pakuotes, kuriose yra "Commerce" komponentai, ir taikyti šias pakuotes gamybos aplinkoje.
 
-1. Atlikite toliau nurodytus paketo konfigūracijos failų pakeitimus **RetailSdk\\ Turtas** aplankas:
+1. Atlikite šiuos paketo konfigūracijos failų keitimus, nurodytus aplanke **"RetailSdk \\** Assets":
 
-    - Viduje konors **commerceruntime.ext.config** ir **CommerceRuntime.MPOSOffline.Ext.config** konfigūracijos failus, pridėkite šias eilutes prie **kompozicija** skyrius.
+    - Konfigūracijos **failuose commerceruntime.ext.config ir** **CommerceRuntime.MPOSOffline.Ext.config įtraukite šias eilutes į** **sudėties** skyrių.
 
         ``` xml
         <add source="assembly" value="Contoso.Commerce.Runtime.DocumentProvider.CleanCashSample" />
         <add source="assembly" value="Microsoft.Dynamics.Commerce.Runtime.ReceiptsSweden" />
         ```
 
-    - Viduje konors **HardwareStation.Extension.config** konfigūracijos failą, pridėkite šią eilutę prie **kompozicija** skyrius.
+    - Konfigūracijos **faile HardwareStation.Extension.config** įtraukite šią eilutę į **skyriaus** sudėtį.
 
         ``` xml
         <add source="assembly" value="Contoso.Commerce.HardwareStation.CleanCashSample" />
         ```
 
-2. Atlikite šiuos pakeitimus **Customization.settings** paketo tinkinimo konfigūracijos failą, esantį **BuildTools** aplankas:
+2. Atlikite šiuos pakeitimus **customization.settings** paketo pritaikymo konfigūracijos faile, aplanke **BuildTools:**
 
-    - Pridėkite šią eilutę, kad įtrauktumėte CRT plėtinius diegiamuose paketuose.
+    - Įtraukite šią eilutę, kad CRT įtraukumėte plėtinius į diegiamus paketus.
 
         ``` xml
         <ISV_CommerceRuntime_CustomizableFile Include="$(SdkReferencesPath)\Contoso.Commerce.Runtime.DocumentProvider.CleanCashSample.dll" />
         ```
 
-    - Pridėkite šias eilutes, kad įtrauktumėte aparatūros stoties plėtinį į diegiamus paketus.
+    - Įtraukite šias eilutes į diegtinius paketus įtraukdami "Hardware" stoties plėtinį.
 
         ``` xml
         <ISV_HardwareStation_CustomizableFile Include="$(SdkReferencesPath)\Contoso.Commerce.HardwareStation.CleanCashSample.dll" />
         <ISV_HardwareStation_CustomizableFile Include="$(SdkReferencesPath)\Interop.CleanCash_1_1.dll" />
         ```
 
-3. Įgalinkite POS plėtinį įtraukdami šias eilutes **plėtiniai.json** failą pagal **Mažmeninė SDK\\ POS\\ Plėtiniai** aplanką.
+3. Įjunkite EKA plėtinį įtraukdami toliau nurodytas eilutes **į failą extensions.json, esantį** aplanke **RetailSDK \\ POS \\** plėtiniai.
 
     ``` json
     {
@@ -181,167 +181,167 @@ Ankstesnė procedūra įgalina plėtinius, kurie yra valdymo bloko integravimo p
     }
     ```
 
-4. Paleiskite MSBuild komandų eilutę, skirtą Visual Studio naudingumas, ir paleiskite **msbuild** mažmeninės prekybos SDK aplanke, kad sukurtumėte diegiamus paketus.
-5. Taikykite pakuotes per LCS arba rankiniu būdu. Daugiau informacijos žr [Sukurkite dislokuojamus paketus](../dev-itpro/retail-sdk/retail-sdk-packaging.md).
-6. Atlikite visas reikalingas sąrankos užduotis, kurios aprašytos [Integracijos su valdymo blokais nustatymas](emea-swe-fi-sample.md#setting-up-the-integration-with-control-units).
+4. Paleiskite MSBuild komandinę eilutę dėl paslaugų programos ir paleiskite Visual Studio msbuild "Retail" SDK aplanke, kad sukurtumėte **diegiamus** paketus.
+5. Taikykite paketus naudodami LCS arba rankiniu būdu. Daugiau informacijos ieškokite [Create deployable](../dev-itpro/retail-sdk/retail-sdk-packaging.md) packages.
+6. Atlikite visas būtinas nustatymo užduotis, [aprašytas nustatant integravimą su valdymo](emea-swe-fi-sample.md#setting-up-the-integration-with-control-units) vienetais.
 
-## <a name="design-of-the-extensions"></a>Prailginimų dizainas
+## <a name="design-of-the-extensions"></a>Plėtinių dizainas
 
-### <a name="crt-extension-design"></a>CRT pratęsimo dizainas
+### <a name="crt-extension-design"></a>CRT plėtinio dizainas
 
-Plėtinio, kuris yra fiskalinių dokumentų teikėjas, tikslas yra generuoti su paslauga susijusius dokumentus ir tvarkyti valdymo bloko atsakymus.
+Plėtinio, kuris yra fiskalinio dokumento teikėjas, paskirtis yra generuoti paslaugai bvz., dokumentus ir tvarkyti kontrolinio vieneto atsakymus.
 
-The CRT pratęsimas yra **Runtime.Extensions.DocumentProvider.CleanCashSample**.
+Plėtinys CRT yra **Runtime.Extensions.DocumentProvider.CleanCashSample.**
 
-Daugiau informacijos apie fiskalinės integracijos sprendimo dizainą žr [Fiskalinės registracijos procesas ir fiskalinės integracijos pavyzdžiai fiskaliniams įrenginiams ir paslaugoms](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services).
+Daugiau informacijos apie finansinio integravimo sprendimo dizainą rasite finansinio įrenginių finansinio [registravimo procese ir finansinio integravimo pavyzdžius.](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices)
 
-#### <a name="request-handler"></a>Užklausų tvarkytojas
+#### <a name="request-handler"></a>Užklausų apdorojimo teotorius
 
-Yra vienas **DocumentProviderCleanCash** dokumentų teikėjo užklausų tvarkytojas. Šis tvarkytuvas naudojamas valdymo bloko fiskaliniams dokumentams generuoti.
+Yra viena **DocumentProviderCleanCash** užklausų apdorojimo programa, skirta dokumentų tiekėjui. Ši apdorojimo programa naudojama valdymo vieneto iždo dokumentams generuoti.
 
-Šis tvarkytuvas yra paveldėtas iš **INamedRequestHandler** sąsaja. The **Valdytojo vardas** metodas yra atsakingas už tvarkytojo vardo grąžinimą. Valdiklio pavadinimas turi atitikti jungties dokumento teikėjo pavadinimą, nurodytą „Commerce“ būstinėje.
+Ši apdorojimo programa yra paveldėta iš **INamedRequestHandler** sąsajos. **HandlerName** metodas yra atsakingas už apdorojimo įmonės pavadinimo grąžinimą. Apdorojimo įmonės pavadinimas turi atitikti jungties dokumento teikėjo pavadinimą, nurodytą "Commerce" būstinėje.
 
 Jungtis palaiko šias užklausas:
 
-- **GetFiscalDocumentDocumentProviderRequest** – Šioje užklausoje pateikiama informacija apie tai, koks dokumentas turi būti sugeneruotas. Jis grąžina konkrečiai paslaugai skirtą dokumentą, kuris turi būti užregistruotas valdymo bloke.
-- **GetSupportedRegistrableEventsDocumentProviderRequest** – Ši užklausa grąžina prenumeruojamų įvykių sąrašą. Šiuo metu palaikomi pardavimo ir audito renginiai.
+- **GetFiscalDocumentDocumentProviderRequest** – šioje užklausoje pateikiama informacija apie tai, kokį dokumentą reikia generuoti. Jis grąžina aptarnavimo dokumentą, kuris turi būti užregistruotas valdymo vienete.
+- **GetSupportedRegistrableEventsDocumentProviderRequest** – ši užklausa grąžina prenumeruojamų įvykių sąrašą. Šiuo metu palaikomi pardavimo įvykiai ir audito įvykiai.
 
-#### <a name="configuration"></a>Konfigūracija
+#### <a name="configuration"></a>Konfigūravimas
 
-The **DocumentProviderFiscalCleanCashSample** konfigūracijos failas yra **Konfigūracija** plėtinio projekto aplanką. Šio failo tikslas – įgalinti dokumentų teikėjo nustatymus, kurie būtų konfigūruojami iš „Commerce“ būstinės. Failo formatas suderintas su fiskalinės integracijos konfigūracijos reikalavimais. Pridedami šie nustatymai:
+Konfigūracijos **failas DocumentProviderFiscalCleanCashSample yra** **plėtinio** projekto konfigūracijos aplanke. Šio failo paskirtis – įgalinti dokumento teikėjo parametrus, kurie bus konfigūruoti iš "Commerce Headquarters". Failo formatas suderintas su fiskalinės integracijos konfigūracijos reikalavimais. Pridedami šie parametrai:
 
 - PVM kodų susiejimas
 
-### <a name="hardware-station-extension-design"></a>Techninės įrangos stoties išplėtimo projektavimas
+### <a name="hardware-station-extension-design"></a>Aparatūros stoties plėtinio dizainas
 
-Plėtinio, kuris yra fiskalinė jungtis, tikslas yra susisiekti su valdymo bloku.
+Plėtinio, kuris yra fiskalinė jungtis, paskirtis yra palaikyti ryšį su kontrolės vienetu.
 
-Aparatūros stoties plėtinys yra **HardwareStation.Extension.CleanCashSample**. Jis naudoja HTTP protokolą, kad pateiktų dokumentus, kuriuos CRT plėtinys generuoja valdymo bloką. Ji taip pat tvarko atsakymus, gautus iš valdymo bloko.
+Aparatūros stoties plėtinys yra **HardwareStation.Extension.CleanCashSample.** Ji naudoja HTTP protokolą dokumentams, kuriuos CRT plėtinys sugeneruoja valdymo vienetui, pateikti. Jis taip pat tvarko atsakymus, gautus iš kontrolinio vieneto.
 
-#### <a name="request-handler"></a>Užklausų tvarkytojas
+#### <a name="request-handler"></a>Užklausų apdorojimo teotorius
 
-The **CleanCashHandler** užklausų tvarkytojas yra įvesties taškas, skirtas tvarkyti užklausas į valdymo bloką.
+**CleanCashHandler** užklausos apdorojimo programa yra įvesties taškas valdymo užklausoms valdymo vienetui.
 
-Prižiūrėtojas yra paveldėtas iš **INamedRequestHandler** sąsaja. The **Valdytojo vardas** metodas yra atsakingas už tvarkytojo vardo grąžinimą. Droviklio pavadinimas turi atitikti fiskalinės jungties pavadinimą, nurodytą „Commerce“ būstinėje.
+Apdorojimo programa yra paveldėta iš **INamedRequestHandler** sąsajos. **HandlerName** metodas yra atsakingas už apdorojimo įmonės pavadinimo grąžinimą. Apdorojimo įmonės pavadinimas turi atitikti "Commerce" būstinėje nurodytą fiskalinės jungties pavadinimą.
 
 Jungtis palaiko šias užklausas:
 
-- **SubmitDocumentFiscalDeviceRequest** – Ši užklausa siunčia dokumentus į valdymo bloką ir grąžina iš jo atsakymą.
-- **IsReadyFiscalDeviceRequest** – Ši užklausa naudojama valdymo bloko sveikatos patikrinimui.
-- **InitializeFiscalDeviceRequest** – Ši užklausa naudojama valdymo blokui inicijuoti.
+- **SubmitDocumentFiscalDeviceRequest – ši užklausa siunčia dokumentus** valdymo vienetui ir grąžina atsakymą iš jo.
+- **IsReadyFiscalDeviceRequest** – ši užklausa naudojama kontrolinio vieneto sveikatos patikrinti.
+- **InitializeFiscalDeviceRequest** – ši užklausa naudojama valdymo vienetui inicijuoti.
 
-#### <a name="configuration"></a>Konfigūracija
+#### <a name="configuration"></a>Konfigūravimas
 
-Konfigūracijos failas yra **Konfigūracija** plėtinio projekto aplanką. Failo tikslas – įgalinti fiskalinės jungties nustatymus, kuriuos būtų galima konfigūruoti „Commerce“ būstinėje. Failo formatas suderintas su fiskalinės integracijos konfigūracijos reikalavimais. Pridedami šie nustatymai:
+Konfigūracijos failas yra **plėtinio** projekto konfigūracijos aplanke. Failo paskirtis – įgalinti finansinio jungties parametrus, kurie bus konfigūruoti iš "Commerce Headquarters". Failo formatas suderintas su fiskalinės integracijos konfigūracijos reikalavimais. Pridedami šie parametrai:
 
-- **Ryšių eilutė** – Valdymo bloko prijungimo nustatymai.
-- **Laikas baigėsi** – Laikas milisekundėmis, per kurį vairuotojas lauks atsakymo iš valdymo bloko.
+- **Ryšių eilutė** – valdymo vieneto ryšio nustatymai.
+- **Skirtasis** laikas – laikas milisekunde, kurį vairuotojas lauks atsakymo iš valdymo vieneto.
 
-## <a name="migrating-from-the-earlier-integration-sample"></a>Perkeliama iš ankstesnio integravimo pavyzdžio
+## <a name="migrating-from-the-earlier-integration-sample"></a>Perkėlimas iš ankstesnio integravimo pavyzdžio
 
-Jei naudojate ankstesnį [pavyzdys POS integravimui su valdymo blokais Švedijai](retail-sdk-control-unit-sample.md), gali tekti pereiti iš jo į dabartinį integravimo pavyzdį. Jei norite pritaikyti pakeitimą ir laiku gauti Švedijos funkcijų naujinimus, gali tekti naujovinti, atlikti nedidelius kodo ir konfigūracijos koregavimus sukurtuose plėtiniuose ir iš naujo sukurti sprendimus. Jokių didelių jūsų sukurtos plėtinio logikos pakeitimų nereikia. Ankstesnis integravimo pavyzdys ir jūsų tinkinimai veiks ir toliau, jei nebus atlikta jokių pakeitimų. Todėl galite planuoti, pasiruošti ir pasirūpinti savo aplinka.
+Jei naudojate ankstesnį EKA integravimo su Švedijos kontrolės vienetais pavyzdį, gali tekti perkelti iš jo [į](retail-sdk-control-unit-sample.md) dabartinį integravimo pavyzdį. Norėdami pasinaudoti pakeitimais ir gauti laiku atnaujinamus Švedijos funkcijų atnaujinimus, gali tekti atnaujinti, atlikti neesminius kodus ir konfigūracijos koregavimus jūsų sukurtame plėtinyje ir perkurti savo sprendimus. Sukurtoje plėtinio logije nereikia atlikti jokių pagrindinių pakeitimų. Ankstesnis integravimo pavyzdys ir jūsų tinkinimai toliau veiks, jei jūsų pusėje nebus atliekami jokie pakeitimai. Todėl galite planuoti, ruošti ir atlikti sunaudojimą jūsų aplinkai.
 
-### <a name="migration-process"></a>Migracijos procesas
+### <a name="migration-process"></a>Perkėlimo procesas
 
-Perėjimas nuo ankstesnio integravimo pavyzdžio į dabartinį valdymo bloko integravimo pavyzdį turėtų būti pagrįstas laipsniško atnaujinimo koncepcija. Kitaip tariant, visi „Commerce“ būstinės ir „Commerce Scale Unit“ komponentai jau turėtų būti atnaujinti prieš pradedant atnaujinti POS ir aparatinės įrangos stoties komponentus.
+Perkėlimas iš ankstesnio integravimo pavyzdžio į dabartinio valdymo vieneto integravimo pavyzdį turi būti paremtas naujinimo sąvoka. Kitaip tariant, visi "Commerce Headquarters" ir "Commerce Scale Unit" komponentai turi būti atnaujinti prieš pradedant naujinti EKA ir Aparatūros stoties komponentus.
 
-Kad išvengtumėte situacijos, kai įvykis arba operacija pasirašoma du kartus (ty jį pasirašo ir ankstesnis plėtinys, ir dabartinis plėtinys), arba kai įvykio ar operacijos negalima pasirašyti dėl trūkstamos konfigūracijos, rekomenduojame išjungiate visus POS ir aparatūros stočių įrenginius, kurie naudoja ankstesnį pavyzdį, ir atnaujinate juos vienu metu. Šį vienalaikį atnaujinimą galima atlikti, pavyzdžiui, kiekvienoje parduotuvėje, atnaujinant parduotuvės funkcionalumo profilį ir Aparatinės įrangos stoties techninės įrangos profilį.
+Norėdami išvengti situacijų, kai įvykis arba operacija pasirašyta du kartus (t.vz., jį pasirašė ir ankstesnis plėtinys, ir dabartinis plėtinys), arba kai įvykis arba operacija negali būti pasirašyta dėl trūkstamos konfigūracijos, rekomenduojame išjungti visus EKA ir aparatūros stoties įrenginius, kurie naudoja ankstesnį pavyzdį ir tada atnaujinkite juos vienu metu. Šį tuo pačiu metu atnaujinami galima, pvz., pagal parduotuves, atnaujinant parduotuvės funkcijų šabloną ir aparatūros stoties aparatūros šabloną.
 
-Perkėlimo procesą turėtų sudaryti šie žingsniai.
+Perkėlimo procesą turėtų sudaryti toliau pateikiami veiksmai.
 
-1. Atnaujinkite „Commerce“ būstinės komponentus.
-1. Atnaujinkite „Commerce Scale Unit“ komponentus ir įgalinkite dabartinio pavyzdžio plėtinius.
-1. Įsitikinkite, kad visos neprisijungus vykdomos operacijos yra sinchronizuojamos iš MPOS įrenginių, kuriuose įgalinta neprisijungus.
-1. Išjunkite visus įrenginius, kuriuose naudojami ankstesnio pavyzdžio komponentai.
-1. Atlikite visas reikalingas sąrankos užduotis, kurios aprašytos [Integracijos su valdymo blokais nustatymas](emea-swe-fi-sample.md#setting-up-the-integration-with-control-units).
-1. Atnaujinkite POS ir aparatinės įrangos stoties komponentus, išjunkite plėtinius, kurie yra ankstesnio pavyzdžio dalys, ir įgalinkite dabartinio pavyzdžio plėtinius.
+1. Atnaujinkite "Commerce Headquarters" komponentus.
+1. Atnaujinkite "Commerce Scale Unit" komponentus ir įgalinkite dabartinio pavyzdžio plėtinius.
+1. Įsitikinkite, kad visos autonominės operacijos sinchronizuojamos iš autonominių MPOS įrenginių.
+1. Išjunkite visus įrenginius, kurie naudoja ankstesnio pavyzdžio komponentus.
+1. Atlikite visas būtinas nustatymo užduotis, [aprašytas nustatant integravimą su valdymo](emea-swe-fi-sample.md#setting-up-the-integration-with-control-units) vienetais.
+1. Atnaujinkite EKA ir "Hardware" stoties komponentus, išjunkite plėtinius, kurie yra ankstesnio pavyzdžio dalys, ir įgalinkite dabartinio pavyzdžio plėtinius.
 
     > [!NOTE]
-    > Atsižvelgiant į aplinkos tipą, daugiau techninės informacijos apie perkėlimo procesą galite rasti bet kuriame iš [Migracija vystymosi aplinkoje](#migration-in-a-development-environment) skyrių arba [Migracija gamybos aplinkoje](#migration-in-a-production-environment) šios temos skyrių.
+    > Atsižvelgiant į aplinkos tipą, daugiau techninės informacijos apie perkėlimo procesą galite rasti šios temos skyriuje [Perkėlimas kūrimo aplinkoje](#migration-in-a-development-environment) arba  [Perkėlimas gamybos aplinkoje](#migration-in-a-production-environment)
 
-### <a name="migration-in-a-development-environment"></a>Migracija vystymosi aplinkoje
+### <a name="migration-in-a-development-environment"></a>Perkėlimas programavimo aplinkoje
 
 #### <a name="update-crt"></a>Atnaujinti CRT
 
-1. Surask **Runtime.Extensions.DocumentProvider.CleanCashSample** projektą ir jį pastatyti.
-2. Viduje konors **Runtime.Extensions.DocumentProvider.CleanCashSample\\ šiukšliadėžė\\ Derinimas** aplanką, suraskite **Contoso.Commerce.Runtime.DocumentProvider.CleanCashSample.dll** surinkimo failas.
-3. Nukopijuokite surinkimo failą į CRT plėtinių aplankas:
+1. Suraskite **Runtime.Extensions.DocumentProvider.CleanCashSample** projektą ir sukurkite jį.
+2. Aplanke **Runtime.Extensions.DocumentProvider.CleanCashSample \\ talpyklos \\ debug** raskite failą **Contoso.Commerce.Runtime.DocumentProvider.CleanCashSample.dll.**
+3. Nukopijuokite surinkimo failą į CRT plėtinių aplanką:
 
-    - **Prekybos masto vienetas:** Nukopijuokite failą į **\\ šiukšliadėžė\\ ext** aplanką, esantį IIS komercijos masto vieneto svetainės vietoje.
-    - **Vietinis CRT Šiuolaikinėje POS:** Nukopijuokite failą į **\\ ext** aplanką pagal vietinį CRT kliento brokerio vieta.
+    - **"Commerce Scale** Unit:" kopijuokite failą į **\\ talpyklos \\ išorės** aplanką, esantį IIS "Commerce Scale Unit" svetainės vietoje.
+    - **"Modern CRT POS" vieta:** kopijuokite failą į **\\ iš išorės** aplanką, esantį vietinio kliento CRT brokerio vietoje.
 
-4. Raskite plėtinio konfigūracijos failą CRT:
+4. Rasti plėtinio konfigūracijos failą, kuris CRT skirtas:
 
-    - **Prekybos masto vienetas:** Failas pavadintas **CommerceRuntime.ext.config**, ir jis yra **šiukšliadėžė\\ ext** aplanką, esantį IIS komercijos masto vieneto svetainės vietoje.
-    - **Vietinis CRT Šiuolaikinėje POS:** Failas pavadintas **CommerceRuntime.MPOSOffline.Ext.config**, ir jis yra **šiukšliadėžė\\ išorinis** aplanką pagal vietinį CRT kliento brokerio vieta.
+    - **"Commerce Scale Unit: failo pavadinimas** CommerceRuntime.ext.config ir jis yra talpyklos išorinio **aplanko** **\\** IIS "Commerce Scale Unit" vietoje.
+    - **"Modern POS" vieta: failo pavadinimas yra CRT** **CommerceRuntime.MPOSOffline.Ext.config, jis yra talpyklos išoriniame aplanke, kuris yra vietinio kliento** **\\** CRT brokerio vietoje.
 
     > [!WARNING]
-    > Daryk **ne** redaguoti CommerceRuntime.config ir CommerceRuntime.MPOSOffline.config failus. Šie failai nėra skirti jokiems tinkinimams.
+    > Ne **redaguoti** failų CommerceRuntime.config ir CommerceRuntime.MPOSOffline.config. Šie failai nėra skirti jokiam tinkinimo atvejui.
 
-5. Suraskite ir pašalinkite ankstesnį CRT plėtinį iš plėtinio konfigūracijos failo.
+5. Raskite ir pašalinkite ankstesnį CRT plėtinį iš plėtinio konfigūracijos failo.
 
     ``` xml
     <add source="assembly" value="Contoso.Commerce.Runtime.FiscalRegisterReceiptSample" />
     ```
 
     > [!WARNING]
-    > Nebaikite šio veiksmo, kol neatnaujinsite visų POS įrenginių, kuriuose veikia su šiuo režimu CRT instancija.
+    > Neatimsite šio veiksmo, kol neat naujinimo visi EKA įrenginiai, kurie veikia su šiuo CRT egzemplioriumi.
 
-6. Užregistruokite esamą pavyzdį CRT plėtinius plėtinio konfigūracijos faile, pridėdami šias eilutes.
+6. Užregistruokite CRT dabartinius plėtinių plėtinius plėtinio konfigūracijos faile įtraukdami šias eilutes.
 
     ``` xml
     <add source="assembly" value="Contoso.Commerce.Runtime.DocumentProvider.CleanCashSample" />
     <add source="assembly" value="Microsoft.Dynamics.Commerce.Runtime.ReceiptsSweden" />
     ```
 
-#### <a name="update-hardware-station"></a>Atnaujinkite aparatūros stotį
+#### <a name="update-hardware-station"></a>Naujinti aparatūros stotį
 
-1. Surask **HardwareStation.Extension.CleanCashSample** projektą ir jį pastatyti.
-2. Viduje konors **Extension.CleanCashSample\\ šiukšliadėžė\\ Derinimas** aplanką, suraskite **Contoso.Commerce.HardwareStation.CleanCashSample.dll** ir **Interop.CleanCash\_ 1\_ 1.dll** surinkimo failai.
-3. Nukopijuokite surinkimo failus į aplanką Hardware station extensions:
+1. Raskite **HardwareStation.Extension.CleanCashSample** projektą ir sukurkite jį.
+2. Aplanke **Extension.CleanCashSample \\ talpyklos \\ debug** raskite **Contoso.Commerce.HardwareStation.CleanCashSample.dll** ir **Interop.CleanCash \_\_ 1 1.dll** surinkimo failus.
+3. Nukopijuokite surinkimo failus į "Hardware" stoties plėtinių aplanką:
 
-    - **Bendrinama aparatinės įrangos stotis:** Nukopijuokite failus į **šiukšliadėžė** aplanką, esantį IIS aparatinės įrangos stoties vietoje.
-    - **Speciali aparatinės įrangos stotis šiuolaikinėje POS:** Nukopijuokite failus į Modern POS kliento tarpininko vietą.
+    - **Bendrai naudojama aparatūros** stotis: kopijuokite failus į **talpyklos** aplanką, esantį IIS aparatūros stoties svetainės vietoje.
+    - **Skirtoji "Modern POS" aparatūros stotis:** kopijuokite failus į "Modern POS" kliento brokerio vietą.
 
-4. Surask **HardwareStation.Extension.config** plėtinio konfigūracijos failas:
+4. Suraskite **HardwareStation.Extension.config** plėtinio konfigūracijos failą:
 
-    - **Nuotolinė aparatūros stotis:** Failas yra IIS aparatinės įrangos stoties vietoje.
-    - **Vietinė aparatinės įrangos stotis šiuolaikinėje POS:** Failas yra modernaus POS kliento tarpininko vietoje.
+    - **Nuotolinės aparatūros** stotis: failas yra IIS aparatūros stoties svetainės vietoje.
+    - **"Modern POS" vietinė aparatūros** stotis: failas yra "Modern POS" kliento brokerio vietoje.
 
     > [!WARNING]
-    > Daryk **ne** redaguoti CommerceRuntime.config ir CommerceRuntime.MPOSOffline.config failus. Šie failai nėra skirti jokiems tinkinimams.
+    > Ne **redaguoti** failų CommerceRuntime.config ir CommerceRuntime.MPOSOffline.config. Šie failai nėra skirti jokiam tinkinimo atvejui.
 
-5. Raskite ir pašalinkite ankstesnį Aparatinės įrangos stoties plėtinį iš plėtinio konfigūracijos failo.
+5. Raskite ir pašalinkite ankstesnį "Hardware" stoties plėtinį iš plėtinio konfigūracijos failo.
 
-    # <a name="retail-73-and-earlier"></a>[Mažmeninė prekyba 7.3 ir senesnės versijos](#tab/retail-7-3)
-
-    ``` xml
-    <add source="assembly" value="Contoso.Commerce.HardwareStation.Extension.FiscalRegisterSample" />
-    ```
-
-    # <a name="retail-731-and-later"></a>[Mažmeninė prekyba 7.3.1 ir naujesnės versijos](#tab/retail-7-3-1)
+    # <a name="retail-73-and-earlier"></a>["Retail 7.3" ir ankstesnės versijos](#tab/retail-7-3)
 
     ``` xml
     <add source="assembly" value="Contoso.Commerce.HardwareStation.Extension.FiscalRegisterSample" />
     ```
 
-    # <a name="retail-100-and-later"></a>[Mažmeninė prekyba 10.0 ir naujesnės versijos](#tab/retail-10-0)
+    # <a name="retail-731-and-later"></a>[Retail 7.3.1 ir vėlesnės versijos](#tab/retail-7-3-1)
+
+    ``` xml
+    <add source="assembly" value="Contoso.Commerce.HardwareStation.Extension.FiscalRegisterSample" />
+    ```
+
+    # <a name="retail-100-and-later"></a>[Mažmeninė prekyba 10,0 ir vėliau](#tab/retail-10-0)
 
     ``` xml
     <add source="assembly" value="Contoso.Commerce.HardwareStation.FiscalRegisterSample" />
     ```
     ---
 
-6. Pridėkite šią eilutę prie **kompozicija** plėtinio konfigūracijos failo skyrių.
+6. Įtraukite šią eilutę į **plėtinio** konfigūracijos failo sudėties skyrių.
 
     ``` xml
     <add source="assembly" value="Contoso.Commerce.HardwareStation.CleanCashSample" />
     ```
 
-#### <a name="update-modern-pos"></a>Atnaujinkite Modern POS
+#### <a name="update-modern-pos"></a>Atnaujinti "Modern POS"
 
-1. Atidaryk **CloudPOS.sln** sprendimas pagal **RetailSdk\\ POS**.
-2. Išjunkite ankstesnį POS plėtinį pašalindami šias eilutes iš **plėtiniai.json** failą.
+1. Atidarykite **CloudPOS.sln** sprendimą naudojant **RetailSdk \\** POS.
+2. Išjunkite ankstesnį EKA plėtinį pašalindami šias eilutes iš **failo extensions.json.**
 
     ``` json
     {
@@ -349,7 +349,7 @@ Perkėlimo procesą turėtų sudaryti šie žingsniai.
     }
     ```
 
-2. Įgalinkite dabartinį POS plėtinio pavyzdį įtraukdami šias eilutes **plėtiniai.json** failą.
+2. Įjunkite dabartinį EKA plėtinį įtraukdami šias eilutes į **plėtinių.json** failą.
 
     ``` json
     {
@@ -361,10 +361,10 @@ Perkėlimo procesą turėtų sudaryti šie žingsniai.
     }
     ```
 
-#### <a name="update-cloud-pos"></a>Atnaujinkite „Cloud POS“.
+#### <a name="update-cloud-pos"></a>Atnaujinti debesį EKA
 
-1. Atidaryk **ModernPOS.sln** sprendimas pagal **RetailSdk\\ POS**.
-2. Išjunkite ankstesnį POS plėtinį pašalindami šias eilutes iš **plėtiniai.json** failą.
+1. Atidarykite **ModernPOS.sln** sprendimą naudojant **RetailSdk \\** POS.
+2. Išjunkite ankstesnį EKA plėtinį pašalindami šias eilutes iš **failo extensions.json.**
 
     ``` json
     {
@@ -372,7 +372,7 @@ Perkėlimo procesą turėtų sudaryti šie žingsniai.
     }
     ```
 
-2. Įgalinkite dabartinį POS plėtinio pavyzdį įtraukdami šias eilutes **plėtiniai.json** failą.
+2. Įjunkite dabartinį EKA plėtinį įtraukdami šias eilutes į **plėtinių.json** failą.
 
     ``` json
     {
@@ -384,89 +384,89 @@ Perkėlimo procesą turėtų sudaryti šie žingsniai.
     }
     ```
 
-### <a name="migration-in-a-production-environment"></a>Migracija gamybos aplinkoje
+### <a name="migration-in-a-production-environment"></a>Perkėlimas gamybos aplinkoje
 
 #### <a name="update-crt"></a>Atnaujinti CRT
 
-1. Pašalinkite ankstesnįjį CRT pratęsimas iš **CommerceRuntime.ext.config** ir **CommerceRuntime.MPOSOffline.Ext.config** konfigūracijos failus pagal **RetailSdk\\ Turtas** aplanką.
+1. Pašalinkite ankstesnį plėtinį iš Konfigūracijos failų CRT **CommerceRuntime.ext.config ir** **CommerceRuntime.MPOSOffline.Ext.config, esantį** **aplanke RetailSdk \\** Assets.
 
     ``` xml
     <add source="assembly" value="Contoso.Commerce.Runtime.FiscalRegisterReceiptSample" />
     ```
 
     > [!WARNING]
-    > Nebaikite šio veiksmo, kol neatnaujinsite visų POS įrenginių, kuriuose veikia su šiuo režimu CRT instancija.
+    > Neatimsite šio veiksmo, kol neat naujinimo visi EKA įrenginiai, kurie veikia su šiuo CRT egzemplioriumi.
 
-2. Įgalinti dabartinį pavyzdį CRT plėtinius, atlikdami toliau nurodytus pakeitimus **CommerceRuntime.ext.config** ir **CommerceRuntime.MPOSOffline.Ext.config** konfigūracijos failus pagal **RetailSdk\\ Turtas** aplanką.
+2. Įgalinkite dabartinius plėtinius, atstatę šiuos pakeitimus Konfigūracijos failuose CRT **CommerceRuntime.ext.config ir** **CommerceRuntime.MPOSOffline.Ext.config, aplanke** **RetailSdk \\** Assets.
 
     ``` xml
     <add source="assembly" value="Contoso.Commerce.Runtime.DocumentProvider.CleanCashSample" />
     <add source="assembly" value="Microsoft.Dynamics.Commerce.Runtime.ReceiptsSweden" />
     ```
 
-3. Viduje konors **Customization.settings** paketo tinkinimo konfigūracijos failą, esantį **BuildTools** aplanką, pridėkite šią eilutę, kad įtrauktumėte dabartinį pavyzdį CRT plėtinys diegiamuose paketuose.
+3. Į **tinkinimo.parametrų paketo pritaikymo konfigūracijos failą, esantį aplanke BuildTools, įtraukite šią eilutę, kad įtraukumėte dabartinį pavyzdžio plėtinį** **į visuotinai** CRT diegiamus paketus.
 
     ``` xml
     <ISV_CommerceRuntime_CustomizableFile Include="$(SdkReferencesPath)\Contoso.Commerce.Runtime.DocumentProvider.CleanCashSample.dll" />
     ```
 
-#### <a name="update-hardware-station"></a>Atnaujinkite aparatūros stotį
+#### <a name="update-hardware-station"></a>Naujinti aparatūros stotį
 
-1. Pašalinkite ankstesnį aparatinės įrangos stoties plėtinį pakeisdami **HardwareStation.Extension.config** konfigūracijos failą.
+1. Pašalinkite ankstesnį aparatūros stoties plėtinį modifikuodami **konfigūracijos failą HardwareStation.Extension.config.**
 
-    # <a name="retail-73-and-earlier"></a>[Mažmeninė prekyba 7.3 ir senesnės versijos](#tab/retail-7-3)
+    # <a name="retail-73-and-earlier"></a>["Retail 7.3" ir ankstesnės versijos](#tab/retail-7-3)
 
-    Pašalinkite kitą skyrių iš **HardwareStation.Shared.config** ir **HardwareStation.Dedicated.config** konfigūracijos failus.
-
-    ``` xml
-    <add source="assembly" value="Contoso.Commerce.HardwareStation.Extension.FiscalRegisterSample" />
-    ```
-
-    # <a name="retail-731-and-later"></a>[Mažmeninė prekyba 7.3.1 ir naujesnės versijos](#tab/retail-7-3-1)
-
-    Pašalinkite kitą skyrių iš **HardwareStation.Extension.config** konfigūracijos failą.
+    Pašalinkite šį skyrių iš **HardwareStation.Shared.config** ir **HardwareStation.Dedicated.config** konfigūracijos failų.
 
     ``` xml
     <add source="assembly" value="Contoso.Commerce.HardwareStation.Extension.FiscalRegisterSample" />
     ```
 
-    # <a name="retail-100-and-later"></a>[Mažmeninė prekyba 10.0 ir naujesnės versijos](#tab/retail-10-0)
+    # <a name="retail-731-and-later"></a>[Retail 7.3.1 ir vėlesnės versijos](#tab/retail-7-3-1)
 
-    Pašalinkite kitą skyrių iš **HardwareStation.Extension.config** konfigūracijos failą.
+    Pašalinkite šį skyrių iš **konfigūracijos failo HardwareStation.Extension.config.**
+
+    ``` xml
+    <add source="assembly" value="Contoso.Commerce.HardwareStation.Extension.FiscalRegisterSample" />
+    ```
+
+    # <a name="retail-100-and-later"></a>[Mažmeninė prekyba 10,0 ir vėliau](#tab/retail-10-0)
+
+    Pašalinkite šį skyrių iš **konfigūracijos failo HardwareStation.Extension.config.**
 
     ``` xml
     <add source="assembly" value="Contoso.Commerce.HardwareStation.FiscalRegisterSample" />
     ```
     ---
 
-2. Įgalinkite dabartinį pavyzdinį aparatinės įrangos stoties plėtinį, pridėdami šią eilutę prie **kompozicija** skyriuje **HardwareStation.Extension.config** konfigūracijos failą.
+2. Įjunkite dabartinį Aparatūros stoties plėtinio pavyzdį įtraukdami šią eilutę į **sudėties** **skyrių, nurodytą faile HardwareStation.Extension.config.**
 
     ``` xml
     <add source="assembly" value="Contoso.Commerce.HardwareStation.CleanCashSample" />
     ```
 
-3. Atlikite šiuos pakeitimus **Customization.settings** paketo tinkinimo konfigūracijos failą, esantį **BuildTools** aplankas:
+3. Atlikite šiuos pakeitimus **customization.settings** paketo pritaikymo konfigūracijos faile, aplanke **BuildTools:**
 
-    - Pašalinkite šią eilutę, kad iš diegiamų paketų neįtrauktumėte ankstesnio aparatūros stoties plėtinio.
+    - Pašalinkite šią eilutę, kad pašalintumėte ankstesnį aparatūros stoties plėtinį iš diegiamų paketų.
 
         ``` xml
         <ISV_CommerceRuntime_CustomizableFile Include="$(SdkReferencesPath)\Contoso.Commerce.HardwareStation.Extension.FiscalRegisterSample.dll" />
         ```
 
-    - Pridėkite šias eilutes, kad įtrauktumėte dabartinį aparatinės įrangos stoties plėtinio pavyzdį į diegiamus paketus.
+    - Įtraukite šias eilutes į diegiamus paketus įtraukdami dabartinį aparatūros stoties plėtinį.
 
         ``` xml
         <ISV_HardwareStation_CustomizableFile Include="$(SdkReferencesPath)\Contoso.Commerce.HardwareStation.CleanCashSample.dll" />
         <ISV_HardwareStation_CustomizableFile Include="$(SdkReferencesPath)\Interop.CleanCash_1_1.dll" />
         ```
 
-#### <a name="update-modern-pos"></a>Atnaujinkite Modern POS
+#### <a name="update-modern-pos"></a>Atnaujinti "Modern POS"
 
-1. Atidaryk **CloudPOS.sln** sprendimas at **RetailSdk\\ POS**.
-2. Išjunkite ankstesnį POS plėtinį:
+1. Atidarykite **CloudPOS.sln** sprendimą **RetailSdk \\** POS.
+2. Išjunkite ankstesnį EKA plėtinį:
 
-    - Viduje konors **tsconfig.json** failą, pridėkite **FiscalRegisterSample** aplanką į neįtraukiamųjų sąrašą.
-    - Pašalinkite šias eilutes iš **plėtiniai.json** failą pagal **Mažmeninė SDK\\ POS\\ Plėtiniai** aplanką.
+    - Faile **tsconfig.json** įtraukite aplanką **FiscalRegisterSample** į neįtrauktinųjų sąrašą.
+    - Pašalinkite šias eilutes iš **failo extensions.json,** esantį aplanke **RetailSDK \\ POS \\** plėtiniai.
 
         ``` json
         {
@@ -474,7 +474,7 @@ Perkėlimo procesą turėtų sudaryti šie žingsniai.
         }
         ```
 
-3. Įgalinkite dabartinį POS plėtinio pavyzdį įtraukdami šias eilutes **plėtiniai.json** failą pagal **Mažmeninė SDK\\ POS\\ Plėtiniai** aplanką.
+3. Įjunkite dabartinį EKA plėtinį įtraukdami toliau nurodytas eilutes **į failą extensions.json, esantį aplanke** **RetailSDK \\ POS \\** plėtiniai.
 
     ``` json
     {
@@ -486,13 +486,13 @@ Perkėlimo procesą turėtų sudaryti šie žingsniai.
     }
     ```
 
-#### <a name="update-cloud-pos"></a>Atnaujinkite „Cloud POS“.
+#### <a name="update-cloud-pos"></a>Atnaujinti debesį EKA
 
-1. Atidaryk **ModernPOS.sln** sprendimas pagal **RetailSdk\\ POS**.
-2. Išjunkite ankstesnį POS plėtinį:
+1. Atidarykite **ModernPOS.sln** sprendimą naudojant **RetailSdk \\** POS.
+2. Išjunkite ankstesnį EKA plėtinį:
 
-    - Viduje konors **tsconfig.json** failą, pridėkite **FiscalRegisterSample** aplanką į neįtraukiamųjų sąrašą.
-    - Pašalinkite šias eilutes iš **plėtiniai.json** failą pagal **Mažmeninė SDK\\ POS\\ Plėtiniai** aplanką.
+    - Faile **tsconfig.json** įtraukite aplanką **FiscalRegisterSample** į neįtrauktinųjų sąrašą.
+    - Pašalinkite šias eilutes iš **failo extensions.json,** esantį aplanke **RetailSDK \\ POS \\** plėtiniai.
 
         ``` json
         {
@@ -500,7 +500,7 @@ Perkėlimo procesą turėtų sudaryti šie žingsniai.
         }
         ```
 
-3. Įgalinkite dabartinį POS plėtinio pavyzdį įtraukdami šias eilutes **plėtiniai.json** failą pagal **Mažmeninė SDK\\ POS\\ Plėtiniai** aplanką.
+3. Įjunkite dabartinį EKA plėtinį įtraukdami toliau nurodytas eilutes **į failą extensions.json, esantį aplanke** **RetailSDK \\ POS \\** plėtiniai.
 
     ``` json
     {
@@ -514,4 +514,4 @@ Perkėlimo procesą turėtų sudaryti šie žingsniai.
 
 #### <a name="create-deployable-packages"></a>Diegiamų paketų kūrimas
 
-Bėk **msbuild** visam mažmeninės prekybos SDK, kad būtų sukurti diegiamieji paketai. Taikykite pakuotes per LCS arba rankiniu būdu. Daugiau informacijos žr [Mažmeninė SDK pakuotė](../dev-itpro/retail-sdk/retail-sdk-packaging.md).
+Paleiskite **"Retail SDK" "msbuild",** kad sukurtumėte diegiamus paketus. Taikykite paketus naudodami LCS arba rankiniu būdu. Norėdami gauti daugiau informacijos, žr.["Retail SDK" pakuotę](../dev-itpro/retail-sdk/retail-sdk-packaging.md).

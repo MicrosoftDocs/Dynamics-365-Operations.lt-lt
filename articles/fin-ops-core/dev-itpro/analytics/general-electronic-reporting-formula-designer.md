@@ -2,11 +2,9 @@
 title: Elektroninių ataskaitų (ER) formulių kūrimo įrankis
 description: Šioje temoje pateikiama informacija apie tai, kaip naudoti elektroninėse ataskaitose (ER) formulių kūrimo įrankį.
 author: NickSelin
-manager: kfend
 ms.date: 12/05/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d96fe041fd0ffb292909c1e724068efebe0184b9
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
-ms.translationtype: HT
+ms.openlocfilehash: eec63fb1782c5afed0320eb841b6bfc92af31a691731ef6bac5d00ed442c0dcd
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682654"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6777409"
 ---
 # <a name="formula-designer-in-electronic-reporting-er"></a>Elektroninių ataskaitų (ER) formulių kūrimo įrankis
 
@@ -60,11 +58,11 @@ ER formulių kūrimo įrankį galima naudoti apibrėžiant išraišką, kuri tra
 
 Tolesnė iliustracija rodo šio tipo išraiškos kūrimą. Šiame pavyzdyje išraiška suapvalina „Intrastat“ lentelės lauko **Intrastat.AmountMST** reikšmę iki dviejų skaičių po kablelio ir pateikia suapvalintą reikšmę.
 
-[![Duomenų susiejimo išraiška](./media/picture-expression-binding.jpg)](./media/picture-expression-binding.jpg)
+[![Duomenų susiejimo išraiška.](./media/picture-expression-binding.jpg)](./media/picture-expression-binding.jpg)
 
 Tolesnėje iliustracijoje parodyta, kaip galima naudoti šio tipo išraišką. Šiame pavyzdyje sukurtos išraiškos rezultatas įvedamas į duomenų modelio **Mokesčių ataskaitos modelis** komponentą **Transaction.InvoicedAmount**.
 
-[![Naudojama duomenų susiejimo išraiška](./media/picture-expression-binding2.jpg)](./media/picture-expression-binding2.jpg)
+[![Naudojama duomenų susiejimo išraiška.](./media/picture-expression-binding2.jpg)](./media/picture-expression-binding2.jpg)
 
 Vykdymo metu sukurta formulė `ROUND (Intrastat.AmountMST, 2)` kiekvieno „Intrastat“ lentelės įrašo lauko **AmountMST** reikšmę suapvalina iki dviejų skaičių po kablelio. Suapvalintą reikšmę ji tada įveda į duomenų modelio **Mokesčių ataskaitos** komponentą **Transaction.InvoicedAmount**.
 
@@ -74,17 +72,17 @@ ER formulių kūrimo įrankį galima naudoti apibrėžiant išraišką, kuri for
 
 Tolesnė iliustracija rodo šio tipo pakeitimo kūrimą. Šiame pavyzdyje transformacija **TrimmedString** sutrumpina duomenų tipo *Eilutė* duomenis pašalindama priekinius ir galinius tarpus. Tada ji pateikia sutrumpintą eilutės reikšmę.
 
-[![Transformacija](./media/picture-transformation-design.jpg)](./media/picture-transformation-design.jpg)
+[![Transformacija.](./media/picture-transformation-design.jpg)](./media/picture-transformation-design.jpg)
 
 Tolesnė iliustracija parodo, kaip galima naudoti tipo transformaciją. Šiame pavyzdyje keletas formato komponentų vykdymo metu siunčia tekstą kaip išeigą į generuojamą elektroninį dokumentą. Visi šie formato keitimai nurodo transformaciją **TrimmedString** pagal pavadinimą.
 
-[![Naudojama transformacija](./media/picture-transformation-usage.jpg)](./media/picture-transformation-usage.jpg)
+[![Naudojama transformacija.](./media/picture-transformation-usage.jpg)](./media/picture-transformation-usage.jpg)
 
 Kai formato komponentai, pvz., komponentas **partyName** ankstesnėje iliustracijoje, nurodo transformaciją **TrimmedString**, transformacija į generuojamą elektrinį dokumentą kaip išeigą siunčia tekstą. Šiame tekste nėra priekinių ir galinių tarpų.
 
 Jei formatavimą būtina taikyti atskirai, galite jį nustatyti kaip atskirą konkretaus formato komponento susiejimo išraišką. Tolesnė iliustracija rodo šio tipo išraišką. Šiame pavyzdyje formato komponentas **partyType** yra susietas su duomenų šaltiniu per išraišką, kuri konvertuoja iš duomenų šaltinyje esančio lauko **Model.Company.RegistrationType** gaunamus duomenis į tekstą didžiosiomis raidėmis. Tada išraiška šį tekstą kaip išeigą siunčia į elektroninį dokumentą.
 
-[![Formatavimo taikymas atskiram komponentui](./media/picture-binding-with-formula.jpg)](./media/picture-binding-with-formula.jpg)
+[![Formatavimo taikymas atskiram komponentui.](./media/picture-binding-with-formula.jpg)](./media/picture-binding-with-formula.jpg)
 
 ## <a name="process-flow-control"></a><a name="Validation"></a>Proceso eigos valdymas
 
@@ -100,7 +98,7 @@ Kiekviena proceso eigos valdymo taisyklė sukuriama kaip atskiras tikrinimo elem
 - Jei operacijų sąrašas yra tuščias, tikrinimas sustabdo vykdymo procesą ir pateikia **FALSE**.
 - Tikrinimas pateikia klaidos pranešimą, kuriame yra žymės SYS70894 tekstas vartotojo pageidaujama kalba.
 
-[![Tikrinimas](./media/picture-validation.jpg)](./media/picture-validation.jpg)
+[![Tikrinimas.](./media/picture-validation.jpg)](./media/picture-validation.jpg)
 
 ER formulių kūrimo įrankį taip pat galima naudoti ir generuojamo elektroninio dokumento failo pavadinimui generuoti bei failų kūrimo procesui kontroliuoti. Tolesnė iliustracija rodo šio tipo proceso eigos valdymo kūrimą. Čia pateikiamas šiame pavyzdyje esančios konfigūracijos paaiškinimas:
 
@@ -109,7 +107,7 @@ ER formulių kūrimo įrankį taip pat galima naudoti ir generuojamo elektronini
 - Išraiška pateikia generuojamų elektroninių dokumentų failo pavadinimą sujungdama failo pavadinimą ir jo plėtinį. Antrojo paketo ir visų vėlesnių paketų failo varde kaip priedėlis nurodytas paketo ID.
 - Išraiška įgalina (pateikdama reikšmę **TRUE**) paketų, kuriuose yra bent vienas įrašas, failų kūrimo procesą.
 
-[![Proceso eigos valdymas](./media/picture-file-control.jpg)](./media/picture-file-control.jpg)
+[![Proceso eigos valdymas.](./media/picture-file-control.jpg)](./media/picture-file-control.jpg)
 
 ## <a name="document-content-control"></a><a name="Enabled"></a>Dokumento turinio kontrolė
 
@@ -123,18 +121,18 @@ Tolesnė iliustracija nurodo šio tipo išraiškas. (**ISO20022 kredito perdavim
 - Komponentas **PaymentNotes** naudojamas generuojant mokėjimo pastabų tekstą.
 - Nustačius komponentą **DelimitedSequence**, sugeneruojami kableliais atskirti sąskaitų faktūrų numeriai, naudojami apmokant esamą kredito pervedimą.
 
-[![„PaymentNotes“ ir „DelimitedSequence“ komponentai](./media/GER-FormulaEditor-ControlContent-1.png)](./media/GER-FormulaEditor-ControlContent-1.png)
+[![„PaymentNotes“ ir „DelimitedSequence“ komponentai.](./media/GER-FormulaEditor-ControlContent-1.png)](./media/GER-FormulaEditor-ControlContent-1.png)
 
 > [!NOTE]
 > Komponentai **PaymentNotes** ir **DelimitedSequence** pažymėti klaustukais. Klaustukas rodo, kad komponento naudojimas yra sąlyginis. Šiuo atveju komponentai naudojami remiantis šiais kriterijais:
 >
 > - Išraiška `@.PaymentsNotes <> ""`, kurios apibrėžtis skirta komponentui **PaymentNotes**, įgalina (gavus **TEISINGA**) XML elementą **Ustrd** užpildymui mokėjimo pastabų tekstu, jei dabartinio kredito pervedimo tekstas nėra tuščias.
 >
->    [![„PaymentNotes“ komponento išraiška](./media/GER-FormulaEditor-ControlContent-2.png)](./media/GER-FormulaEditor-ControlContent-2.png)
+>    [![„PaymentNotes“ komponento išraiška.](./media/GER-FormulaEditor-ControlContent-2.png)](./media/GER-FormulaEditor-ControlContent-2.png)
 >
-> - Išraiška `@.PaymentsNotes = ""`, kurios apibrėžtis skirta komponentui **DelimitedSequence**, įgalina (gavus **TEISINGA**) XML elementą **Ustrd** užpildymui sąskaitų faktūrų kableliais atskirtų numerių sąrašais, naudojamais  apmokant esamą kredito pervedimą, jei to kredito pervedimo mokėjimo pastabų tekstas yra tuščias.
+> - Išraiška `@.PaymentsNotes = ""`, kurios apibrėžtis skirta komponentui **DelimitedSequence**, įgalina (gavus **TEISINGA**) XML elementą **Ustrd** užpildymui sąskaitų faktūrų kableliais atskirtų numerių sąrašais, naudojamais apmokant esamą kredito pervedimą, jei to kredito pervedimo mokėjimo pastabų tekstas yra tuščias.
 >
->    [![„DelimitedSequence“ komponento išraiška](./media/GER-FormulaEditor-ControlContent-3.png)](./media/GER-FormulaEditor-ControlContent-3.png)
+>    [![„DelimitedSequence“ komponento išraiška.](./media/GER-FormulaEditor-ControlContent-3.png)](./media/GER-FormulaEditor-ControlContent-3.png)
 > 
 > Remiantis šia sąranka, į kiekvieno skolininko mokėjimo generuojamą pranešimą, XML elementą **Ustrd** bus įtrauktas arba mokėjimo pastabų tekstas, arba, kai toks tekstas yra tuščias, kableliais atskirtų sąskaitų faktūrų numerių, naudojamų atliekant šį mokėjimą, tekstas.
 
@@ -142,7 +140,7 @@ Tolesnė iliustracija nurodo šio tipo išraiškas. (**ISO20022 kredito perdavim
 
 Puslapyje **Formulių kūrimo įrankis** pasirinkite **Bandymas**, kad patikrintumėte, kaip veikia sukonfigūruota formulė.
 
-[![Bandymo pasirinkimas tikrinant formulę](./media/ER-FormulaTest-Start.png)](./media/ER-FormulaTest-Start.png)
+[![Bandymo pasirinkimas tikrinant formulę.](./media/ER-FormulaTest-Start.png)](./media/ER-FormulaTest-Start.png)
 
 Kai reikia argumentų formulės reikšmių, galite atidaryti dialogo langą **Tikrinimo išraiškos** puslapyje **Formulių kūrimo įrankis**. Daugeliu atvejų šiuos argumentus reikia nustatyti neautomatiniu būdu, nes sukonfigūruoti susiejimai nepaleidžiami kūrimo metu. Skirtuko **Bandymo rezultatas** puslapyje **Formulių kūrimo įrankis** rodomas sukonfigūruotos formulės vykdymo rezultatas.
 
@@ -150,17 +148,20 @@ Toliau pateikiamas pavyzdys, kaip patikrinti formulę, kuri sukonfigūruota užs
 
 Kai išbandote šią formulę, galite naudoti dialogo langą **Tikrinimo išraiška** norėdami nurodyti „Intrastat“ prekės testavimo kodo vertę.
 
-[![„Intrastat“ prekės testavimo kodo nurodymas](./media/ER-FormulaTest-Start-EnterArguments.png)](./media/ER-FormulaTest-Start-EnterArguments.png)
+[![„Intrastat“ prekės testavimo kodo nurodymas.](./media/ER-FormulaTest-Start-EnterArguments.png)](./media/ER-FormulaTest-Start-EnterArguments.png)
 
 Nurodę „Intrastat“ prekės kodą ir pasirinkę **Gerai**, skirtuko **Bandymo rezultatas** puslapyje **Formulės kūrimo įrankis** rodomas sukonfigūruotos formulės vykdymo rezultatas. Tada galite įvertinti, ar rezultatas yra priimtinas. Jei rezultatas nėra priimtinas, galite atnaujinti formulę ir tikrinti ją dar kartą.
 
-[![Bandymo rezultatas](./media/ER-FormulaTest-Result.png)](./media/ER-FormulaTest-Result.png)
+[![Bandymo rezultatas.](./media/ER-FormulaTest-Result.png)](./media/ER-FormulaTest-Result.png)
 
 Kai kurios formulės negali būti išbandytos kūrimo metu. Pvz., formulė gali grąžinto duomenų tipo, kurio negalima parodyti skirtuke **Bandymo rezultatas**, rezultatą. Tokiu atveju parodomas klaidos pranešimas, kuriame nurodoma, kad formulė negali būti išbandyta.
 
-[![Klaidos pranešimas](./media/ER-FormulaTest-Error.png)](./media/ER-FormulaTest-Error.png)
+[![Klaidos pranešimas.](./media/ER-FormulaTest-Error.png)](./media/ER-FormulaTest-Error.png)
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 - [Elektroninių ataskaitų apžvalga](general-electronic-reporting.md)
 - [Elektroninių ataskaitų formulių kalba](er-formula-language.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,27 +1,25 @@
 ---
 title: Kurti projekto pirkimo užsakymą
 description: Šioje procedūroje parodoma, kaip kurti projekto pirkimo užsakymą.
-author: RichardLuan
-manager: tfehr
+author: kamaybac
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage, ProjTable, PurchCreateOrder, PurchTable, PurchTablePart, InventItemIdLookupPurchase
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Service industries
-ms.author: riluan
+ms.author: dabourq
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 825e374e9d450ee187e7ddb1ce5925c3d7e15f25
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 803a95393958998b80c27146ac9d2fb8d6ef1523
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5016432"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5812427"
 ---
 # <a name="create-project-purchase-order"></a>Kurti projekto pirkimo užsakymą
 
@@ -47,3 +45,6 @@ ms.locfileid: "5016432"
     * Patikrinkite, ar yra pardavimo kaina ir savikaina. Jei jų nėra, bet reikia, įveskite informaciją.  
 14. Spustelėkite Įrašyti.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

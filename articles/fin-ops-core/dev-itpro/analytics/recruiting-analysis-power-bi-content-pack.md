@@ -1,12 +1,10 @@
 ---
 title: „Power BI“ turinys Įdarbinimas
-description: Šioje temoje aprašomas „Power BI“ turinys Įdarbinimas. Jame paaiškinta, kaip pasiekti ataskaitas, ir pateikta informacija apie duomenų modelį ir objektus, naudojamus turinio paketui kurti.
+description: Šioje temoje aprašomas „Power BI“ turinys Įdarbinimas.
 author: jcart1106
-manager: AnnBe
 ms.date: 12/19/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: HcmRecruitmentWorkspace
 audience: Application User, IT Pro
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 524b1c29d204c1b013546008b1be7868cbf8db06
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
-ms.translationtype: HT
+ms.openlocfilehash: 36ea9f204b50b3d7a6c8e33e69a9c3fd7d82cd79d466e2b9547c6733aa294aea
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4680567"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6765127"
 ---
 # <a name="recruiting-power-bi-content"></a>„Power BI“ turinys Įdarbinimas
 
@@ -64,3 +62,6 @@ Toliau pateiktoje lentelėje nurodomi objektai, kuriais buvo pagrįstas „Power
 | Našumas          | Įvertinimas, aprašas ir įvertinimo modelis                            | Pretendentas, dirbantis pretendentas, atleistas pretendentas |
 | Įdarbinimo projektas  | Projekto aprašas, projekto būsena ir laisvos vietos                | Pretendentas, dirbantis pretendentas, atleistas pretendentas |
 | Atleistas pretendentas | Atleisti pretendentai, priežastis, veiklos efektyvumas ir atleidimo data | Įmonė, kalendoriaus poslinkis, data, geografinė vieta, našumas, demografiniai duomenys, įdarbinimas, medija, įdarbinimo projektas, pretendento vardas, pavardė |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

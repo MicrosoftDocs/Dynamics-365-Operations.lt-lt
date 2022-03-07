@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2020-5-29
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 59c1740f6e07be08ad9379d4ccb6aeca29220d557aceb38bf6faef946e16fee7
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: MT
+ms.openlocfilehash: edc974bcbd72ef62438fd6271a6fd0e56143f976
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6752783"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5821590"
 ---
 # <a name="inventory-aging-report-examples-and-logic"></a>Atsargų skirstymo pagal terminus ataskaitos pavyzdžiai ir logika
 
@@ -42,7 +42,7 @@ Pavyzdžio sistemoje yra šie saugyklos dimensijų nustatymai.
 | Pavadinimas arba vardas ir pavardė      | Aktyvi | Faktinės atsargos | Finansinės atsargos |
 |-----------|--------|--------------------|---------------------|
 | Vieta      | Taip    | Taip                | Taip                 |
-| Sandėlis | Taip    | Taip                | Ne                  |
+| Sandėlis | Taip    | Taip                | nr.                  |
 
 ### <a name="inventory-model"></a>Atsargų modelis
 

@@ -1,25 +1,27 @@
 ---
 title: Produkto klasifikavimas naudojant kategorijų hierarchijas
 description: Šioje temoje aprašoma, kaip klasifikuoti produktus naudojant kategorijų hierarchijas.
-author: t-benebo
+author: ShylaThompson
+manager: tfehr
 ms.date: 08/02/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResCategoryHierarchyListPage, EcoResCategoryHierarchyCreate, EcoResCategory, EcoResCategoryHierarchyRole
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: benebotg
+ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 857a9e69e63216f22a4e75d9606ef6ceb77f1dbc
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 61ad92804b583f0474b582b17dc381e9d77e38bf
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7569630"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5218638"
 ---
 # <a name="classify-a-product-using-category-hierarchies"></a>Produkto klasifikavimas naudojant kategorijų hierarchijas
 
@@ -27,17 +29,18 @@ ms.locfileid: "7569630"
 
 Šioje temoje aprašoma, kaip klasifikuoti produktus naudojant kategorijų hierarchijas. Naudokite kategorijų hierarchiją, norėdami klasifikuoti produktus, kuriuos reikia eksportuoti, pirkti, parduoti ar naudoti kitais tikslais. Šią užduotį paprastai atlieka produktų vadovas. Pavyzdyje naudojama demonstracinių duomenų įmonės USMF produkto numerį M0009.
 
-1. Eikite į **Produkto informacijos valdymas \> Produktai \> Išleisti produktai**.
-1. Sąraše raskite ir pasirinkite norimą įrašą.
-1. Veiksmų srityje spustelėkite **Produktas**.
-1. Pažymėkite **Produktų kategorijos**.
-1. Pasirinkite **Naujas**.
-1. Lauke **Kategorijų hierarchija** įveskite arba pasirinkite reikšmę.
-1. Lauke **Kategorija** įveskite arba pasirinkite reikšmę.
-1. Pasirinkite **Naujas**.
-1. Lauke **Kategorijų hierarchija** įveskite arba pasirinkite reikšmę.
-1. Lauke **Kategorija** įveskite arba pasirinkite reikšmę.
-1. Uždarykite puslapį.
+1. Pažymėkite **Išleisto produkto priežiūra**.
+2. Pažymėkite **Visi išleisti produktai**.
+3. Sąraše raskite ir pasirinkite norimą įrašą.
+4. Veiksmų srityje spustelėkite **Produktas**.
+5. Pažymėkite **Produktų kategorijos**.
+6. Pasirinkite **Naujas**.
+7. Lauke **Kategorijų hierarchija** įveskite arba pasirinkite reikšmę.
+8. Lauke **Kategorija** įveskite arba pasirinkite reikšmę.
+9. Pasirinkite **Naujas**.
+10. Lauke **Kategorijų hierarchija** įveskite arba pasirinkite reikšmę.
+11. Lauke **Kategorija** įveskite arba pasirinkite reikšmę.
+12. Uždarykite puslapį.
 
 
 

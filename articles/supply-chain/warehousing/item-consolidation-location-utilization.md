@@ -2,23 +2,26 @@
 title: Elemento konsolidavimas - vietos naudojimas
 description: Šiame temoje pateikta informacija apie funkcijas, kurios palengvina sandėlio vadovų vietų kiekio naudojimo peržiūrą ir filtravimą sandėlyje. Vadovai gali pasirinkti vietas ir sukurti inventoriaus judėjimo darbą tiesiai iš elemento konsolidavimo puslapio į konsoliduotus elementus ir taip pagerinti sandėlio vietos naudojimą.
 author: Mirzaab
+manager: tfehr
 ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSPhysDimUOM, WHSMovementType, WHSItemConsolidationForm, WHSRFMenu, WHSRFMenuItem
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
-ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: f858eae57b8b354076f5ed026a4b84ed680866b0
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.7
+ms.openlocfilehash: 6a328b20c1cfb2fc376ab4656c64cf585a5aa015
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7578613"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4433918"
 ---
 # <a name="item-consolidation---location-utilization"></a>Elemento konsolidavimas - vietos naudojimas
 
@@ -147,7 +150,7 @@ Prieš pradedant naudoti šiame skyriuje aprašytas savybes, privalote įjungti 
 
 ## <a name="example-scenario"></a>Pavyzdinis scenarijus
 
-Tolesnis scenarijus naudoja sandėlio valdymo mobiliųjų įrenginių programėlę tam, kad sukurtų inventoriaus *vidinį koregavimą* dvejose sandėlio vietose.
+Tolesnis scenarijus naudoja sandėlio programą mobiliame prietaise tam, kad sukurtų inventorių *reguliavimą viduje* dvejose sandėlio vietose.
 
 ### <a name="add-inventory-to-locations"></a>Įtraukti inventorių į vietas
 
@@ -205,6 +208,3 @@ Tolesnis scenarijus naudoja sandėlio valdymo mobiliųjų įrenginių programėl
 
     > [!NOTE]
    > Sistema sukuria vieną darbo identifikavimo kodą vienam judėjimui, kuris turi būti atliktas. Jei nurodote vietą, kuri jau turi inventorių, yra sukuriamas tik vienas darbo identifikavimo kodas. Jei nurodote naują vietą, bus sukuriami du darbo identifikavimo kodai.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

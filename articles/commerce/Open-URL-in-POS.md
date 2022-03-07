@@ -2,11 +2,9 @@
 title: URL atidarymas EKA
 description: Šioje temoje apžvelgiama, kaip patobulinta „Dynamics 365 Commerce“ produktų ir klientų ieškos funkcija.
 author: AamirAllaq
-manager: AnnBe
 ms.date: 01/28/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application user
 ms.reviewer: josaw
@@ -17,18 +15,18 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2018-10-30
 ms.dyn365.ops.version: 8.1.1
-ms.openlocfilehash: e4ccb8e03d63a7bd1ab2d118d86633a8c6324d43
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.openlocfilehash: 0e02a08e5afd15fd9622495fd77f4dc01b85786bcffc222b5c979c82a59a6aab
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4965457"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6714119"
 ---
-# <a name="open-url-in-pos"></a>URL atidarymas elektroniniame kasos aparate
+# <a name="open-url-in-pos"></a>URL atidarymas EKA
 
 [!include [banner](includes/banner.md)]
 
-Šioje temoje aprašoma, kaip galite sukonfigūruoti mygtuką „Retail“ elektroniniame kasos aparate (POS), kad būtų galima atidaryti URL. Šiai funkcija įjungti nereikia tinkinti kodo, taip pat ją sukonfigūruoti gali bet kuris vartotojas, turintis ne kūrėjo vaidmenį. 
+Šioje temoje aprašoma, kaip galite sukonfigūruoti mygtuką „Dynamics 365 Commerce“ elektroniniame kasos aparate (POS), kad būtų galima atidaryti URL. Šiai funkcija įjungti nereikia tinkinti kodo, taip pat ją sukonfigūruoti gali bet kuris vartotojas, turintis ne kūrėjo vaidmenį. 
 
 Ši funkcija leidžia sukonfigūruoti EKA mygtuką naudojant mygtukyno dizaino įrankį, kad būtų galima atidaryti URL. Šiuo metu atidaryti URL galima toliau nurodytomis konfigūracijomis.
 
@@ -48,15 +46,15 @@ ms.locfileid: "4965457"
 
 Ši funkcija leidžia jums nurodyti ne interneto URL, kad būtų galima atidaryti vietinėje programoje. Pavyzdžiui, galite nurodyti URL protokolus, pvz., „MailTo“, SIP, IM arba MSTEAMS, kuriuos vėliau galima sutvarkyti naudojant atitinkamas prieglobos įrenginio vietines programas. Norėdami įgalinti šią funkciją, URL turite sukonfigūruoti pasirinkę parinktį **Atidaryti naujame lange**.
 
-- Jei naudojate kompiuterius, kuriuose įdiegti „Windows“, žr. [Numatytųjų programos susiejimų eksportavimas arba importavimas](https://docs.microsoft.com/windows-hardware/manufacture/desktop/export-or-import-default-application-associations), kad nustatytumėte numatytąsias protokolo asociacijas, kai kompiuterį nustatote naudodamiesi vaizdų aptarnavimo ir tvarkymo visuotinio diegimo (DISM) sprendimu.
-- Jei „Windows“ kompiuteriams valdyti naudojate MDM, pvz., „Intune“, žr. [Strategijos CSP – ApplicationDefaults](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-applicationdefaults).
-- Jei esate kūrėjas, kuriant pasirinktinę žiniatinklio svetainę, žr. [Numatytosios programos URI paleidimas](https://docs.microsoft.com/windows/uwp/launch-resume/launch-default-app).
+- Jei naudojate kompiuterius, kuriuose įdiegti „Windows“, žr. [Numatytųjų programos susiejimų eksportavimas arba importavimas](/windows-hardware/manufacture/desktop/export-or-import-default-application-associations), kad nustatytumėte numatytąsias protokolo asociacijas, kai kompiuterį nustatote naudodamiesi vaizdų aptarnavimo ir tvarkymo visuotinio diegimo (DISM) sprendimu.
+- Jei „Windows“ kompiuteriams valdyti naudojate MDM, pvz., „Intune“, žr. [Strategijos CSP – ApplicationDefaults](/windows/client-management/mdm/policy-csp-applicationdefaults).
+- Jei esate kūrėjas, kuriant pasirinktinę žiniatinklio svetainę, žr. [Numatytosios programos URI paleidimas](/windows/uwp/launch-resume/launch-default-app).
 
 ## <a name="open-a-native-app-seamlessly"></a>Sklandus atidarymas vietinėje programoje
 
 „Windows“, „iOS“ ir „Android“ taip pat leidžiama sklandžiau atidaryti daugiau programų, priklausomai nuo programos protokolo susiejimo. Jei jūsų programa dar nesukonfigūruota taip, kad atidarymą galėtų tvarkyti interneto naršyklėje, šiai funkcijai sukonfigūruoti gali prireikti kūrėjo paslaugų.
 
-- Jei naudojate „Windows“, žr. [Programų žiniatinklio svetainėms įgalinimas naudojant URI apdorojimo programas](https://docs.microsoft.com/windows/uwp/launch-resume/web-to-app-linking).
+- Jei naudojate „Windows“, žr. [Programų žiniatinklio svetainėms įgalinimas naudojant URI apdorojimo programas](/windows/uwp/launch-resume/web-to-app-linking).
 - Jei naudojate „iOS“, žr. [Kūrėjams skirtos universalios nuorodos](https://developer.apple.com/ios/universal-links/).
 - Jei naudojate „Android“, žr. [„Android“ programos nuorodų tvarkymas](https://developer.android.com/training/app-links/).
 
@@ -65,7 +63,7 @@ ms.locfileid: "4965457"
 | „Windows“ skirtas „Modern POS“ | ✓\*                | ✓               | ✓              | \* Atidaroma naujame „Modern POS“ lange |
 | „Cloud POS“             | ✓\*                | ✓               | X              | \* Atidaroma naujame naršyklės skirtuke        |
 | „iOS“ skirtas „Modern POS“     | ✓\*                | ✓               | X              | \* Atidaroma naujame naršyklės skirtuke        |
-| „Modern POS“ sistemovairuotoje „Android“ | ✓\*                | ✓               | X              | \* Atidaroma naujame naršyklės skirtuke        |
+| „Modern POS“, skirtas „Android“ | ✓\*                | ✓               | X              | \* Atidaroma naujame naršyklės skirtuke        |
 
 ## <a name="before-you-begin"></a>Prieš pradedant
 
@@ -82,3 +80,6 @@ Norėdami sukonfigūruoti URL taip, kad jį būtų galima atidaryti EKA, atlikit
 5. Kaip veiksmą pasirinkite **Atidaryti URL**.
 6. Įveskite norimą naudoti URL.
 7. Sukonfigūruokite, ar norite, kad URL būtų atidaromas naujame lange.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

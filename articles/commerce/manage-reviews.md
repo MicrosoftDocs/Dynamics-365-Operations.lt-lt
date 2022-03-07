@@ -2,15 +2,12 @@
 title: Įvertinimų ir atsiliepimų tvarkymas
 description: Šioje temoje paaiškinama, kaip valdyti įvertinimus ir apžvalgas „Microsoft Dynamics 365 Commerce“ svetainių daryklėje.
 author: gvrmohanreddy
-manager: annbe
 ms.date: 10/09/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Operations, Retail, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -18,12 +15,12 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-01
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 3fc88bc5a5868dce7c0539bf3f0ddc5b751e7b75
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 35a649463b853d4ff0ef158167e5a3e0bcc4ddc5e6e9007fddda82dd14a00851
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4414369"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6731598"
 ---
 # <a name="manage-ratings-and-reviews"></a>Įvertinimų ir atsiliepimų tvarkymas
 
@@ -48,7 +45,7 @@ Norėdami perskaityti atsiliepimą „Commerce“ svetainių daryklėje, atlikit
 
 Papildomais filtrais galima riboti apžvalgas pagal laikotarpį, vertinimą, kanalą arba su būseną (pašalinta, atsakyta arba pranešta).
 
-![Moderavimo pagrindinis puslapis](media/rnr-moderation-home.png) 
+![Moderavimo pagrindinis puslapis.](media/rnr-moderation-home.png) 
 
 ## <a name="respond-to-a-review"></a>Atsakymas į apžvalgą 
 
@@ -62,7 +59,7 @@ Norėdami atsakyti į atsiliepimą „Commerce“ svetainių daryklėje, atlikit
 1. Įveskite atsakymo tekstą ir pavadinimą, kuris turi būti rodomas atsakytojui. Numatytasis atsakytojo pavadinimas yra **Moderatorius**.
 1. Baigę pasirinkite **Skelbti atsakymą**.
 
-![Atsakymas į apžvalgą](media/rnr-moderation-response.png) 
+![Atsakymas į apžvalgą.](media/rnr-moderation-response.png) 
 
 ## <a name="take-down-a-review"></a>Apžvalgos šalinimas 
 
@@ -85,7 +82,7 @@ Norėdami rasti ir panaikinti kliento duomenis „Commerce“ svetainių darykl�
 1. Jei klientas atliko apžvalgos veiklų (pavyzdžiui, atsiliepimų teikimas, balsavimai, kiek kito kliento atsiliepimai buvo naudingi, arba komentavimas apie kito kliento atsiliepimą), rezultatai rodomi. Kiekviename elemente yra mygtukas **Naikinti**.
 1. Kiekvienam elementui, kurį reikia naikinti, pasirinkite **Naikinti**. Kai būsite paraginti patvirtinti, pasirinkite **Taip**. 
     
-![Kliento duomenų naikinimas](media/rnr-moderation-delete-reviews.png) 
+![Kliento duomenų naikinimas.](media/rnr-moderation-delete-reviews.png) 
 
 > [!NOTE]
 > - Norint, kad duomenys būtų visiškai pašalinti iš sistemos, tai gali užtrukti iki septynių dienų. Moderatoriai turėtų informuoti klientus apie šį vėlavimą.
@@ -109,26 +106,29 @@ Norėdami peržiūrėti įvertinimų ir atsiliepimų tendencijas „Commerce“ 
 1. Eikite į **Pagrindinis \>Apžvalgos \> Pranešimas**.
 1. Pasirinkite **„PowerBI“ šablonas**, kad atsisiųstumėte šabloną.
 
-    ![„Power BI“ šablono atsisiuntimas](media/rnr-moderation-reports.png) 
+    ![„Power BI“ šablono atsisiuntimas.](media/rnr-moderation-reports.png) 
 
 1. Atidarykite atsisiųstą šabloną naudojantis „Power BI“ programėle. Uždarykite pasirodžiusį dialogo langą **Prieiga prie interneto turinio** ir uždarykite pasirodžiusį klaidos pranešimą „Atnaujinti“.
 1. Eikite į **Pagrindinis**, pasirinkite **Redaguoti užklausas** ir pasirinkite **Duomenų šaltinio parametrai**.
 1. Dialogo lange **Duomenų šaltinio parametrai** pasirinkite **Keisti šaltinį**.
 1. Lauke **URL** įveskite apžvalgų duomenų, kuriuos atsisiuntėte ankstesne procedūra, maršrutą (pvz., **c:\\apžvalgos\\ReviewsData.csv**).
 
-    ![Kableliais atskirtų reikšmių dialogo lango URL laukas](media/rnr-powerbi-datasource-settings.png) 
+    ![Kableliais atskirtų reikšmių dialogo lango URL laukas.](media/rnr-powerbi-datasource-settings.png) 
 
 1. Pasirinkite **Gerai**, tada – **Taikyti keitimus**. Užtruks nuo vienos iki dviejų minučių, kol jūsų keitimai bus pritaikyti duomenų šaltinyje.
 1. Norėdami peržiūrėti įvertinimų ir apžvalgų tendencijas, pasirinkite **Tendencijų lapas**.
 
-    ![Įvertinimų ir apžvalgų tendencijos](media/rnr-powerbi-dashboard-template.png) 
+    ![Įvertinimų ir apžvalgų tendencijos.](media/rnr-powerbi-dashboard-template.png) 
     
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Įvertinimų ir atsiliepimų apžvalga](ratings-reviews-overview.md)
 
-[Prisijunkite, norėdami naudoti įvertinimus ir atsiliepimus](opt-in-ratings-reviews.md)
+[Norėdami naudoti įvertinimus ir atsiliepimus, prisijunkite](opt-in-ratings-reviews.md)
 
 [Įvertinimų ir atsiliepimų konfigūravimas](configure-ratings-reviews.md)
 
 [Produktų įvertinimų sinchronizavimas sprendime „Dynamics 365 Retail“](sync-product-ratings.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,12 +1,10 @@
 ---
 title: Turto klaidų analizė
 description: Šioje temoje aiškinama turto gedimų analizė turto valdyme.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/23/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetObjectFaultCalculate
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 674e10b94711b00e526af4af0e0c0afddd05e62c
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
-ms.translationtype: HT
+ms.openlocfilehash: 880ed35a9780185836218a5c2a7addb2a47eabd737d6bec99794ecb7a0959791
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5022386"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6779283"
 ---
 # <a name="asset-fault-analysis"></a>Turto klaidų analizė
 
@@ -62,7 +60,7 @@ Toliau pateiktoje ekrano kopijoje pažymėtas tik mygtukas **Požymis**.
 - Gedimo registracijos atliktos pagal tris gedimo požymius: „Oro nuotėkis“, „Perdegęs saugiklis“ ir „Užstrigo įranga“.  
 - Stulpelyje **Tikimybės %** visi procentai sumuojami iki 100 %. Šioje gedimo analizėje tikimybė pagrįsta visomis **Požymis** registracijomis.
 
-![1 pav.](media/06-controlling-and-reporting.png)
+![1 iliustracija.](media/06-controlling-and-reporting.png)
 
 ### <a name="group-by-symptoms-and-time-period"></a>Grupuoti pagal požymius ir laikotarpį
 
@@ -71,13 +69,13 @@ Toliau pateiktoje ekrano kopijoje įtraukti **Metai** ir **Mėnuo**, kad pamatyt
 - Dabar gedimo požymiai rodomi kaip registracijos pagal metus / mėnesį.  
 - Stulpelyje **Tikimybės %**, jei įtraukiate visus kiekvieno mėnesio procentus, jie sumuojami iki 100 %. Šioje gedimo analizėje tikimybė pagrįsta **Požymis** registracijomis. Jei yra daug turto eilučių, tačiau vienoje eilutėje rodomas didelis procentas, reiškia, kad gedimo požymį reikia išanalizuoti išsamiau, kad rastumėte būdą, kaip apriboti gedimo požymio registracijų skaičių.
 
-![2 pav.](media/07-controlling-and-reporting.png)
+![2 iliustracija.](media/07-controlling-and-reporting.png)
 
 ### <a name="group-by-multiple-symptoms-and-assets"></a>Grupuoti pagal kelis simptomus ir turtą
 
 Turto ir turto tipo derinys naudojamas remiantis skaičiavimais, parodytais toliau pateiktose trijose ekrano kopijose, kurie didėja pagal išsamumo lygį.  
 
-Paprastai, veiksmų srities grupių **Grupuoti pagal datą**, **Grupuoti pagal turtą**, **Grupuoti pagal funkcinę vietą** mygtukai ir mygtukas **Gedimas** (gedimo ID) turi laikotarpius arba turto ryšius. Mygtukai **Požymis**, **Sritis**, **Tipas**, **Priežastis** ir **Šalinimo priemonė** yra kategorizacijos, naudojamos turto valdyme norint analizuoti turto gedimą ir nurodyti problemos sritis.  
+Paprastai, veiksmų srities grupių **Grupuoti pagal datą**, **Grupuoti pagal turtą**, **Grupuoti pagal funkcinę vietą** mygtukai ir mygtukas **Gedimas** (gedimo ID) turi laikotarpius arba turto ryšius. Mygtukai **Požymis**, **Sritis**, **Tipas**, **Priežastis** ir **Šalinimo priemonė** yra kategorizavimai, naudojami turto valdyme norint analizuoti turto gedimą ir nurodyti problemos sritis.  
 
 **Grupuoti pagal požymį, turtą ir turto tipą**
 
@@ -86,7 +84,7 @@ Toliau pateiktoje ekrano kopijoje įtraukti **Turtas** ir **Turto tipas**, kad b
 - Dabar gedimo požymiai yra padalinti į derinius **Turtas** / **Turto tipas** / **Požymis**.  
 - Stulpelyje **Tikimybė %**, jei įtraukiate visus derinio **Turtas** / **Turto tipas** / **Požymis** procentus, kiekvienas iš jų sumuojamas iki 100 %. Šioje gedimo analizėje tikimybė pagrįsta **Požymis** registracijomis. Jei yra daug turto eilučių, tačiau vienoje eilutėje rodomas didelis procentas, reiškia, kad gedimo požymį reikia išanalizuoti išsamiau, kad rastumėte būdą, kaip apriboti gedimo požymio registracijų skaičių.
 
-![3 pav.](media/08-controlling-and-reporting.png)
+![3 iliustracija.](media/08-controlling-and-reporting.png)
 
 **Grupuoti pagal du požymius, turtą ir turto tipą**
 
@@ -94,7 +92,7 @@ Toliau pateiktose ekrano kopijoje **Sritis** įtraukta į **Požymis**, **Turtas
 
 - Stulpelyje **Tikimybės %**, jei įtraukiate visus turto derinio **Turtas** / **Turto tipas** / **Požymis** procentus, kiekvienas iš jų sumuojamas iki 100 %. Šioje gedimo analizėje tikimybė pagrįsta **Požymis** ir **Sritis** registracijomis. Jei yra daug turto eilučių, tačiau vienoje eilutėje rodomas didelis procentas, reiškia, kad gedimo sritį reikia išanalizuoti išsamiau, kad rastumėte būdą, kaip apriboti gedimo srities registracijų skaičių.  
 
-![4 pav.](media/09-controlling-and-reporting.png)
+![4 iliustracija.](media/09-controlling-and-reporting.png)
 
 **Grupuoti pagal tris požymius, turtą ir turto tipą**
 
@@ -102,9 +100,12 @@ Toliau pateiktoje ekrano nuotraukoje buvo įtrauktas **Tipas** ir šiame pavyzdy
  
 - Stulpelyje **Tikimybės %**, jei įtraukiate visus turto derinio **Turtas** / **Turto tipas** / **Požymis** procentus, kiekvienas iš jų sumuojamas iki 100 %. Šioje gedimo analizėje tikimybė pagrįsta **Požymis**, **Sritis** ir **Tipas** deriniu. Jei yra daug turto eilučių, tačiau vienoje eilutėje rodomas didelis procentas, reiškia, kad gedimo tipą reikia išanalizuoti išsamiau, kad rastumėte būdą, kaip apriboti gedimo tipo registracijų skaičių.
 
-![5 paveikslėlis](media/10-controlling-and-reporting.png)
+![5 iliustracija.](media/10-controlling-and-reporting.png)
 
 
 >[!NOTE]
 >Norėdami peržiūrėti visas gedimų registracijas, sukurtas darbo užsakymuose ir priežiūros užklausose, spustelėkite **Turto valdymas** > **Užklausos** > **Turto gedimas** > **Turto gedimai**. Puslapyje **Turto gedimai** pažymėkite turto gedimo registraciją ir išplėskite sritį **Susijusi informacija**, kad matytumėte susijusio darbo užsakymo arba priežiūros užklausos informaciją.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

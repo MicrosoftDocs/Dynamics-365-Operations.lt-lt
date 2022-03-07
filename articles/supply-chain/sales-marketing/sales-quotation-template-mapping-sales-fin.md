@@ -1,53 +1,50 @@
 ---
-title: Tiesioginis „Sales“ pardavimo pasiūlymų antraščių ir eilučių sinchronizavimas su Tiekimo grandinės valdymu
+title: Tiesioginis „Sales“ pardavimo pasiūlymų antraščių ir eilučių sinchronizavimas su „Supply Chain Management”
 description: Šioje temoje aptariami šablonai ir pagrindinės užduotys, naudojami „Dynamics 365 Sales“ pardavimo pasiūlymų antraštes ir eilutes tiesiogiai sinchronizuojant su „Dynamics 365 Supply Chain Management“.
-author: ChristianRytt
-manager: tfehr
+author: Henrikan
 ms.date: 10/25/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
-ms.author: crytt
+ms.author: henrikan
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: c7d4cacbf56243830633f4d0fd3c57071b08ab56
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
-ms.translationtype: HT
+ms.openlocfilehash: 362b6c290b1784d05e42ecb650911cc51aa8478a
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527343"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8061989"
 ---
-# <a name="synchronize-sales-quotation-headers-and-lines-directly-from-sales-to-supply-chain-management"></a>Tiesioginis „Sales“ pardavimo pasiūlymų antraščių ir eilučių sinchronizavimas su Tiekimo grandinės valdymu
+# <a name="synchronize-sales-quotation-headers-and-lines-directly-from-sales-to-supply-chain-management"></a>Tiesioginis „Sales“ pardavimo pasiūlymų antraščių ir eilučių sinchronizavimas su „Supply Chain Management”
 
 [!include [banner](../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Šioje temoje aptariami šablonai ir pagrindinės užduotys, naudojami „Dynamics 365 Sales“ pardavimo pasiūlymų antraštes ir eilutes tiesiogiai sinchronizuojant su „Dynamics 365 Supply Chain Management“.
 
 > [!NOTE]
-> Prieš naudodami sprendimą Potencialūs klientai ir grynieji pinigai, turėtumėte būti susipažinę su [Duomenų integravimas į „Common Data Service“, skirtą programoms](https://docs.microsoft.com/powerapps/administrator/data-integrator).
+> Prieš naudodami sprendimą Potencialūs klientai ir grynieji pinigai, turėtumėte būti susipažinę su [Duomenų integravimas į „Microsoft Dataverse“, skirtą programoms](/powerapps/administrator/data-integrator).
 
 ## <a name="data-flow-in-prospect-to-cash"></a>Duomenų srautas sprendime Potencialūs klientai ir grynieji pinigai
 
-Sprendime Potencialūs klientai ir grynieji pinigai naudojant funkciją Duomenų integravimas sinchronizuojami duomenys „Supply Chain Management“ ir „Sales“ egzemplioriuose. Sprendimo Potencialūs klientai ir grynieji pinigai šablonai, pasiekiami naudojant duomenų integravimo funkciją, įjungia sąskaitų, kontaktų, produktų, pardavimo pasiūlymų, pardavimo užsakymų ir pardavimo SF duomenų srautą tarp Tiekimo grandinės valdymo ir „Sales“. Toliau pateiktoje iliustracijoje rodoma, kaip sinchronizuojami „Supply Chain Management “ ir „Sales“ duomenys.
+Sprendime Potencialūs klientai ir grynieji pinigai naudojant funkciją Duomenų integravimas sinchronizuojami duomenys „Supply Chain Management“ ir „Sales“ egzemplioriuose. Sprendimo Potencialūs klientai ir grynieji pinigai šablonai, pasiekiami naudojant duomenų integravimo funkciją, įjungia sąskaitų, kontaktų, produktų, pardavimo pasiūlymų, pardavimo užsakymų ir pardavimo SF duomenų srautą tarp „Supply Chain Management” ir „Sales“. Toliau pateiktoje iliustracijoje rodoma, kaip sinchronizuojami „Supply Chain Management “ ir „Sales“ duomenys.
 
-[![Duomenų srautas sprendime Potencialūs klientai ir grynieji pinigai](./media/prospect-to-cash-data-flow.png)](./media/prospect-to-cash-data-flow.png)
+[![Duomenų srautas sprendime Potencialūs klientai ir grynieji pinigai.](./media/prospect-to-cash-data-flow.png)](./media/prospect-to-cash-data-flow.png)
 
 ## <a name="template-and-tasks"></a>Šablonai ir užduotys
 
-Toliau pateiktas šablonas ir pagrindinės užduotys yra naudojami tiesiogiai sinchronizuojant „Sales“ pardavimo pasiūlymų antraštes ir eilutes su Tiekimo grandinės valdymu.
+Toliau pateiktas šablonas ir pagrindinės užduotys yra naudojami tiesiogiai sinchronizuojant „Sales“ pardavimo pasiūlymų antraštes ir eilutes su „Supply Chain Management”.
 
-- **Šablono pavadinimas naudojant funkciją Duomenų integravimas:** Pardavimo pasiūlymai (iš „Sales“ į Tiekimo grandinės valdymą) – tiesioginis
+- **Šablono pavadinimas naudojant funkciją Duomenų integravimas:** Pardavimo pasiūlymai (iš „Sales“ į „Supply Chain Management”) – tiesioginis
 - **Užduočių pavadinimai projekte Duomenų integravimas:**
 
     - QuoteHeader
@@ -55,20 +52,20 @@ Toliau pateiktas šablonas ir pagrindinės užduotys yra naudojami tiesiogiai si
 
 Prieš sinchronizuojant pardavimo pasiūlymų antraštes ir eilutes, būtina atlikti toliau pateiktas sinchronizavimo užduotis.
 
-- Produktai (iš Tiekimo grandinės valdymo į „Sales“) – tiesioginis
-- Sąskaitos (iš „Sales“ į Tiekimo grandinės valdymą) – tiesioginis (jei naudojamas)
-- Kontaktai klientams (iš „Sales“ į Tiekimo grandinės valdymą) – tiesioginis (jei naudojamas)
+- Produktai (iš „Supply Chain Management” į „Sales“) – tiesioginis
+- Sąskaitos (iš „Sales“ į „Supply Chain Management”) – tiesioginis (jei naudojamas)
+- Kontaktai klientams (iš „Sales“ į „Supply Chain Management”) – tiesioginis (jei naudojamas)
 
 ## <a name="entity-set"></a>Objektų rinkinys
 
-| Pardavimas        | Tiekimo grandinės valdymas     |
+| Pardavimas        | „Supply Chain Management”     |
 |--------------|----------------------------|
-| Pasiūlymai       | CDS pardavimo pasiūlymo antraštė |
-| QuoteDetails | CDS pardavimo pasiūlymo eilutės  |
+| Pasiūlymai       | „Dataverse” pardavimo kainos pasiūlymo antraštė |
+| QuoteDetails | „Dataverse” pardavimo kainos pasiūlymų eilutės  |
 
 ## <a name="entity-flow"></a>Objekto srautas
 
-Pardavimo pasiūlymai kuriami sprendime „Sales“ ir sinchronizuojami su Tiekimo grandinės valdymu.
+Pardavimo pasiūlymai kuriami sprendime „Sales“ ir sinchronizuojami su „Supply Chain Management”.
 
 „Sales“ pardavimo pasiūlymai sinchronizuojami tik jei tenkinamos tolesnės sąlygos.
 
@@ -77,13 +74,13 @@ Pardavimo pasiūlymai kuriami sprendime „Sales“ ir sinchronizuojami su Tieki
 
 ## <a name="prospect-to-cash-solution-for-sales"></a>„Sales“ skirtas potencialių klientų ir grynųjų pinigų sprendimas
 
-Laukas **Sudaro tik išoriškai tvarkomi produktai** įtrauktas į objektą **Pasiūlymas** , kad būtų galima nuosekliai sekti, ar pardavimo pasiūlymą sudaro tik išoriškai tvarkomi produktai. Jei pardavimo pasiūlymui priskirti tik išoriškai tvarkomi produktai, produktai tvarkomi Tiekimo grandinės valdyme. Tai padeda užtikrinti, kad nebandysite sinchronizuoti pardavimo pasiūlymų eilučių, kuriose nurodyti Tiekimo grandinės valdyme neatpažįstami produktai.
+Laukas **Sudaro tik išoriškai tvarkomi produktai** įtrauktas į objektą **Pasiūlymas** , kad būtų galima nuosekliai sekti, ar pardavimo pasiūlymą sudaro tik išoriškai tvarkomi produktai. Jei pardavimo pasiūlymui priskirti tik išoriškai tvarkomi produktai, produktai tvarkomi „Supply Chain Management”. Tai padeda užtikrinti, kad nebandysite sinchronizuoti pardavimo pasiūlymų eilučių, kuriose nurodyti „Supply Chain Management” neatpažįstami produktai.
 
 Visi produktų pasiūlymai pardavimo pasiūlyme atnaujinami, įtraukiant pardavimo pasiūlymo antraštės informaciją **Sudaro tik išoriškai tvarkomi produktai**. Šią informacija pateikiama **QuoteDetails** objekto lauke **Pasiūlymą sudaro tik išoriškai tvarkomi produktai**.
 
-Į produkto pasiūlymą gali būti įtraukta nuolaida ir visa tai bus sinchronizuojama su Tiekimo grandinės valdymu. Antraštės laukus **Nuolaida**, **Išlaidos** ir **Mokesčiai** valdo Tiekimo grandinės valdymo sąranka. Šiuo metu šioje sąrankoje nepalaikomas integravimo susiejimas. Dabartinėje versijoje laukai **Kaina**, **Nuolaida**, **Išlaidos** ir **Mokesčiai** prižiūrimi bei tvarkomi naudojant Tiekimo grandinės valdymą.
+Į produkto pasiūlymą gali būti įtraukta nuolaida ir visa tai bus sinchronizuojama su „Supply Chain Management”. Antraštės laukus **Nuolaida**, **Išlaidos** ir **Mokesčiai** valdo „Supply Chain Management” sąranka. Šiuo metu šioje sąrankoje nepalaikomas integravimo susiejimas. Dabartinėje versijoje laukai **Kaina**, **Nuolaida**, **Išlaidos** ir **Mokesčiai** prižiūrimi bei tvarkomi naudojant „Supply Chain Management”.
 
-Sprendime „Sales“ šis sprendimas toliau nurodytus laukus nustato kaip tik skaitomus, nes reikšmės nėra sinchronizuojamos su Tiekimo grandinės valdymu.
+Sprendime „Sales“ šis sprendimas toliau nurodytus laukus nustato kaip tik skaitomus, nes reikšmės nėra sinchronizuojamos su „Supply Chain Management”.
 
 - Tik skaitomi pardavimo pasiūlymo antraštės laukai: **Nuolaida %**, **Nuolaida** ir **Transportavimo suma**
 - Tik skaitomi produktų pasiūlymo laukai: **Mokestis**
@@ -113,12 +110,12 @@ Prieš sinchronizuojant pardavimo pasiūlymus, svarbu atnaujinti toliau nurodytu
 
 #### <a name="quoteline"></a>QuoteLine
 
-- Įsitikinkite, kad reikiamas **SalesUnitSymbol** skirtas susiejimas yra Tiekimo grandinės valdyme.
+- Įsitikinkite, kad reikiamas **SalesUnitSymbol** skirtas susiejimas yra „Supply Chain Management”.
 - Įsitikinkite, kad „Sales“ apibrėžti reikiami vienetai.
 
     Šablono vertė, kurioje yra vertės schema, apibrėžta **oumid.name** į **SalesUnitSymbol**.
 
-- Pasirinktina: galite įtraukti toliau nurodytus susiejimus, norėdami užtikrinti, kad pardavimo pasiūlymo eilutės importuojamos į Tiekimo grandinės valdymą, jei nenurodyta kliento arba produkto numatytoji informacija.
+- Pasirinktina: galite įtraukti toliau nurodytus susiejimus, norėdami užtikrinti, kad pardavimo pasiūlymo eilutės importuojamos į „Supply Chain Management”, jei nenurodyta kliento arba produkto numatytoji informacija.
 
     - **SiteId** – vieta būtina norint generuoti pasiūlymus ir „Supply Chain Management“ pardavimo užsakymo eilutes. Numatytosios **SiteId** šablono reikšmės nėra.
     - **WarehouseId** – sandėlis yra būtinas norint apdoroti pasiūlymus ir „Supply Chain Management“ pardavimo užsakymo eilutes. Numatytosios **WarehouseId** šablono reikšmės nėra.
@@ -126,20 +123,23 @@ Prieš sinchronizuojant pardavimo pasiūlymus, svarbu atnaujinti toliau nurodytu
 ## <a name="template-mapping-in-data-integrator"></a>Šablono susiejimas duomenų integratoriuje
 
 > [!NOTE]
-> - Laukus **Nuolaida**, **Išlaidos** ir **Mokesčiai** valdo sudėtinga Tiekimo grandinės valdymo sąranka. Šiuo metu šioje sąrankoje nepalaikomas integravimo susiejimas. Dabartinėje versijoje laukus **Kaina**, **Nuolaida**, **Išlaidos** ir **Mokesčiai** tvarko Tiekimo grandinės valdymas.
+> - Laukus **Nuolaida**, **Išlaidos** ir **Mokesčiai** valdo sudėtinga „Supply Chain Management” sąranka. Šiuo metu šioje sąrankoje nepalaikomas integravimo susiejimas. Dabartinėje versijoje laukus **Kaina**, **Nuolaida**, **Išlaidos** ir **Mokesčiai** tvarko „Supply Chain Management”.
 > - Laukai **Mokėjimo sąlygos**, **Transportavimo sąlygos**, **Pristatymo sąlygos**, **Siuntimo būdas** ir **Pristatymo būdas** į numatytuosius susiejimus neįtraukti. Norėdami susieti šiuos laukus, turite nustatyti reikšmių schemą, kuri atitinka organizacijų, tarp kurių objektas sinchronizuojamas, duomenis.
 
 Tolesnėse iliustracijose pateikiamas šablono susiejimo pavyzdys duomenų integratoriuje.
 
 ### <a name="quoteheader"></a>QuoteHeader
 
-![Šablono susiejimas duomenų integratoriuje](./media/sales-quotation-direct-template-mapping-data-integrator-1.png)
+![Susieti šabloną duomenų integratoriuje, QuoteHeader.](./media/sales-quotation-direct-template-mapping-data-integrator-1.png)
 
 ### <a name="quoteline"></a>QuoteLine
 
-![Šablono susiejimas duomenų integratoriuje](./media/sales-quotation-direct-template-mapping-data-integrator-2.png)
+![Susieti šabloną duomenų integratoriuje, QuoteLine.](./media/sales-quotation-direct-template-mapping-data-integrator-2.png)
 
 ## <a name="related-topics"></a>Susijusios temos
 
-[Potencialūs klientai ir grynieji pinigai](prospect-to-cash.md)
+[Potencialaus kliento pavertimas pinigais](prospect-to-cash.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

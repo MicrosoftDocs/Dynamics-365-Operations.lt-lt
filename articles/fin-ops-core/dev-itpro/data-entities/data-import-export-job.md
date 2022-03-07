@@ -2,24 +2,23 @@
 title: Duomenų importavimo ir eksportavimo užduočių apžvalga
 description: Norėdami kurti ir valdyti duomenų importavimo bei eksportavimo užduotis, naudokite darbo sritį Duomenų valdymas.
 author: Sunil-Garg
-manager: AnnBe
-ms.date: 11/02/2020
+ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application user
 ms.reviewer: sericks
+ms.custom: intro-internal
 ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3af49d9355f37e0016f491ed37050f75bbc65d72
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: d42f6af27ecb79e02a20516d58846e842d5960ce9363afcafbcbb487e60c0c38
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684065"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6723116"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>Duomenų importavimo ir eksportavimo užduočių apžvalga
 
@@ -108,7 +107,7 @@ Yra du susiejimo rodiniai: **Susiejimo vizualizacija** (numatytasis rodinys) ir 
 
 Puslapyje susiejimą galite sugeneruoti pasirinkdami **Generuoti šaltinio susiejimą**. Sugeneruotas susiejimas veikia taip, kaip automatinis susiejimas. Todėl turite rankiniu būdu susieti visus nesusietus laukus.
 
-![Duomenų susiejimas](./media/dixf-map.png)
+![Duomenų susiejimas.](./media/dixf-map.png)
 
 ## <a name="verify-the-security-for-your-import-or-export-job"></a>Importavimo arba eksportavimo užduoties saugos tikrinimas
 Prieigą prie darbo srities **Duomenų valdymas** galima apriboti, kad administratoriaus teisių neturintys vartotojai galėtų pasiekti tik konkrečias duomenų užduotis. Prieiga prie duomenų užduoties reiškia visišką prieigą prie tos užduoties vykdymo retrospektyvos ir prieigą prie išdėstymo lentelių. Todėl turite įsitikinti, kad kuriant duomenų užduotį nustatomi tinkami prieigos valdikliai.
@@ -134,7 +133,7 @@ Apibrėžę užduotį, ją galite vieną kartą vykdyti pasirinkdami mygtuką **
 ## <a name="validate-that-the-job-ran-as-expected"></a>Tikrinimas, ar užduotis įvykdyta taip, kaip tikėtasi
 Norint nustatyti ir ištirti importavimo bei eksportavimo užduočių triktis, galima naudoti jų retrospektyvą. Retrospektyviniai užduoties vykdymai sisteminami pagal laiko intervalus.
 
-![Užduoties retrospektyvos intervalai](./media/dixf-job-history.md.png)
+![Užduoties retrospektyvos intervalai.](./media/dixf-job-history.md.png)
 
 Kiekvieną kartą vykdant užduotį pateikiama tolesnė informacija.
 
@@ -163,19 +162,7 @@ Norint pagreitinti duomenų importavimą, galima įjungti lygiagretų failo impo
     - Lauke **Importavimo įrašų ribinė reikšmė** įveskite importavimo įrašų ribinę reikšmę. Ji nurodo įrašų, kuriuos reikia apdoroti naudojant giją, skaičių. Jei faile yra 10 000 įrašų, o 2 500 įrašų yra 4 užduotys, kiekviena gija apdoros 2 500 įrašų.
     - Lauke **Importavimo užduočių skaičius** įveskite importavimo užduočių skaičių. Jis neturi viršyti maksimalaus paketo apdorojimui priskirto paketinių gijų skaičiaus dalyje **Sistemos administravimas \>Serverio konfigūravimas**.
 
-## <a name="clean-up-the-staging-tables"></a>Išdėstymo lentelių valymas
-Pradedant platformos 29 naujinimu, ši funkcija buvo nebenaudojama. Ji pakeista nauja užduočių retrospektyvos valymo funkcija, kuri paaiškinama toliau.
-
-Išvalyti išdėstymo lenteles galite naudodami darbo srities **Duomenų valdymas** funkciją **Išdėstymo valymas**. Norėdami pasirinkti, kurioje išdėstymo lentelėje reikia panaikinti kuriuos įrašus, galite naudoti tolesnes parinktis.
-
-- **Objektas** – jei pateiktas tik objektas, panaikinami visi to objekto išdėstymo lentelės įrašai. Pasirinkite šią parinktį, kad visus objekto duomenis išvalytumėte visuose duomenų projektuose ir visose užduotyse.
-- **Užduoties ID** – jei pateikta tik užduoties ID, visi visų pasirinktos užduoties objektų įrašai panaikinami atitinkamose išdėstymo lentelėse.
-- **Duomenų projektai** – jei pasirinktas tik duomenų projektas, panaikinami visi visų objektų ir visų pasirinktų duomenų užduočių įrašai.
-
-Parinktis taip pat galite jungti ir taip dar labiau apriboti naikintinų įrašų rinkinį.
-
-## <a name="job-history-clean-up-available-in-platform-update-29-and-later"></a>Užduočių retrospektyvos valymas (pasiekiama platformos 29 ir vėlesniuose naujinimuose)
-
+## <a name="job-history-clean-up"></a>Darbo istorijos valymas 
 Užduočių retrospektyvos valymo funkcija duomenų valdyme turi būti naudojama periodiniui vykdymo retrospektyvos valymui planuoti. Ši funkcija pakeičia ankstesnę išdėstymo lentelės valymo funkciją, kuri dabar nebenaudojama. Šios lentelės bus išvalytos pagal valymo procesą.
 
 -   Visos išdėstymo lentelės
@@ -243,3 +230,6 @@ Norėdami atsisiųsti suarchyvuotą vykdymo retrospektyvą, eikite į duomenų t
 -   DMFSTAGINGLOGDETAILS
 -   DMF išdėstymo tikrinimo žurnalas
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

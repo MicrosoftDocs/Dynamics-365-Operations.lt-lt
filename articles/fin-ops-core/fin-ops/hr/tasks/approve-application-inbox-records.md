@@ -2,11 +2,9 @@
 title: Patvirtinti gautų prašymų įrašus
 description: Ši procedūra nurodo, kaip peržiūrėti prašymus, gautus per darbuotojų savitarnos puslapius.
 author: andreabichsel
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HRMApplicationBasket, HRMApplicationBasketApprove, HRMApplication
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c980ca44028c4257078e5493e69499db87ffa30d
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: 87a15544b1a9d2fd1f34c93b5b4771dab2b4d173
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4798024"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5752059"
 ---
 # <a name="approve-application-inbox-records"></a>Patvirtinti gautų prašymų įrašus
 
@@ -48,3 +46,6 @@ ms.locfileid: "4798024"
 2. Sąraše spustelėkite saitą pasirinktoje eilutėje.
 3. Išplėskite skyrių „Priedai“.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

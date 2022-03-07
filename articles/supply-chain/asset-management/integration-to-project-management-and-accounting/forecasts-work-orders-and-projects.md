@@ -1,12 +1,10 @@
 ---
 title: Prognozės, darbo užsakymai ir projektai
 description: Šioje temoje aiškinamas prognozių ir darbo užsakymo integravimas su moduliu Projektų valdymas ir apskaita modulyje Turto valdymas.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/29/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetWorkOrderProjCostInfoPart
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: f062b5463b54e9bcf32ed6f17263811c4bb24138
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: bf211e9f256a7489cdc3c38ed2d2198bd1dd6789
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5021034"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5813826"
 ---
 # <a name="forecasts-work-orders-and-projects"></a>Prognozės, darbo užsakymai ir projektai
 
@@ -100,3 +98,6 @@ Toliau esančiame paveikslėlyje pavaizduoti įvairūs projektai, sukurti moduly
 
 ![6 pav.](media/06-integration-to-pma.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

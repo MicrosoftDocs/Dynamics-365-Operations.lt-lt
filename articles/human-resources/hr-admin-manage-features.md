@@ -1,37 +1,39 @@
 ---
-title: Funkcijų valdymas
-description: Sužinokite, kaip įjungti arba išjungti naujas funkcijas programoje „Dynamics 365 Human Resources“.
-author: andreabichsel
-manager: AnnBe
-ms.date: 04/06/2020
+title: Valdyti funkcijas „Human Resources“
+description: Šioje temoje aprašoma funkcijų valdymo priemonė ir kaip ją naudoti.
+author: twheeloc
+ms.date: 08/19/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: FeatureManagementWorkspace
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9176e9519c3bf65ef7a4f1b5ae43dbeb411750f5
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 2d5a27c02df841dfbb17a9375aaf75f93d05cd8e
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419759"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069712"
 ---
-# <a name="manage-features"></a>Funkcijų valdymas
+# <a name="manage-features-in-human-resources"></a>Valdyti funkcijas „Human Resources“
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Mūsų nuolatinis naujų galimybių, skirtų „Microsoft Dynamics 365 Human Resources“, išleidimas apima norą leisti vartotojams kuo greičiau išbandyti naujas funkcijas. Teikiamos peržiūros funkcijos, kurios yra beveik paruoštos visuotinai pasiekti, ir kurioms jau buvo atlikta daug bandymų. Mes tiesiog laukiame galutinio klientų atsiliepimų etapo ir tikrinimo prieš jas bendrai išleisdami.
 
-Daugiau informacijos apie naujas „Human Resources“ funkcijas žr. [Kas nauja programoje „Human Resources“](hr-admin-whats-new.md) ir  [„Dynamics 365“ ir „Power Platform“ leidimo planas](https://docs.microsoft.com/dynamics365/release-plans/#pivot=products&panel=products1).
+Daugiau informacijos apie naujas „Human Resources“ funkcijas žr. [Kas nauja programoje „Human Resources“](hr-admin-whats-new.md) ir  [„Dynamics 365“ ir „Power Platform“ leidimo planas](/dynamics365/release-plans/?panel=products1#pivot=products).
 
-Darbo srityje **Funkcijų valdymas** pateikiamas priemonių, pristatytų kiekviename leidime, sąrašas. Pagal numatytuosius nustatymus naujos funkcijos yra išjungtos. Galite naudoti darbo sritį, norėdami jas įjungti ir peržiūrėti jų dokumentaciją. Daugiau informacijos apie funkcijų valdymą žr. [Funkcijos valdymo apžvalga](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview).
+Darbo srityje **Funkcijų valdymas** pateikiamas priemonių, pristatytų kiekviename leidime, sąrašas. Pagal numatytuosius nustatymus naujos funkcijos yra išjungtos. Galite naudoti darbo sritį, norėdami jas įjungti ir peržiūrėti jų dokumentaciją. Daugiau informacijos apie funkcijų valdymą žr. [Funkcijos valdymo apžvalga](../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 Visos naujos funkcijos išlieka peržiūroje bent 30 dienų ir paprastai 30–60 dienų. Pagrindinės funkcijos paprastai pasiekiamos kiekvienų metų spalį ir balandį po peržiūros laikotarpio. Kai tik pradedame naujas galimybes darbo srityje **Funkcijų valdymas**, galite jas įjungti. Kai kurios funkcijos gali būti pagal numatytuosius parametrus.
 
@@ -70,7 +72,7 @@ Išmokų valdymu pakeičiamos funkcijos darbo srityje **Išmokos**. Kai įjungia
 - **Teisės į išmoką strategijos**
 - **Tinkamumo įvykiai**
 
-Galite peržiūrėti šių formų informaciją tik skaitymo režimu. Jei norite redaguoti informaciją, pirmiausia turite išjungti išmokų valdymą (taikoma tik **smėlio dėžės** aplinkose).
+Galite peržiūrėti šių puslapių informaciją tik skaitymo režimu. Jei norite redaguoti informaciją, pirmiausia turite išjungti išmokų valdymą (taikoma tik **smėlio dėžės** aplinkose).
 
 ## <a name="enable-or-disable-leave-and-absence"></a>Atostogų ir neatvykimų įjungimas arba išjungimas
 
@@ -93,4 +95,6 @@ Neįtraukite asmeninių duomenų (bet kokios informacijos, kuri gali jus identif
 ## <a name="see-also"></a>Taip pat žiūrėkite
 
 - [Kas nauja programoje „Human Resources“](hr-admin-whats-new.md)
-- [„Dynamics 365“ ir „Power Platform“ leidimo planas](https://docs.microsoft.com/dynamics365/release-plans/#pivot=products&panel=products1)
+- [„Dynamics 365“ ir „Power Platform“ leidimo planas](/dynamics365/release-plans/?panel=products1#pivot=products)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

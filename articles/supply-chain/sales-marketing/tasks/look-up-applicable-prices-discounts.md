@@ -1,23 +1,25 @@
 ---
 title: Peržiūrėti taikytinas kainas ir nuolaidas
 description: Ši procedūra nurodo, kaip rasti produkto kainą ir (arba) nuolaidą, kuri šiuo metu taikoma konkrečiam klientui, nesukuriant pardavimo užsakymo.
-author: Henrikan
+author: omulvad
+manager: tfehr
 ms.date: 11/10/2016
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: henrikan
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c80ae00e1bcbc4498ec4705195c3208170cee1b1
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 9bd85d9cd2d7273ad6e05d794a96e4d6a8d7c526
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7578925"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5010777"
 ---
 # <a name="look-up-applicable-prices-and-discounts"></a>Peržiūrėti taikytinas kainas ir nuolaidas
 
@@ -57,6 +59,3 @@ ms.locfileid: "7578925"
     * Yra dvi eilutės nuolaidos sutartys produktui T0012, nurodančios 5 proc. nuolaidą užsakymo eilutės kiekiui nuo 1 iki 10 ir 7 proc. nuolaidą užsakymams, viršijantiems 10. Atkreipkite dėmesį, kad šiame pavyzdyje nuolaidos taikomos produktų grupei (grupės kodas 01), kurios narys yra T0012 produktas.  
 4. Uždarykite puslapį.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

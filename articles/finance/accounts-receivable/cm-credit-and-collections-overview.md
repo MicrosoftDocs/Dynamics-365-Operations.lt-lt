@@ -1,23 +1,24 @@
 ---
 title: Kredito ir surinkimo apžvalga
 description: Šioje temoje pateikta kreditų ir surinkimo funkcijų apžvalga.
-author: JodiChristiansen
+author: mikefalkner
 ms.date: 09/04/2019
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschloma
+ms.custom: intro-internal
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 293a6c507c6abd6009a23403384c3b58a1a55a52
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
-ms.translationtype: MT
+ms.openlocfilehash: 24df4ffe5b8af7535611bdf71472bc580ef594e94c96cdafc0e4ec52a5d07c13
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982617"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6763363"
 ---
 # <a name="credit-and-collections-overview"></a>Kredito ir surinkimo apžvalga
 

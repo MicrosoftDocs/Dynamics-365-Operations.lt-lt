@@ -16,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 606bc23f552b57d0f4e3fdad28d1144cdf43e5d5
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
-ms.translationtype: MT
+ms.openlocfilehash: 4b6169362c9e8cb3a9ace2f300dd9d80aa9cd085
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103543"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7568884"
 ---
 # <a name="inventory-blocking"></a>Atsargų blokavimas
 
@@ -96,11 +96,13 @@ Kai funkcija **Rezervuoti užsakytas prekes** išjungta, tikėtinų kvitų negal
 
 Atkreipkite dėmesį į dviejų atvejų operacijos būsenos ir dimensijų skirtumą. Dėl šios priežasties rekomenduojame įjungti parinktį **Rezervuoti užsakytas prekes**.
 
-### <a name="disable-expected-receipts-from-quality-orders-that-sample-blocked-inventory-feature"></a>Išjungti numatomus gavimus iš kokybės užsakymų, kurie pavyzdžio yra užblokuotų atsargų funkcija
+<!-- KFM: (Enable this section when the feature leaves private preview)
 
-Kad atsargų operacijos būtų paprastesnės kokybės užsakymų, kurių atsargų pavyzdys užblokuotas dėl atsargų būsenos, atveju, sistema suteikia priemonę, kuri uždraus numatomus tokių kokybės užsakymų gavimus. Kadangi numatomą gavimą iš karto užblokuoja atsargų būsenos blokavimas, dėl šio pakeitimo turimų atsargų mažinti negalima.
+### Disable expected receipts from quality orders that sample blocked inventory feature
 
-Ši funkcija išjungta pagal nutylėjimą. Administratoriai gali jį įjungti arba *išjungti*[ieškodami](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) kokybės užsakymų, kurie pvz., užblokuotų atsargų funkcija funkcijų valdymo darbo srityje, numatomų gavimų iš kokybės užsakymų.
+To simplify the inventory transactions in the case of quality orders that sample inventory blocked as a consequence of inventory status, the system provides a feature that disables expected receipts from such quality orders. As the expected receipt is in any case immediately blocked by inventory status blocking, there is no reduction of on-hand inventory because of this change.
+
+-->
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 

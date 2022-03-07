@@ -2,9 +2,11 @@
 title: Mokėjimo nuolaidos taikymas ne mokėjimo nuolaidos laikotarpiu
 description: Šiame straipsnyje pateikiami du scenarijai, kuriais parodoma, kaip galima taikyti mokėjimo nuolaidą, net jei mokėjimas atliekamas ne mokėjimo nuolaidos laikotarpiu.
 author: abruer
+manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b9ba9c8176571a8b97b43565c89f8614bd828b3d9e1498a248fd896069d5d5c2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0df635e78fff1994b9a9e1abc99c67470852ad81
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6736997"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5235866"
 ---
 # <a name="take-a-cash-discount-outside-the-cash-discount-period"></a>Mokėjimo nuolaidos taikymas ne mokėjimo nuolaidos laikotarpiu
 
@@ -41,7 +43,7 @@ April pažymi sąskaitą faktūrą apmokėti. Netaikoma jokia mokėjimo nuolaida
 
 Nuolaidos informacija rodoma puslapio **Sudengti operacijas** apačioje.
 
-| Laukas                        | Reikšmė     |
+|                              |           |
 |------------------------------|-----------|
 | Mokėjimo nuolaidos data           | 2015-07-12 |
 | Mokėjimo nuolaidos suma         | –20,00    |
@@ -59,7 +61,7 @@ Jei užregistruota ir sąskaita faktūra, ir mokėjimas, mokėjimo nuolaidą vis
 
 Nuolaidos informacija rodoma puslapio **Sudengti atidarytas operacijas** apačioje. Pritaikomos nuolaidos suma yra 20,00, nes sudengtina sąskaitos faktūros suma yra numatytoji 1980,00 suma.
 
-| Laukas                        | Reikšmė     |
+|                              |           |
 |------------------------------|-----------|
 | Mokėjimo nuolaidos data           | 2015-07-12 |
 | Mokėjimo nuolaidos suma         | –20,00    |
@@ -76,7 +78,7 @@ April pakeičia lauko **Sudengtina suma** vertę į **500,00**. Vertė lauke **T
 
 Nuolaidos informacija rodoma puslapio **Sudengti atidarytas operacijas** apačioje. Vertė lauke **Taikytinos mokėjimo nuolaidos suma** yra **5,05**, nes sudengtina sąskaitos faktūros suma buvo pakeista į 500,00 mokėjimo sumą.
 
-| Laukas                        | Reikšmė     |
+|                              |           |
 |------------------------------|-----------|
 | Mokėjimo nuolaidos data           | 2015-07-12 |
 | Mokėjimo nuolaidos suma         | –20,00    |

@@ -2,9 +2,11 @@
 title: Darbo jėgos metrikos „Power BI“ turinys
 description: Šioje temoje aprašomas darbo jėgos metrikos „Power BI“ turinys.
 author: jcart1106
+manager: AnnBe
 ms.date: 12/19/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HcmWorkforceWorkspace
 audience: Application User, IT Pro
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 9393b4dcc6cb5f65d38c6904bf38def9d50af281671e0e09314148824f3e6891
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d0622cebcfca15acf50cf62e8a77af360d4f1bda
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6757278"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092796"
 ---
 # <a name="workforce-metrics-power-bi-content"></a>Darbo jėgos metrikos „Power BI“ turinys
 
@@ -84,6 +86,3 @@ Toliau pateiktoje lentelėje nurodomi objektai, kuriais pagrįstas turinys.
 | Darbuotojų tendencija           | Darbininkai per tam tikrą laiką, darbininkų skaičius, įmonė ir pareigos                                 | Įmonė, kompensacija, geografinė vieta, darbuotojo vardas ir pavardė, atskaitingas (kam), kalendoriaus poslinkis, data, darbuotojo pareigos, demografiniai duomenys, darbas, užduotis |
 | Masinės samdos projektas        | Masinės samdos projektų skaičius, projekto savininkas ir projekto būsena                     | Įmonė, masinės samdos eilutė |
 | Masinės samdos eilutė           | Padalinys, įdarbinimo tipas ir pareigos                                           | Data, darbas, masinės samdos projektas |
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

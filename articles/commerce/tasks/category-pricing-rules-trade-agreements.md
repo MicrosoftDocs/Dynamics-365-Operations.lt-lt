@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: DefaultDashboard, RetailDiscountPricingWorkspace, RetailPricingDiscountCategoryPriceRule, RetailCategoryPriceRule, EcoResCategorySingleLookup, RetailCategoryPriceWizard, PriceDiscAdm, PriceDiscAdmTable
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 21b1986aa36aab23f50a5af434435f9e93318e45
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ca0a002328947746d67abed0d18a96de26b76ffc
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4414405"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5223103"
 ---
 # <a name="category-pricing-rules-to-create-trade-agreements"></a> Kategorijos kainų taisyklės, skirtos prekybos sutartims kurti
 
@@ -59,3 +58,6 @@ ms.locfileid: "4414405"
 24. Spustelėkite skirtuką Kategorijos kainų taisyklės.
     * Šiame sąraše bus rodomos konkretaus kanalo kategorijos kainų taisyklės.  
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

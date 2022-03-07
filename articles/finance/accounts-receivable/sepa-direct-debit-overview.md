@@ -2,27 +2,28 @@
 title: SEPA tiesioginio debeto apžvalga
 description: Bendrą mokėjimų eurais erdvę (SEPA) nustato Europos Komisija ir nurodo, kad visi elektroniniai mokėjimai laikomi vietiniais, nepaisant asmens, verslo arba organizacijos buvimo vietos šalies / regiono. Nacionaliniai ir tarptautiniai mokėjimai niekuo nesiskiria. SEPA apima 28 Europos Sąjungos (ES) valstybes nares bei Islandiją, Lichtenšteiną, Norvegiją, Šveicariją, Monaką ir San Mariną. SEPA padeda skurti bendrą mokėjimo operacijų rinką Europos ekonominėje erdvėje (EEE). Galiausiai, naudojant SEPA tikimasi sumažinti mokėjimo formatų, su kuriais dirba bankai, verslo įmonės ir asmenys, skaičių.
 author: ShivamPandey-msft
+manager: AnnBe
 ms.date: 08/22/2017
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BankAccountTable, CustBankAccounts, CustParameters, CustTable
 audience: Application User
 ms.reviewer: roschlom
-ms.custom:
-- "11144"
-- intro-internal
+ms.search.scope: Core, Operations
+ms.custom: 11144
 ms.assetid: 3277c9b6-e46e-40c9-aa76-9b0449467842
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5f71eca0ca9ee07d43bdf737874f442f0029e87e
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
-ms.translationtype: MT
+ms.openlocfilehash: fcb7585d344988e00093231f785c1a746226e4e0
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984383"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4445894"
 ---
 # <a name="sepa-direct-debit-overview"></a>SEPA tiesioginio debeto apžvalga
 
@@ -30,7 +31,8 @@ ms.locfileid: "7984383"
 
 Bendrą mokėjimų eurais erdvę (SEPA) nustato Europos Komisija ir nurodo, kad visi elektroniniai mokėjimai laikomi vietiniais, nepaisant asmens, verslo arba organizacijos buvimo vietos šalies / regiono. Nacionaliniai ir tarptautiniai mokėjimai niekuo nesiskiria. SEPA apima 28 Europos Sąjungos (ES) valstybes nares bei Islandiją, Lichtenšteiną, Norvegiją, Šveicariją, Monaką ir San Mariną. SEPA padeda skurti bendrą mokėjimo operacijų rinką Europos ekonominėje erdvėje (EEE). Galiausiai, naudojant SEPA tikimasi sumažinti mokėjimo formatų, su kuriais dirba bankai, verslo įmonės ir asmenys, skaičių.   
 
-## <a name="what-is-the-goal-of-sepa-direct-debits"></a>Koks yra SEPA tiesioginio debeto tikslas?
+<a name="what-is-the-goal-of-sepa-direct-debits"></a>Koks yra SEPA tiesioginio debeto tikslas?
+---------------------------------------
 
 SEPA tiesioginis debetas leidžia kreditoriui surinkti lėšas iš kliento banko sąskaitos, jei klientas kreditoriui suteikė pasirašytą įgaliojimą. Klientas pasirašo įgaliojimą, kuris įgalioja kreditorių surinkti mokėjimą ir nurodo kliento bankui jį išmokėti. 
 
@@ -82,6 +84,3 @@ Abiejuose SEPA tiesioginio debeto planuose klientai turi tam tikras teises į gr
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

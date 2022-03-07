@@ -1,12 +1,10 @@
 ---
-title: Priežiūros užduočių tipų kategorijos ir priežiūros užduočių tipai, priežiūros užduočių tipų variantai, priežiūros užduočių pardavimas ir prižiūrimo turto kontroliniai sąrašai
+title: Priežiūros užduočių tipai, kategorijos, variantai, prekyba ir kontroliniai sąrašai
 description: Šioje temoje aprašomos modulio Turto valdymas priežiūros užduočių tipų kategorijos ir priežiūros užduočių tipai, priežiūros užduočių tipų variantai, priežiūros užduočių pardavimas ir prižiūrimo turto kontroliniai sąrašai.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/13/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetJobTypeDefaultForecast, EntAssetJobTrade, EntAssetJobTypeDefaultCopy, EntAssetChecklistVariableValueLookup, EntAssetChecklistTemplateCreate, EntAssetJobVariant, EntAssetJobTypeDefaultReference, EntAssetJobTypeDefaultChecklist, EntAssetJobTypeDefault, EntAssetJobType, EntAssetJobTypeDefaultChecklistCopy, EntAssetChecklistTemplate, EntAssetJobTypeDefaultDescription, EntAssetJobTypeLookup, EntAssetJobTypeDefaultToolCopy, EntAssetJobTypePreviewPart, EntAssetJobTypeDefaultTool, EntAssetJobTypeDefaultForecastCopy, EntAssetChecklistTemplateLookup, EntAssetJobGroup, EntAssetChecklistVariable
 audience: Application User
@@ -14,21 +12,19 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: a335d642457fdd84ec42e285425fdc6212889cc0
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
-ms.translationtype: HT
+ms.openlocfilehash: 54bd489a3c9be5be298ef75893b7acad38104a1379d20f853dd700635a3e058e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5021288"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6742805"
 ---
-# <a name="maintenance-job-type-categories-and-maintenance-job-types-maintenance-job-type-variants-maintenance-job-trades-and-maintenance-checklists"></a>Priežiūros užduočių tipų kategorijos ir priežiūros užduočių tipai, priežiūros užduočių tipų variantai, priežiūros užduočių pardavimas ir prižiūrimo turto kontroliniai sąrašai
+# <a name="maintenance-job-types-categories-variants-trades-and-checklists"></a>Priežiūros užduočių tipai, kategorijos, variantai, prekyba ir kontroliniai sąrašai
 
 [!include [banner](../../includes/banner.md)]
-
- 
 
 Kiekvienam turto vienetui priskiriamas turto tipas. Pagal turto tipus nustatomi galimų turto priežiūros užduočių tipai (ir priežiūros užduotys). Kurdami darbo užsakymą, privalote pasirinkti priežiūros užduoties tipą. Galite pasirinkti tik tuos priežiūros užduočių tipus, kurie yra susiję su turtui priskirto turto tipo sąranka.
 
@@ -58,7 +54,7 @@ Pirma nustatote reikiamas priežiūros užduočių tipų kategorijas, priežiūr
 
     Susiejus priežiūros užduočių tipų kategorijas su priežiūros užduočių tipais, lauke **Užduočių tipai** rodomas priežiūros užduočių tipų, susijusių su šia priežiūros užduoties tipo kategorija, skaičius.
 
-![Puslapis Priežiūros užduočių tipų kategorijos](media/01-setup-for-work-orders.png)
+![Puslapis Priežiūros užduočių tipų kategorijos.](media/01-setup-for-work-orders.png)
 
 ## <a name="create-a-maintenance-job-type-variant"></a>Priežiūros užduoties tipo varianto kūrimas
 
@@ -72,7 +68,7 @@ Pirma nustatote reikiamas priežiūros užduočių tipų kategorijas, priežiūr
 
     FastTab **Išsami informacija** esančiame lauke **Užduočių tipai** rodomas priežiūros užduočių tipų, įtrauktų į šį priežiūros užduoties tipo variantą, skaičius.
 
-![Puslapis Priežiūros užduočių tipų variantai](media/02-setup-for-work-orders.png)
+![Puslapis Priežiūros užduočių tipų variantai.](media/02-setup-for-work-orders.png)
 
 ## <a name="create-a-maintenance-job-trade"></a>Priežiūros užduočių pardavimo kūrimas
 
@@ -93,7 +89,7 @@ Pirma nustatote reikiamas priežiūros užduočių tipų kategorijas, priežiūr
 
     FastTab **Išsami informacija** esančiame lauke **Sertifikatai** rodomas sertifikatų, įtrauktų į šį priežiūros užduoties pardavimą, skaičius.
 
-![Puslapis Priežiūros užduočių pardavimas](media/03-setup-for-work-orders.png)
+![Puslapis Priežiūros užduočių pardavimas.](media/03-setup-for-work-orders.png)
 
 ## <a name="create-a-maintenance-checklist-variable"></a>Prižiūrimo turto kontrolinio sąrašo kintamojo kūrimas
 
@@ -114,7 +110,7 @@ Kai kuriate prižiūrimo turto kontrolinio sąrašo eilutes priežiūros užduot
 6. Lauke **Reikšmė** įveskite reikšmės aprašą.
 7. Lauke **Rezultatas** pasirinkite eilutės rezultatą.
 
-![Puslapis Prižiūrimo turto kontrolinių sąrašų kintamieji](media/04-setup-for-work-orders.png)
+![Puslapis Prižiūrimo turto kontrolinių sąrašų kintamieji.](media/04-setup-for-work-orders.png)
 
 ## <a name="create-a-maintenance-checklist-template"></a>Prižiūrimo turto kontrolinio sąrašo šablono kūrimas
 
@@ -143,7 +139,7 @@ Prižiūrimo turto kontrolinių sąrašų šablonus galima naudoti kaip dažnų 
 
     „FastTab“ **Išsami informacija** esančiame lauke **Patikrinimai** rodomas bendras kontrolinio sąrašo eilučių skaičius šablone. Į šį skaičių įeina visų esamų šablonų įdėtosios eilutės, panaudotos šablone.
 
-![Puslapis Prižiūrimo turto kontrolinio sąrašo šablonai](media/05-setup-for-work-orders.png)
+![Puslapis Prižiūrimo turto kontrolinio sąrašo šablonai.](media/05-setup-for-work-orders.png)
 
 ## <a name="create-a-maintenance-job-type"></a>Priežiūros užduoties tipo kūrimas
 
@@ -166,7 +162,7 @@ Prižiūrimo turto kontrolinių sąrašų šablonus galima naudoti kaip dažnų 
 
 11. FastTab **Turto tipai** į priežiūros užduoties tipą galite įtraukti turto tipų.
 
-![Puslapis Priežiūros užduočių tipai](media/06-setup-for-work-orders.png)
+![Puslapis Priežiūros užduočių tipai.](media/06-setup-for-work-orders.png)
 
 ## <a name="create-maintenance-job-type-default-lines-and-related-forecasts-maintenance-checklists-tools-description-and-attachments"></a>Priežiūros užduočių tipų numatytųjų eilučių ir susijusių prognozių, prižiūrimo turto kontrolinių sąrašų, įrankių, aprašo ir priedų kūrimas
 
@@ -235,7 +231,7 @@ Prižiūrimo turto kontrolinių sąrašų šablonus galima naudoti kaip dažnų 
 31. Norėdami nukopijuoti priežiūros užduoties tipo numatytąją reikšmę į kitos priežiūros užduoties tipo numatytąją reikšmę, pasirinkite priežiūros užduoties tipo numatytąją eilutę, į kurią norite nukopijuoti kitą sąranką, pasirinkite **Kopijuoti sąranką**, paskui pasirinkite priežiūros užduoties tipo numatytąją reikšmę, kurią norite nukopijuoti.
 32. Norėdami peržiūrėti turto, priežiūros planų arba priežiūros ciklų, kuriuose šiuo metu naudojama priežiūros užduoties tipo numatytoji eilutė, sąrašą, pasirinkite eilutę, tada pasirinkite **Naudoja**.
 
-![Puslapis Priežiūros užduočių tipų numatytosios reikšmės](media/07-setup-for-work-orders.png)
+![Puslapis Priežiūros užduočių tipų numatytosios reikšmės.](media/07-setup-for-work-orders.png)
 
 Kai sistema pasirenka galimą priežiūros užduoties tipo numatytąją reikšmę, kuri turėtų būti naudojama darbo užsakymo eilutėje, pasirinkimą lemia turtas ir susijusio turto tipo sąranka. Modulyje Turto valdymas ieškant galimų atitikčių peržiūrimi visi priežiūros užduočių tipų numatytieji įrašai, susiję su priežiūros užduoties tipu, kuris yra susijęs su turto tipu. Visada pirmiausia tikrinami konkrečiausi deriniai. Kitaip tariant, siekiant nustatyti konkrečiausią derinį, modulyje Turto valdymas pirmiausia ieškoma galimo lauko **Pardavimas** atitikties. Jei atitiktis nerasta, ieškoma lauko **Priežiūros užduoties tipo variantas** atitikties. Jei atitikties nerandama, tikrinama, ar yra lauko **Priežiūros užduoties tipas** atitikties ir t. t. (**Pardavimas**, paskui **Priežiūros užduoties tipo variantas**, paskui **Priežiūros užduoties tipas**, paskui **Turtas**, paskui **Modelis**, paskui **Gamintojas**, paskui **Turto tipas**). Jeigu atitikties nerandama, naudojamas numatytasis įrašas, kuriame pasirinktas tik priežiūros užduoties tipas.
 
@@ -256,7 +252,7 @@ Sukūrę reikiamus priežiūros užduočių tipų numatytuosius derinius, puslap
 4. Pasirinkę priežiūros užduočių tipų derinį, pamatysite susijusią prižiūrimo turto kontrolinių sąrašų, prognozių ir įrankių sąranką. Skyriuje **Išsami informacija** FastTab **Priežiūros užduočių tipų numatytosios reikšmės** rodomas susijusių prižiūrimo turto kontrolinių sąrašų, prognozuojamų valandų, prekių ir t. t., kurie yra susiję su pasirinktu priežiūros užduočių tipų deriniu, skaičius.
 5. Norėdami peržiūrėti išsamią informaciją apie pasirinktą priežiūros užduoties tipą, pasirinkite **Priežiūros užduočių tipai**.
 
-![Puslapis Turto priežiūros užduočių tipai](media/08-setup-for-work-orders.png)
+![Puslapis Turto priežiūros užduočių tipai.](media/08-setup-for-work-orders.png)
 
 ## <a name="automatic-update-of-maintenance-job-type-forecasts"></a>Priežiūros užduočių tipų prognozių automatinis naujinimas
 
@@ -266,3 +262,6 @@ Modulyje Turto valdymas galima automatiškai naujinti priežiūros užduočių t
 2. Dialogo lango **Naujinti priežiūros užduoties tipo prognozę** FastTab **Įtrauktini įrašai** pagal poreikį galite pasirinkti konkrečių priežiūros užduočių tipų parametrus. Pasirinkite **Filtras**, tada pasirinkite **Pasirinkti**, kad pasirinktumėte parametrus.
 3. FastTab **Vykdyti fone** pagal poreikį galite nustatyti automatinio naujinimo paketinę užduotį.
 4. Pasirinkus **Gerai**, pradedamas prognozės naujinimas.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
