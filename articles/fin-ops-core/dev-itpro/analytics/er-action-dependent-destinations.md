@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: e9c9143bdbab450b1793b15937d123607361add6
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
-ms.translationtype: HT
+ms.openlocfilehash: e0c836d4a0be47b753d74dc9d6d40ea7d9197176
+ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6358674"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323984"
 ---
 # <a name="configure-action-dependent-er-destinations"></a>Nuo veiksmo priklausomų ER paskirties vietų konfigūravimas
 
 [!include [banner](../includes/banner.md)]
 
-Galite konfigūruoti [paskirties vietas](electronic-reporting-destinations.md) kiekvienam [Elektroninių ataskaitų (ER)](general-electronic-reporting.md) [formato](general-electronic-reporting.md#FormatComponentOutbound) [konfigūracijos,](general-electronic-reporting.md#Configuration) naudojamos išvesties dokumento generavimui, išvesties komponentui (aplankui ar failui). Vartotojai, vykdantys šio tipo ER formatą ir turintys atitinkamas prieigos teises, taip pat gali keisti sukonfigūruotus paskirties vietos parametrus vykdymo metu.
+Galite konfigūruoti kiekvienos [elektroninės ataskaitos (ER) formato konfigūracijos, naudojamos siunčiamam dokumentui generuoti, išvesties](electronic-reporting-destinations.md) komponento (aplanko ar failo) [...](general-electronic-reporting.md)[paskirties](general-electronic-reporting.md#Configuration) vietas. Vartotojai, vykdantys šio tipo ER formatą ir turintys atitinkamas prieigos teises, taip pat gali keisti sukonfigūruotus paskirties vietos parametrus vykdymo metu.
 
 „Microsoft Dynamics 365 Finance” **10.0.17 ir vėlesnėse versijose**, ER formatas gali būti vykdomas [parengiant](er-apis-app10-0-17.md) veiksmo kodą, kurį vartotojas atlieka vykdydamas ER formatą. Pavyzdžiui, Spausdinimo valdymo parametrų modulyje **Gautinos sumos** galite pasirinkti ER formatą, generuojantį tam tikrą verslo dokumentą, pavyzdžiui, laisvos formos sąskaitos faktūrą. Tada galėsite pasirinkti **Rodinys** sąskaitai faktūrai peržiūrėti arba **Spausdinti** jos nusiuntimui į spausdintuvą. Jei vartotojo veiksmas yra perduotas vykdomam ER formatui vykdymo metu, galite konfigūruoti skirtingas ER paskirties vietas skirtingiems vartotojo veiksmams. Šioje temoje paaiškinama, kaip konfigūruoti šio tipo ER formato paskirties vietas.
 
@@ -115,7 +115,6 @@ Norėdami patikrinti pateiktą vartotojo veiksmo kodą, atlikite šiuos veiksmus
 - Pirkimo užsakymo pirkimo užklausa
 - Pardavimo užsakymo patvirtinimas
 - Rinkinių laiško pastaba
-- Kliento kodo išrašas
 - Delspinigių pažyma
 - Tiekėjo mokėjimo pažyma
 - Pasiūlymo patvirtinimas

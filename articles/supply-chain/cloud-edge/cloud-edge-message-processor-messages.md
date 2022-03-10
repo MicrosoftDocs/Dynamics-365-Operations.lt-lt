@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2021-04-21
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 76a3cc316da322c7997072c00780f2fc133bfd2a02274b1e53f5cd06cfb1277e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 68db4c6561f2cc3fcfd64b49da59a4cc164685f2
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6748864"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069434"
 ---
 # <a name="message-processor-messages"></a>Pranešimų procesoriaus pranešimai
 
@@ -29,7 +29,7 @@ ms.locfileid: "6748864"
 
 Pranešimų procesoriaus pranešimai naudojami, kai paleisti debesies ir kraštų [skalės vienetai, skirti gamybos darbo krūviui](cloud-edge-workload-manufacturing.md) ir [sandėlio valdymo darbo](cloud-edge-workload-warehousing.md) krūviui.
 
-Centro ir svarstyklių vieneto diegimo aplinkose keičiamasi labai daug duomenų, kad jos būtų sinchronizuojamos, tačiau pranešimų procesorius apdoros tik keletą šių *duomenų* mainų. Galite peržiūrėti pranešimus, kuriuos apdorojo pranešimų procesorius, nueikite į Sistemos administravimas **> Pranešimų procesorius > Pranešimų procesoriaus** pranešimai.
+Centro ir masto vienetų diegimo aplinkos keičiasi dideliu duomenų kiekiu, kad būtų sinchronizuojami. Kai kurie keičiami duomenys suaktyvins papildomą logiką *pranešimų procesorius*. Galite peržiūrėti pranešimus, kuriuos apdorojo pranešimų procesorius, apsilankę adresu **Sistemos administravimas > Pranešimų apdorojimas > Pranešimų apdorojimo pranešimai**.
 
 ## <a name="message-grid-columns-and-filters"></a>Pranešimų tinklelio stulpeliai ir filtrai
 
@@ -65,7 +65,7 @@ Pranešimo **turinys priklauso nuo pranešimo** **tipo, todėl jo teksto ilgis b
 
 ## <a name="message-processor-batch-job"></a>Pranešimų procesoriaus paketinė užduotis
 
-Paleidus debesį ir diegiant kraštų, pranešimų procesoriaus paketinė užduotis bus automatiškai išskaiduota, kai bus sukurtas naujas apdoroti skirtas pranešimas, todėl jums nereikia planuoti šios užduoties *rankiniu* būdu.
+Paleidus paskirstytą hibridinę topologiją su skalės vienetais, *Pranešimo tvarkyklės* bendra užduotis automatiškai bus iškviesta, kai naujas pranešimas bus sukuriamas siekiant sutvarkyti, todėl Jums nereikėtų suplanuoti šio darbo rankiniu būdu.
 
 Jei reikia, paketinę užduotį galite pasiekti nueię į Sistemos administravimas **> Pranešimų procesorius > Pranešimų** procesorius.
 

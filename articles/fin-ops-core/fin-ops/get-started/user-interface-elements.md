@@ -12,14 +12,17 @@ ms.search.region: Global
 ms.author: tlefor
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: feb6d5751bc22c05dbd2f01f47d5a0f99fca07a0
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
-ms.translationtype: HT
+ms.openlocfilehash: 60e85841ec940ed65d73dc052848168be70301d6
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5754733"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069328"
 ---
 # <a name="user-interface-elements"></a>Vartotojo sąsajos elementai
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Šioje temoje aprašyti programoje naudojami vartotojo sąsajos (UI) elementai. Prieš naršant sąsajoje vartotojui svarbu žinoti sąsają sudarančių elementų pavadinimus ir funkcijas.
 
@@ -75,7 +78,7 @@ Toliau pateiktame vaizde parodyti šių rūšių pranešimų pavyzdžiai.
 
 - **Pranešimo langas** – jis rodomas virš sąsajos ir su juo reikia atlikti veiksmus, kad galėtumėte toliau naudoti produktą.  
 
-![Toliau pateiktame vaizde parodytas pranešimo lango pavyzdys.](media/user-interface-07.png)
+![Toliau pateiktame vaizde rodomas pranešimo lango pavyzdys.](media/user-interface-07.png)
 
 ## <a name="toolbars-grids-and-lists"></a>Įrankių juostos, tinkleliai ir sąrašai
 

@@ -2,7 +2,7 @@
 title: Personalo skyriaus pagrindinis puslapis
 description: Dynamics 365 Human Resources teikia darbo eigos įžvalgas, reikalingas duomenimis grindžiamoms darbuotojų patirtimis keliose srityje kurti.
 author: twheeloc
-ms.date: 08/03/2020
+ms.date: 08/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,76 +17,37 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 11c4bfa41dda8e143e1e14061f1d6657e3ed30cc
-ms.sourcegitcommit: 696796ca5635863850ae9ef16fc1fb0fc46ce8f0
-ms.translationtype: HT
+ms.openlocfilehash: 8674c228a1e624a79ae210dc6ad5c0f80741570f
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/28/2021
-ms.locfileid: "7441244"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8075051"
 ---
 # <a name="human-resources-home-page"></a>Personalo skyriaus pagrindinis puslapis
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-„Dynamics 365 Human Resources“ teikia darbo eigos įžvalgas, reikalingas duomenimis grindžiamoms darbuotojų patirtimis keliose srityje kurti, įskaitant:
 
-- Kompensacija
-- Išmokos
-- Atostogos ir neatvykimai
-- Atitiktis
-- Algalapių integravimas
-- Atsiliepimas apie našumą
-- Mokymas ir sertifikavimas
-- Savitarnos programos
+Šioje temoje pateikiamas pagalbos temų ir kitų „Dynamics 365 Human resources“ išteklių sąrašas. 
+
+Pasirinkite funkcijų sritį, apie kurią norite sužinoti daugiau.
+
+- [Darbuotojų savitarna](hr-employee-manager-self-service-overview.md)
+- [Personalo valdymas](hr-personnel-departments-jobs-positions.md)
+- [Užduočių tvarkymas](hr-task-mgmt.md)
+- [Atostogos ir neatvykimai](hr-leave-and-absence-overview.md)
+- [Išmokos](hr-benefits-manage-program.md)
+- [Išmokų valdymas](hr-benefits-management-overview.md)
+- [Atlyginimų valdymas](hr-compensation-overview.md)
+- [Darbuotojų tobulinimas](hr-develop-performance-management-overview.md)
+- [Mokymasis](hr-learning-courses.md)
+- [Darbo eigos sistema]( ../fin-ops-core/fin-ops/organization-administration/overview-workflow-system.md?toc=/dynamics365/human-resources/toc.json)
 
 „Human Resources“ jungia žmonių ir operacijų duomenis, kad padėtų optimizuoti darbo eigos išlaidas ir rūpintis jūsų darbuotojais.
 
-## <a name="whats-new"></a>Kas nauja
+## <a name="dynamics-365-finance"></a>Dynamics 365 Finance
 
-[Kas nauja ar pasikeitė programoje „Human Resources”](hr-admin-whats-new.md)
-
-## <a name="administrator-guide"></a>Administratoriaus vadovas
-
-- [Peržiūrėti](hr-admin-overview.md)</br>
-- [Sistemos reikalavimai](hr-admin-system-requirements.md)</br>
-- [Egzempliorių nustatymas ir valdymas](hr-admin-setup-provision.md)</br>
-- [Duomenų integravimo nustatymas](hr-admin-integration-choose-technology.md)</br>
-- [Duomenų valdymo konfigūravimas](../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md?toc=/dynamics365/human-resources/toc.json)</br>
-- [Funkcijų valdymas](hr-admin-manage-features.md)</br>
-- [Vartotojo sąsajos naršymas](../fin-ops-core/fin-ops/get-started/user-interface-elements.md?toc=/dynamics365/human-resources/toc.json)</br>
-- [„Human Resources“ programa „Teams“](hr-admin-teams-leave-app.md)</br>
-- [Rengimasis įgyvendinimo pradžiai](hr-admin-go-live-prepare.md)</br>
-- [DUK apie įgyvendinimo pradžią](hr-admin-go-live-faq.md)</br>
-- [Dokumentacijos ištekliai](../fin-ops-core/fin-ops/get-started/help-overview.md?toc=/dynamics365/human-resources/toc.json)</br>
-- [„Human Resources“ trikčių šalinimas](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md)
-
-## <a name="developer-guide"></a>Kūrėjo vadovas
-
-- [Peržiūra](hr-developer-overview.md)</br>
-- [Išplėtimas su „Power Apps“ ir „Power Automate“](hr-developer-power-apps.md)</br>
-- [„Human Resources“ objektai programoje „Dataverse“](hr-developer-entities.md)</br>
-- [Pasirinktiniai laukai](hr-developer-custom-fields.md)</br>
-- [„Dataverse“ lentelės](hr-developer-entities.md)</br>
-- [Duomenų integravimo nustatymas](hr-admin-integration-choose-technology.md)</br>
-- [Kūrimo su virtualiomis su „Dataverse“ lentelėmis trikčių šalinimams](hr-developer-optimize-virtual-table-queries.md)</br>
-- [Objekto API nuoroda](hr-developer-api-authentication.md)</br>
-- [ATS integravimo API](hr-admin-integration-ats-api-introduction.md)</br>
-- [Algalapių integravimo API](hr-admin-integration-payroll-api-introduction.md)
-
-## <a name="user-guide"></a>Vartotojo vadovas
-
-- [Peržiūra](hr-hrpro-overview.md)</br>
-- [Vartotojo sąsajos naršymas](../fin-ops-core/fin-ops/get-started/user-interface-elements.md?toc=/dynamics365/human-resources/toc.json)</br>
-- [„Human Resources“ nustatymas](hr-setup-parameters.md)</br>
-- [Organizacijos parametrų konfigūravimas](../fin-ops-core/fin-ops/organization-administration/organization-administration-home-page.md?toc=/dynamics365/human-resources/toc.json)</br>
-- [Personalo valdymas](hr-personnel-departments-jobs-positions.md)</br>
-- [Kompensacijos planų nustatymas](hr-compensation-overview.md)</br>
-- [Išmokų tvarkymas](hr-benefits-management-overview.md)</br>
-- [Atostogų ir neatvykimų valdymas](hr-leave-and-absence-overview.md)</br>
-- [Atostogų prašymų valdymas „Teams“](hr-teams-leave-app.md)</br>
-- [Darbuotojų rengimas](hr-develop-performance-management-overview.md)</br>
-- [Kurti kursus](hr-learning-courses.md)</br>
-- [Darbuotojų ir vadovų savitarnos nustatymas](hr-employee-manager-self-service-overview.md)
+Norėdami gauti informacijos apie Dynamics 365 Finance, matyti [Pagrindinis finansų puslapis](../finance/index.md).
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 

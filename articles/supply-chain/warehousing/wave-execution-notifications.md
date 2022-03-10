@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.0
-ms.openlocfilehash: 47f270b5fff37e8e231d8a9c4a011172df3d9385
-ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
-ms.translationtype: HT
+ms.openlocfilehash: af3983db1a96116a88914411a26f1ac5d4857ae9
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "6271382"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103244"
 ---
 # <a name="wave-execution-notifications"></a>Bangos vykdymo pranešimai
 
@@ -28,14 +28,11 @@ Funkcija *Bangos vykdymo pranešimai* naudoja verslo įvykius ir veiksmų centr�
 
 Mygtukas **Rodyti pranešimus** (skambučio simbolis), esantis dešinėje naršymo meniu pusėje, nurodo, kada veiksmų centro pranešimas bus pasiekiamas dabartiniam vartotojui. Vartotojas gali pasirinkti mygtuką **Rodyti pranešimus** veiksmų centrui atidaryti ir pranešimams peržiūrėti.
 
-Verslo įvykiai įvyksta, kai paleidžiami verslo procesai. Verslo procesai susideda iš užduočių. Verslo proceso metu jame dalyvaujantys vartotojai atlieka verslo veiksmus toms užduotims atlikti. Verslo įvykiai suteikia mechanizmą, kuris leidžia išorinėms sistemoms gauti pranešimus iš „Finance and Operations” programų. Tokiu būdu sistemos gali atlikti verslo veiksmus, kaip atsaką į verslo įvykius. Daugiau informacijos rasite [Verslo įvykių apžvalga](../../fin-ops-core/dev-itpro/business-events/home-page.md).
+Verslo įvykiai įvyksta, kai paleidžiami verslo procesai. Verslo procesai susideda iš užduočių. Verslo proceso metu jame dalyvaujantys vartotojai atlieka verslo veiksmus toms užduotims atlikti. Verslo įvykiai suteikia mechanizmą, kuris leidžia išorinėms sistemoms gauti pranešimus iš finansų ir operacijų programų. Tokiu būdu sistemos gali atlikti verslo veiksmus, kaip atsaką į verslo įvykius. Daugiau informacijos rasite [Verslo įvykių apžvalga](../../fin-ops-core/dev-itpro/business-events/home-page.md).
 
-## <a name="turn-on-the-wave-execution-notifications-feature"></a>Bangos vykdymo pranešimų funkcijos įjungimas
+## <a name="turn-the-wave-execution-notifications-feature-on-or-off"></a>Įjungti arba išjungti bangos vykdymo pranešimų funkciją
 
-Norėdami naudoti *Bangos vykdymo pranešimų* funkciją, įjunkite ją savo sistemoje. Administratoriai gali naudoti [Funkcijos valdymas](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) darbo sritį, norėdami sužinoti funkcijos būseną ir įjungti ją, jei reikia. Ten ši funkcija pateikiama taip:
-
-- **Modulis:** *Sandėlio valdymas*
-- **Funkcijos pavadinimas:** *Bangos vykdymo pranešimai*
+Kaip ir tiekimo grandinės valdymo versija 10.0.25 ši funkcija įjungiama pagal numatytąjį nustatymą. Administratoriai gali įjungti arba išjungti šią funkciją funkcijų *valdymo darbo srityje ieškodami bangos* vykdymo [pranešimų](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) funkcijos.
 
 ## <a name="scenario-send-wave-batch-execution-notifications-to-the-action-center"></a>Scenarijus: bangos paketinio vykdymo pranešimų siuntimas į veiksmų centrą
 

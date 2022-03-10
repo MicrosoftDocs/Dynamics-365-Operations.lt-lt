@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 81aac53cca91a75cde811c314bd6f7039852d32505fe6540921e17f3d1bbc7ad
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 98d6ceb794716f39c6ae47b300bdb7618a8e688b
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6739315"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7345233"
 ---
 # <a name="attach-tds-tax-codes-to-tds-tax-groups-and-define-the-formula-for-calculating-tds"></a>Pridėti TDS mokesčių kodus prie TDS mokesčių grupių ir nustatyti TDS apskaičiavimo formulę
 
@@ -55,7 +55,7 @@ Norėdami nustatyti TDS mokesčių grupę, pridėti TDS mokesčių kodus ir nust
     > [!NOTE]
     > Laukelis **Apmokestinamas pagrindas** negali būti nustatytas į **Excl bendra suma** TDS mokesčio kodui, kurio ID prioritetas yra **1**.
 
-12. TDS skaičiavimas remiasi formule, kuri nurodyta kiekvieno prie TDS mokesčių grupės **pridėto mokesčio** kodo skaičiavimo išraiškos lauke. Rinkitės pliuso ženklą (**+**), minuso ženklą (**-**), daugybos ženklą (**\**_), ar dalybos ženklo (_*/**) mygtuką norėdami įvesti skaičiuoklės išraišką pasirinktam TDS mokesčio kodui **Skaičiavimo išraiškos** lauke.
+12. TDS skaičiavimas remiasi formule, kuri nurodyta kiekvieno prie TDS mokesčių grupės **pridėto mokesčio** kodo skaičiavimo išraiškos lauke. Rinkitės pliuso ženklą (+), minuso ženklą (–), daugybos ženklą (\*), ar dalybos ženklo (/) mygtuką norėdami įvesti skaičiuoklės išraišką pasirinktam TDS mokesčio kodui **Skaičiavimo išraiškos** lauke.
 
     > [!NOTE]
     > Negalima nustatyti TDS mokesčio kodo, kurio prioriteto ID **1** skaičiavimo išraiškos.

@@ -2,7 +2,7 @@
 title: Papildomos knygos perkėlimas į Didžiąją knygą
 description: Šioje temoje aprašomos galimybės, susijusios su papildomos knygos perkėlimo procesu Didžiojoje knygoje.
 author: rcarlson
-ms.date: 07/20/2021
+ms.date: 12/08/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2020-01-18
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: a2fdeaadc7453458f8fc7165664eccedee632f5f
-ms.sourcegitcommit: e9cf75545d55bfb2f37b2036df886128879a5b73
-ms.translationtype: HT
+ms.openlocfilehash: 213bbc2541c614aa26b0c830431818fb99c7682d
+ms.sourcegitcommit: f5885999e008a49fe072d95f15e239905c24918a
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "6646805"
+ms.lasthandoff: 12/08/2021
+ms.locfileid: "7900735"
 ---
 # <a name="subledger-transfer-to-the-general-ledger"></a>Papildomos knygos perkėlimas į Didžiąją knygą
 
@@ -39,7 +39,7 @@ Galimos toliau nurodytos papildomos knygos paketų perkėlimo parinktys:
 
 Asinchroninio papildomos knygos paketų perkėlimo funkcijos padeda pagerinti duomenų perkėlimą iš papildomos knygos į didžiąją knygą. Sugrupavus mažesnių operacijų rinkinius ir perkėlus operacijas į grupes, funkcionalumas apdoroja operacijas efektyviau. Sugrupavus operacijas, paketo serverio ištekliai naudojami efektyviau.
 
-Asinchroniniam papildomos knygos paketų perkėlimui reikia, kad paketo serveris būtų nustatytas, prisijungęs ir veikiantis. Kitu atveju **Asinchroninio** perkėlimo parinktis neveiks.
+Asinchroninis papildomos knygos paketų perkėlimas reikalauja, kad paketinio apdorojimo serveris būtų nustatytas, tinklo ir darbo, nes paketinės užduotys yra sukuriamos tam, kad paketinio apdorojimo serveryje būtų nedelsiant užduotys. Kai papildomos knygos perkėlimas į DK našumo optimizavimo funkciją įgalintas, turi būti įjungta proceso automatizavimo sistemos paketinė užduotis, pavadinta Proceso **automatizavimo** **·** **apklausų** sistemos užduotis. Norėdami gauti daugiau informacijos, [žr. Apdorojimo automatizavimas](../../fin-ops-core/dev-itpro/sysadmin/process-automation.md).
 
 Efektyvumo pokytis paketo lygiu naudoja vieną pasikartojančią paketinę užduotį visiems sistemos juridiniams subjektams. Apdorojimo metu sukuriama nauja paketinė užduotis siekiant apdoroti reikalingus įrašus, kurie nebuvo perkelti. Daugiau parametrų galima kontroliuoti sistemos administravimo **Proceso automatizavimo** puslapyje. Šiame puslapyje galite modifikuoti fono procesą, keisti dažnį ir nurodyti miego režimo laikotarpį.
 

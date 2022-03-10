@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 5b77985a75d2930267cf94d6f218d53b47e6e705
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
-ms.translationtype: HT
+ms.openlocfilehash: 19f41020c6e1db8b08c7f69a58d33852c730931447803e2e1e970b1c293b6acd
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023455"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6779403"
 ---
 # <a name="settle-tds-payments-to-tds-authority-vendors-and-generate-tds-challan"></a>TDS mokėjimų TDS valdžios tiekėjams nustatymas ir TDS išdavimo generavimas
 
@@ -31,7 +31,7 @@ ms.locfileid: "6023455"
 
 1. Eikite į **Mokėtinos sumos \> Mokėjimai \> Tiekėjo mokėjimų žurnalas**.
 
-    [![Tiekėjo mokėjimų žurnalo puslapis](./media/apac-ind-TDS-51.png)](./media/apac-ind-TDS-51.png)
+    [![Tiekėjo mokėjimų žurnalo puslapis.](./media/apac-ind-TDS-51.png)](./media/apac-ind-TDS-51.png)
 
 2. Puslapyje **Tiekėjo mokėjimų žurnalas** pasirinkite **Naujas,** kad sukurtumėte žurnalo eilutę.
 3. Lauke **Sąskaita** rinkitės TDS valdžios tiekėją, sudengsią su TDS mokėjimais.

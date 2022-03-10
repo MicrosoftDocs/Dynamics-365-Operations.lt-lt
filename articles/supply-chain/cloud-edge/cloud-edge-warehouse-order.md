@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2021-04-13
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 4a77b157e9dd5ee1f551cbb59abbc89aaa28d325cc74a77e6624f25902c5b19e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: bd3c72f2c008b936ceda53a3fcdde79df1e6b1b7
+ms.sourcegitcommit: a21166da59675e37890786ebf7e0f198507f7c9b
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6731894"
+ms.lasthandoff: 09/03/2021
+ms.locfileid: "7471697"
 ---
 # <a name="warehouse-orders-for-cloud-and-edge-scale-units"></a>Sandėlio užsakymai, skirti debesies ir briaunos skalės vienetams
 
@@ -27,16 +27,18 @@ ms.locfileid: "6731894"
 
 ## <a name="what-are-warehouse-orders"></a>Kas yra sandėlio užsakymai?
 
-*Sandėlio užsakymai* yra užsakymo, sukurto palaikyti telkinio ir skalės vienetų sandėlio diegimus, tipas. Jie leidžia jums gauti atsargas, kai vykdote sandėlio darbo krūvį skalės vienete. Šiuo metu jie naudojami tik su pirkimo užsakymais.
+*Sandėlio užsakymai* yra užsakym naudojami siekiant palaikyti telkinio ir skalės vienetų sandėlio diegimus, tipas. Jie leidžia jums gauti ir siųsti atsargas, kai vykdote sandėlio darbo krūvį skalės vienete.
 
-Sandėlio užsakymai naudojami kaip sandėlio valdymo apdorojimo dalis, pavyzdžiui, kai sandėlio valdymo mobiliųjų įrenginių programėlė naudojama faktinėms turimoms atsargoms registruoti gaunamo pirkimo užsakymo apdorojimo metu. Sandėlio užsakymai kuriami kaip dalis *Išleidimo į sandėlį* proceso, prieinamo pirkimo užsakymams, kurie nurodo skalės vieneto sandėlį ir prekes, įgalintas naudoti sandėlio valdymo procesus.
+Sandėlio užsakymai naudojami kaip gaunamų ir siunčiamų sandėlių valdymo apdorojimo dalis. Jie sukuriami kaip *išleidimo į sandėlį proceso*, kuris inicijuojamas centre, dalis.
+Atliekant gavimo apdorojimą „warehouse mobile app“ naudojama faktinėms turimos atsargomis registruoti apdorojant gavimo užsakymus, tai galima pirkimo ir gamybos užsakymams, kurie nurodo skalės vieneto sandėlį ir prekes, įgalintas naudoti sandėlio valdymo procesus.
+Siuntimo sandėlio užsakymai naudojami kaip perkėlimo ir pardavimo užsakymų siuntimo bangavimo proceso dalis.
 
 > [!IMPORTANT]
 > Sandėlio užsakymai galimi tik diegimams, naudojantiems [sandėlio valdymo darbo krūvius debesiui ir briaunai skalės vienetams](cloud-edge-workload-warehousing.md).
 
-## <a name="create-a-warehouse-order"></a>Sandėlio užsakymo kūrimas
+## <a name="create-an-inbound-warehouse-order"></a>Gaunamo perkėlimo sandėlio kūrimas
 
-Norėdami sukurti sandėlio užsakymą, atlikite toliau nurodytus veiksmus.
+Norėdami sukurti pirkimo užsakymo proceso gaunamo sandėlio užsakymą, atlikite šiuos veiksmus.
 
 1. Prisijunkite prie „Microsoft Dynamics 365 Supply Chain Management“ egzemplioriaus, vykdomo telkinyje. (Turite inicijuoti *Išleidimo į sandėlį* procesą, kai esate prisijungę telkinyje.)
 1. Eikite į **Pirkimas ir tiekėjų parinkimas \> Pirkimo užsakymai \> Visi pirkimo užsakymai**.

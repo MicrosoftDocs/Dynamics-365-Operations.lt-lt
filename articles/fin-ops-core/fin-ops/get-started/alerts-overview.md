@@ -1,25 +1,24 @@
 ---
-title: Įspėjimų apžvalga
+title: Įspėjimų peržiūra (yra vaizdo įrašas)
 description: Šioje temoje pateikiama bendra informacija apie įspėjimus. Įspėjimus galite naudoti, kad būtumėte informuoti apie įvykius, kuriuos norite sekti darbo dienos metu.
-author: tjvass
-manager: AnnBe
+author: RichdiMSFT
 ms.date: 09/04/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: EventCreateRule
 audience: Application user
 ms.reviewer: sericks
 ms.search.region: Global
-ms.author: tjvass
+ms.author: richdi
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
-ms.openlocfilehash: e57b065dc1a2c0db593b38106f4391e281feb1e6
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
-ms.translationtype: HT
+ms.openlocfilehash: c3332bdf7f2edb693c95a4d5a6f95906e14c0a42
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5565043"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7984973"
 ---
 # <a name="alerts-overview"></a>Įspėjimų apžvalga
 
@@ -78,13 +77,13 @@ Prieš nustatydami įspėjimo taisyklę nuspręskite, kada ar kokiais atvejais n
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3DWZ3]
 
-Vaizdo įrašas [Kaip naudoti įspėjimus filtruojamiems duomenis stebėti](https://youtu.be/ZYKMcv6kl9s) (pateiktas pirmiau) yra įtrauktas į [„Finance and Operations“ grojaraštį](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) „YouTube“.
+Vaizdo įrašas [Kaip naudoti įspėjimus filtruojamiems duomenis stebėti](https://youtu.be/ZYKMcv6kl9s) (pateiktas pirmiau) yra įtrauktas į [„Finance and Operations” grojaraštį](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) „YouTube”.
 
 ### <a name="alert-rule-options"></a>Įspėjimo taisyklės parinktys
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3E4PV]
 
-Vaizdo įrašas [Įspėjimo taisyklės parinktys](https://youtu.be/cpzimwOjicM) (pateiktas pirmiau) yra įtrauktas į [„Finance and Operations“ grojaraštį](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) „YouTube“.
+Vaizdo įrašas [Įspėjimo taisyklės parinktys](https://youtu.be/cpzimwOjicM) (pateiktas pirmiau) yra įtrauktas į [„Finance and Operations“ grojaraštį](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) „YouTube”.
 
 
 

@@ -2,11 +2,9 @@
 title: Pirkimo paraiškos
 description: Šioje temoje aprašoma, kaip pirkimo paraiškos yra palaikomos planavimo optimizavime.
 author: ChristianRytt
-manager: tfehr
 ms.date: 01/04/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqPlanSched, ReqGroup
 audience: Application User
@@ -18,14 +16,16 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2021-01-04
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 20b4012e054a25d7d21c6f017d8ebcf18f6ee28d
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
-ms.translationtype: HT
+ms.openlocfilehash: 1d6fd4be0ee1913264c4a565234cfdf711365792
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5501083"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7570869"
 ---
 # <a name="purchase-requisitions"></a>Pirkimo paraiškos
+
+[!include [banner](../../includes/banner.md)]
 
 Bendrasis planavimas gali papildyti patvirtintas pirkimo paraiškas. Todėl norint padengti pirkimo paraiškas, vartotojams nereikia naudoti darbo eigos pirkimo užsakymų kūrimui. Vietoj to, pirkimo paraiškas gali atlikti bendrasis planavimas. Dėl šios funkcijos, pirkimo paraiška gali sukurti pirkimo, perkėlimo arba gamybos užsakymą, atsižvelgiant į **Suplanuoto užsakymo tipo** vertę, nustatytą susijusiam produktui.
 

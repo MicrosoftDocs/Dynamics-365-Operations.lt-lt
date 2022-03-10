@@ -1,27 +1,24 @@
 ---
 title: Įtraukti produktų variantus į pirkimo užsakymus naudojant variantų svorius
 description: Ši procedūra padės atlikti veiksmus norint variantų svorius naudoti kiekvieno produkto varianto pirkimo užsakymo eilutėms automatiškai įvesti.
-author: ShylaThompson
-manager: tfehr
+author: t-benebo
 ms.date: 11/14/2016
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchTable, PurchTablePart
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Operations
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: benebotg
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 27ff3784074a36d073930ba68c8dec8b1121356e
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
-ms.translationtype: HT
+ms.openlocfilehash: 4f9523410447c102481dd2c709b1fa3dd69d03e8
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4433997"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7565647"
 ---
 # <a name="add-variant-products-to-purchase-orders-using-variant-weights"></a>Įtraukti produktų variantus į pirkimo užsakymus naudojant variantų svorius
 
@@ -48,3 +45,6 @@ ms.locfileid: "4433997"
 17. Nustatykite kiekį – 1000.
 18. Spustelėkite Įrašyti.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

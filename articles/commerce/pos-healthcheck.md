@@ -1,12 +1,10 @@
 ---
 title: EKA periferinių įrenginių ir paslaugų sveikatos patikra
 description: Šioje temoje pateikiama sveikatos patikros funkcijos, teikiamos elektroniniame kasos aparate (EKA), apžvalga.
-author: rubendel
-manager: AnnBe
+author: BrianShook
 ms.date: 03/06/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -14,15 +12,15 @@ ms.custom: 141393
 ms.assetid: e23e944c-15de-459d-bcc5-ea03615ebf4c
 ms.search.region: Global
 ms.search.industry: Retail
-ms.author: rubendel
+ms.author: brshoo
 ms.search.validFrom: 2019-03-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 59e2505345d82f47efebfba6cc6f3403d03acc84
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.openlocfilehash: cd4e97b8dbfc4faf336d4ea927342fd4fa3cc7cd
+ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5000539"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7779877"
 ---
 # <a name="health-check-for-pos-peripherals-and-services"></a>EKA periferinių įrenginių ir paslaugų sveikatos patikra
 
@@ -82,3 +80,6 @@ Pasirinktines sveikatos patikras taip pat galima sukurti norint išbandyti paren
 ## <a name="related-articles"></a>Susiję straipsniai
 
 [Modernūs EKA (MPOS) paleidikliai ir spausdinimas](dev-itpro/pos-trigger-printing.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

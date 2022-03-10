@@ -10,17 +10,18 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 562b56a85ad2f40cb673f8f2101bf92c39853d1f1a087d0498b6f7d19d1cca01
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: f0a8f5948d9e30eb220aa8177a4b9718223a4f9d
+ms.sourcegitcommit: 5bfd6511d710deb539b4030eb0e9c48d25513595
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6773350"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8013839"
 ---
 # <a name="enable-power-bi-for-global-inventory-accounting"></a>Įgalinti „Power BI” Visuotinę atsargų apskaitą
 
 [!include [banner](../includes/banner.md)]
 [!INCLUDE [preview-banner](../includes/preview-banner.md)]
+<!--KFM: Preview until 4/30/2022 -->
 
 Galite prisegti plyteles, ataskaitų sritis ir ataskaitas iš savo [„PowerBI.com”](https://powerbi.com/) paskyros į savo „Microsoft Dynamics 365” programos darbo sritį.
 
@@ -49,7 +50,11 @@ Norėdami nustatyti „Power BI” integravimą, atlikite šiuos veiksmus.
 1. Sukonfigūruokite **Visuotinės atsargų apskaitos** „Power BI” ataskaitą atlikdami šiuos veiksmus:
 
     1. Eikite į **Mano darbo sritis**, suraskite Visuotinės atsargų apskaitos duomenų rinkinį, o tada iš meniu **Parinktys** pasirinkite **Parametrai**.
-    1. **Visuotinės atsargų apskaitos parametruose** išplėskite **Parametrus** ir atnaujinkite visus parametrus, kaip reikalinga.
+    1. **Visuotinės Atsargų Apskaitos parametruose** išplėskite **Parametrus** ir atnaujinkite visus parametrus, kaip reikalinga. Ypatingai patikrinkite šiuos parametrus:
+        1. Perrašyti numatytąsias URL vertes **Dataverse** naudojant vertes, rastas "Power platform" aplinkos informacija **LCS** **("Power platform" integravimo** skyriuje).
+        1. Perrašykite numatytąsias aplinkos ID vertes naudodami vertes, **kurios** LCS aplinkos **informacija** (skyriuje Valdyti **aplinką**).
+        1. Pasirinkite **redagavimo** kredencialų saitą, esantį šalia **CDS** žymos duomenų šaltinio **kredencialų** skyriuje. Tada prisijunkite prie savo Dataverse paskyros naudodamiesi **OAuth2** autentifikavimo metodą.
+    1. Patvirtinkite, kad Power BI rodo rasta **Mano darbo sritis \> Ataskaitos \> Visuotinė Atsargų Apskaita** dabar veikia tinkamai ir rodo turinį iš jūsų sistemos.
 
 1. Užregistruokite programą, kaip aprašyta [PowerBI.com integravimo konfigūravimas](../../fin-ops-core/dev-itpro/analytics/configure-power-bi-integration.md#registration-process).
 1. Integruokite **Visuotinės atsargų ataskaitos** „Power BI” ataskaitos failą į „Dynamics 365 Supply Chain Management” atlikdami šiuos veiksmus:

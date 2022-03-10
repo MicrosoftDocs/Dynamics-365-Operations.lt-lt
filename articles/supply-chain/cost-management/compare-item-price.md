@@ -2,11 +2,9 @@
 title: Prekių saugojimo kainų palyginimo ataskaita
 description: Sužinokite, kaip sugeneruoti prekių saugojimo kainų palyginimo ataskaitą, tada peržiūrėkite ir (arba) eksportuokite rezultatą.
 author: AndersGirke
-manager: tfehr
 ms.date: 01/30/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CostAdminWorkspace, CostAnalysisWorkspace, InventItemPriceCompareStorage, InventItemPriceCompareStorageDetailsChart, InventItemPriceCompareStorageDetails
 audience: Application User
@@ -17,13 +15,13 @@ ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2020-03-01
-ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 6554aec1991080f4a14aedb3440ff3dfd32e9b61
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.dyn365.ops.version: 10.0.9
+ms.openlocfilehash: 76a4ba07d191f79b4033fc78acff62d4909c7d32
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4983979"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7566004"
 ---
 # <a name="compare-item-prices-storage-report"></a>Prekių saugojimo kainų palyginimo ataskaita
 
@@ -120,3 +118,6 @@ Toliau pateikiamas pavyzdys, kaip eksportuoti ataskaitą **Palyginti prekių sau
 1. Atidaromas puslapis **Vykdymo suvestinė**, kuriame galite matyti savo eksportavimo užduoties būseną ir eksportuotų objektų sąrašą. Pasirinkite objektą **Lyginti prekių kainas**, esantį srityje **Objekto apdorojimo būsena**, tada pasirinkite **Atsisiųsti failą**, kad atsisiųstumėte iš to objekto eksportuotus duomenis.
 
 Norėdami gauti daugiau informacijos apie tai, kaip naudoti duomenų valdymo funkciją duomenims eksportuoti, žr. [Duomenų importavimo ir eksportavimo užduočių apžvalga](../../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2020-03-01
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 23d02cf96faf3753303435acc148bf71e487d791
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
-ms.translationtype: HT
+ms.openlocfilehash: d905819d1e0c8223c74509bfb357b3aaa51d20305a2857061eadb0b0ff8f6b9b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799922"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6727635"
 ---
 # <a name="enable-and-configure-auto-charges-by-channel"></a>Automatinių išlaidų įjungimas ir konfigūravimas pagal kanalą
 
@@ -66,7 +66,7 @@ Norėdami priskirti numatytąją hierarchiją organizacijos hierarchijos paskir�
 1. Veiksmų srityje pasirinkite **Vykdyti dabar**.
 1. Pakartokite ankstesnius du veiksmus, norėdami paleisti **1070** (**kanalo konfigūraciją**) ir **1110** (**visuotinės konfigūracijos**) užduotis.
 
-![Mažmeninės prekybos automatinių išlaidų organizacijos hierarchijos paskirties konfigūracija](media/Auto-charges-org-hierarchy-purpose.png)
+![Mažmeninės prekybos automatinių išlaidų organizacijos hierarchijos paskirties konfigūracija.](media/Auto-charges-org-hierarchy-purpose.png)
 
 ## <a name="define-auto-charges-by-channel"></a>Automatines išlaidų nustatymas pagal kanalą
 
@@ -86,7 +86,7 @@ Norėdami nustatyti automatines išlaidas pagal kanalą programoje „Commerce�
 1. Veiksmų srityje pasirinkite **Vykdyti dabar**.
 1. Pakartokite ankstesnius du veiksmus, norėdami paleisti **1070** (**kanalo konfigūraciją**) ir **1110** (**visuotinės konfigūracijos**) užduotis.
     
-![Automatinės išlaidos, nustatytos pagal kanalą](media/Auto-charges-line-charge-by-channel.png)
+![Automatinės išlaidos, nustatytos pagal kanalą.](media/Auto-charges-line-charge-by-channel.png)
 
 ## <a name="example-scenario"></a>Pavyzdinis scenarijus
 
@@ -94,7 +94,7 @@ Toliau pateiktame pavyzdyje aprašomi veiksmai, kurių reikia produktui sukonfig
 
 Organizacija apibrėžia išlaidų kodą, kurio pavadinimas **PERDIRBIMAS**, kaip parodyta toliau pateiktoje iliustracijoje.
 
-![Išlaidų kodas PERDIRBIMAS](media/Auto-charges-charge-code.png)
+![Išlaidų kodas PERDIRBIMAS.](media/Auto-charges-charge-code.png)
 
 Sukuriamos automatinės išlaidos eilutės lygiu. Jam būdinga toliau pateikta konfigūracija.
 
@@ -112,13 +112,13 @@ Sukuriama automatinių išlaidų eilutė. Jam būdinga toliau pateikta konfigūr
 - Laukas **Kategorija** nustatytas į **Fiksuotas**.
 - Laukas **Išlaidos** nustatytas į **6,25 USD**.
 
-![Automatinių išlaidų eilutės lygiu ir automatinių išlaidų eilutės konfigūracija](media/Auto-charges-recyclingfee-line-fee.png)
+![Automatinių išlaidų eilutės lygiu ir automatinių išlaidų eilutės konfigūracija.](media/Auto-charges-recyclingfee-line-fee.png)
 
 EKA programos **San Francisko** parduotuvės kanale sukuriamas pardavimo užsakymas. Eilutėje **Išlaidos** nurodytas **6,25 USD** perdirbimo mokestis.
 
 EKA programoje pasirinkę **Operacijų parinktys \> Išlaidos \> Valdyti išlaidas** galite peržiūrėti perdirbimo mokesčio išlaidų kodą ir aprašymą.
 
-![Perdirbimo mokestis EKA programoje](media/pos-auto-charges-recyclingfee-line-fee.png)
+![Perdirbimo mokestis EKA programoje.](media/pos-auto-charges-recyclingfee-line-fee.png)
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 

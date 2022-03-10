@@ -2,7 +2,7 @@
 title: Nustatykite B2B el. komercijos saitą
 description: Šioje temoje aprašoma, kaip nustatyti verslo su verslu (B2B) el. komercijos saitą „Microsoft Dynamics 365 Commerce“.
 author: josaw1
-ms.date: 04/23/2021
+ms.date: 12/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: d77e1f3b5f8d558643b078dbe8e829e62f85120e4931d60224116a33f171fab3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: e012b88465e98e788f65697d95fc141d453888e3
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6721012"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7983322"
 ---
 # <a name="set-up-a-b2b-e-commerce-site"></a>B2B el. prekybos svetainės nustatymas
 
@@ -37,7 +37,7 @@ Verslo su verslu (B2B) el. komercijos saitas suteikia kelias pagrindines ypatybe
 
 Galite prieiti prie saito lygio nustatymų saito kūrimo įrankyje **Saito nustatymai \> Plėtiniai**. Tolesni du saito lygio nustatymai taikomi B2B scenarijams:
 
-- **Įjunkite kliento sąskaitos mokėjimus** – Ši ypatybė leidžia vartotojams mokėti už užsakymus su kliento sąskaitomis. Esamo vertės yra **Įjungtos B2B klientams**, **Įjungtos B2C klientams**, **Įjungtos visiems klientams** ir **Išjungtos visiems**. Jei jūsų B2B saitas palaiko kliento sąskaitas, turėtumėte pasirinkti **Įjungti B2C klientams**.
+- **Įjunkite kliento sąskaitos mokėjimus** – Ši ypatybė leidžia vartotojams mokėti už užsakymus su kliento sąskaitomis. Esamo vertės yra **Įjungtos B2B klientams**, **Įjungtos B2C klientams**, **Įjungtos visiems klientams** ir **Išjungtos visiems**. Jei jūsų B2B saitas palaiko kliento sąskaitas, turėtumėte pasirinkti **Įjungti B2B klientams**.
 - **Įjungti užsakymo kiekio apribojimus** – Ši ypatybė jums leidžia nustatyti apribojimus prekių skaičiui, kurį galima užsakyti kiekvienam produktui ar kategorijai. Esamo vertės yra **Įjungtos B2B klientams**, **Įjungtos B2C klientams**, **Įjungtos visiems klientams** ir **Išjungtos visiems**.
 
 > [!NOTE]
@@ -306,6 +306,30 @@ Norėdami įtraukti modulį į vežimėlio puslapį „Commerce“ saito kūrimo
 
 > [!NOTE] 
 > Greito įtraukimo modulis yra prieinamas nuo „Commerce“ versijos 10.0.17 leidime. Jei atnaujinate iš senesnės „Commerce” versijos, turite rankiniu būdu atnaujinti failą appsettings.json. Dėl nurodymų, žr. [SDK ir modulio bibliotekos naujinimai](../e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file).
+
+## <a name="add-a-bulk-purchase-module-to-a-product-details-page"></a>Įtraukti masinio pirkimo modulį į produkto informacijos puslapį
+
+Masinio pirkimo modulis produkto informacijos puslapyje (PDP) teikia matrica pagrįstą patirtį, kuri leidžia pirkėjui greitai į krepšelį įtraukti keletą produkto variantų. Kai svetainės vartotojas turi užsakyti keletą to paties produkto variantų, dėl šios patirties nereikia pasirinkti produkto dimensijų derinio, nustatyti kiekį, įtraukti variantą į krepšelį, o tada pakartoti kitų produkto dimensijų kombinacijų procesą.
+
+Norėdami įtraukti masinio pirkimo modulį į PDP komercijos svetainės generatoriuje, atlikite šiuos veiksmus.
+
+1. Pereikite prie **šablonų** ir pasirinkite savo svetainės PDP šabloną.
+1. Pasirinkite **Redaguoti**.
+1. Modulio **Numatytasis puslapis** vietoje **Pagrindinis** pasirinkite daugtaškį (**...**) ir **Įtraukti modulį**.
+1. Dialogo lange **Įtraukti modulį** pasirinkite modulį **Konteineris**, tada pasirinkite **Gerai**.
+1. Vietoje **Konteineris** pasirinkite daugtaškį (**...**), tada – **Įtraukti modulį**.
+1. Dialogo lange **Įtraukti** modulį pasirinkite masinio **pirkimo** modulį, tada pasirinkite **Gerai**.
+1. Pasirinkite **Išsaugoti**, tada – **Baigti redagavimą**, kad užregistruotumėte šabloną, o tada pasirinkite **Publikuoti**, kad publikuotumėte jį.
+1. Eiti **į puslapius** ir pasirinkti savo svetainės PDP.
+1. Modulio **Numatytasis puslapis** vietoje **Pagrindinis** pasirinkite daugtaškį (**...**) ir **Įtraukti modulį**.
+1. Dialogo lange **Įtraukti modulį** pasirinkite modulį **Konteineris**, tada pasirinkite **Gerai**.
+1. Konteinerio modulio ypatybės **srityje po Plotis pasirinkite Užpildyti** **·** **konteinerį.**
+1. Vietoje **Konteineris** pasirinkite daugtaškį (**...**), tada – **Įtraukti modulį**.
+1. Dialogo lange **Įtraukti** modulį pasirinkite masinio **pirkimo** modulį, tada pasirinkite **Gerai**.
+1. Pasirinkite **Išsaugoti**, tada – **Baigti redagavimą**, kad užregistruotumėte puslapį, o tada pasirinkite **Publikuoti**, kad publikuotumėte jį.
+
+> [!NOTE] 
+> Masinio pirkimo modulį galima naudoti kaip "Commerce" 10.0.24 versiją. Jei atnaujinate iš senesnės „Commerce” versijos, turite rankiniu būdu atnaujinti failą appsettings.json. Dėl nurodymų, žr. [SDK ir modulio bibliotekos naujinimai](../e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file).
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 

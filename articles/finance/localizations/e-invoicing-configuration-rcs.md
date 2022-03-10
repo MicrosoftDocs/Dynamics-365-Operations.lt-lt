@@ -2,7 +2,7 @@
 title: Elektroninių SF išrašymo priedų „Regulatory Configuration Services“ (RCS) konfigūravimas
 description: Šioje temoje paaiškinama, kaip konfigūruoti elektroninių sąskaitų priedus „Dynamics 365 Regulatory Configuration Services“ (RCS).
 author: gionoder
-ms.date: 03/29/2021
+ms.date: 11/08/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 9958091db4a3d7ce0b625e5adc8e2a6b37878618
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
-ms.translationtype: HT
+ms.openlocfilehash: 640244612a2a553ec09661635787cb7f8694283b
+ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840249"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7779675"
 ---
 # <a name="configure-electronic-invoicing-in-regulatory-configuration-services-rcs"></a>Elektroninių SF išrašymo priedų „Regulatory Configuration Services“ (RCS) konfigūravimas
 
@@ -28,7 +28,7 @@ ms.locfileid: "5840249"
 
 Šioje temoje pateikiama informacija apie konfigūravimo galimybes elektroninių sąskaitų prieduose „Dynamics 365 Regulatory Configuration Services“ (RCS).
 
-Per galimybių konfigūravimą, kuriuo elektroninės sąskaitos priedas padeda jums atitikti verslo ir reglamentų reikalavimus elektroninėms sąskaitoms be jokio kodavimo. Scenarijų atvejais, kai elektroninės sąskaitos turi būti elektroniniu būdu patvirtintos žiniatinklio paslaugų, konfigūravimo galimybės taip pat jums padeda atitikti reikalavimus pranešimų apsikeitimui su žiniatinklio paslaugomis be jokio kodavimo.
+Per galimybių konfigūravimą, kuriuo elektroninės sąskaitos priedas padeda jums atitikti verslo ir reglamentų reikalavimus elektroninėms sąskaitoms be jokio kodavimo. Ir scenarijuose, kuriuose elektroninės SF turi būti elektroniniu būdu patvirtintos tinklo tarnybos, konfigūravimo galimybės taip pat padeda patenkinti pranešimų mainų su žiniatinklio tarnyba reikalavimus, neateidami jokių kodų.
 
 ## <a name="electronic-reporting"></a>Elektroninė ataskaita
 
@@ -46,44 +46,54 @@ Priemonės taip pat palaiko scenarijus, kurių reikia, kad būtų laikomasi fail
 
 Galiausiai priemonės palaiko pranešimų mainus su išorinėmis žiniatinklio paslaugomis, kurias nuomoja mokesčių inspekcija arba kuri nors įgaliota šalis, ir patvirtinimo reikalavimus elektroninėje SF.
 
-### <a name="availability-of-electronic-invoicing-features"></a>Elektroninių SF išrašymo priemonių pasiekiamumas
+## <a name="availability-of-electronic-invoicing-features"></a>Elektroninių SF išrašymo priemonių pasiekiamumas
 
 Elektroninių SF išrašymo priemonių pasiekiamumas priklauso nuo šalies arba regiono. Nors kai kurios priemonės yra bendrai galimos, kitos peržiūrimos.
 
-#### <a name="preview-features"></a>Peržiūros funkcijos
+### <a name="generally-available-features"></a>Bendrai pasiekiamos funkcijos
+
+Toliau pateikiamoje lentelėje rodomos bendrai prieinamos elektroninių sąskaitų faktūrų išrašymo funkcijos.
+
+| Šalis/regionas | Funkcijos pavadinimas                         | Verslo dokumentas |
+|----------------|--------------------------------------|-------------------|
+| Austrija        | Austrijos elektroninės SF (AT)    | Pardavimo SF ir prjekto SF |
+| Belgija        | Belgijos elektroninė SF (BE)      | Pardavimo SF ir projekto SF |
+| Brazilija         | Brazilijos NF–e (BR)                  | 55 finansinio dokumento modelis, koregavimo laiškai, atšaukimas ir atsisakyta |
+| Brazilija         | Brazilijos NFS-e ABRASF Curitiba (BR) | Paslaugų mokestiniai dokumentai |
+| Brazilija         | Brazilijos NF–e importas iš el. pašto (BR) | 55 iždo dokumento modelis |
+| Danija        | Danijos elektroninė SF (DK)       | Pardavimo SF ir prjekto SF |
+| Egiptas          | Egipto elektroninė SF (EG)     | Prdavimo SF ir prjekto Sf |
+| Estija        | Estijos elektroninė SF (EE)     | Pardavimo SF ir projekto SF |
+| Suomija        | Suomijos elektroninė SF (FI)      | Pardavimo SF ir projekto SF |
+| Prancūzija         | Prancūzijos elektroninė SF (FR)       | Pardavimo SF ir projekto SF |
+| Vokietija        | Vokietijos elektroninė SF (DE)       | Pardavimo SF ir prjekto SF |
+| Italija          | SąskaitaPA (IT)                       | Pardavimo SF ir prjekto SF |
+| Nyderlandai    | Nyderlandų elektroninė SF (NL)        | Pardavimo SF ir prjekto SF |
+| Norvegija         | Norvegijos elektroninė SF (NO)    | Pardavimo SF ir projekto SF |
+| Ispanija          | Ispanijos elektroninė SF (ES)      | Pardavimo SF ir projekto SF |
+| Europa         | PEPPOL elektroninė SF            | PEPPOL pardavimo SF ir projekto SF |
+| Europa         | PEPPOL tiekėjo sąskaita                | PEPPOL importo tiekėjo SF |
+| Saudo Arabija   | Saudo Arabijos elektroninė SF (SA)| Pardavimo SF ir projekto SF |
+
+### <a name="preview-features"></a>Peržiūros funkcijos
 
 Toliau pateikiamoje lentelėje rodomos šiuo metu peržiūrimos elektroninių SF išrašymo priemonės.
 
 | Šalis/regionas | Funkcijos pavadinimas                         | Verslo dokumentas |
 |----------------|--------------------------------------|-------------------|
-| Austrija        | Austrijos elektroninės SF (AT)    | Prdavimo SF ir prjekto Sf |
-| Belgija        | Belgijos elektroninė SF (BE)      | Prdavimo SF ir prjekto Sf |
-| Brazilija         | Brazilijos NF–e (BR)                  | 55 finansinio dokumento modelis, koregavimo laiškai, atšaukimas ir atsisakyta |
-| Brazilija         | Brazilijos NFS-e ABRASF Curitiba (BR) | Paslaugų mokestiniai dokumentai |
-| Danija        | Danijos elektroninė SF (DK)       | Prdavimo SF ir prjekto Sf |
-| Egiptas          | Egipto elektroninė SF (EG) | Prdavimo SF ir prjekto Sf |
-| Estija        | Estijos elektroninė SF (EE)     | Prdavimo SF ir prjekto Sf |
-| Suomija        | Suomijos elektroninė SF (FI)      | Prdavimo SF ir prjekto Sf |
-| Prancūzija         | Prancūzijos elektroninė SF (FR)       | Prdavimo SF ir prjekto Sf |
-| Vokietija        | Vokietijos elektroninė SF (DE)       | Prdavimo SF ir prjekto Sf |
-| Italija          | FatturaPA (IT)                       | Prdavimo SF ir prjekto Sf |
 | Meksika         | Meksikos CFDI (MX)                    | Pardavimo SF, važtaraščiai, atsargų perkėlimai, mokėjimo papildomi mokėjimai ir atšaukimai |
-| Olandija    | Nyderlandų elektroninė SF (NL)        | Prdavimo SF ir prjekto Sf |
-| Norvegija         | Norvegijos elektroninė SF (NO)    | Prdavimo SF ir prjekto Sf |
-| Ispanija          | Ispanijos elektroninė SF (ES)      | Prdavimo SF ir prjekto Sf |
-| Europa         | PEPPOL elektroninė SF            | PEPPOL pardavimo SF ir prjekto SF |
 
 ### <a name="configurable-components-of-electronic-invoicing-features"></a>Konfigūruojami elektroninių SF išrašymo priemonių komponentai
 
 Elektroninių SF išrašymo priemones sudaro šios konfigūruojamų komponentų grupės:
 
-- **Formatai** – formatai leidžia konfigūruoti, kuriuos elektroninių SF išrašymo priedą reikia generuoti, kai elektroninis dokumentas tampa elektronine SF. Formatai apima elektroninės SF ir pranešimų, kurie naudojami užklausoms pateikti ir atsakymams gauti, kai reikalingas ryšys su išorine žiniatinklio tarnyba, formato konfigūraciją.
-- **Veiksmai** – Veiksmai leidžia konfigūruoti, kaip elektroninio SF išrašymo priedas generuoja elektroninio dokumento, kurį „Finance and Supply Chain Management“ pateikė į elektroninę SF.
-- **Taikymo taisyklės** – taikymo taisyklės leidžia konfigūruoti kontekstą, kurį elektroninio SF išrašymo priedas turi apsvarstyti elektroninių SF išrašymo funkcijai apdoroti.
-- **Kintamieji** – kintamieji leidžia konfigūruoti konfigūracijos logikos statybos palaikymą. Kintamieji gali veikti kaip verčių įvestis, norint atlikti konkretų veiksmą. Taip pat jie gali veikti kaip „Finance and Supply Chain Management“ ir elektroninių SF išrašymo priedų verčių mainai.
-- **Elektroninio dokumento modelio susiejimas** – elektroninio dokumento modelio susiejimas leidžia konfigūruoti ER modelių išdėstymą. Modelio susiejimas nurodo abstrakčios SF, kuri, pateikiama elektroninius dokumentus, yra integruota į elektroninio SF išrašymo priedą, duomenų susiejimą.
-- **SF konteksto modelis**– SF konteksto modelis leidžia konfigūruoti ER SF konteksto modelį ir apibrėžti elektroninių SF išrašymo funkcijos kontekstą.
-- **Atsakymų tipai**– atsakymų tipai leidžia konfigūruoti tai, ką elektroninio SF išrašymo priedas turi atnaujinti „Finance and Supply Chain Management“, kaip elektroninės SF apdorojimo rezultatą.
+- **Formatai**: formatai leidžia konfigūruoti, kuriuos elektroninių SF išrašymo priedą reikia generuoti, kai elektroninis dokumentas tampa elektronine SF. Formatai apima elektroninės SF ir pranešimų, kurie naudojami užklausoms pateikti ir atsakymams gauti, kai reikalingas ryšys su išorine žiniatinklio tarnyba, formato konfigūraciją.
+- **Veiksmai**: Veiksmai leidžia konfigūruoti, kaip elektroninio SF išrašymo priedas generuoja elektroninio dokumento, kurį „Finance and Supply Chain Management“ pateikė į elektroninę SF.
+- **Taikymo taisyklės**: taikymo taisyklės leidžia konfigūruoti kontekstą, kurį elektroninio SF išrašymo priedas turi apsvarstyti elektroninių SF išrašymo funkcijai apdoroti.
+- **Kintamieji**: kintamieji leidžia konfigūruoti konfigūracijos logikos statybos palaikymą. Kintamieji gali veikti kaip verčių įvestis, norint atlikti konkretų veiksmą. Taip pat jie gali veikti kaip „Finance and Supply Chain Management“ ir elektroninių SF išrašymo priedų verčių mainai.
+- **Elektroninio dokumento modelio susiejimas**: elektroninio dokumento modelio susiejimas leidžia konfigūruoti ER modelių išdėstymą. Modelio susiejimas nurodo abstrakčios SF, kuri, pateikiama elektroninius dokumentus, yra integruota į elektroninio SF išrašymo priedą, duomenų susiejimą.
+- **SF konteksto modelis**: SF konteksto modelis leidžia konfigūruoti ER SF konteksto modelį ir apibrėžti elektroninių SF išrašymo funkcijos kontekstą.
+- **Atsakymų tipai**: atsakymų tipai leidžia konfigūruoti tai, ką elektroninio SF išrašymo priedas turi atnaujinti „Finance and Supply Chain Management“, kaip elektroninės SF apdorojimo rezultatą.
 
 ### <a name="formats"></a>Formatai
 
@@ -188,24 +198,116 @@ Toliau pateikti sąrašai rodo ER formato konfigūracijas, galimas elektroninių
 - Pardavimo SF (ES)
 - Projekto SF (ES)
 
+#### <a name="saudi-arabian-sa-electronic-invoice-sales-and-project-invoices-for-saudi-arabia"></a>Saudo Arabijos (SA) elektroninė SF: Saudo Arabijos pardavimo ir projekto SF
+
+- Pardavimo el. SF (SA)
+- Projekto el. SF (SA)
+
+Be ER formato konfigūracijų, kurios yra visiškai parengtos naudoti su Elektroninių sąskaitų faktūrų išrašymo paslauga, jūs taip pat galite sukurti savo ER formato konfigūracijas. Tačiau formato konfigūracijos, sukurtos naudoti su Elektroninių sąskaitų faktūrų išrašymo funkcijomis, nepalaiko tiesioginės nuorodos į „Finance” ar „Supply Chain Management” lenteles ar bet kuriuos atitinkamus metaduomenis. Palaikomos tik nuorodos į ER modelio susiejimą.
+
 ### <a name="actions"></a>Veiksmai
 
 Šioje lentelėje pateikiami galimi veiksmai ir nurodoma, ar jie šiuo metu yra bendrai pasiekiami, ar vis dar peržiūrimi.
 
-| Operacija                                        | aprašymas                                                                  | Prieinamumas         |
+| Operacija                                        | Aprašas                                                                  | Prieinamumas         |
 |-----------------------------------------------|------------------------------------------------------------------------------|----------------------|
 | Pakeisti dokumentą                            | Vykdyti elektroninės ataskaitos formatą dokumentui transformuoti.                   | Bendrai prieinama  |
-| Pasirašyti xml dokumentą                             | Pasirašyti xml dokumentus skaitmeniniu parašu.                                   | Peržiūros režimu           |
-| Pasirašyti json dokumentą Egipto mokesčių inspekcijai | Pasirašykite json dokumentus skaitmeniniu parašu Egipto mokesčių inspekcijai.       | Bendrai prieinama  |
+| Pasirašyti xml dokumentą                             | Pasirašyti xml dokumentus skaitmeniniu parašu.                                   | Bendrai prieinama  |
+| Pasirašykite JSON dokumentą Egipto mokesčių inspekcijai | Pasirašykite json dokumentus skaitmeniniu parašu Egipto mokesčių inspekcijai.       | Bendrai prieinama  |
 | Integruoti su Egipto ETA tarnyba           | Susisiekti su Egipto mokesčių inspekcija.                                     | Bendrai prieinama  |
-| Paskambinti Brazilijos SEFAZ tarnybai                  | Integruoti su Brazilijos SEFAZ tarnyba, skirta finansinio dokumento pateikimui.       | Peržiūros režimu           |
+| Paskambinti Brazilijos SEFAZ tarnybai                  | Integruoti su Brazilijos SEFAZ tarnyba, skirta finansinio dokumento pateikimui.       | Bendrai prieinama  |
 | Skambinti Meksikos PAC tarnybai                      | Integruokite su Meksikos ABA tarnyba CFDI pateikimui.                      | Peržiūros režimu           |
 | Apdoroti atsakymą                              | Analizuoti iš žiniatinklio tarnybos iškvietimo gautą atsakymą.                     | Bendrai prieinama  |
 | Naudoti MS „Power Automate“                         | Integruokite su „Microsoft Power Automate“ sukurtais srautais.                       | Peržiūros režimu           |
 
+### <a name="applicability-rules"></a>Taikymo taisyklės
+
+Taikymo taisyklės yra konfigūruotinos sąlygos, apibrėžtos elektroninių sąskaitų faktūrų išrašymo funkcijos lygiu. Taisyklės sukonfigūruotos taip, kad per elektroninių sąskaitų faktūrų išrašymo galimybių rinkinį perteiktų elektroninių SF išrašymo funkcijų kontekstą.
+
+Kai verslo dokumentas iš „Finance” ar „Supply Chain Management” yra pateikiamas elektroninėms SF išrašyti, verslo dokumentas neturi aiškios nuorodos, leidžiančios Elektroninių sąskaitų faktūrų išrašymo galimybių rinkiniui iškviesti tam tikrą elektroninių SF išrašymo priemonę apdoroti pateikimui.
+
+Nepaisant to, tinkamai sukonfigūruotuose verslo dokumentuose yra elementai, reikalingi elektroninių sąskaitų faktūrų išrašymui nuspręsti, kuri elektroninių SF išrašymo funkcija turi būti pasirinkta ir tada sugeneruoti elektroninę SF.
+
+Taikymo taisyklės leidžia elektroninių sąskaitų faktūrų išrašymo galimybių rinkiniui surasti tikslias elektroninių SF išrašymo funkcijas, kurios turi būti naudojamos pateikimui apdoroti. Tai yra atliekama suderinus pateiktų verslo dokumentų turinį su Taikymo taisyklių sąlygomis.
+
+Pavyzdžiui, dvi elektroninių SF išrašymo funkcijos su susijusiomis taikymo taisyklėmis yra įdiegtos į Elektroninių sąskaitų faktūrų išrašymo galimybių rinkinį.
+
+| Elektroninės sąskaitos faktūros išrašymo funkcija | Taikymo taisyklės        |
+|------------------------------|--------------------------- |
+| A                            | <p>Šalis = BR</p><p>ir</p><p>Juridinis subjektas = BRMF</p>  |
+| B                            | <p>Šalis = MX</p><p>ir</p><p>Juridinis subjektas = MXMF</p>  |
+
+Jeigu verslo dokumentas iš „Finance” arba „Supply Chain Management” yra pateikiamas į elektroninių sąskaitų faktūrų išrašymo galimybių rinkinį, verslo dokumente yra šie atributai, užpildyti kaip:
+
+- Šalis = BR
+- Juridinis subjektas = BRMF
+
+Elektroninių sąskaitų faktūrų išrašymo galimybių rinkinys parinks elektroninių SF išrašymo funkciją **„A”**, kad būtų galima apdoroti pateikimą ir sugeneruoti elektroninę SF.
+
+Tuo pačiu būdu, jei verslo dokumente yra:
+
+- Šalis = MX
+- Juridinis subjektas = MXMF
+
+Elektroninės sąskaitos faktūros išrašymo funkcija **„B”** pasirenkama kaip elektroninės SF išrašymo priemonė.
+
+Taikymo taisyklių konfigūravimas negali būti dviprasmiškas. Tai reiškia, kad dvi ar daugiau elektroninių sąskaitų faktūrų išrašymo funkcijos negali turėti tų pačių sąlygų, kitaip tai neleis atrinkti. Jeigu yra elektroninių sąskaitų faktūrų išrašymo funkcijų dublikatų, tam, kad išvengtumėte dviprasmiškumo, naudokite papildomas sąlygas, kad elektroninių SF išrašymo galimybių rinkinys galėtų atskirti dvi elektroninių SF išrašymo funkcijas.
+
+Pavyzdžiui, apsvarstykime elektroninių sąskaitų faktūrų išrašymo funkciją **„C”**. Ši funkcija yra elektroninių SF išrašymo funkcijos **„A”** kopija.
+
+| Elektroninės sąskaitos faktūros išrašymo funkcija | Taikymo taisyklės        |
+|------------------------------|--------------------------- |
+| A                            | <p>Šalis = BR</p><p>ir</p><p>Juridinis subjektas = BRMF</p>  |
+| C                            | <p>Šalis = BR</p><p>ir</p><p>Juridinis subjektas = BRMF</p>  |
+
+Šiame pavyzdyje funkcija **„C”** yra verslo dokumento pateikimo priekyje, kuriame yra šie dalykai:
+
+- Šalis = BR
+- Juridinis subjektas = BRMF
+
+Elektroninių sąskaitų faktūrų išrašymo galimybė negali atskirti, kuri elektroninių SF išrašymo funkcija turi būti naudojama pateikimui apdoroti, nes pateikimų sąlygos yra vienodos.
+
+Norint sukurti skirtumą tarp dviejų funkcijų per Taikymo taisykles, nauja sąlyga turi būti įtraukta į vieną iš funkcijų, kad Elektroninių sąskaitų faktūrų išrašymo galimybių rinkinys galėtų pasirinkti tinkamą elektroninių SF išrašymo priemonę.
+
+| Elektroninės sąskaitos faktūros išrašymo funkcija | Taikymo taisyklės        |
+|------------------------------|--------------------------- |
+| A                            | <p>Šalis = BR</p><p>ir</p><p>Juridinis subjektas = BRMF</p>  |
+| C                            | <p>Šalis = BR</p><p>ir</p><p>Juridinis subjektas = BRMF</p><p>ir</p><p>Modelis=55</p>  |
+
+Sudėtingesnių sąlygų kūrimui galimi šie ištekliai:
+
+Loginiai operatoriai:
+- Ir
+- Arba
+
+Operatorių tipai:
+- Equal
+- Not equal
+- Greater than
+- Less than
+- Daugiau arba lygu
+- Mažiau arba lygu
+- Susideda iš
+- Prasideda
+
+Duomenų tipai:
+- Eilutė
+- Numeris
+- Bulio logika
+- Data
+- UUID
+
+Galimybė sugrupuoti ir išgrupuoti sąlygas.
+Pavyzdys atrodo taip.
+
+| Elektroninės sąskaitos faktūros išrašymo funkcija | Taikymo taisyklės        |
+|------------------------------|--------------------------- |
+| C                            | <p>Šalis = BR</p><p>ir</p><p>( Juridinis subjektas = BRMF)</p><p>arba</p><p>(Modelis=55)</p>  |
+
+
 ## <a name="configuration-providers"></a>Konfigūracijos teikėjai
 
-Konfigūracijos teikėjai suteikia elektroninių SF išrašymo priemones ir jų ER komponentus, pvz., modelio išdėstymą, formato konfigūraciją ir kontekstinį modelį. Jie publikuoja elektroninės SF išrašymo priemones ir ER komponentus susieje visuotinoje saugykloje. Iš ten kitos organizacijos gali jas atsisiųsti.
+Konfigūracijos teikėjai suteikia elektroninių SF išrašymo priemones ir jų ER komponentus, pvz., modelio išdėstymą, formato konfigūraciją ir kontekstinį modelį. Jie publikuoja elektroninės SF išrašymo priemones ir ER komponentus susijusioje visuotinėje saugykloje. Iš ten kitos organizacijos gali jas atsisiųsti.
 
 Prieš konfigūruojant elektroninių SF išrašymo priemones naudojant RCS, reikia konfigūruoti savo organizaciją kaip konfigūracijos teikėją **elektroninių ataskaitų** modulyje. Daugiau informacijos apie tai, kaip konfigūruoti tiekėją į **Aktyvus**, žr. [Konfigūracijų teikėjų kūrimas ir jų pažymėjimas kaip aktyviais](../../fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md).
 
@@ -256,7 +358,7 @@ Naudodami programos nustatymą galite konfigūruoti elektroninių SF išrašymo 
 - **Verslo dokumento išdėstymas** – SF išdėstymo modelio, sukonfigūruoto naudojant ER, pavadinimas.
 
 > [!IMPORTANT]
-> Konfigūraciją, įvestą programos nustatyme, galima peržiūrėti „Finance and Supply Chain Management“ lange. Eikite į **Organizacijos administravimas \> Nustatymas \> Elektroninių dokumentų parametras**. Skirtuke **Elektroninis dokumentas** pasirinkite **Diegti** , tada pasirinkite parinktį **Prijungta** programa.
+> Konfigūraciją, įvestą programos nustatyme, galima peržiūrėti „Finance and Supply Chain Management“ lange. Eikite į **Organizacijos administravimas \> Nustatymas \> Elektroninių dokumentų parametras**. Skirtuke **Elektroninis dokumentas** pasirinkite **Diegti**, tada pasirinkite parinktį **Prijungta** programa.
 
 ### <a name="deploying-feature-versions"></a>Funkcijų versijų diegimas
 
@@ -276,7 +378,7 @@ RCS naudojate **Netalpinti** komandą siekiant pašalinti konkrečią elektronin
 
 ### <a name="rebasing-electronic-invoicing-features"></a>Iš naujo sukurti SF išrašymo priemonių funkcijų pagrindą
 
-Kai viena iš kitos išvedama viena elektroninio SF išrašymo priemonė **Kurti naują pagrindą** komanda atnaujina išvestinę priemonę pakeitimais, kurie buvoįdiegti pradinėje priemonėje.
+Kai viena iš kitos išvedama viena elektroninio SF išrašymo priemonė **Kurti naują pagrindą** komanda atnaujina išvestinę priemonę pakeitimais, kurie buvo įdiegti pradinėje priemonėje.
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 

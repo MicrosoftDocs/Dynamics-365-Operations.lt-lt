@@ -2,28 +2,25 @@
 title: Akredityvai ir importo dokumentų inkasavimas
 description: Šiame straipsnyje pateikta bendra informacija apie akredityvus ir importo rinkinius. Abiejų tipų banko dokumentai paprastai naudojami prekių pardavimo ir pirkimo tarptautiniu mastu atvejais.
 author: panolte
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BankLCImport
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 18321
 ms.assetid: 5c97ab81-632b-4043-a940-674bcb496c80
 ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7c31b8af25ea231f23ac5f4968760257b3f5894f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 47309612ea7cbd0bb1047bec9c18f976e7063ce95f1708f27beae540cc3194ea
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4446008"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6751331"
 ---
 # <a name="letters-of-credit-and-import-collections"></a>Akredityvai ir importo dokumentų inkasavimas
 
@@ -31,8 +28,7 @@ ms.locfileid: "4446008"
 
 Šiame straipsnyje pateikta bendra informacija apie akredityvus ir importo rinkinius. Abiejų tipų banko dokumentai paprastai naudojami prekių pardavimo ir pirkimo tarptautiniu mastu atvejais.
 
-<a name="letters-of-credit"></a>Akredityvai
------------------
+## <a name="letters-of-credit"></a>Akredityvai
 
 Akredityvai naudojami tarptautinėms operacijoms, siekiant užtikrinti, kad bus atlikti mokėjimai. Akredityvas yra banko išduota sutartis, pagal kurią bankas sutinka užtikrinti mokėjimą pirkėjo vardu, jei sutarties tarp pirkėjo ir pardavėjo sąlygos yra patenkinamos. Akredityvas taip pat vadinamas dokumentuotu kreditu (DC).
 
@@ -54,3 +50,6 @@ Importo dokumentų inkasavimas padeda užtikrinti, kad pardavėjui bus sumokėta
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

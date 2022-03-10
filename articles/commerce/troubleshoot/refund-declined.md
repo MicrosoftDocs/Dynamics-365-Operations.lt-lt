@@ -2,11 +2,9 @@
 title: Grąžinimo užsakymo pinigų grąžinimas atmestas
 description: Šioje temoje pateikiamos trikčių diagnostikos priemonės, galinčios padėti, kai atmetamas grąžinimo užsakymo pinigų grąžinimas, nes SF išrašyti naudojama kredito kortelė skiriasi nuo kortelės, kuri buvo naudojama atliekant pradinį mokėjimo autorizavimą.
 author: Reza-Assadi
-manager: AnnBe
 ms.date: 03/11/2021
 ms.topic: Troubleshooting
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
@@ -17,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: e202c6b4b9e025d5af1cd5eb6235884aab6444e6
-ms.sourcegitcommit: 6c108be3378b365e6ec596a1a8666d59b758db25
-ms.translationtype: HT
+ms.openlocfilehash: 8880d72d702758d611755bce48a331e3f2e28ca1b7abf485e8b4f7301317c875
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/12/2021
-ms.locfileid: "5585453"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6738629"
 ---
 # <a name="refund-on-a-return-order-is-declined"></a>Grąžinimo užsakymo pinigų grąžinimas atmestas
 
@@ -36,7 +34,7 @@ Pinigų grąžinimas atmetamas, kai grąžinimo užsakymo SF išrašyti naudojam
 
 Mokėjimo autorizavimo informacijoje rasite toliau nurodytą klaidos pranešimą: „Adyen“ šliuzas SendRequest() nepavyko, būsena „InternalServerError“.22144; Iš „Adyen” grąžintas tuščias atsakymas.(22001);”
 
-![Klaida Grąžinimo užsakymo pinigų grąžinimas atmestas](media/refund-order-decline.jpg)
+![Klaida Grąžinimo užsakymo pinigų grąžinimas atmestas.](media/refund-order-decline.jpg)
 
 ## <a name="resolution"></a>Sprendimas
 

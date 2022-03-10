@@ -9,18 +9,18 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: d52ff69cfd7a81eb9f19a0ef498c6ceeea77b360
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
-ms.translationtype: HT
+ms.openlocfilehash: c73da804d724ea75ae6ccd479d1b7f3cf02d48c4
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7782361"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8062780"
 ---
 # <a name="note-integration"></a>Pastabų integravimas
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Verslo procesų metu „Microsoft Dynamics 365” vartotojai dažnai renka informaciją apie savo klientus. Ši informacija įrašoma kaip veiklos ir pastabos. Šioje temoje aprašomas pastabų duomenų integravimas dvigubo rašymo funkcijoje.
 
@@ -30,7 +30,7 @@ Kliento informaciją galima klasifikuoti toliau pateiktais būdais.
 + **Veiksminga „Dynamics 365” vartotojo informacija** – pvz., klientas, perkantis „Surface” vienetą, įveda specialias instrukcijas, nurodančias, kad prieš pristatant įrenginį reikia supakuoti kaip dovaną. Šios instrukcijos yra veiksmingos informacijos, kurią turi valdyti „Contoso” darbuotojas, atsakingas už pakavimą.
 + **Neveiksminga informacija** – pvz., klientas lankosi „Contoso” parduotuvėje ir pokalbio su parduotuvės atstovu metu išreiškia susidomėjimą *„Halo”* žaidimais bei žaidimų priedais. Parduotuvės atstovas pasižymi šios informacijos pastabą. Tada produktų rekomendacijų mechanizmas ją naudoja, kad klientui pateiktų rekomendacijas.
 
-Apskritai, veiksminga informacija fiksuojama kaip *veiklos* „Finance and Operations” bei klientų įtraukimo programose. Neveiksminga informacija fiksuojama kaip *pastabos* „Finance and Operations” programose arba kaip *komentarai* klientų įtraukimo programose.
+Apskritai informacija, kurią galima atlikti, fiksuojama kaip *veikla* „Finance and Operations“ ir klientų įtraukimo programose. Neveiksminga informacija fiksuojama kaip *Pastabos* „Finance and Operations“ programose ir kaip *anotacijos* klientų įtraukimo programėlėse.
 
 > [!TIP]
 > Nors pastabos skirtos neveiksmingai informacijai, programos netrukdys jomis naudotis saugant ir valdant veiksmingą informaciją, jei norite jas naudoti tokiu būdu.
@@ -39,7 +39,7 @@ Apskritai, veiksminga informacija fiksuojama kaip *veiklos* „Finance and Opera
 
 ## <a name="create-a-note-in-a-customer-engagement-app"></a>Pastabos kūrimas klientų įtraukimo programoje
 
-Norėdami sukurti pastabą klientų įtraukimo programoje ir tada sinchronizuoti ją su „Finance and Operations” programa, atlikite šiuos veiksmus.
+Norėdami sukurti pastabą klientų įtraukimo programoje ir sinchronizuoti jį su programa „Finance and Operations“, atlikite šiuos veiksmus.
 
 1. Klientų įtraukimo programoje atidarykite kliento abonemento įrašą.
 2. Srityje **Laiko juosta** pasirinkite pliuso ženklą (**+**), tada, norėdami sukurti pastabą, pasirinkite **Pastaba**.
@@ -54,7 +54,7 @@ Norėdami sukurti pastabą klientų įtraukimo programoje ir tada sinchronizuoti
 
     ![Nauja pastaba kliento laiko juostoje.](media/notes-ce-3.png)
 
-4. Prisijunkite prie „Finance and Operations” programos ir atidarykite tą patį kliento įrašą. Atkreipkite dėmesį, kad viršutiniame dešiniajame kampe esantis mygtukas **Priedai** (sąvaržėlės simbolis) nurodo, kad įrašas turi priedą.
+4. Prisijunkite prie programėlės „Finance and Operations“ ir atidarykite tą patį kliento įrašą. Atkreipkite dėmesį, kad viršutiniame dešiniajame kampe esantis mygtukas **Priedai** (sąvaržėlės simbolis) nurodo, kad įrašas turi priedą.
 
     ![Pranešimas apie priedą.](media/notes-ce-4.png)
 
@@ -62,17 +62,17 @@ Norėdami sukurti pastabą klientų įtraukimo programoje ir tada sinchronizuoti
 
     ![Pastaba iš „Customer Engagement” programos.](media/notes-ce-5.png)
 
-Visi pastabos atnaujinimai sinchronizuojami tarp „Finance and Operations” programos ir klientų įtraukimo programos.
+Visi pastabos naujiniai sinchronizuojami pirmyn ir atgal tarp programos „Finance and Operations“ ir klientų įtraukimo programos.
 
-## <a name="create-a-note-in-a-finance-and-operations-app"></a>Pastabos kūrimas „Finance and Operations” programoje
+## <a name="create-a-note-in-a-finance-and-operations-app"></a>Sukurkite pastabą „Finance and Operations“ programoje
 
-Taip pat galite sukurti pastabą „Finance and Operations” programoje ir ji bus sinchronizuojama su klientų įtraukimo programa.
+Taip pat galite sukurti pastabą „Finance and Operations“ programoje ir ji bus sinchronizuojama su klientų įtraukimo programa.
 
-Norėdami sukurti pastabą „Finance and Operations” programoje ir tada sinchronizuoti ją su klientų įtraukimo programa, atlikite šiuos veiksmus.
+Norėdami sukurti pastabą „Finance and Operations“ programoje ir sinchronizuoti jį su klientų įtraukimo programa, atlikite šiuos veiksmus.
 
-1. Programos „Finance and Operations” puslapyje **Priedai** pasirinkite **Naujas** \> **Pastaba**.
+1. Programoje „Finance and Operations“, esančiame **Priedai** puslapį, pasirinkite **Nauja** \> **Pastaba**.
 
-    ![Pastabos kūrimas „Finance and Operations” programoje.](media/notes-fo-1.png)
+    ![Pastabos kūrimas programėlėje „Finance and Operations“.](media/notes-fo-1.png)
 
 2. Įveskite pavadinimą ir trumpą instrukcijų rinkinį, tada pasirinkite **Įrašyti**.
 
@@ -84,17 +84,17 @@ Norėdami sukurti pastabą „Finance and Operations” programoje ir tada sinch
 
 Pastabą galite klasifikuoti kaip vidinę arba išorinę.
 
-- Programos „Finance and Operations” puslapyje **Priedai** atidarykite pastabą, tada lauke **Apribojimas** pasirinkite **Vidinis** arba **Išorinis**.
+- Programoje „Finance and Operations“, esančiame **Priedai** puslapyje atidarykite užrašą, tada į **Apribojimas** lauką, pasirinkite **Vidinis** arba **Išorinis**.
 
     ![Laukas Apribojimas.](media/notes-fo-4.png)
 
 Taip pat galite sukurti URL.
 
-1. Programos „Finance and Operations” puslapyje **Priedai** pasirinkite **Naujas** \> **URL**.
+1. Programoje „Finance and Operations“, esančiame **Priedai** puslapį, pasirinkite **Nauja** \> **URL**.
 2. Įveskite pavadinimą ir URL.
 3. Lauke **Apribojimas** pasirinkite **Vidinis** arba **Išorinis**.
 
-    ![URL kūrimas „Finance and Operations” programoje.](media/notes-fo-5.png)
+    ![URL kūrimas programoje „Finance and Operations“.](media/notes-fo-5.png)
 
 4. Pasirinkite **Įrašyti**.
 
@@ -109,7 +109,7 @@ Taip pat galite sukurti URL.
 
 Pastabų integravimą sudaro lentelių schemų, veikiančių kartu interaktyviai naudojant duomenis (kaip parodyta tolesnėje lentelėje) rinkinys.
 
-| „Finance and Operations“ programa | „Customer engagement“ programa | aprašymas |
+| Programa „Finance and Operations“. | „Customer engagement“ programa | Aprašymas |
 |----------------------------|-------------------------|-------------|
 | [Kliento priedai](mapping-reference.md#230) | Komentarai | Įmonės, naudojančios paprastąjį tekstą ir URL, kad fiksuotų konkrečių klientų informaciją (organizacijų ir asmenų). |
 | [Tiekėjo dokumentų priedai](mapping-reference.md#231) | Komentarai | Įmonės, naudojančios paprastąjį tekstą ir URL, kad fiksuotų konkrečių tiekėjų informaciją (organizacijų ir asmenų). |

@@ -1,29 +1,26 @@
 ---
 title: Darbo užsakymo ataskaita
 description: Šioje temoje aprašomos darbo užsakymo ataskaitos modulyje „Turto valdymas”.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: d3719a533ef9861514f71ce98d5a9f080c29fb17
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 3686629af4116df6fc7ea530216ec0d12ecd60bab8f7150e0d2a3917bc12adaf
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4433803"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6780251"
 ---
 # <a name="work-order-report"></a>Darbo užsakymo ataskaita
 
@@ -45,9 +42,12 @@ Galite sugeneruoti darbo užsakymo ataskaitą, kurioje pateikta išsami informac
 
 Toliau pateiktame paveikslėlyje pateiktas pavyzdys, kaip galima nustatyti ataskaitos parametrus.
 
-![1 pav.](media/20-work-orders.png)
+![1 iliustracija.](media/20-work-orders.png)
 
 Toliau pateiktame paveikslėlyje pateiktas darbo užsakymo ataskaitos, sugeneruotos remiantis šiais nustatymais, pavyzdys.
 
-![2 pav.](media/21-work-orders.png)
+![2 iliustracija.](media/21-work-orders.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

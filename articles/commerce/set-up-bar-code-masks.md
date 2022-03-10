@@ -1,30 +1,27 @@
 ---
 title: Brūkšninių kodų skaičių sekų nustatymas
 description: Šioje temoje aprašoma, kaip nustatyti brūkšninio kodo skaičių sekos simbolius ir kaip brūkšninio kodo skaičių seką susieti su brūkšniniu kodu.
-author: rubencdelgado
-manager: AnnBe
+author: BrianShook
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailBarcodeMaskCharacter, RetailBarcodeMaskSetup
 audience: Application User, Developer, IT Pro
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 265994
 ms.assetid: 5831c74d-d2a1-4fa5-9a9a-a5aba8848381
 ms.search.region: global
 ms.search.industry: Retail
-ms.author: rubendel
+ms.author: brshoo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 89b63843daaa714d9141fc362c3d6fcb6ca9a91e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: ddba3ef6c6a1fb1f71198291d5eccd44be737336
+ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4414445"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7779827"
 ---
 # <a name="set-up-bar-code-masks"></a>Brūkšninių kodų skaičių sekų nustatymas
 
@@ -83,3 +80,6 @@ Brūkšninių kodų skaičių sekos prieš naudojant turi būti priskirtos brūk
 5. Spustelėkite **Įrašyti**.
 
 Brūkšninio kodo skaičių seką dabar galima naudoti produktams kuriant brūkšninius kodus. Aukščiau nurodyti veiksmai yra pavyzdžiai, kaip sukurti produktų brūkšninių kodų skaičių sekas, bet jie iliustruoja ir tai, kaip kurti brūkšninio kodo sekas bet kuriems kitiems palaikomiems brūkšninių kodų tipams. Brūkšninių kodų skaičių sekos, tipai ir ilgiai turi būti koreguojami naudoti jūsų konkrečioje aplinkoje.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

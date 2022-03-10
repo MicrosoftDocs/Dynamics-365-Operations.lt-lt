@@ -1,6 +1,6 @@
 ---
-title: Kas naujo arba pakeista Dynamics 365 Human Resources 2021 m. lapkričio 19 d.
-description: Šioje temoje aprašomos priemonės, kurios yra naujos arba pakeistos Dynamics 365 Human Resources 2021 m. lapkričio 19 d. Microsoft.
+title: Kas naujo ar pakeista Dynamics 365 Human Resources 2021 m. lapkričio 19 d
+description: Šioje temoje aprašomos funkcijos, kurios yra naujos arba pakeistos atskiroje Microsoft Dynamics 365 Human Resources 2021 m. lapkričio 19 d.
 author: marcelbf
 ms.date: 12/03/2021
 ms.topic: article
@@ -15,14 +15,14 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-12-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3a86c1c24fbc758f4e3d0fd8b052e02078bee41e
-ms.sourcegitcommit: 88f8a0369ce66b82314db9639491b695e18a7e5c
-ms.translationtype: HT
+ms.openlocfilehash: 618d90f95637002f444b334e16d3fef466dda65e
+ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7902972"
+ms.lasthandoff: 02/02/2022
+ms.locfileid: "8087479"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-human-resources-november-19-2021"></a>Kas naujo arba pakeista Dynamics 365 Human Resources 2021 m. lapkričio 19 d.
+# <a name="whats-new-or-changed-in-dynamics-365-human-resources-november-19-2021"></a>Kas naujo ar pakeista Dynamics 365 Human Resources 2021 m. lapkričio 19 d
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -30,11 +30,11 @@ ms.locfileid: "7902972"
 
 Daugiau informacijos apie mūsų atnaujinimo procesą ir grafiką žr. [Atnaujinimo procesas](hr-admin-setup-update-process.md).
 
-Daugiau informacijos apie naujas funkcijas ir numatomas bendras užimtumo datas ieškokite [Dynamics 365 Human Resources 2021 išleidimo bangoje 2](/dynamics365-release-plan/2021wave2/human-resources/dynamics365-human-resources/).
+Norėdami gauti daugiau informacijos apie naujas funkcijas ir numatomas bendras jų pasiekiamumo datas, žr [Dynamics 365 Human Resources 2021 m. išleidimo banga 2](/dynamics365-release-plan/2021wave2/human-resources/dynamics365-human-resources/).
 
 ## <a name="in-this-release"></a>Šiame leidime
 
-Šiame leidime yra šios klaidos pataisos. Pakeitimai taikomi 8.1.4591 komponavimo versijai.
+Į šį leidimą įtraukti šie klaidų pataisymai. Pakeitimai taikomi 8.1.4591 komponavimo versijai.
 
 ### <a name="bug-fixes"></a>Klaidų ištaisymai
 
@@ -45,12 +45,12 @@ Toliau nurodyti klaidų ištaisymai įtraukti į šį leidimą.
 
 | Problemos numeris | Problema | Aprašymas |
 |---|---|---|
-| 626178 | Vadybininko savitarnoje trūksta **naršymo** | Šis išdavimas dabar yra fiksuotas. Naršymą galima peržiūrėti išsamią ataskaitos informaciją vadybininko **savitarnoje**. |
-| 632573 | Įrašant kursą tikrinimo klaidos **nėra** | Šis išdavimas dabar yra fiksuotas. Kuriant kursą, kuriame minimalus dalyvių skaičius didesnis nei 0, vis dar buvo leidžiama įrašyti net tada, kai maksimalus dalyvių skaičius **yra** **0**. |
-| 615955 | Kuriant naują **įdarbinimo užklausos vietą įvyko klaida** "Laukas Paskirtis turi būti užpildyta". | Kuriant naujos įdarbinimo užklausos vietos adresą, rodoma klaida: reikia užpildyti lauką Paskirtis. Tačiau **puslapyje** laukas Paskirtis negalimas. |
-| 620797 | Ne **besilydinga** gimtinės lauko klaida | Kai neįvedami asmeninio kontakto lytis, ataskaitoje rodoma "Spustelėkite arba spustelėkite čia, norėdami įvesti tekstą", – šiame lauke nieko negalima įvesti kaip klaidingo. |
-| 620800 | Išmokų išrašo saitas paslėptas | Pagal numatytuosius nustatymus darbuotojų savitarnoje išmokų **išrašo peržiūrėti** negalima.  Saitas buvo pridėtas dešinėje darbuotojų **savitarnos paslaugos dalyje** **Saitai** |
-| 629778 | Efektyvumo problema su CDS integravimą. | Dėl su autorizavimu susijusios užklausos buvo išduotas našumas. |
+| 626178 | Darbuotojo išklotinėse nėra naršymo **Vadovo savitarna** | Šis išdavimas dabar yra fiksuotas. Naršymas pasiekiamas norėdami pamatyti išsamią ataskaitos informaciją **Vadovo savitarna**. |
+| 632573 | Įrašant nėra patvirtinimo klaidos **Kursas** | Šis išdavimas dabar yra fiksuotas. Kurdami kursą su **Minimalus dalyvių skaičius** į didesnį nei 0 vis tiek buvo leista išsaugoti net tada, kai **Maksimalus dalyvių skaičius** yra 0. |
+| 615955 | Klaida „Laukas **Tikslas** turi būti užpildytas kuriant naują įdarbinimo užklausos vietą. | Kurdami adresą naujai įdarbinimo užklausos vietai, gausite klaidą: „Reikia užpildyti lauką „Tikslas“. Tačiau, **Tikslas** laukelis puslapyje nepasiekiamas. |
+| 620797 | Tuščias **Lytis** lauko klaida yra klaidinanti | Kai asmeninio kontakto lytis neįvedama, ataskaitoje rodoma „Spustelėkite arba bakstelėkite čia norėdami įvesti tekstą“ – tai klaidina, nes lauke nieko negalima įvesti. |
+| 620800 | Privalumų ataskaitos nuoroda paslėpta | Pagal numatytuosius nustatymus naudos ataskaita nematoma **Darbuotojų savitarna**.  Dešinėje pusėje buvo pridėta nuoroda **Darbuotojų savitarna** pagal **Nuorodos** skyrius |
+| 629778 | CDS integravimo našumo problema. | Su įgaliojimu susijusi užklausa sukėlė našumo problemą. |
 
 ## <a name="in-preview"></a>Peržiūros režimu
 
@@ -62,6 +62,6 @@ Toliau pateiktos naujos funkcijos yra peržiūrimos. Daugiau informacijos apie t
 
 
 ## <a name="coming-soon"></a>Jau greitai
-Išsamų suplanuotų funkcijų ir jų paleidimų sąrašą rasite ["Dynamics 365" ir pramonės debesyse: 2021 išleidimo banga](/dynamics365-release-plan/2021wave2/human-resources/dynamics365-human-resources/) 2.
+Išsamų planuojamų funkcijų sąrašą ir suplanuotus jų leidimus žr [„Dynamics 365“ ir pramonės debesys: 2021 m. 2 išleidimo banga](/dynamics365-release-plan/2021wave2/human-resources/dynamics365-human-resources/).
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

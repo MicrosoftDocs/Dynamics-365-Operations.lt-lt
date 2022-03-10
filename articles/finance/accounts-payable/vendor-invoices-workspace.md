@@ -1,27 +1,27 @@
 ---
-title: Tiekėjo SF įrašo darbo sritis
+title: Tiekėjo SF automatizavimo darbo sritis
 description: Šioje temoje paaiškinama, kaip nustatyti darbo sritį, kuri susijusi su tiekėjo SF ir kurioje pateikiama informacija, pasiekiama naudojant „Microsoft Power BI”.
 author: abruer
-ms.date: 09/28/2020
+ms.date: 02/14/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.assetid: ''
 ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2020-09-21
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: bac57056af6d85bb30600e13628279801508741d
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
-ms.translationtype: HT
+ms.openlocfilehash: f28cc5f63df2f0d8a4c8cae407f7166aa4fa03db
+ms.sourcegitcommit: 6102f70d4595d01b90afe5b23dfd8ec2ea030653
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837265"
+ms.lasthandoff: 02/16/2022
+ms.locfileid: "8182584"
 ---
-# <a name="vendor-invoice-entry-workspace"></a>Tiekėjo SF įrašo darbo sritis
+# <a name="vendor-invoice-automation-workspace"></a>Tiekėjo SF automatizavimo darbo sritis
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
@@ -30,11 +30,11 @@ ms.locfileid: "5837265"
 
 ## <a name="overview"></a>Peržiūra
 
-Darbo srityje **Tiekėjo SF įrašas** rodoma informacija, susijusi su tiekėjo SF apdorojimu. Joje yra rodinys **Mano darbas** ir puslapis **Analizė – visos įmonės**. Rodinyje **Mano darbas** rodomos suvestinės plytelės, tiekėjų operacijų tinkleliai ir susijusi tiekėjų informacija. Puslapyje **Analizė – visos įmonės** naudojantis „Microsoft Power BI“ galimybėmis parodomos su tiekėjų SF susijusios vizualizacijos.
+Darbo srityje **Tiekėjo SF automatizavimas** rodoma informacija, susijusi su tiekėjo SF apdorojimu. Joje yra rodinys **Mano darbas** ir puslapis **Analizė – visos įmonės**. Rodinyje **Mano darbas** rodomos suvestinės plytelės, tiekėjų operacijų tinkleliai ir susijusi tiekėjų informacija. Puslapyje **Analizė – visos įmonės** naudojantis „Microsoft Power BI“ galimybėmis parodomos su tiekėjų SF susijusios vizualizacijos.
 
 ## <a name="set-up-the-workspace-to-show-power-bi-content"></a>Darbo srities nustatymas, kad būtų rodomas „Power BI” turinys
 
-Turite užbaigti šį nustatymą, kad duomenys būtų rodomi darbo srities **Tiekėjo SF įrašas** „Power BI” vizualizacijose.
+Turite užbaigti šį nustatymą, kad duomenys būtų rodomi darbo srities **Tiekėjo SF automatizavimas** „Power BI” vizualizacijose.
 
 1. Darbo srityje **Funkcijų valdymas** filtruokite sąrašą, kad rastumėte funkciją **Tiekėjo SF automatizavimas**.
 3. Pasirinkite **Įjungti dabar**.
@@ -54,20 +54,20 @@ Norėdami peržiūrėti informaciją, rodomą darbo srityje, turite turėti mok�
 
 ### <a name="company-selection"></a>Įmonės pasirinkimas
 
-Kai funkcija **Automatizuoti tiekėjo SF** įjungta, darbo srities viršuje atsiranda laukas **Įmonė**. Pasirinkus lauką **Įmonė**, paveikiama visa darbo srityje rodoma informacija. Pagal numatytuosius nustatymus rodinyje rodoma įmonės, prie kurios prisijungėte, informacija. Pasirinkus kitą įmonę lauke **Įmonė**, galima rodyti tos įmonės informaciją darbo srityje. Tada galite pasirinkti darbo srities plytelę, norėdami eiti į susijusį pasirinktos įmonės puslapį.
+Kai funkcija **Tiekėjo SF automatizavimas** įjungta, darbo srities viršuje atsiranda laukas **Įmonė**. Pasirinkus lauką **Įmonė**, paveikiama visa darbo srityje rodoma informacija. Pagal numatytuosius nustatymus rodinyje rodoma įmonės, prie kurios prisijungėte, informacija. Pasirinkus kitą įmonę lauke **Įmonė**, galima rodyti tos įmonės informaciją darbo srityje. Tada galite pasirinkti darbo srities plytelę, norėdami eiti į susijusį pasirinktos įmonės puslapį.
 
 ### <a name="summary-tiles"></a>Suvestinės išklotinės
 
 Rodinio **Mano darbas** dalies **Laukiančių SF suvestinė** plytelėse pateikiama jūsų tiekėjo SF būsenų apžvalga. Galite peržiūrėti dar neregistruotus žurnalus ir sulaikytas SF. Be to, yra keturios toliau pateiktos plytelės, susietos su funkcija Tiekėjo SF automatizavimas.
 
-- Būtinas rankinis gavimo kvito gretinimas
-- Gretinimo tikrinimas nesėkmingas
-- SF nepateiktos darbo srautui
-- SF neimportuotos
+- **Būtinas rankinis gavimo kvito gretinimas**
+- **Gretinimo tikrinimas nesėkmingas**
+- **SF nepateiktos darbo srautui**
+- **SF neimportuotos**
 
-(Šios keturios plytelės reikalauja, kad funkcijų valdyme būtų įjungta funkcija Tiekėjo SF automatizavimas.)
+(Šiuose keturiuose numeriuose reikalaujama, kad tiekėjo SF automatizavimo priemonė būtų įjungta **Priemonių valdymas**.)
 
-Norint naudoti plytelę **Atkurti tiekėjo SF**, funkcija turi būti įjungta mokėtinų sumų parametruose. Eikite į **Mokėtinos sumos \> Mokėtinų sumų parametrai**, tada skirtuke **SF** nustatykite parinktį **Leisti tiekėjo SF atkūrimą** į **Taip**.
+Norint naudoti tiekėjo **SF susigrąžinimo išklotinės** dalies funkciją reikia įjungti mokėtinų **sumų parametrus**. Eikite į **Mokėtinos sumos \> Mokėtinų sumų parametrai**, tada skirtuke **SF** nustatykite parinktį **Leisti tiekėjo SF atkūrimą** į **Taip**.
 
 Kai funkcija įjungta, darbo srities skyriuje **Žurnalai** matysite tris sugrupuotas plyteles. Plytelių pavadinimai yra **Žurnalai**, **Žurnalai – priskirti man** ir **SF telkinys**. 
 

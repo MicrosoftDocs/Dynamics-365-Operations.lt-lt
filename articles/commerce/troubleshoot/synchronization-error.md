@@ -2,11 +2,9 @@
 title: Užsakymo sinchronizavimo klaida, susijusi su numatytąja mokėjimo tarnyba
 description: Šioje temoje pateikiamos trikčių diagnostikos priemonės, galinčios padėti ištaisyti klaidą, kuri gali įvykti sinchronizuojant internetinį užsakymą.
 author: Reza-Assadi
-manager: AnnBe
 ms.date: 03/11/2021
 ms.topic: Troubleshooting
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
@@ -17,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: dd7c400f26b6fc7fbe1d4fec43a52295eb363333
-ms.sourcegitcommit: 6c108be3378b365e6ec596a1a8666d59b758db25
-ms.translationtype: HT
+ms.openlocfilehash: 6f8e0ea7675ffc5cbada36207422b410234e33afcaec90636e90e573a90ac484
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/12/2021
-ms.locfileid: "5585441"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6715241"
 ---
 # <a name="order-synchronization-error-related-to-the-default-payment-service"></a>Užsakymo sinchronizavimo klaida, susijusi su numatytąja mokėjimo tarnyba
 
@@ -34,7 +32,7 @@ ms.locfileid: "5585441"
 
 Kai sinchronizuojate internetinį užsakymą, gaunate šį klaidos pranešimą: „Norint apdoroti kredito kortelės operacijas, turi būti nustatyta numatytoji mokėjimo tarnyba.”
 
-![Trūkstamos numatytosios mokėjimo tarnybos klaida](media/default-payment-method-error.jpg)
+![Trūkstamos numatytosios mokėjimo tarnybos klaida.](media/default-payment-method-error.jpg)
 
 ## <a name="resolution"></a>Sprendimas
 
@@ -47,4 +45,4 @@ Norėdami patvirtinti arba nustatyti numatytąją mokėjimo tarnybą „Commerce
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
-[Kredito kortelių nustatymas, autorizacija ir patvirtinimas](https://docs.microsoft.com/dynamics365/finance/accounts-receivable/credit-card-authorizations)
+[Kredito kortelių nustatymas, autorizacija ir patvirtinimas](../../finance/accounts-receivable/credit-card-authorizations.md)

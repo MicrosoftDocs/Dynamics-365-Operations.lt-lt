@@ -1,29 +1,26 @@
 ---
 title: Pareigų prognozavimas
 description: Su darbuotojais susijusios išlaidas dažnai sudaro didelę įmonės išlaidų dalį. Pareigų prognozavimas suteikia galimybę tas išlaidas planuoti ir įtraukti į biudžetų planavimą.
-author: ShylaThompson
-manager: AnnBe
+author: panolte
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HcmPositionForecast
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 64413
 ms.assetid: 35e791d2-1905-4808-a579-7f181ddddd91
 ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d5bae90cf7c8f11fa5409014023d36cc68ae1bd0
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: d43d0f92e666dd512fc6f2681aa8c7b6446edd5c
+ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4446032"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "7595491"
 ---
 # <a name="position-forecasting"></a>Pareigų prognozavimas
 
@@ -33,7 +30,7 @@ Su darbuotojais susijusios išlaidas dažnai sudaro didelę įmonės išlaidų d
 
 ## <a name="position-forecasting-in-budget-planning"></a>Pareigų prognozavimas planuojant biudžetą
 
-[![Pareigų prognozės komponentai](./media/graphic-top.png)](./media/graphic-top.png) 
+[![Pareigų prognozės komponentai.](./media/graphic-top.png)](./media/graphic-top.png) 
 
 Prognozuojant pareigas trys pagrindiniai komponentai naudojami tikslioms pareigų išlaidų biudžeto sumoms pateikti. Tada šias sumas galima įtraukti į biudžeto planą biudžetui skaičiuoti. 
 
@@ -45,14 +42,14 @@ Pagrindinis komponentas yra su **prognozuojamos pareigos**, t. y. visi išlaidų
 
 ### <a name="position-forecasting-processes"></a>Pareigų prognozavimo procesai
 
-[![Pareigų prognozės procesų iliustravimas](./media/graphic1b.png)](./media/graphic1b.png) 
+[![Pareigų prognozės procesų iliustravimas.](./media/graphic1b.png)](./media/graphic1b.png) 
 
 Įprasto pareigų prognozavimo proceso metu pirmiausia sukuriami sąrankos komponentai (biudžeto išlaidų elementai ir kompensacijų grupės). Tada prognozuojamos pareigos sugeneruojamos pagal esamas pareigas. Tada galite atlikti koregavimus. Pvz., galite įtraukti arba šalinti pareigas, keisti užmokesčio tarifus ir išmokų išlaidas bei įtraukti atlyginimo didinimus. Galite kurti kelias prognozuojamų pareigų versijas, kad galėtumėte lengviau palyginti skirtingus biudžeto sudarymo scenarijus. Tada prognozuojamas pareigas galite įtraukti į biudžeto planus ir prognozuojamų pareigų išlaidas įtraukti kaip biudžeto plano eilutes.
 
 Papildomas prognozuojamų pareigų versijas galima kurti, kai peržiūrimi biudžeto planai. Šios naujos versijos yra tikslinimų pagrindas.
 
 ## <a name="position-forecasting-setup"></a>Pareigų prognozavimo sąranka
-[![Iliustracija, išryškinanti sąranką](./media/graphic2-1024x327.png)](./media/graphic2.png)
+[![Iliustracija, išryškinanti sąranką.](./media/graphic2-1024x327.png)](./media/graphic2.png)
 
 ### <a name="budget-cost-elements"></a>Biudžeto išlaidų elementai
 
@@ -70,9 +67,9 @@ Jūratės organizacija teikia 5 proc. darbuotojo pagrindinio atlygio mokymo išm
 
 Jūratė nenori, kad vadovai keistų išmokos sumą. Todėl lauke **Prognozuojamų pareigų perrašymas** ji pasirenka **Neleisti keisti išlaidų**. Organizacija nori, kad šios išlaidos būtų tolygiai paskirstytos kiekvienam mėnesiui. Todėl lauke **Paskirstymo metodas** Jūratė pasirenka **Kas ketvirtį**. 
 
-Tada Jūratė įtraukia išlaidų skaičiavimo eilutę, nustato datas ir pagrindinę sąskaitą bei kaip procentą įveda **5,00**. Jos organizacija šiai išmokai per metus gali skirti 5 000 JAV dolerių. Todėl Jūratė įveda šią sumą kaip metinę ribą. 
+Tada Jūratė įtraukia išlaidų skaičiavimo eilutę, nustato datas ir pagrindinę sąskaitą bei kaip procentą įveda **5,00**. Organizacija šiai išmokai per metus gali skirti 5 000 JAV dolerių. Todėl Jūratė įveda šią sumą kaip metinę ribą. 
 
-Galiausiai Jūratė įtraukia visus uždarbio išlaidų elementus, kurie yra naudojami kaip pagrindinio užmokesčio skaičiavimo pagrindas. Dabar jos biudžeto išlaidų elementas yra parengtas naudoti.
+Galiausiai Jūratė įtraukia visus uždarbio išlaidų elementus, kurie yra naudojami kaip pagrindinio užmokesčio skaičiavimo pagrindas. Dabar biudžeto išlaidų elementas yra parengtas naudoti.
 
 ### <a name="compensation-groups"></a>Kompensacijų grupės
 
@@ -89,7 +86,7 @@ Kompensacijų grupės laukai **Padidinimo grafikas** ir **Padidinimo data** yra 
 Kompensacijų grupėje pasirinktas pajamų išlaidų elementas yra naudojamas, kai grupėje kuriate prognozuojamų pareigų pajamas, įskaitant jų pagrindinį užmokestį ir bet kokio etapo didinimą. Laukas **Pastoviosios atlyginimo dalies planas** kompensacijų grupę su personalo pastoviosios atlyginimo dalies planu. Šis saitas gali darbuotojo pastoviosios atlyginimo dalies informaciją priskirti prognozuojamoms pareigoms, o dėl to gali būti tiksliau planuojamas biudžetas. Atminkite, kad kompensacijų grupės kompensacijų tinklelio struktūra (lygiai ir etapai) turi atitikti pastoviosios atlyginimo dalies plano struktūrą. Kitu atveju sistema negali kompensacijų grupės tinkamai susieti su pastoviosios atlyginimo dalies planu.
 
 ## <a name="creating-forecast-positions"></a>Prognozuojamų pareigų kūrimas
-[![Iliustracija, išryškinanti „prognozuojamų pareigų kūrimas“](./media/graphic3-1024x327.png)](./media/graphic3.png)
+[![Iliustracija, išryškinanti „prognozuojamų pareigų kūrimas.“](./media/graphic3-1024x327.png)](./media/graphic3.png)
 
 ### <a name="creating-forecast-positions-for-existing-positions"></a>Esamų pareigų prognozuojamų pareigų kūrimas
 
@@ -118,7 +115,7 @@ Pasirinkę prognozuojamas pareigas, pasirinkite **Kopijuoti pasirinktas prognozu
 Taip pat galite kurti visiškai naujas prognozuojamas pareigas. Pasirinkite esamą užduotį ir biudžeto planavimo procesą bei biudžeto plano scenarijų. Tada galite įtraukti kitą norimą informaciją. Įsidėmėkite: tuo pačiu metu sukuriamos ir naujos personalo pareigos.
 
 ## <a name="working-with-forecast-positions"></a>Darbas su prognozuojamomis pareigomis
-[![Iliustracija, išryškinanti „prognozuojamų pareigų keitimas“](./media/graphic5-1024x327.png)](./media/graphic5.png)
+[![Iliustracija, išryškinanti „prognozuojamų pareigų keitimas.“](./media/graphic5-1024x327.png)](./media/graphic5.png)
 
 ### <a name="multiple-versions-of-a-forecast-position"></a>Kelios prognozuojamų pareigų versijos
 
@@ -140,7 +137,7 @@ Biudžeto išlaidų elemento eilutes reikia perskaičiuoti, kai pasikeičia prog
 
 **Pavyzdys** 
 
-Organizacija svarsto du būdus, kaip sumažinti buhalterio pareigų išlaidas. Vienas būdas yra baigti pareigų dalį metuose. Kitas būdas yra keisti pareigas į pusės etato visus metus. Benas sukūrė esamų buhalterio pareigų prognozuojamas pareigas pagal pagrindinį scenarijų. Jis kopijuoja šias pagrindines prognozuojamas pareigas į A scenarijų, nustato pabaigos datą į gegužės 31 d. ir perskaičiuoja. Tada Benas kopijuoja pagrindines prognozuojamas pareigas į B scenarijaus, pakeičia FTE reikšmę į **0,50** ir perskaičiuoja. Dabar Benas turi tris versijas, kurių kiekvienos bendrosios išlaidų sumos yra suderintos su jo parinktimis.
+Organizacija svarsto du būdus, kaip sumažinti buhalterio pareigų išlaidas. Vienas būdas yra baigti pareigų dalį metuose. Kitas būdas yra keisti pareigas į pusės etato visus metus. Benas sukūrė esamų buhalterio pareigų prognozuojamas pareigas pagal pagrindinį scenarijų. Benas kopijuoja šias pagrindines prognozuojamas pareigas į A scenarijų, nustato pabaigos datą į gegužės 31 d. ir perskaičiuoja. Tada Benas kopijuoja pagrindines prognozuojamas pareigas į B scenarijaus, pakeičia FTE reikšmę į **0,50** ir perskaičiuoja. Dabar Benas turi tris versijas, kurių kiekvienos bendrosios išlaidų sumos yra suderintos su jo parinktimis.
 
 #### <a name="assigning-a-compensation-group"></a>Kompensacijų grupės priskyrimas
 
@@ -174,7 +171,7 @@ Perskaičiavimo procesas automatiškai taikomas visoms prognozuojamoms pareigoms
 
 ## <a name="bringing-forecast-positions-into-budget-plans"></a>Prognozuojamų pareigų perdavimas į biudžeto planus
 
-[![Iliustracija, išryškinanti „Įtraukimas į biudžeto planą“](./media/graphic6-1024x327.png)](./media/graphic6.png)
+[![Iliustracija, išryškinanti „Įtraukimas į biudžeto planą.“](./media/graphic6-1024x327.png)](./media/graphic6.png)
 
 Prognozuojamų pareigų kūrimo ir modifikavimo paskirtis – įtraukti jas į biudžeto planus, kad biudžeto planuose būtų pateikiamos tiksliausios biudžeto sumos. Yra du prognozuojamų pareigų įtraukimo į biudžeto planus būdai. Galite naudoti biudžeto plano generavimo procesą arba parinkimo procesą.
 
@@ -218,3 +215,6 @@ Norėdami pamatyti, į kuriuos biudžeto planus prognozuojamos pareigos buvo įt
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

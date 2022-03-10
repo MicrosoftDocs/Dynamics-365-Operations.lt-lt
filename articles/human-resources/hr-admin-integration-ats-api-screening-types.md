@@ -2,28 +2,30 @@
 title: Atrankos tipai
 description: Šioje temoje aprašomas atrankų tipų objektas „Dynamics 365 Human Resources“.
 author: jaredha
-manager: tfehr
 ms.date: 02/05/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 227c15acb44e020ea9858961e45c11ad07e18a74
-ms.sourcegitcommit: 33b5c8bc4f9461e290513aa22de1ec1fba3b0742
-ms.translationtype: HT
+ms.openlocfilehash: bcbf22aac78f1ff96edb7dd927721453f8d10fa5
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "5126175"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8067759"
 ---
 # <a name="screening-types"></a>Atrankos tipai
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Šioje temoje aprašomas atrankų tipų objektas „Dynamics 365 Human Resources“.
 
@@ -61,3 +63,6 @@ Fizinis pavadinimas: mshr_hcmscreeningtypeentity
 
 [Aplikanto sekimo sistemos integravimo API įžanga](hr-admin-integration-ats-api-introduction.md)<br>
 [Samdomo pretendento pavyzdžio užklausa](hr-admin-integration-ats-api-candidate-to-hire-example-query.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

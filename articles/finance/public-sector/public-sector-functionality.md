@@ -1,29 +1,29 @@
 ---
 title: Viešojo sektoriaus pagrindinis puslapis
-description: „Dynamics 365 Finance“ palaiko bendrus viešojo sektoriaus verslo procesus. Jie apima biudžeto, pirkimo, mokėtinų sumų ir gautinų sumų užduotis.
-author: ShylaThompson
-manager: AnnBe
+description: „Dynamics 365 Finance“ palaiko bendrus viešojo sektoriaus verslo procesus. Šie procesai apima biudžeto, pirkimo, mokėtinų sumų ir gautinų sumų užduotis.
+author: v-kiarnd
 ms.date: 06/20/2017
 ms.topic: index-page
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysConfiguration
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: 20691
+ms.custom:
+- "20691"
+- intro-internal
 ms.assetid: 391a6899-7011-40bc-b54b-5665b06bcecb
 ms.search.region: Global
 ms.search.industry: Public sector
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7d4b499337d26e2209ee73f2f8ea93f55a124652
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: f59522ab857445d69012f4cfdfade47c40189266
+ms.sourcegitcommit: 52a6b038d42ab28092bb942c61f5196330db3a7b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5218737"
+ms.lasthandoff: 11/17/2021
+ms.locfileid: "7817746"
 ---
 # <a name="public-sector-home-page"></a>Viešojo sektoriaus pagrindinis puslapis
 
@@ -65,8 +65,7 @@ Naudokite viešojo sektoriaus funkcijas, kurios padės laikytis viešojo sektori
 | Antriniai raktai | **Išplėstinės didžiosios knygos įrašas** konfigūracijos raktas (AdvancedLedgerEntry) **Viešasis sektorius 1099G** konfigūracijos raktas (Tax1099G) **Viešasis sektorius 1099S** konfigūracijos raktas (Tax1099S) **Prancūzijos reglamentavimas** konfigūracijos raktas |
 
 
-<a name="additional-resources"></a>Papildomi ištekliai
---------
+## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Viešojo sektoriaus funkcijų planas](plan-public-sector-functionality.md)
 

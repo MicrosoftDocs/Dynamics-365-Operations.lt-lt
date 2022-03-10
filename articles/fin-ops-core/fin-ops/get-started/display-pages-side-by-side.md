@@ -2,11 +2,9 @@
 title: Vieno šalia kito puslapių rodymas naudojant funkciją Atidaryti naujame lange
 description: Šiame straipsnyje aiškinama, kaip puslapius rodyti vieną šalia kito.
 author: aneesmsft
-manager: AnnBe
 ms.date: 11/20/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
@@ -16,16 +14,19 @@ ms.search.region: Global
 ms.author: aneesa
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 35ade352edf31fe895a9b9118a8ad7d5fe6c0bde
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
-ms.translationtype: HT
+ms.openlocfilehash: a4c8086d511892f8965dfefca2789742a006f63f
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4798408"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8068064"
 ---
 # <a name="show-pages-side-by-side-using-the-open-in-new-window-feature"></a>Vieno šalia kito puslapių rodymas naudojant funkciją Atidaryti naujame lange
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Šiame straipsnyje paaiškinta, kaip puslapius rodyti vieną šalia kito.
 
@@ -48,3 +49,6 @@ Prieš naudodami funkciją **Atidaryti naujame lange**, turėtumėte sukonfigūr
 Funkciją **Atidaryti naujame lange** galima naudoti tik kai lange atidarytas daugiau nei vienas puslapis. Be to, kai nebėra atidarytų puslapių (tai yra, kai uždarote to lango paskutinį puslapį), iššokantysis langas automatiškai užsidaro. Sistema taip pat uždaro atidarytus puslapius, kai pereinate į kitą programos sritį. Todėl, jei yra atidarytų iššokančiųjų langų ir jūs pereinate į kitą programos sritį, iššokantieji langai uždaromi automatiškai, nes sistema uždarė tų langų puslapius.
 
 Iššokančiųjų langų viršutinėje juostoje rodoma informacija apie įmonę, kurioje puslapis buvo atidarytas, ir juostą galima tik skaityti. Iššokantieji langai taip pat priklauso nuo pagrindinio naršyklės lango. Jei pagrindinis langas uždaromas ar atnaujinamas, visus atidarytus iššokančiuosius langus bus galima tik skaityti. Jei susiklosto tokia situacija, tai reiškia, kad vis dar galite peržiūrėti tų langų informaciją, bet negalėsite su ja sąveikauti.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

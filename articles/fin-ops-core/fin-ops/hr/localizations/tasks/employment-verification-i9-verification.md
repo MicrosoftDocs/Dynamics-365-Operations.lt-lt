@@ -2,55 +2,61 @@
 title: Įdarbinimo i9 tikrinimas
 description: Imigracinės reformos ir kontrolės įstatymas reikalauja, kad JAV darbdaviai tikrintų naujai samdomų darbuotojų įdarbinimo tinkamumo būseną.
 author: ShielaSogge
-manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 01/10/2022
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HcmWorker, HcmPersonIdentificationNumber, Hcmi9Document
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ab03e28b3e42d02395da01024bc3bcf4dbcd5abf
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
-ms.translationtype: HT
+ms.openlocfilehash: b76102111a8506882f2301d76856ae1a34a7c704
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4798099"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8065686"
 ---
 # <a name="employment-verification-i9-verification"></a>Įdarbinimo i9 tikrinimas
 
 [!include [banner](../../../includes/banner.md)]
 
+
+[!INCLUDE [PEAP](../../../../../includes/peap-1.md)]
+
 Imigracinės reformos ir kontrolės įstatymas reikalauja, kad JAV darbdaviai tikrintų naujai samdomų darbuotojų įdarbinimo tinkamumo būseną. Ši procedūra padės žingsnis po žingsnio atlikti I-9 patikrinimui reikalingų dokumentų įrašymo veiksmus. Šiai procedūrai naudokite įmonę USMF.
 
-1. Pasirinkite Personalas > Darbuotojai > Darbuotojai.
-2. Norėdami rasti įrašus, naudokite spartųjį filtrą. Pvz., filtruokite lauką „Pavadinimas“ reikšme „Vince“.
-3. Pasirinkite darbuotoją. Pavyzdys: Vince Prado
-4. Išplėskite „FastTab“ asmeninę informaciją.
-5. Spustelėkite „Identifikacijos numeriai“.
-6. Spustelėkite Naujas.
-7. Pasirinkite įrašomą identifikacijos tipą. Pavyzdys: pasas
-8. Lauke Numeris surinkite reikšmę.
-9. Lauke Pagrindinis pasirinkite Taip.
-10. Lauke „Aprašas“ įveskite trumpą identifikacijos įrašo aprašą.
-11. Lauke „Išdavusi institucija“ pasirinkite instituciją, kuri išdavė darbuotojo identifikacijos formą. Pavyzdys: vyriausybė
-12. Įveskite datą, kada išdavusioji institucija išdavė darbuotojo identifikacijos formą. Pavyzdys: 2011-02-15
-13. Įveskite identifikacijos galiojimo pabaigos datą. Pavyzdys: 2021-02-15
-14. Spustelėkite Įrašyti.
+1. Eiti į **Žmogiškieji ištekliai \> Darbininkai \> Darbuotojai**.
+2. Norėdami rasti įrašus, naudokite spartųjį filtrą. Pavyzdžiui, filtruokite pagal reikšmę **Vince** už **vardas** lauke.
+3. Pasirinkite darbuotoją. Pavyzdžiui, pasirinkite **Vincas Prado**.
+4. Pasirinkite **Asmeninė informacija** FastTab.
+5. Pasirinkite **Identifikaciniai numeriai**.
+6. Pasirinkite **Nauja**.
+7. Pasirinkite įrašomą identifikavimo tipą. Pavyzdžiui, pasirinkite **Pasas**.
+8. Viduje konors **Skaičius** lauke įveskite reikšmę.
+9. Viduje konors **Pirminis** lauką, pasirinkite **Taip**.
+10. Viduje konors **apibūdinimas** laukelyje įveskite trumpą identifikavimo įrašo aprašymą.
+11. Viduje konors **Išduodanti agentūra** lauke pasirinkite įstaigą, kuri išdavė darbuotojo tapatybės dokumentą. Pavyzdžiui, pasirinkite **Vyriausybė**.
+12. Įveskite datą, kai išduodanti agentūra išdavė darbuotojui tapatybės dokumentą. Pavyzdžiui, įveskite **2011-02-15** (2011 m. vasario 15 d.).
+13. Įveskite identifikacijos galiojimo pabaigos datą. Pavyzdžiui, įveskite **2021-02-15** (2021 m. vasario 15 d.).
+14. Pasirinkite **Įrašyti**.
 15. Uždarykite puslapį.
-16. Spustelėkite skirtuką Užimtumas.
-17. Spustelėkite „I-9“.
-18. Spustelėkite Naujas.
-19. Lauke „Tinkamumas dirbti“ pasirinkite parinktį.
-    * Jei darbuotojas nėra Jungtinių Amerikos Valstijų pilietis, turite įvesti darbuotojo gyventojo iš užsienio arba leidimo numerį.  
-20. Pasirinkite parinktį „GroupListA“.
-    * Pasirenkamas sąrašas priklauso nuo to, kokią identifikavimo formą pateikę darbuotojas. Darbuotojas turi pateikti vieną A sąrašo dokumentą arba vieną dokumentą iš B ir C sąrašo. Jei darbuotojas pateikia pasą, galima rinktis A sąrašą. Tačiau, jei darbuotojas pateikia tik vairuotojo pažymėjimą ir socialinio draudimo kortelę, būtina rinktis B ir C sąrašą.  
-21. Lauke „I-9 dokumento tipas“ pasirinkite darbuotojo pateiktą dokumento tipą.
-22. Lauke Dokumento numeris įveskite arba pasirinkite reikšmę.
-23. Spustelėkite Įrašyti.
+16. Pasirinkite **Užimtumas** skirtukas.
+17. Pasirinkite **I-9**.
+18. Pasirinkite **Nauja**.
+19. Viduje konors **Tinkamumas dirbti** lauke, pasirinkite parinktį.
 
+    Jei darbuotojas nėra JAV pilietis ar pilietis, turite įvesti darbuotojo nuolatinį užsienietį arba priėmimo numerį.
+
+20. Pasirinkite **GroupListA** variantas.
+
+    Pasirinktas sąrašas priklauso nuo darbuotojo pateiktos identifikacijos formos. Darbuotojas turi pateikti vieną dokumentą iš sąrašo A arba vieną dokumentą iš sąrašo B ir C. Pavyzdžiui, jei darbuotojas pateikė pasą, galite pasirinkti A sąrašą. Tačiau jei darbuotojas pateikė tik vairuotojo pažymėjimą ir socialinio draudimo pažymėjimą. kortelę, turite pasirinkti B ir C sąrašą.
+
+21. Viduje konors **I-9 dokumento tipas** lauke pasirinkite darbuotojo pateikto dokumento tipą.
+22. Viduje konors **Dokumento numeris** lauką, įveskite arba pasirinkite reikšmę.
+23. Pasirinkite **Įrašyti**.
+
+[!INCLUDE[footer-include](../../../../../includes/footer-banner.md)]

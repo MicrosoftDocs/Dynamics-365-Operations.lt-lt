@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: v-gfedorova
 ms.search.validFrom: 2021-09-01
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 72273a125da2e6c4a2fc16b449cd5077f3d767df
-ms.sourcegitcommit: fcfd85a508c0de52cfe11d1986892219e39ef406
-ms.translationtype: HT
+ms.openlocfilehash: b5f7342a997407c8701b836c2a6a6222d8512121
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7548418"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8074999"
 ---
 # <a name="create-and-invoice-an-intercompany-sales-order-for-an-external-customer"></a>Vidinės įmonės pardavimo užsakymo kūrimas ir sąskaitos faktūros išrašymas išoriniam klientui
 
@@ -75,5 +75,18 @@ Atlikite šiuos veiksmus juridiniame subjekte B. Ši procedūra atitinka iliustr
 1. Pasirinkite pardavimo užsakymą ir rinkitės **Gerai**.
 
 Vidinės įmonės pardavimo užsakymo kliento SF automatiškai užregistruojama juridiniame subjekte B. Tada automatiškai sukuriama ir juridiniame subjekte A užregistruojama vidinės įmonės tiekėjo SF. Jei pradinis pardavimo užsakymas yra nustatytas kaip tiesioginis pristatymas, juridiniame subjekte A sukuriama pradinio pardavimo užsakymo kliento SF.
+
+> [!NOTE]
+> Anksčiau tarp įmonių pardavimo scenarijuose, jei tiekėjo sąskaitos faktūros darbo eiga buvo sukonfigūruota tarpįmonių pirkimo įmonėje, tarp įmonių pardavimo užsakymo nebuvo galima sėkmingai išrašyti sąskaitos faktūros. Todėl tiekėjo sąskaitų faktūrų darbo eiga turėjo būti išjungta tarpįmonių perkančiajai įmonei. 
+> 
+> Šis apribojimas buvo ištaisytas naudojant naujausią 10.0.25 versijos funkciją. Dabar tarp įmonių pardavimo užsakymus galima išrašyti sąskaitas faktūras, kai tiekėjo sąskaitų faktūrų darbo eiga sukonfigūruojama tarpįmonių pirkimo įmonėje.
+> 
+> Norėdami įjungti šią funkciją, atlikite šiuos veiksmus.
+>
+> 1. Pasirinkite tarpįmonių pardavimo juridinį asmenį.  
+> 2. Eikite į **Gautinos sumos \> Klientai \> Visi klientai**.
+> 3. Pasirinkite tarpįmonių pirkimo įmonės klientą.
+> 4. Eiti į **Generolas \> Nustatyti \> Tarpkompanija**.
+> 5. Ant **Pirkimo užsakymo taisyklės** skirtuką, pasirinkite **Apeiti tiekėjo sąskaitų faktūrų darbo eigą tarp įmonių tiekėjo sąskaitoms faktūroms** parametras.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

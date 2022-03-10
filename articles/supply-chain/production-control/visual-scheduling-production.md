@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 143aa5c3ba4d6064cde63f8e7ebeac0977b1325c
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
-ms.translationtype: HT
+ms.openlocfilehash: 180fb7b31ea826c546aa8472a7ef4025a3b8865a783a5b662ed30b69f98acf92
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5908711"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6730207"
 ---
 # <a name="gantt-chart-for-job-scheduling"></a>Ganto diagramos naudojimas užduotims planuoti
 
@@ -45,12 +45,12 @@ Ganto diagramą galima atidaryti dviem skirtingais būdais, **Užsakymo rodinys*
 
 ## <a name="order-view"></a>Užsakymo rodinys
 
-[![Užsakymo rodinys](./media/orderview.png)](./media/orderview.png)
+[![Užsakymo rodinys.](./media/orderview.png)](./media/orderview.png)
 
 ## <a name="resource-view"></a>Išteklių rodinys
-[![Išteklių rodinys](./media/resview.png)](./media/resview.png)
+[![Išteklių rodinys.](./media/resview.png)](./media/resview.png)
 
-## <a name="activities"></a>Veiklos rūšys
+## <a name="activities"></a>Veiklos
 Veikla rodoma kaip juostos ir išdėstoma laiko skalės tinklelyje nurodant suplanuotą pradžios ir pabaigos laiką, todėl juostų ilgis yra proporcingas laikui, kuris būtinas veiklai atlikti. Veikla rodoma pagal laiko skalę. Galite reguliuoti laiko skalę meniu, kuriame pasirenkate pradžios ir pabaigos datą bei laiko vienetą, pvz., valandas arba dienas. Reguliuodami laiko skalę galite nustatyti laiko intervalo centrą, kuriame norite tvarkyti veiklą. 
 
 Norint gauti geresnę apžvalgą yra skirtingų parinkčių, kuriomis galima valdyti veiklos spalvą. Galite konfigūruoti atskirą veiklos spalvą, naudoti temos spalvą, kuri yra bendra programoje naudojama spalvų tema, arba nustatyti, kad spalva būtų valdoma pagal gamybos užsakymų spalvos kodą. 
@@ -102,25 +102,25 @@ Ganto diagramoje neįmanoma suplanuoti užduoties, kuri nepatenka į nustatytą 
 
 Veiklos tinkle, pvz., kai užduotys priklauso tam pačiam gamybos užsakymui, galite naudoti funkciją **Planuoti ankstesnes užduotis** norėdami suplanuoti ankstesnes užduotis, susijusias su pasirinkta tinklo užduotimi. Šiame pavyzdyje pažymėta veikla yra pasirinkta užduotis. Diagrama rodoma prieš suplanuojant ankstesnę užduotį ir ją suplanavus. 
 
-[![Ankstesnės užduoties planavimas](./media/schprevjob3.png)](./media/schprevjob3.png)
+[![Ankstesnės užduoties planavimas.](./media/schprevjob3.png)](./media/schprevjob3.png)
 
 ### <a name="schedule-next-jobs"></a>Planuoti kitas užduotis
 
 Galite naudoti funkciją **Planuoti kitas užduotis** norėdami suplanuoti kitas užduotis, susijusias su pasirinkta veiklos tinklo užduotimi. Šiame pavyzdyje pažymėta veikla yra pasirinkta užduotis. Diagrama rodoma prieš suplanuojant kitą užduotį ir ją suplanavus. 
 
-[![Kitos užduoties planavimas](./media/schnxtjob.png)](./media/schnxtjob.png)
+[![Kitos užduoties planavimas.](./media/schnxtjob.png)](./media/schnxtjob.png)
 
 ### <a name="schedule-around-job"></a>Planuoti aplink užduotį
 
 Galite naudoti funkciją **Planuoti aplink užduotį** norėdami suplanuoti tolesnę užduotį ir ankstesnę užduotį, susijusią su pasirinkta veiklos tinklo užduotimi. Šiame pavyzdyje pažymėta veikla yra pasirinkta užduotis. Diagrama rodoma prieš suplanuojant užduotį ir ją suplanavus. 
 
-[![Planuoti aplink užduotį](./media/scharoundjob1.png)](./media/scharoundjob1.png)
+[![Planuoti aplink užduotį.](./media/scharoundjob1.png)](./media/scharoundjob1.png)
 
 ### <a name="arrange-jobs"></a>Išdėstyti darbus
 
 Galite naudoti funkciją **Išdėstyti** norėdami išdėstyti pasirinktą to paties ištekliaus veiklą. Ši veikla gali būti tame pačiame veiklos tinkle, tačiau taip pat gali priklausyti skirtingiems tinklams. Kai naudojate išdėstymo funkciją, bus pašalinti laiko tarpai, esantys tarp pasirinktų veiklų. Galite naudoti šią funkciją norėdami optimizuoti išteklių pajėgumo naudojimą. Diagrama rodoma prieš suplanuojant užduotį ir ją suplanavus. 
 
-[![Užduoties išdėstymas](./media/arrangejobs1.png)](./media/arrangejobs1.png)
+[![Užduoties išdėstymas.](./media/arrangejobs1.png)](./media/arrangejobs1.png)
 
 ### <a name="reassign-activities-from-one-resource-to-another"></a>Iš naujo priskirti veiklą iš vieno ištekliaus kitam
 

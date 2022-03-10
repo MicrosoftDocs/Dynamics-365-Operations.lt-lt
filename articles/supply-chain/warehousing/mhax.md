@@ -5,7 +5,6 @@ author: Mirzaab
 ms.date: 03/04/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WMHEParameters, WMHESubscription, WMHEQueueManagerWorkspace, WMHEInboundQueue, WMHEOutboundQueue
 audience: Application User
@@ -14,13 +13,13 @@ ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-04
-ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 9273e4a1f6b3f57086c921c4beb0530a67ccd976
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
-ms.translationtype: HT
+ms.dyn365.ops.version: 10.0.17
+ms.openlocfilehash: 7e71ca2877effe671723be53e844e8401714038a
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5810515"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7565214"
 ---
 # <a name="material-handling-equipment-interface-mhax"></a>Medžiagų tvarkymo įrangos sąsaja (MHAX)
 
@@ -30,7 +29,7 @@ ms.locfileid: "5810515"
 
 Toliau pateiktoje iliustracijoje parodomi įvairūs elementai ir tvarka, pagal kurią vykdomi procesai naudojant MHAX integravimą.
 
-![MHAX komponentai ir sąveikos](media/mhax-components.png "MHAX komponentai ir sąveikos")
+![MHAX komponentai ir sąveikos.](media/mhax-components.png "MHAX komponentai ir sąveikos")
 
 Toliau pateikiamas sąveikų, kurios parodytos ankstesnėje iliustracijoje, paaiškinimas.
 

@@ -2,8 +2,8 @@
 title: „Adventure Works” temos apžvalga
 description: Šioje temoje apžvelgiama „Adventure Works” tema ir aprašoma, kaip ją taikyti svetainės puslapiams, esantiems „Microsoft Dynamics 365 Commerce”.
 author: anupamar-ms
-ms.date: 07/08/2021
-ms.topic: article
+ms.date: 12/03/2021
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
@@ -14,36 +14,48 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: c7557a36a948de5ae877d74bbbdea78821099b82
-ms.sourcegitcommit: 7e976059118938b0089e40bef948029a8c088b38
-ms.translationtype: HT
+ms.openlocfilehash: 34ea24e2d81a69d720973455492f9e05ed34dd81
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/09/2021
-ms.locfileid: "6479502"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7983699"
 ---
 # <a name="adventure-works-theme-overview"></a>„Adventure Works” temos apžvalga
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 Šioje temoje apžvelgiama „Adventure Works” tema ir aprašoma, kaip ją taikyti svetainės puslapiams, esantiems „Microsoft Dynamics 365 Commerce”.
 
 „Dynamics 365 Commerce” turi elektroninės prekybos temą, kuri vadinama „Adventure Works”. „Adventure Works” tema rodo sporto ir laisvalaikio produktus, bei yra optimizuota gausiai ir patobulintai pasakojimo patirčiai. Ji suteikia modernią išvaizdą, naujus maketus ir animacijos efektus, kurie sukuria įtraukiančią ir patrauklią internetinio apsipirkimo patirtį elektroninės prekybos klientams.
 
-„Adventure Works” tema pateikia šias naujas darbo eigas:
+## <a name="trial-environments-in-commerce"></a>„Commerce” bandomosios aplinkos
 
-- Vaizdo įrašų leistuvo modulis dabar palaiko antraštės, paragrafo ir saitų funkcijas, skirtas papildomam pasakojimui.
-- Įtraukimo į krepšelį veiksmas iškviečia mažą krepšelį, o ne pateikia pranešimą.
+Norėdami pamatyti, kaip atrodo „Adventure Works” tema, kai ji įdiegta verslas vartotojui (B2C) ir verslas verslui (B2B) svetainėms, apsilankykite šiose bandomosiose svetainėse:
+
+- [„Adventure Works“ B2C svetainė](https://www.adventure-works.com/)
+- [„Adventure Works“ B2B svetainė](https://www.adventure-works.com/business)
+
+## <a name="theme-capabilities"></a>Temos galimybės
+
+„Adventure Works” tema pateikia šias naujas galimybes:
+
+- Vaizdo įrašų leistuvo modulis dabar palaiko antraštės, paragrafo ir saito funkcijas, skirtas papildomam pasakojimui.
+- Geresnis turinio perėjimas naudojant animaciją.
+- Veiksmas „Įtraukti į krepšelį” iškviečia mažą krepšelį, o ne pateikia pranešimą.
 - Sparčiojo rodinio modulis yra sritis, pateikiama tiek kompiuterio, tiek mobiliojo įrenginio rodiniuose.
-- Dabar tuščiame krepšelyje gali būti rodomos akcijos.
+- Yra naujų svetainės puslapių maketų. 
+- Rinkodaros turinį galima sukonfigūruoti krepšelyje ir mažame krepšelyje, kai jie yra tušti.
+- Mažame krepšelyje gali būti rodomi akcijos pranešimai, pavyzdžiui, „Nemokamas siuntimas užsakymams didesniems nei $50.”
+- Aprašo kortelės yra atvaizduotos ieškos ir kategorijos puslapiuose.
 
-„Adventure Works” tema apima šiuos „Commerce” modulių bibliotekos pasakojimo modulius:
+„Adventure Works” tema dabar apima šiuos „Commerce” modulių bibliotekos pasakojimo modulius:
 
-- Plytelių sąrašo modulis
-- Interaktyvus funkcijos modulis
-- Prenumeravimo modulis
-- Aktyvaus vaizdo modulis
-- Vaizdų sąrašo modulis
+- [Plytelių sąrašo modulis](tile-list-module.md)
+- [Interaktyvių funkcijų modulis](interactive-feature-module.md)
+- [Aktyvaus vaizdo modulis](active-image-module.md)
+- [Prenumeruoti modulį](subscribe-module.md)
+- [Vaizdų sąrašo modulis](image-list-module.md)
 
 „Adventure Works” tema yra visiškai atsakanti ir suteikia optimizuotą kompiuterio, mobiliojo įrenginio ir planšetinio kompiuterio rodinio patirtį.
 
@@ -77,6 +89,10 @@ ms.locfileid: "6479502"
 Taip pat, kiti moduliai apima modulio apibrėžimo plėtinius. Pavyzdžiui, [krepšelio piktogramos modulis](cart-icon-module.md) apima du papildomus vietos segmentus **Tuščias krepšelis** ir **Reklaminis turinys**, kurie yra įdiegiami naudojant modulio apibrėžimo plėtinius. Be to, nauja **Mobiliojo logotipo** ypatybė buvo įtraukta į antraštės modulį, kad būtų galima palaikyti logotipą mobiliųjų telefonų peržiūrose. Ši ypatybė yra įdiegta kaip antraštės modulio apibrėžimo plėtinys.
 
 Daugiau informacijos apie temos plėtinius rasite [Temos plėtiniai](e-commerce-extensibility/theme-module-extensions.md).
+
+## <a name="install-the-adventure-works-theme"></a>„Adventure Works“ temos diegimas
+
+Informaciją, kaip įdiegti „Adventure Works” temą, rasite [„Adventure Works” temos diegimas](install-adventure-works.md).
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
