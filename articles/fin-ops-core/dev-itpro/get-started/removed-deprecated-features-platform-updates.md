@@ -1,8 +1,8 @@
 ---
 title: Pašalintos arba nebenaudojamos platformos funkcijos
-description: Šioje temoje aprašomos funkcijos, kurios buvo pašalintos arba kurias planuojama šalinti iš „Finance and Operations“ programų platformos naujinių.
+description: Šioje temoje aprašomos priemonės, kurios buvo pašalintos arba suplanuotos pašalinti į finansų ir operacijų programėlių platformos atnaujinimus.
 author: sericks007
-ms.date: 08/27/2021
+ms.date: 03/03/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,47 +12,117 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 68114989ab96d175b534a31a7115420ee4adbcfb
-ms.sourcegitcommit: b294840b8e12aaa2775dd73b2ba9481ecc3d91d5
+ms.openlocfilehash: 6b4c514d34e4afbaac4afabed6865496747c0411
+ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/31/2021
-ms.locfileid: "7463633"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8384725"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Pašalintos arba nebenaudojamos platformos funkcijos
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje aprašomos funkcijos, kurios buvo pašalintos arba kurias planuojama šalinti iš „Finance and Operations“ programų platformos naujinių.
+Šioje temoje aprašomos priemonės, kurios buvo pašalintos arba suplanuotos pašalinti į finansų ir operacijų programėlių platformos atnaujinimus.
 
 - *Pašalinta* funkcija nebėra įtraukta į produktą.
 - *Nebenaudojama* funkcija nebėra aktyviai tobulinama ir gali būti pašalinta iš būsimo naujinio.
 
 Šis sąrašas skirtas suteikti jums informacijos apie pašalintas ir nebenaudojamas funkcijas, kad galėtumėte geriau planuoti savo darbą. 
 
-Išsamios informacijos apie „Finance and Operations“ programų objektus rasite skyriuje [Techninės informacijos ataskaitos](/dynamics/s-e/global/axtechrefrep_61). Galite palyginti skirtingas šių ataskaitų versijas, kad sužinotumėte apie objektus, kurie buvo pakeisti ar pašalinti kiekvienoje iš „Finance and Operations“ programų versijų.
+Išsami informacija apie finansų ir operacijų programėlių objektus pateikta techninės [nuorodos ataskaitose](/dynamics/s-e/global/axtechrefrep_61). Galite palyginti skirtingas šių ataskaitų versijas ir sužinoti apie objektus, kurie buvo pakeisti ar pašalinti kiekvienoje finansų ir operacijų programėlių versijoje.
 
+## <a name="feature-removal-effective-october-2021"></a>Priemonės pašalinimas įsigalioja 2021 m. spalio mėn.
+
+### <a name="microsoft-azure-sql-reports-in-lifecycle-services-lcs"></a>„Microsoft Azure“ SQL ataskaitos „Lifecycle Services“ (LCS)
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Nerekomendavimo/pašalinimo priežastis** | Visas veiklas ir stebėjimą atliks platforma per automatizavimą. Tam nereikės jokių neautomatinių veiksmų.|
+| **Pakeitė kita funkcija?**   | Taip, dabar yra automatizuota sistema, kuri šių pajėgumų nebenaudojama. |
+| **Paveiktos produkto sritys**         | SQL ataskaitos: dabartinis DTU, dabartinio DTU informacija, Gauti užrakto informaciją, dabartinio plano sąrašo vadovas, Gauti užklausos ID sąrašą, Gauti duoto plano ID SQL užklausos planą, Gauti užklausų planus ir vykdymo būseną, Gauti throttle config, Gauti laukimo statistiką, išvardyti tinkamiausias užklausas |
+| **Visuotinio diegimo parinktis**              | Debesies diegimas: Paveikia „Microsoft” valdomas gamybos ir 2‑5 pakopų smėlio dėžės aplinkas. |
+| **Būsena**                         | Pašalinta |
+
+### <a name="azure-sql-actions-in-lcs"></a>„Azure SQL" veiksmai LCS
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Nerekomendavimo/pašalinimo priežastis** | Mes atšaukiame kai kurias SQL veiksmai LCS. Visas veiklas ir stebėjimą atliks platforma per automatizavimą. Tam nereikės jokių neautomatinių veiksmų. |
+| **Pakeitė kita funkcija?**   | Taip, dabar yra automatizuota sistema, kuri šių pajėgumų nebenaudojama. |
+| **Paveiktos produkto sritys**         | SQL veiksmai: sukurkite plano vadovą, kad planumėte ID, sukurkite plano vadovą, kaip įtraukti lentelės užuominas, pašalinti plano vadovą, išjungti / įgalinti puslapio užrakinimą ir užraktų perskyrimą, atnaujinti statistiką lentelėje, perkurti indeksą, kurti indeksą |
+| **Visuotinio diegimo parinktis**              | Debesies diegimas: Paveikia „Microsoft” valdomas gamybos ir 2‑5 pakopų smėlio dėžės aplinkas. |
+| **Būsena**                         | Pašalinta |
+
+
+## <a name="feature-deprecation-effective-october-2021"></a>Funkcijos nuvertinimas įsigalioja 2021 m. spalio mėn.
+
+### <a name="show-related-document-attachments-feature"></a>Funkcija "Rodyti susijusius dokumentų priedus"
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Nerekomendavimo/pašalinimo priežastis** | Priemonė grąžino netikėtus rezultatus. |
+| **Pakeitė kita funkcija?**   | Ne. Visi tolesni planai, susiję su šia funkcija, bus perduoti per mūsų standartinį bangos atskleidimo procesą. |
+| **Paveiktos produkto sritys**         | Žiniatinklio klientas – dokumentų priedų naudojimas |
+| **Visuotinio diegimo parinktis**              | Visos |
+| **Būsena**                         | Pasenę  |
+
+## <a name="platform-updates-for-version-10023-of-finance-and-operations-apps"></a>Finansų ir operacijų programėlių 10.0.23 versijos platformos naujinimai
+
+### <a name="ondbsynchronize-event"></a>OnDBSynchronize įvykis
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Nerekomendavimo/pašalinimo priežastis** | Nėra valdiklių šiam įvykiui įvykdyti. |
+| **Pakeitė kita funkcija?**   | Taip, perkelkite esamus metodus, į kuriuos prenumeruoti **OnDBSynchronize įvykis**, į SysSetup išplėstinę klasę. |
+| **Paveiktos produkto sritys**         | Duomenų bazės sinchronizavimas |
+| **Visuotinio diegimo parinktis**              | Visos |
+| **Būsena**                         | Nerekomenduojama. Suplanuota pašalinimo data yra 2022 m. spalio mėn. |
+
+
+### <a name="systemnotificationsmanageraddnotification-api"></a>SystemNotificationsManager.AddNotification API
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Nerekomendavimo/pašalinimo priežastis** | Įtraukiant pranešimus Microsoft reikia papildomų parametrų. |
+| **Pakeitė kita funkcija?**   | Taip, **SystemNotificationsManager.AddSystemNotification()** API. Šiai API reikia, kad būtų konkrečiai nustatytas sugeneruotų pranešimų ExpirationDateTime ir RuleID. |
+| **Paveiktos produkto sritys**         | Žiniatinklio klientas |
+| **Visuotinio diegimo parinktis**              | Visos |
+| **Būsena**                         | Nerekomenduojama. Suplanuota pašalinimo data yra 2023 m. balandžio mėn. |
+
+## <a name="platform-updates-for-version-10021-of-finance-and-operations-apps"></a>Finansų ir operacijų programėlių 10.0.21 versijos platformos naujinimai
+
+### <a name="skype-for-business-online-support"></a>Verslo klientų aptarnavimo internete palaikymas
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Nerekomendavimo/pašalinimo priežastis** | Verslo tinklo įmonės atmestas. Norėdami gauti daugiau informacijos, [„The Skype for Business Online“ paslaugos nebegalioja](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/the-skype-for-business-online-service-has-retired/ba-p/2596601). |
+| **Pakeitė kita funkcija?**   | Šiuo metu ne, nors galime įtraukti buvimą iš komandų į ateitį.|
+| **Paveiktos produkto sritys**         | Žiniatinklio klientas |
+| **Visuotinio diegimo parinktis**              | Visos |
+| **Būsena**                         | Nerekomenduojama. **Skype įjungtas** nustatymai buvo išjungti išleidžiant 10.0.21. Šis parametras skirtas 2022 m. balandžio mėn. Tačiau, atlikus šį darbą, prieš išeius iš darbo komandai, „Skype“ nustos veikti. |
+ 
 ## <a name="feature-deprecation-effective-august-2021"></a>Pranešimas apie funkcijos nerekomendavimą, įsigaliojantį nuo 2021 m. rugpjūtis
 
 ### <a name="microsoft-azure-sql-reports-in-lifecycle-services-lcs"></a>„Microsoft Azure“ SQL ataskaitos „Lifecycle Services“ (LCS)
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Nerekomendavimo / pašalinimo priežastis** | Mes atšaukiame kai kurias SQL ataskaitas LCS. Ataskaitų stebėti nebereikės, nes šią funkciją pakeitė kitos paslaugos. |
-| **Pakeitė kita funkcija?**   | nr. |
+| **Nerekomendavimo / pašalinimo priežastis** | Visas veiklas ir stebėjimą atliks platforma per automatizavimą. Tam nereikės jokių neautomatinių veiksmų.|
+| **Pakeitė kita funkcija?**   | Taip, dabar yra automatizuota sistema, kuri šių pajėgumų nebenaudojama. |
 | **Paveiktos produkto sritys**         | SQL ataskaitos: dabartinis DTU, dabartinio DTU informacija, Gauti užrakto informaciją, dabartinio plano sąrašo vadovas, Gauti užklausos ID sąrašą, Gauti duoto plano ID SQL užklausos planą, Gauti užklausų planus ir vykdymo būseną, Gauti throttle config, Gauti laukimo statistiką, išvardyti tinkamiausias užklausas |
 | **Visuotinio diegimo parinktis**              | Debesies diegimas: Paveikia „Microsoft” valdomas gamybos ir 2‑5 pakopų smėlio dėžės aplinkas. |
-| **Būsena**                         | Nerekomenduojama: Suplanuota pašalinimo data – 2021 m. spalis. |
+| **Būsena**                         | Nerekomenduojama: Suplanuota pašalinimo data yra 2021 m. spalio mėn. |
 
 ### <a name="azure-sql-actions-in-lcs"></a>„Azure SQL" veiksmai LCS
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Nerekomendavimo / pašalinimo priežastis** | Mes atšaukiame kai kurias SQL veiksmai LCS.  |
-| **Pakeitė kita funkcija?**   | nr. |
+| **Nerekomendavimo/pašalinimo priežastis** | Mes atšaukiame kai kurias SQL veiksmai LCS. Visas veiklas ir stebėjimą atliks platforma per automatizavimą. Tam nereikės jokių neautomatinių veiksmų. |
+| **Pakeitė kita funkcija?**   | Taip, dabar yra automatizuota sistema, kuri šių pajėgumų nebenaudojama. |
 | **Paveiktos produkto sritys**         | SQL veiksmai: sukurkite plano vadovą, kad planumėte ID, sukurkite plano vadovą, kaip įtraukti lentelės užuominas, pašalinti plano vadovą, išjungti / įgalinti puslapio užrakinimą ir užraktų perskyrimą, atnaujinti statistiką lentelėje, perkurti indeksą, kurti indeksą |
 | **Visuotinio diegimo parinktis**              | Debesies diegimas: Paveikia „Microsoft” valdomas gamybos ir 2‑5 pakopų smėlio dėžės aplinkas. |
-| **Būsena**                         | Nerekomenduojama: Suplanuota pašalinimo data – 2021 m. spalis. |
+| **Būsena**                         | Nerekomenduojama: Suplanuota pašalinimo data yra 2021 m. spalio mėn. |
 
 ## <a name="feature-deprecation-effective-may-2021"></a>Pranešimas apie funkcijos nerekomendavimą, įsigaliojantį nuo 2021 m. gegužė
 
@@ -64,7 +134,7 @@ Išsamios informacijos apie „Finance and Operations“ programų objektus rasi
 | **Pakeitė kita funkcija?**   | Taip, ši funkcija pakeičiama LCS [Problemų ieška](../lifecycle-services/issue-search-lcs.md) ir [„Dynamics” reguliavimo įspėjimo pateikimo tarnyba](../lcs-solutions/submit-localization-alerts.md). |
 | **Paveiktos produkto sritys**         | LCS globalizacijos portalas|
 | **Visuotinio diegimo parinktis**              | Visuotinis debesies diegimas |
-| **Būsena**                         | Nerekomenduojama: Suplanuota pašalinimo data – 2022 m. gegužė. |
+| **Būsena**                         | Nerekomenduojama: Suplanuota pašalinimo data yra 2022 m. gegužės mėn. |
 
 
 ## <a name="feature-removed-effective-january-28-2021"></a>Funkcija bus pašalinta nuo 2021 m. sausio mėn 28 d.
@@ -75,19 +145,19 @@ Išsamios informacijos apie „Finance and Operations“ programų objektus rasi
 |------------|--------------------|
 | **Nebenaudojimo/pašalinimo priežastis** | Ši funkcija buvo pašalinta norint sumažinti klientų rodyklės valdymo vykdymo, stebėjimo ir priežiūros pridėtines išlaidas. |
 | **Pakeitė kita funkcija?**   | Ateityje rodyklės priežiūrą atliks „Microsoft” tarnybos. Tai bus daroma nuolat, nepaveikiant vartotojo darbo krūvių. |
-| **Paveiktos produkto sritys**         | „Finance and Operations” programėlės|
+| **Paveiktos produkto sritys**         | „Finance and Operations” programos|
 | **Visuotinio diegimo parinktis**              | Debesies diegimas – paveikia „Microsoft” valdomas gamybos ir 2‑5 pakopų smėlio dėžės aplinkas. |
 | **Būsena**                         | Ši funkcija yra pašalinta. |
 
 
-## <a name="platform-updates-for-version-10017-of-finance-and-operations-apps"></a>„Finance and Operations” programų 10.0.17 versijos platformos naujinimai
+## <a name="platform-updates-for-version-10017-of-finance-and-operations-apps"></a>Finansų ir operacijų programėlių 10.0.17 versijos platformos naujinimai
 
 
 ### <a name="visual-studio-2015"></a>„Visual Studio 2015“
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Nebenaudojimo/pašalinimo priežastis** | Norint, kad būtų palaikomos naujausios „Visual Studio” versijos, reikia atlikti tam tikrus X + + plėtinių, skirtų „Visual Studio”, keitimus. Šie pakeitimai nesuderinami su „Visual Studio” 2015. |
+| **Nerekomendavimo/pašalinimo priežastis** | Norint, kad būtų palaikomos naujausios „Visual Studio” versijos, reikia atlikti tam tikrus X + + plėtinių, skirtų „Visual Studio”, keitimus. Šie pakeitimai nesuderinami su „Visual Studio” 2015. |
 | **Pakeitė kita funkcija?**   | „Visual Studio 2017” bus pakeista „Visual Studio 2015” kaip įdiegta ir reikalinga versija. |
 | **Paveiktos produkto sritys**         | „Visual Studio“ kūrimo įrankiai |
 | **Visuotinio diegimo parinktis**              | Visos |
@@ -107,58 +177,59 @@ Išsamios informacijos apie „Finance and Operations“ programų objektus rasi
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Nebenaudojimo/pašalinimo priežastis** | Metaduomenų artefaktai, susieti su 2012 m. „Dynamics AX” įmonės portalu (EP), yra nerekomenduojami, nes EP niekada nebuvo palaikomas „Finance and Operations” programose. |
+| **Nebenaudojimo/pašalinimo priežastis** | Metaduomenų artefakai, susieti su "Dynamics AX 2012" įmonės portalu (EP), buvo pasenusi, nes EP niekada nebuvo palaikomas finansų ir operacijų programėlėse. |
 | **Pakeitė kita funkcija?**   | Ne |
 | **Paveiktos produkto sritys**         | Žiniatinklio klientas |
 | **Visuotinio diegimo parinktis**              | Visos |
 | **Būsena**                         | Nerekomenduojama: Numatyta, kad visas EP kodas bus pašalintas 2021 m. spalio leidime. |
 
-## <a name="platform-updates-for-version-10015-of-finance-and-operations-apps"></a>„Finance and Operations” programų 10.0.15 versijos platformos naujinimai
+## <a name="deprecation-effective-december-2020"></a>Pasenusios, 2020 m. gruodžio mėn.
 
 ### <a name="internet-explorer-11-support-for-dynamics-365-is-deprecated"></a>„Internet Explorer 11“ palaikymas „Dynamics 365“ yra nutrauktas
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Nebenaudojimo/pašalinimo priežastis** | Nuo 2020 m. gruodžio „Microsoft Internet Explorer 11“ palaikymas visuose „Dynamics 365“ produktuose yra nutraukiamas, o „Internet Explorer 11“ nebus palaikomas nuo 2021m. rugpjūčio.<br><br>Tai paveiks klientus, kurie naudoja „Dynamics 365“ produktus, skirtus naudoti „Internet Explorer 11“ sąsają. Nuo 2021m. rugpjūčio „Internet Explorer 11“ nebus palaikomas tokiuose „Dynamics 365“ produktuose. |
+| **Nerekomendavimo/pašalinimo priežastis** | Galioja iki 2020 Internet Explorer m. gruodžio 11 d. visi "Dynamics 365" produktai ir "Dynamics" ciklo tarnybos (LCS) pasenusios, Internet Explorer o 11 nebus palaikoma po 2021 m. rugpjūčio mėn.<br><br>Tai turės įtakos klientams, naudojantiems "Dynamics 365" produktus ir LCS, kurie sukurti naudoti naudojant Internet Explorer 11 sąsają. Po rugpjūčio 2021 m Internet Explorer . "11" nebus palaikomi "Dynamics 365" produktai ir LCS. |
 | **Pakeitė kita funkcija?**   | Rekomenduojame klientams naudoti „Microsoft Edge“.|
-| **Paveiktos produkto sritys**         | Visi „Dynamics 365“ produktai |
-| **Visuotinio diegimo parinktis**              | Visos|
+| **Paveiktos produkto sritys**         | Visi "Dynamics 365" produktai ir LCS |
+| **Visuotinio diegimo parinktis**              | Viskas|
 | **Būsena**                         | Nerekomenduojama: „Internet Explorer 11“ nebus palaikoma nuo 2021 m. rugpjūčio.|
 
+## <a name="platform-updates-for-version-10015-of-finance-and-operations-apps"></a>Finansų ir operacijų programėlių 10.0.15 versijos platformos naujinimai
 
 ### <a name="visual-studio-add-in-to-apply-metadata-hotfixes"></a>„Visual Studio“ papildinys, skirtas metaduomenų karštųjų pataisų pritaikymui
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Nebenaudojimo/pašalinimo priežastis** | Metaduomenų karštosios pataisos nepalaikomos pristačius [vienos versijos](../../fin-ops/get-started/one-version.md) paslaugų naujinimus, kurie buvo pateikti 2018 m. liepą kartu su 8.1 versija. |
+| **Nerekomendavimo/pašalinimo priežastis** | Metaduomenų karštosios pataisos nepalaikomos pristačius [vienos versijos](../../fin-ops/get-started/one-version.md) paslaugų naujinimus, kurie buvo pateikti 2018 m. liepą kartu su 8.1 versija. |
 | **Pakeitė kita funkcija?**   | Nėra atskirų metaduomenų karštųjų pataisų, kurios būtų skirtos palaikomoms versijoms. Vietoje jų taikomi kaupiamieji kokybiniai naujinimai. |
 | **Paveiktos produkto sritys**         | „Visual Studio“ papildiniai |
 | **Visuotinio diegimo parinktis**              | Kūrimo virtualieji įrenginiai |
 | **Būsena**                         | 10.0.15 versijoje papildinys nebėra įtrauktas į „Visual Studio“ įrankius. |
 
 
-## <a name="platform-updates-for-version-10014-of-finance-and-operations-apps"></a>„Finance and Operations” programų 10.0.14 versijos platformos naujinimai
+## <a name="platform-updates-for-version-10014-of-finance-and-operations-apps"></a>Finansų ir operacijų programėlių 10.0.14 versijos platformos naujinimai
 
 ### <a name="online-users-page"></a>Prisijungusių vartotojų puslapis 
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Nebenaudojimo/pašalinimo priežastis** | Tai yra ankstesnio kliento/serverio architektūroje sukurtas senstelėjęs puslapis. Šiame puslapyje pateikta informacija ne visada tiksli ir dėl to gali būti paini ir klaidinanti. |
+| **Nerekomendavimo/pašalinimo priežastis** | Tai yra ankstesnio kliento/serverio architektūroje sukurtas senstelėjęs puslapis. Šiame puslapyje pateikta informacija ne visada tiksli ir dėl to gali būti paini ir klaidinanti. |
 | **Pakeitė kita funkcija?**   | Sekančiame atnaujinime pateiksime naują puslapį.|
 | **Paveiktos produkto sritys**         | Sistemos administravimas |
 | **Visuotinio diegimo parinktis**              | Visos |
 | **Būsena**                         | Iki 2021 m. spalio ši forma bus pašalinta.   |
 
 
-## <a name="platform-updates-for-version-10013-of-finance-and-operations-apps"></a>„Finance and Operations” programų 10.0.13 versijos platformos naujinimai
+## <a name="platform-updates-for-version-10013-of-finance-and-operations-apps"></a>Finansų ir operacijų programėlių 10.0.13 versijos platformos naujinimai
 
 
 ### <a name="custom-code-defined-in-ssrs-report-properties"></a>Tinkintas kodas nustatytas SSRS ataskaitos ypatybėse 
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Nebenaudojimo/pašalinimo priežastis** | Bendrai, tinkintas kodas siūlo apribotas naudas ir tuo pat metu reikalauja reikšmingų šaltinių papildymų ir paramos skyrimo. Tinkintas kodas daugiausiai naudojamas ataskaitų autorių siekiant iškviesti viešus metodus iš tinkinto kodo surinkimo. Nepaisant to, debesyje patalpintos paslaugos nepalaiko sąsajų su tinkintais susirinkimais SSRS ataskaitoms. |
-| **Pakeitė kita funkcija?**   | Ataskaitų autoriai gali pasirinkti, ar tęsti susiejimą su viešomis .NET API matematikos, pavertimo ir formato veiksmams iš bet kurios teksto laukelio išraiškos. Dėl išsamesnės informacijos, žr. [Įtraukti kodą į ataskaitą (SSRS)](/sql/reporting-services/report-design/add-code-to-a-report-ssrs?view=sql-server-ver15).  |
+| **Nerekomendavimo/pašalinimo priežastis** | Bendrai, tinkintas kodas siūlo apribotas naudas ir tuo pat metu reikalauja reikšmingų šaltinių papildymų ir paramos skyrimo. Tinkintas kodas daugiausiai naudojamas ataskaitų autorių siekiant iškviesti viešus metodus iš tinkinto kodo surinkimo. Nepaisant to, debesyje patalpintos paslaugos nepalaiko sąsajų su tinkintais susirinkimais SSRS ataskaitoms. |
+| **Pakeitė kita funkcija?**   | Ataskaitų autoriai gali pasirinkti, ar tęsti susiejimą su viešomis .NET API matematikos, pavertimo ir formato veiksmams iš bet kurios teksto laukelio išraiškos. Dėl išsamesnės informacijos, žr. [Įtraukti kodą į ataskaitą (SSRS)](/sql/reporting-services/report-design/add-code-to-a-report-ssrs).  |
 | **Paveiktos produkto sritys**         | Programos ataskaitos projektavimo papildomas rinkinys turi tinkintą kodą. |
 | **Visuotinio diegimo parinktis**              | Visos |
 | **Būsena**                         | Su versija 10.0.13, užpildymo įrankis pradės išduoti perspėjimus instancijoms, kuriose tinkintas kodas yra aptiktas SSRS ataskaitos sąvokoje. Tam, kad išspręstumėte šią problemą, atverkite ataskaitos projektavimo sąvoka ir pašalinkite visus tinkintus kodo artefaktus. Šis pranešimas bus pakeistas užpildymo klaida ateities atnaujinimuose.   |
@@ -181,7 +252,7 @@ Išsamios informacijos apie „Finance and Operations“ programų objektus rasi
 | **Pakeitė kita funkcija?**   | [Naujas tinklelio valdymas](../..//fin-ops/get-started/grid-capabilities.md) |
 | **Paveiktos produkto sritys**         | Žiniatinklio klientas |
 | **Visuotinio diegimo parinktis**              | Visi / Viskas |
-| **Būsena**                         | 10.0.13 versijoje naujas tinklelio valdymas yra bendrai prieinamas ir klientai gali pasirinktinai įjungti šią funkciją. Naujas tinklelio valdymas taps privalomas 2021 m. spalio mėn. leidime. Kai naujas tinklelio valdymas tamp privalomas, **forceLegacyGrid()** API nebebus apdovanota. |
+| **Būsena**                         | 10.0.13 versijoje naujas tinklelio valdymas yra bendrai prieinamas ir klientai gali pasirinktinai įjungti šią funkciją. Naujasis tinklelio valdiklis taps numatytuoju 2021 m. spalio leidime ir šiuo metu numatoma, kad jis bus privalomas 2022 m. balandį. Kai naujas tinklelio valdymas tamp privalomas, **forceLegacyGrid()** API nebebus apdovanota. |
 
 ### <a name="personalization-without-saved-views"></a>Personalizavimas be įrašytų peržiūrų 
 
@@ -194,25 +265,25 @@ Išsamios informacijos apie „Finance and Operations“ programų objektus rasi
 | **Būsena**                         | 10.0.13 versijoje/platformos atnaujinimas 37, įrašyta peržiūros funkcija yra dažniausiai prieinama, o klientai gali pasirinktinai ją įjungti. Išsaugotų peržiūrų funkcija taps privaloma 2021 m. spalio mėn. leidime. |
 
 
-## <a name="platform-updates-for-version-10012-of-finance-and-operations-apps"></a>„Finance and Operations” programų 10.0.12 versijos platformos naujinimai
+## <a name="platform-updates-for-version-10012-of-finance-and-operations-apps"></a>Finansų ir operacijų programėlių 10.0.12 versijos platformos naujinimai
 
 ### <a name="grid-or-group-control-form-extensions-containing-invalid-field-references"></a>Tinklelio arba grupės valdiklio formų plėtiniai, kuriuose yra netinkamų laukų nuorodų
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Nebenaudojimo / pašalinimo priežastis** | Tinklelio arba grupės valdiklių duomenų grupės ypatybė naudojama automatiškai rodyti visus laukų grupės laukus. Tinklelyje arba grupės valdiklyje, pridėtame prie plėtinio, gali būti laukų, kurie nebėra apibrėžti laukų grupėje, arba jame gali būti trūkstamų laukų, kurie apibrėžti laukų grupėje. Tai gali sukelti nenuoseklų veikimą apdorojimo laiko metu. Platformos naujiniai, skirti „Finance and Operations” programų 10.0.12 versijai, dabar klasifikuoja šią problemą kaip kompiliatoriaus *įspėjimą*. Norėdami išspręsti šią problemą, atidarykite formos plėtinį ir jį įrašykite.
+| **Nebenaudojimo / pašalinimo priežastis** | Tinklelio arba grupės valdiklių duomenų grupės ypatybė naudojama automatiškai rodyti visus laukų grupės laukus. Tinklelyje arba grupės valdiklyje, pridėtame prie plėtinio, gali būti laukų, kurie nebėra apibrėžti laukų grupėje, arba jame gali būti trūkstamų laukų, kurie apibrėžti laukų grupėje. Tai gali sukelti nenuoseklų veikimą apdorojimo laiko metu. Dabar finansų ir operacijų programėlių 10.0.12 versijos platformos naujinimai klasifikuoja šią problemą kaip kompiliatoriaus *perspėjimą*. Norėdami išspręsti šią problemą, atidarykite formos plėtinį ir jį įrašykite.
 | **Pakeitė kita funkcija?**   | Atliekant būsimą naujinimą, šis kompiliatoriaus įspėjimas bus pakeistas kompiliavimo klaidos pranešimu. |
 | **Paveiktos produkto sritys**         | „Visual Studio“ kūrimo įrankiai |
 | **Visuotinio diegimo parinktis**              | Visi / Viskas |
-| **Būsena**                         | Kompiliatoriaus įspėjimas pristatytas platformos naujiniuose, skirtuose „Finance and Operations” programų versijai 10.0.12. |
+| **Būsena**                         | Prie finansų ir operacijų programėlių 10.0.12 versijos atnaujinimų pateikiamas kompiliatoriaus perspėjimas. |
 
-## <a name="platform-updates-for-version-10011-of-finance-and-operations-apps"></a>„Finance and Operations” programų 10.0.11 versijos platformos naujinimai
+## <a name="platform-updates-for-version-10011-of-finance-and-operations-apps"></a>Finansų ir operacijų programėlių 10.0.11 versijos platformos naujinimai
 
 ### <a name="explicit-safe-lists-for-self-service-environments"></a>Išsamūs baltieji sąrašai savitarnos aplinkoms
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Nebenaudojimo / pašalinimo priežastis** | IP perkėlimo procesas į baltuosius sąrašus pasikeitė. Savitarna nebepalaiko IP baltųjų sąrašų. |
+| **Nerekomendavimo/pašalinimo priežastis** | IP perkėlimo procesas į baltuosius sąrašus pasikeitė. Savitarna nebepalaiko IP baltųjų sąrašų. |
 | **Pakeitė kita funkcija?**   | Daugiau informacijos rasite [„Azure Active Directory” sąlyginės prieigos konfigūracija](/appcenter/general/configuring-aad-conditional-access).|
 | **Paveiktos produkto sritys**         | Sauga |
 | **Visuotinio diegimo parinktis**              | Debesis |
@@ -232,11 +303,11 @@ Išsamios informacijos apie „Finance and Operations“ programų objektus rasi
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Nebenaudojimo/pašalinimo priežastis** | Lentelės metaduomenų aprašuose gali būti laukų grupių, kuriose yra netinkamų laukų nuorodų. Įdiegus šias laukų grupes gali kiti vykdymo gedimų programose „Financial Reporting“ ir „Microsoft SQL Server Reporting Services“ (SSRS). 23 platformos naujinimas pristatė kompiliatoriaus *įspėjimą*, kuris įgalina šios metaduomenų problemos sprendimą. „Finance and Operations” programų 10.0.11 versijos platformos naujinimai klasifikuoja šią problemą kaip kompiliatoriaus *klaidą*.<p>Norėdami ištaisyti šią klaidą, atlikite toliau nurodytus veiksmus.</p><ol><li>Pašalinkite netinkamą lauko nuorodą iš lentelės lauko grupės aprašo.</li><li>Perkompiliuokite.</li><li>Įsitikinkite, kad pašalintos visos klaidos.</li></ol> |
+| **Nebenaudojimo/pašalinimo priežastis** | Lentelės metaduomenų aprašuose gali būti laukų grupių, kuriose yra netinkamų laukų nuorodų. Įdiegus šias laukų grupes gali kiti vykdymo gedimų programose „Financial Reporting“ ir „Microsoft SQL Server Reporting Services“ (SSRS). 23 platformos naujinimas pristatė kompiliatoriaus *įspėjimą*, kuris įgalina šios metaduomenų problemos sprendimą. Finansų ir operacijų programėlių 10.0.11 versijos platformos naujinimai klasifikuoja šią problemą kaip kompiliatoriaus *klaidą*.<p>Norėdami ištaisyti šią problemą, vykdykite šiuos veiksmus.</p><ol><li>Pašalinkite netinkamą lauko nuorodą iš lentelės lauko grupės aprašo.</li><li>Perkompiliuokite.</li><li>Įsitikinkite, kad pašalintos visos klaidos.</li></ol> |
 | **Pakeitė kita funkcija?**   | Ši kompiliatoriaus klaida visam laikui pakeičia kompiliatoriaus įspėjimą.  |
 | **Paveiktos produkto sritys**         | „Visual Studio“ kūrimo įrankiai |
 | **Visuotinio diegimo parinktis**              | Visi |
-| **Būsena**                         | Nerekomenduojama: Kompiliatoriaus įspėjimas yra kompiliatoriaus klaida „ Finance and Operations” programų 10.0.11 versijos platformos naujinimuose. |
+| **Būsena**                         | Pasenusi: kompiliatoriaus įspėjimas yra kompiliatoriaus klaida finansų ir operacijų programėlių 10.0.11 versijos platformoje. |
 
 ### <a name="isv-licenses-created-by-using-the-sha1-hashing-algorithm"></a>ISV licencijos, sukurtos naudojant SHA1 maišos algoritmą
 
@@ -265,7 +336,7 @@ Išsamios informacijos apie „Finance and Operations“ programų objektus rasi
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Naršymo URL, įterpti į paslaugos generuojamus dokumentus, gali būti slaptų verslo duomenų. Norėdami apsaugoti kliento duomenis, saugumo sumetimais pašalinsime įterptųjų detalizuotų nuorodų, esančių dokumentuose, palaikymą. Dėl šio pakeitimo vartotojai galės kurti dokumentus našiai ir interaktyviai.  |
-| **Pakeitė kita funkcija?**   | nr. |
+| **Pakeitė kita funkcija?**   | Ne |
 | **Paveiktos produkto sritys**         | Ataskaitos |
 | **Visuotinio diegimo parinktis**              | Visi / Viskas |
 | **Būsena**                         | Ši funkcija yra šalinama iš paslaugos.<br><br>Šiuolaikinis klientas siūlo daugybę galimybių, kaip kurti vaizdus, kuriuose yra automatiškai sugeneruotų nuorodų, padedančių naršyti programoje. Rekomenduojama paslaugoje esančius sunumeruotus dokumentus naudoti išoriniams ryšiams, kurie gavėjams siunčiami el. paštu, archyvuojami ir spausdinami. Patobulinome dokumentų peržiūrą tiesiogiai naršyklėje, per kurią suteikiama tiesioginė prieiga prie vietinių spausdintuvų. Daugiau informacijos ieškokite [„PDF dokumentų peržiūra naudojant įdėtąją peržiūros programą“](../analytics/preview-pdf-documents.md). |

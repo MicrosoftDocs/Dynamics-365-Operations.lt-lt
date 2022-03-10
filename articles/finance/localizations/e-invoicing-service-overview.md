@@ -1,115 +1,85 @@
 ---
 title: Elektroninių SF išrašymo priedo apžvalga
-description: Šioje temoje pateikiama informacija apie elektroninių SF išrašymo priedą „Microsoft Dynamics 365 Finance” ir „Dynamics 365 Supply Chain Management”.
+description: Šioje temoje pateikta "Microsoft" ir "Microsoft" elektroninių SF išrašymo Dynamics 365 Finance apžvalga Dynamics 365 Supply Chain Management.
 author: gionoder
-manager: AnnBe
-ms.date: 09/22/2020
-ms.topic: article
+ms.date: 01/21/2022
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
-ms.custom: 97423
+ms.custom:
+- "97423"
+- intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: ffd48e173b66cc6d2571e666d5452a5eff05176c
-ms.sourcegitcommit: f860ac2b18f6bbbfc4a46b497baec2477105b116
-ms.translationtype: HT
+ms.openlocfilehash: 23a98706bc2ab0abc2c72e9f20d8e8fbff56b2b9
+ms.sourcegitcommit: ffdb6794746ffe5461f9dcf34ed8e64976d22d2d
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/19/2020
-ms.locfileid: "4446169"
+ms.lasthandoff: 03/02/2022
+ms.locfileid: "8371459"
 ---
-# <a name="electronic-invoicing-add-on-overview"></a>Elektroninių SF išrašymo priedo apžvalga
+# <a name="electronic-invoicing-overview"></a>Elektroninių SF išrašymo priedo apžvalga
 
 [!include [banner](../includes/banner.md)]
 
-Elektroninių SF išrašymo priedas, skirtas „Microsoft Dynamics 365 Finance” ir „Dynamics 365 Supply Chain Management” yra itin keičiamo dydžio kelių nuomotojų paslauga, įgalinanti konfigūruojamą elektroninių SF dokumentų apdorojimą ir konfigūruojamus dokumentų mainus. Apdorojimo ir integravimo taisyklės yra visiškai konfigūruojamos, o logika vykdoma už „Finance” ir „Supply Chain Management” ribų. Ši paslauga iš esmės skirta el. SF apdoroti verslo ir vyriausybės scenarijuose, bet ji gali būti pritaikyta ir sukonfigūruota kitiems tikslams.
+Elektroninių SF išrašymas "Microsoft Dynamics 365 Finance Dynamics 365 Supply Chain Management " ir yra hyper dydžio kelių likučių paslauga, leidžianti konfigūruoti elektroninių SF apdorojimą ir konfigūruojamus elektroninių dokumentų mainus. Apdorojimo ir integravimo taisyklės yra visiškai konfigūruojamos, o logika vykdoma už „Finance” ir „Supply Chain Management” ribų. Paslauga skirta daugiausia elektroninių SF dokumentų apdorojimui verslo valdymo scenarijuose. Tačiau jis gali būti konfigūruojamas pasirinktinai kitiems tikslams, pvz., "verslas verslui" skirtingo tipo dokumentams.
 
-Elektroninių SF išrašymo priedas gali padėti pasiekti toliau nurodytus tikslus.
+Elektroninių SF išrašymo priedas gali padėti pasiekti toliau nurodytus tikslus:
 
 - Greitas ir lengvas konkrečių šalių / regionų reikalavimų taikymas
 - Standartizuoti elektroninių SF išrašymo priedo sprendimo diegimai
 - Išplėstinis dokumentų retrospektyvos atsekamumas
 - Trumpesnis diegimo ciklas
 - Sumažintos bendros nuosavybės išlaidos (TCO)
-- Lengvai koreguojamos konfigūracijos, nereikalaujančios kodo pakeitimų
+- Lengvai koreguojamos konfigūracijos, kurioms nereikia keisti kodo
 - Supaprastintas konfigūracijos pakavimas
-- Įtaisytas eksportavimas, importavimas ir integravimas bei lengvas išplečiamumas apdorojant el. SF dokumentus
-- Paprastas pakartotinis tų pačių eksportavimo, importavimo ir integravimo konfigūracijų naudojimas visose įmonėse
+- Įtaisytasis eksportavimas, importavimas ir integravimas bei paprastas elektroninių SF dokumentų apdorojimo būdas
+- Paprastas to paties eksportavimo, importavimo ir integravimo konfigūravimų pakartotinis naudojimas visose įmonėse
 
-Norėdami naudoti elektroninių SF išrašymo priedą, turite jį įdiegti iš jūsų projekto, esančio „Microsoft Dynamics Lifecycle Services” (LCS). Tada atlikite nustatymo procedūrą, norėdami įjungti integravimą su „Finance” arba „Supply Chain Management”. Daugiau informacijos žr. [Darbo su elektroninių SF išrašymo priedu pradžia](e-invoicing-get-started.md).
+## <a name="service-availability"></a>Paslaugų prieinamumas
 
-## <a name="availability"></a>Prieinamumas
+Šiuo metu elektroninių SF išrašymo funkcija galima finansų ir tiekimo grandinės valdymo klientams. Norėdami gauti daugiau informacijos, peržiūrėkite savo programos licencijos sąlygas.
 
-Iš pradžių elektroninių SF išrašymo priedas pasiekiamas pasirinktiems klientams peržiūros programoje. Vėliau peržiūra bus pasiekiama daugiau klientų. Galiausiai paslauga taps visuotinai prieinama. Kadangi funkcijos, vykdančios konkrečių šalių / regionų reikalavimus, gali būti ribojamos skirtinguose leidimo etapuose, visada turite patikrinti naujausius dokumentus, nurodančius konkrečių šalių / regionų palaikomų sprendimų padengimą ir aprėptį.
+Kadangi funkcijos, kurios adresuoja šaliai/regionui bingus reikalavimus, gali būti ribojamos skirtinguose paleidimo etapuose, visada turėtumėte peržiūrėti naujausias dokumentaciją, kurioje aprašomos palaikomų šalių/regionų sprendimų aprėpties ir aprėptis.
 
-Elektroninių SF išrašymo priedas diegiamas toliau nurodytuose „Azure” regionuose.
+Elektroninių SF išrašymo priedas diegiamas toliau nurodytuose „Azure” regionuose:
 
 - Jungtinės Valstijos
 - Europa
+- Azija
 
 > [!NOTE]
 > Elektroninių SF išrašymo priedas nepalaiko vietinių visuotinių diegimų.
 
-## <a name="extended-configurability"></a>Išplėstinis konfigūravimas
-
-Elektroninių SF išrašymo priedas gali būti naudojamas scenarijuose, kai turite sukurti ir siųsti elektroninį dokumentą nurodytoms šalims. Jis sukurtas tam, kad būtų galima konfigūruoti apdorojimo veiksmų srautą, remiantis gautais duomenimis. Konfigūravimo parinktys, pasiekiamos „Finance” ir „Supply Chain Management”, leidžia atlikti tik dokumentų transformaciją. Paslauga praplečia šias parinktis įtraukdama joje pasiekiamus konfigūruojamus integravimus. Be to, visos elektroninių SF funkcijos, kurios anksčiau buvo prieinamos, pvz., Brazilijos „Nota fiscal eletrônica” (NF-e), Meksikos „Comprobante Fiscal Digital por Internet” (CFDI) arba kitos Vakarų Europos universaliosios verslo kalbos (UBL) / „Pan-European Public Procurement OnLine” (PEPPOL) funkcijos, naudos konfigūracijas eksportavimui ir importavimui bei integracijų su išorinėmis žiniatinklio tarnybomis įjungimui.
-
 ## <a name="feature-highlights"></a>Svarbiausi funkcijų aspektai
 
-- Parengtas naudoti integravimas su „Finance” ir „Supply Chain management”
-- Nuosekli vartotojo patirtis vykdant visų šalių ar regionų el. SF išrašymo konfigūracijos ir stebėjimo procesus
+- Out-box integravimas su finansų ir tiekimo grandinės valdymu
+- Nuosekli vartotojų patirtis konfigūracijoje ir elektroninio SF proceso stebėjime visose šalyse ir regionuose
 - Spartesnis, lengvesnis ir pigesnis elektroninių SF išrašymo priedo sprendimų taikymas naujose šalyse ar regionuose
-- Paslaugos konfigūravimas naudojant „Regulatory Configuration Services” (RCS) ir globalizacijos funkcijos nustatymą
-- Verslo duomenų transformavimas į kelis el. SF formatus (XML, „JavaScript Object Notation“ \[JSON\], TXT ir kableliais atskirtų reikšmių \[CSV\]) naudojant konfigūracijas, apibrėžtas RCS:
+- Tarnybos konfigūravimas, naudojant reguliavimo konfigūracijos tarnybos (RCS) ir globalizavimo funkcijų nustatymą
+- Verslo duomenų pakeitimas į keletą elektroninių SF formatų (XML, "JavaScript" objektų notacijos \[JSON\], \[TXT ir kableliu atskirtų verčių CSV\]) naudojant RCS nustatytas konfigūracijas:
 
-    - Elektroninių ataskaitų formatai, pasiekiami šalyse arba regionuose, kuriuose negalima konfigūruoti el. SF transformavimo
+    - Elektroninių ataskaitų (ER) formatai, galimi šalims ir regionams, kuriuose negalima konfigūruoti elektroninės SF pakeitimo
 
-- Konfigūruojamas elektroninių SF pateikimas išorinėms žiniatinklio tarnyboms, įskaitant sertifikavimo tvarkymą naudojant skaitmeninius parašus:
+- Konfigūruojamas elektroninių SF pateikimas išorinėms žiniatinklio paslaugoms, įskaitant sertifikavimo tvarkymą naudojant skaitmeninius parašus:
 
-    - Įtaisytas, lengvai išplečiamas ir konfigūruojamas integravimas su papildomu kelių šalių turiniu
+    - Įtaisytasis, lengvai išplečiamas ir konfigūruojamas integravimas su papildomu turiniu kelioms šalims ir regionams
 
-    > [!NOTE]
-    > Šiuo metu palaikomas ribotas tiesioginių pateikimų skaičius. Daugiau informacijos žr. ankstesniame šios temos skyriuje [Pasiekiamumas](#availability). Palaikymas bus išplėstas ateityje.
-
-- Atsakymų iš žiniatinklio tarnybų tvarkymas, įskaitant konfigūruojamų išimties pranešimų tvarkymą
-- Elektroninių parašų palaikymas (pvz., naudojant XMLDSig pasirašymo algoritmą)
-- El. SF pranešimų paketinis apdorojimas
-
-## <a name="architecture-and-data-flow"></a>Architektūra ir duomenų srautai
-
-Kai elektroninių SF išrašymo priedas įdiegtas iš LCS, o reikiamas nustatymas baigtas visose būtinose programose, sukuriamas saugus ryšys. Šiuo metu paslauga yra duomenų centruose Jungtinėse Valstijose ir Europoje. Todėl paslaugos vieta gali skirtis nuo susijusio „Finance” ar „Supply Chain Management” egzemplioriaus vietos. Atlikus elektroninių SF išrašymo priedo nustatymą ir įjungus integravimą, kaskart siunčiant elektroninę SF, bendrieji duomenys ir su konkrečiu dokumentu susiję operacijų duomenys siunčiami į elektroninių SF išrašymo priedą.
-
-> [!NOTE]
-> Jeigu jūsų elektroninėje SF ar kitame dokumente yra asmeninių duomenų, patikrinkite, šios funkcijos naudojimas atitinka bendrąjį duomenų apsaugos reglamentą (GDPR) ir kitus reglamentus, susijusius su asmeninių duomenų perkėlimu.
-
-### <a name="high-level-description-of-the-data-flow"></a>Išsamus duomenų srauto aprašas
-
-1. Klientas išsiunčia kanoninį verslo dokumentą į paslaugą.
-2. Atsižvelgdama į konteksto informaciją, gaunamą iš kliento, paslauga pasirenka taikytiną apdorojimo srautą.
-3. Paslauga vykdo apdorojimo veiksmus. Šie veiksmai gali apimti verslo dokumento transformavimą į elektroninę SF, elektroninio parašo taikymą ir dokumento pateikimą į išorinę žiniatinklio tarnybą.
-4. Visi gauti ir apdoroti dokumentai saugomi kliento „Azure“ didelių dvejetainių objektų saugykloje.
-5. Visi nuomotojo slaptieji raktai ir sertifikatai, kurie buvo naudojami apdorojimo metu, saugomi kliento „Azure” raktų saugykloje.
-6. Paslauga pagal poreikį pateikia klientui informaciją apie išsiųsto verslo dokumento apdorojimo būseną.
-7. Klientas gauna informaciją apie užbaigtą apdorojimo vykdymą ir pateikia visą žurnalo informaciją. Be to, jis pateikia dokumentą, sukurtą arba gautą srauto apdorojimo metu.
-
-Toliau pateiktame paveikslėlyje vaizduojama, kaip duomenų srautai juda į ir iš elektroninių SF išrašymo priedo.
-
-![Elektroninių SF išrašymo priedo duomenų srautas](media/e-invoicing-service-data-flow-diagram-overview.png)
+- Žiniatinklio tarnybų atsakymų tvarkymas, įskaitant konfigūruojamus išimčių pranešimų tvarkymą
+- Elektroninių parašų palaikymas (pvz., elektroninių parašų, kurie naudoja XMLDSig pasirašymo algoritmą)
+- Galimybė siųsti dokumentus į el. laiškus ir juos saugoti SharePoint
+- Elektroninių SF pranešimų paketinis apdorojimas
+- Konfigūruojamas gaunamų dokumentų pakeitimas ir šių dokumentų apdorojimas finansų ir tiekimo grandinės valdymo procesuose
+- Galimybė gauti gaunamus dokumentus iš kanalų, pvz., el. pašto ir SharePoint
 
 ## <a name="privacy-notice"></a>Privatumo pranešimas
-Įgalinant ir naudojant elektroninių SF išrašymą gali reikėti siųsti ribotus duomenis, įskaitant organizacijos mokesčių registracijos ID. Jie bus persiųsti mokesčių inspekcijų patvirtintoms trečiųjų šalių agentūroms, kad būtų galima siųsti elektronines SF iš anksto nustatytais formatais, reikalingais integravimui su šiomis vyriausybės žiniatinklio tarnybomis. Duomenims, importuotiems iš šių išorinių sistemų į šią „Dynamics 365” internetinę paslaugą, taikomos [privatumo nuostatos](https://go.microsoft.com/fwlink/?LinkId=512132). Daugiau informacijos ieškokite skyriuose Privatumo pranešimas, esančiuose konkrečios šalies funkcijos dokumentacijoje.
 
-## <a name="additional-resources"></a>Papildomi ištekliai
+Elektroninių SF išrašymo įgalinimas ir naudojimas gali reikalauti, kad būtų siunčiami riboti duomenys. Šie duomenys apima organizacijos mokesčių registracijos ID. Šie duomenys bus perduoti trečiųjų šalių agentūroms, kurias mokesčių inspekcija įgaliojo siųsti elektronines SF iš anksto nustatytais formatais, kurių reikia integravimui su vyriausybės tinklo tarnybomis. Iš šių išorinių sistemų importuojami duomenys į šią "Dynamics 365" interneto paslaugą priklauso nuo mūsų privatumo [patvirtinimo](https://go.microsoft.com/fwlink/?LinkId=512132). Daugiau informacijos ieškokite šaliai/regionui brangesnių priemonių dokumentuose skyriuje "Privatumo pranešimas".
 
-- [Darbo su elektroninių SF išrašymo priedu pradžia](e-invoicing-get-started.md)
-- [Darbo su Brazilijos elektroninių SF išrašymo priedu pradžia](e-invoicing-bra-get-started.md)
-- [Darbo su Meksikos elektroninių SF išrašymo priedu pradžia](e-invoicing-mex-get-started.md)
-- [Darbo su Italijos elektroninių SF išrašymo priedu pradžia](e-invoicing-ita-get-started.md)
-- [Elektroninių SF išrašymo priedo nustatymas](e-invoicing-setup.md)
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

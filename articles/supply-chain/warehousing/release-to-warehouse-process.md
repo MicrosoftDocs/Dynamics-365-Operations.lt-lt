@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-08-13
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 6c8aa0338ab30e6366601e3759141c7e41bf99fb
-ms.sourcegitcommit: ab1455c67f6ee6ca36bec148bea0dbb0f7704eda
-ms.translationtype: HT
+ms.openlocfilehash: 3269bf3f8a5475fb85e6b51514db29006be9aab1
+ms.sourcegitcommit: b52ff5dfd32580121f74a5f262e5c2495e39d578
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "7428950"
+ms.lasthandoff: 03/03/2022
+ms.locfileid: "8376213"
 ---
 # <a name="release-to-warehouse"></a>Išleisti į sandėlį
 
@@ -125,6 +125,7 @@ Norėdami nustatyti paketinę užduotį išleidžia į prekybos užsakymus, atli
     - Parametras **Išleidžiamas kiekis** – pasirinkite, ar visas kiekis ar kaip paketas turi būti išleistas visas kiekis, ar fiziškai rezervuotas kiekis į sandėlį.
     - **Leisti išleisti iš dalies išleistų užsakymų** – nurodyti, ar likę iš dalies išleistų užsakymų kiekiai turėtų būti išleisti į sandėlį.
     - **Rezervuoti išleidžiant prekes** – nurodykite, ar kiekiai, kurie buvo automatiškai rezervuoti pardavimo užsakymui, turi išlikti rezervuoti, jei išleidimo į sandėlį procesas nepavyksta.
+    - **Grupuoti paleidimus pagal klientą** – nurodyti, ar sistema turi apdoroti kiekvieno kliento paleidimą į sandėlį atskirai, ar išleisti visus pardavimo užsakymus tuo pačiu metu. Kai ši parinktis nustatyta kaip *Taip*, sistema surinks visas pasirinkto kliento pardavimo užsakymo eilutes, išleis šiuos užsakymus į sandėlį, tada apdoros kitą klientą. Kai ši parinktis nustatyta kaip *Ne*, sistema išleis visas galimas pardavimo užsakymo eilutes vienos paleisti į sandėlį operacijos metu. Įgalindami šią pasirinktį, galite padidinti paleidimo į sandėlį proceso efektyvumą ir efektyvumą. Tačiau šią pasirinktį reikia naudoti kartu su bangos šablonais, sukonfigūruotais apdoroti bangas išleidžiant į sandėlį, nes šis derinys gali sugeneruoti daug vieno kliento bangų, kurių kiekviena iš jų sugeneruota tik tam klientui. Jei norite generuoti darbą, kuriame kelių klientų siuntos sujungiamos, turite arba išjungti grupės išleidimą pagal klientą, *arba* sukonfigūruokite bangos šablonus, kad būtų naudojamas atidėtas apdorojimas.
     - **Užrakintas užsakymų tvarkymas** – pasirinkite, kaip sistema turi tvarkyti pardavimo užsakymus, kurie šiuo metu yra užrakinti, nes juos redaguoja kiti vartotojai arba procesai:
 
         - *Palaukite, kol užsakymai bus atrakinti* – sistema turi laukti, kol užsakymai bus atrakinti, prieš išleidžiant juos į sandėlį. Šiuo atveju paleidimo į sandėlį procesas gali užtrukti.

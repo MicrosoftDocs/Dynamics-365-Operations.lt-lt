@@ -2,231 +2,249 @@
 title: Svertinis vidurkis su faktine verte ir žymėjimu
 description: Svertinis vidurkis yra atsargų modelis, pagrįstas svertinio vidurkio principu, kai išdavimas iš atsargų įvertinamas taikant vidutinę prekių, kurios gautos į atsargas atsargų uždarymo laikotarpiu, vertę, taip pat – visas iš ankstesnio laikotarpio turimas atsargas.
 author: AndersGirke
-manager: tfehr
-ms.date: 10/25/2017
+ms.date: 02/21/2022
 ms.topic: article
-ms.prod: ''
-ms.service: dynamics-ax-applications
-ms.technology: ''
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations, Retail
 ms.custom: 65501
-ms.assetid: 25041ff0-bafe-484d-a94a-e1772ad43204
 ms.search.region: Global
-ms.search.industry: Retail
-ms.author: kamaybac
+ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 225379df8bb86522d5817add570d614d09a1a92d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 6c124716b70be837573506a738ef2034397f2bda
+ms.sourcegitcommit: addae271ddfc5a8b0721c23337f69916153db4cd
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4433433"
+ms.lasthandoff: 02/21/2022
+ms.locfileid: "8330231"
 ---
 # <a name="weighted-average-with-physical-value-and-marking"></a>Svertinis vidurkis su faktine verte ir žymėjimu
 
 [!include [banner](../includes/banner.md)]
 
-Svertinis vidurkis yra atsargų modelis, pagrįstas svertinio vidurkio principu, kai išdavimas iš atsargų įvertinamas taikant vidutinę prekių, kurios gautos į atsargas atsargų uždarymo laikotarpiu, vertę, taip pat – visas iš ankstesnio laikotarpio turimas atsargas.
+Svertinis vidurkis yra atsargų modelis, pagrįstas vidurkiu, kurį naudojant kiekvieno komponento (prekės operacijos) dauginimas pagal koeficientą (savikainą), atspindintį jo svarbą (kiekį). Kitas būdas tai padaryti yra tas, kad svertinis vidurkis yra atsargų modelis, kuris priskiria išdavimo operacijų išlaidas pagal vidutinę visų per laikotarpį gautų atsargų vertę bei visas iš ankstesnio laikotarpio gautas atsargas.
 
-Kai vykdote atsargų uždarymą visi gavimai sudengiami prieš virtualų išdavimą, kuriame yra bendras gautas kiekis ir vertė. Šis virtualus išdavimas turi atitinkamą virtualų gavimą, iš kurio sudengiami išdavimai. Tokiu būdu visų išdavimų vidutinės išlaidos būna tokios pačios. Virtualus išdavimas ir gavimas gali būti suprantami kaip virtualus perdavimas, vadinamas svertinio vidurkio atsargų uždarymu.
+Kai atsargų uždarymą vykdote naudodami svertinio vidurkio atsargų modelį, yra du būdai, kaip galima kurti sudengimą. Paprastai visi gavimų apmokėjimai yra sudengiama prieš virtualų išdavimą, kuriame yra bendras gautas kiekis ir vertė. Šis virtualus išdavimas turi atitinkamą virtualų gavimą, iš kurio sudengiami išdavimai. Tokiu būdu visų išdavimų vidutinės išlaidos būna tokios pačios. Virtualų išdavimą ir gavimą galima matyti kaip virtualųjį perkėlimą, kuris vadinamas svertinio *vidurkio atsargų uždarymo perkėlavimu*. Šis sudengimo metodas vadinamas svertinio vidurkio *suvestinių sudengimų pavadinimu*. Jeigu yra tik vienas gavimas, visi išdavimai gali būti atlikti iš jo, ir nereikės kurti virtualaus perdavimo. Šis sudengimo metodas vadinamas tiesioginiu sudengimo *metodu*. Bet kurios turimos atsargos po atsargų uždarymo vertė apskaičiuojama taikant ankstesnio laikotarpio svertinį vidurkį ir įtraukiama į svertinio vidurkio skaičiavimą kitą laikotarpį.
 
-Jeigu yra tik vienas gavimas, visi išdavimai gali būti atlikti iš jo, ir nereikės kurti virtualaus perdavimo. 
-
-Naudodami svertinį vidurkį, galite žymėti atsargų operacijas, kad konkretus prekės gavimas būtų sudengtas su konkrečiu išdavimu, užuot naudoję svertinio vidurkio taisyklę. 
-
-Naudojant svertinio vidurkio atsargų modelį, rekomenduojama kas mėnesį atlikti atsargų uždarymą. 
+Galite nepaisyti svertinio vidurkio principo, pažymėdami atsargų operacijas, kad konkrečios prekės gavimas būtų sudengtas su konkrečiu išdavimu. Rekomenduojama periodiškai uždaryti atsargas, kai naudojate svertinio vidurkio atsargų modelį sudengtims kurti ir problemų vertei koreguoti, atsižvelgiant į svertinio vidurkio principą. Kol jūs paleidžiate atsargų uždarymo procesą, išdavimo operacijos yra įvertintos pagal paleidžiamo vidurkio, kai įvyko faktiniai ir finansiniai atnaujinimai. Jei nenaudojate žymėjimo, vykdomasis vidurkis apskaičiuojamas, kai atliekamas faktinis arba finansinis atnaujinimas.
 
 Svertinio vidurkio atsargų įkainojimo būdas apskaičiuojamas naudojant toliau nurodytą formulę.
--   Svertinis vidurkis = (Q1\*P1 + Q2\*P2 + Qn\*Pn) / (Q1 + Q2 + Qn)
 
-Atsargų operacijos, paliekančios atsargų išdavimus. Tai apima pardavimo užsakymus, atsargų žurnalus ir gamybos užsakymus, esančius įvertintos savikainos registravimo datą. Ši įvertinta savikaina taip pat nurodoma kaip slankusis vidurkis. Uždarant atsargas sistemoje bus išanalizuotos ankstesnių laikotarpių ir dabartinio laikotarpio atsargų operacijos ir bus nustatoma, kuris iš toliau nurodytų uždarymo principų turėtų būti naudojamas.
--   Tiesioginis sudengimas
--   Suvestinis sudengimas
+- Svertinis vidurkis = (\[Q1 × P1\] + \[Q2 × P2\] + \[Q *n* × P *n*\]) ÷ (Q1 + Q2 + Q *n*)
+
+Q = operacijos kiekis  
+P = operacijos kaina
 
 Sudengimai yra atsargų uždarymo registravimas, per kurį išdavimai nustatomi pagal pataisytą svertinį vidurkį uždarymo datą. Pateiktame pavyzdyje parodytas svertinio vidurkio naudojimo su penkiomis skirtingomis konfigūracijomis poveikis:
--   Svertinio vidurkio tiesioginis sudengimas be pasirinkties Įtraukti faktinę vertę
--   Svertinio vidurkio suvestinis sudengimas be pasirinkties Įtraukti faktinę vertę
--   Svertinio vidurkio tiesioginis sudengimas su pasirinktimi Įtraukti faktinę vertę
--   Svertinio vidurkio suvestinis sudengimas su pasirinktimi Įtraukti faktinę vertę
--   Svertinis vidurkis su žymėjimu
+
+- Svertinio vidurkio tiesioginis sudengimas be **pasirinkties Įtraukti faktinės** vertės
+- Svertinio vidurkio suvestinis sudengimas be pasirinkties **Įtraukti fizinę** vertę
+- Svertinio vidurkio tiesioginis sudengimas su pasirinktimi **Įtraukti fizinę** vertę
+- Svertinio vidurkio suvestinis sudengimas su pasirinktimi **Įtraukti faktines** vertę
+- Svertinis vidurkis su žymėjimu
 
 ## <a name="weighted-average-direct-settlement-without-include-physical-value"></a>Svertinio vidurkio tiesioginis sudengimas neįtraukiant faktinės vertės
-Taikomas tas pats tiesioginio sudengimo principas, naudojamas su svertiniu vidurkiu ankstesnėse versijose. Sistema sudengs tiesiogiai tarp gavimų ir išdavimų. Sistemoje šis tiesioginio sudengimo principas naudojamas esant šioms konkrečioms situacijoms.
--   Per laikotarpį užregistruotas vienas gavimas ir vienas arba keletas išdavimų
--   Per laikotarpį buvo užregistruoti tik išdavimai, o atsargose yra prekių nuo ankstesnio uždarymo
 
-Tolesniuose skyriuose pateiktame scenarijuje užregistruotas finansiškai atnaujintas gavimas ir išdavimas. Uždarant atsargas sistemoje gavimas bus tiesiogiai sudengiamas su išdavimu ir nereikės koreguoti išdavimo savikainos. Grafike parodytos šios operacijos.
--   1a. Faktinis atsargų gavimas atnaujintas 5 vienetais, vieneto kaina 10,00 USD
--   1b. Atsargų finansinis gavimas atnaujintas 5 vienetais, vieneto kaina 10,00 USD
--   2a. Faktinis atsargų išdavimas atnaujintas 2 vienetais, vieneto kaina 10,00 USD
--   2b. Finansinis atsargų išdavimas atnaujintas 2 vienetais, vieneto kaina 10,00 USD
--   3. Atsargų uždarymas atliekamas taikant tiesioginio sudengimo būdą, kad būtų sudengtas finansinis atsargų gavimas su finansiniu atsargų išdavimu.
+Tiesioginio sudengimo principas sukuria sudengimą tiesiogiai tarp gavimų ir gavimų, nesukuriant papildomų atsargų operacijų. Sistema naudoja tiesioginį sudengimo principą šiose situacijose:
 
-Toliau pateiktoje diagramoje parodytas šių operacijų serijos poveikis, pasirinkus svertinio vidurkio atsargų modelį ir tiesioginio sudengimo principą be pasirinkties Įtraukti faktinę vertę. 
+- Per laikotarpį užregistruotas vienas gavimas ir vienas arba daugiau gavimų.
+- Per laikotarpį buvo užregistruoti tik kvitai, o atsargose yra prekių nuo ankstesnio uždarymo.
 
-![Svertinio vidurkio tiesioginis sudengimas be faktinės vertės įtraukimo](./media/weightedaveragedirectsettlementwithoutincludephysicalvalue.gif) 
+Šiame pavyzdyje žymės langelis **Įtraukti fizinę** vertę išvalytas išleisto **produkto prekių** modelių grupėje. Toliau pateiktoje iliustracijoje parodytos šios operacijos.
+
+- 1a. Faktinis atsargų gavimas, kai kiekis yra 10 o išlaidos – 10,00 USD už vienetą.
+- 1b. Finansinis atsargų gavimas, kai kiekis yra 10 o išlaidos – 10,00 USD už vienetą.
+- 2a. Faktinis atsargų gavimas, kai kiekis yra 10 o išlaidos – 20,00 USD už vienetą.
+- 3a. Faktinis atsargų išdavimas, kai kiekis yra 1, o vieneto savikaina USD 10.00 (finansiškai užregistruotų operacijų svertinis vidurkis).
+- 3b. Finansinis atsargų išdavimas, kai kiekis yra 1, o vieneto savikaina USD 10.00 (finansiškai užregistruotų operacijų svertinis vidurkis).
+- 4a. Faktinis atsargų išdavimas, kai kiekis yra 1 o išlaidos USD 10.00 vienetą (finansiškai užregistruotų operacijų svertinis vidurkis).
+- 4b. Finansinis atsargų išdavimas, kai kiekis yra 1, vieneto kaina USD 10.00 vienetą (finansiškai užregistruotų operacijų s einamasis vidurkis).
+- 5a. Faktinis atsargų išdavimas, kai kiekis yra 1 o išlaidos USD 10.00 vienetą (finansiškai užregistruotų operacijų svertinis vidurkis).
+- 6\. Atsargų uždarymas atliktas. Remdamasi svertinio vidurkio metodu sistema naudoja tiesioginio sudengimo metodą, nes tik vienas gavimas finansiškai atnaujinamas tuo laikotarpiu. Šiame pavyzdyje vienas sudengimas sukuriamas tarp 1b ir 3b ir kitas tarp 1b ir 4b. Nėra koreguojama, nes einamasis vidurkis yra toks pat kaip svertinis vidurkis.
+
+Toliau pateiktoje diagramoje parodyta **operacijų serija pasirinkus svertinio vidurkio atsargų modelį ir tiesioginio sudengimo principą be pasirinkties Įtraukti fizinę** vertę.
+
+![Svertinio vidurkio duomenų apims be faktinės vertės įtraukti.](media/weighted-average-direct-settlement-without-include-physical-value.png)
 
 **Diagramos paaiškinimas**
+
 - Atsargų operacijos parodomos vertikaliomis rodyklėmis.
-- Atsargų gavimai parodomi vertikaliomis rodyklėmis virš laiko juostos.
-- Atsargų išdavimai parodomi vertikaliomis rodyklėmis po laiko juosta.
-- Virš (arba po) kiekviena vertikalia rodykle atsargų operacijos vertė nustatyta formatu „Kiekis@Prekėskaina“.
-- Atsargų operacijos vertė skliausteliuose rodo, kad atsargų operacija atsargose užregistruota fiziškai.
-- Atsargų operacijos vertė be skliaustelių rodo, kad atsargų operacija atsargose užregistruota finansiškai.
+- Faktinės operacijos žymimos trumpesniomis pilkomis rodyklėmis.
+- Finansinės operacijos rodo ilgesniomis juodomis rodyklėmis.
+- Atsargų gaviniai pateikiami vertikaliomis rodyklėmis virš ašies.
+- Atsargų problemos vaizduojamos vertikaliomis rodyklėmis po ašimi.
 - Kiekviena nauja gavimo arba išdavimo operacija pažymima nauja žyme.
-- Kiekviena vertikali rodyklė yra pažymėta sekos identifikatoriumi, pvz., *1a*. Identifikatoriai rodo atsargų operacijų registracijos laiko juostoje seką.
-- Atsargų uždarymai rodomi raudona vertikalia punktyrine linija ir žyme Atsargų uždarymas.
-- Iki atsargų uždarymo atlikti sudengimai rodomi punktyrinėmis raudonomis rodyklėmis, einančiomis įstrižai nuo gavimo prie išdavimo.
+- Kiekviena vertikali rodyklė yra pažymėta sekos identifikatoriumi, pvz., *1a*. Identifikatoriai rodo atsargų operacijų registracijos laiko juostoje tvarką.
+- Kiekviena diagramos data yra atskirta siaura juoda vertikalia linija. Data pažymima diagramos apačioje.
+- Atsargų uždarymai vaizduojami raudona vertikalia punktyrine linija.
+- Iki atsargų uždarymo atlikti sudengimai rodomi raudonomis įstrižomis punktyrinėmis rodyklėmis, einančiomis nuo gavimo prie išdavimo.
 
 ## <a name="weighted-average-summarized-settlement-without-the-include-physical-value-option"></a>Svertinio vidurkio suvestinis sudengimas be pasirinkties Įtraukti faktinę vertę
-Su svertiniu vidurkiu naudojamas sudengimo principas, kuriuo remiantis visi uždarymo laikotarpio gavimai yra sumuojami operacijoje, kuri vadinasi Svertinio vidurkio atsargų uždarymas. Visi laikotarpio gavimai bus sudengiami su naujai sukurtos atsargų perkėlimo operacijos išdavimu. Visi laikotarpio išdavimai bus sudengiami su naujai sukurtos atsargų perkėlimo operacijos gavimu. Jeigu po atsargų uždarymo turimas atsargų kiekis yra teigiamas, tos turimos atsargos ir atsargų vertė susumuojamos naujoje atsargų perdavimo operacijoje (gavimas). Jeigu po atsargų uždarymo turimas atsargų kiekis yra neigiamas, turimos atsargos ir atsargų vertė yra iki galo nesudengtų atskirų išdavimų suma. Toliau pateiktame scenarijuje užregistruota keletas finansiškai atnaujintų gavimų ir vienas išdavimas. 
 
-Uždarant atsargas sistemoje bus sugeneruojama ir užregistruojama apibendrinta atsargų perkėlimo operacija, o laikotarpio gavimai bus sudengiami su apibendrinta atsargų perkėlimo išdavimo operacija. Visi užregistruoti laikotarpio išdavimai bus sudengti su suvestine atsargų perkėlimo gavimo operacija. Apskaičiuotas svertinis vidurkis yra 15,00 USD. Išdavimas iš pradžių užregistruotas su įvertinta 14,67 USD savikaina. Todėl neigiamas 0,33 USD koregavimas bus sukurtas ir užregistruotas išdavime. Kaip ir atsargų uždarymo datą turimos atsargos yra 3 vienetai, kurių vertė 45,00 USD. 
+Kai per laikotarpį yra keletas gavimų, svertinis vidurkis *naudoja suvestinio sudengimo principą, kai visi uždarymo laikotarpio gavimų suvestinė pateikiami operacijoje, kuri vadinama svertinio vidurkio atsargų uždarymu*. Visi laikotarpio gaviniai bus sudengti su naujai sukurtos atsargų operacijos išdavimu. Visi laikotarpio išduodami bus sudengti su naujos atsargų operacijos gavimu. Jei po atsargų uždarymo lieka turimų atsargų vertė, turimų atsargų vertė įtraukiama į svertinio vidurkio atsargų uždarymo operacijų gavimo operaciją.
 
-Tolesniame grafike parodytos šios operacijos:
--   1a. Atsargų fizinis gavimas atnaujintas 2 vienetais, kiekvieno vieneto kaina 11,00 USD.
--   1b. Atsargų finansinis gavimas atnaujintas 2 vienetais, kiekvieno vieneto kaina 14,00 USD.
--   2a. Atsargų fizinis gavimas atnaujintas 1 vienetais, kiekvieno vieneto kaina 12,00 USD.
--   2b. Atsargų finansinis gavimas atnaujintas 1 vienetu, vieneto kaina 16,00 USD.
--   3a. Atsargų faktinis išdavimas atnaujintas 1 vienetu, vieneto kaina 14,67 USD (slankusis vidurkis).
--   3b. Atsargų finansinis išdavimas atnaujintas 1 vienetu, vieneto kaina 14,67 USD (slankusis vidurkis).
--   4a. Atsargų fizinis gavimas atnaujintas 1 vienetais, kiekvieno vieneto kaina 14,00 USD.
--   4b. Atsargų finansinis gavimas atnaujintas 1 vienetu, vieneto kaina 16,00 USD.
--   5. Atsargų uždarymas atliktas.
--   6a. „Slankiojo vidurkio atsargų uždarymo operacija“ finansinis išdavimas sukuriamas, siekiant susumuoti visų atsargų finansinių gavimų sudengimus.
--   6b. „Svertinio vidurkio atsargų uždarymo operacija“ finansinis gavimas, sukurtas kaip 5a korespondentinė sąskaita.
+Grafike parodytos šios operacijos:
 
-Toliau pateiktoje diagramoje parodytas šių operacijų serijos poveikis, pasirinkus svertinio vidurkio atsargų modelį ir apibendrinto sudengimo principą be pasirinkties Įtraukti faktinę vertę. 
+- 1a. Faktinis atsargų gavimas, kai kiekis yra 1 o išlaidos – 10,00 USD už vienetą.
+- 1b. 1 vieneto, kurio kaina 10,00 USD, finansinis gavimas į atsargas.
+- 2a. Faktinis atsargų gavimas, kai kiekis yra 1 o išlaidos – 20,00 USD už vienetą.
+- 2b. Finansinis atsargų gavimas, kai kiekis yra 1 o išlaidos – 22,00 USD už vienetą.
+- 3a. Faktinis atsargų išdavimas, kai kiekis yra 1, o vieneto savikaina USD 16.00 (finansiškai užregistruotų operacijų svertinis vidurkis).
+- 3b. Finansinis atsargų išdavimas, kai kiekis yra 1, o vieneto savikaina USD 16.00 (finansiškai užregistruotų operacijų svertinis vidurkis).
+- 4a. Faktinis atsargų gavimas, kai kiekis yra 1 o išlaidos – 25,00 USD už vienetą.
+- 5a. Faktinis atsargų gavimas, kai kiekis yra 1 o išlaidos – 30,00 USD už vienetą.
+- 5b. Finansinis atsargų gavimas, kai kiekis yra 1 o išlaidos – 30,00 USD už vienetą.
+- 6a. Faktinis atsargų išdavimas, kai kiekis yra 1, o vieneto savikaina USD 23.00 (finansiškai užregistruotų operacijų svertinis vidurkis).
+- 7\. Atsargų uždarymas atliktas.
+- 7a. Svertinio vidurkio atsargų uždarymo operacijos finansinis išdavimas sukuriamas, siekiant susumuoti visų atsargų finansinių gavimų sudengimą.
+  - 1b operacija sudengiama 1 kiekiui, kurio suma sudengta USD 10.00.
+  - 2b operacija sudengiama 1 kiekiui, kurio suma sudengta USD 22.00.
+  - 5b operacija sudengiama 1 kiekiui, kurio suma sudengta USD 30.00.
+  - Operacija 7a. Sukurtas 3 kiekiui su sudengta USD 62.00. Ši operacija kompensuoja trijų gavimo operacijų, kurios finansiškai atnaujinamos per laikotarpį, sumą.
+- 7b. Svertinio vidurkio atsargų uždarymo operacijos finansinis gavimas sukuriamas kaip finansiškai užregistruotų gavimų korespondentinė sąskaita.
+  - 3b operacija sudengiama 1 kiekiui, kurio suma sudengta USD 20.67. Ši operacija koreguojama USD 4.67, kad pradinė laikotarpio vertė USD 16.00 20,67, kuri yra finansiškai užregistruotų laikotarpio operacijų svertinis vidurkis.
+  - 7b operacija. Sukurtas 1 kiekiui su sudengta suma, USD 20.67 į 3b korespondentinę sąskaitą. Ši operacija koresponduos vienos išdavimo operacijos, kuri finansiškai atnaujinta per laikotarpį, sumą.
 
-![Svertinio vidurkio apibendrintas sudengimas su faktinės vertės įtraukimu    ](./media/weightedaveragesummarizedsettlementwithoutincludephysicalvalue.gif) 
+Toliau pateiktoje diagramoje parodyta operacijų serija pasirinkus svertinio vidurkio atsargų modelį **ir suvestinio sudengimo principą be pasirinkties Įtraukti fizinę** vertę.
+
+![Svertinio vidurkio SS be faktinės vertės įtraukti.](media/weighted-average-summarized-settlement-without-include-physical-value.png)
 
 **Diagramos paaiškinimas**
+
 - Atsargų operacijos parodomos vertikaliomis rodyklėmis.
-- Atsargų gavimai parodomi vertikaliomis rodyklėmis virš laiko juostos.
-- Atsargų išdavimai parodomi vertikaliomis rodyklėmis po laiko juosta.
-- Virš (arba po) kiekviena vertikalia rodykle atsargų operacijos vertė nustatyta formatu „Kiekis@Prekėskaina“.
-- Atsargų operacijos vertė skliausteliuose rodo, kad atsargų operacija atsargose užregistruota fiziškai.
-- Atsargų operacijos vertė be skliaustelių rodo, kad atsargų operacija atsargose užregistruota finansiškai.
+- Faktinės operacijos žymimos trumpesniomis pilkomis rodyklėmis.
+- Finansinės operacijos rodo ilgesniomis juodomis rodyklėmis.
+- Atsargų gaviniai pateikiami vertikaliomis rodyklėmis virš ašies.
+- Atsargų problemos vaizduojamos vertikaliomis rodyklėmis po ašimi.
 - Kiekviena nauja gavimo arba išdavimo operacija pažymima nauja žyme.
-- Kiekviena vertikali rodyklė yra pažymėta sekos identifikatoriumi, pvz., *1a*. Identifikatoriai rodo atsargų operacijų registracijos laiko juostoje seką.
-- Atsargų uždarymai rodomi raudona vertikalia punktyrine linija ir žyme Atsargų uždarymas.
-- Iki atsargų uždarymo atlikti sudengimai rodomi punktyrinėmis raudonomis rodyklėmis, einančiomis įstrižai nuo gavimo prie išdavimo.
-- Raudonos rodyklės rodo gavimo operacijas, sudengtas su sistemos sukurta išdavimo operacija.
-- Žalia rodyklė rodo korespondentinę sistemos sukurtą gavimo operaciją, su kuria sudengta iš pradžių užregistruota išdavimo operacija
+- Kiekviena vertikali rodyklė yra pažymėta sekos identifikatoriumi, pvz., *1a*. Identifikatoriai rodo atsargų operacijų registracijos laiko juostoje tvarką.
+- Kiekviena diagramos data yra atskirta siaura juoda vertikalia linija. Data pažymima diagramos apačioje.
+- Atsargų uždarymai vaizduojami raudona vertikalia punktyrine linija.
+- Iki atsargų uždarymo atlikti sudengimai rodomi raudonomis įstrižomis punktyrinėmis rodyklėmis, einančiomis nuo gavimo prie išdavimo.
 
 ## <a name="weighted-average-direct-settlement-with-the-include-physical-value-option"></a>Svertinio vidurkio tiesioginis sudengimas su pasirinktimi Įtraukti faktinę vertę
-Parametras Įtraukti faktinę vertę svertinio vidurkio atsargų modeliui taikomas kitaip nei ankstesnėse produkto versijose. Formoje Prekių modelių grupė pažymėkite langelį Įtraukti faktinę vertę. Tada sistemoje skaičiuojant įvertintą savikainą arba paleidžiamąjį vidurkį bus naudojami faktiškai atnaujinti gavimai. Išdavimai bus užregistruoti remiantis įvertinta laikotarpio savikaina. Uždarant atsargas finansiškai atnaujinti gavimai bus naudojami tik skaičiuojant svertinį vidurkį. Naudojant svertinio vidurkio atsargų modelį, rekomenduojama kas mėnesį atlikti atsargų uždarymą. Šiame svertinio vidurkio tiesioginio sudengimo pavyzdyje prekių modelių grupė pažymėta įtraukti faktinę vertę. 
 
-Tolesniame grafike parodytos šios operacijos:
--   1a. Atsargų fizinis gavimas atnaujintas 1 vienetais, kiekvieno vieneto kaina 11,00 USD.
--   1b. Atsargų finansinis gavimas atnaujintas 1 vienetais, kiekvieno vieneto kaina 10,00 USD.
--   2a. Atsargų fizinis gavimas atnaujintas 1 vienetais, kiekvieno vieneto kaina 15,00 USD.
--   3a. Atsargų faktinis išdavimas atnaujintas 1 vienetu, vieneto kaina 12,50 USD (slankiojo vidurkio kaina, nes atsižvelgiama į faktinio gavimo vertę).
--   3b. Atsargų finansinis išdavimas atnaujintas 1 vienetu, vieneto kaina 12,50 USD (slankiojo vidurkio kaina, nes atsižvelgiama į faktinę gavimo vertę).
--   4. Atsargų uždarymas atliktas. Uždarant atsargas sistemoje bus nepaisoma visų tik faktiškai atnaujintų atsargų operacijų. Bus taikomas tiesioginio sudengimo principas, nes yra tik vienas finansinis gavimas. Bus užregistruotas atsargų finansinio išdavimo operacijos 2,50 USD koregavimas atsargų uždarymo datą. Uždarius atsargas, turimos atsargos bus 1 vienetas, kurio slankiojo vidurkio savikaina 15,00 USD.
+Parametras **Įtraukti fizinę** vertę veikia kitaip, naudojant svertinio vidurkio atsargų modelį, nei ankstesnėse produkto versijose. Kai pasirenkate prekės **pasirinktį** **Įtraukti** fizinę vertę į prekių modelių grupės formą, sistema, skaičiuojant įvertintą išdavimo savikainą arba einamųjų vidurkį, naudos fiziškai atnaujintus gavimus. Išdavimai bus užregistruoti remiantis įvertinta laikotarpio savikaina. Uždarant atsargas finansiškai atnaujinti gavimai bus naudojami tik skaičiuojant svertinį vidurkį.
 
-Toliau pateiktoje diagramoje parodytas šių operacijų serijos poveikis, pasirinkus svertinio vidurkio atsargų modelį ir tiesioginio sudengimo principą su pasirinktimi Įtraukti faktinę vertę. 
+Grafike parodytos šios operacijos:
 
-![Svertinio vidurkio tiesioginis sudengimas su faktinės vertės įtraukimu](./media/weightedaveragedirectsettlementwithincludephysicalvalue.gif) 
+- 1a. Faktinis atsargų gavimas, kai kiekis yra 10 o išlaidos – 10,00 USD už vienetą.
+- 1b. Finansinis atsargų gavimas, kai kiekis yra 10 o išlaidos – 10,00 USD už vienetą.
+- 2a. Faktinis atsargų gavimas, kai kiekis yra 10 o išlaidos – 20,00 USD už vienetą.
+- 3a. Faktinis atsargų išdavimas, kai kiekis yra 1, o vieneto savikaina USD 15.00 (fiziškai ir finansiškai užregistruotų operacijų svertinė vidurkis).
+- 3b. Finansinis atsargų išdavimas, kai kiekis yra 1, o vieneto savikaina USD 15.00 (faktiškai ir finansiškai užregistruotų operacijų svertinė vidurkis).
+- 4a. Faktinis atsargų išdavimas, kai kiekis yra 1, vieneto kaina USD 15.00 vienetą (fiziškai ir finansiškai užregistruotų operacijų sąrangos vidurkis).
+- 4b. Finansinis atsargų išdavimas, kai kiekis yra 1, vieneto kaina USD 15.00 vienetą (fiziškai ir finansiškai užregistruotų operacijų sąrangos vidurkis).
+- 5a. Faktinis atsargų išdavimas, kai kiekis yra 1, vieneto kaina USD 15.00 vienetą (fiziškai ir finansiškai užregistruotų operacijų sąrangos vidurkis).
+- 6\. Atsargų uždarymas atliktas. Remdamasi svertinio vidurkio metodu sistema naudoja tiesioginio sudengimo metodą, nes tik vienas gavimas finansiškai atnaujinamas tuo laikotarpiu. Šiame pavyzdyje vienas sudengimas sukuriamas tarp 1b ir 3b ir kitas tarp 1b ir 4b. Kiekviena operacija 3b ir 4b koreguojama -5,00 USD, kad vertė būtų USD 10.00.
+
+Toliau pateiktoje diagramoje parodyta operacijų serija pasirinkus svertinio vidurkio atsargų modelį **ir tiesioginio sudengimo principą su pasirinktimi Įtraukti fizinę** vertę.
+
+![Svertinio vidurkio duomenų su faktinės vertės įvertimi.](media/weighted-average-direct-settlement-with-include-physical-value.png)
 
 **Diagramos paaiškinimas**
+
 - Atsargų operacijos parodomos vertikaliomis rodyklėmis.
-- Atsargų gavimai parodomi vertikaliomis rodyklėmis virš laiko juostos.
-- Atsargų išdavimai parodomi vertikaliomis rodyklėmis po laiko juosta.
-- Virš (arba po) kiekviena vertikalia rodykle atsargų operacijos vertė nustatyta formatu „Kiekis@Prekėskaina“.
-- Atsargų operacijos vertė skliausteliuose rodo, kad atsargų operacija atsargose užregistruota fiziškai.
-- Atsargų operacijos vertė be skliaustelių rodo, kad atsargų operacija atsargose užregistruota finansiškai.
+- Faktinės operacijos žymimos trumpesniomis pilkomis rodyklėmis.
+- Finansinės operacijos rodo ilgesniomis juodomis rodyklėmis.
+- Atsargų gaviniai pateikiami vertikaliomis rodyklėmis virš ašies.
+- Atsargų problemos vaizduojamos vertikaliomis rodyklėmis po ašimi.
 - Kiekviena nauja gavimo arba išdavimo operacija pažymima nauja žyme.
-- Kiekviena vertikali rodyklė yra pažymėta sekos identifikatoriumi, pvz., *1a*. Identifikatoriai rodo atsargų operacijų registracijos laiko juostoje seką.
-- Atsargų uždarymai rodomi raudona vertikalia punktyrine linija ir žyme Atsargų uždarymas.
-- Iki atsargų uždarymo atlikti sudengimai rodomi punktyrinėmis raudonomis rodyklėmis, einančiomis įstrižai nuo gavimo prie išdavimo.
+- Kiekviena vertikali rodyklė yra pažymėta sekos identifikatoriumi, pvz., *1a*. Identifikatoriai rodo atsargų operacijų registracijos laiko juostoje tvarką.
+- Kiekviena diagramos data yra atskirta siaura juoda vertikalia linija. Data pažymima diagramos apačioje.
+- Atsargų uždarymai vaizduojami raudona vertikalia punktyrine linija.
+- Iki atsargų uždarymo atlikti sudengimai rodomi raudonomis įstrižomis punktyrinėmis rodyklėmis, einančiomis nuo gavimo prie išdavimo.
 
 ## <a name="weighted-average-summarized-settlement-with-the-include-physical-value-option"></a>Svertinio vidurkio suvestinis sudengimas su pasirinktimi Įtraukti faktinę vertę
-Parametras Įtraukti faktinę vertę svertiniam vidurkiui taikomas kitaip nei ankstesnėse versijose. Puslapyje Prekių modelių grupė pažymėkite langelį Įtraukti faktinę vertę. Tada sistemoje skaičiuojant įvertintą savikainą arba paleidžiamąjį vidurkį bus naudojami faktiškai atnaujinti gavimai. Išdavimai bus užregistruoti remiantis įvertinta laikotarpio savikaina. Uždarant atsargas finansiškai atnaujinti gavimai bus naudojami tik skaičiuojant svertinį vidurkį. Naudojant svertinio vidurkio atsargų modelį, rekomenduojama kas mėnesį atlikti atsargų uždarymą. Šiame svertinio vidurkio suvestinio sudengimo pavyzdyje atsargų modelis pažymimas siekiant įtraukti faktinę vertę. 
 
-Tolesniame grafike parodytos šios operacijos:
--   1a. Atsargų fizinis gavimas atnaujintas 2 vienetais, kiekvieno vieneto kaina 11,00 USD.
--   1b. Atsargų finansinis gavimas atnaujintas 2 vienetais, kiekvieno vieneto kaina 14,00 USD.
--   2. Atsargų fizinis gavimas atnaujintas 1 vienetais, kiekvieno vieneto kaina 10,00 USD.
--   3a. Atsargų fizinis gavimas atnaujintas 1 vienetais, kiekvieno vieneto kaina 12,00 USD.
--   3b. Atsargų finansinis gavimas atnaujintas 1 vienetu, vieneto kaina 16,00 USD.
--   4a. Atsargų faktinis išdavimas atnaujintas 1 vienetu, vieneto kaina 13,50 USD (slankiojo vidurkio kaina, nes atsižvelgiama į faktinio gavimo vertę).
--   4b. Atsargų finansinis išdavimas atnaujintas 1 vienetu, vieneto kaina 13,50 USD (slankiojo vidurkio kaina, nes atsižvelgiama į faktinio gavimo vertę).
--   5a. Atsargų fizinis gavimas atnaujintas 1 vienetais, kiekvieno vieneto kaina 14,00 USD.
--   5b. Atsargų finansinis gavimas atnaujintas 1 vienetu, vieneto kaina 16,00 USD.
--   6. Atsargų uždarymas atliktas. Uždarant atsargas sistemoje bus nepaisoma visų tik faktiškai atnaujintų atsargų operacijų. Bus naudojamas suvestinio sudengimo principas, nes yra tik vienas finansinis gavimas. Bus užregistruotas atsargų finansinio išdavimo operacijos 1,50 USD koregavimas atsargų uždarymo datą. Uždarius atsargas, turimos atsargos bus 3 vienetai, kurių slankiojo vidurkio savikaina 15,00 USD.
--   7a. „Slankiojo vidurkio atsargų uždarymo operacija“ finansinis išdavimas sukuriamas, siekiant susumuoti visų atsargų finansinių gavimų sudengimus.
--   7b. „Svertinio vidurkio atsargų uždarymo operacija“ finansinis gavimas sukuriamas kaip 5a korespondentinė sąskaita.
+Parametras **Įtraukti fizinę vertę** veikia kitaip, naudojant svertinį vidurkį nei ankstesnėse versijose. Prekių modelių **grupės puslapyje** pažymėkite prekės žymės langelį Įtraukti **fizinę** vertę. Tada sistemoje skaičiuojant įvertintą savikainą arba paleidžiamąjį vidurkį bus naudojami faktiškai atnaujinti gavimai. Išdavimai bus užregistruoti remiantis įvertinta laikotarpio savikaina. Uždarant atsargas finansiškai atnaujinti gavimai bus naudojami tik skaičiuojant svertinį vidurkį. Naudojant svertinio vidurkio atsargų modelį, rekomenduojama kas mėnesį atlikti atsargų uždarymą. Šiame svertinio vidurkio suvestinio sudengimo pavyzdyje atsargų modelis pažymimas siekiant įtraukti faktinę vertę.
 
-Toliau pateiktoje diagramoje parodytas šių operacijų serijos poveikis, pasirinkus svertinio vidurkio atsargų modelį ir apibendrinto sudengimo principą be pasirinkties Įtraukti faktinę vertę. 
+Grafike parodytos šios operacijos:
 
-![Svertinio vidurkio apibendrintas sudengimas su faktinės vertės įtraukimu](./media/weightedaveragesummarizedsettlementwithincludephysicalvalue.gif) 
+- 1a. Faktinis atsargų gavimas, kai kiekis yra 1 o išlaidos – 10,00 USD už vienetą.
+- 1b. 1 vieneto, kurio kaina 10,00 USD, finansinis gavimas į atsargas.
+- 2a. Faktinis atsargų gavimas, kai kiekis yra 1 o išlaidos – 20,00 USD už vienetą.
+- 2b. Finansinis atsargų gavimas, kai kiekis yra 1 o išlaidos – 22,00 USD už vienetą.
+- 3a. Faktinis atsargų išdavimas, kai kiekis yra 1, o vieneto savikaina USD 16.00 (faktiškai ir finansiškai užregistruotų operacijų svertinė vidurkis).
+- 3b. Finansinis atsargų išdavimas, kai kiekis yra 1, o vieneto savikaina USD 16.00 (faktiškai ir finansiškai užregistruotų operacijų svertinė vidurkis).
+- 4a. Faktinis atsargų gavimas, kai kiekis yra 1 o išlaidos – 25,00 USD už vienetą.
+- 5a. Faktinis atsargų gavimas, kai kiekis yra 1 o išlaidos – 30,00 USD už vienetą.
+- 5b. Finansinis atsargų gavimas, kai kiekis yra 1 o išlaidos – 30,00 USD už vienetą.
+- 6a. Faktinis atsargų išdavimas, kai kiekis yra 1, o vieneto savikaina USD 23.67 (faktiškai ir finansiškai užregistruotų operacijų svertinė vidurkis).
+- 7\. Atsargų uždarymas atliktas.
+- 7a. Svertinio vidurkio atsargų uždarymo operacijos finansinis išdavimas sukuriamas, siekiant susumuoti visų atsargų finansinių gavimų sudengimą.
+  - 1b operacija sudengiama 1 kiekiui, kurio suma sudengta USD 10.00.
+  - 2b operacija sudengiama 1 kiekiui, kurio suma sudengta USD 22.00.
+  - 5b operacija sudengiama 1 kiekiui, kurio suma sudengta USD 30.00.
+  - Operacija 7a. Sukurtas 3 kiekiui su sudengta USD 62.00.  
+- 7b. Svertinio vidurkio atsargų uždarymo operacijos finansinis gavimas sukuriamas kaip finansiškai uždarytų išdavimo operacijų korespondentinė sąskaita.
+  - 3b operacija sudengiama 1 kiekiui, kurio suma sudengta USD 20.67. Ši operacija koreguojama USD 4.67, kad pradinė laikotarpio vertė USD 16.00 20,67, kuri yra finansiškai užregistruotų laikotarpio operacijų svertinis vidurkis.
+  - 7b operacija. Sukurtas 1 kiekiui su sudengta suma, USD 20.67 į 3b korespondentinę sąskaitą.
+
+Toliau pateiktoje diagramoje parodyta operacijų serija pasirinkus svertinio vidurkio atsargų modelį **ir suvestinio sudengimo principą be pasirinkties Įtraukti fizinę** vertę.
+
+![Svertinio vidurkio SS su faktinės vertės įtrauktimi.](media/weighted-average-summarized-settlement-with-include-physical-value.png)
 
 **Diagramos paaiškinimas**
+
 - Atsargų operacijos parodomos vertikaliomis rodyklėmis.
-- Atsargų gavimai parodomi vertikaliomis rodyklėmis virš laiko juostos.
-- Atsargų išdavimai parodomi vertikaliomis rodyklėmis po laiko juosta.
-- Virš (arba po) kiekviena vertikalia rodykle atsargų operacijos vertė nustatyta formatu „Kiekis@Prekėskaina“.
-- Atsargų operacijos vertė skliausteliuose rodo, kad atsargų operacija atsargose užregistruota fiziškai.
-- Atsargų operacijos vertė be skliaustelių rodo, kad atsargų operacija atsargose užregistruota finansiškai.
+- Faktinės operacijos žymimos trumpesniomis pilkomis rodyklėmis.
+- Finansinės operacijos rodo ilgesniomis juodomis rodyklėmis.
+- Atsargų gaviniai pateikiami vertikaliomis rodyklėmis virš ašies.
+- Atsargų problemos vaizduojamos vertikaliomis rodyklėmis po ašimi.
 - Kiekviena nauja gavimo arba išdavimo operacija pažymima nauja žyme.
-- Kiekviena vertikali rodyklė yra pažymėta sekos identifikatoriumi, pvz., 1a. Identifikatoriai rodo atsargų operacijų registracijos laiko juostoje seką.
-- Atsargų uždarymai rodomi raudona vertikalia punktyrine linija ir žyme Atsargų uždarymas.
-- Iki atsargų uždarymo atlikti sudengimai rodomi punktyrinėmis raudonomis rodyklėmis, einančiomis įstrižai nuo gavimo prie išdavimo.
-- Raudonos rodyklės rodo gavimo operacijas, sudengtas su sistemos sukurta išdavimo operacija.
-- Žalia rodyklė rodo korespondentinę sistemos sukurtą gavimo operaciją, su kuria sudengta iš pradžių užregistruota išdavimo operacija
+- Kiekviena vertikali rodyklė yra pažymėta sekos identifikatoriumi, pvz., *1a*. Identifikatoriai rodo atsargų operacijų registracijos laiko juostoje tvarką.
+- Kiekviena diagramos data yra atskirta siaura juoda vertikalia linija. Data pažymima diagramos apačioje.
+- Atsargų uždarymai vaizduojami raudona vertikalia punktyrine linija.
+- Iki atsargų uždarymo atlikti sudengimai rodomi raudonomis įstrižomis punktyrinėmis rodyklėmis, einančiomis nuo gavimo prie išdavimo.
 
 ## <a name="weighted-average-with-marking"></a>Svertinis vidurkis su žymėjimu
-Žymėjimas yra procesas, leidžiantis susieti arba pažymėti išdavimo operaciją su gavimo operacija. Žymėjimą galima atlikti prieš arba po operacijos registravimo. Žymėjimą naudokite norėdami patikrinti tikslias uždarymo išlaidas užregistravus operaciją arba atlikus atsargų uždarymą. 
 
-Pavyzdžiui, jūsų Klientų aptarnavimo tarnyba priėmė skubų užsakymą iš svarbaus kliento. Kadangi tai skubus užsakymas, norėdami patenkinti kliento pageidavimus, už šią prekę turėsite mokėti daugiau. Jūs turite įsitikinti, kad šio pardavimo užsakymo sąskaitos faktūros atsargų elemento išlaidos arba parduotų prekių savikaina (PPK) yra pateikiama paraštėje. 
+Žymėjimas yra procesas, leidžiantis susieti arba pažymėti išdavimo operaciją su gavimo operacija. Žymėjimą galima atlikti prieš arba po operacijos registravimo. Žymėjimą naudokite norėdami patikrinti tikslias uždarymo išlaidas užregistravus operaciją arba atlikus atsargų uždarymą.
 
-Kai pirkimo užsakymas užregistruojamas, gaunama atsargų už 120,00 USD. Pvz., šis pardavimo užsakymo dokumentas pažymėtas prie pirkimo užsakymo prieš užregistruojant važtaraštį ar sąskaitą faktūrą. Tada PPK bus 120,00 USD – prekei nebus taikoma dabartinio slankiojo vidurkio kaina. Jeigu pardavimo užsakymo važtaraštis arba SF užregistruojami prieš žymėjimą, COGS bus užregistruota taikant slankiojo vidurkio savikainą. 
+Pavyzdžiui, jūsų Klientų aptarnavimo tarnyba priėmė skubų užsakymą iš svarbaus kliento. Kadangi tai yra skubus užsakymas, norėdami susisiekti su kliento pageidavimu, už šią prekę turėsite sumokėti daugiau. Jūs turite įsitikinti, kad šio pardavimo užsakymo sąskaitos faktūros atsargų elemento išlaidos arba parduotų prekių savikaina (PPK) yra pateikiama paraštėje.
 
-Prieš atsargų uždarymą šias dvi operacijas dar galima žymėti kartu. 
+Kai pirkimo užsakymas užregistruojamas, gaunama atsargų už 120,00 USD. Pvz., šis pardavimo užsakymo dokumentas pažymėtas prie pirkimo užsakymo prieš užregistruojant važtaraštį ar sąskaitą faktūrą. Tada PPK bus 120,00 USD – prekei nebus taikoma dabartinio slankiojo vidurkio kaina. Jeigu pardavimo užsakymo važtaraštis arba SF užregistruojami prieš žymėjimą, COGS bus užregistruota taikant slankiojo vidurkio savikainą.
 
-Gavimo operacija pažymima prie išdavimo operacijos. Tada bus nepaisoma prekės modelių grupėje pasirinkto vertinimo būdo ir sistemoje šios operacijos bus sudengiamos tarpusavyje. 
+Prieš atsargų uždarymą šias dvi operacijas dar galima žymėti kartu.
 
-Galite pažymėti išdavimo operaciją su gavimu prieš užregistruodami operaciją. galite tai atlikti puslapio Pardavimo užsakymas pardavimo užsakymo eilutėje. Atidarytas gavimo operacijas galima peržiūrėti puslapyje Žymėjimas. 
+Gavimo operacija pažymima prie išdavimo operacijos. Tada bus nepaisoma prekės modelių grupėje pasirinkto vertinimo metodo ir sistema sudengs šias operacijas.
 
-Galite pažymėti išdavimo operaciją su gavimu užregistravę operaciją. Galite pažymėti išdavimo operaciją atvirai gavimo atsargose esančiai prekei iš registruoto atsargų koregavimo žurnalo. 
+Galite pažymėti išdavimo operaciją su gavimu prieš užregistruodami operaciją. Tai galima atlikti iš pardavimo užsakymo eilutės puslapyje **Išsami pardavimo užsakymo informacija**. Atidarytos gavimo operacijos rodomos žymėjimo **puslapyje**.
 
-Tolesniame grafike parodytos šios operacijos:
--   1a. Faktinis atsargų gavimas, kai kiekis yra 1 o išlaidos – 10,00 USD už vienetą.
--   1b. 1 vieneto, kurio kaina 10,00 USD, finansinis gavimas į atsargas.
--   2a. Faktinis atsargų gavimas, kai kiekis yra 1 o išlaidos – 20,00 USD už vienetą.
--   2b. 1 vieneto, kurio kaina 20,00 USD, finansinis gavimas į atsargas.
--   3a. Faktinis atsargų gavimas, kai kiekis yra 1 o išlaidos – 25,00 USD už vienetą.
--   4a. Faktinis atsargų gavimas, kai kiekis yra 1 o išlaidos – 30,00 USD už vienetą.
--   4b. 1 vieneto, kurio kaina 30,00 USD, finansinis gavimas į atsargas.
--   5a. 1 vieneto, kurio savikaina 21,25 USD, faktinis išdavimas iš atsargų (finansiškai ir faktiškai atnaujintų operacijų slankusis vidurkis).
--   5b. 1 vieneto atsargų finansinis išdavimas prieš registruojant operaciją yra žymimas prie atsargų gavimo 2b. Ši operacija yra registruojama taikant 20,00 USD savikainą.
--   6a. 1 vieneto, kurio savikaina 21,25 USD, fizinis išdavimas iš atsargų.
--   7 Atsargų uždarymas įvykdytas. Kadangi finansiškai atnaujinta operacija yra pažymima prie esamo gavimo, šios operacijos yra sudengiamos viena su kita nekoreguojant.
+Galite pažymėti išdavimo operaciją su gavimu užregistravę operaciją. Galite pažymėti išdavimo operaciją atvirai gavimo atsargose esančiai prekei iš registruoto atsargų koregavimo žurnalo.
 
-Nauja slankiojo vidurkio savikaina rodo finansiškai ir fiziškai atnaujintų operacijų vidurkį – 27,50 USD. 
+Grafike parodytos šios operacijos:
 
-Pateiktoje diagramoje parodyta operacijų serija, kai pasirenkamas svertinio vidurkio atsargų modelis su žymėjimu. 
+- 1a. Faktinis atsargų gavimas, kai kiekis yra 1 o išlaidos – 10,00 USD už vienetą.
+- 1b. 1 vieneto, kurio kaina 10,00 USD, finansinis gavimas į atsargas.
+- 2a. Faktinis atsargų gavimas, kai kiekis yra 1 o išlaidos – 20,00 USD už vienetą.
+- 2b. Finansinis atsargų gavimas, kai kiekis yra 1 o išlaidos – 22,00 USD už vienetą.
+- 3a. Faktinis atsargų išdavimas, kai kiekis yra 1, o vieneto savikaina USD 16.00 (finansiškai užregistruotų operacijų svertinis vidurkis).
+- 3b. Finansinis atsargų išdavimas, kai kiekis yra 1, o vieneto savikaina USD 16.00 (finansiškai užregistruotų operacijų svertinis vidurkis).
+- 3c. 3b atsargų finansinis išdavimas yra pažymėtas kaip 2b atsargų finansinis išdavimas.
+- 4a. Faktinis atsargų gavimas, kai kiekis yra 1 o išlaidos – 25,00 USD už vienetą.
+- 5a. Faktinis atsargų gavimas, kai kiekis yra 1 o išlaidos – 30,00 USD už vienetą.
+- 5b. Finansinis atsargų gavimas, kai kiekis yra 1 o išlaidos – 30,00 USD už vienetą.
+- 6a. Faktinis atsargų išdavimas, kai kiekis yra 1, o vieneto savikaina USD 23.00 (finansiškai užregistruotų operacijų svertinis vidurkis).
+- 7\. Atsargų uždarymas atliktas. Remiantis žymėjimo principu, pagal kurį naudojamas svertinio vidurkio metodas, pažymėtos operacijos sudengimos viena su kita. Šiame pavyzdyje 3b sudengiama su 2b, o kurso koregavimas USD 6.00 užregistruojamas 3b, kad vertė būtų USD 22.00. Šiame pavyzdyje jokių papildomų sudengimų atlikti negalima, nes uždarymas sukuria tik finansiškai atnaujintų operacijų sudengimą.
 
-![Svertinis vidurkis su žymėjimu](./media/weightedaveragewithmarking.gif) 
+Toliau pateiktoje diagramoje parodyta operacijų serija pasirinkus svertinio vidurkio atsargų modelį su žymėjimu.
+
+![Svertinis vidurkis su žymėjimu.](media/weighted-average-with-marking.png)
 
 **Diagramos paaiškinimas**
+
 - Atsargų operacijos parodomos vertikaliomis rodyklėmis.
-- Atsargų gavimai parodomi vertikaliomis rodyklėmis virš laiko juostos.
-- Atsargų išdavimai parodomi vertikaliomis rodyklėmis po laiko juosta.
-- Virš (arba po) kiekviena vertikalia rodykle atsargų operacijos vertė nustatyta formatu „Kiekis@Prekėskaina“.
-- Atsargų operacijos vertė skliausteliuose rodo, kad atsargų operacija atsargose užregistruota fiziškai.
-- Atsargų operacijos vertė be skliaustelių rodo, kad atsargų operacija atsargose užregistruota finansiškai.
+- Faktinės operacijos žymimos trumpesniomis pilkomis rodyklėmis.
+- Finansinės operacijos rodo ilgesniomis juodomis rodyklėmis.
+- Atsargų gaviniai pateikiami vertikaliomis rodyklėmis virš ašies.
+- Atsargų problemos vaizduojamos vertikaliomis rodyklėmis po ašimi.
 - Kiekviena nauja gavimo arba išdavimo operacija pažymima nauja žyme.
-- Kiekviena vertikali rodyklė yra pažymėta sekos identifikatoriumi, pvz., *1a*. Identifikatoriai rodo atsargų operacijų registracijos laiko juostoje seką.
-- Atsargų uždarymai rodomi raudona vertikalia punktyrine linija ir žyme Atsargų uždarymas.
-- Iki atsargų uždarymo atlikti sudengimai rodomi punktyrinėmis raudonomis rodyklėmis, einančiomis įstrižai nuo gavimo prie išdavimo.
+- Kiekviena vertikali rodyklė yra pažymėta sekos identifikatoriumi, pvz., *1a*. Identifikatoriai rodo atsargų operacijų registracijos laiko juostoje tvarką.
+- Kiekviena diagramos data yra atskirta siaura juoda vertikalia linija. Data pažymima diagramos apačioje.
+- Atsargų uždarymai vaizduojami raudona vertikalia punktyrine linija.
+- Iki atsargų uždarymo atlikti sudengimai rodomi raudonomis įstrižomis punktyrinėmis rodyklėmis, einančiomis nuo gavimo prie išdavimo.
 
-
-
-
-
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

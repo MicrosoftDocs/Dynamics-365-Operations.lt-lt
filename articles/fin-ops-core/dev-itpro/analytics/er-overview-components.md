@@ -3,7 +3,6 @@ title: Elektroninių ataskaitų komponentai
 description: Šioje temoje aprašomi elektroninių ataskaitų (ER) komponentai.
 author: nselin
 ms.date: 09/28/2021
-ms.topic: ''
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ERWorkspace
@@ -12,15 +11,16 @@ ms.reviewer: kfend
 ms.custom: 58941
 ms.assetid: 5d51b6a6-ad12-4af9-a66d-a1eb820ae57f
 ms.search.region: global
+ms.topic: overview
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: de8bccf5a8a9bb81be51658010ad4c2ef67aabb2
-ms.sourcegitcommit: 86f0574363fb869482ef73ff294f345f81d17c5b
-ms.translationtype: HT
+ms.openlocfilehash: aca1b9bbca490a8a9551ed97d6e100c9115a0d41
+ms.sourcegitcommit: 753714ac0dabc4b7ce91509757cd19f7be4a4793
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7562254"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "8367829"
 ---
 # <a name="electronic-reporting-components"></a>Elektroninių ataskaitų komponentai
 
@@ -91,9 +91,23 @@ Formato komponentas leidžia pridėti toliau nurodytus tam tikrus failus, kurie 
 
 Šis pavyzdys rodo, kaip juda šių formatų duomenų srautai.
 
-[![Gaunamų formato komponentų duomenų srautas.](./media/ER-overview-03.png)](./media/ER-overview-03.png)
+[![Siunčiamų formato komponentų duomenų srautas](./media/ER-overview-02.png)](./media/ER-overview-02.png)
+
+Norėdami paleisti vieną ER formato konfigūraciją ir generuoti siunčiamą elektroninį dokumentą, turite nustatyti formato konfigūracijos susiejimą.
+
+#### <a name="format-components-for-incoming-electronic-documents"></a>Gaunamų elektroninių dokumentų formato komponentai
+Formato komponentas yra gaunamo dokumento planas, kuris importuojamas vykdymo metu. Schemą sudaro toliau nurodyti elementai.
+
+- Formatas, kuris apibrėžia vykdymo metu importuoto gaunamo elektroninio dokumento, kuriame yra duomenų, struktūrą ir turinį. Formato komponentas naudojamas išanalizuoti įvairiais formatais gaunamą dokumentą, pvz., teksto ir XML.
+- Formato susiejimas, kuris sujungia atskirus formato elementus į konkrečios srities duomenų modelio elementus. Vykdymo metu duomenų modelio elementai nurodo duomenų srautą ir duomenų importavimo iš gaunamo dokumento taisykles, o tada išsaugo duomenų modelio duomenis.
+- Formato tikrinimas kaip konfigūruojamų taisyklių, kurios vykdymo metu valdo duomenų importavimą pagal vykdymo kontekstą, rinkinys. Pavyzdžiui, gali būti taisyklė, kuri sustabdo banko išrašo, kuriame pateikiami tiekėjo mokėjimai, duomenų importavimą ir pritaiko išimtį, jei trūksta konkretaus tiekėjo atributų, pvz., tiekėjo identifikavimo kodo.
+
+Šis pavyzdys rodo, kaip juda šių formatų duomenų srautai.
+
+[![Gaunamų formato komponentų duomenų srautas](./media/ER-overview-03.png)](./media/ER-overview-03.png)
 
 Norėdami paleisti vieną ER formato konfigūraciją ir importuoti duomenis iš gaunamo elektroninio dokumento, turite nustatyti norimą formato konfigūracijos susiejimą, taip pat modelio susiejimo integravimo tašką. Galite naudoti tą patį modelio susiejimą ir paskirties vietas kartu su skirtingo tipo gaunamų dokumentų skirtingais formatais.
+
 
 ## <a name="component-versioning"></a>Komponento versijos kūrimas
 

@@ -2,7 +2,7 @@
 title: ER konfigūracijų kūrimas pildymui PDF šablonuose
 description: Šioje temoje pateikiama informacija apie tai, kaip sukurti elektroninės ataskaitos (ER) formatą, kad būtų galima pildyti PDF šabloną.
 author: NickSelin
-ms.date: 03/24/2021
+ms.date: 02/28/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 81da1b4f9ca5d2884122266312b2f7cb298572eef3a5c6151daba2f9b17326f2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: a568ddd93bfbc7d536e951a13470b3dedb796e1b
+ms.sourcegitcommit: 753714ac0dabc4b7ce91509757cd19f7be4a4793
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6758293"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "8367861"
 ---
 # <a name="design-er-configurations-to-fill-in-pdf-templates"></a>ER konfigūracijų kūrimas pildymui PDF šablonuose
 
@@ -294,6 +294,20 @@ Tada įkelsite pavyzdinį ER formatą **„Intrastat“ (importuoti iš „Excel
 Šioje iliustracijoje rodomas pavyzdys, kaip generuojamas kitas ataskaitos puslapis.
 
 ![Kitas sugeneruotos ataskaitos puslapis.](media/rcs-ger-filloutpdf-generatedreport2.png)
+
+## <a name="limitations"></a>Apribojimai
+
+Užpildomų laukų pavadinimai turi būti unikalūs PDF formoje, kurią planuojate naudoti kaip ataskaitos šabloną. Kiekvienam tokiam laukui, importuojant PDF formą, redaguojamame ER formate sukuriamas individualus formato elementas su atitinkamu pavadinimu. Jei PDF formoje yra keli laukai tokiu pačiu pavadinimu, sukuriamas vienas formato elementas laukams, kurie neleidžia atskirai užpildyti vykdyklės.
+
+## <a name="frequently-asked-questions"></a>Dažniausiai užduodami klausimai
+
+### <a name="when-i-run-the-er-format-to-generate-a-report-in-pdf-format-why-do-i-get-the-following-errors--cannot-handle-iref-streams-the-current-implementation-of-pdfsharp-cannot-handle-this-pdf-feature-introduced-with-acrobat-6-and-a-pdf-name-must-start-with-a-slash-"></a>Kai vykdomas ER formatas, norint generuoti ataskaitą PDF formatu, kodėl gaunu šias klaidas: **Negalima apdoroti ef srautų. Dabartinis PDF Turi būti įdiegtas PDF Turirp negali apdoroti šios PDF priemonės, kuri įvedama su Acrobat 6.** Ir **PDF pavadinimas turi prasidėti pasviru brūkšniu (/).**
+
+ER sistema šioms PDF ataskaitoms generuoti naudoja PDFVzrp bibliotekos 1.5 versiją. Šioje bibliotekoje dar neį įdiegėte kai kurias PDF 1.5 (Adobe Reader 6.0) funkcijas. Todėl PDF Nebaigta atidaryti dar **negalima atidaryti kai kurių failų, kurie pažymėti kaip skirti PDF 1.5** arba naujesnėms rinkmenoms, todėl gali atsirasti klaidų. Norėdami išspręsti problemą, naudokite vieną iš šių sprendimų:
+
+-   Kai naudojate savo PDF šabloną: Adobe surūšiuokite šabloną į ankstesnę versiją ir pradėkite naudoti naują šabloną savo ER formatu.
+-   Kai naudojate ER formato šabloną, kurį su ER bendrai su jumis bendrai naudoja kitas konfigūracijos teikėjas, kaip ER sprendimo dalį: kreipkitės į šio ER sprendimo savininką ir pateikite išdavimo aprašymą.
+-   Kai naudojate ISV sprendimą, kuriame yra ankstesnė PDFHavrp bibliotekos versija: kreipkitės į sprendimo savininką ir pasiūlyti naujesnės PDF Kuorp versijos atnaujinimą.
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 

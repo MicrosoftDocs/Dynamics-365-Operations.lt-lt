@@ -2,7 +2,7 @@
 title: Kurti grąžinimus EKA
 description: Šioje temoje aprašoma, kaip inicijuoti grynųjų pinigų ir (arba) atliekamų operacijų arba klientų užsakymų grąžinimą į programą „Microsoft Dynamics 365 Commerce“ EKA (EKA).
 author: hhainesms
-ms.date: 06/01/2021
+ms.date: 02/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,17 +14,16 @@ ms.search.region: Global
 ms.author: hhaines
 ms.search.validFrom: 2020-02-20
 ms.dyn365.ops.version: Release 10.0.20
-ms.openlocfilehash: c7be9e2d32384df23a4609d82216804fc945061a
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
-ms.translationtype: HT
+ms.openlocfilehash: 3250f702f033fb8b00763542fd8342c089b47b2e
+ms.sourcegitcommit: d2e5d38ed1550287b12c90331fc4136ed546b14c
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6345189"
+ms.lasthandoff: 02/25/2022
+ms.locfileid: "8349696"
 ---
 # <a name="create-returns-in-pos"></a>Kurti grąžinimus EKA
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 Šioje temoje aprašoma, kaip inicijuoti grynųjų pinigų ir (arba) atliekamų operacijų arba klientų užsakymų grąžinimą į programą „Microsoft Dynamics 365 Commerce“ prekybos vietos EKA (EKA).
 
@@ -97,6 +96,13 @@ Jei kanalo informacija dėl kokių nors priežasčių nėra naujausia ir vykdoma
 
 > [!NOTE]
 > Kai EKA **priemonėje įjungta bendrojo grąžinimo apdorojimo** funkcija, galimos naujos pasirenkamos priemonės, kurios palaiko eilutėmis išdėstyti produktų grąžinimų tikrinimą. Daugiau informacijos ieškokite Grąžinimo [serijos numerio kontroliuojami produktai, esantys Point of Sale (EKA)](POS-serial-returns.md).
+
+## <a name="version-details"></a>Versijos informacija
+
+Toliau pateiktame sąraše pateikiami mažiausi įvairių komponentų versijos reikalavimai.
+- "Commerce Headquarters": 10.0.20 versija
+- "Commerce Scale Unit" (CSU): 9.30 versija
+- Point of sale (EKA): 9.30 versija
 
 ## <a name="enable-proper-tax-calculation-for-returns-with-partial-quantity"></a>Įjungti tinkamą mokesčių skaičiavimą, kai grąžinamas dalinis kiekis
 

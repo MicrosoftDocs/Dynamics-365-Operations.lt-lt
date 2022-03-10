@@ -2,11 +2,9 @@
 title: Pagrindiniai SF duomenys apie AP sistemą naudojant SF telkinį
 description: Šioje temoje aprašoma, kaip naudoti sąskaitų faktūrų registrą kuriant sąskaitas faktūras.
 author: abruer
-manager: AnnBe
 ms.date: 07/31/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 670dd2ec15aa26791758ec4bea2b431482499436
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
-ms.translationtype: HT
+ms.openlocfilehash: a4768ee6ddbaba8ae5bab5e2f9f7df9239efeb90
+ms.sourcegitcommit: 9cbff8a2cdeaf606488fb0044b3de4ab4409c9dc
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5227165"
+ms.lasthandoff: 02/26/2022
+ms.locfileid: "8358294"
 ---
 # <a name="key-invoice-data-into-the-ap-system-using-invoice-pool"></a>Pagrindiniai SF duomenys apie AP sistemą naudojant SF telkinį
 
@@ -60,7 +58,7 @@ ms.locfileid: "5227165"
 6. Pasirinkite **Keisti rodinį**.
 7. Pasirinkite **Tinklelio rodinys**.
 8. Pasirinkite **Registruoti**.
-9. Uždarykite formą.
+9. Uždarykite puslapį.
 10. Naršymo srityje eikite į **Moduliai > Mokėtinos sumos > Tiekėjai > Tiekėjai**.
 11. Pasirinkite tiekėją, kuris buvo ant pirkimo užsakymo. Pavyzdžiui, pasirinkite tiekėją **1001**.
 12. Veiksmų srityje pasirinkite **Tiekėjas**.

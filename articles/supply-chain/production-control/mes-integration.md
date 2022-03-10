@@ -1,6 +1,6 @@
 ---
 title: Integravimas trečiosios šalies gamybos vykdymo sistemose
-description: Šioje temoje paaiškinama, kaip galite integruoti Dynamics 365 Supply Chain Management "Microsoft" į trečiosios šalies gamybos vykdymo sistemą (MES).
+description: Šioje temoje paaiškinama, kaip galite integruoti "Microsoft Dynamics 365 Supply Chain Management " į trečiosios šalies gamybos vykdymo sistemą (MES).
 author: t-benebo
 ms.date: 10/01/2021
 ms.topic: article
@@ -11,24 +11,24 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-10-01
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 14e86a49777eefefae711bfe0d756361b09d69c2
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
-ms.translationtype: HT
+ms.openlocfilehash: 8917c9b265bc3df19517f052e28fb7644057cb46
+ms.sourcegitcommit: 19f0e69a131e9e4ff680eac13efa51b04ad55a38
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7778454"
+ms.lasthandoff: 02/22/2022
+ms.locfileid: "8330706"
 ---
 # <a name="integrate-with-third-party-manufacturing-execution-systems"></a>Integravimas trečiosios šalies gamybos vykdymo sistemose
 
 [!include [banner](../includes/banner.md)]
 
-Kai kurios gamybos organizacijos, kurios naudoja "Microsoft" naudoja gimtąją "Dynamics 365" funkciją, kad galėtų kontroliuoti savo įrenginių, įrangos ir personalo Dynamics 365 Supply Chain Management gamybos veiklą. Tačiau kitos gamybos organizacijos, ypač tos, kurios turi išplėstinių gamybos reikalavimų, naudoja trečiosios šalies gamybos vykdymo sistemą (MES). Organizacijos gali pasirinkti trečiosios šalies MES sprendimą, nes, pavyzdžiui, jis specialiai pritaikytas jų vertikaliai pramonei.
+Kai kurios gamybos organizacijos, kurios naudoja "Microsoft Dynamics 365 Supply Chain Management " naudoja gimtąją "Dynamics 365" funkciją, kad galėtų kontroliuoti savo įrenginių, įrangos ir personalo gamybos veiklą. Tačiau kitos gamybos organizacijos, ypač tos, kurios turi išplėstinių gamybos reikalavimų, naudoja trečiosios šalies gamybos vykdymo sistemą (MES). Organizacijos gali pasirinkti trečiosios šalies MES sprendimą, nes, pavyzdžiui, jis specialiai pritaikytas jų vertikaliai pramonei.
 
 Integruotuose sprendimuose duomenų mainai yra visiškai automatizuoti ir vyksta beveik realiuoju laiku. Todėl duomenys laikomi dabartiniai abiejose sistemose ir nereikia įvesti duomenų neautomatiniu būdu. Pavyzdžiui, kai medžiagų suvartojimas registruojamas MES, integracija užtikrina, kad "Dynamics 365" registruojamas ir tas pats suvartojimas. Todėl naujausiais atsargų įrašais galima naudotis kitiems svarbiams procesams, pvz., planavimui ir pardavimui.
 
 Sprendimas yra greitesnis, paprastesnis ir paprastesnis tiekimo grandinės valdymo vartotojams, kad jie galėtų integruotis su trečiosios šalies MES. Jis siūlo šias funkcijas:
 
-- Verslo įvykiai ir sąsajos, kurios palaiko [pagrindinius gamybos vykdymo procesus](#processes-available-for-mes-integration)
+- Verslo įvykiai ir sąsajos, kurios palaiko pagrindinius [gamybos vykdymo procesus](#processes-available-for-mes-integration)
 - Centralizuota skelbimų skelbimų skelbimų sritis, kurioje galite sekti įvykių apdorojimo retrospektyvą ir šalinti bei taisyti procesus, kurie nepavyko
 
 Toliau esanti iliustracija pateikia įprastą verslo įvykių, procesų ir pranešimų, kurie keičiamasi integruotuose sprendimuose, rinkinį.
@@ -37,10 +37,17 @@ Toliau esanti iliustracija pateikia įprastą verslo įvykių, procesų ir prane
 
 ## <a name="turn-on-the-mes-integration-feature"></a>Įjungti MES integravimo funkciją
 
-Kad galėtumėte naudoti šią funkciją, ji turi būti įjungta jūsų sistemoje. Administratoriai gali naudoti [funkcijos valdymas](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) parametrus, norėdami sužinoti funkcijos būseną ir įjungti ją. Darbo srityje **Funkcijų valdymas** ši funkcija yra nurodyta toliau pateikiamu būdu.
+Prieš tai kai galėsite naudoti šią priemonę, administratorius turi įjungti ją jūsų sistemoje, kaip aprašyta toliau pateiktoje procedūroje.
 
-- **Modulis:** *Gamybos kontrolė*
-- **Funkcijos pavadinimas:** *gamybos vykdymo sistemos integravimas*
+1. Eikite į **Sistemos administravimas \> Sąranka \> Licencijos konfigūracija**.
+1. Įsitikinkite, kad **laiko ir lankomumo** licencijos raktas įgalintas (rodoma varnelė). Šis licencijos raktas yra būtinas, kadangi jis valdo gamybos vykdymo sistemos funkcijas ir duomenis. Jei ji neįgalinta, atlikite šiuos veiksmus:
+    1. Įdėkite savo sistemą į priežiūros režimą kaip aprašyta [Priežiūros režime](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
+    1. Licencijos konfigūracijos **puslapyje** pažymėkite žymės langelį **Laikas ir lankomumas**.
+    1. Išjungti priežiūros režimą, kaip aprašyta priežiūros [režimu](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md)
+1. Eikite į **sistemos administravimo \> darbo sričių \> funkcijų valdymą**.
+1. Įjunkite toliau išvardytas priemones (taip pat žr. funkcijų [valdymo peržiūrą](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)):
+    - **Modulis:** *Gamybos kontrolė*
+    - **Funkcijos pavadinimas: gamybos** *vykdymo sistemos integravimas*
 
 ## <a name="processes-available-for-mes-integration"></a>Galimi MES integravimo procesai
 
@@ -53,19 +60,19 @@ Galite įgalinti bet kurį arba visus šiuos integravimo procesus.
 | Ataskaita apie pagamintą arba nurašytą kiekį | Šis procesas suteikia tiekimo grandinės valdymą ir informaciją apie gerų ir klaidų kiekius, kurie pranešami gamybos užduotyje naudojant MES. Taip užtikrinama, kad darbo laiko prižiūrėtojai turėtų naujausias gamybos plano eigos vaizdą. |
 | Ataskaita apie medžiagų suvartojimą | Šis procesas teikia tiekimo grandinės valdymą, remiantis MES, informacija apie suvartotų medžiagų kiekį. Ji atlieka naujausias atsargų įrašus, prieinamus kitiems svarbiams procesams, pvz., planavimui ir pardavimui. |
 | Ataskaitai skirtas laikas, sunaudotas operacijai | Šis procesas suteikia tiekimo grandinės valdymą ir informaciją apie laiką, kuris naudojamas specialiai operacijai. |
-| Baigti gamybos užsakymą | Šis procesas informuos tiekimo grandinės valdymą, kad MES atnaujino gamybos užsakymą į galutinę būseną *·* Baigta. Ši būsena nurodo, kad pagal gamybos užsakymą daugiau kiekių nebus gaminama. |
+| Baigti gamybos užsakymą | Šis procesas informuoja tiekimo grandinės valdymą, kad MES atnaujino gamybos užsakymą į galutinę būseną *Baigta*. Ši būsena nurodo, kad pagal gamybos užsakymą daugiau kiekių nebus gaminama. |
 
 ## <a name="monitor-incoming-messages"></a>Gautų pranešimų stebėjimas
 
-Norėdami stebėti į sistemą gaunamus pranešimus, atidarykite **gamybos vykdymo sistemų integravimo** puslapį. Čia galite peržiūrėti, apdoroti ir šalinti triktis.
+Norėdami stebėti į sistemą gaunamus pranešimus, atidarykite gamybos **vykdymo sistemų integravimo** puslapį. Čia galite peržiūrėti, apdoroti ir šalinti triktis.
 
 ## <a name="call-the-api"></a>Iškviesti API
 
-Norėdami iškviesti MES integravimo API, siųskite `POST` užklausą šiuo galinio punkto URL:
+Norėdami iškviesti MES integravimo API, siųskite užklausą `POST` šiuo galinio punkto URL:
 
 `/api/services/SysMessageServices/SysMessageService/SendMessage`
 
-Jūsų siunčiamos užklausos tekstas turėtų būti panašus į šį pavyzdį. Pakeiskite, `_companyId``_messageType` ir, jei `_messageContent` reikia, vertes. Informacijos apie įvairius pranešimų tipus, kuriuos PALAIKO API, ir kaip kurti jų turinį, ieškokite kitame skyriuje.
+Jūsų siunčiamos užklausos tekstas turėtų būti panašus į šį pavyzdį. Pakeiskite, ir`_companyId``_messageType`, jei reikia`_messageContent`, vertes. Informacijos apie įvairius pranešimų tipus, kuriuos PALAIKO API, ir kaip kurti jų turinį, ieškokite kitame skyriuje.
 
 ```json
 {
@@ -83,41 +90,41 @@ Jūsų siunčiamos užklausos tekstas turėtų būti panašus į šį pavyzdį. 
 
 ### <a name="start-production-order-message"></a>Pradėti gamybos užsakymo pranešimą
 
-Pradžios *gamybos užsakymo* pranešimo vertė `_messageType``ProdProductionOrderStart` yra. Toliau pateikiamoje lentelėje rodomi laukai, kuriuos palaiko šis pranešimas.
+*Pradžios gamybos užsakymo* pranešimo vertė `_messageType` yra `ProdProductionOrderStart`. Toliau pateikiamoje lentelėje rodomi laukai, kuriuos palaiko šis pranešimas.
 
 | Lauko pavadinimas | Būsena | Tipas |
 |---|---|---|
 | `ProductionOrderNumber` | Privalomas | Eilutė |
 | `StartedQuantity` | Pasirinktina | Tikrasis |
 | `StartedDate` | Pasirinktina | Data |
-| `AutomaticBOMConsumptionRule` | Pasirinktina | Išvardijimas (FlushingPrincip \| visada \| niekada) |
+| `AutomaticBOMConsumptionRule` | Pasirinktina | Išvardijimas (FlushingPrincip \| visada niekada \|) |
 
 ### <a name="report-as-finished-message"></a>Pranešti apie pabaigimo pranešimą
 
-Pranešimo, *kuris yra* baigtas, vertė `_messageType``ProdProductionOrderReportFinished` yra. Toliau pateikiamoje lentelėje rodomi laukai, kuriuos palaiko šis pranešimas.
+*Pranešimo, kuris yra baigtas*, vertė `_messageType` yra `ProdProductionOrderReportFinished`. Toliau pateikiamoje lentelėje rodomi laukai, kuriuos palaiko šis pranešimas.
 
 | Lauko pavadinimas | Būsena | Tipas |
 |---|---|---|
 | `ProductionOrderNumber` | Privalomas | Eilutė |
 | `ReportFinishedLines` | Privalomas | Eilučių (bent vienos), kurių kiekvienoje yra mokamų kūstų, aprašytų toliau esančioje lentelėje, sąrašas |
 
-Toliau pateikiamoje lentelėje rodomi laukai, kuriuos palaiko `ReportFinishedLines` kiekviena pranešimo `ProdProductionOrderReportFinished` skyriaus eilutė.
+Toliau pateikiamoje lentelėje rodomi laukai, kuriuos palaiko kiekviena `ReportFinishedLines` pranešimo `ProdProductionOrderReportFinished` skyriaus eilutė.
 
 | Lauko pavadinimas | Būsena | Tipas |
 |---|---|---|
 | `LineNumber` | Pasirinktina | Tikrasis |
 | `ItemNumber` | Pasirinktina | Eilutė|
-| `ProductionType` | Pasirinktina | Išvardiimas (MainItem \|\| formulės \| KS Co_Product By_Product \|\| Nėra), extensible |
+| `ProductionType` | Pasirinktina | Išvardiimas (MainItem \| formulės \| KS \| Co_Product \| By_Product \| Nėra), extensible |
 | `ReportedErrorQuantity` | Pasirinktina | Tikrasis|
 | `ReportedGoodQuantity` | Pasirinktina | Tikrasis|
 | `ReportedErrorCatchWeightQuantity` | Pasirinktina | Tikrasis |
 | `ReportedGoodCatchWeightQuantity` | Pasirinktina | Tikrasis |
 | `AcceptError` | Pasirinktina |Bulio logika |
-| `ErrorCause` | Pasirinktina | Išvardiimas \| (nėra \| medžiagų mašinos \| valdymostafo), extensible |
+| `ErrorCause` | Pasirinktina | Išvardiimas \| (nėra medžiagų \|\| mašinos valdymostafo), extensible |
 | `ExecutedDateTime` | Pasirinktina | DateTime |
 | `ReportAsFinishedDate` | Pasirinktina | Data |
-| `AutomaticBOMConsumptionRule` | Pasirinktina | Išvardijimas (FlushingPrincip \| visada \| niekada) |
-| `AutomaticRouteConsumptionRule` | Pasirinktina |Išvardiimas (RouteDependent \| visada \| niekada) |
+| `AutomaticBOMConsumptionRule` | Pasirinktina | Išvardijimas (FlushingPrincip \| visada niekada \|) |
+| `AutomaticRouteConsumptionRule` | Pasirinktina |Išvardiimas (RouteDependent \| visada niekada \|) |
 | `RespectFlushingPrincipleDuringOverproduction` | Pasirinktina | Bulio logika |
 | `ProductionJournalNameId` | Pasirinktina | Eilutė |
 | `PickingListProductionJournalNameId` | Pasirinktina | Eilutė|
@@ -145,11 +152,11 @@ Toliau pateikiamoje lentelėje rodomi laukai, kuriuos palaiko `ReportFinishedLin
 | `ProductionWarehouseLocationId` | Pasirinktina | Eilutė |
 | Nuo `InventoryDimension1` iki `InventoryDimension12` | Pasirinktina | Eilutė |
 
-12 extensible dimensijų `InventoryDimension1``InventoryDimension12` (per) reikalauja pritaikymo, bet ne visada naudojamos. Daugiau informacijos apie jas rasite [plėtiniu Įtraukti naujas atsargų dimensijas.](../../fin-ops-core/dev-itpro/extensibility/inventory-dimensions.md)
+12 extensible dimensijų (`InventoryDimension1` per `InventoryDimension12`) reikalauja pritaikymo, bet ne visada naudojamos. Daugiau informacijos apie jas rasite naujų atsargų [dimensijų pridėjimas naudojant plėtinį](../../fin-ops-core/dev-itpro/extensibility/inventory-dimensions.md).
 
 ### <a name="material-consumption-picking-list-message"></a>Medžiagų suvartojimo (išrinkimo sąrašas) pranešimas
 
-Medžiagų *suvartojimo (išrinkimo dokumentų)* pranešimas `_messageType` yra `ProdProductionOrderPickingList` vertė. Toliau pateikiamoje lentelėje rodomi laukai, kuriuos palaiko šis pranešimas.
+Medžiagų suvartojimo *(išrinkimo dokumentų) pranešimas* yra `_messageType` vertė `ProdProductionOrderPickingList`. Toliau pateikiamoje lentelėje rodomi laukai, kuriuos palaiko šis pranešimas.
 
 | Lauko pavadinimas | Būsena | Tipas |
 |---|---|---|
@@ -157,7 +164,7 @@ Medžiagų *suvartojimo (išrinkimo dokumentų)* pranešimas `_messageType` yra 
 | `JournalNameId` | Pasirinktina | Eilutė |
 | `PickingListLines` | Privalomas | Eilučių (bent vienos), kurių kiekvienoje yra mokamų kūstų, aprašytų toliau esančioje lentelėje, sąrašas |
 
-Toliau pateikiamoje lentelėje rodomi laukai, kuriuos palaiko `PickingListLines` kiekviena pranešimo `ProdProductionOrderPickingList` skyriaus eilutė.
+Toliau pateikiamoje lentelėje rodomi laukai, kuriuos palaiko kiekviena `PickingListLines` pranešimo `ProdProductionOrderPickingList` skyriaus eilutė.
 
 | Lauko pavadinimas | Būsena | Tipas |
 |---|---|---|
@@ -175,11 +182,12 @@ Toliau pateikiamoje lentelėje rodomi laukai, kuriuos palaiko `PickingListLines`
 | `LineNumber` | Pasirinktina | Tikrasis |
 | `PositionNumber` | Pasirinktina | Eilutė |
 | `IsConsumptionEnded` | Pasirinktina | Bulio logika |
-| `ErrorCause` | Pasirinktina | Išvardiimas \| (nėra \| medžiagų mašinos \| valdymostafo), extensible |
+| `ErrorCause` | Pasirinktina | Išvardiimas \| (nėra medžiagų \|\| mašinos valdymostafo), extensible |
+| `InventoryLotId` | Pasirinktina | Eilutė |
 
 ### <a name="time-used-for-operation-route-card-message"></a>Operacijos laiko (maršruto kortelės) pranešimas
 
-Laiko, *kuris naudojamas operacijos (maršruto kortelės)* pranešimui, `_messageType` vertė `ProdProductionOrderRouteCard` yra. Toliau pateikiamoje lentelėje rodomi laukai, kuriuos palaiko šis pranešimas.
+Laiko, *kuris naudojamas operacijos (maršruto kortelės) pranešimui*, vertė `_messageType` yra `ProdProductionOrderRouteCard`. Toliau pateikiamoje lentelėje rodomi laukai, kuriuos palaiko šis pranešimas.
 
 | Lauko pavadinimas | Būsena | Tipas |
 |---|---|---|
@@ -187,12 +195,12 @@ Laiko, *kuris naudojamas operacijos (maršruto kortelės)* pranešimui, `_messag
 | `JournalNameId` | Pasirinktina | Eilutė |
 | `RouteCardLines` | Privalomas | Eilučių (bent vienos), kurių kiekvienoje yra mokamų kūstų, aprašytų toliau esančioje lentelėje, sąrašas |
 
-Toliau pateikiamoje lentelėje rodomi laukai, kuriuos palaiko `RouteCardLines` kiekviena pranešimo `ProdProductionOrderRouteCard` skyriaus eilutė.
+Toliau pateikiamoje lentelėje rodomi laukai, kuriuos palaiko kiekviena `RouteCardLines` pranešimo `ProdProductionOrderRouteCard` skyriaus eilutė.
 
 | Lauko pavadinimas | Būsena | Tipas |
 |---|---|---|
-| `OperationNumber` | Privalomas | Privaloma, integer |
-| `OperationPriority` | Pasirinktina | Išvardimis \| (pirminis antrinis1 \| antrinis2... \|\| Antrinis 20) |
+| `OperationNumber` | Privalomas | Sveikasis skaičius |
+| `OperationPriority` | Pasirinktina | Išvardimis (pirminis antrinis1 \| antrinis2 \| ... \|\| Antrinis 20) |
 | `OperationId` | Pasirinktina | Eilutė |
 | `OperationsResourceId` | Pasirinktina | Eilutė |
 | `Worker` | Pasirinktina | Eilutė |
@@ -207,15 +215,15 @@ Toliau pateikiamoje lentelėje rodomi laukai, kuriuos palaiko `RouteCardLines` k
 | `QuantityPrice` | Pasirinktina | Tikrasis |
 | `ProcessingPercentage` | Pasirinktina | Tikrasis |
 | `ConsumptionDate` | Pasirinktina | Data |
-| `TaskType` | Pasirinktina | Išvardijimo (QueueBefore \| nustatymo procesas \|\| persidengia su transportavimo darbo laiko \|\| neefektyviais \| elementais) |
-| `ErrorCause` | Pasirinktina | Išvardiimas \| (nėra \| medžiagų mašinos \| valdymostafo), extensible |
+| `TaskType` | Pasirinktina | Išvardijimo (QueueBefore nustatymo procesas \| persidengia \|\| su transportavimo \| darbo laiko \| neefektyviais \| elementais) |
+| `ErrorCause` | Pasirinktina | Išvardiimas \| (nėra medžiagų \|\| mašinos valdymostafo), extensible |
 | `OperationCompleted` | Pasirinktina | Bulio logika |
 | `BOMConsumption` | Pasirinktina | Bulio logika |
 | `ReportAsFinished` | Pasirinktina | Bulio logika |
 
 ### <a name="end-production-order-message"></a>Baigti gamybos užsakymo pranešimą
 
-Pabaigos *gamybos užsakymo* pranešimo vertė `_messageType``ProdProductionOrderEnd` yra. Toliau pateikiamoje lentelėje rodomi laukai, kuriuos palaiko šis pranešimas.
+*Pabaigos gamybos užsakymo* pranešimo vertė `_messageType` yra `ProdProductionOrderEnd`. Toliau pateikiamoje lentelėje rodomi laukai, kuriuos palaiko šis pranešimas.
 
 | Lauko pavadinimas | Būsena | Tipas |
 |---|---|---|
@@ -238,9 +246,9 @@ Po to, kai MES išsiunčia pranešimą tiekimo grandinės valdymui, gali būti s
 Tokiais atvejais galite pasinaudoti standartine tiekimo grandinės valdymo įspėjimo funkcija. Informacijos apie tai, kaip veikia standartiniai įspėjimai, ieškokite toliau pateikiamame ištetelyje:
 
 - Žinyno tema: [įspėjimų peržiūra](../../fin-ops-core/fin-ops/get-started/alerts-overview.md)
-- Vaizdo įrašas: [įspėjimo taisyklės parinktys Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=cpzimwOjicM&ab_channel=MicrosoftDynamics365)
+- Vaizdo įrašas: įspėjimo [taisyklės parinktys Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=cpzimwOjicM&ab_channel=MicrosoftDynamics365)
 
 Pavyzdžiui, galite nustatyti šiuos įspėjimus, kad galėtumėte pateikti atsiliepimus apie pranešimo būseną:
 
-- Kurti verslo įvykį ("Siųsti išoriškai"), kuris naudojamas, kai pranešimas *·* nepavyko.
+- Kurti verslo įvykį ("Siųsti išoriškai"), kuris naudojamas, kai pranešimas *nepavyko*.
 - Siųsti pranešimą ir el. laišką IT administratoriui arba gamybos laiko vadybininkui.

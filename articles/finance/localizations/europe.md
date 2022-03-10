@@ -1,25 +1,23 @@
 ---
 title: Europos apžvalga
 description: Šioje temoje pateikiami „Microsoft Dynamics 365 Finance“ dokumentų išteklių, skirtų Europai, saitai.
-author: ShylaThompson
-manager: AnnBe
-ms.date: 02/24/2021
-ms.topic: article
+author: kfend
+ms.date: 01/15/2022
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: global
-ms.author: roschlom
+ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b5aed9d3b5a82b88bb7d1e237aea0aa24dae102f
-ms.sourcegitcommit: 08ac570bece3e4ee4a0f632f51623e328536dfcf
-ms.translationtype: HT
+ms.openlocfilehash: 1b7a3dd75f526a076b6fe696f71ec623e20abb24
+ms.sourcegitcommit: 753714ac0dabc4b7ce91509757cd19f7be4a4793
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "5557429"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "8367890"
 ---
 # <a name="europe-overview"></a>Europos apžvalga
 
@@ -38,13 +36,13 @@ ms.locfileid: "5557429"
 - [Pardavimo užsakymų SF ID redagavimas (Rytų Europa)](emea-edit-invoice-id-sales-orders.md)
 - [ES įrašų sertifikatai](emea-entry-certificates.md)
 - [ES pardavimo sąrašo ataskaitos](emea-eu-sales-list.md)
+  - [Bendrojo ES pardavimo sąrašo pavyzdys](emea-eu-sales-list-example.md)
 - [Valiutų kursų koregavimai](emea-exchange-rate-adjustments.md)
 - [Failo formatai mokėjimo metodams](emea-select-file-formats-for-the-method-of-payments.md)
 - [Finansų (globalizavimo) gairės dėl „Brexit” poveikio](https://businesscenter.mbs.microsoft.com/#contentdetail/GuidanceBrexitImpact)
 - [Finansų tarnybos (ESR) integravimas](emea-fiscal-service-integration.md)
 - [Ilgalaikio turto likvidavimas Estijoje ir Lietuvoje](emea-credit-note-reverse-fixed-asset-sale.md)
 - [Atsargų perkėlimo įmonės viduje perkėlimo dokumento generavimas](tasks/transfer-document-internal-inventory-transfer.md)
-- [Generuoti ES pardavimo sąrašo ataskaitą](tasks/eur-00011-eu-sales-list-report.md)
 - ISO20022 failai
   - [ISO20022 failų importavimas](emea-ISO20022-file-formats.md)
   - [ISO20022 tiesioginio debeto konfigūracijos importavimas](tasks/import-iso20022-direct-debit-configuration.md)
@@ -79,7 +77,6 @@ ms.locfileid: "5557429"
 - [SEPA kredito pervedimų apžvalga](../accounts-payable/sepa-credit-transfer.md)
 - [SEPA tiesioginio debeto apžvalga](../accounts-receivable/sepa-direct-debit-overview.md)
 - [Kliento ir tiekėjo kompensacijų nustatymas](emea-compensation-customer-vendor-transactions.md)
-- [ES pardavimo sąrašo ataskaitų nustatymas](tasks/eur-00011-eu-sales-list-reporting.md)
 - [Projekto sąskaitų faktūrų mokėjimo kvito formato nustatymas](tasks/set-up-payment-slip-format-project-invoices.md)
 - [Spausdinimo formų pasirašančiųjų nustatymas](emea-set-up-signers-for-printing-forms.md)
 - [Storno apskaita](emea-storno.md)
@@ -95,11 +92,13 @@ ms.locfileid: "5557429"
   - [PVM ataskaitos kūrimas ir teikimas](tasks/create-submit-vat-report.md)
   - [Sudengimo operacijų peržiūra (Rytų Europa)](emea-transactions-settlement-form.md)
   - [Apmokestinimo data (PVM registro data)](emea-tax-point-date.md)
+  - [Tiekėjo PVM registro data](emea-date-vendor-VAT-register.md)
+- [Finansinių priežasčių funkcijos plėtinys](emea-financial-reason.md)
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
-- [Elektroninių ataskaitų apžvalga](../../dev-itpro/analytics/general-electronic-reporting.md)
-- [Elektroninių ataskaitų konfigūracijų atsisiuntimas iš „Lifecycle Services“](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)
+- [Elektroninių ataskaitų apžvalga](../../fin-ops-core/dev-itpro/analytics/general-electronic-reporting.md)
+- [Elektroninių ataskaitų konfigūracijų atsisiuntimas iš „Lifecycle Services“](../../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

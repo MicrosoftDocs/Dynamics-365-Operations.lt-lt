@@ -2,25 +2,25 @@
 title: Apskaitos paskirstymai ir žurnalo įrašai pardavėjo sąskaitoms
 description: Apskaitos paskirstymai naudojami siekiant apibrėžti, kaip suma bus apskaitoma, pvz., kaip bus apskaitomos išlaidos, mokesčiai ar rinkliavos tiekėjo SF. Kiekviena suma, kurią reikia apskaityti, kai tiekėjo SF įtraukiama į žurnalą, turės vieną ar kelis apskaitos paskirstymus.
 author: sunfzam
-ms.date: 08/20/2017
+ms.date: 02/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: VendEditInvoice
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 26891
 ms.assetid: 93dc608a-b5b4-4ec3-83c2-618e3d80a583
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7296b1e00bfd49bceb40a0e8b859d46c6517450a
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
-ms.translationtype: HT
+ms.openlocfilehash: f10ddf113f59da4800a97a48300ab1310bfb42dd
+ms.sourcegitcommit: 9cbff8a2cdeaf606488fb0044b3de4ab4409c9dc
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7594696"
+ms.lasthandoff: 02/26/2022
+ms.locfileid: "8358186"
 ---
 # <a name="accounting-distributions-and-journal-entries-for-vendor-invoices"></a>Apskaitos paskirstymai ir žurnalo įrašai pardavėjo sąskaitoms
 
@@ -31,7 +31,7 @@ Apskaitos paskirstymai naudojami siekiant apibrėžti, kaip suma bus apskaitoma,
 ## <a name="accounting-distributions"></a>Apskaitos paskirstymai 
 
 Puslapyje Tiekėjo SF naudodami toliau nurodytus mygtukus galite peržiūrėti ir galbūt modifikuoti kiekvienos tiekėjo SF nurodytos sumos apskaitos paskirstymus.
--   **Paskirstyti sumas** – peržiūrėkite ir modifikuokite apskaitos paskirstymus konkrečioje eilutėje ir visose antrinėse eilutėse, pvz., mokesčių ar rinkliavų. Antrinės eilutės apskaitos paskirstymus taip pat galite peržiūrėti ir keisti tiesiogiai iš PVM operacijų puslapio arba Išlaidų operacijų puslapio.
+-   **Paskirstyti sumas** – peržiūrėkite ir modifikuokite apskaitos paskirstymus konkrečioje eilutėje ir visose antrinėse eilutėse, pvz., mokesčių ar rinkliavų. Taip pat galite peržiūrėti ir modifikuoti finansinės eilutės apskaitos paskirstymus **tiesiogiai iš PVM operacijų** puslapio arba išlaidų **operacijų** puslapio.
     -   Modifikuokite tiekėjo SF antraštės sumas, pvz., rinkliavas arba valiutos sumos apvalinimą.
     -   Modifikuokite tiekėjo SF eilučių sumas.
 -   **Peržiūrėti paskirstymus** – peržiūrėkite visų dokumentų eilučių apskaitos paskirstymus. Negalite modifikuoti apskaitos paskirstymų iš šio rodinio.
@@ -62,7 +62,7 @@ Kai įvedate tiekėjo SF, kiekviena suma bus paskirstyta kaip aprašyta toliau.
 <td>Laikomas produktas</td>
 <td><ol>
 <li>Pirkimo užsakymo eilutės apskaitos paskirstymas.</li>
-<li>Laukas Pagrindinė sąskaita, kai puslapyje Registravimas pasirinkta Produkto pirkimo išlaidos.</li>
+<li>Laukas <strong>Pagrindinė</strong> sąskaita, kai pirkimo išlaidos produktui yra pasirinktas <strong>registravimo</strong> puslapyje.</li>
 </ol></td>
 <td><ol>
 <li>Jei sąskaitos faktūros eilutėje nurodoma pirkimo užsakymo eilutė, naudokite pirkimo užsakymo eilutės sąskaitos paskirstymą.</li>
@@ -73,35 +73,35 @@ Kai įvedate tiekėjo SF, kiekviena suma bus paskirstyta kaip aprašyta toliau.
 <td>Įsigijimo kategorija arba nelaikomas produktas</td>
 <td><ol>
 <li>Pirkimo užsakymo eilutės apskaitos paskirstymas, jei tiekėjo SF eilutėje nurodoma pirkimo užsakymo eilutė.</li>
-<li>Laukas Pagrindinė sąskaita, kai puslapyje Registravimas pasirinkta Išlaidų pirkimo išlaidos.</li>
+<li>Laukas <strong>Pagrindinė</strong> sąskaita, kai pirkimo išlaidos išlaidoms yra pasirinktas <strong>registravimo</strong> puslapyje.</li>
 </ol></td>
 <td><ol>
 <li>Jei sąskaitos faktūros eilutėje nurodoma pirkimo užsakymo eilutė, naudokite pirkimo užsakymo eilutės sąskaitos paskirstymą.</li>
 <li>Jei pagrindinė sąskaita yra paskirstymo sąskaita, naudokite numatytąją reikšmę iš paskirstymo sąskaitos apibrėžimo.</li>
 <li>Naudokite numatytąsias finansines dimensijos reikšmes tiekėjo SF.</li>
 <li>Naudokite finansinės dimensijos reikšmes iš tiekėjo SF eilutės.</li>
-<li>Naudokite numatytąsias finansinės dimensijos reikšmes iš pagrindinės sąskaitos puslapyje Sąskaitų planas.</li>
+<li>Naudokite numatytąsias finansinės dimensijos reikšmes iš pagrindinės sąskaitos, sąskaitų <strong>plano</strong> puslapyje.</li>
 </ol></td>
 </tr>
 <tr class="odd">
 <td>Ilgalaikis turtas</td>
 <td><ol>
 <li>Pirkimo užsakymo eilutės apskaitos paskirstymas, jei tiekėjo SF eilutėje nurodoma pirkimo užsakymo eilutė.</li>
-<li>Formos Tiekėjo SF lauke Operacijos tipas pasirinkus Įsigijimas, laukas Pagrindinė sąskaita, kai puslapyje Ilgalaikio turto registravimo šablonai pasirinkta Įsigijimas.</li>
-<li>Lauke Operacijos tipas pasirinkus Įsigijimo koregavimas, laukas Pagrindinė sąskaita, kai puslapyje Ilgalaikio turto registravimo šablonai pasirinkta Įsigijimo koregavimas.</li>
+<li>Jei <strong>įsigijimas</strong> pasirinktas operacijos <strong>tipo lauke</strong> <strong>Tiekėjo SF puslapyje</strong>, <strong>pagrindinės sąskaitos laukas</strong>, <strong>kai įsigijimas</strong> pasirinktas ilgalaikio <strong>turto registravimo šablonų</strong> puslapyje.</li>
+<li>Jei <strong>lauke Operacijos</strong> tipas pasirinktas Įsigijimo <strong>koregavimas</strong>, <strong>pagrindinės sąskaitos laukas</strong>, <strong>kai ilgalaikio turto registravimo</strong> <strong>šablonų puslapyje pasirinktas įsigijimo koregavimas</strong>.</li>
 </ol></td>
 <td><ol>
 <li>Jei sąskaitos faktūros eilutėje nurodyta pirkimo užsakymo eilutė, naudokite pirkimo užsakymo eilutės sąskaitos paskirstymą.</li>
 <li>Naudokite finansinės dimensijos reikšmes iš tiekėjo SF eilutės.</li>
-<li>Naudokite numatytąsias finansinės dimensijos reikšmes iš pagrindinės sąskaitos puslapyje Sąskaitų planas.</li>
+<li>Naudokite numatytąsias finansinės dimensijos reikšmes iš pagrindinės sąskaitos, sąskaitų <strong>plano</strong> puslapyje.</li>
 </ol></td>
 </tr>
 <tr class="even">
 <td>Tiekėjo SF eilutėje nurodytas projektas</td>
 <td><ol>
 <li>Jei sąskaitos faktūros eilutėje nurodyta pirkimo užsakymo eilutė, naudokite pirkimo užsakymo eilutės apskaitos paskirstymą.</li>
-<li>Puslapio Projektų grupės lauke Registruoti išlaidas – Prekė pasirinkus Balansas, laukas Pagrindinė sąskaita, kai puslapyje Registravimo DK nustatymai pasirinkus Išlaidos.</li>
-<li>Puslapio Projektų grupės lauke Registruoti išlaidas – Prekė pasirinkus Pelnas ir nuostolis, laukas Pagrindinė sąskaita, kai puslapyje Registravimo DK nustatymai pasirinkus Išlaidos – Prekė.</li>
+<li>Jei <strong>projekto</strong> grupių puslapio <strong>lauke Registruoti išlaidas –</strong><strong></strong> prekę pasirinktas balansas, pagrindinės sąskaitos laukas, <strong></strong><strong></strong> kai išlaidos pasirinktos <strong>DK registravimo nustatymo</strong> puslapyje.</li>
+<li>Jei <strong>dk registravimo nustatymo</strong> puslapyje<strong></strong><strong></strong> pasirinktas pelno ir nuostolio laukas Registruoti išlaidas – prekę, laukas Pagrindinė sąskaita, <strong></strong><strong>kai išlaidos –</strong><strong>prekė pasirinkta DK registravimo nustatymo</strong> puslapyje.</li>
 </ol></td>
 <td><ol>
 <li>Jei sąskaitos faktūros eilutėje nurodoma pirkimo užsakymo eilutė, naudokite pirkimo užsakymo eilutės sąskaitos paskirstymą.</li>
@@ -111,18 +111,18 @@ Kai įvedate tiekėjo SF, kiekviena suma bus paskirstyta kaip aprašyta toliau.
 <td>Eilutės nuolaida</td>
 <td><ol>
 <li>Jei sąskaitos faktūros eilutėje nurodyta pirkimo užsakymo eilutė, naudokite pirkimo užsakymo eilutės apskaitos paskirstymą.</li>
-<li>Laukas Pagrindinė sąskaita, kai puslapyje Registravimas pasirinkta Nuolaida.</li>
+<li>Pagrindinės <strong>sąskaitos laukas</strong>, <strong>kai nuolaida</strong> pasirinkta registravimo <strong></strong> puslapyje.</li>
 <li>Jei registravimo šablone neapibrėžta nuolaidos pagrindinė sąskaita, išplėstinės kainos apskaitos paskirstymas pirkimo užsakymo eilutėje.</li>
 </ol></td>
 <td><ol>
 <li>Jei sąskaitos faktūros eilutėje nurodoma pirkimo užsakymo eilutė, naudokite pirkimo užsakymo eilutės apskaitos paskirstymą.</li>
 <li>Naudokite finansines dimensijas iš išplėstinės kainos apskaitos paskirstymų tiekėjo SF eilutėje.</li>
 <li>Naudokite tiekėjo SF eilutės finansinės dimensijos reikšmes.</li>
-<li>Naudokite numatytąsias finansinės dimensijos reikšmes iš pagrindinės sąskaitos puslapyje Sąskaitų planas.</li>
+<li>Naudokite numatytąsias finansinės dimensijos reikšmes iš pagrindinės sąskaitos, sąskaitų <strong>plano</strong> puslapyje.</li>
 </ol></td>
 </tr>
 <tr class="even">
-<td>Pirkimo mokestis, įvestas pirkimo užsakymo eilutės skirtuke Kaina ir nuolaida</td>
+<td>Pirkimo mokestis, įvedamas pirkimo <strong>užsakymo eilutės</strong> skirtuke Kaina ir nuolaida</td>
 <td><ol>
 <li>Jei sąskaitos faktūros eilutėje nurodyta pirkimo užsakymo eilutė, naudokite pirkimo užsakymo eilutės apskaitos paskirstymą.</li>
 <li>Išplėstinės kainos apskaitos paskirstymas pirkimo užsakymo eilutėje.</li>
@@ -136,21 +136,21 @@ Kai įvedate tiekėjo SF, kiekviena suma bus paskirstyta kaip aprašyta toliau.
 <td>Eilutės mokestis</td>
 <td><ol>
 <li>Jei sąskaitos faktūros eilutėje nurodyta pirkimo užsakymo eilutė, naudokite pirkimo užsakymo eilutės apskaitos paskirstymą.</li>
-<li>Jei formos Išlaidų kodas lauke Debeto tipas pasirinkta DK sąskaita, puslapio Išlaidų kodas laukas Debeto sąskaita.</li>
-<li>Jei formos Išlaidų kodas lauke Debeto tipas pasirinkta Prekė, išplėstinės kainos apskaitos paskirstymas pirkimo užsakymo eilutėje.</li>
-<li>Jei formos Išlaidų kodas lauke Debeto tipas pasirinkta Klientas/tiekėjas, puslapio Išlaidų kodas laukas Kredito sąskaita.</li>
+<li>Jei <strong>DK</strong> sąskaita pasirenkama išlaidų <strong>kodo puslapio lauke</strong><strong>Debeto</strong> tipas, skirtuko <strong></strong> Išlaidų kodas lauke <strong>Debeto</strong> sąskaita.</li>
+<li>Jei <strong>išlaidų</strong> kodo puslapio lauke <strong>Debeto</strong><strong>tipas pasirinkta prekė</strong>, išplėstinės kainos, pirkimo užsakymo eilutėje, apskaitos paskirstymas.</li>
+<li>Jei <strong>klientas /</strong> tiekėjas yra pasirinktas <strong></strong><strong></strong> debeto tipo lauke, kuris yra išlaidų kodo puslapyje,<strong></strong><strong>laukas Kredito sąskaita išlaidų kodų</strong> puslapyje.</li>
 </ol></td>
 <td><ol>
 <li>Jei sąskaitos faktūros eilutėje nurodoma pirkimo užsakymo eilutė, naudokite pirkimo užsakymo eilutės sąskaitos paskirstymą.</li>
 <li>Naudokite finansines dimensijas iš išplėstinės kainos apskaitos paskirstymų tiekėjo SF eilutėje.</li>
 <li>Naudokite finansinės dimensijos reikšmes iš tiekėjo SF eilutės.</li>
-<li>Naudokite numatytąsias finansinės dimensijos reikšmes iš pagrindinės sąskaitos puslapyje Sąskaitų planas.</li>
+<li>Naudokite numatytąsias finansinės dimensijos reikšmes iš pagrindinės sąskaitos, sąskaitų <strong>plano</strong> puslapyje.</li>
 </ol></td>
 </tr>
 <tr class="even">
 <td>Mokestis su šia sąlyga:
 <ul>
-<li>DK parametrų puslapyje pasirinkta pasirinktis taikyti JAV apmokestinimo taisykles.</li>
+<li>Didžiosios <strong>knygos parametrų puslapyje pasirinkta</strong> parinktis Taikyti <strong>JAV mokesčių</strong> taisykles.</li>
 </ul></td>
 <td><ol>
 <li>Jei sąskaitos faktūros eilutėje nurodyta pirkimo užsakymo eilutė, naudokite pirkimo užsakymo eilutės apskaitos paskirstymą.</li>
@@ -165,61 +165,61 @@ Kai įvedate tiekėjo SF, kiekviena suma bus paskirstyta kaip aprašyta toliau.
 <tr class="odd">
 <td>Mokestis su šiomis sąlygomis:
 <ul>
-<li>DK parametrų puslapyje išvalyta pasirinktis taikyti JAV apmokestinimo taisykles.</li>
-<li>PVM grupės laukas Naudojimo mokestis išvalomas puslapyje PVM grupės.</li>
+<li>Parinktis <strong>Taikyti JAV mokesčių taisykles</strong> išvalyta DK <strong>parametrų</strong> puslapyje.</li>
+<li>PVM <strong>grupės</strong> naudojimo mokesčio laukas yra išvalytas PVM <strong>grupių</strong> puslapyje.</li>
 </ul></td>
 <td><ol>
-<li>Jei mokesčio sumą galima susigrąžinti, puslapio DK registravimo grupės laukas Gautinas PVM.</li>
+<li>Jei mokesčio sumą galima susigrąžinti, dk <strong>registravimo</strong> grupių puslapio lauke <strong>Gautinas</strong> PVM.</li>
 <li>Jei susigrąžinti mokesčio sumos negalima, išplėstinė kaina arba mokesčio apskaitos paskirstymas.</li>
 </ol></td>
 <td><ol>
 <li>Jei sąskaitos faktūros eilutėje nurodoma pirkimo užsakymo eilutė, naudokite pirkimo užsakymo eilutės sąskaitos paskirstymą.</li>
 <li>Naudokite finansines dimensijas iš išplėstinės kainos arba mokesčio apskaitos paskirstymų tiekėjo SF eilutėje.</li>
 <li>Naudokite finansinės dimensijos reikšmes iš tiekėjo SF eilutės.</li>
-<li>Naudokite numatytąsias finansinės dimensijos reikšmes iš pagrindinės sąskaitos puslapyje Sąskaitų planas.</li>
+<li>Naudokite numatytąsias finansinės dimensijos reikšmes iš pagrindinės sąskaitos, sąskaitų <strong>plano</strong> puslapyje.</li>
 </ol></td>
 </tr>
 <tr class="even">
 <td>Mokestis su šiomis sąlygomis:
 <ul>
-<li>DK parametrų puslapyje išvalyta pasirinktis taikyti JAV apmokestinimo taisykles.</li>
-<li>PVM grupės laukas Naudojimo mokestis pasirenkamas puslapyje PVM grupės.</li>
+<li>Parinktis Taikyti JAV mokesčių taisykles išvalyta DK <strong>parametrų</strong> puslapyje.</li>
+<li>PVM <strong>grupės</strong> puslapyje pasirinktas PVM grupės laukas <strong>Naudojimo</strong> mokestis.</li>
 </ul></td>
 <td><ol>
-<li>Jei mokesčio sumą galima susigrąžinti, puslapio DK registravimo grupės laukas Gautinas PVM.</li>
-<li>Jei mokesčio sumos negalima susigrąžinti, puslapio DK registravimo grupės laukas Naudojimo mokesčio išlaidos.</li>
+<li>Jei mokesčio sumą galima susigrąžinti, dk <strong>registravimo</strong> grupių puslapio lauke <strong>Gautinas</strong> PVM.</li>
+<li>Jei mokesčio sumos negalima susigrąžinti, DK <strong>registravimo</strong> grupių puslapio laukas Naudoti <strong>mokesčio</strong> išlaidas.</li>
 </ol></td>
 <td><ol>
 <li>Jei sąskaitos faktūros eilutėje nurodoma pirkimo užsakymo eilutė, naudokite pirkimo užsakymo eilutės sąskaitos paskirstymą.</li>
 <li>Naudokite finansines dimensijas iš išplėstinės kainos arba mokesčio apskaitos paskirstymų tiekėjo SF eilutėje.</li>
 <li>Naudokite finansinės dimensijos reikšmes iš tiekėjo SF eilutės.</li>
-<li>Naudokite numatytąsias finansinės dimensijos reikšmes iš pagrindinės sąskaitos puslapyje Sąskaitų planas.</li>
+<li>Naudokite numatytąsias finansinės dimensijos reikšmes iš pagrindinės sąskaitos, sąskaitų <strong>plano</strong> puslapyje.</li>
 </ol></td>
 </tr>
 <tr class="odd">
-<td>Antraštės lygmenyje pateikiamos išlaidos</td>
+<td>Antraštės mokestis</td>
 <td><ol>
-<li>Jei formos Išlaidų kodas lauke Debeto tipas pasirinkta DK sąskaita, puslapio Išlaidų kodas laukas Debeto sąskaita.</li>
-<li>Jei formos Išlaidų kodas lauke Debeto tipas pasirinkta Klientas/tiekėjas, puslapio Išlaidų kodas laukas Kredito sąskaita.</li>
+<li>Jei <strong>DK</strong> sąskaita yra pasirinkta lauke <strong>Debeto</strong> tipas, kuris yra <strong></strong> išlaidų kodo puslapyje, <strong>laukas Debeto</strong><strong>sąskaita išlaidų kodų</strong> puslapyje.</li>
+<li>Jei <strong>klientas /</strong> tiekėjas yra pasirinktas <strong></strong><strong></strong> debeto tipo lauke, kuris yra išlaidų kodo puslapyje,<strong></strong><strong>laukas Kredito sąskaita išlaidų kodų</strong> puslapyje.</li>
 </ol></td>
 <td><ol>
 <li>Jei sąskaitos faktūros eilutėje nurodoma pirkimo užsakymo eilutė, naudokite pirkimo užsakymo eilutės sąskaitos paskirstymą.</li>
 <li>Jei pagrindinė sąskaita yra paskirstymo sąskaita, naudokite numatytąją reikšmę iš paskirstymo sąskaitos apibrėžimo.</li>
 <li>Naudokite finansinės dimensijos numatytojo šablono reikšmes iš tiekėjo SF antraštės.</li>
 <li>Naudokite finansinės dimensijos reikšmes iš tiekėjo SF eilutės.</li>
-<li>Naudokite numatytąsias finansinės dimensijos reikšmes iš pagrindinės sąskaitos puslapyje Sąskaitų planas.</li>
+<li>Naudokite numatytąsias finansinės dimensijos reikšmes iš pagrindinės sąskaitos, sąskaitų <strong>plano</strong> puslapyje.</li>
 </ol></td>
 </tr>
 <tr class="even">
 <td>Antraštės nuolaida</td>
 <td><ol>
-<li>Puslapio Automatinių operacijų sąskaitos registravimo tipo Tiekėjo SF nuolaida laukas Pagrindinė sąskaita.</li>
+<li>Tiekėjo <strong>SF nuolaidos registravimo tipo</strong> pagrindinės sąskaitos laukas Automatinių<strong></strong> operacijų sąskaitų puslapyje<strong>.</strong></li>
 </ol></td>
 <td><ol>
 <li>Jei sąskaitos faktūros eilutėje nurodoma pirkimo užsakymo eilutė, naudokite pirkimo užsakymo eilutės sąskaitos paskirstymą.</li>
 <li>Naudokite finansines dimensijas iš išplėstinės kainos apskaitos paskirstymų tiekėjo SF eilutėje.</li>
 <li>Naudokite finansinės dimensijos reikšmes iš tiekėjo SF eilutės.</li>
-<li>Naudokite numatytąsias finansinės dimensijos reikšmes iš pagrindinės sąskaitos puslapyje Sąskaitų planas.</li>
+<li>Naudokite numatytąsias finansinės dimensijos reikšmes iš pagrindinės sąskaitos, sąskaitų <strong>plano</strong> puslapyje.</li>
 </ol></td>
 </tr>
 </tbody>
@@ -228,7 +228,7 @@ Kai įvedate tiekėjo SF, kiekviena suma bus paskirstyta kaip aprašyta toliau.
 
 ## <a name="distributing-taxes"></a>Mokesčių paskirstymas
 
-Mokesčių apskaitos paskirstymus galima kurti tik apskaičiavus mokesčius. Norėdami skaičiuoti PVM, turite atlikti vieną iš toliau nurodytų užduočių puslapyje Tiekėjo SF.
+Mokesčių apskaitos paskirstymus galima kurti tik apskaičiavus mokesčius. Norėdami apskaičiuoti PVM, tiekėjo SF puslapyje turite atlikti vieną iš **šių** užduočių:
 -   Peržiūrėkite SF bendrąją sumą.
 -   Peržiūrėkite PVM.
 -   Peržiūrėkite papildomos knygos žurnalą.

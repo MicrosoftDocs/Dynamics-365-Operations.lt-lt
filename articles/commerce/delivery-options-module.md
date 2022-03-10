@@ -2,8 +2,7 @@
 title: Pristatymo parinkčių modulis
 description: Ši tema paaiškina pristatymo parinkčių modulius ir tai, kaip juos sukonfigūruoti „Microsoft Dynamics 365 Commerce“.
 author: anupamar-ms
-manager: annbe
-ms.date: 04/23/2021
+ms.date: 02/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,17 +14,16 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 12b0281a27dcf5f567bcd6be5530fa8e26a4ae99
-ms.sourcegitcommit: 593438a145672c55ff6a910eabce2939300b40ad
-ms.translationtype: HT
+ms.openlocfilehash: 9b9a7ad05974b98511cfc582af62c19c5fb4dbf5
+ms.sourcegitcommit: d2e5d38ed1550287b12c90331fc4136ed546b14c
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/23/2021
-ms.locfileid: "5937487"
+ms.lasthandoff: 02/25/2022
+ms.locfileid: "8349799"
 ---
 # <a name="delivery-options-module"></a>Pristatymo parinkčių modulis
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 Ši tema paaiškina pristatymo parinkčių modulius ir tai, kaip juos sukonfigūruoti „Microsoft Dynamics 365 Commerce“.
 
@@ -43,11 +41,11 @@ Jei siuntimo mokesčiai taikomi eilutės prekėms, jos gali būti rodomos kiekvi
 
 Tolesnis paveikslėlis rodo pristatymo parinkčių modulį galutiniame puslapyje pavyzdį.
 
-![Pristatymo parinkčių modulio galutiniame puslapyje pavyzdys](./media/ecommerce-deliveryoptions.PNG)
+![Pristatymo parinkčių modulio galutiniame puslapyje pavyzdys.](./media/ecommerce-deliveryoptions.PNG)
 
 ## <a name="delivery-options-module-properties"></a>Pristatymo parinkčių modulio ypatybės
 
-| Ypatybė | Reikšmės | aprašymas |
+| Ypatybė | Reikšmės | Aprašas |
 |----------|--------|-------------|
 | Antraštė | Antraštės tekstas ir antraštės žymė (**H1**, **H2**, **H3**, **H4**, **H5** ar **H6**) | Pasirenkama antraštė pristatymo parinkčių moduliui. |
 | Pasirinktinis CSS klasės pavadinimas | Tekstas | Tinkinto kaskadinio stiliaus lapų (CSS) klasės pavadinimas, kuris bus naudojamas šio modulio sukūrimui, jei taikomas. |
@@ -58,11 +56,14 @@ Tolesnis paveikslėlis rodo pristatymo parinkčių modulį galutiniame puslapyje
 
 Pristatymo parinkčių modulis gali būti įtrauktas tik į galutinį modulį. Dėl išsamesnės informacijos apie tai, kaip konfigūruoti pristatymo parinkčių modulį ir įtraukti jį į galutinį puslapį, žr. [Galutinis modulis](add-checkout-module.md).
 
+> [!NOTE]
+> Gali kilti nenuoseklaus pristatymo tvarkymo veiksmų arba el. komercijos kanale gali būti nematuotų antraštės lygio išlaidų. Informacijos, kaip išspręsti šias problemas, ieškokite Įgalinti nuoseklų [pristatymo režimo tvarkymą el. komercijos kanaluose](consistent-delivery-mode-handling.md).
+
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Krepšelio modulis](add-cart-module.md)
 
-[Pirkimo užbaigimo modulis](add-checkout-module.md)
+[Pirkimo užbaigimo modulį](add-checkout-module.md)
 
 [Mokėjimo modulis](payment-module.md)
 

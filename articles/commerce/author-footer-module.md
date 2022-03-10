@@ -2,7 +2,7 @@
 title: Poraštės modulis
 description: Šioje temoje aprašomi poraštės moduliai ir tai, kaip juos kurti programoje „Dynamics 365 Commerce“.
 author: anupamar-ms
-ms.date: 09/15/2020
+ms.date: 03/02/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 2768317092f43862f26847c4b4c57f5929d43912
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
-ms.translationtype: HT
+ms.openlocfilehash: 81db5cf32f23b7ee1ca8325eeec2e6ceafda55e0
+ms.sourcegitcommit: 90a553e271e7cd471fed2e4f006d753fdb67b47d
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6346783"
+ms.lasthandoff: 03/03/2022
+ms.locfileid: "8374836"
 ---
 # <a name="footer-module"></a>Poraštės modulis  
 
@@ -39,7 +39,7 @@ Kaip ir dauguma konteinerių, poraštės modulis palaiko antraštės ir pločio 
 
 ## <a name="modules-available-in-a-footer-module"></a>Poraštės modulyje esantys moduliai
 
-**Poraštės elementai** – poraštės elementų modulyje gali būti antraštė, vaizdas ir saitas. Antraštė gali būti naudojama atskirai arba kartu su vaizdu ir saitu. Kiekvieną poraštės saitą galima sukonfigūruoti taip, kad jame būtų tik tekstas (pavyzdžiui, saitai „Susisiekite su mumis“ ir „Privatumas“), arba kad jame būtų ir tekstas, ir vaizdas (pavyzdžiui, socialinės medijos saitai).
+**Poraštės** elementas – poraštės prekių modulyje gali būti antraštė arba saitas. Antraštė paprastai naudojama kaip poraštės sekcijos pavadinimas.  Kiekvieną poraštės saitą galima sukonfigūruoti taip, kad jame būtų tik tekstas (pavyzdžiui, saitai „Susisiekite su mumis“ ir „Privatumas“), arba kad jame būtų ir tekstas, ir vaizdas (pavyzdžiui, socialinės medijos saitai). Jei pateikta antraštė ir saitas, antraštės ypatybė turės pirmenybę prieš saitą. 
 
 **Grįžti į viršų** – grįžimo į viršų modulis suteikia saitą greitai pereiti į puslapio viršų. Būtina paskirties vieta. Numatytoji paskirties vietos reikšmė yra \#, kuri vartotoją perkelia į puslapio viršų.
 

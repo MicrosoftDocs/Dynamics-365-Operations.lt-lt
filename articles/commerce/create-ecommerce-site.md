@@ -2,7 +2,7 @@
 title: Sukurkite e-komercijos saitą
 description: Ši tema aprašo žingsnius ir informaciją, kurie yra būtini norint sukurti e-komercijos saitą „Dynamics 365 Commerce“ saito kūrimo įrankyje.
 author: bicyclingfool
-ms.date: 07/02/2020
+ms.date: 03/04/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 61fe44df7165780be2dd00be3f210ab2da05ddfe
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
-ms.translationtype: HT
+ms.openlocfilehash: 5e451b1c95c3e26d1292e7b8300b62af43c81f2f
+ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5795792"
+ms.lasthandoff: 03/05/2022
+ms.locfileid: "8388216"
 ---
 # <a name="create-an-e-commerce-site"></a>Sukurkite e-komercijos saitą
 
@@ -30,6 +30,19 @@ ms.locfileid: "5795792"
 Ši tema aprašo žingsnius ir informaciją, kurie yra būtini norint sukurti e-komercijos saitą „Dynamics 365 Commerce“ saito kūrimo įrankyje.
 
 Kai jūsų suteikiate licenciją „Dynamics 365 Commerce“ pajėgumams, saito kūrimo įrankis bus aprūpintas pradžios saitu, kurį galėsite naudoti pagal jūsų turimo saito pagrindus. Tačiau, jei norite pradėti nuo nulio, arba, jei norite sukurti antrą svetainę, turite sukurti naują svetainę svetainės kūrimo aplinkoje. 
+
+## <a name="site-creation-prerequisites"></a>Būtinos vietos kūrimo sąlygos
+
+Svetainės generatoriaus vartotojas turi turėti "Microsoft Azure Active Directory " (Azure AD) vartotojo abonementą, Azure AD įtrauktą į saugos grupę, priskirtą el. komercijos sistemos administratoriams. Norėdami gauti daugiau informacijos, žr [. naujo el. komercijos nuomininko diegimą](deploy-ecommerce-site.md).
+
+> [!NOTE]
+> Azure AD svečias jūsų nuomininke gali turėti skirtingas prieigos Azure AD teises. Net jeigu Azure AD įtraukta į saugos grupę, priskirtą el. komercijos sistemos administratoriams, Azure AD **svečiui** gali reikėti koreguoti išorinių vartotojų teisių parametrus, kad būtų galima sukurti el. komercijos svetainę "Commerce". 
+
+Norėdami koreguoti išorinių Azure AD **vartotojų** nustatymus, atlikite šiuos veiksmus.
+
+1. "Azure" portale pereikite į savo nuomininką Azure AD.
+1. Eikite į **vartotojo parametrus \> Išoriniai vartotojai** ir pasirinkite saitą **Tvarkyti išorinius bendradarbiavimo** parametrus. Atidaromas išorinio **bendradarbiavimo puslapis**, kuriame galima nustatyti vartotojo prieigą, svečio kviesti parametrus ir bendradarbiavimo apribojimus. 
+1. Koreguoti išorinius bendradarbiavimo parametrus pagal jūsų įmonės saugos strategijas. 
 
 ## <a name="set-up-your-site"></a>Svetainės nustatymas
 
@@ -48,8 +61,15 @@ Norėdami nustatyti svetainę, atlikite toliau nurodytus veiksmus.
 | Domenas                              | Pasirinkite domeno vardą, kuris bus šios internetinės parduotuvės domenas. Jei sprendime LCS nekonfigūravote jokių domenų, šį lauką galite palikti tuščią. Sukonfigūravę domeną sprendime LCS, jį turite įtraukti į internetinę parduotuvę dalyje **Svetainės parametrai**.  |
 | Maršrutas                              | Kai jūsų svetainė palaiko daugiau nei vieną tam tikro domeno vardo kalbą, naudodami kelio lauką sukurkite unikalų to domeno ir kalbos derinio svetainės URL. Jei kalba, kurią nurodėte lauke **Numatytoji kalba**, yra vienintelė palaikoma šio domeno kalba arba toliau bus numatytoji kalba jums svetainę lokalizavus papildomomis kalbomis, rekomenduojame šį lauką palikti tuščią. |
 
-
 Sukūrę svetainę, patikrinti, ar ji susieta su internetine parduotuve, galite pasirinkdami skirtuką **Produktai**. Turėtumėte matyti produktų asortimentą, priskirtą internetinei parduotuvei. Taip pat galite naudoti viršutinėje kairiojoje puslapio dalyje esantį išplečiamąjį meniu ir priskirtus produktus pasiekti pagal kategoriją.
+
+## <a name="rename-your-site"></a>Pervardykite savo svetainę
+
+Norėdami pervardyti savo svetainę svetainės generatoriuje, atlikite šiuos veiksmus.
+
+1. Norėdami atidaryti svetainių sąrašo rodinį, viršutiniame **dešiniajame** kampe pasirinkite Svetainės perjungimo priemonė, tada pasirinkite Tvarkyti **svetaines**. 
+1. Pasirinkite žymės langelį, esantį šalia svetainės, kurią norite pervardyti, tada komandų **juostoje** pasirinkite Pervardyti.
+1. Dialogo lange **Naujos svetainės** pavadinimas įveskite naują svetainės pavadinimą ir pasirinkite **Gerai**. Svetainės sąrašas bus atnaujinta, kad būtų rodomas naujas svetainės pavadinimas.
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 

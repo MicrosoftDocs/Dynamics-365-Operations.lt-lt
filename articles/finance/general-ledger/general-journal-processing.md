@@ -1,8 +1,8 @@
 ---
 title: Bendrųjų žurnalų apdorojimas
 description: Šioje temoje aprašytos programos „Microsoft Dynamics 365 Finance“ galimybės, galinčios padėti lengviau atlikti bendrąjį žurnalo apdorojimą, taip pat gali padėti užtikrinti, kad užfiksuoti tinkami duomenys ir nėra pažeidžiama vidinė kontrolė.
-author: ShylaThompson
-ms.date: 08/09/2019
+author: kweekley
+ms.date: 02/28/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.reviewer: roschlom
 ms.custom: 15721
 ms.assetid: b4b406fa-b772-44ec-8dd8-8eb818a921ef
 ms.search.region: Global
-ms.author: peakerbl
+ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b7e9c8981968cbe36070c336d57f0b086b9ab930d0287d11faaeb0f32ee46364
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 7096d8576cf124e5e1d814c360d96639f66a742a
+ms.sourcegitcommit: 753714ac0dabc4b7ce91509757cd19f7be4a4793
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6742884"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "8367885"
 ---
 # <a name="general-journal-processing"></a>Bendrųjų žurnalų apdorojimas
 
@@ -101,7 +101,7 @@ Atliekant paketinį apdorojimą funkcija **Modeliuoti registravimą** naudotis n
 Galimybė atšaukti žurnalą darbo eigoje, kurio būsena yra „neištaisoma“, yra įjungta naudojant **darbo eigos** mygtuką, esantį žurnale ir puslapyje **Darbo eigos retrospektyva**. Ją suaktyvina funkcija **Žurnalų darbo eigos būsenos atkūrimas** puslapyje **Funkcijų valdymas**.
 
 ## <a name="delete-journal-lines"></a>Naikinti žurnalo eilutes
-Galimybė greitai panaikinti visas žurnalo eilutes yra įjungta žurnale **Funkcijos** > **Naikinti žurnalo eilutes**. Norėdami suaktyvinti šią funkciją, **Funkcijų valdymas** pasirinkite **Naikinti žurnalo našumo optimizavimus**.
+Galimybė greitai panaikinti visas žurnalo eilutes yra įjungta žurnale **Funkcijos** > **Naikinti žurnalo eilutes**. Norėdami suaktyvinti šią funkciją, **Funkcijų valdymas** pasirinkite **Naikinti žurnalo našumo optimizavimus**. Ši funkcija veikia lentelės **LedgerJournalTrans** plėtinius ir tai yra naikinimo metodas, **nes eilučių rinkinys pašalinamas** **neiškvietus kiekvienos eilutės naikinimo** metodo. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

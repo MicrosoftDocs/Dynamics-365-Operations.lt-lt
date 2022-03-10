@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: afc1b5996667835c460f467526493380aa2d6403
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
-ms.translationtype: HT
+ms.openlocfilehash: 9174612743c68595d12dd223f0932ace1857c0fb
+ms.sourcegitcommit: 9cbff8a2cdeaf606488fb0044b3de4ab4409c9dc
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062091"
+ms.lasthandoff: 02/26/2022
+ms.locfileid: "8358369"
 ---
 # <a name="organization-hierarchy-in-dataverse"></a>Organizacijos hierarchija Dataverse
 
@@ -32,15 +32,15 @@ Verslo ekosistema, kurią sudaro „Finance and Operations“ programos ir „Da
 
 ![Struktūros vaizdas.](media/dual-write-data-flow.png)
 
-Galimi organizacijos hierarchijos lentelių žemėlapiai, leidžiantys vienpusiškai sinchronizuoti duomenis iš „Finance and Operations“ programų į Dataverse.
+Organizacijos hierarchijos lentelių schemas galima vienu būdu sinchronizuoti duomenis iš finansų ir operacijų programėlių į Dataverse.
 
 ## <a name="templates"></a>Šablonai
 
-Produkto informacija apima visą su produktu ir jo apibrėžtimi susijusią informaciją, pvz., produkto dimensijas arba sekimo ir saugojimo dimensijas. Kaip parodyta toliau esančioje lentelėje, sukurtas lentelių schemų rinkinys, skirtas produktų ir susijusios informacijos sinchronizavimui.
+Organizacija yra grupė žmonių, kurie dirba kartu vykdydami verslo procesą arba siekdami tikslo. Organizacijos hierarchijos nurodo ryšius tarp organizacijų, kurios sudaro jūsų verslą. Galima nurodyti šių tipų vidines organizacijas: juridinius subjektus, valdymo vienetus ir komandas. Kaip parodyta pateiktoje lentelėje, sukuriamas lentelių žemėlapių rinkinys, skirtas sinchronizuoti juridinius subjektus, valdymo vienetą, s ir susijusią organizacijos hierarchijos informaciją.
 
-„Finance and operations” programos | „Customer engagement“ programos     | Aprašas
+„Finance and operations” programos | „Customer engagement“ programos     | Aprašymas
 -----------------------|--------------------------------|---
-[Juridiniai subjektai](mapping-reference.md#102) | cdm_companies | Suteikiama juridinio subjekto (įmonės) informacijos dvikrypčio sinchronizavimo galimybė.
+[Juridiniai subjektai](mapping-reference.md#102) | cdm_companies | 
 [Juridiniai subjektai](mapping-reference.md#142) | msdyn_internalorganizations |
 [Valdymo vienetas](mapping-reference.md#143) | msdyn_internalorganizations |
 [Organizacijos hierarchija – publikuota](mapping-reference.md#139) | msdyn_internalorganizationhierarchies | Naudojant šį šabloną, galimai vienpusiškai sinchronizuoti lentelę Organizacijos hierarchija publikuota.

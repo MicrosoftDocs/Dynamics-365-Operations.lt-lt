@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: f5b3c013996253de75cd85c4bcfc52ed159e8f9d
-ms.sourcegitcommit: 8c17717b800c2649af573851ab640368af299981
-ms.translationtype: HT
+ms.openlocfilehash: 88f1e9ef8c8b2aa494c44ea3b33713adc470eb96
+ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/23/2021
-ms.locfileid: "7860514"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8384802"
 ---
 # <a name="get-started-with-global-inventory-accounting"></a>Pradėkite darbą su Visuotine atsargų apskaita
 
@@ -121,7 +121,7 @@ Norėdami nustatyti integravimą tarp Visuotinės atsargų apskaitos ir „Suppl
 1. Prisijunkite prie „Supply Chain Management“.
 1. Eikite į **Sistemos administravimas \> Funkcijų valdymas**.
 1. Pasirinkite **Tikrinti, ar yra naujinimų**.
-1. Skirtuke **Visi** ieškokite priemonės pavadinimu *Visuotinė atsargų apskaita*.
+1. Skirtuke **Visi** ieškokite priemonės, kuri pavadinta *(Peržiūra) Visuotinių atsargų apskaita*.
 1. Pasirinkite **Įjungti dabar**.
 1. Eikite į **Visuotinė atsargų apskaita \> Nustatymas \> Visuotinės atsargų apskaitos parametrai \> Integravimo parametrai**.
 1. Laukuose **Duomenų paslaugos galinis punktas** ir **Visuotinės atsargų apskaitos galinis punktas** įveskite URL iš el. laiško, kurį jums atsiuntė Visuotinės atsargų apskaitos komanda, kai užsiregistravote peržiūros versijai.

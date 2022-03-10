@@ -2,7 +2,7 @@
 title: Kas nauja ar pasikeitė „Warehouse Management Mobile App” programėlėje
 description: Šioje temoje pateikiamos naujos ir pakeistos kiekvienos išleistos „Warehouse Management Mobile App”, skirtos „Microsoft Dynamics 365 Supply Chain Management”, versijos funkcijos.
 author: Mirzaab
-ms.date: 01/18/2022
+ms.date: 02/21/2022
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
@@ -10,18 +10,58 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 6f45cacd7f43c8caf836fd1ea24d354e4bcf5853
-ms.sourcegitcommit: 9638d3a2bd592dc28f5952bda4af7dcf06edfaa4
-ms.translationtype: HT
+ms.openlocfilehash: b146fb12f89559efcb3b0973b0dd1ce9b98ffe2a
+ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8007579"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8384376"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Kas nauja ar pasikeitė „Warehouse Management Mobile App” programėlėje
 
 [!include [banner](../includes/banner.md)]
 
 Šioje temoje pateikiamos naujos kiekvienos išleistos „Warehouse Management Mobile App”, skirtos „Microsoft Dynamics 365 Supply Chain Management”, versijos funkcijos, klaidų taisymai ir žinomos problemos.
+
+## <a name="version-20170"></a>2.0.17.0 versija
+
+Šioje versijoje pristatomos toliau pateiktos naujos funkcijos, klaidų taisymai ir patobulinimai:
+
+- Fiksuota problema, dėl kurios brūkšniniai kodai būtų nuskaitomi netinkamai.
+- Išsamūs matavimo skaitytuvo GS1 nuskaitymo išdavimai.
+- Išsamūs GS1 brūkšninių kodų skaitytuvo GS1 nuskaitymo išdavimai įrenginiuose.
+- Patobulintas užklausos srauto trūkumas, t. y. pasirinkus kortelę iš skyriaus dabar grįšite į pagrindinį srautą.
+- Įtrauktas bendrojo duomenų užklausų srauto palaikymas.
+- Įtraukė pranešimą, kad nurodysite vartotojams apie tinklo ryšio būsenos pakeitimus.
+- Sulygiuotos saugojimo teisės su saugojimo privatumo strategija Android 10.
+- Srautams, kurių reikia, kiekio klaviatūra dabar yra pareigos, kurios leidžia vartotojams pateikti tuščią skaitinę vertę.
+- Fiksuotos problemos, susijusios su kiekio failo padėtis.
+- Fiksuoti išdavimą, kai kiekio produktų vertė būtų peršokama prie klaidingos vertės.
+- Išsamus problemą, dėl kurios įvestis į pirminį puslapį bus prarasta, kai bus automatiškai įvedamas informacijos puslapis.
+- Fiksuota problema, dėl kurios vietos rezervavimo ženklo tekstas turi būti laikomas iš pradžių pasirinkta verte pasirinkimo sąrašuose.
+- Patvirtinimo veiksmų mygtukas Pateikti dabar automatiškai įgalinamas, jei yra iš anksto pasirinktų verčių.
+- Fiksuota informacijos kortelė, kad būtų rodoma kuo daugiau eilučių teksto laukuose, kuriuose yra kelios eilutės.
+- Fiksuoti mygtukų Pateikti ir Daugiau veiksmų aukštį, kad dabar ekrane būtų mažiau vietos.
+- Įtraukta trūkstamų pasirinkimo sąrašo pavadinimų.
+- Nustatyta problema, dėl kurios nepavyko paleisti mygtuko Grįžti.
+- Įtraukta keletas klaviatūros naršymo pataisų ir patobulinimų, įskaitant šiuos puslapius:
+  - Vartotojo prisijungimas
+  - Pasirinkti ryšį
+  - Redaguoti ryšį
+- Fiksuota slinktis naudojant naršymą klaviatūra.
+- Patobulintas pritaikymas neįgaliesiems, įskaitant šiuos patobulinimus:
+  - Fiksuotos spalvos matomumas ir priešingai.
+  - Apsaugotas klaviatūros židinio netekimas, kai uždaromi laikinieji puslapiai.
+  - Prie aprašo pridėti klaidų pranešimai.
+  - Padidinę vietos rezervavimo ženklų verčių dydį veiksmo veiksmas.
+- Fiksuotas pasirinktinio senesnio puslapio pavyzdys demonstraciniu režimu.
+
+## <a name="version-20150"></a>2.0.15.0 versija
+
+Šioje versijoje pristatomos toliau pateiktos naujos funkcijos, klaidų taisymai ir patobulinimai:
+
+- Padidintas našumas išs taisant atminties išdavimą.
+- Išsamskite problemą, dėl kurios kai kurios laukų reikšmės nebuvo teisingai nauj tikros, kai buvo pasirinktos informacijos puslapyje.
 
 ## <a name="version-20140"></a>2.0.14.0 versija
 
@@ -32,20 +72,20 @@ ms.locfileid: "8007579"
 ## <a name="version-20130"></a>2.0.13.0 versija
 
 Šioje versijoje pristatomos toliau pateiktos naujos funkcijos, klaidų taisymai ir patobulinimai:
- 
+
 - Patobulintas paslinkimas tarp puslapių naudojant lygias animacijas.
 - Fiksuotas skaitiklio atsakas perbraukti judesius ir, kartais, ekrano užšaldymą.
 - Patobulintas tamsaus režimo tekstas ir fono spalvų deriniai, kad būtų lengviau perskaityti.
 - Fiksuoti problemą, dėl kurios kai kuris tekstas gali tapti labai mažas, kai iš naujo pakeičiamas programos langas.
-- Išsamskite problemą, kuri kartais gali sudužtėti programa, kai nuskaitomi brūkšniniai kodai.
+- Išsamskite problemą, kuri kartais gali sudužo programą nuskaitant brūkšninius kodus.
 - Pridėta galimybė pakeisti mygtuką.
 - Išs peržiūrėkite problemą, dėl kurios programa gali parodyti klaidos pranešimą. "AADSTS7000215: pateiktas netinkamas kliento slaptažodis."
 - Fiksuota užuominos sąkacija, rodanti, kaip uždaryti puslapį naudojant perbraukimą žemyn.
 - Pridėta galimybė uždaryti puslapį naudojant stel įkainį pagal vertę.
-- Išsamdoma problema, kai vartotojo parametrų puslapyje nebuvo rodomi **išplečiamojo sąrašo** pavadinimai.
+- Išsamdoma problema, kai vartotojo parametrų puslapyje nebuvo rodomi išplečiamojo **sąrašo** pavadinimai.
 - Išsaiskite lokalizavimo problemą, kai programa neatpažįsta kablelio (,) kaip dešimtainio skyriklio.
 - Pagerintas prieinamumas.
-- Fiksuoti naršymo sritį naujo **ryšio** puslapyje, kad būtų padidintas pritaikymas neįgaliesiems.
+- Fiksuoti naršymo sritį naujo ryšio **puslapyje,** kad būtų padidintas pritaikymas neįgaliesiems.
 - Išs tai yra problema, dėl kurios pasirenkant įvesties lauką nereikia rodoma švelniai (ekrane) klaviatūros vieta.
 - Išsamskite problemą, kuri gali sudužti programą, jei vartotojai greitai pa pakeis lango dydį.
 - Išs fiksuota problema, kai "Fast Keypress" kartais buvo aiškinama kaip ilgasis klavišas.
@@ -66,7 +106,7 @@ ms.locfileid: "8007579"
 - Išplėstinės išsamios informacijos kortelės.
 - Patobulintos meniu elemento veiksmų parinktys.
 - Smulkaus vartotojo sąsajos patobulinimai.
-- Išspręsta problema, dėl kurios nuskaitant brūkšninius kodus programa gali ssutrikti.
+- Išsamskite problemą, dėl kurios nuskaitant brūkšninius kodus programa gali sutrinti.
 - Išspręstos įvairios problemos, dėl kurių sistema galėjo nustoti reaguoti.
 
 ## <a name="version-20100"></a>2.0.10.0 versija

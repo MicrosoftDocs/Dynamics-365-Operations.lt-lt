@@ -2,7 +2,7 @@
 title: Mokesčių skaičiavimo apžvalga
 description: Šioje temoje paaiškinama bendroji Mokesčių skaičiavimo galimybės apimtis ir funkcijos.
 author: wangchen
-ms.date: 11/17/2021
+ms.date: 03/02/2022
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 1dff1767b8e19215a2b27f87c45325e6abd1266e
-ms.sourcegitcommit: f2a78e0d7d461ca843ac2f9abff7690275db9196
-ms.translationtype: HT
+ms.openlocfilehash: a02767e4a90fa6b7414c796d66e758afe0501cf5
+ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8105442"
+ms.lasthandoff: 03/05/2022
+ms.locfileid: "8388500"
 ---
 # <a name="tax-calculation-overview"></a>Mokesčių skaičiavimo apžvalga
 
@@ -58,6 +58,7 @@ Mokesčių skaičiavimas yra įdiegtas toliau nurodytose „Azure" geografinėse
 - Kanada
 - Europa
 - Japonija
+- Šveicarija
 - Jungtinė Karalystė
 - Jungtinės Valstijos
 
@@ -77,6 +78,7 @@ Rekomenduojame importuoti ir nustatyti savo mokesčių skaičiavimo konfigūraci
 | 10.0.23         | Mokesčių skaičiavimo konfigūracija 40.50.221 |
 | 10.0.24         | Mokesčių skaičiavimo konfigūracija 40.50.225 |
 | 10.0.25         | Mokesčių skaičiavimo konfigūracija 40.50.225 |
+| 10.0.26         | Mokesčių skaičiavimo konfigūracija 40.54.234 |
 
 
 ## <a name="data-flow"></a>Duomenų srautas
@@ -136,6 +138,11 @@ Papildinį Mokesčių skaičiavimas galima įgalinti naudojant operacijas.
 
 - Laisvos formos sąskaita faktūra
 
+10.0.26 versijoje palaikomos tolesnės operacijos. 
+
+- Pagrindiniai žurnalai
+- Tiekėjo SF žurnalas
+
 ## <a name="supported-countriesregions"></a>Palaikomos šalys / regionai
 
 Papildinį Mokesčių skaičiavimas gali įjungti juridinis subjektas. 
@@ -187,6 +194,12 @@ Papildinį Mokesčių skaičiavimas gali įjungti juridinis subjektas.
 10.0.24 versijoje palaikomos tolesnės juridinio subjekto pagrindinio adreso šalys / regionai.
 
 - Meksika
+
+10.0.26 versijoje palaikomos tolesnės juridinio subjekto pagrindinio adreso šalys / regionai.
+
+- Kinija
+- Čekijos Respublika
+- Ispanija
 
 ## <a name="related-resources"></a>Susiję ištekliai
 

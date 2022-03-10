@@ -2,7 +2,7 @@
 title: Vartotojo patirties personalizavimas
 description: Šiame straipsnyje paaiškinama, kaip galite personalizuoti programą.
 author: jasongre
-ms.date: 08/09/2021
+ms.date: 03/03/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,16 +15,20 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e3d126bf9ec5687d97dacc8763a221da656fdef1
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
-ms.translationtype: HT
+ms.openlocfilehash: 4bdce3cd12358112e40a783c73795bd6f35545c8
+ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7344379"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8384648"
 ---
 # <a name="personalize-the-user-experience"></a>Vartotojo patirties personalizavimas
 
 [!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Ši tema paaiškina, kaip galite personalizuoti programą ir apima tolesnius subjektus: 
 
@@ -119,7 +123,10 @@ Kai atidaroma įrankių juosta **Personalizavimas**, esamas puslapis skirtas tik
 
 - Įrankį **Pasirinkti** naudokite norėdami pasirinkti ir pakeisti elemento ypatybes. Norėdami naudoti šį įrankį, įrankių juostoje pasirinkite mygtuką **Pasirinkti**, tada pasirinkite norimą elementą. Elemento ypatybių langas pasirodo ten, kur galite keisti bet kurias šio elemento ypatybes. Galite pakartoti procesą su kitais puslapio elementais, kuriuos galima personalizuoti. Atkreipkite dėmesį, kad kai kuriais atvejais gali nebūti kai kurių personalizavimo ypatybių. Pavyzdžiui, negalite užrakinti reikiamo lauko.
 - Įrankį **Slėpti** naudokite norėdami paslėpti elementą puslapyje. Norėdami naudoti šį įrankį, įrankių juostoje pasirinkite mygtuką **Slėpti**, tada pasirinkite norimą paslėpti elementą. Jums naudojant **Slėpti** įrankį, visi elementai šiuo metu nepaslėpti yra rodomi, tačiau jie yra rodomi patamsėjusiame konteineryje. Tada galite padaryti elementą matomą jį pasirinkdami. Tam, kad pamatytumėte, kaip puslapis atrodys elementus paslėpus, perjunkite į kitą personalizavimo įrankį arba uždaryti personalizavimo įrankių juostą.
-- Naudokite **Įtraukti laukelius** įrankį tam, kad įtrauktumėte laukelius į savo puslapį. Kai naudojate šį įrankį, galite pridėti tik tuos laukus, kurie yra puslapio apibrėžimo dalis. Norėdami gauti informacijos apie tai, kaip sukurti naujų laukų, kurie nėra dabartinio puslapio apibrėžimo dalis, žr. [Pasirinktinių laukų kūrimas ir darbas su jais](user-defined-fields.md). Kai pasirenkate **Įtraukti laukelius** mygtuką įrankių juostoje, pirmiausia turite pasirinkti tinkelelį arba skyrių, kuriame norite įtraukti laukelius. Teksto laukelis rodys laukelių sąrašą, kuris yra susijęs su pasirinktu tinkleliu ar skyriumi. Teksto laukelyje pasirinkite vieną ar keltis įtraukiamus laukelius ir tuomet pasirinkite **Atnaujinti**. Norėdami pašalinti pirmiau įtrauktą lauką, pakartokite šį procesą, bet panaikinkite lauko žymėjimą dialogo lange.
+- Naudokite **Įtraukti laukelius** įrankį tam, kad įtrauktumėte laukelius į savo puslapį. Kai naudojate šį įrankį, galite įtraukti tik tuos laukus, kurie yra puslapio apibrėžimo dalis. Norėdami gauti informacijos apie tai, kaip sukurti naujų laukų, kurie nėra dabartinio puslapio apibrėžimo dalis, žr. [Pasirinktinių laukų kūrimas ir darbas su jais](user-defined-fields.md). Kai pasirenkate **Įtraukti laukelius** mygtuką įrankių juostoje, pirmiausia turite pasirinkti tinkelelį arba skyrių, kuriame norite įtraukti laukelius. Teksto laukelis rodys laukelių sąrašą, kuris yra susijęs su pasirinktu tinkleliu ar skyriumi. Dialogo lange pasirinkite vieną ar daugiau laukų, kuriuos norite pridėti iš laukų **Rekomenduojami laukai** ar **Visų laukų**. Pasirinkę norimus laukus, pasirinkite **Atnaujinti**. Norėdami pašalinti pirmiau įtrauktą lauką, pakartokite šį procesą, bet panaikinkite lauko žymėjimą dialogo lange.
+
+    **Rekomenduojamų laukų** sąraše rodomi laukai, kuriuos anksčiau pridėjo kiti jūsų organizacijos vartotojai. Šis laukų sąrašas atnaujinamas atsižvelgiant į rekomendacijos paketinės **užduoties pasikartojimo dažnumą**. Įtraukiant naujus filtro laukus naudojant puslapio sritį Filtras, atsiranda panaši patirtis.
+
 - Įrankį **Perkelti** naudokite norėdami perkelti elementą į kitą dabartinės elementų grupės vietą. Atkreipkite dėmesį, kad negalima perkelti elemento už jo pirminės grupės ribų. Norėdami naudoti šį įrankį, įrankių juostoje pasirinkite mygtuką **Perkelti**, tada pasirinkite norimą perkelti elementą. Pasirinkus elementą, programa nustato vietas, kur leidžiama perkelti elementą. Šios vietos vadinamos *nuvilkimo zonomis*. Velkant elementą dabartinėje grupėje kiekviena nuvilkimo zona rodoma kaip spalvota, paryškinta linija šalia srities, į kurią galima nuvilkti elementą.
 - Įrankį **Praleisti** naudokite norėdami pašalinti elementą iš puslapio klaviatūros tabuliavimo sekos. Paspaudus įrankių juostoje esantį mygtuką **Praleisti** visi šiuo metu praleisti elementai yra rodomi užtamsintame fone. Galite interaktyviai pašalinti arba įtraukti laukus į skirtukų seką.
 - Įrankį **Rodyti antraštėje** naudokite norėdami, kad laukas būtų rodomas „FastTab“ suvestinės skyriuje. Paspaudus įrankių juostoje esantį mygtuką **Rodyti antraštėje** visi pasirinkti suvestinės laukai rodomi užtamsintame fone. Galite interaktyviai įtraukti laukelius į „FastTab“ santrauką arba pašalinti laukelius iš santraukos pasirinkdami laukelius.
@@ -151,13 +158,20 @@ Kai kuriuose puslapiuose, kuriuose yra sąrašų, galima veiksmų srities skirtu
 
 - Norėdami įtraukti sąrašą į darbo sritį, pirmiausia surūšiuokite arba filtruokite puslapio sąrašą, kad informacija būtų rodoma taip, kaip norite, kad ji būtų rodoma darbo srityje. (Jei **Įrašytos peržiūros** funkcija yra įjungta, nebegalite tęsti kol įrašysite peržiūrą, turinčią šias sąlygas.) Tuomet pasirinkite **Įtraukti į darbo sritį**. Pasirinkite darbo sritį, o po to lauke **Pateiktis** paspauskite **Sąrašas**. Paspaudus **Konfigūruoti** rodomas dialogo langas, kuriame galite pasirinkti stulpelius, kurie turėtų būti rodomi darbo srities sąraše. Taip pat galite nurodyti darbo srities sąrašui naudojamą žymą.
 - Tam, kad įtrauktumėte plytą į darbo sritį, pirmiausia filtruokite sąrašą puslapyje taip, kad jis rodytų duomenis, kurie turi būti apibendrinti ir prie kurių norite prieiti greitai. (Jei **Įrašytos peržiūros** funkcija yra įjungta, nebegalite tęsti kol įrašysite peržiūrą, turinčią šias sąlygas.) Tuomet pasirinkite **Įtraukti į darbo sritį**. Pasirinkite darbo sritį, o po to lauke **Pateiktis** paspauskite **Išklotinės dalis**. Paspaudus **Konfigūruoti** rodomas dialogo langas, kuriame galite nurodyti darbo srities išklotinei naudojamą žymą. Taip pat galite nurodyti, ar išklotinėje turėtų būti rodomas skaičius. Po to, kai išklotinė įtraukiama į darbo sritį, galite pasirinkti ją, kad atidarytumėte dabartinį puslapį iš darbo srities. Tada galite peržiūrėti filtruotą sąrašą, susietą su išklotine.
-- Norėdami į darbo sritį įtraukti nuorodą, pirmiausia filtruokite puslapio sąrašą, kad jame būtų rodomi jus dominantys duomenys. (Jei **Įrašytos peržiūros** funkcija yra įjungta, nebegalite tęsti kol įrašysite peržiūrą, turinčią šias sąlygas.) Tuomet pasirinkite **Įtraukti į darbo sritį**. Pasirinkite darbo sritį, o po to lauke **Pateiktis** paspauskite **Nuoroda**. Paspaudus **Konfigūruoti** rodomas dialogo langas, kuriame galite nurodyti nuorodai naudojamą žymą. Arba galite nurodyti naujo skyriaus, kuriame yra ši nuoroda, žymą.
+    - Pradedama nuo 10.0.26 versijos, **jei** įgalinta parinkti ir pakeisti išklotinės dalies dydžių funkciją, **·** **naujai** išklotinės dalies dydžiui galite pasirinkti vieną iš keturių galimų išklotinės dalies dydžių. Tai galite padaryti dialogo lange Konfigūruoti išklotinę dalį. Ši funkcija taip pat leidžia koreguoti išklotinės dalies dydį po to, kai jis sukuriamas tiesiogiai iš darbo srities.   
+- Norėdami į darbo sritį įtraukti nuorodą, pirmiausia filtruokite puslapio sąrašą, kad jame būtų rodomi jus dominantys duomenys. (Jei **Įrašytos peržiūros** funkcija yra įjungta, nebegalite tęsti kol įrašysite peržiūrą, turinčią šias sąlygas.) Tuomet pasirinkite **Įtraukti į darbo sritį**. Pasirinkite darbo sritį, o po to lauke **Pateiktis** paspauskite **Nuoroda**. Paspaudus **Konfigūruoti** rodomas dialogo langas, kuriame galite nurodyti nuorodai naudojamą žymą. Taip pat galite pasirinktinai nurodyti skyriaus, kuriame gali būti padėtas šis saitas, žymą. Jei to skyriaus nėra, bus sukurtas naujas skyrius.
+
+> [!NOTE]
+> Konfigūruokite savo sąrašą, išklotinę dalį arba saitą 10.0.25 versijoje taip **pat gali tekti pasirinkti darbo srities rodinius, į kuriuos norite įtraukti elementą, jei įgalintas (peržiūra) įrašytas** darbo sričių funkcijos rodinių palaikymas. Galimi darbo srities rodiniai bus rodomi kiekvieno dialogo **lango** Konfigūruoti darbo srities **pasirinkčių** skyriuje. 
 
 Į darbo sritį įtraukę savo sąrašą, išklotinę arba nuorodą galite atidaryti tą darbo sritį ir pakeisti jos elementų išdėstymo tvarką.
 
 ### <a name="adding-a-summary-from-a-workspace-to-a-dashboard"></a>Suvestinės iš darbo srities įtraukimas į ataskaitų sritį
 
 Kai kuriose darbo srityse pateikiamos skaičių išklotinės (t. y. išklotinės, kuriose nurodomi skaičiai) ir gali būti, kad norėsite, jog tos išklotinės būtų rodomos ir jūsų ataskaitų srityje. Darbo srityje dešiniuoju pelės mygtuku spustelėkite skaičiavimo plytelę, pasirinkite **Personalizavimas**, tada išklotinės ypatybių lange pasirinkite **Prisegti prie ataskaitų srities**. Kitą kartą, kai atidarote ir perkraunate tvarkaraštį, skaičiavimas pasirodys po naršymo plytomis toje darbo srityje. Galite pasirinkti, kad tas skaičius būtų tiesiogiai perkeliamas į duomenis, kuriuos jis atitinka.
+
+### <a name="changing-the-size-of-a-tile"></a>Išklotinės dalies dydžio keitimas
+Nuo versijos 10.0.26 **leisite** vartotojams pasirinkti ir pakeisti išklotinės dalies dydžių funkciją, kad vartotojai galėtų modifikuoti bet kurios ne KPI išklotinės dalies dydį personalizuodami. Darbo srityje dešiniuoju pelės mygtuku spustelėkite išklotinę sritį ir pasirinkite Pritaikyti **asmeniniams poreikiams**. Išklotinės dalies ypatybės lange pasirinkite norimą dydį iš išklotinės dalies **dydžio pasirinkčių**. Išklotinės dalies dydis koreguos iš karto. Jei įgalintas **(Peržiūra) įrašytų rodinių** palaikymas darbo sričių funkcijai, galite įrašyti šį personalizavimą į darbo srities rodinį.  
 
 ### <a name="personalizing-your-dashboard"></a>Ataskaitų srities personalizavimas
 
@@ -219,7 +233,10 @@ Jei įrašyti rodiniai nėra įgalinti, personalizavimo kopijavimui atlikite ši
 
 Kitas būdas dalintis personalizavimas yra eksportavimas ir importavimas. Atskiri vartotojai arba administratorius, kuris veikia jų vardu, gali naudoti šį metodą norėdami eksportuoti savo personalizavimus ar rodinius ir suteikti eksportuotą failą kitiems vartotojams, kad jie būtų importuojami. Taip pat vartotojai gali suteikti eksportuotus personalizavimus vartotojui, kuris turi administratoriaus teises ir tada, norėdami pritaikyti personalizavimo failą daugeliui vartotojų tuo pačiu metu, gali naudoti personalizavimo administravimo **puslapį**.
 
-#### <a name="export"></a>Eksportavimas
+> [!IMPORTANT]
+> Kadangi personalizavimas išlieka atnaujinimų metu, visi personalizavimas iš naujo importuojamas po aptarnavimo naujinimo arba bet kuriuo kitu metu yra nereikalingi ir labai nesiningi.
+
+#### <a name="export"></a>Eksportuoti
 
 Tai yra galite eksportuoti vieną iš savo rodinių ar personalizavimo peržiūrų atidarydami atitinkamą puslapį, atidarydami personalizavimo įrankių **juostą** ir pasirinkdami **Eksportuoti**. Daugiau informacijos apie įrankių juostą ieškokite anksčiau šios [temos skyriuje](#personalization-toolbar) Personalizavimo įrankių juosta. Kitu atveju, jei [įrašyti rodiniai](saved-views.md) yra įgalinti, galite eiti į **parametrų \> Vartotojo parinktys \> Personalizavimas** norėdami peržiūrėti visų savo personalizavimų sistemoje sąrašą. Iš ten galite pasirinkti rodinius arba personalizavimus, kuriuos norite eksportuoti, tada pasirinkti **Eksportuoti**.
 
@@ -267,11 +284,8 @@ Klientams, kurie įjungė **Išsaugotų peržiūrų** funkciją, žr. „Perži�
 Klientams, kurie dar neįjungė [Išsaugotų peržiūrų](saved-views.md) funkcijos, šis puslapis turi keturis skirtukus:
 
 - **Taikyti**: galite importuoti arba pasirinkti personalizavimą vienam ar daugiau vartotojų. Norėdami personalizavimą taikyti vienam ar keliems vartotojams, pirmiausia pasirinkite vaidmenį ir vartotojus, kuriems tas vaidmuo suteiktas. Tada pasirinkite esamą personalizavimą, taikykite pasirinktiems vartotojams arba importuokite personalizavimo failą. Personalizavimas patikrinamas ir taikomas visiems pasirinktiems vartotojams, kai jie kitą kartą atidarys pasirinktą puslapį.
-
 - **Išvalyti**: galite išvalyti visus vieno ar kelių vartotojų puslapio ar darbo srities personalizavimus. Pirmiausia pasirinkite puslapį arba darbo sritį, kad būtų rodomas tą puslapį ar darbo sritį personalizavusių vartotojų sąrašas. Tada pažymėkite vartotojus, kurių puslapio ar darbo srities personalizavimą norėtumėte išvalyti, ir paspauskite **Valyti**. Panaikinami visi personalizavimai, kuriuos pasirinkti vartotojai taikė pasirinktam puslapiui arba darbo sričiai. Šio veiksmo anuliuoti negalima. Tačiau jei buvo įrašytas puslapio ar darbo srities personalizavimas, tokį personalizavimą galima importuoti iš naujo.
-
 - **Vartotojai**: pasirinkite vartotoją, kad būtų rodomas vartotojo personalizuotų puslapių sąrašas. Tada galite įjungti arba išjungti pasirinkto vartotojo galimybę jam naudotis konkrečių puslapių arba visos sistemos personalizavimais. Taip pat galite importuoti, eksportuoti arba išvalyti vartotojo personalizavimą. Be to, galite iš naujo nustatyti vartotojo funkcijų paaiškinimus. Tokiu atveju, jei vartotojas anksčiau atmetė visus iššokančiuosius langus, kurie supažindino su naujomis funkcijomis, jie bus rodomi dar kartą, kai vartotojas susidurs su šiomis funkcijomis.
-
 - **Sistema**: galite laikinai išjungti visų vartotojų sistemos personalizavimus. Šiuo atveju visi personalizavimai panaikinami visiems vartotojams, o visi puslapiai iš naujo nustatomi pagal numatytąją būseną. Jeigu vėliau vėl įjungsite personalizavimą, visi personalizavimai bus pritaikyti iš naujo. Taip pat galite visam laikui išjungti visus visų vartotojų sistemos personalizavimus. Panaikintų personalizavimų atkurti neįmanoma. Todėl prieš atlikdami šią užduotį būtinai eksportuokite visus personalizavimus, kurių vėliau gali prireikti.
 
 ## <a name="personalizing-inventory-dimensions"></a>Atsargų dimensijų personalizavimas

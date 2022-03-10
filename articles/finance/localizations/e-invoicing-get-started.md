@@ -2,7 +2,7 @@
 title: Darbo su elektroninių SF priedu pradžia
 description: Šioje temoje pateikiama informacija, kuri padės jums pradėti naudotis elektroninių SF išrašymo priedu „Microsoft Dynamics 365 Finance” ir „Dynamics 365 Supply Chain Management”.
 author: gionoder
-ms.date: 03/29/2021
+ms.date: 11/08/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 65944c3b73d5cecc8c86087729bcf8d2354c8f20
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
-ms.translationtype: HT
+ms.openlocfilehash: ebef9cf97f7a91e0a2fd45f5e0e0fc620070b42a
+ms.sourcegitcommit: 5033d42a2aac852916d726e40bd98a164d1a837d
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6340160"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "7983876"
 ---
 # <a name="get-started-with-electronic-invoicing"></a>Darbo su elektroninių SF priedu pradžia
 
@@ -40,14 +40,14 @@ Prieš užbaigdami procedūrą šioje temoje, būtina atlikti tolesnes išanksti
 ## <a name="import-an-electronic-invoicing-feature-from-the-microsoft-configuration-provider"></a>Importuoti elektroninės sąskaitos išrašymo funkciją iš „Microsoft“ konfigūravimo tiekėjo 
 
 1. Prisijungti prie savo reguliavimo kongigūravimo paslaugų (RCS) paskyros.
-2. RCS pasirinkus dalį **Funkcijos**, esančią darbo srityje **Funkcijos**, pasirinkite plytelę **Elektroninių SF priedas**.
+2. RCS pasirinkus dalį **Visuotinės funkcijos**, esančią darbo srityje **Funkcijos**, pasirinkite plytelę **Elektroninių SF priedas**.
 3. Pasirinkite **Importuoti** ir tada rinkitės **Sinchronizuoti**.
 4. Filtruokite **Konfigūravimo tiekėjas** stulpelį pagal sąvoką **„Microsoft“**.
 5. Rinkitės elektroninės sąskaitos funkcijos pavadinimą iš lentelės šios temos pradžioje ir tada rinkitės **Importuoti**.
 
 ## <a name="create-an-electronic-invoicing-feature-under-your-organization-provider"></a>Sukurkite elektroninių sąskaitų funkciją jūsų organizacijos tiekėjuje
 
-1. RCS pasirinkus dalį **Funkcijos**, esančią darbo srityje **Globalizacijos funkcija**, pasirinkite plytelę **Elektroninių SF priedas**.
+1. RCS pasirinkus dalį **Funkcijos**, esančią darbo srityje **Globalizacijos funkcijos**, pasirinkite plytelę **Elektroninių SF priedas**.
 2. Rinkitės **Įtraukti** > **Pagal esančią funkciją** ir laukelyje **Pavadinimas**, įveskite elektroninės sąskaitos funkcijos pavadinimą.
 3. Laukelyje **Aprašas** įveskite funkcijos aprašą.
 4. **Pagrindinės funkcijos laukelis**, rinkiės importuojamą elektroninės sąskaitos funkciją iš „Microsoft“ konfigūravimo tiekėjo.
@@ -57,7 +57,12 @@ Prieš užbaigdami procedūrą šioje temoje, būtina atlikti tolesnes išanksti
 
 Priklausomai nuo šalies ar regiono, elektroninės sąskaitos funkcijai gali reikėti konkretaus konfigūravimo. 
 
-Konkretiesm žingsniams, žr. „Pradžia“ dokumentus, kurie yra prieinami jūsų šaliai ar regionui.
+> [!NOTE]
+> Kai įgalinate Suomijos elektroninių SF išrašymo priemonę, peržvalgose nepalaikomi programai konkretūs parametrai. Norėdami išspręsti šią problemą, elektroninių ataskaitų **modulyje** peržiūrėkite pardavimo SF ir projekto SF formatų konfigūracijas. Rankiniu būdu nustatykite apskaičiuotą lauką **, kad $PaymentMethodSubstitution** susiejimą, **o tada susiekite šį lauką su lauku AndPaymentMeansCode** iš pardavimo SF ir projekto SF formatų.
+>
+> Kai įgalinate Italijos elektroninių SF išrašymo priemonę, peržvalgose nepalaikomi programai konkretūs parametrai. Norėdami išspręsti šią problemą elektroninio ataskaitų **modulyje** rankiniu būdu nustatykite apskaičiuotą konvertavimo $NaturaReverseCharge **lauką**.
+>
+> Su kitomis vietas susijusių konkrečių veiksmų ieškokite dokumentuose "Pradėti", kurie pasiekiami jūsų šalyje arba regione.
 
 ## <a name="import-the-model-mapping-configurations-from-electronic-reporting"></a>Importuokite modelių susiejimo konfigūracijas iš elektroninių ataskaitų
 
@@ -84,6 +89,7 @@ Konkretiesm žingsniams, žr. „Pradžia“ dokumentus, kurie yra prieinami jū
 | Norvegijos elektroninė SF (NO)    | <p>Kliento SF konteksto modelis</p><p>Sąskaitos faktūros modelis</p> |
 | Ispanijos elektroninė SF (ES)      | <p>Kliento SF konteksto modelis</p><p>Sąskaitos faktūros modelis</p> |
 | PEPPOL elektroninė SF            | <p>Kliento SF konteksto modelis</p><p>Sąskaitos faktūros modelis</p> |
+| Saudo Arabijos elektroninė SF (SA)| <p>Kliento SF konteksto modelis</p><p>Sąskaitos faktūros modelis</p> |
 
 
 ## <a name="configure-the-application-setup"></a>Konfigūruokite programos nustatymus
@@ -111,9 +117,10 @@ Konkretiesm žingsniams, žr. „Pradžia“ dokumentus, kurie yra prieinami jū
     | Nyderlandų elektroninė SF (NL)        | <p>Pardavimo sąskaita faktūra</p><p>Projekto SF</p> | <p>Kliento SF žurnalas</p><p>Projekto SF</p> |
     | Norvegijos elektroninė SF (NO)    | <p>Pardavimo sąskaita faktūra</p><p>Projekto SF</p> | <p>Kliento SF žurnalas</p><p>Projekto SF</p> |
     | Ispanijos elektroninė SF (ES)      | <p>Pardavimo sąskaita faktūra</p><p>Projekto SF</p> | <p>Kliento SF žurnalas</p><p>Projekto SF</p> |
-    | PEPPOL elektroninė SF            | <p>Pardavimo sąskaita faktūra</p><p>Projekto SF</p> | <p>Kliento SF žurnalas</p><p>Projekto SF</p> |
+    | PEPPOL elektroninė SF            | <p>Pardavimo sąskaita faktūra</p><p>Projekto sąskaita faktūra</p> | <p>Kliento SF žurnalas</p><p>Projekto sąskaita faktūra</p> |
+    | Saudo Arabijos elektroninė SF (SA)| <p>Pardavimo SF</p><p>Projekto sąskaita faktūra</p> | <p>Kliento SF žurnalas</p><p>Projekto sąskaita faktūra</p> |
 
-7. Kiekvienam jūsų sukurtos lentelės pavadinimui, pasirinkite ir įveskite konteksto vertę pagal tolesnę lentelę.
+6. Kiekvienam jūsų sukurtos lentelės pavadinimui, pasirinkite ir įveskite konteksto vertę pagal tolesnę lentelę.
 
     | Funkcijos pavadinimas                         | Verslo dokumentas | Kontekstas |
     |--------------------------------------|-------------------|---------|
@@ -133,8 +140,9 @@ Konkretiesm žingsniams, žr. „Pradžia“ dokumentus, kurie yra prieinami jū
     | Norvegijos elektroninė SF (NO)    | <p>Pardavimo sąskaita faktūra</p><p>Projekto SF</p> | <p>Kliento sąskaitos konteksto modelis - Kliento sąskaitos kontekstas</p><p>Kliento sąskaitos konteksto modelis - Projekto sąskaitos kontekstas</p> |
     | Ispanijos elektroninė SF (ES)      | <p>Pardavimo sąskaita faktūra</p><p>Projekto SF</p> | <p>Kliento sąskaitos konteksto modelis - Kliento sąskaitos kontekstas</p><p>Kliento sąskaitos konteksto modelis - Projekto sąskaitos kontekstas</p> |
     | PEPPOL elektroninė SF            | <p>Pardavimo sąskaita faktūra</p><p>Projekto SF</p> | <p>Kliento sąskaitos konteksto modelis - Kliento sąskaitos kontekstas</p><p>Kliento sąskaitos konteksto modelis - Projekto sąskaitos kontekstas</p> |
+    | Saudo Arabijos elektroninė SF (SA)| <p>Pardavimo SF</p><p>Projekto sąskaita faktūra</p> | <p>Kliento sąskaitos konteksto modelis - Kliento sąskaitos kontekstas</p><p>Kliento sąskaitos konteksto modelis - Projekto sąskaitos kontekstas</p> |
 
-8. Kiekvienam lentelės pavadinimu ir kontekstui, rinkitės ir įveskite verslo dokumentų žemėlapio vertę pagal tolesnę lentelę.
+7. Kiekvienam lentelės pavadinimu ir kontekstui, rinkitės ir įveskite verslo dokumentų žemėlapio vertę pagal tolesnę lentelę.
 
     | Funkcijos pavadinimas                         | Verslo dokumentas | Verslo dokumentų susiejimas |
     |--------------------------------------|-------------------|---------------------------|
@@ -154,6 +162,7 @@ Konkretiesm žingsniams, žr. „Pradžia“ dokumentus, kurie yra prieinami jū
     | Norvegijos elektroninė SF (NO)    | <p>Pardavimo sąskaita faktūra</p><p>Projekto SF</p> | <p>Sąskaitos modelio žemėlapis - Projekto sąskaitos kontekstas</p><p>Sąskaitos modelio žemėlapis - Projekto sąskaita</p> |
     | Ispanijos elektroninė SF (ES)      | <p>Pardavimo sąskaita faktūra</p><p>Projekto SF</p> | <p>Sąskaitos modelio žemėlapis - Projekto sąskaitos kontekstas</p><p>Sąskaitos modelio žemėlapis - Projekto sąskaita</p> |
     | PEPPOL elektroninė SF            | <p>Pardavimo sąskaita faktūra</p><p>Projekto SF</p> | <p>Sąskaitos modelio žemėlapis - Projekto sąskaitos kontekstas</p><p>Sąskaitos modelio žemėlapis - Projekto sąskaita</p> |
+    | Saudo Arabijos elektroninė SF (SA)| <p>Pardavimo SF</p><p>Projekto sąskaita faktūra</p> | <p>Sąskaitos modelio žemėlapis - Projekto sąskaitos kontekstas</p><p>Sąskaitos modelio žemėlapis - Projekto sąskaita</p> |
 
 
 ## <a name="country-specific-configuration-of-application-setup"></a>Šaliai konkreti programos nustatymo konfigūracija
@@ -177,11 +186,11 @@ Konkretiesm žingsniams, žr. „Pradžia“ dokumentus, kurie yra prieinami jū
 ## <a name="deploy-the-electronic-invoicing-feature-to-connected-application"></a>Elektroninių SF išrašymo funkcijos talpinimas į susietą programą
 
 1. Skirtuke **Versijos** rinkitės elektroninės sąskaitos funkcijos versiją, kurią norite talpinti.
-4. Rinkitės **Talpinkite**.
-5. Nustatykite **Talpinti į susietą programą** parinktį į **Taip**.
-6. Laukelyje **Sujungti programą** rinkitės sujungimą, kuris yra susietas su jūsų elementu „Finance“ ar „Supply Chain Management“.
-7. Nustatykite **Talpinti į paslaugų aplinką** parinktį į **Ne**.
-10. Pasirinkite **Gerai**.
+2. Rinkitės **Talpinkite**.
+3. Nustatykite **Talpinti į susietą programą** parinktį į **Taip**.
+4. Laukelyje **Sujungti programą** rinkitės sujungimą, kuris yra susietas su jūsų elementu „Finance“ ar „Supply Chain Management“.
+5. Nustatykite **Talpinti į paslaugų aplinką** parinktį į **Ne**.
+6. Pasirinkite **Gerai**.
 
 ## <a name="turn-on-the-electronic-invoicing-feature-in-finance-or-supply-chain-management"></a>Įsijunkite elektroninės sąskaitos funkciją „Finance“ ar „Supply Chain Management“
 
@@ -205,15 +214,17 @@ Konkretiesm žingsniams, žr. „Pradžia“ dokumentus, kurie yra prieinami jū
     | NF-e federalinės Brazilijos elektroninės sąskaitos (BR)      | Brazilija          |
     | NFS-e – Brazilijos paslaugų (miesto) elektroninė sąskaita faktūra   | Brazilija          |
     | Norvegijos elektroninė SF (NO)                     | Norvegija          |
-    | PEPPOL elektroninė SF                             | Bendroji          |
+    | PEPPOL elektroninė SF                             | Bendras          |
     | Ispanijos elektroninė SF (ES)                       | Ispanija           |
+    | Saudo Arabijos elektroninė SF (SA)                 | Saudo Arabija    |
+    
 
 4. Pasirinkite **Įrašyti**.
 
 ## <a name="issue-electronic-invoices"></a>Išduoti elektronines sąskaitas
 
 1. Eikite į **Organizacijos administravimas** \> **Periodinė** \> **Elektroniniai dokumentai** \> **Pateikti elektroninius dokumentus**.
-2. „FastTab“ **Įrašyti siekiant įtraukti** rinkitės **Filtras**.
+2. „FastTab„ **Įtrauktini įrašai** pasirinkite **Filtruoti**.
 3. Rinkitės **Įtraukti** tam, kad įtrauktumėte lentelės pavadinimą į laukimo filtrą.
 4. Rinkitės lentelę, kurioje yra sąskaitos.
 
@@ -235,6 +246,14 @@ Konkretiesm žingsniams, žr. „Pradžia“ dokumentus, kurie yra prieinami jū
 
 3. Rinkitės sąskaitą tinklelyje ir tada rinkitės **Teirautis** \> **Teikimo išsami informacija**.
 
+## <a name="download-an-electronic-document-file"></a>Elektroninio dokumento failo atsisiuntimas
+
+1. Eikite į **Organizacijos administravimas** \> **Periodinė** \> **Elektroniniai dokumentai** \> **Elektroninio dokumento teikimo žurnalas**.
+2. Laukelyje **Dokumento tipas** rinkitės lentelę, kurioje yra sąskaitos.
+3. Tinklelyje pasirinkite dokumentą, tada pasirinkite Elektroninio dokumento **atsisiuntimo** \> **failas.** Bus pasiūlyta atsisiųsti archyvą, kuriame yra elektroninio dokumento failas.
+
+> [!NOTE]
+> Kad būtų galima atsisiųsti failus, **RCS** programos elektroninių SF išrašymo funkcijos nustatyme turi būti įjungta susijusio veiksmo eksportavimo rezultatų pasirinktis.
 
 ## <a name="related-topics"></a>Susijusios temos
 
@@ -242,8 +261,9 @@ Konkretiesm žingsniams, žr. „Pradžia“ dokumentus, kurie yra prieinami jū
 - [Darbo su elektroninių SF priedu tarnybos administravimui pradžia](e-invoicing-get-started-service-administration.md)
 - [Darbo su elektroninių SF priedu Brazilijai pradžia](e-invoicing-bra-get-started.md)
 - [Darbo su elektroninių SF priedu Meksikai pradžia](e-invoicing-mex-get-started.md)
-- [Darbo su elektroninių SF priedu Italijai pradžia](e-invoicing-ita-get-started.md)
+- [Darbo su elektroninių SF išrašymu Italijai pradžia](e-invoicing-ita-get-started.md)
 - [Kliento elektroninės sąskaitos faktūros Egipte](emea-egy-e-invoices.md)
+- [Kliento elektroninės sąskaitos faktūros Saudo Arabijoje](emea-sau-e-invoices.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

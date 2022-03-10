@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 5e139b7b12b8f2e549fb9c2c8e39125e190c7396
-ms.sourcegitcommit: 4d52c67f52ad0add63cd905df61367b344389069
-ms.translationtype: HT
+ms.openlocfilehash: 0c62e11cc6d39c351321419bb862a5169b162fb7
+ms.sourcegitcommit: d2e5d38ed1550287b12c90331fc4136ed546b14c
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8311984"
+ms.lasthandoff: 02/25/2022
+ms.locfileid: "8349722"
 ---
 # <a name="online-and-offline-point-of-sale-pos-operations"></a>Elektroninio kasos aparato (EKA) operacijos, prisijungus ir neprisijungus prie interneto
 
@@ -105,7 +105,7 @@ Toliau pateiktuose stulpeliuose nurodoma, kur galima iškviesti operacijas.
 | 517 | Pajamų sąskaitos | Įrašyti pinigus, įdėtus į kasos stalčių dėl bet kurios priežasties, išskyrus pirkimą. | Taip | Taip | Taip | Taip | Ne |
 | 801 | Atsargų peržvalga | Ieškokite pasiekiamo, užsakyme pateikto ir prieinamų atsargų (ATP) kiekio, esančio dabartinėje parduotuvėje ir kitose pasiekiamose vietose. | Taip | Taip | Taip | Ne | Ne |
 | 806 | Atsargų koregavimas | Koreguokite atsargas į parduotuvės sandėlį arba iš jo, naudodami koregavimo arba judėjimo žurnalą. | Taip | Taip | Taip | Ne | Ne |
-| 807 | Atsargų judėjimas | Perkelti prekes iš vienos atsargų vietos į kitą parduotuvės sandėlyje. | Taip | Taip | Taip | Ne | Ne |
+| 807 | Atsargų perkėlimas | Perkelti prekes iš vienos atsargų vietos į kitą parduotuvės sandėlyje. | Taip | Taip | Taip | Ne | Ne |
 | 122 | SF komentaras | Įveskite komentarą apie dabartinę operaciją. | Taip | Taip | Ne | Taip | Ne |
 | 511 | Išduoti kredito pažymą | Išduokite kredito pažymą, kad vietoje grąžinimo pateiktumėte kvitą. | Taip | Taip | Ne | Ne | Ne |
 | 512 | Išduoti dovanų kortelę | Išduokite naują nurodytam kiekiui skirtą dovanų kortelę. | Taip | Taip | Ne | Ne | Ne |
@@ -159,7 +159,7 @@ Toliau pateiktuose stulpeliuose nurodoma, kur galima iškviesti operacijas.
 | 305 | Panaudoti lojalumo taškus | Ši operacija nepalaikoma. | Netaikoma | Netaikoma | Netaikoma | Netaikoma | Taip |
 | 635 | Grąžinti siuntimo išlaidas | Grąž grąž inkite siuntimo išlaidas atšauktame užsakyme. | Ne | Ne | Ne | Ne | Ne |
 | 644 | Pašalinti kupono kodą | Paraginkite vartotoją pašalinti kuponus juos pasirenkant iš kuponų, susietų su operacija, sąrašo. | Taip | Taip | Ne | Taip | Ne |
-| 1057 | Perspausdinti Z | Iš naujo atsispausdinkite ankstesnės arba pasirinktos pamainos Z ataskaitą. | Taip | Taip | Taip | Ne | Ne |
+| 1057 | Perspausdinti Z | Iš naujo spausdinti ankstesnės pamainos Z ataskaitą. | Taip | Taip | Taip | Ne | Ne |
 | 1216 | Įveskite naują slaptažodį | Ši operacija leidžia vartotojui, turinčiam slaptažodžio nustatymo iš naujo teisę, iš naujo nustatyti kito darbuotojo slaptažodį naudojant laikinąjį slaptažodį. | Taip | Taip | Taip | Ne | Ne |
 | 1219 | URL atidarymas EKA | Atidarykite administratoriaus sukonfigūruotą URL EKA. | Taip | Taip | Taip | Taip | Ne |
 | 109 | Grąžinti produktą | Atlikti konkrečių produktų grąžinimo operaciją. Kitas nuskaitytas produktas rodomas kaip grąžintas produktas, kurio kiekis ir kaina yra neigiami. | Taip | Taip | Ne | Taip | Ne |

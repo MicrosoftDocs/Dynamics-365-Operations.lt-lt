@@ -2,13 +2,13 @@
 title: Tiekėjų sąskaitų faktūrų apžvalga
 description: Šioje temoje pateikiama bendra informacija apie tiekėjo SF.
 author: abruer
-ms.date: 06/03/2021
-ms.topic: article
+ms.date: 02/25/2022
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: VendorInvoiceWorkspace, VendInvoiceInfoListPage
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom:
 - "13971"
 - intro-internal
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3fac6a0232f7e51e859fcc5b23244be092ce8d76123ec42f586063a02abab603
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: b54a60ac3b1868ea7cc5ed88d5a31203b4bd29d3
+ms.sourcegitcommit: 9cbff8a2cdeaf606488fb0044b3de4ab4409c9dc
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722796"
+ms.lasthandoff: 02/26/2022
+ms.locfileid: "8358446"
 ---
 # <a name="vendor-invoices-overview"></a>Tiekėjų sąskaitų faktūrų apžvalga
 
@@ -51,10 +51,10 @@ Toliau pateikiamame aptarime pateikiama daugiau informacijos apie tai, kaip naud
 
 Jums atvėrus tiekėjo sąskaitą iš susijusio užsakymo, sistema sukuria sąskaitos eilutes iš perkybos užsakymo. Pagal nutylėjimą, sistema paima kiekius iš produkto kvito. Tačiau galite naudoti bet kurią iš toliau nurodytų numatytųjų veiksenų.
 
-- **Dabartinio gavimo kiekis** – šią parinktį naudokite dalinėms siuntoms. Sistema nustato numatytą vertę **Kiekyje** iš kiekio nurodyto **Gauta dabar** laukelyje pirkimo užsakyme.
-- **Užsakytas kiekis** – šią parinktį naudokite baigtoms siuntoms. Sistema nustato numatytą vertę **Kiekyje** iš kiekio nurodyto **Užsakyta** laukelyje pirkimo užsakyme.
+- **Dabartinio gavimo kiekis** – šią parinktį naudokite dalinėms siuntoms. Numatytoji vertė lauke **Kiekis** bus nustatyta kaip pirkimo užsakymo lauke **Gauti dabar** nurodytas kiekis.
+- **Užsakytas kiekis** – šią parinktį naudokite baigtoms siuntoms. Numatytoji lauko **Kiekis** vertė bus nustatyta kaip kiekis, nurodytas **pirkimo užsakymo** lauke Užsakyta.
 - **Užregistruotas kiekis** – šią parinktį naudokite, jei prekę reikia registruoti, kaip nurodyta **Prekių modelių grupių** puslapyje. Numatytoji reikšmė lauke **Kiekis** yra fizinis užregistruotas naujinimo kiekis.
-- **Produkto gavimo kvito kiekis** – šią parinktį naudokite, jei jau gautas užsakymo produkto gavimo kvitas. Sistema paima numatytąją vertę **Kiekio** laukelyje iš bendro esamų produkto kvitų kiekio.
+- **Produkto gavimo kvito kiekis** – šią parinktį naudokite, jei jau gautas užsakymo produkto gavimo kvitas. Numatytoji vertė lauke **Kiekis** yra bendras galimų produkto gavimo kvitų kiekis.
 - **Užregistruotas kiekis ir paslaugos** – šią parinktį naudokite, jei gavimo žurnaluose užregistruoti atsargose laikomų arba nelaikomų prekių kiekiai. Ši parinktis taip pat apima paslaugas, nepaisant, ar jos užregistruotos.
 
 Jei jūsų juridinis subjektas naudoja SF gretinimą, kiekio gretinimo rezultatus galite peržiūrėti **Produkto gavimo kvito kiekio gretinimo** stulpelyje. Norėdami peržiūrėti kiekio gretinimo rezultatus, taip pat galite naudoti mygtuką **Gretinimo informacija**, esantį veiksmų srities skirtuke **Peržiūra**.
@@ -65,19 +65,16 @@ Jei jūsų juridinis subjektas naudoja SF gretinimą, kiekio gretinimo rezultatu
 
 ## <a name="submitting-a-vendor-invoice-for-review"></a>Tiekėjo SF pateikimas peržiūrai
 
-Jūsų organizacija gali naudoti darbo eigas, kad galėtų valdyti tiekėjų SF peržiūros procesą. Darbo eigos peržiūros gali būti reikalaujama sąskaitos faktūros antraštei, sąskaitos faktūros eilutei arba abiem. Darbo eigos valdikliai taikomi antraštei arba eilutei, tai priklauso nuo židinio vietos pasirenkant valdiklį. Vietoje **Publikavimo** mygtuko, **Pateikimo** mygtukas rodo nusiųstą tiekėjo sąskaitą per peržiūros procesą.
+Jūsų organizacija gali naudoti darbo eigas, kad galėtų valdyti tiekėjų SF peržiūros procesą. Darbo eigos peržiūros gali būti reikalaujama sąskaitos faktūros antraštei, sąskaitos faktūros eilutei arba abiem. Darbo eigos valdikliai taikomi antraštei arba eilutei, tai priklauso nuo židinio vietos pasirenkant valdiklį. Vietoj mygtuko **Registruoti**, pateikimo **mygtukas** siunčia tiekėjo SF peržiūros proceso metu.
 
 ### <a name="preventing-invoice-from-being-submitted-to-workflow"></a>Apsauga, kad SF nebūtų pateikta į darbo eigą 
 
 Toliau pateikiami keli būdai, kaip galima išvengti SF pateikimo į darbo eigą.
 
-- **Bendroji SF suma ir užregistruota bendroji suma nėra lygios.** Asmuo pateikęs sąskaitą gaus įspėjimą, kad bendros sumos nesutampa. Įspėjime pateikta galimybė taisyti balansus prieš pateikiant sąskaitą į darbo eigą dar kartą. Ši funkcija galima tik tada, kai parametras **Uždrausti pateikti į darbo eigą, kai sąskaitos faktūros ir registruotos sąskaitos faktūros sumos nesutampa** puslapyje **Funkcijų valdymas** yra įjungtas. 
-
+- **Bendroji SF suma ir užregistruota bendroji suma nėra lygios.** Asmuo pateikęs SF gaus įspėjimą, kad bendros sumos nesutampa. Įspėjime pateikta galimybė taisyti balansus prieš pateikiant sąskaitą į darbo eigą dar kartą. Ši funkcija galima tik tada, kai parametras **Uždrausti pateikti į darbo eigą, kai sąskaitos faktūros ir registruotos sąskaitos faktūros sumos nesutampa** puslapyje **Funkcijų valdymas** yra įjungtas. 
 - **SF yra nepriskirtų išlaidų.** Asmuo, kuris pateikė SF, gaus įspėjimą, kad sąskaitoje yra nepriskirtų išlaidų, todėl jis galės pakoreguoti SF prieš pateikdamas ją į darbo eigą. Ši funkcija galima tik tada, kai parametras **Uždrausti pateikti į darbo eigą, kai tiekėjo SF yra nepriskirtų išlaidų** puslapyje **Funkcijų valdymas** yra įjungtas.
-
 - **SF numeris yra toks pats kaip kitos užregistruotos SF.** Asmuo, kuris pateikė sąskaitą faktūrą, gaus pranešimą, nurodantį, kad rasta SF su dublikato numeriu. Dublikato numeris gali būti pataisytas prieš iš naujo pateikiant SF darbo eigai. Šis pranešimas bus rodomas kai **Tikrinti sąskaitos numerį naudotą** parametras mokėtinose Sąskaitose yra nustatytas **Atmestas dublikatas**. Ši funkcija galima, jei parametras **Drausti pateikimą į darbo eigą, kai SF numerį jau turi kita užregistruota SF, o sistema nenustatyta, kad leistų priimti dubliuotus SF numerius** puslapyje **Funkcijų valdymas** yra įjungtas.
-
-- **Sąskaitoje faktūroje yra eilutė, kurioje SF kiekis yra mažesnis nei atitinkamas produkto gavimo kvitų kiekis.** Asmuo, kuris pateikia arba bando registruoti sąskaitą faktūrą, gaus pranešimą, kad kiekiai nėra lygūs. Šis pranešimas suteikia galimybę pataisyti vertes prieš pateikiant sąskaitą į darbo eigą dar kartą. Ši funkcija galima, jei **Tiekėjo sąskaitų faktūrų registravimo ir pateikimo darbo eigai** parametras yra įjungtas **Funkcijų valdymo** puslapyje, o **Registravimo ir pateikimo darbo eigai** parametras įjungtas **Mokėtinų sumų parametrų** puslapyje.  
+- **Sąskaitoje faktūroje yra eilutė, kurioje SF kiekis yra mažesnis nei atitinkamas produkto gavimo kvitų kiekis.** Asmuo, kuris pateikia arba bando registruoti sąskaitą faktūrą, gaus pranešimą, kad kiekiai nėra lygūs. Šis pranešimas suteikia galimybę pataisyti vertes prieš pateikiant sąskaitą į darbo eigą dar kartą. Ši funkcija galima, jei **Tiekėjo sąskaitų faktūrų registravimo ir pateikimo darbo eigai** parametras yra įjungtas **Funkcijų valdymo** puslapyje, o **Registravimo ir pateikimo darbo eigai** parametras įjungtas **Mokėtinų sumų parametrų** puslapyje.
 
 ## <a name="matching-vendor-invoices-to-product-receipts"></a>Tiekėjo SF ir produkto gavimo kvitų gretinimas
 
@@ -105,7 +102,7 @@ Galite nurodyti, kiek SF turi būti įtraukta į paketą, ir valandų skaičių,
 
 ## <a name="working-with-multiple-invoices"></a>Darbas su keliomis SF
 
-Vienu metu galite dirbti su keliomis sąskaitomis faktūromis ir registruoti jas visas vienu metu. Jei turite sukurti kelias SF, naudokite **Laukiančių tiekėjo SF** puslapį. Jei turite registruoti ir spausdinti kelias tiekėjo SF, naudokite SF patvirtinimo žurnalą. Jei naudojate SF patvirtinimo žurnalą, turi būti registruotas bent vienas pirkimo užsakymo produkto gavimo kvitas, o pirkimo SF turi būti registruota SF registre. SF finansinė informacija gaunama iš SF, kuri buvo užregistruota registre.
+Vienu metu galite dirbti su keliomis sąskaitomis faktūromis ir registruoti jas visas vienu metu. Jei turite sukurti kelias SF, naudokite **Laukiančių tiekėjo SF** puslapį. Jeigu turite užregistruoti ir išspausdinti kelias tiekėjo SF, naudokite SF **patvirtinimo žurnalą**. Jei naudojate SF patvirtinimo **žurnalą**, turi būti užregistruotas bent vienas pirkimo užsakymo produkto gavimo kvitas, o pirkimo užsakymo SF turi būti užregistruota SF registre. SF finansinė informacija gaunama iš SF, kuri buvo užregistruota registre.
 
 ## <a name="recovering-vendor-invoices-that-are-being-used"></a>Naudojamų tiekėjo SF atkūrimas
 
@@ -122,9 +119,32 @@ Bus nurodyta darbo eigos egzemplioriaus, kuris buvo sustabdytas dėl neištaisom
 Naudodamiesi puslapiu **Tiekėjo SF darbo eigos būsenos nustatymas iš naujo** galite iš naujo nustatyti darbo eigos būseną **Juodraštis**. Šį puslapį galite atidaryti iš **Tiekėjo SF** arba **Bendra > Užklausos > Darbo eiga**. Norėdami iš naujo nustatyti darbo eigos būseną į **Juodraštis**, pasirinkite **Atšaukti**. Taip pat galite iš naujo nustatyti darbo eigos būseną į „Juodraštis“, pasirinkdami veiksmą **Atšaukti** puslapyje **Tiekėjo SF** arba **Laukiančios tiekėjo SF**. Iš naujo nustačius darbo eigos būseną **Juodraštis**, ją galima redaguoti puslapyje **Tiekėjo SF**.
 
 ## <a name="viewing-the-invoice-total-on-the-pending-vendor-invoices-page"></a>SF sumos peržiūra puslapyje Laukiančios tiekėjo SF
+
 SF sumą galite peržiūrėti puslapyje **Laukiančios tiekėjo SF**, įjungdami puslapio **Mokėtinos sumos** parametrą **Laukiančių tiekėjo SF sąraše rodyti bendrą SF sumą**. 
 
+## <a name="vendor-open-transactions-report"></a>Tiekėjo atidarytų operacijų ataskaita
 
+**Tiekėjo atvirų operacijų** ataskaita pateikia išsamią informaciją apie atviras kiekvieno tiekėjo operacijas nuo jūsų nurodytos datos. Ši ataskaita dažnai naudojama audito procedūros metu balansams tarp tiekėjo užsakytų operacijų ir DK sąskaitos operacijų tikrinimui.
+
+Kiekvienos operacijos ataskaitoje pateikiama ši informacija:
+
+- Sąskaitos faktūros numeris
+- Operacijos data
+- Kvito numeris
+- Operacijos suma operacijos valiuta ir apskaitos valiuta
+- Kredito balansas operacijos valiuta ir apskaitos valiuta
+- Debeto balansas operacijos valiuta ir apskaitos valiuta
+- Tarpinė suma, išreikšta apskaitos valiuta
+- Mokėjimo terminas
+
+### <a name="filter-the-data-on-the-report"></a>Ataskaitoje pateikiamų duomenų filtravimas
+
+Kai generuojate **Tiekėjo atvirų operacijų** ataskaitą, galimi šie numatytieji parametrai. Juos galite naudoti norėdami filtruoti duomenis, kurie bus įtraukti į ataskaitą.
+
+- **Neįtraukti būsimo sudengimo** – Pasirinkite šį žymės langelį, jei norite neįtraukti operacijų, kurios sudengtos po datos, įvestos laukelyje **Atviros operacijos per**.
+- **Atviros operacijos per** – įveskite datą, iki kurios norite įtraukti atviras operacijas. Jei neįvesite datos, šiame lauke bus nustatyta maksimali data. (Maksimali data yra vėliausia data, kurią sistema priims, 2154 m. gruodžio 31 d.) Pagal numatytuosius nustatymus, kitą kartą paleidus ataskaitą, šis laukas bus nustatytas pagal paskutinę įvestą datą.
+
+Norėdami dar labiau sumažinti į ataskaitą įtrauktų operacijų duomenis, galite naudoti **Įtraukti įrašus** lauką.
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 

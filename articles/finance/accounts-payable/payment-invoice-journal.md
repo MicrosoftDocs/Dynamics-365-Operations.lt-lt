@@ -1,6 +1,6 @@
 ---
-title: Taikykite mokėjimo grafiką sąskaitų faktūrų žurnale
-description: Šioje temoje aprašoma, kaip įtraukti mokėjimą į tiekėjo sąskaitų faktūrų žurnalą.
+title: Mokėjimų grafiko taikymas SF žurnalui
+description: Šioje temoje aprašoma, kaip pridėti mokėjimą į tiekėjo SF žurnalą.
 author: sunfzam
 ms.date: 01/31/2022
 ms.topic: article
@@ -15,37 +15,34 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2021-08-30
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: bd288ac48ef59d8e2a4e0922aa652276dddb666d
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
-ms.translationtype: HT
+ms.openlocfilehash: f6481c3fc033acf4bb563bf1716789216646b60b
+ms.sourcegitcommit: 9cbff8a2cdeaf606488fb0044b3de4ab4409c9dc
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8075737"
+ms.lasthandoff: 02/26/2022
+ms.locfileid: "8358344"
 ---
-# <a name="apply-a-payment-schedule-to-the-invoice-journal"></a>Taikykite mokėjimo grafiką sąskaitų faktūrų žurnale
+# <a name="apply-a-payment-schedule-to-the-invoice-journal"></a>Mokėjimų grafiko taikymas SF žurnalui
 
 [!include [banner](../includes/preview-banner.md)]
 
-„Microsoft“.Dynamics 365 Finance leidimas 10.0.25, mokėjimo grafikas dabar palaikomas tiekėjo sąskaitų faktūrų žurnale.
+Programoje Microsoft Dynamics 365 Finance release 10.0.25 mokėjimo grafikas dabar palaikomas **tiekėjo SF žurnale**.
 
-Norėdami naudoti šią funkciją, turite įjungti **Taikyti mokėjimo grafiką sąskaitų faktūrų žurnale** Funkcijų valdymo funkcija.
+Norėdami naudoti šią funkciją, funkcijų valdymo srityje turite įjungti **mokėjimo grafiko taikykite SF** žurnalo funkciją.
 
-Įjungus funkciją, naujas **Mokėjimo planas** laukas pridedamas prie **Sąskaitų faktūrų žurnalas** puslapį. Kai kuriate sąskaitos faktūros žurnalo eilutę, jei mokėjimo sąlygos palaikomos tiekėjui, o mokėjimo sąlygos pasirenkamos mokėjimo grafike, **Mokėjimo planas** laukas atnaujintas **Sąskaitų faktūrų žurnalas** puslapį.
+Įgalinus funkciją, į SF žurnalo **puslapį** įtraukiamas naujas mokėjimų **grafiko** laukas. Kai kuriate SF žurnalo eilutę, jei mokėjimo sąlygos tvarkomos tiekėjui ir mokėjimo grafike pasirinktos mokėjimo sąlygos, **·** **mokėjimo grafiko laukas atnaujinamas SF žurnalo** puslapyje.
 
-Naudojamą mokėjimo grafiką galite pakeisti pagal savo verslo poreikius. Tiekėjo sąskaitų faktūrų žurnalo registravimo metu tiekėjo atviros operacijos bus sukurtos pagal mokėjimo grafiką.
+Galite keisti naudojamą mokėjimo grafiką, atsižvelgiant į savo verslo poreikius. Registruojant tiekėjo SF žurnalą, atviros tiekėjo operacijos bus kuriamos pagal mokėjimo grafiką.
 
-Norėdami peržiūrėti kelias atidarytas tiekėjo operacijas, kurios buvo sugeneruotos pagal mokėjimų tvarkaraštį, eikite į **Mokėtinos sąskaitos \> Sąskaitos faktūros \> Atidaryti tiekėjo sąskaitas faktūras** ir įveskite sąskaitos faktūros numerį arba tiekėjo paskyrą.
+ - Norėdami peržiūrėti kelias tiekėjo atviras operacijas **\>, sugeneruotas pagal mokėjimo grafiką, \>** eikite į Mokėtinų sumų SF Atviros tiekėjo SF ir įveskite SF numerį arba tiekėjo kodą.
+ - Norėdami peržiūrėti arba konfigūruoti mokėjimo grafiką, eikite į mokėtinų **sumų \> mokėjimo nustatymo mokėjimo \> grafiką**.
+ - Norėdami konfigūruoti mokėjimo sąlygas ir priskirti mokėjimo grafiką, eikite į mokėtinų **\> sumų mokėjimo nustatymo \> mokėjimo sąlygas**.
+ - Norėdami tvarkyti tiekėjo mokėjimo sąlygas, **\>** eikite į Mokėtinos sumos Visi tiekėjai, pasirinkite tiekėjo sąskaitą, **·** **tada skirtuke Mokėjimas nustatykite mokėjimo lauką.**
 
-Norėdami peržiūrėti arba konfigūruoti mokėjimo grafiką, eikite į **Mokėtinos sąskaitos \> Mokėjimo sąranka \> Mokėjimo planas**.
-
-Norėdami sukonfigūruoti mokėjimo sąlygas ir priskirti mokėjimo grafiką, eikite į **Mokėtinos sąskaitos \> Mokėjimo nustatymas \> Mokėjimo sąlygos**.
-
-Norėdami išlaikyti pardavėjo mokėjimo sąlygas, eikite į **Mokėtinos sąskaitos \> Visi pardavėjai**, pasirinkite tiekėjo paskyrą, tada **Mokėjimas** skirtuką, nustatykite **Mokėjimo sąlygos** lauke.
-
-Mokėjimo tvarkaraščio funkcija taip pat pasiekiama **Pardavėjo sąskaitų faktūrų registras** procesas. Jei sąskaitų faktūrų registro žurnale pasirenkamas mokėjimo grafikas, bus naudojamos kelios tiekėjo mokėjimo eilutės **ne** sugeneruoti, kai registruojamas sąskaitų faktūrų registras. Tiekėjo mokėjimo eilutės bus sugeneruotos, kai sąskaita faktūra bus patvirtinta.
+Mokėjimo grafiko priemonė taip pat galima tiekėjo **SF registro procese**. Jei SF registro žurnale pasirinktas mokėjimo grafikas, registruojant SF registrą **nebus** sugeneruotos kelios tiekėjo mokėjimo eilutės. Tiekėjo mokėjimo eilutės bus sugeneruotos patvirtinus SF.
 
 ## <a name="limitation"></a>Apribojimai
 
-Jei laukiančios tiekėjo sąskaitos faktūros mokėjimo grafikas yra sąskaitos faktūros antraštėje, yra išplėstinis puslapis, kuriame naudotojai gali redaguoti mokėjimo eilutes. (Pavyzdžiui, vartotojai gali redaguoti kiekvienos mokėjimo eilutės mokėjimo datą ir vertę.) Mokėjimo eilutės, sugeneruotos iš sąskaitų faktūrų žurnalo, turės vertę iš mokėjimo grafiko.
+Jei sf antraštėje yra laukiančios tiekėjo SF mokėjimo grafikas, yra išplėstinis puslapis, kuriame vartotojai gali redaguoti mokėjimo eilutes. (Pvz., vartotojai gali redaguoti kiekvienos mokėjimo eilutės terminą ir vertę.) Iš SF žurnalo sugeneruotos mokėjimo eilutės turės vertę iš mokėjimo grafiko.
 
-Ši funkcija bus prieinama tiekėjo sąskaitų faktūrų žurnalui ir laukiančioms sąskaitoms faktūroms būsimame leidime.
+Šią funkciją bus galima naudoti tiekėjo SF **žurnale ir** būsimuose **leidime** laukiančios SF.

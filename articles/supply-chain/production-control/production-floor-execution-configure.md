@@ -2,11 +2,9 @@
 title: Gamybos cecho vykdymo sąsajos konfigūravimas
 description: Šioje temoje aprašoma, kaip sukurti vieną ar daugiau gamybos cecho vykdymo sąsajos konfigūracijų. Atidarius gamybos cecho vykdymo sąsają, ji automatiškai įkelia pasirinktą konfigūraciją ir užduoties filtrą, būdingus naršyklei ir įrenginiui. Konfigūracijoje nustatote strategijas, kurios turi būti taikomos konkrečiam naudojimui.
 author: johanhoffmann
-manager: tfehr
 ms.date: 10/05/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: JmgProductionFloorExecutionConfiguration
 audience: Application User
@@ -14,18 +12,17 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
-ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: d34f9c235df480658a0935d731f7267a87894067
-ms.sourcegitcommit: 70b1567d316f19c15a4b032b4897f15c8dcdca09
-ms.translationtype: HT
+ms.dyn365.ops.version: 10.0.15
+ms.openlocfilehash: 5a0ead85eaeb6b96b80716614990af8c8e5e70f7
+ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "5556319"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8384752"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>Gamybos cecho vykdymo sąsajos konfigūravimas
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Cecho darbuotojai naudoja gamybos cecho vykdymo sąsają savo kasdieniams darbams registruoti, pvz., užduočių pradžios laikui fiksuoti, atsiliepimams apie užduotis pateikti, netiesioginėms veikloms registruoti ir pranešti apie neatvykimą į darbą. Šios registracijos yra itin svarbios stebint eigą bei išlaidas gamybos užsakymams ir darbuotojų atlyginimo dydžio skaičiavimo pagrindas.
 
@@ -34,7 +31,7 @@ Atidarius gamybos cecho vykdymo sąsają, ji automatiškai įkelia pasirinktą k
 - Naudodami įmonės salėje esantį įrenginį darbuotojai registruojasi atėję į biurą ir išeidami iš jo.
 - Naudodami ceche esantį įrenginį mašinų operatoriai registruojasi pradedami ir užbaigdami užduotis. Jie taip pat registruoja pertraukas ir netiesioginę veiklą.
 
-Šioje temoje aprašomos įvairios užduoties kortelės įrenginių konfigūravimo parinktys.
+Šioje temoje aprašomos įvairios kiekvieno jūsų svetainėje įrenginio gamybos laiko vykdymo sąsajos konfigūravimo pasirinktys.
 
 ## <a name="turn-on-the-production-floor-execution-interface-and-its-related-optional-features"></a>Įjunkite gamybos aukšto vykdymo sąsają ir su ja susijusias pasirenkamas funkcijas
 
@@ -42,54 +39,97 @@ Gamybos aukšto vykdymo sąsaja pati kartu su keletu pasirenkamų nustatymų yra
 
 ### <a name="the-production-floor-execution-interface"></a>Gamybos aukšto vykdymo sąsaja
 
-Tai yra pirminė šioje temoje aprašyta funkcija. Ji įtraukia gamybos aukšto vykdymo sąsają į jūsų sistemą. Norėdami ją įjungti, įjunkite tolesnę funkciją [Funkcijos valdyme](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
-
-- Gamybos aukšto vykdymas
+Tai yra pagrindinė šioje temoje aprašyta funkcija ir ji yra būtina visų kitų šiame skyriuje paminėtų funkcijų sąlyga. Kaip ir tiekimo grandinės valdymas 10.0.25, jis yra privalomas ir jo negalima išjungti. Jei naudojate senesnę nei 10.0.25 versiją, *·*[tada](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) administratoriai gali įjungti arba išjungti šią funkciją ieškodami gamybos laiko vykdymo funkcijos funkcijų valdymo darbo srityje.
 
 ### <a name="generate-license-plates"></a>Kurti licencijos plokšteles
 
 Šios funkcijos leidžia licencijos plokštelės funkcijas veikti gamybos aukšto vykdymo sąsajoje. Jei norėtumėte jas naudoti, įjunkite tolesnes funkcijas [funkcijų valdyme](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) (tokia tvarka):
 
-1. Užbaigtos ataskaitos numerio lentelė įtraukta į užduoties kortelės įrenginį
-1. Įgalinkite automatinį numerio lentelės numerio generavimą, kai Užduoties kortelės įrenginyje pranešama apie pabaigimą
+1. *Užbaigtos ataskaitos numerio lentelė įtraukta į užduoties kortelės įrenginį*<br>(Kaip ir tiekimo grandinės valdymo versija 10.0.21, ši funkcija įjungiama pagal numatytąjį nustatymą. Kaip ir tiekimo grandinės valdymo versija 10.0.25, ši funkcija yra privaloma.)
+1. *Įgalinkite automatinį numerio lentelės numerio generavimą, kai Užduoties kortelės įrenginyje pranešama apie pabaigimą*<br>(Kaip ir tiekimo grandinės valdymo versija 10.0.25, ši funkcija yra privaloma.)
 
 ### <a name="print-labels"></a>Spausdinti etiketes
 
 Šios funkcijos leidžia žymės spausdinimo funkcijas veikti gamybos aukšto vykdymo sąsajoje. Jei norėtumėte jas naudoti, įjunkite tolesnes funkcijas [funkcijų valdyme](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) (tokia tvarka):
 
-1. Užbaigtos ataskaitos numerio lentelė įtraukta į užduoties kortelės įrenginį
-1. Spausdinti etiketę iš užduoties kortelės įrenginio
+1. *Užbaigtos ataskaitos numerio lentelė įtraukta į užduoties kortelės įrenginį*<br>(Kaip ir tiekimo grandinės valdymo versija 10.0.21, ši funkcija įjungiama pagal numatytąjį nustatymą. Kaip ir tiekimo grandinės valdymo versija 10.0.25, ši funkcija yra privaloma.)
+1. *Spausdinti etiketę iš užduoties kortelės įrenginio*<br>(Kaip ir tiekimo grandinės valdymo versija 10.0.25, ši funkcija yra privaloma.)
 
 ### <a name="allow-locking-the-touch-screen"></a>Leisti užrakinti jutiklinį ekraną
 
-Ši funkcija įtraukia mygtuką į gamybos aukšto vykdymo sąsają, kuri leidžia darbuotojams valyti liečiamąjį ekraną. Norėdami ją naudoti, įjunkite tolesnę funkciją [Funkcijos valdyme](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
+Ši funkcija leidžia darbuotojams užrakinti jutiklinius ekranus, kad jie galėtų juos detinguoti.
 
-- Funkcija skirta užrakinti darbo kortelės prietaisą ir darbo kortelės terminalą jų valymui
+Kaip ir tiekimo grandinės valdymo versija 10.0.21 ši funkcija įjungiama pagal numatytąjį nustatymą. Kaip ir tiekimo grandinės valdymas 10.0.25 ši funkcija yra privaloma ir jos išjungti negalima. Jei naudojate senesnę nei 10.0.25 versiją, tada administratoriai gali įjungti arba išjungti šią funkciją ieškodami funkcijos, kad užduoties kortelės įrenginys *ir užduoties kortelių mokėjimo terminalas būtų užrakinti taip, kad būtų galima juos*[dearizuoti](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) funkcijų valdymo darbo srityje.
 
 ### <a name="asset-management-functionality-for-the-production-floor-execution-interface"></a>Turto valdymo funkcijos gamybos vietos vykdymo sąsajai
 
 Ši funkcija įtraukia turto valdymo skirtuką į gamybos vietos vykdymo sąsają. Darbuotojai gali naudoti šį skirtuką norėdami pasirinkti turtą, prijungtą prie įrenginio išteklių, kurie yra pasirinktame užduočių sąrašo filtre. Darbuotojas gali peržiūrėti pasirinkto įrenginio turto būseną ir sveikatą iš skaitiklio verčių (ne daugiau keturių pasirinktų skaitiklių). Norėdami naudoti šią funkciją, įjunkite tolesnę funkciją [Funkcijos valdyme](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
 
-- Turto valdymo funkcijos gamybos vietos vykdymo sąsajai
+- *Turto valdymo funkcijos gamybos vietos vykdymo sąsajai*<br>(Kaip ir tiekimo grandinės valdymo versija 10.0.25, ši funkcija veikia pagal numatytąjį nustatymą.)
+
+### <a name="enable-job-search"></a>Užduoties ieškos įgalinimas
+
+Ši funkcija leidžia į užduočių sąrašą įtraukti ieškos lauką. Darbuotojai gali rasti konkrečią užduotį įvesdami užduoties ID arba rasti visas konkretaus užsakymo užduotis įvesdami užsakymo ID. Darbuotojai gali įvesti ID naudodami klaviatūrą arba nuskaitę brūkšninį kodą. Norėdami ją naudoti, įjunkite tolesnę funkciją [Funkcijos valdyme](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
+
+- *Gamybos vietos vykdymo sąsajos užduočių ieška*<br>(Kaip ir tiekimo grandinės valdymo versija 10.0.25, ši funkcija veikia pagal numatytąjį nustatymą.)
+
+### <a name="enable-reporting-on-co-products-and-by-products"></a>Sudėtinių ir šalutinių produktų ataskaitos įgalinimas.
+
+Ši funkcija leidžia darbuotojams naudoti gamybos vietos vykdymo sąsają pateikti informaciją apie partijinių užsakymų eigą. Ši ataskaita apima ataskaitos teikimą apie sudėtinius ir šalutinius produktus. Jei norite naudoti šią funkciją, funkcijų valdymas įjunkite šią [funkciją](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
+
+- *Ataskaita apie sudėtinius ir šalutinius produktus iš gamybos vietos vykdymo sąsajos*
+
+### <a name="enable-the-display-of-full-serial-batch-and-license-plate-numbers"></a>Įgalinti visų serijos, paketo ir numerio lentelės numerių rodymą
+
+Ši funkcija gamybos laiko vykdymo sąsajoje pagerina serijos, paketo ir numerio lentelės numerių sąrašų peržiūros patirtį. Ekrano pakeitimai iš kortelės rodinio, rodantis ribotą simbolių skaičių sąrašo rodinyje, kuriame yra pakankamai vietos, kad būtų galima parodyti visas vertes. Sąrašas taip pat siūlo galimybę ieškoti konkrečių skaičių.
+
+Kaip ir tiekimo grandinės valdymo versija 10.0.25 ši funkcija įjungiama pagal numatytąjį nustatymą. Administratoriai šią *funkciją gali įjungti arba išjungti ieškodami gamybos laiko vykdymo sąsajos funkcijose rodyti visus serijos,*[paketo ir numerio lentelės numerius funkcijų valdymo](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) darbo srityje.
+
+### <a name="enable-registering-of-material-consumption"></a>Įjungti medžiagų suvartojimo registrą
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
+<!-- KFM: preview until further notice -->
+
+Ši funkcija leidžia darbuotojams naudoti gamybos laiko vykdymo sąsają medžiagų suvartojimui, paketo numeriams ir serijos numeriams registruoti. Kai kurie gamintojai, ypač proceso pramonės šakose, turi aiškiai užregistruoti medžiagų kiekį, suvartojamą kiekvienam paketo ar gamybos užsakymui. Pavyzdžiui, darbuotojai gali naudoti svarstyklių skalę, kad galėtų sverti suvartojamą medžiagos kiekį. Kad būtų užtikrintas visos medžiagų kiekis, šios organizacijos taip pat turi užregistruoti paketų numerius, suvartotus kiekvienam produktui pagaminti.
+
+Yra dvi šios priemonės versijos. Viena palaiko prekes, kurios *neįgalintos* naudoti išplėstinių sandėlio procesų (WMS). Kita palaiko prekes, *kurios* įgalintos naudoti WMS. Norėdami naudoti šią funkciją, funkcijų valdymo dalyje (šia tvarka) įjunkite vieną arba abi funkcijas atsižvelgdami į tai, [ar](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) yra WMS įgalintos prekės:
+
+- *(Peržiūros versija) Registruokite medžiagų suvartojimą gamybos vietos vykdymo sąsajoje (ne WMS)*
+- *(Peržiūros versija) Užregistruokite medžiagų suvartojimą gamybos vietos vykdymo sąsajoje (veikia WMS)*
+
+> [!IMPORTANT]
+> Galima naudoti tik ne WMS priemonę. Tačiau jei naudojate WMS, turite įgalinti abi funkcijas.
+
+### <a name="enable-reporting-on-catch-weight-items"></a>Įgalinti esamo svorio prekių ataskaitas
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
+<!-- KFM: preview until further notice -->
+
+Darbuotojai gali naudoti gamybos laiko vykdymo sąsają esamo svorio prekių paketinių užsakymų vykdymo eigai pranešti. Paketiniai užsakymai kuriami pagal formules, kurias galima apibrėžti kaip esamo svorio prekes kaip sudėties prekes, sudėtinius produktus ir pagal produktus. Formulę taip pat galima apibrėžti, kad ji turėtų formulės eilutes, skirtas ingredientams, kurie apibrėžti kaip esamo svorio. Esamo svorio prekės turi sekti atsargas pagal du matavimo vienetus: esamo svorio kiekį ir atsargų kiekį. Pavyzdžiui, maisto pramonėje dėžes galima nurodyti kaip esamo svorio prekę, kur esamo svorio kiekis naudojamas dėžių kiekiui sekti, o atsargų kiekis naudojamas dėžių svoriui sekti.
+
+Jei norite naudoti šią funkciją, funkcijų valdymas įjunkite šią [funkciją](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
+
+- *(Peržiūros versija) Ataskaita apie esamo svorio prekes iš gamybos vietos vykdymo sąsajos*
 
 ## <a name="work-with-production-floor-execution-configurations"></a>Darbas su gamybos cecho vykdymo konfigūracijomis
 
-Norėdami kurti ir tvarkyti įrenginio konfigūracijas, eikite į **Gamybos kontrolė \> Sąranka \> Gamybos vykdymas \> Gamybos cecho vykdymo konfigūravimas**. Puslapyje **Gamybos cecho vykdymo konfigūravimas** rodomas esamų konfigūracijų sąrašas. Šiame puslapyje galite atlikti toliau pateiktus veiksmus.
+Norėdami sukurti ir prižiūrėti gamybos laiko vykdymo konfigūracijas, eikite į Gamybos **kontrolės nustatymas \>\> Gamybos vykdymas Konfigūruoti \> gamybos laiko vykdymą**. Puslapyje **Gamybos cecho vykdymo konfigūravimas** rodomas esamų konfigūracijų sąrašas. Šiame puslapyje galite atlikti toliau pateiktus veiksmus.
 
 - Pasirinkite bet kurią gamybos cecho konfigūraciją, nurodytą kairiajame stulpelyje, ir ją peržiūrėkite bei redaguokite.
-- Norėdami į sąrašą įtraukti naują įrenginio konfigūraciją, veiksmų srityje pasirinkite **Nauja**. Tada įveskite pavadinimą lauke **Konfigūracija**, kad identifikuotumėte naują konfigūraciją. Jūsų įvestas pavadinimas negali sutapti su bet kokios kitos įrenginio konfigūracijos pavadinimu ir vėliau jo redaguoti negalėsite.
+- Veiksmų **srityje** pasirinkite Naujas, kad į sąrašą būtų galima įtraukti naują konfigūraciją. Tada įveskite pavadinimą lauke **Konfigūracija**, kad identifikuotumėte naują konfigūraciją. Pavadinimas, kurį įvedate, turi būti unikalus visų konfigūracijų ir vėliau jo redaguoti negalėsite.
 
-Tada konfigūruokite įvairius pasirinktos įrenginio konfigūracijos parametrus. Galimi šie laukai:
+Po to konfigūruokite įvairius pasirinktos konfigūracijos parametrus. Galimi šie laukai:
 
 - **Tik atėjus į darbą ir išėjus iš darbo** – nustatykite šią parinktį į *Taip*, norėdami sukurti supaprastintą sąsają, leidžiančią naudoti tik atėjimo ir išėjimo iš darbo funkcijas. Taip išjungsite daugelį kitų šio puslapio parinkčių. Prieš įgalindami šią parinktį, pirmiausia turite pašalinti visas eilutes iš „FastTab” **Skirtuko pasirinkimas**.
+- **Įgalinti iešką** – Nustatykite šią parinktį į *Taip*, kad į užduočių sąrašą įtrauktumėte ieškos lauką. Darbuotojai gali rasti konkrečią užduotį įvesdami užduoties ID arba rasti visas konkretaus užsakymo užduotis įvesdami užsakymo ID. Darbuotojai gali įvesti ID naudodami klaviatūrą arba nuskaitę brūkšninį kodą.
 - **Teikti kiekio ataskaitą išeinant iš darbo** – nustatykite šią parinktį į *Taip*, kad darbuotojai būtų paraginti pateikti atsiliepimų apie vykdomas užduotis prieš išeidami iš darbo. Kai parinktis nustatyta į *Ne*, darbuotojai nebus raginami.
-- **Užrakinti darbuotoją** – kai ši parinktis nustatyta į *Ne*, darbuotojai bus atjungiami iš karto jiems pateikus registraciją (pvz., naujos užduoties). Tada įrenginys pereis prie prisijungimo puslapio. Kai ši parinktis nustatyta į *Taip*, darbuotojai liks prisijungę prie užduoties kortelės įrenginio. Tačiau darbuotojas gali atsijungti rankiniu būdu, kad kitas darbuotojas galėtų prisijungti, jei užduoties kortelės įrenginys vykdomas naudojant tą pačią sistemos vartotojo paskyrą. Daugiau informacijos apie šių tipų paskyras žr. [Priskirti vartotojai](config-job-card-device.md#assigned-users).
+- **Užrakinti darbuotoją** – kai ši parinktis nustatyta į *Ne*, darbuotojai bus atjungiami iš karto jiems pateikus registraciją (pvz., naujos užduoties). Tada sąsaja grįš į prisijungimo puslapį. Kai ši parinktis nustatyta į *Taip*, darbuotojai bus prisiregistravę gamybos laiko vykdymo sąsajoje. Tačiau darbuotojas gali išsiregistruoti rankiniu būdu, kad kitas darbuotojas prisiregistruotų, kol gamybos laiko vykdymo sąsaja ir toliau veiks pagal tą patį sistemos vartotojo abonementą. Daugiau informacijos apie šių tipų paskyras žr. [Priskirti vartotojai](config-job-card-device.md#assigned-users).
 - **Naudoti faktinį registravimo laiką** – nustatykite šią parinktį į *Taip*, norėdami nustatyti kiekvienos naujos registracijos laiką į laiką, kada darbuotojas pateikė registraciją. Jei ši parinktis nustatyta į *Ne*, naudojamas prisijungimo laikas. Paprastai norėsite nustatyti šią parinktį į *Taip*, jei nustatėte parinktis **Užrakinti darbuotoją** ir (arba) **Vienas darbuotojas** į *Taip* ir jei darbuotojai dažnai būna prisijungę ilgesnį laikotarpį.
-- **Vienas darbuotojas** – nustatykite šią pasirinktį į *Taip*, jei tik vienas darbuotojas naudoja kiekvieną užduoties kortelės įrenginį, kuriame ši konfigūracija yra aktyvi. Nustačius šią parinktį į *Taip*, parinktis **Užrakinti darbuotoją** automatiškai nustatoma į *Taip*. Be to, pasirinkus šį parametrą pašalinamas darbuotojo reikalavimas (ir galimybė) prisijungti naudojant ženklo ID (arba kitą panašų ID). Vietoje to, darbuotojas prisijungia prie „Microsoft Dynamics 365 Supply Chain Management“ naudodamas sistemos vartotojo paskyrą, kuri susieta su *registruojamo laiko darbuotoju* (iš *darbuotojų* lentelės), ir tuo pačiu metu prijungiamas prie užduoties kortelės įrenginio kaip tas darbuotojas.
-- **Leisti užrakinti jutiklinį ekraną** – nustatykite šią pasirinktį į *Taip*, norėdami leisti darbuotojams užrakinti užduoties kortelės įrenginio jutiklinį ekraną, kad būtų galima jį nuvalyti. Nustačius šią parinktį į *Taip*, į įrenginio prisijungimo puslapį įtraukiamas mygtukas **Užrakinti ir valyti ekraną**. Kai darbuotojas pasirenka šį mygtuką, jutiklinis ekranas laikinai užrakinamas, kad būtų išvengta netyčinių įvesčių. Taip pat rodomas skaičiavimo atgal laikmatis. Tada darbuotojas gali saugiai nuvalyti įrenginį ir ekraną. Kai atgalinis skaičiavimas baigiasi, jutiklinis ekranas vėl automatiškai atrakinamas.
+- **Vienas darbuotojas** – nustatykite šią pasirinktį kaip *Taip*, jei tik vienas darbuotojas naudoja kiekvieną gamybos laiko vykdymo sąsają, kurioje ši konfigūracija yra aktyvi. Nustačius šią parinktį į *Taip*, parinktis **Užrakinti darbuotoją** automatiškai nustatoma į *Taip*. Be to, pasirinkus šį parametrą pašalinamas darbuotojo reikalavimas (ir galimybė) prisijungti naudojant ženklo ID (arba kitą panašų ID). Vietoj to Dynamics 365 Supply Chain Management *darbuotojas prisiregistruoja "Microsoft*" naudodamas sistemos vartotojo sąskaitą, susietą su užregistruotu laiku (*iš* darbuotojų lentelės), ir prisiregistruoja prie gamybos laiko vykdymo sąsajos kaip tas darbuotojas tuo pačiu metu.
+- **Leisti užrakinti jutiklinį** ekraną – *nustatykite* šią pasirinktį į Taip, norėdami leisti darbuotojams užrakinti jutiklinį gamybos laiko vykdymo sąsajos ekraną, kad jie galėtų ją santizuoti. Kai ši parinktis nustatyta kaip *Taip*, į prisijungimo **puslapį įtraukiamas** mygtuko sąstingio sąsk. Kai darbuotojas pasirenka šį mygtuką, jutiklinis ekranas laikinai užrakinamas, kad būtų išvengta netyčinių įvesčių. Taip pat rodomas skaičiavimo atgal laikmatis. Tada darbuotojas gali saugiai nuvalyti įrenginį ir ekraną. Kai atgalinis skaičiavimas baigiasi, jutiklinis ekranas vėl automatiškai atrakinamas.
 - **Ekrano užrakto trukmė** – kai parinktis **Leisti užrakinti jutiklinį ekraną** nustatyta į *Taip*, naudokite šią parinktį norėdami nurodyti, kiek sekundžių jutiklinis ekranas bus išjungtas, kad būtų galima jį nuvalyti. Trukmė turi būti nuo 5 iki 120 sekundžių.
-- **Generuoti numerio lentelę** – nustatykite šią pasirinktį į *Taip*, norėdami generuoti naują numerio lentelę kiekvieną kartą, kai darbuotojas naudoja užduoties kortelės įrenginį, kad praneštų apie baigtą užduotį. Numerio lentelėje nurodytas numeris generuojamas naudojant skaičių seką, kuri nustatyta puslapyje **Sandėlio valdymo parametrai**. Kai ši parinktis nustatyta į *Ne*, darbuotojai turi nurodyti esamą numerio lentelę pranešdami apie baigtą užduotį.
-- **Spausdinti žymą** – nustatykite šią parinktį į *Taip*, kad būtų spausdinama numerio lentelės žyma, kai darbuotojas naudoja užduoties kortelės įrenginį, kad praneštų apie baigtą užduotį. Žymos konfigūracija nustatoma dokumento maršruto planavimo dalyje, kaip nurodyta [Numerio lentelės žymų dokumentų maršrutų planavimo maketas](../warehousing/document-routing-layout-for-license-plates.md).
+- **Generuoti numerio lentelę** – nustatykite šią *pasirinktį* kaip Taip, norėdami sugeneruoti naują numerio lentelę kiekvieną kartą, kai darbuotojas naudoja gamybos laiko vykdymo sąsają, kad ataskaitoje būtų baigta. Numerio lentelėje nurodytas numeris generuojamas naudojant skaičių seką, kuri nustatyta puslapyje **Sandėlio valdymo parametrai**. Kai ši parinktis nustatyta į *Ne*, darbuotojai turi nurodyti esamą numerio lentelę pranešdami apie baigtą užduotį.
+- **Spausdinti** žymą – nustatykite šią pasirinktį *kaip* Taip, norėdami išspausdinti numerio lentelės žymę, kai darbuotojas naudoja gamybos laiko vykdymo sąsają ataskaitoje kaip baigtai. Žymos konfigūracija nustatoma dokumento maršruto planavimo dalyje, kaip nurodyta [Numerio lentelės žymų dokumentų maršrutų planavimo maketas](../warehousing/document-routing-layout-for-license-plates.md).
 - **Skirtuko pasirinkimas**  – Naudokite nustatymus šiame skyriuje, kad pasirinktumėte, kurie skirtukai turi būti rodomi gamybos aukšto vykdymo sąsajoje, kai esama konfigūracija įjungta. Galite sukurti tiek skirtukų, kiek jums reikia ir tada įtraukti bei organizuoti juos kaip norite. Dėl informacijos, kaip sukurti skirtukus ir dirbti su nustatymais čia, žr. [Kurti gamybos aukšto vykdymo sąsają](production-floor-execution-tabs.md).
 
 ## <a name="clean-up-job-configurations"></a>Užduočių konfigūracijų valymas

@@ -2,7 +2,7 @@
 title: DUK apie darbo eigas
 description: Šioje temoje atsakoma į dažnai užduodamus klausimus apie darbo eigos sistemą.
 author: ChrisGarty
-ms.date: 09/21/2020
+ms.date: 03/01/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,16 +12,19 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 11604389ff598c70e15709c9e3e04b6ec436f6a6
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
-ms.translationtype: HT
+ms.openlocfilehash: 0e9e2000684081035f35ea55e1c773a4f6976d74
+ms.sourcegitcommit: 967b93bb42413b5b38b817f924015468312a93a0
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5747206"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "8370885"
 ---
 # <a name="workflow-faq"></a>DUK apie darbo eigas
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Šioje temoje atsakoma į dažnai užduodamus klausimus apie darbo eigos sistemą.
 
@@ -31,7 +34,7 @@ Kai atmetamas darbo elementas, tas darbo elementas užbaigiamas kaip atmestas. S
 Kiekvienas pranešimas skirtas skirtingam darbo elementui, tačiau dėl panašumų gali kilti painiava. Ieškome būdų, kaip šią situaciją išspręsti būsimuose leidimuose.
 
 ## <a name="why-are-my-workflow-exports-failing"></a>Kodėl man nepavyksta eksportuoti darbo eigos?
-Šiuo metu darbo eigos eksportavimo funkcija yra ribojama darbo eigos pavadinimams neleidžiant viršyti 48 ženklų. Naudojant ilgesnius kaip 48 ženklų pavadinimus, pateikiama klaida „Serveriui nepavyko autentifikuoti užklausos“ ir (arba) neleidžiama eksportuoti failo be failo tipo. Šiame tinklaraščio įraše pateikiama išsamesnė informacija, [Darbo eigos eksportavimo trikčių šalinimas](https://community.dynamics.com/ax/b/elandaxdynamicsaxupgradesanddevelopment/archive/2019/04/10/workflow-export-troubleshooting).
+Šiuo metu darbo eigos eksportavimo funkcija yra ribojama darbo eigos pavadinimams neleidžiant viršyti 48 ženklų. Naudojant ilgesnius kaip 48 ženklų pavadinimus, pateikiama klaida „Serveriui nepavyko autentifikuoti užklausos“ ir (arba) neleidžiama eksportuoti failo be failo tipo. Šiame tinklaraščio įraše pateikiama išsamesnė informacija, [Darbo eigos eksportavimo trikčių šalinimas](https://community.dynamics.com/365/financeandoperations/b/elandaxdynamicsaxupgradesanddevelopment/posts/workflow-export-troubleshooting).
 
 ## <a name="can-the-submitter-of-a-workflow-also-approve-the-workflow"></a>Ar darbo eigos pateikėjas gali ją taip pat ir tvirtinti?
 Taip, darbo eigos pateikėjas taip pat gali ją tvirtinti, jei darbo eiga taip sukonfigūruota. Jei norite to neleisti, nustatykite **Sistemos administravimas > Darbo eiga > Darbo eigos parametrai > Bendra > Tvirtintojas > Neleisti tvirtinti pateikėjui** reikšmę **Taip**.
@@ -45,9 +48,9 @@ Toliau pateikiamos kelios pagrindinės sritys, susijusios su įspėjimų įtrauk
     - Būsimame naujinime veiksmų centro pranešimą, kad vartotojui būtų priskirtas darbo eigos darbo elementas. 
 - Pranešimų įtraukimas į darbo eigas
     - Galima sukurti veiksmų centro pranešimų konkretiems vartotojams, pvz., darbo eigos pranešimų, sukurtų naudojant X++.
-    - [Darbo eigose yra verslo įvykių](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/business-events/business-events-workflow), kuriuos klientas gali naudoti norėdamas suaktyvinti srautus su ieškomais pranešimais.   
+    - [Darbo eigose yra verslo įvykių](../../dev-itpro/business-events/business-events-workflow.md), kuriuos klientas gali naudoti norėdamas suaktyvinti srautus su ieškomais pranešimais.   
 
-Apibendrinant, jei vartotojas negauna tinkamo pranešimo iš veiksmų centro, kai jam priskiriamas darbo eigos darbo elementas, naudokite [darbo eigos verslo įvykius](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/business-events/business-events-workflow) programoje „Microsoft Power Automate, kad pateiktumėte papildomų arba kitokių pranešimų.
+Apibendrinant, jei vartotojas negauna tinkamo pranešimo iš veiksmų centro, kai jam priskiriamas darbo eigos darbo elementas, naudokite [darbo eigos verslo įvykius](../../dev-itpro/business-events/business-events-workflow.md) programoje „Microsoft Power Automate, kad pateiktumėte papildomų arba kitokių pranešimų.
 
 ## <a name="why-is-workflow-editor-not-able-to-start-under-ad-fs"></a>Kodėl nepavyksta paleisti darbo eigos rengyklės, naudojant AD FS?
 Kai darbo eigos rengyklė veikia naudojant „Active Directory“ susiejimo tarnybą (AD FS) atnaujintoje aplinkoje, gali nepavykti paleisti rengyklę. Šiuo atveju įsitikinkite, kad URL "https://dynamicsaxworkfloweditor/" įtrauktas į ypatybę **„Microsoft Dynamics 365 for Operations“ (vietinė) - Darbo eiga - Vietinė programa** ADFS parametruose.

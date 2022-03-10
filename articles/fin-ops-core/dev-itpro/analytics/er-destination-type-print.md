@@ -2,7 +2,7 @@
 title: Spausdintuvo ER paskirties vietos tipas
 description: Šioje temoje paaiškinama, kaip galite konfigūruoti spausdintuvo paskirties vietą kiekvienam APLANKO ar FAILO komponentui elektroninių ataskaitų (ER) formatu.
 author: NickSelin
-ms.date: 02/24/2021
+ms.date: 02/14/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 7749a458020de664d00e81ccf0e480ae459da617
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
-ms.translationtype: HT
+ms.openlocfilehash: 2513fc4f86519c71602089cd46e9757813b1a708
+ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5894009"
+ms.lasthandoff: 03/05/2022
+ms.locfileid: "8388293"
 ---
 # <a name="printer-destination"></a><a name="PrinterDestinationType"></a>Spausdintuvo paskirties vieta
 
@@ -39,11 +39,28 @@ Norėdami, kad paskirties vieta **Spausdintuvas** būtų prieinama dabartiniame 
 1. Konvertuoti siunčiamus elektroninių ataskaitų dokumentus iš „Microsoft Office“ formatų („Excel“ / „Word“) į PDF
 2. Dokumento maršruto planavimo agentas kaip siunčiamų dokumentų elektroninių ataskaitų teikimo vieta
 
-[![Spausdintuvo paskirties vietos funkcijos įjungimas srityje Funkcijų valdymas](./media/ER_Destinations-EnablePrinterDestinationFeature.png)](./media/ER_Destinations-EnablePrinterDestinationFeature.png)
+[![Spausdintuvo paskirties vietos funkcijos įjungimas srityje Funkcijų valdymas.](./media/ER_Destinations-EnablePrinterDestinationFeature.png)](./media/ER_Destinations-EnablePrinterDestinationFeature.png)
 
 ### <a name="applicability"></a>Taikymas
 
-Paskirties vietą **Spausdintuvas** galima sukonfigūruoti tik failų komponentams, kurie naudojami generuojant išvestį spausdintinu PDF formatu (PDF suliejimo arba PDF failo formato elementai) arba „Microsoft Office Excel“ ar „Word“ formatu („Excel“ failas). Generuojant išvestį PDF formatu, ji siunčiama į spausdintuvą. Generuojant išvestį „Microsoft Office“ formatu, ji automatiškai konvertuojama į PDF formatą, o tada siunčiama į spausdintuvą.
+#### <a name="pdf-printing"></a>PDF spausdinimas
+
+Naudojant finansų versijas prieš 10.0.18 versiją, spausdintuvo paskirties vietą galima konfigūruoti tik naudojant failo komponentus, **·** **kurie naudojami išvesties formatu (PDF** **susijungimas arba PDF** failo formato elementai) Microsoft Office Excel arba Word formato (**Excel** failo formato elementas). Kai išeiga sugeneruojama PDF formatu, ji siunčiama į spausdintuvą. Kai išvestis sugeneruojama Office **formatu naudojant Excel** failo formato elementą, ji automatiškai konvertuojama į PDF formatą, o tada siunčiama į spausdintuvą.
+
+Tačiau kaip 10.0.18 versiją galite **konfigūruoti** bendrosios rinkmenos formato elemento spausdintuvo **paskirties** vietą. Šis formato elementas dažniausiai naudojamas išeigai generuoti TXT arba XML formatu. Galite konfigūruoti ER formatą, **·** **kuriame** bendrosios rinkmenos formato elementas yra šakninis formato elementas, ir tik įdėtojo elemento pagal jį dvejetainio turinio formato elementas. Tokiu atveju bendrosios rinkmenos formato **elementas išvestų formatu, kurį nurodėte susiejimu,** kurį konfigūruojate dvejetainio **turinio** formato elementui. Pavyzdžiui, šį susiejimą [galite](tasks/er-document-management-files-5.md#modify-the-format-to-populate-attachments-into-generating-messages-in-binary-format)[konfigūruoti](../../fin-ops/organization-administration/configure-document-management.md), kad užpildytų šį elementą dokumentų valdymo priedo turiniu PDF arba Office (Excel arba Word) formatu. Galite išspausdinti išvestį naudodami sukonfigūruotą spausdintuvo **paskirties** vietą. 
+
+> [!NOTE]
+> Kai pasirenkate **CommonFile\\** **formato** elementą spausdintuvo paskirties vietai konfigūruoti, dizaino metu nėra būdo užtikrinti, kad pasirinktas elementas produkcijos išeigą PDF formatu arba išvestis, kurią galima konvertuoti į PDF formatą. Todėl gaunate tokį įspėjimo pranešimą: "Įsitikinkite, kad išvestis, sugeneruota pasirinkto formato komponento, gali būti konvertuojama į PDF. Priešingu atveju atžymėkite parinktį Konvertuoti į PDF. Turite atlikti veiksmus, kad išvengtumėte vykdymo problemų, kai spausdinant vykdyklės metu pateikiama ne PDF ar ne PDF konvertuojama išvestis. Jei tikitės gauti išvestį Office (Excel arba Word) formatu, reikia **pasirinkti pasirinktį Konvertuoti į PDF**.
+>
+> Versijoje 10.0.26 **ir vėlesnėje versijoje naudodami parinktį Konvertuoti į PDF** turite **pasirinkti sukonfigūruotos spausdintuvo paskirties vietos dokumento maršruto tipo parametrą** PDF **·** **·**.
+
+#### <a name="zpl-printing"></a>ZPL spausdinimas
+
+Versijoje 10.0.26 ir vėliau galite konfigūruoti **CommonFile** **formato elemento spausdintuvo paskirties vietą pasirinkdami dokumento maršruto tipo parametro\\ ZPL.** **·** **·** Šiuo atveju, **pasirinkties Konvertuoti į PDF** nepaisoma vykdymo metu, o TXT arba XML išvestis siunčiama tiesiogiai į pasirinktą spausdintuvą naudojant dokumento maršruto agento (DRA) dokumento maršruto agento (DRA [)](install-document-routing-agent.md) sutartį. Šią funkciją naudokite ER formatui, kuris nurodo ZPL II žymės maketą įvairioms etiketėms spausdinti.
+
+[![Dokumento maršruto tipo parametras nustatomas dialogo lange Paskirties parametrai.](./media/ER_Destinations-SetDocumentRoutingType.png)](./media/ER_Destinations-SetDocumentRoutingType.png)
+
+Daugiau informacijos apie šią funkciją ieškokite naujo [ER sprendimo, kaip spausdinti ZPL etiketes, kūrimas](er-design-zpl-labels.md).
 
 ### <a name="limitations"></a>Apribojimai
 
@@ -55,7 +72,7 @@ Paskirties vieta **Spausdintuvas** galima tik naudojant įdiegtis debesyje.
 2. Lauke **Spausdintuvo pavadinimas** pasirinkite reikiamą tinklo spausdintuvą.
 3. Parinktyje **Įrašyti spausdinimo archyve?** nustatykite **Taip**, norėdami sugeneruotą išvestį saugoti spausdinimo archyve, kad ją būtų galima spausdinti vėliau. Norėdami vėliau peržiūrėti suarchyvuotą išvestį, eikite į **Organizacijos administravimas** \> **Užklausos ir ataskaitos** \> **Ataskaitų archyvas**.
 
-[![Paskirties vietos Spausdintuvas naudojimas](./media/ER_Destinations-PrinterDestination.png)](./media/ER_Destinations-PrinterDestination.png)
+[![Paskirties vietos Spausdintuvas naudojimas.](./media/ER_Destinations-PrinterDestination.png)](./media/ER_Destinations-PrinterDestination.png)
 
 > [!NOTE]
 > Nebūtina įjungti parinktį **Konvertuoti į PDF**, kai konfigūruojate paskirties vietą **Spausdintuvas**. Spausdinant bus konvertuojama į PDF, net jei parinktis yra išjungta.
