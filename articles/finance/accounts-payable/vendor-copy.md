@@ -1,27 +1,24 @@
 ---
 title: Tiekėjų kopijavimas naudojant bendrinamas numeracijas
 description: Šioje temoje paaiškinama, kaip, naudojant bendrinamas numeracijas, tiekėją nukopijuoti į kitą juridinį subjektą, bet išlaikyti tą patį tiekėjo ID.
-author: mikefalkner
-manager: aolson
+author: sunfzam
 ms.date: 08/24/2018
 ms.topic: index-page
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendTable
 audience: Application User
-ms.reviewer: roschlom
-ms.search.scope: Core, Operations
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 33338c331a53586b325def398267ab10db23f78a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 4cea8269082b39e2374ffb3c3dc82def8ce35679
+ms.sourcegitcommit: 9cbff8a2cdeaf606488fb0044b3de4ab4409c9dc
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4459551"
+ms.lasthandoff: 02/26/2022
+ms.locfileid: "8358470"
 ---
 # <a name="copy-vendors-by-using-shared-number-sequences"></a>Tiekėjų kopijavimas naudojant bendrinamas numeracijas
 
@@ -39,9 +36,9 @@ Tiekėjus kopijuoti tarp juridinių subjektų taip pat galite, jei naudojate nea
 
 ## <a name="copy-a-vendor"></a>Tiekėjo kopijavimas
 
-Norėdami kopijuoti tiekėją, sąrašo puslapyje **Visi tiekėjai** pasirinkite **Naujas**, kad atidarytumėte puslapį **Visi tiekėjai, naujas įrašas**. Atkreipkite dėmesį, kad naujasis tiekėjo ID nėra priskiriamas iš karto. Ankstesnėse versijose buvo kitaip. Kadangi dar nepasirinkote tiekėjų grupės, sistema negali nustatyti teisingos naudotinos numeracijos. Be to, ji negali nustatyti, ar bandote sukurti naują tiekėją, ar tiekėją kopijuoti. Todėl tiekėjo ID nepriskiriamas tol, kol puslapio apačioje nepasirenkate **Įrašyti**.
+Norėdami kopijuoti tiekėją, sąrašo puslapyje **Visi tiekėjai** pasirinkite **Naujas**, kad atidarytumėte puslapį **Visi tiekėjai, naujas įrašas**. Naujasis tiekėjo ID nėra priskiriamas iš karto. Ankstesnėse versijose buvo kitaip. Kadangi dar nepasirinkote tiekėjų grupės, negalima nustatyti teisingos naudotinos numeracijos. Be to, ji negali nustatyti, ar bandote sukurti naują tiekėją, ar tiekėją kopijuoti. Todėl tiekėjo ID nepriskiriamas tol, kol puslapio apačioje nepasirenkate **Įrašyti**.
 
-Jei kuriate naują tiekėją, galite įprastai toliau užpildyti visus laukus. Baigę ir pasirinkę **Įrašyti** matysite, kad tiekėjo ID buvo priskirtas automatiškai. O neautomatinių numeracijų atveju matysite, kad buvo panaudotas jūsų neautomatinis tiekėjo ID.
+Jei kuriate naują tiekėją, galite įprastai toliau užpildyti visus laukus. Baigus ir pasirinkus **Įrašyti**, tiekėjo ID bus priskirtas automatiškai. O neautomatinių numeracijų atveju matysite, kad buvo panaudotas jūsų neautomatinis tiekėjo ID.
 
 Norėdami nukopijuoti tiekėją, lauke **Vardas** įveskite vieną ar kelis simbolius, atitinkančius jūsų ieškomą tiekėją. Ieškos dialogo lange rodomas šalių, kurios gali būti jūsų ieškomas tiekėjas, sąrašas. Kai pasirenkate vieną iš šalių, dešinėje dialogo lango pusėje pasirodo papildoma tolesnė informacija.
 
@@ -55,13 +52,16 @@ Norėdami nukopijuoti tiekėją, lauke **Vardas** įveskite vieną ar kelis simb
 2. Pasirodo laukas **Juridinis subjektas**. Pasirinkite juridinį subjektą, iš kurio kopijuoti tiekėją. Jei tiekėjas yra tik viename juridiniame subjekte, pagal numatytuosius parametrus laukas nustatomas kaip tas juridinis subjektas.
 3. Pasirinkite **Pasirinkti**. Sukuriamas naujas tiekėjas.
 
-## <a name="validation"></a>Tikrinimas
+## <a name="validation"></a>Patikrinimas
 
-Kai kopijuojate tiekėją, sistema bando įrašyti naujojo tiekėjo informaciją. Vykdomos patikros, kuriomis tikrinama, ar nukopijuoti duomenys yra tinkami. Apie kiekvieną nesėkmingą patikrą gaunate klaidos pranešimą. Klaidų pranešimuose paaiškinama, kokią informaciją reikia atnaujinti. Tiekėjo kopijos negalima įrašyti tol, kol neištaisote visų tikrinimo klaidų.
+Nukopijavus tiekėją, bus bandoma įrašyti naujojo tiekėjo informaciją. Vykdomos patikros, kuriomis tikrinama, ar nukopijuoti duomenys yra tinkami. Apie kiekvieną nesėkmingą patikrą gaunate klaidos pranešimą. Klaidų pranešimuose paaiškinama, kokią informaciją reikia atnaujinti. Tiekėjo kopijos negalima įrašyti tol, kol neištaisote visų tikrinimo klaidų.
 
 ## <a name="copy-a-vendor-by-using-the-tax-exempt-number-search-feature"></a>Tiekėjo kopijavimas naudojant funkciją Neapmokestinimo kodo ieška
 
-Tiekėjus taip pat galite kopijuoti naudodami funkciją Neapmokestinimo kodo ieška, esančią puslapio **Visi tiekėjai** veiksmų srities skirtuko **Tiekėjas** grupėje **Registracija**. Pasirodžiusiame dialogo lange **Neapmokestinimo kodo ieška** rodomi neapmokestinimo kodai, tiekėjo ID, tiekėjo pavadinimas / vardas ir (arba) pavardė bei juridinis subjektas, kuriame naudojamas neapmokestinimo ID. Tiekėją galite kopijuoti tik tada, jei jis yra juridiniame subjekte, kuris nėra dabartinis juridinis subjektas. Pasirinkę šį kriterijų atitinkantį tiekėją, atlikite šiuos veiksmus.
+Tiekėjus taip pat galite kopijuoti naudodami funkciją **Neapmokestinimo kodo** ieška grupėje **Registracija**, kurią galima rasti skirtuke **Tiekėjas**, esančiame puslapio **Visi tiekėjai** veiksmų srityje. Pasirodžiusiame dialogo lange **Neapmokestinimo kodo ieška** rodomi neapmokestinimo kodai, tiekėjo ID, tiekėjo pavadinimas / vardas ir (arba) pavardė bei juridinis subjektas, kuriame naudojamas neapmokestinimo ID. Tiekėją galite kopijuoti tik tada, jei jis yra juridiniame subjekte, kuris nėra dabartinis juridinis subjektas. Pasirinkę šį kriterijų atitinkantį tiekėją, atlikite šiuos veiksmus.
 
 1. Pasirodo parinktis **Kopijuoti tiekėją**. Pagal numatytuosius parametrus ši parinktis yra nustatyta kaip **Ne**. Norėdami tiekėją nukopijuoti į dabartinį juridinį subjektą, parinktį nustatykite kaip **Taip**.
 2. Pasirinkite **Pasirinkti**. Sukuriamas naujas tiekėjas.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
