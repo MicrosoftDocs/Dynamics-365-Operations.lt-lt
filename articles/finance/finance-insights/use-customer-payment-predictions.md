@@ -1,8 +1,8 @@
 ---
-title: Kliento mokėjimo prognozių naudojimas (peržiūros versija)
+title: Kliento mokėjimo prognozių naudojimas
 description: Šioje temoje kalbama apie būtinuosius komponentus ir bendruosius veiksmus, kurių reikia norint naudoti bandomąją „Finance insights” versiją.
 author: ShivamPandey-msft
-ms.date: 11/16/2020
+ms.date: 11/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,52 +15,46 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-11-16
 ms.dyn365.ops.version: AX 10.0.14
-ms.openlocfilehash: 21c5236b6d7e7ce7bd968f1511723a3646fe7a29
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
-ms.translationtype: HT
+ms.openlocfilehash: ed70e133b93c783542d4669b679fc5b6d2d20240
+ms.sourcegitcommit: 133aa728b8a795eaeaef22544f76478da2bd1df9
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897797"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7968917"
 ---
-# <a name="use-customer-payment-predictions-preview"></a>Kliento mokėjimo prognozių naudojimas (peržiūros versija)
+# <a name="use-customer-payment-predictions"></a>Kliento mokėjimo prognozių naudojimas
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Šioje temoje paaiškinama, kaip naudoti kliento mokėjimo prognozes. Prieš naudodami šią funkciją įsitikinkite, kad atlikote nustatymo veiksmus. Daugiau informacijos žr. [Klientų mokėjimo prognozių įjungimas](enable-cust-paymnt-prediction.md).
 
-Kliento mokėjimo prognozes galite peržiūrėti darbo srityje **Klientų kredito ir surinkimo valdymas** ir dviejuose naujuose sąrašų puslapiuose, **Mokėjimo prognozavimas pagal operaciją** ir **Mokėjimo prognozavimas pagal klientą**.
+Kliento mokėjimo numatymas galite peržiūrėti darbo srityje Valdyti kliento kreditą ir mokėjimų priežiūros darbo sritį ir dviejuose naujuose sąrašo puslapiuose: operacijos mokėjimo numatymų ir kliento **mokėjimo** **·** **numatymų**.
 
 ### <a name="manage-customer-credit-and-collections-workspace"></a>Darbo sritis Klientų kredito ir surinkimo valdymas
 
-Darbo sritis **Klientų kredito ir surinkimo valdymas** apima dvi naujas plyteles, **Mokėjimo prognozavimas pagal operaciją** ir **Klientai su prognozuojamais žymaus vėlavimo balansais**.
+Kliento **kredito ir mokėjimų valdymo darbo srityje yra dvi naujos prognozės: operacijos mokėjimo** **numatymas** ir kliento mokėjimų **numatymas.**
 
-- Plytelėje **Mokėjimo prognozavimas pagal operaciją** rodomas atidarytų kliento operacijų, kurių mokėjimo tikimybė mažesnė nei 50 procentų talpykloje **Laiku**, skaičių. Galite pasirinkti šią plytelę, kad galėtumėte atidaryti sąrašo puslapį **Mokėjimo prognozavimas pagal operaciją**.
-- Plytelėje **Klientai su prognozuojamais žymaus vėlavimo balansais** nurodo klientų, kurių daugiau nei pusė viso likučio (50 procentų) yra numatoma apmokėti per vėluojant ir (arba) žymiai vėluojant, skaičių. Galite pasirinkti šią plytelę, kad galėtumėte atidaryti sąrašo puslapį **Mokėjimo prognozavimas pagal klientą**.
+### <a name="transaction-payment-predictions-list-page"></a>Operacijos mokėjimo numatymų sąrašo puslapis
 
-[![Darbo sritis Klientų kredito ir surinkimo valdymas](./media/manage-customer-credit-collections.png)](./media/manage-customer-credit-collections.png)
+Operacijų mokėjimo numatymų sąrašo puslapyje galite peržiūrėti atvirų operacijų mokėjimo tikimybę laiku, pavėluotai ir **labai** **·** **·** **pavėluotai**. Kiekvienoje tinklelio operacijoje stulpelyje **Tikimybė Laiku** rodoma tikimybė, kad SF bus apmokėta iki termino pabaigos datos. Jei dėl tikimybė, kad bus apmokėta laiku, yra mažesnė nei 50 procentų, prie procento, esančio stulpelyje **Tikimybė Laiku**, atsiranda raudonas apskritimas, kad būtų galima nurodyti pavėlavimo apmokėti riziką.
 
-### <a name="payment-predictions-per-transaction-list-page"></a>Sąrašo puslapis Mokėjimo prognozavimas pagal operaciją
-
-Sąrašo puslapyje **Mokėjimo prognozavimas pagal operaciją** galite peržiūrėti atidarytų operacijų mokėjimo tikimybę talpykloje **Laiku**, **Vėlavimas** ir **Žymus vėlavimas**. Kiekvienoje tinklelio operacijoje stulpelyje **Tikimybė Laiku** rodoma tikimybė, kad SF bus apmokėta iki termino pabaigos datos. Jei dėl tikimybė, kad bus apmokėta laiku, yra mažesnė nei 50 procentų, prie procento, esančio stulpelyje **Tikimybė Laiku**, atsiranda raudonas apskritimas, kad būtų galima nurodyti pavėlavimo apmokėti riziką.
-
-[![Puslapis Mokėjimo prognozavimas pagal operaciją](./media/payment-predictions-per-transaction.png)](./media/payment-predictions-per-transaction.png)
+[![Puslapis Mokėjimo prognozavimas pagal operaciją.](./media/payment-predictions-per-transaction.png)](./media/payment-predictions-per-transaction.png)
 
 Srityje **Susijusi informacija** dešinėje puslapio pusėje rodoma daugiau informacijos apie prognozes.
 
 - Tinklelyje pasirinkus operaciją, „FastTab“ **Mokėjimo prognozė** rodoma išsami informacija apie mokėjimo prognozes talpyklose **Laiku**, **Vėlavimas** ir **Žymus vėlavimas**. Skiltyje **Svarbiausi veiksniai** pateikiami pagrindiniai veiksniai, lemiantys prognozes. Svarbiausi veiksniai yra pasirinktos operacijos ir (arba) tos operacijos kliento atributai.
-- „FastTab“ **„Customer Insights”** nurodo esamą pasirinktos operacijos kliento SF, mokėjimo ir surinkimo statistiką.
+- „FastTab“ **Customer Insights** nurodo esamą pasirinktos operacijos kliento SF, mokėjimo ir surinkimo statistiką.
 - „FastTab“ **Kliento retrospektyva** rodo kliento mokėjimo retrospektyvą talpyklose **Laiku**, **Vėlavimas** ir **Žymus vėlavimas**.
 
-Duomenys, esantys skiltyje **Svarbiausi veiksniai** ir „FastTab“ **„Customer Insights”** bei **Klientų retrospektyva**, padeda paaiškinti mokėjimo prognozes. Tai gali padėti padidinti jūsų pasitikėjimą prognozių veiksmingumu.
+Duomenys, esantys skiltyje **Svarbiausi veiksniai** ir „FastTab“ **Customer Insights** bei **Klientų retrospektyva**, padeda paaiškinti mokėjimo prognozes. Tai gali padėti padidinti jūsų pasitikėjimą prognozių veiksmingumu.
 
-[![Grafinių duomenų, susijusių su mokėjimais, indikatoriai srityje Susijusi informacija](./media/payment-prediction-gauges.png)](./media/payment-prediction-gauges.png)
+[![Grafinių duomenų, susijusių su mokėjimais, indikatoriai srityje Susijusi informacija.](./media/payment-prediction-gauges.png)](./media/payment-prediction-gauges.png)
 
-### <a name="payment-prediction-per-customer-list-page"></a>Sąrašo puslapis Mokėjimo prognozavimas pagal klientą
+### <a name="customer-payment-predictions-list-page"></a>Kliento mokėjimo numatymų sąrašo puslapis
 
-Sąrašo puslapyje **Mokėjimo prognozavimas pagal klientą** rodo visą atidarytą balansą ir sumą, kuri, prognozuojama, bus sumokėta talpyklose **Laiku**, **Vėlavimas** ir **Žymus vėlavimas**.
+Kliento mokėjimo numatymų sąrašo puslapyje rodomas bendras atviras balansas, numatyta sumokėti laiku, pavėluotai ir **labai** **·** **·** **pavėluotai** sumokėti suma.
 
-[![Puslapis Mokėjimo prognozavimas pagal klientą](./media/payment-predictions-per-transaction-02.png)](./media/payment-predictions-per-transaction-02.png)
+[![Puslapis Mokėjimo prognozavimas pagal klientą.](./media/payment-predictions-per-transaction-02.png)](./media/payment-predictions-per-transaction-02.png)
 
 Kiekvienos talpyklos mokėjimo suma apskaičiuojama kaip operacijos balanso svertinio vidurkio suma. Ši suma skaičiuojama pagal kiekvienos talpyklos mokėjimo tikimybes.
 
@@ -82,31 +76,20 @@ Pavyzdžiui, klientui priskirtos trys atidarytos operacijos, kurių kiekvienoje 
 
 Skiltyje **Susijusi informacija** dešinėje puslapio pusėje rodoma daugiau informacijos apie prognozes.
 
-- Tinklelyje pasirinkus operaciją, „FastTab“ **Mokėjimo prognozė** rodoma išsami informacija apie mokėjimo prognozes talpyklose **Laiku**, **Vėlavimas** ir **Žymus vėlavimas**. Skiltyje **Svarbiausi veiksniai** pateikiami pagrindiniai veiksniai, lemiantys mokėjimus. Svarbiausi veiksniai yra pasirinktos operacijos ir (arba) tos operacijos kliento atributai.
+- Tinklelyje pasirinkus operaciją, „FastTab“ **Mokėjimo prognozė** rodoma išsami informacija apie mokėjimo prognozes talpyklose **Laiku**, **Vėlavimas** ir **Žymus vėlavimas**.
 - „FastTab“ **Customer Insights** nurodo esamą pasirinktos operacijos kliento SF, mokėjimo ir surinkimo statistiką.
 - „FastTab“ **Kliento retrospektyva** rodo kliento mokėjimo retrospektyvą talpyklose **Laiku**, **Vėlavimas** ir **Žymus vėlavimas**.
 
-Duomenys, esantys skiltyje **Svarbiausi veiksniai** ir „FastTab“ **Customer Insights** bei **Klientų retrospektyva**, padeda paaiškinti mokėjimo prognozes. Tai gali padėti padidinti jūsų pasitikėjimą prognozių veiksmingumu.
+Klientų žinių ir **kliento retrospektyvos** **·** "FastTabs" duomenys padeda paaiškinti mokėjimo numatymes. Tai gali padėti padidinti jūsų pasitikėjimą prognozių veiksmingumu.
 
 ## <a name="improving-the-accuracy-of-payment-predictions"></a>Mokėjimo prognozių tikslinimas
 
 Mokėjimo prognozių tikslumą galite peržiūrėti pasirinkę **Kreditas ir surinkimai \> Sąranka \> „Finance Insights” \> „Finance Insights” parametrai**. Skirtuke **Klientų mokėjimo įžvalgos**, skiltyje **Prognozės modelis** rodomas prognozės modelio tikslumas kaip procentinė dalis.
 
-[![Mokėjimo prognozių tikslumas](./media/finance-insights-parameters-accuracy-2nd.png)](./media/finance-insights-parameters-accuracy-2nd.png)
+[![Mokėjimo prognozių tikslumas.](./media/finance-insights-parameters-accuracy-2nd.png)](./media/finance-insights-parameters-accuracy-2nd.png)
 
-Jei jūsų netenkina tikslumas, pasirinkite saitą **Tikslinti modelį**, kad atidarytumėte „AI Builder“ plėtinio sąsają. Naudodami „AI Builder“ plėtinio sąsają, galite pasirinkti arba atšaukti laukų žymėjimą, kol pasirinksite laukus, kurie, jūsų manymu, yra svarbiausi, norėdami tiksliai prognozuoti mokėjimo tikimybes. Baigę, galite lengvai permokyti numatymo modelį ir publikuoti savo keitimus. Naujai parengtas prognozavimo modelis bus automatiškai naudojamas prognozuojant programoje „Dynamics 365 Finance“.
+Jei jūsų tikslumas jus tenkina, pasirinkite saitą Pagerinti modelio **tikslumą**, kad atidarytumėte AI Builder plėtinio funkcijas. Plėtinio atveju galite pasirinkti arba atšaukti laukų pasirinkimą, kol nepažymėjote laukų, kurie, jūsų nuomone, yra svarbiausios tiksliai AI Builder nuspėjus mokėjimo tikimybes. Baigę, galite lengvai permokyti numatymo modelį ir publikuoti savo keitimus. Naujai parengtas prognozavimo modelis bus automatiškai naudojamas prognozuojant programoje „Dynamics 365 Finance“.
 
-[![„AI Builder“ plėtinio sąsaja](./media/ai-builder.png)](./media/ai-builder.png)
-
-## <a name="release-details"></a>Išleidimo informacija
-
-Bandomąją „Finance Insights” viešosios peržiūros versiją galima įdiegti Jungtinėse Amerikos Valstijose, Europoje ir Jungtinėje Karalystėje. „Microsoft“ palaipsniui į palaikomų regionų sąrašą įtraukia daugiau regionų.
-
-Viešosios peržiūros versijos funkcijos gali ir turi būti įjungtos tik 2 pakopos smėlio dėžės aplinkose. Sąrankos ir DI modelių, sukurtų smėlio dėžės aplinkoje, negalima perkelti į gamybos aplinką. Norėdami gauti daugiau informacijos, žr. [„Microsoft Dynamics 365“ peržiūros versijų papildomos naudojimo sąlygos](../../fin-ops-core/fin-ops/get-started/public-preview-terms.md).
-
-## <a name="privacy-notice"></a>Privatumo pranešimas
-
-Peržiūros versijos (1) gali naudoti mažiau privatumo ir mažiau saugos priemonių nei „Dynamics 365 Finance and Operations“ paslauga, (2) jos nėra įtrauktos į aptarnavimo lygio sutartį (SLA), (3) jos neturėtų būti naudojamos apdoroti asmens duomenims ar kitiems duomenims, kuriems taikomi teisiniai ir atitikimo teisės aktai (4) ir jų palaikymas yra ribotas.
-
+[![AI Builder išplėtimo patirtį.](./media/ai-builder.png)](./media/ai-builder.png)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

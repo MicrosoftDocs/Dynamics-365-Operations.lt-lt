@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 680d5ed929a396bfb2d3c7f05351ab6c93d29256c825c618cb166aac444aa5d6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 46079daafc744421abcbdf0a3539428f2a39f13c
+ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6726902"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920528"
 ---
 # <a name="product-dimensions"></a>Produktų dimensijos
 
@@ -78,7 +78,7 @@ Variantų, kuriuos galite sukurti prekei, kiekis ribojamas pagal galimų produkt
 
 ## <a name="the-version-product-dimension"></a>Produkto matmenų versija
 
-Produkto matmenų versija yra skirta padėti jums palaikyti ir stebėti daugelį produkto versijų per tiekimo grandinę. Versijos sekimas yra itin svarbus gamintojų sėkmei, kurie veikia nuolat besitraukiančio produkto gyvavimo ciklo, pagerintos kokybės ir patikimumo reikalavimų ir padidinto produkto saugos dėmesio pasaulyje.
+Produkto matmenų versija yra skirta padėti jums palaikyti ir stebėti daugelį produkto versijų per tiekimo grandinę. Versijos sekimas yra labai svarbus gamintojams, kurie veikia pasaulio, o produkto ciklo sutraukimas, padidintas kokybės ir patikimumo poreikis ir didesnis dėmesys produkto saugai.
 
 Kaip įprasti produkto matmenys, versija elgsis panašiai į esančio produkto matmenis (dydis, stilius, spalva ir konfigūravimas). Dėl to, galite naudoti jį kitais tikslais kartu su produkto versijų sekimu.
 

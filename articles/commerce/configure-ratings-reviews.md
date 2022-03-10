@@ -14,20 +14,18 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: fe40807338c32fbaff2df11975bbcb2d7fefeb842f5fd85d7421552556465178
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: e3f9ff4b0654ec5fa7548ac62e16ae64f44383e7
+ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718761"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7968107"
 ---
 # <a name="configure-ratings-and-reviews"></a>Įvertinimų ir atsiliepimų konfigūravimas
 
 [!include [banner](includes/banner.md)]
 
 Šioje temoje aprašoma, kaip sukonfigūruoti savo el. prekybos svetainę, kad programoje „Microsoft Dynamics 365 Commerce“ būtų rodomi klientų įverčiai ir apžvalgos.
-
-## <a name="overview"></a>Peržiūra
 
 El. prekybos svetainėse nurodyti įverčiai ir apžvalgos klientams padeda sužinoti apie produktus prieš priimant pirkimo sprendimą, nes jiems parodo, ką apie tuos produktus mano kiti klientai. El. prekybos svetainėse įverčiai ir apžvalgos taip pat yra mechanizmas klientų atsiliepimams apie produktus rinkti. 
 
@@ -89,9 +87,17 @@ Informacijos, kaip konfigūruoti įvertinimus ir atsiliepimų modulius produkto 
 
 [Įvertinimų ir atsiliepimų tvarkymas](manage-reviews.md)
 
-[Įvertinimų ir atsiliepimų modulių produkto informacijos puslapiuose konfigūravimas](ratings-reviews-modules.md)
-
 [Produktų įvertinimų sinchronizavimas sprendime „Dynamics 365 Retail“](sync-product-ratings.md)
+
+[Neautomatinio vadovo įvertinimų ir atsiliepimų publikavimo įjungimas](manual-publish-rating-reviews.md)
+
+[Importuoti ir eksportuoti įvertinimus ir apžvalgas](import-export-reviews.md)
+
+[Konfigūruoti paslaugos autentifikavimą](service-to-service-auth.md)
+
+[DUK apie įvertinimus ir apžvalgas](ratings-reviews-faq.md)
+
+[Įvertinimų ir apžvalgų moduliai](ratings-reviews-modules.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,35 +1,32 @@
 ---
 title: 175 proc. mažėjančios vertės nusidėvėjimas
-description: Šioje temoje apžvelgiamas 175 proc. nusidėvėjimo mažėjančios vertės metodas.
-author: saraschi2
-manager: AnnBe
+description: Šioje temoje pateikta 175 procentų mažėjančios vertės nusidėvėjimo metodo apžvalga.
+author: moaamer
 ms.date: 10/30/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 13911
 ms.assetid: cc5d001f-bcfe-4602-9ec1-9e265e9fd188
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3a21c315aa9a7193c20e4184da20d4d6d38386c4
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 99bd47192d389c373b29a98f5344e1e0c1ab04e6
+ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4446030"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7883268"
 ---
 # <a name="175-percent-reducing-balance-depreciation"></a>175 proc. mažėjančios vertės nusidėvėjimas
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje apžvelgiamas 175 proc. nusidėvėjimo mažėjančios vertės metodas.
+Šioje temoje pateikta 175 procentų mažėjančios vertės nusidėvėjimo metodo apžvalga.
 
 Nustačius ilgalaikio turto nusidėvėjimo šabloną ir puslapio **Nusidėvėjimo šablonai** lauke **Metodas** pasirinkus reikšmę **175 % mažėjanti vertė**, šiam nusidėvėjimo šablonui priskirto ilgalaikio turto nusidėvėjimo procentas yra toks pat kiekvienu nusidėvėjimo laikotarpiu. 
 
@@ -67,24 +64,27 @@ Jei kaip nusidėvėjimo metus pasirinksite **Ataskaitiniai**, galimos toliau nur
 
 ## <a name="example-of-175-reducing-balance-depreciation"></a>175% mažėjančios vertės nusidėvėjimo pavyzdys
 
-|                                |        |
+| Laukas                          | Reikšmė  |
 |--------------------------------|--------|
-| Įsigijimo savikaina               | 11 000 |
+| Įsigijimo savikaina               | 11,000 |
 | Likvidacinė vertė                  | 1000  |
 | Nusidėvėjimo pagrindas              | 10.000 |
 | Aptarnavimo laikas metais             | 5      |
 | Metinio nusidėvėjimo procentas | 35 %    |
 
-Naudojant 175 % mažėjančios vertės nusidėvėjimo metodą, 175 procentai padalijami iš dėvėjimo metų skaičiaus. Kad būtų nustatyta nusidėvėjimo per metus suma, gauta procentinė dalis bus padauginta iš ilgalaikio turto balansinės vertės.
+175 % mažinančio balanso nusidėvėjimo metodas padalija 175 procentų iš paslaugų gyvavimo metų. Kad būtų nustatyta nusidėvėjimo per metus suma, gauta procentinė dalis bus padauginta iš ilgalaikio turto balansinės vertės.
 
 | Laikotarpis | Metinio nusidėvėjimo sumos skaičiavimas | Knygos vertė                  | Balansinės vertė metų pabaigoje |
 |--------|-----------------------------------------------|-----------------------------|---------------------------------------|
-| 1 metai | (11 000 – 1 000) × 35 % = 3 500                | 11 000 – 3 500 = 7 500      | 11 000 – 1 000 – 3 500 = 6 500        |
-| 2 metai | 6 500 × 35 % = 2 275                           | 7 500 – 2 275 = 5 225       | 6 500 – 2 275 = 4 225                 |
-| 3 metai | 4 225 × 35 % = 1 478,75                        | 5 225 – 1 478,75 = 3 746,25 | 4 225 – 1 478,75 = 2 746,25           |
+| 1 metai | (11,000 – 1,000) × 35% = 3,500                | 11,000 – 3,500 = 7,500      | 11,000 – 1,000 – 3,500 = 6,500        |
+| 2 metai | 6,500 × 35% = 2,275                           | 7,500 – 2,275 = 5,225       | 6,500 – 2,275 = 4,225                 |
+| 3 metai | 4,225 × 35% = 1,478.75                        | 5,225 – 1,478.75 = 3,746.25 | 4,225 – 1,478.75 = 2,746.25           |
 
 > [!NOTE] 
 > Paprastai, kai suma, kuri apskaičiuojama naudojant 175 % mažėjančios vertės nusidėvėjimo metodą, tampa mažesnė nei suma, kuri būtų apskaičiuota naudojant tiesiogiai proporcingą metodą, visam likusiam laikotarpiui pereinama prie tiesiogiai proporcingo metodo.
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

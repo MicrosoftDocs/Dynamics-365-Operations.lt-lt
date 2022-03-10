@@ -3,7 +3,6 @@ title: Konkrečių verslo sričių kategorijos ER funkcijų sąrašas
 description: Šioje temoje pateikiama informacijos apie konkrečių verslo sričių funkcijas, palaikomas modulyje Elektroninės ataskaitos (ER).
 author: NickSelin
 ms.date: 12/12/2019
-ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a3d2055be7a755e35d0e88230e19038cf2d02ccc
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
-ms.translationtype: HT
+ms.openlocfilehash: a8f0812e4262a264ffc89b72e0f4fc8c55d6c6822095f550c8f05296bb057a38
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5748020"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6712338"
 ---
 # <a name="list-of-er-functions-in-the-business-domainspecific-category"></a>Konkrečių verslo sričių kategorijos ER funkcijų sąrašas
 

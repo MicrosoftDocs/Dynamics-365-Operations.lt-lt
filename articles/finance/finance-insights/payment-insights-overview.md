@@ -1,31 +1,32 @@
 ---
-title: Klientų mokėjimų numatymai (peržiūros versija)
+title: Kliento mokėjimo prognozės
 description: Šioje temoje aprašomas mokėjimo prognozavimo pajėgumas, kuris gali padėti geriau suprasti įprastas klientų atsiskaitymo praktikas. Ši funkcija gali padėti apibrėžti aplinkybes, kuriomis reikėtų inicijuoti pinigų surinkimo procesus anksčiau, nei galbūt būtumėte tai padarę.
 author: ShivamPandey-msft
-ms.date: 05/26/2020
-ms.topic: article
+ms.date: 11/03/2021
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: 14151
+ms.custom:
+- "14151"
+- intro-internal
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 079ac1e8020c5fb80618b0237c4cf3a747b1e85c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
-ms.translationtype: HT
+ms.openlocfilehash: 04897e3a7765264ab2e664422caa928c49b9cc61
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5827271"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7982044"
 ---
-# <a name="customer-payment-predictions-preview"></a>Klientų mokėjimų numatymai (peržiūros versija)
+# <a name="customer-payment-predictions"></a>Kliento mokėjimo prognozės
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Šioje temoje aprašomas mokėjimo prognozavimo pajėgumas, kuris gali padėti geriau suprasti įprastas klientų atsiskaitymo praktikas. Ši funkcija gali padėti apibrėžti aplinkybes, kuriomis reikėtų inicijuoti pinigų surinkimo procesus anksčiau, nei galbūt būtumėte tai padarę.
 
@@ -37,7 +38,7 @@ Organizacijoms dažnai sudėtinga prognozuoti, kada klientai apmokės sąskaitas
 - Per vėlai pradedami surinkimo procesai
 - Užsakymai, išleidžiami klientams, kurie gali nesumokėti
 
-Kliento mokėjimo prognozės (peržiūra) padeda organizacijoms nuspėti, kada kliento sąskaita faktūra bus apmokėta. Todėl jos gali sukurti surinkimo strategijas, padedančias padidinti tikimybę, kad bus apmokama laiku.
+Kliento mokėjimų numatymas padeda organizacijoms nuspėti, kada bus apmokėta kliento SF. Todėl jos gali sukurti surinkimo strategijas, padedančias padidinti tikimybę, kad bus apmokama laiku.
 
 ## <a name="predictions"></a>Prognozės
 
@@ -53,11 +54,11 @@ Kiekvienai atidarytai SF ši funkcija priskiria tris mokėjimo tikimybes.
 
 Funkcija taip pat pateikia apibendrintą numatomų mokėjimų rodinį.
 
-[![Kaupiamasis mokėjimo prognozių rodinys](./media/graphic-payment-reports.png)](./media/graphic-payment-reports.png)
+[![Kaupiamasis mokėjimo prognozių rodinys.](./media/graphic-payment-reports.png)](./media/graphic-payment-reports.png)
 
 Kiekviena sąskaita faktūra yra priskirta tikimybei, kad bus sumokėta laiku. Jei SF apmokėjimo laiku tikimybė yra mažesnė nei 50 procentų, SF pažymimos raudonu apskritimu, kuris nurodo, kad gali reikėti perduoti jas mokėjimų priežiūros agentui patikrinti.
 
-[![Apmokėjimo tikimybių sąrašas](./media/customer-pymnt-probability-list.png)](./media/customer-pymnt-probability-list.png)
+[![Apmokėjimo tikimybių sąrašas.](./media/customer-pymnt-probability-list.png)](./media/customer-pymnt-probability-list.png)
 
 Kliento mokėjimo prognozių funkcija taip pat pateikia kontekstinę informaciją, kuri paaiškina prognozes. Ši informacija apima svarbiausius veiksnius, kurie paveikė prognozes, dabartinę verslo padėtį su klientu ir retrospektyvinę informaciją apie kliento mokėjimo elgseną.
 
@@ -65,17 +66,6 @@ Daugelyje įmonių surinkimo procesas buvo reaktyvi veikla. Kitaip tariant, iši
 
 ## <a name="methodology"></a>Metodika
 
-Anksčiau paprastai būdavo nelengva sukurti ir įdiegti dirbtinio intelekto (DI) sprendimą. Tam reikėdavo komandos, jungiančios duomenų mokslininkus, srities ekspertus ir inžinierius, kurie ilgą laiką dirba, kad suformuluotų, sukurtų, visuotinai įdiegtų ir išlaikytų naudotiną DI sprendimą. Kliento mokėjimo prognozės leidžia lengvai įdiegti ir naudoti DI sprendimą programoje „Microsoft Dynamics 365 Finance“. „Microsoft“ iš anksto supakuoja DI sprendimus, kurie yra įdiegti ant „Microsoft AI Builder“. Todėl vartotojai gali naudoti DI sprendimą vienu pelės klavišu, norėdami pasinaudoti pažangių prognozių pranašumais. Jei netenkinta prognozių tikslumas, patyręs vartotojas vienu mygtuko spustelėjimu gali atidaryti „AI Builder“ plėtinio sąsają, tada pasirinkti arba panaikinti laukų, skirtų generuoti prognozes, pasirinkimą. Kai esate pasiruošę, galite „išmokyti“ modelį ir publikuoti keitimus. Naujai parengtas modelis bus automatiškai naudojamas prognozuojant programoje „Dynamics 365 Finance“.
-
-## <a name="release-details"></a>Išleidimo informacija
-
-Bandomąją modulio Finansinės įžvalgos viešosios peržiūros versiją galima įdiegti Jungtinėse Amerikos Valstijose, Europoje ir Jungtinėje Karalystėje. „Microsoft“ palaipsniui į palaikomų regionų sąrašą įtraukia daugiau regionų.
-
-Viešosios peržiūros versijos funkcijos turi būti įjungtos tik 2 pakopos smėlio dėžės aplinkose. Sąrankos ir DI modelių, sukurtų smėlio dėžės aplinkoje, negalima perkelti į gamybos aplinką. Norėdami gauti daugiau informacijos, žr. [„Microsoft Dynamics 365“ peržiūros versijų papildomos naudojimo sąlygos](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-terms).
-
-## <a name="privacy-notice"></a>Privatumo pranešimas
-
-Peržiūros versijos (1) gali naudoti mažiau privatumo ir mažiau saugos priemonių nei „Dynamics 365 Finance and Operations“ paslauga, (2) jos nėra įtrauktos į aptarnavimo lygio sutartį (SLA), (3) jos neturėtų būti naudojamos apdoroti asmens duomenims ar kitiems duomenims, kuriems taikomi teisiniai ir atitikimo teisės aktai (4) ir jų palaikymas yra ribotas.
-
+Anksčiau paprastai būdavo nelengva sukurti ir įdiegti dirbtinio intelekto (DI) sprendimą. Tam reikėdavo komandos, jungiančios duomenų mokslininkus, srities ekspertus ir inžinierius, kurie ilgą laiką dirba, kad suformuluotų, sukurtų, visuotinai įdiegtų ir išlaikytų naudotiną DI sprendimą. Kliento mokėjimo prognozės leidžia lengvai įdiegti ir naudoti DI sprendimą programoje „Microsoft Dynamics 365 Finance“. "Microsoft" iš anksto supakuoja AI sprendimus, įtaisytus "Microsoft"AI Builder. Todėl vartotojai gali naudoti DI sprendimą vienu pelės klavišu, norėdami pasinaudoti pažangių prognozių pranašumais. Jei nesate patenkinti numatymais, maitinimo vartotojas gali (dar kartą spustelėjus pelę) įvesti išplėtimo patirtį ir pasirinkti arba išvalyti laukus, kurie naudojami numatymams AI Builder generuoti. Kai esate pasiruošę, galite „išmokyti“ modelį ir publikuoti keitimus. Naujai parengtas modelis bus automatiškai naudojamas prognozuojant programoje „Dynamics 365 Finance“.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

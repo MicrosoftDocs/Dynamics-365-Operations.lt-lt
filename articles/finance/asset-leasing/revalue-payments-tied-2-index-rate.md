@@ -2,27 +2,25 @@
 title: Nuomos mokesčių, susietų su indeksuojama palūkanų norma, pervertinimas
 description: Šioje temoje aprašomas pataisymas, kuris atliekamas išnuomojant atsakomybę už naudojimo teise valdomą turtą, kai kintantys lizingo mokėjimai pasikeičia dėl indeksuojamos palūkanų normos.
 author: moaamer
-manager: Ann Beebe
-ms.date: 10/28/2020
+ms.date: 01/11/2022
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: AssetLeaseIndexRevaluation
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 2cbe54ad92aff2f8a85e47301635fe4b6819e9a7
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.openlocfilehash: 5abd1f5d265c6e8b53903e6df5c52a06b3468880
+ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5012066"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7968061"
 ---
 # <a name="revalue-lease-payments-that-are-linked-to-an-index-rate"></a>Nuomos mokesčių, susietų su indeksuojama palūkanų norma, pervertinimas
 
@@ -45,7 +43,7 @@ Atlikite šiuos veiksmus, kad iš naujo įvertintumėte nuomos mokesčius, susie
 4. Pasirinkite išperkamosios nuomos, kuri turėtų būti įtraukta į foninį apdorojimą, filtrus ir pasirinkite **Gerai**.
 
     Pasirodo dialogo langas **Indeksuojamos palūkanų normos perskaičiavimo peržiūra** ir rodoma nuoma, kuri bus perskaičiuota. Joje taip pat parodomi turto ir įsipareigojimų koregavimai arba kintamosios mokėjimo korekcijos.
-    
+
 5. Kad nuoma nebūtų perskaičiuojama, pasirinkite nuomą, kurią **reikėtų** perskaičiuoti. Jei nepasirenkate jokios nuomos, visas nuomos sutartis bus perkainota. Kai pabaigsite pasirinkite **Gerai** tam, kad perskaičiuotumėte nuomos mokėjimus.
 6. Norėdami peržiūrėti operacijas, kurios buvo sukurtos tam indeksuojamos palūkanų normos perskaičiavimo procesui, pasirinkite proceso ID ir pasirinkite **Operacijos**.
 
@@ -56,7 +54,7 @@ Atlikite šiuos veiksmus, kad iš naujo įvertintumėte nuomos mokesčius, susie
 
 ## <a name="asc-842-leases--index-revaluation"></a>ASC 842 nuoma – indeksuojamos palūkanų normos perskaičiavimas
 
-Norėdami peržiūrėti nuomos perkainojimo proceso įtaką ASC 842 nuomai, atsidarykite nuomos įmokų grafiką. Puslapyje rodomi tik kintamųjų mokėjimai, kurie buvo atlikti arba po perkainojimo datos, pasikeitė dėl indekso perkainojimo. Amortizavimo ir nusidėvėjimo grafikai nesikeičia. Kai sukuriate SF su kintamu mokėjimu, kintamas mokėjimas debetuojamas į kintamosios įmokos registravimo sąskaitą. Be to, kintamojo mokėjimo suma įtraukiama į kredito įrašą, kuris tiesiogiai užregistruojamas tiekėjui, arba užregistruotas pažymų mokėtinų sumų sąskaitoje, atsižvelgiant į nuomos knygos nustatymus.
+Norėdami peržiūrėti nuomos perkainojimo proceso įtaką ASC 842 nuomai, atsidarykite nuomos įmokų grafiką. Puslapyje rodomi tik kintamųjų mokėjimai, kurie buvo atlikti arba po perkainojimo datos, pasikeitė dėl indekso perkainojimo. Amortizavimo ir nusidėvėjimo grafikai nesikeičia. Kai sukuriate SF su kintamu mokėjimu, kintamas mokėjimas debetuojamas į kintamosios įmokos registravimo sąskaitą. Taip pat kintamoji mokėjimo suma pridedama prie kredito įrašo, kuris registruojamas tiesiogiai tiekėjui arba registruojama mokėtinų sumų pažymose, atsižvelgiant į nuomos knygos nustatymą.
 
 Išperkamosios nuomos informacijos puslapyje esančių darbo grafiko eilutės atnaujinamos automatiškai naudojant naują eilutę, kurioje nurodytas naujas indekso koeficientas. Be to, stulpelis nurodo, ar eilutė buvo sukurta neautomatiniu būdu, ar indekso perkainojimo procese.
 
@@ -67,3 +65,8 @@ Norėdami peržiūrėti nuomos perkainojimo proceso įtaką IFRS 16 nuomai, atsi
 Galite peržiūrėti naujai sugeneruotą įmokų grafiką, kuris pradedamas skaičiuoti nuo perkainojimo datos, ir rodyti visą atnaujintą apmokėjimo sumą. Taip pat sukurtas naujas nuomos įsipareigojimų amortizavimo grafikas ir turto nusidėvėjimo grafikas, siekiant atsižvelgti į pakoreguotą mokėjimo grafiką.
 
 Žurnalo įrašas automatiškai užregistruoja derinimo žurnalo įrašą, skirtą pakeisti nuomos mokėjimus, susietus su indekso perkainojimu.
+
+> [!NOTE]
+> Jei paskirstymo mokėjimo sumos parinktis įgalinta informacijos apie nuomą puslapio Bendrajame FastTab, o susijusi knyga **yra** **·** **IFRS** 16, **indekso perkainojimo procesas automatiškai įtraukia įrašą į mokėjimo sumos išskaidimo** dialogo langą. Suma atspindės pakeitimą, kuris atliktas mokėjimui dėl indekso perkainojimo. Įrašas bus pažymėtas kaip Naudojamas **IRFS 16 indekso perkainojimui.**
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,27 +2,27 @@
 title: Siuntos konsolidacijos strategijos
 description: Šioje temoje pateikiama funkcijų, suteikiančių lanksčią siuntos konsolidacijos strategijų konfigūraciją, apžvalga.
 author: GarmMSFT
-manager: tfehr
 ms.date: 05/12/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSShipConsolidationPolicy, WHSShipConsolidationWorkbench, WHSShipConsolidationError, WHSShipConsolidationSetShipment, WHSShipConsolidationPolicySelect, WHSShipPlanningListPage, TMSCarrierGroup, WHSShipConsolidationTemplate, WHSShipConsolidationTemplateApply, WHSShipConsolidationTemplateCreate
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: mirzaab
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: 0823bd6f346e068e28f0f46227dfbdfabb52d238
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
-ms.translationtype: HT
+ms.openlocfilehash: 11ee4beefed02425d4650de3e896e608d3d00ef5
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5233252"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7577965"
 ---
 # <a name="shipment-consolidation-policies"></a>Siuntos konsolidacijos strategijos
+
+[!include [banner](../includes/banner.md)]
 
 Siuntos konsolidacijos procesas, naudojantis siuntos konsolidacijos strategijas, sudaro galimybę automatizuotai siuntos konsolidacijai automatizuoto ir rankinio paleidimo į sandėlį metu. Automatizuota konsolidacija, kuri buvo prieinama iki šios funkcijos įvedimo, turėjo užprogramuotų laukų ir buvo pagrįsta lauku **Konsoliduoti siuntą išleidžiant ją į sandėlį**, nustatytu sandėliui.
 

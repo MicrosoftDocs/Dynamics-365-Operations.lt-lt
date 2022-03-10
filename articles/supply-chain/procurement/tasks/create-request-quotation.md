@@ -1,7 +1,7 @@
 ---
 title: Kurti pasiūlymo patvirtinimą
 description: Šia procedūra parodoma, kaip kurti pasiūlymo patvirtinimą.
-author: kamaybac
+author: Henrikan
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -10,15 +10,15 @@ ms.search.form: PurchRFQCaseTableListPage, PurchCreateRFQCase, InventLocationIdL
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: dabourq
+ms.author: henrikan
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6426b5e655359788822f8dd5c554397ac715c5ed
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
-ms.translationtype: HT
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: b0e9e4d7c31b1e6905abeac03e462ac185f3f489
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5812163"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7565380"
 ---
 # <a name="create-a-request-for-quotation"></a>Kurti pasiūlymo patvirtinimą
 

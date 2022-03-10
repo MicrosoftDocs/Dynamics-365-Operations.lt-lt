@@ -1,8 +1,8 @@
 ---
 title: Atostogų ir neatvykimų tipų konfigūravimas
 description: Darbuotojams skiriamų atostogų tipų nustatymas „Dynamics 365 Human Resources“.
-author: andreabichsel
-ms.date: 06/01/2020
+author: twheeloc
+ms.date: 09/09/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,17 +12,20 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 098f614da80a1e7e3e31b30cea707ecfbd5b0a70
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
-ms.translationtype: HT
+ms.openlocfilehash: 76b8661c4c6d8fe6cf0568be966f1652b95b5442
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6056617"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8067332"
 ---
 # <a name="configure-leave-and-absence-types"></a>Atostogų ir neatvykimų tipų konfigūravimas
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -65,20 +68,52 @@ Atostogų tipai programoje „Dynamics 365 Human Resources“ apibrėžia neatvy
 
 1. Atostogų tipo apvalinimo parinkčių nustatymas. Parinktys yra tokios: **Nėra**, **Į didesnę reikšmę**, **Į mažesnę reikšmę** ir **Į artimiausią reikšmę**. Taip pat galite nustatyti atostogų tipo apvalinimo tikslumą.
 
-2. Atostogų tipo lauko **Šventinių dienų koregavimas** nustatymas. Pasirinkus šią parinktį, „Human Resources“ naudoja šventinių dienų, kurios būna darbo dienomis, skaičių, kad nustatytų, kaip kaupti atostogas šiam atostogų tipui. Pavyzdžiui, jei Kalėdos yra pirmadienį, „Human Resources“ atims vieną dieną iš atostogų tipo, kai apdoros kaupimus.
+2. Atostogų tipo lauko **Šventinių dienų koregavimas** nustatymas. Pasirinkus šią parinktį, bus naudojamas šventinių dienų, kurios būna darbo dienomis, skaičius, kad nustatytų, kaip kaupti atostogas šiam atostogų tipui. Pavyzdžiui, jei Kalėdos yra pirmadienį, „Human Resources“ atims vieną dieną iš atostogų tipo, kai apdoros kaupimus.
 
-   Nustatote šventine dienas darbo laiko kalendoriuje. Daugiau informacijos žr. skyriuje [Darbo laiko kalendoriaus kūrimas](hr-leave-and-absence-working-time-calendar.md)
+   Nustatote šventine dienas darbo laiko kalendoriuje. Daugiau informacijos rasite [Darbo laiko kalendoriaus kūrimas](hr-leave-and-absence-working-time-calendar.md).
    
  3. Nustatykite **Perkeliamų atostogų tipą** atostogų tipui. Pasirinkus šią parinktį, visi perkeliami likučiai bus perkelti į nurodytą atostogų tipą. Perkeliamų atostogų tipas taip pat turi būti nurodytas atostogų plane. 
  
- 4. Apibrėžkite **Galiojimo taisykles** atostogų tipui. Konfigūruodami šią parinktį, galite pasirinkti dienų ar mėnesių vienetą ir nustatyti galiojimo pabaigos trukmę. Taip pat galite nustatyti galiojimo taisyklės įsigaliojimo datą. Įsigaliojimo data naudojama norint nustatyti, kada pradėti paketinę užduotį, kuri apdoroja atostogų galiojimo pabaigą arba datą, kada įsigalioja taisyklė. Kai paketinė užduotis bus nustatyta apdoroti, pats galiojimo laikas visada bus nustatomas atostogų plano pradžios dieną. Pavyzdžiui, plano pradžios data gali būti 2020-01-01, bet taisyklė nebuvo sukurta iki 2020-01-06. Nustatant galiojimo datą 2020-01-06, taisyklė bus apdorota atsižvelgiant į kitų metų ribą, t. y. 2021-01-01. Visi galiojimo pabaigos metu esantys atostogų likučiai bus atimami iš atostogų tipo ir bus įtraukti į atostogų likutį. 
+4. Apibrėžkite **Galiojimo taisykles** atostogų tipui. Konfigūruodami šią parinktį, galite pasirinkti dienų ar mėnesių vienetą ir nustatyti galiojimo trukmę. Galiojimo taisyklės įsigaliojimo data naudojama norint nustatyti, kada pradėti paketinę užduotį, kuri apdoroja atostogų galiojimo pabaigą arba datą, kada įsigalioja taisyklė. Galiojimo laiko pabaiga visada bus kaupimo laikotarpio pradžios data. Pavyzdžiui, jei kaupimo laikotarpio pradžios data yra 2021 m. rugpjūčio 3 d., o galiojimo taisyklė buvo nustatyta 6 mėnesiams, taisyklė bus apdorota remiantis galiojimo poslinkiu iš kaupimo laikotarpio pradžios datos, todėl ji bus vykdoma 2022 m. vasario 3 d. Visi galiojimo pabaigos metu esantys atostogų likučiai bus atimami iš atostogų tipo ir bus įtraukti į atostogų likutį.
  
+## <a name="configure-the-required-attachment-per-leave-type"></a>Konfigūruoti reikalingą priedą atostogų tipui
+
+> [!NOTE]
+> Norėdami naudoti **Reikiamo priedo** lauką, pirmiausia turite įjungti funkciją **Konfigūruoti reikiamą atostogų užklausų priedą** Funkcijų valdyme. Daugiau informacijos apie tai, kaip įjungti funkcijas, rasite [Funkcijų valdymas](hr-admin-manage-features.md).
+
+1. Puslapio **Atostogos ir neatvykimai** skirtuko **Saitai** dalyje **Nustatymas** pasirinkite **Atostogų ir neatvykimų tipai**.
+
+2. Iš sąrašo pasirinkite atostogų ir neatvykimo tipą. Tada skyriuje **Bendra** naudokite **Reikalaujamas priedas** lauką, kad nurodytumėte, ar priedas turi būti įkeltas, kai darbuotojas pateikia naują atostogų užklausą pasirinktam atostogų tipui. 
+
+Darbuotojai turės įkelti priedą, kai pateiks naują atostogų užklausą, kurios atostogų tipui įgalintas **Reikalaujamas priedas** laukas. Norėdami peržiūrėti priedą, kuris buvo įkeltas kaip atostogų užklausos dalis, atostogų užklausų tvirtintojai gali naudoti **Priedų** parinktį jiems priskirtiems darbo elementams. Jei atostogų užklausą galima pasiekti naudojant „Microsoft Teams” Personalo programą, parinktis **Peržiūrėti informaciją** gali būti naudojama peržiūrėti atostogų užklausos informacijai ir priedams.
+
+## <a name="configure-leave-units-hoursdays-per-leave-type"></a>Konfigūruoti atostogų vienetus (valandos/dienos) kiekvienam atostogų tipui
+
+> [!NOTE]
+> Norėdami naudoti atostogų vienetų atostogų tipui funkciją, pirmiausia turite įjungti funkciją **Konfigūruoti atostogų vienetus atostogų tipui** Funkcijų valdyme. Daugiau informacijos apie tai, kaip įjungti funkcijas, rasite [Funkcijų valdymas](hr-admin-manage-features.md).
+
+> [!IMPORTANT]
+> Pagal numatytuosius nustatymus, juridinio subjekto atostogų tipai naudoja atostogų vienetus iš atostogų parametrų konfigūravimo juridinio subjekto lygiu.
+> 
+> Atostogų ir neatvykimų tipo atostogų vienetą galima modifikuoti tik tada, jei nėra jokių to atostogų tipo atostogų operacijų.
+> 
+> Funkcijos išjungti negalima po to, kai ji buvo įjungta.
+
+1. Puslapio **Atostogos ir neatvykimai** skirtuko **Saitai** dalyje **Nustatymas** pasirinkite **Atostogų ir neatvykimų tipai**.
+
+2. Iš sąrašo pasirinkite atostogų ir neatvykimo tipą. Tada skyriaus **Bendra** lauke **Vienetas** pasirinkite atostogų vienetą. Galite pasirinkti **Valandos** arba **Dienos**.
+
+3. Pasirinktinai: jei lauke **Vienetas** pasirinkote **Valandos**, galite naudoti lauką **Įgalinti pusės dienos apibrėžimą**, kad nurodytumėte, ar darbuotojai gali pasirinkti pirmą ar antrą dienos pusę, jei jie prašo išleidimo iš darbo pusei dienos.
+
+Darbuotojai, kurie pateikia naują atostogų užklausą, gali pasirinkti skirtingus atostogų tipus, sudarančius jų atostogų užklausą. Tačiau visi atostogų tipai, pasirinkti kaip vienos atostogų užklausos dalis, turi turėti tą patį atostogų vienetą. Darbuotojai gali peržiūrėti kiekvieno atostogų tipo atostogų vienetą **Prašyti išleidimo iš darbo** formoje.
+
 ## <a name="see-also"></a>Taip pat žiūrėkite
 
 - [Atostogų ir neatvykimų apžvalga](hr-leave-and-absence-overview.md)
 - [Atostogų ir neatvykimų plano kūrimas](hr-leave-and-absence-plans.md)
 - [Darbo laiko kalendoriaus kūrimas](hr-leave-and-absence-working-time-calendar.md)
 - [Atostogų sustabdymas](hr-leave-and-absence-suspend-leave.md)
+- [Sukurkite darbo eigą atostogų pirkimo ir pardavimo užklausai](hr-leave-and-absence-buy-sell-workflow.md)
 
 
 

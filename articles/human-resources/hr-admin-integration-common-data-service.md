@@ -1,120 +1,133 @@
 ---
-title: „Common Data Service“ integravimo konfigūravimas
-description: Galite įjungti arba išjungti integravimą tarp „Common Data Service“ ir „Dynamics 365 Human Resources“. Taip pat galite peržiūrėti sinchronizavimo išsamią informaciją, išvalyti sekimo duomenis ir iš naujo sinchronizuoti objektą, kad būtų lengviau diagnozuoti duomenų problemas tarp dviejų aplinkų.
-author: andreabichsel
-manager: AnnBe
-ms.date: 07/27/2020
+title: „Dataverse“ integravimo konfigūravimas
+description: Šioje temoje aprašomas integravimas tarp „Microsoft Dataverse“ ir „Dynamics 365 Human Resources“.
+author: twheeloc
+ms.date: 08/19/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: CDSIntegrationAdministration
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d9ee4715526e18b33ae4b7e90b081ed5868bb19c
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
-ms.translationtype: HT
+ms.openlocfilehash: c4e68142045b72b139bdda8be707a73e21e568fd
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527934"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8065456"
 ---
-# <a name="configure-common-data-service-integration"></a>„Common Data Service“ integravimo konfigūravimas
+# <a name="configure-dataverse-integration"></a>„Dataverse“ integravimo konfigūravimas
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Galite įjungti arba išjungti integravimą tarp „Common Data Service“ ir „Dynamics 365 Human Resources“. Taip pat galite peržiūrėti sinchronizavimo išsamią informaciją, išvalyti sekimo duomenis ir iš naujo sinchronizuoti objektą, kad būtų lengviau diagnozuoti duomenų problemas tarp dviejų aplinkų.
+[!INCLUDE [PEAP](../includes/peap-2.md)]
 
-Kai išjungiate integravimą, vartotojai gali vykdyti „Human Resources“ arba „Common Data Service“ keitimus, tačiau tie keitimai nėra sinchronizuojami tarp dviejų aplinkų.
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Pagal numatytuosius parametrus duomenų integravimas tarp „Human Resources“ ir „Common Data Service“ yra išjungtas.
+Galite įjungti arba išjungti integravimą tarp „Microsoft Dataverse“ ir „Dynamics 365 Human Resources“. Galite taip pat peržiūrėti sinchronizavimo išsamią informaciją, panaikinti sekimo duomenis ir iš naujo sinchronizuoti lentelę, kad padėtumėte šalinti duomenų problemas tarp dviejų aplinkų.
+
+> [!NOTE]
+> Dėl daugiau informacijos apie „Dataverse“ (anksčiau vadintą „Common Data Service“) ir terminologijos naujinimus, žr. [Kas yra „Microsoft Dataverse“?](/powerapps/maker/data-platform/data-platform-intro)
+
+Kai išjungiate integravimą, vartotojai gali vykdyti „Human Resources“ arba „Dataverse“ keitimus, tačiau tie keitimai nėra sinchronizuojami tarp dviejų aplinkų.
+
+Pagal numatytuosius parametrus duomenų integravimas tarp „Human Resources“ ir „Dataverse“ yra išjungtas.
 
 Galbūt norėsite išjungti integravimą šiais atvejais:
 
 - Jūs užpildote duomenis naudodami duomenų valdymo sistemą ir turite importuoti duomenis kelis kartus, kad jie taptų tinkamos būsenos.
 
-- Yra problemų, susijusių su duomenimis, esančiais „Human Resources“ arba „Common Data Service”. Jei išjungsite integravimą, galite panaikinti įrašą vienoje aplinkoje, jo nepanaikindami kitoje. Kai vėl įjungsite integraciją, įrašas aplinkoje, kurioje jis nebuvo panaikintas, sinchronizuojamas atgal į aplinką, kur jis buvo panaikintas. Sinchronizavimas prasideda, kai kitą kartą paleidžiama paketinė užduotis **„Common Data Service“ integravimo praleistų užklausų sinchronizavimas**.
+- Yra problemų, susijusių su duomenimis, esančiais „Human Resources“ arba „Dataverse”. Jei išjungsite integravimą, galite panaikinti įrašą vienoje aplinkoje, jo nepanaikindami kitoje. Kai vėl įjungsite integraciją, įrašas aplinkoje, kurioje jis nebuvo panaikintas, sinchronizuojamas atgal į aplinką, kur jis buvo panaikintas. Sinchronizavimas prasideda, kai kitą kartą paleidžiama paketinė užduotis **„Dataverse“ integravimo praleistų užklausų sinchronizavimas**.
 
 > [!WARNING]
 > Kai išjungiate duomenų integravimą, įsitikinkite, kad neredaguojate to paties įrašo abiejose aplinkose. Kai vėl įjungsite integravimą, paskutinis redaguotas įrašas bus sinchronizuojamas. Todėl, jei abiejose aplinkose neatliekate tų pačių keitimų, gali būti prarasti duomenys.
 
-## <a name="access-the-common-data-service-integration-page"></a>Prieiga prie „Common Data Service“ integravimo puslapio
+## <a name="access-the-dataverse-integration-page"></a>Prieiga prie „Dataverse“ integravimo puslapio
 
-1. „Human Resources“ egzemplioriuje, kur norite peržiūrėti arba konfigūruoti parametrus integravimui su „Common Data Service“, pasirinkite plytelę **Sistemos administravimas**.
+1. „Human Resources“ egzemplioriuje, kur norite peržiūrėti arba konfigūruoti parametrus integravimui su „Dataverse“, pasirinkite plytelę **Sistemos administravimas**.
 
-    [![Plytelė Sistemos administravimas](./media/hr-select-system-administration.png)](./media/hr-select-system-administration.png)
+    [![Plytelė Sistemos administravimas.](./media/hr-select-system-administration.png)](./media/hr-select-system-administration.png)
 
 2. Pasirinkite skirtuką **Saitai**.
 
-    [![Saitų skirtukas](./media/hr-system-administration-links.png)](./media/hr-system-administration-links.png)
+    [![Saitų skirtukas.](./media/hr-system-administration-links.png)](./media/hr-system-administration-links.png)
 
-3. Dalyje **Integravimai** pasirinkite **„Common Data Service“ konfigūravimas**.
+3. Dalyje **Integravimai** pasirinkite **„Dataverse“ konfigūravimas**.
 
-    [![„Common Data Service“ konfigūracijos saitas](./media/hr-select-common-data-service-configuration.png)](./media/hr-select-common-data-service-configuration.png)
+    [![„Dataverse“ konfigūracijos saitas.](./media/hr-admin-integration-dataverse-select.png)](./media/hr-admin-integration-dataverse-select.png)
 
-## <a name="turn-data-integration-between-human-resources-and-common-data-service-on-or-off"></a>Duomenų integravimo tarp „Human Resources“ ir „Common Data Service“ įjungimas ir išjungimas
+## <a name="turn-data-integration-between-human-resources-and-dataverse-on-or-off"></a>Duomenų integravimo tarp „Human Resources“ ir „Dataverse“ įjungimas ir išjungimas
 
-- Norėdami įjungti integravimą, nustatykite parinktį **Įjungti integravimą į „Common Data Service“** kaip **Taip**.
+- Norėdami įjungti integravimą, nustatykite **Įjungti „Dataverse“ integravimo** parinktį į **Taip** **„Microsoft Dataverse“ integravimo** puslapyje.
 
     > [!NOTE]
-    > Kai įjungiate integravimą, duomenys bus sinchronizuojami kitą kartą, kai vykdoma paketinė užduotis **„Common Data Service“ integravimo praleistų užklausų sinchronizavimas**. Po to, kai paketinė užduotis bus baigta, visi duomenys turėtų būti pasiekiami.
+    > Kai įjungiate integravimą, duomenys bus sinchronizuojami kitą kartą, kai vykdoma paketinė užduotis **„Dataverse“ integravimo praleistų užklausų sinchronizavimas**. Po to, kai paketinė užduotis bus baigta, visi duomenys turėtų būti pasiekiami.
 
 - Norėdami išjungti integravimą, nustatykite parinktį į **Ne**.
 
-[![„Common Data Service“ integravimo įjungimas arba išjungimas](./media/hr-enable-or-disable-common-data-service-integration.png)](./media/hr-enable-or-disable-common-data-service-integration.png)
+[![„Dataverse“ integravimo įjungimas arba išjungimas.](./media/hr-admin-integration-dataverse-enable-disable.png)](./media/hr-admin-integration-dataverse-enable-disable.png)
 
 > [!WARNING]
-> Primygtinai rekomenduojame išjungti „Common Data Service“ integravimą atliekant duomenų perkėlimo užduotis. Dideli duomenų įkėlimai gali reikšmingai pabloginti veikimą. Pavyzdžiui, 2000 darbuotojų atnaujinimas gali užimti kelias valandas, kol integravimas bus įjungtas ir mažiau nei valandą jo išjungimui.  Šiame pavyzdyje pateikti skaičiai yra tik demonstracijos tikslais. Tikslus laiko kiekis įrašų importavimui gali labai skirtis priklausomai nuo daugybės faktorių. 
+> Primygtinai rekomenduojame išjungti „Dataverse“ integravimą atliekant duomenų perkėlimo užduotis. Dideli duomenų įkėlimai gali reikšmingai pabloginti veikimą. Pavyzdžiui, 2000 darbuotojų atnaujinimas gali užimti kelias valandas, kol integravimas bus įjungtas ir mažiau nei valandą jo išjungimui. Šiame pavyzdyje pateikti skaičiai yra tik demonstracijos tikslais. Tikslus laiko kiekis įrašų importavimui gali labai skirtis priklausomai nuo daugybės faktorių.
 
 ## <a name="view-data-integration-details"></a>Duomenų integravimo išsamios informacijos apžvalga
 
-„FastTab“ **Administravimas**, esančiame puslapyje **„Common Data Service“ integravimas**, galite matyti, kaip įrašai siejami tarpusavyje tarp „Human Resources” ir „Common Data Service”.
+**Administravimo** „FastTab“ **„Microsoft Dataverse“ integravimo** puslapyje galite matyti, kaip eilutės yra susietas kartu tarp „Human Resources“ ir „Dataverse“.
 
-- Norėdami peržiūrėti objekto įrašus, pažymėkite objektą lauke **CDS objekto pavadinimas**. Tinklelyje rodomi visi įrašai, kurie yra siejami su pasirinktu objektu.
-
-[![Objekto įrašų peržiūra](./media/hr-common-data-service-configuration-view-entity.png)](./media/hr-common-data-service-configuration-view-entity.png)
+- Norėdami peržiūrėti eilutes, rinkitės lentelę **„Dataverse“ lentelės** laukelyje. Tinklelis rodo visas eilutes, kurios yra siejamos su pasirinkta lentele.
 
 > [!NOTE]
-> Šiuo metu nurodyti ne visi „Common Data Service“ objektai. Tinklelyje rodomi tik tie ojektai, kurie palaiko pasirinktinius laukus. Nauji objektai tampa pasiekiami nuolatiniuose „Human Resources“ leidimuose.
+> Ne visos „Dataverse“ lentelės dabar yra įtrauktos į sąrašą. Tik lentelės, kurios palaiko tinkintų laukelių naudojimą pasirodys tinklelyje. Naujos lentelės taps prieinamos per nuolatinius „Human Resources“ leidimus.
 
 Tinklelyje yra šie laukai:
 
-- **CDS objekto pavadinimas** – objekto, esančio „Common Data Service“, pavadinimas.
-- **CDS objekto nuoroda** – identifikatorius, kurį „Common Data Service“ naudoja įrašui identifikuoti. Ši vertė atitinka „Human Resources“ vertę **RecId**. Galite rasti identifikatorių, kai atidarote „Common Data Service“objektą, esantį „Microsoft Excel“.
-- **„Human Resources“ objekto pavadinimas** – objektas, kuris paskutinį kartą sinchronizavo duomenis į „Common Data Service“. Objektas gali būti arba „Common Data Service“ priešvardis, arba kitas priešvardis.
+- **„Dataverse“ lentelė** – Lentelės pavadinimas „Dataverse“.
+- **„Dataverse“ nuoroda į lentelę** – Identifikatorius, kurį „Dataverse“ naudoja idenfitikuoti įrašą. Ši vertė atitinka „Human Resources“ vertę **RecId**. Galite rasti identifikatorių, kai atversite „Dataverse“ lentelę „Microsoft Excel“.
+- **„Human Resources“ objekto pavadinimas** – „Human Resources“ objektas, kuris paskutinis sinchronizavimo duomenis į „Dataverse“. Objektas gali būti arba „Dataverse“ priešvardis, arba kitas priešvardis.
 - **„Human Resources“ nuoroda** – **RecId** vertė, susieta su „Human Resources“ įrašu.
-- **Panaikintas iš CDS** – reikšmė, nurodanti, ar įrašas buvo panaikintas iš „Common Data Service“.
+- **Pašalintas iš „Dataverse“** – Vertė, kuri identifikuoja, ar eilutė buvo pašalinta iš „Dataverse“.
 
-## <a name="remove-the-association-of-a-record-in-human-resources-from-common-data-service"></a>Įrašo, esančio „Human Resources“ susiejimo šalinimas iš „Common Data Service“
+> [!NOTE]
+> Įrašai „Human Resources“ atitinka eilutes „Dataverse“.
 
-Jei jums kyla problemų sinchronizuojant duomenis tarp „Human Resources“ ir „Common Data Service”, galite jas išspręsti išvalydami sekimą ir leisdami iš naujo nustatyti sekimo lentelę. Jei pašalinsite susiejimą ir pakeisite arba panaikininsite įrašą, esantį „Common Data Service“, keitimai nebus sinchronizuojami su „Human Resources“. Atlikus keitimų programoje „Human Resources“, sukuriamas naujas sekimo įrašas ir atnaujinamas įrašas, esantis „Common Data Service“.
+## <a name="remove-the-association-of-a-human-resources-record-from-a-dataverse-row"></a>Pašalinkite „Human Resources“ sąsajos įrašą iš „Dataverse“ eilutės
 
-- Norėdami pašalinti įrašo susiejimą tarp „Human Resources“ ir „Common Data Service“, lauke **CDS objekto pavadinimas** pasirinkite objektą, tada pasirinkite **Valyti sekimo informaciją**.
+Jei jums kyla problemų sinchronizuojant duomenis tarp „Human Resources“ ir „Dataverse”, galite jas išspręsti išvalydami sekimą ir leisdami iš naujo nustatyti sekimo lentelę. Jei pašalinsite sąsają ir tada keisite ar naikinsite eilutę „Dataverse“, keitimai nebus sinchronizuojami „Human Resources“. Jei darote keitimus „Human Resources“, naujas sekimo įrašas yra kuriamas ir eilutė yra naujinama „Dataverse“.
 
-[![Sekimo informacijos valymas](./media/hr-common-data-service-configuration-clear-tracking.png)](./media/hr-common-data-service-configuration-clear-tracking.png)
+- Pašalinkite „Human Resources“ sąsajos įrašą ir „Dataverse“eilutes pasirinkdami lentelę **„Dataverse“ lentelės** laukelyje ir tada rinkitės **Naikinti sekimo informaciją**.
 
-Išvalę sekimą, norėdami vykdyti visišką objekto sinchronizavimą, žr. tolesnę procedūrą.
+[![Sekimo informacijos valymas.](./media/hr-admin-integration-dataverse-clear-tracking.png)](./media/hr-admin-integration-dataverse-clear-tracking.png)
 
-## <a name="sync-an-entity-between-human-resources-and-common-data-service"></a>Objekto sinchronizavimas tarp „Human Resources“ ir „Common Data Service“
+Norėdami vykdyti visą sinchronizavimą lentelėje, kai ištrinsite sekimą, žr. kitą procedūrą.
+
+## <a name="sync-a-table-between-human-resources-and-dataverse"></a>Sinchronizuoti lentelę tarp „Human Resources“ ir „Dataverse“
 
 Naudokite šią procedūrą, kai:
 
-- „Common Data Service” keitimai atliekami per ilgai, kad būtų rodomi programoje „Human Resources“.
+- „Dataverse” keitimai atliekami per ilgai, kad būtų rodomi programoje „Human Resources“.
 
 - Išvalę sekimą turite atnaujinti sekimo lentelę.
 
-Norėdami vykdyti visišką objekto sinchronizavimą tarp „Human Resources“ ir „Common Data Service”, atlikite toliau pateiktus veiksmus.
+Norėdami vykdyti visą sinchronizavimą lentelėje tarp „Human Resources“ ir „Dataverse“:
 
-1. Lauke **CDS objekto pavadinimas** pasirinkite objektą.
+1. Rinkitės lentelę **„Dataverse“ lentelės** laukelyje.
 
 2. Pasirinkite **Sinchronizuoti dabar**.
 
-[![Visiško sinchronizavimo paleidimas](./media/hr-common-data-service-configuration-sync-now.png)](./media/hr-common-data-service-configuration-sync-now.png)
+[![Visiško sinchronizavimo paleidimas.](./media/hr-admin-integration-dataverse-sync-now.png)](./media/hr-admin-integration-dataverse-sync-now.png)
+
+## <a name="see-also"></a>Taip pat žiūrėkite
+
+[„Dataverse“ lentelės](hr-developer-entities.md)<br>
+[Konfigūruokite „Dataverse“ virtualias lenteles](hr-admin-integration-common-data-service-virtual-entities.md)<br>
+[„Human Resources“ virtualiųjų lentelių DUK](hr-admin-virtual-entity-faq.md)<br>
+[Kas yra „Microsoft Dataverse“?](/powerapps/maker/data-platform/data-platform-intro)<br>
+[Terminologijos naujinimai](/powerapps/maker/data-platform/data-platform-intro#terminology-updates)
 
 
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

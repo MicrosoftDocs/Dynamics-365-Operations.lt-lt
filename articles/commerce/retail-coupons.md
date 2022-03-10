@@ -1,12 +1,10 @@
 ---
 title: Mažmeninės prekybos pardavimo kuponų nustatymas
-description: Šioje temoje apžvelgiami kuponai ir paaiškinama, kaip juos nustatyti.
-author: scott-tucker
-manager: AnnBe
-ms.date: 06/04/2020
+description: Šioje temoje apžvelgiami kuponai ir paaiškinama, kaip juos nustatyti in Dynamics 365 Commerce programoje.
+author: josaw1
+ms.date: 10/05/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailCoupon, RetailParameters, RetailSharedParameters
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: josaw
 ms.custom: ''
 ms.search.region: Global
 ms.search.industry: retail
-ms.author: scotttuc
+ms.author: josaw
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: eb3b505af826b1881aa8245fff66e6f05ad7486a
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.openlocfilehash: 6a2ee38139f20b883bdfa5f0776951246f763f5f
+ms.sourcegitcommit: f699dbc21a06dbfb3fb299b789b428ea8d643868
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4979680"
+ms.lasthandoff: 10/05/2021
+ms.locfileid: "7603128"
 ---
 # <a name="set-up-coupons-for-retail-sales"></a>Mažmeninės prekybos pardavimo kuponų nustatymas
 
@@ -40,6 +38,10 @@ Norint sukurti kuponą, atskirai sukuriami nuolaida ir kuponas. Tada jie susieja
 
 > [!NOTE]
 > Susiejus kuponą su nuolaida, keli nuolaidos puslapyje „Commerce“ esantys laukai tampa tik skaitomais, nes jie priklauso nuo kupono nustatymų. Šie laukai apima būsenos ir standartinių datų intervalų laukus.
+> 
+> Kai naudojate kuponą skambučių centro kanale, turite pasirinkti **Perskaičiuoti** mygtuką **(Skirtukas Parduoti > Skaičiuoti > Perskaičiuoti)**, kad būtų galima taikyti kupono nuolaidą. Šis papildomas veiksmas bus pašalintas būsimame leidime.
+
+Norėdami pardavimo operacijai taikyti kuponą pardavimo punkte (POS), galite naudoti **Kupono kodą** arba **Kupono brūkšninį kodą**. Norint naudoti **Kupono kodą**, **Pridėti kupono kodą** operacija turi būti sukonfigūruota elektroninio kasos aparato **Sandoriai** [ekrano išdėstyme](pos-screen-layouts.md). Pasirinkite **Įtraukti kupono kodą** ir įveskite kupono kodą. Arba norėdami naudoti **Kupono brūkšninį kodą**, nuskaitykite arba įveskite brūkšninį kodą naudodami skaitinę klaviatūrą **Sandorių** ekrane.
 
 ### <a name="limited-use-coupons"></a>Riboto naudojimo kuponai
 
@@ -81,3 +83,6 @@ Kuponų funkcijos apima kelias atskiras funkcijas. „Commerce“ būstinė (ang
 - **Būstinė yra iš dalies atnaujinama, tačiau „Commerce Scale Unit“ ir EKA nėra atnaujinami.** Atnaujinant būstinę, atnaujinami kuponų ir nuolaidų puslapiai, taip pat atnaujinamas „Commerce“ kainų mechanizmas. Jei atnaujinamas tik vienas iš šių dviejų komponentų, kai kurie „Commerce“ puslapiai neatitiks kainos apskaičiavimo duomenų. Todėl skaičiuojant nuolaidas galima gauti netikėtų rezultatų arba gali įvykti klaidų.
 - **Būstinė yra iš dalies atnaujinama, tačiau „Commerce Scale Unit“ ir EKA nėra atnaujinami (N-1).** Kadangi ne visas parduotuves galima atnaujinti tuo pačiu metu, prieš atnaujindami parduotuves rekomenduojame atnaujinti būstinę. Scenarijuje N-1 naujų su kuponais susijusių funkcijų nebus galima naudoti dar neatnaujintose parduotuvėse. Pavyzdžiui, kuponų funkcijos pradeda naudoti „neįtraukimo“ eilutes. Jei naudodami nuolaidą pašalinsite eilutes, jos nebus pritaikytos parduotuvėje, kurioje veikia senesnė versija.
 - **Būstinė nėra atnaujinama, tačiau „Commerce Scale Unit“ ir EKA yra atnaujinami (N+1).** Kadangi atnaujintas „Commerce Scale Unit“ kainų mechanizmas gali apskaičiuoti kainą seniems nuolaidų kodams, atnaujinimas tam neturėtų daryti jokios įtakos.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

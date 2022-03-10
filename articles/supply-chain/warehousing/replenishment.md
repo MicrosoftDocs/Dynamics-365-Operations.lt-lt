@@ -3,7 +3,7 @@ title: Papildymo apžvalga
 description: Šioje temoje aprašomos papildymo strategijos, skirtos sandėliams, kuriuose naudojamos modulio Sandėlio valdymas funkcijos.
 author: Mirzaab
 ms.date: 02/19/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: WHSReplenishmentTemplates, WHSReplenishmentTemplates, WHSInventFixedLocation, WHSRequestType
@@ -18,12 +18,12 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e381af433eb3041d92ddfe375e6b4c75c1feb7c2
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
-ms.translationtype: HT
+ms.openlocfilehash: 7681294c1c05f1ca93330c948fc454b6460cb41c
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6335825"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7985789"
 ---
 # <a name="replenishment-overview"></a>Papildymo apžvalga
 

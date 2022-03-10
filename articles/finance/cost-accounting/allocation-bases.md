@@ -2,11 +2,9 @@
 title: Paskirstymo bazės
 description: Šioje temoje pateikiama informacija apie paskirstymo bazes. Paskirstymo bazės yra pagrindiniai kaštų apskaitos komponentai ir dažniausiai naudojami paskirstant pridėtines išlaidas.
 author: AndersGirke
-manager: AnnBe
 ms.date: 05/24/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CAMDimensionMember, CAMAllocationBaseDetail, CAMFormulaAllocationBaseDetail, CAMAllocationBasePreview, CAMAllocationBase, CAMCostAllocationRule, CAMPredefinedMemberAllocationBase
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: f775b09b973a4d34e77d568a5f3b2bd35a7dfdcf
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.openlocfilehash: 2e51d0320d66a2ae094573735df96bc9bc3f93d359f3bbeab2e5cec3081dddbe
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4976221"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6743054"
 ---
 # <a name="allocation-bases"></a>Paskirstymo bazės 
 
@@ -214,7 +212,7 @@ Apdorojus statistinės priemonės šaltinio duomenis kaštų apskaitoje bus suku
 
 **Statistiniai įrašai**
 
-| Išlaidų objektas |    | Ataskaitinė data | Statistinės dimensijos narys |    aprašymas          | Reikšmė |
+| Išlaidų objektas | Pavadinimas / vardas ir (arba) pavardė   | Apskaitos data | Statistinės dimensijos narys |    aprašymas          | Reikšmė |
 |-------------|----|-----------------|------------------------------|-------------------------|-----------|
 | CC001       | Personalas | 2017-01-31      | Elektros energija                  | Elektros energijos suvartojimas | 2,450.00  |
 | CC002       | FI | 2017-01-31      | Elektros energija                  | Elektros energijos suvartojimas | 4,100.00  |
@@ -406,9 +404,9 @@ Naudodamiesi peržiūros funkcija galite patikrinti sukurtą formulės paskirsty
 
 **Paskirstymo bazės informacija**
 
-| Išlaidų objektas |    | Formulė                                                                                                                             | Reikšmė |
+| Išlaidų objektas |  Pavadinimas / vardas ir (arba) pavardė  | Formulė                                                                                                                             | Reikšmė |
 |-------------|----|-------------------------------------------------------------------------------------------------------------------------------------|-----------|
-| CC001       | Personalas | ((2 450,00 \> 10 000,00) × ((10 000,00 × 0,75) + (2 450,00 – 10 000,00) × 1,15)) + ((2 450,00 \<= 10 000,00) × 2 450,00 × 0,75)     | 1,837.50  |
+| CC001       | HR | ((2 450,00 \> 10 000,00) × ((10 000,00 × 0,75) + (2 450,00 – 10 000,00) × 1,15)) + ((2 450,00 \<= 10 000,00) × 2 450,00 × 0,75)     | 1,837.50  |
 | CC002       | FI | ((4 100,00 \> 10 000,00) × ((10 000,00 × 0,75) + (4 100,00 – 10 000,00) × 1,15)) + ((4 100,00 \<= 10 000,00) × 4 100,00 × 0,75)     | 3,075.00  |
 | CC003       | AP | ((15 000,00 \> 10 000,00) × ((10 000,00 × 0,75) + (15 000,00 – 10 000,00) × 1,15)) + ((15 000,00 \<= 10 000,00) × 15 000,00 × 0,75) | 1,3250.00 |
 
@@ -429,3 +427,6 @@ Toliau pateikiamas išlaidų paskirstymo taisyklės pavyzdys, kai fiksuota elekt
 |    CC002    |     FI      | 3,075.00  | (3 075,00 ÷ 18 162,50) × suma  |
 |    CC003    |     AP      | 13,250.00 | (13 250,00 ÷ 18 162,50) × suma |
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

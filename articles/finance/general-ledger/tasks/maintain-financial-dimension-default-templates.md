@@ -2,11 +2,9 @@
 title: Finansinių dimensijų numatytųjų šablonų tvarkymas
 description: Šioje temoje parodyta, kaip nustatyti finansinės dimensijos numatytuosius šablonus.
 author: aprilolson
-manager: AnnBe
 ms.date: 07/30/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: FinancialDimensionDefaultTemplates, DimensionLookup
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7a03a277ef3ccc6796bc0a4f081dcec0d9a51fb7
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
-ms.translationtype: HT
+ms.openlocfilehash: 2f8e5709639ac256a733546e54a49b11c4cae24e18577792a0c6cae45c8d517d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5240695"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6748167"
 ---
 # <a name="maintain-financial-dimension-default-templates"></a>Finansinių dimensijų numatytųjų šablonų tvarkymas
 

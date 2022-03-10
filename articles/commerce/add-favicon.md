@@ -2,11 +2,9 @@
 title: Įtraukti parankinių piktogramą
 description: Šioje temoje paaiškinama, kaip į savo svetainę įtraukti parankinių piktogramą.
 author: bicyclingfool
-manager: annbe
 ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 786ba02c312b7cdb3cf7f0689737084887d536bc
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
-ms.translationtype: HT
+ms.openlocfilehash: 080ef4da7313bd6b9d91e616f576b3ff774509d9
+ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5206348"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "7964737"
 ---
 # <a name="add-a-favicon"></a>Įtraukti parankinių piktogramą
 
@@ -29,9 +27,7 @@ ms.locfileid: "5206348"
 
 Šioje temoje paaiškinama, kaip į savo svetainę įtraukti parankinių piktogramą.
 
-## <a name="overview"></a>Peržiūrėti
-
-Parankinių piktogrma yra mažas grafikos failas, rodomas žiniatinklio naršyklės skirtuke, adresų juostoje, naršymo retrospektyvoje, žymelėse, parankiniuose ir kitose vietose. Rekomenduojame parankinių piktogramą įtraukti į savo svetainę, nes ji vaizduoja ir sustiprina jūsų prekės ženklą bei jūsų svetainę padeda atskirti nuo kitų svetainių, kuriose lankosi jūsų klientai.
+Parankinių piktograma yra mažas grafikos failas, rodomas žiniatinklio naršyklės skirtuke, adresų juostoje, naršymo retrospektyvoje, žymelėse, parankiniuose ir kitose vietose. Rekomenduojame parankinių piktogramą įtraukti į savo svetainę, nes ji vaizduoja ir sustiprina jūsų prekės ženklą bei jūsų svetainę padeda atskirti nuo kitų svetainių, kuriose lankosi jūsų klientai.
 
 Nors į svetainę galima įtraukti kelias įvairių dydžių ir failų tipų parankinių piktogramas, šioje temoje parodyta, kaip įtraukti vieną parankinių piktogramą. Tačiau tas pats procesas ir vieta naudojami norint įtraukti daugiau parankinių piktogramų.
 
@@ -89,8 +85,6 @@ Kai peržiūrite puslapius, pagrįstus šablonu, į kurį įtraukėte metažymė
 [Pasirinkti svetainės temą](select-site-theme.md)
 
 [Darbas su CSS perrašymo failais](css-override-files.md)
-
-[Įtraukti pasveikinimo pranešimą](add-welcome-message.md)
 
 [Įtraukti informaciją apie autorių teises](add-copyright-notice.md)
 

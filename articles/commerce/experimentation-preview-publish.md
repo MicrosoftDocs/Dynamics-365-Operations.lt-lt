@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 52ca23e5aaeb7058853fed2241d5804180fa7f8d
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
-ms.translationtype: HT
+ms.openlocfilehash: 41957befe109102aaa7d3a5783b54f96824dfe76a25ab787f94afc778c08fca5
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5798968"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6740388"
 ---
 # <a name="preview-and-publish-an-experiment"></a>Eksperimento peržiūra ir publikavimas
 
 Šioje temoje aprašoma, kaip peržiūrėti ir publikuoti jūsų eksperimentą „Dynamics 365 Commerce” po to, kai [prijungėte eksperimentą ir redagavote variacijas](experimentation-connect-edit.md). Toliau pateiktoje diagramoje rodomi visi veiksmai, susiję su eksperimento nustatymu ir vykdymu „e-Commerce“ svetainėje „Dynamics 365 Commerce”. Papildomi veiksmai aprašomi kitose temose.
 
-[ ![Vartotojo eksperimentavimo kelionė – peržiūra ir publikavimas](./media/experimentation_preview_publish.svg) ](./media/experimentation_preview_publish.svg#lightbox)
+[ ![Vartotojo eksperimentavimo kelionė – peržiūra ir publikavimas.](./media/experimentation_preview_publish.svg) ](./media/experimentation_preview_publish.svg#lightbox)
 
 ## <a name="preview-your-experiment-variations"></a>Jūsų eksperimento variacijų peržiūra
 Galite peržiūrėti jūsų variacijas ir jas redaguoti, kad jos atrodytų taip, kaip norite.

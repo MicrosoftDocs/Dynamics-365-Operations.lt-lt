@@ -1,31 +1,33 @@
 ---
 title: Atostogų ir neatvykimų plano kūrimas
-description: Atostogų planų, skirtų skirtingoms atostogų rūšims, kūrimas programoje „Dynamics 365 Human Resources“.
-author: andreabichsel
-manager: AnnBe
-ms.date: 09/11/2020
+description: Šioje temoje aprašoma, kaip sukurti atostogų planus Dynamics 365 Human Resources įvairių rūšių atostogoms.
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: LeavePlanFormPart, LeaveAbsenceWorkspace
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: cb42860292c5e3e654917cf2f62b525993aa795a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 9267b4d4025ef0e5cec2d3e995785a6291c850e5
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419771"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070255"
 ---
 # <a name="create-a-leave-and-absence-plan"></a>Atostogų ir neatvykimų plano kūrimas
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Atostogų ir neatvykimo planų, skirtų kiekvienam jūsų siūlomam atostogų tipui, nustatymas programoje „Dynamics 365 Human Resources“. Atostogų ir neatvykimų planai gali būti kaupiami skirtingu dažnumu, pvz., kas metus, kas mėnesį arba kas pusę mėnesio. Planus taip pat galima apibrėžti kaip subsidiją, kai vienas kaupimas įvyksta tam tikrą datą. Pavyzdžiui, galite sukurti planą, pagal kurį kasmet bus suteikiamos švenčių dienos.
 
@@ -383,3 +385,6 @@ Prognozuojamas balansas (30) = sukaupta suma (10 x 1) + esamas balansas (40) –
 - [Atostogų ir neatvykimų apžvalga](hr-leave-and-absence-overview.md)
 - [Atostogų ir neatvykimų tipų konfigūravimas](hr-leave-and-absence-types.md)
 - [Atostogų ir neatvykimų kaupimo planai](hr-leave-and-absence-accrue.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

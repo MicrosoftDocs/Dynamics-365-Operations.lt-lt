@@ -1,12 +1,10 @@
 ---
-title: Sugeneruotų ER ataskaitų rezultatų sekimo ir palyginimo su bazinėmis vertėmis patobulinimai
-description: Šioje temoje pateikiama informacija apie tai, kaip pagerinta ER pagrindinės informacijos funkcija „Microsoft Dynamics 365 for Finance and Operations“ 10.0.3 versijoje (2019 m. birželio mėn.).
+title: Patobulinkite sugeneruotų ER ataskaitų rezultatų sekimą, kad palygintumėte su bazinėmis vertėmis
+description: Šioje temoje aprašomi ER bazinio plano funkcijos 10.0.3 „Microsoft Dynamics 365 for Finance and Operations” versijoje (2019 m. birželio mėn) patobulinimai.
 author: NickSelin
-manager: AnnBe
 ms.date: 06/19/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
@@ -16,14 +14,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 55e821b27f80383d8a8dc7a2d46f87e17c554078
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
-ms.translationtype: HT
+ms.openlocfilehash: b6e8299dd57730486c731cd38578bd5ff6b8a1754f145432e300c1217c6dd640
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682852"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6760755"
 ---
-# <a name="improvements-in-tracing-the-results-of-generated-er-reports-and-comparing-them-with-baseline-values"></a>Sugeneruotų ER ataskaitų rezultatų sekimo ir palyginimo su bazinėmis vertėmis patobulinimai
+# <a name="improve-tracing-the-results-of-generated-er-reports-to-compare-with-baseline-values"></a>Patobulinkite sugeneruotų ER ataskaitų rezultatų sekimą, kad palygintumėte su bazinėmis vertėmis
 
 [!include[banner](../includes/banner.md)]
 
@@ -59,7 +57,7 @@ Norėdami atlikti šiame pavyzdyje nurodytus veiksmus, pirmiausia turite atlikti
 
 Įtraukta pasirinkto formato **Formatas, kuris turi mokytis ER pagrindinę informaciją** pagrindinė informacija, tačiau dar neįtrauktos šios pagrindinės informacijos pagrindinės taisyklės.
 
-![Elektroninės ataskaitos formato bazinis puslapis](media/GER-BaselineSample-AddBaseline2.PNG "Elektroninės ataskaitos (ER) formato bazinio puslapio ekrano kopija")
+![Elektroninės ataskaitos formato bazinis puslapis, dar nėra taisyklių.](media/GER-BaselineSample-AddBaseline2.PNG "Elektroninės ataskaitos (ER) formato bazinio puslapio ekrano kopija")
 
 ### <a name="make-a-new-baseline-rule"></a>Naujos pagrindinės taisyklės kūrimas
 
@@ -72,7 +70,7 @@ Norėdami atlikti šiame pavyzdyje nurodytus veiksmus, pirmiausia turite atlikti
 7. Pasirinkite **Gerai**.
 8. Pasirinkite **Pagrindinė informacija**.
 
-    ![Elektroninės ataskaitos formato bazinis puslapis](media/GER-BaselineSample-ReviewAddedBaselineLine.PNG "Elektroninės ataskaitos (ER) formato bazinio puslapio ekrano kopija")
+    ![Elektroninės ataskaitos formato bazinio puslapis, bazinės eilutės pasirinktos.](media/GER-BaselineSample-ReviewAddedBaselineLine.PNG "Elektroninės ataskaitos (ER) formato bazinio puslapio ekrano kopija")
 
     Sugeneruotas siuntimo failas buvo automatiškai pridėtas prie vykdyto ER formato pagrindinės informacijos. Pagrindinė taisyklė buvo automatiškai įtraukta į šią pagrindinę informaciją; joje yra ir nuoroda į pridėtą failą.
 
@@ -112,14 +110,14 @@ Norėdami atlikti šiame pavyzdyje nurodytus veiksmus, pirmiausia turite atlikti
 13. Pasirinkite **Įrašyti**, tada pasirinkite **Testuoti**.
 14. Norėdami dar kartą testuoti sukonfigūruotą išraišką pasirinkite **Testuoti**.
 
-    ![Formulės dizaino įrankio puslapis](media/GER-BaselineSample-DefineProcessingDTExpression.PNG "Formulės kūrimo įrankio puslapio ekrano kopija")
+    ![Formulės dizaino įrankio puslapis.](media/GER-BaselineSample-DefineProcessingDTExpression.PNG "Formulės kūrimo įrankio puslapio ekrano kopija")
 
     > [!NOTE]
     > Skirtuke **Testo vykdymo rezultatas** nurodoma, kad sukonfigūruota išraiška ją iškvietus pateikia kitą datos ir laiko vertę.
 
 15. Uždarykite puslapį **Formulių kūrimo įrankis** ir pasirinkite **Įrašyti**.
 
-    ![Formato dizaino įrankio puslapis](media/GER-BaselineSample-FormatMappingDesign2.PNG "Formato kūrimo įrankio puslapio ekrano kopija")
+    ![Formato dizaino įrankio puslapis.](media/GER-BaselineSample-FormatMappingDesign2.PNG "Formato kūrimo įrankio puslapio ekrano kopija")
 
 16. Uždarykite puslapį **Formato dizaino įrankis**.
 
@@ -130,7 +128,7 @@ Norėdami atlikti šiame pavyzdyje nurodytus veiksmus, pirmiausia turite atlikti
 3. Pagrindinės informacijos sąraše pasirinkite pagrindinę informaciją, kuri sukonfigūruota formatui **Formatas, kuris turi mokytis ER pagrindinę informaciją**.
 4. Norėdami pašalinti anksčiau sukonfigūruotą pagrindinę taisyklę „FastTab“ **Pagrindinė informacija** pasirinkite **Naikinti**.
 
-![Elektroninės ataskaitos formato bazinis puslapis](media/GER-BaselineSample-AddBaseline3.PNG "Elektroninės ataskaitos (ER) formato bazinio puslapio ekrano kopija")
+![Elektroninės ataskaitos formato bazinis puslapis, panaikinta.](media/GER-BaselineSample-AddBaseline3.PNG "Elektroninės ataskaitos (ER) formato bazinio puslapio ekrano kopija")
 
 ### <a name="define-replacements-for-bindings-of-designed-er-format"></a>Apibrėžkite sukurto ER formato susiejimų keitimus
 
@@ -138,7 +136,7 @@ Norėdami atlikti šiame pavyzdyje nurodytus veiksmus, pirmiausia turite atlikti
 2. Formato komponentų medyje išplėskite **Išvestis**, išplėskite **Išvestis\\Dokumentas**, tada pažymėkite žymės langelį **Išvestis\\Dokumentas\\ProcessingDateTime**.
 3. Pasirinkite **Gerai**.
 
-![Elektroninės ataskaitos formato bazinis puslapis](media/GER-BaselineSample-AddBaseline4.PNG "Elektroninės ataskaitos (ER) formato bazinio puslapio ekrano kopija")
+![Elektroninės ataskaitos formato bazinis puslapis, komponentai.](media/GER-BaselineSample-AddBaseline4.PNG "Elektroninės ataskaitos (ER) formato bazinio puslapio ekrano kopija")
 
 Pasirinktas ER formato komponentas buvo įtrauktas į komponentų sąrašą „FastTab“ **Pakeitimai**. Kai pagrindinis ER formatas vykdomas derinimo režimu, kiekvieno komponento formato susiejimas bus pakeistas susiejiimu, kuris parodytas stulpelyje **Susiejimas**. Norėdami pakeisti numatytąjį susiejimą komponento, kuris yra nurodytas „FastTab“ **Pakeitimai**, pasirinkite **Redaguoti**.
 
@@ -146,7 +144,7 @@ Pasirinktas ER formato komponentas buvo įtrauktas į komponentų sąrašą „F
 
 Atlikite veiksmus, aprašytus anksčiau šios temos skyriuje „Pavyzdys. Automatizuokite pagrindinių taisyklių nustatymą“. Pranešimas įspėja, kad siunčiamas failas buvo sugeneruotas naudojant pagrindinės informacijos parametrus ir kad įvyko priverstinis formato susiejimų pakeitimas.
 
-![Pranešimas konfigūracijų puslapyje](media/GER-BaselineSample-FormatRunToMakeBaselineFile4.PNG "Pranešimo konfigūracijų puslapyje ekrano kopija")
+![Pranešimas konfigūracijų puslapyje.](media/GER-BaselineSample-FormatRunToMakeBaselineFile4.PNG "Pranešimo konfigūracijų puslapyje ekrano kopija")
 
 ### <a name="suppress-warnings-about-the-replacement-of-format-bindings"></a>Įspėjimų apie formato susiejimų pakeitimą slėpimas
 
@@ -194,11 +192,11 @@ Eksportuotus pagrindinės informacijos parametrus galima importuoti į kitą apl
 
 Norėdami importuoti pagrindinės informacijos parametrus iš vietoje saugomo XML failo puslapyje **Elektroninių ataskaitų formato pagrindinė informacija** pasirinkite **Importuoti**, tada pasirinkite **Naršyti**, kad pasirinktumėte XML failą.
 
-![Bazinių parametrų importavimo dialogo langas](media/GER-BaselineSample-ImportBaseline1.PNG "Bazinių parametrų importavimo dialogo lango ekrano kopija").
+![Bazinių parametrų importavimo dialogo langas.](media/GER-BaselineSample-ImportBaseline1.PNG "Bazinių parametrų importavimo dialogo lango ekrano kopija")
 
 Norėdami importuoti pagrindinės informacijos parametrus iš XML failo, kuris saugomas „Microsoft SharePoint Server“ atsižvelgdami į dabartinius dokumentų valdymo parametrus ir pasirinktą dokumento tipą puslapyje **Elektroninių ataskaitų formato pagrindinė informacija** pasirinkite **Importuoti iš šaltinio**. Tada pasirinkti dokumento tipą ir XML failą. Būtinas dokumento tipas, kad būtų galima pasiekti „SharePoint“ aplanką, turi būti sukonfigūruotas iš anksto.
 
-![Importavimo iš šaltinio dialogo langas](media/GER-BaselineSample-ImportBaseline2.PNG "Importavimo iš šaltinio dialogo lango ekrano kopija")
+![Importavimo iš šaltinio dialogo langas.](media/GER-BaselineSample-ImportBaseline2.PNG "Importavimo iš šaltinio dialogo lango ekrano kopija")
 
 > [!NOTE]
 > Galite naudoti užduočių įrašymo priemonę, kad įrašytumėte reikalingus dokumento tipo ir failo vardo pasirinkimo veiksmus dialogo lange **Importuoti iš šaltinio**. Tokiu būdu galite išlaikyti privalomus pagrindinės informacijos parametrus „SharePoint Server“, o tada juos automatiškai importuoti, leisdami užduoties įrašą, kai vykdote automatinius testus naudodami „Regression Suite Automation Tool“.
@@ -207,3 +205,6 @@ Norėdami importuoti pagrindinės informacijos parametrus iš XML failo, kuris s
 
 - [Sugeneruotų ataskaitų rezultatų sekimas ir jų palyginimas su bazinėmis vertėmis](er-trace-reports-compare-baseline.md)
 - [Užduoties įrašymo ištekliai](../user-interface/task-recorder.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,26 +1,24 @@
 ---
 title: Kurti bendrąjį produktą
 description: Sukurkite iš anksto nustatytų variantų bendrąjį produktą.
-author: ShylaThompson
-manager: tfehr
+author: t-benebo
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResProductListPage, EcoResProductCreate, EcoResProductDetails, EcoResProductInventoryDimensionGroups
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: benebotg
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d580d323409d84bab66dc03d39e084f5ee0cfc64
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
-ms.translationtype: HT
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 5e76c367d4aa6c08332371374a26dd6fdbbdb4eb
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5218494"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7577341"
 ---
 # <a name="create-a-product-master"></a>Kurti bendrąjį produktą
 

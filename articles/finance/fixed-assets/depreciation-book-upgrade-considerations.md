@@ -1,37 +1,37 @@
 ---
-title: Nusidėvėjimo knygos atnaujinimo apžvalga
-description: 'Ankstesniuose leidimuose buvo naudojamos dvi ilgalaikio turto vertinimo sąvokos: vertinimo modelis ir nusidėvėjimo knygos.'
-author: ShylaThompson
-manager: AnnBe
+title: Nusidėvėjimo knygų naujinimo apžvalga
+description: Šioje temoje aprašomos ilgalaikio turto knygos funkcijos. Naujos knygos funkcionalumas pagrįstas ankstesnio vertės modelio funkcionalumu, kuris buvo ankstesnėse versijose, bet taip pat apima visą anksčiau tik nusidėvėjimo knygose pateikiamą funkcionalumą.
+author: moaamer
 ms.date: 06/20/2017
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer
 ms.reviewer: roschlom
-ms.custom: 221624
+ms.custom:
+- "221624"
+- intro-internal
 ms.assetid: cf434099-36f9-4b0f-a7c8-bed091e34f39
 ms.search.region: global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: ffaeafa987c85aee17404fbfcf8c69c9699e2f3b
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.openlocfilehash: eaa47b47a93deda24a6c76572881d1e5bba29c52
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4994995"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7985088"
 ---
 # <a name="depreciation-book-upgrade-overview"></a>Nusidėvėjimo knygų naujinimo apžvalga
 
 [!include [banner](../includes/banner.md)]
 
-Ankstesniuose leidimuose buvo naudojamos dvi ilgalaikio turto vertinimo sąvokos: vertinimo modelis ir nusidėvėjimo knygos. „Microsoft Dynamics 365 for Operations“ (1611) vertinimo modelio funkcija ir nusidėvėjimo knygų funkcija buvo sujungtos į vieną sąvoką, vadinama knyga. Šioje temoje pateikta keletas pastabų apie naujinimą. 
+Šioje temoje aprašomos ilgalaikio turto knygos funkcijos. Naujos knygos funkcionalumas pagrįstas ankstesnio vertės modelio funkcionalumu, kuris buvo ankstesnėse versijose, bet taip pat apima visą anksčiau tik nusidėvėjimo knygose pateikiamą funkcionalumą. Vertės modelio funkcija ir nusidėvėjimo knygų funkcija buvo sujungtos į vieną sąvoką, vadinama knyga. Knygų funkcijos leidžia naudoti vieną puslapių, užklausų ir ataskaitų rinkinį visų jūsų organizacijos ilgalaikio turto procesų metu. Šioje temoje pateikta keletas dalykų, į kuriuos turėtumėte atsižvelgti prieš atnaujindami. 
 
-Atnaujinimo procesas perkels esamą jūsų sąranką ir visas esamas jūsų operacijas į naują knygos struktūrą. Vertės modeliai liks tokie patys, kokie yra šiuo metu, kaip knyga, kuri registruoja į didžiąją knygą. Nusidėvėjimo knygos bus perkeltos į knygą, kurioje nustatyta parinkties **Registruoti į DK** nuostata **Ne**. Nusidėvėjimo knygos žurnalų pavadinimai bus perkelti į DK žurnalo pavadinimą, kuriame nustatyta registravimo sluoksnio nuostata **Nėra**. Nusidėvėjimo knygos operacijos bus perkeltos į ilgalaikio turto operacijas. 
+Atnaujinimo procesas perkels esamą jūsų sąranką ir visas esamas jūsų operacijas į naują knygos struktūrą. Vertės modeliai liks tokie patys, kokie yra šiuo metu, kaip knyga, kuri registruoja į didžiąją knygą. Nusidėvėjimo knygos bus perkeltos į knygą, kurioje nustatyta parinkties Registruoti į DK nuostata Ne. Nusidėvėjimo knygos žurnalų pavadinimai bus perkelti į DK žurnalo pavadinimą, kuriame nustatyta registravimo sluoksnio nuostata Nėra. Nusidėvėjimo knygos operacijos bus perkeltos į ilgalaikio turto operacijas.
 
-Prieš vykdydami duomenų naujinimą, turite susipažinti su dviem būdais, kaip nusidėvėjimo knygos žurnalo eilutes naujinti į operacijos kvitus, ir kvitų serijos numeraciją, kuri bus naudojama. 
+Prieš vykdydami duomenų naujinimą, turite susipažinti su dviem būdais, kaip nusidėvėjimo knygos žurnalo eilutes naujinti į operacijos kvitus, ir kvitų serijos numeraciją, kuri bus naudojama.
 
 1 būdas: **Sistemos nustatyta numeracija** – tai yra numatytoji parinktis naujinimo našumui optimizuoti. Naujinant nebus naudojama numeracijų sistema, bet kvitai bus paskirstomi naudojant rinkiniu pagrįstą metodą. Atnaujinus bus sukurta nauja numeracija su atitinkamu **kitu numeriu**, nustatytu pagal atnaujintas operacijas. Pagal numatytuosius parametrus numeracijoje bus naudojamas formatas FADBUpgr\#\#\#\#\#\#\#\#\#. Galite naudoti kelis parametrus, norėdami modifikuoti formatą, kai taikote šį metodą.
 
@@ -53,7 +53,7 @@ Prieš vykdydami duomenų naujinimą, turite susipažinti su dviem būdais, kaip
 -   **Numeracijos kodas** – numeracijos kodas.
     -   Pastovus pavadinimas: **NumberSequenceExistingCode**
     -   Numatytoji reikšmė: nėra. Reikia atnaujinti į numeracijos kodą.
--   **Bendrai naudojama numeracija** – Būlio logikos reikšmė, skirta nustatyti numeracijos aprėptį. Naudokite „true“, kai numeracijos turi būti bendrai naudojamos visose įmonėse, arba „false“, kai jei numeracija skirta konkrečiai įmonei. Naudojant „false“, numeracija nurodytu pavadinimu turi būti kiekvienoje įmonėje, kurioje yra nusidėvėjimo knygos operacijų. Bendrai naudojamos sekos pateikiamos kiekviename skaidinyje, kuriame yra nusidėvėjimo knygos operacijų.
+-   **Bendrai naudojama numeracija** – Boolean logikos reikšmė, skirta nustatyti numeracijos aprėptį. Naudokite „true“, kai numeracijos turi būti bendrai naudojamos visose įmonėse, arba „false“, kai jei numeracija skirta konkrečiai įmonei. Naudojant „false“, numeracija nurodytu pavadinimu turi būti kiekvienoje įmonėje, kurioje yra nusidėvėjimo knygos operacijų. Bendrai naudojamos sekos pateikiamos kiekviename skaidinyje, kuriame yra nusidėvėjimo knygos operacijų.
     -   Pastovus pavadinimas: **NumberSequenceExistingIsShared**
     -   Numatytoji reikšmė: „true“
 
@@ -82,3 +82,6 @@ Kurį metodą benaudotumėte, duomenų naujinimo scenarijus taip pat taikys nauj
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

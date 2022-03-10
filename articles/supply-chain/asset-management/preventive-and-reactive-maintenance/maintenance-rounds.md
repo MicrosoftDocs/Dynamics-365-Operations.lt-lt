@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 62f812c7c7fa06deb5f41508044b029e6c5ca4a0
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
-ms.translationtype: HT
+ms.openlocfilehash: dc0d8ec546e7455187a87ac124c5e56a93f5bafd2270bf275af950991fc4b87e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825739"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6740724"
 ---
 # <a name="maintenance-rounds"></a>Priežiūros ciklai
 
@@ -80,7 +80,7 @@ Skiltyje **Turto valdymas** galite sukurti priežiūros ciklus įvairiam turtui,
 
 Toliau pateiktame paveikslėlyje parodytas priežiūros ciklo, kuriame yra trys turto vienetai, pavyzdys.
 
-![1 pav.](media/13-preventive-maintenance.png)
+![1 iliustracija.](media/13-preventive-maintenance.png)
 
 
 ## <a name="schedule-maintenance-rounds"></a>Planuoti priežiūros ciklus
@@ -106,9 +106,9 @@ Nustatę priežiūros ciklą, vykdykite grafiko užduotį, kuria planuojamos vis
 
 Toliau esančiuose dviejuose paveikslėliuose pavaizduota grafiko užduotis dialogo lange **Planuoti priežiūros ciklus** ir priežiūros grafiko eilutes, sukurtos naudojant **Visas priežiūros tvarkaraščius** pagal grafiko užduotį.
 
-![2 pav.](media/14-preventive-maintenance.png)
+![2 iliustracija.](media/14-preventive-maintenance.png)
 
-![3 pav.](media/15-preventive-maintenance.png)
+![3 iliustracija.](media/15-preventive-maintenance.png)
 
 - Kai neautomatiniu būdu sukuriami darbo užsakymai turtui, kuriam taikoma tiekėjo garantija, rodomas dialogo langas, kad vartotojas žinotų apie garantiją. Darbo užsakymo kūrimas vėliau gali būti atšauktas. Garantinis čekis neįtraukiamas automatiškai sukurtuose darbo užsakymuose.  
 - Galite nustatyti paketinę užduotį, esančią „FastTab“ **Vykdyti fone**, kad grafiko ciklai būtų vykdomi reguliariais intervalais.  

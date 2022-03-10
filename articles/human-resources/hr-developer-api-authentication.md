@@ -8,7 +8,6 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -16,14 +15,17 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3dffe1db98ba39fde2229e69bc70bdbf113ff6ad
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
-ms.translationtype: HT
+ms.openlocfilehash: 3396f0ae6d089f43c39f318dc9d92a88a7db3d7c
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5793686"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070884"
 ---
 # <a name="authentication"></a>Autentifikavimas
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -82,13 +84,13 @@ GET https://{cluster}.hr.talent.dynamics.com/namespaces/{namespace_guid}/data/Jo
         - Norėdami naudoti žiniatinklio programas, nurodykite pagrindinį programos URL. Pavyzdžiui, `http://localhost:31544`gali būti jūsų vietiniame kompiuteryje veikiančios žiniatinklio programos URL. Tada vartotojai naudoja šį URL, kad prisijungtų prie žiniatinklio kliento programos.
         - Norėdami naudoti viešojo kliento programas, nurodykite URI, kurį „Azure AD“ naudoja, kad atsilieptų į atpažinimo ženklų atsakymus. Įveskite savo programai būdingą vertę, pvz., `myapp://auth`.
 
-        Norėdami pamatyti konkrečius pavyzdžius, susijusius su žiniatinklio programomis ir vietinėmis programomis, žr. greitąjį pasirengimą darbui[ „Microsoft“ tapatumo platformoje (anksčiau vadinamoje „Azure Active Directory“, skirta kūrėjams)](https://docs.microsoft.com/azure/active-directory/develop/#quickstarts).
+        Norėdami pamatyti konkrečius pavyzdžius, susijusius su žiniatinklio programomis ir vietinėmis programomis, žr. greitąjį pasirengimą darbui[ „Microsoft“ tapatumo platformoje (anksčiau vadinamoje „Azure Active Directory“, skirta kūrėjams)](/azure/active-directory/develop/#quickstarts).
 
 5. Dalyje **API teisės** pasirinkite **Įtraukti teisę**. Tada skirtuke **Mano organizacijoje naudojamos API**, ieškokite **„Dynamics 365 Human Resources“** ir pridėkite teisę **vartotojas\_apsimetimas** prie savo programos. „Human Resources“ programos ID yra f9be0c49-aa22-4ec6-911a-c5da515226ff. Naudokite šį ID norėdami įsitikinti, kad pasirinkote tinkamą programą.
 
 6. Pasirinkite **Registruotis**.
 
-   [![Naujos programos registravimas „Azure“ portale](media/api-new-app-registration-expanded.png)](media/api-new-app-registration-expanded.png#lightbox)
+   [![Naujos programos registravimas „Azure“ portale.](media/api-new-app-registration-expanded.png)](media/api-new-app-registration-expanded.png#lightbox)
 
 „Azure AD“ priskiria jūsų programai unikalų programos ID (kliento ID) ir perkelia jus į programos puslapį **Apžvalga**. Norėdami pridėti daugiau galimybių prie programos, galite pasirinkti kitas konfigūravimo parinktis, pvz., prekių ženklų, sertifikatų ir slaptųjų raktų parinktis.
 

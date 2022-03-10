@@ -2,11 +2,9 @@
 title: Atskirų ER konfigūracijų ER modelio susiejimo valdymas
 description: Šioje temoje aprašoma, kaip valdyti elektroninių ataskaitų (ER) modelių susiejimus atskirose ER konfigūracijose.
 author: NickSelin
-manager: AnnBe
 ms.date: 06/19/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2f1013cfc9f421525fb0661cd5ace5eeaa157f9a
-ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
-ms.translationtype: HT
+ms.openlocfilehash: cf4896bec7aa68cc6616756ef07c4db95e20a5cf7ebde3102f482cd5abad1420
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/30/2021
-ms.locfileid: "5093803"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6776053"
 ---
 # <a name="manage-er-model-mapping-in-separate-er-configurations"></a>Atskirų ER konfigūracijų ER modelio susiejimo valdymas
 
@@ -161,3 +159,6 @@ Kadangi įmonės dalijasi ER konfigūracijomis, galite baigti šį užduočių v
 7. Spustelėkite Gerai.
     * Numatytąją modelio susiejimo konfigūraciją naudoja ši formato konfigūracija elektroniniam dokumentui generuoti (sukurtoje išvestyje yra įmonės kodas).  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

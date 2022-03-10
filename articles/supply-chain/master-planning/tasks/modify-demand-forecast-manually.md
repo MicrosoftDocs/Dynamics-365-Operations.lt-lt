@@ -1,45 +1,54 @@
 ---
-title: Modifikuoti poreikio prognozę neautomatiškai
-description: Ši procedūra nurodo, kaip modifikuoti prekės prognozę.
-author: ShylaThompson
+title: 'Vadovas: Poreikio prognozės modifikavimas rankiniu būdu'
+description: Šioje temoje aprašoma, kaip modifikuoti prekės prognozę
+author: ChristianRytt
 ms.date: 08/12/2019
 ms.topic: business-process
-ms.prod: ''
-ms.technology: ''
 ms.search.form: EcoResProductDetailsExtended, ForecastSales
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: crytt
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 518a49441a9d73d9da5ab90400e0b7482692d374
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
-ms.translationtype: HT
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 6f48e1689d21fd0085ec38aab8f5171997fbf432
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5829671"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7567204"
 ---
-# <a name="modify-a-demand-forecast-manually"></a>Modifikuoti poreikio prognozę neautomatiškai
+# <a name="guide-modify-a-demand-forecast-manually"></a>Vadovas: Poreikio prognozės modifikavimas rankiniu būdu
 
 [!include [banner](../../includes/banner.md)]
 
-Ši procedūra nurodo, kaip modifikuoti prekės prognozę. Kuriant šią procedūrą naudojama demonstracinių duomenų įmonė yra USMF. Šis įrašas skirtas gamybos planuotojui. 
+Ši procedūra nurodo, kaip modifikuoti prekės prognozę. Ši procedūra yra skirta gamybos planuotojui.
 
+## <a name="modify-the-forecast-for-a-selected-item"></a>Pasirinktos prekės prognozės modifikavimas
 
-## <a name="modify-the-forecast-for-an-item"></a>Modifikuoti prekės prognozę
-1. Skiltyje **Naršymo sritis** eikite į **Moduliai > Produkto informacijos valdymas > Produktai > Išleisti produktai**.
-2. Sąraše raskite ir pasirinkite norimą įrašą. Pasirinkite prekę, kurios prognozę norite modifikuoti. Pvz., galite pasirinkti prekę D0001.  
-3. Parinktyje **Veiksmų sritis** spustelėkite **Planas**.
-4. Paspauskite **Poreikio prognozė**.
-5. Sąraše pažymėkite pasirinktą eilutę. Jei nėra prognozės eilučių, sukurkite naują eilutę spustelėję „Naujas“ programos juostoje.  
-6. Lauke **Pardavimo kiekis** įveskite skaičių. Šis skaičius reprezentuoja prognozuojamą prekės kiekį.  
-7. Spustelėkite Įrašyti.
+Norėdami modifikuoti pasirinktos prekės prognozę:
 
-## <a name="modify-the-forecast-in-excel"></a>Modifikuoti prognozę „Excel“ programoje
-1. Spustelėkite **Atidaryti** „Microsoft Office“ programoje.
-2. Paspauskite **Redaguoti poreikio prognozę** „Excel“ programoje. „Excel“ programoje galite pridėti, ištrinti ir redaguoti poreikio prognozės eilutes. Jei negalite matyti duomenų „Excel“ programoje, turite prisijungti ir palikti įjungtą parinktį „Palikite mane prisijungusį", taip pat turite pasitikėti duomenų ryšio programa.  
+1. Eikite į **Moduliai \> Produkto informacijos valdymas \> Produktai \> Išleisti produktai**.
+1. Sąraše raskite ir pasirinkite norimą įrašą. Pasirinkite prekę, kurios prognozę norite modifikuoti.
+1. Veiksmų srityje atidarykite skirtuką **Planuoti** ir pasirinkite **Poreikio prognozė**.
+1. Iš sąrašo pasirinkite eilutę. Jei nėra prognozės eilučių, sukurkite naują eilutę veiksmų srityje pasirinkę **Nauja**.  
+1. Lauke **Pardavimo kiekis** įveskite teigiamą skaičių. Šis skaičius reprezentuoja prognozuojamą prekės kiekį. Jeigu įvesite neigiamą skaičių, bus rodoma klaida.
+1. Užpildykite kitus laukus taip, kaip reikia.
+1. Pasirinkite **Įrašyti** veiksmų srityje.
 
+## <a name="modify-the-forecast-for-one-or-more-items-with-microsoft-excel"></a>Redaguokite prognozę vienai ar kelioms prekėms su „Microsoft Excel”
+
+Norėdami redaguoti prognozę vienai ar kelioms prekėms su „Microsoft Excel”:
+
+1. Atlikite vieną iš toliau nurodytų veiksmų.
+    - Atidarykite puslapį **Poreikio prognozė** bet kuriai prekei (nesvarbu kuriai), kaip aprašyta ankstesniame skyriuje.
+    - Eikite į **Bendrasis planavimas \> Prognozė \> Rankinis poreikio prognozės įrašas \> Poreikio prognozės eilutės**.
+1. Veiksmų srityje pasirinkite **Atidaryti „Microsoft Office” platformoje \> Poreikio prognozės įrašai**.
+1. Pasirinkite atsisiuntimo vietą, įrašykite ir atidarykite atsisiųstą failą „Excel” programoje.
+1. Jeigu matote įspėjimą, pasirinkite **Įgalinti redagavimą**.
+1. „Excel” programoje prisijunkite prie „Supply Chain Management” naudodami „Microsoft Dynamics” užduočių sritį. Turite prisijungti su įgalinta parinktimi **Palikti mane prisijungusį** ir turite pasitikėti duomenų ryšio programa.
+1. Dabar „Excel” skaičiuoklėje rodomos visos dabartinės jūsų įmonės poreikio prognozės eilutės.  Pridėkite, naikinkite ir redaguoti poreikio prognozės eilutes taip, kaip reikia.
+1. „Microsoft Dynamics” užduočių srityje pasirinkite **Publikuoti**, kad savo keitimus vėl įkeltumėte į „Supply Chain Management”.
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

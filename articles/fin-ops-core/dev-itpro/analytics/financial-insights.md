@@ -2,8 +2,7 @@
 title: Finansinė analizė
 description: Finansų analizė naudoja „Microsoft Power BI“ kartu pateikti pagrindinius finansinius našumo indikatorius (KPI), diagramas ir finansines ataskaitas.
 author: kweekley
-manager: AnnBe
-ms.date: 05/22/2019
+ms.date: 08/24/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 22de5f3e2e475aa681be2d8868fb1d939f3f8638
-ms.sourcegitcommit: 4c57c16fe7ecd2a9840158aa69646ee47152e5f1
-ms.translationtype: HT
+ms.openlocfilehash: 4dc6cb7c0d6c04371ada611626415d87e9f149f0
+ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "5572371"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7416310"
 ---
 # <a name="financial-analysis"></a>Finansinė analizė
 
@@ -37,11 +36,11 @@ Sujungdama didžiosios knygos ir papildomų knygų duomenis, **Finansinė analiz
 > - **Puslapis** – atskiro .pbix failo skirtukas. Kiekviename puslapyje gali būti vienas ar keli vaizdiniai elementai.
 > - **Vaizdinis elementas** – vienas duomenų šaltinis, pvz., kortelė, KPI, diagrama, grafikas, matrica ar finansinė ataskaita. Puslapyje, kuriame kaip vaizdinis elementas naudojama finansinė ataskaita, kitų vaizdinių elementų būti negali dėl duomenų, apie kuriuose rengiamos ataskaitos, dydžio.
 
-Šiuo metu **Finansinė analizė** naudojama peržiūrėti aktyvaus juridinio subjekto arba visų juridinių subjektų duomenis. Būsimuose leidimuose ši darbo sritis virs vieta, kurioje naudodami „Power BI“ galėsite redaguoti ir kurti vaizdinius elementus.
+Darbo sritis **Finansinė analizė** pirmiausia leidžia peržiūrėti ir filtruoti esamų ataskaitų duomenis. Į darbo sritį **Finansinė analizė** galite įtraukti naujų vaizdinių elementų. Darbo sritį **Finansinė analizė** gali naudoti dabartinė įmonė ir visos įmonės, kad būtų rodomi visų juridinių subjektų duomenys, neatsižvelgiant į juridinius subjektus, prie kurių šis vaidmuo turi prieigą.
 
-Darbo srityje **CFO apžvalga** rodomi tie patys vaizdiniai elementai, kaip ir darbo srityje **Finansinė analizė**, tačiau joje galite peržiūrėti ir filtruoti esamų ataskaitų duomenis. Būsimuose leidimuose į darbo sritį **Finansinė analizė** galėsite įtraukti naujų vaizdinių elementų. Nauji vaizdiniai elementai taip pat gali būti pasiekiami darbo srityse, orientuotose į kitus vaidmenis, pvz., projektų vadovus ar mokėtinų sumų vadovus. Darbo srityje **CFO apžvalga** toliau rodomi visų juridinių subjektų duomenys, nesvarbu, prie kurių juridinių subjektų vaidmuo turi prieigą.
+- [„Power BI“ vizualizacijų įtraukimas arba redagavimas jūsų ataskaitų srityje](/powerapps-docs/user/add-powerbi-dashboards.md)
 
-## <a name="dynamics-365-finance-setup"></a>„Dynamics 365 Finance“ sąranka
+## <a name="dynamics-365-finance-setup"></a>„Dynamics 365 Finance“ nustatymas
 **Didžioji knyga**
 
 Pagrindinės sąskaitos tipu ir pagrindinių sąskaitų kategorijomis užpildomos atitinkamos numatytosios pagrindinės sąskaitos, esančios darbo srities **Finansinės įžvalgos** finansinėje ataskaitoje **Balansas** ir įvairiose finansinėse ataskaitose **Finansinė analizė**.
@@ -49,7 +48,7 @@ Pagrindinės sąskaitos tipu ir pagrindinių sąskaitų kategorijomis užpildomo
 Puslapyje **Pagrindines sąskaitos** turite nustatyti savo pagrindinę sąskaitą, kad jai būtų priskirtas vienas iš tolesnių tipų.
 
 - Įplaukos
-- Expense
+- Išlaidos
 - Turtas
 - Skolos
 - Kapitalas
@@ -61,14 +60,12 @@ Kad pagrindinės sąskaitos būtų rodomos finansinėse ataskaitose ir įtraukto
 ## <a name="entity-store"></a>Objekto parduotuvė
 Darbo srities **Finansinė analizė** duomenys imami iš objektų saugyklos (**Sistemos administravimas** \> **Sąranka** \> **Objektų saugykla**). Jei atidarote darbo sritį **CFO apžvalga** arba **Finansinė analizė** ir vaizdiniuose elementuose rodomas tolesnis įspėjamasis pranešimas, turite atnaujinti objektus.
 
-![Perspėjimas](./media/Cantdisplay.png)
+![Perspėjimas.](./media/Cantdisplay.png)
 
 Turite atnaujinti objektus, kad pamatytumėte duomenis **Finansinė analizė** darbo srityje:
 
-- „BudgetActivityMeasure”
 - Finansinių ataskaitų 3 versijos operacijų duomenys 
-- CustCollectionsBIMeasurements
-- „LedgerActivityMeasure”
+- Kreditas ir mokėjimai V2
 - LedgerCovLiquidityMeasurement
 - Pirkimo kubas
 - Pardavimo kubas
@@ -90,18 +87,18 @@ Nors **Finansinė analizė** apima finansines ataskaitas, tačiau nepakeičia pr
 Ši palyginamoji diagrama padės atskirti šias dvi parinktis:
 
 
-|                                                          | Financial Reporting                                               | Finansinė analizė |
+| Funkcija                                                   | Financial Reporting                                               | Finansinė analizė |
 |----------------------------------------------------------|-------------------------------------------------------------------|--------------------|
-| **Numatytųjų ataskaitų redagavimas**                                 | Taip                                                               | nr. |
-| **Naujų ataskaitų kūrimas**                                   | Taip                                                               | nr. |
-| **Spausdinti ataskaitas**                                        | Taip                                                               | Nr. |
+| **Numatytųjų ataskaitų redagavimas**                                 | Taip                                                               | Ne |
+| **Naujų ataskaitų kūrimas**                                   | Taip                                                               | Ne |
+| **Spausdinti ataskaitas**                                        | Taip                                                               | Ne |
 | **Eksportuoti į Excel**                                      | Taip                                                               | Ribotas neapdorotų duomenų eksportavimas į „Excel“, neformatuota ataskaita |
-| **Palaiko ataskaitų hierarchiją / organizacinę hierarchiją**   | Taip                                                               | Nr. |
+| **Palaiko ataskaitų hierarchiją / organizacinę hierarchiją**   | Taip                                                               | Ne |
 | **Papildomos knygos duomenų ataskaita**                             | Taip Apsiriboja tik tiekėju, klientu                              | Taip Tiekėjo, kliento, tiekėjo / kliento grupės, tiekėjo / kliento adresai ir t. t. |
 | **Ataskaitų valiuta**                                   | Taip Apskaitos valiuta konvertuojama į ataskaitų valiutą       | Ne Tik apskaitos valiuta |
 | **Sauga**                                             | Taip laikomasi „Finance” ir ataskaitų medžio saugumo | Ribota Visų įmonių (neatsižvelgiant į „Finance and Operations” saugumą) arba tik aktyvios įmonės ataskaitų peržiūra |
-| **Palaiko skirtingus sąskaitų planus ir finansinius metus** | Taip                                                               | Nr. |
-| **išorinių duomenų ataskaitos**                              | Nr.                                                                | Nr. |
+| **Palaiko skirtingus sąskaitų planus ir finansinius metus** | Taip                                                               | Ne |
+| **išorinių duomenų ataskaitos**                              | Ne                                                                | Ne |
 | **Palaiko konsolidacijas**                               | Taip                                                               | Ribota Galima teikti kelių įmonių ataskaitas, bet naudoti tik apskaitos valiutą |
 
 Galimos tolesnės finansinės ataskaitos.
@@ -127,7 +124,7 @@ Vartotojai ataskaitą gali filtruoti naudodami kairėje esančią sritį **Filtr
 - **Vaizdinio elemento lygio filtrai** – šie filtrai taikomi tik pasirinktam vaizdiniam elementui. Šie filtrai taikomi ant puslapio lygio filtrų viršaus.
 - **Detalizavimo filtras** – šis filtras filtruoja iš „šaltinio“ vaizdinio elemento, taikomo dabartiniam vaizdiniam elementui, kai šaltinio vaizdinį elementą detalizuojate iki dabartinio vaizdinio elemento.
 
-![Filtravimo parinktys](./media/filter.png)
+![Filtravimo parinktys.](./media/filter.png)
 
 Norėdami pašalinti konkrečią filtro reikšmę, pasirinkite šalia esantį trintuko simbolį. Nešalinkite filtro pasirinkdami X. Jei pasirenkate X, jūsų filtruojamas laukas pašalinamas kaip filtro parinktis. Jei netyčia pašalinate kokį nors filtro lauką, uždarykite ir vėl atidarykite darbo sritį. Bus vėl pritaikyti numatytieji filtrų parametrai.
 
@@ -172,25 +169,25 @@ Naudojant „Power BI“ galimi įvairūs detalizavimo lygiai. Skiriasi kiekvien
 
 Tolesnėje iliustracijoje ataskaita **Bandomasis balansas** sutraukta iki aukščiausio eilučių hierarchijos lygio – pagrindinės sąskaitos tipo.
 
-![Bandomojo balanso išrašas](./media/trial-balance.png)
+![Bandomojo balanso išrašas.](./media/trial-balance.png)
 
 Norėdami peržiūrėti tolesnį hierarchijos lygį – pagrindinių sąskaitų kategorijas – galite lauką **Detalizuoti** nustatyti kaip **Eilutės**, o tada pasirinkti mygtuką **Išplėsti** (trečiasis mygtukas po lauko Detalizuoti). Dabar matote išplėstas visas pagrindinių sąskaitų kategorijas. Šiuo metu „Power BI“ neleidžia išplėsti tik vienos eilutės ar stulpelio, tačiau vis tiek matyti visas kitas eilutes ar stulpelius.
 
-![Bandomojo balanso detalizavimas eilutėse](./media/trial-balance2.png)
+![Bandomojo balanso detalizavimas eilutėse.](./media/trial-balance2.png)
 
 Norėdami hierarchiją išplėsti iki visų eilučių pagrindinių sąskaitų, galite vėl naudoti mygtuką **Išplėsti**. Tačiau, norėdami iki pagrindinių sąskaitų detalizuoti tik vieną eilutę, pirmiausia pasirinkite mygtuką **Detalizuoti** (viena žemyn nukreipta rodyklė dešinėje lango pusėje) ir tada pasirinkite detalizuotiną eilutę. Tolesnėje iliustracijoje parodytas vaizdas, kada, pasirinkus mygtuką **Detalizuoti**, pasirenkama eilutė **Pardavimas**.
 
-![Bandomojo balanso išplėtimo mygtukas](./media/trial-balance3.png)
+![Bandomojo balanso išplėtimo mygtukas.](./media/trial-balance3.png)
 
 Detalizavus vieną eilutę, norint grįžti į visą bandomąjį balansą reikia kelis kartus spustelėti pele. Mygtuku **Pereiti prie bendresnio** (pirmas mygtukas po lauko **Detalizuoti**) prie bendresnių elementų pereinama tik kategorijos **Pardavimas** kontekste, kaip pavaizduota tolesnėje iliustracijoje.
 
-![Bandomojo balanso detalizavimo mygtukas](./media/trial-balance4.png)
+![Bandomojo balanso detalizavimo mygtukas.](./media/trial-balance4.png)
 
 Galite toliau naudoti mygtuką **Pereiti prie bendresnio**, kad grįžtumėte į aukščiausią eilučių apibendrinimo lygį.
 
 Sprendime „Power BI“ taip pat yra mygtukas, leidžiantis pereiti į tolesnį hierarchijos lygį (antras mygtukas po lauko **Detalizuoti**). Šis mygtukas veikia skirtingai nei mygtukas **Išplėsti** (trečias mygtukas po lauko **Detalizuoti**), kuriuo išplečiama hierarchija. Kai išplečiate hierarchiją, ji tvarkoma ataskaitoje. Pavyzdžiui, kaip buvo parodyta anksčiau, jei išplečiate pagrindinės sąskaitos tipą, jį vis tiek matote ataskaitoje. Tačiau, kai pereinate į tolesnį hierarchijos lygį, ataskaitoje pirminis hierarchijos lygis neberodomas, kaip parodyta tolesnėje iliustracijoje.
 
-![Bandomojo balanso detalizavimo atšaukimo mygtukas](./media/trial-balance5.png)
+![Bandomojo balanso detalizavimo atšaukimo mygtukas.](./media/trial-balance5.png)
 
 Norėdami peržiūrėti apibendrintų balansų operacijų informaciją, galite pasirinkti kai kurias sumas detalizuoti atgal į „Financial and Operations“.
 
@@ -229,7 +226,7 @@ Stulpelių hierarchija orientuota į juridinius subjektus ir ataskaitinius laiko
 ## <a name="data-limitations"></a>Duomenų apribojimai
 Finansinių ataskaitų vaizdiniuose elementuose ribojamas galimų rodyti eilučių skaičius. Šiuo metu nustatytas limitas yra 30 000. Jei viršysite šį limitą, vaizdiniame elemente bus įspėjamasis simbolis, pranešantis apie šią situaciją.
 
-![Duomenų apribojimai](./media/data-limit.png)
+![Duomenų apribojimai.](./media/data-limit.png)
 
 Jei viršijamas didžiausias skaičius, finansinėje ataskaitoje rodomos bendrosios sumos bus neteisingos, nes į vaizdinį elementą bus įkeltos ne visos eilutės.
 
@@ -241,9 +238,9 @@ Sprendime „Power BI“ nėra parinkties slėpti ir rodyti tuščias eilutes. J
 
 Toliau pateiktuose šaltiniuose nebūtina pateikti informaciją norint įjungti įdėtąsias ataskaitas **Finansinė analizė** darbo srityje kūrimo aplinkoje. Jie yra naudingi dirbant su kūrimo langeliais ir jei norite į įdėti savo „Power BI“ ataskaitų.
 
-- [Analizės darbo sričių ir ataskaitų naudojimas prie 1 langelio aplinkoje](https://blogs.msdn.microsoft.com/dynamicsaxbi/2017/07/29/accessing-analytical-workspaces-on-1box-environment/)
+- [Analizės darbo sričių ir ataskaitų naudojimas prie 1 langelio aplinkoje](/archive/blogs/dynamicsaxbi/accessing-analytical-workspaces-on-1box-environment)
 
-- [Analizės įtraukimas į darbo sritis naudojant „Power BI Embedded“](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/add-analytics-tab-workspaces)
+- [Analizės įtraukimas į darbo sritis naudojant „Power BI Embedded“](/dynamics365/unified-operations/dev-itpro/analytics/add-analytics-tab-workspaces)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

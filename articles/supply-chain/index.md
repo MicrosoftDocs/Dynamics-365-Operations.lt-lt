@@ -2,25 +2,25 @@
 title: „Supply Chain Management“ pagrindinis puslapis
 description: Šiame puslapyje pateikiamas „Supply Chain Management“ funkcijų žinyno temų ir kitų išteklių sąrašas.
 author: kamaybac
-ms.date: 01/08/2021
+ms.date: 09/15/2021
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ad2a889a-acfd-4b59-a3b3-4017dd374c7b
 ms.search.region: global
 ms.search.industry: ''
 ms.author: kamaybac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: e8b92dc975fdae74e134d86169a2b9ceffe63b62
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 4ea45b238200d4d9d43d563e160e8574271a8ce7
+ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5909796"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "7487869"
 ---
 # <a name="supply-chain-management-home-page"></a>„Supply Chain Management“ pagrindinis puslapis
 
@@ -62,7 +62,6 @@ Daugiau informacijos apie „Dynamics 365 Finance“ žr. [„Finance“ pagrind
 
 Šiuose trumpuose vaizdo įrašuose apibendrinamos naujos tiekimo grandinės valdymo funkcijos, įtrauktos į „Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 7.3“ (2017 m. gruodžio mėn.).
 
-- [Potencialaus kliento pavertimo pinigais integravimas](https://youtu.be/AVV9x5x-XCg) 
 - [Optimizavimo patarėjas](https://www.youtube.com/watch?v=MRsAzgFCUSQ&t=4s)
 - [Konfigūracijos kopijavimas naudojant sandėlio šabloną](https://www.youtube.com/watch?v=K2WIfFlqJYs&feature=youtu.be)
 
@@ -81,7 +80,7 @@ Toliau pateikiamuose techninių konferencijų įrašuose aptariamos ankstesnių 
 - **Bendrasis planavimas:**
   - [Poreikio prognozių funkcijų išplėtimas](https://www.youtube.com/watch?v=4OIKIXLiNjI&feature=youtu.be)
   - [Bendrasis planavimas – našumo trikčių šalinimo patarimai](https://youtu.be/7v8BPmEs9Dg)
-  - [Padėkite! MRP veikia lėtai!](https://youtu.be/RLXybx20B5o)
+  - [MRP veikimo derinimas](https://youtu.be/RLXybx20B5o)
 - **Produkto informacijos valdymas:**
   - [Produkto konfigūracija „Microsoft Dynamics AX“](https://youtu.be/zotrj3SbCl4)
 - **Sandėlio valdymas:**

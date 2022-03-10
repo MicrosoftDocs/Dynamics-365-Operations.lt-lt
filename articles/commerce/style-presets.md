@@ -1,36 +1,31 @@
 ---
-title: Darbas su išankstinėmis stilių parinktimis
+title: Darbas su iš anksto nustatytų stilių rinkiniais
 description: Šioje temoje aprašoma, kaip svetainių daryklėje „Microsoft Dynamics 365 Commerce“ dirbti su išankstinėmis stilių parinktimis.
 author: phinneyridge
-manager: annbe
 ms.date: 05/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 250f2386cefee8bef45df66c4eef31b4e7fc2686
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 63e11b718a2b5221c722a11de3a8df6d9d0e3d6b
+ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4414415"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "7964858"
 ---
-# <a name="work-with-style-presets"></a>Darbas su išankstinėmis stilių parinktimis
+# <a name="work-with-style-presets"></a>Darbas su iš anksto nustatytų stilių rinkiniais
 
 [!include [banner](includes/banner.md)]
 
 Šioje temoje aprašoma, kaip svetainių daryklėje „Microsoft Dynamics 365 Commerce“ dirbti su išankstinėmis stilių parinktimis.
-
-## <a name="overview"></a>Peržiūra
 
 Išankstinė stilių parinktis yra visų autentiškų stilių verčių rinkinys, naudojamas svetainės temoje. Jis gali būti naudojamas norint iš karto pakeisti svetainės įvaizdį iš svetainės daryklės. Išankstinė stilių parinktis suteikia galimybę „Commerce” svetainės daryklės autoriams greitai pakeisti, peržiūrėti ir suaktyvinti savo svetainės stilių vertes nenaudodami „Cascading Style Sheets ” (CSS) arba nediegiant temų. Šrifto stiliai, mygtukų stiliai ir svetainės spalvos yra tipiški stiliaus kintamųjų, kuriuos galima tvarkyti naudojant išankstinėmis stilių parinktimis, pavyzdžiai.
 
@@ -38,7 +33,7 @@ Stiliaus kintamųjų rinkinys, prieinamas svetainėje, nustatomas pagal temą ir
 
 Temoms, kuriose įgalinti autentiški stiliaus kintamieji, reikia numatytosios išankstinės stiliaus parinkties. Jie pasirinktinai gali įtraukti papildomas parinktis, nes tai įeina į įdiegtos temos paketą. Pavyzdžiui, galima įdiegti temą, kuri turi vieną numatytąją „šiuolaikiškas šviesus” stiliaus parinktį. Taip pat gali būti ir papildomų išankstinių stiliaus parinkčių be numatytosios, pavyzdžiui, „šiuolaikiškas tamsus”, „senoviškas šviesus” arba „senoviškas tamsus”. Kūrėjai kuria šias integruotas temų išankstines parinktis ir jos gali būti naudojamos kaip pirmieji svetainių stilių potėpiai.
 
-Svetainės daryklėje kūrėjai gali pasirinkti iš integruotų temų parinkčių arba gali sukurti savo pačių stilių išankstines parinktis ir tinkinimą naudojant įgalintus stilių kintamuosius.  Išankstinė stiliaus parinktis gali būti peržiūrėta svetainės daryklėje prieš aktyvuojant ją tiesioginėje svetainėje. Peržiūrėjus kūrėjo stiliaus pakeitimus, išankstinė stiliaus parinktis gali būti nustatyta kaip „aktyvi” tiesioginėje svetainėje.
+Svetainės daryklėje kūrėjai gali pasirinkti iš integruotų temų parinkčių arba gali sukurti savo pačių stilių išankstines parinktis ir tinkinimą naudojant įgalintus stilių kintamuosius. Išankstinė stiliaus parinktis gali būti peržiūrėta svetainės daryklėje prieš aktyvuojant ją tiesioginėje svetainėje. Peržiūrėjus kūrėjo stiliaus pakeitimus, išankstinė stiliaus parinktis gali būti nustatyta kaip „aktyvi” tiesioginėje svetainėje.
 
 ## <a name="preview-a-style-preset"></a>Išankstinės stiliaus parinkties peržiūra
 
@@ -50,7 +45,7 @@ Norėdami peržiūrėti išankstinę stiliaus parinktį svetainėje svetainės d
     Jei **Galimos išankstinės parinktys** sąraše šiuo metu nėra išankstinių parinkčių, peržiūrėkite [Pasirinktos išankstinės parinkties kūrimas](#create-a-custom-style-preset), kad sužinotumėte, kaip sukurti pasirinktinę išankstinę stiliaus parinktį.
 
     > [!NOTE]
-    > Išankstinės parinktys, įtrauktos į temą, pažymėtos **Integruota** ženkleliu. Šios integruotos išankstinės parinktys yra skirtos tik skaityti. Norėdami nukopijuoti integruotą išankstinę parinktį kaip naują tinkinamą išankstinę parinktį , pasirinkite elipsės mygtuką (**...**)  parinkčiai ir pasirinkite **Įrašyti kaip**.
+    > Išankstinės parinktys, įtrauktos į temą, pažymėtos **Integruota** ženkleliu. Šios integruotos išankstinės parinktys yra skirtos tik skaityti. Norėdami nukopijuoti integruotą išankstinę parinktį kaip naują tinkinamą išankstinę parinktį , pasirinkite elipsės mygtuką (**...**) parinkčiai ir pasirinkite **Įrašyti kaip**.
 
 1. Komandų juostoje pasirinkite **Peržiūrėti**.
 1. Pasirinkite URL iš savo svetainės, kad galėtumėte peržiūrėti išankstinę stiliaus parinktį, tada pasirinkite **Gerai**.
@@ -121,10 +116,11 @@ Išankstinės stiliaus parinkties vertės yra aktyvios jūsų viešoje svetainė
 
 [Įtraukti parankinių piktogramą](add-favicon.md)
 
-[Įtraukti pasveikinimo pranešimą](add-welcome-message.md)
-
 [Įtraukti informaciją apie autorių teises](add-copyright-notice.md)
 
 [Kalbų įtraukimas į savo svetainę](add-languages-to-site.md)
 
 [Įtraukite scenarijaus kodą į svetainės puslapius, kad būtų palaikoma telemetrija](add-telemetry.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

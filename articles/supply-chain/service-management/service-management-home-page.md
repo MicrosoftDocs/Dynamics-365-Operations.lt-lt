@@ -1,26 +1,25 @@
 ---
 title: Paslaugų valdymo apžvalga
 description: Naudodamiesi parinktimi Paslaugų valdymas galite nustatyti paslaugų sutarčių sąlygas ir paslaugų abonementinius mokesčius, tvarkyti paslaugų užsakymus ir klientų užklausas, valdyti ir analizuoti paslaugų teikimą klientams.
-author: ShylaThompson
+author: kamaybac
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: SMAServiceOrderTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f1d7c6960dc48bb1bb780ecbbb36a58a1bbd7352
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
-ms.translationtype: HT
+ms.openlocfilehash: b9b8444c635fe08a224314d1b76de5ac8d9defbc
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5908213"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7983027"
 ---
 # <a name="service-management-overview"></a>Paslaugų valdymo apžvalga
 
@@ -47,7 +46,7 @@ Naudokite ataskaitų įrankius, kad galėtumėte stebėti paslaugų užsakymų m
 
 Toliau pateiktoje diagramoje pavaizduoti aukšto lygio parinkties **Aptarnavimo valdymas** verslo procesai ir parodoma, kur aptarnavimo procesai integruojami su kitais moduliais.
 
-[![Aptarnavimo valdymo verslo proceso diagrama](./media/sm_home_page.gif)](./media/sm_home_page.gif)
+[![Aptarnavimo valdymo verslo proceso diagrama.](./media/sm_home_page.gif)](./media/sm_home_page.gif)
 
 ## <a name="service-management-at-a-glance"></a>Paslaugų valdymo apžvalga
 

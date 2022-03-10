@@ -2,26 +2,23 @@
 title: Kurti ir priskirti savikainos veikimo būdo strategiją savikainos kontrolės įtaisui
 description: Išlaidų taisyklė yra išlaidų klasifikavimas kaip fiksuotų arba kintamų.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/27/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CAMCostBehaviorRule
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cfdff9b1af9183d21e988dd53559e749eed077eb
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 77e79b4959d546fd04c9705220c7f7a4c4a0ffd0621a66553adbe1a85b6cce39
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4445926"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6712272"
 ---
 # <a name="create-and-assign-a-cost-behavior-policy-to-a-cost-control-unit"></a>Kurti ir priskirti savikainos veikimo būdo strategiją savikainos kontrolės įtaisui
 
@@ -86,3 +83,6 @@ Išlaidų taisyklė yra išlaidų klasifikavimas kaip fiksuotų arba kintamų. K
 15. Lauke Savikainos kontrolės įtaisas įveskite arba pasirinkite reikšmę.
 16. Spustelėkite Įrašyti.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

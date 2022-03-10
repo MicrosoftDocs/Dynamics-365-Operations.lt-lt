@@ -2,11 +2,9 @@
 title: Peržiūrėti susijusį vidinės įmonės kvitą iš žurnalo
 description: Susijusiame kvito lange kvitas iš korespondentinės įmonės rodomas registruojant vidinės įmonės operaciją iš bendrojo žurnalo.
 author: aprilolson
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTable, LedgerJournalTransDaily, SysDataAreaSelectLookup, LedgerTransVoucher, LedgerTransRelatedVouchers
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b875793e17da1046fcad4abe10068af923ca31a3
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
-ms.translationtype: HT
+ms.openlocfilehash: 9c41826986aea79206c8ec6ed045078e93a285a90042f0950fb5725c0bd850ac
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5246939"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6772784"
 ---
 # <a name="view-related-intercompany-voucher-from-journal"></a>Peržiūrėti susijusį vidinės įmonės kvitą iš žurnalo
 

@@ -2,11 +2,9 @@
 title: Šaltinio dokumentų audito strategijų apibrėžimas
 description: Šioje temoje aiškinama, kaip konfigūruoti ir vykdyti audito strategijų taisykles.
 author: panolte
-manager: AnnBe
 ms.date: 08/20/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysPolicySourceDocumentRuleType, SysFieldLookUp, SysPolicyListPage, SysPolicy, AuditPolicyRule, SysQueryForm, SysQueryFieldLookUp, AuditPolicyDateSelection, AuditPolicyAdditionalOption, BatchJob, CaseDetail
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 545ed1ee9faea8aac9a39e5812e815c85e2dd9a8
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
-ms.translationtype: HT
+ms.openlocfilehash: 0779589a3583909984e35014a2ec0e86455cd30a3833110556f095241e7172ca
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5240791"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6722676"
 ---
 # <a name="define-audit-policies-for-source-documents"></a>Šaltinio dokumentų audito strategijų apibrėžimas
 
@@ -41,9 +39,9 @@ ms.locfileid: "5240791"
 11. Pasirinkite **Naujas**.
 12. Lauke **Pavadinimas** įveskite reikšmę.
 13. Išplėskite skyrių **Organizacijų strategijos**.
-14. Medyje pasirinkite **„Contoso Entertainment System“, JAV**, tada pasirinkite **Įtraukti**.
-15. Medyje pasirinkite **„Contoso Consulting“, JAV**, tada pasirinkite **Įtraukti**.
-16. Medyje pasirinkite **„Contoso Retail“, JAV**, tada pasirinkite **Įtraukti**.
+14. Medyje pasirinkite **„Contoso Entertainment System“ JAV**, ir tada rinkitės **Įtraukti**.
+15. Medyje pasirinkite **„Contoso Consulting“ JAV**, ir tada rinkitės **Įtraukti**.
+16. Medyje pasirinkite **„Contoso Mažmeninė prekyba“ JAV**, ir tada rinkitės **Įtraukti**.
 17. Sutraukite skyrių **Organizacijų strategijos**.
 18. Išplėskite skyrių **Strategijų taisyklės**.
 19. Sąraše raskite ir pasirinkite anksčiau sukurtą strategijos taisyklę.

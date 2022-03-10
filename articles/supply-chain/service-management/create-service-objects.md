@@ -1,12 +1,10 @@
 ---
 title: Aptarnavimo objektų kūrimas
-description: Aptarnavimo objektai yra kliento turtas ir produktai, dėl kurių galite teikti paslaugas.
-author: ShylaThompson
-manager: tfehr
+description: Temoje pateikiama nuosekli aptarnavimo sutarčių objektų kūrimo procedūra.
+author: kamaybac
 ms.date: 02/21/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAServiceObjectTable
 audience: Application User
@@ -17,21 +15,21 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9d9410e0f617b0cbadc3010380280caad7c8480e
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.openlocfilehash: 2b8fe68a502501e0377d443e685b254736438574
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4996606"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7575272"
 ---
 # <a name="create-service-objects"></a>Aptarnavimo objektų kūrimas  
 
 [!include [banner](../includes/banner.md)]
-   
-Aptarnavimo objektai yra kliento turtas ir produktai, dėl kurių galite teikti paslaugas. 
 
-1. Spustelėkite **Aptarnavimo valdymas** \> **Sąranka** \> **Aptarnavimo objektai** \> **Aptarnavimo objektai**.
-2. Įrankių juostoje spustelėkite **Naujas**.
+Aptarnavimo objektai yra kliento turtas ir produktai, dėl kurių galite teikti paslaugas.
+
+1. Eikite į **Aptarnavimo valdymas** \> **Sąranka** \> **Aptarnavimo objektai** \> **Aptarnavimo objektai**.
+2. Įrankių juostoje pasirinkite **Naujas**.
 3. Lauke **Aprašas** įveskite objekto aprašą.
 4. Lauke **Aptarnavimo objektų grupė** pasirinkite grupę, kuriai priklauso objektas. 
 5. Pasirinktinai: pasirinkite aptarnavimo objekto eilutės elementą arba komplektavimo specifikacijos (KS) šabloną.
@@ -42,3 +40,6 @@ Aptarnavimo objektai yra kliento turtas ir produktai, dėl kurių galite teikti 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

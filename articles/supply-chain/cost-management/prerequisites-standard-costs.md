@@ -3,25 +3,24 @@ title: Būtinųjų sąlygų standartinėms savikainoms apžvalga
 description: Šioje temoje aprašomi pagrindiniai standartinių savikainų naudojimo veiksmai.
 author: AndersGirke
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: InventStdCostConv, CostingVersion
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 92f80ecc611e68210e24e59b696724e1bc9c3a06
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
-ms.translationtype: HT
+ms.openlocfilehash: 7c25f2109522c7ba549ef7c3ea429873d0e1f06e
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5809667"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7986333"
 ---
 # <a name="prerequisites-for-standard-costs-overview"></a>Būtinųjų sąlygų standartinėms savikainoms apžvalga
 
@@ -66,8 +65,7 @@ Norėdami sukurti vieną ar kelias standartinių savikainų įkainojimo versijas
 Klientai, norintys pakeisti savo esamus komponentus į standartinių savikainų atsargų modelį, turi naudoti puslapį **Standartinių išlaidų konvertavimai**.
 
 
-<a name="related-topics"></a>Susijusios temos
---------
+## <a name="related-topics"></a>Susijusios temos
 
 [Standartinės savikainos konvertavimo peržiūra](standard-cost-conversion-overview.md)
 

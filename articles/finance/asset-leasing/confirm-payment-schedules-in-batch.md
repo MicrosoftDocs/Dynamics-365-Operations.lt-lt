@@ -2,13 +2,11 @@
 title: Paketinis modulio Turto nuoma mokėjimo grafikų patvirtinimas
 description: Šioje temoje paaiškinama, kaip paketiniu būdu patvirtinti kelis mokėjimo grafikus.
 author: moaamer
-manager: Ann Beebe
-ms.date: 10/28/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: AssetLeasePaymConfirmationDetails
 audience: Application User
 ms.reviewer: roschlom
 ms.custom: 4464
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 9c680ea16e9f64107fde081c7e7763697356dcc1
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.openlocfilehash: 82e985d3b1518a287fbf0916ab3afc71d4bd6466f93992b587942053af44cf59
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4971383"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6767085"
 ---
 # <a name="confirm-asset-leasing-payment-schedules-in-a-batch"></a>Paketinis modulio Turto nuoma mokėjimo grafikų patvirtinimas
 
@@ -41,3 +39,6 @@ Norėdami patvirtinti keletą mokėjimo grafikų, atlikite tolesnius veiksmus.
     - Norėdami patvirtinti visas knygas, įjunkite parametrą **Visoms knygoms**.
 
 Naujai patvirtintų knygų informacija rodoma puslapyje **Patvirtintos knygos**. Kai patvirtinami mokėjimo grafikai, pradinio pripažinimo žurnalo įrašai gali būti registruojami pagal nuomas.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

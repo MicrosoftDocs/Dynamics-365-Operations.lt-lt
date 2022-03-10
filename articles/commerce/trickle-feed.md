@@ -2,7 +2,7 @@
 title: Nuolatiniu duomenų perdavimu mažais kiekiais pagrįstas užsakymų kūrimas, skirtas parduotuvių operacijoms
 description: Šioje temoje aprašomas nuolatiniu duomenų perdavimu mažais kiekiais pagrįstas užsakymų kūrimas, skirtas operacijoms „Microsoft Dynamics 365 Commerce”.
 author: analpert
-ms.date: 12/14/2021
+ms.date: 01/11/2021
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 3a7fd8698d7123403cf9092a4a4bf810595d795b
-ms.sourcegitcommit: f82372b1e9bf67d055fd265b68ee6d0d2f10d533
+ms.openlocfilehash: 67b66cd4bf2a77f3ab7f33f691156e38cc13770a
+ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7921250"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "7964634"
 ---
 # <a name="trickle-feed-based-order-creation-for-retail-store-transactions"></a>Nuolatiniu duomenų perdavimu mažais kiekiais pagrįstas užsakymų kūrimas, skirtas parduotuvių operacijoms
 
 [!include [banner](includes/banner.md)]
 
-Jei naudojama „Microsoft Dynamics 365 Commerce“ 10.0.5 ir naujesnė versija, rekomenduojame visus išrašų registravimo procesus perkelti į nuolatiniu duomenų perdavimu mažais kiekiais pagrįsto išrašų registravimo procesus. Su nuolatinio duomenų perdavimo mažais kiekiais funkcijos naudojimu yra siejama didelė našumo ir verslo nauda. Pardavimo operacijos apdorojamos visą dieną. Mokėjimo priemonės ir grynųjų pinigų valdymo operacijos apdorojamos finansinėje ataskaitoje dienos pabaigoje. Naudojant nuolatinio duomenų perdavimo mažais kiekiais funkciją nuolat apdorojami pardavimo užsakymai, sąskaitos faktūros ir mokėjimai. Todėl atsargos, įplaukos ir mokėjimai gali būti atnaujinami ir atpažįstami beveik realiuoju laiku.
+Jei naudojama „Microsoft Dynamics 365 Commerce“ 10.0.5 ir naujesnė versija, rekomenduojame visus išrašų registravimo procesus perkelti į nuolatiniu duomenų perdavimu mažais kiekiais pagrįsto išrašų registravimo procesus. Su nuolatinio duomenų perdavimo mažais kiekiais funkcijos naudojimu yra siejama didelė našumo ir verslo nauda. Pardavimo operacijos apdorojamos visą dieną. Mokėjimo priemonės ir grynųjų pinigų valdymo operacijos apdorojamos finansinėje ataskaitoje dienos pabaigoje. Naudojant nuolatinio duomenų perdavimo mažais kiekiais funkciją nuolat apdorojami pardavimo užsakymai, sąskaitos faktūros ir mokėjimai. Todėl atsargos, įplaukos ir mokėjimai yra atnaujinami ir atpažįstami beveik realiuoju laiku.
 
 ## <a name="use-trickle-feed-based-posting"></a>Nuolatiniu duomenų perdavimu mažais kiekiais pagrįsto registravimo naudojimas
 
@@ -37,7 +37,7 @@ Norėdami įjungti mažmeninės prekybos operacijų nuolatiniu duomenų perdavim
 
 ### <a name="transactional-statements"></a>Operacijos išrašai
 
-Numatyta, kad operacijos išrašų apdorojimas būtų vykdoma dideliu dažniu visą dieną, kad dokumentai būtų sukuriami operacijas įkėlus į „Commerce“ būstinę. Operacijos įkeliamos iš parduotuvių į „Commerce“ būstinę paleidus **P užduotį**. Taip pat turite paleisti užduotį **Tikrinti parduotuvės operacijas**, kad patikrintumėte operacijas ir jas būtų galima naudoti operacijų išraše.
+Numatyta, kad operacijos išrašų apdorojimas būtų vykdomas dideliu dažniu visą dieną, kad dokumentai būtų sukuriami operacijas įkėlus į „Commerce“ būstinę. Operacijos įkeliamos iš parduotuvių į „Commerce“ būstinę paleidus **P užduotį**. Taip pat turite paleisti užduotį **Tikrinti parduotuvės operacijas**, kad patikrintumėte operacijas ir jas būtų galima naudoti operacijų išraše.
 
 Suplanuokite, kad šios užduotys būtų vykdomos labai dažnai:
 
@@ -47,6 +47,10 @@ Suplanuokite, kad šios užduotys būtų vykdomos labai dažnai:
 ### <a name="financial-statements"></a>Finansinės ataskaitos
 
 Finansinės ataskaitos apdorojimas turi būti atliekamas dienos pabaigoje. Šio tipo išrašų apdorojimas palaiko tik uždarymo metodą **Pamaina** ir paims tik uždarytas pamainas. Išrašai apsiriboja finansiniu derinimu. Bus sukurti tik mokėjimo priemonių apskaičiuotos sumos ir operacijos sumos skirtumo sumų žurnalai ir kitų grynųjų pinigų valdymo operacijų žurnalai.
+
+Naudojant finansines ataskaitas taip pat galima peržiūrėti šias operacijas: mokėjimo priemonių deklaravimo operacijas, mokėjimo operacijas, bankinio mokėjimo priemonių operacijas ir kasos mokėjimo priemonių operacijas. Mokėjimo priemonės informacijos puslapis matomas tik pasirinkus finansinę ataskaitą.
+
+![Vaizdas, kuriame rodomas užregistruotų išrašų formos mokėjimo priemonės informacijos skyrius tik pasirinkus finansinę ataskaitą.](./media/Trickle-feed-posted-statements-transaction-view.png)
 
 Planuokite šių finansinės ataskaitos užduočių pradžios ir pabaigos laikus pagal numatomą dienos pabaigą:
 

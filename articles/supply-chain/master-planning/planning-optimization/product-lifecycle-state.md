@@ -2,11 +2,9 @@
 title: Išmesti produktus, kurie turi konkrečias produkto gyvavimo ciklo būsenas
 description: Šioje temoje paaiškinama, kaip išmesti produktus pagal jų gyvavimo ciklo būseną naudojant „Planning Optimization“ funkcijas.
 author: ChristianRytt
-manager: tfehr
 ms.date: 11/13/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-11-13
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 02c31aa3862df8dabc2b8c065dc3a94877d237f6
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.openlocfilehash: 030bdea7c03dd5eb3347c1d43acd1aeabdf566602872dd8ef5aab6d16b06f503
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4992425"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6739040"
 ---
 # <a name="exclude-products-that-have-specific-product-lifecycle-states"></a>Išmesti produktus, kurie turi konkrečias produkto gyvavimo ciklo būsenas
 
@@ -34,10 +32,13 @@ Išleisti produktai ir išleistų produktų versijos įskaitant **Produkto gyvav
 Išleisti produktai ir variantai, kai **Produkto gyvavimo ciklo būsenos** laukelis yra paliktas tuščias yra apdorojami taip tarsi produkto gyvavimo būsena, kai **Aktyvus planavimui** parinktis yra nustatyta į *Taip*. Kitaip tariant, jie bus įtraukti pagrindinio planavimo metu.
 
 > [!NOTE]
-> Norėdami padėti išvengti nereikalingų tiekimo siūlymų, stipriai rekomenduojame jums susieti visus negaliojančius išleistus produktus ir variantus su produkto gyvavimo ciklo būsena, kai **Aktyvus planavimui** parinktis nustatyta į *Ne*. Šis būdas yra ypač svarbus jums dirbant su produko konfigūravimo variantais, kurie nėra panaudojami iš naujo, nes jis jums padės apsisaugoti nuo šiukšlių.
+> Norėdami padėti išvengti nereikalingų tiekimo siūlymų, stipriai rekomenduojame jums susieti visus negaliojančius išleistus produktus ir variantus su produkto gyvavimo ciklo būsena, kai **Aktyvus planavimui** parinktis nustatyta į *Ne*. Šis būdas yra ypač svarbus jums dirbant su produkto konfigūravimo variantais, kurie nėra panaudojami iš naujo, nes jis jums padės apsisaugoti nuo šiukšlių.
 
 ## <a name="related-resources"></a>Susiję ištekliai
 
-Dėl daugiau informacijos apie produktų gyvavimo ciklos būsenas, žr. [Produkto gyvavimo ciklo būsenos apžvalga](../../pim/product-lifecycle.md).
+Daugiau informacijos apie produktų gyvavimo ciklo būsenas rasite [Produkto gyvavimo ciklo būsenų apžvalga](../../pim/product-lifecycle.md).
 
 Dėl išsamios informacijos apimančios žingsnius produkto gyvavimo ciklo būsenų naudojimui siekiant išmesti produktus ir pagrindinio planavimo ir BOM-level skaičiuokles, žr. [Sukurti produkto gyvavimo ciklo būseną siekiant išmesti produktus iš pagrindinio planavimo](../../pim/tasks/exclude-products-master-planning.md).
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

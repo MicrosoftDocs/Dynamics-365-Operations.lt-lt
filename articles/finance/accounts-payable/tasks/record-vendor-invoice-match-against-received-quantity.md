@@ -2,23 +2,23 @@
 title: Įrašyti tiekėjo SF ir sugretinti su gautu kiekiu
 description: Gavę sąskaitą faktūrą iš tiekėjo už prekes ir paslaugas, pateiktas pirkimo užsakyme, atsižvelgiant į verslo procesus, gali reikėti, kad prekės ar paslaugos būtų gautos prieš pateikiant sąskaitą faktūrą apmokėti.
 author: ShivamPandey-msft
-ms.date: 08/29/2018
+ms.date: 02/11/2022
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
 ms.search.form: PurchTable, PurchCreateOrder, PurchEditLines, VendEditInvoice, VendEditInvoiceDefaultQuantityForLinesDropDialog,  VendJournalMatch_PackingSlip, VendInvoiceMatchingDetails
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a9d3fab4be1de90783d5885cf46b9e0cf6ee74b5
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
-ms.translationtype: HT
+ms.openlocfilehash: 8a3f1463821a43af0d8d5f15225944b080414e4c
+ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5820622"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "8109923"
 ---
 # <a name="record-vendor-invoice-and-match-against-received-quantity"></a>Įrašyti tiekėjo SF ir sugretinti su gautu kiekiu
 
@@ -26,41 +26,41 @@ ms.locfileid: "5820622"
 
 Gavę sąskaitą faktūrą iš tiekėjo už prekes ir paslaugas, pateiktas pirkimo užsakyme, atsižvelgiant į verslo procesus, gali reikėti, kad prekės ar paslaugos būtų gautos prieš pateikiant sąskaitą faktūrą apmokėti. Prieš pradėdami įsitikinkite, kad pasirinktas SF gretinimo konfigūracijos raktas. 
 
-Puslapyje Mokėtinų sumų parametrai įsitikinkite, kad pasirinkta parinktis Įgalinti SF gretinimo tikrinimą, laukas Registruoti SF su nesutapimais nustatytas į Reikalauti patvirtinimo, o laukas Eilučių atitikimo strategija nustatytas į Tripusis atitikimas.
+Mokėtinų **sumų parametrų puslapyje, įsitikinkite,** **kad pasirinkta parinktis Įgalinti SF gretinimo tikrinimą,** **·** **lauke Registruoti SF su nesutapimų nustatyta kaip Reikalauti patvirtinimo,** **o eilutės atitikimo strategijos laukas nustatytas** kaip Triaipus atitikimas.**·**
 
 Šioje procedūroje naudojama demonstracinė įmonė USMF. Šiuos veiksmus paprastai atlieka mokėtinų sumų vadovo arba apskaitos vadovo vaidmuo.
 
 
 ## <a name="create-a-purchase-order"></a>Pirkimo užsakymo kūrimas
 1. Eikite į Visi pirkimo užsakymai.
-2. Spustelėkite Naujas.
-3. Lauke Tiekėjo sąskaita spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
-4. Lauke Tiekėjo sąskaita surinkite reikšmę.
-5. Spustelėkite GERAI.
-6. Spustelėkite Pridėti eilutę.
-7. Lauke Prekės numeris surinkite reikšmę.
-8. Veiksmų srityje spustelėkite Pirkti.
-9. Spustelėkite Patvirtinti.
+2. Spustelėkite **Naujas**.
+3. Lauke **Tiekėjo sąskaita** spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
+4. Lauke **Tiekėjo sąskaita** įveskite vertę.
+5. Spustelėkite **Gerai**.
+6. Spustelėkite **Pridėti eilutę**.
+7. Lauke **Prekės numeris** įveskite vertę.
+8. Veiksmų srityje spustelėkite **Pirkti**.
+9. Spustelėkite **Patvirtinti**.
 
 ## <a name="post-a-product-receipt"></a>Registruoti produkto gavimo kvitą
-1. Veiksmų srityje spustelėkite Gauti.
-2. Spustelėkite Produkto gavimo kvitas.
+1. Veiksmų srityje spustelėkite **Gauti**.
+2. Spustelėkite **Produkto gavimo kvitas**.
 3. Sąraše pažymėkite pasirinktą eilutę.
-4. Lauke Produkto gavimo kvitas surinkite reikšmę.
-5. Spustelėkite GERAI.
+4. Lauke **Produkto gavimo kvitas** įveskite vertę.
+5. Spustelėkite **Gerai**.
 
 ## <a name="record-and-match-a-vendor-invoice-to-a-product-receipt"></a>Įrašyti bei gretinti tiekėjo SF ir produkto gavimo kvitą
-1. Veiksmų srityje spustelėkite Sąskaita faktūra.
-2. Spustelėkite Sąskaita faktūra.
-3. Lauke Numeris surinkite reikšmę.
-4. Spustelėkite Numatyt. iš: užsakyto kiekio, kad atidarytumėte išplečiamąjį dialogo langą.
-5. Lauke Numatytasis eilučių kiekis pasirinkite parinktį.
-6. Spustelėkite GERAI.
-7. Spustelėkite Taip.
-8. Spustelėkite Sugretinti gavimo dokumentus.
-9. Spustelėkite GERAI.
-10. Veiksmų srityje spustelėkite Peržiūrėti.
-11. Spustelėkite Gretinimo informacija.
+1. Veiksmų srityje spustelėkite **Sąskaita faktūra**.
+2. Spustelėkite **Sąskaita faktūra**.
+3. Lauke **Numeris** įveskite vertę.
+4. Spustelėkite **Numatyt. iš: užsakyto kiekio**, kad atidarytumėte išplečiamąjį dialogo langą.
+5. Lauke **Numatytasis eilučių kiekis** pasirinkite parinktį.
+6. Spustelėkite **Gerai**.
+7. Spustelėkite **Taip**.
+8. Spustelėkite **Sugretinti produktų gavimo kvitus**.
+9. Spustelėkite **Gerai**.
+10. Veiksmų srityje spustelėkite **Peržiūrėti**.
+11. Spustelėkite **Gretinimo informacija**.
 
 
 

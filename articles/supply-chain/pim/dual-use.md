@@ -1,26 +1,24 @@
 ---
 title: Dvigubo naudojimo prekės
 description: Šiame skyriuje paaiškinama, kaip sekti gaminius, kurie laikomi dvigubo naudojimo prekėmis, kiekvienos prekės parduotuvės sertifikato numerį ir paskirties vietą bei kaip atspausdinti galiojančius sertifikato numerius reikiamose sąskaitose, pakavimo lipdukus ir (arba) prekybos užsakymus.
-author: dasani-madipalli
-manager: tfehr
+author: t-benebo
 ms.date: 07/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: COODualUseCerts, COORules, COODualUseCountries
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: damadipa
+ms.author: benebotg
 ms.search.validFrom: 2020-07-15
-ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 4623b6eaa18b65f0f61cb8c227115d59f3ff9c08
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.dyn365.ops.version: 10.0.9
+ms.openlocfilehash: 21910c61cc330e0c9292990b7b1914f56bac844c
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5007709"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7570758"
 ---
 # <a name="dual-use-goods"></a>Dvigubo naudojimo prekės
 
@@ -35,14 +33,14 @@ Apgalvokite šiuos scenarijus:
 1. **Dvigubo naudojimo šalies nustatymų** puslapis jūsų sistemoje rodo, kad siuntimui į Prancūziją reikalingas sertifikatas.
 2. **Išleisto produkto informacijos** puslapis X-100 produktui rodo, kad tai dviejų naudojimų prekė. Kartu, kodas, kategorija, grupė ir režimas rodo eksportavimo valdymo klasifikavimą, kad produktas jiems priklauso.
 3. **Dvigubo naudojimo sertifikatų** puslapis apima sertifikatą X-100 gaminiui, kai jis siunčiamas į Prancūziją. Šis sertifikatas baigia galioti 2020 m sausio 1 d.
-4. 2020 m. birželio 17 d. sukuriate prekybos užsakyma kliento bendrovei, kuri yra Prancūzijoje ir užsakymas apime X-100 produktą.
+4. 2020 m. birželio 17 d. sukuriate prekybos užsakymą kliento bendrovei, kuri yra Prancūzijoje ir užsakymas apima X-100 produktą.
 5. Kai įrašote prekybos užsakymą, sistema nusprendžia šią informaciją:
 
     1. Ar užsakymas apima bet kokius produktus, kurie yra dvigubo panaudojimo prekės?
     2. Jei užsakymas apie dvigubo panaudojimo prekes, ar paskirties šalis reikalauja dvigubo panaudojimo sertifikatų?
     3. Jei šalis reikalauja dvigubo naudojimo sertifikatų, ar sertifikatas galioja dvigubo panaudojimo prekei paskirties šalyje?
 
-6. Užsakymas apima X-100 produktą, produktas siunčiamas į Prancūziją ir Prancūzijos serfikatas yra išduotas produktui. Nepaisant to, sertifikatas nebegalioja. Dėl to, gaunate šią perspėjančią žinutę: „Dvigubo panaudojimo sertifikatas vienam ar keliems dvigubo panaudojimo elementas šiame užsakyme negalioja. Ar norite tęsti patvirtinimą?“
+6. Užsakymas apima X-100 produktą, produktas siunčiamas į Prancūziją ir Prancūzijos sertifikatas yra išduotas produktui. Nepaisant to, sertifikatas nebegalioja. Dėl to, gaunate šią perspėjančią žinutę: „Dvigubo panaudojimo sertifikatas vienam ar keliems dvigubo panaudojimo elementas šiame užsakyme negalioja. Ar norite tęsti patvirtinimą?“
 
 Šiame skyriuje paaiškinama, kaip konfigūruoti visus nustatymus būtinus dvigubo panaudojimo prekių nustatymams ir šio scenarijaus palaikymui.
 
@@ -63,13 +61,13 @@ Informacijos apie dvigubo panaudojimo reikalavimų nustatymą skirtingoms šalim
 
 ## <a name="create-dual-use-categories"></a>Sukurkite dviejų panaudojimų kategorijas
 
-Dvigubo panaudojimo prekės turi būti dažnai suskirstytos į kategorijas pagal jų eksportavimo valdymo klasifikavimo nunmerį (ECCN). ECCN yra skaitmeninis ir raidinis kodas, kuris suskirsto į kategorijas elementus pagal tokius faktorius kaip prekės ir technologija. **Dvigubo panaudojimo kategorijų** puslapis jums padeda sudaryti jūsų naudojamų kategorijų sąrašą ataskaitų rengimo tikslais.
+Dvigubo panaudojimo prekės turi būti dažnai suskirstytos į kategorijas pagal jų eksportavimo valdymo klasifikavimo numerį (ECCN). ECCN yra skaitmeninis ir raidinis kodas, kuris suskirsto į kategorijas elementus pagal tokius faktorius kaip prekės ir technologija. **Dvigubo panaudojimo kategorijų** puslapis jums padeda sudaryti jūsų naudojamų kategorijų sąrašą ataskaitų rengimo tikslais.
 
-Dviguvo panaudojimo kategorijų nustatymui, atlikite šiuos žingsnius.
+Dvigubo panaudojimo kategorijų nustatymui atlikite šiuos žingsnius.
 
 1. Eikite į **Gaminio informacijas tvarkymas \> Sąranka \> Gaminio atitiktis \> Dvigubo panaudojimo produktai \> Dvigubo panaudojimo kategorijos**.
 2. Pasirinkite esančią šalies kategoriją jos redagavimui arba pasirinkite **Naujas** veiksmų juostoje, kad sukurtumėte naujos šalies kategoriją.
-3. Naujoje kategorije ar pasirinktoje kategorijoje nustatykite šias vertes:
+3. Naujoje ar pasirinktoje kategorijoje nustatykite šias vertes:
 
     | Laukai | aprašymas |
     |---|---|
@@ -84,7 +82,7 @@ Produkto kaip dvigubo panaudojimo prekės nustatymui ir dvigubo panaudojimo kate
 
 1. Eikite į **Produkto informacijos valdymas \> Produktai \> Patvirtinti produktai**.
 1. Pasirinkite ar sukurkite produktą, kad atidarytumėte jo **Išleisto produkto informacija** puslapį.
-1. **Užsienio prekybos** „FastTab“, nustatykite **Dvigubo naudojimo produktų** prainktį į **Taip** tam, kad nustatytumėte esamą produktą kaip dvigubo panaudojimo prekę.
+1. **Užsienio prekybos** „FastTab“, nustatykite **Dvigubo naudojimo produktų** parinktį į **Taip** tam, kad nustatytumėte esamą produktą kaip dvigubo panaudojimo prekę.
 1. Nustatykite **Dvigubo panaudojimo kodo** laukelį, kuris taikomas dabartiniam produktui. (Jūs šį kodą nustatėte **Dvigubo panaudojimo kategorijų** puslapyje.)
 
 Šis nustatymas yra tikrinamas, kai kuriate prekybos užsakymą.
@@ -97,9 +95,9 @@ Naudojate **Dvigubo panaudojimo sertifikatų** puslapį, kad nustatytumėte ir v
 2. Pasirinkite esančią sertifikato sąranką jos redagavimui arba pasirinkite **Naujas** veiksmų juostoje, kad sukurtumėte naujo sertifikato sąranką.
 3. Naujam ar pasirinktam sertifikatui nustatykite šias vertes.
 
-    | Laukas | aprašymas |
+    | Laukas | Aprašymas |
     |---|---|
-    | Prekės Nr. | Pasirinkite dvigubo panaudojimo prekės elemento numerį, kuriam taikomas šis sertifiktas. |
+    | Prekės numeris | Pasirinkite dvigubo panaudojimo prekės elemento numerį, kuriam taikomas šis sertifikatas. |
     | Šalis/regionas | Paskirties šalis ar regionas, kuriame privalote naudoti šį sertifikatą. |
     | Sertifikato numeris | Skaičius pasirodantis sertifikate, kuris yra išduotas pardavėjui ar klientui. |
     | Galioja | Pasirinkite pirmą datą, kai esamas sertifikatas galioja.|
@@ -107,3 +105,6 @@ Naudojate **Dvigubo panaudojimo sertifikatų** puslapį, kad nustatytumėte ir v
     | Atspausdinkite sąskaitą | Pasirinkite žymimą laukelį, kad atspausdintumėte sertifikato numerį sąskaitose, kurios yra siunčiamos konkrečiai šaliai nurodytų duomenų intervale. |
     | Atspausdinkite pakavimo lipduką | Pasirinkite žymimą laukelį, kad atspausdintumėte pakavimo lipdukų numerį sąskaitose, kurios yra siunčiamos konkrečiai šaliai nurodytų duomenų intervale. |
     | Prekybos užsakymo spausdinimas | Pasirinkite žymimą laukelį, kad atspausdintumėte sertifikato numerį ar prekybos užsakymus, kurie yra siunčiami konkrečiai šaliai nurodytų duomenų intervale. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -8,18 +8,20 @@ ms.prod: ''
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.custom: 27681
+ms.custom:
+- "27681"
+- intro-internal
 ms.assetid: c4624bc8-3661-49e6-9cb4-87778acdc302
 ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e20b6d586e4effbb56d476504a679c3b0b8adb3c
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 1a1c0ee254a5300cfc84eb434e4785b6eceacf0375b983b33991445443957a33
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5754499"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6712741"
 ---
 # <a name="reporting-and-analytics-with-power-bi-home-page"></a>Ataskaitos ir analizė naudojant pagrindinį „Power BI“ puslapį
 
@@ -37,7 +39,7 @@ Darbo srityse galima naudoti turiningas informacines diagramas ir vaizdinius ele
 
 Puslapyje spustelėdami ar paliesdami vaizdinius elementus, galite interaktyviai naudoti duomenis. Jie gali matyti priežasties ir pasekmės ryšius bei atlikti paprastas „what-if‟ operacijas neišeidami iš darbo srities. Pasitelkdami įspūdingus interaktyvius vaizdinius elementus, jūsų vartotojai galės smagiai naršyti duomenis ir atrasti nematytų tendencijų.
 
-![„Power BI“ darbo srityje pavyzdys](./media/Power-BI-in-D365-Workspace.png)
+![„Power BI“ darbo srityje pavyzdys.](./media/Power-BI-in-D365-Workspace.png)
 
 Norėdami sužinoti daugiau, žr. tolesnes temas.
 
@@ -50,7 +52,7 @@ Norėdami sužinoti daugiau, žr. tolesnes temas.
 ## <a name="business-documents-and-printing"></a>Verslo dokumentai ir spausdinimas
 Ataskaitų sprendimai dažnai naudojami verslo operacijų informacijai fiksuoti ir perduoti. Todėl ataskaitų sprendimas turi gebėti naudodamas esamus įrenginius, pvz., tinklo spausdintuvus, kurti fizines verslo duomenų kopijas. Verslo dokumentų pavyzdžiai: pardavimo sąskaitos faktūros, klientų sąskaitų suderinimo aktai ir čekiai.
 
-[![Verslo dokumentų pavyzdys](./media/image-of-business-documents-1024x632.png)](./media/image-of-business-documents.png)
+[![Verslo dokumentų pavyzdys.](./media/image-of-business-documents-1024x632.png)](./media/image-of-business-documents.png)
 
 Norėdami sužinoti daugiau, žr. tolesnes temas.
 
@@ -61,7 +63,7 @@ Norėdami sužinoti daugiau, žr. tolesnes temas.
 ## <a name="electronic-reporting"></a>Elektroninės ataskaitos
 Elektroninės ataskaitos (ER) yra įrankis, naudojamas elektroninių dokumentų formatams, kurie atitinka teisinius įvairių šalių ar regionų reikalavimus, konfigūruoti. Elektronines ataskaitas galima pritaikyti finansų audito, mokesčių ataskaitų ir elektroninių sąskaitų faktūrų srityse.
 
-[![Elektroninių ataskaitų pavyzdys](./media/electronic-reporting-example.png)](./media/electronic-reporting-example.png)
+[![Elektroninių ataskaitų pavyzdys.](./media/electronic-reporting-example.png)](./media/electronic-reporting-example.png)
 
 Norėdami sužinoti daugiau, žr. tolesnes temas.
 
@@ -72,7 +74,7 @@ Norėdami sužinoti daugiau, žr. tolesnes temas.
 ## <a name="financial-reporting"></a>Finansinės ataskaitos
 Pateikiama standartinių finansinių ataskaitų, kuriose naudojamos numatytosios pagrindinių sąskaitų kategorijos. Naudodami ataskaitų kūrimo įrankį galite kurti ar modifikuoti įprastas finansines ataskaitas, pvz., pajamų ataskaitas ir balansus. Tada rezultatus galite bendrinti su kitais organizacijos nariais. Finansinių ataskaitų pavyzdžiai: balansai, grynųjų pinigų srautas ir bandomojo balanso suvestinė bėgant metams.
 
-[![Finansinių ataskaitų pavyzdys](./media/financial-reporting-example.png)](./media/financial-reporting-example.png)
+[![Finansinių ataskaitų pavyzdys.](./media/financial-reporting-example.png)](./media/financial-reporting-example.png)
 
 Norėdami sužinoti daugiau, žr. tolesnes temas.
 

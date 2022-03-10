@@ -1,474 +1,491 @@
 - name: Dynamics 365 Human Resources
-  href: hr-welcome.md
   items:
-    - name: Kas nauja
+    - name: Dynamics 365 Human Resources
       items:
-        - name: Kas nauja ar pasikeitė „Human Resources”
-          href: hr-admin-whats-new.md
-        - name: "2020\_m. gruodžio 2\_d."
-          href: hr-whats-new-2020-12-02.md
-        - name: "2020\_m. spalio 22\_d."
-          href: hr-whats-new-2020-10-22.md
-        - name: "2020\_m. spalio 6\_d."
-          href: hr-whats-new-2020-10-06.md
-        - name: "2020\_m. rugsėjo 26\_d."
-          href: hr-whats-new-2020-09-26.md
-        - name: "2020\_m. rugsėjo 16\_d."
-          href: hr-whats-new-2020-09-16.md
-        - name: "2020\_m. rugsėjo 3\_d."
-          href: hr-whats-new-2020-09-03.md
-        - name: "2020\_m. rugpjūčio 20\_d."
-          href: hr-whats-new-2020-08-20.md
-        - name: "2020\_m. rugpjūčio 6\_d."
-          href: hr-whats-new-2020-08-06.md
-        - name: "2020\_m. liepos 23\_d."
-          href: hr-whats-new-2020-07-23.md
-        - name: "2020\_m. liepos 8\_d."
-          href: hr-whats-new-2020-07-08.md
-        - name: 2020 m. birželio 25 d.
-          href: hr-whats-new-2020-06-23.md
-        - name: 2020 m. birželio 11 d.
-          href: hr-whats-new-2020-06-11.md
-        - name: 2020 m. gegužės 28 d.
-          href: hr-whats-new-2020-05-28.md
-        - name: 2020 m. gegužės 14 d.
-          href: hr-whats-new-2020-05-14.md
-        - name: 2020 m. gegužės 1 d.
-          href: hr-whats-new-2020-05-01.md
-        - name: Skyriaus Kas nauja 2020 m. archyvai
+        - name: „Dynamics 365 Human Resources“ pagrindinis puslapis
+          href: index.md
+        - name: 10.0.25 infrastruktūros leidimas
+          href: hr-infrastructure.md
+        - name: Kas nauja ar pasikeitė „Dynamics 365 Human Resources“ sujungta infrastruktūra
+          href: ./get-started/hr-whats-new-changed-10-0-25.md
+        - name: Pradėti
           items:
-            - name: 2020 m. balandžio 13 d.
-              href: hr-whats-new-2020-04-13.md
-            - name: 2020 m. balandžio 3 d.
-              href: hr-whats-new-2020-04-03.md
-            - name: "2020\_m. kovo 24\_d."
-              href: hr-whats-new-2020-03-24.md
-            - name: "2020\_m. kovo 19\_d."
-              href: hr-whats-new-2020-03-19.md
-            - name: "2020\_m. kovo 10\_d."
-              href: hr-whats-new-2020-03-10.md
-            - name: "2020\_m. kovo 3\_d."
-              href: hr-whats-new-2020-03-03.md
-            - name: "2020\_m. vasario 25\_d."
-              href: hr-whats-new-2020-02-25.md
-            - name: "2020\_m. vasario 18\_d."
-              href: hr-whats-new-2020-02-18.md
-            - name: "2020\_m. vasario 12\_d."
-              href: hr-whats-new-2020-02-12.md
-            - name: "2020\_m. vasario 7\_d."
-              href: hr-whats-new-2020-02-07.md
-            - name: "2020\_m. vasario 3\_d."
-              href: hr-whats-new-2020-02-03.md
-    - name: Administratoriaus vadovas
-      items:
-        - name: Apžvalga
-          href: hr-admin-overview.md
-        - name: Sistemos reikalavimai
-          href: hr-admin-system-requirements.md
-        - name: Egzempliorių nustatymas ir valdymas
-          items:
-            - name: „Human Resources“ parengimas
-              href: hr-admin-setup-provision.md
-            - name: Egzemplioriaus kopijavimas
-              href: hr-admin-setup-copy-instance.md
-            - name: Egzemplioriaus šalinimas
-              href: hr-admin-setup-remove-instance.md
-            - name: Atnaujinimo procesas
-              href: hr-admin-setup-update-process.md
-        - name: Duomenų integravimo nustatymas
-          items:
-            - name: Duomenų integravimo technologijos pasirinkimas
-              href: hr-admin-integration-choose-technology.md
-            - name: „Common Data Service“ integravimo konfigūravimas
-              href: hr-admin-integration-common-data-service.md
-            - name: „Common Data Service“ objektai
-              href: hr-developer-entities.md
-            - name: „Common Data Service“ virtualiųjų objektų konfigūravimas
-              href: hr-admin-integration-common-data-service-virtual-entities.md
-            - name: Integravimo su „Finance“ konfigūravimas
-              href: hr-admin-integration-finance.md
-            - name: Integravimo su „Dayforce“ konfigūravimas
-              href: hr-admin-integration-dayforce.md
-            - name: Pasikartojančių duomenų eksportavimo programos kūrimas
-              href: hr-admin-integration-recurring-data-export.md
-            - name: Integravimas su „LinkedIn Talent Hub“
-              href: hr-admin-integration-linkedin.md
-            - name: Integravimas su „Office“
+            - name: Kas nauja
+              href: hr-admin-whats-new.md
+            - name: Kas nauja ar pasikeitė 2021 m. archyvas
               items:
-                - name: „Office“ integravimo mokomoji programa
-                  href: ../dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/human-resources/toc.json
-                - name: Objekto duomenų naujinimas programoje „Excel“
-                  href: ../dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/human-resources/toc.json
-                - name: Atidarymo programoje „Excel“ patirčių kūrimas
-                  href: ../dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/human-resources/toc.json
-                - name: „Office“ integravimo trikčių šalinimas
-                  href: ../dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/dynamics365/human-resources/toc.json
-        - name: Duomenų valdymo konfigūravimas
-          items:
-            - name: Duomenų valdymo sistemos apžvalga
-              href: ../dev-itpro/data-entities/data-entities-data-packages.md?toc=/dynamics365/human-resources/toc.json
-            - name: Duomenų objektai
+                - name: "2021\_m. lapkričio 29\_d."
+                  href: hr-whats-new-2021-11-29.md
+                - name: "2021\_m. spalio 5\_d."
+                  href: hr-whats-new-2021-10-04.md
+                - name: "2021\_m. rugsėjo 20\_d."
+                  href: hr-whats-new-2021-09-20.md
+                - name: "2021\_m. rugsėjo 6\_d."
+                  href: hr-whats-new-2021-09-06.md
+                - name: "2021\_m. rugpjūčio 23\_d."
+                  href: hr-whats-new-2021-08-23.md
+                - name: "2021\_m. rugpjūčio 9\_d."
+                  href: hr-whats-new-2021-08-09.md
+                - name: "2021\_m. liepos 26\_d."
+                  href: hr-whats-new-2021-07-26.md
+                - name: "2021\_m. liepos 12\_d."
+                  href: hr-whats-new-2021-07-12.md
+                - name: 2021 m. birželio 22 d.
+                  href: hr-whats-new-2021-06-22.md
+                - name: 2021 m. gegužės 20 d.
+                  href: hr-whats-new-2021-05-20.md
+                - name: 2021 m. gegužės 3 d.
+                  href: hr-whats-new-2021-05-03.md
+                - name: 2021 m. balandžio 19 d.
+                  href: hr-whats-new-2021-04-19.md
+                - name: 2021 m. balandžio 5 d.
+                  href: hr-whats-new-2021-04-05.md
+                - name: 2021 m. kovo 22 d.
+                  href: hr-whats-new-2021-03-22.md
+                - name: 2021 m. kovo 8 d.
+                  href: hr-whats-new-2021-03-08.md
+                - name: 2021 m. vasario 22 d.
+                  href: hr-whats-new-2021-02-22.md
+                - name: 2021 m. sausio 28 d.
+                  href: hr-whats-new-2021-01-28.md
+                - name: 2021 m. sausio 21 d.
+                  href: hr-whats-new-2021-01-21.md
+            - name: Skyriaus Kas nauja 2020 m. archyvai
               items:
-                - name: Duomenų objektų apžvalga
-                  href: ../dev-itpro/data-entities/data-entities.md?toc=/dynamics365/human-resources/toc.json
-                - name: Konfigūracijos duomenų projektai
-                  href: ../dev-itpro/data-entities/configuration-data-projects.md?toc=/dynamics365/human-resources/toc.json
-                - name: Konfigūracijos duomenų tarp įmonių ar juridinių subjektų kopijavimas
+                - name: "2020\_m. gruodžio 2\_d."
+                  href: hr-whats-new-2020-12-02.md
+                - name: "2020\_m. spalio 22\_d."
+                  href: hr-whats-new-2020-10-22.md
+                - name: "2020\_m. spalio 6\_d."
+                  href: hr-whats-new-2020-10-06.md
+                - name: "2020\_m. rugsėjo 26\_d."
+                  href: hr-whats-new-2020-09-26.md
+                - name: "2020\_m. rugsėjo 16\_d."
+                  href: hr-whats-new-2020-09-16.md
+                - name: "2020\_m. rugsėjo 3\_d."
+                  href: hr-whats-new-2020-09-03.md
+                - name: "2020\_m. rugpjūčio 20\_d."
+                  href: hr-whats-new-2020-08-20.md
+                - name: "2020\_m. rugpjūčio 6\_d."
+                  href: hr-whats-new-2020-08-06.md
+                - name: "2020\_m. liepos 23\_d."
+                  href: hr-whats-new-2020-07-23.md
+                - name: "2020\_m. liepos 8\_d."
+                  href: hr-whats-new-2020-07-08.md
+                - name: 2020 m. birželio 25 d.
+                  href: hr-whats-new-2020-06-23.md
+                - name: 2020 m. birželio 11 d.
+                  href: hr-whats-new-2020-06-11.md
+                - name: 2020 m. gegužės 28 d.
+                  href: hr-whats-new-2020-05-28.md
+                - name: 2020 m. gegužės 14 d.
+                  href: hr-whats-new-2020-05-14.md
+                - name: 2020 m. gegužės 1 d.
+                  href: hr-whats-new-2020-05-01.md
+                - name: 2020 m. balandžio 13 d.
+                  href: hr-whats-new-2020-04-13.md
+                - name: 2020 m. balandžio 3 d.
+                  href: hr-whats-new-2020-04-03.md
+                - name: "2020\_m. kovo 24\_d."
+                  href: hr-whats-new-2020-03-24.md
+                - name: "2020\_m. kovo 19\_d."
+                  href: hr-whats-new-2020-03-19.md
+                - name: "2020\_m. kovo 10\_d."
+                  href: hr-whats-new-2020-03-10.md
+                - name: "2020\_m. kovo 3\_d."
+                  href: hr-whats-new-2020-03-03.md
+                - name: "2020\_m. vasario 25\_d."
+                  href: hr-whats-new-2020-02-25.md
+                - name: "2020\_m. vasario 18\_d."
+                  href: hr-whats-new-2020-02-18.md
+                - name: "2020\_m. vasario 12\_d."
+                  href: hr-whats-new-2020-02-12.md
+                - name: "2020\_m. vasario 7\_d."
+                  href: hr-whats-new-2020-02-07.md
+                - name: "2020\_m. vasario 3\_d."
+                  href: hr-whats-new-2020-02-03.md
+            - name: Apžvalga
+              href: hr-admin-overview.md
+            - name: Sistemos reikalavimai
+              href: hr-admin-system-requirements.md
+            - name: Egzempliorių nustatymas ir valdymas
+              items:
+                - name: „Human Resources“ parengimas
+                  href: hr-admin-setup-provision.md
+                - name: Egzemplioriaus kopijavimas
+                  href: hr-admin-setup-copy-instance.md
+                - name: Egzemplioriaus šalinimas
+                  href: hr-admin-setup-remove-instance.md
+                - name: Atnaujinimo procesas
+                  href: hr-admin-setup-update-process.md
+            - name: Duomenų integravimo nustatymas
+              items:
+                - name: Duomenų integravimo technologijos pasirinkimas
+                  href: hr-admin-integration-choose-technology.md
+                - name: Užklausų buferizavimo DUK
+                  href: hr-admin-integration-throttling-faq.md
+                - name: „Dataverse“ integravimo konfigūravimas
+                  href: hr-admin-integration-common-data-service.md
+                - name: „Dataverse“ lentelės
+                  href: hr-developer-entities.md
+                - name: „Dataverse“ virtualiųjų lentelių konfigūravimas
+                  href: hr-admin-integration-common-data-service-virtual-entities.md
+                - name: „Human Resources“ virtualiųjų lentelių DUK
+                  href: hr-admin-virtual-entity-faq.md
+                - name: Integravimo su „Finance“ konfigūravimas
+                  href: hr-admin-integration-finance.md
+                - name: Integravimo su „Dayforce“ konfigūravimas
+                  href: hr-admin-integration-dayforce.md
+                - name: Pasikartojančių duomenų eksportavimo programos kūrimas
+                  href: hr-admin-integration-recurring-data-export.md
+                - name: Integravimas su „LinkedIn Talent Hub“
+                  href: hr-admin-integration-linkedin.md
+                - name: Integravimas su „Office“
                   items:
-                    - name: Konfigūracijos duomenų kopijavimo apžvalga
-                      href: ../dev-itpro/data-entities/copy-configuration.md?toc=/dynamics365/human-resources/toc.json
-                    - name: Konfigūracijos duomenų paketai
-                      href: ../dev-itpro/data-entities/configuration-data-packages.md?toc=/dynamics365/human-resources/toc.json
-                    - name: Konfigūracijos duomenų paketai (tik 2017 m. liepos mėn. leidimas)
-                      href: ../dev-itpro/data-entities/configuration-data-packages.md?toc=/dynamics365/human-resources/toc.json
-                - name: Konfigūracijos duomenų šablonai
-                  href: ../dev-itpro/data-entities/configuration-data-templates.md?toc=/dynamics365/human-resources/toc.json
-                - name: Objekto keitimų sekimas
-                  href: ../dev-itpro/data-entities/entity-change-track.md?toc=/dynamics365/human-resources/toc.json
-                - name: Informacijos apie standartinius duomenų objektus ieška
-                  href: ../dev-itpro/data-entities/data-entities-report.md?toc=/dynamics365/human-resources/toc.json
-                - name: Duomenų šablonai su keliais darbalapiais
-                  href: ../dev-itpro/data-entities/excel-template-multiple.md?toc=/dynamics365/human-resources/toc.json
-                - name: Objektų keitimų sekimo įjungimas
-                  href: ../dev-itpro/data-entities/entity-change-track.md?toc=/dynamics365/human-resources/toc.json
-                - name: Konfigūracijos raktai ir duomenų objektai
-                  href: ../dev-itpro/data-entities/config-key-entities.md?toc=/dynamics365/human-resources/toc.json
-                - name: Konfigūracijos duomenų paketai
-                  href: ../dev-itpro/data-entities/configuration-data-packages.md?toc=/dynamics365/human-resources/toc.json
-            - name: Duomenų importavimo ir eksportavimo užduotys
-              items:
-                - name: Duomenų importavimo ir eksportavimo užduočių apžvalga
-                  href: ../dev-itpro/data-entities/data-import-export-job.md?toc=/dynamics365/human-resources/toc.json
-                - name: Geriausia kvitų importavimo praktika naudojant bendrojo žurnalo objektą
-                  href: ../dev-itpro/data-entities/tips-tricks-import-general-journal-entity.md?toc=/dynamics365/human-resources/toc.json
-            - name: Duomenų objektų kūrimas
-              items:
-                - name: Duomenų objektų dizaino principai ir geriausia praktika
-                  href: ../dev-itpro/dev-tools/design-best-practices.md?toc=/dynamics365/human-resources/toc.json
-                - name: Naujų duomenų objektų kūrimas
-                  href: ../dev-itpro/data-entities/build-consuming-data-entities.md?toc=/dynamics365/human-resources/toc.json
-                - name: Duomenų objektų ypatybės
-                  href: ../dev-itpro/data-entities/behavioral-properties-data-entities.md?toc=/dynamics365/human-resources/toc.json
-                - name: Apskaičiuotų stulpelių ir virtualiųjų laukų kūrimas
-                  href: ../dev-itpro/data-entities/data-entity-computed-columns-virtual-fields.md?toc=/dynamics365/human-resources/toc.json
-                - name: Visos įmonės veikimo būdas
-                  href: ../dev-itpro/data-entities/cross-company-behavior.md?toc=/dynamics365/human-resources/toc.json
-                - name: "Šalių\_/ regionų kodų tvarkymas"
-                  href: ../dev-itpro/data-entities/countryregion-codes-configuration-keys.md?toc=/dynamics365/human-resources/toc.json
-                - name: Paveldėjimo šablonai
-                  href: ../dev-itpro/data-entities/support-super-type-sub-type.md?toc=/dynamics365/human-resources/toc.json
-                - name: Duomenų objekto vedlio taisyklės
-                  href: ../dev-itpro/data-entities/data-entity-wizard-rules.md?toc=/dynamics365/human-resources/toc.json
-                - name: Metaduomenų ypatybės
-                  href: ../dev-itpro/data-entities/behavioral-properties-data-entities.md?toc=/dynamics365/human-resources/toc.json
-                - name: 'Tikrinimai, numatytosios reikšmės ir nesusieti laukai'
-                  href: ../dev-itpro/data-entities/validations-defaults-unmapped-fields.md?toc=/dynamics365/human-resources/toc.json
-                - name: Sauga ir duomenų objektai
-                  href: ../dev-itpro/data-entities/security-data-entities.md?toc=/dynamics365/human-resources/toc.json
-                - name: Trečiųjų šalių paslaugų tikrinimo priemonių naudojimas
-                  href: ../dev-itpro/data-entities/third-party-service-test.md?toc=/dynamics365/human-resources/toc.json
-                - name: 'Tik skaitomų objektų, rodančių finansines dimensijas, kūrimas'
-                  href: ../dev-itpro/financial/read-only-entity-financial.md?toc=/dynamics365/human-resources/toc.json
-            - name: Savo duomenų bazės naudojimas
-              href: ../dev-itpro/analytics/export-entities-to-your-own-database.md?toc=/dynamics365/human-resources/toc.json
-            - name: BYOD paketinių užduočių optimizavimas
-              href: hr-admin-integration-byod-batch-jobs.md
-            - name: Automatizuotas objektų saugyklos atnaujinimas
-              href: ../dev-itpro/analytics/automated-entity-store-refresh.md?toc=/dynamics365/human-resources/toc.json
-            - name: Duomenų užduočių automatizavimas
-              href: ../dev-itpro/data-entities/data-task-automation.md?toc=/dynamics365/human-resources/toc.json
-            - name: Duomenų tikrinimo kontrolinio sąrašo darbo sritis
-              href: ../dev-itpro/user-interface/data-validation-workspace.md?toc=/dynamics365/human-resources/toc.json
-            - name: Duomenų valdymo klaidų aprašai
-              href: ../dev-itpro/data-entities/dm-error-descriptions.md?toc=/dynamics365/human-resources/toc.json
-        - name: Funkcijų valdymas
-          href: hr-admin-manage-features.md
-        - name: Duomenų bazės registravimo konfigūravimas ir valdymas
-          href: hr-admin-database-logging.md
-        - name: Vartotojo sąsajos naršymas
-          items:
-            - name: Vartotojo sąsajos elementai
-              href: ../fin-ops-core/fin-ops/get-started/user-interface-elements.md?toc=/dynamics365/human-resources/toc.json
-            - name: Pritaikymo neįgaliesiems funkcijos
-              href: ../fin-ops-core/fin-ops/get-started/accessibility-features.md?toc=/dynamics365/human-resources/toc.json
-            - name: Funkcijų valdymo apžvalga
-              href: ../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md?toc=/dynamics365/human-resources/toc.json
-            - name: Kliento DUK
-              href: ../fin-ops-core/fin-ops/get-started/client-faq.md?toc=/dynamics365/human-resources/toc.json
-            - name: Veiksmo ieška
-              href: ../fin-ops-core/fin-ops/get-started/action-search.md?toc=/dynamics365/human-resources/toc.json
-            - name: Išplėstinio filtravimo ir užklausų sintaksė
-              href: ../fin-ops-core/fin-ops/get-started/advanced-filtering-query-options.md?toc=/dynamics365/human-resources/toc.json
-            - name: Darbo sričių konfigūravimas ir filtravimas
-              href: ../fin-ops-core/fin-ops/get-started/configure-filter-workspaces.md?toc=/dynamics365/financehuman-resources/toc.json
-            - name: Vieno šalia kito puslapių rodymas naudojant funkciją Atidaryti naujame lange
-              href: ../fin-ops-core/fin-ops/get-started/display-pages-side-by-side.md?toc=/dynamics365/human-resources/toc.json
-            - name: Spartieji klavišai
-              href: ../fin-ops-core/fin-ops/get-started/shortcut-keys.md?toc=/dynamics365/human-resources/toc.json
-            - name: Juridinių subjektų reklaminių juostų arba logotipų vaizdų keitimas
-              href: ../fin-ops-core/fin-ops/get-started/tasks/change-banner-or-logo.md?toc=/dynamics365/human-resources/toc.json
-            - name: Naršymo ieška
-              href: ../fin-ops-core/fin-ops/get-started/navigation-search.md?toc=/dynamics365/human-resources/toc.json
-            - name: Vartotojo patirties personalizavimas
-              href: ../fin-ops-core/fin-ops/get-started/personalize-user-experience.md?toc=/dynamics365/human-resources/toc.json
-            - name: Įrašyti rodiniai
-              href: ../fin-ops-core/fin-ops/get-started/saved-views.md?toc=/dynamics365/human-resources/toc.json
-            - name: Pasirinktinių laukų kūrimas ir naudojimas
-              href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/human-resources/toc.json
-            - name: Drobės programėlių įterpimas iš „Power Apps“
-              href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=/dynamics365/human-resources/toc.json
-            - name: Informacijos ieška naudojant peržvalgas
-              href: ../fin-ops-core/fin-ops/get-started/use-lookups-to-find-information.md?toc=/dynamics365/human-resources/toc.json
-            - name: Seanso datos keitimas
-              href: ../fin-ops-core/fin-ops/organization-administration/tasks/change-date-session.md?toc=/dynamics365/human-resources/toc.json
-            - name: Vartotojo pageidaujamos laiko zonos nustatymas
-              href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-users-preferred-time-zone.md?toc=/dynamics365/human-resources/toc.json
-            - name: Susipažinkite su „Lifecycle Services“
-              href: ../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md?toc=/dynamics365/human-resources/toc.json
-        - name: „Human Resources“ programa „Teams“
-          href: hr-admin-teams-leave-app.md
-        - name: Rengimasis įgyvendinimo pradžiai
-          href: hr-admin-go-live-prepare.md
-        - name: DUK apie įgyvendinimo pradžią
-          href: hr-admin-go-live-faq.md
-        - name: Dokumentacijos ištekliai
-          items:
-            - name: Žinyno sistema
-              href: ../fin-ops-core/fin-ops/get-started/help-overview.md?toc=/dynamics365/human-resources/toc.json
-            - name: Žinyno sistemos prijungimas
-              href: ../fin-ops-core/fin-ops/get-started/help-connect.md?toc=/dynamics365/human-resources/toc.json
-            - name: Kliento žinyno apžvalga
-              href: ../fin-ops-core/dev-itpro/help/custom-help-overview.md?toc=/dynamics365/human-resources/toc.json
-            - name: Laukų aprašų peržiūra ir eksportas
-              href: ../fin-ops-core/fin-ops/get-started/view-export-field-descriptions.md?toc=/dynamics365/human-resources/toc.json
-            - name: Užduočių įrašymo priemonė
-              href: ../fin-ops-core/dev-itpro/user-interface/task-recorder.md?toc=/dynamics365/human-resources/toc.json
-            - name: Dokumentų ar mokymų kūrimas naudojant užduočių įrašymo priemonę
-              href: ../fin-ops-core/dev-itpro/user-interface/task-recorder-training-docs.md?toc=/dynamics365/human-resources/toc.json
-        - name: „Human Resources“ trikčių šalinimas
-          items:
-            - name: Palaikymo gavimas
-              href: ../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md?toc=/dynamics365/human-resources/toc.json
-            - name: Efektyvumo optimizavimas planuojant paketines užduotis po darbo valandų
-              href: hr-admin-troubleshooting-batch-jobs.md
-            - name: Efektyvumo optimizavimas naudojant automatinio valymo užduotis
-              href: hr-admin-troubleshooting-batch-history.md
-            - name: Neatnaujinamos analizės ataskaitos
-              href: hr-admin-troubleshooting-analytic-reports.md
-            - name: Nepavyksta sukurti aplinkos „Power Apps“ administravimo centre
-              href: hr-admin-troubleshooting-power-apps.md
-            - name: Klientas atsijungia
-              href: hr-admin-troubleshooting-disconnect.md
-            - name: Sutrumpinto teksto vengimas pareigų hierarchijoje
-              href: hr-admin-troubleshooting-truncate.md
-            - name: Kompensavimo proceso vykdymas
-              href: hr-admin-troubleshooting-compensation.md
-            - name: Užduočių vedlio įrašymas į LCS
-              href: hr-admin-troubleshooting-task-guide.md
-            - name: Prieiga prie privačių adresų pagal saugos vaidmenį
-              href: hr-admin-troubleshooting-private-addresses.md
-            - name: „Human Resources“ nėra „Dynamics 365“ programose
-              href: hr-admin-troubleshooting-not-in-apps.md
-            - name: Ataskaitų parinktys
-              href: hr-admin-troubleshooting-reporting.md
-            - name: Su integravimu susiję DUK
-              href: hr-admin-troubleshooting-integration.md
-    - name: Kūrėjo vadovas
-      items:
-        - name: Apžvalga
-          href: hr-developer-overview.md
-        - name: Išplėtimas su „Power Apps“ ir „Power Automate“
-          href: hr-developer-power-apps.md
-        - name: „Common Data Service“ objektai
-          href: hr-developer-entities.md
-        - name: Pasirinktiniai laukai
-          href: hr-developer-custom-fields.md
-        - name: Duomenų integravimo nustatymas
-          items:
-            - name: Duomenų integravimo technologijos pasirinkimas
-              href: hr-admin-integration-choose-technology.md
-            - name: „Common Data Service“ integravimo konfigūravimas
-              href: hr-admin-integration-common-data-service.md
-            - name: Integravimo su „Finance“ konfigūravimas
-              href: hr-admin-integration-finance.md
-            - name: Integravimo su „Dayforce“ konfigūravimas
-              href: hr-admin-integration-dayforce.md
-            - name: Pasikartojančių duomenų eksportavimo programos kūrimas
-              href: hr-admin-integration-recurring-data-export.md
-            - name: Integravimas su „Office“
-              items:
-                - name: „Office“ integravimo mokomoji programa
-                  href: ../dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: Objekto duomenų naujinimas programoje „Excel“
-                  href: ../dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: Atidarymo programoje „Excel“ patirčių kūrimas
-                  href: ../dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: „Office“ integravimo trikčių šalinimas
-                  href: ../dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: Objekto API nuoroda
-          items:
-            - name: Autentifikavimas
-              href: hr-developer-api-authentication.md
-            - name: Objektai
-              items:
-                - name: MyLeaveRequests
+                    - name: „Office“ integravimo mokomoji programa
+                      href: ../fin-ops-core/dev-itpro/office-integration/office-integration-tutorial.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                    - name: Objekto duomenų naujinimas programoje „Excel“
+                      href: ../fin-ops-core/dev-itpro/office-integration/use-excel-add-in.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                    - name: DUK apie atidarymo programoje „Excel“ patirtis
+                      href: ../fin-ops-core/dev-itpro/office-integration/office-integration-edit-excel.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                    - name: „Office“ integravimo trikčių šalinimas
+                      href: ../fin-ops-core/dev-itpro/office-integration/office-integration-troubleshooting.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                - name: Duomenų valdymo konfigūravimas
                   items:
-                    - name: MyLeaveRequests apžvalga
-                      href: hr-developer-api-myleaverequests-overview.md
-                    - name: Prašymo išeiti atostogų pateikimas darbo eigai
-                      href: hr-developer-api-myleaverequests-submit.md
-    - name: Vartotojo vadovas
-      items:
-        - name: Apžvalga
-          href: hr-hrpro-overview.md
-        - name: „Human Resources“ nustatymas
-          items:
-            - name: „Human Resources“ parametrų konfigūravimas
-              href: hr-setup-parameters.md
-            - name: Bendrai naudojamų „Human Resources“ parametrų konfigūravimas
-              href: hr-setup-shared-parameters.md
-            - name: Susipažinkite su datos ir laiko laukais
-              href: hr-setup-date-time-fields.md
-        - name: Organizacijos parametrų konfigūravimas
-          items:
-            - name: Organizacijos administravimo pagrindinis puslapis
-              href: ../fin-ops-core/fin-ops/organization-administration/organization-administration-home-page.md?toc=/dynamics365/human-resources/toc.json
-            - name: Numeracijos
+                    - name: Duomenų valdymo sistemos apžvalga
+                      href: ../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                    - name: Duomenų objektai
+                      items:
+                        - name: Duomenų objektų apžvalga
+                          href: ../fin-ops-core/dev-itpro/data-entities/data-entities.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                        - name: Konfigūracijos duomenų projektai
+                          href: ../fin-ops-core/dev-itpro/data-entities/configuration-data-projects.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                    - name: Konfigūracijos duomenų tarp įmonių ar juridinių subjektų kopijavimas
+                      items:
+                        - name: Konfigūracijos duomenų kopijavimo apžvalga
+                          href: ../fin-ops-core/dev-itpro/data-entities/copy-configuration.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                        - name: Konfigūracijos duomenų paketai
+                          href: ../fin-ops-core/dev-itpro/data-entities/configuration-data-packages.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                        - name: Konfigūracijos duomenų paketai (tik 2017 m. liepos mėn. leidimas)
+                          href: ../fin-ops-core/dev-itpro/data-entities/configuration-data-packages.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                        - name: Konfigūracijos duomenų šablonai
+                          href: ../fin-ops-core/dev-itpro/data-entities/configuration-data-templates.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                        - name: Objekto keitimų sekimas
+                          href: ../fin-ops-core/dev-itpro/data-entities/entity-change-track.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                        - name: Informacijos apie standartinius duomenų objektus ieška
+                          href: ../fin-ops-core/dev-itpro/data-entities/data-entities-report.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                        - name: Duomenų šablonai su keliais darbalapiais
+                          href: ../fin-ops-core/dev-itpro/data-entities/excel-template-multiple.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                        - name: Objektų keitimų sekimo įjungimas
+                          href: ../fin-ops-core/dev-itpro/data-entities/entity-change-track.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                        - name: Konfigūracijos raktai ir duomenų objektai
+                          href: ../fin-ops-core/dev-itpro/data-entities/config-key-entities.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                        - name: Konfigūracijos duomenų paketai
+                          href: ../fin-ops-core/dev-itpro/data-entities/configuration-data-packages.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                    - name: Duomenų importavimo ir eksportavimo užduotys
+                      items:
+                        - name: Duomenų importavimo ir eksportavimo užduočių apžvalga
+                          href: ../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                        - name: Geriausia kvitų importavimo praktika naudojant bendrojo žurnalo objektą
+                          href: ../fin-ops-core/dev-itpro/data-entities/tips-tricks-import-general-journal-entity.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                    - name: Duomenų objektų kūrimas
+                      items:
+                        - name: Duomenų objektų dizaino principai ir geriausia praktika
+                          href: ../fin-ops-core/dev-itpro/dev-tools/design-best-practices.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                        - name: Naujų duomenų objektų kūrimas
+                          href: ../fin-ops-core/dev-itpro/data-entities/build-consuming-data-entities.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                        - name: Duomenų objektų ypatybės
+                          href: ../fin-ops-core/dev-itpro/data-entities/behavioral-properties-data-entities.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                        - name: Apskaičiuotų stulpelių ir virtualiųjų laukų kūrimas
+                          href: ../fin-ops-core/dev-itpro/data-entities/data-entity-computed-columns-virtual-fields.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                        - name: Visos įmonės veikimo būdas
+                          href: ../fin-ops-core/dev-itpro/data-entities/cross-company-behavior.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                        - name: "Šalių\_/ regionų kodų tvarkymas"
+                          href: ../fin-ops-core/dev-itpro/data-entities/countryregion-codes-configuration-keys.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                        - name: Paveldėjimo šablonai
+                          href: ../fin-ops-core/dev-itpro/data-entities/support-super-type-sub-type.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                        - name: Duomenų objekto vedlio taisyklės
+                          href: ../fin-ops-core/dev-itpro/data-entities/data-entity-wizard-rules.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                        - name: Metaduomenų ypatybės
+                          href: ../fin-ops-core/dev-itpro/data-entities/behavioral-properties-data-entities.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                        - name: 'Tikrinimai, numatytosios reikšmės ir nesusieti laukai'
+                          href: ../fin-ops-core/dev-itpro/data-entities/validations-defaults-unmapped-fields.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                        - name: Sauga ir duomenų objektai
+                          href: ../fin-ops-core/dev-itpro/data-entities/security-data-entities.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                        - name: Trečiųjų šalių paslaugų tikrinimo priemonių naudojimas
+                          href: ../fin-ops-core/dev-itpro/data-entities/third-party-service-test.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                        - name: 'Tik skaitomų objektų, rodančių finansines dimensijas, kūrimas'
+                          href: ../fin-ops-core/dev-itpro/financial/read-only-entity-financial.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                    - name: Savo duomenų bazės naudojimas
+                      href: ../fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                    - name: BYOD paketinių užduočių optimizavimas
+                      href: hr-admin-integration-byod-batch-jobs.md
+                    - name: Automatizuotas objektų saugyklos atnaujinimas
+                      href: ../fin-ops-core/dev-itpro/analytics/automated-entity-store-refresh.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                    - name: Duomenų užduočių automatizavimas
+                      href: ../fin-ops-core/dev-itpro/data-entities/data-task-automation.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                    - name: Duomenų tikrinimo kontrolinio sąrašo darbo sritis
+                      href: ../fin-ops-core/dev-itpro/user-interface/data-validation-workspace.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                    - name: Duomenų valdymo klaidų aprašai
+                      href: ../fin-ops-core/dev-itpro/data-entities/dm-error-descriptions.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                    - name: Funkcijų valdymas
+                      href: hr-admin-manage-features.md
+                    - name: Duomenų bazės registravimo konfigūravimas ir valdymas
+                      href: hr-admin-database-logging.md
+            - name: Vartotojo sąsajos naršymas
               items:
-                - name: Numeracijų apžvalga
-                  href: ../fin-ops-core/fin-ops/organization-administration/number-sequence-overview.md?toc=/dynamics365/human-resources/toc.json
-                - name: Atskirų numeracijų nustatymas
-                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-up-number-sequences-individual-basis.md?toc=/dynamics365/human-resources/toc.json
-                - name: Numeracijų nustatymas naudojant vedlį
-                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-up-number-sequences-wizard.md?toc=/dynamics365/human-resources/toc.json
-            - name: Organizacijų ir organizacijų hierarchijos
-              items:
-                - name: Organizacijų ir organizacijų hierarchijų apžvalga
-                  href: ../fin-ops-core/fin-ops/organization-administration/organizations-organizational-hierarchies.md?toc=/dynamics365/human-resources/toc.json
-                - name: Organizacijos hierarchijos planavimas
-                  href: ../fin-ops-core/fin-ops/organization-administration/plan-organizational-hierarchy.md?toc=/dynamics365/human-resources/toc.json
-                - name: Organizacijos hierarchijos kūrimas
-                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/create-organization-hierarchy.md?toc=/dynamics365/human-resources/toc.json
-                - name: Juridinių subjektų kūrimas
-                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/create-legal-entity.md?toc=/dynamics365/human-resources/toc.json
-                - name: Valdymo vienetų kūrimas
-                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/create-operating-unit.md?toc=/dynamics365/human-resources/toc.json
-            - name: Visuotinė adresų knygelė
-              items:
-                - name: Visuotinės adresų knygelės apžvalga
-                  href: ../fin-ops-core/fin-ops/organization-administration/overview-global-address-book.md?toc=/dynamics365/human-resources/toc.json
-                - name: Visuotinės adresų knygelės ir kitų adresų knygelių planavimas
-                  href: ../fin-ops-core/fin-ops/organization-administration/plan-configuration-global-address-book-additional-address-books.md?toc=/dynamics365/human-resources/toc.json
-                - name: Visuotinės adresų knygelės konfigūravimas
-                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/configure-global-address-book.md?toc=/dynamics365/human-resources/toc.json
-                - name: DUK apie adresų knygeles
-                  href: ../fin-ops-core/fin-ops/organization-administration/qa-address-books.md?toc=/dynamics365/human-resources/toc.json
-                - name: Adresų knygelių konfigūravimas
-                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/address-books.md?toc=/dynamics365/human-resources/toc.json
-            - name: Darbo eigos sistema
-              items:
-                - name: Darbo eigos sistemos apžvalga
-                  href: ../fin-ops-core/fin-ops/organization-administration/overview-workflow-system.md?toc=/dynamics365/human-resources/toc.json
-                - name: Darbo eigos sistemos architektūra
-                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-system-architecture.md?toc=/dynamics365/human-resources/toc.json
-                - name: Darbo eigos elementai
-                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-elements.md?toc=/dynamics365/human-resources/toc.json
-                - name: Darbo eigos veiksmai
-                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-actions.md?toc=/dynamics365/human-resources/toc.json
-                - name: Darbo eigų kūrimas
+                - name: Vartotojo sąsajos elementai
+                  href: ../fin-ops-core/fin-ops/get-started/user-interface-elements.md?toc=/dynamics365/human-resources/toc.json
+                - name: Pritaikymo neįgaliesiems funkcijos
+                  href: ../fin-ops-core/fin-ops/get-started/accessibility-features.md?toc=/dynamics365/human-resources/toc.json
+                - name: Funkcijų valdymo apžvalga
+                  href: ../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md?toc=/dynamics365/human-resources/toc.json
+                - name: Kliento DUK
+                  href: ../fin-ops-core/fin-ops/get-started/client-faq.md?toc=/dynamics365/human-resources/toc.json
+                - name: Veiksmo ieška
+                  href: ../fin-ops-core/fin-ops/get-started/action-search.md?toc=/dynamics365/human-resources/toc.json
+                - name: Išplėstinio filtravimo ir užklausų sintaksė
+                  href: ../fin-ops-core/fin-ops/get-started/advanced-filtering-query-options.md?toc=/dynamics365/human-resources/toc.json
+                - name: Darbo sričių konfigūravimas ir filtravimas
+                  href: ../fin-ops-core/fin-ops/get-started/configure-filter-workspaces.md?toc=/dynamics365/financehuman-resources/toc.json
+                - name: Vieno šalia kito puslapių rodymas naudojant funkciją Atidaryti naujame lange
+                  href: ../fin-ops-core/fin-ops/get-started/display-pages-side-by-side.md?toc=/dynamics365/human-resources/toc.json
+                - name: Spartieji klavišai
+                  href: ../fin-ops-core/fin-ops/get-started/shortcut-keys.md?toc=/dynamics365/human-resources/toc.json
+                - name: Juridinių subjektų reklaminių juostų arba logotipų vaizdų keitimas
+                  href: ../fin-ops-core/fin-ops/get-started/tasks/change-banner-or-logo.md?toc=/dynamics365/human-resources/toc.json
+                - name: Naršymo ieška
+                  href: ../fin-ops-core/fin-ops/get-started/navigation-search.md?toc=/dynamics365/human-resources/toc.json
+                - name: Vartotojo patirties personalizavimas
+                  href: ../fin-ops-core/fin-ops/get-started/personalize-user-experience.md?toc=/dynamics365/human-resources/toc.json
+                - name: Įrašyti rodiniai
+                  href: ../fin-ops-core/fin-ops/get-started/saved-views.md?toc=/dynamics365/human-resources/toc.json
+                - name: Pasirinktinių laukų kūrimas ir naudojimas
+                  href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/human-resources/toc.json
+                - name: Drobės programėlių įterpimas iš „Power Apps“
+                  href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=/dynamics365/human-resources/toc.json
+                - name: Informacijos ieška naudojant peržvalgas
+                  href: ../fin-ops-core/fin-ops/get-started/use-lookups-to-find-information.md?toc=/dynamics365/human-resources/toc.json
+                - name: Seanso datos keitimas
+                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/change-date-session.md?toc=/dynamics365/human-resources/toc.json
+                - name: Vartotojo pageidaujamos laiko zonos nustatymas
+                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-users-preferred-time-zone.md?toc=/dynamics365/human-resources/toc.json
+                - name: Susipažinkite su „Lifecycle Services“
+                  href: ../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md?toc=/dynamics365/human-resources/toc.json
+                - name: Rengimasis įgyvendinimo pradžiai
+                  href: hr-admin-go-live-prepare.md
+                - name: DUK apie įgyvendinimo pradžią
+                  href: hr-admin-go-live-faq.md
+                - name: DUK apie „Human Resources“ infrastruktūros suliejimą
+                  href: hr-infrastructure-merge-faq.md
+                - name: Dokumentacijos ištekliai
                   items:
-                    - name: Darbo eigų kūrimo apžvalga
-                      href: ../fin-ops-core/fin-ops/organization-administration/create-workflow.md?toc=/dynamics365/human-resources/toc.json
-                    - name: Darbo eigos ypatybių konfigūravimas
-                      href: ../fin-ops-core/fin-ops/organization-administration/configure-workflow-properties.md?toc=/dynamics365/human-resources/toc.json
-                    - name: Neautomatizuotų užduočių konfigūravimas
-                      href: ../fin-ops-core/fin-ops/organization-administration/configure-manual-task-workflow.md?toc=/dynamics365/human-resources/toc.json
-                    - name: Automatizuotų užduočių konfigūravimas
-                      href: ../fin-ops-core/fin-ops/organization-administration/configure-automated-task-workflow.md?toc=/dynamics365/human-resources/toc.json
-                    - name: Patvirtinimo procesų konfigūravimas
-                      href: ../fin-ops-core/fin-ops/organization-administration/configure-approval-process-workflow.md?toc=/dynamics365/human-resources/toc.json
-                    - name: Patvirtinimo veiksmų konfigūravimas
-                      href: ../fin-ops-core/fin-ops/organization-administration/configure-approval-step-workflow.md?toc=/dynamics365/human-resources/toc.json
-                    - name: Neautomatizuotų sprendimų konfigūravimas
-                      href: ../fin-ops-core/fin-ops/organization-administration/configure-manual-decision-workflow.md?toc=/dynamics365/human-resources/toc.json
-                    - name: Sąlyginių sprendimų konfigūravimas
-                      href: ../fin-ops-core/fin-ops/organization-administration/configure-conditional-decision-workflow.md?toc=/dynamics365/human-resources/toc.json
-                    - name: Lygiagrečių veiklų konfigūravimas
-                      href: ../fin-ops-core/fin-ops/organization-administration/configure-parallel-activity-workflow.md?toc=/dynamics365/human-resources/toc.json
-                    - name: Lygiagrečių šakų konfigūravimas
-                      href: ../fin-ops-core/fin-ops/organization-administration/configure-parallel-branch-workflow.md?toc=/dynamics365/human-resources/toc.json
-                    - name: Eilutės elemento darbo eigų konfigūravimas
-                      href: ../fin-ops-core/fin-ops/organization-administration/configure-line-item-workflow.md?toc=/dynamics365/human-resources/toc.json
-                - name: Darbo eigos pranešimo apdorojimo paketinės užduoties kaip kritinės konfigūravimas
-                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-batch-job-critical.md?toc=/dynamics365/human-resources/toc.json
-                - name: Darbo eigos darbo elementų perdavimas
-                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/delegate-work-items-workflow.md?toc=/dynamics365/human-resources/toc.json
-                - name: Darbo eigos retrospektyvos peržiūra
-                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/view-workflow-history.md?toc=/dynamics365/human-resources/toc.json
-                - name: Sistemos konfigūravimas siųsti su darbo eiga susijusius el. laiškus vartotojams
-                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/users-receive-workflow-related-email-messages.md?toc=/dynamics365/human-resources/toc.json
-                - name: Darbo eigos tipai
+                    - name: Žinyno sistema
+                      href: ../fin-ops-core/fin-ops/get-started/help-overview.md?toc=/dynamics365/human-resources/toc.json
+                    - name: Žinyno sistemos prijungimas
+                      href: ../fin-ops-core/fin-ops/get-started/help-connect.md?toc=/dynamics365/human-resources/toc.json
+                    - name: Kliento žinyno apžvalga
+                      href: ../fin-ops-core/dev-itpro/help/custom-help-overview.md?toc=/dynamics365/human-resources/toc.json
+                    - name: Laukų aprašų peržiūra ir eksportas
+                      href: ../fin-ops-core/fin-ops/get-started/view-export-field-descriptions.md?toc=/dynamics365/human-resources/toc.json
+                    - name: Užduočių įrašymo priemonė
+                      href: ../fin-ops-core/dev-itpro/user-interface/task-recorder.md?toc=/dynamics365/human-resources/toc.json
+                    - name: Dokumentų ar mokymų kūrimas naudojant užduočių įrašymo priemonę
+                      href: ../fin-ops-core/dev-itpro/user-interface/task-recorder-training-docs.md?toc=/dynamics365/human-resources/toc.json
+                - name: „Human Resources“ trikčių šalinimas
                   items:
-                    - name: Darbo eigos tipo kūrimas
-                      href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-create.md?toc=/dynamics365/human-resources/toc.json
-                    - name: Darbo eigos tipo kontrolinis sąrašas
-                      href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-checklist.md?toc=/dynamics365/human-resources/toc.json
-                    - name: Darbo eigos kategorijos kūrimas
-                      href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-category.md?toc=/dynamics365/human-resources/toc.json
-                    - name: Darbo eigos tipo užklausos kūrimas
-                      href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-query.md?toc=/dynamics365/human-resources/toc.json
-                    - name: Naujo darbo eigos tipo kūrimas
-                      href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-create-new.md?toc=/dynamics365/human-resources/toc.json
-                    - name: Darbo eigos dokumento klasės kūrimas
-                      href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-document-create.md?toc=/dynamics365/human-resources/toc.json
-                    - name: SubmitToWorkflow klasės kūrimas
-                      href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-submit-to-workflow.md?toc=/dynamics365/human-resources/toc.json
-                    - name: Darbo eigos dokumento klasės siejimas su darbo eigos tipu
-                      href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-associate-document.md?toc=/dynamics365/human-resources/toc.json
-                - name: Darbo eigos tipų ataskaita
-                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-types-report.md?toc=/dynamics365/human-resources/toc.json
-                - name: DUK apie darbo eigas
-                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-FAQ.md?toc=/dynamics365/human-resources/toc.json
-            - name: Įspėjimai
+                    - name: Palaikymo gavimas
+                      href: ../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md?toc=/dynamics365/human-resources/toc.json
+                    - name: Efektyvumo optimizavimas planuojant paketines užduotis po darbo valandų
+                      href: hr-admin-troubleshooting-batch-jobs.md
+                    - name: Efektyvumo optimizavimas naudojant automatinio valymo užduotis
+                      href: hr-admin-troubleshooting-batch-history.md
+                    - name: Užstrigusių paketinių užduočių nustatymas iš naujo
+                      href: hr-admin-troubleshooting-batch-execution.md
+                    - name: Nustatyti „Dataverse“ sinchronizavimą iš naujo
+                      href: hr-admin-troubleshooting-dataverse-sync.md
+                    - name: Neatnaujinamos analizės ataskaitos
+                      href: hr-admin-troubleshooting-analytic-reports.md
+                    - name: Nepavyksta sukurti aplinkos „Power Apps“ administravimo centre
+                      href: hr-admin-troubleshooting-power-apps.md
+                    - name: Klientas atsijungia
+                      href: hr-admin-troubleshooting-disconnect.md
+                    - name: Sutrumpinto teksto vengimas pareigų hierarchijoje
+                      href: hr-admin-troubleshooting-truncate.md
+                    - name: Kompensavimo proceso vykdymas
+                      href: hr-admin-troubleshooting-compensation.md
+                    - name: Užduočių vedlio įrašymas į LCS
+                      href: hr-admin-troubleshooting-task-guide.md
+                    - name: Prieiga prie privačių adresų pagal saugos vaidmenį
+                      href: hr-admin-troubleshooting-private-addresses.md
+                    - name: „Human Resources“ nėra „Dynamics 365“ programose
+                      href: hr-admin-troubleshooting-not-in-apps.md
+                    - name: Ataskaitų parinktys
+                      href: hr-admin-troubleshooting-reporting.md
+                    - name: Su integravimu susiję DUK
+                      href: hr-admin-troubleshooting-integration.md
+            - name: „Human Resources“ nustatymas
               items:
-                - name: Įspėjimų apžvalga
-                  href: ../fin-ops-core/fin-ops/get-started/alerts-overview.md?toc=/dynamics365/human-resources/toc.json
-                - name: Įspėjimo taisyklių kūrimas
-                  href: ../fin-ops-core/fin-ops/get-started/create-alerts.md?toc=/dynamics365/human-resources/toc.json
-                - name: Paketinis įspėjimų apdorojimas
-                  href: ../fin-ops-core/fin-ops/get-started/alerts-managing.md?toc=/dynamics365/human-resources/toc.json
-                - name: Kliento įspėjimų pranešimai el. paštu
-                  href: ../fin-ops-core/fin-ops/get-started/alert-email-notifications.md?toc=/dynamics365/human-resources/toc.json
-            - name: Elektroniniai parašai
+                - name: „Human Resources“ parametrų konfigūravimas
+                  href: hr-setup-parameters.md
+                - name: Bendrai naudojamų „Human Resources“ parametrų konfigūravimas
+                  href: hr-setup-shared-parameters.md
+                - name: „Human Resource“ darbo eigų nustatymas
+                  href: hr-workflow-manage-employee-information.md
+                - name: Susipažinkite su datos ir laiko laukais
+                  href: hr-setup-date-time-fields.md
+            - name: Organizacijos parametrų konfigūravimas
               items:
-                - name: Elektroninių parašų apžvalga
-                  href: ../fin-ops-core/fin-ops/organization-administration/electronic-signature-overview.md?toc=/dynamics365/human-resources/toc.json
-                - name: Elektroninių parašų nustatymas
-                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-up-electronic-signatures.md?toc=/dynamics365/human-resources/toc.json
-            - name: Atvejų valdymas
-              items:
-                - name: Atvejų valdymo apžvalga
-                  href: ../fin-ops-core/fin-ops/organization-administration/cases.md?toc=/dynamics365/human-resources/toc.json
-                - name: 'Atvejų saugos, procesų ir kategorijų planavimas'
-                  href: ../fin-ops-core/fin-ops/organization-administration/plan-case-management.md?toc=/dynamics365/human-resources/toc.json
-            - name: Įrašų šablonai
-              items:
-                - name: Įrašų šablonų apžvalga
-                  href: ../fin-ops-core/fin-ops/organization-administration/record-templates.md?toc=/dynamics365/human-resources/toc.json
-                - name: Įrašo šablono kūrimas
-                  href: ../fin-ops-core/dev-itpro/data-entities/tasks/create-record-template-facilitate-data-entry.md?toc=/dynamics365/human-resources/toc.json
-                - name: Naujo įrašo kūrimas naudojant įrašo šabloną
-                  href: ../fin-ops-core/dev-itpro/data-entities/tasks/use-record-template-new-record.md?toc=/dynamics365/human-resources/toc.json
-            - name: Dokumentų valdymo konfigūravimas
-              href: ../fin-ops-core/fin-ops/organization-administration/configure-document-management.md?toc=/dynamics365/human-resources/toc.json
-            - name: El. pašto konfigūravimas ir siuntimas
-              href: ../fin-ops-core/fin-ops/organization-administration/configure-email.md?toc=/dynamics365/human-resources/toc.json
-            - name: "Datos\_/ laiko duomenys ir laiko juostos"
-              href: ../fin-ops-core/fin-ops/organization-administration/date-time-zones.md?toc=/dynamics365/human-resources/toc.json
+                - name: Organizacijos administravimo pagrindinis puslapis
+                  href: ../fin-ops-core/fin-ops/organization-administration/organization-administration-home-page.md?toc=/dynamics365/human-resources/toc.json
+                - name: Numeracijos
+                  items:
+                    - name: Numeracijų apžvalga
+                      href: ../fin-ops-core/fin-ops/organization-administration/number-sequence-overview.md?toc=/dynamics365/human-resources/toc.json
+                    - name: Atskirų numeracijų nustatymas
+                      href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-up-number-sequences-individual-basis.md?toc=/dynamics365/human-resources/toc.json
+                    - name: Numeracijų nustatymas naudojant vedlį
+                      href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-up-number-sequences-wizard.md?toc=/dynamics365/human-resources/toc.json
+                - name: Organizacijų ir organizacijų hierarchijos
+                  items:
+                    - name: Organizacijų ir organizacijų hierarchijų apžvalga
+                      href: ../fin-ops-core/fin-ops/organization-administration/organizations-organizational-hierarchies.md?toc=/dynamics365/human-resources/toc.json
+                    - name: Organizacijos hierarchijos planavimas
+                      href: ../fin-ops-core/fin-ops/organization-administration/plan-organizational-hierarchy.md?toc=/dynamics365/human-resources/toc.json
+                    - name: Organizacijos hierarchijos kūrimas
+                      href: ../fin-ops-core/fin-ops/organization-administration/tasks/create-organization-hierarchy.md?toc=/dynamics365/human-resources/toc.json
+                    - name: Juridinių subjektų kūrimas
+                      href: ../fin-ops-core/fin-ops/organization-administration/tasks/create-legal-entity.md?toc=/dynamics365/human-resources/toc.json
+                    - name: Valdymo vienetų kūrimas
+                      href: ../fin-ops-core/fin-ops/organization-administration/tasks/create-operating-unit.md?toc=/dynamics365/human-resources/toc.json
+                - name: Visuotinė adresų knygelė
+                  items:
+                    - name: Visuotinės adresų knygelės apžvalga
+                      href: ../fin-ops-core/fin-ops/organization-administration/overview-global-address-book.md?toc=/dynamics365/human-resources/toc.json
+                    - name: Visuotinės adresų knygelės ir kitų adresų knygelių planavimas
+                      href: ../fin-ops-core/fin-ops/organization-administration/plan-configuration-global-address-book-additional-address-books.md?toc=/dynamics365/human-resources/toc.json
+                    - name: Visuotinės adresų knygelės konfigūravimas
+                      href: ../fin-ops-core/fin-ops/organization-administration/tasks/configure-global-address-book.md?toc=/dynamics365/human-resources/toc.json
+                    - name: Adreso sąranka
+                      href: ../fin-ops-core/fin-ops/organization-administration/global-address-book-address-setup.md?toc=/dynamics365/human-resources/toc.json
+                    - name: DUK apie adresų knygeles
+                      href: ../fin-ops-core/fin-ops/organization-administration/qa-address-books.md?toc=/dynamics365/human-resources/toc.json
+                    - name: Adresų knygelių konfigūravimas
+                      href: ../fin-ops-core/fin-ops/organization-administration/tasks/address-books.md?toc=/dynamics365/human-resources/toc.json
+                    - name: Vietų savininkų valdymas
+                      href: ../fin-ops-core/fin-ops/organization-administration/global-address-book-location-owner.md?toc=/dynamics365/human-resources/toc.json
+                - name: Darbo eigos sistema
+                  items:
+                    - name: Darbo eigos sistemos apžvalga
+                      href: ../fin-ops-core/fin-ops/organization-administration/overview-workflow-system.md?toc=/dynamics365/human-resources/toc.json
+                    - name: Darbo eigos sistemos architektūra
+                      href: ../fin-ops-core/fin-ops/organization-administration/workflow-system-architecture.md?toc=/dynamics365/human-resources/toc.json
+                    - name: Darbo eigos elementai
+                      href: ../fin-ops-core/fin-ops/organization-administration/workflow-elements.md?toc=/dynamics365/human-resources/toc.json
+                    - name: Darbo eigos veiksmai
+                      href: ../fin-ops-core/fin-ops/organization-administration/workflow-actions.md?toc=/dynamics365/human-resources/toc.json
+                    - name: Darbo eigų kūrimas
+                      items:
+                        - name: Darbo eigų kūrimo apžvalga
+                          href: ../fin-ops-core/fin-ops/organization-administration/create-workflow.md?toc=/dynamics365/human-resources/toc.json
+                        - name: Darbo eigos ypatybių konfigūravimas
+                          href: ../fin-ops-core/fin-ops/organization-administration/configure-workflow-properties.md?toc=/dynamics365/human-resources/toc.json
+                        - name: Neautomatizuotų užduočių konfigūravimas
+                          href: ../fin-ops-core/fin-ops/organization-administration/configure-manual-task-workflow.md?toc=/dynamics365/human-resources/toc.json
+                        - name: Automatizuotų užduočių konfigūravimas
+                          href: ../fin-ops-core/fin-ops/organization-administration/configure-automated-task-workflow.md?toc=/dynamics365/human-resources/toc.json
+                        - name: Patvirtinimo procesų konfigūravimas
+                          href: ../fin-ops-core/fin-ops/organization-administration/configure-approval-process-workflow.md?toc=/dynamics365/human-resources/toc.json
+                        - name: Patvirtinimo veiksmų konfigūravimas
+                          href: ../fin-ops-core/fin-ops/organization-administration/configure-approval-step-workflow.md?toc=/dynamics365/human-resources/toc.json
+                        - name: Neautomatizuotų sprendimų konfigūravimas
+                          href: ../fin-ops-core/fin-ops/organization-administration/configure-manual-decision-workflow.md?toc=/dynamics365/human-resources/toc.json
+                        - name: Sąlyginių sprendimų konfigūravimas
+                          href: ../fin-ops-core/fin-ops/organization-administration/configure-conditional-decision-workflow.md?toc=/dynamics365/human-resources/toc.json
+                        - name: Lygiagrečių veiklų konfigūravimas
+                          href: ../fin-ops-core/fin-ops/organization-administration/configure-parallel-activity-workflow.md?toc=/dynamics365/human-resources/toc.json
+                        - name: Lygiagrečių šakų konfigūravimas
+                          href: ../fin-ops-core/fin-ops/organization-administration/configure-parallel-branch-workflow.md?toc=/dynamics365/human-resources/toc.json
+                        - name: Eilutės elemento darbo eigų konfigūravimas
+                          href: ../fin-ops-core/fin-ops/organization-administration/configure-line-item-workflow.md?toc=/dynamics365/human-resources/toc.json
+                    - name: Darbo eigos pranešimo apdorojimo paketinės užduoties kaip kritinės konfigūravimas
+                      href: ../fin-ops-core/fin-ops/organization-administration/workflow-batch-job-critical.md?toc=/dynamics365/human-resources/toc.json
+                    - name: Darbo eigos darbo elementų perdavimas
+                      href: ../fin-ops-core/fin-ops/organization-administration/tasks/delegate-work-items-workflow.md?toc=/dynamics365/human-resources/toc.json
+                    - name: Darbo eigos retrospektyvos peržiūra
+                      href: ../fin-ops-core/fin-ops/organization-administration/tasks/view-workflow-history.md?toc=/dynamics365/human-resources/toc.json
+                    - name: Sistemos konfigūravimas siųsti su darbo eiga susijusius el. laiškus vartotojams
+                      href: ../fin-ops-core/fin-ops/organization-administration/tasks/users-receive-workflow-related-email-messages.md?toc=/dynamics365/human-resources/toc.json
+                    - name: Darbo eigos tipai
+                      items:
+                        - name: Darbo eigos tipo kūrimas
+                          href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-create.md?toc=/dynamics365/human-resources/toc.json
+                        - name: Darbo eigos tipo kontrolinis sąrašas
+                          href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-checklist.md?toc=/dynamics365/human-resources/toc.json
+                        - name: Darbo eigos kategorijos kūrimas
+                          href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-category.md?toc=/dynamics365/human-resources/toc.json
+                        - name: Darbo eigos tipo užklausos kūrimas
+                          href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-query.md?toc=/dynamics365/human-resources/toc.json
+                        - name: Naujo darbo eigos tipo kūrimas
+                          href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-create-new.md?toc=/dynamics365/human-resources/toc.json
+                        - name: Darbo eigos dokumento klasės kūrimas
+                          href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-document-create.md?toc=/dynamics365/human-resources/toc.json
+                        - name: SubmitToWorkflow klasės kūrimas
+                          href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-submit-to-workflow.md?toc=/dynamics365/human-resources/toc.json
+                        - name: Darbo eigos dokumento klasės siejimas su darbo eigos tipu
+                          href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-associate-document.md?toc=/dynamics365/human-resources/toc.json
+                        - name: Darbo eigos tipų ataskaita
+                          href: ../fin-ops-core/fin-ops/organization-administration/workflow-types-report.md?toc=/dynamics365/human-resources/toc.json
+                        - name: DUK apie darbo eigas
+                          href: ../fin-ops-core/fin-ops/organization-administration/workflow-FAQ.md?toc=/dynamics365/human-resources/toc.json
+                - name: Įspėjimai
+                  items:
+                    - name: Įspėjimų apžvalga
+                      href: ../fin-ops-core/fin-ops/get-started/alerts-overview.md?toc=/dynamics365/human-resources/toc.json
+                    - name: Įspėjimo taisyklių kūrimas
+                      href: ../fin-ops-core/fin-ops/get-started/create-alerts.md?toc=/dynamics365/human-resources/toc.json
+                    - name: Paketinis įspėjimų apdorojimas
+                      href: ../fin-ops-core/fin-ops/get-started/alerts-managing.md?toc=/dynamics365/human-resources/toc.json
+                    - name: Kliento įspėjimų pranešimai el. paštu
+                      href: ../fin-ops-core/fin-ops/get-started/alert-email-notifications.md?toc=/dynamics365/human-resources/toc.json
+                - name: Atvejų valdymas
+                  items:
+                    - name: Atvejų valdymo apžvalga
+                      href: ../fin-ops-core/fin-ops/organization-administration/cases.md?toc=/dynamics365/human-resources/toc.json
+                    - name: 'Atvejų saugos, procesų ir kategorijų planavimas'
+                      href: ../fin-ops-core/fin-ops/organization-administration/plan-case-management.md?toc=/dynamics365/human-resources/toc.json
+                - name: Įrašų šablonai
+                  items:
+                    - name: Įrašų šablonų apžvalga
+                      href: ../fin-ops-core/fin-ops/organization-administration/record-templates.md?toc=/dynamics365/human-resources/toc.json
+                    - name: Įrašo šablono kūrimas
+                      href: ../fin-ops-core/dev-itpro/data-entities/tasks/create-record-template-facilitate-data-entry.md?toc=/dynamics365/human-resources/toc.json
+                    - name: Naujo įrašo kūrimas naudojant įrašo šabloną
+                      href: ../fin-ops-core/dev-itpro/data-entities/tasks/use-record-template-new-record.md?toc=/dynamics365/human-resources/toc.json
+                - name: Dokumentų valdymo konfigūravimas
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-document-management.md?toc=/dynamics365/human-resources/toc.json
+                - name: El. pašto konfigūravimas ir siuntimas
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-email.md?toc=/dynamics365/human-resources/toc.json
+                - name: "Datos\_/ laiko duomenys ir laiko juostos"
+                  href: ../fin-ops-core/fin-ops/organization-administration/date-time-zones.md?toc=/dynamics365/human-resources/toc.json
+        - name: Darbuotojų savitarna
+          items:
+            - name: Darbuotojų ir vadovų savitarnos apžvalga
+              href: hr-employee-manager-self-service-overview.md
+            - name: Pasirinktinių saitų kūrimas vadovų savitarnoje
+              href: hr-employee-manager-self-service-custom-links.md
+            - name: Darbuotojų savitarnos darbo srities pavadinimo keitimas
+              href: hr-employee-self-service-workspace-name.md
+            - name: Redaguoti asmeninę informaciją
+              href: hr-employee-manager-self-service-edit-personal-information.md
+            - name: Asmeninės informacijos redagavimo apribojimas
+              href: hr-employee-self-service-restrict-editing.md
         - name: Personalo valdymas
           items:
             - name: Darbo jėgos organizavimas
               href: hr-personnel-departments-jobs-positions.md
+            - name: Personalo valdymo darbo sritis
+              href: hr-personnel-personnel-management-workspace.md
             - name: Užduoties komponentų nustatymas
               href: hr-personnel-jobs.md
             - name: Padalinių nustatymas
@@ -477,6 +494,8 @@
               href: hr-personnel-add-department-hierarchy.md
             - name: Darbo vietų nustatymas
               href: hr-personnel-define-jobs.md
+            - name: Pareigybės
+              href: hr-personnel-positions.md
             - name: Darbo laikų kalendoriaus kūrimas
               href: hr-personnel-create-working-time-calendar.md
             - name: Kandidatų į darbo vietas įdarbinimas
@@ -489,16 +508,22 @@
               href: hr-personnel-view-address-changes.md
             - name: Pareigų ataskaitų ryšių modifikavimas
               href: hr-personnel-modify-reporting-relationships-position.md
+            - name: Supaprastintas darbuotojo duomenų įvedimas
+              href: ../talent/streamlined-employee-entry.md?toc=/dynamics365/human-resources/toc.json
             - name: Darbininko informacijos įvedimas
               href: hr-personnel-enter-worker-information.md
+            - name: Neįdarbinti darbininkai
+              href: hr-personnel-workers-without-employment.md
             - name: Darbininkų panaudos objektai
               href: hr-personnel-loan-item-worker.md
-            - name: Panaudos objektų kūrimas
+            - name: Kurti panaudos objektus
               href: hr-personnel-create-loan-items.md
             - name: Panaudos objektų valdymas
               href: hr-personnel-loan-items.md
             - name: Tęstinumo plano kūrimas
               href: hr-personnel-develop-succession-plan.md
+            - name: Projekto tabelių įvedimas
+              href: ../fin-ops-core/fin-ops/hr/tasks/hr-enter-project-timesheets.md?toc=/dynamics365/human-resources/toc.json
             - name: Masinės samdos projektai
               href: hr-personnel-mass-hire-projects.md
             - name: Masinės samdos projekto kūrimas
@@ -509,107 +534,29 @@
               href: hr-personnel-set-up-injury-illness-information.md
             - name: Darbuotojo sužeidimų ir ligų informacijos tvarkymas
               href: hr-personnel-maintain-employee-injury-illness-information.md
-        - name: Kompensacijos planų nustatymas
-          items:
-            - name: Kompensacijos planų apžvalga
-              href: hr-compensation-overview.md
-            - name: Kompensacijos tinklelių nustatymas
-              href: hr-compensation-grids.md
-            - name: Kompensacijos struktūros ir plano kūrimas
-              href: hr-compensation-structure.md
-            - name: Pastoviosios atlyginimo dalies planų kūrimas
-              href: hr-compensation-fixed-plans.md
-            - name: Kintamosios atlyginimo dalies planų kūrimas
-              href: hr-compensation-variable-plans.md
-            - name: Darbuotojų įtraukimas į pastoviosios atlyginimo dalies planą
-              href: hr-compensation-enroll-employees-fixed.md
-            - name: Darbuotojų įtraukimas į kintamosios atlyginimo dalies planą
-              href: hr-compensation-enroll-employees-variable.md
-            - name: Kompensavimo proceso nustatymas ir rezultatų skaičiavimas
-              href: hr-compensation-define-process.md
-            - name: Kompensacijos planų apdorojimas
-              href: hr-compensation-process.md
-        - name: Išmokų tvarkymas
-          items:
-            - name: Išmokų valdymas
+            - name: Kandidatų įdarbinimas
               items:
-                - name: Išmokų valdymo apžvalga
-                  href: hr-benefits-management-overview.md
-                - name: Išmokų valdymo konfigūravimas
-                  items:
-                    - name: Išmokų valdymo parametrų konfigūravimas įmonei
-                      href: hr-benefits-setup-parameters-per-company.md
-                    - name: Išmokų valdymo ir darbuotojų savitarnos parametrų nustatymas visoms įmonėms
-                      href: hr-benefits-setup-parameters.md
-                    - name: Tinkamumo taisyklių ir parinkčių konfigūravimas
-                      href: hr-benefits-setup-eligibility-rules.md
-                    - name: Asmeninio kontakto tinkamumo parinkčių konfigūravimas
-                      href: hr-benefits-setup-contact-eligibility-options.md
-                    - name: Padengimo parinkčių kūrimas
-                      href: hr-benefits-setup-coverage-options.md
-                    - name: Mokėjimo dažnumo nustatymas
-                      href: hr-benefits-setup-payment-frequencies.md
-                    - name: Gyvenimo įvykių tipų konfigūravimas
-                      href: hr-benefits-setup-life-event-types.md
-                    - name: Planų tipų kūrimas
-                      href: hr-benefits-setup-plan-types.md
-                    - name: Priežasčių kodų nustatymas
-                      href: hr-benefits-setup-reason-codes.md
-                    - name: Pakopos kodų nustatymas
-                      href: hr-benefits-setup-tier-codes.md
-                    - name: Tarifų konfigūravimas
-                      href: hr-benefits-setup-rates.md
-                    - name: Atskaitymų konfigūravimas
-                      href: hr-benefits-setup-deductions.md
-                    - name: Laukimo dienų konfigūravimas
-                      href: hr-benefits-setup-waiting-days.md
-                    - name: Laukimo laikotarpių konfigūravimas
-                      href: hr-benefits-setup-waiting-periods.md
-                    - name: Apvalinimo taisyklių nustatymas
-                      href: hr-benefits-setup-rounding-rules.md
-                    - name: Įdarbinimo kategorijų kūrimas
-                      href: hr-benefits-setup-employment-categories.md
-                    - name: Įdarbinimo tipų nustatymas
-                      href: hr-benefits-setup-employment-types.md
-                    - name: Darbuotojų savitarnos konfigūravimas
-                      href: hr-benefits-setup-employee-self-service.md
-                - name: Išmokų planų kūrimas
-                  items:
-                    - name: Išmokų planų nustatymas
-                      href: hr-benefits-plans-setup.md
-                    - name: Lanksčių kredito programų nustatymas
-                      href: hr-benefits-plans-flex-credit-programs.md
-                - name: Išmokų planų apdorojimas
-                  items:
-                    - name: Registracijos tinkamumo apdorojimas
-                      href: hr-benefits-process-enrollment-eligibility.md
-                    - name: Gyvenimo įvykių apdorojimas
-                      href: hr-benefits-process-life-events.md
-                    - name: Gyvenimo įvykių keitimų apdorojimas
-                      href: hr-benefits-process-life-event-changes.md
-                    - name: Gyvenimo įvykių tinkamumo apdorojimas
-                      href: hr-benefits-process-life-event-eligibility.md
-                    - name: Tarifo keitimų apdorojimas
-                      href: hr-benefits-process-rate-changes.md
-            - name: Išmokų programos nustatymas ir valdymas
-              href: hr-benefits-manage-program.md
-            - name: Teisės į išmoką strategijos
-              href: hr-benefits-eligibility-policies.md
-            - name: Teisės į išmoką procesas
-              href: hr-benefits-eligibility-process.md
-            - name: Teisės į išmoką taisyklių ir strategijų nustatymas
-              href: hr-benefits-define-eligibility-rules.md
-            - name: Darbuotojų išmokų programos teikimas
-              href: hr-benefits-deliver-employee-benefits-program.md
-            - name: Naujų išmokų kūrimas
-              href: hr-benefits-create.md
-            - name: Darbininkų registravimas išmokoms
-              href: hr-benefits-enroll-workers.md
-            - name: Išmokos galiojimo datų tvarkymas
-              href: hr-benefits-expiration-dates.md
-            - name: ACA ataskaitų generavimas
-              href: hr-benefits-aca-reports.md
-        - name: Atostogų ir neatvykimų valdymas
+                - name: Įdarbinimo procesų valdymas
+                  href: ../fin-ops-core/fin-ops/hr/manage-recruiting-process.md
+                - name: Masinės samdos projektai
+                  href: ../human-resources/hr-personnel-mass-hire-projects.md
+                - name: Masinės samdos projektų kūrimas
+                  href: ../human-resources/hr-personnel-create-mass-hire-project.md
+                - name: Neautomatinis pretendento ir prašymo duomenų įvedimas
+                  href: ../fin-ops-core/fin-ops/hr/tasks/enter-applicant-application-data-manually.md
+                - name: Darbo paraiškų kūrimas ir atidarymas
+                  href: ../fin-ops-core/fin-ops/hr/tasks/develop-open-job-requisition.md
+                - name: Pareigų nustatymas
+                  href: ../human-resources/hr-personnel-set-up-positions.md
+                - name: Pretendentų samdymas naudojant įdarbinimo funkciją
+                  href: ../fin-ops-core/fin-ops/hr/tasks/hire-candidate-through-recruiting.md
+                - name: Esamų darbuotojų samdymas naudojant įdarbinimo funkciją
+                  href: ../fin-ops-core/fin-ops/hr/tasks/hire-existing-employee-through-recruiting.md
+                - name: Pretendentų atrankos priemonių nustatymas ir diegimas
+                  href: ../fin-ops-core/fin-ops/hr/tasks/identify-deploy-candidate-selection-tools.md
+        - name: Užduočių tvarkymas
+          href: hr-task-mgmt.md
+        - name: Atostogos ir neatvykimai
           items:
             - name: Apžvalga
               href: hr-leave-and-absence-overview.md
@@ -641,27 +588,145 @@
               href: hr-employee-self-service-request-time-off.md
             - name: Komandos ir įmonių kalendorių peržiūra
               href: hr-employee-self-service-calendar.md
+            - name: Konfigūruoti neatvykimų vadybininko vaidmenį
+              href: hr-configure-absence-manager.md
             - name: Atostogų pirkimo ir pardavimo strategijų valdymas
               href: hr-leave-and-absence-manage-buy-and-sell-leave-policies.md
             - name: Atostogų pirkimo ir pardavimo darbo eigų kūrimas
               href: hr-leave-and-absence-buy-sell-workflow.md
             - name: Atostogų pirkimas ir pardavimas
               href: hr-employee-self-service-buy-sell-leave.md
-        - name: Atostogų prašymų valdymas „Teams“
-          href: hr-teams-leave-app.md
-        - name: Darbuotojų rengimas
+        - name: Nauda
+          items:
+            - name: Išmokų programos nustatymas ir valdymas
+              href: hr-benefits-manage-program.md
+            - name: Išmokos tinkamumo strategijos
+              href: hr-benefits-eligibility-policies.md
+            - name: Teisės į išmoką procesas
+              href: hr-benefits-eligibility-process.md
+            - name: Teisės į išmoką taisyklių ir strategijų nustatymas
+              href: hr-benefits-define-eligibility-rules.md
+            - name: Darbuotojų išmokų programos teikimas
+              href: hr-benefits-deliver-employee-benefits-program.md
+            - name: Naujų išmokų kūrimas
+              href: hr-benefits-create.md
+            - name: Darbininkų registravimas išmokoms
+              href: hr-benefits-enroll-workers.md
+            - name: Išmokos galiojimo datų tvarkymas
+              href: hr-benefits-expiration-dates.md
+            - name: ACA ataskaitų generavimas
+              href: hr-benefits-aca-reports.md
+        - name: Išmokų valdymas
+          items:
+            - name: Išmokų valdymo apžvalga
+              href: hr-benefits-management-overview.md
+            - name: Išmokų valdymo darbo sritis
+              href: hr-benefits-management-workspace.md
+            - name: Išmokų valdymo konfigūravimas
+              items:
+                - name: Išmokų valdymo parametrų konfigūravimas įmonei
+                  href: hr-benefits-setup-parameters-per-company.md
+                - name: Išmokų valdymo ir darbuotojų savitarnos parametrų nustatymas visoms įmonėms
+                  href: hr-benefits-setup-parameters.md
+                - name: Tinkamumo taisyklių ir parinkčių konfigūravimas
+                  href: hr-benefits-setup-eligibility-rules.md
+                - name: Asmeninio kontakto tinkamumo parinkčių konfigūravimas
+                  href: hr-benefits-setup-contact-eligibility-options.md
+                - name: Padengimo parinkčių kūrimas
+                  href: hr-benefits-setup-coverage-options.md
+                - name: Mokėjimo dažnumo nustatymas
+                  href: hr-benefits-setup-payment-frequencies.md
+                - name: Gyvenimo įvykių tipų konfigūravimas
+                  href: hr-benefits-setup-life-event-types.md
+                - name: Plano tipo peržiūra
+                  href: hr-benefits-setup-plan-types.md
+                - name: Nustatyti priežasčių kodus
+                  href: hr-benefits-setup-reason-codes.md
+                - name: Pakopos kodų nustatymas
+                  href: hr-benefits-setup-tier-codes.md
+                - name: Tarifų konfigūravimas
+                  href: hr-benefits-setup-rates.md
+                - name: Atskaitymų konfigūravimas
+                  href: hr-benefits-setup-deductions.md
+                - name: Laukimo dienų konfigūravimas
+                  href: hr-benefits-setup-waiting-days.md
+                - name: Laukimo laikotarpių konfigūravimas
+                  href: hr-benefits-setup-waiting-periods.md
+                - name: Apvalinimo taisyklių nustatymas
+                  href: hr-benefits-setup-rounding-rules.md
+                - name: Įdarbinimo kategorijų kūrimas
+                  href: hr-benefits-setup-employment-categories.md
+                - name: Įdarbinimo tipų nustatymas
+                  href: hr-benefits-setup-employment-types.md
+                - name: Darbuotojų savitarnos konfigūravimas
+                  href: hr-benefits-setup-employee-self-service.md
+                - name: Išmokų planų kūrimas
+                  items:
+                    - name: Išmokų planų nustatymas
+                      href: hr-benefits-plans-setup.md
+                    - name: Lanksčių kredito programų nustatymas
+                      href: hr-benefits-plans-flex-credit-programs.md
+                - name: Išmokų planų apdorojimas
+                  items:
+                    - name: Registracijos tinkamumo apdorojimas
+                      href: hr-benefits-process-enrollment-eligibility.md
+                    - name: Gyvenimo įvykių apdorojimas
+                      href: hr-benefits-process-life-events.md
+                    - name: Gyvenimo įvykių keitimų apdorojimas
+                      href: hr-benefits-process-life-event-changes.md
+                    - name: Gyvenimo įvykių tinkamumo apdorojimas
+                      href: hr-benefits-process-life-event-eligibility.md
+                    - name: Tarifo keitimų apdorojimas
+                      href: hr-benefits-process-rate-changes.md
+                - name: Darbuotojų išmokų pasirinkimas
+                  href: employee-select-benefits-ess.md
+                - name: ACA ataskaitos
+                  href: hr-benefits-management-aca-reports.md
+                - name: Išmokų išrašas
+                  href: hr-benefits-statement.md
+        - name: Kompensavimo valdymas
+          items:
+            - name: Kompensacijos planų apžvalga
+              href: hr-compensation-overview.md
+            - name: Kompensavimo tinklelių nustatymas
+              href: hr-compensation-grids.md
+            - name: Kompensacijos struktūros ir plano kūrimas
+              href: hr-compensation-structure.md
+            - name: Pastoviosios atlyginimo dalies planų kūrimas
+              href: hr-compensation-fixed-plans.md
+            - name: Kintamosios atlyginimo dalies planų kūrimas
+              href: hr-compensation-variable-plans.md
+            - name: Darbuotojų įtraukimas į pastoviosios atlyginimo dalies planą
+              href: hr-compensation-enroll-employees-fixed.md
+            - name: Darbuotojų įtraukimas į kintamosios atlyginimo dalies planą
+              href: hr-compensation-enroll-employees-variable.md
+            - name: Kompensavimo proceso nustatymas ir rezultatų skaičiavimas
+              href: hr-compensation-define-process.md
+            - name: Kompensacijos planų apdorojimas
+              href: hr-compensation-process.md
+            - name: Pažymėti darbuotoją kaip parengtą mokėti
+              href: hr-compensation-payroll.md
+        - name: Darbuotojų tobulinimas
           items:
             - name: Našumo valdymo apžvalga
               href: hr-develop-performance-management-overview.md
-            - name: Darbo jėgos įgūdžių derinimas
-              href: hr-develop-skills.md
+            - name: Įgūdžiai
+              items:
+                - name: Įgūdžių konfigūravimas
+                  href: hr-develop-skills.md
+                - name: Įgūdžių įvedimas
+                  href: hr-develop-enter-skills.md
+                - name: Įgūdžių susijimas
+                  href: hr-develop-map-skills.md
+                - name: Darbo jėgos įgūdžių derinimas
+                  href: hr-develop-skills.md
             - name: Įtraukimas į našumo žurnalą
               href: hr-develop-add-performance-journal.md
             - name: Tikslo kūrimas
               href: hr-develop-create-goal.md
             - name: Našumo apžvalgos kūrimas
               href: hr-develop-create-performance-review.md
-        - name: Kursų kūrimas
+        - name: Mokymasis
           items:
             - name: Mokymo kursų rengimas
               href: hr-learning-courses.md
@@ -683,13 +748,283 @@
               href: hr-learning-create-closed-ended-question.md
             - name: Priklausomų klausimų kūrimas
               href: hr-learning-depending-question.md
-        - name: Darbuotojų ir vadovų savitarnos nustatymas
+        - name: Darbo eigos sistemos naudojimas
           items:
-            - name: Darbuotojų ir vadovų savitarnos apžvalga
-              href: hr-employee-manager-self-service-overview.md
-            - name: Pasirinktinių saitų kūrimas vadovų savitarnoje
-              href: hr-employee-manager-self-service-custom-links.md
-            - name: Darbuotojų savitarnos darbo srities pavadinimo keitimas
-              href: hr-employee-self-service-workspace-name.md
-            - name: Asmeninės informacijos redagavimas
-              href: hr-employee-manager-self-service-edit-personal-information.md
+            - name: Darbo eigos sistemos apžvalga
+              href: ../fin-ops-core/fin-ops/organization-administration/overview-workflow-system.md?toc=/dynamics365/human-resources/toc.json
+            - name: Darbo eigos sistemos architektūra
+              href: ../fin-ops-core/fin-ops/organization-administration/workflow-system-architecture.md?toc=/dynamics365/human-resources/toc.json
+            - name: Darbo eigos elementai
+              href: ../fin-ops-core/fin-ops/organization-administration/workflow-elements.md?toc=/dynamics365/human-resources/toc.json
+            - name: Darbo eigos veiksmai
+              href: ../fin-ops-core/fin-ops/organization-administration/workflow-actions.md?toc=/dynamics365/human-resources/toc.json
+            - name: Darbo eigų kūrimas
+              items:
+                - name: Darbo eigų kūrimo apžvalga
+                  href: ../fin-ops-core/fin-ops/organization-administration/create-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: Darbo eigos ypatybių konfigūravimas
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-workflow-properties.md?toc=/dynamics365/human-resources/toc.json
+                - name: Neautomatizuotų užduočių konfigūravimas
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-manual-task-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: Automatizuotų užduočių konfigūravimas
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-automated-task-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: Patvirtinimo procesų konfigūravimas
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-approval-process-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: Patvirtinimo veiksmų konfigūravimas
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-approval-step-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: Išlaidų redaktorių konfigūravimas
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-expenditure-reviewers.md?toc=/dynamics365/human-resources/toc.json
+                - name: Neautomatizuotų sprendimų konfigūravimas
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-manual-decision-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: Sąlyginių sprendimų konfigūravimas
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-conditional-decision-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: Lygiagrečių veiklų konfigūravimas
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-parallel-activity-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: Lygiagrečių šakų konfigūravimas
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-parallel-branch-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: Eilutės elemento darbo eigų konfigūravimas
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-line-item-workflow.md?toc=/dynamics365/human-resources/toc.json
+            - name: Darbo eigos pranešimo apdorojimo paketinės užduoties kaip kritinės konfigūravimas
+              href: ../fin-ops-core/fin-ops/organization-administration/workflow-batch-job-critical.md?toc=/dynamics365/human-resources/toc.json
+            - name: Darbo eigos darbo elementų perdavimas
+              href: ../fin-ops-core/fin-ops/organization-administration/tasks/delegate-work-items-workflow.md?toc=/dynamics365/human-resources/toc.json
+            - name: Darbo eigos retrospektyvos peržiūra
+              href: ../fin-ops-core/fin-ops/organization-administration/tasks/view-workflow-history.md?toc=/dynamics365/human-resources/toc.json
+            - name: Sistemos konfigūravimas siųsti su darbo eiga susijusius el. laiškus vartotojams
+              href: ../fin-ops-core/fin-ops/organization-administration/tasks/users-receive-workflow-related-email-messages.md?toc=/dynamics365/human-resources/toc.json
+            - name: Darbo eigos tipai
+              items:
+                - name: Darbo eigos tipo kūrimas
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-create.md?toc=/dynamics365/human-resources/toc.json
+                - name: Darbo eigos tipo kontrolinis sąrašas
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-checklist.md?toc=/dynamics365/human-resources/toc.json
+                - name: Darbo eigos kategorijos kūrimas
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-category.md?toc=/dynamics365/human-resources/toc.json
+                - name: Darbo eigos tipo užklausos kūrimas
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-query.md?toc=/dynamics365/human-resources/toc.json
+                - name: Naujo darbo eigos tipo kūrimas
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-create-new.md?toc=/dynamics365/human-resources/toc.json
+                - name: Darbo eigos dokumento klasės kūrimas
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-document-create.md?toc=/dynamics365/human-resources/toc.json
+                - name: SubmitToWorkflow klasės kūrimas
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-submit-to-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: Darbo eigos dokumento klasės siejimas su darbo eigos tipu
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-associate-document.md?toc=/dynamics365/human-resources/toc.json
+            - name: Darbo eigos tipų ataskaita
+              href: ../fin-ops-core/fin-ops/organization-administration/workflow-types-report.md?toc=/dynamics365/human-resources/toc.json
+            - name: DUK apie darbo eigas
+              href: ../fin-ops-core/fin-ops/organization-administration/workflow-FAQ.md?toc=/dynamics365/human-resources/toc.json
+        - name: Darbo vietos sauga ir atitiktis (Jungtinės Valstijos)
+          items:
+            - name: Formos I-9 tikrinimas
+              href: ../fin-ops-core/fin-ops/hr/localizations/noam-usa-form-i-9-verification.md
+            - name: Tinkamumo dirbti tikrinimas naudojant formą I-9
+              href: ../fin-ops-core/fin-ops/hr/localizations/tasks/employment-verification-i9-verification.md
+            - name: Formos I-9 dokumentų tipų nustatymas
+              href: ../fin-ops-core/fin-ops/hr/localizations/tasks/set-up-i9-document-types.md
+            - name: Suderinimas su Amerikiečių su negalia aktu
+              href: ../fin-ops-core/fin-ops/hr/localizations/noam-usa-comply-ada.md
+            - name: Darbuotojų apgyvendinimo valdymas
+              href: ../fin-ops-core/fin-ops/hr/localizations/tasks/manage-worker-accommodations.md
+    - name: „Human Resources“ tobulinimas
+      items:
+        - name: Apžvalga
+          href: hr-developer-overview.md
+        - name: Išplėtimas su „Power Apps“ ir „Power Automate“
+          href: hr-developer-power-apps.md
+        - name: „Dataverse“ lentelės
+          href: hr-developer-entities.md
+        - name: Pasirinktiniai laukai
+          href: hr-developer-custom-fields.md
+        - name: Duomenų integravimo nustatymas
+          items:
+            - name: Duomenų integravimo technologijos pasirinkimas
+              href: hr-admin-integration-choose-technology.md
+            - name: „Dataverse“ integravimo konfigūravimas
+              href: hr-admin-integration-common-data-service.md
+            - name: „Dataverse“ virtualiųjų lentelių konfigūravimas
+              href: hr-admin-integration-common-data-service-virtual-entities.md
+            - name: Integravimo su „Finance“ konfigūravimas
+              href: hr-admin-integration-finance.md
+            - name: Integravimo su „Dayforce“ konfigūravimas
+              href: hr-admin-integration-dayforce.md
+            - name: Pasikartojančių duomenų eksportavimo programos kūrimas
+              href: hr-admin-integration-recurring-data-export.md
+            - name: Integravimas su „Office“
+              items:
+                - name: „Office“ integravimo mokomoji programa
+                  href: ../fin-ops-core/dev-itpro/office-integration/office-integration-tutorial.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json
+                - name: Objekto duomenų naujinimas programoje „Excel“
+                  href: ../fin-ops-core/dev-itpro/office-integration/use-excel-add-in.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json
+                - name: Atidarymo programoje „Excel“ patirčių kūrimas
+                  href: ../fin-ops-core/dev-itpro/office-integration/office-integration-edit-excel.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json
+                - name: „Office“ integravimo trikčių šalinimas
+                  href: ../fin-ops-core/dev-itpro/office-integration/office-integration-troubleshooting.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json
+        - name: Kūrimo su virtualiomis „Dataverse“ lentelėmis trikčių šalinimas
+          items:
+            - name: Virtualiosios lentelės „Dataverse“ užklausų optimizavimas
+              href: hr-developer-optimize-virtual-table-queries.md
+            - name: „Human Resources“ virtualiųjų lentelių DUK
+              href: hr-admin-virtual-entity-faq.md
+        - name: Objekto API nuoroda
+          items:
+            - name: Autentifikavimas
+              href: hr-developer-api-authentication.md
+            - name: Objektai
+              items:
+                - name: MyLeaveRequests
+                  items:
+                    - name: MyLeaveRequests apžvalga
+                      href: hr-developer-api-myleaverequests-overview.md
+                    - name: Prašymo išeiti atostogų pateikimas darbo eigai
+                      href: hr-developer-api-myleaverequests-submit.md
+        - name: ATS integravimo API
+          items:
+            - name: Įžanga
+              href: hr-admin-integration-ats-api-introduction.md
+            - name: ATS integravimų dviejų serverių autentifikavimas
+              href: hr-admin-integration-ats-api-s2s-auth.md
+            - name: Įdarbinimo užklausa ir susiję objektai
+              items:
+                - name: Įdarbinimo užklausa
+                  href: hr-admin-integration-ats-api-recruiting-request.md
+                - name: Įdarbinimo užklausos išsilavinimas
+                  href: hr-admin-integration-ats-api-recruiting-request-education.md
+                - name: Įdarbinimo užklausų vieta
+                  href: hr-admin-integration-ats-api-recruiting-request-location.md
+                - name: Įdarbinimo užklausų pareigos
+                  href: hr-admin-integration-ats-api-recruiting-request-position.md
+                - name: Įdarbinimo užklausos įgūdis
+                  href: hr-admin-integration-ats-api-recruiting-request-skill.md
+                - name: Įdarbinimo užklausos pavyzdžio užklausa
+                  href: hr-admin-integration-ats-api-recruiting-request-example-query.md
+            - name: Įdarbinimo užklausos parinkčių rinkiniai
+              items:
+                - name: Darbo neapmokestinimo būsena
+                  href: hr-admin-integration-ats-api-job-exempt-status.md
+                - name: Įdarbinimo užklausos pareigų būsena
+                  href: hr-admin-integration-ats-api-recruiting-request-position-status.md
+                - name: Įdarbinimo užklausos būsena
+                  href: hr-admin-integration-ats-api-recruiting-request-status.md
+                - name: Reglamentavimo užduoties kategorija
+                  href: hr-admin-integration-ats-api-regulatory-job-category.md
+            - name: Kandidatas samdyti ir susiję objektai
+              items:
+                - name: Samdytinas pretendentas
+                  href: hr-admin-integration-ats-api-candidate-to-hire.md
+                - name: Sertifikato tipas
+                  href: hr-admin-integration-ats-api-certificate-type.md
+                - name: Šalies kontaktas
+                  href: hr-admin-integration-ats-api-party-contact.md
+                - name: Asmuo
+                  href: hr-admin-integration-ats-api-person.md
+                - name: Asmens adresas
+                  href: hr-admin-integration-ats-api-person-address.md
+                - name: Asmens sertifikatas
+                  href: hr-admin-integration-ats-api-person-certificate.md
+                - name: Asmens išsilavinimas
+                  href: hr-admin-integration-ats-api-person-education.md
+                - name: Asmens identifikavimo numeris
+                  href: hr-admin-integration-ats-api-person-identification-number.md
+                - name: Asmens profesinė patirtis
+                  href: hr-admin-integration-ats-api-person-professional-experience.md
+                - name: Asmens atranka
+                  href: hr-admin-integration-ats-api-person-screening.md
+                - name: Asmens įgūdis
+                  href: hr-admin-integration-ats-api-person-skill.md
+                - name: Vertinimo lygis
+                  href: hr-admin-integration-ats-api-rating-level.md
+                - name: Atrankos tipai
+                  href: hr-admin-integration-ats-api-screening-types.md
+                - name: Kandidato samdyti pavyzdžio užklausa
+                  href: hr-admin-integration-ats-api-candidate-to-hire-example-query.md
+            - name: Kandidatų parinkčių rinkiniai
+              items:
+                - name: Pretendento integravimo rezultatas
+                  href: hr-admin-integration-ats-api-applicant-integration-result.md
+                - name: Tuščia Taip Ne
+                  href: hr-admin-integration-ats-api-blank-yes-no.md
+                - name: Baigimo būsena
+                  href: hr-admin-integration-ats-api-completion-status.md
+                - name: Kontakto tipas
+                  href: hr-admin-integration-ats-api-contact-type.md
+                - name: Išsilavinimo kredito pagrindas
+                  href: hr-admin-integration-ats-api-education-credit-basis.md
+                - name: Lytis
+                  href: hr-admin-integration-ats-api-gender.md
+                - name: Šeiminė padėtis
+                  href: hr-admin-integration-ats-api-marital-status.md
+                - name: Metų mėnesiai
+                  href: hr-admin-integration-ats-api-months-of-year.md
+                - name: Ne Taip
+                  href: hr-admin-integration-ats-api-no-yes.md
+                - name: Laikotarpio vienetas
+                  href: hr-admin-integration-ats-api-period-unit.md
+                - name: Atrankos dažnumas
+                  href: hr-admin-integration-ats-api-screening-frequency.md
+                - name: Atrankos dažnumas generuojamas iš
+                  href: hr-admin-integration-ats-api-screening-frequency-generate-from.md
+                - name: Įgūdžių lygio tipas
+                  href: hr-admin-integration-ats-api-skill-level-type.md
+        - name: Algalapių integravimo API
+          items:
+            - name: Įžanga
+              href: hr-admin-integration-payroll-api-introduction.md
+            - name: Algalapio objektų generavimas ir peržiūra
+              href: hr-admin-integration-payroll-api-generate-review-entities.md
+            - name: Algalapio integravimo parametrai
+              href: hr-admin-integration-payroll-api-parameters.md
+            - name: Algalapio objektai
+              items:
+                - name: Algalapio darbuotojas
+                  href: hr-admin-integration-payroll-api-payroll-employee.md
+                - name: Algalapio darbuotojo adresas
+                  href: hr-admin-integration-payroll-api-payroll-worker-address.md
+                - name: Algalapio pastoviosios atlyginimo dalies planas
+                  href: hr-admin-integration-payroll-api-payroll-fixed-compensation-plan.md
+                - name: Algalapio kintamosios atlyginimo dalies planas
+                  href: hr-admin-integration-payroll-api-payroll-variable-compensation-plan.md
+                - name: Algalapio padėtis
+                  href: hr-admin-integration-payroll-api-payroll-position.md
+                - name: Algalapio padėties užduotis
+                  href: hr-admin-integration-payroll-api-payroll-position-job.md
+            - name: Su atostogomis ir neatvykimais susiję objektai
+              items:
+                - name: Atostogų balansas
+                  href: hr-admin-integration-payroll-api-leave-balance.md
+                - name: Atostogų tipas
+                  href: hr-admin-integration-payroll-api-leave-type.md
+                - name: Atostogų prašymas
+                  href: hr-admin-integration-payroll-api-leave-request.md
+            - name: Su išmokomis susiję objektai
+              items:
+                - name: Algalapio darbuotojo išmokos planas
+                  href: hr-admin-integration-payroll-api-payroll-worker-benefit-plan.md
+            - name: Kiti objektai
+              items:
+                - name: Asmens vardų ir pavardžių retrospektyva
+                  href: hr-admin-integration-payroll-api-person-name-history.md
+                - name: Konvertavimo kursas
+                  href: hr-admin-integration-payroll-api-compensation-pay-frequency.md
+            - name: Parinkčių rinkiniai
+              items:
+                - name: Lytis
+                  href: hr-admin-integration-payroll-api-gender.md
+                - name: Ne Taip
+                  href: hr-admin-integration-payroll-api-no-yes.md
+                - name: Premijos tipas
+                  href: hr-admin-integration-payroll-api-award-type.md
+                - name: Proceso tipas
+                  href: hr-admin-integration-payroll-api-process-type.md
+                - name: Išmokos plano tipo viršelis
+                  href: hr-admin-integration-payroll-api-benefit-plan-type-cover.md
+                - name: Išmokos darbuotojo plano būsena
+                  href: hr-admin-integration-payroll-api-benefit-employee-plan-status.md
+    - name: Finansų ir operacijų programų kūrimas ir administravimas
+      href: ../fin-ops-core/dev-itpro/index.md
+    - name: „Dynamics 365 Finance“
+      href: ../finance/index.md
+    - name: „Dynamics 365 Supply Chain Management“
+      href: ../supply-chain/index.md
+    - name: „Dynamics 365 Commerce”
+      href: ../commerce/index.md

@@ -1,37 +1,30 @@
 ---
-title: „Finance and Operations“ programų plėtočių problemų sprendimas
-description: Šioje temoje pateikiama trikčių šalinimo informacija, kuri gali padėti išspręsti problemas, susijusias su „Finance and Operations” programų naujinimais.
+title: „Finance and Operations“ programų versijos naujinimų trikčių šalinimas
+description: Šioje temoje pateikiama trikčių šalinimo informacija, kuri gali padėti išspręsti problemas, susijusias su „Finance and Operations“ programų naujinimais.
 author: RamaKrishnamoorthy
 ms.date: 03/16/2020
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-ms.search.form: ''
 audience: Application User, IT Pro
-ms.reviewer: rhaertle
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: tfehr
 ms.search.region: global
-ms.search.industry: ''
 ms.author: ramasri
-ms.dyn365.ops.version: ''
-ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 92a95e5a0f603eb5f9afbf14ba924df168e44203
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
-ms.translationtype: HT
+ms.search.validFrom: 2020-01-06
+ms.openlocfilehash: c7c036ef44b0470c9b3f8087e7b5b1e16dde1b34
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6350865"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8062830"
 ---
-# <a name="troubleshoot-issues-from-upgrades-of-finance-and-operations-apps"></a>„Finance and Operations“ programų plėtočių problemų sprendimas
+# <a name="troubleshoot-issues-from-upgrades-of-finance-and-operations-apps"></a>„Finance and Operations“ programų versijos naujinimų trikčių šalinimas
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 
 
-Šioje temoje pateikiama dvigubo rašymo funkcijos integravimo tarp „Finance and Operations“ ir “Dataverse“ programų trikčių šalinimo informacija. Tiksliau sakant, pateikiama informacija, kuri gali padėti išspręsti problemas, susijusias su „Finance and Operations” programų naujinimais.
+
+Šioje temoje pateikiama trikčių šalinimo informacija apie dvigubo rašymo integravimą tarp „Finance and Operations“ programų ir Dataverse. Konkrečiai, joje pateikiama informacija, kuri gali padėti išspręsti problemas, susijusias su „Finance and Operations“ programų naujinimais.
 
 > [!IMPORTANT]
 > Kai kurioms šioje temoje nagrinėjamoms problemoms spręsti gali reikėti sistemos administratoriaus vaidmens arba „Microsoft Azure Active Directory” („Azure AD”) nuomotojo administratoriaus kredencialų. Kiekvienai problemai skirtoje dalyje paaiškinama, ar reikia konkretaus vaidmens ar kredencialų.
@@ -40,7 +33,7 @@ ms.locfileid: "6350865"
 
 **Reikiamas vaidmuo, norint spręsti problemą:** sistemos administratorius
 
-Kai bandote naudoti **„DualWriteProjectConfiguration”** lentelę, kad atnaujintumėte „Finance and Operations” programą į „Platform Update 30“, galite gauti klaidos pranešimą, panašų į šį pavyzdį.
+Galite gauti klaidos pranešimą, panašų į toliau pateiktą pavyzdį, kai bandote naudoti **DualWriteProjectConfiguration** lentelę, kad atnaujintumėte „Finance and Operations“ programą į „Platform Update 30“.
 
 ```console
 Infolog diagnostic message: 'Cannot select a row in Dual write project sync (DualWriteProjectConfiguration). The SQL database has issued an error.' on category 'Error'. 10/28/2019 15:18:20: Infolog diagnostic message: 'Object Server Database Synchronizer: ' on category 'Error'. 10/28/2019 15:18:20: Infolog diagnostic message: '[Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'ISDELETE'.' on category 'Error'. 10/28/2019 15:18:20: Infolog diagnostic message: 'SELECT T1.PROJECTNAME,T1.EXTERNALENTITYNAME,T1.INTERNALENTITYNAME,T1.EXTERNALENVIRONMENTURL,T1.STATUS,T1.ENABLEBATCHLOOKUP,T1.PARTITIONMAP,T1.QUERYFILTEREXPRESSION,T1.INTEGRATIONKEY,T1.ISDELETE,T1.ISDEBUGMODE,T1.RECVERSION,T1.PARTITION,T1.RECID FROM DUALWRITEPROJECTCONFIGURATION T1 WHERE (PARTITION=5637144576)' on category 'Error'. 10/28/2019 15:18:20: Infolog diagnostic message: 'session 1043 (Admin)' on category 'Error'. 10/28/2019 15:18:20: Infolog diagnostic message: 'Stack trace: Call to TTSCOMMIT without first calling TTSBEGIN.' on category 'Error'.
@@ -50,7 +43,7 @@ Microsoft.Dynamics.AX.Framework.Database.TableSyncException: Custom action threw
 
 Norėdami ištaisyti klaidą, atlikite toliau nurodytus veiksmus.
 
-1. Prisijunkite prie „Finance and Operations” programos virtualiosios mašinos.
+1. Prisijunkite prie „Finance and Operations“ programėlės virtualios mašinos (VM).
 2. Atidarykite „Visual Studio” kaip administratorius, taip pat atidarykite programos objektų medį (AOT).
 3. Ieškoti **DualWriteProjectConfiguration**.
 4. Programos objektų medyje (AOT) dešiniuoju pelės mygtuku spustelėkite **DualWriteProjectConfiguration** ir pasirinkite **Įtraukti į naują projektą**. Pasirinkite **Gerai**, kad sukurtumėte naują projektą, kuriame naudojamos numatytosios parinktys.
@@ -72,10 +65,10 @@ Norėdami ištaisyti klaidą, atlikite toliau nurodytus veiksmus.
 
 Norėdami išspręsti problemą, pirmiausia atlikite šiuos veiksmus, kad įsitikintumėte, kad stulpeliai yra lentelėje.
 
-1. Prisijunkite prie „Finance and Operations” programos VM.
+1. Prisijunkite prie „Finance and Operations“ programėlės VM.
 2. Eikite į **Darbo sritys \> Duomenų valdymas**, pasirinkite plytelę **Sistemos parametrai**, tada skirtuke **Lentelės parametrai** pasirinkite **Atnaujinti lentelių sąrašą** tam, kad atnaujintumėte lenteles.
-3. Eikite į **Darbo sritys \> Duomenų valdymas**, pasirinkite skirtuką **Duomenų lentelės** ir įsitikinkite, kad lentelė yra sąraše. Jei lentelės nėra sąraše, prisijunkite prie „Finance and Operations” programos VM ir įsitikinkite, kad lentelė yra pasiekiama.
-4. Eikite į „Finance and Operations” programos **dvigubo rašymo puslapį** ir atidarykite puslapį **Susiejimas su lentele**.
+3. Eikite į **Darbo sritys \> Duomenų valdymas**, pasirinkite skirtuką **Duomenų lentelės** ir įsitikinkite, kad lentelė yra sąraše. Jei lentelės sąraše nėra, prisijunkite prie programos „Finance and Operations“ VM ir įsitikinkite, kad lentelė yra pasiekiama.
+4. Atidaryk **Lentelės kartografavimas** puslapis iš **Dvigubas rašymas** puslapis programėlėje „Finance and Operations“.
 5. Pasirinkite **Atnaujinti lentelių sąrašą** tam, kad susiejimų su lentele stulpeliai būtų užpildyti automatiškai.
 
 Jei problema išlieka, atlikite šiuos veiksmus.
@@ -83,10 +76,10 @@ Jei problema išlieka, atlikite šiuos veiksmus.
 > [!IMPORTANT]
 > Šie veiksmai padės jums pašalinti lentelę ir vėl ją pridėti. Norėdami išvengti problemų, tiksliai atlikite nurodytus veiksmus.
 
-1. „Finance and Operations” programoje eikite į **Darbo sritys \> Duomenų valdymas** ir pasirinkite plytelę **Duomenų lentelės**.
+1. Programoje „Finance and Operations“ eikite į **Darbo vietos \> Duomenų valdymas** ir pasirinkite **Duomenų lentelės** plytelė.
 2. Raskite lentelę, kuriai trūksta atributo. Įrankių juostoje spustelėkite **Modifikuoti paskirties vietos susiejimą**.
 3. Srityje **Susieti išdėstymą su paskirties vieta** spustelėkite **Generuoti susiejimą**.
-4. Eikite į „Finance and Operations” programos **dvigubo rašymo puslapį** ir atidarykite puslapį **Susiejimas su lentele**.
+4. Atidaryk **Lentelės kartografavimas** puslapis iš **Dvigubas rašymas** puslapis programėlėje „Finance and Operations“.
 5. Jei atributas nėra automatiškai užpildomas schemoje, įtraukite jį neautomatiniu būdu spustelėdami mygtuką **Įtraukti atributą**, o tada – **Įrašyti**. 
 6. Pasirinkite schemą ir spustelėkite **Vykdyti**.
 

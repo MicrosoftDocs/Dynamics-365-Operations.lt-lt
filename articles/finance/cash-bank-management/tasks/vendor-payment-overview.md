@@ -1,27 +1,26 @@
 ---
-title: Tiekėjo mokėjimų peržiūra
+title: Tiekėjo mokėjimų apžvalga
 description: Šios užduoties vadovas žingsnis po žingsnio supažindins jus su įvairiais mokėjimų tiėkėjams kūrimo būdais, be kita ko – kaip naudoti mokėjimo pasiūlymą arba rankiniu būdu įvesti vienkartinį mokėjimą.
 author: kweekley
-manager: AnnBe
 ms.date: 06/25/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
+ms.custom: intro-internal
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 37fc9a061f09f7d85f43d7e8d5ca2a3c6660b4d0
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.openlocfilehash: 73fd1b46bbf73bb3e65f381289e0b3efa12392b4
+ms.sourcegitcommit: 03f53980a4bc67b73ac2be76a3b3e7331d0db705
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4985192"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "7394443"
 ---
-# <a name="vendor-payment-overview"></a>Tiekėjo mokėjimų peržiūra
+# <a name="vendor-payment-overview"></a>Tiekėjo mokėjimų apžvalga
 
 [!include [banner](../../includes/banner.md)]
 
@@ -62,3 +61,6 @@ ms.locfileid: "4985192"
 33. Spustelėkite **Gerai**, kad generuotumėte mokėjimus.
 34. Spustelėkite **Registruoti**, jei visi mokėjimai patvirtinti ir sugeneruoti. 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

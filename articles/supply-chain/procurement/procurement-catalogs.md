@@ -1,29 +1,28 @@
 ---
 title: Įsigijimo katalogų apžvalga
 description: Šiame straipsnyje aukštu lygiu aprašoma, kaip pirkimo specialistai gali nustatyti ir tvarkyti įsigijimo katalogus. Įsigijimo katalogais apibrėžiamos prekės ir paslaugos, kurias įmonės darbuotojai gali užsakyti naudoti viduje.
-author: mkirknel
-manager: tfehr
+author: Henrikan
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, CatDisplayProductRelationAdd
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
-ms.custom: 2214
+ms.custom:
+- "2214"
+- intro-internal
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 64c7c2787e2ac996e3016f5b23fc48582f5533ad
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
-ms.translationtype: HT
+ms.openlocfilehash: efe0541859822b4c6404f2833ae38e07b79dd634
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4433922"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7984300"
 ---
 # <a name="procurement-catalogs-overview"></a>Įsigijimo katalogų apžvalga
 
@@ -69,10 +68,12 @@ Naujinimai publikuojami automatiškai arba neautomatiškai, atsižvelgiant į ka
 -   **Abu** – jei į katalogą įtrauktos produktų kategorijos, kurių numatytasis naujinimo tipas yra **Statinis**, atnaujinus šias kategorijas reikia neautomatiškai atnaujinti ir katalogą. Jei į katalogą įtrauktos produktų kategorijos, kurių numatytasis naujinimo tipas yra **Dinaminis**, jis atnaujinamas automatiškai, kai tik yra pakeičiamas.
 
 
-<a name="additional-resources"></a>Papildomi ištekliai
---------
+## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Įsigijimo kategorijų hierarchijos nustatymas](tasks/set-up-procurement-category-hierarchy.md)
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

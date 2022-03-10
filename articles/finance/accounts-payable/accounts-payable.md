@@ -1,7 +1,7 @@
 ---
 title: Mokėtinų sumų pagrindinis puslapis
 description: Šioje temoje apžvelgiamas modulis Mokėtinos sumos.
-author: ShylaThompson
+author: sunfzam
 ms.date: 02/15/2019
 ms.topic: index-page
 ms.prod: ''
@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: VendInvoiceWorkspace
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: 21901
+ms.custom:
+- "21901"
+- intro-internal
 ms.assetid: 1e4c2ac4-077b-4678-8733-5cec8f6ff659
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 62e075fc26ee2e183cd859c5ec2c90faa3bfe3ab
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: ce768ecaa668f2c69d6753401eaa145b6fddc5ec
+ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897015"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "7595292"
 ---
 # <a name="accounts-payable-home-page"></a>Mokėtinų sumų pagrindinis puslapis
 
@@ -32,11 +34,11 @@ Tiekėjų sąskaitas faktūras galite įvesti rankiniu būdu arba jas gauti elek
 
 **Verslo procesai**
 
-[![Verslo procesų diagrama](./media/AP-process.PNG)](./media/AP-process.PNG)
+[![Verslo procesų diagrama.](./media/AP-process.PNG)](./media/AP-process.PNG)
 
 ## <a name="set-up-accounts-payable"></a>Mokėtinų sumų nustatymas
 
-Nustatykite tiekėjų grupes, tiekėjus, registravimo šablonus, įvairias mokėjimo parinktis ir su tiekėjais, išlaidomis, pristatymais bei paskirties vietomis susijusius parametrus, paprastuosius vekselius ir kito tipo mokėtinų sumų informaciją. 
+Nustatykite tiekėjų grupes, tiekėjus, registravimo šablonus, įvairias mokėjimo parinktis ir su tiekėjais, mokesčiais, pristatymais bei paskirties vietomis susijusius parametrus, paprastuosius vekselius ir kito tipo mokėtinų sumų informaciją. 
 
 [Mokėtinų sumų konfigūravimo apžvalga](accounts-payable-overview.md)
 

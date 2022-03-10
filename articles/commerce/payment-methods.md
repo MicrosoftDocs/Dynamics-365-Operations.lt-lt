@@ -1,17 +1,14 @@
 ---
 title: Mokėjimo būdai
 description: Nustačius sistemą, reikia sukonfigūruoti kiekvieną pardavėjo priimamą mokėjimo tipą. Šiame straipsnyje aprašyti mokėjimo tipai, kuriuos galite nustatyti, ir aprašytas jų nustatymo procesas.
-author: rubencdelgado
-manager: AnnBe
-ms.date: 06/17/2020
+author: BrianShook
+ms.date: 11/03/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailTenderTypeTable
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 15831
 ms.assetid: 465893a5-6b4f-4c5f-b305-db071df2d33f
 ms.search.region: global
@@ -19,12 +16,12 @@ ms.search.industry: Retail
 ms.author: yabinl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 2b56609de3b2620dcc605c6c6d697cb74c8ed6c1
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 0450dbaa37365705ca59fd2223c9d3866054c12a
+ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4414358"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7779575"
 ---
 # <a name="payment-methods"></a>Mokėjimo būdai
 
@@ -49,3 +46,11 @@ Norėdami nustatyti mokėjimo būdus, turite atlikti toliau nurodytus veiksmus.
 2. Sukurkite visai organizacijai taikomų kortelių tipus ir kortelių numerius. Jei priimamos kredito ar debeto kortelės, turite sukurti vieną mokėjimo būdą, naudojamą atsiskaitant kortelėmis, o po to sukurti visai organizacijai taikomus kortelių tipus ir kortelių numerius.
 3. Nustatykite parduotuvės mokėjimo būdą. Susiekite mokėjimo būdus su kiekviena parduotuve, o po to įveskite kiekvienos parduotuvės mokėjimo būdo parametrus.
 4. Nustatykite parduotuvių mokėjimo kortelėmis būdus. Nustatykite kiekvieno parduotuvės priimamo mokėjimo kortele būdo kortelę.
+
+## <a name="handle-change-tendering-for-payment-methods"></a>Tvarkyti mokėjimo būdų mokėjimo priemonių pokyčius
+
+Kai kurie mokėjimo būdai nepalaiko tiesioginio tiesioginio mokėjimo priemonių panaudojimo, jei lėšos atiteks klientams atliekant operacijas, skirtas pardavimui. Mokėjimo **priemonėje** keisti galima naudoti tik **·** grynųjų pinigų ir valiutos mokėjimo metodus. 
+
+Jei norite tvarkyti atvejus, kai operacijos metu reikalingas mokėjimo priemonės keitimas, bet mokėjimo būdas jo nepalaiko, galite nurodyti mokėjimo **priemonės** keitimo būdą. Kai parduotuvei nustatote parduotuvės mokėjimo metodus, pasirinkite naudotiį mokėjimo būdą. Tada skyriaus **Keitimas lauke Mokėjimo priemonės keitimas įveskite mokėjimo priemonės keitimo mokėjimo** **·** pasirinktį. Pavyzdžiui, galite įvesti **1, jei norite** nurodyti, kad grynieji pinigai gali būti naudojami kaip mokėjimo priemonės keitimo pasirinktis.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

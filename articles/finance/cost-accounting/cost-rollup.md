@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 2235545760899c0d945f08b5419154dfdbe4dffc
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
-ms.translationtype: HT
+ms.openlocfilehash: f86529359f548bf48fdef8817bd2e2260235561cce57cac28158739687ade2c1
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5815769"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6779961"
 ---
 # <a name="cost-rollup-policy-and-overhead-calculation"></a>Savikainos sumavimo strategija ir pridėtinių išlaidų skaičiavimas 
 
@@ -44,13 +44,13 @@ Jeigu norite išvengti šių pasekmių, naudodamiesi kaštų apskaita galite nus
 
 Įsivaizduokite, kad organizacija yra toliau nurodytos struktūros su 4 išlaidų centrais.
 
-![Organizacijos struktūros pavyzdys](./media/dimension-hierarchy-org.png)
+![Organizacijos struktūros pavyzdys.](./media/dimension-hierarchy-org.png)
 
 **Savikainos objekto dimensija**
 
-| Išlaidų centrai | aprašymas          |
+| Išlaidų centrai | Aprašas          |
 |--------------|-----------|
-| CC001        | Personalas        |
+| CC001        | HR        |
 | CC002        | Finansai   |
 | CC003        | Surinkimas  |
 | CC004        | Pakuotės |
@@ -69,7 +69,7 @@ Organizacijos ataskaitoms keliamus reikalavimus atitinkančią dimensijos hierar
 
 | Dimensijų hierarchijos pavadinimas | Dimensija    | Dimensijų hierarchijos tipo pavadinimas      | Prieigos sąrašo hierarchija |
 |--------------------------|--------------|------------------------------------|-----------------------|
-| Organizacija             | Išlaidų centrai | Dimensijų klasifikavimo hierarchija | Nr.                    |
+| Organizacija             | Išlaidų centrai | Dimensijų klasifikavimo hierarchija | Ne                    |
 
 **Dimensijų hierarchija**
 
@@ -149,8 +149,7 @@ Išlaidų paskirstymo taisykles galima nustatyti toliau nurodytu būdu.
 | CC001                                | Iš viso         | **Personalo paslaugos**        |
 | CC002                                | Iš viso         | **Finansinės paslaugos** |
 
-<a name="brhow-cost-flows-between-cost-centers"></a><br>Kaip vyksta išlaidų srautas tarp išlaidų centrų 
----------------------------------------------------
+## <a name="brhow-cost-flows-between-cost-centers"></a><br>Kaip vyksta išlaidų srautas tarp išlaidų centrų 
 
 Jei norite sužinoti, kaip vyksta išlaidų srautas tarp organizacijos išlaidų centrų, kiekvienam išlaidų centrui galite sukurti išlaidų elementus, kurių tipas **Antrinis**. Po to šie išlaidų elementai bus naudojami perkeliant likučius iš vieno savikainos centro į kitą, kai atliekamas pridėtinių išlaidų skaičiavimas.
 

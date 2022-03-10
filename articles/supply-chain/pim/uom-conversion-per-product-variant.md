@@ -1,27 +1,25 @@
 ---
 title: Produkto varianto matavimo vieneto konvertavimas
 description: Šioje temoje paaiškinama, kaip nustatyti produkto variantų matavimo vienetų konvertavimus. Joje pateikiamas nustatymo pavyzdys.
-author: johanhoffmann
-manager: tfehr
+author: t-benebo
 ms.date: 05/11/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: UnitOfMeasureConversion
 ROBOTS: noindex, nofollow
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: johanho
+ms.author: benebotg
 ms.search.validFrom: 2019-04-01
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: ddb6c614ede98e46e46ff284a1a16669bbaaaf66
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
-ms.translationtype: HT
+ms.openlocfilehash: c02252abcaf82cb2aab928949827e25ef7cce8c2
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5258052"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7579573"
 ---
 # <a name="unit-of-measure-conversion-per-product-variant"></a>Produkto varianto matavimo vieneto konvertavimas
 
@@ -58,7 +56,7 @@ Norėdami konfigūruoti bendrąjį produktą, kad būtų palaikomas kiekvieno va
     - **Produktas** – jei pasirinksite šią reikšmę, galite nustatyti bendrojo produkto vieneto konvertavimą. Toks vieneto konvertavimas bus naudojamas kaip atsarginis visų produkto variantų, kuriems neapibrėžtas vienetų konvertavimas, konvertavimo būdas.
     - **Produkto variantas** – jei pasirinksite šią reikšmę, galite nustatyti konkretaus produkto varianto vieneto konvertavimą. Norėdami pasirinkti variantą, naudokite lauką **Produkto variantas**.
 
-    ![Naujo vieneto konvertavimo įtraukimas](media/uom-new-conversion.png "Naujo vieneto konvertavimo įtraukimas")
+    ![Naujo vieneto konvertavimo įtraukimas.](media/uom-new-conversion.png "Naujo vieneto konvertavimo įtraukimas")
 
 1. Vienetų konvertavimui nustatyti naudokite kitus pateikiamus laukus.
 1. Norėdami įrašyti naują vieneto konvertavimą, pasirinkite **Gerai**.
@@ -72,7 +70,7 @@ Norėdami konfigūruoti bendrąjį produktą, kad būtų palaikomas kiekvieno va
 
 ## <a name="example-scenario"></a>Pavyzdinis scenarijus
 
-Šiame scenarijuje įmonė parduoda mažo, vidutinio, didelio ir labai didelio dydžio marškinėlius. Marškinėliai apibrėžiami kaip produktas, o skirtingi dydžiai – kaip to produkto variantai. Marškėliai yra supakuoti dėžėse. Kiekvienoje dėžėje gali būti penkti mažo, vidutinio ir didelio dydžio marškinėliai. Tačiau, jei marškinėliai yra labai didelio dydžio, kiekvienoje dėžėje yra vietos tik keturiems marškinėliams.
+Šiame scenarijuje įmonė parduoda mažo, vidutinio, didelio ir labai didelio dydžio marškinėlius. Marškinėliai apibrėžiami kaip produktas, o skirtingi dydžiai – kaip to produkto variantai. Marškinėliai yra supakuoti dėžėse. Kiekvienoje dėžėje gali būti penkti mažo, vidutinio ir didelio dydžio marškinėliai. Tačiau, jei marškinėliai yra labai didelio dydžio, kiekvienoje dėžėje yra vietos tik keturiems marškinėliams.
 
 Įmonė skirtingus variantus nori sekti pagal vienetą *Vienetai*, tačiau parduoda juos pagal vienetą *Dėžės*. Mažo, vidutinio ir didelio dydžio marškinėlių atsargų vieneto ir pardavimo vieneto konvertavimas yra 1 dėžė = 5 vienetai. Labai didelio dydžio marškinėlių konvertavimas yra 1 dėžė = 4 vienetai.
 
@@ -105,7 +103,7 @@ Norėdami eksportuoti vienetų konvertavimus į „Excel“, puslapio **Vienetų
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
-[Matavimo vieneto valdymas](tasks/manage-unit-measure.md)
+[Matavimo vienetų valdymas](tasks/manage-unit-measure.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

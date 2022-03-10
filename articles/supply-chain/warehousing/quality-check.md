@@ -12,13 +12,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
-ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 60d566e3ef1fa4bc0cea960f7c75094f51823550
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
-ms.translationtype: HT
+ms.dyn365.ops.version: 10.0.8
+ms.openlocfilehash: 0848eeb2ad073915ad90d2fd2a4a91f0f420c0ab
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838231"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103293"
 ---
 # <a name="quality-check"></a>Kokybės patikra
 
@@ -39,12 +39,9 @@ Naudojant šią funkciją atvykimo ir kokybės kontrolė vyksta tokiu būdu:
 
 Šis procesas taip pat gali būti nustatytas taip, kad visi nuskaityti licencijos numeriai būtų nedelsiant nukreipti į kokybės tikrinimo vietą.
 
-## <a name="turn-on-the-quality-check-feature"></a>Įjunkite kokybės tikrinimo funkciją
+## <a name="turn-the-quality-check-feature-on-or-off"></a>Įjungti arba išjungti kokybės tikrinimo funkciją
 
-Prieš tai kai galite naudoti *Kokybės tikrinimo* funkciją, ji turi būti įjungta jūsų sistemoje. Administratoriai gali naudoti [funkcijų valdymo](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) parametrus, kad patikrintų funkcijos būseną ir įjungtų ją, kai reikia. Darbo srityje **Funkcijų valdymas** ši funkcija yra nurodyta toliau pateikiamu būdu.
-
-- **Modulis:** *Sandėlio valdymas*
-- **Funkcijos pavadinimas:** *Kokybės tikrinimas*
+Norint naudotis šioje temoje aprašytomis funkcijomis, *jūsų* sistemoje turi būti įjungta kokybės tikrinimo funkcija. Kaip ir tiekimo grandinės valdymas 10.0.25 ši funkcija yra privaloma ir jos išjungti negalima. Jei naudojate senesnę nei 10.0.25 versiją, *·*[tada](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) administratoriai gali įjungti arba išjungti šią funkciją ieškodami kokybės tikrinimo funkcijos funkcijų valdymo darbo srityje.
 
 ## <a name="set-up-the-feature-for-the-example-scenario"></a>Nustatykite funkciją pavyzdiniam scenarijui
 
@@ -310,7 +307,7 @@ Po to, kai įsigijimo užsakymas buvo sukurtas, jis gali būti gaunamas naudojan
 
     **Kokybės tikrinimo** puslapis pasirodo neturintis jokių įrašų laukelių. Jis turi tik patvirtinimą (žymimos žymės) mygtuką meniu mygtuko apačioje (**≡**) viršuje. (Meniu mygtukas kartais vadinamas mėsainiu ar mėsainio mygtuku.) Jis skirtas tirti kokybės tikrinimo procesą, kai padėklai praeina kokybės tikrinimą, vartotojas tik patvirtina **Kokybės tikrinimo** puslapį.
 
-    ![Kokybės patikros puslapis](media/quality-check.png "Kokybės patikros puslapis")
+    ![Kokybės patikros puslapis.](media/quality-check.png "Kokybės patikros puslapis")
 
 1. Pasirinkite patvirtinimo mygtuką, kad jis praeitų kokybės tikrinimą padėklui 1 eilutėje 1.
 

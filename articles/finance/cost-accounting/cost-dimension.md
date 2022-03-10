@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a9634612bcffbcf71b77dbb184e71367c67bac10
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
-ms.translationtype: HT
+ms.openlocfilehash: 6febb8a48cf6496fb7f4c2ee9f5281d47aa1ccae1a8ecc51c908b3810302e11c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5822932"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6775127"
 ---
 # <a name="create-dimensions-and-import-dimension-members"></a>Dimensijų kūrimas ir dimensijų narių importavimas
 
@@ -36,7 +36,7 @@ Kaštų apskaita yra nepriklausomas modulis, kurį norint naudoti reikalingi duo
 
 Toliau pateiktoje diagramoje pavaizduotos modulyje Kaštų apskaita naudojamos dimensijos.
 
-[![Savikainos apskaitos dimensijos](./media/cost-eos-dimensions.png)](./media/cost-eos-dimensions.png)
+[![Savikainos apskaitos dimensijos.](./media/cost-eos-dimensions.png)](./media/cost-eos-dimensions.png)
 
 Į modulį Kaštų apskaita importavus duomenų, jį naudojant galima sukurti įvairių perspektyvų, vadovams suteikiančių įžvalgų visuose organizacijos lygiuose. Tolesnėse temose pateikta informacijos apie dimensijų kūrimą ir dimensijų narių importavimą. 
 

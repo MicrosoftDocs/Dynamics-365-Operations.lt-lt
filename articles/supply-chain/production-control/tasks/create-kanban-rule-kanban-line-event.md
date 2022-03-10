@@ -1,28 +1,25 @@
 ---
 title: Kurti „kanban“ taisyklę naudojant „kanban“ eilutės įvykį
 description: Šios procedūros metu „kanban“ taisyklė sukuriama naudojant „kanban“ eilutės įvykio parametrą, kad iš proceso veiklos būtų suaktyvintas atgalinis planavimas.
-author: ChristianRytt
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KanbanRules, LeanProductionFlowActivityLookup, SalesTableListPage, SalesCreateOrder, SalesTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: crytt
+ms.author: johanho
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5a6c4b7103874a6d955b21e99b8e219a039d4b55
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: b7aaf959db0f0a136fc615f9a57ec787ef6cf2ad
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4433315"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7579165"
 ---
 # <a name="create-a-kanban-rule-using-a-kanban-line-event"></a>Kurti „kanban“ taisyklę naudojant „kanban“ eilutės įvykį
 
@@ -35,7 +32,7 @@ ms.locfileid: "4433315"
 1. Pasirinkite Produkto informacijos valdymas > „Lean manufacturing“ > „Kanban“ taisyklės.
 2. Spustelėkite Naujas.
 3. Lauke Papildymo strategija pasirinkite „Įvykis“.
-    * Taip „kanban“ sugeneruojami tiesiogiai pagal poreikį. Ši parinktis naudojama siekiant nustatyti taisykles, apibrėžiančias gamybos pagal užsakymą scenarijų  
+    * Taip „kanban“ sugeneruojami tiesiogiai pagal poreikį. Ši parinktis naudojama siekiant nustatyti taisykles, apibrėžiančias gamybos pagal užsakymą scenarijų.  
 4. Lauke Pirmoji plano veikla įveskite arba pasirinkite reikšmę.
     * Įveskite arba pasirinkite SpeakerAssemblyAndPolish. Pirmoji gamybos „kanban“ taisyklės veikla yra gamybos eigos proceso veikla. Kai pasirenkate veiklą, veiklos galiojimo datos nukopijuojamos į „kanban“ taisyklės galiojimo datas.  
 5. Išplėskite skyrių Išsami informacija.
@@ -69,3 +66,6 @@ ms.locfileid: "4433315"
     * Atkreipkite dėmesį, kad kiekio 27 „kanban“ buvo sukurtas siekiant apdoroti veiklą pagal sukurtą „kanban“ taisyklę.  
     * Tai paskutinis veiksmas.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

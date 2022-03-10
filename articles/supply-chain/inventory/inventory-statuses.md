@@ -1,7 +1,7 @@
 ---
 title: Atsargų būsenos
 description: Šiame straipsnyje aprašyta, kaip galite naudoti atsargų būsenas norėdami skirstyti ir sekti atsargas.
-author: MarkusFogelberg
+author: yufeihuang
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 21331
 ms.assetid: b35f495f-de4f-48a0-9d09-4d06781d7650
 ms.search.region: Global
-ms.author: mafoge
+ms.author: yufeihuang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e3c8b467f29037bbb869189e3607e11f40aad2c2
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
-ms.translationtype: HT
+ms.openlocfilehash: db15ad94355823c699e83c9e3f47660f813e1c9a
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5829865"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103468"
 ---
 # <a name="inventory-statuses"></a>Atsargų būsenos
 
@@ -64,7 +64,7 @@ Galite keisti inventoriaus būsnas naudodami **Turimos vietos** puslapį arba na
 - Norėdami keisti inventoriaus būseną kaip iš anksto nustatytą procesą, eikite į **Turima pagal vietą** puslapį, pasirinkite atitinkamus įrašus ir tada rinkitės **Inventoriaus būsenos keitimo** mygtuką.
 
 > [!NOTE]
-> *Inventoriaus būsenos prekių valdomų keitimas pagal sekimo matmenis* funkcija jums leidžia keisti inventoriaus kontroliuojamų prekių būseną pagal sekimo matmenis, įskaitant galimybę naujinti tik pasirinktus įrašus. Naudokite [funkcijos valdymą](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) tam, kad įjungtumėte funkciją kaip būtina. Funkciją įjungus, galėsite atlikti šiuos veiksmus:
+> *Inventoriaus būsenos prekių valdomų keitimas pagal sekimo matmenis* funkcija jums leidžia keisti inventoriaus kontroliuojamų prekių būseną pagal sekimo matmenis, įskaitant galimybę naujinti tik pasirinktus įrašus. Kaip ir tiekimo grandinės valdymas 10.0.25 ši funkcija yra privaloma ir jos išjungti negalima. Jei naudojate senesnę nei 10.0.25 versiją, *·*[tada](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) administratoriai gali įjungti arba išjungti šią funkciją ieškodami prekių, kontroliuojamų naudojant sekimo dimensijų funkciją funkcijų valdymo darbo srityje, atsargų būsenos keitimo. Jei priemonė įgalinta, galėsite atlikti šiuos veiksmus:
 >
 > - Puslapyje **Turima pagal vietą** galite grupuoti eilutes pagal rodomus matmenis naudodami **Rodomi matmenys** mygtuką ir keisti pasirinktų eilučių būseną.
 > - Puslapyje **Turima pagal vietą** puslapyje galtie pasirinkti keletą įrašų ir tada naudoti **Inventoriaus būsenos keitimo** mygtuką, kad pakeistumėte visus juos vienu metu.

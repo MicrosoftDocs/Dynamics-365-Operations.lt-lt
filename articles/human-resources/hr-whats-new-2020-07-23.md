@@ -2,15 +2,12 @@
 title: Kas nauja ar pasikeitė „Dynamics 365 Human Resources” (2020 m. liepos 23 d.)
 description: Šioje temoje aprašomos naujos ar pasikeitusios „Microsoft Dynamics 365 Human Resources” funkcijos 2020 m. liepos 23 d.
 author: andreabichsel
-manager: tfehr
 ms.date: 07/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
@@ -18,18 +15,18 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-07-23
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 6da636cfe4a36cca57d30bde5ab830b78b351bc5
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
-ms.translationtype: HT
+ms.openlocfilehash: 1dd8ab95d37c2fbc5d7453fadeae043677c30160
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5463579"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8063727"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-july-23-2020"></a>Kas nauja ar pasikeitė „Dynamics 365 Human Resources” (2020 m. liepos 23 d.)
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Šioje temoje aprašomos naujos arba pasikeitusios „Dynamics 365 Human Resources” funkcijos. Pakeitimai taikomi 8.1.3416 komponavimo versijai. Kai kurių antraščių skaičiai skliausteliuose nurodo LCS palaikymo numerius informaciniais tikslais.
 
@@ -39,13 +36,13 @@ Dimensijų pašalinimas iš padėties dabar pašalina tas pačias padėtis ir i�
 
 ## <a name="positions-not-in-hierarchy-show-inactive-positions-397257"></a>Padėtys nehierarchinėje tvarkoje rodo neaktyvias padėtis (397257)
 
-Neaktyvios padėtys (turi galiojimo laiko pabaigą), daugiau nerodo padėties hierarchijos kaip **Padėtys nehierarchijoje**. 
+Neaktyvios padėtys (turi galiojimo laiko pabaigą), daugiau nerodo padėties hierarchijos kaip **Padėtys ne hierarchijoje**. 
 
-## <a name="validation-occurring-between-leaveenrollmententity-and-hcmworkerentity-on-data-management-framework-dmf-import-causes-slow-data-loads-442324"></a>Patvirtinimas atsitinkantis tarp „LeaveEnrollmentEntity“ ir „HcmWorkerEntity“ duomenų valdymo darbotvarkės (DMF) importavime sulėtina duomenų atsiuntimus (442324)
+## <a name="validation-occurring-between-leaveenrollmententity-and-hcmworkerentity-on-data-management-framework-dmf-import-causes-slow-data-loads-442324"></a>Patvirtinimas atsitinkantis tarp „LeaveEnrollmentEntity“ ir „HcmWorkerEntity“ duomenų valdymo darbotvarkės (DMF) importavime sulėtina duomenų atsisiuntimus (442324)
 
 Pakeitimai šiame leidime pagerina **„LeaveEnrollmentEntity“** veikimą.
 
-## <a name="unable-to-personalize-in-organization-administration-447490"></a>Nepavyskta personalizuoti organizacijos administravime (447490)
+## <a name="unable-to-personalize-in-organization-administration-447490"></a>Nepavyksta personalizuoti organizacijos administravime (447490)
 
 Su šiuo pakeitimu, galite dabar personalizuoti nuorodas **Organizacijos administravime**.
 
@@ -57,7 +54,7 @@ Dabar galite padaryti laukus privalomais naudodami Žmogiškųjų išteklių per
 
 ## <a name="human-resources-application-in-teams"></a>„Human Resources“ programa programoje „Teams“
 
-Darbuotojai gali peržiūrėti ir prašyti atostogų programoje „Microsoft Teams“. Jie gali bendrauti su robotu, kad sukurtų atostogų prašymą. Daugiau informacijos žr. [„Human Resources“ programa programoje „Teams“](https://go.microsoft.com/fwlink/?linkid=2127841). 
+Darbuotojai gali peržiūrėti ir prašyti atostogų programoje „Microsoft Teams“. Jie gali bendrauti su robotu, kad sukurtų atostogų prašymą. Daugiau informacijos žr. [„Human Resources“ programa programoje „Teams“](./hr-admin-teams-leave-app.md). 
 
 ## <a name="data-management-framework-dmf-entities-for-benefits-management"></a>Duomenų valdymo sistemos (DMF) objektai, skirti išmokų valdymui
  
@@ -107,7 +104,7 @@ Platformos atnaujinimas 10.0.12 (36)
 ## <a name="see-also"></a>Taip pat žiūrėkite
 
 [Kas nauja ar pasikeitė „Human Resources”](hr-admin-whats-new.md)</br>
-[„Dynamics 365 Human Resources“ 2019 m. leidimo 2 bangos apžvalga](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[„Dynamics 365 Human Resources“ 2019 m. leidimo 2 bangos apžvalga](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Atnaujinimo procesas](hr-admin-setup-update-process.md)</br>
 [Funkcijų valdymas](hr-admin-manage-features.md)
 

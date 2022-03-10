@@ -3,23 +3,22 @@ title: Kanalų apžvalga
 description: Šioje temoje pateikiama „Microsoft Dynamics 365 Commerce“ kanalų apžvalga.
 author: samjarawan
 ms.date: 01/27/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 64dcb02e9d35f530ea498c65473a98de3d18912e
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
-ms.translationtype: HT
+ms.openlocfilehash: cc7f00d69a6fd57efcd9b6eece56ddc0702c6935
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6335719"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7985010"
 ---
 # <a name="channels-overview"></a>Kanalų apžvalga
 

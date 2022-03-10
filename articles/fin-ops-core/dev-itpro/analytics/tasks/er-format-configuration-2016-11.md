@@ -1,12 +1,10 @@
 ---
 title: 'ER: formato konfigūracijos kūrimas (2016 m. lapkričio mėn.)'
-description: Šioje temoje aiškinama, kaip sistemos administratoriaus arba elektroninių ataskaitų kūrėjo vaidmenį turintis vartotojas gali kurti formato konfigūraciją elektroninėms ataskaitoms (ER).
+description: Šioje temoje paaiškinama, kaip sukurti elektroninių ataskaitų (ER) formato konfigūraciją.
 author: NickSelin
-manager: AnnBe
 ms.date: 08/02/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERSolutionCreateDropDialog, EROperationDesigner, ERComponentTypeDropDialog
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e4cd3960594ab37ca867792c655cfd28dc332fa9
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
-ms.translationtype: HT
+ms.openlocfilehash: 5d59f0f7c914cc6d59ae441e6f6b8ff249a3e9c03c6ee4b4a75421d875f826a0
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684768"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6728218"
 ---
 # <a name="er-create-a-format-configuration-november-2016"></a>ER: formato konfigūracijos kūrimas (2016 m. lapkričio mėn.)
 
@@ -158,3 +156,6 @@ ms.locfileid: "4684768"
 42. Spustelėkite **Įrašyti**.
 43. Uždarykite puslapį.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

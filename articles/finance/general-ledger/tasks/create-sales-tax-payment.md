@@ -2,26 +2,23 @@
 title: PVM mokėjimo kūrimas
 description: PVM sudengimo ir registravimo užduoties procedūra PVM balansus sudengia PVM sąskaitose ir juos koresponduoja į PVM sudengimo sąskaitą už tam tikrą laikotarpį.
 author: twheeloc
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: Dialog
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7aec00c2fb657f0b4074063ef7acad5f4372ebca
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: 8c0b6c67a547e42ab4d7b7ba9f456a29c6b3d22e491e3a8ad0481a0144491087
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4646340"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6763171"
 ---
 # <a name="create-a-sales-tax-payment"></a>PVM mokėjimo kūrimas
 
@@ -37,3 +34,6 @@ PVM sudengimo ir registravimo užduoties procedūra PVM balansus sudengia PVM s�
 5. Lauke **Operacijos data** įveskite datą.
 6. Spustelėkite **Gerai**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

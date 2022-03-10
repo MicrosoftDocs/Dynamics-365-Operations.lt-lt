@@ -1,8 +1,8 @@
 ---
 title: Atostogų ir neatvykimų užklausų valdymas
 description: Peržiūrėti ir patvirtinti atostogų ir neatvykimų užklausas „Dynamics 365 Human Resources“.
-author: andreabichsel
-ms.date: 04/21/2021
+author: twheeloc
+ms.date: 08/26/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,23 +12,26 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: efa85c4a3371bb5096df1a56d818527156654279
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
-ms.translationtype: HT
+ms.openlocfilehash: f19b99693f82d40b8951e23f766b1cd4a0d6293e
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6357220"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8065306"
 ---
 # <a name="manage-leave-and-absence-requests"></a>Atostogų ir leidimo neatvykti prašymų valdymas
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Valdykite nedarbo laiko užklausas iš **Darbuotojo savitarnos paslaugų** darbo srities „Dynamics 365 Human Resources“. Užklausos gali būti paprastos vienos dienos užklausos ar kelių dienų užklausos, apimančius kelis atostogų ar nebuvimo darbe tipus. Jei darbo eiga neįgalinta, prašymai automatiškai patvirtinami. Įjungus darbo eigą, patvirtinimas gali būti automatinis arba reikalauti atsijungimo priklausomai nuo darbo eigos konfigūravimo.
 
-1. Darbo srityje **Darbuotojo savitarnos paslaugos** rinkitės **Mano komanda**.
+1. Darbo srityje **Darbuotojo savitarna** pasirinkite **Mano komanda**.
 
 2. Dalyje **Mano komandos informacija** pasirinkite skirtuką **Atostogos ir neatvykimai**.
 

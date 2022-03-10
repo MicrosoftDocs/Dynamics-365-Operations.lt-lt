@@ -2,7 +2,6 @@
 title: Norėdami sukurti naują įrašą, naudokite įrašo šabloną
 description: Šioje procedūroje parodoma, kaip kuriant naują įrašą naudoti anksčiau nustatytą įrašo šabloną.
 author: margoc
-manager: AnnBe
 ms.date: 08/12/2019
 ms.topic: business-process
 ms.prod: ''
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c926063b835fb01c551b87f7a78bfc8dc30f31fb
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
-ms.translationtype: HT
+ms.openlocfilehash: 4e59280c55b78bac49a3d60b9bd9f09ece5a988dc7754f0caf7b4fcdc64b9eaf
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5559175"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6716043"
 ---
 # <a name="use-record-template-to-create-a-new-record"></a>Norėdami sukurti naują įrašą, naudokite įrašo šabloną
 

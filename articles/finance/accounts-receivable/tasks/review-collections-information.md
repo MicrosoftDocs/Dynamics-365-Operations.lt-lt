@@ -2,11 +2,9 @@
 title: Surinkimo informacijos peržiūra
 description: Ši procedūra padės peržiūrėti mokėjimų priežiūros informaciją, taip pat įvairias sąrankos parinktis ir mokėjimų priežiūros operacijas.
 author: ShivamPandey-msft
-manager: AnnBe
 ms.date: 08/01/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustCollectionsPool, SysQueryForm, CustCollectionsAgent, OMTeamSelectMemberDialog, CustVendReportInterval, CustParameters, CustAgingSnapshot, CustVendAgingBucketLookUp, CustCollectionsPoolsListPage, CustCollectionsContactPart, CustCollections
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9bbfb6537118a9936c127018427b0516e7ea002a
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.openlocfilehash: 59fcaef39460761dbe68273aecb5cbff8850ef031d43393277a17d07dd92db3b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4971533"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6778391"
 ---
 # <a name="review-collections-information"></a>Surinkimo informacijos peržiūra
 
@@ -142,3 +140,6 @@ ms.locfileid: "4971533"
 5. Pasirinkite **Rodyti sąrašą**.
 - Pasirinkite kliento sąskaitą arba priimkite numatytąjį įrašą. Pagal numatytuosius nustatymus tai yra sąrašo puslapyje arba formoje, iš kurios atidarėte šią formą, pasirinkta kliento sąskaita. Jei formą atidarėte iš sąrašo puslapio, sąraše rodomi klientai, įtraukti į mokėjimų priežiūros telkinį, kuris naudojamas sąrašo puslapyje.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

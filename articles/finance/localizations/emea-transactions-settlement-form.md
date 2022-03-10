@@ -2,11 +2,9 @@
 title: Sudengimo operacijų peržiūra (Rytų Europa)
 description: Šioje temoje pateikiama informacija apie klientų ir tiekėjų puslapį Sudengimo operacijos.
 author: EvgenyPopovMBS
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustVendTransPostingLog_RU
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: Czech Republic, Estonia, Hungary, Latvia, Lithuania, Poland
 ms.author: epopov
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 0034f38ebde15ae5a56632f6f59ec9a6f35a17a6
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
-ms.translationtype: HT
+ms.openlocfilehash: ba3e168d188dfe0f808e7d7f7bab6192de25d25977023eb798a923ec97b43b82
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5236180"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6713741"
 ---
 # <a name="view-transactions-on-settlement-for-eastern-europe"></a>Sudengimo operacijų peržiūra (Rytų Europa)
 

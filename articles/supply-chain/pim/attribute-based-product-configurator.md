@@ -1,27 +1,27 @@
 ---
 title: Produkto konfigūravimo pagal apribojimus atributais pagrįstos pardavimo kainos
 description: Šioje temoje aprašoma, kaip sukurti pardavimo kainos modelius, kurių pardavimo kainos pagrįstos komponentais ir atributais, o ne faktine komplektavimo specifikacija ir maršrutu.
-author: sorenva
-manager: tfehr
+author: t-benebo
 ms.date: 10/2/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: sorenand
+ms.author: benebotg
 ms.search.validFrom: 2020-08-17
-ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: cba4b1eac33ae53e214297728c1cdf2710ebd9d9
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.dyn365.ops.version: 10.0.15
+ms.openlocfilehash: e50b2d1e9ccf03a58e0ddf6d4ecfb34c6c504161
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5007921"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7577461"
 ---
 # <a name="attribute-based-sales-prices-for-constraint-based-product-configuration"></a>Produkto konfigūravimo pagal apribojimus atributais pagrįstos pardavimo kainos
+
+[!include [banner](../includes/banner.md)]
 
 Šioje temoje aprašoma, kaip sukurti pardavimo kainos modelius, kurių pardavimo kainos pagrįstos komponentais ir atributais, o ne faktine komplektavimo specifikacija ir maršrutu. Galite sukurti kelis kiekvieno produkto konfigūracijos modelio pardavimo kainos modelius.
 
@@ -35,7 +35,7 @@ Norėdami nustatyti numatytąją valiutą, atlikite toliau pateiktus veiksmus.
 1. Atidarykite skirtuką **Produktų konfigūravimo pagal apribojimus modeliai**.
 1. Atidarykite išplečiamąjį sąrašą **Numatytoji valiuta** ir pasirinkite jūsų valiutą.
 
-    ![Numatytosios produkto konfigūravimo pagal apribojimus valiutos nustatymas](media/prod-config-currency.png "Numatytosios produkto konfigūravimo pagal apribojimus valiutos nustatymas")
+    ![Numatytosios produkto konfigūravimo pagal apribojimus valiutos nustatymas.](media/prod-config-currency.png "Numatytosios produkto konfigūravimo pagal apribojimus valiutos nustatymas")
 
 1. Jei norite pridėti „Excel” failą su visų užsakymo ar pasiūlymo eilučių kainos paskirstymu, dalyje **Kainos modelis** nustatykite **Pridėti** į *Taip*.
 
@@ -62,7 +62,7 @@ Toliau pateiktame pavyzdyje pateikta statinio skaičiaus 899,95 EUR bazinė kain
 - Už raudonmedžio spintelės apdailą pridėkite 119,95 EUR.
 - Pridėkite 12,95 EUR už kiekvieną garsiakalbių aukščio vienetą.
 
-![Kainos modelio pavyzdys](media/prod-config-rules-example.png "Kainos modelio pavyzdys")
+![Kainos modelio pavyzdys.](media/prod-config-rules-example.png "Kainos modelio pavyzdys")
 
 ## <a name="add-support-for-multiple-currencies"></a>Kelių valiutų palaikymo įtraukimas
 
@@ -83,7 +83,7 @@ Norėdami įtraukti tiesiogines kainas papildoma valiuta, atlikite toliau pateik
 
 Toliau pateiktame pavyzdyje _EUR_ yra numatytoji valiuta, o _USD_ buvo įtraukta kaip papildoma valiuta.
 
-![Modelio su keliomis valiutomis pavyzdys](media/prod-config-rules-currency-example.png "Modelio su keliomis valiutomis pavyzdys")
+![Modelio su keliomis valiutomis pavyzdys.](media/prod-config-rules-currency-example.png "Modelio su keliomis valiutomis pavyzdys")
 
 > [!NOTE]
 > Negalite įtraukti išraiškos taisyklių, kurios yra unikalios ne numatytajai valiutai. Norėdami sukurti išraiškos taisykles, kurios būtų taikomos tik kitai valiutai nei numatytajai valiutai, nustatykite numatytąją valiutos kainos išraišką į nulį. Tada nustatykite reikiamą ne numatytosios valiutos išraišką.
@@ -92,14 +92,14 @@ Toliau pateiktame pavyzdyje _EUR_ yra numatytoji valiuta, o _USD_ buvo įtraukta
 
 Norėdami patikrinti, kaip pardavimo kainos veikia konfigūracijos seanso metu, atidarykite jūsų kainos modelio redagavimo puslapį, kaip aprašyta [Jūsų pardavimo kainos modelių kūrimas](#build-price-model), tada veiksmų srityje pasirinkite **Tikrinti**. Atidaromas dialogo langas **Tikrinti produkto modelį**, kuriame galite atlikti toliau pateiktus veiksmus.
 
-- Naudokite čia siūlomus konfigūracijos parametrus, norėdami pasirinkti produkto parinktis ir pežiūrėti, kaip jos paveikia vertę, esančią dalyje **Kaina ir siuntimo data**.
+- Naudokite čia siūlomus konfigūracijos parametrus, norėdami pasirinkti produkto parinktis ir pažiūrėti, kaip jos paveikia vertę, esančią dalyje **Kaina ir siuntimo data**.
 - Pasirinkite **Rodyti kainos paskirstymą**, norėdami atsisiųsti „Excel” dokumentą, kuriame pateikta išsami informacija apie tai, kaip kaina buvo apskaičiuota.
 
-![Jūsų produkto modelio tikrinimas](media/prod-config-test.png "Jūsų produkto modelio tikrinimas")
+![Jūsų produkto modelio tikrinimas.](media/prod-config-test.png "Jūsų produkto modelio tikrinimas")
 
 Atsisiųstoje skaičiuoklėje rodoma absoliučioji vertė ir kiekvieno aktyvaus kainos elemento įnašas procentais. Jei nustatėte kainos modelio parinktį **Pridėti** puslapyje **Produkto informacijos valdymo parametrai**, šis „Excel” lapas bus pridėtas prie užsakymo arba pasiūlymo eilutės.
 
-![„Excel” skaičiuoklė, nurodanti kainos paskirstymą](media/prod-config-excel-example.png "„Excel” skaičiuoklė, nurodanti kainos paskirstymą")
+![„Excel” skaičiuoklė, nurodanti kainos paskirstymą.](media/prod-config-excel-example.png "„Excel” skaičiuoklė, nurodanti kainos paskirstymą")
 
 ## <a name="set-up-selection-criteria-for-price-models"></a>Kainos modelių pasirinkimo kriterijų nustatymas
 
@@ -118,7 +118,7 @@ Norėdami nustatyti kainos modelių pasirinkimo kriterijus, atlikite toliau nuro
     - **Galioja nuo** – nurodykite pirmąją dieną, nuo kurios bus taikoma užklausa.
     - **Galioja iki** – nurodykite paskutinę dieną, iki kurios bus taikoma užklausa.
 
-    ![Kainos modelio kriterijus](media/prod-config-price-model-criteria.png "Kainos modelio kriterijus")
+    ![Kainos modelio kriterijus.](media/prod-config-price-model-criteria.png "Kainos modelio kriterijus")
 
 1. Pasirinkite norimos nustatyti užklausos eilutę ir **veiksmų srityje** pasirinkite **Redaguoti**. Atidaromas užklausos dizaino įrankio dialogo langas. Šis įrankis veikia kaip dauguma užklausos dizaino įrankių „Supply Chain Management”. Naudokite jį, norėdami nustatyti sąlygas, kuriomis turėtų būti taikomas pasirinktos eilutės kainos modelis.
 
@@ -139,4 +139,7 @@ Paskutinis veiksmas yra produkto modelio versijos atributais pagrįstų pardavim
 1. Pasirinkite paskirties produkto konfigūracijos modelį.
 1. Veiksmų srityje atidarykite skirtuką **Modelis** ir grupėje **Produkto modelio informacija** pasirinkite **Versijos**.
 1. Atidaromas puslapis **Versijos**. Įsitikinkite, kad **Kainodaros metodas** nustatytas į **Pagrįstas atributais**.
-    ![Kainodaros metodo nustatymas į pagrįstą atributais](media/prod-config-versions.png "Kainodaros metodo nustatymas į pagrįstą atributais")
+    ![Kainodaros metodo nustatymas į pagrįstą atributais.](media/prod-config-versions.png "Kainodaros metodo nustatymas į pagrįstą atributais")
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

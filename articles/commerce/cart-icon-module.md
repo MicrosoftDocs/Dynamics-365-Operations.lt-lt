@@ -2,7 +2,7 @@
 title: Krepšelio piktogramos modulis
 description: Šioje temoje paaiškinamas krepšelio piktogramos modulis ir aprašoma, kaip pridėti jį prie svetainių puslapių, esančių „Microsoft Dynamics 365 Commerce“.
 author: anupamar-ms
-ms.date: 07/08/2021
+ms.date: 08/02/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,17 +14,16 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: e0238e9d464fc1d44cbc5091638ac7270d5b6ae3
-ms.sourcegitcommit: 7e976059118938b0089e40bef948029a8c088b38
-ms.translationtype: HT
+ms.openlocfilehash: 5cf86876ba03d510b03237c9c89a1fc069a73482b755a1d72227037c91439e86
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/09/2021
-ms.locfileid: "6479309"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6735683"
 ---
 # <a name="cart-icon-module"></a>Krepšelio piktogramos modulis
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 Šioje temoje paaiškinamas krepšelio piktogramos modulis ir aprašoma, kaip pridėti jį prie svetainių puslapių, esančių „Microsoft Dynamics 365 Commerce“.
 
@@ -36,9 +35,14 @@ Toliau pateiktame vaizde parodytas krepšelio piktogramos modulio, kuris rodo ma
 
 ## <a name="module-properties"></a>Modulio ypatybės
 
-- **Rodyti mažąjį krepšelį** – kai ši ypatybė įjungta, leidžiamas krepšelio suvestinės (mažojo krepšelio) rodymas užvedus pelės žymiklį virš krepšelio piktogramos. Ši funkcija palaikoma tik darbalaukio rodinio prievaduose.
+- **Rodyti mažąjį krepšelį** – kai ši ypatybė yra nustatyta į **Teisingą**, krepšelio suvestinės (mažojo krepšelio) rodymas užvedus pelės žymiklį virš krepšelio piktogramos. Ši funkcija palaikoma tik darbalaukio rodinio prievaduose.
+- **Leisti anoniminį tikrintoją** - ai ši ypatybė nustatyta kaip **Teisinga** mažame krepšelyje leidžiama vartotojams, kurie prisiregistravo, kad galėtų išregistruoti svečią. Ši ypatybė galima „Commerce" 10.0.21 versijoje, kaip „Commerce" modulio bibliotekos paketo dalis.
+- **Prekių užsakymas** – ši ypatybė valdo tvarką, kuria prekės turėtų būti rodomos mažame krepšelyje. Kai pasirenkama pasirinktis **Nauja prekė, įtraukta į sąrašo viršų** į krepšelį įdėjus naujos prekės rodomos mažam krepšelio prekių sąrašui viršuje. Kai pasirenkama numatyta parinktis, **Nauja prekė, įtraukta į sąrašo viršų** ,į krepšelį įdėjus naujos prekės rodomos mažam krepšelio prekių sąrašui apačioje. Ši ypatybė galima „Commerce" 10.0.21 versijoje, kaip „Commerce" modulio bibliotekos paketo dalis.
 
-## <a name="module-properties-in-the-adventure-works-theme"></a>Modulio ypatybės „Adventure Works” temoje
+> [!IMPORTANT]
+> Ypatybės **Leisti anoniminį išsiregistravimą** ir **Prekių užsakymą** yra prieinamos „Commerce“ versijoje 10.0.21 leidime. Tam reikia, kad būtų įdiegta „Commerce“ modulio bibliotekos paketo versija 9.31.
+
+## <a name="module-properties-and-slots-in-the-adventure-works-theme"></a>Modulio ypatybės ir vietos „Adventure Works” temoje
 
 „Adventure Works” temoje krepšelio piktogramos modulyje yra dvi papildomos, mažam krepšeliui skirtos vietos. Šios vietos įtrauktos kaip modulio apibrėžimo plėtinys.
 

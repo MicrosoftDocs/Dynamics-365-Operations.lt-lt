@@ -1,30 +1,27 @@
 ---
-title: " Tvarkyti mažmeninės prekybos kainos koregavimus"
+title: Tvarkyti mažmeninės prekybos kainos koregavimus
 description: Ši procedūra padės nustatyti prekybos kainą.
 author: josaw1
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard, RetailDiscountPricingWorkspace, RetailPeriodicDiscount, RetailDiscountPriceGroup
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 83498fa0a0432cb182106d6d273cb6117ed0b094
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 0506c78a1a5191ff467f5bd65c0403113336cc9720ea4a447d77331dfe366232
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4414382"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6764518"
 ---
-# <a name="retail-price-adjustments"></a> Tvarkyti mažmeninės prekybos kainos koregavimus
+# <a name="retail-price-adjustments"></a>Tvarkyti mažmeninės prekybos kainos koregavimus
 
 [!include [banner](../includes/banner.md)]
 
@@ -53,3 +50,6 @@ ms.locfileid: "4414382"
 14. Uždarykite puslapį.
 15. Atnaujinkite puslapį.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

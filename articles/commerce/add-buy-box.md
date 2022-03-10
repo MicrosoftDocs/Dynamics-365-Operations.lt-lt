@@ -2,11 +2,9 @@
 title: Pirkimo langelio modulis
 description: Šioje temoje aprašomi pirkimo langelio moduliai ir tai, kaip jų įtraukti į „Microsoft Dynamics 365 Commerce“ svetainių puslapius.
 author: anupamar-ms
-manager: annbe
-ms.date: 09/15/2020
+ms.date: 07/08/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: ae3da8ee77636a2d2257e01f5876f5542469f7da
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.openlocfilehash: 4f49c7a1519744cda9cfba31a3938fd23e692841a851a52ec9d18a241f8c0458
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4986059"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6717800"
 ---
 # <a name="buy-box-module"></a>Pirkimo langelio modulis
 
@@ -29,9 +27,7 @@ ms.locfileid: "4986059"
 
 Šioje temoje aprašomi pirkimo langelio moduliai ir tai, kaip jų įtraukti į „Microsoft Dynamics 365 Commerce“ svetainių puslapius.
 
-## <a name="overview"></a>Peržiūrėti
-
-Terminas *pirkimo langelis* paprastai reiškia produkto išsamios informacijos puslapio matomąją sritį, kurioje pateikiama visa svarbiausia informacija, kurios reikia norint įsigyti produktą. (Matomoji sritis yra matoma pirmą kartą įkėlus puslapį, kad ją vartotojai matytų neturėdami slinkti žemyn.)
+Terminas *pirkimo langelis* paprastai reiškia produkto išsamios informacijos puslapio (PDP) matomąją sritį, kurioje pateikiama visa svarbiausia informacija, kurios reikia norint įsigyti produktą. (Matomoji sritis yra matoma pirmą kartą įkėlus puslapį, kad ją vartotojai matytų neturėdami slinkti žemyn.)
 
 Pirkimo langelio modulis yra specialus konteineris, kuriame laikomi visi moduliai, rodomi produkto išsamios informacijos puslapio pirkimo langelio srityje.
 
@@ -39,7 +35,7 @@ Produkto išsamios informacijos puslapio URL adrese yra produkto ID. Iš šio pr
 
 Toliau pateiktame paveikslėlyje parodytas produkto informacijos puslapyje esančio pirkimo langelio modulio pavyzdys.
 
-![Pirkimo langelio modulio pavyzdys](./media/ecommerce-pdp-buybox.PNG)
+![Pirkimo langelio modulio pavyzdys.](./media/ecommerce-pdp-buybox.PNG)
 
 ## <a name="buy-box-module-properties-and-slots"></a>Pirkimo langelio modulio ypatybės ir vietos 
 
@@ -71,14 +67,16 @@ Dalyje **Svetainės parametrai \> Plėtiniai** galima konfigūruoti toliau patei
 
 - **Krepšelio eilutės kiekio riba** – ši ypatybė yra naudojama nurodyti maksimalų kiekvienos prekės skaičių, kurį galima įtraukti į krepšelį. Pavyzdžiui, pardavėjas gali nuspręsti, kad vienos operacijos metu galima parduoti tik 10 kiekvieno produkto vienetų.
 - **Atsargos** – norėdami gauti informacijos apie atsargų parametrų taikymą, žr. [Atsargų parametrų taikymas](inventory-settings.md).
-- **Įtraukite produktą į vežimėlį** - Ši ypatybė yra naudojama nurodyti elgesį po to, kai objektas yra įtrauktas į vežimėlį. Galimos vertė yra **Naršyti vežimėlio puslapyje**, **Nenaršyti vežimėlio puslapyje** ir **Rodyti pranešimą**. Kai vertė yra nustatyta į **Naršyti vežimėlio puslapyje**, vartotojai yra siunčiami į vežimėlio puslapį jiems įtraukus objektą. Kai vertė yra nustatyta į **Nenaršyti vežimėlio puslapyje**, vartotojai nėra siunčiami į vežimėlio puslapį jiems įtraukus objektą. Kai vertė yra nustatyta į **Rodyti pranešimą**, vartotojams yra rodomas pranešimo patvirtinimas ir jie gali tęsti naršyti produkto išsamios informacijos puslapyje. 
+- **Įtraukti produktą į krepšelį** – daugiau informacijos apie tai, kaip taikyti **Įtraukti produktą į krepšelį** parametrus rasite [Įtraukti produktą į krepšelį parametrai](add-cart-settings.md).
+
+## <a name="buy-box-module-definition-extensions-in-the-adventure-works-theme"></a>Pirkimo lango modulio apibrėžimo plėtiniai „Adventure Works” temoje
+
+Pirkimo lango modulis, kurį pateikia „Adventure Works” tema, turi modulio apibrėžimo plėtinį, kuris palaiko produkto specifikacijų modulio, kuris yra PDP pirkimo langelyje, diegimą. Norėdami parodyti produkto specifikacijos atributus PDP pirkimo lange, įtraukite produkto specifikacijos modulį į pirkimo dėžės laiko atminties modulio lauką.
+
 
 > [!IMPORTANT]
-> **Įtraukti produktą į vežimėlį** saito nustatymai yra prieinami „Dynamics 365 Commerce“ 10.0.11 leidime. Jei atnaujinate iš senesnės „Dynamics 365 Commerce” versijos, turite rankiniu būdu atnaujinti failą appsettings.json. Instrukcijų, kaip atnaujinti failą appsettings.json, žr. [SDK ir modulių bibliotekos naujinimai](e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file). 
+> „Adventure Works” temą galima naudoti kaip 10.0.20 „Dynamics 365 Commerce” versijos leidimą.
 
-Toliau pateiktame paveikslėlyje parodytas „Fabrikam“ puslapyje esančio patvirtinimo pranešimo „Įtraukta į krepšelį“ pavyzdys.
-
-![Pranešimo modulio pavyzdys](./media/ecommerce-addtocart-notifications.PNG)
 
 ## <a name="commerce-scale-unit-interaction"></a>„Commerce Scale Unit“ sąveika
 
@@ -132,6 +130,11 @@ Norėdami į naują puslapį įtraukti pirkimo langelio modulį ir nustatyti rei
 
 [Bendrinimo socialiniuose tinkluose modulis](social-share-module.md)
 
+[Įtraukti prekę į krepšelį parametrai](add-cart-settings.md)
+
 [Mažmeninės prekybos kanalų atsargų pasiekiamumo apskaičiavimas](calculated-inventory-retail-channels.md)
 
 [SDK ir modulių bibliotekos naujinimai](e-commerce-extensibility/sdk-updates.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,28 +2,25 @@
 title: Tiekėjo mokėjimų kūrimas naudojant mokėjimo pasiūlymą
 description: Šioje temoje apžvelgiamos mokėjimo pasiūlymų parinktys ir pateikiami keli pavyzdžiai, kuriais rodoma, kaip mokėjimo pasiūlymai veikia.
 author: abruer
-manager: AnnBe
 ms.date: 04/04/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14312
 ms.assetid: 585d5b0b-1b79-4a03-ab18-528918070377
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 57e8ce38241933b16252f1c918b0f763a8f1be08
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 71e87b1102e21e035c25af4c63245eaaa59e4babb82bcf59c5cfba48f7d114f3
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4445970"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6749057"
 ---
 # <a name="create-vendor-payments-by-using-a-payment-proposal"></a>Tiekėjo mokėjimų kūrimas naudojant mokėjimo pasiūlymą
 
@@ -69,19 +66,19 @@ Liepos 1 d. Aprilė moka tiekėjams. Ji naudoja mokėjimo pasiūlymą, kad būt�
 
 ### <a name="option-1-by-cash-discount"></a>1 variantas: pagal nuolaidą
 
-Aprilė pasirenka  **Nuolaidą** kaip pasiūlymo tipą. Ji įveda datos intervalą nuo birželio 26 d. iki liepos 10 d. Šios SF bus įtrauktos į pasiūlymą:
+Balandis renkasi **Grynųjų nuolaidos** kaip siūlymo tipą. Ji įveda dienos intervalą nuo birželio 26 iki liepos 10. Šios SF bus įtrauktos į pasiūlymą:
 
 -   1002, nes nuolaidos data liepos 4 d. yra mokėjimo datų intervale.
 -   1004, nes nuolaidos data liepos 1 d. yra mokėjimo datų intervale.
 
 Šios sąskaitos faktūros nebus įtrauktos į pasiūlymą:
 
--   1001, nes nuolaida data birželio 29 d. jau praėjo, todėl ši SF nebetinka nuolaidai.
+-   1001, kadangi birželio 29 d. nuolaidos data jau baigėsi, tai sąskaita nebėra taikoma grynųjų nuolaidai.
 -   1003, nes ši SF neturi nuolaidos datos.
 
 ### <a name="option-2-by-due-date"></a>2 variantas: iki mokėjimo termino
 
-Aprilė pasirenka **Pagal terminą** kaip pasiūlymo tipą.  Ji įveda datos intervalą nuo birželio 26 d. iki liepos 10 d. Šios SF bus įtrauktos į pasiūlymą:
+Aprilė pasirenka **Pagal terminą** kaip pasiūlymo tipą.  Ji įveda dienos intervalą nuo birželio 26 iki liepos 10. Šios SF bus įtrauktos į pasiūlymą:
 
 -   1003, nes terminas liepos 29 d. yra mokėjimo datų intervale.
 
@@ -93,7 +90,7 @@ Aprilė pasirenka **Pagal terminą** kaip pasiūlymo tipą.  Ji įveda datos int
 
 ### <a name="option-3-by-due-date-and-cash-discount"></a>3 variantas: pagal terminą ir nuolaidą
 
-Aprilė pasirenka **Terminas ir nuolaida** kaip pasiūlymo tipą. Ji įveda datos intervalą nuo birželio 26 d. iki liepos 10 d. Šios SF bus įtrauktos į pasiūlymą:
+Aprilė pasirenka **Terminas ir nuolaida** kaip pasiūlymo tipą. Ji įveda dienos intervalą nuo birželio 26 iki liepos 10. Šios SF bus įtrauktos į pasiūlymą:
 
 -   1003, nes terminas liepos 29 d. yra mokėjimo datų intervale.
 -   1002, nes nuolaidos data liepos 4 d. yra mokėjimo datų intervale.
@@ -101,25 +98,28 @@ Aprilė pasirenka **Terminas ir nuolaida** kaip pasiūlymo tipą. Ji įveda dato
 
 Šios sąskaitos faktūros nebus įtrauktos į pasiūlymą:
 
--   1001, nes nuolaida data birželio 29 d. jau praėjo, todėl ši SF nebetinka nuolaidai, o terminas liepos 15 d. taip pat yra ne mokėjimo datų intervale.
+-   1001, kadangi birželio 29 d. nuolaidos data jau baigėsi, tai sąskaita nebėra taikoma grynųjų nuolaidai, o paskutinė data yra liepos 15 taip pat nepatenka į dienų intervalą.
 
 ## <a name="country-specific-considerations"></a>Šaliai būdingos aplinkybės
 ### <a name="norway"></a>Norvegija
 
 #### <a name="dimension-control"></a>Dimensijos valdiklis
 
-Dimensijų valdymas suteikia galimybę kontroliuoti sugeneruotų eilučių grupavimą pagal mokėjimo pasiūlymą ir nustatyti numatytąsias dimensijas pagal finansines dimensijas, naudojamas taikomose SF. Norvegijos šalies kontekste kiekvienam mokėjimo būdui priskiriamas finansinės dimensijos skirtukas kuriame galite aktyvinti dimensijų valdymą ir įgalinti kiekvienos dimensijos grupavimą. Galima naudoti šias pasirinktis.
+Dimensijų valdymas suteikia galimybę kontroliuoti sugeneruotų eilučių grupavimą pagal mokėjimo pasiūlymą ir nustatyti numatytąsias dimensijas pagal finansines dimensijas, naudojamas taikomose SF. Pagal Norvegijos kontekstą, kiekvienam mokėjimo metodui yra finansinės dimensijos skirtukas, kuriame gali įjungti dimensijos valdiklį ir taip pat įjungti grupę kiekvienai dimensijai. Galima naudoti šias pasirinktis.
 
 -   Lauko **Dimensijų valdymas** naudoti negalima. Mokėjimo pasiūlymas veikia taip, kaip bet kurioje kitoje šalyje.
 -   Laukas **Dimensijų valdymas** yra suaktyvinamas nenustatant dimensijų. Mokėjimo pasiūlymas bus sukurtas neatsižvelgiant į dimensijas. Sukurta operacija iš taikomo įrašo neperima jokių dimensijų.
--   Laukas **Dimensijų valdymas** yra suaktyvinamas ir įjungiamos dimensijos. Dabar galite nustatyti, kaip dimensijos kopijuojamos į žurnalą. Pavyzdžiui: • norėdami kurti verslo struktūros vieneto mokėjimo metodo mokėjimo pasiūlymą, pažymėkite žymės langelį **BusinessUnit**, • Norėdami kurti išlaidų centro mokėjimo metodo mokėjimo pasiūlymą, pažymėkite žymės langelį **Išlaidų centras**.
+-   **Dimensijos valdymo** laukelis įjungiamas ir tolesnės dimensijos yra įjungiamos. Dabar galite nustatyti, kaip dimensijos kopijuojamos į žurnalą. Pavyzdžiui: • norėdami kurti verslo struktūros vieneto mokėjimo metodo mokėjimo pasiūlymą, pažymėkite žymės langelį **BusinessUnit**, • Norėdami kurti išlaidų centro mokėjimo metodo mokėjimo pasiūlymą, pažymėkite žymės langelį **Išlaidų centras**.
 
 > [[!NOTE]
 > Jei trečiojoje parinktyje pasirinkote daugiau nei vieną dimensiją, sukuriamas to dimensijų derinio mokėjimo pasiūlymas.
 
 #### <a name="bank-account-selection"></a>Banko kodo pasirinkimas
 
-Galite nustatyti mokėjimo metodo standartinę debeto mokėjimo sąskaitą nepriklausomai nuo šalies. Tai bus nustatyta mokėjimo eilutėse, kurias sugeneruos pasiūlymas. Naudodami banko kodo funkciją, galite nurodyti kelis debeto banko kodus, kuriuos valdytų dimensija, valiuta arba jų derinys, kad būtų naudojami skirtingi debeto banko kodai, atsižvelgiant į kiekvieną derinį. Šias kombinacijas galite nustatyti puslapyje **Mokėjimų metodai**, naudodami mygtuką  **Banko kodai**, skirtą kiekvienam mokėjimo metodui, kurio **Registravimo sąskaitos tipas** =  **Bankas**.
+Galite nustatyti mokėjimo metodo standartinę debeto mokėjimo sąskaitą nepriklausomai nuo šalies. Tai bus nustatyta mokėjimo eilutėse, kurias sukurs pasiūlymas. Su banko sąskaitos funkcija gali nustatyti kelias debito banko sąskaitas valdomas dimensijos ir valiutos arba jų derinį siekiant naudoti kitas debito banko sąskaitas priklausomai nuo kiekvieno derinio. Galite nustatyti šiuos derinius **Mokėjimų metodai** puslapyje naudodami **Banko sąskaitų** mygtuke, kuris prieinamas kiekvienam mokėjimo metodui su **Publikavimo sąskaitos tipu** = **Banku**.
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

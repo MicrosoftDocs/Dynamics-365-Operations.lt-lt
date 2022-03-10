@@ -2,11 +2,9 @@
 title: Kas pasikeitė „Dynamics 365 Supply Chain Management“ 10.0.10 versijoje (2020 m. kovo mėn.)?
 description: Šioje temoje aprašomos naujos ir pakeistos „Dynamics 365 Supply Chain Management“ 10.0.10 versijos funkcijos.
 author: kamaybac
-manager: tfehr
 ms.date: 04/08/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 63e8214608d5c8c4b1bcc805fdf1d307fc381db7
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.openlocfilehash: a1454e3d9045810f20460610124c04cfff92171960e3b01962a1332b78191d71
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4967210"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6720377"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10010-may-2020"></a>Kas pasikeitė „Dynamics 365 Supply Chain Management“ 10.0.10 versijoje (2020 m. kovo mėn.)?
 
@@ -35,19 +33,19 @@ ms.locfileid: "4967210"
 
 ## <a name="features-included-in-this-release"></a>Funkcijos, įtrauktos į šį leidimą
 
-Toliau nurodytos funkcijos yra įtrauktos į šį leidimą. Funkcijų pavadinimai susieti su papildoma informacija svetainėje [Leidimų planai](https://docs.microsoft.com/dynamics365/release-plans/). Papildomi saitai nurodo papildomus dokumentus arba vaizdo įrašus, kurie šiuo metu galimi šiai funkcijai. Daugumą šių funkcijų reikia įjungti naudojant [Funkcijų valdymas](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), kad galėtumėte jomis naudotis.
+Toliau nurodytos funkcijos yra įtrauktos į šį leidimą. Funkcijų pavadinimai susieti su papildoma informacija svetainėje [Leidimų planai](/dynamics365/release-plans/). Papildomi saitai nurodo papildomus dokumentus arba vaizdo įrašus, kurie šiuo metu galimi šiai funkcijai. Daugumą šių funkcijų reikia įjungti naudojant [Funkcijų valdymas](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), kad galėtumėte jomis naudotis.
 
-- [Patobulinimas, skirtas naudoti esamas sveriamo kiekio žymes, naudojant sandėlio valdymą](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/enhancement-use-existing-catch-weight-tags-warehouse-management)
+- [Patobulinimas, skirtas naudoti esamas sveriamo kiekio žymes, naudojant sandėlio valdymą](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/enhancement-use-existing-catch-weight-tags-warehouse-management)
 
-- [Gaunamų krovinių valdymo patobulinimai, skirti sandėlio valdymui](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/warehouse-management-inbound-load-management-enhancement)<br> - Dėl daugiau informacijos, žr.[Pirkimo užsakymų gaunamų krovinių sandėlio tvarkymas](../warehousing/inbound-load-handling.md).
+- [Gaunamų krovinių valdymo patobulinimai, skirti sandėlio valdymui](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/warehouse-management-inbound-load-management-enhancement)<br> - Dėl daugiau informacijos, žr.[Pirkimo užsakymų gaunamų krovinių sandėlio tvarkymas](../warehousing/inbound-load-handling.md).
 
-- [Su sandėlio programa gaunami etiketės spausdinimo papildymai](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/label-printing-enhancements-warehouse-management)<br> - Daugiau informacijos, žr. [Numerio lentelės etikečių dokumentų maršrutų planavimo maketas](../warehousing/document-routing-layout-for-license-plates.md).
+- [Su sandėlio programa gaunami etiketės spausdinimo papildymai](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/label-printing-enhancements-warehouse-management)<br> - Daugiau informacijos, žr. [Numerio lentelės etikečių dokumentų maršrutų planavimo maketas](../warehousing/document-routing-layout-for-license-plates.md).
 
-- [Įgalinus išankstinio apdorojimo filtrus, į pagrindinį planavimą įeina elementai su turimomis atsargomis](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/master-planning-include-items-on-hand-when-pre-processing-filters-are-enabled)
+- [Įgalinus išankstinio apdorojimo filtrus, į pagrindinį planavimą įeina elementai su turimomis atsargomis](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/master-planning-include-items-on-hand-when-pre-processing-filters-are-enabled)
 
-- [Nauji gamybos srities duomenų objektai](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/new-data-entities-manufacturing-area)
+- [Nauji gamybos srities duomenų objektai](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/new-data-entities-manufacturing-area)
 
-- [Sandėlio procesų kokybės valdymas](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/quality-management-warehouse-processes)<br> - Dėl platesnės informacijos, žr. [Kokybės valdymas sandėlio apdorojimams](../inventory/quality-management-for-warehouses-processes.md).
+- [Sandėlio procesų kokybės valdymas](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/quality-management-warehouse-processes)<br> - Dėl platesnės informacijos, žr. [Kokybės valdymas sandėlio apdorojimams](../inventory/quality-management-for-warehouses-processes.md).
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
@@ -63,7 +61,7 @@ Norėdami gauti daugiau informacijos apie klaidų ištaisymus, įtrauktus į š�
 
 Norite sužinoti apie būsimas ir neseniai išleistas mūsų verslo programų ar platformos galimybes?
 
-Peržiūrėkite [„Dynamics 365“: 2020 m. 1-os leidimo bangos planas](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/index). Visą išsamią informaciją užfiksavome viename dokumente, kurį galite naudoti planuodami.
+Peržiūrėkite [„Dynamics 365“: 2020 m. 1-os leidimo bangos planas](/dynamics365-release-plan/2020wave1/index). Visą išsamią informaciją užfiksavome viename dokumente, kurį galite naudoti planuodami.
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>Pašalintos ir pasenusios „Supply Chain Management“ funkcijos
 
@@ -74,4 +72,7 @@ Temoje [Pašalintos arba pasenusios funkcijos „Dynamics 365 Supply Chain Manag
 
 Prieš pašalinant iš produkto bet kokią funkciją, pranešimas apie nebenaudojimą bus paskelbtas [Pašalintos arba pasenusios funkcijos „Dynamics 365 Supply Chain Management“](removed-deprecated-features-scm-updates.md) temoje 12 mėnesių prieš pašalinimą.
 
-Atlikus keitimus, kurie paveikia tik kompiliavimo laiką, bet yra dvejatainiškai suderinami su smėlio dėžės ir gamybos aplinka, nebenaudojimo laikas bus trumpesnis nei 12 mėnesių. Paprastai, tai yra funkciniai naujinimai, kuriuos reikia atlikti kompiliatoriui.
+Atlikus keitimus, kurie paveikia tik kompiliavimo laiką, bet yra dvejetainiškai suderinami su smėlio dėžės ir gamybos aplinka, nebenaudojimo laikas bus trumpesnis nei 12 mėnesių. Paprastai, tai yra funkciniai naujinimai, kuriuos reikia atlikti kompiliatoriui.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

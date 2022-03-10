@@ -1,26 +1,24 @@
 ---
 title: Automatinis siuntos išleidimas skirstant prekes
 description: Šioje temoje aprašoma prekių skirstymo strategija, leidžianti automatiškai išleisti poreikio užsakymą į sandėlį, kai pranešama, kad gamybos užsakymas pagal poreikio kiekį, yra baigtas, kad kiekis būtų perkeliamas tiesiai iš gamybos vietos į pakrovimo vietą.
-author: omulvad
-manager: tfehr
+author: Mirzaab
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSCrossDockingTemplate
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: mirzaab
 ms.search.validFrom: 2019-10-1
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: 619133cb1ef5f85222a42a08fd5fb77250c3d911
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
-ms.translationtype: HT
+ms.openlocfilehash: 1315bda1fd284eb326d4f08bf36bfea59074fde3
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5233180"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7577941"
 ---
 # <a name="auto-release-shipment-for-cross-docking"></a>Automatinis siuntos išleidimas skirstant prekes
 
@@ -163,7 +161,7 @@ Norėdami skirstyti gatavų prekių kiekį į susijusio pardavimo užsakymo pakr
 8. Puslapio **Gamybos užsakymas** veiksmų srityje, skirtuke **Gamybos užsakymas**, grupėje **Procesas**, pasirinkite **Įvertinti**, o tada pasirinkite **Gerai**. Užsakymas įvertintas, o žaliavų kiekis rezervuotas gamybai.
 9. Veiksmų srityje, esančioje skirtuke **Gamybos užsakymas**, grupėje **Procesas**, pasirinkite **Išleisti**, o tada pasirinkite **Gerai**. Žaliavoms sukuriamas paėmimo darbas.
 10. Atidarykite ir peržiūrėkite darbą. Veiksmų srityje, skirtuke **Sandėlis**, grupėje **Bendra** pasirinkite **Darbo informacija**. Pasižymėkite darbo ID.
-11. Prisijunkite prie sandėliavimo programos, kad pradėtumėte darbą sandėlyje Nr. 51.
+11. Prisijunkite prie sandėlio mobiliųjų įrenginių programėlės darbo pradžiai sandėlyje Nr. 51.
 12. Eikite į **Gamyba** \> **Gaminių paėmimas**.
 13. Įveskite darbo ID, kad pradėtumėte ir užbaigtumėte žaliavų paėmimą. 
 

@@ -2,7 +2,7 @@
 title: El. laiškų šablonų, skirtų operacijų įvykiams, kūrimas
 description: Šioje temoje aprašoma, kaip kurti, įkelti ir konfigūruoti operacijų įvykių el. laiškų šablonus „Microsoft Dynamics 365 Commerce”.
 author: bicyclingfool
-ms.date: 03/01/2021
+ms.date: 12/10/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,22 +14,139 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 55597e83a930fc7d8bcc4c0cf09abc82cb666b25
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
-ms.translationtype: HT
+ms.openlocfilehash: 4fd46ea161fb4441d94a9e7c7f7ffbfb245eb873
+ms.sourcegitcommit: 9c2bc045eafc05b39ed1a6b601ccef48bd62ec55
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792636"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7919506"
 ---
 # <a name="create-email-templates-for-transactional-events"></a>El. laiškų šablonų, skirtų operacijų įvykiams, kūrimas
 
 [!include [banner](includes/banner.md)]
 
+
 Šioje temoje aprašoma, kaip kurti, įkelti ir konfigūruoti operacijų įvykių el. laiškų šablonus „Microsoft Dynamics 365 Commerce”.
 
-## <a name="overview"></a>Peržiūra
+„Dynamics 365 Commerce“ teikia siunčiamų el. laiškų, kuriuos klientai įspėjami apie operacijų įvykius, siunčiamų siunčiamų pranešimų siuntimo nestandartinį sprendimą. Pavyzdžiui, el. laiškai gali būti siunčiami, kai užsakymas yra pateiktas, paruoštas paimti arba išsiųstas. Šioje temoje aprašomi veiksmai, skirti kurti, įkelti ir konfigūruoti el. laiškų šablonus, naudojamus siunčiant operacijų el. laiškus.
 
-„Dynamics 365 Commerce” pateikia parengtą naudoti el. laiškų siuntimo sprendimą, įspėjantį klientus apie operacijų įvykius (pvz., kai užsakymas pateiktas, paruoštas paėmimui arba išsiųstas). Šioje temoje aprašomi veiksmai, skirti kurti, įkelti ir konfigūruoti el. laiškų šablonus, naudojamus siunčiant operacijų el. laiškus.
+## <a name="notification-types"></a>Pranešimo tipai
+
+Galima konfigūruoti pranešimus, kad jie informuotų klientus el. paštu, kai užsakymo ir kliento ciklo metu įvyksta konkretūs įvykiai. Norėdami konfigūruoti pranešimus, sukurdami komercijos el. paštu siunčiamų pranešimų šabloną, turite susieti el. laiško šabloną su pranešimo tipu. Informacijos, kaip nustatyti el. paštu siunčiamų pranešimų šablonus, ieškokite [El. paštu siunčiamo pranešimo šablono nustatykite](email-notification-profiles.md).
+
+„Dynamics 365 Commerce“ palaiko šiuos pranešimų tipus.
+
+### <a name="order-created"></a>Užsakymas sukurtas
+
+Užsakymo *sukurtas pranešimo* tipas suaktyvinamas, kai „Commerce Headquarters" sukuriamas naujas pardavimo užsakymas.
+
+> [!NOTE]
+> Sukurtas užsakymo pranešimo tipas nėra suaktyvintas grynųjų pinigų ir carry operacijų, kurios įvyksta kasos aparato (EKA) terminale, atveju. Šiuo atveju generuojamas el. paštu išsiųstas ir (arba) išspausdintas kvitas. Daugiau informacijos rasite [siųsti el. paštu kvitus iš „Modern POS" (MPOS)](email-receipts.md).
+
+### <a name="order-confirmed"></a>Užsakymas patvirtintas
+
+Užsakymo *patvirtintas pranešimo* tipas suaktyvinamas, kai iš „Commerce Headquarters" sugeneruojamas pardavimo užsakymo patvirtinimo dokumentas „Commerce headquarters“.
+
+### <a name="picking-completed"></a>Paėmimas baigtas
+
+Išrinkimo *pranešimo tipas* suaktyvinamas, kai užsakymo išrinkimo dokumento „Commerce Headquarters" pažymėta kaip baigta.
+
+> [!NOTE]
+> Išrinkimo baigto pranešimo tipas nėra suaktyvintas, kai prekė pažymėta kaip paimta EKA terminale.
+
+### <a name="packing-completed"></a>Pakavimas baigtas
+
+Išrinkimo *pakavimo tipas* suaktyvinamas, kai užsakymo važtaraščio dokumentas sukuriamas „Commerce Headquarters" pažymėta EKA terminale.
+
+Baigtas pakavimo pranešimo tipas palaiko šiuos papildomus el. pašto vietos rezervavimo ženklus, kad būtų lengviau "paruošti paimti užsakymą" ir užsakymų peržvalgos funkcijos pagal operacijų el. laiškus.
+
+| Vietos rezervavimo ženklo pavadinimas    | Paskirtis |
+| ------------------- | ------- |
+| `pickupstorename`     | Parduotuvės, kurioje galima paimti užsakymą, pavadinimas. |
+| `pickupstoreaddress`  | Adresas parduotuvės, kurioje galima paimti užsakymą, pavadinimas. |
+| `pickupstorehourfrom` | Paėmimo parduotuvės atidarymo valanda. |
+| `pickupstorehourto`   | Paėmimo parduotuvės uždarymo valanda. |
+| `pickupchannelid`     | Paėmimo parduotuvės kanalo ID. |
+| `packingslipid`      | Užsakymo, kuris bus paimtas, važtaraščio ID. |
+| `confirmationid`      | Užsakymo patvirtinimo, kuris bus paimtas, važtaraščio ID. (Šis ID kartais vadinamas kanalo nuorodos ID.) |
+
+Daugiau informacijos apie kliento įregistravimo ir užsakymų peržvalgos funkcijas žr. [Nustatyti geografinio aptikimo ir nukreipimo nustatymą](geo-detection-redirection.md) ir [Įjungti užsakymo paieškos svečio išregistravimus](order-lookup-guest.md).
+
+### <a name="order-ready-for-pickup"></a>Užsakymas paruoštas atsiimti
+
+*Užsakymas, paruoštas paėmimo* pranešimo tipui, suaktyvinamas, kai užsakymas pažymėtas kaip supakuotas, o pristatymo būdas nustatytas kaip **Kliento paėmimas** vienoje ar daugiau užsakymo eilučių.
+
+> [!NOTE]
+> Paruoštas paimti užsakymo pranešimo tipas pagal pakavimo baigtą pranešimo tipą yra pasenusi. Šis pranešimo tipas tinkinimas pagal pristatymo būdą.
+
+### <a name="order-shipped"></a>Užsakymas išsiųstas
+
+*Užsakymo siuntimo* pranešimo tipas suaktyvinamas, kai išrašoma užsakymo, kuris neturi parduotuvės paėmimo rėžimo SF.
+
+> [!NOTE]
+> Paruoštas siųsti užsakymo pranešimo tipas pagal pakavimo baigtą sąskaitoje įtrauktą užsakymą tipą yra pasenusi. Šis pranešimo tipas tinkinimas pagal pristatymo būdą.
+
+### <a name="order-invoiced"></a>Užsakymo sąskaita faktūra išrašyta
+
+Užsakymo *sąskaitoje įtrauktas užsakymas* tipas suaktyvinamas, kai EKA ar „Commerce Headquarters" sukuriamas naujas pardavimo užsakymas.
+
+### <a name="issue-gift-card"></a>Išduoti dovanų kortelę
+
+Išdavimo *išduoti dovanų kortelę* pranešimo tipas suaktyvinamas, kai pardavimo užsakymas, kuriame yra dovanų kortelės tipo produktas, išrašomą SF.
+
+> [!NOTE]
+> Išdavimo dovanų kortelės pranešimo el. laiškas išsiųstas dovanų kortelės gavėjui. Dovanų kortelės gavėjas nurodytas „Commerce Headquarters", atskiros pardavimo užsakymo eilutės skirtuko **Važtaraštis** dalyje **Eilutės informacija**. Gali būti nurodyta rankiniu arba programiniu būdu.
+
+Dovanų kortelės išdavimo pranešimo tipas palaiko šiuos papildomus vietos rezervavimo ženklus.
+
+| Vietos rezervavimo ženklo pavadinimas      | Paskirtis |
+| --------------------- | ------- |
+| `giftcardnumber`        | Dovanų kortelės tipo produktų dovanų kortelės numeris. |
+| `giftcardbalance`       | Dovanų kortelės tipo produktų dovanų kortelės balansas. |
+| `giftcardmessage`       | Dovanų kortelės tipo produktų dovanų kortelės pranešimas. |
+| `giftcardpin`         | Dovanų kortelės tipo produktų dovanų kortelės asmeninis identifikavimo numeris (PIN). (Šis vietos rezervavimo ženklas būdingas išorinėms dovanų kortelėms.) |
+| `giftcardexpiration`    | Dovanų kortelės tipo produktų dovanų kortelės galiojimo data. (Šis vietos rezervavimo ženklas būdingas išorinėms dovanų kortelėms.) |
+| `giftcardrecipientname` | Dovanų kortelės tipo produktų dovanų kortelės gavėjo vardas. |
+| `giftcardbuyername`     | Dovanų kortelės tipo produktų dovanų kortelės pirkėjo vardas. |
+
+Daugiau informacijos apie dovanų korteles žr. [„E-commerce" skaitmeninių dovanų kortelių](digital-gift-cards.md) ir [Išorinių dovanų kortelių palaikymo svetainėje](dev-itpro/gift-card.md).
+
+### <a name="order-cancellation"></a>Užsakymo atšaukimas
+
+Užsakymo *užsakymo atšaukimas* tipas suaktyvinamas, kai užsakymas yra atšauktas „Commerce Headquarters".
+
+### <a name="customer-created"></a>Klientas sukurtas
+
+Užsakymo *sukurtas klientas* tipas suaktyvinamas, kai „Commerce Headquarters" sukuriamas naujas kliento objektas.
+
+### <a name="b2b-prospect-approved"></a>B2B potencialus klientas patvirtintas
+
+Pranešimo tipas *B2B potencialaus kliento* pranešimo tipas suaktyvinamas, kai potencialaus kliento parengimo užklausa patvirtinama "Commerce Headquarters". Daugiau informacijos apie tai, kaip patvirtinti arba atmesti B2B potencialius klientus, ieškokite [Naujo verslo partnerio vartotojo administratoriaus nustatykite](b2b/manage-b2b-users.md#set-up-the-administrator-user-for-a-new-business-partner). 
+
+B2B perspektyvos patvirtinimo pranešimo tipas palaiko šiuos papildomus vietos rezervavimo ženklus.
+
+| Vietos rezervavimo ženklo pavadinimas | Paskirtis                                                      |
+| ---------------- | ------------------------------------------------------------ |
+| `firstname`       | Į programą įvedamos B2B potencialaus kliento vardas. |
+| `lastname`         | Į programą įvedamos B2B potencialaus kliento pavardė. |
+| `company`          | Į programą įvedamos pareiškėjo įmonės potencialaus kliento vardas. |
+| `email`            | Į programą el. pašto adresas įvedamas potencialaus kliento pavardė.   |
+| `zipcode`          | Asmens pagrindinio adreso pašto kodas. |
+| `comments`         | Komentaras, kurį potencialus klientas įvedė į programą. |
+| `storename`        | Skalės vieneto kanalas, kuriame buvo sukurtas įrašas. |
+| `storeurl`         | Tuščia pagal numatytąjį nustatymą. Norint naudoti šį vietos rezervavimo ženklą, turi būti sukurtas pasirinktinis plėtinys. |
+
+### <a name="b2b-prospect-rejected"></a>B2B potencialus klientas atmestas
+
+Pranešimo tipas *B2B atmestas klientas* pranešimo tipas suaktyvinamas, kai potencialaus kliento parengimo užklausa patvirtinama „Commerce Headquarters". Daugiau informacijos apie tai, kaip patvirtinti arba atmesti B2B potencialius klientus, ieškokite [Naujo verslo partnerio vartotojo administratoriaus nustatykite](b2b/manage-b2b-users.md#set-up-the-administrator-user-for-a-new-business-partner). 
+
+B2B perspektyvos nepatvirtinto pranešimo tipas palaiko šiuos papildomus vietos rezervavimo ženklus.
+
+| Vietos rezervavimo ženklo pavadinimas | Paskirtis                                                      |
+| ---------------- | ------------------------------------------------------------ |
+| `firstname`        | Į programą įvedamos B2B potencialaus kliento vardas. |
+| `lastname`         | Į programą įvedamos B2B potencialaus kliento pavardė. |
+| `company`          | Į programą įvedamos pareiškėjo įmonės potencialaus kliento vardas. |
 
 ## <a name="create-an-email-template"></a>El. laiško šablono kūrimas
 
@@ -41,7 +158,7 @@ Norėdami sukurti el. pašto šabloną, atlikite toliau nurodytus veiksmus.
 1. Pasirinkite **Naujas**.
 1. Dalyje **Bendra** nustatykite tolesnius laukus.
 
-    - **El. pašto ID** – el. pašto ID yra unikalus šablono identifikatorius ir reikšmė, rodoma pasirinkus šabloną, kuris bus susietas su įvykiu.
+    - **El. laiško ID** – el. pašto ID yra unikalus šablono identifikatorius. Tai vertė, rodoma, kai pasirenkate šabloną, kurį norite susieti su įvykiu.
     - **El. pašto aprašas** – šį pasirinktinį lauką galite naudoti norėdami pateikti šablono aprašymą. Įvesta reikšmė rodoma tik „Commerce“ pagrindiniame komponente.
     - **Siuntėjo vardas** – vardas, kurį įvedate, rodomas daugelio el. pašto klientų lauke „Nuo”.
     - **Siuntėjo el. paštas** – įveskite el. pašto adresą, kuris turėtų būti naudojamas el. laiškams, siunčiamiems naudojant šį šabloną.
@@ -76,66 +193,78 @@ Toliau pateikiamas pavyzdys.
 
 Tolesni vietos rezervavimo ženklai nuskaito ir rodo duomenis, nurodytus pardavimo užsakymo lygiu (o ne pardavimo eilutės lygiu).
 
-| Vietos rezervavimo ženklo pavadinimas     | Vietos rezervavimo ženklo reikšmė                                            |
+| Vietos rezervavimo ženklo pavadinimas     | Paskirtis                                                      |
 | -------------------- | ------------------------------------------------------------ |
-| customername         | Kliento, kuris pateikė užsakymą, vardas.               |
-| salesid              | Užsakymo pardavimo ID.                                   |
-| deliveryaddress      | Išsiųstų užsakymų pristatymo adresas.                     |
-| customeraddress      | Kliento adresas.                                 |
-| kliento el. pašto adresas | El. pašto adresas, kurį klientas įvedė išsiregistruodamas.     |
-| deliverydate         | Pristatymo data.                                           |
-| shipdate             | Siuntimo data.                                               |
-| modeofdelivery       | Užsakymo pristatymo būdas.                              |
-| charges              | Bendros užsakymo išlaidos.                             |
-| tax                  | Bendra užsakymo mokesčių suma.                                 |
-| total                | Bendroji užsakymo suma.                              |
-| ordernetamount       | Bendroji užsakymo suma, atėmus bendrą mokesčių sumą.         |
-| discount             | Bendra užsakymo nuolaida.                            |
-| storename            | Parduotuvės, kurioje buvo pateiktas užsakymas, pavadinimas.            |
-| storeaddress         | Parduotuvės, pateikusios užsakymą, adresas.              |
-| storeopenfrom        | Parduotuvės, pateikusios užsakymą, atidarymo laikas.         |
-| storeopento          | Parduotuvės, pateikusios užsakymą, uždarymo laikas.         |
-| pickupstorename      | Parduotuvės, kurioje bus paimtas užsakymas, pavadinimas.     |
-| pickupstoreaddress   | Parduotuvės, kurioje bus paimtas užsakymas, adresas.  |
-| pickupopenstorefrom  | Parduotuvės, kurioje bus paimtas užsakymas, atidarymo laikas. |
-| pickupopenstoreto    | Parduotuvės, kurioje bus paimtas užsakymas, uždarymo laikas. |
+| `customername`         | Kliento, kuris pateikė užsakymą, vardas.               |
+| `customeraddress`      | Kliento adresas.                                 |
+| `customeremailaddress` | El. pašto adresas, kurį klientas įvedė išsiregistruodamas.     |
+| `salesid`              | Užsakymo pardavimo ID.                                   |
+| `orderconfirmationid`  | Kuriant užsakymą sugeneruotas kryžminio kanalo ID.   |
+| `channelid`            | Mažmeninės prekybos arba interneto kanalo, per kurį buvo pateiktas užsakymas, ID. |
+| `deliveryname`         | Pristatymo adresui nurodytas pavadinimas.         |
+| `deliveryaddress`      | Išsiųstų užsakymų pristatymo adresas.                     |
+| `deliverydate`         | Pristatymo data.                                           |
+| `shipdate`             | Siuntimo data.                                               |
+| `modeofdelivery`       | Užsakymo pristatymo būdas.                              |
+| `ordernetamount`       | Bendroji užsakymo suma, atėmus bendrą mokesčių sumą.         |
+| `discount`            | Bendra užsakymo nuolaida.                            |
+| `charges`              | Bendros užsakymo išlaidos.                             |
+| `tax`                  | Bendra užsakymo mokesčių suma.                                 |
+| `total`                | Bendroji užsakymo suma.                              |
+| `storename`            | Parduotuvės, kurioje buvo pateiktas užsakymas, pavadinimas.            |
+| `storeaddress`         | Parduotuvės, pateikusios užsakymą, adresas.              |
+| `storeopenfrom`        | Parduotuvės, pateikusios užsakymą, atidarymo laikas.         |
+| `storeopento`          | Parduotuvės, pateikusios užsakymą, uždarymo laikas.         |
+| `pickupstorename`      | Parduotuvės, kurioje bus paimtas užsakymas, pavadinimas.\*   |
+| `pickupstoreaddress`   | Parduotuvės, kurioje bus paimtas užsakymas, adresas.\* |
+| `pickupopenstorefrom`  | Parduotuvės, kurioje bus paimtas užsakymas, atidarymo laikas.\* |
+| `pickupopenstoreto`    | Parduotuvės, kurioje bus paimtas užsakymas, uždarymo laikas.\* |
+| `pickupchannelid`     | Parduotuvės kanalo ID, nurodytas pristatymo paėmimo režimui.\* |
+| `packingslipid`        | Važtaraščio, kuris buvo sugeneruotas pakuojant užsakymo eilutes, ID.\* |
+
+\*Šie vietos rezervavimo ženklai grąžina duomenis tik tada, kai jie naudojami **užsakymui paruoštame paėmimo** pranešimo tipui. 
 
 ### <a name="order-line-placeholders-sales-line-level"></a>Užsakymo eilučių vietos rezervavimo ženklai (pardavimo eilutės lygiu)
 
 Tolesni vietos rezervavimo ženklai nuskaito ir rodo atskirų produktų (eilučių) duomenis pardavimo užsakyme.
 
-| Vietos rezervavimo ženklo pavadinimas               | Vietos rezervavimo ženklo reikšmė |
+| Vietos rezervavimo ženklo pavadinimas               | Paskirtis |
 |--------------------------------|-------------------|
-| productid                      | Eilutės produkto ID. |
-| lineproductname                | Produkto pavadinimas. |
-| lineproductdescription         | Produkto aprašymas. |
-| linequantity                   | Užsakytų eilutės vienetų skaičius ir matavimo vienetas (pvz., **ea** arba **pora**). |
-| lineunit                       | Eilutės matavimo vienetas. |
-| linequantity_withoutunit       | Užsakytų eilutės vienetų skaičius be matavimo vieneto. |
-| linequantitypicked             | Kai naudojamas įvykis **PickOrder**, tai paimtų vienetų skaičius. Kitu atveju tai **0** (nulis). |
-| linequantitypicked_withoutunit | Kai naudojamas įvykis **PickOrder**, tai paimtų vienetų skaičius be matavimo vieneto. Kitu atveju tai **0** (nulis). |
-| linequantitypacked             | Kai naudojami įvykiai **PackOrder** ir **Užsakymas paruoštas paėmimui**, tai supakuotų vienetų skaičius. Kitu atveju tai **0** (nulis). |
-| linequantitypacked_withoutuom  | Kai naudojami įvykiai **PackOrder** ir **Užsakymas paruoštas paėmimui**, tai supakuotų vienetų skaičius be matavimo vieneto. Kitu atveju tai **0** (nulis). |
-| linequantityshipped            | Visada **0**, išskyrus atvejus, kai naudojami konkretūs įvykiai, kaip aprašyta tolesnėje eilutėje. |
-| linequantityshipped_withoutuom | Kai naudojamas įvykis **ShipOrder**, tai paimtų vienetų skaičius be matavimo vieneto. Kitu atveju tai **0** (nulis). |
-| lineprice                      | Atskiro vieneto kaina. |
-| linenetamount                  | Eilutės kaina po vienetų skaičiaus ir nuolaidos taikymo. |
-| linediscount                   | Nuolaida atskiram vienetui. |
-| lineshipdate                   | Eilutės siuntimo data. |
-| linedeliverydate               | Eilutės pristatymo data. |
-| linedeliverymode               | Eilutės pristatymo būdas. |
-| linedeliveryaddress            | Eilutės pristatymo adresas. |
-| giftcardnumber                 | Dovanų kortelės tipo produktų dovanų kortelės numeris. |
-| giftcardbalance                | Dovanų kortelės tipo produktų dovanų kortelės balansas. |
-| giftcardmessage                | Dovanų kortelės tipo produktų dovanų kortelės pranešimas. |
-| giftcardpin                    | Dovanų kortelės tipo produktų dovanų kortelės asmeninis identifikavimo numeris (PIN). (Šis vietos rezervavimo ženklas būdingas išorinėms dovanų kortelėms.) |
-| giftcardexpiration             | Dovanų kortelės tipo produktų dovanų kortelės galiojimo data. (Šis vietos rezervavimo ženklas būdingas išorinėms dovanų kortelėms.) |
-| giftcardrecipientname          | Dovanų kortelės tipo produktų dovanų kortelės gavėjo vardas. |
-| giftcardbuyername              | Dovanų kortelės tipo produktų dovanų kortelės pirkėjo vardas. |
+| `productid`                      | <p>Produkto ID. Šios variantų ID sąskaitos.</p><p><strong>Pastaba:</strong> šis vietos rezervavimo ženklas buvo pasenusi `lineproductrecid` už eilutėje.</p> |
+| `lineproductrecid`               | Produkto ID. Šios variantų ID sąskaitos. Ji unikaliai identifikuoja prekę varianto lygiu. |
+| `lineitemid`                     | Produkto lygio produkto ID. (Šis ID neskaičiuoja variantų.) |
+| `lineproductvariantid`           | Produkto varianto ID. |
+| `lineproductname`                | Produkto pavadinimas. |
+| `lineproductdescription`         | Produkto aprašymas. |
+| `linequantity`                   | Užsakytų eilutės vienetų skaičius ir matavimo vienetas (pvz., **ea** arba **pora**). |
+| `lineunit`                       | Eilutės matavimo vienetas. |
+| `linequantity_withoutunit`       | Užsakytų eilutės vienetų skaičius be matavimo vieneto. |
+| `linequantitypicked`             | Kai naudojamas įvykis **PickOrder**, tai paimtų vienetų skaičius. Kitu atveju tai **0** (nulis). |
+| `linequantitypicked_withoutunit` | Kai naudojamas įvykis **PickOrder**, tai paimtų vienetų skaičius be matavimo vieneto. Kitu atveju tai **0** (nulis). |
+| `linequantitypacked`             | Kai naudojami įvykiai **PackOrder** ir **Užsakymas paruoštas paėmimui**, tai supakuotų vienetų skaičius. Kitu atveju tai **0** (nulis). |
+| `linequantitypacked_withoutuom`  | Kai naudojami įvykiai **PackOrder** ir **Užsakymas paruoštas paėmimui**, tai supakuotų vienetų skaičius be matavimo vieneto. Kitu atveju tai **0** (nulis). |
+| `linequantityshipped`            | Visada **0**, išskyrus atvejus, kai naudojami konkretūs įvykiai, kaip aprašyta tolesnėje eilutėje. |
+| `linequantityshipped_withoutuom` | Kai naudojamas įvykis **ShipOrder**, tai paimtų vienetų skaičius be matavimo vieneto. Kitu atveju tai **0** (nulis). |
+| `lineprice`                      | Atskiro vieneto kaina. |
+| `linenetamount`                  | Eilutės kaina po vienetų skaičiaus ir nuolaidos taikymo. |
+| `linediscount`                   | Nuolaida atskiram vienetui. |
+| `lineshipdate`                   | Eilutės siuntimo data. |
+| `linedeliverydate`               | Eilutės pristatymo data. |
+| `linedeliverymode`               | Eilutės pristatymo būdas. |
+| `linedeliveryaddress`            | Eilutės pristatymo adresas. |
+| `linepickupdate`                 | Kliento nurodyta paėmimo data užsakymams, kurie naudoja pristatymo paėmimo režimą. |
+| `linepickuptimeslot`             | Kliento nurodytas paėmimo laikas užsakymams, kurie naudoja pristatymo paėmimo režimą. |
+| `giftcardnumber`                 | Dovanų kortelės tipo produktų dovanų kortelės numeris. |
+| `giftcardbalance`                | Dovanų kortelės tipo produktų dovanų kortelės balansas. |
+| `giftcardmessage`                | Dovanų kortelės tipo produktų dovanų kortelės pranešimas. |
+| `giftcardpin`                    | Dovanų kortelės PIN produktų dovanų kortelės balansas. (Šis vietos rezervavimo ženklas būdingas išorinėms dovanų kortelėms.) |
+| `giftcardexpiration`             | Dovanų kortelės tipo produktų dovanų kortelės galiojimo data. (Šis vietos rezervavimo ženklas būdingas išorinėms dovanų kortelėms.) |
+| `giftcardrecipientname`          | Dovanų kortelės tipo produktų dovanų kortelės gavėjo vardas. |
+| `giftcardbuyername`              | Dovanų kortelės tipo produktų dovanų kortelės pirkėjo vardas. |
 
 ### <a name="format-of-order-line-placeholders-in-the-email-message-body"></a>Užsakymo eilučių vietos rezervavimo ženklų formatas el. laiško tekste
 
-Kurdami atskirų užsakymo eilučių el. laiško tekste HTML, apsupkite pasikartojantį HTML bloką ir eilučių vietos rezervavimo ženklus tolesniais vietos rezervavimo ženklais, pateikiamais HTML komentarų žymėse.
+Kurdami atskirų užsakymo eilučių el. laiško tekste HTML, apsupkite pasikartojantį HTML bloką ir eilučių vietos rezervavimo ženklus tolesniais vietos rezervavimo ženklais, pateikiamais HTML komentarų žymėse. Atkreipkite dėmesį, kad vietos rezervavimo ženklai yra HTML komentarų žymių viduje.
 
 ```html
 <!--%tablebegin.salesline%-->
@@ -168,7 +297,7 @@ Toliau pateikiamas pavyzdys.
 
 Kvitus galima siųsti el. paštu klientams, perkantiems mažmeninės prekybos elektroniniame kasos aparate (EKA). Paprastai veiksmai, skirti el. paštu siunčiamų kvitų šablonui kurti, yra tokie patys kaip veiksmai, skirti kitų operacijų įvykių šablonams kurti. Tačiau būtini tolesni keitimai.
 
-- Kvito tekstas įterpiamas į el. laišką naudojant rezervavimo ženklą **%message%**. Kad užtikrintumėte, jog kvito tekstas tinkamai atvaizduotas, apsupkite **%message%** rezervavimo ženklą HTML žymėmis **&lt;pre&gt;** ir **&lt;/pre&gt;**.
+- **%message%** tarpas yra naudojamas įteprti tekstą į gavėjo į el. laišką. Kad užtikrintumėte, jog kvito tekstas tinkamai atvaizduotas, apsupkite **%message%** rezervavimo ženklą HTML žymėmis **&lt;pre&gt;** ir **&lt;/pre&gt;**.
 - Rezervavimo ženklą **%receiptid%** galima naudoti QR kodui arba brūkšniniam kodui, nurodančiam gavimo ID, rodyti. (QR kodus ir brūkšninius kodus dinamiškai generuoja ir pristato trečiosios šalies tarnyba.) Norėdami gauti daugiau informacijos apie tai, kaip rodyti QR kodą arba brūkšninį kodą el. paštu siunčiamame kvite, žr. skyrių [QR kodo arba brūkšninio kodo pridėjimas prie sandorių ir gavimo el. laiškų](add-qr-code-barcode-email.md).
 
 ## <a name="upload-the-email-html"></a>El. laiško HTML nusiuntimas
@@ -195,7 +324,7 @@ Daugiau informacijos apie tai, kaip konfigūruoti el. laiškus „Dynamics 365 C
 
 [El. pašto konfigūravimas ir siuntimas](../fin-ops-core/fin-ops/organization-administration/configure-email.md)
 
-[El. paštu siunčiamų kvitų nustatymas](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-email-receipts)
+[El. paštu siunčiamų kvitų nustatymas](/dynamicsax-2012/appuser-itpro/set-up-email-receipts)
 
 [Kvitų iš „Modern POS“ siuntimas el. paštu](email-receipts.md)
 

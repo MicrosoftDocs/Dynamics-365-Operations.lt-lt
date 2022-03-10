@@ -1,12 +1,10 @@
 ---
 title: „Power BI“ turinys Gamybos našumas
-description: Šioje temoje aprašoma, kas įtraukta į „Power BI“ turinį Gamybos našumas. Jame paaiškinta, kaip pasiekti „Power BI“ ataskaitas, ir pateikta informacija apie duomenų modelį ir objektus, naudojamus turinio paketui kurti.
+description: Šioje temoje aprašoma, kas įtraukta į „Power BI“ turinį Gamybos našumas.
 author: AndersGirke
-manager: AnnBe
 ms.date: 12/19/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ProductionPerformancePowerBI
 audience: Application User, IT Pro
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 661617ea7e51ac5cacdd5a08ee52f6a6e43b44be
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
-ms.translationtype: HT
+ms.openlocfilehash: 940e49b43ec1dba0917c67ad6ef4562351d175bcb1c0be7f98d00e73371e5346
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4686691"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6761421"
 ---
 # <a name="production-performance-power-bi-content"></a>„Power BI“ turinys Gamybos našumas
 
@@ -51,7 +49,7 @@ Toliau pateikiamoje lentelėje apžvelgiamos įtrauktos vizualizacijos.
 
 | Ataskaitų puslapis                                | Diagramos | Išklotinės |
 |--------------------------------------------|--------|-------|
-| Gamybos našumas                     | <ul><li>Gamybos atvejų skaičius pagal datą</li><li>Gamybos atvejų skaičius pagal produktą ir prekių grupę</li><li>Suplanuotų gamybos atvejų skaičius pagal datą</li><li>Apatiniai 10 produktų pagal įvykdymą laiku ir visa apimtimi</li></ul> | <ul><li>Iš viso užsakymų</li><li>Įvykdyta laiku ir visa apimtimi (%)</li><li>Nebaigta (%)</li><li>Anksčiau termino (%)</li><li>Vėluoja (%)</li></ul> |
+| Gamybos našumas                     | <ul><li>Gamybos atvejų skaičius pagal datą</li><li>Gamybos atvejų skaičius pagal produktą ir prekių grupę</li><li>Suplanuotų gamybos atvejų skaičius pagal datą</li><li>Apatiniai 10 produktų pagal įvykdymą laiku&amp; ir visa apimtimi</li></ul> | <ul><li>Iš viso užsakymų</li><li>Įvykdyta laiku&amp; ir visa apimtimi (%)</li><li>Nebaigta (%)</li><li>Anksčiau termino (%)</li><li>Vėluoja (%)</li></ul> |
 | Defektai pagal produktą                         | <ul><li>Defektų dažnis (ppm) pagal datą</li><li>Defektų dažnis (ppm) pagal produktą ir prekių grupę</li><li>Pagamintas kiekis pagal datą</li><li>Viršutiniai 10 produktų pagal defektų dažnį</li></ul> | <ul><li>Defektų dažnis (ppm)</li><li>Defektų kiekis</li><li>Bendras kiekis</li></ul> |
 | Defektų tendencija pagal produktą                   | Defektų dažnis (ppm) pagal pagamintą kiekį | Defektų dažnis (ppm) |
 | Defektai pagal išteklių                        | <ul><li>Defektų dažnis (ppm) pagal datą</li><li>Defektų dažnis (ppm) pagal išteklių ir teritoriją</li><li>Defektų dažnis (ppm) pagal operaciją</li><li>Viršutiniai 10 išteklių pagal defektų dažnį</li></ul> | Defektų kiekis |
@@ -128,3 +126,6 @@ Tolesnėje lentelėje parodytos pagrindinės dimensijos, naudojamos kaip filtrai
 | Objektai                  | ID ir pavadinimas                                                   |
 | Ištekliai                 | Ištekliaus ID, ištekliaus pavadinimas, ištekliaus tipas ir išteklių grupė |
 | Produktai                  | Produkto numeris, produkto pavadinimas, prekės ID ir prekių grupė         |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

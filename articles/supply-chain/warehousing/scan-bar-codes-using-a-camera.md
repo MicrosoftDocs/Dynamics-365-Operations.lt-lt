@@ -1,7 +1,7 @@
 ---
 title: Brūkšninių kodų nuskaitymas sandėlio valdymo mobiliųjų įrenginių programėle naudojant kamerą
 description: Šioje temoje paaiškinama, kaip nustatyti sandėlio valdymo mobiliųjų įrenginių programėlę brūkšninių kodų nuskaitymui naudojant mobiliojo įrenginio kamerą.
-author: MarkusFogelberg
+author: Mirzaab
 ms.date: 01/03/2018
 ms.topic: article
 ms.prod: ''
@@ -11,15 +11,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.custom: 269384
 ms.search.region: Global
-ms.author: mafoge
+ms.author: mirzaab
 ms.search.validFrom: 2017-01-03
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 2f61f9c45b95b730a7f1743963658ec00abfbb56
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
-ms.translationtype: HT
+ms.openlocfilehash: cc58d88865fea17e0e27463b25e2ba815ee1a5b1
+ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5831223"
+ms.lasthandoff: 12/09/2021
+ms.locfileid: "7901977"
 ---
 # <a name="scan-bar-codes-using-a-camera-in-the-warehouse-management-mobile-app"></a>Brūkšninių kodų nuskaitymas sandėlio valdymo mobiliųjų įrenginių programėle naudojant kamerą
 

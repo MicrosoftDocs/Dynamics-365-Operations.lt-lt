@@ -1,12 +1,10 @@
 ---
-title: Mašininio mokymo modelių rezultatai (peržiūros versija)
+title: Mašininio mokymo modelių rezultatai
 description: Šioje temoje aptariamos supainiojimo matricos, klasifikavimo problemos ir mašininio mokymo (ML) modelių tikslumas. Siekiama, kad geriau suprastumėte ML prognozavimo rezultatų tikslumą.
 author: ShivamPandey-msft
-manager: AnnBe
-ms.date: 06/05/2020
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,17 +15,16 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-14
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 5223bdfbc0f5828b5dccac30362783075ce8157f
-ms.sourcegitcommit: f59df61799915f6a79aec7e3e8664c02df6597da
-ms.translationtype: HT
+ms.openlocfilehash: 2545f7d043e139606c51bc559e3aacbe73abccfc
+ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "5044377"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "7386642"
 ---
-# <a name="results-of-machine-learning-models-preview"></a>Mašininio mokymo modelių rezultatai (peržiūros versija)
+# <a name="results-of-machine-learning-models"></a>Mašininio mokymo modelių rezultatai
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Šioje temoje aptariamos supainiojimo matricos, klasifikavimo problemos ir mašininio mokymo (ML) modelių tikslumas. Siekiama, kad geriau suprastumėte ML prognozavimo rezultatų tikslumą. Tikslinė auditorija apima inžinierius, analitikus ir vadovus, kurie nori plėtoti savo žinias ir įgūdžius duomenų mokslo srityje.
 
@@ -36,7 +33,7 @@ Kai prižiūrimos ML problemos išmokoma naudojant istorinių duomenų rinkinį,
 
 Pavyzdžiui, jūsų tikslas yra nuspėti, ar augintinis yra šuo, ar katė, remiantis tam tikrais fiziniais bei elgesio atributais. Jei naudojamas bandomasis duomenų rinkinys, kuriame yra 30 šunų ir 20 kačių, supainiojimo matrica gali būti panaši į šį paveikslėlį.
 
-![Rūšių prognozavimo pavyzdys](media/species-prediction-matrix.png)
+![Rūšių prognozavimo pavyzdys.](media/species-prediction-matrix.png)
 
 Žalių langelių skaičiai atitinka teisingas prognozes. Kaip matote, modelis teisingai prognozuoja didesnę faktinių kačių procentinę dalį. Bendrą modelio tikslumą yra lengva apskaičiuoti. Šiuo atveju: 42 ÷ 50 arba 0,84.
 
@@ -46,7 +43,7 @@ Dauguma diskusijų apie supainiojimo matricą yra sutelktos į dvejetainius klas
 
 Toliau apsvarstysime finansinės situacijos klasifikavimo problemą, apimančią tris būsenas. Modelis prognozuoja, ar kliento SF bus sumokėta laiku, pavėluotai ar labai pavėluotai. Pavyzdžiui, iš 100 bandomųjų SF 50 yra apmokamos laiku, 35 apmokamos pavėluotai, o 15 – labai pavėluotai. Šiuo atveju modelis gali sukurti supainiojimo matricą, kuri panaši į šį paveikslėlį.
 
-![1 modelis](media/payment-prediction-matrix.png)]
+![1 modelis.](media/payment-prediction-matrix.png)]
 
 Supainiojimo matrica suteikia daug daugiau informacijos, nei paprasta tikslumo metrika. Tačiau ją vis tiek gana lengva suprasti. Supainiojimo matrica nurodo, ar turite subalansuotą duomenų rinkinį, kai pateikiamų klasių skaičiai yra panašūs. Naudojant kelių klasių scenarijų, ji nurodo, kaip toli nuo prognozės ji gali būti, kai pateikiamos klasės yra kelintiniai skaičiai, kaip ankstesniame pavyzdyje apie kliento mokėjimus.
 
@@ -57,7 +54,7 @@ Kadangi tikslumas yra paprasta suprasti metrika, jis yra geras pradžios taškas
 
 Tačiau, siekiant geresnio supratimo, reikia atkreipti dėmesį į keletą su tikslumu susijusių iššūkių. Metrikos naudingumas priklauso nuo problemos konteksto. Dažnai dėl modelio našumo kyla klausimas „Kiek geras modelis yra?“ Tačiau atsakymas į šį klausimą ne visada yra paprastas. Apsvarstykite tolesnę supainiojimo matricą (2 modelis).
 
-![Apmokėjimo prognozės pavyzdys su didesne imtimi](media/payment-prediction-matrix-2.png)
+![Apmokėjimo prognozės pavyzdys su didesne imtimi.](media/payment-prediction-matrix-2.png)
 
 Greitai suskaičiavus matoma, kad šio modelio tikslumas yra (70 + 10 + 3) ÷ 100 arba 0,83. Iš pirmo žvilgsnio šis rezultatas atrodo geresnis nei ankstesnio kelių klasių modelio (1 modelis) rezultatas, kurio tikslumas buvo 0,73. Tačiau ar jis yra geresnis?
 
@@ -65,8 +62,8 @@ Norėdami pradėti spręsti šį klausimą, atsižvelkite į paprasto spėjimo t
 
 Verta pažymėti dar vieną aspektą. Įsivaizduokite situaciją, kai paciento liga nustatoma atliekant medicininį tyrimą. Ši problema yra dvejetainio klasifikavimo problema, kai teigiamas rezultatas rodo, kad pacientas serga liga. Šioje situacijoje turite pagalvoti apie tolesnių klaidų poveikį.
 
-- Klaidingai teigiami rezultatai, kai tyrimu nustatoma, kad pacientas serga liga, bet iš tikrųjų jis neserga
-- Klaidingai neigiami rezultatai, kai tyrimu nustatoma, kad pacientas neserga liga, bet iš tikrųjų jis serga
+- Klaidingai teigiami rezultatai, kai tyrimu nustatoma, kad pacientas serga liga, bet iš tikrųjų jis neserga.
+- Klaidingai neigiami rezultatai, kai tyrimu nustatoma, kad pacientas neserga liga, bet iš tikrųjų pacientas serga.
 
 Akivaizdu, kad abu klaidų tipai yra nepageidautini, tačiau kuris iš jų yra blogesnis? Tai vėl priklauso nuo aplinkybių. Tuo atveju, kad liga yra pavojinga gyvybei ir ją reikia greitai gydyti, svarbiau yra sumažinti klaidinga neigiamų rezultatų skaičių (tada geriausia atlikti papildomų tyrimų). Kitose mažiau svarbiose situacijose modelių kūrėjai gali sumažinti klaidingai teigiamų rezultatų skaičių. Bet kokiu atveju galima daryti pagrįstą išvadą, kad, norint veiksmingai nustatyti modelio kokybę, reikia daugiau informacijos nei pateikia tikslumo metrika.
 
@@ -89,7 +86,7 @@ Galiausiai šioje temoje panagrinėsime pažangesnę klasifikavimo ML našumo pr
 
 Kad būtų galima apibrėžti F1 tikslumą, reikia įvesti dvi papildomas metrikas: tikslumo ir atitikties. Tikslumas nurodo, kiek visų prognozių, kurios nurodytos kaip teigiamos, yra tinkamai priskirta. Ši metrika taip pat vadinama teigiama prognozavimo reikšme. Atitiktis yra bendrasis faktinių teigiamų atvejų skaičius, kuris buvo teisingas nuspėtas. Ši metrika taip pat vadinama jautrumu.
 
-[![Teisingi rezultatai, palyginti su klaidingais rezultatais](./media/tn-fn.png)](./media/tn-fn.png)
+[![Teisingi rezultatai, palyginti su klaidingais rezultatais.](./media/tn-fn.png)](./media/tn-fn.png)
 
 Pirmesnėje iliustracijoje pateiktoje supainiojimo matricoje ši metrika apskaičiuojamos taip:
 
@@ -102,7 +99,7 @@ F1 priemonė sujungia tikslumą ir atitiktį. Rezultatas yra dviejų reikšmių 
 
 Pažvelkime į konkretų pavyzdį. Anksčiau šioje temoje buvo pateiktas modelio pavyzdys, kuris prognozavo, ar gyvūnas buvo šuo, ar katė. Iliustracija pakartojama čia.
 
-[![Rūšių spėjimo pavyzdys (pakartotinas)](./media/species-prediction-matrix.png)](./media/species-prediction-matrix.png)
+[![Rūšių spėjimo pavyzdys (pakartotinas).](./media/species-prediction-matrix.png)](./media/species-prediction-matrix.png)
 
 Toliau pateikiami rezultatai, jei kaip teigiamas atsakymas naudojamas „Šuo“.
 
@@ -116,9 +113,9 @@ Nors F1 tikslumą nėra taip lengva suprasti, jis pagrindinį tikslumo skaičių
 
 Šios temos skyriuje [Modelio tikslumas](#model-accuracy) buvo palygintos tolesnės dvi supainiojimo matricos. Nepaisant to, kad pirmo modelio tikslumas buvo mažesnis, jis buvo laikomas naudingesniu, nes jis pasirodė esantis tobulesnis už numatytąjį spėjimą dėl vienkartinio mokėjimo.
 
-![Apmokėjimo prognozavimas, palyginti su faktiniais duomenimis (pavyzdys)](media/payment-prediction-matrix.png)
+![Apmokėjimo prognozavimas, palyginti su faktiniais duomenimis (pavyzdys).](media/payment-prediction-matrix.png)
 
-![Mokėjimo spėjimo pavyzdys su didesniu pavyzdžiu (pakartotinas)](media/payment-prediction-matrix-2.png)
+![Mokėjimo spėjimo pavyzdys su didesniu pavyzdžiu (pakartotinas).](media/payment-prediction-matrix-2.png)
 
 Pažiūrėkime, kaip šie du modeliai atrodo, kai naudojamas F1 balas. Į F1 balą įskaičiuojamas kiekvienos būsenos tikslumas ir atitiktis, o F1 makroskaičiavimais tada nustatomas vidutinis visų būsenų F1 balas, kad būtų galima nustatyti bendrąjį F1 balą. Yra ir kitų F1 variantų, tačiau naudingiau panagrinėti makroversiją, atsižvelgiant į vienodą visų trijų būsenų nagrinėjimą.
 
@@ -131,7 +128,7 @@ Norint supaprastinti skaičiavimus, buvo sukurti imčių masyvai, kad būtų sug
 
 Kad galėtumėte daugiau sužinoti apie tai, kaip šis skaičiavimas veikia, toliau pateikiama 1 modelio sklearn.metrics klasifikacijos ataskaita. Tris būsenas „Laiku“, „Vėluoja“ ir „Labai vėluoja“ atitinka eilutės, atitinkamai pažymėtos 1, 2 ir 3. Makrovidurkis yra tik stulpelio „F1-score“ vidurkis.
 
-|           | tikslumas | atitiktis   | f1-score |
+| &nbsp;    | tikslumas | atitiktis   | f1-score |
 |-----------|-----------|----------|----------|
 | **1**     | 0.83      | 0.80     | 0.82     |
 | **2**     | 0.68      | 0.71     | 0.69     |
@@ -139,5 +136,4 @@ Kad galėtumėte daugiau sužinoti apie tai, kaip šis skaičiavimas veikia, tol
 
 Kaip rodo šie rezultatai, šių dviejų modelių F1 makrotikslumo balai yra beveik vienodi. Šiuo ir daugeliu kitų atvejų F1 tikslumas yra geresnis modelio pajėgumo rodiklis. Tikslumo atžvilgiu, interpretuojant rezultatus reikia suprasti, ką svarbiausia nagrinėti modelyje.
 
-#### <a name="privacy-notice"></a>Privatumo pranešimas
-Peržiūros versijos (1) gali naudoti mažiau privatumo ir mažiau saugos priemonių nei „Dynamics 365 Finance and Operations“ paslauga, (2) jos nėra įtrauktos į aptarnavimo lygio sutartį (SLA), (3) jos neturėtų būti naudojamos apdoroti asmens duomenims ar kitiems duomenims, kuriems taikomi teisiniai ir atitikimo teisės aktai (4) ir jų palaikymas yra ribotas.
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

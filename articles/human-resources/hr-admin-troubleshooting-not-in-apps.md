@@ -1,32 +1,34 @@
 ---
 title: „Human Resources“ nėra „Microsoft Dynamics 365“ programose
-description: Šiame straipsnyje aiškinama, ką daryti, jei klientas nemato programos „Dynamics 365 Human Resources“ tarp „Microsoft Dynamics 365“ programų.
-author: andreabichsel
-manager: AnnBe
-ms.date: 02/03/2020
+description: Šioje temoje paaiškinama, ką daryti, „Microsoft Dynamics 365 Human Resources“, jei nėra įtraukta į sąrašą iš „Microsoft Dynamics 365“ programėlių.
+author: twheeloc
+ms.date: 08/19/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: cbf47b4673e1c97965bba7728e5669b7639c4d56
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 4bdbe6c4065a8266fd30a3b093743ded91524f6a
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419698"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069685"
 ---
-# <a name="human-resources-doesnt-appear-in-microsoft-dynamics-365-apps"></a>„Human Resources“ nėra „Microsoft Dynamics 365“ programose
+# <a name="human-resources-app-doesnt-appear-in-microsoft-dynamics-365-apps"></a>„Human Resources“ progrmaos nėra „Microsoft Dynamics 365“ programose
 
-**Išduoti**
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+**Problema**
 
 Klientas nematys „Dynamics 365 Human Resources“ tarp „Microsoft Dynamics 365“ programų.
 
@@ -40,11 +42,11 @@ Vartotojas turi būti įtrauktas į „Microsoft Power Apps“ aplinkai skirtą 
 
 3. Skirtuke **Sauga**, pateikiamame skirtuke **Aplinkos vaidmenys**, pasirinkite **Aplinkos kūrėjas**.
 
-    ![Skirtukas Aplinkos vaidmenys](media/environment-roles.png)
+    ![Skirtukas Aplinkos vaidmenys.](media/environment-roles.png)
 
 4. Skirtuke **Vartotojai** įtraukite vartotoją arba savo organizaciją.
 
-    ![Skirtukas Vartotojai](media/environment-maker.png)
+    ![Skirtukas Vartotojai.](media/environment-maker.png)
 
 5. Pasirinkite **Įrašyti**.
 
@@ -52,6 +54,9 @@ Vartotojas turi būti įtrauktas į „Microsoft Power Apps“ aplinkai skirtą 
 
 7. Pasirinkite **Sinchronizuoti**, kad atnaujintumėte vartotojo programas.
 
-    ![Sinchronizavimo mygtukas](media/get-more.png)
+    ![Sinchronizavimo mygtukas.](media/get-more.png)
 
     Baigus sinchronizuoti, „Human Resources“ bus rodoma pagrindiniame puslapyje.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

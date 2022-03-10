@@ -1,12 +1,10 @@
 ---
 title: Sprendimo priemonės strategija produktams konfigūruoti
 description: Šioje temoje aprašoma, kaip, naudodami sprendimo priemonės strategiją, galite pagerinti produktų konfigūravimo našumą.
-author: cvocph
-manager: tfehr
+author: t-benebo
 ms.date: 02/19/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PCCreateProductConfigurationModel, PCProductConfigurationModelListPage
 audience: Application User
@@ -15,15 +13,15 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: ''
-ms.author: kamaybac
+ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f79211f9a557813f0030a11002dc0ed2015ce258
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.openlocfilehash: 37e8f2c9557ee6fc827d60ca6dc83cd638b6378a
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4983260"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7565709"
 ---
 # <a name="solver-strategy-for-product-configuration"></a>Sprendimo priemonės strategija produktams konfigūruoti
 
@@ -52,7 +50,7 @@ Realaus klientų įgyvendinimo tyrimai parodė, kad, pakeitus produkto konfigūr
 
 Norėdami keisti sprendimo priemonės strategiją, puslapio **Produktų konfigūracijos modeliai** veiksmų srityje pasirinkite **Modelių ypatybės**. Tada dialogo lange **Redaguoti modelių informaciją** pasirinkite sprendimo priemonės strategiją.
 
-[![Sprendimo priemonės strategijos keitimas](./media/solver-strategy.png)](./media/solver-strategy.png)
+[![Sprendimo priemonės strategijos keitimas.](./media/solver-strategy.png)](./media/solver-strategy.png)
 
 Šiuo metu nėra jokios logikos, kuri automatiškai aptiktų, kuri sprendimo priemonės strategija bus efektyviausia produktų konfigūracijai pagal apribojimus. Todėl sprendimo priemonės strategijas turite išbandyti po vieną.
 
@@ -72,3 +70,6 @@ Tolesnėje lentelėje pateikiama rekomendacijų apie tai, kurią sprendimo priem
 [Euristika](https://techterms.com/definition/heuristic)
 
 [Apribojimų patenkinimo problema](http://aima.cs.berkeley.edu/2nd-ed/newchap05.pdf)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

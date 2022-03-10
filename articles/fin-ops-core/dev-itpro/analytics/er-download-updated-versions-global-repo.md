@@ -2,7 +2,6 @@
 title: Atnaujintų ER konfigūracijų versijų naujinimas
 description: Šioje temoje paaiškinama, kaip importuoti elektroninių ataskaitų (ER) konfigūracijų atnaujintas versijas iš konfigūravimo tarnybos bendrosios saugyklos.
 author: NickSelin
-manager: AnnBe
 ms.date: 06/09/2020
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 0c65315c4fa6a42b4bbb0d008b58f8df9cc0ea3d
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
-ms.translationtype: HT
+ms.openlocfilehash: 712bccbd48775cadc069ef5e8a04f9aae3c9f223137bcd394ff1815a720393b5
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5561883"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6734893"
 ---
 # <a name="import-updated-versions-of-er-configurations"></a>Atnaujintų ER konfigūracijų versijų naujinimas
 
@@ -29,7 +28,7 @@ ms.locfileid: "5561883"
 
 Elektroninių ataskaitų (ER) [saugyklos ](general-electronic-reporting.md#Repository) naudojamos norint bendrinti [ER konfigūracijas](general-electronic-reporting.md#Configuration). Galite [importuoti](download-electronic-reporting-configuration-lcs.md) ER konfigūracijas iš skirtingų saugyklų į jūsų „Microsoft Dynamics 365 Finance” programą. Importuojant ER konfigūracijas, [konfigūracijos teikėjai](general-electronic-reporting.md#Provider) gali publikuoti naujas [versijų](general-electronic-reporting.md#component-versioning) saugyklas, kad jas būtų galima bendrinti.
 
-Šioje temoje paaiškinama, kaip importuoti ER konfigūracijų atnaujintas versijas iš konfigūravimo tarnybos bendrosios saugyklos. Norėdami gauti daugiau informacijos, žr. [„Microsoft Dynamics 365 for Finance and Operations“ – „Regulatory Services“, konfigūravimo tarnybą](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration).
+Šioje temoje paaiškinama, kaip importuoti ER konfigūracijų atnaujintas versijas iš konfigūravimo tarnybos bendrosios saugyklos. Norėdami gauti daugiau informacijos, žr. [„Microsoft Dynamics 365 for Finance and Operations“ – „Regulatory Services“, konfigūravimo tarnybą](/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration).
 
 ## <a name="review-the-available-updated-versions"></a>Galimų atnaujintų versijų peržiūra
 
@@ -42,11 +41,11 @@ Elektroninių ataskaitų (ER) [saugyklos ](general-electronic-reporting.md#Repos
 2. Eikite į **Organizacijos administravimas** \> **Darbo sritys** \> **Elektroninės ataskaitos**.
 3. **Lokalizavimo konfigūracijos** puslapyje **Susiję saitai** skyriuje pasirinkite **Importuoti konfigūracijų versijų naujinimus**.
 
-    ![Lokalizavimo konfigūravimo puslapis](./media/er-download-updated-versions-global-repo1.png)
+    ![Lokalizavimo konfigūravimo puslapis.](./media/er-download-updated-versions-global-repo1.png)
 
 4. Dialogo lange **Importuoti elektroninių ataskaitų konfigūracijos versijų naujinimus** **Leidimo režimas** pasirinkite **Rodyti tik galimus naujinimus**. Tada pasirinkite **Gerai**. 
 
-    ![Vykdymo režimo laukas nustatytas į „Rodyti tik galimus naujinimus”](./media/er-download-updated-versions-global-repo2.png)
+    ![Vykdymo režimo laukas nustatytas į „Rodyti tik galimus naujinimus”.](./media/er-download-updated-versions-global-repo2.png)
 
 5. Peržiūrėti gaunamus pranešimus. Šiuose pranešimuose pateikiama toliau nurodyta informacija apie ER konfigūracijas dabartinėje „Finance” programoje ir kuo jos panašios į bendros saugyklos turinį:
 
@@ -73,14 +72,14 @@ Elektroninių ataskaitų (ER) [saugyklos ](general-electronic-reporting.md#Repos
 4. Dialogo lange **Importuoti elektroninių ataskaitų konfigūracijos versijų naujinimus** **Vykdymo režimas** pasirinkite **Importuoti naujausius naujinimus**, kad būtų importuotos naujausios ER konfigūracijos iš Bendrosios saugyklos į dabartinę „Finance” programą.
 5. Norėdami suplanuoti, kad būtų importuojama paketinė užduotis, **Paleisti fone** „FastTab” skirtuke nustatykite **Paketo apdorojimas** pasirinktį į **Taip**. Jei norite periodiškai kartoti importavimą, konfigūruokite reikiamą pasikartojimą.
 
-    ![Vykdymo režimo laukas nustatytas į „Importuoti naujausius naujinimus”](./media/er-download-updated-versions-global-repo5.png)
+    ![Vykdymo režimo laukas nustatytas į „Importuoti naujausius naujinimus”.](./media/er-download-updated-versions-global-repo5.png)
 
 6. Pasirinkite **Gerai**.
 7. Norėdami sužinoti, kokios konfigūracijų versijos importuotos, atlikite vieną iš šių veiksmų:
 
     - Jei importuosite interaktyviai, o ne naudodami paketinę užduotį, peržiūrėkite gaunamų pranešimų informaciją.
 
-        ![Pranešimai, gaunami interaktyviojo importavimo vykdymo metu](./media/er-download-updated-versions-global-repo6.png)
+        ![Pranešimai, gaunami interaktyviojo importavimo vykdymo metu.](./media/er-download-updated-versions-global-repo6.png)
 
     - Jei paleidote importavimą paketo režimu, atlikite šiuos veiksmus:
 
@@ -88,7 +87,7 @@ Elektroninių ataskaitų (ER) [saugyklos ](general-electronic-reporting.md#Repos
         2. Ieškokite ir pasirinkite **Importuoti elektroninės ataskaitos konfigūracijų versijos naujinimus** užduotį, o tada Veiksmų srityje **Paketinė užduotis** skirtuke pasirinkite **Paketinės užduoties istorija**, kad peržiūrėtumėte užduoties istoriją.
         3. **Paketinės užduoties istorija** puslapyje pasirinkite **Žurnalas**. Tada gautame pranešime pasirinkite **Pranešimų išsami informacija** saitą, kad peržiūrėtumėte užduoties žurnalą.
 
-        ![Užduoties žurnalas](./media/er-download-updated-versions-global-repo7.png)
+        ![Užduoties žurnalas.](./media/er-download-updated-versions-global-repo7.png)
 
 > [!IMPORTANT]
 > Nerekomenduojame, kad suplanuotumėte pasikartojančią paketinę užduotį, kad importuotumėte atnaujintas ER konfigūracijos versijas tiesiogiai iš Bendrosios saugyklos į gamybos aplinką, nes importuotas versijas bus galima iš karto naudoti. Užuot tai naudoję, naudokite šį metodą diegti ER konfigūracijų versijas į smėlio dėžės aplinką. Tada jos gali būti vertinamos smėlio dėžės aplinkoje prieš jas įdiegiant gamybos aplinkoje.

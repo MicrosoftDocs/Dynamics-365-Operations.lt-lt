@@ -1,8 +1,8 @@
 ---
 title: Nustatyti priežasčių kodus
 description: „Dynamics 365 Human Resources“ naudojami priežasčių kodus, siekiant paaiškinti, kodėl keičiasi darbuotojo išmokos.
-author: andreabichsel
-ms.date: 01/25/2021
+author: twheeloc
+ms.date: 08/25/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,24 +12,27 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: bd7c5a35a6d4b40eb376eee2580af681f7bfd7f8f93aab8aad67f238fc40470b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: a30a59a648d54eda771845b8bee52df43987d3d1
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6732686"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8068289"
 ---
 # <a name="set-up-reason-codes"></a>Nustatyti priežasčių kodus
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 „Dynamics 365 Human Resources“ naudojami priežasčių kodus, siekiant paaiškinti, kodėl keičiasi darbuotojo išmokos.
 
 > [!NOTE]
-> Nuo 2021 m. sausio mėnesio priežasties kodai yra perkeliami į **Personalo valdymo** darbo sritį, o ne **Išmokų valdymo** darbo sritį. Dėl daugiau informacijos, žr. [Rankiniu būdu perkelti priežasties kodus į personalo valdymą](hr-benefits-setup-reason-codes.md#manually-migrate-reason-codes-to-personnel-management).
+> Nuo 2021 m. sausio mėnesio priežasties kodai yra perkelti į **Personalo valdymo** darbo sritį, o ne **Išmokų valdymo** darbo sritį. Dėl daugiau informacijos, žr. [Rankiniu būdu perkelti priežasties kodus į personalo valdymą](hr-benefits-setup-reason-codes.md#manually-migrate-reason-codes-to-personnel-management).
 
 ## <a name="create-reason-codes"></a>Priežasčių kodų kūrimas
 
@@ -44,13 +47,13 @@ ms.locfileid: "6732686"
    | **Tikslinės paskirties šifras** | Unikalus pavadinimas, skirtas nustatyti priežastį, dėl kurios darbuotojas galėtų keisti išmokų plano registraciją. |
    | **Aprašas** | Priežasties kodo aprašas. |
 
-4. Skyriuje **Taikomi scenarijai**, nustatykite **Išmokų valdymas** į **Taip**. (Netaikoma, jei jūsų priežasties kodai dar nebuvo perkelti į **Personalo valdymo** dardbo sritį.)
+4. Skyriuje **Taikomi scenarijai**, nustatykite **Išmokų valdymas** į **Taip**. (Netaikoma, jei jūsų priežasties kodai dar nebuvo perkelti į **Personalo valdymo** darbo sritį.)
 
 5. Pasirinkite **Įrašyti**.
 
 ## <a name="manually-migrate-reason-codes-to-personnel-management"></a>Rankiniu būdu perkelti priežasties kodus į personalo valdymą
 
-2021 m. sausio mėnesį priežasties kodai yra perkeliami į **Personalo valdymo** darbo sritį, o ne **Išmokų valdymo** darbo sritį. Didžio dalis kodo duomenų buvo automatiniu būdu perkelti į jūsų aplinką. Kai kurie priežasties kodo duomenys gali būti neperkelti. Pavyzdžiui, priežasties kodai dabar turi daugiausiai 15 ženklų, dėl to, visi ilgesni nei 15 ženklų priežasties kodai nebus automatiniu būdu perkelti.
+Nuo 2021 m. sausio mėnesio priežasties kodai yra perkelti į **Personalo valdymo** darbo sritį, o ne **Išmokų valdymo** darbo sritį. Didžio dalis kodo duomenų buvo automatiniu būdu perkelti į jūsų aplinką. Kai kurie priežasties kodo duomenys gali būti neperkelti. Pavyzdžiui, priežasties kodai dabar turi daugiausiai 15 ženklų, dėl to, visi ilgesni nei 15 ženklų priežasties kodai nebus automatiniu būdu perkelti.
 
 Matysite reklaminę juostą **Nuorodos** puslapyje **Išmokų valdymas** darbo srityje, kuri jus informuos apie perkelimą ir ar bet kurie priežasties kodai nepersikėlė.
 

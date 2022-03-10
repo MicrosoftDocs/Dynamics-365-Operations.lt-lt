@@ -9,33 +9,33 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: c9bf5d9017579b4207e09769cff38361442e3938
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
-ms.translationtype: HT
+ms.openlocfilehash: 9a70de253eff2a3273be4a31ab32757bb014328f
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7781445"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8061472"
 ---
 # <a name="troubleshoot-issues-during-initial-setup"></a>Problemų šalinimas pradinio nustatymo metu
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Šioje temoje pateikiama dvigubo rašymo funkcijos integravimo tarp „Finance and Operations“ ir “Dataverse“ programų trikčių šalinimo informacija. Tiksliau sakant, pateikiama informacija, kuri gali padėti išspręsti problemas, kurios gali kilti pradinės dvigubos rašymo integracijos sąrankos metu.
+
+Šioje temoje pateikiama trikčių šalinimo informacija apie dvigubo rašymo integravimą tarp „Finance and Operations“ programų ir Dataverse. Tiksliau sakant, pateikiama informacija, kuri gali padėti išspręsti problemas, kurios gali kilti pradinės dvigubos rašymo integracijos sąrankos metu.
 
 > [!IMPORTANT]
 > Kai kurioms šioje temoje nagrinėjamoms problemoms spręsti gali reikėti sistemos administratoriaus vaidmens arba „Microsoft Azure Active Directory” („Azure AD”) nuomotojo administratoriaus kredencialų. Kiekvienai problemai skirtoje dalyje paaiškinama, ar reikia konkretaus vaidmens ar kredencialų.
 
-## <a name="you-cant-link-a-finance-and-operations-app-to-dataverse"></a>Negalite susieti „Finance and Operations” programos su „Dataverse”
+## <a name="you-cant-link-a-finance-and-operations-app-to-dataverse"></a>Negalite susieti „Finance and Operations“ programos su Dataverse
 
-**Reikiamas vaidmuo, norint nustatyti dvigubo rašymo funkciją:** „Finance and Operations” programų ir „Dataverse” sistemos administratorius.
+**Būtinas vaidmuo norint nustatyti dvigubą rašymą:** Sistemos administratorius programose „Finance and Operations“ ir „Dataverse.
 
 Klaidos puslapyje **Susiejimo su „Dataverse” sąranka** dažniausiai atsiranda dėl neužbaigtos sąrankos arba su teisėmis susijusių problemų. Įsitikinkite, kad puslapyje **Susiejimo su „Dataverse” sąranka** atlikta visiška būsenos patikra, kaip parodyta tolesnėje iliustracijoje. Negalite susieti dvigubo rašymo, neatlikę visiškos būsenos patikros.
 
 ![Sėkmingai atlikta būsenos patikra.](media/health_check.png)
 
-Jei norite susieti „Finance and Operations” ir „Dataverse” aplinkas, privalote turėti „Azure AD” nuomotojo administratoriaus kredencialus. Susiejus aplinkas, vartotojai gali prisijungti, naudodami savo paskyros kredencialus, ir atnaujinti esamą lentelės schemą.
+Tu privalai turėti Azure AD nuomininko administratoriaus kredencialai, skirti susieti „Finance and Operations“ ir Dataverse aplinkos. Susiejus aplinkas, vartotojai gali prisijungti, naudodami savo paskyros kredencialus, ir atnaujinti esamą lentelės schemą.
 
 ## <a name="find-the-limit-on-the-number-of-legal-tables-or-companies-that-can-be-linked-for-dual-write"></a>Raskite juridinių lentelių ar įmonių, kurios gali būti susietos naudojant dvigubo rašymo funkciją, skaičiaus limitą
 
@@ -55,7 +55,7 @@ Dvigubo rašymo funkcija nepalaiko kelių juridinių subjektų / įmonių tokiu 
 
 Norėdami atblokuoti klientą, pašalinkite besidubliuojančius įrašus programos „Dataverse” lentelėje **cdm_company**. Be to, jei lentelėje **cdm_company** yra įrašų tuščiu pavadinimu, pašalinkite arba pataisykite šiuos įrašus.
 
-## <a name="error-when-opening-the-dual-write-page-in-finance-and-operations-apps"></a>Klaida atidarant dvigubo rašymo puslapį „Finance and Operations” programose
+## <a name="error-when-opening-the-dual-write-page-in-finance-and-operations-apps"></a>Klaida atidarant dvigubo rašymo puslapį „Finance and Operations“ programose
 
 Kai bandote susieti dvigubo rašymo „Dataverse“ aplinką, galite gauti toliau pateiktą klaidos pranešimą.
 
@@ -70,22 +70,22 @@ Kai bandote susieti dvigubo rašymo „Dataverse“ aplinką, galite gauti tolia
     `https://login.microsoftonline.com/common/oauth2/authorize?client_id=33976c19-1db5-4c02-810e-c243db79efde&response_type=code&prompt=admin_consent`
 
 + Norėdami sutikti, pasirinkite **Sutikti**. Sutinkate savo nuomotojuje įdiegti programą (kurios `id=33976c19-1db5-4c02-810e-c243db79efde`).
-+ Ši programa reikalinga, kad „Dataverse” palaikytų ryšį su „Finance and Operations” programos.
++ Ši programa reikalinga Dataverse bendrauti su „Finance and Operations“ programėlėmis.
 
     ![Pradinio sinchronizavimo sąrankos trikčių šalinimas.](media/Initial-sync-setup-troubleshooting-1.png)
 
 > [!NOTE]
 > Jei tai neveikia, paleiskite URL „Microsoft Edge” privačiu režimu arba „Chrome” incognito režimu.
 
-## <a name="finance-and-operations-environment-is-not-discoverable"></a>Nepavyksta aptikti „Finance and Operations” aplinkos
+## <a name="finance-and-operations-environment-is-not-discoverable"></a>Finansų ir operacijų aplinka neaptinkama
 
 Galbūt gausite tolesnį klaidos pranešimą:
 
-*„Finance and Operations” programų aplinkos \*\*\*.cloudax.dynamics.com aptikti nepavyksta.*
+*„Finance and Operations“ programėlių aplinka\*\*\* .cloudax.dynamics.com neaptinkamas.*
 
 Yra du dalykai, dėl kurių gali kilti problema, kai aplinkos aptikti nepavyksta:
 
-+ Prisijungęs vartotojas nėra tas pats nuomotojas kaip „Finance and Operations” egzempliorius.
-+ Yra keli senesni „Microsoft“ nuomojami „Finance and Operations” egzemplioriai, kuriuose kildavo aptikimo problema. Norėdami išspęsti šią problemą, atnaujinkite „Finance and Operations” egzempliorių. Aplinką galima aptikti, naudojant bet kurį atnaujinimą.
++ Prisijungimui naudojamas vartotojas nepriklauso tam pačiam nuomininkui kaip „Finance and Operations“ egzempliorius.
++ Kai kurie pasenę „Microsoft“ priglobti „Finance and Operations“ egzemplioriai turėjo problemų dėl aptikimo. Norėdami tai išspręsti, atnaujinkite „Finance and Operations“ egzempliorių. Aplinką galima aptikti, naudojant bet kurį atnaujinimą.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

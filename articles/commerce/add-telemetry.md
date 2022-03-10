@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: e3916b18c797222c300957fb25cabad78c4fcb9744a29d611a81b0bda3e9834d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: f796a3e10345da41ff461b656d88affb3adbdf9e
+ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6724609"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "7964534"
 ---
 # <a name="add-script-code-to-site-pages-to-support-telemetry"></a>Įtraukite scenarijaus kodą į svetainės puslapius, kad būtų palaikoma telemetrija
 
@@ -111,8 +111,6 @@ Norėdami svetainių daryklėje įtraukti išorinį scenarijų tiesiai į šablo
 [Darbas su CSS perrašymo failais](css-override-files.md)
 
 [Įtraukti parankinių piktogramą](add-favicon.md)
-
-[Įtraukti pasveikinimo pranešimą](add-welcome-message.md)
 
 [Įtraukti informaciją apie autorių teises](add-copyright-notice.md)
 

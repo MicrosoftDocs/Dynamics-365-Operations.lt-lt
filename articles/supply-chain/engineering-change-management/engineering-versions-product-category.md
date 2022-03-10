@@ -12,13 +12,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
-ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 1ebcb43b6c62ce895d3b1b36d7793f90208ca23e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
-ms.translationtype: HT
+ms.dyn365.ops.version: 10.0.15
+ms.openlocfilehash: 42faa9e5f073d718c18422e37212c2ae8a28b28d
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5836643"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7572894"
 ---
 # <a name="engineering-versions-and-engineering-product-categories"></a>Inžinerijos versijos ir inžinerijos produkto kategorijos
 
@@ -48,7 +48,8 @@ Jums naudojant inžinerinius produktus, kiekvienas produktas turi mažiausiai vi
 - Inžinerijos bendrovė, kuri sukūrė ir turi produktą (Dėl daugiau informacijos, žr. [Inžinerijos įmonės ir duomenų turėjimo taisyklės](engineering-org-data-ownership-rules.md).)
 - Susiję inžinerijos dokumentai, kurie yra rinkinio rankinis, vartotojo instrukcijos, paveikslėliai ir nuorodos
 - Inžinerijos atributai (Dėl daugiau informacijos, žr. [Inžinerijos atributai ir inžinerijos atributų paieška](engineering-attributes-and-search.md).)
-- Inžineriniai KS
+- Inžinerinių produktų komplektavimo specifikacija (KS)
+- Produktų gamybos proceso formulės
 - Inžineriniai maršrutai
 
 Galite naujinti šiuos duomenis esančioje versijoje arba sukurti naują naudodami *inžinerijos keitimo užsakymas*. (Dėl daugiau informacijos, žr. [Valdyti keitimus inžineriniams produktams](engineering-change-management.md).) Jei sukuriate naują produkto versiją, sistema kopijuoja visus su inžinerija susijusius duomenis į tą naują versiją. Galite tada keisti naujos versijos duomenis. Tokiu būdu, galite stebėti konkrečius duomenis kiekvienai paskesnei versijai. Norėdami palyginti skirtumus tarp inžinerinių versijų, peržiūrėkite inžinerinių keitimų užsakymą, kuris apima keitimo tipus, rodančius visus keitimus.
@@ -98,21 +99,23 @@ Norėdami dirbti su inžinerinio produkto kategorijomis, eikite į **Inžinerijo
 
 Nustatykite tolesnius laukelius inžinerinio produkto kategorijos antraštėje.
 
-| Laukas | aprašymas |
+| Laukas | Aprašas |
 |---|---|
-| Pavadinimas / vardas ir (arba) pavardė | Įveskite inžinerinio produkto kategorijos pavadinimą. |
+| Pavadinimas | Įveskite inžinerinio produkto kategorijos pavadinimą. |
 | Inžinerijos bendrovė | Pasirinkite inžinerijos bendrovę, kurioje produktai šioje inžinerijos produkto kategorijoje gali būti sukurti ir kur jie turi būti laikomi. |
 
 ### <a name="details-fasttab"></a>Išsamios informacijos „FastTab“
 
 Nustatykite tolesnius laukelius **Išsamios informacijos** „FastTab“ inžinerinio produkto kategorijoje.
 
-| Laukas | aprašymas |
+| Laukas | Aprašas |
 |---|---|
 | Produkto tipas | Pasirinkite, ar kategorija taikoma produktams ar paslaugoms. |
-| Sekti versijas perlaidose | Pasirinkite, ar produkto versija turi būti su antspaudu visose perlaidose (logistinis poveikis). Pavyzdžiui, jei sekate versiją perlaidose, visi prekybos užsakymai rodys, kurie konkreti produkto versija buvo parduota tame prekybos užsakyme. Jei nesekate versijos perlaidose, visi prekybos užsakymai nerodys, kuri konkreti produkto versija buvo parduota. Vietoje to, jie visada rodys naujausią versiją.<ul><li>Jei ši parinktis nustatyta į *Taip*, produkto pagrindiniai duomenys sukruti produktui ir kiekviena produkto versija bus variantas naudojantis *versijos* produkto matmenis. Laukelis **Produkto potipis** automatiškai nustatomas į *Pagrindinis produktas* ir jūs turite pasirinkti produkto matmenų grupę, kurioje *Versijos* matmenys įjungti. Tik produkto matmenų grupės, kuriose *versija* yra įjungti matmenys bus rodoma. Galite sukurti naują produkto matmenų grupę pasirinkę **Redaguoti** mygtuką (pieštuko simbolis).</li><li>Jei ši parinktis nustatyta į *Ne*, tai *versijos* produkto matmenys nebus naudojami. Tuomet galite pasirinkite, ar sukurti produktą ar pagrindinį produktą, kuris naudos kitus matmenis.</li></ul><p>Ši parinktis dažnai naudojama produktams, kurie turi kaštų skirtumus tarp versijų arba produktams, kuriems taikomos skirtingos sąlygos dėl klientų. Dėl to, svarbu nurodyti, kuri versija buvo naudojame konkrečioje perlaidoje.</p> |
+| Gamybos tipas | Šis laukas pasirodys tik tada, kai įgalinsite [formulių keitimo valdymą](manage-formula-changes.md) savo sistemoje. Pasirinkite gamybos, kuriai taikoma ši inžinerijos produktų kategorija, tipą:<ul><li>**Prekės planavimas** – Naudokite šią inžinerijos kategoriją planavimo prekių formulių keitimo valdymui atlikti. Prekių planavimui naudojamos formulės. Jos yra panašios į sudėtines prekes, tačiau jos naudojamos tik sudėtiniams ir šalutiniams, bet ne baigtiems produktams gaminti. Formulės yra naudojamos gamybos proceso metu.</li><li>**KS** – Naudokite šią inžinerijos kategoriją inžinerijos produktų, nenaudojančių formulių ir įprastai (tačiau nebūtinai) turinčių KS, valdymui.</li><li>**Formulė** – Naudokite šią inžinerijos kategoriją baigtų produktų formulių keitimo valdymui atlikti. Šios prekės turės formulę, bet ne KS. Formulės yra naudojamos gamybos proceso metu.</li></ul> |
+| Esamas svoris | Ši parinktis pasirodys tik tada, kai įgalinsite [formulių keitimo valdymą](manage-formula-changes.md) savo sistemoje. Ji galima tik tada, kai **Gamybos tipo** laukas nustatytas į *Prekės planavimas* arba *Formulė*. Nustatykite šią pasirinktį į *Taip*, jei šią inžinerijos kategoriją naudosite prekėms, kurioms reikalingas esamo svorio palaikymas, valdyti. |
+| Sekti versijas perlaidose | Pasirinkite, ar produkto versija turi būti su antspaudu visose perlaidose (logistinis poveikis). Pavyzdžiui, jei sekate versiją perlaidose, visi prekybos užsakymai rodys, kurie konkreti produkto versija buvo parduota tame prekybos užsakyme. Jei nesekate versijos perlaidose, visi prekybos užsakymai nerodys, kuri konkreti produkto versija buvo parduota. Vietoje to, jie visada rodys naujausią versiją.<ul><li>Jei ši parinktis nustatyta į *Taip*, produkto pagrindiniai duomenys sukruti produktui ir kiekviena produkto versija bus variantas naudojantis *versijos* produkto matmenis. **Laukelis Produkto potipis automatiškai nustatomas į** Pagrindinį produktą *ir* Produkto matmenų grupės laukelyje turite įvesti **produkto** matmenų grupę, kurioje *versijos* matmenys įjungti. Tik produkto matmenų grupės, kuriose *versija* yra įjungti matmenys bus rodoma. Galite sukurti naują produkto matmenų grupę pasirinkę **Redaguoti** mygtuką (pieštuko simbolis).</li><li>Jei ši parinktis nustatyta į *Ne*, tai *versijos* produkto matmenys nebus naudojami. Tuomet galite pasirinkite, ar sukurti produktą ar pagrindinį produktą, kuris naudos kitus matmenis.</li></ul><p>Ši parinktis dažnai naudojama produktams, kurie turi kaštų skirtumus tarp versijų arba produktams, kuriems taikomos skirtingos sąlygos dėl klientų. Dėl to, svarbu nurodyti, kuri versija buvo naudojame konkrečioje perlaidoje.</p> |
 | Produkto potipis | Pasirinkite, ar kategorija turės produktus ar pagrindinį produktą. Pagrindiniam produktui, jo matmenys bus naudojami.
-| Produkto dimensijų grupė | Nustatymai **Sekti versijas perlaidose** nustatymai padeda jums parinkti produkto potipį. Jei nustatėte, kad norite sekti versijas perlaidose, produkto dimensijos grupės, kuriose *versija* dimensija naudojama bus rodomos. Kitu atveju, tik produkto dimensijos grupės, kai *versija* dimensija nėra naudojama, bus rodomos. |
+| Produkto dimensijų grupė | Nustatymai **Sekti versijas perlaidose** nustatymai padeda jums parinkti dimensijos grupę. Jei nustatėte, kad norite sekti versijas perlaidose, produkto dimensijos grupės, kuriose *versija* dimensija naudojama bus rodomos. Kitu atveju, tik produkto dimensijos grupės, kai *versija* dimensija nėra naudojama, bus rodomos. |
 | Produkto ciklo būsena kūrimo metu | Nustatykite numatytąjį produkto gyvavimo ciklo būseną, kurią inžinerijos produktas turi turėti, kai tik bus sukurtas. Dėl daugiau informacijos, žr. [Produkto gyvavimo ciklo būsenos ir perlaidos](product-lifecycle-state-transactions.md). |
 | Versijos numerio taisyklė | Pasirinkite versijos numerio taisyklę, taikomą kategorijai:<ul><li>**Rankinė** – Pasirenkate versijos numerį kiekvienai naujai versijai.</li><li>**Automatinė** – Sistema nustato versijos numerį pagal jūsų nustatytą formatą. Jums nustačius formatą, naudokite skaičiaus ženklą (\#) norėdami parodyti skaitmenį ar bet kurį kitą ženklą nuolatinei vertei. Pavyzdžiui, jei nurodote formatą kaip *V-\#\#*, pirmoji versija bus "V-01," antroji versija bus "V-02“ ir taip toliau.</li><li>**Sąrašas** – Sistema paima kitą skaičių iš nustatyto sąrašo tinkintoms vertėms, kurį nustatėte.</li></ul> |
 | Vykdyti galiojimo taisykles | Pasirinkite, ar efektyvumo datos inžinerinėms versijoms turi būti nuolatinės ar gali būti įtrūkimų ir persidengimų. Šie nustatymai veikia jūsų naudojamą būdą **Galioja nuo** iki **Galioja iki** laukelius kiekvienai inžinerijos versijai, kuriai taikoma kategorija.<ul><li>Jei ši parinktis nustatyta į *Taip*, vertė **Galiojanti nuo** turi būti nurodyta kiekvienai versijai ir nei persidengimams, nei pertraukoms, kurios neleidžiamos tarp versijų. Duomenų intervalas kiekvienai inžinerijos versijai yra sujungtas tiesiai su ankstesniu ir kitomis inžinerijos versijomis, jei jie yra. Šiuo scenarijumi, naujausia versija visada yra naudojama, o senesnės daugiau nebenaudojamos.</li><li>Jei ši parinktis nustatyta į **Ne**, nėra daugiau jokių apribojimų efektyvumo datos laukeliams inžinerinėje versijoje, persidengimai ir pertraukos yra leidžiami. Tokiu scenarijumi, kelios versijos gali būti įjungtos tuo pat metu ir galite dirbti su bet kuria galiojančia versija.</li></ul><p>Ši parinktis taip pat veikia KS ir maršrutus, kurie yra susieti su produkto versija. Dėl daugiau informacijos, žr. [Sujungti KS ir maršrutus su inžinerijos versijomis](#boms-routes) tolesniame skyriuje šioje temoje.</p> |
@@ -130,16 +133,19 @@ Jei keičiate atributų pasirinkimą inžinerijos įmonei ir produktai jau yra p
 
 Kiekvienai įtrauktai eilutei įtrauktai į tinklelį, nustatykite tolesnius laukelius.
 
-| Laukas | aprašymas |
+| Laukas | Aprašas |
 |---|---|
-| Pavadinimas / vardas ir (arba) pavardė | Pasirinkite įtraukiamą atributą. |
+| Pavadinimas | Pasirinkite įtraukiamą atributą. |
 | Reikšmė | Pasirinkite atributui numatytąją vertę. |
-| Privalomas | Tipo *Boolean* atributams, jei ši parinktis nustatyta į *Taip*, vartotojai privalo nustatyti atributą į *Taip*. Jei ši parinktis nustatyta į *Ne* vartotojai gali nustatyti atributus į *Taip* arba *Ne*. Kitiems duomenų tipams šios parinkties nustatymas yra tik informacinis. |
+| Privalomas | *Bulio logikos* tipo atributams, jei ši parinktis nustatyta į *Taip*, vartotojai privalo nustatyti atributą į *Taip*. Jei ši parinktis nustatyta į *Ne* vartotojai gali nustatyti atributus į *Taip* arba *Ne*. Kitiems duomenų tipams šios parinkties nustatymas yra tik informacinis. |
 | Paketo atributas | Pasirinkite, ar atributas turi būti skatinamas per bendras funkcijas. |
 
 ### <a name="readiness-policy-fasttab"></a>Parengimo politikos „FastTab“
 
-Naudokite **Produkto parengimo politikos** laukelį tam, kad pasirinktumėte pasirengimo politiką, kuri taikoma produktams priklausantiems šiai kategorijai. Dėl daugiau informacijos, žr. [Produkto parengimas](product-readiness.md).
+Naudokite **Produkto parengimo politikos** lauką tam, kad pasirinktumėte pasirengimo politiką, kuri turėtų būti taikoma produktams, sukurtiems pagal šią inžinerijos kategoriją. Dėl daugiau informacijos, žr. [Produkto parengimas](product-readiness.md).
+
+> [!NOTE]
+> **Produkto pasirengimo strategijos** laukas šiek tiek skiriasi, jei savo sistemoje įjungėte *Produkto pasirengimo tikrinimo* funkciją. (Ši priemonė leidžia taikyti pasirengimo strategijas standartiniams \[ne inžineriniams\] produktams). Daugiau informacijos rasite [Pasirengimo strategijų priskyrimas standartiniams ir inžineriniams produktams](product-readiness.md#assign-policy).
 
 ### <a name="release-policy-fasttab"></a>Leidimo politikos „FastTab“
 

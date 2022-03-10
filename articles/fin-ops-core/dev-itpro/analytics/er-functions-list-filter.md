@@ -2,11 +2,8 @@
 title: ER FILTER funkcija
 description: Šioje temoje pateikiama informacija apie tai, kaip naudojama modulio Elektroninės ataskaitos (ER) FILTER funkcija.
 author: NickSelin
-manager: kfend
-ms.date: 12/12/2019
-ms.topic: article
+ms.date: 12/14/2021
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
@@ -17,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 55fa3d4ad4427e2a45f7c5fce679c50a91c40b6d
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
-ms.translationtype: HT
+ms.openlocfilehash: e857306574dda7bad5dd25fc7708514997d8e86f
+ms.sourcegitcommit: b1c758ec4abfcf3bf9e50f18c1102d4a9c1316d0
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4679443"
+ms.lasthandoff: 12/15/2021
+ms.locfileid: "7922428"
 ---
 # <a name="filter-er-function"></a>ER FILTER funkcija
 
@@ -52,11 +49,17 @@ Tinkama sąlyginė išraiška, naudojama nurodyto sąrašo įrašams filtruoti.
 
 Gautas įrašų sąrašas.
 
-## <a name="usage-notes"></a>Naudojimo pastabos
+## <a name="usage-notes"></a><a name="usage-notes"></a>Naudojimo pastabos
 
 Ši funkcija skiriasi nuo funkcijos [WHERE](er-functions-list-where.md), nes nurodyta sąlyga duomenų bazės lygiu taikoma bet kuriam modulio Elektroninės ataskaitos (ER) duomenų šaltiniui, kurio tipas – *Lentelės įrašai*. Sąrašą ir sąlygas galima nustatyti naudojant lenteles ir ryšius.
 
 Jei vienu ar abiem argumentais, kurie sukonfigūruoti šiai funkcijai (`list` ir `condition`), negalima siųsti šios užklausos paversti į tiesioginę SQL iškvietą, kuriant pateikiama išimtis. Ši išimtis vartotoją informuoja, kad arba `list`, arba `condition` negalima naudoti norint teikti duomenų bazės užklausą.
+
+> [!NOTE]
+> Kai `FILTER` funkcija naudojama pasirinkimo kriterijams nurodyti, funkcija išsamesnė už `WHERE`[`VALUEIN`](er-functions-logical-valuein.md) funkciją.
+> 
+> - Jei funkcija naudojama funkcijos aprėptį, o antrasis argumentas nurodo duomenų šaltinį, kuris negrąžina `VALUEIN``WHERE``VALUEIN` įrašų, Būlio logikos klaidinga vertė, į kurią atsižvelgiama *[...](er-formula-supported-data-types-primitive.md#boolean)*`VALUEIN` grąžina. Todėl išraiška `WHERE(Vendors, VALUEIN(Vendors.VendGroup, VendGroups, VendGroups.VendGroup))` negrąžina tiekėjo įrašų, jei **VendGroups duomenų** šaltinis negrąžina tiekėjų grupės įrašų.
+> - Jei funkcija naudojama funkcijos aprėptį, o antrasis argumentas nurodo duomenų šaltinį, kuris negrąžina `VALUEIN``FILTER``VALUEIN` įrašų, Būlio logikos klaidinga vertė, kurios *[...](er-formula-supported-data-types-primitive.md#boolean)*`VALUEIN` grąžinimai yra ignoruojami. Todėl išraiška grąžina `FILTER(Vendors, VALUEIN(Vendors.VendGroup, VendGroups, VendGroups.VendGroup))` visus tiekėjų duomenų šaltinio tiekėjo **įrašus**, net jei VendGroups duomenų šaltinis **negrąžina** tiekėjų grupės įrašų.
 
 ## <a name="example-1"></a>1 pavyzdys
 
@@ -73,3 +76,6 @@ Jei **Tiekėjas** sukonfigūruotas kaip ER duomenų šaltinis, nurodantis lentel
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Sąrašo funkcijos](er-functions-category-list.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

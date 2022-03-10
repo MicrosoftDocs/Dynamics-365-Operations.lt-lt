@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6ce0a12aff70da1ec556b69198aa5210519b6af2
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
-ms.translationtype: HT
+ms.openlocfilehash: c6119a8b52eece5935bf05d0f2300feeb8d4e90b08f26e949870f491bc9254e8
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5834745"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6743126"
 ---
 # <a name="import-letter-of-credit"></a>Importuoti akredityvą
 
@@ -128,7 +128,8 @@ ms.locfileid: "5834745"
 12. Uždarykite puslapį.
 13. Uždarykite puslapį.
 
-## <a name="verify-import-letter-of-credit-status"></a>Tikrinti importo akredityvo būseną
+## <a name="verify-import-letter-of-credit-status-and-printing"></a>Patikrinkite importo akredityvo ir spausdinimo būseną.
+
 1. Eikite į Grynųjų pinigų ir banko valdymas > Akredityvai > Importo akredityvas ir importo rinkinys.
 2. Sąraše raskite ir pasirinkite norimą įrašą.
 3. Sąraše spustelėkite saitą pasirinktoje eilutėje.

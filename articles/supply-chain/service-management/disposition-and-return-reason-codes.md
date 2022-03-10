@@ -1,28 +1,25 @@
 ---
 title: Kliento gražinimų apžvalga
 description: Produkto grąžinimo procesui palaikyti galite sukurti ir naudoti grąžinimo priežasties kodus ir perdavimo kodus.
-author: ShylaThompson
-manager: tfehr
+author: kamaybac
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReturnTableListPage, ReturnReasonCodeLookup
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4728c90b37af6d536cd5a8b919be92f4a88c6489
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.openlocfilehash: 0f0231cf33c9b422adc08e7244915ab8235b18ca
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4996581"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7983774"
 ---
 # <a name="customer-returns-overview"></a>Kliento gražinimų apžvalga
 
@@ -53,3 +50,6 @@ Priskirkite perdavimo kodą kai prekė gaunama arba fizinį grąžintos prekės 
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

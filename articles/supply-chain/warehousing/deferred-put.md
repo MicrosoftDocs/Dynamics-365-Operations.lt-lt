@@ -1,7 +1,7 @@
 ---
 title: Atidėtas sandėlio darbo apdorojimas
 description: Šioje temoje aprašomos funkcijos, dėl kurių „Dynamics 365 Supply Chain Management” galima naudoti sandėlio darbo atidėjimo operacijų apdorojimą.
-author: josaw1
+author: Mirzaab
 ms.date: 11/18/2019
 ms.topic: article
 ms.prod: ''
@@ -10,15 +10,15 @@ ms.search.form: WHSWorkProcessingPolicy, WHSWorkDeferredPutProcessingTask
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: perlynne
+ms.author: mirzaab
 ms.search.validFrom: 2019-6-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: e2c9fced9091e851683c7dd7727aff693043c433
-ms.sourcegitcommit: 8362f3bd32ce8b9a5af93c8e57daef732a93b19e
-ms.translationtype: HT
+ms.openlocfilehash: f99e960ffe7ca383563cc49c2e0825592ef5de57
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "5956283"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7577869"
 ---
 # <a name="deferred-processing-of-warehouse-work"></a>Atidėtas sandėlio darbo apdorojimas
 

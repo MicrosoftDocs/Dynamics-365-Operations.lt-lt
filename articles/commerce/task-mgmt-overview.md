@@ -2,11 +2,9 @@
 title: Užduočių valdymo apžvalga
 description: Šioje temoje pateikiama užduočių valdymo programoje „Microsoft Dynamics 365 Commerce“ apžvalga, skirta vadovams ir darbuotojams.
 author: gvrmohanreddy
-manager: annbe
 ms.date: 02/10/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 0b7756aebac2b8f0881c95b27e5a7c845557be4c
-ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
-ms.translationtype: HT
+ms.openlocfilehash: 7cdcc0ba6a9f5a3d9dd4ea781adc9e81c45e3d02
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/19/2021
-ms.locfileid: "5477565"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7985398"
 ---
 # <a name="task-management-overview"></a>Užduočių valdymo apžvalga
 
@@ -39,7 +37,7 @@ Parduotuvių vadybininkai gali naudoti užduočių valdymo funkciją, kad priski
 
 Toliau pateiktame paveikslėlyje vaizduojama užduočių valdymo programoje „Commerce“ esminė architektūra.
 
-![Užduočių valdymo esminė architektūra](media/Tasks-management-conceptual-architecture.png)
+![Užduočių valdymo esminė architektūra.](media/Tasks-management-conceptual-architecture.png)
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 

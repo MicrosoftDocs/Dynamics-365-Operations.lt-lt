@@ -1,29 +1,26 @@
 ---
 title: Retrospektyvinių duomenų importavimas į poreikio prognozėms generuoti
 description: Norint generuoti tikslias poreikio prognozes, reikia retrospektyvinių poreikio duomenų pagal prekę arba prekių paskirstymo raktą. Šioje temoje paaiškinama, kaip naudoti duomenų objektus norint importuoti retrospektyvinius poreikio duomenis iš bet kurios sistemos, kad turėtumėte ilgesnę poreikio prognozės duomenų retrospektyvą.
-author: roxanadiaconu
-manager: tfehr
+author: ChristianRytt
 ms.date: 05/10/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqDemPlanCreateForecastDialog
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.assetid: 59c0d269-9db0-48e7-b8c7-9a388781a9ca
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.author: crytt
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c66481b1dd8650960cad2947425c1e6c7450afcb
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 6dba31279541c20949dd1e86236103045c48b701
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4433834"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7579669"
 ---
 # <a name="import-historical-data-for-demand-forecasts"></a>Retrospektyvinių duomenų importavimas į poreikio prognozėms generuoti
 
@@ -34,28 +31,14 @@ Norint užtikrinti poreikio prognozių tikslumą, jums reikia kiek įmanoma daug
 Darbo srityje **Duomenų valdymas** galite peržiūrėti visų objekto laukų apžvalgą.
 
 1. Atidarykite darbo sritį **Duomenų valdymas**.
-2. Spustelėkite plytelę **Duomenų objektai**.
+2. Pasirinkite **Duomenų objektai** plytelę.
 3. Objektų sąraše ieškokite objekto **Retrospektyvinis išorinis poreikis**.
-4. Spustelėkite **Paskirties laukai**. Šie objekto laukai yra privalomi: teritorija (**DeliveringSiteId**), data (**DemandDate**), kiekis (**DemandQuantity**) ir prekės numeris (**ItemNumber**) arba prekių paskirstymo raktas (**ProductAllocationKeyId**).
+4. Pasirinkite **Paskirties laukai**. Šie objekto laukai yra privalomi: teritorija (**DeliveringSiteId**), data (**DemandDate**), kiekis (**DemandQuantity**) ir prekės numeris (**ItemNumber**) arba prekių paskirstymo raktas (**ProductAllocationKeyId**).
 
 Norint naudoti duomenų objektą, reikalingas „Microsoft Excel“ failas arba kableliais atskirtų verčių (CSV) failas, kuriame yra retrospektyviniai poreikio duomenys. Toliau pateikiamame pavyzdyje parodyta, kaip importuoti duomenis iš CSV failo.
 
-## <a name="example"></a>Pavyzdys
+Norėdami gauti daugiau informacijos apie duomenų importavimą, įskaitant duomenų valymą po importavimo, žiūrėkite [Duomenų importavimo ir eksportavimo užduočių apžvalga](../../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md) ir susijusias temas.
 
-Kaip pavyzdį galite naudoti toliau nurodytą failą. Atsisiųskite [HistoricalDemandData](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/how-to-articles/365OperationsDemandForecast). Šiame faile yra prekės D0001 retrospektyviniai poreikio duomenys. Jame yra tik šie privalomi laukai: teritorija, kiekis ir poreikio data.
+Taip pat žiūrėkite [Pagrindinės statistinės prognozės generavimas](generate-statistical-baseline-forecast.md).
 
-1. Pasirinkite įmonę, į kurią norite importuoti į retrospektyvinius poreikio duomenis.
-2. Atidarykite darbo sritį **Duomenų valdymas**.
-3. Spustelėkite plytelę **Importuoti**.
-4. Įveskite importavimo projekto pavadinimą, pavyzdžiui, **Prekės D0001 retrospektyvinio poreikio importavimas**.
-5. Lauke **Šaltinio duomenų formatas** pasirinkite importuojamo failo formatą. Šiame pavyzdyje norėdami importuoti failą HistoricalDemandData, pvz., pasirinkite **CSV**.
-6. Lauke **Objekto pavadinimas** pasirinkite **Retrospektyvinis išorinis poreikis**.
-7. Įrašykite failą kompiuteryje ir tada jį įkelkite.
-8. Spustelėkite **Importuoti**.
-9. Automatiškai atidaromas puslapis **Vykdymo suvestinė**. Patikrinkite importuotus duomenis puslapyje.
-
-Importavus retrospektyvinius poreikio duomenis, galima generuoti pagrindinę poreikio prognozę.
-
-## <a name="additional-resources"></a>Papildomi ištekliai
-
-[Pagrindinės statistinės prognozės generavimas](generate-statistical-baseline-forecast.md)
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

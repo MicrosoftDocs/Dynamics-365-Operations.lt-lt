@@ -2,11 +2,9 @@
 title: Biudžeto planavimo šablonai, skirti „Excel‟
 description: Šioje temoje aprašoma, kaip kurti „Microsoft Excel“ šablonus, kuriuos galima naudoti biudžeto planuose.
 author: panolte
-manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BudgetPlanSetLayout
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 11c98768d08ef28d436bfc63812321e7c7787a72
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
-ms.translationtype: HT
+ms.openlocfilehash: 8297548bee83d1e982f50c4e5adae748f9f40137362f4ad47ad837ea2af96c29
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5019284"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6775175"
 ---
 # <a name="budget-planning-templates-for-excel"></a>Biudžeto planavimo šablonai, skirti „Excel‟
 
@@ -39,17 +37,17 @@ Biudžeto plano dokumentus galime peržiūrėti ir redaguoti naudojant vieną ar
 1. Atidarykite **Biudžeto planų sąrašas** (**Biudžeto sudarymas** &gt; **Biudžeto planai**). 
 2. Spustelėkite **Naujas**, kad sukurtumėte naują biudžeto plano dokumentą. 
 
-   [![Biudžeto planų sąrašas](./media/bpt11-1024x552.png)](./media/bpt11.png) 
+   [![Biudžeto planų sąrašas.](./media/bpt11-1024x552.png)](./media/bpt11.png) 
 
 3. Naudokite eilutės parinktį **Įtraukti**, kad įtrauktumėte eilučių. Spustelėkite **Maketai**, kad peržiūrėtumėte biudžeto plano dokumento maketo konfigūraciją. 
 
-   [![Biudžeto planų įtraukimas](./media/bpt2-1024x274.png)](./media/bpt2.png) 
+   [![Biudžeto planų įtraukimas.](./media/bpt2-1024x274.png)](./media/bpt2.png) 
 
 Maketo konfigūraciją galite peržiūrėti ir pagal poreikį koreguoti. 
 1. Atidarykite **Šablonas** &gt; **Generuoti**, kad sukurtumėte šio maketo „Excel“ failą. 
 2. Sugeneravę šabloną pasirinkite **Šablonas** &gt; **Peržiūrėti**, kad atidarytumėte ir peržiūrėtumėte biudžeto plano dokumento šabloną. „Excel“ failą galite įrašyti į vietinį diską. 
 
-[![Įrašyti kaip](./media/bpt3-1024x545.png)](./media/bpt3.png)
+[![Įrašyti kaip.](./media/bpt3-1024x545.png)](./media/bpt3.png)
 
 > [!NOTE] 
 > Biudžeto plano dokumento maketo redaguoti negalima, kai jis susietas su „Excel“ šablonu. Norėdami redaguoti maketą, panaikinkite susietą „Excel“ šablono failą ir sugeneruokite jį iš naujo. Tai būtina, kad maketo ir darbalapio laukai būtų sinchronizuoti. 
@@ -66,20 +64,19 @@ Skirtuke **Dizainas** spustelėkite **Įtraukti** ir tada **BudgetPlanHeader** p
 
 Nuveskite žymeklį į norimą vietą „Excel“ faile. Spustelėkite **Įtraukti žymą**, kad į pasirinktą vietą įtrauktumėte lauko žymą. Pasirinkite **Įtraukti vertę**, kad į pasirinktą vietą įtrauktumėte vertės lauką. Spustelėkite **Atlikta**, kad uždarytumėte dizaino įrankį.
 
-## <a name="select-add-valuemediabpt7png"></a>[![Pasirinkti „Įtraukti vertę“](./media/bpt7.png)](./media/bpt7.png)
+## <a name="select-add-valuemediabpt7png"></a>[![Pasirinkti „Įtraukti vertę“.](./media/bpt7.png)](./media/bpt7.png)
 
-<a name="add-a-calculated-column-to-budget-plan-document-template-table"></a>Apskaičiuoto stulpelio įtraukimas į biudžeto plano dokumento šablono lentelę
---------------------------------------------------------------
+## <a name="add-a-calculated-column-to-budget-plan-document-template-table"></a>Apskaičiuoto stulpelio įtraukimas į biudžeto plano dokumento šablono lentelę
 
 Tada apskaičiuoti stulpeliai įtraukiami į sugeneruotą biudžeto plano dokumento šabloną. Stulpelis **Bendra užklausų suma**, kuriame pateikiama paraiškų už 1–4 ketvirčių stulpelių suma, ir stulpelis **Koregavimas**, kuriame stulpelio **Bendra užklausų suma** vertė perskaičiuojama naudojant iš anksto nustatytą koeficientą.
 
 Dalyje **Duomenų jungtis** spustelėkite **Dizainas**, kad į lentelę įtrauktumėte stulpelių. Šalia duomenų šaltinio **BudgetPlanWorksheet** spustelėkite **Redaguoti**, kad pradėtumėte įkelti stulpelius.
 
-[![Pradėti stulpelių įtraukimą](./media/bpt8-1024x301.png)](./media/bpt8.png) 
+[![Pradėti stulpelių įtraukimą.](./media/bpt8-1024x301.png)](./media/bpt8.png) 
 
 Pasirinktoje laukų grupėje rodomi stulpeliai, pateikiami šablone. Spustelėkite **Formulė**, kad įtrauktumėte naują stulpelį. Pavadinkite naują stulpelį ir tada įklijuokite formulę lauke **Formulė**. Spustelėkite **Naujinti**, kad įterptumėte stulpelį.
 
-[![Pridėti ir įterpti stulpelį](./media/bpt12-1024x565.png)](./media/bpt12.png)
+[![Pridėti ir įterpti stulpelį.](./media/bpt12-1024x565.png)](./media/bpt12.png)
 
 > [!NOTE] 
 > Norėdami apibrėžti formulę, sukurkite formulę skaičiuoklėje ir tada nukopijuokite ją į langą **Dizainas**. Su „Finance and Operations“ susieta lentelė paprastai būna pavadinta „AXTable1“. Pvz., norėdami susumuoti paraiškų už 1–4 ketvirčių stulpelius skaičiuoklėje, sukurkite tokią formulę: AxTable1\[Paraiška už 1 ketvirtį\] + AxTable1\[Paraiška už 2 ketvirtį\] + AxTable1\[Paraiška už 3 ketvirtį\] + AxTable1\[Paraiška už 4 ketvirtį\].
@@ -88,11 +85,11 @@ Pakartokite šiuos veiksmus ir įterpkite stulpelį **Koregavimas**. Šiam stulp
 
 Įrašykite ir uždarykite „Excel“ failą. Dalyje **Maketai** spustelėkite **Šablonas &gt; Naujinti**, kad įkeltumėte įrašytą „Excel“ šabloną naudoti biudžeto plane. 
 
-[![Nusiųsti „Excel“ šabloną](./media/bpt10-1024x352.png)](./media/bpt10.png) 
+[![Nusiųsti „Excel“ šabloną.](./media/bpt10-1024x352.png)](./media/bpt10.png) 
 
 Uždarykite slankiklį **Maketai**. Dokumente **Biudžeto planas** spustelėkite **Darbalapis**, kad dokumentą peržiūrėtumėte ir redaguotumėte programoje „Excel“. Atkreipkite dėmesį, kad pakoreguotas „Excel“ šablonas buvo naudojamas šiam biudžeto plano darbalapiui sukurti, o apskaičiuoti stulpeliai atnaujinti naudojant formules, kurios buvo apibrėžtos ankstesniuose veiksmuose. 
 
-[![Peržiūrėti ir redaguoti dokumentą programoje „Excel“](./media/bpt111-1024x431.png)](./media/bpt111.png)
+[![Peržiūrėti ir redaguoti dokumentą programoje „Excel“.](./media/bpt111-1024x431.png)](./media/bpt111.png)
 
 ## <a name="tips--tricks-for-creating-budget-plan-templates"></a>Biudžeto plano šablonų kūrimo patarimai
 ### <a name="can-i-add-and-use-additional-data-sources-to-a-budget-plan-template"></a>Ar galiu į biudžeto plano šabloną įtraukti ir naudoti papildomus duomenų šaltinius?
@@ -105,21 +102,21 @@ Galite naudoti dalyje **Duomenų jungtis** pateiktą parinktį **Filtras**, kad 
 
 Taip, atidarykite dalies **Duomenų jungiklis** parinktis, kad paslėptumėte parinktį **Dizainas** nuo kitų vartotojų.
 
-[![Atidaryti duomenų jungties parinktis](./media/bpt13-1024x565.png)](./media/bpt13.png)
+[![Atidaryti duomenų jungties parinktis.](./media/bpt13-1024x565.png)](./media/bpt13.png)
 
 Išplėskite dalies **Duomenų jungtis** parinktis ir atžymėkite žymės langelį **Įjungti dizainą**. Tokiu būdu paslėpsite dalies **Duomenų jungtis** parinktį **Dizainas**.
 
-[![Slėpti dizaino pasirinktį iš duomenų jungties](./media/bpt14-1024x592.png)](./media/bpt14.png)
+[![Slėpti dizaino pasirinktį iš duomenų jungties.](./media/bpt14-1024x592.png)](./media/bpt14.png)
 
 ### <a name="can-i-prevent-users-from-accidently-closing-the-data-connector-while-working-with-data"></a>Ar galiu užtikrinti, kad vartotojai, dirbdami su duomenimis, atsitiktinai neuždarytų duomenų jungties?
 
 Rekomenduojame užrakinti šabloną, kad vartotojai jos atsitiktinai neišjungtų. Norėdami įjungti užraktą, spustelėkite **Duomenų jungtis**, viršutiniame kairiajame kampe pasirodo rodyklė. 
 
-[![Įjungti užraktą](./media/bpt15-1024x285.png)](./media/bpt15.png) 
+[![Įjungti užraktą.](./media/bpt15-1024x285.png)](./media/bpt15.png) 
 
 Spustelėkite rodyklę, kad būtų parodytas papildomas meniu. Pasirinkite **Užrakinti**.
 
-### <a name="select-lockmediabpt16png"></a>[![Pasirinkti užraktą](./media/bpt16-1024x614.png)](./media/bpt16.png)
+### <a name="select-lockmediabpt16png"></a>[![Pasirinkti užraktą.](./media/bpt16-1024x614.png)](./media/bpt16.png)
 
 ### <a name="can-i-use-other-excel-features-like-cell-formatting-colors-conditional-formatting-and-charts-with-my-budget-plan-templates"></a>Ar galiu biudžeto plano šablonuose naudoti kitas „Excel“ funkcijas, pvz., langelių formatavimą, spalvas, sąlyginį formatavimą ir diagramas?
 
@@ -129,3 +126,6 @@ Taip pat galite kurti ir naudoti suvestinės lenteles bei diagramas, norėdami a
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

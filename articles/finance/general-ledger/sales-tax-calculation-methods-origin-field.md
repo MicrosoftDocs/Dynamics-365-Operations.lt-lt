@@ -2,11 +2,9 @@
 title: PVM skaičiavimo metodas lauke Kilmė
 description: Šiame straipsnyje paaiškinamos PVM kodų puslapio lauko Kilmė parinktys ir tai, kaip PVM skaičiuojamas pagal pasirinktą PVM kodo parinktį.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxTable
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: be935b80e06158d9634989ba03747f4a59247f8e
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
-ms.translationtype: HT
+ms.openlocfilehash: 9ac37858c68996c6c8140303327003d93bd357b512f9c634650b7e9df1284496
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5204935"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6769751"
 ---
 # <a name="sales-tax-calculation-methods-in-the-origin-field"></a>PVM skaičiavimo metodas lauke Kilmė
 
@@ -54,8 +52,7 @@ Jei grynoji suma yra 10,00, tada 1 MUITO MOKESTIS yra 1,00 (10,00 x 10 %) o 2 MU
 | Vienai operacijai gali būti naudojamas tik vienas mokesčio kodas su kilme = bendros sumos procentas. Jei operacijai naudojamas daugiau nei vienas toks mokesčio kodas, bus rodomas klaidos pranešimas, informuojantis, kad negalima apskaičiuoti PVM. |
 
 
-<a name="percentage-of-sales-tax"></a>PVM procentas
------------------------
+## <a name="percentage-of-sales-tax"></a>PVM procentas
 
 Kai lauke Kilmė pasirenkate PVM procentą, PVM yra apskaičiuojamas kaip PVM lauke, dalyje PVM, pasirinkto PVM procentas. Pirmiausia yra apskaičiuojamas PVM, pasirinktas PVM lauke, dalyje PVM. Tada skaičiuojamas antras PVM pagal pirmą PVM sumą.
 ### <a name="example"></a>Pavyzdys
@@ -121,8 +118,7 @@ Dokumento / žurnalo parametras Sumos, įskaitant PVM = Ne Operacijos eilutės s
 
 
 
-<a name="additional-resources"></a>Papildomi ištekliai
---------
+## <a name="additional-resources"></a>Papildomi ištekliai
 
 [PVM tarifai pagal bazinę ribą ir skaičiavimo metodus](marginal-base-field.md)
 

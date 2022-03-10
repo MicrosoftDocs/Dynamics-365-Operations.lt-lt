@@ -3,23 +3,25 @@ title: Pardavimo ir rinkodaros apžvalga
 description: Galite naudoti pardavimą ir rinkodarą norėdami gauti, saugoti ir naudoti įvairių tipų pardavimo srauto duomenis. Šie duomenys apima pradinę pardavimo iniciatyvą, tolesnę sekimo veiklą ir papildomą pardavimą.
 author: kfend
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: 92303
+ms.custom:
+- "92303"
+- intro-internal
 ms.assetid: 65ca9992-bbfa-4224-bf0e-067a25c7e6a4
 ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 42934a88065da015334455b6c37f57591611360f
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
-ms.translationtype: HT
+ms.openlocfilehash: 021ff1ff24e20516b7a8ac1ce206b76aa8e91a2a
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6188130"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7982539"
 ---
 # <a name="sales-and-marketing-overview"></a>Pardavimo ir rinkodaros apžvalga
 
@@ -29,18 +31,18 @@ Galite naudoti pardavimą ir rinkodarą norėdami gauti, saugoti ir naudoti įva
 
 ## <a name="marketing"></a>Rinkodara
 
-Rinkodaros kampanijos ir veiklos naudojamos, norint atrasti ir užmegzti ryšius su potencialiais klientais, kad pirminiai santykiai galėtų išsivystyti į pardavimo ryšius. Tolesnis procesų srautas vaizduoja rinkodaros verslo procesą. [![Rinkodaros verslo procesas](./media/marketing01.jpg)](./media/marketing01.jpg)
+Rinkodaros kampanijos ir veiklos naudojamos, norint atrasti ir užmegzti ryšius su potencialiais klientais, kad pirminiai santykiai galėtų išsivystyti į pardavimo ryšius. Tolesnis procesų srautas vaizduoja rinkodaros verslo procesą. [![Rinkodaros verslo procesas.](./media/marketing01.jpg)](./media/marketing01.jpg)
 
 ### <a name="relationships"></a>Ryšiai
 
-Pardavimų ir rinkodaros srityje pirminius santykius su potencialiais klientais galima užmegzti įvairiose situacijose. Pavyzdžiui, galite rasti potencialų klientą dalyvaudami prekybos parodoje arba galite turėti galimą klientą po to, kai jūsų organizacija suorganizavo masiškai siunčiamų laiškų kampaniją. Labai svarbu suprasti šalies objekto ryšių eigą, prieš tai šaliai tampant klientu. Tolesniame grafike vaizduojama objekto ryšių eiga, kurios metu potencialus klientas tampa faktiniu klientu. [![SalesandMarketing01](./media/salesandmarketing01.jpg)](./media/salesandmarketing01.jpg)
+Pardavimų ir rinkodaros srityje pirminius santykius su potencialiais klientais galima užmegzti įvairiose situacijose. Pavyzdžiui, galite rasti potencialų klientą dalyvaudami prekybos parodoje arba galite turėti galimą klientą po to, kai jūsų organizacija suorganizavo masiškai siunčiamų laiškų kampaniją. Labai svarbu suprasti šalies objekto ryšių eigą, prieš tai šaliai tampant klientu. Tolesniame grafike vaizduojama objekto ryšių eiga, kurios metu potencialus klientas tampa faktiniu klientu. [![„SalesandMarketing01”.](./media/salesandmarketing01.jpg)](./media/salesandmarketing01.jpg)
 
 ### <a name="campaigns"></a>Kampanijos
 
 Kampanijos tikslas yra potencialių klientų, galimų klientų, galimybių ir klientų, kurie buvo atrinkti dalyvauti kampanijoje, kontaktai. „Supply Chain Management“ galite sukurti kelių tipų kampanijas, pvz., telerinkodaros, pašto ir el. pašto kampanijas, siekdami maksimaliai padidinti savo klientų potencialą. Kampanijos eigoje gavus teigiamų atsakymų, galima pradėti pardavimo procesą su tais gavėjais, kurie į kampaniją sureagavo teigiamai.
 
 ## <a name="sales"></a>Pardavimas
-Pardavimo funkcija naudojama norint kurti pasiūlymus, vykdyti papildomo / kryžminio pardavimo veiklas naujiems ir esamiems klientams, kurti pardavimo užsakymus ir kurti klientų pardavimo SF. Tolesnis procesų srautas vaizduoja pardavimo verslo procesą. [![Pardavimo verslo procesas](./media/sales01.jpg)](./media/sales01.jpg)
+Pardavimo funkcija naudojama norint kurti pasiūlymus, vykdyti papildomo / kryžminio pardavimo veiklas naujiems ir esamiems klientams, kurti pardavimo užsakymus ir kurti klientų pardavimo SF. Tolesnis procesų srautas vaizduoja pardavimo verslo procesą. [![Pardavimo verslo procesas.](./media/sales01.jpg)](./media/sales01.jpg)
 
 ### <a name="sales-quotations"></a>Pardavimo pasiūlymai
 

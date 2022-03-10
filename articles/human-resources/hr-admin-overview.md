@@ -1,39 +1,40 @@
 ---
 title: Administravimo apžvalga
-description: Vadovaudamiesi šiuo administratoriaus vadovu galėsite nustatyti, valdyti programą „Dynamics 365 Human Resources“ bei šalinti jos gedimus.
-author: andreabichsel
-ms.date: 02/03/2020
-ms.topic: article
+description: Šioje temoje pateikiamas žinyno temų ir kitų išteklių, padedančių nustatyti, valdyti „Dynamics 365 Human Resources“ bei šalinti jos problemas, sąrašas.
+author: twheeloc
+ms.date: 08/11/2021
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: SystemAdministrationWorkspaceForm
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
-ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7a5f6ff75667f79894fce09b4fafeeaf31eea31e
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
-ms.translationtype: HT
+ms.openlocfilehash: a403390132443f29f12e11914b7a0f08faffa973
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5889769"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8068414"
 ---
 # <a name="administration-overview"></a>Administravimo apžvalga
 
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
+
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Vadovaudamiesi šiuo administratoriaus vadovu galėsite nustatyti, valdyti programą „Dynamics 365 Human Resources“ bei šalinti jos gedimus.
+
+Šioje temoje pateikiamas žinyno temų ir kitų išteklių, padedančių nustatyti, valdyti „Dynamics 365 Human Resources“ bei šalinti jos problemas, sąrašas.
 
 - [Sistemos reikalavimai](hr-admin-system-requirements.md)
 
-- Egzempliorių sąranka ir valdymas
+- Egzempliorių nustatymas ir valdymas
   - [Personalo parengimas](hr-admin-setup-provision.md)
   - [Egzemplioriaus kopijavimas](hr-admin-setup-copy-instance.md)
   - [Egzemplioriaus šalinimas](hr-admin-setup-remove-instance.md)
@@ -97,9 +98,18 @@ Vadovaudamiesi šiuo administratoriaus vadovu galėsite nustatyti, valdyti progr
   - [Ataskaitų parinktys](hr-admin-troubleshooting-reporting.md)
   - [Su integravimu susiję DUK](hr-admin-troubleshooting-integration.md)
 
+## <a name="additional-resources"></a>Papildomi ištekliai
+
+### <a name="elearning-courses"></a>El. mokymosi kursai
+Internetinių kursų ir mokymų ieškokite [Dynamics 365 Human Resources, esančiame Microsoft Learn](//learn/browse/?products=dynamics-human-resources&resource_type=learning%20path).
+
+### <a name="videos"></a>Vaizdo įrašai
+
+Peržiūrėkite mokomuosius vaizdo įrašus, kuriuos dabar galite rasti [„Microsoft Dynamics 365‟ „YouTube‟ kanale](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
+
 ## <a name="see-also"></a>Taip pat žiūrėkite
 
-- [Kas nauja ar pasikeitė programoje „Human Resources”](hr-admin-whats-new.md)
+- [Kas nauja ar pasikeitė „Human Resources”](hr-admin-whats-new.md)
 - [Kūrėjo vadovas](hr-developer-overview.md)
 - [Vartotojo vadovas](hr-hrpro-overview.md)
 

@@ -1,28 +1,25 @@
 ---
 title: Išrašų registravimo funkcionalumo patobulinimai
 description: Šioje temoje aprašomi išrašų registravimo funkcijai atlikti patobulinimai.
-author: josaw1
-ms.date: 05/14/2019
+author: analpert
+ms.date: 01/31/2022
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-audience: Application User
+audience: Application User, Developer, IT Pro
 ms.reviewer: josaw
 ms.search.region: Global
-ms.search.industry: retail
-ms.author: anpurush
+ms.author: analpert
 ms.search.validFrom: 2018-04-30
-ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 49fc9003eae562a155fd8e30345ba4590d36e15b61f9f6a3f0b5896cb720f414
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 6ee0cea76be05634aa21643acef5b341f19d75ef
+ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772209"
+ms.lasthandoff: 02/02/2022
+ms.locfileid: "8087608"
 ---
 # <a name="improvements-to-statement-posting-functionality"></a>Išrašų registravimo funkcionalumo patobulinimai
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 Šioje temoje aprašomas pirmas išrašų registravimo funkcijai atliktų patobulinimų rinkinys. Šie patobulinimai pateikiami „Microsoft Dynamics 365 for Finance and Operations 7.3.2“.
 
@@ -53,12 +50,24 @@ Tobulinant išrašų registravimo funkciją sukurti trys nauji puslapio **Prekyb
 
 - **Reikia išjungti skaičiavimą** – nustačius šios parinkties reikšmę **Taip** išrašo registravimo procesas tęsiamas net jei skirtumas tarp išraše nurodytos apskaičiuotos sumos ir operacijos sumos yra didesnis negu parduotuvių „FastTab“ skirtuke **Išrašas** nurodyta ribinė reikšmė.
 
+> [!NOTE]
+> Nuo Commerce 10.0.14 versijos išleidimo, kai **Mažmeninės prekybos ataskaitos – Trickle feed** funkcija įjungta, **Paskelbti inventorių** paketinis darbas nebetaikomas ir negali būti paleistas.
+
 Be to, šie parametrai buvo įdiegti „FastTab“ skirtuke **Paketinis apdorojimas** skirtuke **Registravimas** puslapyje **Prekybos parametrai**. 
 
 - **Maksimalus lygiagrečiai registruojamų išrašų skaičius** – šiame lauke apibrėžiamas paketinių užduočių, kurios bus naudojamos registruojant kelis išrašus, skaičius. 
 - **Maksimalus užsakymų apdorojimo išrašui gijų skaičius** – šis laukas rodo maksimalų gijų skaičių, kurį naudoja paketinės užduoties išrašo registravimas, kad būtų galima kurti ir išrašyti vieno išrašo pardavimo užsakymus. Bendras gijų, kurias naudos išrašo registravimo procesas, skaičius bus apskaičiuojamas pagal šio parametro vertę, padaugintą iš vertės **Maksimalus lygiagrečiai registruojamų išrašų skaičius**. Nustačius per didelę šio parametro vertę galima neigiamai paveikti išrašo registravimo proceso efektyvumą.
-- **Maksimalus operacijų eilučių skaičius telkime** – šiame lauke apibrėžiamas operacijų eilučių, kurios bus įtrauktos į vieną suvestinę operaciją prieš sukuriant naują, skaičius. Apibendrintos operacijos kuriamos remiantis skirtingais sumavimo kriterijais, pvz., klientais, darbo data ar finansinėmis dimensijomis. Svarbu pažymėti, kad viena operacijos eilutė nebus išskaidyta skirtingose suvestinėse operacijose. Tai reiškia, kad gali būti, kad suvestinės operacijos eilučių skaičius yra šiek tiek didesnis arba mažesnis, remiantis tokiais veiksniais, kaip atskirų produktų skaičius.
+- **Maksimalus operacijų eilučių skaičius telkime** – šiame lauke apibrėžiamas operacijų eilučių, kurios bus įtrauktos į vieną suvestinę operaciją prieš sukuriant naują, skaičius. Apibendrintos operacijos kuriamos remiantis skirtingais sumavimo kriterijais, pvz., klientais, darbo data ar finansinėmis dimensijomis. Svarbu pažymėti, kad viena operacijos eilutė nebus išskaidyta skirtingose suvestinėse operacijose. Tai reiškia, kad, atsižvelgiant į tokius veiksnius, kaip skirtingų produktų skaičius, apibendrintos operacijos eilučių skaičius gali būti šiek tiek didesnis arba mažesnis.
 - **Didžiausias gijų, reikalingų parduotuvės operacijoms tikrinti, skaičius** – šiame lauke apibrėžiamas gijų, kurios bus naudojamos operacijoms tikrinti, skaičius. Operacijų tikrinimas yra būtinas veiksmas, kurį reikia atlikti prieš operacijas traukiant į išrašus. Be to, puslapio **Prekybos parametrai** skirtuko **Registravimas** „FastTab“ skirtuke **Dovanų kortelė** reikia apibrėžti elementą **Dovanų kortelės produktas**. Jį reikia apibrėžti, net jei organizacija dovanų kortelių nenaudoja.
+
+Šioje lentelėje pateikiamos rekomenduojamos ankstesnių parametrų reikšmės. Šios vertės turėtų būti išbandytos ir pritaikytos diegimo konfigūracijai bei turimai infrastruktūrai. Bet koks rekomenduojamų verčių padidėjimas gali neigiamai paveikti kitą paketinį apdorojimą ir turi būti patvirtintas.
+
+| Parametras | Rekomenduojama vertė | Informacija |
+|-----------|-------------------|---------|
+| Maksimalus lygiagrečiai registruojamų išrašų skaičius | <p>Nustatykite šį parametrą į paketinių užduočių, pasiekiamų paketų grupei, kuri vykdo, skaičių **pareiškimas** darbas.</p><p>**Pagrindinė taisyklė:** Padauginkite taikomųjų programų objektų serverio (AOS) virtualiųjų serverių skaičių iš paketinių užduočių, pasiekiamų vienam AOS virtualiajam serveriui, skaičiaus.</p> | Šis parametras netaikomas, kai **Mažmeninės prekybos ataskaitos – Trickle feed** funkcija įjungta. |
+| Maksimalus gijų skaičius, skirtas vieno išrašo užsakymo apdorojimui | Pradėti tikrinti vertes nuo **4**. Paprastai vertė neturėtų viršyti **8**. | Šis parametras nurodo gijų, kurios naudojamos kuriant ir paskelbiant pardavimo užsakymus, skaičių. Tai rodo gijų, kurias galima paskelbti viename pareiškime, skaičių. |
+| Didžiausias telkime įtrauktas operacijų eilučių skaičius | Pradėti tikrinti vertes nuo **1000**. Atsižvelgiant į būstinės konfigūraciją, mažesni užsakymai gali būti naudingesni našumui. | Šis parametras nustato eilučių, kurios bus įtrauktos į kiekvieną pardavimo užsakymą registruojant ataskaitą, skaičių. Pasiekus šį skaičių, eilutės bus suskirstytos į naują tvarką. Nors pardavimo eilučių skaičius nebus tikslus, nes padalijimas vyksta pardavimo užsakymo lygiu, jis bus artimas nustatytam skaičiui. Šis parametras naudojamas mažmeninių operacijų, kuriose nėra nurodyto kliento, pardavimo užsakymams generuoti. |
+| Didžiausias gijų, reikalingų parduotuvės operacijoms tikrinti, skaičius | Rekomenduojame šį parametrą nustatyti į **4**, ir kad jį padidinsite tik tuo atveju, jei nepasieksite priimtino našumo. Šiame procese naudojamų gijų skaičius negali viršyti paketiniam serveriui pasiekiamų procesorių skaičiaus. Jei čia priskirsite per daug gijų, galite turėti įtakos kitam paketiniam apdorojimui. | Šis parametras valdo operacijų, kurios gali būti patvirtintos tuo pačiu metu tam tikroje parduotuvėje, skaičių. |
 
 > [!NOTE]
 > Visi su išrašo registravimu susiję nustatymai ir parametrai, kurie nurodyti mažmeninės prekybos parduotuvėse ir puslapyje **Prekybos parametrai** taikomi naudojantis patobulinta išrašo registravimo funkcija.
@@ -116,9 +125,17 @@ Atliekamos įvairios išrašo operacijos (pavyzdžiui, kūrimo, skaičiavimo, va
 
 ### <a name="aggregated-transactions"></a>Sutelktos operacijos
 
-Vykstant registravimo procesui pardavimo operacijos telkiamos pagal konfigūraciją. Šios sutelktos operacijos saugomos sistemoje ir naudojamos pardavimų užsakymams kurti. Kiekvieną kartą sutelkus operaciją sistemoje sukuriamas vienas atitinkamas pardavimo užsakymas. Naudodamiesi išrašo grupės **Išsami informacija apie vykdymą** mygtuku **Sutelktos operacijos** galite peržiūrėti sutelktas operacijas.
+Paskelbimo proceso metu grynųjų pinigų operacijos apibendrinamos pagal klientą ir produktą. Todėl sukuriamų pardavimo užsakymų ir eilučių skaičius sumažinamas. Suvestinės operacijos yra saugomos sistemoje ir naudojamos kuriant pardavimo užsakymus. Kiekvieną kartą sutelkus operaciją sistemoje sukuriamas vienas atitinkamas pardavimo užsakymas. 
 
-Sutelktos operacijos skirtuke **Išsami informacija apie pardavimo užsakymą** rodoma toliau išvardyta informacija.
+Jei ataskaita nėra visiškai paskelbta, ataskaitoje galite peržiūrėti apibendrintas operacijas. Veiksmų srityje, ant **pareiškimas** skirtuke **Vykdymo detalės** grupę, pasirinkite **Suvestiniai sandoriai**.
+
+![Apibendrintų operacijų mygtukas ataskaitai, kuri nėra iki galo paskelbta.](media/aggregated-transactions.png)
+
+Paskelbtų ataskaitų apibendrintas operacijas galite peržiūrėti svetainėje **Paskelbti pareiškimai** puslapį. Veiksmų srityje pasirinkite **Paklausimai**, tada pasirinkite **Suvestiniai sandoriai**.
+
+![Paskelbtų ataskaitų apibendrintų operacijų komanda.](media/aggregated-transactions-posted-statements.png)
+
+The **Pardavimo užsakymo informacija** Apibendrintos operacijos „FastTab“ rodo šią informaciją:
 
 - **Įrašo ID** – sutelktos operacijos ID.
 - **Išrašo numeris** – išrašas, kuriam sutelkta operacija priklauso.
@@ -127,17 +144,33 @@ Sutelktos operacijos skirtuke **Išsami informacija apie pardavimo užsakymą** 
 - **Sutelktų eilučių skaičius** – bendras sutelktos operacijos ir pardavimo užsakymo eilučių skaičius.
 - **Būsena** – paskutinė sutelktos operacijos būsena.
 - **Sąskaitos faktūros ID** – kai išrašoma sutelktos operacijos pardavimo užsakymo SF, pardavimo sąskaitos faktūros ID. Jei šis laukas tuščias, pardavimo užsakymo sąskaita faktūra užregistruota.
+- **Klaidos kodas** – Šis laukas nustatomas, jei agregacija yra klaidos būsenoje.
+- **Klaidos pranešimas** – Šis laukas nustatomas, jei agregacija yra klaidos būsenoje. Tai rodo išsamią informaciją apie tai, dėl ko procesas nepavyko. Galite naudoti klaidos kode pateiktą informaciją, kad išspręstumėte problemą, o tada rankiniu būdu iš naujo paleiskite procesą. Atsižvelgiant į sprendimo tipą, sukauptus pardavimus gali tekti ištrinti ir apdoroti naudojant naują ataskaitą.
 
-Sutelktos operacijos skirtuke **Išsami informacija apie operaciją** rodomos visos į sutelktą operaciją įtrauktos operacijos. Sutelktos operacijos sutelktose eilutėse rodomi visi sutelkti operacijų įrašai. Sutelktose eilutėse taip pat rodoma tokia išsami informacija kaip prekė, variantas, kiekis, kaina, grynoji suma, vienetas ir sandėlis. Iš esmės, kiekviena sutelkta eilutė atitinka vieną pardavimo užsakymo eilutę.
+![Išsamios pardavimo užsakymo informacijos laukai sukauptos operacijos greitajame skirtuke.](media/aggregated-transactions-error-message-view.png)
 
-Puslapyje **Sutelktos operacijos** naudodamiesi mygtuku **Eksportuoti pardavimo užsakymo XML failą** galite atsisiųsti tam tikros sutelktos operacijos XML failą. Naudodamiesi XML failu galite išspręsti su pardavimo užsakymo kūrimu ir registravimu susijusias problemas. Tiesiog atsisiųskite XML failą, įkelkite jį į bandomąją aplinką ir išspręskite problemą bandomojoje aplinkoje. Užregistruotų išrašų sutelktų operacijų XML failo atsisiuntimo funkcija naudotis negalima.
+The **Pervedimo duomenys** Apibendrintos operacijos greitasis skirtukas rodo visas operacijas, kurios buvo įtrauktos į apibendrintą operaciją. Sutelktos operacijos sutelktose eilutėse rodomi visi sutelkti operacijų įrašai. Sutelktose eilutėse taip pat rodoma tokia išsami informacija kaip prekė, variantas, kiekis, kaina, grynoji suma, vienetas ir sandėlis. Iš esmės, kiekviena sutelkta eilutė atitinka vieną pardavimo užsakymo eilutę.
 
-Sutelktos operacijos rodinyje nurodoma toliau išvardyta nauda.
+![Išsamios operacijos informacija Apibendrintos operacijos greitasis skirtukas.](media/aggregated-transactions-sales-details.png)
+
+Kai kuriais atvejais gali nepavykti užregistruoti apibendrintų operacijų konsoliduoto pardavimo užsakymo. Tokiais atvejais klaidos kodas bus susietas su pareiškimo būsena. Jei norite peržiūrėti tik apibendrintas operacijas, kuriose yra klaidų, galite įjungti **Rodyti tik nesėkmes** filtruokite apibendrintų operacijų rodinyje pažymėdami žymimąjį laukelį. Įjungę šį filtrą apribosite rezultatus iki apibendrintų operacijų, kuriose yra klaidų, kurias reikia išspręsti. Norėdami gauti informacijos apie tai, kaip ištaisyti šias klaidas, žr [Redaguokite ir patikrinkite internetinių užsakymų ir asinchroninių klientų užsakymų operacijas](edit-order-trans.md).
+
+![Apibendrintų operacijų rodinio filtro Rodyti tik klaidas žymimasis laukelis.](media/aggregated-transactions-failure-view.png)
+
+Ant **Suvestiniai sandoriai** puslapyje galite atsisiųsti konkrečios apibendrintos operacijos XML pasirinkę **Eksportuoti suvestinius duomenis**. Galite peržiūrėti XML bet kuriame XML formatuotoje, kad pamatytumėte faktinę duomenų informaciją, susijusią su pardavimo užsakymo kūrimu ir paskelbimu. Užregistruotų išrašų sutelktų operacijų XML failo atsisiuntimo funkcija naudotis negalima.
+
+![Apibendrintų operacijų puslapyje esantis mygtukas Eksportuoti apibendrintus duomenis.](media/aggregated-transactions-export.png)
+
+Jei negalite ištaisyti klaidos ištaisydami pardavimo užsakymo duomenis arba duomenis, kurie palaiko pardavimo užsakymą, **Ištrinti kliento užsakymą** mygtukas yra prieinamas. Norėdami ištrinti užsakymą, pasirinkite apibendrintą operaciją, kuri nepavyko, tada pasirinkite **Ištrinti kliento užsakymą**. Bus ištrinta ir apibendrinta operacija, ir atitinkamas pardavimo užsakymas. Dabar galite peržiūrėti operacijas naudodami redagavimo ir audito funkciją. Arba jie gali būti iš naujo apdoroti naudojant naują pareiškimą. Ištaisę visas klaidas, galite tęsti ataskaitų paskelbimą paleisdami atitinkamo išrašo paskelbimo funkciją.
+
+![Suvestinių operacijų rodinyje esantis mygtukas Ištrinti kliento užsakymą.](media/aggregated-transactions-delete-cust-order.png)
+
+Suvestinių operacijų rodinys suteikia šiuos privalumus:
 
 - Vartotojas gali matyti sutelktas operacijas, kurių nepavyko įvykdyti kuriant pardavimo užsakymą, ir pardavimo užsakymus, kurių nepavyko sukurti išrašant SF.
 - Vartotojas gali matyti, kaip operacijos telkiamos.
 - Vartotojas gali sekti visus patikrinimus, nuo operacijų, taip pat pardavimo užsakymų iki pardavimo SF. Tikrinimų nebuvo galima sekti naudojantis senesne išrašų registravimo funkcija.
-- Naudojantis sutelktu XML failu lengviau nustatyti problemas kuriant pardavimo užsakymą ir išrašant sąskaitas faktūras.
+- Apibendrintas XML failas leidžia lengviau nustatyti problemas kuriant pardavimo užsakymą ir išrašant sąskaitas faktūras.
 
 ### <a name="journal-vouchers"></a>Žurnalo kvitai
 

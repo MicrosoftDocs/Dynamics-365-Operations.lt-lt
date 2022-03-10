@@ -16,20 +16,23 @@ ms.search.industry: SCM
 ms.author: cabeln
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: da19066f647c17e934a11e4dab7cb370baabfb5c
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
-ms.translationtype: HT
+ms.openlocfilehash: 633740ee1e26d2e4ed2ea7031ef298fb11c2ab58
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6352741"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8068849"
 ---
 # <a name="manufacturing-execution-workloads-for-cloud-and-edge-scale-units"></a>Gamybos vykdymo darbo krūviai, skirti debesies ir briaunos skalės vienetams
 
 [!include [banner](../includes/banner.md)]
 
-> [!WARNING]
-> Šiuo metu gamybos vykdymo darbo krūvis yra prieinamas kaip peržiūros versija.
+> [!IMPORTANT]
+> Gamybos vykdymo darbo krūvis šiuo metu pasiekiamas tik peržiūros režimu.
+>
 > Kai kurios verslo funkcijos nėra visiškai palaikomos viešoje peržiūroje, kai darbo apkrovos skalės vienetai yra naudojami.
+>
+> Negalite paleisti peržiūros gamybos vykdymo darbo krūvio masto vienete, kuriame taip pat įdiegtas sandėlio vykdymo darbo krūvis.
 
 Vykstant gamybai, skalės vienetai suteikia šias galimybes:
 
@@ -44,7 +47,7 @@ Vykstant gamybai, skalės vienetai suteikia šias galimybes:
 
 Tolesnis paveikslėlis rodo gamybos gyvavimo ciklo padalijimą į tris etapus: *Planavimas*, *Vykdymas* ir *Užbaigimas*.
 
-[![Gamybos vykdymo etapai, kai naudojama viena aplinka](media/mes-phases.png "Manufacturing execution phases when a single environment is used."](media/mes-phases-large.png)
+[![Gamybos vykdymo etapai, kai viena aplinka naudojama](media/mes-phases.png "Gamybos vykdymo etapai, kai viena aplinka naudojama.")](media/mes-phases-large.png)
 
 Etapas _Planavimas_ apima produkto sąvoką, planavimą, užsakymo sukūrimą ir planavimą ir išleidimą. Išleidimo žingsnis rodo perėjimą nuo _Planavimo_ etapo į _Vykdymo_ etapą. Kai gamybos užsakymas yra paleistas, gamybos užsakymo darbai bus matomi gamybos aukšte ir parengti vykdymui.
 
@@ -54,7 +57,7 @@ Kai gamybos darbas yra pažymėtas kaip baigtas, jis juda nuo _Vykdymo_ etapo pr
 
 Kaip rodo kitas paveikslėlis, kai skalės vienetai naudojami, _Vykdymo_ etapas yra paskirstomas kaip atskira darbo apkrova.
 
-[![Gamybos vykdymo etapai, kai naudojami skalės vienetai](media/mes-phases-workloads.png "Manufacturing execution phases when scale units are used."](media/mes-phases-workloads-large.png)
+[![Gamybos vykdymo etapai, kai naudojami skalės vienetai](media/mes-phases-workloads.png "Gamybos vykdymo etapai, kai naudojami skalės vienetai.")](media/mes-phases-workloads-large.png)
 
 Modelis dabar eina nuo vieno elemento diegimo iki modelio, kuris yra pagrįstas centru ir skalės vienetais. Etapai _Planavimas_ ir _Užbaigimas_ vyksta, kai ne su klientais susijusios operacijos vykdomos centre ir gamybos vykdymo darbo apkrova vykdoma skalės vienetuose. Duomenys yra perduodami nesinchroniniu būdu tarp centro ir skalės vienetų.
 
@@ -128,6 +131,22 @@ Dabartiniame leidime sandėlio vykdymo darbo krūvis palaiko operacijas kaip bai
 ### Customize report as finished and putaway functionality
 
  -->
+
+## <a name="enable-and-use-the-start-operation-on-a-scale-unit"></a>Įjunkite ir naudokite paleidimo operaciją svarstyklių bloke
+
+Dabartiniame leidime gamybos ir paketinių užsakymų pradžios operaciją palaiko [sandėlio vykdymo darbo krūvis](cloud-edge-workload-warehousing.md) (ne gamybos vykdymo darbo krūvis). Todėl norėdami naudoti šią funkciją, kai esate prisijungę prie svarstyklių bloko, turite atlikti šias užduotis:
+
+- Įdiekite sandėlio vykdymo darbo krūvį ir gamybos vykdymo darbo krūvį savo skalės vienete.
+- Įjungti *Pradėkite gamybos užsakymą dėl sandėlio valdymo darbo krūvio debesies ir krašto masto vienetui* funkcija in [Funkcijų valdymas](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+- Naudokite Sandėlio valdymo programą mobiliesiems, kad pradėtumėte gamybą arba partijos užsakymą.
+
+## <a name="enable-and-use-material-consumption-on-a-scale-unit"></a>Įjungti ir naudoti medžiagų sunaudojimą svarstyklių vienete
+
+Dabartiniame leidime Sandėlio valdymo mobiliosios programėlės srautą, skirtą medžiagų suvartojimui registruoti, palaiko [sandėlio vykdymo darbo krūvis](cloud-edge-workload-warehousing.md) (ne gamybos vykdymo darbo krūvis). Todėl norėdami naudoti šią funkciją, kai esate prisijungę prie svarstyklių bloko, turite atlikti šias užduotis:
+
+- Įdiekite sandėlio vykdymo darbo krūvį ir gamybos vykdymo darbo krūvį savo skalės vienete.
+- Įjungti *Užregistruokite medžiagų suvartojimą mobiliojoje programėlėje ant svarstyklių vieneto* funkcija in [Funkcijų valdymas](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+- Norėdami registruoti medžiagų suvartojimą, naudokite Sandėlio valdymo mobiliąją programėlę.
 
 [!INCLUDE [cloud-edge-privacy-notice](../../includes/cloud-edge-privacy-notice.md)]
 

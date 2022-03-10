@@ -1,29 +1,26 @@
 ---
 title: Kelių lygių turtas
 description: Šioje temoje paaiškinama, kaip kurti ir naikinti kelių lygių turtą.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4b7609a85f0315ee5cb5fae62d151b271ef5febe
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: f43c7c97f8b05a1bf76b2f2c869e6868689f388d06337064f04af839f2403357
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4433729"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6769616"
 ---
 # <a name="multi-level-assets"></a>Kelių lygių turtas
 
@@ -62,3 +59,6 @@ Jei yra su turtu susijusio antrinio turto, jį galite panaikinti tik tada, jei j
 
 > [!NOTE]
 > Jei negalite panaikinti turto vadovaudamiesi šia procedūra, kitas naikinimo būdas yra nustatyti turto ciklo būseną šiuo tikslu. Pavyzdžiui, puslapyje **Turto ciklo būsenos** galite nustatyti ciklo būseną **Nurašytas** arba **Panaikintas**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

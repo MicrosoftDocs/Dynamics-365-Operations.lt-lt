@@ -1,8 +1,8 @@
 ---
-title: Integravimo su „Finance “ konfigūravimas
-description: Šiame straipsnyje aprašomos funkcijos, kurias galima naudoti integruojant iš „Dynamics 365 Human Resources“ ir „Dynamics 365 Finance“.
-author: andreabichsel
-ms.date: 03/26/2020
+title: Integravimo su „Finance“ konfigūravimas
+description: Šioje temoje aprašomas integravimas tarp „Dynamics 365 Human Resources“ ir „Dynamics 365 Finance“.
+author: twheeloc
+ms.date: 08/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,21 +12,24 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 81b65d1aeeff6c4459fe0b2637013009958cfd55
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
-ms.translationtype: HT
+ms.openlocfilehash: 0a2c5dd0ce97f33f5f8b65c801fbc15dfc65e8d4
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6360645"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8065021"
 ---
 # <a name="configure-integration-with-finance"></a>Integravimo su „Finance“ konfigūravimas
 
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Norėdami integruoti „Dynamics 365 Human Resources“ su „Dynamics 365 Finance“, galite naudoti šabloną „Iš „Human Resources“ į „Finance“, kuris yra [Duomenų integravimo priemonė](/powerapps/administrator/data-integrator). Šablonas „Iš „Human Resources“ į „Finance“ suaktyvina užduočių, pareigų ir darbuotojų duomenų srautą. Šablonas leidžia duomenų srautą iš „Human Resources“ į „Finance“, tačiau neleidžia duomenų srauto iš „Finance“ į „Human Resources“.
 

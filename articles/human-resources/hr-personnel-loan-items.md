@@ -1,35 +1,38 @@
 ---
 title: Darbininkams paskolintų prekių valdymas
 description: Panaudos objektai yra įrašai, kurie vadovams padeda sekti fizines prekes, kurias įmonė skolina savo darbuotojams.
-author: andreabichsel
-manager: tfehr
-ms.date: 06/20/2017
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 ms.search.form: HcmLoanItem, HcmLoanType, HcmPersonLoan, HcmPersonnelManagementWorkspace
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 3581
 ms.assetid: b14bdddb-f10e-4619-9f91-8c88439da862
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: d34551e4a3cc08ce3fe47e8f8fd2c3cc68c0daf7
-ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
-ms.translationtype: HT
+ms.openlocfilehash: 9093944a2e225565fc8fdba8f9a487303369c251
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "5130138"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8067281"
 ---
 # <a name="manage-items-that-are-lent-to-workers"></a>Darbininkams paskolintų prekių valdymas
 
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
 Panaudos objektai yra įrašai, kurie vadovams padeda sekti fizines prekes, kurias įmonė skolina savo darbuotojams. 
 
-Toliau pateiktuose punktuose nurodomi elementų, kuriuos įmonė gali paskolinti darbuotojams, pavyzdžiai.
+Štai keletas dalykų, kuriuos įmonė gali paskolinti darbuotojams, pavyzdžiai:
+
 -   Mobilieji telefonai;
 -   Automobiliai;
 -   Kompiuterinė įranga.
@@ -38,20 +41,21 @@ Kiekviena fizinė prekė turi turėti atitinkamą panaudos objektą. Kiekviename
 
 Skolindami objektą, įveskite skolinimo datą ir planuojamą grąžinimo datą. Kai objektas grąžinamas, įveskite faktinę grąžinimo datą.
 
-Darbuotojai peržiūrėti objektų, kurie jiems buvo paskolinti, įrašus gali naudodami darbo sritį Darbuotojų savitarna. Jei darbuotojai gavo papildomų faktinių objektų, jie taip pat gali redaguoti esamus įrašus arba įvesti naujų panaudos objektų.  Galima nustatyti darbo eigą, kad, naudojant patvirtinimo procesą, pakeitimus būtų galima nukreipti į naujus arba esamus panaudos objektus. 
+Darbuotojai gali naudotis **Darbuotojų savitarna** darbo sritį, kad galėtumėte peržiūrėti jiems paskolintų daiktų įrašus. Jie taip pat gali redaguoti esamus įrašus arba įvesti naujus paskolos elementus, jei gavo papildomų fizinių prekių. Galima nustatyti darbo eigą, kad per patvirtinimo procesą būtų nukreipti naujų arba esamų paskolos elementų pakeitimai. 
 
 Vadovai gali peržiūrėti savo tiesioginių ataskaitų panaudos objektus. Jiems taip pat gali būti suteikta teisė darbuotojų vardu pridėti naujų panaudos objektų.
 
- <a name="account-for-lost-or-misplaced-loan-items"></a> Pamestų arba negrąžintų panaudos objektų sąskaita
------------------------------------------
+##  <a name="account-for-lost-or-misplaced-loan-items"></a>Pamestų arba negrąžintų panaudos objektų sąskaita
 
 Jei objektas sugadinamas arba negrąžinamas, įveskite fiktyvų grąžinimo įrašą. Tada panaikinkite objektą arba saugokite peržiūroje ir pakeiskite aprašymą, kad matytumėte, jog objekto nėra.
 
 
-<a name="additional-resources"></a>Papildomi ištekliai
---------
+## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Personalas](index.md)
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

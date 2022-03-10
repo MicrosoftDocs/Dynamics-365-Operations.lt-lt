@@ -1,30 +1,32 @@
 ---
-title: Kompensavimo proceso vykdymas
-description: Šiame straipsnyje aiškinama, kaip išspręsti problemą, kai klientas bando vykdyti kompensavimo procesą „Microsoft Dynamics 365 Human Resources“, tačiau jam nesuteikiama prieiga.
-author: andreabichsel
-manager: tfehr
-ms.date: 02/03/2020
+title: Vykdyti kompensacijos procesą
+description: Šioje temoje aiškinama, kaip išspręsti problemą, kai klientas bando vykdyti kompensavimo procesą „Microsoft Dynamics 365 Human Resources“, tačiau jam nesuteikiama prieiga.
+author: twheeloc
+ms.date: 08/19/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5eda572900090a3ead4b277f3c719b220dc10763
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
-ms.translationtype: HT
+ms.openlocfilehash: 2c299846b00d034c80b1044271128a08222e5d3f
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5113569"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8065406"
 ---
 # <a name="run-the-compensation-process"></a>Kompensavimo proceso vykdymas
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 **Problema**
 
@@ -40,10 +42,13 @@ Toliau nurodyti kompensacijos dokumentai.
 
 - Nustatymas:
 
-    - [Kompensacijų planai](https://docs.microsoft.com/dynamics365/unified-operations/talent/compensation-plans)
-    - [Pastoviosios atlyginimo dalies planų kūrimas](https://docs.microsoft.com/dynamics365/unified-operations/talent/create-fixed-compensation-plans)
-    - [Kintamosios atlyginimo dalies planų kūrimas](https://docs.microsoft.com/dynamics365/unified-operations/talent/create-variable-compensation-plans)
+    - [Kompensacijų planai](/dynamics365/unified-operations/talent/compensation-plans)
+    - [Pastoviosios atlyginimo dalies planų kūrimas](/dynamics365/unified-operations/talent/create-fixed-compensation-plans)
+    - [Kintamosios atlyginimo dalies planų kūrimas](/dynamics365/unified-operations/talent/create-variable-compensation-plans)
 
 - Procesas:
 
-    - [Kompensavimo apdorojimas](https://docs.microsoft.com/dynamics365/unified-operations/talent/process-compensation)
+    - [Kompensavimo apdorojimas](/dynamics365/unified-operations/talent/process-compensation)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

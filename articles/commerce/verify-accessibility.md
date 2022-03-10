@@ -2,11 +2,9 @@
 title: Patikrinti puslapio turinio pritaikymą neįgaliesiems
 description: Šioje temoje aprašoma, kaip patikrinti „Microsoft Dynamics 365 Commerce“ puslapių turinio pritaikymą neįgaliesiems.
 author: josaw1
-manager: annbe
 ms.date: 01/08/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -16,21 +14,18 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2019-12-19
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 186044fc7a360f227cecffb39bad0e225245dd4d
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
-ms.translationtype: HT
+ms.openlocfilehash: 6f92d5c34896e284a40a4806cd83e469c2db4c9181c919d2d967dacc84076201
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5210976"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6748453"
 ---
 # <a name="verify-page-content-accessibility"></a>Patikrinti puslapio turinio pritaikymą neįgaliesiems
-
 
 [!include [banner](includes/banner.md)]
 
 Šioje temoje aprašoma, kaip patikrinti „Microsoft Dynamics 365 Commerce“ puslapių turinio pritaikymą neįgaliesiems.
-
-## <a name="overview"></a>Peržiūra
 
 Baigę keisti puslapį, turėtumėte įsitikinti, kad turinys pasiekiamas visiems žiniatinklio vartotojams. Naudodami „Commerce“ kūrimo įrankius, galite lengvai patikrinti puslapio turinio pritaikymą neįgaliesiems integruotoje paslaugoje [„Microsoft Accessibility Insights“](https://accessibilityinsights.io/). Ši paslauga patikrina jūsų puslapio turinį pagal naujausias [Žiniatinklio konsorciumo W3C pritaikymo neįgaliesiems](https://www.w3.org/standards/webdesign/accessibility) gaires.
 
@@ -85,7 +80,7 @@ Norėdami naudoti integruotą paslaugą [„Microsoft Accessibility Insights“]
 
 [Papildyti kategorijos nukreipimo puslapį](enrich-category-page.md)
 
-[Sukurti dinaminius e-komercijos puslapius pagal URL parameterus](create-dynamic-pages.md)
+[Sukurti dinaminius e-komercijos puslapius pagal URL parametrus](create-dynamic-pages.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

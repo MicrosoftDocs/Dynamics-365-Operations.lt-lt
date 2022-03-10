@@ -1,26 +1,24 @@
 ---
 title: RFQ kainos pasiūlymų įvedimas bei lyginimas ir sutarčių pasirinkimas
 description: Šioje temoje pasakojama kaip įvesti atsakymus pasiūlymo patvirtinimui (RFQ), skaičiuoti ir lyginti kainų pasiūlymus bei pasirinkti vieno iš tiekėjų sutartį.
-author: RichardLuan
-manager: tfehr
+author: Henrikan
 ms.date: 07/09/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchRFQCaseTableListPage, PurchRFQCaseTable, PurchRFQReplyTable, PurchRFQCompare, PurchRFQEditLines, PurchRFQEditLinesParameters, PurchTable, PurchTablePart, PurchRFQCompareLinePrices, PurchRFQCompareRFQ
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: riluan
+ms.author: henrikan
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6dc3d21c4e7afc579e908ac770edef7b211abdfc
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
-ms.translationtype: HT
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 8378a491e528c1e1166f0688e29f923a25f23eed
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5244116"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7579477"
 ---
 # <a name="enter-and-compare-rfq-bids-and-award-contracts"></a>RFQ kainos pasiūlymų įvedimas bei lyginimas ir sutarčių pasirinkimas
 
@@ -34,7 +32,7 @@ Galite įvesti kainos pasiūlymą kaip tiekėjas arba įsigijimo specialistas. D
 
 ## <a name="enter-a-reply-as-a-vendor"></a>Įveskite atsakymą kaip teikėjas
 
-1. Ataskaitų srityje pasirinkite **Tiekėjų kainos pasiūlymas**.
+1. Eikite **į tiekėjo \> bendradarbiavimo sričių tiekėjo kainos \> pasiūlymą**.
 2. Sąraše **Nauji kainos pasiūlymo kvietimai** suraskite ką tik išsiųstą RFQ. Pasirinkite RFQ, kad pamatytumėte, ko prašoma.
 3. Pasirinkite **RFQ priedai**, norėdami peržiūrėti visus pridėtus priedus.
 4. Pasirinkite **Kainos pasiūlymas**, kad laukai būtų redaguojami. Atkreipkite dėmesį, kad laukas **Kainos pasiūlymo eiga** nustatytas į **Atnaujina tiekėjas**.

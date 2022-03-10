@@ -2,11 +2,9 @@
 title: Grąžinimo mokėjimo metodų be kvito apribojimas
 description: Šioje temoje aprašoma, kaip tam tikrus grąžinimo mokėjimo tipus galima apriboti, jei grąžinimai vykdomi be kvito.
 author: rapraj
-manager: AnnBe
 ms.date: 03/05/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailTenderTypeTable
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Retail
 ms.author: yabinl
 ms.search.validFrom: 2019-02-01
 ms.dyn365.ops.version: AX 10.0.0, Retail Feb 2019 update
-ms.openlocfilehash: 1ff301aa5f88e34ed7ca24aa54df3fdc7daa1bf7
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.openlocfilehash: 716b3a924da14d94061966d0d671003a6e2b90f88a3c0c4064191b47d8930f93
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5012396"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6773843"
 ---
 # <a name="restrict-payment-methods-for-returns-without-a-receipt"></a>Grąžinimo mokėjimo metodų be kvito apribojimas
 
@@ -40,7 +38,7 @@ Norėdami nustatyti mokėjimo būdus, turite atlikti toliau nurodytus veiksmus.
 3. Nustatykite parduotuvės mokėjimo būdus. Susiekite mokėjimo būdus su kiekviena parduotuve, o po to įveskite kiekvienos parduotuvės mokėjimo būdo parametrus.
 4. Nustatykite parduotuvių mokėjimo kortelėmis būdus. Nustatykite kiekvieno parduotuvės priimamo mokėjimo kortele būdo kortelę.
 
-![Parduotuvės konfigūracija](media/NoReceiptReturns1.png "„Retail“ parduotuvės sąranka") 
+![Parduotuvės konfigūracija.](media/NoReceiptReturns1.png "„Retail“ parduotuvės sąranka") 
 
 
 ## <a name="restrict-payment-methods-for-returns-without-a-receipt"></a>Grąžinimo mokėjimo metodų be kvito apribojimas
@@ -51,12 +49,15 @@ Numatytoji jungiklio reikšmė yra **Ne**, kuri užtikrina, kad mokėjimo būdą
 
 Kai parametras **Riboti grąžinimus be kvito** nustatytas į parinktį **Taip**, pasirinktas mokėjimo būdas nebus leidžiamas naudoti grąžinant. 
 
-![Mokėjimo būdas parduotuvėje](media/NoReceiptReturns3.png "„Retail“ parduotuvės mokėjimo būdas") 
+![Mokėjimo būdas parduotuvėje.](media/NoReceiptReturns3.png "„Retail“ parduotuvės mokėjimo būdas") 
 
 > [!NOTE]
 > Kai kasininkas pasirenka mokėjimo būdą, kuris yra apribotas naudoti grąžinant be kvito, rodomas pranešimas, kuriame reikia patvirtinti priimtinus mokėjimo būdus.
 
-![Galimi mokėjimo būdai](media/NoReceiptReturns4.png "Galimi mokėjimo būdai") 
+![Galimi mokėjimo būdai.](media/NoReceiptReturns4.png "Galimi mokėjimo būdai") 
 
 Jei operacijai priskiriami grąžinimai su kvitu ir be kvito, apribojimo sąlygos nebus taikomos, nes operacija bus grąžinimo darbo eiga su kvitu. 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

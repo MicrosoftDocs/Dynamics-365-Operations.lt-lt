@@ -1,32 +1,34 @@
 ---
 title: Ataskaitų parinktys
-description: Šiame straipsnyje aiškinama, kaip išspręsti problemą, kai klientas nori tinkinti „Microsoft Dynamics 365 Human Resources“ ataskaitas arba sukurti naujų ataskaitų.
-author: andreabichsel
-manager: tfehr
-ms.date: 02/03/2020
+description: Šioje temoje paaiškinama, kaip pritaikyti „Microsoft Dynamics 365 Human Resources“ ataskaitas ar kurti naujas ataskaitas.
+author: twheeloc
+ms.date: 08/19/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 830c8c32128a8dfc1b009557afb272e48ae3a1ff
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
-ms.translationtype: HT
+ms.openlocfilehash: 3c82f3d4f040f680cab68228f1aa8ab16f548961
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5113528"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069076"
 ---
 # <a name="reporting-options"></a>Ataskaitų parinktys
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+
 
 **Aplinkos informacija**
 
@@ -36,7 +38,7 @@ ms.locfileid: "5113528"
 
 Klientas nori tinkinti „Microsoft Dynamics 365 Human Resources“ ataskaitas arba sukurti naujų ataskaitų.
 
-**Išduoti**
+**Išdavimas**
 
 Vartotojui nepavyksta tinkinti įdėtųjų „Microsoft Power BI“ ataskaitų.
 
@@ -49,3 +51,6 @@ Vartotojui nepavyksta tinkinti įdėtųjų „Microsoft Power BI“ ataskaitų.
 **Ilgalaikis sprendimas**
 
 Bus pasiekiama papildomų „Power BI“ parinkčių, o „Dataverse“ priklausys daugiau duomenų ir objektų.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

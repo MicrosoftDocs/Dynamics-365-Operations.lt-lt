@@ -1,12 +1,10 @@
 ---
 title: Turto KPI
 description: Šioje temoje aiškinama turto KPI turto valdyme.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/23/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetObjectKPI
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: f75db96926e72bab80d0a65ce6f0ab3a92590699
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
-ms.translationtype: HT
+ms.openlocfilehash: 8bdc60d993a784ffc123d36b5e51cbd6028316f18a2dee6f4ee134a93ffc024e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5021785"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6778753"
 ---
 # <a name="asset-kpis"></a>Turto KPI
 
@@ -42,7 +40,7 @@ Turto valdyme galite skaičiuoti įvairius turto ir turto tipų pagrindinius efe
 
 5. „FastTab“ **Apžvalga** skaičiavimo rezultatai rodomi tinklelio rodinyje. Kiekvienas turtas rodomas atskiroje eilutėje.
 
-6. „FastTab“ **Pasirinktos eilutės KPI** galite matyti turto, pasirinkto „FastTab“ **Apžvalga**, skaičiavimus. KPI reikšmės kategorizuojamos pagal **Laikas**, **Pasiekiamumas**, **Darbo užsakymai**, **Priežiūra**, **Gedimai**, **Prižiūrimo turto prastova** ir **Išlaidos**.
+6. „FastTab“ **Pasirinktos eilutės KPI** galite matyti turto, pasirinkto „FastTab“ **Apžvalga**, skaičiavimus. KPI reikšmės skirstomos į šias kategorijas: **Laikas**, **Pasiekiamumas**, **Darbo užsakymai**, **Priežiūra**, **Gedimai**, **Prižiūrimo turto prastova** ir **Išlaidos**.
 
 Lentelėje toliau pateiktas laukų puslapyje **Turto KPI** aprašas.
 
@@ -84,8 +82,11 @@ Lentelėje toliau pateiktas laukų puslapyje **Turto KPI** aprašas.
 
 Toliau pateiktame paveiksle rodoma keturių turtų KPI skaičiavimo ekrano kopija.
 
-![Keturių turtų KPI skaičiavimo ekrano kopija](media/11-controlling-and-reporting.png)
+![Keturių turtų KPI skaičiavimo ekrano kopija.](media/11-controlling-and-reporting.png)
 
 - **Visas turtas** galite pažymėti kelis turtus, tada spustelėkite skirtuko **Bendra** mygtuką **Turto KPI**. Tada dialogo lange **Skaičiuoti turto KPI** spustelėkite **Gerai**, kad apskaičiuotumėte pasirinkto turto KPI.  
 - Į KPI skaičiavimo rezultatus gali arba negali būti įtrauktos [prižiūrimo turto prastovos registracijos](../work-orders/maintenance-downtime.md) atsižvelgiant į sąranką ir prižiūrimo turto prastovos priežasčių kodų naudojimą. 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

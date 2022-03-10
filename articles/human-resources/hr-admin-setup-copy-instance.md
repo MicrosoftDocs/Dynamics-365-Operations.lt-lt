@@ -2,15 +2,12 @@
 title: Egzemplioriaus kopijavimas
 description: Galite naudoti „Microsoft Dynamics Lifecycle Services“ (LCS), kad nukopijuotumėte „Microsoft Dynamics 365 Human Resources“ duomenų bazę į smėlio dėžės aplinką.
 author: andreabichsel
-manager: tfehr
 ms.date: 07/22/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: SystemAdministrationWorkspaceForm
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -18,18 +15,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e38abf3537d88bb147fbf0030999953025e5820f
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
-ms.translationtype: HT
+ms.openlocfilehash: 22aa33135535d543eb8fe437821cab7a4865d6df
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5466909"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8060836"
 ---
 # <a name="copy-an-instance"></a>Egzemplioriaus kopijavimas
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Galite naudoti „Microsoft Dynamics Lifecycle Services“ (LCS), kad nukopijuotumėte „Microsoft Dynamics 365 Human Resources“ duomenų bazę į smėlio dėžės aplinką. Jei turite kitą smėlio dėžės aplinką, taip pat galite kopijuoti duomenų bazę iš šios aplinkos į tikslinę smėlio dėžės aplinką.
 
@@ -41,7 +38,7 @@ Kad nukopijuotumėte egzempliorių, atminkite šiuos patarimus:
 
 - Turite būti paskirties aplinkos administratorius, kad nukopijavę egzempliorių galėtumėte prisijungti prie jo.
 
-- Kai kopijuojate „Human Resources“ duomenų bazę, nenukopijuojate elementų (programų arba duomenų), esančių „Microsoft Power Apps“ aplinkoje. Norėdami gauti informacijos apie tai, kaip kopijuoti „Power Apps“ aplinkos elementus, žr. [Aplinkos kopijavimas](https://docs.microsoft.com/power-platform/admin/copy-environment). „Power Apps“ egzempliorius, kurį norite perrašyti, turi būti smėlio dėžės aplinka. Norėdami pakeisti „Power Apps“ gamybos aplinką į smėlio dėžės aplinką, turite būti visuotinis nuomotojo administratorius. Daugiau informacijos apie „Power Apps“ aplinkos keitimą žr. [Egzemplioriaus keitimas](https://docs.microsoft.com/dynamics365/admin/switch-instance).
+- Kai kopijuojate „Human Resources“ duomenų bazę, nenukopijuojate elementų (programų arba duomenų), esančių „Microsoft Power Apps“ aplinkoje. Norėdami gauti informacijos apie tai, kaip kopijuoti „Power Apps“ aplinkos elementus, žr. [Aplinkos kopijavimas](/power-platform/admin/copy-environment). „Power Apps“ egzempliorius, kurį norite perrašyti, turi būti smėlio dėžės aplinka. Norėdami pakeisti „Power Apps“ gamybos aplinką į smėlio dėžės aplinką, turite būti visuotinis nuomotojo administratorius. Daugiau informacijos apie „Power Apps“ aplinkos keitimą žr. [Egzemplioriaus keitimas](/dynamics365/admin/switch-instance).
 
 - Jei kopijuojate egzempliorių į savo smėlio dėžės aplinką ir norite integruoti savo smėlio dėžės aplinką į „Dataverse”, privalote pasirinktinius laukus iš naujo taikyti „Dataverse” lenteles. Žr. [Taikyti pasirinktinius laukus „Dataverse”](hr-admin-setup-copy-instance.md?apply-custom-fields-to-common-data-service).
 
@@ -55,9 +52,9 @@ Kad nukopijuotumėte egzempliorių, atminkite šiuos patarimus:
 
 - Dokumentai, esantys „Microsoft Azure“ didelių dvejetainių objektų saugykloje, nėra kopijuojami iš vienos aplinkos į kitą. Todėl bet kurie pridėti dokumentai ir šablonai nebus kopijuojami ir liks šaltinio aplinkoje.
 
-- Visi vartotojai išskyrus administratoriaus teises turintį vartotoją ir kiti vidinių paslaugų vartotojų klientai nebus pasiekiami. Administratoriaus vartotojas gali panaikinti arba paslėpti duomenis prieš suteikiant galimybę kitiems vartotojams vėl prisijungti prie sistemos.
+- Visi vartotojai, išskyrus tuos, kurių saugos vaidmuo "Sistemos administratorius" ir kiti vidinių paslaugų vartotojų abonementai yra negalimi. Administratoriaus vartotojas gali panaikinti arba paslėpti duomenis prieš suteikiant galimybę kitiems vartotojams vėl prisijungti prie sistemos.
 
-- Administratoriaus teises turintis vartotojas turi atlikti būtinus konfigūravimo keitimus, pvz., iš naujo sujungti integravimo galinius punktus su konkrečiomis tarnybomis arba konkrečiais URL.
+- Bet kuris vartotojas su sistemos administratoriaus saugumo vaidmeniu gali atlikti būtinus konfigūravimo keitimus, pvz., iš naujo sujungti integravimo galinius punktus su konkrečiomis tarnybomis arba konkrečiais URL.
 
 ## <a name="copy-the-human-resources-database"></a>„Human Resources“ duomenų bazės kopijavimas
 
@@ -74,15 +71,15 @@ Norėdami atlikti šią užduotį, pirmiausia nukopijuokite egzempliorių, tada 
 
 4. Užduočių srityje **Kopijuoti egzempliorių** pasirinkite egzempliorių, kurį norite perrašyti, tada – **Kopijuoti**. Palaukite, kol lauko **Kopijuoti būseną** reikšmė bus atnaujinta į **Baigta**.
 
-   ![[Perrašytino egzemplioriaus pasirinkimas](./media/copy-instance-select-target-instance.png)](./media/copy-instance-select-target-instance.png)
+   ![[Pasirinkite pavyzdį, kurį norite perrašyti.](./media/copy-instance-select-target-instance.png)](./media/copy-instance-select-target-instance.png)
 
-5. Pažymėkite **„Power Platform“** ir prisijunkite prie „Microsoft Power Platform“ admininstravimo centro.
+5. Pažymėkite **„Power Platform“** ir prisijunkite prie „Microsoft Power Platform“ administravimo centro.
 
-   ![[„Power Platform“ pasirinkimas](./media/copy-instance-select-power-platform.png)](./media/copy-instance-select-power-platform.png)
+   ![[Pasirinkite Power Platform .](./media/copy-instance-select-power-platform.png)](./media/copy-instance-select-power-platform.png)
 
 6. Pasirinkite kopijuotiną „Power Apps“ aplinką ir pasirinkite **Kopijuoti**.
 
-7. Kai kopijavimo procesas baigtas, prisijunkite prie paskirties egzemplioriaus ir įjunkite „Dataverse“ integravimą. Daugiau informacijos ir instrukcijų žr. [„Dataverse“ integravimo konfigūravimas](https://docs.microsoft.com/dynamics365/talent/hr-common-data-service-integration).
+7. Kai kopijavimo procesas baigtas, prisijunkite prie paskirties egzemplioriaus ir įjunkite „Dataverse“ integravimą. Daugiau informacijos ir instrukcijų žr. [„Dataverse“ integravimo konfigūravimas](./hr-admin-integration-common-data-service.md).
 
 ## <a name="data-elements-and-statuses"></a>Duomenų elementai ir būsenos
 
@@ -114,7 +111,7 @@ Kai kurie iš šių elementų negali būti kopijuojami, nes jie būdingi tam tik
 
 Taip pat, šios būsenos keičiasi, kai nukopijuojate egzempliorių:
 
-- Visi vartotojai, išskyrus administratorių, nustatyti kaip **Išjungtas**.
+- Visi vartotojai, išskyrus tuos, kurių saugos vaidmuo Sistemos administratorius nustatytas kaip **Išjungta**.
 
 - Visos paketinės užduotys, išskyrus kai kurias sistemos užduotis, yra nustatytos kaip **Sulaikyti**.
 
@@ -128,7 +125,7 @@ Visi ne administratoriaus teises turintys vartotojai paskirties smėlio dėžės
 
 Jei kopijuojate egzempliorių į savo smėlio dėžės aplinką ir norite integruoti savo smėlio dėžės aplinką į „Dataverse”, privalote pasirinktinius laukus iš naujo taikyti „Dataverse” lenteles.
 
-Kiekvienam pasirinktiniam laukui, kurie rodomi „Dataverse” lentelėse, atlikite šiuos veiksmus: 
+Kiekvienam pasirinktiniam laukui, rodomam „Dataverse” lentelėse, atlikite šiuos veiksmus:
 
 1. Eikite į pasirinktinį lauką ir pasirinkite **Redaguoti**.
 
@@ -144,7 +141,7 @@ Kiekvienam pasirinktiniam laukui, kurie rodomi „Dataverse” lentelėse, atlik
 
 Anuliavimo, pakeitimų taikymo, perrinkimo ir pakeitimų taikymo iš naujo procesas ragina schemos „Dataverse” atnaujinimus, kad būtų įtraukti pasirinktiniai laukai.
 
-Norėdami gauti daugiau informacijos apie pasirinktinius laukus, žr. [Darbas su pasirinktiniais laukais ir jų kūrimas](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/user-defined-fields).
+Norėdami gauti daugiau informacijos apie pasirinktinius laukus, žr. [Darbas su pasirinktiniais laukais ir jų kūrimas](../fin-ops-core/fin-ops/get-started/user-defined-fields.md).
 
 ## <a name="see-also"></a>Taip pat žiūrėkite
 

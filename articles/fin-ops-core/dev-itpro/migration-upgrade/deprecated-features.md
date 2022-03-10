@@ -14,21 +14,21 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 76ac50ba2606ffff5a5a90d29ca99c8d67e5f14cce2127f5de6225d1cd8224ef
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 6dfe1cf9d3d67c6b65f64248d48a2e7420a47c93
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6745181"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8063242"
 ---
 # <a name="removed-or-deprecated-features-in-previous-releases"></a>Pašalintos arba nebenaudojamos funkcijos ankstesniuose leidimuose
 
 [!include [banner](../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 > [!IMPORTANT]
-> Ši tema nebebus atnaujinta. Norėdami pamatyti dabartinį funkcijų, kurios yra pašalintos ir nebenaudojamos programose „Finance and Operations“, sąrašą, ieškokite **Pašalintos arba nebenaudojamos funkcijos** turinio, kuris susijęs su jūsų naudojama programa.
+> Ši tema nebebus atnaujinta. Norėdami pamatyti dabartinį funkcijų, kurios buvo pašalintos arba nebenaudojamos iš „Finance and Operations“ programų, sąrašą, ieškokite **„Pašalintos arba nebenaudojamos funkcijos“** turinys, susijęs su jūsų naudojama programa.
 
 Šioje temoje aprašomos funkcijos, kurios buvo pašalintos arba yra nebenaudojamos „Dynamics 365 for Finance and Operations“ ir ankstesniuose šio produkto leidimuose.
 
@@ -37,7 +37,7 @@ ms.locfileid: "6745181"
 
 Šis sąrašas skirtas suteikti jums informacijos apie pašalintas ir nebenaudojamas funkcijas, kad galėtumėte geriau planuoti savo darbą. 
 
-Išsamios informacijos apie „Finance and Operations“ programų objektus rasite skyriuje [Techninės informacijos ataskaitos](/dynamics/s-e/global/axtechrefrep_61). Galite palyginti skirtingas šių ataskaitų versijas, kad sužinotumėte apie objektus, kurie buvo pakeisti ar pašalinti kiekvienoje iš „Finance and Operations“ programų versijų.
+Išsamią informaciją apie objektus „Finance and Operations“ programėlėse rasite [Techninės nuorodos ataskaitos](/dynamics/s-e/global/axtechrefrep_61). Galite palyginti skirtingas šių ataskaitų versijas, kad sužinotumėte apie objektus, kurie buvo pakeisti arba pašalinti kiekvienoje „Finance and Operations“ programų versijoje.
 
 ## <a name="finance-1007-with-platform-update-31"></a>„Finance“ 10.0.7 su „Platform update 31“
 
@@ -50,7 +50,7 @@ Išsamios informacijos apie „Finance and Operations“ programų objektus rasi
 | **Visuotinio diegimo parinktis**              | Visos |
 | **Būsena**                         | Nebenaudojama: nuo 2020 m. gruodžio 1 d. planuojame nebepalaikyti Kinijos kvitų tipų nustatymų be sąskaitų grupių pasirinkimo. Daugiau informacijos apie naujai sukurtas funkcijas žr. „Kas naujo 10.0.7 versijoje“ |
 
-## <a name="finance-and-operations-1006-with-platform-update-30"></a>„Finance and Operations 10.0.6“ su „Platform Update 30“
+## <a name="finance-and-operations-1006-with-platform-update-30"></a>„Finance and Operations 10.0.6“ su „Platform update 30”
 
 
 ### <a name="dimensionhashgethashstr-_message"></a>DimensionHash.getHash(str _message)
@@ -84,11 +84,11 @@ Išsamios informacijos apie „Finance and Operations“ programų objektus rasi
 | **Visuotinio diegimo parinktis**              | Visos |
 | **Būsena**                         | Nebenaudojama: iki 2020 m. spalio 1 d. planuojame nebepalaikyti metodo **setUtcString()**. Kūrėjai turėtų naudoti metodą **setUtcDateTime()**. |
 
-### <a name="blacklist-report-it--feature-reference-it-00001"></a>Juodojo sąrašo ataskaita (IT) – funkcijos nuoroda IT-00001
+### <a name="blocklist-report-it--feature-reference-it-00001"></a>Blokavimo sąrašo ataskaita (IT) – funkcijos nuoroda IT-00001
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Nebenaudojimo / pašalinimo priežastis** | Nėra teisiškai reikalaujama. |
+| **Nerekomendavimo/pašalinimo priežastis** | Nėra teisiškai reikalaujama. |
 | **Pakeitė kita funkcija?**   | Ne |
 | **Paveiktos produkto sritys**         | Italijos lokalizavimas |
 | **Visuotinio diegimo parinktis**              | Visos |
@@ -138,13 +138,13 @@ Išsamios informacijos apie „Finance and Operations“ programų objektus rasi
 </tbody>
 </table>
 
-## <a name="finance-and-operations-1005-with-platform-update-29"></a>„Finance and Operations 10.0.5“ su „Platform Update 29“
+## <a name="finance-and-operations-1005-with-platform-update-29"></a>„Finance and Operations 10.0.5“ su „Platform update 29”
 
 ### <a name="us-payroll-tax-updates"></a>JAV algalapių mokesčių atnaujinimai
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Nerekomendavimo / pašalinimo priežastis** | Mes šaliname JAV algalapių mokesčių atnaujinimus dėl mažo naudojimo ir patobulintos funkcijos, kuri dabar siūloma per strateginę integraciją.  |
+| **Nebenaudojimo / pašalinimo priežastis** | Mes šaliname JAV algalapių mokesčių atnaujinimus dėl mažo naudojimo ir patobulintos funkcijos, kuri dabar siūloma per strateginę integraciją.  |
 | **Pakeitė kita funkcija?**   | Taip |
 | **Paveiktos produkto sritys**         | Payroll |
 | **Visuotinio diegimo parinktis**              | Visos |
@@ -163,7 +163,7 @@ Išsamios informacijos apie „Finance and Operations“ programų objektus rasi
 | **Visuotinio diegimo parinktis**              | Visos  |
 | **Būsena**                         | Nebenaudojama. Tikslinis funkcijos pašalinimo laikotarpis – 2020 m. gruodžio mėn. |
 
-## <a name="finance-and-operations-1004-with-platform-update-28"></a>„Finance and Operations 10.0.4“ su „Platform Update 28“
+## <a name="finance-and-operations-1004-with-platform-update-28"></a>„Finance and Operations 10.0.4“ su „Platform update 28”
 
 ### <a name="france-fec-accounting-data-export-in-xml"></a>Prancūzija: FEC apskaitos duomenų eksportavimas XML formatu
 
@@ -187,7 +187,7 @@ Išsamios informacijos apie „Finance and Operations“ programų objektus rasi
 | **Būsena**                         | Nebenaudojama: nuo 2020 m. balandžio mėn. senstelėjusios naršymo juostos nebebus galima naudoti. Iki tol klientai gali perjungti į senstelėjusią naršymo juostą naudodami puslapį **Kliento našumo parinktys**. |
 
 
-## <a name="finance-and-operations-1002-with-platform-update-26"></a>„Finance and Operations 10.0.2“ su „Platform Update 26“
+## <a name="finance-and-operations-1002-with-platform-update-26"></a>„Finance and Operations 10.0.2“ su „Platform update 26”
 
 
 ### <a name="legacy-default-action-behavior"></a>Senesnis numatytųjų veiksmų veikimas
@@ -231,7 +231,7 @@ Projektinių pardavimo užsakymų, kuriuose projekto sutartis turi kelis lėšų
 | **Visuotinio diegimo parinktis**              | Visos |
 | **Būsena**                         | Nerekomenduojama: tikslinis funkcijos pašalinimo laikotarpis – 2020 m. balandžio mėn. |
 
-## <a name="finance-and-operations-1001-with-platform-update-25"></a>„Finance and Operations 10.0.1“ su „Platform Update 25“
+## <a name="finance-and-operations-1001-with-platform-update-25"></a>„Finance and Operations 10.0.1“ su „Platform update 25”
 
 ### <a name="deprecated-apis-and-potential-breaking-changes"></a>Nebenaudojami API ir gedimus galintys sukelti pakeitimai
 
@@ -256,7 +256,7 @@ Projektinių pardavimo užsakymų, kuriuose projekto sutartis turi kelis lėšų
 | **Visuotinio diegimo parinktis**              | Visos |
 | **Būsena**                         | Nerekomenduojama. Naujinime „Platform Update 26“ įspėjimas bus pakeistas į kompiliavimo klaidą. |
 
-## <a name="finance-and-operations-1000-with-platform-update-24"></a>„Finance and Operations 10.0.0“ su „Platform Update 24“
+## <a name="finance-and-operations-1000-with-platform-update-24"></a>„Finance and Operations 10.0.0“ su „Platform update 24”
 
 ### <a name="renaming-released-products"></a>Išleistų produktų pervardijimas 
 | &nbsp;  |&nbsp;  |
@@ -264,19 +264,19 @@ Projektinių pardavimo užsakymų, kuriuose projekto sutartis turi kelis lėšų
 | **Nebenaudojimo / pašalinimo priežastis** | Kai naudojate funkciją **Pervadinti pirminį raktą**, kad pakeistumėte išleisto produkto „ItemId“, atnaujinamos tik tiesioginės išorinio rakto nuorodos. Visos kitos išleisto produkto nuorodos, pvz., iš gamybos užsakymų, išlaikys seną „ItemId“. Dėl to duomenys gali būti nenuoseklūs, o tai ilgainiui gali blokuoti verslo procesus. |
 | **Pakeitė kita funkcija?**   | Ne. |
 | **Paveiktos produkto sritys**         | Produkto informacijos valdymas |
-| **Visuotinio diegimo parinktis**              | Visi / Viskas  |
-| **Būsena**                         | Pašalinta pradedant nuo „Finance and Operations“ 10.0.0 versijos su 24 platformos naujiniu.|
+| **Visuotinio diegimo parinktis**              | Visos  |
+| **Būsena**                         | Pašalinta iš „Finance and Operations 10.0.0“ su „Platform update 24”.|
 
 
-## <a name="finance-and-operations-813-with-platform-update-23"></a>„Finance and Operations 8.1.3“ su „Platform Update 23“
+## <a name="finance-and-operations-813-with-platform-update-23"></a>„Finance and Operations 8.1.3“ su „Platform update 23”
 
 ### <a name="sql-server-reporting-services-reportviewer-control"></a>„SQL Server Reporting Services“ valdiklis ReportViewer
-Klientai gali naudotis **Eksportuoti** veiksmu, kurį suteikia įdėtasis SQL „Server Reporting Services“ (SSRS) valdiklis „ReportViewer“, kad atsisiųstumėte dokumentus, kuriuos sugeneravo „Finance and Operations“ programos. Ši HTML pagrįsta ataskaitos pateiktis vartotojams siūlo nesunumeruotą dokumento peržiūrą.
+Klientai gali naudoti veiksmą **Eksportuoti**, pateiktą įdėtajame „SQL Server Reporting Services“ (SSRS) valdiklyje ReportViewer, kad atsisiųstų dokumentų, kuriuos sugeneravo „Finance and Operations“ programos. Ši HTML pagrįsta ataskaitos pateiktis vartotojams siūlo nesunumeruotą dokumento peržiūrą.
 
 | &nbsp;  |&nbsp;  |
 |------------|--------------------|
-| **Nebenaudojimo / pašalinimo priežastis** | HTML pagrįsta nesunumeruota peržiūra **ne** užtikrina tikslumo su faktiniais dokumentais, kuriuos galiausiai sugeneruoja „Finance and Operations“. Naudodami PDF kaip standartinį verslo dokumentų formatą ir kurdami programų ataskaitas vartotojai gali išnaudoti šiuolaikiškas peržiūros galimybes ir būti našesni. |
-| **Pakeitė kita funkcija?**   | Ateityje PDF dokumentai bus numatytasis „Finance and Operations“ generuojamų ataskaitų formatas.   |
+| **Nebenaudojimo / pašalinimo priežastis** | HTML pagrįsta nesunumeruota peržiūros sąsaja **neužtikrina** tikslumo lyginant su faktiniais dokumentais, kuriuos galiausiai sugeneruoja „Finance and Operations“. Naudodami PDF kaip standartinį verslo dokumentų formatą ir kurdami programų ataskaitas vartotojai gali išnaudoti šiuolaikiškas peržiūros galimybes ir būti našesni. |
+| **Pakeitė kita funkcija?**   | Žvelgiant į ateitį, PDF dokumentai bus numatytasis „Finance and Operations“ generuojamų ataskaitų formatas.   |
 | **Paveiktos produkto sritys**         | Šis pakeitimas **netaikomas** klientų scenarijuose, kai ataskaitos paskirstomos elektroniniu būdu arba siunčiamos tiesiogiai į spausdintuvus.    |
 | **Visuotinio diegimo parinktis**              | Visos  |
 | **Būsena**                         | Nebenaudojama: šios funkcijos pašalinimo data nenustatyta. Automatinės programų ataskaitų peržiūros naudojant įdėtąją PDF peržiūros programą funkciją planuojama įtraukti į 2019 m. gegužės mėn. „Platform Update“. |
@@ -302,12 +302,12 @@ Klientai gali naudotis **Eksportuoti** veiksmu, kurį suteikia įdėtasis SQL �
 | **Pakeitė kita funkcija?**   | Ateityje šis įspėjimas bus pakeistas į kompiliavimo klaidą. |
 | **Paveiktos produkto sritys**         | „Visual Studio“ kūrimo įrankiai |
 | **Visuotinio diegimo parinktis**              | Visi / Viskas |
-| **Būsena**                         | Nebenaudojama: „Finance and Operations” programų 10.0.11 versijos platformos naujinimuose įspėjimas pakeistas į kompiliacijos laiko klaidą. |
+| **Būsena**                         | Nebenaudojama: įspėjimas yra kompiliavimo laiko klaida, kai atnaujinami „Finance and Operations“ programų 10.0.11 versijos platformos naujiniai. |
 
 #### <a name="complete-list"></a>Visas sąrašas
 Norėdami pasiekti visą nebenaudojamų API sąrašą, žr. [Metodų ir metaduomenų elementų nebenaudojimas](deprecation-deletion-apis.md).
 
-## <a name="finance-and-operations-81-with-platform-update-20"></a>„Finance and Operations 8.1“ su „Platform Update 20“
+## <a name="finance-and-operations-81-with-platform-update-20"></a>„Finance and Operations 8.1“ su „Platform update 20”
 
 ### <a name="batch-transfer-rules-for-subledger-journal-account-entries"></a>Papildomos knygos žurnalo sąskaitų įrašų paketo perkėlimo taisyklės
 DK parametruose sinchroninio perkėlimo režimas nebenaudojamas.  Šis režimas pakeičiamas nesinchroniniu ir skirtu tik suplanuotam paketui, o šios parinktys jau naudojamos perkeliant. Norėdami gauti papildomos informacijos, žr. tinklaraštį [Didžiosios knygos parametrai – paketų perkėlimo taisyklės](https://community.dynamics.com/365/financeandoperations/b/financials/archive/2019/03/15/general-ledger-parameters-batch-transfer-rules).
@@ -328,8 +328,8 @@ Funkcija, skirta konfigūruoti deklaracijų .txt ir .xml failų formatus.
 | **Nebenaudojimo / pašalinimo priežastis** | Pakeista elektroninėmis ataskaitomis. |
 | **Pakeitė kita funkcija?**   | Taip. |
 | **Paveiktos produkto sritys**         | Didžioji knyga |
-| **Visuotinio diegimo parinktis**              | Visi / Viskas |
-| **Būsena**                         | Pašalinta pradedant nuo „Finance and Operations“ 8.1 versijos su 20 platformos naujiniu. |
+| **Visuotinio diegimo parinktis**              | Visos |
+| **Būsena**                         | Pašalinta iš „Finance and Operations 8.1“ su „Platform update 20”. |
 
 ### <a name="financial-reports-generator-for-russia"></a>Rusijos finansinių ataskaitų generatorius
 Įrankis, skirtas apskaitos ir mokesčių ataskaitų duomenų rinkiniui nustatyti ir duomenims į XLS ir DOC ataskaitų šablonus eksportuoti. Funkcinės dalys: duomenų eksportavimas į XLS ir DOC ataskaitų šablonus, užklausos, fiksuotieji rekvizitai pašalinami. 
@@ -339,8 +339,8 @@ Funkcija, skirta konfigūruoti deklaracijų .txt ir .xml failų formatus.
 | **Nebenaudojimo / pašalinimo priežastis** | Pašalintos dalys pakeičiamos elektroninėmis ataskaitomis. |
 | **Pakeitė kita funkcija?**   | Taip. Finansinių ataskaitų sąrankos vartotojo sąsaja turėtų būti naudojama norint nustatyti DK sąskaitų ir mokesčių registrų duomenų rinkimo taisykles. Duomenų eksportavimo į įvairių tipų failus, fiksuotųjų rekvizitų ir į užklausas panašių duomenų rinkimo taisyklės turėtų būti konfigūruojamos elektroninėse ataskaitose. |
 | **Paveiktos produkto sritys**         | Didžioji knyga. |
-| **Visuotinio diegimo parinktis**              | Visi / Viskas |
-| **Būsena**                         | Pašalinta pradedant nuo „Finance and Operations“ 8.1 versijos su 20 platformos naujiniu. |
+| **Visuotinio diegimo parinktis**              | Visos |
+| **Būsena**                         | Pašalinta iš „Finance and Operations 8.1“ su „Platform update 20”. |
 
 ### <a name="integration-with-external-providers-for-sending-electronic-reporting-through-communication-channels-for-russia"></a>Integravimas su išoriniais tiekėjais siekiant elektronines ataskaitas siųsti Rusijos ryšio kanalais
 Eksportuojant funkciją aplanke sukurti elektroniniai deklaracijų failai, kad vėliau juos būtų galima išsiųsti oficialiems elektroninių ataskaitų teikėjams, taip pat importuoti būseną.
@@ -350,8 +350,8 @@ Eksportuojant funkciją aplanke sukurti elektroniniai deklaracijų failai, kad v
 | **Nebenaudojimo / pašalinimo priežastis** | Pakeista konfigūruojama elektroninių pranešimų funkcija. |
 | **Pakeitė kita funkcija?**   | Taip.  |
 | **Paveiktos produkto sritys**         | Didžioji knyga, mokestis |
-| **Visuotinio diegimo parinktis**              | Visi / Viskas |
-| **Būsena**                         | Pašalinta pradedant nuo „Finance and Operations“ 8.1 versijos su 20 platformos naujiniu. |
+| **Visuotinio diegimo parinktis**              | Visos |
+| **Būsena**                         | Pašalinta iš „Finance and Operations 8.1“ su „Platform update 20”. |
 
 
 ### <a name="profit-tax-register-wizard"></a>Pelno mokesčio registro vedlys
@@ -361,9 +361,9 @@ Funkcija, skirta naujiems pelno mokesčio registrų šablonams kurti. Ši funkci
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Funkcija nesuderinama su „Finance and Operations“ išplėtimo modeliu. |
 | **Pakeitė kita funkcija?**   | Ne |
-| **Paveiktos produkto sritys**         | Mokestis |
+| **Paveiktos produkto sritys**         | Mokesčiai |
 | **Visuotinio diegimo parinktis**              | Visos |
-| **Būsena**                         | Pašalinta pradedant nuo „Finance and Operations“ 8.1 versijos su 20 platformos naujiniu. |
+| **Būsena**                         | Pašalinta iš „Finance and Operations 8.1“ su „Platform update 20”. |
 
 ### <a name="payroll-and-human-resources-for-russia"></a>Rusijos atlyginimų ir personalo valdymas
 Rusijos šaliai skirtas modulis, skirtas darbuotojų administravimo informacijai valdyti, darbuotojų tabelio informacijai, atlyginimų apskaitai ir mokėjimo išrašų sukūrimui. 
@@ -376,10 +376,10 @@ Rusijos šaliai skirtas modulis, skirtas darbuotojų administravimo informacijai
 | **Visuotinio diegimo parinktis**              | Visos |
 | **Būsena**                         | Nebenaudojama: tikslinis funkcijos pašalinimo laikotarpis yra 10.0 versija ir ateities naujinimai. |
 
-## <a name="finance-and-operations-80-with-platform-update-15"></a>„Finance and Operations 8.0“ su „Platform Update 15“
+## <a name="finance-and-operations-80-with-platform-update-15"></a>„Finance and Operations 8.0“ su „Platform update 15”
 Iš šio leidimo nebuvo pašalintos jokios funkcijos ir visos jos yra tebenaudojamos. 15 platformos naujinimas yra kaupiamasis ir jame pateikiamos naujos arba pakeistos 13 platformos naujinimo, 14 platformos naujinimo ir 15 platformos naujinimo funkcijos.
 
-## <a name="finance-and-operations-enterprise-edition-73-with-platform-update-12"></a>„Finance and Operations“, „Enterprise Edition 7.3“ su 12 platformos naujiniu
+## <a name="finance-and-operations-enterprise-edition-73-with-platform-update-12"></a>„Finance and Operations, Enterprise edition 7.3“ su „Platform update 12”
 
 ### <a name="personalized-product-recommendations"></a>Personalizuotų produktų rekomendacijos 
 Nuo 2018 m. vasario 15 d. mažmenininkai nebegalės rodyti personalizuotų produktų rekomendacijų elektroninio kasos aparato (EKA) įrenginyje. Išsamesnės informacijos žr. [Produktų rekomendacijų apžvalga](../../../commerce/product-recommendations.md).  
@@ -401,11 +401,11 @@ Pasirinktinių funkcijų įtraukti norint naudoti ER išraiškos daryklė (daugi
 | **Pakeitė kita funkcija?**   | Nėra. Kai reikalinga nauja įtaisytoji funkcija, naują išplėtimo užklausą reikia skirti ER sistemos komandai.<br><br>Kol ER komanda kuria pageidaujamą funkciją, šią problemą galima laikinai išspręsti – reikalingą logiką galima suprogramuoti kaip pasirinktinės programos klasės metodą. Šį metodą galima pasiekti ER išraiškoje kaip įtraukto ER duomenų šaltinio, kurio tipas **Programa \ klasė**, ypatybę, nurodančią tą pasirinktinę programos klasę.  |
 | **Paveiktos produkto sritys**         | Elektroninių ataskaitų sistema                                                      |
 | **Visuotinio diegimo parinktis**              | Visos                                                                                      |
-| **Būsena**                         | Pašalinta iš „Finance and Operations, Enterprise Edition 7.3“.    |
+| **Būsena**                         | Pašalinta iš „Finance and Operations, Enterprise edition 7.3‟.    |
 
 ### <a name="inventory-by-item-group-and-inventory-by-inventory-dimension-aging-reports"></a>Atsargos pagal prekių grupę ir atsargos pagal atsargų dimensijų skirstymo pagal terminus ataskaitas
 
-Šios dvi ataskaitos nebepalaikomos programoje „Finance and Operations“. Vietoje to galima naudoti ataskaitą **Atsargų skirstymas pagal terminus**, norint pagerinti vartotojų patirtį.
+Šios dvi ataskaitos nebepalaikomos „Finance and Operations“. Vietoje to galima naudoti ataskaitą **Atsargų skirstymas pagal terminus**, norint pagerinti vartotojų patirtį.
 
 | &nbsp;  | &nbsp; |
 |--------------|-----------------------|
@@ -416,11 +416,11 @@ Pasirinktinių funkcijų įtraukti norint naudoti ER išraiškos daryklė (daugi
 | **Būsena**                       | Nebenaudojama: abiejų ataskaitų meniu elementai buvo pašalinti iš 7.3 versijos. Tačiau į produktą vis dar įtrauktas ataskaitų kodas. Kodą planuojama pašalinti iš būsimo leidimo. |
 
 ### <a name="power-bi-content-packs-available-on-appsource"></a>„Power BI“ turinio paketai, prieinami „AppSource“
-Turinio paketai **Išlaidų valdymas**, **Finansinė veikla** ir **Retail Channel Performance**, prieinami svetainėje [Microsoft AppSource](https://appsource.microsoft.com), yra nebenaudojami dėl „Microsoft Power BI“ produkto naujinių. Sistemos administravimo formos, naudojamos šiems turinio paketams PowerBI.com diegti, taip pat nebenaudojamos programoje „Finance and Operations“.
+Turinio paketai **Išlaidų valdymas**, **Finansinė veikla** ir **Retail Channel Performance**, prieinami svetainėje [Microsoft AppSource](https://appsource.microsoft.com), yra nebenaudojami dėl „Microsoft Power BI“ produkto naujinių. Sistemos administravimo formos, naudojamos šiems turinio paketams PowerBI.com diegti, taip pat yra nebenaudojami „Finance and Operations“.
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Nebenaudojimo/pašalinimo priežastis** | „Microsoft Power BI“ produkto naujiniai. |
+| **Nerekomendavimo/pašalinimo priežastis** | „Microsoft Power BI“ produkto naujiniai. |
 | **Pakeitė kita funkcija?**   | Turinio paketai **Išlaidų valdymas**, **Finansinė veikla** ir **Retail Channel Performance**, prieinami svetainėje [AppSource](https://appsource.microsoft.com), keičiami analizės programomis, kurios suteikia galimybę integruoti sprendimą duomenų bazės lygiu. Daugiau informacijos apie analizės programas žr. [Įdėtosios „Power BI“ darbo sritys](../../dev-itpro/analytics/embed-power-bi-workspaces.md).    |
 | **Paveiktos produkto sritys**         | Išlaidų valdymas, „Finance“ ir „Retail“                                                                                               |
 | **Visuotinio diegimo parinktis**              | Tik debesyje (integravimas su PowerBI.com nepalaikomas vietinėse įdiegtyse.)                                                                                                            |
@@ -498,7 +498,7 @@ Nuo 2018 m. vasario 15 d. mažmenininkai nebegalės rodyti personalizuotų produ
 | **Būsena**                         |Pašalinta nuo 2018 m. vasario 15 d. Tai turės įtakos klientams, naudojantiems „Dynamics 365 for Retail 7.2“ ir vėlesnes versijas. |
 
 
-## <a name="finance-and-operations-enterprise-edition-july-2017-with-platform-update-8"></a>„Finance and Operations“, „Enterprise Edition“ (2017 m. liepos mėn.) su 8 platformos naujiniu
+## <a name="finance-and-operations-enterprise-edition-july-2017-with-platform-update-8"></a>„Finance and Operations, Enterprise edition“ (2017 m. liepos mėn.) su „Platform update 8”
 
 ### <a name="currency-conversion-for-accounting-and-reporting-currencies"></a>Valiutos konvertavimas, skirtas apskaitos ir ataskaitų valiutoms
 
@@ -514,12 +514,12 @@ Valiutos konvertavimas, skirtas apskaitai ir ataskaitų valiutoms, buvo įdiegta
 
 ### <a name="warehouse-mobile-devices-portal"></a>Sandėlio mobiliųjų įrenginių portalas
 
-Sandėlio mobiliųjų įrenginių portalas (WMDP) buvo atskiras komponentas, kuris buvo skirtas vietiniam savarankiškam diegimui. Šis komponentas nebepalaikomas programoje „Finance and Operations“. Vietinė vartotojo patirtį pagerinanti programa pakeitė WMDP funkcijas.
+Sandėlio mobiliųjų įrenginių portalas (WMDP) buvo atskiras komponentas, kuris buvo skirtas vietiniam savarankiškam diegimui. Šis komponentas nebepalaikomas „Finance and Operations“. Vietinė vartotojo patirtį pagerinanti programa pakeitė WMDP funkcijas.
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Besidubliuojančios funkcijos.       |
-| **Pakeitė kita funkcija?**   | Taip. Šią funkciją pakeitė „Finance and Operations“ – sandėliavimas. Norėdami gauti daugiau informacijos apie sąranką ir būtinąsias sąlygas, žr. [Sandėliavimo programos diegimo ir konfigūravimo apžvalga](../../../supply-chain/warehousing/install-configure-warehousing-app.md). |
+| **Pakeitė kita funkcija?**   | Taip. Šią funkciją pakeitė „Finance and Operations“ – versija „Warehousing“. Norėdami gauti daugiau informacijos apie sąranką ir būtinąsias sąlygas, žr. [Sandėliavimo programos diegimo ir konfigūravimo apžvalga](../../../supply-chain/warehousing/install-configure-warehousing-app.md). |
 | **Paveiktos produkto sritys**         | Sandėlio valdymas, transportavimo valdymas     |
 | **Visuotinio diegimo parinktis**              | Sandėlio mobiliųjų įrenginių portalas (WMDP) buvo atskiras komponentas, kuris buvo skirtas vietiniam savarankiškam diegimui.               |
 | **Būsena**                         | Nebenaudojama: tikslinis funkcijos pašalinimo laikotarpis – 2019 m. 4 ketvirtis.   |
@@ -949,7 +949,7 @@ ICMS mokesčio federalinių mokesčių ataskaita
 |  &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Šis atsakomųjų priemonių metodas nebetaikomas nė vienoje Brazilijos apskrityje |
-| **Pakeitė kita funkcija?**   | Ne.                                                                          |
+| **Pakeitė kita funkcija?**   | Ne                                                                          |
 | **Paveiktos produkto sritys**         | Gautinos sumos                                                         |
 | **Būsena**                         | Nebenaudojama: šios funkcijos pašalinimo data nenustatyta.              |
 
@@ -1029,7 +1029,7 @@ Atitikties centras buvo įmonės portalo svetainė, skirta valdyti atitikties in
 |  &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Eilių grupės buvo naudojamos rodyti vienai ar kelioms Eilėms „FactBox‟ srityje. Naudojimas buvo ribotas, taip pat buvo našumo klausimų, kadangi pirminės formos įrašo pakeitimas lėmė vieną Eilės užklausą Eilių grupėje. |
-| **Pakeitė kita funkcija?**   | Ne.      |
+| **Pakeitė kita funkcija?**   | Ne      |
 | **Paveiktos produkto sritys**         | Visi moduliai    |
 | **Būsena**                         | Pašalinta iš „Dynamics AX 7.0“.  |
 
@@ -1057,7 +1057,7 @@ Naudojant duomenų skaidinius duomenys logiškai suskaidomi „Dynamics AX“ du
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Nebenaudojimo / pašalinimo priežastis** | Duomenų skaidiniai pristatyti „Dynamics AX 2012 R2“, kad būtų galima duomenis atskirti. Įprastu scenarijumi įmonė turi dukterinių įmonių ir vienos dukterinės įmonės duomenų kita dukterinė įmonė neturėtų matyti, nors abi dukterinės įmonės valdomos to paties IT skyriaus. Tačiau visoje programoje buvo reikalingi papildomi scenarijai ir pridėtinės valdymo išlaidos, siekiant sukurti naujus skaidinius ir užpildyti juos duomenimis bei sukurti skaidinio duomenų atsarginę kopiją. Debesyje teikiama prieiga prie paslauginės platformos duomenų bazės tarnybų („Microsoft Azure“ SQL duomenų bazės), todėl tai yra daug efektyvesnis būdas duomenų bazę naudoti kaip atskirtą konteinerį negu atskyrimą atlikti programoje. Nesvarbu, ar duomenų skaidymas reikalingas filialams, keliems nuomotojams, ar tiesiog dėl masto, manome, kad scenarijus galima tvarkyti geriau naudojant kelis „Finance and Operations“ egzempliorius. |
+| **Nebenaudojimo / pašalinimo priežastis** | Duomenų skaidiniai pristatyti „Dynamics AX 2012 R2“, kad būtų galima duomenis atskirti. Įprastu scenarijumi įmonė turi dukterinių įmonių ir vienos dukterinės įmonės duomenų kita dukterinė įmonė neturėtų matyti, nors abi dukterinės įmonės valdomos to paties IT skyriaus. Tačiau visoje programoje buvo reikalingi papildomi scenarijai ir pridėtinės valdymo išlaidos, siekiant sukurti naujus skaidinius ir užpildyti juos duomenimis bei sukurti skaidinio duomenų atsarginę kopiją. Debesyje teikiama prieiga prie paslauginės platformos duomenų bazės tarnybų („Microsoft Azure“ SQL duomenų bazės), todėl tai yra daug efektyvesnis būdas duomenų bazę naudoti kaip atskirtą konteinerį negu atskyrimą atlikti programoje. Nesvarbu, ar duomenų skaidymas reikalingas filialams, keliems nuomininkams, ar tiesiog dėl masto, manome, kad scenarijus galima tvarkyti geriau naudojant kelis „Finance and Operations“ egzempliorius. |
 | **Pakeitė kita funkcija?**   | Klientai, naudojantys duomenų skaidinius, turi naudoti kelis „Finance and Operations“ egzempliorius, jei duomenų bazės lygių atskyrimas yra didelė problema.    |
 | **Paveiktos produkto sritys**         | Visi moduliai  |
 | **Būsena**                         | Pašalinta iš „Dynamics AX 7.0“.  |
@@ -1098,7 +1098,7 @@ Programoje „Dynamics AX 2012 R3“ „Retail Modern POS“ gali tiesiogiai pri
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Nebenaudojimo / pašalinimo priežastis** | Tiesioginiam duomenų bazės ryšiui reikia žemesnio lygio saugos protokolų ir jis daugiausia buvo naudojamas siekiant aukščiausio lygio efektyvumo. Dėl „Finance and Operations‟ įdiegtų efektyvumo ir saugos patobulinimų dabar ši funkcija sukelia daugiau problemų, negu jų išsprendžia. |
+| **Nebenaudojimo / pašalinimo priežastis** | Tiesioginiam duomenų bazės ryšiui reikia žemesnio lygio saugos protokolų ir jis daugiausia buvo naudojamas siekiant aukščiausio lygio efektyvumo. Dėl „Dynamics 365 Finance and Operations‟ įdiegtų efektyvumo ir saugos patobulinimų dabar ši funkcija sukelia daugiau problemų, negu išsprendžia. |
 | **Pakeitė kita funkcija?**   | Ne. Dabar palaikomas tik standartinis „Retail Server“ ryšys.  |
 | **Paveiktos produkto sritys**         | Kanalo duomenų bazė / „Retail Modern POS“   |
 | **Būsena**                         | Pašalinta iš „Dynamics AX 7.0“.  |
@@ -1391,7 +1391,7 @@ Virtualių įmonių funkcija programoje „Dynamics AX“ nebepalaikoma. Virtual
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Nebenaudojimo / pašalinimo priežastis** | „Finance and Operations“ suderinamas su planšetiniais kompiuteriais. Planšetinių kompiuterių programėlės nebereikia.    |
+| **Nebenaudojimo / pašalinimo priežastis** | „Finance and Operations” suderinama su planšetiniais kompiuteriais. Planšetinių kompiuterių programėlės nebereikia.    |
 | **Pakeitė kita funkcija?**   | Ne.          |
 | **Paveiktos produkto sritys**         | Išlaidų valdymas   |
 | **Būsena**                         | Pašalinta: šią funkciją galima naudoti tik „Dynamics AX 2012“ R3. |

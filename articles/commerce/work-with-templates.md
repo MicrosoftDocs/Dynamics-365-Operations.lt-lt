@@ -2,7 +2,7 @@
 title: Darbas su šablonais
 description: Šioje temoje aprašoma, kaip programoje „Microsoft Dynamics 365 Commerce“ dirbti su šablonais.
 author: phinneyridge
-ms.date: 04/14/2020
+ms.date: 02/03/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 96a8cbfd208095833514f374c060bb2d43781913
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
-ms.translationtype: HT
+ms.openlocfilehash: ab6ccfac96249b39cb007d9a9fce10475f0c7149
+ms.sourcegitcommit: 1eef00796f7c5511f432b01800cdf8920992d7d5
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5793854"
+ms.lasthandoff: 02/04/2022
+ms.locfileid: "8090799"
 ---
 # <a name="work-with-templates"></a>Darbas su šablonais
 
@@ -38,7 +38,7 @@ Kaip buvo aptarta [šablonų ir maketų apžvalgoje](templates-layouts-overview.
 - Išlaikykite savo įmonės įvaizdžio vientisumą svetainėse, nustatydami patvirtintą modulio išdėstymo ir konfigūracijos parinkčių rinkinį.
 
     > [!TIP] 
-    > Sėkmingos el. prekybos svetainės teikia klientams žinomus, pakartojamus ir atitinkančius įmonės įvaizdį vartotojo patirties (UX) dizaino modelius. Naudodami šablonus užtikrinsite vientisumą savo svetainėje.
+    > Sėkmingos el. prekybos svetainės suteikia klientams pažįstamus, pakartojamus ir pagal prekės ženklą atitinkančius vartotojo patirties (UX) dizaino modelius. Naudodami šablonus užtikrinsite vientisumą savo svetainėje.
 
 - Pagerinkite ieškos modulio optimizavimo (SEO) rezultatus, užtikrindami pakartojamus ir programiškai apibrėžtus puslapių aprašus ir metaduomenis.
 
@@ -49,7 +49,7 @@ Kaip buvo aptarta [šablonų ir maketų apžvalgoje](templates-layouts-overview.
 
 Šablonai modifikuojami naudojant šablonų rengyklę.
 
-Norėdami atidaryti šablonų rengyklę, atlikite vieną iš šių veiksmų:
+Norėdami atidaryti šablonų rengyklę „Commerce“ svetainių kūrimo priemonėje, atlikite vieną iš šių veiksmų:
 
 - Savo svetainės naršymo srityje pasirinkite **Šablonai** ir pasirinkite šabloną, kurį norite modifikuoti.
 - Esamo puslapio puslapių rengyklėje pasirinkite viršutinį mazgą kairiajame struktūros medyje. Tada, dešiniojoje ypatybių srityje pasirinkite **Redaguoti šabloną**.
@@ -64,9 +64,9 @@ Kairėje esančiame struktūros medžio rodinyje rodomos modulio parinktys ir st
 | Maks. modulių (konteinerių) skaičius | Konteinerių moduliuose ši ypatybė nurodo maksimalų visų modulių, kuriuos reikia įtraukti kaip antrinius modulius, skaičių. Pvz., naudojant karuselės modulį, vertė gali būti nustatyta kaip skaičius, kuris yra mažesnis nei 10. |
 | Užblokuota | Bulio logikos valdiklis **Užblokuota** atsiranda šalia visų pagrindinių modulio ypatybių. Juo šablono autorius gali užblokuoti modulio parametrus šablone. Užblokuoto modulio parametro negalima perrašyti naudojant bet kuriuos antrinius maketus arba puslapius. Jis tampa centralizuotai redaguotina visų maketų ir puslapių, kuriuose naudojamas šis šablonas, ypatybė. |
 
-## <a name="create-a-new-template"></a>Sukurkite naują šabloną
+## <a name="create-a-new-template"></a>Kurti naują šabloną
 
-Norėdami sukurti naują šabloną, atlikite toliau nurodytus veiksmus.
+Norėdami sukurti naują šabloną svetainių kūrimo priemonėje, atlikite šiuos veiksmus.
 
 1. Savo svetainės naršymo srityje pasirinkite **Šablonai**, kad atidarytumėte šablono inspektoriaus rodinį.
 1. Pasirinkti **Naujas šablonas**.
@@ -85,7 +85,7 @@ Naujo puslapio konteinerio modulyje matysite naują atkarpų rinkinį **(Antraš
 
 ## <a name="add-a-header-and-a-footer"></a>Antraštės ir poraštės įtraukimas
 
-Jei jūsų svetainėje jau yra antraštės fragmentas, atlikite šiuos veiksmus, kad į šabloną įtrauktumėte antraštę ir poraštę.
+Jei jūsų svetainėje jau yra antraštės fragmentas, atlikite šiuos svetainės kūrimo priemonės veiksmus, kad pridėtumėte antraštę ir poraštę prie šablono.
 
 1. Struktūros medyje išplėskite atkarpą **Pagrindinė dalis** ir jos antrinį puslapio modulį.
 1. Pasirinkite atkarpą **Antraštė**.
@@ -98,7 +98,7 @@ Jei jūsų svetainėje dar nėra antraštės fragmento, žr. temoje [Fragmento k
 
 ## <a name="change-the-template-theme"></a>Šablono temos keitimas
 
-Norėdami nustatyti numatytąją temą visiems puslapiams, kurie naudoja šabloną, atlikite šiuos veiksmus.
+Norėdami nustatyti numatytąją temą visiems puslapiams, kuriuose naudojamas šablonas, atlikite šiuos svetainės kūrimo priemonės veiksmus.
 
 1. Struktūros medyje kairėje išplėskite atkarpą **Pagrindinė dalis**.
 1. Atkarpoje **Pagrindinė dalis** pasirinkite puslapio konteinerio modulį (pvz., **Numatytasis puslapis**).
@@ -110,7 +110,7 @@ Pagal numatytuosius parametrus visuose naujuose puslapiuose dabar bus naudojama 
 
 Prie šablono galite pridėti HTML **&lt;scenarijaus&gt;** elementų, kuriuose yra „JavaScript“. Tokiu būdu galite pateikti numatytąjį scenarijaus veikimą HTML antraštės, pagrindinės dalies pradžios ir pagrindinės dalies pabaigos puslapių skyriams.
 
-Norėdami įtraukti scenarijų į šabloną, atlikite toliau nurodytus veiksmus.
+Norėdami pridėti scenarijų prie šablono svetainių kūrimo priemonėje, atlikite šiuos veiksmus.
 
 1. Kairėje esančiame struktūros medyje pasirinkite atkarpą, į kurią norite įtraukti **&lt;scenarijaus&gt;** elementą (pvz., HTML antraštę, pagrindinės dalies pradžią ar pagrindinės dalies pabaigą).
 1. Pasirinkite prie atkarpos esantį daugtaškio mygtuką, tada – **Įtraukti modulį**.
@@ -123,7 +123,7 @@ Norėdami įtraukti scenarijų į šabloną, atlikite toliau nurodytus veiksmus.
 
 ## <a name="save-check-in-preview-and-publish-a-template"></a>Šablono įrašymas, įrašymas bei atrakinimas ir publikavimas
 
-Norėdami įrašyti ir įrašyti bei atrakinti šabloną, atlikite šiuos veiksmus.
+Norėdami išsaugoti ir patikrinti šabloną svetainių kūrimo priemonėje, atlikite šiuos veiksmus.
 
 1. Šablono rengyklės viršuje pasirinkite **Įrašyti**. Įrašyti keitimai neturės įtakos tolesniems puslapiams, kol jie nebus įrašomi ir atrakinami.
 1. Pasirinkite **Baigti redagavimą**. Dabar jūsų keitimai yra aptinkami atsiuntimo srauto darbo eigose.
@@ -138,6 +138,18 @@ Kai peržiūrėsite šablono keitimus, atlikite vieną iš toliau nurodytų veik
 
 > [!WARNING]
 > Kai šablonas arba bet kuris kitas turinio valdymo sistemos (TVS) elementas publikuojamas, jis aptinkamas internete. Nepublikuokite dokumentų arba šaltinių, kol nebūsite pasirengę juos publikuoti. Dokumento versijos, kurios buvo įrašytos ir atrakintos, bet nebuvo publikuotos, yra matomos tik autentifikuotiems sistemos vartotojams.
+
+## <a name="rename-a-template"></a>Pervardykite šabloną
+
+Norėdami pervardyti esamą šabloną svetainių kūrimo priemonėje, atlikite šiuos veiksmus.
+
+1. Kairiojoje naršymo srityje pasirinkite **Šablonai**.
+1. Pasirinkite šablono, kurį norite pervardyti, pavadinimą.
+1. Pasirinkite **Redaguoti** norėdami pradėti redaguoti šabloną. Atminkite, kad negalite redaguoti šablono, jei kas nors kitas jau redaguoja šabloną.
+1. Šablono ypatybių srityje pasirinkite rašiklio simbolį šalia šablono pavadinimo.
+1. Jei reikia, redaguokite šablono pavadinimą.
+1. Pažymėkite varnelę, kad patvirtintumėte pavadinimo pakeitimą.
+1. Pasirinkite **Baigti redagavimą**.
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 

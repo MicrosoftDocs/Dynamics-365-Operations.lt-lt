@@ -2,11 +2,9 @@
 title: Mažėjančios vertės nusidėvėjimas po skaidymo
 description: Šioje temoje aprašomas metodas, naudojamas ilgalaikiam turtui nusidėvėjimui skaičiuoti po to, kai turtas skaidomas naudojant sumažinimo balanso metodą.
 author: moaamer
-manager: Ann Beebe
 ms.date: 11/17/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-11-17
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: f276f49e5b1bc2814dc851f1ad4204a151d86c43
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
-ms.translationtype: HT
+ms.openlocfilehash: 8e59ff1ef2b06a7203c1023bade7f06019479f3929dfbd582860f102c46b49f0
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5222388"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6737706"
 ---
 # <a name="reduce-balance-depreciation-after-a-split"></a>Mažėjančios vertės nusidėvėjimas po skaidymo
 
@@ -39,7 +37,7 @@ Pavyzdžiui, šios sąlygos galioja.
 - Pirmųjų finansinių metų nusidėvėjimas lygus 18 000 USD, mėnesinis nusidėvėjimas yra lygus 150 USD, o turtas nusidėvimas iki 2019 m. lapkričio, suma – 738,75 USD.
 - 2019 m. lapkritį 80 procentų turto išskaidoma į kitą ilgalaikį turtą.
 
-[![Mažėjančios vertės nusidėvėjimas po skaidymo](./media/reduce-balance-depreciation-after-split.png)](./media/reduce-balance-depreciation-after-split.png)
+[![Mažėjančios vertės nusidėvėjimas po skaidymo.](./media/reduce-balance-depreciation-after-split.png)](./media/reduce-balance-depreciation-after-split.png)
 
 Pradinio turto nusidėvėjimo suma yra 1822,25 USD. Ši suma yra lygi NBV prieš registruojant išskaidytą operaciją (9111,25 USD), pridėjus įsigijimo suderinimą, sugeneruotą registruojant skaidymo operaciją (–8000 USD), pridėjus nusidėvėjimo suderinimą, sugeneruotą per išskaidytą operaciją (711 USD). Todėl antraisiais metais nusidėvėjimas yra (1822,25 × 18 proc.) ÷ 12 = 27,33 USD.
 

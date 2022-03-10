@@ -2,7 +2,6 @@
 title: Iš anksto apibrėžtų produkto variantų kūrimas
 description: Šia procedūra apžvelgiamas bendrojo produkto variantų kūrimas naudojant produkto dimensijų kombinacijas.
 author: t-benebo
-manager: tfehr
 ms.date: 04/22/2021
 ms.topic: business-process
 ms.prod: ''
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: acd2e3f1464dfed09ee24764270b06970b747d7c
-ms.sourcegitcommit: cd9016e9787169cb800889d335b9c5919ddbe4af
-ms.translationtype: HT
+ms.openlocfilehash: 6d3a4ae8efd438e01c263af1c0a1746d9484e491
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/23/2021
-ms.locfileid: "5938207"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103103"
 ---
 # <a name="predefined-product-variants"></a>Iš anksto apibrėžti produkto variantai
 
@@ -78,8 +77,6 @@ Norėdami kurti produkto variantus:
 
 ## <a name="improved-variant-suggestions"></a>Patobulinti variantų pasiūlymai
 
-[!INCLUDE [preview-banner-section](../../../includes/preview-banner-section.md)]
-
 Variantų pasiūlymų puslapio patobulinimų funkcija pagerina variantų pasiūlymų puslapį, kad adresuoti našumo ir tinkamumo naudoti problemas įmonėse, kurios turi daug *produkto* dimensijų **derinių**. Patobulintas produkto dimensijų reikšmių pasirinkimo procesas, kurio variantų pasiūlymus būtų galima atlikti greičiau ir paprasčiau identifikuoti bei pateikti atitinkamą produkto variantų rinkinį.
 
 Šią priemonę pridėjo šie patobulinimai:
@@ -87,12 +84,9 @@ Variantų pasiūlymų puslapio patobulinimų funkcija pagerina variantų pasiūl
 - **Atidėtas variantų pasiūlymų generavimas: variantų pasiūlymų puslapyje, kai pirmą kartą** jį **atidarote**, nebėra pasiūlymų. Todėl turite tiesiogiai pasirinkti, kurių verčių jums reikia, tada pasirinkti **mygtuką** Siūlyti, kad būtų generuojamos kombinacijos. Taip procesas bus matomas ir interaktyviau.
 - **Dimensijų verčių pasirinkimas: kai turite daug dimensijų verčių, paprastai jus domina generuoti variantų pasiūlymus, kuriuose yra tik keletas iš jų (pvz., pristatant naują spalvų arba stilių** rinkinį). Naudodami patobulintą dizainą, galite pasirinkti dimensijų vertes, kurioms norite generuoti produkto variantų pasiūlymus. Tai labai padidina siūlomų variantų tinkamumą ir pagerina sistemos našumą ir vartotojo produktyvumą.
 
-### <a name="turn-on-the-variant-suggestions-page-improvements-feature"></a>Variantų pasiūlymų puslapio patobulinimų funkcijos įjungimas
+### <a name="turn-the-variant-suggestions-page-improvements-feature-on-or-off"></a>Įjungti arba išjungti variantų pasiūlymų puslapio patobulinimų funkciją
 
-Norėdami naudoti *Varianto siūlymo puslapio gerinimų* funkciją, įjunkite ją savo sistemoje. Administratoriai gali naudoti [funkcijos valdymas](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) parametrus, norėdami sužinoti funkcijos būseną ir įjungti ją. Darbo srityje **Funkcijų valdymas** ši funkcija yra nurodyta toliau pateikiamu būdu.
-
-- **Modulis:** *Produkto informacijos valdymas*
-- **Funkcijos pavadinimas:** *Variantų pasiūlymų puslapio patobulinimai*
+Kaip ir tiekimo grandinės valdymo versija 10.0.25 ši funkcija įjungiama pagal numatytąjį nustatymą. Administratoriai gali įjungti arba išjungti šią funkciją *, ieškodami variantų pasiūlymų puslapio patobulinimų* funkcijos funkcijų [valdymo darbo](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) srityje.
 
 ### <a name="work-with-the-improved-variant-suggestions"></a>Dirbti su patobulintais variantų pasiūlymais
 

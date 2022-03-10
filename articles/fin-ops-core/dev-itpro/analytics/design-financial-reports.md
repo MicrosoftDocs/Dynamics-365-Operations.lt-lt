@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 96c1cccccd2b20626dba14d9b0cb97bef10732fd
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
-ms.translationtype: HT
+ms.openlocfilehash: c13169ab05dd506f75b2c9d28f05fcf4471f5a7c8f0a563c974bc38949993295
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5749709"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6724448"
 ---
 # <a name="view-and-design-financial-reports"></a>Finansinių ataskaitų peržiūra ir kūrimas
 
@@ -151,7 +151,7 @@ Atlikdami šią užduotį, jūs modifikuosite esamą numatytąją ataskaitą. Į
 4. Pasirinkite **Failas** &gt; **Įrašyti kaip** ir pavadinkite ataskaitą **Konsoliduota balanso ir sugretinamų įplaukų ataskaita**.
 5. Pakeiskite pagrindinius metus į 2012.
 6. Spustelėkite medžio tipo išplečiamąją rodyklę ir pasirinkite **Organizacijos hierarchijos**.
-7. Spustelėkite medžio išplečiamąją rodyklę ir pasirinkite **Contoso Holdings.**
+7. Spustelėkite medžio išplečiamąją rodyklę ir pasirinkite **„Contoso Holdings“**.
 8. Įrašykite pakeitimus ir sugeneruokite ataskaitą. Jei būsite paraginti, pasirinkite visus ataskaitų vienetus. Kai ataskaita baigs generuotis ir atsidarys, galėsite ją panagrinėti.
 9. Pasirinkite **Ataskaitos parinktys**.
 10. Pasirinkite **Įtraukti dimensijos filtrą** ir pasirinkite **Padalinys**.

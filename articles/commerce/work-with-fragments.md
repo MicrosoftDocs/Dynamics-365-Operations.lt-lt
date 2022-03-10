@@ -2,7 +2,7 @@
 title: Darbas su fragmentais
 description: Šioje temoje aprašoma, kodėl, kada ir kaip naudoti fragmentus programoje „Microsoft Dynamics 365 Commerce“.
 author: phinneyridge
-ms.date: 10/16/2020
+ms.date: 02/03/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 017cdc76368ae4f80131471a289aa03ab06c99bf
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
-ms.translationtype: HT
+ms.openlocfilehash: 98cb1fba158ea99427d2068ca49b257cb5290de3
+ms.sourcegitcommit: 1eef00796f7c5511f432b01800cdf8920992d7d5
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6350213"
+ms.lasthandoff: 02/04/2022
+ms.locfileid: "8090749"
 ---
 # <a name="work-with-fragments"></a>Darbas su fragmentais 
 
@@ -121,6 +121,20 @@ Norėdami redaguoti fragmentą „Commerce” svetainių daryklėje, atlikite to
 1. Pagal poreikius redaguokite fragmento modulio ypatybes ir struktūrą. Šis procesas panašus į modulių, kurie redaguojami puslapio rengyklės rodinyje, redagavimo procesą.
 
 Fragmentą taip pat galite redaguoti pasirinkę jį puslapyje, šablone arba pirminiame fragmente, o tada dešinėje pusėje esančioje ypatybių srityje pasirinkę **Redaguoti fragmentą**.
+
+### <a name="rename-a-fragment"></a>Pervardykite fragmentą
+
+Norėdami pervardyti esamą fragmentą svetainių kūrimo priemonėje, atlikite šiuos veiksmus.
+
+1. Kairiojoje naršymo srityje pasirinkite **Fragmentai**.
+1. Pasirinkite fragmento, kurį norite pervardyti, pavadinimą.
+1. Pasirinkite **Redaguoti** norėdami pradėti redaguoti fragmentą. Atminkite, kad negalite redaguoti fragmento, jei kas nors kitas jau redaguoja fragmentą.
+1. Fragmento ypatybių srityje pasirinkite rašiklio simbolį šalia fragmento pavadinimo.
+1. Jei reikia, redaguokite fragmento pavadinimą.
+1. Pažymėkite varnelę, kad patvirtintumėte pavadinimo pakeitimą.
+1. Pasirinkite **Baigti redagavimą**.
+
+Sukūrusį fragmentą galite pervardyti jį redaguodami ir ypatybių srityje šalia fragmento pavadinimo pasirinkę rašiklio simbolį.
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 

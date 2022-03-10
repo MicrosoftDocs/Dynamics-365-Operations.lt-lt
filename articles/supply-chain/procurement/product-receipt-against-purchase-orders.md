@@ -1,7 +1,7 @@
 ---
 title: Produkto gavimas pagal pirkimo užsakymą
 description: Šioje temoje aprašomos įvairios produktų registravimo kaip baigtų produktų parinktys.
-author: kamaybac
+author: Henrikan
 ms.date: 11/15/2018
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 93113
 ms.assetid: d4ec3e86-fce2-4546-911b-e0acf64c8887
 ms.search.region: Global
-ms.author: dabourq
+ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 797c5ee7a731ace8134d016272700aa9d718cf75
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
-ms.translationtype: HT
+ms.openlocfilehash: 8c22b4f914dc7eba34f2f9a2657d21d66f38c019
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5909185"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7570519"
 ---
 # <a name="product-receipt-against-purchase-orders"></a>Produkto gavimas pagal pirkimo užsakymą
 
@@ -53,8 +53,7 @@ PU apdorojus produkto gavimą, PU būsena nustatoma kaip **Gauta**, siekiant nur
 
 Šį puslapį galite daryti iš puslapio **Pirkimo užsakymas** veiksmų grupės **Gavimas**. Žurnalų informacija apima informaciją apie kiekius, datas ir dimensijas.
 
-<a name="additional-resources"></a>Papildomi ištekliai
---------
+## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Pirkimo užsakymų apžvalga](purchase-order-overview.md)
 

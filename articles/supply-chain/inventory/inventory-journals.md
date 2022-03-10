@@ -1,7 +1,7 @@
 ---
 title: Atsargų žurnalai
 description: Šioje temoje aprašyta, kaip galima naudoti atsargų žurnalus įvairių faktinių atsargų operacijų tipams registruoti.
-author: perlynne
+author: yufeihuang
 ms.date: 04/05/2018
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 51631
 ms.assetid: 3fedeaaf-502f-483c-93d2-ab266828189e
 ms.search.region: Global
-ms.author: mafoge
+ms.author: yufeihuang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a94c5371db10fa4f0090f2d177b1a01233ab0f30
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
-ms.translationtype: HT
+ms.openlocfilehash: f9370e495bf16ed638646843faaf0ff599fe1abc
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5826040"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7573974"
 ---
 # <a name="inventory-journals"></a>Atsargų žurnalai
 
@@ -95,7 +95,7 @@ Duomenų objektai palaiko toliau nurodytų tipų scenarijus.
 -    Sinchroninė paslauga („OData“)
 -  Asinchroninis integravimas
 
-Daugiau informacijos žr. [Duomenų objektai](../../dev-itpro/data-entities/data-entities.md).
+Daugiau informacijos žr. [Duomenų objektai](../../fin-ops-core/dev-itpro/data-entities/data-entities.md).
 
 > [!NOTE]
 > Ne visuose atsargų žurnaluose „OData“ įjungta, todėl negalima naudoti „Excel“ duomenų jungties norint duomenis publikuoti, naujinti ir importuoti atgal į „Supply Chain Management“. 
@@ -113,7 +113,7 @@ Kitas skirtumas tarp žurnalo duomenų objektų yra galimybė naudoti sudėtiniu
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
-[Duomenų objektai](../../dev-itpro/data-entities/data-entities.md)
+[Duomenų objektai](../../fin-ops-core/dev-itpro/data-entities/data-entities.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

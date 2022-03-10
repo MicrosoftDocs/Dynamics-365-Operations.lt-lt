@@ -2,27 +2,27 @@
 title: Elektroninių parašų apžvalga
 description: Šiame straipsnyje apžvelgiami elektroniniai parašai ir aprašoma, kaip juos naudoti.
 author: maertenm
-manager: AnnBe
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SIGParameters, SIGProcSetup, SIGReasonCode
 audience: Application User
 ms.reviewer: sericks
-ms.custom: 13611
+ms.custom:
+- "13611"
+- intro-internal
 ms.assetid: 98dc6b79-1895-45d8-9dd1-2c8a351b58af
 ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: df7f842477ddfb88662f37ae311215f08c6b0173
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
-ms.translationtype: HT
+ms.openlocfilehash: e9f80ecef043a697d288fed99e3118e268d4f993
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4693189"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7983647"
 ---
 # <a name="electronic-signatures-overview"></a>Elektroninių parašų apžvalga
 
@@ -109,3 +109,6 @@ Norėdami paskirti tvirtintojus, atlikite toliau nurodytus veiksmus.
 1. Puslapio **Parinktys** skirtuke **Sąskaitos** spustelėkite **Paskirti tvirtintoją**.
 2. Lauke **Tvirtintojo vartotojo ID** pasirinkite vartotojo, kuris turi pasirašyti kito vartotojo keitimus, ID.
 3. Lauke **Vartotojo, už kurį pasirašoma, ID** pasirinkite vartotojo, kurio keitimai turi būti pasirašyti, ID.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

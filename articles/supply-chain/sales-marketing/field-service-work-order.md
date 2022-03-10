@@ -1,12 +1,10 @@
 ---
 title: „Field Service“ darbo užsakymų sinchronizavimas su „Supply Chain Management“ pardavimo užsakymais
 description: Šioje temoje aptariami šablonai ir pagrindinės užduotys, naudojami sinchronizuojant „Field Service“ darbo užsakymus su „Supply Chain Management“ pardavimo užsakymais.
-author: ChristianRytt
-manager: tfehr
+author: Henrikan
 ms.date: 04/09/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
@@ -15,25 +13,25 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
-ms.author: crytt
+ms.author: henrikan
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: f9395d39a68cd11f57262c791dd7646975c5e516
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.openlocfilehash: b7b311701aff12d58392fc036d0f1174678b7dc3
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4998508"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8061314"
 ---
 # <a name="synchronize-work-orders-in-field-service-to-sales-orders-in-supply-chain-management"></a>„Field Service“ darbo užsakymų sinchronizavimas su „Supply Chain Management“ pardavimo užsakymais
 
 [!include[banner](../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Šioje temoje aptariami šablonai ir pagrindinės užduotys, naudojami sinchronizuojant „Dynamics 365 Field Service“ darbo užsakymus su „Dynamics 365 Supply Chain Management“ pardavimo užsakymus.
 
-[![„Supply Chain Management“ ir „Field Service“ verslo procesų sinchronizavimas](./media/field-service-integration.png)](./media/field-service-integration.png)
+[![„Supply Chain Management“ ir „Field Service“ verslo procesų sinchronizavimas.](./media/field-service-integration.png)](./media/field-service-integration.png)
 
 
 ## <a name="templates-and-tasks"></a>Šablonai ir užduotys
@@ -87,28 +85,28 @@ Tipo **Naudojama** reikšmės naudojamos vartojant ir išrašant SF. Tokiais atv
 
 Tolesnėje lentelėje pateikiama įvairių produkto eilučių derinių apžvalga.
 
-| Sistemos būsena <br>(Field Service) | Eilutės būsena <br>(Field Service) | Paskirstytas <br>(Field Service) |Sinchronizuojama reikšmė <br>(„Supply Chain Management“) |
+| Sistemos būsena <br>(„Field Service”) | Eilutės būsena <br>(„Field Service”) | Paskirstytas <br>(„Field Service”) |Sinchronizuojama reikšmė <br>(„Supply Chain Management“) |
 |--------------------|-------------|-----------|---------------------------------|
 | Atidarytas – suplanuotas   | Įvertinta   | Taip       | Įvertinta                       |
-| Atidarytas – suplanuotas   | Įvertinta   | Nr.        | Naudota                            |
+| Atidarytas – suplanuotas   | Įvertinta   | Ne        | Naudota                            |
 | Atidarytas – suplanuotas   | Naudota        | Taip       | Naudota                            |
-| Atidarytas – suplanuotas   | Naudota        | Nr.        | Naudota                            |
+| Atidarytas – suplanuotas   | Naudota        | Ne        | Naudota                            |
 | Atidarytas – vykdomas | Įvertinta   | Taip       | Įvertinta                       |
-| Atidarytas – vykdomas | Įvertinta   | Nr.        | Naudota                            |
+| Atidarytas – vykdomas | Įvertinta   | Ne        | Naudota                            |
 | Atidarytas – vykdomas | Naudota        | Taip       | Naudota                            |
-| Atidarytas – vykdomas | Naudota        | Nr.        | Naudota                            |
+| Atidarytas – vykdomas | Naudota        | Ne        | Naudota                            |
 | Atidarytas – baigtas   | Įvertinta   | Taip       | Įvertinta                       |
-| Atidarytas – baigtas   | Įvertinta   | Nr.        | Naudota                            |
+| Atidarytas – baigtas   | Įvertinta   | Ne        | Naudota                            |
 | Atidarytas – baigtas   | Naudota        | Taip       | Naudota                            |
-| Atidarytas – baigtas   | Naudota        | Nr.        | Naudota                            |
+| Atidarytas – baigtas   | Naudota        | Ne        | Naudota                            |
 | Uždarytas – užregistruotas    | Įvertinta   | Taip       | Naudota                            |
-| Uždarytas – užregistruotas    | Įvertinta   | Nr.        | Naudota                            |
+| Uždarytas – užregistruotas    | Įvertinta   | Ne        | Naudota                            |
 | Uždarytas – užregistruotas    | Naudota        | Taip       | Naudota                            |
-| Uždarytas – užregistruotas    | Naudota        | Nr.        | Naudota                            |
+| Uždarytas – užregistruotas    | Naudota        | Ne        | Naudota                            |
 
 Tolesnėje lentelėje pateikiama įvairių paslaugos eilučių derinių apžvalga.
 
-| Sistemos būsena <br>(Field Service) | Eilutės būsena <br>(Field Service) | Sinchronizuojama reikšmė <br>(„Supply Chain Management“) |
+| Sistemos būsena <br>(„Field Service”) | Eilutės būsena <br>(„Field Service”) | Sinchronizuojama reikšmė <br>(„Supply Chain Management“) |
 |--------------------|-------------|-----------|
 | Atidarytas – suplanuotas   | Įvertinta   | Įvertinta |
 | Atidarytas – suplanuotas   | Naudota        | Naudota      |
@@ -139,7 +137,7 @@ Tipo **Numatoma** reikšmių sinchronizavimas, lyginant su tipo **Naudojama** re
     - **Produkto eilutė:** numatomas kiekis = 5 vnt., naudojamas kiekis = 0 vnt., eilutės būsena = numatoma, paskirstyta = ne
     - **Paslaugos eilutė:** numatomas kiekis = 2 h, naudojamas kiekis = 0 h, eilutės būsena = numatoma
 
-    Šiame pavyzdyje produkto lauko **Numatomas kiekis** reikšmė **5ea** ir paslaugos lauko **Numatomas kiekis** reikšmė **2 h** sinchronizuojamos su „Supply Chain Management“.
+    Šiame pavyzdyje produkto lauko **Numatomas kiekis** reikšmė **5 vnt.** ir paslaugos lauko **Numatomas kiekis** reikšmė **2 h** sinchronizuojamos su „Supply Chain Management“.
 
 3. Paslaugos technikas pradeda dirbti su darbo užsakymu ir užregistruoja medžiagų naudojimą, nurodydamas kiekį 6.
 
@@ -161,7 +159,7 @@ Tipo **Numatoma** reikšmių sinchronizavimas, lyginant su tipo **Naudojama** re
 
 ## <a name="sales-order-origin-and-status"></a>Pardavimo užsakymo kilmė ir būsena
 
-### <a name="sales-origin"></a>Pard. šaltinis
+### <a name="sales-origin"></a>Pardavimo šaltinis
 
 Norėdami sekti pardavimo užsakymus, kurie sukurti iš darbo užsakymų, galite kurti pardavimo kilmę, kai nustatyta parinkties **Kilmės tipo priskyrimas** reikšmė **Taip** ir nustatyta lauko **Pardavimo šaltinio tipas** reikšmė **Darbo užsakymo integravimas**.
 
@@ -215,7 +213,7 @@ Prieš sinchronizuojant darbo užsakymus, svarbu atnaujinti toliau nurodytus sis
 ### <a name="setup-in-field-service"></a>„Field Service“ sąranka
 
 - Įsitikinkite, kad numerių serija, naudojama „Field Service“ darbo užsakymams, nesutampa su numeracija, naudojama „Supply Chain Management“ pardavimo užsakymams. Kitu atveju esami pardavimo užsakymai gali būti neteisingai atnaujinti „Field Service“ arba „Supply Chain Management“.
-- Turi būti nustatyta lauko **Darbo užsakymo SF kūrimas** reikšmė **Niekada**, nes SF bus išrašoma iš „Supply Chain Management“. Pasirinkite **Field Service** \> **Parametrai** \> **Administravimas** \> **„Field Service“ parametrai** ir įsitikinkite, kad nustatyta lauko **Darbo užsakymo SF kūrimas** reikšmė **Niekada**.
+- Turi būti nustatyta lauko **Darbo užsakymo SF kūrimas** reikšmė **Niekada**, nes SF bus išrašoma iš „Supply Chain Management“. Pasirinkite **„Field Service”** \> **Parametrai** \> **Administravimas** \> **„Field Service“ parametrai** ir įsitikinkite, kad nustatyta lauko **Darbo užsakymo SF kūrimas** reikšmė **Niekada**.
 
 ### <a name="setup-in-supply-chain-management"></a>„Supply Chain Management“ nustatymas
 
@@ -247,28 +245,31 @@ Toliau pateiktose iliustracijose vaizduojamas šablono susiejimas naudojant funk
 
 Filtras: (msdyn_systemstatus ne 690970005) ir (msdyn_systemstatus ne 690970000) ir (msdynce_hasexternallymaintainedproductsonly lygtis teisinga)
 
-[![Šablono susiejimas naudojant funkcija Duomenų integravimas](./media/FSWorkOrder1.png )](./media/FSWorkOrder1.png)
+[![Šablono susiejimas integruojant darbo užsakymų duomenis su pardavimo užsakymais („Field Service“ ir „Supply Chain Management“): WorkOrderHeader.](./media/FSWorkOrder1.png )](./media/FSWorkOrder1.png)
 
 ### <a name="work-orders-to-sales-orders-field-service-to-supply-chain-management-workorderservicelineestimate"></a>Darbo užsakymai į pradavimo užsakymus („Field Service“ į „Supply Chain Management“): WorkOrderServiceLineEstimate
 
 Filtras: (msdynce_headersystemstatus ne 690970005) ir (msdynce_headersystemstatus ne 690970000) ir (msdynce_orderhasexternalmaintainedproductsonly lygtis teisinga) ir (msdyn_linestatus lygtis 690970000) ir (msdynce_headersystemstatus ne 690970004)
 
-[![Šablono susiejimas naudojant funkcija Duomenų integravimas](./media/FSWorkOrder2.png )](./media/FSWorkOrder2.png)
+[![Šablono susiejimas integruojant darbo užsakymų duomenis su pardavimo užsakymais („Field Service“ ir „Supply Chain Management“): WorkOrderServiceLineEstimate.](./media/FSWorkOrder2.png )](./media/FSWorkOrder2.png)
 
 ### <a name="work-orders-to-sales-orders-field-service-to-supply-chain-management-workorderservicelineused"></a>Darbo užsakymai į pradavimo užsakymus („Field Service“ į „Supply Chain Management“): WorkOrderServiceLineUsed
 
 Filtras: (msdynce_headersystemstatus ne 690970005) ir (msdynce_headersystemstatus ne 690970000) ir (msdynce_orderhasexternalmaintainedproductsonly lygtis teisinga) ir ((msdyn_linestatus lygtis 690970001) arba (msdynce_headersystemstatus lygtis 690970004))
 
-[![Šablono susiejimas naudojant funkcija Duomenų integravimas](./media/FSWorkOrder3.png )](./media/FSWorkOrder3.png)
+[![Šablono susiejimas integruojant darbo užsakymų duomenis su pardavimo užsakymais („Field Service“ ir „Supply Chain Management“): WorkOrderServiceLineUsed.](./media/FSWorkOrder3.png )](./media/FSWorkOrder3.png)
 
 ### <a name="work-orders-to-sales-orders-field-service-to-supply-chain-management-workorderproductlineestimate"></a>Darbo užsakymai į pradavimo užsakymus („Field Service“ į „Supply Chain Management“): WorkOrderProductLineEstimate
 
 Filtras: (msdynce_headersystemstatus ne 690970005) ir (msdynce_headersystemstatus ne 690970000) ir (msdynce_orderhasexternalmaintainedproductsonly lygtis teisinga) ir (msdyn_linestatus eq 690970000) ir (msdynce_headersystemstatus ne 690970004) ir (msdyn_allocated lygtis teisinga)
 
-[![Šablono susiejimas naudojant funkcija Duomenų integravimas](./media/FSWorkOrder4.png )](./media/FSWorkOrder4.png)
+[![Šablono susiejimas integruojant darbo užsakymų duomenis su pardavimo užsakymais („Field Service“ ir „Supply Chain Management“): WorkOrderProductLineEstimate.](./media/FSWorkOrder4.png )](./media/FSWorkOrder4.png)
 
 ### <a name="work-orders-to-sales-orders-field-service-to-supply-chain-management-workorderproductlineused"></a>Darbo užsakymai į pradavimo užsakymus („Field Service“ į „Supply Chain Management“): WorkOrderProductLineUsed
 
 Filtras: (msdynce_headersystemstatus ne 690970005) ir (msdynce_headersystemstatus ne 690970000) ir (msdynce_orderhasexternalmaintainedproductsonly lygtis teisinga) ir ((msdyn_linestatus lygtis 690970001) arba (msdynce_headersystemstatus lygtis 690970004) arba (msdyn_allocated ne teisinga))
 
-[![Šablono susiejimas naudojant funkcija Duomenų integravimas](./media/FSWorkOrder5.png )](./media/FSWorkOrder5.png)
+[![Šablono susiejimas integruojant darbo užsakymų duomenis su pardavimo užsakymais („Field Service“ ir „Supply Chain Management“): WorkOrderProductLineUsed.](./media/FSWorkOrder5.png )](./media/FSWorkOrder5.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

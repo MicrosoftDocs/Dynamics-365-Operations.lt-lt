@@ -1,29 +1,20 @@
 ---
 title: Atsargų pasiekiamumas dvigubam rašymui
 description: Šioje temoje pateikiama informacija apie atsargų pasiekiamumo tikrinimą dvigubo rašymo funkcijoje.
-author: yijialuan
-manager: AnnBe
+author: RamaKrishnamoorthy
 ms.date: 05/26/2020
 ms.topic: article
-ms.prod: ''
-ms.service: dynamics-ax-applications
-ms.technology: ''
-ms.search.form: ''
 audience: Application User, IT Pro
-ms.reviewer: rhaertle
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: tfehr
 ms.search.region: global
-ms.search.industry: ''
-ms.author: riluan
-ms.dyn365.ops.version: ''
+ms.author: ramasri
 ms.search.validFrom: 2020-05-26
-ms.openlocfilehash: 4d1022eec633bf0a9edb4d5b26982853cec836d7
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 989ba6cd26d6e48c24db856fa9bb0bd5d2bae80e
+ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4455423"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7782534"
 ---
 # <a name="inventory-availability-in-dual-write"></a>Atsargų pasiekiamumas dvigubam rašymui
 
@@ -57,3 +48,21 @@ Dialogo langas grąžina ATP informaciją iš „Supply Chain Management”. Pat
 - Gavimo kiekis
 - Išdavimo kiekis
 - Turimas kiekis
+
+## <a name="how-it-works"></a>Kaip tai veikia
+
+Kai pasirenkate mygtuką **Turimos atsargos** puslapiuose **Pasiūlymai**, **Užsakymai**, arba **Sąskaitos faktūros** tiesioginio dvigubo rašymo iškvietimas pateikiamas **Turimų atsargų** API. API apskaičiuoja turimos tam tikro produkto atsargas. Rezultatas saugomas **„InventCDSInventoryOnHandRequestEntity”** ir **„InventCDSInventoryOnHandEntryEntity”** lentelėse, o tada įrašomas į „Dataverse” naudojant dvigubą rašymą. Norėdami naudoti šią funkciją, turite paleisti šias dvigubo rašymo schemas. Praleiskite pradinį sinchronizavimą, kai paleidžiate schemas.
+
+- Turimų CDS atsargų įrašai („msdyn_inventoryonhandentries”)
+- Turimų CDS atsargų užklausos („msdyn_inventoryonhandrequests”)
+
+## <a name="templates"></a>Šablonai
+
+Šie šablonai yra galimi rodyti turimų atsargų duomenims.
+
+„Finance and operations” programos | „Customer engagement“ programos     | Aprašas
+---|---|---
+[CDS turimų atsargų įrašai](mapping-reference.md#145) | „msdyn_inventoryonhandentries” |
+[CDS turimų atsargų užklausos](mapping-reference.md#147) | „msdyn_inventoryonhanrequests” |
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

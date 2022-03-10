@@ -2,27 +2,24 @@
 title: Ilgalaikio turto likvidavimas (Estija ir Lietuva)
 description: Šioje temoje pateikiama informacija apie ilgalaikio turto likvidavimo kredito pažymas, kai laisvos formos SF užregistruojamos vartotojams, kurių juridiniai subjektai yra Estijoje ir Lietuvoje.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustFreeCreditNote_W, CustFreeInvoice
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 266944
 ms.search.region: Estonia, Lithuania
 ms.author: kfend
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: fd3ebce176bb18c55dd6a59b580575f2c0e3faf9
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 27740f29c8813e1facfc839c644aed58e146d781f07311b85df4899e22445877
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408230"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6725993"
 ---
 # <a name="fixed-assets-disposal-for-estonia-and-lithuania"></a>Ilgalaikio turto likvidavimas (Estija ir Lietuva)
 
@@ -42,3 +39,6 @@ Atšaukiamos ilgalaikio turto likvidavimo operacijos, sukurtos užregistravus kr
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

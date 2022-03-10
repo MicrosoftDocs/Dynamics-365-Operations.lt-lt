@@ -1,12 +1,10 @@
 ---
 title: Apskaitos paskirstymai
 description: Šioje temoje pateikiama informacija apie apskaitos paskirstymus ir aprašomos pasirinktys, kurias galima apdoroti.
-author: ShylaThompson
-manager: AnnBe
+author: sunfzam
 ms.date: 09/17/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AccountingDistribution
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7191e1e48283d2468155c84d408b030a7c50e4d7
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
-ms.translationtype: HT
+ms.openlocfilehash: 0f81444e0865715925dad2483e8c789221bccb2b
+ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5252174"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "7595319"
 ---
 # <a name="accounting-distributions"></a>Apskaitos paskirstymai
 

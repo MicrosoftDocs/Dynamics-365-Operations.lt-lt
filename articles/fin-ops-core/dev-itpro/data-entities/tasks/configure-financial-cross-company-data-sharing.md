@@ -2,7 +2,6 @@
 title: Konfigūruoti finansinių duomenų bendrinimą tarp įmonių
 description: Šia procedūra rodoma, kaip konfigūruoti, įgalinti, patikrinti ir išspręsti konfliktus bendrinant duomenis tarp įmonių.
 author: aprilolson
-manager: AnnBe
 ms.date: 06/26/2019
 ms.topic: business-process
 ms.prod: ''
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 167f43224591462a4db42d041487ff8f66b02cd9
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
-ms.translationtype: HT
+ms.openlocfilehash: c2caaa971790c31ed4c88bd0b2365179fb22b644e3d4512f4f06bb33bd29f8d1
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5561079"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6736283"
 ---
 # <a name="configure-financial-cross-company-data-sharing"></a>Konfigūruoti finansinių duomenų bendrinimą tarp įmonių
 

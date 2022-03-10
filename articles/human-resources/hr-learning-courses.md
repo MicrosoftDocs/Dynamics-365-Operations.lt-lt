@@ -1,36 +1,37 @@
 ---
 title: Mokymų kursų nustatymas
 description: Žmogiškųjų išteklių administratoriai ir vadovai kursų funkcijas gali naudoti siekdami tvarkyti informaciją apie darbuotojams siūlomą mokymą.
-author: andreabichsel
-manager: AnnBe
-ms.date: 06/24/2019
+author: twheeloc
+ms.date: 08/26/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 ms.search.form: HcmCourseType, HcmCourseTypeGroup, HRMCourseTable, HcmLearningWorkspace
 audience: Application User
-ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources
+ms.search.scope: Human Resources
 ms.custom: 7532
 ms.assetid: a6950c29-8b3e-45b2-9084-ddfb1317ffaa
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 253f0d07679b6327a0ed1e3cc20ede66249750b8
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: c66459a044419535d66875cddac7eb73af744ca7
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419786"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8066755"
 ---
 # <a name="set-up-training-courses"></a>Mokymų kursų nustatymas
 
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
 Žmogiškųjų išteklių administratoriai ir vadovai kursų funkcijas gali naudoti siekdami tvarkyti informaciją apie darbuotojams siūlomą mokymą.
 
- <a name="set-up-prerequisites"></a> Nustatyti būtinąsias sąlygas
----------------------
+##  <a name="set-up-prerequisites"></a>Nustatyti būtinąsias sąlygas
 
 Prieš kuriant kursus, reikia turėti ir nustatyti toliau pateiktą informaciją.
 -   **Kursų tipai**
@@ -82,7 +83,7 @@ Su visais kursais galite atlikti toliau nurodytas užduotis.
 - Nustatyti mažiausią ir didžiausią dalyvių skaičių.
 - Priskirti kurso vietą ir auditoriją.
 - Kurso dalyviams rekomenduoti viešbučius.
-- Kurti kurso aprašą, kurį galima vėliau paskelbti Darbuotojų savitarnoje.
+- Kurti kurso aprašą, kurį galima vėliau paskelbti **Darbuotojų savitarnoje**
 
   >**Pastaba.** Kursą panaikinti galite tik jei niekas į jį neužsiregistravo. 
 
@@ -128,8 +129,7 @@ Su visais kursais galite atlikti toliau nurodytas užduotis.
 ## <a name="course-participants"></a>Kurso dalyviai
 Kurso dalyviai yra darbuotojai, dalyvaujantys mokymo kursuose arba renginyje. Galite užregistruoti dalyvius tik į atvirus kursus. Mažiausias ir didžiausias leistinas registruoti į kursą dalyvių skaičius nustatytas puslapio **Kursai** „FastTab“ skirtuke **Bendra**.
 
-<a name="workflow"></a>Darbo eiga
---------
+## <a name="workflow"></a>Darbo eiga
 
 Darbuotojų, kurie į kursą registruojasi per puslapį **Darbuotojų savitarna**, registraciją galima nukreipti pro darbo eigą, kad būtų patvirtinta. Galite priskirti darbo eigą puslapio **Kursai** „FastTab‟ **Bendra**.
 
@@ -137,3 +137,6 @@ Darbuotojų, kurie į kursą registruojasi per puslapį **Darbuotojų savitarna*
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

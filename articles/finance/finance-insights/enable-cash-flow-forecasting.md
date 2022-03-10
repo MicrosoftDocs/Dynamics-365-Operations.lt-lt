@@ -1,8 +1,8 @@
 ---
-title: Grynųjų pinigų srautų prognozavimo įjungimas (peržiūros versija)
+title: Grynųjų pinigų srautų prognozavimo įjungimas
 description: Šioje temoje paaiškinama, kaip įjungti modulio Finansinės įžvalgos funkciją Grynųjų pinigų srautų prognozės.
 author: ShivamPandey-msft
-ms.date: 07/16/2021
+ms.date: 02/11/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,48 +15,42 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-24
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: b5a4e1c3401c945df936258f0c97d2d406019438eb14a01d901f7777c8f0b7d1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 763818f70095964d77ff82cf02178367d05eaf23
+ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6768920"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "8109584"
 ---
-# <a name="enable-cash-flow-forecasting-preview"></a>Grynųjų pinigų srautų prognozavimo įjungimas (peržiūros versija)
+# <a name="enable-cash-flow-forecasting"></a>Grynųjų pinigų srautų prognozavimo įjungimas
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje paaiškinama, kaip įjungti modulio Finansinės įžvalgos funkciją Grynųjų pinigų srautų prognozės.
+Šioje temoje paaiškinama, kaip įjungti pinigų srautų prognozių funkciją finansų žinių srityje.
 
 > [!NOTE]
 > Norėdami grynųjų pinigų sraute naudoti mokėjimo prognozes, turite nustatyti funkciją Kliento mokėjimo prognozės, kaip aprašyta temoje [Kliento mokėjimo prognozių įjungimas](enable-cust-paymnt-prediction.md).
-
-1. Naudokite informaciją iš aplinkos puslapio portale „Microsoft Dynamics Lifecycle Services“ (LCS), kad prisijungtumėte prie pirminio „Azure SQL“ tos aplinkos egzemplioriaus. Norėdami įjungti smėlio dėžės aplinkos testus, vykdykite tolesnę Transact-SQL (T-SQL) komandą. (Gali reikėti įjungti prieigą prie savo IP adreso portale LCS, kad galėtumėte nuotoliniu būdu prisijungti prie programos objektų serverio \[AOS\].)
-
-    `INSERT INTO SYSFLIGHTING (FLIGHTNAME, ENABLED) VALUES ('CashflowInsightsFeature', 1)`
-
-    > [!NOTE]
-    > Praleiskite šį veiksmą, jei naudojate 10.0.20 ar vėlesnę versiją arba jei naudojate „Service Fabric“ diegimą. Modulio „Finance Insights” komanda jums jau turėjo įjungti testą. Jei nematote funkcijos darbo srityje **Funkcijų valdymas** arba jei kyla problemų bandant ją įjungti, kreipkitės adresu <fiap@microsoft.com>.
   
-2. Atidarykite darbo sritį **Funkcijų valdymas** ir atlikite tolesnius veiksmus.
+1. Atidarykite darbo sritį **Funkcijų valdymas** ir atlikite tolesnius veiksmus.
 
     1. Pasirinkite **Tikrinti, ar yra naujinimų**.
-    2. Įjunkite tolesnes funkcijas.
+    2. Skirtuke **Viskas** ieškokite pinigų srautų **prognozių**. Jei tos priemonės nerandate, ieškokite **(Peržiūrėti) pinigų srautų prognozių**. 
+    3. Įjungti funkciją.
 
-        - Naujas tinklelio valdiklis
-        - Grupavimas tinklelyje (peržiūros versija) 
-        - Klientų mokėjimų numatymai (peržiūros versija)
-        - Grynųjų pinigų srauto prognozės (peržiūros versija)
-
-3. Eikite į **Grynųjų pinigų ir banko valdymas \> Grynųjų pinigų srautų prognozių sąranka** ir įtraukite likvidumo sąskaitas, kurios turi būti įtrauktos į prognozes.
+2. Eikite į **Grynųjų pinigų ir banko valdymas \> Grynųjų pinigų srautų prognozių sąranka** ir įtraukite likvidumo sąskaitas, kurios turi būti įtrauktos į prognozes. Mokėjimų likvidumo sąskaitą taip pat nustatykite gautinų sumų **ir** mokėtinų **sumų skirtukuose**. Įsitikinkite, kad perskaičiuoti pinigų srautų prognozę.
 
     > [!NOTE]
     > Jei likvidumo sąskaitos nenustatytos, grynųjų pinigų srauto sugeneruoti negalima.
+    >
+    > Daugiau informacijos apie tai, kaip nustatyti pinigų srautų prognozes, ieškokite pinigų [srautų prognozei.](../cash-bank-management/cash-flow-forecasting.md)
 
-4. Eikite į **Grynųjų pinigų ir banko valdymas \> Sąranka \> Finansinės įžvalgos (peržiūros versija) \> Grynųjų pinigų srautų prognozes (peržiūros versija)** ir atlikite tolesnius veiksmus.
+3. Eikite į **Grynųjų pinigų ir banko valdymas \> Sąranka \> Finansinės įžvalgos (peržiūros versija) \> Grynųjų pinigų srautų prognozes (peržiūros versija)** ir atlikite tolesnius veiksmus.
 
     1. Skirtuke **Grynųjų pinigų srautų prognozė** pasirinkite **Įjungti funkciją**.
     2. Pasirinkite **Sukurti prognozavimo modelį**.
+
+> [!NOTE]
+> Pinigų **srautų prognozės** modelio mokymas reikalauja duomenų su 100 ar daugiau operacijų, kurios apima daugiau nei metus. Rekomenduojame turėti mažiausiai dviejų metų duomenis su daugiau nei 1000 operacijų.
 
 Daugiau informacijos apie grynųjų pinigų srautų prognozavimo galimybę žr. [Grynųjų pinigų srautų prognozavimas](cash-flow-forecast-intro.md).
 

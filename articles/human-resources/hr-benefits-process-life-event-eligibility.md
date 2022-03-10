@@ -1,8 +1,8 @@
 ---
 title: Gyvenimo įvykių tinkamumo apdorojimas
-description: Šiame straipsnyje pateikiama, kaip vykdyti gyvenimo įvykių tinkamumo apdorojimą.
-author: andreabichsel
-ms.date: 04/06/2020
+description: Šioje temoje paaiškinama, kaip apdoroti gyvenimo įvykio tinkamumą.
+author: twheeloc
+ms.date: 08/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,21 +12,24 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 825754d75dee5f8c86922e9e407fbc20f8ad125d1e91a4461218678001c569ec
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 3086718ed8dc0a8da988eb2d4cd07a2fff38e52c
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6716571"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8065898"
 ---
 # <a name="process-life-event-eligibility"></a>Gyvenimo įvykių tinkamumo apdorojimas
 
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Šiame straipsnyje pateikiama, kaip vykdyti gyvenimo įvykių tinkamumo apdorojimą.
+Šioje temoje paaiškinama, kaip apdoroti gyvenimo įvykio tinkamumą.
 
 1. Darbo srities **Išmokų valdymas** dalyje **Apdorojimas** pasirinkite **Gyvenimo įvykių tinkamumo apdorojimas**.
 

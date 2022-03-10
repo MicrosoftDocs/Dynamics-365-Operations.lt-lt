@@ -1,12 +1,10 @@
 ---
-title: „Robots.txt” failų tvarkymas
+title: robots.txt failų tvarkymas
 description: Šioje temoje aprašoma, kaip tvarkyti „robots.txt“ failus sprendime „Microsoft Dynamics 365 Commerce“.
 author: BrianShook
-manager: annbe
 ms.date: 07/02/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -16,21 +14,18 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2019-12-18
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 2e25a584121b700e566c29dbfe3fbbd72bf998cc
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.openlocfilehash: e1078de354a96cc50b7c1b79a864db5041ea5069df650670e65531faaeb32e0a
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4982546"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6754397"
 ---
-# <a name="manage-robotstxt-files"></a>„Robots.txt” failų tvarkymas
-
+# <a name="manage-robotstxt-files"></a>robots.txt failų tvarkymas
 
 [!include [banner](includes/banner.md)]
 
 Šioje temoje aprašoma, kaip tvarkyti „robots.txt“ failus sprendime „Microsoft Dynamics 365 Commerce“.
-
-## <a name="overview"></a>Peržiūrėti
 
 Išimčių standartas robotams, arba „robots.txt“, yra standartas, kurį tinklapis naudoja bendrauti su interneto robotais. Juo nurodoma interneto robotams apie svetainės dalis, kurių robotas neturėtų pasiekti. Robotai dažnai naudojami ieškos moduliams indeksuojant svetaines.
 
@@ -106,3 +101,6 @@ Norėdami naikinti failą „robots.txt“ iš „Commerce“, atlikite šiuos v
 [Turinio pristatymo tinklo (CDN) palaikymo įtraukimas](add-cdn-support.md)
 
 [Parduotuvės nustatymo pagal vietą įgalinimas](enable-store-detection.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

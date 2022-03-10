@@ -1,27 +1,24 @@
 ---
 title: Žurnalų kūrimas ir tvirtinimas
 description: Šioje procedūroje sukuriami ir tikrinami žurnalai ir žurnalo eilutės.
-author: ryansandness
-manager: AnnBe
+author: panolte
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTable, LedgerJournalTransDaily
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: ryansand
+ms.author: panolte
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8ac70a6fd52a47e5edbdd21145a47c925256fa71
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
-ms.translationtype: HT
+ms.openlocfilehash: 8775b5f9b3c1cd2bb65c674b00ddbccdda64f28fff8534340ec45ad0080bf528
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4646316"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6725055"
 ---
 # <a name="create-and-validate-journals"></a>Žurnalų kūrimas ir tvirtinimas
 
@@ -43,3 +40,6 @@ ms.locfileid: "4646316"
 12. Spustelėkite **Registruoti.**
 13. Spustelėkite **Kvitas**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

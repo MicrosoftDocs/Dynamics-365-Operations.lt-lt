@@ -1,28 +1,26 @@
 ---
-title: 'Optimizavimo patarėjo apžvalga '
+title: Optimizavimo patarėjo apžvalga
 description: Šioje temoje aprašoma, kaip galite naudoti optimizavimo patarėją, siekdami užtikrinti optimalią „Finance and Operations“ konfigūraciją.
 author: roxanadiaconu
-manager: AnnBe
 ms.date: 07/23/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: SelfHealingWorkspace
 audience: Application User, IT Pro
 ms.reviewer: sericks
-ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
 ms.author: sericks
 ms.search.validFrom: 2017-12-01
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: b3c839e7c75201ca61dceee43a058b391be56fcf
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
-ms.translationtype: HT
+ms.openlocfilehash: 8039ff51dfb07bbdf5d6a102de1ff4ddbfd907a5
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5568245"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7984107"
 ---
 # <a name="optimization-advisor-overview"></a>Optimizavimo patariamojo įrankio apžvalga
 
@@ -30,7 +28,7 @@ ms.locfileid: "5568245"
 
 Šioje temoje aprašoma, kaip galite naudoti optimizavimo patarėją, siekdami užtikrinti optimalią „Finance and Operations“ konfigūraciją.
 
-## <a name="overview"></a>Peržiūra
+## <a name="overview"></a>Apžvalga
 
 Atlikus netinkamą modulio konfigūraciją ir sąranką, gali būti pasiekiamos ne visos programos funkcijos, be to, tai gali turėti įtakos sistemos efektyvumui, taip pat sklandžiam verslo procesų veikimui. Verslo duomenų kokybė (pvz., duomenų tikslumas, išsamumas ir tvarkingumas) taip pat turi įtakos sistemos efektyvumui, organizacijos sprendimų priėmimo pajėgumui, našumui ir t. t.
 

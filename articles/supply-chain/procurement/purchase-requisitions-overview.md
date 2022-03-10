@@ -1,28 +1,28 @@
 ---
 title: Pirkimo paraiškos apžvalga
 description: Šioje temoje aprašoma pirkimo paraiškos darbo eiga ir skirtingos galimos pirkimo paraiškos būsenos.
-author: RichardLuan
-manager: tfehr
+author: Henrikan
 ms.date: 11/02/2017
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchReqConsolidation, PurchReqCreate, PurchReqCreatePurchDetails, PurchReqCreatePurchListPage, PurchReqTable, PurchReqTableListPage, PurchReqConsolidationPartByVendor, PurchReqConsolidationLineDetail, PurchReqConsolidationCreate, PurchReqConsolidationBulkEdit, PurchReqConsolidationAddLine
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: 2174
+ms.custom:
+- "2174"
+- intro-internal
 ms.assetid: 77d07119-4d9f-4c0e-acbe-d319203571ab
 ms.search.region: Global
-ms.author: riluan
+ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6d3cc8043062fe304ef8127a2abbaeb787c4761f
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
-ms.translationtype: HT
+ms.openlocfilehash: acd0deebe79e29bd1beb32ea21cd179f5bf12c43
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5215942"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7982907"
 ---
 # <a name="purchase-requisition-overview"></a>Pirkimo paraiškos apžvalga
 
@@ -49,7 +49,7 @@ Pirkimo paraiškos darbo eigos procesą galite konfigūruoti ir nukreipti pirkim
 
 Pateiktoje diagramoje rodomos pirkimo paraiškai ir pirkimo paraiškos eilutei priskirtos būsenos, kai šios perkeliamos darbo eigos proceso metu.  
 
-[![Pirkimo paraiškos antraštės ir eilutės būsenos](./media/purchasereq_headerline_statuses.jpg)](./media/purchasereq_headerline_statuses.jpg)
+[![Pirkimo paraiškos antraštės ir eilutės būsenos.](./media/purchasereq_headerline_statuses.jpg)](./media/purchasereq_headerline_statuses.jpg)
 
 ### <a name="purchase-requisition-header-and-line-status-relationships"></a>Pirkimo paraiškos antraštės ir eilutės būsenų ryšys
 
@@ -181,7 +181,7 @@ Norėdami sukurti pirkimo užsakymą pagal pirkimo paraiškos eilutes, kurios ne
 
 Poreikio konsolidavimo procesas prasideda darbo eigoje patvirtinus pirkimo paraišką ir įrašius biudžeto rezervavimus ir preliminarius biudžeto rezervavimus, jei jūsų organizacijoje sukonfigūruota biudžeto kontrolė. Šioje diagramoje pavaizduota poreikio konsolidavimo proceso eiga.  
 
-[![Poreikio konsolidavimo proceso eiga](./media/demand-consolidation.gif)](./media/demand-consolidation.gif)  
+[![Poreikio konsolidavimo proceso eiga.](./media/demand-consolidation.gif)](./media/demand-consolidation.gif)  
 
 Norėdami konsoliduoti patvirtintas pirkimo paraiškos eilutes, atlikite toliau nurodytus veiksmus.
 
@@ -192,8 +192,7 @@ Norėdami konsoliduoti patvirtintas pirkimo paraiškos eilutes, atlikite toliau 
 5.  Kurkite pirkimo užsakymus pagal konsoliduotas paraiškos eilutes arba pagal konsolidavimo galimybės pirkimo paraiškos eilutes.
 
 
-<a name="additional-resources"></a>Papildomi ištekliai
---------
+## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Vartojimo paraiškos kūrimas](tasks/create-requisition-consumption.md)
 

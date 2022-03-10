@@ -2,7 +2,6 @@
 title: Pasiekiamos mobiliosios darbo sritis
 description: Šioje temoje išvardytos mobiliosios darbo sritys, kurias galima naudoti.
 author: sericks007
-manager: AnnBe
 ms.date: 10/01/2019
 ms.topic: article
 ms.prod: ''
@@ -13,18 +12,18 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: f7695ede9ecb04c4953e13f7ea146461ce376c47
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
-ms.translationtype: HT
+ms.openlocfilehash: ff9dee31130c3078aa35b7518f368fb5c782139858ac0bac5b7c498e357dc9f3
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5570049"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6745153"
 ---
 # <a name="available-mobile-workspaces"></a>Pasiekiamos mobiliosios darbo sritis
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje nurodomos galimos naudoti mobiliosios programos „Dynamics 365 for Unified Operations“ mobiliosios darbo sritys.
+Šioje temoje nurodomos galimos naudoti mobiliosios programos „Dynamics 365 for Unified Operations Mobile“ darbo sritys.
 
 
 | Mobilioji darbo sritis     | Aprašymas   | Esamumas   |
@@ -32,9 +31,9 @@ ms.locfileid: "5570049"
 |[Įmonės katalogas](company-directory-mobile-workspace.md)| Suteikia galimybę peržiūrėti ir susisiekti su kitais organizacijos darbuotojais.| Birželio 2017 d. |    
 |[Mano komanda](manager-self-service-mobile-workspace.md)| Galima peržiūrėti savo tiesioginius pavaldinius ir Išplėstinį personalą, taip pat pagirti asmenis savo ataskaitų grandinėje.|Birželio 2017 d. |     
 |[SF patvirtinimas](invoice-approval-mobile-workspace.md)| Čia pateikiamas sąskaitų faktūrų, kurios buvo jums priskirtos tiekėjo SF antraštės darbo eigos procese, sąrašas.| Birželio 2017 d.   |
-| [Išlaidų valdymas](../../../finance/expense-management/expense-management-mobile-workspace.md) | Galima fiksuoti ir įkelti kvitą, kad būtų galima jį vėliau pridėti prie išlaidų ataskaitos. Mobilioji darbo sritis taip pat suteikia galimybę greitai kurti išlaidų eilutę naudojant pridėtą kvitą. | Balandžio 2017 d. |
+| [Išlaidų valdymas](/dynamics365/project-operations/prod-exp/expense-management-mobile-workspace) | Galima fiksuoti ir įkelti kvitą, kad būtų galima jį vėliau pridėti prie išlaidų ataskaitos. Mobilioji darbo sritis taip pat suteikia galimybę greitai kurti išlaidų eilutę naudojant pridėtą kvitą. | Balandžio 2017 d. |
 | [Pirkimo užsakymo patvirtinimas](../../../supply-chain/procurement/purchase-order-mobile-workspace.md) | Peržiūrėkite ir atsakykite į pirkimo užsakymus, atliekant veiksmus, pavyzdžiui, patvirtinkite arba atmeskite. | Balandžio 2017 d. |
-| [Projekto laiko įrašas](../../../finance/project-management/project-time-entry-mobile-workspace.md) | Galima įvesti ir įrašyti laiką pagal projektą naudojant savo mobilųjį įrenginį. | Kovo 2017 |
+| [Projekto laiko įrašas](/dynamics365/project-operations/prod-pma/project-time-entry-mobile-workspace) | Galima įvesti ir įrašyti laiką pagal projektą naudojant savo mobilųjį įrenginį. | Kovo 2017 |
 | [Savikainos kontrolė](../../../finance/cost-accounting/cost-controlling-mobile-workspace.md)     | Išlaidų centrų vadovai gali peržiūrėti išlaidų centro efektyvumą.                                                                                               |  Sausio 2017        |
 | [Turimos atsargos](../../../supply-chain/inventory/inventory-on-hand-mobile-workspace.md)    | Gaukite įžvalgų apie rezervuotas ir turimas atsargas.                                                                                                    |   Sausio 2017       |
 | [Pardavimo užsakymai](../../../supply-chain/sales-marketing/sales-orders-mobile-workspace.md)         | Peržiūrėkite naujausią pardavimo užsakymų informaciją.                                                                                                                          |  Sausio 2017                  |

@@ -1,28 +1,30 @@
 ---
 title: Išmokų valdymo apžvalga
-description: Išmokų valdymo funkcijos programoje „Dynamics 365 Human Resources“ apžvalga. Siūlykite savo darbuotojams išplėstines išmokų parinktis naudodami paprastas naudoti internetines funkcijas.
-author: andreabichsel
-ms.date: 07/13/2021
-ms.topic: article
+description: Šioje temoje apžvelgiamas modulio Atsargų valdymas siuntimo procesas „Dynamics 365 Human Resources“.
+author: twheeloc
+ms.date: 12/06/2021
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
 ms.search.scope: Human Resources
-ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a1e00bb3fa227eab62b6e530a32f0eae0bd871c1cfe5bb3d29e09a06a707ce17
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 696c7632fd8adda71b2b67d59fba7f7d83193f5b
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719148"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8065948"
 ---
 # <a name="benefits-management-overview"></a>Išmokų valdymo apžvalga
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -37,7 +39,7 @@ Norėdami išlikti konkurencingi, turite pasiūlyti gausų išmokų rinkinį, ka
 Jei norite gauti prieigą prie demonstracinių duomenų, turite iš naujo įdiegti savo smėlio dėžės aplinką.
 
 > [!NOTE]
-> Dabar galite pritaikyti išmokų valdymo formas. Dabar galite pridėti pasirinktinius laukus, susijusius su padengimo **tarifais, į** išmokų planų parinkties formą. Norėdami gauti daugiau informacijos apie darbą su pasirinktinais laukais, žr. [Pasirinktini laukai](hr-developer-custom-fields.md).
+> Dabar galite pritaikyti išmokų valdymo puslapius. Dabar galite pridėti pasirinktinius laukus, susijusius su padengimo **tarifais, į išmokų** planų parinkties puslapį. Norėdami gauti daugiau informacijos apie darbą su pasirinktinais laukais, žr. [Pasirinktini laukai](hr-developer-custom-fields.md).
 >
 > ![Išmokų valdymo pasirinktiniai laukai](media/hr-benefits-management-custom-fields.png)
 
@@ -109,21 +111,29 @@ Galite naudoti lanksčiųjų kreditų programas, kad užregistruotumėte darbuot
 
 ## <a name="configure-required-employee-information"></a>Reikalingos darbuotojo informacijos konfigūravimas
 
-Tam, kad užregistruotumėte darbuotojus išmokoms gauti, jiems turite pateikti reikiamą informaciją. Kiekvienas darbuotojas privalo turėti pareigas. Turite įtraukti darbuotojus į pastoviosios atlyginimo dalies planą jų pradžios dieną, arba jie turi turėti metinę išmokų atlyginimo sumą. Be to, puslapio **Darbuotojas** skyriuje **Išsami įdarbinimo informacija** turite pasirinkti reikšmę **Išmokų mokėjimo dažnumas** lauke.
+Tam, kad užregistruotumėte darbuotojus išmokoms gauti, jiems turite pateikti reikiamą informaciją. 
 
-Jei turite darbuotoją, kuris gauna papildomą užmokestį kaip komisinį mokestį, galite įtraukite **Metinio užmokesčio algos** sumą iš darbuotojo įrašo. Žmogiškieji ištekliai naudos **Metinės algos išmokos** sumą nustatydami padengiamas sumas, o ne fiksuotą metinio atlyginimo sumą. **Išmokų metinė alga** turi būti galiojanti nuo darbuotojo pradžios dienos arba nuo išmokos laikotarpio pradžios, priklausomai nuo to, kuri data yra naujausia. Jei fiksuota alga ir metinės algos užmokesčio suma darbuotojui įrašoma, metinės algos užmokestis bus naudoojamas nustatant padengiamas sumas.
+Darbuotojas privalo turėti a **Padėtis** jiems priskirtas. A **Padėtis** gali būti priskirtas darbuotojui **Darbininkas** arba **Padėtis** puslapius atnaujindami **Darbuotojo paskyrimas**. 
+
+Tada darbuotojai turi būti įtraukti į fiksuotą atlyginimo planą jų pradžios dieną arba turėti **Metinės išmokos atlyginimas** suma. Prieš paskyrimą **Fiksuota kompensacija** darbuotojui, a **Padėtis** turi būti paskirta. 
+
+> [!NOTE] 
+> The **Fiksuota kompensavimo pradžios data** negali būti prieš **Pareigos paskyrimo data**.
+
+Arba, jei turite darbuotoją, kuris gauna papildomą kompensaciją, pvz., komisinius, galite pridėti a **Privalumai metinis atlyginimas** suma iš darbuotojo įrašo. Žmogiškieji ištekliai naudosis **Privalumai metinis atlyginimas** sumą, nustatant draudimo sumas, o ne **Fiksuota kompensacija kasmet** suma. **Išmokų metinė alga** turi būti galiojanti nuo darbuotojo pradžios dienos arba nuo išmokos laikotarpio pradžios, priklausomai nuo to, kuri data yra naujausia. Tačiau norint priskirti pareigas nebūtina **Privalumai metinis atlyginimas**. Norėdami įjungti **Privalumai metinis atlyginimas** funkcija, eikite į **Žmogiškųjų išteklių bendri parametrai** puslapyje, esančiame **Privalumų valdymas** skirtukas. Ši funkcija išjungta pagal numatytuosius nustatymus.
+
+> [!IMPORTANT]
+> Jei abu a **Fiksuota kompensacija** ir a **Privalumai metinis atlyginimas** suma įvedama darbuotojui, **Privalumai metinis atlyginimas** bus naudojami nustatant draudimo sumas. Viduje konors **Darbo informacija** skyrių **Darbininkas** puslapyje, turite pasirinkti reikšmę **Išmokų mokėjimo dažnumas** lauke.
 
 ## <a name="configure-optional-employee-information"></a>Papildomos darbuotojo informacijos konfigūravimas
-
 Kai kuriate išmokų planą, naudojantį tarifus, pagrįstus lytimi arba amžiumi, turite įvesti darbuotojo gimimo datą ir lytį, kad būtų apskaičiuota išmokų savikaina.
 
 ## <a name="process-employees-to-determine-eligibility"></a>Darbuotojų apdorojimas tinkamumo nustatymui
+Tam, kad darbuotojai galėtų būti įtraukti į planus, vykdomas tinkamumo apdorojimas, siekiant nustatyti, kuriems planams jie yra tinkami. Galite peržiūrėti tinkamumo proceso rezultatus **Apdorojimo rezultatų peržiūros priemonė**. Daugiau informacijos rasite [Dalyvavimo tinkamumo apdorojimas](hr-benefits-process-enrollment-eligibility.md).
 
-Tam, kad darbuotojai galėtų būti įtraukti į planus, vykdomas tinkamumo apdorojimas, siekiant nustatyti, kuriems planams jie yra tinkami. Tinkamumo proceso rezultatus galite peržiūrėti procesų rezultatų peržiūros programoje. Daugiau informacijos rasite [Dalyvavimo tinkamumo apdorojimas](hr-benefits-process-enrollment-eligibility.md).
+## <a name="employees-select-plans-using-employee-self-service-optional"></a>Darbuotojai pasirenka planus naudodami **Darbuotojų savitarna** (neprivaloma)
 
-## <a name="employees-select-plans-via-employee-self-service-optional"></a>Darbuotojai pasirenka planus per darbuotojų savitarną (pasirinktinai)
-
-Kai atsiranda atvira registracija, darbuotojai yra naujai samdomi arba įvyksta gyvenimo įvykis, darbuotojai gali pasirinkti arba atnaujinti savo išmokas darbuotojų savitarnoje. Daugiau informacijos rasite [Darbuotojo savitarnos konfigūravimas](hr-benefits-setup-employee-self-service.md).
+Kai įvyksta atvira registracija, darbuotojai naujai priimami į darbą arba įvyksta gyvenimo įvykis, darbuotojai gali pasirinkti arba atnaujinti savo privilegijas naudodami **Darbuotojų savitarna**. Daugiau informacijos rasite [Darbuotojo savitarnos konfigūravimas](hr-benefits-setup-employee-self-service.md).
 
 ## <a name="confirm-employee-plan-selections"></a>Darbuotojo plano pasirinkimų patvirtinimas
 

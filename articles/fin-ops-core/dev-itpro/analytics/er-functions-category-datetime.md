@@ -2,9 +2,7 @@
 title: Kategorijos Data ir laikas ER funkcijų sąrašas
 description: Šioje temoje pateikiama informacijos apie datos ir laiko funkcijas, palaikomas modulyje Elektroninės ataskaitos (ER).
 author: NickSelin
-manager: kfend
-ms.date: 12/05/2019
-ms.topic: article
+ms.date: 09/09/2021
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 52b84f9b611f703fd390eca58c1364a4992bece2
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
-ms.translationtype: HT
+ms.openlocfilehash: 0a0322e5490474e21ad91076ecc486f38a776e32
+ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5561715"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7890782"
 ---
 # <a name="list-of-er-functions-in-the-date-and-time-category"></a>Kategorijos Data ir laikas ER funkcijų sąrašas
 
@@ -33,13 +31,14 @@ Naudojant modulio Elektroninės ataskaitos (ER) datos ir laiko funkcijas, galima
 
 | Funkcija | Aprašymas |
 |----------|-------------|
-| [AddDays](er-functions-datetime-adddays.md) | Ši funkcija pateikia *DateTime* reikšmę, kuri yra nurodytas dienų skaičius prieš nurodytą pradžios datą arba po jos. |
-| [DateFormat](er-functions-datetime-dateformat.md) | Ši funkcija pateikia tipo *Eilutė* reikšmę, kurioje pateikiama nurodyta datos reikšmė kaip tekstas nurodytu formatu ir, jei tai pasirenkama, nurodytoje kultūroje. |
+| [AddDays](er-functions-datetime-adddays.md) | Ši funkcija pateikia *[DateTime](er-formula-supported-data-types-primitive.md#datetime)* reikšmę, kuri yra nurodytas dienų skaičius prieš nurodytą pradžios datą arba po jos. |
+| [ChangeTimeZone](er-functions-datetime-changetimezone.md) | Ši funkcija pateikia *DateTime* eikšmę, kuri iš nurodytos datos reikšmės konvertuojama į datos / laiko reikšmę universaliojo laiko kitoje laiko juostoje. |
+| [DateFormat](er-functions-datetime-dateformat.md) | Ši funkcija pateikia tipo *[Eilutė](er-formula-supported-data-types-primitive.md#string)* reikšmę, kurioje pateikiama nurodyta datos reikšmė kaip tekstas nurodytu formatu ir, jei tai pasirenkama, nurodytoje kultūroje. |
 | [DateTimeFormat](er-functions-datetime-datetimeformat.md) | Ši funkcija pateikia tipo *Eilutė* reikšmę, kurioje pateikiama nurodyta datos / laiko reikšmė kaip tekstas nurodytu formatu ir, jei tai pasirenkama, nurodytoje kultūroje. |
 | [DateTimeValue](er-functions-datetime-datetimevalue.md) | Ši funkcija pateikia *DateTime* reikšmę, kuri iš nurodytos teksto reikšmės nurodytu formatu ir, jei tai pasirenkama, nurodytoje kultūroje, konvertuojama į datos / laiko reikšmę. |
 | [DateToDateTime](er-functions-datetime-datetodatetime.md) | Ši funkcija pateikia *DateTime* reikšmę, kuri iš nurodytos datos reikšmės konvertuojama į datos / laiko reikšmę universaliojo laiko (Grinvičo laiko \[GMT\]) formatu. |
-| [DateValue](er-functions-datetime-datevalue.md) | Ši funkcija pateikia tipo *Data* reikšmę, kuri iš nurodytos teksto reikšmės nurodytu formatu ir, jei tai pasirenkama, nurodytoje kultūroje, konvertuojama į datos reikšmę. |
-| [DayOfYear](er-functions-datetime-dayofyear.md) | Ši funkcija pateikia tipo *Sveikasis skaičius* reikšmę, nurodančią dienų nuo sausio 1 d. iki nurodytos datos skaičių. |
+| [DateValue](er-functions-datetime-datevalue.md) | Ši funkcija grąžina datos vertę, kuri konvertuojama iš nurodytos teksto vertės nurodytu formatu ir pasirinktinai nurodytu *[...](er-formula-supported-data-types-primitive.md#date)* formatu į datos vertę. |
+| [DayOfYear](er-functions-datetime-dayofyear.md) | Ši funkcija grąžina vertę *[Integer,](er-formula-supported-data-types-primitive.md#integer)* kuri nurodo dienų skaičių nuo sausio 1 d. iki nurodytos datos. |
 | [Dienos](er-functions-datetime-days.md) | Ši funkcija pateikia tipo *Sveikasis skaičius* reikšmę, nurodančią dienų tarp pirmos nurodytos datos ir antros nurodytos datos skaičių. |
 | [Now](er-functions-datetime-now.md) | Ši funkcija pateikia *DateTime* reikšmę, kuri nurodo dabartinius programos serverio datą ir laiką. |
 | [NullDate](er-functions-datetime-nulldate.md) | Ši funkcija pateikia tipo *Data* reikšmę, kuri nurodo **neapibrėžtą** datą (1900 m. sausio 1 d.). |
@@ -47,6 +46,7 @@ Naudojant modulio Elektroninės ataskaitos (ER) datos ir laiko funkcijas, galima
 | [SessionNow](er-functions-datetime-sessionnow.md) | Ši funkcija pateikia *DateTime* reikšmę, kuri nurodo dabartinius programos seanso datą ir laiką. |
 | [SessionToday](er-functions-datetime-sessiontoday.md) | Ši funkcija pateikia tipo *Data* reikšmę, kuri nurodo dabartinę programos seanso datą. |
 | [Šiandien](er-functions-datetime-today.md) | Ši funkcija pateikia tipo *Data* reikšmę, kuri nurodo dabartinę programos serverio datą. |
+| [Savaitės numeris](er-functions-datetime-weeknum.md) | Ši funkcija grąžina *vertę Integer,* kuri nurodo metų savaitę. |
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 

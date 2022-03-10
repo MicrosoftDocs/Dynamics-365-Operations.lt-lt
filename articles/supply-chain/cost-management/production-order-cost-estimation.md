@@ -2,16 +2,13 @@
 title: Gamybos užsakymo savikainos įvertinimas
 description: Šiame straipsnyje pateikta informacija apie gamybos savikainos įvertinimą. Gamybos savikainos įvertinime pateiktos numatomo prekės gamybos medžiagų ir pajėgumo suvartojimo išlaidos pagal suplanuotą gamybos užsakymo kiekį.
 author: AndersGirke
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BOMCalcTrans, InventCostTrans, ProdCalcTrans, ProdTableJour, ProdTableListPage
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 80633
 ms.assetid: b4625d10-c852-4fda-b718-79df458de0d4
 ms.search.region: Global
@@ -19,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4a101f82e60113941d389421b19cddc1ad123ce9
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: a5debf62a3a0fc3ae8828473d7dd593c690e298712e5ed696077db1562796943
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4433678"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6724921"
 ---
 # <a name="production-order-cost-estimation"></a>Gamybos užsakymo savikainos įvertinimas
 
@@ -65,3 +62,6 @@ Savikainos įvertinime taip pat pateikta ši informacija:
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

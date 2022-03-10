@@ -2,7 +2,7 @@
 title: SF apdorojimas
 description: Šioje temoje pateikiama informacijos apie sąskaitų faktūrų apdorojimą Rytų Europoje.
 author: EvgenyPopovMBS
-ms.date: 10/19/2020
+ms.date: 02/02/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Czech Republic, Estonia, Hungary, Latvia, Lithuania, Poland, R
 ms.author: epopov
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: fdefc1dbf58a147c9380aacad9ca1afc253dbe766f7d8ed214753b07466841c3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 9eb4f3ace8c6295e82ba9ab44ef49baa0d10e96b
+ms.sourcegitcommit: 2aca3a95d42403c7f5d80dcd5e3ee958dca5c894
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6774224"
+ms.lasthandoff: 02/03/2022
+ms.locfileid: "8087819"
 ---
 # <a name="invoice-processing"></a>SF apdorojimas
 
@@ -69,7 +69,8 @@ ms.locfileid: "6774224"
 <td>
 <p>Teisės aktuose nurodytos skirtingos taisyklės, taikomos renkantis verslo operacijoms tinkamus valiutų kursus. Puslapiuose <strong>Gautinų sumų parametrai</strong> ir <strong>Mokėtinų sumų parametrai</strong> esančiame lauke <strong>Valiutos kurso data</strong> galite pasirinkti datą, kurią reikia naudoti su sumomis skaičiuojant apskaitos valiutą pirkimo ir pardavimo dokumentuose. Kai įvedami duomenys, sistema pagal šį parametrą gauna operacijos valiutos kursą.</p>
 <blockquote>[!NOTE]<br>Italijoje ši funkcija taikoma tik modulyje Mokėtinos sumos. Mokėtinų sumų parametruose vartotojas gali pasirinkti <strong>registravimo datą</strong> arba <strong>dokumento datą</strong> lauke <strong>Valiutos kurso data</strong>.   </blockquote>
-<blockquote>[!NOTE]<br>Kai lauką <strong>Valiutos kurso data</strong> nustatote kaip <strong>Dokumento data (tik ES prekybai)</strong>, sistema naudoja PVM grupę. PVM grupės skirtuke <strong>Bendra</strong> yra parametras <strong>ES prekyba</strong>. Jei PVM grupės parinktis <strong>ES prekyba</strong> nustatyta kaip <strong>Taip</strong> ir jei ši PVM grupė nurodyta dokumento antraštėje, sistema valiutos kursą gauna pagal dokumento datą. Jei šios PVM grupės parinktis <strong>ES prekyba</strong> nustatyta kaip <strong>Ne</strong>, sistema valiutos kursą gauna pagal dokumento registravimo datą.</blockquote>
+<blockquote><br>Kai lauką <strong>Valiutos kurso data</strong> nustatote kaip <strong>Dokumento data (tik ES prekybai)</strong>, sistema naudoja PVM grupę. PVM grupės skirtuke <strong>Bendra</strong> yra parametras <strong>ES prekyba</strong>. Jei PVM grupės parinktis <strong>ES prekyba</strong> nustatyta kaip <strong>Taip</strong> ir jei ši PVM grupė nurodyta dokumento antraštėje, sistema valiutos kursą gauna pagal dokumento datą. Jei šios PVM grupės parinktis <strong>ES prekyba</strong> nustatyta kaip <strong>Ne</strong>, sistema valiutos kursą gauna pagal dokumento registravimo datą.</blockquote>
+  <blockquote><br>Lenkijai, į<strong>Gautinos sąskaitos</strong> modulis, papildomas<strong>Automatinis datos nustatymas</strong> pasiekiama šio parametro vertė. Pasirinkus, sistema automatiškai parenka anksčiausią datą iš sąskaitos faktūros registravimo datos, pardavimo datos ir mokėjimo datos.</blockquote>
 </td>
 </tr>
 <tr>

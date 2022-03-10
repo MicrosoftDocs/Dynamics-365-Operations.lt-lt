@@ -2,35 +2,30 @@
 title: Turinio įtraukimo būdai
 description: Šioje temoje pateikiama apžvalga ir parenkami saitai, kur ir kaip pradėti tvarkyti turinį, naudojant „Microsoft Dynamics 365 Commerce“ svetainės generatoriaus žiniatinklio kūrimo įrankių rinkinį.
 author: phinneyridge
-manager: annbe
 ms.date: 10/09/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 802a41b8c55e65eee58d26137c2f160b69847010
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: f8a2dbb7bc7659e2e23b0ba6e2b5645dbe508ef9c9bda10df3bad8d04a6cfb32
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4414294"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6727683"
 ---
 # <a name="ways-to-add-content"></a>Turinio įtraukimo būdai
 
 [!include [banner](includes/banner.md)]
 
 Šioje temoje pateikiama apžvalga ir saitai į dokumentus apie tai, kaip tvarkyti turinį, naudojant „Microsoft Dynamics 365 Commerce“ svetainės generatoriaus žiniatinklio kūrimo įrankių rinkinį.
-
-## <a name="overview"></a>Peržiūrėti
 
 Yra daug būdų, kaip pakeisti svetainės išvaizdą, pojūtį ir turinį. Atsižvelgiant į reikiamą tinkinimo lygį, daugelį šių pakeitimų gali įdiegti ne kūrėjai svetainės generatoriuje, žiniatinklio kūrimo įrankių rinkinyje, įtrauktame į „Dynamics 365 Commerce“. Svetainės generatorius leidžia kurti šablonus, pasirinkti temas ir pasirinkti ir generuoti modulius nerašant kodų. Priešingai, norint sukurti naują temą arba modulį, reikia naudoti programavimo įgūdžius, nes būtina naudoti el. prekybos programinės įrangos kūrimo rinkinį (SDK) ir „Microsoft Dynamics Lifecycle Services“ (LCS) diegimo darbo eigą.
 
@@ -57,3 +52,6 @@ Pasirinkite vieną iš šių temų, kad pradėtumėte.
 [Dokumentų būsenos ir vykdymo ciklas](document-states-overview.md)
 
 [Kelių kanalų bendrinimo funkcijos įjungimas ir naudojimas](cross-channel-sharing.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

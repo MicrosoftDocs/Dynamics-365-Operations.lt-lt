@@ -2,11 +2,9 @@
 title: Pamainos ir kasos stalčių valdymas
 description: Šioje temoje paaiškinama, kaip „Commerce” elektroniniame kasos aparate (EKA) nustatyti ir naudoti pamainas.
 author: jblucher
-manager: AnnBe
 ms.date: 05/10/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailHardwareProfile, RetailTerminalTable
 audience: Application User
@@ -15,15 +13,15 @@ ms.custom: 105011
 ms.assetid: 49a0fcc9-d4db-45ad-8c4b-213ccaced82b
 ms.search.region: global
 ms.search.industry: Retail
-ms.author: rubendel
+ms.author: brshoo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 711f4f5549a478768f7f86a7001ac8a6cf9f4db6
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.openlocfilehash: 2ac42c92d38299c20bfcb293ac062aa9e4b1c628
+ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4985685"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7779749"
 ---
 # <a name="shift-and-cash-drawer-management"></a>Pamainos ir kasos stalčių valdymas
 
@@ -156,4 +154,7 @@ Eikite į **Mažmeninė prekyba ir prekyba \> Kanalai \> Parduotuvės \> Visos p
 
 Tokia sąranka padeda užtikrinti, kad į tarnybinio biuro išrašus būtų įtrauktos tos pačios operacijos kaip EKA pamainos ir kad duomenys būtų apibendrinami pagal tą pamainą.
 
-Norėdami apie išrašų ir baigimo metodus gauti daugiau informacijos, žr. [„Retail” išrašo parduotuvės konfigūracijos](https://docs.microsoft.com/dynamics365/unified-operations/retail/tasks/store-configurations-retail-statements).
+Norėdami apie išrašų ir baigimo metodus gauti daugiau informacijos, žr. [„Retail” išrašo parduotuvės konfigūracijos](/dynamics365/unified-operations/retail/tasks/store-configurations-retail-statements).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

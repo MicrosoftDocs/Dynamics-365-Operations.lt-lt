@@ -2,11 +2,9 @@
 title: Dalinis vietos ciklų skaičiavimas
 description: Faktinės skaičiavimo operacijos valdomos pagal ciklo skaičiavimo planus. Galite reikalauti, kad būtų skaičiuojamos ne visos vietoje turimos atsargos, o tik konkretūs produktai ir produkto variantai.
 author: perlynne
-manager: tfehr
 ms.date: 09/02/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSCycleCountPlan, WHSWorkLineCycleCount, WHSWorkTemplateLineGroup, WHSWorkTemplateTable, WHSRFMenuItemCycleCount, WHSCycleCountPlanListPage
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8f228f10c5aeaca3f4fc9b97bf7b6cc4af1592b8
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.openlocfilehash: 9f06b39f3c2d2f5a0bdfef1da9395c71686ed46968a1143305b5a10787f7e85f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4973615"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6778439"
 ---
 # <a name="partial-location-cycle-counting"></a>Dalinis vietos ciklų skaičiavimas
 
@@ -48,7 +46,7 @@ Prieš apdorojant dalinį ciklo skaičiavimo darbą, turite bent jau pasirinkti 
 Dalinio ciklo skaičiavimo proceso atveju vietos **paskutinio ciklo skaičiavimo** data / laikas nebus atnaujinami, net jei bus suskaičiuotos visos konkrečios vietos turimos prekės. Dalinis ciklo skaičiavimas neatsižvelgia į parametrą **Dienos tarp ciklo skaičiavimų** puslapyje **Ciklo skaičiavimo planai**. Dalinis ciklo skaičiavimas nepalaiko tuo pačiu metu atliekamų kelių prekių skaičiavimų toje pačioje vietoje. Dalinio ciklo skaičiavimo funkcijos gali lemti tai, kad vykdant **Apdoroti ciklo skaičiavimo planą** prekė bus suskaičiuota kelis kartus toje pačioje vietoje. Norėdami išvengti šio scenarijaus, lauke **Pasirinkti vietas** nurodykite filtrus.
 
 > [!NOTE]
-> Sandėlio programa nesuteikia **Įtraukti LP ar prekę** mygtuko, kai naudojate dalinio ciklo skaičiavimo procesą.
+> Sandėlio valdymo mobiliųjų įrenginių programėlė nesuteikia **Įtraukti LP ar prekę** mygtuko, kai naudojate dalinio ciklo skaičiavimo procesą.
 
 ## <a name="example"></a>Pavyzdys
 
@@ -61,3 +59,6 @@ Pavyzdžiui, 61 sandėlyje turi būti skaičiuojamas tik prekės numeris A0001.
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Ciklų skaičiavimas](cycle-counting.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
