@@ -2,7 +2,7 @@
 title: „Dynamics 365 Supply Chain Management” 10.0.25 (2022 m. balandžio mėn.) peržiūra
 description: Šioje temoje aprašomos naujos ir pakeistos „Microsoft Dynamics 365 Supply Chain Management“ 10.0.25 funkcijos.
 author: kamaybac
-ms.date: 02/01/2022
+ms.date: 03/14/2022
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-01
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: 068e65d0bd76d7a9af36c6c3539d0c813efd528a
-ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
+ms.openlocfilehash: 26f67be72948e33738cf805b541d3c7e701f8dba
+ms.sourcegitcommit: a8f4d7d21d9af17d80b1213e5e1a81f42fb8b928
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8384543"
+ms.lasthandoff: 03/14/2022
+ms.locfileid: "8414125"
 ---
 # <a name="preview-of-dynamics-365-supply-chain-management-10025-april-2022"></a>„Dynamics 365 Supply Chain Management” 10.0.25 (2022 m. balandžio mėn.) peržiūra
 
@@ -39,6 +39,7 @@ Tolesnėje lentelėje pateiktos funkcijos, kuri yra šiame leidime. Galime atnau
 | Atsargos&nbsp;ir&nbsp;logistika | [Nuskaityti brūkšninius kodus sandėlyje naudojant GS1 formato standartus](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/scan-barcodes-warehouse-using-gs1-format-standards) | [GS1 brūkšniniai kodai ir QR kodai](../warehousing/gs1-barcodes.md) | Priemonių valdymas:<br>*Nuskaityti GS1 brūkšninius kodus* |
 | Gamyba | [Medžiagų suvartojimas ir rezervavimas gamybos laiko vykdymo sąsajoje](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/material-consumption-reservations-production-floor-execution-interface) | [Kaip darbuotojai naudoja gamybos vietos vykdymo sąsają](../production-control/production-floor-execution-use.md) | Priemonių valdymas:<br>*(Peržiūros versija) Registruokite medžiagų suvartojimą gamybos vietos vykdymo sąsajoje (ne WMS)*<br><br>Ir (arba):<br><br>Priemonių valdymas:<br>*(Peržiūros versija) Užregistruokite medžiagų suvartojimą gamybos vietos vykdymo sąsajoje (veikia WMS)* |
 | Gamyba | [Registruoti medžiagų suvartojimą skalės vienetais](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/register-material-consumption-scale-units) | [Gamybos vykdymo darbo krūviai, skirti debesies ir briaunos skalės vienetams](../cloud-edge/cloud-edge-workload-manufacturing.md) | Priemonių valdymas:<br>*Užregistruokite medžiagų suvartojimą mobiliojoje programėlėje, esančioje svėrimo įrenginyje* |
+| Planuojama | [Planavimo optimizavimo centralizuota kalendoriaus priežiūra](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/planning-optimization-centralized-calendar-maintenance) | [Kalendoriai ir bendrasis planavimas](../master-planning/supply-chain-calendars-master-planning.md) | Įgalinta pagal numatytuosius nustatymus |
 | Planuojama | [Esamo tiekimo optimizavimo pasiūlymų planavimas](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/planning-optimization-suggestions-optimize-existing-supply) | [Veiksmų pranešimai](../master-planning/action-messages.md) | Įgalinta pagal numatytuosius nustatymus |
 | Planuojama | Supaprastinti planuoti užsakymai | [Supaprastinti planuoti užsakymai](../master-planning/planning-optimization/planned-orders-simplified.md ) | Priemonių valdymas:<br>*Supaprastinti planuoti užsakymai* |
 
@@ -54,7 +55,7 @@ Jei norite įjungti arba išjungti bet kurią iš šių priemonių, tai turite a
 | Paraiškos | Sujunkite kelias pirkimo paraiškas į vieną pirkimo užsakymą pagal apskaitos datą | Ši funkcija leidžia konsoliduoti kelias pirkimo paraiškas į vieną pirkimo užsakymą, jei skirtingų pirkimo paraiškų apskaitos datos skiriasi. Pirkimo užsakymo kūrimas ir poreikio konsolidavimo pirkimo strategijos taisyklės gali būti nustatytos automatizuojant sprendimą grupuoti paraiškos eilutes pagal apskaitos datą pirkimo užsakymo lygiu. Pirkimo užsakymo konsolidavimas pagal apskaitos datą nepalaikomas, jei biudžeto kontrolė įgalinta, nes apskaitos data naudojama biudžeto rezervavimams ir biudžeto rezervavimams. Todėl jis turėtų būti išlaikytas pereinant iš pirkimo paraiškos į pirkimo užsakymą. |
 | Paraiškos | Rodyti senstelėjusius numatytųjų RFQ atsakymo laukų parametrus | Ši priemonė iš naujo pateikia senesnius numatytuosius pasiūlymo patvirtinimo (RFQ) atsakymo lauko parametrus, kurie anksčiau buvo pašalinti iš vartotojo sąsajos. Šie parametrai neįeja jokios funkcijos į lauką, bet gali būti pritaikyti, kad juos būtų galima pateikti pagal reikiamus parametrus. Įgalinkite šią funkciją, jei jūsų organizacija jau įtraukė numatytųjų RFQ atsakymo lauko parametrų funkcijas arba planuojama į ją. Įgalinę šią funkciją, **galite** pasiekti parametrus pereidami į įsigijimo ir gavimo parametrų puslapį, **·** **atidarydami pasiūlymo patvirtinimo skirtuką ir pasirinkdami numatytuosius pasiūlymo patvirtinimo atsakymo laukus**. |
 | Paraiškos | Sujunkite tiekėjo finansines dimensijas su aktyvia dimensijos susiejimo finansine dimensija pirkimo užsakyme | Ši funkcija leidžia sulieti finansines dimensijas iš tiekėjų su aktyvia dimensijos sąsaja finansines dimensijas po pirkimo paraiškos patvirtinimo, jei nustatote finansinės dimensijos ir svetainės atsargų dimensijos saitą. Pirkimo užsakymo kūrimas ir poreikio konsolidavimo pirkimo strategijos taisyklės gali būti nustatytos taip, kad būtų galima valdyti sprendimą sulieti finansines dimensijas iš tiekėjų su aktyvia dimensijos saito finansine dimensija pirkimo užsakymo antraštės lygyje. |
-| Gamybos kontrolė | (Rusija) Įgalinti numatytąjį vietos nustatymą, gamybos formulę / KS ir automatinį GTD rezervavimą / suvartojimą gamyboje | Priemonė įgalina papildomas gamybos iš importuotų žaliavų pasirinktis (tik rusiška lokalizacija):<ul><li>Pasirinkti nustatyti automatinę numatytąją gamybos formulių ir komplektavimo specifikacijos vietą išteklių grupėse ir sandėliuose.</li><li>Automatinis žaliavų rezervavimas pagal *GTD numerio* dimensiją WMS aktyvuose sandėliuose pagal ne WMS rezervavimo algoritmą. Tai taikoma *tais* **·** *atvejais*, kai žaliavų paėmimo darbo strategija, kurios darbo kūrimo metodas nustatytas kaip Niekada, o sandėlio, vietos ir prekės numerio nustatymas atitinka gamybos (paketinio) užsakymo atsargų operacijas.</li><li>Automatinis žaliavų suvartojimas pagal *GTD numerio dimensiją* išrinkimo dokumentų registravimo metu pagal anksčiau apibūdintą įsigytą rezervavimą.</li></ul> |
+| Gamybos kontrolė | (Rusija) Įjungti numatytąją gamybos formulės / KS vietos sąranką ir automatinį GTD rezervavimą / sąnaudas gamyboje | Priemonė įgalina papildomas gamybos iš importuotų žaliavų pasirinktis (tik rusiška lokalizacija):<ul><li>Pasirinkti nustatyti automatinę numatytąją gamybos formulių ir komplektavimo specifikacijos vietą išteklių grupėse ir sandėliuose.</li><li>Automatinis žaliavų rezervavimas pagal *GTD numerio* dimensiją WMS aktyvuose sandėliuose pagal ne WMS rezervavimo algoritmą. Tai taikoma *tais* **·** *atvejais*, kai žaliavų paėmimo darbo strategija, kurios darbo kūrimo metodas nustatytas kaip Niekada, o sandėlio, vietos ir prekės numerio nustatymas atitinka gamybos (paketinio) užsakymo atsargų operacijas.</li><li>Automatinis žaliavų suvartojimas pagal *GTD numerio dimensiją* išrinkimo dokumentų registravimo metu pagal anksčiau apibūdintą įsigytą rezervavimą.</li></ul> |
 | Sandėlio valdymas | (Peržiūros versija) Gaunamų ir išsiunčiamų sandėlio užsakymų svėrimo įrenginių palaikymas | Dėl šios funkcijos sistema gali kurti siunčiamus sandėlio užsakymus paleidimo į sandėlį proceso metu ir kurti gavimo sandėlio užsakymus, kai perkėlimo užsakymai registruojami kaip išsiųsti. Sistema susinchronizuoja kiekvieną atvežimo ar siuntimo sandėlio užsakymą su skalės vienetu, atsakingu už užsakymo siuntimą arba gavimą. Atkreipkite dėmesį, kad įgalinus šią funkciją reikia atnaujinti sandėlio vykdymo darbo krūvius. Daugiau informacijos rasite [Sandėlio valdymo darbo krūviai debesies ir briaunos skalės vienetams](../cloud-edge/cloud-edge-workload-warehousing.md).<br><br>Šiai funkcijai *reikia "Decouple" naudojimo iš ASN funkcijos ir bus galima gauti perkėlimo užsakymus* naudojant numerio lentelės gavimo procesą sandėlio valdymo mobilioje programoje. |
 
 ## <a name="feature-state-changes-in-this-release"></a>Šiame leidime yra funkcijų būsenos pakeitimai

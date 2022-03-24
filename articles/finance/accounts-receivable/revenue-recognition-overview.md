@@ -2,7 +2,7 @@
 title: Įplaukų pripažinimo funkcijos apžvalga (yra vaizdo įrašas)
 description: Šioje temoje pateikiama informacija apie įplaukų pripažinimo funkciją. Šia funkcija teikiama lanksti sistema, leidžianti nustatyti įmonei būdingas taisykles, skirtas kelių elementų užsakymų tiek įplaukų vertei, tiek įplaukų grafikui pripažinti.
 author: kweekley
-ms.date: 11/11/2019
+ms.date: 03/15/2022
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: a5e7b6407fe72c56ea04920532d4327d2b89f8d1
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
-ms.translationtype: HT
+ms.openlocfilehash: aae46fa90d306355608200f96ae5cf10793c8464
+ms.sourcegitcommit: 0925b9ee0cb0df93047681a243aacc2abd404dea
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982592"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "8446183"
 ---
 # <a name="revenue-recognition-overview"></a>Įplaukų pripažinimo apžvalga
 
@@ -26,10 +26,7 @@ ms.locfileid: "7982592"
 
 Pramonės šakų įmonės, prekiaujančios keliais elementais, pvz., produktais, paslaugomis, abonementais ir t. t., privalo galėti išskaidyti kelių elementų užsakymus, kad įplaukos galėtų būti pripažintos pagal konkrečios įmonės ir konkrečios pramonės šakos rekomendacijų rinkinį.
 
-> [!NOTE]
-> Įplaukų pripažinimo funkcija negali būti įjungta naudojant funkcijų valdymą. Dabar norėdami ją įjungti, turite naudoti konfigūracijos raktus.
-
-> Įplaukų atpažinimas, įskaitant grupavimo funkcijas, nepalaikomas „Commerce“ kanaluose (el. prekyba, EKA, skambučių centras). Prekės, sukonfigūruotos atpažinti įplaukas, neturėtų būti įtraukiamos į „Commerce“ kanaluose sukurtus užsakymus ar operacijas.
+Įplaukų atpažinimas, įskaitant grupavimo funkcijas, nepalaikomas „Commerce“ kanaluose (el. prekyba, EKA, skambučių centras). Prekės, sukonfigūruotos atpažinti įplaukas, neturėtų būti įtraukiamos į „Commerce“ kanaluose sukurtus užsakymus ar operacijas.
 
 Paprastai įplaukų pripažinimo procesas gali būti naudojamas šioms užduotims atlikti:
 

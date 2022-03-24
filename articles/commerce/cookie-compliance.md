@@ -2,7 +2,7 @@
 title: Slapukų atitiktis
 description: Šioje temoje apžvelgiama slapukų atitiktis ir numatytosios strategijos, įtrauktos į „Microsoft Dynamics 365 Commerce“.
 author: BrianShook
-ms.date: 07/30/2021
+ms.date: 03/10/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 509ae998b4d0fa8ab6dd5e3d242dfb4abc492952cd66addc04050fbaff949326
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 2efb866d513ba90630b0397c1ca144c92d40719c
+ms.sourcegitcommit: 4645278a4b4a38dcb18fdfb49ce2e276eabb59de
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6747702"
+ms.lasthandoff: 03/11/2022
+ms.locfileid: "8403152"
 ---
 # <a name="cookie-compliance"></a>Slapukų atitiktis
 
@@ -58,6 +58,7 @@ Toliau pateikiamoje lentelėje rodomas dabartinis slapukų nuorodų sąrašas, k
 | \_msdyn365___aud_0                          | Saugoma segmentų vertė, naudojama pagal taikymą ir naudojama tik tada, jei tikslinis taikymas konfigūruojamas puslapyje ar fragmentas, reikalaujamas svetainės vartotojo. Sausainis pateikiamas tik tada, kai segmento vertės atiteks trečiosios šalies segmentavimo tiekėjui.      | 7 dienos |
 | \_msdyn365___aud_1                           | Saugoma segmentų vertė, naudojama pagal taikymą ir naudojama tik tada, jei tikslinis taikymas konfigūruojamas puslapyje ar fragmentas, reikalaujamas svetainės vartotojo. Sausainis pateikiamas tik tada, kai segmento vertės atiteks trečiosios šalies segmentavimo tiekėjui.      | 7 dienos |
 | \_msdyn365___aud_2                           | Saugoma segmentų vertė, naudojama pagal taikymą ir naudojama tik tada, jei tikslinis taikymas konfigūruojamas puslapyje ar fragmentas, reikalaujamas svetainės vartotojo. Sausainis pateikiamas tik tada, kai segmento vertės atiteks trečiosios šalies segmentavimo tiekėjui.      | 7 dienos |
+| "d365gi"                                       | Šiame slapukais saugomi geografinės vietos duomenys, kai naudojama trečiosios šalies geografinio paskirstymo tarnyba.      | 1 diena |
 
 Jeigu svetainės vartotojas pasirenka bet kuriuos socialinės medijos saitus svetainėje, šioje lentelėje pateikti slapukai taip pat bus sekami jų naršyklėje.
 
@@ -65,17 +66,17 @@ Jeigu svetainės vartotojas pasirenka bet kuriuos socialinės medijos saitus sve
 | Domenas                      | Slapukas               | Aprašas                                                  | Šaltinis                                          |
 | --------------------------- | ------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | „.linkedin.com”                | Vartotojo atitikties istorija         | „LinkedIn” skelbimų ID sinchronizavimas                                      | „LinkedIn” Sklaidos kanalas ir Įžvalgų žymė                                |
-| „.linkedin.com”               | „li_sugr”                  | Naršyklės identifikatorius                                           | „LinkedIn” Įžvalgų žymė, jeigu IP adresas nėra priskirtoje šalyje |
+| „.linkedin.com”               | „li_sugr”                  | Naršyklės identifikatorius                                           | LinkedIn Insight žymė, jei IP adresas nėra paskirtoje šalyje |
 | „.linkedin.com”               | Bizografikos atsisakymas       | Nustato atsisakymo būseną trečiosios šalies sekimui.              | „LinkedIn” svečių valdikliai ir industrijos atsisakymo puslapiai           |
 | „.linkedin.com”               | „\_guid”                    | Naršyklės identifikatorius, skirtas „Google Ads”.                            | „LinkedIn” Sklaidos kanalas                                                |
 | „.linkedin.com”               | „li_oatml”                 | Nario netiesioginis identifikatorius, skirtas konvertavimo sekimui, tiksliniam nukreipimui ir analizei. | „LinkedIn” Skelbimų ir Įžvalgų žymės                                |
 | Įvairūs pirmosios šalies domenai | „li_fat_id”                | Nario netiesioginis identifikatorius, skirtas konvertavimo sekimui, tiksliniam nukreipimui ir analizei. | „LinkedIn” Skelbimų ir Įžvalgų žymės                                |
-| „.adsymptotic.com”            | U                        | Naršyklės identifikatorius                                           | „LinkedIn” Įžvalgų žymė, jei IP adresas yra nepriskirtoje šalyje |
+| „.adsymptotic.com”            | U                        | Naršyklės identifikatorius                                           | LinkedIn Insight žymė, jei IP adresas nėra paskirtoje šalyje |
 | „.linkedin.com”                | „bcookie”                  | Naršyklės ID slapukas                                            | Užklausos į „LinkedIn”                                         |
 | „.linkedin.com”                | „bscookie”                 | Saugios naršyklės slapukas                                        | Užklausos į „LinkedIn”                                         |
 | „.linkedin.com”               | „lang”                     | Nustato numatytąją lokalę ir kalbą.                                 | Užklausos į „LinkedIn”                                         |
 | „.linkedin.com”                | „lidc”                     | Naudojama nukreipimui.                                             | Užklausos į „LinkedIn”                                         |
-| „.linkedin.com”               | „aam_uuid”                 | „Adobe” auditorijos vadovo slapukas                                                     | ID sinchronizavimo nustatymas                                              |
+| „.linkedin.com”               | „aam_uuid”                 | Adobe auditorijos vadybininko slapukai                                                     | ID sinchronizavimo nustatymas                                              |
 | „.linkedin.com”               | „\_ga”                      | „Google Analytics“ slapukas                                            | „Google Analytics“                                             |
 | „.linkedin.com”               | „\_gat”                     | „Google Analytics“ slapukas                                             | „Google Analytics“                                             |
 | „.linkedin.com”               | „liap”                     | „Google Analytics“ slapukas                                             | „Google Analytics“                                             |
@@ -103,12 +104,12 @@ Jeigu svetainės vartotojas pasirenka bet kuriuos socialinės medijos saitus sve
 | „.pinterest.com”              | „csrftoken”                | Slapukai apima puslapius, kai vartotojas pasirenka „Pinterest” mygtuką.      | „Pinterest”                                                             |
 | „.pinterest.com”              | „sessionFunnelEventLogged” | Slapukai apima puslapius, kai vartotojas pasirenka „Pinterest” mygtuką.      | „Pinterest”                                                             |
 | „.pinterest.com”              | Vietinė saugykla            |                                                              |  „Pinterest”                                                            |
-| „.pinterest.com”              | Tarnybos darbuotojai          |                                                              |  „Pinterest”                                                            |
+| „.pinterest.com”              | Tarnybos darbuotojai          |                                                              |  Palūkanos                                                            |
 
 
-## <a name="site-user-cookie-consent-on-an-e-commerce-site"></a>Svetainės vartotojo sutikimas dėl slapukų „e-Commerce” svetainėje 
+## <a name="site-user-cookie-consent-on-an-e-commerce-site"></a>Svetainės vartotojo vartotojo sutikimas dėl el. komercijos svetainės 
 
-Jei „e-Commerce” svetainės funkcija ar modulis naudoja nepagrindinius slapukus, prieš naudojant juos reikia gauti svetainės vartotojo sutikimą. Norint leisti svetainės vartotojams pateikti sutikimą dėl slapukų „e-Commerce” svetainėje, svetainės autorius turi įtraukti ir konfigūruoti sutikimo dėl slapukų modulį puslapio antraštės modulyje, kad būtų užtikrinta, jog sutikimo reikalaujama ir jis gaunamas. Svetainės vartotojo sutikimas turi būti suteiktas prieš funkcijos arba modulio, naudojančio nepagrindinius slapukus, atvaizdavimą svetainės puslapyje.
+Jei el. komercijos svetainės funkcija ar modulis naudoja neesminį slaptažodį, prieš sekant svetainėje reikia gauti svetainės vartotojo sutikimą. Kad svetainės vartotojai galėtų suteikti sutikimo sutikimą el. komercijos svetainėje, svetainės autorius turi puslapio antraštės modulyje pridėti ir konfigūruoti sutikimo internetu modulį, kad užtikrinti, kad sutikimas būtų raginamas ir gaunamas. Svetainės vartotojo sutikimas turi būti suteiktas prieš funkcijos arba modulio, naudojančio nepagrindinius slapukus, atvaizdavimą svetainės puslapyje.
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 

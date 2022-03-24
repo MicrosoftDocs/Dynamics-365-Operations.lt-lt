@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-07-30
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: e271ddd3331d7b5de78f00a02b60a0479879c172
-ms.sourcegitcommit: f8b597b09157d934b62bd5fb9a4d05b8f82b5a0e
+ms.openlocfilehash: 575aef709a0ac3b0cf8150f1e816dac04c069814
+ms.sourcegitcommit: ddcab9726e9dbcf3296cb0988b97a3ae7ccb3dfb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/26/2021
-ms.locfileid: "7700010"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "8396504"
 ---
 # <a name="differences-between-built-in-master-planning-and-planning-optimization"></a>Skirtumas tarp įtaisytojo bendrojo planavimo ir „Planning Optimization“
 
@@ -36,6 +36,7 @@ ms.locfileid: "7700010"
 | Saugos atsargų pildymas | Planavimo optimizavimas visada naudoja *Šiandienos data + įsigijimo laikas* parinktį, skirtą **Įvykdyti minimalų poreikį** laukui, esančiam **Prekės padengimo** puslapyje. Tai padeda sustabdyti nenorimus suplanuotus užsakymus ir kitas problemas, nes jeigu įsigijimo laikas neįtrauktas į saugos atsargas, suplanuoti užsakymai, sukurti dabartinėms mažoms turimoms atsargos, visada bus atidėti dėl gamybos laiko. |
 | Saugos atsargų iškvietimas ir grynieji poreikiai | *Saugos atsargų* reikalavimo tipas nėra įtrauktas ir nėra rodomas **Grynųjų poreikių** puslapyje. Saugos atsargos neatspindi poreikio ir neturi su juo susietos poreikio datos. Vietoj to jis nustato apribojimą, kiek atsargų visada turi būti pasiekiama. Tačiau vis dar atsižvelgiama į lauko **Mažiausia** reikšmę apskaičiuojant suplanuotus užsakymus bendrojo planavimo metu. Rekomenduojame patikrinti **Sukauptas kiekis** stulpelį, esantį **Grynųjų poreikių** puslapyje, kad pamatytumėte, jog į šią reikšmę buvo atsižvelgta. |
 | Transportavimo kalendoriai | Pristatymo būdų puslapio **Transportavimo kalendorius** stulpelio **vertė ignoruojama**. |
+| Min. / maks. padengimo kodas be verčių| Naudojant įtaisytą planavimo sistemą, kai naudojate min. / maks. padengimo kodą, kuriame nėra nustatytos minimalios ar maksimalios vertės, planavimo variklis padengimo kodą laiko reikalavimu ir kiekvienam poreikiui sukuria vieną užsakymą. Sistema sukurs vieną užsakymą per dieną planavimo optimizavimui padengti visą tos dienos sumą.  |
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 

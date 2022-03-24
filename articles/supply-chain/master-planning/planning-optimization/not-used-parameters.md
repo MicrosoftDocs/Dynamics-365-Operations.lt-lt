@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-06-29
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 01edccbf1a50264b3867e303cbca44eb1b1d7dd9
-ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
+ms.openlocfilehash: 32e5ceb607d2c4f3d9794421db5382441ac30467
+ms.sourcegitcommit: 6dc2b877cf8ea9185a07964ec05c5ddb7a78471b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "8087504"
+ms.lasthandoff: 03/12/2022
+ms.locfileid: "8408235"
 ---
 # <a name="parameters-not-used-by-planning-optimization"></a>Planavimo optimizavimo nenaudojami parametrai
 
@@ -60,7 +60,7 @@ Planavimo optimizavimas nenaudoja šių parametrų ar parinkčių **Padengimo gr
 
 - „FastTab“ **Bendra**.
 
-  - **Teigiamos dienos** – The *Teigiamos dienos* vertė nenaudojama. Naudojant planavimo optimizavimą, teigiamos dienos laikomos begalinėmis.
+  - **Teigiamos** dienos *– teigiamų* dienų vertė naudojama. Naudojant planavimo optimizavimą, teigiamos dienos laikomos neribotomis.
   - **Naudoti turimas atsargas** – laukia *Turimų atsargų naudojimo* palaikymo.
   - **Naudoti nurodytą KS arba formulės versiją** – laukia *Formulės versijų su sudėtiniu/šalutiniu produktu* palaikymo.
   - **Naudoti nurodytą maršruto versiją** – laukia *Poreikio su apibrėžta konkrečia KS arba maršruto reikalavimais* palaikymo.
@@ -161,9 +161,9 @@ Planavimo optimizavimas nenaudoja šių parametrų ar parinkčių **Bendrųjų p
   - **Pridėti apskaičiuotą vėlavimą prie poreikio datos** (skyriuje **Suplanuoti perkėlimai**) – laukia *Apskaičiuotų vėlavimų* palaikymo.
   - **Pridėti apskaičiuotą vėlavimą prie poreikio datos** (skyriuje **Suplanuoti „kanban”**) – laukia *Apskaičiuotų vėlavimų* palaikymo.
 
-- **Veiksmo pranešimas** FastTab:
+- **Veiksmo pranešimo "** FastTab":
 
-  - **Atnaujinkite atidėtą datą kaip reikalavimo datą** - Šis parametras nutraukiamas naudojant planavimo optimizavimą.
+  - **Atnaujinti atidėtą datą kaip poreikio datą** – šis parametras nutrauktas naudojant planavimo optimizavimą.
 
 - „FastTab” skirtukas **Seka**:
 
@@ -194,12 +194,6 @@ Planavimo optimizavimas nenaudoja šio parametro **Numatytųjų užsakymo parame
   - **Pristatymo datos valdymas** – Planavimo optimizavimas nepalaiko *„CTP”* parinkties, laukia *„CTP”* palaikymo.
   - **Atsargų pagrindinis laikas** – „Planning Optimization“ tarnybos versijose, kurios yra senesnės nei 2021 m. rugpjūčio 6 d. leidimas, planavimo optimizavimas naudoja šį parametrą tinkamam užsakymo ir pristatymo datoms apskaičiuoti, tačiau pats apskaičiuotas gamybos laikas neišskaičiuotas suplanuotiems užsakymams. Vėlesnėse versijose aptarnavimas naudoja ir apskaičiuotą gamybos laiką, kad nustatytų pasirinktį **Gamybos laikas** laukelyje ir **Darbo dienos** kaip reikalaujama susijusiame suplanuotame užsakyme.
   - **Darbo dienos** – „Planning Optimization“ tarnybos versijose, kurios yra senesnės nei 2021 m. rugpjūčio 6 d. leidimas, „Planning Optimization“ naudoja šį parametrą tinkamam užsakymo ir pristatymo datoms apskaičiuoti, tačiau pats apskaičiuotas gamybos laikas neišskaičiuotas suplanuotiems užsakymams. Vėlesnėse versijose aptarnavimas naudoja ir apskaičiuotą gamybos laiką, kad nustatytų pasirinktį **Gamybos laikas** laukelyje ir **Darbo dienos** kaip reikalaujama susijusiame suplanuotame užsakyme.
-
-## <a name="working-time-calendars-page"></a>Darbo laiko kalendorių puslapis
-
-Planavimo optimizavimas nenaudoja šio parametro **Darbo laiko kalendorių** puslapyje:
-
-- **Pagrindinis kalendorius** – laukia *Pagrindinių kalendorių* palaikymo.
 
 ## <a name="batch-disposition-master-page"></a>Pagrindinis paketo perdavimo puslapis
 

@@ -2,19 +2,19 @@
 title: Šalies ir bendros knygelės nustatymas
 description: Šioje temoje aprašomos dvigubo rašymo šalies ir visuotinės adresų knygelės funkcijos.
 author: RamaKrishnamoorthy
-ms.date: 08/11/2021
+ms.date: 03/10/2022
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: tfehr
+ms.reviewer: josaw
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-02-22
-ms.openlocfilehash: 601c49e21c3a97d2da225705ddbb386e491d4d25
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
-ms.translationtype: HT
+ms.openlocfilehash: 2e0d16b29a71da23acc925c09c87f0bb4776759c
+ms.sourcegitcommit: 6dc2b877cf8ea9185a07964ec05c5ddb7a78471b
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8060337"
+ms.lasthandoff: 03/12/2022
+ms.locfileid: "8407770"
 ---
 # <a name="party-and-global-address-book"></a>Šalies ir bendros knygelės nustatymas
 
@@ -22,22 +22,22 @@ ms.locfileid: "8060337"
 
 
 
-*Vakarėlis* ir *pasaulinė adresų knyga* yra sąvokos „Finance and Operations“ programose. Šalis gali būti organizacija ar asmuo. Tai patogu visuotinai saugoti ir tvarkyti šalies ypatybių pavadinimą, tokių kaip kalbą, kontaktus ir adresus. Tada, kai ypatybės vertė pasikeičia vienoje vietoje, pakeitimas atsispindi visose vietose, kuriose dalyvauja šalis.
+*Šalis* ir *visuotinė adresų knygelė* yra finansų ir operacijų programų koncepcijos. Šalis gali būti organizacija ar asmuo. Tai patogu visuotinai saugoti ir tvarkyti šalies ypatybių pavadinimą, tokių kaip kalbą, kontaktus ir adresus. Tada, kai ypatybės vertė pasikeičia vienoje vietoje, pakeitimas atsispindi visose vietose, kuriose dalyvauja šalis.
 
 ## <a name="party"></a>Įrašas
 
-Šalis yra asmuo arba organizacija, įtraukta į verslą. Naudojant šalies sąvoką, asmuo ar organizacija gali vaidinti daugiau nei vieną vaidmenį veikloje (pavyzdžiui, darbuotojo, kliento, tiekėjo ar kontakto). Vaidmuo remiasi kontekstu ir tikslu. Štai keletas dviejų fiktyvių įmonių „Contoso“ ir „Fabrikam“ vaidmenų pavyzdžių:
+Šalis yra asmuo arba organizacija, įtraukta į verslą. Naudojant šalies sąvoką, asmuo ar organizacija gali vaidinti daugiau nei vieną vaidmenį veikloje (pavyzdžiui, darbuotojo, kliento, tiekėjo ar kontakto). Vaidmuo remiasi kontekstu ir tikslu. Štai keli iš fiktyvių įmonių Contoso ir Fabrikam vaidmenų pavyzdžiai:
 
-+ **Darbuotojas**: darbuotojas. Pavyzdys yra „Contoso“ darbuotojas.
-+ Terminas **tiekėjas**: reiškia tiekėjų organizaciją arba individualų savininką, kuris tiekia prekes ar teikia paslaugas verslui. Pavyzdžiui, jei „Fabrikam“ parduoda prekes „Contoso“, „Fabrikam“ yra „Contoso“ pardavėjas.
-+ **Kontaktas**: asmuo, kurį reikia susisiekti. Pavyzdžiui, jei „Contoso“ perka reikmenis iš „Fabrikam“, „Contoso“ darbuotojai susisieks su „Fabrikam“ kontaktiniu asmeniu.
-+ **Klientas**: klientas yra asmuo arba įmonė, kuri perka dalykus iš įmonės. Pavyzdžiui, jei „Contoso“ perka reikmenis iš „Fabrikam“, „Contoso“ yra „Fabrikam“ klientas.
++ **Darbuotojas**: darbuotojas. Pavyzdys yra "Contoso" darbuotojas.
++ Terminas **tiekėjas**: reiškia tiekėjų organizaciją arba individualų savininką, kuris tiekia prekes ar teikia paslaugas verslui. Pavyzdžiui, jei Fabrikam parduoda atsargas Contoso, Fabrikam yra Contoso tiekėjas.
++ **Kontaktas**: asmuo, kurį reikia susisiekti. Pavyzdžiui, jei "Contoso" perka atsargas iš Fabrikam, "Contoso" darbuotojai susisieks su Fabrikam kontaktu.
++ **Klientas**: klientas yra asmuo arba įmonė, kuri perka dalykus iš įmonės. Pavyzdžiui, jei Contoso perka atsargas iš Fabrikam, Contoso yra Fabrikam klientas.
 
 Šalies modelis dažnai naudojamas siekiant pateikti tarpinių ir kompleksinių ryšių tarp organizacijų ir žmonių ryšius, ypač kai šalis atlieka daugiau nei vieną vaidmenį. Štai keletas bendrų pavyzdžių:
 
-+ Šalis gali būti ir klientas, ir tiekėjas. Pavyzdžiui, Šiaurės Amerikoje „Fabrikam“ parduoda elektros laidus „Contoso“, o iš „Contoso“ perka surinktus garsiakalbius. Europoje „Fabrikam“ parduoda dalis „Contoso“, bet iš „Contoso“ nieko neperka.
++ Šalis gali būti ir klientas, ir tiekėjas. Pavyzdžiui, Šiaurės Amerikoje Fabrikam parduoda elektros iš Contoso ir nuperka surinktus kanalus iš Contoso. Europoje Fabrikam parduoda dalis "Contoso", tačiau iš "Contoso" nieko nepirko.
 + Šalis gali būti ir darbuotojas, ir klientas. Pavyzdžiui, „Contoso" darbuotojas iš „Contoso" perka elektronines įrangas asmeniniam naudojimui.
-+ Tarp asmens ir organizacijos gali būti įvairiais ryšiais (N:N). Pavyzdžiui, „Fabrikam“ tiekia aptarnavimo specialistams ir naudoja išdėstymo koordinates. Koordinatorius suderina kelių „Fabrikam“ klientų darbo užklausų aptarnavimo specialistus. „Contoso“ yra vienas iš „Fabrikam“ klientų. Kai „Contoso“ reikia aptarnavimo specialisto, ji susisiekia su įdarbinimo koordinatoriumi, kuris palengvina užklausą. Kadangi išdėstymo koordinatorius tvarko visų klientų užklausas, naudojamas ryšys N:N.
++ Tarp asmens ir organizacijos gali būti įvairiais ryšiais (N:N). Pavyzdžiui, „Fabrikam“ tiekia aptarnavimo specialistams ir naudoja išdėstymo koordinates. Koordinatorius suderina kelių „Fabrikam“ klientų darbo užklausų aptarnavimo specialistus. Contoso yra vienas iš Fabrikam klientų. Kai Contoso reikia aptarnavimo specialistų, ji susisiekia su vietos koordinatoriumi, kuris palengvina užklausą. Kadangi išdėstymo koordinatorius tvarko visų klientų užklausas, naudojamas ryšys N:N.
 
 Toliau pateiktame vaizde rodomas šalies duomenų modelis.
 
@@ -46,7 +46,7 @@ Toliau pateiktame vaizde rodomas šalies duomenų modelis.
 > [!TIP]
 > Kai bandote sukurti naują sąskaitos įrašą, norėdami ieškoti įrašo pagal pavadinimą, naudokite lauką **Šalis**. Tokiu būdu, jei rasite įrašą, jums tiesiog reikia jį pasirinkti. Sistema tada automatiškai užpildo visus šalies duomenis. Nereikia neautomatiniu būdu įvesti visų reikalingų laukų. Šį elgseną galima rasti sąskaitos nestandartiniuose **Sąskaitos**, **Kontakto** ir **Tiekėjo** puslapiuose.
 
-Dvigubas rašymas nepalaiko visų „Finance and Operations“ programų partijų vaidmenų. Visą šalies vaidmenų sąrašą rasite visuotinės adresų [knygelės](../../../fin-ops/organization-administration/overview-global-address-book.md) apžvalga.
+Dvigubo rašymo funkcija nepalaiko visų finansų ir operacijų programėlių šalių vaidmenų. Visą šalies vaidmenų sąrašą rasite visuotinės adresų [knygelės](../../../fin-ops/organization-administration/overview-global-address-book.md) apžvalga.
 
 ### <a name="global-address-book"></a>Visuotinė adresų knygelė
 
@@ -75,7 +75,7 @@ Kontaktų **lentelėje gali būti tolesnių tipų** eilutės.
 |----------|-------------|
 | Asmuo, kuris yra klientas, (pavyzdžiui, parduotinas kontaktinis asmuo ar B2C klientas). | Atskirtas kontakto įrašas, kur **įmonės laukas nėra tuščias ir** lauke **klientas** nustatyta reikšmė **Taip**. |
 | Asmuo, kuris yra tiekėjas, pavyzdžiui, ind. įmonės savininkas kaip tiekėjas. | Atskirtas kontakto įrašas, kur **įmonės laukas nėra tuščias ir** lauke **Tiekėjas** nustatyta reikšmė **Taip**. |
-| Asmuo, kuris yra klientas ir tiekėjas | Atskirtas kontakto įrašas, kur **įmonės** laukas nėra tuščias ir **yra kleintas** nustatytas į **Taip**, o **yra tiekėjo** laukelyje nustatytas į **Taip**. Asmuo gali būti ir vieno produkto gamintojas, ir kito produkto vartotojas. Šį ryšį palaiko ir „Finance and Operations“ programos, ir dvigubas rašymas. |
+| Asmuo, kuris yra klientas ir tiekėjas | Atskirtas kontakto įrašas, kur **įmonės** laukas nėra tuščias ir **yra kleintas** nustatytas į **Taip**, o **yra tiekėjo** laukelyje nustatytas į **Taip**. Asmuo gali būti ir vieno produkto gamintojas, ir kito produkto vartotojas. Ir finansų, ir operacijų programėlės, ir dvigubo rašymo priemonės palaiko šį ryšį. |
 | Asmuo, kuris yra organizacijos kontaktinis asmuo, bet nėra klientas ir ne tiekėjas. | Atskirtas kontakto įrašas, kur **įmonės** laukas nėra tuščias ir **yra kleintas** nustatytas į **Ne**, o **yra tiekėjo** laukelyje nustatytas į **Ne**. |
 
 ## <a name="contact-for-party-table"></a>Šalies kontakto lentelė
@@ -142,7 +142,7 @@ Galite naudoti mygtuką **Naujas elektroninis adresas** virš tinklelio, kad suk
 Elektroniniai adresai galimi tik šiame tinklelyje. Būsimuose leidimuose visi elektroninio ir pašto adresų laukai bus pašalinti iš kitų skirtukų, pvz., **skirtukų** Suvestinė ir **informacija**. Kontaktinė informacija, rodoma skirtuko lape Išsamiai, yra tik skaitomos pirminio elektroninio adreso kopijos, pvz., pagrindinis telefonas, pagrindinis el. paštas, pagrindinis telefonas, pagrindinis faksas ir **pagrindinis** „Twitter" ID. Galimo kliento kvalifikacijos proceso metu galite pateikti ir verslo telefono numerį, ir mobiliojo telefono numerį. Darbo telefono numeris laikomas pirminiu telefono numeriu, jei **IsMobile=Ne** o mobiliojo telefono numeris laikomas antriniu telefonu, jei **IsMobile=Taip**.
 
 > [!TIP]
-> Naudokite **adresų** ir **elektroninių adresų** skirtukus **sąskaitų** ir **kontaktų** formose pašto ir elektroniniams adresams valdyti. Taip užtikrinama, kad adreso duomenys būtų sinchronizuojami su „Finance and Operations“ programėlėmis.
+> Naudokite **adresų** ir **elektroninių adresų** skirtukus **sąskaitų** ir **kontaktų** formose pašto ir elektroniniams adresams valdyti. Taip užtikrinama, kad adreso duomenys bus sinchronizuojami su finansų ir operacijų programėle.
 
 ## <a name="setup"></a>Sąranka
 
@@ -226,11 +226,11 @@ Elektroniniai adresai galimi tik šiame tinklelyje. Būsimuose leidimuose visi e
 
     ![Dubliuoti kontaktų taisyklę.](media/duplicate-rule-2.PNG)
 
-11. Jei esate esamas dvigubo rašymo vartotojas, vadovaukitės šalies ir visuotinės adresų knygelės modelio atnaujinimo instrukcijomis [ir](upgrade-party-gab.md) atnaujinkite savo duomenis.
+11. Jei esate esamas dvigubo rašymo vartotojas, vadovaukitės šalies ir visuotinės adresų knygelės modelio atnaujinimo instrukcijomis [ir](upgrade-party-gab.md) atnaujinkite savo duomenis. **Neatbaigę šio veiksmo pereikite prie 12 veiksmo.** Jei esate naujas dvigubo rašymo vartotojas, pereikite prie 12 veiksmo.
 
-12. Vykdykite žemėlapius tokia tvarka. Jei gaunate klaidą, kuri reiškia, kad „Projekto tikrinimas nepavyko. Trūksta paskirties lauko...", tada atidarykite schemą ir pasirinkite **Atnaujinti** lenteles. Tada paleiskite schemą.
+12. Jei esate esamas dvigubo rašymo vartotojas, atlikite 11 veiksmą, tada galite vykdyti schemas tokia tvarka. Jei esate naujas dvigubo rašymo klientas, galite tęsti tiesiogiai. Jei rodomas klaidos pranešimas, kuris reiškia, kad projekto tikrinimas nepavyko. Trūksta paskirties lauko...", atidarykite schemą ir pasirinkite **Atnaujinti lenteles**, tada paleiskite schemą.
 
-    Programa „Finance and Operations“. | „Customer engagement“ programa  
+    Finansų ir operacijų programa | „Customer engagement“ programa  
     ----------------------------|------------------------
     [CDS šalys](mapping-reference.md#220) | msdyn_parties
     [CDS pašto adreso vietos](mapping-reference.md#234) | msdyn_postaladdresscollections
@@ -269,7 +269,7 @@ Elektroniniai adresai galimi tik šiame tinklelyje. Būsimuose leidimuose visi e
 
 Lentelių schemų rinkinys veikia kartu interaktyviai naudojant šalies ir bendros adresų knygelės duomenis, kaip parodyta tolesnėje lentelėje.
 
-| Programa „Finance and Operations“. | „Customer engagement“ programa | Aprašymas |
+| Finansų ir operacijų programa | „Customer engagement“ programa | Aprašymas |
 |----------------------------|-------------------------|-------------|
 | [Kontaktinio asmens pareigos](mapping-reference.md#223) | msdyn\_salescontactpersontitles |
 | [Klientai V3](mapping-reference.md#101) | sąskaitos |
@@ -295,10 +295,10 @@ Daugiau informacijos žr. [Dvigubo rašymo susiejimo nuoroda](mapping-reference.
 
 ## <a name="known-issues-and-limitations"></a>Žinomos problemos ir apribojimai
 
-+ „Finance and Operations“ programose, kai sukuriate klientą kartu su adresu ir jį išsaugote, adresas gali būti nesinchronizuojamas su **Adresas** stalo. Taip yra dėl dvigubo rašymo platformos sekos išdavimo. Pirmiausia sukurkite klientą ir įrašykite jį kaip problemos sprendimą. Tada pridėti adresą.
-+ „Finance and Operations“ programose, kai kliento įrašas turi pirminį adresą ir tam klientui sukuriate naują kontaktą, kontakto įrašas paveldi pirminį adresą iš susieto kliento įrašo. Taip atsitinka ir tiekėjo kontaktui. „Dataverse“ šiuo metu nepalaiko šio veikimo būdo. Jei įgalintas dvigubas rašymas, kliento kontaktai, paveldėti pirminiu adresu iš programos „Finance and Operations“, yra sinchronizuojami su Dataverse kartu su jos adresu.
++ Finansų ir operacijų programėlių atveju, kai kuriate klientą kartu su adresu ir jį įrašote, adresas gali būti nesinchronizuotas su adresų **lentele**. Taip yra dėl dvigubo rašymo platformos sekos išdavimo. Pirmiausia sukurkite klientą ir įrašykite jį kaip problemos sprendimą. Tada pridėti adresą.
++ Finansų ir operacijų programėlių atveju, kai kliento įrašas turi pagrindinį adresą ir sukuriate naują to kliento kontaktą, tada kontakto įrašas perima pagrindinį adresą iš susieto kliento įrašo. Taip atsitinka ir tiekėjo kontaktui. „Dataverse“ šiuo metu nepalaiko šio veikimo būdo. Jei įgalintas dvigubas rašymas, klientų kontaktai, Dataverse kurie perimami pirminiu finansų ir operacijų programos adresu, sinchronizuojami kartu su jų adresu.
 + Elektroniniai adresai nustatyti elektroninių adresų skirtuke **Sąskaita**, **Kontaktas** ir **Tiekėjo** formose ateina iš `msdyn_partyelectronicaddress` lentelės. Ši informacija nėra susijusi su jos operacijomis, pvz., pardavimo užsakymu, pasiūlymu ir pirkimo užsakymu. Planuojame išspręsti šią problemą didėjančia versija. Sąskaitų ir kontaktų įrašų elektroninio adreso laukuose esantys duomenys ir toliau bus dirba su operacijomis, pvz., pardavimo užsakymu, pasiūlymu ir pirkimo užsakymu.
-+ Programose „Finance and Operations“ galite sukurti kontakto įrašą iš **Pridėti kontaktą** forma. Kai formoje Peržiūrėti kontaktą bandote sukurti **naują** kontaktą, veiksmas nepavyksta. Tai yra žinoma problema.
++ Finansinėse ir operacijų programėleje galite sukurti kontakto įrašą iš formos **Įtraukti kontaktą**. Kai formoje Peržiūrėti kontaktą bandote sukurti **naują** kontaktą, veiksmas nepavyksta. Tai yra žinoma problema.
 
     ![Žinomas problemos su įtraukti kontaktą.](media/party-gab-contact-issue.png)
 
@@ -307,4 +307,4 @@ Daugiau informacijos žr. [Dvigubo rašymo susiejimo nuoroda](mapping-reference.
 
     ![Žinomas problemos su adresu.](media/party-gab-address-issue.png)
 
-+ Negalite įvesti persiuntimo pašto adreso naudodami programą „Finance and Operations“ su dvigubu rašymu, nes Dataverse nepalaiko datos veiksmingumo. Jei naudodamiesi programa „Finance and Operations“ įvesite būsimąjį pašto adresą, jis sinchronizuojamas su Dataverse iki galo ir vartotojo sąsajoje iškart pamatysite adresą. Bet kokie šio įrašo atnaujinimai sukels klaidą, nes jis yra ateityje ir nėra aktualus programoje „Finance and Operations“.
++ Negalite įvesti pašto adreso į priekį naudodami finansų ir operacijų programą, kuri naudoja dvigubo rašymo funkciją, Dataverse nes datos poveikis nepalaikomas. Jei įvesite būsimą pašto adresą naudodami finansų ir operacijų programą, Dataverse jis bus sinchronizuotas iki galo ir nedelsiant matysite adresą vartotojo sąsajoje. Atnaujinus šį įrašą, finansų ir operacijų programoje bus rodoma klaida, nes ji bus ne dabartinė.

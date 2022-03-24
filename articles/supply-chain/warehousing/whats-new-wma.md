@@ -2,7 +2,7 @@
 title: Kas nauja ar pasikeitė „Warehouse Management Mobile App” programėlėje
 description: Šioje temoje pateikiamos naujos ir pakeistos kiekvienos išleistos „Warehouse Management Mobile App”, skirtos „Microsoft Dynamics 365 Supply Chain Management”, versijos funkcijos.
 author: Mirzaab
-ms.date: 02/21/2022
+ms.date: 03/11/2022
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
@@ -10,18 +10,33 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: b146fb12f89559efcb3b0973b0dd1ce9b98ffe2a
-ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
-ms.translationtype: HT
+ms.openlocfilehash: c4731c5f0b0a1553deb53753d82d29a34e5525df
+ms.sourcegitcommit: 399d0d3f8e2ebb81b6b9d640365ebe182690bab2
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8384376"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "8418645"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Kas nauja ar pasikeitė „Warehouse Management Mobile App” programėlėje
 
 [!include [banner](../includes/banner.md)]
 
 Šioje temoje pateikiamos naujos kiekvienos išleistos „Warehouse Management Mobile App”, skirtos „Microsoft Dynamics 365 Supply Chain Management”, versijos funkcijos, klaidų taisymai ir žinomos problemos.
+
+## <a name="version-20190"></a>2.0.19.0 versija
+
+Šioje versijoje pristatomos toliau pateiktos naujos funkcijos, klaidų taisymai ir patobulinimai:
+
+- Patobulintas bendrasis duomenų užklausų srautas.
+- Patobulintas jittering išdavimas **darbų sąrašo** ir **prekės užklausos** puslapiuose.
+- Sumažintas baterijų suvartojimas.
+- Pašalinta darbo kortelių laukų skaičiaus riba.
+- Koreguotas darbo kortelių aukštis taip, kad visų kortelių dydis būtų toks pat, neatsižvelgiant į kiekvieno iš jų laukų skaičių.
+- Ištaisote problemą, dėl kurios turėtų būti koreguojami brūkšninių kodų tarpų simboliai.
+- Įtrauktas mygtuko **stiliaus** parametras, kuris leidžia sukeisti visų tipų įrenginių rodinio ir mygtuko rodinį.
+- Fiksuotos įvairios problemos, dėl kurių programa gali sutrinti.
+- Automatiškai nustatyti pirmojo teksto lauko židinį pasirinktiniuose puslapiuose.
+- Pasiekiamumo pagerinimai, susiję su paprastumu, priešingai, aprašu ir trūkstamais vietos rezervavimo ženklų tekstais.
 
 ## <a name="version-20170"></a>2.0.17.0 versija
 

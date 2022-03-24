@@ -2,7 +2,7 @@
 title: Sukurkite e-komercijos saitą
 description: Ši tema aprašo žingsnius ir informaciją, kurie yra būtini norint sukurti e-komercijos saitą „Dynamics 365 Commerce“ saito kūrimo įrankyje.
 author: bicyclingfool
-ms.date: 03/04/2022
+ms.date: 03/10/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 5e451b1c95c3e26d1292e7b8300b62af43c81f2f
-ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
-ms.translationtype: HT
+ms.openlocfilehash: 37734e2ceea3a50c70a2f7945329d4a9cf660cc6
+ms.sourcegitcommit: 9c19898e1f41495f804c7f07e2636b53a098c4c1
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/05/2022
-ms.locfileid: "8388216"
+ms.lasthandoff: 03/10/2022
+ms.locfileid: "8402780"
 ---
 # <a name="create-an-e-commerce-site"></a>Sukurkite e-komercijos saitą
 
@@ -70,6 +70,14 @@ Norėdami pervardyti savo svetainę svetainės generatoriuje, atlikite šiuos ve
 1. Norėdami atidaryti svetainių sąrašo rodinį, viršutiniame **dešiniajame** kampe pasirinkite Svetainės perjungimo priemonė, tada pasirinkite Tvarkyti **svetaines**. 
 1. Pasirinkite žymės langelį, esantį šalia svetainės, kurią norite pervardyti, tada komandų **juostoje** pasirinkite Pervardyti.
 1. Dialogo lange **Naujos svetainės** pavadinimas įveskite naują svetainės pavadinimą ir pasirinkite **Gerai**. Svetainės sąrašas bus atnaujinta, kad būtų rodomas naujas svetainės pavadinimas.
+
+## <a name="delete-a-site"></a>Svetainės naikinimas
+
+Norėdami panaikinti svetainę svetainės generatoriuje, atlikite šiuos veiksmus.
+
+1. Norėdami atidaryti svetainių sąrašo rodinį, viršutiniame **dešiniajame** kampe pasirinkite Svetainės perjungimo priemonė, tada pasirinkite Tvarkyti **svetaines**.
+1. Pasirinkite svetainę, kurią norite naikinti, tada komandų juostoje **pasirinkite** Naikinti.
+1. Dialogo lange **\<site name\>** Naikinti įveskite svetainės pavadinimą ir pasirinkite **Naikinti**.
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 

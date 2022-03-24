@@ -2,7 +2,7 @@
 title: Kliento SF kūrimas
 description: Kliento SF pardavimo užsakymui yra sąskaita, susijusi su pardavimu ir kurią organizacija pateikia klientui.
 author: ShivamPandey-msft
-ms.date: 02/01/2022
+ms.date: 03/04/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d408ca5265802cf17a53dd5cb004f707f6f7855b
-ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
-ms.translationtype: HT
+ms.openlocfilehash: 9ffb2c42748678ae265a706a00db327a160cc9f5
+ms.sourcegitcommit: 411874545d7c326fc4aa877948a059371f0ccb3c
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "8087428"
+ms.lasthandoff: 03/07/2022
+ms.locfileid: "8392916"
 ---
 # <a name="create-a-customer-invoice"></a>Kliento SF kūrimas
 
@@ -43,22 +43,22 @@ Norėdami gauti daugiau informacijos, žr.
 
 **Išankstinė SF** yra tokia sąskaita, kuri parengiama kaip faktinių sąskaitos sumų įvertinimas, prieš užregistruojant sąskaitą faktūrą. Galite išspausdinti arba kliento SF pardavimo užsakymui, arba laisvos formos sąskaitos faktūros išankstinę sąskaitą faktūrą.
 
-## <a name="using-sales-order-customer-invoice-data-entities"></a>Pardavimo užsakymo kliento sąskaitos faktūros duomenų subjektų naudojimas
-Galite naudoti duomenų objektus norėdami importuoti ir eksportuoti informaciją apie pardavimo užsakymo kliento sąskaitą faktūrą. Informacijai pardavimo sąskaitos faktūros antraštėje ir pardavimo sąskaitos faktūros eilutėse yra skirtingi objektai.
+## <a name="using-sales-order-customer-invoice-data-entities"></a>Pardavimo užsakymo kliento SF duomenų objektų naudojimas
+Galite naudoti duomenų objektus pardavimo užsakymo informacijai apie kliento SF importuoti ir eksportuoti. Pardavimo SF antraštėje ir pardavimo SF eilutėse yra skirtingų objektų.
 
-Pardavimo sąskaitos faktūros antraštėje galima rasti šiuos objektus:
+Pardavimo SF antraštėje gali būti naudojami šie objektai:
 
-- **Pardavimo sąskaitos faktūros žurnalo antraštė** subjektas (SalesInvoiceJournalHeaderEntity)
-- **Pardavimo sąskaitų faktūrų antraštės V2** subjektas (SalesInvoiceHeaderV2Entity)
+- **Pardavimo SF žurnalo antraštės** objektas (SalesInvoiceJournalHeaderEntity)
+- **Pardavimo SF antraštės V2 objektas** (SalesInvoiceHeaderV2Entity)
 
-Rekomenduojame naudoti **Pardavimo sąskaitos faktūros žurnalo antraštė** subjektas, nes jis suteikia našesnę patirtį importuojant ir eksportuojant pardavimo antraštes. Šiame objekte nėra **Pardavimo mokesčio suma** (INVOICEHEADERTAXAMOUNT) stulpelį, kuriame nurodoma pardavimo mokesčio vertė pardavimo sąskaitos faktūros antraštėje. Jei jūsų verslo scenarijus reikalauja šios informacijos, naudokite **Pardavimo sąskaitų faktūrų antraštės V2** subjektas importuoti ir eksportuoti pardavimo sąskaitos faktūros antraštės informaciją.
+Rekomenduojame naudoti pardavimo SF žurnalo **antraštės objektą**, nes jis teikia daugiau patirties pardavimo antraštės importavimui ir eksportavimui. Šiame subjekte nėra PVM **sumos** (INVOICEHEADERTAMOUNT) stulpelio, kuris nurodo PVM vertę pardavimo SF antraštėje. Jei jūsų verslo scenarijus reikalauja šios informacijos, naudokite objektą **Pardavimo SF V2**, kad importuokite ir eksportuokite pardavimo SF antraštės informaciją.
 
-Pardavimo sąskaitų faktūrų eilučių informacijai galimi šie objektai:
+Pardavimo SF eilutėse pateikiama informacija galima šiais objektais:
 
-- **Kliento sąskaitos faktūros eilutės** subjektas (BusinessDocumentSalesInvoiceLineItemEntity)
-- **Pardavimo sąskaitos faktūros eilutės V3** subjektas (SalesInvoiceLineV3Entity)
+- **Kliento SF eilučių** objektas (BusinessDocumentSalesInvoiceLineItemEntity)
+- **Pardavimo SF eilučių V3 objektas** (SalesInvoiceLineV3Entity)
 
-Kai nustatote, kurį eilutės objektą naudoti eksportuojant, apsvarstykite, ar bus naudojamas visiškas, ar laipsniškas stūmimas. Be to, apsvarstykite duomenų sudėtį. The **Pardavimo sąskaitos faktūros eilutės V3** subjektas palaiko sudėtingesnius scenarijus (pavyzdžiui, susiejimą su atsargų laukais). Jis taip pat palaiko pilno spaudimo eksporto scenarijus. Laipsniško stūmimo atveju rekomenduojame naudoti **Kliento sąskaitos faktūros eilutės** subjektas. Šiame objekte yra daug paprastesnė duomenų sudėtis nei **Pardavimo sąskaitos faktūros eilutės V3** subjektas ir yra pageidaujama, ypač jei atsargų lauko integravimas nereikalingas. Dėl skirtingų linijų objektų atvaizdavimo palaikymo, **Kliento sąskaitos faktūros eilutės** subjektas paprastai turi greitesnį našumą nei **Pardavimo sąskaitos faktūros eilutės V3** subjektas.
+Kai nustatote, kurį eilutės objektą naudoti eksportuojant, apsvarstykite, ar bus naudojamas visiškas stūmimas, ar visiškas stūmimas. Be to, atsižvelkite į duomenų sudėtį. Pardavimo **SF eilučių V3 objektas** palaiko sudėtingesnius scenarijus (pavyzdžiui, konvertavimas į atsargų laukus). Taip pat ji palaiko viso stūmimo eksporto scenarijus. Dėl didėjančio stūmimo rekomenduojame naudoti kliento **SF eilučių objektą**. Šis objektas yra daug paprastesnė **duomenų struktūra nei pardavimo SF eilučių V3** objektas ir jis yra pageidautinas, ypač jei atsargų lauko integravimas nėra būtinas. Dėl eilučių objektų susiejimo palaikymo skirtumų **kliento** **SF eilučių objektas paprastai būna greitesnis nei pardavimo SF eilučių V3 objektas.**
 
 ## <a name="post-and-print-individual-customer-invoices-that-are-based-on-sales-orders"></a>Registruoti ir spausdinti atskiras kliento SF, kurios paremtos pardavimo užsakymais
 Naudodami šį procesą galite sukurti sąskaitą faktūrą, grindžiamą pardavimo užsakymu. To gali prireikti, jei nuspręsite išrašyti klientui sąskaitą faktūrą prieš pristatydami prekes arba suteikdami paslaugas. 
@@ -82,6 +82,9 @@ Pardavimo užsakymų būseną peržiūrėkite sąrašo puslapyje **Visi pardavim
 Šį procesą naudokite, kai vienam ar keliems pardavimo užsakymams galima išrašyti SF, ir norite juos konsoliduoti į vieną SF. 
 
 **Pardavimo užsakymo** sąrašo puslapyje galite pasirinkti kelias SF ir tada joms konsoliduoti naudoti **Generuoti SF**. Puslapyje **SF registravimas** galite pakeisti **Suminio užsakymo** nustatymą, kad būtų sumuojama pagal užsakymo numerį (kai yra keli vieno pardavimo užsakymo važtaraščiai) arba pagal SF sąskaitą (kai yra keli vienos SF sąskaitos pardavimo užsakymai). Naudokite mygtuką **Išdėstyti**, kad pardavimo užsakymus pagal **Suminio užsakymo** parametrus konsoliduotumėte į vieną SF.
+
+## <a name="post-to-revenue-account-for-sales-order-lines-that-have-no-price"></a>Registruoti pardavimo užsakymo eilučių, kuriose nėra kainos, įplaukų sąskaitoje
+Turėsite pasirinktį atnaujinti PARDAVIMO užsakymo **eilučių**, **kuriose** nėra kainos, DK įplaukų sąskaitą. Norėdami nustatyti arba peržiūrėti šią informaciją, **eikite į sąskaitą Registruoti įplaukų sąskaitoje nulinės kainos pardavimo užsakymo SF** **·** **eilučių parametrui, skirtuke DK ir PVM, gautinų sumų parametrų puslapyje.** (**Gautinų sumų > gautinų sumų > parametrus**). Pasirinkite **Taip,** jei norite atnaujinti **pardavimo** užsakymo SF eilučių, kuriose nėra kainos, sąskaitą Įplaukos. Įplaukų sąskaita yra apibrėžta atsargų registravimo **parametrų** puslapyje, pardavimo užsakymo **sąskaitos** apibrėžimo skirtuke. Jei ši pasirinktis nepasirinkta, eilutės, kuriose nėra kainos informacijos, nebus registruojamos Įplaukų **sąskaitoje**.
 
 ## <a name="additional-settings-that-change-the-posting-behavior"></a>Papildomos nuostatos, keičiančios registravimo veikseną
 Toliau nurodyti laukai keičia registravimo proceso veikseną.

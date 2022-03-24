@@ -1,5 +1,5 @@
 ---
-title: Kas naujo ar pakeista „Finance and Operations“ programų pagrindiniame puslapyje
+title: Kas naujo arba pakeista finansų ir operacijų programėlių pagrindiniame puslapyje
 description: Šiame puslapyje nurodomos temos, kurios padės sužinoti daugiau apie naujas funkcijas naujausiose „Finance and Operations“ programose.
 author: josaw1
 ms.date: 02/14/2020
@@ -17,37 +17,37 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-09-30
 ms.dyn365.ops.version: Platform update 2
-ms.openlocfilehash: 8348f935ddee557a5f47b550c24f78cf68e37db2
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
-ms.translationtype: HT
+ms.openlocfilehash: 98add33413f38db52b70b9c39c4ebd004ab3dd57
+ms.sourcegitcommit: 1819a11ae22019f1de6991d233c1c51e9950d7a3
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8075229"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "8457403"
 ---
-# <a name="whats-new-or-changed-in-finance-and-operations-apps-home-page"></a>Kas naujo ar pakeista „Finance and Operations“ programų pagrindiniame puslapyje
+# <a name="whats-new-or-changed-in-finance-and-operations-apps-home-page"></a>Kas naujo arba pakeista finansų ir operacijų programėlių pagrindiniame puslapyje
 
 [!include [banner](../includes/banner.md)]
 
 
 ## <a name="application-releases"></a>Programos leidimai
 
-Norėdami sužinoti, kas naujo ar pakeista kiekviename „Finance and Operations“ programos leidime, žr. šias temas:
+Norėdami pamatyti, kas naujo ar pakeista kiekviename finansų ir operacijų programos leidime, žr. šias temas:
 
 - **„Finance”:** [Kas nauja ar pasikeitė „Dynamics 365 Finance”](../../../finance/get-started/whats-new-home-page.md)
-- **Žmogiškieji ištekliai (sujungta infrastruktūra):**[Kas naujo ar pasikeitė „Microsoft“.Dynamics 365 Human Resources](../../../human-resources/get-started/hr-whats-new-changed-10-0-25.md)  
+- **Žmogiškieji ištekliai (sulieta infrastruktūra):**["Microsoft" kas naujo arba pakeista Dynamics 365 Human Resources](../../../human-resources/get-started/hr-whats-new-changed-10-0-26.md)  
 - **„Supply Chain Management”:** [„Kas nauja ar pasikeitė „Dynamics 365 Supply Chain Management”](../../../supply-chain/get-started/whats-new-home-page.md) 
 - **„Commerce”:** [Kas nauja ar pasikeitė „Dynamics 365 Commerce”](../../../commerce/get-started/whats-new-home-page.md)
 
 
-## <a name="stand-alone-applications"></a>Atskiros programos
+## <a name="stand-alone-applications"></a>Autonominiai prašymai
 
-Norėdami pamatyti, kas naujo ar pasikeitė atskirai Dynamics 365 Human Resources, žiūrėkite šią temą:
+Norėdami peržiūrėti, kas nauja ar pakeista autonominėje Dynamics 365 Human Resources, žr. toliau nurodytą temą:
 
 - **„Human Resources”:**[kas nauja ar pasikeitė „Dynamics 365 Human Resources“](../../../human-resources/hr-admin-whats-new.md)
 
 ## <a name="platform-updates"></a>Platformos naujinimai
 
-Norėdami sužinoti, kas naujo ar pakeista „Finance and Operations“ programų platformos naujinimuose, žr. šią temą:
+Norėdami peržiūrėti, kas naujo ar pakeista finansų ir operacijų programėlių platformos atnaujinimų metu, žr. šią temą:
 
 - [Kas nauja ar pasikeitė „Platform“ naujinimuose](../../dev-itpro/get-started/whats-new-home-page.md)
 
