@@ -1020,6 +1020,8 @@
                   href: unit-of-measure.md
                 - name: Rodymo parametrų taikymas produkto dimensijoms
                   href: dimension-settings.md
+                - name: El. prekybos priežiūros režimo įjungimas ir suaktyvinimas
+                  href: enable-maintenance-mode.md
             - name: Svetainės turinio tvarkymas
               items:
                 - name: Turinio įtraukimo būdai
@@ -2100,6 +2102,10 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-data-collection-data-sources.md?toc=/dynamics365/commerce/toc.json
                     - name: Duomenų šaltinių derinimas
                       href: ../fin-ops-core/dev-itpro/analytics/er-debug-data-sources.md?toc=/dynamics365/commerce/toc.json
+                - name: Duomenų modelių konfigūravimas
+                  items:
+                    - name: ER duomenų modelių parametrizuotų skambučių palaikymas
+                      href: ../fin-ops-core/dev-itpro/analytics/er-data-model-parameterized-calls.md?toc=/dynamics365/commerce/toc.json
                 - name: Modelių susiejimų konfigūravimas
                   items:
                     - name: Nuo šalies konteksto priklausomo ER modelio susiejimų konfigūravimas
@@ -2760,6 +2766,8 @@
                           href: e-commerce-extensibility/clone-starter-module.md
                         - name: Modulio apibrėžties išplėtimas
                           href: e-commerce-extensibility/extend-module-definition.md
+                        - name: Modulio bibliotekos statinių eilučių keitimas
+                          href: e-commerce-extensibility/change-module-library-strings.md
                     - name: Veiksmai su duomenimis
                       items:
                         - name: Veiksmų su duomenimis perrašymai
@@ -2774,6 +2782,8 @@
                           href: e-commerce-extensibility/override-theme-component.md
                         - name: Temos išplėtimas iš pagrindinės temos
                           href: e-commerce-extensibility/extend-theme.md
+                        - name: Temos modulio eilučių keitimas
+                          href: e-commerce-extensibility/change-theme-module-strings.md
                 - name: Paketai ir diegimas
                   items:
                     - name: Konfigūracijų paketų kūrimas ir diegimas interneto aplinkoje
@@ -2794,10 +2804,12 @@
                       href: e-commerce-extensibility/memory-leak-detection.md
                     - name: Efektyvumas
                       items:
-                        - name: Puslapio kaupimo gaudyklėje konfigūravimas
+                        - name: Puslapio kaupimo talpykloje konfigūravimas
                           href: e-commerce-extensibility/page-caching.md
                         - name: Duomenų veiksmo egzemplioriaus talpykla
                           href: e-commerce-extensibility/instance-cache.md
+                        - name: Modulio CSS optimizavimas
+                          href: e-commerce-extensibility/module-css-optimization.md
                     - name: Telemetrija ir analizė
                       items:
                         - name: Telemetrijos registravimo programa

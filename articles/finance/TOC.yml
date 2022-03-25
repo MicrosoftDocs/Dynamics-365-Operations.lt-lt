@@ -1528,6 +1528,10 @@
                           items:
                             - name: PVM deklaracija
                               href: localizations/emea-aut-vat-declaration-austria.md
+                        - name: Danijos ataskaitos
+                          items:
+                            - name: PVM deklaracija
+                              href: localizations/emea-dnk-vat-declaration-denmark.md
                         - name: Prancūzijos ataskaitos
                           items:
                             - name: PVM deklaracija
@@ -2344,6 +2348,8 @@
                   href: localizations/emea-deu-print-separate-label-credit-memo-originating-sales.md
                 - name: ES pardavimo sąrašas
                   href: localizations/emea-deu-eu-sales-list.md
+                - name: PVM deklaracija
+                  href: localizations/emea-dnk-vat-declaration-denmark.md
             - name: Vengrija
               items:
                 - name: Vengrijos apžvalga
@@ -3566,7 +3572,7 @@
                   href: localizations/apac-tha-average-vat-for-purchase-transactions.md
                 - name: Mokesčių filialo dimensijos
                   href: localizations/apac-tha-tax-branch-dimensions.md
-                - name: Pardavimo PVM ataskaita
+                - name: PVM ataskaitos
                   href: localizations/apac-tha-sales-vat-report.md
                 - name: Išskaitomas mokestis
                   href: localizations/apac-tha-withholding-tax.md
@@ -4285,6 +4291,10 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-data-collection-data-sources.md?toc=/dynamics365/finance/toc.json
                     - name: Duomenų šaltinių derinimas
                       href: ../fin-ops-core/dev-itpro/analytics/er-debug-data-sources.md?toc=/dynamics365/finance/toc.json
+                - name: Duomenų modelių konfigūravimas
+                  items:
+                    - name: ER duomenų modelių parametrizuotų skambučių palaikymas
+                      href: ../fin-ops-core/dev-itpro/analytics/er-data-model-parameterized-calls.md?toc=/dynamics365/finance/toc.json
                 - name: Modelių susiejimų konfigūravimas
                   items:
                     - name: Nuo šalies konteksto priklausomo ER modelio susiejimų konfigūravimas
@@ -4353,8 +4363,10 @@
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-destinations-2016-11.md?toc=/dynamics365/finance/toc.json
                     - name: Nuo veiksmo priklausančių paskirties vietų konfigūravimas
                       href: ../fin-ops-core/dev-itpro/analytics/er-action-dependent-destinations.md?toc=/dynamics365/finance/toc.json
-                    - name: Konkrečių spausdinimo valdymo įrašų ER paskirties vietų konfigūravimas
+                    - name: Konkrečių spausdinimo valdymo įrašų paskirties vietų konfigūravimas
                       href: ../fin-ops-core/dev-itpro/analytics/er-named-destinations.md?toc=/dynamics365/finance/toc.json
+                    - name: 'Naujo ER sprendimo, skirto spausdinti ZPL žymes, kūrimas'
+                      href: ../fin-ops-core/dev-itpro/analytics/er-design-zpl-labels.md?toc=/dynamics365/finance/toc.json
                 - name: Nuorodos į ER formatą nustatymas
                   href: ../fin-ops-core/dev-itpro/analytics/er-extended-format-lookup.md?toc=/dynamics365/finance/toc.json
                 - name: Automatiškas sugeneruotų ataskaitų tvirtinimas

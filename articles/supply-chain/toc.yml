@@ -747,8 +747,32 @@
                   href: cost-management/simulate-cost-changes-costing-version-planned-costs.md
                 - name: Prekių kainų palyginimo saugojimo ataskaita
                   href: cost-management/compare-item-price.md
+            - name: Įkainojimo metodikos
+              items:
+                - name: Einamoji vidutinė savikaina
+                  href: cost-management/running-average-cost-price.md
+                - name: Atsargų dimensijos einamosios vidutinės kainos sekimas
+                  href: cost-management/track-running-average-cost-per-inventory-dimension.md
+                - name: FIFO su faktine reikšme ir žymėjimu
+                  href: cost-management/fifo-physical-value-marking.md
+                - name: LIFO data su faktine reikšme ir žymėjimu
+                  href: cost-management/lifo-date-physical-value-marking.md
+                - name: LIFO su faktine reikšme ir žymėjimu
+                  href: cost-management/lifo-physical-value-marking.md
+                - name: Svertinis vidurkis su faktine reikšme ir žymėjimu
+                  href: cost-management/weighted-average-physical-value-marking.md
+                - name: Datos svertinis vidurkis su faktine reikšme ir žymėjimu
+                  href: cost-management/weighted-average-date.md
+                - name: Slankusis vidurkis
+                  href: cost-management/moving-average.md
+                - name: Slankiojo vidurkio atsarginės savikainos seka
+                  href: cost-management/moving-average-fallback.md
             - name: Atsargų apskaita
               items:
+                - name: Faktiniai ir finansiniai naujinimai
+                  href: cost-management/physical-financial-updates.md
+                - name: Faktinės reikšmės įtraukimas
+                  href: cost-management/include-physical-value.md
                 - name: Savikainos objektai
                   href: cost-management/cost-object.md
                 - name: Savikainos objekto balanso peržiūra
@@ -761,30 +785,8 @@
                   href: cost-management/tasks/view-cost-entries-cost-object.md
                 - name: Išlaidų grupės
                   href: cost-management/cost-groups.md
-                - name: FIFO su faktine reikšme ir žymėjimu
-                  href: cost-management/fifo-physical-value-marking.md
-                - name: Faktinės reikšmės įtraukimas
-                  href: cost-management/include-physical-value.md
                 - name: Atsargų objektų reikšmės
                   href: cost-management/physical-quantity.md
-                - name: LIFO data su faktine reikšme ir žymėjimu
-                  href: cost-management/lifo-date-physical-value-marking.md
-                - name: LIFO su faktine reikšme ir žymėjimu
-                  href: cost-management/lifo-physical-value-marking.md
-                - name: Slankusis vidurkis
-                  href: cost-management/moving-average.md
-                - name: Slankiojo vidurkio atsarginės savikainos seka
-                  href: cost-management/moving-average-fallback.md
-                - name: Faktiniai ir finansiniai naujinimai
-                  href: cost-management/physical-financial-updates.md
-                - name: Einamoji vidutinė savikaina
-                  href: cost-management/running-average-cost-price.md
-                - name: Atsargų dimensijos einamosios vidutinės kainos sekimas
-                  href: cost-management/track-running-average-cost-per-inventory-dimension.md
-                - name: Svertinio vidurkio data
-                  href: cost-management/weighted-average-date.md
-                - name: Svertinis vidurkis su faktine reikšme ir žymėjimu
-                  href: cost-management/weighted-average-physical-value-marking.md
                 - name: Atsargų uždarymas
                   href: cost-management/inventory-close.md
                 - name: Turimų atsargų išlaidų reikšmių koregavimas
@@ -1431,6 +1433,10 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-data-collection-data-sources.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Duomenų šaltinių derinimas
                       href: ../fin-ops-core/dev-itpro/analytics/er-debug-data-sources.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Duomenų modelių konfigūravimas
+                  items:
+                    - name: ER duomenų modelių parametrizuotų skambučių palaikymas
+                      href: ../fin-ops-core/dev-itpro/analytics/er-data-model-parameterized-calls.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Modelių susiejimų konfigūravimas
                   items:
                     - name: Nuo šalies konteksto priklausomo ER modelio susiejimų konfigūravimas
@@ -3855,6 +3861,8 @@
               items:
                 - name: „Warehouse mobile app“
                   items:
+                    - name: Netikėtas užklausos ir seanso duomenų skirtumas testavimo metu
+                      href: troubleshooting/warehousing/request-session-data-difference.md
                     - name: Nustatant programos ryšį nepavyko rasti sertifikato maršruto saugumą užtikrinančios priemonės
                       href: troubleshooting/warehousing/certification-path-app-connection-error.md
                     - name: Naujinant ir perkeliant į WMS nepavyko rasti sertifikato maršruto saugumą užtikrinančios priemonės
