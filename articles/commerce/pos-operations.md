@@ -15,17 +15,16 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 0c62e11cc6d39c351321419bb862a5169b162fb7
-ms.sourcegitcommit: d2e5d38ed1550287b12c90331fc4136ed546b14c
+ms.openlocfilehash: 141b57586f5c4588b0b33bd85b584e570e39902f
+ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/25/2022
-ms.locfileid: "8349722"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "8462502"
 ---
 # <a name="online-and-offline-point-of-sale-pos-operations"></a>Elektroninio kasos aparato (EKA) operacijos, prisijungus ir neprisijungus prie interneto
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 Dauguma veiksmų, kuriuos vartotojai imsis pardavimo punkte (EKA), yra laikomi operacijomis. Operacijos sukonfigūruojamos ir valdomos „Dynamics 365 Commerce“ tarnybiniame biure. Į EKA mygtukyną galima įtraukti daug operacijų. Tada vartotojai, norėdami iškviesti operacijas ir atlikti jų teikiama funkciją, gali pasirinkti mygtukus. Kitos operacijos yra pagrindinės EKA programos dalis ir yra iškviečiamos naudojant ekrano mygtukus arba kaip kitos darbo eigos ar procesų dalis.
 

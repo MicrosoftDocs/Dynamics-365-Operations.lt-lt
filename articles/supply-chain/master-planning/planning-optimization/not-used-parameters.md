@@ -1,22 +1,22 @@
 ---
 title: Planavimo optimizavimo nenaudojami parametrai
 description: Šioje temoje pateikiami parametrai, į kuriuos Planavimo optimizavimas šiuo metu neatsižvelgia veikimo metu.
-author: ChristianRytt
+author: t-benebo
 ms.date: 09/02/2021
 ms.topic: article
 ms.search.form: ReqParameters, ReqGroup, ReqItemTable, ReqPlanSched, EcoResProductDetailsExtended, InventItemOrderSetup, WorkCalendarTable, PdsDispositionMaster
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: crytt
+ms.author: benebotg
 ms.search.validFrom: 2021-06-29
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 32e5ceb607d2c4f3d9794421db5382441ac30467
-ms.sourcegitcommit: 6dc2b877cf8ea9185a07964ec05c5ddb7a78471b
-ms.translationtype: HT
+ms.openlocfilehash: 82bdd522b5b6ca1cf149f9fea508d8d6a96a1466
+ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/12/2022
-ms.locfileid: "8408235"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "8469120"
 ---
 # <a name="parameters-not-used-by-planning-optimization"></a>Planavimo optimizavimo nenaudojami parametrai
 
@@ -65,18 +65,6 @@ Planavimo optimizavimas nenaudoja šių parametrų ar parinkčių **Padengimo gr
   - **Naudoti nurodytą KS arba formulės versiją** – laukia *Formulės versijų su sudėtiniu/šalutiniu produktu* palaikymo.
   - **Naudoti nurodytą maršruto versiją** – laukia *Poreikio su apibrėžta konkrečia KS arba maršruto reikalavimais* palaikymo.
 
-- „FastTab“ skirtukas **Veiksmas**:
-
-  - **Veiksmo pranešimas** – laukia *Veiksmų* palaikymo.
-  - **Veiksmo laiko riba** – laukia *Veiksmų* palaikymo.
-  - **Atidėjimo marža** – laukia *Veiksmų* palaikymo.
-  - **Paankstinimo marža** – laukia *Veiksmų* palaikymo.
-  - **Pagrindo data** – laukia *Veiksmų* palaikymo.
-  - **Paankstinti** – laukia *Veiksmų* palaikymo.
-  - **Atidėti** – laukia *Veiksmų* palaikymo.
-  - **Sumažinti** – laukia *Veiksmų* palaikymo.
-  - **Padidinti** – laukia *Veiksmų* palaikymo.
-  - **Išvesti veiksmai** – laukia *Veiksmų* palaikymo.
 
 - „FastTab” skirtukas **Kita**:
 
@@ -149,7 +137,6 @@ Planavimo optimizavimas nenaudoja šių parametrų ar parinkčių **Bendrųjų p
   - **Prognozės planas** – laukia papildomo *Prognozės* palaikymo.
   - **Pajėgumas** – laukia *Planavimo* palaikymo.
   - **Tęstinumo planas** – laukia *Tęstinumo planavimo* palaikymo.
-  - **Veiksmo pranešimas** – laukia *Veiksmų* palaikymo.
   - **Apskaičiuoti vėlavimai** – laukia papildomo *Apskaičiuoto vėlavimo* palaikymo.
   - **Seka** – laukia *Gamybos* palaikymo.
 

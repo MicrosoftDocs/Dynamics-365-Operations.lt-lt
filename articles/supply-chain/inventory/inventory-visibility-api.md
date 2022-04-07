@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: f74bb4bd4ed66520c04261bd9f82faad7775817e
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: cbd33b16a4b21e8e1931bc61cb55e376e7d73179
+ms.sourcegitcommit: a3b121a8c8daa601021fee275d41a95325d12e7a
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062116"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8524471"
 ---
 # <a name="inventory-visibility-public-apis"></a>Atsargų matomumo viešos API
 
@@ -41,15 +41,17 @@ Toliau pateiktoje lentelėje nurodytos API esamos parinktys:
 | /api/aplinka/{environmentId}/stovintis/{inventorySystem}/bendras | Skelbti | [Nustatyti/nepaisyti turimos informacijos kiekių](#set-onhand-quantities) |
 | /api/aplinka/{environmentId}/turi būti/rezervavimas | Skelbti | [Kurti vieną rezervavimo įvykį](#create-one-reservation-event) |
 | /api/aplinka/{environmentId}/turi būti/rezervavimas/bendras | Skelbti | [Kurti kelis rezervuoti įvykius](#create-multiple-reservation-events) |
-| /api/aplinka/{environmentId}/turi būti/indekso užklausa | Skelbti | [Užklausa naudojant skelbimo metodą](#query-with-post-method) |
+| / API / aplinka /{environmentId} turimos / perplanuotas | Registruoti | [Kurti vieną suplanuotą turimos informacijos pakeitimą](inventory-visibility-available-to-promise.md) |
+| / API / aplinka /{environmentId} turimos - turimos / perplanuotas / masinis | Registruoti | [Kurti kelis suplanuotus turimos informacijos keitimus](inventory-visibility-available-to-promise.md) |
+| /api/aplinka/{environmentId}/turi būti/indekso užklausa | Registruoti | [Užklausa naudojant skelbimo metodą](#query-with-post-method) |
 | /api/aplinka/{environmentId}/turi būti | Gauti | [Užklausa naudojant gavimo metodą](#query-with-get-method) |
-
-„Microsoft" pateikė "out-of-box *Paštininko* užklausų rinkinį. Šį rinkinį galite importuoti į savo *paštininko* rango programinę įrangą naudodami šį bendrai naudojamą saitą: <https://www.getpostman.com/collections/90bd57f36a789e1f8d4c>.
 
 > [!NOTE]
 > Maršruto {environmentId} dalis yra aplinkos ID „Microsoft Dynamics „Lifecycle Services“ (LCS).
 > 
-> Masinė API gali grąžinti daugiausia 512 įrašų kiekvienai užklausai.
+> Masinis API gali pateikti ne daugiau kaip 512 kiekvienos užklausos įrašų.
+
+„Microsoft" pateikė "out-of-box *Paštininko* užklausų rinkinį. Šį rinkinį galite importuoti į savo *paštininko* rango programinę įrangą naudodami šį bendrai naudojamą saitą: <https://www.getpostman.com/collections/90bd57f36a789e1f8d4c>.
 
 ## <a name="find-the-endpoint-according-to-your-lifecycle-services-environment"></a>Rasti galinį punktą pagal „Lifecycle Services“ aplinką
 
@@ -251,7 +253,7 @@ Body:
 
 ### <a name="create-multiple-change-events"></a><a name="create-multiple-onhand-change-events"></a>Kurti kelis pakeitimo įvykius
 
-API gali kurti kelis įrašus vienu metu. Vienintelis skirtumas tarp šios API ir [vieno įvykio API](#create-one-onhand-change-event) yra `Path` ir `Body` vertės. Šiai API `Body` pateikiamas įrašų masyvas. Didžiausias įrašų skaičius yra 512, o tai reiškia, kad masinio pakeitimo API vienu metu gali palaikyti iki 512 pakeitimų įvykių.
+API gali kurti kelis įrašus vienu metu. Vienintelis skirtumas tarp šios API ir [vieno įvykio API](#create-one-onhand-change-event) yra `Path` ir `Body` vertės. Šiai API `Body` pateikiamas įrašų masyvas. Maksimalus įrašų skaičius yra 512, tai reiškia, kad turimos prekės keitimas masiniu API gali palaikyti iki 512 įvykių vienu metu.
 
 ```txt
 Path:
@@ -478,7 +480,7 @@ Body:
 
 ## <a name="query-on-hand"></a>Turimos užklausos
 
-Naudoti _Užklausa rankoje_ API, kad gautų dabartinius jūsų produktų atsargų duomenis. Šiuo metu API palaiko užklausas iki 100 atskirų elementų pagal`ProductID` vertė. Daugkartinis`SiteID` ir`LocationID` vertės taip pat gali būti nurodytos kiekvienoje užklausoje. Didžiausia riba apibrėžiama kaip `NumOf(SiteID) * NumOf(LocationID) <= 100`.
+Norėdami surasti _dabartinius_ savo produktų turimų atsargų duomenis, naudokite turimų atsargų API užklausą. API šiuo metu palaiko iki 100 atskirų prekių užklausą pagal `ProductID` vertę. Šioje `SiteID` užklausoje `LocationID` dar galima nurodyti keletą verčių. Maksimali riba apibrėžiama kaip `NumOf(SiteID) * NumOf(LocationID) <= 100`.
 
 ### <a name="query-by-using-the-post-method"></a><a name="query-with-post-method"></a>Užklausa naudojant skelbimo metodą
 
@@ -516,6 +518,9 @@ Body:
 Parametras `groupByValues` turi būti nurodytas indeksavimo konfigūracijoje. Daugiau informacijos, žr. [Produkto indekso hierarchijos konfigūracija](./inventory-visibility-configuration.md#index-configuration).
 
 Parametras `returnNegative` kontroliuoja, ar rezultatuose yra neigiamų įrašų.
+
+> [!NOTE]
+> Jei įgalinote turimo keitimo grafiko ir prieinamų atsargų (ATP) priemones, `QueryATP` jūsų užklausoje taip pat gali būti Būlio logikos parametras, kuris kontroliuoja, ar užklausos rezultatuose yra ATP informacija. Daugiau informacijos ir pavyzdžių ieškokite atsargų [matomumo turimų atsargų pakeitimo grafikuose ir prieinamose atsargose](inventory-visibility-available-to-promise.md).
 
 Šiame pavyzdyje rodomas turinio pavyzdžio turinys.
 
@@ -572,5 +577,9 @@ Query(Url Parameters):
 ```txt
 /api/environment/{environmentId}/onhand?organizationId=usmf&productId=T-shirt&SiteId=1&LocationId=11&ColorId=Red&groupBy=ColorId,SizeId&returnNegative=true
 ```
+
+## <a name="available-to-promise"></a>Prieinamos atsargos
+
+Galite nustatyti atsargų matomumą, kad leisite suplanuoti būsimus turimų atsargų keitimus ir skaičiuoti ATP kiekius. ATP – tai turimos prekės kiekis, kurį galima žadėti klientui kitą laikotarpį. AtP skaičiavimo naudojimas gali labai padidinti jūsų užsakymo įvykdymo galimybes. Informacijos apie tai, kaip įgalinti šią funkciją ir kaip sąveikauti su atsargų matomumu, naudojant API, kai funkcija įgalinta, [žr. atsargų matomumo turimų atsargų keitimo grafikus ir prieinamus pasižadėti](inventory-visibility-available-to-promise.md).
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

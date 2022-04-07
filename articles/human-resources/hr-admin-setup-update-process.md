@@ -1,7 +1,7 @@
 ---
 title: Atnaujinimo procesas
 description: „Microsoft Dynamics 365 Human Resources“ yra tipiška programinės įrangos nuomos paslauga („SaaS“), teikianti nepertraukiamus, bekontakčius paslaugų naujinimus, skirtus programai ir platformai keisti.
-author: andreabichsel
+author: twheeloc
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-27
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2af1f710ca010041bd684bca8ecfa6f20ac30d46
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 9552e518855711781c905514cae1cc25d33718c6
+ms.sourcegitcommit: d67f7edaf1a50077c2a7dd105e774f86fc586495
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8063115"
+ms.lasthandoff: 04/02/2022
+ms.locfileid: "8533576"
 ---
 # <a name="update-process"></a>Atnaujinimo procesas
 

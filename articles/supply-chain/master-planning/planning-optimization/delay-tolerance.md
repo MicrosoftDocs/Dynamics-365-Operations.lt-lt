@@ -1,21 +1,21 @@
 ---
 title: Leistinas uždelsimo nuokrypis (neigiamos dienos)
 description: Šioje temoje pateikiama informacija apie leistino uždelsimo nuokrypio skaičiavimą ir apie tai, kaip jis veikia suplanuoto užsakymo kūrimą planavimo optimizavime.
-author: ChristianRytt
+author: t-benebo
 ms.date: 07/30/2021
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: crytt
+ms.author: benebotg
 ms.search.validFrom: 2021-07-30
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: ccf827983694eab2037c73aa3251846b051e66f1
-ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
+ms.openlocfilehash: a333048e1c30ab7bdb1b5d4af817cb1561c1212a
+ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/25/2021
-ms.locfileid: "7678572"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "8468615"
 ---
 # <a name="delay-tolerance-negative-days"></a>Leistinas uždelsimo nuokrypis (neigiamos dienos)
 

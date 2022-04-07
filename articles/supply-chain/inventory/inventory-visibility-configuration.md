@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 8ba478fef424a6c4688191ed4e5375bbce52de0c
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
-ms.translationtype: MT
+ms.openlocfilehash: adab5ee3f626390355f4bab1227efd5fe58c2fcf
+ms.sourcegitcommit: a3b121a8c8daa601021fee275d41a95325d12e7a
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8061006"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8524527"
 ---
 # <a name="configure-inventory-visibility"></a>Atsargų matomumo konfigūravimas
 
@@ -39,29 +39,32 @@ Prieš pradėdami dirbti su atsargų matomumu, turite užbaigti šią konfigūra
 
 Prieš pradėdami, įdiekite ir nustatykite atsargų matomumo priedą, kaip aprašyta [įdiegti ir nustatyti atsargų matomumą](inventory-visibility-setup.md).
 
-## <a name="enable-inventory-visibility-features-in-power-apps-feature-management"></a><a name="feature-switch"></a>Įjungti atsargų matomumo funkcijas „Power Apps“ funkcijų valdymo srityje
-
-Atsargų matomumo priedas prie jūsų diegimo prideda keletą naujų „Power Apps“ funkcijų. Pagal numatytuosius nustatymus šios funkcijos yra išjungtos. Norėdami juos naudoti, **atidarykite** puslapį „Power Apps“ konfigūravimo puslapį dalyje ir funkcijų **valdymo skirtuke** įjunkite tokias funkcijas.
-
-- *OnHandReservation*
-- *OnHandMostSpecificBackgroundService*
-
-## <a name="find-the-service-endpoint"></a><a name="get-service-endpoint"></a>Paslaugos galinio punkto radimas
-
-Jei nežinote tinkamo atsargų matomumo tarnybos galinio punkto, atidarykite **konfigūracijos** puslapį „Power Apps“ ir tada rinkitės **Rodyti paslaugos galinį punktą** dešiniajame viršutiniame kampe. Puslapyje bus rodomas tinkamas tarnybos galinis punktas.
-
 ## <a name="the-configuration-page-of-the-inventory-visibility-app"></a><a name="configuration"></a>Atsargų matomumo programos konfigūracijos puslapis
 
 „Power Apps“, puslapyje **Konfigūracijos** [Atsargų matomumo programa](inventory-visibility-power-platform.md) padeda nustatyti turimos konfigūracijos ir soft reservation konfigūraciją. Įdiegus papildinį, numatytoji konfigūracija įtraukia „Microsoft Dynamics 365 Supply Chain Management“ (duomenų `fno` šaltinio vertę). Galite peržiūrėti numatytuosius nustatymus. Be to, atsižvelgdami į savo verslo poreikius ir išorinės sistemos atsargų registravimo reikalavimus, galite modifikuoti konfigūraciją, kad būtų galima standartizuoti būdą, kuriuo atsargų pakeitimai gali būti registruojami, tvarkomi keliose sistemose ir jų bus užklausta. Likusiuose šios temos skyriuose paaiškinama, kaip naudoti kiekvieną konfigūracijos **puslapio** dalį.
 
 Baigę konfigūruoti programoje pasirinkite **Naujinti konfigūraciją** programoje.
 
+## <a name="enable-inventory-visibility-features-in-power-apps-feature-management"></a><a name="feature-switch"></a>Įjungti atsargų matomumo funkcijas „Power Apps“ funkcijų valdymo srityje
+
+Atsargų matomumo priedas prie jūsų diegimo prideda keletą naujų „Power Apps“ funkcijų. Pagal numatytuosius nustatymus šios funkcijos yra išjungtos. Norėdami juos naudoti, atidarykite **konfigūravimo** puslapį ir tada skirtuke **Funkcijų** valdymas įjunkite toliau nurodytas funkcijas, jei reikia.
+
+| Priemonių valdymo pavadinimas | Aprašymas |
+|---|---|
+| OnHandReservation | Ši funkcija leidžia kurti rezervavimus, naudoti rezervavimus ir (arba) nereservuoti nurodytų atsargų kiekių naudojant atsargų matomumą. Dėl daugiau informacijos, žr. [Inventoriaus matomumo rezervavimas](inventory-visibility-reservations.md). |
+| OnHandMostSpecificBackgroundService | Ši priemonė pateikia produktų atsargų suvestinę kartu su visomis dimensijomis. Atsargų suvestinės duomenys bus periodiškai sinchronizuojami pagal atsargų matomumą. Daugiau informacijos ieškokite Atsargų [suvestinė](inventory-visibility-power-platform.md#inventory-summary). |
+| OnhandChangeSchedule | Priemonė įgalina turimo atsargų pakeitimo grafiką ir prieinamų atsargų (ATP) priemones (pasirinktinai). Daugiau informacijos ieškokite turimų [atsargų matomumo grafikuose ir prieinamose atsargose](inventory-visibility-available-to-promise.md). |
+
+## <a name="find-the-service-endpoint"></a><a name="get-service-endpoint"></a>Paslaugos galinio punkto radimas
+
+Jei nežinote tinkamo atsargų matomumo tarnybos galinio punkto, atidarykite **konfigūracijos** puslapį „Power Apps“ ir tada rinkitės **Rodyti paslaugos galinį punktą** dešiniajame viršutiniame kampe. Puslapyje bus rodomas tinkamas tarnybos galinis punktas.
+
 ## <a name="data-source-configuration"></a>Duomenų šaltinio konfigūravimas
 
-Kiekvienas duomenų šaltinis rodo sistemą, iš kurios gauti jūsų duomenys. Duomenų šaltinių pavadinimų pavyzdžiai apima`fno` (tai reiškia "Dynamics 365 Finance ir operacijų programėlės“) ir`pos` (o tai reiškia „pardavimo vieta“). Pagal numatytuosius nustatymus „Supply Chain Management“ nustatomas kaip numatytasis duomenų šaltinis (`fno`) atsargų matomumo atveju.
+Kiekvienas duomenų šaltinis rodo sistemą, iš kurios gauti jūsų duomenys. Duomenų šaltinių pavadinimų pavyzdys gali `fno` būti (tai reiškia "Dynamics 365 Finance ir operacijų programėlės") `pos` ir (tai reiškia "point of sale"). Pagal numatytuosius nustatymus „Supply Chain Management“ nustatomas kaip numatytasis duomenų šaltinis (`fno`) atsargų matomumo atveju.
 
 > [!NOTE]
-> The`fno` duomenų šaltinis yra rezervuotas tiekimo grandinės valdymui. Jei jūsų atsargų matomumo papildinys yra integruotas su tiekimo grandinės valdymo aplinka, rekomenduojame nenaikinti konfigūracijų, susijusių su`fno` duomenų šaltinyje.
+> Duomenų `fno` šaltinis rezervuotas tiekimo grandinės valdymui. Jei jūsų atsargų matomumo priedas yra integruotas `fno` tiekimo grandinės valdymo aplinkoje, rekomenduojame nenaiknti su duomenų šaltiniu susijusių konfigūracijų.
 
 Norėdami įtraukti duomenų šaltinį, atlikite nurodytus veiksmus.
 
@@ -178,15 +181,21 @@ Norėdami nustatyti tinkinto skaičiavimo matmenį, atlikite tokius veiksmus.
 
 1. Prisiregistruokite savo „Power Apps“ aplinkoje ir atidarykite **Atsargų matomumas**.
 1. Atidarykite **Konfigūravimo** puslapį.
-1. Skirtuke **Apskaičiuotas matas** pasirinkite **Naujas skaičiavimo matas,** kad pridėtumėte apskaičiuotą matą. Tada nustatykite laukus, kaip aprašoma tolesnėje lentelėje.
+1. Skirtuke **Apskaičiuotas matas** pasirinkite **Naujas skaičiavimo matas,** kad pridėtumėte apskaičiuotą matą.
+1. Nustatykite šiuos naujo apskaičiuoto matavimo laukus:
 
-    | Laukas | Reikšmė |
-    |---|---|
-    | Naujo apskaičiuoto mato pavadinimas | Įveskite apskaičiuoto mato pavadinimą. |
-    | Duomenų šaltinis | Užklausų sistema yra duomenų šaltinis. |
-    | Modifikatoriaus duomenų šaltinis | Įveskite keitimo duomenų šaltinį. |
-    | Keitikas | Įveskite keitimo vardą. |
-    | Modifikatoriaus tipas | Pasirinkite modifikatoriaus tipą (*pridėjimas* ar *atimtis*). |
+    - **Naujo apskaičiuoto mato** pavadinimas – įveskite apskaičiuoto matavimo pavadinimą.
+    - **Duomenų šaltinis** – pasirinkite duomenų šaltinį, susietą su nauju modifikatoriaus. Užklausų sistema yra duomenų šaltinis.
+
+1. Norėdami **prie** naujo apskaičiuoto mato pridėti modifikatorių, pasirinkite Įtraukti.
+1. Nustatykite šiuos naujo modifikatoriaus laukus:
+
+    - **Modifikatorius** – pasirinkite modifikatoriaus tipą (*pridėjimas* arba *atimtis*).
+    - **Duomenų šaltinis** – pasirinkite duomenų šaltinį, kuriame bus galima rasti modifikatoriaus vertę teikiaį matą.
+    - **Matas** – pasirinkite matavimo pavadinimą (iš pasirinkto duomenų šaltinio), kuris teikia modifikatoriaus vertę.
+
+1. Kartokite 5–6 veiksmus, kol pridėjote visus reikalingus modifikatorius.
+1. Pasirinkite **Įrašyti**.
 
 Pavyzdžiui, galite turėti šių pirkimo užsakymų rezultatas.
 
@@ -273,17 +282,17 @@ Išvestis `MyCustomAvailableforReservation` paremta apskaičiavimo nustatymais t
 
 ## <a name="partition-configuration"></a><a name="partition-configuration"></a>Skaidinio konfigūracija
 
-Šiuo metu skaidinio konfigūraciją sudaro du pagrindiniai matmenys (`SiteId` ir`LocationId`), kurie nurodo, kaip duomenys paskirstomi. Operacijos toje pačioje skaidinyje gali užtikrinti didesnį našumą mažesnėmis sąnaudomis. Šioje lentelėje parodyta numatytoji skaidinio konfigūracija, kurią teikia atsargų matomumo papildinys.
+Šiuo metu skaidinio konfigūraciją sudaro dvi pagrindinės dimensijos (`SiteId` ir `LocationId`) kurios nurodo, kaip paskirstomi duomenys. To paties skaidinio operacijos gali padidinti našumą už mažesnes išlaidas. Toliau pateikiamoje lentelėje rodoma numatytoji skaidinio konfigūracija, kurią teikia atsargų matomumo priedas.
 
 | Pagrindinė dimensija | Hierarchija |
 |---|---|
 | `SiteId` | 1 |
 | `LocationId` | 2 |
 
-Pagal numatytuosius nustatymus sprendimas apima šią skaidinio konfigūraciją. Todėl, *jūs neprivalote to apibrėžti patys*.
+Sprendimas apima šio skaidinio konfigūraciją pagal numatytuosius nustatymus. *Todėl jums nereikia jų patiems nurodyti*.
 
 > [!IMPORTANT]
-> Netinkinkite numatytosios skaidinio konfigūracijos. Jei jį ištrinsite arba pakeisite, greičiausiai sukelsite netikėtą klaidą.
+> Nepritaikykite numatytosios skaidinio konfigūracijos. Jei jį panaikinsite arba pakeisite, tikėtina, kad įvyko netikėta klaida.
 
 ## <a name="product-index-hierarchy-configuration"></a><a name="index-configuration"></a>Produkto indeksų hierarchijos konfigūracija
 
@@ -465,6 +474,10 @@ Rezervavimo hierarchija nepriklauso nuo produkto indeksų hierarchijos. Šis nep
 - `(SiteId, LocationId, ColorId, SizeId, StyleId)`
 
 Tinkama dimensijų seka turi griežtai laikytis rezervavimo hierarchijos – dimensijos pagal dimensiją. Pavyzdžiui, hierarchijos `(SiteId, LocationId, SizeId)` seka netinkama, nes `ColorId` trūksta.
+
+## <a name="available-to-promise-configuration-optional"></a>Prieinamų atsargos konfigūracijų (pasirinktinai)
+
+Galite nustatyti atsargų matomumą, kad leisite planuoti būsimus turimų atsargų pakeitimus ir apskaičiuoti prieinamų atsargų (ATP) kiekius. ATP – tai turimos prekės kiekis, kurį galima žadėti klientui kitą laikotarpį. Naudojant šį skaičiavimą gali labai padidėti užsakymo įvykdymo galimybės. Norėdami naudoti šią funkciją, turite ją įgalinti skirtuke **Funkcijų** valdymas ir nustatyti ATP parametrų **skirtuke**. Daugiau informacijos ieškokite turimų [atsargų matomumo grafikuose ir prieinamose atsargose](inventory-visibility-available-to-promise.md).
 
 ## <a name="complete-and-update-the-configuration"></a>Baigti ir atnaujinti konfigūraciją
 

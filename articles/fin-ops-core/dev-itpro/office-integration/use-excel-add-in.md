@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d1593206e8e22aed518ebca9bee0772c6620bec9
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 3b97c585009b50c6623036d10f54e78a65a89cea
+ms.sourcegitcommit: 3cb1f49a02e4a849fc34ffeb81fe507f0608b35e
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8068797"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "8464943"
 ---
 # <a name="view-and-update-entity-data-with-excel"></a>Objekto duomenų peržiūra ir atnaujinimas programoje „Excel“ 
 
@@ -31,7 +31,7 @@ ms.locfileid: "8068797"
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 
-Šioje temoje paaiškinama, kaip programoje „Microsoft Excel“ atidaryti objektų duomenis ir naudojant „Microsoft Dynamics“ „Excel“ papildinį peržiūrėti, atnaujinti ir redaguoti šiuos duomenis. Norėdami atidaryti objekto duomenis, galite pradėti nuo „Excel“ arba „Finance and Operations“ programų.
+Šioje temoje paaiškinama, kaip programoje „Microsoft Excel“ atidaryti objektų duomenis ir naudojant „Microsoft Dynamics“ „Excel“ papildinį peržiūrėti, atnaujinti ir redaguoti šiuos duomenis. Norėdami atidaryti objekto duomenis galite pradėti nuo "Excel" arba finansų ir operacijų programėlių.
 
 Kai programoje „Excel“ atidarysite objektų duomenis, naudodami „Excel“ papildinį galėsite greitai ir paprastai peržiūrėti bei redaguoti šiuos duomenis. Norint įdiegti šį papildinį, būtina naudoti 2016 m. ar vėlesnių versijų „Microsoft Excel“.
 
@@ -40,15 +40,15 @@ Kai programoje „Excel“ atidarysite objektų duomenis, naudodami „Excel“ 
 
 Norėdami daugiau sužinoti, kaip naudotis „Excel“ papildiniu, peržiūrėkite trumpą vaizdo įrašą [„Excel” šablono kūrimas antraštėms ir linijų šablonams](https://youtu.be/RTicLb-6dbI).
 
-## <a name="open-entity-data-in-excel-when-you-start-from-a-finance-and-operations-app"></a>Atidarykite objekto duomenis programoje „Excel“, kai paleidžiate programą „Finance and Operations“.
-1. Programos „Finance and Operations“ puslapyje pasirinkite **Atidaryti Microsoft Office**.
+## <a name="open-entity-data-in-excel-when-you-start-from-a-finance-and-operations-app"></a>Atidaryti objekto duomenis programoje "Excel", kai pradedama naudojant finansų ir operacijų programą
+1. Finansų ir operacijų programos puslapyje pasirinkite Atidaryti **Microsoft Office**.
 
     Jei puslapio šakninis duomenų šaltinis (lentelė) sutaps su bet kurių objektų šakniniu duomenų šaltiniu, puslapyje bus sukuriamos numatytosios parinktys **Atidaryti naudojant „Excel“**. Parinktis **Atidaryti naudojant „Excel“** galima rasti dažnai naudojamuose puslapiuose, pvz., **Visi tiekėjai** ir **Visi klientai**.
  
 2. Pasirinkite parinktį **Atidaryti naudojant „Excel“** ir atidarykite sukurtą darbaknygę. Šioje darbaknygėje pateikiama su objektu susijusi informacija, aplinkos žymiklis ir „Excel“ papildinio žymiklis.
 3. Programoje „Excel“ pasirinkite **Įjungti redagavimą**, kad įjungtumėte „Excel“ papildinį. „Excel“ papildinys paleidžiamas dešinėje „Excel“ lango pusėje esančioje srityje.
 4. Jei „Excel“ papildinį paleisite pirmą kartą, pasirinkite **Pasitikėti šiuo papildiniu**.
-5. Jei būsite paraginti prisijungti, pasirinkite **Prisijungti**, tada prisijunkite naudodami tuos pačius kredencialus, kuriuos naudojote prisijungdami prie programos „Finance and Operations“. „Excel“ papildinys naudos ankstesnį prisijungimo kontekstą iš naršyklės, ir esant galimybei, automatiškai jus prijungs. (Daugiau informacijos apie naršyklę, naudojamą remiantis operacine sistema, žr. [„Office” papildinių naudojamos naršyklės](/office/dev/add-ins/concepts/browsers-used-by-office-web-add-ins.) Norėdami užtikrinti, kad sėkmingai prisijungėte, viršutiniame dešiniajame „Excel” papildinio kampe patikrinkite vartotojo vardą. 
+5. Jei jus paragins prisijungti, **pasirinkite** prisijungti ir tada prisiregistruokite naudodami tuos pačius kredencialus, kuriuos naudojote prisiregistruodami finansų ir operacijų programoje. „Excel“ papildinys naudos ankstesnį prisijungimo kontekstą iš naršyklės, ir esant galimybei, automatiškai jus prijungs. (Daugiau informacijos apie naršyklę, naudojamą remiantis operacine sistema, ieškokite ["Office" papildiniai naudojamos naršyklės](/office/dev/add-ins/concepts/browsers-used-by-office-web-add-ins). Norėdami užtikrinti, kad prisijungimas buvo sėkmingas, patikrinkite vartotojo vardą viršutiniame dešiniajame "Excel" priedo kampe. 
 
 Naudojant „Excel“ papildinį automatiškai nuskaitomi pasirinkto objekto duomenys. Atminkite, kad darbaknygėje duomenys bus pateikiami tik „Excel“ papildiniui juos nuskaičius.
 
@@ -57,7 +57,7 @@ Naudojant „Excel“ papildinį automatiškai nuskaitomi pasirinkto objekto duo
 2. „Office“ parduotuvėje ieškokite raktažodžio **Dynamics**, tada prie **„Microsoft Dynamics Office“ papildinio** („Excel“ papildinys) pasirinkite **Įtraukti**.
 3. Jei „Excel“ papildinį paleisite pirmą kartą, pasirinkę **Pasitikėti šiuo papildiniu** jį įjunkite. „Excel“ papildinys paleidžiamas dešinėje „Excel“ lango pusėje esančioje srityje.
 4. Pasirinkite **Įtraukti serverio informaciją**, kad atidarytumėte sritį **Parinktys**.
-5. Naršyklėje nukopijuokite tikslinės programos „Finance and Operations“ egzemplioriaus URL ir įklijuokite jį į **Serverio URL** lauką, tada ištrinkite viską, kas po pagrindinio kompiuterio pavadinimo. Gautame URL turi likti tik pagrindinio kompiuterio vardas.
+5. Naršyklėje nukopijuokite tikslinio finansų ir operacijų programos egzemplioriaus URL, **įklijuokite į lauką Serverio URL**, tada panaikinkite viską po pagrindinio kompiuterio pavadinimo. Gautame URL turi likti tik pagrindinio kompiuterio vardas.
 
     Pavyzdžiui, jei URL yra `https://xxx.dynamics.com/?cmp=usmf&amp;mi=CustTableListPage`, panaikinkite viską, išskyrus `https://xxx.dynamics.com`.
 
@@ -76,7 +76,7 @@ Naudojant „Excel“ papildinį automatiškai nuskaitomi pasirinkto objekto duo
 Kai naudojant „Excel“ papildinį bus nuskaityti ir darbaknygėje pateikti objektų duomenys, bet kada galėsite juos atnaujinti „Excel“ papildinyje pasirinkdami **Atnaujinti**.
 
 ## <a name="edit-entity-data-in-excel"></a>Kaip redaguoti objektų duomenis programoje „Excel“
-Galite pakeisti subjekto duomenis, kaip jums reikia, ir paskelbti juos atgal į „Finance and Operations“ programas pasirinkdami **Paskelbti** „Excel“ priede. Norėdami redaguoti įrašą, darbalapyje pasirinkite langelį, tada pakeiskite langelio reikšmę. Norėdami įtraukti naują įrašą, atlikite vieną iš toliau nurodytų veiksmų.
+Jei reikia, objekto duomenis galite keisti, o tada juos publikuoti finansų ir operacijų **programėlėse pasirinkdami** Publikuoti "Excel" papildiniai. Norėdami redaguoti įrašą, darbalapyje pasirinkite langelį, tada pakeiskite langelio reikšmę. Norėdami įtraukti naują įrašą, atlikite vieną iš toliau nurodytų veiksmų.
 
 - Spustelėkite bet kurioje duomenų šaltinio lentelės vietoje, tada „Excel“ papildinyje pasirinkite **Naujas**.
 - Spustelėkite bet kur paskutinėje duomenų šaltinio lentelės eilutėje, tada spauskite klavišą „Tab“, kol žymiklio nebebus paskutiniame šios eilutės stulpelyje ir bus sukurta nauja eilutė.

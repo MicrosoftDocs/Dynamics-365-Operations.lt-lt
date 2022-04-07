@@ -1,7 +1,7 @@
 ---
 title: Planavimo optimizavimo tinkamumo analizė
 description: Šioje temoje paaiškinama, kaip patikrinti dabartinę sąranką ir duomenis, atsižvelgiant į „Planning Optimization“ funkcijos galimybes.
-author: ChristianRytt
+author: t-benebo
 ms.date: 07/07/2021
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: crytt
+ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 440cddca11df8d705757c6f6adf01e08626c5158
-ms.sourcegitcommit: 6dc2b877cf8ea9185a07964ec05c5ddb7a78471b
-ms.translationtype: HT
+ms.openlocfilehash: dccc955492d33e9e0156f2a5feb6b33387d80af3
+ms.sourcegitcommit: 6f6ec4f4ff595bf81f0b8b83f66442d5456efa87
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/12/2022
-ms.locfileid: "8408020"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "8487648"
 ---
 # <a name="planning-optimization-fit-analysis"></a>Planavimo optimizavimo tinkamumo analizė
 
@@ -84,7 +84,7 @@ Tolesnėje lentelėje pateikiami skirtingi rezultatai, rodomi po tinkamumo anali
 | Gamyba | KS / formulės eilutės su išteklių sąnaudomis: _\#_ | Ši funkcija laukia patvirtinimo. Šiuo metu KS ir formulės eilučių, kuriose yra išteklių sąnaudos, nepaisoma, kai įjungtas planavimo optimizavimas. Kai ši funkcija palaikoma, medžiagų reikalavimas bus nustatytas kaip gamybos pradžios data. Kol ši funkcija bus palaikoma, nebus sugeneruoti medžiagų, pažymėtų išteklių suvartojimo vėliavėle, reikalavimai. | Spalio 2022 d. |
 | Gamyba | KS / formulės eilutės su žingsnių sąnaudomis: _\#_ | Ši funkcija laukia patvirtinimo. Šiuo metu KS ir formulės eilučių, kuriose yra žingsnių sąnaudos, nepaisoma, kai įjungtas planavimo optimizavimas. | Spalio 2022 d. |
 | Gamyba | KS su apibrėžtu nuolatiniu arba kintamu nurašymu: _\#_ | Ši funkcija laukia patvirtinimo. Šiuo metu nuolatinio arba kintamo nurašymo, apibrėžto KS, nepaisoma, kai įjungtas planavimo optimizavimas. | Spalio 2022 d. |
-| Gamyba | KS su subranga: _\#_ | Ši funkcija laukia patvirtinimo. Šiuo metu subrangos nustatymo KS nepaisoma, kai įjungtas planavimo optimizavimas, neatsižvelgiant į šį parametrą. | balandžio mėn. 2022 d. |
+| Gamyba | KS su subranga: _\#_ | Dabar ši funkcija yra palaikoma. | Palaikoma |
 | Gamyba | KS be svetainės: _\#_ | Dabar ši funkcija yra palaikoma. Papildomą informaciją rasite [Gamybos planavimas](production-planning.md) | Palaikoma |
 | Gamyba | Poreikis su apibrėžtomis konkrečiomis KS ar maršruto reikalavimais: _\#_ | Ši funkcija laukia patvirtinimo. Šiuo metu konkrečių KS ar maršruto reikalavimų, apibrėžtų pagal poreikį (pvz., KS arba maršrutas pardavimo užsakyme), nepaisoma, kai įjungtas planavimo optimizavimas. Bus naudojama standartinė KS arba maršrutas, neatsižvelgiant į šį nustatymą. | Spalio 2022 d. |
 | Gamyba | Formulės versijos su sudėtiniais / šalutiniais produktais: _\#_ | Ši funkcija laukia patvirtinimo. Šiuo metu sudėtinių ir šalutinių produktų, susietų su formulės versija, nepaisoma, kai įjungtas planavimo optimizavimas. | Spalio 2022 d. |

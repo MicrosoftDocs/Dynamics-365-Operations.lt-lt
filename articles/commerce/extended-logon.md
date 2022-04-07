@@ -1,8 +1,8 @@
 ---
-title: MPOS ir „Cloud POS“ išplėstinės registracijos funkcijos nustatymas
-description: Šioje temoje aprašomos „Cloud POS“ ir „Retail Modern POS“ (MPOS) išplėstinio prisijungimo nustatymo parinktys.
-author: boycezhu
-ms.date: 09/07/2021
+title: Nustatyti ir naudoti išplėstinį registravimosi galimybę
+description: Šioje temoje aprašoma, kaip nustatyti ir naudoti išplėstinį point Microsoft Dynamics 365 Commerce sale (EKA) programos registravimosi galimybę.
+author: boycez
+ms.date: 03/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,56 +16,52 @@ ms.search.industry: Retail
 ms.author: boycez
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 0cc3d3a3cadbc614e82b8cc7ae0b78406247cece
-ms.sourcegitcommit: efcb853a68a77037cca23582d9f6f96ea573727a
+ms.openlocfilehash: d211ecfe1550f6093e1d35e7c2b37c036b50dd4a
+ms.sourcegitcommit: 5aebb181004eb63210503fb566dcda5c55032bee
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/07/2021
-ms.locfileid: "7478676"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "8491444"
 ---
-# <a name="set-up-extended-logon-functionality-for-mpos-and-cloud-pos"></a>MPOS ir „Cloud POS“ išplėstinės registracijos funkcijų nustatymas
+# <a name="set-up-and-use-the-extended-logon-capability"></a>Nustatyti ir naudoti išplėstinį registravimosi galimybę
 
 [!include [banner](includes/banner.md)]
 
-Šioje temoje aprašomos „Cloud POS“ ir „Retail Modern POS“ (MPOS) išplėstinio prisijungimo nustatymo parinktys.
+Šioje temoje aprašoma, kaip nustatyti ir naudoti išplėstinį point Microsoft Dynamics 365 Commerce sale (EKA) programos registravimosi galimybę.
 
-## <a name="setting-up-extended-logon"></a>Išplėstinės registracijos nustatymas
+Debesies EKA (CPOS) ir "Modern POS" (MPOS) suteikia išplėstinį registravimosi galimybę, kuris leidžia parduotuvės darbuotojams prisijungti prie EKA programos nuskaitant brūkšninius kodus arba perbraukus kortele naudojant magnetinės juostelės skaitytuvą (MSR).
 
-Brūkšninių kodų skaičių sekų sąranką galite rasti pasirinkdami **Mažmeninė prekyba ir prekyba** &gt; **Kanalo sąranka** &gt; **EKA sąranka** &gt; **EKA šablonai** &gt; **Funkcijų šablonai**. „FastTab“ **Funkcijos** pateikiamos toliau nurodytos parinktys, susijusios su išplėstine registracija.
+## <a name="set-up-extended-logon"></a>Nustatyti išplėstinį registrėjimą
 
-### <a name="staff-bar-code-logon"></a>Darbuotojo brūkšninio kodo registravimas
+Norėdami nustatyti išplėstinę EKA kasos aparatų registracijas parduotuvėse, atlikite šiuos veiksmus.
 
-Kai parinktis **Darbuotojo brūkšninio kodo registravimas** įjungta, darbuotojai, kurių elektroninio kasos aparato (EKA) kredencialams priskirta išplėstinės registracijos funkcija, gali prisijungti naudodami brūkšninį kodą.
+1. Programoje "Commerce Headquarters" eikite į " **Retail" ir "Commerce \> Channel" \> nustatymo EKA \> nustatymo EKA \> funkcijų šablonus**. 
+2. Kairiajame naršymo lange pasirinkite funkcijų šabloną, susietą su parduotuve.
+3. Skirtuke **Funkcijos** FastTab, dalyje Papildomos **registravimosi autentifikavimo** pasirinktys, atitinkamai nustatykite **šias pasirinktis kaip** **Taip** arba Ne:
 
-### <a name="staff-bar-code-logon-requires-password"></a>Darbuotojui registruojantis naudojant brūkšninį kodą reikia slaptažodžio
+    - **Registravimasis prie darbuotojų** brūkšninio **kodo** – nustatykite šią parinktį kaip Taip, jei norite, kad jūsų darbuotojai prisiregistruotų prie EKA nuskaitę brūkšninius kodus. 
+    - **Darbuotojo brūkšninio kodo** registravimasis reikalauja slaptažodžio – **nustatykite** šią parinktį kaip Taip, jei norite, kad jūsų darbuotojai, prisiregistrudami prie EKA, perskaitytų brūkšninius kodus, turėtų įvesti slaptažodį.
+    - **Darbuotojo kortelės** registravimasis – nustatykite šią **pasirinktį** kaip Taip, jei norite, kad jūsų darbuotojai prisiregistruotų prie EKA perbraukdami kortele.
+    - **Darbuotojo kortelei** registruotis reikia slaptažodžio – **nustatykite** šią parinktį kaip Taip, jei norite, kad jūsų darbuotojai turėtų įvesti slaptažodį, kai prisiregistruos prie EKA, perbraukdami kortele.
 
-Kai parinktis **Darbuotojui registruojantis naudojant brūkšninį kodą reikia slaptažodžio** įjungta, darbuotojų brūkšninio kodo registracijos funkcija parenka tik tą darbuotoją, kuris yra priskirtas pateiktai išplėstinei registracijai. Kai ši parinktis įjungta, darbuotojai vis tiek turi įvesti savo slaptažodį.
+Brūkšninis kodas arba kortelė susieta su kredencialais, kuriuos galima priskirti darbuotojui. Kredencialus turi turėti mažiausiai šeši simboliai. Eilutė, kurioje yra pirmieji penki simboliai, *turi būti unikali ir laikoma kredencialų ID*, kuris naudojamas ieškoti darbuotojo. Likę simboliai naudojami saugos tikrinimui. Pavyzdžiui, turite dvi korteles, kurių vienos kredencialai yra 12345DGYDEYTDW, o vienos kredencialai yra 12345EWUTBDAJH. Šių dviejų kortelių kredencialų ID 12345 yra toks pats, abiejų šių kortelių negalima priskirti darbuotojams.
 
-### <a name="staff-card-logon"></a>Darbuotojo kortelės registravimas
-
-Kai parinktis **Darbuotojo kortelės registravimas** įjungta, darbuotojai, kurių EKA kredencialams priskirta išplėstinės registracijos funkcija, gali prisijungti naudodami magnetinę juostelę.
-
-### <a name="staff-card-logon-requires-password"></a>Darbuotojui registruojantis naudojant kortelę reikia slaptažodžio
-
-Kai parinktis **Darbuotojui registruojantis naudojant kortelę reikia slaptažodžio** įjungta, darbuotojų kortelės registracijos funkcija parenka tik tą darbuotoją, kuris yra priskirtas pateiktai išplėstinei registracijai. Kai ši parinktis įjungta, darbuotojai vis tiek turi įvesti savo slaptažodį.
-
-## <a name="assigning-an-extended-logon"></a>Išplėstinės registracijos priskyrimas
+## <a name="assign-extended-logon"></a>Priskirti išplėstinį registr vardą
 
 Pagal numatytuosius parametrus tik vadovai gali darbuotojams priskirti išplėstinės registracijos funkciją. Norėdami priskirti išplėstinės registracijos funkciją, EKA pasirinkite **Išplėstinė registracija**. Tada ieškokite darbuotojo, ieškos lauke įvesdami darbuotojo operatoriaus ID. Pasirinkite darbuotoją ir spustelėkite **Priskirti**. Kitame puslapyje perbraukite arba nuskaitykite išplėstinę registraciją, kad priskirtumėte darbuotoją. Jei perbraukimas arba nuskaitymas sėkmingas, mygtukas **Gerai** tampa aktyvus. Spustelėkite **Gerai**, norėdami įrašyti to darbuotojo išplėstinę registraciją.
 
-## <a name="deleting-an-extended-logon"></a>Išplėstinės registracijos naikinimas
+## <a name="delete-extended-logon"></a>Panaikinti išplėstinį registrėjimą
 
 Norėdami panaikinti darbuotojui priskirtą išplėstinę registraciją, ieškokite darbuotojo naudodami operaciją **Išplėstinė registracija**. Pasirinkite darbuotoją ir spustelėkite **Atšaukti priskyrimą**. Pašalinami visi su tuo darbuotoju susieti išplėstinės registracijos kredencialai.
 
-## <a name="extending-extended-logon"></a>Išplėstinės registracijos išplėtimas
+## <a name="use-extended-logon"></a>Naudoti išplėstinį registrėjimą
 
-Išplėstinė prisijungimo galimybė leidžia naudoti tik penkis reikšminuosius simbolius, kurie bus unikalus identifikatorius, naudojamas ne langelyje. Pavyzdžiui, jei konfigūruojate dvi korteles, kurių ID „1234567" ir „1234578", abi jos abi bus laikomos „12345". Galite sukurti plėtinį, kad būtų galima palaikyti daugiau simbolių. Jei norite gauti išsamesnių [instrukcijų, patikrinkite MPOS ir debesies EKA išplėstinio registravimosi funkcijos išplėtimą](https://cloudblogs.microsoft.com/dynamics365/no-audience/2018/12/14/extending-the-extended-logon-functionality-for-mpos-and-cloud-pos/).
+Sukonfigūravus išplėstą registravimąsi ir darbuotojui priskiriamas brūkšninis kodas arba magnetinė juostelė, kai rodomas EKA registravimosi puslapis, darbuotojas tiesiog turi perbraukti ar nuskaityti savo kortelę. Jei prieš tęsiant registrėjimąsi reikia slaptažodžio, darbuotojas raginamas įvesti savo slaptažodį.
 
-Registravimosi paslaugą galima išplėsti, kad būtų palaikomi papildomi išplėstinės registracijos įrenginiai, pvz., delnų skaitytuvai. Daugiau informacijos ieškokite EKA išplečiamumo dokumentuose.
+## <a name="extend-extended-logon"></a>Išplėstinė prisijungimo informacija
 
-## <a name="using-extended-logon"></a>Išplėstinės registracijos naudojimas
+Norint naudoti išplėstinę registravimosi galimybę, reikia, kad kredencialų ilgis būtų mažiausiai šeši simboliai ir kad pirmieji penki kredencialų ID būtų unikalūs. Iš pradžių jis buvo naudojamas kaip pavyzdys, kurį programuotojai gali pritaikyti, kad atitiktų konkretaus diegimo reikalavimus. (Pvz., jį galima pritaikyti, kad būtų galima palaikyti daugiau simbolių arba naudoti kitas saugos tikrinimo taisykles.) Išsamesnės informacijos apie tai, kaip kurti išplėstinio registravimosi plėtinius, [žr. išplėstinę MPOS ir Debesies EKA registravimosi funkcijų išplėtimą](https://cloudblogs.microsoft.com/dynamics365/no-audience/2018/12/14/extending-the-extended-logon-functionality-for-mpos-and-cloud-pos/).
 
-Jei išplėstinė registracija yra sukonfigūruota, o darbuotojui buvo priskirtas brūkšninis kodas arba magnetinė juostelė, darbuotojas tiesiog turi perbraukti arba nuskaityti savo kortelę, kai rodomas EKA registracijos puslapis. Jei prieš tęsiant registraciją būtina įvesti slaptažodį, darbuotojas bus paragintas įvesti savo slaptažodį.
-
+Registravimosi tarnybą taip pat galima išplėsti, kad būtų palaikomi papildomi išplėstiniai registravimosi įrenginiai, pvz., palmių skaitytuvai. Daugiau informacijos ieškokite [EKA extensibility dokumentacijoje](dev-itpro/pos-extension/pos-extension-overview.md).
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

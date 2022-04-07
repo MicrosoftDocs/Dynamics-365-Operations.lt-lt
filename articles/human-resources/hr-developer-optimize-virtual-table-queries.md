@@ -1,7 +1,7 @@
 ---
 title: „Dataverse“ virtualiųjų lentelių užklausų optimizavimas
 description: „Dataverse” virtualiųjų lentelių užklausų efektyvumo optimizavimas ir trikčių diagnostika
-author: andreabichsel
+author: twheeloc
 ms.date: 04/02/2021
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: jaredha
+ms.author: twheeloc
 ms.search.validFrom: 2021-04-02
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 1857d2e35e369bcd0c8f02a059a307f31da8b3b9
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 4057740fc4c6ddd696b37b6373dcfcd43881305e
+ms.sourcegitcommit: d67f7edaf1a50077c2a7dd105e774f86fc586495
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8067459"
+ms.lasthandoff: 04/02/2022
+ms.locfileid: "8534251"
 ---
 # <a name="optimize-dataverse-virtual-table-queries"></a>„Dataverse“ virtualiųjų lentelių užklausų optimizavimas
 
@@ -50,12 +50,12 @@ Viena iš lėto Personalo valdymui skirtų „Dataverse” virtualiųjų lenteli
 Pavyzdys, kur galite pastebėti šį poveikį, yra užklausos pagal Darbuotojo (**„mshr_hcmworkerentity”**) arba Pagrindinio darbuotojo (**„mshr_hcmworkerbaseentity”**) objektą. Galite pastebėti, kad efektyvumo problema pasireiškia keliais skirtingais būdais:
 
 - **Lėtas užklausos vykdymas**: Užklausą pagal virtualiąją lentelę gali pateikti tikėtuosius rezultatus, bet užtrukti daugiau laiko nei tikėtasi užklausos vykdymui užbaigti.
-- **Užklausos skirtasis laikas** : gali pasibaigti užklausos skirtasis laikas ir pateikti šią klaidą: „Buvo gautas prieigos raktas iškviesti Finance and Operations, bet Finance and Operations grąžino klaidą, kurios tipas yra InternalServerError“.
+- **Užklausos skirtasis** laikas: užklausai skirtas laikas gali skirtis ir pateikta ši klaida: "Atpažinimo ženklas gautas išk siekiant iškviesti finansus ir operacijas," Tačiau įvyko InternalServerError tipo klaida.
 - **Netikėta klaida**: Užklausa gali grąžinti 400 tipo klaidą su šiuo pranešimu: „Įvyko netikėta klaida.”
 
   ![Klaidos tipas 400 „HcmWorkerBaseEntity” objekte.](./media/HcmWorkerBaseEntityErrorType400.png)
 
-- **Buferizavimas**: Užklausa gali pernelyg daug naudoti serverio išteklius ir todėl patirti buferizavimą. Šiuo atveju užklausa grąžina šią klaidą: „Gatas prieigos raktas, skirtas iškviesti Finance and Operations, bet Finance and Operations grąžino 429 tipo klaidą“. Daugiau informacijos apie buferizavimą Personalo valdyme rasite [Buferizavimo DUK](./hr-admin-integration-throttling-faq.md).
+- **Buferizavimas**: Užklausa gali pernelyg daug naudoti serverio išteklius ir todėl patirti buferizavimą. Šiuo atveju, užklausa pateikia tokią klaidą: "Atpažinimo ženklas gautas išk siekiant iškviesti finansus ir operacijas, tačiau finansų ir operacijų tipas 429". Daugiau informacijos apie buferizavimą Personalo valdyme rasite [Buferizavimo DUK](./hr-admin-integration-throttling-faq.md).
 
   ![Klaidos tipas 429 „HcmWorkerBaseEntity” objekte.](./media/HcmWorkerBaseEntityErrorType429.png)
 
@@ -104,7 +104,7 @@ Jei kurdami „Power BI” ataskaitą pagal „Dataverse” virtualiąją lentel
 4. Naršyklės lange išplėskite **Objektų** mazgą.
 5. Ieškos lauke įveskite **„mshr_hcmworkerbaseentity”** ir pasirinkite objektą.
 6. Pasirinkite **Transformuoti duomenis**.
-7. Viduje konors Power Query Redagavimo langas, pasirinkite **Išplėstinis redaktorius**.
+7. Doroklio Power Query lange pasirinkite Išplėstinį **rengyklę**.
 8. Lange **Patobulinta rengyklė** atnaujinkite užklausą, kad ji atrodytų kaip žemiau, pridėdami arba pašalindami masyvo stulpelius taip, kaip jums reikia.
 
    ```
@@ -116,14 +116,14 @@ Jei kurdami „Power BI” ataskaitą pagal „Dataverse” virtualiąją lentel
    in
      selectedWorkerBaseEntityColumns
    ```
-   ![Atnaujinkite užklausą išplėstinėje redagavimo priemonėje Power Query redaktorius.](./media/HcmWorkerBaseEntityPowerQueryEditor.png)
+   ![Atnaujinkite užklausą išplėstinio doroklio rengyklėje Power Query.](./media/HcmWorkerBaseEntityPowerQueryEditor.png)
 
 9. Pasirinkite **Atlikta**.
 
    > [!NOTE]
    > Jeigu anksčiau gavote 429 tipo užklausos klaidą, jums gali reikėti palaukti kartojimo laikotarpio prieš atnaujinant užklausą, kad ji būtų sėkmingai baigta.
 
-10. Spustelėkite **Uždaryti ir taikyti** ant Power Query Redaktoriaus veiksmų juosta.
+10. Spustelėkite Uždaryti **> Taikyti** veiksmo rengyklėje Power Query.
 
 Tada galėsite pradėti kurti „Power BI” ataskaitą pagal stulpelius, pasirinktus iš virtualiosios lentelės.
 

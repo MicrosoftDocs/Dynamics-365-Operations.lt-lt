@@ -1,5 +1,5 @@
 ---
-title: Atsiskaitymo grafiko peržiūra
+title: Kurti atsiskaitymo grafikus
 description: Šioje temoje paaiškinama, kaip kurti, naikinti ir redaguoti atsiskaitymo grafikus.
 author: JodiChristiansen
 ms.date: 02/09/2022
@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: e42be3f359e96f0861354ebc8e1e9c87478a5d89
-ms.sourcegitcommit: 6102f70d4595d01b90afe5b23dfd8ec2ea030653
+ms.openlocfilehash: 2c4e3c0edadd00fd3a3f2ae9968248a226147996
+ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8182715"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "8462593"
 ---
-# <a name="billing-schedule-overview"></a>Atsiskaitymo grafiko peržiūra
+# <a name="create-billing-schedules"></a>Kurti atsiskaitymo grafikus
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Atsiskaitymo grafiko **puslapyje** galite kurti, naikinti arba redaguoti atsiskaitymo grafikus. Taip pat galite peržiūrėti atsiskaitymo grafikų sąrašą. Kai kuriate atsiskaitymo grafiką, numatytosios jo vertės nustatomos pagal su juo susietą atsiskaitymo grupę. Papildoma informacija nustatoma periodinių sutarties **atsiskaitymo parametrų** puslapyje.
 
@@ -155,7 +154,7 @@ Skirtuke Sąskaita galima ši **informacija**.
 
 | Laukas | Aprašymas |
 |-------|-------------|
-| Korespondentinė sąskaita, subsąskaita | Pardavimo eilutėje sukurta pagrindinė sąskaita. Numatytoji vertė yra iš pardavimo užsakymo. Šis laukas gali būti tuščias. |
+| Pagrindinė sąskaita | Pardavimo eilutėje sukurta pagrindinė sąskaita. Numatytoji vertė yra iš pardavimo užsakymo. Šis laukas gali būti tuščias. |
 | Prekės finansinės dimensijos | <p>Numatytosios finansinės dimensijos reikšmės, pagrįstos kliento ir prekės įrašu.</p><p>Prekėms, kurios naudoja įplaukų skaidymas, antrinių prekių finansinės dimensijos vertes naudoja kliento ir prekių įrašų finansinės dimensijos vertės, kaip aprašyta anksčiau. Jei turite atnaujinti antrinių prekių finansinių dimensijų vertes, galite importuoti duomenų objektą.</p> |
 
 ### <a name="renewals-tab"></a>Skirtukas Atnaujinimai
@@ -171,7 +170,7 @@ Be to, skirtuke Atnaujinimai galima rasti šiuos **mygtukus**.
 
 | Mygtukas | Aprašymas |
 |--------|-------------|
-| Neišskaitytų įplaukų žurnalo įrašo auditas | Peržiūrėti visus prekių, kurios naudoja sf įplaukų funkciją, pakeitimus. |
+| Įplaukų, už kurias neišrašytos sąskaitos, žurnalo įrašo auditas | Peržiūrėti visus prekių, kurios naudoja sf įplaukų funkciją, pakeitimus. |
 | Įtraukti atnaujinimo terminą | Įtraukite prekės atnaujinimo terminą. Naujo atnaujinimo termino pradžios data yra kita data, kuri yra po ankstesnio termino pabaigos datos. Galima **atnaujinti atnaujinimo pabaigos** datą, **atidėjimo** pradžios datą **,** atidėjimo **pabaigos** datą, **prekių** kiekį ir vieneto kainą. |
 | Keisti atnaujinimo terminą | <p>Modifikuokite atnaujinimo terminą. Galite keisti pradinio laikotarpio atidėjimo pradžios ir pabaigos datas prieš sukurdami pradinį žurnalo įrašą. Vėlesnių sąlygų pradžios datos keisti negalima. Tai visada yra kita data po ankstesnės termino pabaigos.</p><p>Jei atnaujinimo terminas egzistuoja po termino, kurį modifikuojate, termino datų pakeisti negalima. Tokiu atveju gali būti atnaujinti tik **atnaujinamos** **prekės** kiekio ir vieneto kainos laukai.</p><p>Pvz., yra trys terminai. <ul><li>Pirmosios sąlygos pakeisti negalima, nes ji jau pradėta.</li><li>Antrą terminą galima keisti tik kiekį ir vieneto kainą.</li><li>Trečios sąlygos visos vertės, išskyrus pradžios datą, gali būti keičiamos. Be to, šablono **pasirinktis** Grafikas leidžia sukurti atidėjimo grafiką, pagrįstą nerašyto įplaukų elemento šablonu. Kai ši pasirinktis nustatyta į **Taip**, pasirinkite atidėjimo **šabloną** lauke Šablonas ir pakeiskite atidėjimo pradžios ir pabaigos datas, jei to reikalaujate. Vėlesniuose atnaujinimo sąlygose naudojamas tas pats atidėjimo šablonas. Tačiau atidėjimo šabloną galima keisti.</p></li></ul> |
 

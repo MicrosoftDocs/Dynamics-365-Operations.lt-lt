@@ -1,21 +1,21 @@
 ---
 title: Planavimo optimizavimo išleidimo procesas ir išleidimo retrospektyva
 description: Šioje temoje pateikiama informacija apie Planavimo optimizavimo paleidimo procesą ir jo paleidimo retrospektyvą.
-author: ChristianRytt
+author: t-benebo
 ms.date: 09/21/2021
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: crytt
+ms.author: benebotg
 ms.search.validFrom: 2021-07-28
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: fd6ecb0b7bc1fcf85feab2588622a96cf43b6155
-ms.sourcegitcommit: 6dc2b877cf8ea9185a07964ec05c5ddb7a78471b
-ms.translationtype: HT
+ms.openlocfilehash: 673543ff2c9abefbca0529f35ce20bb26156acc4
+ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/12/2022
-ms.locfileid: "8407850"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "8469707"
 ---
 # <a name="planning-optimization-release-process-and-release-history"></a>Planavimo optimizavimo išleidimo procesas ir išleidimo retrospektyva
 
@@ -33,7 +33,7 @@ Kadangi atnaujinant Planavimo optimizavimą jūsų aplinkoje pranešimai nerodom
 
 | Pakeitimai | Funkcijų valdymo duomenys | Išleidimo datos |
 |---|---|---|
-| <p>Bendras našumas, kokybės ir stabilumo patobulinimai.<p>Planavimo optimizavimo centralizuota kalendoriaus priežiūra<p>Esamo tiekimo optimizavimo pasiūlymų planavimas | Funkcijos valdyti nereikia. | 2022 m. kovo 7–11 d. |
+| <p>Bendras našumas, kokybės ir stabilumo patobulinimai.<p>[Planavimo optimizavimo centralizuota kalendoriaus priežiūra](../supply-chain-calendars-master-planning.md)<p>[Esamo tiekimo optimizavimo pasiūlymų planavimas](../action-messages.md)<p>[Subrangos planavimo optimizavimo palaikymas](../../production-control/manage-subcontract-work-production.md) | Funkcijos valdyti nereikia. | 2022 m. kovo 7–11 d. |
 | <p>Įtrauktas gamybos užsakymų planavimo prioritetas. | Prieinamas su versija 10.0.25 *kaip funkcijos, pavadintos prioriteto valdoma mRP palaikavimu planavimo optimizavimui, dalis*. | 2021 m. lapkričio 12–18 d. |
 | <p>Bendras našumas, kokybės ir stabilumo patobulinimai. | Funkcijos valdyti nereikia. | 2021 m. lapkričio 12–18 d. |
 | <p>Įtrauktas proceso laiko skaičiavimo formulių, gamybos maršruto su persidengimu ir gamybos operacijos numerio palaikymas poreikio operacijose.</p><p>Išplėstiniai klaidų pranešimai, skirti gamybos planavimui, susijusiam su skirtasis laikas, pajėgumu, nepavyko rasti ir ciklinio maršruto.</p><p>Patobulintas vientisumas skaičiuojant gavimo datas ir išdavimo datas suplanuotuose užsakymuose ir patvirtintiuose užsakymuose.</p><p>Bendras našumas, kokybės ir stabilumo patobulinimai. | Funkcijos pavadinimas: *Neribotas pajėgumo planavimas Planavimo optimizavimui* | 2021 m. spalio 22–27 d. |

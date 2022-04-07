@@ -1,5 +1,5 @@
 ---
-title: Aptikti paliekamas krepšelius ir siųsti pranešimus klientams
+title: Aptikti paliktus krepšelius ir siųsti klientams pranešimus
 description: Šioje temoje aprašoma, kaip pritaikyti paliekamos Microsoft Dynamics 365 Commerce krepšelio jungties pavyzdį programą, kad būtų aptikti paliekami krepšeliai ir išsiųsti priminimo el. paštu pranešimus klientams.
 author: bicyclingfool
 ms.date: 02/25/2022
@@ -9,14 +9,14 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: 82848f1ff068cea0adfc6ec1b33fc4bb035f78dc
-ms.sourcegitcommit: 374bbdde90fc9a68c0799158a50409bfbe8ca64e
+ms.openlocfilehash: 1db4e988653aa55db2b18fb201edeafc4d16a1bc
+ms.sourcegitcommit: ab690bc897699ff8a4c489e749251fe0367050ca
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/25/2022
-ms.locfileid: "8353376"
+ms.lasthandoff: 03/26/2022
+ms.locfileid: "8489035"
 ---
-# <a name="detect-abandoned-carts-and-send-notifications-to-customers"></a>Aptikti paliekamas krepšelius ir siųsti pranešimus klientams
+# <a name="detect-abandoned-carts-and-send-notifications-to-customers"></a>Aptikti paliktus krepšelius ir siųsti klientams pranešimus
 
 [!include [banner](../includes/banner.md)]
 
@@ -127,7 +127,7 @@ Norėdami sukonfigūruoti paliktą krepšelio jungties pavyzdžio programą, mod
 
 ### <a name="azurecosmosoptions"></a>"AzureCosmosOptions"
 
-"Azure" saugomi paliekami krepšelio nuskaitymi užduočių būsenos, krepšelio ID ir modifikuotos laiko žymos Cosmos DB. Pagal numatytuosius nustatymus konfigūracijos rinkmenos parametrai pereis į vietinį "Azure" emuliatoriaus egzempliorių Cosmos DB. Kai diegiate jungtį į gamybą, turite atnaujinti šiuos parametrus, kad jie nurodyti "Azure" egzemplioriui "Azure Cosmos DB " abonemente. Norėdami patikrinti vietinę arba sanddėžę, galite naudoti "[Azure Azure Azure" emulator.](/azure/cosmos-db/local-emulator)
+"Azure" saugomi paliekami krepšelio nuskaitymi užduočių būsenos, krepšelio ID ir modifikuotos laiko žymos Cosmos DB. Pagal numatytuosius nustatymus konfigūracijos rinkmenos parametrai pereis į vietinį "Azure" emuliatoriaus egzempliorių Cosmos DB. Kai diegiate jungtį į gamybą, turite atnaujinti šiuos parametrus, kad jie nurodyti "Azure" egzemplioriui "Azure Cosmos DB " abonemente. Norėdami patikrinti vietinę arba šlifavimo dėžę, galite naudoti "Azure" iuliatorių [Cosmos DB](/azure/cosmos-db/local-emulator).
 
 | Ypatybė    | Aprašymas |
 | ----------- | ----------- |

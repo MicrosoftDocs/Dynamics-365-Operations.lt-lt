@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-09-15
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: f3a930814a1fb98e3b1611adf309c10e66b49b9d
-ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
+ms.openlocfilehash: c4cb36160e692cc12140b57037d2c9739f7b2ebd
+ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7902102"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "8462676"
 ---
 # <a name="mobile-device-user-accounts"></a>Mobiliojo įrenginio vartotojų paskyros
 
@@ -90,8 +90,8 @@ Kai darbuotojas prisijungia prie „Warehouse Management“ „mobile app“, ka
 1. Veiksmų srityje pasirinkite **Vartotojo parinktys**.
 1. Skirtuke **Ypatybės** nustatykite toliau pateiktus laukus.
 
-    - **Kalba** – pasirinkite kalbą, kurią darbuotojas pageidauja. Šiame lauke taip pat valdomas datos formatas, rodomas sandėlio programoje.
-    - **Datos, laiko ir numerio formatas** – pasirinkite kalbą, kuria bus nustatyti numerių formatai, rodomi sandėlio programoje. Nepamirškite, kad datos ir laiko formatai, rodomi sandėlio programoje, iš tikrųjų nustatomi kalbos **lauke**, o ne šiame lauke.
+    - **Kalba** – pasirinkite kalbą, kurią darbuotojas pageidauja. Šiame lauke taip pat valdomas numerių formatas, rodomas sandėlio programoje.
+    - **Datos, laiko ir numerio formatas** – pasirinkite datos ir laiko formatą, kurį pageidauja darbuotojas. Sandėlio programa vietoj šio parametro naudoja numerio formatą, **susietą su pasirinkta** kalbos lauko kalba.
     - **Laiko juosta** – pasirinkite laiko juostą, kurioje dirba darbuotojas. Šis laukas turi įtakos visų registracijų, kurias darbuotojas atlieka naudodamas programą, laiko antspaudui.
 
 > [!NOTE]

@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: fdahl
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: 2f31009424629221a8e4f130b0ec1879c6c6e3d4
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: e2273aefb98880a1ae746ef7ec65b4f2262f3560
+ms.sourcegitcommit: 49c97b0c94e916db5efca5672d85df70c3450755
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7781968"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "8492926"
 ---
 # <a name="regression-suite-automation-tool-tutorial"></a>„Regression Suite Automation Tool“ mokymas
 
@@ -43,7 +43,7 @@ Toliau pateiktame pavyzdyje parodyta, kaip galima naudoti šią funkciją norint
     5. Sąraše pažymėkite pasirinktą eilutę.
     6. Patikrinkite, ar lauko **Iš viso turima** yra reikšmė yra **411,0000000000000000**.
 
-2. Įrašykite užduoties įrašą kaip **kūrėjo įrašą** ir pridėkite jį prie testavimo atvejo, esančio „Azure Devops”.
+2. Įrašykite užduoties įrašymą kaip **programuotojo įrašą** ir pridėkite jį prie testo atvejo Azure DevOps.
 3. Įtraukite tikrinimo atvejį į tikrinimo planą ir įkelkite tikrinimo atvejį į RSAT.
 4. Atidarykite „Excel” parametro failą ir eikite į **Testavimo atvejo veiksmai** skirtuką.
 5. Norėdami patikrinti, ar turimų atsargų reikšmė visada bus daugiau nei **„0”**, eikite į veiksmą **Tikrinti iš viso turima** ir pakeiskite jo vertę iš **„411”** į **„0”**. Pakeiskite lauko **Operatorius** vertę iš lygybės ženklo (**„=**) į daugiau ženklą (**\>**).
@@ -79,19 +79,19 @@ Paleidus tikrinimo atvejį, pranešimas „Excel“ parametro faile palyginamas 
 
 Ši funkcija užfiksuoja veiksmų, kurie buvo atlikti įrašant užduotį, ekrano kopijas. Ji naudinga audito arba programinių klaidų taisymo tikslais.
 
-- Norėdami naudoti šią funkciją atidarykite failą vykdant RSAT su vartotojo sąsaja, **Microsoft.Dynamics.RegressionSuite.WindowsApp.exe.config** RSAT diegimo aplanke (pvz., **C:\\ Program Files (x86)\\Regression Suite Automation Tool**) ir pakeiskite toliau nurodyto elemento reikšmę iš **teisingas** į **klaidingas**.
+- Norėdami naudoti šią funkciją atidarykite failą vykdant RSAT su vartotojo sąsaja, **Microsoft.Dynamics.RegressionSuite.WindowsApp.exe.config** RSAT diegimo aplanke (pvz., **C:\\Program Files (x86)\\Regression Suite Automation Tool**) ir pakeiskite toliau nurodyto elemento reikšmę iš **teisingas** į **klaidingas**.
 
     ```xml
     <add key="VerboseSnapshotsEnabled" value="false" />
     ```
 
-- Norėdami naudoti šią funkciją atidarykite failą vykdant RSAT su vartotojo sąsaja, (pavyzdžiui „Azure DevOps“), atverkite **Microsoft.Dynamics.RegressionSuite.ConsoleApp.exe.config** failą RSAT diegimo kataloge (pavyzdžiui, **C:\\ Program Files (x86)\\Regression Suite Automation Tool**), ir pakeiskite tolesnio elemento vertę iš **klaidingas** į **teisingas**.
+- Norėdami naudoti šią funkciją atidarykite failą vykdant RSAT su vartotojo sąsaja, (pavyzdžiui „Azure DevOps“), atverkite **Microsoft.Dynamics.RegressionSuite.ConsoleApp.exe.config** failą RSAT diegimo kataloge (pavyzdžiui, **C:\\Program Files (x86)\\Regression Suite Automation Tool**), ir pakeiskite tolesnio elemento vertę iš **klaidingas** į **teisingas**.
 
     ```xml
     <add key="VerboseSnapshotsEnabled" value="false" />
     ```
 
-Kai Jūs vykdote testavimo atvejį, RSAT sugeneruoja veiksmų momentines kopijas (vaizdus), esančias darbo kataloge, testavimo atvejų atkūrimo aplanke. Antrinėje aplanke sukuriamas atskiras poaplankių pavadinimas **StepSnapshots**. Šiame aplanke yra paleisties bandymų atvejų momentinės kopijos.
+Kai vykdote tikrinimo atvejus, RSAT sugeneruoja veiksmų momentines kopijas (vaizdus) ir įrašo juos į tikrinimo atvejų aplanką darbo kataloge. Antrinėje aplanke sukuriamas atskiras poaplankių pavadinimas **StepSnapshots**. Šiame aplanke yra paleisties bandymų atvejų momentinės kopijos.
 
 ## <a name="assignment"></a>Priskyrimas
 
@@ -172,6 +172,7 @@ RSAT galima iškviesti lange **Komandinė eilutė** arba **„PowerShell“**.
         about
         cls
         download
+        downloadsuite
         edit
         generate
         generatederived
@@ -181,11 +182,13 @@ RSAT galima iškviesti lange **Komandinė eilutė** arba **„PowerShell“**.
         list
         listtestplans
         listtestsuite
+        listtestsuitebyid
         listtestsuitenames
         playback
         playbackbyid
         playbackmany
         playbacksuite
+        playbacksuitebyid
         quit
         upload
         uploadrecording
@@ -194,17 +197,17 @@ RSAT galima iškviesti lange **Komandinė eilutė** arba **„PowerShell“**.
 
 #### <a name=""></a>?
 
-Rodoma pagalba apie visas galimas komandas ir jų parametrus.
+Išvardija visas konkrečios komandos komandas arba rodo žinyną kartu su galimais parametrais.
 
 ``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``?``**``[command]``
 
 ##### <a name="-optional-parameters"></a>?: Pasirinktiniai parametrai
 
-`command`: Kur ``[command]`` yra viena iš žemiau nurodytų komandų.
+`command```[command]``: kur yra viena iš ankstesnio sąrašo komandų.
 
 #### <a name="about"></a>apie
 
-Rodoma dabartinė versija.
+Rodo įdiegto RSAT versiją.
 
 ``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``about``**
 
@@ -216,21 +219,57 @@ Išvalomas ekranas.
 
 #### <a name="download"></a>atsisiųsti
 
-Į išvesties katalogą atsiunčiami nurodyto testavimo atvejo priedai.
-Norėdami gauti visus galimus testavimo atvejus, galite naudoti komandą ``list``. Kaip **test_case_id** parametrą naudokite bet kokią vertę iš pirmojo stulpelio.
+Nurodyto tikrinimo atvejo priedai (įrašymas, vykdymas ir parametrų failai) atsisiunčiami iš Azure DevOps išvesties katalogo. Naudodami komandą galite gauti ``list`` visus galimų vykdyti bandymų atvejus ir naudoti bet kokią pirmojo stulpelio vertę kaip **test_case_id** parametrą.
 
-``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``download``**``[test_case_id] [output_dir]``
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``download``**``[/retry[=<seconds>]] [test_case_id] [output_dir]``
+
+##### <a name="download-optional-switches"></a>atsisiųsti: pasirinktiniai raktų
+
++ `/retry[=seconds]`: jei šis perjungimas yra nurodytas, o atvejo tikrinimo atvejus užblokuoja kiti RSAT egzemplioriai, atsisiuntimo procesas palauks nurodyto sekundžių skaičiaus ir bandykite dar kartą. Numatytoji sekundžių \[vertė\] yra 120 sekundžių. Jei nėra šio perjungimo, procesas bus atšauktas iš karto, jei bus užblokuoti bandymo atvejai.
 
 ##### <a name="download-required-parameters"></a>atsisiuntimas: būtini parametrai
 
 + `test_case_id`: Nurodo testavimo atvejo ID.
-+ `output_dir`: Nurodo išvesties katalogą. Katalogas privalo būti.
+
+##### <a name="download-optional-parameters"></a>atsisiųsti: nebūtini parametrai
+
++ `output_dir`: nurodo išvesties darbo katalogą. Katalogas privalo būti. Jei šis parametras nenurodytas, bus naudojamas parametrų darbo katalogas.
 
 ##### <a name="download-examples"></a>atsisiuntimas: pavyzdžiai
 
 `download 123 c:\temp\rsat`
 
-`download 765 c:\rsat\last`
+`download /retry=240 765`
+
+#### <a name="downloadsuite"></a>atsisiuntimas
+
+Iš išvesties katalogo atsisiunčia visų tikrinimo atvejų priedus (įrašymas, Azure DevOps vykdymas ir parametrų failai). Galite naudoti komandą norėdami ``listtestsuitenames`` gauti visus naudingus bandymus ir naudoti bet kokią vertę kaip **test_suite_name parametrą**.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``downloadsuite``**``[/retry[=<seconds>]] ([test_suite_name] | [/byid] [test_suite_id]) [output_dir]``
+
+##### <a name="downloadsuite-optional-switches"></a>Download atsisiųsti: pasirinktiniai raktų:
+
++ `/retry[=seconds]`: jei šis perjungimas yra nurodytas, o atvejo tikrinimo atvejus užblokuoja kiti RSAT egzemplioriai, atsisiuntimo procesas palauks nurodyto sekundžių skaičiaus ir bandykite dar kartą. Numatytoji sekundžių \[vertė\] yra 120 sekundžių. Jei nėra šio perjungimo, procesas bus atšauktas iš karto, jei bus užblokuoti bandymo atvejai.
++ `/byid`: šis perjungimas nurodo, kad pageidaujamas bandymų komplektas Azure DevOps identifikuojamas pagal jo ID, o ne bandymų komplekto pavadinimą.
+
+##### <a name="downloadsuite-required-parameters"></a>Download komplektas: būtini parametrai
+
++ `test_suite_name`: Nurodo testavimo paketo pavadinimą. Šis parametras reikalingas, jei nenurodytas perjungimas /byid **·**. Šis pavadinimas yra bandymų Azure DevOps komplekto pavadinimas.
++ `test_suite_id`: Nurodo testavimo paketo ID. Šis parametras reikalingas, jei nurodytas perjungimas / **byid**. Šis ID yra bandymų komplekto Azure DevOps ID.
+
+##### <a name="downloadsuite-optional-parameters"></a>Download komplektas: nebūtini parametrai
+
++ `output_dir`: nurodo išvesties darbo katalogą. Katalogas privalo būti. Jei šis parametras nenurodytas, bus naudojamas parametrų darbo katalogas.
+
+##### <a name="downloadsuite-examples"></a>Download komplektas: pavyzdžiai
+
+`downloadsuite NameOfTheSuite c:\temp\rsat`
+
+`downloadsuite /byid 123 c:\temp\rsat`
+
+`downloadsuite /retry=240 /byid 765`
+
+`downloadsuite /retry=240 /byid 765 c:\temp\rsat`
 
 #### <a name="edit"></a>redaguoti
 
@@ -244,7 +283,7 @@ Leidžia programoje „Excel“ atverti parametrų failą ir jį redaguoti.
 
 ##### <a name="edit-examples"></a>redagavimas: pavyzdžiai
 
-`edit c:\RSAT\TestCase_123_Base.xlsx`
+`edit c:\RSAT\123\TestCase_123_Base.xlsx`
 
 `edit e:\temp\TestCase_456_Base.xlsx`
 
@@ -252,24 +291,41 @@ Leidžia programoje „Excel“ atverti parametrų failą ir jį redaguoti.
 
 Išvesties kataloge sugeneruojami nurodyto testavimo atvejo testavimo vykdymo ir parametrų failai. Norėdami gauti visus galimus testavimo atvejus, galite naudoti komandą ``list``. Kaip **test_case_id** parametrą naudokite bet kokią vertę iš pirmojo stulpelio.
 
-``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``generate``**``[test_case_id] [output_dir]``
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``generate``**``[/retry[=<seconds>]] [/dllonly] [/keepcustomexcel] [test_case_id] [output_dir]``
+
+##### <a name="generate-optional-switches"></a>generuoti: pasirinktiniai raktų:
+
++ `/retry[=seconds]`: jei šis perjungimas yra nurodytas, o atvejo tikrinimo atvejus užblokuoja kiti RSAT egzemplioriai, generavimo procesas palauks nurodyto sekundžių skaičiaus ir bandykite dar kartą. Numatytoji sekundžių \[vertė\] yra 120 sekundžių. Jei nėra šio perjungimo, procesas bus atšauktas iš karto, jei bus užblokuoti bandymo atvejai.
++ `/dllonly`: generuoti tik tikrinimo vykdymo failus. Iš naujo negeneruokite "Excel" parametrų failo.
++ `/keepcustomexcel`: atnaujinkite esamą parametrų failą. Taip pat iš naujo generuoti vykdymo failus.
 
 ##### <a name="generate-required-parameters"></a>generavimas: būtini parametrai
 
 + `test_case_id`: Nurodo testavimo atvejo ID.
-+ `output_dir`: Nurodo išvesties katalogą. Katalogas privalo būti.
+
+##### <a name="generate-optional-parameters"></a>generuoti: nebūtini parametrai
+
++ `output_dir`: nurodo išvesties darbo katalogą. Katalogas privalo būti. Jei šis parametras nenurodytas, bus naudojamas parametrų darbo katalogas.
 
 ##### <a name="generate-examples"></a>generavimas: pavyzdžiai
 
 `generate 123 c:\temp\rsat`
 
-`generate 765 c:\rsat\last`
+`generate /retry=240 765 c:\rsat\last`
+
+`generate /retry=240 /dllonly 765`
+
+`generate /retry=240 /keepcustomexcel 765`
 
 #### <a name="generatederived"></a>generatederived
 
-Sugeneruojamas naujas testavimo atvejis, išvestas iš pateikto testavimo atvejo. Norėdami gauti visus galimus testavimo atvejus, galite naudoti komandą ``list``. Kaip **test_case_id** parametrą naudokite bet kokią vertę iš pirmojo stulpelio.
+Generuojamas naujas išvestas tikrinimo atvejis (antrinis tikrinimo atvejis) pateiktame tikrinimo atvejui. Naujas bandymų atvejis taip pat įtraukiamas į nurodytą bandymų komplektą. Naudodami komandą galite gauti ``list`` visus galimų vykdyti bandymų atvejus ir naudoti bet kokią pirmojo stulpelio vertę kaip **test_case_id** parametrą.
 
-``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``generatederived``**``[parent_test_case_id] [test_plan_id] [test_suite_id]``
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``generatederived``**``[/retry[=<seconds>]] [parent_test_case_id] [test_plan_id] [test_suite_id]``
+
+##### <a name="generatederived-optional-switches"></a>sugeneruotas: pasirinktinis perjungiamas
+
++ `/retry[=seconds]`: jei šis perjungimas yra nurodytas, o atvejo tikrinimo atvejus užblokuoja kiti RSAT egzemplioriai, generavimo procesas palauks nurodyto sekundžių skaičiaus ir bandykite dar kartą. Numatytoji sekundžių \[vertė\] yra 120 sekundžių. Jei nėra šio perjungimo, procesas bus atšauktas iš karto, jei bus užblokuoti bandymo atvejai.
 
 ##### <a name="generatederived-required-parameters"></a>sugeneruota: būtini parametrai
 
@@ -281,39 +337,63 @@ Sugeneruojamas naujas testavimo atvejis, išvestas iš pateikto testavimo atvejo
 
 `generatederived 123 8901 678`
 
+`generatederived /retry 123 8901 678`
+
 #### <a name="generatetestonly"></a>generatetestonly
 
-Išvesties kataloge sugeneruojamas tik nurodyto testavimo atvejo testavimo vykdymo failas. Norėdami gauti visus galimus testavimo atvejus, galite naudoti komandą ``list``. Kaip **test_case_id** parametrą naudokite bet kokią vertę iš pirmojo stulpelio.
+Generuoja tik nurodyto tikrinimo atvejo tikrinimo vykdymo failus. Jis negeneruoja "Excel" parametrų failo. Failai generuojami nurodytame išvesties kataloge. Naudodami komandą galite gauti ``list`` visus galimų vykdyti bandymų atvejus ir naudoti bet kokią pirmojo stulpelio vertę kaip **test_case_id** parametrą.
 
-``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``generatetestonly``**``[test_case_id] [output_dir]``
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``generatetestonly``**``[/retry[=<seconds>]] [test_case_id] [output_dir]``
+
+##### <a name="generatetestonly-optional-switches"></a>generatetestonly: pasirinktinis perjungiamas
+
++ `/retry[=seconds]`: jei šis perjungimas yra nurodytas, o atvejo tikrinimo atvejus užblokuoja kiti RSAT egzemplioriai, generavimo procesas palauks nurodyto sekundžių skaičiaus ir bandykite dar kartą. Numatytoji sekundžių \[vertė\] yra 120 sekundžių. Jei nėra šio perjungimo, procesas bus atšauktas iš karto, jei bus užblokuoti bandymo atvejai.
 
 ##### <a name="generatetestonly-required-parameters"></a>tik generavimo testavimas: būtini parametrai
 
 + `test_case_id`: Nurodo testavimo atvejo ID.
-+ `output_dir`: Nurodo išvesties katalogą. Katalogas privalo būti.
+
+##### <a name="generatetestonly-optional-parameters"></a>generatetestonly: nebūtini parametrai
+
++ `output_dir`: nurodo išvesties darbo katalogą. Katalogas privalo būti. Jei šis parametras nenurodytas, bus naudojamas parametrų darbo katalogas.
 
 ##### <a name="generatetestonly-examples"></a>tik generavimo testavimas: pavyzdžiai
 
 `generatetestonly 123 c:\temp\rsat`
 
-`generatetestonly 765 c:\rsat\last`
+`generatetestonly /retry=240 765`
 
 #### <a name="generatetestsuite"></a>generatetestsuite
 
-Išvesties kataloge sugeneruojami visi nurodyto paketo testavimo atvejai. Norėdami gauti visus galimus testavimo paketus, galite naudoti komandą ``listtestsuitenames``. Kaip **test_suite_name** parametrą naudokite bet kokią vertę iš stulpelio.
+Generuoja visų tikrinimo atvejų tikrinimo automatizavimo failus nurodytame tikrinimo komplekte. Galite naudoti komandą norėdami ``listtestsuitenames`` gauti visus naudingus bandymus ir naudoti bet kokią vertę kaip **test_suite_name parametrą**.
 
-``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``generatetestsuite``**``[test_suite_name] [output_dir]``
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``generatetestsuite``**``[/retry[=<seconds>]] [/dllonly] [/keepcustomexcel] ([test_suite_name] | [/byid] [test_suite_id]) [output_dir]``
+
+##### <a name="generatetestsuite-optional-switches"></a>Generatetest tarp: pasirinktiniai raktai
+
++ `/retry[=seconds]`: jei šis perjungimas yra nurodytas, o atvejo tikrinimo atvejus užblokuoja kiti RSAT egzemplioriai, generavimo procesas palauks nurodyto sekundžių skaičiaus ir bandykite dar kartą. Numatytoji sekundžių \[vertė\] yra 120 sekundžių. Jei nėra šio perjungimo, procesas bus atšauktas iš karto, jei bus užblokuoti bandymo atvejai.
++ `/dllonly`: generuoti tik tikrinimo vykdymo failus. Iš naujo negeneruokite "Excel" parametrų failo.
++ `/keepcustomexcel`: atnaujinkite esamą parametrų failą. Taip pat iš naujo generuoti vykdymo failus.
++ `/byid`: šis perjungimas nurodo, kad pageidaujamas bandymų komplektas Azure DevOps identifikuojamas pagal jo ID, o ne bandymų komplekto pavadinimą.
 
 ##### <a name="generatetestsuite-required-parameters"></a>generavimo testo programų paketas: būtini parametrai
 
-+ `test_suite_name`: Nurodo testavimo paketo pavadinimą.
-+ `output_dir`: Nurodo išvesties katalogą. Katalogas privalo būti.
++ `test_suite_name`: Nurodo testavimo paketo pavadinimą. Šis parametras reikalingas, jei nenurodytas perjungimas /byid **·**. Šis pavadinimas yra bandymų Azure DevOps komplekto pavadinimas.
++ `test_suite_id`: Nurodo testavimo paketo ID. Šis parametras reikalingas, jei nurodytas perjungimas / **byid**. Šis ID yra bandymų komplekto Azure DevOps ID.
+
+##### <a name="generatetestsuite-optional-parameters"></a>Generatetest tarp: nebūtini parametrai
+
++ `output_dir`: nurodo išvesties darbo katalogą. Katalogas privalo būti. Jei šis parametras nenurodytas, bus naudojamas parametrų darbo katalogas.
 
 ##### <a name="generatetestsuite-examples"></a>generavimo testavimo programų paketas: pavyzdžiai
 
 `generatetestsuite Tests c:\temp\rsat`
 
-`generatetestsuite Purchase c:\rsat\last`
+`generatetestsuite /retry Purchase c:\rsat\last`
+
+`generatetestsuite /dllonly /byid 121`
+
+`generatetestsuite /keepcustomexcel /byid 121`
 
 #### <a name="help"></a>pagalba
 
@@ -321,7 +401,7 @@ Identiška elementui [?](#section) komanda.
 
 #### <a name="list"></a>sąrašas
 
-Išvardijami visi galimi testavimo atvejai.
+Išvarditi visi galimi dabartinio tikrinimo plano bandymų atvejai.
 
 ``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``list``**
 
@@ -333,13 +413,13 @@ Išvardijami visi galimi testavimo planai.
 
 #### <a name="listtestsuite"></a>listtestsuite
 
-Išvardijami nurodyto testavimo paketo testavimo atvejai. Norėdami gauti visus galimus testavimo paketus, galite naudoti komandą ``listtestsuitenames``. Kaip **suite_name** parametrą naudokite bet kokią vertę iš pirmojo stulpelio.
+Išvardijami nurodyto testavimo paketo testavimo atvejai. Galite naudoti komandą, ``listtestsuitenames`` norėdami gauti visus naudingus testus ir naudoti bet kokią sąrašo vertę kaip **suite_name** parametrą.
 
-``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``listtestsuite``**``[suite_name]``
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``listtestsuite``**``[test_suite_name]``
 
 ##### <a name="listtestsuite-required-parameters"></a>sąrašo testavimo programų paketas: būtini parametrai
 
-+ `suite_name`: Norimo paketo pavadinimas.
++ `test_suite_name`: norimo komplekto pavadinimas.
 
 ##### <a name="listtestsuite-examples"></a>sąrašo testavimo programų paketas: pavyzdžiai
 
@@ -347,39 +427,67 @@ Išvardijami nurodyto testavimo paketo testavimo atvejai. Norėdami gauti visus 
 
 `listtestsuite NameOfTheSuite`
 
+#### <a name="listtestsuitebyid"></a>listtesttesttestbyid
+
+Išvardijami nurodyto testavimo paketo testavimo atvejai.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``listtestsuitebyid``**``[test_suite_id]``
+
+##### <a name="listtestsuitebyid-required-parameters"></a>listtesttesttestbyid: būtini parametrai
+
++ `test_suite_id`: norimo komplekto ID.
+
+##### <a name="listtestsuitebyid-examples"></a>listtesttesttestbyid: pavyzdžiai
+
+`listtestsuitebyid 12345`
+
 #### <a name="listtestsuitenames"></a>listtestsuitenames
 
-Išvardijami visi galimi testavimo paketai.
+Išvarditi visi galimi dabartinio tikrinimo plano testai.
 
 ``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``listtestsuitenames``**
 
 #### <a name="playback"></a>atkūrimas
 
-Atkuriamas testavimo atvejis naudojant „Excel“ failą.
+Grįžta į tikrinimo atvejį, susijusį su nurodytu "Excel" parametrų failu. Ši komanda naudoja esamus vietinio automatizavimo failus ir neišsiųstų failų iš Azure DevOps. Ši komanda nepalaikoma EKA "Commerce" tikrinimo atvejams.
 
-``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``playback``**``[excel_file]``
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``playback``**``[/retry[=<seconds>]] [/comments[="comment"]] [excel_parameter_file]``
+
+##### <a name="playback-optional-switches"></a>:: pasirinktiniai raktų režimai
+
++ `/retry[=seconds]`: jei šis perjungimas yra nurodytas, o atvejo tikrinimo atvejus užblokuoja kiti RSAT egzemplioriai, paleidimo procesas palauks nurodyto sekundžių skaičiaus ir bandykite dar kartą. Numatytoji sekundžių \[vertė\] yra 120 sekundžių. Jei nėra šio perjungimo, procesas bus atšauktas iš karto, jei bus užblokuoti bandymo atvejai.
++ `/comments[="comment"]`: pateikti pasirinktinę informacijos eilutę, kuri bus įtraukta į **suvestinės** komentarų lauką ir tikrinimo rezultatų puslapius, skirti tikrinimo Azure DevOps atvejui.
 
 ##### <a name="playback-required-parameters"></a>atkūrimas: būtini parametrai
 
-+ `excel_file`: Visas kelias iki „Excel“ failo. Failas privalo būti.
++ `excel_parameter_file`: visas Excel parametrų failo maršrutas. Failas turi būti.
 
 ##### <a name="playback-examples"></a>atkūrimas: pavyzdžiai
 
-`playback c:\RSAT\TestCaseParameters\sample1.xlsx`
+`playback c:\RSAT\2745\attachments\Create_Purchase_Order_2745_Base.xlsx`
 
-`playback e:\temp\test.xlsx`
+`playback /retry e:\temp\test.xlsx`
+
+`playback /retry=300 e:\temp\test.xlsx`
+
+`playback /comments="Payroll solution 10.0.0" e:\temp\test.xlsx`
 
 #### <a name="playbackbyid"></a>playbackbyid
 
-Vienu metu atkuriami keli testavimo atvejai. Norėdami gauti visus galimus testavimo atvejus, galite naudoti komandą ``list``. Kaip **test_case_id** parametrą naudokite bet kokią vertę iš pirmojo stulpelio.
+Kurkite kelis tikrinimo atvejus vienu metu. Bandymo atvejai identifikuojami pagal jų ID. Ši komanda atsisiųs failus iš Azure DevOps. Galite naudoti komandą visiems ``list`` galimams tikrinimo atvejams **gauti ir bet kurias pirmojo stulpelio vertes naudoti kaip test_case_id** parametrą.
 
-``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``playbackbyid``**``[test_case_id1] [test_case_id2] ... [test_case_idN]``
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``playbackbyid``**``[/retry[=<seconds>]] [/comments[="comment"]] [test_case_id1] [test_case_id2] ... [test_case_idN]``
+
+##### <a name="playbackbyid-optional-switches"></a>"/ibyid:" pasirinktinis perjungiamas
+
++ `/retry[=seconds]`: jei šis perjungimas yra nurodytas, o atvejo tikrinimo atvejus užblokuoja kiti RSAT egzemplioriai, paleidimo procesas palauks nurodyto sekundžių skaičiaus ir bandykite dar kartą. Numatytoji sekundžių \[vertė\] yra 120 sekundžių. Jei nėra šio perjungimo, procesas bus atšauktas iš karto, jei bus užblokuoti bandymo atvejai.
++ `/comments[="comment"]`: pateikti pasirinktinę informacijos eilutę, kuri bus įtraukta į **suvestinės** komentarų lauką ir tikrinimo rezultatų puslapius, skirti tikrinimo Azure DevOps atvejui.
 
 ##### <a name="playbackbyid-required-parameters"></a>atkūrimas pagal ID: būtini parametrai
 
-+ `test_case_id1`: Esamo testavimo atvejo ID.
-+ `test_case_id2`: Esamo testavimo atvejo ID.
-+ `test_case_idN`: Esamo testavimo atvejo ID.
++ `test_case_id1`: esamo tikrinimo atvejo ID.
++ `test_case_id2`: esamo tikrinimo atvejo ID.
++ `test_case_idN`: esamo tikrinimo atvejo ID.
 
 ##### <a name="playbackbyid-examples"></a>atkūrimas pagal ID: pavyzdžiai
 
@@ -387,75 +495,132 @@ Vienu metu atkuriami keli testavimo atvejai. Norėdami gauti visus galimus testa
 
 `playbackbyid 2345 667 135`
 
+`playbackbyid /comments="Payroll solution 10.0.0" 2345 667 135`
+
+`playbackbyid /retry /comments="Payroll solution 10.0.0" 2345 667 135`
+
 #### <a name="playbackmany"></a>daugelio atkūrimas
 
-Naudojant „Excel“ failus vienu metu atkuriama daug testavimo atvejų.
+Vienu metu atlieka daug bandymų atvejų atgal. Bandymo atvejai identifikuojami pagal Excel parametrų failus. Ši komanda naudoja esamus vietinio automatizavimo failus ir neišsiųstų failų iš Azure DevOps.
 
-``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``playbackmany``**``[excel_file1] [excel_file2] ... [excel_fileN]``
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``playbackmany``**``[/retry[=<seconds>]] [/comments[="comment"]] [excel_parameter_file1] [excel_parameter_file2] ... [excel_parameter_fileN]``
+
+##### <a name="playbackmany-optional-switches"></a>:- pasirinktinis perjungia
+
++ `/retry[=seconds]`: jei šis perjungimas yra nurodytas, o atvejo tikrinimo atvejus užblokuoja kiti RSAT egzemplioriai, paleidimo procesas palauks nurodyto sekundžių skaičiaus ir bandykite dar kartą. Numatytoji sekundžių \[vertė\] yra 120 sekundžių. Jei nėra šio perjungimo, procesas bus atšauktas iš karto, jei bus užblokuoti bandymo atvejai.
++ `/comments[="comment"]`: pateikti pasirinktinę informacijos eilutę, kuri bus įtraukta į **suvestinės** komentarų lauką ir tikrinimo rezultatų puslapius, skirti tikrinimo Azure DevOps atvejui.
 
 ##### <a name="playbackmany-required-parameters"></a>daugelio atkūrimas: būtini parametrai
 
-+ `excel_file1`: Visas kelias iki „Excel“ failo. Failas privalo būti.
-+ `excel_file2`: Visas kelias iki „Excel“ failo. Failas privalo būti.
-+ `excel_fileN`: Visas kelias iki „Excel“ failo. Failas privalo būti.
++ `excel_parameter_file1`: visas "Excel" parametrų failo maršrutas. Failas turi būti.
++ `excel_parameter_file2`: visas "Excel" parametrų failo maršrutas. Failas turi būti.
++ `excel_parameter_fileN`: visas "Excel" parametrų failo maršrutas. Failas turi būti.
 
 ##### <a name="playbackmany-examples"></a>daugelio atkūrimas: pavyzdžiai
 
-`playbackmany c:\RSAT\TestCaseParameters\param1.xlsx`
+`playbackmany c:\RSAT\2745\attachments\Create_Purchase_Order_2745_Base.xlsx`
 
-`playbackmany e:\temp\test.xlsx f:\rsat\sample1.xlsx c:\RSAT\sample2.xlsx`
+`playbackmany e:\temp\test.xlsx f:\RSAT\sample1.xlsx c:\RSAT\sample2.xlsx`
+
+`playbackmany /retry=180 /comments="Payroll solution 10.0.0" e:\temp\test.xlsx f:\rsat\sample1.xlsx c:\RSAT\sample2.xlsx`
 
 #### <a name="playbacksuite"></a>atkūrimo programų paketas
 
-Atkuriami visi testavimo atvejai iš nurodyto testavimo paketo.
-Norėdami gauti visus galimus testavimo paketus, galite naudoti komandą ``listtestsuitenames``. Kaip **suite_name** parametrą naudokite bet kokią vertę iš pirmojo stulpelio.
+Atlieka visų bandymų atvejus iš vieno ar daugiau nurodytų bandymų dar. Jei yra nurodytas /local switch, vietoje bus naudojami vietiniai priedai. Kitaip priedai bus atsisiųsti iš Azure DevOps. Galite naudoti komandą, ``listtestsuitenames`` norėdami gauti visus naudingus testus ir naudoti bet kokią pirmojo stulpelio vertę, kaip **suite_name** parametrą.
 
-``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``playbacksuite``**``[suite_name]``
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``playbacksuite``**``[/updatedriver] [/local] [/retry[=<seconds>]] [/comments[="comment"]] ([test_suite_name1] .. [test_suite_nameN] | [/byid] [test_suite_id1] .. [test_suite_idN])``
+
+##### <a name="playbacksuite-optional-switches"></a>Papildomais perjungikliais
+
++ `/updatedriver`: jei šis perjungimas nurodytas, interneto naršyklės webininkas bus atnaujintas pagal reikalingų veiksmų procesą.
++ `/local`: šis perjungimas nurodo, kad vietoj failų atsisiuntimo iš turi būti naudojami vietiniai priedai Azure DevOps.
++ `/retry[=seconds]`: jei šis perjungimas yra nurodytas, o atvejo tikrinimo atvejus užblokuoja kiti RSAT egzemplioriai, paleidimo procesas palauks nurodyto sekundžių skaičiaus ir bandykite dar kartą. Numatytoji sekundžių \[vertė\] yra 120 sekundžių. Jei nėra šio perjungimo, procesas bus atšauktas iš karto, jei bus užblokuoti bandymo atvejai.
++ `/comments[="comment"]`: pateikti pasirinktinę informacijos eilutę, kuri bus įtraukta į **suvestinės** komentarų lauką ir tikrinimo rezultatų puslapius, skirti tikrinimo Azure DevOps atvejui.
++ `/byid`: šis perjungimas nurodo, kad pageidaujamas bandymų komplektas Azure DevOps identifikuojamas pagal jo ID, o ne bandymų komplekto pavadinimą.
 
 ##### <a name="playbacksuite-required-parameters"></a>atkūrimo programų paketas: būtini parametrai
 
-+ `suite_name`: Norimo paketo pavadinimas.
++ `test_suite_name1`: Nurodo testavimo paketo pavadinimą. Šis parametras reikalingas, jei nenurodytas perjungimas /byid **·**. Šis pavadinimas yra bandymų Azure DevOps komplekto pavadinimas.
++ `test_suite_nameN`: Nurodo testavimo paketo pavadinimą. Šis parametras reikalingas, jei nenurodytas perjungimas /byid **·**. Šis pavadinimas yra bandymų Azure DevOps komplekto pavadinimas.
++ `test_suite_id1`: Nurodo testavimo paketo ID. Šis parametras reikalingas, jei nurodytas perjungimas / **byid**. Šis ID yra bandymų komplekto Azure DevOps ID.
++ `test_suite_idN`: Nurodo testavimo paketo ID. Šis parametras reikalingas, jei nurodytas perjungimas / **byid**. Šis ID yra bandymų komplekto Azure DevOps ID.
 
 ##### <a name="playbacksuite-examples"></a>atkūrimo programų paketas: pavyzdžiai
 
 `playbacksuite suiteName`
 
-`playbacksuite sample_suite`
+`playbacksuite suiteName suiteNameToo`
+
+`playbacksuite /updatedriver /local /retry=180 /byid 151 156`
+
+`playbacksuite /updatedriver /local /comments="Payroll solution 10.0.0" /byid 150`
+
+#### <a name="playbacksuitebyid"></a>d.d.
+
+Paleidžia visus bandymų atvejus nurodytame bandymų Azure DevOps komplekte.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``playbacksuitebyid``**``[/updatedriver] [/local] [/retry[=<seconds>]] [/comments[="comment"]] [test_suite_id]``
+
+##### <a name="playbacksuitebyid-optional-switches"></a>"twitter"byid: pasirinktinis perjungiamas
+
++ `/retry[=seconds]`: jei šis perjungimas yra nurodytas, o atvejo tikrinimo atvejus užblokuoja kiti RSAT egzemplioriai, paleidimo procesas palauks nurodyto sekundžių skaičiaus ir bandykite dar kartą. Numatytoji sekundžių \[vertė\] yra 120 sekundžių. Jei nėra šio perjungimo, procesas bus atšauktas iš karto, jei bus užblokuoti bandymo atvejai.
++ `/comments[="comment"]`: pateikti pasirinktinę informacijos eilutę, kuri bus įtraukta į **suvestinės** komentarų lauką ir tikrinimo rezultatų puslapius, skirti tikrinimo Azure DevOps atvejui.
++ `/byid`: šis perjungimas nurodo, kad pageidaujamas bandymų komplektas Azure DevOps identifikuojamas pagal jo ID, o ne bandymų komplekto pavadinimą.
+
+##### <a name="playbacksuitebyid-required-parameters"></a>"twitter"byid: būtini parametrai
+
++ `test_suite_id`: nurodo bandymų komplekto ID, kuris yra Azure DevOps.
+
+##### <a name="playbacksuitebyid-examples"></a>Irbąs subyid: pavyzdžiai
+
+`playbacksuitebyid 2900`
+
+`playbacksuitebyid /retry 2099`
+
+`playbacksuitebyid /retry=200 2099`
+
+`playbacksuitebyid /retry=200 /comments="some comment" 2099`
 
 #### <a name="quit"></a>uždarymas
 
-Uždaroma programa.
+Uždaro programą. Ši komanda naudinga tik tada, kai programos veikia interaktyviu režimu.
 
 ``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``quit``**
 
+##### <a name="quit-examples"></a>išjunkite: pavyzdžiai
+
+`quit`
+
 #### <a name="upload"></a>nusiuntimas
 
-Nusiunčiami visi nurodyto testavimo paketo ar testavimo atvejų failai.
+Įkeliami priedų failai (įrašymas, vykdymas ir parametrų failai), kurie priklauso nurodytam tikrinimo komplektui arba bandymų atvejams Azure DevOps.
 
-``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``upload``**``[suite_name] [testcase_id]``
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``upload``**``([test_suite_name] | [test_case_id1] .. [test_case_idN])``
 
-#### <a name="upload-required-parameters"></a>nusiuntimas: būtini parametrai
+##### <a name="upload-required-parameters"></a>nusiuntimas: būtini parametrai
 
-+ `suite_name`: Bus nusiųsti visi nurodyto testavimo paketo failai.
-+ `testcase_id`: Bus nusiųsti visi nurodyto (-ų) testavimo atvejo (-ų) failai.
++ `test_suite_name`: bus įkelti visi nurodytam bandymų komplektui priklausantys failai.
++ `test_case_id1`: nurodo pirmojo tikrinimo atvejo ID, kurį reikia įkelti. Šį parametrą naudokite tik tada, kai pateikiamas joks bandymų komplekto pavadinimas.
++ `test_case_idN`: pateikiamas paskutinio tikrinimo atvejo ID, kurį reikia įkelti. Šį parametrą naudokite tik tada, kai pateikiamas joks bandymų komplekto pavadinimas.
 
 ##### <a name="upload-examples"></a>nusiuntimas: pavyzdžiai
 
 `upload sample_suite`
 
-`upload 123`
+`upload 2900`
 
 `upload 123 456`
 
 #### <a name="uploadrecording"></a>uploadrecording
 
-Nusiunčiamas tik nurodytų testavimo atvejų įrašo failas.
+Įkelia tik įrašymo failą, kuris priklauso vienam ar daugiau nurodytų tikrinimo atvejų Azure DevOps.
 
-``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``uploadrecording``**``[testcase_id]``
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``uploadrecording``**``[test_case_id1] .. [test_case_idN]``
 
 ##### <a name="uploadrecording-required-parameters"></a>įrašo nusiuntimas: būtini parametrai
 
-+ `testcase_id`: Bus nusiųstas nurodytų testavimo atvejų įrašo failas.
++ `test_case_id1`: nurodo pirmojo tikrinimo atvejo ID, skirtas įrašui, kuris turi būti įkeltas į Azure DevOps.
++ `test_case_idN`: pateikiamas paskutinio tikrinimo atvejo ID, skirtas įrašui, į kurį reikia įkelti Azure DevOps.
 
 ##### <a name="uploadrecording-examples"></a>įrašo nusiuntimas: pavyzdžiai
 
@@ -465,9 +630,21 @@ Nusiunčiamas tik nurodytų testavimo atvejų įrašo failas.
 
 #### <a name="usage"></a>naudojimas
 
-Rodomi du būdai, kaip iškviesti šią programą: naudojant numatytąjį parametrų failą arba pateikiant parametrų failą.
+Rodomi trys šios programos naudojimo būdai.
 
 ``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``usage``**
+
+Interaktyviai veikia programa:
+
++ ``Microsoft.Dynamics.RegressionSuite.ConsoleApp``
+
+Veikia programa, nurodant komandą:
+
++ ``Microsoft.Dynamics.RegressionSuite.ConsoleApp ``**``[command]``**
+
+Veikia programa, pateikdami parametrų failą:
+
++ ``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``/settings [drive:\Path to\file.settings] [command]``**
 
 ### <a name="windows-powershell-examples"></a>„Windows PowerShell“ pavyzdžiai
 

@@ -1,8 +1,8 @@
 ---
-title: Grupuokite įrašus ir apibendrinkite skaičiavimus naudodami GROUPBY duomenų šaltinius
+title: Grupuoti įrašus ir sujungti skaičiavimus naudojant GROUPBY duomenų šaltinius
 description: Šioje temoje paaiškinama, kaip galite naudoti GROUPBY tipo duomenų šaltinius elektroninėse ataskaitose (ER).
 author: NickSelin
-ms.date: 01/31/2022
+ms.date: 03/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,262 +15,260 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5a6cdc486c5f799bdedafa38e90be989fd328c96
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: 3b79dfe62122a031ae9ed7f51ea7ff578cd47358
+ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8075756"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "8462303"
 ---
-# <a name="group-records-and-aggregate-calculations-by-using-groupby-data-sources"></a>Grupuokite įrašus ir apibendrinkite skaičiavimus naudodami GROUPBY duomenų šaltinius
+# <a name="group-records-and-aggregate-calculations-by-using-groupby-data-sources"></a>Grupuoti įrašus ir sujungti skaičiavimus naudojant GROUPBY duomenų šaltinius
 
 [!include[banner](../includes/banner.md)]
 
-[!include[banner](../includes/preview-banner.md)]
+Konfigūruodami elektroninių [ataskaitų (ER) modelių](general-electronic-reporting.md) susiejimus ar formatus, [galite](#AddMmDataSource2) pridėti reikalingus GroupBy tipo **duomenų šaltinius**.
 
-Kai konfigūruojate [Elektroninis ataskaitų teikimas (ER)](general-electronic-reporting.md) modelių atvaizdus ar formatus, galite [papildyti](#AddMmDataSource2) būtini duomenų šaltiniai **Grupuoti pagal** tipo.
+Dizaino metu GroupBy **duomenų** šaltinis konfigūruojamas, kad būtų galima identifikuoti šiuos elementus:
 
-Projektavimo metu a **Grupuoti pagal** duomenų šaltinis sukonfigūruotas taip, kad nustatytų šiuos elementus:
+- Pagrindinis [duomenų šaltinis,](#BaseDataSource) kuriame yra įrašai, kurie bus sugrupuoti vykdyklėje
+- [Pagrindinio duomenų](#GroupingFields) šaltinio grupavimo laukai, kurie bus naudojami grupuojant įrašus apdorojimo laiku
+- [Sujungti funkcijas](#AggregateFunctions), kurios nurodo sudėtiius skaičiavimus, kurie bus atliekami kiekvienai rastai grupei vykdyklėje
 
-- A [bazinis duomenų šaltinis](#BaseDataSource) kuriame yra įrašų, kurie bus sugrupuoti vykdymo metu
-- [Laukų grupavimas](#GroupingFields) bazinio duomenų šaltinio, kuris bus naudojamas įrašų grupavimui vykdymo metu
-- [Suvestinės funkcijos](#AggregateFunctions) kurie nurodo bendrus skaičiavimus, kurie bus atlikti kiekvienai aptiktai grupei vykdymo metu
+Apdorojimo metu sukonfigūruoti **GroupBy duomenų** šaltinio grupių įrašai, kurių vertės grupavimo laukuose yra vienodos, tada pateikiamas įrašų sąrašas. Kiekvienas įrašas vaizduoja vieną grupę. Kiekvienos grupės duomenų šaltinis rodo lauko vertes, pagal kurias buvo sugrupuoti pradiniai įrašai, apskaičiuotos sudėties funkcijos vertes ir pagrindinių duomenų šaltinio įrašų, kurie priklauso grupei, sąrašą.
 
-Vykdymo metu sukonfigūruotas **Grupuoti pagal** duomenų šaltinis sugrupuoja įrašus, kurių grupavimo laukuose yra tos pačios reikšmės, ir grąžina įrašų sąrašą. Kiekvienas įrašas reiškia vieną grupę. Kiekvienos grupės duomenų šaltinis pateikia laukų reikšmes, pagal kurias buvo sugrupuoti pradiniai įrašai, apskaičiuotų suvestinių funkcijų reikšmes ir grupei priklausančio bazinio duomenų šaltinio įrašų sąrašą.
+## <a name="aggregate-functions"></a><a name="AggregateFunctions"></a> Sujungti funkcijas
 
-## <a name="aggregate-functions"></a><a name="AggregateFunctions"></a> Suvestinės funkcijos
+Vykdomas kiekvienas kiekvienos įrašų grupės sudėties skaičiavimas vykdymo metu. Šis skaičiavimas **atliekamas naudojant vieno lauko arba išraiškos vertę duomenų šaltinio, kuris buvo pasirinktas grupuoti redaguojamame GroupBy tipo duomenų šaltinyje, įrašuose**. Šios suminės funkcijos šiuo metu palaikomos:
 
-Vykdymo metu kiekvienas suvestinis skaičiavimas atliekamas kiekvienai įrašų grupei. Šis skaičiavimas atliekamas naudojant vieno lauko reikšmę arba išraišką duomenų šaltinio įrašuose, kurie buvo pasirinkti grupuoti redaguojamo duomenų šaltinio duomenų šaltinyje.**Grupuoti pagal** tipo. Šiuo metu palaikomos šios suvestinės funkcijos:
-
-- **AVG** – Ši funkcija grąžina grupės reikšmių vidurkį. Jį galima naudoti tik su skaitiniais laukais.
-- **SKAIČIUOTI** – Ši funkcija grąžina elementų, kurie buvo rasti grupėje, skaičių.
-- **Min** – Ši funkcija grąžina mažiausią reikšmę tarp reikšmių grupėje.
-- **Maks** – Ši funkcija grąžina didžiausią reikšmę tarp reikšmių grupėje.
-- **SUMA** – Ši funkcija grąžina visų grupės reikšmių sumą. Jį galima naudoti tik su skaitiniais laukais.
+- **AVG** – ši funkcija grąžina grupės verčių vidurkį. Gali būti naudojamas tik su skaitiniais laukais.
+- **SKAIČIUS** – ši funkcija grąžina prekių, kurios buvo grupę surasta, skaičių.
+- **Min** . – ši funkcija grąžina minimalią vertę tarp grupės verčių.
+- **Maks** . – ši funkcija grąžina maksimalią vertę tarp grupės verčių.
+- **SUMA** – ši funkcija grąžina visų grupės verčių sumą. Gali būti naudojamas tik su skaitiniais laukais.
 
 ## <a name="execution-location"></a><a name="ExecutionLocation"></a>Vykdymo vieta
 
-Kai redaguojate a **Grupuoti pagal** duomenų šaltinį ir nurodykite bazinį duomenų šaltinį, kuriame yra įrašai, kurie turi būti sugrupuoti, sistema automatiškai nustato efektyviausią [vieta](#ExecutionLocation) to įvykdymui **Grupuoti pagal** duomenų šaltinis. Jei bazinis duomenų šaltinis yra [galima paklausti](er-functions-list-filter.md#usage-notes) (ty jei ją galima paleisti duomenų bazės lygiu), programos duomenų bazė taip pat nurodoma kaip redaguojamo failo vykdymo vieta **Grupuoti pagal** duomenų šaltinis. Kitu atveju programos serverio atmintis nurodoma kaip vykdymo vieta.
+Kai redaguojate **GroupBy** duomenų šaltinį ir nurodote duomenų šaltinį, kuriame yra įrašai, kuriuos reikia sugrupuoti, [...](#ExecutionLocation)**sistema automatiškai aptinka efektyviiausią vietą, kad būtų galima vykdyti GroupBy** duomenų šaltinį. Jei pagrindinis [duomenų](er-functions-list-filter.md#usage-notes) šaltinis yra užklausuojamas (t. y., jei jį galima paleisti duomenų bazės lygiu), **programos duomenų bazė taip pat nurodoma kaip redaguojamo GroupBy** duomenų šaltinio vykdymo vieta. Kitu atveju programos serverio atmintis nurodoma kaip vykdymo vieta.
 
-Galite rankiniu būdu pakeisti automatiškai aptiktą vykdymo vietą, pasirinkdami vietą, kuri tinka sukonfigūruotam duomenų šaltiniui. Jei pasirinkta vykdymo vieta netinka, a [patvirtinimo klaida](er-components-inspections.md#i5) yra metamas projektavimo metu.
+Galite rankiniu būdu pakeisti automatiškai aptiktą vykdymo vietą pasirinkdami vietą, kuri taikoma sukonfigūruotiems duomenų šaltinyje. Jei pasirinkta vykdymo vieta netaikoma, dizaino [metu](er-components-inspections.md#i5) rodoma tikrinimo klaida.
 
 > [!TIP]
-> Rekomenduojame naudoti duomenų bazės vietą duomenų šaltiniams, kuriuose yra daug įrašų, sugrupuoti.
+> Duomenų bazės vietą rekomenduojame naudoti duomenų šaltiniams, kurie rodo didelį įrašų skaičių, grupuoti.
 
 ## <a name="memory-consumption"></a><a name="MemoryConsumption"></a> Atminties suvartojimas
 
-Pagal numatytuosius nustatymus, jei a **Grupuoti pagal** duomenų šaltinis paleidžiamas atmintyje, taikomųjų programų serverio atmintis naudojama bazinio duomenų šaltinio, priklausančio kiekvienai aptiktai grupei, įrašams saugoti kaip vienos grupės įrašams. Norėdami sumažinti atminties suvartojimą, galite neleisti saugoti įrašų **Grupuoti pagal** duomenų šaltinius, jei jie buvo sukonfigūruoti skaičiuoti tik apibendrintas funkcijas, o jų grupės įrašai nenaudojami vykdymo metu. Norėdami tokiu būdu sumažinti atminties suvartojimą, įjunkite **Sumažinkite atminties naudojimą ER, kai įrašų grupavimas naudojamas tik agregacijai apskaičiuoti** funkcija **Funkcijų valdymas** darbo vieta.
+Pagal numatytuosius nustatymus, **jei GroupBy** duomenų šaltinis yra paleistas atmintyje, programos serverio atmintis naudojama pagrindinio duomenų šaltinio, kuris priklauso kiekvienai aptiktai grupei kaip vienos grupės įrašai, įrašams saugoti. Norėdami sumažinti atminties suvartojimą, galite sulaikyti GroupBy **duomenų šaltinių įrašų saugojimą,** jei jie sukonfigūruoti skaičiuoti tik susudėtas funkcijas, o jų grupės įrašai apdorojimo laiku nenaudojami. Norėdami tokiu būdu sumažinti atminties suvartojimą, įgalinkite **ER** **naudoti mažiau atminties,** kai įrašų grupavimas naudojamas tik telkimo funkcijai, esančiai funkcijų valdymo darbo srityje, apskaičiuoti.
 
-## <a name="alternatives"></a><a name="Alternatives"></a> Alternatyvos
+## <a name="alternatives"></a><a name="Alternatives"></a> Alternatyvų
 
-Panašius suminius galima apskaičiuoti naudojant [skirtinga](er-data-collection-data-sources.md#if-i-have-to-calculate-running-totals-and-collect-data-what-is-the-difference-between-using-a-data-collection-data-source-and-using-the-built-in-data-collection-functions) duomenų šaltinių tipai arba ER integruotos funkcijos.
+Panašius telkimus galima apskaičiuoti naudojant [skirtingų](er-data-collection-data-sources.md#if-i-have-to-calculate-running-totals-and-collect-data-what-is-the-difference-between-using-a-data-collection-data-source-and-using-the-built-in-data-collection-functions) tipų duomenų šaltinius arba ER įdiegtas funkcijas.
 
 Norėdami daugiau sužinoti apie šią funkciją, atlikite toliau pateiktą pavyzdį.
 
-## <a name="example-use-a-groupby-data-source-for-aggregate-calculations-and-record-grouping"></a><a name="Example"></a> Pavyzdys: naudokite GROUPBY duomenų šaltinį suvestiniams skaičiavimams ir įrašų grupavimui
+## <a name="example-use-a-groupby-data-source-for-aggregate-calculations-and-record-grouping"></a><a name="Example"></a> Pavyzdys: grupuojant skaičiavimus ir įrašų grupavimą naudoti GROUPBY duomenų šaltinį
 
-Šiame pavyzdyje parodyta, kaip sistemos administratoriaus arba elektroninių ataskaitų teikimo konsultanto vaidmens vartotojas gali sukonfigūruoti ER modelio susiejimą, turintį **GRUPUOTI PAGAL** duomenų šaltinis, naudojamas suvestinėms funkcijoms ir grupės įrašams apskaičiuoti. Šis modelio atvaizdavimas naudojamas kontrolės ataskaitai spausdinti, kai generuojama Intrastato deklaracija. Ši ataskaita leidžia peržiūrėti praneštas Intrastato operacijas.
+Šis pavyzdys rodo, kaip sistemos administratoriaus arba elektroninio ataskaitų funkcinės konsultanto vaidmens vartotojas gali konfigūruoti ER **modelio susiejimą, kuriame yra GROUPBY** duomenų šaltinis, naudojamas sujungti funkcijas ir grupių įrašus. Šis modelio susiejimas naudojamas valdiklio ataskaitai spausdinti, kai sugeneruota Intrastat deklaracija. Ši ataskaita leidžia peržiūrėti paskelbtas Intrastat operacijas.
 
-Šiame pavyzdyje aprašytas procedūras galima atlikti **DEMF** įmonė Microsoft Dynamics 365 Finance. 
+Šiame pavyzdyje pateiktas procedūras galima atlikti "Microsoft **"** ĮMONĖje DEMF Dynamics 365 Finance. 
 
-### <a name="prepare-sample-data"></a>Paruoškite duomenų pavyzdžius
+### <a name="prepare-sample-data"></a>Duomenų pavyzdžio paruošimas
 
-Įsitikinkite, kad turite Intrastato operacijų, kad galėtumėte teikti ataskaitas **Intrastatas** puslapį. Turite turėti skirtingų transporto kodų operacijas, nes operacijas sugrupuosite pagal **Transportas** lauke šiame pavyzdyje.
+Įsitikinkite, kad Yra Intrastat operacijų ataskaitoms **Intrastat** puslapyje. Turite turėti skirtingų transportavimo kodų operacijas, nes šiame pavyzdyje operacijas **grupuosite pagal** lauką Transportavimas.
 
-![Intrastato operacijų paruošimas Intrastato puslapyje.](./media/er-groupby-data-sources-prepare-transactions.png)
+![Intrastat puslapio paruošimas Intrastat operacijoms.](./media/er-groupby-data-sources-prepare-transactions.png)
 
 ### <a name="configure-the-er-framework"></a>ER sistemos konfigūracija
 
-Atlikite veiksmus, aprašytus skyriuje [Konfigūruoti ER sistemą](er-quick-start2-customize-report.md#ConfigureFramework), kad nustatytumėte minimalų ER parametrų rinkinį. Turite užbaigti šią sąranką prieš pradėdami naudoti ER sistemą, kad sukurtumėte ER modelio atvaizdavimą.
+Atlikite veiksmus, aprašytus skyriuje [Konfigūruoti ER sistemą](er-quick-start2-customize-report.md#ConfigureFramework), kad nustatytumėte minimalų ER parametrų rinkinį. Prieš pradėdami naudoti ER sistemą ER modelio susiejimui kurti, turite užbaigti šį nustatymą.
 
 ### <a name="import-the-standard-er-format-configuration"></a>Standartinio ER formato konfigūracijos importavimas
 
-Atlikite veiksmus, aprašytus skyriuje [Importuoti standartinio ER formato konfigūracijas](er-quick-start2-customize-report.md#ImportERSolution1), kad įtrauktumėte standartines ER konfigūracijas į dabartinį „Dynamics 365 Finance” egzempliorių. Importuoti 1 versiją **Intrastato modelis** konfigūraciją iš saugyklos.
+Atlikite veiksmus, aprašytus skyriuje [Importuoti standartinio ER formato konfigūracijas](er-quick-start2-customize-report.md#ImportERSolution1), kad įtrauktumėte standartines ER konfigūracijas į dabartinį „Dynamics 365 Finance” egzempliorių. Importuoti 1 Intrastat modelio **konfigūracijos** versiją iš saugyklos.
 
-### <a name="create-a-custom-data-model-configuration"></a>Sukurkite tinkintą duomenų modelio konfigūraciją
+### <a name="create-a-custom-data-model-configuration"></a>Pasirinktinio duomenų modelio konfigūracijos kūrimas
 
-Atlikite nurodytus veiksmus [Pridėkite tinkintą duomenų modelio konfigūraciją](er-quick-start3-customize-report.md#add-a-custom-data-model-configuration) norėdami rankiniu būdu pridėti naują **Intrastato modelis (Litware)** ER duomenų modelio konfigūracija, kurią gaunate iš importuoto **Intrastato modelis** konfigūracija.
+Norėdami rankiniu būdu pridėti [naują](er-quick-start3-customize-report.md#add-a-custom-data-model-configuration)**"Intrastat" modelio ("Litware")** ER duomenų modelio konfigūraciją, kurią išvedote iš importuoto "Intrastat **" modelio konfigūracijos, atlikite** nurodytus veiksmus.
 
-### <a name="configure-a-custom-data-model-component"></a>Konfigūruokite pasirinktinį duomenų modelio komponentą
+### <a name="configure-a-custom-data-model-component"></a>Pasirinktinio duomenų modelio komponento konfigūravimas
 
-Atlikite šiuos veiksmus, kad atliktumėte reikiamus pakeitimus **Intrastato modelis (Litware)** duomenų modelį, kad jį būtų galima naudoti norint atskleisti transporto kodus, turinčius reikiamą informaciją.
+Norėdami atlikti reikalingus išvestinio **"Intrastat" modelio ("Litware")** duomenų modelio pakeitimus, kad jį būtų galima naudoti norint rodyti transportavimo kodus, kurie turi reikiamą informaciją, atlikite šiuos veiksmus.
 
 1. Eikite į **Organizacijos administravimas** \> **Elektroninės ataskaitos** \> **Konfigūracijos**.
-2. Ant **Konfigūracijos** puslapyje konfigūracijos medyje pasirinkite **Intrastato modelis (Litware)**.
+2. **Konfigūracijos puslapyje**, konfigūracijos medyje, pasirinkite Intrastat modelį **(litware)**.
 3. Pasirinkite **Dizaino įrankis**.
-4. Ant **Duomenų modelio kūrėjas** puslapyje modelio medyje pasirinkite **Intrastatas**.
-5. Pasirinkite **Nauja** norėdami pridėti naują įdėtą mazgą prie pasirinkto **Intrastatas** mazgas. Iškrentančiame teksto laukelyje duomenų modelio mazgo įtraukimui, atlikite šiuos žingsnius:
+4. Modelio medžio **duomenų modelio dizainerio** puslapyje pasirinkite **Intrastat**.
+5. Pasirinkite **Naujas,** jei norite pridėti naują įdėtą pasirinkto Intrastat mazgo **mazgą**. Iškrentančiame teksto laukelyje duomenų modelio mazgo įtraukimui, atlikite šiuos žingsnius:
 
-    1. Viduje konors **vardas** lauką, įveskite **Transportas**.
+    1. Lauke Pavadinimas **įveskite Transportavimas** **.**
     2. Lauke **Elemento tipas** pasirinkite **Įrašų sąrašas**.
     3. Pasirinkite **Įtraukti** tam, kad įtrauktumėte naują mazgą.
 
-6. Pasirinkite **Nauja** norėdami pridėti naują įdėtą mazgą **Transportas** mazgas, kurį ką tik pridėjote. Iškrentančiame teksto laukelyje duomenų modelio mazgo įtraukimui, atlikite šiuos žingsnius:
+6. Pasirinkite **Naujas,** jei norite įtraukti naują įdėtojo mazgo transportuoti **mazgą**, kurį ką tik pridėjote. Iškrentančiame teksto laukelyje duomenų modelio mazgo įtraukimui, atlikite šiuos žingsnius:
 
-    1. Viduje konors **vardas** lauką, įveskite **Kodas**.
+    1. **Lauke Pavadinimas** įveskite **Kodą**.
     2. Lauke **Elemento tipas** pasirinkite **Eilutė**.
     3. Pasirinkite **Įtraukti** tam, kad įtrauktumėte naują mazgą.
 
-7. Pasirinkite **Nauja** kad pridėtumėte kitą naują įdėtą mazgą **Transportas** mazgas. Iškrentančiame teksto laukelyje duomenų modelio mazgo įtraukimui, atlikite šiuos žingsnius:
+7. Pasirinkite **Naujas,** kad pridėtumėte kitą naują įdėtą transportavimo mazgo **mazgą**. Iškrentančiame teksto laukelyje duomenų modelio mazgo įtraukimui, atlikite šiuos žingsnius:
 
-    1. Viduje konors **vardas** lauką, įveskite **TotalInvoicedAmount**.
+    1. Lauke Pavadinimas **įveskite** **TotalInvoicedAmount**.
     2. Lauke **Elemento tipas** pasirinkite **Realusis skaičius**.
     3. Pasirinkite **Įtraukti** tam, kad įtrauktumėte naują mazgą.
 
-8. Pasirinkite **Nauja** kad pridėtumėte kitą naują įdėtą mazgą **Transportas** mazgas. Iškrentančiame teksto laukelyje duomenų modelio mazgo įtraukimui, atlikite šiuos žingsnius:
+8. Pasirinkite **Naujas,** kad pridėtumėte kitą naują įdėtą transportavimo mazgo **mazgą**. Iškrentančiame teksto laukelyje duomenų modelio mazgo įtraukimui, atlikite šiuos žingsnius:
 
-    1. Viduje konors **vardas** lauką, įveskite **Operacijų skaičius**.
+    1. **Lauke Pavadinimas** įveskite **NumberOfTransactions**.
     2. Lauke **Elemento tipas** pasirinkite **Sveikasis skaičius**.
     3. Pasirinkite **Įtraukti** tam, kad įtrauktumėte naują mazgą.
 
-9. Pasirinkite **Nauja** kad pridėtumėte kitą naują įdėtą mazgą **Transportas** mazgas. Iškrentančiame teksto laukelyje duomenų modelio mazgo įtraukimui, atlikite šiuos žingsnius:
+9. Pasirinkite **Naujas,** kad pridėtumėte kitą naują įdėtą transportavimo mazgo **mazgą**. Iškrentančiame teksto laukelyje duomenų modelio mazgo įtraukimui, atlikite šiuos žingsnius:
 
-    1. Viduje konors **vardas** lauką, įveskite **Sandoris**.
+    1. Lauke Pavadinimas **įveskite Operacija** **.**
     2. Lauke **Elemento tipas** pasirinkite **Įrašų sąrašas**.
     3. Pasirinkite **Įtraukti** tam, kad įtrauktumėte naują mazgą.
 
-10. Už **Sandoris** mazgas, kurį ką tik pridėjote **Mazgas** FastTab, pasirinkite **Perjungti elemento nuorodą**.
-11. Viduje konors **Perjungti elemento nuorodą** dialogo lange duomenų modelio medyje pasirinkite **CommodityRecord**. Tada pasirinkite **Gerai**.
+10. Ką tik **įtrauktame** Operacijos mazge, mazgo **·**"FastTab" pasirinkite Perjungti **prekės nuorodą**.
+11. Duomenų modelio **medžio dialogo** lange Perjungti prekės nuorodą pasirinkite **CommodityRecord**. Tada pasirinkite **Gerai**.
 
 ![Konfigūruotas duomenų modelis ER duomenų modelio kūrimo įrankyje.](./media/er-groupby-data-sources-configure-data-model.png)
 
-### <a name="complete-the-design-of-a-custom-data-model"></a>Užbaikite tinkinto duomenų modelio kūrimą
+### <a name="complete-the-design-of-a-custom-data-model"></a>Pasirinktinio duomenų modelio dizaino kūrimas
 
-Atlikite nurodytus veiksmus [Užbaikite duomenų modelio kūrimą](er-quick-start3-customize-report.md#add-a-custom-data-model-configuration) užbaigti išvestinio dizainą **Intrastato modelis (Litware)** duomenų modelis.
+Norėdami baigti išvestinio ["Intrastat" modelio (litware](er-quick-start3-customize-report.md#add-a-custom-data-model-configuration))**duomenų modelio dizainą,** atlikite nurodytus veiksmus.
 
 ### <a name="create-a-new-model-mapping-configuration"></a>Sukurkite naują modelio žemėlapio konfigūravimą
 
-Atlikite nurodytus veiksmus [Sukurkite naują modelio susiejimo konfigūraciją](er-quick-start1-new-solution.md#CreateModelMapping) norėdami rankiniu būdu pridėti naują **Intrastato pavyzdžių kartografavimas** ER modelio susiejimo konfigūracija išvestinei **Intrastato modelis (Litware)** konfigūracija.
+Norėdami rankiniu būdu įtraukti [naują](er-quick-start1-new-solution.md#CreateModelMapping)**"Intrastat" modelių susiejimo ER** modelio susiejimo konfigūraciją į išvestinio "Intrastat **" modelio (litware) konfigūraciją, atlikite naujo modelio susiejimo konfigūracijos kūrimo** veiksmus.
 
-### <a name="add-a-new-model-mapping-component"></a>Pridėkite naują modelio susiejimo komponentą
+### <a name="add-a-new-model-mapping-component"></a>Įtraukti naują modelio susiejimo komponentą
 
 1. Eikite į **Organizacijos administravimas** \> **Elektroninės ataskaitos** \> **Konfigūracijos**.
-2. Ant **Konfigūracijos** puslapyje, konfigūracijos medyje, išplėskite **Intrastato modelis** konfigūracija.
-3. Pasirinkite **Intrastato pavyzdžių kartografavimas** konfigūracija.
+2. **Konfigūracijos puslapyje**, konfigūracijos medyje, išplėskite **Intrastat modelio konfigūraciją**.
+3. **Pasirinkite Intrastat pavyzdžio susiejimo** konfigūraciją.
 4. Norėdami atidaryti susiejimų sąrašą, pasirinkite **Dizaino įrankis**.
-5. Pasirinkite **Ištrinti** pašalinti esamą atvaizdavimo komponentą.
-6. Pasirinkite **Nauja** norėdami pridėti naują atvaizdavimo komponentą.
-7. Viduje konors **Apibrėžimas** lauką, pasirinkite **Intrastatas**.
-8. Viduje konors **vardas** lauką, įveskite **Intrastato žemėlapių sudarymas**.
-9. Pasirinkite **Dizaineris** norėdami sukonfigūruoti naują susiejimą.
+5. Norėdami pašalinti **esamą** susiejimo komponentą, pasirinkite Naikinti.
+6. Norėdami įtraukti **naują** susiejimo komponentą, pasirinkite Naujas.
+7. Apibrėžimo **lauke** pasirinkite **Intrastat**.
+8. Lauke Pavadinimas **įveskite** Intrastat **susiejimą**.
+9. Norėdami konfigūruoti **naują** susiejimą, pasirinkite konstruktorių.
 
-### <a name="design-the-added-model-mapping-component"></a>Sukurkite pridėtą modelio atvaizdavimo komponentą
+### <a name="design-the-added-model-mapping-component"></a>Įtraukti modelio susiejimo komponento kūrimas
 
-#### <a name="add-a-data-source-to-access-an-application-table"></a><a name="AddMmDataSource1"></a> Pridėkite duomenų šaltinį, kad pasiektumėte programų lentelę
+#### <a name="add-a-data-source-to-access-an-application-table"></a><a name="AddMmDataSource1"></a> Duomenų šaltinio įtraukimas, kad būtų galima pasiekti programos lentelę
 
-Sukonfigūruokite duomenų šaltinį, kad galėtumėte pasiekti programų lenteles, kuriose yra išsami informacija apie Intrastat operacijas.
+Konfigūruoti duomenų šaltinį, kad būtų galima pasiekti programos lenteles, kuriose yra Intrastat operacijų informacija.
 
 1. **Modelio žemėlapio kūrimo įrankis** puslapyje, **Duomenų šaltinio tipai** juostoje, pasirinkite **Dynamics 365 for Operations\\Lentelės įrašai**.
-2. Viduje konors **Duomenų šaltinis** sritį, pasirinkite **Pridėti šaknį** pridėti naują duomenų šaltinį, kuris bus naudojamas pasiekti **Intrastatas** stalo. Kiekvienas įrašas **Intrastatas** lentelė vaizduoja vieną Intrastato operaciją.
-3. Viduje konors **Duomenų šaltinio savybės** dialogo lange **vardas** lauką, įveskite **Sandoris**.
-4. Viduje konors **Lentelė** lauką, įveskite **Intrastatas**.
+2. Duomenų šaltinių **srityje** pasirinkite Įtraukti šakninį **elementą**, kad įtraukumėte naują duomenų šaltinį, kuris bus naudojamas intrastat lentelei **pasiekti**. Kiekvienas Intrastat lentelės įrašas **vaizduoja** vieną Intrastat operaciją.
+3. **Duomenų šaltinio ypatybės dialogo** lange, lauke **Pavadinimas**, įveskite **Operacija**.
+4. **Lentelės lauke** įveskite **Intrastat**.
 5. Pasirinkite **Gerai** tam, kad įtrauktumėte naują duomenų šaltinį.
 
-#### <a name="add-a-data-source-to-group-intrastat-transactions"></a><a name="AddMmDataSource2"></a> Pridėkite duomenų šaltinį prie Intrastato operacijų grupės
+#### <a name="add-a-data-source-to-group-intrastat-transactions"></a><a name="AddMmDataSource2"></a> Duomenų šaltinio įtraukimas į grupės Intrastat operacijas
 
-Konfigūruoti a **Grupuoti pagal** duomenų šaltinis Intrastato operacijoms grupuoti ir suvestinėms funkcijoms apskaičiuoti.
+Sukonfigūruokite **GroupBy** duomenų šaltinį, kad būtų galima grupuoti Intrastat operacijas ir apskaičiuoti sudėties funkcijas.
 
-1. Ant **Modelių žemėlapių kūrėjas** puslapyje, esančiame **Duomenų šaltinių tipai** sritį, pasirinkite **Funkcijos\\ Grupuoti pagal**.
-2. Viduje konors **Duomenų šaltinis** sritį, pasirinkite **Pridėti šaknį** pridėti naują duomenų šaltinį, kuris bus naudojamas Intrastato operacijoms grupuoti ir suvestinėms funkcijoms apskaičiuoti.
-3. Viduje konors **Duomenų šaltinio savybės** dialogo lange **vardas** lauką, įveskite **TransportRecord**.
-4. Pasirinkite **Redaguoti grupę pagal** grupavimo sąlygoms konfigūruoti.
-5. Ant **Redaguokite „Grupuoti pagal“ parametrus** puslapyje, dešiniojoje srityje esančiame duomenų šaltinių sąraše pasirinkite **Sandoris** duomenų šaltinį ir išplėskite jį.
-6. Pasirinkite **Pridėti lauką prie \> Ką sugrupuoti** nurodyti, kad **Sandoris** duomenų šaltinis pasirinktas kaip <a name="BaseDataSource">bazinis duomenų šaltinis</a> sukonfigūruotiems **Grupuoti pagal** duomenų šaltinis. Įrašai apie **Sandoris** duomenų šaltinis bus sugrupuotas, o šio duomenų šaltinio lauko reikšmės bus naudojamos skaičiuojant suvestinėse funkcijose.
-7. Pasirinkite **Sandoris\Transportas** lauką, tada pasirinkite **Pridėti lauką prie \> Sugrupuotas laukas** nurodyti, kad **Transportas** bazinio duomenų šaltinio laukas pasirenkamas kaip <a name="GroupingFields">grupavimo kriterijus</a> sukonfigūruotiems **Grupuoti pagal** duomenų šaltinis. Kitaip tariant, įrašai apie **Sandoris** duomenų šaltinis bus sugrupuotas pagal reikšmę **Transportas** lauke. Kiekvienas sukonfigūruotas įrašas **Grupuoti pagal** duomenų šaltinis atstovaus vienam transportavimo kodui, kuris buvo rastas bazinio duomenų šaltinio įrašuose.
-8. Pasirinkite **Sandoris\SumaMST** lauką, tada atlikite šiuos veiksmus:
+1. Modelio susiejimo **dizainerio** puslapio duomenų šaltinio **tipų srityje** pasirinkite **FunctionsGroup\\ pagal**.
+2. Duomenų šaltinių **srityje** pasirinkite Įtraukti šakninį, kad įtraukumėte naują duomenų šaltinį, **kuris** bus naudojamas Intrastat operacijoms grupuoti ir sudėtinėms funkcijoms atlikti.
+3. **Duomenų šaltinio ypatybės dialogo** lango lauke **Pavadinimas įveskite** **TransportRecord**.
+4. Norėdami konfigūruoti **grupavimo sąlygas,** pasirinkite Redaguoti grupę.
+5. Skirtuko Redaguoti **pagal parametrus puslapyje**, duomenų šaltinių sąraše, kuris yra dešinioje srityje, **pasirinkite** Operacijos duomenų šaltinį ir išplėskite jį.
+6. Pasirinkite **Įtraukti lauką į \> grupę norėdami** **nurodyti**, kad operacijos duomenų šaltinis pasirinktas kaip pagrindinis sukonfigūruoto **GroupBy duomenų** <a name="BaseDataSource">šaltinio duomenų šaltinis</a>. Operacijos duomenų šaltinio **įrašai** bus sugrupuoti, ir šio duomenų šaltinio lauko vertės bus naudojamos skaičiavimams grupinėse funkcijose.
+7. Pasirinkite **Sandoris\Transportas** lauką, tada pasirinkite **Pridėti lauką prie \> Sugrupuotas laukas** nurodyti, kad **Transportas** bazinio duomenų šaltinio laukas pasirenkamas kaip <a name="GroupingFields">grupavimo kriterijus</a> sukonfigūruotiems **Grupuoti pagal** duomenų šaltinis. Kitaip tariant, operacijos duomenų šaltinio **įrašai** bus sugrupuoti pagal lauko Transportavimas **vertę**. Kiekvienas sukonfigūruoto **GroupBy duomenų šaltinio** įrašas nurodo vieną transportavimo kodą, kuris rastas pagrindinio duomenų šaltinio įrašuose.
+8. Pasirinkite lauką **Operacija\AmountMST**, tada atlikite šiuos veiksmus:
 
-    1. Pasirinkite **Pridėti lauką prie \> Suvestiniai laukai** nurodyti, kad an<a name="AggregateFunctions">agregatinė funkcija</a> bus skaičiuojamas šiam laukui.
-    2. Viduje konors **Agregacijos** srityje, įraše, kuris buvo pridėtas prie pasirinkto **Sandoris\SumaMST** lauke, **Metodas** lauką, pasirinkite **Suma** funkcija.
-    3. Viduje konors **vardas** pasirenkamas laukas, įveskite **TotalInvoicedAmount**.
+    1. Norėdami **nurodyti, kad \> bus skaičiuojama** šio lauko <a name="AggregateFunctions">su sujungti funkcija</a>, pasirinkite lauką Įtraukti.
+    2. Telkimo **srityje**, įraše **, kuris įtrauktas į pasirinktą lauką Transaction\AmountMST**, **lauke** Metodas pasirinkite **sumos** funkciją.
+    3. Lauke Pavadinimas **įveskite** **TotalInvoicedAmount**.
 
-    Šie nustatymai nurodo, kad kiekvienai transporto grupei bendra suma **Sandoris\SumaMST** laukas bus apskaičiuojamas.
+    Šie parametrai nurodo, kad kiekvienai transportavimo grupei bus skaičiuojama bendroji **lauko Operacija\AmountMST** suma.
 
-9. Pasirinkite **Sandoris\RecId** lauką, tada atlikite šiuos veiksmus:
+9. Pasirinkite lauką **Transaction\RecId**, tada atlikite šiuos veiksmus:
 
-    1. Pasirinkite **Pridėti lauką prie \> Suvestiniai laukai** nurodyti, kad šiam laukui bus apskaičiuota suminė funkcija.
-    2. Viduje konors **Agregacijos** srityje, įraše, kuris buvo pridėtas prie pasirinkto **Sandoris\RecId** lauke, **Metodas** lauką, pasirinkite **Suskaičiuoti** funkcija.
-    3. Viduje konors **vardas** pasirenkamas laukas, įveskite **Operacijų skaičius**.
+    1. Norėdami **nurodyti, kad \> bus skaičiuojama** šio lauko su sujungti funkcija, pasirinkite lauką Įtraukti.
+    2. Telkimo **srityje**, įraše **, kuris įtrauktas į pasirinktą lauką Transaction\RecId**,**lauke** Metodas pasirinkite skaičiavimo **funkciją**.
+    3. Lauke Pavadinimas **įveskite** **NumberOfTransactions**.
 
-    Šie nustatymai nurodo, kad kiekvienai transporto grupei bus skaičiuojamas operacijų skaičius grupėje.
+    Šie parametrai nurodo, kad kiekvienai transportavimo grupei bus skaičiuojamas operacijų skaičius grupėje.
 
 10. Pasirinkite **Įrašyti**.
-11. Peržiūrėkite<a name="ExecutionLocation">egzekucija</a> redaguojamo duomenų šaltinio parametrus. Pastebėti, kad **Automatiškai aptikti** buvo automatiškai pasirinktas **Vykdymo vieta** laukas ir **Egzekucija val** lauke yra reikšmė **SQL**. Šie nustatymai nurodo, kad pasirinkta **Sandoris** bazinio duomenų šaltinio šiuo metu galima užklausti ir galite paleisti redaguojamą **Grupuoti pagal** duomenų šaltinis duomenų bazės lygiu.
-12. Atidarykite paiešką **Vykdymo vieta** lauką, kad peržiūrėtumėte galimų reikšmių sąrašą. Atkreipkite dėmesį, kad galite pasirinkti **Užklausa** arba **Atmintyje** priversti tai **Grupuoti pagal** duomenų šaltinis, kuris turi būti paleistas duomenų bazės lygiu arba taikomųjų programų serverio atmintyje.
-13. Pasirinkite **Sutaupyti** ir uždarykite **Redaguokite „Grupuoti pagal“ parametrus** puslapį.
-14. Pasirinkite **Gerai** norėdami užbaigti nustatymus **Grupuoti pagal** duomenų šaltinis.
+11. Peržiūrėkite <a name="ExecutionLocation">redaguojamo</a> duomenų šaltinio vykdymo parametrus. Atkreipkite **dėmesį, kad** lauke Vykdymo vieta **buvo** automatiškai pasirinktas automatinis išjungimas, **o vykdymo lauke** yra SQL **vertė**. Šie parametrai nurodo, kad pasirinktas **operacijos pagrindinis** duomenų šaltinis šiuo metu yra užklausuojamas, **ir galite vykdyti redaguojamą GroupBy** duomenų šaltinį duomenų bazės lygiu.
+12. Atidarykite vykdymo vietos lauko **peržvalgą**, kad peržiūrėtumėte galimų verčių sąrašą. Atkreipkite dėmesį, kad **galite pasirinkti užklausą** **·** **arba atmintyje, kad šis GroupBy** duomenų šaltinis būtų vykdomas duomenų bazės lygiu arba programos serverio atmintyje.
+13. Pasirinkite **Įrašyti** ir uždarykite parametrų **puslapį Redaguoti 'Grupuoti pagal** '.
+14. Pasirinkite **Gerai**, kad užbaigtumėte duomenų šaltinio **GroupBy** parametrus.
 
 #### <a name="bind-the-groupby-data-source-to-data-model-fields"></a><a name="AddMmBindings"></a> Susieti GroupBy duomenų šaltinį su duomenų modelio laukais
 
-Susiekite sukonfigūruotą duomenų šaltinį su duomenų modelio laukais, kad nurodytumėte, kaip duomenų modelis bus užpildytas programos duomenimis vykdymo metu.
+Susiekite sukonfigūruotą duomenų šaltinį su duomenų modelio laukais, norėdami nurodyti, kaip duomenų modelis apdorojimo metu bus užpildytas programos duomenimis.
 
-1. Ant **Modelių žemėlapių kūrėjas** puslapyje, esančiame **Duomenų modelis** sritį, išplėskite **Transportas** mazgas.
-2. Viduje konors **Duomenų šaltinis** sritį, išplėskite **TransportRecord** duomenų šaltinis.
-3. Pridėkite susiejimą, kad būtų rodomas aptiktų transporto grupių sąrašas:
+1. Modelio susiejimo **dizainerio** puslapio duomenų modelio **srityje** išplėskite transportavimo **mazgą**.
+2. Duomenų šaltinių **srityje** išplėskite **TransportRecord duomenų** šaltinį.
+3. Pridėti susiejimą, kad būtų rodomas aptiktų transportavimo grupių sąrašas:
 
-    1. Viduje konors **Duomenų modelis** sritį, pasirinkite **Transportas** daiktas.
-    2. Viduje konors **Duomenų šaltinis** sritį, pasirinkite **TransportRecord** duomenų šaltinis.
+    1. **Duomenų modelio srityje** pasirinkite transportavimo **prekę**.
+    2. Duomenų šaltinių **srityje** pasirinkite **TransportRecord duomenų** šaltinį.
     3. Pasirinkite **Susieti**.
 
-4. Pridėkite susiejimą, kad atskleistumėte kiekvienos aptiktos transporto grupės transportavimo kodą:
+4. Pridėti susiejimą, kad būtų galima rodyti kiekvienos aptiktos transportavimo grupės transportavimo kodą:
 
-    1. Pasirinkite **Transportas.Kodas** duomenų modelio elementas.
-    2. Pasirinkite **TransportRecord.grouped.TransportMode** sugrupuotas laukas.
+    1. Pasirinkite transportavimo **kodo duomenų** modelio elementą.
+    2. Pasirinkite sugrupuotą **TransportRecord.grouped.TransportMode** lauką.
     3. Pasirinkite **Susieti**.
 
-5. Pridėkite susiejimą, kad parodytumėte kiekvienos aptiktos transporto grupės apskaičiuotų suvestinių funkcijų reikšmes:
+5. Pridėti susiejimą, kad būtų galima rodyti kiekvienos aptiktos transportavimo grupės apskaičiuotų suvestinių funkcijų vertes:
 
-    1. Pasirinkite **Transportas.NumberOfTransactions** duomenų modelio elementas.
-    2. Pasirinkite **TransportRecord.aggregated.NumberOfTransactions** agreguotas laukas.
+    1. Pasirinkite Transport.NumberOfTransactions **duomenų** modelio elementą.
+    2. Pasirinkite sudėtintį **lauką TransportRecord.aggregated.NumberOfTransactions**.
     3. Pasirinkite **Susieti**.
-    4. Pasirinkite **Transport.TotalInvoicedAmount** duomenų modelio elementas.
-    5. Pasirinkite **TransportRecord.aggregated.TotalInvoicedAmount** agreguotas laukas.
+    4. **Pasirinkite Transport.TotalInvoicedAmount duomenų** modelio prekę.
+    5. Pasirinkite lauką **TransportRecord.aggregated.TotalInvoicedAmount**, sujungtą.
     6. Pasirinkite **Susieti**.
 
-6. Pridėkite susiejimą, kad atskleistumėte operacijų įrašus, priklausančius kiekvienai aptiktai transportavimo grupei:
+6. Įtraukite susiejimą, kad operacijos įrašai, priklausantys kiekvienai aptiktai transportavimo grupei, būtų pateikti:
 
-    1. Pasirinkite **Transportas. Sandoris** duomenų modelio elementas.
-    2. Pasirinkite **TransportRecord.lines** lauke.
+    1. Pasirinkite elementą **Transport.Transaction** duomenų modelis.
+    2. Pasirinkite lauką **TransportRecord.lines**.
     3. Pasirinkite **Susieti**.
 
-    Galite ir toliau konfigūruoti įdėtųjų elementų susiejimą **Transportas. Sandoris** duomenų modelio elementą ir **TransportRecord.lines** duomenų šaltinio lauką, kad vykdymo metu būtų rodoma informacija apie Intrastat operacijas, priklausančias kiekvienai aptiktai transporto grupei.
+    **Galite toliau konfigūruoti Įdėtųjų Transport.Transaction** **duomenų modelio prekės ir TransportRecord.eilučių** duomenų šaltinio laukų susiejimus, kad apdorojimo metu būtų pateikta Intrastat operacijų, kurios priklauso kiekvienai aptiktai transportavimo grupei, informacija.
 
 ![Konfigūruotas žemėlapio modelis ER duomenų žemėlapio modelio kūrimo įrankyje.](./media/er-groupby-data-sources-configure-model-mapping.png)
 
-### <a name="debug-the-added-model-mapping-component"></a>Derinkite pridėtą modelio susiejimo komponentą
+### <a name="debug-the-added-model-mapping-component"></a>Derinti pridėto modelio susiejimo komponentą
 
-Naudoti [ER duomenų šaltinio derinimo priemonė](er-debug-data-sources.md) Norėdami išbandyti sukonfigūruotą modelio atvaizdavimą.
+Norėdami patikrinti [sukonfigūruotą modelio susiejimą naudokite](er-debug-data-sources.md) ER duomenų šaltinio derintuvą.
 
-1. Ant **Modelių žemėlapių kūrėjas** puslapį, pasirinkite **Pradėkite derinti**.
-2. Ant **Derinti duomenų šaltinius** puslapyje, kairiojoje srityje pasirinkite **TransportRecord** duomenų šaltinį, tada pasirinkite **Skaityti visus įrašus**.
-3. Išplėskite **TransportRecord** duomenų šaltinį, tada atlikite šiuos veiksmus:
+1. Modelio susiejimo **dizainerio** puslapyje pasirinkite Pradėti **derinti**.
+2. Duomenų šaltinių **derinimo puslapyje**, kairiojoje srityje, **pasirinkite TransportRecord** duomenų šaltinį, tada pasirinkite Skaityti **visus įrašus**.
+3. Išplėskite **TransportRecord duomenų** šaltinį, tada atlikite šiuos veiksmus:
 
-    1. Pasirinkite **TransportRecord.grouped.TransportMode** duomenų šaltinis.
+    1. **Pasirinkite TransportRecord.grouped.TransportMode** duomenų šaltinį.
     2. Pasirinkti **Gauti reikšmę**.
-    3. Pasirinkite **TransportRecord.grouped.NumberOfTransactions** duomenų šaltinis.
+    3. **Pasirinkite TransportRecord.grouped.NumberOfTransactions duomenų** šaltinį.
     4. Pasirinkti **Gauti reikšmę**.
-    5. Pasirinkite **TransportRecord.grouped.TotalInvoicedAmount** duomenų šaltinis.
+    5. **Pasirinkite TransportRecord.grouped.TotalInvoicedAmount** duomenų šaltinį.
     6. Pasirinkti **Gauti reikšmę**.
 
-4. Dešinėje srityje pasirinkite **Išplėsti viską**.
+4. Dešiniajame lange pasirinkite Išplėsti **viską**.
 
-The **TransportRecord** duomenų šaltinis atskleidžia du įrašus ir pateikia du transportavimo kodus. Kiekvienam transporto kodui apskaičiuojamas operacijų skaičius ir bendra sąskaitoje faktūroje nurodyta suma.
+TransportRecord **duomenų** šaltinis parodo du įrašus ir pateikia du transportavimo kodus. Kiekvienam transportavimo kodui skaičiuojamas operacijų skaičius ir bendroji suma, už kurią išrašyta SF.
 
 > [!NOTE]
-> „tinginio skaitymo“ metodas naudojamas, kai a **Grupuoti pagal** duomenų šaltinis iškviečiamas optimizuoti duomenų bazės skambučius. Todėl kai kurios lauko reikšmės a **Grupuoti pagal** duomenų šaltinis apskaičiuojamas ER duomenų šaltinio derinimo priemonėje tik tada, kai yra susieti su duomenų modelio laukais.
+> "panaudos skaitymo" būdas naudojamas, kai Duomenų šaltinis **GroupBy** iškvie čia optimizuoja duomenų bazės skambučius. Todėl kai kurios **GroupBy** duomenų šaltinio lauko vertės ER duomenų šaltinio derintuve skaičiuojamos tik tada, kai jos susiejamos su duomenų modelio laukais.
 
-![Duomenų šaltinio derinimo rezultatai puslapyje Derinimo duomenų šaltiniai.](./media/er-groupby-data-sources-debug-datasource.png)
+![Duomenų šaltinio derinimo rezultatai puslapyje Derinti duomenų šaltinius.](./media/er-groupby-data-sources-debug-datasource.png)
 
 ## <a name="frequently-asked-questions"></a>Dažniausiai užduodami klausimai
 
-### <a name="is-there-any-way-to-calculate-grand-totals-when-the-group-totals-are-calculated"></a>Ar yra koks nors būdas apskaičiuoti bendrąsias sumas, kai skaičiuojamos grupės sumos?
+### <a name="is-there-any-way-to-calculate-grand-totals-when-the-group-totals-are-calculated"></a>Ar yra būdas skaičiuoti bendras sumas, kai skaičiuojamos grupės bendrosios sumos?
 
-Taip. Norėdami apskaičiuoti bendras sumas, sukonfigūruokite kitą **Grupuoti pagal** duomenų šaltinis, kuriame **Grupuoti pagal** duomenų šaltinis, kurį anksčiau sukonfigūravote, naudojamas kaip bazinis duomenų šaltinis. Toliau pateiktoje iliustracijoje rodomas **GroupBy** tipo bendrųjų sumų **duomenų šaltinis**, naudojamas agreguotai **SUM** apskaičiuoti, remiantis **GroupBy** tipo TransportRecord **duomenų šaltinio** SUM **agregavimu**.
+Taip. Norėdami apskaičiuoti bendras sumas, sukonfigūruokite **kitą GroupBy** **duomenų šaltinį, kuriame anksčiau sukonfigūruotas GroupBy** duomenų šaltinis naudojamas kaip pagrindinis duomenų šaltinis. Toliau esanti **iliustracija** **rodo GroupBy** **tipo bendrųjų sumų duomenų šaltinį, naudojamą skaičiuojant funkciją sujungti** **SUM**, **remiantis TransportRecord duomenų šaltinio TransportRecord** **duomenų šaltiniu, kuris yra GroupBy tipo**, sumavimu.
 
-![Bendrąsias duomenų šaltinis ER modelių susiejimo dizaino sąskdyte.](./media/er-groupby-data-sources-configure-model-mapping2.png)
+![Bendrųjų duomenų šaltinis ER modelio susiejimo konstruktoriuje.](./media/er-groupby-data-sources-configure-model-mapping2.png)
 
-Toliau pateiktoje iliustracijoje rodomi duomenų šaltinio **Sumos** derinimo rezultatai.
+Toliau esanti iliustracija pateikia bendrųjų sumų **duomenų** šaltinio derinimo rezultatus.
 
-![Bendrųjų duomenų šaltinio derinimo rezultatai puslapyje Derinimo duomenų šaltiniai.](./media/er-groupby-data-sources-debug-datasource2.png)
+![Bendrųjų sumų duomenų šaltinio derinimo rezultatai puslapyje Derinti duomenų šaltinius.](./media/er-groupby-data-sources-debug-datasource2.png)
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 

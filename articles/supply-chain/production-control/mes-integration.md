@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-10-01
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 8917c9b265bc3df19517f052e28fb7644057cb46
-ms.sourcegitcommit: 19f0e69a131e9e4ff680eac13efa51b04ad55a38
+ms.openlocfilehash: 9ec0bedcf1a3a2888a91158ea0353283660d3266
+ms.sourcegitcommit: 6f6ec4f4ff595bf81f0b8b83f66442d5456efa87
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/22/2022
-ms.locfileid: "8330706"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "8487587"
 ---
 # <a name="integrate-with-third-party-manufacturing-execution-systems"></a>Integravimas trečiosios šalies gamybos vykdymo sistemose
 
@@ -64,7 +64,9 @@ Galite įgalinti bet kurį arba visus šiuos integravimo procesus.
 
 ## <a name="monitor-incoming-messages"></a>Gautų pranešimų stebėjimas
 
-Norėdami stebėti į sistemą gaunamus pranešimus, atidarykite gamybos **vykdymo sistemų integravimo** puslapį. Čia galite peržiūrėti, apdoroti ir šalinti triktis.
+Norėdami stebėti į sistemą gaunamus pranešimus, atidarykite gamybos **vykdymo sistemų integravimo** puslapį. Galima peržiūrėti, apdoroti ir šalinti triktis.
+
+Visi konkretaus gamybos užsakymo pranešimai apdorojami jų gavimo tvarka. Tačiau skirtingų gamybos užsakymų pranešimai gali būti apdorojami ne gavimo sekoje, nes paketinės užduotys apdorojamos lygiagrečiai. Jei triktis, paketinė užduotis bandys apdoroti kiekvieną pranešimą tris kartus prieš nustatydami būseną *Nepavyko*.
 
 ## <a name="call-the-api"></a>Iškviesti API
 
@@ -119,13 +121,13 @@ Toliau pateikiamoje lentelėje rodomi laukai, kuriuos palaiko kiekviena `ReportF
 | `ReportedGoodQuantity` | Pasirinktina | Tikrasis|
 | `ReportedErrorCatchWeightQuantity` | Pasirinktina | Tikrasis |
 | `ReportedGoodCatchWeightQuantity` | Pasirinktina | Tikrasis |
-| `AcceptError` | Pasirinktina |Bulio logika |
+| `AcceptError` | Pasirinktina | Išvardimis (Taip \| ne) |
 | `ErrorCause` | Pasirinktina | Išvardiimas \| (nėra medžiagų \|\| mašinos valdymostafo), extensible |
 | `ExecutedDateTime` | Pasirinktina | DateTime |
 | `ReportAsFinishedDate` | Pasirinktina | Data |
 | `AutomaticBOMConsumptionRule` | Pasirinktina | Išvardijimas (FlushingPrincip \| visada niekada \|) |
 | `AutomaticRouteConsumptionRule` | Pasirinktina |Išvardiimas (RouteDependent \| visada niekada \|) |
-| `RespectFlushingPrincipleDuringOverproduction` | Pasirinktina | Bulio logika |
+| `RespectFlushingPrincipleDuringOverproduction` | Pasirinktina | Išvardimis (Taip \| ne) |
 | `ProductionJournalNameId` | Pasirinktina | Eilutė |
 | `PickingListProductionJournalNameId` | Pasirinktina | Eilutė|
 | `RouteCardProductionJournalNameId` | Pasirinktina | Eilutė |
@@ -133,11 +135,11 @@ Toliau pateikiamoje lentelėje rodomi laukai, kuriuos palaiko kiekviena `ReportF
 | `ToOperationNumber` | Pasirinktina | Sveikasis skaičius|
 | `InventoryLotId` | Pasirinktina | Eilutė |
 | `BaseValue` | Pasirinktina | Eilutė |
-| `EndJob` | Pasirinktina | Bulio logika |
-| `EndPickingList` | Pasirinktina | Bulio logika |
-| `EndRouteCard` | Pasirinktina | Bulio logika |
-| `PostNow` | Pasirinktina | Bulio logika |
-| `AutoUpdate` | Pasirinktina | Bulio logika |
+| `EndJob` | Pasirinktina | Išvardimis (Taip \| ne) |
+| `EndPickingList` | Pasirinktina | Išvardimis (Taip \| ne) |
+| `EndRouteCard` | Pasirinktina | Išvardimis (Taip \| ne) |
+| `PostNow` | Pasirinktina | Išvardimis (Taip \| ne) |
+| `AutoUpdate` | Pasirinktina | Išvardimis (Taip \| ne) |
 | `ProductColorId` | Pasirinktina | Eilutė|
 | `ProductConfigurationId` | Pasirinktina | Eilutė |
 | `ProductSizeId` | Pasirinktina | Eilutė |
@@ -181,7 +183,7 @@ Toliau pateikiamoje lentelėje rodomi laukai, kuriuos palaiko kiekviena `Picking
 | `OperationNumber` | Pasirinktina | Sveikasis skaičius |
 | `LineNumber` | Pasirinktina | Tikrasis |
 | `PositionNumber` | Pasirinktina | Eilutė |
-| `IsConsumptionEnded` | Pasirinktina | Bulio logika |
+| `IsConsumptionEnded` | Pasirinktina | Išvardimis (Taip \| ne) |
 | `ErrorCause` | Pasirinktina | Išvardiimas \| (nėra medžiagų \|\| mašinos valdymostafo), extensible |
 | `InventoryLotId` | Pasirinktina | Eilutė |
 
@@ -217,9 +219,9 @@ Toliau pateikiamoje lentelėje rodomi laukai, kuriuos palaiko kiekviena `RouteCa
 | `ConsumptionDate` | Pasirinktina | Data |
 | `TaskType` | Pasirinktina | Išvardijimo (QueueBefore nustatymo procesas \| persidengia \|\| su transportavimo \| darbo laiko \| neefektyviais \| elementais) |
 | `ErrorCause` | Pasirinktina | Išvardiimas \| (nėra medžiagų \|\| mašinos valdymostafo), extensible |
-| `OperationCompleted` | Pasirinktina | Bulio logika |
-| `BOMConsumption` | Pasirinktina | Bulio logika |
-| `ReportAsFinished` | Pasirinktina | Bulio logika |
+| `OperationCompleted` | Pasirinktina | Išvardimis (Taip \| ne) |
+| `BOMConsumption` | Pasirinktina | Išvardimis (Taip \| ne) |
+| `ReportAsFinished` | Pasirinktina | Išvardimis (Taip \| ne) |
 
 ### <a name="end-production-order-message"></a>Baigti gamybos užsakymo pranešimą
 
@@ -230,9 +232,13 @@ Toliau pateikiamoje lentelėje rodomi laukai, kuriuos palaiko kiekviena `RouteCa
 | `ProductionOrderNumber` | Privalomas | Eilutė |
 | `ExecutedDateTime` | Pasirinktina | DateTime |
 | `EndedDate` | Pasirinktina | Data |
-| `UseTimeAndAttendanceCost` | Pasirinktina | Bulio logika |
-| `AutoReportAsFinished` | Pasirinktina | Bulio logika |
-| `AutoUpdate` | Pasirinktina | Bulio logika |
+| `UseTimeAndAttendanceCost` | Pasirinktina | Išvardimis (Taip \| ne) |
+| `AutoReportAsFinished` | Pasirinktina | Išvardimis (Taip \| ne) |
+| `AutoUpdate` | Pasirinktina | Išvardimis (Taip \| ne) |
+
+## <a name="other-production-information"></a>Kita gamybos informacija
+
+Pranešimai palaiko veiksmus ar įvykius, kurie vyksta darbo laiko metu. Jie apdorojami naudojant MES integravimo sistemą, aprašytą šioje temoje. Dizaine laikoma, kad kita nuorodos informacija, kuri bus bendrai naudojama su MES (pvz., su produktu susijusi informacija arba KS ar maršrutas (su konkrečiais nustatymo ir konfigūravimo laikais)), naudojama tam tikroje gamybos užsakyme, [bus](../../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md#data-entities) nuskaitoma iš sistemos, naudojant duomenų objektus per rinkmenos perdavimą ar OData.
 
 ## <a name="receive-feedback-about-the-state-of-a-message"></a>Gauti grįžtamąjį ryšį apie pranešimo būseną
 

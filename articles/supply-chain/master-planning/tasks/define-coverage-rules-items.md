@@ -1,7 +1,7 @@
 ---
 title: Prekių padengimo taisyklių apibrėžimas
 description: Šioje procedūroje nurodoma, kaip kurti padengimo taisykles ir nepaisyti konkrečios prekės padengimo parametrų. Jis taip pat parodo, kaip nurodyti numatytąsias atsargų nuostatas.
-author: ChristianRytt
+author: t-benebo
 ms.date: 07/01/2019
 ms.topic: business-process
 ms.prod: ''
@@ -10,15 +10,15 @@ ms.search.form: ReqGroup, DefaultDashboard, EcoResProductDetailsExtended, EcoRes
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: crytt
+ms.author: benebotg
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c3947c8a51facfb02012cc8e9a3ffd5887073bd9
-ms.sourcegitcommit: 8c17717b800c2649af573851ab640368af299981
+ms.openlocfilehash: bca0e1786adb08a7cd4795b49c974ab95183b1dd
+ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/23/2021
-ms.locfileid: "7860618"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "8469328"
 ---
 # <a name="define-coverage-rules-for-items"></a>Prekių padengimo taisyklių apibrėžimas
 
@@ -114,6 +114,6 @@ Sukurkite prekės padengimo taisykles, atlikdami šiuos veiksmus:
 1. Pasirinkite **Įrašyti**.
 
 > [!NOTE]
-> Pagamintų prekių gamybos **laikas** naudojamas, jei nėra prekės maršruto. Jei su preke susietas aktyvus maršrutas, bendrasis planavimas suplanuos užsakymą ir apskaičiuos jo datas pagal maršruto laiką ir išteklių pajėgumą (jei taikoma).
+> Pagamintų prekių gamybos **laikas naudojamas**, jei nėra prekės maršruto. Jei su preke susietas aktyvus maršrutas, bendrasis planavimas suplanuos užsakymą ir apskaičiuos jo datas pagal maršruto laiką ir išteklių pajėgumą (jei taikoma).
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

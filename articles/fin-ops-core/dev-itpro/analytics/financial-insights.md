@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 4dc6cb7c0d6c04371ada611626415d87e9f149f0
-ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
+ms.openlocfilehash: 304cf3f6c913586e08e0a3771ebfe40bc5d2b102
+ms.sourcegitcommit: 3cb1f49a02e4a849fc34ffeb81fe507f0608b35e
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7416310"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "8464915"
 ---
 # <a name="financial-analysis"></a>Finansinė analizė
 
@@ -38,7 +38,7 @@ Sujungdama didžiosios knygos ir papildomų knygų duomenis, **Finansinė analiz
 
 Darbo sritis **Finansinė analizė** pirmiausia leidžia peržiūrėti ir filtruoti esamų ataskaitų duomenis. Į darbo sritį **Finansinė analizė** galite įtraukti naujų vaizdinių elementų. Darbo sritį **Finansinė analizė** gali naudoti dabartinė įmonė ir visos įmonės, kad būtų rodomi visų juridinių subjektų duomenys, neatsižvelgiant į juridinius subjektus, prie kurių šis vaidmuo turi prieigą.
 
-- [„Power BI“ vizualizacijų įtraukimas arba redagavimas jūsų ataskaitų srityje](/powerapps-docs/user/add-powerbi-dashboards.md)
+- [„Power BI“ vizualizacijų įtraukimas arba redagavimas jūsų ataskaitų srityje](/powerapps/user/add-powerbi-dashboards)
 
 ## <a name="dynamics-365-finance-setup"></a>„Dynamics 365 Finance“ nustatymas
 **Didžioji knyga**

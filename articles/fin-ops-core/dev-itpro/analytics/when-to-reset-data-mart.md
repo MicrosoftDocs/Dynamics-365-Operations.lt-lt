@@ -2,7 +2,7 @@
 title: Duomenų srities nustatymo iš naujo DUK
 description: Šioje temoje pateikiami atsakymai į kai kuriuos dažnai užduodamus klausimus apie duomenų srities nustatymą iš naujo.
 author: jinniew
-ms.date: 02/14/2022
+ms.date: 03/21/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2021-05-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 53f45f469c39f9e389763aa0daed658e5a62d377
-ms.sourcegitcommit: 6a269db08e8bb3bb3405c9f4a512091d13c80faa
+ms.openlocfilehash: ab6417a739e9a7b67b9e67d93f3bef654e55e5e4
+ms.sourcegitcommit: 2c2ef3e312e7221006a9e230c9378bb4c1b4cd33
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/14/2022
-ms.locfileid: "8119517"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "8466417"
 ---
 # <a name="data-mart-resets-faq"></a>Duomenų srities nustatymo iš naujo DUK
 
@@ -47,10 +47,14 @@ Jei jūsų situacijai tinka vienas ar daugiau iš šių sakinių, jūsų organiz
 Šiomis tam tikromis aplinkybėmis nerekomenduojame jums iš naujo nustatyti duomenų sritį:
 
 - Patiriate duomenų integravimo našumo problemas.
+- Neįgalinta jūsų "Financial Reporter" integracija. 
+
+    - Tai reiškia, kad DK duomenys nebebus sinchronizuojami su jūsų finansinių ataskaitų duomenimis. Jūsų Financial Reporter negali gauti finansinių ataskaitų ataskavimo datos numerių. Taip paprastai nutinka, jei ilgai neturite finansinės ataskaitos priemonės.
+    - Jums bus pasiūlyta įgalinti integravimą iš naujo nustatant duomenų saugyklą. Galite tęsti pasirinkdami **Taip**. Be to, galite pasirinkti iš naujo nustatyti duomenų saugyklą vėliau. Įgalinus integravimą, jūsų DK duomenys vėl sinchronizuojami su finansinių ataskaitų priemonėje. 
 - Turite pasikartojantį nustatymo iš naujo šabloną dėl bet kurios iš šių priežasčių:
 
     - **Trūksta arba netikėtų duomenų ataskaitoje** – jei pastebite, kad duomenų nėra, atidarykite palaikymo kvitą "Microsoft", kad peržiūrėtumėte savo ataskaitos formatą ir galimus duomenų sinchronizavimo klausimus.
-    - **Įstrigti integravimo būsena**
+    - **Įstringa** integravimo būsena – jei pastebite, kad integravimo būsena veikia, tai gali būti dėl didelio operacijų kiekio sistemoje. Ši būsena išspręs save. Tačiau jei nepastebite, kad intregacijos būsena užims daugiau nei keturias valandas, atidarykite palaikymo bilietą su Microsoft. 
    
 ## <a name="if-i-reset-the-data-mart-will-i-lose-reports-that-ive-already-designed"></a>Jei iš naujo nustatysite duomenų saugyklą, prarasite jau sukurtas ataskaitas?
 

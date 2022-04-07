@@ -1,23 +1,23 @@
 ---
 title: Tarptautinio banko sąskaitos numerio (IBAN) sąskaitos tikrinimo valdymas
 description: Šioje temoje paaiškinama, kaip valdyti tarptautinio banko sąskaitos numerio (IBAN) sąskaitos tikrinimą.
-author: roschlom
+author: twheeloc
 ms.date: 08/24/2018
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 210d2f57e21ec5ac38ba8ca07195e40ff507e2b9
-ms.sourcegitcommit: 8c17717b800c2649af573851ab640368af299981
+ms.openlocfilehash: 89d6c38088e43f0f24fa41accecaa262a64006cf
+ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/23/2021
-ms.locfileid: "7860824"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "8462770"
 ---
 # <a name="manage-international-bank-account-number-iban-account-validation"></a>Tarptautinio banko sąskaitos numerio (IBAN) sąskaitos tikrinimo valdymas
 
@@ -25,13 +25,13 @@ ms.locfileid: "7860824"
 
 Taikant tarptautinio banko sąskaitos numerio (IBAN) tikrinimą padaugėja tikrinimų, kurie yra atliekami, kai įtraukiate IBAN į banko sąskaitą.
 
-Informacija apie IBAN struktūrą saugoma „Microsoft Dynamics 365 Finance“. Ši informacija automatiškai įkeliama pirmą kartą naudojantis IBAN banko sąskaitose. Ji apima IBAN ilgį, banko sąskaitos numerio ir įmonės registracijos numerio pradžios taškus, taip pat banko sąskaitos numerio ir įmonės registracijos numerio ilgį.
+Informacija apie IBAN struktūrą saugoma "Microsoft Dynamics 365 Finance " ir automatiškai įkeliama, kai pirmą kartą naudojate IBAN banko sąskaitose. Ji apima IBAN ilgį, banko sąskaitos numerio ir įmonės registracijos numerio pradžios taškus, taip pat banko sąskaitos numerio ir įmonės registracijos numerio ilgį.
 
 ## <a name="set-up-iban-structures"></a>IBAN struktūrų nustatymas
 
 1. Pasirinkite **Grynųjų pinigų ir banko valdymas \> Nustatymas \> IBAN struktūros**.
 2. Atkreipkite dėmesį, kad kiekvienos šalies ar regiono IBAN struktūros nustatomos automatiškai.
-3. Jei norite tinkinti konkrečios šalies ar regiono struktūras, galite jas redaguoti.
+3. Jei struktūrą **reikia** atnaujinti pagal konkrečią šalį arba regioną, pasirinkite mygtuką Redaguoti.
 4. Struktūrų aprašai bus kiekvieno naujo leidimo dalis. Galite naudoti meniu **Struktūrų nustatymas iš naujo**, kad po kiekvieno atnaujinimo įkeltumėte naujausius aprašus.
 
 ## <a name="validate-the-iban-structure-in-a-bank-account"></a>Banko sąskaitos IBAN struktūros tikrinimas

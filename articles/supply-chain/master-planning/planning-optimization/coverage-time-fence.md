@@ -1,7 +1,7 @@
 ---
 title: Padengimo laiko riba
 description: Šioje temoje aprašoma, kaip nustatyti padengimo laiko ribas, kai naudojate Planavimo optimizavimą. Padengimo laiko riba nurodo jūsų planavimo perspektyvą ir limitą.
-author: ChristianRytt
+author: t-benebo
 ms.date: 01/18/2021
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: crytt
+ms.author: benebotg
 ms.search.validFrom: 2021-01-18
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 32bf890d1ff74155a75862afd6b0e861fbfc10e2
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 12deca22fd6ff3cb4556e0525ab831e1aea0ee33
+ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567324"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "8468922"
 ---
 # <a name="coverage-time-fences"></a>Padengimo laiko riba
 

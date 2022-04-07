@@ -9,17 +9,16 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: c15104e0f34c1f6cb6a599d506dad741be3e5e9e
-ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
+ms.openlocfilehash: e4b0b9f7eb4fb0ffab3237459d85ea92c83dd206
+ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/05/2022
-ms.locfileid: "8388395"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "8462171"
 ---
 # <a name="set-up-the-fiscal-integration-for-commerce-channels"></a>Prekybos kanalų fiskalinės integracijos nustatymas
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
 
 Šioje temoje pateikiamos prekybos kanalų fiskalinės integracijos nustatymo gairės. Daugiau informacijos apie fiskalinę integraciją žr. [Prekybos kanalų fiskalinės integracijos apžvalga](fiscal-integration-for-retail-channel.md).
 

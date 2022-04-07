@@ -2,25 +2,27 @@
 title: Finansinių ataskaitų apžvalga
 description: Šioje temoje paaiškinama, kur galima pasiekti „Microsoft Dynamics 365 Finance“ finansines ataskaitas ir kaip naudoti finansinių ataskaitų galimybes.
 author: aprilolson
-ms.date: 07/27/2021
+ms.date: 03/31/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: intro-internal
+ms.custom:
+- "10444"
+- intro-internal
 ms.assetid: 3eae6dc3-ee06-4b6d-9e7d-1ee2c3b10339
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1fbdab1f4f81bbdb8b0b5cb3e6a5237196d7dc76
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: e1db676024f5ec0f254500bd2ceee85ab2150502
+ms.sourcegitcommit: 777f9581dccc0f963c6a04c95b85e00e68573db5
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983982"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8527319"
 ---
 # <a name="get-started-with-financial-reporting"></a>Pradėkite naudoti finansines ataskaitas 
 
@@ -174,7 +176,7 @@ Trikdis 1: „Report Designer“ neįsijungia jums pasirinkus **Naujas** ar **Re
 * „Internet Explorer“ pasirinkite **Nustatymai** ir tuomet pasirinkite **Interneto parinktys**. Pasirinkite **Saugos** skirtuką. Pasirinkite patikimas svetaines ir pasirinkite **Svetainės**. **Įtraukti šią interneto svetainę į sritį** įveskite "\*\.dynamics.com" (be kabučių) ir tuomet pasirinkite **Įtraukti**. 
 * „Internet Explorer“ pasirinkite **Nustatymai** ir tuomet pasirinkite **Interneto parinktys**. Pasirinkite **Saugos** skirtuką. Pasirinkite patikimas svetaines. Srityje pavadintoje Saugumo lygis šiai sričiai, pakeiskite parinktį į **Vidutinis-Žemas**.
 * Išjunkite iššokančių langų blokavimo programą savo naršyklėje.
-* Darbo stotyse būtina įdiegti „Microsoft .NET Framework“ 4.6.2 ar aukštesnę versiją. Šią „Microsoft .NET Framework“ versiją galima atsisiųsti ir įdiegti apsilankius puslapyje [„Microsoft“ atsisiuntimo centras](https://www.microsoft.com/download/details.aspx?id=53345).
+* Darbo stotyse būtina įdiegti „Microsoft .NET Framework“ 4.7.2 ar aukštesnę versiją. Šią „Microsoft .NET Framework“ versiją galima atsisiųsti ir įdiegti apsilankius puslapyje [„Microsoft“ atsisiuntimo centras](https://dotnet.microsoft.com/download/dotnet-framework/net472).
 * Jei naudojate naršyklę „Chrome“, turite įdiegti plėtinį „ClickOnce“, kad atsisiųstumėte ataskaitų dizaino įrankio klientą. Jei naršyklė „Chrome“ veikia inkognito režimu, įsitikinkite, kad plėtinys „ClickOnce“ nustatytas veikti inkognito režimu. Daugiau informacijos apie „Chrome“ plėtinį „ClickOnce“ žr. [Sistemos reikalavimai įdiegtims debesyje](../../fin-ops-core/fin-ops/get-started/system-requirements.md).
 * Jei naudojate „Microsoft Edge“ su „Chrome“ naršykle, jums nereikia įdiegti plėtinio „ClickOnce“, skirto „Edge Chromium“. Tačiau turite įjungti parinktį „ClickOnce“, kad atsisiųstumėte ataskaitų dizaino įrankio klientą. Jei dirbate neatpažintu režimu, įsitikinkite, kad „ClickOnce“ plėtinys yra įjungtas neatpažintu režimu.
 

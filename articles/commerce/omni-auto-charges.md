@@ -2,7 +2,7 @@
 title: Integruoto kanalo išplėstinės automatinės išlaidos
 description: Šioje temoje aprašomos papildomos „Commerce“ kito kanalo užsakymų mokesčių tvarkymo galimybės naudojant pažangias automatinio apmokestinimo funkcijas.
 author: hhaines
-ms.date: 03/30/2020
+ms.date: 03/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: ef6396ec66a0f96ba97b176c46bf70d83a080883cf496312398f14dce3ad9758
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 69432e13424b08b75e8ce7c88eaf6be66db59e65
+ms.sourcegitcommit: 94ebdaae6dc996b205ac78ed546e38f91f4f46ed
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6743436"
+ms.lasthandoff: 03/28/2022
+ms.locfileid: "8489623"
 ---
 # <a name="omni-channel-advanced-auto-charges"></a>Integruoto kanalo išplėstinės automatinės išlaidos
 
@@ -187,6 +187,9 @@ Jei užfiksuotas perrašytų išlaidų priežasties kodas, taip pat pateikiama n
 ### <a name="refunding-charges-on-a-pos-return-transaction"></a>EKA grąžinimo operacijos išlaidų grąžinimas
 
 Jei parametras **Naudoti išplėstines automatines išlaidas** nustatytas į **Taip**, esamas „Commerce“ parametras, skirtas **Grąžinti siuntimo išlaidas**, nebetaikomas. Norėdami nurodyti, kurios išlaidos klientui turėtų būti sistematiškai grąžinamos, kai naudojamos išplėstinės automatinės išlaidos, įsitikinkite, kad susijusių išlaidų kodas nustatymo puslapyje **Išlaidų kodas** yra sukonfigūruotas kaip **Gražinamas**. Apdorodami paskirstymo grafiką įsitikinkite, kad parametrai buvo susinchronizuoti su „Commerce“ kanalo duomenų bazėmis.
+
+> [!TIP]
+> Patarimų, kurie padės užtikrinti, kad eilutės lygio grąžintini mokesčiai būtų skaičiuojami pagal grąžinamą kiekį, [žr. grąžinamus mokesčius neskaičiuojant pagal grąžintas kiekis](/troubleshoot/Refund-charges-miscalculated-for-partial-quantity-returned.md).
 
 ### <a name="refunding-charges-on-a-return-order-transaction"></a>Grąžinimo užsakymo operacijos išlaidų grąžinimas
 

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 33aab6f0a482ce3d90a7e9828015a8e7bebb7827
-ms.sourcegitcommit: ffdb6794746ffe5461f9dcf34ed8e64976d22d2d
+ms.openlocfilehash: 6aed74656ceb8edd0e88adf53b61fcae81241f54
+ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "8371967"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "8470183"
 ---
 # <a name="set-up-regulatory-configuration-service-rcs"></a>Nustatyti reguliavimo konfigūracijos tarnybą (RCS)
 
@@ -50,6 +50,13 @@ Dabar globalizavimo funkcijų **darbo srities išklotinė** vieta dabar turi bū
     | Jungtinė Karalystė             | <p>`https://gw.uk-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.uk-il102.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
     | Azija                       | <p>`https://gw.as-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.as-il102.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
     | Japonija                      | <p>`https://gw.jp-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
+    | Šveicarija                | <p>`https://gw.ch-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
+    | Brazilija                     | <p>`https://gw.br-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> <p>`https://gw.br-il102.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
+    | Jungtiniai Arabų Emyratai       | <p>`https://gw.ae-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
+    | Australija                  | <p>`https://gw.au-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> <p>`https://gw.au-il102.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
+    | Kanada                     | <p>`https://gw.ca-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> <p>`https://gw.ca-il102.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
+    | Prancūzija                     | <p>`https://gw.fr-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
+    | Indija                      | <p>`https://gw.in-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
 
 3. Patvirtinkite, kad **Programos ID** laukelis yra nustatytas į **0cdb527f-a8d1-4bf8-9436-b352c68682b2**. Ši vertė yra fiksuota vertė. Įsitikinkite, kad įvestas tik globalus unikalus identifikatorius (GUID) ir kad į reikšmę nėra jokių kitų simbolių, pvz., tarpų, kablelių, periodų ar kabučių.
 4. **Lauke LCS aplinkos ID** įveskite savo ciklo Microsoft Dynamics tarnybų (LCS) aplinkos ID. Ši vertė yra nuoroda į finansų arba tiekimo grandinės valdymo aplinką, kurią naudosite su elektroninių SF išrašymo paslauga. Norėdami gauti savo ID, [prisijunkite prie LCS](https://lcs.dynamics.com/), atidarykite projektą, **·** **·** **tada skirtuko Aplinkos valdymas skyriuje Aplinkos informacija žiūrėkite lauke Aplinkos ID.**

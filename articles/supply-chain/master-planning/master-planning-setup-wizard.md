@@ -1,7 +1,7 @@
 ---
 title: Bendrojo planavimo nustatymo vedlys (yra vaizdo įrašas)
 description: Šioje temoje aprašoma, kaip paleisti bendrojo planavimo nustatymo vedlį, norint nustatyti bendrąjį planavimą.
-author: ChristianRytt
+author: t-benebo
 ms.date: 10/21/2019
 ms.topic: article
 ms.prod: ''
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: 453184a3fed567b3a09e5e45e7f904bcf855dd6d
-ms.sourcegitcommit: ef0dd4245fc499907ffe00e2a32f59a6cd96e45d
+ms.openlocfilehash: a5914f63de654acd076048240c6e37d5b67f4ffa
+ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/18/2021
-ms.locfileid: "7937638"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "8470211"
 ---
 # <a name="master-planning-setup-wizard"></a>Bendrojo planavimo sąrankos vedlys
 
@@ -31,7 +31,7 @@ ms.locfileid: "7937638"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3YnSB]
 
-[Bendrojo planavimo nustatymo vedlys, esantis „Dynamics 365 Supply Chain Management“](https://youtu.be/c-e6n-8rZb4) vaizdo įraše (pateiktas aukščiau), įtrauktas į [„Finance and Operations“ grojaraštį](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW), kuris prieinamas „YouTube“.
+[Bendrojo planavimo sąrankos vedlys sistemoje „Dynamics 365 Supply Chain Management“](https://youtu.be/c-e6n-8rZb4) vaizdo įrašas (pateiktas pirmiau) yra įtrauktas į [„Finance and Operations“ grojaraštį](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW), kurį galima rasti „YouTube“.
 
 
 ## <a name="specific-requirements-of-your-company"></a>Konkretūs jūsų įmonės reikalavimai

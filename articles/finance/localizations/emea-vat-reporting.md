@@ -2,7 +2,7 @@
 title: PVM ataskaitos Europoje
 description: Šioje temoje pateikiama bendra informacija apie pridėtinės vertės mokesčio (PVM) išrašo, skirto kai kurioms Europos šalims, nustatymą ir generavimą.
 author: ShylaThompson
-ms.date: 06/20/2017
+ms.date: 03/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Austria, Belgium, Czech Republic, Estonia, Finland, Germany, L
 ms.author: kfend
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: b028c5a185b4e7626dd9258630cc469c4439fc37d1c9d1cd7d42007b0ec85736
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a1f7611dcf713e80f637a4b3f5542763050ac4a6
+ms.sourcegitcommit: 6f6ec4f4ff595bf81f0b8b83f66442d5456efa87
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6741490"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "8487754"
 ---
 # <a name="vat-reporting-for-europe"></a>PVM ataskaitos Europoje
 
@@ -39,6 +39,25 @@ ms.locfileid: "6741490"
 -   Lietuva
 -   Nyderlandai
 -   Švedija
+
+> [!IMPORTANT]
+> Priemonės, aprašytos šioje temoje Austrijai, Čekijos Respublikai, Vokietijai, Nyderlandams ir Švedijai, yra pasenusios. Daugiau informacijos rasite Pašalintos [ir pasenusios funkcijos](../get-started/removed-deprecated-features-finance.md).
+> Norėdami daugiau sužinoti apie naują PVM deklaracijų dizainą atitinkamose šalyse, naudokite šioje lentelėje pateikiamus saitus.
+> 
+>
+> | Šalis        | Papildoma informacija                                                          |
+> |----------------|---------------------------------------------------------------------------------|
+> | Austrija        | [PVM deklaracija (Austrija)](emea-aut-vat-declaration-austria.md)       |                                                                           
+> | Čekijos Respublika | [PVM deklaracija (Čekijos Respublika)](emea-cze-vat-declaration-tax-declaration-model.md) |
+> | Danija        | [PVM deklaracija (Danija)](emea-dnk-vat-declaration-denmark.md)         |
+> | Prancūzija         | [PVM deklaracija (Prancūzija)](emea-fra-vat-declaration-preview-france.md)       |
+> | Vokietija        | [PVM deklaracija (Vokietija)](emea-deu-vat-declaration-germany.md)           |
+> | Nyderlandai    | [PVM deklaracija (Nyderlandai)](emea-nl-vat-declaration-netherlands.md)    |
+> | Norvegija         | [PVM grąžinimas su tiesioginiu pateikimu „Altinn“](emea-nor-vat-return.md) |
+> | Ispanija          | [PVM deklaracija (Ispanija)](emea-esp-vat-declaration-spain.md)              |
+> | Švedija         | [PVM deklaracija (Švedija)](emea-swe-vat-declaration-sweden.md)          |
+> | Šveicarija    | [PVM deklaracija (Šveicarija)](emea-che-vat-declaration-switzerland.md) |
+> | JK             | [Pasirengimas integruoti į MRD PVM](emea-gbr-mtd-vat-integration.md) |
 
 ## <a name="vat-statement-overview"></a>PVM išrašo apžvalga
 PVM išrašas pagrįstas PVM operacijų sumomis. PVM išrašo generavimo procesas yra PVM apmokėjimo proceso, kuris vykdomas naudojant funkciją Sudengti ir užregistruoti PVM, dalis. Ši funkcija apskaičiuoja nurodyto laikotarpio PVM. Sudengimo skaičiavimas apima mokesčio operacijos pasirinkto sudengimo laikotarpio užregistruotą PVM. PVM išrašo duomenų skaičiavimo procesas pagrįstas ryšiu tarp PVM kodų ir PVM ataskaitų kodų, kai PVM ataskaitų kodai atitinka PVM išrašų langelius (arba XML žymes). Reikia nustatyti kiekvieno PVM kodo kiekvieno operacijos tipo PVM ataskaitų kodus, pvz., kaip apmokestinamą pardavimą, apmokestinamus pirkimus, apmokestinamą importą. Šio tipo operacijos aprašytos tolesniame šios temos skyriuje PVM ataskaitų PVM kodai.
@@ -258,10 +277,10 @@ Kiekvienos šalies PVM išrašas turi atitikti šalies teisės reikalavimus. Tol
 
 | Šalis        | Papildoma informacija                                                          |
 |----------------|---------------------------------------------------------------------------------|
-| Austrija        |  [PVM išrašo informacija, skirta Austrijai](emea-aut-vat-statement-details.md)         |
+| Austrija        | [PVM išrašo informacija, skirta Austrijai](emea-aut-vat-statement-details.md)         |
 | Belgija        |                                                                                 |
-| Čekijos Respublika |  [Čekijos PVM išrašas](emea-cze-vat-statement-details.md)   |
-| Estija        |  [PVM išrašo informacija, skirta Estijai](emea-est-vat-statement-details.md) |
+| Čekijos Respublika | [Čekijos PVM išrašas](emea-cze-vat-statement-details.md)   |
+| Estija        | [PVM išrašo informacija, skirta Estijai](emea-est-vat-statement-details.md) |
 | Suomija        | [PVM ataskaita (Suomija)](emea-fin-sales-tax-payment-report-finland.md)          |
 | Vokietija        | [PVM deklaracija (Vokietija)](emea-de-vat-declaration.md)                       |
 | Italija          | [Išsami informacija apie Italijos PVM išrašus](emea-ita-vat-statements-details.md)            |
