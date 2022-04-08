@@ -20,8 +20,6 @@
                   href: get-started/whats-new-platform-updates-10-0-25.md
                 - name: "„Platform“ naujinimai, skirti 10.0.24 versijai (2022\_m. vasario mėn.)"
                   href: get-started/whats-new-platform-updates-10-0-24.md
-                - name: "„Platform“ naujinimai, skirti 10.0.23 versijai (2022\_m. sausio mėn.)"
-                  href: get-started/whats-new-platform-updates-10-0-23.md
             - name: Pašalintos arba nerekomenduojamos funkcijos
               items:
                 - name: Pašalintos arba nerekomenduojamos funkcijos pagrindinis puslapis
@@ -240,6 +238,8 @@
               href: data-entities/configure-export-data-lake.md
             - name: Finansų ir operacijų programos „Azure Data Lake“
               href: data-entities/finance-data-azure-data-lake.md
+            - name: 'Duomenys ir metaduomenys, saugomi „Azure Data Lake“'
+              href: data-entities/Azure-Data-Lake-Enhanced-Metadata.md
             - name: Leidimas objektų saugyklą naudoti kaip „Data Lake“
               href: data-entities/entity-store-data-lake.md
             - name: 'Verslo įvykiai, kuriuos sugeneravo eksportavimo į „Azure Data Lake“ tarnyba (peržiūros versija)'
@@ -410,6 +410,8 @@
                       href: deployment/onprem-remove-reinstall-AOS-node.md
                     - name: To paties AD FS egzemplioriaus naudojimas keliose aplinkose
                       href: deployment/onprem-reuseadfs.md
+                    - name: „Microsoft Dynamics 365 Finance + Operations (on-premises)“ aplinkų „Windows Server“ versijos naujinimas
+                      href: deployment/onprem-upgrade-os.md
                     - name: „Microsoft Dynamics 365 Finance + Operations (on-premises)“ aplinkų „SQL Server“ egzemplioriaus versijos naujinimas
                       href: deployment/onprem-upgrade-sqlserver.md
                 - name: Vietos agentas
@@ -932,6 +934,8 @@
                   href: lifecycle-services/lcs-works-lcs.md
                 - name: LCS partneriams
                   href: lifecycle-services/getting-started-lcs.md
+                - name: Palaikomos žiniatinklio naršyklės
+                  href: lifecycle-services/web-browsers.md
                 - name: „RESTful“ API
                   items:
                     - name: Aplinkų pradėjimas ir stabdymas
@@ -1490,6 +1494,8 @@
               href: perf-test/rsat/rsat-derived-test-cases.md
             - name: Parametrų failų atnaujinimas
               href: perf-test/rsat/rsat-upgrade-parameter-files.md
+            - name: Bandomosios versijos režimas be „Azure DevOps“
+              href: perf-test/rsat/rsat-trial-without-devops.md
             - name: „Regression Suite Automation Tool“ mokymo programa
               href: perf-test/rsat/rsat-tutorial.md
             - name: Ne administratoriaus vartotojų konfigūravimas

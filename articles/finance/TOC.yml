@@ -18,8 +18,6 @@
                   href: get-started/whats-new-changed-10-0-25.md
                 - name: „Finance 10.0.24“ (vasaris)
                   href: get-started/whats-new-changed-10-0-24.md
-                - name: „Finance 10.0.23“ (sausis)
-                  href: get-started/whats-new-changed-10-0-23.md
             - name: Pašalintos arba nerekomenduojamos funkcijos
               items:
                 - name: Pašalintos arba nerekomenduojamos funkcijos pagrindinis puslapis
@@ -414,8 +412,20 @@
               items:
                 - name: Prenumeratų sąskaitų valdymo apžvalga
                   href: accounts-receivable/subscription-billing-summary.md
-                - name: Atsiskaitymo grafikų nustatymas
-                  href: accounts-receivable/sb-billing-schedules.md
+                - name: Periodinis atsiskaitymas pagal sutartį
+                  items:
+                    - name: Atsiskaitymo grafikų kūrimas
+                      href: accounts-receivable/sb-billing-schedules.md
+                    - name: Atsiskaitymo grafiko kopijavimas
+                      href: accounts-receivable/sb-copy-schedules-items.md
+                    - name: Sąskaitų pateikimas dalimis
+                      href: accounts-receivable/sb-milestonebilling.md
+                    - name: Atsiskaitymo grafikų nutraukimas
+                      href: accounts-receivable/terminate-billing-schedule.md
+                - name: Įplaukų ir išlaidų atidėjimai
+                  items: null
+                - name: Kelių elementų įplaukų paskirstymas
+                  items: null
             - name: Mokėjimai ir sudengimai
               items:
                 - name: Kliento mokėjimų apžvalga
@@ -1443,11 +1453,11 @@
                             - name: „SharePoint“ kanalo konfigūravimas
                               href: localizations/e-invoicing-configure-sharepoint-channel.md
                         - name: Elektroninių SF išrašymo naudojant „Finance“ ir „Supply Chain Management“ nustatymas ir naudojimas
-                          items: null
-                        - name: Integravimo su elektroninių SF išrašymu aktyvinimas ir nustatymas
-                          href: localizations/e-invoicing-activate-setup-integration.md?toc=/dynamics365/finance/toc.json
-                        - name: Elektroninių SF išrašymo parametrų nustatymas
-                          href: localizations/e-invoicing-set-up-parameters.md?toc=/dynamics365/finance/toc.json
+                          items:
+                            - name: Integravimo su elektroninių SF išrašymu aktyvinimas ir nustatymas
+                              href: localizations/e-invoicing-activate-setup-integration.md?toc=/dynamics365/finance/toc.json
+                            - name: Elektroninių SF išrašymo parametrų nustatymas
+                              href: localizations/e-invoicing-set-up-parameters.md?toc=/dynamics365/finance/toc.json
                         - name: Darbas su elektroninių SF išrašymu
                           items:
                             - name: Elektroninių dokumentų teikimas norint išrašyti elektronines SF
@@ -1532,6 +1542,10 @@
                           items:
                             - name: PVM deklaracija
                               href: localizations/emea-dnk-vat-declaration-denmark.md
+                        - name: Suomijos ataskaitos
+                          items:
+                            - name: PVM deklaracija
+                              href: localizations/emea-fin-vat-declaration-mult-tax-id.md
                         - name: Prancūzijos ataskaitos
                           items:
                             - name: PVM deklaracija
@@ -1546,6 +1560,10 @@
                               href: localizations/emea-nl-vat-declaration-netherlands.md
                             - name: ES pardavimo sąrašas
                               href: localizations/emea-nl-eu-sales-list.md
+                        - name: Norvegijos ataskaitos
+                          items:
+                            - name: PVM deklaracija
+                              href: localizations/emea-nor-vat-declaration.md
                         - name: Ispanijos ataskaitos
                           items:
                             - name: 'Tiesioginis PVM informacijos tiekimas („Suministro Inmediato de Información del IVA”, SII)'
@@ -1564,10 +1582,6 @@
                           items:
                             - name: PVM deklaracija
                               href: localizations/emea-gbr-vat-declaration.md
-                        - name: Norvegijos ataskaitos
-                          items:
-                            - name: PVM deklaracija
-                              href: localizations/emea-nor-vat-declaration.md
                     - name: Mokesčio skaičiavimo perkėlimo užsakymui įjungimas
                       items:
                         - name: Mokesčių funkcijų palaikymas perkėlimo užsakymams
@@ -1694,8 +1708,6 @@
                   href: localizations/emea-aut-half-year-depreciation.md
                 - name: Pakavimo medžiagų mokesčiai
                   href: localizations/emea-aut-packing-material-fee-calculation.md
-                - name: PVM išrašas
-                  href: localizations/emea-aut-vat-statement-details.md
                 - name: Užsienio paslaugų ataskaita
                   href: localizations/emea-aut-cross-border-services-report.md
                 - name: Austrijos „Intrastat“
@@ -2020,9 +2032,7 @@
                   href: localizations/emea-create-post-periodic-journals.md
                 - name: Sumų rodymo ataskaitose ir dokumentuose naujinimas
                   href: localizations/emea-amount-printing-forms.md
-                - name: PVM išrašas
-                  href: localizations/emea-cze-vat-statement-details.md
-                - name: PVM deklaracija (Čekijos Respublika)
+                - name: PVM deklaracija
                   href: localizations/emea-cze-vat-declaration-tax-declaration-model.md
                 - name: Čekijos „Intrastat“
                   href: localizations/emea-cze-intrastat.md
@@ -2060,6 +2070,8 @@
                   href: localizations/tasks/set-up-payment-slip-format.md
                 - name: Danijos „Intrastat“
                   href: localizations/emea-dnk-intrastat.md
+                - name: PVM deklaracija
+                  href: localizations/emea-dnk-vat-declaration-denmark.md
             - name: Egiptas
               items:
                 - name: Egipto apžvalga
@@ -2242,6 +2254,8 @@
                   href: localizations/emea-fin-sales-tax-payment-report-finland.md
                 - name: Suomijos „Intrastat“
                   href: localizations/emea-fin-intrastat.md
+                - name: PVM deklaracija
+                  href: localizations/emea-fin-vat-declaration.md
             - name: Prancūzija
               items:
                 - name: Prancūzijos apžvalga
@@ -2332,12 +2346,8 @@
                   href: localizations/tasks/de-00002-depreciation.md
                 - name: PVM deklaracija
                   href: localizations/emea-deu-vat-declaration-germany.md
-                - name: Elektroninis PVM deklaracijos perkėlimas (ELSTER)
-                  href: localizations/tasks/de-00003-electronic-transmission-elster.md
                 - name: Vokietijos Intrastat
                   href: localizations/emea-deu-intrastat.md
-                - name: PVM išrašas
-                  href: localizations/emea-de-vat-declaration.md
                 - name: Kliento elektroninių sąskaitų faktūrų ataskaita
                   href: localizations/emea-deu-e-invoices.md
                 - name: Žurnalų sąrašo ataskaita
@@ -2348,8 +2358,6 @@
                   href: localizations/emea-deu-print-separate-label-credit-memo-originating-sales.md
                 - name: ES pardavimo sąrašas
                   href: localizations/emea-deu-eu-sales-list.md
-                - name: PVM deklaracija
-                  href: localizations/emea-dnk-vat-declaration-denmark.md
             - name: Vengrija
               items:
                 - name: Vengrijos apžvalga
@@ -2558,10 +2566,12 @@
                                   href: localizations/apac-ind-GST-return-order-form.md
                             - name: Užsienio operacijos
                               items:
-                                - name: 'Prekių, kurioms taikomas PPM, importavimas'
+                                - name: 'Prekių, kurioms taikomas GST, importavimas'
                                   href: localizations/apac-ind-GST-import-goods-gst.md
-                                - name: 'Paslaugų, kurioms taikomas PPM, importavimas'
+                                - name: 'Paslaugų, kurioms taikomas GST, importavimas'
                                   href: localizations/apac-ind-import-services-gst.md
+                                - name: Išlaidų paskirstymas importo užsakymų muitinės deklaracijos puslapyje
+                                  href: localizations/apac-ind-charge-allocation-boe-page-import-orders.md
                                 - name: 'Prekių, kurioms taikomas nulinio tarifo mokestis, eksportavimas'
                                   href: localizations/apac-ind-GST-export-goods-zero-rated-tax.md
                                 - name: 'Paslaugų, kurioms taikomas nulinio tarifo mokestis, eksportavimas'
@@ -3116,17 +3126,13 @@
               items:
                 - name: Nyderlandų apžvalga
                   href: localizations/netherlands.md
-                - name: PVM deklaracija
-                  href: localizations/emea-nl-VAT-declaration.md
-                - name: Elektroninės mokesčių deklaracijos (EVAT)
-                  href: localizations/tasks/nl-00010-electronic-tax-declarations-evat.md
                 - name: „Semansys XBRL“ integravimas
                   href: localizations/tasks/nl-00003-semansys-xbrl-integration.md
                 - name: Audito failas („XML Auditfile Financieel XAF“)
                   href: localizations/emea-nl-audit-file.md
                 - name: PVM deklaracija (Nyderlandai)
                   href: localizations/emea-nl-vat-declaration-netherlands.md
-                - name: Nyderlandų „Intrastat“
+                - name: Intrastat
                   href: localizations/emea-nl-intrastat.md
                 - name: ES pardavimo sąrašas
                   href: localizations/emea-nl-EU-sales-list.md
@@ -3540,7 +3546,7 @@
                   href: localizations/emea-swe-payment-formats-import.md
                 - name: PVM mokėjimo ataskaita (Švedija)
                   href: localizations/emea-swe-sales-tax-payment-report-sweden.md
-                - name: Švedijos PVM deklaracija
+                - name: PVM deklaracija
                   href: localizations/emea-swe-VAT-declaration-Sweden.md
                 - name: Švedijos „Intrastat”
                   href: localizations/emea-swe-intrastat.md
