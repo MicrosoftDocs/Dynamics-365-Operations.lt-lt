@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: AX 10.0.19
-ms.openlocfilehash: 68f1ed6a6d6bb0d15a81539da7f483ad71a4d696
-ms.sourcegitcommit: 477efa4cb138f41d4f68bcd82552af3473bcc3d9
-ms.translationtype: HT
+ms.openlocfilehash: 8862f42f3ceaed7e1413c49cf9b91f0449fab67b
+ms.sourcegitcommit: 4c8223c9540fbc1c1e554962938058d432e4c681
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/29/2021
-ms.locfileid: "7715235"
+ms.lasthandoff: 04/05/2022
+ms.locfileid: "8547988"
 ---
 # <a name="regulatory-configuration-service-rcs--lifecycle-services-lcs-storage-deprecation"></a>„Regulatory Configuration Service“ (RCS) – „Lifecycle Services“ (LCS) saugykla nebegalioja
 
@@ -29,17 +29,17 @@ ms.locfileid: "7715235"
 Galiojimo laiko tarnybų (LCS) naudojimas kaip elektroninių ataskaitų (ER) konfigūracijų saugyklos saugykla „Microsoft Dynamics Lifecycle Services“ yra pasenusi. Šis pasikeitimas bus atlikti šiais pakeitimais:
 
 - „Microsoft" pagamintos konfigūracijos, nebebus publikuojamos LCS bendrai naudojamų „Microsoft Dynamics 365“ bendrintų turtų bibliotekoje. Todėl jos bus publikuojamos tik naudojant RCS visuotinę saugyklą. Tačiau konfigūracijos „Dynamics AX 2012“ toliau bus publikuojamos bendrintoje turto bibliotekoje LCS iki palaikymo gyvavimo ciklas AX 2012 baigsis.
-- Funkcijos, kurios leidžia įkelti konfigūracijas į projekto turto biblioteką LCS iš programėlių ir iš „Finance and Operations“ RCS, bus neaktyvintos. Tačiau LCS vis tiek galėsite naudoti naršyklę, norėdami įkelti konfigūracijas į projekto turto biblioteką. Todėl vis tiek galėsite įtraukti konfigūracijas į LCS, kad jas būtų galima įtraukti į sprendimų paketus.
-- Importuoti konfigūracijas iš LCS, kurios tam tikrą laiką bus ir toliau galimos ir palaikomos programėlėse, ir „Finance and Operations“ RCS. Nepaisant to, funkcija galiausiai nebegalios. (Tiksli nurašyta data bus vėlesnė.)
+- Funkcijos, kurios leidžia įkelti konfigūracijas į LCS projekto turto biblioteką iš finansų ir operacijų programėlių ir iš RCS, bus neaktyvintos. Tačiau LCS vis tiek galėsite naudoti naršyklę, norėdami įkelti konfigūracijas į projekto turto biblioteką. Todėl vis tiek galėsite įtraukti konfigūracijas į LCS, kad jas būtų galima įtraukti į sprendimų paketus.
+- Importuoti konfigūracijas iš LCS, kurios jau kurį laiką bus galimos ir palaikomos finansų ir operacijų programėlėse, ir RCS. Nepaisant to, funkcija galiausiai nebegalios. (Tiksli nurašyta data bus vėlesnė.)
 
 ## <a name="deprecation-notice"></a>Pranešimas apie nebegaliojimą
 
-LCS naudojimas kaip saugykla buvo naudojamas kaip [pašalintos arba pasenusios funkcijos – „Dynamics 365 Finance“ LCS pranešimai dėl pasenusios funkcijos](../get-started/removed-deprecated-features-finance.md#features-removed-or-deprecated-in-the-finance-10017-release). Suplanuota pasenusi data yra 2022 m. balandžio 1 d.
+LCS [naudojimas kaip saugykla buvo naudojamas kaip pašalintos arba pasenusios "Dynamics 365 Finance – LCS" pasenusios funkcijos](../get-started/removed-deprecated-features-finance.md#features-removed-or-deprecated-in-the-finance-10017-release). Suplanuota pasenusi data yra 2022 m. balandžio 1 d.
 
 ## <a name="key-features"></a>Pagrindinės funkcijos
 
 - Naudokite RCS, norėdami sukurti ir redaguoti ER konfigūracijas ir visuotines funkcijas.
-- Perstumkite konfigūracijas tiesiogiai iš RCS dizainerio į prijungtą programą, pvz. Dynamics 365 Finance aplinką, kad galėtumėte greitai atlikti ir patikrinti savo konfigūracijų pakeitimus.
+- Perstumkite konfigūracijas tiesiogiai iš RCS dizainerio į prijungtą programą, pvz., "Dynamics 365" finansų aplinką, kad galėtumėte greitai atlikti ir patikrinti savo konfigūracijų pakeitimus.
 - Centralizuotai išsaugokite, dalinkitės ir valdykite ER konfigūracijų ir visuotinų funkcijų gyvavimo ciklą, naudojant visuotinės saugyklos centralizuotą saugyklą.
 
 ## <a name="guidance-for-one-time-and-ongoing-actions"></a>Vienkartinių ir vykdomų veiksmų patarimų
@@ -52,7 +52,7 @@ Importuokite visas reikiamas konfigūracijas iš LCS į RCS, tada publikuokite j
 
 1. Jei RCS egzemplioriaus dar nėra, sutkite vieną. Daugiau informacijos žr. [RCS apžvalga](rcs-overview.md).
 2. Konfigūruotame RCS egzemplioriuje užregistruokite kiekvieną LCS projektą turto bibliotekoje, kurioje įtrauktos išvestinės ER konfigūracijos, užregistruokite atitinkamą LCS saugyklą.
-3. Importuokite ER konfigūracijas iš LCS saugyklų į RCS. Daugiau informacijos žr. [ER konfigūracijų importavimas iš LCS](../../dev-itpro/analytics/tasks/er-import-configuration-lifecycle-services.md).
+3. Importuokite ER konfigūracijas iš LCS saugyklų į RCS. Daugiau informacijos žr. [ER konfigūracijų importavimas iš LCS](/dynamics365/fin-ops-core/dev-itpro/analytics/tasks/er-import-configuration-lifecycle-services).
 4. Jei visuotinė saugykla nėra pateikiama automatiškai, užregistruokite ją RCS.
 5. Įkelti visas iškeltas konfigūracijas iš dabartinio RCS egzemplioriaus į visuotinę saugyklą. Naudokite **Konfigūravimo paketų** funkciją, kuri padės įkelti. Daugiau informacijos rasite skyriuje [RCS bendros reprodukcijos naujinimas](rcs-global-repo-upload.md).
 
@@ -73,7 +73,7 @@ Globalizacinę saugyklą naudokite toliau pateikiamiems tikslams:
 
 ### <a name="does-this-change-mean-that-lcs-cant-be-used-as-central-storage-for-configurations"></a>Ar šis pakeitimas reiškia, kad LCS negalima naudoti kaip centrinės konfigūracijų saugyklos?
 
-Taip. Funkcijos, kurios leidžia įkelti konfigūracijas į projekto turto biblioteką LCS iš programėlių ir iš „Finance and Operations“ RCS, bus nebegaliojančios. Tačiau LCS vis tiek galėsite naudoti naršyklę, norėdami įkelti konfigūracijas į projekto turto biblioteką pagal poreikį.
+Taip. Funkcijos, kurios leidžia įkelti konfigūracijas į projekto turto biblioteką, LCS, iš finansų ir operacijų programėlių, bus pasenusi. Tačiau LCS vis tiek galėsite naudoti naršyklę, norėdami įkelti konfigūracijas į projekto turto biblioteką pagal poreikį.
 
 ### <a name="i-thought-that-rcs-was-a-replacement-repository-for-importing-global-template-files-i-didnt-think-that-its-used-to-store-configurations-which-is-correct"></a>Deja, RCS yra pakeitimo saugykla, skirta importuoti visuotinius šablonų failus. Nežinau, kad jis naudojamas konfigūracijų saugykloms. Kuris yra teisingas?
 
@@ -81,7 +81,7 @@ RCS yra kūrimo ir redagavimo ER konfigūracijų dizaino tarnyba. RCS turi savo 
 
 ### <a name="without-lcs-what-is-the-suggested-way-to-store-configurations-so-that-test-and-production-configurations-can-easily-be-managed-and-transferred"></a>Koks siūlomas būdas saugoti konfigūracijas be LCS, kad būtų galima lengvai valdyti ir perkelti "tikrinti" ir "gamybos" konfigūracijas?
 
-RCS naudoja prisijungusio *prašymo sąvoką*. Prijungta programa sudaro ryšį tarp RCS ir visų programėlių „Finance and Operations“ egzempliorių. Kadangi RCS galima naudoti konfigūracijoje redaguoti, prijungta programa gali būti naudojama konfigūracijose tiesiogiai iš dizainerio perstumti į „Finance and Operations“ programėlių aplinkas. Todėl galite greitai pakeisti ir patikrinti savo konfigūracijas, užuot kaupę LCS projektų lygio saugyklą.
+RCS naudoja prisijungusio *prašymo sąvoką*. Prijungta programa sudaro ryšį tarp RCS ir visų finansų ir operacijų programėlių egzempliorių. Kadangi RCS galima naudoti konfigūracijoje redaguoti, prijungta programa gali būti naudojama konfigūracijose tiesiogiai stumti iš dizainerio į finansų ir operacijų programėlių aplinkas. Todėl galite greitai pakeisti ir patikrinti savo konfigūracijas, užuot kaupę LCS projektų lygio saugyklą.
 
 ### <a name="are-there-any-examples-that-show-the-setup-and-management"></a>Ar yra pavyzdžių, kurie parodo nustatymą ir valdymą?
 
@@ -104,4 +104,4 @@ Daugiau informacijos apie produkto palaikymą ieškokite [Dinaminių visuotinų 
 
 ### <a name="whats-the-cost-of-using-rcs"></a>Kokia yra RCS naudojimo kaina?
 
-RCS ir visuotinė saugykla teikiama nemokamai kaip esamų Finance and Operations programos licencijų dalis. Nėra atskirų išlaidų, susietų su RCS dizaino tarnybos naudojimu ar konfigūracijų saugojimu visuotinėje saugykloje. Šiuo metu nėra jokio konfigūracijų ar susijusių programų skaičiaus apribojimo.
+RCS ir globalizavimo saugykla teikiama nemokamai kaip esamų finansų ir operacijų programos licencijų dalis. Nėra atskirų išlaidų, susietų su RCS dizaino tarnybos naudojimu ar konfigūracijų saugojimu visuotinėje saugykloje. Šiuo metu nėra jokio konfigūracijų ar susijusių programų skaičiaus apribojimo.

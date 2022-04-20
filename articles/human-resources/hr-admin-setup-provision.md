@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0c856bca32c3dee44469c098961d85b4d8cb70a6
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
-ms.translationtype: MT
+ms.openlocfilehash: 65891e380f740f4a1fa404d57789a6f50506d3b5
+ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8060429"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8565634"
 ---
 # <a name="provision-human-resources"></a>„Human Resources“ parengimas
 
@@ -40,6 +40,10 @@ Prieš pradedant parengti naują gamybos aplinką, turi būti įvykdytos toliau 
 
 ## <a name="provision-a-human-resources-trial-environment"></a>„Human Resources” bandomosios aplinkos parengimas
 
+>[!NOTE]
+> Nuo 2022 m. balandžio mėn. personalo bandomojo aplinkos nebus galimos atskirai programoje. Potencialūs klientai, kurie nori įvertinti personalo pajėgumus finansų ir operacijų programėlėse, gali tai padaryti naudodami nemokamą 30 dienų bandomąją versiją ir demonstracinius duomenis. "Dynamics 365 Finance" apims personalo pajėgumus, kuriuos į finansų infrastruktūrą atims atskira programa. Norėdami gauti daugiau informacijos, [žr](https://cloudblogs.microsoft.com/dynamics365/it/2021/09/15/merging-of-hr-offerings-brings-capabilities-together-for-customers). personalo pasiūlymų suliejimą, klientų galimybės yra sujungtos. Daugiau informacijos apie "Dynamics 365" finansų vedlius žr. nuoseklią [vadovą](/fin-ops/get-started/before-you-buy). 
+
+
 Prieš parengdami savo pirmąją smėlio dėžės arba gamybos aplinką, galite norėti parengti [bandomąją „Human Resources” aplinką](https://go.microsoft.com/fwlink/p/?LinkId=2115962), kad patikrintumėte „Human Resources” funkcionalumą. Bandomosiose aplinkose pateikti išgalvoti duomenys, kuriais naudojantis galima saugiai tyrinėti programą. Nors bandomoji aplinka priklauso vartotojui, kuris to pageidavo, kiti vartotojai gali būti pakviesti per sistemos administravimo galimybę, skirtą žmogiškiesiems ištekliams. 
 
 Bandomosios aplinkos suteikia galimybę įvertinti personalo funkcijas asmenims, kurie dar neturi prieigos prie personalo aplinkos. Jei jūs parengiate bandomąją aplinką, o autentifikuotas vartotojas jau turi prieigą prie vienos ar daugiau esamų personalo aplinkų, vartotojas bus nukreiptas į esamą aplinką arba aplinkų sąrašą.
@@ -58,7 +62,7 @@ Prieš jums sukuriant pirma „Human Resources“ aplinką, turėtumėte atsargi
 Papildomų aplinkų aspektai.
 
 - **Duomenų perkėlimas**: Jums gali reikėti apgalvoti papildomą aplinką dėl duomenų perkėlimo veiksmų, kad leistumėte savo smėlio dėžės aplinkai būti naudojamai testavimo tikslais per projektą. Papildomos aplinkos turėjimas leidžia duomenų perkėlimo veiksmus tęsti testuojant ir konfigūruojant veiklas kartu kitoje aplinkoje.
-- **Integravimas**: Jums gali reikėti apgalvoti papildomas aplinkas tam, kad konfigūruotumėte ir testuotumėte integravimus. Tai gali apimti įgimtus integravimus, tokius kaip „Ceridian Dayforce LinkedIn Talent Hub“ integravimus ar tinkintus integravimus, tokius kaip algalapio, aplikanto sekimo sistemos ar išmokų sistemos ir tiekėjai.
+- **Integravimas**: Jums gali reikėti apgalvoti papildomas aplinkas tam, kad konfigūruotumėte ir testuotumėte integravimus. Tai gali būti vietinius integravimą, pvz., Ceriforce Dayforce ar LinkedIn Talent Hub integravimą, ar pasirinktines integracijas, pvz., algalapio, pretendento sekimo sistemas ar išmokų sistemas ir teikėjus.
 - **Mokymai**: Jums gali reikėti atskiros aplinkos, kuri konfigūruota su nustatytais mokymų duomenimis tam, kad apmokytumėte savo darbuotojus naudoti naują sistemą. 
 - **Kelių etapų projektas**: Jums gali reikėti apgalvoti papildomą aplinką siekiant palaikyti konfigūravimą, duomenų perkėlimą, testavimą ir kitas veiklas projekto etape, kuris suplanuotas po pradinio paleidimo projekto į internetą.
 

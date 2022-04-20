@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-06-08
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: abc827139c71f7942335cd2b7e2c7502f7fc1cfe
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
-ms.translationtype: HT
+ms.openlocfilehash: 1446928c2f5fe606d1d0732764a2a4460643afcf
+ms.sourcegitcommit: 4c8223c9540fbc1c1e554962938058d432e4c681
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8469400"
+ms.lasthandoff: 04/05/2022
+ms.locfileid: "8548173"
 ---
 # <a name="inventory-forecasts"></a>Atsargų prognozės
 
@@ -39,7 +39,7 @@ Prognozės eilutes galima kurti ir kitais būdais:
 - [Pagrindinės statistinės prognozės generavimas](generate-statistical-baseline-forecast.md).
 - [Poreikio prognozių praeities duomenų importavimas](import-historical-data.md).
 - [Kurti prognozę su „Microsoft Azure Machine Learning“ tinklo paslaugomis](demand-forecasting-setup.md).
-- [Importuokite poreikio arba tiekimo prognozės eilutes naudodami duomenų valdymo sistemą (ForecastDemandForecastEntryStaging ir ForecastSupplyForecastEntryStaging) duomenų objektus](../../dev-itpro/data-entities/data-entities-data-packages.md).
+- [Importuokite poreikio arba tiekimo prognozės eilutes naudodami duomenų valdymo sistemą (ForecastDemandForecastEntryStaging ir ForecastSupplyForecastEntryStaging) duomenų objektus](/dynamics365/fin-ops-core/dev-itpro/data-entities/data-entities-data-packages).
 
 Kaip rodo lentelė 1 veiksme, yra skirtingi būdai pasiekti naudojamus puslapius.
 

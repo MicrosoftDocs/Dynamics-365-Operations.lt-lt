@@ -2,7 +2,7 @@
 title: Pardavimo užsakymų kūrimas
 description: Šioje procedūroje parodoma, kaip kurti pardavimo užsakymą.
 author: Henrikan
-ms.date: 06/25/2019
+ms.date: 04/06/2022
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5746fa0ab9fd7ef3e288adc88a755324309a27c0
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.openlocfilehash: 462f47ab5d85665ed8132e5bfb6dd945c537c1ef
+ms.sourcegitcommit: 4861ec2d3ae24cc9dd4ad3ac748fd05be3d80c70
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7566316"
+ms.lasthandoff: 04/06/2022
+ms.locfileid: "8551730"
 ---
 # <a name="create-sales-orders"></a>Pardavimo užsakymų kūrimas
 
@@ -66,5 +66,7 @@ Jūsų organizacijos parduodami produktai gali būti kelių variantų, kuriuos s
     
 3. Pasirinkite **Gerai**.
 
+## <a name="sales-order-creation-performance-enhancement"></a>Pardavimo užsakymo kūrimo našumo gerinimas
+Nauja priemonė, įdiegta su programos 10.0.26 **versija, sumažina papildomą lentelių SourceDocumentHeader** ir **SourceDocumentLine įrašų kūrimą**. Našumas pagerėja, o saugojimo dydis sumažėja, nes šie įrašai nesukurti. Šios pagrindinio šaltinio dokumento sistemos lentelės šiuo metu nėra naudojamos produkto pardavimo užsakymams ir nėra suplanuotų planų, kuriuos būtų galima naudoti. Įgalinus šią funkciją, laikoma saugiais pokyčiais, siekiant padidinti našumą. 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
-title: PVM kodų nustatymas
-description: Šioje temoje paaiškinama, kaip nustatyti užsakymų sulaikymo kodus Dynamics 365 Finance.
+title: Nustatyti PVM kodus
+description: Šioje temoje paaiškinama, kaip nustatyti PVM kodus "Dynamics 365 Finance".
 author: twheeloc
 ms.date: 09/27/2021
 ms.topic: business-process
@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: TaxTable, TaxData
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.search.region: Global
-ms.author: roschlom
+ms.author: kfend
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2539d701dda4ef5e1484d095b2d86d1f68a0dc98
-ms.sourcegitcommit: 86f0574363fb869482ef73ff294f345f81d17c5b
+ms.openlocfilehash: 69e2cf9a16fe0e694154cccf9b49944b49c79b90
+ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7562107"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8565859"
 ---
-# <a name="set-up-sales-tax-codes"></a>PVM kodų nustatymas
+# <a name="set-up-sales-tax-codes"></a>Nustatyti PVM kodus
 
 [!include [banner](../../includes/banner.md)]
 
@@ -45,7 +45,7 @@ ms.locfileid: "7562107"
 12. Uždarykite puslapį.
 13. Pasirinkite **Įrašyti**.
 
-Nuo „Microsoft Dynamics 365 Finance“ versijos 10.0.22, jei naudojate [Mokesčių tarnybą](../../localizations/global-tax-calcuation-service-overview.md) ir [**Kelių pagalbų PVM registracijos numerius**](../../localizations/emea-multiple-vat-registration-numbers.md) funkcija yra įjungta **Funkcijų valdymas** darbo aplinkoje, galite naudoti **Mokesčių tipas** laukelį pagal konkretų mokesčių kodą. Galimos šios vertės:
+Microsoft Dynamics Nuo 365 finansų versijos 10.0.22, [jei](../../localizations/global-tax-calcuation-service-overview.md) naudojate mokesčių tarnybą, [**·**](../../localizations/emea-multiple-vat-registration-numbers.md)**o** funkcijų valdymo darbo srityje įjungta kelių PVM registracijos numerių palaikymo funkcija, **galite** naudoti mokesčio lauko tipą mokesčio tipui nurodyti. Galimos šios vertės:
 
 - Standartinis PVM
 - Sumažintas PVM

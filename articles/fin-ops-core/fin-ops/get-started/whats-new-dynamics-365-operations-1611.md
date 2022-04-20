@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 0625010143b7df9c3c897bf7f43ef25993303240
-ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
-ms.translationtype: HT
+ms.openlocfilehash: 43a53d5940b2595abb305a08e6f52661bee8ca62
+ms.sourcegitcommit: 4c8223c9540fbc1c1e554962938058d432e4c681
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752813"
+ms.lasthandoff: 04/05/2022
+ms.locfileid: "8548086"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-operations-version-1611-november-2016"></a>Kas nauja ar pasikeitė „Dynamics 365 for Operations“ 1611 versijoje (2016 m. lapkričio mėn.)
 
@@ -649,8 +649,8 @@ ms.locfileid: "7752813"
 </td>
 </tr>
 <tr>
-<td>Stebėkite ir apdorokite savo mokėjimo laikotarpio procesą naudodami naują darbo sritį <strong>Atlyginimų valdymas</strong>.</td>
-<td>Dabar galite lengvai stebėti savo darbo užmokesčio apdorojimą. Atlyginimų administratoriai gali iš karto matyti uždarbio ir mokėjimo išrašus, kuriuos jie turi peržiūrėti, kad būtų mokėjimo vykdymas būtų užbaigtas ir tikslus. Naudodami darbo sritį <strong>Atlyginimų valdymas</strong> vartotojai iš vienos srities gali stebėti ir vykdyti visus procesus.</td>
+<td>Stebėkite ir apdorokite savo mokėjimo laikotarpio procesą naudodami naują darbo sritį <strong>Atlyginimų valdymas </strong>.</td>
+<td>Dabar galite lengvai stebėti savo darbo užmokesčio apdorojimą. Atlyginimų administratoriai gali iš karto matyti uždarbio ir mokėjimo išrašus, kuriuos jie turi peržiūrėti, kad būtų mokėjimo vykdymas būtų užbaigtas ir tikslus. Naudodami darbo sritį <strong>Atlyginimų valdymas </strong>vartotojai iš vienos srities gali stebėti ir vykdyti visus procesus.</td>
 </tr>
 <tr>
 <td>Sugeneruokite atlyginimo čekio teigiamų mokėjimų failus.</td>
@@ -816,7 +816,7 @@ Parduotuvės sistema yra mažmenininkams skirtas diegimo pasirinkimas, padedanti
 | Jeigu esate tiekėjas, gaukite informaciją apie klientui perkeliamų konsignacijos atsargų kiekį. | Norėdamas pateikti sąskaitą klientui, tiekėjas reikalauja informacijos apie iš konsignacijos atsargų nupirktas žaliavas ir jų pirkimo datą. Naudodamas tiekėjo bendradarbiavimo sąsają, tiekėjas taip pat gali stebėti kliento vietoje turimas atsargas. |
 | Perkelkite tiekėjui priklausančias atsargas naudodami perkėlimo žurnalą. | Norėdami sekti tiekėjui priklausančių atsargų faktinę vietą, turite galėti įrašyti vietą sistemoje. Naudodami perkėlimo žurnalą galite įrašyti faktinį atsargų perkėlimą, pavyzdžiui, perkėlimą iš vienos sandėlio vietos į kitą to paties sandėlio vietą. |
 | Pakoreguokite tiekėjui priklausančias atsargas naudodami skaičiavimo žurnalą. | Svarbu, kad sistemoje turimos atsargos sutaptų su faktinėmis atsargomis. Tiekėjui priklausančias atsargas galima koreguoti naudojant skaičiavimo procesus (pavyzdžiui, kiekio koregavimą) ir skaičiavimo žurnalo procesus. |
-| Sužinokite daugiau apie konsignacijos palaikymą „Dynamics 365 for Operations“ | Norėdami gauti daugiau informacijos apie konsignacijos procesų palaikymą, žr. [Konsignacija](../../../supply-chain/inventory/consignment.md), [Konsignacijos nustatymas](../../../supply-chain/inventory/set-up-consignment.md), [Sukurti konsignacijos papildymo užsakymą (užduočių vedlys)](../../../supply-chain/inventory/tasks/create-consignment-replenishment-order.md) ir [Pakeisti konsignacijos atsargų savininką pagal produkcijos paklausą (užduočių vedlys)](../../../supply-chain/inventory/tasks/change-ownership-consignment.md). |
+| Sužinokite daugiau apie konsignacijos palaikymą „Dynamics 365 for Operations“ | Norėdami gauti daugiau informacijos apie konsignacijos procesų palaikymą, žr. [Konsignacija](../../../supply-chain/inventory/consignment.md), [Konsignacijos nustatymas](/d365F-O/fin-ops-core/fin-ops/get-started/consignment), [Sukurti konsignacijos papildymo užsakymą (užduočių vedlys)](../../../supply-chain/inventory/tasks/create-consignment-replenishment-order.md) ir [Pakeisti konsignacijos atsargų savininką pagal produkcijos paklausą (užduočių vedlys)](../../../supply-chain/inventory/tasks/change-ownership-consignment.md). |
 
 ### <a name="vendor-collaboration-previously-known-as-the-vendor-portal"></a>Tiekėjo bendradarbiavimas (ankstesnis pavadinimas – tiekėjo portalas)
 

@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-03-01
 ms.dyn365.ops.version: 10.0.26
-ms.openlocfilehash: 2b39eef816aaa383f0f8cbf1b2c308a6eafebd8f
-ms.sourcegitcommit: a3b121a8c8daa601021fee275d41a95325d12e7a
-ms.translationtype: HT
+ms.openlocfilehash: 996988b1a4d59ae9ad7b4031e492824c0a6abc95
+ms.sourcegitcommit: d475dea4cf13eae2f0ce517542c5173bb9d52c1c
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8524443"
+ms.lasthandoff: 04/05/2022
+ms.locfileid: "8547879"
 ---
 # <a name="preview-of-dynamics-365-supply-chain-management-10026-may-2022"></a>„Dynamics 365 Supply Chain Management” peržiūros versija 10.0.26 (2022 m. gegužės mėnesis)
 
@@ -34,7 +34,7 @@ Tolesnėje lentelėje pateiktos funkcijos, kuri yra šiame leidime. Galime atnau
 
 | Funkcijos sritis | Funkcija | Daugiau informacijos | Įjungė   |
 |---|---|---|---|
-| Atsargos ir logistika | [Turimų atsargų matomumo užklausa, kad būtų palaikomos patobulintos sandėlio valdymo prekės](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/inventory-visibility-support-advanced-warehouse-management) | Jau greitai | Priemonių valdymas:<br>*Įgalinti sandėlio prekes atsargų matomumo skiltyje* |
+| Atsargos ir logistika | [Turimų atsargų matomumo užklausa, kad būtų palaikomos patobulintos sandėlio valdymo prekės](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/inventory-visibility-support-advanced-warehouse-management) | [Sandėlio valdymo ir valdymo programos prekių atsargų matomumo palaikymas](../inventory/inventory-visibility-whs-support.md) | Priemonių valdymas:<br>*Įgalinti sandėlio prekes atsargų matomumo skiltyje* |
 | Atsargos ir logistika | [Prieinamų atsargų matomumo priedo atsargos](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/available-to-promise-inventory-visibility-add-in) | [Turimų atsargų matomumo grafikai ir prieinamos atsargos](../inventory/inventory-visibility-available-to-promise.md) | Įgalina aptarnavimo konfigūracija |
 | Gamyba | [Gamybos laiko vykdymo sąsajos esamo svorio elementai](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/catch-weight-items-production-floor-execution-interface) | [Kaip darbuotojai naudoja gamybos vietos vykdymo sąsają](../production-control/production-floor-execution-use.md) | Priemonių valdymas:<br>*(Peržiūros versija) Ataskaita apie esamo svorio prekes iš gamybos vietos vykdymo sąsajos* |
 | Gamyba | Mano užduočių skirtukas gamybos vietos vykdymo sąsajoje <!-- KFM: Add link to release plan when available --> | [Kaip darbuotojai naudoja gamybos vietos vykdymo sąsają](../production-control/production-floor-execution-use.md) | Priemonių valdymas:<br>*Mano užduočių skirtukas gamybos vietos vykdymo sąsajoje* |
@@ -51,7 +51,7 @@ Jei norite įjungti arba išjungti bet kurią iš šių priemonių, tai turite a
 | Paraiškos | Sinchronizuoti stebėjimo dimensijas vidinės įmonės pardavimo ir pirkimo užsakymų eilutėse | Ši funkcija leidžia kontroliuoti, ar serijos ir paketo numerio sekimo dimensijos sinchronizuojamos tarp vidinės įmonės pardavimo ir pirkimo užsakymo eilučių. Ji įtraukia naujus parametrus į klientų **ir** **tiekėjų** vidinės įmonės nustatymo puslapio pirkimo užsakymo strategijas **ir** pardavimo užsakymų strategijų skirtukus. Ji taip pat atnaujina kelių susijusių, artimų parametrų pavadinimus.<br><br>Jei naudojate išplėstinį sandėlio valdymą (WMS), žinokite, kad ši funkcija sinchronizuos paketo ir serijos numerius tik tada, kai tos dimensijos yra virš vietos paskirties rezervavimo hierarchijoje. |
 | Produkto informacijos valdymas | Išvalyti produkto atributų vertes | Ši funkcija įtraukia periodinę **užduotį**, pavadintą Valyti produkto atributų vertes, kurios valo produkto atributo verčių įrašus, kurie nebeatitinka jokio produkto per produkto kategoriją. |
 | Atsargų ir sandėlio valdymas | (Rusija) Užkirstas kelias neatitikimams išduodant pirkimo užsakymų, apimančių WMS prekes, GTD | Ši funkcija skirta tik rusiškai lokalizacijai. Neleidžiama vykdyti neatitikimų išduodant Rusijos muitinės deklaravimo numerius (GTD) importo pirkimo užsakymams, kuriuose yra prekių, įgalintų išplėstinį sandėliavimą (WMS). GTD išdavimo procesas pakeičia kai kurias atsargų dimensijų vertes susijusiose į pasirinktinį žurnalą įtrauktų SF atsargų operacijose, dėl to gali nesutapti pirkimo užsakymo darbo įrašai ir pirkimo atsargų operacijos. Kai ši funkcija įgalinta, GTD išdavimo procesas sugeneruoja koregavimo darbą, dėl to tokie nesutapimai yra pašalinama. |
-| Sandėlio valdymas | Išplėstiniai GS1 brūkšninių kodų analizatoriai | Ši funkcija įtraukia išplėstinį GS1 simbolių duomenų analizatorių. Naujas analizatorius įdiegia GS1 bendrosios specifikacijos algoritmą, naudojamą GS1 simboliams išanalizuoti, ir pateikia bendresnio duomenų tikrinimo procesą. |
+| Sandėlio valdymas | Išplėstiniai GS1 brūkšninių kodų analizatoriai | Ši funkcija įtraukia išplėstinį GS1 simbolių duomenų analizatorių. Naujas analizatorius įdiegia GS1 bendrosios specifikacijos algoritmą, naudojamą GS1 simboliams išanalizuoti, ir pateikia bendresnio duomenų tikrinimo procesą. Daugiau informacijos ieškokite [GS1 brūkšninių kodų nuskaitymas](../warehousing/gs1-barcodes.md). |
 | Sandėlio valdymas | Nauji krovinio planavimo darbo srityje puslapiai | Įtraukia du naujus krovinio planavimo darbo vietos puslapius: **gaunamo krovinio planavimo darbo srityje** **ir siunčiamo krovinio planavimo darbo srityje**. |
 | Sandėlio valdymas | Programa „Warehouse Management“ – tuščia GTD vertė | Ši funkcija skirta tik rusiškai lokalizacijai. Joje darbuotojai, naudojantys sandėlio valdymo mobiliąją programą, prireikus gali palikti Rusijos muitinės deklaracijų numerius (GTD) tuščius. Jei GTD sekimo dimensija nustatyta taip, kad būtų leidžiamos tuščios vertės, sistema priims tuščias ATSARGŲ operacijų, kurios turimos turimos atsargos, GTD vertes. |
 
@@ -68,7 +68,7 @@ Neseniai įtraukėme ir reikšmingai atnaujinome tolesnes pagalbos temas. Šios 
 
 ### <a name="platform-updates-for-finance-and-operations-apps"></a>Finansų ir operacijų programėlių platformos naujinimai
 
-„Microsoft Dynamics 365 Supply Chain Management“ 10.0.26 versijoje yra platformos naujinimų. Norėdami sužinoti daugiau, žr. [finansų ir operacijų programėlių 10.0.26 versijos platformos naujinimus (2022 m. gegužės mėn.](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-26.md)).<!-- KFM Confirm link -->
+„Microsoft Dynamics 365 Supply Chain Management“ 10.0.26 versijoje yra platformos naujinimų. Norėdami sužinoti daugiau, žr. [finansų ir operacijų programėlių 10.0.26 versijos platformos naujinimus (2022 m. gegužės mėn.](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-26.md)).
 
 ### <a name="bug-fixes"></a>Klaidų ištaisymai
 

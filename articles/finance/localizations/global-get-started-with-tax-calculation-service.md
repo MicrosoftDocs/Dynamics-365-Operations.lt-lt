@@ -2,7 +2,7 @@
 title: Pradėti naudoti mokesčių skaičiavimą
 description: Šioje temoje paaiškinama, kaip nustatyti Mokesčių skaičiavimą.
 author: wangchen
-ms.date: 01/05/2022
+ms.date: 03/25/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: ae2c20fe79c2f8fd8d102740441230ae443f16a3
-ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
-ms.translationtype: HT
+ms.openlocfilehash: 61ee15901a091ee733b83c8cbaa5b84801fa8e5d
+ms.sourcegitcommit: 4afd1e0b325d27cd7c4e0d9a198400b038262ac7
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/10/2022
-ms.locfileid: "7952526"
+ms.lasthandoff: 04/09/2022
+ms.locfileid: "8558319"
 ---
 # <a name="get-started-with-tax-calculation"></a>Pradėti naudoti mokesčių skaičiavimą
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje pateikiama informacija apie tai, kaip pradėti dirbti su Mokesčių skaičiavimu. Šios temos skyriai leidžia atlikti didelio lygio kūrimo ir konfigūravimo veiksmus, nurodytus ciklo tarnybose (LCS), reguliavimo konfigūracijos tarnybą Microsoft Dynamics (RCS) Dynamics 365 Finance ir Dynamics 365 Supply Chain Management. 
+Šioje temoje pateikiama informacija apie tai, kaip pradėti dirbti su Mokesčių skaičiavimu. Šios temos skyriai Microsoft Dynamics leidžia atlikti didelio lygio kūrimo ir konfigūravimo veiksmus, nurodytus ciklo tarnybose (LCS), reguliavimo konfigūracijos tarnybos (RCS), "Dynamics 365 Finance" ir "Dynamics 365 Supply Chain Management. 
 
 Nustatymą sudaro trys pagrindiniai veiksmai.
 
@@ -36,17 +36,17 @@ Nustatymą sudaro trys pagrindiniai veiksmai.
 
 ## <a name="high-level-design"></a>Aukšto lygio dizainas
 
-### <a name="runtime-design"></a>Vykdyklės dizainas
+### <a name="runtime-design"></a><a name="runtime"></a> Vykdyklės dizainas
 
 Šioje iliustracijoje parodyta aukšto lygio mokesčių skaičiavimo vykdyklės dizainas. Kadangi mokesčių skaičiavimą galima integruoti su keliomis "Dynamics 365" programėle, iliustracija kaip pavyzdį naudoja integravimą su finansais.
 
 1. Finansuose sukuriama operacija, pavyzdžiui, pardavimo arba pirkimo užsakymas.
 2. Finansai automatiškai naudoja numatytąsias PVM grupės ir prekės PVM grupės vertes.
-3. Kai **operacijoje** pasirenkamas PVM mygtukas, paleidžiamas mokesčio skaičiavimas. Tada finansai siunčia moka siuntą į mokesčių skaičiavimo tarnybą.
+3. **Kai operacijoje** pasirenkamas PVM mygtukas, paleidžiamas mokesčio skaičiavimas. Tada finansai siunčia moka siuntą į mokesčių skaičiavimo tarnybą.
 4. Mokesčių skaičiavimo tarnyba suderina mokėjimo krūvį su iš anksto nustatytomis mokesčių priemonės taisyklėmis, kad vienu metu surasti tikslesnę PVM grupę ir prekės PVM grupę.
 
-    - Jei mokėjimo krūvį galima suderinti su mokesčių grupės taikomumo matrica, ji panaikina PVM grupės vertę su sugretinta mokesčių grupės verte **pritaikymo** taisyklėje. Kitu atveju, ji ir toliau naudoja PVM grupės vertę iš finansų.
-    - Jei mokėjimo krūvį galima suderinti su prekių mokesčių grupės taikomumo matrica, ji panaikina prekės PVM grupės vertę su sugretinta prekės mokesčių grupės verte **pritaikymo** taisyklėje. Kitu atveju, ji ir toliau naudoja prekės PVM grupės vertę iš finansų.
+    - Jei mokėjimo krūvį **galima** suderinti su mokesčių grupės taikomumo matrica, ji panaikina PVM grupės vertę su sugretinta mokesčių grupės verte pritaikymo taisyklėje. Kitu atveju, ji ir toliau naudoja PVM grupės vertę iš finansų.
+    - Jei mokėjimo krūvį **galima** suderinti su prekių mokesčių grupės taikomumo matrica, ji panaikina prekės PVM grupės vertę su sugretinta prekės mokesčių grupės verte pritaikymo taisyklėje. Kitu atveju, ji ir toliau naudoja prekės PVM grupės vertę iš finansų.
 
 5. Mokesčių skaičiavimo tarnyba nustato galutinius mokesčių kodus, naudodama PVM grupės ir prekės PVM grupės sąryžą.
 6. Mokesčių skaičiavimo tarnyba skaičiuoja mokestį remdamasi galutiniais jos nustatytais mokesčių kodais.
@@ -58,8 +58,8 @@ Nustatymą sudaro trys pagrindiniai veiksmai.
 
 Toliau pateikiama išsami mokesčių skaičiavimo tarnybos konfigūracijos proceso apžvalga.
 
-1. LCS įdiekite mokesčių **skaičiavimo priedą savo** LCS projekte.
-2. RCS sukurkite **mokesčių skaičiavimo** priemonę.
+1. LCS įdiekite mokesčių **skaičiavimo** priedą savo LCS projekte.
+2. RCS sukurkite mokesčių **skaičiavimo** priemonę.
 3. RCS nustatykite mokesčių **skaičiavimo** funkciją:
 
     1. Pasirinkti mokesčio konfigūracijos versiją.
@@ -69,8 +69,8 @@ Toliau pateikiama išsami mokesčių skaičiavimo tarnybos konfigūracijos proce
     5. Pasirinktinai: sukurkite mokesčių grupės taikomumą, jei norite perrašyti numatytąją PVM grupę, įvestą iš kliento ar tiekėjo bendrųjų duomenų.
     6. Pasirinktinai: sukurkite prekių grupės taikomumą, jei norite perrašyti numatytąją prekės PVM grupę, kuri įvesta iš prekės bendrųjų duomenų.
 
-4. RCS užbaikite ir publikuokite **mokesčių skaičiavimo** funkciją.
-5. Finansuose pasirinkite paskelbtą **mokesčių skaičiavimo** priemonę.
+4. RCS užbaikite ir publikuokite mokesčių **skaičiavimo** funkciją.
+5. Finansuose pasirinkite paskelbtą mokesčių **skaičiavimo** priemonę.
 
 Atlikus šiuos veiksmus, šie nustatymai automatiškai sinchronizuojami iš RCS į finansus.
 
@@ -96,6 +96,14 @@ Prieš pabaigdami likusias šios temos procedūras, turite įvykdyti šiuos būt
 
     - Globalizacijos funkcijos
 
+- Jūsų RCS aplinkos vartotojams turėtų būti priskirti atitinkami vaidmenys:
+
+    - Elektroninės ataskaitos kūrėjas
+    - Globalizacijos funkcijos kūrėjas
+    - Mokesčių mechanizmo kūrėjas
+    - Mokesčių mechanizmo funkcijų konsultantas
+    - Mokesčių tarnybos kūrėjas
+
 ## <a name="set-up-tax-calculation-in-lcs"></a>Mokesčių skaičiavimo nustatymas „LCS”
 
 1. Prisijunkite prie [LCS](https://lcs.dynamics.com)
@@ -115,7 +123,7 @@ Prieš pabaigdami likusias šios temos procedūras, turite įvykdyti šiuos būt
 5. Lauke **Tipas** pasirinkite **Bendri**.
 6. Pasirinkite **Atidaryti**.
 7. Eikite š **Mokesčių duomenų modelis**, išplėskite failų medį, o tada pasirinkite **Mokesčių konfigūracija**.
-8. Pagal jūsų [finansų versiją pasirinkite teisingą mokesčių konfigūracijos](global-tax-calcuation-service-overview.md#versions) versiją, tada pasirinkite **Importuoti**.
+8. Pagal jūsų finansų [versiją pasirinkite](global-tax-calcuation-service-overview.md#versions) teisingą mokesčių konfigūracijos versiją, tada pasirinkite **Importuoti**.
 9. Darbo srityje **Globalizacijos funkcijos** pasirinkite **Funkcijos**, plytelę **Mokesčių skaičiavimas**, o tada pasirinkite **Įtraukti**.
 10. Pasirinkti vieną iš šių tolesnių funkcijų tipų:
 
@@ -203,15 +211,21 @@ Prieš pabaigdami likusias šios temos procedūras, turite įvykdyti šiuos būt
     | Pardavimas            | DEU       | FRA     | DEU_EU       |
     | Pardavimas            | BEL       | BEL     | BEL_Domestic |
     | Pardavimas            | BEL       | FRA     | BEL_EU       |
+    
+    > [!NOTE]
+    > Jei jūsų apmokestinamo dokumento eilutėse numatytoji PVM grupė yra teisinga, palikite šią matricą tuščią. Daugiau informacijos ieškokite šios temos skyriuje [Vykdyklės](#runtime) dizainas.
 
 22. Skirtuke **Prekių mokesčių grupės taikymas** pasirinkite stulpelius, kurių reikia tinkamam mokesčių kodui nustatyti, tada pasirinkite **Įtraukti**. Įvesti arba pasirinkti kiekvieno stulpelio vertes. Šios matricos išvestis bus laukas **Prekių mokesčių grupė**. Jei šis skirtukas nebus sukonfigūruotas, bus naudojama operacijos eilutėje nurodyta prekių mokesčių grupė.
 
     Toliau pateikiamas pavyzdys.
 
-    | Prekės kodas | Prekių mokesčių grupė |
+    | Prekės kodas | Prekės mokesčių grupė |
     | --------- | -------------- |
     | D0001     | Pilnas           |
     | D0003     | Sumažintas        |
+
+    > [!NOTE]
+    > Jei jūsų apmokestinamo dokumento eilutėse numatytoji prekės PVM grupė yra teisinga, palikite šią matricą tuščią. Daugiau informacijos ieškokite šios temos skyriuje [Vykdyklės](#runtime) dizainas.
 
     Daugiau informacijos apie tai, kaip mokesčių kodai yra nustatomi papildinyje Mokesčių skaičiavimas, žr. [PVM grupės ir prekių PVM grupės nustatymo logika](global-sales-tax-group-determination.md).
 

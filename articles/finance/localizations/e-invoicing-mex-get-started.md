@@ -17,19 +17,19 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: f512a6208bc85cd5796ce9515d2bc440f92ea79f
-ms.sourcegitcommit: 5033d42a2aac852916d726e40bd98a164d1a837d
+ms.openlocfilehash: 6fc8a9eaf6c6e4c82719e7c1ebccd4272548e73f
+ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "7986363"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8566005"
 ---
 # <a name="get-started-with-electronic-invoicing-for-mexico"></a>Darbo su elektroninių SF priedu Meksikai pradžia
 
 [!include [banner](../includes/banner.md)]
 
 > [!IMPORTANT]
-> Meksikos elektroninių SF išrašymo priedas šiuo metu gali nepalaikyti visų funkcijų, pasiekiamų „Comprobante Fiscal Digital por Internet” (CFDI) dokumente ir susijusiame integravime, įtaisytame „Microsoft Dynamics 365 Finance” arba „Dynamics 365 Supply Chain Management”.
+> Meksikai skirtas elektroninių SF išrašymas šiuo metu gali nepatebėti visų funkcijų, kurios galimos "Comprobrašymą" fiskalinio skaitmeninio porų interneto (CFDI) dokumente, ir susijusio integravimo, Microsoft Dynamics kuris sukurtas į 365 finansus arba Dynamics 365 Supply Chain Management.
 
 Šioje temoje pateikiama informacija, kuri padės jums pradėti naudotis elektroninių SF išrašymo priedu Meksikai. Ji padės atlikti konfigūracijos veiksmus, priklausančius nuo šalies, „Regulatory Configuration Services” (RCS) ir „Finance”. Ji taip pat padeda jums atlikti veiksmus „Finance”, kurių reikia, kad CFDI SF būtų teikiamos naudojant paslaugą, ir paaiškina, kaip peržiūrėti apdorojimo rezultatus ir CFDI SF būsenas.
 
@@ -141,7 +141,7 @@ Norint pateikti CFDI SF atšaukimą, reikalingi funkcijų **Atšaukimas** ir **A
 1. Priemonės versijos **nustatymo puslapio** skirtuke **Kintamieji** **pasirinkite kintamojo pavadinimą DigitalSi skirtuke DigitalSi skirtukeXSLT**.
 2. Reikšmės lauke **įveskite** : {containerUrl:"https://&lt; AccountStorageName&gt;.blob.core.windows.net/&lt; ContainerName&gt;","path":"&lt; RelativePath&gt;"}
    
-    čia: <RelativePath> = folderfolderfilename\\\\ su dviem kairiosios brūkšnių, ContainerName turi nurodyti konteinerį, kuris naudojamas paslaugai.
+    čia: \<RelativePath\> = folderfolderfilename\\\\ su dviem kairiosios brūkšnių, ContainerName turi nurodyti konteinerį, kuris naudojamas paslaugai.
    
     Kintamojo pavyzdys yra:
     

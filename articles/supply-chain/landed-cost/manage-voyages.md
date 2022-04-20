@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 50b6f306da1d32b1fd98da68bd997de1f1c23ffb
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 996a8b62b59dd27691a1eaa5ed619f94e899e8cf
+ms.sourcegitcommit: 197e6ddee84522fd587c6e4ee4f9089101e301c2
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7570951"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8570442"
 ---
 # <a name="manage-voyages"></a>Reisų valdymas
 
@@ -66,9 +66,9 @@ Toliau pateikta lentelė aprašo veiksmus, pasiekiamus veiksmų srities skirtuke
 | Gabenama | Atnaujinkite lauką **Reiso būsena** į tranzito būseną, kuri nustatyta puslapyje **[Iškrovimo kainos parametrai](landed-cost-parameters.md)**. Šiame procese nėra jokios kitos logikos. Reisas taip pat gali būti automatiškai atnaujintas į tranzito būseną, remiantis parametrais, nurodytais [sekimo kontrolės centre](delivery-information-setup.md).
 | Paruošta įkainojimui | Atnaujinkite lauką **Reiso būsena** į būseną Paruošta įkainoti, kuri nustatyta puslapyje **[Iškrovimo kainos parametrai](landed-cost-parameters.md)**. Reisas gali būti įkainotas, kai visos SF apdorotos (tiek atsargų SF, tiek reiso išlaidų SF) ir prekės gautos. Jei įvertintos savikainos, susijusios su reisu, nebuvo įkainotos, bandant apdoroti reiso įkainojimą įvyksta klaida. |
 | Įkainota | Išvalykite visas įkainojimo klaidas po to, kai yra visų pirkimo užsakymų ir reiso išlaidų SF. Pasirinkus šį mygtuką, atsiranda dialogo langas **Reiso naujinimas – įkainota**. Ten galite pasirinkti registruoti standartinę finansinę datą arba nurodyti registravimo datą, o tada vykdyti veiksmą. Galite vykdyti veiksmą iš naujo tiek kartų, kiek norite. Taip pat galite naudoti dialogo langą **Reiso naujinimas – įkainota**, norėdami nustatyti grafiką, pagal kurį veiksmas bus vykdomas kaip periodinė užduotis (paketinė užduotis). Rekomenduojame reguliariai atlikti veiksmą, nustatant jį kaip paketinę užduotį. |
-| Užregistruoti gavimo kvitų sąrašą | Registruokite visų reiso pirkimo užsakymo eilučių gavimo kvitų sąrašą. Jei naudojami kelių įmonių reisai, atidaromas naujas kiekvienos įmonės gavimo kvitų sąrašo registravimo dialogo langas, kuris turi būti apdorotas kiekviename juridiniame subjekte. |
-| Registruoti produkto gavimo kvitą | Registruokite visų reiso pirkimo užsakymo eilučių produktų gavimo kvitus. Pirkimo užsakymo eilučių, susietų su reisu, produktų gavimo procesas bus naudojamas tik tada, jei prekės **nebus** apdorotos tranzito prekių apdorojimo būdu. Jei prekės bus apdorotos tranzito prekių apdorojimo būdu, bandydami užregistruoti pirkimo užsakymo eilutės produkto gavimo kvitą gausite klaidos pranešimą. Jei vykdomi kelių įmonių reisai, kiekvienai įmonei atidaromas naujas pristatymo pažymos registravimo dialogo langas. |
-| Registruoti SF | Registruokite visų reiso pirkimo užsakymo eilučių SF. Jei reiso prekės bus apdorotos tranzito prekių apdorojimo būdu, pirkimo užsakymo eilučių SF bus išrašytos prieš pasibaigiant gavimo procesui. Kai išrašoma pradinio pirkimo užsakymo SF, bus sukurti tranzito prekių užsakymai, susieti su pradinio pirkimo užsakymo eilutėmis. Tada šiuos užsakymus gali priimti sandėlis. Jei vykdomos kelių įmonių siuntos, kiekvienai įmonei atidaromas naujas SF registravimo dialogo langas. |
+| Užregistruoti gavimo kvitų sąrašą | Registruokite visų reiso pirkimo užsakymo eilučių gavimo kvitų sąrašą.  |
+| Registruoti produkto gavimo kvitą | Registruokite visų reiso pirkimo užsakymo eilučių produktų gavimo kvitus. Pirkimo užsakymo eilučių, susietų su reisu, produktų gavimo procesas bus naudojamas tik tada, jei prekės **nebus** apdorotos tranzito prekių apdorojimo būdu. Jei prekės bus apdorotos tranzito prekių apdorojimo būdu, bandydami užregistruoti pirkimo užsakymo eilutės produkto gavimo kvitą gausite klaidos pranešimą.  |
+| Registruoti SF | Registruokite visų reiso pirkimo užsakymo eilučių SF. Jei reiso prekės bus apdorotos tranzito prekių apdorojimo būdu, pirkimo užsakymo eilučių SF bus išrašytos prieš pasibaigiant gavimo procesui. Kai išrašoma pradinio pirkimo užsakymo SF, bus sukurti tranzito prekių užsakymai, susieti su pradinio pirkimo užsakymo eilutėmis. Tada šiuos užsakymus gali priimti sandėlis.  |
 | Siuntimo perkėlimo užsakymas | Registruokite visų reiso perkėlimo užsakymo eilučių perkėlimo užsakymo reisus. Pasirinkus šį mygtuką, bus galima atnaujinti tik perkėlimo užsakymus. |
 | Gauti perkėlimo užsakymą | Registruokite visų reiso perkėlimo užsakymo eilučių perkėlimo užsakymo gavimo kvitus. |
 | Gauti tranzito prekes | Gaukite visas užsakymo eilutes, kurios vykdomos reiso tranzito metu. Šis mygtukas yra viena iš trijų parinkčių, kurias galima naudoti reiso metu gaunant tranzito prekes. (Kitos dvi parinktys yra mygtukas **Kurti gavimo žurnalą**, kuris aprašytas toliau šioje lentelėje, ir sandėlio valdymo mobiliųjų įrenginių programėlė) Ši parinktis yra paprasčiausia ir ją naudojant tranzito prekės bus apdorojamos iš tranzito prekių sandėlio į galutinės paskirties sandėlį. Norėdami labiau kontroliuoti procesą, naudokite gavimo žurnalą arba mobilųjį įrenginį, kad galėtumėte apdoroti prekių gavimą. |
@@ -84,7 +84,7 @@ Toliau pateikta lentelė aprašo mygtukus, pasiekiamus veiksmų srities skirtuke
 
 | Mygtukas | aprašymas |
 |---|---|
-| Gavimų sąrašas | Atidarykite visų reiso pirkimo užsakymo eilučių produktų gavimo kvitų sąrašą. Jei vykdomi kelių įmonių reisai, atidaromas naujas kiekvienos įmonės gavimo kvitų sąrašas. Jei nėra apdorotų produktų gavimo kvitų sąrašų, šis mygtukas negalimas. |
+| Gavimų sąrašas | Atidarykite visų reiso pirkimo užsakymo eilučių produktų gavimo kvitų sąrašą.  Jei nėra apdorotų produktų gavimo kvitų sąrašų, šis mygtukas negalimas. |
 | Produkto gavimo kvitas | Atidarykite pirkimo užsakymo eilučių, susietų su reisu, produkto gavimo kvito įrašą, jei tas įrašas naudojamas. Jei nėra užregistruotų produktų gavimo kvitų, šis mygtukas negalimas. Produktų gavimo kvitų procesas nebus naudojamas, jei naudojate tranzito prekių apdorojimą. |
 | Prekių gavimas | Atidarykite prekių gavimo žurnalą, jei jis naudojamas. |
 | Sekimas | Atidarykite puslapį **Gaunamų prekių sekimas**, kuriame galite atnaujinti numatomą reiso prekių, esančių gabenimo konteineryje, pristatymo datą, o tada atnaujinti numatomas pirkimo užsakymo eilučių pristatymo datas. |

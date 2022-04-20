@@ -1,5 +1,5 @@
 ---
-title: Tuščias mokesčių priemonių sąrašas mokesčių skaičiavimo parametruose
+title: Tuščias mokesčių funkcijų sąrašas mokesčių skaičiavimo parametrų srityje
 description: Šioje temoje paaiškinama, kaip spręsti problemą, kai mokesčių funkcijų sąrašas mokesčių skaičiavimo parametrų puslapyje yra tuščias.
 author: wangchen
 ms.date: 03/04/2022
@@ -13,22 +13,21 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-10-26
 ms.dyn365.ops.version: Version 10.0.21
-ms.openlocfilehash: 5b87499042c9c4bfe76e182b170adf4f1cfeac4b
-ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
+ms.openlocfilehash: ef8158c2ada18e7d132eebbedef559b3f80ab19f
+ms.sourcegitcommit: 2977e92a76211875421e608555311c363cfbdc25
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/05/2022
-ms.locfileid: "8389130"
+ms.lasthandoff: 04/16/2022
+ms.locfileid: "8612295"
 ---
-# <a name="empty-tax-feature-list-in-tax-calculation-parameters"></a>Tuščias mokesčių priemonių sąrašas mokesčių skaičiavimo parametruose
+# <a name="empty-tax-feature-list-in-tax-calculation-parameters"></a>Tuščias mokesčių funkcijų sąrašas mokesčių skaičiavimo parametrų srityje
 
 [!include [banner](../includes/banner.md)]
 
-[!include [banner](../includes/preview-banner.md)]
 
 ## <a name="symptom"></a>Požymis
 
-Paskelbėte reguliavimo konfigūracijos tarnybos (RCS) funkciją, kad ją būtų galima naudoti "Microsoft"Dynamics 365 Finance. Tačiau kai atidarote finansus, **·** \> **·** \> **·** \> **eikite į Mokesčių nustatymo mokesčio konfigūracijos mokesčių skaičiavimo parametrus** ir **pabandykite pasirinkti reikšmę lauke Priemonės nustatymo pavadinimas**, verčių sąrašas yra tuščias.
+Paskelbėte reguliavimo konfigūracijos tarnybos (RCS) Microsoft Dynamics funkciją, kad ją būtų galima naudoti "365 Finance". Tačiau kai atidarote finansus, **·** \> **·** \> **·** \> **eikite į Mokesčių nustatymo mokesčio konfigūracijos mokesčių skaičiavimo parametrus** ir **pabandykite pasirinkti reikšmę lauke Priemonės nustatymo pavadinimas**, verčių sąrašas yra tuščias.
 
 ## <a name="reason"></a>Priežastis
 

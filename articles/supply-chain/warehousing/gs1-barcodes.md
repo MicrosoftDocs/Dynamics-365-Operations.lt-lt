@@ -1,8 +1,8 @@
 ---
-title: GS1 brūkšniniai kodai ir QR kodai
+title: GS1 brūkšniniai kodai
 description: Šioje temoje aprašoma, kaip nustatyti GS1 brūkšninius kodus ir QR kodus, kad etiketės galėtų būti nuskaitomos sandėlyje.
 author: Mirzaab
-ms.date: 08/02/2021
+ms.date: 03/21/2022
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -10,15 +10,15 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-08-02
-ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 702985ef9726690829e35e43d270477be318fc41
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
-ms.translationtype: HT
+ms.dyn365.ops.version: 10.0.25
+ms.openlocfilehash: 083748d4aecf551fd326b6c3cbf6d92cf3daf717
+ms.sourcegitcommit: d475dea4cf13eae2f0ce517542c5173bb9d52c1c
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8075219"
+ms.lasthandoff: 04/05/2022
+ms.locfileid: "8547822"
 ---
-# <a name="gs1-bar-codes-and-qr-codes"></a>GS1 brūkšniniai kodai ir QR kodai
+# <a name="gs1-bar-codes"></a>GS1 brūkšniniai kodai
 
 [!include [banner](../includes/banner.md)]
 [!INCLUDE [preview-banner](../includes/preview-banner.md)]
@@ -26,22 +26,106 @@ ms.locfileid: "8075219"
 
 Sandėlio darbuotojai dažnai turi atlikti keletą užduočių, kai, naudodami mobilųjį skaitytuvą, registruoja prekės, padėklo ar konteinerio judėjimą. Šios užduotys gali apimti ir brūkšninių kodų nuskaitymą, ir rankinį informacijos įvedimą mobiliajame įrenginyje. Brūkšniniams kodams naudojamas konkrečios įmonės formatas, kurį nustatote ir tvarkote naudodami „Microsoft Dynamics 365 Supply Chain Management“.
 
-Siekiant užtikrinti visuotinį įmonių duomenų mainų standartą, buvo sukurti siuntimo etikečių GS1 brūkšninių kodų ir QR kodų formatai. GS1 formatai ne tik užkoduoja duomenis, bet ir leidžia naudoti iš anksto apibrėžtą *programos identifikatorių* sąrašą duomenų reikšmei nustatyti. GS1 standartas apibrėžia duomenų formatą ir įvairius duomenis, kuriuos galima naudoti norint kažką užkoduoti. Skirtingai nei senesniuose brūkšniniuose koduose, GS1 brūkšniniuose koduose gali būti keletas duomenų elementų. Todėl, vieną kartą nuskaičius brūkšninį kodą, galima užfiksuoti kelių tipų produkto informaciją, pvz., paketą ir galiojimo datą.
+Siekiant užtikrinti visuotinį įmonių duomenų mainų standartą, buvo sukurtas siuntimo žymių GS1 brūkšninis kodas. Jie galimi ir linijinėmis (1D) simboliais (brūkšninių kodų formatais), pvz., GS1-128, ir 2D simboliais, pvz., GS1 DataMatrix ir GS1 QR kodais. GS1 brūkšniniai kodai ne tik užkoduoja *duomenis*, bet ir leidžia naudoti iš anksto apibrėžtą programos identifikatorių sąrašą, siekiant apibrėžti šių duomenų reikšmę. GS1 standartas apibrėžia duomenų formatą ir įvairius duomenis, kuriuos galima naudoti norint kažką užkoduoti. Skirtingai nei senesnių brūkšninių kodų standartai, GS1 brūkšniniuose koduose gali būti keletas duomenų elementų. Todėl, vieną kartą nuskaičius brūkšninį kodą, galima užfiksuoti kelių tipų produkto informaciją, pvz., paketą ir galiojimo datą.
 
-GS1 palaikymas sprendime „Supply Chain Management“ itin supaprastina nuskaitymo procesą sandėliuose, kuriuose padėklai ir konteineriai žymimi naudojant kodus GS1 formatu. Sandėlio darbuotojai visą reikiamą informaciją gali gauti vieną kartą nuskaitę GS1 brūkšninį kodą. Kadangi nebereikia kelis kartus nuskaityti ir (arba) rankiniu būdu įvesti informacijos, GS1 brūkšniniai kodai padeda sumažinti užduotims atlikti reikiamą laiką. Taip pat jie padeda padidinti tikslumą.
+GS1 palaiko tiekimo grandinės valdymą, pagal ką paprasčiau nuskaityti sandėlius, kur padėklai ir konteineriai žymimi naudojant brūkšninius kodus GS1 formatu. Sandėlio darbuotojai visą reikiamą informaciją gali gauti vieną kartą nuskaitę GS1 brūkšninį kodą. Kadangi nebereikia kelis kartus nuskaityti ir (arba) rankiniu būdu įvesti informacijos, GS1 brūkšniniai kodai padeda sumažinti užduotims atlikti reikiamą laiką. Taip pat jie padeda padidinti tikslumą.
 
 Logistikos vadovai turi nustatyti reikiamą programos identifikatorių sąrašą ir kiekvieną iš jų susieti su atitinkamais mobiliojo įrenginio meniu elementais. Tada programos identifikatorius sandėliuose galima naudoti kaip visuotinį perkėlimo ir pakavimo parametrą. Todėl visos siuntimo etiketės bus vienodo formato.
 
-Jei nenurodyta kitaip, šioje temoje naudojamas terminas *brūkšninis kodas* reiškia ir brūkšninius kodus, ir QR kodus.
+Jei nenurodyta kitaip, šioje temoje *naudojamas* terminas Brūkšninis kodas, kad būtų galima naudoti ir linijinius (1D) brūkšninius kodus, ir 2D brūkšninius kodus.
+
+## <a name="the-gs1-bar-code-format"></a>GS1 brūkšninio kodo formatas
+
+GS1 bendrosios specifikacijos nurodo, kuriuos simbolius galima naudoti GS1 brūkšniniams kodams, ir kaip koduoti brūkšninio kodo duomenis. Šiame skyriuje pateikite trumpą temos įžangą. Norėdami gauti daugiau informacijos, žr [. GS1 bendrąsias specifikacijas](https://www.gs1.org/docs/barcodes/GS1_General_Specifications.pdf), kurias publikuos GS1. GS1 specifikacijų dokumentas yra reguliariai atnaujinamas, o jo pateikiama informacija yra naujausia su GS1 bendrųjų specifikacijų išleidimas 22.0.
+
+GS1 brūkšniniuose koduose naudojami šie simboliai:
+
+- **Linijiniai arba 1D brūkšniniai kodai** – GS1-128 ir GS1 DataBar
+- **2D brūkšniniai kodai** – GS1 DataMatrix, GS1 QR kodas ir GS1 taškinis kodas
+
+Atkreipkite dėmesį, kad GS1-128 specialiai nurodo GS1, kuris yra specialus įprasto kodo-128 linijinio brūkšninio kodo, GS1 DataMatrix ir GS1 QR kodo atvejis. Skirtumas tarp GS1 versijos ir ne GS1 versijos – tai, kad brūkšninio kodo duomenyse kaip pirmas simbolis yra specialusis simbolis (F²1). F JŲ1 simbolis nurodo, kad duomenys brūkšniniuose koduose turi būti suprantami pagal GS1 specifikaciją.
+
+Patys brūkšninio kodo duomenys susideda iš kelių duomenų elementų, iš kurių kiekvienas identifikuojamas programos identifikatoriumi lauko pradžioje. Paprastai duomenys taip pat pateikiami su brūkšniniu kodu žmogiškuoju formatu, kur programos identifikatorius rodomas skliausteliuose. Pavyzdys: `(01) 09521101530001 (17) 210119 (10) AB-123`. Šiame brūkšninie kode yra trys elementai:
+
+- **Programos identifikatorius 01** – GS1 prekės pasaulinis prekybos prekės numeris (GTIN).
+- **Programos identifikatorius 17** – galiojimo pabaigos data.
+- **Programos identifikatorius 10** – paketo numeris.
+
+Kiekvieno elemento duomenys gali būti arba iš anksto nustatyti, arba kintami. Yra fiksuotas iš anksto nustatytų ilgių programos identifikatorių sąrašas. Visų kitų programų identifikatorių ilgis yra kintamas, o GS1 programos identifikatorių sąrašas nurodo maksimalų duomenų ilgį ir formatą. Pavyzdžiui, iš anksto nustatytas 01 programos identifikatoriaus ilgis yra 16 simbolių (vienas – pats programos identifikatorius, tada – 14 GTIN), o programos identifikatorius 17 turi iš anksto nustatytą aštuonių simbolių ilgį (du – pačiam programos identifikatoriui, o tada – šešiems – dienai). Tačiau programos identifikatorius 10 turi du numerius ir po to – iki 20 raidinių-skaitinių simbolių.
+
+Kai elementai sudedami kartu, jei elementas seka kintamojo ilgio elementą, turi būti naudojamas skyriklio simbolis. Šis skyriklis gali būti specialusis FIKLIS1 simbolis arba grupės skyriklio simbolis (nespausdinamas simbolis, kuriame yra ASCII kodas 29 ir šešioliktainis kodas 1D). Skyriklis negali būti naudojamas po paskutinio elemento. Nors skyriklis taip pat neturi būti naudojamas po elementų, kurie turi iš anksto nustatytą ilgį, jo buvimo klaida nėra kritinė klaida.
+
+Ankstesnio brūkšninio kodo, kuriame yra 01, 17 ir 10 identifikatorių, brūkšninio kodo duomenys, esantys kode-128, QR kode arba DataMatrix `<FNC1>`**`01`**`09521101530001`**`17`**`210119`**`10`**`AB-123` simboliais, bus užkoduoti kaip (programos identifikatoriai rodomi paryškintuoju šriftu). Geriausia būtų pabaigti bet kurį elementą, kurio ilgis kintamas, kad būtų pašalintas papildomų grupės skyriklių simbolių poreikis. Tačiau brūkšninis kodas taip pat gali turėti skirtingą elementų tvarką, kai skyriklis yra privalomas. Čia yra pavyzdys:`<FNC1>`**`01`**`09521101530001`**`10`**`AB-123<GS>`**`17`**`210119`.
+
+### <a name="dates-and-decimal-numbers"></a>Datos ir dešimtainiai skaičiai
+
+Datos visada vaizduojamos *YYMMDD* formatu, kur metų amžių nustato GS1 specifikacijos. Gali būti nurodytos tik tos datos, kurios yra nuo 49 metų praeityje iki 50 metų ateityje (susijusios su šiais metais).
+
+Kai kuriuose duomenų elementuose yra dešimtainių skaičių. Pavyzdžiui, prašymo identifikatoriai 3100, 3101, ... 3105 nurodo grynąjį svorį kilogramais. Šių programos identifikatorių ilgis iš anksto nustatytas 10, yra šeši galimi kiekio skaičiai. Dešimtainio skyriklio pozicija nurodoma pagal paskutinį programos identifikatoriaus numerį. Todėl ši programų identifikatorių šeima taip pat gali būti vaizduojama *310n*. Kadangi GS1 standartas nurodo, kad į kairę nuo dešimtainio skyriklio visada turi būti bent vienas skaičius, leidžiamas daugiausiai penkios dešimtainės trupmenos skaitmenys.
+
+Pateikiami keli pavyzdžiai, kurie parodo, kaip numerių *123456* bus interpretuoti pagal skirtingus programos identifikatorius (rodomas paryškintuoju šriftu):
+
+- **`3100`**`123456`&rarr; 123456 (integer)
+- **`3101`**`123456`&rarr; 12345.6 (viena dešimtainė vieta)
+- **`3102`**`123456`&rarr; 1234,56 (su dviem dešimtainėmis dalimis)
+- **`3103`**`123456`&rarr; 123.456 (trys skaitmenys po dešimtainio kablelio)
+- **`3104`**`123456`&rarr; 12,3456 (keturi skaičiai po kablelio)
+- **`3105`**`123456`&rarr; 1.23456 (penki skaitmenys po dešimtainio kablelio)
+
+## <a name="scanning-gs1-bar-codes-in-supply-chain-management"></a>GS1 brūkšninių kodų nuskaitymas tiekimo grandinės valdymo dalyje
+
+Norėdami nuskaityti GS1 brūkšninius kodus, sandėlio darbuotojai naudoja skaitytuvą, įtaisytą mobiliajame įrenginyje arba prie jo prijungtą. Tada skaitytuvas persiunčia nuskaitytą brūkšninią kodą į sandėlio valdymo mobiliąją programą kaip klaviatūros įvykių seriją. Šis operacijos būdas taip pat vadinamas klaviatūros *klavišo nudažoma* *ar nudažoma*. Tada mobilioji programa siunčia gautą tekstą kaip tiekimo grandinės valdymą. Kai sistema gauna įvesties duomenis, pirmiausia ji nustato, ar duomenys prasideda vienu iš sukonfigūruotų prefiksų, kurie nurodo, kad duomenys iš tikrųjų yra GS1 brūkšninis kodas ([žr. skyrių Nustatyti visuotines GS1 pasirinktis](#set-gs1-options)). Jei nuskaityti duomenys prasideda vienu iš šių prefiksų, sistema naudoja GS1 analizatorių duomenims išanalizuoti ir išskleisti atskirus duomenų elementus pagal jų programos identifikatorius. Kai duomenys išanalizuoti, nuskaityti duomenys bus užpildyti arba dabartiniu įvesties lauku, arba keliais laukais.
+
+### <a name="configuration-of-bar-code-scanner-hardware-and-software"></a>Brūkšninių kodų skaitytuvo aparatūros ir programinės įrangos konfigūracija
+
+Kad tiekimo grandinės valdymas galėtų teisingai atpažinti ir iššifruoti GS1 brūkšninius kodus, aparatūros skaitytuvas arba palaikymo programinė įranga turi būti sukonfigūruota atlikti šiuos veiksmus:
+
+- Pridėti prefiksą prie nuskaitytų brūkšninių kodų, kad sistema galėtų atpažinti GS1 brūkšninius kodus.
+- Konvertuoti nespausdinamas ASCII grupės skyriklio simbolį (ASCII kodas 29 arba šešioliktainis kodas 1D) į spausdinamą simbolį, pvz., tilde (~).
+
+Nors prie nuskaityto brūkšninio kodo galima pridėti bet kokį prefiksą, galima naudoti ir ISO/IEC 15424 simbolių identifikatorių, *taip pat vadinamą KLAVIŠĄ IDENTIFIER*. Prasideda šis trijų `]` simbolių identifikatorius, jame yra vienas simbolis, identifikuojantis naudojamą simbolį ir numeris, kuris naudojamas kaip tolesnis modifikatorius. Pavyzdžiui, THE `]C1` identifikatorius nurodo kodą 128 (`C` dėl simbolio), o modifikatorius `1` nurodo, kad pirmoje duomenų vietoje yra F TAMS1 simbolis. Kita vertus, tai `]C0` 128 brūkšninis kodas, kuriame kaip pirmas duomenų ženklą yra bet koks kitas simbolis.
+
+Šie penki simbolių identifikatoriai atitinka GS1 brūkšninius kodus, kurie turi programos identifikatoriaus elementus:
+
+- `]C1`– kodas 128 (`C`) su F²1 simboliu pirmoje vietoje (`1`), taip pat vadinamas GS1-128.
+- `]e0`– GS1 DataBar.
+- `]d2`– DataMatrix (`d`) su ECC 200 ir FARI1 pirmomis padėtimi (`2`), taip pat žinomas kaip GS1 DataMatrix.
+- `]Q3`– QR kodas (`Q`) 2 modelio simbolis su FARI1 pirmomis padėtimi (`3`), taip pat vadinamas GS1 QR kodu.
+- `]J1`– GS1 taškinis kodas.
+
+Naudojant šiuos identifikatorius, siekiant pašalinti identifikatorius, kurie neatitinka GS1 identifikatorių, reikia sukonfigūruoti skaitytuvus ar nuskaityti programinę įrangą, kad būtų pašalinti visi identifikatoriai, kurie neatitinka GS1 identifikatorių. Pavyzdžiui, jei nuskaitysite "įprastą" 39 kodo brūkšninius kodus, bus pridėtas `]A0` prefiksas. Kadangi sistema nesupras šio prefikso kaip vieno iš GS1 prefiksų, jis bus interpretuoti kaip duomenys ir duoda netikėtų rezultatų.
+
+> [!NOTE]
+> Dėl patogumų, 2.0.17.0 ir vėliau sandėlio valdymo mobiliųjų įrenginių programos versija pašalins visus OF prefiksus, kurie nėra įtraukti į ankstesnį sąrašą. Taip galima naudoti atvejus, kai galima sukonfigūruoti skaitytuvą pridėti PREfiksĄ THE, bet ne pašalinti nepageidaujamų prefiksų.
+
+### <a name="single-and-multiple-field-scanning"></a>Vieno ir kelių laukų nuskaitymas
+
+Kai duomenys išanalizuoti iš brūkšninio kodo, jie bus pateikti mobiliojo įrenginio srauto valdikliuose. Yra du metodai, kurie bus apdoroti jų ruožtu:
+
+- **Vieno lauko nuskaitymas** – šiuo metodu užpildomas tik tas laukas, į kurį buvo nuskaitytas brūkšninis kodas. Pavyzdžiui, jei nuskaitysite brūkšninius `<FNC1>`**`01`**`09521101530001`**`17`**`210119`**`10`**`AB-123`**kodus**, kai žymeklis yra lauke Prekė, į tą lauką bus įvestas GTIN `09521101530001` iš brūkšninio kodo. Jei nuskaitysite tą patį brūkšninią kodą, kai žymeklis **yra lauke Paketo ID**, bus įvestas `AB-123` partijos numeris iš brūkšninio kodo. Šis režimas veikia visuose laukuose visuose srautuose ir reikalauja konfigūruoti tik bendrąjį GS1 nustatymą. Jei brūkšninis kodas turi keletą elementų, jį vis tiek reikia nuskaityti kelis kartus, nes į mobiliojo įrenginio srautą bus įvesta tik viena brūkšninio kodo dalis. Šį elgseną kontroliuoja GS1 bendrasis nustatymas, kaip aprašyta [skyriuje Nustatyti bendrąjį GS1 nustatymą](#generic-gs1-setup).
+- **Kelių laukų nuskaitymas** – šis metodas užpildo kelis laukus, kai nuskaitomas vienas brūkšninis kodas, perstumdamas papildomus duomenis į mobiliojo įrenginio srauto būseną. Pavyzdžiui, strategija sukonfigūruota taip, kad į lauką būtų perstumtas programos identifikatorius 01 `ItemId` į valdiklio ir programos identifikatorių `InventBatchId` 10. Šiuo atveju, jei nuskaitysite brūkšninius `<FNC1>`**`01`**`09521101530001`**`17`**`210119`**`10`**`AB-123` kodus, abiejų kintamųjų duomenys bus stumdami tuo pačiu metu. Todėl sistema neįsiųs jūsų apie srauto prekės ir (arba) paketo numerį. Šį elgseną kontroliuoja GS1 strategijos, susietos su meniu elementais, [kaip aprašyta GS1 strategijų, kurios turi būti taikomos mobiliųjų įrenginių meniu elementams,](#policies-for-menus) skyriuje Nustatyti GS1.
+
+> [!WARNING]
+> Numatytosios GS1 strategijos patikrintos taip, kad veiktų be netikėto veikimo būdo. Tačiau GS1 strategijų, susietų su meniu elementais, tinkinimas gali sukelti netikėtą elgseną, nes sraute gali nepavykti kai kurių duomenų, kurie bus pasiekiami tam tikru laiku.
 
 ## <a name="turn-on-the-gs1-feature"></a>GS1 funkcijos įjungimas
 
 Kad galėtumėte naudoti šią funkciją, ji turi būti įjungta jūsų sistemoje. Administratoriai gali naudoti [funkcijos valdymas](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) parametrus, norėdami sužinoti funkcijos būseną ir įjungti ją. Darbo srityje **Funkcijų valdymas** ši funkcija yra nurodyta toliau pateikiamu būdu.
 
-- **Modulis:** *Sandėlio valdymas*
-- **Funkcijos pavadinimas:** *GS1 brūkšninių kodų nuskaitymas*
+- **Modulis:** *Warehouse management*
+- **Priemonės pavadinimas: nuskaityti** *GS1 brūkšninius kodus*
 
-## <a name="set-up-global-gs1-options"></a>Visuotinių GS1 parinkčių nustatymas
+### <a name="turn-on-the-enhanced-parser-for-gs1-barcodes-feature"></a>Įjungti išplėstinį GS1 brūkšninių kodų funkcijos analizatorių
+
+Jei naudojate GS1 brūkšninius kodus, *rekomenduojame įgalinti ir GS1 brūkšninių kodų funkcijos išplėstinį analizatorių*. Ši funkcija leidžia patobulintas GS1 brūkšninio kodo analizatoriaus diegimas. Jame pridėti šie patobulinimai:
+
+- Jis atitinka GS1 bendrosios specifikacijos algoritmą, naudojamą simbolių duomenims išanalizuoti ir patikrinti, ar simbolio duomenys galioja pagal specifikaciją.
+- Nesvarbu, kad jūs norite nustatyti maksimalų identifikatoriaus **reikšmės** ilgį ir naudosite ilgiausią prefikso gretinimą naudojant sukonfigūruotus programos identifikatorius.
+- Naudodami raidę n *galite lengviau konfigūruoti dešimtainius programos identifikatorius, kad jis atitiktų* bet kokį skaičių. Pavyzdžiui, užuot atskirę atskirus programų identifikatorius (3101 *, 3102* *,* 3103 *ir taip toliau), galite konfigūruoti tik vieną programos identifikatorių (* *310n*).
+- Tai pataiso problemą, kai netinkamai užkoduoti duomenys yra suprantami kaip lauko duomenys.
+- Jis pateikiamas kaip atskira klasė, kurią galima pakartotinai naudoti kituose kontekstuose ir leidžia naudoti extensibility tašką nuskaityties duomenims valdyti prieš užpildant srauto laukus.
+
+## <a name="set-up-global-gs1-options"></a><a name="set-gs1-options"></a>Visuotinių GS1 parinkčių nustatymas
 
 Puslapyje **Sandėlio valdymo parametrai** pateikiami keli parametrai, kuriais nustatomos visuotinės GS1 parinktys.
 
@@ -50,14 +134,12 @@ Norėdami nustatyti visuotines GS1 parinktis, atlikite tolesnius veiksmus.
 1. Eikite į **Sandėlio valdymas \> Sąranka \> Sandėlio valdymo parametrai**.
 1. „FastTab“ skirtuke **Brūkšniniai kodai** nustatykite toliau nurodytus laukus.
 
-    - **FNC1 simbolis** – nurodykite simbolius, kurie turi būti suprantami kaip prefiksas, kai analizuojamas brūkšninis kodas.
-    - **Duomenų matricos simbolis** – nurodykite simbolius, kurie turi būti suprantami kaip prefiksas, kai analizuojama duomenų matrica.
-    - **QR kodo simbolis** – nurodykite simbolius, kurie turi būti suprantami kaip prefiksas, kai analizuojamas QR kodas.
-    - **Grupių skyriklis** – nurodykite simbolį, kuris identifikuoja atskiras brūkšninio kodo arba QR kodo dalis.
-    - **Maksimalus identifikatoriaus ilgis** – nurodykite maksimalų leidžiamą programos identifikatoriaus simbolių skaičių.
+    - **FVZ1 simbolis**, **Datamatrix** simbolis ir QR **kodo simbolis – nurodykite simbolius,** kurie turėtų būti suprantami kaip kiekvieno GS1 brūkšninio kodo tipo prefiksas.
+    - **Grupės skyriklis** – nurodykite simbolį, kuris pakeičia ASCII grupės skyriklio simbolį.
+    - **Maksimalus identifikatoriaus ilgis** – nurodykite maksimalų leidžiamą programos identifikatoriaus simbolių skaičių. Šis laukas nėra būtinas, jei jūsų sistemoje *įjungta išplėstinė GS1* analizatoriaus funkcija.
 
 > [!NOTE]
-> Prefiksai sistemai nurodo, kad brūkšninis kodas užšifruotas pagal GS1 standartą. Vienu metu įvairiais tikslais galima naudoti iki trijų prefiksų (**FNC1 simbolis**, **Duomenų matricos simbolis** ir **QR kodo simbolis**).
+> Prefiksai nurodo sistemai, kad brūkšninis kodas užkoduotas pagal GS1 standartą. Vienu metu įvairiais tikslais galima naudoti iki trijų prefiksų (**FNC1 simbolis**, **Duomenų matricos simbolis** ir **QR kodo simbolis**).
 
 ## <a name="gs1-application-identifiers"></a>GS1 prašymo identifikatoriai
 
@@ -95,17 +177,20 @@ Norėdami nustatyti ir tinkinti savo GS1 programos identifikatorius, atlikite to
 
 1. Nustatykite tolesnius naujo arba pasirinkto identifikatoriaus laukus.
 
-    - **Programos identifikatorius** – įveskite programos identifikatoriaus identifikavimo kodą. Paprastai šis kodas yra dviejų skaitmenų sveikasis skaičius, tačiau jis gali būti ilgesnis. Paskutinis dešimtainių verčių skaitmuo nurodo skaitmenų po kablelio skaičių. Daugiau informacijos rasite toliau šiame sąraše pateiktame žymės langelio **Dešimtainė dalis** apraše.
+    - **Programos identifikatorius** – įveskite programos identifikatoriaus identifikavimo kodą. Paprastai šis kodas yra dviejų skaitmenų sveikasis skaičius, tačiau jis gali būti ilgesnis. Paskutinis dešimtainių verčių skaitmuo nurodo skaitmenų po kablelio skaičių. Daugiau informacijos rasite toliau šiame sąraše pateiktame žymės langelio **Dešimtainė dalis** apraše. Jei įgalinta *GS1* brūkšninių kodų funkcijos patobulinto analizatoriaus funkcija, *galite sukurti vieną visų dešimtainės trupmenos variantų programos identifikatorių naudodami raidę n* kaip paskutinį programos identifikatoriaus simbolį. Pavyzdžiui, galite konfigūruoti tik vieną programos identifikatorių (*310n*), o ne atskirą kiekvieno dešimtainio skyriklio vietos numerio identifikatorių (*3101*, *3102*, *3103* ir taip toliau).
     - **Aprašas** – įveskite trumpą identifikatoriaus aprašą.
     - **Fiksuotas ilgis** – pažymėkite šį žymės langelį, jei naudojant šį programos identifikatorių nuskaitomų verčių simbolių skaičius yra fiksuotas. Jei verčių ilgis kintamas, šį žymės langelį išvalykite. Tokiu atveju, naudodami grupių skyriklio simbolį, kurį nurodėte puslapyje **Sandėlio valdymo parametrai**, turite nurodyti vertės pabaigą.
     - **Ilgis** – įveskite maksimalų simbolių, kurie gali būti rodomi vertėse, nuskaitomose naudojant šį programos identifikatorių, skaičių. Jei pažymėtas žymės langelis **Fiksuotas ilgis**, numatomas tiksliai toks simbolių skaičius.
-    - **Tipas** – pasirinkite vertės, nuskaitomos naudojant šį programos identifikatorių, tipą (*Skaitinė*, *Raidinė-skaitinė* arba *Data*). Numatomas datų formatas yra mmMMDD (be tarpų ir brūkšnelių).
-    - **Dešimtainė dalis** – pažymėkite šį žymės langelį, jei vertėje yra numanomas dešimtainis skyriklis. Jei šis langelis pažymėtas, sistema paskutinį programos identifikatoriaus skaitmenį naudos tam, kad nustatytų skaitmenų po kablelio skaičių. Pavyzdžiui, jei programos identifikatorius yra *3205*, dešinieji penki vertės skaitmenys bus suprantami kaip esantys po dešimtainio skyriklio.
+    - **Tipas** – pasirinkite vertės, nuskaitomos naudojant šį programos identifikatorių, tipą (*Skaitinė*, *Raidinė-skaitinė* arba *Data*). Daugiau informacijos apie tai, kaip datos ir skaičiai pateikti brūkšninio kodo duomenyse, ieškokite [skyriuje Datos ir dešimtainiai](#dates-and-decimal-numbers) skaičiai.
+    - **Dešimtainė dalis** – pažymėkite šį žymės langelį, jei vertėje yra numanomas dešimtainis skyriklis. Jei šis langelis pažymėtas, sistema paskutinį programos identifikatoriaus skaitmenį naudos tam, kad nustatytų skaitmenų po kablelio skaičių. Daugiau informacijos apie tai, kaip datos ir skaičiai pateikti brūkšninio kodo duomenyse, ieškokite [skyriuje Datos ir dešimtainiai](#dates-and-decimal-numbers) skaičiai.
+
+> [!WARNING]
+> **Nors** sistema leis nustatyti bet kurio programos identifikatoriaus žymės langelį Fiksuotas ilgis, jis turėtų būti naudojamas tik programų identifikatorių, kurių ilgis GS1 bendrosiose specifikacijose yra iš anksto nustatytas, subgrupei. Išplėstinis GS1 analizatorius jau apima visų iš anksto nustatytų ilgių programos identifikatorių sąrašą.
 
 > [!NOTE]
-> Puslapyje **Sandėlio valdymo parametrai** nurodomas grupių skyriklis nėra privalomas, jei vertė, po kurios seka programos identifikatorius, yra fiksuoto ilgio arba jei jo ilgis yra maksimalus (t. y., jei ilgis lygus nustatytai programos identifikatoriaus vertei **Ilgis**).
+> Grupės **skyriklio** vertė, nurodyta sandėlio **valdymo parametrų** puslapyje, yra pasirinktinė, jei vertės, po kurios eina programos identifikatorius, ilgis yra fiksuotas.
 
-## <a name="establish-the-generic-gs1-setup"></a>Bendrosios GS1 sąrankos nustatymas
+## <a name="establish-the-generic-gs1-setup"></a><a name="generic-gs1-setup"></a>Bendrosios GS1 sąrankos nustatymas
 
 Bendroji GS1 sąranka nustato bendrų susiejimų rinkinį. Šie susiejimai kiekvieną atitinkamą mobiliųjų įrenginių programėlės įvesties lauką sutapdina su programos identifikatoriumi, kuris valdo, kaip nuskaitytų brūkšninių kodų vertės turi būti interpretuotos ir saugomos šiame lauke. Numatyta, kad šie parametrai taikomi visiems visų mobiliojo įrenginio meniu elementų nuskaitymams. Tačiau juos viename ar daugiau konkrečių laukų gali pakeisti GS1 strategija, priskirta konkrečiam meniu elementui.
 
@@ -137,7 +222,7 @@ Norėdami tinkinti bendrąją GS1 sąranką, atlikite tolesnius veiksmus.
     - **Laukas** – pasirinkite arba įveskite mobiliųjų įrenginių programėlės įvesties lauką, kuriam turi būti priskirta gaunama vertė. Ši vertė nėra rodomas pavadinimas, kurį mato darbuotojai. Tai yra rakto pavadinimas, priskirtas pagrindinio kodo laukui. Numatytoji sąranka pateikia laukų, kurie gali būti naudingi, rinkinį ir kiekvieno lauko bei sutampančių užprogramuotų funkcijų intuityvių raktų pavadinimų. Tačiau, norint nustatyti tinkamas pasirinktis savo įdiegčiai, gali reikėti pasitarti su programavimo partneriais.
     - **Programos identifikatorius** – pasirinkite taikytiną programos identifikatorių, kaip nurodyta puslapyje **GS1 programos identifikatoriai**. Identifikatorius nustato, kaip brūkšninis kodas bus interpretuojamas ir saugomas kaip įvardytojo lauko vertė. Kai pasirenkate programos identifikatorių, lauke **Aprašas** rodomas jo aprašas.
 
-## <a name="set-up-gs1-policies-that-you-can-assign-to-mobile-device-menu-items"></a>GS1 strategijų, kurias galima priskirti mobiliojo įrenginio meniu elementams, nustatymas
+## <a name="set-up-gs1-policies-to-be-to-mobile-device-menu-items"></a><a name="policies-for-menus"></a> Nustatyti GS1 strategijas, kurios bus taikomos mobiliojo įrenginio meniu elementams
 
 GS1 standarto paskirtis – leisti darbuotojams įkelti keletą verčių, vieną kartą nuskaičius vieną brūkšninį kodą. Siekdami šio tikslo logistikos vadovai turi nustatyti GS1 strategijas, kurios sistemai nurodo, kaip interpretuoti kelių verčių brūkšninius kodus. Vėliau galite priskirti strategijas mobiliojo įrenginio meniu elementams, kad galėtumėte valdyti, kaip brūkšninis kodas bus interpretuojamas, kai darbuotojai jį nuskaito naudodami konkretų meniu elementą.
 
@@ -156,6 +241,9 @@ Norėdami įkelti standartinius programos identifikatorius, atlikite tolesnius v
 > Komanda **Kurti numatytąją sąranką** panaikina visas šiuo metu nustatytas strategijas ir pakeičia jas standartiniu strategijų rinkiniu. Tačiau įkėlę numatytąją sąranką, jei reikia, galite strategijas tinkinti.
 
 ### <a name="set-up-custom-specific-gs1-policies"></a>Pasirinktinių konkrečių GS1 strategijų nustatymas
+
+> [!WARNING]
+> Kai kurios GS1 strategijos gali neveikti su kiekvienu mobiliuoju srautu, kurį naudojate. Konfigūruokite pasirinktines GS1 strategijas, turite patikrinti mobiliojo įrenginio srautą naudodami skirtingas informacijos dalis, kurios nuskaitomos skirtinguose srauto taškuose. Tokiu būdu galite nustatyti, ar srauto darbo eiga, kaip tikitės.
 
 Norėdami nustatyti ir tinkinti savo GS1 strategijas, atlikite tolesnius veiksmus.
 
@@ -193,8 +281,8 @@ Pagal numatytuosius parametrus visuose mobiliojo įrenginio meniu elementuose yr
 
 - Puslapyje **Sandėlio valdymo parametrai** nustatomi tolesni visuotiniai parametrai.
 
-  - **FNC1 simbolis:** *\]C1*
-  - **Grupių skyriklis:** *\~*
+    - **FNC1 simbolis:** *\]C1*
+    - **Grupių skyriklis:** *\~*
 
 - Puslapyje **GS1 programos identifikatoriai** šiam pavyzdžiui aktualūs tolesni programos identifikatoriai.
 
@@ -225,7 +313,7 @@ Kai pirkimo užsakymo prekės pristatomos į sandėlį, darbuotojas atlieka šiu
 
 1. Mobiliajame įrenginyje pasirinkite meniu elementą **Pirkimo gavimas**.
 1. Įveskite pirkimo užsakymo numerį.
-1. Pasirinkite lauką **Prekė** ir nuskaitykite šį brūkšninį kodą: *\]C10100000012345678\~3030\~10b1\~17220215*.
+1. Pasirinkite lauką **Prekė** ir nuskaitykite šį brūkšninius kodus: `]C10100000012345678~3030~10b1~17220215`.
 
 Dėl parametrų, kurie nustatyti šiame pavyzdyje, sistema nuskaitytą brūkšninį kodą nuskaito taip, kaip nurodyta toliau.
 

@@ -1,6 +1,6 @@
 ---
 title: Finansinių ataskaitų apžvalga
-description: Šioje temoje paaiškinama, kur galima pasiekti „Microsoft Dynamics 365 Finance“ finansines ataskaitas ir kaip naudoti finansinių ataskaitų galimybes.
+description: Šioje temoje aprašoma, kur gauti prieigą prie Microsoft Dynamics finansinių ataskaitų iš 365 finansų ir kaip naudoti finansinių ataskaitų galimybes.
 author: aprilolson
 ms.date: 03/31/2022
 ms.topic: article
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e1db676024f5ec0f254500bd2ceee85ab2150502
-ms.sourcegitcommit: 777f9581dccc0f963c6a04c95b85e00e68573db5
+ms.openlocfilehash: fcdb5a934818468e00be960f9afe541966e5eabf
+ms.sourcegitcommit: e8a2a1e34fa48a42afac9724828f4ec72b6d7085
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8527319"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8573656"
 ---
 # <a name="get-started-with-financial-reporting"></a>Pradėkite naudoti finansines ataskaitas 
 
@@ -138,7 +138,7 @@ Kai pasirenkate **„Financial Reporting“** meniu, yra rodomas bendrovės nust
 
 ## <a name="creating-and-modifying-financial-reports"></a>Finansinių ataskaitų kūrimas ir modifikavimas
 
-Finansinių ataskaitų sąraše galite kurti naują ataskaitą arba modifikuoti esamą ataskaitą. Jei neturite reikiamų leidimų, galite sukurti naują finansinę ataskaitą pasirinkdami **Nauja** veiksmų juostoje. Į jūsų įrenginį atsisiunčiama ir jame paleidžiama ataskaitų dizaino įrankio programa. Paleidus ataskaitų kūrimo įrankį galima kurti naują ataskaitą. Kai turite naująją ataskaitą, ji atsiranda finansinių ataskaitų sąraše. Sąraše rodomos tik tos ataskaitas, kurios buvo sukurtos jūsų bendrovėje jums naudojant „Dynamics 365 Finance“. 
+Finansinių ataskaitų sąraše galite kurti naują ataskaitą arba modifikuoti esamą ataskaitą. Jei neturite reikiamų leidimų, galite sukurti naują finansinę ataskaitą pasirinkdami **Nauja** veiksmų juostoje. Į jūsų įrenginį atsisiunčiama ir jame paleidžiama ataskaitų dizaino įrankio programa. Paleidus ataskaitų kūrimo įrankį galima kurti naują ataskaitą. Kai turite naująją ataskaitą, ji atsiranda finansinių ataskaitų sąraše. Sąraše pateikiamos tik ataskaitos, sukurtos įmonei, kurią naudojate "Dynamics 365 Finance". 
 
 ## <a name="reporting-tree-definitions"></a>Ataskaitų medžio apibrėžimai
 
@@ -150,9 +150,9 @@ Galite sukurti neribotą skaičių ataskaitų medžių tam, kad parodytumėte sa
 
 Finansų ir operacijų programėlės atnaujinamos kas mėnesį. Tačiau „Financial reporting” nebūtinai yra atnaujinamos pagal tokį dažnį. Be to, klientai turi daugiau parinkčių, kaip įdiegti finansų ir operacijų programėlių naujinimus. „Financial reporting” atnaujinimai įdiegiami automatiškai. „Financial reporting” turi numatytąją versiją, naudojama kliento aplinkoje, kai įdiegtas tarnybos naujinimas, kai inicijuojama prastova, arba tada, kai kliento aplinka veikia priežiūros režimu. Šis procesas vadinamas *paprastesne* arba *teisingesne* įdiegtimi, kadangi visi kliento diegimui nustatomi į vienodą „Financial reporting” versiją.
 
-Pakeitimus, atliktus kiekvienoje versijoje, galima rasti [Kas naujo ar pasikeitė „Dynamics 365 Finance”](../../finance/get-started/whats-new-home-page.md). Kiekvieno leidimo puslapio apačioje esančiame skyriuje „Papildomi ištekliai” galima rasti platformos naujinimus ir klaidų pataisas.
+Pakeitimus, atliktus kiekvienoje versijoje, galima rasti dalyje Kas [nauja arba pakeista "Dynamics 365 Finance"](../../finance/get-started/whats-new-home-page.md). Kiekvieno leidimo puslapio apačioje esančiame skyriuje „Papildomi ištekliai” galima rasti platformos naujinimus ir klaidų pataisas.
 
-Pasirinkta paprastesnė įdiegties versija yra peržiūrėta ir patikrinta „Financial reporting” versija, paruošta gamybai. Ji suderinama su bet kuria ankstesne arba būsima „Dynamics 365 Finance” versija. Pavyzdžiui, „Financial reporting” versija gali būti naujausias 10.0.19 leidimas, o kliento programos versija vis dar yra 10.0.16.
+Pasirinkta paprastesnė įdiegties versija yra peržiūrėta ir patikrinta „Financial reporting” versija, paruošta gamybai. Tai suderinama su bet kuria ankstesne arba būsima "Dynamics 365 Finance" versija. Pavyzdžiui, „Financial reporting” versija gali būti naujausias 10.0.19 leidimas, o kliento programos versija vis dar yra 10.0.16.
 
 > [!NOTE]
 > Vienintelis atvejis, kai klientai gali pereiti prie ankstesnės versijos (ankstesnės versijos scenarijus) įvyksta tada, kai „Microsoft” sustabdo teisingą išvestį dėl trikties. Kai tik pataisymas bus galimas, jis bus taikomas automatiškai.
@@ -212,7 +212,7 @@ Triktis 3: Galite praeiti pro **ClickOnce Report Designer** prisijungimo puslap�
 Toliau pateikiami veiksmai vyksta finansinių ataskaitų įvykių peržiūros programos pranešimų įjungimo proceso metu. Žurnalai, kuriuos generuoja įvykių peržiūros programa, padės inžinieriams greitai nustatyti ryšio problemos šaltinį. Pateikite šių žurnalų kopijas kartu su savo kvitu susisiekdami su palaikymo tarnyba.
 
 
-1. Kopijuoti RegisterETW.zip failą į kliento darbo vietą (pageidautina darbalaukio) ir ištraukti [RegisterETW.zip](https://dev.azure.com/msdyneng/e6f12261-a46a-4af1-ac0c-e22bc2c5a478/_apis/git/repositories/ff923027-67f0-43fb-b63c-6d6b6423840f/Items?path=%2F.attachments%2FRegisterETW-c1a35291-6aa6-4462-a2bc-4ba117fd5f8e.zip&download=false&resolveLfs=true&%24format=octetStream&api-version=5.0-preview.1&sanitize=true&versionDescriptor.version=wikiMaster).
+1. Kopijuoti RegisterETW.zip failą į kliento darbo vietą (pageidautina darbalaukio) ir ištraukti [RegisterETW.zip](https://mbs2.microsoft.com/fileexchange/?fileID=60b1106b-d5f8-4e0f-8041-039102505122).
 2. Įsitikinkite, kad „Windows Event" programa uždaryta.
 3. Atidarykite „Administrator PowerShell“ komandinę eilutę ir pereikite į katalogą, kuriame yra RegisterETW.ps1.
 4. Vykdykite šią komandą: .\RegisterETW.ps1
@@ -242,7 +242,7 @@ Problema: gaunate klaidą „Nepavyko prisijungti prie „Financial reporting”
 * Kai gaunate ryšio klaidos pranešimą, pasirinkite **Tikrinti** ar nori patikrinti ryšį, kad pamatytumėte, koks pranešimas pasirodo. 
 * Problema galėjo kilti todėl, kad kitas vartotojas neturi prieigos prie finansinių ataskaitų. Jei vartotojas neturi prieigos, jis gaus pranešimą, kuriame teigiama, kad neturi teisės.
 * Jei problema iškyla keliose naršyklėse, įsitikinkite, kad jūsų darbo vietos laiko laikrodis nustatytas kaip Automatinis.
-* Norėdami prisiregistruoti prie darbo vietos ir sužinoti, ar jis gali prisijungti, dirbkite su vartotojas, kuris turi saugos administratoriaus teises tinklo domene bei „Dynamics 365 Finance“ administratoriaus teises. Jei jos gali prisijungti, problema gali būti susijusi su tinklo teisėmis.
+* Norėdami prisiregistruoti prie darbo vietos ir pažiūrėti, ar jis gali prisijungti, kreipkitės į vartotoją, kuris turi saugos administratoriaus teises programoje "Dynamics 365 Finance" ir administratoriaus teises tinklo domene. Jei jos gali prisijungti, problema gali būti susijusi su tinklo teisėmis.
 * Darbo vietoje laikinai išjunkite užkardą. Jei tada galėsite prisijungti prie „Report Designer“ problema bus susijusi su užkarda. Norėdami išspręsti problemą, dirbkite su savo organizacijos IT padaliniu.
 
 ## <a name="additional-resources"></a>Papildomi ištekliai

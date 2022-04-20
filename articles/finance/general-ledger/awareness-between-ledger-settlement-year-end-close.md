@@ -2,7 +2,7 @@
 title: Informacijos bendrinimas tarp didžiosios knygos atsiskaitymo ir metų pabaigos uždarymo
 description: Šioje temoje pateikiama informacija apie patobulinimus, kurie veikia DK sudengimą ir DK metų pabaigos uždarymą.
 author: kweekley
-ms.date: 03/18/2022
+ms.date: 04/06/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,19 +13,19 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2022-01-31
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: e18f77d73239de23000b5310d9342c6db95bc524
-ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
-ms.translationtype: HT
+ms.openlocfilehash: 13d0a0a11a8f31e4ba647ccc23906f6b137051c2
+ms.sourcegitcommit: b96e0c70553bca9b3f5eb65105a52cb71d978a36
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "8462358"
+ms.lasthandoff: 04/07/2022
+ms.locfileid: "8553338"
 ---
 # <a name="awareness-between-ledger-settlement-and-year-end-close"></a>Informacijos bendrinimas tarp didžiosios knygos atsiskaitymo ir metų pabaigos uždarymo
 
 [!include [banner](../includes/banner.md)]
 
 
-Microsoft versijoje Dynamics 365 Finance 10.0.25 funkcijų **valdymo** darbo srityje galima supratimą apie DK sudengimą ir **uždarymo metų pabaigoje** funkciją. Ši funkcija prideda du pirminius patobulinimus, daražiusį įtaką DK sudengimą ir DIDŽIOSIOS knygos metų pabaigos uždarymą.
+Microsoft Dynamics 365 10.0.25 **·** **finansų versijoje funkcijų valdymo darbo srityje galima gauti supratimą tarp DK sudengimo ir uždarymo metų** pabaigoje priemonės. Ši funkcija prideda du pirminius patobulinimus, daražiusį įtaką DK sudengimą ir DIDŽIOSIOS knygos metų pabaigos uždarymą.
 
 DK metų pabaigos uždarymo metu sudengtos DK operacijos nebebus įtrauktos į kitų finansinių metų laikotarpio pradžios likutį. Šis patobulinimas užtikrina, kad į laikotarpio pradžios likutį įtraukiamos tik nesudengtos DK operacijos. Svarbu, kai vykdomas DK užsienio valiutos kurso pasikeitimas. Užsienio valiutos kurso pasikeitimas vykdomas tik toms DK operacijoms, kurių būsena **Nesudengta**. Tačiau prieš **pasibaigus DK sudengimo ir metų pabaigos uždarymo priemonės supratimui, pradžios likutis susumuotas ir susumuotais operacijas,** **·** **kurių būsena yra Sudengta, ir tas operacijas, kurių būsena Nesudengta,** o apibendrintos sumos būsena nustatyta kaip Nesudengta.**·**
 
@@ -48,12 +48,16 @@ Siekiant palaikyti naujus patobulinimus, buvo atlikti DK sudengimo ir metų paba
 
 Dėl funkcijų ir duomenų modelio pakeitimų svarbu, kad prieš įgalindami funkciją atsižveltumėte į šiuos dalykus:
 
+- Dėl to, kad tik sudengtos operacijos yra perduodamos į laikotarpio pradžios likutį, turite atskleisti dabartinių finansinių metų operacijas, sudengtas su operacijomis ankstesniais finansiniais metais. Operacijos turi būti iš naujo perkeltos pagal šių finansinių metų operacijas. Tai galima padaryti šių finansinių metų koregavimo įrašu. Koregavimas atšaukia susumuotas pradžios likučius ir korespondentus su išsamia operacija, būtina šių metų DK įrašams sudengti. 
+
+  > [!IMPORTANT]
+  > Jei to nepadarėte, šių finansinių **metų** metų pabaigos uždarymo metu gausite balanso ne klaidą. Jei negalima atblokuoti ir iš naujo nustatyti DK operacijų, kurių finansiniai metai yra tokie patys, šios funkcijos įgalinkite, kol nebus baigtas metų pabaigos uždarymas. Įgalinkite funkciją iš karto po metų pabaigos uždarymo ir prieš sudengus naujas DK operacijas kitais finansiniais metais. 
+  
 - Visos operacijos, kurios buvo pažymėtos sudengti, bet nebuvo sudengtos, bus automatiškai atžymėtos, kai ši funkcija bus įjungta. Norėdami išvengti bet kokio darbo praradimo, sudengkite visas pažymėtas operacijas prieš įgalindami funkciją.
 - Kai kurios organizacijos metų pabaigos uždarymą vykdo kelis kartus tais pačiais finansiniais metais. Neįjunkite funkcijos, jei metų pabaigos uždarymas jau buvo vykdomas vieną kartą ir bus vykdomas dar kartą tų pačių finansinių metų. Prieš apdorodami pirmąjį metų pabaigos uždarymą arba apdorodami finansinių metų praėjusių metų pabaigos uždarymą, turite įgalinti šią priemonę.
 
   Jei norite įgalinti funkciją, tačiau metų pabaigos uždarymas jau buvo paleistas vieną kartą, prieš įgalindami funkciją turite atšaukti metų pabaigos uždarymą.
 
-- Kadangi finansinių metų sudengimas nebeį leidžiamas, rekomenduojame įgalinti priemonę prieš pradedant metų pabaigos uždarymo procesą. Tada, norėdami užtikrinti, kad kitų finansinių metų pradiniai balansai nebūtų paveikti ankstesnių kryžminių finansinių metų sudengimų, pradžios balanso operacija turėtų būti sudengta už uždaromi finansiniais metais.
 - Kadangi pagrindinių sąskaitų sudengimas nebedingas, koreguokite savo sąskaitų planą arba procesus, norėdami užtikrinti, kad DK sudengimas galėtų būti atliktas toje pačioje pagrindinėje sąskaitoje.
 - Funkcijos negalima įgalinti, jei naudojamas viešojo sektoriaus metų pabaigos uždarymo procesas.
 

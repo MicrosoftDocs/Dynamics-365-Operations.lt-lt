@@ -1,5 +1,5 @@
 ---
-title: Sukurti naują ER sprendimą ZPL etiketėms spausdinti
+title: Naujo ER sprendimo, skirto spausdinti ZPL žymes, kūrimas
 description: Šioje temoje paaiškinama, kaip sukurti naują elektroninių ataskaitų (ER) sprendimą spausdinant Javų programavimo kalbos (ZPL) žymes.
 author: NickSelin
 ms.date: 02/28/2022
@@ -15,24 +15,23 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2022-02-01
 ms.dyn365.ops.version: 10.0.26
-ms.openlocfilehash: 4fb89f4b56ce8189482bf1a86582ef7e3684b15a
-ms.sourcegitcommit: 411874545d7c326fc4aa877948a059371f0ccb3c
+ms.openlocfilehash: c1bedf1184b45741102000fa68c8d662c7383301
+ms.sourcegitcommit: 2977e92a76211875421e608555311c363cfbdc25
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "8392968"
+ms.lasthandoff: 04/16/2022
+ms.locfileid: "8612362"
 ---
-# <a name="design-a-new-er-solution-to-print-zpl-labels"></a>Sukurti naują ER sprendimą ZPL etiketėms spausdinti
+# <a name="design-a-new-er-solution-to-print-zpl-labels"></a>Naujo ER sprendimo, skirto spausdinti ZPL žymes, kūrimas
 
 [!include [banner](../includes/banner.md)]
 
-[!include [banner](../includes/preview-banner.md)]
 
 Šioje temoje paaiškinama, kaip sistemos administratoriaus, [elektroninių ataskaitų kūrėjo arba elektroninio ataskaitų funkcinių konsultanto vaidmens vartotojas gali konfigūruoti elektroninių ataskaitų (ER)](general-electronic-reporting.md) sistemos parametrus, sukurti reikiamas ER konfigūracijas [naujam ER](general-electronic-reporting.md#Configuration) sprendimą, kad būtų galima pasiekti sandėlio valdymo sistemos duomenis, ir generuoti pasirinktines sandėlio vietos žymes "Vz." programavimo kalbos (ZPL) II formatu. Šie žingsniai gali būti užbaigti **USRT** bendrovėje.
 
 ## <a name="business-scenario"></a>Verslo scenarijus
 
-Atstovaujate įmonę, kuri įdiegė sandėlio valdymą programoje "Microsoft"Dynamics 365 Finance. Kiekviena sandėlio vieta turi būti žymima naudojant savitarnos etiketę su brūkšniniu kodu. Sandėlio darbuotojai brūkšniniams kodams nuskaityti naudos kišeninių brūkšninių kodų skaitytuvus.
+Jūs esate įmonė, kuri įdiegė sandėlių valdymą " Microsoft Dynamics 365 Finance". Kiekviena sandėlio vieta turi būti žymima naudojant savitarnos etiketę su brūkšniniu kodu. Sandėlio darbuotojai brūkšniniams kodams nuskaityti naudos kišeninių brūkšninių kodų skaitytuvus.
 
 Visos sandėlio vietos buvo pažymėtos pagal nefiksuotos veiklos rūšis. Tačiau, jei esamos žymės sugadintos arba sandėlio lentynos konfigūruotos iš naujo, pagal poreikį turite spausdinti sandėlio vietos žymes. Naudodami neseniai išleistas ER funkcijas, galite konfigūruoti naują ER sprendimą, kuris leidžia sandėlio vadovui spausdinti etiketes tiesiai į etikečių spausdintuvą.
 
@@ -69,7 +68,7 @@ Duomenų modelio dizaino įrankio puslapyje galite peržiūrėti redaguojamą su
 
 ## <a name="design-a-model-mapping-for-the-configured-data-model"></a>Suprojektuokite konfigūruoto duomenų modelio žemėlapį
 
-Kaip elektroninių ataskaitų kūrėjo vaidmens vartotojas turite sukurti naują ER [konfigūraciją](er-overview-components.md#model-mapping-component), kurioje būtų sandėlio duomenų modelio susiejimo komponentas. Šis komponentas įdiegia sukonfigūruotą duomenų modelį ir Dynamics 365 Finance yra konkretus tai programai. Turite jį sukonfigūruoti, kad būtų galima nurodyti programos objektus, kurie bus naudojami sukonfigūruotui duomenų modeliui užpildyti programos duomenimis apdorojimo metu. Norėdami baigti šią užduotį turite suprasti, kaip sandėlio valdymo verslo domeno duomenų struktūra yra įdiegta finansuose.
+Kaip elektroninių ataskaitų kūrėjo vaidmens vartotojas turite sukurti naują ER [konfigūraciją](er-overview-components.md#model-mapping-component), kurioje būtų sandėlio duomenų modelio susiejimo komponentas. Šis komponentas įdiegia sukonfigūruotą duomenų modelį, skirtą "Dynamics 365" finansai, ir yra konkretus tai programai. Turite jį sukonfigūruoti, kad būtų galima nurodyti programos objektus, kurie bus naudojami sukonfigūruotui duomenų modeliui užpildyti programos duomenimis apdorojimo metu. Norėdami baigti šią užduotį turite suprasti, kaip sandėlio valdymo verslo domeno duomenų struktūra yra įdiegta finansuose.
 
 ### <a name="import-a-model-mapping-configuration"></a>Importuoti modelio susiejimo konfigūraciją
 

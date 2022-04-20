@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2021-08-01
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 1e06fafe8d8bbe92ddf4fcd94d7271a1fbb6362a
-ms.sourcegitcommit: 7e32e5e39e762a4b1606161cb603a450d13b5251
+ms.openlocfilehash: 4cd99b1d2c0dbbf48e7eee7e1233e3b078d14ba3
+ms.sourcegitcommit: 6109fc2fe5f407363bb6f240d64b7214657f5914
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "7413607"
+ms.lasthandoff: 04/15/2022
+ms.locfileid: "8603060"
 ---
 # <a name="configure-print-management-record-specific-er-destinations"></a>Konkrečių spausdinimo valdymo įrašų ER paskirties vietų konfigūravimas
 
@@ -35,9 +35,9 @@ ms.locfileid: "7413607"
 
 ## <a name="introduction"></a>Įžanga
 
-Galite konfigūruoti [paskirties vietas](electronic-reporting-destinations.md) kiekvienam ER [formato](general-electronic-reporting.md#FormatComponentOutbound) [konfigūracijos](general-electronic-reporting.md#Configuration), naudojamos siunčiamam dokumentui generuoti, failo išvesties komponento aplankui. Kai vykdote šio tipo ER formatą ir turite atitinkamas prieigos teises, taip pat gali keisti sukonfigūruotus paskirties vietos parametrus vykdymo metu.
+Galite konfigūruoti [paskirties vietas](electronic-reporting-destinations.md) kiekvienam ER [formato](general-electronic-reporting.md) [konfigūracijos](general-electronic-reporting.md#Configuration), naudojamos siunčiamam dokumentui generuoti, failo išvesties komponento aplankui. Kai vykdote šio tipo ER formatą ir turite atitinkamas prieigos teises, taip pat gali keisti sukonfigūruotus paskirties vietos parametrus vykdymo metu.
 
-„Microsoft Dynamics 365 Finance” **10.0.17 ir vėlesnėse versijose** galima [nustatyti](er-apis-app10-0-17.md) ER formato veiksmo kodą, kad būtų nurodomas veiksmas, kurį vartotojai atlieka vykdydami ER formatą. Pavyzdžiui, modulio **Gautinos sumos** spausdinimo valdymo parametrų srityje galite pasirinkti ER formatą, generuojantį tam tikrą verslo dokumentą, pavyzdžiui, laisvos formos sąskaitą faktūrą. Tada galėsite pasirinkti **Rodinys** sąskaitai faktūrai peržiūrėti arba **Spausdinti** jos nusiuntimui į spausdintuvą. Jei veiksmas yra perduotas vykdomam ER formatui vykdymo metu, galite [konfigūruoti skirtingas ER paskirties vietas skirtingiems vartotojo veiksmams](er-action-dependent-destinations.md).
+Microsoft Dynamics 365 **10.0.17** ir vėlesnės finansų versijose galima nustatyti ER formato veiksmo kodą, kad būtų galima nurodyti veiksmą, [kurį](er-apis-app10-0-17.md) vartotojai vykdo paleisdami tą ER formatą. Pavyzdžiui, modulio **Gautinos sumos** spausdinimo valdymo parametrų srityje galite pasirinkti ER formatą, generuojantį tam tikrą verslo dokumentą, pavyzdžiui, laisvos formos sąskaitą faktūrą. Tada galėsite pasirinkti **Rodinys** sąskaitai faktūrai peržiūrėti arba **Spausdinti** jos nusiuntimui į spausdintuvą. Jei veiksmas yra perduotas vykdomam ER formatui vykdymo metu, galite [konfigūruoti skirtingas ER paskirties vietas skirtingiems vartotojo veiksmams](er-action-dependent-destinations.md).
 
 **10.0.21 ir vėlesnėse „Finance“ versijose** įvardytoji paskirties vieta gali būti [nustatyta](er-apis-app10-0-21.md) ER formatui ir priskirta spausdinimo valdymo įrašui, kuris apdorojamas, kai ER formatas vykdomas. Pavyzdžiui, modulio **Gautinos sumos** spausdinimo valdymo parametrų srityje rekomenduojame sukonfigūruoti įrašą **Pradinis**, kad būtų atlikti tolesni veiksmai.
 

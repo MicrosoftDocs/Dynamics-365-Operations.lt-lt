@@ -2,7 +2,7 @@
 title: Inžinerijos versijos ir inžinerijos produkto kategorijos
 description: Šioje temoje pateikta informacija apie inžinerijos versijų sąvoką. Inžinerijos versijos užtikrina, kad kitos produkto būsenos ir jo duomenys yra laikomi dabar ir aiškiai ir kad jos gali būti rodomos sistemoje.
 author: t-benebo
-ms.date: 09/28/2020
+ms.date: 04/07/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 42faa9e5f073d718c18422e37212c2ae8a28b28d
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.openlocfilehash: a4d057c603e6592e491af7597e50fce2497860ec
+ms.sourcegitcommit: b96e0c70553bca9b3f5eb65105a52cb71d978a36
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572894"
+ms.lasthandoff: 04/07/2022
+ms.locfileid: "8553368"
 ---
 # <a name="engineering-versions-and-engineering-product-categories"></a>Inžinerijos versijos ir inžinerijos produkto kategorijos
 
@@ -137,7 +137,7 @@ Kiekvienai įtrauktai eilutei įtrauktai į tinklelį, nustatykite tolesnius lau
 |---|---|
 | Pavadinimas | Pasirinkite įtraukiamą atributą. |
 | Reikšmė | Pasirinkite atributui numatytąją vertę. |
-| Privalomas | *Bulio logikos* tipo atributams, jei ši parinktis nustatyta į *Taip*, vartotojai privalo nustatyti atributą į *Taip*. Jei ši parinktis nustatyta į *Ne* vartotojai gali nustatyti atributus į *Taip* arba *Ne*. Kitiems duomenų tipams šios parinkties nustatymas yra tik informacinis. |
+| Privalomas | Pasirinkite, ar atributas yra privalomas; tai reiškia, kad vartotojai turi nurodyti tinkamą atributo vertę prieš įrašant produktą. Šio parametro poveikis šiek tiek skiriasi, atsižvelgiant į pasirinkto atributo duomenų tipą, kaip apibūdinta toliau pateiktame sąraše.<ul><li>**Būlio logikos** *·* *– nustatykite tai kaip Taip, norėdami reikalauti, kad atributo vertė būtų Taip* (sistema neprisirašys įrašyti produkto, kai atributas nustatytas kaip *Ne).* Nustatykite, kad *būtų* ne, jei norite priimti vertę *Taip* arba *Ne*. (Tipo atributai *Būlio* logikos reikšmė negali būti tuščia.)</li><li>**Sveikojo skaičiaus arba dešimtainės** trupmenos *– nustatykite tai kaip Taip,* jei reikia, kad vartotojai turėtų įvesti šio atributo vertę, kuri būtų ne nulinė. Nustatykite tai kaip *Ne*, jei norite leisti vartotojams įrašyti nulinę vertę.  (Šių tipų atributai negali turėti tuščios vertės.)</li><li>**Sąrašas** – sąrašai turi duomenų tipą Tekstas *, bet* taip pat apima iš anksto nustatytą galimų verčių sąrašą. Todėl šio tipo atributų tuščios vertės įvesti neįmanoma, todėl šis parametras neturi įtakos ir yra tik informacinis.</li><li>**Visi kiti duomenų tipai** – nustatykite tai kaip *Taip,* kad atributas būtų privalomas. Nustatykite kaip *Ne*, jei norite leisti vartotojams išsaugoti produktą, net jei pateikiate šio atributo vertę.</li></ul> |
 | Paketo atributas | Pasirinkite, ar atributas turi būti skatinamas per bendras funkcijas. |
 
 ### <a name="readiness-policy-fasttab"></a>Parengimo politikos „FastTab“

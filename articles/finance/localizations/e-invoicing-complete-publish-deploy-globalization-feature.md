@@ -1,5 +1,5 @@
 ---
-title: Atlikti, publikuoti ir diegti globalizavimo funkciją
+title: Globalizacijos funkcijos užbaigimas, publikavimas ir diegimas
 description: Šioje temoje pateikiama informacija apie globalizavimo funkcijų ciklą.
 author: dkalyuzh
 ms.date: 12/15/2021
@@ -15,14 +15,14 @@ ms.search.region: Global
 ms.author: dkalyuzh
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: a842a3ba31c0a8e0d80ad1856d9d6d861a8514ea
-ms.sourcegitcommit: ffdb6794746ffe5461f9dcf34ed8e64976d22d2d
-ms.translationtype: HT
+ms.openlocfilehash: 21e03660387c7e715bc0f4cb1dbcd3ec9ec6cee2
+ms.sourcegitcommit: 1843235766b6f8cf950a13a310e9f4f2f53c59a4
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "8371942"
+ms.lasthandoff: 04/07/2022
+ms.locfileid: "8554567"
 ---
-# <a name="complete-publish-and-deploy-a-globalization-feature"></a>Atlikti, publikuoti ir diegti globalizavimo funkciją
+# <a name="complete-publish-and-deploy-a-globalization-feature"></a>Globalizacijos funkcijos užbaigimas, publikavimas ir diegimas
 
 [!include [banner](../includes/banner.md)]
 
@@ -59,7 +59,7 @@ RCS naudojate komandą **Diegti** norėdami publikuoti elektroninių SF išrašy
 2. Skirtuko Versijos **puslapyje**, dešinėje puslapio pusėje, pasirinkite elektroninių SF išrašymo priemonės versiją, kurią norite diegti į aptarnavimo aplinką arba prijungtą programą. Pasirinktos versijos būsena turi būti Baigta **arba** **Publikuota**.
 3. Pasirinkite **Diegti**, tada pasirinkite vieną arba abi šias parinktis, kad apibrėžtumėte diegimo tikslą:
 
-    - **Prijungta programa** – konfigūracija, kurią pateikė programos nustatymas, rašoma Microsoft egzemplioriuje Dynamics 365 Finance Dynamics 365 Supply Chain Management arba anksčiau su ja buvo susieta.
+    - **Prijungta programa** – konfigūravimas, kurį Microsoft Dynamics teikia programos nustatymas, yra parašytas 365 Dynamics 365 Supply Chain Management finansų egzemplioriuje arba anksčiau buvo su juo susietas.
     - **Aptarnavimo** aplinka – elektroninių SF išrašymo priemonės versija įdiegiama į aptarnavimo aplinką. Tada elektroninis SF išrašymas yra paruoštas gauti ir apdoroti elektroninius dokumentus, kuriuos siunčia finansų ar tiekimo grandinės valdymas.
 
 > [!NOTE]

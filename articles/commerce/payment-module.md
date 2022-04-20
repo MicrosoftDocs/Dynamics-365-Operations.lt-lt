@@ -2,7 +2,7 @@
 title: Mokėjimo modulis
 description: Ši tema paaiškina mokėjimo modulį ir tai, kaip jį sukonfigūruoti „Microsoft Dynamics 365 Commerce“.
 author: anupamar-ms
-ms.date: 01/07/2022
+ms.date: 04/12/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: de92e137815cb79944a2793fc4841c949ed43346
-ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
+ms.openlocfilehash: ba95386143ca830aeb1b50b31b4bbd2b54f53a40
+ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/10/2022
-ms.locfileid: "7952474"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8565734"
 ---
 # <a name="payment-module"></a>Mokėjimo modulis
 
@@ -52,7 +52,7 @@ Tolesnis paveikslėlis rodo dovanų kortelės pavyzdys ir „Adyen“ apmokėjim
 
 „Commerce“ versijoje 10.0.14, mokėjimo modulis taip pat buvo integruotas su „Dynamics 365 Payment Connector“ skirtu „PayPal“. Dėl išsamesnės informacijos apie tai, kaip nustatyti ir konfigūruoti šią mokėjimo jungtį, žr. [„Dynamics 365 Payment Connector“ skirtą „PayPal“](paypal.md).
  
-Išsiregistravimo puslapyje galite turėti tiek „Adyen“, tiek ir „PayPal“ sukonfigūruotas jungtis. Apmokėjimo modulis bus papildytas papildomomis ypatybėmis, kad jos padėtų nustatyti, kuri jungtis turi veikti su kuria. Norėdami gauti daugiau informacijos, **žr. palaikomų mokėjimo priemonių tipus ir** yra pirminio mokėjimo **modulio** ypatybės šioje lentelėje.
+Išsiregistravimo puslapyje galite turėti tiek „Adyen“, tiek ir „PayPal“ sukonfigūruotas jungtis. Apmokėjimo modulis bus papildytas papildomomis ypatybėmis, kad jos padėtų nustatyti, kuri jungtis turi veikti su kuria. Norėdami gauti daugiau informacijos, žr **. palaikomų mokėjimo priemonių** **tipus ir yra** pirminio mokėjimo modulio ypatybės šioje lentelėje.
   
 Kai apmokėjimo modulis yra konfigūruotas siekiant naudoti „PayPal“ mokėjimo jungtį, „PayPal“ mygtukas pasirodo išsiregistravimo puslapyje. Kai klientas jį pasirenka, mokėjimo modulis apima „iframe“ su „Paypal“ informacija. Klientas gali prisijungti ir pateikti savo „Paypal“ informaciją esančią „iframe“, kad baigtų savo perlaidą. Kai klientas pasirenka sumokėti su „PayPal“, likęs likutis užsakyme bus nuskaičiuotas per „PayPal“.
 
@@ -74,6 +74,8 @@ Tolesnis paveikslėlis rodo „PayPal“ „iframe“ pavyzdį, kuris naudojamas
 | Mokėjimo stiliaus nepaisymas | Kaskadinio stiliaus lapų (CSS) kodai | Kadangi mokėjimo modulis yra palaikomas „iframe“, esama apriboto stiliaus pajėgumo. Galite pasiekti tam tikrą stilių naudodami šią ypatybę. Vietos stiliaus viršijimui, turite įkelti CSS kodą kaip šios ypatybės vertę. Vietos kūrimo įrankis CSS viršija ir stiliai nėra taikomi šiam moduliui. |
 |Palaikomi mokėjimo priemonių tipai| Eilutė| Jei sukonfigūruotos kelios mokėjimo jungties, turėtumėte pateikti palaikomą mokėjimo priemonės tipo eilutę, kaip nurodyta "Commerce Headquarters" mokėjimo jungties konfigūracijoje (žr. toliau nurodytą vaizdą). Jei jis tuščias, jis numatomas pagal „Adyen“ mokėjimo jungtį. Įtraukta į „Commerce” 10.0.14 leidimą.|
 |Yra pirminis mokėjimas|  **Teisinga** arba **Klaidinga** | Jei **Teisingas**, bet koks klaidos pranešimas bus sukuriamas iš pirminės mokėjimo jungties išsiregistravimo puslapyje. Jei tiek „Adyen“, tiek „PayPal“ mokėjimo jungtys yra sukonfigūruotos, nustatykite „Adyen“ į **Teisinga**, kuris buvo įtrauktas į „Commerce“ leidimą 10.0.14.|
+|Naudoti jungties ID| **Teisinga** arba **Klaidinga** | Naudokite šią ypatybę, jei sukonfigūruotos kelios svetainės mokėjimo jungtis. Jei **teisinga**, ryšio jungtis reikės naudoti mokėjimo koreliacijai naudoti jungties ID.|
+|Naudoti naršyklės rinkinio kalbos kodą, kuris skirtas iFrame|  **Teisinga** arba **Klaidinga** | (Tik Adyen) Jei **teisinga**, Adyen iFrame kalba bus atvaizduota remiantis svetainės vartotojo naršyklės kontekstu, o ne svetainės sukonfigūruoto "Commerce" kanalo kalbos kodu. Įtraukta į „Commerce” 10.0.27 leidimą.|
 
 Tolesnis paveikslėlis rodo pavyzdį **Palaikomi nuomotojo tipai** su verte nustatyta į „PayPal" mokėjimo jungties konfigūravimą „Commerce“ štabe.
 ![Palaikomų nuomotojo tipų „Commerce“ štabe pavyzdys.](./media/ecommerce-paymenttendertypes.png)
@@ -96,18 +98,18 @@ Jei jūsų svetainei bus naudojamos ir Adyen, ir PayPal mokėjimo jungties, atli
 
 1. PayPal mokėjimo modulio ypatybės srityje atlikite šiuos veiksmus:
 
-    1. Palaikomų mokėjimo priemonių **tipų ypatybės lauke įveskite** **PayPal**.
-    1. Išvalykite žymės langelį, jei **ypatybė Yra pirminis** mokėjimas.
+    1. Palaikomų mokėjimo priemonių tipų **ypatybės lauke** įveskite **PayPal**.
+    1. Išvalykite žymės langelį, jei ypatybė **Yra pirminis** mokėjimas.
     1. Pažymėkite žymės langelį, kad būtų naudojama **jungties ID** ypatybė.
 
 1. Adyen mokėjimo modulio ypatybės srityje atlikite šiuos veiksmus:
 
-    1. Palikite lauką, kad **palaikoma mokėjimo priemonių tipų ypatybė būtų** tuščia.
-    1. Pažymėkite žymės langelį Ypatybė **Yra pirminis** mokėjimas.
+    1. Palikite lauką, kad palaikoma **mokėjimo priemonių tipų** ypatybė būtų tuščia.
+    1. Pažymėkite žymės langelį Ypatybė Yra **pirminis** mokėjimas.
     1. Pažymėkite žymės langelį, kad būtų naudojama **jungties ID** ypatybė.
 
 > [!NOTE]
-> Kai konfigūruojate, kad Adyen ir PayPal jungtis būtų naudojamos kartu, "Dynamics 365" mokėjimo jungtis, skirta Adyen konfigūracijai, turi būti pirma interneto kanalo mokėjimo sąskaitų jungties konfigūracijos **vietoje** **·** "Commerce Headquarters". Norėdami patvirtinti arba pakeisti jungties užsakymą, eikite **į interneto** parduotuves ir pasirinkite savo svetainės kanalą. Tada skirtuke Nustatyti mokėjimo sąskaitų FastTab, skirtuke Jungtis, įsitikinkite, kad "Dynamics 365" mokėjimo jungtis, skirta Adyen konfigūracijai, yra pirmoje vietoje (t. y. viršutinėje eilutėje) ir **ar** **·** **·** **·** **"Dynamics 365" mokėjimo jungtis, skirta "PayPal" konfigūracijai,** yra antra eilutė. Pridėkite arba pašalinkite jungtis, jei reikia jas pers tvarkai atlikti.
+> Kai konfigūruojate, kad Adyen ir PayPal jungtis būtų naudojamos kartu, "Dynamics 365" mokėjimo jungtis, **skirta Adyen** **konfigūracijai**, turi būti pirma interneto kanalo mokėjimo sąskaitų jungties konfigūracijos vietoje "Commerce Headquarters". Norėdami patvirtinti arba pakeisti jungties užsakymą, eikite **į interneto parduotuves** ir pasirinkite savo svetainės kanalą. Tada skirtuke Nustatyti mokėjimo **sąskaitų** FastTab, skirtuke Jungtis, įsitikinkite, **·** **kad "Dynamics 365" mokėjimo jungtis, skirta Adyen** konfigūracijai, yra pirmoje vietoje (t. y. viršutinėje eilutėje) **ir ar "Dynamics 365" mokėjimo jungtis, skirta "PayPal**" konfigūracijai, yra antra eilutė.**·** Pridėkite arba pašalinkite jungtis, jei reikia jas pers tvarkai atlikti.
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 

@@ -1,5 +1,5 @@
 ---
-title: Sukurkite ER formatą, kad eilutės būtų išlaikomos tame pačiame "Excel" puslapyje
+title: ER formato kūrimas norint, kad eilutės išliktų tame pačiame „Excel“ puslapyje
 description: Šioje temoje paaiškinama, kaip sukurti elektroninių ataskaitų (ER) formatą, pagal kurį eilutės bus išlaikomos tame pačiame Microsoft Excel puslapyje.
 author: NickSelin
 ms.date: 02/28/2022
@@ -15,18 +15,17 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2022-03-01
 ms.dyn365.ops.version: Version 10.0.26
-ms.openlocfilehash: 711681ab38fb24b57a83f008f86a8261176aa5a5
-ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
+ms.openlocfilehash: 06782a4933fb5c3e86ad436b853f207fd3d5cddb
+ms.sourcegitcommit: 2977e92a76211875421e608555311c363cfbdc25
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/05/2022
-ms.locfileid: "8389141"
+ms.lasthandoff: 04/16/2022
+ms.locfileid: "8612376"
 ---
-# <a name="design-an-er-format-to-keep-rows-together-on-the-same-excel-page"></a>Sukurkite ER formatą, kad eilutės būtų išlaikomos tame pačiame "Excel" puslapyje
+# <a name="design-an-er-format-to-keep-rows-together-on-the-same-excel-page"></a>ER formato kūrimas norint, kad eilutės išliktų tame pačiame „Excel“ puslapyje
 
 [!include [banner](../includes/banner.md)]
 
-[!include [banner](../includes/preview-banner.md)]
 
 Šioje temoje paaiškinama, kaip sistemos administratoriaus arba elektroninio ataskaitų funkcinės [konsultanto](general-electronic-reporting.md) vaidmens vartotojas gali konfigūruoti elektroninės ataskaitos (ER) [formatą](er-overview-components.md#format-component) Microsoft Excel, kuris generuoja siunčiamus dokumentus ir valdo dokumentų puslapių temą, kad sukurtos eilutės būtų laikomos tame pačiame puslapyje.
 
@@ -55,7 +54,7 @@ Atlikite veiksmus, aprašytus skyriuje [Konfigūruoti ER sistemą](er-quick-star
 
 ## <a name="import-the-standard-er-format-configuration"></a>Standartinio ER formato konfigūracijos importavimas
 
-Atlikite veiksmus, aprašytus skyriuje [Importuoti standartinio ER formato konfigūracijas](er-quick-start2-customize-report.md#ImportERSolution1), kad įtrauktumėte standartines ER konfigūracijas į dabartinį „Dynamics 365 Finance” egzempliorių. Pvz., importuokite **laisvos formos SF (Excel)** formato konfigūracijos 252.116 **versiją**. **Pagrindinė 252** pagrindinio SF modelio **konfigūracijos** versija automatiškai importuojama iš saugyklos kartu su reikalinga SF modelio **susiejimo** konfigūracija.
+Norėdami įtraukti standartines [ER konfigūracijas į dabartinį "Dynamics 365 Finance" egzempliorių, atlikite standartinės ER](er-quick-start2-customize-report.md#ImportERSolution1) formato konfigūracijos importavimo veiksmus. Pvz., importuokite **laisvos formos SF (Excel)** formato konfigūracijos 252.116 **versiją**. **Pagrindinė 252** pagrindinio SF modelio **konfigūracijos** versija automatiškai importuojama iš saugyklos kartu su reikalinga SF modelio **susiejimo** konfigūracija.
 
 ## <a name="set-up-print-management-to-use-the-standard-er-format"></a>Nustatyti spausdinimo valdymą standartiniam ER formatui naudoti
 

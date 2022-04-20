@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-07
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: e4861c0e8b3680f3cd3229facf059b671a4fc765
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 90410585f314aa9f17f2c132afb6568307fb28ab
+ms.sourcegitcommit: 197e6ddee84522fd587c6e4ee4f9089101e301c2
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983422"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8570387"
 ---
 # <a name="landed-cost-module"></a>Iškrovimo kainos modulis
 
@@ -39,7 +39,7 @@ Iškrovimo kaina pateikia tikslias ir laiku atliktas pridėtinių iškrovos kain
 
 ### <a name="voyages"></a>Reisai
 
-Iškrovimo kainoje reisas yra atskiras judėjimas iš siuntimo vietos per konkrečias paskirties vietas nurodytu laikotarpiu į nurodytą atvežimo sandėlio vietą. Pirkimo užsakymus ir užsakymo eilutes galima pridėti prie vieno arba kelių reiso konteinerių, o išlaidos teisingai priskiriamos prekės eilutėje. Užsakymus ir užsakymų eilutes taip pat galima pridėti juridiniams vieno reiso subjektams.
+Iškrovimo kainoje reisas yra atskiras judėjimas iš siuntimo vietos per konkrečias paskirties vietas nurodytu laikotarpiu į nurodytą atvežimo sandėlio vietą. Pirkimo užsakymus ir užsakymo eilutes galima pridėti prie vieno arba kelių reiso konteinerių, o išlaidos teisingai priskiriamos prekės eilutėje. 
 
 ### <a name="item-ownership"></a>Prekės nuosavybės teisės
 

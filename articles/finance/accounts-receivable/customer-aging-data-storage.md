@@ -1,6 +1,6 @@
 ---
 title: Kliento skirstymo pagal terminus duomenų saugykla
-description: Šioje temoje aprašomas kliento skirstymo pagal terminus duomenų išorinės saugyklos naudojimo procesas. Galite paleisti kliento skirstymo pagal terminus duomenų saugojimo procesą, kad išvestį būtų galima eksportuoti į išorinę sistemą.
+description: Šioje temoje aprašomas išorinio klientų skirstymo pagal terminus duomenų saugojimo naudojimo procesas. Galite vykdyti klientų skirstymo pagal terminus duomenų saugojimo procesą, kad išeigą būtų galima eksportuoti į išorinę sistemą.
 author: JodiChristiansen
 ms.date: 10/27/2020
 ms.topic: article
@@ -15,50 +15,50 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5ecd4f5359019e3c4778e21cc4946b9998cd519f
-ms.sourcegitcommit: 9f8da0ae3dcf3861e8ece2c2df4f693490563d5e
-ms.translationtype: HT
+ms.openlocfilehash: 497d49da84f4df90877908bef3031e079bc36066
+ms.sourcegitcommit: d0e99545d722c924db57ae2bd06f72154a1f1f97
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/16/2021
-ms.locfileid: "7817464"
+ms.lasthandoff: 04/08/2022
+ms.locfileid: "8557884"
 ---
 # <a name="customer-aging-data-storage"></a>Kliento skirstymo pagal terminus duomenų saugykla
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-Šioje temoje aprašomas kliento skirstymo pagal terminus duomenų išorinės saugyklos naudojimo procesas. Programoje "Microsoft" Dynamics 365 Finance galite paleisti kliento skirstymo pagal terminus duomenų saugojimo procesą, kad išvestį būtų galima eksportuoti į išorinę sistemą. Paleidus procesą, tos pačios skirstymo pagal terminus ataskaitos parinktys, kurios yra sistemoje, yra prieinamos išorinėse sistemose. Išsami informacija visada įtraukiama į eksportuotus duomenis.
 
-Tais atvejais, kai išvestyje yra daug klientų ir (arba) daug operacijų, gali būti naudinga, kad klientų skirstymo pagal terminus duomenys būtų prieinami išorinei saugojimo sistemai. Jei esamos **klientų skirstymo pagal terminus ataskaitos laikas** sueis, nes joje yra per daug spausdintimų duomenų, ši funkcija pateikia alternatyvų būdą tiems patiems duomenims gauti.
+Šioje temoje aprašomas išorinio klientų skirstymo pagal terminus duomenų saugojimo naudojimo procesas. Microsoft Dynamics 365 finansuose galite vykdyti klientų skirstymo pagal terminus duomenų saugojimo procesą, kad išeigą būtų galima eksportuoti į išorinę sistemą. Kai vykdote procesą, tos pačios skirstymo pagal terminus ataskaitos pasirinktys, galimos sistemoje, yra galimos išorinėms sistemoms. Išsami informacija visada įtraukiama į eksportuotus duomenis.
 
-## <a name="enable-the-customer-aging-data-storage-feature"></a>Įgalinti kliento skirstymo pagal terminus duomenų saugojimo funkciją
+Gali padėti klientų skirstymo pagal terminus duomenis padaryti prieinamus išorinėje sistemoje saugykloje, kai išeigos operacijų yra daug klientų ir (arba) yra daug operacijų. Jei esamos klientų **skirstymo pagal terminus** ataskaitos laikas jau sueis, nes jame yra per daug duomenų spausdinti, ši funkcija suteikia alternatyvų būdą gauti tuos pačius duomenis.
 
-Kad galėtumėte naudoti šią funkciją, turite ją įgalinti savo sistemoje. Administratoriai gali naudoti funkcijų valdymo parametrus, kad patikrintų funkcijos būseną ir įgalintų ją, jei to reikia. Darbo srityje **Funkcijų valdymas** ši funkcija yra nurodyta toliau pateikiamu būdu.
+## <a name="enable-the-customer-aging-data-storage-feature"></a>Įjungti klientų skirstymo pagal terminus duomenų saugojimo funkciją
 
-- **Modulis:** Kreditas ir kolekcijos
-- **Funkcijos pavadinimas:** Kliento skirstymo pagal terminus duomenų saugykla
+Šią funkciją galėsite naudoti tik tada, kai ją įgalinsite savo sistemoje. Administratoriai gali naudoti funkcijų valdymo parametrus, norėdami patikrinti funkcijos būseną ir įgalinti ją, jei to reikalaujama. Darbo srityje **Funkcijų valdymas** ši funkcija yra nurodyta toliau pateikiamu būdu.
 
-## <a name="run-the-customer-aging-data-storage-process"></a>Vykdyti kliento skirstymo pagal terminus duomenų saugojimo procesą
+- **Modulis:** kreditas ir rinkiniai
+- **Funkcijos pavadinimas: klientų** skirstymo pagal terminus duomenų saugojimas
 
-1. Eikite į **Kredito ir mokėjimų priežiūros užklausos ir ataskaitos Kliento klientų skirstymo pagal terminus duomenų \>\>\> saugykla**.
+## <a name="run-the-customer-aging-data-storage-process"></a>Vykdyti klientų skirstymo pagal terminus duomenų saugojimo procesą
+
+1. Eikite į **Kredito ir mokėjimų priežiūros užklausas \> ir ataskaitas Klientų \> skirstymo pagal \> terminus duomenų saugojimą**.
 2. Pasirinkite **Nauja**.
-3. Lauke **Pavadinimas** įveskite proceso pavadinimą.
-4. Nustatykite likusius parametrus, kaip jums reikia.
+3. **Lauke Pavadinimas** įveskite proceso pavadinimą.
+4. Nustatykite likusius parametrus taip, kaip jums reikia.
 
     > [!NOTE]
     > Operacijos informacija visada įtraukiama, o apdorojimas visada atliekamas paketinėje užduotyje.
 
 5. Pasirinkite **Gerai**.
-6. Atnaujinkite **puslapį Kliento skirstymo pagal terminus duomenų saugykla, kad** pamatytumėte paketo **pavadinimo ir paketo vykdymo laiko** **·** reikšmes, kurios rodomos kartu su **apdorojimo būsenos** reikšme. Kai paketinė užduotis baigiama, **laukas Apdorojimo būsena nustatomas kaip** **·** Baigtas, o laukas Skirstymo pagal terminus **eilučių skaičius** nustatytas. Jei paketinė užduotis kartojasi, **laukas Apdorojimo būsena nustatytas kaip Laukiama** **·**.
-7. Pasirinkite **·** mygtuką Filtras, esantį šalia **lauko Skirstymo pagal terminus eilučių** skaičius, kad peržiūrėtumėte filtrus, kurie buvo pridėti paketinei užduočiai.
+6. Atnaujinkite **klientų skirstymo pagal terminus duomenų saugojimo** **·** **puslapį**, kad pamatytumėte paketo pavadinimą ir paketo vykdymo laiko vertes, rodomas kartu su apdorojimo **būsenos** verte. Kai paketinė užduotis baigiama, apdorojimo **būsenos** laukas nustatomas į **Baigta** ir nustatytas **skirstymo pagal terminus eilučių** skaičius. Jei paketinė užduotis pasikartojanti, apdorojimo **būsenos** laukas nustatomas kaip **Laukiama**.
+7. Pasirinkite mygtuką **Filtras**, esantį šalia skirstymo pagal **terminus eilučių skaičiaus lauko**, norėdami peržiūrėti filtrus, pridėtus prie paketinės užduoties.
 
-**Kliento skirstymo pagal terminus duomenų saugojimo puslapyje nėra** rezultatų. Tačiau **kliento skirstymo pagal terminus duomenų saugojimo duomenų** objektas leidžia eksportuoti išvestį į bet kurį formatą, kurį palaiko duomenų valdymas.
+Klientų **skirstymo pagal terminus duomenų** saugojimo puslapis neapima rezultatų. Tačiau klientų skirstymo **pagal terminus duomenų saugyklos duomenų** objektas leidžia eksportuoti išeigą į bet kokį formatą, kurį palaiko duomenų valdymas.
 
 > [!NOTE]
-> Prieš eksportuodami įtraukite filtrą, kad eksportuotus rezultatus apribotumėte iki paskutinio skirstymo pagal terminus. Pavyzdžiui, įtraukite šiuos kriterijus, kad grąžintumėte naujausią paketo vykdymą:
+> Prieš eksportuojant pridėti filtrą, kad būtų galima apriboti eksportuotus rezultatus iki naujausio skirstymo pagal terminus. Pavyzdžiui, pridėkite šiuos kriterijus, kad būtų pateiktas vėliausias paketinis paleidimas:
 >
-> (CustAgingDataStorageSysQueryRangeUtil :: getLatestBatchName())
+> (CustAgingDataStorageSysQueryRangeUtilgetLatestBatchName::())
 >
-> Arba įtraukite šiuos kriterijus, kad grąžintumėte naujausią dabartinio vartotojo paketinį vykdymą:
+> Arba pridėkite šiuos kriterijus, kad būtų galima grąžinti naujausią dabartinio vartotojo paketinį vykdymo paketą:
 >
-> (CustAgingDataStorageSysQueryRangeUtil :: getLatestBatchNameForCurrentUser())
+> (CustAgingDataStorageSysQueryRangeUtilgetLatestBatchNameForCurrentUser::())

@@ -8,12 +8,12 @@ ms.reviewer: sericks
 ms.search.region: Global
 ms.author: aamiral
 ms.search.validFrom: 2021-11-12
-ms.openlocfilehash: 7e3721421e15bc3e5937691cdbaee51e4d3cdd17
-ms.sourcegitcommit: d2e5d38ed1550287b12c90331fc4136ed546b14c
-ms.translationtype: HT
+ms.openlocfilehash: 63d6e5ef7e883578106495d5ec778bbd686ee92d
+ms.sourcegitcommit: 722854cb0d302d01ce3d9580ac80dc7c23d19bf5
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/25/2022
-ms.locfileid: "8349748"
+ms.lasthandoff: 04/06/2022
+ms.locfileid: "8550012"
 ---
 # <a name="commerce-analytics-preview"></a>„Commerce“ analizė (peržiūros versija)
 
@@ -89,7 +89,7 @@ Galiausiai duomenys atvaizduojami vaizduose Power BI, kad vartotojai galėtų ju
 4. [Kanalai](#ChannelsPage)
 5. [Pardavimas](#SalesPage)
 6. [Paraštės](#MarginsPage)
-7. [Grąžinimas](#ReturnsPage)
+7. [Grąžinimai](#ReturnsPage)
 8. [Nuolaidos](#DiscountsPage)
 9. [Mokėjimai](#PaymentsPage)
 10. [Klientai](#CustomersPage)
@@ -125,19 +125,19 @@ Galiausiai duomenys atvaizduojami vaizduose Power BI, kad vartotojai galėtų ju
 
 - Pardavimas
 - Paraštės
-- Grąžinimas
+- Grąžinimai
 
 #### <a name="customers"></a><a name="CustomersPage"></a> Klientai
 
 - Pardavimas
 - Paraštės
-- Grąžinimas
+- Grąžinimai
 
 #### <a name="channels"></a><a name="ChannelsPage"></a> Kanalai
 
 - Pardavimas
 - Paraštės
-- Grąžinimas
+- Grąžinimai
 
 ### <a name="sales"></a>Pardavimo<a name="SalesPage"></a>
 
@@ -352,15 +352,20 @@ Jei pagal savo el. prekybos svetainę naršote prisiregistravę, "Commerce Analy
 
 ### <a name="enable-and-configure-commerce-analytics-preview"></a><a name="enableCommerceAnalytics"></a>"Commerce Analytics" įgalinkite ir konfigūruokite (peržiūra)
 
-Norėdami įdiegti "Commerce Analytics" (peržiūra), turite turėti teises kurti išteklius "Azure" abonemente. Be to, turite turėti teises diegti papildiniai LCS. 
+Norėdami įdiegti "Commerce Analytics" (peržiūra), turite turėti teises kurti išteklius "Azure" abonemente. Be to, turite turėti teises diegti papildiniai LCS.
 
 Norėdami įjungti ir konfigūruoti "Commerce analytics" (peržiūra), atlikite šiuos veiksmus.
 
-1. [Įgalinkite ir sukonfigūruokite eksportavimo į duomenų " priedą](#enableExportToDataLake).
-1. [Įdiekite ir konfigūruokite darbo Azure Synapse sritį](#configureAzureSynapse).
-1. [Įtraukti paslapčių į rakto saugyklą](#addSecrets).
-1. [Įjunkite ir sukonfigūruokite "Commerce Analytics" (peržiūra) priedą](#enableCommerceAnalyticsAddin).
-1. [Įdiekite šablono Power BI programą](#powerbi).
+1. [Pateikti "Commerce Analytics" peržiūros formą (peržiūra)](#joinPreview)
+2. [Įgalinkite ir sukonfigūruokite eksportavimo į duomenų " priedą](#enableExportToDataLake).
+3. [Įdiekite ir konfigūruokite darbo Azure Synapse sritį](#configureAzureSynapse).
+4. [Įtraukti paslapčių į rakto saugyklą](#addSecrets).
+5. [Įjunkite ir sukonfigūruokite "Commerce Analytics" (peržiūra) priedą](#enableCommerceAnalyticsAddin).
+6. [Įdiekite šablono Power BI programą](#powerbi).
+
+### <a name="submit-the-preview-intake-form-for-commerce-analytics-preview"></a><a name="joinPreview"></a> Pateikti "Commerce Analytics" peržiūros formą (peržiūra)
+
+Pateikti "[Commerce Analytics" peržiūros formą (peržiūra).](https://forms.office.com/r/vW5VLJGXZ2) Apdorous jūsų prašymą, patvirtinimo el. laiškas bus nusiųstas el. pašto adresu, kurį pateikėte formoje.
 
 ### <a name="enable-and-configure-the-export-to-data-lake-add-in"></a><a name="enableExportToDataLake"></a> Įjungti ir konfigūruoti eksportavimo į duomenų į duomenų papildą
 
@@ -420,7 +425,7 @@ Norėdami įdiegti ir konfigūruoti "Commerce Analytics" (peržiūra) priedą, a
     | "Azure" rakto saugyklos DNS pavadinimas | Įveskite savo rakto saugyklos DNS pavadinimą. Sukonfigūruokite eksportavimo [į duomenų portalą priedą, turite pateikti šios vertės pastabą](#keyVault). | `https://contosod365datafeedpoc.vault.azure.net/` |
     | Slapto pavadinimo, kuriame yra programos ID, pavadinimas | Įvesti slaptą pavadinimą, kuriame saugomas programos ID. Sukonfigūruokite eksportavimo [į duomenų portalą priedą, turite pateikti šios vertės pastabą](#keyVault). | `app-id` |
     | Slapto pavadinimas, kuriame yra prašymo slapto vardo | Įvesti slaptą pavadinimą, kuriame saugomas programos slapyme. Sukonfigūruokite eksportavimo [į duomenų portalą priedą, turite pateikti šios vertės pastabą](#keyVault). | `app-secret` |
-    | Slapto pavadinimo, kuriame yra serverio nesamas SQL galinis punktas Azure Synapse | Įvesti slaptą pavadinimą, kuriame saugomas serverio serverio duomenų galinis punktas. Jūs turėjote sukurti slaptą, kol pridėti [slapyme paslapyme turi būti rakto vertės.](#addSecrets) | `synapse-sql-server` |
+    | Slapto pavadinimo, kuriame yra serverio nesamas SQL galinis punktas Azure Synapse | Įvesti slaptą pavadinimą, kuriame saugomas serverio serverio duomenų galinis punktas. Jūs turėjote sukurti slaptą, kol pridėti [slapyme paslapyme turi būti rakto vertės](#addSecrets). | `synapse-sql-server` |
     | Slaptažodis, kuriame yra slaptažodis, nustatytas SQL tik skaityti vartotojams Azure Synapse | Įveskite slaptą pavadinimą, kuriame saugomas slaptažodis, skirtas nustatyti vartotojui, kuriame leidžiama tik skaityti serveryje. Šis vartotojas bus sukurtas už jus ir jis turėtų būti naudojamas Power BI ataskaitoje prisijungti prie serverio serverio neturintis SQL serveris. Jūs turėtumėte sukurti slaptą, kai įtraukėte [slapymečių į rakto vertę](#addSecrets). | `readonly-sql-pwd` |
 
 1. Sutikite su pasiūlymo sąlygomis pažymėdami žymės langelį ir pasirinkite **Diegti**.
@@ -456,7 +461,7 @@ Norėdami įdiegti " Power BI Commerce Analytics" šablono programą (peržiūra
     | Laukas | Reikšmė |
     |---|---|
     | Autentifikavimo metodas | Pasirinkite **pagrindinį**. |
-    | Vartotojo vardas | Įvesti **reportreadonlyuser**. |
+    | Naudotojo vardas | Įvesti **reportreadonlyuser**. |
     | Slaptažodis | Įveskite slaptažodį, kurį [išsaugote "SQL" tik skaitymo vartotojui "key vault"](#roUser). |
 
 1. Pasirinkite **prisijungimą ir prisijungimą**.

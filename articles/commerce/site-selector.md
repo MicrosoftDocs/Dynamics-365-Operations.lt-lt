@@ -2,7 +2,7 @@
 title: Svetainės išrinkiklio modulis
 description: Šioje temoje aprašomas svetainės išrinkiklio modulis ir aprašoma, kaip pridėti ją prie svetainės puslapių, kurie yra dalyje Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 02/11/2022
+ms.date: 04/06/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 381163fdd6180a76def2e1bfb733f597b611c517
-ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
-ms.translationtype: HT
+ms.openlocfilehash: ad4d4d5f950d0631059d8f509e9e808a9106eb98
+ms.sourcegitcommit: 4861ec2d3ae24cc9dd4ad3ac748fd05be3d80c70
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8109711"
+ms.lasthandoff: 04/06/2022
+ms.locfileid: "8551699"
 ---
 # <a name="site-picker-module"></a>Svetainės išrinkiklio modulis
 
@@ -28,14 +28,9 @@ ms.locfileid: "8109711"
 
 Šioje temoje aprašomas svetainės išrinkiklio modulis ir aprašoma, kaip pridėti ją prie svetainės puslapių, kurie yra dalyje Microsoft Dynamics 365 Commerce.
 
-Kai įmonė turi įvairių svetainių rinkose, regionuose ir vietovėse, svetainės vartotojams reikia paprasto būdo perjungti svetaines ir pasirinkti pageidaujamą prekybos svetainę. Norint talpinti šį scenarijų, svetainės išrinkiklio modulis leidžia vartotojams naršyti keliose svetainėse.
+Kai įmonė turi įvairių svetainių rinkose, regionuose ir vietovėse, svetainės vartotojams reikia paprasto būdo perjungti svetaines ir pasirinkti pageidaujamą prekybos svetainę. Norint talpinti šį scenarijų, svetainės išrinkiklio modulis leidžia vartotojams naršyti keliose svetainėse. Svetainės išrinkiklis [taip](geo-detection-redirection.md) pat rekomenduojamas, kai jūsų el. komercijos svetainei yra įdiegtas geografinis aptikimas ir nukreipimas, kad klientai galėtų nepaisyti svetainės nuostatų, [kurias jie nurodo naudodami šalies / regiono išrinkiklio modulį](country-region-picker-module.md). 
 
-Teritorijos išrinkiklio modulis turi būti sukonfigūruotas su teritorijų (rinkų, regionų ar vietų), kurias gali naršyti teritorijos vartotojai, sąrašu.
-
-> [!NOTE]
-> Svetainės išrinkiklio modulį galima naudoti Dynamics 365 Commerce 10.0.14 leidime.
-
-Šioje iliustracijoje pateikiamas svetainės išrinkiklio modulio, kuris pavaizduotas svetainės puslapio antraštėje, pavyzdys.
+Teritorijos išrinkiklio modulis turi būti sukonfigūruotas su teritorijų (rinkų, regionų ar vietų), kurias gali naršyti teritorijos vartotojai, sąrašu. Šioje iliustracijoje pateikiamas svetainės išrinkiklio modulio, kuris pavaizduotas svetainės puslapio antraštėje, pavyzdys.
 
 ![Svetainės išrinkiklio modulio pavyzdys svetainės puslapio antraštėje.](./media/ecommerce-sitepicker.PNG)
 

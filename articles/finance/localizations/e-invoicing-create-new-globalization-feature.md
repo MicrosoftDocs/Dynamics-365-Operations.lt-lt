@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dkalyuzh
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 197a5b983b307758425b1acc1f354d0a8bfbf8a1
-ms.sourcegitcommit: ffdb6794746ffe5461f9dcf34ed8e64976d22d2d
+ms.openlocfilehash: 94038b0eb412632c348081bbf467f44310d9e955
+ms.sourcegitcommit: 6109fc2fe5f407363bb6f240d64b7214657f5914
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "8371960"
+ms.lasthandoff: 04/15/2022
+ms.locfileid: "8603031"
 ---
 # <a name="create-a-globalization-feature"></a>Globalizavimo funkcijos kūrimas
 
@@ -47,7 +47,7 @@ Norėdami sukurti elektroninę SF išrašymo priemonę, atlikite šiuos veiksmus
 8. Konfigūracijos tinklelyje **naršykite** ir pasirinkite formato konfigūracijas, kurių reikia pardavimo galimybių apdorojimui (pvz., norėdami generuoti elektroninių SF failus arba apdoroti atsakymus iš išorinių žiniatinklio tarnybų).
 9. Pasirinkite **Gerai**. Dabar galite naudoti konfigūracijas pardavimo galimybių apdorojimo veiksmams. Daugiau informacijos ieškokite Darbas [su konfigūracijoje](e-invoicing-work-configurations.md).
 10. Norėdami pridėti elektroninės SF išrašymo priemonės nustatymą, sukurkite **ją naujos** priemonės puslapio **skirtuke Nustatymai**. Daugiau informacijos ieškokite Darbas [su funkcijų nustatymais](e-invoicing-feature-setup.md).
-11. Užbaikite nustatymą ir įdiekite elektroninių SF išrašymo funkciją aptarnavimo aplinkoje. Norėdami gauti daugiau informacijos, žr [. Atlikta, paskelbti ir įdiegti globalizavimo funkciją](e-invoicing-complete-publish-deploy-globalization-feature).
+11. Užbaikite nustatymą ir įdiekite elektroninių SF išrašymo funkciją aptarnavimo aplinkoje. Norėdami gauti daugiau informacijos, žr [. Atlikta, paskelbti ir įdiegti globalizavimo funkciją](e-invoicing-complete-publish-deploy-globalization-feature.md).
 
 ### <a name="create-file-format-configurations-that-are-derived-from-the-existing-invoice-model"></a>Kurti failo formato konfigūracijas, išvestas iš esamo SF modelio
 
@@ -91,4 +91,4 @@ Naujos failo formato konfigūracijos turi būti bendrai naudojamos Microsoft dom
     - Peržiūrėti konfigūracijas, jei reikia pritaikyti ER formatus ir jų susiejimą su priemonės versijos formato susiejimais.
     - Peržiūrėkite nustatymą, jei reikia pritaikyti funkcijos versijos **skirtuką** Veiksmai, **·** **Pritaikymo** taisyklės arba Kintamieji.
 
-9. Užbaikite nustatymą ir įdiekite elektroninių SF išrašymo funkciją aptarnavimo aplinkoje. Norėdami gauti daugiau informacijos, žr [. Atlikta, paskelbti ir įdiegti globalizavimo funkciją](e-invoicing-complete-publish-deploy-globalization-feature).
+9. Užbaikite nustatymą ir įdiekite elektroninių SF išrašymo funkciją aptarnavimo aplinkoje. Norėdami gauti daugiau informacijos, žr [. Atlikta, paskelbti ir įdiegti globalizavimo funkciją](e-invoicing-complete-publish-deploy-globalization-feature.md).

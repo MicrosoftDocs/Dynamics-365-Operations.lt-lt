@@ -4,7 +4,8 @@ description: Šioje temoje pateikta informacija ir saitai į turinį apie vietin
 author: sericks007
 ms.date: 07/01/2021
 ms.topic: article
-ms.prod: ''
+ms.prod: dynamics-365
+ms.service: ''
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
@@ -16,24 +17,24 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: 93ed4e81db18cd02c097ff188003569e7bb391c511fd93fcab0961c14029dc96
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b57183a0c06f4735757c3c0c8d9e355879585e7a
+ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6712573"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8566045"
 ---
 # <a name="on-premises-deployment-home-page"></a>Vietinio visuotinio diegimo pagrindinis puslapis
 
 [!include [banner](../includes/banner.md)]
 
-Galite diegti „Dynamics 365 Finance + Operations“ (vietinė versija). Pasirinkus vietinės versijos diegimo tipą, sistemos reikalavimai, aparatūros apimtys ir funkcijos skiriasi, lyginant su debesies diegimo versijomis. Šioje temoje pateikti saitai į turinį, kuriame nurodyta konkreti informacija apie vietinių versijų diegimą.
+Galite diegti Dynamics 365 Finance + Operations (on-premises). Pasirinkus vietinės versijos diegimo tipą, sistemos reikalavimai, aparatūros apimtys ir funkcijos skiriasi, lyginant su debesies diegimo versijomis. Šioje temoje pateikti saitai į turinį, kuriame nurodyta konkreti informacija apie vietinių versijų diegimą.
 
 ## <a name="get-started"></a>Darbo pradžia
 - [Vietinio visuotinio diegimo apžvalga](on-premises-overview.md)
 - [Vietinių visuotinių diegimų planavimas ir rengimas](plan-onprem-deployment.md)
 - [Vietiniams visuotiniams diegimams taikomi sistemos reikalavimai](../../fin-ops/get-started/system-requirements-on-prem.md)
-- [„Microsoft Dynamics 365 Finance + Operations” (vietinė) palaikoma programinė įranga](onprem-compatibility.md)
+- [Microsoft Dynamics 365 Finance + Operations (on-premises) palaikoma programinė įranga](onprem-compatibility.md)
 - [Aparatūros dydžio reikalavimų nustatymas vietinėse aplinkose](../../fin-ops/get-started/hardware-sizing-on-premises-environments.md)
 - [„Finance + Operations (on-premises)“ pirkimas](../../fin-ops/get-started/purchase-on-premises.md)
 - [Debesies ir vietinių funkcijų palyginimas](../../fin-ops/get-started/cloud-prem-comparison.md)
@@ -52,7 +53,7 @@ Galite diegti „Dynamics 365 Finance + Operations“ (vietinė versija). Pasiri
 - [Elektroninių ataskaitų (ER) konfigūracijų importavimas](../analytics/electronic-reporting-import-ger-configurations.md)
 - [Dokumentų generavimas, publikavimas ir spausdinimas vietinėse visuotinėse įdiegtyse](../analytics/printing-capabilities-on-premises.md)
 - [Vietinių aplinkų tarpinių serverių konfigūravimas](onprem-reverseproxy.md)
-- [Techninės pagalbos, skirtos „Finance and Operations“ programoms, nustatymas](../lifecycle-services/support-experience.md)
+- [Programų „Finance and Operations“ techninio palaikymo nustatymas](../lifecycle-services/support-experience.md)
 - [Kliento interneto ryšys](../user-interface/client-disconnected.md)
 - [Vietinių visuotinių įdiegčių naujinimų taikymas](apply-updates-on-premises.md)
 - [Kartotinis visuotinis vietinių aplinkų diegimas](redeploy-on-prem.md)
@@ -72,7 +73,7 @@ Galite diegti „Dynamics 365 Finance + Operations“ (vietinė versija). Pasiri
 - [Vietinių aplinkų problemų sprendimo scenarijai](onprem-tsg-implementations.md)
 - [Sertifikatų kaita](certificate-rotation-on-prem.md)
 - [Vietinė diagnostika](on-premises-diagnostics.md)
-- [Pašalintos arba nebenaudojamos „Finance and Operations“ funkcijos](../migration-upgrade/deprecated-features.md)
+- [Pašalintos arba nebenaudojamos „Finance and Operations” funkcijos](../migration-upgrade/deprecated-features.md)
 - [Programinės įrangos ciklo strategija ir vietinės versijos leidimai](../migration-upgrade/on-prem-version-update-policy.md)
  
 

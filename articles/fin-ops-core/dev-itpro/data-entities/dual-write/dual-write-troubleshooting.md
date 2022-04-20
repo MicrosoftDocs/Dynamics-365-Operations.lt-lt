@@ -1,20 +1,20 @@
 ---
 title: Bendroji trikčių šalinimo informacija
-description: Šioje temoje pateikiama bendroji trikčių šalinimo informacija apie dvigubo rašymo integravimą tarp „Finance and Operations“ programų ir Dataverse.
+description: Šioje temoje pateikiama bendroji trikčių diagnostikos informacija, skirta dvigubo rašymo integravimui tarp finansų ir operacijų programėlių ir Dataverse.
 author: RamaKrishnamoorthy
-ms.date: 03/16/2020
+ms.date: 04/07/2020
 ms.topic: article
 audience: Application User, IT Pro
 ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: f6f5b9f26990e2f4db9bf69040a6c4be31400b40
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 8b5951f9f40179ca0bf31f5cccf1f05a0f968213
+ms.sourcegitcommit: 1843235766b6f8cf950a13a310e9f4f2f53c59a4
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062343"
+ms.lasthandoff: 04/07/2022
+ms.locfileid: "8554605"
 ---
 # <a name="general-troubleshooting"></a>Bendroji trikčių šalinimo informacija
 
@@ -22,59 +22,98 @@ ms.locfileid: "8062343"
 
 
 
-Šioje temoje pateikiama bendroji trikčių šalinimo informacija apie dvigubo rašymo integravimą tarp „Finance and Operations“ programų ir Dataverse.
+Šioje temoje pateikiama bendroji trikčių diagnostikos informacija, skirta dvigubo rašymo integravimui tarp finansų ir operacijų programėlių ir Dataverse.
 
 > [!IMPORTANT]
 > Kai kurioms šioje temoje nagrinėjamoms problemoms spręsti gali reikėti sistemos administratoriaus vaidmens arba „Microsoft Azure Active Directory” („Azure AD”) nuomotojo administratoriaus kredencialų. Kiekvienai problemai skirtoje dalyje paaiškinama, ar reikia konkretaus vaidmens ar kredencialų.
 
 ## <a name="enable-and-view-the-plug-in-trace-log-in-dataverse-to-view-error-details"></a><a id="enable-view-trace"></a>Įgalinkite ir peržiūrėkite priedo sekimo žurnalą „Dataverse”, kad peržiūrėtumėte klaidos informaciją
 
+Sekimo žurnalai gali būti naudingi trikčių diagnostikos dvigubo rašymo tiesioginio sinchronizavimo tarp finansų &operacijų ir tiesioginio sinchronizavimo problemų Dataverse. Žurnaluose galima pateikti konkrečią informaciją komandoms, kurios teikia "Dynamics 365" techninės ir inžinerijos palaikymo paslaugas. Šiame straipsnyje aprašoma, kaip įgalinti sekimo žurnalus ir kaip juos peržiūrėti. Sekimo žurnalai valdomi "Dynamics 365" parametrų puslapyje ir reikia administratoriaus lygio teisių, kad būtų galima keisti ir peržiūrėti. 
+
 **Reikiamas vaidmuo, norint įjungti sekimo žurnalą ir peržiūrėti klaidas:** sistemos administratorius
 
+### <a name="turn-on-the-trace-log"></a>Įjungti sekimo žurnalą
 Norėdami įjungti sekimo žurnalą, atlikite toliau nurodytus veiksmus.
 
-1. Prisijunkite prie „Customer Engagement” programos, atidarykite puslapį **Parametrai**, o tada dalyje **Sistema** pasirinkite **Administravimas**.
-2. Puslapyje **Administravimas** pasirinkite **Sistemos parametrai**.
-3. Skirtuko **Tinkinimas** stulpelyje **Priedo ir pasirinktinės darbo eigos veiklos sekimas** pasirinkite **Viskas**, kad įgalintumėte priedo sekimo žurnalą. Jei norite registruoti sekimo žurnalus tik tada, kai įvyksta išimtys, vietoje to galite pasirinkti **Išimtis**.
+1.  Prisiregistruokite prie "Dynamics 365", tada viršutinėje **naršymo** juostoje pasirinkite Parametrai. Puslapyje Sistemos spustelėkite **Administravimas**.
+2.  Administravimo puslapyje spustelėkite Sistemos **parametrai**.
+3.  Pasirinkite skirtuką **Pritaikymas** ir Priedas, tada pasirinktinės darbo srauto veiklos sekimo skyriuje išplečiamasis sąrašas pakeiskite į **Visi**. Taip bus sekama visa veikla ir pateikiamas išsamus komandų, kurios turi peržiūrėti galimas problemas, duomenų rinkinys.
 
+> [!NOTE]
+> Išplečiamajame sąraše nustatoma išimtis **,** sekimo informaciją bus pateikta tik įvykstant išimtims (klaidoms).
 
+Kai bus įjungta, priedo sekimo žurnalai bus renkami tol, kol, grįžtant į šią vietą ir pasirinkus Išjungta, jie bus išjungti rankiniu **būdu**.
+
+### <a name="view-the-trace-log"></a>Peržiūrėti sekimo žurnalą
 Norėdami peržiūrėti sekimo žurnalą, atlikite toliau nurodytus veiksmus.
 
-1. Prisijunkite prie „Customer Engagement” programos, atidarykite puslapį **Parametrai**, o tada dalyje **Tinkinimas** pasirinkite **Priedo sekimo žurnalas**.
-2. Raskite sekimo žurnalus, kuriuose stulpelis **Tipo pavadinimas** nustatytas kaip **„Microsoft.Dynamics.Integrator.DualWriteRuntime.Plugins.PreCommmitPlugin”**.
-3. Dukart spustelėkite elementą, kad peržiūrėtumėte visą žurnalą, tada „FastTab” **Vykdymas** peržiūrėkite tekstą **Pranešimų blokas**.
+1. Puslapyje "Dynamics 365" parametrai viršutinėje **naršymo** juostoje pasirinkite Parametrai. 
+2. Puslapio **sekcijoje Pritaikymai** **pasirinkiteVz** Trace Log.
+3. Sekimo žurnalų sąraše galite rasti įrašų, paremtų tipo pavadinimu ir (arba) pranešimo pavadinimu.
+4. Atidarykite norimą įrašą, jei norite peržiūrėti visą žurnalą. Pranešimų bloke, kuris yra vykdymo skyriuje, bus pateikta turima informacija apie priedą. Jei galima, informacija apie išimtį taip pat bus pateikta. 
 
-## <a name="enable-debug-mode-to-troubleshoot-live-synchronization-issues-in-finance-and-operations-apps"></a>Įgalinkite derinimo režimą, kad pašalintumėte tiesioginio sinchronizavimo problemas „Finance and Operations“ programose
+Galite nukopijuoti sekimo žurnalų turinį ir įklijuoti juos į kitą programą, pvz., Notepad ar kitus įrankius, kad galėtumėte peržiūrėti žurnalus ar tekstinius failus, kad būtų lengviau pamatyti visą turinį. 
+
+## <a name="enable-debug-mode-to-troubleshoot-live-synchronization-issues-in-finance-and-operations-apps"></a>Įjungti derinimo režimą tiesioginio sinchronizavimo trikčių šalinimui finansinėse ir operacijų programėlėse
 
 **Reikiamas vaidmuo, norint peržiūrėti klaidas:** sistemos administratorius
 
-Dvigubo rašymo klaidos, kylančios iš Dataverse gali būti rodomas programėlėje „Finance and Operations“. Norėdami įjungti daugiažodį klaidų registravimą atlikite toliau nurodytus veiksmus.
+Dvigubo rašymo klaidos, kurios buvo kilusios Dataverse, gali būti rodomos finansų ir operacijų programoje. Norėdami įjungti daugiažodį klaidų registravimą atlikite toliau nurodytus veiksmus.
 
-1. Visoms projektų konfigūracijoms programoje „Finance and Operations“ yra vėliavėlė **IsDebugMode** ant **DualWriteProjectConfiguration** stalo.
-2. Atidarykite **„DualWriteProjectConfiguration”** naudodami „Excel“ papildinį. Norėdami naudoti priedą, įgalinkite projektavimo režimą „Finance and Operations Excel“ priede ir pridėkite **DualWriteProjectConfiguration** prie lapo. Daugiau informacijos žr. skyriuje [Objekto duomenų peržiūra ir atnaujinimas programoje „Excel“](../../office-integration/use-excel-add-in.md).
+1. Visų projektų konfigūracijų finansų ir operacijų **programoje lentelėje DualWriteProjectConfiguration yra vėliavėlė** IsDebugMode **·**.
+2. Atidarykite **„DualWriteProjectConfiguration”** naudodami „Excel“ papildinį. Norėdami naudoti priedą įjunkite kūrimo režimą finansų ir operacijų "Excel **" papildinyje ir pridėkite DualWriteProjectConfiguration** į lapą. Daugiau informacijos žr. skyriuje [Objekto duomenų peržiūra ir atnaujinimas programoje „Excel“](../../office-integration/use-excel-add-in.md).
 3. Projekte nustatykite **IsDebugMode** kaip **Taip**.
 4. Vykdyti scenarijų, kuris generuoja klaidas.
 5. Daugiažodžiai žurnalai saugomi lentelėje **DualWriteErrorLog**.
 6. Norėdami peržvelgti duomenis lentelių naršyklėje, naudokite šį saitą: `https://999aos.cloudax.dynamics.com/?mi=SysTableBrowser&tableName=DualWriteErrorLog`, jei reikia, pakeiskite `999`.
 7. Atnaujinkite dar kartą pagal [KB 4595434](https://fix.lcs.dynamics.com/Issue/Details?kb=4595434&bugId=527820&dbType=3&qc=98e5dc124ac125c57ad633d885ac612aea3ddb8f4abf9d71ab3aa354f2e06cbe), pasiekiamą platformos naujiniui Nr. 37 ir naujesniems. Jei įdiegėte šią pataisą, derinimo režimu bus fiksuojama daugiau žurnalų.  
 
-## <a name="check-synchronization-errors-on-the-virtual-machine-for-the-finance-and-operations-app"></a>Patikrinkite „Finance and Operations“ programos sinchronizavimo klaidas virtualioje mašinoje
+## <a name="check-synchronization-errors-on-the-virtual-machine-for-the-finance-and-operations-app"></a>Tikrinti finansų ir operacijų programos virtualiojoje mašinoje sinchronizavimo klaidas
 
 **Reikiamas vaidmuo, norint peržiūrėti klaidas:** sistemos administratorius
 
 1. Prisijunkite prie „Microsoft Dynamics“ portale „Lifecycle Services“ (LCS).
 2. Atidarykite LCS projektą, kurį pasirinkote dvigubo rašymo testavimui atlikti.
 3. Pasirinkite plytelę **Aplinkos diegimo debesyje įrankis**.
-4. Naudokite nuotolinį darbalaukį, kad prisijungtumėte prie virtualios mašinos (VM), skirtos programai „Finance and Operations“. Naudokite vietinę paskyrą, kurį yra rodoma LCS.
+4. Norėdami prisijungti prie finansų ir operacijų programos virtualiosios mašinos (VM), naudokite nuotolinį darbalaukį. Naudokite vietinę paskyrą, kurį yra rodoma LCS.
 5. Atidarykite įvykių peržiūros programą.
 6. Pasirinkite **Programų ir paslaugų žurnalai \> „Microsoft“ \> „Dynamics“ \> „AX-DualWriteSync“ \> Veikia**.
 7. Peržiūrėti naujausių klaidų sąrašą.
 
-## <a name="unlink-and-link-another-dataverse-environment-from-a-finance-and-operations-app"></a>Atsieti ir susieti kitą Dataverse aplinką iš „Finance and Operations“ programos
+## <a name="dual-write-ui-landing-page-showing-blank"></a>Dvigubo rašymo vartotojo sąsajos puslapis rodomas tuščias
+Atverdami dvigubo rašymo Microsoft Edge puslapį ar "Skirtukų chrom" naršyklėje, pagrindinis puslapis neįkeliamas, o jūs matote tuščią puslapį arba klaidą, pvz., "Kažkas negerai".
+Devtoolse įvyko klaida konsolės žurnaluose:
 
-**Būtinas vaidmuo norint atsieti aplinką:** Programos „Finance and Operations“ sistemos administratorius arba Dataverse.
+>bundle.eed39124e62c58ef34d2.js:37 DOMException: nepavyko nuskaityti ypatybės sessionStorage iš Langas: prieiga prie šio dokumento uždrausta. t.storeInSessionStorage ( ) nauju t (https://dataintegrator.trafficmanager.net/bundle.eed39124e62c58ef34d2.js:16:136860 https://dataintegrator.trafficmanager.net/bundle.eed39124e62c58ef34d2.js:69:20103) eo (https://dataintegrator.trafficmanager.net/bundle.eed39124e62c58ef34d2.js:37:44115) Eo (https://dataintegrator.trafficmanager.net/bundle.eed39124e62c58ef34d2.js:37:58728) jo (https://dataintegrator.trafficmanager.net/bundle.eed39124e62c58ef34d2.js:37:65191) metu Nr. (https://dataintegrator.trafficmanager.net/bundle.eed39124e62c58ef34d2.js:37:84692) arba (https://dataintegrator.trafficmanager.net/bundle.eed39124e62c58ef34d2.js:37:85076) Ss (https://dataintegrator.trafficmanager.net/bundle.eed39124e62c58ef34d2.js:37:91750) ir (https://dataintegrator.trafficmanager.net/bundle.eed39124e62c58ef34d2.js:37:91130 s ) hs (https://dataintegrator.trafficmanager.net/bundle.eed39124e62c58ef34d2.js:37:90151)
 
-1. Prisijunkite prie programėlės „Finance and Operations“.
+Vartotojo sąsajos naudoja naršyklę seanso saugykla, kad saugoma kai kurių ypatybių vertė, skirta pagrindinio puslapio įkėlimui. Kad tai veiktų, svetainės naršyklėje turi būti leidžiami trečiosios šalies sausainiai. Klaida yra indikatyvi vartotojo sąsajos, kurios nepavyko pasiekti seanso saugykla, indikatyvi. Gali būti du scenarijai, su kuriais susiduriama su šia problema:
+
+1.  Vartotojo SĄSAJĄ atidarote atpažinus "Edge/Chrom" ir trečiosios šalies sausainius" incognito režimu.
+2.  Jūs visiškai užblokavote trečiosios šalies sausainius –Edge/Chrom.
+
+### <a name="mitigation"></a>Mažinimo priemonė
+Naršyklės nustatymuose turi būti leidžiami trečiosios šalies sausainiai.
+
+### <a name="google-chrome-browser"></a>"Vz." chromuotas naršyklė
+1-asis variantas:
+1.  Eikite į parametrus įvesdami chrome://settings/ į adresų juostą, tada eikite į Privatumas ir sauga -> Sausainiai ir kiti svetainės duomenys.
+2.  Pasirinkite Leisti visus sausainius. Jei nenorite to daryti, pereikite prie antros pasirinkties.
+
+2-asis variantas:
+1.  Eikite į parametrus įvesdami chrome://settings/ į adresų juostą, tada eikite į Privatumas ir sauga -> Sausainiai ir kiti svetainės duomenys.
+2.  Jei pasirinkta "Blokuoti trečiosios šalies sausainius", "Blokuoti trečiosios šalies sausainius" arba "Blokuoti trečiosios šalies sausainius", eikite į "Sites", kuri visada gali naudoti sausainius, ir spustelėkite **Įtraukti**. 
+3.  Įtraukite finansų & operacijų programėlių svetainės pavadinimą – https://<your_FinOp_instance>.cloudax.dynamics.com. Įsitikinkite, kad pažymėsite žymės langelį "Visi sausainiai" tik šioje svetainėje. 
+
+### <a name="microsoft-edge-browser"></a>Microsoft Edge Naršyklės
+1.  Pereikite prie Parametrų – > Svetainės teisės - > sausainius ir svetainės duomenis.
+2.  Išjungti parinktį Blokuoti trečiosios šalies sausainius.  
+
+## <a name="unlink-and-link-another-dataverse-environment-from-a-finance-and-operations-app"></a>Atsieti ir susieti kitą Dataverse aplinką nuo finansų ir operacijų programos
+
+**Būtinas vaidmuo norint atsieti aplinką: sistemos** administratorius finansų ir operacijų programai arba Dataverse.
+
+1. Prisiregistruokite finansų ir operacijų programoje.
 2. Eikite į **Darbo sritys \> Duomenų valdymas** ir pasirinkite plytelę **Dvigubas rašymas**.
 3. Pasirinkite visus veikiančius susiejimus, tada pasirinkite **Stabdyti**.
 4. Pasirinkite **Atsieti aplinką**.
@@ -97,14 +136,14 @@ Norėdami iš naujo įgalinti formos parinktį **Informacija**, atlikite toliau 
 
 Palaikymo komandai gali reikėti peržiūrėti tinklo sekimus, siekiant diagnozuoti ir pašalinti kai kurias triktis. Norėdami sukurti tinklo sekimą, atlikite toliau nurodytus veiksmus.
 
-### <a name="chrome"></a>Chrome
+### <a name="google-chrome-browser"></a>"Vz." chromuotas naršyklė
 
 1. Atidarytame skirtuke paspauskite **F12** arba pasirinkite **Programavimo įrankiai**, kad atidarytumėte programavimo įrankius.
 2. Atverkite skirtuką **Tinklas** ir filtro teksto lauke įveskite **integ**.
 3. Vykdykite savo scenarijų ir atsižvelkite į registruojamas užklausas.
 4. Dešiniuoju pelės mygtuku spustelėkite įrašus ir pasirinkite **Įrašyti viską kaip HAR su turiniu**.
 
-### <a name="microsoft-edge"></a>„Microsoft Edge“
+### <a name="microsoft-edge-browser"></a>Microsoft Edge Naršyklės
 
 1. Atidarytame skirtuke paspauskite **F12** arba pasirinkite **Programavimo įrankiai**, kad atidarytumėte programavimo įrankius.
 2. Atidarykite skirtuką **Tinklas**.

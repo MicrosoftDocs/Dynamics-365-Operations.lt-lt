@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-12-03
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: a254e20dd7fcc29ca520282b4bf9fcd903e4de58
-ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
+ms.openlocfilehash: a8f0dc5c7498d04230e5e7356979e08ee3a86052
+ms.sourcegitcommit: 197e6ddee84522fd587c6e4ee4f9089101e301c2
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "8087555"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8570288"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10024-february-2022"></a>Kas nauja ar pasikeitė „Dynamics 365 Supply Chain Management“ 10.0.24 (2022 m. vasario mėn.)
 
@@ -23,7 +23,7 @@ ms.locfileid: "8087555"
 
 Ši tema išvardyja funkcija, kurios yra naujos arba pakeistos „Microsoft Dynamics 365 Supply Chain Management“ 10.0.24 versijoje. Šios versijos komponavimo numeris yra 10.0.1084 ir jis pasiekiamas tokius būdu:
 
-- **Išleidimo peržiūra:** 2021 m. gruodžio mėn
+- **Paleidimo peržiūra:** 2021 m. gruodžio mėn.
 - **Bendras leidimo prieinamumas (savaiminis naujinimas):** 2022 m. sausio mėnuo
 - **Bendras leidimo prieinamumas (automatinis naujinimas):** 2022 m. vasario mėnuo
 
@@ -33,22 +33,22 @@ Tolesnėje lentelėje pateiktos funkcijos, kuri yra šiame leidime. Galime atnau
 
 | Funkcijos sritis | Funkcija | Daugiau informacijos | Įjungė   |
 |---|---|---|---|
-| Paskirstyta taip pat topologija | [Patobulintas sandėlio vykdymo darbo krūvis masto vienetuose](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/enhanced-warehouse-execution-workloads-scale-units) | [Sandėlio valdymo darbo krūviai, skirti debesies ir briaunos skalės vienetams](../cloud-edge/cloud-edge-workload-warehousing.md) | Įgalinta pagal numatytąjį nustatymą. |
-| Paskirstyta taip pat topologija | [Pradėkite gamybos užsakymą dėl sandėlio valdymo darbo krūvio debesies ir krašto masto vienetui](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/enhanced-manufacturing-execution-workloads-scale-units) | [Gamybos vykdymo darbo krūviai, skirti debesies ir briaunos skalės vienetams](../cloud-edge/cloud-edge-workload-manufacturing.md) | Funkcijų valdymas (*Pradėkite gamybos užsakymą dėl sandėlio valdymo darbo krūvio debesies ir krašto masto vienetui*)  |
-| Planuojama | [Planavimo optimizavimo palaikymas, susijęs su pakartotinio užsakymo marža ir išdavimo marža](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/planning-optimization-support-reorder-margin-issue-margin) | [Laiko rezervai](../master-planning/planning-optimization/safety-margins.md) | Įgalinta pagal numatytąjį nustatymą. |
+| Paskirstyta taip pat topologija | [Išplėstiniai sandėlio vykdymo darbo krūviai skalės vienetuose](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/enhanced-warehouse-execution-workloads-scale-units) | [Sandėlio valdymo darbo krūviai, skirti debesies ir briaunos skalės vienetams](../cloud-edge/cloud-edge-workload-warehousing.md) | Įgalinta pagal numatytąjį nustatymą. |
+| Paskirstyta taip pat topologija | [Paleisti gamybos užsakymą naudojant sandėlio valdymo darbo krūvį debesies ir briaunos skalės vienetui](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/enhanced-manufacturing-execution-workloads-scale-units) | [Gamybos vykdymo darbo krūviai, skirti debesies ir briaunos skalės vienetams](../cloud-edge/cloud-edge-workload-manufacturing.md) | Priemonių valdymas (Pradėti *gamybos užsakymą naudojant sandėlio valdymo darbo krūvį, debesį ir briaunos skalės vienetą*)  |
+| Planuojama | [Užsakymo maržos ir išdavimo maržos planavimo optimizavimo palaikymas](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/planning-optimization-support-reorder-margin-issue-margin) | [Laiko rezervai](../master-planning/planning-optimization/safety-margins.md) | Įgalinta pagal numatytąjį nustatymą. |
 
 ## <a name="feature-enhancements-included-in-this-release"></a>Funkcijos patobulinimai, įtraukti į šį leidimą
 
 Toliau pateiktoje lentelėje pateikti funkcijos patobulinimai, įtraukti į šį leidimą. Kiekvienas iš jų suteikia didesnį esamos funkcijos patobulinimą. Kadangi jie yra tik patobulinimai, jie nėra išvardyti [leidimo plane](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/planned-features) Tačiau, siekiant užtikrinti, kad šie patobulinimai bus suderinti su jūsų esamais tinkinimais ar nuostatomis, kiekvienas iš jų yra išjungiamas pagal numatytuosius nustatymus (nebent nurodyta kitaip).
 
-Jei norite įjungti arba išjungti kurią nors iš šių funkcijų, turite tai padaryti [funkcijų valdymas](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Jei norite įjungti arba išjungti bet kurią iš šių priemonių, tai turite atlikti funkcijų [valdymo metu](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 | Modulis | Funkcijos pavadinimas funkcijos valdyme | Daugiau informacijos |
 |---|---|---|
-| Gamybos kontrolė | Gamybos užsakymų medžiagų pasiekiamumo pareikalavus patikra | Ši funkcija leidžia greičiau atidaryti **Gamybos užsakymai išleisti** puslapį, kurį galite rasti iš **Gamybinių grindų valdymas** darbo vieta. Be šios funkcijos, sistema automatiškai patikrina, ar yra prieinamos medžiagos visiems išvardytiems gamybos užsakymams, kai tik atidarote puslapį, o tai gali užtrukti daug laiko, jei turite daug užsakymų. Kai ši funkcija įjungta, sistema pateikia įrankių juostos mygtuką, kurį galite naudoti norėdami pradėti tik pasirinktų užsakymų medžiagų patikrą ir tada, kai to reikia. |
-| Gamybos kontrolė | (Peržiūros versija) Registruokite medžiagų suvartojimą gamybos vietos vykdymo sąsajoje (ne WMS) | Ši funkcija leidžia darbuotojams naudoti gamybos grindų vykdymo sąsają medžiagų suvartojimui, partijų numeriams ir serijos numeriams registruoti. Ši funkcija palaiko tik tuos elementus, kuriems neleidžiama naudoti išplėstinių sandėlio procesų (WMS). Ateityje numatomas elementų, kuriuose įgalinta WMS, palaikymas.<p>Kai kurie gamintojai, ypač perdirbimo pramonės įmonės, turi aiškiai registruoti sunaudotos medžiagos kiekį kiekvienai partijai arba gamybos užsakymui. Pavyzdžiui, darbuotojai gali naudoti svarstykles, kad pasvertų darbo metu sunaudotos medžiagos kiekį. Siekdamos užtikrinti visišką medžiagų atsekamumą, šios organizacijos taip pat turi registruoti, kurių partijų numeriai buvo sunaudoti gaminant kiekvieną produktą. |
-| Gamybos kontrolė | Pranešti, kai bus baigta su sandėlio valdymo darbo krūviu debesies ir briaunos skalės įrenginyje | Ši funkcija leis darbuotojams naudoti Sandėlio valdymo programą mobiliesiems, kad praneštų apie gamybos arba partijos užsakymą kaip baigtą, kai programa veikia pagal sandėlio valdymo darbo krūvį debesies arba krašto masto vienete. Daugiau informacijos žr [Praneškite kaip baigtą ir padėkite ant mastelio vieneto](../cloud-edge/cloud-edge-workload-manufacturing.md#RAF). |
-| Sandėlio valdymas | Nauji apkrovos planavimo darbastalio puslapiai | Įgalinami du nauji apkrovos planavimo darbastalio puslapiai: **Įeinančios apkrovos planavimo darbastalis** ir **Išeinančių apkrovų planavimo darbastalis**. |
+| Gamybos kontrolė | Gamybos užsakymų medžiagų pasiekiamumo pareikalavus patikra | Ši funkcija padeda greičiau atidaryti gamybos užsakymus **, kad būtų galima paleisti** puslapį, kurį galima pasiekti gamybos **laiko valdymo darbo** srityje. Be šios priemonės sistema automatiškai patikrina, ar visiems išvardytiems gamybos užsakymams medžiagos galimos iš karto, kai tik atidarote puslapį, o tai gali užtrukti, jei yra daug užsakymų. Kai ši funkcija įgalinta, sistema pateikia įrankių juostos mygtuką, kurį galite naudoti, norėdami inicijuoti medžiagų tikrinkite tik pasirinktus užsakymus ir, kai jų reikia. |
+| Gamybos kontrolė | (Peržiūros versija) Registruokite medžiagų suvartojimą gamybos vietos vykdymo sąsajoje (ne WMS) | Ši funkcija leidžia darbuotojams naudoti gamybos laiko vykdymo sąsają medžiagų suvartojimui, paketo numeriams ir serijos numeriams registruoti. Ši funkcija palaiko tik prekes, kurios neįgalintos naudoti išplėstinių sandėlio procesų (WMS). WMS įgalintų prekių palaikymas planuojamas būsimam paleidimui.<p>Kai kurie gamintojai, ypač proceso pramonės šakose, turi aiškiai registruoti kiekvienam paketui ar gamybos užsakymui suvartotų medžiagų kiekį. Pavyzdžiui, darbuotojai gali naudoti svarstyklių skalę, kad galėtų pasverti jų darbui suvartotų medžiagų kiekį. Siekiant užtikrinti visą medžiagų kiekį, šios organizacijos taip pat turi registruoti, kurie paketų numeriai buvo suvartoti gaminant kiekvieną produktą. |
+| Gamybos kontrolė | Pranešti, kai bus baigta su sandėlio valdymo darbo krūviu debesies ir briaunos skalės įrenginyje | Ši funkcija leidžia darbuotojams naudoti sandėlio valdymo mobiliąją programą pranešti apie gamybos arba paketinį užsakymą kaip baigtą, kai programa veikia naudojant sandėlio valdymo darbo krūvį debesies arba kraštų skalės vienetais. Daugiau informacijos rasite Ataskaita kaip [baigta ir Padėti ant svarstyklių vieneto](../cloud-edge/cloud-edge-workload-manufacturing.md#RAF). |
+| Sandėlio valdymas | Nauji krovinio planavimo darbo srityje puslapiai | Įgalina du naujus krovinio planavimo darbo srityje puslapius: **gaunamo krovinio planavimo darbo srityje** **ir siunčiamo krovinio planavimo darbo srityje**. |
 
 ## <a name="new-and-updated-documentation-resources"></a>Nauji ir naujinti dokumentų šaltiniai
 
@@ -63,14 +63,14 @@ Neseniai įtraukėme ir reikšmingai atnaujinome tolesnes pagalbos temas. Šios 
 | Bendrasis planavimas | [Pakankamų atsargų žurnalo naudojimas mažiausiam prekių padengimui atnaujinti](../master-planning/safety-stock-journal.md) |
 | Gamybos kontrolė | [Gamybos vietos vykdymo sąsajos tinkinimas](../production-control/production-floor-execution-customize.md) |
 | Gamybos kontrolė | [Gamybos vietos vykdymo sąsajos stilius](../production-control/production-floor-execution-styles.md) |
-| Pardavimas ir rinkodara | [Pardavimo istorijos valymo našumo patobulinimai](../sales-marketing/sales-update-history-cleanup-performance-improvements.md) |
+| Pardavimas ir rinkodara | [Planuoti pardavimo retrospektyvos duomenų valymą](../sales-marketing/sales-update-history-cleanup-performance-improvements.md) |
 | Sandėlio valdymas | [Mobiliojo įrenginio vartotojų paskyros](../warehousing/mobile-device-work-users.md) |
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
-### <a name="platform-updates-for-finance-and-operations-apps"></a>Programų „Finance and Operations“ platformos naujiniai
+### <a name="platform-updates-for-finance-and-operations-apps"></a>Finansų ir operacijų programėlių platformos naujinimai
 
-„Microsoft Dynamics 365 Supply Chain Management“ 10.0.24 versijoje yra platformos naujinimų. Norėdami sužinoti daugiau, žr [„Finance and Operations“ programų 10.0.24 versijos platformos naujiniai (2022 m. vasario mėn.)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-24.md).
+„Microsoft Dynamics 365 Supply Chain Management“ 10.0.24 versijoje yra platformos naujinimų. Norėdami sužinoti daugiau, žr. [finansų ir operacijų programėlių 10.0.24 versijos platformos naujinimus (2022 m. vasario mėn.).](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-24.md)
 
 ### <a name="bug-fixes"></a>Klaidų ištaisymai
 

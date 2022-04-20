@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 83d19f92984c9f67242946aa8faf445d9d2bd881
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.openlocfilehash: 876f5a5f8ebf77a65ba3aa6271a2957b7dc2cb96
+ms.sourcegitcommit: 197e6ddee84522fd587c6e4ee4f9089101e301c2
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920205"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8570484"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10023-january-2022"></a>Kas naujo ar pasikeitusio „Dynamics 365 Supply Chain Management“ 10.0.23 (2022 m. sausio mėnesį)
 
@@ -36,9 +36,9 @@ Tolesnėje lentelėje pateiktos funkcijos, kuri yra šiame leidime. Priemonės *
 | Visuotinė adresų knygelė | Nustatyti kiekvienos adreso sąrankos šalies/ regiono numatytąją šalį/ regioną | Dabar visuotinės adresų knygelės adreso nustatyme galite nurodyti kiekvienos šalies/ regiono numatytąją valstiją/ apskritį. Kai nustatyta numatytoji valstija/ apskritis, kuriant naują tos šalies/ regiono apskritį ar miesto įrašą bus įvesta numatytoji vertė, įvesta rajono/ apskrities laukuose. Taip pat žr. [Adreso nustatymas](../../fin-ops-core/fin-ops/organization-administration/global-address-book-address-setup.md?toc=/dynamics365/supply-chain/toc.json) | Įgalinta pagal numatytąjį nustatymą. |
 | Atsargos&nbsp;ir&nbsp;logistika | [„Warehouse Management“ mobiliųjų įrenginių programėlės užduočių sustabdymas](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/park-tasks-warehouse-management-mobile-app) | [Mobiliojo įrenginio meniu elementų aplinkinių veiksmų konfigūravimas](../warehousing/warehouse-app-detours.md) | Priemonių valdymas (*Warehouse management programos apylanka)* |
 | Atsargos&nbsp;ir&nbsp;logistika | [Paaukštinti sandėlio programėlės laukai](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/warehouse-management-mobile-app-step-instructions) | [Paaukštintų laukų konfigūravimas mobiliajame įrenginyje atliekamiems veiksmams](../warehousing/warehouse-app-promoted-fields.md)| Funkcijų valdymas (*Warehouse programos skatinami laukai*) |
-| Gamyba | [Gamybos vykdymo sistemų integravimas](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/manufacturing-execution-systems-integration) | [Integravimas trečiosios šalies gamybos vykdymo sistemose](../production-control/mes-integration.md) | Funkcijų valdymas *(Gamybos vykdymo sistemos* integravimas) |
+| Gamyba | [Gamybos vykdymo sistemų integravimas](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/manufacturing-execution-systems-integration) | [Integravimas trečiosios šalies gamybos vykdymo sistemose](../production-control/mes-integration.md) | Funkcijų valdymas (*gamybos vykdymo sistemos integravimas*) |
 | Gamyba | [Ataskaita apie sudėtinius ir šalutinius produktus iš gamybos vietos vykdymo sąsajos](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/enhanced-production-floor-execution-interface-process-manufacturing) | [Kaip darbuotojai naudoja gamybos vietos vykdymo sąsają](../production-control/production-floor-execution-use.md) | Funkcijų valdymas (*Ataskaita apie sudėtinius ir šalutinius produktus iš gamybos vietos vykdymo sąsajos*) |
-| Planuojama | [Prioriteto planavimo optimizavimo palaikymas](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/planning-optimization-support-priority-based-planning) | [Prioritetu grindžiamas planavimas](../master-planning/planning-optimization/priority-based-planning.md) | Funkcijų valdymas *(prioritetinis MRP palaikymas planavimo* optimizavimui) |
+| Planuojama | [Prioriteto planavimo optimizavimo palaikymas](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/planning-optimization-support-priority-based-planning) | [Prioritetu grindžiamas planavimas](../master-planning/planning-optimization/priority-based-planning.md) | Funkcijų valdymas (prioritetinis *MRP palaikymas planavimo optimizavimui*) |
 
 ## <a name="feature-enhancements-included-in-this-release"></a>Funkcijos patobulinimai, įtraukti į šį leidimą
 
@@ -53,11 +53,11 @@ Jei norite įjungti arba išjungti bet kurią iš šių priemonių, tai turite a
 | Atsargų ir sandėlio valdymas | \[Rusija\] Registruoti „Storno“ finansines atsargų operacijas pagal koregavimo žymę pardavimo užsakymų finansiniame kvite | Ši funkcija veikia Rusijos kredito pažymos pataisymų funkciją. Ji įgalina pardavimo SF atsargų operacijų registravimą atsižvelgiant į DK koregavimo pasirinktį. Įgalinus šią priemonę, daugiau nėra neatitikimų tarp **Koregavimo** vėliavėlių atsargų operacijų finansiniame kvite ir **Storno** vėliavėlių atsargų operacijose. |
 | Atsargų ir sandėlio valdymas | (Rusija) Vykdyti atsargų balanso apyvartos ataskaitos skaičiavimą paketiniu režimu | Ši funkcija Rusijoje lokalizuotai Supply Chain Management suteikia galimybę paleisti *Atsargų balanso apyvartosr* ataskaitą paketiniu režimu, ją saugoti ir peržiūrėti anksčiau sugeneruotas ataskaitas. |
 | Atsargų ir sandėlio valdymas | (Rusija) Naudoti vertimus į vietinę kalbą šaliai arba regionui skirtose pirminėse formose atsargų valdymo skyriuje | Ši funkcija Rusijoje lokalizuotai Supply Chain Management leidžia naudoti produktų/ prekių pavadinimų ir matavimo vienetų vertimus rusų kalba šiuose atsargų spaudiniuose rusų kalba: skaičiavimo sąrašas (INV-3), skaičiavimo sąrašas (INV-5), skaičiavimo sąrašas (INV-6). |
-| Bendrasis planavimas | „Azure“ mašininio mokymo tarnyba poreikio prognozavimui | Ši funkcija įgalina "Azure" mašinos mokymosi tarnybą generuoti poreikio prognozes, pagrįstas praeities duomenimis. Daugiau informacijos rasite Poreikio [prognozės](../master-planning/demand-forecasting-setup.md) nustatymas. |
+| Bendrasis planavimas | „Azure“ mašininio mokymo tarnyba poreikio prognozavimui | Ši funkcija įgalina "Azure" mašinos mokymosi tarnybą generuoti poreikio prognozes, pagrįstas praeities duomenimis. Daugiau informacijos rasite Poreikio [prognozės nustatymas](../master-planning/demand-forecasting-setup.md). |
 | Paraiškos | Valyti pirkimo užsakymo atnaujinimų istoriją | Ši funkcija leidžia išvalyti laikinus retrospektyvinius įrašus, susijusius su pirkimo užsakymo atnaujinimais. Ji į veiksmų sritį įtraukia naują mygtuką, pavadintą **Valyti pirkimo atnaujinimo retrospektyvą**, kuris yra puslapyje **Visi pirkimo užsakymai**. Pagal numatytuosius nustatymus ši funkcija įjungta. |
 | Gamybos kontrolė | (Peržiūros versija) Automatinis su sandėliu susietų medžiagų paėmimas automatiškai užregistruotiems paėmimo sąrašams | Ši funkcija leidžia automatiškai paimti ir išspręsti atsargų matmenis automatiškai užregistruotiems, išvestiniams ir atvirkštiniams paėmimo sąrašų žurnalams. |
 | Gamybos kontrolė | Tikrinti žaliavų galiojimo pabaigą pagal suplanuoto suvartojimo datą | Ši priemonė pakeičia, kaip patikrinamos paketo galiojimo datos rezervuojant žaliavų paketą, kuris bus naudojamas gamybos metu. Įgalinus šią priemonę, paketo galiojimo data patikrinama pagal suplanuotą suvartojimo datą (žaliavų datą), kaip nustatyta gamybos BOM eilutėje arba paketo užsakymo formulės eilutėje. Kai ši funkcija išjungta, paketo galiojimo data patikrinama pagal suplanuotą gamybos arba paketinio užsakymo pristatymo datą (kaip anksčiau). |
-| Pardavimas ir rinkodara | Valyti pardavimo naujinimo istoriją pagal terminą | Ši funkcija leidžia nustatyti maksimalų įrašų amžių, kurį reikia išlaikyti, vykdant pardavimų atnaujinimo **retrospektyvos valymo** periodinę užduotį. Senesni įrašai bus panaikinti. Tai naudinga, kai nustatote, kad užduotis būtų vykdoma periodiškai, nes amžius visuomet apskaičiuojamas atsižvelgiant į užduoties vykdymo datą. Be šios priemonės galite nustatyti tik konkrečią seniausių išsaugoti tikrų įrašų datą. |
+| Pardavimas ir rinkodara | Valyti pardavimo naujinimo istoriją pagal terminą | Ši funkcija leidžia nustatyti maksimalų įrašų amžių, kurį reikia išlaikyti, vykdant pardavimų atnaujinimo retrospektyvos **valymo periodinę** užduotį. Senesni įrašai bus panaikinti. Tai naudinga, kai nustatote, kad užduotis būtų vykdoma periodiškai, nes amžius visuomet apskaičiuojamas atsižvelgiant į užduoties vykdymo datą. Be šios priemonės galite nustatyti tik konkrečią seniausių išsaugoti tikrų įrašų datą. Daugiau informacijos rasite grafiko [pardavimo retrospektyvos duomenų išvalymą](../sales-marketing/sales-update-history-cleanup-performance-improvements.md). |
 | Pardavimas ir rinkodara | Pagerinti 100 populiariausių klientų ataskaitos našumą | Ši funkcija pagerina **100 geriausių** klientų ataskaitos našumą visada paleisdama ataskaitą visiems klientams (tai yra numatyta naudoti), o ne leisdama pasirinktines užklausas. Kai ši funkcija įgalinta, visi **Įrašai, kuriuos norite įtraukti** nustatymai yra išjungti **100 geriausių** ataskaitos dialogo lange. |
 | Sandėlio valdymas | Skalės vieneto palaikymas išleidžiant siunčiamus užsakymus iš sandėlio | Kai ši funkcija įjungta, siunčiamus užsakymus galima išleisti iš telkinio tiesiai į skalės vienetą, iš kurio bus įvykdyti užsakymai. |
 
@@ -79,9 +79,9 @@ Neseniai įtraukėme ir reikšmingai atnaujinome tolesnes pagalbos temas. Šios 
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
-### <a name="platform-updates-for-finance-and-operations-apps"></a>„Finance and Operations” programų platformos naujinimai
+### <a name="platform-updates-for-finance-and-operations-apps"></a>Finansų ir operacijų programėlių platformos naujinimai
 
-„Microsoft Dynamics 365 Supply Chain Management“ 10.0.23 versijoje yra platformos naujinimų. Dėl daugiau informacijos, žr. [Platformos naujinimas 10.0.23 „Finance and Operations“ programų versijai (2021 m. lapkričio mėn.)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-23.md).
+„Microsoft Dynamics 365 Supply Chain Management“ 10.0.23 versijoje yra platformos naujinimų. Norėdami sužinoti daugiau, žr. [finansų ir operacijų programėlių 10.0.23 versijos (2021 m. lapkričio mėn.)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-23.md) platformos naujinimus.
 
 ### <a name="bug-fixes"></a>Klaidų ištaisymai
 

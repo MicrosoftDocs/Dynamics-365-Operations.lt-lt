@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: adab5ee3f626390355f4bab1227efd5fe58c2fcf
-ms.sourcegitcommit: a3b121a8c8daa601021fee275d41a95325d12e7a
-ms.translationtype: HT
+ms.openlocfilehash: a2f7929026f41e921b71bc5a899810695c859902
+ms.sourcegitcommit: d475dea4cf13eae2f0ce517542c5173bb9d52c1c
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8524527"
+ms.lasthandoff: 04/05/2022
+ms.locfileid: "8547794"
 ---
 # <a name="configure-inventory-visibility"></a>Atsargų matomumo konfigūravimas
 
@@ -51,9 +51,10 @@ Atsargų matomumo priedas prie jūsų diegimo prideda keletą naujų „Power Ap
 
 | Priemonių valdymo pavadinimas | Aprašymas |
 |---|---|
-| OnHandReservation | Ši funkcija leidžia kurti rezervavimus, naudoti rezervavimus ir (arba) nereservuoti nurodytų atsargų kiekių naudojant atsargų matomumą. Dėl daugiau informacijos, žr. [Inventoriaus matomumo rezervavimas](inventory-visibility-reservations.md). |
-| OnHandMostSpecificBackgroundService | Ši priemonė pateikia produktų atsargų suvestinę kartu su visomis dimensijomis. Atsargų suvestinės duomenys bus periodiškai sinchronizuojami pagal atsargų matomumą. Daugiau informacijos ieškokite Atsargų [suvestinė](inventory-visibility-power-platform.md#inventory-summary). |
-| OnhandChangeSchedule | Priemonė įgalina turimo atsargų pakeitimo grafiką ir prieinamų atsargų (ATP) priemones (pasirinktinai). Daugiau informacijos ieškokite turimų [atsargų matomumo grafikuose ir prieinamose atsargose](inventory-visibility-available-to-promise.md). |
+| *OnHandReservation* | Ši funkcija leidžia kurti rezervavimus, naudoti rezervavimus ir (arba) nereservuoti nurodytų atsargų kiekių naudojant atsargų matomumą. Dėl daugiau informacijos, žr. [Inventoriaus matomumo rezervavimas](inventory-visibility-reservations.md). |
+| *OnHandMostSpecificBackgroundService* | Ši priemonė pateikia produktų atsargų suvestinę kartu su visomis dimensijomis. Atsargų suvestinės duomenys bus periodiškai sinchronizuojami pagal atsargų matomumą. Daugiau informacijos ieškokite Atsargų [suvestinė](inventory-visibility-power-platform.md#inventory-summary). |
+| *OnhandChangeSchedule* | Ši pasirinktinė priemonė įgalina turimo atsargų pakeitimo grafiką ir prieinamų atsargų (ATP) priemones. Daugiau informacijos rasite atsargų matomumo [turimų atsargų keitimo grafike ir prieinamose atsargose](inventory-visibility-available-to-promise.md). |
+| *Įgalinti sandėlio prekes atsargų matomumo skiltyje* | Ši pasirinktinė funkcija įgalina atsargų matomumą, kad būtų palaikomos prekės, įgalintos išplėstiniams sandėlio procesams (WHS prekės). Daugiau informacijos ieškokite sandėlio valdymo [ir sandėlio valdymo prekių atsargų matomumo palaikymas](inventory-visibility-whs-support.md). |
 
 ## <a name="find-the-service-endpoint"></a><a name="get-service-endpoint"></a>Paslaugos galinio punkto radimas
 
@@ -61,7 +62,7 @@ Jei nežinote tinkamo atsargų matomumo tarnybos galinio punkto, atidarykite **k
 
 ## <a name="data-source-configuration"></a>Duomenų šaltinio konfigūravimas
 
-Kiekvienas duomenų šaltinis rodo sistemą, iš kurios gauti jūsų duomenys. Duomenų šaltinių pavadinimų pavyzdys gali `fno` būti (tai reiškia "Dynamics 365 Finance ir operacijų programėlės") `pos` ir (tai reiškia "point of sale"). Pagal numatytuosius nustatymus „Supply Chain Management“ nustatomas kaip numatytasis duomenų šaltinis (`fno`) atsargų matomumo atveju.
+Kiekvienas duomenų šaltinis rodo sistemą, iš kurios gauti jūsų duomenys. Duomenų šaltinių pavadinimų pavyzdys gali `fno` būti (tai reiškia "Dynamics 365" finansų ir operacijų programėlės) `pos` ir (tai reiškia "point of sale"). Pagal numatytuosius nustatymus „Supply Chain Management“ nustatomas kaip numatytasis duomenų šaltinis (`fno`) atsargų matomumo atveju.
 
 > [!NOTE]
 > Duomenų `fno` šaltinis rezervuotas tiekimo grandinės valdymui. Jei jūsų atsargų matomumo priedas yra integruotas `fno` tiekimo grandinės valdymo aplinkoje, rekomenduojame nenaiknti su duomenų šaltiniu susijusių konfigūracijų.
