@@ -16,11 +16,9 @@
                   href: get-started/whats-new-changed-10-0-26.md
                 - name: „Finance 10.0.25“ (balandis)
                   href: get-started/whats-new-changed-10-0-25.md
-                - name: „Finance 10.0.24“ (vasaris)
-                  href: get-started/whats-new-changed-10-0-24.md
             - name: Pašalintos arba nerekomenduojamos funkcijos
               items:
-                - name: Pašalintos arba nerekomenduojamos funkcijos pagrindinis puslapis
+                - name: 'Pašalintos arba nerekomenduojamos funkcijos, pagrindinis puslapis'
                   href: ../fin-ops-core/fin-ops/get-started/removed-deprecated-features-home-page.md?toc=/dynamics365/finance/toc.json
                 - name: Pašalintos arba nebenaudojamos „Dynamics 365 Finance“ funkcijos
                   href: get-started/removed-deprecated-features-finance.md
@@ -418,14 +416,30 @@
                       href: accounts-receivable/sb-billing-schedules.md
                     - name: Atsiskaitymo grafiko kopijavimas
                       href: accounts-receivable/sb-copy-schedules-items.md
+                    - name: Atsiskaitymo grafikų funkcijos
+                      href: accounts-receivable/sb-schedule-billing-features.md
                     - name: Sąskaitų pateikimas dalimis
                       href: accounts-receivable/sb-milestonebilling.md
+                    - name: Palaikymo ir atnaujinimo procesas
+                      href: accounts-receivable/sb-support-renewals.md
+                    - name: Vartotojo kainų indeksų grafikai
+                      href: accounts-receivable/cpischedules.md
                     - name: Atsiskaitymo grafikų nutraukimas
                       href: accounts-receivable/terminate-billing-schedule.md
                 - name: Įplaukų ir išlaidų atidėjimai
-                  items: null
+                  items:
+                    - name: Nustatyti įplaukų ir išlaidų atidėjimus
+                      href: accounts-receivable/sb-deferrals.md
+                    - name: Atidėjimo grafikai
+                      items:
+                        - name: Kurti atidėjimų grafikus
+                          href: accounts-receivable/sb-deferrals-schedules.md
+                        - name: Atidėjimo numatytosios operacijos
+                          href: accounts-receivable/sb-deferral-transactions.md
                 - name: Kelių elementų įplaukų paskirstymas
-                  items: null
+                  items:
+                    - name: Nustatyti kelių elementų įplaukų paskirstymą
+                      href: accounts-receivable/sb-rev-alloc-setup.md
             - name: Mokėjimai ir sudengimai
               items:
                 - name: Kliento mokėjimų apžvalga
@@ -922,6 +936,8 @@
               items:
                 - name: Sąskaitų plano rengimas
                   href: general-ledger/plan-chart-of-accounts.md
+                - name: Vietinio sąskaitų plano rengimas
+                  href: general-ledger/plan-local-chart-of-accounts.md
                 - name: Pagrindinės sąskaitos
                   items:
                     - name: Pagrindinės sąskaitos tipai
@@ -2288,7 +2304,7 @@
                       href: localizations/emea-fra-fec-audit-file-structure.md
                     - name: Aplinkos paruošimas FEC generuoti
                       href: localizations/emea-fra-fec-audit-file-setup.md
-                    - name: FEC generavimas „Dynamics 365 Finance“
+                    - name: Generuoti FEC naudojant „Dynamics 365 Finance“
                       href: localizations/emea-fra-fec-audit-file-generation.md
                 - name: Kliento ir tiekėjo sąskaitų išrašai
                   href: localizations/tasks/fr-00002-customer-vendor-account-statements.md
@@ -3092,6 +3108,8 @@
                   href: localizations/tasks/mx-00010-cancel-electronic-invoice.md
                 - name: CFDI 3.3 versija
                   href: localizations/latam-mex-cfdi-3-3.md
+                - name: CFDI 4.0 versija
+                  href: localizations/latam-mex-cfdi-4-0.md
                 - name: Kliento registracijos ID ir kita informacija
                   href: localizations/tasks/mx-00007-customer-registration-ids-other-information.md
                 - name: DIOT deklaracijos išrašas

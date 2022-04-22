@@ -18,11 +18,9 @@
                   href: get-started/whats-new-platform-updates-10-0-26.md
                 - name: "„Platform“ naujinimai, skirti 10.0.25 versijai (2022\_m. balandžio mėn.)"
                   href: get-started/whats-new-platform-updates-10-0-25.md
-                - name: "„Platform“ naujinimai, skirti 10.0.24 versijai (2022\_m. vasario mėn.)"
-                  href: get-started/whats-new-platform-updates-10-0-24.md
             - name: Pašalintos arba nerekomenduojamos funkcijos
               items:
-                - name: Pašalintos arba nerekomenduojamos funkcijos pagrindinis puslapis
+                - name: 'Pašalintos arba nerekomenduojamos funkcijos, pagrindinis puslapis'
                   href: ../fin-ops/get-started/removed-deprecated-features-home-page.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
                 - name: Pašalintos arba nebenaudojamos platformos funkcijos
                   href: get-started/removed-deprecated-features-platform-updates.md
@@ -392,10 +390,12 @@
                       href: user-interface/client-disconnected.md
                     - name: Tik paketo ir tik interaktyvių AOS mazgų konfigūravimas vietinėse įdiegtyse
                       href: deployment/onprem-batchonly.md
-                    - name: Didelio SQL serverio ataskaitų tarnybos (SSRS) mazgų pasiekiamumo konfigūravimas
+                    - name: Didelio „SQL Server Reporting Services“ (SSRS) mazgų pasiekiamumo konfigūravimas
                       href: deployment/onprem-SSRSHA.md
                     - name: Vietinių aplinkų tarpinių serverių konfigūravimas
                       href: deployment/onprem-reverseproxy.md
+                    - name: Tinklo spausdinimo įrenginių diegimas vietinėse aplinkose
+                      href: analytics/install-network-printer-onprem.md
                     - name: Vietinė diagnostika
                       href: deployment/on-premises-diagnostics.md
                     - name: Vietinė avarinio atkūrimo konfigūracija
@@ -496,6 +496,8 @@
                   href: dev-tools/configure-developer-vm.md
                 - name: 'DUK apie kūrimo ir komponavimo VM, nesuteikiančias administravimo prieigos'
                   href: sysadmin/VMs-no-admin-access.md
+                - name: Nustatyti atsisiunčiamą VHD pirmam naudojimui
+                  href: dev-tools/vhd-setup.md
                 - name: 'Vietinių aplinkų pervardijimas, kad būtų galima pasiekti „Azure DevOps“'
                   href: migration-upgrade/vso-machine-renaming.md
                 - name: Kūrimo sistemos reikalavimai
@@ -1028,6 +1030,8 @@
                   href: lifecycle-services/use-translation-service-tm.md
                 - name: „Azure DevOps“ plėtinys (viešoji peržiūros versija)
                   href: lifecycle-services/dts-devops-extension.md
+                - name: „Azure DevOps“ plėtinio mokymo programa (viešoji peržiūros versija)
+                  href: lifecycle-services/dts-ado-tutorial.md
         - name: „Microsoft Power Platform“ integravimas
           items:
             - name: Apžvalga
@@ -1506,6 +1510,8 @@
               href: ../fin-ops/get-started/recommendation-data-agnostic-testing-rsat.md
             - name: „Regression Suite Automation Tool“ (RSAT) paleidimas esant lygiagrečiam vykdymui
               href: perf-test/rsat/rsat-parallel-execution.md
+            - name: Integruoti RSAT su „Azure DevOps pipelines“
+              href: perf-test/rsat/rsat-devops-extension.md
             - name: Trikčių šalinimas
               href: perf-test/rsat/rsat-troubleshooting.md
         - name: Sprendimų išleidimas naudojant „Lifecycle Services“
@@ -1988,9 +1994,9 @@
                   href: user-interface/task-recorder-quick-reference.md
                 - name: Dokumentų ar mokymų kūrimas pagal užduočių įrašus
                   href: user-interface/task-recorder-training-docs.md
-    - name: „Dynamics 365 Supply Chain Management“
+    - name: Dynamics 365 Supply Chain Management
       href: ../../supply-chain/index.md
-    - name: „Dynamics 365 Finance“
+    - name: Dynamics 365 Finance
       href: ../../finance/index.md
-    - name: „Dynamics 365 Commerce“
+    - name: Dynamics 365 Commerce
       href: ../../commerce/index.md
