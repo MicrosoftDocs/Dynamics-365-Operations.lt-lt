@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: faaa2aa921457a3d26c2a921a856a61296192a04
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: a08128f9529e576294181bd70134b02caae54b90
+ms.sourcegitcommit: 5130446fd5327595b2d67e67cbd1b5661bb2983c
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8469819"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8648715"
 ---
 # <a name="get-started-with-planning-optimization"></a>Darbo su planavimo optimizavimu pradžia
 
@@ -40,7 +40,7 @@ Prieš įjungiant „Planning Optimization“, primygtinai rekomenduojame įvert
 
 ## <a name="availability"></a>Prieinamumas
 
-Planavimo optimizavimas šiuo metu yra pasiekiamas šiose "Azure" geografiniuose diagramuose: Jungtinės Valstijos, Kanada, Europa, Jungtinė Karalystė, Azijos Ramiojo vandenynas, Japonija ir Indija. Jei bandote įdiegti papildinį kitame geografiniame regione, LCS rodys pranešimą, nurodantį, kad šis regionas nepalaikomas. Daugiau informacijos apie "Azure" regionams ir susijusius regionus žr. ["Azure" geografiniai regionai](https://azure.microsoft.com/global-infrastructure/geographies/#geographies).
+Planavimo optimizavimas šiuo metu yra pasiekiamas šiose "Azure" geografiniuose diagramuose: Jungtinės Valstijos, Kanada, Brazilija, Europa, Jungtinė Karalystė, Azijos Ramiojo vandenynas, Japonija ir Indija. Jei bandote įdiegti papildinį kitame geografiniame regione, LCS rodys pranešimą, nurodantį, kad šis regionas nepalaikomas. Daugiau informacijos apie "Azure" regionams ir susijusius regionus žr. ["Azure" geografiniai regionai](https://azure.microsoft.com/global-infrastructure/geographies/#geographies).
 
 Turėkite omenyje, kad planavimo optimizavimas nepalaiko vietinių visuotinių „Dynamics 365 Supply Chain Management” diegimų.
 

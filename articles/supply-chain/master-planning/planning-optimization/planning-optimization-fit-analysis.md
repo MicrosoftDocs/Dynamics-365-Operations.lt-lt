@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: dccc955492d33e9e0156f2a5feb6b33387d80af3
-ms.sourcegitcommit: 6f6ec4f4ff595bf81f0b8b83f66442d5456efa87
+ms.openlocfilehash: bf63069c5f18fe67c7d7f538311853d79c0f4fe8
+ms.sourcegitcommit: 9e1129d30fc4491b82942a3243e6d580f3af0a29
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "8487648"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8649163"
 ---
 # <a name="planning-optimization-fit-analysis"></a>Planavimo optimizavimo tinkamumo analizė
 
@@ -57,7 +57,7 @@ Tolesnėje lentelėje pateikiami skirtingi rezultatai, rodomi po tinkamumo anali
 
 | Funkcija | Nurodyta problema | Paaiškinimas | Numatomas prieinamumas |
 | --- | --- | --- | --- |
-| Veiksmai | Padengimo grupės su įjungtu veiksmų skaičiavimu: _\#_ | Ši funkcija laukia patvirtinimo. Šiuo metu atliekant bendrąjį planavimą veiksmai negeneruojami, kai įjungtas planavimo optimizavimas, neatsižvelgiant į šį parametrą. Pagrindinis veiksmų tikslas yra siūlyti pakeitimus esamiems užsakymams. Įvertinkite, ar veiksmai yra aktyviai taikomi kaip jūsų verslo procesų dalis, arba, jei vėlavimo informacijos, susijusios su užsakymais, pakanka. | balandžio mėn. 2022 d. |
+| Veiksmai | Padengimo grupės su įjungtu veiksmų skaičiavimu: _\#_ | Ši funkcija laukia patvirtinimo. Šiuo metu atliekant bendrąjį planavimą veiksmai negeneruojami, kai įjungtas planavimo optimizavimas, neatsižvelgiant į šį parametrą. Pagrindinis veiksmų tikslas yra siūlyti pakeitimus esamiems užsakymams. Įvertinkite, ar veiksmai yra aktyviai taikomi kaip jūsų verslo procesų dalis, arba, jei vėlavimo informacijos, susijusios su užsakymais, pakanka. | Palaikoma |
 | Pagrindiniai kalendoriai | Kalendoriai, naudojantys pagrindinį kalendorių: _\#_ | Dabar ši funkcija yra palaikoma. | 2022 m. kovo mėn. | 
 | Paketo perdavimo kodai | Neaktyvaus pagrindinio paketo perdavimas: _\#_ | Ši funkcija laukia patvirtinimo. Šiuo metu paketo perdavimo kodai nepaisomi, kai įjungtas planavimo optimizavimas. | 2022 spalio arba vėlesnis |
 | Galimos pateikti atsargos (CTP) | Numatytieji užsakymo parametrai su pristatymo datos valdymu, nustatytu į CTP: _\#_ | Ši funkcija laukia patvirtinimo. Šiuo metu CTP nepaisoma, kai įjungtas planavimo optimizavimas, neatsižvelgiant į šį parametrą. | Spalio 2022 d. |

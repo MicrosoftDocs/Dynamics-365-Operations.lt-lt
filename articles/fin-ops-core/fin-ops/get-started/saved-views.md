@@ -2,7 +2,7 @@
 title: Įrašyti rodiniai
 description: Šioje temoje aprašoma, kaip naudotis įrašytų rodinių funkcijomis.
 author: jasongre
-ms.date: 09/13/2021
+ms.date: 04/25/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: Platform update 28
-ms.openlocfilehash: bd1b034ebb66b996e20173c2ad4f958e643f9c2e
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: e10137ff5d11ed06c32613e601e2fa7423e270ac
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065711"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644793"
 ---
 # <a name="saved-views"></a>Įrašyti rodiniai
 
@@ -45,7 +45,7 @@ Kai peržiūros yra įjungiamas aplinkoje, bet kurio puslapio viršus, palaikant
 
 Rodinių išrinkiklių esama dviejų dydžių. 
 
-- **Didelės peržiūros parinkėjai** – Puslapiai, kurie iškiliai apima sąrašo funkciją, turintį didesnius peržiūrų parinkėjus dėl kelių priežasčių. Svarbiausia nepamiršti, kad didesnis rodinių išrinkiklis reiškia tai, kad puslapių rodiniai gali apimti vartotojo nustatytus filtrus. Kadangi į rodinius įtraukti filtrai, didesnio dydžio išrinkiklis reikalingas ir todėl, kad rodinio pavadinimai dažnai yra geriausias ekrane rodomų duomenų aprašymas ir tikimasi, kad šio tipo puslapiuose vartotojai dažniau perjungs rodinius.
+- **Didelės peržiūros parinkėjai** – Puslapiai, kurie iškiliai apima sąrašo funkciją, turintį didesnius peržiūrų parinkėjus dėl kelių priežasčių. Svarbiausia, jei didesnis rodinio išrinkiklis nurodo puslapius, kuriuose rodinyje gali būti vartotojo nustatytų filtrų ir rūšiavimų. Filtrus ir rūšiavimus galima įtraukti į rodinius, todėl didesnis išrinkėjo dydis taip pat gali būti garantinis, nes rodinio pavadinimai dažniausiai yra geriausias ekrane rodomo duomenų aprašas, o tikti, kad vartotojai kas labiau pereis iš vieno rodinio į kitą šių tipų puslapiuose. Grupavimą tinklelyje taip pat galima įrašyti rodiniuose puslapyje, kuriame yra dideli rodinio parinkėjai. 
 - **Mažos peržiūros selektoriai** – Visi viso ekrano puslapiai (išskyrus darbo sritis ir ataskaitų sritis) turi mažus peržiūros selektorius, kurie pasirodo šalia puslapio aprėpties. Peržiūros šiuose puslapiuose apima tik personalizavimus, ne vartotojo nustatytus filtrus. Šiuose puslapiuose aprėptis ar įrašo plyta dažnai yra svarbiausia informacija puslapio viršuje. Mažesnis peržiūros selektoriaus dydis taip pat atspindi žemesnį perjungimo peržiūros dažnį nei tikėtinas šiuose puslapiuose. 
  
 Jei pasirenkate peržiūrėti pavadinimą, peržiūros selektorius yra atidaromas ir rodo puslapyje esamų peržiūrų sąrašą.
@@ -215,7 +215,7 @@ Dėl žinomų problemų sąrašo su įrašytomis peržiūromis, prašome žr. [K
 ### <a name="how-do-i-enable-saved-views-in-my-environment"></a>Kaip įgalinti įrašytus rodinius mano aplinkoje?
 
 > [!NOTE]
-> The **Išsaugoti vaizdai** funkcija reikalauja, kad Finansų ir operacijų personalizavimo sistema būtų įjungta. Jei suasmeninimas išjungtas visoje aplinkoje, rodiniai taip pat bus išjungti, net jei atliksite toliau nurodytus veiksmus. 
+> Įrašytų **rodinių** funkcija reikalauja įgalinti finansų ir operacijų personalizavimo sistemą. Jei suasmeninimas išjungtas visoje aplinkoje, rodiniai taip pat bus išjungti, net jei atliksite toliau nurodytus veiksmus. 
 
 Funkciją **Įrašyti rodiniai** galite įjungti ir išjungti per Funkcijų valdymą bet kurioje aplinkoje. Ją įjungus, įrašyti rodiniai bus įjungti visuose tolesniuose vartotojo seansuose.
 

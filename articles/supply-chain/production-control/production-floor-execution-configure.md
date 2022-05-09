@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 5a0ead85eaeb6b96b80716614990af8c8e5e70f7
-ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
+ms.openlocfilehash: 083f5a30323cdc813116af7462563c3b8dd5e4f5
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8384752"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644403"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>Gamybos cecho vykdymo sąsajos konfigūravimas
 
@@ -111,17 +111,67 @@ Jei norite naudoti šią funkciją, funkcijų valdymas įjunkite šią [funkcij�
 
 - *(Peržiūros versija) Ataskaita apie esamo svorio prekes iš gamybos vietos vykdymo sąsajos*
 
+### <a name="enable-the-my-day-dialog"></a>Įgalinti dialogo langą "Mano diena"
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
+<!-- KFM: preview until 10.0.27 GA -->
+
+Dialogo **lange Mano diena** darbuotojams pateikiama darbuotojų kasdieninių registracijų ir dabartinių apmokėto laiko, apmokėtų viršvalandžių, neatvykimo ir apmokėto neatvykimo balansų peržiūra.
+
+Jei norite naudoti šią funkciją, funkcijų valdymas įjunkite šią [funkciją](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
+
+- *Gamybos vietos vykdymo sąsajos rodinys „Mano diena“*
+
+### <a name="enable-teams"></a>Įgalinti komandas
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
+<!-- KFM: preview until 10.0.27 GA -->
+
+Kai tai pačiai gamybos užduočiai priskirti keli darbuotojai, jie gali sudaryti komandą. Komanda gali paskirti vieną darbuotoją kaip vadininką. Likę darbuotojai automatiškai tampa to vad vadymi asistentais. Gautai komandai užduoties būseną turi užregistruoti tik vadovas. Laiko įrašai taikomi visiems komandos nariams.
+
+Jei norite naudoti šią funkciją, funkcijų valdymas įjunkite šią [funkciją](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
+
+- *Gamybos komandos gamybos vietos vykdymo sąsajoje*
+
+### <a name="enable-additional-configuration-in-the-production-floor-execution-interface"></a>Įgalinti papildomą konfigūraciją gamybos laiko vykdymo sąsajoje
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
+<!-- KFM: preview until 10.0.27 GA -->
+
+Ši funkcija įtraukia toliau nurodytų funkcijų parametrus į gamybos laiko **vykdymo puslapio konfigūravimą**:
+
+- Automatiškai atidaryti dialogo **langą Pradėti** užduotį, kai ieška baigiama.
+- Automatiškai atidaryti ataskaitos **eigos dialogo** langą, kai ieška baigiama.
+- Iš anksto užpildyti likusį kiekį ataskaitos **eigos** dialogo lange.
+- Įgalinkite medžiagų suvartojimo koregavimus dialogo **lange Ataskaitos** eiga. (Šiai funkcijai atlikti taip pat reikia *Registruoti medžiagų suvartojimą gamybos laiko vykdymo sąsajos (ne WMS) priemonėje* .)
+- Įgalinti ieškas pagal projekto ID.
+
+Informacija apie parametrų naudojimą pateikiama toliau šioje temoje.
+
+Jei norite naudoti šią funkciją, funkcijų valdymas įjunkite šią [funkciją](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
+
+- *Papildoma konfigūracija gamybos vietos vykdymo sąsajoje*
+
+
 ## <a name="work-with-production-floor-execution-configurations"></a>Darbas su gamybos cecho vykdymo konfigūracijomis
 
 Norėdami sukurti ir prižiūrėti gamybos laiko vykdymo konfigūracijas, eikite į Gamybos **kontrolės nustatymas \>\> Gamybos vykdymas Konfigūruoti \> gamybos laiko vykdymą**. Puslapyje **Gamybos cecho vykdymo konfigūravimas** rodomas esamų konfigūracijų sąrašas. Šiame puslapyje galite atlikti toliau pateiktus veiksmus.
 
 - Pasirinkite bet kurią gamybos cecho konfigūraciją, nurodytą kairiajame stulpelyje, ir ją peržiūrėkite bei redaguokite.
-- Veiksmų **srityje** pasirinkite Naujas, kad į sąrašą būtų galima įtraukti naują konfigūraciją. Tada įveskite pavadinimą lauke **Konfigūracija**, kad identifikuotumėte naują konfigūraciją. Pavadinimas, kurį įvedate, turi būti unikalus visų konfigūracijų ir vėliau jo redaguoti negalėsite.
+- Veiksmų srityje pasirinkite Naujas **, kad** į sąrašą įtraukumėte naują konfigūraciją. Tada įveskite pavadinimą lauke **Konfigūracija**, kad identifikuotumėte naują konfigūraciją. Pavadinimas, kurį įvedate, turi būti unikalus visų konfigūracijų ir vėliau jo redaguoti negalėsite. **Į lauką** Aprašas galite pasirinktinai įvesti konfigūracijos aprašymą.
 
-Po to konfigūruokite įvairius pasirinktos konfigūracijos parametrus. Galimi šie laukai:
+Po to sukonfigūruokite įvairius pasirinktos konfigūracijos parametrus, kaip aprašyta toliau aprašytus poskyrius.
 
-- **Tik atėjus į darbą ir išėjus iš darbo** – nustatykite šią parinktį į *Taip*, norėdami sukurti supaprastintą sąsają, leidžiančią naudoti tik atėjimo ir išėjimo iš darbo funkcijas. Taip išjungsite daugelį kitų šio puslapio parinkčių. Prieš įgalindami šią parinktį, pirmiausia turite pašalinti visas eilutes iš „FastTab” **Skirtuko pasirinkimas**.
-- **Įgalinti iešką** – Nustatykite šią parinktį į *Taip*, kad į užduočių sąrašą įtrauktumėte ieškos lauką. Darbuotojai gali rasti konkrečią užduotį įvesdami užduoties ID arba rasti visas konkretaus užsakymo užduotis įvesdami užsakymo ID. Darbuotojai gali įvesti ID naudodami klaviatūrą arba nuskaitę brūkšninį kodą.
+### <a name="the-general-fasttab"></a>Bendras „FastTab“ skirtukas
+
+Šie parametrai galimi bendrajame **"** FastTab":
+
+- **Tik atėjimo ir išėjimo** iš darbo *parinktis* nustatykite šią pasirinktį norėdami sukurti supaprastintą sąsają, kuri leidžia naudoti tik atėjimo į darbą ir išėjimo iš darbo funkcijas. Šis parametras uždraus daugelį kitų šio puslapio pasirinkčių. Prieš įgalindami šią parinktį, pirmiausia turite pašalinti visas eilutes iš „FastTab” **Skirtuko pasirinkimas**.
+- **Įgalinti iešką** – nustatykite šią pasirinktį *kaip* Taip, jei į užduočių sąrašą norite įtraukti ieškos lauką. Darbuotojai gali rasti konkrečią užduotį įvesdami užduoties ID arba įvesdami užsakymo ID, gali rasti visas tam tikro užsakymo užduotis. Darbuotojai gali įvesti ID naudodami klaviatūros arba brūkšninio kodo nuskaitymą.
+- **Įgalinkite iešką pagal projekto ID** – *nustatykite* šią pasirinktį kaip Taip, norėdami įgalinti darbuotojus ieškoti pagal projekto ID (be užduoties ID ir užsakymo ID) gamybos laiko vykdymo sąsajos ieškos lauke. Šią pasirinktį galite nustatyti kaip *Taip* tik tada, kai nustatyta **parinktis** Įgalinti iešką taip *pat*.
+- **Automatiškai atidaryti pradžios dialogo langą** – *kai ši pasirinktis nustatyta kaip Taip*, užduoties pradžios dialogo langas atidaromas automatiškai, **kai** darbuotojai užduočiai ieškoti naudoja ieškos juostą.
+- **Automatiškai atidarytas ataskaitos eigos** dialogo langas – *kai ši parinktis nustatyta kaip Taip*, ataskaitos eigos dialogo langas automatiškai atidaromas, **kai** darbuotojai užduočiai rasti naudoja ieškos juostą.
+- **Įgalinti medžiagų koregavimas** – nustatykite šią pasirinktį *kaip Taip*, norėdami **įgalinti** **mygtuką Koreguoti medžiagą ataskaitų eigos** dialogo lange. Darbuotojai gali pasirinkti šį mygtuką, norėdami koreguoti užduoties medžiagų suvartojimą.
 - **Teikti kiekio ataskaitą išeinant iš darbo** – nustatykite šią parinktį į *Taip*, kad darbuotojai būtų paraginti pateikti atsiliepimų apie vykdomas užduotis prieš išeidami iš darbo. Kai parinktis nustatyta į *Ne*, darbuotojai nebus raginami.
 - **Užrakinti darbuotoją** – kai ši parinktis nustatyta į *Ne*, darbuotojai bus atjungiami iš karto jiems pateikus registraciją (pvz., naujos užduoties). Tada sąsaja grįš į prisijungimo puslapį. Kai ši parinktis nustatyta į *Taip*, darbuotojai bus prisiregistravę gamybos laiko vykdymo sąsajoje. Tačiau darbuotojas gali išsiregistruoti rankiniu būdu, kad kitas darbuotojas prisiregistruotų, kol gamybos laiko vykdymo sąsaja ir toliau veiks pagal tą patį sistemos vartotojo abonementą. Daugiau informacijos apie šių tipų paskyras žr. [Priskirti vartotojai](config-job-card-device.md#assigned-users).
 - **Naudoti faktinį registravimo laiką** – nustatykite šią parinktį į *Taip*, norėdami nustatyti kiekvienos naujos registracijos laiką į laiką, kada darbuotojas pateikė registraciją. Jei ši parinktis nustatyta į *Ne*, naudojamas prisijungimo laikas. Paprastai norėsite nustatyti šią parinktį į *Taip*, jei nustatėte parinktis **Užrakinti darbuotoją** ir (arba) **Vienas darbuotojas** į *Taip* ir jei darbuotojai dažnai būna prisijungę ilgesnį laikotarpį.
@@ -130,7 +180,17 @@ Po to konfigūruokite įvairius pasirinktos konfigūracijos parametrus. Galimi �
 - **Ekrano užrakto trukmė** – kai parinktis **Leisti užrakinti jutiklinį ekraną** nustatyta į *Taip*, naudokite šią parinktį norėdami nurodyti, kiek sekundžių jutiklinis ekranas bus išjungtas, kad būtų galima jį nuvalyti. Trukmė turi būti nuo 5 iki 120 sekundžių.
 - **Generuoti numerio lentelę** – nustatykite šią *pasirinktį* kaip Taip, norėdami sugeneruoti naują numerio lentelę kiekvieną kartą, kai darbuotojas naudoja gamybos laiko vykdymo sąsają, kad ataskaitoje būtų baigta. Numerio lentelėje nurodytas numeris generuojamas naudojant skaičių seką, kuri nustatyta puslapyje **Sandėlio valdymo parametrai**. Kai ši parinktis nustatyta į *Ne*, darbuotojai turi nurodyti esamą numerio lentelę pranešdami apie baigtą užduotį.
 - **Spausdinti** žymą – nustatykite šią pasirinktį *kaip* Taip, norėdami išspausdinti numerio lentelės žymę, kai darbuotojas naudoja gamybos laiko vykdymo sąsają ataskaitoje kaip baigtai. Žymos konfigūracija nustatoma dokumento maršruto planavimo dalyje, kaip nurodyta [Numerio lentelės žymų dokumentų maršrutų planavimo maketas](../warehousing/document-routing-layout-for-license-plates.md).
-- **Skirtuko pasirinkimas**  – Naudokite nustatymus šiame skyriuje, kad pasirinktumėte, kurie skirtukai turi būti rodomi gamybos aukšto vykdymo sąsajoje, kai esama konfigūracija įjungta. Galite sukurti tiek skirtukų, kiek jums reikia ir tada įtraukti bei organizuoti juos kaip norite. Dėl informacijos, kaip sukurti skirtukus ir dirbti su nustatymais čia, žr. [Kurti gamybos aukšto vykdymo sąsają](production-floor-execution-tabs.md).
+
+### <a name="the-tab-selection-fasttab"></a>Skirtuko pasirinkimo "FastTab"
+
+Naudokite skirtuko pasirinkimo " **FastTab"** parametrus, norėdami pasirinkti, kuriuos skirtukus gamybos laiko vykdymo sąsaja turėtų rodyti, kai dabartinė konfigūracija yra aktyvi. Galite projektuoti tiek skirtukų, kiek jums reikia, o tada, naudodami "FastTab" įrankių juostos mygtukus, juos pridėti ir išdėstyti taip, kaip jums reikia. Daugiau informacijos apie tai, kaip kurti skirtukus ir dirbti su čia parametrais, [ieškokite Gamybos laiko vykdymo sąsajos kūrimas](production-floor-execution-tabs.md).
+
+### <a name="the-report-progress-fasttab"></a>Ataskaitos eigos "FastTab"
+
+Šie parametrai galimi ataskaitos eigos **"** FastTab":
+
+- **Įgalinti koregavimo medžiagą** – nustatykite šią pasirinktį *kaip Taip*, norėdami įtraukti **mygtuką** Koreguoti medžiagą į **ataskaitos eigos** dialogo langą. Darbuotojai gali pasirinkti šį mygtuką, norėdami koreguoti užduoties medžiagų suvartojimą.
+- **Numatytasis likęs** kiekis – nustatykite šią pasirinktį *kaip* Taip, jei norite iš anksto užpildyti numatomą likusį gamybos užduoties **kiekį ataskaitos eigos dialogo** lange.
 
 ## <a name="clean-up-job-configurations"></a>Užduočių konfigūracijų valymas
 

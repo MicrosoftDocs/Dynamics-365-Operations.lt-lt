@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-02-18
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 4eb8f6aee50d74127ecc816af691a96bb1d8966b
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: bb837a38485bad2b9b76a5e4f20d311c0281e192
+ms.sourcegitcommit: 1050e58e621d9a0454895ed07c286936f8c03320
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8469148"
+ms.lasthandoff: 04/21/2022
+ms.locfileid: "8625428"
 ---
 # <a name="planning-with-negative-on-hand-quantities"></a>Planavimas, kai turimi kiekiai neigiami
 
@@ -75,7 +75,7 @@ Rezultatas yra suplanuotas 25 vnt. užsakymas (= 25 vnt. &minus; 0 vnt.), kad
 
 ## <a name="planning-when-there-is-a-reservation-against-negative-on-hand-inventory"></a>Planavimas, kai yra rezervavimas dėl neigiamų turimų atsargų
 
-Jeigu atsargas koreguojate, kai yra faktinių rezervavimų, galite sukelti situaciją, kai užsakymas faktiškai rezervuojamas prieš neigiamas atsargas. Tokiu atveju, kadangi yra faktinis rezervavimas, Planavimo optimizavimas daro prielaidą, kad jį palaiko turimos atsargos, net jei turimų atsargų gavimas dar neužregistruotas sistemoje. Todėl daroma prielaida, kad papildymas nėra reikalingas ir nesukuriamas suplanuotas užsakymas užsakymo kiekiui papildyti.
+Jeigu atsargas koreguojate, kai yra faktinių rezervavimų, galite sukelti situaciją, kai užsakymas faktiškai rezervuojamas prieš neigiamas atsargas. Tokiu atveju, kadangi yra fizinis rezervavimas, turite turėti tiekimą, kad padengtumėte rezervuotą kiekį. Todėl reikia papildyti, todėl sistema sukurs suplanuotą užsakymą, kad papildytų kiekį, kurio negalima padengti esamomis turimomis atsargomis, arba padengtų jį esamu prekės užsakymu.
 
 Toliau pateiktas pavyzdys iliustruoja šį scenarijų.
 
@@ -88,7 +88,7 @@ Sistema konfigūruota tokiu būdu:
 - Pardavimo užsakymą sudaro *10* vnt. kiekiui. produkto *FG*.
 - Pardavimo užsakymo kiekis faktiškai rezervuojamas pagal esamas turimas atsargas.
 
-Tada galite koreguoti produkto *FG* kiekį, kad turimos atsargos taptų 0 (nulinės). Kadangi turimos produkto atsargos yra nulinės, pardavimo užsakymo kiekis dabar rezervuojamas neigiamoms atsargoms. Tačiau jei paleisite pagrindinį planavimą dabar, nebus sukurtas joks suplanuotas užsakymas, kuris tiekia pardavimo užsakymą, kadangi Planavimo optimizavimas padarys prielaidą, kad yra reikiamų turimų atsargų, kurios reikalingos faktiniui rezervavimui pateikti.
+Tada sureguliuokite produkto *FG* kiekį taip, kad turimos atsargos taptų 5. Kadangi turimų prekių atsargos yra 5, pardavimo užsakymo kiekis dabar rezervuojamas pagal kiekį, kurio nėra turimose (būtų panašiai, jei turimų prekių būtų 0, tokiu atveju pardavimo užsakymas būtų rezervuotas pagal neigiamas atsargas). Jei bendrąjį planavimą vykdysite dabar, pardavimo užsakymui pateikti bus sukurtas suplanuotas FG *kiekio 5 užsakymas, nes planavimo optimizavimas visada naudos esamą tiekimą arba sukurs naują suplanuotą užsakymą faktiniam* rezervavimui pateikti.
 
 ## <a name="related-resources"></a>Susiję ištekliai
 

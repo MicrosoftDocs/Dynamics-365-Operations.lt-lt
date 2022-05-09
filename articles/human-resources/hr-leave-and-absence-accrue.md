@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7f765e7cfd97170bd144dfff12c18ced96e3332a
-ms.sourcegitcommit: d67f7edaf1a50077c2a7dd105e774f86fc586495
-ms.translationtype: MT
+ms.openlocfilehash: 3c9b9602e5c219be5756f5987b0497f2ce5c269d
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/02/2022
-ms.locfileid: "8533718"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644308"
 ---
 # <a name="accrue-leave-and-absence-plans"></a>Sukauptų atostogų ir neatvykimų planai
 
@@ -105,8 +105,10 @@ Naikinkite konkretaus plano ir datų intervalo kaupimo įrašus. Kaupimo data tu
 **Atostogų kaupimo auditas** rodomas kaskart, kai vykdote arba naikinate vieno ar visų darbuotojų kaupimą. Taip pat rodoma data ir asmuo, atlikęs veiksmą.
 
 1. Puslapyje **Atostogos ir neatvykimai** pasirinkite skirtuką **Saitai**.
-
 2. Dalyje **Valdyti atostogų laiką** pasirinkite **Naikinti atostogų kaupimo auditą**.
+
+## <a name="leave-accrual-rounding"></a>Atostogų skaičiavimo apvalinimas
+Kai darbuotojas yra įtrauktas arba neateina į algalapį, atostogų kaupimo apvalinimas bus prorated. Anksčiau apvalinimas buvo leidžiamas tik tada, kai atostogų planas buvo nustatytas kaip prorate, o darbuotojas vidurio laikotarpio metu buvo įtrauktas/neužregistruotas. Dabar atostogų kaupimas bus apvalinamas nepaisant registracijos/išėjimo iš darbo laikotarpio vidurio ar laikotarpio pradžioje.
 
 ## <a name="leave-accrual-transaction-auditing"></a>Atostogų kaupimo operacijos tikrinimas
 

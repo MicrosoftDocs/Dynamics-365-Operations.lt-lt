@@ -1,6 +1,6 @@
 ---
 title: Elektroninis SF išrašymas Egipto
-description: Šioje temoje pateikiama informacija, kuri padės jums pradėti nuo Elektroninio SF išrašymo Egipto Microsoft ir Programoje Dynamics 365 Finance Dynamics 365 Supply Chain Management.
+description: Šioje temoje pateikiama informacija, kuri padės jums pradėti nuo elektroninio SF išrašymo Egipto Microsoft Dynamics 365 finansuose ir Dynamics 365 Supply Chain Management.
 author: gionoder
 ms.date: 02/09/2022
 ms.topic: article
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 6fe1dd4254db8b390c17558320a6eaff2b0dcd19
-ms.sourcegitcommit: ffdb6794746ffe5461f9dcf34ed8e64976d22d2d
+ms.openlocfilehash: e21c4ce4d676c3194665672a078dc1e3d0492799
+ms.sourcegitcommit: 5f7177b9ab192b5a6554bfc2f285f7cf0b046264
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "8371361"
+ms.lasthandoff: 04/30/2022
+ms.locfileid: "8661728"
 ---
 # <a name="electronic-invoicing-for-egypt"></a>Elektroninis SF išrašymas Egipto
 
@@ -38,11 +38,11 @@ Prieš pradėdami šioje temoje nurodytas procedūras, atlikite šiuos būtinuos
 - Registruoti RCS ir nustatyti elektroninių SF išrašymą. Daugiau informacijos ieškokite šiose temose:
 
     - [Registruotis ir diegti elektroninių SF išrašymo paslaugą](e-invoicing-sign-up-install.md)
-    - [Nustatyti "Azure" išteklius elektroninėms SF išrašyti](e-invoicing-set-up-azure-resources.md)
-    - [Diekite priedą mikro paslaugoms „Lifecycle Services“](e-invoicing-install-add-in-microservices-lcs.md)
+    - [Elektroninių SF išrašymo „Azure“ išteklių nustatymas](e-invoicing-set-up-azure-resources.md)
+    - [Įdiekite priedą, skirtą „Lifecycle Services“ mikro paslaugoms](e-invoicing-install-add-in-microservices-lcs.md)
     
-- Suaktyvinkite jūsų "Microsoft" ar programos Dynamics 365 Finance Dynamics 365 Supply Chain Management ir elektroninių SF išrašymo tarnybos integravimą, kaip aprašyta integravimo su elektroninių [SF išrašymu aktyvavimas ir nustatymas](e-invoicing-activate-setup-integration.md).
-- Sukurkite skaitmeninio sertifikato slaptą "Azure Key Vault" ir nustatykite jį taip, kaip aprašyta klientų [sertifikatuose ir paslapčių aprašuose](e-invoicing-customer-certificates-secrets.md). Tikrinimo tikslais Egipto mokesčių inspekcija pateikia specialius tikrinimo skaitmeninius sertifikatus, kuriuos reikia naudoti tik tikrinimo ir sprendimo tikrinimo etapų metu. Norėdami gauti daugiau informacijos, eikite į Egipto mokesčių inspekcijos svetainę naudodami [saitą, pateiktą Egipto el. SF išrašymo SDK](https://sdk.sit.invoicing.eta.gov.eg/faq/).
+- Aktyvinti jūsų Microsoft Dynamics 365 finansų Dynamics 365 Supply Chain Management [ar programos ir elektroninių SF išrašymo paslaugos integravimą, kaip aprašyta Aktyvinti ir nustatyti integravimą su elektroninių SF išrašymu](e-invoicing-activate-setup-integration.md).
+- Sukurkite skaitmeninio sertifikato slaptą "Azure Key Vault" ir nustatykite jį taip, kaip aprašyta klientų [sertifikatuose ir paslapčių aprašuose](e-invoicing-customer-certificates-secrets.md). Tikrinimo tikslais Egipto mokesčių inspekcija pateikia specialius tikrinimo skaitmeninius sertifikatus, kuriuos reikia naudoti tik tikrinimo ir sprendimo tikrinimo etapų metu. Norėdami gauti daugiau informacijos, eikite į Egipto mokesčių inspekcijos svetainę naudodami [saitą, pateiktą Egipto el. SF išrašymo SDK](https://sdk.invoicing.eta.gov.eg/faq/).
 
 ## <a name="country-specific-configuration-for-the-egyptian-electronic-invoice-eg-feature"></a>Šaliai skirta Egipto elektroninės SF (EG) priemonės konfigūracija
 
@@ -56,7 +56,7 @@ Kai kurie Egipto elektroninės SF **(EG)** elektroninių SF išrašymo priemonė
 6. Pardavimo galimybių **apdorojimo** skirtuko dalyje Apdorojimo **galimybės pasirinkite** Pasirašyti **json dokumentą Egipto mokesčių inspekcijai**.
 7. Parametrų **skyriuje** pasirinkite Sertifikato **pavadinimas**, tada pasirinkite sukurto skaitmeninio sertifikato pavadinimą.
 8. Pardavimo galimybių **apdorojimo skyriuje** pasirinkite Integruoti **su Egipto ETA tarnyba**. Pakartokite šį veiksmą dviem šio veiksmo pasikartojimais.
-9. Parametrų **skyriuje** pasirinkite tinklo tarnybos **URL ir** registravimosi **tarnybos URL**. Tada peržiūrėkite URL parametrus. Norėdami gauti tikrinimo ir gamybos URL, [eikite į Egipto mokesčių inspekcijos svetainę naudodami saitą, pateiktą Egipto el. SF išrašymo SDK](https://sdk.sit.invoicing.eta.gov.eg/faq/).
+9. Parametrų **skyriuje** pasirinkite tinklo tarnybos **URL ir** registravimosi **tarnybos URL**. Tada peržiūrėkite URL parametrus. Norėdami gauti tikrinimo ir gamybos URL, [eikite į Egipto mokesčių inspekcijos svetainę naudodami saitą, pateiktą Egipto el. SF išrašymo SDK](https://sdk.invoicing.eta.gov.eg/faq/).
 10. Pasirinkite **Išsaugoti** ir uždarykite puslapį.
 11. Norėdami nustatyti projekto SF išvestą priemonę pakartokite **4–** 10 žingsnius.
 

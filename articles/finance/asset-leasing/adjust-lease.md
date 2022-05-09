@@ -2,7 +2,7 @@
 title: Nuomos koregavimas
 description: Šioje temoje paaiškinama, kaip koreguoti nuomą. Koreguoti gali reikėti, jei pakeičiamos nuomos sąlygos, nuoma pratęsiama arba pasikeičia kitos aplinkybės.
 author: moaamer
-ms.date: 10/28/2020
+ms.date: 03/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 1016b69fd59bbe90924996f5c931cb5d0f779253de66f5f3821a8c3001d3313b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: MT
+ms.openlocfilehash: 7d7151c28d124420638dc4e69a8ab5359ecf443c
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6729659"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644561"
 ---
 # <a name="adjust-leases"></a>Nuomos koregavimas
 
@@ -134,5 +134,19 @@ Jei nuoma buvo pakoreguota, galite peržiūrėti skirtingas jos versijas. Taip p
 2. Norėdami peržiūrėti istorinius grafikus, atidarykite pakeistą nuomą puslapyje **Nuomos suvestinė**, pasirinkite norimą knygą, tada veiksmų srityje pasirinkite **Knygos versijų retrospektyva**.
 3. Puslapyje **Knygos versija** rinkitės versiją ir nustatyti rodinio grafiką.
 
+## <a name="adjust-a-lease-book"></a>Nuomos knygos koregavimas
+
+Atlikite šiuos veiksmus, kad pakoreguotumėte tik nuomos knygą.
+
+1. Eikite į **Turto lizingo** \> **nuomos nuomos** \> **santrauką**.
+2. Pasirinkite ir atidarykite nuomą.
+3. **Puslapyje Išsami nuomos informacija** pasirinkite **Knygos**.
+4. **Puslapio Išsami knygos informacija** veiksmų srities grupėje Prižiūrėti **pasirinkite** **Koreguoti knygą**. 
+5. Pašalinkite mokėjimo grafiko eilutes.
+6. Lauke **Nuomos modifikavimo data** įveskite modifikavimo datą. Tada apsvarstykite galimybę pašalinti visus papildomus turto / įsipareigojimų aspektus (pradines tiesiogines išlaidas, nuomos paskatas, nuomos išankstinį apmokėjimą, išmontavimo išlaidas ir likutinės vertės garantiją), jei tokių yra. 
+7. Kad išvengtumėte netikslių nuomos koregavimo skaičiavimų, įtraukite naujas mokėjimo grafiko eilutes naujoms mokėjimo datoms, atitinkančioms modifikavimo datą. 
+
+> [!NOTE] 
+> Rekomenduojame naudoti nuomos koregavimo **vedlį** nuomai koreguoti. Vedlys sumažina neautomatinių veiksmų skaičių, pateikia balansų peržiūrą po koregavimo ir leidžia keisti sumas prieš registruojant.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

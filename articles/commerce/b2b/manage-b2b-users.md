@@ -2,7 +2,7 @@
 title: Valdykite verslo partnerio vartotojus B2B el. komercijos svetainėse
 description: Šioje temoje aprašoma, kaip įtraukti, Microsoft Dynamics 365 Commerce naikinti ir redaguoti verslo partnerio vartotojus "Business-To-Business" (B2B) el. komercijos žiniatinklio svetainėse ir "Commerce Headquarters".
 author: josaw1
-ms.date: 02/17/2022
+ms.date: 04/19/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: def8d4de082ceb4be77ed7e8898cbef82d52b749
-ms.sourcegitcommit: 68114cc54af88be9a3a1a368d5964876e68e8c60
-ms.translationtype: MT
+ms.openlocfilehash: c2fb4846a8457296a2ce758198ade5f4b0df8124
+ms.sourcegitcommit: 96e2fb26efd2cd07bbf97518b5c115e17b77a0a8
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323460"
+ms.lasthandoff: 04/20/2022
+ms.locfileid: "8616862"
 ---
 # <a name="manage-business-partner-users-on-b2b-e-commerce-websites"></a>Valdykite verslo partnerio vartotojus B2B el. komercijos svetainėse
 
@@ -28,7 +28,8 @@ ms.locfileid: "8323460"
 Šioje temoje aprašoma, kaip įtraukti, Microsoft Dynamics 365 Commerce naikinti ir redaguoti verslo partnerio vartotojus "Business-To-Business" (B2B) el. komercijos žiniatinklio svetainėse ir "Commerce Headquarters".
 
 > [!NOTE]
-> B2B [verslo partnerių valdymas, naudojant klientų hierarchijų](partners-customer-hierarchies.md) temą, yra šio dokumento būtina sąlyga. 
+> - B2B [verslo partnerių valdymas, naudojant klientų hierarchijų](partners-customer-hierarchies.md) temą, yra šio dokumento būtina sąlyga.
+> - Įsitikinkite, kad inicijuojate dokumentų tipų objektą "Commerce Headquarters", atidarydami **·** **formą Dokumentų tipai organizacijos administravimo dokumentų \> valdymo dokumentų \> tipuose**.
 
 B2B el. komercijos svetainėms reikia, kad organizacijos registruotųsi siekiant tapti verslo partneriais. Kai organizacija pateikia registracijos informaciją B2B el. komercijos svetainei, registracijos užklausa vyksta kvalifikacijos procese. Jei organizacija yra sėkmingai kvalifikuota, ji yra įtraukiama kaip verslo partneris.
 
@@ -93,7 +94,7 @@ Norėdami redaguoti verslo partnerio vartotojų išsamią informaciją, vadovauk
 Kaip būtina, administratorius gali pašalinti esančius verslo partnerio organizacijos vartotojus iš vartotojų sąrašo, kurie gali prieiti prie B2B el. komercijos svetainės.
 Norėdami pašalinti verslo partnerio vartotoją, vadovaukitės šiais žingsniais.
 - Prisijunkite prie B2B el. komercijos svetainės kaip administratorius.
-- Eikite **į Dalį Mano > organizacijos vartotojų \>** peržiūrėti informaciją ir pasirinkite mygtuką **Pašalinti** ("X" simbolis). Pasirodžius patvirtinimo pranešimui, tvirtinkite, kad norite pašalinti vartotoją. Pakeitimas įsigalioja tik po to, kai P-0001 **,** sinchronizuoti klientų ir kanalų užklausas ir **1010 (klientų)** užduotys yra **paleistos**.
+- Eikite **į Mano sąskaitos > organizacijos vartotojų \>** informacijos ir pasirinkite mygtuką **Pašalinti** ("X" simbolis). Pasirodžius patvirtinimo pranešimui, tvirtinkite, kad norite pašalinti vartotoją. Pakeitimas įsigalioja tik po to, kai P-0001 **,** sinchronizuoti klientų ir kanalų užklausas ir **1010 (klientų)** užduotys yra **paleistos**.
 
 > [!NOTE]
 > Jums pašalinus vartotoją iš vartotojų sąrašo, kurie gali prieiti prie B2B el. komercijos svetainės, atitinkamas kliento įrašas yra pašalinamas iš kliento partnerio kliento hierarchijos įrašo. Nepaisant to, kliento įrašas nėra panaikinamas iš „Commerce“ būstinės.
@@ -129,7 +130,7 @@ Norėdami įtraukti verslo partnerius ir vartotojus tiesiai „Commerce“ būst
 
 [B2B el. prekybos svetainės nustatymas](set-up-b2b-site.md)
 
-[Valdyti B2B verslo partnerius naudojant klientų hierarchijas](partners-customer-hierarchies.md)
+[B2B verslo partnerių valdymas naudojant klientų hierarchijas](partners-customer-hierarchies.md)
 
 [Konfigūruoti kliento sąskaitos mokėjimo metodą B2B el. komercijos saitams](payment-method.md)
 

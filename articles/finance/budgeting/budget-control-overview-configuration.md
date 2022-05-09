@@ -2,7 +2,7 @@
 title: Biudžeto kontrolės apžvalga
 description: Šioje temoje pristatyta biudžeto kontrolės funkcija ir pateikiama informacija, kuri padės jums sukonfigūruoti biudžeto kontrolę, skirtą optimizuoti jūsų organizacijos finansinių išteklių valdymą.
 author: panolte
-ms.date: 11/08/2021
+ms.date: 03/28/2022
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 14b852bb4aeca927adeeb2665b9887e467b71158
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
-ms.translationtype: MT
+ms.openlocfilehash: 7019b3546b83047e91fa129d8d92f209f131c993
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7986061"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644855"
 ---
 # <a name="budget-control-overview"></a>Biudžeto kontrolės apžvalga
 
@@ -31,7 +31,7 @@ ms.locfileid: "7986061"
 
 Šioje temoje pristatyta biudžeto kontrolės funkcija ir pateikiama informacija, kuri padės jums sukonfigūruoti biudžeto kontrolę, skirtą optimizuoti jūsų organizacijos finansinių išteklių valdymą.
 
-Biudžeto kontrolė palaiko organizacijos finansinių išteklių valdymą naudodama sąskaitų planą, darbo eigas, vartotojų grupes, šaltinio dokumentus ir žurnalus, konfigūruojamą turimų lėšų skaičiavimą, biudžeto ciklus ir ribines reikšmes. Kai naudojami valdikliai, organizacija gali planuoti, matuoti, valdyti ir prognozuoti savo finansinių metų finansinius išteklius. 
+Biudžeto kontrolė palaiko organizacijos finansinių išteklių valdymą sąskaitų planas, darbo eiga, vartotojų grupės, šaltinio dokumentai ir žurnalai, konfigūruojamas galimų lėšų skaičiavimas, biudžeto ciklai ir ribinės vertės. Kai naudojami valdikliai, organizacija gali planuoti, matuoti, valdyti ir prognozuoti savo finansinių metų finansinius išteklius. 
 
 Patvirtinus biudžetus sistemoje, galite naudoti biudžeto planus generuoti biudžeto registro įrašams, jei norite įrašyti organizacijos biudžeto išlaidas. Kitu atveju, galite sukurti biudžeto registro įrašus ar importuoti juos iš trečiosios šalies programos nenaudodami biudžeto planavimo funkcijos. 
 
@@ -78,9 +78,11 @@ Toliau skirtuke **Biudžeto viršijimo teisės** galite nurodykite vartotojų gr
 Toliau skirtuke **Turimos biudžeto lėšos** galite nustatyti formulę, naudojamą turimoms biudžeto lėšoms apskaičiuoti. Atsižvelgiant į tai, kaip konservatyviai organizacija valdo savo finansinius išteklius, arba pagal taisykles ir pramoninius reikalavimus, į skaičiavimą gali būti įtraukti juodraštiniai arba neužregistruoti dokumentai. 
 
 > [!NOTE]
-> Jei skaičiavimas modifikuojamas biudžeto ciklo metu, pakeitimai neturės įtakos jokiams dokumentams, kurie anksčiau atliko biudžeto kontrolės patikrinimus ir buvo užregistruoti arba baigti. Naudojant funkciją, kuri pavadinta Tik sekimo sumos, galimų biudžeto lėšų apskaičiavime galima keisti duomenis, kurie duomenys sekami **budgetSourceTracking** lentelėse. Kai ši funkcija įjungta, sumos saugomos tik tada, jei jos yra pasirinktos naudoti galimame biudžeto lėšų skaičiavime. Daugiau informacijos rasite [turimas biudžeto lėšas](budget-funds-available.md).
+> Jei skaičiavimas modifikuojamas biudžeto ciklo metu, pakeitimai neturės įtakos jokiams dokumentams, kurie anksčiau atliko biudžeto kontrolės patikrinimus ir buvo užregistruoti arba baigti. Naudojant funkciją, kuri pavadinta **Tik** sekimo sumos, galimų biudžeto lėšų apskaičiavime galima keisti duomenis, kurie duomenys sekami budgetSourceTracking lentelėse. Kai ši funkcija įjungta, sumos saugomos tik tada, jei jos yra pasirinktos naudoti galimame biudžeto lėšų skaičiavime. Daugiau informacijos rasite turimas [biudžeto lėšas](budget-funds-available.md).
 
-Toliau skirtuke **Dokumentai ir žurnalai** galite pasirinkti, kuriems šaltinio dokumentams ir žurnalams bus taikomi biudžeto kontrolės patikrinimai, ir tai, ar bus tikrinama eilutės įrašo ar viso dokumento lygiu. 
+### <a name="documents-and-journals"></a>Dokumentai ir žurnalai
+
+Skirtuke **Dokumentai ir žurnalai** galite pasirinkti, kuriems šaltinio dokumentams ir žurnalams bus taikomi biudžeto kontrolės tikrinimai ir ar čekiai bus atliekami eilutės įrašo lygiu ar visame dokumente. Be to, nauja biudžeto kontrolės dokumentų filtravimo patobulinimo priemonė, **·** Microsoft Dynamics kuri yra pagal 365 finansų 10.0.27 versiją, pateikia užklausa pagrįstą filtro pasirinktį kiekvienam dokumentui, kuris įtrauktas į biudžeto kontrolę. Todėl galite nurodyti, kurių biudžeto kontrolės dokumentų biudžetas tikrinamas. Tokiu būdu priemonė įgalina tikrinti tik dokumento tipo subgrupį. Pavyzdžiui, galite patikrinti tik pirkimo užsakymus, kurių **telkinio** laukas nustatytas kaip **01**. Naujas stulpelis, kuris įtrauktas į dokumentų **ir žurnalų** skirtuką, nurodo, ar pasirinktam dokumentų tipui nustatyta užklausa. Be to, du nauji mygtukai, įtraukti į įrankių juostą virš dokumentų tinklelio, leidžia pridėti, redaguoti arba naikinti filtravimą. 
 
 Turite sugretinti šaltinio dokumentus, kurių žymės langeliai pažymėti balansams, įtraukiamiems į turimų biudžeto lėšų skaičiavimą. Pavyzdžiui, jei pasirinkote **Biudžeto rezervavimai**, turite pasirinkti pasirinktį **Pirkimo užsakymai**. Atlikus pirkimo eilutės sumoms ir sąskaitoms taikomą biudžeto patikrą, rezervavimui priskiriama biudžeto kontrolės kategorija **Biudžeto rezervavimas**. Atlikus pirkimo paraiškos sumoms ir sąskaitoms taikomą biudžeto patikrą, rezervavimui priskiriama biudžeto kontrolės kategorija **Preliminarus biudžeto rezervavimas**. 
 

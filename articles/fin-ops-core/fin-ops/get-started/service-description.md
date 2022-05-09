@@ -1,28 +1,28 @@
 ---
-title: Programėlių paslaugos „Finance and Operations“ aprašas
-description: Šioje temoje pateikiamas programėlių paslaugos „Finance and Operations“ aprašas.
+title: Finansų ir operacijų programėlių paslaugos aprašas
+description: Šioje temoje pateikiamas finansų ir operacijų programėlių paslaugos aprašymas.
 author: tomhig
-ms.date: 01/05/2022
+ms.date: 04/27/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
 ms.search.region: Global
 ms.author: whigginb
 ms.search.validFrom: 2021-09-03
-ms.openlocfilehash: 85f82a863f0bde4c0414760fa2477651242538f2
-ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
-ms.translationtype: MT
+ms.openlocfilehash: cd033cfc3df21ddac5572aa70c18db5ffe26f54e
+ms.sourcegitcommit: 0abc777986112ea2332f5bf0e815b303b952356c
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/10/2022
-ms.locfileid: "7952371"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "8656809"
 ---
-# <a name="service-description-for-finance-and-operations-apps"></a>Programėlių paslaugos „Finance and Operations“ aprašas
+# <a name="service-description-for-finance-and-operations-apps"></a>Finansų ir operacijų programėlių paslaugos aprašas
 
 [!include[banner](../includes/banner.md)]
 
-„Finance and Operations“ programos yra įmonės išteklių planavimo (ERP) programinė įranga kaip paslaugos (SaaS) pasiūlymai, kuriami ir kuriami [Microsoft Azure](https://azure.microsoft.com/overview/what-is-azure/). Tarnyba suteikia organizacijoms ERP funkcijas, kurios palaiko savo unikalius reikalavimus ir padeda joms koreguoti, norint pereiti keisti verslo aplinkas ir nereikalauti, kad „Finance and Operations“ jos valdytų infrastruktūrą. „Finance and Operations“ programos gali apimti vieną ar daugiau iš šių sprendimo sričių:
+Finansų ir operacijų programos yra įmonės išteklių planavimo (ERP) programinė įranga kaip paslauga (SaaS) siūlymas, kuriam kuriamas ir kuriamas [Microsoft Azure](https://azure.microsoft.com/overview/what-is-azure/). Finansų ir operacijų tarnyba suteikia organizacijoms ERP funkcijas, kurios palaiko savo unikalius reikalavimus ir padeda joms koreguoti, pereidama prie verslo aplinkos keitimo, nereikalaudama, kad jos valdytų infrastruktūrą. Finansų ir operacijų programėles gali sudaryti viena arba daugiau iš šių sprendimų sričių:
 
-- [„Dynamics 365 Finance“](/dynamics365/finance/)
+- [Dynamics 365 Finance](/dynamics365/finance/)
 - [„Dynamics 365 Human Resources“](/dynamics365/human-resources/)
 - [„Dynamics 365 Supply Chain Management“](/dynamics365/supply-chain/)
 - [„Dynamics 365 Commerce“](/dynamics365/commerce/)
@@ -32,25 +32,25 @@ Kartu su [verslo sumanumu](/power-bi/fundamentals/power-bi-service-overview), [i
 
 - Sukurta [personalizavimo patirties](personalize-user-experience.md)
 - [„Microsoft Power Platform“](../../dev-itpro/power-platform/overview.md) įrankiai
-- [„Visual Studio“](https://visualstudio.microsoft.com)– programinės [„Finance and Operations“ įrangos kūrimo rinkinys (SDK)](../../dev-itpro/dev-tools/developer-home-page.md) ir [Azure DevOps“ automatizavimas](../../dev-itpro/dev-tools/developer-home-page.md#build-automation-using-azure)
+- [Visual Studio](https://visualstudio.microsoft.com)– remiantis finansų [ir operacijų programinės įrangos kūrimo rinkiniu (SDK) ir](../../dev-itpro/dev-tools/developer-home-page.md) automatizavimu [Azure DevOps sukurti automatizavimą](../../dev-itpro/dev-tools/developer-home-page.md#build-automation-using-azure)
 - Nepriklausomo programinės įrangos tiekėjo (ISV) sprendimai nuo [„AppSource“](https://appsource.microsoft.com/partners)
 
 Priklausomai nuo reikalavimų, klientai pasirenka būdą, kaip sprendimas. Jie dirba su savo diegimo partneriu, kad nustatytų, vystytų ir išbandykite savo sprendimą, naudodami įrankius ir geriausią [„Microsoft Dynamics“ „Lifecycle Services“ (LCS) pateiktą praktiką](../../dev-itpro/lifecycle-services/lcs.md). Yra keturi įbendrieji scenarijai:
 
-- Standartinės „Finance and Operations“ programos, kurių konfigūracija „nepaeis į dėžę" (nėra plėtinių)
-- „Finance and Operations“ programėlių konfigūracija, kurioje yra vienas ar daugiau ISV sprendimų
-- „Finance and Operations“ programėlių konfigūracija, kurioje yra vienas ar daugiau klientui skirtų plėtinių
-- „Finance and Operations“programėlių konfigūracija, kurioje yra klientui skirtų plėtinių ir vieno ar daugiau ISV sprendimų derinys
+- Standartinės finansų ir operacijų programėlės "už lango" konfigūracijos (nėra plėtinių)
+- Finansų ir operacijų programėlių konfigūracija, kurioje yra vienas ar daugiau ISV sprendimų
+- Finansų ir operacijų programėlių konfigūracija, kurioje yra vienas arba daugiau klientui skirtų plėtinių
+- Finansų ir operacijų programėlių konfigūracija, kurioje yra klientui skirtų plėtinių derinys ir vienas ar daugiau ISV sprendimų
 
 Organizacijos gali suderinti savo verslo augimas, lengvai pridėdami vartotojus ir verslo procesus naudodami paprastą, skaidrų abonemento modelį. Daugiau informacijos apie šiuos pakeitimus žr. [„Dynamics 365“ licencijavimo vadove](https://www.microsoft.com/licensing/docs/view/Microsoft-Dynamics-365).
 
 ## <a name="operating-model"></a>Veikimo modelis
 
-Programėlių veikiantis modelis apibrėžia konkrečius kliento, diegimo partnerio ir „Microsoft" vaidmenis ir atsakomybę „Finance and Operations“ paslaugos gyvavimo ciklo metu. Daugiau informacijos rasite [debesies operacijos ir aptarnavimas](../../dev-itpro/lifecycle-services/cloud-operations-servicing.md).
+Finansų ir operacijų programėlių veiklos modelis apibrėžia konkrečius kliento vaidmenis ir atsakomybę, diegimo partnerį ir "Microsoft" viso aptarnavimo ciklo metu. Daugiau informacijos rasite [debesies operacijos ir aptarnavimas](../../dev-itpro/lifecycle-services/cloud-operations-servicing.md).
 
 ### <a name="customer-activities"></a>Kliento veiklos
 
-Klientai dirba su savo partneriu ir ["Microsoft FastTrack" naudodami](/dynamics365/fasttrack/)["Dynamics 365" diegimo vadovą, sistemą ir geriausios praktikos šablonus, kurie pateikiami vykdymo ciklo tarnybose, kad galėtų įdiegti](https://community.dynamics.com/365/dynamics-365-fasttrack/p/dynamics365implementationguide)[Success by Design](/dynamics365/fasttrack/success-by-design-overview) savo [sprendimą](../../dev-itpro/lifecycle-services/lcs.md). Bendros veiklos apima:
+Klientai dirba su savo partneriu [ir "Microsoft FastTrack](/dynamics365/fasttrack/)[" naudodami "Dynamics 365](https://community.dynamics.com/365/dynamics-365-fasttrack/p/dynamics365implementationguide)" diegimo vadovą, [Success by Design](/dynamics365/fasttrack/success-by-design-overview) sistemą ir geriausios praktikos šablonus, [kurie](../../dev-itpro/lifecycle-services/lcs.md) pateikiami vykdymo ciklo tarnybose, kad galėtų įdiegti savo sprendimą. Bendros veiklos apima:
 
 - Vartotojo tapatybė ir saugos valdymas
 - Verslo procesų apibrėžimas, vystimas ir veikla
@@ -61,7 +61,7 @@ Klientai dirba su savo partneriu ir ["Microsoft FastTrack" naudodami](/dynamics3
 
 ### <a name="microsoft-responsibilities"></a>„Microsoft“ atsakomybės
 
-„Microsoft" valdo tarnybą iš „Finance and Operations“ „Microsoft SaaS" abonemento dislokuoja, aktyviai stebi ir teikia klientų sandūra ir gamybos aplinkas. Šis valdymas apima reikiamos sistemos infrastruktūros paskirstymą, kad būtų galima paleisti paslaugą ir aktyviai susisiekti su klientais apie paslaugos būseną. Atsakomybės apima:
+"Microsoft" valdo finansų ir operacijų tarnybą, aktyviai stebėjimą ir aptarnavimo klientų sandūras bei gamybos aplinkas "Microsoft SaaS" abonemente. Šis valdymas apima reikiamos sistemos infrastruktūros paskirstymą, kad būtų galima paleisti paslaugą ir aktyviai susisiekti su klientais apie paslaugos būseną. Atsakomybės apima:
 
 **Infrastruktūros valdymas**
 - Sauga ir atskyrimas
@@ -79,7 +79,7 @@ Klientai dirba su savo partneriu ir ["Microsoft FastTrack" naudodami](/dynamics3
 
 ## <a name="system-configuration"></a>Sistemos konfigūracija
 
-„Finance and Operations“ programėlių skalė pagal operacijos apimtį ir vartotojo apkrovą. Kiekvienas kliento diegimas sukuria unikalų sprendimą, kurį sudaro šie elementai:
+Finansų ir operacijų programėlių svarstyklės pagal operacijų apimtį ir vartotojo krovinį. Kiekvienas kliento diegimas sukuria unikalų sprendimą, kurį sudaro šie elementai:
 
 - **Duomenų struktūra**– unikalus parametrų, kurie kontroliuoja veikimo būdą, organizacijos maketas, pagrindinių duomenų struktūra (pvz., finansinės ir atsargų dimensijos) ir operacijos sekimo detalumas.
 - **Plėtinys ir konfigūracija**– plėtinio mechanizmai, naudojantys kodo plėtinius, ISV sprendimus ir unikalias konfigūracijas, kurias sudaro darbo eigos, integracijų ir ataskaitų konfigūracijos.
@@ -89,11 +89,11 @@ Klientai dirba su savo partneriu ir ["Microsoft FastTrack" naudodami](/dynamics3
 
 - Tinkamai paskirstomi gamybos aplinkos ištekliai, remiantis kliento profiliavimo informacija [LCS abonemento įvertinme](../../dev-itpro/lifecycle-services/subscription-estimator.md)
 - Nepertraukiamas gamybos aplinkos aptarnavimo prieinamumo stebėjimas ir diagnozavimas
-- Sistemos našumo problemų analizavimas ir trikčių šalinimas naudojant „Finance and Operations“ programėles
+- Sistemos našumo problemų analizavimas ir trikčių šalinimas naudojant finansų ir operacijų programėles
 
 Kad diegimas būtų sukonfigūruotas labai našumui, klientai turi atlikti šias užduotis:
 
-- Pateikti tikslią naudojimo informaciją „Finance and Operations“ apie [LCS abonemento įvertiniatoriaus vykdymą](../../dev-itpro/lifecycle-services/subscription-estimator.md).
+- Pateikti tikslią naudojimo informaciją apie finansų ir operacijų vykdymą [LCS abonemento įvertinme](../../dev-itpro/lifecycle-services/subscription-estimator.md).
 - Sukurkite ir išbandykite našumo ir svarstyklių plėtinius.
 - Tinkamai išbandykite duomenų konfigūracijas našumui užtikrinti.
 - Prieš edami į [darbą įsitikinkite](https://community.dynamics.com/365/b/techtalks/posts/performance-testing-approach-april-30-2018) išplečiamumą ir patikrinkite našumą.
@@ -112,17 +112,17 @@ Daugiau informacijos rasite [diegimo projekto insąrangoje](../imp-lifecycle/onb
 
 ## <a name="globalization"></a>Globalizacija
 
-„Finance and Operations“ programos „Azure" programos pristatomos iš kelių „Azure" regionų visame pasaulyje. „Finance and Operations“ programos suteikia funkcijų, skirtų skirtingoms šalims / regionams ir gimtoji kalbai palaikyti. Daugiau informacijos rasite [lokalizavimo ir reguliavimo priemonės](../../dev-itpro/lcs-solutions/country-region.md#localization-and-regulatory-features).
+Finansų ir operacijų programėles galima pasiekti iš kelių "Azure" regionų visame pasaulyje. Finansų ir operacijų programėlės suteikia funkcijų, skirtų skirtingoms šalims / regionams ir gimtąsias kalbas palaikyti. Daugiau informacijos rasite [lokalizavimo ir reguliavimo priemonės](../../dev-itpro/lcs-solutions/country-region.md#localization-and-regulatory-features).
 
 ### <a name="countryregion-specific-considerations"></a>Konkrečių šalių / regionų svarstymai
 
-- Klientai, industrijos ar komercinėse organizacijose, verslus su Prancūzijos subjektais, kuriems reikia vietinių duomenų, turėtų [„Finance and Operations“ būti peržiūrimi Prancūzijoje](../../dev-itpro/deployment/france-local-deployment.md).
-- Klientai, kinijos operacijoms vykdantys operacijas, turi peržiūrėti ["Azure China" "Book"](/azure/china/)[Finance and Operations ir operuoja 21 "21" Iš](../../dev-itpro/deployment/china-local-deployment.md) Kinijos.
+- Reguliuojamųjų pramonės ar komercijos organizacijų klientai, kurie verslo veikia su Prancūzijos subjektais, kuriems reikia vietinių duomenų, turėtų [peržiūrėti Prancūzijos finansus ir operacijas](../../dev-itpro/deployment/france-local-deployment.md).
+- Klientai, kinijos operacijoms vykdantys operacijas, turi peržiūrėti " [Azure China" "Book](/azure/china/) " [ir "Finance" bei operacijas, kurias operuoja 21 Kliento programos Kinija](../../dev-itpro/deployment/china-local-deployment.md).
 - Klientai, kurie turi operacijas Rusijoje, turi peržiūrėti [Rusijos asmeninių duomenų lokalizavimo įstatymą](/business-applications-release-notes/october18/dynamics365-finance-operations/russian-regulations-on-prem#when-will-the-cloud-deployment-option-of-dynamics-365-for-finance-and-operations-be-generally-available-for-russia).
 
 ### <a name="general-data-protection-regulation-gdpr"></a>Bendrasis duomenų apsaugos reglamentas (BDAR)
 
-Jei „Finance and Operations“ naudojate programėles, „Microsoft" veikia kaip procesorius. Kaip duomenų procesorius, „Finance and Operations“ suteikia procesų ir priemonių, padedaančių klientams laikytis BDAR įsipareigojimų kaip duomenų valdiklio. Daugiau informacijos ieškokite [BDAR apžvalga](../../dev-itpro/gdpr/gdpr-guide.md).
+Dėl finansų ir operacijų programėlių "Microsoft" veikia kaip procesorius. Kaip duomenų procesorius, finansai ir operacijos pateikia procesus ir priemones, kurios padeda klientams laikytis GDPR įsipareigojimų kaip duomenų valdiklis. Daugiau informacijos ieškokite [BDAR apžvalga](../../dev-itpro/gdpr/gdpr-guide.md).
 
 ## <a name="environment-and-data-management"></a>Aplinkos ir duomenų valdymas
 
@@ -182,7 +182,7 @@ LCS teikia [savitarnos tiekimas](../../dev-itpro/deployment/infrastructure-stack
 
 ## <a name="data-backup-and-retention"></a>Duomenų atsarginis kopijavimas ir užlaikymas
 
-„Finance and Operations“ „SasaS“ abonemento aplinkos duomenų bazes apsaugo automatinės atsarginės kopijos. Gamybos aplinkoje automatinės atsarginės kopijos išlieka 28 dienas, nebent „Microsoft“ neatidarys keitimų. Sandbox (Tier 2+) aplinkose jos išlaikomos septynias dienas. Gamybos aplinkos keitimų atšaukimą galima atlikti, jei atliekant bet kurį suplanuotą priežiūros atnaujinimą įvyksta triktis.
+SaaS abonemento finansų ir operacijų aplinkos duomenų bazes apsaugo automatinės atsarginės kopijos. Gamybos aplinkoje automatinės atsarginės kopijos išlieka 28 dienas, nebent „Microsoft“ neatidarys keitimų. Sandbox (Tier 2+) aplinkose jos išlaikomos septynias dienas. Gamybos aplinkos keitimų atšaukimą galima atlikti, jei atliekant bet kurį suplanuotą priežiūros atnaujinimą įvyksta triktis.
 
 Norėdami gauti daugiau informacijos apie automatines atsargines kopijas, žr. [automatizuotas atsargines kopijas – „Azure SQL" duomenų bazė ir SQL valdomas egzempliorius](/azure/azure-sql/database/automated-backups-overview?tabs=single-database).
 
@@ -228,13 +228,13 @@ Toliau pateikiamoje lentelėje aprašomi įprasti aptarnavimo scenarijai ir veik
 
 ## <a name="service-update-strategy"></a>Paslaugų naujinimų strategija
 
-Vadovaujantis [programinės įrangos gyvenimo ciklo strategijos](../../dev-itpro/migration-upgrade/versions-update-policy.md), „Finance and Operations“ programomis laikykitės „Microsoft“ [moderni gyvenimo ciklo strategija](../../dev-itpro/migration-upgrade/versions-update-policy.md#modern-lifecycle-policy), kuri apima nuolat aptarnaujamus ir palaikomus produktus. 
+Atsižvelgiant į programinės įrangos [vykdymo ciklo](../../dev-itpro/migration-upgrade/versions-update-policy.md) strategiją, finansų ir operacijų programėlėse taikoma "Microsoft [" modernaus vykdymo ciklo](../../dev-itpro/migration-upgrade/versions-update-policy.md#modern-lifecycle-policy) strategija, kuri apima nuolat aptarnaujamus ir palaikomus produktus. 
 
-„Microsoft" išleidžia aštuonis „Finance and Operations“ paslaugų naujinimus į programėles kasmet šiais mėnesiais:
+"Microsoft" kasmet išleidžia aštuonis finansinių ir operacijų programėlių paslaugų naujinimus šiais mėnesiais:
 
-- Sausio
-- Vasario
-- Balandžio
+- Sausis
+- Vasaris
+- Balandis
 - Gegužės
 - Liepos
 - Rugpjūčio
@@ -255,7 +255,7 @@ Daugiau informacijos peržiūrėkite šiose temose:
 
 ## <a name="security-and-administrative-access"></a>Saugos ir administravimo prieiga
 
-Administratoriaus prieiga „Finance and Operations“ prie gamybos aplinkos yra griežtai kontroliuojama ir registruojama. Kliento duomenys tvarkomi pagal [„Microsoft Online Services“ sąlygas](https://www.microsoft.com/licensing/terms/productoffering). 
+Administratoriaus prieiga prie finansų ir operacijų gamybos aplinkos yra griežtai kontroliuojama ir registruojama. Kliento duomenys tvarkomi pagal [„Microsoft Online Services“ sąlygas](https://www.microsoft.com/licensing/terms/productoffering). 
 
 ### <a name="customer-administrative-access"></a>Kliento administratoriaus prieiga
 
@@ -264,7 +264,7 @@ Kliento nuomininkų administratorius gali pasiekti gamybos egzempliorius arba ne
 | Aplinkos tipas | Paskirtis | Kliento prieigos lygis |
 |---|---|---|
 | **Ne gamyba**<br>1 pakopos smėlio dėžutė | Ne gamybos aplinka, kurią klientai diegia programavimo, demonstravimo arba mokymo tikslais. | 1 pakopa su sandbox (taip pat vadinama debesies nuomojama aplinka) yra kliento valdomaS VM, kuris įdiegiamas į kliento „Azure" abonementą iš LCS. Kliento „Azure" abonemente yra VM, todėl klientas turi visiškas administratoriaus prieigą prie aplinkos per nuotolinį darbalaukį. |
-| **Ne gamyba**<br>2 (arba naujesnė) smėlio dėžė | Ne gamybos aplinka, kurią klientai diegia vartotojo priėmimo bandymui, integravimo bandymui, mokymas, išdėstymui ar bet kokiam kitam išankstiniam gamybos scenarijui. | 2 ir naujesnės pakopos sanddės įdiegiamos į „Finance and Operations“ „SaaS“ abonementą. Prieiga prie „Azure SQL" duomenų bazių, susietų su ne gamybos [aplinka, suteikiama tik laiku](../../dev-itpro/database/database-just-in-time-jit-access.md). Nuotolinio darbalaukio prieiga negalima. |
+| **Ne gamyba**<br>2 (arba naujesnė) smėlio dėžė | Ne gamybos aplinka, kurią klientai diegia vartotojo priėmimo bandymui, integravimo bandymui, mokymas, išdėstymui ar bet kokiam kitam išankstiniam gamybos scenarijui. | 2 ir aukštesnio lygio sanddės diegiamos į finansų ir operacijų SaaS abonementą. Prieiga prie „Azure SQL" duomenų bazių, susietų su ne gamybos [aplinka, suteikiama tik laiku](../../dev-itpro/database/database-just-in-time-jit-access.md). Nuotolinio darbalaukio prieiga negalima. |
 | **Gamyba** | Gamybos aplinka įdiegiama, kai projektas [parengtas pradėti vykti](/imp-lifecycle/environment-planning.md#production-system-readiness). | Gamybos aplinkos diegiamos į „SaaS“ abonementą. Visa prieiga – tai naršyklė, paslaugų galiniai punktai arba LCS. |
 
 ### <a name="microsoft-administrative-access"></a>„Microsoft“ administratoriaus prieiga
@@ -296,7 +296,7 @@ Daugiau informacijos apie sunkumo lygius ieškokite [šioje sunkumo lentelėje](
 
 ## <a name="business-continuity-through-high-availability-and-disaster-recovery"></a>Verslo tęstinumas per didelio užimtumo ir įvykių susigrąžinimo padarinius 
 
-"Microsoft" užtikrina verslo tęstinumą ir įvykių susigrąžinimą programėlių gamybos egzemplioriams „Azure" regiono atveju – „Finance and Operations“ „outages". Norėdami gauti daugiau informacijos, žr. [verslo tęstinumo ir įvykių susigrąžinimo nelaimių atveju](../../dev-itpro/sysadmin/business-continuity-disaster-recovery.md).
+"Microsoft" užtikrina verslo tęstinumą ir įvykių susigrąžinimą finansų ir operacijų programėlių gamybos egzemplioriams "Azure" regiono atveju – "outage". Daugiau informacijos, įskaitant aptarnavimo susigrąžinimo laiko tikslą (RTO) ir atkūrimo taško tikslą (RPO), žr. verslo [tęstinumą ir įvykių susigrąžinimą](../../dev-itpro/sysadmin/business-continuity-disaster-recovery.md).
 
 - **Didelis pasiekiamumas** – HA funkcija suteikia būdų, kaip išvengti triktį, kurią lemia vieno mazgo gedimas „Azure" duomenų centre. Kiekvienos paslaugos debesies architektūra naudoja „Azure" pasiekiamumo rinkinius apskaičiuoti pakopai, kad išvengtų vieno trikčių taškų įvykių. HA duomenų bazėms pateikiama naudojant [„Azure SQL HA" funkcijas](/azure/azure-sql/database/high-availability-sla).
 - **Įvykių sugrąžinimas** – [„Azure“ nelaimių grąžinimo funkcija](/azure/best-practices-availability-paired-regions) apsaugo kiekvieną paslaugą nuo besigrąžinamų įvykių, kurie labai veikia visą „Azure“ duomenų centrą. Štai keletas šių funkcijų:
@@ -305,28 +305,19 @@ Daugiau informacijos apie sunkumo lygius ieškokite [šioje sunkumo lentelėje](
     - „Azure BLOB" saugyklos (kuriame yra dokumentų priedų) perteklinės kopijos kituose „Azure" regionuose.
     - Antrinis „Azure SQL" ir „Azure Azure Blob Storage" kartojimai.
 
-Pirminės duomenų saugyklos palaikomos dubliuojant. Todėl kiekvienos tarnybos komponentai, pvz., „Management Reporter" ir objektų saugykla, naudoja transformuoti duomenis iš pirminės duomenų bazės. Šie duomenys turi būti generuojami po to, kai nustatyta susigrąžinimo svetainė ir tarnyba paleista. Kliento kodo artefaktais ir atkurtos duomenų saugyklos naudojamos svetainei iš naujo įdiegti. Pakartotinis diegimas leidžia komponuoti mazgų, kartu su repestacijos ir kitais komponentais, būsenos dublikatus, norint naudoti atkurtas duomenų saugyklas antrinei svetainei nustatyti. Jei dėl įvykusių įvykių susigrąžinimo naudojamas kliento gamybos egzemplioriui sugrąžinti, „Microsoft" ir klientas pateis prie [incidentų valdymo](service-description.md#incident-management).
+Jei dėl įvykusių įvykių susigrąžinimo naudojamas kliento gamybos egzemplioriui sugrąžinti, „Microsoft" ir klientas pateis prie [incidentų valdymo](service-description.md#incident-management).
 
-„Microsoft“ įvykių susigrąžinimo planai ir procedūros tikrinamos reguliariai atliekant sistemos ir organizacijos valdiklių (SOC) auditus. Šie atitikties auditai patvirtina „Microsoft" DARBO techninio ir procedūrinio proceso, įskaitant programėles, „Dynamics 365 Finance and Operations“ procesą. [SOC atitikties](/compliance/regulatory/offering-soc-2) audito ataskaitos ir visos kitos atitikties ataskaitos yra [„Microsoft" patikimumo centro atitikties pasiūlymų atveju](/compliance/regulatory/offering-home).
+„Microsoft“ įvykių susigrąžinimo planai ir procedūros tikrinamos reguliariai atliekant sistemos ir organizacijos valdiklių (SOC) auditus. Šie atitikties auditai patvirtina "Microsoft" DARBO techninio ir procedūrinio proceso, įskaitant "Dynamics 365" finansų ir operacijų programėles, procesą. [SOC atitikties](/compliance/regulatory/offering-soc-2) audito ataskaitos ir visos kitos atitikties ataskaitos yra [„Microsoft" patikimumo centro atitikties pasiūlymų atveju](/compliance/regulatory/offering-home).
 
-| „Microsoft“ atsakomybės | Klientų atsakomybė |
-|---|---|
-| „Microsoft" įdiegia antrinę aplinką „Azure" suporuotame duomenų centre, kai įdiegiamas pirminis gamybos egzempliorius. Norėdami gauti daugiau informacijos, žr. [verslo tęstinumo ir įvykių susigrąžinimo nelaimių atveju (BCDR): „Azure“ sugretinti regionai](/azure/best-practices-availability-paired-regions). | None |
-| „Microsoft" įgalina „Azure SQL" ir „Azure Blob Storage ", įdiegę pirminį gamybos egzempliorių. | None |
-| „Microsoft" įgalina automatinę atsarginę kopiją „Azure SQL" duomenų bazėse. | None |
-| <p>Kai įvyksta nesklandimas, „Microsoft“ nustato, ar reikia atlikti kliento failo failą ir ar bus prarasti duomenys. Klientai gali prarasti duomenis iki 15 minučių, tai priklauso nuo pametimo pobūdžio ir laiko. | Duomenų praradimo atveju klientui gali reikėti pateikti rašytinę galutinę sąskaitą, kad būtų suaktyvinamas failo paleidimas. |
-| Kai paleidžiamas failo laikas, taikoma tarnyba veikia ribotu režimu. Naujinimo priežiūros negalima įjungti permetimo režimu. | Klientas negali prašyti paketo diegimo arba kitų reguliarių priežiūros užklausų failo režimu. |
-| Kai duomenų centras pradeda veikti, „Microsoft" nepavyksta grįžti į gamybos egzempliorių pirminio „Azure" regione. Normalių operacijų santrauka. | Klientui gali tekti pasirašyti nepasilaikyus gamybos egzemplioriaus, pirminio "Azure" regione. |
+## <a name="finance-and-operations-support-offerings"></a>Finansų ir operacijų pasiūlymų palaikymas
 
-## <a name="finance-and-operations-support-offerings"></a>„Finance and Operations“ pasiūlymų palaikymas
-
-Techninis palaikymas prieinamas rinkoje, „Finance and Operations“, kurioje paslaugos siūlomos. [Palaikymo patirtis](../../dev-itpro/lifecycle-services/lcs-support.md) pateikiama LCS arba „Finance and Operations“ programėlėse. Štai keletas pavyzdžių:
+Techninis palaikymas prieinamas rinkoje, kurioje siūlomos finansų ir operacijų paslaugos. [Palaikymo patirtis](../../dev-itpro/lifecycle-services/lcs-support.md) pateikiama LCS arba finansų ir operacijų programėlėse. Štai keletas pavyzdžių:
 
 - [Problemų ieška](../../dev-itpro/lifecycle-services/issue-search-lcs.md) LCS
-- [Integruotas techninis palaikymas](../../dev-itpro/lifecycle-services/support-experience.md) „Finance and Operations“ programėlėse
+- [Integruotas techninis](../../dev-itpro/lifecycle-services/support-experience.md) palaikymas finansų ir operacijų programėlėse
 - [Iš debesies teikiamas palaikymas](../../dev-itpro/lifecycle-services/cloud-powered-support-lcs.md) LCS
 
-„Finance and Operations“ „Microsoft" siūlo tris klientų palaikymo planus: Msdn, Professional Direct ir į abonementą įtrauktą palaikymą. Kiekvienam planui skiriasi palaikymo lygis. Toliau pateikiamoje lentelėje pateikiami trijų planų palyginimai.
+"Microsoft" siūlo tris finansų ir operacijų klientų palaikymo planus: Msdn, Professional Direct ir į abonementą įtrauktą palaikymą. Kiekvienam planui skiriasi palaikymo lygis. Toliau pateikiamoje lentelėje pateikiami trijų planų palyginimai.
 
 | Palaikymo funkcija | „Premier“ | Tiesioginė profesionalų pagalba | Abonementas |
 |---|---|---|---|
@@ -341,7 +332,7 @@ Daugiau informacijos rasite [Palaikymo apžvalga](/power-platform/admin/support-
 
 ### <a name="process-to-engage-support"></a>Procesas, įtraukti palaikymą
 
-Jei incidentai susiję su „Finance and Operations“ programėle, klientai per LCS pateikite palaikymo bilietą „Microsoft". CSS tvarko incidentus, remiantis kliento palaikymo planu ir incidento svarba, kaip nurodyta CSS.
+Kai incidentai susiję su finansų ir operacijų programėle, klientai per LCS pateikite palaikymo bilietą "Microsoft". CSS tvarko incidentus, remiantis kliento palaikymo planu ir incidento svarba, kaip nurodyta CSS.
 
 ### <a name="service-level-agreement"></a>Teikiamų paslaugų sutartis
 
@@ -349,14 +340,14 @@ Jei incidentai susiję su „Finance and Operations“ programėle, klientai per
 
 ## <a name="important-resources"></a>Svarbūs ištekliai
 
-- **[Patikimumo centras](https://www.microsoft.com/trust-center)** – gauti informacijos apie tai, kur saugomi jūsų „Finance and Operations“ duomenys, ir papildomą informaciją apie privatumą, atitikimą ir saugos procedūras.
+- **[Patikimumo centras](https://www.microsoft.com/trust-center)** – gauti informacijos apie tai, kur saugomi jūsų finansų ir operacijų duomenys, taip pat papildomą informaciją apie privatumą, atitikimą ir saugos procedūras.
 - **[Licencijavimo sąlygos ir dokumentai](https://www.microsoftvolumelicensing.com/)** – greitai prieiti prie licencijavimo sąlygų, sąlygų ir papildomos informacijos, susijusios su produktų ir paslaugų, kurios licencijuotos per „Microsoft“ apimties licencijavimo programas, naudojimui.
 - **[Licencijavimo sąlygos](https://www.microsoft.com/licensing/product-licensing/)** – šio puslapio ištekliai nurodo programinės įrangos ir interneto paslaugų produktų, kuriuos perkate per „Microsoft“ komercinės licencijos suteikimo programas, sąlygas.
 - **[„Microsoft" ciklo strategija](/lifecycle/)** – šiame puslapyje pateikiamos nuoseklios ir numatomos palaikymo per visą produkto naudojimo laiką gairės.
 - **[Licencijavimo vadovas](https://www.microsoft.com/licensing/docs/view/Microsoft-Dynamics-365)** – norėdami daugiau sužinoti apie „Dynamics 365" licenciją, naudokite šį vadovą.
 - **[Klientų palaikymas](https://dynamics.microsoft.com/support/)** – gaukite pramonės šaką tinkantį „Dynamics 365" programėlių palaikymą.
 - **[„Dynamics Lifecycle Services"](https://lcs.dynamics.com/)** – valdykite savo programos vykdymo ciklą ir pereisite prie numatymų, pasikartojančių, aukštos kokybės diegimo.
-- **["Dynamics 365" diegimo vadovas – "Dynamics 365" diegimo vadovo dokumentų laiko patikrinti principai ir pateikiami prescriptiniai patarimai architektui, kurti, išbandyti ir diegti](https://aka.ms/D365ImplementationGuideFlip)** Success by Design "Dynamics 365" sprendimus.
+- **["Dynamics 365](https://aka.ms/D365ImplementationGuideFlip)** " diegimo vadovas – "Dynamics 365 Success by Design " diegimo vadovo dokumentų laiko patikrinti principai ir pateikiami prescriptiniai patarimai architektui, kurti, išbandyti ir diegti "Dynamics 365" sprendimus.
 
 ## <a name="definitions"></a>Sąvokos
 
@@ -366,7 +357,7 @@ Geografinis regionas, kuriame yra vienas ar daugiau „Azure" duomenų centrų. 
 
 ### <a name="business-process-modeler-bpm"></a>[Verslo procesų modeliavimo įrankis (BPM)](../../dev-itpro/lifecycle-services/bpm-overview.md)
 
-LCS įrankis, padedantis atlikti reikiamos įdiegties tinkamos informacijos analizę naudojant amerikos produktyvumo ir kokybės centro (APQC) verslo procesų aprašus, kuriuos palaiko „Finance and Operations“ programėlės.
+LCS įrankis, kuris padeda atlikti reikiamos įdiegties tinkamos trūkumo analizę, naudojant Amerikos produktyvumo ir kokybės centro (APQC) verslo procesų apibrėžimus, kuriuos palaiko finansų ir operacijų programėlės.
 
 ### <a name="cloud-solution-provider"></a>Debesies sprendimo teikėjas
 
@@ -374,9 +365,9 @@ Partneris, kuris yra „Microsoft Cloud Solution Provider" (CSP) programos dalis
 
 ### <a name="customer"></a>Klientas
 
-Verslo objektas, kuris „Finance and Operations“ naudoja programėles ir kuriam atstovauja nuomininkas „Office 365“.
+Verslo objektas, kuris naudoja finansų ir operacijų programėles, ir kuriam nuomininkas atstovauja Office 365.
 
-### <a name="development-environment"></a>Talpinimo aplinka
+### <a name="development-environment"></a>Programavimo aplinka
 
 Ne gamybos sandbox aplinka, naudojama plėtinių vystyti. Klientai šią aplinką įdiegia į savo „Azure" abonementą iš LCS. Šią aplinką taip pat galima naudoti demonstravimo, mokymo ar kitoms tikrinimo užduotims atlikti. Jis taip pat žinomas kaip [1 pakopos smėlio dėžė](../imp-lifecycle/environment-planning.md#tier-1-vs-tier-2-and-higher).
 
@@ -386,19 +377,19 @@ Bet koks laikotarpis, kai vartotojai negali prisiregistruoti arba gauti prieigos
 
 ### <a name="implementation-partner"></a>Diegimo partneris
 
-Partneris, kurį klientas pasirenka savo sprendimams tinkinti, konfigūruoti, vykdyti ir „Finance and Operations“ valdyti.
+Partneris, kurį klientas pasirenka, kad pritaikytų, konfigūruo galėtų pritaikyti, vykdyti ir valdyti savo finansų ir operacijų sprendimus.
 
 ### <a name="incident"></a>Incidentas
 
-Problema, kuri iškyla klientams naudojantis paslauga ir kad „Finance and Operations“ jie pateikia bilietą per LCS.
+Problema, su kuriomis klientai susiduria, kai jie naudoja finansų ir operacijų tarnybą ir kad jie pateikia bilietą per LCS.
 
 ### <a name="microsoft-customer-support-services-css"></a>„Microsoft Customer Support Services“ ( CSS)
 
-„Microsoft" visuotinė palaikymo komanda, skirta programėlių kokybės paslaugai „Finance and Operations“ teikti.
+"Microsoft" visuotinė palaikymo komanda, skirta finansų ir operacijų programėlių kokybės paslaugai teikti.
 
 ### <a name="microsoft-dynamics-lifecycle-services-lcs"></a>Microsoft Dynamics„Lifecycle Services“ (LCS)
 
-Vykdymo ciklo valdymo nuo bandomojo iki diegimo, po gamybos valdymo ir palaikymo „Finance and Operations“ skirtas administravimo portalas. Dėl daugiau informacijos, žr. [„Lifecycle Services“ ištekliai](../../dev-itpro/lifecycle-services/lcs.md).
+Vykdymo ciklo finansų ir operacijų programėlių administravimo portalas nuo bandomojo iki diegimo, iki gamybos valdymo ir palaikymo. Dėl daugiau informacijos, žr. [„Lifecycle Services“ ištekliai](../../dev-itpro/lifecycle-services/lcs.md).
 
 ### <a name="non-production-instance"></a>Ne gamybos egzempliorius
 
@@ -412,7 +403,7 @@ Daugiau informacijos apie 2–5 pakopas ieškokite [Teisingos 2 arba naujesnės 
 
 ### <a name="production-instance"></a>Gamybos egzempliorius
 
-Aplinka, „Finance and Operations“, kurią klientas naudoja savo „tiesioginėms" kasdienės operacijose ir verslo procesuose valdyti.
+Finansų ir operacijų aplinka, kurią klientas naudoja savo "tiesioginėms" kasdienės operacijos ir verslo procesams valdyti.
 
 ### <a name="sandbox-environment"></a>Smėlio dėžės aplinka
 
@@ -420,7 +411,7 @@ Ne gamybos aplinka, kurią klientas naudoja demonstravimo, mokymo, vartotojo pri
 
 ### <a name="service"></a>Aptarnavimas
 
-Visos pagrindinės paslaugos, įtrauktos į „Finance and Operations“ programėles.
+Visos pagrindinės paslaugos, įtrauktos į finansų ir operacijų programėles.
 
 ### <a name="service-level-agreement-sla-for-microsoft-online-services"></a>„Microsoft" interneto paslaugų lygio sutartis (SLA)
 
@@ -428,7 +419,7 @@ SLA taikoma „Microsoft" interneto paslaugoms. Daugiau informacijos rasite fail
 
 ### <a name="service-update"></a>Paslaugos naujinimas
 
-„Microsoft Finance and Operations“ tarnybų aplinkos nuosekliai, naudojant tarnybos naujinimus. Klientai pagal savo verslo poreikius nustato savo aptarnavimo atnaujinimo kalendorių. Norėdami sužinoti daugiau, žr. [Senos versijos paslaugų naujinimai](../../dev-itpro/lifecycle-services/oneversion-overview.md).
+"Microsoft" paslaugų finansų ir operacijų aplinkos nuosekliai, vykdant aptarnavimo naujinimus. Klientai pagal savo verslo poreikius nustato savo aptarnavimo atnaujinimo kalendorių. Norėdami sužinoti daugiau, žr. [Senos versijos paslaugų naujinimai](../../dev-itpro/lifecycle-services/oneversion-overview.md).
 
 ### <a name="success-by-design"></a>[Success by Design](/dynamics365/fasttrack/success-by-design-overview)
 
@@ -436,4 +427,4 @@ Sistema, kuri sistema sistemiškai rodo vykdymą svarbiais etapais, siekiant už
 
 ### <a name="user"></a>Vartotojas
 
-Vienas asmuo, „Finance and Operations“ kuris naudoja aplinką ir kuris susijęs su kliento nuomininku.
+Vienas asmuo, kuris naudoja finansų ir operacijų aplinką ir kuris susijęs su kliento nuomininku.

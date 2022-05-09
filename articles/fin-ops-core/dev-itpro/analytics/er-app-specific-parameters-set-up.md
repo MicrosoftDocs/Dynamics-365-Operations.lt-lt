@@ -2,7 +2,7 @@
 title: ER formato parametrų nustatymas kiekvienam juridiniui subjektui
 description: Šioje temoje paaiškinama, kaip galite nustatyti modulio Elektroninės ataskaitos (ER) formato parametrus kiekvienam juridiniam subjektui.
 author: NickSelin
-ms.date: 10/22/2021
+ms.date: 03/25/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.3
-ms.openlocfilehash: cb600c55cb2d40129d1b29ab989bc8f7cf3f4686
-ms.sourcegitcommit: a5861c2fef4071e130208ad20e26cb3a42a45cf1
+ms.openlocfilehash: f72ce72e9cbd268efc6ab09dbec7009794d69613
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "7927459"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644505"
 ---
 # <a name="set-up-the-parameters-of-an-er-format-per-legal-entity"></a>ER formato parametrų nustatymas kiekvienam juridiniui subjektui
 
@@ -30,7 +30,7 @@ ms.locfileid: "7927459"
 
 Norėdami atlikti šiuos veiksmus, pirmiausia turite atlikti veiksmus, aprašytus temoje [Kaip sukonfigūruoti, kad būtų naudojami ER formatų parametrai, nurodyti kiekvienam juridiniam subjektui](er-app-specific-parameters-configure-format.md).
 
-Norėdami atlikti šioje temoje pateiktus pavyzdžius, turite turėti prieigą prie „Microsoft Dynamics 365 Finance“ („Finance“) ir vieną iš tolesnių vaidmenų.
+Norėdami užpildyti šios temos pavyzdžius, turite turėti prieigą prie Microsoft Dynamics "365 Finance" vienam iš šių vaidmenų:
 
 - Elektroninės ataskaitos kūrėjas
 - Elektroninės ataskaitos funkcijų konsultantas
@@ -226,7 +226,7 @@ Jei konfigūruojate programai bingus vienos ER formato versijos parametrus ir im
 Taip pat žinokite, kad, kai pasirenkate importuotiną failą, jo konkrečių programų parametrų struktūra palyginama su atitinkamo tipo **Peržvalga** duomenų šaltinių, esančio pasirinktame importuoti ER formate, struktūra. Pagal nutylėjimą, importavimas atliekamas, kai kiekvieno konkrečios programos parametro struktūra sutampa su atitinkamo duomenų šaltinio, esančio importuoti pasirinktame ER formate, struktūra. Jei struktūros nesutampa, gaunate įspėjamąjį pranešimą, kuriame nurodoma, kad atlikti negalima. Jei importavimą atliksite priverstinai, esami pasirinkto ER formato konkrečių programų parametrai bus išvalyti ir juos turėsite nustatyti nuo pradžių.
 
 
-Pradėdami „Dynamics 365 Finance“ nuo 10.0.24 versijos, galite pakeisti numatytąją elgseną ir gauti perspėjimo pranešimą įjungę **nuolygiavimo ER programai bingus parametrus, kai importuojant** funkciją **funkcijų valdymo** darbo srityje. Taip pat žinokite, kad, kai pasirenkate importuotiną failą, jo konkrečių programų parametrų struktūra palyginama su atitinkamo tipo Peržvalga duomenų šaltinių, esančio pasirinktame importuoti ER formate, struktūra.
+Nuo "Finance" 10.0.24 versijos galite pakeisti numatytąjį veikimo būdą ir išvengti įspėjimo pranešimo gavimo įgalindami **gretinti ER programos specifinius parametrus importuodami** funkciją **darbo srityje Funkcijų valdymas**. Taip pat žinokite, kad, kai pasirenkate importuotiną failą, jo konkrečių programų parametrų struktūra palyginama su atitinkamo tipo Peržvalga duomenų šaltinių, esančio pasirinktame importuoti ER formate, struktūra.
 
 - Paskirties ER formato struktūra pakeista įtraukiant naujus sąlygos stulpelius į visus esamus peržvalgos tipo **duomenų** šaltinius. Kai importavimas baigiamas, atnaujinami specifinės programos parametrai. Visuose importuotus konkrečios programos parametrų įrašus, kiekvieno pridėtos sąlygos stulpelio vertės inicijuojamos to stulpelio [duomenų tipo](er-formula-supported-data-types-primitive.md) numatytąja verte.
 - Paskirties ER formato struktūra šalinant kai kurias naujus sąlygos stulpelius iš visus esamus peržvalgos tipo **duomenų** šaltinius. Kai importavimas baigiamas, atnaujinami specifinės programos parametrai. Visuose importuotus konkrečių programos parametrų įrašus, kiekvieno pašalintų sąlygų stulpelio vertės panaikinamos.
@@ -235,9 +235,33 @@ Pradėdami „Dynamics 365 Finance“ nuo 10.0.24 versijos, galite pakeisti numa
 
 Kai importavimas baigiamas, be ką tik aprašytų pakeitimų, importuotų programai parametrų būsena pakeičiama į **Vykdoma**. Įspėjamasis pranešimas informuoja, kad automatiškai pakoreguotus specifinės programos parametrus reikia redaguoti neautomatiniu būdu.
 
+#### <a name="replicate-parameters"></a>Atkartoti parametrus
+
+Nuo "Finance" 10.0.27 versijos galite kopijuoti parametrus, kuriuos sukonfigūravote vienoje įmonėje, į kitas įmones tuo pačiu metu.
+
+Norėdami kopijuoti parametrus, atlikite šiuos veiksmus.
+
+1. Eikite į **Organizacijos administravimas** \> **Darbo sritys** \> **Elektroninės ataskaitos**.
+2. Pasirinkite **Ataskaitų konfigūracijos**.
+3. Konfigūracijų medyje pasirinkite formatą **Mokymo, kaip peržvelgti LE duomenis, formatas**.
+4. Veiksmų srities skirtuko **Konfigūracijos** grupėje **Konkrečių programų parametrai** pasirinkite **Sąranka**.
+5. Pasirinkite ER formato versiją **1.1.1**.
+6. Veiksmų srityje pasirinkite **Replikuoti**.
+7. **Dialogo lango Replikuoti** skirtuke **Įmonės** pasirinkite įmones, į kurias norite kopijuoti parametrus.
+
+    > [!NOTE]
+    > Tikslinių įmonių sąrašas siūlomas tik tiems vartotojams, kuriems priskirtas saugos [vaidmuo](../sysadmin/role-based-security.md#security-roles), sukonfigūruotas suteikti prieigą visoms organizacijoms.
+
+8. Pasirinkite **Gerai**.
+
+    > [!NOTE]
+    > Patvirtinimo dialogo lange informuojama, ar kai kuriose tikslinėse įmonėse yra anksčiau sukonfigūruotų pasirinktos ER formato versijos parametrų. Pasirinkite **Taip**, jei norite nepaisyti parametrų nukopijuodami juos iš dabartinės įmonės.
+
+    Sukonfigūruotas konkrečios programos parametrų rinkinys dabar nukopijuojamas į pasirinktas įmones.
+
 ### <a name="reuse-existing-parameters"></a>Naudoti iš naujo esamus parametrus
 
-Paleisę versiją 10.0.23 galite vėl naudoti programai basingus parametrus, kurie buvo sukonfigūruoti vienai ER formato versijai, kai paleidžiate didesnę to paties formato „Dynamics 365 Finance“ versiją. Rekomenduojame įgalinti funkciją, **Funkcijų valdymo darbo srityje naudokite ankstesnių ER formatų** funkciją darbo srityje **Funkcijų valdymas**. Kai ši funkcija įgalinta ir paleidžiate vieną ER formato versiją, kuri bando nuskaityti nuo programos priklausantius parametrus, ER bandys rasti programai bingus parametrus, kurie sukonfigūruoti naudoti šio formato versiją. Arba jei jos nepasiekiamos, artimiausiai mažesnei šio formato versijai.
+Nuo "Finance" 10.0.23 versijos galite pakartotinai naudoti konkrečios programos parametrus, kurie buvo sukonfigūruoti vienai ER formato versijai, kai paleidžiate aukštesnę to paties formato versiją. Norėdami pakartotinai naudoti esamus parametrus, darbo srityje Funkcijų valdymas įgalinkite **funkciją Naudoti konkrečios programos parametrus iš ankstesnių ER formatų versijų** **.** Kai ši funkcija įgalinta ir paleidžiate vieną ER formato versiją, kuri bando skaityti konkrečios programos parametrus, ER bandys rasti konkrečios programos parametrus, kurie buvo sukonfigūruoti vykdomai formato versijai. Jei jų nėra, ER bandys juos rasti artimiausiai žemesnei formato versijai.
 
 > [!NOTE]
 > Konkrečiam prašymo parametrus galima naudoti tik dabartinio juridinio subjekto aprė srityje.

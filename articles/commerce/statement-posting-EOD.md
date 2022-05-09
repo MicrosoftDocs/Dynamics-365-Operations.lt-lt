@@ -2,19 +2,19 @@
 title: Išrašų registravimo funkcionalumo patobulinimai
 description: Šioje temoje aprašomi išrašų registravimo funkcijai atlikti patobulinimai.
 author: analpert
-ms.date: 01/31/2022
+ms.date: 04/27/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: josaw
 ms.search.region: Global
 ms.author: analpert
 ms.search.validFrom: 2018-04-30
-ms.openlocfilehash: d7c7c330695cbcd18a44db5b3f4e28411d8de4f3
-ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
+ms.openlocfilehash: be9aa68aec1fd7deff315234a6dbf41edc3d6819
+ms.sourcegitcommit: 9e1129d30fc4491b82942a3243e6d580f3af0a29
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "8462555"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8649024"
 ---
 # <a name="improvements-to-statement-posting-functionality"></a>Išrašų registravimo funkcionalumo patobulinimai
 
@@ -50,28 +50,9 @@ Tobulinant išrašų registravimo funkciją sukurti trys nauji puslapio **Prekyb
 - **Reikia išjungti skaičiavimą** – nustačius šios parinkties reikšmę **Taip** išrašo registravimo procesas tęsiamas net jei skirtumas tarp išraše nurodytos apskaičiuotos sumos ir operacijos sumos yra didesnis negu parduotuvių „FastTab“ skirtuke **Išrašas** nurodyta ribinė reikšmė.
 
 > [!NOTE]
-> Kaip ir "Commerce" 10.0.14 versijos paleidimas, **kai įjungta "Retail" išrašų – "Automatiškai** pateikti" funkcija, **atsargų** registravimo paketinė užduotis nebetaikoma ir jos negalima vykdyti.
+> Nuo "Commerce" 10.0.14 versijos leidimo, kai **įgalinta "Retail" išrašų – informacijos santraukos** funkcija, **paketinė užduotis Registruoti atsargas** nebetaikoma ir jos negalima paleisti.
 
-Be to, šie parametrai buvo įdiegti „FastTab“ skirtuke **Paketinis apdorojimas** skirtuke **Registravimas** puslapyje **Prekybos parametrai**. 
-
-- **Maksimalus lygiagrečiai registruojamų išrašų skaičius** – šiame lauke apibrėžiamas paketinių užduočių, kurios bus naudojamos registruojant kelis išrašus, skaičius. 
-- **Maksimalus užsakymų apdorojimo išrašui gijų skaičius** – šis laukas rodo maksimalų gijų skaičių, kurį naudoja paketinės užduoties išrašo registravimas, kad būtų galima kurti ir išrašyti vieno išrašo pardavimo užsakymus. Bendras gijų, kurias naudos išrašo registravimo procesas, skaičius bus apskaičiuojamas pagal šio parametro vertę, padaugintą iš vertės **Maksimalus lygiagrečiai registruojamų išrašų skaičius**. Nustačius per didelę šio parametro vertę galima neigiamai paveikti išrašo registravimo proceso efektyvumą.
-- **Maksimalus operacijų eilučių skaičius telkime** – šiame lauke apibrėžiamas operacijų eilučių, kurios bus įtrauktos į vieną suvestinę operaciją prieš sukuriant naują, skaičius. Apibendrintos operacijos kuriamos remiantis skirtingais sumavimo kriterijais, pvz., klientais, darbo data ar finansinėmis dimensijomis. Svarbu pažymėti, kad viena operacijos eilutė nebus išskaidyta skirtingose suvestinėse operacijose. Tai reiškia, kad galimybė sujungti operacijų eilučių skaičių šiek tiek padidinti arba sumažinti remiantis tokiais faktoriais, kaip atskirų produktų skaičius.
-- **Didžiausias gijų, reikalingų parduotuvės operacijoms tikrinti, skaičius** – šiame lauke apibrėžiamas gijų, kurios bus naudojamos operacijoms tikrinti, skaičius. Operacijų tikrinimas yra būtinas veiksmas, kurį reikia atlikti prieš operacijas traukiant į išrašus. Be to, puslapio **Prekybos parametrai** skirtuko **Registravimas** „FastTab“ skirtuke **Dovanų kortelė** reikia apibrėžti elementą **Dovanų kortelės produktas**. Jį reikia apibrėžti, net jei organizacija dovanų kortelių nenaudoja.
-
-Šioje lentelėje išvardijamos rekomenduojamos ankstesnių parametrų vertės. Šias vertes reikėtų patikrinti ir pakeisti diegimo konfigūraciją bei prieinamą infrastruktūrą. Bet koks rekomenduojamų verčių padidėjimas gali neigiamai paveikti kitą paketinį apdorojimą ir jį reikėtų patikrinti.
-
-| Parametras | Rekomenduojama vertė | Informacija |
-|-----------|-------------------|---------|
-| Maksimalus lygiagrečiai registruojamų išrašų skaičius | <p>Nustatykite šį parametrą kaip paketinių užduočių, kurias gali naudoti paketų grupė, vykdanti išrašo **užduotį,** skaičių.</p><p>**Bendroji taisyklė:** dauginkite programos objektų serverio (AOS) virtualiųjų serverių skaičių iš paketinių užduočių, kurios galimos AOS virtualiame serveryje, skaičiaus.</p> | Šis parametras netaikomas, kai įgalinta funkcija **Mažmeninės prekybos išrašai – Parduotuvei** skirtas tiekimas. |
-| Maksimalus gijų skaičius, skirtas vieno išrašo užsakymo apdorojimui | Pradėti tikrinti vertes **4**. Paprastai vertė neturi viršyti **8**. | Šis parametras nurodo gijų, kurios naudojamos pardavimo užsakymams kurti ir registruoti, skaičių. Jis rodo gijų, kurias galima registruoti pagal išrašą, skaičių. |
-| Didžiausias telkime įtrauktas operacijų eilučių skaičius | Pradėti tikrinti vertes **1000 vertei**. Atsižvelgiant į būstinės konfigūraciją, mažesni užsakymai gali padidinti našumą. | Šis parametras nustato eilučių, kurios bus įtrauktos į kiekvieną pardavimo užsakymą registruojant išrašą, skaičių. Pasiekus šį skaičių eilutės bus padalinta į naują užsakymą. Nors pardavimo eilučių skaičius nebus tikslus, nes skaidymo procesas bus pardavimo užsakymo lygiu, bus arti numerio, kuris nustatytas. Šis parametras naudojamas generuoti mažmeninės prekybos operacijų, kurių klientas neturi įvardyto kliento, pardavimo užsakymus. |
-| Didžiausias gijų, reikalingų parduotuvės operacijoms tikrinti, skaičius | Rekomenduojame šį parametrą nustatyti kaip **4** ir padidinti jį tik tada, jei neįeisite priimtino našumo. Gijų, kurias naudoja šis procesas, skaičius negali viršyti procesorių, kurie galimi paketinio apdorojimo serveryje, skaičiaus. Jei čia priskirsite per daug gijų, galite paveikti kitą paketinį apdorojimą. | Šis parametras valdo operacijų, kurias galima patikrinti vienu metu duotame parduotuvėje, skaičių. |
-
-> [!NOTE]
-> Visi su išrašo registravimu susiję nustatymai ir parametrai, kurie nurodyti mažmeninės prekybos parduotuvėse ir puslapyje **Prekybos parametrai** taikomi naudojantis patobulinta išrašo registravimo funkcija.
-
-## <a name="processing"></a>Vykdymas
+## <a name="processing"></a>Vykdoma
 
 Naudojantis meniu elementais **Skaičiuoti išrašų paketą** ir **Registruoti išrašų paketą** gali būti skaičiuojamas ir registruojamas išrašų paketas. Išrašai taip pat gali būti skaičiuojami ir registruojami neautomatiškai – naudojantis taikant patobulintą išrašų registravimo funkciją matomu meniu elementu **Išrašai**.
 
@@ -124,17 +105,17 @@ Atliekamos įvairios išrašo operacijos (pavyzdžiui, kūrimo, skaičiavimo, va
 
 ### <a name="aggregated-transactions"></a>Sutelktos operacijos
 
-Registravimo metu grynųjų pinigų ir išlaidų operacijos sujungiamos pagal klientą ir produktą. Dėl to sumažėja sukurtų pardavimo užsakymų ir eilučių skaičius. Suskurtos operacijos saugomos sistemoje ir naudojamos pardavimo užsakymams kurti. Kiekvieną kartą sutelkus operaciją sistemoje sukuriamas vienas atitinkamas pardavimo užsakymas. 
+Registravimo proceso metu grynųjų pinigų ir nešiojimo operacijos sujungiamos pagal klientą ir produktą. Todėl sukuriamų pardavimo užsakymų ir eilučių skaičius sumažinamas. Agreguotos operacijos saugomos sistemoje ir naudojamos pardavimo užsakymams kurti. Kiekvieną kartą sutelkus operaciją sistemoje sukuriamas vienas atitinkamas pardavimo užsakymas. 
 
-Jei išrašas nevisiškai užregistruotas, išraše galite peržiūrėti susoduotas operacijas. Veiksmų srities skirtuko Išrašas **grupėje** **Vykdymo informacija** pasirinkite Sujungti **operacijos**.
+Jei išrašas nėra visiškai užregistruotas, išraše galite peržiūrėti apibendrintas operacijas. Veiksmų srities skirtuko Išrašas **grupėje Vykdymo informacija** pasirinkite **Agreguotos** operacijos **.**
 
-![Nevisiškai užregistruoto išrašo suvestinių operacijų mygtukas.](media/aggregated-transactions.png)
+![Nevisiškai užregistruoto išrašo agreguotų operacijų mygtukas.](media/aggregated-transactions.png)
 
-Užregistruotų išrašų suvestines operacijas galite peržiūrėti užregistruotų išrašų **puslapyje**. Veiksmų srityje pasirinkite Užklausos **, tada** pasirinkite Sujungti **operacijas**.
+Užregistruotų išrašų suvestines operacijas galite peržiūrėti puslapyje Užregistruotos **ataskaitos**. Veiksmų srityje pasirinkite **Užklausos**, tada pasirinkite **Agreguotos operacijos**.
 
-![Užregistruotų išrašų su bendra operacijų komanda.](media/aggregated-transactions-posted-statements.png)
+![Užregistruotų išrašų agreguotų operacijų komanda.](media/aggregated-transactions-posted-statements.png)
 
-Apibendrintos **operacijos** pardavimo užsakymo informacijos "FastTab" rodo šią informaciją:
+Sumuotos **operacijos FastTab Pardavimo užsakymo informacija** rodoma ši informacija:
 
 - **Įrašo ID** – sutelktos operacijos ID.
 - **Išrašo numeris** – išrašas, kuriam sutelkta operacija priklauso.
@@ -143,33 +124,33 @@ Apibendrintos **operacijos** pardavimo užsakymo informacijos "FastTab" rodo ši
 - **Sutelktų eilučių skaičius** – bendras sutelktos operacijos ir pardavimo užsakymo eilučių skaičius.
 - **Būsena** – paskutinė sutelktos operacijos būsena.
 - **Sąskaitos faktūros ID** – kai išrašoma sutelktos operacijos pardavimo užsakymo SF, pardavimo sąskaitos faktūros ID. Jei šis laukas tuščias, pardavimo užsakymo sąskaita faktūra užregistruota.
-- **Klaidos kodas** – šis laukas nustatomas, jei telkimo būsena yra klaida.
-- **Klaidos pranešimas** – šis laukas nustatomas, jei telkimo būsena yra klaida. Joje pateikiama informacija apie tai, kas sukėlė nesėkmingą procesą. Galite naudoti klaidos kodo informaciją problemai išspręsti, tada rankiniu būdu iš naujo paleisti procesą. Atsižvelgiant į sprendimo tipą, sujungti pardavimai gali būti panaikinti ir apdoroti naujame išraše.
+- **Klaidos kodas** – šis laukas nustatomas, jei agregavimas yra klaidos būsenoje.
+- **Klaidos pranešimas** – šis laukas nustatomas, jei agregavimas yra klaidos būsenoje. Jame pateikiama išsami informacija apie tai, kas sukėlė proceso nesėkmę. Norėdami išspręsti problemą, galite naudoti klaidos kodo informaciją, tada iš naujo paleisti procesą rankiniu būdu. Atsižvelgiant į skiriamosios gebos tipą, suvestinius pardavimus gali tekti panaikinti ir apdoroti naujame pareiškime.
 
-![Sujungti operacijos Pardavimo užsakymo informacijos "FastTab" laukai.](media/aggregated-transactions-error-message-view.png)
+![Laukai, esantys agreguotos operacijos FastTab Pardavimo užsakymo informacija.](media/aggregated-transactions-error-message-view.png)
 
-Apibendrintos **operacijos** informacijos "FastTab" rodo visas operacijas, kurios buvo patrauktos į suvestinę operaciją. Sutelktos operacijos sutelktose eilutėse rodomi visi sutelkti operacijų įrašai. Sutelktose eilutėse taip pat rodoma tokia išsami informacija kaip prekė, variantas, kiekis, kaina, grynoji suma, vienetas ir sandėlis. Iš esmės, kiekviena sutelkta eilutė atitinka vieną pardavimo užsakymo eilutę.
+Agreguotos **operacijos FastTab Operacijos informacija** rodo visas operacijas, kurios buvo įtrauktos į agreguotą operaciją. Sutelktos operacijos sutelktose eilutėse rodomi visi sutelkti operacijų įrašai. Sutelktose eilutėse taip pat rodoma tokia išsami informacija kaip prekė, variantas, kiekis, kaina, grynoji suma, vienetas ir sandėlis. Iš esmės, kiekviena sutelkta eilutė atitinka vieną pardavimo užsakymo eilutę.
 
-![Suvestinės operacijos informacijos "FastTab".](media/aggregated-transactions-sales-details.png)
+![Sukauptos operacijos informacijos FastTab.](media/aggregated-transactions-sales-details.png)
 
-Kai kuriais atvejais, sudėtose operacijose gali nepavykti užregistruoti konsoliduotojo pardavimo užsakymo. Tokiais atvejais klaidos kodas bus susietas su išrašo būsena. Norėdami peržiūrėti tik suvestines operacijas, kurių klaidų yra, **pažymėję žymės langelį, galite įjungti filtravimo tik triktis** filtrą sujungti operacijas. Įgalindami šį filtrą, apribosite rezultatus ir sujungsite operacijas, kurių klaidos reikalauja sprendimo. Informacijos, kaip ištaisyti šias klaidas, ieškokite Redaguoti ir audituoti [internetinio užsakymo ir nesinchronines kliento užsakymo operacijas](edit-order-trans.md).
+Kai kuriais atvejais agreguotos operacijos gali neužregistruoti konsoliduoto pardavimo užsakymo. Tokiais atvejais klaidos kodas bus susietas su išrašo būsena. Norėdami peržiūrėti tik sukauptas operacijas, kuriose yra klaidų, pažymėdami žymės langelį galite įgalinti **filtrą Rodyti tik gedimus** agreguotų operacijų rodinyje. Įjungę šį filtrą, rezultatus apribojate tik apibendrintomis operacijomis, kuriose yra klaidų, kurias reikia išspręsti. Informacijos apie tai, kaip ištaisyti šias klaidas, ieškokite [Redaguoti ir tikrinti užsakymą internetu ir asinchronines kliento užsakymo operacijas](edit-order-trans.md).
 
-![Žymės langelis Rodyti tik triktis filtruoti suvestinių operacijų rodinyje.](media/aggregated-transactions-failure-view.png)
+![Apibendrintų operacijų rodinio filtro Rodyti tik gedimus žymės langelis.](media/aggregated-transactions-failure-view.png)
 
-Puslapyje Sujungti **operacijos galite** atsisiųsti konkrečios sujungti operacijos XML pasirinkdami Eksportuoti telkimo **duomenis**. Galite peržiūrėti XML bet kokiu XML formatavimo būdu, norėdami pamatyti faktinę duomenų informaciją, kuri susijusi su pardavimo užsakymų kūravimu ir registravimu. Užregistruotų išrašų sutelktų operacijų XML failo atsisiuntimo funkcija naudotis negalima.
+**Puslapyje Agreguotos operacijos** galite atsisiųsti konkrečios agreguotos operacijos XML pasirinkdami **Eksportuoti agregavimo duomenis**. Galite peržiūrėti XML bet kuriame XML formatatoriuje, kad pamatytumėte faktinę duomenų informaciją, susijusią su pardavimo užsakymo kūrimu ir registravimu. Užregistruotų išrašų sutelktų operacijų XML failo atsisiuntimo funkcija naudotis negalima.
 
-![Eksportuoti telkimo duomenų mygtuką, esantį puslapyje Sujungti operacijos.](media/aggregated-transactions-export.png)
+![Mygtukas Eksportuoti agregavimo duomenis puslapyje Agreguotos operacijos.](media/aggregated-transactions-export.png)
 
-Jeigu negalite ištaisyti klaidos ištaisę pardavimo užsakymo duomenis arba pardavimo užsakymą palaikančius duomenis, **galite naudoti** mygtuką Naikinti kliento užsakymą. Norėdami panaikinti užsakymą, pasirinkite sudėti operaciją, kurios atlikti nepavyko, tada pasirinkite **Naikinti kliento užsakymą**. Bus panaikinta ir sus'uota operacija, ir atitinkamas pardavimo užsakymas. Dabar galite peržiūrėti operacijas naudodami redagavimo ir audito funkciją. Jie taip pat gali būti pakartotinai apdoroti naudojant naują išrašą. Išstabdę visus triktis, galite tęsti išrašo registravimo išrašo registravimą paleisdami susijusių išrašų registravimo funkciją.
+Jei negalite ištaisyti klaidos taisydami pardavimo užsakymo duomenis arba pardavimo užsakymą palaikančius duomenis, galimas mygtukas Naikinti kliento **užsakymą**. Norėdami panaikinti užsakymą, pasirinkite nepavykusią agreguotą operaciją, tada pasirinkite **Naikinti kliento užsakymą**. Tiek agreguota operacija, tiek atitinkamas pardavimo užsakymas bus panaikinti. Dabar galite peržiūrėti operacijas naudodami redagavimo ir audito funkciją. Arba jie gali būti apdorojami per naują pareiškimą. Ištaisę visas nesėkmes, galite tęsti išrašo registravimą vykdydami atitinkamo išrašo registravimo išrašo funkciją.
 
-![Panaikinti kliento užsakymo mygtuką suvestinėje operacijų rodinyje.](media/aggregated-transactions-delete-cust-order.png)
+![Apibendrintų operacijų rodinyje esantį mygtuką Naikinti kliento užsakymą.](media/aggregated-transactions-delete-cust-order.png)
 
-Suvestinių operacijų rodinys suteikia šias išmokas:
+Suvestinių operacijų rodinyje pateikiami šie privalumai:
 
 - Vartotojas gali matyti sutelktas operacijas, kurių nepavyko įvykdyti kuriant pardavimo užsakymą, ir pardavimo užsakymus, kurių nepavyko sukurti išrašant SF.
 - Vartotojas gali matyti, kaip operacijos telkiamos.
 - Vartotojas gali sekti visus patikrinimus, nuo operacijų, taip pat pardavimo užsakymų iki pardavimo SF. Tikrinimų nebuvo galima sekti naudojantis senesne išrašų registravimo funkcija.
-- Sujungti XML failai padeda lengviau identifikuoti problemas, susijusias su pardavimo užsakymų sukūrimu ir SF išrašymu.
+- Agreguotas XML failas leidžia lengviau nustatyti problemas kuriant pardavimo užsakymą ir išrašant SF.
 
 ### <a name="journal-vouchers"></a>Žurnalo kvitai
 

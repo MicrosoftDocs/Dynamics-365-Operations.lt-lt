@@ -2,24 +2,20 @@
 title: Kurti grąžinimus EKA
 description: Šioje temoje aprašoma, kaip inicijuoti grynųjų pinigų ir (arba) atliekamų operacijų arba klientų užsakymų grąžinimą į programą „Microsoft Dynamics 365 Commerce“ EKA (EKA).
 author: hhainesms
-ms.date: 02/24/2022
+ms.date: 04/27/2022
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-audience: Application User
-ms.reviewer: v-chgri
-ms.custom: ''
-ms.assetid: ''
+audience: Application User, Developer, IT Pro
+ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: hhaines
 ms.search.validFrom: 2020-02-20
 ms.dyn365.ops.version: Release 10.0.20
-ms.openlocfilehash: 3250f702f033fb8b00763542fd8342c089b47b2e
-ms.sourcegitcommit: d2e5d38ed1550287b12c90331fc4136ed546b14c
+ms.openlocfilehash: c8e06c0d83e3bc2f5efea1e3a8124c700706aa2e
+ms.sourcegitcommit: 9e1129d30fc4491b82942a3243e6d580f3af0a29
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/25/2022
-ms.locfileid: "8349696"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8648993"
 ---
 # <a name="create-returns-in-pos"></a>Kurti grąžinimus EKA
 
@@ -107,9 +103,64 @@ Toliau pateiktame sąraše pateikiami mažiausi įvairių komponentų versijos r
 ## <a name="enable-proper-tax-calculation-for-returns-with-partial-quantity"></a>Įjungti tinkamą mokesčių skaičiavimą, kai grąžinamas dalinis kiekis
 
 Šia funkcija užtikrinama, kad užsakymą grąžinus naudojant kelias sąskaitas faktūras, galiausiai mokesčiai bus lygūs pirminei mokėtinai mokesčių sumai.
-1.  Eikite į darbo sritį **Funkcijų valdymas** ir ieškokite **Įjungti tinkamą mokesčių skaičiavimą, kai grąžinamas dalinis kiekis**.
-2.  Pasirinkite **Įjungti tinkamą mokesčių skaičiavimą, kai grąžinamas dalinis kiekis** ir spustelėkite **Įjungti**.
 
+1. Funkcijų valdymo **darbo srityje ieškokite** Įgalinti tinkamą mokesčių **skaičiavimą, jei grąžinimai atlikti su daliniu kiekiu**.
+1. Pasirinkite įgalinti **tinkamą mokesčių skaičiavimą, kai grąžinimai turi dalinio** kiekio funkciją, tada pasirinkite **Įgalinti**.
+
+## <a name="set-up-return-locations-for-retail-stores"></a>Parduotuvių grąžinimo vietų nustatymas
+
+"Commerce" leidžia nustatyti grąžinimo vietas pagal mažmeninės prekybos informacijos kodus ir pardavimo ir rinkodaros priežasčių kodus. Kai klientai grąžina pirkimą, kasininkas dažnai nurodo grąžinimo priežastį. Galite nurodyti, kad grąžinti produktai būtų priskirti skirtingoms grąžinimo atsargoms vietai, remiantis informacijos kodais ir priežasčių kodais, kuriuos kasininkas pasirenka EKA kasos aparate.
+
+Pavyzdžiui, klientas grąžina produktą su trūkumais, o kasininkas apdoroja grąžinimo operaciją. Kai "Retail POS" rodo grąžinimo informacijos kodą, kasininkas pasirenka grąžinimo su trūkumais tarpinį kodą. Tada grąžintas produktas automatiškai priskiriamas konkrečiai grąžinimo vietai.
+
+Grąžinimo vieta gali būti sandėlis, vieta sandėlyje ar netgi konkretus padėklas, priklausomai nuo jūsų organizacijos nustatytų atsargų vietų. Kiekvieną grąžinimo vietą galite susieti su vienu ar daugiau mažmeninės prekybos informacijos kodų ir pardavimo ir rinkodaros priežasčių kodų.
+
+### <a name="prerequisites"></a>Būtinieji komponentai
+
+Prieš tai, kai galėsite nustatyti grąžinimo vietas, turite nustatyti šiuos elementus:
+
+- **Mažmeninės prekybos informacijos** kodai – paragina kasos aparatu, kurie nustatomi "Retail" **modulyje**. Daugiau informacijos rasite informacijos [kodų nustatymas](/dynamicsax-2012/appuser-itpro/setting-up-info-codes).
+- **Pardavimo ir rinkodaros priežasčių kodai** – paragina EKA kasos aparate, kurie nustatomi pardavimo **ir rinkodaros modulyje**. Daugiau informacijos rasite Priežasčių [kodų nustatymas](/dynamicsax-2012/appuser-itpro/set-up-return-reason-codes).
+- **Atsargų vietos** – vietos, kuriose laikomos atsargos. Daugiau informacijos rasite [Atsargų vietų nustatymas](/dynamicsax-2012/appuser-itpro/about-locations).
+    
+### <a name="set-up-return-locations"></a>Nustatyti grąžinimo vietas
+
+Norėdami nustatyti grąžinimo vietas, atlikite šiuos veiksmus.
+
+1. Eikite į **"Retail" ir "Commerce \> Channel" \> nustatymo sandėlius** ir pasirinkite sandėlį.
+1. Mažmeninės **prekybos** "FastTab" lauke Numatytoji grąžinimo vieta pasirinkite atsargų vietą, **kuri** bus naudojama grąžinimams, kai informacijos kodai ar priežasčių kodai nėra susieti su grąžinimo vieta.
+1. Numatytojo **grąžinimo padėklo** lauke pasirinkite padėklą, naudotiį grąžinimams, kurių informacijos kodai arba priežasčių kodai nėra susieti su grąžinimo vietas.
+1. Eikite į **"Retail" ir "Commerce \> Inventor management \> Return" vietas**.
+1. Pasirinkite **Naujas,** jei norite sukurti grąžinimo vietos strategiją.
+1. Įveskite unikalų grąžinimo vietos pavadinimą ir aprašą.
+
+    > [!NOTE]
+    > Jei nustatyta grąžinimo vietų numeracija, pavadinimas įvedamas automatiškai.
+
+1. Bendrajame **"** FastTab" nustatykite parinktį **Spausdinti etiketes** kaip **Taip**, norėdami išspausdinti visų produktų, priskirtų grąžinimo vietų, etiketes.
+1. Nustatykite **pasirinktį Blokuoti** atsargas kaip **Taip,** jei norite grąžinti produktus iš numatytosios grąžinimo vietos į atsargas ir neleisti jų parduoti.
+1. Norėdami susieti konkrečius mažmeninės prekybos informacijos kodus ir antrinius kodus su grąžinimo vieta, atlikite šiuos veiksmus:
+
+    1. Mažmeninės prekybos **informacijos kodų "** FastTab" pasirinkite **Įtraukti**.
+    1. **Informacijos kodo lauke** pasirinkite grąžinimo informacijos kodą.
+    1. **Lauke Antrinis** kodas pasirinkite grąžinimo priežasties antrinius kodus. Aprašymo **lauke** rodomas pasirinkto antrinio kodo aprašymas.
+    1. Lauke Parduotuvė **pasirinkite** parduotuvę, kurioje naudojamas informacijos kodas.
+    1. Norėdami nurodyti **grąžinimo vietą**, **naudokite** laukus **Sandėlis**, Vieta ir Padėklo ID. Pavyzdžiui, norėdami nurodyti vietą parduotuvėje, pasirinkite parduotuvę **lauke Parduotuvė**, o lauke **Vieta**.
+    1. Pažymėkite žymės **langelį Blokuoti atsargas**, kad grąžinti produktai nebūtų atsargose ir nebūtų parduoti.
+
+1. Norėdami susieti konkrečius pardavimo ir rinkodaros priežasčių kodus su grąžinimo vietas, atlikite šiuos veiksmus:
+
+    1. Pardavimo ir **rinkodaros priežasčių koduose "** FastTab" pasirinkite **Įtraukti**.
+    1. **Lauke Priežasties kodas** pasirinkite grąžinimo priežasties kodą. **Lauke** Aprašymas rodomas pasirinkto priežasties kodo aprašymas.
+    1. Lauke Parduotuvė **pasirinkite** parduotuvę, kurioje naudojamas priežasties kodas.
+    1. Norėdami nurodyti **grąžinimo vietą**, **naudokite** laukus **Sandėlis**, Vieta ir Padėklo ID. Pavyzdžiui, norėdami nurodyti padėklą vietoje sandėlyje, pasirinkite sandėlį, **sandėlį,** **vietą lauke Vieta, o padėklą – lauke** Padėklo ID **.**
+    1. Pažymėkite žymės **langelį Blokuoti atsargas**, kad grąžinti produktai nebūtų atsargose ir nebūtų parduoti.
+
+    > [!NOTE]
+    > Jei prekei naudojama grąžinimo vietos strategija, bet grąžinimo priežastis, **kurią kasininkas pasirenka, neatitinka jokio kodo, nurodyto "Retail** **·**" informacijos koduose arba pardavimo ir rinkodaros priežasčių koduose "FastTab", prekė siunčiama į numatytąją **grąžinimo** vietą, kuri nurodyta sandėlio puslapyje. Be to, žymės **·** **langelio** Blokuoti atsargas parametras, esantis puslapio Grąžinimo vietų bendra **FastTab**, nustato, ar grąžinta prekė turi būti užblokuota atsargos.
+
+1. Eikite į " **Retail" ir "Commerce \> Commerce" produktų hierarchiją**.
+1. Skirtuko Valdyti **atsargų kategorijos ypatybes** "FastTab" lauke **Grąžinimo** vieta pasirinkite grąžinimo vietą. Kadangi tai pačiai parduotuvei galima nustatyti kelias grąžinimo vietos strategijas, čia jūsų naudojama reikšmė lemia naudojamą grąžinimo vietos strategiją.
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 

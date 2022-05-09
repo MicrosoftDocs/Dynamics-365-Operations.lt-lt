@@ -1,5 +1,5 @@
 ---
-title: „Dynamics 365 Supply Chain Management” peržiūros versija 10.0.26 (2022 m. gegužės mėnesis)
+title: Kas pasikeitė „Dynamics 365 Supply Chain Management“ 10.0.26 versijoje (2022 m. kovo mėn.)?
 description: Šioje temoje aprašomos naujos ir pakeistos „Microsoft Dynamics 365 Supply Chain Management“ 10.0.26 funkcijos.
 author: kamaybac
 ms.date: 03/01/2022
@@ -10,19 +10,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-03-01
 ms.dyn365.ops.version: 10.0.26
-ms.openlocfilehash: 996988b1a4d59ae9ad7b4031e492824c0a6abc95
-ms.sourcegitcommit: d475dea4cf13eae2f0ce517542c5173bb9d52c1c
+ms.openlocfilehash: 0724045824f39f316c8b3dbb06a48eb6ca6dbef3
+ms.sourcegitcommit: 1050e58e621d9a0454895ed07c286936f8c03320
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/05/2022
-ms.locfileid: "8547879"
+ms.lasthandoff: 04/21/2022
+ms.locfileid: "8625257"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10026-may-2022"></a>„Dynamics 365 Supply Chain Management” peržiūros versija 10.0.26 (2022 m. gegužės mėnesis)
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10026-may-2022"></a>Kas pasikeitė „Dynamics 365 Supply Chain Management“ 10.0.26 versijoje (2022 m. kovo mėn.)?
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-Šioje temoje pateikiamos priemonės, kurios yra naujos arba pakeistos "Microsoft Dynamics 365 Supply Chain Management preview" versijoje 10.0.26. Šios versijos komponavimo numeris yra 10.0.1192 ir jis pasiekiamas tokius būdu:
+Šioje temoje pateikiamos naujos ir pakeistos „Microsoft Dynamics 365 Supply Chain Management“ 10.0.26 versijos funkcijos. Šios versijos komponavimo numeris yra 10.0.1192 ir jis pasiekiamas tokius būdu:
 
 - **Peržiūros versijos išleidimas:** 2022 m. kovas
 - **Bendras leidimo pasiekiamumas (savaiminis naujinimas):** 2022 m. balandis
@@ -34,7 +33,7 @@ Tolesnėje lentelėje pateiktos funkcijos, kuri yra šiame leidime. Galime atnau
 
 | Funkcijos sritis | Funkcija | Daugiau informacijos | Įjungė   |
 |---|---|---|---|
-| Atsargos ir logistika | [Turimų atsargų matomumo užklausa, kad būtų palaikomos patobulintos sandėlio valdymo prekės](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/inventory-visibility-support-advanced-warehouse-management) | [Sandėlio valdymo ir valdymo programos prekių atsargų matomumo palaikymas](../inventory/inventory-visibility-whs-support.md) | Priemonių valdymas:<br>*Įgalinti sandėlio prekes atsargų matomumo skiltyje* |
+| Atsargos ir logistika | [Turimų atsargų matomumo užklausa, kad būtų palaikomos patobulintos sandėlio valdymo prekės](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/inventory-visibility-support-advanced-warehouse-management) | [WHS prekių „Inventory Visibility“ palaikymas](../inventory/inventory-visibility-whs-support.md) | Priemonių valdymas:<br>*Įgalinti sandėlio prekes atsargų matomumo skiltyje* |
 | Atsargos ir logistika | [Prieinamų atsargų matomumo priedo atsargos](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/available-to-promise-inventory-visibility-add-in) | [Turimų atsargų matomumo grafikai ir prieinamos atsargos](../inventory/inventory-visibility-available-to-promise.md) | Įgalina aptarnavimo konfigūracija |
 | Gamyba | [Gamybos laiko vykdymo sąsajos esamo svorio elementai](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/catch-weight-items-production-floor-execution-interface) | [Kaip darbuotojai naudoja gamybos vietos vykdymo sąsają](../production-control/production-floor-execution-use.md) | Priemonių valdymas:<br>*(Peržiūros versija) Ataskaita apie esamo svorio prekes iš gamybos vietos vykdymo sąsajos* |
 | Gamyba | Mano užduočių skirtukas gamybos vietos vykdymo sąsajoje <!-- KFM: Add link to release plan when available --> | [Kaip darbuotojai naudoja gamybos vietos vykdymo sąsają](../production-control/production-floor-execution-use.md) | Priemonių valdymas:<br>*Mano užduočių skirtukas gamybos vietos vykdymo sąsajoje* |

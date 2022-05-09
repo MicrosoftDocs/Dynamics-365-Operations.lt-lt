@@ -2,27 +2,42 @@
 title: Prekybos kanalų fiskalinės integracijos nustatymas
 description: Šioje temoje pateikiamos prekybos kanalų fiskalinės integracijos nustatymo gairės.
 author: EvgenyPopovMBS
-ms.date: 03/04/2022
+ms.date: 04/28/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: e4b0b9f7eb4fb0ffab3237459d85ea92c83dd206
-ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
+ms.openlocfilehash: 51a75ce03b0ae6b744ec56df35bd3fdb1f40cf3a
+ms.sourcegitcommit: 5f7177b9ab192b5a6554bfc2f285f7cf0b046264
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "8462171"
+ms.lasthandoff: 04/30/2022
+ms.locfileid: "8661754"
 ---
 # <a name="set-up-the-fiscal-integration-for-commerce-channels"></a>Prekybos kanalų fiskalinės integracijos nustatymas
 
 [!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
 Šioje temoje pateikiamos prekybos kanalų fiskalinės integracijos nustatymo gairės. Daugiau informacijos apie fiskalinę integraciją žr. [Prekybos kanalų fiskalinės integracijos apžvalga](fiscal-integration-for-retail-channel.md).
 
+## <a name="enable-features-in-commerce-headquarters"></a>Įjungti "Commerce Headquarters" funkcijas
+
+Norėdami įjungti funkcijas, susijusias su komercijos kanalų finansinio integravimo funkcijomis, atlikite šiuos veiksmus.
+
+1. „Commerce headquaters“ eikite į **Sistemos administravimas \> Darbo sritys \> Funkcijų valdymas**.
+1. Raskite ir įgalinkite šias funkcijas:
+
+    - **Tiesioginė fiskalinė integracija iš EKA** kasos aparatų – ši funkcija išplečia finansinio integravimo sistemą, įtraukdama galimybę sukurti finansines jungtis, kurios bus paleismos naudojant kasos aparatą (EKA). Šio tipo jungtis palaiko ryšį su finansiniu įrenginiu arba paslauga, kuri teikia HTTP programos programavimo sąsają (API) ir nereikalaujama skirtosios fizinės parduotuvės mašinos. Pavyzdžiui, ši funkcija leidžia fiskalinę mobiliųjų įrenginių integravimą nereikalaujant bendrai naudojamos aparatūros stoties.
+    - **Finansinių integravimo techninių** profilių nepaisymai – ši funkcija leidžia išplėsti finansinio integravimo konfigūraciją ir įtraukti ryšio parametrų tikrinimo EKA kasos aparato parametrų puslapyje. Įgalinę šią funkciją galite nepaisyti techninio profilio parametrų.
+    - **EKA kasos aparatų finansinio registravimo būsena** – įgalinę šią funkciją galite išjungti konkrečių EKA kasos aparatų finansinio registravimo procesą. Jei EKA kasos aparate finansinių duomenų registracija išjungta, tam kasos aparatui negalima užbaigti pardavimo operacijų.
+    - **Finansinio integravimo vietos saugyklos atsarginė** kopija – ši funkcija išplečia finansinio integravimo sistemos klaidų tvarkymo galimybes. Tai taip pat įgalina automatinį fiskalinių registracijų duomenų atsarginį kopijavimą duomenų praradimo atveju, kad duomenys vietinėje saugykloje būtų atkurti, kai suaktyvinamas įrenginys.
+
 ## <a name="set-up-commerce-parameters"></a>"Commerce" parametrų nustatymas
+
+Norėdami nustatyti "Commerce" parametrus, atlikite šiuos veiksmus.
 
 1. Puslapio **Bendrai naudojami prekybos parametrai** skirtuke **Bendra** nustatykite parinkties **Įjungti fiskalinę integraciją** reikšmę **Taip**.
 1. Skirtuke **Numeracijos** nurodykite tolesnių nuorodų numeracijas.
@@ -33,8 +48,8 @@ ms.locfileid: "8462171"
 
 1. Puslapyje **Prekybos parametrai** nurodykite fiskalinio funkcinio profilio numeraciją.
 
-    > [!NOTE]
-    > Numeracijos nėra būtinos. Visų fiskalinės integracijos objektų numerius galima generuoti naudojant numeraciją arba neautomatiniu būdu.
+> [!NOTE]
+> Numeracijos nėra būtinos. Visų fiskalinės integracijos objektų numerius galima generuoti naudojant numeraciją arba neautomatiniu būdu.
 
 ## <a name="set-up-a-fiscal-registration-process"></a>Fiskalinės registracijos proceso nustatymas
 
@@ -43,7 +58,7 @@ Fiskalinės integracijos nustatymo procesas apima toliau nurodytas užduotis.
 - Sukonfigūruoti fiskalines jungtis, kurios nurodo finansinius įrenginius arba paslaugas, naudojamas fiskalinio registravimo tikslais, pvz., fiskaliniai spausdintuvai.
 - Sukonfigūruoti dokumentų teikėjus, generuojančius finansinius dokumentus, kuriuos fiskalinės jungtys užregistruos finansiniuose įrenginiuose arba paslaugose.
 - Sukonfigūruoti fiskalinės registracijos procesą, kuris apibrėžia fiskalinės registracijos veiksmus ir fiskalines jungtis bei finansinių dokumentų teikėjus, naudojamus kiekviename veiksme.
-- Priskirti fiskalinės registracijos procesus elektroninio kasos aparato (EKA) funkcijų profiliams.
+- EKA funkcijų šablonams priskirti finansinio registravimo procesą.
 - Priskirti jungčių techninius profilius aparatūros profiliams.
 - EKA aparatūros ar funkcijų šablonams priskirkite jungties techninius profilius.
 
@@ -90,7 +105,7 @@ Norėdami sukurti jungties funkcinius profilius, atlikite šiuos veiksmus.
 
 Funkciniame jungties profilyje galite keisti duomenų susiejimo parametrus. Toliau esančioje lentelėje pateikiami kai kurie duomenų susiejimo parametrų pavyzdžiai jungties funkciniame profilyje.
 
-| Parametras | Formatuoti | Pavyzdys |
+| Parametras | Formatas | Pavyzdys |
 |-----------|--------|---------|
 | PVM tarifų parametrai | vertė : VATrate | 1 : 2000, 2 : 1800 |
 | PVM kodų susiejimas | VATcode : vertė | vat20 : 1, vat18 : 2 |
@@ -176,7 +191,7 @@ Finansinio registravimo eigą nustato finansinio registravimo procesas ir kai ku
 - Finansinių dokumentų teikėjas iš anksto nustato įvykių ir operacijų prenumeratą fiskalinėje registracijoje.
 - Finansinių dokumentų teikėjas taip pat yra atsakingas už fiskalinių jungčių, naudojamų fiskalinėje registracijoje, nustatymą. Ji sugretina funkcinius jungčių profilius, kurie įtraukti į fiskalinių jungčių grupę, nurodytą esamame fiskalinė registracijos proceso veiksme, su techniniu jungties profiliu, kuris priskirtas aparatūros stoties, su kuria susietas EKA, aparatūros profiliui.
 - Finansinių dokumentų teikėjas naudoja duomenų susiejimo parametrus iš finansinių dokumentų teikėjo konfigūracijos, kad transformuotų operacijos / įvykio duomenis, pvz., mokesčius ir mokėjimus, kol generuojamas finansinis dokumentas.
-- Kai finansinių dokumentų teikėjas sugeneruoja finansinį dokumentą, fiskalinė jungtis gali siųsti jį nepakeistą į finansinį įrenginį arba išanalizuoti ir transformuoti į įrenginio programos programavimo sąsajos (API) komandų seką, atsižvelgiant į ryšį.
+- Kai fiskalinio dokumento teikėjas sugeneruoja fiskalinį dokumentą, fiskalinė jungtis gali nusiųsti jį į fiskalinį įrenginį kaip jis yra arba išanalizuoti ir transformuoti jį į įrenginio API komandų seką, atsižvelgiant į tai, kaip tvarkomas ryšys.
 
 ### <a name="set-up-registers-with-fiscal-registration-restrictions"></a>Nustatyti registrus su finansinio registravimo apribojimais
 
@@ -283,4 +298,21 @@ Norėdami įjungti neautomatinį atidėto finansinio registravimo vykdymą, tur�
     1. Puslapyje **Paskirstymo grafikas** paleiskite **1090** užduotį, kad perkeltumėte pakeitimus į kanalo duomenų bazę.
 
 
+## <a name="view-connection-parameters-and-other-information-in-pos"></a>Peržiūrėti ryšio parametrus ir kitą informaciją EKA
+
+Norėdami peržiūrėti ryšio parametrus ir kitą EKA informaciją, atlikite šiuos veiksmus.
+
+1. Atidaryti modernų EKA (MPOS) arba debesies EKA (CPOS).
+1. Pasirinkite **Parametrai**. Įgalinus finansų integravimą, **dešinėje pusėje** skyriuje "Fiscal Integration" bus rodoma ši informacija:
+
+    - Finansinio registravimo būsena
+    - Paskutinės fiskalinės operacijos būsena
+    - Laukiančių audito įvykių skaičius
+
+1. Pasirinkite **išsamią** informaciją, jei norite peržiūrėti šią informaciją:
+
+    - Registracijos proceso žingsniai
+    - Ryšio parametrai
+    - Audito įvykių informacija
+ 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

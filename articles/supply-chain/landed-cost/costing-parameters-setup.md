@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-07
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 1bcce7af0a15add63f1d9c3b32563de0ab6698bd
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: MT
+ms.openlocfilehash: 335bed49b05bf64547d7ded885f365a30487484f
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577653"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644644"
 ---
 # <a name="costing-parameter-values-setup"></a>Įkainojimo parametrų verčių nustatymas
 
@@ -123,9 +123,9 @@ Norėdami dirbti su savikainos šablonais pereikite į **Iškrovimo savikaina\> 
 
 ## <a name="volumetric-divisors"></a>Tūriniai dalikliai
 
-Tūriniai dalikliai naudojami turiniam svoriui apskaičiuoti. Kiekviena siuntimo / transportavimo įmonė formuluoja savo tūrinius daliklius. Be to, įmonės dalikliai paprastai skiriasi, priklausomai nuo pristatymo būdo. Pavyzdžiui, pristatant oru ir jūra dalikliai labai skiriasi. Įmonė taip pat gali sudėtingiau nustatyti savo taisykles, priklausomai nuo išsiuntimo vietos.
+Tūriniai dalikliai naudojami turiniam svoriui apskaičiuoti. Kiekviena siuntimo / transportavimo įmonė formuluoja savo tūrinius daliklius. Be to, įmonės dalikliai paprastai skiriasi, priklausomai nuo pristatymo būdo. Pavyzdžiui, pristatant oru ir jūra dalikliai labai skiriasi. Įmonė taip pat gali sudėtingiau nustatyti savo taisykles, priklausomai nuo išsiuntimo vietos. Sistema naudoja šią formulę tūrio matavimo svoriui rasti: tūrio tūris = tūris ÷ VolumetricDivisor.
 
-Pavyzdžiui, oru siunčiama pakuotė yra 3 kubinių metrų (m³). Įmonei mokesčiai taikomi pagal tūrinį svorį ir taikomas tūrinis daliklis 6. Šis daliklis dauginamas iš tūrio, kad būtų galima nustatyti tūrinį svorį. Todėl tūrinis svoris šiame pavyzdyje yra 3 × 6 = 18 kilogramų (kg).
+Pavyzdžiui, oru siunčiama pakuotė yra 3 kubinių metrų (m³). Įmonei mokesčiai taikomi pagal tūrinį svorį ir taikomas tūrinis daliklis 6. Šis daliklis padalinamas iš tūrio, kad būtų galima nustatyti tūrio svorį. Dėl to šio pavyzdžio tūrio matavimo svoris yra 3 ÷ 6 = 0,5 kilogramai (kg).
 
 Norėdami nustatyti tūrinius daliklius, į **Iškrovimo kaina \>Įkainojimo nustatymas\> Tūriniai dalikliai**. Puslapyje **Tūriniai dalikliai** pateikiamas tinklelis, kuriame išvardyti visi esami tūriniai dalikliai. Veiksmų srityje esančius mygtukus galima naudoti eilutėms tinklelyje pridėti, pašalinti ir redaguoti.
 
@@ -136,4 +136,7 @@ Norėdami nustatyti tūrinius daliklius, į **Iškrovimo kaina \>Įkainojimo nus
 | Gabenimo įmonė | Pasirinkite su tūriniu dalikliu susietos siuntimo įmonės tiekėjo sąskaitą. |
 | Išlaidų tipo kodas | Pasirinkite savikainos tipo kodą, susietą su tūriniu dalikliu. Naudokite šį laukelį savikainos tipams į ataskaitų rinkinius įtraukti. Ataskaitas galima spausdinti pagal ataskaitų kategorijas arba pagal savikainos tipą. |
 | Kilmės uostas | Pasirinkite išvykimo uostą, kuriam taikomas tūrinis daliklis. |
-| Tūrinis daliklis | Įveskite eilutei taikomą tūrinio daliklio reikšmę. Jūsų įvesta vertė bus *padauginta* iš kiekvieno paketo tūrio to paketo tūriniam svoriui apibrėžti. |
+| Tūrinis daliklis | Įveskite eilutei taikomą tūrinio daliklio reikšmę. Kiekvienos pakuotės tūris bus padalintas iš čia jūsų įvedamos vertės, kad būtų galima nustatyti pakuotės tūrio matavimo svorį. |
+
+> [!NOTE]
+> Sistema naudos maksimalią vertę tarp faktinio **svorio ir** **tūrio matavimo svorio**.

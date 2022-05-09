@@ -14,18 +14,27 @@ ms.search.region: Global
 ms.author: tfehr
 ms.search.validFrom: 2020-04-04
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: ebf11b55f1034b9a84dda9ada77c2f1b7f587a58
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
-ms.translationtype: MT
+ms.openlocfilehash: 89d2f53a761085949885c987d664654c3423524b
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7781594"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8645083"
 ---
 # <a name="install-the-iot-intelligence-add-in-in-lcs"></a>IoT analizės papildinio diegimas LCS
 
 [!include [banner](../../includes/banner.md)]
 
-Šioje temoje aiškinama, kaip portale „Microsoft Dynamics Lifecycle Services“ (LCS) įdiegti IoT analizės papildinį. Atkreipkite dėmesį, kad priedai negali būti įdiegti demo ar bandyminėje aplinkoje. Kad galėtumėte įdiegti papildinį, turite [sukurti „Azure“ išteklius](iot-azure-setup.md).
+Šioje temoje aiškinama, kaip portale „Microsoft Dynamics Lifecycle Services“ (LCS) įdiegti IoT analizės papildinį. Atkreipkite dėmesį, kad priedai negali būti įdiegti demo ar bandyminėje aplinkoje. Kad galėtumėte įdiegti papildinį, turite [sukurti „Azure“ išteklius ](iot-azure-setup.md).
+
+Galite nustatyti ir konfigūruoti „IoT“ įžvalgos nerašydami jokio kodo. Čia yra pagrindiniai veiksmai.
+
+1. [Nustatyti „Azure" išteklius](iot-azure-setup.md) – kurti „IoT" centrą, „Redis" talpyklą ir rakto saugyklą, kurią galima pasiekti iš „Supply Chain Management“.
+2. [Pranešimo schemų formatai IoT hub](iot-schema-format.md) – sukonfigūruokite savo įrenginius, kad jie siųsų pranešimus į „IoT hub“, ir nustatykite „JavaScript Object Notation" (JSON) pranešimo formatą.
+3. Funkcijų valdymo srityje įgalinkite „IoT“ įžvalgos funkcijos vėliavėlę.
+4. Įdiekite "IoT Intelligence Microsoft Dynamics " papildinį į ciklo tarnybas (LCS) – įdiekite papildinį LCS ir sukonfigūruokite "Azure" slaptumus (kaip aprašyta šioje temoje).
+5. [Nustatyti metriką](iot-metrics-setup.md) – „Supply Chain Management“ sistemos metrika.
+6. [Scenarijaus nustatymas](iot-scenario-setup.md) – „Supply Chain Management“ nustatykite scenarijus.
 
 ## <a name="set-up-the-lcs-environment"></a>LCS aplinkos konfigūravimas
 
@@ -47,7 +56,7 @@ ms.locfileid: "7781594"
 
 LCS sąranka dabar baigta. Kitas veiksmas – [nustatyti scenarijus](iot-scenario-setup.md).
 
-## <a name="uninstall-the-add-in"></a><a id="uninstall-addin"></a> Papildinio šalinimas
+## <a name="uninstall-the-add-in"></a><a id="uninstall-addin"></a>Papildinio šalinimas
 
 1. Programoje „Supply Chain Management“ [išjunkite scenarijus](iot-scenario-setup.md#disable-a-scenario).
 2. LCS eikite į „Supply Chain Management” aplinkos informaciją.

@@ -2,7 +2,7 @@
 title: Finansinės dimensijos
 description: Šioje temoje aprašomi įvairūs finansinių dimensijų tipai ir tai, kaip jie nustatomi.
 author: aprilolson
-ms.date: 01/03/2019
+ms.date: 03/07/2022
 ms.topic: article
 ems.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 9d5de5b58f0d498c4766659671d43fdb216cd6a870345509505b5a6bc19bdd4a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: MT
+ms.openlocfilehash: 36e667e8dd1282e788eb40cd392baa9db824cec2
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6754199"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644365"
 ---
 # <a name="financial-dimensions"></a>Finansinės dimensijos
 
@@ -31,7 +31,7 @@ Naudokite puslapį **Finansinės dimensijos** kurdami finansines dimensijas, kur
 
 Sukūrę finansines dimensijas, naudokite puslapį **Finansinių dimensijų reikšmės**, kad kiekvienai finansinei dimensijai priskirtumėte papildomų ypatybių.
 
-Kaip juridinių subjektų atitikmenis galite naudoti finansines dimensijas. Jums nereikia kurti juridinių subjektų programoje „Dynamics 365 Finance“. Tačiau finansinės dimensijos nėra skirtos patenkinti juridinių subjektų veiklos ar verslo poreikius. Susijusių vienetų apskaitos funkcija programoje „Finance“ yra skirta tik apskaitos įrašams, kuriuos sukuria kiekviena operacija.
+Kaip juridinių subjektų atitikmenis galite naudoti finansines dimensijas. Jums nereikia kurti juridinių subjektų "Dynamics 365 Finance". Tačiau finansinės dimensijos nėra skirtos patenkinti juridinių subjektų veiklos ar verslo poreikius. Susijusių vienetų apskaitos funkcija programoje „Finance“ yra skirta tik apskaitos įrašams, kuriuos sukuria kiekviena operacija.
 
 Prieš nustatydami finansines dimensijas kaip juridinius subjektus, įvertinkite savo verslo procesus toliau nurodytose srityse ir nustatykite, ar šis nustatymas veiks jūsų organizacijoje:
 
@@ -79,8 +79,12 @@ Siekiant išlaikyti duomenų integralumą, finansines dimensijas retai kada gali
 - Ar finansinė dimensija naudojama bet kokioje aktyvioje sąskaitos struktūroje, išplėstinės taisyklės struktūroje arba finansinių dimensijų rinkinyje?
 - Ar finansinė dimensija yra numatytojo finansinės dimensijos integracijos formato dalis?
 - Ar finansinė dimensija buvo nustatyta kaip numatytoji dimensija?
+- Ar finansinė dimensija buvo nepasirinkta finansinės ataskaitos nustatyme? 
 
 Teigiamai atsakius į bent vieną iš pirmiau pateiktų klausimų dimensijos panaikinti negalima.
+
+> [!NOTE]
+> Nuo 10.0.27 finansų versijos finansinės dimensijos automatiškai nebus pasirinktos finansinių ataskaitų nustatymui, kai jos bus sukurtos. 
 
 ## <a name="default-dimension-values"></a>Numatytosios dimensijos reikšmės
 

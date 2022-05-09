@@ -1,6 +1,6 @@
 ---
 title: Reguliavimo naujinimai
-description: Šioje temoje pateikiamas suplanuotų ir išleistų reguliavimo „Microsoft Dynamics 365 Finance“ naujinimų sąrašas.
+description: Šioje temoje pateikiamas suplanuotų ir išleistų 365 finansų Microsoft Dynamics reguliavimo atnaujinimų sąrašas.
 author: VStamberg
 ms.date: 01/20/2022
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: vastrup
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 19aadf844f239ef06ca4d9dbe60b597228d72e52
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
-ms.translationtype: MT
+ms.openlocfilehash: 734a4abf4559d05b1f96bcfbde151b49bba8e827
+ms.sourcegitcommit: 9e1129d30fc4491b82942a3243e6d580f3af0a29
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8470099"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8649135"
 ---
-# <a name="regulatory-updates"></a>Reguliavimo naujinimai
+# <a name="regulatory-updates"></a>Reglamentavimo naujinimai
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje išvardijami reguliavimo naujinimai, planuojami ir išleidžiami „Dynamics 365 Finance“ palaikomose lokalėse. Pristatymo terminai gali keistis ir numatomos funkcijos gali skirtis arba būti neišleistos. Daugiau informacijos žr. [„Microsoft“ strategija](https://go.microsoft.com/fwlink/p/?linkid=2007332). 
+Šioje temoje išvarditi reguliavimo atnaujinimai, kurie suplanuoti ir išleisti "Dynamics 365" finansinėse palaikomose lokalizacijose. Pristatymo terminai gali keistis ir numatomos funkcijos gali skirtis arba būti neišleistos. Daugiau informacijos žr. [„Microsoft“ strategija](https://go.microsoft.com/fwlink/p/?linkid=2007332). 
 
 Reglamentavimo atnaujinimai yra funkcijos, kurios sukurtos siekiant laikytis naujų arba pasikeitusių konkrečių šalių teisės aktų. Norėdami gauti daugiau informacijos apie planuojamas ir paleistas šaliai skirtas priemones, žr. " [Dynamics 365" ir paleidimo Power Platform planus](/business-applications-release-notes/index).
 
@@ -39,26 +39,26 @@ Naujausių reglamentavimo naujinių planų ieškokite toliau pateiktoje lentelė
 
 |Šalis|Išleidimo data|Leidimo versija|Reguliavimo naujinimas|
 |--------------------|---------------|-------|-------| 
-|      Brazilija         |   2021 m. gruodžio mėn.         | 10.0.24, 10.0.25         |    "SPED Fiscal" maketas 2022  |
-|      Brazilija         |   2022 m. kovo mėn.    | 10.0.24HF, 10.0.25 HF         |    ICMS-DIFAL operacijų paėmimas iš mokesčių mokėtojų mokesčių mokėtojų (papildoma teisė Nr. 190/22)  |
+|      Brazilija         |   2021 m. gruodžio mėn.         | 10.0.25         |    "SPED Fiscal" maketas 2022  |
+|      Brazilija         |   2022 m. kovo mėn.    | 10.0.25HF, 10.0.26HF, 10.0.27        |    ICMS-DIFAL operacijų paėmimas iš mokesčių mokėtojų mokesčių mokėtojų (papildoma teisė Nr. 190/22)  |
+|      Brazilija         |   2022 m. kovo mėn.         | 10.0.26 val.         |    "Sped Fiscal" – nauji laukai įraše C500 (34-40), skirti gaunamiems iždo dokumentams  |
+|      Brazilija         |   2022 m. kovo mėn.         | 10.0.27         |    NF-e NT2021.004 v1.00 – maketo ir tikrinimo taisyklių atnaujinimai  |
+|      Brazilija         |   2022 m. kovo mėn.         | 10.0.27         |    NF-e NT2021.004 v1.00 – maketo ir tikrinimo taisyklių naujinimai – mažmeninė prekyba  |
 |      Danija         |   Sausio 2022 d.  | 10.0.25 val.         |    PVM deklaracijos peržiūra "Excel" |
+|      Suomija         |   Sausio 2022 d.  | 10.0.26         |    PVM deklaracija TXT ir peržiūra "Excel" |
 |      Prancūzija   |   2021 m. lapkričio mėn. | 10.0.25         |    Prancūzijos duomenų archyvavimo eksportavimo (FEC) – "Trūkstamų skaičių pagrindimo" priedas |
-|      Italija         |   2021 m. lapkričio mėn.         | 10.0.24         |    Elektroninių SF išrašymas užsienio operacijoms  |
-|      Italija         |   2022 m. vasario mėn. | 10.0.24HF, 10.0.25 HF| Unikalus sertifikatas – 2022 m. Dynamics 365 Finance  |
-|      Lietuva|   2022 m. vasario mėn. | 10.0.24HF, 10.0.25 HF | i.VZ., 2022-01-01 pakeitimai Dynamics 365 Finance  |
-|      Meksika         |   2021 m. gruodžio mėn.      | 10.0.24      |   Carta de Porte 2.0 papildoma versija  |
-|      Norvegija        |   2021 m. lapkričio mėn.      | 10.0.24      |   PVM deklaracijos formatas 2022 su tiesioginiu pateikimu – Dynamics 365 Finance |
-|      Lenkija          |   2021 spalio mėn.     | 10.0.24     |   JPK_V7M – nauja schemos versija nuo 2022 m. sausio mėn. |
-|      Lenkija          |   2021 m. lapkričio mėn.     | 10.0.24 val.     |   Metinė komercinių operacijų mokėjimo datų ataskaita |
-|      Lenkija          |   2021 spalio mėn.     | 10.0.24     |   Elektroninis ES pardavimo sąrašo (PVM–UE) formatas |
-|      Rusija          |   2021 spalio mėn.     | 10.0.24    |   Pardavimo, pirkimo knygų ir faktūrų žurnalų pakeitimai|
-|      Rusija          |   2021 spalio mėn.     | 10.0.24 val.    |   Keisti PVM deklaracijos formatus su priedas|
-|      Rusija          |   2021 m. lapkričio mėn.     | 10.0.24    |   Federaliniai apskaitos standartai 6/2020 (Ilgalaikis turtas)|
-|      Rusija          |   Sausio 2022 d.     | 10.0.24HF, 10.0.25    |   Įgalinti elektroninių ataskaitų (ER) paskirties vietą Rusijos apskaitos dokumentams (pirminiams dokumentams ir apskaitos ataskaitoms) saugoti|
+|      Italija         |   2022 m. vasario mėn. | 10.0.25HF, 10.0.26| Unikalus sertifikatas – 2022 m. "Dynamics 365" finansuose  |
+|      Lietuva|   2022 m. vasario mėn. | 10.0.25HF, 10.0.26HF, 10.0.27 | i.VZ.VZ., 2022-01-01 Dynamics 365 Finance" iš "2022-01-01 Yra:  |
+|      Malaizija|   2022 m. vasario mėn. |10.0.26 val. | SST-02 deklaracijos pvm deklaracija. Langelių pakeitimai  |
+|      Meksika         |   Sausio 2022 d.      | 10.0.26      |   MX – CFDI 4.0 versija (atšaukimas)  |
+|      Meksika         |   2022 m. kovo mėn.      | 10.0.25, 10.0.26, 10.0.26      |   CFDI formatų 4.0 versija (SF ir mokėjimai)  |
+|      Meksika         |   2022 m. vasario mėn.      | 10.0.27      |   Nuo 2022 m. sausio 1 d. įsigalioja CFDI 4.0 versija, kurios galiojimo laikotarpis yra tarp 3.3 ir 4.0 versijos, kuri trunka nuo 2022 m. sausio 1 d. iki birželio 30 d.  |
+|      Meksika         |   2022 m. kovo mėn.      | 10.0.25, 10.0.26, 10.0.27      |   CFDI formatų 4.0 versija (išskaitoma)  |
+|      Lenkija          |   balandžio mėn. 2022 d.     | 10.0.25HF, 10.0.26HF, 10.0.27HF     |   JPK_FA 4 versiją, pradedant nuo balandžio 1 d 2022JPK_V7M – nauja schemos versija nuo 2022 m. sausio mėn. |
+|      Rusija          |   Sausio 2022 d.     | 10.0.25    |   Įgalinti elektroninių ataskaitų (ER) paskirties vietą Rusijos apskaitos dokumentams (pirminiams dokumentams ir apskaitos ataskaitoms) saugoti|
 |      Rusija          |   2021 m. gruodžio mėn.     | 10.0.25    |   Ilgalaikio turto (Rusijos) integravimo su turto valdymo moduliu|
-|      Rusija          |   2022 m. vasario mėn.     | 10.0.24HF, 10.0.25    |  Naujas transportavimo SF formatas (vyriausybės registro N 2116 30.11.2021)|
-|      Saudo Arabija          |   2021 m. lapkričio mėn.     | 10.0.24    |   Mažmeninė prekyba – elektroninių SF išrašymas Saudo Arabijoje – 1 etapas|
-|      Ispanija      |   2022 m. kovo mėn.| 10.0.24HF, 10.0.25 HF | Ispanija: 303 PVM deklaracijos modelis 2022 m. sausio 1 d. Dynamics 365 Finance|
+|      Rusija          |   2022 m. kovo – balandžio mėn.     | 10.0.25, 10.0.26    |  Naujas transportavimo SF formatas (vyriausybės registro N 2116 30.11.2021)|
+|      Ispanija      |   2022 m. kovo mėn.| 10.0.25HF, 10.0.26HF, 10.0.27 | PVM deklaracijos modelis 303 pakeitimus 2022 m. sausio 1 d. "Dynamics 365" finansuose|
 
 
 

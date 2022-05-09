@@ -2,7 +2,7 @@
 title: Įtraukti duomenų laukus į mokesčių integravimą naudojant plėtinius
 description: Šioje temoje paaiškinama, kaip naudoti X++ plėtinius norint įtraukti duomenų laukus į mokesčių integravimą.
 author: qire
-ms.date: 02/17/2022
+ms.date: 04/27/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: acbe8070424febf24883362448ea56857d9d72d9
-ms.sourcegitcommit: 68114cc54af88be9a3a1a368d5964876e68e8c60
-ms.translationtype: MT
+ms.openlocfilehash: 79b51812eac354072ebf2a0ef6fe8d39610c6385
+ms.sourcegitcommit: 9e1129d30fc4491b82942a3243e6d580f3af0a29
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323578"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8649107"
 ---
 # <a name="add-data-fields-in-the-tax-integration-by-using-extension"></a>Įtraukti duomenų laukus į mokesčių integravimą naudojant plėtinį
 
@@ -334,9 +334,10 @@ Išplėskite `copyToTaxableDocumentHeaderWrapperFromTaxIntegrationDocumentObject
 [ExtensionOf(classStr(TaxIntegrationCalculationActivityOnDocument_CalculationService))]
 final static class TaxIntegrationCalculationActivityOnDocument_CalculationService_Extension
 {
-    // Define key for the form in post request
+    // Define the field name in the request
     private const str IOCostCenter = 'Cost Center';
     private const str IOProject = 'Project';
+    // private const str IOEnumExample = 'Enum Example';
 
     /// <summary>
     /// Copies to <c>TaxableDocumentLineWrapper</c> from <c>TaxIntegrationLineObject</c> by line.
@@ -349,20 +350,24 @@ final static class TaxIntegrationCalculationActivityOnDocument_CalculationServic
         // Set the field we need to integrated for tax service
         _destination.SetField(IOCostCenter, _source.getCostCenter());
         _destination.SetField(IOProject, _source.getProjectId());
+
+        // If the field to be extended is an enum type, use enum2Symbol to convert an enum variable exampleEnum of ExampleEnumType to a string
+        // _destination.SetField(IOEnumExample, enum2Symbol(enumNum(ExampleEnumType), _source.getExampleEnum()));
     }
 }
 ```
 
-Šiuo kodu yra `_destination` viršelio objektas, naudojamas registruoti užklausai generuoti, `_source` ir yra `TaxIntegrationLineObject` objektas.
+Šiuo kodu yra `_destination` viršelio objektas, naudojamas užklausai sugeneruoti, ir `_source` yra `TaxIntegrationLineObject` objektas.
 
 > [!NOTE]
-> Nustatykite raktą, kuris naudojamas užklausos formoje kaip privatus const **str**. Eilutė turi būti lygiai tokia pati, kaip ir temoje įtrauktas matavimo pavadinimas: [įtraukti duomenų laukus į mokesčių konfigūracijas](tax-service-add-data-fields-tax-configurations.md).
-> Nustatykite lauką **copyToTaxableDocumentLineWraobjectFromTaxIntegrationLineObjectByLine** metode naudodami **SetField** metodą. Antrojo parametro duomenų tipas turi būti **eilutė**. Jei duomenų tipas nėra eilutė **, konvertuokite** jį.
-> Jei X++ išvarditi **tipas** išplėstas, atsidėmėkite skirtumą tarp jo vertės, žymės ir pavadinimo.
+> Nurodykite lauko pavadinimą, kuris naudojamas užklausoje kaip privatus const **str**. Eilutė turi būti lygiai tokia pati, kaip mazgo pavadinimas (ne žymė), [įtrauktas į temą Pridėti duomenų laukus mokesčių konfigūracijose](tax-service-add-data-fields-tax-configurations.md).
 > 
+> Nustatykite lauką **copyToTaxableDocumentLineWraobjectFromTaxIntegrationLineObjectByLine** metode naudodami **SetField** metodą. Antrojo parametro duomenų tipas turi būti **eilutė**. Jei duomenų tipas nėra eilutė **, konvertuoti** jį į eilutę.
+> Jei duomenų tipas yra X++ **išvardinimo** tipas, **rekomenduojame naudoti išvardiavimo2Symbol** metodą išvardiavimo vertei į eilutę konvertuoti. Mokesčių konfigūracijoje pridėta išvardi valdymo reikšmė turi būti lygiai tokia pati kaip išvardi jos pavadinimo. Toliau pateikiamas skirtumų tarp išvarditi vertės, žymės ir pavadinimo sąrašas.
+> 
+>   - Išvarditi pavadinimas yra simbolinis kodo pavadinimas. **enum2Symbol()** gali konvertuoti išvarditi vertę į jo pavadinimą.
 >   - Išvarditi vertė yra integer.
->   - Išvardi jos žymė gali skirtis pageidaujamose kalbose. Nenaudokite enum2Str **enum2Str** enum tipui konvertuoti į eilutę.
->   - Išvarditi rekomenduojama, nes jis fiksuotas. **enum2Symbol** gali būti naudojamas konvertuojant išvardiimą į jo pavadinimą. Išvardijimo reikšmė, įtraukta į mokesčių konfigūraciją, turi būti lygiai tokia pati kaip išvardijimo pavadinimas.
+>   - Išvardi jos žymė gali skirtis pageidaujamose kalbose. **enum2Str()** gali konvertuoti išvarditi vertę į jos žymę.
 
 ## <a name="model-dependency"></a>Modelio priklausomybė
 
@@ -526,7 +531,7 @@ final class TaxIntegrationPurchTableDataRetrieval_Extension
 [ExtensionOf(classStr(TaxIntegrationCalculationActivityOnDocument_CalculationService))]
 final static class TaxIntegrationCalculationActivityOnDocument_CalculationService_Extension
 {
-    // Define key for the form in post request
+    // Define the field name in the request
     private const str IOCostCenter = 'Cost Center';
     private const str IOProject = 'Project';
 

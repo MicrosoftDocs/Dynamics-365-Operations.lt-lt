@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 65891e380f740f4a1fa404d57789a6f50506d3b5
-ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
+ms.openlocfilehash: 7ce30b64bc7c3889347bec94186614bd6cc337f4
+ms.sourcegitcommit: 1050e58e621d9a0454895ed07c286936f8c03320
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "8565634"
+ms.lasthandoff: 04/21/2022
+ms.locfileid: "8625419"
 ---
 # <a name="provision-human-resources"></a>„Human Resources“ parengimas
 
@@ -41,7 +41,7 @@ Prieš pradedant parengti naują gamybos aplinką, turi būti įvykdytos toliau 
 ## <a name="provision-a-human-resources-trial-environment"></a>„Human Resources” bandomosios aplinkos parengimas
 
 >[!NOTE]
-> Nuo 2022 m. balandžio mėn. personalo bandomojo aplinkos nebus galimos atskirai programoje. Potencialūs klientai, kurie nori įvertinti personalo pajėgumus finansų ir operacijų programėlėse, gali tai padaryti naudodami nemokamą 30 dienų bandomąją versiją ir demonstracinius duomenis. "Dynamics 365 Finance" apims personalo pajėgumus, kuriuos į finansų infrastruktūrą atims atskira programa. Norėdami gauti daugiau informacijos, [žr](https://cloudblogs.microsoft.com/dynamics365/it/2021/09/15/merging-of-hr-offerings-brings-capabilities-together-for-customers). personalo pasiūlymų suliejimą, klientų galimybės yra sujungtos. Daugiau informacijos apie "Dynamics 365" finansų vedlius žr. nuoseklią [vadovą](/fin-ops/get-started/before-you-buy). 
+> Nuo 2022 m. balandžio mėn. personalo bandomojo aplinkos nebus galimos atskirai programoje. Potencialūs klientai, kurie nori įvertinti personalo pajėgumus finansų ir operacijų programėlėse, gali tai padaryti naudodami nemokamą 30 dienų bandomąją versiją ir demonstracinius duomenis. "Dynamics 365 Finance" apims personalo pajėgumus, kuriuos į finansų infrastruktūrą atims atskira programa. Norėdami gauti daugiau informacijos, [žr](https://cloudblogs.microsoft.com/dynamics365/it/2021/09/15/merging-of-hr-offerings-brings-capabilities-together-for-customers). personalo pasiūlymų suliejimą, klientų galimybės yra sujungtos. Daugiau informacijos apie "Dynamics 365" finansų vedlius žr. nuoseklią [vadovą](../fin-ops-core/fin-ops/get-started/before-you-buy.md). 
 
 
 Prieš parengdami savo pirmąją smėlio dėžės arba gamybos aplinką, galite norėti parengti [bandomąją „Human Resources” aplinką](https://go.microsoft.com/fwlink/p/?LinkId=2115962), kad patikrintumėte „Human Resources” funkcionalumą. Bandomosiose aplinkose pateikti išgalvoti duomenys, kuriais naudojantis galima saugiai tyrinėti programą. Nors bandomoji aplinka priklauso vartotojui, kuris to pageidavo, kiti vartotojai gali būti pakviesti per sistemos administravimo galimybę, skirtą žmogiškiesiems ištekliams. 

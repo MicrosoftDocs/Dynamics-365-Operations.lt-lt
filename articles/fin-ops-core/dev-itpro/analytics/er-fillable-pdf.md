@@ -2,7 +2,7 @@
 title: ER konfigūracijų kūrimas pildymui PDF šablonuose
 description: Šioje temoje pateikiama informacija apie tai, kaip sukurti elektroninės ataskaitos (ER) formatą, kad būtų galima pildyti PDF šabloną.
 author: NickSelin
-ms.date: 02/28/2022
+ms.date: 03/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: a568ddd93bfbc7d536e951a13470b3dedb796e1b
-ms.sourcegitcommit: 753714ac0dabc4b7ce91509757cd19f7be4a4793
+ms.openlocfilehash: 706256300cf0b64bc5b5e1e7adb77c1da500d16f
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8367861"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8645113"
 ---
 # <a name="design-er-configurations-to-fill-in-pdf-templates"></a>ER konfigūracijų kūrimas pildymui PDF šablonuose
 
 [!include[banner](../includes/banner.md)]
 
-Šios temos procedūros yra pavyzdžiai, kurie rodo, kaip vartotojas, kuriam priskirtas **sistemos administratoriaus** arba **elektroninių ataskaitų programuotojo** vaidmuo, gali konfigūruoti elektroninių ataskaitų (ER) formatą, kuris generuoja ataskaitas kaip PDF failus, naudojant pildomus PDF dokumentus kaip ataskaitų šablonus. Šiuos veiksmus galima atlikti bet kurioje „Dynamics 365 Finance“ arba „Regulatory Configuration Service“ (RCS) įmonėje.
+Šios temos procedūros yra pavyzdžiai, kurie rodo, kaip vartotojas, kuriam priskirtas **sistemos administratoriaus** arba **elektroninių ataskaitų programuotojo** vaidmuo, gali konfigūruoti elektroninių ataskaitų (ER) formatą, kuris generuoja ataskaitas kaip PDF failus, naudojant pildomus PDF dokumentus kaip ataskaitų šablonus. Šiuos veiksmus galima atlikti bet kurioje "Dynamics 365" finansų arba reguliavimo konfigūracijos tarnybų (RCS) įmonėje.
 
 ## <a name="prerequisites"></a>Būtinieji komponentai
 
@@ -252,10 +252,14 @@ Kadangi abi ypatybės yra pasirinktinės formato elementui **Laukas**, tikslinia
 - Jei nurodytas atributas **Pavadinimas**, bet išraiška **Pavadinimas** yra sukonfigūruota, PDF laukas, kurio vertę pateikia formato elemento išraiška **Pavadinimas**, yra užpildytas.
 
 > [!NOTE]
-> PDF žymės langelis gali būti pažymėtas šiais būdais:
+> Kai PDF šablono žymės langelis nepriklauso žymės langelių grupei, jis pateikiamas redaguojamu ER **formatu** **kaip lauko elementas, įdėtas po PDF failo** elementu. Šio tipo PDF žymės langelį galima nustatyti taip, kaip pasirinkta šiais būdais:
 >
-> - Kai atitinkamas formato elementas **Laukas** susietas su **Boolean** duomenų tipo duomenų šaltinio lauku, kurio vertė **True**
-> - Kai atitinkamas formato elementas **Laukas** turi įdėtąjį formato elementą **Eilutė**, susietą duomenų šaltinio lauku, kurio tekstinė vertė yra **1**, **True** arba **Taip**
+> - Atitinkamas lauko **formato** elementas yra susietas su Bulio logikos *[...](er-formula-supported-data-types-primitive.md#boolean)* duomenų tipo, kuriame yra reikšmė Teisinga, duomenų šaltinio **lauku**.
+> - Atitinkamo lauko **formato** elemente yra įdėtojo **eilutės** formato elementas **, kuris susietas su duomenų šaltinio lauku, kurio teksto vertė yra 1**, **Teisinga** arba **Taip**.
+>
+> Jūsų šablone gali būti žymės langelių grupė, kurioje vienu metu galima pažymėti tik vieną žymės langelį. Šie žymės langeliai PDF šablone pateikiami kaip keli CHECKBOX *tipo formos* laukai. Kiekvienas laukas turi tokį patį pavadinimą, bet turi skirtingą eksporto vertę. Kai importuojate šabloną į redaguojamą ER formatą, kiekvienas žymės langelis bus pateikiamas **hierarchinės** **struktūros formatu kaip žymės langelių grupės elementas, įdėtas po tuo pačiu žymės langelių grupės** elementu. Žymės langelių **grupės elemento** pavadinimas bus lygus PDF šablono žymės laukų pavadinimui. Kiekvieno žymės langelio **grupės prekės elemento** pavadinimas bus lygus atitinkamo žymės langelio, esančio PDF šablone, eksportavimo vertei.
+>
+> Žymės langelio grupės **elemento elementą galite susieti** tik su Bulio logikos *duomenų tipo* duomenų šaltinio lauku.
 
 ## <a name="run-the-format-configuration"></a>Formato konfigūracijos vykdymas
 

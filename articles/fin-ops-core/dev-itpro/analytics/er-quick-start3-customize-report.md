@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2c8cf4866b6a8c239359d726d8cd4f03a9eb4137
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: a7353d7d8149ff1316fbc0adc55b7e1050f443a8
+ms.sourcegitcommit: 5f7177b9ab192b5a6554bfc2f285f7cf0b046264
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8324092"
+ms.lasthandoff: 04/30/2022
+ms.locfileid: "8661664"
 ---
 # <a name="customize-electronic-reporting-configurations-to-generate-an-electronic-document"></a>Elektroninių ataskaitų konfigūracijų tinkinimas elektroniniam dokumentui generuoti
 
 [!include[banner](../includes/banner.md)]
 
-[Elektroninių ataskaitų (ER) sistema](general-electronic-reporting.md) leidžia nusiųsti „Microsoft” pateiktas ER [konfigūracijas](general-electronic-reporting.md#Configuration) į „Microsoft Dynamics 365 Finance” egzempliorių. Tokiu būdu „Microsoft” pateiktos konfigūracijos gali veikti kaip ER sprendimas, naudojamas elektroninėms kliento SF (el. SF) generuoti. Ši ER sprendimą galite naudoti jūsų pasirinktiniam ER sprendimui konfigūruoti, norėdami pasiekti jūsų pasirinktinius duomenų bazės laukus ir sugeneruoti el. SF, atitinkančias jūsų konkrečius reikalavimus, neredaguodami šaltinio kodo.
+Elektroninių [ataskaitų (ER) sistema](general-electronic-reporting.md) leidžia įkelti ER [konfigūracijas](general-electronic-reporting.md#Configuration), kurias "Microsoft" pateikia, į savo Microsoft Dynamics "365 Finance" egzempliorių. Tokiu būdu „Microsoft” pateiktos konfigūracijos gali veikti kaip ER sprendimas, naudojamas elektroninėms kliento SF (el. SF) generuoti. Ši ER sprendimą galite naudoti jūsų pasirinktiniam ER sprendimui konfigūruoti, norėdami pasiekti jūsų pasirinktinius duomenų bazės laukus ir sugeneruoti el. SF, atitinkančias jūsų konkrečius reikalavimus, neredaguodami šaltinio kodo.
 
 ## <a name="overview"></a>Peržiūra
 
@@ -61,7 +61,7 @@ Jei esate elektroninių ataskaitų funkcinio konsultanto ar elektroninių ataska
 ### <a name="configure-er-parameters"></a>ER parametrų konfigūravimas
 
 1. Eikite į **Organizacijos administravimas** \> **Darbo sritys** \> **Elektroninės ataskaitos**.
-2. **Lokalizavimo konfigūracijos** puslapyje **Susiję saitai** pasirinkite **Elektroninių ataskaitų parametrai**.
+2. **Puslapio Lokalizavimo brėžinys** sekcijoje **Susiję saitai** pasirinkite **Elektroninių ataskaitų parametrai**.
 3. **Elektroninių ataskaitų parametrai** puslapyje **Bendra** skirtuke nustatykite **Įjungti dizaino režimą** parinktį į **Taip**.
 4. Skirtuko **Priedai** lauke **Konfigūracijos** pasirinkite **Failas**.
 5. **Užduoties archyvas**, **Laikini**, **Bazinė linija** ir **Kiti** laukuose pasirinkite **Failas** tipą.
@@ -78,13 +78,13 @@ Kiekviena pridėta ER konfigūracija pažymėta kaip priklausanti ER konfigūrac
 #### <a name="review-the-list-of-er-configuration-providers"></a>ER konfigūracijos teikėjų sąrašo peržiūra
 
 1. Eikite į **Organizacijos administravimas** \> **Darbo sritys** \> **Elektroninės ataskaitos**.
-2. **Lokalizavimo konfigūracijos** puslapyje **Susiję saitai** skyriuje pasirinkite **Konfigūracijos tiekėjai**.
+2. **Puslapio Lokalizavimo brėžinys** sekcijoje **Susiję saitai** pasirinkite **Konfigūracijos teikėjai**.
 3. **Konfigūracijos teikėjo lentelė** puslapyje kiekvienas teikėjo įrašas turi unikalų pavadinimą ir URL. Peržiūrėkite šio puslapio turinį. Jei įrašas, skirtas **Litware, Inc.** ( `https://www.litware.com`) jau yra, praleiskite sekančią procedūrą, [Pridėkite naują ER konfigūracijos teikėją](#AddProvider).
 
 #### <a name="add-a-new-er-configuration-provider"></a><a id="AddProvider"></a>Pridėkite naują ER konfigūracijos tiekėją
 
 1. Eikite į **Organizacijos administravimas** \> **Darbo sritys** \> **Elektroninės ataskaitos**.
-2. **Lokalizavimo konfigūracijos** puslapyje **Susiję saitai** skyriuje pasirinkite **Konfigūracijos tiekėjai**.
+2. **Puslapio Lokalizavimo brėžinys** sekcijoje **Susiję saitai** pasirinkite **Konfigūracijos teikėjai**.
 3. **Konfigūracijos tiekėjai** puslapyje pasirinkite **Nauja**.
 4. Lauke **Pavadinimas** įveskite **Litware, Inc.**
 5. **Internetinis adresas** lauke įveskite `https://www.litware.com`.
@@ -93,7 +93,7 @@ Kiekviena pridėta ER konfigūracija pažymėta kaip priklausanti ER konfigūrac
 #### <a name="activate-an-er-configuration-provider"></a>ER konfigūracijos tiekėjo aktyvavimas
 
 1. Eikite į **Organizacijos administravimas** \> **Darbo sritys** \> **Elektroninės ataskaitos**.
-2. **Lokalizavimo konfigūracijos** puslapyje **Konfigūracijos teikėjai** dalyje pasirinkite **„Litware, Inc.”** plytelę ir pasirinkite **Nustatyti kaip aktyvų**.
+2. **Puslapio Lokalizavimo brėžinys** sekcijoje Konfigūravimo paslaugų teikėjai **pasirinkite** plytelę **Litware, Inc.**, tada pasirinkite **Nustatyti aktyvų**.
 
 Daugiau informacijos apie ER konfigūracijos tiekėjus žr. [Konfigūracijos teikėjų kūrimas pažymint juos kaip aktyvius](tasks/er-configuration-provider-mark-it-active-2016-11.md).
 
@@ -102,7 +102,7 @@ Daugiau informacijos apie ER konfigūracijos tiekėjus žr. [Konfigūracijos tei
 Norėdami įtraukti standartines ER konfigūracijas į dabartinį „Finance” egzempliorių, turite importuoti jas iš ER [saugyklos](general-electronic-reporting.md#Repository), sukonfigūruotos tam egzemplioriui.
 
 1. Eikite į **Organizacijos administravimas** \> **Darbo sritys** \> **Elektroninės ataskaitos**.
-2. **Lokalizavimo konfigūracijos** puslapyje **Konfigūracijos teikėjai** dalyje pasirinkite **„Microsoft”** plytelę ir pasirinkite **Saugyklos**, kad peržiūrėtumėte „Microsoft” tiekėjo saugyklų sąrašą.
+2. **Puslapio Lokalizavimo brėžinys** sekcijoje Konfigūravimo paslaugų teikėjai **pasirinkite** **"Microsoft"** plytelę, tada pasirinkite **Saugyklos**, kad peržiūrėtumėte "Microsoft" teikėjo saugyklų sąrašą.
 3. Puslapyje **Konfigūracijų saugyklos** pasirinkite **Visuotinis** tipo saugyklą, paskui pasirinkite **Atidaryti**. Jei esate raginami autorizuoti, kad prisijungtumėte prie „Regulatory Configuration Service”, vadovaukitės autorizavimo instrukcijomis.
 4. Puslapio **Konfigūracijos saugykla** kairiosios srities konfigūracijos medyje pasirinkite formato konfigūraciją **PEPPOL pardavimo SF**.
 5. Sparčiajame skirtuke **Versijos** paspauskite **11.2.2**.
@@ -116,7 +116,7 @@ Norėdami įtraukti standartines ER konfigūracijas į dabartinį „Finance” 
 ### <a name="review-the-imported-er-configurations"></a>Importuotų ER konfigūracijų peržiūra
 
 1. Eikite į **Organizacijos administravimas** \> **Darbo sritys** \> **Elektroninės ataskaitos**.
-2. **Lokalizavimo konfigūracijos** puslapyje **Konfigūracijos** dalyje pasirinkite plytelę **Konfigūracijų ataskaitos**.
+2. **Puslapio Lokalizavimo brėžinys** sekcijoje Konfigūracijos **pasirinkite** plytelę **Ataskaitų konfigūracijos**.
 3. Puslapyje **Konfigūracijos** išplėskite „FastTab” **Konfigūracijos komponentai**.
 4. Kairiosios srities konfigūracijos medyje išplėskite **SF modelis**, tada – **UBL pardavimo SF**.
 

@@ -14,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: henrikan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3e9bc4fefb6aabc0b93d4d96f5930590ef99235b
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: MT
+ms.openlocfilehash: 38bf1f9f201e7f34e6a7ea76fbef399ba94caafa
+ms.sourcegitcommit: 367e323bfcfe41976e5d8aa5f5e24a279909d8ac
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567661"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "8660385"
 ---
 # <a name="set-up-shipping-carriers"></a>Siuntų vežėjų nustatymas
 
@@ -27,8 +27,8 @@ ms.locfileid: "7567661"
 
 Šioje temoje aprašyta, kaip nustatyti siuntų vežėją ir jo išsamią informaciją, pavyzdžiui, tarnybą, siuntimo būdą, transportavimo mokėjimo priemonę, transportavimo apribojimus ir siuntimo tarifą. Transportavimo koordinatorius tada gali priskirti siuntų vežėją gaunamam arba siunčiamam kroviniui.
 
-
 ## <a name="create-a-new-shipping-carrier"></a>Kurti naują siuntų vežėją
+
 1. Eikite į **Naršymo sritis > Moduliai > Transportavimo valdymas > Sąranka > Vežėjai > Siuntų vežėjai**.
 2. Veiksmų srityje pasirinkite **Nauja**.
 3. Lauke **Siuntų vežėjas** įveskite reikšmę.
@@ -36,6 +36,7 @@ ms.locfileid: "7567661"
 5. Lauke **Būdas** išplečiamajame meniu pažymėkite parinktį.
 
 ## <a name="fill-in-the-general-information-for-the-shipping-carrier"></a>Įvesti bendrą siuntų vežėjo informaciją
+
 1. Perjunkite skyriaus **Apžvalga** išplėtimą.
 2. Pažymėkite arba atžymėkite žymės langelį **Aktyvinti siuntų vežėją**.
 3. Lauke **Tiekėjo sąskaita** išplečiamajame meniu pažymėkite parinktį. Pasirinkite tiekėjo sąskaitą, kad priskirtumėte siuntų vežėjui.  
@@ -43,13 +44,16 @@ ms.locfileid: "7567661"
 5. Pažymėkite arba atžymėkite žymės langelį **Aktyvinti vežėjų vertinimą**.
 
 ## <a name="create-the-necessary-services-for-the-shipping-carrier"></a>Sukurti siuntų vežėjui būtinas paslaugas
+
 1. Perjunkite skyriaus **Paslaugos** išplėtimą.
 2. Pasirinkite **Naujas**.
 3. Lauke **Vežėjo tarnyba** įveskite reikšmę.
 4. Lauke **Pavadinimas** įveskite reikšmę.
-5. Lauke **Transportavimo būdas** išplečiamajame meniu pažymėkite parinktį.
+5. Lauke Krovinio **šablono ID** pasirinkite krovinio šabloną, kurį norite susieti su tarnyba. Krovinio šablonas nurodo maksimalų viso krovinio svorio ir tūrio matavimą. Pvz., krovinio šablonas gali atitikti sunkvežimio ar konteinerio dydį. Krovinio šablonų ID taip pat nurodyti krovinio kūrimo šablonuose ir naudojant krovinio kūrimo darbo vietą [, kuri padeda taikyti krovinio kūrimo strategijas](load-building-workbench.md), siekiant sukurti krovinius. Todėl lyginant nurodytus krovinio šablonų ID sistema galės kiekvieną naują krovinį suderinti su tinkama vežėjo paslauga.
+6. Lauke **Transportavimo būdas** išplečiamajame meniu pažymėkite parinktį.
 
 ## <a name="set-up-the-address-for-the-carrier-optional"></a>Nustatyti vežėjo adresą (pasirinktinai)
+
 1. Perjunkite skyriaus **Adresai** išplėtimą.
 2. Pasirinkite **Naujas**.
 3. Lauke **Pavadinimas arba aprašas** įveskite reikšmę.
@@ -59,6 +63,7 @@ ms.locfileid: "7567661"
 7. Pasirinkite **Gerai**.
 
 ## <a name="set-up-the-rating-profile-for-the-shipping-carrier"></a>Nustatyti siuntų vežėjo vertinimo šabloną
+
 1. Perjunkite skyriaus **Vertinimo profiliai** išplėtimą.
 2. Pasirinkite **Naujas**.
 3. Lauke **Vertinimo profilis** įveskite reikšmę.

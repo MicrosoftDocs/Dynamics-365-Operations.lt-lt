@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-07-30
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 642ba812156a95e9b0be2e996d4a93096a5809a9
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: c73587015d6714c409819ab19ad68685aaa71cf7
+ms.sourcegitcommit: 70289a33b0a6ff3f9418d91a928db452cfd815bd
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8468334"
+ms.lasthandoff: 04/20/2022
+ms.locfileid: "8618266"
 ---
 # <a name="differences-between-built-in-master-planning-and-planning-optimization"></a>Skirtumas tarp įtaisytojo bendrojo planavimo ir „Planning Optimization“
 
@@ -37,6 +37,7 @@ ms.locfileid: "8468334"
 | Saugos atsargų iškvietimas ir grynieji poreikiai | *Saugos atsargų* reikalavimo tipas nėra įtrauktas ir nėra rodomas **Grynųjų poreikių** puslapyje. Saugos atsargos neatspindi poreikio ir neturi su juo susietos poreikio datos. Vietoj to jis nustato apribojimą, kiek atsargų visada turi būti pasiekiama. Tačiau vis dar atsižvelgiama į lauko **Mažiausia** reikšmę apskaičiuojant suplanuotus užsakymus bendrojo planavimo metu. Rekomenduojame patikrinti **Sukauptas kiekis** stulpelį, esantį **Grynųjų poreikių** puslapyje, kad pamatytumėte, jog į šią reikšmę buvo atsižvelgta. |
 | Transportavimo kalendoriai | Pristatymo būdų puslapio **Transportavimo kalendorius** stulpelio **vertė ignoruojama**. |
 | Min. / maks. padengimo kodas be verčių| Naudojant įtaisytą planavimo sistemą, kai naudojate min. / maks. padengimo kodą, kuriame nėra nustatytos minimalios ar maksimalios vertės, planavimo variklis padengimo kodą laiko reikalavimu ir kiekvienam poreikiui sukuria vieną užsakymą. Sistema sukurs vieną užsakymą per dieną planavimo optimizavimui padengti visą tos dienos sumą.  |
+| Grynieji reikalavimai ir rankiniu būdu sukurti suplanuoti užsakymai | Neautomatiniu būdu sukurti prekės tiekimo užsakymai naudojant įtaisytąjį planavimo sistemą automatiškai rodomi tarp grynųjų tos prekės poreikių. Pavyzdžiui, kuriant pirkimo užsakymą iš pardavimo užsakymo, **pirkimo užsakymas rodomas grynųjų poreikių** puslapyje nereikalaujant jokių ankstesnių veiksmų. Taip yra todėl, kad įtaisytasis planavimo variklis lentelėje registruoja atsargų operacijas `inventLogTTS`**ir rodo pakeitimus dinaminių planų grynųjų** poreikių puslapyje. Tačiau planavimo optimizavimo atveju rankiniu būdu sukurti užsakymai nebus rodomi tarp grynųjų prekės poreikių, kol bus paleistas planavimo optimizavimas (naudojant planą, kuriame yra prekė) **\>** **arba** kol grynųjų poreikių puslapyje veiksmų srityje nebus įtrauktas bendrasis planavimas, kuris galėsite vykdyti prekės bendrąjį planavimą. Daugiau informacijos apie tai, kaip dirbti su grynųjų **poreikių puslapiu**, žr [. grynojo reikalavimų ir iškvietimo informaciją naudodami planavimo optimizavimą](net-requirements.md). |
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 

@@ -10,21 +10,20 @@ ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-4-1
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: cb9679bd02c5400fc015c6807407b01e9bf55343
-ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
+ms.openlocfilehash: 1c764de42f727bb72adbb8b015745599f428656e
+ms.sourcegitcommit: 7faf82fa7ce269c0201abb8473af861ef7ce00bf
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/05/2022
-ms.locfileid: "8388241"
+ms.lasthandoff: 04/19/2022
+ms.locfileid: "8613914"
 ---
 # <a name="fiscal-registration-service-integration-sample-for-the-czech-republic"></a>Čekijos finansinio registravimo tarnybos integravimo pavyzdys
 
 [!include[banner](../includes/banner.md)]
-[!include[banner](../includes/preview-banner.md)]
 
 Šioje temoje pateikta Čekijos Respublika finansinio integravimo pavyzdžio apžvalga Microsoft Dynamics 365 Commerce.
 
-Siekiant patenkinti vietinius finansinius reikalavimus grynųjų pinigų registrams Čekijos Respublika, Dynamics 365 Commerce Čekijos respublika turi pavyzdinį kasos aparato (EKA) integravimą su išorine finansinio registravimo tarnyba. Pavyzdys išplečia finansinio [integravimo funkciją](fiscal-integration-for-retail-channel.md). Jis remiasi [EFR (elektroninio finansinio registro)](https://efsta.org/sicherheitsloesungen/)[sprendimu iš EFSTA](https://efsta.org/) ir įgalina ryšį su EFR tarnyba per HTTPS protokolą. EFR tarnyba užtikrina elektroninę pardavimo registraciją (EET – Elektro²² evidence tržeb), t. y. pardavimų duomenų perdavimas mokesčių institucijų fiskalinei žiniatinklio tarnybai.
+Siekiant patenkinti vietinius finansinius reikalavimus grynųjų pinigų registrams Čekijos Respublika, Dynamics 365 Commerce Čekijos respublika turi pavyzdinį kasos aparato (EKA) integravimą su išorine finansinio registravimo tarnyba. Pavyzdys išplečia fiskalinės [integracijos funkciją](fiscal-integration-for-retail-channel.md). Jis remiasi [EFR (elektroninio finansinio registro)](https://efsta.org/sicherheitsloesungen/)[sprendimu iš EFSTA](https://efsta.org/) ir įgalina ryšį su EFR tarnyba per HTTPS protokolą. EFR tarnyba užtikrina elektroninę pardavimo registraciją (EET – Elektro²² evidence tržeb), t. y. pardavimų duomenų perdavimas mokesčių institucijų fiskalinei žiniatinklio tarnybai.
 
 EFR tarnyba turi būti laikoma "Commerce Hardware" stotis arba atskirame kompiuteryje, kurį galima prijungti prie "Hardware" stoties. Pavyzdys pateikiamas šaltinio kodo forma ir yra mažmeninės prekybos programinės įrangos kūrimo rinkinio (SDK) dalis.
 
@@ -36,24 +35,24 @@ EFR tarnyba turi būti laikoma "Commerce Hardware" stotis arba atskirame kompiut
 
 - Grynųjų pinigų operacijų registravimas finansinio registravimo tarnybose.
 
-    - Siųsti išsamius operacijos duomenis į finansinio registravimo tarnybą. Šie duomenys apima pardavimo eilutės informaciją ir informaciją apie nuolaidas, mokėjimus ir mokesčius. Finansinio registravimo tarnyba toliau siunčia duomenis į mokesčių inspekcijos žiniatinklio tarnybą ir gauna patvirtinimą iš jo, kuriame įtrauktas operacijos fiskalinio identifikavimo kodas.
-    - Perimti iždo registracijos tarnybos atsakymą. Šis atsakymas apima finansinius duomenis, pvz., finansinio identifikavimo kodą, operacijos saugos kodą ir pan.
+    - Siųsti išsamius operacijos duomenis fiskalinės registracijos tarnybai. Šie duomenys apima pardavimo eilutės informaciją ir informaciją apie nuolaidas, mokėjimus ir mokesčius. Finansinio registravimo tarnyba toliau siunčia duomenis į mokesčių inspekcijos žiniatinklio tarnybą ir gauna patvirtinimą iš jo, kuriame įtrauktas operacijos fiskalinio identifikavimo kodas.
+    - Užfiksuokite fiskalinės registracijos tarnybos atsakymą. Šis atsakymas apima finansinius duomenis, pvz., finansinio identifikavimo kodą, operacijos saugos kodą ir pan.
     - Spausdinti kvite užregistruotos operacijos finansinius duomenis.
 
 - Dovanų kortelių operacijų ir kliento depozitų registravimas finansinio registravimo tarnybose.
 
-    - Išduoti arba įtraukti pinigus į dovanų kortelę.
-    - Registruoti kliento sąskaitos depozitą.
+    - Išduokite arba pridėkite pinigų prie dovanų kortelės.
+    - Užregistruokite kliento sąskaitos indėlį.
     - Sukurkite kliento užsakymą ir užregistruokite užsakymo depozitą.
     - Redaguoti kliento užsakymą ir nepaisyti užsakymo įmokos.
     - Atšaukti kliento užsakymą ir grąžinti užsakymo depozitą.
 
 - Klaidos tvarkymą, pvz., šias pasirinktis.
 
-    - Pakartokite fiskalinę registraciją, jei galima kartoti, pvz., jei fiskalinių registracijų tarnyba negalima, neparuošta arba neatsako.
-    - Atidėti finansinio registravimo datą.
-    - Praleisti ataskaitinį registravimą arba pažymėti operaciją kaip užregistruotą ir įtraukti informacijos kodus, kad būtų fiksuojama trikties priežastis ir papildoma informacija.
-    - Patikrinkite finansinio registravimo tarnybos pasiekiamumą prieš atidarę naują pardavimo operaciją arba kai pardavimo operacija baigiama.
+    - Bandykite pakartotinę fiskalinę registraciją, jei galima bandyti dar kartą, pvz., jei fiskalinės registracijos paslauga nepasiekiama, neparuošta arba neatsako.
+    - Atidėti fiskalinę registraciją.
+    - Praleiskite fiskalinę registraciją arba pažymėkite operaciją kaip registruotą ir įtraukite informacijos kodus, kad užfiksuotumėte gedimo priežastį ir papildomą informaciją.
+    - Patikrinkite, ar yra fiskalinės registracijos paslaugos, prieš atidarydami naują pardavimo operaciją arba užbaigdami pardavimo operaciją.
 
 ### <a name="gift-cards"></a>Dovanų kortelės
 
@@ -75,9 +74,9 @@ Finansinio registravimo tarnybos integravimo pavyzdys vykdo šias taisykles, sus
 
 Jei fiskalinių registracijų paslaugai nepavyksta perduoti operacijos duomenų į mokesčių institucijų fiskalinę žiniatinklio tarnybą (pvz., dėl atsakymo skirtasis laikas) ir gauti patvirtinimą iš žiniatinklio tarnybos (t. y. operacijos fiskalinio identifikavimo kodo), ji sugeneruoja vietinį operacijos parašą ir į atsakymą įtraukia jį bei specialų klaidos kodą. Finansinio registravimo tarnyba atstatius tinklo ryšį atstato operacijas originalia tvarka fone.
 
-### <a name="limitations-of-the-sample"></a>Pavyzdžio apribojimai
+### <a name="limitations-of-the-sample"></a>Imties apribojimai
 
-Finansinio registravimo tarnyba palaiko tik scenarijus, kuriuose PVM įtraukiamas į kainą. Todėl parduotuvių **ir klientų parinktis** Kaina su PVM turi **būti** nustatyta kaip Taip.
+Fiskalinės registracijos tarnyba palaiko tik tuos atvejus, kai PVM yra įtrauktas į kainą. Todėl parinktis **Kaina su PVM** turi būti nustatyta kaip **Taip** tiek parduotuvėms, tiek pirkėjams.
 
 ## <a name="set-up-commerce-for-the-czech-republic"></a>Nustatyti Čekijos komercijos prekybą
 
@@ -88,7 +87,7 @@ Norėdami naudoti Čekiją specifinę funkciją, turite nurodyti šiuos parametr
 - Pirminiame juridinio subjekto adrese nustatykite šalies **/regiono lauką** **CZE** (Čekijos Respublika).
 - Kiekvienos Čekijos Respublika, kuri yra Čekijos Respublikai, **EKA funkcijų profilyje nustatykite ISO** **kodo lauką CZ** (Čekijos Respublika).
 
-Taip pat turite nurodyti šiuos Čekijos parametrus. Atkreipkite dėmesį, kad užbaigę nustatymą turite vykdyti atitinkamas paskirstymo užduotis.
+Taip pat turite nurodyti šiuos Čekijos parametrus. Atminkite, kad baigę sąranką turite vykdyti atitinkamas paskirstymo užduotis.
 
 ### <a name="set-up-vat-per-czech-republic-requirements"></a>Nustatyti PVM pagal Čekijos Respublika reikalavimus
 
@@ -101,10 +100,10 @@ Turite sukurti PVM kodus, PVM grupes ir prekės PVM grupes. Taip pat turite nust
 
 - Lauke PVM **grupė nurodykite** PVM grupę, kurią reikia naudoti pardavimams numatytojam klientui.
 - Nustatykite **parinktį Kainos su PVM** kaip **Taip**.
-- Nustatykite **įmonės** pavadinimą lauke Pavadinimas. Šis pakeitimas padeda užtikrinti, kad pardavimo kvite bus rodomas įmonės pavadinimas. Taip pat galite įtraukti įmonės pavadinimą į pardavimo kvito maketą kaip laisvos formos tekstą.
-- Nustatyti mokesčio **identifikavimo numerio (TIN)** lauką kaip įmonės identifikavimo numerį. Šis pakeitimas padeda užtikrinti, kad pardavimo kvite bus rodomas įmonės identifikavimo numeris. Taip pat galite prie pardavimo kvito maketo pridėti įmonės identifikavimo numerį kaip laisvos formos tekstą.
+- Nustatykite **įmonės** pavadinimą lauke Pavadinimas. Šis pakeitimas padeda užtikrinti, kad įmonės pavadinimas būtų rodomas pardavimo kvite. Taip pat galite įtraukti įmonės pavadinimą į pardavimo kvito maketą kaip laisvos formos tekstą.
+- Nustatyti mokesčio **identifikavimo numerio (TIN)** lauką kaip įmonės identifikavimo numerį. Šis pakeitimas padeda užtikrinti, kad įmonės identifikavimo numeris būtų rodomas pardavimo kvite. Taip pat galite prie pardavimo kvito maketo pridėti įmonės identifikavimo numerį kaip laisvos formos tekstą.
 
-### <a name="set-up-functionality-profiles"></a>Funkcijų šablonų kūrimas
+### <a name="set-up-functionality-profiles"></a>Funkcijų šablonų nustatymas
 
 Nustatyti EKA funkcijų šablonus.
 
@@ -126,40 +125,40 @@ Galite konfigūruoti kalbos tekstą ir pasirinktinius laukus, kurie naudojami EK
 
 Kalbos teksto **puslapyje** pridėkite šiuos kvitų maketų pasirinktinių laukų žymių įrašus. Atkreipkite dėmesį **, kad** lentelėje **pateiktos kalbos ID,** **teksto ID** ir teksto vertės yra tik pavyzdžiai. Juos galite pakeisti, kad jie atitiktų jūsų poreikius. Tačiau jūsų naudojamas **teksto ID** vertės turi būti unikalios ir turi būti lygios arba didesnės nei 900001.
 
-Įtraukite šias EKA žymes į kalbos **teksto** EKA **skyrių** iš lentelės:
+Įtraukite šias EKA etiketes į **lentelės kalbos teksto** EKA **sekciją**:
 
 | Kalbos ID | Teksto ID | Tekstas                   |
 |-------------|---------|------------------------|
-| en-JAV       | 900001  | ID klientos sąs. / pokladny |
-| en-JAV       | 900002  | B SD                    |
-| en-JAV       | 900003  | P SG                    |
-| en-JAV       | 900004  | FIK                    |
-| en-JAV       | 900005  | Informacija                   |
-| en-JAV       | 900006  | Sekos numeris        |
+| lt       | 900001  | ID klientos sąs. / pokladny |
+| lt       | 900002  | B SD                    |
+| lt       | 900003  | P SG                    |
+| lt       | 900004  | FIK                    |
+| lt       | 900005  | Informacija                   |
+| lt       | 900006  | Sekos numeris        |
 
-Pasirinktinių **laukų puslapyje** pridėkite šiuos įrašus prie kvitų maketų pasirinktinių laukų. Atkreipkite **dėmesį, kad antraštės teksto ID** reikšmės turi **atitikti teksto ID** vertes, kurias nurodėte kalbos **teksto** puslapyje:
+Pasirinktinių **laukų puslapyje** pridėkite šiuos įrašus prie kvitų maketų pasirinktinių laukų. Atminkite, kad **antraštės teksto ID** reikšmės turi atitikti **teksto ID** reikšmes **, kurias nurodėte puslapyje Kalbos teksto tekstas**:
 
-| Pavadinimas / vardas ir (arba) pavardė                 | Tipas    | Vaizdo aprašo teksto ID |
+| Vardas                 | Tipas    | Vaizdo aprašo teksto ID |
 |----------------------|---------|-----------------|
 | TLT                  | Gavimas | 900001          |
 | SEC                  | Gavimas | 900002          |
 | ŽENKLAS                 | Gavimas | 900003          |
 | FISKALINĖS               | Gavimas | 900004          |
 | INFORMACIJA                 | Gavimas | 900005          |
-| IŠTISINIS NUMERAVIMAS     | Gavimas | 900006          |
+| NEPERTRAUKIAMAS SKAIČIUS     | Gavimas | 900006          |
 
 > [!NOTE]
 > Svarbu nurodyti teisingus pasirinktinių laukų pavadinimus, kurie išvardyti ankstesnėje lentelėje. Neteisingas pasirinktinio lauko pavadinimas gali sukelti kvitų duomenų.
 
 ### <a name="configure-receipt-formats"></a>Kvitų formatų konfigūravimas
 
-Kiekvieno reikiamo kvito formato atveju pakeiskite lauko Spausdinti veikimo būdą **vertę** į **Visada spausdinti**.
+Kiekvienam reikiamam gavimo formatui pakeiskite lauko Spausdinimo **elgsena** reikšmę į **Visada spausdinti**.
 
 Kvitų formato dizaineryje į atitinkamus kvitų skyrius įtraukite šiuos pasirinktinius laukus. Nepamirškite, kad laukų pavadinimai atitinka ankstesniame skyriuje jūsų apibrėžtus kalbos tekstus.
 
 - **Antraštė:** pridėkite šiuos laukus.
 
-    - **Parduotuvės pavadinimas** ir **mokesčio ID**: šie laukai naudojami kvituose spausdinant įmonės pavadinimą ir tapatybės numerį. Taip pat galite įtraukti įmonės pavadinimą ir tapatybės numerį į maketą kaip laisvos formos tekstą.
+    - **Parduotuvės pavadinimas** ir **mokesčio ID**: šie laukai naudojami kvituose spausdinant įmonės pavadinimą ir tapatybės numerį. Arba galite įtraukti įmonės pavadinimą ir tapatybės numerį į maketą kaip laisvos formos tekstą.
     - **Parduotuvės adresas**, **data**, **laikas 24 val**., **kvito numeris** ir **registro numeris**.
     - **Eilės numeris**: šis laukas identifikuoja grynųjų pinigų operacijos numerį finansinio registravimo tarnybose.
 
@@ -271,7 +270,7 @@ Norėdami nustatyti programavimo aplinką, kad būtų galima patikrinti ir išpl
 
 1. Užduokite arba atsisiųskite [Dynamics 365 Commerce sprendimų](https://github.com/microsoft/Dynamics365Commerce.Solutions) saugyklą. Pasirinkite tinkamą paleidimo šakos versiją pagal savo SDK / programos versiją. Norėdami gauti daugiau informacijos, žr. ["Download Retail SDK" pavyzdžius ir nuorodų paketus iš GitHub ir NuGet](../dev-itpro/retail-sdk/sdk-github.md).
 1. Atidarykite EFR sprendimą **Dynamics365Commerce.SolutionsFiscalIntegrationEfrEFR.sln\\\\\\ ir sukurkite** jį.
-1. Įdiegti CRT plėtinius:
+1. Įdiekite CRT plėtinius:
 
     1. Rasti plėtinio CRT diegimo programą:
 

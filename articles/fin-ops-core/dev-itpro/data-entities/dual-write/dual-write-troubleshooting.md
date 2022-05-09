@@ -2,19 +2,19 @@
 title: Bendroji trikčių šalinimo informacija
 description: Šioje temoje pateikiama bendroji trikčių diagnostikos informacija, skirta dvigubo rašymo integravimui tarp finansų ir operacijų programėlių ir Dataverse.
 author: RamaKrishnamoorthy
-ms.date: 04/07/2020
+ms.date: 04/18/2022
 ms.topic: article
 audience: Application User, IT Pro
 ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 8b5951f9f40179ca0bf31f5cccf1f05a0f968213
-ms.sourcegitcommit: 1843235766b6f8cf950a13a310e9f4f2f53c59a4
-ms.translationtype: HT
+ms.openlocfilehash: 5896b031229c7fe7e02c8ccf038dd2b1a4f2de05
+ms.sourcegitcommit: 7faf82fa7ce269c0201abb8473af861ef7ce00bf
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/07/2022
-ms.locfileid: "8554605"
+ms.lasthandoff: 04/19/2022
+ms.locfileid: "8614101"
 ---
 # <a name="general-troubleshooting"></a>Bendroji trikčių šalinimo informacija
 
@@ -131,6 +131,29 @@ Norėdami iš naujo įgalinti formos parinktį **Informacija**, atlikite toliau 
 2. Formų mazge raskite formą **Informacija**.
 3. Pasirinkite formą **Informacija** ir spustelėkite **Įgalinti saugos vaidmenis**.
 4. Pakeiskite saugos parametro parinktį į **Rodyti visiems**.
+
+## <a name="how-to-ensure-data-integration-is-using-the-most-current-finance-and-operations-schema"></a>Kaip užtikrinti duomenų integravimą naudojant dabartinę finansų ir operacijų schemą
+
+Duomenų integravimo metu gali kilti problemų dėl naujausias schemas. Toliau pateikti veiksmai padės atnaujinti finansų ir operacijų programėlių objektų sąrašą ir duomenų integratoriaus objektus.
+
+### <a name="refresh-entity-list-in-finance-and-operations-environment"></a>Atnaujinti objektų sąrašą finansų ir operacijų aplinkoje
+1.  Prisiregistruokite prie savo finansų ir operacijų aplinkos.
+2.  Pasirinkite **Duomenų valdymą**.
+3.  Duomenų valdymo viduje pasirinkite Sistemos **parametrus**.
+4.  Puslapyje Duomenų **importavimo / eksportavimo sistemos** parametrai pasirinkite skirtuką **Objekto parametrai** ir pasirinkite Atnaujinti **objektų sąrašą**. Atsižvelgiant į susijusių objektų skaičių, atnaujinimas gali užtrukti ilgiau nei 30 minučių.
+5.  Eikite į **duomenų valdymą** ir pasirinkite **Duomenų objektus,** norėdami patikrinti, ar pateikti numatomi objektai. Jei numatomi objektai nėra išvardyti, patikrinkite, ar objektai rodomi jūsų finansų ir operacijų aplinkoje ir, jei reikia, atkurkite trūkstamus objektus.
+
+#### <a name="if-the-refresh-fails-to-resolve-the-issue-delete-and-re-add-the-entities"></a>Jei atnaujinimo nepavyko išspręsti problemos, panaikinkite ir iš naujo įtraukite objektus
+
+> [!NOTE]
+> Jums gali reikėti sustabdyti visas apdorojimo grupes, kurios prieš ištrinant aktyviai naudoja objektus.
+
+1.  Pasirinkite **duomenų valdymą** savo finansų ir operacijų aplinkoje ir pasirinkite **Duomenų objektai**.
+2.  Ieškoti objektų, turinčių problemų, ir pažymėti paskirties objektą, išdėstymo lentelę, objekto pavadinimą ir kitus parametrus. Panaikinkite objektą arba objektus iš sąrašo.
+3.  Pasirinkite **Naujas** ir iš naujo įtraukite objektą arba objektus naudodami 2 veiksmo duomenis. 
+
+#### <a name="refresh-entities-in-data-integrator"></a>Atnaujinti objektus duomenų integratoriu
+Prisiregistruokite administravimo Power Platform centre ir pasirinkite duomenų **integravimą**. Atidarykite projektą, kuriame atsiranda problemų, ir pasirinkite Atnaujinti **objektus**.
 
 ## <a name="how-to-enable-and-save-network-trace-so-that-traces-can-be-attached-to-support-tickets"></a>Kaip įjungti ir įrašyti tinklo sekimą, kad sekimus būtų galima pridėti prie palaikymo kvitų
 

@@ -2,7 +2,7 @@
 title: Konfigūracijų kūrimas dokumentams „Excel“ formatu generuoti
 description: Šioje temoje apibūdinama, kaip kurti Elektroninės ataskaitos (ER) formatą, kad būtų galima pildyti „Excel“ šabloną, o tada generuoti siunčiamus „Excel“ formato dokumentus.
 author: NickSelin
-ms.date: 02/28/2022
+ms.date: 03/25/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1b2f38aa9e5eff9366697afd57ceefd06f026096
-ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
+ms.openlocfilehash: ec25065f2e3cc3b5dd3c9004d5330447f7b2ac61
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/05/2022
-ms.locfileid: "8388268"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8645141"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>Konfigūracijos, skirtos dokumentams „Excel“ formatu generuoti, kūrimas
 
@@ -141,7 +141,12 @@ Galite konfigūruoti savo Excel šabloną, kad jis galėtų naudoti langelius te
 > [!NOTE]
 > [Dėl žinomo Excel](https://support.microsoft.com/topic/you-cannot-use-the-autofit-feature-for-rows-or-columns-that-contain-merged-cells-in-excel-34b54dd7-9bfc-6c8f-5ee3-2715d7db4353) apribojimo, net jei konfigūruojate langelius, kad įsilaužtų tekstas, ir konfigūruojate eilutes, kuriose yra tų langelių, kad automatiškai pakoreguotų jų aukštį, kad tilptų tekstas, gali būti taip, kad sulietiems langeliams ir eilutėms, kuriose yra tų langelių, **gali būti, kad negalėsite naudoti funkcijos AutoFit** **ir Tikrinimo** teksto Excel. 
 
-Dynamics 365 Finance Kaip ir 10.0.23 versiją galite priversti ER sugeneruotame dokumente apskaičiuoti kiekvienos eilutės aukštį, kuris buvo sukonfigūruotas taip, kad automatiškai atitiktų įdėtųjų langelių turinį, kai tą eilutę sudaro bent vienas sulietas langelis, kuris buvo sukonfigūruotas taip, kad jame būtų rodomas tekstas. Apskaičiuotas aukštis naudojamas eilutei pakeisti, kad sugeneruotame dokumente būtų matomi visi eilutės langeliai. Jei norite pradėti naudoti šią funkciją, paleisdami bet kuriuos ER formatus, sukonfigūruotus naudoti Excel šablonus siunčiamams dokumentams generuoti, atlikite šiuos veiksmus.
+Kaip ir "Dynamics 365" finansų versija 10.0.23, kai dirbate su sugeneruotu dokumentu, galite priversti ER apskaičiuoti kiekvienos eilutės aukštį, kuris buvo sukonfigūruotas taip, kad automatiškai atitiktų įdėtųjų langelių turinį, kai vienoje eilutėje yra bent vienas sulietas langelis, kuris buvo sukonfigūruotas uždengti tekstą jame. Apskaičiuotas aukštis naudojamas eilutei pakeisti, kad sugeneruotame dokumente būtų matomi visi eilutės langeliai.
+
+> [!NOTE]
+> Žinokite, kad ši funkcija gali neveikti kaip tikėtasi, kai pasirinktinis šriftas naudojamas sulietai langeliui formatuoti. Kadangi "Excel" neįterpa pasirinktinių šriftų, ji teikia ne informaciją apie pasirinktinį šrifto dydį. Todėl gali būti netinkamai įvertintas susieto langelio dydis.
+
+Jei norite pradėti naudoti šią funkciją, paleisdami bet kuriuos ER formatus, sukonfigūruotus naudoti Excel šablonus siunčiamams dokumentams generuoti, atlikite šiuos veiksmus.
 
 1. Eikite į **Organizacijos administravimas** \> **Darbo sritys** \> **Elektroninės ataskaitos**.
 2. **Lokalizavimo konfigūracijos** puslapyje **Susiję saitai** pasirinkite **Elektroninių ataskaitų parametrai**.
@@ -224,7 +229,7 @@ Kai naudojate **Puslapio** komponentą „Excel” puslapių išdėstymui, jūs 
 > [!TIP]
 > Norėdami pasiekti šį rezultatą „Excel” antraštėje arba poraštėje, naudokite specialų „Excel” [formatavimą](/office/vba/excel/concepts/workbooks-and-worksheets/formatting-and-vba-codes-for-headers-and-footers) antraštėms ir poraštėms.
 
-Į sukonfigūruotus **Puslapio** komponentus nėra atsižvelgiama, kai atnaujinate „Excel” šabloną redaguojamu formatu 10.0.22 „Dynamics 365 Finance” versijoje. Ši funkcija yra svarstoma būsimiems „Finance” leidimams.
+Sukonfigūruotų puslapio **komponentų** neį atsižvelgiama, kai atnaujinate "Excel" šabloną redaguojamu formatu "Dynamics 365" finansų versijoje 10.0.22. Ši funkcija yra svarstoma būsimiems „Finance” leidimams.
 
 Jei konfigūruojate savo „Excel” šabloną, kad būtų naudojamas [sąlyginis formatavimas](/office/dev/add-ins/excel/excel-add-ins-conditional-formatting), jis tam tikrais atvejais gali neveikti taip, kaip tikėjotės.
 

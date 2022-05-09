@@ -2,7 +2,7 @@
 title: Duomenų importavimo ir eksportavimo užduočių apžvalga
 description: Norėdami kurti ir valdyti duomenų importavimo bei eksportavimo užduotis, naudokite darbo sritį Duomenų valdymas.
 author: peakerbl
-ms.date: 10/21/2021
+ms.date: 04/25/2022
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e63daad6f206500bfa21c28635648c717f5bbdde
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 74430aadc661a49e330960135ce7b0912079f79b
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8071090"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644467"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>Duomenų importavimo ir eksportavimo užduočių apžvalga
 
@@ -74,8 +74,11 @@ Pasirinkę objektą, turite pasirinkti duomenų, kurie bus eksportuojami arba im
 > [!NOTE]
 > Svarbu pasirinkti tinkamą eilučių skyriklio **stulpelio skyriklio**, **teksto kvalifikatoriaus**, ir **Eilutės skyriklio**, jei **Failo formatas** parinktis yra nustatyta **Atribota**. Įsitikinkite, kad jūsų duomenyse nėra simbolio, kuris naudojamas kaip skyriklis arba kvalifikatorius, nes dėl to gali kilti klaidų importuojant ir eksportuojant.
 
+> [!NOTE]
+> XML formato failams būtinai naudokite tik teisėtus simbolius. Išsamesnės informacijos apie galiojančius simbolius žr. [XML 1.0 galiojančius simbolius](https://www.w3.org/TR/2006/REC-xml-20060816/Overview.html#charsets/). XML 1.0 neleidžia naudoti jokių valdiklio simbolių, išskyrus skirtukus, grąžinimų grąžinimus ir eilučių kanalus. Neleistinų simbolių pavyzdžiai yra laužtiniai skliaustai, skliaustai ir pasvirieji brūkšniai. 
+
 ### <a name="sequence-the-entities"></a>Objektų sekos nustatymas
-Objektų seka gali būti nustatyta duomenų šablone arba importavimo ir eksportavimo užduotyse. Vykdydami užduotį, kurioje yra daugiau nei vienas duomenų objektas, turite įsitikinti, kad nustatyta teisinga duomenų objektų seka. Objektų seka pirmiausia nustatoma todėl, kad galėtumėte valdyti tarp objektų esančias funkcines priklausomybes. Jei objektai funkcinių priklausomybių neturi, galima suplanuoti juos importuoti arba eksportuoti lygiagrečiai.
+Objektų seka gali būti nustatyta duomenų šablone arba importavimo ir eksportavimo užduotyse. Vykdydami užduotį, kurioje yra daugiau nei vienas duomenų objektas, turite įsitikinti, kad nustatyta teisinga duomenų objektų seka. Objektų seka pirmiausia nustatoma todėl, kad galėtumėte valdyti tarp objektų esančias funkcines priklausomybes. Jei objektai funkcinių priklausomybių neturi, galima suplanuoti juos importuoti arba eksportuoti lygiagrečiai. 
 
 #### <a name="execution-units-levels-and-sequences"></a>Vykdymo vienetai, lygiai ir sekos
 Vykdymo vienetas, jo lygis ir objekto seka padeda valdyti, kokia tvarka duomenys eksportuojami ar importuojami.
@@ -206,7 +209,7 @@ Planuodami valymo procesą, turite nurodyti šiuos parametrus, kad apibrėžtum�
 ## <a name="job-history-clean-up-and-archival"></a>Užduočių retrospektyvos valymas ir archyvavimas 
 Užduoties retrospektyvos valymo ir archyvavimo funkcija pakeičia ankstesnes valymo funkcijos versijas. Šiame skyriuje bus paaiškintos naujos galimybės.
 
-Vienas iš pagrindinių valymo funkcijos pakeitimų yra sistemos paketinės užduoties naudojimas retrospektyvai valyti. Sistemos paketinės užduoties naudojimas leidžia „Finance and Operations“ programoms automatiškai suplanuoti ir paleisti išvalymo paketinę užduotį, kai tik sistema bus paruošta. Nebereikia paketinės užduoties planuoti neautomatiniu būdu. Šiuo numatytuoju vykdymo režimu paketinė užduotis bus vykdoma kiekvieną valandą nuo vidurnakčio ir išlaikys vykdymo retrospektyvą artimiausioms 7 dienoms. Išvalyta retrospektyva archyvuojama, kad ją būtų galima gauti ateityje. Pradedant 10.0.20 versija, ši funkcija visada įjungta.
+Vienas iš pagrindinių valymo funkcijos pakeitimų yra sistemos paketinės užduoties naudojimas retrospektyvai valyti. Naudojant sistemos paketinę užduotį, finansų ir operacijų programėlės gali automatiškai suplanuoti ir paleisti valymo paketinę užduotį, kai tik sistema bus parengta. Nebereikia paketinės užduoties planuoti neautomatiniu būdu. Šiuo numatytuoju vykdymo režimu paketinė užduotis bus vykdoma kiekvieną valandą nuo vidurnakčio ir išlaikys vykdymo retrospektyvą artimiausioms 7 dienoms. Išvalyta retrospektyva archyvuojama, kad ją būtų galima gauti ateityje. Pradedant 10.0.20 versija, ši funkcija visada įjungta.
 
 Antrasis valymo proceso pakeitimas yra išvalytos vykdymo retrospektyvos archyvavimas. Išvalymo užduotis archyvuoja panaikintus įrašus didelių dvejetainių objektų saugykloje, kurią DIXF naudoja įprastai integracijai. Suarchyvuotas failas bus DIXF paketo formatu ir bus pasiekiamas 7 dienas didelių dvejetainių objektų saugykloje – tada jį bus galima atsisiųsti. Numatytąją 7 dienų suarchyvuoto failo laikymą parametruose galima pakeisti į ne daugiau nei 90 dienų.
 

@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 14312
 ms.assetid: 585d5b0b-1b79-4a03-ab18-528918070377
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 71e87b1102e21e035c25af4c63245eaaa59e4babb82bcf59c5cfba48f7d114f3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 101cbcc77b2e1eab9fb4b6724fc5e3e8925a54c5
+ms.sourcegitcommit: 836695c0e95d366ba993f34eee30f57191f356d8
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6749057"
+ms.lasthandoff: 04/21/2022
+ms.locfileid: "8629719"
 ---
 # <a name="create-vendor-payments-by-using-a-payment-proposal"></a>Tiekėjo mokėjimų kūrimas naudojant mokėjimo pasiūlymą
 
@@ -48,7 +48,7 @@ Mokėjimo pasiūlymo užklausoje yra įvairių skirtukų, kurių kiekvienas turi
 - **Įtraukti tiekėjo sąskaitas iš kitų juridinių asmenų** – jei jūsų įmonė turi centralizuotą mokėjimo procesą, o mokėjimo pasiūlymas turėtų apimti sąskaitas iš kitų juridinių asmenų, kurie yra įtraukti į paieškos kriterijus, nustatykite šią parinktį **Taip**.
 - **Pasiūlyti atskirą tiekėjo mokėjimą juridiniam asmeniui** – jei ši parinktis yra nustatyta **Taip**, kiekvienam juridiniam asmeniui vienam tiekėjui atskira sukuriama išmoka. Tiekėjas mokėjimui yra tiekėjas iš kiekvieno juridinio asmens sąskaitos. Jei ši parinktis yra nustatyta **Ne**, ir tas pats tiekėjas turi sąskaitas iš kelių juridinių asmenų, sukuriamas pasirinktų sąskaitų faktūrų visose pasirinktose įmonėse sumos mokėjimas. Tiekėjas mokėjimui yra esamo juridinio asmens tiekėjas. Jei esamoje įmonėje nėra tiekėjo sąskaitos, bus naudojama pirmosios apmokėtos sąskaitos faktūros tiekėjo sąskaita.
 - **Mokėjimo valiuta** – šiame lauke nurodoma valiuta, kuria atliekami visi sukurti mokėjimai. Jeigu valiuta nenurodyta, kiekviena SF apmokama SF valiuta.
-- **Mokėjimo savaitės diena** – nurodykite savaitės dieną, kurią turėtų būti atliekamas mokėjimas. Šis laukas naudojamas tik tada, kai yra nustatytas visų sąskaitų apmokėjimas tam tikrą savaitės dieną.
+- **Mokėjimo savaitės diena** – įveskite savaitės dieną, kada turi būti atliktas mokėjimas. Šis laukas naudojamas tik tada, jei mokėjimo būdas nustatytas kaip **Savaitė**. Mokėjimo SF suma yra sumuota nurodytą mokėjimo savaitės dieną.
 - **Korespondentinės sąskaitos tipas** ir **Korespondentinė sąskaita** – nustatykite šiuos laukus, kai norite nurodyti konkretų sąskaitos tipą (pvz., **Didžioji knyga** arba **Bankas**) ir korespondentinę sąskaitą (pvz., specialią banko sąskaitą). SF apmokėjimo metodas nurodo numatytąjį korespondentinės sąskaitos tipą ir korespondentinę sąskaitą, tačiau šiuos laukus galite naudoti norėdami perrašyti numatytąsias reikšmes.
 - **Susumuoto mokėjimo data** – naudojama tik tada, kai mokėjimo būdo laukas **Laikotarpis** yra nustatytas į **Bendras**. Jeigu nurodyta data, visi mokėjimai sukuriami šiai dienai. **Minimalios mokėjimo datos** laukas yra ignoruojamas.
 - **Papildomi filtrai** – „FastTab“ **Įtrauktini įrašai** galite nurodyti papildomus kriterijus. Pavyzdžiui, jei norite sumokėti tik tam tikrai tiekėjų grupei, galite nustatyti tiekėjų filtrą. Ši funkcija yra dažnai naudojama pasirinkti sąskaitas pagal konkretų mokėjimo būdą. Pavyzdžiui, jei nustatysite filtrą, kur **Apmokėjimo būdas**  =  **Čekis**, apmokėjimui bus atrinktos tik SF, kurių pasirinktas tas mokėjimo būdas, su sąlyga, kad jos taip pat atitinka kitus užklausos kriterijus.

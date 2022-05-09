@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: tfehr
 ms.search.validFrom: 2020-04-25
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6b6c179052cdb9d1ca808d9cba089163bde0d5d5
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
-ms.translationtype: MT
+ms.openlocfilehash: 5c587f4e6a1dd58a7b8c238fc5afb16774828b2a
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7782686"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644392"
 ---
 # <a name="iot-intelligence-home-page"></a>Pagrindinis IoT įžvalgų puslapis
 
@@ -37,32 +37,35 @@ IoT įžvalgos yra „Microsoft Dynamics 365 Supply Chain Management“ priedas.
 
 IoT įžvalgos palaiko šiuos scenarijus:
 
-+ **Gamybos atidėjimas** – šiuo scenarijumi palyginamas faktinis ciklo laikas ir suplanuotas ciklo laikas. „Supply Chain Management“ jus informuoja, kai gamyba nesuplanuojama, kad galėtumėte pasistenti maksimaliai padidinti veiklos efektyvumą ir išvengti užsakymo vėlavimo.
-+ **Įrangos prastovo laikas** – šiuo scenarijumi matuojami upeiniai parametrai palyginami su vartotojo nurodytais parametrais. „Supply Chain Management“ jus praneša, kai viršijama ribinė vertė, kad galėtumėte atlikti veiksmus, pvz., perplanuoti gamybos darbo užsakymą arba kurti priežiūros darbo užsakymą.
-+ **Produkto kokybė** – šiuo scenarijumi lyginami jutiklio rodmenys, pvz., temperatūra ir pagal vartotojo nustatytą kokybės metriką. „Supply Chain Management“ jus praneša, kai atsiranda nuokrypis, taigi galite pasižiūrėti kokybės standartus ir sumažinti atliekas.
+- **Gamybos atidėjimas** – šiuo scenarijumi palyginamas faktinis ciklo laikas ir suplanuotas ciklo laikas. „Supply Chain Management“ jus informuoja, kai gamyba nesuplanuojama, kad galėtumėte pasistenti maksimaliai padidinti veiklos efektyvumą ir išvengti užsakymo vėlavimo.
+- **Įrangos prastovo laikas** – šiuo scenarijumi matuojami upeiniai parametrai palyginami su vartotojo nurodytais parametrais. „Supply Chain Management“ jus praneša, kai viršijama ribinė vertė, kad galėtumėte atlikti veiksmus, pvz., perplanuoti gamybos darbo užsakymą arba kurti priežiūros darbo užsakymą.
+- **Produkto kokybė** – šiuo scenarijumi lyginami jutiklio rodmenys, pvz., temperatūra ir pagal vartotojo nustatytą kokybės metriką. „Supply Chain Management“ jus praneša, kai atsiranda nuokrypis, taigi galite pasižiūrėti kokybės standartus ir sumažinti atliekas.
 
 Toliau esanti iliustracija parodo „Azure IoT Hub", „IoT“ įžvalgos ir „Supply Chain Management“ sąveiką.
 
 ![IoT centras, IoT įžvalgos ir „Supply Chain Management“.](media/iot_intelligence.png)
 
-## <a name="setup"></a>Sąranka
+<!-- KFM: hide setup info for now
 
-Galite nustatyti ir konfigūruoti „IoT“ įžvalgos nerašydami jokio kodo. Čia yra pagrindiniai veiksmai.
+## Setup
 
-1. [Nustatyti „Azure" išteklius](iot-azure-setup.md) – kurti „IoT" centrą, „Redis" talpyklą ir rakto saugyklą, kurią galima pasiekti iš „Supply Chain Management“.
-2. [Pranešimo schemų formatai IoT hub](iot-schema-format.md) – sukonfigūruokite savo įrenginius, kad jie siųsų pranešimus į „IoT hub“, ir nustatykite „JavaScript Object Notation" (JSON) pranešimo formatą.
-3. Funkcijų valdymo srityje įgalinkite „IoT“ įžvalgos funkcijos vėliavėlę. 
-4. [Įdiekite „IoT" įžvalgos papildinį į ciklo „Microsoft Dynamics Lifecycle Services“ (LCS)](iot-lcs-setup.md) – įdiekite papildinį LCS ir sukonfigūruokite „Azure" slaptumus.
-5. [Nustatyti metriką](iot-metrics-setup.md) – „Supply Chain Management“ sistemos metrika.
-6. [Scenarijaus nustatymas](iot-scenario-setup.md) – „Supply Chain Management“ nustatykite scenarijus.
+You can set up and configure IoT Intelligence without writing any code. Here are the basic steps.
+
+1. [Set up Azure resources](iot-azure-setup.md) – Create an IoT hub, a Redis cache, and a key vault that can be accessed from Supply Chain Management.
+2. [Message schema formats for IoT Hub](iot-schema-format.md) – Configure your devices to send messages to IoT Hub, and define the JavaScript Object Notation (JSON) message format.
+3. In Feature Management, enable the IoT Intelligence feature flag. 
+4. [Install the IoT Intelligence add-in in Microsoft Dynamics Lifecycle Services (LCS)](iot-lcs-setup.md) – Install the add-in in LCS, and configure the Azure secrets.
+5. [Set up metrics](iot-metrics-setup.md) – Set up metrics in Supply Chain Management.
+6. [Scenario setup](iot-scenario-setup.md) – Set up the scenarios in Supply Chain Management.
+
+-->
 
 ## <a name="tracking-and-maintenance"></a>Sekimas ir priežiūra
 
-+ [Stebėjimo scenarijai „Dynamics 365 Supply Chain Management“](iot-management.md#monitor-scenarios)
-+ [Scenarijaus išjungimas](iot-scenario-setup.md#disable-a-scenario)
-+ [Papildinio šalinimas](iot-lcs-setup.md#uninstall-addin)
-+ [Vykdomo IoT analizės scenarijaus modifikavimas](iot-management.md#modify-a-running-iot-intelligence-scenario)
-+ [Modeliavimo parinktys](iot-management.md#simulation-options)
+- [Stebėjimo scenarijai „Dynamics 365 Supply Chain Management“](iot-management.md#monitor-scenarios)
+- [Scenarijaus išjungimas](iot-scenario-setup.md#disable-a-scenario)
+- [Vykdomo IoT analizės scenarijaus modifikavimas](iot-management.md#modify-a-running-iot-intelligence-scenario)
+- [Modeliavimo parinktys](iot-management.md#simulation-options)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

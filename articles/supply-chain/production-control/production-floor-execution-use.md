@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: a677eb71f97a953c625a1f667b055e5b7696fbe6
-ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
+ms.openlocfilehash: f163b8feb906470f31a648bf09abf5647c5f1bab
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8384430"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644996"
 ---
 # <a name="how-workers-use-the-production-floor-execution-interface"></a>Kaip darbuotojai naudoja gamybos cecho vykdymo sąsają
 
@@ -74,9 +74,9 @@ Aktyvių užduočių sąraše yra toliau pateikti stulpeliai:
 
 ## <a name="my-jobs-tab"></a>Skirtukas Mano užduotys
 
-Skirtukas **Mano** užduotys leidžia darbuotojams lengvai peržiūrėti visas nebaigtas ir specialiai jiems priskirtas užduotis. Tai naudinga įmonėse, kurių užduotys kartais arba visada priskiriamos konkretiems darbuotojams (žmogiškieji ištekliai), o ne kitų tipų ištekliams (pvz., įrenginiai). 
+Skirtukas **Mano** užduotys leidžia darbuotojams lengvai peržiūrėti visas nebaigtas ir specialiai jiems priskirtas užduotis. Tai naudinga įmonėse, kurių užduotys kartais arba visada priskiriamos konkretiems darbuotojams (žmogiškieji ištekliai), o ne kitų tipų ištekliams (pvz., įrenginiai).
 
-Planavimo sistema automatiškai priskiria kiekvieną gamybos užduotį konkrečiam išteklių įrašui, o kiekvieno išteklių įrašo tipas (pvz., mašina arba žmogus). Kai nustatote darbuotoją kaip gamybos darbuotoją, galite susieti darbuotojo sąskaitą su unikaliu personalo įrašu. 
+Planavimo sistema automatiškai priskiria kiekvieną gamybos užduotį konkrečiam išteklių įrašui, o kiekvieno išteklių įrašo tipas (pvz., mašina arba žmogus). Kai nustatote darbuotoją kaip gamybos darbuotoją, galite susieti darbuotojo sąskaitą su unikaliu personalo įrašu.
 
 Skirtuke **Mano** užduotys išvardytos visos neatliktos ir neužbaigtos užduotys, priskirtos prisiregistravęo darbuotojo personalo įrašui, jei prisiregistravęs darbuotojas yra prisiregistravęs. Joje niekada neišvardijamos užduotys, priskirtos įrenginiams ar kito tipo ištekliams, net jei prisiregistravęs darbuotojas pradėjo su tomis užduotimis dirbti.
 
@@ -87,7 +87,7 @@ Norėdami peržiūrėti visas pasirašyto darbuotojo pradėtas užduotis, neatsi
 ## <a name="my-machine-tab"></a>Skirtukas Mano mašina
 
 Skirtukas **Mano mašina** leidžia darbuotojams pasirinkti turtą, kuris yra sujungtas su įrenginio ištekliais, esančiais skirtuko **Visos užduotys** filtrų rinkinyje. Tada darbuotojas gali peržiūrėti pasirinkto turto būseną ir sveikatą skaitydamas vertes (ne daugiau keturių pasirinktų skaitiklių) ir naujausių priežiūros užklausų bei užregistruotų prastovų sąrašus. Darbuotojas taip pat gali reikalauti pasirinkto turto priežiūros ir registruoti bei redaguoti įrenginio prastovą. (Šį skirtuko pavadinimą galima tinkinti ir jūsų sistemoje jis gali būti kitoks.)
- 
+
 ![Mano mašina skirtukas.](media/pfei-my-machine-tab.png "Skirtukas Mano mašina")
 
 Skirtuke **Mano mašina** yra šie stulpeliai. Skaičiai atitinka skaičius ankstesnėje iliustracijoje.
@@ -202,9 +202,9 @@ Gali būti atlikti šie veiksmai:
 - Jei darbuotojas pasirenka Gerai **, išrinkimo sąrašas nėra panaikinamas**. Jis bus registruojamas, kai užduotis bus paskelbta dialogo lange **Ataskaitos nurašymas** **arba** Ataskaitos eiga.
 - Jei ataskaitos eigos arba **ataskaitos nurašymo** dialogo lange **darbuotojas** pasirenka **Atšaukti, išrinkimo sąrašas panaikinamas**.
 
-### <a name="adjust-material-from-the-toolbar-on-the-right"></a>Koreguoti medžiagą iš įrankių juostos dešinėje
+### <a name="adjust-material-from-the-primary-or-secondary-toolbar"></a>Koreguoti medžiagą iš pirminės arba antrinės įrankių juostos
 
-Mygtuką **Koreguoti medžiagą** galima konfigūruoti, kad jis būtų rodomas dešinėje įrankių juostoje. (Daugiau informacijos žr. [Sukurkite gamybos laiko vykdymo sąsają](production-floor-execution-tabs.md).) Darbuotojas gali pasirinkti **koreguoti gaminamos** gamybos užduoties medžiagą. Tokiu atveju pasirodys dialogo langas **Koreguoti medžiagą**, kuriame darbuotojas gali atlikti norimus koregavimus. Kai atidaromas dialogo langas, gamybos užsakymui sukuriamas gamybos išrinkimo sąrašas, kuriame yra pakoreguotų kiekių eilutės. Jei darbuotojas pasirenka Registruoti **dabar**, koregavimas patvirtinamas ir užregistruojamas išrinkimo sąrašas. Jei darbuotojas pasirenka Atšaukti **, išrinkimo sąrašas panaikinamas ir joks koregavimas** nebus atliktas.
+Mygtuką **Koreguoti medžiagą galima** konfigūruoti, kad jis būtų rodomas pirminėje arba antrinėje įrankių juostoje. (Daugiau informacijos žr. [Sukurkite gamybos laiko vykdymo sąsają](production-floor-execution-tabs.md).) Darbuotojas gali pasirinkti **koreguoti gaminamos** gamybos užduoties medžiagą. Tokiu atveju pasirodys dialogo langas **Koreguoti medžiagą**, kuriame darbuotojas gali atlikti norimus koregavimus. Kai atidaromas dialogo langas, gamybos užsakymui sukuriamas gamybos išrinkimo sąrašas, kuriame yra pakoreguotų kiekių eilutės. Jei darbuotojas pasirenka Registruoti **dabar**, koregavimas patvirtinamas ir užregistruojamas išrinkimo sąrašas. Jei darbuotojas pasirenka Atšaukti **, išrinkimo sąrašas panaikinamas ir joks koregavimas** nebus atliktas.
 
 ### <a name="adjust-material-consumption-for-catch-weight-items"></a>Koreguoti esamo svorio prekių medžiagų suvartojimą
 
@@ -260,6 +260,42 @@ Abiem atvejais, kai Shannon patvirtina jos pasirinkimą, ji pereina prie prisiju
 Darbuotojai gali registruoti pertraukas. Pertraukas galima lanksčiai apibrėžti, kaip aprašyta [Apmokėjimas pagal registracijas](pay-based-on-registrations.md).
 
 Darbuotojas užregistruoja pertrauką pasirinkdamas **Pertrauka**, tada pasirinkdamas kortelę, vaizduojančią pertraukos tipą (pvz., pietūs). Darbuotojui patvirtinus pasirinkimą, įrenginys rodo prisijungimo puslapį arba puslapį, laukiantį, kol darbuotojas patvirtins, kad grįžo po pertraukos. Atsiradęs puslapis priklauso nuo gamybos cecho vykdymo sąsajos konfigūracijos. (Daugiau informacijos žr. [Gamybos cecho vykdymo sąsajos konfigūravimas](production-floor-execution-configure.md).)
+
+## <a name="view-the-my-day-dialog"></a>Peržiūrėti dialogo langą "Mano diena"
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
+<!-- KFM: preview until 10.0.27 GA -->
+
+Dialogo **lange Mano** diena darbuotojai pateikiami su savo registracijomis ir balansais. Dialogas padalintas į šiuos tris skyrius:
+
+- Pagrindiniame skyriuje išvardijamos registracijos, kurias dabartinis darbuotojas atliko pasirinktą dieną. Ji atidaroma, rodant šios dienos registracijas ir pateikia datos išrinkėją, kuris leidžia darbuotojui peržiūrėti kitas dienas.
+- Paskutiniame **apskaičiuotos dienos** balanso skyriuje rodomi dabartiniai darbuotojo apmokėto laiko, apmokėtų viršvalandžių, neatvykimų ir apmokėto neatvykimo balansai. Šios vertės paremtos registracijomis, apskaičiuotomis patvirtinimo proceso metu.
+- Balansų **skyriuje** pateikiama pasirinktų registracijų kategorijų (pvz., atostogų, standartinio laiko ir viršvalandžių) balansų peržiūra apibrėžtu laikotarpiu. Šie balansai pagrįsti tuo, kaip statistiniai balansai nustatyti modulyje **Laikas ir lankomumas**. Daugiau informacijos apie tai, kaip nustatyti, žr. [Rodyti atostogų balansus gamybos laiko vykdymo sąsajoje](production-floor-execution-payroll-stats.md).
+
+Administratoriai gali įtraukti šią **funkciją**[į sąsają, padėdami mygtuką Mano diena įrankių juostoje kiekvienam susijusiam skirtukui, kaip aprašyta dizaino gamybos laiko vykdymo sąsajoje.](production-floor-execution-tabs.md)
+
+## <a name="working-in-teams"></a>Darbas komandose
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
+<!-- KFM: preview until 10.0.27 GA -->
+
+Kai tai pačiai gamybos užduočiai priskirti keli darbuotojai, jie gali sudaryti komandą. Komanda gali paskirti vieną darbuotoją kaip vadininką. Likę darbuotojai automatiškai tampa to vad vadymi asistentais. Gautai komandai užduoties būseną turi užregistruoti tik vadovas. Laiko įrašai taikomi visiems komandos nariams.
+
+### <a name="prerequisites"></a>Būtinieji komponentai
+
+Norint naudotis komandomis, administratorius **·** **turi** įgalinti pagrindinės įrankių juostos asistento veiksmą gamybos laiko vykdymo sąsajos skirtuke Visos užduotys. Instrukcijų ieškokite Gamybos [laiko vykdymo sąsajos kūrimas](production-floor-execution-tabs.md).
+
+### <a name="form-a-new-team-that-has-a-pilot-and-an-assistant"></a>Sukurti naują komandą, turi esančią vadovas ir asistentas
+
+Darbuotojas gali registruotis kaip asistentas, skirtuke **Visos** užduotys **pasirinkdamas Asistentas**. Tada pasirodaajame **dialogo** lange Pasirinkti darbuotoją, kuris padės atlikti užduotis, darbuotojas gali pasirinkti darbuotojų, kurie aktyviai dirba su užduotimi, sąrašą. Darbuotojui patvirtinus jų pasirinkimą, jie tampa pasirinkto darbuotojo asistentu, kuris tampa naujos komandos vadu.
+
+### <a name="assign-a-new-pilot-to-an-existing-team"></a>Priskirti naują vadovas esamai komandai
+
+Kai komanda nori pasirinkti naują vadininką, dabartinis vadovas turi paskirti kitą komandos darbuotoją kaip naują vadininką. Paskirti naują vadininką, dabartinis pilotas skirtuke **Visos** užduotys **pasirenka asistentą**. Tada atidarytajame **dialogo lange** Keisti vadovas gali pasirinkti naują vadovas darbuotojų, kurie jau yra komandoje, sąraše. Kai dabartinis vadovas patvirtina savo pasirinkimą, jie visiškai numesta iš komandos. Tačiau, jei reikia, jie gali ir vėl būti komandos nariai.
+
+### <a name="assistant-clocks-out"></a>Asistentas išeina iš darbo
+
+Kai darbuotojas, kuris dirba kaip asistentas, išeina iš darbo, jis išeis iš komandos. Jei nuolatinės **komandos** ir **paleisti** *iš naujo atėjimo į darbą pasirinktys yra nustatytos kaip Taip*, darbuotojas, kuris išeina iš darbo, automatiškai kitą kartą ateis į darbą. Šias pasirinktis galite rasti laiko **ir lankomumo** parametrų **puslapio skirtuke** Bendra.
 
 ## <a name="opening-instructions"></a>Instrukcijų atidarymas
 

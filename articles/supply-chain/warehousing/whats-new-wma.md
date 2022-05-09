@@ -2,7 +2,7 @@
 title: Kas nauja ar pasikeitė „Warehouse Management Mobile App” programėlėje
 description: Šioje temoje pateikiamos naujos ir pakeistos kiekvienos išleistos „Warehouse Management Mobile App”, skirtos „Microsoft Dynamics 365 Supply Chain Management”, versijos funkcijos.
 author: Mirzaab
-ms.date: 03/11/2022
+ms.date: 04/25/2022
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
@@ -10,18 +10,33 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 2544c30afe18f290b681efed1705f7cef0cb7620
-ms.sourcegitcommit: 6f6ec4f4ff595bf81f0b8b83f66442d5456efa87
-ms.translationtype: MT
+ms.openlocfilehash: 679222005fe12009004921fa75a56145ae94c3ba
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "8487842"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644738"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Kas nauja ar pasikeitė „Warehouse Management Mobile App” programėlėje
 
 [!include [banner](../includes/banner.md)]
 
 Šioje temoje pateikiamos naujos kiekvienos išleistos „Warehouse Management Mobile App”, skirtos „Microsoft Dynamics 365 Supply Chain Management”, versijos funkcijos, klaidų taisymai ir žinomos problemos.
+
+## <a name="version-20210"></a>2.0.21.0 versija
+
+Šioje versijoje pristatomos toliau pateiktos naujos funkcijos, klaidų taisymai ir patobulinimai:
+
+- Fiksuotos kelios gedimo problemos.
+- Išsamusi problema, kai kai kurie simboliai neatpažįstami nuskaitant arba įvedant į numatytąjį puslapį.
+- Fiksuoti problemą, dėl kurios į numatytąjį puslapį įvedus tarpą, vienu metu bus panaikinti du simboliai.
+- Fiksuota problema, **kai** **darbų** sąrašo puslapio lauke Rūšiuoti pagal rodoma neteisinga vertė, kuri nesutapo su faktine kortelių rūšiavimo tvarka.
+- Fiksuoti problemą, dėl kurios paleidus programos langą iš naujo bus rodomas neteisingas maketas Microsoft Windows.
+- Fiksuota problema, kai slenkant iš išskleidžiamojo sąrašo gali atsirasti kai kurių elementų, kurie lieka paslėpti arba tampa suslinkę.
+- Perprojektuotas prisijungimo puslapis, kad vartotojo vardo ir slaptažodžio laukai būtų rodomi tame pačiame puslapyje, kai jie rodomi didesniuose ekranuose.
+- Patobulintas būdas valdo sparčią pereidami prie greitos eilutės.
+- Įtrauktas programos klaidų žurnalo rodinys.
+- Įtraukta keletas pritaikymo patobulinimų (patobulintas parodytas, fiksuoti trūkstami vietos rezervavimo ženklai, įgalinta klaviatūros įvestis Android, skirta valdikliams ir kt.).
 
 ## <a name="version-20200"></a>2.0.20.0 versija
 

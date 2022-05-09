@@ -11,18 +11,16 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: 083748d4aecf551fd326b6c3cbf6d92cf3daf717
-ms.sourcegitcommit: d475dea4cf13eae2f0ce517542c5173bb9d52c1c
+ms.openlocfilehash: ea928bc8a020035adb36ae2e7873c656e8c3985d
+ms.sourcegitcommit: 1050e58e621d9a0454895ed07c286936f8c03320
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/05/2022
-ms.locfileid: "8547822"
+ms.lasthandoff: 04/21/2022
+ms.locfileid: "8625284"
 ---
 # <a name="gs1-bar-codes"></a>GS1 brūkšniniai kodai
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [preview-banner](../includes/preview-banner.md)]
-<!-- Preview until 10.0.25 GA -->
 
 Sandėlio darbuotojai dažnai turi atlikti keletą užduočių, kai, naudodami mobilųjį skaitytuvą, registruoja prekės, padėklo ar konteinerio judėjimą. Šios užduotys gali apimti ir brūkšninių kodų nuskaitymą, ir rankinį informacijos įvedimą mobiliajame įrenginyje. Brūkšniniams kodams naudojamas konkrečios įmonės formatas, kurį nustatote ir tvarkote naudodami „Microsoft Dynamics 365 Supply Chain Management“.
 

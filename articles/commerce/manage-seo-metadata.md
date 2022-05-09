@@ -2,7 +2,7 @@
 title: Tvarkyti SEO metaduomenis
 description: Šioje temoje aprašoma, kaip valdyti ieškos modulio optimizavimo (SEO) metaduomenis programoje „Microsoft Dynamics 365 Commerce“.
 author: psimolin
-ms.date: 04/14/2020
+ms.date: 04/21/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,16 +14,17 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 06d2da60695be499971904451fd56fb8a64dfd64c9192d93f87ababb349e9378
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3d6f56968e9adfe90142955cba8e6c7ecc50fc92
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6751572"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644764"
 ---
 # <a name="manage-seo-metadata"></a>Tvarkyti SEO metaduomenis
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 Šioje temoje aprašoma, kaip valdyti ieškos modulio optimizavimo (SEO) metaduomenis programoje „Microsoft Dynamics 365 Commerce“.
 
@@ -62,17 +63,21 @@ Svetainės struktūra yra žiniatinklio svetainės puslapių XML formatu kompiut
 ### <a name="modify-page-metadata"></a>Puslapio metaduomenų modifikavimas
 
 Norėdami modifikuoti metaduomenis, atlikite šiuos veiksmus.
-
 1. Dalyje **Svetainės** pasirinkite **„Fabrikam“** (arba savo svetainės pavadinimą).
 1. Kairėje naršymo srityje pasirinkite **Puslapiai**.
 1. Pasirinkite pagrindinį puslapį, kad jis būtų atidaromas puslapio rengyklėje.
 1. Komandų juostoje pasirinkite **Redaguoti**.
-1. Dešiniojoje ypatybių srityje išplėskite **Numatytosios metažymės**.
-1. Norėdami įtraukti naują metažymę, pasirinkite **Įtraukti** ir lauke įveskite žymę. Norėdami pašalinti esamą metažymę, pasirinkite šiukšliadėžės simbolį jos dešinėje.
+1. Puslapio rengyklės puslapio viršuje, kairėje pusėje, puslapio struktūros valdiklio viršuje pasirinkite **parinktį** Struktūros režimas (pavarų simbolis), tada pasirinkite Išplėstinio **struktūros rodinį**.
+1. Struktūros rodinyje išplėskite medžio valdiklius, kad būtų rodomas HTML pagrindinės atminties **turinys**.
+1. HTML atžymoje **pasirinkite norimą CB modulį (pvz.,** **Puslapio suvestinė,** Produkto puslapio **suvestinė,** Kategorijos puslapio suvestinė **ar** Metatags **·**).
+1. Dešinėje pusėje esančioje ypatybės srityje redaguokite norimus PASIRINKTO CB modulio duomenis (pvz., **Title**, **Description** arba **Sharing image**).
 1. Pasirinkite **Įrašyti**, tada – **Baigti redagavimą**.
-1. Lauke **Komentarai** įveskite **Atnaujintos metažymės** ir pasirinkite **Gerai**.
+1. Komentarų **lauke** įveskite atnaujintus **JŪSŲ duomenis** ir pasirinkite **Gerai**.
 1. Norėdami peržiūrėti puslapį, pasirinkite **Peržiūra**. Baigę uždarykite peržiūros skirtuką – grįšite į kūrimo įrankį.
 1. Pasirinkite **Publikuoti**.
+
+> [!TIP]
+> Autoriai, **norėdami** perjungti pagrindinį struktūros rodinį į papildomą struktūros rodinį, gali naudoti parinktį Struktūros režimas (pavarų simbolis), **·** **esanti puslapio doroklio kairiojo struktūros valdiklio viršuje**. **Pagrindinis struktūros rodinys** yra numatytasis parametras ir filtruoja struktūrą, kad **joje būtų rodomi tik puslapio body** HTML laiko atžymos moduliai. **Išplėstinio struktūros rodinys** rodo visą puslapio modulį, įskaitant **HTML viršus**, **kūno pradžios** ir kūno pabaigos **atžymas**. Šis rodinys naudingas, kai autoriai turi redaguoti konkrečius ŠIO arba scenarijaus modulio puslapio parametrus.
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
