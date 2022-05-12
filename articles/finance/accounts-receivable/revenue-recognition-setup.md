@@ -2,7 +2,7 @@
 title: Įplaukų pripažinimo nustatymai
 description: Šioje temoje aprašomos įplaukų pripažinimo nustatymų parinktys ir jų reikšmės.
 author: kweekley
-ms.date: 11/24/2021
+ms.date: 04/28/2022
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: e8e29ec1ca5a02db67bb4baf522da96ec23c740f
-ms.sourcegitcommit: ac23a0a1f0cc16409aab629fba97dac281cdfafb
+ms.openlocfilehash: 5f72ebd743763db7c68340a833c2501d47d27081
+ms.sourcegitcommit: 0abc777986112ea2332f5bf0e815b303b952356c
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/29/2021
-ms.locfileid: "7867225"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "8656727"
 ---
 # <a name="revenue-recognition-setup"></a>Įplaukų pripažinimo nustatymai
 [!include [banner](../includes/banner.md)]
@@ -100,7 +100,7 @@ Jei įplaukas pripažįstate etapais, rekomenduojame sudaryti įplaukų pripaži
     - **Pasikartojimai** – suma paskirstoma lygiomis dalimis pasikartojimuose, tačiau gali apimti papildomą laikotarpį, jei kaip pripažinimo konvenciją pasirinksite **Faktinė pradžios data**.
     - **Ataskaitinis laikotarpis pagal dienas** – suma paskirstoma pagal faktines kiekvieno ataskaitinio laikotarpio dienas. 
 
-    Kai ataskaitiniai laikotarpiai nustatyti pagal kalendorinius mėnesius, **Kas mėnesį pagal dienas** ir **Ataskaitinis laikotarpis pagal dienas** rezultatai bus tokie patys. Vienintelė išimtis – kai pripažinimo konvencija nustatyta kaip **Mėnesio / laikotarpio pabaiga**, o laukai **Sutarties pradžios data** ir **Pabaigos data** pardavimo užsakymo eilutėje paliekami tušti.
+         - Kai ataskaitiniai laikotarpiai nustatyti pagal kalendorinius mėnesius, **Kas mėnesį pagal dienas** ir **Ataskaitinis laikotarpis pagal dienas** rezultatai bus tokie patys. Vienintelė išimtis – kai pripažinimo konvencija nustatyta kaip **Mėnesio / laikotarpio pabaiga**, o laukai **Sutarties pradžios data** ir **Pabaigos data** pardavimo užsakymo eilutėje paliekami tušti.
 
 - **Pripažinimo konvencija** – pripažinimo konvencija apibrėžia datas, nustatytas SF įplaukų grafike.
 
@@ -108,7 +108,7 @@ Jei įplaukas pripažįstate etapais, rekomenduojame sudaryti įplaukų pripaži
     - **Mėnesio / laikotarpio 1 d.** – data pirmoje grafiko eilutėje yra sutarties pradžios data (arba SF data). Tačiau visos tolesnės grafikų eilutės yra sukuriamos mėnesio arba ataskaitinio laikotarpio 1 d.
     - **Mėnesio vidurio padalijimas** – data pirmoje grafiko eilutėje priklauso nuo SF datos. Jei SF yra užregistruota pirmą–penkioliktą mėnesio dieną, įplaukų grafikas sukuriamas naudojant pirmą mėnesio dieną. Jei SF yra užregistruota šešioliktą ar vėlesnę mėnesio dieną, įplaukų grafikas sukuriamas naudojant pirmą kito mėnesio dieną.
 
-        Parinkties **Mėnesio vidurio padalijimas** pasirinkti negalima, jei pripažinimo pagrindas nustatytas kaip **Ataskaitinis laikotarpis pagal dienas**.
+        - Parinkties **Mėnesio vidurio padalijimas** pasirinkti negalima, jei pripažinimo pagrindas nustatytas kaip **Ataskaitinis laikotarpis pagal dienas**.
 
     - **Kito mėnesio / laikotarpio 1 d.** – grafiko pradžios data yra pirma kito mėnesio arba ataskaitinio laikotarpio diena.
     - **Mėnesio / laikotarpio pabaiga** – data pirmoje grafiko eilutėje yra sutarties pradžios data (arba SF data). Tačiau visos tolesnės grafiko eilutės yra sukuriamos paskutinei mėnesio arba ataskaitinio laikotarpio dienai. 

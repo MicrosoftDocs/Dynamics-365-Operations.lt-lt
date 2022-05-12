@@ -10,19 +10,17 @@
               href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/supply-chain/toc.json
             - name: Kas nauja ar pasikeitė „Supply Chain Management“
               items:
-                - name: Kas nauja ar pasikeitė „Supply Chain Management“ pagrindiniame puslapyje
+                - name: Kas nauja ar pasikeitė „Supply Chain Management“ pagrindinis puslapis
                   href: get-started/whats-new-home-page.md
+                - name: „Supply Chain Management 10.0.27“ (2022 m. liepos mėn.)
+                  href: get-started/whats-new-scm-10-0-27.md
                 - name: „Supply Chain Management 10.0.26“ (2022 m. gegužės mėn.)
                   href: get-started/whats-new-scm-10-0-26.md
                 - name: „Supply Chain Management 10.0.25“ (2022 m. balandžio mėn.)
                   href: get-started/whats-new-scm-10-0-25.md
-                - name: „Supply Chain Management 10.0.24“ (2022 m. vasario mėn.)
-                  href: get-started/whats-new-scm-10-0-24.md
-                - name: „Supply Chain Management 10.0.23“ (2022 m. sausio mėn.)
-                  href: get-started/whats-new-scm-10-0-23.md
             - name: Pašalintos arba nerekomenduojamos funkcijos
               items:
-                - name: Pašalintos arba nerekomenduojamos funkcijos pagrindinis puslapis
+                - name: 'Pašalintos arba nerekomenduojamos funkcijos, pagrindinis puslapis'
                   href: ../fin-ops-core/fin-ops/get-started/removed-deprecated-features-home-page.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Pašalintos arba nebenaudojamos „Dynamics 365 Supply Chain Management“ funkcijos
                   href: get-started/removed-deprecated-features-scm-updates.md
@@ -1725,8 +1723,6 @@
               href: iot/iot-azure-setup.md
             - name: IoT telkinio pranešimo schemų formatai
               href: iot/iot-schema-format.md
-            - name: Papildinio diegimas LCS
-              href: iot/iot-lcs-setup.md
             - name: Metrikos nustatymas
               href: iot/iot-metrics-setup.md
             - name: Scenarijaus nustatymas
@@ -2755,8 +2751,10 @@
                   href: production-control/production-floor-execution-tabs.md
                 - name: 'Įrenginio, skirto paleisti gamybos vietos vykdymo sąsają, nustatymas'
                   href: production-control/production-floor-execution-setup.md
-                - name: Kaip darbuotojai naudoja gamybos vietos vykdymo sąsają
+                - name: Kaip darbininkai naudoja gamybos vietos vykdymo sąsają
                   href: production-control/production-floor-execution-use.md
+                - name: Rodyti atostogų likutį gamybos vietos vykdymo sąsajoje
+                  href: production-control/production-floor-execution-payroll-stats.md
                 - name: Gamybos vietos vykdymo sąsajos projektavimas
                   href: production-control/production-floor-execution-styles.md
                 - name: Gamybos vietos vykdymo sąsajos tinkinimas

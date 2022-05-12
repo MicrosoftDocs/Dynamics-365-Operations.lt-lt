@@ -10,8 +10,10 @@
               href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/finance/toc.json
             - name: Kas nauja ar pasikeitė „Finance”
               items:
-                - name: Kas nauja ar pasikeitė „Finance“ pagrindiniame puslapyje
+                - name: Kas nauja ar pasikeitė „Finance“ pagrindinis puslapis
                   href: get-started/whats-new-home-page.md
+                - name: „Finance 10.0.27“ (liepa)
+                  href: get-started/whats-new-changed-10-0-27.md
                 - name: „Finance 10.0.26“ (gegužė)
                   href: get-started/whats-new-changed-10-0-26.md
                 - name: „Finance 10.0.25“ (balandis)
@@ -412,6 +414,8 @@
                   href: accounts-receivable/subscription-billing-summary.md
                 - name: Periodinis atsiskaitymas pagal sutartį
                   items:
+                    - name: Periodinio atsiskaitymo pagal sutartį nustatymas
+                      href: accounts-receivable/sb-recur-bill-parameters.md
                     - name: Atsiskaitymo grafikų kūrimas
                       href: accounts-receivable/sb-billing-schedules.md
                     - name: Atsiskaitymo grafiko kopijavimas
@@ -420,22 +424,26 @@
                       href: accounts-receivable/sb-schedule-billing-features.md
                     - name: Sąskaitų pateikimas dalimis
                       href: accounts-receivable/sb-milestonebilling.md
+                    - name: Įplaukų paskirstymas
+                      href: accounts-receivable/sb-rev-allocation.md
                     - name: Palaikymo ir atnaujinimo procesas
                       href: accounts-receivable/sb-support-renewals.md
+                    - name: Neapmokėtos įplaukos
+                      href: accounts-receivable/sb-unbilled-revenue.md
                     - name: Vartotojo kainų indeksų grafikai
                       href: accounts-receivable/cpischedules.md
                     - name: Atsiskaitymo grafikų nutraukimas
                       href: accounts-receivable/terminate-billing-schedule.md
+                    - name: Derinimo datos scenarijai
+                      href: accounts-receivable/sb-alignment-date-examples.md
                 - name: Įplaukų ir išlaidų atidėjimai
                   items:
                     - name: Nustatyti įplaukų ir išlaidų atidėjimus
                       href: accounts-receivable/sb-deferrals.md
-                    - name: Atidėjimo grafikai
-                      items:
-                        - name: Kurti atidėjimų grafikus
-                          href: accounts-receivable/sb-deferrals-schedules.md
-                        - name: Atidėjimo numatytosios operacijos
-                          href: accounts-receivable/sb-deferral-transactions.md
+                    - name: Kurti atidėjimų grafikus
+                      href: accounts-receivable/sb-deferrals-schedules.md
+                    - name: Atidėjimo numatytosios operacijos
+                      href: accounts-receivable/sb-deferral-transactions.md
                 - name: Kelių elementų įplaukų paskirstymas
                   items:
                     - name: Nustatyti kelių elementų įplaukų paskirstymą
@@ -1429,7 +1437,7 @@
                             - name: Elektroninių SF išrašymo „Azure“ išteklių nustatymas
                               href: localizations/e-invoicing-set-up-azure-resources.md?toc=/dynamics365/finance/toc.json
                             - name: „Azure Key Vault“ kūrimas „Azure“ portale
-                              href: localizations/e-invoicing-create-azure-storage-account-azure-portal.md?toc=/dynamics365/finance/toc.json
+                              href: localizations/e-invoicing-create-azure-key-vault-azure-portal.md?toc=/dynamics365/finance/toc.json
                             - name: „Azure“ saugyklos paskyros kūrimas „Azure“ portale
                               href: localizations/e-invoicing-create-azure-storage-account-azure-portal.md
                             - name: „SharePoint“ ryšio konfigūravimas
@@ -1460,6 +1468,8 @@
                           href: localizations/e-invoicing-complete-publish-deploy-globalization-feature.md?toc=/dynamics365/finance/toc.json
                         - name: Bendrinimas su kitomis organizacijomis
                           href: localizations/e-invoicing-share-other-organizations.md?toc=/dynamics365/finance/toc.json
+                        - name: Naudojimo valdymo ataskaitų sritis
+                          href: localizations/e-invoicing-usage-management-dashboard.md?toc=/dynamics365/finance/toc.json
                         - name: Apdoroti gaunamus elektroninius dokumentus
                           items:
                             - name: Gaunamų elektroninių dokumentų apdorojimas
@@ -1468,12 +1478,12 @@
                               href: localizations/e-invoicing-configure-email.md?toc=/dynamics365/finance/toc.json
                             - name: „SharePoint“ kanalo konfigūravimas
                               href: localizations/e-invoicing-configure-sharepoint-channel.md
-                        - name: Elektroninių SF išrašymo naudojant „Finance“ ir „Supply Chain Management“ nustatymas ir naudojimas
-                          items:
-                            - name: Integravimo su elektroninių SF išrašymu aktyvinimas ir nustatymas
-                              href: localizations/e-invoicing-activate-setup-integration.md?toc=/dynamics365/finance/toc.json
-                            - name: Elektroninių SF išrašymo parametrų nustatymas
-                              href: localizations/e-invoicing-set-up-parameters.md?toc=/dynamics365/finance/toc.json
+                    - name: Elektroninių SF išrašymo naudojant „Finance“ ir „Supply Chain Management“ nustatymas ir naudojimas
+                      items:
+                        - name: Integravimo su elektroninių SF išrašymu aktyvinimas ir nustatymas
+                          href: localizations/e-invoicing-activate-setup-integration.md?toc=/dynamics365/finance/toc.json
+                        - name: Elektroninių SF išrašymo parametrų nustatymas
+                          href: localizations/e-invoicing-set-up-parameters.md?toc=/dynamics365/finance/toc.json
                         - name: Darbas su elektroninių SF išrašymu
                           items:
                             - name: Elektroninių dokumentų teikimas norint išrašyti elektronines SF
@@ -1486,12 +1496,6 @@
                       items:
                         - name: Elektroninių SF išrašymo funkcijų pasiekiamumas
                           href: localizations/e-invoicing-country-specific-availability.md?toc=/dynamics365/finance/toc.json
-                        - name: Darbo su elektroninių SF išrašymo tarnybos administravimu pradžia
-                          href: localizations/e-invoicing-get-started-service-administration.md?toc=/dynamics365/finance/toc.json
-                        - name: Darbo su elektroninių SF išrašymu pradžia
-                          href: localizations/e-invoicing-get-started.md?toc=/dynamics365/finance/toc.json
-                        - name: Naujos elektroninių SF išrašymo funkcijos kūrimas
-                          href: localizations/e-invoicing-create-new-e-invoicing-feature.md
                         - name: Darbo su elektroninių SF išrašymu Brazilijai pradžia
                           href: localizations/e-invoicing-bra-get-started.md?toc=/dynamics365/finance/toc.json
                         - name: Darbo su elektroninių SF išrašymu Egiptui pradžia
@@ -1504,10 +1508,6 @@
                           href: localizations/e-invoicing-ita-fatturapa-get-started.md
                         - name: Elektroninių SF išrašymo paslaugos naudojimas tiekėjo sąskaitoms faktūroms importuoti
                           href: localizations/e-invoicing-get-started-import-vendor-invoices.md
-                        - name: Elektroninių SF išrašymo nustatymas
-                          href: localizations/e-invoicing-setup.md?toc=/dynamics365/finance/toc.json
-                        - name: „Power Platform“ priedo administratoriaus nuoroda
-                          href: localizations/e-invoicing-power-platform-plug-in.md
                     - name: Elektroninių SF išrašymo DUK
                       href: localizations/e-invoicing-faq.md?toc=/dynamics365/finance/toc.json
                 - name: Mokesčių skaičiavimas
@@ -1618,9 +1618,15 @@
                           href: localizations/tcs-troubleshooting-failed-access-tax-service.md
                         - name: Tuščias mokesčių funkcijų sąrašas mokesčių skaičiavimo parametrų srityje
                           href: localizations/tcs-troubleshooting-tax-feature-list-empty-tax-calculation-parameter.md
+                        - name: Negalima nustatyti mokesčių kodo
+                          href: localizations/tcs-troubleshooting-tax-code-cannot-be-determined.md
+                        - name: Gretinimo rezultatų nerasta
+                          href: localizations/tcs-troubleshooting-no-matching-result.md
+                        - name: Įjungti mokesčių skaičiavimo paslaugos derinimo režimą
+                          href: localizations/tcs-troubleshooting-enable-debug-mode.md
                     - name: Mokesčių skaičiavimo DUK
                       href: localizations/global-tax-calcuation-service-faq.md?toc=/dynamics365/finance/toc.json
-            - name: Mokestis
+            - name: Mokesčiai
               items:
                 - name: PVM
                   items:
@@ -3725,6 +3731,8 @@
                   href: ../fin-ops-core/dev-itpro/analytics/recruiting-analysis-power-bi-content-pack.md?toc=/dynamics365/finance/toc.json
                 - name: Pardavimo ir pelningumo efektyvumas
                   href: ../fin-ops-core/dev-itpro/analytics/sales-profitability-performance-content-pack.md?toc=/dynamics365/finance/toc.json
+                - name: Prenumeratų sąskaitų valdymo „Power BI“ turinys
+                  href: accounts-receivable/sub-bill-power-bi.md
                 - name: Tiekėjo mokėjimai
                   href: accounts-payable/Vendor-payments-workspace.md
                 - name: Darbo jėgos metrika

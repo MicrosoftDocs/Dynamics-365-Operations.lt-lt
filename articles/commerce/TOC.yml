@@ -10,19 +10,17 @@
               href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/commerce/toc.json
             - name: Kas nauja ar pasikeitė „Commerce”
               items:
-                - name: Kas nauja ar pasikeitė „Commerce“ pagrindiniame puslapyje
+                - name: Kas nauja ar pasikeitė „Commerce“ pagrindinis puslapis
                   href: get-started/whats-new-home-page.md
+                - name: „Commerce 10.0.27“ (2022 m. liepos mėn.)
+                  href: get-started/whats-new-commerce-10-0-27.md
                 - name: „Commerce 10.0.26“ (2022 m. gegužės mėn.)
                   href: get-started/whats-new-commerce-10-0-26.md
                 - name: „Commerce 10.0.25“ (2022 m. balandžio mėn.)
                   href: get-started/whats-new-commerce-10-0-25.md
-                - name: „Commerce 10.0.24“ (2022 m. vasario mėn.)
-                  href: get-started/whats-new-commerce-10-0-24.md
-                - name: „Commerce 10.0.23“ (2022 m. sausio mėn.)
-                  href: get-started/whats-new-commerce-10-0-23.md
             - name: Pašalintos arba nerekomenduojamos funkcijos
               items:
-                - name: Pašalintos arba nerekomenduojamos funkcijos pagrindinis puslapis
+                - name: 'Pašalintos arba nerekomenduojamos funkcijos, pagrindinis puslapis'
                   href: ../fin-ops-core/fin-ops/get-started/removed-deprecated-features-home-page.md?toc=/dynamics365/commerce/toc.json
                 - name: Pašalintos arba nebenaudojamos „Finance and Operations“ funkcijos
                   href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/commerce/toc.json
@@ -356,6 +354,8 @@
                           href: tax-exempt-price-inclusive.md
                         - name: Internetinių užsakymų PVM konfigūravimas
                           href: sales-tax-config.md
+                        - name: Slėpti mokesčių skaidymo informaciją užsakymo suvestinėse
+                          href: hide-taxes-breakup.md
                     - name: El. paštu siunčiamo pranešimo šablono nustatymas
                       href: email-notification-profiles.md
                     - name: Numeracijos
@@ -394,7 +394,7 @@
                       href: dev-itpro/store-commerce.md
                     - name: Įrenginių valdymo diegimo instrukcijos
                       href: implementation-considerations-devices.md
-                    - name: Pasirinkimas tarp MPOS ir „Cloud POS“
+                    - name: Pasirinkimas tarp „Store Commerce“ ir „Cloud POS“
                       href: MPOS-or-CPOS.md
                     - name: EKA operacijos prisijungus ir neprisijungus prie interneto
                       href: pos-operations.md
@@ -496,6 +496,8 @@
                   href: tasks/configure-functionality-profile-sales-representative.md
                 - name: Mažmeninės prekybos kanalų finansinių dimensijų kūrimas ir reikšmių parduotuvėse konfigūravimas
                   href: tasks/create-financial-dimensions-retail-channels.md
+                - name: Nustatyti mažmeninės prekybos išrašų numeraciją
+                  href: retail-statements-number-sequences.md
                 - name: Nuolatinio pristatymo būdo tvarkymo kanale įjungimas
                   href: consistent-delivery-mode-handling.md
             - name: Interneto kanalo nustatymas
@@ -884,6 +886,8 @@
           items:
             - name: Išrašų apžvalga
               href: retail-statements.md
+            - name: „Commerce“ registravimo parametrai
+              href: commerce-posting-parameters.md
             - name: Parduotuvės operacijų tikrinimas išrašų duomenims apskaičiuoti
               href: valid-checker.md
             - name: Mažmeninės prekybos operacijų vientisumo tikrintuvo taisyklių išjungimas
@@ -1100,6 +1104,8 @@
                       href: adventure-works-theme.md
                     - name: „Adventure Works“ temos diegimas
                       href: install-adventure-works.md
+                - name: „Commerce“ lokalizacijos vadovas
+                  href: e-commerce-localization-guide.md
             - name: Skaitmeninio turto valdymas
               items:
                 - name: Skaitmeninio turto valdymo apžvalga
@@ -1312,6 +1318,14 @@
               href: b2b/payment-method.md
             - name: B2B el. prekybos svetainių produktų kiekio apribojimų nustatymas
               href: b2b/quantity-limits.md
+            - name: B2B svetainių „Commerce“ katalogai
+              items:
+                - name: B2B svetainių „Commerce“ katalogų kūrimas
+                  href: catalogs-b2b-sites.md
+                - name: '„Commerce“ katalogų išplečiamumo poveikis, skirtas B2B tinkinimams'
+                  href: catalogs-b2b-sites-dev.md
+                - name: B2B DUK svetainių „Commerce“ katalogai
+                  href: catalogs-b2b-sites-FAQ.md
         - name: Stebėjimas ir analizė
           items:
             - name: Pardavimo ir maržos efektyvumo stebėjimas
@@ -2474,13 +2488,17 @@
                       href: dev-itpro/extension-resource-localization.md
             - name: Nuotoliniu būdu valdoma prekyba
               items:
+                - name: Apžvalga
+                  items:
+                    - name: "Pagrindinio „Commerce Scale Unit“ (CSU)\_pristatymas"
+                      href: dev-itpro/CSU-core.md
                 - name: API ir nuorodos
                   items:
                     - name: „Commerce Scale Unit“ kliento ir vartotojo API
                       href: dev-itpro/retail-server-customer-consumer-api.md
                     - name: „Retail Server“ API naudojimas išorinėse programose
                       href: dev-itpro/consume-retail-server-api.md
-                    - name: '„Typescript“ ir C# tarpiniai serveriai, skirti „Retail POS“'
+                    - name: '„TypeScript“ ir C# tarpiniai serveriai, skirti „Retail POS“'
                       href: dev-itpro/typescript-proxy-retail-pos.md
                     - name: „Commerce runtime “ (CRT) architektūra ir konfigūracija
                       href: dev-itpro/commerce-runtime-overview.md
@@ -2526,8 +2544,10 @@
                       href: dev-itpro/retail-sdk/loyalty-extension-sample.md
                     - name: Važtaraščių plėtinių taškai vykdant užsakymą
                       href: dev-itpro/extensions-shipping-carrier-integration.md
-                - name: Paketai ir diegimas
+                - name: Paketai ir visuotinis diegimas
                   items:
+                    - name: „Cloud Scale Unit“ plėtinių paketo kūrimas
+                      href: dev-itpro/CSU-packaging.md
                     - name: „Cloud Scale Unit“ plėtinio šalinimas
                       href: dev-itpro/retail-sdk/remove-csu-package.md
             - name: Store Commerce
@@ -2540,6 +2560,8 @@
                       href: dev-itpro/pos-extension/pos-extension-basics.md
                     - name: EKA plėtinių perkėlimas į „Commerce SDK“
                       href: dev-itpro/pos-extension/migrate-pos-extension.md
+                    - name: „Store Commerce“ plėtinių derinimas naudojant „VS Code“
+                      href: dev-itpro/sc-debug.md
                 - name: Aplinkos sąranka
                   items:
                     - name: Vietinė kūrimo aplinka
@@ -2606,7 +2628,7 @@
                       href: dev-itpro/pos-custom-control.md
                     - name: EKA mokėjimo plėtinys
                       href: dev-itpro/pos-payment-extension.md
-                - name: Paketai ir diegimas
+                - name: Paketai ir visuotinis diegimas
                   items:
                     - name: MPOS plėtinių paketo kūrimas
                       href: dev-itpro/pos-extension/mpos-extension-packaging.md
@@ -2614,6 +2636,8 @@
                       href: dev-itpro/pos-extension/mpos-extension-signing.md
                     - name: „Cloud POS“ plėtinių paketo kūrimas
                       href: dev-itpro/pos-extension/cpos-extension-package.md
+                    - name: „Store Commerce“ plėtinio diegimo programos kūrimas
+                      href: dev-itpro/store-comm-extension-installer.md
             - name: El. prekyba
               items:
                 - name: Apžvalga
@@ -2784,7 +2808,7 @@
                           href: e-commerce-extensibility/extend-theme.md
                         - name: Temos modulio eilučių keitimas
                           href: e-commerce-extensibility/change-theme-module-strings.md
-                - name: Paketai ir diegimas
+                - name: Paketai ir visuotinis diegimas
                   items:
                     - name: Konfigūracijų paketų kūrimas ir diegimas interneto aplinkoje
                       href: e-commerce-extensibility/package-deploy.md
@@ -2814,11 +2838,15 @@
                       items:
                         - name: Telemetrijos registravimo programa
                           href: e-commerce-extensibility/telemetry-logger.md
-            - name: Commerce HQ
+            - name: „Commerce Headquarters“
               items:
-                - name: Paketai ir diegimas
+                - name: CDX paketo plėtinys
                   items:
-                    - name: '„Commerce“ mokėjimo paketo, skirto finansams ir operacijoms, kūrimas'
+                    - name: Kliento CDX paketo išplėtimas norint įtraukti pasirinktinius duomenis
+                      href: dev-itpro/extend-customer-CDX-package.md
+                - name: Paketai ir visuotinis diegimas
+                  items:
+                    - name: '„Commerce“ mokėjimo paketo, skirto finansams ir operacijoms, visuotinis diegimas'
                       href: dev-itpro/payment-connector-package.md
             - name: „Retail SDK“ (senesnė)
               items:
@@ -2848,7 +2876,7 @@
                       href: dev-itpro/configure-online-store.md
                     - name: Autentifikavimo paslaugų teikėjų konfigūravimas
                       href: dev-itpro/configure-authentication-providers.md
-                - name: Paketai ir diegimas
+                - name: Paketai ir visuotinis diegimas
                   items:
                     - name: Diegiamų paketų kūrimas
                       href: dev-itpro/retail-sdk/retail-sdk-packaging.md
