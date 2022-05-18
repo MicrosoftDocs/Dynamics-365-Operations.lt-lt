@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-06-30
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d221e1a47dca85880fd683177ca95dd1b7766fb9
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 350fb5a00b85f28fa8aef2ca50cf1f277b8f635e
+ms.sourcegitcommit: e4cc43b06ef3f0f562849e2c960025cb244d6017
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8064927"
+ms.lasthandoff: 05/12/2022
+ms.locfileid: "8743547"
 ---
 # <a name="server-to-server-authentication-for-the-ats-integration-api"></a>ATS integravimo API dviejų serverių autentifikavimas
 
@@ -89,7 +89,7 @@ Naujam vaidmeniui turi būti priskirta atitinkama prieiga bent prie toliau patei
 
 Antrasis žingsnis yra užtikrinti, kad programai būtų suteiktos atitinkamos teisės į Žmogiškųjų išteklių duomenis, susiejant ją su Žmogiškųjų išteklių programos vartotoju. Programos vartotojui serverio iškvietimai per „Dataverse” virtualias lenteles atliekami „Dataverse” vartotojo (programos), kuris iškviečia veiksmą, tapatybės kontekste. Tada virtualiosios lentelės adapterio tarnyba peržiūrės susietą vartotoją Žmogiškųjų išteklių srityje ir vykdys užklausą to vartotojo kontekste. Tai reiškia, kad Žmogiškųjų išteklių srityje reikia sukurti vartotoją su priskirtais tinkamais vaidmenimis, kad būtų galima suteikti prieigą prie duomenų, reikalingų integravimo programai.
 
-Žmogiškųjų išteklių vartotojui taip pat reikės priskirti tinkamas teises į Žmogiškųjų išteklių duomenis. **Įdarbinimo prašymo** („HcmRecruitingIntegrator”) vaidmuo galimas su teisėmis į pirminius objektus, būtinus integruojant su įdarbinimo duomenimis. Šį vaidmenį galima priskirti programos vartotojui puslapyje **Vartotojai**, kad būtų galima suteikti tinkamą prieigą prie duomenų. Daugiau informacijos apie Žmogiškųjų išteklių saugos vaidmenis rasite [Vaidmenimis pagrįsta sauga](/fin-ops-core/dev-itpro/sysadmin/role-based-security).
+Žmogiškųjų išteklių vartotojui taip pat reikės priskirti tinkamas teises į Žmogiškųjų išteklių duomenis. **Įdarbinimo prašymo** („HcmRecruitingIntegrator”) vaidmuo galimas su teisėmis į pirminius objektus, būtinus integruojant su įdarbinimo duomenimis. Šį vaidmenį galima priskirti programos vartotojui puslapyje **Vartotojai**, kad būtų galima suteikti tinkamą prieigą prie duomenų. Daugiau informacijos apie Žmogiškųjų išteklių saugos vaidmenis rasite [Vaidmenimis pagrįsta sauga](/dynamics365/fin-ops-core/dev-itpro/sysadmin/role-based-security).
 
 ### <a name="set-up-the-new-user-with-appropriate-permissions"></a>Naujo vartotojo su atitinkamomis teisėmis nustatymas
 

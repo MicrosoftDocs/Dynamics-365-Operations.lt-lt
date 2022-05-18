@@ -1,22 +1,22 @@
 ---
 title: Užantspauduotas kainos pasiūlymas, skirtas RFQ
 description: Šioje temoje aprašoma, kaip nustatyti užantspauduotos kainos pasiūlymą, kad tiekėjo kainų pasiūlymo atsakymai būtų palikti slapti, kol jie nėra atskleisti pirkimo personalo.
-author: Henrikan
+author: GalynaFedorova
 ms.date: 08/02/2021
 ms.topic: article
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: henrikan
+ms.author: gfedorova
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 96549b6053ba75f2d5b9a85bcd5b7feb006f0f1b
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: dfc19646d6724627c8a25bcfc8a6b2a70a73c261
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7578085"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8675155"
 ---
 # <a name="sealed-bidding-for-rfqs"></a>Užantspauduotas kainos pasiūlymas, skirtas RFQ
 

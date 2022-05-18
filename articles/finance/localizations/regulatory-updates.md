@@ -2,7 +2,7 @@
 title: Reguliavimo naujinimai
 description: Šioje temoje pateikiamas suplanuotų ir išleistų 365 finansų Microsoft Dynamics reguliavimo atnaujinimų sąrašas.
 author: VStamberg
-ms.date: 01/20/2022
+ms.date: 04/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: vastrup
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 734a4abf4559d05b1f96bcfbde151b49bba8e827
-ms.sourcegitcommit: 9e1129d30fc4491b82942a3243e6d580f3af0a29
-ms.translationtype: HT
+ms.openlocfilehash: 4e9a74f814e6ae93fd5c12b05c4fbd00ad503fca
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8649135"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8711920"
 ---
 # <a name="regulatory-updates"></a>Reglamentavimo naujinimai
 
@@ -29,11 +29,11 @@ Reglamentavimo atnaujinimai yra funkcijos, kurios sukurtos siekiant laikytis nau
 
 „Microsoft“ siekia kuo anksčiau įgyvendinti naujus reglamentavimo reikalavimus. Faktinė išleidimo data priklauso nuo įstatymo paskelbimo datos, vietos valdžios institucijų reikalavimų informacijos pasiekiamumo, tikrinimo įrankių pasiekiamumo ir pakeitimų dydžio bei sudėtingumo.
 
-Planuojame išleisti reglamentavimo naujinimus vienos versijos paslaugų naujinimuose, kurie išleidžiami laiku, kad klientai galėtų atnaujinti ir pasiruošti iki vykdymo datos (kai taikomi operacijų reglamentavimo naujinimai), arba pirmo privalomo ataskaitų termino dieną (kai taikomi su ataskaitomis susiję reglamentavimo naujinimai). Klientai ir partneriai gali peržiūrėti naujus reglamentavimo naujinimus naudodami išankstinio pritaikymo peržiūros programą (PEAP).
+Planuojame išleisti reglamentavimo naujinimus vienos versijos paslaugų naujinimuose, kurie išleidžiami laiku, kad klientai galėtų atnaujinti ir pasiruošti iki vykdymo datos (kai taikomi operacijų reglamentavimo naujinimai), arba pirmo privalomo ataskaitų termino dieną (kai taikomi su ataskaitomis susiję reglamentavimo naujinimai). Klientai ir partneriai gali peržiūrėti naujus reguliavimo naujinimus peržiūros pakete, pateikiamame kiekvienam paslaugos atnaujinimui.
 
 Jei paskelbimo datos yra vėlyvos, reglamentavimo informacijos arba tikrinimo įrankių pasiekiamumas yra vėlyvas arba jei pakeitimai yra itin dideli ir sudėtingi, gali nepavykti išleisti reglamentavimo naujinio iki mėnesio naujinio bendro išleidimo datos. Tokiais atvejais reguliavimo naujinimas bus išleistas kaip karštosios pataisos, skirtos atitinkamiems teikiamiems mėnesio naujinimams.
 
-Reguliavimo naujinimai, išleidžiami kaip mėnesio naujinimo dalis, nurodomi tik pagal išleidimo versiją. Reguliavimo naujinimai, kurie pateikiami kaip karštosios pataisos arba įtraukiami į peržiūros versiją, atitinkamai pažymimi santrumpomis HF ir PEAP. 
+Reguliavimo naujinimai, išleidžiami kaip mėnesio naujinimo dalis, nurodomi tik pagal išleidimo versiją. Reguliavimo atnaujinimus, kurie pateikiami kaip karštosios pataisos arba kaip leidimo peržiūros dalis, galima identifikuoti atitinkamai naudojant santrumpas HF ir Preview. 
 
 Naujausių reglamentavimo naujinių planų ieškokite toliau pateiktoje lentelėje.   
 

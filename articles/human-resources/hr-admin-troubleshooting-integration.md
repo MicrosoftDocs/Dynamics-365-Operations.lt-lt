@@ -7,19 +7,18 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 308e2a538666522edf4a76be13b93c82c3f3a774
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 9b83250bdb54ea6e78709dd3a3ea434a994f6211
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8071115"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8694010"
 ---
 # <a name="integration-with-finance-faq"></a>Integravimo su „Finance“ DUK
 
@@ -30,11 +29,11 @@ ms.locfileid: "8071115"
 
 
 
-Ši tema atsako į dažnai užduodamus klausimus apie tai, kokie duomenys sinchronizuojami, kai „Dynamics 365 Human Resources“ integruojama su „Dynamics 365 Finance“.
+Šioje temoje pateikiami į bendruosius klausimus, susijusius su tai, kurie duomenys Dynamics 365 Human Resources sinchronizuojami, kai integruojami su "Dynamics 365 Finance".
 
 ## <a name="can-i-edit-the-dynamics-365-talent-application-user-in-power-apps"></a>Ar galiu redaguoti „Dynamics 365 Talent“ programos naudotoją „Power Apps“?
 
-Nr. Jei redaguojate „Human Resources“ programos vartotoją, integravimas tarp „Human Resources“ ir „Dataverse“ gali nepavykti. Tolesnė lentelė rodo nustatytuosius nustatymus „Talent“ programos naudotojui.
+Ne. Jei redaguojate „Human Resources“ programos vartotoją, integravimas tarp „Human Resources“ ir „Dataverse“ gali nepavykti. Tolesnė lentelė rodo nustatytuosius nustatymus „Talent“ programos naudotojui.
 
 | Vardas, pavardė | Programos ID | „Azure AD“ objekto ID | Programos ID URI |
 | --- | --- | --- | --- |
@@ -44,7 +43,7 @@ Nr. Jei redaguojate „Human Resources“ programos vartotoją, integravimas tar
 
 ## <a name="is-all-data-synchronized-or-just-some-data-entities"></a>Ar visi dokumentai sinchronizuojami, ar tik tam tikri duomenų objektai?
 
-Sinchronizuojamas duomenų poaibis. Visų objektų sąrašo žr. [Integravimas su „Dynamics 365 Finance“](hr-admin-integration-finance.md).
+Sinchronizuojamas duomenų poaibis. Norėdami gauti visų objektų sąrašą, žr. Integravimas su ["Dynamics 365 Finance"](hr-admin-integration-finance.md).
 
 ## <a name="why-dont-i-see-any-data-synced-to-dataverse"></a>Kodėl nematau jokių duomenų, sinchronizuotų su „Dataverse“?
 
@@ -89,7 +88,7 @@ Tvarkant išimtis speciali sąranka nereikalinga. Duomenų integratorius automat
 
 ## <a name="can-i-set-up-bi-directional-integration"></a>Ar galiu nustatyti dvikryptį integravimą?
 
-Ne, šiuo metu integracija yra vienpusė (žmogiškieji ištekliai finansams ir operacijoms). Tačiau galima naudoti numatytąjį šabloną ir siųsti duomenis iš „Human Resources“ į „Finance“.
+Ne, integravimas šiuo metu yra vien way (Žmogiškieji ištekliai į finansus ir operacijas). Tačiau galima naudoti numatytąjį šabloną ir siųsti duomenis iš „Human Resources“ į „Finance“.
 
 ## <a name="can-i-allow-record-deletion-as-part-of-my-integration"></a>Ar integracijoje galima leisti naikinti įrašus?
 
@@ -157,7 +156,7 @@ Jei objektas yra palaikomas ir duomenys yra teikiami „Dataverse“, patikrinki
 
 ## <a name="when-creating-my-connection-set-i-am-unable-to-see-the-connection-in-the-connection-drop-down-list-what-do-i-do"></a>Kuriant jungčių rinkinį man nepavyksta matyti jungties išplečiamajame sąraše Jungtis. Ką daryti?
 
-Įsitikinkite, kad kurdami jungtis pasirenkate „Dynamics 365 Finance“ ir „Dataverse“.
+Kurdami ryšius būtinai pasirinkite "Dynamics 365 Finance" ir Dataverse.
 
 ## <a name="when-syncing-employments-i-get-the-errors-companyinfo_fk-doesnt-exist-or-the-value-12312154-115959-pm-in-field-employment-end-date-is-not-found-in-the-related-table-employment-what-should-i-do"></a>Sinchronizuojant įdiegtis gaunamos klaidos „CompanyInfo_FK doesn’t exist“ arba „The value '12/31/2154 11:59:59 pm' in field 'Employment end date' is not found in the related table 'Employment'.“ Ką daryti?
 

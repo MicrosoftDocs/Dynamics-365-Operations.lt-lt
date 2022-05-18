@@ -12,41 +12,41 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9e7343a485ae4779b075eeb48dabc39467e1a176
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: 07dae424f32281a39c3887437ac7976fb3beb8d3
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8074918"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8734929"
 ---
 # <a name="hire-existing-employees-through-recruitment"></a>Samdyti esamus darbuotojus naudojant įdarbinimo funkciją
 
 [!include [banner](../../includes/banner.md)]
 
 > [!IMPORTANT]
-> Šioje temoje nurodyta funkcija šiuo metu pasiekiama žmogiškųjų išteklių klientams finansų infrastruktūroje.  
+> Šios temos įdarbinimo funkcijos bus nurodytos kaip Įdarbinimo projektai ir židiniai pretendentams, prašymams ir įdarbinimo projektams.  
 
 
-Kartais atviras pareigas gali užimti kandidatai, kurie jau yra jūsų organizacijos darbuotojai. Ši procedūra padeda žingsnis po žingsnio atlikti esamo darbuotojo samdymo per įdarbinimo procesą veiksmus. Šioje procedūroje įdarbinimo projektas jau nustatytas, o esamas darbuotojas jau pateikė prašymą dalyvauti įdarbinimo projekte. The **USMF** šiai procedūrai sukurti buvo pasitelkta demonstracinių duomenų įmonė.
+Kartais atviras pareigas gali užimti kandidatai, kurie jau yra jūsų organizacijos darbuotojai. Ši procedūra padeda žingsnis po žingsnio atlikti esamo darbuotojo samdymo per įdarbinimo procesą veiksmus. Šioje procedūroje įdarbinimo projektas jau nustatytas, o esamas darbuotojas jau pateikė prašymą dalyvauti įdarbinimo projekte. USMF **demonstracinių** duomenų įmonė buvo naudojama šiai procedūrai sukurti.
 
-1. Eiti į **Žmogiškieji ištekliai \> Įdarbinimas \> Programos \> Programos**.
-2. Sąraše raskite darbuotojo, kurį norite įdarbinti, prašymą. Pavyzdžiui, pasirinkite **00002 Johnas Emory**.
-3. Pasirinkite **Paraiškos būsena**.
+1. Eiti į personalo **įdarbinimo \> prašymų \>\> prašymus**.
+2. Sąraše raskite darbuotojo, kurį norite samdyti, prašymą. Pavyzdžiui, pasirinkite **00002 Džono Emory**.
+3. Pasirinkite **prašymo būseną**.
 
-    Prašymo būsena rodo, kokiame įdarbinimo proceso etape yra šis prašymas. Kiekvienas žingsnis yra neprivalomas. Paprastai programa perkelia būsenas tokia tvarka: **Gauta**, **·**, ir **Apklaustas**. Po pokalbio bus priimtas sprendimas dėl įdarbinimo.
+    Prašymo būsena rodo, kokiame įdarbinimo proceso etape yra šis prašymas. Kiekvienas veiksmas nebūtinas. Paprastai prašymas būseną perkelia tokia tvarka: **Gauta**, **Patvirtinta** ir **Pokalbis**. Pokalbio metu bus priimtas samdos sprendimas.
 
-4. Pasirinkite **Keisti poziciją**.
-5. Pasirinkite poziciją, kuriai samdote darbuotoją.
-6. Viduje konors **Naujos užduoties pradžios data** laukelyje įveskite datą, kada darbuotojas pradės dirbti naujose pareigose.
-7. Viduje konors **Užduoties pabaigos data** laukelyje įveskite datą, kada darbuotojas nustos dirbti dabartinėse pareigose.
+4. Pasirinkite **Keisti padėtį**.
+5. Pasirinkite pareigas, už kurias priimate darbuotoją.
+6. Lauke Nauja **priskyrimo pradžios** data įveskite datą, nuo kurios darbuotojas pradės dirbti naujose pareigose.
+7. Lauke Priskyrimo **pabaigos data** įveskite datą, kada darbuotojas nustos dirbti pagal dabartines pareigas.
 
-    Naujos pozicijos pradžios data ir senosios pareigybės pabaigos data gali sutapti. Šis sutapimas gali atsirasti, kai asmuo pereinamuoju laikotarpiu eina pareigas abiejose pareigose.
+    Naujų pareigų pradžios data ir senų pareigų pabaigos data gali persidengti. Šis persidengimas gali atsirasti, kai asmuo atlieka abiejų pareigų pareigas perėjimo laikotarpiu.
 
-8. Pasirenkama: pasirinkite priežasties kodą. Pavyzdžiui, pasirinkite **Reorganizacija**.
-9. Pasirinkite **Keisti poziciją**.
+8. Neprivaloma: Pasirinkite priežasties kodą. Pavyzdžiui, pasirinkite **Pertvarkymas**.
+9. Pasirinkite **Keisti padėtį**.
 
-    Šiuo metu taip pat galite pakeisti kompensaciją. Jei to nepadarysite, vėliau galėsite jį pakeisti pasirinkę **Fiksuotas planas** ant **Kompensacija** skirtuką **Darbininkas** puslapį.
+    Šiuo metu jūs taip pat galite pakeisti kompensavimą. Jei to padaryti negalite, galėsite ją pakeisti vėliau darbuotojo **puslapio** **skirtuke Kompensacija pasirinkdami** Fiksuotas **planas**.
 
-    Po to, kai pasirinksite **Keisti poziciją**, programos būsena atnaujinama į **Įdarbintas**.
+    Kai pasirenkate **Keisti** pareigas, prašymo būsena atnaujinama į **Įdarbintas**.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

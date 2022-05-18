@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerJournalSetup, LedgerParameters, AssetProposalDepreciation
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 14091
 ms.assetid: c64eed1d-df17-448e-8bb6-d94d63b14607
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: 8.0.2
-ms.openlocfilehash: 978d0dc28f86860335a782bd2ddaa141ed639fe5
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 9a0a9a3f23a3aec0077fd1a64c55fea567b72800
+ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7344063"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8722498"
 ---
 # <a name="one-voucher"></a>Vienas kvitas
 
@@ -72,7 +72,7 @@ Dėl problemų, kurios gali nutikti kai naudojamas vienas kvitas, ši funkcija g
 
 Užpildžius visus kitus funkcijų tarpus, „Microsoft“ praneš, kad funkcija nebegalios. Nepaisant to, negaliojimas neįsigalios mažiausiai vienerius metus po pranešimo. Nepaisant to, kad „Microsoft“ pateikia tikslų apskaičiavimą apie tai, kada vieno kvito veikimas nebegalios, tai nutinka dažniausiai likus dviem metams iki galiojimo pabaigos. „Microsoft“ politika yra palikti mažiausiai 12 mėnesių nuo negaliojančios funkcijos paskelbimo iki realaus nebegaliojimo, todėl klientai ir nepriklausomi programinės įrangos pardavėjai (ISV) turi laiko sureaguoti į keitimą. Pavyzdžiui, organizacijai gali reikėti naujinti savo verslo procesus, objektus ir integravimus.
 
-Vieno kvito nebegaliojimas yra svarbus pokytis, kuris bus praneštas plačiai. Kaip komunikavimo dalis, „Microsoft“ naujins šią temą, publikuos naują tinklaraščio įrašą „Microsoft Dynamics 365 Finance“ tinklaraštyje, naujins „Pašalintos ar nebegaliojančios funkcijos“ temą, praneš pakeitimą atitinkamoms „Microsoft“ konferencijoms ir t.t.
+Vieno kvito nebegaliojimas yra svarbus pokytis, kuris bus praneštas plačiai. Kaip šio ryšio dalį "Microsoft" atnaujins šią temą, Microsoft Dynamics užregistruos interneto žurnalo skelbimą 365 finansų blogoje, atnaujinkite temą "Pašalintos arba pasenusios funkcijos", perduokite pakeitimą atitinkamose "Microsoft" konferencijase ir t. t.
 
 ## <a name="why-use-one-voucher"></a>Kodėl verta naudotis funkcija Vienas kvitas?
 

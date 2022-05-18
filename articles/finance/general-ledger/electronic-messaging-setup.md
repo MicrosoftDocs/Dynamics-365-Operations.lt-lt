@@ -7,17 +7,17 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: ''
+ms.reviewer: kfend
 ms.search.region: Global
 ms.author: elgolu
 ms.search.validFrom: 2021-06-23
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: a9d623c712de34afd1b38dbc6a8738ebf9613d49
-ms.sourcegitcommit: 8c17717b800c2649af573851ab640368af299981
+ms.openlocfilehash: 652d8684473d1c1505a80eb1d860c57a214b9488
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/23/2021
-ms.locfileid: "7860563"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8734225"
 ---
 # <a name="set-up-electronic-messages"></a>Elektroninių pranešimų sąranka
 
@@ -72,7 +72,7 @@ Toliau pateiktoje lentelėje aprašomi puslapio **Pranešimų būsenos** laukai.
 
 ## <a name="additional-fields"></a><a id="additional"></a>Papildomi laukai
 
-EM funkcija leidžia jums rinkti įrašus iš operacijų lentelių „Microsoft Dynamics 365 Finance” platformoje kaip pranešimų elementus. Tokiu būdu galite ataskaitoms parengti įrašus, o paskui juos pateikti. Tačiau kartais operacijų lentelėse nepakanka informacijos, kad įrašus būtų galima užpildyti pagal ataskaitų reikalavimus. Norėdami užpildyti visą įrašo informaciją, kuri turi būti pateikta, galite nustatyti papildomų laukų. Papildomus laukus galima susieti su pranešimais ir pranešimų elementais. Galite nustatyti papildomus laukus eidami į **Mokesčiai** \> **Nustatymas** \> **Elektroniniai pranešimai** \> **Papildomi laukai**.
+EM funkcija leidžia rinkti įrašus iš operacijų Microsoft Dynamics lentelių 365 finansų kaip pranešimų elementai. Tokiu būdu galite ataskaitoms parengti įrašus, o paskui juos pateikti. Tačiau kartais operacijų lentelėse nepakanka informacijos, kad įrašus būtų galima užpildyti pagal ataskaitų reikalavimus. Norėdami užpildyti visą įrašo informaciją, kuri turi būti pateikta, galite nustatyti papildomų laukų. Papildomus laukus galima susieti su pranešimais ir pranešimų elementais. Galite nustatyti papildomus laukus eidami į **Mokesčiai** \> **Nustatymas** \> **Elektroniniai pranešimai** \> **Papildomi laukai**.
 
 Toliau pateiktoje lentelėje aprašomi puslapyje **Papildomi laukai** esantys bendrieji laukai.
 
@@ -142,25 +142,25 @@ Galite nustatyti automatinio įrašų užpildymo veiksmus eidami į **Mokesčiai
 
 ## <a name="populate-records-from-multiple-companies"></a><a id="multiple-companies-populate"></a> Automatiškai įvesti įrašus iš kelių įmonių
 
-Jei jūsų įmonė turi pateikti ataskaitą iš kelių juridinių subjektų toje pačioje finansų duomenų bazėje, nustatykite automatiškai įvesti visų juridinių subjektų, iš kurių duomenys turi būti įtraukti į [ataskaitas](#populate), įrašus.
+Jei jūsų įmonė turi pateikti ataskaitą iš kelių juridinių subjektų toje pačioje finansų duomenų bazėje, nustatykite [automatiškai įvesti visų juridinių subjektų,](#populate) iš kurių duomenys turi būti įtraukti į ataskaitas, įrašus.
 
 Norėdami įgalinti šį pajėgumą savo finansų aplinkoje, atlikite šiuos veiksmus. 
 
-1. Eikite **į darbo sričių funkcijų** \> **valdymą**.
+1. Eikite į **darbo sričių** \> **funkcijų valdymą**.
 2. Raskite ir pasirinkite **visos įmonės užklausas, skirtas automatiškai įvesti įrašų** veiksmų funkciją sąraše.
 3. Pasirinkite **Įjungti dabar**. 
 
-Norėdami nustatyti kelių [įmonių, kurių duomenys turi būti įtraukti į ataskaitas, įrašų](#populate) veiksmus, atlikite šiuos veiksmus.
+Norėdami nustatyti kelių įmonių [, kurių duomenys turi būti](#populate) įtraukti į ataskaitas, įrašų veiksmus, atlikite šiuos veiksmus.
 
-1. Eikite **į mokesčių nustatymo** \> **·** \> **elektroninius** \> **pranešimus užpildo įrašų** veiksmus.
+1. Eikite į **mokesčių** \> **nustatymo elektroninius** \> **pranešimus** \> **užpildyti įrašų veiksmus.**
 
-    Kai visos įmonės užklausos dėl automatiškai įvedaų įrašų veiksmų funkcijos įgalintos, duomenų šaltinių nustatymo tinklelyje, kuris yra veiksmų puslapio Automatiškai **įvesti** **·** **įrašus, yra įmonės** **laukas**. Esamiems įrašams, kurie buvo sukurti bendrais automatiškai įvedaų įrašų veiksmų nustatymo metu, šiame [lauke](#populate) rodomas dabartinio juridinio subjekto identifikatorius.
+    Kai visos **įmonės užklausos dėl automatiškai** įvedaų įrašų veiksmų funkcijos įgalintos, duomenų šaltinių nustatymo tinklelyje, **kuris yra veiksmų puslapio Automatiškai įvesti įrašus** **,** yra **įmonės** laukas. Esamiems įrašams, kurie buvo sukurti bendrais [įrašų](#populate) veiksmų nustatymo metu, šiame lauke rodomas dabartinio juridinio subjekto identifikatorius.
 
-2. Duomenų šaltinių nustatymo tinklelyje pridėkite kiekvieno filialo juridinio subjekto, kuris turi būti įtrauktas į ataskaitą, eilutę ir **nustatykite** šiuos laukus.
+2. Duomenų šaltinių **nustatymo tinklelyje** pridėkite kiekvieno filialo juridinio subjekto, kuris turi būti įtrauktas į ataskaitą, eilutę ir nustatykite šiuos laukus.
 
-    | Lauko pavadinimas             | Vertė |
+    | Lauko pavadinimas             | Reikšmė |
     |------------------------|-------|
-    | Pavadinimas                   | Įveskite teksto reikšmę, kuri padės suprasti, iš kur gaunamas šis įrašas. Pavyzdžiui, įveskite **duomenų šaltinio pavadinimą – filialas 1.** |
+    | Vardas                   | Įveskite teksto reikšmę, kuri padės suprasti, iš kur gaunamas šis įrašas. Pavyzdžiui, įveskite duomenų **šaltinio pavadinimą – filialas 1**. |
     | Pranešimo prekės tipas      | Pasirinkite pranešimo elemento tipą, kurio reikia jūsų EM apdorojimui. |
     | Kodo tipas           | Nurodykite sąskaitos tipą, kuris būtinas jūsų EM apdorojimui. Jei jūsų EM apdorojime nėra konkrečių sąskaitų tipų, pasirinkite **Visi**. |
     | Pagrindinės lentelės pavadinimas      | Nurodykite pagrindinės lentelės, kurios reikia jūsų EM apdorojimui, pavadinimą. |
@@ -168,9 +168,9 @@ Norėdami nustatyti kelių [įmonių, kurių duomenys turi būti įtraukti į at
     | Laukas Dokumento data    | Nurodykite lauką, kuriame YRA dokumento data EM apdorojimo įrašuose. |
     | Laukas Dokumento sąskaita | Nurodykite lauką, kuriame yra dokumento sąskaita įrašuose, kuriuos apdorosite EM. |
     | Įmonė                | Pasirinkite filialo juridinio subjekto ID. |
-    | Vartotojo užklausa             | Šis žymės langelis automatiškai pasirenkamas, kai pasirenkate kriterijus pasirinkdami **Redaguoti** užklausą. |
+    | Vartotojo užklausa             | Šis žymės langelis automatiškai pasirenkamas, kai pasirenkate kriterijus pasirinkdami Redaguoti **užklausą**. |
 
-3. Kiekvienoje naujoje eilutėje pasirinkite Redaguoti užklausą ir nurodykite susijusius juridinio subjekto, nurodyto **eilutės** lauke **Įmonė**, kriterijus.
+3. Kiekvienoje naujoje eilutėje pasirinkite **Redaguoti užklausą** ir **nurodykite susijusius juridinio subjekto kriterijus, nurodytus eilutės** lauke Įmonė.
 
 ## <a name="web-applications"></a><a id="applications"></a>Žiniatinklio programos
 

@@ -1,22 +1,22 @@
 ---
 title: Sukurkite vidinę įmonės prekybą
 description: Šioje temoje paaiškinama, kaip nustatyti vidinės įmonės prekybą
-author: GalynaFedorova
+author: Henrikan
 ms.date: 09/01/2021
 ms.topic: article
 ms.search.form: CustTable, VendTable, EcoResProductListPage, InterCompanyTradingRelationSetupCustomer
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: v-gfedorova
+ms.author: henrikan
 ms.search.validFrom: 2021-09-01
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 7288cc8f336b6b1f5174fe2bef38017e0c96e560
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: 5080267568f4d0626d2c727efb533295e7d8e397
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7777721"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8669410"
 ---
 # <a name="set-up-intercompany-trade"></a>Sukurkite vidinę įmonės prekybą
 

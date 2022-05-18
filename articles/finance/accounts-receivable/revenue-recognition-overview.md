@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: Customer
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: aae46fa90d306355608200f96ae5cf10793c8464
-ms.sourcegitcommit: 0925b9ee0cb0df93047681a243aacc2abd404dea
+ms.openlocfilehash: 35ee857339a59391b048f920e8d6b13812909d76
+ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/16/2022
-ms.locfileid: "8446183"
+ms.lasthandoff: 05/07/2022
+ms.locfileid: "8725769"
 ---
 # <a name="revenue-recognition-overview"></a>Įplaukų pripažinimo apžvalga
 
@@ -35,7 +35,7 @@ Paprastai įplaukų pripažinimo procesas gali būti naudojamas šioms užduotim
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE44iER]
 
-[Įplaukų pripažinimo funkcijos naudojimo „Dynamics 365 Finance“](https://youtu.be/v3amIsiqvoo) vaizdo įrašas (pateiktas pirmiau) yra įtrauktas į [„Finance and Operations“ grojaraštį](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW), kurį galima rasti „YouTube“.
+Įplaukų [atpažinimo naudojimas "Dynamics 365"](https://youtu.be/v3amIsiqvoo) finansų vaizdo įraše (rodomas pirmiau) yra [įtrauktas į finansų ir operacijų programos](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) galimų įrašų sąrašą YouTube.
 
 Įplaukų pripažinimo funkcija teikiama lanksti sistema, leidžianti nustatyti įmonei būdingas taisykles, skirtas tiek įplaukų vertei, tiek įplaukų grafikui pripažinti.
 

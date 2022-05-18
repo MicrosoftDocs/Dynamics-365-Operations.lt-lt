@@ -8,7 +8,7 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom:
 - "14151"
 - intro-internal
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 04897e3a7765264ab2e664422caa928c49b9cc61
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: f3d6f328ff3fd4da6ad3e7d4f3f751d3be692736
+ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982044"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8713196"
 ---
 # <a name="customer-payment-predictions"></a>Kliento mokėjimo prognozės
 
@@ -66,6 +66,6 @@ Daugelyje įmonių surinkimo procesas buvo reaktyvi veikla. Kitaip tariant, iši
 
 ## <a name="methodology"></a>Metodika
 
-Anksčiau paprastai būdavo nelengva sukurti ir įdiegti dirbtinio intelekto (DI) sprendimą. Tam reikėdavo komandos, jungiančios duomenų mokslininkus, srities ekspertus ir inžinierius, kurie ilgą laiką dirba, kad suformuluotų, sukurtų, visuotinai įdiegtų ir išlaikytų naudotiną DI sprendimą. Kliento mokėjimo prognozės leidžia lengvai įdiegti ir naudoti DI sprendimą programoje „Microsoft Dynamics 365 Finance“. "Microsoft" iš anksto supakuoja AI sprendimus, įtaisytus "Microsoft"AI Builder. Todėl vartotojai gali naudoti DI sprendimą vienu pelės klavišu, norėdami pasinaudoti pažangių prognozių pranašumais. Jei nesate patenkinti numatymais, maitinimo vartotojas gali (dar kartą spustelėjus pelę) įvesti išplėtimo patirtį ir pasirinkti arba išvalyti laukus, kurie naudojami numatymams AI Builder generuoti. Kai esate pasiruošę, galite „išmokyti“ modelį ir publikuoti keitimus. Naujai parengtas modelis bus automatiškai naudojamas prognozuojant programoje „Dynamics 365 Finance“.
+Anksčiau paprastai būdavo nelengva sukurti ir įdiegti dirbtinio intelekto (DI) sprendimą. Tam reikėdavo komandos, jungiančios duomenų mokslininkus, srities ekspertus ir inžinierius, kurie ilgą laiką dirba, kad suformuluotų, sukurtų, visuotinai įdiegtų ir išlaikytų naudotiną DI sprendimą. Kliento mokėjimų numatymas leidžia lengvai diegti ir naudoti AI sprendimą Microsoft Dynamics 365 finansuose. "Microsoft" iš anksto supakuoja AI sprendimus, įtaisytus "Microsoft"AI Builder. Todėl vartotojai gali naudoti DI sprendimą vienu pelės klavišu, norėdami pasinaudoti pažangių prognozių pranašumais. Jei nesate patenkinti numatymais, maitinimo vartotojas gali (dar kartą spustelėjus pelę) AI Builder įvesti išplėtimo patirtį ir pasirinkti arba išvalyti laukus, kurie naudojami numatymams generuoti. Kai esate pasiruošę, galite „išmokyti“ modelį ir publikuoti keitimus. Naujai suplanuotas modelis bus automatiškai paimtas, kad būtų galima generuoti numatymas "Dynamics 365 Finance".
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
