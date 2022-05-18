@@ -8,7 +8,6 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: HRMParameters, EssWorkspace
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom:
 - "51941"
 - intro-internal
@@ -17,12 +16,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-03-19
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 28bf4ff4e456505efda3777a4f820c54f270c74b
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 51883730c36a3df2538adbe85ad8ead7d3cf1e98
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8068949"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8694487"
 ---
 # <a name="employee-and-manager-self-service-overview"></a>Darbuotojų ir vadovų savitarnos apžvalga
 
@@ -96,7 +95,7 @@ Peržiūrėkite ir valdykite dokumentus kortelėje **Priedai**. Galite valdyti v
 
 Šiame skyriuje pateikiami saitai į kitas **darbuotojų savitarnos** sritis, panašias į skyrių **Mano karjeros informacija** skyrius.
 
-Registruokitės išmokoms naudodami saitą **Išmokos**. Norėdami gauti daugiau informacijos apie išmokų valdymą, žr [Privalumų apžvalga](hr-benefits-management-overview.md).
+Registruokitės išmokoms naudodami saitą **Išmokos**. Daugiau informacijos apie išmokų valdymą žr. [Išmokų apžvalga](hr-benefits-management-overview.md).
 
 Dalyje **Našumas** galite pasirinkti **Našumo žurnalas**, kad galėtumėte kurti našumo žurnalų įrašus, naudojamus ir našumo tiksluose, ir apžvalgose. Galite pasirinkti **Siųsti atsiliepimą**, kad pateiktumėte atsiliepimus kitiems organizacijos darbuotojams. Atsižvelgiant į jūsų organizacijos parametrus, el. laiškai gali būti siunčiami gavėjui, siuntėjui ir vadovams. Galite siųsti atsiliepimus visiems organizacijos darbuotojams. Atsiliepimų siuntimas nėra ribojamas pagal įmonę.
 

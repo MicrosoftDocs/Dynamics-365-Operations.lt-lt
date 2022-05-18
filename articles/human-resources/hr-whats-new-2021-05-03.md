@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-05-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 1bfbfabc8ba9c41dfd02c205755042f82387f5e09c88722e2503316bc1cf5feb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 01babeae8ccb5af5e414cb78734ce05adf670277
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6770365"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8689781"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-may-3-2021"></a>Kas nauja ar pasikeitė sistemoje „Dynamics 365 Human Resources“ (2021 m. gegužės 3 d.)
 
@@ -71,7 +70,7 @@ Toliau pateiktos naujos funkcijos yra peržiūrimos. Daugiau informacijos apie f
 
 | Funkcija | Informacija |
 | --- | --- |
-| Platformos atnaujinimas 10.0.18 (42) | Platformos atnaujinimas 10.0.18 yra suplanuotas pasirodyti su nauju leidimu 2021 m. gegužės 17 d. Daugiau informacijos žr. [„Finance and Operations” programų 10.0.18 versijos platformos naujinimai (2021 m. gegužės mėn.)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-18). |
+| Platformos atnaujinimas 10.0.18 (42) | Platformos atnaujinimas 10.0.18 yra suplanuotas pasirodyti su nauju leidimu 2021 m. gegužės 17 d. Daugiau informacijos rasite finansų ir [operacijų programėlių 10.0.18 versijos platformos atnaujinimų (2021 m. gegužės mėn.)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-18). |
 | Pasirinktinių laukų palaikymas išmokų valdyme pagal atitinkamas taisykles  | [Pasirinktinio lauko palaikymas tinkamumo apdorojimui](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/custom-field-support-eligibility-processing) |
 
 Norėdami gauti visą planuojamų funkcijų ir jų suplanuotų leidimų sąrašą, žr. [„Dynamics 365 Human Resources” 2021 m. 1-os leidimo bangos apžvalga](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/).

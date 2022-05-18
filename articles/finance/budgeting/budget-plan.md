@@ -1,6 +1,6 @@
 ---
 title: Biudžeto planavimas
-description: Šios laboratorijos tikslas yra pateikti valdomą „Microsoft Dynamics 365 Finance“ funkcijos naujinimų peržiūrą srityje Biudžeto planavimas. Šios laboratorijos tikslas yra iliustruoti greitą biudžeto planavimo modulio konfigūracijos pavyzdį ir pademonstruoti, kaip atlikti biudžeto planavimą naudojant šią konfigūraciją.
+description: Šios programos tikslas – biudžeto planavimo srityje pateikti Microsoft Dynamics 365 finansų funkcijų naujinimų nurodymus. Šios laboratorijos tikslas yra iliustruoti greitą biudžeto planavimo modulio konfigūracijos pavyzdį ir pademonstruoti, kaip atlikti biudžeto planavimą naudojant šią konfigūraciją.
 author: panolte
 ms.date: 06/25/2018
 ms.topic: article
@@ -8,25 +8,25 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: BudgetPlanningConfiguration
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 10763
 ms.assetid: 0f2ba752-1f6d-4f28-b9e9-b2e97d10b6d1
 ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0420887c35bbb07aaf8cce05a68173ab6c534f92
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.openlocfilehash: 65ebfddb1baf39e20c22d3ed9bb26dbb33765e20
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7595339"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8712010"
 ---
 # <a name="budget-planning"></a>Biudžeto planavimas
 
 [!include [banner](../includes/banner.md)]
 
-Šios laboratorijos tikslas yra pateikti valdomą „Microsoft Dynamics 365 Finance“ funkcijos naujinimų peržiūrą srityje Biudžeto planavimas. Šios laboratorijos tikslas yra iliustruoti greitą biudžeto planavimo modulio konfigūracijos pavyzdį ir pademonstruoti, kaip atlikti biudžeto planavimą naudojant šią konfigūraciją.  Šis laboratorinis darbas ypatingą dėmesį skirs tokiems verslo procesams ar užduotims:
+Šios programos tikslas – biudžeto planavimo srityje pateikti Microsoft Dynamics 365 finansų funkcijų naujinimų nurodymus. Šios laboratorijos tikslas yra iliustruoti greitą biudžeto planavimo modulio konfigūracijos pavyzdį ir pademonstruoti, kaip atlikti biudžeto planavimą naudojant šią konfigūraciją.  Šis laboratorinis darbas ypatingą dėmesį skirs tokiems verslo procesams ar užduotims:
 - Sukuriama organizacijos biudžeto planavimo hierarchija ir sukonfigūruojama vartotojo sauga
 - Apibrėžiami biudžeto plano scenarijai, biudžeto plano stulpeliai, išdėstymai ir „Excel“ šablonai
 - Sukuriamas ir suaktyvinamas biudžeto planavimo procesas
@@ -36,7 +36,7 @@ ms.locfileid: "7595339"
 
 ## <a name="prerequisites"></a>Būtinieji komponentai 
 
-Šioje mokymo programoje jums reikės prieigos prie „Microsoft Dynamics 365 Finance“ aplinkos naudojant „Contoso“ demonstracinius duomenis ir turėti administratoriaus teises naudojant egzempliorių. Šiame laboratoriniame darbe nenaudokite privataus naršyklės režimo – jei reikia, atsijunkite nuo bet kokių kitų sąskaitų naršyklėje, ir prisijunkite naudodami administratoriaus kredencialus. Prisijungdami **PRIVALOTE** pažymėti žymės langelį Likti prisijungus. Taip sukuriamas nuolatinis slapukas, kurio dabar reikia „Excel“ programai. Jei prisijungsite prie programos naudodami kitą naršyklę nei IE, tada jus paragins prisijungti per „Excel“ programą. Spustelėjus „Prisijungti“ „Excel“ programoje, atsidarys IE iššokantysis langas – prisijungdami **PRIVALOTE** patikrinti, ar pažymėtas žymės langelis „Likti prisijungus“. Jei „Excel“ programoje spustelėjus „Prisijungti“ nepanašu, kad kas nors būtų įvykę, reikėtų išvalyti IE slapukų talpyklą.
+Šiuo atveju, turite turėti prieigą prie Microsoft Dynamics 365 finansų aplinkos su "Contoso" demonstraciniai duomenimis ir būti parengti kaip egzemplioriaus administratorius. Šiame laboratoriniame darbe nenaudokite privataus naršyklės režimo – jei reikia, atsijunkite nuo bet kokių kitų sąskaitų naršyklėje, ir prisijunkite naudodami administratoriaus kredencialus. Prisijungdami **PRIVALOTE** pažymėti žymės langelį Likti prisijungus. Taip sukuriamas nuolatinis slapukas, kurio dabar reikia „Excel“ programai. Jei prisijungsite prie programos naudodami kitą naršyklę nei IE, tada jus paragins prisijungti per „Excel“ programą. Spustelėjus „Prisijungti“ „Excel“ programoje, atsidarys IE iššokantysis langas – prisijungdami **PRIVALOTE** patikrinti, ar pažymėtas žymės langelis „Likti prisijungus“. Jei „Excel“ programoje spustelėjus „Prisijungti“ nepanašu, kad kas nors būtų įvykę, reikėtų išvalyti IE slapukų talpyklą.
 
 ## <a name="scenario-overview"></a>**Scenarijaus apžvalga**
 Julija dirba finansų vadove „Contoso Entertainment Systems“ įmonėje Vokietijoje (DEMF). Artėjant FY2016, ji turi sudaryti kitų metų įmonės biudžetą. Biudžeto sudarymas atrodo taip:

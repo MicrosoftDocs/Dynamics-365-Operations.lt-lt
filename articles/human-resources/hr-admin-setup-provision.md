@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: SystemAdministrationWorkspaceForm
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7ce30b64bc7c3889347bec94186614bd6cc337f4
-ms.sourcegitcommit: 1050e58e621d9a0454895ed07c286936f8c03320
-ms.translationtype: HT
+ms.openlocfilehash: 79747d0c5c4265315d1757352dfecef09c469dd8
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "8625419"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8710869"
 ---
 # <a name="provision-human-resources"></a>„Human Resources“ parengimas
 
@@ -144,7 +143,7 @@ Svarstydami, kurioje „Power Apps“ aplinkoje diegti „Human Resources“, pa
 6. Dvigubo rašymo galimybes, kurias naudojant galima integruoti personalo duomenis į „Power Apps” aplinką, galima naudoti tik pasirinkus **Įgalinti „Dynamics 365” programas** parinktį aplinkai. Skaitykite [Pagrindinis dvigubo rašymo puslapis](../fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-home-page.md), jei norite sužinoti daugiau apie dvigubą rašymą.
 
     > [!NOTE]
-    > Parinktis **Įgalinti „Dynamics 365” programas** turi būti pažymėta „Power Apps” aplinkos kūrimo metu. Jei ši parinktis nėra pažymėta parengimo metu, negalėsite naudoti dvigubo rašymo duomenų integravimui tarp „Dynamics 365 Human Resources” ir „Power Apps” aplinkos, taip pat įdiegti „Dynamics 365” programų, pavyzdžiui, „Dynamics 365 Sales” ir „Field Service”, aplinkoje. Ši pasirinktis yra negrįžtama. Daugiau informacijos rasite [Keletas svarbių aplinkybių kuriant naują aplinką](//power-platform/admin/create-environment#some-important-considerations-when-creating-a-new-environment) „Power Platform” dokumentacijos svetainėje.
+    > Parinktis **Įgalinti „Dynamics 365” programas** turi būti pažymėta „Power Apps” aplinkos kūrimo metu. Jei ši parinktis nėra pažymėta parengimo metu, negalėsite naudoti dvigubo rašymo duomenų integravimui tarp „Dynamics 365 Human Resources” ir „Power Apps” aplinkos, taip pat įdiegti „Dynamics 365” programų, pavyzdžiui, „Dynamics 365 Sales” ir „Field Service”, aplinkoje. Ši pasirinktis yra negrįžtama. Daugiau informacijos rasite [Keletas svarbių aplinkybių kuriant naują aplinką](/power-platform/admin/create-environment#some-important-considerations-when-creating-a-new-environment) „Power Platform” dokumentacijos svetainėje.
 
 7. Nustatę tinkamą naudotiną aplinką, galite tęsti parengimo procesą. 
 

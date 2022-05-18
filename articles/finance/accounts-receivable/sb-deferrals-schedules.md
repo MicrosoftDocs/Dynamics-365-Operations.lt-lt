@@ -9,18 +9,17 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: Core, Operations
 ms.custom: 539093
 ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: 953347500f83a4a16f43331b572d2029027a5f59
-ms.sourcegitcommit: d0e99545d722c924db57ae2bd06f72154a1f1f97
+ms.openlocfilehash: 9135ac733496a0c5d79669c35972c273c209f81d
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/08/2022
-ms.locfileid: "8557975"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8685983"
 ---
 # <a name="deferral-schedules"></a>Atidėjimo grafikai
 
@@ -174,7 +173,7 @@ Visų **atidėjimų grafikų puslapyje** yra šie laukai.
 | Laukai | Aprašymas |
 |--------|-------------|
 | **Antraštė** | |
-| **Planuoti** | |
+| **Grafikas** | |
 | Paskirstymo tipas | Paskirstymo tipas, kai atidėjimai pagrįsti įvykiu: procentas **arba** **suma**. |
 | Perklasifikavimo data | <p>Vėliausia data, kai buvo apdorotas trumpalaikis atidėjimo grafiko perklasifikavimas. Ši data atnaujinama kiekvieną kartą, kai atidėjimo **grafike naudojamas** trumpalaikis įvykio perklasifikavimas.</p>Šis laukas galimas tik tada, kai naudojamas ėjimo laikotarpis arba fiksuotų metų trumpalaikis atidėjimo metodas. |
 | **Sąskaita** | |

@@ -1,26 +1,26 @@
 ---
 title: Papildomos knygos perkėlimas į Didžiąją knygą
 description: Šioje temoje aprašomos galimybės, susijusios su papildomos knygos perkėlimo procesu Didžiojoje knygoje.
-author: rcarlson
+author: RyanCCarlson2
 ms.date: 12/08/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerJournalSetup, LedgerJournalTable
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 15721
 ms.assetid: b4b406fa-b772-44ec-8dd8-8eb818a921ef
 ms.search.region: Global
-ms.author: peakerbl
+ms.author: rcarlson
 ms.search.validFrom: 2020-01-18
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 213bbc2541c614aa26b0c830431818fb99c7682d
-ms.sourcegitcommit: f5885999e008a49fe072d95f15e239905c24918a
+ms.openlocfilehash: 70a34fa1f4ee540d89ec05816e4065fb3e1df9ef
+ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/08/2021
-ms.locfileid: "7900735"
+ms.lasthandoff: 05/07/2022
+ms.locfileid: "8727320"
 ---
 # <a name="subledger-transfer-to-the-general-ledger"></a>Papildomos knygos perkėlimas į Didžiąją knygą
 
@@ -28,7 +28,7 @@ ms.locfileid: "7900735"
 
 Šioje temoje aprašomos galimybės, susijusios su papildomos knygos žurnalo įrašų paketų perkėlimo taisyklėmis.
 
-Versijoje 8.1 buvo atlikti pakeitimai, kad būtų leidžiama perkelti taisykles, pagal kurias nebenaudojama parinktis **Sinchroninis**. Norėdami gauti daugiau informacijos, žr. [Pašalintos arba nerekomenduojamos „Finance and Operations” funkcijos](../../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=%2fdynamics365%2ffinance%2ftoc.json#finance-and-operations-81-with-platform-update-20).
+Versijoje 8.1 buvo atlikti pakeitimai, kad būtų leidžiama perkelti taisykles, pagal kurias nebenaudojama parinktis **Sinchroninis**. Daugiau informacijos ieškokite Pašalintos [arba pasenusios finansų ir operacijų funkcijos](../../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=%2fdynamics365%2ffinance%2ftoc.json#finance-and-operations-81-with-platform-update-20).
 
 Galimos toliau nurodytos papildomos knygos paketų perkėlimo parinktys:
 
@@ -39,7 +39,7 @@ Galimos toliau nurodytos papildomos knygos paketų perkėlimo parinktys:
 
 Asinchroninio papildomos knygos paketų perkėlimo funkcijos padeda pagerinti duomenų perkėlimą iš papildomos knygos į didžiąją knygą. Sugrupavus mažesnių operacijų rinkinius ir perkėlus operacijas į grupes, funkcionalumas apdoroja operacijas efektyviau. Sugrupavus operacijas, paketo serverio ištekliai naudojami efektyviau.
 
-Asinchroninis papildomos knygos paketų perkėlimas reikalauja, kad paketinio apdorojimo serveris būtų nustatytas, tinklo ir darbo, nes paketinės užduotys yra sukuriamos tam, kad paketinio apdorojimo serveryje būtų nedelsiant užduotys. Kai papildomos knygos perkėlimas į DK našumo optimizavimo funkciją įgalintas, turi būti įjungta proceso automatizavimo sistemos paketinė užduotis, pavadinta Proceso **automatizavimo** **·** **apklausų** sistemos užduotis. Norėdami gauti daugiau informacijos, [žr. Apdorojimo automatizavimas](../../fin-ops-core/dev-itpro/sysadmin/process-automation.md).
+Asinchroninis papildomos knygos paketų perkėlimas reikalauja, kad paketinio apdorojimo serveris būtų nustatytas, tinklo ir darbo, nes paketinės užduotys yra sukuriamos tam, kad paketinio apdorojimo serveryje būtų nedelsiant užduotys. Kai papildomos knygos **perkėlimas** į DK našumo optimizavimo funkciją įgalintas, **turi būti įjungta proceso automatizavimo** **sistemos** paketinė užduotis, pavadinta Proceso automatizavimo apklausų sistemos užduotis. Norėdami gauti daugiau informacijos, [žr. Apdorojimo automatizavimas](../../fin-ops-core/dev-itpro/sysadmin/process-automation.md).
 
 Efektyvumo pokytis paketo lygiu naudoja vieną pasikartojančią paketinę užduotį visiems sistemos juridiniams subjektams. Apdorojimo metu sukuriama nauja paketinė užduotis siekiant apdoroti reikalingus įrašus, kurie nebuvo perkelti. Daugiau parametrų galima kontroliuoti sistemos administravimo **Proceso automatizavimo** puslapyje. Šiame puslapyje galite modifikuoti fono procesą, keisti dažnį ir nurodyti miego režimo laikotarpį.
 

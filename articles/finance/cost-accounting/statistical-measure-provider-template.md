@@ -1,6 +1,6 @@
 ---
 title: Tiekėjo šablonai statistinės dimensijos nariams ir matavimo tiekėjams
-description: Šioje temoje pateikiama informacijos apie statistinių dimensijų narius ir statistinių priemonių teikimo įrankių šablonus. Statistinių dimensijų narius galima naudoti kaip strategijų, pvz., išlaidų paskirstymo ir išlaidų priskyrimo, paskirstymo bazę. Juos taip pat galima naudoti nepiniginių išlaidų naudojimui pranešti.
+description: Šioje temoje pateikiama informacijos apie statistinių dimensijų narius ir statistinių priemonių teikimo įrankių šablonus.
 author: AndersGirke
 ms.date: 06/16/2017
 ms.topic: article
@@ -8,20 +8,20 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CAMCostAccountingLedgerSourceEntryProvider, CAMStatisticalDimension, CAMAXStatisticalMeasureProviderTemplate, CAMAXStatisticalMeasureProviderConfiguration, CAMStatisticalDimensionMember, CAMDataConnectorStatisticalMeasure, CAMImportedStatisticalMeasure, CAMImportedStatisticalMeasureProviderConfiguration
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c79451a5145a6e419ae0e332c67f06ca2df65996f959333a508dbf62dbf435ff
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5daac80fdc62fb996be82aa4c8bb7bb3c8dc03e9
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767652"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8733912"
 ---
 # <a name="provider-templates-for-statistical-dimension-members-and-measure-providers"></a>Tiekėjo šablonai statistinės dimensijos nariams ir matavimo tiekėjams
 
@@ -69,7 +69,7 @@ Statistinės dimensijos narys automatiškai tampa iš anksto apibrėžta paskirs
 
 ## <a name="statistical-measure-provider-template"></a>Statistinių priemonių teikimo įrankio šablonas
 
-Statistinės priemonės gali kilti iš įvairiausių šaltinių. „Dynamics 365 Finance“ yra puikus statistinių priemonių išgavimo šaltinis. Naudodami statistinių priemonių teikimo įrankio šabloną galite lengvai konfigūruoti norimas ištraukti statistines priemones.
+Statistinės priemonės gali kilti iš įvairiausių šaltinių. "Dynamics 365 Finance" yra didelis šaltinis, iš kurių galima gauti statistines priemones. Naudodami statistinių priemonių teikimo įrankio šabloną galite lengvai konfigūruoti norimas ištraukti statistines priemones.
 
 Statistinių priemonių teikimo įrankio šablono apibrėžtis yra bendro pobūdžio ir ją galima pakartotinai naudoti su keliais statistinių dimensijų nariais.
 
@@ -128,13 +128,13 @@ Kad statistines priemones galėtumėte perkelti į modulį Kaštų apskaita, tur
 > [!NOTE]
 > Šiame pavyzdyje ryšį sukursime tik **faktinei versijai**.
 
-Norėdami nustatyti ryšį, eikite į **Didžioji kaštų apskaitos knyga** \> **Faktinė versija** \> **Valdyti** \> **Statistinės priemonės**. Šiuo atveju pasirinkite duomenų jungtį **„Dynamics 365 Finance“ – statistinės priemonės**, nes duomenis norime išgauti iš „Finance“.
+Norėdami nustatyti ryšį, eikite į **Didžioji kaštų apskaitos knyga** \> **Faktinė versija** \> **Valdyti** \> **Statistinės priemonės**. Pasirinkite šio scenarijaus " **Dynamics 365" finansų –** statistinių duomenų jungtį, nes norime išskleisti duomenis iš finansų.
 
 **Duomenų šaltinis**
 
-| Vardas ir pavardė        | Duomenų jungtis                                                                     | Statistinės dimensijos narys |
+| Vardas        | Duomenų jungtis                                                                     | Statistinės dimensijos narys |
 |-------------|------------------------------------------------------------------------------------|------------------------------|
-| Visu etatu dirbantys darbuotojai D365FO | „Dynamics 365 Finance“ – statistinės priemonės | Visu etatu dirbantys darbuotojai                         |
+| Visu etatu dirbantys darbuotojai D365FO | "Dynamics 365" finansai – statistikos priemonės | Visu etatu dirbantys darbuotojai                         |
 
 **Duomenų teikimo įrankio konfigūracija**
 
@@ -216,13 +216,13 @@ Kad statistines priemones galėtumėte perkelti į modulį Kaštų apskaita, tur
 > [!NOTE]
 > Šiame pavyzdyje ryšį sukursime tik **faktinei versijai**.
 
-Norėdami nustatyti ryšį, eikite į **Didžioji kaštų apskaitos knyga** \> **Faktinė versija** \> **Valdyti** \> **Statistinės priemonės**. Šiuo atveju pasirinkite duomenų jungtį **„Dynamics 365 Finance“ – statistinės priemonės**, nes duomenis norime išgauti iš „Finance“.
+Norėdami nustatyti ryšį, eikite į **Didžioji kaštų apskaitos knyga** \> **Faktinė versija** \> **Valdyti** \> **Statistinės priemonės**. Pasirinkite šio scenarijaus " **Dynamics 365" finansų –** statistinių duomenų jungtį, nes norime išskleisti duomenis iš finansų.
 
 **Duomenų šaltinis**
 
 | Vardas ir pavardė           | Duomenų jungtis                                                                     | Statistinės dimensijos narys |
 |----------------|------------------------------------------------------------------------------------|------------------------------|
-| Pakavimo CC D365FO | „Dynamics 365 Finance“ – statistinės priemonės | Pakavimo CC                      |
+| Pakavimo CC D365FO | "Dynamics 365" finansai – statistikos priemonės | Pakavimo CC                      |
 
 Sistema atpažįsta, kad ProdRouteTrans yra lentelė, kurioje kiekvienas įrašas priklauso atskiram juridiniam subjektui. Todėl jūsų bus paprašyta pasirinkti juridinį subjektą, iš kurios reikia importuoti operacijas.
 

@@ -1,22 +1,22 @@
 ---
 title: Vidinės įmonės pardavimo užsakymo kūrimas ir sąskaitos faktūros išrašymas išoriniam klientui
 description: Šioje temoje paaiškinama, kaip sukurti vidinės įmonės pirkimo užsakymą išoriniam klientui ir išrašyti sąskaitą
-author: GalynaFedorova
+author: Henrikan
 ms.date: 09/01/2021
 ms.topic: article
 ms.search.form: SalesTableListPage, SalesCreateOrder, SalesTable
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: v-gfedorova
+ms.author: henrikan
 ms.search.validFrom: 2021-09-01
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: b5f7342a997407c8701b836c2a6a6222d8512121
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: c8a22ded1a6242e4062e1ce9e0ce624d4579fba9
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8074999"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8669396"
 ---
 # <a name="create-and-invoice-an-intercompany-sales-order-for-an-external-customer"></a>Vidinės įmonės pardavimo užsakymo kūrimas ir sąskaitos faktūros išrašymas išoriniam klientui
 
@@ -77,16 +77,16 @@ Atlikite šiuos veiksmus juridiniame subjekte B. Ši procedūra atitinka iliustr
 Vidinės įmonės pardavimo užsakymo kliento SF automatiškai užregistruojama juridiniame subjekte B. Tada automatiškai sukuriama ir juridiniame subjekte A užregistruojama vidinės įmonės tiekėjo SF. Jei pradinis pardavimo užsakymas yra nustatytas kaip tiesioginis pristatymas, juridiniame subjekte A sukuriama pradinio pardavimo užsakymo kliento SF.
 
 > [!NOTE]
-> Anksčiau tarp įmonių pardavimo scenarijuose, jei tiekėjo sąskaitos faktūros darbo eiga buvo sukonfigūruota tarpįmonių pirkimo įmonėje, tarp įmonių pardavimo užsakymo nebuvo galima sėkmingai išrašyti sąskaitos faktūros. Todėl tiekėjo sąskaitų faktūrų darbo eiga turėjo būti išjungta tarpįmonių perkančiajai įmonei. 
+> Anksčiau vidinės įmonės pardavimo scenarijų, jei tiekėjo SF darbo eiga buvo sukonfigūruota vidinės įmonės pirkimo įmonėje, vidinės įmonės pardavimo užsakymui nepavyko sėkmingai išrašyti SF. Todėl vidinės įmonės pirkimo įmonės tiekėjo SF darbo eiga turi būti išjungta. 
 > 
-> Šis apribojimas buvo ištaisytas naudojant naujausią 10.0.25 versijos funkciją. Dabar tarp įmonių pardavimo užsakymus galima išrašyti sąskaitas faktūras, kai tiekėjo sąskaitų faktūrų darbo eiga sukonfigūruojama tarpįmonių pirkimo įmonėje.
+> Šį apribojimą išsamojo naujausia leidimo 10.0.25 priemonė. Vidinės įmonės pardavimo užsakymų SF dabar gali būti išrašomos sukonfigūravus tiekėjo SF darbo eigą vidinės įmonės pirkimo įmonėje.
 > 
-> Norėdami įjungti šią funkciją, atlikite šiuos veiksmus.
+> Norėdami įgalinti šią funkciją, atlikite šiuos veiksmus.
 >
-> 1. Pasirinkite tarpįmonių pardavimo juridinį asmenį.  
+> 1. Pasirinkite vidinės įmonės pardavimo juridinį subjektą.  
 > 2. Eikite į **Gautinos sumos \> Klientai \> Visi klientai**.
-> 3. Pasirinkite tarpįmonių pirkimo įmonės klientą.
-> 4. Eiti į **Generolas \> Nustatyti \> Tarpkompanija**.
-> 5. Ant **Pirkimo užsakymo taisyklės** skirtuką, pasirinkite **Apeiti tiekėjo sąskaitų faktūrų darbo eigą tarp įmonių tiekėjo sąskaitoms faktūroms** parametras.
+> 3. Pasirinkti vidinės įmonės pirkimo įmonės klientą.
+> 4. Eiti į **Vidinės \> įmonės \> bendrąjį rinkinį**.
+> 5. Skirtuke **Pirkimo užsakymo strategijos** pasirinkite vidinės **įmonės tiekėjo SF parametro apeiti tiekėjo SF darbo** eigą.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

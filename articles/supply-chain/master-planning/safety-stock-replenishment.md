@@ -1,22 +1,22 @@
 ---
 title: Prekių pakankamų atsargų pildymas
 description: Šioje temoje aptariamas pakankamų atsargų pildymas ir tai, kaip nustatyti prekių pakankamų atsargų kiekį.
-author: thethehelga
+author: t-benebo
 ms.date: 8/23/2021
 ms.topic: article
 ms.search.form: ReqSafetyKey, ReqItemTableSetup, ReqItemJournalName, ReqItemTable, EcoResProductDetailsExtended, ReqSafetyKeyDefaultDataWizard
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: v-oldolg
+ms.author: benebotg
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: 937341e17688959e5721153c61af904a88608b17
-ms.sourcegitcommit: bc9e75c38e192664cde226ed3a94df5a0b304369
+ms.openlocfilehash: c539b804198ddc5d5dac52c958a851ee55116711
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7790943"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8672072"
 ---
 # <a name="safety-stock-fulfillment-for-items"></a>Prekių pakankamų atsargų pildymas
 
@@ -90,7 +90,7 @@ Toliau pateiktame scenarijuje parodyta, kaip šis parametras veikia ir kuo skiri
 > [!NOTE]
 > Visuose šios temos iliustracijose x ašis nurodo atsargas, y ašis nurodo dienas, juostos nurodo atsargų lygį, rodykles nurodo operacijas, pvz., pardavimo užsakymo eilutes, pirkimo užsakymo eilutes arba suplanuotus užsakymus.
 
-[![ Įprastas saugos atsargų pildymo scenarijus.](media/Scenario1.png)](media/Scenario1.png)
+[![Įprastas saugos atsargų pildymo scenarijus.](media/Scenario1.png)](media/Scenario1.png)
 
 Parametro **Užpildyti minimumą** reikšmės gali būti tokios:
 
@@ -98,17 +98,17 @@ Parametro **Užpildyti minimumą** reikšmės gali būti tokios:
 
 Nurodytas minimalus kiekis yra pasiektas bendrojo planavimo vykdymo dieną. Sistema bando pripildyti pakankamas atsargas iki ribos kuo greičiau, nors jis dėl gamybos laiko tai gali būti nerealu.
 
-[![ Šiandienos datos poreikis.](media/TodayReq.png)](media/TodayReq.png)
+[![Šiandienos datos poreikis.](media/TodayReq.png)](media/TodayReq.png)
 
 Šiandieną sukuriamas suplanuotas užsakymas P1, kad šią dieną turimų atsargų lygis viršytų pakankamų atsargų lygį. Pardavimo užsakymo eilutės S1–S3 toliau mažina atsargų lygį. Bendrasis planavimas sugeneruoja suplanuotus užsakymus P2–P4, kad atsargų lygis vėl būtų pripildytas iki pakankamų atsargų ribos po kiekvieno pardavimo užsakymo poreikio patenkinimo.
 
 Kai **poreikio** padengimo kodas naudojamas, kuriami keli suplanuoti užsakymai. Tai visada patartina naudoti prekių ir medžiagų padengimo kodą **Laikotarpis** arba **Min. / maks.**, kai poreikis dažnai kinta, kad būtų galima grupuoti papildymus. Tolesnėje iliustracijoje parodytas padengimo kodo **Laikotarpis** pavyzdys.
 
-[![ Laikotarpis. Šiandienos data.](media/TodayPeriod.png)](media/TodayPeriod.png)
+[![Laikotarpis. Šiandienos data.](media/TodayPeriod.png)](media/TodayPeriod.png)
 
 Tolesnėje iliustracijoje parodytas padengimo kodo **Min / Maks** pavyzdys.
 
-[![ Min./Maks. Šiandienos data.](media/TodayMinMax.png)](media/TodayMinMax.png)
+[![Min./Maks. Šiandienos data.](media/TodayMinMax.png)](media/TodayMinMax.png)
 
 ### <a name="todays-date--procurement-time"></a>Šiandienos data + pirkimo laikas
 
@@ -118,11 +118,11 @@ Nurodytas minimalus kiekis yra pasiektas bendrojo planavimo vykdymo dieną prid�
 
 Tolesnėje iliustracijoje parodytas plano rezultatus, jei padengimo kodas yra **Poreikis** arba **Laikotarpis**.
 
-[![ Poreikis ar Laikotarpis. Šiandienos data ir gamybos laikas.](media/TodayPLTReq.png)](media/TodayPLTReq.png)
+[![Poreikis ar Laikotarpis. Šiandienos data ir gamybos laikas.](media/TodayPLTReq.png)](media/TodayPLTReq.png)
 
 Tolesnėje iliustracijoje parodytas plano rezultatus, jei padengimo kodas yra **Min / Max**.
 
-[![ Min./Maks. Šiandienos data ir gamybos laikas.](media/TodayPLTMinMax.png)](media/TodayPLTMinMax.png)
+[![Min./Maks. Šiandienos data ir gamybos laikas.](media/TodayPLTMinMax.png)](media/TodayPLTMinMax.png)
 
 ### <a name="first-issue"></a>Pirmas išdavimas
 
@@ -130,21 +130,21 @@ Nurodytas minimalus kiekis yra pasiektas tą dieną, kai turimų atsargų kiekis
 
 Tolesnėje iliustracijoje parodytas padengimo kodo **Poreikis** pavyzdys.
 
-[![ Prekės planavimas naudojant padengimo kodą Poreikis ir pildymą Pirmasis išdavimas.](media/FirstIssueReq.png)](media/FirstIssueReq.png)
+[![Prekės planavimas naudojant padengimo kodą Poreikis ir pildymą Pirmasis išdavimas.](media/FirstIssueReq.png)](media/FirstIssueReq.png)
 
 Tolesnėje iliustracijoje parodytas padengimo kodo **Laikotarpis** pavyzdys.
 
-[![ Prekės planavimas naudojant padengimo kodą Laikotarpis ir pildymą Pirmasis išdavimas.](media/FirstIssuePeriod.png)](media/FirstIssuePeriod.png)
+[![Prekės planavimas naudojant padengimo kodą Laikotarpis ir pildymą Pirmasis išdavimas.](media/FirstIssuePeriod.png)](media/FirstIssuePeriod.png)
 
 Tolesnėje iliustracijoje parodytas padengimo kodo **Min / Maks** pavyzdys.
 
-[![ Prekės planavimas naudojant padengimo kodą MinMax ir pildymą Pirmasis išdavimas.](media/FirstIssueMinMax.png)](media/FirstIssueMinMax.png)
+[![Prekės planavimas naudojant padengimo kodą MinMax ir pildymą Pirmasis išdavimas.](media/FirstIssueMinMax.png)](media/FirstIssueMinMax.png)
 
 Jei tą dieną, kai paleidžiamas bendrasis planavimas, turimų atsargų kiekis jau yra mažesnis nei pakankamų atsargų riba, parinktys **Šiandienos data** ir **Šiandienos data + įsigijimo laikas** suaktyvins papildymą iš karto. **Pirmasis išdavimas** lauks, kol yra pradėta kita prekės išdavimo operacija, pvz., pardavimo užsakymo ir KS eilutės poreikis, ir tada jis suaktyvins papildymą šios operacijos dieną.
 
 Jei tą dieną, kai paleidžiamas bendrasis planavimas, turimų atsargų kiekis nėra mažesnis nei pakankamų atsargų riba, parinktys **Šiandienos data** ir **Pirmasis išdavimas** pateiks tokį patį rezultatą, kaip parodyta tolesnėje iliustracijoje.
 
-[![ Riboti negalima.](media/ReqFirstIssue.png)](media/ReqFirstIssue.png)
+[![Riboti negalima.](media/ReqFirstIssue.png)](media/ReqFirstIssue.png)
 
 Jei tą dieną, kai paleidžiamas bendrasis planavimas, turimų atsargų kiekis nėra mažesnis nei pakankamų atsargų riba, parinktis **Šiandienos data + pirkimo laikas** pateiks toliau nurodytą rezultatą, nes ji atidės pildymą iki įsigijimo gamybos laiko pabaigos.
 
@@ -160,23 +160,23 @@ Bet kuriuo metu, atsargų gavimas su naujausia galiojimo data bus naudojamas pak
 
 Norėdami suprasti, kaip tai veikia, peržiūrėkite toliau pateikiamą pavyzdį.
 
-[![ FEFO scenarijus.](media/FEFOScenario.png)](media/FEFOScenario.png)
+[![FEFO scenarijus.](media/FEFOScenario.png)](media/FEFOScenario.png)
 
 Paleidus planavimą, pirmasis pardavimo užsakymas bus padengtas iš esamų turimų atsargų ir papildomas pirkimo užsakymas bus padengtas naudojant likusį kiekį.
 
-[![ FEFO 1.](media/FEFO1.png)](media/FEFO1.png)
+[![FEFO 1.](media/FEFO1.png)](media/FEFO1.png)
 
 Suplanuotas užsakymas sukuriamas norint užtikrinti, kad turimų atsargų kiekis atstatomas iki pakankamų atsargų ribos.
 
-[![ FEFO 2.](media/FEFO2.png)](media/FEFO2.png)
+[![FEFO 2.](media/FEFO2.png)](media/FEFO2.png)
 
 Suplanavus antrąjį pardavimo užsakymą, šiam kiekiui padengti naudojamas anksčiau sukurtas suplanuotas užsakymas, padengiantis pakankamas atsargas. Todėl pakankamos atsargos yra nuolat pildomos.
 
-[![ FEFO 3.](media/FEFO3.png)](media/FEFO3.png)
+[![FEFO 3.](media/FEFO3.png)](media/FEFO3.png)
 
 Galiausiai, kitas suplanuotas užsakymas sukuriamas pakankamoms atsargoms padengti.
 
-[![ FEFO 4.](media/FEFO4.png)](media/FEFO4.png)
+[![FEFO 4.](media/FEFO4.png)](media/FEFO4.png)
 
 Visi paketai atitinkamai baigia galioti, o galiojimui pasibaigus suplanuoti užsakymai kuriami norint papildyti pakankamas atsargas.
 

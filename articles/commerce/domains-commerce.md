@@ -2,7 +2,7 @@
 title: „Dynamics 365 Commerce“ esantys domenai
 description: Šioje temoje aprašoma, kaip domenai valdomi „Microsoft Dynamics 365 Commerce”.
 author: BrShoo
-ms.date: 03/17/2021
+ms.date: 05/10/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: BrShoo
 ms.search.validFrom: ''
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: bf96c47b8f5e940ffdd9241c3bdda4162a3101c42004c58c431f135f11c39d14
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: aab5e983b42aea7d8eb4f198f033634d4663f278
+ms.sourcegitcommit: 7181a022739d6107a75d84546c3379c23f722034
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6733996"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8737351"
 ---
 # <a name="domains-in-dynamics-365-commerce"></a>„Dynamics 365 Commerce“ esantys domenai
 
@@ -28,6 +28,9 @@ ms.locfileid: "6733996"
 Šioje temoje aprašoma, kaip domenai valdomi „Microsoft Dynamics 365 Commerce”.
 
 Domenai yra interneto adresai, naudojami pereiti į „Dynamics 365 Commerce” svetaines žiniatinklio naršyklėje. Jūs kontroliuojate jūsų domeno valdymą su pasirinktu domenų vardų serverio (DNS) tiekėju. Domenai nurodomi „Dynamics 365 Commerce” svetainių daryklėje, kad būtų galima koordinuoti, kaip svetainė bus pasiekiama publikavus. Šioje temoje nagrinėjama, kaip domenai valdomi ir nurodomi „Commerce” svetainės kūrimo ir paleidimo ciklo metu.
+
+> [!NOTE]
+> Nuo 2022 Dynamics 365 Commerce`.dynamics365commerce.ms` metų gegužės 6 d. visos sukurtos aplinkos bus suskurtos su domenu, pakeičiant ankstesnį šabloną `.commerce.dynamics.com`. Esamos aplinkos, kurios yra su domenu `.commerce.dynamics.com`, ir toliau veiks.
 
 ## <a name="provisioning-and-supported-host-names"></a>Parengimas ir palaikomi pagrindinių kompiuterių vardai
 
@@ -44,7 +47,7 @@ Galite sukurti paslaugos užklausą, norėdami įtraukti papildomus domenus į a
 
 ## <a name="commerce-generated-urls"></a>„Commerce” sugeneruoti URL
 
-Suteikiant „Dynamics 365 Commerce“ e-komercijos aplinką, „Commerce“ sukurs URL, kuris bus veikiantis aplinkos adresas. Šis URL yra nukreiptas į e-komercijos saito nuorodą rodomą LCS suteikus aplinką. „Commerce“ sukurtas URL yra šio formato `https://<e-commerce tenant name>.commerce.dynamics.com`, kuriame e-komercijos nuomotojo pavadinimas yra pavadinimas įvestas į LCS „Commerce“ aplinkoje.
+Suteikiant „Dynamics 365 Commerce“ e-komercijos aplinką, „Commerce“ sukurs URL, kuris bus veikiantis aplinkos adresas. Šis URL yra nukreiptas į e-komercijos saito nuorodą rodomą LCS suteikus aplinką. „Commerce“ sukurtas URL yra šio formato `https://<e-commerce tenant name>.dynamics365commerce.ms`, kuriame e-komercijos nuomotojo pavadinimas yra pavadinimas įvestas į LCS „Commerce“ aplinkoje.
 
 Taip pat galite naudoti gamybos svetainės pagrindinių kompiuterių vardus smėlio dėžės aplinkoje. Ši parinktis puikiai tinka, kai kopijuojate svetainę iš smėlio dėžės aplinkos į gamybos aplinką.
 
@@ -67,11 +70,11 @@ Langelis **Kelias** gali būti paliktas tuščias arba galima įtraukti papildom
 
 Pavyzdžiui, jei turite saito saito kūrimo įrankyje pavadinimu „fabrikam“ e-komercijos nuomotojo pavadinime „xyz“ ir nustatėte saitą su tuščių maršrutu, tuomet prieisite prie publikuoto saito turinio žiniatinklio naršyklėje patekę tiesiogiai į pagrindinį „Commerce“ sukurtą URL:
 
-`https://xyz.commerce.dynamics.com`
+`https://xyz.dynamics365commerce.ms`
 
 Taip pat, jei tos pačios svetainės nustatymo metu įtraukėte „fabrikam” kelią, turėtumėte prieigą prie paskelbto svetainės turinio žiniatinklio naršyklėje naudodami toliau pateiktą URL.
 
-`https://xyz.commerce.dynamics.com/fabrikam`
+`https://xyz.dynamics365commerce.ms/fabrikam`
 
 ## <a name="pages-and-urls"></a>Puslapiai ir URL
 
@@ -92,16 +95,16 @@ Palaikomų pagrindinių kompiuterių vardų reikšmės gali būti susietos kaip 
 Kai dirbate su svetainėmis svetainių daryklėje, jei turite dvi svetaines, nustatytas su dviem skirtingais domenais, galite pridėti atributą **?domain=** prie savo darbo URL, kad galėtumėte pasiekti publikuotą svetainės turinį naršyklėje.
 
 Pvz., aplinka „xyz” buvo parengta, o svetainių daryklėje sukurtos ir susietos dvi svetainės: viena su domenu `www.fabrikam.com` ir kita su domenu `www.constoso.com`. Kiekviena svetainė buvo nustatyta naudojant tuščią kelią. Tada šios dvi svetainės gali būti pasiekiamos žiniatinklio naršyklėje naudojant atributą **?domain=**, kaip pateikta toliau.
-- `https://xyz.commerce.dynamics.com?domain=www.fabrikam.com`
-- `https://xyz.commerce.dynamics.com?domain=www.contoso.com`
+- `https://xyz.dynamics365commerce.ms?domain=www.fabrikam.com`
+- `https://xyz.dynamics365commerce.ms?domain=www.contoso.com`
 
-Kai domeno užklausos eilutė nenurodyta aplinkoje su keliais domenais, „Commerce” naudoja pirmą domeną, kurį nurodėte. Pavyzdžiui, jei kelias „fabrikam” buvo pateiktas pirmiausiai svetainės nustatymo metu, URL `https://xyz.commerce.dynamics.com` gali būti naudojamas pasiekti publikuotos svetainės turinį `www.fabrikam.com`.
+Kai domeno užklausos eilutė nenurodyta aplinkoje su keliais domenais, „Commerce” naudoja pirmą domeną, kurį nurodėte. Pavyzdžiui, jei kelias „fabrikam” buvo pateiktas pirmiausiai svetainės nustatymo metu, URL `https://xyz.dynamics365commerce.ms` gali būti naudojamas pasiekti publikuotos svetainės turinį `www.fabrikam.com`.
 
 ## <a name="traffic-forwarding-in-production"></a>Srauto perdavimas gamybos metu
 
-Galite imituoti kelis domenus naudodami domeno užklausos eilutės parametrus, esančius commerce.dynamics.com galiniame punkte. Tačiau kai reikia įgyvendinti gamybos metu, turite persiųsti jūsų pasirinktinio domeno srautą į `<e-commerce tenant name>.commerce.dynamics.com` galinį punktą.
+Galite imituoti kelis domenus naudodami domeno užklausos eilutės parametrus, esančius commerce.dynamics.com galiniame punkte. Tačiau kai reikia įgyvendinti gamybos metu, turite persiųsti jūsų pasirinktinio domeno srautą į `<e-commerce tenant name>.dynamics365commerce.ms` galinį punktą.
 
-`<e-commerce tenant name>.commerce.dynamics.com` galinis punktas nepalaiko pasirinktinio domeno saugiųjų jungčių lygmenų (SSL), todėl reikia nustatyti pasirinktinius domenus naudojant „Front Door Service“ arba turinio pristatymo tinklą (CDN). 
+`<e-commerce tenant name>.dynamics365commerce.ms` galinis punktas nepalaiko pasirinktinio domeno saugiųjų jungčių lygmenų (SSL), todėl reikia nustatyti pasirinktinius domenus naudojant „Front Door Service“ arba turinio pristatymo tinklą (CDN). 
 
 Norėdami nustatyti pasirinktinius domenus naudodami „Front Door Service“ arba CDN, turite dvi toliau pateiktas parinktis.
 

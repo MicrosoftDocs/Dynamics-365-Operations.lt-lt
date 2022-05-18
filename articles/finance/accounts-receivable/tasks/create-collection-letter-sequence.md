@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CollectionLetterCourse
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: adeae6e20a799165e086df28b92a1357e8f2f0d3
-ms.sourcegitcommit: f82372b1e9bf67d055fd265b68ee6d0d2f10d533
+ms.openlocfilehash: af5d0a001fbe705834e116516933be67f2de8826
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7921204"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8734164"
 ---
 # <a name="create-a-collection-letter-sequence"></a>Priminimo laiškų sekos kūrimas
 
@@ -26,10 +26,10 @@ ms.locfileid: "7921204"
 
 Naudodami šią procedūrą, sukurkite priminimo laiškų seką. Šioje užduotyje naudojama demonstracinė įmonė USMF.
 
-1. Valdymo skiltyje pasirinkite **Moduliai > Kreditas ir rinkiniai > Sąranka > Nustatyti priminimo laiškų seką**.
+1. Eikite į **Kredito ir mokėjimų > nustatymas > laiškų seką**.
 2. Spustelėkite **Naujas**.
 3. Lauke **Priminimo laiškų seka** įveskite sekos ID, kuris atitinka seką. Jis bus naudojamas, kai nustatinėsite registravimo šabloną.
-4. Lauke **Aprašymas įveskite** surinkite reikšmę.  Mokėjimo sąlygos nėra privalomos. Jei reikšmę įvesite čia, priminimo laiško mokesčio SF bus naudojamos šios mokėjimo sąlygos, o ne mokėjimo sąlygos, saugomos su klientu.  
+4. Lauke **Aprašymas įveskite** surinkite reikšmę. Mokėjimo sąlygos nėra privalomos. Jei reikšmę įvesite čia, priminimo laiško mokesčio SF bus naudojamos šios mokėjimo sąlygos, o ne mokėjimo sąlygos, saugomos su klientu.  
 5. Lauke **Priminimo laiško kodas** pasirinkite pirmojo priminimo laiško, kurį norite siųsti, kodą. Sukuriamas pirmasis priminimo laiškas pagal SF nurodytą terminą, atidėjimo vertę, kurią įvedate šios eilutės lauke Dienos, ir kitą informaciją, kurią įvedate šioje eilutėje.  
 6. Lauke **Aprašo laukas** surinkite reikšmę. 
 7. Numatytoji mokesčio valiuta yra juridinio subjekto valiuta. Šis valiutos kodas gali skirtis nuo SF valiutos.   
@@ -52,9 +52,9 @@ Naudodami šią procedūrą, sukurkite priminimo laiškų seką. Šioje užduoty
 22. Sąraše spustelėkite saitą pasirinktoje eilutėje.
 23. Lauke **Mažiausias pradelstas balansas** įveskite skaičių.
 24. Lauke **Dienos** įveskite skaičių.
-25. Pažymėkite žymės langelį **Blokuoti**, kad klientas daugiau negalėtų pristatyti ir išrašyti SF. Norėdami atblokuoti sąskaitą, puslapio Klientai lauke SF išrašymo ir pristatymo sulaikymas pasirinkite **Ne**.  
+25. Pažymėkite žymės langelį **Blokuoti**, kad klientas daugiau negalėtų pristatyti ir išrašyti SF. Norėdami atblokuoti sąskaitą, klientų **·** **puslapyje pasirinkite Ne SF išrašymo** ir pristatymo sulaikymo **lauke**.  
 26. Išplėskite „FastTab“ **Pastaba**.
-27. Įveskite tekstą, kuris bus rodomas pasirinkto priminimo laiško kodo priminimo laiške. Naudodami meniu Vertimai, esantį virš pastabų langelio, šį tekstą galite išversti į kelias kalbas.  
+27. Įveskite tekstą, kuris bus rodomas pasirinkto priminimo laiško kodo priminimo laiške. Naudodami virš pastabos lauko pateiktą meniu Vertimai šį tekstą **galite išversti** į kelias kalbas.  
 
 
 

@@ -9,12 +9,12 @@ ms.reviewer: josaw
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-03-31
-ms.openlocfilehash: 95d272d9076f1ab25230e4efa98e321bdd618062
-ms.sourcegitcommit: 6dc2b877cf8ea9185a07964ec05c5ddb7a78471b
+ms.openlocfilehash: 22b31b46b247ca5f2d6b8b93f58c090b03a2b38c
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/12/2022
-ms.locfileid: "8407800"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8688381"
 ---
 # <a name="upgrade-to-the-party-and-global-address-book-model"></a>Naujinimas į šalies ir visuotinės adresų knygelės modelį
 
@@ -104,13 +104,13 @@ Atnaujinimui atlikti reikia šio pasirengimo:
 
     | Laukas | Reikšmė |
     |---|---|
-    | Pavadinimas / vardas ir (arba) pavardė | „DynamicsCrmLinkedService” |
+    | Vardas | „DynamicsCrmLinkedService” |
     | Aprašas | Susietos paslaugos, skirtos prisijungti prie CRM egzemplioriaus, kad būtų galima iškviesti objektų duomenis |
     | Prisijungti per integracijos vykdymą | „AutoResolvelntegrationRuntime” |
     | Diegimo tipas | Internete |
     | Paslaugos Uri | `https://<organization-name>.crm[x].dynamics.com` |
     | Autentifikavimo tipas | „Office365” |
-    | Vartotojo vardas | |
+    | Naudotojo vardas | |
     | Slaptažodis arba „Azure” raktų saugykla | Slaptažodis |
     | Slaptažodis | |
 
@@ -126,7 +126,7 @@ Atnaujinimui atlikti reikia šio pasirengimo:
 
 2. Duomenų gamyklos skirtuke Valdyti **, visuotiniuose** parametruose **, sukurkite** šiuos visuotinius parametrus.
 
-    | Skaičius | Pavadinimas / vardas ir (arba) pavardė | Tipas | Reikšmė |
+    | Skaičius | Vardas | Tipas | Reikšmė |
     |---|---|---|---|
     | 1 | PostalAddressIdPrefix | eilutė | Šis parametras prie naujai sukurtų pašto adresų kaip prefikso pridėti serijos numerį. Būtinai pateikite eilutę, kuri nesuderinamumą su pašto adresais finansų ir operacijų programėlių ir klientų įsipareigojimo programėlių. Pavyzdžiui, naudokite **ADF-PAD-**. |
 
@@ -140,7 +140,7 @@ Atnaujinimui atlikti reikia šio pasirengimo:
 
 1. Duomenų gamyklos skirtuke **Valdyti**, visuotiniuose **parametruose**, sukurkite šiuos visuotinius parametrus.
 
-    | Skaičius | Pavadinimas / vardas ir (arba) pavardė | Tipas | Reikšmė |
+    | Skaičius | Vardas | Tipas | Reikšmė |
     |---|---|---|---|
     | 1 | IsFOSource | "bo bo" | Šis parametras nustato, kurie pirminiai sistemos adresai pakeičiami konfliktų atveju. Jei vertė teisinga **, pirminiai** finansų ir operacijų programėlių adresai pakeis pirminius adresus klientų įsipareigojimo programėlėse. Jei vertė klaidinga **, pagrindiniai** klientų įsipareigojimo programėlių adresai pakeis pirminius adresus finansų ir operacijų programėlėse. |
     | 2 | ElectronicAddressIdPrefix | eilutė | Šis parametras prie naujai sukurtų elektroninių adresų kaip prefikso pridėti serijos numerį. Pateikite eilutę, kuri nesuderinamumą su elektroniniais adresais finansų ir operacijų programėlėse ir klientų įsipareigojimo programėlėse. Pavyzdžiui, naudokite **ADF-EAD-**. |
@@ -202,11 +202,11 @@ Atnaujinimui atlikti reikia šio pasirengimo:
 
             + Microsoft.Dynamics.GABExtended.Vzs.CreatePartyAddress: klientųaddress kūrimas
 
-        + Naujinti
+        + Atnaujinimas
 
             + Microsoft.Dynamics.GABExtended.Vzs.CreatePartyAddress: klientųaddress atnaujinimas
 
-        + Panaikinti
+        + Delete
 
             + Microsoft.Dynamics.GABExtended.Vzs.DeleteCustomerAddress: customeraddress naikinimas
 
@@ -217,7 +217,7 @@ Atnaujinimui atlikti reikia šio pasirengimo:
             + Microsoft.Dynamics.GABExtended.Vzs.CreateCustomerAddress: sukurti msdyn_partypostaladdress
             + Microsoft.Dynamics.GABExtended.Vzs.PartyPostalAddress: sukurti msdyn_partypostaladdress
 
-        + Naujinti
+        + Atnaujinimas
 
             + Microsoft.Dynamics.GABExtended.Vzs.CreateCustomerAddress: atnaujinti msdyn_partypostaladdress
             + Microsoft.Dynamics.GABExtended.Vzs.PartyPostalAddress: atnaujinti msdyn_partypostaladdress
@@ -230,7 +230,7 @@ Atnaujinimui atlikti reikia šio pasirengimo:
             + Microsoft.Dynamics.GABExtended.Vzs.PostalAddressPostCreate: sukurti msdyn_postaladdress
             + Microsoft.Dynamics.GABExtended.Vzs.UpdateCustomerAddress: sukurti msdyn_postaladdress
 
-        + Naujinti
+        + Atnaujinimas
 
             + Microsoft.Dynamics.GABExtended.Vzs.PostalAddressUpdate: atnaujinti msdyn_postaladdress
             + Microsoft.Dynamics.GABExtended.Vzs.UpdateCustomerAddress: atnaujinti msdyn_postaladdress
@@ -241,11 +241,11 @@ Atnaujinimui atlikti reikia šio pasirengimo:
 
             + Microsoft.Dynamics.GABExtended.Vzs.PartyElectronicAddressSync: sukurti msdyn_partyelectronicaddress
 
-        + Naujinti
+        + Atnaujinimas
 
             + Microsoft.Dynamics.GABExtended.Vzs.PartyElectronicAddressSync: atnaujinti msdyn_partyelectronicaddress
 
-        + Panaikinti
+        + Delete
 
             + Microsoft.Dynamics.GABExtended.Vzs.DeletePartyElectronicAddressSync: naikinti msdyn_partyelectronicaddress
 
@@ -281,7 +281,7 @@ Atnaujinimui atlikti reikia šio pasirengimo:
 
     ![Šalies pašto adreso ir šalies elektroninio adreso šablonų paleistis.](media/ADF-7.png)
 
-10. Norėdami atnaujinti finansų ir operacijų programą naudodami šiuos duomenis, turite konvertuoti .csv failus į Excel [darbaknygę ir importuoti juos į finansų ir operacijų programą](/data-entities/data-import-export-job). Taip pat, jei CSV importavimas veikia jums, galite importuoti .csv failus tiesiogiai. Atsižvelgiant į tūrį, šis veiksmas gali užtrukti kelias valandas.
+10. Norėdami atnaujinti finansų ir operacijų programą naudodami šiuos duomenis, turite konvertuoti .csv failus į Excel [darbaknygę ir importuoti juos į finansų ir operacijų programą](../data-import-export-job.md). Taip pat, jei CSV importavimas veikia jums, galite importuoti .csv failus tiesiogiai. Atsižvelgiant į tūrį, šis veiksmas gali užtrukti kelias valandas.
 
     ![Sėkmingas importavimas.](media/ADF-8.png)
 
@@ -312,7 +312,7 @@ Atnaujinimui atlikti reikia šio pasirengimo:
             + Microsoft.Dynamics.GABExtended.Vzs.CreateCustomerAddress: sukurti msdyn_partypostaladdress
             + Microsoft.Dynamics.GABExtended.Vzs.PartyPostalAddress: sukurti msdyn_partypostaladdress
 
-        + Naujinti
+        + Atnaujinimas
 
             + Microsoft.Dynamics.GABExtended.Vzs.CreateCustomerAddress: atnaujinti msdyn_partypostaladdress
             + Microsoft.Dynamics.GABExtended.Vzs.PartyPostalAddress: atnaujinti msdyn_partypostaladdress
@@ -325,7 +325,7 @@ Atnaujinimui atlikti reikia šio pasirengimo:
             + Microsoft.Dynamics.GABExtended.Vzs.PostalAddressPostCreate: sukurti msdyn_postaladdress
             + Microsoft.Dynamics.GABExtended.Vzs.UpdateCustomerAddress: sukurti msdyn_postaladdress
 
-        + Naujinti
+        + Atnaujinimas
 
             + Microsoft.Dynamics.GABExtended.Vzs.PostalAddressUpdate: atnaujinti msdyn_postaladdress
             + Microsoft.Dynamics.GABExtended.Vzs.UpdateCustomerAddress: atnaujinti msdyn_postaladdress
@@ -336,11 +336,11 @@ Atnaujinimui atlikti reikia šio pasirengimo:
 
             + Microsoft.Dynamics.GABExtended.Vzs.PartyElectronicAddressSync: sukurti msdyn_partyelectronicaddress
 
-        + Naujinti
+        + Atnaujinimas
 
             + Microsoft.Dynamics.GABExtended.Vzs.PartyElectronicAddressSync: atnaujinti msdyn_partyelectronicaddress
 
-        + Panaikinti
+        + Delete
 
             + Microsoft.Dynamics.GABExtended.Vzs.DeletePartyElectronicAddressSync: naikinti msdyn_partyelectronicaddress
 

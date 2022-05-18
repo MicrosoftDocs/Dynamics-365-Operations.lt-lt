@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3cbe4c105b14935db6803e4bded0d891c564fb81
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 5b8641655cf31453f6fc11e2056fb6bf96a43cbc
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8066448"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8696269"
 ---
 # <a name="configure-and-manage-database-logging"></a>Duomenų bazės registravimo konfigūravimas ir valdymas
 
@@ -96,8 +95,8 @@ Galite naikinti dalį arba visus duomenų bazės žurnalus naudodami šias parin
 Norėdami nustatyti duomenų bazės žurnalo valymą, atlikite šiuos veiksmus: 
 
 1. Eikite į **Sistemos administravimas > Saitai > Duomenų bazė > Duomenų bazės žurnalas**. Pasirinkite **Valyti žurnalą**.
-2. Pagal **Įrašai, kuriuos reikia įtraukti** antraštę, pasirinkite **Filtras**.
-3. Pasirinkite metodą, kuris bus naudojamas norint pasirinkti žurnalus, kuriuos norite ištrinti. Įveskite vieną iš šių parinkčių:
+2. Įrašuose **, kuriuos norite įtraukti**, antraštėje pasirinkite **Filtras**.
+3. Pasirinkite metodą, kuris bus naudojamas žurnalams, kuriuos norite panaikinti, pasirinkti. Įveskite vieną iš šių pasirinkčių:
 
    - Lentelės ID
    - Žurnalo tipas

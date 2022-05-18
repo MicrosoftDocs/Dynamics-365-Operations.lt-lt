@@ -9,20 +9,19 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: Core, Operations
 ms.custom: 539093
 ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: 863ec55c8ba2fcc9d0e624fcca06f4491ce839ac
-ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
+ms.openlocfilehash: ecc4ddbb4d22eefac36f8cf8205d3b6084bd7d9d
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "8462914"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8686497"
 ---
-# <a name="milestone-billing"></a>Rodyklės atsiskaitymas
+# <a name="milestone-billing"></a>Sąskaitų pateikimas dalimis
 
 [!include [banner](../includes/banner.md)]
 
@@ -64,7 +63,7 @@ Rodyklės **šablono** puslapyje yra šie laukai.
 | Aprašymas | Rodyklės šablono aprašymas. |
 | Paskirstymo metodas | <p>Pasirinkite paskirstymo metodą:</p><ul><li>**Baigimo procentas** – kiekvienai eilutei naudojama kaupiamoji užbaigimo vertė.</li><li>**Procentas** – gali būti nurodyta paskirstymo procento suma. Visų procentų suma turi būti lygi 100.</li><li>**Kintama** suma – gali būti nurodyta paskirstymo suma. Paskirstymo suma nurodoma operacijos lygyje.</li><li>**Lygi suma** – paskirstymo procentai apskaičiuojami automatiškai ir vienodai padalijami šablone prekėms.</li></ul> |
 | Bendroji suma | Nurodykite šablono rodyklės sumą. |
-| **Linijos** | |
+| **Eilutės** | |
 | Prekės numeris | Pasirinkite rodyklės šablono prekės numerį. |
 | Produkto pavadinimas | Prekės pavadinimas. |
 | Procentai | <p>Įveskite eilutės paskirstymo procentą:</p><ul><li>Jei lauke **Paskirstymo** metodas nustatytas **procentas**, nurodykite eilutės procentą.</li><li>Jei lauke **Paskirstymo metodas** nustatyta Lygi **suma**, procentai automatiškai padalijami į lygias procentines dalis, remiantis šablone esančių prekių skaičiumi.</li></ul><p>Visų procentų suma turi būti lygi 100.</p><p>Jei antraštėje **nurodyta** bendros sumos vertė ir jūs pakeičiate eilutės **Procento** vertę, sumos **vertė** atnaujinama. Jei, priešingai, pakeičiate sumos **vertę**, procentinė **vertė** atnaujinama.</p> |
@@ -117,7 +116,7 @@ Rodyklės **paskirstymo** puslapyje yra šie laukai.
 | Etapo šablonas | Eilutės elemento rodyklės šablono ID. |
 | Šablono aprašas | Rodyklės šablono aprašymas. |
 | Paskirstymo metodas | Paskirstymo metodas, naudojamas rodyklės šablone. |
-| **Linijos** | Numatytosios visų eilučių vertės remiasi pasirinktu rodyklės šablonu. Jei reikia, juos galima keisti. |
+| **Eilutės** | Numatytosios visų eilučių vertės remiasi pasirinktu rodyklės šablonu. Jei reikia, juos galima keisti. |
 | Prekės numeris | Rodyklės paskirstymo šablono prekės numeris. |
 | Produkto pavadinimas | Produkto pavadinimas. |
 | Procentai | <p>Eilutės paskirstymo procentas. Visų procentų suma turi būti lygi 100.</p><p>Jei pakeisite **eilutės** procento vertę, grynoji **sumos** vertė bus atnaujinta. Jei, priešingai, pakeičiate grynosios **sumos vertę**, procentas **atnaujinamas**.</p> |

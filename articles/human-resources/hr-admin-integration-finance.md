@@ -1,6 +1,6 @@
 ---
 title: Integravimo su „Finance“ konfigūravimas
-description: Šioje temoje aprašomas integravimas tarp „Dynamics 365 Human Resources“ ir „Dynamics 365 Finance“.
+description: Šioje temoje aprašomas integravimas tarp " Dynamics 365 Human Resources Dynamics 365" finansų ir jų.
 author: twheeloc
 ms.date: 08/19/2021
 ms.topic: article
@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: SystemAdministrationWorkspaceForm
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0a2c5dd0ce97f33f5f8b65c801fbc15dfc65e8d4
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 3880601b40ce8ec544a1976f7f0ac7391dab32e1
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065021"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8687538"
 ---
 # <a name="configure-integration-with-finance"></a>Integravimo su „Finance“ konfigūravimas
 
@@ -31,7 +30,7 @@ ms.locfileid: "8065021"
 
 
 
-Norėdami integruoti „Dynamics 365 Human Resources“ su „Dynamics 365 Finance“, galite naudoti šabloną „Iš „Human Resources“ į „Finance“, kuris yra [Duomenų integravimo priemonė](/powerapps/administrator/data-integrator). Šablonas „Iš „Human Resources“ į „Finance“ suaktyvina užduočių, pareigų ir darbuotojų duomenų srautą. Šablonas leidžia duomenų srautą iš „Human Resources“ į „Finance“, tačiau neleidžia duomenų srauto iš „Finance“ į „Human Resources“.
+Norėdami integruotis Dynamics 365 Human Resources su "Dynamics 365 Finance", duomenų integratoriaus finansų šablonu galite naudoti [Personalo valdymo skyrių](/powerapps/administrator/data-integrator). Šablonas „Iš „Human Resources“ į „Finance“ suaktyvina užduočių, pareigų ir darbuotojų duomenų srautą. Šablonas leidžia duomenų srautą iš „Human Resources“ į „Finance“, tačiau neleidžia duomenų srauto iš „Finance“ į „Human Resources“.
 
 ![Iš „Human Resources“ į „Finance“ integravimo srautas.](./media/hr-admin-integration-finance-flow.png)
 
@@ -47,7 +46,7 @@ Sprendime „Iš „Human Resources“ į „Finance“ pateikiami tolesni duome
 Integravimo sprendimui reikia tokių „Human Resource“ ir „Finance“ versijų: 
 
 - Dynamics 365 Human Resources Dataverse
-- „Dynamics 365 Finance“ 7.2 ir naujesnė versija
+- "Dynamics 365" 7.2 ir vėlesnė finansų versija
 
 ## <a name="template-and-tasks"></a>Šablonai ir užduotys
 
@@ -248,7 +247,7 @@ Tolesnių šablonų susiejimo lentelėse užduoties pavadinimą sudaro objektai,
 
 Integruojant duomenis iš „Human Resources“ į „Finance“, integravimu bus bandoma sugretinti įrašus pagal ID. Jei įrašai sutampa, duomenų integravimo priemonė perrašo duomenis „Finance“ reikšmėmis iš „Human Resources“. Tačiau problema gali kilti, jei logiškai tai yra skirtingi įrašai ir tas pats ID buvo sugeneruotas naudojant „Human Resources“ arba „Finance“ pagal atitinkamą numeraciją.
 
-Problema gali įvykti su **Darbininkas**, kuriam naudojamas **Personalo numeris** siekiant gretinti, ir **Pareigos**. Užduotims nenaudojamos numeracijos. Todėl, jei tas pats užduoties ID yra ir „Human Resources“, ir „Finance“ srityje, „Human Resources“ informacija perrašys „Dynamics 365 Finance“ informaciją. 
+Problema gali įvykti su **Darbininkas**, kuriam naudojamas **Personalo numeris** siekiant gretinti, ir **Pareigos**. Užduotims nenaudojamos numeracijos. Todėl, jei tas pats užduoties ID yra ir Personalo, ir finansų, Personalo informacija perrašo "Dynamics 365" finansų informaciją. 
 
 Norėdami išvengti pasikartojančių ID problemų, galite pridėti priešvardį [numeracijoje](/dynamics365/unified-operations/fin-and-ops/organization-administration/number-sequence-overview?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json) arba numeracijoje nustatyti pradžios numerį, kuris nepatenka į kitos sistemos numeracijos intervalą. 
 

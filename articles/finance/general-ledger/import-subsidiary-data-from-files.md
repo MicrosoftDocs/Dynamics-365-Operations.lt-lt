@@ -1,6 +1,6 @@
 ---
 title: Importuoti papildomus duomenis iš failų
-description: Šioje temoje paaiškinta, kaip paruošti duomenis iš išorės sistemų, kad juos būtų galima importuoti į „Microsoft Dynamics 365 Finance“.
+description: Šioje temoje paaiškinama, kaip paruošti duomenis iš išorinių sistemų, kad juos būtų galima importuoti į Microsoft Dynamics 365 finansus.
 author: jinniew
 ms.date: 10/09/2020
 ms.topic: article
@@ -8,28 +8,28 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 4be1e748724331c4e2089da8a08a9ac7e5cf88a2ac6d3d89b37b9fcd4480f516
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 045ecd6dfb95ccf38773293d44834531668ac1ff
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727305"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8733825"
 ---
 # <a name="import-subsidiary-data-from-files"></a>Importuoti papildomus duomenis iš failų
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje paaiškinta, kaip paruošti duomenis iš išorės sistemų, kad juos būtų galima importuoti į „Microsoft Dynamics 365 Finance“. Galite naudoti **Konsoliduoti su impotavimu** puslapį (**Konsolidavimai \> Konsoliduoti su importavimu**) siekiant parengti papildomų duomenų perdavimą iš išorės sistemų.
+Šioje temoje paaiškinama, kaip paruošti duomenis iš išorinių sistemų, kad juos būtų galima importuoti į Microsoft Dynamics 365 finansus. Galite naudoti **Konsoliduoti su impotavimu** puslapį (**Konsolidavimai \> Konsoliduoti su importavimu**) siekiant parengti papildomų duomenų perdavimą iš išorės sistemų.
 
 1. Sukurti papildomą asmenį konsolidavimo procesui. Dėl informacijos apie tai, kaip sukurti juridinius asmenis, žr. [Kurti juridinius asmenis](../../fin-ops-core/fin-ops/organization-administration/tasks/create-legal-entity.md). Dėl daugiau informacijos, žr. [Parengti juridinį asmenį naudojimui konsolidavimo procese](prepare-company-for-consolidation.md) ir [Nustatyti papildomą juridinį asmenį konsolidavimui](set-up-subsidiary-company-for-consolidation.md).
 
 2. Parenkite failą, kuriame yra importuojami duomenys. Dėl daugiau informacijos apie importavimo procesą, žr. [Duomenų importavimo ir eksportavimo darbų peržiūra](../../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md).
-3. Eksportuoti duomenis į failą pagal šiuos veiksmus „Duomenų importavimas/eksportavimo procesai“ procedūrą [Duomenų importavimo ir eksportavimo darbų peržiūra](../../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md). Galite naudoti procedūrą siekiant konsoliduoti duomenis iš kito elemento „Dynamics 365 Finance“ arba iš „Dynamics 365 Business Central“. Jei importuojate duomenis iš išorės sistemų, duomenys turi būti aprašytu formatu [Eksportuoti papildomus duomenis į failus](export-subsidiary-data-to-file.md).
+3. Eksportuoti duomenis į failą pagal šiuos veiksmus „Duomenų importavimas/eksportavimo procesai“ procedūrą [Duomenų importavimo ir eksportavimo darbų peržiūra](../../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md). Šią procedūrą galite naudoti duomenims konsoliduoti arba iš kito "Dynamics 365 Finance" egzemplioriaus, arba iš Dynamics 365 Business Central. Jei importuojate duomenis iš išorės sistemų, duomenys turi būti aprašytu formatu [Eksportuoti papildomus duomenis į failus](export-subsidiary-data-to-file.md).
 4. Eiktie į **Konsolidavimai \> Konsoliduoti su importavimu**. Puslapyje **Konsoliduoti su importavimu**, skirtuke **Kriterijai** nurodykite išsamią ataskaitų ir (ar) importavimo informaciją nustatydami tolesnius laukelius.
 
     | Laukas                                 | Ataskaitos vertė | Importavimo vertė |

@@ -15,22 +15,22 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9ffb2c42748678ae265a706a00db327a160cc9f5
-ms.sourcegitcommit: 411874545d7c326fc4aa877948a059371f0ccb3c
+ms.openlocfilehash: 069ada071fe6a7d3e22ad6aa45e3c2f06a9f4b31
+ms.sourcegitcommit: 5a4b8ce4a7ae82c0ef22d2223c11c6b55f048cdd
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "8392916"
+ms.lasthandoff: 05/14/2022
+ms.locfileid: "8756969"
 ---
 # <a name="create-a-customer-invoice"></a>Kliento SF kūrimas
 
 [!include [banner](../includes/banner.md)]
 
-**Kliento SF pardavimo užsakymui** yra sąskaita, susijusi su pardavimu ir kurią organizacija pateikia klientui. Šis kliento SF tipas kuriamas remiantis pardavimo užsakymu, į kurį įeina užsakymo eilutės ir prekių numeriai. Prekių numeriai yra nurodyti ir užregistruoti didžiojoje knygoje. Kliento SF pardavimo užsakymui skirtų papildomos knygos žurnalo įrašų nėra. Daugiau informacijos žr. [Kurti pardavimo užsakymų sąskaitas faktūras](tasks/create-sales-order-invoices.md).
+Pardavimo **užsakymo kliento SF yra** sąskaita, susijusi su pardavimu ir kurią organizacija pateikia klientui. Šis kliento SF tipas kuriamas remiantis pardavimo užsakymu, į kurį įeina užsakymo eilutės ir prekių numeriai. Prekių numeriai yra nurodyti ir užregistruoti didžiojoje knygoje. Kliento SF pardavimo užsakymui skirtų papildomos knygos žurnalo įrašų nėra. Daugiau informacijos žr. [Kurti pardavimo užsakymų sąskaitas faktūras](tasks/create-sales-order-invoices.md).
 
-**Laisvos formos SF** nėra susijusi su pardavimo užsakymu. Joje pateikiamos užsakymo eilutės, kuriose yra DK sąskaitos, laisvo pobūdžio aprašai ir pardavimo suma, kuriuos įvedate. Į šios rūšies SF prekės numerio įvesti negalite. Turite įvesti atitinkamą PVM informaciją. Pagrindinė pardavimo sąskaita nurodoma kiekvienoje SF eilutėje, kurią paskirstyti į kelias DK sąskaitas galite **Laisvos formos SF** puslapyje spustelėdami **Paskirstyti sumas**. Be to, kliento balansas suminėje sąskaitoje regisruojamas iš naudojamo laisvos formos SF registravimo profilio.
+Laisvos **formos SF** nėra susijusi su pardavimo užsakymu. Joje pateikiamos užsakymo eilutės, kuriose yra DK sąskaitos, laisvo pobūdžio aprašai ir pardavimo suma, kuriuos įvedate. Į šios rūšies SF prekės numerio įvesti negalite. Turite įvesti atitinkamą PVM informaciją. Pagrindinė pardavimo sąskaita nurodoma kiekvienoje SF eilutėje, kurią paskirstyti į kelias DK sąskaitas galite **Laisvos formos SF** puslapyje spustelėdami **Paskirstyti sumas**. Be to, kliento balansas suminėje sąskaitoje regisruojamas iš naudojamo laisvos formos SF registravimo profilio.
 
-Norėdami gauti daugiau informacijos, žr. 
+Daugiau informacijos, žr.:
 
 [Kurti laisvos formos SF](../accounts-receivable/create-free-text-invoice-new.md)
 
@@ -41,7 +41,10 @@ Norėdami gauti daugiau informacijos, žr.
 [Pasikartojančių laisvos formos SF generavimas ir registravimas](tasks/post-recurring-free-text-invoices.md)
 
 
-**Išankstinė SF** yra tokia sąskaita, kuri parengiama kaip faktinių sąskaitos sumų įvertinimas, prieš užregistruojant sąskaitą faktūrą. Galite išspausdinti arba kliento SF pardavimo užsakymui, arba laisvos formos sąskaitos faktūros išankstinę sąskaitą faktūrą.
+Išankstinė **SF yra** sąskaita, kuri parengiama kaip faktinių sąskaitos sumų įvertinimas prieš užregistruojant sąskaitą faktūrą. Galite išspausdinti **arba kliento** pardavimo užsakymo išankstinės SF, arba laisvos formos sąskaitos faktūros išankstinę sąskaitą faktūrą. 
+
+>[!NOTE]
+> Sistemos trukdžių pardavimo išankstinės SF proceso metu atveju išankstinė SF gali būti vieniša. Vieniša išankstinė SF gali būti panaikinta rankiniu būdu paleidus **periodinę užduotį Naikinti** išankstines SF. Eikite **į pardavimo ir rinkodaros > periodines užduotis > Valyti > išankstinės SF panaikinkite rankiniu būdu**.
 
 ## <a name="using-sales-order-customer-invoice-data-entities"></a>Pardavimo užsakymo kliento SF duomenų objektų naudojimas
 Galite naudoti duomenų objektus pardavimo užsakymo informacijai apie kliento SF importuoti ir eksportuoti. Pardavimo SF antraštėje ir pardavimo SF eilutėse yra skirtingų objektų.
@@ -70,7 +73,7 @@ Peržiūrėti pardavimo užsakymų būseną galite sąrašo puslapyje **Visi par
 ## <a name="post-and-print-individual-customer-invoices-that-are-based-on-packing-slips-and-the-date"></a>Registruoti ir spausdinti atskiras klientų SF, kurios paremtos važtaraščiais ir data
 Šią procedūrą naudokite, kai užregistruotas vienas ar keli pardavimo užsakymo važtaraščiai. Kliento SF grindžiama šiais važtaraščiais ir atspindi juose nurodytus kiekius. SF finansinė informacija yra paremta informacija, įvesta jums registruojant SF. 
 
-Galima sukurti kliento SF, kuri paremta važtaraščio eilutės prekėmis, išsiųstomis iki dabar, net jei dar ne visos konkretaus pardavimo užsakymo prekės yra išsiųstos. Tai galite atlikti jei, pavyzdžiui, jūsų juridinis subjektas per mėnesį vienam klientui išduoda vieną SF, kurioje pateikiama informacija apie visus siuntinius, išsiųstus tą mėnesį. Kiekvienas važtaraštis reiškia iš dalies arba visiškai atliktą pardavimo užsakymo prekių pristatymą. 
+Galite sukurti kliento SF, pagrįstą prekių, išsiųstų iki dabar, važtaraščio eilute, net jei nebuvo išsiųstos visos konkretaus pardavimo užsakymo prekės. Tai galite atlikti jei, pavyzdžiui, jūsų juridinis subjektas per mėnesį vienam klientui išduoda vieną SF, kurioje pateikiama informacija apie visus siuntinius, išsiųstus tą mėnesį. Kiekvienas važtaraštis reiškia iš dalies arba visiškai atliktą pardavimo užsakymo prekių pristatymą. 
 
 Jums užregistravus SF, **SF likučio** kiekis kiekvienai prekei yra atnaujinamas bendra pristatytų kiekių iš pasirinktų važtaraščių suma. Jei visų prekių **SF likučio** kiekis ir **Pristatymo likučio** kiekis pardavimo užsakyme yra 0 (nulis), pardavimo užsakymo būsena pakeičiama į **SF išrašyta**. Jeigu **SF likučio** kiekis nėra 0 (nulis), pardavimo užsakymo būsena lieka nepakitusi ir galima įvesti papildomas SF. 
 
@@ -83,8 +86,13 @@ Pardavimo užsakymų būseną peržiūrėkite sąrašo puslapyje **Visi pardavim
 
 **Pardavimo užsakymo** sąrašo puslapyje galite pasirinkti kelias SF ir tada joms konsoliduoti naudoti **Generuoti SF**. Puslapyje **SF registravimas** galite pakeisti **Suminio užsakymo** nustatymą, kad būtų sumuojama pagal užsakymo numerį (kai yra keli vieno pardavimo užsakymo važtaraščiai) arba pagal SF sąskaitą (kai yra keli vienos SF sąskaitos pardavimo užsakymai). Naudokite mygtuką **Išdėstyti**, kad pardavimo užsakymus pagal **Suminio užsakymo** parametrus konsoliduotumėte į vieną SF.
 
+## <a name="split-sales-order-invoices-by-site-and-delivery-information"></a>Skaidyti pardavimo užsakymo SF pagal vietą ir pristatymo informaciją
+Pardavimo užsakymo kliento SF skaidymas pagal vietą arba pristatymo adresą galima **konfigūruoti** **gautinų sumų parametrų puslapio skirtuke Sumavimas.** 
+ - Pasirinkite parinktį **Skaidymo metu, remiantis SF vieta**, registruodami kiekvienai svetainei sukurkite vieną SF. 
+ - Pasirinkite skaidymo **remiantis SF pristatymo informacija parinktį,** norėdami registruojant sukurti vieną SF kiekvienam pardavimo užsakymo eilutės pristatymo adresui. 
+
 ## <a name="post-to-revenue-account-for-sales-order-lines-that-have-no-price"></a>Registruoti pardavimo užsakymo eilučių, kuriose nėra kainos, įplaukų sąskaitoje
-Turėsite pasirinktį atnaujinti PARDAVIMO užsakymo **eilučių**, **kuriose** nėra kainos, DK įplaukų sąskaitą. Norėdami nustatyti arba peržiūrėti šią informaciją, **eikite į sąskaitą Registruoti įplaukų sąskaitoje nulinės kainos pardavimo užsakymo SF** **·** **eilučių parametrui, skirtuke DK ir PVM, gautinų sumų parametrų puslapyje.** (**Gautinų sumų > gautinų sumų > parametrus**). Pasirinkite **Taip,** jei norite atnaujinti **pardavimo** užsakymo SF eilučių, kuriose nėra kainos, sąskaitą Įplaukos. Įplaukų sąskaita yra apibrėžta atsargų registravimo **parametrų** puslapyje, pardavimo užsakymo **sąskaitos** apibrėžimo skirtuke. Jei ši pasirinktis nepasirinkta, eilutės, kuriose nėra kainos informacijos, nebus registruojamos Įplaukų **sąskaitoje**.
+Turėsite parinktį DK atnaujinti pardavimo užsakymo **eilučių**, **kuriose** nėra kainos, įplaukų sąskaitą. Norėdami nustatyti arba peržiūrėti šią informaciją, **eikite į sąskaitą Registruoti įplaukų sąskaitoje nulinės kainos pardavimo užsakymo SF** **·** **eilučių parametrui, skirtuke DK ir PVM, gautinų sumų parametrų puslapyje.** (**Gautinų sumų > gautinų sumų > parametrus**). Pasirinkite **Taip,** jei norite atnaujinti **pardavimo** užsakymo SF eilučių, kuriose nėra kainos, sąskaitą Įplaukos. Įplaukų sąskaita yra apibrėžta atsargų registravimo **parametrų** puslapyje, pardavimo užsakymo **sąskaitos** apibrėžimo skirtuke. Jei ši pasirinktis nepasirinkta, eilutės, kuriose nėra kainos informacijos, nebus registruojamos Įplaukų **sąskaitoje**.
 
 ## <a name="additional-settings-that-change-the-posting-behavior"></a>Papildomos nuostatos, keičiančios registravimo veikseną
 Toliau nurodyti laukai keičia registravimo proceso veikseną.
@@ -152,7 +160,7 @@ Toliau nurodyti laukai keičia registravimo proceso veikseną.
 <td>Tikrinti kredito limitą</td>
 <td>Pasirinkite informaciją, kuri turėtų būti analizuojama tikrinant kredito limitą.
 <ul>
-<li><strong>Nėra</strong> – nereikalaujama tikrinti kredito limito.</li>
+<li><strong>Nėra</strong> – kredito limito tikrinimas nėra reikalaujamas.</li>
 <li><strong>Balansas</strong> – kredito limitas tikrinamas pagal kliento balansą.</li>
 <li><strong>Balansas + važtaraštis arba produkto gavimo kvitas</strong> – kredito limitas tikrinamas pagal kliento balansą ir pristatymus.</li>
 <li><strong>Balansas + visi</strong> – Kredito limitas tikrinamas pagal kliento balansą, pristatymus ir atvirus užsakymus.</li>

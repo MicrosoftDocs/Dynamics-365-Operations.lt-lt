@@ -7,19 +7,18 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 7c72f866886f320d8a7fa22d6ccfa7e43284b5bf
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: e4aa910d92c2905d54d96f656e1d3d1c36388636
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8071761"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8693870"
 ---
 # <a name="process-compensation"></a>Kompensavimo apdorojimas
 
@@ -44,7 +43,7 @@ Išsaugojus apdorojimo įvykio parametrus, spustelėkite mygtuką **Sąranka**, 
 
 Spustelėkite skirtuko **Planai** mygtuką **Įtraukti**, kad prie apdorojimo įvykio pridėtumėte kompensavimo planą. Stulpeliai **Naudoti kitą svertą**, **Sverto faktorius** ir **Sverto aprašymas** naudojami tik kintamosios atlyginimo dalies planuose ir šioje temoje neaptariami.
 
-Įrašykite įrašą, tada spustelėkite skirtuko **Veiksmai** mygtuką **Įtraukti**, kad pridėtumėte pastoviosios atlyginimo dalies veiksmus į pasirinktą planą. Naudokite parinktį **Įjungti rekomendaciją**, norėdami įvesti sumą, kitą nei apskaičiuotas veiksmo siūlomas padidinimas. Norėdami apskaičiuoti veiksmą, kuris pagrįstas ankstesnio veiksmo rezultatu ir susieti kelis kompensavimo veiksmus, pažymėkite **Naudoti ankstesnį rezultatą** parinktį. Pastoviosios atlyginimo dalies veiksmai yra atlyginimo logikos tipai, kuriems galite pateikti aprašomuosius pavadinimus. Dėl **Įvertinimas** ir **Grupė** planus, galite pridėti tik šių tipų fiksuotus kompensavimo veiksmus:
+Įrašykite įrašą, tada spustelėkite skirtuko **Veiksmai** mygtuką **Įtraukti**, kad pridėtumėte pastoviosios atlyginimo dalies veiksmus į pasirinktą planą. Naudokite parinktį **Įjungti rekomendaciją**, norėdami įvesti sumą, kitą nei apskaičiuotas veiksmo siūlomas padidinimas. Norėdami apskaičiuoti veiksmą, kuris pagrįstas ankstesnio veiksmo rezultatu ir susieti kelis kompensavimo veiksmus, pažymėkite **Naudoti ankstesnį rezultatą** parinktį. Pastoviosios atlyginimo dalies veiksmai yra atlyginimo logikos tipai, kuriems galite pateikti aprašomuosius pavadinimus. Į **kategorijų** ir **juostų** planus galite įtraukti tik pastoviosios atlyginimo dalies veiksmus, kurie yra šių tipų:
 
 | Pastoviosios atlyginimo dalies veiksmo tipas | Funkcijos                  |
 |-------------------------------|-------------------------------------------------------------------------|
@@ -61,7 +60,7 @@ Spustelėkite skirtuko **Planai** mygtuką **Įtraukti**, kad prie apdorojimo į
 | Žingsnis                           | Skirtuke **Bendra** nurodykite ar šis veiksmas Žingsnis turėtų perkelti darbuotojus į priekį 0 žingsnių, 1 žingsniu arba dviem žingsniais.                                                                                  |
 |                                | **0 žingsnių** – darbuotojui bus taikomas žingsnio, kuriame šiuo metu yra, užmokesčio tarifas.                                                                                                                      |
 |                                | **1 žingsnis** – sistema patikrins, ar darbuotojas jau pasiekė paskutinį savo lygio atskaitos tašką.                                                                                             |
-|                                | **2 žingsniai** - Darbuotojas pajudės du žingsnius į priekį dabartiniu lygiu. Darbuotojas gali pereiti tik vieną ar nulį žingsnių, jei pasiekia paskutinį savo lygio atskaitos tašką. |
+|                                | **2 veiksmai** – darbuotojas perkels du žingsnius į savo esamą lygį. Darbuotojas gali perkelti vieną ar nulį žingsnių tik tada, kai pasiekia paskutinį savo lygio atskaitos tašką. |
 
 ## <a name="run-the-compensation-process"></a>Vykdyti kompensacijos procesą
 Nustačius apdorojimo įvykį ir reikalingus datos laukus, planus ir veiksmus, puslapyje **Proceso įvykis** spustelėkite **Vykdyti procesą**, o tai atveria **Vykdyti kompensavimo apdorojimo įvykius** dialogo langą. Spustelėkite parinktį **Rodyti apdorojimo rezultatus** ir peržiūrėkite, kaip buvo apskaičiuotos kiekvieno darbuotojo kompensacijos sumos. Spustelėjus **Gerai** bus vykdomas kompensavimo procesas visų darbuotojų, kuriems taikomi pasirinkti kompensavimo planai ciklo pabaigos dieną.

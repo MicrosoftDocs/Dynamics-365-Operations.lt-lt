@@ -1,8 +1,8 @@
 ---
-title: Išbandykite skalės vienetus paskirstytoje topologijoje
+title: Išbandykite skalės vienetus paskirstytoje hibridinėje topologijoje
 description: Šioje temoje pateikiama informacija apie tai, kaip išbandyti debesies ir krašto skalės vienetus gamybos ir sandėlio valdymo darbo krūviui.
 author: perlynne
-ms.date: 03/03/2022
+ms.date: 05/02/2022
 ms.topic: article
 ms.search.form: ScaleUnitWorkloadsWorkspace
 audience: Application User
@@ -11,14 +11,14 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2022-03-03
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: 04fd79f3c582ae9ac51882f73410477efaa35496
-ms.sourcegitcommit: b52ff5dfd32580121f74a5f262e5c2495e39d578
+ms.openlocfilehash: 658948d94cd012b95812a786433967f5cadc3a15
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/03/2022
-ms.locfileid: "8376259"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8711892"
 ---
-# <a name="try-out-scale-units-in-a-distributed-hybrid-topology"></a>Išbandykite skalės vienetus paskirstytoje topologijoje
+# <a name="try-out-scale-units-in-a-distributed-hybrid-topology"></a>Išbandykite skalės vienetus paskirstytoje hibridinėje topologijoje
 
 [!include [banner](../includes/banner.md)]
 
@@ -26,7 +26,7 @@ Procesas, išbandant paskirstytą topologiją, yra paprastas. Pirmojo etapo metu
 
 ## <a name="option-1-evaluate-customizations-in-development-environments"></a>1 parinktis: programavimo aplinkose įvertinami tinkinimai
 
-Prieš pradedant dirbti su sandbox aplinka, rekomenduojame naršyti skalės vienetus programavimo nustatyme, pvz., vieno langelio aplinkoje (taip pat vadinamoje pakopa 1 aplinka), kad būtų galima patvirtinti procesus, tinkinimus ir sprendimus. Šio etapo metu duomenys ir tinkinimai bus taikomi vieno bloko aplinkoms. Galite naudoti vieną aplinką, kuri gali atlikti ir įmonės centro, ir svarstyklių vieneto vaidmenį. Arba galite turėti dvi programavimo aplinkas, iš kurių viena atlieka centro vaidmenį, o kita – svarstyklių vieneto vaidmenį. Šis nustatymas suteikia geriausią būdą identifikuoti ir išspręsti problemas. Naujausia ankstyvos [prieigos (PEAP) versija](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxURUFWTjQzTzg0UUk5RkJHMDFEMVlSSDFEQy4u) taip pat gali būti naudojama užbaigti šį etapą.
+Prieš pradedant dirbti su sandbox aplinka, rekomenduojame naršyti skalės vienetus programavimo nustatyme, pvz., vieno langelio aplinkoje (taip pat vadinamoje pakopa 1 aplinka), kad būtų galima patvirtinti procesus, tinkinimus ir sprendimus. Šio etapo metu duomenys ir tinkinimai bus taikomi vieno bloko aplinkoms. Galite naudoti vieną aplinką, kuri gali atlikti ir įmonės centro, ir svarstyklių vieneto vaidmenį. Arba galite turėti dvi programavimo aplinkas, iš kurių viena atlieka centro vaidmenį, o kita – svarstyklių vieneto vaidmenį. Šis nustatymas suteikia geriausią būdą identifikuoti ir išspręsti problemas. Naujausia peržiūros [versija taip](../../fin-ops-core/fin-ops/get-started/one-version.md#how-can-i-get-early-access-to-non-released-platform-updates) pat gali būti naudojama užbaigti šį etapą.
 
 Norėdami diegti ir tvarkyti [aplinkas, turite naudoti vieno langelio programavimo aplinkos skalės](https://github.com/microsoft/SCMScaleUnitDevTools) vieneto diegimo įrankius. Šie įrankiai leidžia konfigūruoti vienetus vienoje arba dviejose vienos dėžės aplinkose. Įrankiai pateikiami kaip dvejetainis paleidimas ir kaip šaltinio kodas GitHub. Studijauooo projektą, kuris apima [etapo naudojimo vadovą](https://github.com/microsoft/SCMScaleUnitDevTools/wiki/Step-by-step-usage-guide), aprašantį, kaip naudoti įrankius. Jei diegiate "Edge [Scale" vienetus pasirinktinę aparatūrą naudodami vietinius verslo duomenis (LBD),](cloud-edge-edge-scale-units-lbd.md) turite vadovautis skirtingu procesu.
 

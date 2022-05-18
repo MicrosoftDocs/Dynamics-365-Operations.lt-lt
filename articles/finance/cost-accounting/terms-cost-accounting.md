@@ -1,27 +1,27 @@
 ---
 title: Kaštų apskaitos terminija
 description: Šioje temoje nurodomi pagrindiniai atliekant kaštų apskaitą naudojami terminai.
-author: ShylaThompson
+author: aprilolson
 ms.date: 08/31/2017
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: CAMCostAccountingLedger
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 223114
 ms.assetid: 1c798592-77d0-4a8f-beaa-9159c75957da
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: roschlom
+ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: f61ae7a6657eaad3510833c17f342b7266be247aec2a9bfe80b97172f662ae0a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f50f7849ac3c097d64a8499a19157f24d7a7b317
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6774382"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8712431"
 ---
 # <a name="cost-accounting-terminology"></a>Kaštų apskaitos terminija
 
@@ -115,7 +115,7 @@ Yra dvi dimensijų hierarchijos: kategorijų hierarchija ir klasifikacijos hiera
 Modulyje Kaštų apskaita duomenis iš šaltinio sistemų galima integruoti naudojant įvairias duomenų jungtis. Galima naudoti tolesnes duomenų jungtis.
 
 -  Importuotos operacijos (sukonfigūruota iš anksto)
--  „Dynamics 365 Finance“ (iš anksto sukonfigūruota)
+-  "Dynamics 365" finansai (iš anksto sukonfigūruoti)
 -  „Dynamics AX“ (reikia sukonfigūruoti)
 
 **Pastaba.** Duomenų jungtis Importuotos operacijos paremta duomenų objektais.
@@ -124,7 +124,7 @@ Modulyje Kaštų apskaita duomenis iš šaltinio sistemų galima integruoti naud
 
 Dauguma šaltinio sistemų gali pateikti duomenų, sutampančių su vienu ar keliais modulio Kaštų apskaita duomenų šaltiniais. Norint šaltinio sistemų duomenis sulygiuoti su modulio Kaštų apskaita duomenų šaltiniu, reikia sukonfigūruoti duomenų teikėją. Tolesnėje lentelėje išvardijama, kokius duomenų teikėjus galima naudoti su kiekviena duomenų jungtimi ir duomenų šaltiniu.
 
-|  **Duomenų šaltiniai** |  **Duomenų jungtis Importuotos operacijos** | **„Dynamics 365 Finance“ duomenų jungtis**  | **„Dynamics AX“ duomenų jungtis**  |
+|  **Duomenų šaltiniai** |  **Duomenų jungtis Importuotos operacijos** | **"Dynamics 365" finansų duomenų jungtis**  | **„Dynamics AX“ duomenų jungtis**  |
 |---|---|---|---|
 | Savikainos elemento dimensijos nariai  |  Taip | Taip  | Taip  |
 |  Savikainos objekto dimensijos nariai |  Taip | Taip  | Taip  |

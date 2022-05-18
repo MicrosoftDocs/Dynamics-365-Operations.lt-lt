@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 876f5a5f8ebf77a65ba3aa6271a2957b7dc2cb96
-ms.sourcegitcommit: 197e6ddee84522fd587c6e4ee4f9089101e301c2
+ms.openlocfilehash: 86e33296fd8631082e47bf6814d8e5e716d9fa1b
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "8570484"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8691476"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10023-january-2022"></a>Kas naujo ar pasikeitusio „Dynamics 365 Supply Chain Management“ 10.0.23 (2022 m. sausio mėnesį)
 
@@ -75,7 +75,9 @@ Neseniai įtraukėme ir reikšmingai atnaujinome tolesnes pagalbos temas. Šios 
 | Sandėlio valdymas | [Visuotiniai mobiliojo įrenginio parametrai](../warehousing/mobile-device-parameters.md) |
 | Sandėlio valdymas | [Fiksavimas](../warehousing/anchoring.md) |
 | Pardavimas ir rinkodara | Vidinės įmonės prekyba dabar aprašyta išsamiai, pradedant nuo [Vidinės įmonės prekybos](../sales-marketing/intercompany-trade-set-up.md) ir susijusių temų. |
+| Pardavimas ir rinkodara | [Pardavimo retrospektyvos valymo našumo patobulinimai](../sales-marketing/sales-update-history-cleanup-performance-improvements.md) |
 | Atsargų valdymas | Atsargų matomumo dokumentai išplėsti ir atnaujinti, pradedant [Atsargų matomumo priedo peržiūra](../inventory/inventory-visibility.md) ir susijusiomis temomis. |
+| Sandėlio valdymas | [Mobiliojo įrenginio vartotojų paskyros](../warehousing/mobile-device-work-users.md) |
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 

@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: PaymDay, PaymTerm, CashDisc
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 12c26cfedca3f3b0eec1a3b068184522f87ff8d103a41b81a0775bf5a35d0e03
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 16d861294a80ddb44c78760b329e544bc4665130
+ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6766969"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8716977"
 ---
 # <a name="establish-customer-payment-terms"></a>Nustatyti kliento mokėjimo sąlygas
 
@@ -26,7 +26,7 @@ ms.locfileid: "6766969"
 
 Ši procedūra apibrėžia mokėjimo nuolaidą ir termino sąranką. Šiame užduočių vadove naudojama demonstracinė įmonė USMF.
 
-1. Eikite į **Naršymo sritis > Moduliai > Gautinos sumos > Mokėjimų sąranka > Mokėjimo dienos**. **Mokėjimo sąlygų** sąranka bendrinama su **Gautinos sumos** ir **Mokėtinos sumos**. Jei ją nurodysite modulyje, ji bus prieinama ir kitame modulyje. Šiame užduočių vadove visas mokėjimo sąlygas nustatau srityje **Gautinos sumos**.
+1. Eikite į **Naršymo sritis > Moduliai > Gautinos sumos > Mokėjimų sąranka > Mokėjimo dienos**. **Mokėjimo sąlygų** sąranka bendrinama su **Gautinos sumos** ir **Mokėtinos sumos**. Jei ją nurodysite modulyje, ji bus prieinama ir kitame modulyje. Šiame užduoties vadove nustatytos visos gautinų sumų **mokėjimo** sąlygos.
 2. Spustelėkite **Naujas**. Sukurkite mokėjimo dieną, jeigu mokėjimo sąlygose reikalaujama konkrečios savaitės dienos (pirmadienio, antradienio ir t. t) arba konkrečios mėnesio dienos (5 d., 10 d., ir t. t). 
 3. Lauke **Mokėjimo diena** įveskite ID.
 4. Lauke **Aprašas** įveskite mokėjimų dienos aprašą.

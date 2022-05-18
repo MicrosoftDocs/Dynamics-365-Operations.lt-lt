@@ -1,6 +1,6 @@
 ---
 title: Eksportuoti papildomus duomenis į failus
-description: Šioje temoje paaiškinta, kaip paruošti duomenų eksportavimą iš „Microsoft Dynamics 365 Finance“ ir tada importuoti juos į konsoliduotą juridinį asmenį.
+description: Šioje temoje paaiškinama, kaip pasiruošti eksportuoti duomenis iš Microsoft Dynamics "365" finansų ir importuoti juos į konsoliduotą juridinį subjektą.
 author: jinniew
 ms.date: 10/09/2020
 ms.topic: article
@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 02ae9945f7b67fb64be78a024910d7e1151c7446fd54b71034c5ba448c00b081
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4df59938def317ad6ebc837104e20c4efa05005f
+ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6768776"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8713535"
 ---
 # <a name="export-subsidiary-data-to-files"></a>Eksportuoti papildomus duomenis į failus
 

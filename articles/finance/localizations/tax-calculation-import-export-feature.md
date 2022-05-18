@@ -9,18 +9,17 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application user
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-11-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 76ea99510455e984d94a93d87ee788fdcf00c376
-ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
+ms.openlocfilehash: 02ad47b5f350969b4935a8f383ddf26a7ce7a46a
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7891363"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8690896"
 ---
 # <a name="import-and-export-tax-calculations"></a>Mokesčių skaičiavimo importavimas ir eksportavimas
 
@@ -31,42 +30,42 @@ ms.locfileid: "7891363"
 ### <a name="export-templates"></a>Šablonų eksportavimas
 
 1. Prisiregistruoti [prie reguliavimo konfigūracijos tarnybos (RCS)](https://marketing.configure.global.dynamics.com/).
-2. Globalizavimo **priemonių darbo srityje pasirinkite** **Funkcijos**, tada pasirinkite mokesčių skaičiavimo **išklotinę** sritį.
-3. Pasirinkite esamą funkciją arba [sukurkite naują](global-get-started-with-tax-calculation-service.md#set-up-tax-calculation-in-rcs) funkciją.
+2. Globalizavimo **priemonių darbo srityje** pasirinkite **Funkcijos**, tada pasirinkite mokesčių skaičiavimo **išklotinę** sritį.
+3. Pasirinkite esamą funkciją arba sukurkite [naują.](global-get-started-with-tax-calculation-service.md#set-up-tax-calculation-in-rcs)
 4. Versijų **tinklelyje** pasirinkite **Redaguoti**.
-5. Mokesčių **skaičiavimo priemonės** puslapyje nustatykite [konfigūracijos](global-get-started-with-tax-calculation-service.md#set-up-tax-calculation-in-rcs) versiją.
-6. Skirtuke **Mokesčių kodai pasirinkite** **Importuoti**.
-7. Pasirinkite **Eksportuoti mokesčio kodo šabloną, kad būtų galima atsisiųsti failą** **TaxCodesTemplate.zip.**
-8. **Išskęskite TaxCodesTemplate.zip.** Mokesčių kodų šablonai glaudinti atskirai pagal skaičiavimo **kilmės** vertę.
-9. Išskdinti **pagal Grynąją sumą.zip,** kad būtų gauti šie kableliais atskirtų verčių (CSV) failai:
+5. **Mokesčių skaičiavimo priemonės** puslapyje nustatykite [konfigūracijos versiją](global-get-started-with-tax-calculation-service.md#set-up-tax-calculation-in-rcs).
+6. Skirtuke **Mokesčių kodai** pasirinkite **Importuoti**.
+7. Pasirinkite **Eksportuoti mokesčio kodo šabloną, kad** būtų galima atsisiųsti **failą TaxCodesTemplate.zip**.
+8. Išskęskite **TaxCodesTemplate.zip**. Mokesčių kodų šablonai glaudinti atskirai pagal skaičiavimo **kilmės** vertę.
+9. Išskdinti **pagal Grynąją sumą.zip**, kad būtų gauti šie kableliais atskirtų verčių (CSV) failai:
 
     - **TaxCode.csv** – įveskite mokesčių kodus.
     - **TaxLimit.csv** – įveskite kiekvieno mokesčio kodo mokesčių limitus.
     - **TaxRate.csv** – įveskite kiekvieno mokesčio kodo mokesčių tarifus.
 
 > [!NOTE]
-> Pagal numatytuosius nustatymus **mokesčių kodo** įrašus galima rasti šablonuose. Jei **pavyzdžio** mokesčio kodas nepašalintas iš CSV failų, jis bus importuotas į funkciją.
+> Pagal numatytuosius nustatymus mokesčių **kodo** įrašus galima rasti šablonuose. **Jei pavyzdžio** mokesčio kodas nepašalintas iš CSV failų, jis bus importuotas į funkciją.
 
 ### <a name="import-tax-codes"></a>Importuoti mokesčių kodus
 
-Norėdami importuoti pavyzdinį mokesčio kodą šablone į savo mokesčių skaičiavimo **priemonę**, atlikite šiuos veiksmus.
+Norėdami importuoti pavyzdinį mokesčio kodą **šablone** į savo mokesčių skaičiavimo priemonę, atlikite šiuos veiksmus.
 
-1. RCS mokesčių **skaičiavimo** priemonės puslapyje, skirtuke Mokesčių kodai, pasirinkite **·** **Importuoti**.
-2. Pasirinkite **Naršyti**, rasti ir **pasirinkti TaxCode.csv** failą, tada tikslinių **lentelių lauke pasirinkite Mokesčio** **kodą**.
+1. RCS mokesčių skaičiavimo **priemonės puslapio mokesčių kodų skirtuke** **pasirinkite Importuoti** **.**
+2. Pasirinkite **Naršyti**, rasti ir pasirinkti **TaxCode.csv failą**, tada tikslinių **lentelių** lauke pasirinkite **Mokesčio kodą**.
 3. Pasirinkite **Gerai**, norėdami importuoti mokesčio kodą.
-4. Raskite ir pasirinkite **TaxRate.csv** failą, tada tikslinių lentelių **lauke pasirinkite Mokesčių** **tarifas**.
-5. Pasirinkite **Gerai**, norėdami importuoti mokesčio tarifą.
-6. Raskite ir **pasirinkite TaxLimit.csv** failą, tada paskirties lentelės lauke pasirinkite **Mokesčių** **limitas**.
-7. Pasirinkite **Gerai**, norėdami importuoti mokesčio limitą.
+4. Raskite ir pasirinkite **TaxRate.csv** failą, tada tikslinių lentelių **lauke** pasirinkite Mokesčių **tarifas**.
+5. Pasirinkite **Gerai,** norėdami importuoti mokesčio tarifą.
+6. Raskite ir pasirinkite **TaxLimit.csv** failą, tada paskirties lentelės **lauke** pasirinkite Mokesčių **limitas**.
+7. Pasirinkite **Gerai,** norėdami importuoti mokesčio limitą.
 
 Taip pat galite tiesiogiai importuoti pašto failą, kuriame yra visi trys CSV failai. Tokiu būdu galite greitai ir lengvai baigti importavimą.
 
-1. RCS mokesčių **skaičiavimo** priemonės puslapyje, skirtuke Mokesčių kodai, pasirinkite **·** **Importuoti**.
-2. Pasirinkite **Naršyti**, raskite ir pasirinkite **failą Pagal grynąją sumą.pašto,** tada pasirinkite **Gerai**.
+1. RCS mokesčių skaičiavimo **priemonės puslapio mokesčių kodų skirtuke** **pasirinkite Importuoti** **.**
+2. Pasirinkite **Naršyti**, rasti ir pasirinkti failą **Pagal grynąją sumą.pašto**, tada pasirinkite **Gerai**.
 
 ### <a name="export-tax-codes"></a>Eksporto mokesčių kodai
 
-1. RCS mokesčių **skaičiavimo priemonės puslapio mokesčių** kodų **skirtuke pasirinkite** **Eksportuoti**.
+1. RCS mokesčių skaičiavimo **priemonės puslapio mokesčių kodų skirtuke** **pasirinkite Eksportuoti** **.**
 
     Mygtukas **Eksportuoti** galimas, kai mokesčių kodų tinklelyje yra bent **vienas mokesčio** kodas.
 
@@ -80,22 +79,22 @@ Taip pat galite tiesiogiai importuoti pašto failą, kuriame yra visi trys CSV f
 ### <a name="export-applicability-rules"></a>Eksportavimo taikymo taisyklės
 
 1. Prisijunkite prie [RCS](https://marketing.configure.global.dynamics.com/).
-2. Globalizavimo **priemonių darbo srityje pasirinkite** **Funkcijos**, tada pasirinkite mokesčių skaičiavimo **išklotinę** sritį.
-3. Pasirinkite esamą funkciją arba [sukurkite naują](global-get-started-with-tax-calculation-service.md#set-up-tax-calculation-in-rcs) funkciją.
+2. Globalizavimo **priemonių darbo srityje** pasirinkite **Funkcijos**, tada pasirinkite mokesčių skaičiavimo **išklotinę** sritį.
+3. Pasirinkite esamą funkciją arba sukurkite [naują.](global-get-started-with-tax-calculation-service.md#set-up-tax-calculation-in-rcs)
 4. Versijų **tinklelyje** pasirinkite **Redaguoti**.
-5. Mokesčių **skaičiavimo priemonės** puslapyje nustatykite [konfigūracijos](global-get-started-with-tax-calculation-service.md#set-up-tax-calculation-in-rcs) versiją.
-6. Skirtuke **Mokesčių grupės** taikomumas pasirinkite eilutes nustatyti **mokesčių grupės taikomumo** tinklelį.
-7. Pasirinkite mygtuką **Microsoft Office** Atidaryti, tada pasirinkite mokesčių tarnybos **dinaminės taikomumo matricos.**
+5. **Mokesčių skaičiavimo priemonės** puslapyje nustatykite [konfigūracijos versiją](global-get-started-with-tax-calculation-service.md#set-up-tax-calculation-in-rcs).
+6. Skirtuke **Mokesčių grupės taikomumas** pasirinkite eilutes nustatyti **mokesčių grupės taikomumo tinklelį**.
+7. Pasirinkite mygtuką **Atidaryti Microsoft Office**, tada pasirinkite mokesčių tarnybos dinaminės **taikomumo matricos**.
 
     [![Eksportavimo tinkamumo taisyklės Microsoft Excel mokesčių skaičiavimo priemonės puslapyje.](./media/tax-cal-import-export-1.png)](./media/tax-cal-import-export-1.png)
 
-8. Pasirinkite **Atsisiųsti**, kad eksportuotumėte pasirinktas eilutes į Microsoft Excel darbalapį.
+8. Pasirinkite **Atsisiųsti,** kad eksportuotumėte pasirinktas eilutes į darbalapį Microsoft Excel.
 
 ### <a name="import-applicability-rules"></a>Importo taikomumo taisyklės
 
-Jūsų atsisiųstoje "Excel" darbalapyje yra **mokesčių grupės taikomumo tinklelio** rinkinio struktūra. Naujas taisykles galima tiesiogiai įtraukti į darbalapį. Kai baigiate, norėdami importuoti naujas taisykles atgal į mokesčių grupės taikomumo tinklelį, **atlikite šiuos** veiksmus.
+Jūsų atsisiųstoje "Excel" darbalapyje yra **mokesčių grupės taikomumo tinklelio rinkinio** struktūra. Naujas taisykles galima tiesiogiai įtraukti į darbalapį. Kai baigiate, norėdami importuoti naujas taisykles **atgal į mokesčių grupės taikomumo tinklelį, atlikite šiuos** veiksmus.
 
 1. Excel darbalapyje pasirinkite ir kopijuokite importuoti eilutes.
-2. RCS mokesčių skaičiavimo funkcijos puslapio mokesčių grupės taikomumas skirtuke pasirinkite Įtraukti, kad įterptumėte tuščią įrašą, esantį skirtuko Nustatyti mokesčių grupės **taikomumą** **·** **·** **apačioje**.
+2. RCS mokesčių **skaičiavimo funkcijos puslapio mokesčių grupės taikomumas skirtuke pasirinkite Įtraukti,** **·** **kad** įterptumėte tuščią įrašą, esantį skirtuko Nustatyti mokesčių grupės taikomumą apačioje.**·**
 3. Pasirinkite **Ctrl+V,** norėdami įklijuoti nukopijuotas eilutes į tinklelį.
 4. Pasirinkite **Įrašyti**.

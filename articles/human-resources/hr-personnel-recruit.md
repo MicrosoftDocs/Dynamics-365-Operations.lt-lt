@@ -1,6 +1,6 @@
 ---
 title: Įdarbinti darbo kandidatai
-description: Šioje temoje aprašoma, kaip įdarbinti kandidatus Dynamics 365 Human Resources.
+description: Šioje temoje aprašoma, kaip samdyti kandidatus Dynamics 365 Human Resources.
 author: twheeloc
 ms.date: 10/28/2021
 ms.topic: article
@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-12-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 77d37cba84fcd6fb8f93da79b10db2db91d91db0
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: ef2f2c82708fd48055faa7546e7e0c4da51e7b6c
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8066605"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8733991"
 ---
 # <a name="recruit-job-candidates"></a>Įdarbinti darbo kandidatai
 
@@ -29,7 +28,7 @@ ms.locfileid: "8066605"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-„Dynamics 365 Human Resources“ jums padeda valdyti įdarbinimo užklausas. Ji taip pat padeda jums be požymių perkelti darbo užklausas darbuotojams. Jei jūsų organizacija naudoja atskirą įdarbinimo paraišką, jūsų įdarbinimo procesas gali apimti šiuos žingsnius:
+„Dynamics 365 Human Resources“ jums padeda valdyti įdarbinimo užklausas. Ji taip pat padeda jums be požymių perkelti darbo užklausas darbuotojams. Jei jūsų organizacija naudoja atskirą įdarbinimo paraišką, jūsų įdarbinimo procesas gali apimti šiuos žingsnius:<!--note from editor: Should this be a numbered list? These steps do seem to follow a particular order.-->
 
 - Įveskite savo įdarbinimo užklausą žmogiškuosiuose ištekliuose.
 - Gaukite kandidato nuorodas žmogiškuosiuose ištekliuose iš įdarbinimo parašikos.
@@ -38,30 +37,35 @@ ms.locfileid: "8066605"
 Jei nenaudojate atskiros įdarbinimo parašikos, galite taip pat rankiniu būdu valdyti kandidatus žmogiškuosiuose ištekliuose.
 
 > [!NOTE]
-> Jei esate administratorius ar kūrėjas ir norite integruoti „Human Resources“ su trečiosios šalies įdarbinimo programa, žr. [Konfigūruoti „Dataverse“ integravimą](hr-admin-integration-common-data-service.md) ir [Konfigūruoti „Dataverse“ virtualias lenteles](hr-admin-integration-common-data-service-virtual-entities.md)
+> Jei jūs esate administratorius arba programuotojas ir norite integruoti Personalo duomenis į trečiosios šalies įdarbinimo prašymą, [eikite į Konfigūruoti Dataverse](hr-admin-integration-common-data-service.md) integravimą ir Konfigūruoti [virtualias Dataverse lenteles](hr-admin-integration-common-data-service-virtual-entities.md)
 >
 > Galite taip pat surasti įdarbinimo integravimo programas [„AppSource“](https://appsource.microsoft.com/marketplace/apps?search=recruiting%20dynamics).
 >
-## <a name="enable-recruiting-requests"></a>Įjungti įdarbinimo užklausas
+## <a name="enable-recruiting-requests-on-the-merged-infrastructure"></a>Įgalinti įdarbinimo užklausas susietos infrastruktūrose
 
-Jei norite pateikti įdarbinimo užklausas „Human Resources“, pirmiausia turite įjungti funkcijas **Žmogiškųjų išteklių bendrintuose parametruose**.
+Jei norite pateikti įdarbinimo užklausas personalo įdarbinimo srityje, pirmiausia **turite įgalinti personalo vartotojo** patirties ir įdarbinimo **proceso valdymo** priemones.
 
-1. Darbo erdvėje **Personalo valdymas** rinkitės **Nuorodos**.
-2. Skyriuje **Nustatymai**, Rinkitės **žmogiškųjų išteklių bendrinti parametrai**.
-3. Ant **Įdarbinimas** skirtukas, apačioje **Įdarbinimas**, rinkinys **Įgalinti įdarbinimo užklausas** į **Taip**.
+Kai priemonės įjungtos, pasirinkite funkcijas, atlikite šiuos veiksmus: 
+1. Eiti į **Human resourcesSetupHuman** > **·** > **išteklių parametrus**.
+2. Skirtuke  **Recruitment**  nustatykite lauką **Įdarbinimas išjungtas** kaip **Ne**.
+3. Išplečiamajame **įdarbinimo patirties** sąraše pasirinkite Personalo **įdarbinimas**.   
+
+> [!Note] 
+> Pasirinkus **personalo įdarbinimą**, įdarbinimo **projektai** (iš senesni) bus tik skaitomi. 
+
 
 ## <a name="add-a-recruiting-request-location"></a>Įtrauktei įdarbinimo užklausos vietą
 
 Jei jūsų organizacija turi kelias vietas, galite įtraukti jas taip, kad besikreipiantys galėtų pasirinkti vietą, kruioje naujas įdarbinimas veiks. Vieta bus įtraukta į darbo skelbimą.
 
-1. Paieškos juostoje įveskite **Įdarbinimo prašymo vieta**.
+1. Ieškos juostoje įveskite įdarbinimo **užklausos vietą**.
 2. Pasirinkite **Nauja**.
 3. Laukelyje **Įdarbinimo užklausos vieta** įveskite vietos pavadinimą.
 
     ![Įtraukti įdarbinimo užklausos vietą.](./media/hr-recruit-0a-add-location.png)
 
-4. **Aprašas** laukelyje įveskite vietos aprašą.
-5. Skyriuje **Vietą**, rinkitės **Įtraukti**. Jei **Naujas adresas** dialogo langas, įveskite vietos adresą.
+4. **Įveskite** vietos aprašymą.
+5. Skyriuje **Vietą**, rinkitės **Įtraukti**. Jei atsiranda **naujo** adreso dialogo langas, įveskite vietos adresą.<!--note from editor: Please make the address in this image less plausible. Via the fictitious guidelines on CELAweb: For street addresses, you should use sequential numbers, common street names, and incorrect zip codes (e.g., 4567 Main St Buffalo, NY 98052). (See https://microsoft.sharepoint.com/sites/CELAWeb-Copyrights-Trademarks-And-Patents/SitePages/trademarks-fictitious-names.aspx)-->
 
     ![Įvesti adresą.](./media/hr-recruit-0b-address.png)
 
@@ -74,7 +78,7 @@ Vadovai gali pateikti įdarbinimo užklausas žmogiškuosiuose ištekliuose. Jei
 
 1. Rinkitės **Darbuotojo savitarna**.
 2. Rinkitės **Mano komanda** skirtuką.
-3. Pasirinkite **Prašymas įdarbinti**.
+3. Pasirinkite **Įdarbinimo užklausą**.
 
     ![Pradėti įdarbinimo užklausą.](./media/hr-recruit-1-request-to-recruit.png)
 
@@ -83,25 +87,25 @@ Vadovai gali pateikti įdarbinimo užklausas žmogiškuosiuose ištekliuose. Jei
     ![Užbaikite įdarbinimo užklausą.](./media/hr-recruit-2-request-to-recruit.png)
 
 5. Pasirinkite **Tęsti**. Įdarbinimo užklausa rodoma jūsų vietai.
-6. Skyriuje **Bendri**, pasirinkite įdarbintoją iš **Įdarbintojo** iškrentančio meniu ir pasirinkite vietą iš **Įdarbinimo užklausos vietos** iškrentančio meniu.
+6. Išplečiamajame **įdarbinimo** sąraše pasirinkite **įdarbinėją**, **tada išplečiamajame sąraše Įdarbinimas pasirinkite** vietą.
 7. Skyriuje **Darbas**, pakeiskite visą būtiną informaciją ir rinkitės **Sukurti išsamią informaciją darbui**.
 
     ![Kuri išsamią informaciją iš užduoties.](./media/hr-recruit-3-create-details-from-job.png)
 
-    Likusi įdarbinimo prašymo dalis bus užpildyta nustatąja informacijas darbui, kurį įvedėte.
+    Likusi įdarbinimo užklausos dalis bus užpildyta numatytąja jūsų įvestos užduoties informacija.
 
 8. Skyriuje **Išorinis aprašas**, įveskite išorėje matomo darbo aprašą.
-9. Skyriuje **Pareigos**, rinkitės **Įtraukti** ir tada pasirinkite darbą šiam įdarbinimo prašymui.
+9. Skyriuje **Pareigos**, rinkitės **Įtraukti** ir tada pasirinkite darbą šiam įdarbinimo prašymui.<!--note from editor: In all of these images, are they approved fictitious names, or do they come from sample data included with the app?-->
 
     ![Įtraukite pareigas.](./media/hr-recruit-4-select-position.png)
 
 10. Skyriuje **Įgūdžiai**, pasirinkite **Įtraukti** ir tada rinkitės įgūdžius.
-11. Skyriuje **Išsilavinimo reikalavimai**, Rinkitės **Įtraukiti** ir tada rinkitės vertes iš **Išsilavinimas** ir **Išsilavinimo lygio** iškrentančių meniu.
+11. Dalyje **Išsilavinimo** reikalavimai pasirinkite **Įtraukti**, tada išplečiamajame meniu **Išsilavinimas** **ir Išsilavinimo lygis** pasirinkite vertes.
 
     ![Įtraukti išsilavinimo reikalavimus.](./media/hr-recruit-5-select-educational-requirements.png)
 
 12. Skyriuje **Komentaras**, įtraukite komentarus, kaip būtina.
-13. Skyriuje **Užmokestis**, pasirinkite iš iškrentančio meniu **Lygį** ir tad akeiskite **Apatinis slenkstis**, **Patikros taškas** ir **Viršutinis slenkstis** kaip būtina.
+13. Dalies Atlyginimas išplečiamajame sąraše **Pasirinkite** lygį ir, jei reikia, koreguokite žemą **ribinę** vertę, **·** **kontrolės tašką ir aukštą slenkstį**.**·**
 14. Kai jūsų jūsų įdarbinimo užklausa yra užbaigta ir esate pasirengęs pradėti įdarbinimo procesą, pasirinkite **Įjungti** meniu juostoje.
 
     ![Įjungti įdarbinimo užklausą.](./media/hr-recruit-6-activate-recruit-request.png)
@@ -141,7 +145,7 @@ Jei jūsų organizacija integravo su kita programa siekiant valdyti įdarbinimo 
 
 4. Norėdami įtraukti kandidatą, rinkitės **Naujas**. Norėdami redaguoti esamą kandidatą, rinkitės jį iš sąrašo ir tada rinkitės **Redaguoti**. Rodomas kandidato profilis.
 5. Skyriuje **Kandidato suvestinė**, įveskite ar redaguokite kandidato informaciją, kaip būtina.
-6. Skyriuje **Įdarbinimo užklausa**, rinkitės įdarbinimo užklausą siekiant susieti su kandidatu. Tuomet užbaikite **Apskaičiuota pradžios data**, **Įdarbinimo vadovas**, **Pareigos** ir **Aprašymo laukeliai** kaip būtina.
+6. Skyriuje **Įdarbinimo užklausa**, rinkitės įdarbinimo užklausą siekiant susieti su kandidatu. Tada atitinkamai **užpildykite laukus** Įvertinta **pradžios data**, Samdos **vadybininkas**, **Pareigos** ir Aprašymas.
 
     ![Susiekite su įdarbinimo užklausa.](./media/hr-recruit-10-link-to-recruiting-request.png)
 
@@ -161,11 +165,11 @@ Jei jūsų organizacija integravo su kita programa siekiant valdyti įdarbinimo 
 
 Kai esate pasirengę samdyti kandidatą, atlikite šią procedūrą siekiant perkelti kandidatą į darbuotoją.
 
-1. Ant **Kandidatas** puslapį, pasirinkite **Samdyti**.
+1. Kandidato **puslapyje** pasirinkti **Samdyti**.
 
     ![Samdyti kandidatą.](./media/hr-recruit-11-hire.png)
 
-2. Ant **Įdarbinti naują darbuotoją** puslapis, apačioje **Detalės**, užpildykite visus laukus.
+2. **Dalies Išsami informacija puslapyje** Samdyti naują **darbuotoją** užpildykite visus laukus.
 
     ![Įveskite naujo įdarbinto asmens išsamią informaciją.](./media/hr-recruit-12-hire-new-worker.png)
 
@@ -174,13 +178,13 @@ Kai esate pasirengę samdyti kandidatą, atlikite šią procedūrą siekiant per
 5. Rinkitės **Tęsti** norėdami sukurti darbuotojo įrašą.
 
     > [!NOTE]
-    > Priklausomai nuo jūsų organizacijos darbo eigų, kandidato įrašas gali praeiti pro papildomus patvirtinimo žingsnius prieš tai, kai taps darbuotojo įrašu.
+    > Priklausomai nuo jūsų organizacijos darbo eigų, kandidato įrašas gali pereiti per papildomus patvirtinimo veiksmus prieš tampant darbuotojo įrašu.
 
 ## <a name="decide-not-to-hire-a-candidate"></a>Sprendimas nesamdyti kandidato
 
 Jei nusprendžiate nesamdyti kandidato, laikykitės šios procedūros siekiant pašalinti jį iš vertinimo proceso. 
 
-1. Ant **Kandidatas** puslapį, pasirinkite **Nesamdyti**.
+1. Kandidato **puslapyje** pasirinkti **Nesamdyti**.
 
     ![Nesamdyti kandidato.](./media/hr-recruit-13-do-not-hire.png)
 
@@ -191,7 +195,7 @@ Jei nusprendžiate nesamdyti kandidato, laikykitės šios procedūros siekiant p
 
 Jei reikia, galite atmesti kandidatą po jo pasamdymo. Pavyzdžiui, kandidatas gali atsisakyti pasiūlymo arba nepasirodyti pirmąją dieną.
 
-- Ant **Kandidatas** puslapį, pasirinkite **Atleisti kandidatą**.
+- Kandidato puslapyje **pasirinkti atleidimo kandidatą** **.**
 
     ![Atmesti kandidatą.](./media/hr-recruit-14-dismiss-candidate.png)
 

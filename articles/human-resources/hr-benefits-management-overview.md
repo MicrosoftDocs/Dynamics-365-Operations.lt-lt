@@ -8,18 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
-ms.search.scope: Human Resources
 ms.assetid: ''
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 696c7632fd8adda71b2b67d59fba7f7d83193f5b
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: e53a68aed2e4b1e0b0d7797e7326e223c47443f4
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065948"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8687197"
 ---
 # <a name="benefits-management-overview"></a>Išmokų valdymo apžvalga
 
@@ -113,27 +112,27 @@ Galite naudoti lanksčiųjų kreditų programas, kad užregistruotumėte darbuot
 
 Tam, kad užregistruotumėte darbuotojus išmokoms gauti, jiems turite pateikti reikiamą informaciją. 
 
-Darbuotojas privalo turėti a **Padėtis** jiems priskirtas. A **Padėtis** gali būti priskirtas darbuotojui **Darbininkas** arba **Padėtis** puslapius atnaujindami **Darbuotojo paskyrimas**. 
+Darbuotojui turi būti priskirtos **pareigos**. Pareigos **gali** būti priskirtos darbuotojui darbuotojo **arba pareigų** puslapiuose **·**, atnaujinant darbuotojo **priskyrimą**. 
 
-Tada darbuotojai turi būti įtraukti į fiksuotą atlyginimo planą jų pradžios dieną arba turėti **Metinės išmokos atlyginimas** suma. Prieš paskyrimą **Fiksuota kompensacija** darbuotojui, a **Padėtis** turi būti paskirta. 
+Tada darbuotojai turi būti įtraukti į pastoviosios atlyginimo dalies planą jų darbo pradžios datą arba gauti atlyginimo **sumą metiniu atlyginimu**. Prieš priskiriant Darbuotojui **pastoviąsias** atlyginimo dalis, pareigos **turi** būti priskirtos. 
 
 > [!NOTE] 
-> The **Fiksuota kompensavimo pradžios data** negali būti prieš **Pareigos paskyrimo data**.
+> Pastoviosios **atlyginimo dalies pradžios** data negali būti prieš pareigų **priskyrimo datą**.
 
-Arba, jei turite darbuotoją, kuris gauna papildomą kompensaciją, pvz., komisinius, galite pridėti a **Privalumai metinis atlyginimas** suma iš darbuotojo įrašo. Žmogiškieji ištekliai naudosis **Privalumai metinis atlyginimas** sumą, nustatant draudimo sumas, o ne **Fiksuota kompensacija kasmet** suma. **Išmokų metinė alga** turi būti galiojanti nuo darbuotojo pradžios dienos arba nuo išmokos laikotarpio pradžios, priklausomai nuo to, kuri data yra naujausia. Tačiau norint priskirti pareigas nebūtina **Privalumai metinis atlyginimas**. Norėdami įjungti **Privalumai metinis atlyginimas** funkcija, eikite į **Žmogiškųjų išteklių bendri parametrai** puslapyje, esančiame **Privalumų valdymas** skirtukas. Ši funkcija išjungta pagal numatytuosius nustatymus.
+Taip pat, jei turite darbuotoją, kuris gauna papildomą atlyginimą kaip komisinius, **galite pridėti išmokų metinę** atlyginimo sumą iš darbuotojo įrašo. Personalo valdymo metu apibrėžiant padengimo sumas **bus naudojama** išmokų metinė atlyginimo suma, o ne pastoviosios **atlyginimo dalies metinė** suma. **Išmokų metinė alga** turi būti galiojanti nuo darbuotojo pradžios dienos arba nuo išmokos laikotarpio pradžios, priklausomai nuo to, kuri data yra naujausia. Tačiau tam, kad būtų galima priskirti metinį išmokų atlyginimą **, pareigų nėra**. Norėdami įgalinti atlyginimo **išmokų funkciją**, eikite į personalo **bendrinamų parametrų** puslapį, išmokų **valdymo skirtuke** . Numatyta, kad ši funkcija išjungta.
 
 > [!IMPORTANT]
-> Jei abu a **Fiksuota kompensacija** ir a **Privalumai metinis atlyginimas** suma įvedama darbuotojui, **Privalumai metinis atlyginimas** bus naudojami nustatant draudimo sumas. Viduje konors **Darbo informacija** skyrių **Darbininkas** puslapyje, turite pasirinkti reikšmę **Išmokų mokėjimo dažnumas** lauke.
+> Jei darbuotojui **įvesta ir pastovioji** **atlyginimo** dalis, ir išmokų metinė atlyginimo suma, **nustatant padengimo** sumas bus naudojamas išmokų metinis atlyginimas. Darbuotojo puslapio **skyriuje** Išsami įdarbinimo **informacija** turite pasirinkti vertę lauke Išmokos **mokėjimo dažnumas**.
 
 ## <a name="configure-optional-employee-information"></a>Papildomos darbuotojo informacijos konfigūravimas
 Kai kuriate išmokų planą, naudojantį tarifus, pagrįstus lytimi arba amžiumi, turite įvesti darbuotojo gimimo datą ir lytį, kad būtų apskaičiuota išmokų savikaina.
 
 ## <a name="process-employees-to-determine-eligibility"></a>Darbuotojų apdorojimas tinkamumo nustatymui
-Tam, kad darbuotojai galėtų būti įtraukti į planus, vykdomas tinkamumo apdorojimas, siekiant nustatyti, kuriems planams jie yra tinkami. Galite peržiūrėti tinkamumo proceso rezultatus **Apdorojimo rezultatų peržiūros priemonė**. Daugiau informacijos rasite [Dalyvavimo tinkamumo apdorojimas](hr-benefits-process-enrollment-eligibility.md).
+Tam, kad darbuotojai galėtų būti įtraukti į planus, vykdomas tinkamumo apdorojimas, siekiant nustatyti, kuriems planams jie yra tinkami. Galite peržiūrėti tinkamumo proceso rezultatus proceso rezultatų **peržiūros programoje**. Daugiau informacijos rasite [Dalyvavimo tinkamumo apdorojimas](hr-benefits-process-enrollment-eligibility.md).
 
-## <a name="employees-select-plans-using-employee-self-service-optional"></a>Darbuotojai pasirenka planus naudodami **Darbuotojų savitarna** (neprivaloma)
+## <a name="employees-select-plans-using-employee-self-service-optional"></a>Darbuotojai pasirenka planus naudodamiesi **darbuotojų savitarnos paslauga** (pasirinktinai)
 
-Kai įvyksta atvira registracija, darbuotojai naujai priimami į darbą arba įvyksta gyvenimo įvykis, darbuotojai gali pasirinkti arba atnaujinti savo privilegijas naudodami **Darbuotojų savitarna**. Daugiau informacijos rasite [Darbuotojo savitarnos konfigūravimas](hr-benefits-setup-employee-self-service.md).
+Kai yra atidarytas aptarnavimas, darbuotojai pasamdyti naujai arba įvyksta gyvenimo įvykis, darbuotojai gali pasirinkti arba atnaujinti savo išmokas naudodamiesi **darbuotojų savitarnos paslauga**. Daugiau informacijos rasite [Darbuotojo savitarnos konfigūravimas](hr-benefits-setup-employee-self-service.md).
 
 ## <a name="confirm-employee-plan-selections"></a>Darbuotojo plano pasirinkimų patvirtinimas
 

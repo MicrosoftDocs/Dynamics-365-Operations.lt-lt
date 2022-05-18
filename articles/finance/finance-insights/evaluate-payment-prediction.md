@@ -2,25 +2,25 @@
 title: Pradinio kliento mokėjimo prognozės modelio įvertinimas
 description: Šioje temoje aprašomi veiksmai, kuriuos galite atlikti, kad suprastumėte kliento mokėjimo prognozavimo modelį ir įvertintumėte jo efektyvumą.
 author: ShivamPandey-msft
-ms.date: 07/16/2021
+ms.date: 05/02/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 14151
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 874c6e938681537a0420eece6835a4c2124e11fc
-ms.sourcegitcommit: 133aa728b8a795eaeaef22544f76478da2bd1df9
+ms.openlocfilehash: c0951c8dcf6205ebbb15baf86b1272af4e95547f
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7969117"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8677960"
 ---
 # <a name="evaluate-the-initial-customer-payment-prediction-model"></a>Pradinio kliento mokėjimo prognozės modelio įvertinimas
 
@@ -30,17 +30,17 @@ ms.locfileid: "7969117"
 
 ## <a name="getting-details-about-the-model"></a>Informacijos apie modelį gavimas
 
-„Microsoft Dynamics 365 Finance“ puslapyje **„Finance Insights” parametrai** prie tikslumo rezultato atsiranda saitas **Tikslinti modelį**.
+Finansų žinių **parametrų puslapyje,** skyriuje Microsoft Dynamics 365 finansai, **prie** tikslumo rezultato rodomas modelio tikslumo pageravimo saitas.
 
 [![Saitas Tikslinti modelį.](./media/prediction-model.png)](./media/prediction-model.png)
 
-Šis saitas AI Builder nueis į, kur galite daugiau sužinoti apie dabartinį modelį ir imtis veiksmų, kaip jį patobulinti. Toliau pateiktame paveikslėlyje parodytas atidarytas puslapis.
+Šis saitas nueis AI Builder į, kur galite daugiau sužinoti apie dabartinį modelį ir imtis veiksmų, kaip jį patobulinti. Toliau pateiktame paveikslėlyje parodytas atidarytas puslapis.
 
 [![AI Builder.](./media/what-to-predict.png)](./media/what-to-predict.png)
 
 Atidarytame puslapyje rodoma tolesnė informacija.
 
-- Skiltyje **Našumas** modelio našumo įvertinimas nurodo modelio kokybę. Daugiau informacijos apie šią įvertinimą ieškokite [dokumentacijoje žr.](/ai-builder/prediction-performance) Numatymo modelio AI Builder našumą.
+- Skiltyje **Našumas** modelio našumo įvertinimas nurodo modelio kokybę. Daugiau informacijos apie šią įvertinimą ieškokite dokumentacijoje [žr.](/ai-builder/prediction-performance) Numatymo modelio AI Builder našumą.
 - Skiltyje **Svarbiausi duomenys** nurodoma, kiek svarbūs skirtingi modelio duomenų įvesties tipai. Galite įvertinti šį sąrašą ir atitinkamus procentus, norėdami nustatyti, ar informacija atitinka tai, ką žinote apie savo verslą ir rinką.
 
     [![Prognozavimo modelio duomenų skiltys Našumas ir Svarbiausi duomenys.](./media/models.png)](./media/models.png)
@@ -51,7 +51,7 @@ Atidarytame puslapyje rodoma tolesnė informacija.
 
 ## <a name="digging-deeper"></a>Išsamesnė informacija
 
-Nors tikslumas yra tinkamas pradinis modelio vertinimo taškas, o našumo vertinimas teikia perspektyvą, pateikiama išsamesnė AI Builder metrika, kurią galite naudoti savo įvertinimui. Norėdami atsisiųsti išsamią informaciją, skiltyje **Našumas** pasirinkite elipsės mygtuką (**...**), esantį greta mygtuko **Naudoti modelį**, tada pasirinkite **Atsisiųsti išsamią metriką**.
+Nors tikslumas yra tinkamas pradinis modelio vertinimo taškas, o našumo vertinimas teikia perspektyvą, pateikiama išsamesnė metrika, AI Builder kurią galite naudoti savo įvertinimui. Norėdami atsisiųsti išsamią informaciją, skiltyje **Našumas** pasirinkite elipsės mygtuką (**...**), esantį greta mygtuko **Naudoti modelį**, tada pasirinkite **Atsisiųsti išsamią metriką**.
 
 [![Komanda Atsisiųsti išsamią metriką.](./media/performance.png)](./media/performance.png)
 
@@ -89,10 +89,10 @@ Skaičius, nurodantis modelio našumą geriau nei tikslumas, yra F1 makro rezult
 
 ## <a name="improving-the-model"></a>Modelio tobulinimas
 
-Geriau supratę savo pirmo modelio rezultatus, galbūt norėsite patobulinti modelį įtraukdami arba pašalindami funkcijų stulpelius arba filtruodami bet kurias duomenų rinkinio dalis, kurios nepalaiko tikslių prognozių. Uždarykite AI Builder, tada naudokite saitą Tobulinti **modelį**, kad būtų Dynamics 365 Finance paleistas iš AI Builder naujo. Galite eksperimentuoti su skirtingomis charakteristikomis, nedarydami įtakos publikuotame modelyje. Publikuotame modelyje poveikis daromas tik pasirinkus **Publikuoti**. Atminkite, kad jūsų „Dynamics 365 Finance“ egzemplioriuje naudojamas vienas modelis. Todėl prieš publikuodami turite kruopščiai patikrinti bet kokį naują modelį.
+Geriau supratę savo pirmo modelio rezultatus, galbūt norėsite patobulinti modelį įtraukdami arba pašalindami funkcijų stulpelius arba filtruodami bet kurias duomenų rinkinio dalis, kurios nepalaiko tikslių prognozių. Uždarykite AI Builder, tada norėdami iš naujo paleisti **procesą naudokite** "Dynamics 365 Finance" saitą Pagerinti AI Builder modelį. Galite eksperimentuoti su skirtingomis charakteristikomis, nedarydami įtakos publikuotame modelyje. Publikuotame modelyje poveikis daromas tik pasirinkus **Publikuoti**. Atsiminkite, kad jūsų "Dynamics 365 Finance" egzemplioriui naudojamas vienas modelis. Todėl prieš publikuodami turite kruopščiai patikrinti bet kokį naują modelį.
 
 ## <a name="for-more-information"></a>Daugiau informacijos
 
-Daugiau informacijos apie tai, kaip įvertinti prognozavimo modelius, žr. [Mašininio mokymo modelių rezultatai](/confusion-matrix.md)
+Daugiau informacijos apie tai, kaip įvertinti prognozavimo modelius, žr. [Mašininio mokymo modelių rezultatai](confusion-matrix.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

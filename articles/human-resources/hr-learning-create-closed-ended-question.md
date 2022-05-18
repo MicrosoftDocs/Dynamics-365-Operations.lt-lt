@@ -8,17 +8,16 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: KMAnswerCollection, KMAnswer, KMQuestion, HcmLearningWorkspace
 audience: Application User
-ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b3b90bb2a4981f32feb10ee1192e9c4d2e604e7a
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 18b755675b97e608afccea2e48ea3cfca74c984f
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8071759"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8686169"
 ---
 # <a name="create-a-closed-ended-question"></a>Kurti uždarą klausimą
 
@@ -37,10 +36,10 @@ Uždari klausimai leidžia suteikti respondentui pasirinkimo variantų. Pirmiaus
 2. Spustelėkite **Naujas**.
 3. Lauke **Atsakymų grupė** įveskite reikšmę.
 4. Lauke **Aprašo laukas** surinkite reikšmę.
-    * Naudoti **Atsitiktinis** funkcija, leidžianti atsitiktinai išdėstyti atsakymus kita tvarka kiekvieną kartą, kai atsakymo grupė naudojama klausimui.  
+    * **Naudokite Užsakymo funkciją,** kad kiekvieną kartą panaudojus klausimo atsakymų grupę, atsakymai būtų atsitiktinai išdėstyti skirtinga tvarka.  
 5. Spustelėkite **Atsakyti**.
 6. Spustelėkite **Naujas**.
-    * Sekos numeris valdo atsakymų rodymo tvarką, nebent **Atsitiktinis** yra pasirinktas **Atsakymų grupė**.  
+    * Eilės numeris valdo tvarką, kuria rodomi atsakymai, nebent **atsakymų grupei** pasirenkamas **Javs numeris**.  
     * Klausimynas gali būti vertinamas atsakymams skiriant taškus.  
 7. Lauke **Taškai** įveskite skaičių.
     * Galima pažymėti teisingą atsakymą parodant, kad pasirinktas atsakymas yra teisingas. Tai gali būti naudojama vertinant klausimyną.  
@@ -64,8 +63,8 @@ Uždari klausimai leidžia suteikti respondentui pasirinkimo variantų. Pirmiaus
 ## <a name="create-the-question"></a>Kurti klausimą
 1. Pasirinkite **Klausimynas** > **Kūrimas** > **Klausimai**.
 2. Spustelėkite **Naujas**.
-3. Naudoti **Tipas** lauke kartu su grupe susijusius klausimus.
-    * Galite naudoti įvesties tipus **Žymimasis langelis**, **mygtukas**, arba **Kombinuota dėžutė** uždaro tipo klausimams.  
+3. Norėdami sugrupuoti **susijusius** klausimus kartu, naudokite lauką Tipas.
+    * Uždaruose klausimams galite naudoti įvesties **tipus** **Žymės** langelis, **Alternatyvus mygtukas** arba Combo.  
 4. Lauke **Įvesties tipas** pasirinkite parinktį.
 5. Lauke **Atsakymų grupė** įveskite arba pasirinkite reikšmę.
 6. Lauke **Tekstas** įveskite reikšmę.

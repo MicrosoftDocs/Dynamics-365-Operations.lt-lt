@@ -1,7 +1,7 @@
 ---
 title: Papildymas pagal vietos erdvę
 description: Šioje temoje pateikiama informacija apie vietos pajėgumo papildymo funkciją. Ši funkcija įjungia visus papildymo darbus, kurių bus reikalaujama kūrimo dieną ir valdo papildymo darbo prieinamumą siekiant užtikrinti, kad paėmimo vieta neišeis iš atsargų ir neviršys pajėgumo.
-author: mirzaab
+author: Mirzaab
 ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 6ff9f133010ec4370a99c585259aece4e279f801
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: 0c3dedc47558e98f63fb5883e4731bf021b9602b
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7778212"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8677932"
 ---
 # <a name="replenishment-over-location-capacity"></a>Papildymas pagal vietos erdvę
 
@@ -252,7 +252,7 @@ Tam, kad rastumėte vėliau jums reikalingų licencijos numerių ID, atlikite š
 
 1. Pasirinkite **Taikyti**.
 1. Veiksmų juostoje, pasirinkite **Dimensijos**.
-1. **Dimensijos rodymo** teksto laukelyje, **Saugojimo dimensijos** skyriuje pasirinkite visas vertes.
+1. **Dimensijos rodymo** teksto laukelyje,**Saugojimo dimensijos** skyriuje pasirinkite visas vertes.
 1. **Perlaidos** skyriuje pasirinkite **Elemento numerį** ir **Kiekį \<\> 0**.
 1. Kai pabaigsite pasirinkite **Gerai** tam, kad uždarytumėte teksto laukelį.
 1. **Turimas** tinklelis rodo licencijos numerio numerius elementui *T0100* kiekvienoje vietoje. Atkreipkite dėmesį į licencijos numerį esantį kiekvienoje vietoje, nes jums šios informacijos reikės vėliau.

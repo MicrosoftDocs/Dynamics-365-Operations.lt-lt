@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: VendEditInvoiceHeaderStagingListPage
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f407d42fe624206e32a2f58fe8c7fcaf2df52c729a1d945d3d801f450b6ed129
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 02fcb6ce49156c32f23bfb37478a1076f62aa868
+ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722772"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8716415"
 ---
 # <a name="invoice-automation-for-scanned-documents"></a>Nuskaitytų dokumentų sąskaitų faktūrų automatizavimas
 
@@ -58,7 +58,7 @@ Duomenų paketas yra darbo vienetas, kuris turi būti išsiųstas, kad būtų ga
 
 Tiekėjo SF dokumento priedas yra naujas duomenų objektas, pristatomas kaip šios funkcijos dalis. Tiekėjo SF antraštės objektas buvo pakeistas, kad palaikytų priedus. Tiekėjo SF eilutės objektas nebuvo modifikuotas šioje funkcijoje.
 
-Išsamios informacijos apie duomenų paketus žr. [Duomenų valdymo apžvalga](../../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md). Informacijos apie tai, kaip kurti duomenų paketus naudojant duomenų valdymo darbo sritį, žr. [Duomenų paketų apdorojimas ir naudojimas „Dynamics 365 Finance and Operations“ programų sprendime](../../fin-ops-core/dev-itpro/lcs-solutions/process-data-packages-lcs-solutions.md).
+Išsamios informacijos apie duomenų paketus žr. [Duomenų valdymo apžvalga](../../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md). Informacijos, kaip kurti duomenų paketus naudojant duomenų valdymo darbo sritį, [ieškokite "Dynamics 365" finansų ir operacijų programėlių sprendimų duomenų paketų procesas ir naudojimas](../../fin-ops-core/dev-itpro/lcs-solutions/process-data-packages-lcs-solutions.md).
 
 Norėdami greitai sugeneruoti bandymo duomenis, kurie apima SF ir priedus, atlikite šiuos veiksmus.
 
@@ -140,7 +140,7 @@ Išimčių sąrašo puslapis palaiko standartines saugos struktūras, kurias **D
 
 Jei sukonfigūruota SF importavimo užduoties sauga, išimčių sąrašo puslapis atsižvelgia į šiuos parametrus. Vartotojai galės matyti tik SF išimčių įrašus, kuriuos šis nustatymas leis jiems matyti.
 
-Pavyzdžiui, „Contoso“ nusprendė apdoroti SF išimtis pagal juridinį subjektą. Todėl SF importavimo užduoties sauga konfigūruojama taip, kad juridinio subjekto A vartotojas galėtų matyti tik SF išimtis juridiniame subjekte A, o juridinio subjekto B vartotojas galėtų matyti tik SF išimtis juridiniame subjekte B. Toks nustatymas leidžia atskirti SF išimčių tvarkymo pareigas.
+Pvz., „Contoso“ nusprendė apdoroti SF išimtis pagal juridinį subjektą. Todėl SF importavimo užduoties sauga konfigūruojama taip, kad juridinio subjekto A vartotojas galėtų matyti tik SF išimtis juridiniame subjekte A, o juridinio subjekto B vartotojas galėtų matyti tik SF išimtis juridiniame subjekte B. Toks nustatymas leidžia atskirti SF išimčių tvarkymo pareigas.
 
 Be to, „Contoso“ gali nuspręsti netaikyti jokios saugos, kad tie patys vartotojai galėtų apdoroti SF išimtis visuose juridiniuose subjektuose. Šis nustatymas įgalina SF išimčių tvarkymo bendrai naudojamų paslaugų scenarijų.
 

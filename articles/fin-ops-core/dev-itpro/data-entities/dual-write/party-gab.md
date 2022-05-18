@@ -2,19 +2,19 @@
 title: Šalies ir bendros knygelės nustatymas
 description: Šioje temoje aprašomos dvigubo rašymo šalies ir visuotinės adresų knygelės funkcijos.
 author: RamaKrishnamoorthy
-ms.date: 03/10/2022
+ms.date: 04/25/2022
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: josaw
+ms.reviewer: sericks
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-02-22
-ms.openlocfilehash: 2e0d16b29a71da23acc925c09c87f0bb4776759c
-ms.sourcegitcommit: 6dc2b877cf8ea9185a07964ec05c5ddb7a78471b
+ms.openlocfilehash: 1e2dcfa69308f6691e787a1ff1893f9080dcaef1
+ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/12/2022
-ms.locfileid: "8407770"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8717452"
 ---
 # <a name="party-and-global-address-book"></a>Šalies ir bendros knygelės nustatymas
 
@@ -139,7 +139,7 @@ Tinklelyje yra šie stulpeliai:
 
 Galite naudoti mygtuką **Naujas elektroninis adresas** virš tinklelio, kad sukurtumėte tiek pašto adresų, kiek norite.
 
-Elektroniniai adresai galimi tik šiame tinklelyje. Būsimuose leidimuose visi elektroninio ir pašto adresų laukai bus pašalinti iš kitų skirtukų, pvz., **skirtukų** Suvestinė ir **informacija**. Kontaktinė informacija, rodoma skirtuko lape Išsamiai, yra tik skaitomos pirminio elektroninio adreso kopijos, pvz., pagrindinis telefonas, pagrindinis el. paštas, pagrindinis telefonas, pagrindinis faksas ir **pagrindinis** „Twitter" ID. Galimo kliento kvalifikacijos proceso metu galite pateikti ir verslo telefono numerį, ir mobiliojo telefono numerį. Darbo telefono numeris laikomas pirminiu telefono numeriu, jei **IsMobile=Ne** o mobiliojo telefono numeris laikomas antriniu telefonu, jei **IsMobile=Taip**.
+Galimo kliento kvalifikacijos proceso metu galite pateikti ir verslo telefono numerį, ir mobiliojo telefono numerį. Darbo telefono numeris laikomas pirminiu **telefono numeriu, jei IsMobile = Ne**, o mobiliojo telefono numeris laikomas antriniu telefono numeriu, **jei IsMobile = Taip**.
 
 > [!TIP]
 > Naudokite **adresų** ir **elektroninių adresų** skirtukus **sąskaitų** ir **kontaktų** formose pašto ir elektroniniams adresams valdyti. Taip užtikrinama, kad adreso duomenys bus sinchronizuojami su finansų ir operacijų programėle.
@@ -148,7 +148,7 @@ Elektroniniai adresai galimi tik šiame tinklelyje. Būsimuose leidimuose visi e
 
 1. Atidarykite savo klientų įdarbinimo programos aplinką.
 
-2. Įdiekite dvigubo rašymo (2.2.2.60 programos) instrumentavimo sprendimo [naujausią versiją](https://aka.ms/dual-write-app).
+2. Įdiekite visus būtinuosius sprendimus, kaip nurodyta atskirto [dvigubo rašymo programos instrumentavimo pakete](separated-solutions.md).
 
 3. Įdiekite [Dvigubo rašymo į Šalies ir Visuotinę adresų knygelės prendimus](https://aka.ms/dual-write-gab).
 
@@ -165,8 +165,8 @@ Elektroniniai adresai galimi tik šiame tinklelyje. Būsimuose leidimuose visi e
 
     Schema | Atnaujinti į šią versiją | Pakeitimai
     ---|---|---
-    `CDS Parties (msdyn_parties)`| 1.0.0.0 | Tai nauja schema, pridėta kaip ankstesnio šalies peržiūros leidimo dalis.
-    `Contacts V2 (msdyn_contactforparties)`| 1.0.0.5 | Tai nauja schema, pridėta kaip ankstesnio šalies peržiūros leidimo dalis.
+    `CDS Parties (msdyn_parties)`| 1.0.0.2 | Tai nauja schema, pridėta kaip ankstesnio šalies peržiūros leidimo dalis.
+    `Contacts V2 (msdyn_contactforparties)`| 1.0.0.6 | Tai nauja schema, pridėta kaip ankstesnio šalies peržiūros leidimo dalis.
     `Customers V3 (accounts)` | 1.0.0.5 |Pašalintas `PartyNumber` ir kiti su šalimi susiję laukai, pvz., vardas, asmeninė informacija, pašto adreso laukai, elektroninio kontakto adreso laukai ir kt.
     `Customer V3 (contacts)` | 1.0.0.5 | Pašalintas `PartyNumber` ir kiti su šalimi susiję laukai, pvz., vardas, asmeninė informacija, pašto adreso laukai, elektroninio kontakto adreso laukai ir kt.
     `Vendors V2 (msdyn_vendors)` | 1.0.0.6 | Pašalintas `PartyNumber` ir kiti su šalimi susiję laukai, pvz., vardas, asmeninė informacija, pašto adreso laukai, elektroninio kontakto adreso laukai ir kt.
@@ -174,16 +174,17 @@ Elektroniniai adresai galimi tik šiame tinklelyje. Būsimuose leidimuose visi e
     `Sales invoice headers V2 (invoices)` | 1.0.0.4 | Pakeitė kontaktinį asmenį `ContactforParty` nuoroda.
     `CDS Sales order headers (salesorders)` | 1.0.0.5 | Pakeitė kontaktinį asmenį `ContactforParty` nuoroda.
     `CDS Party postal address locations (msdyn_partypostaladdresses)` | 1.0.0.1  | Tai nauja schema, pridėta kaip ankstesnio šalies peržiūros leidimo dalis.
-    `CDS postal address history V2 (msdyn_postaladdresses)` | 1.0.0.1 | Tai nauja schema, pridėta kaip ankstesnio šalies peržiūros leidimo dalis.
+    `CDS postal address history V2 (msdyn_postaladdresses)` | 1.0.0.2 | Tai nauja schema, pridėta kaip ankstesnio šalies peržiūros leidimo dalis.
     `CDS postal address locations (msdyn_postaladdresscollections)` | 1.0.0.0 | Tai nauja schema, pridėta kaip ankstesnio šalies peržiūros leidimo dalis.
     `Party Contacts V3 (msdyn_partyelectronicaddresses)` | 1.0.0.0 | Tai nauja schema, pridėta kaip ankstesnio šalies peržiūros leidimo dalis.
-    `Complimentary Closings ( msdyn_compliemntaryclosings)` | 1.0.0.0 | Tai nauja schema, pridėta kaip ankstesnio šalies peržiūros leidimo dalis.
+    `Complimentary Closings (msdyn_compliemntaryclosings)` | 1.0.0.0 | Tai nauja schema, pridėta kaip ankstesnio šalies peržiūros leidimo dalis.
     `Decision making roles (msdyn_decisionmakingroles)` | 1.0.0.0 | Tai nauja schema, pridėta kaip ankstesnio šalies peržiūros leidimo dalis.
     `Loyalty levels (msdyn_loyaltylevels)` | 1.0.0.0 | Tai nauja schema, pridėta kaip ankstesnio šalies peržiūros leidimo dalis.
     `Contact person titles (msdyn_salescontactpersontitles)` | 1.0.0.0 | Tai nauja schema, pridėta kaip ankstesnio šalies peržiūros leidimo dalis.
     `Personal character types (msdyn_personalcharactertypes)` | 1.0.0.0 | Tai nauja schema, pridėta kaip ankstesnio šalies peržiūros leidimo dalis.
     `Salutations (msdyn_salutations)` | 1.0.0.0 | Tai nauja schema, pridėta kaip ankstesnio šalies peržiūros leidimo dalis.
     `Employment job functions (msdyn_employmentjobfunctions)` | 1.0.0.0 | Tai nauja schema, pridėta kaip ankstesnio šalies peržiūros leidimo dalis.
+    `CDS Address roles (msdyn_addressroles)` | 1.0.0.0 | Tai nauja schema, pridėta kaip ankstesnio šalies peržiūros leidimo dalis.
 
 8. Prieš paleisdami pirmiau pateiktas schemas, turite atnaujinti integravimo raktus rankiniu būdu, kaip aprašyta toliau aprašytus veiksmus. Tada pasirinkite **Įrašyti**.
 
@@ -251,14 +252,15 @@ Elektroniniai adresai galimi tik šiame tinklelyje. Būsimuose leidimuose visi e
     [CDS pardavimo pasiūlymo antraštė](mapping-reference.md#215) | pasiūlymai
     [CDS pardavimo užsakymų antraštės](mapping-reference.md#217) | salesorders
     [Pardavimo SF antraštės V2](mapping-reference.md#118) | SF
+    [CDS adreso vaidmenys](mapping-reference.md#301) | msdyn_addressroles
 
 > [!NOTE]
-> Schema `CDS Contacts V2 (contacts)` yra schema, kurią sustabdėte 1 žingsnyje. Kai bandote paleisti kitas schemas, šios 2 schemos gali būti rodomos priklausomųjų sąraše. Neį paleiskite šių žemėlapių.
+> Schema `CDS Contacts V2 (contacts)` yra schema, kurią sustabdėte 1 žingsniu. Kai bandote paleisti kitas schemas, šios 2 schemos gali būti rodomos priklausomųjų sąraše. Neį paleiskite šių žemėlapių.
 >
-> Jei šalies ir visuotinės adresų knygelės sprendimas įdiegtas, turite išjungti prijungimą, `Microsoft.Dynamics.SCMExtended.Plugins.Plugins.LeadPrimaryContactPostCreate: QualifyLead of lead` pavadintą. Jei šalies ir visuotinės adresų knygelės sprendimas yra išdiegtas, tada turite iš naujo įjungti priedą.
+> Jei šalies ir visuotinės adresų knygelės sprendimas įdiegtas, turite išjungti pavadintą .`Microsoft.Dynamics.SCMExtended.Plugins.Plugins.LeadPrimaryContactPostCreate: QualifyLead of lead` Jei šalies ir visuotinės adresų knygelės sprendimas yra išdiegtas, tada turite iš naujo įjungti priedą.
 >
 > Laukas `msdyn_*partynumber` (vienos eilutės teksto laukelis), įtrauktas į **Sąskaita**, **Kontaktai** ir **Tiekėjo** lenteles turi būti naudojamas einant toliau. Žymės pavadinimas turi prefiksą **(pasenusią)** už imo. Geriau naudokite msdyn_partyid **lauką**. Laukas yra lentelės msdyn_party **peržvalga**.
-
+>
 > Lentelės pavadinimas | Senas laukas | Naujas laukas
 > --------|-------|--------
 > Paskyra | `msdyn_partynumber` | `msdyn_partyid`
@@ -290,21 +292,22 @@ Lentelių schemų rinkinys veikia kartu interaktyviai naudojant šalies ir bendr
 | [Pardavimo SF antraštės V2](mapping-reference.md#118) | SF |
 | [Pasisveikinimai](mapping-reference.md#228) | msdyn\_salutations |
 | [Tiekėjai V2](mapping-reference.md#202) | msdyn\_vendors |
+| [CDS adreso vaidmenys](mapping-reference.md#301) |msdroaddressroles\_|
 
 Daugiau informacijos žr. [Dvigubo rašymo susiejimo nuoroda](mapping-reference.md)
+
+## <a name="address-roles-as-a-multi-select-drop-down-list"></a>Adreso vaidmenys kaip kelių pasirinkų išplečiamasis sąrašas
+Pašto adresas arba elektroninis adresas gali turėti daugiau nei vieną paskirtį. Pavyzdžiui, pašto adresas gali būti ir sąskaitų siuntimo adresas, ir pristatymo adresas. Tokiais atvejais vartotojas gali pasirinkti ir SF, **·** **ir** pristatymą išplečiamajame sąraše, kaip parodyta toliau pateiktoje iliustracijoje. 
+
+![Išplečiamasis sąrašas Paskirtis/Vaidmuo.](media/purpose.png)
 
 ## <a name="known-issues-and-limitations"></a>Žinomos problemos ir apribojimai
 
 + Finansų ir operacijų programėlių atveju, kai kuriate klientą kartu su adresu ir jį įrašote, adresas gali būti nesinchronizuotas su adresų **lentele**. Taip yra dėl dvigubo rašymo platformos sekos išdavimo. Pirmiausia sukurkite klientą ir įrašykite jį kaip problemos sprendimą. Tada pridėti adresą.
-+ Finansų ir operacijų programėlių atveju, kai kliento įrašas turi pagrindinį adresą ir sukuriate naują to kliento kontaktą, tada kontakto įrašas perima pagrindinį adresą iš susieto kliento įrašo. Taip atsitinka ir tiekėjo kontaktui. „Dataverse“ šiuo metu nepalaiko šio veikimo būdo. Jei įgalintas dvigubas rašymas, klientų kontaktai, Dataverse kurie perimami pirminiu finansų ir operacijų programos adresu, sinchronizuojami kartu su jų adresu.
-+ Elektroniniai adresai nustatyti elektroninių adresų skirtuke **Sąskaita**, **Kontaktas** ir **Tiekėjo** formose ateina iš `msdyn_partyelectronicaddress` lentelės. Ši informacija nėra susijusi su jos operacijomis, pvz., pardavimo užsakymu, pasiūlymu ir pirkimo užsakymu. Planuojame išspręsti šią problemą didėjančia versija. Sąskaitų ir kontaktų įrašų elektroninio adreso laukuose esantys duomenys ir toliau bus dirba su operacijomis, pvz., pardavimo užsakymu, pasiūlymu ir pirkimo užsakymu.
++ Finansų ir operacijų programėlių atveju, kai kliento įrašas turi pagrindinį adresą ir sukuriate naują to kliento kontaktą, tada kontakto įrašas perima pagrindinį adresą iš susieto kliento įrašo. Taip atsitinka ir tiekėjo kontaktui. Dataverse šiuo metu nepalaiko šio veikimo būdo. Jei įgalintas dvigubas rašymas, klientų kontaktai, Dataverse kurie perimami pirminiu finansų ir operacijų programos adresu, sinchronizuojami kartu su jų adresu.
 + Finansinėse ir operacijų programėleje galite sukurti kontakto įrašą iš formos **Įtraukti kontaktą**. Kai formoje Peržiūrėti kontaktą bandote sukurti **naują** kontaktą, veiksmas nepavyksta. Tai yra žinoma problema.
 
     ![Žinomas problemos su įtraukti kontaktą.](media/party-gab-contact-issue.png)
 
-+ **Pradinis sinchronizavimas nepalaiko Laukų Galima nuo ir**  Galimas **iki** **laiko** **, esančius ContactForParty, nes DIXF vertę konvertuoja į eilutę, o ne** į svertą. Konvertavimas suaktyvina klaidą `Cannot convert the literal '<say 08:00:00>’ to the expected type edm.int32`.
-+ Kai pašto adresas naudojamas dėl daugiau nei vienos priežasties, pavyzdžiui, verslo ryšio adreso ir sąskaitų siuntimo adreso, jis turėtų būti toks, kaip parodyta `Business;Invoice` toliau pateiktame paveikslėlyje. Jei tarp verčių įtrauksite tarpą, gausite klaidą.
-
-    ![Žinomas problemos su adresu.](media/party-gab-address-issue.png)
-
++ **Pradinis sinchronizavimas nepalaiko Laukų Galima nuo ir**  Galimas **iki** **laiko** **, esančius ContactForParty, nes DIXF vertę konvertuoja į eilutę, o ne** į svertą. Konvertavimas suaktyvina klaidą `Cannot convert the literal '<say 08:00:00>' to the expected type edm.int32`.
 + Negalite įvesti pašto adreso į priekį naudodami finansų ir operacijų programą, kuri naudoja dvigubo rašymo funkciją, Dataverse nes datos poveikis nepalaikomas. Jei įvesite būsimą pašto adresą naudodami finansų ir operacijų programą, Dataverse jis bus sinchronizuotas iki galo ir nedelsiant matysite adresą vartotojo sąsajoje. Atnaujinus šį įrašą, finansų ir operacijų programoje bus rodoma klaida, nes ji bus ne dabartinė.

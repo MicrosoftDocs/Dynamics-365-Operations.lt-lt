@@ -3,7 +3,7 @@ title: Parduotuvės parinkiklio modulis
 description: Šioje temoje paaiškinamas parduotuvės išrinkiklio modulis ir aprašoma, kaip pridėti jį prie svetainių puslapių, esančių „Microsoft Dynamics 365 Commerce“.
 author: anupamar-ms
 manager: annbe
-ms.date: 07/08/2021
+ms.date: 05/04/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 0ee9d3cec9c524f73472929052d46d87f8270ba67568314eceb462b1803cf149
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7276f25daada8286490ad7e1af2b350e4a2805bb
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772161"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8710785"
 ---
 # <a name="store-selector-module"></a>Parduotuvės išrinkiklio modulis
 
@@ -59,6 +59,16 @@ Norėdami įvesti parduotuvės vietos „Commerce” būstinėje ilgumos ir plat
     ![Platumos ir ilgumos nustatymo parduotuvei būstinėje pavyzdys.](./media/Store-latitude-longitude.png)
 
 1. Veiksmų srityje pasirinkite **Įrašyti**. 
+
+### <a name="hide-a-store-from-the-store-selector-module"></a>Slėpti parduotuvę parduotuvės išrinkiklis modulyje
+
+Kai kurios įvykdymo grupės parduotuvės gali būti negaliojančios paėmimo vietos. Norėdami užtikrinti, kad kaip parduotuvių išrinkiklio modulio pasirinktys bus rodomos tik tinkamos paėmimo vietos, atlikite šiuos veiksmus" "Commerce Headquarters".
+
+1. Eikite į " **Retail" ir "Commerce \> Commerce" nustatymo \> įvykdymo grupes \> Visos parduotuvės**.
+1. Veiksmų srityje pasirinkite **Redaguoti**.
+1. Dalyje **Nustatymas** pažymėkite kiekvienos parduotuvės, kuri nėra tinkama paėmimo vieta, **žymės langelį Paėmimo** vieta.
+1. Veiksmų srityje pasirinkite **Įrašyti**.
+1. Vykdykite 1070 kanalo konfigūracijos **paskirstymo** grafiko užduotį.
 
 ## <a name="bing-maps-integration"></a>„Bing“ žemėlapių integravimas
 

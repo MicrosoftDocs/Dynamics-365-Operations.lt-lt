@@ -1,23 +1,23 @@
 ---
 title: „Dynamics 365 Supply Chain Management“ naudotojų mokymosi katalogas
 description: Sužinokite apie visas mokymosi parinktis „Dynamics 365 Supply Chain Management“ naudotojams.
-author: margoc
+author: kamaybac
 ms.topic: article
 ms.date: 07/27/2020
-ms.author: margoc
+ms.author: kamaybac
 ms.prod: ''
 ms.technology: ''
 audience: Application user
-ms.reviewer: margoc
+ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: fe547f6e224a072301a4d846f1a2867b70c86da3
-ms.sourcegitcommit: dca3279a8b7cd5d0bcd4e4a3aa9938b337aa8849
+ms.openlocfilehash: a8324fe183efd956fa39ddd97f562e4c33630580
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "7402671"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8673192"
 ---
 # <a name="learning-catalog-for-users-of-dynamics-365-supply-chain-management"></a>„Dynamics 365 Supply Chain Management“ naudotojų mokymosi katalogas
 
@@ -31,7 +31,7 @@ Toliau pateiktas katalogas yra sutvarkytas taip, kad žinios būtų išdėstytos
 |---------|-------------|--------|--------|
 | [Sužinokite apie „Microsoft Dynamics 365“ ir „Power Platform“ naudą verslui](/learn/paths/learn-business-value-of-dynamics-365-and-power-platform/) | Ar norite sužinoti apie verslo programas? Galbūt nežinote, kur pradėti naudodami „Microsoft Dynamics 365” ir „Power Platform” programas? Sužinokite, kaip verslo programos gali transformuoti jūsų verslą. | Laisvai pasirenkamas neribotos trukmės internetinis mokymosi scenarijus | 8 valandos |
 | [„Dynamics 365“ ir „Power Platform“ pagrindai](/learn/paths/dyn-power-plat-bus-app-fundamentals/) | Ar norite sužinoti apie verslo programas? Pradėkite nuo šio mokymosi scenarijaus, kad sužinotumėte, kaip naudojamos „Dynamics 365“ programos. Sužinokite apie debesų koncepcijas, „Power Platform“ ir apie tai, kaip pradėti naudotis „Dynamics 365“ programomis. | Laisvai pasirenkamas neribotos trukmės internetinis mokymosi scenarijus | 5,5 valandos |
-| [Darbo su „Finance and Operations“ programomis pradžia](/learn/paths/get-started-finance-operations/) | Sužinokite, kaip „Finance and Operations“ programos padeda įmonėms tvarkyti savo globalias finansines sistemas, darbinius verslo procesus ir supaprastintas tiekimo grandines, siekiant suteikti žmonėms galimybę greitai priimti pagrįstus sprendimus. Darydami pirmąjį darbo su „Finance and Operations“ programomis karjeros žingsnį, turite susipažinti su jų funkcijomis ir savybėmis, kad ir kokių pareigų siektumėte. | Laisvai pasirenkamas neribotos trukmės internetinis mokymosi kelias | 2 valandos |
+| [Darbo su finansų ir operacijų programėle pradžia](/learn/paths/get-started-finance-operations/) | Sužinokite, kaip finansų ir operacijų programėlės palaiko įmones, siekiant valdyti savo visuotines finansines sistemas, veiklos verslo procesus ir supaprastintas tiekimo grandines, siekiant suteikti žmonėms galimybę priimti greitai pagrįstus sprendimus. Kaip pirmą savo karjeros darbo su finansų ir operacijų programėle veiksmą, turite susipažinti su savo funkcijomis ir funkcijomis, nepaisant jūsų norimo vaidmens. | Laisvai pasirenkamas neribotos trukmės internetinis mokymosi kelias | 2 valandos |
 | [Darbo su „Dynamics 365 Supply Chain Management” turto valdymu pradžia](/learn/modules/get-started-asset-management/index) | Turto valdymas yra modulis, skirtas turtui ir priežiūros užduotims valdyti programoje „Dynamics 365 Supply Chain Management“. Turto valdymas leidžia efektyviai valdyti ir atlikti užduotis, susijusias su daugelio tipų įrangos valdymu ir aptarnavimu jūsų įmonėje, pavyzdžiui, mašinomis, gamybos įranga ir transporto priemonėmis. Modulyje Turto valdymas palaikomi sprendimai daugelyje pramonės šakų. | Laisvai pasirenkamas neribotos trukmės internetinis mokymosi modulis | 1 valanda |
 | [Pradėti nuo „Engineering Change Management“ priedo „Dynamics 365 Supply Chain Management“](/learn/modules/get-started-engineering-change-management/) | „Dynamics 365 Supply Chain Management“ „Finance and Operations“ suteikia darbuotojams ir organizacijoms galimybę gauti vieningą atsargų, sandėlių, gamybos, aptarnavimo ir logistikos vaizdą kartu su prognozine analize, kuri paverčia duomenis įžvalgomis, leidžiančiomis priimti geresnius strateginius sprendimus. | Laisvai pasirenkamas neribotos trukmės internetinis mokymosi modulis | 2 valandos |
 | [Darbo su „Dynamics 365 Intelligent Order Management“ pradžia](/learn/modules/get-started-intelligent-order-management/) | Naudodami „Dynamics 365 Intelligent Order Management“ šias paslaugas klientai gali valdyti užsakymų instrumentavimą, kad galėtų vykdyti. Šios galimybės leidžia organizacijoms naudoti užsakymų srautus skirtingose platformose ir programėlėse. | Laisvai pasirenkamas neribotos trukmės internetinis mokymosi modulis | 4 valandos |
@@ -39,10 +39,10 @@ Toliau pateiktas katalogas yra sutvarkytas taip, kad žinios būtų išdėstytos
 
 ## <a name="core-platform-knowledge"></a>Bendrosios platformos žinios<a name="core-platform-knowledge"></a>
 
-| Turinys | aprašymas | Formatuoti | Ilgis |
+| Turinys | Aprašymas | Formatas | Ilgis |
 |---------|-------------|--------|--------|
-| [Organizacijos konfigūravimas „Finance and Operations“ programose](/learn/paths/configure-your-organization-finance-ops/) | Kaip funkcijų konsultantas, kuris dirba su „Finance and Operations“ programomis, turite suprasti, kaip nustatyti organizaciją savo klientui. Be kitų užduočių šis mokymosi scenarijus supažindina su juridinių subjektų konfigūravimu, saugumo parametrų nustatymų, vartotojams skirtos vartotojo sąsajos asmeninimu, mobiliųjų programėlių projektavimu ir kūrimu ir bendrųjų integravimų diegimu. | Laisvai pasirenkamas neribotos trukmės internetinis mokymosi scenarijus | 12 valandos |
-| [Darbas su „Finance and Operations“ analizėmis ir ataskaitomis ir jų konfigūravimas](/learn/paths/configure-analytics-reporting-finance-operations/) | Verslo lyderiai gali priimti svarbius su įmone susijusius sprendimus, jei jie turi tikslias įžvalgas apie svarbiausius finansinius ir veiklos duomenis. Verslo vartotojas taip pat gali konfigūruoti ir naudoti elektroninių ataskaitų įrankį be atskiros kodo eilutės pritaikyti naujus teisės aktų reikalavimus ir reikiamu formatu generuoti verslo dokumentus, kad elektroniniu būdu būtų keičiamasi informacija su valdžios institucijomis, bankais ir kitomis šalimis. | Laisvai pasirenkamas neribotos trukmės internetinis mokymosi scenarijus | 4 valandos |
+| [Konfigūruoti savo organizaciją finansų ir operacijų programėlėse](/learn/paths/configure-your-organization-finance-ops/) | Kaip funkcinės konsultanto, kuris dirba su finansų ir operacijų programėle, jūs turite suprasti, kaip nustatyti organizaciją jūsų klientui. Be kitų užduočių šis mokymosi scenarijus supažindina su juridinių subjektų konfigūravimu, saugumo parametrų nustatymų, vartotojams skirtos vartotojo sąsajos asmeninimu, mobiliųjų programėlių projektavimu ir kūrimu ir bendrųjų integravimų diegimu. | Laisvai pasirenkamas neribotos trukmės internetinis mokymosi scenarijus | 12 valandos |
+| [Finansų ir operacijų programėlių konfigūravimas ir darbas su analize ir ataskaitomis](/learn/paths/configure-analytics-reporting-finance-operations/) | Verslo lyderiai gali priimti svarbius su įmone susijusius sprendimus, jei jie turi tikslias įžvalgas apie svarbiausius finansinius ir veiklos duomenis. Verslo vartotojas taip pat gali konfigūruoti ir naudoti elektroninių ataskaitų įrankį be atskiros kodo eilutės pritaikyti naujus teisės aktų reikalavimus ir reikiamu formatu generuoti verslo dokumentus, kad elektroniniu būdu būtų keičiamasi informacija su valdžios institucijomis, bankais ir kitomis šalimis. | Laisvai pasirenkamas neribotos trukmės internetinis mokymosi scenarijus | 4 valandos |
 
 ## <a name="supply-chain-management"></a>Tiekimo grandinės valdymas<a name="supply-chain-management"></a>
 

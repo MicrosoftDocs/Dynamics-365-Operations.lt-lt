@@ -1,6 +1,6 @@
 ---
 title: Dvi valiutos
-description: Šioje temoje pateikiama informacija apie dvi valiutas, kai ataskaitų valiuta naudojama kaip antroji „Microsoft Dynamics 365 Finance“ apskaitos valiuta.
+description: Šioje temoje pateikiama informacija apie dvigubos valiutos, kur ataskaitų valiuta naudojama kaip Microsoft Dynamics antroji 365 finansų apskaitos valiuta.
 author: kweekley
 ms.date: 04/17/2020
 ms.topic: article
@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerJournalTable, Ledger, AssetTransReportingCurrencyAmountsWizard,BankAccountTransReportingCurrencyAmountsWizard, LedgerTrialBalanceListPage
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-10
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: b20c45952d2c0c28a1b785fd92bf47cfb25251fa3a3308d14130ad0f1c78305d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 04738d2fe88fef5c0e96a39febfec86fab3bee7d
+ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6762072"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8713591"
 ---
 # <a name="dual-currency"></a>Dvi valiutos
 
@@ -199,7 +199,7 @@ Be to, atlikti dideli nusidėvėjimo proceso pakeitimai. Atlikus šiuos pakeitim
     
 ### <a name="consolidations"></a>Konsolidacija
     
-Funkcija, pristatyta „Dynamics 365 Finance“ 10.0.5 versijoje (2019 m. spalio mėn.), įjungiama per funkcijų valdymą, kad būtų pasiektas patobulintas konsolidacijos ir dvejų valiutų lankstumas. Norėdami įjungti šią funkciją, eikite į **Funkcijų valdymas** darbo sritį ir pasirinkite **Įjungti dvejų valiutų funkciją DK konsolidacijoje**.
+Funkcijos, kurios buvo įdiegtos "Dynamics 365" 10.0.5 finansų versijoje (2019 m. spalio mėn.), įgalina funkcijas per funkcijų valdymą, kad būtų galima lanksčiau konsoliduoti ir dviguboje valiuta. Norėdami įjungti šią funkciją, eikite į **Funkcijų valdymas** darbo sritį ir pasirinkite **Įjungti dvejų valiutų funkciją DK konsolidacijoje**.
 
 DK konsolidacijoje pridėta nauja parinktis, su kuria galima konsoliduoti šaltinio įmonių apskaitos arba ataskaitų valiutų sumas. Jei apskaitos arba ataskaitų valiutos yra tokios pačios, kaip apskaitos arba ataskaitų valiutos konsolidacijos įmonėje, sumos bus tiesiogiai nukopijuotos, o ne verčiamos.
 

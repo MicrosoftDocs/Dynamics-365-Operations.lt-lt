@@ -9,31 +9,30 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application user
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.search.region: Global
 ms.author: pashao
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 455e8becfdfa910a3733719653e1a91557b2f59a
-ms.sourcegitcommit: ac23a0a1f0cc16409aab629fba97dac281cdfafb
+ms.openlocfilehash: 7640144b1687fc64e55f659d49cdb0817c17294a
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/29/2021
-ms.locfileid: "7867357"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8686717"
 ---
 # <a name="enable-master-data-lookup-for-tax-calculation-configuration"></a>Įgalinti mokesčių skaičiavimo konfigūracijos pagrindinių duomenų peržvalgą 
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje paaiškinama, kaip nustatyti ir įgalinti mokesčių skaičiavimo pagrindinių duomenų peržvalgos funkciją. Išplečiamajame sąraše galima pasirinkti vertes mokesčių skaičiavimo konfigūracijoje tokiems laukams kaip Juridinis subjektas, Tiekėjo sąskaita, Prekės kodas **ir** Pristatymo **·** **·** **sąlygos**. Šios vertės yra iš susijusios Microsoft Dynamics 365 Finance aplinkos naudojant Microsoft Dataverse duomenų šaltinį.
+Šioje temoje paaiškinama, kaip nustatyti ir įgalinti mokesčių skaičiavimo pagrindinių duomenų peržvalgos funkciją. Išplečiamajame sąraše galima pasirinkti vertes mokesčių skaičiavimo konfigūracijoje **laukams**, pvz., Juridiniam subjektui, **Tiekėjo** sąskaitai, **Prekės** kodui ir **Pristatymo terminas**. Šios vertės yra iš susijusios Microsoft Dynamics 365 finansų aplinkos, naudojant duomenų Microsoft Dataverse šaltinį.
 
 > [!NOTE] 
-> Mokesčių skaičiavimo pagrindinių duomenų peržvalgos funkcija yra pasirinktinė funkcija. Jei išjungidami mokesčių tarnybos duomenų šaltinių palaikymo funkciją reguliavimo konfigūracijos tarnyba **Dataverse** (RCS), galite praleisti šiuos veiksmus. Tačiau šiuo atveju mokesčių skaičiavimo konfigūracijoje išplečiamasis sąrašas nebus galimas.
+> Mokesčių skaičiavimo pagrindinių duomenų peržvalgos funkcija yra pasirinktinė funkcija. Jei išjungidami mokesčių tarnybos duomenų šaltinių **Dataverse** palaikymo funkciją reguliavimo konfigūracijos tarnyba (RCS), galite praleisti šiuos veiksmus. Tačiau šiuo atveju mokesčių skaičiavimo konfigūracijoje išplečiamasis sąrašas nebus galimas.
 
 1. Nustatykite Microsoft Power Platform integravimą į Microsoft Dynamics Lifecycle Services (LCS). Daugiau informacijos rasite [„Microsoft Power Platform” integravimas – Priedų apžvalga](../../fin-ops-core/dev-itpro/power-platform/add-ins-overview.md). Atlikus šį veiksmą, Microsoft Power Platform aplinkos pavadinimas bus rodomas **Power Platform integravimo** skyriuje.
 2. Eikite į [Microsoft Power Platform administravimo centrą](https://admin.powerplatform.microsoft.com/environments) ir pasirinkite aplinkos pavadinimą. Pateikiamas aplinkos URL.
-3. Nustatykite „Dynamics 365 Finance” ir „Dataverse”. Daugiau informacijos žr. [Gauti virtualaus objekto sprendimą](../../fin-ops-core/dev-itpro/power-platform/admin-reference.md#get-virtual-entity-solution) ir [Autentifikavimas ir autorizacija](../../fin-ops-core/dev-itpro/power-platform/admin-reference.md#authentication-and-authorization).
+3. Nustatykite "Dynamics 365" finansus ir Dataverse. Daugiau informacijos žr. [Gauti virtualaus objekto sprendimą](../../fin-ops-core/dev-itpro/power-platform/admin-reference.md#get-virtual-entity-solution) ir [Autentifikavimas ir autorizacija](../../fin-ops-core/dev-itpro/power-platform/admin-reference.md#authentication-and-authorization).
 4. Nustatykite šiuos objektus. Daugiau informacijos žr. skyriuje [Įgalinti Microsoft Dataverse virtualius objektus](../../fin-ops-core/dev-itpro/power-platform/enable-virtual-entities.md).
 
     - CompanyInfoEntity

@@ -8,21 +8,21 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom:
 - "14151"
 - intro-internal
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
-ms.author: shpandey
+ms.author: panolte
 ms.search.validFrom: 2021-08-20
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: fc616e5fce6bbfeaa3b36ccc35f1b1cf407af4a6
-ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
+ms.openlocfilehash: 5669b414283013ae1de095de2201df066ab588dd
+ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8109865"
+ms.lasthandoff: 05/07/2022
+ms.locfileid: "8725911"
 ---
 # <a name="troubleshoot-finance-insights-setup-issues"></a>„Finance insights“ apie nustatymą trikčių šalinimas
 
@@ -34,7 +34,7 @@ ms.locfileid: "8109865"
 
 ### <a name="resolution"></a>Sprendimas
 
-Galbūt naudojate ankstesnės versijos šabloną. Prieš išleisdami 10.0.17 versiją peržiūrėkite klientus, sukonfigūravo **kliento mokėjimo žinių rezultatus (CDS į Fin ir Ops)** duomenų integravimo (DI) šabloną naudodami **mokėjimo numatymo rezultato (peržiūros)** objektą. Atnaujinę į 10.0.17 ar vėlesnę versiją, norėdami baigti susiejimą, turite naudoti **kliento mokėjimo žinių rezultatus (CDS į Fin ur Ops 10.0.17 ir vėlesnės)** DI versijos. Gali būti, kad negalėsite susieti DI šablono paskirties stulpelio, kol nebus atnaujintas duomenų valdymo objektų sąrašas ir jame atsiras **mokėjimo numatymo rezultato** objektas. Norėdami atnaujinti objektų sąrašą ir rodyti mokėjimo numatymo rezultatą, atlikite veiksmus ir „Microsoft Dynamics 365 Finance“ ir „Dataverse“ (anksčiau žinoma kaip „Common Data Service“ \[CDS\] administravimo portale).
+Galbūt naudojate ankstesnės versijos šabloną. Prieš išleisdami 10.0.17 versiją peržiūrėkite klientus, sukonfigūravo **kliento mokėjimo žinių rezultatus (CDS į Fin ir Ops)** duomenų integravimo (DI) šabloną naudodami **mokėjimo numatymo rezultato (peržiūros)** objektą. Atnaujinę į 10.0.17 ar vėlesnę versiją, norėdami baigti susiejimą, turite naudoti **kliento mokėjimo žinių rezultatus (CDS į Fin ur Ops 10.0.17 ir vėlesnės)** DI versijos. Gali būti, kad negalėsite susieti DI šablono paskirties stulpelio, kol nebus atnaujintas duomenų valdymo objektų sąrašas ir jame atsiras **mokėjimo numatymo rezultato** objektas. Norėdami atnaujinti objektų sąrašą ir rodyti mokėjimo numatymo rezultatą, atlikite veiksmus ir 365 finansuose, Microsoft Dynamics ir (Dataverse Common Data Service anksčiau vadinama CDS\[ administratoriaus portalu).\]
 
 ### <a name="in-finance"></a>„Finance“
 
@@ -58,7 +58,7 @@ Norėdami atnaujinti savo duomenų integravimo [„Power Platform“ projektus a
 
 ### <a name="resolution"></a>Paaiškinimas
 
-Dynamics 365 Finance vartotojai turi turėti aplinkos Microsoft Power Apps vartotojo abonementą, o tam vartotojo abonementui turi būti skirtas sistemos pritaikymo priemonės vaidmuo. Sistemos Microsoft Power Apps administratorius gali sukurti vartotojo abonementą ir priskirti vaidmenį. Tada, naudodami tą vartotojo <https://make.preview.powerapps.com/> abonementą, galite įeiti, ir bandyti saitus dar kartą.
+"Dynamics 365" finansų vartotojai turi Microsoft Power Apps turėti aplinkos vartotojo abonementą, tam vartotojo abonementui turi būti skirtas sistemos pritaikymo priemonės vaidmuo. Sistemos Microsoft Power Apps administratorius gali sukurti vartotojo abonementą ir priskirti vaidmenį. Tada, naudodami tą vartotojo <https://make.preview.powerapps.com/> abonementą, galite įeiti, ir bandyti saitus dar kartą.
 
 ## <a name="symptom-why-doesnt-the-cash-forecast-tab-in-the-cash-flow-forecast-workspace-show-any-data"></a>Požymis: kodėl pinigų srautų prognozės darbo srityje nėra pinigų prognozės skirtuko, kuriame rodomi kokie nors duomenys?
 
@@ -85,7 +85,7 @@ Jei jums priskirtas tinkamas projekto saugos vaidmuo, gali tekti atnaujinti nar�
 Turi būti atlikti šie veiksmai.
 
 - Patikrinkite, ar turite sistemos **administratoriaus** ir sistemos **pritaikymo vartotojo** prieigą "Power Portal" administravimo centre.
-- Patikrinkite, ar Dynamics 365 Finance papildinį diegiantiems vartotojams taikoma ekvivalentinė licencija.
+- Patikrinkite, ar "Dynamics 365" finansų arba ekvivalentinės licencijos yra taikomos papildinį diegiantiems vartotojams.
 - Patikrinkite, ar užregistruota Azure AD ši programa Azure AD: 
 
   | Prašymas                  | Programos ID           |

@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: HRMParameters, EssWorkspace
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: 51941
 ms.assetid: 2cfb061a-a616-4bf9-9d98-9cde00039eec
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-10-21
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 1cf4ed8d2373a71594b9b03306c582ed998b6e39
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 3437a8ce7af942334c76b763bb216b8492b111bc
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8071754"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8689977"
 ---
 # <a name="create-custom-links-in-manager-self-service"></a>Pasirinktinių saitų kūrimas vadovų savitarnoje
 
@@ -39,11 +38,11 @@ Norėdami naudoti šią funkciją, įjunkite **Tinkintos nuorodos vadovo savitar
 
 1. **„Human Resources“ parametruose** pasirinkite **Vadovo savitarna**.
 
-2. Dalyje **Nustatyti vadovų saitus** galite įtraukti, redaguoti arba pašalinti saitą. Taip pat galite sugrupuoti nuorodas, kad jos būtų rodomos grupėje **Vadovo savitarna**.
+2. Dalyje **Nustatyti vadovų saitus** galite įtraukti, redaguoti arba pašalinti saitą. Taip pat galite sugrupuoti saitus, kad jie būtų rodomi vadybininko savitarnos **grupėje**.
 
    ![Pasirinktinių saitų nustatymas vadovų savitarnoje.](./media/hr-employee-manager-self-service-custom-links-setup.png)
 
-3. Norėdami pamatyti nuorodas, eikite į **Mano komanda** skirtukas **Darbuotojų savitarna**.
+3. Norėdami peržiūrėti saitus, eikite į darbuotojų **savitarnos** skirtuką **Mano komanda**.
 
    ![Pasirinktinių saitų peržiūra vadovų savitarnoje.](./media/hr-employee-manager-self-service-custom-links-view.png)
 

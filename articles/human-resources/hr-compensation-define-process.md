@@ -8,17 +8,16 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: HRMCompProcess, HRMCompProcessLine, HRMCompEvent, HRMCompEventEmpl, HcmCompensationWorkspace
 audience: Application User
-ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 188a87f580c274e073710601ef306139f723c797
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 196c907521bba5440f12149abcb2fc446c2aa523
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8071755"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8687057"
 ---
 # <a name="define-compensation-process-and-calculate-results"></a>Kompensavimo proceso nustatymas ir rezultatų skaičiavimas
 
@@ -43,13 +42,13 @@ Kompensacijos procesai naudojami nustatyti naujas kompensacijų ir premijų suma
     * Aktyvios operacijos data yra tokia data, kada turėtų įsigalioti nauji kompensacijų tarifai. Daugelis įmonių įtraukia kelis mėnesius tarp ciklo pabaigos ir naujo kompensacijų tarifų įsigaliojimo. Papildomas laikas naudojamas apdoroti ir peržiūrėti naują kompensaciją.  
 8. Lauke **Aktyvios operacijos data** įveskite datą.
     * Tam tikra data naudojama kintamų kompensacijų planams, nustatantiems darbuotojo premijos sumą pagal kompensacijos tarifą šiuo momentu.  
-    * Fiksuotas atlyginimas proporcingai nuomos data naudojamas su fiksuoto atlygio planais su nuomos taisykle **proc**. Darbuotojai, kurie yra pasamdyti tarp ciklo pradžios ir fiksuoto užmokesčio pagal samdos datą laikotarpio, gaus 100 % jų apskaičiuotos kompensacijos padidėjimo, o ne proporcingai paskirstytą procentą.  
+    * Fiksuotas užmokestis, pagal jį mokamas samdos data, naudojamas su pastoviosios atlyginimo dalies planais su samdos taisykle **Procentas**. Darbuotojai, kurie yra pasamdyti tarp ciklo pradžios ir fiksuoto užmokesčio pagal samdos datą laikotarpio, gaus 100 % jų apskaičiuotos kompensacijos padidėjimo, o ne proporcingai paskirstytą procentą.  
 9. Lauke **Fiksuotas užmokestis pagal samdos datą** įveskite datą.
     * Peržiūrėjimo terminas yra data, pagal kurią visi proceso rezultatai turėtų būti peržiūrėti, kad juos būtų galima įkelti į darbuotojo kompensacijos įrašą prieš aktyvios operacijos datą. Šis laukas skirtas tik informacijai.  
 10. Lauke **Peržiūrėti terminą** įveskite datą.
 11. Spustelėkite **Įrašyti**.
 
-## <a name="set-up-the-compensation-plans-and-actions-for-a-compensation-process"></a>Nustatykite kompensavimo planus ir veiksmus, skirtus kompensavimo procesui
+## <a name="set-up-the-compensation-plans-and-actions-for-a-compensation-process"></a>Nustatyti kompensavimo proceso kompensavimo planus ir veiksmus
 1. Spustelėkite **Sąranka**.
     * Puslapis **Nustatymai** naudojamas pasirinkti, kuriuos planus apdoroti kaip šio kompensacijos proceso dalį, ir kuriuos veiksmus reikia atlikti pagal kiekvieną planą.  
 2. Lauke **Planas** įveskite arba pasirinkite reikšmę.
@@ -59,7 +58,7 @@ Kompensacijos procesai naudojami nustatyti naujas kompensacijų ir premijų suma
 6. Spustelėkite **Pridėti**.
 7. Lauke **Veiksmas** laukelis pasirinkite **Nuopelno** tipo veiksmą.
     * Kompensacijos veiksmai gali būti sujungti į „grandinę“ naudojant lauką **Naudoti ankstesnį rezultatą** siekiant nurodyti, ar šio veiksmo skaičiavimo pradžios tašku pasirinktam veiksmui turėtų būti naudojamas darbuotojų pagrindinis užmokestis ar ankstesnio veiksmo rezultatas.  
-8. Pasirinkite **Taip** viduje konors **Naudokite ankstesnį rezultatą** lauke.
+8. Lauke **Naudoti** ankstesnį **rezultatą pasirinkite** Taip.
 9. Spustelėkite **Pridėti**.
 10. Lauke **Veiksmas** pasirinkite **Bendro** tipo Veiksmą.
     * Skirtingi kompensacijos veiksmų tipai įgalina skirtingus laukus. Bendram kompensacijos veiksmo tipui, galima nurodyti padidinimo procentą arba padidinimo sumą.  
@@ -88,7 +87,7 @@ Kompensacijos procesai naudojami nustatyti naujas kompensacijų ir premijų suma
 1. Spustelėkite **Proceso rezultatai**.
 2. Spustelėkite **Darbuotojo rezultatai**.
 3. Sąraše raskite ir pasirinkite norimą įrašą.
-4. Išplėskite **Fiksuota kompensacija** skyrius.
+4. Išplėskite skyrių **Pastovioji atlyginimo** dalis.
     * Išplėskite „FastTabs“ norėdami peržiūrėti proceso rezultatus. Jei **kompensacijos veiksmui** buvo pažymėta Įgalinti **rekomendacijas** tam veiksmui bus įgalinti Rekomendacijų laukai.  
 5. Sąraše raskite ir pasirinkite norimą įrašą.
     * Vieno darbuotojo rezultatus galima peržiūrėti spustelėjus mygtuką **Peržiūrėti rezultatus**.  

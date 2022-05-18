@@ -1,7 +1,7 @@
 ---
 title: Tiekėjų supažindinimas
 description: Šioje temoje aprašomas naujų tiekėjų supažindinimas. Jame paaiškinami veiksmai, reikalingi įvairiems vaidmenims šio proceso metu.
-author: Henrikan
+author: GalynaFedorova
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -10,15 +10,15 @@ ms.search.form: VendProspectiveVendorRegistrationRequests, SysUserRequestListPag
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: henrikan
+ms.author: gfedorova
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: c2950cecfaf2c8b19ed14df748810b7d6f926c53
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 396b3c4622c612fa082796080aa230a0d693ce4f
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7566892"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8671006"
 ---
 # <a name="onboard-vendors"></a>Tiekėjų supažindinimas
 
@@ -46,7 +46,7 @@ Toliau pateikiamoje lentelėje parodomi proceso veiksmai ir vaidmenys.
 | Administratorius            | | | Sukurkite vartotoją Tiekimo grandinės valdyme ir „Microsoft Azure“. | | | |
 | Tiekėjo kontaktinis asmuo    | | | Siųskite el. laišką kontaktiniam asmeniui. | Užregistruokite tiekėjo informaciją. | | |
 
-Greita tiekėjų supažindinimo proceso demonstracija parodyta šiame trumpame „YouTube“ vaizdo įraše apie tai, [kaip paruošti naują tiekėją programoje „Finance and Operations“](https://www.youtube.com/watch?v=0KUc3AGaTKk).
+Trumpa tiekėjo supažindinimo proceso apžvalga parodyta šiame trumpame „YouTube“ vaizdo įraše: [Naujo tiekėjo supažindinimas programoje „Finance and Operations“](https://www.youtube.com/watch?v=0KUc3AGaTKk).
 
 ## <a name="importing-the-prospective-vendor-registration-request"></a>Galimo tiekėjo registravimo užklausos importavimas
 

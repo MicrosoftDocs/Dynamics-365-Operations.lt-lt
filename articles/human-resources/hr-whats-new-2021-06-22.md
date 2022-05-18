@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-06-22
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 897c25df96017c5be1ae789027d178ca6b3ccc0410b4f65c7d2557b39e840134
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b1d2ccf1083f34aefbe87354f03dbebd6cb5be7e
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6735356"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8694430"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-june-22-2021"></a>Kas nauja ar pasikeitė „Dynamics 365 Human Resources” 2021 m. birželio 22 d
 
@@ -83,7 +82,7 @@ Toliau pateiktos naujos funkcijos yra peržiūrimos. Daugiau informacijos apie f
 
 | Funkcija | Informacija |
 | --- | --- |
-| Platformos atnaujinimas 10.0.19 (43) | Platformos atnaujinimas 10.0.19 yra suplanuotas pasirodyti su nauju leidimu 2021 m. birželio 28 d. Daugiau informacijos rasite [„Finance and Operations” programų 10.0.19 versijos platformos naujinimai (2021 m. birželis)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-19). |
+| Platformos atnaujinimas 10.0.19 (43) | Platformos atnaujinimas 10.0.19 yra suplanuotas pasirodyti su nauju leidimu 2021 m. birželio 28 d. Daugiau informacijos rasite finansų ir [operacijų programėlių 10.0.19 versijos (2021 m. birželio mėn.) platformos naujinimus](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-19). |
 |  Tarnybos metų rodymo perjungiklis | Ši funkcija suteikia parinktį naudoti skirtingas datas, kad būtų galima apskaičiuoti tarnybos metus, rodomus **Supaprastinto darbuotojo įrašo** ir **Žmonių** formose.  Tai bus galima „Human Resources” parametruose. |
 |  Įgalinti neatvykimų vadovą valdyti atostogas | [Įgalinti neatvykimų vadovą valdyti atostogas](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/enable-absence-manager-manage-leave) |
 |  Įgaliojimo priedai konkretiems atostogų tipams | Ši funkcija leidžia administratoriams įgalioti pridėti priedus pateikiant konkrečių atostogų tipų atostogų užklausas. |

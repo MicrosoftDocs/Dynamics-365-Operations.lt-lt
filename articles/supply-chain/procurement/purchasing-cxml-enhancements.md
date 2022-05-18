@@ -1,7 +1,7 @@
 ---
 title: cXML patobulinimų pirkimas
 description: cXML patobulinimų pirkimo funkcija kuriama pagal esamą išorinio katalogo funkciją „PunchOut” (išėjimo laiko žymėjimas), kuri naudojama pirkimo paraiškoms.
-author: Henrikan
+author: GalynaFedorova
 ms.date: 08/03/2020
 ms.topic: article
 ms.prod: ''
@@ -10,15 +10,15 @@ ms.search.form: CatCXMLParameters, CatCXMLPurchRequest
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: henrikan
+ms.author: gfedorova
 ms.search.validFrom: 2020-08-03
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 2942b141eb3a5b83fb39b0de721bae60c074e01c
-ms.sourcegitcommit: f5885999e008a49fe072d95f15e239905c24918a
+ms.openlocfilehash: 319079ca82ea91a4ab963a1dfa34ed256a3ddb21
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/08/2021
-ms.locfileid: "7900710"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8674287"
 ---
 # <a name="purchasing-cxml-enhancements"></a>cXML patobulinimų pirkimas
 
@@ -141,7 +141,7 @@ Kai baigsite nustatyti visas ypatybes ir konfigūruosite kitus Jūsų išorinio 
 
 Kaip buvo minėta skyriuje [Nustatyti užsakymo ypatybes](#set-order-properties), jei norite, kad į Jums pristatytą cXML būtų įtrauktas tekstas iš pastabų, pridėtų prie atitinkamo pirkimo užsakymo ir/arba tiekėjo įrašų, galite nustatyti **PUKOMENTARAI** ir/arba **TIEKĖJOKOMENTARAI** ypatybę kaip _TEISINGĄ_ išorinio katalogo nustatyme. Šiame skyriuje pateikiama išsamesnė informacija apie tai, kaip sistema pasirenka ir apdoroja šiuos priedus, jei juos naudojate.
 
-Norėdami nustatyti pastabų, kurių sistema ieško, tipus, eikite į Įsigijimo ir **pirkimo nustatymo \> formų \>\> nustatymą**. Tada skirtuke **Pirkimo užsakymas** nustatykite lauką **Įterpiamų dokumentų tipas** tokiam pastabų tipui, kurį norėtumėte įterpti. Bus įtrauktos tik teksto pastabos, o ne dokumentų priedai.
+Norėdami nustatyti pastabų, kurių sistema ieško, tipus, **eikite į Įsigijimo ir pirkimo nustatymo formų \>\>\> nustatymą**. Tada skirtuke **Pirkimo užsakymas** nustatykite lauką **Įterpiamų dokumentų tipas** tokiam pastabų tipui, kurį norėtumėte įterpti. Bus įtrauktos tik teksto pastabos, o ne dokumentų priedai.
 
 ![Formuoti sąrankos puslapį.](media/cxml-form-setup.png "Formuoti sąrankos puslapį")
 

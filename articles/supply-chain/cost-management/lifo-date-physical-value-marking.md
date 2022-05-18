@@ -1,7 +1,7 @@
 ---
-title: LIFO data su faktine verte ir žymėjimu
+title: LIFO data su faktine reikšme ir žymėjimu
 description: Paskutinė į, pirma iš data (LIFO data) yra atsargų modelis, pagrįstas LIFO principu. Išdavimai iš atsargų sudengiami su paskutiniaisiais gavimais į atsargas remiantis atsargų operacijos data. Naudojant LIFO datą, jei nėra gavimo prieš išdavimą, išdavimas sudengimas su bet kuriuo gavimu, kuris įvyksta po išdavimo dienos. Tą pačią dieną galima sudengti keletą išdavimų paskutinio išduoto, paskutinio gauto tvarka.
-author: AndersGirke
+author: JennySong-SH
 ms.date: 02/21/2022
 ms.topic: article
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
@@ -9,17 +9,17 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.custom: 51592
 ms.search.region: Global
-ms.author: aevengir
+ms.author: yanansong
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f6f5f447724ace473bece3007a96c4b56e90a908
-ms.sourcegitcommit: addae271ddfc5a8b0721c23337f69916153db4cd
+ms.openlocfilehash: 8ca344e6ca81814e787046f6ece97625d035346d
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/21/2022
-ms.locfileid: "8330281"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8671456"
 ---
-# <a name="lifo-date-with-physical-value-and-marking"></a>LIFO data su faktine verte ir žymėjimu
+# <a name="lifo-date-with-physical-value-and-marking"></a>LIFO data su faktine reikšme ir žymėjimu
 
 [!include [banner](../includes/banner.md)]
 
@@ -49,7 +49,7 @@ Toliau pateikti pavyzdžiai rodo, kaip veikia LIFO data trimis konfigūracijoje:
 - 5a. Faktinis atsargų gavimas, kai kiekis yra 1 o išlaidos – 30,00 USD už vienetą.
 - 5b. Finansinis atsargų gavimas, kai kiekis yra 1 o išlaidos – 30,00 USD už vienetą.
 - 6a. 1 vieneto, kurio savikaina 1, atsargų faktinis išdavimas USD 23.00 (finansiškai užregistruotų operacijų svertinis vidurkis)
-- 7\. Atsargų uždarymas atliktas. Remiantis LIFO datos metodu pirmas finansiškai atnaujintas išdavimas bus sudengtas su paskutiniu finansiškai atnaujintu gavimu, prasideda galiu pirmąją dieną ir t. t. Šiame pavyzdyje sukuriamas vienas sudengimas nuo 3b iki 2b. Bus atliktas USD 6.00 3b, o gautos galutinės išlaidos bus USD 22.00.
+- 7\. Atsargų uždarymas atliktas. Remiantis LIFO datos metodu pirmas finansiškai atnaujintas išdavimas bus sudengtas su paskutiniu finansiškai atnaujintu gavimu, prasideda galiu pirmąją dieną ir t. t. Šiame pavyzdyje sukuriamas vienas sudengimas nuo 3b iki 2b. Bus USD 6.00 3b, o gautos galutinės išlaidos bus USD 22.00.
 
 Toliau esanti iliustracija rodo LIFO datos atsargų modelio poveikį, **kai nėra naudojamos pasirinkties** Įtraukti fizinę vertę.
 
@@ -80,13 +80,13 @@ Toliau pateiktoje iliustracijoje parodytos šios operacijos.
 - 1b. 1 vieneto, kurio kaina 10,00 USD, finansinis gavimas į atsargas.
 - 2a. Faktinis atsargų gavimas, kai kiekis yra 1 o išlaidos – 20,00 USD už vienetą.
 - 2b. Finansinis atsargų gavimas, kai kiekis yra 1 o išlaidos – 22,00 USD už vienetą.
-- 3a. Faktinis atsargų išdavimas, kai kiekis yra 1, o vieneto savikaina USD 16.00 (faktiškai ir finansiškai užregistruotų operacijų svertinė vidurkis).
+- 3a. Faktinis atsargų išdavimas, kai kiekis yra 1, o vieneto savikaina USD 16.00 (fiziškai ir finansiškai užregistruotų operacijų sąrangos vidurkis).
 - 3b. Finansinis atsargų išdavimas, kai kiekis yra 1, o vieneto savikaina USD 16.00 (faktiškai ir finansiškai užregistruotų operacijų svertinė vidurkis).
 - 4a. Faktinis atsargų gavimas, kai kiekis yra 1 o išlaidos – 25,00 USD už vienetą.
 - 5a. Faktinis atsargų gavimas, kai kiekis yra 1 o išlaidos – 30,00 USD už vienetą.
 - 5b. Finansinis atsargų gavimas, kai kiekis yra 1 o išlaidos – 30,00 USD už vienetą.
 - 6a. Faktinis atsargų išdavimas, kai kiekis yra 1, o vieneto savikaina USD 23.67 (faktiškai ir finansiškai užregistruotų operacijų svertinė vidurkis).
-- 7\. Atsargų uždarymas atliktas. Remiantis LIFO datos metodu pirmas finansiškai atnaujintas išdavimas bus sudengtas su paskutiniu finansiškai atnaujintu kiekvienos pradžios datos gavimu ir t. t. Šiame pavyzdyje sukuriamas vienas sudengimas nuo 2b iki 3b. Bus atliktas USD 6.00 3b, o gautos galutinės išlaidos bus USD 22.00. Be to, 6a operacija bus pakoreguota pagal gavimo operacijos išlaidas 5b. Sistema nesudengs šių operacijų, nes gavimas atnaujinamas faktiškai, bet ne finansiškai. Todėl faktinio išdavimo USD 6.33 koregavimas bus užregistruotas, o gautos koreguotos išlaidos bus USD 30.00.
+- 7\. Atsargų uždarymas atliktas. Remiantis LIFO datos metodu pirmas finansiškai atnaujintas išdavimas bus sudengtas su paskutiniu finansiškai atnaujintu kiekvienos pradžios datos gavimu ir t. t. Šiame pavyzdyje sukuriamas vienas sudengimas nuo 2b iki 3b. Bus USD 6.00 3b, o gautos galutinės išlaidos bus USD 22.00. Be to, 6a operacija bus pakoreguota pagal gavimo operacijos išlaidas 5b. Sistema nesudengs šių operacijų, nes gavimas atnaujinamas faktiškai, bet ne finansiškai. Todėl faktinio išdavimo USD 6.33 koregavimas bus užregistruotas, o gautos pakoreguotos išlaidos bus užregistruotos USD 30.00.
 
 Toliau pateiktoje iliustracijoje parodytas LIFO atsargų modelio poveikis, kai parinktis **Įtraukti faktinę vertę** naudojama.
 

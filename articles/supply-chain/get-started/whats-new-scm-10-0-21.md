@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: ec7fcb97bd46551846ccee13b369a1b02a589688
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: cf38717ab3768249e3c9b988ee3893c5e539bcd0
+ms.sourcegitcommit: 90ffd763d18f97654b9dbc9e3f71c998e6094c6b
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8075304"
+ms.lasthandoff: 05/11/2022
+ms.locfileid: "8739393"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10021-october-2021"></a>Kas nauja ar pasikeitė „Dynamics 365 Supply Chain Management“ 10.0.21 versijoje (2021 m. spalio mėn.)
 
@@ -69,10 +69,10 @@ Tolesnėje lentelėje pateiktos funkcijos, kurios įjungtos pagal nustatymus 10.
 | Perkėlimo užsakymo atšaukimas | 9/1/2021 | 7/13/2020 | Įjungta pagal numatytuosius parametrus | Atsargų ir sandėlio valdymas |
 | Atrakinti atsargų žurnalą | 9/1/2021 | 8/17/2020 | Įjungta pagal numatytuosius parametrus | Atsargų ir sandėlio valdymas |
 | Įrašyti atsargų valdymo rodiniai | 9/1/2021 | 2020-09-30 | Įjungta pagal numatytuosius parametrus | Atsargų ir sandėlio valdymas |
-| Naršymas į MK versiją iš MK eilučių | 9/1/2021 | 11/11/2019 | Įjungta pagal numatytuosius parametrus | Atsargų ir sandėlio valdymas |
-| Matavimo vieneto ir vieneto kiekio naudojimas atsargų žurnaluose | 9/1/2021 | 11/11/2019 | Įjungta pagal numatytuosius parametrus | Atsargų ir sandėlio valdymas |
+| Naršymas iki KS versijos iš KS eilučių | 9/1/2021 | 11/11/2019 | Įjungta pagal numatytuosius parametrus | Atsargų ir sandėlio valdymas |
+| Matavimo vienetų ir vienetų kiekio naudojimas atsargų žurnaluose | 9/1/2021 | 11/11/2019 | Įjungta pagal numatytuosius parametrus | Atsargų ir sandėlio valdymas |
 | Leisti tuščias paketo atributų reikšmes | 9/1/2021 | 11/11/2019 | Įjungta pagal numatytuosius parametrus | Atsargų ir sandėlio valdymas |
-| Automatiškai padidinkite atsargų perkėlimo užsakymo eilučių skaičių | 9/1/2021 | 10/11/2019 | Įjungta pagal numatytuosius parametrus | Atsargų ir sandėlio valdymas |
+| Automatiškai padidinami atsargų perkėlimo užsakymo eilučių numeriai | 9/1/2021 | 10/11/2019 | Įjungta pagal numatytuosius parametrus | Atsargų ir sandėlio valdymas |
 | Atsargų žurnalo tvirtinimo darbo eigą | 9/1/2021 | 1/6/2020 | Įjungta pagal numatytuosius parametrus | Atsargų ir sandėlio valdymas |
 | Įjungti atsargų kokybės valdymo parametrų įspėjimo funkciją | 9/1/2021 | 10/7/2019 | Įjungta pagal numatytuosius parametrus | Atsargų ir sandėlio valdymas |
 | Kurti perkėlimo užsakymą iš pardavimo eilutės | 9/1/2021 | 8/31/2019 | Įjungta pagal numatytuosius parametrus | Atsargų ir sandėlio valdymas |
@@ -92,7 +92,7 @@ Tolesnėje lentelėje pateiktos funkcijos, kurios įjungtos pagal nustatymus 10.
 | Įrašyti išleistų produktų rodiniai | 9/1/2021 | 2020-09-30 | Įjungta pagal numatytuosius parametrus | Produkto informacijos valdymas |
 | Dialogo langų Patvirtinti ir Perkelti užduotis patobulinimai | 9/1/2021 | 10/11/2019 | Įjungta pagal numatytuosius parametrus | Gamybos kontrolė |
 | Užbaigtos ataskaitos numerio lentelė įtraukta į užduoties kortelės įrenginį | 9/1/2021 | 8/31/2019 | Įjungta pagal numatytuosius parametrus | Gamybos kontrolė |
-| Puslapyje Darbo kortelės terminalas buvo pridėtas naujas mygtukas sustabdyti pertrauką | 9/1/2021 | 2/19/2020 | Įjungta pagal numatytuosius parametrus | Gamybos kontrolė |
+| Naujas mygtukas sustabdyti pertrauką įtrauktas į užduoties kortelės terminalo puslapį | 9/1/2021 | 2/19/2020 | Įjungta pagal numatytuosius parametrus | Gamybos kontrolė |
 | Įgalinkite dalinį subrangos prekių gavimą ir išspręskite Tiekėjo tipo KS eilučių nurašymo problemą. | 9/1/2021 | 11/11/2019 | Įjungta pagal numatytuosius parametrus | Gamybos kontrolė |
 | Įrašyti gamybos kontrolės rodiniai | 9/1/2021 | 8/17/2020 | Įjungta pagal numatytuosius parametrus | Gamybos kontrolė |
 | „Dynamics 365 Guides“ gamybai | 9/1/2021 | 7/13/2020 | Įjungta pagal numatytuosius parametrus | Gamybos kontrolė |
@@ -130,16 +130,16 @@ Neseniai įtraukėme ir reikšmingai atnaujinome tolesnes pagalbos temas. Jos ne
 | Bendrasis planavimas | [Plano retrospektyvos ir planavimo žurnalų peržiūra](../master-planning/planning-optimization/plan-history-logs.md) |
 | Sandėlio valdymas | [Konteinerių pakavimo strategijos](../warehousing/container-packing-strategy-overview.md) |
 | Sandėlio valdymas | [Ciklo skaičiavimo scenarijų pavyzdžiai](../warehousing/cycle-counting-scenarios.md) |
-| Sandėlio valdymas | [Gaunamų ASN importavimas naudojant V2 duomenų objektą](../warehousing/import-asn-v2-data-entity.md) |
+| Sandėlio valdymas | [Importuoti gaunamų ASN naudojant V3 duomenų objektą](../warehousing/import-asn-data-entity.md) |
 | Sandėlio valdymas | [Pardavimo ir perkėlimo užsakymų surinkimo viršijimas](../warehousing/over-picking-for-sales-and-transfer-orders.md) |
 | Sandėlio valdymas | [Bangos žymos spausdinimo bangos metu planavimas](../warehousing/configure-task-based-wave-label-printing.md) |
 | Sandėlio valdymas | [Kas nauja ar pasikeitė „Warehouse Management Mobile App” programėlėje](../warehousing/whats-new-wma.md) |
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
-### <a name="platform-updates-for-finance-and-operations-apps"></a>Programų „Finance and Operations“ platformos naujiniai
+### <a name="platform-updates-for-finance-and-operations-apps"></a>Finansų ir operacijų programėlių platformos naujinimai
 
-„Microsoft Dynamics 365 Supply Chain Management“ 10.0.21 versijoje yra platformos naujinimų. Norėdami sužinoti daugiau, žr [„Finance and Operations“ programų 10.0.21 versijos platformos naujiniai (2021 m. spalio mėn.)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-21.md).
+„Microsoft Dynamics 365 Supply Chain Management“ 10.0.21 versijoje yra platformos naujinimų. Norėdami sužinoti daugiau, žr. [finansų ir operacijų programėlių 10.0.21 versijos platformos naujinimus (2021 m. spalio mėn.)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-21.md).
 
 ### <a name="bug-fixes"></a>Klaidų ištaisymai
 

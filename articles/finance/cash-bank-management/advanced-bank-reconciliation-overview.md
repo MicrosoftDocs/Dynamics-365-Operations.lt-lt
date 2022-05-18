@@ -8,7 +8,7 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: BankReconciliationMatchRule
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom:
 - "22104"
 - intro-internal
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5ebddf6c77df227f896e6f275f741ea69fb68474
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: d6dadc5fd49a7103df8e1cacfd3be09c24a06e67
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983597"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8711414"
 ---
 # <a name="advanced-bank-reconciliation-overview"></a>Išplėstinio banko suderinimo apžvalga
 
@@ -38,7 +38,7 @@ Naudodamiesi išplėstinio banko suderinimo funkcija galite importuoti banko iš
     -   Funkcijas galima išplėsti į bet kokį formatą.
 
 2.  Nustatykite numeraciją, kuri bus naudojama išplėstiniam banko suderinimui ir nurodykite banko suderinimo gretinimo taisykles.
-    -   Derinimo gretinimo taisyklė – tai kriterijų rinkinys, naudojamas vykdant derinimo procesą, norint filtruoti banko išrašo eilutes ir „Microsoft Dynamics 365 Finance“ banko operacijos eilutes. Priklausomai nuo jūsų verslo praktikos, norėdami automatizuoti ir optimizuoti derinimo procesą, galite nustatyti daugiau nei vieną gretinimo taisyklę.
+    -   Suderinimo gretinimo taisyklė yra kriterijų rinkinys, naudojamas filtruojant banko išrašo eilutes Microsoft Dynamics ir 365 finansinių banko operacijų eilutes derinimo proceso metu. Priklausomai nuo jūsų verslo praktikos, norėdami automatizuoti ir optimizuoti derinimo procesą, galite nustatyti daugiau nei vieną gretinimo taisyklę.
 
 3.  Suderinkite banko išrašus su „Finance“ banko operacijomis.
     -   Atlikite automatinį gretinimą ir sukurkite derinimo žurnalus.

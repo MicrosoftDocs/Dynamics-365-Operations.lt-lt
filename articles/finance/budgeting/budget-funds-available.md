@@ -1,14 +1,14 @@
 ---
 title: Turimos biudžeto lėšos
 description: Šioje temoje pristatyta turima biudžeto lėšų priemonė ir pateikiama informacija, kuri gali padėti konfigūruoti biudžeto kontrolę, optimizuojant jūsų organizacijos finansinių išteklių valdymą.
-author: rcarlson
+author: RyanCCarlson2
 ms.date: 11/22/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: BudgetControlConfiguration
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom:
 - "60493"
 - intro-internal
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: rcarlson
 ms.search.validFrom: 2021-11-28
 ms.dyn365.ops.version: AX 10.0.24
-ms.openlocfilehash: a8279ae9b08c7537548c1c8b71e6e978fee2b8a1
-ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
+ms.openlocfilehash: 1e7b2bf7ef7bd1bca6db27371f87dfddcdceef89
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7891362"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8710255"
 ---
 # <a name="budget-funds-available"></a>Turimos biudžeto lėšos
 
@@ -33,9 +33,9 @@ ms.locfileid: "7891362"
 
 ## <a name="enhanced-calculation-feature-for-budget-funds-available"></a>Patobulinta galimų biudžeto lėšų skaičiavimo funkcija
 
-Tik galimų biudžeto lėšų skaičiavimo funkcijos sumos leidžia sekti dokumentų tipų ir valstijų biudžeto kontrolės lenteles, remiantis puslapio Nustatyti biudžeto kontrolės **parametrus** **parametrais**.
+Tik **galimų** biudžeto lėšų skaičiavimo funkcijos sumos leidžia sekti dokumentų tipų ir valstijų biudžeto kontrolės lenteles, **remiantis puslapio Nustatyti biudžeto kontrolės parametrus parametrais**.
 
-Kai kurios biudžeto kontrolės konfigūracijos parinktys turi turėti konkrečius parametrus, kad funkcija veiktų tinkamai. Šios pasirinktys yra pasirinktos arba išvalytos **skirtuke Biudžeto** lėšos, kuris yra **puslapyje Nustatyti biudžeto kontrolės** parametrus. Toliau pateikiamoje lentelėje rodomi parametrai, reikalingi turimai biudžeto lėšų funkcijai.
+Kai kurios biudžeto kontrolės konfigūracijos parinktys turi turėti konkrečius parametrus, kad funkcija veiktų tinkamai. Šios pasirinktys yra pasirinktos arba išvalytos skirtuke **Biudžeto lėšos,** kuris yra puslapyje **Nustatyti biudžeto kontrolės** parametrus. Toliau pateikiamoje lentelėje rodomi parametrai, reikalingi turimai biudžeto lėšų funkcijai.
 
 | Jei ši pasirinktis pasirinkta | Šią pasirinktį taip pat reikia pasirinkti |
 | ------------------------- | -------------------------------- |
@@ -45,4 +45,4 @@ Kai kurios biudžeto kontrolės konfigūracijos parinktys turi turėti konkreči
 
 Ši priemonė daro įtaką tik naujiems dokumentams. Esamų dokumentų sumos bus toliau sekamos ir rodomos biudžeto kontrolės statistikos užklausoje, kol bus pakeisti galimi biudžeto lėšų parametrai ir suaktyvinta nauja biudžeto kontrolės konfigūracija. Tada bus pašalinti dokumentų, kurie buvo pašalinti iš galimų biudžeto lėšų skaičiavimo, biudžeto sekimo duomenys.
 
-Rekomenduojame panaikinti **neužregistruotų faktinių išlaidų** pasirinktį. Jį pasirinkus, užregistruotuose dokumentuose, pvz., laukiančiose tiekėjo SF, bus atliekamas daug laiko reikalaujantis biudžeto kontrolės skaičiavimas.
+Rekomenduojame panaikinti neužregistruotų **faktinių išlaidų** pasirinktį. Jį pasirinkus, užregistruotuose dokumentuose, pvz., laukiančiose tiekėjo SF, bus atliekamas daug laiko reikalaujantis biudžeto kontrolės skaičiavimas.

@@ -1,5 +1,5 @@
 ---
-title: Greitai įterpti B2B svetainės užsakymus
+title: Greitas B2B svetainės užsakymų pateikimas
 description: Šioje temoje aprašomos Microsoft Dynamics 365 Commerce galimybės, kurios leidžia vartotojams didmeniškai ir kartoti užsakymus verslo (B2B) vartotojams.
 author: shajain
 ms.date: 02/16/2022
@@ -14,14 +14,14 @@ ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2022-01-31
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 4909056435425f251efb45f5a4355f103a420ba8
-ms.sourcegitcommit: 4d52c67f52ad0add63cd905df61367b344389069
+ms.openlocfilehash: 8ac4833b2ca05e90b4019ffdfc4b669c542b0cf6
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8312135"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8686551"
 ---
-# <a name="place-b2b-website-orders-quickly"></a>Greitai įterpti B2B svetainės užsakymus
+# <a name="place-b2b-website-orders-quickly"></a>Greitas B2B svetainės užsakymų pateikimas
 
 [!include [banner](../../includes/banner.md)]
 

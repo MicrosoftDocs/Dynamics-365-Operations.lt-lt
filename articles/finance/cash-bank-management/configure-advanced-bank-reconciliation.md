@@ -1,6 +1,6 @@
 ---
 title: Išplėstinio banko suderinimo sąrankos procesas
-description: Pažangaus banko derinimo funkcija suteikia galimybę importuoti elektroninius banko išrašus ir automatiškai juos suderinti su banko operacijomis programoje „Microsoft Dynamics 365 Finance“. Šiame straipsnyje paaiškinami derinimo nustatymo procesai.
+description: Pažangus banko suderinimas leidžia importuoti elektroninius banko išrašus ir automatiškai suderinti su Microsoft Dynamics banko operacijomis,-365 finansuose. Šiame straipsnyje paaiškinami derinimo nustatymo procesai.
 author: panolte
 ms.date: 06/20/2017
 ms.topic: article
@@ -8,25 +8,25 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: BankReconciliationMatchRule, BankReconciliationMatchRuleSet
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 98303
 ms.assetid: ae071f04-f038-4b17-812d-0a241ed15521
 ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 42c86a120403d8d87d62c76d56993decca7f6cdafaeb67c7afec29da0bf8f18f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f000b689f55b8155a7c7372c780800122f762b40
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6757174"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8712515"
 ---
 # <a name="advanced-bank-reconciliation-setup-process"></a>Išplėstinio banko suderinimo sąrankos procesas
 
 [!include [banner](../includes/banner.md)]
 
-Pažangaus banko derinimo funkcija suteikia galimybę importuoti elektroninius banko išrašus ir automatiškai juos suderinti su banko operacijomis programoje „Microsoft Dynamics 365 Finance“. Šiame straipsnyje paaiškinami derinimo nustatymo procesai.  
+Pažangus banko suderinimas leidžia importuoti elektroninius banko išrašus ir automatiškai suderinti su Microsoft Dynamics banko operacijomis,-365 finansuose. Šiame straipsnyje paaiškinami derinimo nustatymo procesai.  
 
 Prieš naudojant išplėstinio banko derinimo funkciją, reikia nustatyti keletą elementų. Daugiau informacijos apie banko išrašo importavimo nustatymą žr. [Išplėstinio banko derinimo importo nustatymo procesas](set-up-advanced-bank-reconciliation-import-process.md).  Derinimo proceso nustatymo reikalavimai išdėstyti toliau.
 

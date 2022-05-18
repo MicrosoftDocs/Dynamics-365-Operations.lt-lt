@@ -2,7 +2,7 @@
 title: Duomenų integravimo projekto kūrimas
 description: Šioje temoje paaiškinama, kaip sukurti duomenų integravimo projektą.
 author: ShivamPandey-msft
-ms.date: 02/09/2022
+ms.date: 05/06/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-24
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 50f435f9d461667a1908baa529d73766085c183a
-ms.sourcegitcommit: 6526acd0300d9c5800d3d7675d54e23090d031df
+ms.openlocfilehash: 4d69ffcb6ccfcc7bae2891f2539941f7b6bbf86e
+ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/10/2022
-ms.locfileid: "8107292"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8722890"
 ---
 # <a name="create-a-data-integration-project"></a>Duomenų integravimo projekto kūrimas
 
@@ -28,7 +28,7 @@ ms.locfileid: "8107292"
 
 Šioje temoje paaiškinama, kaip sukurti duomenų integravimo projektą.
 
-1. Prisijunkite prie „Microsoft Dynamics 365 Finance“.
+1. Prisiregistruoti Microsoft Dynamics prie 365 finansų.
 2. Eikite į **Darbo sritys \> Duomenų valdymas** ir pasirinkite **Duomenų objektai**. Palaukite, kol visi duomenų objektai bus atnaujinti, prieš pereidami prie tolesnio veiksmo.
 3. Atidarykite [„Power Apps“ portalą](https://make.powerapps.com/) ir atlikite tolesnius veiksmus.
 
@@ -55,11 +55,14 @@ ms.locfileid: "8107292"
 
 5. Atidarykite [„Power Apps“ aplinkas](https://admin.powerapps.com/environments) ir atlikite tolesnius veiksmus.  
 
-    1. Kurkite tolesnių šablonų duomenų integravimo projektus, naudodami ką tik sukurtą ryšio rinkinį.
+    1. Sukurkite vieną duomenų integravimo projektą kiekvienam iš šių šablonų naudodami ką tik sukurtą ryšio rinkinį:
 
         - Kliento mokėjimų žinių žinių rezultatai (CDS į Fin ir Ops 10.0.17+)
         - Grynųjų pinigų srautų laiko serijos rezultatai (CDS į „Fin and Ops“)
         - Biudžeto laiko serijos rezultatai (CDS į „Fin and Ops“)
+
+      > [!NOTE]
+      > Kuriant kelis kiekvieno šablono duomenų integravimo projektus gali kilti klaidų, kurios užblokuos naujinimus.
 
     2. Nustatykite tinkamą kiekvieno projekto planavimą.
 

@@ -7,17 +7,17 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: roschloma
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 14cafa69e75d7e8a0f08fb385a8c364c0162da1ec609a4e0b3cad6178ec3f716
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2d8966f993e7ca82b10a2ef5a023256a05682980
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723972"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8734339"
 ---
 # <a name="credit-holds-for-sales-orders"></a>Pardavimo užsakymų kredito sulaikymai
 [!include [banner](../includes/banner.md)]
@@ -33,7 +33,7 @@ ms.locfileid: "6723972"
 6. Pardavimo užsakymo suma
 7. Išnaudoto kredito turima dalis
 
-Be to, yra du parametrai, kurie valdo papildomus scenarijus, blokuojančius pardavimo užsakymą.
+Be to, yra du parametrai, kurie kontroliuoja papildomus scenarijus, kurie užblokuos pardavimo užsakymą:
 
 1. Mokėjimo sąlygų pakeitimai
 2. Sudengimo nuolaidų pakeitimai

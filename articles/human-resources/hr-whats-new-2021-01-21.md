@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-01-21
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 02f0b0664dcb78d20c2719b4377dcc6047f2bf3392225f1cf9c166a1073ecd59
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: be50596cd64839ba82b847b2fabb0f46dc749a3f
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772621"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8686861"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-january-21-2021"></a>Kas naujo ar pasikeitusio „Dynamics 365 Human Resources“ 2021 m. sausio 21 d.
 
@@ -43,7 +42,7 @@ Daugiau informacijos apie naujas funkcijas ir jų numatomas bendro pasiekiamumo 
 
 | Funkcija | Leidimo planas | Dokumentacija |
 | --- | --- | --- |
-| Platformos naujinimas 10.0.16 (40) | -- | [Platformos naujinimai versijai 10.0.16 „Finance and Operations“ programoms (vasario 2021)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-16.md) |
+| Platformos naujinimas 10.0.16 (40) | -- | [Finansų ir operacijų programėlių 10.0.16 versijos platformos naujinimai (2021 m. vasario mėn.)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-16.md) |
 | Patobulintos darbo eigos užklausos ir patvirtinimai | [Organizacijos ir personalo valdymo darbo eigos patobulinimai](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/organization-personnel-management-workflow-experience-enhancements) | [Konfigūracijos parinktis, skirta sąrašui Man priskirti darbo elementai perkelti](./hr-whats-new-2020-09-03.md#configuration-option-to-position-work-items-assigned-to-me-list-477004) |
 | Leistinas priežiūros aktas (ACA) atitikties naujinimai nuo 1095-C, 1095-B ir elektroninės ataskaitos ankstesnėms išlaidoms | -- | -- | 
 | Išlaidų valdymas dabar palaiko ACA atitiktį ataskaitoms JAV paremtuose juridiniuose asmenyse | -- | [Kurti ACA ataskaitas išmokų valdyme](hr-benefits-management-aca-reports.md) |

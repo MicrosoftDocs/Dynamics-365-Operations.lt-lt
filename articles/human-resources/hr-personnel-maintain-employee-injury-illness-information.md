@@ -1,6 +1,6 @@
 ---
 title: Tvarkyti darbuotojo sužeidimų ir ligų informaciją
-description: Šioje užduotyje aprašoma, kaip sukurti traumos ar ligos atvejį.
+description: Šioje užduotyje aprašoma, kaip sukurti sužalojimo arba ligos atvejį.
 author: twheeloc
 ms.date: 11/03/2021
 ms.topic: business-process
@@ -8,17 +8,16 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: HRMInjuryIncident, HcmWorkerLookUp, HcmPersonnelManagementWorkspace
 audience: Application User
-ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 06307331db4d420e99de21c0eb0b3cf1c233f0d5
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 36c25626bcc828a2d341d4ce4c9fe8fdcd4e6583
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8066655"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8688551"
 ---
 # <a name="maintain-employee-injury-and-illness-information"></a>Tvarkyti darbuotojo sužeidimų ir ligų informaciją
 
@@ -33,54 +32,54 @@ Rekomenduojama pirmiausia užbaigti užduočių vadovą „Sužeidimų ir ligų 
 
 
 
-Šiame užduočių įraše aprašomi pagrindiniai traumos ar ligos atvejo sukūrimo veiksmai. Be informacijos apie sužalojimą ar ligą, stebima ir atvejo būsena. Pagal numatytuosius nustatymus atvejų būsena yra **Atviras**. Būseną galite valdyti naudodami **Bylos būsena** meniu elementą puslapio viršuje.
+Šiame užduoties įraše aprašomi pagrindiniai sužalojimo arba ligos atvejo kūrimo veiksmai. Be išsamios informacijos apie sužalojimą arba ligas, sekama atvejo būsena. Numatyta, kad atvejų būsena yra **Atviras**. Būseną galite valdyti puslapio viršuje **naudodami** atvejo būsenos meniu elementą.
 
-1. Eiti į **Žmogiškieji ištekliai \> Darbininkai \> Traumos ir ligos \> Sužalojimų ar ligų incidentai**.
+1. Eikite į **personalo darbuotojų sužalojimo \>\> ir ligos \> atvejus**.
 2. Pasirinkite **Nauja**.
-3. Viduje konors **Atvejo aprašymas** lauke įveskite reikšmę (pvz., **sužalojimas**).
-4. Viduje konors **Darbininkas** lauką, įveskite arba pasirinkite reikšmę (pvz., **Bowman**).
-5. Viduje konors **Įvykio data ir laikas** lauke įveskite datą ir laiką (pavyzdžiui, 2016 m. sausio 20 d., 10:00 val.).
-6. Viduje konors **Traumos ar ligos tipas** lauką, įveskite arba pasirinkite reikšmę (pvz., **·**).
-7. Viduje konors **Kūno dalis** lauką, įveskite arba pasirinkite reikšmę (pvz., **·**).
-8. Viduje konors **Rezultato tipas** lauką, įveskite arba pasirinkite reikšmę (pvz., **·**).
-9. Viduje konors **Pranešta data ir laikas** lauke įveskite datą ir laiką.
+3. Lauke Atvejo **aprašas įveskite** vertę (pvz., Wrist **sužalojimas**).
+4. Lauke Darbuotojas **įveskite** ar pasirinkite vertę (pvz., **Ana Anaman**).
+5. Lauke Incidento **data ir laikas įveskite** datą ir laiką (pvz., 2016 m. sausio 20 d., 10:00 val. AM).
+6. Lauke Sužalojimo **arba ligos tipas** įveskite arba pasirinkite vertę (pvz., **Pagal).**
+7. Lauke Kūno **dalis įveskite** arba pasirinkite vertę (pvz., **Wrist**).
+8. Lauke Rezultato **tipas įveskite arba pasirinkite vertę (pvz., Rezultato** tipas **·**).
+9. Lauke Data **ir laikas pranešta**, įveskite datą ir laiką.
 
-    Pranešama data ir laikas turi būti vėlesni už įvykio datą ir laiką.
+    Pranešimo data ir laikas turi būti vėlesni už incidento datą ir laiką.
 
-10. Viduje konors **Asmuo, kuris pranešė apie atvejį** lauką, įveskite arba pasirinkite reikšmę (pvz., **Bowman**).
+10. Asmens, **kuris pranešė apie atvejo** lauką, įveskite ar pasirinkite vertę (pvz., **Ana Busman**).
 
-    Nurodytas asmuo gali būti darbuotojas ar kitas įvykio liudininkas.
+    Nurodytas asmuo gali būti darbuotojas arba kita incidento dalis.
 
-11. Viduje konors **Incidentas** skyriuje **Kur įvyko incidentas** lauke įveskite reikšmę (pvz., **·**).
-12. Viduje konors **Darbo patalpose** lauką, pasirinkite **Taip** jeigu incidentas įvyko darbo patalpose.
-13. Viduje konors **Darbo pradžios data ir laikas** lauke įveskite datą ir laiką, kada paveiktas asmuo pradėjo dirbti prieš įvykstant incidentui.
-14. Viduje konors **Darbuotojo darbas arba užduotis** lauke įveskite darbą arba užduotį, kurią darbuotojas atliko, kai įvyko incidentas (pvz., **dėžės**). 
-15. Viduje konors **Įvykio priežastis** lauke įveskite įvykio priežastį (pvz., **ant šlapių grindų**).
-16. Viduje konors **Sunkumo lygis** lauke įveskite arba pasirinkite reikšmę.
-17. Viduje konors **Veiksmų, kurių reikia imtis** lauke įveskite reikšmę (pvz., **išvalykite išsiliejusias medžiagas**).
-18. Viduje konors **Numatomos dienos po darbo** lauke įveskite dienų, kurias asmuo turėtų būti ne darbo vietoje, skaičių.
+11. Incidento **skyriaus** lauke **Kur įvyko incidentas**, įveskite vertę (pvz., Sandėlis **·**).
+12. Lauke Darbo **patalpose pasirinkite** Taip, **jei** incidentas įvyko darbo patalpose.
+13. Lauke Darbo **pradžios data ir laikas** įveskite datą ir laiką, kada paveiktas asmuo pradėjo dirbti prieš įvykdant įvykį.
+14. Darbuotojo užduoties **arba užduoties** lauke įveskite užduotį ar užduotį, kurią darbuotojas vykdo, kai įvyko incidentas (pvz., dėžių **Pakrovimas**). 
+15. Lauke Incidento **priežastis** įveskite incidento priežastį (pvz., **kvitai ant grindų**).
+16. Lauke Sunkumo **lygis** įveskite arba pasirinkite reikšmę.
+17. Lauke Veiksmas **, kurios bus** imamasi, įveskite vertę (pvz., **Laukas Išvalyti raginti**).
+18. Lauke Numatomos **tolimos nuo darbo** dienos įveskite dienų, kurias numatoma, kad asmuo nebus darbe, skaičių.
 
-    Kai asmuo grįš į darbą, atnaujinkite **Dienos toli nuo darbo** lauką su faktiniu dienų, kai asmuo buvo išvykęs, skaičiumi.
+    Po to, kai atskiras grąžins į **darbą,** atnaujinkite lauką Dienų skaičius iš darbo ir pateikite faktinį dienų, per kurias asmuo buvo darbe, skaičių.
 
-19. Viduje konors **Traumos ar ligos išlaidos** skyrių, pasirinkite **Papildyti**.
+19. Skyriuje Sužalojimo **arba ligos išlaidos** pasirinkite **Įtraukti**.
 20. Lauke **Data** įveskite datą.
-21. Viduje konors **Išlaidų tipas** lauką, įveskite arba pasirinkite reikšmę (pvz., **·**).
+21. Lauke Išlaidų **tipas įveskite** arba pasirinkite vertę (pvz., Nakvynė **·**).
 
-    Taip pat galite įvesti sumą ir prie kainos pridėti bet kokius patvirtinamuosius dokumentus (pvz., sąskaitas faktūras ar gydytojo pažymas).
+    Taip pat galite įvesti sumą ir pridėti bet kokius palaikymo dokumentus prie išlaidų (pvz., SF ar eilutėse).
 
 22. Pasirinkite **Įtraukti**.
 23. Lauke **Data** įveskite datą.
-24. Viduje konors **Išlaidų tipas** lauką, įveskite arba pasirinkite reikšmę (pvz., **·**).
-25. Viduje konors **Sužalojimų ar ligų gydymas** skyrių, pasirinkite **Papildyti**.
-26. Viduje konors **Gydymo data** lauke įveskite datą ir laiką.
-27. Viduje konors **Gydymo tipas** lauką, įveskite arba pasirinkite reikšmę (pvz., **·**).
-28. Pasirenkama: nustatykite **Apsilankymas greitosios medicinos pagalbos ligoninėje** skyrių į **Taip**.
-29. Viduje konors **Gydymo komentarai** lauke įveskite reikšmę (pvz., **2 savaites**).
-30. Viduje konors **Gydytojo vardas** lauke įveskite reikšmę (pvz., **Andersonas**).
-31. Viduje konors **Gydymo įstaiga ir vieta** lauke įveskite reikšmę (pvz., **St**).
-32. Viduje konors **Gydymo detalės** lauke įveskite reikšmę (pvz., **nuotrauka patvirtina lūžį, nešioja įtvarą**).
+24. Lauke Išlaidų **tipas įveskite** arba pasirinkite vertę (pvz., **Tamsus**).
+25. Skyriuje Sužalojimo **arba ligos gydymas** pasirinkite **Įtraukti**.
+26. Į lauką **Gydymo** data įveskite datą ir laiką.
+27. Lauke Gydymo **tipas įveskite** arba pasirinkite vertę (pvz., **Tarkime**).
+28. Pasirinktinai: nustatykite apsilankymo **greitosios pagalbos skyriuje** taip **·**.
+29. Į lauką **Gydymo** komentarai įveskite vertę (pvz., **2 savaičių Redintas**).
+30. Lauke Gydytojo **vardas įveskite** vertę (pvz., **Dr. And turi būti nurodyta).**
+31. Lauke Gydymo **priemonė ir vieta įveskite** vertę (pvz., **Elm St. Emergency**).
+32. Į duomenų **apie gydymą** lauką įveskite vertę (pvz., **X-confirms, esantys darbo dėvėjimo metu**).
 33. Pasirinkite **Įrašyti**.
 
-Atvejo būseną galima naujinti bet kuriuo metu. Jei vyksta traumos ar ligos apdorojimas, nustatykite būseną į **Procese**. Baigę incidentą, galite pridėti arba pašalinti tik su incidentu susijusias išlaidas, gydymą ar dokumentus. Norėdami pakeisti kitą informaciją, turite iš naujo atidaryti bylą.
+Atvejo būseną galima naujinti bet kuriuo metu. Jei sužalojimo arba ligos apdorojimas vyksta, nustatykite būseną **Vykdoma**. Uždarius incidentą, galima įtraukti arba pašalinti tik su incidentu susijusias išlaidas, gydymą ar pildymus. Norėdami pakeisti kitą informaciją, turite dar kartą atidaryti atvejį.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

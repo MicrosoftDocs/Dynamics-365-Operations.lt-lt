@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 4fd46ea161fb4441d94a9e7c7f7ffbfb245eb873
-ms.sourcegitcommit: 9c2bc045eafc05b39ed1a6b601ccef48bd62ec55
+ms.openlocfilehash: 08e247bac577dc0bb8a4635d61f0082793380da9
+ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7919506"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8722524"
 ---
 # <a name="create-email-templates-for-transactional-events"></a>El. laiškų šablonų, skirtų operacijų įvykiams, kūrimas
 
@@ -64,8 +64,8 @@ Baigtas pakavimo pranešimo tipas palaiko šiuos papildomus el. pašto vietos re
 | ------------------- | ------- |
 | `pickupstorename`     | Parduotuvės, kurioje galima paimti užsakymą, pavadinimas. |
 | `pickupstoreaddress`  | Adresas parduotuvės, kurioje galima paimti užsakymą, pavadinimas. |
-| `pickupstorehourfrom` | Paėmimo parduotuvės atidarymo valanda. |
-| `pickupstorehourto`   | Paėmimo parduotuvės uždarymo valanda. |
+| `pickupstoreopenfrom` | Paėmimo parduotuvės atidarymo valanda. |
+| `pickupstoreopento` | Paėmimo parduotuvės uždarymo valanda. |
 | `pickupchannelid`     | Paėmimo parduotuvės kanalo ID. |
 | `packingslipid`      | Užsakymo, kuris bus paimtas, važtaraščio ID. |
 | `confirmationid`      | Užsakymo patvirtinimo, kuris bus paimtas, važtaraščio ID. (Šis ID kartais vadinamas kanalo nuorodos ID.) |
@@ -102,7 +102,7 @@ Dovanų kortelės išdavimo pranešimo tipas palaiko šiuos papildomus vietos re
 | Vietos rezervavimo ženklo pavadinimas      | Paskirtis |
 | --------------------- | ------- |
 | `giftcardnumber`        | Dovanų kortelės tipo produktų dovanų kortelės numeris. |
-| `giftcardbalance`       | Dovanų kortelės tipo produktų dovanų kortelės balansas. |
+| `availablebalance` | Dovanų kortelės likutis. |
 | `giftcardmessage`       | Dovanų kortelės tipo produktų dovanų kortelės pranešimas. |
 | `giftcardpin`         | Dovanų kortelės tipo produktų dovanų kortelės asmeninis identifikavimo numeris (PIN). (Šis vietos rezervavimo ženklas būdingas išorinėms dovanų kortelėms.) |
 | `giftcardexpiration`    | Dovanų kortelės tipo produktų dovanų kortelės galiojimo data. (Šis vietos rezervavimo ženklas būdingas išorinėms dovanų kortelėms.) |

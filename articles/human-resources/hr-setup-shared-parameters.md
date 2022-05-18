@@ -8,34 +8,33 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: HcmSharedParameters, HcmPersonnelManagementWorkspace
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: 51891
 ms.assetid: c7d8f58c-d78a-4035-abbf-2b0ce16109fe
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 039d8e2100824921d568c013fe3e113e1b091979
-ms.sourcegitcommit: e91a1797192fd9bc4048b445bb5c1ad5d333d87d
+ms.openlocfilehash: e59745e01905be50e6908fb9587b8afc17604382
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/01/2021
-ms.locfileid: "7729104"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8692120"
 ---
 # <a name="configure-shared-parameters"></a>Bendrai naudojamų parametrų konfigūravimas
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Turite nustatyti bendrai naudojamus įrašų, kurie bendrai naudojami įmonėse, pvz., pareigų **įrašų,** parametrus. Šioje temoje paaiškinama, kaip juridiniuose subjektuose nustatyti personalo parametrus.
+Turite nustatyti bendrai naudojamus įrašų, kurie bendrai naudojami įmonėse, pvz., pareigų įrašų **,** parametrus. Šioje temoje paaiškinama, kaip juridiniuose subjektuose nustatyti personalo parametrus.
 
-Kai kurie įrašų tipai, pvz., **·** Pareigų įrašai, yra bendrai naudojami įmonėse. Šiems įrašams reikia nustatyti bendrai naudojamus parametrus. Pvz., **personalo bendrinamų** parametrų puslapis naudojamas siekiant nustatyti juridinių subjektų personalo parametrus. 
+Kai kurie įrašų tipai, pvz. **, Pareigų** įrašai, yra bendrai naudojami įmonėse. Šiems įrašams reikia nustatyti bendrai naudojamus parametrus. Pvz., personalo **bendrinamų parametrų** puslapis naudojamas siekiant nustatyti juridinių subjektų personalo parametrus. 
 
 Puslapyje **Bendrai naudojami personalo parametrai** parametrai sugrupuoti į sritis pagal jų funkcijas. 
 
 ### <a name="settings"></a>Nustatoma
-Skirtuke **Identifikacija** turite pasirinkti identifikavimo tipus, kurie atitinka identifikavimo numerius, išvardytus puslapyje. Turite nustatyti identifikavimo tipus prieš įvesdami darbuotojų identifikavimo informaciją. Informacija apie socialinio draudimo numerį, asmens kodą ir pašalinio vartotojo ID numerį yra saugoma puslapyje **Identifikavimo tipas**. Norėdami nurodyti naują identifikavimo tipą arba peržiūrėti esamų tipų sąrašą, eikite į Personalo **valdymo saitų** &gt; **·** &gt; **nustatymo** &gt; **identifikavimo** tipus. Galite įvesti paprastą kodą ir aprašymą. 
+Skirtuke **Identifikacija** turite pasirinkti identifikavimo tipus, kurie atitinka identifikavimo numerius, išvardytus puslapyje. Turite nustatyti identifikavimo tipus prieš įvesdami darbuotojų identifikavimo informaciją. Informacija apie socialinio draudimo numerį, asmens kodą ir pašalinio vartotojo ID numerį yra saugoma puslapyje **Identifikavimo tipas**. Norėdami nurodyti naują identifikavimo tipą arba peržiūrėti esamų tipų sąrašą, eikite į Personalo valdymo **saitų** &gt; **nustatymo** &gt; **identifikavimo** &gt; **tipus.** Galite įvesti paprastą kodą ir aprašymą. 
 
-Numeracijų skirtuke galite pasirinkti numeracijas, naudojamas šiuose įrašuose: Personalo numeris, Pareigos, Vartotojo užklausos **·** **·** **·** **·** ID, **I-9** dokumentas, **·** Pretendento, Diskusijos, Išmokos **·** **ID** **·** ir Personalo veiksmas (jei šis įrašo tipas įgalintas). Norėdami tvarkyti numeravimo nuorodas ir kodus, naudokite sąrašo puslapį **Numeracijos**. Norėdami rasti šį puslapį, naudokite puslapio ieškos funkciją. 
+**Numeracijų skirtuke galite pasirinkti numeracijas, naudojamas šiuose įrašuose:** **personalo numeris, pareigos,** **vartotojo užklausos ID**, **I-9 dokumentas**, **·** **pretendento,** diskusijos **,** išmokos **ID** **ir personalo veiksmas (jei šis įrašo tipas įgalintas).** Norėdami tvarkyti numeravimo nuorodas ir kodus, naudokite sąrašo puslapį **Numeracijos**. Norėdami rasti šį puslapį, naudokite puslapio ieškos funkciją. 
 
 Skirtuke **Pareigos** nurodykite, ar pagal numatytuosius nustatymus naujas pareigas galima priskirti.
 
@@ -44,7 +43,7 @@ Skirtuke **Pareigos** nurodykite, ar pagal numatytuosius nustatymus naujas parei
 
 Skirtuke **Išplėstinė prieiga** galite apriboti prieigą prie kai kurių informacijos ar saitų:
 
-- **Apriboti prieigą prie darbuotojo informacijos – pasirinkite šią funkciją, jei vartotojai gali peržiūrėti tik tų juridinių subjektų, prie kurių prieigą jie turi, darbuotojų, kurie dirba šiuose juridiniuose** subjektuose, informaciją.
+- **Apriboti prieigą prie darbuotojo** informacijos – pasirinkite šią funkciją, jei vartotojai gali peržiūrėti tik tų juridinių subjektų, prie kurių prieigą jie turi, darbuotojų, kurie dirba šiuose juridiniuose subjektuose, informaciją.
 
     Pasirinkę šią funkciją, atlikite šiuos veiksmus, norėdami nustatyti atitinkamas kiekvieno vartotojo, kurio rodinys turi būti apribotas, teises:
 
@@ -57,6 +56,6 @@ Skirtuke **Išplėstinė prieiga** galite apriboti prieigą prie kai kurių info
     > [!NOTE]
     > Įmonės, prie kurių vartotojas turi prieigą, turi atitikti visus vartotojo vaidmenis.
 
-- **Įgalinti visų įmonių kompensavimo rodinį** – kompensacija priskiriama darbuotojams pagal įdarbinimo juridinį subjektą. Kartais darbuotojas gali būti įdarbintas keliuose juridiniuose subjektuose tuo pačiu metu. Pasirinkus šią funkciją, kiekvieno juridinio subjekto kompensacija bus rodoma darbuotojų savitarnos ir vadybininko savitarnos paslauga reikalaujant **·** pakeisti **·** juridinius subjektus. 
+- **Įgalinti visų įmonių kompensavimo rodinį** – kompensacija priskiriama darbuotojams pagal įdarbinimo juridinį subjektą. Kartais darbuotojas gali būti įdarbintas keliuose juridiniuose subjektuose tuo pačiu metu. Pasirinkus šią funkciją, kiekvieno juridinio subjekto kompensacija **bus** **rodoma darbuotojų savitarnos ir vadybininko savitarnos** paslauga reikalaujant pakeisti juridinius subjektus. 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

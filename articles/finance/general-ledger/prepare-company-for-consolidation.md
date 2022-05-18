@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2018-10-30
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: a1ffbf79cdccab457b1aee1bc0f1d963bca49b3e390187c6be5da475f278a3d8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0ef6736046748b92357c41d27eeedfc88c610d33
+ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720507"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8722044"
 ---
 # <a name="prepare-a-legal-entity-for-the-consolidation-process"></a>Parengti juridinį asmenį konsolidavimo procesui
 
@@ -27,7 +27,7 @@ ms.locfileid: "6720507"
 Konsolidavimo metu renkate transakcija iš kelių juridinių asmenų rinkinių sąskaitų į vieną juridinių asmenų sąskaitų rinkinį. Šioje temoje paaiškinama, kaip parengti juridinį asmenį konsolidavimui.
 
 > [!NOTE]
-> Rekomenduojame jums naudoti „Management Reporter“ „Microsoft Dynamics 365 Finance“ siekiant suderinti finansinius rezultatus keliems juridiniams asmenims konsoliduotame formate. „Management Reporter“ leidžia jums kurti konsoliduotas finansines ataskaitas juridiniuose objektuose, naudoti „Exce“ siekiant importuoti konsolidavimo duomenis iš kitų šaltinių ir versti sumas į bet kokių ataskaitų valiutų skaičius be poreikio vykdyti konsolidavimo procesą „Dynamics 365 Finance“.
+> Rekomenduojame naudoti "Management Reporter for Microsoft Dynamics 365 Finance", kad būtų sujungti keleto juridinių subjektų finansiniai rezultatai konsoliduotu formatu. "Management Reporter" leidžia kurti konsoliduotas finansines ataskaitas tarp juridinių subjektų, naudoti Excel, norint importuoti konsolidavimo duomenis iš kitų šaltinių ir išversti sumas į bet kokį ataskaitų valiutų skaičių, nereikia vykdyti konsolidavimo proceso "Dynamics 365" finansuose.
 
 Galite spausdinti ataskaitas, tokias kaip finansinės ataskaitos iš konsoliduoto juridinio asmens. Nepaisant to, negalite naudoti konsoliduoto juridinio asmens kasdienėms transakcijoms.
 

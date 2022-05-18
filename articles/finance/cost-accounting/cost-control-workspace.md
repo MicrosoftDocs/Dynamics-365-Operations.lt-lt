@@ -8,20 +8,20 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CAMCostControlWorkspaceConfiguration, CAMCostControlWorkspace, CAMCostControlWorkspaceConfigurationPerUser
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: db587f5526e0541fc81964d510000a42a671a9bd65224e7167b9d869475c3601
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 36e94ff2cd499a827c631d6836a6c976af53dfa1
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6763195"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8734610"
 ---
 # <a name="cost-control-workspace"></a>Savikainos kontrolės darbo sritis 
 
@@ -54,7 +54,7 @@ Norėdami konfigūruoti savikainos kontrolės darbo sritį, spustelėkite **Kaš
 | Savikainos apskaitos didžioji knyga                                            | **Kaštų apskaitos didžioji knyga** pagal kurią paruošta ataskaita. Vertė išvedama iš lauko **Savikainos kontrolės įtaisas**. |
 | Savikainos kontrolės įtaisas                                                 | Nuo pasirinktos vertės priklauso tai, pagal kokią savikainos apskaitos didžiąją knygą ir savikainos objektus bus sudaryta ši ataskaita. |
 | Statistinių dimensijų hierarchija. Savikainos elemento dimensijų hierarchija | Darbo srities **Savikainos kontrolė** konfigūracijos įraše gali būti pranešama apie nepinigines arba apie pinigines vertes, bet ne tame pačiame makete. Lauke **Savikainos elemento dimensijų hierarchija** pasirinkite reikšmę, kad būtų parengiama piniginių verčių ataskaita. Lauke **Statistinių dimensijų hierarchija** pasirinkite reikšmę, kad būtų parengiama nepiniginių verčių ataskaita. Nuo pasirinkto dimensijų hierarchijos įrašo priklauso ataskaitų ir telkimo lygių struktūra.<blockquote>[!NOTE]<br>Norėdami peržiūrėti nepinigines ir pinigines vertes vieną šalia kitos, galite eksportuoti duomenis į „Microsoft Power BI“ skirtos programos „Microsoft Excel“ turinio paketą.</blockquote> |
-| Savikainos objekto dimensijų hierarchija                                   | Pasirinkite jūsų rengiamų ataskaitų tikslą atitinkančios savikainos objekto dimensijos hierarchiją. |
+| Savikainos objekto dimensijų hierarchija      | Pasirinkite jūsų rengiamų ataskaitų tikslą atitinkančios savikainos objekto dimensijos hierarchiją. |
 | Biudžeto pradinė versija                                           | Pasirinkite biudžeto versijos ID, kuri šios ataskaitos kontekste veikia kaip pradinis biudžetas. |
 | Biudžeto peržiūrėta versija                                            | Pasirinkite biudžeto versijos ID, kuri šios ataskaitos kontekste veikia kaip patikslintas biudžetas. |
 

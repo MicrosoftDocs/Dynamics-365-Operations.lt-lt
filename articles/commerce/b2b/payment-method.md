@@ -1,6 +1,6 @@
 ---
 title: Konfigūruoti kliento sąskaitos mokėjimo metodą B2B el. komercijos saitams
-description: Šioje temoje aprašoma, kaip konfigūruoti kliento sąskaitos mokėjimo metodą programoje Microsoft Dynamics 365 Commerce. Jame taip pat aprašoma, kaip kredito limitai veikia sąskaitų mokėjimų fiksavimą verslo verslui (B2B) elektroninės prekybos svetainėse.
+description: Šioje temoje aprašoma, kaip konfigūruoti kliento sąskaitos mokėjimo būdą Microsoft Dynamics 365 Commerce. Taip pat aprašoma, kaip kredito limitai daro įtaką mokėjimo pagal sąskaitą fiksavimui "verslas verslui" (B2B) el. komercijos svetainėse.
 author: josaw1
 ms.date: 04/19/2022
 ms.topic: article
@@ -14,29 +14,29 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: a8fdeb109204557f0e44457e23a60224e662474f
-ms.sourcegitcommit: 96e2fb26efd2cd07bbf97518b5c115e17b77a0a8
-ms.translationtype: HT
+ms.openlocfilehash: a55a5d4c9dbf7909af5219843fc4310b6cdd4ed7
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/20/2022
-ms.locfileid: "8616837"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8689642"
 ---
 # <a name="configure-the-customer-account-payment-method-for-b2b-e-commerce-sites"></a>Konfigūruoti kliento sąskaitos mokėjimo metodą B2B el. komercijos saitams
 
 [!include [banner](../../includes/banner.md)]
 
-Šioje temoje aprašoma, kaip konfigūruoti kliento sąskaitos mokėjimo metodą programoje Microsoft Dynamics 365 Commerce. Jame taip pat aprašoma, kaip kredito limitai veikia sąskaitų mokėjimų fiksavimą verslo verslui (B2B) elektroninės prekybos svetainėse.
+Šioje temoje aprašoma, kaip konfigūruoti kliento sąskaitos mokėjimo būdą Microsoft Dynamics 365 Commerce. Taip pat aprašoma, kaip kredito limitai daro įtaką mokėjimo pagal sąskaitą fiksavimui "verslas verslui" (B2B) el. komercijos svetainėse.
 
-Mažmeniniai prekybininkai gali priimti įvairius mokėjimo tipus vietoje produktų ir paslaugų, kuriuos jie parduoda el. komercijos kanale. Nustačius sistemą, „Dynamics 365 Commerce“ reikia sukonfigūruoti kiekvieną mokėjimo tipą, kurį pardavėjas priima. Kliento sąskaitos (arba "laisvos formos sąskaitos") mokėjimo metodas turi būti palaikomas B2B el. prekybos svetainėse. 
+Mažmeniniai prekybininkai gali priimti įvairius mokėjimo tipus vietoje produktų ir paslaugų, kuriuos jie parduoda el. komercijos kanale. Nustačius sistemą, „Dynamics 365 Commerce“ reikia sukonfigūruoti kiekvieną mokėjimo tipą, kurį pardavėjas priima. Kliento sąskaitos (arba "pagal sąskaitą") mokėjimo būdas turi būti palaikomas B2B el. komercijos svetainėse. 
 
 ## <a name="prerequisites"></a>Būtinieji komponentai
 
 1. Įtraukite kliento sąskaitos mokėjimo metodą į „Commerce“ būstinę.
 2. Susiekite kliento sąskaitos mokėjimo metodą su el. komercijos kanalu.
-3. Įsitikinkite, kad **ypatybė Leisti naudoti sąskaitą** įgalinta klientui mažmeninės **prekybos ir prekybos \> klientams \> Visi klientai \> Mokėjimai numatytieji "** Commerce" būstinėje.
+3. Įsitikinkite, kad **"** **Commerce Headquarters" kliento ypatybė Leisti pagal sąskaitą yra įgalinta kaip numatytoji "Retail" ir "Commerce \> Customers \> All \> customers Payment**".
 
     > [!NOTE]
-    > Jei visiems klientams turėtų būti leidžiama įjungti laisvos formos sąskaitos mokėjimo metodą, galite nustatyti **su B2B svetaine susieto kanalo ypatybę Leisti sąskaitoje** į **Taip**. 
+    > Jei visiems klientams turi būti įgalintas mokėjimo pagal sąskaitą būdas, **·** **galite** nustatyti ypatybę Leisti pagal sąskaitą kaip Taip, jei tai numatytasis kanalo klientas, susietas su B2B svetaine. 
 
 ## <a name="enable-the-customer-account-payment-method-in-commerce-site-builder"></a>Įjunkite kliento sąskaitos mokėjimo metodą „Commerce“ vietos kūrimo įrankyje 
 
@@ -68,25 +68,25 @@ Norėdami patvirtinti, kad kliento sąskaitos sumokėjimo metodas buvo įjungtas
 
 ## <a name="work-with-credit-limits"></a>Darbas su kredito limitais
 
-Kai B2B svetainėje įgalinamos kliento sąskaitų mokėjimų galimybės, organizacijos paprastai nori rodyti informaciją apie kredito limitus ir kredito limito likučius užsakymų fiksavimo proceso metu. Kliento kredito limitas apibrėžiamas **pagal turtą Kredito limitas**, esantį **"Commerce" būstinėje** esančio kliento įrašo FastTab Kreditas ir rinkiniai. Tačiau B2B scenarijuose užsakymui, kurį klientas pateikia, dažnai turėtų būti išrašyta SF į organizacijos, kuriai priklauso klientas, sąskaitą. Todėl pirkėjo įrašo FastTab SF ir pristatymas **ypatybę** **turite** nustatyti organizacijos pirkėjo sąskaitos ID į organizacijos pirkėjo sąskaitos ID. Tada, kai klientas pateikia užsakymą B2B svetainėje, užsakymui bus išrašyta SF organizacijai. B2B svetainėje taip pat bus naudojamas organizacijos kredito limitas, o ne kliento įraše nurodytas kredito limitas.
+Kai kliento sąskaitos mokėjimų galimybės įgalintos B2B svetainėje, organizacijos paprastai nori parodyti informaciją apie kredito limitus ir kredito limitų balansus užsakymo fiksavimo proceso metu. Kliento kredito limitą nustato **"Commerce Headquarters**" kliento įrašo "FastTab" Kredito ir mokėjimų priežiūros ypatybė Kredito **limitas**. Tačiau B2B scenarijuose užsakymas, kuriam klientas dažnai turėtų būti išrašomas pagal organizacijos, kuriai priklauso klientas, sąskaitą. Todėl kliento įrašo **SF** **ir** pristatymo "FastTab" ypatybę SF kodas turite nustatyti kaip organizacijos kliento sąskaitos ID. Tada, kai klientas surašo užsakymą B2B svetainėje, organizacijai bus išrašyta užsakymo SF. B2B teritorijoje taip pat bus naudojamas organizacijos kredito limitas, o ne kredito limitas, nustatytas kliento įraše.
 
-Kredito limito skaičiavimas ir likutis, rodomas B2B svetainėje, priklauso nuo kredito limito **tipo** turto nustatymo "Commerce" būstinėje. Šios ypatybės vieta skiriasi, atsižvelgiant į tai, ar **kredito valdymo** funkcija įgalinta **darbo srityje Funkcijų valdymas**:
+Kredito limito skaičiavimas ir balansas, rodomi B2B **svetainėje, priklauso nuo "Commerce Headquarters" ypatybės Kredito limito** tipo nustatymo. Šios ypatybės vieta skiriasi atsižvelgiant į tai, ar **funkcijų** valdymo darbo srityje įgalinta kredito **valdymo** funkcija:
 
-- **Jei kredito valdymo** funkcija įgalinta, ypatybė yra **FastTab Kredito limitai**, esančiame Kredito **ir rinkinių nustatymo \> kredito ir rinkinių \> parametruose \> Kreditas**. 
-- **Jei kredito valdymo** funkcija išjungta, turtas yra dalyje **Gautinų sumų nustatymo gautinų sumų** parametrų **\> kredito reitingas \>\>**.
+- Jei įgalinta **kredito valdymo** funkcija, ypatybė yra kredito limitų "FastTab **·**",**\> kuris yra Kreditas ir rinkiniai Nustatymo \> kreditas ir mokėjimų priežiūros parametrai Kreditas \>**. 
+- Jei kredito **valdymo funkcija** išjungta, ypatybė yra gautinų sumų **vertinimo** **dalyje Gautinų sumų nustatymas \> Gautinų \> sumų parametrai Kredito \> vertinimas**.
 
-Reikšmės, kurias **palaiko ypatybė Kredito limito tipas**, yra **Nėra**, **Likutis**, **Likutis + važtaraštis arba produkto gavimo kvitas** ir **Likutis + Visi**. Daugiau informacijos apie šias vertes ieškokite [Credit limit type values](/dynamics365/supply-chain/sales-marketing/credit-limits-customers).
+Vertės, kurias palaiko **ypatybė Kredito limito tipas** **, yra Nėra**, **Balansas**, **Balansas + Važtaraštis arba Produkto gavimo kvitas**, Balansas **+ Visi**. Daugiau informacijos apie šias vertes ieškokite kredito limito [tipo vertėse](/dynamics365/supply-chain/sales-marketing/credit-limits-customers).
 
 > [!NOTE]
-> Rekomenduojame nustatyti ypatybę Kredito limito **tipas** kaip **Likutis + pakuotės lapas arba produkto kvitas**, kad atviri pardavimo užsakymai neprisidėtų prie balanso skaičiavimo. Tada, jei jūsų klientai pateikia būsimus užsakymus, jiems nereikia nerimauti, kad šie užsakymai paveiks jų dabartinį balansą.
+> Rekomenduojame nustatyti ypatybę Kredito **limito tipas** **kaip Balansas +** Važtaraštis arba Produkto važtaraštis, kad atviri pardavimo užsakymai neprisidarytų skaičiuojant balansą. Tada, jei jūsų klientai įteikite būsimus užsakymus, jiems nereikia pranešti, kad tie užsakymai turės įtakos jų dabartiniam balansui.
 
-Kita ypatybė, turinti įtakos laisvos formos sąskaitos užsakymui, yra **ypatybė Privalomas kredito limitas**, esanti **kliento įrašo FastTab Kreditas ir rinkiniai**. Nustatydami šią ypatybę į **Taip** konkretiems klientams, galite priversti sistemą patikrinti jų kredito limitą, net jei **kredito limito tipo** ypatybė buvo nustatyta kaip **Nėra**, kad būtų nurodyta, jog kredito limito negalima tikrinti nė vienam klientui.
+Kita ypatybė, veikiantis užsakymo pagal sąskaitą, yra **privalomo kredito limito** ypatybė, **kuri** yra kliento įrašo FastTab Kreditas ir rinkiniai. Nustatydami šią **ypatybę** kaip Taip konkretiems klientams, galite priversti sistemą patikrinti jų kredito limitą, **net jei kredito limito** **tipo ypatybė buvo nustatyta kaip Nėra**, kad būtų nurodyta, jog kredito limito neturi būti tikrinamas joks klientas.
 
-Šiuo metu klientas, naudojantis laisvos formos sąskaitos mokėjimo metodą, negali sumokėti daugiau nei likęs užsakymo kredito likutis. Pavyzdžiui, jei likęs kliento kredito likutis yra $1,000, bet užsakymo vertė yra $1,200, klientas gali sumokėti $1,000 tik naudodamas laisvos formos sąskaitos metodą. Tada klientas turi naudoti kitą mokėjimo būdą, kad sumokėtų likutį. Būsimame leidime "Commerce" konfigūracija leis vartotojams išleisti daugiau nei jų kredito limitas pateikiant užsakymus.
+Šiuo metu klientas, naudojantis mokėjimo pagal sąskaitą būdą, negali mokėti daugiau, nei likęs užsakymo kredito balansas. Pavyzdžiui, jei kliento likęs kredito balansas yra $1,000, bet užsakymo vertė $1,200, klientas gali mokėti $1,000 naudodamas kreditinės sąskaitos metodą. Tada klientas balansui sumokėti turi naudoti kurį nors kitą mokėjimo būdą. Būsimoje versijoje "Commerce" konfigūracija leis vartotojams pateikti užsakymus viršijant savo kredito limitą.
 
-Kredito **ir kolekcijų modulis** turi naujas kredito valdymo galimybes. Norėdami įjungti šias galimybes, įgalinkite **kredito valdymo** funkciją **darbo srityje Funkcijų valdymas**. Viena iš naujų galimybių leidžia sustabdyti pardavimo užsakymus pagal blokavimo taisykles. Tada kredito valdytojo asmuo gali paleisti arba atmesti užsakymus po tolesnės analizės. Tačiau galimybė sulaikyti pardavimo užsakymus netaikoma "Commerce" užsakymams, nes pardavimo užsakymuose dažnai yra išankstinis apmokėjimas, o **kredito valdymo** funkcija nevisiškai palaiko išankstinio apmokėjimo scenarijus. 
+Kreditų **ir rinkinių** modulyje yra naujų kredito valdymo galimybių. Norėdami įjungti šias galimybes, funkcijų valdymo **darbo srityje** įgalinkite kredito **valdymo** funkciją. Viena iš naujų galimybių leidžia sulaikyti pardavimo užsakymus remiantis blokavimo taisyklėmis. Tada kredito vadybininko asmuo vėliau gali išleisti arba atmesti užsakymus. Tačiau galimybė sulaikyti pardavimo užsakymus netaikoma "Commerce" užsakymams, nes pardavimo užsakymuose dažnai yra išankstinis apmokėjimas, **o** kredito valdymo funkcija ne visiškai palaiko išankstinio apmokėjimo scenarijus. 
 
-Neatsižvelgiant į tai, ar **įgalinta kredito valdymo** funkcija, jei įvykdymo metu kliento balansas viršija kredito limitą, pardavimo užsakymai nebus sulaikyti. Todėl Commerce generuos įspėjimo pranešimą arba klaidos pranešimą, atsižvelgiant į pranešimo vertę, **kai viršysite kredito limito** **lauką kredito limito** lauką "FastTab".
+Nepaisant to, ar **kredito valdymo** funkcija įgalinta, jei kliento balansas vykdant užsakymą viršija kredito limitą, pardavimo užsakymai nebus sulaikyti. Todėl Commerce generuos įspėjimo pranešimą arba klaidos pranešimą, atsižvelgiant į pranešimo vertę, **kai viršysite kredito limito** **lauką kredito limito** lauką "FastTab".
 
 Neįtraukti **į kredito valdymo ypatybę**, kuri neleidžia sulaikdyti "Commerce" pardavimo užsakymų, yra pardavimo užsakymo antraštėje (**Mažmeninės prekybos ir komercijos \>\> klientai visi pardavimo užsakymai**). Jei ši ypatybė yra nustatyta į **Taip** (numatytąją vertę) "Commerce" pardavimo užsakymams, užsakymai nebus įtraukti į sulaikytą kredito valdymo darbo eigą. Nors ypatybės pavadinimas Yra Neįtraukti **į kredito valdymą**, nustatytas kredito limitas vis tiek bus naudojamas užsakymo įvykdymo metu. Užsakymai, kurie tik nebus sulaikyti.
 

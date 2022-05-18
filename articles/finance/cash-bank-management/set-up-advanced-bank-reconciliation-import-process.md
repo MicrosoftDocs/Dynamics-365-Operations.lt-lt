@@ -1,6 +1,6 @@
 ---
 title: Išplėstinio banko derinimo importavimo proceso nustatymas
-description: Pažangaus banko suderinimo funkcija suteikia galimybę importuoti elektroninius banko išrašus ir automatiškai juos suderinti su banko operacijomis programoje „Microsoft“ „Dynamics 365 Finance“. Šiame straipsnyje paaiškinama, kaip nustatyti banko išrašų importavimo funkciją.
+description: Išplėstinės banko suderinimo priemonė leidžia importuoti elektroninius banko išrašus ir automatiškai suderinti juos Microsoft Dynamics su banko operacijomis,-365 finansuose. Šiame straipsnyje paaiškinama, kaip nustatyti banko išrašų importavimo funkciją.
 author: panolte
 ms.date: 06/20/2017
 ms.topic: article
@@ -8,25 +8,25 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: BankStatementFormat
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 106853
 ms.assetid: 45dae275-ea45-4c7e-b38f-89297c7b5352
 ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f0efe960bee8f5c2c0b683ad641379345ce6d470180d29893b373acc6e1de8aa
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0616d8f85f742ed2679450c9b59814345f764bc9
+ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6726043"
+ms.lasthandoff: 05/07/2022
+ms.locfileid: "8727376"
 ---
 # <a name="set-up-the-advanced-bank-reconciliation-import-process"></a>Išplėstinio banko derinimo importavimo proceso nustatymas
 
 [!include [banner](../includes/banner.md)]
 
-Pažangaus banko suderinimo funkcija suteikia galimybę importuoti elektroninius banko išrašus ir automatiškai juos suderinti su banko operacijomis programoje „Dynamics 365 Finance“. Šiame straipsnyje paaiškinama, kaip nustatyti banko išrašų importavimo funkciją. 
+Išplėstinės banko suderinimo priemonė leidžia importuoti elektroninius banko išrašus ir automatiškai suderinti juos su "Dynamics 365 Finance" banko operacijomis. Šiame straipsnyje paaiškinama, kaip nustatyti banko išrašų importavimo funkciją. 
 
 Banko išrašo importavimo nustatymas priklauso nuo elektroninio banko išrašo formato. „Finance“ iš karto palaiko tris banko išrašų formatus: ISO20022, MT940 ir BAI2.
 

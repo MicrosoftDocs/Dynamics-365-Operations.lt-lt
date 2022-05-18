@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: KMCollection, KMKnowledgeCollectorCollection, KMKnowledgeCollectorUserResults, HcmLearningWorkspace
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: 17444
 ms.assetid: 6570206a-b2c4-4025-8715-432fe6652b78
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: dc71748a5081b90feb69ed0da936c42b4d0e572a
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: d783664da957192575bbd2b1f0286243be190715
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070707"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8688070"
 ---
 # <a name="view-and-evaluate-the-results-of-questionnaires"></a>Klausimynų rezultatų peržiūra ir įvertinimas
 
@@ -34,7 +33,7 @@ ms.locfileid: "8070707"
 Respondentams užpildžius klausimyną, jo rezultatus peržiūrėti ir įvertinti galite tolesniais būdais.
 
 -   **Užbaigto atsakymo seansas** – Rodyti išsamią informaciją apie klausimynus, kuriuos respondentai užbaigė ir sukurti ataskaitas siekiant apibendrinti atsakymus ir visus taškus, kuriuos jie uždirbo.
--   **Rezultatų grupės** – Peržiūrėkite klausimynų rezultatų grupių informaciją ir statistiką. Rezultatų grupės statistiką galima sugeneruoti vienai klausimyno atsakymų sesijai arba visoms atsakymų sesijoms.
+-   **Rezultatų grupės** – Peržiūrėkite klausimynų rezultatų grupių informaciją ir statistiką. Galima generuoti vieno klausimyno atsakymų seanso arba visų atsakymų seansų rezultatų grupės statistiką.
 -   **Klausimyno statistika** – nurodykite kriterijus skaičiuoti tam tikros respondentų grupės statistikai.
 
 Taip pat galite generuoti įvairias ataskaitas ir peržiūrėti rezultatus, surūšiuotus pagal asmenį, atsakymų seansą ar rezultatų grupę. Galimos tolesnės su užpildytais klausimynais susijusios ataskaitos.

@@ -8,17 +8,16 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: HRMRecruitingTable, HcmWorkerLookUp, HcmJobLookup, HRMRecruitingMedia, HRMRecruitingJobAd, HcmPersonnelManagementWorkspace
 audience: Application User
-ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0d59ccb88b8a76de6e2f00453f185fec2f149873
-ms.sourcegitcommit: 1cc56643160bd3ad4e344d8926cd298012f3e024
+ms.openlocfilehash: c61ce7dae130219a63b4070418b6c4a84f5225b1
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "7731566"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8693674"
 ---
 # <a name="create-and-open-job-requisition"></a>Kurti ir atverti darbo rekvizitavimą
 
@@ -39,7 +38,7 @@ Samdymo projektai jums padeda valdyti jūsų samdymo procesą. Sukūrę samdymo 
 6. Sąraše suraskite ir pasirinkite savo įrašą.
 7. Šiame sąraše pasirinkite nuorodą pasirinktoje eilutėje.
 8. Rinkitės **„Select“** (pasirinkti).
-9. Padalinio **·** lauke pasirinkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
+9. Padalinio **lauke** pasirinkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
 10. Šiame sąraše pasirinkite nuorodą pasirinktoje eilutėje.
 11. Laukelyje **Darbas** rinkitės iškrentantį meniu mygtuką, kad atvertumėte paiešką.
 12. Sąraše suraskite ir pasirinkite savo įrašą.
@@ -61,7 +60,7 @@ Samdymo projektai jums padeda valdyti jūsų samdymo procesą. Sukūrę samdymo 
 28. Pasirinkite **darbo skelbimus**.
 29. Pasirinkite **Įrašyti**.
 30. Uždarykite puslapį.
-31. Pažymėkite arba atžymėkite **žymės langelį Rodyti darbuotojų** savitarnoje. Pažymėkite žymės **langelį Rodyti darbuotojų** savitarnos paslaugose. Šis pasirinkimas padaro įdarbinimo projektą matomus darbuotojus jų **darbuotojų savitarnos** puslapyje.
+31. Pažymėkite arba atžymėkite žymės **langelį Rodyti darbuotojų savitarnoje**. Pažymėkite žymės **langelį Rodyti darbuotojų savitarnos** paslaugose. Šis pasirinkimas padaro įdarbinimo projektą matomus darbuotojus jų darbuotojų **savitarnos** puslapyje.
 32. Rinkitės **Samdymo projekto būsena**.
 33. Pasirinkite **Paleisti**. Būsena **Pradėta** reiškia, kad projektas yra parengtas gauti paraiškas.  
 34. Pasirinkite **Gerai**.

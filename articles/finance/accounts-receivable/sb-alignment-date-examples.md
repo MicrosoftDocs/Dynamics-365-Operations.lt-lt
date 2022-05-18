@@ -1,5 +1,5 @@
 ---
-title: Lygiavimo datos scenarijai
+title: Derinimo datos scenarijai
 description: Šioje temoje pateikiami pavyzdžiai, kurie parodo, kaip veikia lygiavimo datos abonementinio sąskaitų pateikimo metu.
 author: JodiChristiansen
 ms.date: 11/04/2021
@@ -9,20 +9,19 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: Core, Operations
 ms.custom: 539093
 ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: e80797e8dd532bb4b2ef78422b459487430d83d6
-ms.sourcegitcommit: 836695c0e95d366ba993f34eee30f57191f356d8
-ms.translationtype: HT
+ms.openlocfilehash: 91480fecd16cf8417722df73c28bbd81d029fb07
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "8629714"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8690479"
 ---
-# <a name="alignment-date-scenarios"></a>Lygiavimo datos scenarijai
+# <a name="alignment-date-scenarios"></a>Derinimo datos scenarijai
 
 Šioje temoje pateikiami pavyzdžiai, kurie parodo, kaip veikia lygiavimo datos abonementinio sąskaitų pateikimo metu.
 

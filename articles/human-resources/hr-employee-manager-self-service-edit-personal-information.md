@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: HRMParameters, EssWorkspace
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: 51941
 ms.assetid: 2cfb061a-a616-4bf9-9d98-9cde00039eec
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-03-19
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e798646263b9939445f49a3866532cd229c668cd
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: d7e78873d0995334ac80ac22e8058b7fe0bc31ac
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8071752"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8686128"
 ---
 # <a name="edit-personal-information"></a>Redaguoti asmeninę informaciją
 
@@ -72,7 +71,7 @@ Visuotinėje adresų knygelėje **nustatyti parametrai apibrėžia** vaidmenis, 
     - Norėdami įtraukti identifikacijos numerį, pasirinkite **Naujas**. Užpildykite laukus, kaip reikia, ir pasirinkite **Įrašyti**.
     - Norėdami redaguoti numerį, pasirinkite **Redaguoti**. Redaguokite laukus, kaip reikia, ir pasirinkite **Įrašyti**.
 
-7. Norėdami pakeisti mokėjimo būdus, pasirinkite **Mano mokėjimo informacija** skirtuką. Šis skirtukas pasiekiamas tik tuo atveju, jei mokėjimo metodai įjungti **Žmogiškųjų išteklių parametrai** puslapį. HR gali suaktyvinti **Banko juodraštis**, **Grynieji pinigai**, **Čekis**, **Elektroninis mokėjimas** arba **Kita**. HR taip pat gali išjungti elektroninio mokėjimo tikrinimą (naudojamą tik JAV algalapiams), banko sąskaitos ir nukreipimo numerio tikrinimą.
+7. Norėdami keisti mokėjimo būdus, pasirinkite skirtuką Mano **mokėjimo** informacija. Šis skirtukas galimas tik tada, kai personalo parametrų **puslapyje įgalinti mokėjimo** būdai. HR gali suaktyvinti **Banko juodraštis**, **Grynieji pinigai**, **Čekis**, **Elektroninis mokėjimas** arba **Kita**. HR taip pat gali išjungti elektroninio mokėjimo tikrinimą (naudojamą tik JAV algalapiams), banko sąskaitos ir nukreipimo numerio tikrinimą.
 
 8. Norėdami pakeisti savo profilio nuotrauką, rodomą „Human Resources“, pasirinkite **Nuotrauka**. Atsižvelgiant į jūsų organizacijos parametrus, nuotraukos gali būti nukreipiamos patvirtinimui.
 

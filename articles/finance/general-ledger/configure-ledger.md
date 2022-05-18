@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: Ledger
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-09
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 3e6c4d966f2720339941fb848ff9ac79e4593868ce10d3712efbb1ad18a9ceea
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 38c4364c47915cc0019cb6b3d471d3e60d413bf0
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6712224"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8711554"
 ---
 # <a name="configure-ledgers"></a>Didžiųjų knygų konfigūravimas
 
@@ -28,7 +28,7 @@ ms.locfileid: "6712224"
 
 ## <a name="selecting-the-chart-of-accounts"></a>Sąskaitų plano pasirinkimas
 
-Reikia sukonfigūruoti kiekvieno „Microsoft Dynamics 365 Finance“ juridinio subjekto didžiosios knygos informaciją. Puslapyje **Didžioji knyga** galite pasirinkti sąskaitų planą ir sąskaitų struktūras, kurios bus naudojamos su pasirinktu juridiniu subjektu. Sąskaitų planą ir sąskaitų struktūras galite bendrinti sukonfigūruodami kiekvieno juridinio subjekto puslapį **Didžioji knyga**, kad būtų galima naudoti tą patį sąskaitų planą ir sąskaitų struktūras. Taip pat galite bendrinti kiekvieno juridinio subjekto konfigūracijos dalį ir turėti konkrečias konfigūracijas kiekviename juridiniame subjekte.
+Kiekvieno juridinio subjekto Microsoft Dynamics, kuris yra 365 finansai, atveju turi būti sukonfigūruota išsami informacija apie DK. Puslapyje **Didžioji knyga** galite pasirinkti sąskaitų planą ir sąskaitų struktūras, kurios bus naudojamos su pasirinktu juridiniu subjektu. Sąskaitų planą ir sąskaitų struktūras galite bendrinti sukonfigūruodami kiekvieno juridinio subjekto puslapį **Didžioji knyga**, kad būtų galima naudoti tą patį sąskaitų planą ir sąskaitų struktūras. Taip pat galite bendrinti kiekvieno juridinio subjekto konfigūracijos dalį ir turėti konkrečias konfigūracijas kiekviename juridiniame subjekte.
 
 Jeigu jūsų juridiniai subjektai turi turėti skirtingus sąskaitų planus arba skirtingas sąskaitų struktūras, gali būti naudinga juridinio subjekto keitimo funkcija. Naudojant tą patį sąskaitų planą ir sąskaitų struktūras keliems juridiniams subjektams, o tada tvarkant išimtis keičiant juridinius subjektus, galima supaprastinti priežiūrą per tam tikrą laiką.
 
@@ -38,7 +38,7 @@ Norėdami gauti daugiau informacijos apie tai, kaip planuoti ir konfigūruoti s�
 
 ## <a name="selecting-account-structures"></a>Sąskaitų struktūrų pasirinkimas
 
-Kiekvienas „Dynamics 365 Finance“ juridinis subjektas gali būti sukonfigūruotas naudoti vieną ar daugiau sąskaitų struktūrų. Kiekviena sąskaitų struktūra apibrėžia finansines dimensijas ir pagrindinių sąskaitų bei finansinių dimensijų derinius, kurie bus leidžiami registruojant operacijas. Tas pačias sąskaitų struktūras galite naudoti daugiau nei viename juridiniame subjekte.
+Kiekvieną juridinį subjektą programoje "Dynamics 365 Finance" galima sukonfigūruoti naudoti vieną ar daugiau sąskaitų struktūrų. Kiekviena sąskaitų struktūra apibrėžia finansines dimensijas ir pagrindinių sąskaitų bei finansinių dimensijų derinius, kurie bus leidžiami registruojant operacijas. Tas pačias sąskaitų struktūras galite naudoti daugiau nei viename juridiniame subjekte.
 
 Atkreipkite dėmesį, kad, jei turite kelias sąskaitų struktūras, galite pasirinkti tik tas sąskaitų struktūras, kuriose nėra persidengiančių pagrindinių sąskaitų ir finansinių dimensijų derinių. Pavyzdžiui, viena iš jūsų sąskaitų struktūrų sukonfigūruota įtraukti verslo struktūros vienetą į pagrindines sąskaitas tarp 1000 ir 1999. Kitoje sąskaitų struktūroje į pagrindines sąskaitas, prasidedančias 1, įtraukėte finansinę dimensiją Padalinys. Šiuo atveju tame pačiame juridiniame subjekte galima įtraukti tik vieną iš sąskaitų struktūrų.
 

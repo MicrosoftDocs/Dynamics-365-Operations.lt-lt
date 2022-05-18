@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: LeaveAbsenceWorkspace
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d004e33d01dbd171626d7e23f93df081bc0210a9
-ms.sourcegitcommit: 70ac76be31bab7ed5e93f92f4683e65031fbdf85
+ms.openlocfilehash: 3ba1ecc97183c147b46ea2396df78fcdce07c27e
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/16/2021
-ms.locfileid: "7924752"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8687986"
 ---
 # <a name="manage-leave-requests-in-teams"></a>Atostogų prašymų valdymas „Teams“
 
@@ -37,7 +36,7 @@ Programą „Dynamics 365 Human Resources“ galite rasti „Teams“ parduotuv�
 2. Raskite „Dynamics 365 Human Resources“ ir pasirinkite plytelę **Human Resources**.
 
 > [!NOTE]
-> Nuo 2021 m. gruodžio 20 d. "Human Resources App bot services" (versija 1.1.4), laikomos "Microsoft" nuomininkuose, bus per daug nuomojamos. Naujausią plėtinį (versijos 1.1.5) galima įdiegti. Daugiau informacijos ieškokite Tvarkyti [atostogų užklausas komandose](hr-admin-teams-leave-app.md#update-app).
+> Nuo 2021 m. gruodžio 20 d. "Human Resources App bot services" (versija 1.1.4), laikomos "Microsoft" nuomininkuose, bus perimtos. Naujausią plėtinį (versijos 1.1.5) galima įdiegti. Daugiau informacijos ieškokite Tvarkyti atostogų [užklausas komandose](hr-admin-teams-leave-app.md#update-app).
 
 3. Pasirinkite mygtuką **Įtraukti**, kad įdiegtumėte programą.
 
@@ -186,7 +185,7 @@ Personalo dalyje pasirinkite **Nustatymai**, o tada pasirinkite **Naudotojo pari
 
 ![Personalo naudotojo parinktys.](./media/hr-teams-leave-app-user-options.png)
 
-Jei vis dar kyla problemų dėl vertimo, praneškite mums. Išsamesnės informacijos, žr. skyriuje [Gauti pagalbą „Finance and Operations“ programoms arba „Lifecycle Services (LCS)“](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json).
+Jei vis dar kyla problemų dėl vertimo, praneškite mums. Norėdami gauti daugiau informacijos, [žr. finansų ir operacijų programėlių arba vykdymo ciklo tarnybų (LCS) palaikymo skyrių](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json).
 
 ### <a name="error-when-approving-leave-requests-in-the-human-resources-app-in-teams"></a>Klaida tvirtinant atostogų prašymus „Teams“ programoje „Human Resources“
 
@@ -202,7 +201,7 @@ Jei gaunate klaidą, kai bandote patvirtinti atostogų užklausas „Teams“ pr
 
 2. Įsitikinkite, kad vartotojai yra prisiregistravę pokalbių skirtuke naudodami tą **pačią** prisijungimo informaciją, kuriuos jie naudoja atostogų užklausoms patvirtinti. Norėdami prisijungti naudodami tinkamą prisjungimo informaciją, naudokite pranešimus „atsijungti" ir „prisijungti".
 
-3. Jei problema išlieka, patikrinkite verslo įvykių sistemos paketinės **užduoties** būseną kaip sistemos administratorių. Jei jis yra laukimo arba vykdymo etape, po kelių **minučių** patikrinkite dar **kartą**. Jei būsena nekinta, užregistruokite palaikymo kvitą, kad mūsų komanda galėtų padėti išspręsti problemą.
+3. Jei problema išlieka, patikrinkite verslo įvykių sistemos paketinės **užduoties** būseną kaip sistemos administratorių. Jei jis yra laukimo arba **vykdymo** **etape**, po kelių minučių patikrinkite dar kartą. Jei būsena nekinta, užregistruokite palaikymo kvitą, kad mūsų komanda galėtų padėti išspręsti problemą.
 
 ## <a name="known-accessibility-issues"></a>Sužinokite prieinamumo problemas
 
@@ -211,7 +210,7 @@ Jei gaunate klaidą, kai bandote patvirtinti atostogų užklausas „Teams“ pr
 | Išdavimas | Apėjimas ir paaiškinimas |
 | --- | --- |
 | Priartinimas iki 400% darbastalyje paslepia kai kuriuos mygtukų veiksmus iš rodinio. | Rekomenduojame naudoti didinamąjį stiklą, kol palaikysime šį priartinimo lygį. |
-| Skirtuke Laiko išjungimas naudojant mygtuko perrašo veiksmą, **o** jis skaito išjungimo tinklelio antraštę. | Antraštė ir elementai tinklelyje yra sugrupuoti pagal metus ir sutraukiami. Interpretuoja šį pristatymą kaip veiksmų elementą, bet tai nėra. |
+| Skirtuke **Laiko išjungimas** naudojant mygtuko perrašo veiksmą, o jis skaito išjungimo tinklelio antraštę. | Antraštė ir elementai tinklelyje yra sugrupuoti pagal metus ir sutraukiami. Interpretuoja šį pristatymą kaip veiksmų elementą, bet tai nėra. |
 | Skirtuke **Nebuvimas** yra papildomas paslinkimo gestas naršant į **Priežasties kodą** naujame prašyme. | Nėra jokio paslėpto valdiklio, kurį bando gauti paslinkimo naršymas. |
 | Skirtuke **Nebuvimas** jums paslinkus, kai yra atidarytas kalendorius, baigsite ne valdiklyje, o naujos užklausos viršuje arba redaguodami užklausą. | Jums pasiekus **Eiti šiandien**, pagalvokite apie valdiklio pabaigą ir paslinkite atgaline kryptimi, kad grįžtumėte į viršų. |
 | Skirtuke **Pokalbis** koncentravimasis nušoka atgal į viršų jums įvedant datą ir naudojant padedantį įrankį ar klaviatūros naršymą. | Naudokite skirtuką, kol pasieksite savo įvesties sritį dar kartą. |
@@ -220,9 +219,9 @@ Jei gaunate klaidą, kai bandote patvirtinti atostogų užklausas „Teams“ pr
 
 ### <a name="microsoft-language-understanding-intelligent-service-luis"></a>„Microsoft Language Understanding Intelligent Service” (LUIS)
 
-Naudojant robotą, vartotojo teksto įvesties duomenys analizuojami siekiant suprasti pagrindinę Dynamics 365 Human Resources Microsoft Teams užklausą / tikslą. Vartotojo įvestis, pvz., "Ieškoti sąskaitos "Contoso", nukreipiama į vieną iš Microsoft smanmanų paslaugų, vadinamos "Intelligent Service" (INTEL). Daugiau apie LUIS skaitykite  [čia](https://www.luis.ai/). LUIS tarnyba išaiškina arba supranta vartotojo įvesties ketinimą (šiuo atveju ketinimas yra rasti informaciją) ir paskirties objektą (šiuo atveju numatomas objektas yra „Contoso“ paskyra). Tada ši informacija perduodama į "Microsoft  [Azure Bot" sistemą](https://azure.microsoft.com/services/bot-service/), kuri sąveikauja su duomenimis ir nuskaito norimą vartotojo užklausos Dynamics 365 Human Resources informaciją. 
+Naudojant robotą Dynamics 365 Human Resources Microsoft Teams, vartotojo teksto įvesties duomenys analizuojami siekiant suprasti pagrindinę užklausą / tikslą. Vartotojo įvestis, pvz., "Ieškoti sąskaitos "Contoso", nukreipiama į vieną iš Microsoft smanmanų paslaugų, vadinamos "Intelligent Service" (INTEL). Daugiau apie LUIS skaitykite  [čia](https://www.luis.ai/). LUIS tarnyba išaiškina arba supranta vartotojo įvesties ketinimą (šiuo atveju ketinimas yra rasti informaciją) ir paskirties objektą (šiuo atveju numatomas objektas yra „Contoso“ paskyra). Tada ši informacija perduodama į Microsoft sAzure [bot sistemą](https://azure.microsoft.com/services/bot-service/), Dynamics 365 Human Resources kuri sąveikauja su duomenimis ir nuskaito norimą vartotojo užklausos informaciją. 
 
-Įdiegdami ir suteikdami prieigos teisę naudoti robotą jūs sutinkate leisti LUIS tarnybai ir „Azure bot framework“ apdoroti įvesties ketinimą, o tai tampa patobulinta vartotojo šnekamąja patirtimi. LUIS tarnyba ir „Azure bot framework“ gali turėti skirtingus atitikties lygius, palyginti su „Dynamics 365 Human Resources“. Kadangi JŪSŲ tarnyba turi prieigą tik prie vartotojo užklausų ir ji nėra sukurta taip, kad būtų prijungta prie vartotojo duomenų ar sąskaitos, tiekėjo vartotojas gali per daug įvesti užklausą, kurioje yra Kliento duomenys, Asmeniniai duomenys ar kiti duomenys ir toks užklausos turinys gali būti siunčiamas Dynamics 365 Human Resources Dynamics 365 Human Resources į JŪSŲ APTARNAVIMą IR "Azure bot" sistemą. 
+Įdiegdami ir suteikdami prieigos teisę naudoti robotą jūs sutinkate leisti LUIS tarnybai ir „Azure bot framework“ apdoroti įvesties ketinimą, o tai tampa patobulinta vartotojo šnekamąja patirtimi. LUIS tarnyba ir „Azure bot framework“ gali turėti skirtingus atitikties lygius, palyginti su „Dynamics 365 Human Resources“. Kadangi JŪSŲ tarnyba turi prieigą tik prie vartotojo užklausų ir ji nėra sukurta taip, kad būtų prijungta prie vartotojo duomenų ar sąskaitos, Dynamics 365 Human Resources tiekėjo vartotojas gali per daug įvesti užklausą, kurioje yra Kliento duomenys, Asmeniniai duomenys ar kiti duomenys ir toks užklausos turinys gali būti siunčiamas Dynamics 365 Human Resources į JŪSŲ APTARNAVIMą IR "Azure bot" sistemą. 
 
 Vartotojo užklausų ir pranešimų turinys YRA užkoduojamas IR ne daugiau kaip 30 dienų PAGAL DNS sistemą, šifruojamas ir nėra naudojamas mokymas ar paslaugai tobulinti. Daugiau apie „Cognitive Services“ skaitykite  [čia](https://azure.microsoft.com/services/cognitive-services/language-understanding-intelligent-service/). 
 
@@ -230,9 +229,9 @@ Jei norite programų administravimo parametrus valdyti platformoje „Microsoft 
 
 ### <a name="microsoft-teams-azure-event-grid-and-azure-cosmos-db"></a>„Microsoft Teams”, „Azure” įvykių tinklelis ir „Azure Cosmos DB”
 
-Naudojant programą tam tikri kliento duomenys gali būti pateikti už geografinės regiono, kuriame įdiegta jūsų nuomininko personalo Dynamics 365 Human Resources Microsoft Teams tarnyba, ribų.
+Naudojant programą tam Dynamics 365 Human Resources tikri kliento Microsoft Teams duomenys gali būti pateikti už geografinės regiono, kuriame įdiegta jūsų nuomininko personalo tarnyba, ribų.
 
-Dynamics 365 Human Resources perduoda darbuotojo atostogų užklausą ir darbo eigos užduoties informaciją į Microsoft Azure įvykių tinklelį Microsoft Teams ir. Šie duomenys gali būti saugomi iki 24 valandų „Microsoft Azure” įvykių tinklelyje ir apdorojami Jungtinėse Valstijose, užšifruojami transportuojant bei neaktyvioje būsenoje, o „Microsoft” arba jo pagalbiniai duomenų tvarkytojai jų nenaudoja mokymui ar paslaugų tobulinimui. Norėdami suprasti, kur saugomi Jūsų duomenys programoje „Teams”, žr.: [Saugyklos vieta „Microsoft Teams”](/microsoftteams/location-of-data-in-teams?preserve-view=true&view=o365-worldwide).
+Dynamics 365 Human Resources perduoda darbuotojo atostogų užklausą ir darbo eigos užduoties informaciją į įvykių Microsoft Azure tinklelį ir Microsoft Teams. Šie duomenys gali būti saugomi iki 24 valandų „Microsoft Azure” įvykių tinklelyje ir apdorojami Jungtinėse Valstijose, užšifruojami transportuojant bei neaktyvioje būsenoje, o „Microsoft” arba jo pagalbiniai duomenų tvarkytojai jų nenaudoja mokymui ar paslaugų tobulinimui. Norėdami suprasti, kur saugomi Jūsų duomenys programoje „Teams”, žr.: [Saugyklos vieta „Microsoft Teams”](/microsoftteams/location-of-data-in-teams?preserve-view=true&view=o365-worldwide).
 
 Bendraudami su pokalbių robotu „Human Resources” programėlėje, pokalbio turinys gali būti saugomas „Azure Cosmos DB” ir perduodamas „Microsoft Teams”. Šie duomenys gali būti saugomi „Azure Cosmos DB” iki 24 valandų ir gali būti apdorojami už geografinio regiono, kur įdiegta Jūsų nuomotojo „Human Resources” paslauga, ribų, užšifruojama transportuojant bei neaktyvioje būsenoje, o „Microsoft” arba jo pagalbiniai duomenų tvarkytojai jos nenaudoja mokymui ar paslaugų tobulinimui. Norėdami suprasti, kur saugomi Jūsų duomenys programoje „Teams”, žr.: [Saugyklos vieta „Microsoft Teams”](/microsoftteams/location-of-data-in-teams?preserve-view=true&view=o365-worldwide).
  

@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerParameters, LedgerFiscalCloseGroup, LedgerFiscalCloseAddLedger, SysLookupMultiSelectGrid, LedgerFiscalCloseRunGroup
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e1ade9af06848b125fb6253ea1182f6098588150
-ms.sourcegitcommit: 88f8a0369ce66b82314db9639491b695e18a7e5c
+ms.openlocfilehash: 8eb36cb856d191d64561060e7de4a1f9fd947882
+ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7902512"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8717480"
 ---
 # <a name="close-the-fiscal-year"></a>Uždaryti finansinius metus
 
@@ -30,49 +30,49 @@ ms.locfileid: "7902512"
 ## <a name="validate-year-end-close-parameters"></a>Uždarymo metų pabaigoje parametrų tikrinimas
 1. Eikite į **Naršymo sritis > Moduliai > Didžioji knyga > Didžiosios knygos nustatymas > Didžiosios knygos parametrai**.
 2. Išplėskite skyrių **Finansinių metų uždarymas**.
-3. Nustatykite parinktį **Perkėlimo metu naikinti metų uždarymo operacijas** į Taip arba Ne.
+3. Pasirinkite **Taip** arba **Ne** norėdami **perkėlimo pasirinkties metu naikinti metų uždarymo operacijas**.
     
-    Jei finansiniai metai jau uždaryti ir vėl uždarymas metų pabaigoje atliekamas iš naujo, šis parametras yra svarbus. Jei nustatyta parinktis Taip, ankstesnio uždarymo metų pabaigoje kvitas bus panaikintas ir bus sukurtas naujas visų sąskaitų pradžios balansų kvitas. Jei nustatyta parinktis Ne, ankstesnis kvitas panaikintas nebus ir naujas kvitas bus sukurtas tik tiems įrašams, kurie buvo registruoti po paskutinio uždarymo metų pabaigoje, koreguoti.
+Jei finansiniai metai jau uždaryti ir vėl uždarymas metų pabaigoje atliekamas iš naujo, šis parametras yra svarbus. Jei nustatyta **Taip**, ankstesnio metų pabaigos uždarymo kvitas bus panaikintas ir bus sukurtas naujas visų sąskaitų pradžios balansų kvitas. Jei nustatyta **Ne**, ankstesnis kvitas liks, o naujas kvitas bus sukurtas tik įrašų, užregistruotų po paskutinių metų pabaigos uždarymo, koregavimams.
 
-4. Nustatykite parinktį **Kurti uždarymo operacijas perkėlimo metu** į Taip arba Ne.
+4. Pasirinkti **Taip** arba **Ne,** jei norite kurti **uždarymo operacijas perkėlimo metu**.
 
-    Jei nustatyta parinktis Taip, sukuriamos dvi operacijos. Finansiniais metais sukuriamas vienas kvitas, skirtas visų DK sąskaitų balansams suskurti iki nulio, o kitais finansiniais metais pradžios balansų kvitas sukuriamas antras kvitas. Jei nustatyta parinktis Ne, sukuriamas vienas kvitas, skirtas kitų finansinių metų pradžios balansams.  
+Jei nustatyta **Taip**, sukuriamos dvi operacijos. Finansiniais metais sukuriamas vienas kvitas, skirtas visų DK sąskaitų balansams suskurti iki nulio, o kitais finansiniais metais pradžios balansų kvitas sukuriamas antras kvitas. Jei nustatyta **Ne**, per kitus pradžios balansų finansinius metus sukuriamas vienas kvitas.  
 
-5. Nustatykite parinktį **Nustatyti finansinių metų būseną kaip Uždaryta visam laikui** į Taip arba Ne.
+5. Pasirinkite **Taip** arba **Ne, norėdami** nustatyti **finansinių metų būseną kaip visiškai uždarytą**.
 
-    Jei nustatyta parinktis Taip, finansinių metų būsena bus nustatyta kaip Uždaryta visam laikui.  Kadangi visam laikui uždaryti metai negali būti iš naujo atidaryti, geriausia būtų nustatyti parinktį Ne.  
+Jei nustatyta **Taip**, finansinių metų būsena bus nustatyta visam laikui uždaryta. Kadangi visam laikui uždarytų metų negalima atidaryti iš naujo, geriausia nustatyti šią pasirinktį kaip **Ne**.  
 
-6. Nustatykite parinktį **Kvito numeris turi būti įvestas vykdant uždarymo metų pabaigoje procesą** į Taip arba Ne.
+6. Pasirinkite **Taip** arba **Ne**, jei **norite nurodyti kvito numerį, kuris turi būti užpildytas metų pabaigos uždarymo pasirinkties** metu.
 
-    Jei nustatyta parinktis Taip, kvito numeris turi būti įvestas neautomatiniu būdu vykdant uždarymo metų pabaigoje procesą. Numeracija nėra naudojama generuojant šį kvito numerį. Geriausia šią parinktį nustatyti į Taip.  
+Jei nustatyta **Taip**, kvito numeris turi būti įvestas rankiniu būdu metų pabaigos uždarymo proceso metu. Numeracija nėra naudojama generuojant šį kvito numerį. Geriausia tai nustatyti kaip **Taip**.  
 
 7. Uždarykite puslapį.
 8. Pasirinkite **Didžioji knyga > Laikotarpio uždarymas > Uždarymas metų pabaigoje**.
 9. Spustelėkite **Naujas**, kad sukurtumėte uždarymo metų pabaigoje šabloną.
 
-    Galima kurti šabloną, skirtą juridinių subjektų, kuriems reikia taikyti uždarymo metų pabaigoje procesą, grupėms. Šį šabloną galima naudoti pakartotinai daugelį metų.  
+Galima kurti šabloną, skirtą juridinių subjektų, kuriems reikia taikyti uždarymo metų pabaigoje procesą, grupėms. Šį šabloną galima naudoti pakartotinai daugelį metų.  
 
-10. Lauke **Grupės pavadinimas** įveskite uždarymo metų pabaigoje šablono pavadinimą.
+10. **Lauke Grupės pavadinimas** įveskite metų pabaigos uždarymo šablono pavadinimą.
 11. Lauke **Finansinis kalendorius** pasirinkite finansinius metus, kuriems bus sukurtas šablonas.
 
-    Tik tie juridiniai subjektai, kurie naudoja tuos pačius finansinius metus, gali būti sugrupuoti į uždarymo metų pabaigoje šabloną. Taip yra todėl, kad uždarymas metų pabaigoje atliekamas pasirenkant finansinius metus, o ne datą.  
+Tik tie juridiniai subjektai, kurie naudoja tuos pačius finansinius metus, gali būti sugrupuoti į uždarymo metų pabaigoje šabloną. Taip yra todėl, kad uždarymas metų pabaigoje atliekamas pasirenkant finansinius metus, o ne datą.  
 
 12. Dalyje **Veiksmų sritis** spustelėkite **Įrašyti**.
 13. Skyriuje **Juridiniai subjektai** spustelėkite **Įtraukti**, kad pasirinktumėte šio šablono juridinius subjektus.
     
-    Juridiniai subjektai gali būti įtraukti pasirenkant juridinių subjektus arba pasirenkant organizacijos hierarchiją.  Bus įtraukti tik tie juridiniai asmenys, kurių organizacijos hierarchijoje pasirinktas tas pats finansinis kalendorius.  
+Juridiniai subjektai gali būti įtraukti pasirenkant juridinių subjektus arba pasirenkant organizacijos hierarchiją. Bus įtraukti tik tie juridiniai asmenys, kurių organizacijos hierarchijoje pasirinktas tas pats finansinis kalendorius.  
 
 14. Pasirinkite juridinius subjektus arba organizacijos hierarchiją.
 15. Spustelėkite **Gerai**.
-16. Pasirinkite Taip arba Ne dalyje **Perkelti balanso dimensiją**.
+16. Balanso **dimensijos** balanse **pasirinkite** **Taip arba Ne**.
 
-    Geriausia nustatyti šią parinktį į Taip, jei naudojate balanso sąskaitas. Tokiu būdu finansinės dimensijos liks užregistruotose operacijose, kai kuriami balanso sąskaitų pradžios balansai. Naudodami pelno ir nuostolio sąskaitas galite pasirinkti išsaugoti finansines dimensijas (uždaryti viską), kai balansai perkeliami į nepaskirstytą pelną, arba galite pasirinkti finansines dimensijas pakeisti kita dimensijos reikšme (uždaryti vieną). Jei pasirinksite Uždaryti vieną, galite nurodyti konkrečią kiekvienos dimensijos reikšmę ar net palikti ją tuščią.  
+Geriausia nustatyti šią pasirinktį kaip Taip balanso **sąskaitose**. Tokiu būdu finansinės dimensijos liks užregistruotose operacijose, kai kuriami balanso sąskaitų pradžios balansai. Pelno ir nuostolio sąskaitose galite pasirinkti prižiūrėti finansines dimensijas (**Uždaryti** viską), kai balansai perkeliami į nepaskirstytas pelnas, arba galite pasirinkti, kad finansinės dimensijos būtų pakeistos kita dimensijos reikšme (**uždaryti vieną**). Jei pasirinksite Uždaryti **vieną**, galėsite nurodyti konkrečią kiekvienos dimensijos vertę arba net pasirinkti, kad ji būtų tuščia.  
 
 17. Spustelėkite **Įrašyti**.
 18. Pradėkite uždarymo metų pabaigos procesą, dalyje **Veiksmų sritis** pasirinkdami **Uždaryti finansinį laikotarpį**. Bus vykdomas pasirinkto šablono uždarymo metų pabaigoje procesas.  
 19. Pasirinkite visus arba dalį šablone pateiktų juridinių subjektų, kuriems norite taikyti uždarymo metų pabaigoje procesą.
 
-    Pirmą kartą vykdant uždarymo metų pabaigoje procesą, organizacijos gali vykdyti visų šablono juridinių subjektų uždarymo metų pabaigoje procesą, kad gautų pradžios balansus. Jei po to sukuriami koregavimo įrašai, galite vykdyti tik pakoreguotų juridinių subjektų uždarymo metų pabaigoje procesą.  
+Pirmą kartą vykdant uždarymo metų pabaigoje procesą, organizacijos gali vykdyti visų šablono juridinių subjektų uždarymo metų pabaigoje procesą, kad gautų pradžios balansus. Jei po to sukuriami koregavimo įrašai, galite vykdyti tik pakoreguotų juridinių subjektų uždarymo metų pabaigoje procesą.  
 
 20. Spustelėkite **Gerai**.
 21. Pasirinkite finansinius metus, kuriems norite taikyti uždarymo metų pabaigoje procesą.

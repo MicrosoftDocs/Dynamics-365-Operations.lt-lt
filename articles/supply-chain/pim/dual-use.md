@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 21910c61cc330e0c9292990b7b1914f56bac844c
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 787d0c4ebcf83d6bfec05943f2bb0ddc5961a93a
+ms.sourcegitcommit: e18ea2458ae042b7d83f5102ed40140d1067301a
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7570758"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8736039"
 ---
 # <a name="dual-use-goods"></a>Dvigubo naudojimo prekės
 
@@ -34,7 +34,7 @@ Apgalvokite šiuos scenarijus:
 2. **Išleisto produkto informacijos** puslapis X-100 produktui rodo, kad tai dviejų naudojimų prekė. Kartu, kodas, kategorija, grupė ir režimas rodo eksportavimo valdymo klasifikavimą, kad produktas jiems priklauso.
 3. **Dvigubo naudojimo sertifikatų** puslapis apima sertifikatą X-100 gaminiui, kai jis siunčiamas į Prancūziją. Šis sertifikatas baigia galioti 2020 m sausio 1 d.
 4. 2020 m. birželio 17 d. sukuriate prekybos užsakymą kliento bendrovei, kuri yra Prancūzijoje ir užsakymas apima X-100 produktą.
-5. Kai įrašote prekybos užsakymą, sistema nusprendžia šią informaciją:
+5. Patvirtinus pardavimo užsakymą, sistema nustato šią informaciją:
 
     1. Ar užsakymas apima bet kokius produktus, kurie yra dvigubo panaudojimo prekės?
     2. Jei užsakymas apie dvigubo panaudojimo prekes, ar paskirties šalis reikalauja dvigubo panaudojimo sertifikatų?

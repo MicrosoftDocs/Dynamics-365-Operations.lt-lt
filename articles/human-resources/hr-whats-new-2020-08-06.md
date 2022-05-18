@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-08-06
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: dbcf854330b7c5ba6ca812a5aed384584c05ce8d
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: a8058c1acdde20a1b48130fa1e8b75aa415bafce
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062191"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8691980"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-august-06-2020"></a>Kas nauja ar pasikeitė „Dynamics 365 Human Resources” (2020 m. rugpjūčio 6 d.)
 
@@ -32,7 +31,7 @@ ms.locfileid: "8062191"
 
 ## <a name="platform-update-1001236-is-now-available"></a>Platformos atnaujinimas 10.0.12(36) yra dabar prieinamas
 
-Daugiau informacijos žr [„Finance and Operations“ programų 10.0.12 versijos platformos naujiniai (2020 m. rugpjūčio mėn.)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-10-0-12.md).
+Daugiau informacijos rasite finansų ir [operacijų programėlių 10.0.12 versijos (2020 m. rugpjūčio mėn.) platformos naujinimus](../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-10-0-12.md).
 
 ## <a name="data-management-framework-dmf-entities-for-benefits-management"></a>Duomenų valdymo sistemos (DMF) objektai, skirti išmokų valdymui
  

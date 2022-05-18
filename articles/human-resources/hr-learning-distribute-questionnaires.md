@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: KMConnectionType, KMKnowledgeCollectorPlanningTabel, SysEmailParameters, HcmLearningWorkspace
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: 17424
 ms.assetid: fd8d867a-2446-400a-b91f-ad4085427470
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dbb069110b46c38a994a7be6276137360b14397a
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 3a543d9b85edd493f9b5d5a0449302769c3592f7
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069534"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8695906"
 ---
 # <a name="distribute-and-schedule-questionnaires"></a>Klausimynų planavimas ir platinimas
 
@@ -33,7 +32,7 @@ ms.locfileid: "8069534"
 
 Platinti klausimyną galima keliais būdais.
 
--   Pažymėkite anketą kaip **Aktyvus**. Tada klausimynas prieinamas visiems darbuotojams, nebent nustatyta klausimyno grupė, prie jo ribojanti prieigą.
+-   Pažymėti klausimyną kaip **Aktyvus**. Tada klausimynas prieinamas visiems darbuotojams, nebent nustatyta klausimyno grupė, prie jo ribojanti prieigą.
 -   Priskirkite klausimyno grupės teises. Tada klausimynas prieinamas visiems pasirinktos grupės nariams.
 -   Kurkite suplanuotus atsakymų seansus. Tada klausimynas pasiekiamas tik tam tikram asmeniui.
 -   Sukurkite grafiką. Tada klausimynas gali būti prieinamas keliems žmonėms.
@@ -88,7 +87,7 @@ Nurodyti klausimyno grafiko planavimo tipus galite **Klausimyno grafikų** pusla
 
 Nuorodų tipus galite naudoti norėdami įvesti kriterijus respondentams, kuriuos galbūt pasirinksite planuodami klausimyną. 
 
-Norėdami nustatyti klausimyno nuorodų tipus, naudokite **Nuorodų tipų** puslapį. Kiekvienas nuorodos tipas atitinka lentelę programoje „Microsoft Dynamics 365 Finance“. Kurdami klausimyno grafikus, galite nurodyti atskirus lentelės įrašus arba įrašų, su kuriais klausimynas bus susietas, intervalą. 
+Norėdami nustatyti klausimyno nuorodų tipus, naudokite **Nuorodų tipų** puslapį. Kiekvienas nuorodos tipas atitinka Microsoft Dynamics 365 finansų lentelę. Kurdami klausimyno grafikus, galite nurodyti atskirus lentelės įrašus arba įrašų, su kuriais klausimynas bus susietas, intervalą. 
 
 Pvz., jei pasirenkate Kursų lentelę, galite nuspręsti, kuriam konkrečiam kursui klausimynas bus skirtas. Kai nustatote Kursų lentelės nuorodą, **Kursų** puslapyje tampa prieinami kai kurie laukai ir mygtukai.
 
@@ -111,10 +110,10 @@ Jei naudojate suplanuotą atsakymų seansą, asmenį turite informuoti tiesiogia
 
 ### <a name="notifying-respondents-about-a-scheduling"></a>Respondentų informavimas apie planavimą
 
-Naudodami puslapį **Klausimyno grafikai**, paruoškite ir nusiųskite el. laišką visiems respondentams, kurie priskirti klausimynui. Įveskite el. pašto tekstą **El. paštas darbuotojo savitarnai** skirtuką. Pradėję tvarkaraštį spustelėkite **Funkcijos** &gt; **Siųsti laišką** sugeneruoti ir išsiųsti el. laišką respondentams. Tada respondentai gali prisijungti prie svetainės ir pildyti klausimyną. 
+Naudodami puslapį **Klausimyno grafikai**, paruoškite ir nusiųskite el. laišką visiems respondentams, kurie priskirti klausimynui. Įveskite darbuotojų savitarnos skirtuko el **. laiško** tekstą. Kai grafikas pradėtas, spustelėkite Funkcijos siųsti **el** &gt; **. laišką**, kad sugeneruotumėte ir išsiųskite el. laišką respondentams. Tada respondentai gali prisijungti prie svetainės ir pildyti klausimyną. 
 
 > [!NOTE]
-> Kad galėtumėte naudotis el. pašto funkcijomis, IT administratorius turi įvesti el. pašto nustatymus **Pašto parametrai** puslapį.
+> Kad būtų galima naudoti el. pašto funkciją, jūsų IT administratorius turi įvesti el. pašto parametrus el. pašto **parametrų** puslapyje.
 
 ## <a name="ending-a-scheduled-questionnaire"></a>Suplanuoto klausimyno baigimas
 

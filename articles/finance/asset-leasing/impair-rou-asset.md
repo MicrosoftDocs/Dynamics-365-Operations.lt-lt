@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: b104cec399a368ada64a73688c42476e6fbd9e52
-ms.sourcegitcommit: 304a482dfcc31dcb61849f710ae73432324ddef3
+ms.openlocfilehash: 497739e56c6ce0f4fe0bd4aec889f0782d08fc4a
+ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/29/2021
-ms.locfileid: "7947345"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8720173"
 ---
 # <a name="impair-right-of-use-assets"></a>Naudojimo teise valdomo turto nuvertėjimas
 
@@ -40,7 +40,7 @@ Likęs naudojimo teise valdomo turto likutis bus amortizuotas tiesiogiai, atsiž
 5. Lauke **Likę laikotarpiai** įveskite likusį mėnesių skaičių, kurį norite amortizuoti.
 6. Norėdami peržiūrėti **siūlomą** turto balansą ir finansinį įrašą prieš juos sukurtų arba užregistruotų, nustatykite peržiūros pasirinktį.
 7. Nustatykite parinktį **Uždaryti knygą** į parametrą **Taip**, kad uždarytumėte nuomos knygą. Galite anuliuoti šį veiksmą naudodami nuomos iš naujo **būseną**. Įrašų negalima registruoti pagal uždarytą nuomą, o uždarytos nuomos koreguoti negalima. 
-8. Norėdami **kurti arba registruoti** pablogėjimo įrašą, pasirinkite Registruoti.
+8. Norėdami **kurti** arba registruoti pablogėjimo įrašą, pasirinkite Registruoti.
 
     > [!NOTE]
     > Užregistrus pablogėjimo operaciją, sukuriama nauja knygos versija.

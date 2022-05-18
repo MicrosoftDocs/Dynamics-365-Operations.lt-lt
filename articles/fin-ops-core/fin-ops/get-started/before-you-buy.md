@@ -1,7 +1,7 @@
 ---
 title: Prieš perkant
-description: Nuoseklūs nurodymai, ką daryti norint įsigyti „Dynamics 365 Finance“, „Dynamics 365 Supply Chain Management“ arba „Dynamics 365 Commerce“.
-author: ShellyBakke
+description: Nuoseklios instrukcijos, naudojamos ketinant pirkti "Dynamics 365 Finance" Dynamics 365 Supply Chain Management arba Dynamics 365 Commerce.
+author: sericks007
 ms.date: 11/30/2021
 ms.topic: article
 ms.prod: ''
@@ -10,29 +10,29 @@ audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
 ms.custom: 21761
 ms.search.region: Global
-ms.author: smiller
+ms.author: sericks
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: f994acfb85e5bb7ccb9cbd3e6c0a0f3c4eec318a
-ms.sourcegitcommit: 34113bd588d53b9aed481da060a1c6738fca0eaf
+ms.openlocfilehash: 9c2f658fbf7fd4db38d572ff80e9d500b5548e0a
+ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/30/2021
-ms.locfileid: "7874589"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8713282"
 ---
 # <a name="before-you-buy"></a>Prieš perkant
 
 [!include [banner](../includes/banner.md)]
 
-Kas nauja „Dynamics 365 Finance“, „Dynamics 365 Supply Chain Management“ arba „Dynamics 365 Commerce“? Parengėme nuoseklius nurodymus tiems, kurie dar galutinai neįvertino, ir tiems, kurie jau yra pasirengę įsigyti.
+Naujas Dynamics 365 finansuose, Dynamics 365 Supply Chain Management ar Dynamics 365 Commerce? Parengėme nuoseklius nurodymus tiems, kurie dar galutinai neįvertino, ir tiems, kurie jau yra pasirengę įsigyti.
 
-## <a name="step-one-try-out-finance-and-operations-free-for-30-days"></a>Pirmas veiksmas: išbandykite „Finance and Operations“ nemokamai 30 dienų
+## <a name="step-one-try-out-finance-and-operations-free-for-30-days"></a>Pirmas veiksmas: bandykite „Finance and Operations“ 30 dienų nemokamai
 
-„Dynamics 365 for Finance“, „Dynamics 365 Supply Chain Management“ arba „Dynamics 365 Commerce“ galite bandyti 30 dienų, paprasčiausiai užregistravę savo el. pašto adresą. Į „Finance and Operations“ programų bandomąją versiją įtraukti darbo pradžios vadovai, kuriuose pateiktos nuoseklios instrukcijos, suteikiančios galimybę peržiūrėti konkrečių scenarijų vykdymą. Naudojant produktą galima peržiūrėti ir vykdyti įvairius scenarijus, bet negalima tinkinti. Demonstraciniai duomenys įtraukti siekiant palengvinti naudojimąsi produktu ir paversti patirtį prasmingesne. Likus 3 dienoms iki bandomosios versijos pabaigos bus išsiųstas priminimo el. laiškas. Išsamią informaciją rasite [Registravimasis prenumeratų peržiūros versijai gauti](../../dev-itpro/dev-tools/sign-up-preview-subscription.md#subscribe).
+„Dynamics 365 for Finance“, „Dynamics 365 Supply Chain Management“ arba „Dynamics 365 Commerce“ galite bandyti 30 dienų, paprasčiausiai užregistravę savo el. pašto adresą. Bandomoji finansų ir operacijų programų versija apima užduočių, kurias galima pradėti, vadovus, kurie pateikia nuoseklias instrukcijas, kurios leidžia peržiūrėti konkrečius veiksmo scenarijus. Naudojant produktą galima peržiūrėti ir vykdyti įvairius scenarijus, bet negalima tinkinti. Demonstraciniai duomenys įtraukti siekiant palengvinti naudojimąsi produktu ir paversti patirtį prasmingesne. Likus 3 dienoms iki bandomosios versijos pabaigos bus išsiųstas priminimo el. laiškas. Išsamią informaciją rasite [Registravimasis prenumeratų peržiūros versijai gauti](../../dev-itpro/dev-tools/sign-up-preview-subscription.md#subscribe).
 
 ## <a name="step-two-choose-a-deployment-option"></a>Antras veiksmas: diegimo parinkčių pasirinkimas
 
-Dabar „Finance and Operations“ programas galite diegti debesyje arba kaip vietinę versiją. Debesies įdiegtys siūlo ERP paslaugą, kurią visiškai valdo „Microsoft“, o vietinės įdiegtys atliekamos vietoje, kliento duomenų centre.
+Dabar galite įdiegti finansų ir operacijų programas debesyje arba vietiniame kompiuteryje. Debesies įdiegtys siūlo ERP paslaugą, kurią visiškai valdo „Microsoft“, o vietinės įdiegtys atliekamos vietoje, kliento duomenų centre.
 
 Kaip visuotinio diegimo parinktį pasirinkdami vietinį diegimą, turite atsižvelgti į tolesnius dalykus.
 
@@ -42,7 +42,7 @@ Kaip visuotinio diegimo parinktį pasirinkdami vietinį diegimą, turite atsižv
 - [Vietiniams visuotiniams diegimams taikomi sistemos reikalavimai](system-requirements-on-prem.md).
 
 > [!IMPORTANT]
-> Vietinės visuotinės įdiegtys nepalaikomos jokioje viešojo debesies infrastruktūroje, įskaitant „Microsoft Azure“. Tačiau jie palaikomi paleisti [Microsoft Azure "Stack HCI"](https://azure.microsoft.com/products/azure-stack/hci/) ir [Microsoft Azure "Stack Hub"](https://azure.microsoft.com/products/azure-stack/hub/).
+> Vietinės visuotinės įdiegtys nepalaikomos jokioje viešojo debesies infrastruktūroje, įskaitant „Microsoft Azure“. Tačiau juos galima paleisti su dėklo [Microsoft Azure HCI ir dėklo](https://azure.microsoft.com/products/azure-stack/hci/) hub [Microsoft Azure](https://azure.microsoft.com/products/azure-stack/hub/).
 
 Norėdami gauti daugiau informacijos, žr. [Visuotinio diegimo parinktys](../../dev-itpro/deployment/choose-deployment-type.md).
 
@@ -68,7 +68,7 @@ Norėdami įsigyti vietinę „Finance and Operations“ versiją, turite dirbti
 
 Jei jūsų organizacijoje yra 250 ar daugiau „Dynamics 365“ vartotojų, jus gali dominti [Bendrojo licencijavimo sutartis](https://www.microsoft.com/Licensing/product-licensing/dynamics365).
 
-Naudojant bendrąjį licencijavimą, „Finance and Operations“ programos pasiekiamos per:
+Iš apimties licencijavimo, finansų ir operacijų programas galima rasti:
 
 - „Enterprise“ sutartis
 - „Enterprise“ sutarties prenumerata

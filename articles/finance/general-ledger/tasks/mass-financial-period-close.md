@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerCalendar, LedgerPeriodModuleAccessControlUpdate, SysLookupPicklist, LedgerFiscalCalendarPeriodStatus
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7dac267d2d4ce0824bc47b63b8d07913a8dd7f02bcccc025880701cb4d0bdd3d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0acaad0d6e89fe7c81537e554b36ffb210e5abad
+ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6751282"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8722072"
 ---
 # <a name="mass-financial-period-close"></a>Masinis finansinio laikotarpio uždarymas
 
@@ -26,14 +26,16 @@ ms.locfileid: "6751282"
 
 Šioje temoje aptariama, kaip nustatyti laikotarpį vykdyti fone arba vienu metu visiškai panaikinti laikotarpį arba daugiau nei vieną juridinį asmenį. Be to, užduotyje parodoma, kaip apriboti vartotojų grupę registruoti naudojant konkrečius modulius.
 
-1. Naršymo srityje eikite į **Moduliai > Didžioji knyga > Laikotarpio naikinimas > DK kalendoriai**. Atminkite, kad rodomų juridinių subjektų sąrašas priklauso nuo puslapyje pasirinkto finansinio kalendoriaus. Bus rodomi tik tie juridiniai subjektai, kurie naudoja pasirinktą finansinį kalendorių.
+1. Naršymo srityje eikite į DK **, kai > laikotarpio uždarymą > DK kalendorius**. Atminkite, kad rodomų juridinių subjektų sąrašas priklauso nuo puslapyje pasirinkto finansinio kalendoriaus. Bus rodomi tik tie juridiniai subjektai, kurie naudoja pasirinktą finansinį kalendorių.
 2. Pasirinkite **Redaguoti**.
 3. Pasirinkite laikotarpį, kurio būseną norite keisti.
 4. Pasirinkite juridinius subjektus, kurių būseną norite naujinti. Galite greitai pasirinkti visus juridinius asmenis užžymėję varnelę tinklelio viršutinėje kairėje pusėje.  
 5. Pažymėkite **Naujinti modulio prieigą**, kad nurodytumėte registravimo prieigą pasirinktam moduliui. Kiekviena modulio būsena taip pat gali būti atnaujinta, redaguojant įrašus tinklelyje. Mygtukas yra naudingas, kai norite greitai atnaujinti kelis juridinio subjekto įrašus.  
 6. Modulyje **Taikymas** pasirinkite modulį, kuriam norite naujinti būseną. Spustelėkite **Pažymėti**.
-7. Lygyje **Prieiga** pasirinkite **Visa**, **Nė vienas** arba konkrečią vartotojų grupę. Spustelėkite **Pažymėti**. Visi reiškia, kad visi vartotojai, turintys prieigą redaguoti modulį, gali užregistruoti, jei laikotarpis atidarytas. Niekas reiškia, kad nė vienas vartotojas negali registruoti į modulį, jei laikotarpis atidarytas. Konkreti vartotojų grupė reiškia, kad į modulį registruoti gali tik grupės vartotojai, jei laikotarpis atidarytas.  
-8. Pasirinkite **Naujinti**.
+7. Lygyje **Prieiga** pasirinkite **Visa**, **Nė vienas** arba konkrečią vartotojų grupę. Spustelėkite **Pažymėti**.  
+- **Visi** – visi vartotojai, kurie turi redagavimo prieigą prie modulio, gali registruotis, jei laikotarpis atviras. 
+- **Nėra** – vartotojai negali registruoti modulyje, jei laikotarpis atidarytas. Konkreti vartotojų grupė reiškia, kad į modulį registruoti gali tik grupės vartotojai, jei laikotarpis atidarytas.  
+8. Pasirinkite **Atnaujinti**, 
 9. Pasirinkite kitą laikotarpį, kurio būseną naujinsite.
 10. Pasirinkite juridinius subjektus, kurių laikotarpio būseną norite naujinti.
 11. Pasirinkite **Naujinti laikotarpio būseną** ir nustatykite būseną į **Atidėtas**, **Atviras** arba **Panaikintas visam laikui**. **Atviras** nurodo, kad laikotarpį galima registruoti, jei naudotojas turi prie jo prieigą. **Atidėtas** reiškia, jog laikotarpį negalima registruoti, tačiau laikotarpį galima vėl atverti. **Panaikintas visam laikui** reiškia, jog laikotarpis yra panaikintas ir negali būti atvertas. Koregavimų registruoti negalima. Nėra rekomenduotina nustatyti laikotarpį į **Panaikintas visam laikui**, kol visos korekcijos ir patikrinimai nėra baigti.  

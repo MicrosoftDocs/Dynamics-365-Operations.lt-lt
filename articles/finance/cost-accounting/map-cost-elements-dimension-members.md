@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CAMDimension, CAMDimensionMember, CAMDimensionMapping
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 223234
 ms.assetid: 4c66a231-aed2-48b5-9727-b3eb4fe6e6aa
 ms.search.region: global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: b9ac59f305afd55edfcfb3b47bf38ddd44d92a706904f55a069a6a9fc9050825
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7654f748fb0cfc70d76718f03a235c5d4d13a908
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6728036"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8735470"
 ---
 # <a name="map-cost-element-dimension-members-to-a-common-set-of-dimension-members"></a>Savikainos elemento dimensijos narių susiejimas į bendrą dimensijos narių rinkinį
 
@@ -33,12 +33,12 @@ Jeigu esate pasaulinė įmonė ir atitinkate nustatytus apskaitos reikalavimus, 
 ## <a name="map-cost-element-dimension-members-to-a-common-format"></a>Susieti savikainos elemento dimensijos narius su bendruoju formatu
 Toliau pateikiamame pavyzdyje nurodoma, kaip jūs, kadangi esate savikainos valdytojas, savikainos apskaitoje galite sukurti naują savikainos elemento dimensiją, kurią naudojant savikainos elemento dimensijos nariai iš JAV sąskaitų plano struktūros ir Prancūzijos sąskaitų plano struktūros susiejami su bendruoju savikainos elemento dimensijos narių rinkiniu. Po to naudodami bendrąjį savikainos elemento dimensijos narių rinkinį galite analizuoti savikainos apskaitos didžiojoje knygoje pateiktus savikainos duomenis iš šių dviejų juridinių subjektų.
 
-| Šaltinis: JAV sąskaitų planas                                          | Šaltinis: Prancūzijos sąskaitų planas                                          | Naujas bendrasis savikainos elemento dimensijos narių rinkinys                        |
-|-----------------------------------------------------------------------|---------------------------------------------------------------------------|-------------------------------------------------------------------------|
+| Šaltinis: JAV sąskaitų planas          | Šaltinis: Prancūzijos sąskaitų planas           | Naujas bendrasis savikainos elemento dimensijos narių rinkinys                        |
+|------------------------------------|----------------------------------------------|-------------------------------------------------------------------------|
 | Savikainos elemento dimensijos nariai importuoti iš JAV sąskaitų plano | Savikainos elemento dimensijos nariai importuoti iš Prancūzijos sąskaitų plano | JAV ir Prancūzijos savikainos elemento dimensijos narių susiejimas su bendruoju rinkiniu |
-| 5001: Pardavimai                                                           | 5001: Pardavimai ir reklama                                               | 5000: Pardavimai ir reklama                                             |
-| 5030: Reklama                                                     | 6390: atsargų pirkimas\*                                                    | 7000: Valymo išlaidos                                                 |
-| 7001: Valymo išlaidos                                               | 7001: Kelionės išlaidos                                                      | 7001: Kelionės išlaidos                                                   |
+| 5001: Pardavimai                   | 5001: Pardavimai ir reklama                      | 5000: Pardavimai ir reklama                               |
+| 5030: Reklama             | 6390: atsargų pirkimas\*                          | 7000: Valymo išlaidos                                   |
+| 7001: Valymo išlaidos              | 7001: Kelionės išlaidos                     | 7001: Kelionės išlaidos                                                   |
 
 \*Atsargų pirkimo Prancūzijos savikainos elemento dimensijos narys nesusietas.
 

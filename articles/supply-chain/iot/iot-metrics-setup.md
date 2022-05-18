@@ -1,24 +1,24 @@
 ---
 title: IoT analizės papildiniui skirtų „IoT“ įžvalgoms
 description: Šioje temoje aiškinama, kaip stebėti ir valdyti IoT įžvalgas.
-author: tonyafehr
+author: johanhoffmann
 ms.date: 04/25/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User, Developer, IT Pro
-ms.reviewer: tfehr
+ms.reviewer: kamaybac
 ms.custom: ''
 ms.search.region: Global
-ms.author: tfehr
+ms.author: johanho
 ms.search.validFrom: 2020-04-25
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 85db0211c32ad4e27c3a9a65d2c74c5a39687f9c
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: b67292e45746ee45460141b4be32f2f8f14076ad
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7783103"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8674343"
 ---
 # <a name="set-up-metrics-for-iot-intelligence"></a>IoT analizės papildiniui skirtų „IoT“ įžvalgoms
 
@@ -40,7 +40,7 @@ Jei norite peržiūrėti savo pranešimų laiko serijų diagramas turite nustaty
     > [!NOTE]
     > Atnaujindami vieną iš „Redis“ slapto jungties eilučių, taip pat turite atnaujinti šį laukelį.
 
-4. Eikite į **Gamybos kontrolės \> Užklausas ir ataskaitas \> IoT įžvalgos \> Metrinius raktus**.
+4. Eikite į **Gamybos kontrolės \> Užklausas ir ataskaitas \>IoT įžvalgos \> Metrinius raktus**.
 5. Puslapyje **Metrinių raktų** pasirinkite **Naujinti**.
 6. Dialogo lange **Atnaujinimo metrikos raktų** atkreipkite dėmesį, kad lauke pasirinkta **Vykdyti fone**. Pasirinkite **Gerai**.
 
@@ -64,7 +64,7 @@ Rodoma diagrama.
 
 ## <a name="delete-a-metric-key"></a>Metrikos rakto naikinimas
 
-1. „Supply Chain Management“ eikite į **Gamybos kontrolės \> Užklausas ir ataskaitas \> IoT įžvalgos \> Metrinius raktus**.
+1. „Supply Chain Management“ eikite į **Gamybos kontrolės \> Užklausas ir ataskaitas \>IoT įžvalgos \> Metrinius raktus**.
 2. **Metrinių raktų** puslapyje pasirinkite metrikos raktą, kad jį panaikinsite.
 3. Pasirinkite **Naikinti**.
 

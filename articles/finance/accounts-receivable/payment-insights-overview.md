@@ -8,7 +8,7 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom:
 - "14151"
 - intro-internal
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: d359e3ceef0fb7213d52aeb265da2e75120ae223
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 59613e41eed95c248595be006f13fb2f32854728
+ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984007"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8713224"
 ---
 # <a name="customer-payment-insights-preview"></a>Kliento mokėjimo įžvalgos (peržiūra)
 
@@ -69,7 +69,7 @@ Jei susidomėjote galimybe išbandyti kliento mokėjimo įžvalgas (peržiūra),
 
 ## <a name="privacy-notice"></a>Privatumo pranešimas
 
-Naudojant peržiūrą (1) gali būti naudojama mažiau privatumo ir saugos priemonių negu ir operacijų tarnyba; (2) neįtraukta į šios tarnybos aptarnavimo lygio sutartį; (3) neturėtų būti naudojama asmeniniams duomenims ar kitiems duomenims, kuriems taikomi teisėti arba reguliavimo atitikties Dynamics 365 Finance reikalavimai, apdoroti, o (4) yra ribotas jų palaikymas.
+Naudojant peržiūrą (1) gali būti naudojama mažiau privatumo ir saugos priemonių nei "Dynamics 365" finansų ir operacijų tarnyba; (2) neįtrauktos į šios tarnybos lygio sutartį; (3) neturėtų būti naudojama asmeniniams duomenims ar kitiems duomenims, kuriems taikomi teisinių arba reguliavimo atitikties reikalavimai, apdoroti, o (4) yra ribotas jų palaikymas.
 
 
 

@@ -2,7 +2,7 @@
 title: „Commerce” B2C nuomotojo sąranka
 description: Šioje temoje aprašoma, kaip nustatyti „Azure Active Directory“ („Azure AD“) verslo ir vartotojų (B2C) nuomotojus, skirtus vartotojo svetainės autentifikavimui „Dynamics 365 Commerce“.
 author: BrianShook
-ms.date: 02/11/2022
+ms.date: 05/05/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2020-02-13
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: d4cbb117e47940491266134fb1e2dbe87374d4a3
-ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
+ms.openlocfilehash: 086128091b23ce6ab46dd2dfc0803af38de6bac7
+ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8109894"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8714317"
 ---
 # <a name="set-up-a-b2c-tenant-in-commerce"></a>„Commerce” B2C nuomotojo sąranka
 
@@ -137,9 +137,9 @@ Galite pasirinkti naudoti numatytuosius vartotojų srautus, kuriuos teikia Azure
 
 Norėdami tinkinti vartotojo strategijos puslapius su „Dynamics 365 Commerce“ platformoje sukurtais puslapiais, skaitykite [Pasirinktinių puslapių nustatymas vartotojų prisijungimui](custom-pages-user-logins.md). Daugiau informacijos žr. [Vartotojų patirties sąsajos tinkinimas „Azure Active Directory“ B2C](/azure/active-directory-b2c/tutorial-customize-ui).
 
-### <a name="create-a-sign-up-and-sign-in-user-flow-policy"></a>Prisiregistravimo ir prisijungimo vartotojo srauto strategijos kūrimas
+### <a name="create-a-sign-up-and-sign-in-user-flow-policy"></a>Sukurti prisiregistrėjimo ir prisijungimo vartotojų eigos strategiją
 
-Norėdami sukurti prisiregistravimo ir prisijungimo vartotojo srauto strategiją, atlikite šiuos veiksmus.
+Norėdami sukurti prisijungimo ir prisijungimo vartotojų srautų strategiją, atlikite šiuos veiksmus.
 
 1. „Azure“ portale kairiojoje naršymo srityje pasirinkite **Vartotojo srautai (strategijos)**.
 1. Puslapyje **„Azure AD“ B2C – vartotojo srautai (strategijos)** pasirinkite **Naujas vartotojo srautas**.
@@ -159,7 +159,7 @@ Norėdami sukurti prisiregistravimo ir prisijungimo vartotojo srauto strategiją
 
 1. Pasirinkite **Kurti**.
 
-Tolesniame vaizde pateikiamas „Azure AD“ B2C prisiregistravimo ir prisijungimo vartotojo srauto pavyzdys.
+Toliau pateiktas vaizdas yra Azure AD B2C prisijungimo ir vartotojų prisijungimo srauto pavyzdys.
 
 ![Prisiregistravimo ir prisijungimo strategijos parametrai.](./media/B2CImage_11.png)
 
@@ -245,9 +245,9 @@ Norėdami įtraukti ir nustatyti socialinės tapatybės teikimo įrankį, atliki
 1. Pasirinkite **Nustatyti šį tapatybės teikimo įrankį**, kad būtų atidarytas ekranas **Nustatyti socialinės tapatybės teikimo įrankį**.
 1. Dalyje **Kliento ID** įveskite kliento ID, gautą iš tapatybės teikimo įrankio programos sąrankos.
 1. Dalyje **Kliento paslaptis** įveskite kliento paslaptį, gautą iš tapatybės teikimo įrankio programos sąrankos.
-1. Vartotojo prisiregistravimo ir prisijungimo srauto strategijų pridėjimas:
+1. Pridėkite vartotojų srautą prisijungimo / prisiregistrimo strategijų:
 1. Eikite į **„Azure AD“ B2C – vartotojo srautai (strategijos) \> {jūsų prisiregistravimo ir prisijungimo strategija} \> Tapatybės teikimo įrankiai**.
-1. Norėdami pridėti prisiregistravimo / prisijungimo vartotojo srauto strategiją, pasirinkit kiekvieną tapatybės teikimo įrankį, kurį nustatėte savo sąskaitoje. Norėdami tai atlikti, pasirinkite **Vykdyti vartotoją srautą** kiekvienam tapatybės teikimo įrankiui. Naujame skirtuke bus rodomas registravimosi puslapis, kuriame rodomas naujo tapatybės teikimo įrankio langelis.
+1. Norėdami pridėti prisijungimo / prisiregistrėjimo vartotojo eigos strategiją, pasirinkite kiekvieną nustatytą sąskaitos tapatybės teikėją. Norėdami tai atlikti, pasirinkite **Vykdyti vartotoją srautą** kiekvienam tapatybės teikimo įrankiui. Naujame skirtuke bus rodomas registravimosi puslapis, kuriame rodomas naujo tapatybės teikimo įrankio langelis.
 
 Tolesniame paveiksle pateikiami ekranų **Įtraukti tapatybės teikimo įrankį** ir **Nustatyti socialinės tapatybės teikimo įrankį** „Azure AD“ B2C.
 
@@ -332,27 +332,28 @@ Norėdami įtraukti savo Azure AD B2C nuomininkų programos informaciją į "Com
 
 1. Prisijunkite kaip administratorius prie savo aplinkos „Commerce“ svetainių daryklėje.
 1. Kairiojoje naršymo srityje pasirinkite ir išskleiskite **Nuomotojo parametrai**.
-1. Dalyje **Nuomotojo parametrai** pasirinkite **B2C parametrai**. 
-1. Pagrindiniame lange šalia **B2C programos** pasirinkite **Valdyti**. (Jei jūsų nuomotojas yra įtrauktas į B2C programų sąrašą, jį jau įtraukė ir administratorius. Patikrinkite, ar tolesnio 6 veiksmo elementai sutampa su jūsų B2C programa.)
-1. Pasirinkite **Įtraukti B2C programą**.
+1. Dalyje **Nuomininkų parametrai pasirinkite** Svetainės **autentifikavimo nustatymas**. 
+1. Pagrindiniame lange, šalia svetainės autentifikavimo **šablonų**, pasirinkite **Valdyti**. (Jei jūsų nuomininkas pasirodys svetainės autentifikavimo profilių sąraše, jį jau pridėjo administratorius. Patikrinkite, ar toliau atlikdami 6 veiksmą prekės atitinka jūsų numatytas B2C nustatymo prekes. Naujas profilis taip pat gali būti sukurtas Azure AD naudojant panašius B2C nuomininkus arba programas, kad būtų galima atsižvelgti į neesminius skirtumus, pvz., skirtingas vartotojo strategijos ID).
+1. Pasirinkite Įtraukti **svetainės autentifikavimo šabloną**.
 1. Į rodomą formą įveskite toliau nurodytus privalomus elementus naudodami reikšmes iš B2C nuomotojo ir programos. Neprivalomus laukus (be žvaigždutės) galima palikti tuščius.
 
     - **Programos pavadinimas**: jūsų B2C programos pavadinimas, pavyzdžiui, „Fabrikam B2C“.
     - **Nuomotojo pavadinimas:** B2C nuomotojo pavadinimas (pvz.: naudokite „fabrikam”, jei B2C nuomotojo domenas rodomas kaip „fabrikam.onmicrosoft.com”). 
     - **Pamiršto slaptažodžio strategijos ID**: pamiršto slaptažodžio vartotojo srauto strategijos ID, pavyzdžiui, „B2C_1_PasswordReset“.
-    - **Registracijos / prisijungimo strategijos ID**: registracija ir prisijungimas vartotojo srauto strategijos ID, pavyzdžiui, „B2C_1_signup_signin“.
+    - **Registracijos pasirašant strategijos ID**: prisiregistrėjimo ir prisijungimo vartotojo srauto strategijos ID, pvz., "B2C_1_signup_signin".
     - **Kliento GUID**: B2C programos ID, pavyzdžiui, „22290eb2-c52e-42e9-8b35-a2b0a3bcb9e6“.
     - **Redaguoti profilio strategijos ID**: profilį redaguojančio vartojo srauto strategijos ID, pavyzdžiui, „B2C_1A_ProfileEdit“.
 
 1. Pasirinkite **Gerai**. Dabar sąraše turėtumėte matyti savo B2C programos pavadinimą.
 1. Pasirinkite **Įrašyti**, kad įrašytumėte pakeitimus.
 
+Pasirinktinis **pasirinktinio prisijungimo** domeno laukas turi Azure AD būti naudojamas, tik jei nustatote B2C nuomininko pasirinktinį domeną. Papildomos informacijos ir aplinkybės, susijusios su pasirinktinio domeno **registravimosi lauko** naudojimu, ieškokite [toliau pateikiama papildoma B2C](#additional-b2c-information) informacija.
+
 ### <a name="associate-the-b2c-application-to-your-site-and-channel"></a>B2C programos susiejimas su svetaine ir kanalu
 
 > [!WARNING]
-> Jei jūsų svetainė jau yra susieta su B2C programa, keičiant į kitą B2C programą, bus pašalintos esamos rekomendacijos, nustatytos vartotojams, kurie jau yra prisiregistravę prie šios aplinkos. Pakeitus, bet kokie kredencialai, susieti su šiuo metu priskirta B2C programa, nebus prieinami vartotojams. 
-> 
-> Atnaujinkite B2C programą, tik jei kanalo B2C programą nustatote pirmą kartą arba jei ketinate turėti vartotojų su naujais prisijungimo prie šio kanalo kredencialais naudojant naują B2C programą. Būkite atsargūs susiedami kanalus su B2C programomis ir duokite aiškius pavadinimus programoms. Jei kanalas nėra susiejamas su B2C programa atliekant tolesnius veiksmus, vartotojai, prisijungiantys prie tokio kanalo, kad patektų į jūsų svetainę, bus įvesti į B2C programą, rodomą kaip **numatytoji** B2C programų sąraše **Nuomotojo parametrai \> B2C parametrai**.
+> - Jei jūsų svetainė jau yra susieta su B2C programa, keičiant į kitą B2C programą, bus pašalintos esamos rekomendacijos, nustatytos vartotojams, kurie jau yra prisiregistravę prie šios aplinkos. Pakeitus, bet kokie kredencialai, susieti su šiuo metu priskirta B2C programa, nebus prieinami vartotojams. 
+> - Atnaujinkite B2C programą tik tada, jei kanalo B2C programą nustatote pirmą kartą arba jei ketinate, kad vartotojai vėl prisiregistruotų naudodami naujus šio kanalo kredencialus naudodami naują B2C programą. Būkite atsargūs susiedami kanalus su B2C programomis ir duokite aiškius pavadinimus programoms. Jei kanalas nėra susiejamas su B2C programa atliekant tolesnius veiksmus, vartotojai, prisijungiantys prie tokio kanalo, kad patektų į jūsų svetainę, bus įvesti į B2C programą, rodomą kaip **numatytoji** B2C programų sąraše **Nuomotojo parametrai \> B2C parametrai**.
 
 Norėdami susieti B2C programą su svetainę ir kanalu, atlikite tolesnius veiksmus.
 
@@ -378,6 +379,23 @@ Norėdami gauti daugiau informacijos apie „Azure AD“ B2C sąveikas ir strate
 ### <a name="secondary-admin"></a>Antrinis administratorius
 
 Pasirinktinio antrinio administratoriaus sąskaita gali būti įtraukta į jūsų B2C nuomotojo skyrių **Vartotojai**. Tai gali būti tiesioginė sąskaita arba bendroji sąskaita. Jei reikia bendrinti sąskaitą su komandos ištekliais, galima sukurti bendrąją sąskaitą. Atsižvelgiant į tai, kad „Azure AD“ B2C saugomi duomenys yra jautrūs, bendroji sąskaita turi būti atidžiai stebima pagal jūsų įmonės saugumo praktiką.
+
+### <a name="set-up-a-custom-sign-in-domain"></a>Pasirinktinio prisijungimo domeno nustatymas
+
+Azure AD B2C leidžia nustatyti B2C nuomininkui pritaikytą Azure AD prisijungimo domeną. Instrukcijų ieškokite B2C [pasirinktinių domenų Azure Active Directory įgalintas.](/azure/active-directory-b2c/custom-domain) 
+
+Jei naudojate pasirinktinį prisijungimo domeną, domenas turi būti įvestas į "Commerce" svetainės generatorių.
+
+Norėdami įvesti pasirinktinį prisijungimo domeną svetainės generatoriuje, atlikite šiuos veiksmus.
+
+1. Viršutiniame dešiniajame svetainės generatoriaus kampe pasirinkite svetainės perjungimo priemonę ir pasirinkite Tvarkyti **svetaines**.
+1. Kairiajame naršymo lange pasirinkite nuomininkų **parametrų svetainės \> autentifikavimo nustatymą**.
+1. Skyriuje Svetainės **autentifikavimo profiliai** pasirinkite **Tvarkyti**.
+1. Iškmesdami meniu dešinėje pasirinkite mygtuką Redaguoti (simbolių blokavimas), esantį šalia svetainės autentifikavimo profilio, **kurio** pasirinktinį domeną norite įvesti.
+1. Svetainės autentifikavimo **profilio** **redagavimo** dialogo lange dalyje Registruoti pasirinktinį domeną įveskite pasirinktinį prisijungimo domeną (pvz., "login.fabrikam.com").
+
+> [!WARNING]
+> Kai atnaujinate B2C Azure AD nuomininko pasirinktinį domeną, pakeitimas pakeičia sugeneruoto atpažinimo ženklo nuomininko informaciją. Tada išdavėjo informacija apims pasirinktinį domeną, o ne numatytąjį domeną, pateiktą Azure AD B2C. Kita "**Commerce** Headquarters" išdavėjo konfigūracija ("Retail" ir "**Commerce Headquarters \>\>" nustatymo parametrai "Commerce \>\> Shared Parameters Identity Providers**") pakeičia sistemos sąveiką su svetainės vartotojais, gali sukurti naują kliento įrašą, jei vartotojas autentifikuoja naują išdavėją. Prieš pereinant prie pasirinktinio domeno tiesioginėje B2C aplinkoje, būtina atidžiai patikrinti bet kokius pasirinktinio Azure AD domeno pakeitimus.
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 

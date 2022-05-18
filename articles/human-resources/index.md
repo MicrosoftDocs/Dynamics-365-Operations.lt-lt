@@ -8,7 +8,6 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: DefaultDashboard
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom:
 - "260624"
 - intro-internal
@@ -17,18 +16,18 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8674c228a1e624a79ae210dc6ad5c0f80741570f
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: c867d051f5e32c5f98ea49a92475c6f15427ad54
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8075051"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8692785"
 ---
 # <a name="human-resources-home-page"></a>Personalo skyriaus pagrindinis puslapis
 
 
 
-Šioje temoje pateikiamas pagalbos temų ir kitų „Dynamics 365 Human resources“ išteklių sąrašas. 
+Šioje temoje pateikiamos žinyno temos ir kiti "Dynamics 365" personalo ištekliai. 
 
 Pasirinkite funkcijų sritį, apie kurią norite sužinoti daugiau.
 
@@ -36,9 +35,9 @@ Pasirinkite funkcijų sritį, apie kurią norite sužinoti daugiau.
 - [Personalo valdymas](hr-personnel-departments-jobs-positions.md)
 - [Užduočių tvarkymas](hr-task-mgmt.md)
 - [Atostogos ir neatvykimai](hr-leave-and-absence-overview.md)
-- [Išmokos](hr-benefits-manage-program.md)
+- [Nauda](hr-benefits-manage-program.md)
 - [Išmokų valdymas](hr-benefits-management-overview.md)
-- [Atlyginimų valdymas](hr-compensation-overview.md)
+- [Kompensavimo valdymas](hr-compensation-overview.md)
 - [Darbuotojų tobulinimas](hr-develop-performance-management-overview.md)
 - [Mokymasis](hr-learning-courses.md)
 - [Darbo eigos sistema]( ../fin-ops-core/fin-ops/organization-administration/overview-workflow-system.md?toc=/dynamics365/human-resources/toc.json)
@@ -47,7 +46,7 @@ Pasirinkite funkcijų sritį, apie kurią norite sužinoti daugiau.
 
 ## <a name="dynamics-365-finance"></a>Dynamics 365 Finance
 
-Norėdami gauti informacijos apie Dynamics 365 Finance, matyti [Pagrindinis finansų puslapis](../finance/index.md).
+Informacijos apie "Dynamics 365 Finance" ieškokite pagrindiniame [finansų puslapyje](../finance/index.md).
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 

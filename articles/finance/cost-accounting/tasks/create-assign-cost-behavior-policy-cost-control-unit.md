@@ -1,24 +1,24 @@
 ---
 title: Kurti ir priskirti savikainos veikimo būdo strategiją savikainos kontrolės įtaisui
 description: Išlaidų taisyklė yra išlaidų klasifikavimas kaip fiksuotų arba kintamų.
-author: ShylaThompson
+author: twheeloc
 ms.date: 06/27/2017
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
 ms.search.form: CAMCostBehaviorRule
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 77e79b4959d546fd04c9705220c7f7a4c4a0ffd0621a66553adbe1a85b6cce39
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 653bfb69c4ca118c700755cb95a6b349d2c6bbad
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6712272"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8735148"
 ---
 # <a name="create-and-assign-a-cost-behavior-policy-to-a-cost-control-unit"></a>Kurti ir priskirti savikainos veikimo būdo strategiją savikainos kontrolės įtaisui
 
@@ -28,60 +28,60 @@ Išlaidų taisyklė yra išlaidų klasifikavimas kaip fiksuotų arba kintamų. K
 
 
 ## <a name="create-a-cost-behavior-hierarchy"></a>Sukurkite išlaidų taisyklių hierarchiją
-1. Eikite į Išlaidų apskaita > Dimensijos > Dimensijų hierarchijos.
-2. Spustelėkite Naujas.
-3. Spustelėkite Kurti.
-4. Dimensijų hierarchijos pavadinimo lauke įveskite „Išlaidų taisyklės hierarchija“.
-5. Lauke Dimensija įveskite arba pasirinkite reikšmę.
+1. Eikite **į kaštų > dimensijų > hierarchijas**.
+2. Spustelėkite **Naujas**.
+3. Spustelėkite **Kurti**.
+4. Lauke Dimensijų **hierarchijos pavadinimas** įveskite Išlaidų veikimo būdas hierarchija.
+5. **Lauke Dimensija** įveskite arba pasirinkite vertę.
     * Pasirinkite Savikainos elementai.  
-6. Spustelėkite Įrašyti.
-7. Spustelėkite Peržiūrėti hierarchiją.
-8. Spustelėkite Naujas.
-9. Lauke Mazgo pavadinimas įrašykite reikšmę.
+6. Spustelėkite **Įrašyti**.
+7. Spustelėkite Peržiūrėti **hierarchiją**.
+8. Spustelėkite **Naujas**.
+9. Mazgo **pavadinimo** lauke įveskite vertę.
     * Įveskite Fiksuotą savikainą.  
 10. Medyje pasirinkite „Išlaidų taisyklės hierarchija“.
-11. Spustelėkite Naujas.
-12. Lauke Mazgo pavadinimas įrašykite reikšmę.
+11. Spustelėkite **Naujas**.
+12. Mazgo **pavadinimo** lauke įveskite vertę.
     * Įveskite Kintamą savikainą.  
-13. Spustelėkite Įrašyti.
+13. Spustelėkite **Įrašyti**.
 14. Medyje pasirinkite „Cost behavior hierarchy\Fixed cost“.
-15. Spustelėkite Naujas.
+15. Spustelėkite **Naujas**.
 16. Sąraše pažymėkite pasirinktą eilutę.
-17. Lauke Iš dimensijų nario įveskite arba pasirinkite reikšmę.
-    * Dimensijos narių diapazone gali būti tarpų, tačiau nariai negali persidengti.  
-18. Lauke Dimensijų nariui įveskite arba pasirinkite reikšmę.
-    * Dimensijos narių diapazone gali būti tarpų, tačiau nariai negali persidengti.  
+17. Dimensijos nario **lauke** Iš įveskite arba pasirinkite vertę.
+    * Dimensijų narių diapazone gali būti tarpų, tačiau nariai negali persidengti.  
+18. Lauke Į **dimensijos** narį įveskite arba pasirinkite vertę.
+    * Dimensijų narių diapazone gali būti tarpų, tačiau nariai negali persidengti.  
 19. Medyje pasirinkite „Cost behavior hierarchy\Variable cost“.
-20. Spustelėkite Naujas.
+20. Spustelėkite **Naujas**.
 21. Sąraše pažymėkite pasirinktą eilutę.
-22. Lauke Iš dimensijų nario įveskite arba pasirinkite reikšmę.
-    * Dimensijos narių diapazone gali būti tarpų, tačiau nariai negali persidengti.  
-23. Lauke Dimensijų nariui įveskite arba pasirinkite reikšmę.
-    * Dimensijos narių diapazone gali būti tarpų, tačiau nariai negali persidengti.  
-24. Spustelėkite Įrašyti.
+22. Dimensijos nario **lauke** Iš įveskite arba pasirinkite vertę.
+    * Dimensijų narių diapazone gali būti tarpų, tačiau nariai negali persidengti.  
+23. Lauke Į **dimensijos** narį įveskite arba pasirinkite vertę.
+    * Dimensijų narių diapazone gali būti tarpų, tačiau nariai negali persidengti.  
+24. Spustelėkite **Įrašyti**.
 
 ## <a name="create-the-policy-and-rules"></a>Sukurkite strategiją ir taisykles
-1. Eikite į Išlaidų apskaita > Strategijos > Išlaidų taisyklės strategijos.
-2. Spustelėkite Naujas.
-3. Lauke Strategijos pavadinimas įrašykite reikšmę.
-4. Lauke Savikainos elementų dimensijų hierarchija įveskite arba pasirinkite reikšmę.
+1. Eikite į **kaštų apskaitos > strategijos > išlaidų elgsenos strategijas**.
+2. Spustelėkite **Naujas**.
+3. **Lauke Strategijos pavadinimas** įveskite vertę.
+4. Lauke Išlaidų **elemento dimensijų hierarchija** įveskite arba pasirinkite vertę.
     * Pasirinkite savo ką tik sukurtą strategijos hierarchiją.  
-5. Lauke Savikainos objekto dimensijų hierarchija įveskite arba pasirinkite reikšmę.
+5. Lauke Išlaidų **objekto dimensijų hierarchija** įveskite arba pasirinkite vertę.
     * Pasirinkti organizaciją  
-6. Spustelėkite Įrašyti.
-7. Spustelėkite Naujas.
+6. Spustelėkite **Įrašyti**.
+7. Spustelėkite **Naujas**.
 8. Sąraše pažymėkite pasirinktą eilutę.
-9. Lauke Savikainos elementų dimensijų hierarchijos mazgas įveskite arba pasirinkite reikšmę.
+9. Lauke Išlaidų **elemento dimensijų hierarchijos** mazgas įveskite arba pasirinkite vertę.
     * Išplėskite hierarchiją, kad pasirinktumėte Kintamą savikainą.  
-10. Lauke Savikainos objekto dimensijų hierarchijos mazgas įveskite arba pasirinkite reikšmę.
+10. Lauke Išlaidų **objekto dimensijų hierarchijos** mazgas įveskite arba pasirinkite vertę.
     * Numatytai kintamas procentas yra 100 procentų.  
-11. Spustelėkite Savikainos kontrolės įtaiso strategijos priskyrimai.
-12. Spustelėkite Naujas.
+11. Spustelėkite **išlaidų kontrolės vieneto strategijos priskyrimus**.
+12. Spustelėkite **Naujas**.
 13. Sąraše pažymėkite pasirinktą eilutę.
-14. Lauke Galioja nuo apskaitos datos įveskite datą.
+14. Lauke Galioja **nuo apskaitos** datos įveskite datą.
     * Taisyklės taikomos pagal datą, ir vartotojas arba sistema gali baigti taisyklės galiojimą, jei sukurta naujesnė versija.  
-15. Lauke Savikainos kontrolės įtaisas įveskite arba pasirinkite reikšmę.
-16. Spustelėkite Įrašyti.
+15. Lauke Išlaidų **valdymo vienetas** įveskite arba pasirinkite vertę.
+16. Spustelėkite **Įrašyti**.
 
 
 

@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerClosingSheet
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 14091
 ms.assetid: c64eed1d-df17-448e-8bb6-d94d63b14607
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 04eeb8886d74fa8c633d2ac4e9e47aa28a12ee30
-ms.sourcegitcommit: e06b7d4de6d5ee7ae491d437d6c0365608a5380b
+ms.openlocfilehash: 247c3286124da946937c8afd248a275e5a745044
+ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/06/2021
-ms.locfileid: "7892482"
+ms.lasthandoff: 05/07/2022
+ms.locfileid: "8725239"
 ---
 # <a name="year-end-close"></a>Uždarymas metų pabaigoje
 
@@ -44,7 +44,7 @@ Puslapyje **Pagrindinės sąskaita**
 Puslapio **DK parametrai** dalyje **Finansinių metų uždarymas**:
 
 - Parinktis **Naikinti esamus metų pabaigos įrašus pakartotinai uždarant metus** naudojama nurodant, ar reikia panaikinti praeito uždarymo metų pabaigoje proceso metu sistemos sugeneruotą atidarymo operaciją, kai uždarymo metų pabaigoje procesas yra vykdomas iš naujo. Jei ši parinktis nustatyta į **Taip**, ankstesnės atidarymo ir pasirinktinė uždarymo operacijos bus panaikintos ir bus sukurta nauja atidarymo arba uždarymo operacija, atsižvelgiant į dabartinius balansus. Jei ši parinktis nustatyta į **Ne**, ankstesnės atidarymo ir pasirinktinė uždarymo operacijos išliks ir bus sukurta papildoma atidarymo arba uždarymo operacija, skirta perkelti balansams iš koregavimo operacijų, užregistruotų įvykdžius ankstesnį uždarymo metu pabaigoje procesą.
-- Perkėlimo metu parinktis Kurti uždarymo operacijas naudojama uždaroų finansinių metų uždarymo operacijoms kurti, kad visų pagrindinių sąskaitų balansai būtų **0** (nulis). Jei ši parinktis nustatyta į **Taip**, sukuriamos tiek atidarymo, tiek uždarymo operacijos. Jei ši parinktis nustatyta į **Ne**, kitais finansiniais metais sukuriama tik atidarymo operacija, kad balansai būtų perkelti. Pagrindinės sąskaitos balansai liktų finansinių metų pabaigoje.
+- Perkėlimo **metu parinktis** Kurti uždarymo operacijas naudojama uždaroų finansinių metų uždarymo operacijoms kurti, kad visų pagrindinių sąskaitų balansai būtų 0 (nulis). Jei ši parinktis nustatyta į **Taip**, sukuriamos tiek atidarymo, tiek uždarymo operacijos. Jei ši parinktis nustatyta į **Ne**, kitais finansiniais metais sukuriama tik atidarymo operacija, kad balansai būtų perkelti. Pagrindinės sąskaitos balansai liktų finansinių metų pabaigoje.
 - Parinktis **Nustatyti finansinių metų būseną kaip Uždaryta visam laikui** naudojama būsenai Finansiniai metai uždaryti visam laikui nustatyti. Šią parinktį naudokite atidžiai, nes laikotarpių, turinčių visam laikui uždarytą būseną, negalima atidaryti iš naujo. Todėl koregavimai negali būti registruojami į finansinius metus. Geriausia šią parinktį reikėtų nustatyti į **Ne**.
 - Parinktis **Kvito numeris turi būti užpildytas** buvo pašalinta. Dabar yra reikalingas kvitas, kai vyksta metų pabaigos uždarymo procesas. Tuo metu kvito numeris yra įvedamas rankiniu būdu.
 

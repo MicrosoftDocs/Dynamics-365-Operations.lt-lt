@@ -9,17 +9,16 @@ ms.technology: ''
 ms.search.form: TaxIntegrationTaxServiceParameters
 audience: Application user
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: d2fcc883cc87f785cad2e5f7efbf67888ca38d10
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
-ms.translationtype: HT
+ms.openlocfilehash: 13768988fcb2b1485753b29b3562c20ee6ba35c7
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8644676"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8687763"
 ---
 # <a name="tax-calculation-overview"></a>Mokesčių skaičiavimo apžvalga
 
@@ -27,7 +26,7 @@ ms.locfileid: "8644676"
 
 Mokesčių skaičiavimas yra hiper išplečiama kelių nuomotojų paslauga, įgalinanti „Global Tax Engine“ automatizuoti ir supaprastinti mokesčių nustatymo ir skaičiavimo procesą. Visiškai konfigūruotinas mokesčių modulis. Elementai, kuriuos galima konfigūruoti, apima (bet tuo neapsiribojama) apmokestinamą duomenų modelį, mokesčio kodą, mokesčių taikomumo matricą ir mokesčių skaičiavimo formulę. Mokesčių sistema veikia pagrindinių paslaugų „Microsoft Azure“ platformoje ir siūlo modernias technologiją bei proporcingai keičiamumą.
 
-Mokesčių skaičiavimas integruojamas su "Dynamics 365 Finance" ir Dynamics 365 Supply Chain Management. Galiausiai ji taip pat bus „Dynamics 365 Project Operations“ integruota į, ir kitas pirmosios šalies ir trečiosios šalies „Dynamics 365 Commerce“ programas.
+Mokesčių skaičiavimas integruoja su "Dynamics 365" finansais ir Dynamics 365 Supply Chain Management. Galiausiai ji taip pat bus „Dynamics 365 Project Operations“ integruota į, ir kitas pirmosios šalies ir trečiosios šalies „Dynamics 365 Commerce“ programas.
 
 > [!IMPORTANT]
 > Kai įgalinate papildinį Mokesčių skaičiavimas, kai kurios su susijusiais duomenimis susijusios operacijos gali būti atliekamos ne duomenų centre, kuris tvarko jūsų aptarnavimo duomenis. Prieš įgalindami papildinį Mokesčių skaičiavimas, peržiūrėkite [sąlygas](../../fin-ops-core/fin-ops/get-started/public-preview-terms.md). Mes rūpinamės jūsų privatumu. Norėdami sužinoti daugiau, perskaitykite mūsų [Pareiškimą dėl privatumo](https://go.microsoft.com/fwlink/?LinkId=521839).
@@ -66,7 +65,7 @@ Mokesčių skaičiavimas yra įdiegtas toliau nurodytose „Azure" geografinėse
 > Mokesčių skaičiavimas nepalaiko ankstesnių „Dynamics 365“ versijų, pvz., „Dynamics AX 2012“ ar vietinių „Dynamics 365“ įdiegčių.
 
 ## <a name="versions"></a>Versijos
-Rekomenduojame importuoti ir nustatyti mokesčių skaičiavimo konfigūraciją su versija, atitinkančia jūsų "Finance" arba "Supply Chain Management" versiją.
+Rekomenduojame importuoti ir nustatyti savo mokesčių skaičiavimo konfigūraciją su versija, kuri atitinka jūsų finansų arba tiekimo grandinės valdymo versiją.
 
 | Finansų arba tiekimo grandinės valdymo versija | Mokesčių konfigūracijos versija               |
 | --------------- | --------------------------------------- |
@@ -84,7 +83,7 @@ Rekomenduojame importuoti ir nustatyti mokesčių skaičiavimo konfigūraciją s
 
 ## <a name="data-flow"></a>Duomenų srautas
 
-Čia pateikiama mokesčių skaičiavimo duomenų srauto proceso struktūra. 
+Čia yra mokesčių skaičiavimo duomenų srauto proceso struktūra. 
 
 1. Sprendime RCS peržiūrėkite ir importuokite apmokestinamų dokumentų modelių konfigūracijas bei modelių susiejimo konfigūracijas. Jei konfigūracijas turite išplėsti išplėstiniam scenarijui, žr. [Duomenų laukų įtraukimas į mokesčių konfigūracijas](tax-service-add-data-fields-tax-configurations.md).
 2. Sprendime RCS kurkite arba tvarkykite mokesčių funkcijas. Galite naudoti mokesčių funkcijas, norėdami tvarkyti mokesčių tarifus ir mokesčių taikymo taisykles.

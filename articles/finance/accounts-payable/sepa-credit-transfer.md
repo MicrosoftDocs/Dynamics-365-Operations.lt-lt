@@ -1,6 +1,6 @@
 ---
 title: SEPA kredito pervedimų apžvalga
-description: Šiame straipsnyje pateikiama bendra informacija apie ISO 20022 kredito pervedimus, kurie apima bendros mokėjimų eurais erdvės (SEPA) kredito pervedimus ir bet kurį kitą elektroninį mokėjimą tiekėjams. SEPA kredito pervedimas yra konkretaus tipo mokėjimas eurais iš vienos įmonės ar asmens kitai įmonei ar asmeniui. Temoje taip pat paaiškinta, kaip nustatyti ir perduoti SEPA kredito pervedimo mokėjimo failą.
+description: Šioje temoje pateikiama bendra informacija apie ISO 20022 kredito pervedimus, kurie apima vieno euro mokėjimų srities (SEPA) kredito pervedimus ir visus kitus elektroninius mokėjimus tiekėjams.
 author: sunfzam
 ms.date: 06/20/2017
 ms.topic: overview
@@ -8,7 +8,7 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerJournalTransVendInvoice, LedgerJournalTransVendPaym, VendPaymMode
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom:
 - "11124"
 - intro-internal
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fc37dde8829abdd26a224adbd788538834f4d320
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: f43c45aa4f22f5044e7c10329dafa76226970b3d
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984032"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8734522"
 ---
 # <a name="sepa-credit-transfer-overview"></a>SEPA kredito pervedimų apžvalga
 
 [!include [banner](../includes/banner.md)]
 
-Šiame straipsnyje pateikiama bendra informacija apie ISO 20022 kredito pervedimus, kurie apima bendros mokėjimų eurais erdvės (SEPA) kredito pervedimus ir bet kurį kitą elektroninį mokėjimą tiekėjams. SEPA kredito pervedimas yra konkretaus tipo mokėjimas eurais iš vienos įmonės ar asmens kitai įmonei ar asmeniui. Temoje taip pat paaiškinta, kaip nustatyti ir perduoti SEPA kredito pervedimo mokėjimo failą.
+Šioje temoje pateikiama bendra informacija apie ISO 20022 kredito pervedimus, kurie apima vieno euro mokėjimų srities (SEPA) kredito pervedimus ir visus kitus elektroninius mokėjimus tiekėjams. SEPA kredito pervedimas yra konkretaus tipo mokėjimas eurais iš vienos įmonės ar asmens kitai įmonei ar asmeniui. Temoje taip pat paaiškinta, kaip nustatyti ir perduoti SEPA kredito pervedimo mokėjimo failą.
 
 ## <a name="what-is-a-credit-transfer-message"></a>Kas yra kredito pervedimo pranešimas?
 Kredito pervedimo pranešimas yra reikalavimas, kurį pradedanti pusė (jūsų įmonė) išsiunčia, norėdama perkelti fondus iš savo paties sąskaitos kreditoriui. Yra daug šaliai / regionui būdingų ir bankams būdingų kredito pervedimo pranešimų diegimų. Kai kurie iš jų naudojami vienoje šalyje / regione, o kai kurie tampa stanfatbais. Vienas nusistovėjęs pasaulinis standartas yra ISO 20022 ir jo inicijavimo pranešimai, pvz., Kredito pervedimas. Šioje iliustracijoje pavaizduoti pasirinktų kredito pervedimo pranešimų ryšiai ir draudimas. 
@@ -50,7 +50,7 @@ EPC, kurią sudaro Europos bankai, kuria komercines ir technines SEPA mokėjimo 
 SEPA kredito pervedimas yra mokėjimas iš vienos įmonės ar asmens kitai įmonei ar asmeniui. Mokėjimai turi būti atliekami eurais, ir juose turi būti nurodytas abiejų šalių tarptautinis banko sąskaitos numeris (IBAN) bei banko identifikatoriaus kodas (BIC). (Tarptautinės organizacijos, teikiančios finansinių pranešimų perdavimo paslaugas \[SWIFT\] kodas taip pat vadinamas banko identifikacijos kodu (BIC).) Be to, operacijos išlaidas turi dalintis abi šalys. Kredito pervedimuose, atliekamuose tarp šalių, turi būti naudojami XML failai, atitinkantys ISO 20022 mokėjimų apdorojimo standartus ir XML formatą, kaip nurodo EPC.
 
 ## <a name="how-is-a-credit-transfer-implemented"></a>Kaip kredito pervedimas atliekamas?
-Kredito pervedimo mokėjimo formatas Europos šalyse diegiamas naudojant „Microsoft Dynamics 365 Finance“ elektroninių ataskaitų (ER) ir Mokėjimo būdų funkcijas. Keletas kredito pervedimo formatų, naudojamų kituose regionuose, vis dar naudoja mokėjimo formatų sistemą. Be daugelio kitų formatų, yra dvylika ISO 20022 kredito pervedimo failų formatai, kurie yra pasiekiami. Šie eksportavimo formatai atitinka SEPA ISO 20022 XML standartą. Jie naudojami generuoti mokėjimo pervedimus ne eurais tose šalyse / regionuose, kuriose jie naudojami, ir mokėjimus eurais, kaip nurodyta SEPA kredito pervedimo schemos taisyklių sąvado 8.2 versijoje. Prieš naudodami kredito pervedimus, turite susisiekite su savo banku ir gauti programinę įrangą, kurios reikia norint įkelti elektroninės bankininkystės failus. Tą programinę įrangą naudosite XML failams, kuriuose bus mokėjimo užsakymai, perduoti bankui.
+Kredito pervedimo mokėjimo formatas Europos šalims įdiegtas naudojant elektronines ataskaitas (ER) Microsoft Dynamics ir mokėjimo funkcijų metodus 365 finansuose. Keletas kredito pervedimo formatų, naudojamų kituose regionuose, vis dar naudoja mokėjimo formatų sistemą. Be daugelio kitų formatų, yra dvylika ISO 20022 kredito pervedimo failų formatai, kurie yra pasiekiami. Šie eksportavimo formatai atitinka SEPA ISO 20022 XML standartą. Jie naudojami generuoti mokėjimo pervedimus ne eurais tose šalyse / regionuose, kuriose jie naudojami, ir mokėjimus eurais, kaip nurodyta SEPA kredito pervedimo schemos taisyklių sąvado 8.2 versijoje. Prieš naudodami kredito pervedimus, turite susisiekite su savo banku ir gauti programinę įrangą, kurios reikia norint įkelti elektroninės bankininkystės failus. Tą programinę įrangą naudosite XML failams, kuriuose bus mokėjimo užsakymai, perduoti bankui.
 
 ## <a name="what-credit-transfer-formats-are-currently-supported"></a>Kokie kredito pervedimo formatai šiuo metu palaikomi?
 Visada turite eiti į bendrai naudojamo turto biblioteką „Microsoft Dynamics Lifecycle services“ (LCS) ir peržiūrėti naujausią prieinamų failų, kurių turto tipas yra **GER konfigūracija**, sąrašą. Kitame skyriuje – „Ką turiu nustatyti?“ – pateikiama nuoroda į temą, kurioje paaiškinta, kaip sukurti LCS saugyklą norint peržiūrėti galimas konfigūracijas ir importuoti pasirinktas konfigūracijas.

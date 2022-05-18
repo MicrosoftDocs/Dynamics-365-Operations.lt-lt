@@ -1,6 +1,6 @@
 ---
 title: Darbo jėgos organizavimas naudojant padalinius, užduotis ir pareigas
-description: Šioje temoje aprašoma konceptuali informacija apie padalinius, darbus ir pareigybes, kurios yra žmogiškųjų išteklių organizacijos elementai.
+description: Šioje temoje aprašoma abstrakti informacija apie padalinius, užduotis ir pareigas, kurie yra organizaciniai elementai, išlaikomi personalo skyriuje.
 author: twheeloc
 ms.date: 01/03/2022
 ms.topic: article
@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: HcmJob, HcmPosition, OMOperatingUnit, HcmPersonnelManagementWorkspace
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: 87933
 ms.assetid: eb5dcacb-a5fe-451d-b30a-7ef14da65d81
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 2b4c1efac249b315de25348a104f00a613c32df9
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 717bf7dcbd9a7e19a6dc960648655fdbd3e2465a
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8071757"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8694829"
 ---
 # <a name="organize-your-workforce-by-using-departments-jobs-and-positions"></a>Darbo jėgos organizavimas naudojant padalinius, užduotis ir pareigas
 
@@ -64,7 +63,7 @@ Galite sukurti darbo užduotis, apibūdinančias pagrindines užduotis, kurias a
 
 ### <a name="job-functions"></a>Pareigų funkcijos
 
-Užduoties funkcijos panašios į darbo užduotis. Darbo funkcija apibūdina vieną ar daugiau užduočių, pareigų ar atsakomybių, kurios yra priskirtos darbui. Užduočių funkcijos gali būti priskiriamos užduotims ir naudojamos atlyginimo planų tinkamumo taisyklėms nustatyti ir įgyvendinti. Šioje lentelėje pateikta keletas užduočių funkcijų pavyzdžių.
+Užduoties funkcijos panašios į darbo užduotis. Užduoties funkcija aprašo vieną ar daugiau užduočių, pareigų ar užduočiai priskirtų įsipareigojimų. Užduočių funkcijos gali būti priskiriamos užduotims ir naudojamos atlyginimo planų tinkamumo taisyklėms nustatyti ir įgyvendinti. Šioje lentelėje pateikta keletas užduočių funkcijų pavyzdžių.
 
 | Užduotis           | Užduoties funkcija                                                |
 |---------------|-------------------------------------------------------------|
@@ -100,15 +99,15 @@ Kiekvienoms pareigoms taikomas galiojimo laikas. Šis galiojimo laikas yra nurod
 Kai priskiriate darbuotoją pareigoms, reiškia, kad šios pareigos jau užpildytos. Galite priskirti darbuotojus kelioms pareigoms, tačiau vienu metu tam tikroms pareigoms galima priskirti tik vieną darbuotoją.
 
 ### <a name="reporting-relationships"></a>Ataskaitų ryšiai
-Pareigos yra svarbus žemesniojo organizacijos hierarchijos lygio elementas. **Pareigų** puslapyje galite nurodyti pareigų atskaitingumo ryšius. Priskyrę darbuotoją pareigoms, kurios atskaitingos kitoms pareigoms, sukuriate atskaitingumo ryšį tarp šioms dviems pareigoms priskirtų darbuotojų. Pvz., pareigų „Buhalteris-A“ atstovas atskaitingas pareigų „Apskaitos prižiūrėtojas“ atstovui. Ana Bowman paskiriama į „Apskaitos prižiūrėtojos“ pareigas, o Felixas Hendersonas – „A buhalteris“. Tai reiškia, kad Feliksas Hendersonas atsiskaito Anai Bowman. 
+Pareigos yra svarbus žemesniojo organizacijos hierarchijos lygio elementas. **Pareigų** puslapyje galite nurodyti pareigų atskaitingumo ryšius. Priskyrę darbuotoją pareigoms, kurios atskaitingos kitoms pareigoms, sukuriate atskaitingumo ryšį tarp šioms dviems pareigoms priskirtų darbuotojų. Pvz., pareigų „Buhalteris-A“ atstovas atskaitingas pareigų „Apskaitos prižiūrėtojas“ atstovui. Ana Ana Anaman priskirta pareigų "apskaitos prižiūrėtojas" ir Ana Hendersono pareigos yra priskirtos pareigos "Buhalteris-A". Tai reiškia, kad Tamsos Hendersono ataskaitos Anai Busmanui. 
 
-Jei jūsų organizacijoje naudojama matricos hierarchija ar kita pasirinktinė hierarchija, galite nustatyti pareigų hierarchijų tipus ir įtraukti pareigų ataskaitų ryšius į kiekvieno hierarchijos tipo, kurį nustatote, pareigas. Pavyzdžiui, Olivia Wilson yra „Adventure Works“ generalinė direktorė ir paskirta eiti „generalinės direktorės“ pareigas. Olivia valdo gaminio, naudojamo valdikliams valyti, kūrimą. Olivia reikalauja, kad buhalteris padėtų finansuoti gaminio kūrimą. Todėl ji pasamdė Felixą Hendersoną buhalteriu. Feliksas tiesiogiai atsiskaito Anai Bowman, bet taip pat dirba su Olivia Wilson savo darbu, susijusiu su valdiklių valiklio kūrimo finansais. 
+Jei jūsų organizacijoje naudojama matricos hierarchija ar kita pasirinktinė hierarchija, galite nustatyti pareigų hierarchijų tipus ir įtraukti pareigų ataskaitų ryšius į kiekvieno hierarchijos tipo, kurį nustatote, pareigas. Pavyzdžiui, Oliktorius Yra Adventure Works vadybininkas ir priskirtas "General Manager" vietai. Oliwiija valdo produkto, kuris naudojamas valdikliams išvalyti, vystymas. Oija reikalauja buhalterio, kuris padėtų kurti produktą. Todėl ji įdarbino Darbo hendersoną buhalteriu. Šiuo metu ataskaitos teikia ataskaitas tiesiai AnaJemanui, bet taip pat veikia su Owi atsiskaityme jo darbu, susijusiu su valdiklių elemento vystymui skirtais finansais. 
 
-Ankstesniame pavyzdyje atlikite šias užduotis, kad sukurtumėte darbo santykius tarp Felixo Hendersono ir Anos Bowman:
+Ankstesneme pavyzdyje jūs atbaigsite šias užduotis, norėdami nustatyti darbo ryšį tarp Ana Henderson ir AnaMano:
 1.  Sukurti pasirinktinį pareigų hierarchijos tipą vadinamą „Produktas“, kad būtų sukurta hierarchija, apimanti pareigas, kurių atstovai atsakingi už darbą su produktu.
 2.  Nustatyti generalinio direktoriaus pareigas kaip pareigas, kurioms Buhalteris-A yra atskaitingas Produkto hierarchijoje.
 
-Naudoti **Pozicijos hierarchija** puslapyje, kad pamatytumėte pozicijų ataskaitų struktūrą. Jei turite kelias pozicijų hierarchijas, galite peržiūrėti kiekvieno tipo hierarchijos hierarchiją **Pozicijos hierarchija**. Taip pat galite ieškoti pareigų pagal pareigų ID arba darbuotojo, kuris yra priskirtas toms pareigoms, pavardę. The **Pozicijos hierarchija** yra organizacijos hierarchija.
+Naudokite pareigų **hierarchijos** puslapį pareigų ataskaitų struktūrai peržiūrėti. Jei turite keletą pareigų hierarchijų, galite peržiūrėti kiekvieno hierarchijos tipo pareigų **hierarchiją**. Taip pat galite ieškoti pareigų pagal pareigų ID arba darbuotojo, kuris yra priskirtas toms pareigoms, pavardę. Pareigų **hierarchija** yra organizacijos hierarchija.
 
 ## <a name="date-effective-records"></a>Galiojančių datų įrašai
 Galite nurodyti būsimus kai kurių įrašų pakeitimus. Ši informacija priklauso nuo datos.

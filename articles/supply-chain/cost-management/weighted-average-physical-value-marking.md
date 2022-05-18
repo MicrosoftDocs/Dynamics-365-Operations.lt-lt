@@ -1,7 +1,7 @@
 ---
 title: Svertinis vidurkis su faktine verte ir žymėjimu
 description: Svertinis vidurkis yra atsargų modelis, pagrįstas svertinio vidurkio principu, kai išdavimas iš atsargų įvertinamas taikant vidutinę prekių, kurios gautos į atsargas atsargų uždarymo laikotarpiu, vertę, taip pat – visas iš ankstesnio laikotarpio turimas atsargas.
-author: AndersGirke
+author: JennySong-SH
 ms.date: 02/21/2022
 ms.topic: article
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
@@ -9,15 +9,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.custom: 65501
 ms.search.region: Global
-ms.author: aevengir
+ms.author: yanansong
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6c124716b70be837573506a738ef2034397f2bda
-ms.sourcegitcommit: addae271ddfc5a8b0721c23337f69916153db4cd
+ms.openlocfilehash: 41c80dcdc08432bb68478827c8763735e644aa4a
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/21/2022
-ms.locfileid: "8330231"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8675269"
 ---
 # <a name="weighted-average-with-physical-value-and-marking"></a>Svertinis vidurkis su faktine verte ir žymėjimu
 
@@ -58,9 +58,9 @@ Tiesioginio sudengimo principas sukuria sudengimą tiesiogiai tarp gavimų ir ga
 - 2a. Faktinis atsargų gavimas, kai kiekis yra 10 o išlaidos – 20,00 USD už vienetą.
 - 3a. Faktinis atsargų išdavimas, kai kiekis yra 1, o vieneto savikaina USD 10.00 (finansiškai užregistruotų operacijų svertinis vidurkis).
 - 3b. Finansinis atsargų išdavimas, kai kiekis yra 1, o vieneto savikaina USD 10.00 (finansiškai užregistruotų operacijų svertinis vidurkis).
-- 4a. Faktinis atsargų išdavimas, kai kiekis yra 1 o išlaidos USD 10.00 vienetą (finansiškai užregistruotų operacijų svertinis vidurkis).
+- 4a. Faktinis atsargų išdavimas, kai kiekis yra 1, vieneto kaina USD 10.00 vienetą (finansiškai užregistruotų operacijų s einamasis vidurkis).
 - 4b. Finansinis atsargų išdavimas, kai kiekis yra 1, vieneto kaina USD 10.00 vienetą (finansiškai užregistruotų operacijų s einamasis vidurkis).
-- 5a. Faktinis atsargų išdavimas, kai kiekis yra 1 o išlaidos USD 10.00 vienetą (finansiškai užregistruotų operacijų svertinis vidurkis).
+- 5a. Faktinis atsargų išdavimas, kai kiekis yra 1, vieneto kaina USD 10.00 vienetą (finansiškai užregistruotų operacijų s einamasis vidurkis).
 - 6\. Atsargų uždarymas atliktas. Remdamasi svertinio vidurkio metodu sistema naudoja tiesioginio sudengimo metodą, nes tik vienas gavimas finansiškai atnaujinamas tuo laikotarpiu. Šiame pavyzdyje vienas sudengimas sukuriamas tarp 1b ir 3b ir kitas tarp 1b ir 4b. Nėra koreguojama, nes einamasis vidurkis yra toks pat kaip svertinis vidurkis.
 
 Toliau pateiktoje diagramoje parodyta **operacijų serija pasirinkus svertinio vidurkio atsargų modelį ir tiesioginio sudengimo principą be pasirinkties Įtraukti fizinę** vertę.
@@ -103,7 +103,7 @@ Grafike parodytos šios operacijos:
   - 5b operacija sudengiama 1 kiekiui, kurio suma sudengta USD 30.00.
   - Operacija 7a. Sukurtas 3 kiekiui su sudengta USD 62.00. Ši operacija kompensuoja trijų gavimo operacijų, kurios finansiškai atnaujinamos per laikotarpį, sumą.
 - 7b. Svertinio vidurkio atsargų uždarymo operacijos finansinis gavimas sukuriamas kaip finansiškai užregistruotų gavimų korespondentinė sąskaita.
-  - 3b operacija sudengiama 1 kiekiui, kurio suma sudengta USD 20.67. Ši operacija koreguojama USD 4.67, kad pradinė laikotarpio vertė USD 16.00 20,67, kuri yra finansiškai užregistruotų laikotarpio operacijų svertinis vidurkis.
+  - 3b operacija sudengiama 1 kiekiui, kurio suma sudengta USD 20.67. Ši operacija koreguojama USD 4.67, kad pradinė USD 16.00 vertė būtų 20,67, o tai yra finansiškai užregistruotų laikotarpio operacijų svertinis vidurkis.
   - 7b operacija. Sukurtas 1 kiekiui su sudengta suma, USD 20.67 į 3b korespondentinę sąskaitą. Ši operacija koresponduos vienos išdavimo operacijos, kuri finansiškai atnaujinta per laikotarpį, sumą.
 
 Toliau pateiktoje diagramoje parodyta operacijų serija pasirinkus svertinio vidurkio atsargų modelį **ir suvestinio sudengimo principą be pasirinkties Įtraukti fizinę** vertę.
@@ -133,7 +133,7 @@ Grafike parodytos šios operacijos:
 - 1b. Finansinis atsargų gavimas, kai kiekis yra 10 o išlaidos – 10,00 USD už vienetą.
 - 2a. Faktinis atsargų gavimas, kai kiekis yra 10 o išlaidos – 20,00 USD už vienetą.
 - 3a. Faktinis atsargų išdavimas, kai kiekis yra 1, o vieneto savikaina USD 15.00 (fiziškai ir finansiškai užregistruotų operacijų svertinė vidurkis).
-- 3b. Finansinis atsargų išdavimas, kai kiekis yra 1, o vieneto savikaina USD 15.00 (faktiškai ir finansiškai užregistruotų operacijų svertinė vidurkis).
+- 3b. 1 vieneto, kurio savikaina 1, finansinis išdavimas iš atsargų (USD 15.00 faktiškai ir finansiškai užregistruotų operacijų sąrangos vidurkis).
 - 4a. Faktinis atsargų išdavimas, kai kiekis yra 1, vieneto kaina USD 15.00 vienetą (fiziškai ir finansiškai užregistruotų operacijų sąrangos vidurkis).
 - 4b. Finansinis atsargų išdavimas, kai kiekis yra 1, vieneto kaina USD 15.00 vienetą (fiziškai ir finansiškai užregistruotų operacijų sąrangos vidurkis).
 - 5a. Faktinis atsargų išdavimas, kai kiekis yra 1, vieneto kaina USD 15.00 vienetą (fiziškai ir finansiškai užregistruotų operacijų sąrangos vidurkis).
@@ -166,7 +166,7 @@ Grafike parodytos šios operacijos:
 - 1b. 1 vieneto, kurio kaina 10,00 USD, finansinis gavimas į atsargas.
 - 2a. Faktinis atsargų gavimas, kai kiekis yra 1 o išlaidos – 20,00 USD už vienetą.
 - 2b. Finansinis atsargų gavimas, kai kiekis yra 1 o išlaidos – 22,00 USD už vienetą.
-- 3a. Faktinis atsargų išdavimas, kai kiekis yra 1, o vieneto savikaina USD 16.00 (faktiškai ir finansiškai užregistruotų operacijų svertinė vidurkis).
+- 3a. Faktinis atsargų išdavimas, kai kiekis yra 1, o vieneto savikaina USD 16.00 (fiziškai ir finansiškai užregistruotų operacijų sąrangos vidurkis).
 - 3b. Finansinis atsargų išdavimas, kai kiekis yra 1, o vieneto savikaina USD 16.00 (faktiškai ir finansiškai užregistruotų operacijų svertinė vidurkis).
 - 4a. Faktinis atsargų gavimas, kai kiekis yra 1 o išlaidos – 25,00 USD už vienetą.
 - 5a. Faktinis atsargų gavimas, kai kiekis yra 1 o išlaidos – 30,00 USD už vienetą.
@@ -179,7 +179,7 @@ Grafike parodytos šios operacijos:
   - 5b operacija sudengiama 1 kiekiui, kurio suma sudengta USD 30.00.
   - Operacija 7a. Sukurtas 3 kiekiui su sudengta USD 62.00.  
 - 7b. Svertinio vidurkio atsargų uždarymo operacijos finansinis gavimas sukuriamas kaip finansiškai uždarytų išdavimo operacijų korespondentinė sąskaita.
-  - 3b operacija sudengiama 1 kiekiui, kurio suma sudengta USD 20.67. Ši operacija koreguojama USD 4.67, kad pradinė laikotarpio vertė USD 16.00 20,67, kuri yra finansiškai užregistruotų laikotarpio operacijų svertinis vidurkis.
+  - 3b operacija sudengiama 1 kiekiui, kurio suma sudengta USD 20.67. Ši operacija koreguojama USD 4.67, kad pradinė USD 16.00 vertė būtų 20,67, o tai yra finansiškai užregistruotų laikotarpio operacijų svertinis vidurkis.
   - 7b operacija. Sukurtas 1 kiekiui su sudengta suma, USD 20.67 į 3b korespondentinę sąskaitą.
 
 Toliau pateiktoje diagramoje parodyta operacijų serija pasirinkus svertinio vidurkio atsargų modelį **ir suvestinio sudengimo principą be pasirinkties Įtraukti fizinę** vertę.
@@ -228,7 +228,7 @@ Grafike parodytos šios operacijos:
 - 5a. Faktinis atsargų gavimas, kai kiekis yra 1 o išlaidos – 30,00 USD už vienetą.
 - 5b. Finansinis atsargų gavimas, kai kiekis yra 1 o išlaidos – 30,00 USD už vienetą.
 - 6a. Faktinis atsargų išdavimas, kai kiekis yra 1, o vieneto savikaina USD 23.00 (finansiškai užregistruotų operacijų svertinis vidurkis).
-- 7\. Atsargų uždarymas atliktas. Remiantis žymėjimo principu, pagal kurį naudojamas svertinio vidurkio metodas, pažymėtos operacijos sudengimos viena su kita. Šiame pavyzdyje 3b sudengiama su 2b, o kurso koregavimas USD 6.00 užregistruojamas 3b, kad vertė būtų USD 22.00. Šiame pavyzdyje jokių papildomų sudengimų atlikti negalima, nes uždarymas sukuria tik finansiškai atnaujintų operacijų sudengimą.
+- 7\. Atsargų uždarymas atliktas. Remiantis žymėjimo principu, pagal kurį naudojamas svertinio vidurkio metodas, pažymėtos operacijos sudengimos viena su kita. Šiame pavyzdyje 3b sudengiama su 2b, o kurso koregavimas USD 6.00 užregistruotas 3b, kad vertė būtų USD 22.00. Šiame pavyzdyje jokių papildomų sudengimų atlikti negalima, nes uždarymas sukuria tik finansiškai atnaujintų operacijų sudengimą.
 
 Toliau pateiktoje diagramoje parodyta operacijų serija pasirinkus svertinio vidurkio atsargų modelį su žymėjimu.
 

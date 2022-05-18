@@ -1,6 +1,6 @@
 ---
 title: Paskirstymų apdorojimas
-description: Šioje temoje pateikiama informacija apie paskirstymus, jų apdorojimo parinktis „Microsoft Dynamics 365 Finance“ ir kaip jie gali būti naudojami planuojant biudžetą. Paskirstymai naudojami sumoms paskirstyti tarp kelių DK sąskaitų derinių. Jie padeda užtikrinti, kad išlaidos ar įplaukos paskiriamos tinkamam apskaitos objektui.
+description: Šioje temoje pateikiama informacija apie paskirstymus, Microsoft Dynamics jų apdorojimo 365 finansuose pasirinktis ir apie tai, kaip juos galima naudoti planuojant biudžetą. Paskirstymai naudojami sumoms paskirstyti tarp kelių DK sąskaitų derinių. Jie padeda užtikrinti, kad išlaidos ar įplaukos paskiriamos tinkamam apskaitos objektui.
 author: kweekley
 ms.date: 06/20/2017
 ms.topic: article
@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: AccountingDistribution, LedgerAllocationRule, MainAccount
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 17361
 ms.assetid: 04c8548a-0af9-492b-954b-946b4f8ca023
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0b79282abd0edf86f1a9f39fd869cf1fab28b9a4
-ms.sourcegitcommit: 4f8465729d7ae0bf5150a2785a6140c984c7030e
+ms.openlocfilehash: d300654269ef0ad52140f160f918707397c843ad
+ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/31/2021
-ms.locfileid: "7726997"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8721960"
 ---
 # <a name="process-allocations"></a>Paskirstymų apdorojimas
 

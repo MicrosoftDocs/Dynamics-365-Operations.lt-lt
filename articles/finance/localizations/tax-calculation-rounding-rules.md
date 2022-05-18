@@ -9,18 +9,17 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application user
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 38760879d84d8262cc1e8395c59bcbc0429bc753
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 167db4d836aa754509bb28677916a30901cebbbb
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7347690"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8694180"
 ---
 # <a name="tax-calculation-rounding-rules"></a>Mokesčių skaičiavimo apvalinimo taisyklės
 
@@ -39,7 +38,7 @@ Laukeliai **Apvalinimo tikslumo** ir **apvalinimo metodo** nustato, kaip apvalin
 
 ## <a name="rounding-precision"></a>Apvalinimo tikslumas
 
-Apvalinimo **tikslumo laukai** palaiko vertę, kurios vieta iki šešių dešimtainių dalių. Pavyzdžiui, jei lauke **Apvalinimo tikslumas** į **0,000000**, pskaičiuotos sumos apvalinama iki šešių dešimtainių dalių, tada išsiunčiama „Microsoft Dynamics 365 Finance“. Pavyzdžiui, jei naudojamas **įprastas** apvalinimo metodas, suma apvalinama **987,1234567**, kad **987,123457**.
+Apvalinimo **tikslumo laukai** palaiko vertę, kurios vieta iki šešių dešimtainių dalių. Pavyzdžiui, jei **·** **nustatote apvalinimo tikslumo lauką kaip 0.000000**, apskaičiuotos sumos apvalinama į šešias dešimtaines Microsoft Dynamics dalis ir išsiunčiamos į 365 finansus. Pavyzdžiui, jei naudojamas **įprastas** apvalinimo metodas, suma apvalinama **987,1234567**, kad **987,123457**.
 
 > [!NOTE]
 > Finansai apvalinama pagal valiutos apvalinimo taisykles. Todėl operacijoms rodomos ir įrašytos mokesčių sumos yra paveikiamos ir mokesčių skaičiavimo apvalinimo taisyklių, ir valiutos apvalinimo taisyklių.

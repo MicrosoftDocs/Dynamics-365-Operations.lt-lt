@@ -8,20 +8,20 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CAMDimensionHierarchy,
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 40ae7b61537cdcd1934056b9e289f342e96b57d3eebe5a6e713b2db91310ed9a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 852cfa536ed7e6985ce1f7de612b34e2a492ee07
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6766984"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8735088"
 ---
 # <a name="dimension-hierarchy"></a>Dimensijų hierarchija
 
@@ -203,13 +203,13 @@ Jei ataskaitas kuriate naudodami „Excel“ arba „Power BI“, eksportuojami 
 Toliau pateiktame pavyzdyje nurodoma, kaip dimensijų hierarchija gali atrodyti ataskaitų struktūroje.
 
 | Savikainos objekto dimensijų hierarchija – 1 lygis | Savikainos objekto dimensijų hierarchija – 2 lygis | Savikainos objekto dimensijų hierarchija – 3 lygis | Savikainos objekto dimensijų hierarchija – 4 lygis | Savikainos objekto dimensijų hierarchija – 15 lygis |
-|-------------------------------------------|-------------------------------------------|-------------------------------------------|-------------------------------------------|--------------------------------------------|
-| Organizacija                              | Administratorius                                     | Finansai                                   | CC002                                     |                                            |
-| Organizacija                              | Administratorius                                     | Finansai                                   | CC003                                     |                                            |
-| Organizacija                              | Administratorius                                     | Finansai                                   | CC007                                     |                                            |
-| Organizacija                              | Administratorius                                     | Personalas                                        | CC001                                     |                                            |
-| Organizacija                              | Gamyba                                | Pakuotės                                 | CC005                                     |                                            |
-| Organizacija                              | Gamyba                                | Surinkimas                                  | CC006                                     |                                            |
+|----------------------------------|---------------------------------|-------------------------|-------------------------|----------------------------------------|
+| Organizacija              | Administratorius                 | Finansai                    | CC002              |                                            |
+| Organizacija              | Administratorius                 | Finansai                    | CC003              |                                            |
+| Organizacija              | Administratorius               | Finansai                     | CC007               |                                            |
+| Organizacija              | Administratorius                | Personalas                           | CC001              |                                            |
+| Organizacija              | Gamyba           | Pakuotės                    | CC005             |                                            |
+| Organizacija              | Gamyba          | Surinkimas                      | CC006            |                                            |
 
 ### <a name="update-the-dimension-hierarchies-that-are-used-for-reporting"></a>Ataskaitoms naudojamų dimensijų hierarchijų atnaujinimas 
 
@@ -328,7 +328,7 @@ Prieigos sąrašo hierarchijos parametrai naudojami norint valdyti toliau nurody
 - Power BI:
 
     - Atliekant „Power BI“ vizualizavimą rodomi duomenys
-    - Į „Dynamics 365 Finance“ klientą įtrauktų duomenų „Power BI“ vizualizavimai
+    - Duomenų Power BI vizualizacijos, įdėtos į "Dynamics 365" finansų klientą
 
 > [!NOTE] 
 > - Tam, kad prieigos sąrašo hierarchija galėtų turėti įtakos „Power BI“, turi būti susieta prieigos sąrašo hierarchija ir „Power BI“ eilučių lygio sauga. Daugiau informacijos rasite dalyje [Kaštų apskaitos turinio paketo saugos nustatymas](../../fin-ops-core/dev-itpro/analytics/setup-security-cost-accounting-content-pack.md).

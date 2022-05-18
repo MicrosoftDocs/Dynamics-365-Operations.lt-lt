@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-24
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 424f4a2098e05b4f7dc6fa84df133dda81cc59f0
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 39e7f606ae3c5c0a66764cc3235837380725241f
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8071756"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8690033"
 ---
 # <a name="benefits-management-workspace"></a>Išmokų valdymo darbo sritis
 
@@ -97,7 +96,7 @@ Norėdami peržiūrėti kitą išmokų laikotarpį, pasirinkite jį išskleidži
 Savo veiksmų elementus galite peržiūrėti pasirinkdami plytelę arba skirtuką. Jei pasirinksite skirtuką, galėsite peržiūrėti ir pasirinkti darbuotojus darbo srities puslapio dešinėje.
 Skirtuke **Atidaryta registracija** pateikiama pagrindinė atvirų registracijų proceso metrikos informacija. 
 
-Informacija apie atvirą registraciją bus rodoma 30 dienų prieš **registracijos pradžios datą**. Tai yra nustatyta **Laikotarpiai** nustatyme **Išmokų valdymas** > **Nuorodos** > **Laikotarpiai**, lauke **registracijos pradžios datos**.  Norėdami pakeisti šį nustatymą, eikite į **Žmogiškųjų išteklių bendri parametrai** > **Privalumų valdymas** > **Atidarykite registracijos parinktis** ir atnaujinti **Skaičius** lauke.  
+Informacija apie atvirą registraciją bus rodoma 30 dienų prieš **registracijos pradžios datą**. Tai yra nustatyta **Laikotarpiai** nustatyme **Išmokų valdymas** > **Nuorodos** > **Laikotarpiai**, lauke **registracijos pradžios datos**.  Norėdami pakeisti šį parametrą, eikite **į personalo bendrinamus parametrusBenefits** > **managementOpen** > **registravimo parinktys** ir atnaujinkite **lauko** Numerį.  
 
 Ši informacija yra prieinama skirtuke **Atidaryti registraciją**:
  - Darbuotojai, nepradėję atviro registracijos proceso
@@ -112,11 +111,11 @@ Informacija apie atvirą registraciją bus rodoma 30 dienų prieš **registracij
   > [!NOTE]
   > Jei nenorite sekti plano tipo atviros registracijos eigos, **Plano tipas**, galite neįtraukti eidami į **Išmokų valdymas** > **Nuorodos** > **Darbuotojo savitarnos paslaugos** > **Išmokų planų plytelės nustatymas** ir naujinimas **Sekimo atidarymo įsitraukimo progresas**.  Pavyzdžiui, galite turėti sukurtų planų, kurių **plano tipas** = **Kita**. Šie planai gali būti pasirinktiniai planai, kurių registravimo eigos sekti nenorite. Jei nepasirinksite šio plano tipo, šių tipų planų bus nepaisoma skirtuke Atviras registravimo sekimas arba baigimas **Atviras įsitraukimas** skirtukas. Šis parametras taikomas planų tipui, kuris pasirenkamas visiems laikotarpiams ir juridiniams subjektams.
 
-- **Vykdoma** – vykdoma **išklotinė** dalis pateikia darbuotojų, kurie turi pasirinkimas, skaičių. Vykdoma **išklotinė dalis** yra filtruotas sąrašas, kuriame rodomi tik darbuotojai, kurių bent vienas planas yra atsisakytas arba pasirinktas. Privalomi planai yra ignoruojami ir neįtraukiami, nes jie pasirinkti pagal darbuotojo numatytuosius nustatymus. Galite pereiti nuo šios plytelės, kad pamatytumėte pasirinktus ir atsisakytus planus **Darbuotojų išmokų planų masinis atnaujinimas** puslapį.
+- **Vykdoma** – vykdoma **išklotinė** dalis pateikia darbuotojų, kurie turi pasirinkimas, skaičių. Vykdoma **išklotinė dalis** yra filtruotas sąrašas, kuriame rodomi tik darbuotojai, kurių bent vienas planas yra atsisakytas arba pasirinktas. Privalomi planai yra ignoruojami ir neįtraukiami, nes jie pasirinkti pagal darbuotojo numatytuosius nustatymus. Galite detalizuoti iš šios išklotinės dalies, kad pamatytumėte pasirinktus ir atsisakytas planus darbuotojo **išmokų planų masinio atnaujinimo** puslapyje.
 
 - **Įtrauktas į išmokas** – **įtrauktas į išmokų** išklotinė dalis pateikia darbuotojų, kurie visiškai yra įtraukti į išmokas, skaičių. Įtrauktas į **išmokų išklotinį** tekstą yra filtruotas sąrašas, kuriame rodomi darbuotojai, kurie pasirinko arba atsi siekiant atsisakyti visų planų. Į užklausą nebus įtraukti planai, kurie nėra sekami, kad būtų galima pradėti registraciją **darbuotojų savitarnos parametrų** puslapyje. Galite detalizuoti iš šios išklotinės dalies, kad darbuotojo išmokų planų **puslapyje būtų rodomas** darbuotojų sąrašas.
 
-- **Nepatvirtinti pasirinkimai** – **nepatvirtintų pasirinkimų** išklotinė dalis rodo darbuotojų, kurių planai pasirinkti arba kurių reikia patvirtinti, skaičių. Galite gręžti atgal nuo šios plytelės, kad būtų rodoma **Darbuotojų išmokų planų masinis atnaujinimas** puslapį.
+- **Nepatvirtinti pasirinkimai** – **nepatvirtintų pasirinkimų** išklotinė dalis rodo darbuotojų, kurių planai pasirinkti arba kurių reikia patvirtinti, skaičių. Galite detalizuoti iš šios išklotinės dalies, kad būtų rodomas darbuotojo **išmokų planų masinio naujinimo** puslapis.
 
 **Veikla**
 

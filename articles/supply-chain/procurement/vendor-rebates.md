@@ -1,7 +1,7 @@
 ---
 title: Tiekėjo grąžinimai
 description: Šioje temoje apžvelgiamos dažniausios užduotys, kurias galite norėti atlikti dirbdami su tiekėjų grąžinimais. Tiekėjų grąžinimų funkcija įmonėms padeda geriau valdyti savo tiekėjų grąžinimo programas – automatizuojamos užduotys, reikalingos norint gautus grąžinimus administruoti, sekti ir teikti jų paraiškas.
-author: Henrikan
+author: GalynaFedorova
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -10,15 +10,15 @@ ms.search.form: TAMVendRebateAgreement
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: henrikan
+ms.author: gfedorova
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 2012
-ms.openlocfilehash: ec8d054d023b7e3f6611199e60f661c480d44d57
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: ed41fe18048050ecb80a93e929d66ebc3a2e2441
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7566868"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8672968"
 ---
 # <a name="vendor-rebates"></a>Tiekėjo grąžinimai
 

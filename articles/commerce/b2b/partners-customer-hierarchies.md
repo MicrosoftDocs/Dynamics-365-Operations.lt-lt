@@ -1,5 +1,5 @@
 ---
-title: Valdyti B2B verslo partnerius naudojant klientų hierarchijas
+title: B2B verslo partnerių valdymas naudojant klientų hierarchijas
 description: Šioje temoje aprašoma, kaip naudoti klientų hierarchijas Microsoft Dynamics 365 Commerce, siekiant valdyti verslo partnerius "verslas tarp verslų" (B2B) el. komercijos svetainių.
 author: josaw1
 ms.date: 02/16/2022
@@ -14,14 +14,14 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: d6e594cbb824a8b823912118e99b819585adc45e
-ms.sourcegitcommit: 8bcb9c13eccb14e61c39ca6578d135b64090fad2
+ms.openlocfilehash: 70acdf469be2fcddd9e2bf755e958c1b20ee2fcf
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8313846"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8686576"
 ---
-# <a name="manage-b2b-business-partners-using-customer-hierarchies"></a>Valdyti B2B verslo partnerius naudojant klientų hierarchijas
+# <a name="manage-b2b-business-partners-using-customer-hierarchies"></a>B2B verslo partnerių valdymas naudojant klientų hierarchijas
 
 [!include [banner](../../includes/banner.md)]
 

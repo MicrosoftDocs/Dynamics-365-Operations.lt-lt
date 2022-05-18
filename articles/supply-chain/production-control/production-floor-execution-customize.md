@@ -1,8 +1,8 @@
 ---
 title: Gamybos vietos vykdymo sąsajos tinkinimas
-description: Šioje temoje paaiškinama, kaip išplėsti esamas formas arba sukurti naujas formas ir mygtukus gamybos aukšto vykdymo sąsajai.
+description: Šioje temoje paaiškinama, kaip išplėsti dabartines formas arba sukurti naujas gamybos laiko vykdymo sąsajos formas ir mygtukus.
 author: johanhoffmann
-ms.date: 11/08/2021
+ms.date: 05/04/2022
 ms.topic: article
 ms.search.form: ''
 ms.technology: ''
@@ -11,56 +11,56 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2021-11-08
-ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: 67fb381cbef6f1673afcaa834666b4a859bdf4e6
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.dyn365.ops.version: 10.0.25
+ms.openlocfilehash: ad5037442f27a5068b38613655591f1298808eac
+ms.sourcegitcommit: 28537b32dbcdefb1359a90adc6781b73a2fd195e
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8066551"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8712949"
 ---
 # <a name="customize-the-production-floor-execution-interface"></a>Gamybos vietos vykdymo sąsajos tinkinimas
 
 [!include [banner](../includes/banner.md)]
 
-Kūrėjai gali išplėsti esamas formas arba sukurti savo formas ir mygtukus gamybos grindų vykdymo sąsajai. Pridėjus šių naujų elementų kodą, administratoriai arba parduotuvės vadovai gali lengvai įtraukti juos į sąsają naudodami standartinius konfigūracijos valdiklius.
+Programuotojai gali išplėsti dabartines formas arba sukurti savo formas ir mygtukus gamybos laiko vykdymo sąsajai. Įtraukę šių naujų elementų kodą, administratoriai arba darbo laiko vadybininkai gali lengvai juos įtraukti į sąsają naudodami standartinius konfigūracijos valdiklius.
 
-Pavyzdžiui, čia yra keletas galimų sprendimų, jei reikia naujų stulpelių pagrindinėje formoje:
+Pavyzdžiui, čia yra keletas galimų sprendimų, jei pagrindinėje formoje reikia naujų stulpelių:
 
-- Išplėskite`JmgProductionFloorExecutionMainGrid` formą ir pridėkite norimus laukus.
-- Sukurkite naują formą ir pridėkite ją kaip naują pagrindinį rodinį (skirtuką).
+- Išplėskite `JmgProductionFloorExecutionMainGrid` formą ir pridėkite norimus laukus.
+- Sukurkite naują formą ir pridėkite ją kaip naują pagrindinį rodinį (skirtukas).
 
-## <a name="add-a-new-button-action"></a>Pridėti naują mygtuką (veiksmas)
+## <a name="add-a-new-button-action"></a>Įtraukti naują mygtuką (veiksmas)
 
-Norėdami pridėti naują mygtuką (veiksmą), atlikite šiuos veiksmus, kad sukurtumėte klasę, kuri įgyvendina jūsų pasirinktinį veiksmą.
+Norėdami pridėti naują mygtuką (veiksmą), atlikite šiuos veiksmus, norėdami sukurti klasę, kuri vykdo jūsų pasirinktinį veiksmą.
 
-1. Sukurkite naują klasę, pavadintą`<ExtensionPrefix>_JmgProductionFloorExecution<ActionName>Action`, kur:
+1. Sukurkite naują klasę, pavadintą `<ExtensionPrefix>_JmgProductionFloorExecution<ActionName>Action`, kur:
 
-    - `<ExtensionPrefix>` unikaliai identifikuoja jūsų sprendimą, paprastai naudojant jūsų įmonės pavadinimą.
-    - `<ActionName>` yra unikalus klasės pavadinimas. Paprastai tai nurodo veiksmo rūšį.
+    - `<ExtensionPrefix>` unikaliai identifikuoja jūsų sprendimą, paprastai naudodamas jūsų įmonės pavadinimą.
+    - `<ActionName>` yra unikalus klasės pavadinimas. Paprastai jis identifikuoja veiksmo rūšis.
 
-1. Naujoji klasė turi išplėsti`JmgProductionFloorExecutionAction` klasė.
-1. Nepaisykite visų būtinų metodų.
+1. Nauja klasė turi išplėsti klasę `JmgProductionFloorExecutionAction`.
+1. Nepaisyti visų būtinų metodų.
 
-Norėdami gauti pavyzdžių, pažiūrėkite į šių klasių kodą:
+Pavyzdžių ieškokite šių klasių kode:
 
-- `JmgProductionFloorExecutionBreakAction`– Klasė paprastam veiksmui, kuriam nereikia jokių įrašų.
-- `JmgProductionFloorExecutionReportFeedbackAction`– Klasė, teikianti sudėtingesnes funkcijas.
+- `JmgProductionFloorExecutionBreakAction`– paprasto veiksmo klasė, kuriai nereikia jokių įrašų.
+- `JmgProductionFloorExecutionReportFeedbackAction`– klasė, kuri suteikia sudėtingesnę funkciją.
 
-Kai baigsite, naujas mygtukas (veiksmas) bus automatiškai pateiktas sąraše **Dizaino skirtukai** puslapis Microsoft Dynamics 365 Supply Chain Management. Čia jūs (arba administratorius ar aukšto valdytojas) galite lengvai įtraukti jį į pirminę ar antrinę įrankių juostą, kaip galite pridėti standartinius mygtukus. Instrukcijas žr [Sukurkite gamybos grindų vykdymo sąsają](production-floor-execution-tabs.md).
+Kai baigiate, naujas mygtukas (veiksmas) bus automatiškai įrašytas į " **Microsoft" skirtukų dizaino** puslapį Dynamics 365 Supply Chain Management. Ten jūs (arba administratorius arba aukšto vadybininkas) galite lengvai pridėti ją prie pirminės arba antrinės įrankių juostos, kaip ir standartinių mygtukų pridėjimą. Instrukcijų ieškokite Gamybos [laiko vykdymo sąsajos kūrimas](production-floor-execution-tabs.md).
 
-## <a name="add-a-new-main-view"></a>Pridėti naują pagrindinį vaizdą
+## <a name="add-a-new-main-view"></a>Įtraukti naują pagrindinį rodinį
 
-1. Sukurkite naują formą su norimais elementais ir funkcionalumu. Atminkite, kad ši forma yra nauja forma, o ne plėtinys. Pavadinkite formą`<ExtensionPrefix>_JmgProductionFloorExecution<FormName>`, kur:
+1. Sukurkite naują formą, turi esančią norimus elementus ir funkcijas. Nepamirškite, kad ši forma yra nauja, o ne plėtinys. Pavadinkite formą `<ExtensionPrefix>_JmgProductionFloorExecution<FormName>`, kur:
 
-    - `<ExtensionPrefix>` unikaliai identifikuoja jūsų sprendimą, paprastai naudojant jūsų įmonės pavadinimą.
+    - `<ExtensionPrefix>` unikaliai identifikuoja jūsų sprendimą, paprastai naudodamas jūsų įmonės pavadinimą.
     - `<FormName>` yra unikalus formos pavadinimas.
 
-1. Sukurkite meniu elementą, pavadintą `<ExtensionPrefix>_JmgProductionFloorExecution<FormName>`.
-1. Sukurkite plėtinį, pavadintą`<ExtensionPrefix>_JmgProductionFloorExecution<FormName>_Extension`, kur`getMainMenuItemsList` metodas pratęsiamas įtraukiant į sąrašą naują meniu elementą. Šis kodas rodo pavyzdį.
+1. Kurti meniu elementą, kuris pavadintas `<ExtensionPrefix>_JmgProductionFloorExecution<FormName>`.
+1. Sukurkite plėtinį, pavadintą `<ExtensionPrefix>_JmgProductionFloorExecution<FormName>_Extension` Kur `getMainMenuItemsList` šis metodas buvo išplėstas, įtraukdami naują meniu elementą į sąrašą. Šis kodas rodo pavyzdį.
 
     ```xpp
-    [ExtensionOf(classStr(JmgProductionFloorExecutionForm))]
+    [ExtensionOf(classStr(JmgProductionFloorExecutionMenuItemProvider))]
     public final class <ExtensionPrefix>_JmgProductionFloorExecutionForm<FormName>_Extension{
         static public List getMainMenuItemsList()
         {
@@ -70,25 +70,25 @@ Kai baigsite, naujas mygtukas (veiksmas) bus automatiškai pateiktas sąraše **
         }
     ```
 
-Kai baigsite, naujas pagrindinis vaizdas bus automatiškai pateiktas sąraše **Pagrindinis vaizdas** kombinuotasis langelis **Dizaino skirtukai** Tiekimo grandinės valdymo puslapyje. Čia jūs (arba administratorius ar aukšto valdytojas) galite lengvai pridėti jį prie naujų ar esamų skirtukų, kaip galite pridėti standartinius pagrindinius rodinius. Instrukcijas žr [Sukurkite gamybos grindų vykdymo sąsają](production-floor-execution-tabs.md).
+Kai baigsite, naujas pagrindinis **rodinys** **bus** automatiškai pateiktas tiekimo grandinės valdymo puslapio Dizaino skirtukai lauke Pagrindinis rodinys. Ten jūs (arba administratorius arba aukšto vadybininkas) galite lengvai pridėti jį prie naujų ar esamų skirtukų, kaip ir standartines pagrindines peržiūras. Instrukcijų ieškokite Gamybos [laiko vykdymo sąsajos kūrimas](production-floor-execution-tabs.md).
 
-## <a name="add-a-details-view"></a>Pridėkite išsamios informacijos rodinį
+## <a name="add-a-details-view"></a>Įtraukti informacijos rodinį
 
-1. Sukurkite naują formą su norimais elementais ir funkcionalumu. Atminkite, kad ši forma yra nauja, o ne plėtinys. Pavadinkite formą`<ExtensionPrefix>_JmgProductionFloorExecution<FormName>Detail`, kur: 
+1. Sukurkite naują formą, turi esančią norimus elementus ir funkcijas. Atminkite, kad ši forma yra nauja, o ne plėtinys. Pavadinkite formą `<ExtensionPrefix>_JmgProductionFloorExecution<FormName>Detail`, kur: 
 
-    - `<ExtensionPrefix>` unikaliai identifikuoja jūsų sprendimą, paprastai naudojant jūsų įmonės pavadinimą.
+    - `<ExtensionPrefix>` unikaliai identifikuoja jūsų sprendimą, paprastai naudodamas jūsų įmonės pavadinimą.
     - `<FormName>` yra unikalus formos pavadinimas.
 
-1. Sukurkite meniu elementą, pavadintą `<ExtensionPrefix>_JmgProductionFloorExecution<FormName>Detail`.
-1. Sukurkite plėtinį, pavadintą`<ExtensionPrefix>_JmgProductionFloorExecution<FormName>_Extension`, kur`getDetailsMenuItemList` metodas pratęsiamas įtraukiant į sąrašą naują meniu elementą.
+1. Kurti meniu elementą, kuris pavadintas `<ExtensionPrefix>_JmgProductionFloorExecution<FormName>Detail`.
+1. Sukurkite plėtinį, pavadintą `<ExtensionPrefix>_JmgProductionFloorExecution<FormName>_Extension` Kur `getDetailsMenuItemList` šis metodas buvo išplėstas, įtraukdami naują meniu elementą į sąrašą.
 
-Kai baigsite, naujas išsamios informacijos rodinys bus automatiškai pateiktas sąraše **Išsamios informacijos vaizdas** kombinuotasis langelis **Dizaino skirtukai** Tiekimo grandinės valdymo puslapyje. Čia jūs (arba administratorius ar aukšto valdytojas) galite lengvai pridėti jį prie naujų ar esamų skirtukų, kaip galite pridėti standartinius išsamios informacijos rodinius. Instrukcijas žr [Sukurkite gamybos grindų vykdymo sąsają](production-floor-execution-tabs.md).
+Kai baigiate, naujas išsamios informacijos rodinys **bus automatiškai pateiktas tiekimo grandinės valdymo puslapio** Dizainų skirtukų informacijos rodinio combo **lauke**. Ten jūs (arba administratorius arba laiko vadybininkas) galite lengvai pridėti jį prie naujų ar esamų skirtukų, kaip ir standartinių informacijos rodinių pridėjimą. Instrukcijų ieškokite Gamybos [laiko vykdymo sąsajos kūrimas](production-floor-execution-tabs.md).
 
-## <a name="add-a-numeric-keypad-to-a-form-or-dialog"></a>Pridėkite skaičių klaviatūrą prie formos arba dialogo lango
+## <a name="add-a-numeric-keypad-to-a-form-or-dialog"></a>Įtraukti skaitinę klavišo klaviatūrą į formą arba dialogą
 
-Šiame pavyzdyje parodyta, kaip prie formos pridėti skaičių klaviatūras.
+Toliau pateikiamas pavyzdys rodo, kaip į formą pridėti skaičių klaviatūras.
 
-1. Kiekvienoje formoje esančių skaičių klaviatūros valdiklių skaičius turi būti lygus toje formoje esančių skaičių klaviatūrų skaičiui.
+1. Skaičių klaviatūros valdiklių skaičius, kurį turi sudaryti kiekviena forma, turi būti lygus šioje formoje skaitinių klavišų skaičių.
 
     ```xpp
     private JmgProductionFloorExecutionNumpadController   numpadController1;
@@ -96,7 +96,7 @@ Kai baigsite, naujas išsamios informacijos rodinys bus automatiškai pateiktas 
     private JmgProductionFloorExecutionNumpadController   numpadController3;
     ```
 
-1. Nustatykite kiekvieno skaičių klaviatūros valdiklio veikimą ir kiekvieną skaičių klaviatūros valdiklį prijunkite prie skaitmeninės klaviatūros formos dalies.
+1. Nustatykite kiekvieno skaičių klaviatūros valdiklio elgseną ir kiekvieną skaičių klaviatūros valdiklį prijunkite prie skaičių klaviatūros formos dalies.
 
     ```xpp
     /// <summary>
@@ -116,9 +116,9 @@ Kai baigsite, naujas išsamios informacijos rodinys bus automatiškai pateiktas 
     }
     ```
 
-## <a name="use-a-numeric-keypad-as-a-pop-up-dialog"></a>Naudokite skaičių klaviatūrą kaip iššokantįjį dialogo langą
+## <a name="use-a-numeric-keypad-as-a-pop-up-dialog"></a>Skaitinės klaviatūros klaviatūrą naudoti kaip laikinąjį dialogo langą
 
-Šiame pavyzdyje parodytas vienas iš būdų, kaip nustatyti skaitmeninės klaviatūros valdiklį iškylančiame dialogo lange.
+Toliau pateiktas pavyzdys parodo vieną būdą skaitinio klaviatūros valdiklio nustatyti laikinam dialogo langui.
 
 ```xpp
 private void setupNumpadController()
@@ -129,7 +129,7 @@ private void setupNumpadController()
 }
 ```
 
-Šiame pavyzdyje parodytas vienas iš būdų, kaip iškviesti skaičių klaviatūros iššokantįjį dialogo langą.
+Toliau pateikiamas pavyzdys rodo vieną būdą iškviesti skaitinį klaviatūros laikinąjį langą.
 
 ```xpp
 Args args = new Args();
@@ -142,6 +142,79 @@ formRun.setNumpadController(numpadController);
 numpadController.setValueToNumpad(333.56);
 formRun.run();
 ```
+
+## <a name="add-a-date-and-time-controls-to-a-form-or-dialog"></a>Datos ir laiko valdiklių pridėjimas prie formos arba dialogo
+
+Šiame skyriuje rodoma, kaip pridėti datos ir laiko valdiklius prie formos ar dialogo lango. Jutikliniai datos ir laiko valdikliai įgalina darbuotojus nurodyti datas ir laiką. Toliau pateiktuose ekrano nuotraukaose parodyta, kaip valdikliai paprastai rodomi puslapyje. Laiko valdiklis pateikia ir 12 valandų, ir 24 valandų versijas; rodoma versija bus nustatyta pagal vartotojo abonemento, kuriame veikia sąsaja, nuostatų rinkinį.
+
+![Datos valdiklio pavyzdys.](media/pfe-customize-date-control.png "Datos kontrolės pavyzdys")
+
+![Laiko kontrolės pavyzdys su 12 valandų laikrodžiu.](media/pfe-customize-time-control-12h.png "Laiko kontrolės pavyzdys su 12 valandų laikrodžiu")
+
+![Laiko kontrolės pavyzdys su 24 valandų laikrodžiu.](media/pfe-customize-time-control-24h.png "Laiko kontrolės pavyzdys su 24 valandų laikrodžiu")
+
+Toliau pateiktoje procedūroje pateikiamas pavyzdys, kaip prie formos pridėti datą ir laiko valdiklius.
+
+1. Prie formos pridėkite valdiklį kiekvienam datos ir laiko valdikliui, kuris turi būti formoje. (Valdiklių skaičius turi sulygiti formos datos ir laiko valdiklių skaičių.)
+
+    ```xpp
+    private JmgProductionFloorExecutionDateTimeController  dateFromController; 
+    private JmgProductionFloorExecutionDateTimeController  dateToController; 
+    private JmgProductionFloorExecutionDateTimeController  timeFromController; 
+    private JmgProductionFloorExecutionDateTimeController  timeToController;
+    ```
+
+1. Deklaruoti būtinus kintamuosius (tipo `utcdatetime`).
+
+    ```xpp
+    private utcdatetime fromDateTime;
+    private utcdatetime toDateTime;
+    ```
+
+1. Kurti metodus, kuriuose datos ir laiko atnaujinimas bus atnaujintas datos ir laiko valdiklių. Šiame pavyzdyje rodomas vienas toks metodas.
+
+    ```xpp
+    private void setFromDateTime(utcdatetime _value)
+        {
+            fromDateTime = _value;
+        }
+    ```
+
+1. Nustatykite kiekvieno datos ir laiko valdiklio elgseną ir sujunkite kiekvieną valdiklį su formos dalimi. Toliau pateikiamas pavyzdys rodo, kaip nustatyti datos nuo ir laiko pradžios valdiklių duomenis. Galite pridėti panašų datos ir laiko pabaigos valdiklių kodą (nerodoma).
+
+    ```xpp
+    /// <summary>
+    /// Initializes all date and time controllers, defines their behavior, and connects them with the form parts.
+    /// </summary>
+    private void initializeDateControlControllers()
+    {
+        dateFromController = new JmgProductionFloorExecutionDateTimeController();
+        dateFromController.setDateControlValueToCallerFormDelegate += eventhandler(this.setFromDateTime);
+        dateFromController.parmDateTimeValue(fromDateTime);
+    
+        timeFromController = new JmgProductionFloorExecutionDateTimeController();
+        timeFromController.setDateControlValueToCallerFormDelegate += eventhandler(this.setFromDateTime);
+        timeFromController.parmDateTimeValue(fromDateTime);
+        
+        DateFromFormPart.getPartFormRun().setDateControlController(dateFromController, timeFromController);
+        TimeFromFormPart.getPartFormRun().setTimeControlController(timeFromController, dateFromController);
+        
+        ...
+
+    }
+    ```
+
+    Jei jums reikia datos kontrolės, galite praleisti laiko kontrolės nustatymą ir vietoj jo tiesiog nustatyti datos valdiklį, kaip parodyta šiame pavyzdyje:
+
+    ```xpp
+    {
+        dateFromController = new JmgProductionFloorExecutionDateTimeController();
+        dateFromController.setDateControlValueToCallerFormDelegate += eventhandler(this.setFromDateTime);
+        dateFromController.parmDateTimeValue(fromDateTime);
+    
+        DateFromFormPart.getPartFormRun().setDateControlController(dateFromController, null);
+    }
+    ```
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 

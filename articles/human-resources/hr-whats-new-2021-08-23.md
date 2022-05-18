@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-08-23
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 21c9ee0206bd77a8a2ec42501d64e83077baef09
-ms.sourcegitcommit: 696796ca5635863850ae9ef16fc1fb0fc46ce8f0
+ms.openlocfilehash: 21c3448c373600ffebca82be41fb5849b952dfe1
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/28/2021
-ms.locfileid: "7441680"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8686833"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-august-23-2021"></a>Kas nauja ar pasikeitė „Dynamics 365 Human Resources” 2021 m. rugpjūčio 23 d.
 
@@ -73,7 +72,7 @@ Norėdami gauti visą planuojamų funkcijų ir jų suplanuotų leidimų sąraš�
 
 | Funkcija | Informacija |
 | --- | --- |
-| Platformos atnaujinimas 10.0.21 (45) | Platformos atnaujinimo atmetimas 10.0.21 yra suplanuotas pasirodyti su nauju leidimu 2021 m. spalio 4 d. Dėl daugiau informacijos, žr. [Platformos atnaujinimas „Finance and Operations“ programos 10.0.21 versijai (2021 m. spalio mėn.)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-21). |
+| Platformos atnaujinimas 10.0.21 (45) | Platformos atnaujinimo atmetimas 10.0.21 yra suplanuotas pasirodyti su nauju leidimu 2021 m. spalio 4 d. Daugiau informacijos rasite finansų ir operacijų [programėlių 10.0.21 versijos (2021 m. spalio mėn.) platformos naujinimus](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-21). |
 
 ## <a name="see-also"></a>Taip pat žiūrėkite
 

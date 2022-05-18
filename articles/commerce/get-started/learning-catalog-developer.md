@@ -9,16 +9,15 @@ ms.prod: ''
 ms.technology: ''
 audience: Application user
 ms.reviewer: margoc
-ms.search.scope: Operations
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 8fd6630a92ad9c7ad9b270e99814355fafc5510c
-ms.sourcegitcommit: dca3279a8b7cd5d0bcd4e4a3aa9938b337aa8849
+ms.openlocfilehash: 4c74ce27c120342011c3bee53b0790dbc43a583b
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "7402477"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8694207"
 ---
 # <a name="learning-catalog-for-dynamics-365-commerce-developers"></a>„Dynamics 365 Commerce“ kūrėjų mokymosi katalogas
 
@@ -26,11 +25,11 @@ Ar jums reikia parašyti kodą, kad galėtumėte integruoti su kitais duomenų �
 
 Toliau pateiktas katalogas yra sutvarkytas taip, kad žinios būtų išdėstytos nuo bendrų iki susijusių su konkrečiomis sritimis ir nuo paprasčiausių iki sudėtingiausių. Jeigu turinys pasiekiamas keliais formatais, mes jums pranešime, kad galėtumėte pasirinkti mokymo formatą, kuris geriausiai atitinka jūsų poreikius.
 
-Dėl mokymosi apie funkcijas bendrintas su kitomis „Finance and Operations“ programomis, žr. „[Dynamics 365 Finance“ mokymosi katalogą](../../finance/get-started/learning-catalog-developer.md).
+Su kitomis finansų ir operacijų programėle bendrai naudojamų priemonių ieškokite " [Dynamics 365" finansų mokymosi kataloge](../../finance/get-started/learning-catalog-developer.md).
 
-## <a name="get-started"></a>Pradžia<a name="get-started"></a>
+## <a name="get-started"></a>Pradėta<a name="get-started"></a>
 
-| Turinys  | aprašymas  | Formatuoti  | Ilgis    |
+| Turinys  | Aprašymas  | Formatas  | Ilgis    |
 |---------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|-----------|---------------------------------------------------------------------------|
 | [Sužinokite apie „Microsoft Dynamics 365“ ir „Power Platform“ naudą verslui](/learn/paths/learn-business-value-of-dynamics-365-and-power-platform/)   | Ši mokymosi patirtis jus nusiųs į kelionę, kuri prasideda rodant jums, kaip skaitmeninė transformacija ir verslo programos galios gali pakeisti jūsų verslą. Mes aprašysime, kaip „Dynamics 365“ ir „Power Platform“ jums padeda priimti sprendimus turint informaciją pagal jūsų organizacijos tikslus ir poreikius, per keturių blokų skaitmeninę transformaciją - modernią, vientisą, protingą ir pritaikomą.                                                                    | Laisvai pasirenkamas neribotos trukmės internetinis mokymosi scenarijus | 6,5 valandos |
 | [Darbo su „Dynamics 365 Commerce“ pradžia](/learn/paths/get-started-dynamics-365-commerce/)                                                              | „Dynamics 365 Commerce“, paremtas patikrintomis „Dynamics 365 Retail“ galimybėmis, pristato išsamų daugiakanalį sprendimą, vienijantį operacijų skyrių, parduotuvę, skambučių centrą ir skaitmeninę patirtį. „Dynamics 365 Commerce“ leidžia jums sukurti prekės ženklo lojalumą per personalizuotą kliento įtraukimą, padidinti pajamas su pagerintu darbuotojo produktyvumu, optimizuoti operacijas išlaidų sumažinimui ir vykdyti tiekimo grandinės efektyvumą, galiausiai gauti geresnius verslo rezultatus. | Laisvai pasirenkamas neribotos trukmės internetinis mokymosi scenarijus | 2 valandos   |

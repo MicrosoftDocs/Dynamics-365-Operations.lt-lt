@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 7d7151c28d124420638dc4e69a8ab5359ecf443c
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
-ms.translationtype: HT
+ms.openlocfilehash: 89ec876c9bd967107635eb2955209a4dcb95cde5
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8644561"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8712180"
 ---
 # <a name="adjust-leases"></a>Nuomos koregavimas
 
@@ -136,17 +136,17 @@ Jei nuoma buvo pakoreguota, galite peržiūrėti skirtingas jos versijas. Taip p
 
 ## <a name="adjust-a-lease-book"></a>Nuomos knygos koregavimas
 
-Atlikite šiuos veiksmus, kad pakoreguotumėte tik nuomos knygą.
+Norėdami koreguoti tik nuomos knygą, atlikite šiuos veiksmus.
 
-1. Eikite į **Turto lizingo** \> **nuomos nuomos** \> **santrauką**.
+1. Eiti į turto **nuomos** \> **nuomos suvestinę.** \> **·**
 2. Pasirinkite ir atidarykite nuomą.
-3. **Puslapyje Išsami nuomos informacija** pasirinkite **Knygos**.
-4. **Puslapio Išsami knygos informacija** veiksmų srities grupėje Prižiūrėti **pasirinkite** **Koreguoti knygą**. 
-5. Pašalinkite mokėjimo grafiko eilutes.
-6. Lauke **Nuomos modifikavimo data** įveskite modifikavimo datą. Tada apsvarstykite galimybę pašalinti visus papildomus turto / įsipareigojimų aspektus (pradines tiesiogines išlaidas, nuomos paskatas, nuomos išankstinį apmokėjimą, išmontavimo išlaidas ir likutinės vertės garantiją), jei tokių yra. 
-7. Kad išvengtumėte netikslių nuomos koregavimo skaičiavimų, įtraukite naujas mokėjimo grafiko eilutes naujoms mokėjimo datoms, atitinkančioms modifikavimo datą. 
+3. Nuomos informacijos **puslapyje** pasirinkite **Knygos**.
+4. Informacijos apie **knygas** puslapyje, veiksmų srityje, grupėje Tvarkyti **pasirinkite** Koreguoti **knygą**. 
+5. Pašalinti mokėjimo grafiko eilutes.
+6. Lauke Nuomos **modifikavimo** data įveskite modifikavimo datą. Tada apsvarstyti galimybę pašalinti visas papildomas turto ir (arba) įsipareigojimų aplinkybes (pradines tiesiogines išlaidas, skatinamąją nuomą, išankstinio apmokėjimo nuomą, išmontavimo išlaidas ir likutinės vertės garantiją), jei jų yra. 
+7. Norėdami išvengti nuomos koregavimo suplanuotų skaičiavimų, pridėkite naujų mokėjimo grafiko eilučių, kurios atitinka modifikavimo datą. 
 
 > [!NOTE] 
-> Rekomenduojame naudoti nuomos koregavimo **vedlį** nuomai koreguoti. Vedlys sumažina neautomatinių veiksmų skaičių, pateikia balansų peržiūrą po koregavimo ir leidžia keisti sumas prieš registruojant.
+> Nuomos koregavimui koreguoti rekomenduojame **naudoti** nuomos koregavimo vedlį. Vedlys sumažina neautomatinių veiksmų skaičių, pateikia balansų peržiūrą po koregavimo ir leidžia keisti sumas prieš registruojant.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

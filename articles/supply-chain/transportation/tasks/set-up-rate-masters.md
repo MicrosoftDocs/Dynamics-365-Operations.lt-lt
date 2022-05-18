@@ -1,7 +1,7 @@
 ---
 title: Pagrindinių tarifų nustatymas
 description: Ši procedūra nurodo, kaip nustatyti pagrindinį tarifą.
-author: Henrikan
+author: Weijiesa
 ms.date: 10/16/2020
 ms.topic: business-process
 ms.prod: ''
@@ -11,15 +11,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: henrikan
+ms.author: weijiesa
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e6177458f2fc4651a10353afaa6f59ba6da4e28b
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 6e707d226894c3cd647094556bfcc017347cb7f6
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567708"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8675521"
 ---
 # <a name="set-up-rate-masters"></a>Pagrindinių tarifų nustatymas
 

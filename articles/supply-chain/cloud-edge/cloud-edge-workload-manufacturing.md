@@ -1,7 +1,7 @@
 ---
 title: Gamybos vykdymo darbo apkrovos debesies ir krašto skalės vienetams
 description: Ši tema aprašo, kaip dirbti su gamybos vykdymo darbo apkrovos debesies ir krašto skalės vienetais.
-author: cabeln
+author: johanhoffmann
 ms.date: 10/06/2020
 ms.topic: article
 ms.prod: ''
@@ -13,26 +13,26 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: SCM
-ms.author: cabeln
+ms.author: johanho
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 633740ee1e26d2e4ed2ea7031ef298fb11c2ab58
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: b30e16489b0b0169f08e52c70cf4489c9bf4ce1b
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8068849"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8674060"
 ---
 # <a name="manufacturing-execution-workloads-for-cloud-and-edge-scale-units"></a>Gamybos vykdymo darbo krūviai, skirti debesies ir briaunos skalės vienetams
 
 [!include [banner](../includes/banner.md)]
 
 > [!IMPORTANT]
-> Gamybos vykdymo darbo krūvis šiuo metu pasiekiamas tik peržiūros režimu.
+> Gamybos vykdymo darbo krūvį šiuo metu galima naudoti tik peržiūroje.
 >
 > Kai kurios verslo funkcijos nėra visiškai palaikomos viešoje peržiūroje, kai darbo apkrovos skalės vienetai yra naudojami.
 >
-> Negalite paleisti peržiūros gamybos vykdymo darbo krūvio masto vienete, kuriame taip pat įdiegtas sandėlio vykdymo darbo krūvis.
+> Negalima vykdyti gamybos vykdymo darbo krūvio peržiūros skalės vienete, kuriame taip pat įdiegtas sandėlio vykdymo darbo krūvis.
 
 Vykstant gamybai, skalės vienetai suteikia šias galimybes:
 
@@ -132,21 +132,21 @@ Dabartiniame leidime sandėlio vykdymo darbo krūvis palaiko operacijas kaip bai
 
  -->
 
-## <a name="enable-and-use-the-start-operation-on-a-scale-unit"></a>Įjunkite ir naudokite paleidimo operaciją svarstyklių bloke
+## <a name="enable-and-use-the-start-operation-on-a-scale-unit"></a>Įjungti ir naudoti pradžios operaciją svarstyklių vienetais
 
-Dabartiniame leidime gamybos ir paketinių užsakymų pradžios operaciją palaiko [sandėlio vykdymo darbo krūvis](cloud-edge-workload-warehousing.md) (ne gamybos vykdymo darbo krūvis). Todėl norėdami naudoti šią funkciją, kai esate prisijungę prie svarstyklių bloko, turite atlikti šias užduotis:
-
-- Įdiekite sandėlio vykdymo darbo krūvį ir gamybos vykdymo darbo krūvį savo skalės vienete.
-- Įjungti *Pradėkite gamybos užsakymą dėl sandėlio valdymo darbo krūvio debesies ir krašto masto vienetui* funkcija in [Funkcijų valdymas](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
-- Naudokite Sandėlio valdymo programą mobiliesiems, kad pradėtumėte gamybą arba partijos užsakymą.
-
-## <a name="enable-and-use-material-consumption-on-a-scale-unit"></a>Įjungti ir naudoti medžiagų sunaudojimą svarstyklių vienete
-
-Dabartiniame leidime Sandėlio valdymo mobiliosios programėlės srautą, skirtą medžiagų suvartojimui registruoti, palaiko [sandėlio vykdymo darbo krūvis](cloud-edge-workload-warehousing.md) (ne gamybos vykdymo darbo krūvis). Todėl norėdami naudoti šią funkciją, kai esate prisijungę prie svarstyklių bloko, turite atlikti šias užduotis:
+Šiame leidime gamybos ir paketinių užsakymų pradžios operaciją palaiko [sandėlio vykdymo darbo krūvis](cloud-edge-workload-warehousing.md) (ne gamybos vykdymo darbo krūvis). Todėl norėdami naudoti šią funkciją kai esate prisijungę prie svarstyklių vieneto, turite atlikti šias užduotis:
 
 - Įdiekite sandėlio vykdymo darbo krūvį ir gamybos vykdymo darbo krūvį savo skalės vienete.
-- Įjungti *Užregistruokite medžiagų suvartojimą mobiliojoje programėlėje ant svarstyklių vieneto* funkcija in [Funkcijų valdymas](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
-- Norėdami registruoti medžiagų suvartojimą, naudokite Sandėlio valdymo mobiliąją programėlę.
+- Funkcijų valdymo funkcijai *debesies ir kraštų skalės vieneto funkcijai įjungti sandėlio valdymo darbo* krūvį Pradėti [gamybos užsakymą](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+- Norėdami pradėti gamybos arba paketinį užsakymą naudokite sandėlio valdymo mobiliąją programą.
+
+## <a name="enable-and-use-material-consumption-on-a-scale-unit"></a>Įgalinti ir naudoti medžiagų suvartojimą svarstyklių vienetais
+
+Dabartiniame leidime sandėlio [valdymo](cloud-edge-workload-warehousing.md) mobiliosios programos srautą medžiagų suvartojimui registruoti palaiko sandėlio vykdymo darbo krūvis (ne gamybos vykdymo darbo krūvis). Todėl norėdami naudoti šią funkciją kai esate prisijungę prie svarstyklių vieneto, turite atlikti šias užduotis:
+
+- Įdiekite sandėlio vykdymo darbo krūvį ir gamybos vykdymo darbo krūvį savo skalės vienete.
+- Įgalinkite *registruoti medžiagų suvartojimą mobilioje programoje skalės vieneto* funkcija, kuri yra [Funkcijų valdymas](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+- Naudokite sandėlio valdymo mobiliąją programą medžiagų suvartojimui registruoti.
 
 [!INCLUDE [cloud-edge-privacy-notice](../../includes/cloud-edge-privacy-notice.md)]
 

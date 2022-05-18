@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-04-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d91ef244f8dd48baf65f5633357a7d81a68f84621b20d39d4e0ee771283a2bab
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 19ac856de0fed9253bf79cb4c06d4347e5a19c77
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6741362"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8693478"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-april-5-2021"></a>Kas nauja arba pasikeitė 2021 m. balandžio 5 d. „Dynamics 365 Human Resources”
 
@@ -72,7 +71,7 @@ Toliau pateiktos naujos funkcijos yra peržiūrimos. Daugiau informacijos apie f
 | Funkcija | Informacija |
 | --- | --- |
 | Vadovo įvesti įgūdžiai savo darbuotojams gali būti automatiškai patvirtinami darbo eigos | Greitai bus išleista. |
-| Platformos atnaujinimas 10.0.17 (41) | Platformos atnaujinimas 10.0.17 yra suplanuotas pasirodyti su nauju leidimu 2021 m. balandžio 19 d. Daugiau informacijos rasite [Platformos atnaujinimai, skirti „Finance and Operations“ programų 10.0.17 versijai (2021 m. balandis)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-17.md). |
+| Platformos atnaujinimas 10.0.17 (41) | Platformos atnaujinimas 10.0.17 yra suplanuotas pasirodyti su nauju leidimu 2021 m. balandžio 19 d. Daugiau informacijos rasite finansų ir [operacijų programėlių 10.0.17 versijos platformos atnaujinimų (2021 m. balandžio mėn.)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-17.md). |
 
 Norėdami gauti visą planuojamų funkcijų ir jų suplanuotų leidimų sąrašą, žr. [„Dynamics 365 Human Resources” 2021 m. 1-os leidimo bangos apžvalga](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/).
 

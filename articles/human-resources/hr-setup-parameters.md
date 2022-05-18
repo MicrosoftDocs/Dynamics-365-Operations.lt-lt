@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: HRMParameters, HcmPersonnelManagementWorkspace
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: 51941
 ms.assetid: 2cfb061a-a616-4bf9-9d98-9cde00039eec
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: fd9bb907f95ba4c368871a470ca9b2bc807646ee
-ms.sourcegitcommit: 7e0e2a266d9a9473df72e207554d9bd150e17ce3
+ms.openlocfilehash: 1fc8ba3f69f216d66850485b6ba33cd324a57156
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "7771440"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8689416"
 ---
 # <a name="configure-human-resources-parameters"></a>„Human Resources“ parametrų konfigūravimas
 
@@ -65,13 +64,13 @@ Skirtuko **Bendra** parametrai apibrėžia informacijos apie neatvykimą, sužal
 
 Skirtuko **Įdarbinimas** parametrai apibrėžia dokumentų tipus, naudojamus pretendentams siunčiamai korespondencijai. Taip pat galima nurodyti įdarbinimo projektą, naudojamą neprašytoms paraiškoms.
 
-Laikotarpis, nustatytas įdarbinimo projekto s skirstymo pagal terminus metu, lemia, kurie įdarbinimo projektai įtraukiami į skirstymo pagal terminus projektų išklotinę vietą **·** įdarbinimo valdymo darbo **·** **·** srityje. Laikotarpis, nustatytas prašymo termino perspėjimui, naudojamas įdarbinimo projektams, kurių prašymo terminas artėja prie jų prašymo termino, parodyti artėjant prie išklotinės dalies **·** įdarbinimo darbo **·** srityje.
+Laikotarpis, nustatytas įdarbinimo projekto **s skirstymo** pagal terminus metu, lemia, kurie įdarbinimo projektai įtraukiami į skirstymo pagal terminus **projektų** išklotinę vietą įdarbinimo **valdymo darbo** srityje. Laikotarpis, nustatytas **prašymo** **termino perspėjimui, naudojamas įdarbinimo projektams, kurių prašymo terminas artėja prie jų prašymo termino, parodyti artėjant prie išklotinės dalies įdarbinimo darbo** srityje.
 
 Daugiau informacijos apie įdarbinimą žr. skyriuje [Kandidatų į darbo vietas įdarbinimas](hr-personnel-recruit.md).
 
-## <a name="compensation"></a>Kompensacija
+## <a name="compensation"></a>Atlyginimo dalis
 
-Programoje „Dynamics 365 Finance“ skirtuko **Kompensacija** nustatymai apibrėžia, ar naudotojai turi patvirtinti, kad nori išsaugoti informaciją fiksuotosios arba kintamosios atlyginimo dalies plane. Jei pasirinksite **Įgalinti tikrinimo įrašymą**, uždarydami su kompensacija susijusį puslapį vartotojai gaus pranešimą, kuriame klausiama, ar jie nori įrašyti įrašą. Kai kuriuose kompensacijos valdymo puslapiuose naudotojai informacijos naikinti negali. Reikalaudami, kad naudotojai patvirtintų, jog jie nori įrašyti informaciją, galėsite riboti informaciją, kuri įrašoma, bet kurios vėliau negalima panaikinti. Jei išdalysite žymės langelį **Aktyvinti įrašymo tvirtinimą**, įrašai išsaugomi iš karto, galimai anksčiau nei tai padaro naudotojas. Jei naudojate našumo valdymą, skirtuke **Kompensacija** taip pat galite pasirinkti vertinimo modelį, kuris bus naudojamas vietoje modelio, vertinant našumą priskirto kompensavimo planams.
+Programos "Dynamics 365" finansuose skirtuko Kompensacija parametrai nurodo, ar vartotojai turi patvirtinti, **kad** nori įrašyti pastoviosios, ar kintamosios atlyginimo dalies plano informaciją. Jei pasirinksite **Įgalinti tikrinimo įrašymą**, uždarydami su kompensacija susijusį puslapį vartotojai gaus pranešimą, kuriame klausiama, ar jie nori įrašyti įrašą. Kai kuriuose kompensacijos valdymo puslapiuose naudotojai informacijos naikinti negali. Reikalaudami, kad naudotojai patvirtintų, jog jie nori įrašyti informaciją, galėsite riboti informaciją, kuri įrašoma, bet kurios vėliau negalima panaikinti. Jei išdalysite žymės langelį **Aktyvinti įrašymo tvirtinimą**, įrašai išsaugomi iš karto, galimai anksčiau nei tai padaro naudotojas. Jei naudojate našumo valdymą, skirtuke **Kompensacija** taip pat galite pasirinkti vertinimo modelį, kuris bus naudojamas vietoje modelio, vertinant našumą priskirto kompensavimo planams.
 
 Personalo dalyje naudodami skirtuką **Kompensacija** galite pasirinkti apriboti prieigą prie kompensacijos planų ir nustatyti numatytąją valiutą.
 
@@ -107,20 +106,20 @@ Skirtuke FMLA nustatote FMLA tinkamumo reikalavimus ir FMLA atostogų valandas. 
 
 ## <a name="employee-self-service"></a>Darbuotojų savitarna
 
-Skirtuke Darbuotojų **savitarnos parametrai** veikia tai, kaip darbuotojų **savitarnos paslauga rodoma** darbuotojams. Šiame skirtuke galite atlikti šias užduotis:
+Skirtuke Darbuotojų savitarnos **parametrai veikia** tai, kaip **darbuotojų savitarnos paslauga** rodoma darbuotojams. Šiame skirtuke galite atlikti šias užduotis:
 
-- Įveskite darbuotojų **savitarnos darbo srities** pavadinimą
+- Įveskite darbuotojų savitarnos **darbo srities** pavadinimą
 - pasirinkti, kurią informaciją vadovas gali įvesti darbuotojams,
 - pridėti naudingų nuorodų darbuotojams,
 - apriboti leidimus darbuotojams pridėti ar redaguoti įmonės kontaktinius duomenis. Daugiau informacijos žr. skyriuje [Asmens informacijos redagavimo apribojimas](hr-employee-self-service-restrict-editing.md).
 
-Daugiau informacijos apie tai, kaip nustatyti darbuotojų **savitarnos** paslauga, žr. [Darbuotojų ir vadybininko savitarnos paslaugos](hr-employee-manager-self-service-overview.md) apžvalgą.
+Norėdami gauti daugiau informacijos apie darbuotojų savitarnos paslaugos **nustatyti, žr**. Darbuotojų [ir vadybininko savitarnos paslaugos peržiūrą](hr-employee-manager-self-service-overview.md).
 
 ![Darbuotojų savitarnos skirtukas.](./media/hr-setup-parameters-employee-self-service.png)
 
 ## <a name="manager-self-service"></a>Vadovų savitarna
 
-Skirtuko Vadybininko **savitarnos parametrai** daro įtaką tai, ką vadybininkai matys **vadybininko** savitarnoje. Šiame skirtuke galima konfigūruoti šias parinktis:
+Skirtuko Vadybininko **savitarnos parametrai daro įtaką** tai, ką vadybininkai matys vadybininko **savitarnoje**. Šiame skirtuke galima konfigūruoti šias parinktis:
 
 - Įrašų, kurių galiojimas baigiasi, diapazonas
 - Informaciją, kurią vadovai gali peržiūrėti įrašų su besibaigiančiu galiojimu srityje
@@ -128,13 +127,13 @@ Skirtuko Vadybininko **savitarnos parametrai** daro įtaką tai, ką vadybininka
 - Esamų darbuotojų rodiniai
 - Naudingos nuorodos vadovams
 
-Daugiau informacijos apie tai, kaip nustatyti **vadybininko savitarnos** paslaugas, ieškokite darbuotojų [ir vadybininko savitarnos paslaugos](hr-employee-manager-self-service-overview.md) apžvalgą.
+Norėdami gauti daugiau informacijos apie tai, kaip nustatyti vadybininko **savitarnos paslaugas**, žr. Darbuotojų [ir vadybininko savitarnos peržiūrą](hr-employee-manager-self-service-overview.md).
 
 ![Vadovo savitarnos skirtukas.](./media/hr-setup-parameters-manager-self-service.png)
 
 ## <a name="benefits-management"></a>Išmokų valdymas
 
-Skirtuke **Išmokų valdymas galite konfigūruoti išmokų valdymo** el. pašto pasirinktis. Daugiau informacijos apie tai, kaip nustatyti ir naudoti Išmokų valdymą, [žr. Išmokų valdymo](hr-benefits-management-overview.md) apžvalga.
+Skirtuke **Išmokų valdymas galite** konfigūruoti išmokų valdymo el. pašto pasirinktis. Norėdami gauti informacijos apie tai, kaip nustatyti ir naudoti Išmokų valdymą, žr. [Išmokų valdymo apžvalgą](hr-benefits-management-overview.md).
 
 ![Išmokų valdymo skirtukas.](./media/hr-setup-parameters-benefits-management.png)
 

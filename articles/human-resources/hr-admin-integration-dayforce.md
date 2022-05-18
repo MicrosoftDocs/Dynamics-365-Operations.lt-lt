@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: PersonnelIntegrationConfiguration
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7e2043e75aa647e21f3e0816247dcf651be64730
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: a4e95a78364fcee2c03614e110f9b5983abfde37
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8067081"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8691338"
 ---
 # <a name="configure-integration-with-dayforce"></a>Integravimo su „Dayforce“ konfigūravimas
 
@@ -42,7 +41,7 @@ Kai naudojate paslaugas, pvz., „Dayforce“ kad atliktumėte mokėjimų vykdym
 
 ## <a name="enable-the-integration"></a>Integravimo įjungimas
 
-Pirmiausia programoje „Human Resources“ turite įjungti integravimą ir įvesti konfigūravimo informaciją, kad prisijungtumėte prie „Dayforce“. Jei norite, kad sukuriama didžiosios knygos operacija būtų importuota į „Microsoft Dynamics 365 Finance“, taip pat turite sukurti „Microsoft Azure“ saugyklos paskyrą ir įvesti „Azure Storage“ jungimosi eilutę į „Finance“.
+Pirmiausia programoje „Human Resources“ turite įjungti integravimą ir įvesti konfigūravimo informaciją, kad prisijungtumėte prie „Dayforce“. Jei norite, kad Microsoft Dynamics didžiosios knygos operacija, kuri gaminama, būtų importuojama į "365 Finance", Microsoft Azure taip pat turite nustatyti saugojimo sąskaitą ir įvesti "Azure" saugyklos ryšio eilutę finansuose.
 
 Norėdami įjungti integravimą į „Human Resources“, atlikite šiuos veiksmus.
 

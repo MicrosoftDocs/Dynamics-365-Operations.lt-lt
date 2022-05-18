@@ -2,7 +2,7 @@
 title: Archyvuoti atsargų operacijas
 description: Šioje temoje aprašoma, kaip archyvuoti atsargų operacijų duomenis, kad būtų pagerintas sistemos našumas.
 author: yufeihuang
-ms.date: 03/01/2021
+ms.date: 05/10/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-03-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 99a7b61d9bd5e1e2bd8d2c7df34882646bb51270
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 8b766d306f31fc531f33aa29e1f96048bbd90085
+ms.sourcegitcommit: e18ea2458ae042b7d83f5102ed40140d1067301a
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567468"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8736067"
 ---
 # <a name="archive-inventory-transactions"></a>Archyvuoti atsargų operacijas
 
@@ -116,3 +116,110 @@ Kiekvienam tinklelio archyvui pateikiama ši informacija:
 - **Archyvavimo pristabdymas** – šiuo metu apdorojamo pasirinkto archyvavimo pristabdymas. Pristabdymas vykdomas tik sugeneravus archyvavimo užduotį. Todėl prieš įsigaliojant pauzei galimas nedidelis uždelsimas. Pristabdžius archyvavimą laukelyje **Stabdyti dabartinį atnaujinimą** pasirodo varnelė.
 - **Archyvavimo tęsimas** – šiuo metu apdorojamo pasirinkto archyvavimo vykdymo tęsimas.
 - **Atšaukti** – pasirinkto archyvavimo atšaukimas. Archyvavimą galima atšaukti tik jei jo laukelis **Būsena** nustatytas kaip *Baigta*. Atšaukus archyvavimą laukelyje **Atšaukti** pasirodo varnelė.
+
+## <a name="extend-your-code-to-support-custom-fields"></a>Išplečiate kodą, kad būtų palaikomi pasirinktiniai laukai
+
+Jei lentelėje `InventTrans` yra vienas ar daugiau pasirinktinių laukų, gali reikėti išplėsti kodą, kad jį palaikytų, atsižvelgiant į tai, kaip jie pavadinti.
+
+- Jei pasirinktinių laukų iš lentelės `InventTrans` laukų `InventtransArchive` pavadinimai yra tokie patys kaip lentelėje, tai reiškia, kad jie susieti 1:1. Todėl pasirinktinius laukus galite tiesiog įtraukti į `InventoryArchiveFields` lentelės laukų `inventTrans` grupę.
+- Jei pasirinktinių laukų pavadinimai `InventTrans``InventtransArchive` lentelėje nesutampa su lentelės laukų pavadinimais, tada, norėdami juos susieti, turite pridėti kodą. Pavyzdžiui, jei `InventTrans.CreatedDateTime` esate iškviestas sistemos laukas, `InventTransArchive` lentelėje turite sukurti lauką su kitu pavadinimu (`InventtransArchive.InventTransCreatedDateTime` pvz.) `InventTransArchiveProcessTask``InventTransArchiveSqlStatementHelper` ir pridėti plėtinius prie laukų ir klasių, kaip parodyta toliau pateiktame pavyzdyje.
+
+Šiame pavyzdyje pateikiamas pavyzdys, kaip į klasę įtraukti reikiamą plėtinį `InventTransArchiveProcessTask`.
+
+```xpp
+[ExtensionOf(classStr(InventTransArchiveProcessTask))]
+Final class InventTransArchiveProcessTask_Extension
+{
+
+    protected void addInventTransFields(SysDaSelection _selectionObject)
+    {
+        _selectionObject.add(fieldStr(InventTrans, ModifiedBy))
+            .add(fieldStr(InventTrans, CreatedBy)).add(fieldStr(InventTrans, CreatedDateTime));
+
+        next addInventTransFields(_selectionObject);
+    }
+
+
+    protected void addInventTransArchiveFields(SysDaSelection _selectionObject)
+    {
+        _selectionObject.add(fieldStr(InventTransArchive, InventTransModifiedBy))
+            .add(fieldStr(InventTransArchive, InventTransCreatedBy)).add(fieldStr(InventTransArchive, InventTransCreatedDateTime));
+
+        next addInventTransArchiveFields(_selectionObject);
+    }
+}
+```
+
+Šiame pavyzdyje pateikiamas pavyzdys, kaip į klasę įtraukti reikiamą plėtinį `InventTransArchiveSqlStatementHelper`.
+
+```xpp
+[ExtensionOf(classStr(InventTransArchiveSqlStatementHelper))]
+final class InventTransArchiveSqlStatementHelper_Extension
+{
+    private str     inventTransModifiedBy;  
+    private str     inventTransCreatedBy;
+    private str     inventTransCreatedDateTime;
+
+    protected void initialize()
+    {
+        next initialize();
+        inventTransModifiedBy = new SysDictField(tablenum(InventTrans), fieldNum(InventTrans, ModifiedBy)).name(DbBackend::Sql);
+        inventTransCreatedDateTime = new SysDictField(tablenum(InventTrans), fieldNum(InventTrans, CreatedDateTime)).name(DbBackend::Sql);
+        inventTransCreatedBy = new SysDictField(tablenum(InventTrans), fieldNum(InventTrans, CreatedBy)).name(DbBackend::Sql);
+    }
+
+    protected str buildInventTransArchiveSelectionFieldsStatement()
+    {
+        str     ret;
+
+        ret = next buildInventTransArchiveSelectionFieldsStatement();
+        
+        if (inventTransModifiedBy)
+        {
+            ret += ',';
+            ret += strFmt('%1',  new SysDictField(tablenum(InventTransArchive), fieldNum(InventTransArchive, InventTransModifiedBy)).name(DbBackend::Sql));
+        }
+
+        if (inventTransCreatedBy)
+        {
+            ret += ',';
+            ret += strFmt('%1',  new SysDictField(tablenum(InventTransArchive), fieldNum(InventTransArchive, InventTransCreatedBy)).name(DbBackend::Sql));
+        }
+
+        if (inventTransCreatedDateTime)
+        {
+            ret += ',';
+            ret += strFmt('%1',  new SysDictField(tablenum(InventTransArchive), fieldNum(InventTransArchive, InventTransCreatedDateTime)).name(DbBackend::Sql));
+        }
+
+        return ret;
+    }
+
+    protected str buildInventTransTargetFieldsStatement()
+    {
+        str     ret;
+
+        ret = next buildInventTransTargetFieldsStatement();
+
+        if (inventTransModifiedBy)
+        {
+            ret += ',';
+            ret += strFmt('%1', inventTransModifiedBy);
+        }
+
+        if (inventTransCreatedBy)
+        {
+            ret += ',';
+            ret += strFmt('%1', inventTransCreatedBy);
+        }
+
+        if (inventTransCreatedDateTime)
+        {
+            ret += ',';
+            ret += strFmt('%1', inventTransCreatedDateTime);
+        }
+
+        return ret;
+    }
+}
+```

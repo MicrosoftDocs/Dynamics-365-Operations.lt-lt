@@ -7,19 +7,18 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: 269074
 ms.assetid: 426c6127-42ee-4163-8dd0-b2867f95581d
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-08-07
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: bd7180c8f53687d561c429456387e0fe999dd508
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 819f22c58da485980c38d35dcc6dda6aebacf423
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070180"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8695850"
 ---
 # <a name="view-and-manage-address-changes"></a>Peržiūrėti ir valdyti adresų pakeitimus
 
@@ -28,7 +27,7 @@ ms.locfileid: "8070180"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Šioje temoje paaiškinama, kaip galite peržiūrėti ir tvarkyti adreso pakeitimus **Redaguoti asmeninius duomenis** puslapį (kurį atidarote iš **Darbuotojų savitarna** darbo vieta) arba **Darbininkas** išsamios informacijos puslapyje Dynamics 365 Human Resources.
+Šioje temoje paaiškinama, kaip peržiūrėti ir tvarkyti adreso keitimus puslapyje Redaguoti asmeninę informaciją (**kurį** atidarote darbuotojų savitarnos **darbo** srityje) **arba** informacijos apie darbuotoją puslapyje Dynamics 365 Human Resources.
 
 Daugelis organizacijų nori, kad darbuotojai valdytų jų turimus asmens duomenis per savitarnos paslaugų patirtį. Galite leisti vartotojams atnaujinti savo adresus **Darbuotojo savitarnos** darbo srityje. Galite stebėti šiuos keitimus **Personalo valdymo** darbo srityje. Tam, kad naudotumėte šią funkciją, turite nurodyti dienų skaičių, kurių metu norite matyti keitimus **Žmogiškųjų išteklių parametrų** puslapyje.
 
@@ -46,7 +45,7 @@ Tam, kad konfigūruotumėte dienų skaičių, pagal kurį adresas turi keistis *
 
 Darbuotojai gali atnaujinti jų adresą **Darbuotojo savitarnos** darbo srityje. Atlikite šiuos žingsnius tam, kad sukurtumėte ir keistumėte adresą:
 
-1. Pasirinkite **Darbuotojų savitarna** plytelė ant **Namai** puslapį.
+1. Pasirinkite darbuotojo **savitarnos išklotinės** dalies pagrindinį **puslapį**.
 2. Pasirinkite **Redaguoti asmeninę informaciją**.
 3. Adreso įtraukimui, pasirinkite **Įtraukti**. Tam, kad atnaujintumėte esantį adresą, pasirinkite adresą iš sąrašo ir tuomet pasirinkite **Redaguoti**.
 4. Įveskite **Pavadinimą ar aprašą**.
@@ -90,7 +89,7 @@ Kai kuriais atvejais, jums gali reikėti atnaujinti adresą tam, kad pakeistumė
 
 ## <a name="view-and-monitor-address-changes"></a>Peržiūrėti ir stebėti adresų pakeitimus
 
-Žmogiškųjų išteklių personalas gali peržiūrėti ir stebėti adreso keitimus **Personalo valdymo** darbo srityje. Norėdami peržiūrėti adreso pakeitimus, pasirinkite **Personalo valdymas** plytelė ant **Namai** puslapį. Adreso pakeitimai rodomi viršutiniame dešiniajame kampe esančioje plytelėje. Skaičius aukščiau **Adreso pasikeitimai** rodo, kiek adresų pakeitimų įvyko per nurodytą dienų skaičių **Žmogiškųjų išteklių parametrai** puslapį. 
+Žmogiškųjų išteklių personalas gali peržiūrėti ir stebėti adreso keitimus **Personalo valdymo** darbo srityje. Norėdami peržiūrėti adreso pakeitimus, pasirinkite personalo **valdymo** išklotąją mygtuką pagrindiniame **puslapyje**. Adresas pasikeičia ant išklotinės dalies, viršutiniame dešiniajame kampe. Virš adreso **pakeitimų nurodytas** skaičius rodo, kiek adreso pakeitimų įvyko per dienų skaičių, nurodytą **personalo parametrų** puslapyje. 
 
 Kai pasirenkate **Adreso keitimas** plytelę, naujas puslapis rodo visų adresų keitimų išsamią informaciją. Galite pasirinktinai pasirinkti **Įtraukti ateities adreso keitimus** dešiniame viršutiniame kampe tam, kad rodytumėte adreso keitimus su ateities data.
 

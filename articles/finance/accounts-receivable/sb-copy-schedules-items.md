@@ -9,26 +9,25 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: Core, Operations
 ms.custom: 539093
 ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: 793c504954bcc148433241880363142930059cf2
-ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
+ms.openlocfilehash: 0257dacd2c2f36a894f7918403886292251659da
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "8462913"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8686253"
 ---
-# <a name="copy-a-billing-schedule"></a>Kopijuoti atsiskaitymo grafiką
+# <a name="copy-a-billing-schedule"></a>Atsiskaitymo grafiko kopijavimas
 
 [!include [banner](../includes/banner.md)]
 
 Galite naudoti kopijavimo **grafiko** puslapį, kad sukurtumėte naują atsiskaitymo grafiką iš esamo sąskaitų pateikimo grafiko. Naujo atsiskaitymo grafiko parametrai bus tokie patys, kaip pradiniame atsiskaitymo grafike. Be to, puslapį galite naudoti prekėms iš vieno sąskaitų pateikimo grafiko kopijuoti į kitą.
 
-## <a name="copy-a-billing-schedule"></a>Kopijuoti atsiskaitymo grafiką
+## <a name="copy-a-billing-schedule"></a>Atsiskaitymo grafiko kopijavimas
 
 Norėdami kopijuoti atsiskaitymo grafiką, atlikite šiuos veiksmus.
 

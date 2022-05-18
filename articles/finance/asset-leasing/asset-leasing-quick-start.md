@@ -8,25 +8,27 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: AssetLeaseLeasingWorkspace
 audience: Application User
-ms.reviewer: roschlom
-ms.custom: intro-internal
+ms.reviewer: kfend
+ms.custom:
+- "4464"
+- intro-internal
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-09-24
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 72c362e651787d2ff120944925e3bc35523f0059
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 991685f50a00e60026331bf573561be904c7f9ab
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982014"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8710335"
 ---
 # <a name="asset-leasing-get-started"></a>Darbo su Turto nuoma pradžia
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje aprašoma funkcija Turto nuoma ir nurodomi veiksmai, reikalingi norint sukurti turto nuomą ir peržiūrėti tos nuomos informaciją. Temoje taip pat apibrėžiami terminai, naudojami vartotojo sąsajoje ir dokumentacijoje. Turto nuoma yra išplėstinė funkcija, skirta nuomojamo turto finansinių operacijų valdymui, sekimui ir automatizavimui „Microsoft Dynamics 365 Finance”. Turto nuoma atitinka tarptautinius apskaitos standartus (IFRS 16) ir JAV GAAP standartus (ASC 842). Turto nuoma fiksuoja ir apdoroja nuomos informaciją ir padeda generuoti mėnesinius nuomos ciklo žurnalo įrašus – nuo pradinio pripažinimo iki nuomos pablogėjimo ir nutraukimo. Turto nuoma sklandžiai integruojama su kitais „Dynamics 365 Finance” komponentais, įskaitant modulius Ilgalaikis turtas, Mokėtinos sumos ir Didžioji knyga.
+Šioje temoje aprašoma funkcija Turto nuoma ir nurodomi veiksmai, reikalingi norint sukurti turto nuomą ir peržiūrėti tos nuomos informaciją. Temoje taip pat apibrėžiami terminai, naudojami vartotojo sąsajoje ir dokumentacijoje. Turto funkcija yra išplėstinė nuomojamo turto valdymo, sekimo ir automatinių Microsoft Dynamics finansinių operacijų galimybė 365 finansuose. Turto nuoma atitinka tarptautinius apskaitos standartus (IFRS 16) ir JAV GAAP standartus (ASC 842). Turto nuoma fiksuoja ir apdoroja nuomos informaciją ir padeda generuoti mėnesinius nuomos ciklo žurnalo įrašus – nuo pradinio pripažinimo iki nuomos pablogėjimo ir nutraukimo. Turto perteikite sklandžiai su kitais "Dynamics 365 Finance" komponentais, įskaitant ilgalaikį turtą, mokėtinas sumas ir DK.
 
 Kad galėtumėte naudoti šią funkciją, ji turi būti įjungta jūsų sistemoje. Administratoriai gali naudoti **Funkcijos valdymas** darbo sritį, norėdami sužinoti funkcijos būseną ir įjungti ją, jei reikia. Darbo srityje **Funkcijų valdymas** raskite ir pasirinkite funkciją, pavadinta **Turto nuoma** ir tada spustelėkite **Įjungti dabar** mygtuką.
 
@@ -58,7 +60,7 @@ Toliau pateiktoje diagramoje vaizduojama nuomos knyga, nuoma, apskaičiuotas mok
 
 - **Nuomos knyga** – nuomos knyga apima visą nuomos sutarties informaciją, pvz., nuomos sąlygas, tikrąją vertę ir nuomos mokesčius. Joje taip pat yra apskaitos standartas, kurio laikotės, nuomos tipas ir ribinės vertės, į kurias atsižvelgiama nuomos klasifikacijos teste. Nuomos knygoje taip pat yra nuomos operacijos, užregistravusios didžiojoje knygoje. 
   
-- **Nuoma** – nuomoje pateikiama turto nuomos informacija, nurodanti turto nuomos pagrindą, nuomos informacijos šaltinis yra nuomos sutartis ir valdymo sprendimas, kurie abu vykdomi ne „Dynamics 365 Finance“. Turto tikroji vertė yra kaina, kuri būtų sumokėta už turtą operacijos metu įvertinimo dieną. Ši vertė gali priklausyti nuo turto tipo, rinkos sąlygų ir kitų kriterijų, į kuriuos galima atsižvelgti vertinant. Į turto tikrąją vertę bus atsižvelgiama klasifikacijos testo lygtyje.
+- **Nuoma** – nuomos metu yra turto nuomos informacija, kuri atspindi turto pagrindą, nuomos informacijos šaltinis yra nuomos sutartis ir valdymo sprendimas, kurie abu jie atliekami ne "Dynamics 365 Finance". Turto tikroji vertė yra kaina, kuri būtų sumokėta už turtą operacijos metu įvertinimo dieną. Ši vertė gali priklausyti nuo turto tipo, rinkos sąlygų ir kitų kriterijų, į kuriuos galima atsižvelgti vertinant. Į turto tikrąją vertę bus atsižvelgiama klasifikacijos testo lygtyje.
 
 - **Turto naudingo naudojimo laikas** – tai yra likę turto naudingo naudojimo laikotarpiai nuo nuomos pradžios datos. Į turto naudingo naudojimo laiką bus atsižvelgiama klasifikacijos testo lygtyje. Jis skiriasi nuo naudingo naudojimo laiko, kaip nurodyta Ilgalaikis turtas.
 

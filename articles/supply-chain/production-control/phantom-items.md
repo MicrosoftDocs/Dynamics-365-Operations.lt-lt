@@ -1,25 +1,22 @@
 ---
 title: Fiktyvios prekės
-description: Šioje temoje išsamiai aprašoma, kaip eilutės tipą Fiktyvi galima naudoti komplektavimo specifikacijos (KS) ir formulės eilutėms programoje „Dynamics 365 Supply Chain Management“.
+description: Šioje temoje aprašoma, kaip KS eilutėms ir formulei galima naudotiphantom eilutės tipą Dynamics 365 Supply Chain Management.
 author: johanhoffmann
-ms.date: 06/15/2018
+ms.date: 05/05/2022
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
 ms.search.form: SysOperationTemplateForm
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: 1705903
 ms.search.region: Global
 ms.author: johanho
-ms.search.validfrom: ''
-ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 8e1b241c826e89909590ae16c8458bc49df995bd
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.search.validFrom: 2022-05-05
+ms.dyn365.ops.version: 10.0.23
+ms.openlocfilehash: 5c9768381d35709611e4bec3d2b7793a4d896b34
+ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572822"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8713253"
 ---
 # <a name="phantom-items"></a>Fiktyvios prekės
 
@@ -27,49 +24,55 @@ ms.locfileid: "7572822"
 
 Šioje temoje aprašoma, išsamiai, kaip eilutės tipą Fiktyvi galima naudoti komplektavimo specifikacijos (KS) ir formulės eilutėms.
 
-Toliau pateiktoje iliustracijoje (a) yra produkto H (F ir G dalių) KS, o (b) yra produkto H (F dalies) maršruto lapas.
+1 pav. yra produkto H KS, o F ir G dalys– produktų H ir F dalies maršruto lapas.
 
-![Dviejų KS struktūros lygių pavyzdys.](media/product-H-part-F.png)
+![1 pav.: Inžinerinė KS.](media/product-H-part-F.png)
+*1 pav.: Inžinerinė KS*
 
-Šioje iliustracijoje rodomas dviejų lygių KS struktūros pavyzdys. Užbaigtas produktas H atitinka mašinos rinkinio produktą. Mašinos rinkinys sudarytas iš dviejų dalių: elektros įrenginio (F), kuris turi dvi medžiagas (A ir B), ir pakavimo medžiagų grupės (G), kuri taip pat turi dvi medžiagas (C ir D). Kita medžiaga (E) naudojama atliekant bendrąjį mašinos surinkimą.
+1 pav. rodo dviejų lygių KS struktūros pavyzdį. Užbaigtas produktas H atitinka mašinos rinkinio produktą. Mašinos rinkinys sudarytas iš dviejų dalių: elektros įrenginio (F), kuris turi dvi medžiagas (A ir B), ir pakavimo medžiagų grupės (G), kuri taip pat turi dvi medžiagas (C ir D). Kita medžiaga (E) naudojama atliekant bendrąjį mašinos surinkimą.
 
-![Produkto H gamybos KS.](media/product-H-part-B.png)
+1 pav. rodo produkto H inžinerinę KS. Ši struktūra leidžia gerai peržiūrėti visos mašinos surinkimo dalis ir komponentus. Tačiau, nors produkto kūrėjams toks KS atvaizdavimas gali pasirodyti priimtinesnis, kuriant šią struktūrą gali būti nepakankamai atsižvelgta į tai, kaip mašina stovi ant parduotuvės grindų.
 
-Pirmesnėje iliustracijoje vaizduojama produkto H inžinerinė KS. Ši struktūra suteikia galimybę peržiūrėti viso mašinos rinkinio dalis ir komponentus. Tačiau, nors produkto kūrėjams toks KS atvaizdavimas gali pasirodyti priimtinesnis, kuriant šią struktūrą gali būti nepakankamai atsižvelgta į tai, kaip mašina stovi ant parduotuvės grindų.
-
-Pavyzdžiui, pirmesnėje iliustracijoje vaizduojamoje inžinerinėje KS matoma, kad elektrinis įrenginys F surinktas kaip atskira dalis atskirame darbo užsakyme. Tačiau renkant elektrinį įrenginį ant parduotuvės grindų gali būti tikslingiau jį surinkti kaip bendro mašinos rinkinio dalį, ne kaip atskirą darbo užsakymą.
+Pavyzdžiui, gamybos KS 1 paveikslėlyje nurodo, kad elektros vienetas F surenkamas kaip atskira dalis atskirame darbo užsakyme. Tačiau renkant elektrinį įrenginį ant parduotuvės grindų gali būti tikslingiau jį surinkti kaip bendro mašinos rinkinio dalį, ne kaip atskirą darbo užsakymą.
 
 Šioje inžinerinėje KS taip pat vaizduojama, kad G dalis yra atskira dalis. Tačiau šioje struktūroje G dalis yra ne fizinė dalis, o pakavimo medžiagų rinkinys.
 
 Todėl, nors inžinerinė KS yra itin naudinga kuriant produktą ir jį plėtojant, tai gali būti ne pats logiškiausias būdas produkto gamybos vykdymo procesui palaikyti. Priešingai, gamybos KS yra geriausias būdas sukurti produktą.
 
-Toliau pateiktoje iliustracijoje vaizduojama, kaip inžinerinė KS perkeliama į gamybos KS. Šioje iliustracijoje (a) yra produkto H KS, o b yra produkto H maršruto lapas.
+2 pav. rodo, kaip ankstesnė inžinerijos KS pereiti į gamybos KS. 2 pav. yra produkto H KS, o b – produkto H maršruto lapas.
+
+![2 pav.: gamybos KS.](media/product-H-part-B.png)
+*2 pav.: gamybos KS*
 
 Šioje struktūroje galite matyti, kad visiškai neliko F ir G dalių, o medžiagos, iš kurių šios dalys sudarytos, perkeltos į kitą KS lygį.
 
 Priešingai negu inžinerinėje KS, kurioje buvo du operacijų lapai, gamybos KS yra tik vienas operacijų lapas. Su G dalimi susieta pakuotės operacija taip pat perkelta ir dabar yra produkto H operacijų lapo dalis. Elektros įrenginio surinkimas yra pirmoji operacija. Ši tvarka racionali, nes šis įrenginys naudojamas kitoje operacijoje, kuri yra mašinos surinkimas. Paskutinė operacija yra pakavimo operacija, kurią atliekant naudojamos dvi pakavimo medžiagos (C ir D).
 
-Perėjimą nuo inžinerinės KS prie gamybos KS galima atlikti naudojant fiktyvios KS eilutės tipą. Kaip galima spręsti iš termino „fiktyvi“ reikšmės, pereinant nuo vieno KS tipo prie kito, F ir G dalių neliko. Šiame pavyzdyje fiktyvios eilutės tipas taikomas inžinerinės KS F ir G dalių KS eilutėms. Sukūrus gamybos arba paketo užsakymą inžinerinė KS nukopijuojama į gamybos arba paketo užsakymą. Tada, kai nustatoma apytikslė užsakymo vertė, įvyksta perėjimas iš inžinerinės KS į gamybos KS, kaip pavaizduota pirmesnėse iliustracijose. Antroje iliustracijoje vaizduojamame operacijų lape pakavimo medžiagos C ir D yra operacijos įvestis.
+Perėjimą nuo inžinerinės KS prie gamybos KS galima atlikti naudojant fiktyvios KS eilutės tipą. Kaip galima spręsti iš termino „fiktyvi“ reikšmės, pereinant nuo vieno KS tipo prie kito, F ir G dalių neliko. Šiame pavyzdyje fiktyvios eilutės tipas taikomas inžinerinės KS F ir G dalių KS eilutėms. Sukūrus gamybos arba paketo užsakymą inžinerinė KS nukopijuojama į gamybos arba paketo užsakymą. Tada, kai užsakymas įvertintas, įvyksta perėjimas iš inžinerijos KS į gamybos KS, kaip parodyta 2 pav. Iš 2 pav. operacijų lapo į operaciją įvedamos pakavimo medžiagos C ir D.
 
 ## <a name="multilevel-phantom-bom-structures"></a>Kelių lygių fiktyvios KS struktūros
 
-Fiktyvios eilutės tipą galima naudoti kelių lygių KS struktūrose, kaip vaizduojama toliau pateiktoje iliustracijoje. Šioje iliustracijoje (a) yra produkto G KS, o (b) yra E ir F dalių ir produkto G maršruto lapas.
+Phantom eilutės tipas gali būti naudojamas kelių lygių KS struktūrose, kaip parodyta 3 pav. 3 pav. yra G produkto KS, o (b) yra E ir F dalių ir produkto G maršruto lapas.
 
-![Daugiakopėse KS struktūrose naudojamas vienišosios eilutės tipas.](media/product-G-route-sheet-G.png)
+![3 pav.: inžinerijos KS dalis G.](media/product-G.png)
+*3 pav.: inžinerijos KS dalis G*
 
-Toliau pateiktoje iliustracijoje vaizduojama gamybos KS ir maršruto lapas, jei E ir F dalių KS eilutės sukonfigūruotos taip, kad eilutės tipas yra Fiktyvi. Šioje iliustracijoje (a) yra produkto G KS, o (b) yra produkto G maršruto lapas.
+4 pav. rodo gautą gamybos KS ir maršruto lapą, jei KS eilutės E ir F dalims sukonfigūruotos taip, kad eilutės tipas būtų fiktyvus. 4 pav. yra G produkto KS, o (b) yra produkto G maršruto lapas.
 
-![Produktas G.](media/product-G.png)
+![4 pav.: gamybos KS dalis G.](media/product-G-route-sheet-G.png)
+*4 pav.: gamybos KS dalis G*
 
 ## <a name="phantom-and-route-network"></a>Fiktyvus elementas ir maršruto tinklas
 
-Fiktyvi KS taip pat gali būti naudojama maršruto tinklą turinčiai KS. Maršruto tinkle viena ar kelios operacijos vykdomos lygiagrečiai. Toliau pateiktoje iliustracijoje vaizduojamas kelių lygių KS naudojamo maršruto tinklo pavyzdys. Šioje iliustracijoje (a) yra produkto G ir F dalies KS, o (b) yra produkto G ir F dalies, kurioje yra maršruto tinklas, maršruto lapas.
+Fiktyvi KS taip pat gali būti naudojama maršruto tinklą turinčiai KS. Maršruto tinkle viena ar kelios operacijos vykdomos lygiagrečiai. 5 pav. rodo maršruto tinklo, kuris naudojamas kelių lygių KS, pavyzdį. 5 pav. (a) yra produkto G ir F dalies KS, (b) yra produkto G maršruto lapas ir F dalis, kuri turi maršruto tinklą.
 
-![Maršruto tinklo, kuris naudojamas kelių lygių KS, pavyzdys.](media/product-G-part-F.png)
+![5 pav.: inžinerijos KS dalis G, maršruto tinklas.](media/product-G-part-F.png)
+*5 pav.: inžinerijos KS dalis G, maršruto tinklas*
 
-Toliau pateiktoje iliustracijoje (a) yra produkto G ir F dalies KS, o (b) yra produkto G ir F dalies maršruto lapas.
+6 pav. yra produkto G ir F dalies KS, o (b) yra produkto G ir F dalies maršruto lapas.
 
-![Produkto G ir F dalies KS ir produkto G bei F dalies maršruto lapas.](media/product-G-part-F-with-route-sheet.png)
+![6 pav.: gamybos KS dalis G, maršruto tinklas.](media/product-G-part-F-with-route-sheet.png)
+*6 pav.: gamybos KS dalis G, maršruto tinklas*
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-10-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 206c7f590b495278b7899271db0e83b3a4da3edc
-ms.sourcegitcommit: 42bd701179e664947b6eafcd1804c83a5e64abcb
+ms.openlocfilehash: 3cf83421d5385e3c95dfda6db35edfb8eb4b9336
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2021
-ms.locfileid: "7641435"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8695766"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-october-5-2021"></a>Kas nauja ar pasikeitė „Dynamics 365 Human Resources“ 2021 m. spalio 5 d.
 
@@ -42,7 +41,7 @@ Daugiau informacijos apie naujas funkcijas ir jų numatomas bendro pasiekiamumo 
 
 | Funkcija | Leidimo planas | Dokumentacija |
 |---|---|---|
-| Platformos atnaujinimas 10.0.21 (45) | -- | [Platformos naujinimai, skirti 10.0.21 „Finance and Operations" programų versijai (2021 m. spalio mėn.)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-21) |
+| Platformos atnaujinimas 10.0.21 (45) | -- | [Finansų ir operacijų programėlių 10.0.21 versijos platformos naujinimai (2021 m. spalio mėn.)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-21) |
 
 
 ### <a name="bug-fixes"></a>Klaidų ištaisymai
@@ -87,7 +86,7 @@ Norėdami gauti visą planuojamų funkcijų ir jų suplanuotų leidimų sąraš�
 
 | Funkcija | Informacija |
 |---|---|
-| Platformos atnaujinimas 10.0.22 (46) | Platformos atnaujinimo atmetimas 10.0.22 yra suplanuotas pasirodyti su nauju leidimu 2021 m. lapkričio 1 d. Dėl daugiau informacijos, žr. [Platformos atnaujinimas „Finance and Operations“ programos 10.0.22 versijai (2021 m. lapkričio mėn.)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-22). |
+| Platformos atnaujinimas 10.0.22 (46) | Platformos atnaujinimo atmetimas 10.0.22 yra suplanuotas pasirodyti su nauju leidimu 2021 m. lapkričio 1 d. Norėdami gauti daugiau informacijos, [žr. finansų ir operacijų programėlių 10.0.22 versijos (2021 m. lapkričio mėn.) platformos naujinimus](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-22). |
 
 
 

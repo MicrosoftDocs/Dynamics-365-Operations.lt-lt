@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 57592
 ms.assetid: 747faa47-9a23-4277-bc11-8d0a1267c3a4
 ms.search.region: Global
-ms.author: aolson
+ms.author: jiwo
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 92da476f64b937d339b5f0c6088b8ce722a0584938ccf2a6c6cbd39fdc15544d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cf5062cfc7ce47a2356c72462da805e8d0d6a756
+ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714640"
+ms.lasthandoff: 05/07/2022
+ms.locfileid: "8727796"
 ---
 # <a name="reporting-tree-definitions-in-financial-reports"></a>Ataskaitų dizaino įrankio ataskaitų medžio apibrėžtys
 
@@ -101,7 +101,7 @@ Naudodami ataskaitų medį, galite telkti sumas iš antrinių ataskaitinių vien
     > Apibrėžus antrinių ir pirminių vienetų dimensijas, ataskaitoje gali atsirasti besidubliuojančių duomenų.
 
 - Ataskaitų vienetai, kurie ataskaitų medyje turi dimensijų, atitinka dimensijas, naudojamas eilučių ir stulpelių aprašuose. Dimensijų derinys nustato to vieneto grąžinamas sumas. Pavyzdžiui, vėlesniame šio straipsnio 2 pavyzdyje 6 ir 7 eilutės grąžins tik atitinkamai padalinių 00 ir 01 reikšmes.
-- Pirminių ataskaitinių vienetų, kurie neturi dimensijų ataskaitų medyje, sumos nustatomos iš antrinio vieneto ataskaitos ir sumuojamos į nurodyto pirminio vieneto sumą. Pavyzdžiui, jei pirminis vienetas („Contoso“ JAV 2 duomenų sumavimo pavyzdyje) turi du antrinius vienetus (022 ir 023) bei neturi dimensijų, sugeneruojama kiekvieno antrinio ir pirminio vieneto ataskaita. Pirminio vieneto bendroji suma yra dviejų antrinių vienetų sumų suma.
+- Pirminių ataskaitinių vienetų, kurie neturi dimensijų ataskaitų medyje, sumos nustatomos iš antrinio vieneto ataskaitos ir sumuojamos į nurodyto pirminio vieneto sumą. Pavyzdžiui, jei pirminis vienetas (žr. „Contoso USA“ 2 duomenų sumavimo pavyzdyje) turi du antrinius vienetus (022 ir 023) ir neturi dimensijų, sugeneruojama kiekvieno antrinio ir pirminio vieneto ataskaita. Pirminio vieneto bendroji suma yra dviejų antrinių vienetų sumų suma.
 
 ### <a name="manage-reporting-units"></a>Ataskaitinių vienetų valdymas
 
@@ -165,18 +165,18 @@ Galite neleisti tam tikriems vartotojams ir grupėms pasiekti ataskaitinį viene
 
 Toliau pateikiama ataskaitinių vienetų struktūra šiame ataskaitų medyje.
 
-- „Contoso Japonija“ ataskaitinis vienetas yra pirminis antrinių vienetų „Contoso Japonija Pardavimai“ ir „Contoso Japonija Konsultavimas“ vienetas.
-- Padalijimo vienetas „Contoso Japonija Pardavimai“ kartu yra antrinis „Contoso Japonija“ vienetas ir pirminis vienetų Pardavimai vidaus rinkoje ir Automatiniai pardavimai vienetas.
+- Ataskaitinis vienetas „Contoso Japan“ yra pirminis antrinių vienetų „Contoso Japan Sales“ ir „Contoso Japan Consulting“ vienetas.
+- Padalinio vienetas „Contoso Japan Sales“ kartu yra antrinis „Contoso Japan“ vienetas ir pirminis vienetų Pardavimas vidaus rinkoje ir Automatinis pardavimas vienetas.
 - Žemiausio lygio informacijos ataskaitiniai vienetai (Pardavimas vidaus rinkoje, Automatinis pardavimas, Klientų paslaugos ir Operacijos) atitinka finansinių duomenų skyrius. Šie ataskaitiniai vienetai yra šešėliuotoje diagramos srityje.
 - Aukštesnio lygio suvestinės vienetai apibendrina informaciją iš informacijos vienetų.
 
-[![„Contoso” suvestinės ataskaitos struktūra – 1 pavyzdys.](./media/contosoentertainmentsummaryreportstructure.png)](./media/contosoentertainmentsummaryreportstructure.png)
+[!["Contoso" suvestinės ataskaitos struktūra – 1 pavyzdys.](./media/contosoentertainmentsummaryreportstructure.png)](./media/contosoentertainmentsummaryreportstructure.png)
 
 ### <a name="reporting-unit-structure--example-2"></a>Ataskaitinio vieneto struktūra – 2 pavyzdys
 
 Šioje diagramoje pateikiamas ataskaitų medis, kuriame parodyta organizacinė struktūra, suskirstyta pagal verslo funkcijas.
 
-[![„Contoso” suvestinės ataskaitos struktūra – 2 pavyzdys.](./media/summaryofallunitscontoso.png)](./media/summaryofallunitscontoso.png)
+[!["Contoso" suvestinės ataskaitos struktūra – 2 pavyzdys.](./media/summaryofallunitscontoso.png)](./media/summaryofallunitscontoso.png)
 
 ### <a name="example-of-the-insert-reporting-units-from-dimensions-dialog-box"></a>Dialogo lango Įterpti ataskaitinių vienetų iš dimensijų pavyzdys
 

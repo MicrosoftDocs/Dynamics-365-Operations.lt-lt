@@ -8,7 +8,7 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom:
 - "14151"
 - intro-internal
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-19
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 62e30e382d94e4eff73789b3e884c6b81afce6c1
-ms.sourcegitcommit: c8dc60bb760553f166409c2e06dd2377f601c006
+ms.openlocfilehash: 2ed6795073b4a013df7a6a8a7a61df2c11525c51
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/23/2021
-ms.locfileid: "7945834"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8711008"
 ---
 # <a name="cash-forecast"></a>Grynųjų pinigų prognozė
 
@@ -43,7 +43,7 @@ Daugumai įmonių grynųjų pinigų srautų valdymas ir pinigų srautų prognoza
 ## <a name="details-of-the-cash-flow-forecasts-capability"></a>Priemonįs Grynųjų pinigų srautų prognozės informacija
 Priemonė Grynųjų pinigų srautų prognozės apima tolesnes funkcijas. 
 
-- Įdiegiama sumanaus ilgalaikio grynųjų pinigų srautų prognozavimo funkcija, naudojanti laiko serijos prognozavimą per automatinę integraciją su „AI Builder“.
+- Pristatytas pažangus pinigų srautų prognozavimas, skirtas ilgalaikiam prognozavimui, naudojant laiko sekų prognozę ir automatinį integravimą AI Builder.
 
 - Leidžia įrašyti konkrečias pinigų srautų pareigas arba prognozes, redaguoti jas ir tada lengvai palyginti ir išmatuoti prognozės našumą su faktiniais finansais.
 
@@ -53,7 +53,7 @@ Priemonė Grynųjų pinigų srautų prognozės apima tolesnes funkcijas.
 
 - Leidžia filtruoti ir peržiūrėti banko sąskaitas, susijusias su finansinėmis dimensijomis.
 
-Grynųjų pinigų srautų prognozavimo funkcija programoje „Dynamics 365 Finance“ suteiks jūsų organizacijai galimybę transformuoti varginantį, sudėtingą ir pasikartojantį grynųjų pinigų srautų prognozavimą į paprastą, automatizuotą procesą. Automatizuojant labiausiai varginančius grynųjų pinigų srautų prognozavimo aspektus, galima sutelkti dėmesį į svarbių sprendimų priėmimą siekiant norimų verslo rezultatų.
+"Dynamics 365 Finance" pinigų srautų prognozės funkcija suteikia jūsų organizacijai galimybę transformuoti pasikartojančią, sudėtingą, dar pasikartojančią pinigų srautų projekcija į paprastą, automatizuotą procesą. Automatizuojant labiausiai varginančius grynųjų pinigų srautų prognozavimo aspektus, galima sutelkti dėmesį į svarbių sprendimų priėmimą siekiant norimų verslo rezultatų.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

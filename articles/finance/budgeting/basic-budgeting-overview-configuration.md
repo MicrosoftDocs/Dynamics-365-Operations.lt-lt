@@ -1,6 +1,6 @@
 ---
 title: Biudžetų sudarymo modulio apžvalga
-description: Beveik visos įmonės, kurios naudoja „Microsoft Dynamics 365 Finance“ finansų funkciją, turės galėti kurti biudžeto ir faktinės sumų ataskaitas. Šiame straipsnyje paaiškinama konfigūravimo veiksmai, kuriuos reikia atlikti norint kurti biudžetus programoje „Finance and Operations“ arba įkelti juos iš trečiosios šalies programos.
+description: Beveik kiekviena įmonė, naudojanti finansinių Microsoft Dynamics funkcijų funkciją 365 finansuose, turės turėti galimybę kurti biudžeto ir faktinių duomenų ataskaitas. Šiame straipsnyje paaiškinama konfigūravimo veiksmai, kuriuos reikia atlikti norint kurti biudžetus programoje „Finance and Operations“ arba įkelti juos iš trečiosios šalies programos.
 author: panolte
 ms.date: 04/29/2021
 ms.topic: overview
@@ -8,7 +8,7 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: BudgetParameters
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom:
 - "60113"
 - intro-internal
@@ -17,18 +17,18 @@ ms.search.region: global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8e881a878265062dc5ce8cec68a45237711f385d
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 48fcfec7126b4835b7d05e431bbc6ad7b9176bbe
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7986515"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8710419"
 ---
 # <a name="budgeting-overview"></a>Biudžetų sudarymo modulio apžvalga
 
 [!include [banner](../includes/banner.md)]
 
-Beveik visos įmonės, kurios naudoja „Microsoft Dynamics 365 Finance“ finansų funkciją, turės galėti kurti biudžeto ir faktinės sumų ataskaitas. Šiame straipsnyje paaiškinama konfigūravimo veiksmai, kuriuos reikia atlikti norint kurti biudžetus programoje „Finance and Operations“ arba įkelti juos iš trečiosios šalies programos.
+Beveik kiekviena įmonė, naudojanti finansinių Microsoft Dynamics funkcijų funkciją 365 finansuose, turės turėti galimybę kurti biudžeto ir faktinių duomenų ataskaitas. Šiame straipsnyje paaiškinama konfigūravimo veiksmai, kuriuos reikia atlikti norint kurti biudžetus programoje „Finance and Operations“ arba įkelti juos iš trečiosios šalies programos.
 
 ## <a name="overview"></a>Apžvalga
 
@@ -68,7 +68,7 @@ Biudžeto kodai suteikia galimybę patvirtintų biudžeto pakeitimų įrašus se
 
 Taip pat galite pasirinktinai nustatyti *biudžeto perkėlimo taisykles*. Norėdami naudoti biudžeto perkėlimo taisykles, puslapyje **Biudžeto parametrai** pažymėkite **Naudoti biudžeto perkėlimo taisykles**. Kai naudojamos biudžeto perkėlimo taisyklės, jei vartotojas sukuria dokumentą naudodamas tipo **Perkėlimas** biudžeto kodą, biudžeto balansai nebus atnaujinami, jei pažeistos biudžeto perkėlimo taisyklės. Pavyzdžiui, galite leisti biudžeto perkėlimo dokumentus, jei išlaidų biudžetas yra perkeliama pagrindinėse pardavimų ir rinkodaros padalinio sąskaitose, bet galite uždrausti biudžeto perkėlimą iš arba į tą padalinį, jei negautas to tipo biudžeto sąskaitos išrašo darbo eigos patvirtinimas.
 
-Funkcijos, pristatytos „Microsoft Dynamics 365 Finance“ 10.0.7 (2020 m. sausio) versijoje, papildė biudžeto registro įrašų galimybes ir lankstumą. Norėdami aktyvinti šiuos patobulinimus, eikite į darbo sritį **Funkcijų valdymas** ir pasirinkite **Biudžeto registro įrašai tik kiekiui** ir (arba) **Numatytieji biudžeto registro įrašų sumos tipai**.
+Funkcijos, kurios buvo įvestos Microsoft Dynamics 365 finansinės versijos 10.0.7 (2020 m. sausio mėn.) galimybė ir lankstumo biudžeto registro įrašams. Norėdami aktyvinti šiuos patobulinimus, eikite į darbo sritį **Funkcijų valdymas** ir pasirinkite **Biudžeto registro įrašai tik kiekiui** ir (arba) **Numatytieji biudžeto registro įrašų sumos tipai**.
 
 Funkcija **Biudžeto registro įrašai tik kiekiui** leidžia registruoti biudžeto registro įrašą su tik kiekio sumomis. Pavyzdžiui, galite užregistruoti biudžeto įrašą, kurio kiekis yra 32, o kaina – nulis, tokiu būdu gaunant nulinę sumą. Tada šį kiekį galite naudoti finansinės ataskaitos kontekste, kad nustatytumėte kainą pagal kiekį. Atkreipkite dėmesį, kad naudojant šią funkciją nebuvo atnaujinta nė viena iš užklausų ar ataskaitų; funkcija tiesiog leidžia užregistruoti nulinę sumą.
 

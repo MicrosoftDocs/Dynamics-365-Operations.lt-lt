@@ -7,17 +7,17 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: roschloma
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 3c8584c33b4f77b6d1f5a4dc0d62208b76b3ffa3
-ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
+ms.openlocfilehash: d5ced2f2bc419f18431663273236d21546c5541b
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "7753975"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8734463"
 ---
 # <a name="add-credit-management-information-for-customers"></a>Klientų kreditų valdymo informacijos įtraukimas
 
@@ -32,7 +32,7 @@ Galite įtraukti kliento išsamią informaciją į „FastTab“ **Kreditai ir m
 1. Nustatykite parinktį **Neribotas kredito limito** kaip **taip**, jei klientui neturi būti taikomas limitas pagal jokį kredito limito tikrinimą.
 2. Nustatykite parinktį **Pašalinti iš kreditų valdymo** kaip **Taip**, kad klientui nebūtų taikomi jokie veiksmai, kurie paprastai atsiranda kreditų valdymo procesuose.
 3. Klientui parinkite kreditų valdymo grupę.
-4. Norėdami apskaičiuoti kredito limitą kliento valiuta, lauke **Kredito limitas kliento valiuta** įveskite kliento kredito limitą. Kredito limitas įmonės valiuta bus konvertuotas naudojant valiutos kursus, apibrėžtus pagal kredito limito valiutos kurso tipą, kuris pasirinktas kreditų valdymo parametruose.
+4. Norėdami apskaičiuoti kredito limitą kliento valiuta, lauke **Kredito limitas kliento valiuta** įveskite kliento kredito limitą. Kredito limitas įmonės valiuta bus konvertuotas naudojant valiutos kursus, kuriuos apibrėžia kredito limito valiutos kurso tipas, pasirinktas kredito valdymo **parametruose**.
 5. Lauke **Paskutinė peržiūros data** įveskite datą, kada kredito valdytojas paskutinį kartą peržiūrėjo kliento kredito limitą.
 6. Lauke **Kita suplanuota peržiūros data** įveskite datą, kada suplanuota peržiūrėti ir naujinti kliento kreditą.
 7. Lauke **Tinkamas kredito limitas** įveskite didžiausią kliento kredito limitą, kuris gali būti priskirtas klientui pagal šio kliento kredito istorijos peržiūrą. Tinkamas kredito limitas gali skirtis nuo kredito limito, kuris yra rodomas „FastTab“ **Kreditai ir mokėjimų priežiūra**.
@@ -46,7 +46,8 @@ Galite įtraukti kliento išsamią informaciją į „FastTab“ **Kreditai ir m
 15. Lauke **Klientas nuo datos** įveskite datą, kada buvo apdorotos pirmos kliento operacijos. Ši informacija naudojama, kai kuriami rizikos balai.
 16. Įveskite pastabas, kurias kredito komanda gali naudoti, kad galėtų toliau vertinti kliento kreditingumą.
 
-Atkreipkite dėmesį, kad dalis informacijos, rodomos puslapyje **Klientas**, sukuriama kito proceso metu:
+> [!Note] 
+> Kai kurią informaciją, kuri rodoma kliento **puslapyje,** sukuria kitas procesas:
 
 - Lauke **Kredito limito galiojimo data** rodoma data, kada baigiasi kredito limito galiojimas. Jei šio lauko nenustatote, kliento kredito limitas neturi galiojimo laiko.
 - Lauke **Kredito limito data** rodoma kredito limito sukūrimo data. Šis laukas atnaujinamas, kai koreguojamas kredito limitas.
@@ -86,7 +87,7 @@ Galite kurti draudimo polisus ir garantijas puslapyje **Visi klientai** (**Gauti
     - Poliso vertė (B) yra 50 000.
     - **Atnaujinti kredito limitą** procentai (C) yra 50,00.
     
-    Šiuo atveju faktinis kredito limitas yra 125 000 (= A + \[ B × C\]).
+    Šiuo atveju faktinis kredito limitas yra 125 000 (= A + \[B × C\]).
 
 11. Pažymėkite žymės langelį **Įskaičiuota į išlaikymą**, kad sumažintumėte kredito limitą, kuris naudojamas kredito limito skaičiavimuose pagal poliso vertę. Jei šis žymės langelis yra pažymėtas, vertė, apskaičiuota, kai nurodytas **Atnaujinti kredito limitą** procentas, nebus naudojama skaičiuojant kredito limitą.
 
@@ -96,9 +97,9 @@ Galite kurti draudimo polisus ir garantijas puslapyje **Visi klientai** (**Gauti
     - Poliso vertė (B) yra 50 000.
     - **Atnaujinti kredito limitą** procentai (C) yra 50,00.
 
-    Šiuo atveju faktinis kredito limitas yra 125 000 (= A + \[ B × C\]).
+    Šiuo atveju faktinis kredito limitas yra 125 000 (= A + \[B × C\]).
     
-    Tačiau, jei pažymėsite žymės langelį **įtrauktas į išlaikymą**, vertė **Atnaujinti kredito limitą**, lygi 50 000 (=50,00 procentų vertės 100 000), pašalinama, o išlaikymo vertė yra 75 000 (= A + \[ B × C\] – B).
+    Tačiau, jei pažymėsite žymės langelį **įtrauktas į išlaikymą**, vertė **Atnaujinti kredito limitą**, lygi 50 000 (=50,00 procentų vertės 100 000), pašalinama, o išlaikymo vertė yra 75 000 (= A + \[B × C\] – B).
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

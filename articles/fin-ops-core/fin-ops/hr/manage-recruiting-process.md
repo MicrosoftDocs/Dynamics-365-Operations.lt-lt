@@ -1,31 +1,31 @@
 ---
 title: Įdarbinimo procesų valdymas
-description: Šioje temoje aprašoma koncepcija, kurią įdarbintojai gali naudoti norėdami stebėti įdarbinimo proceso veiksmus.
-author: andreabichsel
+description: Šioje temoje aprašoma sąvoka, kurią įdarbintojai gali naudoti norėdami sekti įdarbinimo proceso veiksmus.
+author: twheeloc
 ms.date: 01/10/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: HRMApplication, HRMRecruitingTable
 audience: Application User
-ms.reviewer: anbichse
+ms.reviewer: twheeloc
 ms.custom: 7501
 ms.assetid: 1ad725bf-20e2-42a1-8068-111f7ddddad9
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7fa1d5201fcc52d49b9d954356f1ca39b7619cd2
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: eb7cc1db906ba0cd07caaa1d82a12182f78b19ba
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8075480"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8735380"
 ---
 # <a name="manage-recruiting-processes"></a>Įdarbinimo procesų valdymas
 
 > [!IMPORTANT]
-> Šioje temoje nurodyta funkcija šiuo metu pasiekiama žmogiškųjų išteklių klientams finansų infrastruktūroje.  
+> Šios temos įdarbinimo funkcijos bus nurodytos kaip Įdarbinimo projektai ir židiniai pretendentams, prašymams ir įdarbinimo projektams. 
 
 
 Šioje temoje aprašoma koncepcija, kurią darbdaviai gali naudoti norėdami sekti įdarbinimo proceso veiksmus, įskaitant pastangas reklamuoti laisvas darbo vietas ir pretendentus, pretendento ir prašymo informacijos sekimą, pokalbius su pretendentais ir vieno ar daugiau kandidatų pasirinkimą, norint užpildyti laisvas darbo vietas jūsų organizacijoje.
@@ -44,7 +44,7 @@ ms.locfileid: "8075480"
 - Prašymo terminas.
 - Numatoma pradžios data.
 
-Įdarbinimo projekte yra **Darbo skelbimas** vertė, kuri naudojama **Darbuotojų savitarna** puslapį, kuriame skelbiama apie atidarymą. Atidarymas gali būti rodomas darbuotojams tik tuo atveju, jei įdarbinimo projektas turi a **Darbo skelbimas** vertė, **Rodyti darbuotojo savitarnoje** laukas nustatytas į **Taip**, **Paskutinis pristatymo laikas** laukas nustatytas į būsimą datą, o įdarbinimo projektas turi a **Projekto būsena** vertė **Prasidėjo**. Šioje lentelėje pateikiamos galimos įdarbinimo projekto būsenos ir jų aprašas.
+Įdarbinimo projekte pateikiama darbo skelbimo **vertė**, naudojama darbuotojų savitarnos **puslapyje** atidarymui skelbti. Atidarymą **darbuotojams** galima rodyti tik tada, jei įdarbinimo projekto darbo skelbimo vertė, **·** **laukas Rodyti darbuotojo savitarnos paslauga yra nustatytas kaip Taip**, **prašymo** termino lauke nustatyta būsima data, **o** įdarbinimo projekto projekto būsenos vertė yra **Pradėta**. Šioje lentelėje pateikiamos galimos įdarbinimo projekto būsenos ir jų aprašas.
 
 | Būsena    | Nurodo, kad...                                                                         |
 |-----------|-----------------------------------------------------------------------------------------|
@@ -57,7 +57,7 @@ Darbdaviai gali įrašyti **Publikavimo kanalai**, naudojamus reklamuoti laisvas
 
 ## <a name="applicants"></a>Pretendentai
 
-Pretendentas yra asmuo, kuris kreipiasi dėl darbo jūsų įmonėje. Pareiškėjai yra bendrinami visiems jūsų organizacijos juridiniams asmenims. Todėl jūs turite daug talentų, kurių galite ieškoti. Galite tvarkyti pretendentų kompetencijas, nuorodas, patogumų užklausas ir asmeninę informaciją. Kuriant pretendento įrašą, sukuriamas to pretendento asmens įrašas visuotinėje adresų knygelėje. Norėdami atnaujinti pretendentų visuotinės adresų knygelės informaciją, galite naudoti puslapį **Pretendentas**:
+Pretendentas yra asmuo, kuris kreipiasi dėl darbo jūsų įmonėje. Pretendentai bendrai naudojami tarp visų jūsų organizacijos juridinių subjektų. Todėl jūs turite didelį talentų telkinį, į kurį galima ieškoti. Galite tvarkyti pretendentų kompetencijas, nuorodas, patogumų užklausas ir asmeninę informaciją. Kuriant pretendento įrašą, sukuriamas to pretendento asmens įrašas visuotinėje adresų knygelėje. Norėdami atnaujinti pretendentų visuotinės adresų knygelės informaciją, galite naudoti puslapį **Pretendentas**:
 
 - Adreso informacija
 - Kontaktinė informacija
@@ -86,7 +86,7 @@ Prašymo būsena rodo, kokiame įdarbinimo proceso etape yra šis prašymas. Ši
 
 ### <a name="correspondence-actions"></a>Atsakomieji veiksmai
 
-Paraiškos susirašinėjimo veiksmas nustato dokumentą arba el. pašto šabloną, kurį naudojate bendraudami su paraišką pateikusiu pareiškėju. Asocijuojant **programų žymes** su korespondencijos veiksmais galite naudoti reikšmes iš **Taikymas**, **·**, **·**, ir **Įdarbinimo projektas** puslapiuose bendraudami su pareiškėjais. Kurdamas **el. pašto šablonai** dėl susirašinėjimo veiksmų galite greitai išsiųsti el. laiškus pareiškėjams, kurių paraiškose yra tam tikras būsenos ir susirašinėjimo veiksmo derinys. Pavyzdžiui, galite išsiųsti patvirtinimo el. laišką visoms programoms, kurios turi a **Būsena** vertė **Gauta** ir a **Korespondencijos veiksmas** vertė **Gauta**. Išsiuntę el. laišką, turite galimybę automatiškai atnaujinti programų būseną.
+Prašymo atsako veiksmas lemia dokumento ar el. laiško šabloną, kurį naudojate palaikyti ryšį su pretendentu, kuris pateikė prašymą. Susiedami prašymo **žymes su atsakomąsias priemones,** **kartu su pretendentais galite naudoti vertes iš prašymo,** **pretendento,** **·** **pokalbio ir įdarbinimo projekto puslapių.** Sukurdami **prašymo el** . laiškų šablonus, susirašinėjimo veiksmams galite greitai siųsti el. laiškus pretendentams, kurių prašymai turi tam tikrą būsenos ir atsako veiksmo derinį. Pavyzdžiui, galite siųsti patvirtinimo el. laišką **visiems prašymams, kurių būsenos** **vertė yra Gauta ir** Atsako **atsako atsako vertė** – **Gauta**. Išsiuntę el. laišką galite pasirinkti automatiškai atnaujinti prašymų būseną.
 
 ## <a name="application-routing"></a>Prašymo nukreipimas
 

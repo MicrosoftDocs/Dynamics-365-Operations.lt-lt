@@ -9,18 +9,17 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: Core, Operations
 ms.custom: 539093
 ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: f66c538afc732caf3faed3cfea6c695ff7f16273
-ms.sourcegitcommit: d0e99545d722c924db57ae2bd06f72154a1f1f97
+ms.openlocfilehash: 5913308d4ee9fdcb8cf2b862171078f27f651662
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/08/2022
-ms.locfileid: "8557976"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8686023"
 ---
 # <a name="deferral-default-transactions"></a>Atidėjimo numatytosios operacijos
 
@@ -123,7 +122,7 @@ Operacijos **atidėjimo** puslapyje yra šie laukai.
 | Pripažinimo sąskaita | Nurodyti suvartojimo atpažinimo sąskaitos numerį. |
 | Pradinio pripažinimo sąskaita | <p>Nurodyti pirminės suvartojimo atpažinimo sumos sąskaitą. Numatytoji vertė yra iš atidėjimų **numatytųjų reikšmių** puslapio.</p><p>Šis laukas galimas tik tada, kai **lauko Atidėjimo registravimo** **·** **būdas puslapio Įplaukos ir išlaidų atidėjimai parametrai nustatyta kaip Pelnas ir nuostoliai.**</p> |
 | Pripažinimo korespondentinė sąskaita | <p>Nurodyti sąskaitą suvartojimui pripažinti korespondentinę sumą. Numatytoji vertė yra iš atidėjimų **numatytųjų reikšmių** puslapio.</p><p>Šis laukas galimas tik tada, kai **lauko Atidėjimo registravimo** **·** **būdas puslapio Įplaukos ir išlaidų atidėjimai parametrai nustatyta kaip Pelnas ir nuostoliai.**</p> |
-| **Planuoti** | |
+| **Grafikas** | |
 | Grafiko tipas | <p>Pasirinkti atidėjimų grafiko tipą: tiesiogiai **eilutė** (numatytoji) arba **pagrįstas įvykiu**.</p><p>Pasirinktys, rodomos puslapyje, yra pagrįstos jūsų pasirinktu atidėjimo grafiko tipu.</p><p>Jei numatytasis šablonas nustatytas **operacijos eilutės atidėjimo** numatytųjų parametrų puslapyje, atidėjimo grafiko tipas remiasi pasirinkto šablono tipu.</p> |
 | **Grafikas – tiesiogiai suplanuota** | |
 | Konsoliduoti ankstesnius laikotarpius | <p>Nurodykite, ar norite konsoliduoti ankstesnių laikotarpių atidėjimo grafiko eilutes:</p><ul><li>**Taip** – konsoliduoti ankstesnių laikotarpių atidėjimo grafiko eilutes.</li><li>**Ne** – ne konsoliduokite ankstesnių laikotarpių atidėjimo grafiko eilučių.</li></ul><p>Numatytoji vertė yra iš parametrų **puslapio Įplaukos ir išlaidų atidėjimai**.</p> |

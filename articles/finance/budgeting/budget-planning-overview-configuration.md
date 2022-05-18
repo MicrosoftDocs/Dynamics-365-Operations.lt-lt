@@ -8,21 +8,21 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: BudgetPlanningConfiguration
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom:
 - "17251"
 - intro-internal
 ms.assetid: a2e06633-a800-4840-a962-88fed8462104
 ms.search.region: Global
-ms.author: sigitac
+ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 391f62f42e482f79420bbe1bbd4cec4930790229
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: d69d3d1620616bd7a136645d6f28f638e8bcf199
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982070"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8711749"
 ---
 # <a name="budget-planning-overview"></a>Biudžeto planavimo apžvalga
 
@@ -32,7 +32,7 @@ ms.locfileid: "7982070"
 
 ## <a name="overview-of-budget-planning"></a>Biudžeto planavimo apžvalga
 
-Organizacija gali konfigūruoti biudžeto planavimą, tada nustatyti biudžeto planavimo procesus, kurie atitiktų jos biudžeto sudarymo strategijas, procedūras ir reikalavimus. Žinodami „Microsoft Dynamics 365 Finance“ naudojamas sąvokas ir terminus, galėsite lengviau ir efektyviau įgyvendinti biudžeto planavimą savo organizacijoje.
+Organizacija gali konfigūruoti biudžeto planavimą, tada nustatyti biudžeto planavimo procesus, kurie atitiktų jos biudžeto sudarymo strategijas, procedūras ir reikalavimus. Suprasdami sąvokas ir terminologiją Microsoft Dynamics, naudojamą 365 finansuose, galite lengviau ir efektyviai įgyvendinti savo organizacijos biudžeto planavimą.
 
 ### <a name="key-terms"></a>Pagrindiniai terminai
 
@@ -57,7 +57,7 @@ Biudžeto planavimas yra integruotas kituose moduliuose. Todėl galite įtraukti
 
 ## <a name="configuring-budget-planning"></a>Biudžeto planavimo konfigūravimas
 
-Funkcija, kuri buvo įvesta „Dynamics 365 Finance” versijoje 10.0.9 (2020 m. balandis), yra funkcija, kuri padeda pagerinti našumą, kai naudojate mygtuką **Publikuoti** atnaujinti esamus įrašus programoje „Excel”, tada publikuoti juos atgal klientui. Ši funkcija padeda pagreitinti atnaujinimo procesą ir taip pat padeda sumažinti tikimybę, kad atnaujinimas bus blokuojamas, kai atnaujinsite daug įrašų tuo pačiu metu. Norėdami, kad ši funkcija būtų pasiekiama, eikite į darbo sritį **Funkcijų valdymas** ir įjunkite funkciją **Biudžeto planavimo užklausos optimizavimas našumui didinti** dalyje **Biudžeto sudarymas**. Rekomenduojame įjungti šią funkciją.
+Į "Dynamics 365" 10.0.9 finansų versiją (2020 m. balandžio mėn.) **įtrauktos** funkcijos, kurios padeda padidinti našumą, kai naudojate mygtuką Publikuoti, kad atnaujinsite esamus Excel įrašus ir paskelbsite juos atgal klientui. Ši funkcija padeda pagreitinti atnaujinimo procesą ir taip pat padeda sumažinti tikimybę, kad atnaujinimas bus blokuojamas, kai atnaujinsite daug įrašų tuo pačiu metu. Norėdami, kad ši funkcija būtų pasiekiama, eikite į darbo sritį **Funkcijų valdymas** ir įjunkite funkciją **Biudžeto planavimo užklausos optimizavimas našumui didinti** dalyje **Biudžeto sudarymas**. Rekomenduojame įjungti šią funkciją.
 
 Puslapyje **Biudžeto planavimo konfigūracija** pateikiama dauguma parametrų, reikalingų norint nustatyti biudžeto planavimą. Toliau pateikiamuose skyriuose aprašomi kai kurie veiksniai, į kuriuos turėtumėte atsižvelgti konfigūruodami biudžeto planavimą. Užbaigę konfigūraciją galite nustatyti biudžeto planavimo procesus.
 
@@ -87,7 +87,7 @@ Apibrėždamas vartotojų teises biudžeto planavimas gali naudoti vieną iš dv
 
 Biudžeto planavimo darbo eigos naudojamos kartu su biudžeto sudarymo darbo eigomis, kad būtų galima valdyti biudžeto planų kūrimą ir raidą.
 
-Biudžeto planavimo darbo eigą sudaro etapų rinkinys, kuriuos pereina biudžeto planas. Kiekviena biudžeto planavimo darbo eiga yra susieta su biudžeto sudarymo darbo eiga. Biudžeto sudarymo darbo eigos yra vienas iš „Dynamics 365 Finance“ naudojamų darbo eigos tipų. Jos siunčia biudžeto planus kartu su darbalapiais, pagrindimais ir priedais per organizaciją peržiūrai ir patvirtinimui.
+Biudžeto planavimo darbo eigą sudaro etapų rinkinys, kuriuos pereina biudžeto planas. Kiekviena biudžeto planavimo darbo eiga yra susieta su biudžeto sudarymo darbo eiga. Biudžeto planavimo darbo eigos yra vienas iš darbo eigos tipų, naudojamų visoje "Dynamics 365 Finance". Jos siunčia biudžeto planus kartu su darbalapiais, pagrindimais ir priedais per organizaciją peržiūrai ir patvirtinimui.
 
 Puslapio **Biudžeto planavimo konfigūracija** dalyje **Darbo eigos etapai** sukuriate biudžeto planavimo darbo eigą. Ten galite pasirinkti etapus ir biudžeto sudarymo darbo eigą, kuri bus naudojama, ir sukonfigūruojate papildomus parametrus.
 

@@ -9,18 +9,17 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application user
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-10-12
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 174cbd85139db5cee75481041fb721dc7646ab66
-ms.sourcegitcommit: eef5d9935ccd1e20e69a1d5b773956aeba4a46bc
+ms.openlocfilehash: e74336270ab46fc19adb4c797745c9582028391a
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/11/2021
-ms.locfileid: "7913607"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8687477"
 ---
 # <a name="print-tax-information-on-transfer-order-documents"></a>Perkėlimo užsakymo dokumentų mokesčių informacijos spausdinimas
 
@@ -39,7 +38,7 @@ Norėdami konfigūruoti šiuos duomenis, turite atlikti šiuos pagrindinius veik
 
 1. [Įgalinkite ir nustatykite perkėlimo užsakymų mokesčių funkciją](tasks/Tax-feature-support-for-transfer-order.md).
 2. [Kurkite ir nustatykite keletą juridinio subjekto mokesčio registracijos numerių](emea-multiple-vat-registration-numbers.md).
-3. Nustatykite neapmokestinimo kodą, aprašymą, mokesčių direktyvas ir atspausdinkite kodą mokesčių koduose. Pavyzdžiui, yra sukurti trys mokesčių kodai ir sinchronizuoti Microsoft Dynamics 365 Finance: **NL neapmokestinamas**, **BE-RC-21** ir **BE-RC+21**.
+3. Nustatykite neapmokestinimo kodą, aprašymą, mokesčių direktyvas ir atspausdinkite kodą mokesčių koduose. Pavyzdžiui, Microsoft Dynamics trys mokesčių kodai sukuriami ir sinchronizuojami su "365 Finance": **NL-Exempt**, **BE-RC-21** ir **BE-RC+21**.
 
     1. „Finance” platformoje eikite į **Mokesčiai** \> **Nustatymas** \> **Pardavimo mokestis** \> **Pardavimo mokesčio atleidimo kodai**.
     2. Pasirinkite **Redaguoti** ir įveskite neapmokestinimo **EC** kodo aprašymą. Pvz., įveskite **Neapmokestinamos EC siuntos su mokesčio registracijos numeriu**.

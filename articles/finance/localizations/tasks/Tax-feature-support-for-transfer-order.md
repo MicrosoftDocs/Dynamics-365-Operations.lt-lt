@@ -9,18 +9,17 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application user
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 2f68a3d7ed4384fe5a97f1e59903e3191df6b741
-ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.openlocfilehash: d95ea6795dc5777bfd37f8fbb3ebc47f2db337a0
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "7647718"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8689220"
 ---
 # <a name="tax-feature-support-for-transfer-orders"></a>Mokesčių funkcijų palaikymos operacijų užsakymams
 
@@ -31,7 +30,7 @@ ms.locfileid: "7647718"
 Norėdami konfigūruoti ir naudoti šią funkciją, turite atlikti tris pagrindinius veiksmus:
 
 1. **RCS nustatymas: reguliavimo konfigūravimo tarnybose nustatykite mokesčių funkciją, mokesčių kodus ir mokesčių kodų taikomumą mokesčių** kodo nustatymui perkėlimo užsakymuose.
-2. **Dynamics 365 Finance nustatymas:** Finansuose įgalinkite funkciją **Mokesčių operacijų užsakymas**, nustatykite mokesčių skaičiavimo paslaugų parametrus inventoriui ir nustatykite pagrindinius mokesčių parametrus.
+2. **"Dynamics 365" finansų nustatymas:** finansuose įjunkite **perkėlimo** užsakymo mokesčio funkciją, nustatykite atsargų mokesčių skaičiavimo tarnybos parametrus ir nustatykite pagrindinius mokesčių parametrus.
 3. **Atsargų nustatymas:** nustatykite perkėlimo užsakymo operacijų atsargų konfigūraciją.
 
 ## <a name="set-up-rcs-for-tax-and-transfer-order-transactions"></a>Nustatyti mokesčių ir perkėlimo užsakymo operacijų RCS

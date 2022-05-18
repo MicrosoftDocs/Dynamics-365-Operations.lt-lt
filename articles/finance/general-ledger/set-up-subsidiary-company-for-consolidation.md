@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2020-10-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: fbec5ad8fa5e17b75859c07ee64a66c9568c97d3d18b6a7616a64303d3a33f10
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bfa913ca1778391ce0f5a1b2fdf6e5828b30cb66
+ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727964"
+ms.lasthandoff: 05/07/2022
+ms.locfileid: "8724479"
 ---
 # <a name="set-up-a-subsidiary-legal-entity-for-consolidation"></a>Nustatyti papildomą asmenį konsolidavimo procesui
 
@@ -29,7 +29,7 @@ Metodas, kurį naudojate siekiant parengti papildomas sąskaitas konsolidavimui 
 Prieš jums pradedant konsoliduoti kaip laikotarpio pabaigos uždarymo dalį, užbaikite parengimo veiksmus ilgo laiko uždarymui, bet neuždarykite papildomų sąskaitų iki konsolidavimo pabaigos. Dėl daugiau informacijos apie ilgalaikio laikotarpio uždarymą, žr. [Uždaryti bendrą buhalterinę knygą po laikotarpio](close-general-ledger-at-period-end.md) ir [Uždaryti mokestinius metus](tasks/close-fiscal-year.md).
 
 > [!NOTE]
->  Rekomenduojame jums naudoti „Management Reporter“ „Microsoft Dynamics 365 Finance“ siekiant suderinti finansinius rezultatus keliems juridiniams asmenims konsoliduotame formate. „Management Reporter“ leidžia jums kurti konsoliduotas finansines ataskaitas juridiniuose objektuose, naudoti „Exce“ siekiant importuoti konsolidavimo duomenis iš kitų šaltinių ir versti sumas į bet kokių ataskaitų valiutų skaičius be poreikio vykdyti konsolidavimo procesą „Dynamics 365 Finance“.
+>  Rekomenduojame naudoti "Management Reporter for Microsoft Dynamics 365 Finance", kad būtų sujungti keleto juridinių subjektų finansiniai rezultatai konsoliduotu formatu. "Management Reporter" leidžia kurti konsoliduotas finansines ataskaitas tarp juridinių subjektų, naudoti Excel, norint importuoti konsolidavimo duomenis iš kitų šaltinių ir išversti sumas į bet kokį ataskaitų valiutų skaičių, nereikia vykdyti konsolidavimo proceso "Dynamics 365" finansuose.
 
 ## <a name="map-subsidiary-main-accounts-to-consolidated-main-accounts"></a>Talpinkite į žemėlapį dukterinės įmonės pagrindines sąskaitas siekiant konsoliduoti pagrindines sąskaitas
 

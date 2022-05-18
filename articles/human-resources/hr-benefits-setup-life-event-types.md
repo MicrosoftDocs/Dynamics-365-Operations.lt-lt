@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart, BenefitLifeEventTypes
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: aab35d40af43caff7010998ddce51350584228a1
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 64e536bad996e9a1948dad18437ec6f98ad27033
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8071762"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8691728"
 ---
 # <a name="configure-life-event-types"></a>Gyvenimo įvykių tipų konfigūravimas
 
@@ -29,7 +28,7 @@ ms.locfileid: "8071762"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Dynamics 365 Human Resources naudoja **Gyvenimo įvykių tipai** nustatyti įvykius, kuriuose galioja registracija į išmokas darbuotojams, pvz., susituokimas ar vaiko gimimas. Kiekvienas gyvenimo įvykio tipo ID gali būti susietas tik su vienu gyvenimo įvykio tipu. Pavyzdžiui, jei sukursite a **Gyvenimo įvykio ID** paskambino **Adreso pakeitimas** kuris yra susijęs su gyvenimo įvykio tipu **Darbuotojo adreso keitimas**, negalite sukurti kito ID, pažymėto etikete **Darbuotojo adreso keitimas** ir susieti jį su gyvenimo įvykio tipu **Darbuotojo adreso keitimas**. Jei gyvenimo įvykio tipas nėra susietas su plano tipu, gyvenimo įvykio tipas neišjungs gyvenimo įvykio. Daugiau informacijos žr. dalyje [Planų tipų kūrimas](hr-benefits-setup-plan-types.md).
+Dynamics 365 Human Resources naudoja **gyvenimo įvykių tipus** įvykių apibrėždami įvykius, kuriuose jis yra galiojantis atnaujinti darbuotojų išmokas, pvz., gauti susivedimą arba gauti vaiko. Kiekvienas gyvenimo įvykio tipo ID gali būti susietas tik su vienu gyvenimo įvykio tipu. Pavyzdžiui, **jei sukuriate gyvenimo įvykio ID** **·** **·**, vadinamą Adreso pakeitimas, kuris susijęs su gyvenimo įvykio tipu Darbuotojo adreso pakeitimas, negalite sukurti kito **ID** **, pažymėto darbuotojo adreso pakeitimo, ir susieti jį su gyvenimo įvykio tipo Darbuotojo adreso pakeitimas.** Jei gyvenimo įvykio tipas nėra susietas su plano tipu, gyvenimo įvykio tipas neišjungs gyvenimo įvykio. Daugiau informacijos žr. dalyje [Planų tipų kūrimas](hr-benefits-setup-plan-types.md).
 
 ## <a name="create-a-life-event-type"></a>Kurti gyvenimo įvykio tipą
 
@@ -49,7 +48,7 @@ Dynamics 365 Human Resources naudoja **Gyvenimo įvykių tipai** nustatyti įvyk
 
 ## <a name="view-attached-plans"></a>Peržiūrėti pridėtus planus
 
-Galite matyti planų, kurie pridedami prie pasirinktų, sąrašą **Gyvenimo įvykio tipas**. Gyvenimo įvykiai pridedami prie plano tipo, o planų tipai siejami su planu.
+Galite matyti planų, pridėtų prie pasirinkto tipo Gyvenimo įvykis **, sąrašą**. Gyvenimo įvykiai pridedami prie plano tipo, o planų tipai siejami su planu.
 
 1. Darbo srities **Išmokų valdymas** dalyje **Sąranka** pasirinkite **Gyvenimo įvykių tipai**.
 
@@ -64,17 +63,17 @@ Kurdami gyvenimo įvykio tipą galite rinktis iš šių gyvenimo planų:
 | Gyvenimo įvykis | Vieta | Paleidiklis |
 | --- | --- | --- |
 | **Šeimyninės padėties pasikeitimas** | **Darbuotojas > Profilis > Asmeninė informacija > Šeiminė padėtis**| Šeimyninės padėties pasikeitimas |
-| **Įdarbinimo būsenos pasikeitimas** |**Darbuotojas > Užimtumas > Įdarbinimo istorijos puslapis** | Jei darbuotojo įdarbinimo informacija jau yra išsami, sukūrus naują įdarbinimo informaciją, kurios įdarbinimo būsena skiriasi, bus suaktyvinamas gyvenimo įvykis.  Esamos įdarbinimo informacijos atnaujinimas su skirtinga įdarbinimo būsena taip pat suaktyvins visą įvykį.  |
+| **Įdarbinimo būsenos pasikeitimas** |**Darbuotojo > įdarbinimo > retrospektyvos puslapis** | Jei darbuotojo įdarbinimo informacija jau yra išsami, sukūrus naują įdarbinimo informaciją, kurios įdarbinimo būsena skiriasi, bus suaktyvinamas gyvenimo įvykis.  Esamos įdarbinimo informacijos atnaujinimas su skirtinga įdarbinimo būsena taip pat suaktyvins visą įvykį.  |
 | **Darbuotojo adreso pasikeitimas** |**Darbininkas > Profilis > Adresai**</li><li>**Darbininkas > Asmeninė informacija > Asmeniniai kontaktai > Adresas**</li></ul> | Adreso pakeitimas. Adresas turi būti **pirminis** kad būtų suaktyvinamas gyvenimo įvykis. |
-| **Priklausomojo pasikeitimas** |<br><ul><li>**Darbuotojas > Profilis > Asmeninė informacija > Asmeniniai kontaktai** /li><li>**Darbuotojų savitarna**</li></ul> | Pridėti asmeninį kontaktą, nurodantį jį kaip priklausomą ir nurodantį **galioja** nuo. Atnaujinkite asmeninio kontakto priklausomojo **informaciją, tinkamą** informacijai. Asmeninio kontakto ryšys turi būti vaikas, sutuoktinis, civilinis partneris arba buvęs sutuoktinis.  |
+| **Priklausomojo pasikeitimas** |<br><ul><li>**Darbuotojo > šablonas > asmeninės informacijos > asmeninių kontaktų /** li><li>**Darbuotojų savitarna**</li></ul> | Pridėti asmeninį kontaktą, nurodantį jį kaip priklausomą ir nurodantį **galioja** nuo. Atnaujinkite asmeninio kontakto priklausomojo **informaciją, tinkamą** informacijai. Asmeninio kontakto ryšys turi būti vaikas, sutuoktinis, civilinis partneris arba buvęs sutuoktinis.  |
 | **Gimimas ar įvaikinimas (priklausomasis)** |<br><ul><li>**Darbininkas > Profilis > Asmeninė informacija > Asmeniniai kontaktai**</li><li>**Darbuotojų savitarnos paslauga > Redaguoti asmeninę informaciją > Asmeniniai kontaktai**</li></ul>| **Gimimo** data arba registravimo data pridedama arba **atnaujinama**. Reikia **nurodyti** vaiko gimimo datą. |
 | **Padengimo praradimas (sutuoktinis / civilinis partneris)** | Darbininkas > Profilis > Asmeninė informacija > Asmeniniai kontaktai > Išsami informacija apie priklausomąjį > Padengimo praradimas | Asmeninio kontakto dalyje pasirenkama **Padengimo praradimas** ir **Įsigaliojimo data** |
 | Partnerio užimtumo pasikeitimas | **Darbininkas > Profilis > Asmeninė informacija > Asmeniniai kontaktai > Išsami informacija apie priklausomąjį > Įdarbintas** | Kuriamas asmeninis kontaktas ir **nustatomas** Parametras **Įdarbina kaip** Taip. Asmeninio kontakto atnaujinimas ir įdarbinimo **keitimas**.  |
 | **Atostogos (sutuoktinis / civilinis partneris)** | **Darbininkas > Profilis > Asmeninė informacija > Asmeniniai kontaktai > Išsami informacija apie priklausomąjį > Atostogos** | Nurodyta asmeninio kontakto **sukurta ir Atostogų įsigaliojimo** data. Asmeninio **kontakto atostogų laikas** atnaujintas. Asmeninio **kontakto atostogų laiko** įsigaliojimo data atnaujinama.  |
 | **Padengimo (pareigų) pasikeitimas** |<br><ul><li>**Darbininkas > Pareigų priskyrimas > Darbininko pareigų priskyrimas**</li><li>**Pareigos > Pareigos**</li></ul>| Pareigų pasikeitimas darbininko pareigų priskyrimo įrašuose. Darbininko priskyrimo pareigoms pasikeitimas. |
-| **Padengimo (atlyginimo) pasikeitimas** |<br><ul><li>**Darbininkas > Kompensacija > Fiksuotas planas**</li><li>**Darbuotojas > Asmeninė informacija > Išmokų metinis atlyginimas**</li></ul>| Jeigu **Išmokų valdymas > Bendri žmogiškųjų išteklių parametrai > Išmokos > Išmokos metinis atlyginimas** neįjungtas, atnaujinama **Darbuotojas > Atlyginimas > Fiksuotas planas** sukurs gyvenimo įvykį. Jeigu **Išmokų valdymas > Bendri žmogiškųjų išteklių parametrai > Išmokos > Išmokos metinis atlyginimas** yra įjungtas, atnaujinamas **Darbuotojas > Asmeninė informacija > Išmokos metinis atlyginimas** sukurs gyvenimo įvykį. |
+| **Padengimo (atlyginimo) pasikeitimas** |<br><ul><li>**Darbininkas > Kompensacija > Fiksuotas planas**</li><li>**Darbuotojas > Asmeninė informacija > Išmokų metinis atlyginimas**</li></ul>| **Jei išmokų valdymas > personalo bendrai naudojamus parametrus > Išmokos > Išmokų** metinis atlyginimas neįgalintas, **atnaujinus darbuotojo darbo > atlyginimo > Planas** sukurs gyvenimo įvykį. **Jei išmokų valdymas > personalo bendrai naudojamus parametrus > Išmokos > Išmokų** metinis atlyginimas įgalintas, **darbuotojo > Asmeninės informacijos > Išmokos** metinis atlyginimas sukurs gyvenimo įvykį. |
 | **Sveikatos draudimas (darbuotojas / priklausomasis)** | **Darbininkas > Profilis > Asmeninė informacija > Asmeniniai kontaktai > Išsami informacija apie priklausomąjį > Sveikatos draudimo įsigaliojimo data** | Pridedant arba **atnaujinant asmeninio** kontakto įsigaliojimo datą, sukuriamas šis gyvenimo įvykis. |
-| **Teismo paskirta parama** | **Darbuotojas > Profilis > Asmeninė informacija > Asmeniniai kontaktai > Išlaikomasis > Teismo nurodyta pagalba** (QMSCO/QDRO) ir įsigaliojimo datos | Kuriant asmeninį kontaktą, bus sukurtas gyvenimo įvykis, jei **Teismo sprendimo tarnyba** yra **Taip**. Teismo sprendimo pagalbos arba teismo sprendimo galiojimo pabaigos datos atnaujinimas **suaktyvins** ir **visą** įvykį. |
+| **Teismo paskirta parama** | **Darbuotojo > (QMSCO >) > asmeninių kontaktų > priklausomas >** Teismo tarnyba (QMSCO / QDRO) ir galiojimo datos | Kuriant asmeninį kontaktą, bus sukurtas gyvenimo įvykis, jei **Teismo sprendimo tarnyba** yra **Taip**. Teismo sprendimo pagalbos arba teismo sprendimo galiojimo pabaigos datos atnaujinimas **suaktyvins** ir **visą** įvykį. |
 | **Mirė** | **Darbininkas > Profilis > Asmeninė informacija > Mirties data** | Įvesta ar atnaujinta **Mirties data**. |
 | **Draudimo įrodymai** | **Darbininkas > Darbininkas > Versijos > įdarbinimo retrospektyvos > Datos tvarkytuvas > Išmokos informacija** | **Nustatytas tinkamumo naudoti į** Taip **įrodymas**. **Apibrėžta tinkamumo naudoti tikinimo** data. |
 | **Gavėjas** | **Darbininkas > Profilis > Asmeninė informacija > Asmeniniai kontaktai** | Įtraukiamas asmeninis kontaktas ir pildomi laukai **Gavėjas** ir **Įsigaliojimo data**. Asmeninio kontakto tipas turi būti **Vaikas**, **Sutuoktinis**, **Partneris**, **Giminė**, **Šeimos kontaktas**, **Kitas kontaktas** ar **Tėvas**. |

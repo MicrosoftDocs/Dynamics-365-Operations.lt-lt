@@ -1,6 +1,6 @@
 ---
 title: Turto valdymo mobiliosios darbo srities nustatymas
-description: Šioje temoje aprašoma, kaip sukonfigūruoti „Microsoft Dynamics 365 Supply Chain Management” ir „Finance and Operations” („Dynamics 365”) mobiliąją programėlę ir paleisti Turto valdymo mobiliąją darbo sritį, kurią darbuotojai gali naudoti atlikti turto valdymo užduotis.
+description: Šioje temoje aprašoma, kaip nustatyti "Microsoft Dynamics 365 Supply Chain Management " ir finansų ir operacijų ("Dynamics 365") mobiliąją programą, kad būtų vykdoma turto valdymo mobilioji darbo sritis, kurią darbuotojai gali naudoti turto valdymo užduotims atlikti.
 author: johanhoffmann
 ms.date: 01/15/2021
 ms.topic: article
@@ -8,23 +8,22 @@ ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-12-22
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 5d628f99d4fc6788ddb38590c65decb871d49f93
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: a056be417d266fd400ce1572312f327dc070cb6a
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572198"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8693506"
 ---
 # <a name="set-up-the-asset-management-mobile-workspace"></a>Turto valdymo mobiliosios darbo srities nustatymas
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje aprašoma, kaip sukonfigūruoti „Microsoft Dynamics 365 Supply Chain Management” ir „Finance and Operations” („Dynamics 365”) mobiliąją programėlę, kad paleistumėte **Turto valdymas** mobiliąją darbo sritį, kurioje darbuotojai gali atlikti turto valdymo užduotis.
+Šioje temoje aprašoma, kaip nustatyti "Microsoft Dynamics 365 Supply Chain Management" ir finansų ir operacijų ("Dynamics 365") **mobiliąją** programą, kad būtų vykdoma turto valdymo mobilioji darbo sritis, kurią darbuotojai gali naudoti turto valdymo užduotims atlikti.
 
 ## <a name="set-up-maintenance-worker-users-in-supply-chain-management"></a>Techninės priežiūros darbuotojo vartotojų nustatymas „Supply Chain Management”
 
@@ -42,7 +41,7 @@ Kiekvienas vartotojas, kuriam reikalinga prieiga prie **Turto valdymas** mobilio
 
 ## <a name="publish-the-asset-management-mobile-workspace"></a>Turto valdymo mobiliosios darbo srities paskelbimas
 
-Norėdami įgalinti turto valdymo funkcijas „Finance and Operations” („Dynamics 365”) mobiliojoje programėlėje, turite publikuoti **Turto valdymas** mobiliąją darbo sritį.
+Norėdami, kad turto valdymo priemonės būtų galimos finansų ir operacijų ("Dynamics 365") mobiliųjų įrenginių programoje, turite paskelbti turto **valdymo mobiliąją** darbo sritį.
 
 1. „Supply Chain Management” pasirinkite **Parametrai** mygtuką (krumpliaračio piktograma viršutiniame dešiniajame kampe) ir meniu pasirinkite **Mobilioji programėlė**.
 1. Dialogo lange **Tvarkyti mobiliąją programėlę** suraskite plytelę **Turto valdymas**. Joje pateiktas tekstas „Metaduomenyse – nepublikuota”, darbo sritis dar nebuvo publikuota. Jei joje yra tekstas „Metaduomenyse – publikuota”, darbo sritis jau publikuota, o likusią procedūrą galite praleisti.
@@ -51,14 +50,14 @@ Norėdami įgalinti turto valdymo funkcijas „Finance and Operations” („Dyn
 
 1. Pasirinkite **Turto valdymas** plytelę, tada įrankių pasirinkite **Publikuoti**. Po kelių sekundžių turėtumėte gauti pranešimą, kad darbo sritis sėkmingai publikuota. Be to, plytelės tekstas turi pasikeisti į „Metaduomenyse – publikuota”.
 
-## <a name="install-and-set-up-the-finance-and-operations-dynamics-365-mobile-app"></a>„Finance and Operations” ("Dynamics 365") mobiliosios programėlės įdiegimas ir konfigūravimas
+## <a name="install-and-set-up-the-finance-and-operations-dynamics-365-mobile-app"></a>Įdiegti ir nustatyti finansų ir operacijų ("Dynamics 365") mobiliąją programą
 
-1. Norėdami įdiegti **„Microsoft Finance and Operations” ("Dynamics 365")** programėlę savo mobiliajame įrenginyje, apsilankykite vienoje iš mobiliųjų programėlių parduotuvių:
+1. Eikite į vieną iš toliau nurodytų parduotuvių ir įdiekite " **Microsoft Finance and Operations" ("Dynamics 365")** programėlę mobiliajame įrenginyje:
 
     - [„Google Android” įrenginiams](https://go.microsoft.com/fwlink/?linkid=850662)
     - [„iOS” įrenginiams](https://go.microsoft.com/fwlink/?linkid=850663)
 
-1. Atidarykite „Finance and Operations” ("Dynamics 365") programėlę. Turėtų pasirodyti prisijungimo puslapis. **Prisijungti** lauke įveskite „Supply Chain Management” URL arba įveskite neseniai naudotą URL **Neseniai naudotos aplinkos**  sąraše ir bakstelėkite **Prisijungti**.
+1. Atidarykite finansų ir operacijų (Dynamics 365) programą. Turėtų pasirodyti prisijungimo puslapis. **Prisijungti** lauke įveskite „Supply Chain Management” URL arba įveskite neseniai naudotą URL **Neseniai naudotos aplinkos**  sąraše ir bakstelėkite **Prisijungti**.
 
     ![Prisijungimo puslapis.](media/mobile-app-sign-in.png "Prisijungimo puslapis")
 
@@ -81,7 +80,7 @@ Norėdami įgalinti turto valdymo funkcijas „Finance and Operations” („Dyn
 
 Daugiau informacijos apie tai, kaip dirbti su **Turto valdymas** mobiliąja darbo sritimi, žr. [žr. Turto valdymo mobiliosios darbo srities naudojimas](asset-management-mobile-workspace.md).
 
-Norėdami gauti daugiau informacijos apie „Finance and Operations” („Dynamics 365”) mobiliąją programėlę, žr. [Mobiliosios programėlės pagrindinis puslapis](../../fin-ops-core/dev-itpro/mobile-apps/Mobile-app-home-page.md).
+Daugiau informacijos apie finansų ir operacijų ("Dynamics 365") mobiliąją programą žr. pagrindiniame [mobiliojo programos puslapyje](../../fin-ops-core/dev-itpro/mobile-apps/Mobile-app-home-page.md).
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

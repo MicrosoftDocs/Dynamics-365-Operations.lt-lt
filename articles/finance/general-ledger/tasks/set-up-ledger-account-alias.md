@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerAccountAlias
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 60e1dc0e61fd11e5498966031fbe7e6e65af2c6f57a820e1c99df05c6ad7f8f2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 50b486cd01850049ab3d23117d994c3db1038124
+ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6745801"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8716893"
 ---
 # <a name="set-up-a-ledger-account-alias"></a>Nustatyti didžiosios knygos pseudonimą
 
@@ -26,17 +26,14 @@ ms.locfileid: "6745801"
 
 Ši procedūra nurodo, kaip sukurti sąskaitos pseudonimą, kuriame pateikiama nuoroda, kur galima įvesti sąskaitos numerį. Šioje procedūroje naudojami demonstracinių duomenų įmonės USMF.
 
-1. Pasirinkite Didžioji knyga > Sąskaitų planas > Sąskaitos > Didžiosios knygos sąskaitos pseudonimas.
-2. Spustelėkite Naujas.
-3. Lauke Didžiosios knygos sąskaitos pseudonimas įveskite reikšmę.
-4. Lauke Sąskaitos struktūra pasirinkite sąskaitai ir dimensijoms priklausančią struktūrą.
-5. Lauke „Įmonė“ spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
-6. Sąraše raskite ir pasirinkite įmonę, kuriai taikomas pseudonimas.
-7. Sąraše spustelėkite saitą pasirinktoje eilutėje.
-8. Lauke DK sąskaitos pseudonimo aprašas nurodykite sąskaitą ir dimensijas.
+1. Eikite **į DK > sąskaitų planą, > sąskaitos > DK sąskaitos pseudonimą**, spustelėkite **Naujas**.
+2. Lauke DK **sąskaitos pseudonimas** įveskite vertę.
+3. Lauke Sąskaitos **struktūra pasirinkite** struktūrą, kuriai priklauso sąskaita ir dimensijos.
+4. **Lauke Įmonė** sąraše pasirinkite įmonę, kurią apima pseudonimas.
+5. DK sąskaitos **pseudonimo apibrėžimo** lauke nurodykite sąskaitą ir dimensijas.
     * Sąskaita ir dimensijos bus nustatomos naudojant nuorodą.  
-9. Lauke Pradinis židinys pasirinkite dimensiją, kuri turės židinį, kai bus naudojamas pseudonimas.
-    * Po to, kai įvesite nuorodą ir bus nustatyta sąskaita ir dimensijos, žymeklis arba židinys persikels į lauką Pradinis židinys.  
+6. Lauke Pradinis **židinis** pasirinkite dimensiją, kuri bus fokusuoti naudojant pseudonimą.
+    * Kai įvesite nuorodą, o sąskaita ir dimensijos bus užpildytos, pradinio židinio laukas yra ten, **į** kurį bus perkeliamas žymeklis arba židinis.  
 
 
 

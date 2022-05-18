@@ -1,20 +1,20 @@
 ---
 title: Švedijos „Intrastat”
 description: Šioje temoje pateikiama informacija apie Švedijos „Intrastat” ataskaitas.
-author: andosip
+author: anasyash
 ms.date: 8/24/2021
 ms.topic: article
 audience: Application User
-ms.reviewer: kfender
+ms.reviewer: kfend
 ms.search.region: Global
-ms.author: v-aosipov
+ms.author: anasyash
 ms.search.validFrom: ''
-ms.openlocfilehash: 152bfd24843867685b1d303484ed61ad98ec652a
-ms.sourcegitcommit: 3f6cbf4fcbe0458b1515c98a1276b5d875c7eda7
+ms.openlocfilehash: 1031b93950e44fe3b1b6254bf1503b4c09d6fd10
+ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "7486951"
+ms.lasthandoff: 05/07/2022
+ms.locfileid: "8727404"
 ---
 # <a name="swedish-intrastat"></a>Švedijos „Intrastat”
 
@@ -43,7 +43,7 @@ Daugiau informacijos žr. [ER konfigūracijų atsisiuntimas iš konfigūravimo t
 
 ## <a name="set-up-foreign-trade-parameters"></a>Nustatyti užsienio prekybos parametrus
 
-1. „Microsoft Dynamics 365 Finance“, eikite į **Mokesčiai** > **Nustatymai** > **Užsienio prekybos parametrai**.
+1. Microsoft Dynamics 365 finansuose eikite į **TaxSetupForeign** > **·** > **prekybos parametrus**.
 2. Skirtuko **„Intrastat”** „FastTab“ **Elektroninės ataskaitos** lauke **Failo formato susiejimas** pasirinkite **„Intrastat” (SE)**.
 3. **Ataskaitos formatų susiejimas** lauke pasirinkite **„Intrastat” ataskaita**.
 4. „FastTab” **Prekių kodų hierarchija** lauke **Kategorijų hierarchija** pasirinkite **„Intrastat”**.

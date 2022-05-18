@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-04-19
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: fadad34be31f6522654bc3af47a4f71695dcc5fea7f0b3e760ff26d79d88eb4c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6734069b1448999c62a8c538f97d786fc10995e5
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722516"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8685748"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-april-19-2021"></a>Kas nauja arba pasikeitė 2021 m. balandžio 19 d. „Dynamics 365 Human Resources”
 
@@ -42,7 +41,7 @@ Daugiau informacijos apie naujas funkcijas ir jų numatomas bendro pasiekiamumo 
 
 | Funkcija | Leidimo planas | Dokumentacija |
 | --- | --- | --- |
-| Platformos atnaujinimas 10.0.17 (41) | -- | [Platformos naujinimai, skirti 10.0.17 „Finance and Operations” programų versijai (2021 m. balandžio mėn.)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-17.md) |
+| Platformos atnaujinimas 10.0.17 (41) | -- | [Finansų ir operacijų programėlių 10.0.17 versijos platformos naujinimai (2021 m. balandžio mėn.)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-17.md) |
 | Pasirinktinių laukų palaikymas išmokų valdymo formose | [Pasirinktinių laukų palaikymas išmokų valdyme](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/custom-field-support-benefits-management)| [Išmokų valdymo apžvalga](hr-benefits-management-overview.md)|
 
 ### <a name="bug-fixes"></a>Klaidų ištaisymai
@@ -78,7 +77,7 @@ Toliau pateiktos naujos funkcijos yra peržiūrimos. Daugiau informacijos apie f
 | Funkcija | Informacija |
 | --- | --- |
 | Vadovo įvesti įgūdžiai savo darbuotojams gali būti automatiškai patvirtinami darbo eigos | Greitai bus išleista. |
-| Platformos atnaujinimas 10.0.18 (42) | Platformos atnaujinimas 10.0.18 yra suplanuotas pasirodyti su nauju leidimu 2021 m. gegužės 17 d. Daugiau informacijos žr. [„Finance and Operations” programų 10.0.18 versijos platformos naujinimai (2021 m. gegužės mėn.)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-18). |
+| Platformos atnaujinimas 10.0.18 (42) | Platformos atnaujinimas 10.0.18 yra suplanuotas pasirodyti su nauju leidimu 2021 m. gegužės 17 d. Daugiau informacijos rasite finansų ir [operacijų programėlių 10.0.18 versijos platformos atnaujinimų (2021 m. gegužės mėn.)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-18). |
 | Pasirinktinių laukų palaikymas išmokų valdyme pagal atitinkamas taisykles  | [Pasirinktinio lauko palaikymas tinkamumo apdorojimui](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/custom-field-support-eligibility-processing) |
 
 Norėdami gauti visą planuojamų funkcijų ir jų suplanuotų leidimų sąrašą, žr. [„Dynamics 365 Human Resources” 2021 m. 1-os leidimo bangos apžvalga](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/).

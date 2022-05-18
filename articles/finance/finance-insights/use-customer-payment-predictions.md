@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 14151
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-11-16
 ms.dyn365.ops.version: AX 10.0.14
-ms.openlocfilehash: ed70e133b93c783542d4669b679fc5b6d2d20240
-ms.sourcegitcommit: 133aa728b8a795eaeaef22544f76478da2bd1df9
+ms.openlocfilehash: ecc864485dfc106df22b48e92a85f2c73d58e0e8
+ms.sourcegitcommit: d70f66a98eff0a2836e3033351b482466bd9c290
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7968917"
+ms.lasthandoff: 05/11/2022
+ms.locfileid: "8740630"
 ---
 # <a name="use-customer-payment-predictions"></a>Kliento mokėjimo prognozių naudojimas
 
@@ -28,15 +28,15 @@ ms.locfileid: "7968917"
 
 Šioje temoje paaiškinama, kaip naudoti kliento mokėjimo prognozes. Prieš naudodami šią funkciją įsitikinkite, kad atlikote nustatymo veiksmus. Daugiau informacijos žr. [Klientų mokėjimo prognozių įjungimas](enable-cust-paymnt-prediction.md).
 
-Kliento mokėjimo numatymas galite peržiūrėti darbo srityje Valdyti kliento kreditą ir mokėjimų priežiūros darbo sritį ir dviejuose naujuose sąrašo puslapiuose: operacijos mokėjimo numatymų ir kliento **mokėjimo** **·** **numatymų**.
+Kliento mokėjimo numatymas galite **peržiūrėti** darbo srityje Valdyti kliento kreditą ir mokėjimų priežiūros darbo sritį ir dviejuose naujuose sąrašo puslapiuose: **·** **operacijos mokėjimo numatymų ir kliento mokėjimo numatymų**.
 
 ### <a name="manage-customer-credit-and-collections-workspace"></a>Darbo sritis Klientų kredito ir surinkimo valdymas
 
-Kliento **kredito ir mokėjimų valdymo darbo srityje yra dvi naujos prognozės: operacijos mokėjimo** **numatymas** ir kliento mokėjimų **numatymas.**
+Kliento **kredito ir mokėjimų valdymo darbo srityje** yra dvi naujos prognozės: **operacijos mokėjimo numatymas** **ir kliento mokėjimo numatymas**.
 
 ### <a name="transaction-payment-predictions-list-page"></a>Operacijos mokėjimo numatymų sąrašo puslapis
 
-Operacijų mokėjimo numatymų sąrašo puslapyje galite peržiūrėti atvirų operacijų mokėjimo tikimybę laiku, pavėluotai ir **labai** **·** **·** **pavėluotai**. Kiekvienoje tinklelio operacijoje stulpelyje **Tikimybė Laiku** rodoma tikimybė, kad SF bus apmokėta iki termino pabaigos datos. Jei dėl tikimybė, kad bus apmokėta laiku, yra mažesnė nei 50 procentų, prie procento, esančio stulpelyje **Tikimybė Laiku**, atsiranda raudonas apskritimas, kad būtų galima nurodyti pavėlavimo apmokėti riziką.
+Operacijų mokėjimo **numatymų** sąrašo puslapyje galite **peržiūrėti** atvirų operacijų mokėjimo tikimybę laiku, **·** **pavėluotai ir labai** pavėluotai. Kiekvienoje tinklelio operacijoje stulpelyje **Tikimybė Laiku** rodoma tikimybė, kad SF bus apmokėta iki termino pabaigos datos. Jei dėl tikimybė, kad bus apmokėta laiku, yra mažesnė nei 50 procentų, prie procento, esančio stulpelyje **Tikimybė Laiku**, atsiranda raudonas apskritimas, kad būtų galima nurodyti pavėlavimo apmokėti riziką.
 
 [![Puslapis Mokėjimo prognozavimas pagal operaciją.](./media/payment-predictions-per-transaction.png)](./media/payment-predictions-per-transaction.png)
 
@@ -52,7 +52,7 @@ Duomenys, esantys skiltyje **Svarbiausi veiksniai** ir „FastTab“ **Customer 
 
 ### <a name="customer-payment-predictions-list-page"></a>Kliento mokėjimo numatymų sąrašo puslapis
 
-Kliento mokėjimo numatymų sąrašo puslapyje rodomas bendras atviras balansas, numatyta sumokėti laiku, pavėluotai ir **labai** **·** **·** **pavėluotai** sumokėti suma.
+Kliento **mokėjimo numatymų** sąrašo puslapyje rodomas bendras atviras balansas, **numatyta** sumokėti suma laiku, **·** **pavėluotai ir labai** pavėluotai.
 
 [![Puslapis Mokėjimo prognozavimas pagal klientą.](./media/payment-predictions-per-transaction-02.png)](./media/payment-predictions-per-transaction-02.png)
 
@@ -86,10 +86,6 @@ Klientų žinių ir **kliento retrospektyvos** **·** "FastTabs" duomenys padeda
 
 Mokėjimo prognozių tikslumą galite peržiūrėti pasirinkę **Kreditas ir surinkimai \> Sąranka \> „Finance Insights” \> „Finance Insights” parametrai**. Skirtuke **Klientų mokėjimo įžvalgos**, skiltyje **Prognozės modelis** rodomas prognozės modelio tikslumas kaip procentinė dalis.
 
-[![Mokėjimo prognozių tikslumas.](./media/finance-insights-parameters-accuracy-2nd.png)](./media/finance-insights-parameters-accuracy-2nd.png)
-
-Jei jūsų tikslumas jus tenkina, pasirinkite saitą Pagerinti modelio **tikslumą**, kad atidarytumėte AI Builder plėtinio funkcijas. Plėtinio atveju galite pasirinkti arba atšaukti laukų pasirinkimą, kol nepažymėjote laukų, kurie, jūsų nuomone, yra svarbiausios tiksliai AI Builder nuspėjus mokėjimo tikimybes. Baigę, galite lengvai permokyti numatymo modelį ir publikuoti savo keitimus. Naujai parengtas prognozavimo modelis bus automatiškai naudojamas prognozuojant programoje „Dynamics 365 Finance“.
-
-[![AI Builder išplėtimo patirtį.](./media/ai-builder.png)](./media/ai-builder.png)
+Jei jūsų tikslumas jus tenkina, pasirinkite saitą **Pagerinti modelio tikslumą,** kad atidarytumėte plėtinio AI Builder funkcijas. Plėtinio AI Builder atveju galite pasirinkti arba atšaukti laukų pasirinkimą, kol nepažymėjote laukų, kurie, jūsų nuomone, yra svarbiausios tiksliai nuspėjus mokėjimo tikimybes. Baigę, galite lengvai permokyti numatymo modelį ir publikuoti savo keitimus. Naujai sukurtas numatymo modelis bus automatiškai paimtas numatymams Programoje "Dynamics 365 Finance".
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

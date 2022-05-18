@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bf7178888e39a5f26ae92e77df9c996374b76bf3
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: 933c8211276c1335a6a81bf4a8cb1c3f270762d4
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323670"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8689248"
 ---
 # <a name="supported-composite-data-types-for-electronic-reporting-formulas"></a>Palaikomi elektroninių ataskaitų formulių sudėtiniai duomenų tipai
 
@@ -81,7 +81,7 @@ Daugiau informacijos apie datos verčių *įraųas* ieškokite [datos ir laiko k
 
 Numatyta, kad įrašų *sąrašo įrašai* bus pasiekti iš eilės. Norėdami pasiekti konkretų įrašą, galite naudoti funkciją [INDEX](er-functions-list-index.md) ir nurodyti *integer* indeksą.
 
-Numatytoji vertė *įrašo sąrašo* yra **tuščia**. Galite naudoti [ISEMPTY](/er-functions-list-isempty.md) funkciją norėdami įvertinti, ar *įrašo sąrašas* yra tuščias.
+Numatytoji vertė *įrašo sąrašo* yra **tuščia**. Galite naudoti [ISEMPTY](er-functions-list-isempty.md) funkciją norėdami įvertinti, ar *įrašo sąrašas* yra tuščias.
 
 > [!NOTE]
 > Jei *įrašų sąrašas* tuščias, bet koks bandymas gauti lauko vertę jame sukelia *išimtį* apdorojimo metu. Norėdami sužinoti, kaip galite padėti išvengti šio tipo vykdyklės išimčių, [žr. Tuščias sąrašo atvejų svarstymas](er-components-inspections.md#i9).

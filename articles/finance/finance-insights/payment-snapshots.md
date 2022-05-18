@@ -8,7 +8,7 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom:
 - "14151"
 - intro-internal
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-19
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: f9b6d44b7381817a40b86c17ee4eaf3dbfc46b67
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: f84afddb26136797a7d35faf52325702b8e41a45
+ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983522"
+ms.lasthandoff: 05/07/2022
+ms.locfileid: "8725351"
 ---
 # <a name="snapshots-overview"></a>Momentinių kopijų apžvalga
 
@@ -40,6 +40,6 @@ Galite sukurti momentinę kopiją, pasirinkdami **Nauja momentinė kopija** skir
 
 Grynųjų pinigų įplaukos ir nutekėjimų nuotraukas galima redaguoti bet kuriuo metu. Kai redaguojama įplaukų suma arba ištekėjimo suma, atnaujinta suma yra proporcingai likviduojamos likvidumo sąskaitos, kurios atliko pradinį balansą. Baigę redaguoti momentinę kopiją, pasirinkite **Išsaugoti** ir įrašykite pakeitimus.
 
-Norėdami palyginti faktinius finansinius rezultatus su prognoze, kuri buvo įrašyta kaip momentinė kopija, pasirinkite **Palyginti su faktiniais duomenimis**. Lyginant **su faktinių sumų** puslapiu bus rodomas faktinių sumų ir prognozės palyginimas. Viršutinėje puslapio dalyje esančioje diagramoje parodomi grynųjų pinigų įplaukų, grynųjų pinigų srautų ir banko balansų persidengiantys laikotarpių tarp dviejų kadrų palyginimas. Apatinėje dalyje esantis tinklelis nurodo išsamų kiekvieno likvidumo sumos faktinių balansų per laikotarpį ir prognozuojamo balanso palyginimą. Tinklelyje esantis stulpelis **Nuokrypis** rodo skirtumą tarp faktinio balanso per laikotarpį ir prognozuojamo balanso.
+Norėdami palyginti faktinius finansinius rezultatus su prognoze, kuri buvo įrašyta kaip momentinė kopija, pasirinkite **Palyginti su faktiniais duomenimis**. Lyginant **su faktinių sumų puslapiu bus rodomas faktinių sumų ir prognozės** palyginimas. Viršutinėje puslapio dalyje esančioje diagramoje parodomi grynųjų pinigų įplaukų, grynųjų pinigų srautų ir banko balansų persidengiantys laikotarpių tarp dviejų kadrų palyginimas. Apatinėje dalyje esantis tinklelis nurodo išsamų kiekvieno likvidumo sumos faktinių balansų per laikotarpį ir prognozuojamo balanso palyginimą. Tinklelyje esantis stulpelis **Nuokrypis** rodo skirtumą tarp faktinio balanso per laikotarpį ir prognozuojamo balanso.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

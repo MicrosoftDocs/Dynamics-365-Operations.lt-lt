@@ -1,7 +1,7 @@
 ---
 title: Darbo grafiko kūrimas bangos metu
 description: Šioje temoje aprašoma, kaip nustatyti ir naudoti Darbo grafiko kūrimo bangos apdorojimo metodą.
-author: perlynne
+author: Mirzaab
 ms.date: 01/14/2021
 ms.topic: article
 ms.prod: ''
@@ -9,17 +9,16 @@ ms.technology: ''
 ms.search.form: WHSPostMethod, WHSWavePostMethodTaskConfig, WHSWaveTemplateTable, WHSParameters, WHSWaveTableListPage, WHSWorkTableListPage, WHSWorkTable, BatchJobEnhanced, WHSPlannedWorkOrder
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-14
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 5b1e798ac0558e7c5b0bbe4b6a732cbdcf5729a1
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.openlocfilehash: c955e7275c0bdc12dc206dde1d7e390f16270148
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920118"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8691137"
 ---
 # <a name="schedule-work-creation-during-wave"></a>Darbo grafiko kūrimas bangos metu
 
@@ -54,7 +53,7 @@ Taip pat, esamos užduočių ir bangų apdorojimo konfigūracijos bus išlaikyto
 Jei reikia, galite toliau pateiktu rankiniu būdu grąžinti bet kuriuos arba visus parametrus, sukurtus automatiniu būdu, kai įgalinote *Visos organizacijos suplanuoto darbo kūrimo bangos metodo* funkciją:
 
 - Bangos šablonus rasite **Sandėlio valdymas \> Nustatymas \> Bangos \> Bangų šablonai**. Pakeisti *Suplanuoto darbo kūrimo* metodą į *Darbo kūrimo*.
-- Sandėlio parametrų eikite į **Sandėlio valdymo \> nustatymo \> sandėlio valdymo parametrus**. Skirtuke **Bangos apdorojimas** taikykite pageidaujamas funkcijų **Bangų apdorojimas paketais** ir **Laukite užrakto (ms)** reikšmes.
+- Sandėlio parametrų eikite į Sandėlio **valdymo nustatymo \>\> sandėlio valdymo parametrus**. Skirtuke **Bangos apdorojimas** taikykite pageidaujamas funkcijų **Bangų apdorojimas paketais** ir **Laukite užrakto (ms)** reikšmes.
 - Bangos metodus rasite **Sandėlio tvarkymas \> Sąranka \> Bangos \> Bangos apdorojimo metodai**. Pasirinkite „`WHSScheduleWorkCreationWaveStepMethod`” ir veiksmų srityje pažymėkite **Užduoties konfigūracija**. Jeigu reikia, modifikuokite arba panaikinkite kiekvieno sandėlio paketinių užduočių skaičių ir priskirtą bangos grupę.
 
 ## <a name="manually-configure-scheduled-work-creation"></a>Suplanuoto darbo kūrimo konfigūravimas rankiniu būdu
@@ -74,7 +73,7 @@ Norint pasinaudoti lygiagrečiu asinchroniniu metodu kurti sandėlio darbui, jū
 Pradėkite sukurdami naują bangos veiksmo metodą ir įgalindami jį lygiagrečiam asinchroniniam užduoties apdorojimui.
 
 1. Eikite į **Sandėlio tvarkymas \> Sąranka \> Bangos \> Bangos apdorojimo metodai**.
-1. Pasirinkite iš naujo nustatymo metodą ir atkreipkite dėmesį, kad **·** *WHSScheduleWorkCreationWaveStepMethod buvo įtrauktas į bangos proceso metodų, kuriuos galite naudoti siuntimo bangos* šablonuose, sąrašą.
+1. Pasirinkite **iš naujo nustatymo** *metodą ir atkreipkite dėmesį, kad WHSScheduleWorkCreationWaveStepMethod* buvo įtrauktas į bangos proceso metodų, kuriuos galite naudoti siuntimo bangos šablonuose, sąrašą.
 1. Pasirinkite įrašą su **Metodo pavadinimu** *„WHSScheduleWorkCreationWaveStepMethod”* ir pasirinkite **Užduoties konfigūraciją**.
 1. Norėdami įtraukti naują eilutę į tinklelį, veiksmų srityje pasirinkite **Naujas** ir naudokite šiuos parametrus:
 

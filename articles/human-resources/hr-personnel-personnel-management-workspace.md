@@ -10,18 +10,17 @@ ms.search.form: HcmPosition, HcmPersonnelManagementWorkspace
 audience: Application User
 ms.author: twheeloc
 ms.reviewer: twheeloc
-ms.search.scope: Human Resources
 ms.custom: 269054
 ms.assetid: 889a8fab-0eef-45c2-91fc-ff2f4d44d54f
 ms.search.region: Global
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 7a83dea308e3e2eec1edebd5d619f9455e1a2268
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 8b7493aa2df65b42d0da8a451c40cccafbc1cda8
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8066580"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8689472"
 ---
 # <a name="personnel-management-workspace"></a>Personalo valdymo darbo sritis
 
@@ -30,7 +29,7 @@ ms.locfileid: "8066580"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-**Personalo valdymo** darbo srityje yra didelis turinio kiekis. Jame yra personalo judėjimas, sekami darbuotojų pasikeitimai, atviros pareigos, adresų pasikeitimai, pasibaigiantys įrašai ir analizė, pateikiamos nuorodos į konkrečią informaciją. Šioje temoje pateikiama išsami informacija apie kiekvieną darbo srities dalį.
+**Personalo valdymo** darbo srityje yra didelis turinio kiekis. Joje yra personalo dinamika, sekami darbuotojų pakeitimai, atviros pareigos, adreso pakeitimai, besibaigiantys įrašai ir analitika bei pateikiami saitai į konkrečią informaciją. Šioje temoje pateikiama išsami informacija apie kiekvieną darbo srities dalį.
 
 ## <a name="activity-tab"></a>Skirtukas Veikla
 
@@ -68,7 +67,7 @@ Skyriuje **Greitai pradeda** išvardyti darbuotojai, kurių pradžios data yra a
 Jei vadovo nėra kortelėje, darbuotojui nebus priskirtos pareigos.
 
 > [!NOTE] 
-> Prieš taikant kontrolinį sąrašą rekomenduojame darbuotojui priskirti pareigas. Kartais įdarbinimo užduotys paskiriamos naujai pasamdyto darbuotojo vadovui. Tačiau jei nepriskirtos jokios pareigos, negalima nustatyti naujo darbuotojo vadovo. Tokiu atveju vadovui numatytos supažindinimo užduotys vietoj to bus priskirtos kontrolinio sąrašo savininkui.
+> Rekomenduojame prieš pradedant taikyti kontrolinį sąrašą darbuotojui priskirti pareigas. Kartais inboarding užduotys priskiriamos naujai pasamdytiems darbuotojų vadybininkui. Tačiau jei nepriskirtos jokios pareigos, negalima nustatyti naujo darbuotojo vadovo. Tokiu atveju vadovui numatytos supažindinimo užduotys vietoj to bus priskirtos kontrolinio sąrašo savininkui.
 
 Kai darbuotojai atsiranda **Greitai pradės** dalyje, jiems galima atlikti šiuos veiksmus:
 
@@ -88,7 +87,7 @@ Kai darbuotojai atsiranda **Greitai pradės** dalyje, jiems galima atlikti šiuo
 Pagal numatytuosius nustatymus, sąraše rodomi darbuotojai, pasamdyti per paskutines septynias dienas. Norėdami pakeisti šį parametrą, **Žmogiškųjų išteklių parametrų** puslapio skirtuke **Bendra** nustatykite skirtąjį laiką **Naujausi samdiniai**. Skyriaus **Naujausi samdiniai** duomenys gali būti rodomi tam tikrą dienų, mėnesių ar metų skaičių. Pavyzdžiui, norėdami peržiūrėti darbuotojų, kurie buvo pasamdyti per paskutines 14 dienų, sąrašą, nustatykite **Laikotarpio** lauką į **14**, o **Vieneto** lauką – į **Dienos**.
 
 > [!NOTE]
-> Nustatymai **Žmogiškųjų išteklių parametrai** puslapyje yra konkrečios įmonės. Todėl skirtasis laikas, per kurį peržiūrite naujausius samdinius gali skirtis pagal įmonę. Pavyzdžiui, „USMF” įmonėje galbūt norėsite peržiūrėti visus naujus samdinius per paskutines septynias dienas. Tačiau USSI įmonėje galbūt norėsite peržiūrėti visus naujus pasamdžius per pastarąsias 14 dienų. Tokiu atveju atidarykite **Žmogiškųjų išteklių parametrai** puslapį kiekvienoje įmonėje ir pagal poreikį nustatykite parametrus.
+> Nustatymai **Žmogiškųjų išteklių parametrai** puslapyje yra konkrečios įmonės. Todėl skirtasis laikas, per kurį peržiūrite naujausius samdinius gali skirtis pagal įmonę. Pavyzdžiui, „USMF” įmonėje galbūt norėsite peržiūrėti visus naujus samdinius per paskutines septynias dienas. Tačiau USSI įmonėje galite norėti peržiūrėti visus naujus samdus per paskutines 14 dienų. Tokiu atveju kiekvienoje įmonėje atidarykite **personalo** parametrų puslapį ir nustatykite reikiamus parametrus.
 
 Jei vadovo nėra kortelėje, darbuotojui nebus priskirtos pareigos.
 

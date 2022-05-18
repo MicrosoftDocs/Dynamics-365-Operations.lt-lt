@@ -1,6 +1,6 @@
 ---
 title: Vėlesni čekiai
-description: Šiame straipsnyje pateikta informacija apie palaikymą dėl vėlesnių čekių „Microsoft“ „Dynamics 365 Finance“. Vėlesni čekiai yra čekiai, išrašomi norint atlikti ir gauti mokėjimus ateityje. Todėl čekio negalima išgryninti iki nurodytos datos.
+description: Šiame straipsnyje pateikta informacija apie postduotų "365 Finance Microsoft Dynamics " čekių palaikymą. Vėlesni čekiai yra čekiai, išrašomi norint atlikti ir gauti mokėjimus ateityje. Todėl čekio negalima išgryninti iki nurodytos datos.
 author: panolte
 ms.date: 01/12/2018
 ms.topic: article
@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: VendPostDatedChecks, CustPostDatedChecks
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 21741
 ms.assetid: 4eb7c7da-1e6b-4d35-9f41-373b66103229
 ms.search.region: Global
-ms.author: leguo
+ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3f5c4d641a3d3ccc326ee56ce7bd05c891b3fa8a
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.openlocfilehash: 33de0d5180962f52ddb0770f8729ed147d144e6d
+ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7595467"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8722861"
 ---
 # <a name="postdated-checks"></a>Vėlesni čekiai
 
@@ -28,7 +28,7 @@ ms.locfileid: "7595467"
 
 Šiame straipsnyje pateikta informacija apie palaikymą dėl vėlesnių čekių. Vėlesni čekiai yra čekiai, išrašomi norint atlikti ir gauti mokėjimus ateityje. Todėl čekio negalima išgryninti iki nurodytos datos.
 
-„Dynamics 365 Finance“ palaiko visą vėlesnių čekių valdymo ciklą ir gautinose sumos, ir mokėtinose sumose, kaip parodyta pateiktoje lentelėje.
+"Dynamics 365" finansai palaiko viso valdymo ciklą ir gautinų sumų, ir mokėtinų sumų postduotims čekiams, kaip parodyta pateiktoje lentelėje.
 <table>
 <colgroup>
 <col width="50%" />

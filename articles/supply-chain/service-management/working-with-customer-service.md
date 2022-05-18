@@ -1,7 +1,7 @@
 ---
 title: Darbo su klientų aptarnavimo tarnyba apžvalga
 description: Klientų aptarnavimo tarnyba remia profesionalias aptarnavimo ir gamybos paslaugų organizacijas.
-author: kamaybac
+author: sorenva
 ms.date: 07/25/2019
 ms.topic: overview
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 21ed2ceb6db06b04255803956c07ad3bcfa0e743
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: fd8ba10441c1300c913827122c09741c58a42973
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982464"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8677064"
 ---
 # <a name="work-with-customer-service-overview"></a>Darbo su klientų aptarnavimo tarnyba apžvalga
 

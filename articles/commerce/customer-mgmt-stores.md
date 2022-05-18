@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 29e45419f712e25092b473e34144ac1146e4ed9b
-ms.sourcegitcommit: eef5d9935ccd1e20e69a1d5b773956aeba4a46bc
+ms.openlocfilehash: 5a352ba479ca5e635ef521b99f31bd26d5d837ac
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/11/2021
-ms.locfileid: "7913631"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8687338"
 ---
 # <a name="customer-management-in-stores"></a>Klientų valdymas parduotuvėse
 
@@ -48,7 +48,7 @@ Pardavimų susiejimai gali perimti kelis kliento adresus. Kliento vardas ir pava
 
 [Asinchroninis kliento kūrimo režimas](async-customer-mode.md)
 
-[Asinchroninių klientų konvertavimas į sinchronus klientus](convert-async-to-sync.md)
+[Asinchroninių klientų konvertavimas į sinchroninius klientus](convert-async-to-sync.md)
 
 [Kliento atributai](dev-itpro/customer-attributes.md)
 

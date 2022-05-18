@@ -1,62 +1,62 @@
 ---
-title: Atskiras dvigubo rašymo programų orkestravimo paketas
-description: Dviejų rašymo programų orkestravimo paketas nebėra vienas paketas, bet buvo suskirstytas į mažesnius paketus. Šioje temoje paaiškinami sprendimai ir žemėlapiai, kurie yra kiekviename pakete, ir jo priklausomybė nuo kitų paketų.
+title: Atskirto dvigubo rašymo programos instrumentavimo paketas
+description: Dvigubo rašymo programos instrumentavimo paketas nebėra vienas paketas, bet jis atskirtas į mažesnius paketus. Šioje temoje paaiškinami sprendimai ir schemos, kurias sudaro kiekvienas paketas, ir jo priklausomybė nuo kitų paketų.
 author: RamaKrishnamoorthy
-ms.date: 11/29/2021
+ms.date: 04/25/2022
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: tfehr
+ms.reviewer: sericks
 ms.custom: separate-solution
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-11-29
-ms.openlocfilehash: e2f870368dc662032a3e7ca7ddca902feb23a713
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: f6950ec3e6ded49a71f119c21be67f538c8e1c69
+ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8063267"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8716558"
 ---
-# <a name="separated-dual-write-application-orchestration-package"></a>Atskiras dvigubo rašymo programų orkestravimo paketas
+# <a name="separated-dual-write-application-orchestration-package"></a>Atskirto dvigubo rašymo programos instrumentavimo paketas
 
 [!include [banner](../../includes/banner.md)]
 
 
 
-Anksčiau „Dual-Write Application Orchestration“ paketas buvo vienas paketas, kuriame buvo šie sprendimai:
+Anksčiau dvigubo rašymo programos instrumentų paketas buvo vienas paketas, kuriame yra šie sprendimai:
 
-- „Dynamics 365“ pastabos
-- Dynamics 365 Finance ir Operacijų bendrasis inkaras
-- Dynamics 365 Finance ir operacijų dvigubo rašymo objektų žemėlapiai
-- „Dynamics 365 Asset Management“ programa
-- „Dynamics 365 Asset Management“.
+- "Dynamics 365" pastabos
+- "Dynamics 365" finansų ir operacijų bendrasis inkaras
+- "Dynamics 365" finansų ir operacijų dvigubo rašymo objektų schemos
+- "Dynamics 365" turto valdymo programa
+- "Dynamics 365" turto valdymas
 - „HCM Common“
-- „Dynamics 365“ tiekimo grandinė išplėsta
+- "Dynamics 365" tiekimo grandinės išplėstinė
 - „Dynamics 365 Finance Extended“
-- Dynamics 365 Finance ir Operations Common
-- „Dynamics 365 Company“.
-- Valiutos kursai
-- „Field Service Common“.
+- "Dynamics 365" finansų ir operacijų bendrosios operacijos
+- "Dynamics 365" įmonė
+- Valiutų kursai
+- Bendroji laukų tarnyba
 
-Kadangi tai buvo vienas paketas, šis paketas klientams sukūrė „viskas arba nieko“ situaciją. Tačiau „Microsoft“ dabar jį suskirstė į mažesnius paketus. Todėl klientas gali pasirinkti tik jiems reikalingų sprendimų paketus. Pavyzdžiui, jei esate „Microsoft“.Dynamics 365 Supply Chain Management klientas ir nereikia integruoti su Dynamics 365 Human Resources, pastabas ir turto valdymą, tuos sprendimus galite neįtraukti į įdiegtus sprendimus. Kadangi pagrindinių sprendimų pavadinimai, leidėjas ir žemėlapio versijos išlieka tos pačios, šis pakeitimas yra nenutrūkstamas. Esami įrenginiai turi būti atnaujinti.
+Kadangi tai buvo viena pakuotė, šis paketas sukūrė "visą arba nieko" situaciją klientams. Tačiau Microsoft dabar atskirta ją į mažesnes pakuotes. Todėl klientai gali pasirinkti tik savo reikalauti sprendimo paketus. Pavyzdžiui, jei esate "Microsoft Dynamics 365 Supply Chain Management Dynamics 365 Human Resources" klientas ir jums nereikia integravimo su, pastabų ir turto valdymo, galite pašalinti tuos sprendimus iš įdiegtų sprendimų. Kadangi toliau esantys sprendimų pavadinimai, leidėjų ir žemėlapių versijos lieka tokie patys, šis pakeitimas yra nesulaužinis. Reikia atnaujinti esamas įdiegtis.
 
-![Atskira pakuotė.](media/separated-package-1.png)
+![Atskirta pakuotė.](media/separated-package-1.png)
 
-Šioje temoje paaiškinami sprendimai ir žemėlapiai, kurie yra kiekviename pakete, ir jo priklausomybė nuo kitų paketų.
+Šioje temoje paaiškinami sprendimai ir schemos, kurias sudaro kiekvienas paketas, ir jo priklausomybė nuo kitų paketų.
 
 ## <a name="dual-write-application-core"></a>Dvigubo rašymo programos branduolys
 
-„Dual-Write Application Core“ paketas leidžia vartotojams įdiegti ir konfigūruoti dvigubą rašymą be jokios kliento įtraukimo programos. Jame yra šie penki sprendimai.
+Dvigubo rašymo programos pagrindinis paketas leidžia vartotojams įdiegti ir konfigūruoti dvigubo rašymo be kliento įsipareigojimo programos. Jame yra šie penki sprendimai.
 
-| Unikalus pavadinimas                           | Rodyti pavadinimą                               |
+| Unikalus pavadinimas                           | Rodomas pavadinimas                               |
 |---------------------------------------|--------------------------------------------|
-| Dynamics365Company                    | „Dynamics 365 Company“.                       |
-| Dynamics365FinanceAndOperationsCommon | Dynamics 365 Finance ir Operations Common |
-| Valiutų kursai                 | Valiutos kursai                    |
-| msdyn_DualWriteAppCoreMaps            | Dviejų rašymo programų pagrindinių objektų žemėlapiai   |
-| msdyn_DualWriteAppCoreAnchor          | Dviejų rašymo programų pagrindinis inkaras        |
+| Dynamics365Company                    | "Dynamics 365" įmonė                       |
+| Dynamics365FinanceAndOperationsCommon | "Dynamics 365" finansų ir operacijų bendrosios operacijos |
+| Valiutų kursai                 | Valiutų kursai                    |
+| msdyn_DualWriteAppCoreMaps            | Dvigubo rašymo prašymų pagrindinės objektų schemos   |
+| msdyn_DualWriteAppCoreAnchor          | Dvigubo rašymo prašymų pagrindinis inkaras        |
 
-Šiame pakete yra šie žemėlapiai.
+Šioje pakuotėje yra tokios schemos.
 
 | „Finance and Operations” programos     | „Customer engagement“ programos                    |
 |---------------------------------|---------------------------------------------|
@@ -73,51 +73,51 @@ Kadangi tai buvo vienas paketas, šis paketas klientams sukūrė „viskas arba 
 | Valiutos                      | transactioncurrencies                       |
 | Mišriosios realybės vadovų objektas     | msmrw_guides                                |
 
-**Informacija apie priklausomybę**
+**Priklausomybės informacija**
 
-„Dual-Write Application Core“ paketas nėra priklausomas nuo kitų paketų.
+Dvigubo rašymo programos pagrindinis paketas priklauso nuo kitų paketų.
 
-## <a name="dual-write-human-resources"></a>Žmogiškieji ištekliai dviem rašmenimis
+## <a name="dual-write-human-resources"></a>Dvigubo rašymo žmogiškieji ištekliai
 
-Dvigubo rašymo žmogiškųjų išteklių pakete yra sprendimai ir žemėlapiai, reikalingi žmogiškųjų išteklių duomenims sinchronizuoti. Jame yra šie trys sprendimai.
+Dvigubo rašymo personalo pakete yra sprendimai ir schemos, kurių reikia personalo duomenims sinchronizuoti. Jame yra trys toliau pateikti sprendimai.
 
-| Unikalus pavadinimas                | Rodyti pavadinimą                             |
+| Unikalus pavadinimas                | Rodomas pavadinimas                             |
 |----------------------------|------------------------------------------|
 | HCMCommon                  | „HCM Common“                               |
-| msdyn_Dynamics365HCMMaps   | Dynamics 365 Human Resources subjektų žemėlapiai |
-| msdyn_Dynamics365HCMAchor | Dynamics 365 Human Resources inkaras      |
+| msdyn_Dynamics365HCMMaps   | Dynamics 365 Human Resources objektų schemos |
+| msdyn_Dynamics365HCMAnchor | Dynamics 365 Human Resources Inkaro      |
 
-Šiame pakete yra šie žemėlapiai.
+Šioje pakuotėje yra tokios schemos.
 
 | „Finance and Operations” programos | „Customer engagement“ programos         |
 |-----------------------------|----------------------------------|
 | Etninė kilmė              | cdm_ethnicorigins                |
 | Kompensavimo užduoties funkcija   | cdm_jobfunctions                 |
 | Pareigybės V2                | cdm_jobpositions                 |
-| Operacijos                        | cdm_jobs                         |
+| Užduotys                        | cdm_jobs                         |
 | Kompensavimo užduoties tipas       | cdm_jobtypes                     |
 | Kalbų kodai              | cdm_languages                    |
 | Pareigų tipas               | cdm_positiontypes                |
 | Pareigų priskyrimai darbininkams | cdm_positionworkerassignmentmaps |
-| Seniai dirbančiojo būsena              | cdm_veteranstatus              |
+| Seniai dirbančiojo būsena              | cdm_veteranstatuses              |
 | Darbuotojas                      | cdm_workers                      |
 | Įdarbinimas pagal įmonę      | cdm_employments                  |
 
-**Informacija apie priklausomybę**
+**Priklausomybės informacija**
 
-Dvigubo rašymo žmogiškųjų išteklių paketas priklauso nuo „Dual-write Application Core“ paketo. Todėl prieš diegdami „Dual-write“ žmogiškųjų išteklių paketą turėtumėte įdiegti „Dual-write Application Core“ paketą.
+Dvigubo rašymo personalo paketas priklauso nuo dvigubo rašymo programos pagrindinio paketo. Todėl turėtumėte įdiegti dvigubo rašymo programos pagrindinį paketą prieš diegdami dvigubo rašymo personalo paketą.
 
 ## <a name="dual-write-supply-chain"></a>Dvigubo rašymo tiekimo grandinė
 
-Dvigubo rašymo tiekimo grandinės pakete yra sprendimai ir žemėlapiai, reikalingi tiekimo grandinės valdymo duomenims sinchronizuoti. Jame yra šie trys sprendimai.
+Dvigubo rašymo tiekimo grandinės pakete yra sprendimai ir schemos, kurių reikia norint sinchronizuoti tiekimo grandinės valdymo duomenis. Jame yra trys toliau pateikti sprendimai.
 
-| Unikalus pavadinimas                                | Rodyti pavadinimą                                              |
+| Unikalus pavadinimas                                | Rodomas pavadinimas                                              |
 |--------------------------------------------|-----------------------------------------------------------|
-| Dynamics365SupplyChainExtended             | „Dynamics 365“ tiekimo grandinė išplėsta                        |
-| msdyn_Dynamics365SupplyChainExtendedMaps   | Dynamics 365 Supply Chain Management išplėstiniai objektų žemėlapiai |
-| msdyn_Dynamics365SupplyChainExtendedAnchor | Dynamics 365 Supply Chain Management prailgintas inkaras      |
+| Dynamics365SupplyChainExtended             | "Dynamics 365" tiekimo grandinės išplėstinė                        |
+| msdyn_Dynamics365SupplyChainExtendedMaps   | Dynamics 365 Supply Chain Management išplėstinių objektų schemos |
+| msdyn_Dynamics365SupplyChainExtendedAnchor | Dynamics 365 Supply Chain Management išplėstinis inkaras      |
 
-Šiame pakete yra šie žemėlapiai.
+Šioje pakuotėje yra tokios schemos.
 
 | „Finance and Operations” programos                 | „Customer engagement“ programos                      |
 |---------------------------------------------|-----------------------------------------------|
@@ -144,8 +144,8 @@ Dvigubo rašymo tiekimo grandinės pakete yra sprendimai ir žemėlapiai, reikal
 | Bendrojo produkto konfigūracijos               | msdyn_sharedproductconfigurations             |
 | Bendrojo produkto spalvos                       | msdyn_sharedproductcolors                     |
 | Pardavimo užsakymo kilmės kodai                    | „msdyn_salesorderorigins”                       |
-| Produkto gavimo antraštė                      | msdyn_purchaseorderceipts                   |
-| Produkto gavimo eilutė                        | msdyn_purchaseorderceiptproducts            |
+| Produkto gavimo antraštė                      | msdyn_purchaseorderreceipts                   |
+| Produkto gavimo eilutė                        | msdyn_purchaseorderreceiptproducts            |
 | Pirkimo užsakymo antraštės V2                   | msdyn_purchaseorders                          |
 | CDS pirkimo užsakymo eilutės iš dalies panaikintas objektas | msdyn_purchaseorderproducts                   |
 | CDS pirkimo užsakymo eilutės objektas              | msdyn_purchaseorderproducts                   |
@@ -165,37 +165,37 @@ Dvigubo rašymo tiekimo grandinės pakete yra sprendimai ir žemėlapiai, reikal
 | Produktų kategorijos priskyrimai                | msdyn_productcategoryassignments              |
 | Produkto kategorijos                          | msdyn_productcategories                       |
 | Sandėlis, vietos                         | msdyn_inventorylocations                      |
-| CDS inventorius įjungtas                            | „msdyn_inventoryonhandentries”                  |
+| CDS atsargos                            | „msdyn_inventoryonhandentries”                  |
 | Produkto kategorijos                          | msdyn_productcategories                       |
-| CDS inventorius įjungtas                            | „msdyn_inventoryonhanrequests”                 |
-| Produkto numerio nustatytas brūkšninis kodas           | msdyn_product barcodes                         |
+| CDS atsargos                            | „msdyn_inventoryonhanrequests”                 |
+| Produkto numerio nustatytas brūkšninis kodas           | msdyn_productbarcodes                         |
 | Lojalumo kortelė                                | msdyn_loyaltycards                            |
 | Atlygio taškai už lojalumą                       | „msdyn_loyaltyrewardpoints”                     |
 | Kainos klientų grupės                       | msdyn_pricecustomergroups                     |
-| Teritorijos                                       | msdyn_operationalsites                        |
+| Svetainės                                       | msdyn_operationalsites                        |
 | CDS pardavimo pasiūlymo eilutės                   | quotedetails                                  |
 | CDS pardavimo užsakymo eilutės                       | salesorderdetails                             |
 
-**Informacija apie priklausomybę**
+**Priklausomybės informacija**
 
-Dvigubo rašymo tiekimo grandinės paketas priklauso nuo šių trijų paketų. Todėl prieš diegdami dvigubo rašymo tiekimo grandinės paketą turėtumėte įdiegti šiuos paketus.
+Dvigubo rašymo tiekimo grandinės paketas priklauso nuo šių trijų pakuočių. Todėl turite įdiegti šiuos paketus prieš diegdami dvigubo rašymo tiekimo grandinės paketą.
 
-- Dviejų rašymo programų paketas
-- Dviejų raštų finansų paketas
-- Dviejų raštų žmogiškųjų išteklių paketas
+- Dvigubo rašymo programos pagrindinis paketas
+- Dvigubo rašymo finansų paketas
+- Dvigubo rašymo personalo paketas
 
-## <a name="dual-write-finance"></a>Dviejų raštų finansai
+## <a name="dual-write-finance"></a>Dvigubo rašymo finansai
 
-„Dual-write Finance“ pakete yra sprendimai ir žemėlapiai, kurių reikia sinchronizuoti Dynamics 365 Finance duomenis. Jame yra šie keturi sprendimai.
+Dvigubo rašymo finansų pakete yra sprendimai ir schemos, kurių reikia norint sinchronizuoti "Dynamics 365" finansų duomenis. Jame yra tokie keturi sprendimai.
 
-| Unikalus pavadinimas                            | Rodyti pavadinimą                               |
+| Unikalus pavadinimas                            | Rodomas pavadinimas                               |
 |----------------------------------------|-------------------------------------------|
-| Dynamics365FinanceExtended             | „Dynamics 365 Finance Extended“             |
-| msdyn_Dynamics365FinanceExtendedMaps   | Dynamics 365 Finance išplėstiniai objektų žemėlapiai |
-| „FieldServiceCommon“.                     | „Field Service Common“.                      |
-| msdyn_Dynamics365FinanceExtendedAnchor | Dynamics 365 Finance prailgintas inkaras      |
+| "Dynamics365FinanceExtended"             | „Dynamics 365 Finance Extended“             |
+| msdyn_Dynamics365FinanceExtendedMaps   | "Dynamics 365" išplėstinių finansų objektų schemos |
+| FieldServiceCommon                     | Bendroji laukų tarnyba                      |
+| msdyn_Dynamics365FinanceExtendedAnchor | "Dynamics 365" finansų išplėstinis inkaras      |
 
-Šiame pakete yra šie žemėlapiai.
+Šioje pakuotėje yra tokios schemos.
 
 | „Finance and Operations” programos             | „Customer engagement“ programos        |
 |-----------------------------------------|---------------------------------|
@@ -225,54 +225,54 @@ Dvigubo rašymo tiekimo grandinės paketas priklauso nuo šių trijų paketų. T
 | Mokėjimo grafiko eilutės                  | msdyn_paymentschedulelines      |
 | Mokėjimo dienos CDS                        | msdyn_paymentdays               |
 | Mokėjimo dienos eilutės CDS V2                | msdyn_paymentdaylines           |
-| Korespondentinė sąskaita, subsąskaita                            | „msdyn_mainaccounts”              |
+| Pagrindinė sąskaita                            | „msdyn_mainaccounts”              |
 | Pagrindinių sąskaitų kategorijos                 | „msdyn_mainaccountcategories”     |
-| Ledger                                  | „msdyn_ledgers”                   |
+| Didžioji knyga                                  | „msdyn_ledgers”                   |
 | Klientai V3                            | sąskaitos                        |
 
-**Informacija apie priklausomybę**
+**Priklausomybės informacija**
 
-„Dual-write“ finansų paketas priklauso nuo „Dual-write Application Core“ paketo. Todėl prieš diegdami „Dual-write“ finansų paketą turėtumėte įdiegti „Dual-write Application Core“ paketą.
+Dvigubo rašymo finansų paketas priklauso nuo dvigubo rašymo programos pagrindinio paketo. Todėl turėtumėte įdiegti dvigubo rašymo programos pagrindinį paketą prieš diegdami dvigubo rašymo finansų paketą.
 
 ## <a name="dual-write-notes"></a>Dvigubo rašymo pastabos
 
-Dvigubo rašymo pastabų pakete yra sprendimai ir žemėlapiai, kurių reikia pastabų ar komentarų duomenims sinchronizuoti. Jame yra šie keturi sprendimai.
+Dvigubo rašymo pažymų pakete yra sprendimai ir schemos, kurių reikia norint sinchronizuoti pastabų ar komentarų duomenis. Jame yra tokie keturi sprendimai.
 
-| Unikalus pavadinimas                  | Rodyti pavadinimą                   |
+| Unikalus pavadinimas                  | Rodomas pavadinimas                   |
 |------------------------------|--------------------------------|
-| Dynamics365Notes             | „Dynamics 365“ pastabos             |
-| Dynamics365NotesExtended     | „Dynamics 365“ pastabos išplėstos    |
-| msdyn_Dynamics365NotesMaps   | „Dynamics 365“ užrašų objektų žemėlapiai |
-| msdyn_Dynamics365NotesAnchor | „Dynamics 365“ užrašų inkaras      |
+| "Dynamics365Notes"             | "Dynamics 365" pastabos             |
+| "Dynamics365NotesExtended"     | Išplėstinės "Dynamics 365" pastabos    |
+| msdyn_Dynamics365NotesMaps   | "Dynamics 365" pastabų objektų schemos |
+| msdyn_Dynamics365NotesAnchor | "Dynamics 365" pastabų prieraišo      |
 
-Šiame pakete yra šie žemėlapiai.
+Šioje pakuotėje yra tokios schemos.
 
 | „Finance and Operations”                     | Customer Engagement |
 |--------------------------------------------|---------------------|
-| Pardavimo užsakymo antraštės dokumento priedai    | anotacijos         |
-| Kliento priedai                       | anotacijos         |
-| Tiekėjo dokumentų priedai                | anotacijos         |
-| Pirkimo užsakymo antraštės dokumento priedai | anotacijos         |
+| Pardavimo užsakymo antraštės dokumento priedai    | Komentarus         |
+| Kliento priedai                       | Komentarus         |
+| Tiekėjo dokumentų priedai                | Komentarus         |
+| Pirkimo užsakymo antraštės dokumento priedai | Komentarus         |
 
-**Informacija apie priklausomybę**
+**Priklausomybės informacija**
 
-„Dual-write Notes“ paketas priklauso nuo šių dviejų paketų. Todėl prieš diegdami „Dual-write Notes“ paketą turėtumėte įdiegti šiuos paketus.
+Dvigubo rašymo pastabų paketas priklauso nuo šių dviejų pakuočių. Todėl turite įdiegti šiuos paketus prieš diegdami dvigubo rašymo pastabų paketą.
 
-- Dviejų rašymo programų paketas
-- Dviejų raštų finansų paketas
+- Dvigubo rašymo programos pagrindinis paketas
+- Dvigubo rašymo finansų paketas
 
 ## <a name="dual-write-asset-management"></a>Dvigubo rašymo turto valdymas
 
-Dvigubo rašymo turto valdymo pakete yra sprendimai ir žemėlapiai, kurių reikia norint sinchronizuoti turto duomenis iš tiekimo grandinės valdymo arba Dynamics 365 Field Service. Jame yra šie keturi sprendimai.
+Dvigubo rašymo turto valdymo pakete yra sprendimai ir schemos, kurių reikia norint sinchronizuoti turto duomenis iš tiekimo grandinės valdymo arba Dynamics 365 Field Service. Jame yra tokie keturi sprendimai.
 
-| Unikalus pavadinimas                          | Rodyti pavadinimą                              |
+| Unikalus pavadinimas                          | Rodomas pavadinimas                              |
 |--------------------------------------|-------------------------------------------|
-| Dynamics365AssetManagement           | „Dynamics 365 Asset Management“.             |
-| Dynamics365AssetManagementApp        | „Dynamics365 Asset Management“ programa          |
-| msdyn_DualWriteAssetManagementMaps   | „Dynamics 365 Asset Management“ objektų žemėlapiai |
-| msdyn_DualWriteAssetManagementAnchor | „Dynamics 365 Asset Management“ inkaras      |
+| Dynamics365AssetManagement           | "Dynamics 365" turto valdymas             |
+| Dynamics365AssetManagementApp        | "Dynamics365" turto valdymo programa          |
+| msdyn_DualWriteAssetManagementMaps   | "Dynamics 365" turto valdymo objektų schemos |
+| msdyn_DualWriteAssetManagementAnchor | "Dynamics 365" turto valdymo inkaras      |
 
-Šiame pakete yra šie žemėlapiai.
+Šioje pakuotėje yra tokios schemos.
 
 | „Finance and Operations” programos                           | „Customer engagement“ programos                |
 |-------------------------------------------------------|-----------------------------------------|
@@ -288,15 +288,59 @@ Dvigubo rašymo turto valdymo pakete yra sprendimai ir žemėlapiai, kurių reik
 | Turto valdymo turto ciklo modelių būsenos               | msdyn_assetlifecyclestates              |
 | Turto valdymo turto ciklo modeliai               | msdyn_assetlifecyclemodels              |
 
-**Informacija apie priklausomybę**
+**Priklausomybės informacija**
 
-Dvigubo rašymo turto valdymo paketas priklauso nuo dvigubo rašymo programos pagrindinio paketo. Todėl prieš diegdami dvigubo rašymo turto valdymo paketą turėtumėte įdiegti „Dual-write Application Core“ paketą.
+Dvigubo rašymo turto valdymo paketas priklauso nuo dvigubo rašymo programos pagrindinio paketo. Todėl turėtumėte įdiegti dvigubo rašymo programos pagrindinį paketą prieš diegdami dvigubo rašymo turto valdymo paketą.
 
-## <a name="packages-required-for-project-operations"></a>Projekto operacijoms reikalingi paketai
-Projekto operacijos priklauso nuo šių paketų. Todėl prieš diegdami Project Operations turėtumėte įdiegti šiuos paketus.
+## <a name="packages-required-for-project-operations"></a>Pakuotės, būtinos projekto operacijoms
+Projekto operacijos priklauso nuo šių paketų. Todėl turite įdiegti šiuos paketus prieš diegdami Projekto operacijas.
 
-- Dviejų rašymo programų paketas
-- Dviejų raštų finansų paketas
+- Dvigubo rašymo programos pagrindinis paketas
+- Dvigubo rašymo finansų paketas
 - Dvigubo rašymo tiekimo grandinės paketas
 - Dvigubo rašymo turto valdymo paketas
-- Dviejų raštų žmogiškųjų išteklių paketas
+- Dvigubo rašymo personalo paketas
+
+## <a name="dual-write-party-and-global-address-book-solutions"></a>Dvigubo rašymo šalies ir visuotinės adresų knygelės sprendimai
+
+Dvigubo rašymo šalies ir visuotinės adresų knygelės pakete yra šie sprendimai ir schemos, reikalingi šalies ir visuotinės adresų knygelės duomenims sinchronizuoti. 
+
+| Unikalus pavadinimas                       | Rodomas pavadinimas                            |
+|-----------------------------------|-----------------------------------------|
+| Šalis                             | Šalis                                   |
+| "Dynamics365GABExtended"            | "Dynamics 365 GAB" išplėstas               |
+| Dynamics365GABDualWriteEntityMaps | "Dynamics 365 GAB" dvigubo rašymo objekto schemos |
+| Dynamics365GABParty_Anchor        | "Dynamics 365 GAB" ir šalis              |
+
+Šioje pakuotėje yra tokios schemos.
+
+| „Finance and operations” programos | „Customer engagement“ programos | 
+|-----------------------------|--------------------------|
+| CDS šalys | msdyn_parties | 
+| CDS pašto adreso vietos | msdyn_postaladdresscollections | 
+| CDS pašto adreso istorija V2 | msdyn_postaladdresses | 
+| CDS šalies pašto adreso vietos. | msdyn_partypostaladdresses | 
+| Šalies kontaktai V3 | msdyn_partyelectronicaddresses | 
+| Klientai V3 | sąskaitos | 
+| Klientai V3 | kontaktai | 
+| Tiekėjai V2 | msdyn_vendors | 
+| Kontaktinio asmens pareigos | msdyn_salescontactpersontitles | 
+| Baigiamosios mandagumo frazės | msdyn_complimentaryclosings | 
+| Pasisveikinimai | msdyn_salutations | 
+| Sprendimų priėmimo vaidmenys | msdyn_decisionmakingroles | 
+| Įdarbinimo užduočių funkcijos | msdyn_employmentjobfunctions | 
+| Lojalumo lygiai | msdyn_loyaltylevels | 
+| Asmeninių savybių tipai | msdyn_personalcharactertypes | 
+| Kontaktai V2 | msdyn_contactforparties | 
+| CDS pardavimo pasiūlymo antraštė | pasiūlymai | 
+| CDS pardavimo užsakymų antraštės | salesorders | 
+| Pardavimo SF antraštės V2 | SF | 
+| CDS adreso vaidmenys | msdyn_addressroles |
+
+**Priklausomybės informacija**
+
+Dvigubo rašymo šalies ir visuotinės adresų knygelės sprendimai priklauso nuo šių trijų paketų. Todėl turite įdiegti šiuos paketus prieš diegdami dvigubo rašymo ir visuotinės adresų knygelės sprendimų paketą.
+
+- Dvigubo rašymo programos pagrindinis paketas
+- Dvigubo rašymo finansų paketas
+- Dvigubo rašymo tiekimo grandinės paketas

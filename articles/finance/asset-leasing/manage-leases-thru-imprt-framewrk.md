@@ -8,25 +8,25 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: AssetLeaseLeaseImportHeader
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 534584a7da494b427d48b1bc97bf6554d25f4a79d9d62f59ec5f2afb65e67431
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e3443225b5c7cb6d8f758248e538c2a427a89265
+ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6758902"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8723173"
 ---
 # <a name="manage-leases-through-the-lease-import-framework"></a>Nuomų valdymas per nuomos importavimo sistemą
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje paaiškinama, kaip naudoti nuomos importavimo sistemą siekiant pakoreguoti kelias nuomos sutartis vienu veiksmu. Naudodami šią funkciją galite sutaupyti laiko ir taip pat galite užtikrinti tikslesnius koregavimus, sumažindami žmogiškosios klaidos galimybę. Be to, ši funkcija gali sujungti „Microsoft Dynamics 365 Finance“ su išoriniais duomenų subjektais, kad galėtų veiksmingai įkelti duomenis.
+Šioje temoje paaiškinama, kaip naudoti nuomos importavimo sistemą siekiant pakoreguoti kelias nuomos sutartis vienu veiksmu. Naudodami šią funkciją galite sutaupyti laiko ir taip pat galite užtikrinti tikslesnius koregavimus, sumažindami žmogiškosios klaidos galimybę. Be to, šią galimybę galima prijungti Microsoft Dynamics 365 finansų su išoriniais duomenų subjektais, kad duomenys būtų efektyviai įkeliami.
 
 Gali būti naudojami šie duomenų objektai, siekiant integruoti turto nuomą su išorinėmis sistemomis.
 

@@ -9,12 +9,12 @@ ms.reviewer: sericks
 ms.search.region: Global
 ms.author: whigginb
 ms.search.validFrom: 2021-09-03
-ms.openlocfilehash: cd033cfc3df21ddac5572aa70c18db5ffe26f54e
-ms.sourcegitcommit: 0abc777986112ea2332f5bf0e815b303b952356c
+ms.openlocfilehash: 26b2821f33ea23dde1fda1d461baa5de1b4f9efc
+ms.sourcegitcommit: d70f66a98eff0a2836e3033351b482466bd9c290
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8656809"
+ms.lasthandoff: 05/11/2022
+ms.locfileid: "8740658"
 ---
 # <a name="service-description-for-finance-and-operations-apps"></a>Finansų ir operacijų programėlių paslaugos aprašas
 
@@ -265,7 +265,7 @@ Kliento nuomininkų administratorius gali pasiekti gamybos egzempliorius arba ne
 |---|---|---|
 | **Ne gamyba**<br>1 pakopos smėlio dėžutė | Ne gamybos aplinka, kurią klientai diegia programavimo, demonstravimo arba mokymo tikslais. | 1 pakopa su sandbox (taip pat vadinama debesies nuomojama aplinka) yra kliento valdomaS VM, kuris įdiegiamas į kliento „Azure" abonementą iš LCS. Kliento „Azure" abonemente yra VM, todėl klientas turi visiškas administratoriaus prieigą prie aplinkos per nuotolinį darbalaukį. |
 | **Ne gamyba**<br>2 (arba naujesnė) smėlio dėžė | Ne gamybos aplinka, kurią klientai diegia vartotojo priėmimo bandymui, integravimo bandymui, mokymas, išdėstymui ar bet kokiam kitam išankstiniam gamybos scenarijui. | 2 ir aukštesnio lygio sanddės diegiamos į finansų ir operacijų SaaS abonementą. Prieiga prie „Azure SQL" duomenų bazių, susietų su ne gamybos [aplinka, suteikiama tik laiku](../../dev-itpro/database/database-just-in-time-jit-access.md). Nuotolinio darbalaukio prieiga negalima. |
-| **Gamyba** | Gamybos aplinka įdiegiama, kai projektas [parengtas pradėti vykti](/imp-lifecycle/environment-planning.md#production-system-readiness). | Gamybos aplinkos diegiamos į „SaaS“ abonementą. Visa prieiga – tai naršyklė, paslaugų galiniai punktai arba LCS. |
+| **Gamyba** | Gamybos aplinka įdiegiama, kai projektas [parengtas pradėti vykti](../imp-lifecycle/environment-planning.md#production-system-readiness). | Gamybos aplinkos diegiamos į „SaaS“ abonementą. Visa prieiga – tai naršyklė, paslaugų galiniai punktai arba LCS. |
 
 ### <a name="microsoft-administrative-access"></a>„Microsoft“ administratoriaus prieiga
 
@@ -286,7 +286,7 @@ Kliento nuomininkų administratorius gali pasiekti gamybos egzempliorius arba ne
 |---|---|
 | <ul><li>Stebėti tarnybos pasiekiamumą.</li><li>Nuolat stebėti ir gauti įspėjimus dėl kritinių komponentų, pvz., programos objektų serverio (AOS), paketo, duomenų importavimo / eksportavimo sistemos (DIXF), „Commerce" ir „Management Reporter", sveikatos metrikos ir teksto.</li><li>Stebėti, ar nėra našumo, atsiradusio dėl infrastruktūros paslaugų (pvz., „Azure Active Directory“ \[„Azure AD“\] „Azure SQL").</li><li>Jei „Microsoft“ nustato, kad dėl vieno proceso arba paketinės užduoties kyla problemų, šis procesas arba užduotis bus nutraukti bendravimui su klientu.</li></ul> | <ul><li>Stebėti programos konfigūracijų ir plėtinių pakeitimus, kurie gali sukelti funkcinių ir našumo problemų.</li><li>Programos klaidos turi būti diagnozuotos naudojant stebėjimo įrankius. Naudodami šiuos įrankius galite diagnozuoti vartotojo ataskaitoje nurodytus našumo aberacijas.</li><li>Informuokite „Microsoft", jei numatoma įkelti į sistemą viršyto didžiausio naudojimo.</li><li>Jei gamybos egzemplioriuje taikomos paslaugos nėra, klientas gali naudoti LCS ataskaitoje apie [gamybos išlaidas](../../dev-itpro/lifecycle-services/report-production-outage.md).</li></ul> |
 
-Pateikdami palaikymo užklausas internete, naudodami LCS, klientai leidžia „Microsoft" suteikti greitą ir išsamią techninio kompetencijos patirtį našiausiu ir našiausiu būdu. Nors telefono pasirinktis galima, ją galima naudoti tik tada, jei interneto pasirinktis negalima. Daugiau informacijos žr. [Telefono palaikymo parinktys](/power-platform/admin/support-overview.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json&bc=/dynamics365/breadcrumb/toc.json#is-there-a-phone-number-i-can-call-to-contact-support).
+Pateikdami palaikymo užklausas internete, naudodami LCS, klientai leidžia „Microsoft" suteikti greitą ir išsamią techninio kompetencijos patirtį našiausiu ir našiausiu būdu. Nors telefono pasirinktis galima, ją galima naudoti tik tada, jei interneto pasirinktis negalima. Daugiau informacijos žr. [Telefono palaikymo parinktys](/power-platform/admin/support-overview?toc=%2Fdynamics365%2Ffin-ops-core%2Fdev-itpro%2Ftoc.json&bc=%2Fdynamics365%2Fbreadcrumb%2Ftoc.json#is-there-a-phone-number-i-can-call-to-contact-support).
 
 ## <a name="incident-management"></a>Veiksmų valdymas
 

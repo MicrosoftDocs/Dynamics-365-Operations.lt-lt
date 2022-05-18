@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 10f8754c4156893034117a4d449d464754eacafb0c0f6725c36709632af730ad
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 092123d6f5f74d2ff160f2ebffdc2c049ccc3f65
+ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727364"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8716529"
 ---
 # <a name="generate-consolidated-financial-statements"></a>Konsoliduotų finansinių ataskaitų generavimas
 
@@ -90,14 +90,14 @@ Nesvarbu, ar naudojate sąskaitas, ar dimensijas, ar sąskaitas ir dimensijas, f
 Įmonei gali priklausyti tik procentinė kitos įmonės dalis. Tokiu atveju generuojant konsoliduotą ataskaitą svarbu nurodyti tik procentinę dalį, kuri priklauso įmonei. Finansinėse ataskaitose galima rodyti segmento palūkanas keliais būdais, priklausomai nuo vartotojo pasirinkimo. Vienas būdas yra naudoti sumuojamą procentinę dalį ataskaitų medžio apraše. Kitas būdas – rodyti segmento nuosavybę kaip atskirą eilutę ataskaitoje.
 
 ### <a name="using-the-reporting-tree-definition"></a>Ataskaitų medžio aprašo naudojimas
-Ataskaitų medžio apraše įveskite nuosavybės procentus stulpelyje **Sumavimo %** (stulpelis H), kaip pavaizduota tolesnėje iliustracijoje. Generuojant ataskaitą, šis procentas bus naudojamas konsoliduotai sumai apskaičiuoti. Šiame pavyzdyje „Contoso“ valdo tik 80 procentų Vokietijos „Contoso“ įmonės. Stulpelyje **Sumavimo %** galite įvesti **80** arba **.8** ir 80 procentų bus susumuota konsolidavimo lygiu.
+Ataskaitų medžio apraše įveskite nuosavybės procentus stulpelyje **Sumavimo %** (stulpelis H), kaip pavaizduota tolesnėje iliustracijoje. Generuojant ataskaitą, šis procentas bus naudojamas konsoliduotai sumai apskaičiuoti. Šiame pavyzdyje „Contoso“ valdo tik 80 procentų įmonės „Contoso Germany“. Stulpelyje **Sumavimo %** galite įvesti **80** arba **.8** ir 80 procentų bus susumuota konsolidavimo lygiu.
 
 > [!NOTE]
 > Galite taikyti šį nuosavybės procentą bet kuriam ataskaitų vienetui (ne tik įmonės lygiu). 
 
 ![Ataskaitų medžio apibrėžimo procentų naudojimas.](./media/Using-reporting-tree-definition-percentage.png "Ataskaitų medžio apibrėžimo procentų naudojimas")
 
-Sugeneravus ataskaitą, įmonės „Contoso” Vokietija ataskaitoje bus rodoma 100 procentų pardavimų sumos ir 80 procentų sumos, kuri bus paskirstyta bei susumuota pardavimų konsolidavimo lygiu.
+Generuojant ataskaitą įmonės „Contoso Germany“ ataskaitoje bus rodoma 100 procentų pardavimo sumos ir 80 procentų sumos bus paskirstyta bei susumuota pardavimo konsolidavimo lygiu.
 
 Jei jums priklauso mažiau nei 1 procentas įmonės, puslapio **Ataskaitos parametrai** skirtuke **Papildomos parinktys** galite pasirinkti žymės langelį **Leisti sumuoti mažiau nei 1 %**, kaip pavaizduota tolesnėje iliustracijoje. Šiuo atveju reikšmės, pateiktos ataskaitos medžio stulpelyje **Sumavimo %**, bus apdorojamos kaip mažesnės nei 1 procento dalys. Pavyzdžiui, jei įvedate **.8**, 0,8 procentinė dalis bus sumuojama konsolidavimo lygiu (o ne 80 procentų). Tą patį rezultatą galite pasiekti išvalydami žymės langelį **Leisti sumuoti mažiau nei 1 %** ir stulpelyje **Sumavimo %** įvesdami **.008**.
 

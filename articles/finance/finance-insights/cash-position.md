@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 14151
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 7d43657573ea8092f047615fc50a1a50ab97f094
-ms.sourcegitcommit: 133aa728b8a795eaeaef22544f76478da2bd1df9
+ms.openlocfilehash: 1c6d394cb192a88316beb2e8746b558eb8dd184b
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7968992"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8711665"
 ---
 # <a name="cash-position"></a>Grynųjų pinigų pozicija
 
@@ -50,7 +50,7 @@ Norėdami įrašyti ir redaguoti grynųjų pinigų padėtį, sukurkite momentin�
 Grynųjų pinigų pozicijas sudaro toliau nurodytos funkcijos. 
 
 - Grynųjų pinigų pareigų funkcija rodo grynųjų pinigų srautus, remiantis sistemoje esamais dokumentais, bei iš išorinių sistemų importuotas grynųjų pinigų įplaukas ir nutekėjimo eilutes.
-- Leidžia lengvai integruoti grynųjų pinigų srautų duomenis iš išorinių sistemų į „Dynamics 365 Finance“. Grynųjų pinigų pozicijai taip pat galima naudoti duomenų importavimo - eksportavimo sistemą. Ši sistema leidžia lengvai integruoti su „Excel“ „OData“. Taip pat galite sujungti duomenis iš kelių šaltinių, kad sukurtumėte išsamų grynųjų pinigų pareigų sprendimą.
+- Leidžia lengvai integruoti pinigų srautų duomenis iš išorinių sistemų į "Dynamics 365 Finance". Grynųjų pinigų pozicijai taip pat galima naudoti duomenų importavimo - eksportavimo sistemą. Ši sistema leidžia lengvai integruoti su „Excel“ „OData“. Taip pat galite sujungti duomenis iš kelių šaltinių, kad sukurtumėte išsamų grynųjų pinigų pareigų sprendimą.
 - Įdiegiama sumanios grynųjų pinigų padėties funkcija. Grynųjų pinigų pozicija sukuriama atsižvelgiant į kliento mokėjimo būdą numatyma, kada įmonė gali tikėtis, kad grynieji pinigai bus pristatyti į savo sąskaitas.
 - Kliento užsakymuose ir SF kliento mokėjimo numatymo AI funkcija naudojama norint nustatyti retrospektyvią kliento mokėjimo elgseną, kai už užsakymą arba SF bus mokama.
 - Tiekėjo užsakymams ir SF mes naudojame vidutinį laiką tarp siuntimo ir SF apmokėjimo vienam tiekėjui, kad nustatytumėte, kada tiekėjo užsakymui arba SF bus sumokėta, kad grynųjų pinigų išlaidos būtų tikslesnės.

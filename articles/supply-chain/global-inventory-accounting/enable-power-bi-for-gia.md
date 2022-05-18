@@ -1,21 +1,21 @@
 ---
 title: Įgalinti „Power BI” Visuotinę atsargų apskaitą
 description: Šioje temoje aprašoma, kaip įgalinti „Microsoft Power BI” Visuotinei atsargų apskaitai.
-author: AndersGirke
+author: JennySong-SH
 ms.date: 06/18/2021
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: aevengir
+ms.author: yanansong
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: f0a8f5948d9e30eb220aa8177a4b9718223a4f9d
-ms.sourcegitcommit: 5bfd6511d710deb539b4030eb0e9c48d25513595
+ms.openlocfilehash: 8be486409d60cc4927599816e30e1e4ab21a312a
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8013839"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8669788"
 ---
 # <a name="enable-power-bi-for-global-inventory-accounting"></a>Įgalinti „Power BI” Visuotinę atsargų apskaitą
 
@@ -51,9 +51,9 @@ Norėdami nustatyti „Power BI” integravimą, atlikite šiuos veiksmus.
 
     1. Eikite į **Mano darbo sritis**, suraskite Visuotinės atsargų apskaitos duomenų rinkinį, o tada iš meniu **Parinktys** pasirinkite **Parametrai**.
     1. **Visuotinės Atsargų Apskaitos parametruose** išplėskite **Parametrus** ir atnaujinkite visus parametrus, kaip reikalinga. Ypatingai patikrinkite šiuos parametrus:
-        1. Perrašyti numatytąsias URL vertes **Dataverse** naudojant vertes, rastas "Power platform" aplinkos informacija **LCS** **("Power platform" integravimo** skyriuje).
-        1. Perrašykite numatytąsias aplinkos ID vertes naudodami vertes, **kurios** LCS aplinkos **informacija** (skyriuje Valdyti **aplinką**).
-        1. Pasirinkite **redagavimo** kredencialų saitą, esantį šalia **CDS** žymos duomenų šaltinio **kredencialų** skyriuje. Tada prisijunkite prie savo Dataverse paskyros naudodamiesi **OAuth2** autentifikavimo metodą.
+        1. Perrašyti numatytąsias URL vertes naudojant **Dataverse vertes, rastas**"Power platform **" aplinkos informacija LCS ("** Power platform" integravimo **skyriuje**).
+        1. Perrašykite numatytąsias aplinkos **ID** vertes naudodami vertes, kurios **LCS** aplinkos informacija (skyriuje Valdyti **aplinką**).
+        1. Pasirinkite redagavimo **kredencialų** saitą, esantį šalia **CDS žymos** duomenų šaltinio **kredencialų** skyriuje. Tada prisijunkite prie savo Dataverse paskyros naudodamiesi **OAuth2** autentifikavimo metodą.
     1. Patvirtinkite, kad Power BI rodo rasta **Mano darbo sritis \> Ataskaitos \> Visuotinė Atsargų Apskaita** dabar veikia tinkamai ir rodo turinį iš jūsų sistemos.
 
 1. Užregistruokite programą, kaip aprašyta [PowerBI.com integravimo konfigūravimas](../../fin-ops-core/dev-itpro/analytics/configure-power-bi-integration.md#registration-process).
