@@ -48,12 +48,8 @@
               href: dev-tools/version-models-build.md
         - name: Duomenų integracija
           items:
-            - name: „Finance and Operations“ programų ir trečiųjų šalių paslaugų integravimas
+            - name: Finansų ir operacijų programų ir trečiųjų šalių paslaugų integravimas
               href: data-entities/integration-overview.md
-            - name: Prioritetu grindžiamas ribojimas
-              hreF: data-entities/priority-based-throttling.md
-            - name: Prioritetu grindžiamo ribojimo DUK
-              href: data-entities/throttling-faq.md
             - name: Duomenų integravimo API sąsajos
               items:
                 - name: Duomenų valdymo paketo REST API
@@ -74,6 +70,18 @@
                   href: data-entities/recurring-integrations.md
                 - name: Paslaugų tikrinimas naudojant trečiųjų šalių priemones
                   href: data-entities/third-party-service-test.md
+            - name: Paslaugų apsaugos ribos
+              items:
+                - name: Paslaugos apsaugos API apribojimai
+                  href: data-entities/service-protection-api-limits.md
+                - name: Svarbos ribojimas
+                  href: data-entities/priority-based-throttling.md
+                - name: Pakartoti operacijas
+                  href: data-entities/service-protection-retry-operations.md
+                - name: Stebėti API ribojimą
+                  href: data-entities/service-protection-monitoring.md
+                - name: Maksimaliai padidinti API pralaidumą
+                  href: data-entities/service-protection-maximizing-api-throughput.md
             - name: „Finance and Operations“ jungtis
               href: data-entities/fin-ops-connector.md
             - name: Integravimo kūrimas
@@ -394,10 +402,12 @@
                       href: user-interface/client-disconnected.md
                     - name: Tik paketo ir tik interaktyvių AOS mazgų konfigūravimas vietinėse įdiegtyse
                       href: deployment/onprem-batchonly.md
-                    - name: Didelio „SQL Server Reporting Services“ (SSRS) mazgų pasiekiamumo konfigūravimas
+                    - name: Konfigūruokite aukštą „SQL Server Reporting Services“ (SSRS) mazgų pasiekiamumą
                       href: deployment/onprem-SSRSHA.md
                     - name: Vietinių aplinkų tarpinių serverių konfigūravimas
                       href: deployment/onprem-reverseproxy.md
+                    - name: Sukonfigūruokite sandėliavimo programą visuotiniam diegimui
+                      href: deployment/warehousing-for-on-premise-deployments.md
                     - name: Tinklo spausdinimo įrenginių diegimas vietinėse aplinkose
                       href: analytics/install-network-printer-onprem.md
                     - name: Vietinė diagnostika
@@ -472,16 +482,14 @@
                   href: help/language-locale.md
                 - name: 'Žinyno išplėtimas, tinkinimas ir bendradarbiavimas'
                   href: help/contributor-guide.md
-            - name: Visuotinio diegimo aplinkybės
+            - name: Finansų ir operacijų programų regioninės paslaugos
               items:
-                - name: 'Suvereniojo ir vietinio debesies visuotinio diegimo parinktys, skirtos „Dynamics 365 Finance“ ir „Dynamics 365 Supply Chain Management“'
+                - name: Vietos geografijos
                   href: deployment/deployment-options-geo.md
-                - name: „Finance“ ir „Supply Chain Management“ JAV „Government Community Cloud“ (GCC)
+                - name: US Government Community Cloud (GCC)
                   href: deployment/us-gcc-deployment.md
-                - name: '„Finance“ ir „Supply Chain Management“, valdomos „21Vianet“ Kinijoje'
+                - name: Valdo Kinija per „21Vianet“
                   href: deployment/china-local-deployment.md
-                - name: „Finance and Operations“ programos Prancūzijoje
-                  href: deployment/france-local-deployment.md
         - name: Kūrimas ir tinkinimas
           items:
             - name: Kūrimo ir tinkinimo pagrindinis puslapis
@@ -559,7 +567,7 @@
                     - name: Modelių ir duomenų modelio elementų kūrimo apžvalga
                       href: dev-tools/create-data-model-elements.md
                     - name: Plėtinių pavadinimų suteikimo gairės
-                      href: /dynamics365/fin-ops-core/dev-itpro/naming-guidelines-extensions
+                      href: /dynamics365/fin-ops-core/dev-itpro/extensibility/naming-guidelines-extensions
                     - name: Modelių tinkinimo ir nebenaudojimo funkcijų išjungimas
                       href: dev-tools/lock-models.md
                 - name: Pritaikymo analizės ataskaita

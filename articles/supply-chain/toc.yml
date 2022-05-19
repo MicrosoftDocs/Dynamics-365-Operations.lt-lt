@@ -86,9 +86,7 @@
                   href: ../fin-ops-core/fin-ops/get-started/system-requirements-on-prem.md?toc=/dynamics365/supply-chain/toc.json
                 - name: „Finance + Operations (on-premises)“ pirkimas
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Vietiniams visuotiniams diegimams skirto sandėliavimo konfigūravimas
-                  href: ../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md?toc=/dynamics365/supply-chain/toc.json
-            - name: Instrukcijos ištekliai
+            - name: Dokumentacijos ištekliai
               items:
                 - name: Žinyno sistema
                   href: ../fin-ops-core/fin-ops/get-started/help-overview.md?toc=/dynamics365/supply-chain/toc.json
@@ -3299,8 +3297,8 @@
                   href: warehousing/tasks/register-items-advanced-warehousing.md
                 - name: 'Prekių, kurioms įjungta pagrindinio sandėliavimo funkcija, registravimas naudojant prekių gavimo žurnalą'
                   href: warehousing/tasks/register-items-basic-warehousing.md
-                - name: Gaunamų ASN importavimas naudojant V2 duomenų objektą
-                  href: warehousing/import-asn-v2-data-entity.md
+                - name: Importuokite gaunamus ASN per V3 duomenų objektą
+                  href: warehousing/import-asn-data-entity.md
                 - name: Produktų paskirstymas iš gavimo sandėlio į parduotuves
                   href: warehousing/tasks/cross-dock-products-receiving-warehouse-stores.md
                 - name: Pirkimo užsakymo atidėjimo vietos nurodymo nustatymas

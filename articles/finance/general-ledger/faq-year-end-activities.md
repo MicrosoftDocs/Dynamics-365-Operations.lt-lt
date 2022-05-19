@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.search.region: Global
-ms.author: kweekley
+ms.author: moaamer
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: b0560024d87ad72c7ab77eaff52a305a4ab5a089
-ms.sourcegitcommit: cd0ba5f0ac7c44d36559a3e6e0fffb6ed18f9a20
+ms.openlocfilehash: 19d23c2c5a8fabd6799c6240c25f3ede4064c001
+ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/28/2021
-ms.locfileid: "7947267"
+ms.lasthandoff: 05/07/2022
+ms.locfileid: "8725606"
 ---
 # <a name="year-end-activities-faq"></a>DUK apie metų pabaigos veiklas 
 
@@ -172,7 +172,7 @@ Rankiniu būdu sukurtos 1099 operacijos neatnaujinamos naudojant procesą **Nauj
 
 ## <a name="accounts-payable-1099--does-dynamics-365-finance-support-the-1096-form"></a>Mokėtinos sumos: 1099 – ar „Dynamics 365 Finance“ palaiko 1096 formą? 
 
-„Dynamics 365 Finance“ nespausdina 1096 metinės suvestinės ir JAV informacijos grąžinimo formos perdavimo.
+„Dynamics 365 Finance“ nespausdina 1096 metinės JAV informacijos grąžinimų suvestinės ir perdavimo formos.
 
 ## <a name="accounts-payable-1099--are-there-any-new-features-that-support-1099-reporting-for-public-sector"></a>Mokėtinos sumos: 1099 – ar yra naujų funkcijų, kurios palaiko viešajam sektoriui skirtas 1099 ataskaitas? 
 Pridėta nauja viešojo sektoriaus funkcija **Naujinti 1099 informaciją pagal pagrindinę sąskaitą**, kurią galima įjungti darbo srityje **Funkcijų valdymas**. Ši funkcija leidžia susieti tiekėjo 1099 vertes pagal pagrindinę sąskaitą apskaitos paskirstyme, o ne pagal numatytąją tiekėjo įrašo sąskaitą.

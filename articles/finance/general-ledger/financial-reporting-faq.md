@@ -1,25 +1,23 @@
 ---
 title: DUK apie finansines ataskaitas
 description: Šioje temoje pateikiami atsakymai į kai kuriuos dažnai užduodamus klausimus apie finansines ataskaitas.
-author: jiwo
+author: jinniew
 ms.date: 07/07/2021
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2021-01-13
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 3690a541b503281f204221a72bfb5a371984d9e4
-ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
+ms.openlocfilehash: b5e0702864815c630f35e3f5b753ece1cb1daa71
+ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "7605284"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8722302"
 ---
 # <a name="financial-reporting-faq"></a>DUK apie finansines ataskaitas
 
@@ -104,7 +102,7 @@ Be to, kai ataskaitos generuojamos naudojant retrospektyvinio tipo sąskaitų va
 
 ## <a name="what-are-the-estimated-data-mart-integration-intervals"></a>Kokie yra numatomi duomenų srities integravimo intervalai?
 
-„Financial Reporter“ naudoja 16 užduočių duomenims kopijuoti iš „Dynamics 365 Finance“ į „Financial Reporter“ duomenų bazę. Šioje lentelėje išvardytos 16 užduočių ir rodomas intervalas, nurodantis, kaip dažnai vykdoma kiekviena užduotis. Intervalų keisti negalima.
+„Financial Reporter“ naudoja 16 užduočių, kad nukopijuotų duomenis iš „Dynamics 365 Finance“ į „Financial Reporter“ duomenų bazę. Šioje lentelėje išvardytos 16 užduočių ir rodomas intervalas, nurodantis, kaip dažnai vykdoma kiekviena užduotis. Intervalų keisti negalima.
 
 | Pavadinimas                                                       | Intervalas | Intervalo laikas |
 |------------------------------------------------------------|----------|-----------------|

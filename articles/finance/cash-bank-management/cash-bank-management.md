@@ -1,28 +1,28 @@
 ---
 title: Pagrindinis modulio Grynųjų pinigų ir banko valdymas puslapis
 description: Naudodami modulį Grynųjų pinigų ir banko valdymas galite tvarkyti juridinio subjekto banko sąskaitas ir finansinius instrumentus, susietus su tomis banko sąskaitomis.
-author: roschlom
+author: kfend
 ms.date: 10/26/2017
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
 ms.search.form: BankTreasurerWorkspace
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom:
 - "21941"
 - intro-internal
 ms.assetid: d7e22bd8-fd0d-47e1-843f-45ab0193ff8d
 ms.search.region: Global
-ms.author: roschlom
+ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: de37cc3df673a672a091ffe90ca543fae77bc9d5
-ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
+ms.openlocfilehash: cf423c61f4a7ac8648a09c25e30b47ce1b0e3300
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7883699"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8710731"
 ---
 # <a name="cash-and-bank-management-home-page"></a>Pagrindinis modulio Grynųjų pinigų ir banko valdymas puslapis
 
@@ -89,7 +89,7 @@ Norėdami pamatyti, kokios naujos funkcijos suplanuotos, eikite į tinklalapį [
 
 #### <a name="blogs"></a>Tinklaraščiai
 
-Galite rasti nuomonių, naujienų ir kitos informacijos [„Microsoft Dynamics 365“ tinklaraštyje](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) ir [„Microsoft Dynamics 365 Finance and Operations“ – finansai“ tinklaraštyje](https://community.dynamics.com/365/financeandoperations/b/financials).
+[„Microsoft Dynamics 365” tinklaraštyje](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) ir [„Microsoft Dynamics 365 Finance and Operations – finansai” tinklaraštyje](https://community.dynamics.com/365/financeandoperations/b/financials) galite rasti nuomonių, naujienų ir kitos informacijos.
 
 „[Microsoft Dynamics Operations“ partnerių bendruomenės tinklaraštis](https://community.dynamics.com/partner/b/operationspartnercommunityblog) – tai vienas išteklius, kuriame „Microsoft Dynamics‟ partneriai gali sužinoti, kas nauja ir kokios yra „Dynamics 365“ tendencijos.
 

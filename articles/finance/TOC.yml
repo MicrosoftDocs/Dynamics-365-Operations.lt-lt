@@ -86,9 +86,7 @@
                   href: ../fin-ops-core/fin-ops/get-started/system-requirements-on-prem.md?toc=/dynamics365/finance/toc.json
                 - name: „Finance + Operations (on-premises)“ pirkimas
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/finance/toc.json
-                - name: Vietiniams visuotiniams diegimams skirto sandėliavimo konfigūravimas
-                  href: ../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md?toc=/dynamics365/finance/toc.json
-            - name: Instrukcijos ištekliai
+            - name: Dokumentacijos ištekliai
               items:
                 - name: Žinyno sistema
                   href: ../fin-ops-core/fin-ops/get-started/help-overview.md?toc=/dynamics365/finance/toc.json
@@ -266,12 +264,14 @@
               href: accounts-payable/vendor-workflow.md
             - name: Nesutapimų šalinimas gretinant SF bendrąsias sumas
               items:
-                - name: Nesutapimų šalinimo gretinant SF bendrąsias sumas apžvalga
+                - name: Išspręskite neatitikimus sąskaitų faktūrų sumų atitikimo apžvalgoje
                   href: accounts-payable/resolve-invoice-totals-invoice-matching-discrepancies.md
                 - name: Išimčių nagrinėjimas ar šalinimas
                   href: accounts-payable/tasks/research-resolve-exceptions.md
             - name: Tiekėjų registravimo šablonai
               href: accounts-payable/vendor-posting-profiles.md
+            - name: Sukurkite mokesčių kodus
+              href: accounts-receivable/create-charges-codes.md
             - name: Tiekėjo SF datos
               href: accounts-payable/vendor-invoice-dates.md
             - name: Mokėtinų sumų ir gautinų sumų užsienio valiutos kurso pasikeitimas
@@ -292,7 +292,9 @@
               items:
                 - name: Centralizuoti modulio Mokėtinos sumos mokėjimai
                   href: accounts-payable/centralized-payments-accounts-payable.md
-                - name: Sudengimo konfigūravimas
+                - name: Nustatykite ir apdorokite sujungtus mokėjimus
+                  href: accounts-receivable/set-up-and-process-bridged-payments.md
+                - name: Konfigūruoti atsiskaitymą
                   href: cash-bank-management/configure-settlement.md
                 - name: Sudengti likutį
                   href: cash-bank-management/settle-remainder.md
@@ -354,11 +356,15 @@
               href: accounts-receivable/set-up-process-recurring-invoices.md
             - name: 'Apskaitos paskirstymai ir papildomos knygos žurnalo įrašai, skirti laisvos formos SF'
               href: accounts-receivable/accounting-distributions-subledger-journal-entries-free-text-invoices.md
+            - name: Gautinų sumų registravimas
+              href: general-ledger/accts-recvble-posting.md
             - name: Kliento registravimo šablonai
               href: accounts-receivable/customer-posting-profiles.md
+            - name: Sukurkite mokesčių kodus
+              href: accounts-receivable/create-charges-codes.md
             - name: SEPA tiesioginio debeto apžvalga
               href: accounts-receivable/sepa-direct-debit-overview.md
-            - name: SEPA tiesioginio debeto įgaliojimo nustatymas
+            - name: Nustatyti SEPA tiesioginio debeto įgaliojimą
               href: accounts-receivable/sepa-direct-debit-mandate.md
             - name: 'Kredito kortelių nustatymas, autorizacija ir patvirtinimas'
               href: accounts-receivable/credit-card-authorizations.md
@@ -436,6 +442,8 @@
                       href: accounts-receivable/terminate-billing-schedule.md
                     - name: Derinimo datos scenarijai
                       href: accounts-receivable/sb-alignment-date-examples.md
+                    - name: Įplaukų padalijimas
+                      href: accounts-receivable/sb-revenue-split.md
                 - name: Įplaukų ir išlaidų atidėjimai
                   items:
                     - name: Nustatyti įplaukų ir išlaidų atidėjimus
@@ -452,7 +460,9 @@
               items:
                 - name: Kliento mokėjimų apžvalga
                   href: cash-bank-management/tasks/customer-payment-overview.md
-                - name: Centralizuoti gautinų sumų mokėjimai
+                - name: Nustatykite ir apdorokite sujungtus mokėjimus
+                  href: accounts-receivable/set-up-and-process-bridged-payments.md
+                - name: Centralizuoti modulio Gautinos sumos mokėjimai
                   href: accounts-receivable/centralized-payments-accounts-receivable.md
                 - name: Kliento mokėjimų mokėjimas
                   href: accounts-receivable/tasks/deposit-customer-payments.md
@@ -1026,6 +1036,14 @@
                       href: general-ledger/import-currency-exchange-rates.md
                     - name: Dvi valiutos
                       href: general-ledger/dual-currency.md
+                - name: Registravimo šablonai
+                  items:
+                    - name: Profilių paskelbimo apžvalga
+                      href: general-ledger/pstg-prfles-ovrvw.md
+                    - name: Rekomenduojama profilių paskelbimo praktika
+                      href: general-ledger/recommended-practices-pstg-prfles.md
+                    - name: Automatinių pervedimų sąskaitos
+                      href: general-ledger/accounts-for-auto-transactions.md
                 - name: Paskirstymo taisyklės
                   items:
                     - name: DK paskirstymo taisyklės
