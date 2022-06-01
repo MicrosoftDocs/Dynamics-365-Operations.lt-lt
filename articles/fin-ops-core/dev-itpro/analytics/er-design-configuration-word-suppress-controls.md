@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: Version 10.0.6
-ms.openlocfilehash: f8e74902e939355aba9bbadd8e7f8f8aa46fe5c5
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: 2c2d79c9ea36c42cfc0f6ba0d3c81d063d8d9446
+ms.sourcegitcommit: 6c1bf233748c4bc70fc5a1a9711758cdfd9e07dc
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323930"
+ms.lasthandoff: 05/19/2022
+ms.locfileid: "8782183"
 ---
 # <a name="suppress-word-content-controls-in-generated-reports"></a>Nerodomo „Word” turinio valdikliai sugeneruotose ataskaitose
 
@@ -26,7 +26,7 @@ ms.locfileid: "8323930"
 
 Norėdami generuoti ataskaitas „Microsoft Word” kaip dokumentus, turite sukurti ataskaitų šabloną kaip „Word” dokumentą. Šiame šablone turi būti „Word” duomenų valdikliai, kaip vietos rezervavimo ženklai duomenims, kurie turi būti užpildyti apdorojimo metu. Norėdami naudoti „Word” dokumentą, sukurtą kaip šabloną jūsų ataskaitoms, galite [sukonfigūruoti](er-design-configuration-word.md) naują [elektroninės ataskaitos (ER)](general-electronic-reporting.md) [sprendimą](er-quick-start1-new-solution.md). Sprendimas turi apimti ER konfigūraciją [, kurioje](general-electronic-reporting.md#Configuration) yra ER formato komponentas. Šis ER formatas turi būti sukonfigūruotas naudoti skirtą šabloną ataskaitai kurti.
 
-Versijoje 10.0.6 ir vėlesnėse „Dynamics 365 Finance” versijose galite konfigūruoti formules savo ER formatu, kad sugeneruotuose dokumentuose nerodomi kai kuriuos „Word” turinio valdiklius.
+Versijose 10.0.6 ir vėlesnėje "Dynamics 365 Finance" versijoje galite konfigūruoti formules savo ER formatu, kad sugeneruotuose dokumentuose būtų nerodyti kai kurių Word turinio valdiklių.
 
 Toliau paaiškinama, kaip vartotojas, kuris priskirtas sistemos administratoriui arba elektroninio ataskaitų funkcinio konsultanto vaidmeniui, gali konfigūruoti ER formatą, kuris generuoja ataskaitas kaip „Word” failus ir nerodo kai kuriuos sugeneruotų ataskaitų, kurios sukonfigūruotos naudojant „Word” šabloną, turinio valdiklius.
 
@@ -47,7 +47,7 @@ Kai atliksite šių užduočių vedlių veiksmus, šie elementai bus paruošti:
 
 Taip pat turite atsisiųsti ir įrašyti šį ataskaitos pavyzdžio šabloną:
 
-- [Susietas mokėjimo ataskaitos šablonas Nr. 2 (SampleVendPaymDocReportBounded2.docx)](https://download.microsoft.com/download/a/1/2/a126cb43-6281-4f7b-bde0-25e03ff9bc1e/SampleVendPaymDocReportBounded2.docx)
+- [Susietas mokėjimo ataskaitos šablonas Nr. 2 (SampleVendPaymDocReportBounded2.docx)](https://download.microsoft.com/download/1/9/b/19b36e39-861a-414e-9150-9880d9d2487c/SampleVendPaymDocReportBounded2.docx)
 
 ## <a name="review-the-downloaded-word-template"></a><a id="tag-control"></a>Peržiūrėkite atsisiųstą „Word” šabloną
 

@@ -2,7 +2,7 @@
 title: Konfigūracijų kūrimas dokumentams „Excel“ formatu generuoti
 description: Šioje temoje apibūdinama, kaip kurti Elektroninės ataskaitos (ER) formatą, kad būtų galima pildyti „Excel“ šabloną, o tada generuoti siunčiamus „Excel“ formato dokumentus.
 author: NickSelin
-ms.date: 03/25/2022
+ms.date: 05/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ec25065f2e3cc3b5dd3c9004d5330447f7b2ac61
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.openlocfilehash: 4a34f990c865aa8c82213a60c23d5a44ad75aee4
+ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8645141"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8811426"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>Konfigūracijos, skirtos dokumentams „Excel“ formatu generuoti, kūrimas
 
@@ -288,6 +288,16 @@ Norėdami į redaguojamą ER formatą importuoti atnaujintą šabloną, veiksmų
 
 ![„Excel“ lapo formato elemento parinkties kūrimas dialogo lange Naujinti iš „Excel”.](./media/er-excel-format-update-template.png)
 
+Versijoje 10.0.28 ir vėlesnėje versijoje galite **naudoti pasirinktį Naujinti Excel antraštę ir Excel poraštės formato** elementus.
+
+- Kai nustatote **šią** pasirinktį kaip Ne, Excel antraštės ir Excel poraštės formato elementai nekinta, net jei atitinkami antraštės ar poraštės importuoto šablono darbalapiuose buvo atnaujinti Excel darbaknygės formatu.
+- Kai nustatote **šią** pasirinktį kaip Taip, Excel antraštės ir Excel poraštės formato elementai keisis, kai atitinkamos antraštės ar poraštės atnaujinamos importuoto šablono darbalapiais Excel darbaknygės formatu.
+
+    - Jei darbalapio antraštės ar poraštės struktūra nebuvo pakeista arba jei ji buvo tik pridėta, atnaujinama atitinkamo Excel antraštės arba Excel poraštės formato elemento struktūra. Bus išsaugoti formato elementų, įdėtų į šį Excel antraštės arba Excel poraštės formato elementą, susiejimai.
+    - Jei darbalapio antraštės arba poraštės struktūra buvo pakeista, iš naujo sukuriamas atitinkamas Excel antraštės arba Excel poraštės formato elementas. Formatų elementų, įdėtų į šį Excel antraštės arba Excel poraštės formato elementą, susiejimai bus pašalinti.
+
+![Atnaujinti "Excel" antraštę ir "Excel" poraštės formato elementų pasirinktį dialogo lange Naujinti iš Excel.](./media/er-excel-format-update-template2.png)
+
 Norėdami sužinoti daugiau apie šią funkciją, atlikite veiksmus, aprašytus skyriuje [Elektroninių ataskaitų formatų modifikavimas iš naujo pritaikant „Excel“ šablonus](modify-electronic-reporting-format-reapply-excel-template.md).
 
 ## <a name="validate-an-er-format"></a>ER formato tikrinimas
@@ -355,7 +365,7 @@ Kai sugeneruojamas siunčiamas dokumentas „Microsoft Excel“ darbaknygės for
 
 ## <a name="example-2-fixing-the-merged-cells-epplus-issue"></a><a name="example-2"></a> 2 pavyzdys: Sulietų langelių EP Tarpo išdavimo nustatymas
 
-Norėdami generuoti siunčiamą dokumentą Excel darbaknygės formatu, galite paleisti ER formatą. Kai funkcijų **valdymo darbo srityje įgalintas** **EP** Pagal elektroninių ataskaitų sistemos funkciją įgalintas EP Pagal bibliotekos naudojimo įgalinimas, ["EPVz"biblioteka](https://www.nuget.org/packages/epplus/4.5.2.1) naudojama Excel išvestims atlikti. Tačiau dėl žinomo [Excel](https://answers.microsoft.com/msoffice/forum/all/deleting-a-range-of-cells-that-includes-merged/8601462c-4e2c-48e0-bd23-848eecb872a9) veikimo būdo ir EPVz., bibliotekos apribojimo galite susidurti su šia išimtimi: "Negalima panaikinti / perrašyti sulietų langelių. Diapazonas iš dalies sulietas su kitu susieuotu diapazonu. Norėdami sužinoti, kokio tipo "Excel" šablonai gali sukelti šią išimtį ir kaip galite išspręsti problemą, atlikite toliau nurodytą pavyzdį.
+Norėdami generuoti siunčiamą dokumentą Excel darbaknygės formatu, galite paleisti ER formatą. Kai funkcijų **valdymo darbo srityje įgalintas** **EP** Pagal elektroninių ataskaitų sistemos funkciją įgalintas EP Pagal bibliotekos naudojimo įgalinimas, ["EPVz"biblioteka](https://www.nuget.org/packages/epplus/4.5.2.1) naudojama Excel išvestims atlikti. Tačiau dėl žinomo [Excel](https://answers.microsoft.com/en-us/msoffice/forum/all/deleting-a-range-of-cells-that-includes-merged/8601462c-4e2c-48e0-bd23-848eecb872a9) veikimo būdo ir EPVz., bibliotekos apribojimo galite susidurti su šia išimtimi: "Negalima panaikinti / perrašyti sulietų langelių. Diapazonas iš dalies sulietas su kitu susieuotu diapazonu. Norėdami sužinoti, kokio tipo "Excel" šablonai gali sukelti šią išimtį ir kaip galite išspręsti problemą, atlikite toliau nurodytą pavyzdį.
 
 1. Excel kompiuterio programoje sukurkite naują Excel darbaknygę.
 2. Darbalapio **Sheet1** pridėkite **langelio A2 ReportTitle** **pavadinimą**.

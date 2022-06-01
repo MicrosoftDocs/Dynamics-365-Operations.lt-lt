@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-04-22
 ms.dyn365.ops.version: 10.0.27
-ms.openlocfilehash: e8ec20c361f76a6012a7c8e1f03296007f5a05aa
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.openlocfilehash: 77c79c88b08844bf7e399a762bb9eb9746ffb71a
+ms.sourcegitcommit: 611202adaa080250636efabb3b3b32b850d92d04
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8648170"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8812950"
 ---
 # <a name="preview-of-dynamics-365-supply-chain-management-10027-july-2022"></a>„Dynamics 365 Supply Chain Management“ peržiūra 10.0.27 (2022 m. liepa)
 
@@ -34,7 +34,7 @@ Tolesnėje lentelėje pateiktos funkcijos, kuri yra šiame leidime. Mes galime a
 
 | Funkcijos sritis | Funkcija | Daugiau informacijos | Įjungė   |
 |---|---|---|---|
-| Atsargos ir logistika | [Atsargų paskirstymas pagal atsargų matomumo priedą](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/inventory-allocation-inventory-visibility-add-in) | Jau greitai | Įgalinta pagal numatytuosius nustatymus |
+| Atsargos ir logistika | [Atsargų paskirstymas pagal atsargų matomumo priedą](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/inventory-allocation-inventory-visibility-add-in) | [Atsargų matomumo atsargų paskirstymas](../inventory/inventory-visibility-allocation.md) | Įgalinta pagal numatytuosius nustatymus |
 | Gamyba | Gamybos vietos vykdymo sąsajos rodinys „Mano diena“ | [Kaip darbuotojai naudoja gamybos laiko vykdymo sąsają](../production-control/production-floor-execution-use.md) ir [rodyti atostogų balansus gamybos laiko vykdymo sąsajoje](../production-control/production-floor-execution-payroll-stats.md) | Priemonių valdymas:<br>*Gamybos vietos vykdymo sąsajos rodinys „Mano diena“* |
 | Planuojama | [Subrangos planavimo optimizavimo palaikymas](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/planning-optimization-support-subcontracting) | [Gamybos subrangos darbų valdymas](../production-control/manage-subcontract-work-production.md) | Įgalinta pagal numatytuosius nustatymus |
 
@@ -69,7 +69,7 @@ Neseniai įtraukėme arba pastebimai atnaujinome šias žinyno temas. Šios temo
 
 ### <a name="platform-updates-for-finance-and-operations-apps"></a>Finansų ir operacijų programėlių platformos naujinimai
 
-„Microsoft Dynamics 365 Supply Chain Management“ 10.0.27 versijoje yra platformos naujinimų. Norėdami sužinoti daugiau, žr. [finansų ir operacijų programėlių 10.0.27 versijos (2022 m. birželio mėn.)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-27.md) platformos naujinimus.<!-- KFM Confirm link -->
+„Microsoft Dynamics 365 Supply Chain Management“ 10.0.27 versijoje yra platformos naujinimų. Norėdami sužinoti daugiau, žr. [finansų ir operacijų programėlių 10.0.27 versijos (2022 m. birželio mėn.)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-27.md) platformos naujinimus.
 
 ### <a name="bug-fixes"></a>Klaidų ištaisymai
 

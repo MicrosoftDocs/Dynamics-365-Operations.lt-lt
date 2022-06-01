@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: bc5f097a7f941dfa05f4011d9be5caffbb7f01b5f6e67cd7535ef3d1b13f59fe
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c9812a828cb159400c6388f02f10e00694aa64ad
+ms.sourcegitcommit: d38d2fe85dc2497211ba5731617f590029d07145
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6740436"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "8809537"
 ---
 # <a name="create-legal-entities"></a>Kurti juridinius subjektus
 
@@ -62,7 +62,7 @@ Norėdami sukurti naują juridinė subjektą „Dynamics 365 Commerce“, atliki
 1. Skyriuje **Ataskaitų srities vaizdas** peržiūrėkite arba keiskite logotipą ir ataskaitų srities vaizdą, susijusį su juridiniu subjektu.
 1. Dalyje **PVM mokėtojo kodas** įveskite registracijos numerius, naudojamus teikiant ataskaitas mokesčių institucijoms.
 1. Dalyje **Mokestis 1099** įveskite juridinio subjekto 1099 informaciją.
-1. Skyriuje **Mokesčių informacija** įveskite juridinio subjekto mokesčių informaciją.
+1. Mokesčių informacijos **skyriuje** įveskite juridinio subjekto mokesčių informaciją.
 1. Pasirinkite **Įrašyti**.
 
 Toliau pateiktame vaizde parodytas išsamus juridinio subjekto pavyzdys.

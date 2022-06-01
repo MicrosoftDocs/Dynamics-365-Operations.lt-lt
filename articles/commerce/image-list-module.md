@@ -2,7 +2,7 @@
 title: Vaizdų sąrašo modulis
 description: Šioje temoje aprašomi vaizdų sąrašo moduliai ir tai, kaip juos įtraukti į „Microsoft Dynamics 365 Commerce“ svetainių puslapius.
 author: anupamar-ms
-ms.date: 07/08/2021
+ms.date: 05/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 7df62fe426799905f9d6d412c4c510b8ce021b7ddd768a98b8180ca7e9b467a7
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 67da83410d819d01396d0b7d421076ee3b0f17ec
+ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6742393"
+ms.lasthandoff: 05/19/2022
+ms.locfileid: "8780848"
 ---
 # <a name="image-list-module"></a>Vaizdų sąrašo modulis
 
@@ -53,12 +53,12 @@ Vaizdų sąrašo modulis gali būti naudojamas norint lengvai įtraukti vaizdų 
 Norėdami į naują puslapį įtraukti vaizdų sąrašo modulį ir nustatyti reikiamas ypatybes „Commerce” svetainių daryklėje, atlikite tolesnius veiksmus.
 
 1. Eikite į **Šablonai** ir atidarykite jūsų svetainės pagrindinio puslapio rinkodaros šabloną (arba sukurkite naują rinkodaros šabloną).
-1. Nustatytojo puslapio **Pagrindinis** vietoje pasirinkite elipsę (**...**), ir tuomet pasirinkite **Įtraukti modulį**.
-1. Dialogo lange **Įtraukti modulį** pasirinkite modulį **Vaizdų sąrašas**, o tada pasirinkite **Gerai**.
+1. Numatytojo **puslapio** pagrindiniame atrinkinyje pasirinkite daugtaškį (**...**), tada pasirinkite Įtraukti **modulį**.
+1. Dialogo lange **Pasirinkti modulius** pasirinkite vaizdo sąrašo **modulį**, tada pasirinkite **Gerai**.
 1. Pasirinkite **Išsaugoti**, tada – **Baigti redagavimą**, kad užregistruotumėte šabloną, o tada pasirinkite **Publikuoti**, kad publikuotumėte jį.
 1. Eikite į **Puslapiai** ir atidarykite pagrindinį svetainės puslapį (arba sukurkite naują pagrindinį puslapį naudodami rinkodaros šabloną).
-1. Numatytojo puslapio vietoje **Pagrindinis** pasirinkite daugtaškio mygtuką (**...**) ir **Įtraukti modulį**.
-1. Dialogo lange **Įtraukti modulį** pasirinkite **Vaizdų sąrašas**, o tada pasirinkite **Gerai**.
+1. Numatytojo **puslapio** pagrindiniame atrinkinyje pasirinkite elipsės mygtuką (**...**), tada pasirinkite Įtraukti **modulį**.
+1. Dialogo lange **Pasirinkti** modulius pasirinkite sąrašą **Vaizdas**, tada pasirinkite **Gerai**.
 1. Vaizdų sąrašo modulio ypatybių srityje pridėkite antraštę (pavyzdžiui, **Mūsų prekės ženklai**).
 1. Įtraukite vaizdų sąrašo elementą ir nurodykite paveikslėlį, paragrafo tekstą ir nukreipimo URL.
 1. Jei reikia, įtraukite ir sukonfigūruokite papildomus vaizdų sąrašo elemento modulius.

@@ -2,7 +2,7 @@
 title: El. komercijos skaitmeninės dovanų kortelės
 description: Šioje temoje aprašoma, kaip skaitmeninės dovanų kortelės veikia el. komercijos įgyvendinime „Microsoft Dynamics 365 Commerce“. Taip pat, tema apžvelgia svarbius konfigūravimo veiksmus.
 author: anupamar-ms
-ms.date: 12/15/2020
+ms.date: 05/27/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,17 +14,16 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: e0cbab05cfd9dcde8ec5caf802d13cd10bc9123716b46307616b0e3e66f0f061
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: de8811b3265bc582a055aaad1f3dea32def552f4
+ms.sourcegitcommit: d38d2fe85dc2497211ba5731617f590029d07145
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727562"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "8809592"
 ---
 # <a name="e-commerce-digital-gift-cards"></a>El. komercijos skaitmeninės dovanų kortelės
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 Šioje temoje aprašoma, kaip skaitmeninės dovanų kortelės veikia el. komercijos įgyvendinime „Microsoft Dynamics 365 Commerce“. Taip pat, tema apžvelgia svarbius konfigūravimo veiksmus.
 
@@ -51,15 +50,18 @@ Skaitmeninės kortelės prekės turi būti konfigūruotos „Commerce“ būstin
 
     ![Dovanų kortelės produkto laukelis „Commerce“ būstinėje.](./media/PostGiftcard.png)
 
-- Jei dovanų kortelė turi būti palaikoma kelių iš anksto nustatytų sumų (pavyzdžiui, 25 $, 50 $ ir 100 $), **Dydžio** dimensija turi būti naudojama siekiant nustatytas iš anksto nustatytas sumas. Kiekviena iš anksto nustatyta suma bus variantas. Dėl daugiau informacijos, žr. [Produkto dimensijos](../supply-chain/pim/product-dimensions.md?toc=%2fdynamics365%2fretail%2ftoc.json).
-- Jei klientai privalo galėti nurodyti tinkintą sumą dovanų kortelei, pirmiausia nustatykite variantą, leidžiantį kliento sumą. Po to, atverkite produktą iš **Išleisti produktai šios kategorijos** puslapį ir tuomet **Komercija** „FastTab“, nustatykite **Rakto kainos** laukelį į **Privalomas raktas naujos kainos**, kaip parodyta tolesniame paveikslėlyje. Šis nustatymas užtikrina, kad klientai galės įvesti kainą naršydami produktą PDP.
+- Jei dovanų kortelė turi būti palaikoma kelių iš anksto nustatytų sumų (pavyzdžiui, 25 $, 50 $ ir 100 $), **Dydžio** dimensija turi būti naudojama siekiant nustatytas iš anksto nustatytas sumas. Kiekviena iš anksto nustatyta suma bus produkto variantas. Dėl daugiau informacijos, žr. [Produkto dimensijos](../supply-chain/pim/product-dimensions.md?toc=%2fdynamics365%2fretail%2ftoc.json).
+- Jei klientams be iš anksto nustatytų sumų turi būti suteikta galimybė nurodyti pasirinktinę dovanų kortelės sumą, pirmiausia nustatykite variantą, pagal kurį bus leidžiama pasirinktinė suma. Dydžio atributas **palaiko** pasirinktinius sumos variantus. Tada kategorijos **puslapyje** Išleistus produktus atidarykite produktą ir **tada "Commerce** FastTab **·** **·**" nustatykite kainos rakto lauką kaip Turi įvesti naują kainą, kaip parodyta toliau pateiktame pavyzdyje. Šis nustatymas užtikrina, kad klientai galės įvesti kainą naršydami produktą PDP.
 
     ![Raktas kainos laukelyje „Commerce“ būstinėje.](./media/KeyInPrice.png)
+    
+    Šiame pavyzdyje pateikiamas skaitmeninių dovanų kortelių produktų variantų sąrašas "Commerce Headquarters", įskaitant du pasirinktinius kainų variantus.
+    ![Skaitmeninių dovanų kortelių produktų variantai su pasirinktinio kainos varianto pavyzdžiu](./media/DigitalGiftCards_ProductVariantsWithCustom.png)
 
 - Pristatymo būdas skaitmeninei dovanų kortelei turi būti nustatytas į **Elektroninį**. Puslapyje **Pristatymo būdai** (**Mažmeninė prekyba ir komercija \> Kanalo nustatymai \> Pristatymo būdai**), rinkitės **Elektroninį** pristatymo būdą sąrašo juostoje ir tuomet įtraukite skaitmeninį dovanų kortelės produktą į tinklelį **Produktai** „FastTab“, kaip parodyta tolesniame paveikslėlyje. Dėl daugiau informacijos, žr. [Nustatyti pristatymo būdus](/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery).
 
     ![Skaitmeninės kortelės prekės Pristatymo būdo puslapyje „Commerce“ būstinėje.](./media/ElectronicMode.PNG)
-
+    
 - Įsitikinkite, kad interneto funkcijos profilis buvo sukurtas ir susietas su jūsų interneto parduotuve „Commerce“ būstinėje. Funkcijų profilyje, nustatykite **Bendrinti produktus** parinktį į **Taip**. Šie nustatymai užtikrina, kad visos prekės, išskyrus dovanų korteles, bus subendrintos. Dėl daugiau informacijos, žr. [Kurti interneto funkcijos profilį](online-functionality-profile.md).
 - Siekiant užtikrinti, kad klientai gaus el. laiškus įtraukus dovanų kortelę į sąskaitą, sukurkite naują el. laiško pranešimo tipą **El. laiško pranešimo profiliai** puslapyje ir nustatykite **El. laiško pranešimo tipo** laukelį į **Išduoti dovanų kortelę**. Dėl daugiau informacijos, žr. [Nustatyti el. laiško pranešimo profilį](email-notification-profiles.md).
 

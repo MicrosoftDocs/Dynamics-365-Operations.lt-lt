@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: dcfcd64ae24297c8e11f36629490ebe7cd063de53c717559e1b73743ccc61664
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bc0020a7f7aa60305bfc7c66474e0bbc26f27bef
+ms.sourcegitcommit: d38d2fe85dc2497211ba5731617f590029d07145
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6758998"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "8809564"
 ---
 # <a name="create-an-operating-unit"></a>Valdymo vieneto kūrimas
 
@@ -37,7 +37,7 @@ Valdymo vienetas yra organizacija, kuri yra naudojama ekonominiams ištekliams v
     + Įveskite adreso informaciją, pvz., gatvės pavadinimą ir numerį, pašto kodą ir miestą. Spustelėkite **Įtraukti**, kad įvestumėte naują adreso įrašą, arba spustelėkite „Redaguoti“, kad modifikuotumėte esamą adreso įrašą.   
     + Jei reikia, išplėskite skyrių **Kontaktinė informacija**.  
     + Įveskite informaciją apie komunikacijos priemones, pvz., elektroninio pašto adresus, URL ir telefono numerius. Norėdami įvesti naują komunikacijos įrašą, spustelėkite „Naujas“. Norėdami modifikuoti esamą komunikacijos įrašą, spustelėkite **Daugiau parinkčių > Išplėstiniai nustatymai**.   
-6. Arba, jei reikia, pakeiskite **Valdymo vieneto numeris**. Atkreipkite dėmesį, kad šis numeris yra atitinkamos **Šalies** unikalus identifikatorius ir negali būti toks pats, kaip bet kuris kitas valdymo vienetas.
+6. Arba, jei reikia, pakeiskite **Valdymo vieneto numeris**. Atkreipkite dėmesį, kad šis numeris yra unikalus atitinkamo įrašo IDenitifier **ir** negali būti toks pat kaip ir jokio kito valdymo vieneto.
 7. Pasirinkite **Įrašyti**.
 
 

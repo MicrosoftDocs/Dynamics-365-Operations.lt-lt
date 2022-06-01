@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: 5c2eb6c8e18770eb149c445f662ab7a90aad81a7
-ms.sourcegitcommit: 367e323bfcfe41976e5d8aa5f5e24a279909d8ac
+ms.openlocfilehash: 73dbc2242639a54d687506e7c325fec4b9a95d12
+ms.sourcegitcommit: 2b4ee1fe05792332904396b5f495d74f2a217250
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8660517"
+ms.lasthandoff: 05/18/2022
+ms.locfileid: "8770160"
 ---
 # <a name="revenue-split-templates-in-subscription-billing"></a>Įplaukų skaidymo šablonai abonemento sąskaitose
 
@@ -99,3 +99,54 @@ Norėdami sukurti sąskaitų pateikimo grafiką, kuriame yra prekė, nustatyta �
 > - Antriniai elementai automatiškai įvedami į pardavimo užsakymą arba atsiskaitymo grafiko eilutę.
 >
 > Jei parinktis **Automatiškai kurti įplaukų** skaidymo pasirinktį nustatyta kaip **Ne**, veikimo būdas pateikiamas taip, kaip paaiškinta anksčiau.
+
+## <a name="additional-revenue-split-information"></a>Papildoma įplaukų skaidymo informacija
+
+Kai pridedate prekę, kuri yra įplaukų skaidymo dalis, pasižymėkite šią informaciją: 
+
+- Pirminės sumos atidėti negalima.
+- Antrinių prekių pradžios data, pabaigos data, kiekis, vienetas, vieta ir sandėlio vertės pagrįstos pirmine preke. Šių antrinių prekių verčių keisti negalima. Visi pirminės prekės keitimai turi būti atlikti. 
+- Kainodaros metodas yra **Butas** ir jo pakeisti negalima.
+- Antriniai elementai gali būti pridėti arba pašalinti.
+- Pirminės ir tarpinių prekių turi būti naudojama ta pati prekių grupė. 
+- Antriniai elementai gali būti vieno iš šių nustatymų:
+
+    - Nustatyta **pirminės prekės** atsiskaitymo **dažnumo** ir atsiskaitymo intervalų laukų reikšmė tokia pati. 
+    - Atsiskaitymo **dažnumo** laukas nustatytas kaip **Vienkartinis**. Tokiu atveju laukas Atsiskaitymo **intervalai** automatiškai nustatomas kaip **1**. 
+
+- Antrinių prekių grynųjų sumų suma lygi pirminėms sumoms. Jei paskirstymo metodas yra nulinės **sumos**, ir antrinių prekių sumų suma, ir pirminė suma yra 0 (nulis). 
+
+    > [!NOTE]
+    > Jei paskirstymo metodas yra nulinė **pirminė** suma, antrinių prekių (ne nulinė) suma nėra lygi pirminė sumai, kuri lygi 0 (nuliui). Šis paskirstymo metodas naudojamas vidiniams tikslams, kad darbuotojai galėtų matyti ant jų esančių prekių. Tačiau klientai gali matyti tik pirminę prekę.
+
+- Jei pardavimo užsakymo kelių elementų išdėstymo (MEA) **tipas** yra Vienas, įtraukiama atitinkama kelių elementų įplaukų paskirstymo operacijos eilutė sukuriama, kai papildomos pirminės ir antriniai prekės. 
+- Jei įplaukų skaidymo paskirstymo metodas yra **vienodos sumos** ir pakeičiama pirminė suma, sumos perskaičiuojamos visose antriniuose eilutėse. 
+- Įplaukoms išskaidyti, kai paskirstymo metodas **yra kintama** suma, įvyksta šis veikimo būdas:
+
+    - Pirminės prekės grynoji suma pasirodo stulpelyje **Pirminė** suma. Šią vertę galima redaguoti. Tačiau vieneto kaina, grynoji suma ir nuolaida yra 0 (nulis), todėl jos redaguoti negalima.
+    - Antrinių prekių vieneto kaina yra 0 (nulis). Galite redaguoti vieneto kainą arba grynąją sumą. Redaguojant vieną vertę, kita vertė atnaujinama automatiškai.
+
+- Įplaukoms išskaidytos tada, kai paskirstymo metodas **yra** procentinis dydis, įvyksta šis veikimo būdas:
+
+    - Pirminės prekės grynoji suma pasirodo stulpelyje **Pirminė** suma. Šią vertę galima redaguoti. Tačiau vieneto kaina, grynoji suma ir nuolaida yra 0 (nulis), todėl jos redaguoti negalima. 
+    - Grynoji antrinių prekių suma apskaičiuojama kaip pirminė *procentinė*&times;*suma.*
+
+- Įplaukoms išskaidyti, kai paskirstymo metodas **yra lygus** kiekiui, įvyksta šis veikimo būdas:
+
+    - Pirminės prekės grynoji suma pasirodo stulpelyje **Pirminė** suma. Šią vertę galima redaguoti. Tačiau vieneto kaina, grynoji suma ir nuolaida yra 0 (nulis), todėl jos redaguoti negalima. 
+    - Grynoji antrinių prekių suma apskaičiuojama padalinant pirminę sumą po lygiai iš visų antrinių prekių. 
+    - Jei antriniai elementai pašalinami arba pridedami, grynoji suma ir vieneto kainos perskaičiuojamos, kad visų antrinių eilučių sumos būtų vienodos. 
+    - Jei pirminės sumos vienodai padalyti negalima, paskutinio antrinio elemento grynoji suma ir vieneto kaina gali būti šiek tiek didesnė už kitų antrinių prekių grynąją sumą ir vieneto kainą. 
+
+- Įplaukoms išskaidyti, kai paskirstymo metodas yra **nulinė** suma, įvyksta šis veikimo būdas:
+
+    - Vieneto kainą, grynąją sumą ir nuolaidą galima redaguoti. Pirminė suma yra 0 (nulis), todėl jos redaguoti negalima. 
+    - Antrinių prekių kiekis, vienetas, vieta ir sandėlio vertės paremtos pirmine preke. Negalima keisti šių antrinių prekių verčių. Visi pirminės prekės keitimai turi būti atlikti. 
+    - Antrinių prekių vieneto kaina ir grynoji kaina yra 0 (nulis), todėl jos redaguoti negalima. 
+
+- Įplaukoms išskaidyti, kai paskirstymo metodas yra **nulinė pirminė** suma, įvyksta šis veikimo būdas:
+
+    - Pirminės prekės vieneto kaina, pirminė suma ir grynoji suma yra 0 (nulis).
+    - Atsiskaitymo grafike antriniai eilutės pasirodo taip tarsi būtų įtraukti rankiniu būdu, o visos vertės atnaujinamos pagal pasirinktą atsiskaitymo grafiko grupę. Šias vertes galima redaguoti. Antrinių prekių **perskyrimo** **·** **ir** nuolaidos bei išplėstinės kainos parinktis galite pasiekti naudodami laukus Įvestas kiekis, **Vieneto** kaina, **·** **Nuolaida ir Grynoji** **suma**. 
+    - Pardavimo užsakyme antrinių eilučių nuolaida ir nuolaidos procentas yra 0 (nulis). 
+    - Pirminių ir antrinių elementų atsiskaitymo dažnumas gali būti pakeistas, o kiekvienos eilutės dažnumas gali skirtis. Tačiau pirminė prekė automatiškai atnaujinama taip, kad tarp antrinių eilučių ji turėtų trumpiausią dažnumą. Pavyzdžiui, įplaukų skaidymo metu yra du antriniai elementai, **·** **iš kurių vienas naudoja mėnesinį atsiskaitymo dažnumą, ir kitą kartą per metus sąskaitų pateikimo** dažnumą. Šiuo atveju pirminės prekės atsiskaitymo dažnumas atnaujinamas į Kas **mėnesį**.

@@ -2,7 +2,7 @@
 title: Naršymo kelio modulis
 description: Šioje temoje aprašomi „duonos trupinėlių“ (angl. breadcrumb) moduliai ir tai, kaip jų įtraukti į „Microsoft Dynamics 365 Commerce“ svetainių puslapius.
 author: anupamar-ms
-ms.date: 10/20/2020
+ms.date: 05/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f387b6353e58ebb454b74568ddc17ae6d25d7e36
-ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
+ms.openlocfilehash: aa7f6e2f2b15c3e5d89cd645b3f1cc4c83c5b8d9
+ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8109737"
+ms.lasthandoff: 05/19/2022
+ms.locfileid: "8780339"
 ---
 # <a name="breadcrumb-module"></a>Naršymo kelio modulis
 
@@ -63,12 +63,12 @@ Norėdami į PDP įtraukti naršymo kelio modulį ir nustatyti reikiamas ypatybe
 
 1. Eikite į **Saito nustatymus \> Plėtiniai** ir tada **Naršymo kelio rodymo tipo PDP** nustatymuose pasirinkite **Rodyti kategorijos hierarchiją**.
 1. Eikite į **Šablonai** ir pasirinkite PDP šabloną.
-1. Vietoje **Konteineris**, kurioje yra pirkimo langelio modulis, pasirinkite daugtaškį (**...**) ir pasirinkite **Įtraukti modulį**.
-1. Dialogo lange **Įtraukti modulį** pasirinkite modulį **Naršymo kelias**, tada pasirinkite **Gerai**.
+1. Konteinerio **laiko atminties** laiko atminties modulyje, kuriame yra pirkimo dėžės modulis, pasirinkite daugtaškį (**...**), tada pasirinkite Įtraukti **modulį**.
+1. Dialogo lange **Pasirinkti** modulius pasirinkite modulį **Naršymo nuoroda ir** pasirinkite **Gerai**.
 1. Pasirinkite **Išsaugoti**, tada – **Baigti redagavimą**, kad užregistruotumėte šabloną, o tada pasirinkite **Publikuoti**, kad publikuotumėte jį.
 1. Eikite į **Puslapiai** ir atidarykite PDP, kuris naudoja PDP šabloną. Jei PDP dar nėra, sukurkite jį.
-1. Vietoje **Konteineris**, kurioje yra pirkimo langelio modulis, pasirinkite daugtaškį (**...**) ir pasirinkite **Įtraukti modulį**.
-1. Dialogo lange **Įtraukti modulį** pasirinkite modulį **Naršymo kelias**, tada pasirinkite **Gerai**.
+1. Konteinerio **laiko atminties** laiko atminties modulyje, kuriame yra pirkimo dėžės modulis, pasirinkite daugtaškį (**...**), tada pasirinkite Įtraukti **modulį**.
+1. Dialogo lange **Pasirinkti** modulius pasirinkite modulį **Naršymo nuoroda ir** pasirinkite **Gerai**.
 1. Dalies **Naršymo kelias** ypatybių srityje, dalyje **Šaknis**, pasirinkite **Saito tekstas**.
 1. Dialogo lange **Saito tekstas** įveskite **Pagrindinis**, tada dalyje **Saito paskirtis** pasirinkite **Įtraukti saitą**.
 1. Dialogo lange **Įtraukti saitą** pasirinkite naršymo kelio šaknies saitą, tada – **Gerai**.

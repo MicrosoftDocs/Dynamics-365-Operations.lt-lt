@@ -2,7 +2,7 @@
 title: Tiekėjo bendradarbiavimo mobilioji darbo sritis
 description: Šioje temoje pateikiama informacijos apie tiekėjų bendradarbiavimo mobiliąją darbo sritį. Ši darbo sritis padeda jūsų tiekėjams matyti naujausią jiems patvirtinti atsiųstų pirkimo užsakymų informaciją. Jie taip pat gali peržiūrėti informaciją apie naujus ir atnaujintus pirkimo užsakymus ir kontaktus.
 author: GalynaFedorova
-ms.date: 12/01/2017
+ms.date: 05/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,20 +14,21 @@ ms.search.region: global
 ms.author: gfedorova
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: c1e8a6589b16c4a24b151980d01929ed154bbb7b
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 97352ca89cef77b9320f17af5a1dbe6a00df2dd6
+ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8670110"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8811720"
 ---
 # <a name="vendor-collaboration-mobile-workspace"></a>Tiekėjo bendradarbiavimo mobilioji darbo sritis
 
 [!include [banner](../includes/banner.md)]
+[!include [mobile app deprecation](../../fin-ops-core/dev-itpro/includes/mobile-app-deprecation-banner.md)]
 
 Šioje temoje pateikiama informacijos apie **Tiekėjų bendradarbiavimo** mobiliąją darbo sritį. Ši darbo sritis padeda jūsų tiekėjams matyti naujausią jiems patvirtinti atsiųstų pirkimo užsakymų informaciją. Jie taip pat gali peržiūrėti informaciją apie naujus ir atnaujintus pirkimo užsakymus ir kontaktus.
 
-Ši mobilioji darbo sritis skirta naudoti kartu su mobiliąja programa „Finance and Operations“.
+Ši mobilioji darbo sritis skirta naudoti su finansų ir operacijų ("Dynamics 365") mobiliąją programa.
 
 ## <a name="overview"></a>Apžvalga 
 Mobilioji darbo sritis **Tiekėjų bendradarbiavimas** suteikia tiekėjams informacijos apie naujus pirkimo užsakymus, tad jie gali juos peržiūrėti ir reaguoti naudodami žiniatinklio klientą. 
@@ -109,7 +110,7 @@ Jei jūsų organizacijoje visuotinai įdiegta „Microsoft Dynamics 365 for Oper
 
 ## <a name="download-and-install-the-mobile-app"></a>Mobiliosios programos atsisiuntimas ir diegimas
 
-Atsisiųskite ir įdiekite mobiliąją programą „Finance and Operations”.
+Atsisiųskite ir įdiekite finansų ir operacijų ("Dynamics 365") mobiliąją programą:
 
 -   [„Android“ telefonams](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [„iPhone“ telefonams](https://go.microsoft.com/fwlink/?linkid=850663)

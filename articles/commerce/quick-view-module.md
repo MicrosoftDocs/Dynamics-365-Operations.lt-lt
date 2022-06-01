@@ -2,7 +2,7 @@
 title: Greito rodinio modulis
 description: Šioje temoje aprašomi greito rodinio moduliai ir aprašoma, kaip juos įtraukti į saito puslapius „Microsoft Dynamics 365 Commerce“.
 author: anupamar-ms
-ms.date: 01/28/2021
+ms.date: 05/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2020-01-08
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 68808da1ad2b3474852b3544df55db948f8758cd
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 5ba42806d8f77f41ab9c5cf5e26b20ecb647aadf
+ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8692705"
+ms.lasthandoff: 05/19/2022
+ms.locfileid: "8780823"
 ---
 # <a name="quick-view-module"></a>Sparčiosios peržiūros modulis
 
@@ -60,8 +60,8 @@ Greito rodinio modulis gali būti įtrauktas į produkto kolekciją ir paieškos
 Norėdami įtraukti greito rodinio modulį į produkto kolekcijos modulį „Commerce“ saito kūrimo įrankyje, atlikite šiuos veiksmus.
 
 1. Eikite į **Puslapiai** ir tada rinkitės pagrindinį puslapį „Fabrikam“ saite.
-1. Eikite į bet kurį **Produkto kolekcijos** modulyje pagrindiniame puslapyje, rinkitės daugtaškį (**...**) ir tada rinkitės **Įtraukite modulį**.
-1. Teksto laukelyje **Įtraukti modulį** rinkitės **Greito rodinio** modulį ir tada rinkitės **Gerai**.
+1. Eikite į **bet kurį produktų** rinkinio modulį pagrindiniame puslapyje, pasirinkite daugtaškį (**...**), tada pasirinkite Įtraukti **modulį**.
+1. Dialogo lange **Pasirinkti modulius** pasirinkite modulį Spartusis **rodinys**, tada pasirinkite **Gerai**.
 1. Ypatybių juostoje **Greito rodinio** modulyje rinkitės **Antraštė**. Teksto laukelyje **Antraštė** nustatykite **Antraštės lygio** laukelį į **H2** ir tada rinkitės **Gerai**.
 1. Pasirinkite **Išsaugoti**, tada – **Baigti redagavimą**, kad užregistruotumėte puslapį, o tada pasirinkite **Publikuoti**, kad publikuotumėte jį.
 

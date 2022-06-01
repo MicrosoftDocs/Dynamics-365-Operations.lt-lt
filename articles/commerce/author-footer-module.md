@@ -2,7 +2,7 @@
 title: Poraštės modulis
 description: Šioje temoje aprašomi poraštės moduliai ir tai, kaip juos kurti programoje „Dynamics 365 Commerce“.
 author: anupamar-ms
-ms.date: 03/02/2022
+ms.date: 05/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 81db5cf32f23b7ee1ca8325eeec2e6ceafda55e0
-ms.sourcegitcommit: 90a553e271e7cd471fed2e4f006d753fdb67b47d
+ms.openlocfilehash: 542796ffce08694954d03878cd7782b01c2c6b27
+ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/03/2022
-ms.locfileid: "8374836"
+ms.lasthandoff: 05/19/2022
+ms.locfileid: "8780264"
 ---
 # <a name="footer-module"></a>Poraštės modulis  
 
@@ -46,15 +46,15 @@ Kaip ir dauguma konteinerių, poraštės modulis palaiko antraštės ir pločio 
 ## <a name="create-a-footer-module"></a>Kurti poraštės modulį
 
 1. Eikite į **Fragmentai** ir tuomet pasirinkite **Naujas** tam, kad sukurtumėte naują fragmentą.
-1. Dialogo lange **Naujas fragmentas** pasirinkite **Konteinerio** modulį, įveskite fragmento pavadinimą ir pasirinkite **Gerai**.
-1. Vietoje **Numatytasis konteineris** pasirinkite daugtaškį (**...**), tada – **Įtraukti modulį**.
-1. Dialogo lange **Įtraukti modulį** pasirinkite modulį **Poraštės kategorija** ir **Gerai**.
-1. Vietoje **Poraštės kategorija** pasirinkite daugtaškį (**...**), tada – **Įtraukti modulį**.
-1. Dialogo lange **Įtraukti modulį** pasirinkite modulį **Poraštės elementas** ir **Gerai**.
+1. Dialogo lange **Pasirinkti fragmentą** pasirinkite konteinerio **modulį**, įveskite fragmento pavadinimą, tada pasirinkite **Gerai**.
+1. Numatytame konteinerio **laiko** atminties atminties lape pasirinkite daugtaškį (**...**), tada pasirinkite Įtraukti **modulį**.
+1. Dialogo lange **Pasirinkti modulius** pasirinkite poraštės **kategorijos modulį**, tada pasirinkite **Gerai**.
+1. Poraštės **kategorijos laiko** atminties dalyje pasirinkite daugtaškį (**...**), tada pasirinkite Įtraukti **modulį**.
+1. Dialogo lange **Pasirinkti modulius** pasirinkite poraštės **elementų modulį** ir pasirinkite **Gerai**.
 1. Pasirinkite vietą **Poraštės elementas**, tada dešinėje esančioje ypatybių srityje pagal poreikį sukonfigūruokite antraštę, saitą ir saito tekstą bei vaizdą.
 1. Norėdami įtraukti daugiau poraštės elementų, kiekvienam elementui pakartokite 5–7 veiksmus.
-1. Norėdami į poraštę įtraukti saitą „grįžti į viršų“, pasirinkite vietoje **Poraštės kategorija** esantį daugtaškį (**...**), tada – **Įtraukti modulį**.
-1. Dialogo lange **Įtraukti modulį** pasirinkite modulį **Atgal į pradžią** ir **Gerai**.
+1. Norėdami į savo poraštę įtraukti saitą "atgal į viršų", pasirinkite daugtaškį (**...**) **poraštės kategorijos atminties** dalyje, **tada pasirinkite Įtraukti modulį**.
+1. Dialogo lange **Pasirinkti modulius** pasirinkite modulį **Atgal į viršų**, tada pasirinkite **Gerai**.
 1. Pasirinkite vietą **Atgal į pradžią**, tada dešinėje esančioje ypatybių srityje pagal poreikį sukonfigūruokite tekstą ir kitas modulio ypatybes.
 1. Pasirinkite **Baigti redagavimą**, kad užregistruotumėte fragmentą, o tada pasirinkite **Publikuoti**, kad publikuotumėte jį.
 

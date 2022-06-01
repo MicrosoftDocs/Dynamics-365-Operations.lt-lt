@@ -2,7 +2,7 @@
 title: Elektroninių ataskaitų (ER) formulių kūrimo įrankis
 description: Šioje temoje pateikiama informacija apie tai, kaip naudoti elektroninėse ataskaitose (ER) formulių kūrimo įrankį.
 author: NickSelin
-ms.date: 12/05/2019
+ms.date: 04/08/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: eec63fb1782c5afed0320eb841b6bfc92af31a691731ef6bac5d00ed442c0dcd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 606532411aa8297654d8d20a9061472597e773da
+ms.sourcegitcommit: 6c1bf233748c4bc70fc5a1a9711758cdfd9e07dc
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6777409"
+ms.lasthandoff: 05/19/2022
+ms.locfileid: "8782210"
 ---
 # <a name="formula-designer-in-electronic-reporting-er"></a>Elektroninių ataskaitų (ER) formulių kūrimo įrankis
 
@@ -41,7 +41,8 @@ Puslapį **Formulių konstruktorius** galite atidaryti atlikdami bet kurį iš t
 - Susiejus duomenų šaltinio elementus su duomenų modelio komponentais.
 - Susiejus duomenų šaltinio elementus su formato komponentais.
 - Atlikus apskaičiuotų laukų, kurie yra duomenų šaltinių dalis, priežiūrą.
-- Nurodžius vartotojo įvesties parametrų matomumo sąlygas.
+- Nustatykite vartotojo įvesties parametrų matomumo ir redagavimo sąlygas.
+- Apibrėžti numatytąsias vartotojo įvesties parametrų vertes.
 - Sukūrus formato pakeitimus.
 - Nurodžius formato komponentus įgalinančių sąlygas.
 - Nurodžius formato FILE komponentų failų vardus.

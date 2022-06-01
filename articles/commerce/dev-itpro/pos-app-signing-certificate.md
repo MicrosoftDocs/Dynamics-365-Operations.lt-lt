@@ -1,8 +1,8 @@
 ---
-title: Pasirašyti MPOS su kodo pasirašymo sertifikatu
+title: Pasirašyti MPOS .appx failą su kodo pasirašymo sertifikatu
 description: Šioje temoje paaiškinama, kaip pasirašyti MPOS naudojant kodo pasirašymo sertifikatą.
 author: mugunthanm
-ms.date: 05/11/2022
+ms.date: 05/27/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: tfehr
@@ -10,20 +10,21 @@ ms.custom: 28021
 ms.search.region: Global
 ms.author: mumani
 ms.search.validFrom: 2019-09-2019
-ms.openlocfilehash: e45961cf1ddb385d914b700d03bc95d07de47b68
-ms.sourcegitcommit: d70f66a98eff0a2836e3033351b482466bd9c290
+ms.openlocfilehash: 38c094de6f94381a809fdb68d2e76d410e406934
+ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/11/2022
-ms.locfileid: "8742586"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8811090"
 ---
-# <a name="sign-mpos-appx-with-a-code-signing-certificate"></a>Pasirašykite MPOS, naudodami kodo pasirašymo sertifikatą
+# <a name="sign-the-mpos-appx-file-with-a-code-signing-certificate"></a>Pasirašyti MPOS .appx failą su kodo pasirašymo sertifikatu
 
 [!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
 Norėdami įdiegti modernų EKA (MPOS) turite pasirašyti MPOS programą su patikimo tiekėjo kodo pasirašymo sertifikatu ir įdiegti tą patį sertifikatą visuose kompiuteriuose, kuriuose MPOS įdiegtas pagal patikimą dabartinio vartotojo šakninį aplanką.
 
-Norėdami pasirašyti MPOS programą su sertifikatu, naudokite **vieną iš šių pasirinkčių "Retail SDKBuild\\ toolCustomization.settings\\" faile**:
+Norėdami pasirašyti MPOS programą su sertifikatu, naudokite vieną iš šių parinkčių faile **Retail SDK\\Build tool\\Customization.settings**:
 
 - Įtraukite saugių failų užduoties dalį į kūrimo Azure DevOps veiksmus ir įkelkite sertifikatą, kad apsaugotumėte failo užduotį. Naudokite saugaus failo užduoties išvesties maršruto kintamąjį kaip parametrą faile Customization.settings.
 
@@ -42,7 +43,7 @@ Saugių failų užduoties naudojimas yra rekomenduojamas universaliosios Windows
 ![MPOS programos pasirašymo srautas.](media/POSSigningFlow.png)
 
 > [!NOTE]
-> Šiuo metu OOB pakuotė palaiko tik programos failo pasirašymą, skirtingos savitarnos diegimo programos, pvz., MPOIS, PSTU ir HWS, nėra pasirašiusios šio proceso. Turite rankiniu būdu pasirašyti jį naudodami SignTool ar kitus pasirašymo įrankius. Sertifikatas, naudojamas programos failui pasirašyti, turi būti įdiegtas kompiuteryje, kuriame įdiegtas "Modern POS".
+> Šiuo metu OOB pakuotė palaiko tik .appx failo pasirašymą, skirtingos savitarnos diegimo programos, pvz., MPOIS, PSTU ir HWS, nėra pasirašiusios šio proceso. Turite rankiniu būdu pasirašyti jį naudodami SignTool ar kitus pasirašymo įrankius. Sertifikatas, naudojamas .appx failui pasirašyti, turi būti įdiegtas kompiuteryje, kuriame įdiegtas "Modern POS".
 
 ## <a name="steps-to-configure-the-certificate-for-signing-in-azure-pipelines"></a>Registravimosi "Azure" pardavimo galimybėse sertifikato konfigūravimo veiksmai
 
@@ -51,21 +52,22 @@ Saugių failų užduoties naudojimas yra rekomenduojamas universaliosios Windows
 Atsisiųskite [DownloadFile](/visualstudio/msbuild/downloadfile-task) užduotį ir įtraukite ją kaip pirmą kūrimo proceso veiksmą. Saugių failų užduoties naudojimo pranašumas yra tai, kad kuriant failas yra užkoduojamas ir įdedamas į diską, nesvarbu, ar kurti pardavimo galimybes pavyko, ar ne, arba yra atšauktas. Baigus kūrimo procesą failas panaikinamas iš atsisiuntimo vietos.
 
 1. Atsisiųskite ir pridėkite saugaus failo užduotį kaip pirmą "Azure" pardavimo galimybių kūrimo veiksmą. Galite atsisiųsti saugaus failo užduotį iš [DownloadFile](https://marketplace.visualstudio.com/items?itemName=automagically.DownloadFile).
-2. Įkelkite sertifikatą į saugiojo failo užduotį ir nustatykite nuorodos pavadinimą išvesties kintamieji, kaip parodyta toliau pateiktame paveikslėlyje.
+1. Įkelkite sertifikatą į saugiojo failo užduotį ir nustatykite nuorodos pavadinimą išvesties kintamieji, kaip parodyta toliau pateiktame paveikslėlyje.
     > [!div class="mx-imgBorder"]
     > ![Failo saugos užduotis.](media/SecureFile.png)
-3. Sukurkite naują "Azure" pardavimo galimybių kintamąjį skirtuke **Kintamieji** **pasirinkdami Naujas kintamasis**.
-4. Vertės lauke pateikite kintamojo pavadinimą, pvz., **MySigningCert**.
-5. Įrašyti kintamąjį.
-6. Atidarykite **customization.settings** **failą iš RetailSDK\\BuildTools** **ir atnaujinkite ModernPOSPackageCertificateKeyFile** kintamojo pavadinimu, sukurtu pardavimo galimybėse (3 veiksmas). Pvz.:
+1. Sukurkite naują "Azure" pardavimo galimybių kintamąjį skirtuke **Kintamieji** **pasirinkdami Naujas kintamasis**.
+1. Vertės lauke pateikite kintamojo pavadinimą, pvz., **MySigningCert**.
+1. Įrašyti kintamąjį.
+1. Atidarykite **customization.settings** **failą iš RetailSDK\\BuildTools** **ir atnaujinkite ModernPOSPackageCertificateKeyFile** kintamojo pavadinimu, sukurtu pardavimo galimybėse (3 veiksmas). Pvz.:
 
     ```Xml
     <ModernPOSPackageCertificateKeyFile Condition="'$(ModernPOSPackageCertificateKeyFile)' ==''">$(MySigningCert)</ModernPOSPackageCertificateKeyFile>
     ```
     Šis veiksmas būtinas, jei sertifikatas nėra apsaugotas slaptažodis. Jei sertifikato slaptažodis apsaugotas, atlikite nurodytus veiksmus.
- 
-7. Pardavimo galimybių kintamųjų **skirtuke** pridėkite naują saugiojo teksto kintamąjį. Nustatykite pavadinimą **MySigningCert.secret** ir nustatykite sertifikato slaptažodžio vertę. Pasirinkti užrakto piktogramą kintamajam apsaugoti.
-8. Į pardavimo **galimybes įtraukite "** Powershell" scenarijaus užduotį (po atsisiuntimo saugio failo ir prieš kūrimo veiksmą). Pateikite **rodomą** pavadinimą ir nustatykite tipą kaip **eilučių skaičių**. Į scenarijaus skyrių nukopijuokite ir įklijuokite toliau nurodytus dalykus.
+    
+1. Jei norite laiko žymę MPOS .appx failui pasirašyti su sertifikatu, **atidarykite "Retail SDK\\ Build tool\\ Customization.settings** **" failą ir atnaujinkite "ModernPOSPackageCertificateTimes" kintamąjį** laiko žymos teikėju (pvz., `http://timestamp.digicert.com`).
+1. Pardavimo galimybių kintamųjų **skirtuke** pridėkite naują saugiojo teksto kintamąjį. Nustatykite pavadinimą **MySigningCert.secret** ir nustatykite sertifikato slaptažodžio vertę. Pasirinkti užrakto piktogramą kintamajam apsaugoti.
+1. Į pardavimo **galimybes įtraukite "** Powershell" scenarijaus užduotį (po atsisiuntimo saugio failo ir prieš kūrimo veiksmą). Pateikite **rodomą** pavadinimą ir nustatykite tipą kaip **eilučių skaičių**. Į scenarijaus skyrių nukopijuokite ir įklijuokite toliau nurodytus dalykus.
 
     ```powershell
     Write-Host "Start adding the PFX file to the certificate store."
@@ -74,7 +76,7 @@ Atsisiųskite [DownloadFile](/visualstudio/msbuild/downloadfile-task) užduotį 
     Import-PfxCertificate -FilePath $pfxpath -CertStoreLocation Cert:\CurrentUser\My -Password $secureString
     ```
 
-9. Atidarykite **customization.settings** **failą iš RetailSDK\\BuildTools** **ir atnaujinkite ModernPOSPackageCertificateThumbprint** sertifikato nykščio atspaudo reikšmę.
+1. Atidarykite **customization.settings** **failą iš RetailSDK\\BuildTools** **ir atnaujinkite ModernPOSPackageCertificateThumbprint** sertifikato nykščio atspaudo reikšmę.
 
     ```Xml
        <ModernPOSPackageCertificateThumbprint Condition="'$(ModernPOSPackageCertificateThumbprint)' == ''"></ModernPOSPackageCertificateThumbprint>
@@ -82,10 +84,9 @@ Atsisiųskite [DownloadFile](/visualstudio/msbuild/downloadfile-task) užduotį 
  
 Informacijos apie tai, kaip gauti sertifikato nykščio atspaudą, ieškokite [nuskaitykite sertifikato nykščio atspaudą](/dotnet/framework/wcf/feature-details/how-to-retrieve-the-thumbprint-of-a-certificate#to-retrieve-a-certificates-thumbprint). 
 
- 
 ## <a name="download-or-generate-a-certificate-to-sign-the-mpos-app-manually-using-msbuild-in-sdk"></a>Atsisiųskite arba sugeneruokite sertifikatą, norėdami pasirašyti MPOS programą rankiniu būdu, naudodami msbuild SDK
 
-Jei atsisiųstas arba sugeneruotas sertifikatas naudojamas MPOS programai pasirašyti, **tada atnaujinkite mazgą ModernPOSPackageCertificateKeyFile** **, nurodytą BuildToolsCustomization.settings\\ faile**, kad būtų galima nurodyti pfx failo vietą (**$(SdkReferencesPath)\\ appxsignkey.pfx**). Pvz.:
+Jei atsisiųstas arba sugeneruotas sertifikatas naudojamas MPOS programai pasirašyti, **tada atnaujinkite mazgą ModernPOSPackageCertificateKeyFile** **, nurodytą BuildTools\\ Customization.settings faile**, kad būtų galima nurodyti pfx failo vietą (**$(SdkReferencesPath)\\ appxsignkey.pfx**). Pvz.:
 
 ```xml
 <ModernPOSPackageCertificateKeyFile Condition="'$(ModernPOSPackageCertificateKeyFile)' ==''">$(SdkReferencesPath)\appxsignkey.pfx</ModernPOSPackageCertificateKeyFile>

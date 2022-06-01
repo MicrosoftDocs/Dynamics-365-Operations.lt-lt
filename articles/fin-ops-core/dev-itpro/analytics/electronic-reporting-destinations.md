@@ -2,7 +2,7 @@
 title: Elektroninių ataskaitų (ER) paskirties vietos
 description: Šioje temoje pateikiama informacija apie elektroninių ataskaitų paskirties vietų valdymą, palaikomų paskirties vietų tipus ir saugumo klausimus.
 author: nselin
-ms.date: 09/16/2021
+ms.date: 05/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: e8e176b8d4e14eee2050b3c66f7547ff878b5174
-ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.openlocfilehash: e3154cb62531bf956365b420b454c98ead7f7335
+ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "7647098"
+ms.lasthandoff: 05/19/2022
+ms.locfileid: "8780466"
 ---
 # <a name="electronic-reporting-er-destinations"></a>Elektroninių ataskaitų (ER) paskirties vietos
 
@@ -45,9 +45,9 @@ Arba galite įdiegti vieną iš toliau nurodytų būtinųjų komponentų. Tačia
 - „Microsoft Dynamics AX“ 7.0.1 programos versija (2016 m. gegužės mėn.)
 - [Elektroninių ataskaitų paskirties vietų valdymo programos karštosios pataisos](https://fix.lcs.dynamics.com/issue/results/?q=3160213)
 
-Taip pat yra paskirties vietos tipas [Spausdinti](er-destination-type-print.md). Norėdami jį naudoti, turite įdiegti „Microsoft Dynamics 365 Finance“ 10.0.9 versiją (2020 m. balandžio mėn. leidimą).
+Taip pat yra paskirties vietos tipas [Spausdinti](er-destination-type-print.md). Norėdami ją naudoti, turite įdiegti Microsoft Dynamics 365 finansų versiją 10.0.9 (2020 m. balandžio mėn.).
 
-## <a name="overview"></a>Peržiūrėti
+## <a name="overview"></a>Apžvalga
 
 Paskirties vietas galite nustatyti tik į dabartinį „Finance“ egzempliorių [importuotoms](general-electronic-reporting.md#importing-an-er-component-from-lcs-to-use-it-internally) ER konfigūracijoms ir tik tokiems formatams, kurie pateikti puslapyje **Elektroninių ataskaitų konfigūracijos**. ER paskirties vietų valdymo funkciją galima rasti pasirinkus **Organizacijos administravimas** \> **Elektroninės ataskaitos** \> **Elektroninių ataskaitų paskirties vieta**.
 
@@ -173,11 +173,11 @@ Norėdami, kad PDF konvertavimo parinktis būtų prieinama dabartiniame „Finan
 
 ### <a name="limitations"></a>Apribojimai
 
-PDF konvertavimo parinktis galima tik debesies diegimams.
+Kaip ir finansinės **versijos 10.0.9** PDF konvertavimo pasirinktis galima tik diegiant debesį. **Nuo 10.0.27** finansų versijos PDF konvertavimo pasirinktis galima naudoti bet kokiam vietiniam diegimui, kuris [įgalinamas interneto](../user-interface/client-disconnected.md) ryšį.
 
 Didžiausias gaunamo PDF dokumento dydis yra 300 puslapių.
 
-„Finance” **10.0.9 versijoje** PDF dokumente, gaunamame naudojant „Excel“ išvestį, palaikoma tik gulsčia puslapio padėtis. „Finance” **10.0.10 versijoje (2020 m. gegužės mėn) ir naujesnėse** galite [nurodyti puslapio padėtį](#SelectPdfPageOrientation) PDF dokumente, sukurtame naudojant „Excel” išvestį, kol konfigūruojate ER paskirties vietą.
+Kaip ir finansų **10.0.9** PDF dokumente, kuris sukurtas iš Excel išvesties, palaikoma tik gulsčio puslapio padėtis. Pradėdami finansų **10.0.10** galite nurodyti PDF dokumento, [kuris](#SelectPdfPageOrientation) gaminamas iš Excel išvesties, puslapio padėtį konfigūruojate ER paskirties vietą.
 
 Tik įprasti „Windows“ operacinės sistemos šriftai naudojami konvertuoti išvestį, kurioje nėra įdėtųjų šriftų.
 

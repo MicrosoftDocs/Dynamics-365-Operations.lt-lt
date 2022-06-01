@@ -2,7 +2,7 @@
 title: Produktų ir klientų paieška elektroniniame kasos aparate (EKA)
 description: Šioje temoje apžvelgiama, kaip patobulinta „Dynamics 365 Commerce“ produktų ir klientų ieškos funkcija.
 author: ShalabhjainMSFT
-ms.date: 10/26/2021
+ms.date: 05/25/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: 022dcaca9bb3c9e7e749ee143702325367e5149b
-ms.sourcegitcommit: f8b597b09157d934b62bd5fb9a4d05b8f82b5a0e
+ms.openlocfilehash: 460c7d3b00421ba43414f7343887edf9b8adad9c
+ms.sourcegitcommit: 9dd2d32fc303023a509d58ec7b5935f89d1e9c6d
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/26/2021
-ms.locfileid: "7700094"
+ms.lasthandoff: 05/26/2022
+ms.locfileid: "8806433"
 ---
 # <a name="product-search-and-customer-search-in-the-point-of-sale-pos"></a>Produktų ir klientų paieška elektroniniame kasos aparate (EKA)
 
@@ -106,6 +106,8 @@ Norėdamas nustatyti paieškos kriterijus kaip nuorodas, administratorius turi a
 > Jei įtrauksite per daug nuorodų, EKA ieškos juostos išplečiamasis meniu bus perpildytas ir darbuotojui gali būti sunkiau ieškoti informacijos. Rekomenduojame įtraukti tik tiek nuorodų, kaip jums reikia.
 
 Lauke **Rodymo tvarka** laukas nurodoma tvarka, kuria nuorodos rodomos EKA. Rodomi kriterijai yra paruoštos naudoti ypatybės, kurias kliento ieškos algoritmas naudoja klientams ieškoti. Tačiau partneriai kaip ieškos nuorodas gali įtraukti pasirinktinių ypatybių. Norėdamas kaip ieškos nuorodas įtraukti pasirinktinių ypatybių, sistemos administratorius turi išplėsti išplečiamąjį išvardijimą (išvardijimas), kuris naudojamas kliento ieškos kriterijams nustatyti, ir tada pažymėti partnerio pasirinktines ypatybes kaip nuorodas. Partneriai yra atsakingi už kodą rašymą rezultatams rasti, kai ieškose naudojamos jų pasirinktinės nuorodos.
+
+Jei norite, kad nuorodos būtų atvaizduotos EKA, reikia sparčiųjų klavišų vertimo. Jei jūsų kanalo kalba skiriasi nuo sistemos numatytosios kalbos, turite nustatyti kiekvienos nuorodos vertimą į numatomą kalbą. Vertimus galite nustatyti pasirinkdami Versti **kiekvienai** nuorodai. 
 
 > [!NOTE]
 > Į išvardijimą įtraukta pasirinktinė ypatybė, neturi įtakos standartiniam klientų ieškos algoritmui. Kitaip tariant, klientų ieškos algoritmas neieškos pasirinktinėje ypatybėje. Vartotojai ieškodami gali naudoti pasirinktines ypatybes tik jei tos pasirinktinės ypatybės yra įtrauktos kaip nuorodos arba jei numatytasis ieškos algoritmas yra perrašytas.

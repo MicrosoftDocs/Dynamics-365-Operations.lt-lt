@@ -2,7 +2,7 @@
 title: Įmonės katalogo mobilioji darbo sritis
 description: Šioje temoje pateikiama informacija apie įmonės katalogo mobiliąją darbo sritį, kurią naudodami vartotojai gali peržiūrėti duomenis apie kitus organizacijos darbuotojus ir su jais susisiekti.
 author: jcart1106
-ms.date: 09/17/2019
+ms.date: 05/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,22 +12,23 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 2152d89e7d60a74e8d7561ea888e60cff42dd1ffd0ec697fac371aad9b85383c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b754e46f194f60cc70d02367d4cca2a382821191
+ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720653"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8811545"
 ---
 # <a name="company-directory-mobile-workspace"></a>Įmonės katalogo mobilioji darbo sritis
 
 [!include [banner](../includes/banner.md)]
+[!include [mobile app deprecation](../includes/mobile-app-deprecation-banner.md)]
 
 Šioje temoje pateikiama informacija apie mobiliąją darbo sritį **Įmonės katalogas**. Naudodami šią darbo sritį vartotojai gali peržiūrėti duomenis apie kitus organizacijos darbuotojus ir su jais susisiekti.
 
 Šią mobiliąją darbo sritį galima naudoti kartu su mobiliąja programa „Finance and Operations“.
 
-## <a name="overview"></a>Peržiūrėti
+## <a name="overview"></a>Apžvalga
 Naudodami mobiliąją darbo sritį **Įmonės katalogas** vartotojai gali atlikti šias užduotis:
 
 - Peržiūrėti organizacijos darbuotojų sąrašą.
@@ -49,12 +50,12 @@ Tam, kad galėtumėte naudoti šią mobiliąją darbo sritį, turi būti laikoma
 <tbody>
 <tr class="odd">
 <td>Jūsų organizacijoje turi būti įdiegtas vienas iš šių produktų:
-<ul><li>Programa „Finance and Operations“</li>
+<ul><li>„Finance and Operations” programa</li>
 <li>„Microsoft Dynamics 365 Human Resources“</li>
 </ul>
 </td>
 <td>Sistemos administratorius</td>
-<td>Jeigu jūsų organizacijoje dar neįdieg&#39;ta programa „Finance and Operations“, žr. <a href="../deployment/deploy-demo-environment.md">Demonstracinės aplinkos diegimas</a>. Jeigu jūsų organizacijoje dar neįdiegt&#39;a programa „Human Resources“, sistemos administratorius gali naudoti <a href="https://dynamics.microsoft.com/human-resources/overview/">„Human Resources“ tinklalapyje</a> esančią bandomąją versiją.
+<td>Jeigu jūsų organizacijoje dar neįdiegta programa „Finance and Operations“, žr. <a href="../deployment/deploy-demo-environment.md">Demonstracinės aplinkos diegimas</a>. Jeigu jūsų organizacijoje dar neįdiegt&#39;a programa „Human Resources“, sistemos administratorius gali naudoti <a href="https://dynamics.microsoft.com/human-resources/overview/">„Human Resources“ tinklalapyje</a> esančią bandomąją versiją.
 </td>
 </tr>
 <tr class="even">
@@ -66,7 +67,7 @@ Tam, kad galėtumėte naudoti šią mobiliąją darbo sritį, turi būti laikoma
 </table>
 
 ## <a name="download-and-install-the-mobile-app"></a>Mobiliosios programos atsisiuntimas ir diegimas
-Mobiliosios programos „Finance and Operations“ atsisiuntimas ir diegimas.
+Atsisiųskite ir įdiekite mobiliąją programą „Finance and Operations”.
 
 -   [„Android“ telefonams](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [„iPhone“ telefonams](https://go.microsoft.com/fwlink/?linkid=850663)

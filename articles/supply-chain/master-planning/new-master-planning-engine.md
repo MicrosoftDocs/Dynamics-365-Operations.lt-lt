@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: benebotg
 ms.search.validFrom: 2020-11-05
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 20e48fee237615c7b1acdb564e5e524d393f8eba
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 598e29ead50e1ecb249a7338c7f0952a912b4f69
+ms.sourcegitcommit: cbe9493d479f96f271d94599ec1b85131b26169f
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8469903"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "8809101"
 ---
 # <a name="migration-to-planning-optimization-for-master-planning"></a>Perkėlimas į „Planning Optimization“ pagrindiniam planavimui
 
@@ -47,7 +47,7 @@ Kaip buvo minėta, versijoje 10.0.16 ir vėlesnėje versijoje gausite klaidos pr
 
 ### <a name="new-deployments"></a>Nauji diegimai
 
-„Planning Optimization“ turi būti laikomas numatytuoju pagrindinio planavimo variklius visiems diegimams debesyje. Bendrai, „Planning Optimization“ turi būti naudojamas visiems diegimams, kurie nekuria suplanuotų gamybos užsakymų pagrindinio planavimo metu. Jei naujas diegimas priklauso nuo funkcijų, kurios „Planning Optimization“ šiuo metu nepalaikomos, galite reikalauti išimties taip, kad tęstumėte naudoti sukurtą pagrindinį planavimo variklį.
+Planavimo optimizavimas turi būti laikomas numatytuoju bendrojo planavimo moduliu visiems naujiems diegimams debesyje. Bendrai, „Planning Optimization“ turi būti naudojamas visiems diegimams, kurie nekuria suplanuotų gamybos užsakymų pagrindinio planavimo metu. Jei naujas diegimas priklauso nuo funkcijų, kurios „Planning Optimization“ šiuo metu nepalaikomos, galite reikalauti išimties taip, kad tęstumėte naudoti sukurtą pagrindinį planavimo variklį.
 
 ### <a name="existing-deployments"></a>Esantys diegimai
 
@@ -63,7 +63,7 @@ Galite prašyti išlygos, jei turite tęsti naudoti sukurtus pagrindinį planavi
 
 Po to, kai būtinos funkcijos tampa būtinos, „Microsoft“ pateiks pereinamąjį laikotarpį, kol išlyga pasibaigs. Aplinkos administratorius bus informuotas, kai būtinos funkcijos bus prieinamos ir pereinamasis laikotarpis prasidės.
 
-Šioje struktūrinėje schemoje apibendrinama šioje temoje pateikiama informacija, kad galėtumėte greitai sužinoti, ar jums reikėtų pateikti išimties užklausą. Jeigu jums reikia pateikti išimties užklausą, prašome užpildyti ir pateikti [Optimizavimo planavimo perkėlimo ir išimčių klausimyną](https://go.microsoft.com/fwlink/?linkid=2144962).
+Šioje struktūrinėje schemoje apibendrinama šioje temoje pateikiama informacija, kad galėtumėte greitai sužinoti, ar jums reikėtų pateikti išimties užklausą. Jeigu jums reikia pateikti išimties užklausą, prašome užpildyti ir pateikti [Optimizavimo planavimo perkėlimo ir išimčių klausimyną](https://go.microsoft.com/fwlink/?linkid=2144962). Produktų grupė yra atsakinga už kiekvienos išimties užklausos vertinimą ir t. t., pateikite savo prašymą tiesiogiai produktų grupei naudodami pateiktą saitą ir nesukurkite palaikymo kvito. Jei jūsų prašymas atmestas, nesukurkite palaikymo kvito, nes "Microsoft Support" negali iš naujo įvertinti ar suteikti išimčių.
 
 ![Išimčių struktūrinė schema.](media/exception-diagram.png "Išimčių struktūrinė schema")
 

@@ -2,7 +2,7 @@
 title: Mobilioji darbo sritis Pirkimo užsakymų tvirtinimas
 description: Šioje temoje pateikiama informacijos apie mobiliąją darbo sritį Pirkimo užsakymų tvirtinimas, kurioje galite peržiūrėti pirkimo užsakymus ir į juos reaguoti veiksmais. Pavyzdžiui, pirkimo užsakymą galite patvirtinti arba atmesti.
 author: GalynaFedorova
-ms.date: 12/01/2017
+ms.date: 05/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,16 +14,17 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 32c22d582c0af03482767d335b824ccbe81ee607
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: b0bdcb2f6db95ae061e786365d22cdf74643d09e
+ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8674315"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8811818"
 ---
 # <a name="purchase-order-approval-mobile-workspace"></a>Mobilioji darbo sritis Pirkimo užsakymų tvirtinimas
 
 [!include [banner](../includes/banner.md)]
+[!include [mobile app deprecation](../../fin-ops-core/dev-itpro/includes/mobile-app-deprecation-banner.md)]
 
 Šioje temoje pateikiama informacijos apie mobiliąją darbo sritį **Pirkimo užsakymų tvirtinimas**. Šioje darbo srityje galite peržiūrėti pirkimo užsakymus ir į juos reaguoti veiksmais. Pavyzdžiui, pirkimo užsakymą galite patvirtinti arba atmesti.
  

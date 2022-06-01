@@ -2,7 +2,7 @@
 title: Mobilioji darbo sritis Sąskaitos faktūros tvirtinimas
 description: Šioje temoje pateikiama informacija apie mobiliąją darbo sritį Sąskaitos faktūros tvirtinimas
 author: abruer
-ms.date: 12/01/2017
+ms.date: 05/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,22 +12,23 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 0d19e99776f04eab28eb7371bc0ac90ac046b62af0ad785fd3ab28309cae43ab
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 08775a574bcd57948c6bf6a634d822b32112f782
+ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6759985"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8811364"
 ---
 # <a name="invoice-approvals-mobile-workspace"></a>Mobilioji darbo sritis Sąskaitos faktūros tvirtinimas
 
 [!include [banner](../includes/banner.md)]
+[!include [mobile app deprecation](../includes/mobile-app-deprecation-banner.md)]
 
 Šioje temoje pateikiama informacija apie mobiliąją darbo sritį **Sąskaitos faktūros tvirtinimas**. Šioje darbo srityje pateikiamas sąskaitų faktūrų, kurios buvo jums priskirtos tiekėjo SF antraštės darbo eigos procese, sąrašas. 
 
-Ši mobili darbo sritis skirta naudoti kartu su mobiliųjų įrenginių programėle „Finance and Operations“.
+Ši mobilioji darbo sritis skirta naudoti kartu su mobiliąja programa „Finance and Operations“.
 
-## <a name="overview"></a>Peržiūra
+## <a name="overview"></a>Apžvalga
 
 Mobilioji darbo sritis **Sąskaitos faktūros tvirtinimas** leidžia mokėtinų sumų tarnautojams ir vadovams peržiūrėti sąskaitas faktūras, jiems priskirtas vykdant tiekėjo SF antraštės darbo eigos procesą. Galite peržiūrėti sąskaitos faktūros informaciją, ir netgi eilutės bei paskirstymo informaciją, kad galėtumėte priimti pagrįstus sprendimus dėl patvirtinimo. Darbo srityje galite atlikti veiksmus ir perkelti sąskaitą faktūrą darbo eigos procese. 
 
@@ -45,7 +46,7 @@ Tam, kad galėtumėte naudoti šią mobiliąją darbo sritį, turi būti laikoma
 </thead>
 <tbody>
 <tr class="odd">
-<td>Jūsų organizacijoje turi būti visuotinai įdiegta „Microsoft Dynamics 365 Finance“.</td>
+<td>Microsoft Dynamics 365 finansai turi būti įdiegti jūsų organizacijoje.</td>
 <td>Sistemos administratorius</td>
 <td>Žr. <a href="../deployment/deploy-demo-environment.md">Demonstracinės aplinkos diegimas</a>.
 </td>
@@ -60,7 +61,7 @@ Tam, kad galėtumėte naudoti šią mobiliąją darbo sritį, turi būti laikoma
 
 ## <a name="download-and-install-the-mobile-app"></a>Mobiliosios programos atsisiuntimas ir diegimas
 
-Mobiliosios programos „Finance and Operations“ atsisiuntimas ir diegimas.
+Atsisiųskite ir įdiekite mobiliąją programą „Finance and Operations”.
 
 -   [„Android“ telefonams](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [„iPhone“ telefonams](https://go.microsoft.com/fwlink/?linkid=850663)

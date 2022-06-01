@@ -1,22 +1,22 @@
 ---
-title: Kurti B2B svetainių "Commerce" katalogus
+title: B2B svetainių „Commerce“ katalogų kūrimas
 description: Šioje temoje aprašoma, kaip sukurti "Commerce" Microsoft Dynamics 365 Commerce katalogus "business-to-business" (B2B) svetainėms.
 author: ashishmsft
-ms.date: 04/28/2022
+ms.date: 05/18/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2022-02-28
-ms.openlocfilehash: 868f6bbeefeb1698bb136d52c09cebf293c95731
-ms.sourcegitcommit: 0abc777986112ea2332f5bf0e815b303b952356c
+ms.openlocfilehash: 7382062706c2de01c499ee05aeb0b45ff6fb37cb
+ms.sourcegitcommit: bca0cb730307948368a9aabe322cf963688ed8b1
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8657198"
+ms.lasthandoff: 05/19/2022
+ms.locfileid: "8782842"
 ---
-# <a name="create-commerce-catalogs-for-b2b-sites"></a>Kurti B2B svetainių "Commerce" katalogus
+# <a name="create-commerce-catalogs-for-b2b-sites"></a>B2B svetainių „Commerce“ katalogų kūrimas
 
 [!include [banner](includes/banner.md)]
 [!include [banner](includes/preview-banner.md)]
@@ -24,7 +24,7 @@ ms.locfileid: "8657198"
 Šioje temoje aprašoma, kaip sukurti "Commerce" produktų Microsoft Dynamics 365 Commerce katalogus "Business-To-Business" (B2B) svetainėms. Atsakymus į dažnai užduodamus klausimus apie B2B svetainių "Commerce" katalogus žr [. B2B DUK "Commerce" kataloguose](catalogs-b2b-sites-FAQ.md).
 
 > [!NOTE]
-> Ši tema taikoma Dynamics 365 Commerce 10.0.26 ir vėlesniams leidimams.
+> Ši tema taikoma Dynamics 365 Commerce 10.0.27 ir vėlesniams leidimams.
 
 Norėdami identifikuoti produktus, kuriuos norite pasiūlyti savo B2B interneto parduotuvėse, galite naudoti "Commerce" katalogus. Kai sukuriate katalogą, identifikuojate interneto parduotuves, kurių produktai yra siūlomi, įtraukiate norimus įtraukti produktus ir pagerinate produktų siūlymas įtraukdami prekybos informaciją. Galite sukurti kelis katalogus kiekvienai B2B interneto parduotuvei.
 
@@ -42,7 +42,7 @@ Norėdami identifikuoti produktus, kuriuos norite pasiūlyti savo B2B interneto 
 - **Kainų grupės** – galite konfigūruoti konkretaus katalogo kainas ir akcijas. Ši galimybė yra pagrindinė B2B kanalo katalogo nustatymo priežastis. Katalogų kainų grupės leidžia organizacijoms gauti produktus savo numatytose B2B organizacijose ir taikyti pageidaujamą kainodarą ir nuolaidas. B2B klientai, kurie užsakė iš sukonfigūruoto katalogo, gali gauti specialių kainų ir akcijų po to, kai jie prisiregistruoja prie "Commerce B2B" svetainės. Norėdami konfigūruoti konkretaus katalogo kainas, skirtuke **·** **Katalogai** pasirinkite Kainų grupes, kad vieną ar daugiau kainų grupių susiekite su katalogu. Visos prekybos sutartys, kainos koregavimo žurnalai ir išplėstinės nuolaidos, susietos su ta pačia kainų grupe, bus taikomos klientų užsakymams iš to katalogo. (Išplėstinės nuolaidos apima ribinę vertę, kiekį ir nuolaidas prekių kiekiui.) Daugiau informacijos apie kainų grupes žr. Kainos [grupės](price-management.md#price-groups).
 
 > [!NOTE]
-> Šią funkciją galima naudoti kaip Dynamics 365 Commerce 10.0.26 versijos leidimą. Norėdami konfigūruoti katalogui skirtas konfigūracijas, pvz., naršymo hierarchiją ir klientų hierarchiją, **·** "Commerce Headquarters" atidarykite funkcijų valdymo darbo sritį (**Sistemos administravimo \>\> darbo sričių funkcijų valdymas**),**įgalinkite** kelių katalogų naudojimą mažmeninės prekybos kanalų funkcijai ir **paleiskite 1110 CDX** užduotį.
+> Šią funkciją galima naudoti su Dynamics 365 Commerce 10.0.27 versija. Norėdami konfigūruoti katalogui skirtas konfigūracijas, pvz., naršymo hierarchiją ir klientų hierarchiją, **·** "Commerce Headquarters" atidarykite funkcijų valdymo darbo sritį (**Sistemos administravimo \>\> darbo sričių funkcijų valdymas**),**įgalinkite** kelių katalogų naudojimą mažmeninės prekybos kanalų funkcijai ir **paleiskite 1110 CDX** užduotį.
 
 ## <a name="catalog-process-flow"></a>Katalogo proceso srautas
 
@@ -141,6 +141,6 @@ Kai katalogo būsena yra **Patvirtinta**, galite jį publikuoti **meniu Kataloga
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
-["Commerce" katalogų išorinis poveikis B2B tinkinimais](catalogs-b2b-sites-dev.md)
+[„Commerce“ katalogų išplečiamumo poveikis, skirtas B2B tinkinimams](catalogs-b2b-sites-dev.md)
 
-[DUK B2B komercijos katalogai](catalogs-b2b-sites-FAQ.md)
+[B2B DUK svetainių „Commerce“ katalogai](catalogs-b2b-sites-FAQ.md)

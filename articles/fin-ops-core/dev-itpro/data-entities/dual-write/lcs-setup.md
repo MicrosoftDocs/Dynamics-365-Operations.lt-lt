@@ -2,19 +2,19 @@
 title: Dvigubo rašymo sąranka iš „Lifecycle Services“
 description: Šioje temoje paaiškinama, kaip nustatyti dvigubo rašymo ryšį iš „Microsoft Dynamics Lifecycle Services” (LCS).
 author: laneswenka
-ms.date: 08/03/2021
+ms.date: 05/16/2022
 ms.topic: article
 audience: Application User, IT Pro
 ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 825d6a4b3462077d0f4b3f4275792ea0fe5152df
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 53e82fbf8cff834c9eb0d14a0597561158b85fa1
+ms.sourcegitcommit: 6744cc2971047e3e568100eae338885104c38294
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8063677"
+ms.lasthandoff: 05/20/2022
+ms.locfileid: "8783207"
 ---
 # <a name="dual-write-setup-from-lifecycle-services"></a>Dvigubo rašymo sąranka iš „Lifecycle Services“
 
@@ -26,12 +26,12 @@ ms.locfileid: "8063677"
 
 ## <a name="prerequisites"></a>Būtinieji komponentai
 
-Turite užbaigti „Power Platform” integravimą, kaip aprašyta šiose temose:
+Klientai turi užbaigti integravimą Power Platform, kaip aprašyta šiose temose:
 
-+ [„Power Platform” Integravimas – Įgalinti aplinkos diegimo metu](../../power-platform/enable-power-platform-integration.md#enable-during-deploy)
-+ [„Power Platform” Integravimas – Įgalinti po aplinkos diegimo](../../power-platform/enable-power-platform-integration.md#enable-after-deploy)
+- Jei dar nenaudosite ir norite Microsoft Power Platform išplėsti savo finansų ir operacijų aplinkas įtraukdami platformos pajėgumus, [Power Platform žr. Integravimas – Įgalinti diegiant aplinką](../../power-platform/enable-power-platform-integration.md#enable-during-deploy).
+- Jei jau turite ir aplinkas Dataverse Power Platform, ir norite jas sujungti su finansų ir operacijų aplinka, [Power Platform žr. integravimą – Įgalinti po aplinkos diegimo](../../power-platform/enable-power-platform-integration.md#enable-after-deploy).
 
-## <a name="set-up-dual-write-for-new-dataverse-environments"></a>Dvigubo rašymo nustatymas naujoms „Dataverse” aplinkoms
+## <a name="set-up-dual-write-for-new-or-existing-dataverse-environments"></a>Nustatyti dvigubo rašymo naujam arba esamai aplinkai Dataverse sąlygas
 
 Norėdami nustatyti dvigubą rašymą iš LCS **Aplinkos informacijos** puslapio, atlikite šiuos veiksmus:
 
@@ -53,30 +53,21 @@ Norėdami nustatyti dvigubą rašymą iš LCS **Aplinkos informacijos** puslapio
 
     :::image type="content" source="media/powerplat_integration_step3.png" alt-text="Saitas į Power Platform aplinką.":::
 
-8. Užbaigus susiejimą, rodomas hipersaitas. Naudokite nuorodą, kad prisijungtumėte prie dvigubo rašymo administravimo srities „Finance and Operations“ aplinkoje. Iš ten galite nustatyti objektų susiejimus.
-
-## <a name="set-up-dual-write-for-an-existing-dataverse-environment"></a>Dvigubo rašymo nustatymas esamai „Dataverse” aplinkai
-
-Norėdami nustatyti dvigubą rašymą esamai „Dataverse” aplinkai, turite sukurti „Microsoft” [palaikymo kvitą](../../lifecycle-services/lcs-support.md). Į kvitą turi būti įtraukta:
-
-+ Jūsų finansų ir operacijų aplinkos ID.
-+ Jūsų aplinkos pavadinimas iš „Lifecycle Services”.
-+ „Dataverse” organizacijos ID arba „Power Platform” aplinkos ID iš „Power Platform” administravimo centro. Savo kvite pateikite užklausą, kad ID būtų egzempliorius, naudotas „Power Platform” integravimui.
-
-> [!NOTE]
-> Negalite atsieti aplinkos naudodami LCS. Norėdami atsieti aplinką, atidarykite **Duomenų integravimas** darbo sritį „Finance and Operations“ aplinkoje, tada pasirinkite **Atsieti**.
+8. Užbaigus susiejimą, rodomas hipersaitas. Norėdami prisijungti prie dvigubo rašymo administravimo srities finansų ir operacijų aplinkoje, naudokite saitą. Iš ten galite nustatyti objektų susiejimus.
 
 ## <a name="linking-mismatch"></a>Susiejimų neatitikimas
 
-Gali būti, kad jūsų LCS aplinka susieta su vienu „Dataverse“ egzemplioriumi, o jūsų dvigubo rašymo aplinka susieta su kitu „Dataverse“ egzemplioriumi. Šis susiejimo neatitikimas gali sukelti netikėtą veikimo būdą ir gali baigtis duomenų siuntimą į netinkamą aplinką. Dvigubo rašymo atveju rekomenduojama aplinka yra ta, kuri sukurta kaip integravimo dalis, ir ilgalaikio, tai bus vienintelis būdas nustatyti ryšį „Power Platform“ tarp aplinkos.
+Gali būti, kad jūsų dvigubo rašymo aplinka susieta su egzemplioriumi Dataverse, o LCS nėra nustatyta integruoti Power Platform. Šis susiejimo neatitikimas gali sukelti netikėtą veikimo būdą. Rekomenduojama, kad LCS aplinkos informacija atitiktų tai, prie ko esate prisijungę dvigubo rašymo būdu, kad tą patį ryšį galėtų naudoti verslo įvykiai, virtualios lentelės ir priedai.
 
-Jei jūsų aplinkoje yra susiejimų neatitikimas, LCS rodo įspėjimą jūsų aplinkos informacijos puslapyje, panašią į „Microsoft" aptiko, kad jūsų aplinka susieta su dvigubo rašymo vieta į kitą paskirties vietą, nei nurodyta integravimą; tai „Power Platform“ nerekomenduojama":
+Jei jūsų aplinkoje yra susiejimų neatitikimas, LCS rodo perspėjimą, panašią į šį jūsų aplinkos informacijos puslapį: "Microsoft Power Platform " aptiko, kad jūsų aplinka susieta naudojant dvigubo rašymo paskirtį į kitą paskirties vietą, nei nurodyta integravimui; nerekomenduojama."
 
 :::image type="content" source="media/powerplat_integration_mismatchLink.png" alt-text="Power Platform nesutampa integravimo saitas.":::
 
-Aptinkant šią klaidą yra dvi pasirinktys, paremtos jūsų poreikiais:
+Jei gaunate šį perspėjimą, bandykite naudoti vieną iš šių sprendimų:
 
-+ [Atsiekite ir atsiekite dvigubo rašymo aplinkas (iš naujo nustatykite arba keiskite susiejimą), kaip nurodyta](relink-environments.md#scenario-reset-or-change-linking) LCS aplinkos informacijos puslapyje. Tai geriausia pasirinktis, kadangi galite ją vykdyti be „Microsoft“ palaikymo.  
-+ Jei norite išsaugoti savo saitą dvigubo rašymo metu, galite paprašyti pagalbos iš „Microsoft" palaikymo, kad pakeist būtų galima pakeisti integravimą, kad jūsų esama aplinka būtų naudojama kaip „Power Platform“ ir „Dataverse“ dokumentuota ankstesniame skyriuje.  
+- Jei jūsų LCS Power Platform aplinka niekada nebuvo nustatyta integruoti, galite prisijungti prie egzemplioriaus, Dataverse sukonfigūruoto naudojant dvigubo rašymo procesą, naudodami šiame straipsnyje pateiktas instrukcijas.
+- Jei jūsų LCS Power Platform aplinka jau nustatyta integruoti, turite atsieti dvigubo rašymo ir iš naujo prisijungti prie tos, kurią nurodė LCS [naudodamas scenarijų: iš naujo nustatykite arba pakeiskite susiejimą](relink-environments.md#scenario-reset-or-change-linking).
+
+Praeityje buvo galima rankinio palaikymo kvito pasirinktis, bet anksčiau buvo prieš 1 pasirinktį.  "Microsoft" nebepalaiko rankinio perėjimo prašymų per Support bilietų.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -2,7 +2,7 @@
 title: Ieškokite rezultatų modulio
 description: Šioje temoje aprašomi paieškos rezultatų moduliai ir aprašoma, kaip juos įtraukti į saito puslapius „Microsoft Dynamics 365 Commerce“.
 author: anupamar-ms
-ms.date: 04/21/2022
+ms.date: 05/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 15b3bb50eb0b75fa19ac8e136da83cb362b4cec6
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.openlocfilehash: dcf3dedbb7c499135bbae45b917153854ecd4a28
+ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8644931"
+ms.lasthandoff: 05/19/2022
+ms.locfileid: "8780923"
 ---
 # <a name="search-results-module"></a>Ieškos rezultatų modulis
 
@@ -65,23 +65,26 @@ Paieškos rezultatų modulis palaiko [greito rodinio modulį](quick-view-module.
 
 ## <a name="add-a-search-results-module-to-a-category-page"></a>Įtraukite paieškos rezultatų modulį į kategorijų puslapį
 
-Norėdami įtraukti paieškos rezultatų modulį į kategorijų puslapį, atlikite šiuos žingsnius.
+Norėdami įtraukti ieškos rezultatų modulį į svetainės generatoriaus kategorijos puslapį, atlikite šiuos veiksmus.
 
 1. Eikite į **Šablonai** ir pasirinkite **Naujas**, kad sukurtumėte naują šabloną.
 1. Teksto laukelyje **Naujas šablonas** įveskite pavadinimą **Paieškos rezultatai** ir tada rinkitės **Gerai**.
-1. Vietoje **tekstas** pasirinkite daugtaškį (...), ir tada rinkitės **Įtraukite modulį**.
-1. Dialogo lange **Įtraukti modulį** pasirinkite modulį **Numatytasis puslapis**, tada pasirinkite **Gerai**.
-1. Vietoje **Pagrindinis** modulyje **Numatytas puslapis** rinkitės daugtaškį (...) ir tada rinkitės **Įtraukite modulį**.
-1. Dialogo lange **Įtraukti modulį** pasirinkite modulį **Konteineris**, tada pasirinkite **Gerai**.
-1. Vietoje **Talpykla** pasirinkite daugtaškį (...), ir tada rinkitės **Įtraukite modulį**.
-1. Dialogo lange **Įtraukti modulį** pasirinkite modulį **Naršymo kelias**, tada pasirinkite **Gerai**.
+1. Teksto atminties **atminties** atminties lape pasirinkite daugtaškį (...), tada pasirinkite Įtraukti **modulį**.
+1. Dialogo lange **Pasirinkti modulius** pasirinkite modulį **Numatytasis** puslapis, tada pasirinkite **Gerai**.
+1. Modulyje **Numatytasis** puslapis esantis **pagrindiniame atminties** atminties lape pasirinkite daugtaškį (...), tada pasirinkite Įtraukti **modulį**.
+1. Dialogo lange **Pasirinkti modulius** pasirinkite konteinerio **modulį**, tada pasirinkite **Gerai**.
+1. Konteinerio **laiko** atminties atminties dalyje pasirinkite daugtaškį (...), tada pasirinkite Įtraukti **modulį**.
+1. Dialogo lange **Pasirinkti** modulius pasirinkite modulį **Naršymo nuoroda ir** pasirinkite **Gerai**.
 1. Ypatybių juostoje **Džiūvėsėlis** įveskite vertę **1** skirtą **Minimaliems atsitikimams**.
-1. Vietoje **Talpykla** pasirinkite daugtaškį (...), o tada pasirinkite **Įtraukite modulį**.
-1. Teksto laukelyje **Įtraukti modulį** pasirinkite **Paieškos rezultatai** modulį, o tada pasirinkite **Gerai**.
+1. Konteinerio **laiko** atminties atminties dalyje pasirinkite daugtaškį (...), tada pasirinkite Įtraukti **modulį**.
+1. Dialogo lange **Pasirinkti** modulius pasirinkite ieškos **rezultatų modulį**, tada pasirinkite **Gerai**.
 1. Ypatybių juostoje **Paieškos rezultatai** įveskite vertę **1** skirtą **Minimalūs atsitikimai** ir tuomet nustatykite visas kitas reikiamas ypatybes paieškos rezultatų moduliui. Nustatydami šias ypatybes šablone užtikrinate, kad bet kokie tinkinimai konkrečios kategorijos puslapyje automatiškai apims šiuos nustatymus.
 1. Pasirinkite **Baigti redagavimą**, o tada pasirinkite **Publikuoti**, kad publikuotumėte šabloną.
 1. Eikite į **Puslapiai** ir pasirinkite **Naujas**, kad sukurtumėte naują puslapį.
-1. Teksto laukelyje **Rinkitės šabloną** pasirinkite **Paieškos rezultatai** sukurtą šabloną, įveskite **Kategorijos puslapis** skirtą **Puslapio pavadinimas** ir tada rinkitės **Gerai**. Kadangi visos vertės yra nustatytos šablone, puslapis yra parengtas publikuoti.
+1. Dialogo lange **Kurti naują puslapį**, po Puslapio **pavadinimas** įveskite Kategorijos **puslapį** ir pasirinkite **Pirmyn**.
+1. Dalyje **Pasirinkti šabloną** pasirinkite **Ieškos rezultatų šabloną**, kurį sukūrėte, tada pasirinkite **Pirmyn**.
+1. Dalyje **Pasirinkti maketą** pasirinkite puslapio maketą (pvz., Lankstusis **maketas**) ir pasirinkite **Pirmyn**.
+1. Dalyje **Peržiūrėti ir baigti** peržiūrėkite puslapio konfigūraciją. Jei reikia redaguoti puslapio informaciją, pasirinkite **Atgal**. Jei puslapio informacija teisinga, pasirinkite Kurti **puslapį**.
 1. Pasirinkite **Baigti redagavimą**, kad užregistruotumėte puslapį, o tada pasirinkite **Publikuoti**, kad publikuotumėte jį.
 
 ## <a name="enable-inventory-awareness-for-the-search-results-module"></a>Įgalinkite atsargų supratimą ieškos rezultatų moduliui
@@ -102,7 +105,7 @@ Atsargų produktų paieška naudoja produkto atributus atsargų prieinamumo info
 
 Norėdami sukurti skirtus produkto atributus, kad būtų galima palaikyti atsargų žinomos ieškos rezultatų modulį, atlikite šiuos veiksmus.
 
-1. Eikite į **Mažmeninė prekyba ir prekyba \> Prekyba ir prekybos IT \> Produktai ir atsargos**.
+1. Būstinę eikite į " **Retail" ir "Commerce \> Retail" ir "Commerce IT \> Products" ir atsargas**.
 1. Pasirinkite ir atidarykite **automatiškai įvesti produkto atributus atsargų lygiu**.
 1. Dialogo lange įveskite šią informaciją:
 
@@ -116,11 +119,11 @@ Norėdami sukurti skirtus produkto atributus, kad būtų galima palaikyti atsarg
 
 Norėdami konfigūruoti interneto kanalo produkto atributus, atlikite šiuos veiksmus. 
 
-1. Pasirinkite **Mažmeninė prekyba ir prekyba \> Kanalo sąranka \> Kanalo kategorijos ir produkto atributai**.
-2. Pasirinkite interneto kanalą, norėdami įgalinti žinotų atsargų ieškos rezultatų modulį.
-3. Pasirinkite ir atidarykite susietą atributų grupę, tada prie jos pridėkite naujai sukurtą produkto atributą.
-4. Jei "Commerce" versijos yra prieš 10.0.27 leidimą, **pasirinkite Nustatyti atributo metaduomenis**, pasirinkite naujai pridėtą produkto atributą, **tada** įjunkite atributą Rodyti kanale, **·** **·** **Galima** patikslinti ir užklausti parinktis.
-5. Eikite į **"Retail" ir "Commerce \> Retail" ir "Commerce IT \> Distribution**" grafiką ir vykdykite **užduotį 1150 (Katalogas**). Jei suplanuojate **produkto** atributų su atsargų lygio užduotimi kaip paketinį procesą, rekomenduojame taip pat suplanuoti 1150 užduotį kaip paketinį procesą, kuris vykdomas tuo pačiu dažnumu.
+1. Būstinėje eikite į "Retail" **ir "Commerce Channel" \> nustatymo kanalo \> kategorijas ir produktų atributus**.
+1. Pasirinkite interneto kanalą, norėdami įgalinti žinotų atsargų ieškos rezultatų modulį.
+1. Pasirinkite ir atidarykite susietą atributų grupę, tada prie jos pridėkite naujai sukurtą produkto atributą.
+1. Jei "Commerce" versijos yra prieš 10.0.27 leidimą, **pasirinkite Nustatyti atributo metaduomenis**, pasirinkite naujai pridėtą produkto atributą, **tada** įjunkite atributą Rodyti kanale, **·** **·** **Galima** patikslinti ir užklausti parinktis.
+1. Eikite į **"Retail" ir "Commerce \> Retail" ir "Commerce IT \> Distribution**" grafiką ir vykdykite **užduotį 1150 (Katalogas**). Jei suplanuojate **produkto** atributų su atsargų lygio užduotimi kaip paketinį procesą, rekomenduojame taip pat suplanuoti 1150 užduotį kaip paketinį procesą, kuris vykdomas tuo pačiu dažnumu.
 
 > [!NOTE]
 > Produktų, kurie rodomi paieškos rezultatų modulyje, atsargų lygis rodomas bendrojo produkto lygyje, o ne atskirų variantų lygyje. Jis turi tik dvi galimas vertes: "Turima" ir "Atsargų nėra". Faktinė vertės žymė nuskaitoma iš atsargų lygio [šablono apibrėžimo](inventory-buffers-levels.md). Bendrasis produktas laikomas atsargose tik tada, kai visų jo variantų nėra atsargose.

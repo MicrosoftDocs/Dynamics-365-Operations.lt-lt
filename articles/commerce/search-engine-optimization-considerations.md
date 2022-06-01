@@ -2,24 +2,19 @@
 title: Ieškos modulio optimizavimo (SEO) aplinkybės jūsų svetainei
 description: Šioje temoje aptariamos ieškos modulio optimizavimo (SEO) aplinkybės jūsų svetainei, pradedant kūrimu, baigiant gamyba.
 author: psimolin
-ms.date: 10/01/2019
+ms.date: 05/25/2022
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-audience: Application user
+audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgri
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
-ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: df92aeae967bbf248b90dffc6bc2239a8d2959183acb9e9181bc344b9e3eff8d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2f90581766dba3d3a671df52ec08339a1a0fd7dc
+ms.sourcegitcommit: 9dd2d32fc303023a509d58ec7b5935f89d1e9c6d
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6716862"
+ms.lasthandoff: 05/26/2022
+ms.locfileid: "8806410"
 ---
 # <a name="search-engine-optimization-seo-considerations-for-your-site"></a>Ieškos modulio optimizavimo (SEO) aplinkybės jūsų svetainei
 
@@ -30,11 +25,15 @@ ms.locfileid: "6716862"
 
 ## <a name="a-site-that-is-under-development"></a>Svetainė, kuri vis dar kuriama
 
-Kai svetainė vis dar kuriama, visi svetainės puslapiai turėtų turėti metažymes **NOINDEX** ir **NOFOLLOW**, kad ieškos moduliai savo talpyklose neindeksuotų jūsų svetainės puslapių ir nesaugotų jos kūrimo versijų. Norint tai sukonfigūruoti, į svetainės puslapio šabloną reikia įtraukti numatytųjų metažymių modulį. Tada numatytųjų metažymių ypatybės bus pasiekiamos puslapio rengyklės SEO ypatybių dalyje. Galite naudoti šias ypatybes metažymėms tvarkyti.
+Norėdami užtikrinti, kad paieškos sistemos neindeksuos **kūrimo svetainės, visuose svetainės puslapiuose turėtų būti noindex** ir **"nofollow"** metaduomenų žymės. Geriausia sukurti fragmentą [, pagrįstą metatagų](metatags-module.md) moduliu, kuriame būtų šis metaduomenų žymės įrašas, ir užtikrinti, kad fragmentas būtų įtrauktas į visų jūsų svetainėje naudojamų šablonų HTML \<head\> skyrių.
+
+```html
+<meta name="robots" content="noindex,nofollow" /> 
+```
 
 ## <a name="soft-launch-of-a-site"></a>Svetainės peržiūros versijos paleidimas
 
-Paleidus svetainės peržiūros versiją svetainė pateikiama ribotai auditorijai arba rinkai prieš paleidžiant visą svetainę. Jei paleisite svetainės peržiūros versiją, turėtumėte palikti metažymes **NOINDEX**. Taip padėsite užtikrinti, kad peržiūros versija bus prieinama tik ribotai auditorijai, kurią norite pasiekti.
+Paleidus svetainės peržiūros versiją svetainė pateikiama ribotai auditorijai arba rinkai prieš paleidžiant visą svetainę. Jei iš dalies paleidžiate savo svetainę, turėtumėte apsvarstyti galimybę **palikti noindex** metaduomenų žymes vietoje. Taip padėsite užtikrinti, kad peržiūros versija bus prieinama tik ribotai auditorijai, kurią norite pasiekti.
 
 ## <a name="a-site-that-is-in-production"></a>Svetainė, kuri yra gamybos etape
 
@@ -44,7 +43,7 @@ Ieškos modulio indeksavimui optimizuoti generavimo sistema naudoja ir informaci
 
 ### <a name="page-seo-settings-for-internal-preview-limited-audiences-and-all-audiences"></a>Puslapio SEO parametrai vidinei peržiūrai, ribotoms auditorijoms ir visoms auditorijoms
 
-Kadangi „Dynamics 365 Commerce“ palaikomos „ką matote, tą ir gaunate“ (WYSIWYG) autentifikuotos peržiūros vizualinėje puslapio daryklėje, autoriai gali paruošti savo puslapio turinį nesirūpindami dėl to, kad informacija gali tapti matoma svetainės lankytojams. Jei puslapis turi būti publikuojamas, bet jo matomumas turi būti apribotas, puslapis turi turėti metažymę **NOINDEX**, kad ieškos moduliai jo neindeksuotų. Tada, kai puslapis bus paruoštas visoms auditorijoms, turėtų būti visi pagrindiniai SEO metaduomenys, siekiant maksimaliai padidinti ieškos modulio indeksavimo efektyvumą. Be to, reikia pašalinti metažymę **NOLIMIT**.
+Kadangi „Dynamics 365 Commerce“ palaikomos „ką matote, tą ir gaunate“ (WYSIWYG) autentifikuotos peržiūros vizualinėje puslapio daryklėje, autoriai gali paruošti savo puslapio turinį nesirūpindami dėl to, kad informacija gali tapti matoma svetainės lankytojams. Jei puslapis turi būti publikuotas, bet jo poveikis turi būti ribotas, **jis turi turėti noindex** metaduomenų žymę, kad jo indeksuotų ieškos puslapiai. Tada, kai puslapis bus paruoštas visoms auditorijoms, turėtų būti visi pagrindiniai SEO metaduomenys, siekiant maksimaliai padidinti ieškos modulio indeksavimo efektyvumą. Be to, reikia **pašalinti** skyriklį metaduomenų žymę.
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 

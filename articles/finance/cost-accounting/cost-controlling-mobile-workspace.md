@@ -2,7 +2,7 @@
 title: Mobilioji darbo sritis Išlaidų kontrolė
 description: Šioje temoje pateikiama informacija apie mobiliąją darbo sritį Savikainos kontrolė. Ši darbo sritis išlaidų centro vadovams suteikia galimybę peržiūrėti informaciją apie išlaidų centro efektyvumą bet kuriuo metu ir bet kurioje vietoje.
 author: AndersGirke
-ms.date: 12/01/2017
+ms.date: 05/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,20 +15,21 @@ ms.search.region: global
 ms.author: aevengir
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 1f5e0314678758849a787e6b3f7a67391c701046
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 75d8abaeec85b46f0fd0e430040bc7e3a8fd3042
+ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734079"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8811330"
 ---
 # <a name="cost-controlling-mobile-workspace"></a>Mobilioji darbo sritis Išlaidų kontrolė
 
 [!include [banner](../includes/banner.md)]
+[!include [mobile app deprecation](../../fin-ops-core/dev-itpro/includes/mobile-app-deprecation-banner.md)]
 
 Šioje temoje pateikiama informacija apie mobiliąją darbo sritį **Savikainos kontrolė**. Ši darbo sritis išlaidų centro vadovams suteikia galimybę peržiūrėti informaciją apie išlaidų centro efektyvumą bet kuriuo metu ir bet kurioje vietoje.
 
-Ši mobilioji darbo sritis skirta naudoti kartu su mobiliąja programa „Finance and Operations“.
+Ši mobilioji darbo sritis skirta naudoti su finansų ir operacijų ("Dynamics 365") mobiliąją programa.
 
 ## <a name="overview"></a>Apžvalga
 Mobilioji darbo sritis **Išlaidų kontrolė** suteikia esamo išlaidų centrų efektyvumo momentinį rodinį, palygindama faktines išlaidas ir biudžeto išlaidas. Galite detalizuoti atskirų išlaidų elementų būseną.
@@ -113,7 +114,7 @@ Jei jūsų organizacijoje visuotinai įdiegta 1611 versija su 3 platformos nauji
 
 
 ## <a name="download-and-install-the-mobile-app"></a>Mobiliosios programos atsisiuntimas ir diegimas
-Atsisiųskite ir įdiekite mobiliąją programą „Finance and Operations”.
+Atsisiųskite ir įdiekite finansų ir operacijų ("Dynamics 365") mobiliąją programą:
 
 -   [„Android“ telefonams](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [„iPhone“ telefonams](https://go.microsoft.com/fwlink/?linkid=850663)

@@ -1,22 +1,22 @@
 ---
-title: DUK B2B komercijos katalogai
+title: B2B DUK svetainių „Commerce“ katalogai
 description: Šioje temoje pateikiamas atsakymas į dažnai užduodamus klausimus apie Microsoft Dynamics 365 Commerce katalogus.
 author: ashishmsft
-ms.date: 04/28/2022
+ms.date: 05/18/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2022-02-28
-ms.openlocfilehash: 776820e8e77cd0884b3df5412bb95e6e80ca4fc7
-ms.sourcegitcommit: 0abc777986112ea2332f5bf0e815b303b952356c
+ms.openlocfilehash: 5bdc7dfcb0e48aa85db2db4d178c5bf62ea0411b
+ms.sourcegitcommit: bca0cb730307948368a9aabe322cf963688ed8b1
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8657197"
+ms.lasthandoff: 05/19/2022
+ms.locfileid: "8782867"
 ---
-# <a name="commerce-catalogs-for-b2b-faq"></a>DUK B2B komercijos katalogai
+# <a name="commerce-catalogs-for-b2b-faq"></a>B2B DUK svetainių „Commerce“ katalogai
 
 [!include [banner](includes/banner.md)]
 [!include [banner](includes/preview-banner.md)]
@@ -25,7 +25,7 @@ ms.locfileid: "8657197"
 
 ## <a name="why-cant-i-configure-a-catalog-specific-navigation-hierarchy-or-see-an-option-to-associate-a-customer-hierarchy"></a>Kodėl nesukonfigūruota konkrečiai katalogui būsi naršymo hierarchija ar peržiūrėti pasirinktį, kaip susieti klientų hierarchiją?
 
-Įsitikinkite, kad **"Commerce Headquarters" funkcijų valdymo srityje įgalintas** **kelių katalogų** naudojimas mažmeninės prekybos kanaluose. Be to, įsitikinkite, kad jūsų aplinkoje naudojama "Commerce" 10.0.26 ar naujesnė versija.
+Įsitikinkite, kad **"Commerce Headquarters" funkcijų valdymo srityje įgalintas** **kelių katalogų** naudojimas mažmeninės prekybos kanaluose. Be to, įsitikinkite, kad jūsų aplinkoje naudojama "Commerce" 10.0.27 arba naujesnė versija.
 
 ## <a name="can-i-view-the-catalog-specific-hierarchy-and-enrich-category-pages-in-commerce-site-builder"></a>Ar "Commerce" svetainės generatoriuje galima peržiūrėti katalogo hierarchiją ir papildyti kategorijų puslapius?
 
@@ -81,6 +81,6 @@ Ne. Katalogo šaltinio kodai palaikomi tik skambučių centro kanaluose.
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
-[Kurti B2B svetainių "Commerce" katalogus](catalogs-b2b-sites.md)
+[B2B svetainių „Commerce“ katalogų kūrimas](catalogs-b2b-sites.md)
 
-["Commerce" katalogų išorinis poveikis B2B tinkinimais](catalogs-b2b-sites-dev.md)
+[„Commerce“ katalogų išplečiamumo poveikis, skirtas B2B tinkinimams](catalogs-b2b-sites-dev.md)

@@ -2,7 +2,7 @@
 title: Turto valdymo mobiliosios darbo srities naudojimas
 description: Šioje temoje pateikiama informacijos apie mobiliąją darbo sritį Turto valdymas.
 author: johanhoffmann
-ms.date: 01/15/2021
+ms.date: 05/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,16 +14,17 @@ ms.search.region: Global
 ms.author: johanho
 ms.dyn365.ops.version: 10.0.5
 ms.search.validFrom: 2019-08-31
-ms.openlocfilehash: 62bb178e714611367c825c87044a31275f5540accc9363137c7cecbcec1bec65
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8b874237721d9252e7102c2611414a2cc74026c3
+ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6771544"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8811510"
 ---
 # <a name="use-the-asset-management-mobile-workspace"></a>Turto valdymo mobiliosios darbo srities naudojimas
 
 [!include [banner](../../includes/banner.md)]
+[!include [mobile app deprecated](../../fin-ops-core/dev-itpro/includes/mobile-app-deprecation-banner.md)]
 
 Šioje temoje pateikiama informacija apie **Turto valdymas** mobiliąją darbo sritį. Ši darbo sritis leidžia vartotojams peržiūrėti ir kurti priežiūros užklausas bei darbo užsakymus. Be to, vartotojai gali peržiūrėti priskirtas darbo užsakymo užduotis kalendoriuje arba sąrašo rodinyje. Taip pat galima peržiūrėti ir ieškoti turto ir funkcinių vietų.
 
@@ -45,7 +46,7 @@ Norėdami naudoti **Turto valdymas** mobiliąją darbo sritį, jūsų administra
 
 ## <a name="download-and-install-the-mobile-app"></a>Mobiliosios programos atsisiuntimas ir diegimas
 
-Atsisiųskite ir įdiekite mobiliąją programą „Dynamics 365 for Unified Operations Mobile“ mobiliųjų įrenginių programėlę:
+Atsisiųskite ir įdiekite finansų ir operacijų ("Dynamics 365") mobiliąją programą:
 
 - [„Android“ telefonams](https://go.microsoft.com/fwlink/?linkid=850662)
 - [„iPhone“ telefonams](https://go.microsoft.com/fwlink/?linkid=850663)

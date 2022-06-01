@@ -2,7 +2,7 @@
 title: Pašalintos arba nebenaudojamos platformos funkcijos
 description: Šioje temoje aprašomos priemonės, kurios buvo pašalintos arba suplanuotos pašalinti į finansų ir operacijų programėlių platformos atnaujinimus.
 author: sericks007
-ms.date: 04/26/2022
+ms.date: 05/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 0cf0d4b3ff108645c8542ce10a0be58d29cc68ed
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.openlocfilehash: 3de9b9ea0bd20d1346a7cdfd2f919f50374b164c
+ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8644613"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8811252"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Pašalintos arba nebenaudojamos platformos funkcijos
 
@@ -30,7 +30,34 @@ ms.locfileid: "8644613"
 
 Šis sąrašas skirtas suteikti jums informacijos apie pašalintas ir nebenaudojamas funkcijas, kad galėtumėte geriau planuoti savo darbą. 
 
-Išsami informacija apie finansų ir operacijų programėlių objektus pateikta techninės [nuorodos ataskaitose](/dynamics/s-e/global/axtechrefrep_61). Galite palyginti skirtingas šių ataskaitų versijas, kad sužinotumėte apie objektus, kurie pasikeitė arba buvo pašalinti kiekvienoje "Finance and Operations" programų versijoje.
+Išsami informacija apie finansų ir operacijų programėlių objektus pateikta techninės [nuorodos ataskaitose](/dynamics/s-e/global/axtechrefrep_61). Galite palyginti skirtingas šių ataskaitų versijas ir sužinoti apie objektus, kurie buvo pakeisti ar pašalinti kiekvienoje finansų ir operacijų programėlių versijoje.
+
+
+## <a name="feature-deprecation-effective-june-2022"></a>Funkcija, kuri galioja 2022 m. birželio mėn.
+
+### <a name="finance-and-operations-dynamics-365-mobile-application-and-mobile-platform"></a>Finansų ir operacijų ("Dynamics 365") mobilioji programa ir mobilioji platforma 
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Nerekomendavimo/pašalinimo priežastis** | Mes atšaukiame finansų ir operacijų ("Dynamics 365") mobiliąją programą ir platformą, kuri konsoliduoja vieną mobiliąją platformą, t. y Power Apps. |
+| **Pakeitė kita funkcija?**   | Taip, su finansų ir operacijų programos duomenimis susijusią mobiliąją patirtį galima sukurti integruojant Power Platform. Išsamesnės [informacijos žr. pastato](../power-platform/build-mobile-experiences.md) mobiliosios patirties žiūrėkite. |
+| **Paveiktos produkto sritys**         | „Finance and Operations” programos |
+| **Visuotinio diegimo parinktis**              | Viskas |
+| **Būsena**                         | Nerekomenduojama. Palaikymo data skirta 2024 m. spalio mėn. |
+
+
+## <a name="platform-updates-for-version-10029-of-finance-and-operations-apps"></a>Finansų ir operacijų programėlių 10.0.29 versijos platformos naujinimai
+
+### <a name="panorama-tab-style"></a>Skirtukų tamsos stilius
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Nerekomendavimo/pašalinimo priežastis** | Horizontaliai paslinkt puslapius sulygiuoti su datuotais maketo modeliais, kurie turi žinomas naudojimo ir pasiekiamumo problemas.  |
+| **Pakeitė kita funkcija?**   | Ne, bet kiti skirtuko stiliai vis dar galimi. |
+| **Paveiktos produkto sritys**         | Žiniatinklio klientas |
+| **Visuotinio diegimo parinktis**              | Viskas |
+| **Būsena**                         | Nerekomenduojama. |
+
 
 ## <a name="feature-deprecation-effective-april-2022"></a>Funkcijos pasenusios 2022 m. balandžio mėn.
 

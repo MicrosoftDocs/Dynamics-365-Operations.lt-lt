@@ -2,7 +2,7 @@
 title: Objekto duomenų peržiūra ir atnaujinimas programoje „Excel“
 description: Šioje temoje paaiškinama, kaip programoje „Microsoft Excel“ atidaryti objektų duomenis ir naudojant „Microsoft Dynamics“ „Excel“ papildinį peržiūrėti, atnaujinti ir redaguoti šiuos duomenis.
 author: jasongre
-ms.date: 10/01/2021
+ms.date: 05/16/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3b97c585009b50c6623036d10f54e78a65a89cea
-ms.sourcegitcommit: 3cb1f49a02e4a849fc34ffeb81fe507f0608b35e
+ms.openlocfilehash: f5090674fc4f7c49c55a8a12aea8c567545d519f
+ms.sourcegitcommit: 9f11ce4d24f546e96ab794a23479a43a89b742f0
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "8464943"
+ms.lasthandoff: 05/16/2022
+ms.locfileid: "8762659"
 ---
 # <a name="view-and-update-entity-data-with-excel"></a>Objekto duomenų peržiūra ir atnaujinimas programoje „Excel“ 
 
@@ -110,7 +110,7 @@ Naudodami dizaino įrankį galite koreguoti automatiškai į darbalapį įtrauki
 5. Jei įtraukėte lauką (stulpelį), pasirinkite **Atnaujinti**, kad būtų nuskaitytas atnaujintas duomenų rinkinys.
 
 ## <a name="change-the-publish-batch-size"></a>Publikavimo paketo dydžio keitimas
-Kai vartotojai paskelbia duomenų įrašų pakeitimus naudodami „Excel” papildinį, naujinimai pateikiami paketais. Numatytasis publikavimo paketo dydis yra 100 eilučių. 10.0.17 ir vėlesnėse versijose funkcija **Leisti konfigūruoti skelbiamo paketo dydį „Excel” papildinyje** leidžia lanksčiai reguliuoti skelbiamo paketo dydį.
+Kai vartotojai paskelbia duomenų įrašų pakeitimus naudodami „Excel” papildinį, naujinimai pateikiami paketais. Numatytasis (ir maksimalus) paketo dydžio skelbimas yra 100 eilučių; Tačiau leisti **konfigūruoti skelbimo paketo dydį "Excel** " papildinių priemonėje suteikia lankstumo sumažinti publikuojamo paketo dydį, ypač jei bandant publikuoti naujinimus iš "Excel" nepavyksta nustatyti daugiau laiko.
 
 Sistemos administratoriai gali nurodyti sistemoje taikomą skelbiamo paketo dydžio limitą „Atidaryti „Excel” darbaknygėse nustatydami lauką **Skelbiamo paketo limitas** **Programos parametrai** dalyje **„Office” programų parametrai** puslapyje.
 

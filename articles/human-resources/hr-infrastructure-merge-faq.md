@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a905d752af2cf8397acb4927aa99edb4c23bfa6a
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 766ee49c17749841d8acac6637a0262e87e52e92
+ms.sourcegitcommit: d38d2fe85dc2497211ba5731617f590029d07145
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8688126"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "8809619"
 ---
 # <a name="dynamics-365-human-resources-infrastructure-merge-faq"></a>„Dynamics 365 Human Resources” infrastruktūros sujungimo DUK
 
@@ -131,6 +131,9 @@ Tai priklauso nuo integravimo galinio punkto. Daugiau informacijos apie integrav
 Jei finansų Dynamics 365 Human Resources Dataverse ir operacijų aplinkos, kurios bus sujungtos naujoje infrastruktūros aplinkoje, yra sujungtos su ta pačia aplinka, Dataverse po perkėlimo dvi programos ir toliau bus sujungtos su ta pačia aplinka. Todėl jokiems „Dataverse” plėtiniams nebūtinas perkėlimas.
 
 Tačiau jei Dynamics 365 Human Resources Dataverse finansų ir operacijų aplinkos šiuo metu sujungtos su atskiromis aplinkas, dvi aplinkos bus sujungtos, Dataverse kad jos būtų sujungtos su viena naujos infrastruktūros aplinka. Šiuo „Dataverse” perkėlimo atveju, „Dataverse” lentelės, kurios yra standartinės Žmogiškųjų išteklių spendimuose, gali būti sujungtos ir pakartotinai sinchronizuotos su nauja „Dataverse” aplinka. Tačiau jokie „Dataverse” aplinkos plėtiniai nebus perkeliami automatiškai, bet jie turi būti iš naujo įdiegiami naujoje aplinkoje. Jūsų „Dataverse” plėtinių valdymui rekomenduojame naudoti valdomus sprendimus. Daugiau informacijos rasite [Įžanga į sprendimus](/powerapps/developer/data-platform/introduction-solutions).
+
+### <a name="we-have-utilized-the-custom-field-functionality-within-dynamics-365-human-resources-will-those-custom-fields-migrate-automatically"></a>Mes naudojame pasirinktines lauko funkcijas viduje Dynamics 365 Human Resources. Ar šie pasirinktiniai laukai bus perkelti automatiškai?
+Taip, įtraukti pasirinktiniai laukai bus perkelti į naują infrastruktūrą.
 
 ### <a name="we-have-configured-microsoft-power-automate-flows-andor-microsoft-power-apps-to-work-with-dynamics-365-human-resources-will-these-microsoft-power-platform-components-be-migrated-and-work-automatically-after-the-infrastructure-change-is-completed"></a>Sukonfigūravome „Microsoft Power Automate” srautus ir (arba) „Microsoft Power Apps”, kad jie veiktų su „Dynamics 365 Human Resources”. Ar šie „Microsoft Power Platform” komponentai bus perkelti ir veiks automatiškai po to, kai bus baigtas infrastruktūros pakeitimas?
 

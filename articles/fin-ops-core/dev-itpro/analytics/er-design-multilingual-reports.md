@@ -2,7 +2,7 @@
 title: Daugiakalbių pranešimų Elektroninėse ataskaitose kūrimas
 description: Šioje temoje paaiškinama, kaip galite naudoti Elektroninės ataskaitos (angl. Electronic Reporting (ER)) žymas kurti ir generuoti daugiakalbius pranešimus.
 author: NickSelin
-ms.date: 11/30/2021
+ms.date: 04/28/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: eab17635494657740fe46364bde0773dae5b9e4b
-ms.sourcegitcommit: 8bcb9c13eccb14e61c39ca6578d135b64090fad2
+ms.openlocfilehash: aa8297d4f5c56a7a20561b1a90c5852e65dbff31
+ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8313696"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8811613"
 ---
 # <a name="design-multilingual-reports-in-electronic-reporting"></a>Daugiakalbių pranešimų Elektroninėse ataskaitose kūrimas
 
@@ -46,7 +46,7 @@ Galite konfigūruoti nuo kalbos priklausančius išteklius kaip ER žymas. Tada 
 
 Galite konfigūruoti ER žymas kiekvienai ER [konfigūracijai](general-electronic-reporting.md#Configuration), kurioje yra skirtingi komponentai. Žymos gali būti tvarkomos neatsižvelgiant į sukonfigūruotą ER duomenų modelių, ER modelių susiejimų ir ER formatų komponentų logiką.
 
-Kiekviena ER žyma identifikuojama pagal ID unikaliu ER konfigūracijos, kuriai priklauso ta žyma, aprėptyje. Kiekvienoje žymoje gali būti žymos tekstas kiekvienai kalbai, kuri palaikoma dabartinėje „Microsoft Dynamics 365 Finance” versijoje. Į šias palaikomas kalbas įeina įdiegtų organizacijų kalbos.
+Kiekviena ER žyma identifikuojama pagal ID unikaliu ER konfigūracijos, kuriai priklauso ta žyma, aprėptyje. Kiekvienoje žymėje gali būti kiekvienos kalbos, kurią palaiko dabartinis 365 finansų Microsoft Dynamics egzempliorius, žymės tekstas. Į šias palaikomas kalbas įeina įdiegtų organizacijų kalbos.
 
 ## <a name="entry"></a>Įrašas
 
@@ -81,7 +81,7 @@ Kai taip sukonfigūruojate ER duomenų modelį, jo turinys bus pateiktas ER duom
 
 ### <a name="model-mapping-component"></a>Modelio susiejimo komponentas
 
-Nes ER modelio susiejimas yra pagrįstas ER duomenų modeliu, nurodytos duomenų modelio elementų žymos pasirodo vartotoja pageidaujama kalba modelio susiejimų kūrimo įrankyje. Toliau pateiktoje iliustracijoje rodoma, kaip **PirkimoUžsakymas** lauko vertė yra paaiškinta redaguotame modelio susiejime naudojant **Aprašas** atributą, pridėtą konfigūruotame duomenų modelyje. Atkreipkite dėmesį, kad ši žyma pateikiama vartotojo pageidaujama kalba (šiuo atveju, DE-AT).
+Kadangi ER modelio susiejimas yra pagrįstas ER duomenų modeliu, nurodytų duomenų modelio elementų žymės vartotojo pageidaujama kalba bus rodomos modelių susiejimo konstruktoriuje. Toliau pateiktoje iliustracijoje rodoma, kaip **PirkimoUžsakymas** lauko vertė yra paaiškinta redaguotame modelio susiejime naudojant **Aprašas** atributą, pridėtą konfigūruotame duomenų modelyje. Atkreipkite dėmesį, kad ši žyma pateikiama vartotojo pageidaujama kalba (šiuo atveju, DE-AT).
 
 ![ER modelio susiejimų kūrimo įrankio maketas vartotojui, besinaudojančiam DE-AT rinkiniu jo pageidaujama kalba.](./media/er-multilingual-labels-show-mapping.png)
 
@@ -89,7 +89,7 @@ Kai **Žyma** atributas **Vartotojo įvesties parametras** duomenų šaltinio yr
 
 ### <a name="format-component"></a>Formato komponentas
 
-Kai konfigūruojate ER formatą, galite jam pridėti ER žymas. Kiekvieno sukonfigūruoto duomenų šaltinio **Žyma** ir **Pagalbos tekstas** atributai gali būti susieti su ER žyma, pridėta prie ER formato. **Žyma** **Aprašas** atributai kiekvieno <a id="LinkFormatEnum"></a> formato išvardijimo vertės gali taip pat būti susieti su ER žyma, prieinama iš redaguojamo ER formato.
+Kai konfigūruojate ER formatą, galite jam pridėti ER žymas. Kiekvieno sukonfigūruoto duomenų šaltinio **Žyma** ir **Pagalbos tekstas** atributai gali būti susieti su ER žyma, pridėta prie ER formato. Kiekvieno **formato** išvardijimo **·**<a id="LinkFormatEnum"></a> vertės žymos ir aprašymo atributus taip pat galima susieti su ER žyme, kuri pasiekiama iš redaguojamo ER formato.
 
 > [!NOTE]
 > Taip pat galite susieti šiuos atributus su pirminio ER duomenų modelio ER žyma, kuri iš naujo panaudoja modelio žymas kiekviename ER formate, sukonfigūruotame šiame ER duomenų modeliui.
@@ -218,6 +218,11 @@ ER komponento žymos, kurios gali būti keičiamos, yra išsaugomos kartu su kom
 
 Pagrindinio ER komponento žymas galima susieti su jūsų sukurta ER komponento išvestine versija, kad pritaikytumėte savo keitimus.
 
+> [!TIP]
+> Kurdami ER sprendimą, galite iš jo gauti savo ER [duomenų](er-overview-components.md#data-model-component) modelio komponentą. Šiame išvestiniuose duomenų modelyje galite pristatyti savo ER žymes ir naudoti jas visais ER formatais, kurie naudos duomenų modelį kaip duomenų šaltinį. Tada galite išvesti savo ER [formato komponentą](er-overview-components.md#format-component) iš to, kuris pateikiamas pasirinkus išvestinį ER duomenų modelį, o ne pateiktą. Versijoje 10.0.28 ir vėliau galite įgalinti išplėstinę prieigą prie didėjančios ER duomenų modelio funkcijos žymių, **kad būtų galima pasiekti didėjančios ER duomenų modelio žymes išvestiniuose ER formato komponentuose, net jei jūsų pasirinktas išvestinio ER** komponento ER duomenų modelis skiriasi nuo to, kuris buvo naudojamas pagrindinio ER komponento.
+>
+> Kai jūsų išvestuose komponentuose naudojamas tas pats žymės pavadinimas ir didėjimo tvarka esantys komponentai, tos žymės vertimas naudojamas kaip tinkamiausiiausias.
+
 ER versijų valdymo žymos priskyrimas ER komponento atributui. Žymos priskyrimo pokyčiai įrašomi redaguojamo ER komponento, sukurto kaip pateikto ER komponento išvestinė versija, pokyčių (delta) sąraše. Šie pakeitimai bus patikrinti, kai išvestinė versija yra iš naujo pagrįsta nauja bazine versija.
 
 ## <a name="functions"></a>Funkcijos
@@ -240,9 +245,9 @@ Kai pakeičiate **ER** **konfigūracijos** versijos būseną iš Juodraštis į 
 
 Funkcijų valdymo darbo srityje **patariame įgalinti ER žymų** saugojimo funkciją **pagreitinti**. Ši funkcija padeda pagerinti tinklo pralaidumo naudojimą ir visos sistemos našumą, nes dažniausiai, naudojant vieną ER konfigūraciją, naudojamos vienos kalbos ER žymės.
 
-Norėdami taikyti pasirinktą saugojimo schemą visų ER konfigūracijų žymoms kurreneto finansų egzemplioriuje saugoti, atlikite šiuos veiksmus.
+Norėdami taikyti pasirinktą saugojimo schemą visų ER konfigūracijų žymoms dabartiniame finansų egzemplioriuje saugoti, atlikite šiuos veiksmus.
 
-1. Eikite **į Organizacijos administrationPeriodicApply** > **·** > **pasirinktas žymes, kurios saugo visų ER konfigūracijų schemą**.
+1. Eikite į **Organizacijos administravimas** > **·** > **Periodinis taikykite pasirinktas žymes, saugant schemą visoms ER konfigūracijų.**
 2. Pasirinkite **Gerai**.
 
 

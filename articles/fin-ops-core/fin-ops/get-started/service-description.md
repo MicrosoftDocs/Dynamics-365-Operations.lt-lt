@@ -9,12 +9,12 @@ ms.reviewer: sericks
 ms.search.region: Global
 ms.author: whigginb
 ms.search.validFrom: 2021-09-03
-ms.openlocfilehash: 26b2821f33ea23dde1fda1d461baa5de1b4f9efc
-ms.sourcegitcommit: d70f66a98eff0a2836e3033351b482466bd9c290
-ms.translationtype: HT
+ms.openlocfilehash: 3385edf8961d04cf8bfc4ca06299f1911b76a4f5
+ms.sourcegitcommit: 2b119aec0e6f49bfd36125d9660f49cde5394446
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/11/2022
-ms.locfileid: "8740658"
+ms.lasthandoff: 05/16/2022
+ms.locfileid: "8758775"
 ---
 # <a name="service-description-for-finance-and-operations-apps"></a>Finansų ir operacijų programėlių paslaugos aprašas
 
@@ -132,9 +132,9 @@ Dėl finansų ir operacijų programėlių "Microsoft" veikia kaip procesorius. K
 
 LCS teikia [savitarnos įrankius](../../dev-itpro/deployment/infrastructure-stack.md)ir [duomenų bazės perkėlimo operacijas](../../dev-itpro/database/dbmovement-operations.md), naudojamas atliekant aplinkos ir duomenų valdymo užduotis. Štai keletas pavyzdžių:
 
-**Įvykis:** [gamybos egzemplioriaus prašantis](../imp-lifecycle/prepare-go-live.md#requesting-the-production-environment)
+**Įvykis:** [gamybos egzemplioriaus prašantis](../imp-lifecycle/go-live-faq.md#when-can-i-configure-and-request-my-production-environment)
 
-- Užpildykite [„Go-live" kontrolinį](../imp-lifecycle/prepare-go-live.md) sąrašą ir pateikite jį [„Microsoft FastTrack“](/dynamics365/fasttrack/) komandai.
+- Užbaikite [pasirengimo pervykti peržiūrą](../imp-lifecycle/prepare-go-live.md) ir pateikite ją [Microsoft FastTrack komandai](/dynamics365/fasttrack/).
 - Prieš [užklausdami gamybos egzempliorių užbaikite LCS](../../dev-itpro/lifecycle-services/subscription-estimator.md) abonemento įvertinimaus.
 - Atlikite visas diegimo užduotis, nurodytas [LCS metodologijoje](../../dev-itpro/lifecycle-services/create-methodology.md).
 

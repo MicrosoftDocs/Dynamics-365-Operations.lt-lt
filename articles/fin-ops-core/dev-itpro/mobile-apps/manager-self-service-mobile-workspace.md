@@ -2,7 +2,7 @@
 title: Mobilioji darbo sritis Mano komanda
 description: Šioje temoje pateikiama informacija apie mobiliąją darbo sritį Mano komanda, kuri leidžia vadovams peržiūrėti komandos tiesiogines ataskaitas ir matyti išplėstinį personalą.
 author: ShielaSogge
-ms.date: 12/01/2017
+ms.date: 05/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,22 +12,23 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 74abb4ce77b4fc13c614e8e1b734e1b9f5f24e0a728a10b79508e6be4faf3dca
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7793bd6bb1c2dfb5f6840430914393e837242fb5
+ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767117"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8811063"
 ---
 # <a name="my-team-mobile-workspace"></a>Mobilioji darbo sritis „Mano komanda”
 
 [!include [banner](../includes/banner.md)]
+[!include [mobile app deprecation](../includes/mobile-app-deprecation-banner.md)]
 
 Šioje temoje pateikiama informacijos apie mobiliąją darbo sritį **Mano komanda**. Ši darbo sritis suteikia vadovams galimybę peržiūrėti savo tiesioginius pavaldinius ir išplėstinius darbuotojus. Jie taip pat gali pagirti asmenis, esančius jų ataskaitų grandinėje.
 
-Ši mobili darbo sritis skirta naudoti kartu su mobiliųjų įrenginių programėle „Finance and Operations“.
+Ši mobilioji darbo sritis skirta naudoti kartu su mobiliąja programa „Finance and Operations“.
 
-## <a name="overview"></a>Peržiūrėti 
+## <a name="overview"></a>Apžvalga 
 Mobilioji darbo sritis **Mano komanda** suteikia vadovams galimybę atlikti šias užduotis:
 
 - Peržiūrėti vadovo tiesioginių pavaldinių sąrašą.
@@ -49,12 +50,12 @@ Tam, kad galėtumėte naudoti šią mobiliąją darbo sritį, turi būti laikoma
 <tbody>
 <tr class="odd">
 <td>Jūsų organizacijoje turi būti įdiegtas vienas iš šių produktų:
-<ul><li>Programa „Finance and Operations“</li>
+<ul><li>„Finance and Operations” programa</li>
 <li>„Microsoft Dynamics 365 Human Resources“</li>
 </ul>
 </td>
 <td>Sistemos administratorius</td>
-<td>Jeigu jūsų organizacijoje dar neįdieg&#39;ta programa „Finance and Operations“, žr. <a href="../deployment/deploy-demo-environment.md">Demonstracinės aplinkos diegimas</a>. Jeigu jūsų organizacijoje dar neįdiegt&#39;a programa „Human Resources“, sistemos administratorius gali naudoti <a href="https://dynamics.microsoft.com/human-resources/overview/">„Human Resources“ tinklalapyje</a> esančią bandomąją versiją.
+<td>Jeigu jūsų organizacijoje dar neįdiegta programa „Finance and Operations“, žr. <a href="../deployment/deploy-demo-environment.md">Demonstracinės aplinkos diegimas</a>. Jeigu jūsų organizacijoje dar neįdiegt&#39;a programa „Human Resources“, sistemos administratorius gali naudoti <a href="https://dynamics.microsoft.com/human-resources/overview/">„Human Resources“ tinklalapyje</a> esančią bandomąją versiją.
 </td>
 </tr>
 <tr class="even">
@@ -67,7 +68,7 @@ Tam, kad galėtumėte naudoti šią mobiliąją darbo sritį, turi būti laikoma
 
 ## <a name="download-and-install-the-mobile-app"></a>Mobiliosios programos atsisiuntimas ir diegimas
 
-Mobiliosios programos „Finance and Operations“ atsisiuntimas ir diegimas.
+Atsisiųskite ir įdiekite mobiliąją programą „Finance and Operations”.
 
 -   [„Android“ telefonams](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [„iPhone“ telefonams](https://go.microsoft.com/fwlink/?linkid=850663)

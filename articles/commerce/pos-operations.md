@@ -2,7 +2,7 @@
 title: Elektroninio kasos aparato (EKA) operacijos, prisijungus ir neprisijungus prie interneto
 description: Šioje temoje pateikiama informacija apie elektroninio kasos aparato (EKA) veikimą „Dynamics 365 Commerce“. Joje nurodoma, kur programoje galima iškviesti operacijas ir ar jos pasiekiamos neprisijungus.
 author: jblucher
-ms.date: 05/11/2022
+ms.date: 05/27/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: dc281a691b34731fb0b5986222b41b436912c782
-ms.sourcegitcommit: d70f66a98eff0a2836e3033351b482466bd9c290
+ms.openlocfilehash: 7e4556ad11cbea0cb8fb3c5447116a1b54576e17
+ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/11/2022
-ms.locfileid: "8740687"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8811207"
 ---
 # <a name="online-and-offline-point-of-sale-pos-operations"></a>Elektroninio kasos aparato (EKA) operacijos, prisijungus ir neprisijungus prie interneto
 
@@ -44,7 +44,7 @@ Toliau pateiktuose stulpeliuose nurodoma, kur galima iškviesti operacijas.
 > [!NOTE]
 > Toliau išvardytos operacijos taikomos naujausiai „Commerce“ versijai. Kai kurios operacijos galėjo būti pakeistos arba gali būti nepasiekiamos ankstesnėse versijose.
 
-| ID   | Operacija                                         | Aprašymas                                                                                                                                                                                                    | Vartotojo operacija?    | Operacijos ekranas | Darbo pradžios ekranas | Galimas neprisijungus? | Būdingos vietai |
+| ID   | Operacija                                         | Aprašymas                                                                                                                                                                                                    | Vartotojo operacijos    | Operacijos ekranas | Darbo pradžios ekranas | Galimas neprisijungus? | Būdingos vietai |
 | ---- | ------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------- | ------------------ | -------------- | ----------------- | --------------- |
 | 100  | Produkto pardavimas                                      | Įtraukite nurodytą produktą į operaciją.                                                                                                                                                                    | Taip            | Taip                | Taip            | Taip               | Ne              |
 | 101  | Kainos tikrinimas                                       | Peržiūrėti nurodyto produkto kainą.                                                                                                                                        | Taip            | Taip                | Taip            | Taip               | Ne              |
@@ -273,11 +273,11 @@ Toliau pateiktuose stulpeliuose nurodoma, kur galima iškviesti operacijas.
 | 1219 | URL atidarymas EKA                                   | Atidarykite administratoriaus sukonfigūruotą URL EKA.                                                                                                                                                                           | Taip            | Taip                | Taip            | Taip               | Ne              |
 | 1220 | Valdyti seifą                                       | Valdyti skirtingų kasos aparatų seifą.                                                                                                                                                                       | Taip            | Taip                | Taip            | Taip               | Ne              |
 | 1221 | Anuliuoti sustabdytas operacijas                       | Anuliuoti sustabdytas operacijas.                                                                                                                                                                               | Taip            | Taip                | Taip            | Taip               | Ne              |
-| 1300 | Praleisti finansinį registraciją                          | Praleisti fiskalinę registraciją.                                                                                                                                                                                       | Taip            | Taip                | Taip            | Taip               | Taip             |
-| 1301 | Pažymėti finansinį įvykį kaip užregistruotą                      |  Pažymėkite ataskaitinį įvykį kaip užregistruotą.                                                                                                                                                                                  | Taip            | Taip                | Taip            | Taip               | Taip             |
-| 1302 | Užbaigti fiskalinės registracijos procesą              | Užbaikite finansinio registravimo procesą.                                                                                                                                                                           | Taip            | Taip                | Taip            | Taip               | Taip             |
-| 1303 | Praleisti sveikatos patikros klaidą                           | Praleisti sveikatos tikrinimo klaidą.                                                                                                                                                                                        | Taip            | Taip                | Taip            | Taip               | Taip             |
-| 1304 |  Atidėti finansinį registravimą                     | Atidėti finansinio registravimo datą.                                                                                                                                                                                  | Taip            | Taip                | Taip            | Taip               | Taip             |
+| 1300 | Praleisti finansinį registraciją                          | Praleisti fiskalinę registraciją.                                                                                                                                                                                       | Ne            | Ne                | Ne            | Taip               | Ne             |
+| 1301 | Pažymėti finansinį įvykį kaip užregistruotą                      |  Pažymėkite ataskaitinį įvykį kaip užregistruotą.                                                                                                                                                                                  | Ne            | Ne                | Ne            | Taip               | Ne             |
+| 1302 | Užbaigti fiskalinės registracijos procesą              | Užbaikite finansinio registravimo procesą.                                                                                                                                                                           | Ne            | Ne                | Taip            | Taip               | Taip             |
+| 1303 | Praleisti sveikatos patikros klaidą                           | Praleisti sveikatos tikrinimo klaidą.                                                                                                                                                                                        | Taip            | Taip                | Taip            | Taip               | Ne             |
+| 1304 |  Atidėti finansinį registravimą                     | Atidėti finansinio registravimo datą.                                                                                                                                                                                  | Ne            | Ne                | Ne            | Taip               | Ne             |
 | 1400 | Valdyti kontrolinius sąrašus ir užduotis                       | Valdyti darbuotojų kontrolinį sąrašą ir užduotis.                                                                                                                                                                        | Ne             | Ne                 | Taip            | Ne                | Ne              |
 | 2000 | Grafiko valdymas                               | Ši operacija dar nepalaikoma.                                                                                                                                                                           | Taip            | Taip                | Taip            | Ne                | Ne              |
 | 2001 | Grafiko užklausos                                 | Ši operacija dar nepalaikoma.                                                                                                                                                                           | Taip            | Taip                | Taip            | Ne                | Ne              |

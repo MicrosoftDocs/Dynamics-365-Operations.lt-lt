@@ -1,8 +1,8 @@
 ---
-title: Mobiliosios programos pagrindinis puslapis
-description: Šioje temoje aprašoma mobiliųjų įrenginių programėlė „Finance and Operations“ („Dynamics 365“) ir pateikiamos nuorodos į išteklius, kurie jums gali padėti tai įgyvendinti savo organizacijoje.
+title: Mobiliųjų įrenginių programėlės pagrindinis puslapis
+description: Šioje temoje aprašomos finansų ir operacijų ("Dynamics 365") mobiliosios programos ir saitai į išteklius, kurie gali padėti jums įdiegti juos savo organizacijoje.
 author: ChrisGarty
-ms.date: 01/22/2020
+ms.date: 05/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,18 +14,19 @@ ms.search.region: Global
 ms.author: cgarty
 ms.dyn365.ops.version: Platform update 4
 ms.search.validFrom: 2017-02-28
-ms.openlocfilehash: 8a91f603b4dd058341110c59039a6d3c782e06ee768fbf0e7f94e9527a6354ba
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a6928b1fc7713b6822f53aaa77b8d1281eb6d320
+ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6729713"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8811179"
 ---
-# <a name="mobile-app-home-page"></a>Mobiliosios programos pagrindinis puslapis
+# <a name="mobile-app-home-page"></a>Mobiliųjų įrenginių programėlės pagrindinis puslapis
 
 [!include [banner](../includes/banner.md)]
+[!include [mobile app deprecation](../includes/mobile-app-deprecation-banner.md)]
 
-Šioje temoje aprašoma mobiliųjų įrenginių programėlė **„Finance and Operations“ („Dynamics 365“)** ir pateikiamos nuorodos į išteklius, kurie jums gali padėti tai įgyvendinti savo organizacijoje.
+Šioje temoje aprašomos **finansų ir operacijų ("Dynamics 365")** mobiliosios programos ir saitai į išteklius, kurie gali padėti jums įdiegti juos savo organizacijoje.
 
 ## <a name="overview"></a>Apžvalga
 
@@ -76,7 +77,7 @@ Tolesnėje iliustracijoje parodytas mobiliųjų darbo sričių, kurias teikia �
 <tr class="odd">
 <td>1</td>
 <td>Sistemos administratorius</td>
-<td>Programos „Finance and Operations“ diegimas jūsų organizacijoje.</td>
+<td>Vykdykite finansų ir operacijų programą savo organizacijoje.</td>
 <td><ul><li>Jei dar neįdiegėte&#39;kokios nors „Microsoft Dynamics 365“ versijos, žr. <a href="../deployment/deploy-demo-environment.md">Visuotinis demonstracinės aplinkos diegimas</a>.</li><li>Norėdami peržiūrėti mobiliųjų sričių, kurias galima naudoti, sąrašą, žr. <a href="mobile-workspaces-released.md">Neseniai išleistos mobiliosios darbo sritys</a>.</li></ul></td>
 </tr>
 <tr class="even">

@@ -2,7 +2,7 @@
 title: Pirkimo užbaigimo modulis
 description: Šioje temoje aprašoma, kaip į puslapį įtraukti pirkimo užbaigimo modulį ir nustatyti reikiamas ypatybes.
 author: anupamar-ms
-ms.date: 08/31/2020
+ms.date: 05/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 031c70181e0dff9bc81450d2454f21e1dbaf1285d41b38ff6f7df6045923c27c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0d022ad98603b489a133a5b9f2326677e9ebb307
+ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6715511"
+ms.lasthandoff: 05/19/2022
+ms.locfileid: "8780519"
 ---
 # <a name="checkout-module"></a>Pirkimo užbaigimo modulis
 
@@ -91,14 +91,14 @@ Didžioji dalis pirkimo užbaigimo informacijos, pvz., siuntimo adresas ir siunt
 Norėdami į naują puslapį įtraukti pirkimo užbaigimo modulį ir nustatyti reikiamas ypatybes, atlikite tolesnius veiksmus.
 
 1. Eikite į **Fragmentai** ir tuomet pasirinkite **Naujas** tam, kad sukurtumėte naują fragmentą.
-1. Dialogo lange **Naujas fragmentas** pasirinkite **Pirkimo užbaigimo** modulį.
+1. Dialogo lange **Pasirinkti fragmentą** pasirinkite tikrinimo **modulį**.
 1. Dalyje **Fragmento pavadinimas** įveskite pavadinimą **Pirkimo užbaigimo fragmentas** ir pasirinkite **Gerai**.
 1. Pasirinkite vietą **Pirkimo užbaigimas**.
 1. Dešinėje pusėje esančioje ypatybių srityje pasirinkite pieštuko simbolį, į laukelį įveskite antraštės tekstą ir pasirinkite varnelės simbolį.
-1. Vietoje **Pirkimo užbaigimo informacija** pasirinkite daugtaškį (**...**), tada – **Įtraukti modulį**.
-1. Dialogo lange **Įtraukti modulį** pasirinkite modulius **Siuntimo adresas**, **Pristatymo parinktys**, **Pirkimo užbaigimo skyriaus konteineris** ir **Kontaktinė informacija**, tada pasirinkite – **Gerai**.
-1. Modulyje **Pirkimo užbaigimo skyriaus konteineris** pasirinkite daugtaškį (**...**), tada – **Įtraukti modulį**.
-1. Dialogo lange **Įtraukti modulį** dalyje pasirinkite modulius **Dovanų kortelė**, **Lojalumas** ir **Mokėjimas** ir pasirinkite **Gerai**. Taip užtikrinate, kad viename skyriuje kartu rodomi visi mokėjimo būdai.
+1. Tikrinimo informacijos **atminties laiko** atrinkite daugtaškį (**...**), tada pasirinkite Įtraukti **modulį**.
+1. Dialogo lange **Pasirinkti modulius** pasirinkite siuntimo **adresą**, pristatymo pasirinktis, **·** **tikrinimo skyriaus konteinerį** **ir** kontaktinės informacijos modulius, tada pasirinkite **Gerai.**
+1. **Tikrinimo skyriaus konteinerio** modulyje pasirinkite daugtaškį (**...**), tada pasirinkite Įtraukti **modulį**.
+1. Dialogo lange **Pasirinkti** modulius pasirinkite dovanų **kortelę**, lojalumo **ir** mokėjimo **modulius**, tada pasirinkite **Gerai**. Taip užtikrinate, kad viename skyriuje kartu rodomi visi mokėjimo būdai.
 1. **Sąlygos ir terminai** vietoje įtraukite **Užbaigimo terminai ir sąlygos** modulį, jei jo reikia. Modulio ypatybių juostoje sukonfigūruokite teksto sąlygas ir terminus taip, kaip būtina.
 1. Norėdami peržiūrėti fragmentą, pasirinkite **Įrašyti** ir **Peržiūrėti**. Kai kurie moduliai, kurie neturi krepšelio konteksto, peržiūroje gali būti neatvaizduoti.
 1. Pasirinkite **Baigti redagavimą**, kad užregistruotumėte fragmentą, o tada pasirinkite **Publikuoti**, kad publikuotumėte jį.

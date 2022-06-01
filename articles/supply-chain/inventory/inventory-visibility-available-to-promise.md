@@ -2,7 +2,7 @@
 title: Turimų atsargų matomumo grafikai ir prieinamos atsargos
 description: Šioje temoje aprašoma, kaip planuoti būsimus turimos atsargos pakeitimus ir apskaičiuoti prieinamų atsargų (ATP) kiekius.
 author: yufeihuang
-ms.date: 03/04/2022
+ms.date: 05/11/2022
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2022-03-04
 ms.dyn365.ops.version: 10.0.26
-ms.openlocfilehash: 7ce868871f093fd734a466bb8a06c5782bf83302
-ms.sourcegitcommit: a3b121a8c8daa601021fee275d41a95325d12e7a
+ms.openlocfilehash: 7456f87bede7bd0073223fa4762f96f919799e06
+ms.sourcegitcommit: 38d97efafb66de298c3f504b83a5c9b822f5a62a
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8526335"
+ms.lasthandoff: 05/17/2022
+ms.locfileid: "8763259"
 ---
 # <a name="inventory-visibility-on-hand-change-schedules-and-available-to-promise"></a>Turimų atsargų matomumo grafikai ir prieinamos atsargos
 
@@ -24,7 +24,7 @@ ms.locfileid: "8526335"
 
 Šioje temoje *aprašoma*, kaip nustatyti turimos atsargose pakeitimo grafiko priemonę, kad būtų galima suplanuoti būsimus turimos atsargos pakeitimus ir apskaičiuoti prieinamų atsargų (ATP) kiekius. ATP – tai turimos prekės kiekis, kurį galima žadėti klientui kitą laikotarpį. Naudojant šį skaičiavimą gali labai padidėti užsakymo įvykdymo galimybės.
 
-Daugeliui gamybų, mažmeninės prekybos agentų ar gamybos nepakanka tik žinoti, kas šiuo metu yra. Jos turi būti visiškai matomos ateityje. Šis pasiekiamumas turi atsižvelgti į būsimą tiekimą, būsimą poreikį ir ATP.
+Daugeliui gamintojų, mažmenininkų ar pagal ką nors daugiau sužinoti, kas šiuo metu yra, nepakanka. Jos turi būti visiškai matomos ateityje. Šis pasiekiamumas turi atsižvelgti į būsimą tiekimą, būsimą poreikį ir ATP.
 
 ## <a name="enable-and-set-up-the-features"></a><a name="setup"></a> Įjungti ir nustatyti funkcijas
 
@@ -32,17 +32,26 @@ Prieš naudodami ATP turite nustatyti vieną ar daugiau apskaičiuotų priemoni�
 
 ### <a name="set-up-calculated-measures-for-atp-quantities"></a>Nustatyti APSKAIČIUOtus ATP kiekių priemones
 
-*ATP apskaičiuotas matas* yra iš anksto nustatytas apskaičiuotas matas, kuris paprastai naudojamas dabar turimas kiekiui rasti. Jo kiekių modifikatoriaus suma yra tiekimo kiekis, o jo atimties modifikatoriaus kiekių suma yra poreikio kiekis.
+*ATP apskaičiuotas matas* yra iš anksto nustatytas apskaičiuotas matas, kuris paprastai naudojamas dabar turimas kiekiui rasti. Tiekimo *kiekis* *yra* kiekių suma, skirta tiems faktiniams priemonėms, kurių modifikatoriaus tipas yra Pridėjimo tipas, o poreikio kiekis yra šių fizinių priemonių, kurių modifikatoriaus *tipas yra Atimtis,* *kiekių suma.*
 
-Norėdami apskaičiuoti ATP kiekius, galite pridėti keletą apskaičiuotų priemonių. Tačiau bendras modifikatorių skaičius visuose ATP apskaičiuotuose priemonėse turi būti mažesnis nei devyni.
+Norėdami apskaičiuoti kelis ATP kiekius, galite pridėti keletą apskaičiuotų priemonių. Tačiau bendras atskirų fizinių priemonių skaičius visose ATP apskaičiuotose priemonėse turi būti mažesnis nei devyni.
+
+> [!IMPORTANT]
+> Apskaičiuotas matas yra faktinių matų struktūra. Jos formulė gali apimti tik faktinius priemones be dublikatų, o ne apskaičiuotus išrašus.
 
 Pvz., nustatote tokį apskaičiuotą matą:
 
-**Turimos prekės** = (PhysicalInventOnHandUnrestrictedQualityInspectionInspectionInbound *·* + *·* + *·* + *·* + *) – (* *ReservPhysicalSoftReservePhysicalOutbound)* + *·* + *·*
+**Turimos turimos prekės** = (*PhysicalInvent* + *OnHand* + *·* + *neužfiksuotas QualityInspection* + *Inbound*) – (*ReservPhysical* + *SoftReservePhysical* + *Outbound*)
 
-Suma (*PhysicalInventOnHandUnrestrictedQualityInspectionInspectionInbound* + *·* + *·* + *·* + *·*) rodo tiekimą, o suma (*ReservPhysicalSoftReservePhysicalOutbound* + *·* + *·*) atitinka poreikį. Todėl apskaičiuotą matą galima suprasti taip:
+Suma (PhysicalInvent *OnHand* + *atlaisvintas QualityInspection* + *Gavimas* + *) rodo tiekimą, o suma (* + *ReservPhysical* *SoftReservePhysical* + *Outbound* + *·*) atitinka poreikį. Todėl apskaičiuotą matą galima suprasti taip:
 
-**Turimos turimos** = *paslaugos – paklausa* *·*
+**Turimas tiekimas** = *–* *poreikis*
+
+Norėdami apskaičiuoti turimo faktinio **ATP kiekį, galite pridėti kitą apskaičiuotą** matą.
+
+**Turimos turimos prekės** = (*PhysicalInvent* + *OnHand* + *neapidaręs* + *QualityInspection Inbound* + *·*) – (*Siunčiama*)
+
+Tarp šių dviejų ATP apskaičiuotų priemonių yra aštuoni skirtingi faktiniai priemonės: PhysicalInvent, OnHand *,* Unrestricted *,* QualityInspection *,* Inbound *,* ReservPhysical *,* SoftReservePhysical *ir* Outbound *.* *·*
 
 Daugiau informacijos apie apskaičiuotus matus ieškokite Apskaičiuoti [matai](inventory-visibility-configuration.md#calculated-measures).
 
@@ -80,7 +89,7 @@ Pavyzdžiui, jūs negalite pristatyti 10 užsakymo pagal ką ir tikitės, kad ji
 
 Užklaususi apie turimų atsargų matomumą ir ATP kiekius, pateikia šią kiekvienos grafiko laikotarpio dienos informaciją:
 
-- **Data** – data, taikoma rezultatui.
+- **Data** – data, taikoma rezultatui. Laiko juosta yra universalusis laikas (UTC).
 - **Turimo kiekio** – faktinis kiekis nurodytą datą. Šis skaičiavimas apskaičiuojamas pagal ATP apskaičiuotą matą, kuris sukonfigūruotas atsargų matomumui nustatyti.
 - **Suplanuotas** tiekimas – visų suplanuotų gaunamų kiekių, kurie iki nurodytos datos nebuvo faktiškai galimi skubiam suvartojimui arba siuntimui, suma.
 - **Suplanuotas** poreikis – visų suplanuotų siunčiamų kiekių, kurie nebuvo suvartoti arba išsiųsti nurodytą datą, suma.
@@ -108,79 +117,79 @@ Toliau pateikiamas pavyzdys rodo, kaip suplanuoto kiekio pakeitimų serija daro 
 
     | Data | Turimos atsargos | Suplanuotas tiekimas | Suplanuota paklausa | Projekto turimos išlaidos | ATP |
     | --- | --- | --- | --- | --- | --- |
-    | 2022/02/01 | 20 | | 3 | 17 | 17 |
-    | 2022/02/02 | 20 | | | 17 | 17 |
-    | 2022/02/03 | 20 | | | 17 | 17 |
-    | 2022/02/04 | 20 | | | 17 | 17 |
-    | 2022/02/05 | 20 | | | 17 | 17 |
-    | 2022/02/06 | 20 | | | 17 | 17 |
-    | 2022/02/07 | 20 | | | 17 | 17 |
+    | 2022-02-01 | 20 | | 3 | 17 | 17 |
+    | 2022-02-02 | 20 | | | 17 | 17 |
+    | 2022-02-03 | 20 | | | 17 | 17 |
+    | 2022-02-04 | 20 | | | 17 | 17 |
+    | 2022-02-05 | 20 | | | 17 | 17 |
+    | 2022-02-06 | 20 | | | 17 | 17 |
+    | 2022-02-07 | 20 | | | 17 | 17 |
 
 1. Šią dieną (2022 m. vasario 1 d.) pateikiate 2022 m. vasario 3 d. suplanuotą tiekimo kiekį, kuris yra 10. Toliau pateikiamoje lentelėje rodomas rezultatas.
 
     | Data | Turimos atsargos | Suplanuotas tiekimas | Suplanuota paklausa | Projekto turimos išlaidos | ATP |
     | --- | --- | --- | --- | --- | --- |
-    | 2022/02/01 | 20 | | 3 | 17 | 17 |
-    | 2022/02/02 | 20 | | | 17 | 17 |
-    | 2022/02/03 | 20 | 10 | | 27 | 27 |
-    | 2022/02/04 | 20 | | | 27 | 27 |
-    | 2022/02/05 | 20 | | | 27 | 27 |
-    | 2022/02/06 | 20 | | | 27 | 27 |
-    | 2022/02/07 | 20 | | | 27 | 27 |
+    | 2022-02-01 | 20 | | 3 | 17 | 17 |
+    | 2022-02-02 | 20 | | | 17 | 17 |
+    | 2022-02-03 | 20 | 10 | | 27 | 27 |
+    | 2022-02-04 | 20 | | | 27 | 27 |
+    | 2022-02-05 | 20 | | | 27 | 27 |
+    | 2022-02-06 | 20 | | | 27 | 27 |
+    | 2022-02-07 | 20 | | | 27 | 27 |
 
 1. Šią dieną (2022 m. vasario 1 d.) pateikiate šiuos suplanuoto kiekio pakeitimus:
 
     - 2022 m. vasario 4 d. poreikio kiekis – 15
     - 2022 m. vasario 5 d. 1 tiekimo kiekis
-    - 2022 m. vasario 6 d. 3 poreikio kiekis
+    - 2022 m. vasario 6 d. 3 tiekimo kiekis
 
     Toliau pateikiamoje lentelėje rodomas rezultatas.
 
     | Data | Turimos atsargos | Suplanuotas tiekimas | Suplanuota paklausa | Projekto turimos išlaidos | ATP |
     | --- | --- | --- | --- | --- | --- |
-    | 2022/02/01 | 20 | | 3 | 17 | 12 |
-    | 2022/02/02 | 20 | | | 17 | 12 |
-    | 2022/02/03 | 20 | 10 | | 27 | 12 |
-    | 2022/02/04 | 20 | | 15 | 12 | 12 |
-    | 2022/02/05 | 20 | 1 | | 13 | 13 |
-    | 2022/02/06 | 20 | 3 | | 16 | 16 |
-    | 2022/02/07 | 20 | | | 16 | 16 |
+    | 2022-02-01 | 20 | | 3 | 17 | 12 |
+    | 2022-02-02 | 20 | | | 17 | 12 |
+    | 2022-02-03 | 20 | 10 | | 27 | 12 |
+    | 2022-02-04 | 20 | | 15 | 12 | 12 |
+    | 2022-02-05 | 20 | 1 | | 13 | 13 |
+    | 2022-02-06 | 20 | 3 | | 16 | 16 |
+    | 2022-02-07 | 20 | | | 16 | 16 |
 
 1. Šią dieną (2022 m. vasario 1 d.) nuųsite suplanuotą 3 poreikio kiekį. Todėl šį pakeitimą turite padaryti taip, kad jis atspindėtų faktinį turimo kiekio kiekį. Norėdami fiksuoti pakeitimą, pateikiate turimo pakeitimo įvykį, kurio siunčiamas kiekis yra 3. Tada, pateikdami turimo kiekio keitimo grafiką, kurio siuntimo kiekis - 3, turite grąžinti suplanuotą pakeitimą. Toliau pateikiamoje lentelėje rodomas rezultatas.
 
     | Data | Turimos atsargos | Suplanuotas tiekimas | Suplanuota paklausa | Projekto turimos išlaidos | ATP |
     | --- | --- | --- | --- | --- | --- |
-    | 2022/02/01 | 17 | | 0 | 17 | 12 |
-    | 2022/02/02 | 17 | | | 17 | 12 |
-    | 2022/02/03 | 17 | 10 | | 27 | 12 |
-    | 2022/02/04 | 17 | | 15 | 12 | 12 |
-    | 2022/02/05 | 17 | 1 | | 13 | 13 |
-    | 2022/02/06 | 17 | 3 | | 16 | 16 |
-    | 2022/02/07 | 17 | | | 16 | 16 |
+    | 2022-02-01 | 17 | | 0 | 17 | 12 |
+    | 2022-02-02 | 17 | | | 17 | 12 |
+    | 2022-02-03 | 17 | 10 | | 27 | 12 |
+    | 2022-02-04 | 17 | | 15 | 12 | 12 |
+    | 2022-02-05 | 17 | 1 | | 13 | 13 |
+    | 2022-02-06 | 17 | 3 | | 16 | 16 |
+    | 2022-02-07 | 17 | | | 16 | 16 |
 
 1. Kitą dieną (2022 m. vasario 2 d.) grafiko laikotarpis pasislinks viena diena į priekį. Toliau pateikiamoje lentelėje rodomas rezultatas.
 
     | Data | Turimos atsargos | Suplanuotas tiekimas | Suplanuota paklausa | Projekto turimos išlaidos | ATP |
     | --- | --- | --- | --- | --- | --- |
-    | 2022/02/02 | 17 | | | 17 | 12 |
-    | 2022/02/03 | 17 | 10 | | 27 | 12 |
-    | 2022/02/04 | 17 | | 15 | 12 | 12 |
-    | 2022/02/05 | 17 | 1 | | 13 | 13 |
-    | 2022/02/06 | 17 | 3 | | 16 | 16 |
-    | 2022/02/07 | 17 | | | 16 | 16 |
-    | 2022/02/08 | 17 | | | 16 | 16 |
+    | 2022-02-02 | 17 | | | 17 | 12 |
+    | 2022-02-03 | 17 | 10 | | 27 | 12 |
+    | 2022-02-04 | 17 | | 15 | 12 | 12 |
+    | 2022-02-05 | 17 | 1 | | 13 | 13 |
+    | 2022-02-06 | 17 | 3 | | 16 | 16 |
+    | 2022-02-07 | 17 | | | 16 | 16 |
+    | 2022-02-08 | 17 | | | 16 | 16 |
 
 1. Tačiau, po dviejų dienų (2022 m. vasario 4 d.), tiekimo kiekis 10, kuris buvo suplanuotas vasario 3 d., dar nėra pristatytas. Toliau pateikiamoje lentelėje rodomas rezultatas.
 
     | Data | Turimos atsargos | Suplanuotas tiekimas | Suplanuota paklausa | Projekto turimos išlaidos | ATP |
     | --- | --- | --- | --- | --- | --- |
-    | 2022/02/04 | 17 | | 15 | 2 | 2 |
-    | 2022/02/05 | 17 | 1 | | 3 | 3 |
-    | 2022/02/06 | 17 | 3 | | 6 | 6 |
-    | 2022/02/07 | 17 | | | 6 | 6 |
-    | 2022/02/08 | 17 | | | 6 | 6 |
-    | 2022/02/09 | 17 | | | 6 | 6 |
-    | 2022/02/10 | 17 | | | 6 | 6 |
+    | 2022-02-04 | 17 | | 15 | 2 | 2 |
+    | 2022-02-05 | 17 | 1 | | 3 | 3 |
+    | 2022-02-06 | 17 | 3 | | 6 | 6 |
+    | 2022-02-07 | 17 | | | 6 | 6 |
+    | 2022-02-08 | 17 | | | 6 | 6 |
+    | 2022-02-09 | 17 | | | 6 | 6 |
+    | 2022-02-10 | 17 | | | 6 | 6 |
 
     Kaip matote, suplanuoti (bet ne fiksuoti) turimi pakeitimai neturi įtakos faktiniam turimo kiekio kiekiui.
 
@@ -188,10 +197,10 @@ Toliau pateikiamas pavyzdys rodo, kaip suplanuoto kiekio pakeitimų serija daro 
 
 Norėdami pateikti turimos informacijos keitimo grafikus, keisti įvykius ir užklausas, galite naudoti šiuos programos programavimo sąsajos (API) URL.
 
-| Maršrutas | Metodas | Aprašymas |
+| Kelias | Metodas | Aprašymas |
 | --- | --- | --- |
-| `/api/environment/{environmentId}/on-hand/changeschedule` | `POST` | Kurti vieną suplanuotą turimos dalies pakeitimą. |
-| `/api/environment/{environmentId}/on-hand/changeschedule/bulk` | `POST` | Kurti kelis suplanuotus turimos informacijos pakeitimus. |
+| `/api/environment/{environmentId}/onhand/changeschedule` | `POST` | Kurti vieną suplanuotą turimos dalies pakeitimą. |
+| `/api/environment/{environmentId}/onhand/changeschedule/bulk` | `POST` | Kurti kelis suplanuotus turimos informacijos pakeitimus. |
 | `/api/environment/{environmentId}/onhand` | `POST` | Sukurti vieną turimos informacijos pakeitimo įvykį. |
 | `/api/environment/{environmentId}/onhand/bulk` | `POST` | Kurti kelis pakeitimo įvykius. |
 | `/api/environment/{environmentId}/onhand/indexquery` | `POST` | Užklausa naudojant `POST` metodą. |
@@ -199,31 +208,46 @@ Norėdami pateikti turimos informacijos keitimo grafikus, keisti įvykius ir už
 
 Norėdami gauti daugiau informacijos, žr. [atsargų matomumo viešas API](inventory-visibility-api.md).
 
-### <a name="submit-on-hand-change-schedules"></a>Pateikti turimos informacijos keitimo grafikus
+### <a name="create-one-on-hand-change-schedule"></a>Kurti vieną turimos informacijos pakeitimo grafiką
 
-Turimų atsargų keitimo grafikai `POST` atliekami pateikiant užklausą atitinkamiems atsargų matomumo paslaugos URL ([žr. keitimo grafikų, keitimo įvykių ir ATP užklausas API](#api-urls) skyriuje). Taip pat galite pateikti masinių užklausų.
+Turimų atsargų pakeitimo `POST` grafikas sukuriamas pateikiant užklausą atitinkamiems atsargų matomumo paslaugos URL ([žr. keitimo grafikų, keitimo įvykių ir ATP užklausas API](#api-urls) skyriuje). Taip pat galite pateikti masinių užklausų.
 
-Norint pateikti turimos informacijos pakeitimo grafiką, užklausos dokumentuose turi būti organizacijos ID, produkto ID, suplanuota data ir kiekiai pagal datą. Suplanuota data turi būti tarp dabartinio grafiko laikotarpio dabartinio datos ir pabaigos.
+Turimos informacijos pakeitimo grafiką galima sukurti tik tada, jei suplanuota data yra tarp dabartinės datos ir dabartinio grafiko laikotarpio pabaigos. Datetime formatas turi būti *metai (pvz* ., **2022-02-01**). Laiko formatas turi būti tikslus tik dienai.
 
-#### <a name="example-request-body-that-contains-a-single-update"></a>Užklausos, kurioje yra vienas atnaujinimas, pavyzdys
+API sukuria vieną turimos informacijos pakeitimo grafiką.
 
-Toliau pateikiamas pavyzdys rodo užklausos tekstas, kuriame yra vienas atnaujinimas.
+```txt
+Path:
+    /api/environment/{environmentId}/onhand/changeschedule
+Method:
+    Post
+Headers:
+    Api-Version="1.0"
+    Authorization="Bearer $access_token"
+ContentType:
+    application/json
+Body:
+    {
+        id: string,
+        organizationId: string,
+        productId: string,
+        dimensionDataSource: string, # optional
+        dimensions: {
+            [key:string]: string,
+        },
+        quantitiesByDate: {
+            [datetime:datetime]: {
+                [dataSourceName:string]: {
+                    [key:string]: number,
+                },
+            },
+        },
+    }
+```
+
+Šiame pavyzdyje rodomas turinio pavyzdžio turinys `dimensionDataSource`.
 
 ```json
-# Url
-# replace {RegionShortName} and {EnvironmentId} with your value
-https://inventoryservice.{RegionShortName}-il301.gateway.prod.island.powerapps.com/api/environment/{EnvironmentId}/on-hand/changeschedule
-
-# Method
-Post
-
-# Header
-# Replace {access_token} with the one from your security service
-Api-version: "1.0"
-Content-Type: "application/json"
-Authorization: "Bearer {access_token}"
-
-# Body
 {
     "id": "id-bike-0001",
     "organizationId": "usmf",
@@ -232,38 +256,60 @@ Authorization: "Bearer {access_token}"
         "SiteId": "1",
         "LocationId": "11",
         "ColorId": "Red",
-        "SizeId": "Small"
+        "SizeId&quot;: &quot;Small"
     },
     "quantitiesByDate":
     {
-        "2022/02/01": // today
+        "2022-02-01": // today
         {
             "pos":{
-                "inbound": 10,
-            },
-        },
-    },
+                "inbound": 10
+            }
+        }
+    }
 }
 ```
 
-#### <a name="example-request-body-that-contains-multiple-bulk-updates"></a>Užklausos, kurioje yra keli (masiniai) naujinimai, pavyzdys
+### <a name="create-multiple-on-hand-change-schedules"></a>Kurti kelių turimos informacijos keitimo grafikus
 
-Šiame pavyzdyje rodomas užklausos tekstas, kuriame yra keli (masiniai) naujinimai.
+API gali kurti kelis įrašus vienu metu. Vienintelis skirtumas tarp šios API ir vieno įvykio API yra ir `Path``Body` vertės. Šiai API `Body` pateikiamas įrašų masyvas. Maksimalus įrašų skaičius yra 512. Todėl turimos atsargų pakeitimo grafiko buferinės API gali palaikyti iki 512 suplanuotų pakeitimų.
+
+```txt
+Path:
+    /api/environment/{environmentId}/onhand/changeschedule/bulk
+Method:
+    Post
+Headers:
+    Api-Version="1.0"
+    Authorization="Bearer $access_token"
+ContentType:
+    application/json
+Body:
+    [
+        {
+            id: string,
+            organizationId: string,
+            productId: string,
+            dimensionDataSource: string,
+            dimensions: {
+                [key:string]: string,
+            },
+            quantityDataSource: string, # optional
+            quantitiesByDate: {
+                [datetime:datetime]: {
+                    [dataSourceName:string]: {
+                        [key:string]: number,
+                    },
+                },
+            },
+        },
+        ...
+    ]
+```
+
+Šiame pavyzdyje rodomas turinio pavyzdžio turinys.
 
 ```json
-# Url
-# replace {RegionShortName} and {EnvironmentId} with your value
-https://inventoryservice.{RegionShortName}-il301.gateway.prod.island.powerapps.com/api/environment/{EnvironmentId}/on-hand/changeschedule/bulk
-
-# Method
-Post
-
-# Header
-# replace {access_token} with the one from your security service
-Api-version: "1.0"
-Content-Type: "application/json"
-Authorization: "Bearer {access_token}"
-
 [
     {
         "id": "id-bike-0001",
@@ -273,67 +319,51 @@ Authorization: "Bearer {access_token}"
             "SiteId": "1",
             "LocationId": "11",
             "ColorId": "Red",
-            "SizeId": "Small"
+            "SizeId&quot;: &quot;Small"
         },
         "quantitiesByDate":
         {
-            "2022/02/01": // today
+            "2022-02-01": // today
             {
                 "pos":{
-                    "inbound": 10,
-                },
-            },
-        },
+                    "inbound": 10
+                }
+            }
+        }
     },
     {
-        "id": "id-bike-0002",
+        "id": "id-car-0002",
         "organizationId": "usmf",
         "productId": "Car",
         "dimensions": {
             "SiteId": "1",
             "LocationId": "11",
             "ColorId": "Red",
-            "SizeId": "Small"
+            "SizeId&quot;: &quot;Small"
         },
         "quantitiesByDate":
         {
-            "2022/02/05":
+            "2022-02-05":
             {
                 "pos":{
-                    "outbound": 10,
-                },
-            },
-        },
+                    "outbound": 10
+                }
+            }
+        }
     }
 ]
 ```
 
-### <a name="submit-on-hand-change-events"></a>Pateikti turimos informacijos keitimo įvykius
+### <a name="create-on-hand-change-events"></a>Kurti vieną turimos informacijos pakeitimo įvykius
 
 Turimų atsargų pakeitimo `POST` įvykiai atliekami pateikiant užklausą atitinkamiems atsargų matomumo paslaugos URL ([žr. keitimo grafikų, keitimo įvykių ir ATP užklausas API](#api-urls) skyriuje). Taip pat galite pateikti masinių užklausų.
 
 > [!NOTE]
-> Turimų atsargų pakeitimo įvykiai nėra unikalūs ATP funkcijoms, bet yra standartinių atsargų matomumo API dalis. Šis pavyzdys įtrauktas, nes įvykiai yra svarbūs, kai dirbate su ATP. Turimos informacijos pakeitimo įvykiai yra panašūs į turimos informacijos keitimo rezervavimus, tačiau įvykių pranešimus reikia siųsti į kitą API URL ir įvykius, `quantities``quantityByDate` kurie naudojami vietoje pranešimo teksto. Daugiau informacijos apie turimų atsargų pakeitimo įvykius ir kitas atsargų matomumo API funkcijas ieškokite [atsargų matomumo viešuose API](inventory-visibility-api.md).
-
-Norint pateikti turimos informacijos pakeitimo įvykį, užklausos dokumentuose turi būti organizacijos ID, produkto ID, suplanuota data ir kiekiai pagal datą. Suplanuota data turi būti tarp dabartinio grafiko laikotarpio dabartinio datos ir pabaigos.
+> Turimų atsargų pakeitimo įvykiai nėra unikalūs ATP funkcijoms, bet yra standartinių atsargų matomumo API dalis. Šis pavyzdys įtrauktas, nes įvykiai yra svarbūs, kai dirbate su ATP. Turimos informacijos pakeitimo įvykiai yra panašūs į turimos informacijos keitimo rezervavimus, tačiau įvykių pranešimus reikia siųsti į kitą API URL ir įvykius, `quantities``quantityByDate` kurie naudojami vietoje pranešimo teksto. Daugiau informacijos apie turimų atsargų pakeitimo įvykius ir kitas atsargų matomumo API funkcijas ieškokite [atsargų matomumo viešuose API](inventory-visibility-api.md#create-one-onhand-change-event).
 
 Toliau pateikiamas pavyzdys rodo užklausos instituciją, kurioje yra vienas turimos informacijos keitimo įvykis.
 
 ```json
-# Url
-# replace {RegionShortName} and {EnvironmentId} with your value
-https://inventoryservice.{RegionShortName}-il301.gateway.prod.island.powerapps.com/api/environment/{EnvironmentId}/onhand
-
-# Method
-Post
-
-# Header
-# Replace {access_token} with the one from your security service
-Api-version: "1.0"
-Content-Type: "application/json"
-Authorization: "Bearer {access_token}"
-
-# Body
 {
     "id": "id-bike-0001",
     "organizationId": "usmf",
@@ -342,7 +372,7 @@ Authorization: "Bearer {access_token}"
         "SiteId": "1",
         "LocationId": "11",
         "SizeId": "Big",
-        "ColorId": "Red",
+        "ColorId": "Red"
     },
     "quantities": {
         "pos": {
@@ -362,46 +392,71 @@ Savo užklausoje nustatykite `QueryATP` kaip *teisingas*, jei norite pateikti u�
 - Jei užklausą pateikiate naudodami šį metodą `POST`, nustatykite šį parametrą užklausos body.
 
 > [!NOTE]
-> Neatsižvelgiant į tai, `returnNegative`*·* *ar* parametras užklausos sąstate nustatytas kaip teisingas ar klaidingas, rezultatuose bus neigiamos vertės, kai užklausoje bus nustatyti suplanuoti turimo atsargų pakeitimai ir ATP rezultatai. Šios neigiamos vertės bus įtrauktos, nes, jei suplanuoti tik poreikio užsakymai, arba jei tiekimo kiekiai yra mažesni nei poreikio kiekiai, suplanuoti turimi pakeisti kiekiai bus neigiami. Jei neigiamos vertės nebuvo įtrauktos, rezultatai bus priinioti. Norėdami gauti daugiau informacijos apie šią pasirinktį ir kaip ji veikia kitų tipų užklausoms, žr [. atsargų matomumo viešąsias API](inventory-visibility-api.md).
+> Neatsižvelgiant į tai, `returnNegative`*·* *ar* parametras užklausos sąstate nustatytas kaip teisingas ar klaidingas, rezultatuose bus neigiamos vertės, kai užklausoje bus nustatyti suplanuoti turimo atsargų pakeitimai ir ATP rezultatai. Šios neigiamos vertės bus įtrauktos, nes, jei suplanuoti tik poreikio užsakymai, arba jei tiekimo kiekiai yra mažesni nei poreikio kiekiai, suplanuoti turimi pakeisti kiekiai bus neigiami. Jei neigiamos vertės nebuvo įtrauktos, rezultatai bus priinioti. Norėdami gauti daugiau informacijos apie šią pasirinktį ir kaip ji veikia kitų tipų užklausoms, žr [. atsargų matomumo viešąsias API](inventory-visibility-api.md#query-with-post-method).
 
-### <a name="post-method-example"></a>Post metodo pavyzdys
+```txt
+Path:
+    /api/environment/{environmentId}/onhand/indexquery
+Method:
+    Post
+Headers:
+    Api-Version="1.0"
+    Authorization="Bearer $access_token"
+ContentType:
+    application/json
+Body:
+    {
+        dimensionDataSource: string, # Optional
+        filters: {
+            organizationId: string[],
+            productId: string[],
+            siteId: string[],
+            locationId: string[],
+            [dimensionKey:string]: string[],
+        },
+        groupByValues: string[],
+        returnNegative: boolean,
+    }
+```
 
 Toliau pateikiamas pavyzdys rodo, kaip sukurti užklausos instituciją, kurią galima pateikti atsargų matomumui naudojant `POST` metodą.
 
 ```json
-# Url
-# replace {RegionShortName} and {EnvironmentId} with your value
-https://inventoryservice.{RegionShortName}-il301.gateway.prod.island.powerapps.com/api/environment/{EnvironmentId}/on-hand/indexquery
-
-# Method
-Post
-
-# Header
-# replace {access_token} with the one from your security service
-Api-version: "1.0"
-Content-Type: "application/json"
-Authorization: "Bearer {access_token}"
-
-# Body
 {
     "filters": {
         "organizationId": ["usmf"],
         "productId": ["Bike"],
         "siteId": ["1"],
-        "LocationId": ["11"],
+        "LocationId": ["11"]
     },
     "groupByValues": ["ColorId", "SizeId"],
     "returnNegative": true,
-    "QueryATP":true,
+    "QueryATP":true
 }
 ```
 
 ### <a name="get-method-example"></a>GET metodo pavyzdys
 
+```txt
+Path:
+    /api/environment/{environmentId}/onhand
+Method:
+    Get
+Headers:
+    Api-Version="1.0"
+    Authorization="Bearer $access_token"
+ContentType:
+    application/json
+Query(Url Parameters):
+    groupBy
+    returnNegative
+    [Filters]
+```
+
 Toliau pateikiamas pavyzdys, kaip sukurti užklausos URL kaip užklausą`GET`.
 
 ```txt
-https://inventoryservice.{RegionShortName}-il301.gateway.prod.island.powerapps.com/api/environment/{EnvironmentId}/onhand?organizationId=usmf&productId=Bike&SiteId=1&groupBy=ColorId,SizeId&returnNegative=true&QueryATP=true
+https://inventoryservice.{RegionShortName}-il301.gateway.prod.island.powerapps.com/api/environment/{EnvironmentId}/onhand?organizationId=usmf&productId=Bike&SiteId=1&LocationId=11&groupBy=ColorId,SizeId&returnNegative=true&QueryATP=true
 ```
 
 Šios užklausos rezultatas `GET` yra lygiai toks pat kaip ir ankstesnio `POST` pavyzdžio užklausos rezultatas.

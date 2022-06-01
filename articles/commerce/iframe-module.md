@@ -2,7 +2,7 @@
 title: „Iframe“ modulis
 description: Šis skyrius aprašo „iframe“ modulį ir tai, kaip įtraukti jį į vietos puslapius „Microsoft Dynamics 365 Commerce“.
 author: anupamar-ms
-ms.date: 11/04/2021
+ms.date: 05/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: bce6a50e8c145f8961bd0c839fe16c1f4d69e811
-ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
+ms.openlocfilehash: eeb9d76367be6b2d2153578f6358594b807382ac
+ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "7754019"
+ms.lasthandoff: 05/19/2022
+ms.locfileid: "8780239"
 ---
 # <a name="iframe-module"></a>„Iframe“ modulis
 
@@ -45,7 +45,7 @@ Toliau pateiktas paveikslėlis rodo „iframe“ modulių pavyzdžius, kurie ili
 |---------------------------|-----------------------|-------------|
 | Antraštė | Tekstas | Modulio antraštė. |
 | Paskirties URL | URL | URL, kuris yra patalpintas modulyje. |
-| Aukštis | Procentų skaičius | Modulio aukštis pikseliais arba procentais. Pavyzdžiui, **100** vertė bus laikoma pikselių numeriais, o vertė **100%** traktuojama kaip procentai. |
+| Aukštis | Procentų skaičius | Modulio aukštis pikseliais arba procentais. Pavyzdžiui,**100** vertė bus laikoma pikselių numeriais, o vertė **100%** traktuojama kaip procentai. |
 | ARIA žyma | Tekstas | Prieinamų praturtinto interneto programų (ARIA) etiketės gali būti nustatytas prieinamumo tikslais. |
 
 ## <a name="add-an-iframe-module-to-a-page"></a>Įtraukti „iframe“ modulį į puslapį
@@ -53,22 +53,25 @@ Toliau pateiktas paveikslėlis rodo „iframe“ modulių pavyzdžius, kurie ili
 Siekiant įtraukti „iframe“ modulį į puslapį ir parodyti išorinį vaizdo įrašą, atlikite šiuos žingsnius.
 
 1. Eikite į **Šablonai** ir pasirinkite **Naujas**, kad sukurtumėte naują šabloną.
-1. **Naujo šablono** teksto laukelyje, skyriuje **Šablono pavadinimas** įveskite **Komercijos šablono** ir tuomet pasirinkite **Gerai**.
+1. Dialogo lange **Naujas šablonas**, po Šablono **pavadinimu**, įveskite **Rinkodaros šabloną** ir pasirinkite **Gerai**.
 1. Pasirinkite **Išsaugoti**, tada – **Baigti redagavimą**, kad užregistruotumėte šabloną, o tada pasirinkite **Publikuoti**, kad publikuotumėte jį.
 1. Eikite į **Puslapiai** ir pasirinkite **Naujas**, kad sukurtumėte naują puslapį.
-1. **Pasirinkite šabloną** teksto laukelyje, pasirinkite **Komercijos šablono** šabloną. Skyriuje **Puslapio pavadinimas**, įveskite **Komercijos puslapis** ir tuomet pasirinkite **Gerai**.
-1. Naujo puslapio vietoje **Pagrindinis** pasirinkite daugtaškį (**...**), tada – **Įtraukti modulį**.
-1. Dialogo lange **Įtraukti modulį** pasirinkite modulį **Konteineris**, tada pasirinkite **Gerai**.
+1. Dialogo lange **Kurti naują puslapį**, po Puslapio **pavadinimas**, įveskite Rinkodaros **puslapį** ir pasirinkite **Pirmyn**.
+1. Dalyje **Pasirinkti šabloną pasirinkite** rinkodaros šabloną **, kurį sukūrėte**, tada pasirinkite **Pirmyn**.
+1. Dalyje **Pasirinkti maketą** pasirinkite puslapio maketą (pvz., Lankstusis **maketas**) ir pasirinkite **Pirmyn**.
+1. Dalyje **Peržiūrėti ir baigti** peržiūrėkite puslapio konfigūraciją. Jei reikia redaguoti puslapio informaciją, pasirinkite **Atgal**. Jei puslapio informacija teisinga, pasirinkite Kurti **puslapį**. 
+1. Naujo puslapio **pagrindiniame** atrinkinyje pasirinkite daugtaškį (**...**), tada pasirinkite Įtraukti **modulį**.
+1. Dialogo lange **Pasirinkti modulius** pasirinkite konteinerio **modulį**, tada pasirinkite **Gerai**.
 1. Modulio ypatybių juostoje, nustatykite **Pločio** vertę į **Užpildyti konteinerį**.
-1. Vietoje **Konteineris** pasirinkite daugtaškį (**...**), tada – **Įtraukti modulį**.
-1. **Modulio įtraukimo** teksto laukelyje pasirinkite **„iframe“** modulį ir tuomet pasirinkite **Gerai**.
+1. Konteinerio **laiko** atminties atminties dalyje pasirinkite daugtaškį (**...**), tada pasirinkite Įtraukti **modulį**.
+1. Dialogo lange **Pasirinkti modulius** pasirinkite iframe **modulį** ir pasirinkite **Gerai**.
 1. Modulio ypatybių juostoje, nustatykite **Galutinis URL** vertę išorės URL vaizdo įrašui.
 1. Nustatykite kitas ypatybes, tokias kaip **Antraštė** ir **Aukštis**, kaip norite.
 1. Pasirinkite **Išsaugoti**, tada – **Baigti redagavimą**, kad užregistruotumėte puslapį, o tada pasirinkite **Publikuoti**, kad publikuotumėte jį.
 1. Eikite į komercijos puslapį savo svetainėje. Turėtumėte matyti, kad vaizdo įrašas yra sukurtas „iframe“ modulyje.
 
 > [!NOTE]
-> Kadangi iframe modulis nuomoja išorinį turinį, svetainės autoriai turi užtikrinti, kad iframe modulyje laikomas turinys nepažeidžia turinio apribojimo strategijų atitinkamoje rinkoje. Jei puslapyje, kuris naudoja iframe modulį, yra turinio pažeidimas, svetainės autorius gali pašalinti iframe modulį atidarydamas puslapį svetainės generatoriuje, pasirinkdamas Pašalinti modulį iframe modulio laiko atminties dalyje ir įrašęs bei paskelbdamas **·** puslapį iš naujo.
+> Kadangi iframe modulis nuomoja išorinį turinį, svetainės autoriai turi užtikrinti, kad iframe modulyje laikomas turinys nepažeidžia turinio apribojimo strategijų atitinkamoje rinkoje. Jei puslapyje, kuris naudoja iframe modulį, yra turinio pažeidimas, svetainės autorius gali pašalinti iframe modulį atidarydamas puslapį svetainės generatoriuje, **pasirinkdamas** Pašalinti modulį iframe modulio laiko atminties dalyje ir įrašęs bei paskelbdamas puslapį iš naujo.
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 

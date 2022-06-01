@@ -2,7 +2,7 @@
 title: ER konfigūracijų našumo trikčių šalinimas
 description: Šioje temoje paaiškinama, kaip rasti ir išspręsti efektyvumo problemas elektroninių ataskaitų (ER) konfigūracijose.
 author: NickSelin
-ms.date: 06/08/2021
+ms.date: 05/12/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: maximbel
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: b5f5308f171b6cd4224debec897dbde133e6d8424673aabfab51e6b83b9014e2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e727e06c73ff445bf4219ac5a9eee7bec25740d9
+ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6744391"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8811686"
 ---
 # <a name="troubleshooting-performance-issues-in-er-configurations"></a>ER konfigūracijų našumo trikčių šalinimas
 
@@ -55,7 +55,7 @@ Kartais efektyvumo problemų lemia ER formato konfigūracija, naudojama ataskait
 
 Parengti smulkų pavyzdį arba surinkti keletą sekimo duomenų atsitiktinėse ataskaitos generavimo dalyse.
 
-Tada, [„trace parser“](#trace-parser) atlikite standartinę analizę "iš apačios į viršų" ir atsakykite į šiuos klausimus:
+Tada dalyje [Trace Parser atlikite](#trace-parser) standartinę "iš apačios į viršų" analizę ir atsakykite į šiuos klausimus:
 
 - Kokie yra pagrindiniai laiko suvartojimo metodai?
 - Kokia viso laiko dalis naudojama šiais metodais?
@@ -82,7 +82,7 @@ Tada atidarykite sekimą ER modelio susiejimo konstruktoriuje ir pažiūrėkite 
 
 - Ar užklausų skaičius ir išrinktų įrašų skaičius atitinka bendrą duomenų kiekį? Pavyzdžiui, jei dokumente yra 10 eilučių, ar statistika rodo, kad ataskaitoje išskleista 10 eilučių ar 1000 eilučių? Jei turite daug išrinktų įrašų, apsvarstykite vieną iš šių pataisymų:
 
-    - [Naudokite **FILTRO** funkciją, o ne **WHERE** funkciją](#filter) norėdami apdoroti duomenis SQL serverio pusėje.
+    - [Duomenims **kitoje pusėje apdoroti naudokite** funkciją FILTER **, o** ne FUNKCIJĄ WHERE](#filter)Microsoft SQL Server.
     - Kaupdami talpykloje nenaudokite tų pačių duomenų.
     - [Naudokite surinktų duomenų](#collected-data) funkcijas, kad išvengtumėte tų pačių duomenų apibendrinimo duomenų.
 
@@ -191,6 +191,10 @@ Yra keletas šio požiūrio apribojimų. Turite administruoti prieigą prie maš
 
 Nors kaupimas talpykloje sumažina laiko, kuris reikalingas duomenims vėl surasti, kiekį, jis kainuoja atminties. Kaupimą talpykloje naudokite atvejus, kai išrinktų duomenų kiekis nėra labai didelis. Daugiau informacijos ir pavyzdį, kuriame parodyta, kaip naudoti kaupimą talpykloje, žr. Patobulinkite modelio susiejimą, [remiantis vykdymo sekimo informacija](trace-execution-er-troubleshoot-perf.md#improve-the-model-mapping-based-on-information-from-the-execution-trace).
 
+#### <a name="reduce-volume-of-data-fetched"></a><a name="reduce-fetched-data"></a> Sumažinti išrinktų duomenų tūrį
+
+Galite sumažinti atminties suvartojimą talpykloje, apribodami taikomosios programos lentelės įrašų, kuriuos galite surasti vykdymo metu, laukų skaičių. Šiuo atveju rasite tik tas programos lentelės laukų vertes, kurios reikia jūsų ER modelio susiejime. Nebus išrinkti kiti tos lentelės laukai. Todėl sumažinamas atminties, kurios reikia norint talpykloje padėti išrinktus įrašus, tūris. Daugiau informacijos rasite patobulinkite [ER sprendimų našumą sumažinę lentelių laukų, išrinktų vykdymo metu, skaičių](er-reduce-fetched-fields-number.md).
+
 #### <a name="use-a-cached-parameterized-calculated-field"></a><a name="cached-parameterized"></a>Naudoti talpykloje parametruotą apskaičiuotą lauką
 
 Kartais vertės turi būti peržvalgos pakartotinai. Pavyzdžiai gali būti sąskaitų pavadinimai ir sąskaitų numeriai. Norėdami sutaupyti laiko, galite sukurti apskaičiuotą lauką, kuriame yra aukščiausio lygio parametrų, tada į talpyklą įtraukite lauką.
@@ -218,4 +222,4 @@ ER gali naudoti duomenis iš šių šaltinių:
 - Klasės (**objekto** ir **klasės** duomenų šaltiniai)
 - Lentelės (**lentelė** ir **lentelės įrašo** duomenų šaltiniai)
 
-[ER API](er-apis-app73.md#how-to-access-internal-x-objects-by-using-erobjectsfactory) taip pat suteikia būdą iš anksto apskaičiuotims duomenims iš iškvietimo kodo siųsti. Programos komplekte yra keletas šio požiūrio pavyzdžių.
+[ER programos programavimo sąsaja (API)](er-apis-app73.md#how-to-access-internal-x-objects-by-using-erobjectsfactory) taip pat suteikia būdą iš anksto apskaičiuotims duomenims iš iškvietimo kodo siųsti. Programos komplekte yra keletas šio požiūrio pavyzdžių.

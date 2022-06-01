@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: a2f7929026f41e921b71bc5a899810695c859902
-ms.sourcegitcommit: d475dea4cf13eae2f0ce517542c5173bb9d52c1c
+ms.openlocfilehash: 7e42c0b49a4083edd0e64551f4840bd74d412fc1
+ms.sourcegitcommit: 1877696fa05d66b6f51996412cf19e3a6b2e18c6
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/05/2022
-ms.locfileid: "8547794"
+ms.lasthandoff: 05/20/2022
+ms.locfileid: "8786844"
 ---
 # <a name="configure-inventory-visibility"></a>Atsargų matomumo konfigūravimas
 
@@ -60,7 +60,7 @@ Atsargų matomumo priedas prie jūsų diegimo prideda keletą naujų „Power Ap
 
 Jei nežinote tinkamo atsargų matomumo tarnybos galinio punkto, atidarykite **konfigūracijos** puslapį „Power Apps“ ir tada rinkitės **Rodyti paslaugos galinį punktą** dešiniajame viršutiniame kampe. Puslapyje bus rodomas tinkamas tarnybos galinis punktas.
 
-## <a name="data-source-configuration"></a>Duomenų šaltinio konfigūravimas
+## <a name="data-source-configuration"></a><a name="data-source-configuration"></a>Duomenų šaltinio konfigūravimas
 
 Kiekvienas duomenų šaltinis rodo sistemą, iš kurios gauti jūsų duomenys. Duomenų šaltinių pavadinimų pavyzdys gali `fno` būti (tai reiškia "Dynamics 365" finansų ir operacijų programėlės) `pos` ir (tai reiškia "point of sale"). Pagal numatytuosius nustatymus „Supply Chain Management“ nustatomas kaip numatytasis duomenų šaltinis (`fno`) atsargų matomumo atveju.
 
@@ -141,7 +141,7 @@ Norėdami dimensijų žemėlapius, atlikite nurodytus veiksmus.
 
 Pavyzdžiui, jei jūsų duomenų šaltinyje yra produkto spalvos dimensija, galite susieti ją su bazine dimensija `ColorId` norėdami `ProductColor` pasirinktinė dimensija būtų įtraukta į `exterchannel` duomenų šaltinį. Tada ji bus susietas su bazine `ColorId` dimensija.
 
-### <a name="physical-measures"></a>Fizinis matas
+### <a name="physical-measures"></a><a name="data-source-configuration-physical-measures"></a>Fizinis matas
 
 Kai duomenų šaltinis užregistruoja atsargų pakeitimą į Atsargų matomumą, jis užregistruoja jį naudodamas *faktinius duomenis*. Faktinės priemonės modifikuoja kiekį ir atspindi atsargų būseną. Atsižvelgdami į savo poreikius galite apibrėžti savo fizinius priemones. Užklausos gali būti pagrįstos faktiniais išmes taisyme.
 
@@ -175,6 +175,9 @@ Jei duomenų šaltinis yra „Supply Chain Management“, nereikia iš naujo kur
 ### <a name="calculated-measures"></a>Apskaičiuoti matai
 
 Atsargų matomumo užklausą galite naudoti ir atsargų faktiniams priemonėms, ir *pasirinktiniams apskaičiuoties priemonėms*. Skaičiuojami reiškia pritaikytą skaičiavimo formulę, kurią sudaro fizinių priemonių derinys. Ši funkcija paprasčiausiai leidžia jums nustatyti priemonės rinkinį, kuris bus įtrauktas ir (arba) nustatys priemones išimtas siekiant suformuoti tinkintą priemonę.
+
+> [!IMPORTANT]
+> Apskaičiuotas matas yra faktinių matų struktūra. Jos formulė gali apimti tik faktinius priemones be dublikatų, o ne apskaičiuotus išrašus.
 
 Konfigūracija leidžia apibrėžti modifikatorių rinkinį, kuris pridedamas ar atimamas, kad būtų gauti bendras suvestinis išeigos kiekis.
 
