@@ -12,11 +12,13 @@
               href: ../fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
             - name: Kas nauja ar pasikeitė „Platform“ naujinimuose
               items:
-                - name: Kas nauja ar pasikeitė „Platform“ naujinimuose pagrindinis puslapis
+                - name: Kas nauja ar pasikeitė „Platform“ naujinimų pagrindiniame puslapyje
                   href: get-started/whats-new-home-page.md
-                - name: "„Platform“ naujinimai 10.0.27 versijai (2022\_m. liepos mėn.)"
+                - name: "„Platform“ naujinimai, skirti 10.0.28 versijai (2022\_m. rugpjūčio mėn.)"
+                  href: get-started/whats-new-platform-updates-10-0-28.md
+                - name: "„Platform“ naujinimai, skirti 10.0.27 versijai (2022\_m. liepos mėn.)"
                   href: get-started/whats-new-platform-updates-10-0-27.md
-                - name: "„Platform“ naujinimai 10.0.26 versijai (2022\_m. gegužės mėn.)"
+                - name: "„Platform“ naujinimai, skirti 10.0.26 versijai (2022\_m. gegužės mėn.)"
                   href: get-started/whats-new-platform-updates-10-0-26.md
                 - name: "„Platform“ naujinimai, skirti 10.0.25 versijai (2022\_m. balandžio mėn.)"
                   href: get-started/whats-new-platform-updates-10-0-25.md
@@ -384,9 +386,9 @@
                   items:
                     - name: Vietinių projektų LCS nustatymas
                       href: lifecycle-services/lbd-create-lcs-on-prem-project.md
-                    - name: Vietinių aplinkų nustatymas ir diegimas („Platform update 41“ar naujesnės versijos)
+                    - name: Vietinių aplinkų nustatymas ir diegimas (41 ar naujesnis „Platform“ naujinimas)
                       href: deployment/setup-deploy-on-premises-pu41.md
-                    - name: Vietinių aplinkų nustatymas ir diegimas („Platform update“ nuo 12 iki 40 versijos)
+                    - name: Vietinių aplinkų nustatymas ir diegimas (12–40 „Platform“ naujinimai)
                       href: deployment/setup-deploy-on-premises-pu12.md
                     - name: „Retail“ kanalų komponentų vietinėje aplinkoje diegimo veiksmai
                       href: deployment/deploy-retail-onprem.md
@@ -1018,6 +1020,8 @@
                   href: lifecycle-services/azure-data-explorer.md
             - name: Aplinkos paslaugų paleidimas iš naujo
               href: lifecycle-services/restart-environment-services.md
+            - name: Aplinkos administratoriaus naujinimas
+              href: lifecycle-services/update-environment-admin.md
             - name: Pranešimas apie gamybos sutrikimus
               href: lifecycle-services/report-production-outage.md
             - name: Vartotojų prisijungimų sekimas
@@ -1266,6 +1270,8 @@
               items:
                 - name: Priedų peržiūra
                   href: power-platform/add-ins-overview.md
+            - name: Mobiliosios patirties kūrimas
+              href: power-platform/build-mobile-experiences.md
             - name: Strategijos ir ryšiai
               href: /power-platform/admin/policies-communications?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json
         - name: Mobilioji platforma

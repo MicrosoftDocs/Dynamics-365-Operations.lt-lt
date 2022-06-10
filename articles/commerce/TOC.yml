@@ -10,8 +10,10 @@
               href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/commerce/toc.json
             - name: Kas nauja ar pasikeitė „Commerce”
               items:
-                - name: Kas nauja ar pasikeitė „Commerce“ pagrindinis puslapis
+                - name: Kas nauja ar pasikeitė „Commerce“ pagrindiniame puslapyje
                   href: get-started/whats-new-home-page.md
+                - name: „Commerce 10.0.28“ (2022 m. liepos mėn.)
+                  href: get-started/whats-new-commerce-10-0-28.md
                 - name: „Commerce 10.0.27“ (2022 m. liepos mėn.)
                   href: get-started/whats-new-commerce-10-0-27.md
                 - name: „Commerce 10.0.26“ (2022 m. gegužės mėn.)
@@ -1300,9 +1302,13 @@
               items:
                 - name: Kurti pasirinktinius 4xx/5xx būsenos kodo klaidų atsakymų puslapius
                   href: build-pages-400-500-errors.md
+            - name: Paslaugos integravimas
+              items:
+                - name: „Customer Voice“ integravimas į el. prekybos svetainės puslapius
+                  href: customer-voice-integration.md
         - name: Apsauga nuo sukčiavimo
           items:
-            - name: „Dynamics 365 Fraud Protection“ integravimas su „Dynamics 365 Commerce“
+            - name: „Dynamics 365 Fraud Protection“ integravimas į „Dynamics 365 Commerce“
               href: dev-itpro/DFP.md
         - name: B2B el. prekyba
           items:
@@ -2118,6 +2124,8 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-lookup-data-sources.md?toc=/dynamics365/commerce/toc.json
                     - name: DUOMENŲ RINKINIO duomenų šaltinių naudojimas ER formatuose
                       href: ../fin-ops-core/dev-itpro/analytics/er-data-collection-data-sources.md?toc=/dynamics365/commerce/toc.json
+                    - name: 'USER INPUT PARAMETER duomenų šaltinių naudojimas ataskaitos, kurią norite generuoti, parametrams nurodyti'
+                      href: ../fin-ops-core/dev-itpro/analytics/er-user-input-parameter-data-sources.md?toc=/dynamics365/commerce/toc.json
                     - name: Duomenų šaltinių derinimas
                       href: ../fin-ops-core/dev-itpro/analytics/er-debug-data-sources.md?toc=/dynamics365/commerce/toc.json
                 - name: Duomenų modelių konfigūravimas
@@ -2726,11 +2734,13 @@
                               href: e-commerce-extensibility/cookie-api-overview.md
                             - name: Interaktyviųjų komponentų peržiūra
                               href: e-commerce-extensibility/interactive-components.md
-                            - name: Padaryti būsenos Prisijungęs maketą per vietinį kūrimą
+                            - name: Būsenos Prisijungęs maketo darymas per vietinį kūrimą
                               href: e-commerce-extensibility/mock-sign-in.md
+                            - name: 'Žiniatinklio API autentifikavimo perkėlimo nustatymas, naudojant „Azure Active Directory B2C“'
+                              href: e-commerce-extensibility/web-api-auth-trans-aad-b2c.md
                             - name: 'Modulio ypatybių, kurios turi būti rodomos pagal kontekstą, konfigūravimas'
                               href: e-commerce-extensibility/configure-properties-context.md
-                            - name: Modulių globalizavimas naudojant klasę CultureInfoFormatter
+                            - name: Modulių globalizavimas naudojant klasę „CultureInfoFormatter“
                               href: e-commerce-extensibility/globalize-modules.md
                             - name: „Azure Key Vault“ nustatymas saugos raktui valdyti
                               href: e-commerce-extensibility/set-up-key-vault.md
@@ -2944,6 +2954,8 @@
                   href: troubleshoot/items-without-inventory-checked-out.md
                 - name: 'Įvertinimų tikslinimo priemonė rodoma ieškos rezultatuose ir kategorijos puslapiuose, kai įvertinimų ir atsiliepimų sprendimas nėra įjungtas'
                   href: troubleshoot/hide-ratings-refiner.md
+                - name: 'Užsakymo suvestinės tarpinė suma neapima mokesčių, naudojant pritaikytus užsakymo suvestinės modulius'
+                  href: troubleshoot/summary-taxes-custom-modules-10.0.27.md
             - name: Klientų valdymas
               items:
                 - name: 'Sukūrus naujų klientų, nesiunčiamas pasisveikinimo el. laiškas'

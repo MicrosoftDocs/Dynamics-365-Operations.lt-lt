@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 4ea45b238200d4d9d43d563e160e8574271a8ce7
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
+ms.openlocfilehash: 9ae75f33d96261691eee52c963a1f1f00c75b0de
+ms.sourcegitcommit: 220101d2511a3164572226294ef090a43a1e6cdd
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7487869"
+ms.lasthandoff: 05/23/2022
+ms.locfileid: "8789218"
 ---
 # <a name="supply-chain-management-home-page"></a>„Supply Chain Management“ pagrindinis puslapis
 
@@ -50,7 +50,7 @@ Pasirinkite funkcijų sritį, apie kurią norite sužinoti daugiau.
 - [Transportavimo valdymas](transportation/transportation-management-overview.md)
 - [Sandėlio valdymas](warehousing/warehouse-configuration.md)
 
-## <a name="dynamics-365-finance"></a>„Dynamics 365 Finance”
+## <a name="dynamics-365-finance"></a>Dynamics 365 Finance
 
 Daugiau informacijos apie „Dynamics 365 Finance“ žr. [„Finance“ pagrindiniame puslapyje](../finance/index.md).
 
@@ -98,7 +98,7 @@ Daug temų apie gamybos ir tiekimo grandinės valdymą galima rasti [„Dynamics
 ## <a name="white-papers"></a>Techninė dokumentacija
 
 - [LEAN gamyba: galimos pateikti atsargos ir „kanban“ užduočių planavimas](/dynamics/s-e/)
-- [KS skaičiavimas naudojant įkainojimo lapą](https://www.microsoft.com/download/details.aspx?id=101937/)
+- [KS skaičiavimas naudojant įkainojimo lapą](https://www.microsoft.com/download/details.aspx?id=101937)
 
 ## <a name="elearning-courses"></a>El. mokymosi kursai
 
