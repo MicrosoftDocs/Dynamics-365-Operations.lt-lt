@@ -1,6 +1,6 @@
 ---
 title: Ilgalaikio turto pagrindinis puslapis
-description: Šioje temoje pateikiama prieiga prie išteklių, kurie gali padėti naudoti ilgalaikį turtą, skirtą Microsoft Dynamics „365 Finance“.
+description: Šiame straipsnyje pateikiama prieiga prie išteklių, kurie gali padėti naudoti ilgalaikį turtą, skirtą Microsoft Dynamics „365 Finance“.
 author: moaamer
 ms.date: 08/31/2017
 ms.topic: index-page
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cee27143ca005f2fa42899365933ec3014aa13f6
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: 57e81aaefd61eb9e695d8fe0d1c7cac4091bece7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8720452"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880822"
 ---
 # <a name="fixed-assets-home-page"></a>Ilgalaikio turto pagrindinis puslapis
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje pateikiama prieiga prie išteklių, kurie gali padėti naudoti ilgalaikį turtą, skirtą Microsoft Dynamics „365 Finance“. Ilgalaikis turtas apima vertingus objektus, priklausančius asmeniui ar organizacijai. Prekės apima pastatus, transporto priemones, žemės valdas ir įrangą. 
+Šiame straipsnyje pateikiama prieiga prie išteklių, kurie gali padėti naudoti ilgalaikį turtą, skirtą Microsoft Dynamics „365 Finance“. Ilgalaikis turtas apima vertingus objektus, priklausančius asmeniui ar organizacijai. Prekės apima pastatus, transporto priemones, žemės valdas ir įrangą. 
 
 Galite nustatyti ir įvesti ilgalaikių išteklių informaciją ir valdyti išteklius nudėvėdami bei nustatydami ribinę kapitalizacijos reikšmę nusidėvėjimui nustatyti. Galite skaičiuoti ilgalaikių išteklių koregavimus bei jo atsikratyti. Kai su ilgalaikiais ištekliais naudojate didžiąją knygą, galite peržiūrėti dabartinę visų ilgalaikių išteklių vertę. Ilgalaikių išteklių valdymas turi atitikti tiek tarptautinius apskaitos standartus, tiek ir apskaitos įstatymus kiekvienoje šalyje / regione. Į reikalavimus gali būti įtrauktos ilgalaikių išteklių gavimo įrašymo ir likvidavimo operacijų, nusidėvėjimo, naudojimo trukmės ir didinimų bei mažinimų taisyklės. Ilgalaikių išteklių funkcijose yra dauguma šių standartų ir taisyklių.
 

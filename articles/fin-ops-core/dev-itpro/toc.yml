@@ -408,8 +408,10 @@
                       href: deployment/onprem-SSRSHA.md
                     - name: Vietinių aplinkų tarpinių serverių konfigūravimas
                       href: deployment/onprem-reverseproxy.md
-                    - name: Sukonfigūruokite sandėliavimo programą visuotiniam diegimui
+                    - name: Sukonfigūruokite sandėliavimo programą vietiniam visuotiniam diegimui
                       href: deployment/warehousing-for-on-premise-deployments.md
+                    - name: Įjungti RSAT „Finance + Operations (on-premises)“ aplinkose
+                      href: deployment/onprem-rsat-configuration.md
                     - name: Tinklo spausdinimo įrenginių diegimas vietinėse aplinkose
                       href: analytics/install-network-printer-onprem.md
                     - name: Vietinė diagnostika
@@ -1048,6 +1050,8 @@
                   href: lifecycle-services/dts-devops-extension.md
                 - name: „Azure DevOps“ plėtinio mokymo programa (viešoji peržiūros versija)
                   href: lifecycle-services/dts-ado-tutorial.md
+                - name: Plėtinys „Dynamics 365 Translation Service Visual Studio Code“ (viešoji peržiūros versija)
+                  href: lifecycle-services/dts-vscode-doc.md
         - name: „Microsoft Power Platform“ integravimas
           items:
             - name: Apžvalga

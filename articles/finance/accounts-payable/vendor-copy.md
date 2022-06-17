@@ -1,6 +1,6 @@
 ---
 title: Tiekėjų kopijavimas naudojant bendrinamas numeracijas
-description: Šioje temoje paaiškinama, kaip, naudojant bendrinamas numeracijas, tiekėją nukopijuoti į kitą juridinį subjektą, bet išlaikyti tą patį tiekėjo ID.
+description: Šiame straipsnyje paaiškinama, kaip, naudojant bendrinamas numeracijas, tiekėją nukopijuoti į kitą juridinį subjektą, bet išlaikyti tą patį tiekėjo ID.
 author: sunfzam
 ms.date: 08/24/2018
 ms.topic: index-page
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 4cea8269082b39e2374ffb3c3dc82def8ce35679
-ms.sourcegitcommit: 9cbff8a2cdeaf606488fb0044b3de4ab4409c9dc
+ms.openlocfilehash: 7b7285cdf454955656c4fb20c3abf68f3f9c39dc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/26/2022
-ms.locfileid: "8358470"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904907"
 ---
 # <a name="copy-vendors-by-using-shared-number-sequences"></a>Tiekėjų kopijavimas naudojant bendrinamas numeracijas
 

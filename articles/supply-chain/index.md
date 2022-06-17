@@ -1,6 +1,6 @@
 ---
 title: „Supply Chain Management“ pagrindinis puslapis
-description: Šiame puslapyje pateikiamas „Supply Chain Management“ funkcijų žinyno temų ir kitų išteklių sąrašas.
+description: Šiame puslapyje pateikiamas „Supply Chain Management“ funkcijų žinyno straipsnių ir kitų išteklių sąrašas.
 author: kamaybac
 ms.date: 09/15/2021
 ms.topic: index-page
@@ -15,18 +15,18 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 9ae75f33d96261691eee52c963a1f1f00c75b0de
-ms.sourcegitcommit: 220101d2511a3164572226294ef090a43a1e6cdd
+ms.openlocfilehash: 189239ad6142af200e41cfe9cfcdbb56be65b0b7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/23/2022
-ms.locfileid: "8789218"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879082"
 ---
 # <a name="supply-chain-management-home-page"></a>„Supply Chain Management“ pagrindinis puslapis
 
 [!include [banner](includes/banner.md)]
 
-Šioje temoje pateikiamas „Dynamics 365 Supply Chain Management“ žinyno temų ir kitų išteklių sąrašas.
+Šiame straipsnyje pateikiamas „Dynamics 365 Supply Chain Management“ žinyno straipsnių ir kitų išteklių sąrašas.
 
 ## <a name="whats-new-and-in-development"></a>Kas nauja ir kuriama
 
@@ -93,7 +93,7 @@ Toliau pateikiamuose techninių konferencijų įrašuose aptariamos ankstesnių 
 
 ## <a name="blogs"></a>Tinklaraščiai
 
-Daug temų apie gamybos ir tiekimo grandinės valdymą galima rasti [„Dynamics AX‟ gamybos pagrindinės komandos tinklaraštyje](/archive/blogs/axmfg/) ir [„Supply Chain Management“ „Dynamics AX‟ pagrindinės komandos tinklaraštyje](https://blogs.msdn.microsoft.com/dynamicsaxscm/). Dauguma iš jų buvo skirtos ankstesnei versijai, tačiau vis tiek vartojamos tos pačios sąvokos, o procedūros dabartinėje versijoje yra panašios.
+Daug straipsnių apie gamybos ir tiekimo grandinės valdymą galima rasti [„Dynamics AX‟ gamybos pagrindinės komandos tinklaraštyje](/archive/blogs/axmfg/) ir [„Supply Chain Management“ „Dynamics AX‟ pagrindinės komandos tinklaraštyje](https://blogs.msdn.microsoft.com/dynamicsaxscm/). Dauguma iš jų buvo skirtos ankstesnei versijai, tačiau vis tiek vartojamos tos pačios sąvokos, o procedūros dabartinėje versijoje yra panašios.
 
 ## <a name="white-papers"></a>Techninė dokumentacija
 

@@ -60,6 +60,8 @@
                   href: ../fin-ops-core/dev-itpro/deployment/apply-updates-on-premises.md?toc=/dynamics365/finance/toc.json
                 - name: Paslaugų naujinimų konfigūravimas
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/configure-service-updates.md?toc=/dynamics365/finance/toc.json
+                - name: Išankstinis aptarnavimas ir aptarnavimas po to
+                  href: ../fin-ops-core/dev-itpro/lifecycle-services/pre-post-servicing.md?toc=/dynamics365/finance/toc.json
                 - name: Paslaugų naujinimų pristabdymas
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/pause-service-updates.md?toc=/dynamics365/finance/toc.json
                 - name: Gaukite pranešimus apie paslaugų naujinimus
@@ -1684,6 +1686,8 @@
                       href: general-ledger/sales-tax-calculation-methods-origin-field.md
                     - name: Visos PVM kodų sumos ir intervalo skaičiavimo parinktys
                       href: general-ledger/whole-amount-interval-options-sales-tax-codes.md
+                    - name: PVM skaičiavimo ir apvalinimo taisyklės
+                      href: general-ledger/sales-tax-calculation-rounding.md
                     - name: Bendrojo žurnalo eilučių PVM apskaičiavimas
                       href: general-ledger/sales-tax-calculation-on-general-journal.md
                     - name: PVM tiekėjo sąskaitoje faktūroje skaičiavimas ir koregavimas
@@ -2168,6 +2172,8 @@
                   href: localizations/emea-est-vat-statement-details.md
                 - name: Estijos „Intrastat“
                   href: localizations/emea-est-intrastat.md
+                - name: ES pardavimo sąrašas
+                  href: localizations/emea-est-eu-sales-list.md
             - name: Europa
               items:
                 - name: Europos apžvalga
@@ -2452,6 +2458,8 @@
                   href: localizations/emea-hun-online-invoicing.md
                 - name: Vengrijos PVM ataskaitos
                   href: localizations/emea-hun-sales-tax-reports.md
+                - name: Vengrijos „Intrastat“
+                  href: localizations/emea-hun-intrastat.md
                 - name: Atidėto PVM skaičiavimai
                   href: localizations/emea-hun-deferred-vat.md
             - name: Islandija
@@ -3112,6 +3120,8 @@
                   href: localizations/emea-lva-vat-statement-details.md
                 - name: Latvijos „Intrastat“
                   href: localizations/emea-lva-intrastat.md
+                - name: ES pardavimo sąrašas
+                  href: localizations/emea-lva-eu-sales-list.md
             - name: Lietuva
               items:
                 - name: Lietuvos apžvalga
@@ -3130,6 +3140,8 @@
                   href: localizations/emea-ltu-saf-t.md
                 - name: Prekių perkėlimo įmonės viduje perkėlimo dokumentų nustatymas
                   href: localizations/tasks/set-up-transfer-documents-goods-movement-inside-company.md
+                - name: ES pardavimo sąrašas
+                  href: localizations/emea-ltu-eu-sales-list.md
             - name: Malaizija
               items:
                 - name: Malaizijos apžvalga
@@ -4483,6 +4495,8 @@
                       href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/finance/toc.json
                     - name: Elektroninių ataskaitų konfigūracijų našumo trikčių šalinimas
                       href: ../fin-ops-core/dev-itpro/analytics/er-troubleshoot-perf-issues-in-configurations.md?toc=/dynamics365/finance/toc.json
+                    - name: Sumažinti vykdymo metu gaunamų lentelės laukelių skaičių
+                      href: ../fin-ops-core/dev-itpro/analytics/er-reduce-fetched-fields-number.md?toc=/dynamics365/finance/toc.json
                 - name: Verslo dokumentų valdymas (BDM)
                   items:
                     - name: BDM apžvalga

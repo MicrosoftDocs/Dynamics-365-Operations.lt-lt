@@ -1,6 +1,6 @@
 ---
 title: Patobulintas pagal paketą sekamų prekių tvarkymas
-description: Šioje temoje aprašomas patobulintas pagal paketą sekamų priekių tvarkymas atliekant išrašo registravimo procesą „Microsoft Dynamics 365 Commerce“.
+description: Šiame straipsnyje aprašomas patobulintas pagal paketą sekamų priekių tvarkymas atliekant išrašo registravimo procesą „Microsoft Dynamics 365 Commerce“.
 author: josaw1
 ms.date: 09/09/2021
 ms.topic: index-page
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-05-28
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 513b6ca84fa71e851a5a3e4275e0b6572789e1eb
-ms.sourcegitcommit: a73df4ddc7f8ddc9e37269c0236dc1bb9b7c7966
+ms.openlocfilehash: 736ab8dd21f04d7119cca6d53bfeb5e408b8cbd2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/09/2021
-ms.locfileid: "7485788"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881884"
 ---
 # <a name="improved-handling-of-batch-tracked-items"></a>Patobulintas pagal paketą sekamų prekių tvarkymas
 
 [!include [banner](includes/banner.md)]
 
-Šioje temoje aprašomas patobulintas pagal paketą sekamų priekių tvarkymas atliekant išrašo registravimo procesą „Microsoft Dynamics 365 Commerce“.
+Šiame straipsnyje aprašomas patobulintas pagal paketą sekamų priekių tvarkymas atliekant išrašo registravimo procesą „Microsoft Dynamics 365 Commerce“.
 
 „Dynamics 365 Commerce“ elektroniniame kasos aparate (EKA) parduodant pagal paketą sekamas prekes jų paketų numerių užfiksuoti negalima. Tačiau, naudojant tam tikras konfigūracijas, kai pardavimai „Commerce“ būstinėje registruojami per klientų užsakymus arba registruojant išrašus, „Commerce“ tikisi, kad egzistuoja galiojantys pagal paketą sekamų prekių paketų numeriai ir kad jie bus naudojami atliekant SF išrašymo procesą.
 

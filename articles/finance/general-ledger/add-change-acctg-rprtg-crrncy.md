@@ -1,6 +1,6 @@
 ---
 title: Apskaitos arba ataskaitų valiutos keitimas
-description: Šioje temoje paaiškinama, kaip pakeisti apskaitos ar ataskaitų valiutą arba įtraukti ataskaitų valiutą į didžiosios knygos nustatymą.
+description: Šiame straipsnyje paaiškinama, kaip pakeisti apskaitos ar ataskaitų valiutą arba įtraukti ataskaitų valiutą į didžiosios knygos nustatymą.
 author: kweekley
 ms.date: 05/05/2021
 ms.topic: index-page
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2021-05-05
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: ff5c38193e8469cb806c525b77809844847d6c92
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: b02432c8e0bdf52c2a588f67a581b78e682b1bf8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710898"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904620"
 ---
 # <a name="change-the-accounting-or-reporting-currency"></a>Apskaitos arba ataskaitų valiutos keitimas
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje paaiškinama, kaip pakeisti apskaitos ar ataskaitų valiutą arba įtraukti ataskaitų valiutą į didžiosios knygos nustatymą.
+Šiame straipsnyje paaiškinama, kaip pakeisti apskaitos ar ataskaitų valiutą arba įtraukti ataskaitų valiutą į didžiosios knygos nustatymą.
 
 ## <a name="symptom"></a>Požymis
 
@@ -73,7 +73,7 @@ Atlikite šiuos veiksmus, kad nukopijuotumėte nustatymą ir bendruosius duomeni
 10. Srityje **Pasirinkti subjektai** pasirinkite **Įtraukti šabloną**.
 11. Pasirinkti naudotinus šablonus. Siūlomi naujo juridinio subjekto šablonai yra **025 – Didžioji knyga** ir **Finansai**. Rekomenduojame peržiūrėti visus kitus galimus šablonus, kad nustatytumėte, ar kuris nors iš jų atitinka jūsų reikalavimus.
 12. Pasirinkite **Kopijuoti į juridinį subjektą**, kad pradėtumėte paketinį vykdymą, per kurį bus sukurti pasirinkti subjektai ir nukopijuoti į paskirties juridinį subjektą.
-13. Kai procesas bus užbaigtas, bet prieš tai, kai kuri nors operacija bus užregistruota, eikite į didžiąją knygą ir atnaujinkite apskaitos ir ataskaitų valiutas, kaip aprašyta anksčiau šioje temoje.
+13. Kai procesas bus užbaigtas, bet prieš tai, kai kuri nors operacija bus užregistruota, eikite į didžiąją knygą ir atnaujinkite apskaitos ir ataskaitų valiutas, kaip aprašyta anksčiau šiame straipsnyje.
 
 Jei sukūrėte naują juridinį subjektą, kad galėtumėte keisti apskaitos arba ataskaitų valiutą, patikrinkite, ar pradiniai balansai perskaičiuojami iš seno juridinio subjekto valiutų į naujas valiutas.
 

@@ -1,6 +1,6 @@
 ---
-title: Pripažinti atidėtas įplaukas
-description: Šioje temoje pateikiama informacija apie tai, kaip pripažinti įplaukas naudojant įplaukų pripažinimo funkciją.
+title: Atidėtų įplaukų pripažinimas
+description: Šiame straipsnyje pateikiama informacija apie tai, kaip pripažinti įplaukas naudojant įplaukų pripažinimo funkciją.
 author: kweekley
 ms.date: 08/24/2018
 ms.topic: index-page
@@ -13,21 +13,21 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 42e9aa20eb6f4a1c14f83c5a18a4699489a932a3
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 638e56c9bbbe0b377e804aa2ff55ffe4eded21f4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725938"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8902550"
 ---
-# <a name="recognize-deferred-revenue"></a>Pripažinti atidėtas įplaukas
+# <a name="recognize-deferred-revenue"></a>Atidėtų įplaukų pripažinimas
 
 [!include [banner](../includes/banner.md)]
 
 > [!NOTE]
 > Įplaukų pripažinimo funkcija negali būti įjungta naudojant funkcijų valdymą. Dabar norėdami ją įjungti, turite naudoti konfigūracijos raktus.
 
-Šioje temoje aprašomas pajamų pripažinimo procesas įplaukų pripažinimo grafike. Po to kai pardavimo užsakymui užregistruojama SF, kiekvienai pardavimo užsakymo eilutei, turinčiai įplaukų grafiką, sukuriamas įplaukų pripažinimo grafikas. Įplaukų grafikas eilutėje yra naudojamas nustatyti, ar eilutės įplaukos turėtų būti atidėtos.
+Šiame straipsnyje aprašomas pajamų pripažinimo procesas įplaukų pripažinimo grafike. Po to kai pardavimo užsakymui užregistruojama SF, kiekvienai pardavimo užsakymo eilutei, turinčiai įplaukų grafiką, sukuriamas įplaukų pripažinimo grafikas. Įplaukų grafikas eilutėje yra naudojamas nustatyti, ar eilutės įplaukos turėtų būti atidėtos.
 
 ## <a name="view-revenue-recognition-schedule-details"></a>Peržiūrėti įplaukų pripažinimo grafiko informaciją
 

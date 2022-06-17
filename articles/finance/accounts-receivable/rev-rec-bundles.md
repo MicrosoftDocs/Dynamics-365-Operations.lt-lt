@@ -1,6 +1,6 @@
 ---
 title: Įplaukų pripažinimo grupavimai
-description: Šioje temoje aprašomos grupavimo funkcijos, įtrauktos į įplaukų pripažinimo galimybę gautinose sumose. Grupavimas apima pirminę prekę ir keletą sudedamųjų prekių.
+description: Šiame straipsnyje aprašomos grupavimo funkcijos, įtrauktos į įplaukų pripažinimo galimybę gautinose sumose. Grupavimas apima pirminę prekę ir keletą sudedamųjų prekių.
 author: kweekley
 ms.date: 01/04/2021
 ms.topic: index-page
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2021-01-04
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 62a4d7f36ad0b36edeaec75e9b670e2aad143703
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 478fdfc69514fba829deb63b4e2904ff3fe1e199
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725825"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876302"
 ---
 # <a name="revenue-recognition-bundles"></a>Įplaukų pripažinimo grupavimai
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje aprašomos grupavimo funkcijos, įtrauktos į įplaukų pripažinimo galimybę gautinose sumose. Grupavimas apima pirminę prekę ir keletą sudedamųjų prekių. Pirminė prekė įvedama į pardavimo užsakymą, kad užsakymo įrašas būtų efektyvesnis. Tačiau tada ji išskaidoma į sudedamąsias prekes. Sudedamosios prekės bus nurodytos vidiniuose dokumentuose, pvz., važtaraščiuose. Tačiau išoriniuose dokumentuose bus nurodoma tik pirminė prekė.
+Šiame straipsnyje aprašomos grupavimo funkcijos, įtrauktos į įplaukų pripažinimo galimybę gautinose sumose. Grupavimas apima pirminę prekę ir keletą sudedamųjų prekių. Pirminė prekė įvedama į pardavimo užsakymą, kad užsakymo įrašas būtų efektyvesnis. Tačiau tada ji išskaidoma į sudedamąsias prekes. Sudedamosios prekės bus nurodytos vidiniuose dokumentuose, pvz., važtaraščiuose. Tačiau išoriniuose dokumentuose bus nurodoma tik pirminė prekė.
 
 > [!NOTE]
 > „Microsoft Dynamics 365 Commerce“ kanalai, pavyzdžiui, internetiniai, elektroniniai kasos aparatai (EKA) ir skambučių centrai, nepalaiko pripažinimo (įskaitant grupavimo funkciją). Tai taip pat apima Potencialių klientų ir grynųjų pinigų sprendimą, skirtą „Dynamics 365 Supply Chain Management“ ir „Dynamics 365 Sales“. Prekių, sukonfigūruotų naudoti įplaukų pripažinimą, negalima įtraukti į užsakymus ar operacijas, sukurtas „Commerce“ kanaluose arba Potencialių klientų ir grynųjų pinigų sprendime.

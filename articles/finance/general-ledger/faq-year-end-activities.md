@@ -1,6 +1,6 @@
 ---
 title: DUK apie metų pabaigos veiklas
-description: Šioje temoje pateikiami klausimai, kurie gali kilti uždarant metus, ir atsakymai, kurie gali padėti atliekant uždarymo metų pabaigoje veiklas.
+description: Šiame straipsnyje pateikiami klausimai, kurie gali kilti uždarant metus, ir atsakymai, kurie gali padėti atliekant uždarymo metų pabaigoje veiklas.
 author: moaamer
 ms.date: 12/21/2021
 ms.topic: index-page
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 19d23c2c5a8fabd6799c6240c25f3ede4064c001
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 1c5aca6180821dfc9fd1d475d4726c82acdf4d78
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725606"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8865746"
 ---
 # <a name="year-end-activities-faq"></a>DUK apie metų pabaigos veiklas 
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje pateikiami klausimai, kurie gali kilti uždarant metus, ir atsakymai, kurie gali padėti atliekant uždarymo metų pabaigoje veiklas. Šios temos informacijoje didžiausias dėmesys teikiamas klausimams, susijusiems su didžiąja knyga ir mokėtinų sumų uždarymo metų pabaigoje veiklomis.
+Šiame straipsnyje pateikiami klausimai, kurie gali kilti uždarant metus, ir atsakymai, kurie gali padėti atliekant uždarymo metų pabaigoje veiklas. Šio straipsnio informacijoje didžiausias dėmesys teikiamas klausimams, susijusiems su didžiąja knyga ir mokėtinų sumų uždarymo metų pabaigoje veiklomis.
 
 ## <a name="general-ledger-year-end-enhancements"></a>Didžiosios knygos metų pabaigos patobulinimai 
 10.0.20 versijoje pristatytas uždarymo metų pabaigoje patobulinimas, kuris įjungtas pagal numatytuosius nustatymus 10.0.25 ir naujesnėse versijose. Jei jūsų organizacija naudoja ankstesnę nei 10.0.25 versiją, rekomenduojame įjungti šią funkciją prieš pradedant uždarymo metų pabaigoje procesą. Kad galėtumėte naudoti šią funkciją, ji turi būti įjungta jūsų sistemoje. Administratoriai gali naudoti funkcijos valdymo darbo sritį, norėdami sužinoti funkcijos būseną ir įjungti ją, jei reikia. Ten ši funkcija pateikiama taip:
@@ -75,7 +75,7 @@ Nebūtini dimensijų rinkiniai taip pat daro įtaką paketinei užduočiai **Bud
 [![Finansinių dimensijų rinkiniai.](./media/faq-2020-yr-end-04.png)](./media/faq-2020-yr-end-04.png)
 
 ### <a name="year-end-close-template-configuration"></a>Uždarymo metų pabaigoje šablono konfigūravimas
-Uždarymo metų pabaigoje šablonas leidžia organizacijoms pasirinkti finansinės dimensijos lygį, kurį reikia išlaikyti perkeliant pelno ir nuostolio balansus į nepaskirstytą pelną. Parametrai leidžia organizacijai tvarkyti išsamias finansines dimensijas (**Uždaryti viską**) perkeliant balansus į nepaskirstytą pelną arba pasirinkti sumuoti sumas į vieną dimensijos vertę (**Uždaryti vieną**). Tai galima apibrėžti nurodyti kiekvienai finansinei dimensijai. Daugiau informacijos apie šiuos parametrus žr. temoje [Uždarymas metų pabaigoje](year-end-close.md).
+Uždarymo metų pabaigoje šablonas leidžia organizacijoms pasirinkti finansinės dimensijos lygį, kurį reikia išlaikyti perkeliant pelno ir nuostolio balansus į nepaskirstytą pelną. Parametrai leidžia organizacijai tvarkyti išsamias finansines dimensijas (**Uždaryti viską**) perkeliant balansus į nepaskirstytą pelną arba pasirinkti sumuoti sumas į vieną dimensijos vertę (**Uždaryti vieną**). Tai galima apibrėžti nurodyti kiekvienai finansinei dimensijai. Daugiau informacijos apie šiuos parametrus žr. straipsnyje [Uždarymas metų pabaigoje](year-end-close.md).
 
 Rekomenduojame įvertinti savo organizacijos poreikius ir, jei galima, uždaryti kuo daugiau dimensijų naudojant uždarymo metų pabaigoje parinktį **Uždaryti vieną**, kad padidintumėte našumą. Uždarant vieną dimensijos vertę (kuri taip pat gali būti tuščia vertė), sistema, nustatydama nepaskirstyto pelno apskaitos įrašų balansus, apdoroja mažiau informacijos.
 

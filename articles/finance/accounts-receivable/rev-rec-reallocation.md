@@ -1,6 +1,6 @@
 ---
 title: Įplaukų pripažinimo perskirstymas
-description: Šioje temoje pateikiama informacija apie perskirstymą, kuris įgalina organizacijas perskaičiuoti įplaukų vertes, kai keičiamos pardavimo sutarties sąlygos. Joje pateikiamos nuorodos į kitas temas, kurios apibūdina, kaip atpažinti įplaukas įvairiuose scenarijuose.
+description: Šiame straipsnyje pateikiama informacija apie perskirstymą, kuris įgalina organizacijas perskaičiuoti įplaukų vertes, kai keičiamos pardavimo sutarties sąlygos. Joje pateikiamos nuorodos į kitas temas, kurios apibūdina, kaip atpažinti įplaukas įvairiuose scenarijuose.
 author: kweekley
 ms.date: 09/09/2021
 ms.topic: index-page
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-12-21
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 7528202ed140dc2c0a7fc8c595178f155c3c1f75
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: a79288fd69a2e7780ff03952b05b99db2ed88e41
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726133"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903426"
 ---
 # <a name="revenue-recognition-reallocation"></a>Įplaukų pripažinimo perskirstymas
 
@@ -58,7 +58,7 @@ Perskirstymo procesui daro įtaką vienas parametras.
 
 Perskirstymą galima atlikti pardavimo užsakymui, kuriam išrašyta dalinė arba visa SF, visi ankstesni SF apskaitos įrašai turi būti pataisyti naudojant naujas, perskirstytas įplaukų vertes. Šis koregavimas atliekamas atšaukiant pradinės SF apskaitos įrašą ir registruojant naują apskaitos įrašą, pagrįstą perskirstytų įplaukų vertėmis.
 
-Kiekviena organizacija turi nuspręsti, ar taisymas turi atnaujinti tik DK, ar taip pat turi atnaujinti gautinas sumas. Priimtas sprendimas nulemia atitinkamą parinkties **Perskirstant registruoti SF taisymus į Gautinas sumas** parametrą skirtuke **Įplaukų pripažinimas** puslapyje **Didžiosios knygos parametrai** (**Įplaukų pripažinimas \> Sąranka \> Didžiosios knygos parametrai**). Atitinkamas parametras priklauso nuo konkretaus scenarijaus. Jei norite daugiau informacijos apie galimus scenarijus, naudokite nuorodas, esančias toliau šioje temoje pateiktame skyriuje [Perskirstymo scenarijai](#scenarios-for-reallocation).
+Kiekviena organizacija turi nuspręsti, ar taisymas turi atnaujinti tik DK, ar taip pat turi atnaujinti gautinas sumas. Priimtas sprendimas nulemia atitinkamą parinkties **Perskirstant registruoti SF taisymus į Gautinas sumas** parametrą skirtuke **Įplaukų pripažinimas** puslapyje **Didžiosios knygos parametrai** (**Įplaukų pripažinimas \> Sąranka \> Didžiosios knygos parametrai**). Atitinkamas parametras priklauso nuo konkretaus scenarijaus. Jei norite daugiau informacijos apie galimus scenarijus, naudokite nuorodas, esančias toliau šiame straipsnyje pateiktame skyriuje [Perskirstymo scenarijai](#scenarios-for-reallocation).
 
 [![Įplaukų pripažinimo skirtukas puslapyje Didžiosios knygos parametrai.](./media/01_RevRecScenarios.png)](./media/01_RevRecScenarios.png)
 
@@ -90,7 +90,7 @@ Norėdami pradėti perskirstymo procesą, pasirinkite **Perskirstyti vertę nauj
 
 [![Puslapis Perskirstyti vertę naujose užsakymo eilutėse.](./media/02_RevRecScenarios.png)](./media/02_RevRecScenarios.png)
 
-Viršutinis tinklelis puslapyje **Perskirstyti vertę naujose užsakymo eilutėse** pavadintas **Pardavimas**. Jame pateikiami kliento pardavimo užsakymai. Pasirinkite pardavimo užsakymus, kuriuos būtina perskirstyti. Jei pardavimo užsakymas turi perskirstymo ID, vadinasi jį jau pažymėjo perskirstymui kitas vartotojas. Jei vienas ar daugiau pardavimo užsakymų buvo perskirstyti anksčiau ir turi būti įtraukti į kitą perskirstymą, pirmiausia reikia anuliuoti tų pardavimo užsakymų paskirstymą. Tada jį galima įtraukti į naują perskirstymą. Norėdami gauti išsamesnės informacijos, žr. toliau pateikiamus temos skyrius [Perskirstymo anuliavimas](#undo-a-reallocation) ir [Perskirstymas kelis kartus](#reallocate-multiple-times).
+Viršutinis tinklelis puslapyje **Perskirstyti vertę naujose užsakymo eilutėse** pavadintas **Pardavimas**. Jame pateikiami kliento pardavimo užsakymai. Pasirinkite pardavimo užsakymus, kuriuos būtina perskirstyti. Jei pardavimo užsakymas turi perskirstymo ID, vadinasi jį jau pažymėjo perskirstymui kitas vartotojas. Jei vienas ar daugiau pardavimo užsakymų buvo perskirstyti anksčiau ir turi būti įtraukti į kitą perskirstymą, pirmiausia reikia anuliuoti tų pardavimo užsakymų paskirstymą. Tada jį galima įtraukti į naują perskirstymą. Norėdami gauti išsamesnės informacijos, žr. toliau pateikiamus straipsnio skyrius [Perskirstymo anuliavimas](#undo-a-reallocation) ir [Perskirstymas kelis kartus](#reallocate-multiple-times).
 
 Apatinis puslapio tinklelis pavadintas **Eilutės**. Tinklelyje **Pardavimas** pasirinkus vieną ar daugiau pardavimo užsakymų, tinklelyje **Eilutės** rodomos pardavimo užsakymo eilutės. Pasirinkite pardavimo užsakymo eilutes, kurias būtina perskirstyti. Jei pasirinkote tik vieną pardavimo užsakymą, būtina perskirstyti to paties pardavimo užsakymo eilutes. Tokia situacija gali susiklostyti, kai vienai pardavimo užsakymo eilutei anksčiau buvo išrašyta SF, tada buvo pridėta nauja eilutė, arba esama eilutė buvo pašalinta ar atšaukta. Jei eilutė buvo pašalinta, ji nebus rodoma tinklelyje. Todėl jos pasirinkti negalima. Tačiau į ją vis tiek bus atsižvelgiama paleidus perskirstymo procesą.
 

@@ -1,6 +1,6 @@
 ---
 title: Kurti čekius, kurių būsena Tuščia
-description: Šioje temoje paaiškinama, kaip sukurti tuščius banko sąskaitos čekius.
+description: Šiame straipsnyje paaiškinama, kaip sukurti tuščius banko sąskaitos čekius.
 author: abruer
 ms.date: 10/26/2017
 ms.topic: index-page
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2019-09-17
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: b3a0fbb26f135e567bf6af7b2f10b39a28be4c9e
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: 834e11e0e359521c674e2b6fd78c93dcb23961a0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8717222"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861450"
 ---
 # <a name="create-checks-that-have-blank-status"></a>Kurti čekius, kurių būsena Tuščia
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje paaiškinama, kaip kurti tuščius čekius. Pavyzdžiui, galite sukurti tuščią čekį, kad įrašytumėte sugadintą čekį, kurio negalima naudoti mokant.
+Šiame straipsnyje paaiškinama, kaip kurti tuščius čekius. Pavyzdžiui, galite sukurti tuščią čekį, kad įrašytumėte sugadintą čekį, kurio negalima naudoti mokant.
 
 Puslapyje **„Čekiai“** atliekamos čekių priežiūros užduotys. Pavyzdžiui, galite kurti naujus čekių numerius ir naikinti čekius. Taip pat galite kurti čekius, kurių būsena **Tuščia**. Sukūrus tuščius čekius, jų negalima naikinti ar pakartotinai naudoti sistemoje.
 

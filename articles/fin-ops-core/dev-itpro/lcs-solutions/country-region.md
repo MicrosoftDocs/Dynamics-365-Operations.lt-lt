@@ -1,6 +1,6 @@
 ---
 title: Globalizacijos ištekliai
-description: Šioje temoje išvardyti ištekliai, skirti padėti daugiau sužinoti apie konkrečiose šalyse / regionuose veikiančias funkcijas ir pasiūlymus.
+description: Šiame straipsnyje išvardyti ištekliai, skirti padėti daugiau sužinoti apie konkrečiose šalyse / regionuose veikiančias funkcijas ir pasiūlymus.
 author: kfend
 ms.date: 02/19/2021
 ms.topic: index-page
@@ -14,27 +14,27 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 822f00c21715b928027a7656f299a693686bf5dfc01f1f5a1738d5eb8d4bf124
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4935d54a911701fda4740e3a1116c139730ceb08
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6747520"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8866543"
 ---
 # <a name="globalization-resources"></a>Globalizacijos ištekliai
 
 ## <a name="local-and-regional-deployments"></a>Vietinis ir regioninis visuotinis diegimas
 Jeigu jūsų vyriausybės reglamentuose reikalaujama, kad duomenys būtų saugomi skirtingai nei kitose šalyse / regionuose, diegiant jums gali tekti atsižvelgti į šalies / regiono reikalavimus. Jums gali praversti šie ištekliai:
 
-[„Finance and Operations“ programos, valdomos „21Vianet“ Kinijoje](../deployment/china-local-deployment.md)
+[Finansų ir operacijų programos, valdomos „21Vianet“ Kinijoje](../deployment/china-local-deployment.md)
 
-## <a name="localization-and-regulatory-features"></a>Lokalizavimo ir reguliavimo priemonės​
+## <a name="localization-and-regulatory-features"></a>Lokalizavimo ir reguliavimo priemonės
 
 [!include [banner](../includes/banner.md)]
 
-„Finance and Operations“ programos turi funkcijų šalims / regionams, nurodytiems [produktų lokalizavimo ir vertimo prieinamumo vadove](https://aka.ms/dynamics_365_international_availability_deck). Šios funkcijos įgalinamos pagal pirminį aktyvaus juridinio subjekto adresą. 
+Finansų ir operacijų programos turi funkcijų šalims / regionams, nurodytiems [produktų lokalizavimo ir vertimo prieinamumo vadove](https://aka.ms/dynamics_365_international_availability_deck). Šios funkcijos įgalinamos pagal pirminį aktyvaus juridinio subjekto adresą. 
 
-Šioje temoje pateikiama išteklių, galinčių padėti atlikti tolesnius veiksmus, sąrašų. 
+Šiame straipsnyje pateikiama išteklių, galinčių padėti atlikti tolesnius veiksmus, sąrašų. 
 - Sužinokite daugiau apie konkrečioms šalims / regionams skirtų sprendimų kūrimą.
 - Gaukite konkrečioms šalims / regionams skirtų naujinimų.
 - Pateikite ir peržiūrėkite įspėjimus dėl reglamentavimo.

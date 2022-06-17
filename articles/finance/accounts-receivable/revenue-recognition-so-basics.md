@@ -1,6 +1,6 @@
 ---
 title: Įplaukų pripažinimas pardavimo užsakymuose
-description: Šioje temoje aprašomos pagrindinės pardavimo užsakymų ir SF įplaukų pripažinimo funkcijos. Įplaukų pripažinimas galimas pardavimo užsakyme ir atitinkamoje SF, sukuriamoje iš pardavimo užsakymo.
+description: Šiame straipsnyje aprašomos pagrindinės pardavimo užsakymų ir SF įplaukų pripažinimo funkcijos. Įplaukų pripažinimas galimas pardavimo užsakyme ir atitinkamoje SF, sukuriamoje iš pardavimo užsakymo.
 author: kweekley
 ms.date: 08/24/2018
 ms.topic: index-page
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 7aaa5e7c3b568400c72a1a84b5f29082579aeeae
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 5df7341160940f5c5db0dd4c5d86e4d9698d22e2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725490"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899963"
 ---
 # <a name="revenue-recognition-on-sales-orders"></a>Įplaukų pripažinimas pardavimo užsakymuose
 
@@ -27,10 +27,10 @@ ms.locfileid: "8725490"
 > [!NOTE]
 > Įplaukų pripažinimo funkcija negali būti įjungta naudojant funkcijų valdymą. Dabar norėdami ją įjungti, turite naudoti konfigūracijos raktus.
 
-Šioje temoje aprašomos pagrindinės pardavimo užsakymų ir SF įplaukų pripažinimo funkcijos. Įplaukų pripažinimas galimas pardavimo užsakyme ir atitinkamoje SF, sukuriamoje iš pardavimo užsakymo. Pardavimo užsakymą taip pat galima sukurti naudojant laiko ir medžiagų projektą.
+Šiame straipsnyje aprašomos pagrindinės pardavimo užsakymų ir SF įplaukų pripažinimo funkcijos. Įplaukų pripažinimas galimas pardavimo užsakyme ir atitinkamoje SF, sukuriamoje iš pardavimo užsakymo. Pardavimo užsakymą taip pat galima sukurti naudojant laiko ir medžiagų projektą.
 
 > [!NOTE]
-> Šios temos iliustracijose stulpeliai buvo paslėpti arba įtraukti į tinklelius, kad būtų geriau rodomos koncepcijos. Todėl iliustracijų puslapiai ir duomenys gali skirtis nuo to, ką matote produkte.
+> Šio straipsnio iliustracijose stulpeliai buvo paslėpti arba įtraukti į tinklelius, kad būtų geriau rodomos koncepcijos. Todėl iliustracijų puslapiai ir duomenys gali skirtis nuo to, ką matote produkte.
 
 ## <a name="enter-a-sales-order"></a>Įvesti pardavimo užsakymą
 

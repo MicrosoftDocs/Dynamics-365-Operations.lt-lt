@@ -1,6 +1,6 @@
 ---
 title: Numatytosios finansinių žurnalų finansinės dimensijos
-description: Šioje temoje aprašomos taisyklės, apibrėžiančios, kaip nustatomos finansinių dimensijų reikšmės operacijose, kurios įvedamos naudojant finansinius žurnalus. Joje taip pat pateikiama informacija apie scenarijus, kuriuose naudojamos fiksuotos dimensijos.
+description: Šiame straipsnyje aprašomos taisyklės, apibrėžiančios, kaip nustatomos finansinių dimensijų reikšmės operacijose, kurios įvedamos naudojant finansinius žurnalus. Joje taip pat pateikiama informacija apie scenarijus, kuriuose naudojamos fiksuotos dimensijos.
 author: kweekley
 ms.date: 09/04/2021
 ms.topic: index-page
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 51235b8a5dac50aad5031456760c970e50506d66
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 8d0fcf836e22207baae562801fb082d735df0f96
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713112"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907934"
 ---
 # <a name="default-financial-dimensions-on-financial-journals"></a>Numatytosios finansinių žurnalų finansinės dimensijos
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje aprašomos taisyklės, apibrėžiančios, kaip nustatomos finansinių dimensijų reikšmės operacijose, kurios įvedamos naudojant finansinius žurnalus (bet ne atsargų žurnalus arba projektų žurnalus). Joje taip pat pateikiama informacija apie scenarijus, kuriuose naudojamos fiksuotos dimensijos.
+Šiame straipsnyje aprašomos taisyklės, apibrėžiančios, kaip nustatomos finansinių dimensijų reikšmės operacijose, kurios įvedamos naudojant finansinius žurnalus (bet ne atsargų žurnalus arba projektų žurnalus). Joje taip pat pateikiama informacija apie scenarijus, kuriuose naudojamos fiksuotos dimensijos.
 
 ## <a name="symptom"></a>Požymis
 

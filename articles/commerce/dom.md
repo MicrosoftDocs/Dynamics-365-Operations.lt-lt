@@ -1,6 +1,6 @@
 ---
 title: Paskirstytų užsakymų tvarkymas (DOM)
-description: Šioje temoje aprašoma „Dynamics 365 Commerce“ paskirstytų užsakymų tvarkymo (DOM) funkcija.
+description: Šiame straipsnyje aprašoma „Dynamics 365 Commerce“ paskirstytų užsakymų tvarkymo (DOM) funkcija.
 author: josaw1
 ms.date: 02/08/2022
 ms.topic: index-page
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f19fbe2a9f768a91c495a6a4bcb0e475adb867ae
-ms.sourcegitcommit: 8bea5a0c232ac31dcafddfcc0d715c496d8dd445
+ms.openlocfilehash: 26817321753c8e39d61957b4ea2004f20daf1b2f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8102014"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878518"
 ---
 # <a name="distributed-order-management-dom"></a>Paskirstytų užsakymų tvarkymas (DOM)
 
 [!include [banner](includes/banner.md)]
 
-Šioje temoje aprašoma „Microsoft Dynamics 365 Commerce“ paskirstytų užsakymų tvarkymo (DOM) funkcija.
+Šiame straipsnyje aprašoma „Microsoft Dynamics 365 Commerce“ paskirstytų užsakymų tvarkymo (DOM) funkcija.
 
 DOM yra daugiakanalių užsakymų įvykdymo optimizavimo sprendimas, padedantis maksimaliai padidinti užsakymų įvykdymą tiekimo grandinės tinkle. DOM padeda užtikrinti, kad produktai klientams bus pristatyti tinkamais kiekiais, iš reikiamų šaltinių ir tinkamu laiku. DOM taip pat gali padėti maksimaliai padidinti pelną, sumažinti išlaidas ir patenkinti aptarnavimo lygio reikalavimus.
 

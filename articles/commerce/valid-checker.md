@@ -1,6 +1,6 @@
 ---
 title: Parduotuvės operacijų tikrinimas išrašų duomenims apskaičiuoti
-description: Šioje temoje aprašomos parduotuvės operacijų tikrinimo funkcijos „Microsoft Dynamics 365 Commerce“.
+description: Šiame straipsnyje aprašomos parduotuvės operacijų tikrinimo funkcijos „Microsoft Dynamics 365 Commerce“.
 author: analpert
 ms.date: 01/31/2022
 ms.topic: index-page
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: analpert
 ms.search.validFrom: 2019-01-15
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: f51b1f39aa212fe8587761721194db7791bec5bc
-ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
+ms.openlocfilehash: 4be40189777a37495f185467050b61af47b684d7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "8087454"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890519"
 ---
 # <a name="validate-store-transactions-for-statement-calculation"></a>Parduotuvės operacijų tikrinimas išrašų duomenims apskaičiuoti
 
 [!include [banner](includes/banner.md)]
 
-Šioje temoje aprašomos parduotuvės operacijų tikrinimo funkcijos „Microsoft Dynamics 365 Commerce“. Vykdant tikrinimo procesą nustatomos ir pažymimos operacijos, kurios gali sukelti registravimo klaidų, prieš tai, kai jos yra paimamos vykdant išrašų registravimo procesą.
+Šiame straipsnyje aprašomos parduotuvės operacijų tikrinimo funkcijos „Microsoft Dynamics 365 Commerce“. Vykdant tikrinimo procesą nustatomos ir pažymimos operacijos, kurios gali sukelti registravimo klaidų, prieš tai, kai jos yra paimamos vykdant išrašų registravimo procesą.
 
 Kai bandote užregistruoti išrašą, gali nepavykti atlikti tikrinimo proceso dėl prekybos operacijų lentelėse pateikiamų nenuoseklių duomenų. Štai keli veiksnių, galinčių sukelti šių nenuoseklumų, pavyzdžiai:
 

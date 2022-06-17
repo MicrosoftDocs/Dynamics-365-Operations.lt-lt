@@ -58,6 +58,8 @@
                   href: ../fin-ops-core/dev-itpro/deployment/apply-updates-on-premises.md?toc=/dynamics365/commerce/toc.json
                 - name: Paslaugų naujinimų konfigūravimas
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/configure-service-updates.md?toc=/dynamics365/commerce/toc.json
+                - name: Išankstinis aptarnavimas ir aptarnavimas po to
+                  href: ../fin-ops-core/dev-itpro/lifecycle-services/pre-post-servicing.md?toc=/dynamics365/commerce/toc.json
                 - name: Paslaugų naujinimų pristabdymas
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/pause-service-updates.md?toc=/dynamics365/commerce/toc.json
                 - name: Gaukite pranešimus apie paslaugų naujinimus
@@ -394,6 +396,8 @@
                   items:
                     - name: „Store Commerce“ programa
                       href: dev-itpro/store-commerce.md
+                    - name: Perkelti „Modern POS“ į „Store Commerce“
+                      href: dev-itpro/pos-extension/migrate-mpos-store-commerce.md
                     - name: Įrenginių valdymo diegimo instrukcijos
                       href: implementation-considerations-devices.md
                     - name: Pasirinkimas tarp „Store Commerce“ ir „Cloud POS“
@@ -2222,6 +2226,8 @@
                       href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/commerce/toc.json
                     - name: Elektroninių ataskaitų konfigūracijų našumo trikčių šalinimas
                       href: ../fin-ops-core/dev-itpro/analytics/er-troubleshoot-perf-issues-in-configurations.md?toc=/dynamics365/commerce/toc.json
+                    - name: Sumažinti vykdymo metu gaunamų lentelės laukelių skaičių
+                      href: ../fin-ops-core/dev-itpro/analytics/er-reduce-fetched-fields-number.md?toc=/dynamics365/commerce/toc.json
                 - name: Verslo dokumentų valdymas (BDM)
                   items:
                     - name: BDM apžvalga
@@ -2476,6 +2482,8 @@
                       href: dev-itpro/retail-sdk/sdk-github.md
                     - name: Senesnių „Retail SDK“ perkėlimas
                       href: dev-itpro/retail-sdk/migrate-commerce-sdk.md
+                    - name: 'Nebenaudojami ir pašalinti API, klasės ir metodai'
+                      href: dev-itpro/obsolete-apis-classes-methods.md
                     - name: „Commerce“ parduotuvės technologijos dėklo modernizavimas (techninė dokumentacija)
                       href: 'https://www.microsoft.com/download/details.aspx?id=103896'
                 - name: Aplinkos sąranka
@@ -2560,9 +2568,11 @@
                   items:
                     - name: „Cloud Scale Unit“ plėtinių paketo kūrimas
                       href: dev-itpro/CSU-packaging.md
+                    - name: Sujungti „Cloud Scale Unit“ plėtinių paketus visuotiniam diegimui
+                      href: dev-itpro/merge-csu-extensions.md
                     - name: „Cloud Scale Unit“ plėtinio šalinimas
                       href: dev-itpro/retail-sdk/remove-csu-package.md
-            - name: Store Commerce
+            - name: „Store Commerce“
               items:
                 - name: Apžvalga
                   items:
@@ -2908,6 +2918,14 @@
                       href: dev-itpro/create-retail-experience-app.md
         - name: Trikčių šalinimas
           items:
+            - name: „Store Commerce“
+              items:
+                - name: Sąrankos ir diegimo problemos
+                  href: troubleshoot/store-commerce-setup-installation.md
+                - name: Našumo problemos
+                  href: troubleshoot/store-commerce-performance.md
+                - name: Plėtinio problemos
+                  href: troubleshoot/store-commerce-extensions.md
             - name: Užsakymų apdorojimas
               items:
                 - name: Mokėjimo tipas turi būti kredito kortelės klaida

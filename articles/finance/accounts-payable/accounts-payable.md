@@ -1,6 +1,6 @@
 ---
 title: Mokėtinų sumų pagrindinis puslapis
-description: Šioje temoje apžvelgiamas modulis Mokėtinos sumos.
+description: Šiame straipsnyje apžvelgiamas modulis Mokėtinos sumos.
 author: sunfzam
 ms.date: 02/15/2019
 ms.topic: index-page
@@ -8,27 +8,27 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: VendInvoiceWorkspace
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom:
 - "21901"
 - intro-internal
 ms.assetid: 1e4c2ac4-077b-4678-8733-5cec8f6ff659
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: ce768ecaa668f2c69d6753401eaa145b6fddc5ec
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.openlocfilehash: 5ed6aacb94de14bdb72185cd528f62e74cd3cc15
+ms.sourcegitcommit: 427fe14824a9d937661ae21b9e9574be2bc9360b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7595292"
+ms.lasthandoff: 06/09/2022
+ms.locfileid: "8946107"
 ---
 # <a name="accounts-payable-home-page"></a>Mokėtinų sumų pagrindinis puslapis
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje apžvelgiamas modulis Mokėtinos sumos. 
+Šiame straipsnyje apžvelgiamas modulis Mokėtinos sumos. 
 
 Tiekėjų sąskaitas faktūras galite įvesti rankiniu būdu arba jas gauti elektroniniu būdu, naudodami duomenų objektą. Kai sąskaitos faktūros įvestos arba gautos, jas peržiūrėti ir patvirtinti galite naudodami sąskaitų faktūrų patvirtinimo žurnalą arba puslapyje **Tiekėjo sąskaita faktūra**. Naudodami SF gretinimo funkciją, tiekėjo SF strategijas ir darbo eigą, galite automatizuoti peržiūros procesą, kad tam tikrus kriterijus atitinkančios SF būtų automatiškai patvirtintos, o likusios SF būtų pažymimos, kad jas peržiūrėtų įgaliotas vartotojas.
 
@@ -126,13 +126,13 @@ Norėdami pamatyti, kokios naujos funkcijos planuojamos, eikite į tinklalapį [
 
 #### <a name="blogs"></a>Tinklaraščiai
 
-Galite rasti nuomonių, naujienų ir kitos informacijos apie modulį Mokėtinos sumos ir kitus sprendimus [„Microsoft Dynamics 365“ tinklaraštyje](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) ir [„Microsoft Dynamics 365 Finance“ – finansai“ tinklaraštyje](https://community.dynamics.com/365/financeandoperations/b/financials).
+[„Microsoft Dynamics 365” tinklaraštyje](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) ir [„Microsoft Dynamics 365 Finance – Financials” tinklaraštyje](https://community.dynamics.com/365/financeandoperations/b/financials) galite rasti nuomonių, naujienų ir kitos informacijos apie modulį Mokėtinos sumos ir kitus sprendimus.
 
 „[Microsoft Dynamics Operations“ partnerių bendruomenės tinklaraštis](https://community.dynamics.com/partner/b/operationspartnercommunityblog) – tai vienas išteklius, kuriame „Microsoft Dynamics‟ partneriai gali sužinoti, kas nauja ir kokios yra „Dynamics 365“ tendencijos.
 
 #### <a name="community-blogs"></a>Bendruomenės tinklaraščiai
 
-[Kaip tvarkyti mokėtinas sumas sprendime „Dynamics 365 Finance”](https://financefunction.tech/2019/02/15/how-to-manage-payables-in-dynamics-365-for-finance-and-operations)
+[Kaip tvarkyti mokėtinas sumas „Dynamics 365 Finance“](https://financefunction.tech/2019/02/15/how-to-manage-payables-in-dynamics-365-for-finance-and-operations)
 
 #### <a name="task-guides"></a>Užduočių vedliai
 Programoje papildoma pagalba prieinama kaip užduočių vedliai. Norėdami pasiekti užduočių vedlius, bet kuriame puslapyje spustelėkite mygtuką Žinynas.

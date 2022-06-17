@@ -1,6 +1,6 @@
 ---
 title: Uždarymo metų pabaigoje trūkstami pradiniai balansai
-description: Šioje temoje paaiškinama, kodėl uždarius metus gali trūkti pradinių balansų ir kaip atkurti tuos balansus, jei jų trūksta.
+description: Šiame straipsnyje paaiškinama, kodėl uždarius metus gali trūkti pradinių balansų ir kaip atkurti tuos balansus, jei jų trūksta.
 author: kweekley
 ms.date: 05/12/2021
 ms.topic: index-page
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 582363ba6c5f6e63e695d41e73ee2f0b382cf26e
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 9b64118fc3ff368e21ea8935c1e706f2161c620f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8727178"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894854"
 ---
 # <a name="year-end-close-missing-opening-balances"></a>Uždarymo metų pabaigoje trūkstami pradiniai balansai
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje paaiškinama, kodėl uždarius metus gali trūkti pradinių balansų ir kaip atkurti tuos balansus, jei jų trūksta.
+Šiame straipsnyje paaiškinama, kodėl uždarius metus gali trūkti pradinių balansų ir kaip atkurti tuos balansus, jei jų trūksta.
 
 ### <a name="symptom"></a>Požymis
 
@@ -36,7 +36,7 @@ Kodėl nėra pradinių balansų paleidus didžiosios knygos uždarymą metų pab
 
 Jei laukas **Anuliuoti ankstesnį uždarymą** nustatytas į **Taip**, ankstesnis tų pačių finansinių metų uždarymas metų pabaigoje yra atšaukiamas. Paleidus uždarymo metų pabaigoje atšaukimo procesą, visi uždarymo ir pradinių balansų įrašai bus panaikinti, tarytum metai niekada nebūtų uždaryti. Kvitai taip pat panaikinami. Uždarymo metų pabaigoje procesas nebus paleistas automatiškai. Būtina iš naujo pradėti procesą šį kartą parinktį **Anuliuoti ankstesnį uždarymą** atnaujinant į **Ne**.
 
-Šis scenarijus įtrauktas į DUK apie uždarymą metų pabaigoje temą. Daugiau informacijos ieškokite dalyje [DUK apie metų pabaigos veiklas](faq-year-end-activities.md).
+Šis scenarijus įtrauktas į DUK apie uždarymo metų pabaigoje straipsnį. Daugiau informacijos ieškokite dalyje [DUK apie metų pabaigos veiklas](faq-year-end-activities.md).
 
 ### <a name="symptom"></a>Požymis
 
