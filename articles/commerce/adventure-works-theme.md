@@ -1,6 +1,6 @@
 ---
 title: „Adventure Works” temos apžvalga
-description: Šioje temoje apžvelgiama „Adventure Works” tema ir aprašoma, kaip ją taikyti svetainės puslapiams, esantiems „Microsoft Dynamics 365 Commerce”.
+description: Šiame straipsnyje pateikiama Adventure Works temos apžvalga ir aprašoma, kaip taikyti ją svetainės puslapiams Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 12/03/2021
 ms.topic: overview
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 34ea24e2d81a69d720973455492f9e05ed34dd81
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 4f13d6c1c4b0e2764c22dc3d7311c726fac7989d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983699"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874992"
 ---
 # <a name="adventure-works-theme-overview"></a>„Adventure Works” temos apžvalga
 
 [!include [banner](includes/banner.md)]
 
-Šioje temoje apžvelgiama „Adventure Works” tema ir aprašoma, kaip ją taikyti svetainės puslapiams, esantiems „Microsoft Dynamics 365 Commerce”.
+Šiame straipsnyje pateikiama Adventure Works temos apžvalga ir aprašoma, kaip taikyti ją svetainės puslapiams Microsoft Dynamics 365 Commerce.
 
 „Dynamics 365 Commerce” turi elektroninės prekybos temą, kuri vadinama „Adventure Works”. „Adventure Works” tema rodo sporto ir laisvalaikio produktus, bei yra optimizuota gausiai ir patobulintai pasakojimo patirčiai. Ji suteikia modernią išvaizdą, naujus maketus ir animacijos efektus, kurie sukuria įtraukiančią ir patrauklią internetinio apsipirkimo patirtį elektroninės prekybos klientams.
 

@@ -1,6 +1,6 @@
 ---
 title: Sandėlio nustatymas naudojant sandėlio konfigūracijos šabloną
-description: Šioje temoje paaiškinama, kaip nustatyti sandėlį naudojant sandėlio konfigūracijos šabloną.
+description: Šiame straipsnyje paaiškinama, kaip nustatyti sandėlį naudojant sandėlio konfigūracijos šabloną.
 author: yufeihuang
 ms.date: 11/16/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 6698d615826a1555426824bb76db654fde539360
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 737b6f2f645ff270e5a49d54ca7542df3c075f94
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7571094"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856112"
 ---
 # <a name="set-up-a-warehouse-by-using-a-warehouse-configuration-template"></a>Sandėlio nustatymas naudojant sandėlio konfigūracijos šabloną
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje paaiškinama, kaip nustatyti sandėlį naudojant sandėlio konfigūracijos šabloną. Galima naudoti kelis iš anksto nustatytus konfigūracijos šablonus. Informacijos apie tai, kaip naudoti šiuos šablonus, žr. [Konfigūracijos duomenų šablonai](../../fin-ops-core/dev-itpro/data-entities/configuration-data-templates.md).
+Šiame straipsnyje paaiškinama, kaip nustatyti sandėlį naudojant sandėlio konfigūracijos šabloną. Galima naudoti kelis iš anksto nustatytus konfigūracijos šablonus. Informacijos apie tai, kaip naudoti šiuos šablonus, žr. [Konfigūracijos duomenų šablonai](../../fin-ops-core/dev-itpro/data-entities/configuration-data-templates.md).
 
 ## <a name="scenarios-where-configuration-templates-can-be-helpful"></a>Atvejai, kada konfigūracijos šablonai gali būti naudingi
 
@@ -38,7 +38,7 @@ Konfigūracijos šablonai gali būti naudingi daugeliu atvejų. Štai keletas pa
 - Norite greitai parengti sandėlio funkcijų demonstracinius duomenis.
 - Norite, kad esami sandėliai ir prekės naudotų sandėlio valdymo funkcijas, o ne atsargų valdymo funkcijas.
 
-Šioje temoje aprašomas pirmasis iš šių atvejų. Joje parodoma, kaip galite naudoti konfigūracijos šabloną, norėdami konfigūracijos sąranką kopijuoti iš tikrinimo aplinkos į gamybos aplinką.
+Šiame straipsnyje sutelkiamas dėmesys pirmajame iš šių scenarijų. Joje parodoma, kaip galite naudoti konfigūracijos šabloną, norėdami konfigūracijos sąranką kopijuoti iš tikrinimo aplinkos į gamybos aplinką.
 
 ## <a name="copy-a-configuration-setup-from-a-test-environment-to-a-production-environment"></a>Konfigūracijos sąrankos kopijavimas iš tikrinimo aplinkos į gamybos aplinką
 
@@ -90,9 +90,9 @@ Galite atsisiųsti duomenų paketo ZIP failą. Šiame faile visi duomenys pateik
 
 Žurnale **Vykdymo peržiūra** pateikiama išsami informacija apie kiekvieną duomenų objektą, kuris yra importuotas. Galite naudoti išdėstymo duomenų rodinį, norėdami greitai pasiekti paskirties duomenis. Tokiu būdu galite peržiūrėti, kaip importuoti duomenys rodomi susijusiuose programos puslapiuose. Naudojant numatytuosius duomenų šablonus, kiekvieno duomenų objekto importavimo seka vykdoma iš anksto nustatytu būdu, siekiant užtikrinti, kad pirmiausia importuojami visi priklausomi duomenys. Jei pasirinktiniai duomenų objektai yra projekto dalis, turite įsitikinti, kad apibrėžta teisinga seka. Daugiau informacijos žr. [ Konfigūracijos duomenų šablonai](../../fin-ops-core/dev-itpro/data-entities/configuration-data-templates.md).
 
-Norėdami daugiau sužinoti apie tai, kaip naudojant sandėlio šabloną nukopijuoti sandėlio konfigūraciją iš vienos įmonės į naują įmonę tame pačiame egzemplioriuje, žr. šį 3 minučių „YouTube“ vaizdo įrašą apie tai, [kaip naudojant sandėlio šabloną nukopijuoti konfigūraciją programoje „Finance and Operations“](https://www.youtube.com/watch?v=K2WIfFlqJYs).
+Norėdami daugiau sužinoti apie tai, kaip naudojant sandėlio šabloną nukopijuoti sandėlio konfigūraciją iš vienos įmonės į naują įmonę tame pačiame egzemplioriuje, žr. šį 3 minučių „YouTube“ vaizdo įrašą apie [konfigūracijos kopijavimą naudojant sandėlio šabloną programoje „Finance and Operations“](https://www.youtube.com/watch?v=K2WIfFlqJYs).
 
-## <a name="related-topic"></a>Susijusi tema
+## <a name="related-article"></a>Susijęs straipsnis
 
 [Konfigūracijos duomenų šablonai](../../fin-ops-core/dev-itpro/data-entities/configuration-data-templates.md)
 

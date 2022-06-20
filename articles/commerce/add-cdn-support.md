@@ -1,6 +1,6 @@
 ---
-title: Turinio pristatymo tinklo (CDN) palaikymo įtraukimas
-description: Šioje temoje aprašoma, kaip į savo „Microsoft Dynamics 365 Commerce“ aplinką įtraukti turinio pristatymo tinklą (CDN).
+title: Turinio pateikimo tinklo (CDN) palaikymo įtraukimas
+description: Šiame straipsnyje aprašoma, kaip į aplinką įtraukti turinio pristatymo tinklą (CDN Microsoft Dynamics 365 Commerce).
 author: brianshook
 ms.date: 03/17/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: caed13c37c9043a2acea751c8a8b15261f26ecb2e10b6e64c0ce50f6ce9a68de
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a2ed8f66d447e1d9e890c0885fd20e9b55c66ac0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722059"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855881"
 ---
 # <a name="add-support-for-a-content-delivery-network-cdn"></a>Turinio pateikimo tinklo (CDN) palaikymo įtraukimas
 
 [!include [banner](includes/banner.md)]
 
-Šioje temoje aprašoma, kaip į savo „Microsoft Dynamics 365 Commerce“ aplinką įtraukti turinio pristatymo tinklą (CDN).
+Šiame straipsnyje aprašoma, kaip į aplinką įtraukti turinio pristatymo tinklą (CDN Microsoft Dynamics 365 Commerce).
 
 Jums nustatant e-komercijos aplinką „Dynamics 365 Commerce“, galite konfigūruoti ją darbui su jūsų CDN paslaugomis. 
 
@@ -60,7 +60,7 @@ CDN sąrankos procesą sudaro tolesni bendrieji veiksmai.
 
 ### <a name="add-a-front-end-host"></a>Sąsajos serverio pagrindinio kompiuterio įtraukimas
 
-Galima naudoti bet kurią CDN tarnybą, tačiau šios temos pavyzdyje naudojama „Azure Front Door Service“. 
+Galima naudoti bet kokią CDN paslaugą, tačiau, pavyzdžiui, šiame straipsnyje, naudojama "Azure Front Door Service". 
 
 Norėdami gauti informacijos apie tai, kaip nustatyti „Azure Front Door Service“, žr. [Greitas pasirengimas darbui: „Front Door“ profilio sukūrimas plačiai pasiekiamai visuotinei žiniatinklio programai](/azure/frontdoor/quickstart-create-front-door).
 
@@ -101,7 +101,7 @@ Norėdami sprendime „Azure Front Door Service“ nustatyti maršruto parinkimo
 
 
 > [!WARNING]
-> Jei jūsų naudojamas domenas jau yra veikiantis ir paleistas, sukurkite paramos bilietą **Parama** dreną [„Microsoft Dynamics Lifecycle Services“](https://lcs.dynamics.com/) tam, kad gautumėte pagalbą tolesniems savo veiksmams. Dėl išsamesnės informacijos, žr.  [Gauti pagalbą „Finance and Operations“ programoms arba „Lifecycle Services (LCS)“](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md).
+> Jei jūsų naudojamas domenas jau yra veikiantis ir paleistas, sukurkite paramos bilietą **Parama** dreną [„Microsoft Dynamics Lifecycle Services“](https://lcs.dynamics.com/) tam, kad gautumėte pagalbą tolesniems savo veiksmams. Daugiau informacijos rasite finansų ir [operacijų programėlių arba vykdymo ciklo tarnybų (LCS) palaikymas](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md).
 
 Jei jūsų domenas yra naujas ir nėra iš anksto egzistuojantis gyvas domenas, galite įtraukti savo tinkintą domeną į „Azure Front Doore Service“ kongirūravimą. Tai leis žiniatinklio srautui vesti jūsų svetainę pro „Azure Front Door“ pavyzdį. Norėdami įtraukti pasirinktinį domeną (pavyzdžiui, `www.fabrikam.com`), turite sukonfigūruoti domeno kanoninį vardą (CNAME).
 

@@ -1,6 +1,6 @@
 ---
 title: Tiekėjo SF objektai
-description: Šioje temoje pateikiama informacija apie tiekėjo SF objektus, kurie įgalina konfigūruoti vidinių ar išorinių išlaidų tipų kodus.
+description: Šiame straipsnyje pateikta informacija apie tiekėjo SF objektus, kurie įgalina konfigūruoti vidinių išlaidų arba išorinių išvestinių išlaidų tipų kodus.
 author: yufeihuang
 ms.date: 05/27/2022
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2022-05-27
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: 4bbe0fdbf95050ebfa707224f602e5e71ddb3a8f
-ms.sourcegitcommit: 611202adaa080250636efabb3b3b32b850d92d04
+ms.openlocfilehash: 171b383e1549babd76fd18e4932436a66aa62cc1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/28/2022
-ms.locfileid: "8813182"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873933"
 ---
 # <a name="vendor-invoice-entities"></a>Tiekėjo SF objektai
 

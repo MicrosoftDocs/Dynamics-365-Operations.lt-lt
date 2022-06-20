@@ -1,6 +1,6 @@
 ---
 title: Naujinkite sertifikato numerius ir datas TDS operacijoms
-description: Šioje temoje paaiškinta, kaip naujinti gautinus sertifikatų numerius ir datas, kurie įrašyti tiekėjui, klientui ir DK mokesčių atskaičiavimo šaltinyje (TDS).
+description: Šiame straipsnyje paaiškinama, kaip atnaujinti susigrąžinamų sertifikatų numerius ir datas, kurios buvo įrašytos tiekėjui, klientui ir ŠALTINIO (TDS) mokesčių atskaitomų mokesčių sąskaitoms.
 author: kailiang
 ms.date: 02/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 7f8b5713e8ce3f9e9c89b8b3bc6ea84fe1f0fa54
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 147a27261a4a282550f0bacede78c9edd38b4fe6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8724817"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904447"
 ---
 # <a name="update-certificate-numbers-and-dates-for-tds-transactions"></a>Naujinkite sertifikato numerius ir datas TDS operacijoms
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje paaiškinta, kaip naujinti gautinus sertifikatų numerius ir datas, kurie įrašyti tiekėjui, klientui ir DK mokesčių atskaičiavimo šaltinyje (TDS). TDS operacijų sertifikatus galite peržiūrėti puslapyje **Atkurtini sertifikatai**. Galite atnaujinti sertifikatus, naudodami puslapį **Atnaujinti sertifikatus**.
+Šiame straipsnyje paaiškinama, kaip atnaujinti susigrąžinamų sertifikatų numerius ir datas, kurios buvo įrašytos tiekėjui, klientui ir ŠALTINIO (TDS) mokesčių atskaitomų mokesčių sąskaitoms. TDS operacijų sertifikatus galite peržiūrėti puslapyje **Atkurtini sertifikatai**. Galite atnaujinti sertifikatus, naudodami puslapį **Atnaujinti sertifikatus**.
 
 Norėdami naujinti sertifikatų numerius ir datas, atlikite šiuos veiksmus TDS operacijoms.
 

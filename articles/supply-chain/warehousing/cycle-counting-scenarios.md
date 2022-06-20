@@ -1,6 +1,6 @@
 ---
 title: Ciklo skaičiavimo pavyzdiniai scenarijai
-description: Šioje temoje pateikiamas scenarijų, kurie tyrinėja „Microsoft Dynamics 365 Supply Chain Management” ciklo skaičiavimo priemones, rinkinys.
+description: Šiame straipsnyje pateikiamas scenarijų, kurie ištyrinėja "Microsoft" ciklų skaičiavimo priemones, rinkinys Dynamics 365 Supply Chain Management.
 author: GalynaFedorova
 ms.date: 06/08/2021
 ms.topic: article
@@ -11,24 +11,24 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2021-06-08
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 60be945035570634c572baaa37ae0d02e41dd0be
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 90a3f132a96081b56ab60f5b0ba5cc328b820879
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8674707"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899330"
 ---
 # <a name="cycle-counting-example-scenarios"></a>Ciklo skaičiavimo pavyzdiniai scenarijai
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje pateikiamas scenarijų, kurie tyrinėja „Microsoft Dynamics 365 Supply Chain Management” ciklo skaičiavimo priemones, rinkinys. Pirmiausia aprašomi jūsų esamos „Supply Chain Management” aplinkos reikalavimai. Tada paaiškinama, kaip konfigūruoti ciklo skaičiavimą ir aprašomi visi ciklo skaičiavimo etapai. Kai baigsite, turėtumėte gerai suprasti ciklo skaičiavimą, įskaitant valdomą ciklo skaičiavimą, aklą ciklo skaičiavimą, ciklo skaičiavimą vietoje, ciklo skaičiavimo ribines vertes ir ciklo skaičiavimo planus.
+Šiame straipsnyje pateikiamas scenarijų, kurie ištyrinėja "Microsoft" ciklų skaičiavimo priemones, rinkinys Dynamics 365 Supply Chain Management. Pirmiausia aprašomi jūsų esamos „Supply Chain Management” aplinkos reikalavimai. Tada paaiškinama, kaip konfigūruoti ciklo skaičiavimą ir aprašomi visi ciklo skaičiavimo etapai. Kai baigsite, turėtumėte gerai suprasti ciklo skaičiavimą, įskaitant valdomą ciklo skaičiavimą, aklą ciklo skaičiavimą, ciklo skaičiavimą vietoje, ciklo skaičiavimo ribines vertes ir ciklo skaičiavimo planus.
 
 ## <a name="prerequisites"></a>Būtinieji komponentai
 
 ### <a name="make-demo-data-available"></a>Demonstracinių duomenų įgalinimas
 
-Kiekvienas šios temos scenarijus nurodo į vertes ir įrašus, kurie yra įtraukti į standartinius demonstracinius duomenis, pateiktus „Supply Chain Management“. Jei norite naudoti čia pateiktas reikšmes dirbdami pagal scenarijus, įsitikinkite, kad dirbate aplinkoje, kurioje įdiegti demonstraciniai duomenys, ir nustatykite juridinį subjektą į **„USMF”** prieš pradėdami.
+Kiekvienas scenarijus šiame straipsnyje nurodo vertes ir įrašus, įtrauktus į standartinius demonstracinius duomenis, kurie pateikiami tiekimo grandinės valdymui. Jei norite naudoti čia pateiktas reikšmes dirbdami pagal scenarijus, įsitikinkite, kad dirbate aplinkoje, kurioje įdiegti demonstraciniai duomenys, ir nustatykite juridinį subjektą į **„USMF”** prieš pradėdami.
 
 ### <a name="turn-on-support-for-the-warehouse-management-mobile-app"></a>„Warehouse Management Mobile App“ palaikymo įjungimas
 
@@ -158,7 +158,7 @@ Atlikite šiuos veiksmus, jei norite sukurti ciklo skaičiavimo darbą prekės v
 
 Sukūrę ciklo skaičiavimo darbą, jį atliekate suskaičiuodami prekes sandėlio vietoje ir tada mobiliuoju įrenginiu įvesdami rezultatus į „Supply Chain Management“. Atlikite šiuos veiksmus, jei norite atlikti ciklo skaičiavimo darbą „Warehouse Management Mobile App” programėlėje.
 
-1. Prisijunkite prie „Warehouse Management Mobile App” programėlės kaip darbo vartotojas, kurį nustatėte skyriuje [Paruošti demonstracinius duomenis scenarijams](#prepare-demo-data), esančiame anksčiau šioje temoje. Šios temos pavyzdyje vartotojas yra pavadintas *„Julia Funderburk”* ir yra nustatytas *61* sandėliui. (USMF demonstraciniai duomenys turėtų leisti jums prisijungti kaip šio darbo vartotojui įvedant *61* kaip vartotojo ID ir *1* – kaip slaptažodį.)
+1. Prisiregistruokite prie sandėlio valdymo mobiliosios [programos kaip darbo vartotojas, kurį nustatėte anksčiau šiame straipsnyje skyriuje Paruošti demonstracinius](#prepare-demo-data) duomenis scenarijams. Kaip pavyzdį šiame straipsnyje, vartotojas yra pavadintas *"Vz." Funderburk* ir yra nustatytas sandėliui *61*. (USMF demonstraciniai duomenys turėtų leisti jums prisijungti kaip šio darbo vartotojui įvedant *61* kaip vartotojo ID ir *1* – kaip slaptažodį.)
 1. Pagrindiniame meniu pasirinkite **Atsargos**.
 1. Meniu **Atsargos** pasirinkite **Valdomas ciklo skaičiavimas**.
 1. Pasirinkite lauką **Kiekis** ir dar kartą įveskite *9* naudodami skaičių klaviatūrą ir tada pasirinkite **GERAI** (varnelės mygtukas).
@@ -227,7 +227,7 @@ Prieš pradėdami vykdyti aklą ciklo skaičiavimą, turite sukurti tam tikrą d
 
 Sukūrę ciklo skaičiavimo darbą, atlikite šiuos veiksmus, jei norite atlikti darbą „Warehouse Management Mobile App” programėlėje.
 
-1. Prisijunkite prie „Warehouse Management Mobile App” programėlės kaip darbo vartotojas, kurį nustatėte skyriuje [Paruošti demonstracinius duomenis scenarijams](#prepare-demo-data), esančiame anksčiau šioje temoje. Šios temos pavyzdyje vartotojas yra pavadintas *„Julia Funderburk”* ir yra nustatytas *61* sandėliui. (USMF demonstraciniai duomenys turėtų leisti jums prisijungti kaip šio darbo vartotojui įvedant *61* kaip vartotojo ID ir *1* – kaip slaptažodį.)
+1. Prisiregistruokite prie sandėlio valdymo mobiliosios [programos kaip darbo vartotojas, kurį nustatėte anksčiau šiame straipsnyje skyriuje Paruošti demonstracinius](#prepare-demo-data) duomenis scenarijams. Kaip pavyzdį šiame straipsnyje, vartotojas yra pavadintas *"Vz." Funderburk* ir yra nustatytas sandėliui *61*. (USMF demonstraciniai duomenys turėtų leisti jums prisijungti kaip šio darbo vartotojui įvedant *61* kaip vartotojo ID ir *1* – kaip slaptažodį.)
 1. Pagrindiniame meniu pasirinkite **Atsargos**.
 1. Meniu **Atsargos** pasirinkite **Aklas ciklo skaičiavimas**.
 1. Pasirinkite lauką **Zonos ID**, įveskite *„BULK06”*, o tada pasirinkite **GERAI** (varnelės mygtukas).
@@ -259,7 +259,7 @@ Turimo kiekio įrašas rodo, kad yra turimas *„L0101”* prekės kiekis vietoj
 
 Atlikite šiuos veiksmus, jei norite atlikti ciklo skaičiavimo darbą „Warehouse Management Mobile App” programėlėje.
 
-1. Prisijunkite prie „Warehouse Management Mobile App” programėlės kaip darbo vartotojas, kurį nustatėte skyriuje [Paruošti demonstracinius duomenis scenarijams](#prepare-demo-data), esančiame anksčiau šioje temoje. Šios temos pavyzdyje vartotojas yra pavadintas *„Julia Funderburk”* ir yra nustatytas *61* sandėliui. (USMF demonstraciniai duomenys turėtų leisti jums prisijungti kaip šio darbo vartotojui įvedant *61* kaip vartotojo ID ir *1* – kaip slaptažodį.)
+1. Prisiregistruokite prie sandėlio valdymo mobiliosios [programos kaip darbo vartotojas, kurį nustatėte anksčiau šiame straipsnyje skyriuje Paruošti demonstracinius](#prepare-demo-data) duomenis scenarijams. Kaip pavyzdį šiame straipsnyje, vartotojas yra pavadintas *"Vz." Funderburk* ir yra nustatytas sandėliui *61*. (USMF demonstraciniai duomenys turėtų leisti jums prisijungti kaip šio darbo vartotojui įvedant *61* kaip vartotojo ID ir *1* – kaip slaptažodį.)
 1. Pagrindiniame meniu pasirinkite **Atsargos**.
 1. Meniu **Atsargos** pasirinkite **Skaičiavimas vietoje**.
 1. Pasirinkite lauką **Vieta**, įveskite *„01A02R2S1B”*, o tada pasirinkite **GERAI** (varnelės mygtukas).

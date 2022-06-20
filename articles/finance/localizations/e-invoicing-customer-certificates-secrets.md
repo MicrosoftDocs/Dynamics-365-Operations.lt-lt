@@ -1,6 +1,6 @@
 ---
-title: Kliento sertifikatai ir slaptos saugos
-description: Šioje temoje paaiškinama, kaip nustatyti kliento sertifikatus ir paslapymus išrašant elektronines SF.
+title: Kliento sertifikatai ir slaptieji raktai
+description: Šiame straipsnyje paaiškinama, kaip nustatyti kliento sertifikatus ir paslapius išrašant elektronines SF.
 author: dkalyuzh
 ms.date: 02/07/2022
 ms.topic: article
@@ -15,14 +15,14 @@ ms.search.region: Global
 ms.author: dkalyuzh
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 1325cad95e9a6dc470691f5f168439fccaaa78e1
-ms.sourcegitcommit: ffdb6794746ffe5461f9dcf34ed8e64976d22d2d
+ms.openlocfilehash: a4d33135bf352a4c4a245e597e0c3c7467317864
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "8371955"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880666"
 ---
-# <a name="customer-certificates-and-secrets"></a>Kliento sertifikatai ir slaptos saugos
+# <a name="customer-certificates-and-secrets"></a>Kliento sertifikatai ir slaptieji raktai
 
 [!include [banner](../includes/banner.md)]
 

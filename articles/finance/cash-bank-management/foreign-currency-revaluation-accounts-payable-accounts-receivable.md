@@ -1,6 +1,6 @@
 ---
 title: Valiutos naujas įvertinimas mokėtinoms sąskaitoms ir gautinoms sąskaitoms
-description: Šioje temoje pateikiama informacija apie užsienio valiutos kurso pasikeitimo procesą, kuris vykdomas norint atnaujinti atvirų operacijų Mokėtinų ir Gautinų sumų vertę.
+description: Šiame straipsnyje pateikiama informacija apie užsienio valiutos kurso pasikeitimo procesą, kuris vykdomas norint atnaujinti atvirų operacijų Mokėtinų ir Gautinų sumų vertę.
 author: kweekley
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cf32a31df1d56740d803b97d65829b1b1d31eb17
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 33750e7bb2f1fc4158a5f2faba5eeae5a356db7c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713930"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906390"
 ---
 # <a name="currency-revaluation-for-accounts-payable-and-accounts-receivable"></a>Valiutos naujas įvertinimas mokėtinoms sąskaitoms ir gautinoms sąskaitoms
 
 [!include [banner](../includes/banner.md)]
 
-Dėl valiutos kursų svyravimų laikui bėgant kinta atvirų operacijų užsienio valiutomis teorinė vertė (balansinė vertė). Šioje temoje pateikiama informacija apie užsienio valiutos kurso pasikeitimo procesą, kuris vykdomas norint atnaujinti atvirų operacijų Mokėtinų ir Gautinų sumų vertę. 
+Dėl valiutos kursų svyravimų laikui bėgant kinta atvirų operacijų užsienio valiutomis teorinė vertė (balansinė vertė). Šiame straipsnyje pateikiama informacija apie užsienio valiutos kurso pasikeitimo procesą, kuris vykdomas norint atnaujinti atvirų operacijų Mokėtinų ir Gautinų sumų vertę. 
 
 Atvirų tiekėjo operacijų užsienio valiutomis teorinė, arba balansinė, vertė laikui bėgant kinta dėl valiutos kursų svyravimų. Norėdami atnaujinti atvirų operacijų Mokėtinų ir Gautinų sumų vertę, vykdykite užsienio valiutos kurso pasikeitimo procesą. Užsienio valiutos kurso pasikeitimą galima vykdyti ir Mokėtinoms, ir Gautinoms sumoms. Šio proceso metu naudojamas naujas valiutos kursas atviroms arba nesudengtoms sumoms perkainoti nurodyta data. Skirtumai tarp pradinių užregistruotų sumų ir perkainotų sumų sukels kiekvienos atviros operacijos negauto pelno arba nepatirto nuostolio. Mokėtinų sumų ir Gautinų sumų papildomos knygos tada atnaujinamos, kad atspindėtų negautą pelną arba nepatirtą nuostolį, ir į didžiąją knygą užregistruojamas apskaitos įrašas.
 

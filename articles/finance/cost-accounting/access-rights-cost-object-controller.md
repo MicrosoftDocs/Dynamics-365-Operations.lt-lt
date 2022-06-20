@@ -1,6 +1,6 @@
 ---
 title: Savikainos objekto valdiklių prieigos teisės
-description: Šioje temoje pateikiama informacija apie savikainos objekto valdiklių prieigos teises.
+description: Šiame straipsnyje pateikta informacija apie išlaidų objektų valdiklių prieigos teises.
 author: AndersGirke
 ms.date: 06/24/2017
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: twheeloc
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 13d562a4f42644b822c9548d1ea87d44a396b2c2
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: c40be758c5e5d1d1fb025630ed8321ae46251892
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8733884"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903195"
 ---
 # <a name="access-rights-for-cost-object-controllers"></a>Savikainos objekto valdiklių prieigos teisės
 
@@ -35,10 +35,10 @@ Yra keturi unikalūs kaštų apskaitos vaidmenys.
 |-------------------------|--------------|
 | Savikainos apskaitos vadovas | Veikla     |
 | Išlaidų buhalteris         | „Operations‟   |
-| Išlaidų buhalteris   | „Operations‟   |
+| Išlaidų apskaitininkas   | „Operations‟   |
 | Savikainos objekto valdiklis  | Komandos nariai |
 
-Šioje temoje paaiškinama, kaip vadybininkui priskirti vaidmenį **Savikainos objekto valdiklis**.
+Šiame straipsnyje paaiškinama, kaip vadybininkui **priskirti išlaidų** objekto kontrolieriaus vaidmenį.
 
 Kai vaidmuo **Savikainos objekto valdiklis** priskirtas vadybininkui, vadybininkas gali atlikti šias užduotis:
 
@@ -95,7 +95,7 @@ Prieigos sąrašo hierarchijos parametrai naudojami norint valdyti toliau nurody
 
 > [!IMPORTANT]
 > - Tam, kad prieigos sąrašo hierarchija galėtų turėti įtakos „Power BI“, turi būti susieta prieigos sąrašo hierarchija ir „Power BI“ eilučių lygio sauga. Daugiau informacijos rasite dalyje [Kaštų apskaitos turinio paketo saugos nustatymas](../../fin-ops-core/dev-itpro/analytics/setup-security-cost-accounting-content-pack.md).
-> - Šioje temoje rodomos prieš naudojantis darbo sritimi **Savikainos kontrolė** turimos įdiegti būtinosios sąlygos.
+> - Šiame straipsnyje pateikiamos būtinosios sąlygos, kurios turi būti, kad būtų galima naudoti išlaidų **kontrolės darbo** sritį.
 
 Papildomi ištekliai
 

@@ -1,6 +1,6 @@
 ---
 title: Savikainos kontrolės darbo sritis
-description: Šioje temoje pateikiama informacija apie darbo sritį Savikainos kontrolė. Ši darbo sritis yra centrinis taškas, kuriame už dimensijos arba dimensijų savikainos objekto arba savikainos objektų rinkinį atsakingi vadybininkai gali pasiekti ataskaitas.
+description: Šiame straipsnyje pateikiama informacija apie išlaidų kontrolės darbo sritį. Ši darbo sritis yra centrinis taškas, kuriame už dimensijos arba dimensijų savikainos objekto arba savikainos objektų rinkinį atsakingi vadybininkai gali pasiekti ataskaitas.
 author: AndersGirke
 ms.date: 06/16/2017
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: twheeloc
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 36e94ff2cd499a827c631d6836a6c976af53dfa1
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: f53d5d4daea076cc63308a83292f8f8c1ee1d022
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734610"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853502"
 ---
 # <a name="cost-control-workspace"></a>Savikainos kontrolės darbo sritis 
 

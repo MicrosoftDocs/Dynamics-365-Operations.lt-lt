@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f969224f48cdb1f12b48b9f5d839d7c88168e87d
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
-ms.translationtype: MT
+ms.openlocfilehash: 7026453bf3a0eda2b9bc4d8538150974bd6aa634
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8674259"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847910"
 ---
 # <a name="repair-management"></a>Remonto valdymas       
 
@@ -97,7 +97,7 @@ Pašalinus problemą, remonto eilutę galima uždaryti. Nustatykite remonto etap
 
 ## <a name="close-a-repair-line-for-a-resolved-issue"></a>Pašalintos trikties remonto eilutės uždarymas
 
-1.  Atidarykite formą **Remonto eilutės**. Sukurkite remonto eilutę atlikdami ankstesnėje šios temos dalyje nurodytą procedūrą.
+1.  Atidarykite formą **Remonto eilutės**. Norėdami sukurti remonto eilutę, atlikite anksčiau šiame straipsnyje nurodytus veiksmus.
 
 2.  Pasirinkite norimą uždaryti remonto eilutę, kurioje pateiktas trikties remontas.
 

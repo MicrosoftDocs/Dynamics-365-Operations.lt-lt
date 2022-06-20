@@ -1,6 +1,6 @@
 ---
-title: Kaip sukonfigūruoti, kad būtų naudojami ER formatų parametrai, nurodyti kiekvienam juridiniam subjektui
-description: Šioje temoje paaiškinama, kaip galite sukonfigūruoti, kad būtų naudojami modulio Elektroninės ataskaitos (ER) formatai, nurodyti kiekvienam juridiniam subjektui.
+title: ER formatų konfigūravimas, kurį atlikus naudojami juridiniam subjektui nurodyti parametrai
+description: Šiame straipsnyje paaiškinama, kaip konfigūruoti elektroninių ataskaitų (ER) formatus, kad būtų naudojami kiekvienam juridiniam subjektui nurodyti parametrai.
 author: NickSelin
 ms.date: 04/02/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.3
-ms.openlocfilehash: 2bf4d1ecad3e25299df7c87ffa2236736ddcac300a5ded779616b25920745d7e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: eb44422c4cdcc87989cdfb28dcd7d5cfea9002eb
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6765837"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8858834"
 ---
 # <a name="configure-er-formats-to-use-parameters-that-are-specified-per-legal-entity"></a>Kaip sukonfigūruoti, kad būtų naudojami ER formatų parametrai, nurodyti kiekvienam juridiniam subjektui
 
@@ -33,17 +33,17 @@ Daugelyje modulio Elektroninės ataskaitos (ER) formatų, kuriuos kursite, turit
 -   Kuo yra daugiau juridinių subjektų, tuo daugiau ER formatų konfigūracijų reikia tvarkyti.
 -   Kad įmonių vartotojai galėtų tvarkyti ER konfigūracijas, jiems reikia turėti ER žinių.
 
-Naudodami konkrečiai ER programai skirtų parametrų funkciją, patyrę vartotojai ER formate gali sukonfigūruoti duomenų filtravimą, kad jis būtų pagrįstas abstrakčių taisyklių rinkiniu. Galima sukonfigūruoti, kad šis taisyklių rinkinys naudotų ER formate esančius duomenų šaltinius. Įmonių vartotojai tada gali nurodyti tikras ne tik ER sistemoje taikomas taisykles – tai jie gali daryti naudodami vartotojo sąsają (UI), kuri automatiškai sugeneruojama pagal atitinkamo ER formato parametrus ir tuometinius juridinio subjekto duomenis, kuriuos naudos ER formato duomenų šaltiniai. Nurodytą ER formato taisyklių rinkinį galima eksportuoti iš „Dynamics 365 Finance“ („Finance“) egzemplioriaus tuometinio juridinio subjekto. Tada jį galima importuoti į kitą to paties „Finance“ egzemplioriaus arba kito egzemplioriaus juridinį subjektą kaip to paties ER formato taisyklių rinkinį.
+Naudodami konkrečiai ER programai skirtų parametrų funkciją, patyrę vartotojai ER formate gali sukonfigūruoti duomenų filtravimą, kad jis būtų pagrįstas abstrakčių taisyklių rinkiniu. Galima sukonfigūruoti, kad šis taisyklių rinkinys naudotų ER formate esančius duomenų šaltinius. Įmonių vartotojai tada gali nurodyti tikras ne tik ER sistemoje taikomas taisykles – tai jie gali daryti naudodami vartotojo sąsają (UI), kuri automatiškai sugeneruojama pagal atitinkamo ER formato parametrus ir tuometinius juridinio subjekto duomenis, kuriuos naudos ER formato duomenų šaltiniai. Taisyklių rinkinį, nurodytą ER formatu, galima eksportuoti iš dabartinio "Dynamics 365 Finance (Finance) egzemplioriaus juridinio subjekto. Tada jį galima importuoti į kitą to paties „Finance“ egzemplioriaus arba kito egzemplioriaus juridinį subjektą kaip to paties ER formato taisyklių rinkinį.
 
 ## <a name="prerequisites"></a>Būtinieji komponentai
 
-Norint įvykdyti šioje temoje pateikiamus pavyzdžius, reikia turėti prieigą prie „Regulatory Configuration Services“ (RCS) egzemplioriaus, kuris sukonfigūruotas tam pačiam nuomotojui, kaip „Finance“, vienam iš toliau nurodytų vaidmenų atlikti.
+Norėdami užbaigti pavyzdžius šiame straipsnyje, turite turėti prieigą prie reguliavimo konfigūracijos tarnybų (RCS), kurios buvo rastos tam pačiam nuomininkui kaip ir finansai vienam iš toliau nurodytų vaidmenų, egzemplioriaus:
 
 - Elektroninės ataskaitos kūrėjas
 - Elektroninės ataskaitos funkcijų konsultantas
 - Sistemos administratorius
 
-Rekomenduojame atlikti veiksmus, aprašytus temoje [Tipo APSKAIČIUOTAS LAUKAS ER duomenų šaltinių parametrizuotų iškvietų palaikymas](er-calculated-field-type.md). Jei tuos veiksmus jau atlikote, galite praleisti tolesniame skyriuje **ER konfigūracijų importavimas į RCS** aprašytus veiksmus.
+Rekomenduojame atlikti veiksmus parametrų [ER duomenų šaltinių, kurie yra suskaičiuoto lauko tipo straipsnis, palaikymo dalyje](er-calculated-field-type.md). Jei tuos veiksmus jau atlikote, galite praleisti tolesniame skyriuje **ER konfigūracijų importavimas į RCS** aprašytus veiksmus.
 
 ## <a name="import-er-configurations-into-rcs"></a>ER konfigūracijų importavimas į RCS
 
@@ -58,7 +58,7 @@ Atsisiųskite ir saugokite šias ER konfigūracijas.
 
 Tada prisijunkite prie savo RCS egzemplioriaus.
 
-Šiame pavyzdyje sukursite pavyzdinės įmonės „Litware, Inc“ konfigūraciją. Kad galėtumėte atlikti šią procedūrą, turite atlikti RCS temoje [Konfigūracijų teikėjo sukūrimas ir pažymėjimas aktyviu](tasks/er-configuration-provider-mark-it-active-2016-11.md) aprašytus veiksmus.
+Šiame pavyzdyje sukursite pavyzdinės įmonės „Litware, Inc“ konfigūraciją. Norėdami užbaigti šią procedūrą, [turite](tasks/er-configuration-provider-mark-it-active-2016-11.md) atlikti konfigūracijos teikėjo kūrimo veiksmus ir pažymėti juos kaip aktyvų RCS straipsnį.
 
 1.  Numatytoje ataskaitų srityje pasirinkite **Elektroninės ataskaitos**.
 2.  Pasirinkite **Ataskaitų konfigūracijos**.
@@ -300,7 +300,7 @@ Toliau modifikuosite esamą apskaičiuotą lauką, kad jis, naudodamas sukonfig�
 -   Parametrizuotų iškvietų mokymo susiejimas.xml
 -   Parametrizuotų iškvietų mokymo modelis.xml
 
-Norėdami sužinoti, kaip, naudoti sukonfigūruotą ER formatą **Mokymosi formatas, kaip peržvelgti LE** nustatyti nuo juridinio subjekto priklausomus mokesčių kodus, kad būtų galima mokesčių operacijas filtruoti pagal skirtingus apmokestinimo lygius, atlikite temos [ER formato parametrų nustatymas kiekvienam juridiniam subjektui](er-app-specific-parameters-set-up.md) veiksmus.
+Norėdami sužinoti **, kaip naudoti sukonfigūruotą formatą ir sužinoti, kaip ieškoti LE** duomenų ER formato siekiant nustatyti nuo juridinio subjekto priklausomus mokesčių kodų rinkinius mokesčių operacijoms pagal skirtingus apmokestinimo lygius, atlikite veiksmus, [nurodytus skyriuje Nustatyti juridinio subjekto straipsnio ER](er-app-specific-parameters-set-up.md) formato parametrus.
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 

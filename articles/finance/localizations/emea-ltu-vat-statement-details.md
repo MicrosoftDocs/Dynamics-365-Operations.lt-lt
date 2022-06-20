@@ -1,6 +1,6 @@
 ---
 title: PVM išrašo informacija, skirta Lietuvai
-description: Šioje temoje paaiškinama, kaip nustatyti juridiniams subjektams Lietuvoje skirtą PVM išrašą.
+description: Šiame straipsnyje paaiškinama, kaip nustatyti PVM išrašą juridiniams subjektams Lietuvaje.
 author: ShylaThompson
 ms.date: 06/20/2017
 ms.topic: article
@@ -14,20 +14,20 @@ ms.search.region: Lithuania
 ms.author: kfend
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 63c8c5616e226aaeff2a3f59977a2d4621014a5496bd6d579f7ef6ae54c29d20
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1742eae916134dfe0d864e072a708a2870e1c3c6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6770498"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8865484"
 ---
 # <a name="vat-statement-details-for-lithuania"></a>PVM išrašo informacija, skirta Lietuvai
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje paaiškinama, kaip nustatyti juridiniams subjektams Lietuvoje skirtą PVM išrašą.
+Šiame straipsnyje paaiškinama, kaip nustatyti PVM išrašą juridiniams subjektams Lietuvaje.
 
-Ši tema apima šaliai / regionui būdingą informaciją apie pridėtinės vertės mokesčio (PVM) išrašo, skirto tik juridiniams subjektams Lietuvoje, nustatymą. Norėdami gauti daugiau informacijos apie PVM išrašų sąranką, žr. [Europos PVM ataskaitos](emea-vat-reporting.md).
+Šiame straipsnyje pateikiama šaliai/regionui konkreti informacija apie pridėtinės vertės mokesčio (PVM) išrašo nustatymą tik Lietuvos juridiniams subjektams. Norėdami gauti daugiau informacijos apie PVM išrašų sąranką, žr. [Europos PVM ataskaitos](emea-vat-reporting.md).
 
 ## <a name="set-up-sales-tax-authorities"></a>PVM institucijų nustatymas
 Norėdami generuoti PVM deklaraciją formatu, kurio reikalauja atitinkamas mokesčių rinkėjas, turite nustatyti PVM rinkėjo ataskaitos maketą. Puslapio **PVM rinkėjai** lauke **Ataskaitos maketas** pasirinkite **Numatytasis**. Pasirinkite tą patį PVM sudengimo laikotarpio PVM rinkėją, kuris bus naudojamas PVM koduose.

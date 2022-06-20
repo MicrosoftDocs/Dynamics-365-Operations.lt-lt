@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: yanansong
 ms.search.validFrom: 2020-03-01
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: f88dd1c23153d325709e28b056f902b555f05376
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: c9e2ccbe613a4aab40a4f519bbb82a9175d46e72
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8675381"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846219"
 ---
 # <a name="compare-item-prices-storage-report"></a>Prekių saugojimo kainų palyginimo ataskaita
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje paaiškinama, kaip vykdyti **Prekių saugojimo kainų palyginimo** ataskaitą ir nustatyti, kad rezultatas būtų prieinamas skaitmeniniu būdu kaip interaktyvus puslapis „Dynamics 365 Supply Chain Management“ arba kaip eksportuojamas dokumentas bet kuriuo iš kelių formatų.
+Šiame straipsnyje **paaiškinama**, kaip paleisti prekių kainų saugojimo palyginimo ataskaitą ir padaryti išeigą prieinamą skaitmeniniu būdu, Dynamics 365 Supply Chain Management kaip interaktyvią puslapį arba kaip eksportuotą dokumentą bet kokiu formatu.
 
 Kai ataskaitą peržiūrite naršyklėje, stulpeliai ir kaupiamieji balansai yra dinamiškai koreguojami atsižvelgiant į jūsų sukonfigūruotą maketą. Galite surikiuoti rezultatus, filtruoti juos, detalizuoti duomenis ir daugiau.
 

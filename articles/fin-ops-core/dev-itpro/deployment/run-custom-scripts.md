@@ -1,6 +1,6 @@
 ---
-title: Vykdykite pasirinktinius X++ scenarijus be prastovos
-description: Šioje temoje aprašoma, kaip įkelti ir paleisti diegiamus paketus, kuriuose yra pasirinktiniai X++ scenarijai, nesustabdant sistemos.
+title: Paleisti pasirinktinius X++ scenarijus su nuline prastova
+description: Šiame straipsnyje aprašoma, kaip įkelti ir paleisti diegiamus paketus, kuriuose yra pasirinktiniai X++ scenarijai, neprivalant sulaikyti sistemos.
 author: AndersGirke
 ms.date: 12/16/2021
 ms.topic: article
@@ -11,67 +11,67 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2021-12-16
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: fcd0a472fa5116ca0b3a59561b6eeb72181a9113
-ms.sourcegitcommit: 44e6875e974a3a1b3e1d7a24c1a3cff3d3697cdc
+ms.openlocfilehash: ff01e2ff8ec105603bb91e0b555301f36e8985b4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/03/2022
-ms.locfileid: "8088349"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8867335"
 ---
-# <a name="run-custom-x-scripts-with-zero-downtime"></a>Vykdykite pasirinktinius X++ scenarijus be prastovos
+# <a name="run-custom-x-scripts-with-zero-downtime"></a>Paleisti pasirinktinius X++ scenarijus su nuline prastova
 
 [!include [banner](../includes/banner.md)]
 [!INCLUDE [preview-banner](../includes/preview-banner.md)]
 
-Ši funkcija leidžia įkelti ir paleisti diegiamus paketus, kuriuose yra pasirinktiniai X++ scenarijai, jų nereikia atlikti Microsoft Dynamics gyvavimo ciklo paslaugas (LCS) arba sustabdykite savo sistemą. Todėl galite ištaisyti nedidelius duomenų neatitikimus nesukeldami jokių trikdančių prastovų.
+Naudojant šią funkciją galima įkelti ir paleisti diegiamus paketus, kuriuose yra pasirinktiniai X++ scenarijai, neprivalant eiti per vykdymo ciklo tarnybas Microsoft Dynamics (LCS) arba sustabdyti savo sistemą. Dėl to galite pataisyti neesminius duomenų nenuoseklumo atvejus nenuosekluminių trikčių.
 
-X++ scenarijaus naudojimo, siekiant ištaisyti nedidelius duomenų neatitikimus, pranašumas yra tas, kad sistema automatiškai pakoreguos visas susijusias lenteles, kai reikia paleisti scenarijų. Šis metodas padeda užtikrinti korekcijos vientisumą ir padeda sumažinti naujų neatitikimų atsiradimo riziką.
+X++ scenarijaus naudojimas smulkių duomenų nenuoseklumo koreguoti naudinga, nes paleidus scenarijų sistema automatiškai koreguos visas susijusias lenteles. Šis būdas padeda užtikrinti pataisymų vientisumą ir padeda sumažinti naujų nenuoseklumo pristatyti riziką.
 
 > [!IMPORTANT]
-> Ši funkcija skirta tik nedideliems duomenų neatitikimams ištaisyti. Jo negalima naudoti šiais ar kitais tikslais:
+> Ši funkcija skirta tik smulkių duomenų nenuoseklumo koregavimui. Jis negali būti naudojamas šiais ar kitais tikslais:
 >
 > - Duomenų rinkimas
 > - Schemos pakeitimai
-> - Duomenų perkėlimas ar kiti ilgai trunkantys procesai
-> - Duomenų, kuriuos galima taisyti kitomis priemonėmis, pvz., įprastiniais verslo procesais, duomenų nuoseklumo įrankiais ar kitais savitarnos įrankiais, taisymas.
+> - Duomenų perkėlimas arba kiti ilgalaikiai procesai
+> - Duomenų, kuriuos galima koreguoti kitomis priemonėmis, pvz., reguliariais verslo procesais, duomenų nuoseklumo įrankiais ar kitais savitarnos įrankiais, koregavimas
 >
-> Ši funkcija leidžia įgaliotiems vartotojams tiesiogiai keisti objektus ir jų įrašus, nenaudojant su tais objektais susietos verslo logikos. Šie pakeitimai gali sukelti duomenų vientisumo problemų. Todėl jūsų organizacija gali reikalauti, kad prieš ir (arba) paleidus scenarijų gautumėte patvirtinimą ir patvirtinimą iš vidaus ir išorės auditorių (arba kitų lygiaverčių suinteresuotųjų šalių). Siekiant atitikties sumetimais, pakeitimus, turinčius įtakos kai kurioms savybėms, taip pat gali reikėti atskleisti išorinėse ataskaitose (pvz., finansinėse ataskaitose) arba pranešti valdžios institucijoms. Jūsų organizacija yra išimtinai atsakinga už bet kokius jos duomenų pakeitimus, padarytus naudojant šią funkciją, bet kokį tų pakeitimų patvirtinimą, pasirašymą ar atskleidimą ir taikomų įstatymų laikymąsi. Jūs prisiimate visą riziką dėl šios funkcijos naudojimo.
+> Naudojant šią funkciją įgaliotieji vartotojai tiesiogiai keičia objektus ir jų įrašus, nenaudodami verslo logikos, susijusios su šiais objektais. Dėl šių pakeitimų gali kilti duomenų vientisumo problemų. Todėl jūsų organizacija gali reikalauti, kad prieš paleisdami scenarijų ir (arba) po to gautumėte patvirtinimą ir pasirašytus iš vidinių ir išorinių auditorių (ar kitų ekvivalentinių subjektų). Dėl atitikties priežasčių pakeitimai, kurie turi įtakos kai kurioms charakteristikoms, gali reikėti atitikti išorines ataskaitas (pvz., finansines ataskaitas) arba pranešti valdžios institucijoms. Jūsų organizacija yra tik atsakinga už visus pakeitimus, atliktus jos duomenyse naudojant šią priemonę, bet kokius patvirtinimus ir tų pakeitimų patvirtinimus arba atskleidimo bei atitikimą taikomiems įstatymams. Jūs prisiimate visas su šia funkcija susijusią riziką.
 
-Visi įdiegiami paketai, įkelti į sistemą, pereina privalomą darbo eigą. Saugos sumetimais ir siekiant padėti užtikrinti pareigų atskyrimą, vartotojui, kuris įkelia dislokuojamą paketą, neleidžiama jo patvirtinti kitiems darbo eigos veiksmams. Kitas vartotojas turi tai patvirtinti. Tačiau patvirtinus paketą jį įkėlusiam vartotojui bus leista atlikti likusius veiksmus.
+Visi į sistemą įkelti diegtini paketai pereis per privalomą darbo eigą. Siekiant užtikrinti pareigų atskyrimą, siekiant užtikrinti pareigų atskyrimą, vartotojui, kuris nusiunčia diegtinas pakuotes, neleidžiama jo patvirtinti dėl kitų darbo eigos veiksmų. Kitas vartotojas turi jį patvirtinti. Tačiau, kai paketas patvirtinamas, jį įkėlusiems vartotojui bus leidžiama atlikti likusius veiksmus.
 
-Sistema reikalauja, kad visi diegiami paketai būtų išbandyti. Prieš leisdamas scenarijui paleisti gamybos duomenis, vartotojas turi patvirtinti, kad išvestis yra teisinga pasirinkdamas **Priimti bandymo žurnalą**. Jei išvestis neteisinga, vartotojas turi pažymėti paketą kaip nepavykusį pasirinkdamas **Apleisti**. Tokiu atveju scenarijui nebus leidžiama vykdyti gamybos duomenų.
+Sistemai reikia, kad visi diegtini paketai būtų paleisti per bandomąjį diegimą. Prieš vartotojui leidžiant vykdyti scenarijų gamybos duomenyse, pasirinkdamas Priimti tikrinimo žurnalą vartotojas turi patikrinti, ar **išvestis teisinga**. Jei išeiga neteisinga, vartotojas turi pažymėti pakuotę kaip nepavykusią, pasirinkdamas **Atsidėti**. Šiuo atveju gamybos duomenyse nebus leidžiama vykdyti scenarijaus.
 
-Kiekvienas įkeltas paketas išsaugomas sistemoje ir praeina apibrėžtą įvykių eigą. Kiekvienam įvykiui sistema saugo žurnalą, kuriame yra laiko žyma ir įvykį atlikusio asmens tapatybė. Tokiu būdu sistema užtikrina audito seką.
+Kiekvienas įkeltas paketas įrašomas į sistemą ir pereina per nustatytą įvykių darbo eigą. Kiekvienam įvykiui sistema išlaikė žurnalą, kuriame yra laiko žyma ir asmens, kuris atliko įvykį, tapatybė. Taip sistema užtikrina, kad yra audito sekimą.
 
-Kaip parodyta toliau pateiktoje iliustracijoje, sistemoje pateikiama išsami informacija apie tai, kaip kiekvienas diegiamas paketas buvo paleistas naudojant X++ ir kurie objektai buvo paliesti.
+Kaip parodyta šioje iliustracijoje, sistema pateikia išsamią informaciją apie tai, kaip kiekvienas diegtinas paketas buvo paleistas X++ ir kokie objektai buvo sulieti.
 
-![Scenarijaus informacijos puslapis.](media/script-details.png "Scenarijaus informacijos puslapis")
+![Informacijos apie scenarijų puslapis.](media/script-details.png "Informacijos apie scenarijų puslapis")
 
-## <a name="assign-duties-to-users-to-control-access"></a>Priskirkite naudotojams pareigas kontroliuoti prieigą
+## <a name="assign-duties-to-users-to-control-access"></a>Priskirti pareigas vartotojams, kad būtų galima valdyti prieigą
 
-Ši funkcija atlieka šias pareigas. Administratoriai gali naudoti šias pareigas, kad padėtų kontroliuoti prieigą prie funkcijos.
+Šioje priemonėje pateikiamos šios pareigos. Administratoriai gali naudoti šias pareigas, kad padėtų valdyti prieigą prie funkcijos.
 
-- **Palaikykite pasirinktinius scenarijus** – Ši pareiga suteikia galimybę įkelti, tikrinti, patikrinti ir paleisti tinkintus X++ scenarijus aplinkoje (vartotojo priėmimo testavimas\[ UAT\] ir gamyba).
-- **Patvirtinti pasirinktinius scenarijus** – Ši pareiga suteikia galimybę patvirtinti įkeltą tinkintą X++ scenarijų. Patvirtinimas yra privalomas veiksmas prieš bet kurį scenarijų išbandant, patikrinant ir paleidžiant.
+- **Tvarkyti pasirinktinius scenarijus** – ši pareiga suteikia galimybę įkelti, tikrinti, tikrinti ir vykdyti pasirinktinius X++ scenarijus aplinkose (vartotojo priėmimo \[tikrinti UAT\] ir gamybą).
+- **Tvirtinti pasirinktinius scenarijus** – ši pareiga suteikia galimybę patvirtinti įkeltą pasirinktinį X++ scenarijų. Patvirtinimas yra privalomas žingsnis prieš bet kokį scenarijų patikrinti, patikrinti ir paleisti.
 
-Kad būtų sumažinta kenkėjiškų veiksmų rizika, kiekvienas scenarijus turi būti aiškiai patvirtintas kito vartotojo, o ne jį įkėlusio vartotojo. Kad galėtumėte naudoti šią funkciją savo organizacijoje, administratorius turi priskirti pirmiau nurodytas pareigas bent dviem svarbiems ir labai patikimiems vartotojams. Nors vienas vartotojas gali turėti abi pareigas, jis vis tiek negalės patvirtinti savo scenarijų.
+Norėdami sumažinti piktavališkas veiksmų riziką, kiekvieną scenarijų turi aiškiai patvirtinti kitas, o ne jį įkėlusis vartotojas. Prieš tai kai galėsite naudoti šią funkciją savo organizacijoje, administratorius turi priskirti šias pareigas bent dviem atitinkamiems ir labai patikimiems vartotojams. Nors vienas vartotojas gali turėti abi pareigas, tas vartotojas vis dar negalės patvirtinti savo scenarijų.
 
 ## <a name="create-a-deployable-package"></a>Visuotinai diegiamo paketo kūrimas
 
-Funkcijai reikalingas įprastas įdiegiamas paketas, kurį galima sukurti Visual Studio. Instrukcijas žr [Sukurkite diegiamus modelių paketus](../deployment/create-apply-deployable-package.md).
+Funkcijai reikia įprasto diegti paketo, kurį galima sukurti Visual Studio. Instrukcijų ieškokite [Modelių paketų, kuriuos galima diegti, kūrimas](../deployment/create-apply-deployable-package.md).
 
-Jūsų įdiegiamame pakete turi būti tiksliai viena paleidžiama X++ klasė. Kitaip tariant, ji turi turėti vieną klasę, apimančią metodą, turintį tokį parašą.
+Jūsų diegiamame pakete turi būti lygiai viena vykdyklė X++ klasė. Kitaip tariant, jis turi turėti vieną klasę, kurioje yra tokį parašą turėti gali turėti metodas.
 
 ```xpp
 public static void main(Args _args)
 ```
 
 > [!NOTE]
-> Pagrindinio metodo pavadinimas turi būti mažosios raidės.
+> Pagrindinio metodo pavadinimas turi būti didžioji raidė.
 
 ## <a name="code-example"></a>Kodo pavyzdys
 
-Toliau pateiktame kodo pavyzdyje parodyta, kaip galima struktūrizuoti diegiamą paketą.
+Toliau pateiktame kodo pavyzdyje parodyta, kaip gali susisteminti diegiamą paketą.
 
 ```xpp
 class MyScriptClassForIssueXYZ
@@ -106,49 +106,49 @@ class MyScriptClassForIssueXYZ
 
 ## <a name="best-practices"></a>Geriausia praktika
 
-Šiame sąraše aprašomi keli geriausi sėkmingo scenarijaus rašymo, diegimo ir vykdymo būdai. Sąrašas nėra baigtinis ir turėtų būti laikomas tik gairėmis.
+Šiame sąraše aprašomos geriausios sėkmingo scenarijaus rašymo, vykdymo ir vykdymo praktikos. Sąrašas nėra išsamus ir jis turi būti laikomas tik patarimais.
 
-- **Daryk** scenarijaus pabaigoje parašykite sėkmės pranešimą. Tokiu būdu pamatysite, kad scenarijus buvo paleistas be išimčių.
-- **Daryk** pridėti aiškų operacijos apimties tvarkymą.
-- **Daryk** naudoti esamą verslo logiką, pvz`update()` metodai, bet **nereikia** apeiti verslo logiką naudojant`doUpdate()`,`doInsert()`, ir`doDelete()` metodus. Šis metodas padės užtikrinti, kad priklausomi duomenys būtų tvarkomi teisingai. Tai taip pat žymiai sumažins tolesnių duomenų neatitikimų riziką.
-- **Daryk** įtvirtinti įmonės kontekstą. Šis metodas atskleis dažniausias scenarijaus vykdymo klaidas. Pavyzdžiui, jis parodys, ar scenarijus vykdomas netinkamoje įmonėje.
-- **Daryk** tvirtinti, kad paveiktų įrašų skaičius atitinka jūsų lūkesčius. Šis metodas parodys, ar duomenys netikėtai pasikeitė sistemoje, kol buvo ruošiamas scenarijus.
-- **Daryk** kiekvienam scenarijui naudokite unikalius klasės pavadinimus (pavyzdžiui, į pavadinimą įtraukite nuorodą į darbo elementą). Šis metodas padės išvengti vardų nesuderinamumo problemų, kai įkelsite scenarijų. Jei reikalinga nauja scenarijaus iteracija, būtinai suteikite jam naują pavadinimą.
-- **Daryk** Pirmiausia patikrinkite kiekvieną scenarijų ne gamybinėje aplinkoje. Išbandykite, ar nėra numatomo poveikio ir netyčinio šalutinio poveikio susijusiems duomenims. Užtikrinkite, kad vėliau visi verslo procesai, kurie gali būti paveikti, būtų sėkmingai ir visiškai užbaigti.
+- **Scenarijaus** pabaigoje įrašykite sėkmės pranešimą. Tokiu būdu galėsite matyti, kad scenarijus buvo rastas be išimčių.
+- **Pridėti** aiškų operacijos apimties tvarkymą.
+- **Naudoti** esamą verslo logiką, pvz`update()`., metodus **, bet neateina** verslo logikos naudojant `doUpdate()` ir `doInsert()``doDelete()` metodus. Šis būdas padės užtikrinti, kad priklausomi duomenys bus tvarkomi teisingai. Taip pat pastebimai sumažins tolimesnių duomenų nenuoseklumo riziką.
+- **Ar** patvirtinti įmonės kontekstą. Šis būdas parodys bendras klaidas, kai vykdomas scenarijus. Pavyzdžiui, ji parodo, ar scenarijus vykdomas ne šioje įmonėje.
+- **Negalima** patvirtinti, kad paveiktų įrašų skaičius atitinka jūsų lūkesčius. Šis būdas parodo, ar sistemoje netikėtai pakeisti duomenys, kol scenarijus buvo paruoštas.
+- **Kiekvienam** scenarijui naudokite unikalius klasių pavadinimus (pvz., pavadinime įtraukiant darbo elemento nuorodą). Šis būdas apsaugo pavadinimo pasvirio brūkšnio problemas, kai įkeliate scenarijų. Jei reikia naujo scenarijaus paterpto, būtinai suteikite jam naują pavadinimą.
+- **Iš** pradžių patikrinkite kiekvieną scenarijų ne gamybos aplinkoje. Numatomo poveikio ir neapsilaikyto susijusio duomenų šalutinio poveikio tikrinimas. Užtikrinkite, kad visi verslo procesai, kurie gali būti paveikti, gali būti sėkmingai ir visiškai užbaigti vėliau.
 
-## <a name="upload-and-run-a-deployable-package"></a>Įkelkite ir paleiskite dislokuojamą paketą
+## <a name="upload-and-run-a-deployable-package"></a>Įkelti ir paleisti diegiamą paketą
 
-Norėdami įkelti ir paleisti scenarijų, naudokite šią procedūrą.
+Norėdami įkelti ir vykdyti scenarijų, naudokite nurodytą procedūrą.
 
-1. Programoje „Finance and Operations“ eikite į **Sistemos administravimas \> Periodinės užduotys \> Duomenų bazė \> Pasirinktiniai scenarijai**.
+1. Savo finansų ir operacijų programoje eikite į Sistemos administravimo **periodinių \> užduočių duomenų \> bazės \> pasirinktinius scenarijus**.
 1. Pasirinkite **Nusiųsti**.
-1. Pasirinkite įdiegiamą paketą, kurį sukūrėte, kaip aprašyta anksčiau šioje temoje. Būsite paraginti nurodyti scenarijaus tikslą.
-1. Dabar scenarijų turi patvirtinti vartotojas, kuris nėra jį įkėlęs. Tvirtinėjas turi atlikti šiuos veiksmus:
+1. Pasirinkite diegiamą paketą, kurį sukūrėte kaip anksčiau aprašyta šiame straipsnyje. Jums bus pasiūlyta nurodyti scenarijaus paskirtį.
+1. Scenarijų dabar turi patvirtinti kitas vartotojas, o ne jį įkėlusis vartotojas. Tvirtintojas turi atlikti šiuos veiksmus:
 
-    1. Eiti į **Sistemos administravimas \> Periodinis \> Duomenų bazė \> Pasirinktiniai scenarijai**.
-    1. Pasirinkite scenarijų, kurį norite patvirtinti, tada pasirinkite **Detalės**.
-    1. Veiksmų srityje, ant **Proceso darbo eiga** skirtuke **Pradėti** grupę, pasirinkite **Patvirtinti** arba **Atmesti**. Jei pasirinksite **Patvirtinti**, scenarijus pažymėtas kaip patvirtintas ir atrakintas testavimui. Jei pasirinksite **Atmesti**, scenarijus užrakintas. Abiem atvejais įvykis registruojamas, o scenarijaus kopija saugoma sistemoje.
+    1. Pereikite prie **sistemos administravimo periodinių \>\> duomenų bazės pasirinktinių \> scenarijų**.
+    1. Pasirinkite scenarijų, kuris bus tvirtinti, tada pasirinkite **Išsami informacija**.
+    1. Veiksmų srities skirtuko Proceso darbo **eiga grupėje Pradžia** pasirinkite **Patvirtinti arba** **Atmesti**.**·** Jei pasirenkate **Patvirtinti**, scenarijus pažymimas kaip patvirtintas ir neblokuojamas tikrinti. Jei pasirenkate **Atmesti**, scenarijus yra užrakintas. Abiem atvejais įvykis užregistruojamas ir scenarijaus kopija saugoma sistemoje.
 
-1. Scenarijus turi būti išbandytas, siekiant įsitikinti, kad jis atlieka tai, ką jis turi padaryti. Bandytojas gali būti tas pats, kas įkėlėjas ar patvirtinėjas, arba tai gali būti trečiasis naudotojas, turintis reikiamus leidimus. Testuotojas turi atlikti šiuos veiksmus:
+1. Scenarijų reikia patikrinti, siekiant užtikrinti, kad jis ką daro. Testavimo priemonė gali būti ta pati, kaip ir įkėlimo priemonė ar tvirtintojas, arba tai gali būti trečiasis vartotojas, kuris turi reikiamas teises. Testavimo priemonė turi atlikti šiuos veiksmus:
 
-    1. Eiti į **Sistemos administravimas \> Periodinis \> Duomenų bazė \> Pasirinktiniai scenarijai**.
-    1. Pasirinkite scenarijų, kurį norite išbandyti, tada pasirinkite **Detalės**.
-    1. Veiksmų srityje, ant **Proceso darbo eiga** skirtuke **Testas** grupę, pasirinkite **Vykdykite testą**. Scenarijus vykdomas laikinoje operacijoje, kurią sistema automatiškai nutraukia rinkdama įvairius žurnalus ir SQL sakinius.
-    1. Kai scenarijus baigsis, peržiūrėkite žurnalus ir patikrinkite, ar rezultatai atitinka jūsų lūkesčius. Atlikite vieną iš toliau nurodytų veiksmų.
+    1. Pereikite prie **sistemos administravimo periodinių \>\> duomenų bazės pasirinktinių \> scenarijų**.
+    1. Pasirinkite tikrintitą scenarijų ir pasirinkite Išsami **informacija**.
+    1. Veiksmų srities skirtuko Proceso darbo **eiga grupėje Tikrinimas** **pasirinkite Vykdyti** testą **·**. Scenarijus vykdomas laikinoje operacijoje, kurią sistema automatiškai nutrauktų, kol rinks įvairius žurnalus ir SQL sakinius.
+    1. Baigę vykdyti scenarijų, peržiūrėkite žurnalus ir patikrinkite, ar rezultatai atitinka jūsų poreikius. Atlikite vieną iš toliau nurodytų veiksmų.
 
-        - Jei esate patenkinti bandymo rezultatu, pasirinkite **Priimti bandymo žurnalą** viduje konors **Testas** grupė ant **Proceso darbo eiga** Veiksmų srities skirtuką, kad būtų galima paleisti scenarijų. Įvykių žurnalas atspindės faktą, kad scenarijus buvo išbandytas, ir bus nurodyta, kas ir kada jį išbandė.
-        - Jei nesate patenkinti bandymo rezultatu, pasirinkite **Apleisti** viduje konors **Pabaiga** grupė ant **Proceso darbo eiga** Veiksmų srities skirtuką, kad scenarijus nebūtų paleistas. Sistema saugos scenarijaus kopiją kartu su jo istorijos žurnalu.
+        - Jei tikrinimo rezultatai jus tenkina, pasirinkite Priimti tikrinimo žurnalą veiksmų srities skirtuke Proceso darbo eiga, **·** **·** **kad** būtų leidžiama vykdyti scenarijų. Įvykių žurnalas nurodys faktą, kad scenarijus buvo patikrintas ir nurodys, kas jį ir kada tik išbandė.
+        - Jei testo rezultatai jus tenkina, **·** **·** **veiksmų** srities skirtuke Proceso darbo eiga pasirinkite Baigimas, kad scenarijų nebūtų galima vykdyti. Sistema išlaikys scenarijaus kopiją kartu su savo retrospektyvos žurnalu.
 
-1. Kai esate tikri, kad scenarijus atitinka jūsų lūkesčius, pasirinkite **Bėk** viduje konors **Bėk** grupė ant **Proceso darbo eiga** Veiksmų srities skirtuką, kad jį paleistumėte. Ši komanda atlieka tą patį, ką ir ankstesnis bandomasis paleidimas, tačiau operacija bus įvykdyta pabaigoje.
-1. Scenarijui pasibaigus, patikrinkite rezultatą ir patvirtinkite, kad scenarijus veikė taip, kaip norėjote. Atlikite vieną iš toliau nurodytų veiksmų.
+1. Kai įsitikinkite, kad scenarijus atitinka jūsų poreikius, norėdami jį vykdyti **pasirinkite** **·** **veiksmų** srities skirtuko Proceso darbo eiga grupėje Vykdyti. Ši komanda daro tą patį patį, kas ir ankstesnis tikrinimas, tačiau operacija bus vykdoma pabaigoje.
+1. Baigę vykdyti scenarijų, patikrinkite rezultatą ir patvirtinkite, kad scenarijus veiktų taip, kaip tikėjote. Atlikite vieną iš toliau nurodytų veiksmų.
 
-    - Jei esate patenkinti rezultatu, pasirinkite **Tikslas išspręstas** viduje konors **Pabaiga** grupė ant **Proceso darbo eiga** Veiksmų srities skirtuką. Įvykių žurnale bus rodomas faktas, kad scenarijus buvo sėkmingai paleistas, ir bus nurodyta, kas ir kada patvirtino scenarijų. Scenarijus išsaugotas, bet dabar jis užrakintas ir negali būti paleistas dar kartą.
-    - Jei nesate patenkinti rezultatu, pasirinkite **Tikslas neišspręstas** viduje konors **Pabaiga** grupė ant **Proceso darbo eiga** Veiksmų srities skirtuką. Įvykių žurnalas atspindės faktą, kad scenarijus neatitiko numatyto tikslo, ir bus nurodyta, kas ir kada paleido scenarijų. Scenarijus išsaugotas, bet dabar jis užrakintas ir negali būti paleistas dar kartą. Tačiau sistema automatiškai neatšaukia scenarijaus veiksmo. Gali tekti parašyti, importuoti ir paleisti naują scenarijų, kad panaikintumėte nesėkmingo scenarijaus poveikį jūsų sistemoje.
+    - Jei rezultatas jus tenkina, **veiksmų srities skirtuke Proceso** **·** **darbo** eiga pasirinkite Paskirtis, išspręsta grupėje Baigti. Įvykių žurnalas nurodys faktą, kad scenarijus įvykdytas sėkmingai ir nurodys, kas patikrino scenarijų ir kada. Scenarijus įrašytas, bet dabar užrakintas ir jo negalima vykdyti dar kartą.
+    - Jei rezultatas jums netenkina, **veiksmų srities skirtuko Proceso darbo** **·** **eiga** dalyje Pabaiga pasirinkite Neišspręsta paskirtis. Įvykių žurnalas nurodys faktą, kad scenarijus neatitiko numatytos paskirties, ir nurodys, kas ir kada įvykdys scenarijų. Scenarijus įrašytas, bet dabar užrakintas ir jo negalima vykdyti dar kartą. Tačiau sistema automatiškai neat anuliuos scenarijaus veiksmo. Gali tekti rašyti, importuoti ir vykdyti naują scenarijų, kad būtų anulitas nepavykusio scenarijaus poveikis jūsų sistemai.
 
-Jūsų pasirinkimas paskutiniame veiksme apibrėžia galutinę scenarijaus būseną. Galite pakartoti procesą, kaip jums reikia.
+Jūsų pasirinkimas paskutiniame veiksme apibrėžia galutinę scenarijaus būseną. Jei reikia, galite pakartoti procesą.
 
-## <a name="upload-and-run-a-deployable-package-through-lcs"></a>Įkelkite ir paleiskite diegiamą paketą per LCS
+## <a name="upload-and-run-a-deployable-package-through-lcs"></a>Įkelti ir paleisti diegiamą paketą naudojant LCS
 
-Užuot diegę diegiamą paketą naudodami programos „Finance and Operations“ vartotojo sąsają, kaip aprašyta ankstesniame skyriuje, galite įkelti jį į LCS ir naudoti įprastą diegimo procedūrą. Daugiau informacijos žr [Įdiekite dislokuojamus paketus iš komandinės eilutės](../deployment/install-deployable-package.md).
+Užuot dislokuoti savo diegiamą paketą naudodami savo finansų ir operacijų programos vartotojo sąsają, kaip aprašyta ankstesniame skyriuje, galite jį įkelti į LCS ir naudoti įprastą procedūrą jai įdiegti. Norėdami gauti daugiau informacijos, [įdiekite diegiamus paketus iš komandų eilutės](../deployment/install-deployable-package.md).
 
-Nors šis metodas turi mažiau apribojimų, jis suteikia mažesnę apsaugą nuo klaidų. Be to, kadangi tam reikia iš naujo paleisti visus serverius, tai sukels šiek tiek prastovos.
+Nors šis būdas turi mažiau apribojimų, jis mažiau apsaugoti nuo klaidų. Be to, kadangi serverius reikia paleisti iš naujo, tai gali sukelti prasto laiko.

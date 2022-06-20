@@ -1,6 +1,6 @@
 ---
 title: Turto valdymo integravimas naudojant ilgalaikį turtą
-description: Šioje temoje paaiškinama, kaip integruoti turto valdymo ir ilgalaikio turto modulius, kad galėtumėte susieti ilgalaikį turtą su prižiūrimu turtu.
+description: Šiame straipsnyje paaiškinama, kaip integruoti turto valdymo ir ilgalaikio turto modulius, kad ilgalaikį turtą būtų galima susieti su priežiūros turtu.
 author: johanhoffmann
 ms.date: 04/17/2020
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-04-17
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 40e4fdce50b335668a53d2efe53b7cf6c66f364f
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: d5dfaaf9e4cd989ad6b993e8d152f4713c0d3aa4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567588"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874223"
 ---
 # <a name="integrate-asset-management-with-fixed-assets"></a>Turto valdymo integravimas naudojant ilgalaikį turtą
 
@@ -26,7 +26,7 @@ ms.locfileid: "7567588"
 Integruodami **turto valdymo** ir **ilgalaikio turto** modulius, galite susieti ilgalaikį turtą su prižiūrimu turtu. Tada ilgalaikio turto vartotojai gali sukurti prižiūrimą turtą iš naujo arba esamo ilgalaikio turto, o turto valdymo vartotojai gali susieti prižiūrimą turtą su esamu ilgalaikiu turtu. Ši funkcija taip pat palengvina ilgalaikio turto vartotojų išlaidų, užregistruotų iš susijusio prižiūrimo turto darbo užsakymų, peržiūrą.
 
 > [!NOTE]
-> Šioje temoje *prižiūrimas turtas* nurodo **turto valdymo** modulio turtą, o *ilgalaikis turtas* nurodo **ilgalaikio turto** modulio turtą.
+> Šiame straipsnyje priežiūros turtas *nurodo turto* valdymo modulio **turtą**, *o ilgalaikis turtas* – į ilgalaikio turto **modulyje nurodytą turtą**.
 
 ## <a name="set-a-default-location-for-new-maintenance-assets-that-are-created-from-fixed-assets-optional"></a>Numatytosios naujo prižiūrimo turto, sukurto iš ilgalaikio turto, vietos nustatymas (nebūtina)
 

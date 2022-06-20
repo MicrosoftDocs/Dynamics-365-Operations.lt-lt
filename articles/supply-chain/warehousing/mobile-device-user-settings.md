@@ -1,6 +1,6 @@
 ---
 title: Mobiliojo įrenginio vartotojo parametrai
-description: Šioje temoje paaiškinama, kaip valdyti sandėlio darbuotojų mobiliojo įrenginio vartotojo parametrus.
+description: Šiame straipsnyje paaiškinama, kaip valdyti sandėlio darbuotojų mobiliojo įrenginio vartotojo parametrus.
 author: Mirzaab
 ms.date: 02/09/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: global
 ms.author: mirzaab
 ms.search.validFrom: 2021-02-09
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 4ea0fcfa7a165587567968f95549799859edaa60
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 15f9ce1768e1ed9dc6f7e84d245082b46a7f122c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103718"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8882350"
 ---
 # <a name="mobile-device-user-settings"></a>Mobiliojo įrenginio vartotojo parametrai
 
@@ -41,7 +41,7 @@ Naujoje Sandėlio valdymo mobiliųjų įrenginių programėlėje yra programai s
 
 ## <a name="turn-the-mobile-device-user-settings-feature-on-or-off"></a>Įjungti arba išjungti mobiliojo įrenginio vartotojo parametrų funkciją
 
-Norėdami naudoti šioje temoje aprašytas funkcijas, *turite įjungti savo sistemą vartotojo parametrus, piktogramas* ir naujos sandėlio programos funkcijos veiksmų pavadinimus. Kaip ir tiekimo grandinės valdymas 10.0.25 ši funkcija yra privaloma ir jos išjungti negalima. Jei naudojate senesnę nei 10.0.25 versiją, *tada administratoriai gali įjungti arba išjungti šią funkciją ieškodami naujo sandėlio programos funkcijos vartotojo parametrų,*[piktogramų](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) ir veiksmų pavadinimų funkcijų funkcijų valdymo darbo srityje.
+Norint naudoti šiame straipsnyje aprašytas *funkcijas,* jūsų sistemoje turi būti įjungti naujos sandėlio programos funkcijos vartotojo parametrai, piktogramos ir veiksmų pavadinimai. Kaip ir tiekimo grandinės valdymas 10.0.25 ši funkcija yra privaloma ir jos išjungti negalima. Jei naudojate senesnę nei 10.0.25 versiją, *tada administratoriai gali įjungti arba išjungti šią funkciją ieškodami naujo sandėlio programos funkcijos vartotojo parametrų,*[piktogramų](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) ir veiksmų pavadinimų funkcijų funkcijų valdymo darbo srityje.
 
 ## <a name="create-and-manage-user-settings"></a>Vartotojo parametrų kūrimas ir valdymas
 

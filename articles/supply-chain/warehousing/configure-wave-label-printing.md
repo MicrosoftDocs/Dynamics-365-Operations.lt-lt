@@ -1,6 +1,6 @@
 ---
 title: Bangos žymos spausdinimas
-description: Šioje temoje aprašytas bangos žymos spausdinimas ir paaiškinta, kaip ją nustatyti.
+description: Šiame straipsnyje aprašomas bangos etiketės spausdinimas ir paaiškinama, kaip jį nustatyti.
 author: perlynne
 ms.date: 05/01/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.0
-ms.openlocfilehash: 59c4c100275917f3f9bf489c7d64b276275f1872
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: 18620602c5f3cf6a69a36ef7248f35e5509337b8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7778088"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901827"
 ---
 # <a name="wave-label-printing"></a>Bangos žymos spausdinimas
 
@@ -49,11 +49,11 @@ Bangos žymos spausdinimas siūlo šiuo pagerinimus:
 Šie pagerinimai padaro žymos dėžes efektyvesnes prieš sudėjimą ant padėklų. Jie ypač pasitarnauja bendrovėms siunčiančioms dideliems prekybininkams, kurie automatiškai patvirtina užsakymo kvitą nuskaitydami kiekvieną dėžę atskirai.
 
 > [!NOTE]
-> Galite įgyvendinti konfigūraciją scenarijams, kurie aprašyti šiame skyriuje atskirai ar kartu, priklausomai nuo verslo reikalavimų. Galite suprojektuoti keletą bangos žymos šablonų, kurie dirba sekoje (kaip parodyta scenarijuje 3). Pavyzdžiui, galite naudoti scenarijų 1 tam, kad atspausdintumėte dėžės žymes ir scenarijų 2, kad atspausdintumėte padėklo žymes (jei padėklai sandėlyje skiriasi dydžiu ir struktūra).
+> Atsižvelgdami į savo verslo reikalavimus, šiame straipsnyje aprašytus konfigūracijos scenarijus galite įdiegti atskirai arba kartu. Galite suprojektuoti keletą bangos žymos šablonų, kurie dirba sekoje (kaip parodyta scenarijuje 3). Pavyzdžiui, galite naudoti scenarijų 1 tam, kad atspausdintumėte dėžės žymes ir scenarijų 2, kad atspausdintumėte padėklo žymes (jei padėklai sandėlyje skiriasi dydžiu ir struktūra).
 
 ## <a name="turn-on-the-wave-label-printing-feature"></a>Įjunkite bangos žymos spausdinimo savybę
 
-Kaip tiekimo grandinės valdymo versija 10.0.21, ši funkcija yra privaloma, todėl ji yra įjungta pagal numatytuosius nustatymus ir negali būti išjungtas dar kartą. Tačiau funkcija vis dar pateikiama [funkcijų valdyme](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) tokiu būdu:
+Kaip ir tiekimo grandinės valdymo versija 10.0.21, ši funkcija yra privaloma, todėl ji įjungta pagal numatytuosius nustatymus ir jos negalima išjungti dar kartą. Tačiau priemonė vis dar įtraukta į [funkcijų valdymą](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) tokiu būdu:
 
 - **Modulis:** *Warehouse management*
 - **Savybės pavadinimas:** *Bangos žymos spausdinimas*
@@ -197,7 +197,7 @@ Bangos šablonas leidžia jums susieti konkrečius bangų metodų atvejus pagal 
     ```
 
     > [!NOTE]
-    > Šie nustatymai atspausdins vieną kiekvienos žymos kopiją. Jei jums reikia daugiau kopijų (pavyzdžiui, vienos kopijos vienai padėklo pusei), nustatykite **n** vertę **\^ PQn** skyriui poraštėje reikiamam kopijų skaičiui. Pavyzdžiui, keturių kiekvienos žymos kopijų spausdinimui, nustatykite **\^ PQ4**.
+    > Šie nustatymai atspausdins vieną kiekvienos žymos kopiją. Jei jums reikia daugiau kopijų (pavyzdžiui, vienos kopijos vienai padėklo pusei), nustatykite **n** vertę **\^PQn** skyriui poraštėje reikiamam kopijų skaičiui. Pavyzdžiui, keturių kiekvienos žymos kopijų spausdinimui, nustatykite **\^PQ4**.
 
 Jūsų žymė dabar paruošta naudojimui.
 
@@ -420,7 +420,7 @@ Bangos šablonas leidžia jums susieti konkrečius bangų metodų atvejus pagal 
     ```
 
     > [!NOTE]
-    > Šie nustatymai atspausdins vieną kiekvienos žymos kopiją. Jei jums reikia daugiau kopijų (pavyzdžiui, vienos kopijos vienai padėklo pusei), nustatykite **n** vertę **\^ PQn** skyriui poraštėje reikiamam kopijų skaičiui. Pavyzdžiui, keturių kiekvienos žymos kopijų spausdinimui, nustatykite **\^ PQ4**.
+    > Šie nustatymai atspausdins vieną kiekvienos žymos kopiją. Jei jums reikia daugiau kopijų (pavyzdžiui, vienos kopijos vienai padėklo pusei), nustatykite **n** vertę **\^PQn** skyriui poraštėje reikiamam kopijų skaičiui. Pavyzdžiui, keturių kiekvienos žymos kopijų spausdinimui, nustatykite **\^PQ4**.
 
 Jūsų žymė dabar paruošta naudojimui.
 
@@ -647,7 +647,7 @@ Pagrindinis skirtumas tarp šio scenarijaus konfigūravimo ir scenarijus 1 konfi
     ```
 
     > [!NOTE]
-    > Šie nustatymai atspausdins vieną kiekvienos žymos kopiją. Jei jums reikia daugiau kopijų (pavyzdžiui, vienos kopijos vienai padėklo pusei), nustatykite **n** vertę **\^ PQn** skyriui poraštėje reikiamam kopijų skaičiui. Pavyzdžiui, keturių kiekvienos žymos kopijų spausdinimui, nustatykite **\^ PQ4**.
+    > Šie nustatymai atspausdins vieną kiekvienos žymos kopiją. Jei jums reikia daugiau kopijų (pavyzdžiui, vienos kopijos vienai padėklo pusei), nustatykite **n** vertę **\^PQn** skyriui poraštėje reikiamam kopijų skaičiui. Pavyzdžiui, keturių kiekvienos žymos kopijų spausdinimui, nustatykite **\^PQ4**.
 
 1. Pirmoji žymė dabar paruošta naudojimui.
 1. Sukurkite antrą maketo įrašą, kuris turi šiuos nustatymus:
@@ -721,7 +721,7 @@ Pagrindinis skirtumas tarp šio scenarijaus konfigūravimo ir scenarijus 1 konfi
     ```
 
     > [!NOTE]
-    > Šie nustatymai atspausdins vieną kiekvienos žymos kopiją. Jei jums reikia daugiau kopijų (pavyzdžiui, vienos kopijos vienai padėklo pusei), nustatykite **n** vertę **\^ PQn** skyriui poraštėje reikiamam kopijų skaičiui. Pavyzdžiui, keturių kiekvienos žymos kopijų spausdinimui, nustatykite **\^ PQ4**.
+    > Šie nustatymai atspausdins vieną kiekvienos žymos kopiją. Jei jums reikia daugiau kopijų (pavyzdžiui, vienos kopijos vienai padėklo pusei), nustatykite **n** vertę **\^PQn** skyriui poraštėje reikiamam kopijų skaičiui. Pavyzdžiui, keturių kiekvienos žymos kopijų spausdinimui, nustatykite **\^PQ4**.
 
 1. Antroji žymė dabar paruošta naudojimui.
 1. Sukurkite trečią maketo įrašą, kuris turi šiuos nustatymus:

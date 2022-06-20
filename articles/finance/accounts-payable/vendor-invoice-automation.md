@@ -1,6 +1,6 @@
 ---
-title: Sąskaitų faktūrų automatizavimas dirbant su nuskaitytais dokumentais
-description: Šioje temoje paaiškinamos funkcijos, pasiekiamos iki galo automatizuojant tiekėjų SF – net ir SF su priedais.
+title: Nuskaitytų dokumentų sąskaitų faktūrų automatizavimas
+description: Šiame straipsnyje paaiškinamos priemonės, kurias galima naudoti tiekėjo SF, net ir SF, kuriuose yra priedų, galutiniam automatizavimui.
 author: abruer
 ms.date: 03/24/2021
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 02fcb6ce49156c32f23bfb37478a1076f62aa868
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: e7d8e55fc1293e2b33b15f3862498363a6b23f1f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8716415"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883422"
 ---
 # <a name="invoice-automation-for-scanned-documents"></a>Nuskaitytų dokumentų sąskaitų faktūrų automatizavimas
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje paaiškinami duomenų objektai, pasiekiami iki galo automatizuojant tiekėjų SF – net ir SF su priedais.
+Šiame straipsnyje paaiškinami duomenų objektai, kurie galimi tiekėjo SF, įskaitant SF su priedais, automatizavimą iki pabaigos.
 
 Organizacijos, kurios nori supaprastinti savo mokėtinų sumų (AP) procesus, dažnai identifikuoja SF apdorojimą kaip vieną iš svarbiausių proceso sričių, kuri turi būti efektyvesnė. Daugeliu atvejų šios organizacijos popierinių SF apdorojimą perduoda trečiųjų šalių optinio ženklų atpažinimo (OCR) paslaugų teikėjui. Tada jie gauna SF metaduomenis, kuriuos galima perskaityti kompiuteriu, kartu su nuskaitytu kiekvienos SF vaizdu. Siekiant padėti automatizuoti sukuriamas „paskutinės mylios“ sprendimas, kad būtų galima panaudoti šiuos artefaktus SF išrašymo sistemoje. Dabar šis „paskutinės mylios“ automatizavimas su SF automatizavimo sprendimu suteikiamas standartiškai.
 
@@ -46,7 +46,7 @@ Sprendimo pagrindą sudaro šie komponentai:
 + SF išimčių apdorojimas
 + SF priedų peržiūros vienas šalia kito žiūryklė
 
-Likusioje šios temos dalyje pateikiami išsamūs šių sprendimų komponentų aprašai.
+Likusioje šio straipsnio dalyje pateikiami išsamūs šių sprendimo komponentų aprašymai.
 
 ## <a name="data-entities"></a>Duomenų objektai
 

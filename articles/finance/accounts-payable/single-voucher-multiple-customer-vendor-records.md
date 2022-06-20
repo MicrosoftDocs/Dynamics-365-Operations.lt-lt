@@ -1,6 +1,6 @@
 ---
 title: Vienas kvitas su keliais kliento arba tiekėjo įrašais
-description: Šioje temoje pateikiama apžvalga, kas atsitinka, kai užregistruojate vieną kvitą su keliais kliento ir tiekėjo įrašais. Būsimose „Microsoft“ „Dynamics 365 Finance“ versijose ši funkcija nebebus naudojama, todėl nerekomenduojame naudoti šio registravimo būdo dėl apskaitos įtakos sudengimo apdorojimui.
+description: Šiame straipsnyje pateikiama apžvalga, kas atsitinka, kai registruojate vieną kvitą su keliais klientų ar tiekėjų įrašais. Todėl ši Microsoft Dynamics funkcija bus nutraukta būsimose 365 finansų versijose, todėl mes nerekomenduojame naudoti šio registravimo metodo dėl apskaitos poveikio sudengimo apdorojimui.
 author: abruer
 ms.date: 08/22/2017
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8677eba2c38c6273555e1189c0153272a8ff9e005655f3846c0d7605b872ff94
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bb94d582020484d8f37eb139c037fb108894c9ee
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737046"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889097"
 ---
 # <a name="single-voucher-with-multiple-customer-or-vendor-records"></a>Vienas kvitas su keliais kliento arba tiekėjo įrašais
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje pateikiama apžvalga, kas atsitinka, kai užregistruojate vieną kvitą su keliais kliento ir tiekėjo įrašais. Būsimose versijose ši funkcija nebebus naudojama, todėl nerekomenduojame naudoti šio registravimo būdo dėl apskaitos įtakos sudengimo apdorojimui. 
+Šiame straipsnyje pateikiama apžvalga, kas atsitinka, kai registruojate vieną kvitą su keliais klientų ar tiekėjų įrašais. Būsimose versijose ši funkcija nebebus naudojama, todėl nerekomenduojame naudoti šio registravimo būdo dėl apskaitos įtakos sudengimo apdorojimui. 
 
 Prie pavyzdžių, kai vienas kvitas naudojamas keliems klientams arba tiekėjams, galima priskirti balanso perkėlimus tarp klientų ir padengimo balansus tarp klientų ir tiekėjų toje pačioje organizacijoje. 
 
@@ -35,7 +35,7 @@ Kvitas, kuriame yra daugiau nei vienas klientas arba tiekėjas gali būti įveda
 -   Naudojant kelių eilučių kvitą, kuriame nėra korespondentinės DK sąskaitos, su daugiau nei vienu klientu arba tiekėju.
 -   Įvedant kvitą, kurio sąskaita ir korespondentinė sąskaitą yra tiekėjas / tiekėjas, klientas / klientas, tiekėjas / klientas ar klientas / tiekėjas.
 
-Šioje temoje rodoma, kaip bus apdorojamas sudengimas užregistravus vieną kvitą su keliais kliento arba tiekėjo įrašais. Be to, šioje temoje pateikiami apėjimo būdai, kad būtų lengviau suprasti, kaip galima nenaudoti vieno kvito su keliais klientais ar tiekėjais. Tiksliau kalbant, yra pavyzdžių, kuriuose vaizduojami du bendri sudengimo scenarijai, kuriems turi įtakos vieno kvito naudojimas su keliais klientais ar tiekėjais:
+Šiame straipsnyje rodoma, kaip bus apdorojamas sudengimas, kai užregistruojamas vienas kvitas, kuriame yra keli kliento ar tiekėjo įrašai. Be to, šiame straipsnyje pateikiami problemos, padedai suprasti, kaip naudojant vieną kvitą su keliais klientais arba tiekėjais išvengti. Tiksliau kalbant, yra pavyzdžių, kuriuose vaizduojami du bendri sudengimo scenarijai, kuriems turi įtakos vieno kvito naudojimas su keliais klientais ar tiekėjais:
 
 -   Mokėjimo nuolaidos apskaita
 -   Perkainojimo apskaita

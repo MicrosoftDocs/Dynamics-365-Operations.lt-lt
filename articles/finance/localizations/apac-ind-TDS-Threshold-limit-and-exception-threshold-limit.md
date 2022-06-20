@@ -1,6 +1,6 @@
 ---
 title: Ribinės vertės ir išimčių ribinės vertės riba
-description: Šioje temoje aprašomos ribinės ir išimčių ribos, taikomos šaltinyje (TDS).
+description: Šiame straipsnyje aprašomos ribinės ir išimčių ribos, taikomos mokesčiui, atskaitomame šaltinyje (TDS).
 author: kailiang
 ms.date: 02/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 7fa7d871fdf25f29b003a68cacd9fc0d487dce5b
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: aceebad08b5454b64059e7ef374b9634bad35c37
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726022"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8877942"
 ---
 # <a name="threshold-limit-and-exception-threshold-limit"></a>Ribinės vertės ir išimčių ribinės vertės riba
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje aprašomos ribinės ir išimčių ribos, taikomos šaltinyje (TDS). TDS SF ir mokėjimuose visada skaičiuojami atsižvelgiant į ribinės ir išimčių ribinės vertės ribą, nurodytą TDS mokesčių komponentams **išskaitomo mokesčio komponentų** puslapyje. TDS mokesčio komponentai pridėti prie TDS mokesčių kodų, kurie įtraukiami į TDS mokesčių grupes. TDS mokesčių grupės pridedamos tiekėjams ir klientams, kad TDS būtų skaičiuojama SF arba mokėjimo lygiu.
+Šiame straipsnyje aprašomos ribinės ir išimčių ribos, taikomos mokesčiui, atskaitomame šaltinyje (TDS). TDS SF ir mokėjimuose visada skaičiuojami atsižvelgiant į ribinės ir išimčių ribinės vertės ribą, nurodytą TDS mokesčių komponentams **išskaitomo mokesčio komponentų** puslapyje. TDS mokesčio komponentai pridėti prie TDS mokesčių kodų, kurie įtraukiami į TDS mokesčių grupes. TDS mokesčių grupės pridedamos tiekėjams ir klientams, kad TDS būtų skaičiuojama SF arba mokėjimo lygiu.
 
 TDS skaičiuojamas, jei operacijos suma arba sukauptos operacijos, užregistruotos su konkrečia tiekėjo TDS grupe, viršija ribą, nurodytą **išskaitomo mokesčio komponentų** puslapyje. TDS nebus skaičiuojamas, kol kaupiamoji operacijos suma viršija nurodytą ribinės vertės ribą.
 

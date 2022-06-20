@@ -1,6 +1,6 @@
 ---
 title: Išlaidų tikrintojų konfigūravimas
-description: Šioje temoje aprašoma, kaip naudoti išlaidų tikrintojus, norint dinamiškai pasirinkti vartotoją, kuriam priskirta darbo eigos užduotis, patvirtinimas arba rankinis sprendimas.
+description: Šiame straipsnyje aprašoma, kaip naudoti išlaidų redaktorius, norint dinamiškai pasirinkti vartotoją, kuriam priskirta darbo eigos užduotis, patvirtinimas arba neautomatinis sprendimas.
 author: rachel-profitt
 ms.date: 06/25/2021
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: sericks
 ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2021-06-24
-ms.openlocfilehash: ad980889247e0239ad743078cb013c1c5839f676
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 110edf4c2733f899368069c7d215ae5b0882f5cc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070151"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863229"
 ---
 # <a name="configure-expenditure-reviewers"></a>Išlaidų tikrintojų konfigūravimas
 [!include[banner](../includes/banner.md)]
@@ -52,7 +52,7 @@ Finansines dimensijas kontroliuoja kiekvieno juridinio subjekto sąskaitų struk
 
 ## <a name="example-1-expenditure-reviewers-based-on-organization-distributions"></a>1 pavyzdys: Išlaidų tikrintojai, pagrįsti organizacijos paskirstymais
 
-Dirbate „Contoso Appliances“, o jūsų organizacijoje yra šeši skyriai ir 10 išlaidų centrų. Kai pateikiama nauja pirkimo paraiška, ją pirmiausia turi patvirtinti padalinio vadovas, o tada išlaidų centro vadovas.
+Jūs dirbate su "Contoso Turis", jūsų organizacijoje yra šeši padaliniai ir 10 išlaidų centrų. Kai pateikiama nauja pirkimo paraiška, ją pirmiausia turi patvirtinti padalinio vadovas, o tada išlaidų centro vadovas.
 
 Šiame pavyzdyje konfigūruojate du *pirkimo paraiškų išlaidų tikrintojus*:
 
@@ -65,7 +65,7 @@ Kai sukuriama pirkimo paraiška, padalinio ir išlaidų centro finansinės dimen
 
 ## <a name="example-2-expenditure-reviewers-based-on-project-distributions"></a>2 pavyzdys: Išlaidų tikrintojai, pagrįsti projekto paskirstymais
 
-Dirbate „Contoso Appliances“ paslaugų skyriuje. Organizacija reikalauja, kad kiekvieno pirkimo užsakymo projekto vadovas privalo patvirtinti išlaidas. Be to, projekto išlaidų centro vadovas turi jas patvirtinti. Patvirtinimai gali būti atliekami tuo pačiu metu. Bet kuriuo atveju abu vartotojai turi patvirtinti pirkimo užsakymą prieš tęsdami darbo eigą.
+Jūs dirbate su "Contoso Technika" paslaugų padaliniu. Organizacija reikalauja, kad kiekvieno pirkimo užsakymo projekto vadovas privalo patvirtinti išlaidas. Be to, projekto išlaidų centro vadovas turi jas patvirtinti. Patvirtinimai gali būti atliekami tuo pačiu metu. Bet kuriuo atveju abu vartotojai turi patvirtinti pirkimo užsakymą prieš tęsdami darbo eigą.
 
 Šiame pavyzdyje jūs sukuriate vieną *pirkimo užsakymo išlaidų tikrintoją*, pavadintą **PM ir Išlaidų centru**. Jūs pasirenkate **Projekto vadovo** žymės langelį ir nustatote **Išlaidų centro dimensijos** parinktį į **Taip** skirtuke **Projekto paskirstymai**, esančiame **Pirkimo užsakymo išlaidų tikrintojo** puslapyje. Kaip konfigūracijos dalį turite užtikrinti, kad **Projekto vadovo** laukas būtų nustatytas visiems projektams ir tai, kad savininkas būtų nurodytas visiems išlaidų centrams **Finansinių dimensijų reikšmių** puslapyje.
 
@@ -75,7 +75,7 @@ Sukūrus pirkimo užsakymą, turi būti nurodytas **Projekto** laukas. Jei jums 
 
 ## <a name="set-up-expenditure-reviewers"></a>Išlaidų tikrintojų nustatymas
 
-Šiame pavyzdyje rodoma, kaip sukonfigūruoti pirkimo paraiškų išlaidų tikrintoją. Norėdami sukonfigūruoti kitų tipų išlaidų tikrintojus, pakeiskite 1 veiksmo naršymo maršrutą atitinkamu maršrutu iš [Išlaidų tikrintojų tipų](configure-expenditure-reviewers.md#types-of-expenditure-reviewers) skyriaus lentelės, esančios anksčiau šioje temoje.
+Šiame pavyzdyje rodoma, kaip sukonfigūruoti pirkimo paraiškų išlaidų tikrintoją. Norėdami konfigūruoti kitų tipų išlaidų redaktorius, pakeiskite 1 [veiksmo](configure-expenditure-reviewers.md#types-of-expenditure-reviewers) naršymo maršrutą atitinkamu maršrutu iš išlaidų redaktorių skyriaus lentelės, ankstesnio šio straipsnio.
 
 1. Eikite į **Įsigijimas ir išteklių tiekimas \> Nustatymas \> Strategijos \> Pirkimo paraiškos išlaidų tikrintojai**.
 2. Puslapyje **Pirkimo paraiškos išlaidų tikrintojai** pasirinkite **Naujas**.

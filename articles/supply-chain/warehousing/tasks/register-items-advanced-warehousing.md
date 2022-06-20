@@ -1,6 +1,6 @@
 ---
 title: Prekių, kurioms įjungta patobulinto sandėliavimo funkcija, registravimas naudojant prekių gavimo žurnalą
-description: Šioje temoje pateikiamas scenarijus, kaip registruoti prekes naudojant prekių gavimo žurnalą, kai naudojate patobulintus sandėlio valdymo procesus.
+description: Šiame straipsnyje pateikiamas scenarijus, kuris parodo, kaip registruoti prekes naudojant prekių gavimo žurnalą, kai naudojami išplėstiniai sandėlio valdymo procesai.
 author: Mirzaab
 ms.date: 03/24/2021
 ms.topic: business-process
@@ -14,22 +14,22 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e753897d1e21ffebbcbfac48abab4b0549c3553f
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: ac4a681484f0cd843ccd73633040f0fa0be0475e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7565260"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863627"
 ---
 # <a name="register-items-for-an-advanced-warehousing-enabled-item-using-an-item-arrival-journal"></a>Prekių, kurioms įjungta patobulinto sandėliavimo funkcija, registravimas naudojant prekių gavimo žurnalą
 
 [!include [banner](../../includes/banner.md)]
 
-Šioje temoje pateikiamas scenarijus, kaip registruoti prekes naudojant prekių gavimo žurnalą, kai naudojate patobulintus sandėlio valdymo procesus. Paprastai tai atlieka gavimo klerkas.
+Šiame straipsnyje pateikiamas scenarijus, kuris parodo, kaip registruoti prekes naudojant prekių gavimo žurnalą, kai naudojami išplėstiniai sandėlio valdymo procesai. Paprastai tai atlieka gavimo klerkas.
 
 ## <a name="enable-sample-data"></a>Duomenų pavyzdžių įgalinimas
 
-Norėdami dirbti pagal šį scenarijų naudojant šioje temoje nurodytus pavyzdinius įrašus ir reikšmes, turite naudoti sistemą, kurioje įdiegti standartiniai demonstraciniai duomenys, ir pasirinkti *„USMF”* juridinį subjektą.
+Norėdami dirbti naudodami šiame straipsnyje nurodytus pavyzdinius įrašus ir reikšmes, turite naudoti sistemą, kurioje įdiegti standartiniai demonstraciniai duomenys, *ir prieš pradėdami turite pasirinkti USMF* juridinį subjektą.
 
 Vietoj to, galite dirbti pagal šį scenarijų pakeisdami reikšmes iš jūsų duomenų, jeigu turite šiuos duomenis:
 

@@ -1,6 +1,6 @@
 ---
 title: Inžinerinių keitimų valdymo funkcijos gairės
-description: Šioje temoje pateiktos nuo pradžios iki galo gairės, kurios rodo, kaip dirbti su inžinerinių keitimų valdymu.
+description: Šiame straipsnyje pateikiamas pradžios ir pabaigos pradžios numeris, kuriame parodyta, kaip dirbti naudojant inžinerijos pakeitimų valdymą.
 author: t-benebo
 ms.date: 09/28/2020
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 4c1c67559a8f2e9d0abb512f4231aea495d1957c
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: ec5535013af9ccb253744e061de738155ac9ad22
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7573998"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889641"
 ---
 # <a name="engineering-change-management-feature-walkthrough"></a>Inžinerinių keitimų valdymo funkcijos gairės
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje pateiktos nuo pradžios iki galo gairės, kurios rodo, kaip dirbti su inžinerinių keitimų valdymu. Jos tinka visais svarbiausiais scenarijais:
+Šiame straipsnyje pateikiamas pradžios ir pabaigos pradžios numeris, kuriame parodyta, kaip dirbti naudojant inžinerijos pakeitimų valdymą. Jos tinka visais svarbiausiais scenarijais:
 
 - Pagrindinis funkcijos konfigūravimas
 - Kaip inžinerijos bendrovė sukuria naują inžinerinį produktą
@@ -35,13 +35,13 @@ ms.locfileid: "7573998"
 - Kaip suplanuoti ir įdiegti užklausos pakeitimus sukuriant inžinerinių keitimų užsakymą
 - Kaip išleisti produktą, kuris buvo pakeistas
 
-Visi pratimai šiame temoje naudoja standartinius pavyzdžio duomenis, pateiktus „Microsoft Dynamics 365 Supply Chain Management“. Taip pat, kiekvienas praktikos kūrimas ankstesnėje praktinėje užduotyje. Dėl to, rekomenduojame jums dirbti per praktikas užsakyme nuo pradžios iki galo, ypač jei niekada nenaudojote inžinerinių keitimų valdymo funkcijas anksčiau. Tokiu būtu, visiškai suprasite funkciją.
+Visi šiame straipsnyje atlikti manai naudojami standartiniai pavyzdiniai duomenys, skirti "Microsoft"Dynamics 365 Supply Chain Management. Taip pat, kiekvienas praktikos kūrimas ankstesnėje praktinėje užduotyje. Dėl to, rekomenduojame jums dirbti per praktikas užsakyme nuo pradžios iki galo, ypač jei niekada nenaudojote inžinerinių keitimų valdymo funkcijas anksčiau. Tokiu būtu, visiškai suprasite funkciją.
 
 ## <a name="set-up-for-the-sample-scenario"></a>Nustatykite pavyzdžio scenarijų
 
-Norėdami laikytis pavyzdžio scenarijaus pateikto šioje temoje, pirmiausia turite parengti funkciją atlikę demonstracinių duomenų prieinamumą ir įtraukę keletą tinkintų įrašų.
+Norėdami vadovautis pavyzdiniu scenarijumi, kuris pateiktas šiame straipsnyje, pirmiausia turite paruošti funkciją, kad būtų galima naudoti demonstracinius duomenis ir įtraukti keletą pasirinktinių įrašų.
 
-Prieš bandydami atlikti keletą pratimų toliau šioje temoje, laikykitės instrukcijų tolesniuose poskyriuose. Šie poskyriai taip pat įtraukia keletą svarbių nustatymų puslapių, kuriuos naudosite nustatydami inžinerijos pokyčio valdymą savo organizacijai.
+Prieš bandydami atlikti bet kuriuos likusius šio straipsnio veiksmus, vadovaukitės visų toliau pateiktų poskyrių instrukcijomis. Šie poskyriai taip pat įtraukia keletą svarbių nustatymų puslapių, kuriuos naudosite nustatydami inžinerijos pokyčio valdymą savo organizacijai.
 
 ### <a name="make-standard-demo-data-available"></a>Padarykite standartinius demonstracinius duomenis prieinamus
 

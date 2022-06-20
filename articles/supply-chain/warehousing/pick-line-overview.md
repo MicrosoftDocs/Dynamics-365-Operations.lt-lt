@@ -1,6 +1,6 @@
 ---
 title: Mobiliojo įrenginio meniu elemento nustatymas paėmimo eilučių peržiūrai pateikti
-description: Šioje temoje paaiškinama, kaip nustatyti, kada visų darbo eilučių sąrašas bus rodomas sandėlio darbuotojams, kurie apdoroja sandėlio darbus mobiliajame įrenginyje. Ši funkcija gali būti naudinga sandėlio darbuotojams, kuriems dažnai reikia peržiūrėti paėmimo eilutes darbo užsakyme, kad jie galėtų optimizuoti savo paėmimų seką.
+description: Šiame straipsnyje paaiškinama, kaip nustatyti, kada visų darbo eilučių sąrašas bus rodomas sandėlio darbuotojams, kurie apdoros sandėlio darbą mobiliajame įrenginyje. Ši funkcija gali būti naudinga sandėlio darbuotojams, kuriems dažnai reikia peržiūrėti paėmimo eilutes darbo užsakyme, kad jie galėtų optimizuoti savo paėmimų seką.
 author: Mirzaab
 ms.date: 09/03/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-09-03
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 7d3a8972c5d2f4c52dddef458ebd6079118cadfe
-ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
+ms.openlocfilehash: 5b3bf0d94e6975f543361481b73c845ef9c56d05
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7901927"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885673"
 ---
 # <a name="set-up-a-mobile-device-menu-item-to-provide-a-pick-line-overview"></a>Mobiliojo įrenginio meniu elemento nustatymas paėmimo eilučių peržiūrai pateikti
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje paaiškinama, kaip konfigūruoti pasirinktis, susijusias su mobiliųjų įrenginių meniu elementų, kurie naudojami išrinkimo darbui apdoroti, paėmimo eilutės peržiūra. Paėmimo eilutės peržiūra leidžia sandėlio darbuotojams peržiūrėti ir pasirinkti iš visų darbo eilučių, susijusių su jų dabartine užduotimi, sąrašo. Ši funkcija gali padėti darbuotojams optimizuoti savo paėmimų seką. Funkcija suteikia pasirinktis, kurios pakeičia standartinį **Praleidimo** mygtuką, kuris leidžia darbuotojams pereiti per eilutes po vieną pagal pastovią eilučių tvarką. (Tačiau vis tiek galima naudoti šį mygtuką.)
+Šiame straipsnyje paaiškinama, kaip konfigūruoti parinktis, susijusias su mobiliojo įrenginio meniu elementų, naudojamų išrinkimo darbui apdoroti, paėmimo eilutės peržiūra. Paėmimo eilutės peržiūra leidžia sandėlio darbuotojams peržiūrėti ir pasirinkti iš visų darbo eilučių, susijusių su jų dabartine užduotimi, sąrašo. Ši funkcija gali padėti darbuotojams optimizuoti savo paėmimų seką. Funkcija suteikia pasirinktis, kurios pakeičia standartinį **Praleidimo** mygtuką, kuris leidžia darbuotojams pereiti per eilutes po vieną pagal pastovią eilučių tvarką. (Tačiau vis tiek galima naudoti šį mygtuką.)
 
 Administratoriai gali konfigūruoti kiekvieną meniu elementą atskirai, kad galėtų kontroliuoti, kaip, kada ir kur sandėlio valdymo mobiliųjų įrenginių programėlė pateikia paėmimo eilučių peržiūrą.
 

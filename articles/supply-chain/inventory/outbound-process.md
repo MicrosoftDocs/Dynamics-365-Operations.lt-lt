@@ -1,6 +1,6 @@
 ---
 title: Siuntimo proceso apžvalga
-description: Šioje temoje apžvelgiamas modulio Atsargų valdymas siuntimo procesas.
+description: Šiame straipsnyje pateikta Atsargų valdymo siuntimo proceso apžvalga.
 author: yufeihuang
 ms.date: 07/25/2019
 ms.topic: overview
@@ -18,18 +18,18 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.dyn365.ops.version: AX 7.0.0
 ms.search.validFrom: 2016-02-28
-ms.openlocfilehash: 85012ada693a98652325a142ba4649a9a826b22b
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 4e3c97862858e219d98b4ef9a81b52c6ab1623ab
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982384"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8852482"
 ---
 # <a name="outbound-process-overview"></a>Siuntimo proceso apžvalga
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje apžvelgiamas modulio Atsargų valdymas siuntimo procesas.
+Šiame straipsnyje pateikta Atsargų valdymo siuntimo proceso apžvalga.
 
 ## <a name="output-orders"></a>Išeigos užsakymai
 

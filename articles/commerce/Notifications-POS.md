@@ -1,6 +1,6 @@
 ---
 title: Užsakymų pranešimų rodymas elektroniniame kasos aparate (EKA)
-description: Šioje temoje aprašyta, kaip įjungti užsakymų pranešimų rodymą elektroniniame kasos aparate ir pranešimų sistemoje.
+description: Šiame straipsnyje aprašoma, kaip įgalinti užsakymo pranešimus point of sale ir pranešimų sistemoje.
 author: ShalabhjainMSFT
 ms.date: 03/12/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 7166afdb43c7e835170c5768a0767f2943222b19c00c7d0aaf067263845651f8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a9e646d6bf48461e78dc75c8a154f2fbf1443393
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714143"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853985"
 ---
 # <a name="show-order-notifications-in-the-point-of-sale-pos"></a>Užsakymų pranešimų rodymas elektroniniame kasos aparate (EKA)
 
@@ -65,10 +65,10 @@ Tiek užsakymo vykdymo, tiek užsakymo atšaukimo pranešimo atveju, kai nauji u
 
 ## <a name="enable-live-content-on-pos-buttons"></a>Tiesioginio turinio įjungimas ant EKA mygtukų
 
-Ant EKA mygtukų dabar gali būti rodomas skaičius, kad darbininkai galėtų lengviau nustatyti, į kurias užduotis reikia nedelsiant atkreipti dėmesį. Norėdami ant EKA mygtuko rodyti šį skaičių, turite atlikti pranešimų sąranką, aprašyta anksčiau šioje temoje (t. y., turite įjungti operacijos pranešimus, nustatyti pranešimų intervalą ir atnaujinti darbininko EKA teisių grupę). Be to, turite atidaryti mygtukyno dizaino įrankį, peržiūrėti mygtuko ypatybes ir pažymėti žymės langelį **Įjungti tiesioginį turinį**. Lauke **Turinio lygiuotė** galite pasirinkti, ar skaičius rodomas viršutiniame dešiniajame mygtuko kampe (**Viršuje, dešinėje**), ar centre (**Centre**).
+Ant EKA mygtukų dabar gali būti rodomas skaičius, kad darbininkai galėtų lengviau nustatyti, į kurias užduotis reikia nedelsiant atkreipti dėmesį. Norėdami, kad šis numeris būtų rodomas EKA mygtuku, turite užbaigti pranešimo nustatymą, kuris aprašytas anksčiau šiame straipsnyje (pvz., turite įgalinti pranešimus dėl operacijos, nustatyti pranešimų intervalą ir atnaujinti darbuotojo EKA teisių grupę). Be to, turite atidaryti mygtukyno dizaino įrankį, peržiūrėti mygtuko ypatybes ir pažymėti žymės langelį **Įjungti tiesioginį turinį**. Lauke **Turinio lygiuotė** galite pasirinkti, ar skaičius rodomas viršutiniame dešiniajame mygtuko kampe (**Viršuje, dešinėje**), ar centre (**Centre**).
 
 > [!NOTE]
-> Tiesioginį operacijų turinį galima įjungti, tik jei puslapyje **EKA operacijos** prie jų pažymėtas žymės langelis **Įjungti pranešimus**, kaip aprašyta anksčiau šioje temoje.
+> Operacijoms galima įgalinti tiesioginį **turinį tik tada, jei EKA operacijų puslapyje buvo pažymėtas jų žymės langelis Įgalinti pranešimus** **·**, kaip aprašyta anksčiau šiame straipsnyje.
 
 Tolesnėje iliustracijoje rodomi tiesioginio turinio parametrai mygtukyno dizaino įrankyje.
 

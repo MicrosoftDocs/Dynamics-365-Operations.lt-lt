@@ -1,6 +1,6 @@
 ---
 title: Įkainojimo parametrų verčių nustatymas
-description: Kai nustatote iškrovimo kainos modulį, galite apibrėžti kelis bendrųjų verčių rinkinius, kurie bus prieinami pasirinkus konkrečius įkainojimo parametrų reikšmių tipus kitose programos dalyse. Šioje temoje paaiškinama, kaip nustatyti šiuos verčių rinkinius.
+description: Kai nustatote iškrovimo kainos modulį, galite apibrėžti kelis bendrųjų verčių rinkinius, kurie bus prieinami pasirinkus konkrečius įkainojimo parametrų reikšmių tipus kitose programos dalyse. Šiame straipsnyje paaiškinama, kaip nustatyti šiuos verčių rinkinius.
 author: Weijiesa
 ms.date: 12/07/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2020-12-07
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: ed20181201a2f3f84c3dc08549f4f107d46a50a2
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: ca3633cd8a3fb053bda597b968003685aa2326ef
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8689753"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8852337"
 ---
 # <a name="costing-parameter-values-setup"></a>Įkainojimo parametrų verčių nustatymas
 
 [!include [banner](../../includes/banner.md)]
 
-Kai nustatote modulį **Iškrovimo kaina**, galite apibrėžti kelis bendrųjų verčių rinkinius ir susijusius parametrus kiekvienai vertei. Šios vertės bus prieinamos pasirinkus konkrečius įkainojimo parametrų verčių tipus kitose programos dalyse. Šioje temoje paaiškinama, kaip nustatyti šiuos verčių rinkinius.
+Kai nustatote modulį **Iškrovimo kaina**, galite apibrėžti kelis bendrųjų verčių rinkinius ir susijusius parametrus kiekvienai vertei. Šios vertės bus prieinamos pasirinkus konkrečius įkainojimo parametrų verčių tipus kitose programos dalyse. Šiame straipsnyje paaiškinama, kaip nustatyti šiuos verčių rinkinius.
 
 ## <a name="set-up-cost-type-codes"></a>Savikainos tipų kodų nustatymas
 

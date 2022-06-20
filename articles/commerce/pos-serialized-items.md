@@ -1,6 +1,6 @@
 ---
 title: Darbas su EKA serijos prekėmis
-description: Šioje temoje paaiškinama, kaip valdyti serijos prekes elektroninio kasos aparato (EKA) programoje.
+description: Šiame straipsnyje paaiškinama, kaip valdyti eilutėmis išrašytas prekes point point of sale (EKA) programoje.
 author: boycezhu
 ms.date: 01/08/2021
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: global
 ms.author: boycez
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 5725943fd249e1b5d66b08b829c2eb58b6aad3ee24db9ca83bbde9be906bbf82
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8a715a9d025f36656506daeb9e611bfacdafa102
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737583"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880034"
 ---
 # <a name="work-with-serialized-items-in-the-pos"></a>Darbas su EKA serijos prekėmis
 
 [!include [banner](includes/banner.md)]
 
-Daug mažmenininkų parduoda produktus, kuriems reikia serijos valdymo. Šie produktai vadinami *serijos prekėmis*. Kai kurie mažmenininkai gali norėti tvarkyti parduotuvės ar sandėlio atsargų serijos numerius stebėjimo tikslais. Kiti mažmenininkai gali norėti fiksuoti serijos numerius pardavimo proceso metu paslaugų ir garantijos tikslais. Šioje temoje paaiškinama, kaip galite valdyti serijos prekes „Microsoft Dynamics 365 Commerce” elektroninio kasos aparato (EKA) programoje.
+Daug mažmenininkų parduoda produktus, kuriems reikia serijos valdymo. Šie produktai vadinami *serijos prekėmis*. Kai kurie mažmenininkai gali norėti tvarkyti parduotuvės ar sandėlio atsargų serijos numerius stebėjimo tikslais. Kiti mažmenininkai gali norėti fiksuoti serijos numerius pardavimo proceso metu paslaugų ir garantijos tikslais. Šiame straipsnyje paaiškinama, kaip valdyti išrašytas prekes point Microsoft Dynamics 365 Commerce sale (EKA) programoje.
 
 ## <a name="serial-number-configurations"></a>Serijos numerių konfigūracijos
 
@@ -124,7 +124,7 @@ Serijinės prekės parduodamos ateities paėmimui ar siuntimui, EKA vartotojai g
 
 ### <a name="apply-serial-numbers-during-customer-order-fulfillment-or-pickup"></a>Taikyti serijinius numerius kliento užsakymo įgyvendinimo ar paėmimo metu
 
-Įgyvendinant kliento užsakymo eilutes serijiniams produktams naudojant **Užsakymo įgyvendinimo** veiksmą EKA, EKA įgalina aprėpti serijinį numerį prieš paskutinį įgyvendinimą. Dėl to, jei serijinis numeris nėra pateiktas pradinio užsakymo aprėpties metu, jis turi būti apimtas paėmimo, supakavimo ar siuntimo procesuose EKA. Tvirtinimas yra atliekamas kiekvienu veiksmu ir vartotojo tik bus paklausta serijinio numerio duomenų, jei jų nėra ar jie negalioja. Pavyzdžiui, jei vartotojas praleidžia paėmimą ar supakavimo žingsnius ir nedelsiant pradeda siuntimą, o serijinis numeris nėra registruotas eilutei, EKA reikalaus serijinio numerio įvedimo prieš paskutinio sąskaitos veiksmo užbaigimą. Įjungiant serijinio numerio aprėptį užsakymo įgyvendinimo operacijų EKA metu, visos anksčiau minėtos taisyklės šiame skyriuje vis dar bus taikomos. Tik serijinės prekės, konfigūruotos kaip **Aktyvios** pereina per serijinio numerio inventoriaus atsargų tvirtinimą. Prekės konfigūruotos kaip **Aktyvios prekybos procese** nebus patvirtintos. Jei **Fizinės neigiamos atsargos** leidžiamos **Aktyviose** produktuose, bet koks serijinis numeris bus priimtas nepriklausomai nuo atsargų prieinamumo. Abiem **Aktyviems** ir **Aktyviems prekybos procesams** prekėms, jei **Tuščia problema leidžiama** yra konfigūruota, vartotojas gali palikti serijinius numerius tuščius, jei nori paėmimo, pakavimo ir siuntimo veiksmų metu.
+Įgyvendinant kliento užsakymo eilutes serijiniams produktams naudojant **Užsakymo įgyvendinimo** veiksmą EKA, EKA įgalina aprėpti serijinį numerį prieš paskutinį įgyvendinimą. Dėl to, jei serijinis numeris nėra pateiktas pradinio užsakymo aprėpties metu, jis turi būti apimtas paėmimo, supakavimo ar siuntimo procesuose EKA. Tvirtinimas yra atliekamas kiekvienu veiksmu ir vartotojo tik bus paklausta serijinio numerio duomenų, jei jų nėra ar jie negalioja. Pavyzdžiui, jei vartotojas praleidžia paėmimą ar supakavimo žingsnius ir nedelsiant pradeda siuntimą, o serijinis numeris nėra registruotas eilutei, EKA reikalaus serijinio numerio įvedimo prieš paskutinio sąskaitos veiksmo užbaigimą. Kai EKA vykdant serijos numerio įrašymo įvykdymą EKA reikia įvykdyti visas anksčiau šiame straipsnyje nurodytas taisykles. Tik serijinės prekės, konfigūruotos kaip **Aktyvios** pereina per serijinio numerio inventoriaus atsargų tvirtinimą. Prekės konfigūruotos kaip **Aktyvios prekybos procese** nebus patvirtintos. Jei **Fizinės neigiamos atsargos** leidžiamos **Aktyviose** produktuose, bet koks serijinis numeris bus priimtas nepriklausomai nuo atsargų prieinamumo. Abiem **Aktyviems** ir **Aktyviems prekybos procesams** prekėms, jei **Tuščia problema leidžiama** yra konfigūruota, vartotojas gali palikti serijinius numerius tuščius, jei nori paėmimo, pakavimo ir siuntimo veiksmų metu.
 
 Patvirtinimai serijiniams numeriams taip pat vyks, kai vartotojas atliks paėmimo veiksmus kliento užsakymuose EKA. EKA programa neleidžia atlikti paėmimo serijiniams produktams, nebent jis praeina pro patvirtinimą kaip minėta anksčiau. Patvirtinimai visada paremti produkto sekimo dimensija ir pardavimo sandėlio konfigūravimais. 
 

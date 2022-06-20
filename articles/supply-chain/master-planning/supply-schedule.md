@@ -1,6 +1,6 @@
 ---
 title: Tiekimo grafikas
-description: Šioje temoje pateikiama informacija apie Tiekimo grafiko puslapį ir jo galimybes.
+description: Šiame straipsnyje pateikiama informacija apie tiekimo grafiko puslapį ir jo galimybes.
 author: t-benebo
 ms.date: 9/3/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-06-09
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 89b8ce96a5c34902187751cfa523ed99a94500b3
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 0e3937dd4cffc464f38b5770674364579bdb06d1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8468682"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8851745"
 ---
 # <a name="supply-schedule"></a>Tiekimo grafikas
 
@@ -28,7 +28,7 @@ Puslapyje **Tiekimo grafikas** pateikiama išsami produktų ar produktų šeimos
 
 Puslapį **Tiekimo grafikas** galite atidaryti bet kuriuo iš šių būdų:
 
-- Eikite į **Bendrasis planavimas \> Bendrasis planavimas \> Tiekimo grafikas**. Dialogo lange **Modifikuoti filtrą** nurodykite ieškomus planą ir produktą įvesdami filtrų reikšmes į pateikiamus laukus. (Likusioje šios temos dalyje jūsų įvedamų filtro reikšmių rinkinys yra vadinamos „filtru” arba „dabartiniu filtru”.) Baigę pasirinkite **GERAI**.
+- Eikite į **Bendrasis planavimas \> Bendrasis planavimas \> Tiekimo grafikas**. Dialogo lange **Modifikuoti filtrą** nurodykite ieškomus planą ir produktą įvesdami filtrų reikšmes į pateikiamus laukus. (Likusioje šio straipsnio dalyje jūsų įvedamos filtro vertės vadinamos "filtru" arba "dabartiniu filtru". Baigę pasirinkite **Gerai**.
 - Eikite į **Produkto informacijos valdymas \> Produktai \> Išleisti produktai**. Pasirinkite arba atidarykite produktą. Tada veiksmų srities skirtuko **Planas** grupėje **Peržiūrėti** pasirinkite **Tiekimo grafikas**.
 - Eikite į **Bendrasis planavimas \> Nustatymas \> Poreikio prognozė \> Prekės paskirstymo raktai**. Pasirinkite prekės paskirstymo raktą, kuris naudojamas kaip produktų šeima. Tada veiksmų srityje pasirinkite **Tiekimo grafikas**.
 - Eikite į **Pagrindinis planavimas \> Pagrindinis planavimas \> Suplanuoti užsakymai**. Pasirinkite ar atidarykite suplanuotą užsakymą. Tada veiksmų srities skirtuko **Peržiūrėti** grupėje **Peržiūrėti** pasirinkite **Tiekimo grafikas**.

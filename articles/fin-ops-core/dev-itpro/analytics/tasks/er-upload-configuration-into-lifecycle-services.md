@@ -1,6 +1,6 @@
 ---
-title: Konfigūracijos nusiuntimas į „Lifecycle Services‟
-description: Šioje temoje paaiškinama, kaip sukurti naują elektroninių ataskaitų (ER) konfigūraciją ir nusiųsti ją į „Microsoft Dynamics Lifecycle Services“ (LCS).
+title: Konfigūracijos nusiuntimas į „Lifecycle Services”
+description: Šiame straipsnyje paaiškinama, kaip sukurti naują elektroninių ataskaitų (ER) konfigūraciją ir įkelti ją į Microsoft Dynamics ciklo tarnybas (LCS).
 author: NickSelin
 ms.date: 06/17/2021
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b480351875c7d300db790a68d61a402218f8ee36d8247188b912762f21d035b3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b2b84fc3167b3edaf6b99fa8bb0efd373c7f57c3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720765"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885520"
 ---
 # <a name="upload-a-configuration-into-lifecycle-services"></a>Konfigūracijos nusiuntimas į „Lifecycle Services”
 
 [!include [banner](../../includes/banner.md)]
 
-Šioje temoje aiškinama, kaip sistemos administratoriaus arba elektroninių ataskaitų kūrėjo vaidmenį turintis vartotojas gali sukurti naują [elektroninių ataskaitų (ER) konfigūraciją](../general-electronic-reporting.md#Configuration) ir ją nusiųsti į [projekto lygio turto biblioteką](../../lifecycle-services/asset-library.md) „Microsoft Dynamics Lifecycle Services‟ (LCS).
+Šiame straipsnyje paaiškinama [, kaip sistemos administratoriaus arba elektroninių ataskaitų kūrėjo vaidmens vartotojas gali sukurti naują elektroninių ataskaitų (ER)](../general-electronic-reporting.md#Configuration)[...](../../lifecycle-services/asset-library.md)Microsoft Dynamics konfigūraciją ir įkelti ją į projekto lygio turto biblioteką, nurodytą ciklo tarnybose (LCS).
 
 > [!IMPORTANT]
 > LCS naudojimas kaip ER konfigūracijų saugyklos yra [nerekomenduojamas](../../../../finance/get-started/removed-deprecated-features-finance.md#features-removed-or-deprecated-in-the-finance-10017-release). Daugiau informacijos rasite [„Regulatory Configuration Service“ (RCS) – „Lifecycle Services“ (LCS) saugykla nerekomenduojama](../../../../finance/localizations/rcs-lcs-repo-dep-faq.md).
@@ -42,7 +42,7 @@ ms.locfileid: "6720765"
 
 <a name="accessconditions"></a>
 > [!NOTE]
-> Įsitikinkite, kad dabartinis „Dynamics 365 Finance” vartotojas yra LCS projekto, kuriame yra [turto biblioteka](../../lifecycle-services/asset-library.md#asset-library-support), naudojama ER konfigūracijoms importuoti, narys.
+> Įsitikinkite, kad dabartinis "Dynamics 365" finansų vartotojas yra LCS [projekto](../../lifecycle-services/asset-library.md#asset-library-support), kuriame yra turto biblioteka, naudojama ER konfigūracijų importavimui, narys.
 >
 > Negalima pasiekti LCS projekto iš ER saugyklos, kuri nurodo domeną, kuris skiriasi nuo domeno, naudojamo „Finance”. Jei bandysite, bus rodomas tuščias LCS projektų sąrašas, o jūs negalėsite importuoti ER konfigūracijų iš projekto lygio turto bibliotekos, esančios LCS. Norėdami pasiekti projekto lygio turto bibliotekas iš ER saugyklos, naudojamos importuoti ER konfigūracijas, prisijunkite prie „Finance” naudodami vartotojo, priklausančio nuomotojui (domenui), kuriam sukonfigūruotas dabartinis „Finance” egzempliorius, kredencialus.
 

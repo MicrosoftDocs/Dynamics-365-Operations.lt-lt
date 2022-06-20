@@ -1,6 +1,6 @@
 ---
 title: „Power BI“ turinys CFO apžvalga
-description: Šioje temoje aprašomas CEO apžvalgos „Microsoft Power BI“ turinys.
+description: Šiame straipsnyje aprašomas CFO peržiūros Microsoft Power BI turinys.
 author: kweekley
 ms.date: 08/24/2021
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 3eab89d55ec90f3b5937773502430bf317e491ae
-ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
+ms.openlocfilehash: 1ea8f12102cc2fac1948027f7c15d45bf5d1b15d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7416209"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881557"
 ---
 # <a name="cfo-overview-power-bi-content"></a>„Power BI“ turinys CFO apžvalga
 
 [!include [banner](../includes/banner.md)] 
 
-Šioje temoje aprašomas **CFO apžvalgos** „Microsoft Power BI“ turinys. Šis „Power BI“ turinys taikomas tiems, kurie naudoja „Microsoft Dynamics 365 for Finance and Operations“ 7.2 versiją. Jei naudojate 7.3 arba naujesnę versiją, žr. [Finansines įžvalgas](financial-insights.md).
+Šiame straipsnyje aprašomas **CFO peržiūros** Microsoft Power BI turinys. Šis „Power BI“ turinys taikomas tiems, kurie naudoja „Microsoft Dynamics 365 for Finance and Operations“ 7.2 versiją. Jei naudojate 7.3 arba naujesnę versiją, žr. [Finansines įžvalgas](financial-insights.md).
 
 ## <a name="accessing-the-power-bi-content"></a>Prieiga prie „Power BI“ turinio
 

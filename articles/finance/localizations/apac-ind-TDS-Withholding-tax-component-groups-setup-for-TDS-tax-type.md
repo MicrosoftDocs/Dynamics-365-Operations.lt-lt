@@ -1,6 +1,6 @@
 ---
 title: Nustatykite išskaitomo mokesčio komponento grupių TDS mokesčių tipui
-description: Šioje temoje paaiškinama, kaip nustatyti išskaitomo mokesčio komponentų grupės, tokias kaip nuomos ar rangovo, išskaitomo mokesčio šaltinio mokesčių tipui.
+description: Šiame straipsnyje paaiškinama, kaip nustatyti išskaitomo mokesčio komponentų grupes, pvz., Nuoma ir Rangovas, pagal išskaitomo mokesčio tipą šaltinio (TDS).
 author: kailiang
 ms.date: 02/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: ad4ac16d2618a99ba8ea5c2da010eb8e96447775
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: e7b856be18618573408388fe0acbd702aeb4bcc3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726871"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896260"
 ---
 # <a name="set-up-withholding-tax-component-groups-for-the-tds-tax-type"></a>Nustatykite išskaitomo mokesčio komponento grupių TDS mokesčių tipui
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje paaiškinama, kaip nustatyti išskaitomo mokesčio komponentų grupės, tokios kaip **Nuomos** ir **Rangovo**, šskaitomo mokesčio šaltinio mokesčių tipui (TDS).
+Šiame straipsnyje paaiškinama, kaip nustatyti išskaitomo mokesčio komponentų grupes, pvz., **·** **Nuoma** ir Rangovas, pagal išskaitomo mokesčio tipą šaltinio (TDS).
 
 1. Eikite į **Mokestis \> Nustatymai \> Išskaitomas mokestis \> Išskaitomo mokesčio komponentų grupės**.
 

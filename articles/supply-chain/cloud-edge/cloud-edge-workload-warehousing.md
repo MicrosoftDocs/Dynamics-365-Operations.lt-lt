@@ -1,6 +1,6 @@
 ---
-title: Sandėlio valdymo darbo krūvis debesiui ir krašto skalės vienetams
-description: Šioje temoje pateikta informacija apie funkcijas, kurios įjungia skalės vienetus siekiant vykdyti pasirinktus procesus iš jūsų sandėlio valdymo darbo krūvio.
+title: Sandėlio valdymo darbo krūviai, skirti debesies ir briaunos skalės vienetams
+description: Šiame straipsnyje pateikiama informacija apie funkciją, kuri įgalina skalės vienetus vykdyti pasirinktus procesus iš sandėlio valdymo darbo krūvio.
 author: perlynne
 ms.date: 09/03/2021
 ms.topic: article
@@ -16,19 +16,19 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 67f78441b0914d18c2a7853bab54c6b8817be3ac
-ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
+ms.openlocfilehash: f9839ad9a18eb543734c2ba43a56b568460a64c3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8384489"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893503"
 ---
 # <a name="warehouse-management-workloads-for-cloud-and-edge-scale-units"></a>Sandėlio valdymo darbo krūviai, skirti debesies ir briaunos skalės vienetams
 
 [!include [banner](../includes/banner.md)]
 
 > [!WARNING]
-> Ne visos sandėlio valdymo verslo funkcijos yra visiškai palaikomos sandėliams, kurie vykdo darbo krūvį skalės vienete. Įsitikinkite, kad naudojate tik procesus, kuriuos atskirai aprašo šis skyrius, kaip palaikomus.
+> Ne visos sandėlio valdymo verslo funkcijos yra visiškai palaikomos sandėliams, kurie vykdo darbo krūvį skalės vienete. Įsitikinkite, kad naudojami tik procesai, kuriuos šiame straipsnyje aiškiai nurodome kaip palaikomus.
 
 ## <a name="warehouse-execution-on-scale-units"></a>Sandėlio vykdymas skalės vienetuose
 
@@ -184,7 +184,7 @@ Svarstyklių vienetais šiuo metu nepalaikomi jokie kiti šaltinio dokumentų ap
 >
 > Norint nustatyti sandėlio valdymo mobiliąją programą, kuri veiktų su debesies ar kraštų skalės vienetu, reikia atlikti keletą papildomų veiksmų. Daugiau informacijos rasite sandėlio valdymo mobiliosios [programos konfigūravimas debesies ir briaunos skalės vienetams](cloud-edge-workload-setup-warehouse-app.md).
 >
-> Kai vykdote darbo krūvį skalės vienete, negalite vykdyti nepalaikomų procesų konkretaus sandėlio centre. Toliau šioje temoje pateiktos lentelės dokumentuoja palaikomas galimybes.
+> Kai vykdote darbo krūvį skalės vienete, negalite vykdyti nepalaikomų procesų konkretaus sandėlio centre. Lentelės, toliau šiame straipsnyje pateiktos kaip palaikomos galimybės.
 >
 > Pasirinktus sandėlio darbo tipus galima sukurti tiek centro, tiek skalės vienetuose, tačiau jie gali būti prižiūrimi tik juos sukūrusio centro arba skalės vieneto (diegimas, sukūręs duomenis).
 >

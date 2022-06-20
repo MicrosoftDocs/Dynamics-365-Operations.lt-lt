@@ -1,6 +1,6 @@
 ---
 title: Užsienio valiutos kurso pasikeitimas banko sąskaitoms
-description: Šioje temoje pateikiama informacija apie užsienio valiutos kurso pasikeitimą banko sąskaitoms.
+description: Šiame straipsnyje pateikiama informacija apie banko sąskaitų užsienio valiutos kurso pasikeitimą.
 author: panolte
 ms.date: 03/28/2018
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Czech Republic, Estonia, Latvia, Lithuania, Poland
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b5739869dde52ae81e725584e18008a4b6f30ee5f827aba8fc8ee8523fce1b39
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ea40312a848e6c757400ff5fb5448fb19781012f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723750"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894792"
 ---
 # <a name="foreign-currency-revaluation-for-bank-accounts"></a>Užsienio valiutos kurso pasikeitimas banko sąskaitoms
 

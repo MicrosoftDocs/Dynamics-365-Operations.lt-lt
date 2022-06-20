@@ -1,6 +1,6 @@
 ---
 title: Analizės darbo sritys
-description: Šioje temoje išvardytos pasiekiamos įdėtosios analizės darbo sritys ir nurodyti ištekliai, kur galima daugiau apie šias sritis sužinoti.
+description: Šiame straipsnyje išvardintos įdėtosios analitinės darbo sritys, kurios yra galimos, ir nurodo jums išteklius, kuriuose daugiau informacijos apie jas galite sužinoti.
 author: sericks007
 ms.date: 10/02/2019
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 64a960d4658fa38aa45c08c443d12202ebe8acae1cb6fa80113d0132fa226d70
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 03211aefeb1b2b9453379979f70eb547eafa8c3f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772063"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8867710"
 ---
 # <a name="analytical-workspaces"></a>Analizės darbo sritys
 [!include[banner](../includes/banner.md)]

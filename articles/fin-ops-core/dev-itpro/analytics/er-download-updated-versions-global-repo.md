@@ -1,6 +1,6 @@
 ---
 title: Atnaujintų ER konfigūracijų versijų naujinimas
-description: Šioje temoje paaiškinama, kaip importuoti elektroninių ataskaitų (ER) konfigūracijų atnaujintas versijas iš konfigūravimo tarnybos bendrosios saugyklos.
+description: Šiame straipsnyje paaiškinama, kaip importuoti atnaujintas elektroninių ataskaitų (ER) konfigūracijų versijas iš konfigūracijos tarnybos visuotinės saugyklos.
 author: NickSelin
 ms.date: 06/09/2020
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 712bccbd48775cadc069ef5e8a04f9aae3c9f223137bcd394ff1815a720393b5
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 69eaa3e2ecfbd1e92f23725d97d7fa9f0abe1cea
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6734893"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847552"
 ---
 # <a name="import-updated-versions-of-er-configurations"></a>Atnaujintų ER konfigūracijų versijų naujinimas
 
 [!include [banner](../includes/banner.md)]
 
-Elektroninių ataskaitų (ER) [saugyklos ](general-electronic-reporting.md#Repository) naudojamos norint bendrinti [ER konfigūracijas](general-electronic-reporting.md#Configuration). Galite [importuoti](download-electronic-reporting-configuration-lcs.md) ER konfigūracijas iš skirtingų saugyklų į jūsų „Microsoft Dynamics 365 Finance” programą. Importuojant ER konfigūracijas, [konfigūracijos teikėjai](general-electronic-reporting.md#Provider) gali publikuoti naujas [versijų](general-electronic-reporting.md#component-versioning) saugyklas, kad jas būtų galima bendrinti.
+Elektroninių ataskaitų (ER) [saugyklos ](general-electronic-reporting.md#Repository) naudojamos norint bendrinti [ER konfigūracijas](general-electronic-reporting.md#Configuration). Galite importuoti [ER](download-electronic-reporting-configuration-lcs.md) konfigūracijas iš skirtingų saugyklų į savo Microsoft Dynamics 365 finansų egzempliorių. Importuojant ER konfigūracijas, [konfigūracijos teikėjai](general-electronic-reporting.md#Provider) gali publikuoti naujas [versijų](general-electronic-reporting.md#component-versioning) saugyklas, kad jas būtų galima bendrinti.
 
-Šioje temoje paaiškinama, kaip importuoti ER konfigūracijų atnaujintas versijas iš konfigūravimo tarnybos bendrosios saugyklos. Norėdami gauti daugiau informacijos, žr. [„Microsoft Dynamics 365 for Finance and Operations“ – „Regulatory Services“, konfigūravimo tarnybą](/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration).
+Šiame straipsnyje paaiškinama, kaip importuoti atnaujintas ER konfigūracijų versijas iš konfigūracijos tarnybos visuotinės saugyklos. Norėdami gauti daugiau informacijos, žr. [„Microsoft Dynamics 365 for Finance and Operations“ – „Regulatory Services“, konfigūravimo tarnybą](/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration).
 
 ## <a name="review-the-available-updated-versions"></a>Galimų atnaujintų versijų peržiūra
 

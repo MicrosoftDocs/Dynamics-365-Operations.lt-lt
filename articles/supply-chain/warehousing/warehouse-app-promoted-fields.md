@@ -1,6 +1,6 @@
 ---
 title: Warehouse Management mobiliųjų įrenginių programėlės skatinamų laukų konfigūravimo žingsniai
-description: Šioje temoje aprašoma, kaip paskatinti ir paryškinti specifinę informaciją bet kokiam veiksmui užduočių srautuose Warehouse Management mobiliųjų įrenginių programėlėje.
+description: Šiame straipsnyje aprašoma, kaip skatina ir išryškina konkrečią informaciją apie bet kuriuos sandėlio valdymo mobiliosios programos užduočių eigos žingsnius.
 author: Mirzaab
 ms.date: 10/15/2021
 ms.topic: article
@@ -11,21 +11,21 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 0ce3fb829d349a35c6c2f29838a2c725f7b61c55
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.openlocfilehash: 5f5f24f47d0a2376be714f9208cd383cf3aacc07
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920328"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857060"
 ---
 # <a name="configure-promoted-fields-for-steps-in-the-warehouse-management-mobile-app"></a>Warehouse Management mobiliųjų įrenginių programėlės skatinamų laukų konfigūravimo žingsniai
 
 [!include [banner](../includes/banner.md)]
 
 > [!IMPORTANT]
-> Šioje temoje aprašomos funkcijos taikomos tik naujai „Warehouse Management“ „mobile app“. Jie neturi įtakos senai sandėlio programai, kuri dabar pasenusi.
+> Šiame straipsnyje aprašytos funkcijos taikomos tik naujai sandėlio valdymo mobiliąją programai. Jie neturi įtakos senai sandėlio programai, kuri dabar pasenusi.
 
-Šioje temoje aprašoma, kaip paskatinti ir paryškinti specifinę informaciją bet kokiam veiksmui užduočių srautuose Warehouse Management mobiliųjų įrenginių programėlėje. Ši galimybė gali padėti darbuotojams sutelkti dėmesį į svarbiausius laukus, kai jie dirba sraute. Kiekviename kiekvieno proceso etape administratoriai gali pasirinkti, kuriuos laukus skatinate ir kuriuos laukus žymėti.
+Šiame straipsnyje aprašoma, kaip skatina ir išryškina konkrečią informaciją apie bet kuriuos sandėlio valdymo mobiliosios programos užduočių eigos žingsnius. Ši galimybė gali padėti darbuotojams sutelkti dėmesį į svarbiausius laukus, kai jie dirba sraute. Kiekviename kiekvieno proceso etape administratoriai gali pasirinkti, kuriuos laukus skatinate ir kuriuos laukus žymėti.
 
 ## <a name="enable-promoted-fields-in-your-system"></a>Įjunkite skatinamuosius laukus savo sistemoje
 
@@ -44,7 +44,7 @@ Kad būtų galima nustatyti skatinamus laukus, turite atlikti toliau nurodytą p
     - **Modulis:** *Warehouse management*
     - **Priemonės pavadinimas:** *Warehouse programėlės skatinami laukai*
 
-    Ši funkcija yra šioje temoje aprašoma funkcija.
+    Ši funkcija yra šiame straipsnyje aprašyta funkcija.
 
 1. Warehouse Management mobiliojoje programėlėje atnaujinkite laukų pavadinimus eidami į **Warehouse Management \> Sąranka \> Mobilus įrenginys \> Warehouse programėlė** ir pasirinkite **Kurti numatytąjį nustatymą**. Daugiau informacijos rasite [Sandėlio valdymo mobiliųjų įrenginių programėlės laukų konfigūravimas](configure-app-field-names-priorities-warehouse.md).
 1. Pakartokite ankstesnį veiksmą su kiekvienu juridiniu subjektu (įmone), kuriame naudojate Warehouse Management mobiliąją programą.
@@ -56,7 +56,7 @@ Naudokite toliau nurodytą procedūrą, kad nustatytumėte skatinamus laukus.
 1. Sukurkite meniu specifinį atnaujinimą, skirtą atitinkamo meniu ir atlikite veiksmus, kaip aprašyta [Warehouse Management mobiliosios programos veiksmų pavadinimų ir instrukcijų pritaikymas](mobile-app-titles-instructions.md).
 1. Raskite veiksmo **Veiksmo ID** ir **Menu prekės pavadinimas** vertės, kurias norite redaguoti ir tada pasirinkite vertę **Veiksmo ID** stulpelyje.
 1. Pasirodžiusiame puslapyje **Pasirinkti skatinamus laukus** FastTab skirtuke pasirinkite **Pasirinkti laukus** įrankių juostoje.
-1. Dialogo lange **Skatinami laukai** pasirinkite laukus, kuriuos norite skatinti. Taip pat galite pažymėti iki dviejų pasirinktų laukų. Paryškinti laukai Warehouse Management mobiliųjų įrenginių programoje bus rodomi paryškinti. Kai pasirenkate laukus, apsvarstykite faktą, kad kai kurie ekranai gali būti pakankamai dideli, kad būtų rodomi tik vienas ar du pagrindiniai skatinami laukai. Pavyzdys, kuris rodo, kaip naudoti šiuos nustatymus, ieškokite scenarijaus toliau šioje temoje.
+1. Dialogo lange **Skatinami laukai** pasirinkite laukus, kuriuos norite skatinti. Taip pat galite pažymėti iki dviejų pasirinktų laukų. Paryškinti laukai Warehouse Management mobiliųjų įrenginių programoje bus rodomi paryškinti. Kai pasirenkate laukus, apsvarstykite faktą, kad kai kurie ekranai gali būti pakankamai dideli, kad būtų rodomi tik vienas ar du pagrindiniai skatinami laukai. Pvz., kuriame parodyta, kaip naudoti šiuos parametrus, žr. scenarijų toliau šiame straipsnyje.
 
     > [!NOTE]
     > **Galimų laukų** sąrašas ribojamas iki laukų, kurie gali būti rodomi meniu elementui. Tačiau kiti faktoriai (pvz., prekės sudėtis) lemia, ar laukas iš tikrųjų rodomas Warehouse Management mobilioje programoje. Jei sukonfigūravote skatinamus laukus, Warehouse Management mobiliosios programos pagrindiniame puslapyje bus rodomi tik pasirinkti laukai. Tačiau darbuotojai vis dar gali peržiūrėti likusius laukus pasispaudę ant informacijos puslapio.

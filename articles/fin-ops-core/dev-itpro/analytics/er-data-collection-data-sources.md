@@ -1,6 +1,6 @@
 ---
 title: DUOMENŲ RINKIMO duomenų šaltinių naudojimas elektroninių ataskaitų formatuose
-description: Šioje temoje paaiškinta, kaip DUOMENŲ RINKIMO duomenų šaltinius naudoti elektroninių ataskaitų (ER) formatuose.
+description: Šiame straipsnyje paaiškinama, kaip naudoti DUOMENŲ RINKIMO duomenų šaltinius elektroninių ataskaitų (ER) formatuose.
 author: NickSelin
 ms.date: 08/23/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2021-01-01
 ms.dyn365.ops.version: AX 10.0.16
-ms.openlocfilehash: 185fb9a33cb4cc655dfdf640b4c239d617426c64
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: 7591bed5d01ce2c2f434f0e7c81e441eda98483e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323906"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883852"
 ---
 # <a name="use-data-collection-data-sources-in-electronic-reporting-formats"></a>DUOMENŲ RINKIMO duomenų šaltinių naudojimas elektroninių ataskaitų formatuose
 
@@ -65,7 +65,7 @@ Norėdami daugiau sužinoti apie šią funkciją, atlikite toliau pateiktą pavy
 
 Šiame pavyzdyje parodoma, kaip sistemos administratoriaus arba elektroninių ataskaitų funkcijų konsultanto vaidmenį turintis vartotojas gali sukonfigūruoti ER formatą, kuriame būtų DUOMENŲ RINKIMO duomenų šaltinis, naudojamas bendrosioms sumoms skaičiuoti ir susumuotoms vertėms surinkti.
 
-Šio pavyzdžio procedūros gali būti atliktos naudojant „Microsoft Dynamics 365 Finance” USMF įmonę.
+Šiame pavyzdyje pateiktas procedūras galima atlikti JAV Microsoft Dynamics 365 finansų įmonėje.
 
 ### <a name="upload-and-use-the-provided-er-solution"></a>Pateikto ER sprendimo nusiuntimas ir naudojimas
 

@@ -1,6 +1,6 @@
 ---
 title: Darbo strategijos
-description: Šis skyrius paaiškina, kaip nustatyti darbo strategijas.
+description: Šiame straipsnyje paaiškinama, kaip nustatyti darbo strategijas.
 author: perlynne
 ms.date: 07/31/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-07-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 1d4ee3f1bffaf00c20758f6a3f399451d3122291
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 7637ef908ffa6e79f81e4ecfb8afac4e3e3fed26
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7571166"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855854"
 ---
 # <a name="work-policies"></a>Darbo strategijos
 
 [!include [banner](../includes/banner.md)]
 
-Šis skyrius paaiškina, kaip nustatyti sistemą ir sandėlio valdymo mobiliųjų įrenginių programėlę taip, kad jos palaikytų darbo strategijas. Galite naudoti šią funkciją, kad greitai priregistruotumėte inventorių be kūrimo atidedamo darbo kūrimo, kai gaunate įsigijimo ar perdavimo užsakymus arba kai pabaigiate gamybos procesus. Ši tema pateikia bendrą informaciją. Išsamesnę informaciją, susijusios su licencijos numerio gavimu, rasite [Numerio lentelės gavimas naudojant sandėlio valdymo mobiliųjų įrenginių programėlę](warehousing-mobile-device-app-license-plate-receiving.md).
+Šiame straipsnyje paaiškinama, kaip nustatyti sistemą ir sandėlio valdymo mobiliąją programą, kad jos palaikys darbo strategijas. Galite naudoti šią funkciją, kad greitai priregistruotumėte inventorių be kūrimo atidedamo darbo kūrimo, kai gaunate įsigijimo ar perdavimo užsakymus arba kai pabaigiate gamybos procesus. Šiame straipsnyje pateikiama bendroji informacija. Išsamesnę informaciją, susijusios su licencijos numerio gavimu, rasite [Numerio lentelės gavimas naudojant sandėlio valdymo mobiliųjų įrenginių programėlę](warehousing-mobile-device-app-license-plate-receiving.md).
 
 Darbo strategija valdo, ar sandėlio darbas yra kuriamas, kai ataskaitoje pagamintas elementas yra paskelbiamas baigtu, ar kai prekės yra gaunamos naudojant sandėlio valdymo mobiliųjų įrenginių programėlę. Jūs nustatote visas darbo strategijas nustatydami sąlygas, kai jos yra taikomos: darbo užsakymo tipai ir procesai, inventoriaus vieta ir (pasirinktinai) gaminiai. Pavyzdžiui, produkto įsigjimo užsakymas *A0001* turi būti gaunamas *RECV* vietoje sandėlyje *24*. Vėliau, produktas vartojamas kitame procese *RECV* vietoje. Šiuo atveju, galite nustatyti darbo strategiją siekiant apsaugoti atidedamą darbą nuo sukūrimo, kai darbuotojas praneša apie produktą *A0001* kaip gautą vietoje *RECV*.
 
@@ -35,7 +35,7 @@ Darbo strategija valdo, ar sandėlio darbas yra kuriamas, kai ataskaitoje pagami
 
 ## <a name="activate-the-features-in-your-system"></a>Įjungti funkcijas jūsų sistemoje
 
-Tam, kad visos šioje temoje aprašytus funkcijos būtų prieinamos jūsų sistemoje, įjunkite tolesnes dvi funkcijas [Funkcijų valdyme](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
+Norėdami, kad visos šiame straipsnyje aprašytos funkcijos būtų galimos jūsų sistemoje, įjunkite toliau nurodytas dvi funkcijų [valdymo funkcijas](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
 
 - Numerio lentelės gavimas patobulinimai
 - Gaunamo darbo strategijos patobulinimai

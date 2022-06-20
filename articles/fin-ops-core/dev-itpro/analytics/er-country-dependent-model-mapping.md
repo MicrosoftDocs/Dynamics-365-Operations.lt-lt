@@ -1,6 +1,6 @@
 ---
 title: Nuo šalies konteksto priklausančio ER modelio susiejimų konfigūravimas
-description: Šioje temoje aiškinama, kaip nustatyti ER modelio susiejimus, kad jie priklausytų nuo juridinio objekto, kuris valdo susiejimų naudojimą, šalies / regiono konteksto.
+description: Šiame straipsnyje paaiškinama, kaip nustatyti ER modelio susiejimus, kad jie priklausytų nuo juridinio subjekto, kuris valdo jų naudojimą, šalies / regiono konteksto.
 author: NickSelin
 ms.date: 11/11/2019
 ms.topic: article
@@ -15,22 +15,22 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.2
-ms.openlocfilehash: 5b26c605bd64b8d8e5a90f4389261e8e56825111
-ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
+ms.openlocfilehash: 771b14662638838ac1f39d85b19ac58a47352c79
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "7605376"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883881"
 ---
 # <a name="configure-country-context-dependent-er-model-mappings"></a>Nuo šalies konteksto priklausančio ER modelio susiejimų konfigūravimas
 
 [!include[banner](../includes/banner.md)]
 
-Galite konfigūruoti elektroninių ataskaitų (ER) modelio susiejimus, kad jie naudotų bendrąjį ER duomenų modelį, bet būtų būdingi „Dynamics 365 Finance“. Šioje temoje aiškinama, kaip sukurti ER duomenų modelio ER modelio susiejimus, kad jų naudojimas atitiktų atitinkamus ER formatus, kuriuos naudoja įmonės pagal skirtingus šalies / regiono kontekstus.
+Elektroninių ataskaitų (ER) modelių susiejimus galite konfigūruoti taip, kad jie įgyvendina bendrąjį ER duomenų modelį, bet būtų specifiniai "Dynamics 365" finansams. Šiame straipsnyje paaiškinama, kaip kurti kelis ER duomenų modelio susiejimus, siekiant kontroliuoti, kaip jie naudojami atitinkamų ER formatų, kurie yra paleisti iš įmonių, kurios turi skirtingus šalies / regiono kontekstus.
 
 ## <a name="prerequisites"></a>Būtinieji komponentai
 
-Norint įvykdyti šios temos pavyzdžių užduotis, reikia toliau nurodytų prieigų.
+Norėdami užbaigti pavyzdžius šiame straipsnyje, turite turėti šią prieigą:
 
 - Prieiga prie „Finance“ naudojant vieną iš tolesnių vaidmenų.
     - Elektroninės ataskaitos kūrėjas
@@ -42,11 +42,11 @@ Norint įvykdyti šios temos pavyzdžių užduotis, reikia toliau nurodytų prie
     - Elektroninės ataskaitos funkcijų konsultantas
     - Sistemos administratorius
 
-Norint atlikti kai kuriuos šios temos veiksmus, reikia įgyvendinti ER formatą. Kai kuriais atvejais ER formato įgyvendinimui turi įtakos įmonės, prie kurios šiuo metu esate prisijungę, šalies / regiono kontekstas. Galite paleisti ER formatą dabartiniame RCS egzemplioriuje, jei įmonė, kuriai reikia šalies / regiono konteksto, yra galima RCS. Kitu atveju, turite įkelti visą ER modelio susiejimo versiją ir ER formato konfigūracijas, kurios naudoja ER duomenų modelį jūsų „Finance“ egzemplioriuje, tada paleisti ER formatą „Finance“ egzemplioriuje. Informaciją, kaip importuoti konfigūracijas, kurios yra RCS, į „Finance“ egzempliorių, žr. [Konfigūracijų importavimas iš RCS](rcs-download-configurations.md).
+Kai kurie šio straipsnio veiksmai reikalauja ER formato vykdymo. Kai kuriais atvejais ER formato įgyvendinimui turi įtakos įmonės, prie kurios šiuo metu esate prisijungę, šalies / regiono kontekstas. Galite paleisti ER formatą dabartiniame RCS egzemplioriuje, jei įmonė, kuriai reikia šalies / regiono konteksto, yra galima RCS. Kitu atveju, turite įkelti visą ER modelio susiejimo versiją ir ER formato konfigūracijas, kurios naudoja ER duomenų modelį jūsų „Finance“ egzemplioriuje, tada paleisti ER formatą „Finance“ egzemplioriuje. Informaciją, kaip importuoti konfigūracijas, kurios yra RCS, į „Finance“ egzempliorių, žr. [Konfigūracijų importavimas iš RCS](rcs-download-configurations.md).
 
 ## <a name="single-model-mapping-case"></a>Vieno modelio susiejimo atvejis
 
-Atlikite šios temos [1 priedas](#appendix1) nurodytus veiksmus, kad sukurtumėte būtinus ER komponentus. Dabar turite modelio susiejimo konfigūraciją **Susiejimas (bendrasis)**, kuriame yra **1 įvesties taškas** modelio susiejimo apibrėžimas.
+Norėdami sukurti reikiamus [ER komponentus, atlikite šio straipsnio 1](#appendix1) priede nurodytus veiksmus. Dabar turite modelio susiejimo konfigūraciją **Susiejimas (bendrasis)**, kuriame yra **1 įvesties taškas** modelio susiejimo apibrėžimas.
 
 ![ER konfigūracijų puslapis, Formatas, skirtas susiejimų konfigūracijai sužinoti.](./media/RCS-Context-specific-mapping-Tree.PNG)
 
@@ -59,7 +59,7 @@ Atkreipkite dėmesį, kad žiniatinklio naršyklė siūlo atsisiųsti tekstinį 
 
 ## <a name="multiple-shared-model-mappings-case"></a>Kelių bendrinamų modelio susiejimų atvejis
 
-Atlikite šios temos [2 priedas](#appendix2) nurodytus veiksmus, kad sukurtumėte būtinus ER komponentus. Dabar turite modelio susiejimo konfigūracijas **Susiejimas (bendrasis)** ir **Pasirinktinis susiejimas (bendrasis)**, kurių kiekvienoje yra modelio susiejimas, skirtas **1 įvesties taškas** apibrėžimui.
+Norėdami sukurti reikiamus [ER komponentus, atlikite šio straipsnio 2](#appendix2) priede nurodytus veiksmus. Dabar turite modelio susiejimo konfigūracijas **Susiejimas (bendrasis)** ir **Pasirinktinis susiejimas (bendrasis)**, kurių kiekvienoje yra modelio susiejimas, skirtas **1 įvesties taškas** apibrėžimui.
 
 ![ER konfigūracijos puslapis, Susiejimo bendroji pasirinktinė konfigūracija.](./media/RCS-Context-specific-mapping-TreeCustom.PNG)
 
@@ -97,7 +97,7 @@ Atkreipkite dėmesį, kad pasirinktas ER formatas pavyko. Žiniatinklio naršykl
 
 ## <a name="multiple-mixed-model-mappings-case"></a>Kelių mišrių modelio susiejimų atvejis
 
-Atlikite veiksmus, nurodytus šios temos [3 priedas](#appendix3), kad sukurtumėte reikalingus ER komponentus. Dabar turite konfigūracijas **Susiejimas (bendrasis)**, **Pasirinktinis (bendrasis) susiejimas** ir **Modelio susiejimo susiejimas (ER)**, kuriose yra modelio susiejimas, skirtas **1 įvesties taškas** apibrėžimui.
+Norėdami sukurti reikiamus [ER komponentus, atlikite šio straipsnio 3](#appendix3) priede nurodytus veiksmus. Dabar turite konfigūracijas **Susiejimas (bendrasis)**, **Pasirinktinis (bendrasis) susiejimas** ir **Modelio susiejimo susiejimas (ER)**, kuriose yra modelio susiejimas, skirtas **1 įvesties taškas** apibrėžimui.
 
 Atkreipkite dėmesį, kad modelio susiejimo konfigūracijos **Susiejimas (FR)** 1 versija yra sukonfigūruota taip, kad ji būtų taikoma tik modelio **Modelis, skirtas sužinoti apie susiejimus**, kuris vykdomas „Finance“ įmonėse, kurioms būdingas Prancūzijos šalies / regiono kontekstas, ER formatams.
 
@@ -138,10 +138,10 @@ Atkreipkite dėmesį, kad pasirinktas ER formatas pavyko. Interneto naršyklė s
 
 Kaip jau matėte, modelio susiejimo pasirinkimas, norint vykdyti ER formatą, veikia toliau nurodytu būdu.
 
-- Modelio susiejimo aprašas, kurį naudoja ER formatas, yra nurodytas (šios temos **1 įvesties taškas** pavyzdžiuose).
-- Visos susiejimo konfigūracijos, kuriose yra susiejimas su nurodytu aprašu ir kuris tenkina bet kurį sukonfigūruotą šalies / regiono konteksto apribojimą, gali potencialiai būti naudojamos norint vykdyti ER formatą (**Susiejimas (bendrasis)**, **Pasirinktinis susiejimas (bendrasis)** ir **Susiejimas (FR)** pavyzdžiai, pateikti šioje temoje).
-- Bet kuris numatytasis susiejimas, kuris turi šalies / regiono konteksto apribojimą, turi aukščiausią pasirinkimo prioritetą (**Susiejimas (FR)** pavyzdžiai, pateikti šioje temoje).
-- Bet kuris numatytasis susiejimas, kuris neturi šalies / regiono konteksto apribojimo, turi kitą aukščiausią pasirinkimo prioritetą (**Pasirinktinis susiejimas (bendrasis)** pavyzdžiai, pateikti šioje temoje).
+- Nurodytas modelio susiejimo apibrėžimas, kurį naudoja ER formatas (**šio straipsnio pavyzdžių 1** įvesties taškas).
+- Visos susiejimo konfigūracijos, kuriose yra susiejimas, kuriame yra nurodytas apibrėžimas ir kurios atitinka visus sukonfigūruotus šalies / regiono konteksto apribojimus, gali būti naudojamos šio straipsnio pavyzdžiuose vykdant ER formatą (Susiejimas (**Bendra),** **susiejimas (bendras)** **pasirinktinis** ir susiejimas (FR).
+- Bet kurio numatytojo modelio susiejimo, kuriam taikomi šalies / regiono konteksto apribojimai, pasirinkimo prioritetas yra aukščiausias (**susiejimas (FR)** šio straipsnio pavyzdžiuose).
+- Bet kokiam numatytojo modelio susiejimui, kuriam netaikomi šalies / regiono konteksto apribojimai, kitas aukštesnis pasirinkimo prioritetas (susiejimas (**bendra),** pasirinktinis šio straipsnio pavyzdžiuose).
 - Bet kuris modelio susiejimas, kuri turi šalies / regiono konteksto apribojimus, turi aukštesnį pasirinkimo prioritetą, nei modelio susiejimas, kurie neturi šalies / regiono konteksto apribojimo.
 
 Toliau pateiktoje lentelėje pateikiama informacija apie modelio susiejimo pasirinkimą visiems galimiems atvejams pagal modelio susiejimo parametrus, rezultatai.

@@ -1,6 +1,6 @@
 ---
-title: Norėdami importuoti tiekėjo SF naudokite elektroninę SF išrašymo paslaugą
-description: Šioje temoje pateikiama informacija apie tai, kaip importuoti tiekėjo SF naudojantis elektroninių SF išrašymo tarnyba.
+title: Elektroninių SF išrašymo paslaugos naudojimas tiekėjo sąskaitoms faktūroms importuoti
+description: Šiame straipsnyje pateikiama informacija apie tai, kaip importuoti tiekėjo SF naudojantis elektroninių SF išrašymo paslauga.
 author: gionoder
 ms.date: 09/03/2021
 ms.topic: article
@@ -17,20 +17,20 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: c28adbfe532e77a52cab7625b9539d1e8e528bea
-ms.sourcegitcommit: 19f0e69a131e9e4ff680eac13efa51b04ad55a38
+ms.openlocfilehash: 2d239bbafad9292ba6cef5534e778a2824a9cc5a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/22/2022
-ms.locfileid: "7983828"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8865590"
 ---
-# <a name="use-the-electronic-invoicing-service-to-import-vendor-invoices"></a>Norėdami importuoti tiekėjo SF naudokite elektroninę SF išrašymo paslaugą
+# <a name="use-the-electronic-invoicing-service-to-import-vendor-invoices"></a>Elektroninių SF išrašymo paslaugos naudojimas tiekėjo sąskaitoms faktūroms importuoti
 
 [!include [banner](../includes/banner.md)]
 
 [!include [banner](../includes/preview-banner.md)]
 
-Šioje temoje pateikiama informacija, kuri padės jums pradėti importuojant tiekėjo sąskaitas su SF paslaugomis. Tai padės jums atlikti konfigūracijos veiksmus, aprašytus „Regulatory Configuration Services“ (RCS), ir kad turite gauti elektroninių tiekėjų „Dynamics 365 Finance“ bei „Dynamics 365 Supply Chain Management“ SF iš tiekėjų.
+Šiame straipsnyje pateikiama informacija, kuri padės jums pradėti importuoti tiekėjo SF naudojantis elektroninių SF išrašymo tarnyba. Tai padės jums atlikti konfigūravimo tarnybose (RCS), "Dynamics 365 Finance Dynamics 365 Supply Chain Management " ir elektroninių tiekėjų SF iš tiekėjų gavimo veiksmus.
 
 ## <a name="set-up-vendor-invoice-import-in-rcs"></a>Tiekėjo SF importavimo į RCS nustatymai
 Norėdami nustatyti tiekėjo SF importavimą RCS, atlikite šiuos veiksmus:
@@ -57,7 +57,7 @@ Konfigūruokite el. pašto sąskaitos kanalą, jei jūsų sukurta elektroninių 
     - Įrašyta sėkmingai apdorojant: **archyvo aplankas**
     - Įrašyta po sėkmingo apdorojimo: Jums nereikia **klaidų aplanko** kurti šių aplankų pašto lauke. Aplankai sukuriami automatiškai po pirmo el. SF importo ir apdorojimo. 
    
-10. Priedų **filtro laukų grupėje** pridėkite failų filtravimo informaciją. Apdorojami tik priedai, kurie atitinka nurodytą filtrą. Pavyzdžiui, galite nustatyti priedų \*.xml" su xml plėtiniu. Priedo pavadinimas naudojamas nustatymo metu „Dynamics 365 Finance“ arba „Dynamics 365 Supply Chain Management“ jo metu. 
+10. Priedų **filtro laukų grupėje** pridėkite failų filtravimo informaciją. Apdorojami tik priedai, kurie atitinka nurodytą filtrą. Pavyzdžiui, galite nustatyti priedų \*.xml" su xml plėtiniu. Priedo pavadinimas naudojamas "Dynamics 365 Finance" arba Dynamics 365 Supply Chain Management nustatymo metu. 
 11. Jei reikia skirtuke **Taikymo taisyklės** peržiūrėkite ir atnaujinkite kriterijus. Laukas **Kanalas** turi būti lygus anksčiau **pateiktame duomenų** kanale. Daugiau informacijos žr. [Taikomumo taisyklės](e-invoicing-configuration-rcs.md#applicability-rules).
 12. Pasirinkite **Išsaugoti** ir uždarykite puslapį.
 

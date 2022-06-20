@@ -1,6 +1,6 @@
 ---
-title: Prenumeratos mokesčio operacijų kūrimas
-description: Šioje temoje aprašoma, kaip kurti prenumeratos mokesčio operacijas.
+title: Kurti abonementinio mokesčio operacijas
+description: Šiame straipsnyje aprašoma, kaip sukurti abonementinio mokesčio operacijas.
 author: sorenva
 ms.date: 05/01/2018
 ms.topic: article
@@ -15,14 +15,14 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f72791062de16302dee8add06a58ca46b91a62fc
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
-ms.translationtype: MT
+ms.openlocfilehash: 5f87bd7bd1553f66a6c5c6b563595404961d82ea
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677792"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8844255"
 ---
-# <a name="create-subscription-fee-transactions"></a>Prenumeratos mokesčio operacijų kūrimas 
+# <a name="create-subscription-fee-transactions"></a>Kurti abonementinio mokesčio operacijas 
 
 [!include [banner](../includes/banner.md)]
 

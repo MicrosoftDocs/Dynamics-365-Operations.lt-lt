@@ -1,6 +1,6 @@
 ---
 title: „Dynamics 365 Supply Chain Management“ peržiūra 10.0.27 (2022 m. liepa)
-description: Šioje temoje aprašomos naujos ir pakeistos „Microsoft Dynamics 365 Supply Chain Management“ 10.0.27 funkcijos.
+description: Šiame straipsnyje aprašomos priemonės, kurios yra naujos arba pakeistos programoje Microsoft Dynamics 365 Supply Chain Management 10.0.27.
 author: kamaybac
 ms.date: 04/22/2022
 ms.topic: article
@@ -10,19 +10,19 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-04-22
 ms.dyn365.ops.version: 10.0.27
-ms.openlocfilehash: 77c79c88b08844bf7e399a762bb9eb9746ffb71a
-ms.sourcegitcommit: 611202adaa080250636efabb3b3b32b850d92d04
-ms.translationtype: MT
+ms.openlocfilehash: a91f2cdae0fed75f07d6cae86d24aeedfca80e94
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/28/2022
-ms.locfileid: "8812950"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8844502"
 ---
 # <a name="preview-of-dynamics-365-supply-chain-management-10027-july-2022"></a>„Dynamics 365 Supply Chain Management“ peržiūra 10.0.27 (2022 m. liepa)
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-Šioje temoje pateikiamos priemonės, kurios yra naujos arba pakeistos Microsoft Dynamics 365 Supply Chain Management preview versijoje 10.0.27. Ši versija turi versijos 10.0.1227 versiją ir yra pasiekiama šiame grafike:
+Šiame straipsnyje pateikiamos priemonės, kurios yra naujos arba pakeistos "Microsoft Dynamics 365 Supply Chain Management preview" versijoje 10.0.27. Ši versija turi versijos 10.0.1227 versiją ir yra pasiekiama šiame grafike:
 
 - **Vertinimo versijos leidimas:** 2022 m. balandžio mėn.
 - **Bendras leidimo pasiekiamumas (savaiminis naujinimas):** 2022 m. birželis
@@ -30,11 +30,11 @@ ms.locfileid: "8812950"
 
 ## <a name="features-included-in-this-release"></a>Funkcijos, įtrauktos į šį leidimą
 
-Tolesnėje lentelėje pateiktos funkcijos, kuri yra šiame leidime. Mes galime atnaujinti šią temą, kad būtų įtrauktos funkcijos, kurios buvo įtrauktos į versiją iš pradžių publikuous šią temą.
+Tolesnėje lentelėje pateiktos funkcijos, kuri yra šiame leidime. Mes galime atnaujinti šį straipsnį, kad būtų įtrauktos funkcijos, kurios buvo įtrauktos į versiją iš pradžių publikuous šį straipsnį.
 
 | Funkcijos sritis | Funkcija | Daugiau informacijos | Įjungė   |
 |---|---|---|---|
-| Atsargos ir logistika | [Atsargų paskirstymas pagal atsargų matomumo priedą](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/inventory-allocation-inventory-visibility-add-in) | [Atsargų matomumo atsargų paskirstymas](../inventory/inventory-visibility-allocation.md) | Įgalinta pagal numatytuosius nustatymus |
+| Atsargos ir logistika | [Atsargų paskirstymas pagal atsargų matomumo priedą](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/inventory-allocation-inventory-visibility-add-in) | [„Inventory Visibility“ atsargų paskirstymas](../inventory/inventory-visibility-allocation.md) | Įgalinta pagal numatytuosius nustatymus |
 | Gamyba | Gamybos vietos vykdymo sąsajos rodinys „Mano diena“ | [Kaip darbuotojai naudoja gamybos laiko vykdymo sąsają](../production-control/production-floor-execution-use.md) ir [rodyti atostogų balansus gamybos laiko vykdymo sąsajoje](../production-control/production-floor-execution-payroll-stats.md) | Priemonių valdymas:<br>*Gamybos vietos vykdymo sąsajos rodinys „Mano diena“* |
 | Planuojama | [Subrangos planavimo optimizavimo palaikymas](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/planning-optimization-support-subcontracting) | [Gamybos subrangos darbų valdymas](../production-control/manage-subcontract-work-production.md) | Įgalinta pagal numatytuosius nustatymus |
 
@@ -56,9 +56,9 @@ Jei norite įjungti arba išjungti bet kurią iš šių priemonių, tai turite a
 
 ## <a name="new-and-updated-documentation-resources"></a>Nauji ir naujinti dokumentų šaltiniai
 
-Neseniai įtraukėme arba pastebimai atnaujinome šias žinyno temas. Šios temos nebūtinai susijusios su naujomis funkcijomis, kurios buvo pridėtos prie šio leidimo, kaip išvardyta ankstesniuose skyriuose. Tačiau jos gali padėti gauti daugiau informacijos apie esamas funkcijas.
+Neseniai įtraukėme arba pastebimai atnaujinome šiuos žinyno straipsnius. Šie straipsniai nebūtinai susiję su naujomis funkcijomis, kurios buvo pridėtos prie šio leidimo, kaip išvardyta ankstesniuose skyriuose. Tačiau jos gali padėti gauti daugiau informacijos apie esamas funkcijas.
 
-| Funkcijos sritis | Naujos arba atnaujintos temos |
+| Funkcijos sritis | Nauji arba atnaujinti straipsniai |
 |---|---|
 | Kaštų valdymas | [Svertinio vidurkio data su faktinės vertės įtraukimu ir žymėjimu](../cost-management/weighted-average-date.md) |
 | Paskirstyta taip pat topologija | [Išbandykite skalės vienetus paskirstytoje hibridinėje topologijoje](../cloud-edge/cloud-edge-try-out.md) |
@@ -83,12 +83,12 @@ Patikrinkite ["Dynamics 365" ir pramonės debesys: 2022 išleidimo bangos 1 plan
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>Pašalintos ir pasenusios „Supply Chain Management“ funkcijos
 
-Temoje [Pašalintos arba pasenusios funkcijos „Dynamics 365 Supply Chain Management“](removed-deprecated-features-scm-updates.md) aprašomos „Supply Chain Management“ funkcijos, kurios yra pašalintos, yra suplanuotos pašalinti arba yra pasenusios.
+Straipsnyje [pašalintos arba pasenusios Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) funkcijos aprašomos priemonės, kurios buvo arba yra suplanuotos pašalinti arba pasenusios tiekimo grandinės valdymui.
 
 - *Pašalinta* funkcija nebėra įtraukta į produktą.
 - *Nebenaudojama* funkcija nebėra aktyviai tobulinama ir gali būti pašalinta iš būsimo naujinio.
 
-Prieš pašalinant iš produkto bet kokią funkciją, pranešimas apie nebenaudojimą bus paskelbtas [Pašalintos arba pasenusios funkcijos „Dynamics 365 Supply Chain Management“](removed-deprecated-features-scm-updates.md) temoje 12 mėnesių prieš pašalinimą.
+Prieš pašalinant bet kokią priemonę iš produkto, [Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) pranešimai dėl nušalinimo bus pereiti prie pašalintų arba pasenusių funkcijų 12 mėnesių prieš pašalinimą.
 
 Atlikus keitimus, kurie paveikia tik kompiliavimo laiką, bet yra dvejetainiškai suderinami su smėlio dėžės ir gamybos aplinka, nebenaudojimo laikas bus trumpesnis nei 12 mėnesių. Paprastai, tai yra funkciniai naujinimai, kuriuos reikia atlikti kompiliatoriui.
 

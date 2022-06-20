@@ -1,6 +1,6 @@
 ---
-title: Sukonfigūruokite „BOPIS“ esantį „Dynamics 365 Commerce“ vertinimo aplinkoje
-description: Šioje temoje paaiškinama, kaip konfigūruoti „pirkimas internetu, atsiėmimas parduotuvėje“ (BOPIS) „Microsoft Dynamics 365 Commerce” vertinimo aplinkoje po to, kai ji parengta.
+title: BOPIS konfigūravimas „Dynamics 365 Commerce“ vertinimo aplinkoje
+description: Šiame straipsnyje paaiškinama, kaip konfigūruoti pirkti internete, paimti parduotuvės (BOPIS) Microsoft Dynamics 365 Commerce vertinimo aplinkoje po to, kai ji konfigūruota.
 author: BrianShook
 ms.date: 07/16/2020
 ms.topic: article
@@ -14,30 +14,30 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2020-04-20
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 1e0aabec196aa1ffd2e4d2f2691c03cf11326ee8
-ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
-ms.translationtype: MT
+ms.openlocfilehash: 379537fd490be98497b6e7c5cdfbc33798fe28ad
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7779799"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861971"
 ---
 # <a name="configure-bopis-in-a-dynamics-365-commerce-evaluation-environment"></a>BOPIS konfigūravimas „Dynamics 365 Commerce“ vertinimo aplinkoje
 
 [!include [banner](includes/banner.md)]
 
-Šioje temoje paaiškinama, kaip konfigūruoti „pirkimas internetu, atsiėmimas parduotuvėje“ (BOPIS) „Microsoft Dynamics 365 Commerce” vertinimo aplinkoje po to, kai aplinka parengta.
+Šiame straipsnyje paaiškinama, kaip sukonfigūruoti pirkti internete, paimti parduotuvėje (BOPIS) Microsoft Dynamics 365 Commerce vertinimo aplinkoje po to, kai aplinka konfigūruota.
 
 ## <a name="prerequisite"></a>Būtinoji sąlyga
 
-Pabaikite šio skyriaus procedūras po to, kai jūsų Komercijos vertinimo aplinka buvo parengta ir sukonfigūruota. Dėl informacijos, kaip parengti ir konfigūruoti savo aplinką, žr. [Parengti „Dynamics 365 Commerce“ vertinimo aplinką](provisioning-guide.md) ir [Konfigūruoti „Dynamics 365 Commerce“ vertinimo aplinką](./cpe-post-provisioning.md).
+Atlikite šiame straipsnyje nurodytas procedūras tik tada, kai sukonfigūruokite ir sukonfigūruokite savo komercijos vertinimo aplinką. Dėl informacijos, kaip parengti ir konfigūruoti savo aplinką, žr. [Parengti „Dynamics 365 Commerce“ vertinimo aplinką](provisioning-guide.md) ir [Konfigūruoti „Dynamics 365 Commerce“ vertinimo aplinką](./cpe-post-provisioning.md).
 
-Po to, kai jūsų „Commerce” aplinka visapusiškai parengta ir sukonfigūruota, galite pasinaudoti šia tema, kad įgalintumėte BOPIS scenarijus.
+Kai "Commerce" aplinka sukonfigūruota ir sukonfigūruota baigtis, galite naudoti šį straipsnį, kad įgalintumėte BOPIS scenarijus.
 
 ## <a name="configure-the-pos"></a>EKA konfigūravimas
 
 ### <a name="configure-modern-pos"></a>„Modern POS” konfigūravimas
 
-BOPIS scenarijams, apimantiems mokėjimą kredito kortele, reikia aparatūros stoties. Aparatūros stotis yra įmontuota į „Windows“ ir „Android“ klientų „Modern POS“. Jei naudojate „Cloud POS“ arba „Modern POS“, skirtas „iOS“, elektroninio kasos aparato (EKA) klientas turi būti susietas su bendrai naudojama aparatūros stotimi. Šioje temoje paaiškinama, kaip sukonfigūruoti BOPIS, skirtą „Windows” ir „Android” klientams. Informacijos apie tai, kaip nustatyti bendrai naudojamą aparatūros stotį, žr. [Mažmeninės prekybos aparatūros stoties konfigūracija ir diegimas](./retail-hardware-station-configuration-installation.md).
+BOPIS scenarijams, apimantiems mokėjimą kredito kortele, reikia aparatūros stoties. Aparatūros stotis yra įmontuota į „Windows“ ir „Android“ klientų „Modern POS“. Jei naudojate „Cloud POS“ arba „Modern POS“, skirtas „iOS“, elektroninio kasos aparato (EKA) klientas turi būti susietas su bendrai naudojama aparatūros stotimi. Šiame straipsnyje paaiškinama, kaip konfigūruoti BOPIS "Windows" ir klientams Android. Informacijos apie tai, kaip nustatyti bendrai naudojamą aparatūros stotį, žr. [Mažmeninės prekybos aparatūros stoties konfigūracija ir diegimas](./retail-hardware-station-configuration-installation.md).
 
 1. Pasirinkite **Mažmeninė prekyba ir prekyba \> Kanalo sąranka \> EKA sąranka \> Registrai**.
 2. Pasirinkite registrą **SANFRAN-5**, tada pasirinkite **Redaguoti**.
@@ -67,7 +67,7 @@ BOPIS scenarijams, apimantiems mokėjimą kredito kortele, reikia aparatūros st
 5. Pasirodo autentifikavimo dialogo langas. Pasirinkite sąskaitą, kuri naudoja el. pašto adresą, anksčiau susietą su darbuotoju **000713 - Andrew Collette**.
 
     > [!NOTE]
-    > Jei dar nesusiejote darbuotojo su jūsų tapatybe, aktyvinimas bus nesėkmingas. Tuo atveju, atlikite žingsnius „Su jūsų tapatumu susijęs darbuotojas“ skyriuje [Konfigūruoti „Dynamics 365 Commerce“ vertinimo aplinką](cpe-post-provisioning.md#associate-a-worker-with-your-identity) temoje.
+    > Jei dar nesusiejote darbuotojo su jūsų tapatybe, aktyvinimas bus nesėkmingas. Tokiu atveju atlikite vertinimo aplinkos straipsnio [Dynamics 365 Commerce konfigūravimo skyriuje Susieti darbuotoją su savo tapatybe](cpe-post-provisioning.md#associate-a-worker-with-your-identity) nurodytus veiksmus.
     
 6. Kai būsite paraginti leisti jūsų organizacijai valdyti įrenginį, pasirinkite **Tik šią programą**.
 7. Kai aktyvinimas baigtas, pasirinkite **Pradžia**.

@@ -1,6 +1,6 @@
 ---
 title: „Dynamics 365 Commerce“ svetainės susiejimas su interneto kanalu
-description: Šioje temoje paaiškinama, kaip savo „Microsoft Dynamics 365 Commerce“ svetainę susieti su viena ar keliomis internetinėmis parduotuvėmis.
+description: Šiame straipsnyje paaiškinama, kaip susieti savo svetainę su Microsoft Dynamics 365 Commerce viena ar daugiau interneto parduotuvių.
 author: bicyclingfool
 ms.date: 07/02/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: global
 ms.author: stuharg
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 60ead45e6e2b7fea8f04371310ff4315205e11f6e0968e5f8bbc6a29c5f26e18
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 006c8b60791e0176c808762025f3bfdeaff9c48d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737658"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878678"
 ---
 # <a name="associate-a-dynamics-365-commerce-site-with-an-online-channel"></a>„Dynamics 365 Commerce“ svetainės susiejimas su interneto kanalu
 
 [!include [banner](includes/banner.md)]
 
-Šioje temoje paaiškinama, kaip savo „Microsoft Dynamics 365 Commerce“ svetainę susieti su viena ar keliomis internetinėmis parduotuvėmis. 
+Šiame straipsnyje paaiškinama, kaip susieti savo svetainę su Microsoft Dynamics 365 Commerce viena ar daugiau interneto parduotuvių. 
 
 Jums suteikus jūsų „Dynamics 365 Commerce“ e-komercijos aplinką naudojant „Microsoft Dynamics  Lifecycle Services“ (LCS) portalą, jau būsite pasirengę įrengti jūsų pirmą e-komercijos interneto svetainę. Pirminio svetainės kūrimo metu svetainė susiejama su anksčiau sukurta internetine parduotuve. Šiuo veiksmu svetainė susiejama su internetiniu kanalu ir svetainėje galima rodyti naršymo hierarchiją, produktus, kategorijas, kainas, siuntimo parinktis bei visa kita, ką nustatėte internetinėje parduotuvėje.
 

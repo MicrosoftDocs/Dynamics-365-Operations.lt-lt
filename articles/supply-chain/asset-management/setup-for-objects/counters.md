@@ -1,6 +1,6 @@
 ---
 title: Turto matai
-description: Šioje temoje paaiškinta, kaip kurti turto matus turto valdyme.
+description: Šiame straipsnyje paaiškinama, kaip kurti turto valdymo turto matų tipus.
 author: johanhoffmann
 ms.date: 10/15/2019
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: fc515615afaa172e1832508d79e202b166f134a9171a0a35ea4f372f9d19b7e2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1bcef89265697c1898b7d61a0b0ae6331ce1c851
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723580"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909678"
 ---
 # <a name="counters"></a>Skaitikliai
 
 [!include [banner](../../includes/banner.md)]
 
-Šioje temoje paaiškinta, kaip kurti skaitiklio tipus turto valdyme. Skaitiklio tipai naudojami norint atlikti turto skaitiklių registracijas, pvz., gamybos valandų skaičių arba pagaminto turto kiekį. Turto tipai yra susiję su skaitiklio tipais. Tai reiškia, kad skaitiklis gali būti naudojamas turtui tik tuo atveju, jei skaitiklis yra nustatytas naudojamam turto tipui.
+Šiame straipsnyje paaiškinama, kaip kurti skaitiklio tipus turto valdymo dalyje. Skaitiklio tipai naudojami norint atlikti turto skaitiklių registracijas, pvz., gamybos valandų skaičių arba pagaminto turto kiekį. Turto tipai yra susiję su skaitiklio tipais. Tai reiškia, kad skaitiklis gali būti naudojamas turtui tik tuo atveju, jei skaitiklis yra nustatytas naudojamam turto tipui.
 
 Prieš atliekant turto skaitiklio registracijas, būtina sukurti skaitiklio tipus, kuriuos norite naudoti **Skaitikliai**. Tada **Skaitikliai** galima kurti skaitiklio registracijas. 
 

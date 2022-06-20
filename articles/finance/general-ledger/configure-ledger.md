@@ -1,6 +1,6 @@
 ---
 title: Didžiųjų knygų konfigūravimas
-description: Šioje temoje pateikiama informacija apie tai, kaip konfigūruoti kiekvieno juridinio subjekto didžiąsias knygas. Joje pateikiama informacijos apie tai, kaip pasirinkti valiutas, finansinius kalendorius, sąskaitų planą ir sąskaitų struktūras, kurios turėtų būti naudojamos su kiekvienu juridiniu subjektu.
+description: Šiame straipsnyje pateikiama informacija apie tai, kaip konfigūruoti kiekvieno juridinio subjekto DK. Joje pateikiama informacijos apie tai, kaip pasirinkti valiutas, finansinius kalendorius, sąskaitų planą ir sąskaitų struktūras, kurios turėtų būti naudojamos su kiekvienu juridiniu subjektu.
 author: kweekley
 ms.date: 09/24/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-09
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 38c4364c47915cc0019cb6b3d471d3e60d413bf0
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: d15980b05cfac68f2e2441c86b4506c13b38b4d5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8711554"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8864345"
 ---
 # <a name="configure-ledgers"></a>Didžiųjų knygų konfigūravimas
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje pateikiama informacija apie tai, kaip konfigūruoti kiekvieno juridinio subjekto didžiąsias knygas. Joje pateikiama informacijos apie tai, kaip pasirinkti valiutas, finansinius kalendorius, sąskaitų planą ir sąskaitų struktūras, kurios turėtų būti naudojamos su kiekvienu juridiniu subjektu.
+Šiame straipsnyje pateikiama informacija apie tai, kaip konfigūruoti kiekvieno juridinio subjekto DK. Joje pateikiama informacijos apie tai, kaip pasirinkti valiutas, finansinius kalendorius, sąskaitų planą ir sąskaitų struktūras, kurios turėtų būti naudojamos su kiekvienu juridiniu subjektu.
 
 ## <a name="selecting-the-chart-of-accounts"></a>Sąskaitų plano pasirinkimas
 

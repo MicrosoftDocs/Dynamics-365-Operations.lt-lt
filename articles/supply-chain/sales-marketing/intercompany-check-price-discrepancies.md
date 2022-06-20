@@ -1,6 +1,6 @@
 ---
 title: Tikrinti vidinės įmonės užsakymo kainų nesutapimus
-description: Šioje temoje paaiškinama, kaip tikrinti vidinės įmonės užsakymo kainų nesutapimų
+description: Šiame straipsnyje paaiškinama, kaip patikrinti vidinės įmonės užsakymo kainų nesutapimų
 author: Henrikan
 ms.date: 09/01/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2021-09-01
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 3167077e653f2316f5ce54c2a07ef9c2978ecebb
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: ca27e86545ba8179c595e55487dbbf49cd9ec528
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8678324"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890689"
 ---
 # <a name="check-intercompany-order-price-discrepancies"></a>Tikrinti vidinės įmonės užsakymo kainų nesutapimus
 

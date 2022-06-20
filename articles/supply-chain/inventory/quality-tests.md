@@ -1,6 +1,6 @@
 ---
 title: Kokybės valdymo bandymai
-description: Šioje temoje aprašoma, kaip sukurti bandymus, kuriuos galima naudoti kokybės užsakymų „Microsoft Dynamics 365 Supply Chain Management“ bandymams.
+description: Šiame straipsnyje aprašoma, kaip kurti bandymus, kuriuos galima naudoti "Microsoft" kokybės užsakymams Dynamics 365 Supply Chain Management.
 author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2020-06-17
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c10b67f86fc29b5e8c08081a9b789d4f42c24cf4
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: ac67ee97a4890c646daefa6b09feae25c4f15d0d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7573854"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857611"
 ---
 # <a name="quality-management-tests"></a>Kokybės valdymo bandymai
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje aprašoma, kaip sukurti bandymus, kuriuos galima naudoti kokybės užsakymų „Microsoft Dynamics 365 Supply Chain Management“ bandymams.
+Šiame straipsnyje aprašoma, kaip kurti bandymus, kuriuos galima naudoti "Microsoft" kokybės užsakymams Dynamics 365 Supply Chain Management.
 
 Naudokite **Bandymų** puslapį atskiriems tikrinimams, kuriais nustatoma, ar produktai atitinka kokybės reikalavimus, nustatyti ir peržiūrėti. Bandymų grupei galite priskirti vieną arba kelis atskirus bandymus. Šiuo atveju taip pat nurodote konkretaus bandymo informaciją, pvz., priimtinas matavimo reikšmes. Matavimo vertės naudojamos kiekybės bandymams. Kokybinių bandymų metu naudojami bandymo kintamieji.
 

@@ -1,6 +1,6 @@
 ---
 title: PVM / GST schemos atvirkštinio apmokestinimo mechanizmas
-description: Šioje temoje paaiškinama, kaip nustatyti atvirkštinio mokesčio pridėtinės vertės mokestį (PVM) Europos šalyse ir Saudo Arabijoje.
+description: Šiame straipsnyje paaiškinama, kaip nustatyti atvirkštinį PVM pridėtinės vertės mokestį (PVM) Europos šalims, Saudo Arabijai ir Singapūrui.
 author: epodkolz
 ms.date: 10/05/2020
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: epodkolz
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 326a74d0f962cf0455033b04950ded7ca26bfc77
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.openlocfilehash: 4176f8e853b7d7c2acc1044cab33371202f10c4a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7594722"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861265"
 ---
 # <a name="reverse-charge-mechanism-for-vatgst-scheme"></a>PVM / GST schemos atvirkštinio apmokestinimo mechanizmas
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje aprašomas bendras metodas, kaip nustatyti atvirkštinio apmokestinimo funkcijas, taikomas šalims / regionams, kur naudojamos PVM ar GST schemos.
+Šiame straipsnyje aprašomas bendras būdas nustatyti atvirkštinio mokesčio funkciją šalims / regionams, kurie nustato PVM ar GST planus.
                                                                                  
 Šios funkcijos šalies / regiono prieinamumas valdomas naudojant tolesnes darbo srities **Funkcijų valdymas** funkcijas.
 
@@ -33,7 +33,7 @@ ms.locfileid: "7594722"
 | Atvirkštinis apmokestinimas papildomose šalyse            | Bahreinas  </br>Kuveitas  </br>Omanas  </br>Kataras                                                                                                                                                                                                                                                                                                                                                                                                                         |
 | PVM / GST schemos atvirkštinio apmokestinimo mechanizmo įjungimas | Visos kitos šalys / regionai, išskyrus:  </br>Brazilija  </br>Indija  </br>Rusija                                                                                                                                                                                                                                                                                                                                                                                         |
  
- Norėdami gauti daugiau informacijos, žr. toliau šioje temoje esantį skyrių [Funkcijos PVM / GST schemos atvirkštinio apmokestinimo mechanizmas įjungimas](#enable-reverse-charge).
+ Norėdami gauti daugiau informacijos, toliau šiame [straipsnyje žr. skyrių Įgalinti PVM / GST](#enable-reverse-charge) schemos priemonių atvirkštinio apmokestinimo mechanizmą.
 
 Atvirkštinis apmokestinimas yra mokesčio schema, kuri atsakomybę už apskaitą ir PVM ataskaitas perkelia nuo pardavėjo prekių ir (arba) paslaugų pirkėjui. Todėl savo PVM išraše prekių ir (arba) paslaugų gavėjai praneša ir mokėtiną PVM (atlikdami pardavėjo vaidmenį), ir gautiną PVM (atlikdami pirkėjo vaidmenį).
 

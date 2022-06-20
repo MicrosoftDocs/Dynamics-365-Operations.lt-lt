@@ -1,6 +1,6 @@
 ---
 title: „Warehouse Management“ mobiliųjų įrenginių programėlės veiksmų pavadinimų ir instrukcijų tinkinimas
-description: Šioje temoje aprašoma, kaip sukurti ir rodyti pasirinktines kiekvieno užduočių srauto, kurį nustatėte „Warehouse Management“ „mobile app“ veiksmui, instrukcijas.
+description: Šiame straipsnyje aprašoma, kaip sukurti ir rodyti pasirinktines instrukcijas kiekvienam kiekvieno užduočių srauto, kurį nustatote sandėlio valdymo mobiliai programai, žingsniui.
 author: Mirzaab
 ms.date: 08/11/2021
 ms.topic: article
@@ -11,19 +11,19 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-08-11
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: ffd433427b2c5011740a7ee54c93713689945df3
-ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
+ms.openlocfilehash: 289a3735133919ae7dbad05c40ba9ccf0e8f57ca
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7902252"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895502"
 ---
 # <a name="customize-step-titles-and-instructions-for-the-warehouse-management-mobile-app"></a>„Warehouse Management“ mobiliųjų įrenginių programėlės veiksmų pavadinimų ir instrukcijų tinkinimas
 
 > [!IMPORTANT]
-> Šioje temoje aprašomos funkcijos taikomos tik naujai „Warehouse Management“ „mobile app“. Jie neturi įtakos senai sandėlio programai, kuri dabar pasenusi.
+> Šiame straipsnyje aprašytos funkcijos taikomos tik naujai sandėlio valdymo mobiliąją programai. Jie neturi įtakos senai sandėlio programai, kuri dabar pasenusi.
 
-Šioje temoje aprašoma, kaip sukurti ir rodyti pasirinktines kiekvieno užduočių srauto, kurį nustatėte „Warehouse Management“ „mobile app“ veiksmui, instrukcijas. Sandėlio darbuotojams tinkamai parašius instrukcijas, jie gali nedelsdami pradėti naudoti naujus srautus nenaudodami ankstesnio mokymo. Ši funkcija suteikia šiuos patobulinimus:
+Šiame straipsnyje aprašoma, kaip sukurti ir rodyti pasirinktines instrukcijas kiekvienam kiekvieno užduočių srauto, kurį nustatote sandėlio valdymo mobiliai programai, žingsniui. Sandėlio darbuotojams tinkamai parašius instrukcijas, jie gali nedelsdami pradėti naudoti naujus srautus nenaudodami ankstesnio mokymo. Ši funkcija suteikia šiuos patobulinimus:
 
 - **Greičiau įsekite darbuotojus paleisdami juos pagal paprastas kiekvieno užduoties veiksmo instrukcijas.** Kiekvienas srauto veiksmas pateikia instrukcijas, kurios įgalina priekinių eilučių darbuotojus suprasti užduotį.
 - **Pateikite instrukcijas, kurios atitinka jūsų procesus.** Parašykite savo instrukcijas, kad jos atitiktų jūsų verslo ir sandėlio procesus. Pavyzdžiui, terminologija tinka jūsų fizinei vietai ir vietinėms santrumpoms.

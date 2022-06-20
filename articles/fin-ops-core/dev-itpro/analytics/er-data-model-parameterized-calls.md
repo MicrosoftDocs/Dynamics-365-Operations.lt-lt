@@ -1,6 +1,6 @@
 ---
-title: Palaiko parametruotus ER duomenų modelių skambučius
-description: Šioje temoje paaiškinama, kaip įdiegti parametruotus elektroninių ataskaitų (ER) duomenų modelių skambučius.
+title: ER duomenų modelių parametrizuotų skambučių palaikymas
+description: Šiame straipsnyje paaiškinama, kaip įdiegti parametruotus elektroninių ataskaitų (ER) duomenų modelių skambučius.
 author: NickSelin
 ms.date: 03/14/2022
 ms.topic: article
@@ -15,14 +15,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-10-01
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 968b0769607e9fdbed57c25b727ed44988a92913
-ms.sourcegitcommit: 399d0d3f8e2ebb81b6b9d640365ebe182690bab2
+ms.openlocfilehash: 65ac81e9aa25b286640fd526e71b55de3b0695ca
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/15/2022
-ms.locfileid: "8419516"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884263"
 ---
-# <a name="support-parameterized-calls-of-er-data-models"></a>Palaiko parametruotus ER duomenų modelių skambučius
+# <a name="support-parameterized-calls-of-er-data-models"></a>ER duomenų modelių parametrizuotų skambučių palaikymas
 
 [!include [banner](../includes/banner.md)]
 
@@ -42,31 +42,31 @@ Anksčiau šie modelio susiejimo skambučiai nepavyko nustatyti, kad jie būtų 
 <tr align="center">
 <td>
 <b>Formatas</b><br>
-Formatų&nbsp; lėt.:<br>
+Formato&nbsp; elementas<br>
 „&nbsp;“
 </td>
 <td>
 <i>Susiejimas</i><br>
-&gt;&nbsp; Prašymą&nbsp;&gt;<br>
+&gt;&nbsp;užklausa&nbsp;&gt;<br>
 &lt;&nbsp;vertė&nbsp;&lt;
 </td>
-<td><b>Formatavimo&nbsp; atvaizdavimas</b><br>
+<td><b>Formato susiejimas&nbsp;</b><br>
 Duomenų šaltinis<br>
 „&nbsp;“
 </td>
 <td>
-<i>Datamodel&nbsp;</i><br>
-&gt;&nbsp; Prašymą&nbsp;&gt;<br>
+<i>Data&nbsp; modelis</i><br>
+&gt;&nbsp;užklausa&nbsp;&gt;<br>
 &lt;&nbsp;vertė&nbsp;&lt;
 </td>
 <td>
-<b>Modelio&nbsp; struktūravimas</b><br>
+<b>Modelio susiejimas&nbsp;</b><br>
 Duomenų&nbsp; šaltinis<br>
 „&nbsp;“
 </td>
 <td>
 <i>Susiejimas</i><br>
-&gt;&nbsp; Prašymą&nbsp;&gt;<br>
+&gt;&nbsp;užklausa&nbsp;&gt;<br>
 &lt;&nbsp;vertė&nbsp;&lt;
 </td>
 <td>
@@ -85,57 +85,57 @@ Tačiau 10.0.15 ir vėlesnėje versijoje galite konfigūruoti duomenų modelio l
 <tr align="center">
 <td>
 <b>Formatas</b><br>
-Formatelement1&nbsp;&nbsp;<br>
+&nbsp; 1 formato&nbsp; elementas<br>
 <br>
-Formatelement2&nbsp;&nbsp;<br>
+&nbsp; 2 formato&nbsp; elementas<br>
 „&nbsp;“<br>
 „&nbsp;“
 </td>
 <td>
 <i>Susiejimas</i><br>
-&gt;&nbsp; 1 užklausa&nbsp;&nbsp;&gt;<br>
-&lt;&nbsp; 1&nbsp; vertė&nbsp;&lt;<br>
-&gt;&nbsp; 2 užklausa&nbsp;&nbsp;&gt;<br>
-&lt;&nbsp; reikšmę3&nbsp;&nbsp;&lt;<br>
+&gt;&nbsp;&nbsp; 1 užklausa&nbsp;&gt;<br>
+&lt;&nbsp; vertė&nbsp; 1&nbsp;&lt;<br>
+&gt;&nbsp;&nbsp; 2 užklausa&nbsp;&gt;<br>
+&lt;&nbsp; vertė&nbsp; 3&nbsp;&lt;<br>
 „&nbsp;“
 </td>
 <td>
-<b>Formatmapping&nbsp;</b><br>
-&nbsp; 1 duomenų&nbsp; šaltinis<br>
+<b>Format susiejimas&nbsp;</b><br>
+&nbsp;&nbsp; 1 duomenų šaltinis<br>
 „&nbsp;“<br>
 <b>value2=Betk(value1)</b><br>
 „&nbsp;“<br>
 „&nbsp;“
 </td>
 <td>
-<i>Datamodel&nbsp;</i><br>
+<i>Data&nbsp; modelis</i><br>
 &gt;&nbsp; 1 laukas&nbsp;&gt;<br>
-&lt;&nbsp; 1&nbsp; vertė&nbsp;&lt;<br>
+&lt;&nbsp; vertė&nbsp; 1&nbsp;&lt;<br>
 <b>&gt;&nbsp; field2(value2)&nbsp;&gt;</b><br>
-&lt;&nbsp; reikšmę3&nbsp;&nbsp;&lt;<br>
+&lt;&nbsp; vertė&nbsp; 3&nbsp;&lt;<br>
 „&nbsp;“
 </td>
 <td>
-<b>Modelio&nbsp; struktūravimas</b><br>
-&nbsp; 1 duomenų&nbsp; šaltinis<br>
+<b>Modelio susiejimas&nbsp;</b><br>
+&nbsp;&nbsp; 1 duomenų šaltinis<br>
 <br>
-&nbsp; 2 duomenų&nbsp; šaltinis<br>
+&nbsp; 2&nbsp; duomenų šaltinis<br>
 „&nbsp;“<br>
 „&nbsp;“
 </td>
 <td>
 <i>Susiejimas</i><br>
-&gt;&nbsp; 1 užklausa&nbsp;&nbsp;&gt;<br>
-&lt;&nbsp; 1&nbsp; vertė&nbsp;&lt;<br>
-&gt;&nbsp; 2 užklausa&nbsp;&nbsp;&gt;<br>
-&lt;&nbsp; reikšmę3&nbsp;&nbsp;&lt;<br>
+&gt;&nbsp;&nbsp; 1 užklausa&nbsp;&gt;<br>
+&lt;&nbsp; vertė&nbsp; 1&nbsp;&lt;<br>
+&gt;&nbsp;&nbsp; 2 užklausa&nbsp;&gt;<br>
+&lt;&nbsp; vertė&nbsp; 3&nbsp;&lt;<br>
 „&nbsp;“
 </td>
 <td>
-<b>Table1&nbsp;</b><br>
+<b>1&nbsp; lentelė</b><br>
 &nbsp; 1 įrašas<br>
 &nbsp; 1 laukas<br>
-<b>Table2&nbsp;</b><br>
+<b>2&nbsp; lentelė</b><br>
 &nbsp; 2 įrašas<br>
 &nbsp; 2 laukas
 </td>
@@ -160,7 +160,7 @@ Galite nurodyti kiekvieną duomenų modelio lauko parametrą, kuriam argumentas 
 > [!NOTE]
 > Duomenų modelio lauko parametro numatytoji vertė nepalaikoma. Jei prie duomenų modelio lauko pridedate parametrą ir to duomenų modelio versija jau buvo išleista ir paskelbta, [turite](general-electronic-reporting.md#upgrading-a-format-selecting-a-new-version-of-base-format-rebase) iš naujo sukurti visus atitinkamus šio modelio susiejimus ir formatus į naują šio modelio versiją, nes šis duomenų modelio keitimas nesuderinamas su ankstesnėmis versijomis.
 
-Galite konfigūruoti parametrizuotus duomenų modelio laukus, kad jie būtų konkretus modelio susiejimo skambučių formatui. Šis būdas gali padėti sumažinti modelių susiejimų, kuriuos reikia sukonfigūruoti pagal daugelį vieno duomenų modelio formatų, skaičių. Taip pat galite naudoti šį būdą, norėdami padidinti formatų vykdymo efektyvumą ir sumažinti laiką, reikalingą verslo dokumentams generuoti. Norėdami sužinoti daugiau apie šią funkciją, atlikite šioje temoje esantį pavyzdį.
+Galite konfigūruoti parametrizuotus duomenų modelio laukus, kad jie būtų konkretus modelio susiejimo skambučių formatui. Šis būdas gali padėti sumažinti modelių susiejimų, kuriuos reikia sukonfigūruoti pagal daugelį vieno duomenų modelio formatų, skaičių. Taip pat galite naudoti šį būdą, norėdami padidinti formatų vykdymo efektyvumą ir sumažinti laiką, reikalingą verslo dokumentams generuoti. Norėdami daugiau sužinoti apie šią funkciją, užpildykite pavyzdį šiame straipsnyje.
 
 ## <a name="example-use-parameterized-calls-of-er-data-models"></a>Pavyzdys: Naudoti parametrizuotus ER duomenų modelių iškmes parametrus
 
@@ -201,7 +201,7 @@ Toliau esanti iliustracija rodo redaguojamą konfigūruojamo duomenų modelio ve
 
 ### <a name="design-a-model-mapping-for-the-configured-data-model"></a>Suprojektuokite konfigūruoto duomenų modelio žemėlapį
 
-Kaip elektroninių ataskaitų kūrėjo vaidmens vartotojas turite sukurti naują ER konfigūraciją, kurioje būtų audito duomenų modelio pavyzdžio susiejimo komponentas. Šis komponentas įdiegia sukonfigūruotą "Microsoft" duomenų modelį Dynamics 365 Finance ir yra konkretus tai programai. Privalote konfigūruoti modelio žemėlapio komponentą tam, kad nurodytumėte programos objektus, kurie turi būti naudojami konfigūruoto duomenų modelio užpildymui su programos duomenimis vykdymo metu. Norėdami baigti šią užduotį turite suprasti, kaip mokesčių verslo domeno duomenų struktūra yra įdiegta finansuose.
+Kaip elektroninių ataskaitų kūrėjo vaidmens vartotojas turite sukurti naują ER konfigūraciją, kurioje būtų audito duomenų modelio pavyzdžio susiejimo komponentas. Šis komponentas įdiegia sukonfigūruotą Microsoft Dynamics 365 finansų duomenų modelį ir yra konkretus tai programai. Privalote konfigūruoti modelio žemėlapio komponentą tam, kad nurodytumėte programos objektus, kurie turi būti naudojami konfigūruoto duomenų modelio užpildymui su programos duomenimis vykdymo metu. Norėdami baigti šią užduotį turite suprasti, kaip mokesčių verslo domeno duomenų struktūra yra įdiegta finansuose.
 
 Norėdami importuoti reikiamą modelio susiejimą iš "Microsoft" teikiamo XML failo, atlikite šiuos veiksmus.
 
@@ -454,7 +454,7 @@ Pakeitimus galite įdiegti, kai vykdomas formatas atminties atmintyje renka unik
     2. Pasirinkite **Redaguoti formulę**.
     3. Formulės dizainerio **puslapyje** įveskite išraišką `model.Party(PartyIds.Result)`.
     4. Pasirinkite **Įrašyti** ir uždarykite puslapį **Formulių dizaino įrankis**.
-    5. Formato struktūros medyje pasirinkite sekos **Report.Party.Name** elementą.
+    5. Formato struktūros medyje pasirinkite Report.Party.Name **elementą**.
     6. Skirtuke **Susiejimas** pasirinkite duomenų `model.Party.Name` modelio lauką.
     7. Pasirinkite **Susieti**.
 
@@ -462,7 +462,7 @@ Pakeitimus galite įdiegti, kai vykdomas formatas atminties atmintyje renka unik
 
 13. Pasirinkite **Įrašyti** ir uždarykite puslapį Formato **konstruktorius**.
 14. Uždarykite puslapį **Duomenų šaltinio susiejimo modelis**.
-15. Versijos "**FastTab",** 2.2 versijoje **, pasirinkite** Keisti **būseną**\> Baigta **.** Tada pasirinkite **Gerai**.
+15. Versijos "**FastTab**", **2.2 versijoje**, pasirinkite **Keisti būseną** \> **Baigta**. Tada pasirinkite **Gerai**.
 
 ### <a name="run-the-adjusted-format"></a>Paleisti pakoreguotą formatą
 

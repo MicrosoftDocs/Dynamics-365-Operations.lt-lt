@@ -1,6 +1,6 @@
 ---
 title: „Regulatory Configuration Service“ (RCS) – „Lifecycle Services“ (LCS) saugykla nebegalioja
-description: Šioje temoje pateikiama informacija „Regulatory Configuration Service“ (LCS) saugojimo atšaukimą, kuris planuojamas kaip reguliavimo konfigūracijos tarnybos „Microsoft Dynamics Lifecycle Services“ (RCS) visuotinės saugyklos kūrimo dalis.
+description: Šiame straipsnyje pateikiama Microsoft Dynamics informacija apie ciklo tarnybų (LCS) saugyklos nurašymas, kuris planuojamas kaip reguliavimo konfigūracijos tarnybos (RCS) visuotinės saugyklos kūrimo dalis.
 author: JaneA07
 ms.date: 10/27/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: AX 10.0.19
-ms.openlocfilehash: 8862f42f3ceaed7e1413c49cf9b91f0449fab67b
-ms.sourcegitcommit: 4c8223c9540fbc1c1e554962938058d432e4c681
+ms.openlocfilehash: 4a35941d1521d26f95bacf29213fee42daeb42ab
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/05/2022
-ms.locfileid: "8547988"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849737"
 ---
 # <a name="regulatory-configuration-service-rcs--lifecycle-services-lcs-storage-deprecation"></a>„Regulatory Configuration Service“ (RCS) – „Lifecycle Services“ (LCS) saugykla nebegalioja
 
@@ -85,7 +85,7 @@ RCS naudoja prisijungusio *prašymo sąvoką*. Prijungta programa sudaro ryšį 
 
 ### <a name="are-there-any-examples-that-show-the-setup-and-management"></a>Ar yra pavyzdžių, kurie parodo nustatymą ir valdymą?
 
-Pavyzdžių nėra, tačiau norėdami perkelti savo konfigūracijas į RCS visuotinę saugyklą galite atlikti anksčiau šioje temoje aprašytus veiksmus.
+Pavyzdžių nėra, tačiau norėdami perkelti savo konfigūracijas į RCS visuotinę saugyklą galite atlikti anksčiau šiame straipsnyje nurodytus veiksmus.
 
 ### <a name="is-rcs-a-prerequisite-to-configure-electronic-reporting"></a>Ar RCS yra būtina sąlyga norint konfigūruoti elektronines ataskaitas?
 

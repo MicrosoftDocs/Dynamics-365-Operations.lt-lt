@@ -1,6 +1,6 @@
 ---
 title: Produkto identifikatoriai
-description: Šioje temoje pateikiama informacija apie įvairių tipų produkto identifikatorius ir paaiškinama, kaip produktų duomenyse galite pridėti produkto identifikatorių.
+description: Šiame straipsnyje pateikiama informacija apie įvairius produktų identifikatorių tipus ir paaiškinama, kaip į savo produkto duomenis galima įtraukti produkto identifikatorius.
 author: t-benebo
 ms.date: 03/27/2020
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: benebotg
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: 638b5c3b0c83f67f3d99331b6456efd1b8f5225a
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 3fc2d5c01209f15a9cb680e3bb569087f08c08d3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8063346"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8851716"
 ---
 # <a name="product-identifiers"></a>Produkto identifikatoriai
 
@@ -29,7 +29,7 @@ ms.locfileid: "8063346"
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje pateikiama informacija apie įvairių tipų produkto identifikatorius ir paaiškinama, kaip produktų duomenyse galite pridėti produkto identifikatorių.
+Šiame straipsnyje pateikiama informacija apie įvairius produktų identifikatorių tipus ir paaiškinama, kaip į savo produkto duomenis galima įtraukti produkto identifikatorius.
 
 Kai su produktais ceche arba sandėlyje dirbate naudodami „Microsoft Dynamics“ ERP arba „Microsoft Dynamics CRM”, turite būti numatę gerą strategiją produktams ir jų variantams identifikuoti.
 
@@ -39,7 +39,7 @@ Kai su produktais ceche arba sandėlyje dirbate naudodami „Microsoft Dynamics�
 
 Daugeliu atvejų produkto numerio „Dynamics 365 Supply Chain Management“ iš pradžių nesukuria. Vietoj to, numeris su produktu susiejamas produktų ciklo valdymo (PLM) sistemoje arba produktų duomenų valdymo (PDM) sistemoje. Tokius atveju produktams ir produkto variantams importuoti reikia naudoti duomenų objektus. Tada „Supply Chain Management” naudoja numerius visose operacijose.
 
-„Supply Chain Management” diegimo metu produktų numerių strategiją reikia ypač gerai apsvarstyti. Gera numeravimo sistema pagerina logistikos srautus ir padeda išvengti klaidų. Gerą produkto identifikatorių paprastai turėtų sudaryti 20 ar mažiau simbolių, tačiau paprastai rekomenduojame naudoti mažiau nei 10 simbolių ir įtraukti ne daugiau kaip 5 klasifikuojančius simbolius. Norėdami įgalinti sparčiąsias ieškas, taip pat galite naudoti ieškos pavadinimus. Ieškos pavadinimas – tai papildomas pavadinimas, kuriuo nurodomos produkto klasifikacijos.
+„Supply Chain Management” diegimo metu produktų numerių strategiją reikia ypač gerai apsvarstyti. Gera numeravimo sistema pagerina logistikos srautus ir padeda išvengti klaidų. Gerų produktų identifikatorius paprastai turi turėti 20 simbolių ar mažiau, bet paprastai rekomenduojame naudoti mažiau nei 10 simbolių, o į jį įtraukti ne daugiau kaip 5 klasifikuojamuosius simbolius. Norėdami įgalinti sparčiąsias ieškas, taip pat galite naudoti ieškos pavadinimus. Ieškos pavadinimas – tai papildomas pavadinimas, kuriuo nurodomos produkto klasifikacijos.
 
 Naudojant „Microsoft Dataverse“, produkto numeris „Supply Chain Management” taip pat yra produkto numeris „Microsoft Dataverse“. Produkto variantai su „Dataverse“ sinchronizuojami kaip išskirtieji produktai.
 
@@ -125,7 +125,7 @@ Deja, nėra jokių standartinių funkcijų, kurios leistų ieškoti produktų pa
 | Produktai V2 | Produkto numeris, produkto ieškos pavadinimas, produkto pavadinimas, produkto aprašas | Produkto numeris, produkto ieškos pavadinimas, produkto pavadinimas, produkto aprašas | Priklausomai nuo subjekto parametrų ir produkto numeriui taikomos numeracijos, produkto numerį galima sukurti automatiškai importavimo metu. |
 | Produkto variantai | Produkto numeris, produkto ieškos pavadinimas, produkto pavadinimas, produkto aprašas | Produkto numeris, produkto ieškos pavadinimas, produkto pavadinimas, produkto aprašas | Priklausomai nuo produkto nomenklatūros šablono, produkto numerį galima sukurti automatiškai importavimo metu. Tačiau galite importuoti bet kokį unikalų produkto numerį ir šis produkto numeris neturi atitikti produkto nomenklatūros šablonų struktūros. |
 | Produkto vertimai | Produkto pavadinimas, produkto aprašas | Produkto pavadinimas, produkto aprašas | Šis subjektas perrašo bet kokią kalbą. Kai perrašoma juridinio subjekto pavadinimo arba aprašo pagrindinė kalba, pakinta paties produkto pavadinimas ir aprašas. |
-| Išleisto produkto kūrimas V2 | Prekės numeris, produkto numeris, prekės ieškos pavadinimas| Prekės numeris, produkto numeris, prekės ieškos pavadinimas, produkto ieškos pavadinimas, produkto pavadinimas | Šis subjektas gali kelti sunkumų, kai naujai patvirtintų produktų kūrimo metu naudojamos numeracijos. Įtakos turi tiek numeracija pagal **prekės numerį**, tiek ir numeracija pagal **produkto numerį**. Vis dėlto, numeracija pagal **prekės numerį** atliekama atskirame juridiniame subjekte, o numeracija pagal **produkto numerį** yra bendrinė. Dėl šios priežasties numeracijos pagal **prekės numerį** nerekomenduojame naudoti diegiant naujus patvirtintus produktus. Savaime suprantama, kai subjektas naudojamas esamam produktui išleisti, subjekte būtina pateikti produkto numerį. Daugiau informacijos ieškokite šios temos skyriuje „Numeracijos pagal produktą ir prekės numerį“. |
+| Išleisto produkto kūrimas V2 | Prekės numeris, produkto numeris, prekės ieškos pavadinimas| Prekės numeris, produkto numeris, prekės ieškos pavadinimas, produkto ieškos pavadinimas, produkto pavadinimas | Šis subjektas gali kelti sunkumų, kai naujai patvirtintų produktų kūrimo metu naudojamos numeracijos. Įtakos turi tiek numeracija pagal **prekės numerį**, tiek ir numeracija pagal **produkto numerį**. Vis dėlto, numeracija pagal **prekės numerį** atliekama atskirame juridiniame subjekte, o numeracija pagal **produkto numerį** yra bendrinė. Dėl šios priežasties numeracijos pagal **prekės numerį** nerekomenduojame naudoti diegiant naujus patvirtintus produktus. Savaime suprantama, kai subjektas naudojamas esamam produktui išleisti, subjekte būtina pateikti produkto numerį. Daugiau informacijos rasite šio straipsnio skyriuje "Produkto ir prekės numeracijos". |
 | Patvirtinto produkto variantai | Prekės numeris, produkto dimensijos, produkto numeris | Produkto numeris, produkto ieškos pavadinimas, produkto pavadinimas, produkto aprašas, produkto dimensijos | Šį subjektą, kaip ir subjektą **Produkto variantai**, galima panaudoti naujiems produktams, atitinkantiems produkto nomenklatūros šabloną arba produktams, kuriuose naudojami turimi varianto produktų numeriai, kurti. |
 | Klientų išorinis prekės aprašas | Kliento prekės numeris, kliento prekės pavadinimas, kliento aprašas, kliento kodas | Kliento prekės numeris, kliento prekės pavadinimas, kliento aprašas, kliento kodas | Klientų grupę (pvz., pirkėjo asociaciją) į vieną grupę apjungti galima panaudojus subjektą **Išorinių prekių aprašų klientų grupės**. |
 | Tiekėjų išorinis prekių aprašas | Tiekėjo prekės numeris, tiekėjo prekės pavadinimas, tiekėjo aprašas, tiekėjo kodas | Tiekėjo prekės numeris, tiekėjo prekės pavadinimas, tiekėjo aprašas, tiekėjo kodas | Tiekėjų grupę (pvz., pirkėjo asociaciją arba pramonės organizaciją) į vieną grupę apjungti galima panaudojus subjektą **Išorinių prekių aprašų tiekėjų grupės**. |
@@ -184,7 +184,7 @@ Atlikite šiuos veiksmus, norėdami sukonfigūruoti aplinką.
 
 Dabar identifikatoriams iš bet kurios paskirties sistemos eksportuoti galite naudoti subjektą **Produkto subjekto „Common Data Service“ identifikatoriaus subjektas**, **Produkto subjekto identifikatoriaus kodas** ir **Produkto subjekto identifikatoriaus aprėptis**.
 
-## <a name="related-topic"></a>Susijusi tema
+## <a name="related-article"></a>Susijęs straipsnis
 
 [Ieškoti produktų ir produkto variantų įvedant užsakymą](search-products-product-variants.md)
 

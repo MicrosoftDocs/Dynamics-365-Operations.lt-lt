@@ -1,6 +1,6 @@
 ---
 title: Pagamintų prekių standartinių savikainų paruošimas priežiūrai
-description: Šioje temoje aprašomi pasiruošimo tvarkyti pagamintų prekių išlaidas veiksmai.
+description: Šiame straipsnyje aprašomi pasirengimo tvarkyti pagamintų prekių išlaidas veiksmai.
 author: JennySong-SH
 ms.date: 01/17/2018
 ms.topic: article
@@ -16,18 +16,18 @@ ms.industry: Manufacturing
 ms.author: yanansong
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8d42f61bcd44e89f0563c8f7450a1cdd6fd0e3ce
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 423da8022faf8066c5aa524c49c5071d0871de04
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8679141"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8886021"
 ---
 # <a name="prepare-to-maintain-standard-costs-for-manufactured-items"></a>Pagamintų prekių standartinių savikainų paruošimas priežiūrai
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje aprašomi pasiruošimo tvarkyti pagamintų prekių išlaidas veiksmai. Pagamintų prekių veiksmai šiek tiek skiriasi nuo įsigytų prekių veiksmų.
+Šiame straipsnyje aprašomi pasirengimo tvarkyti pagamintų prekių išlaidas veiksmai. Pagamintų prekių veiksmai šiek tiek skiriasi nuo įsigytų prekių veiksmų.
 
 Strategijos, priskirtos pagamintoms prekėms, gali paveikti pirminių pagamintų prekių išlaidų skaičiavimą. Norėdami pasiruošti tvarkyti pagamintų prekių išlaidas, atlikite tolesnius veiksmus.
 
@@ -63,7 +63,7 @@ Strategijos, priskirtos pagamintoms prekėms, gali paveikti pirminių pagamintų
 
 Jei norite įkainodami naudoti nukreipimo informaciją, reikia atlikti papildomus paruošiamuosius veiksmus. Pavyzdžiui, išlaidų kategorijos, priskirtos nukreipimo operacijoms, turi būti teisingos ir baigtos.
 
-## <a name="related-topics"></a>Susijusios temos
+## <a name="related-articles"></a>Susiję straipsniai
 
 [Pastovių pagamintos prekės išlaidų amortizavimas](amortize-constant-costs-manufactured-item.md)
 

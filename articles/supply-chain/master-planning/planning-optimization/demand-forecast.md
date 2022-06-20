@@ -1,6 +1,6 @@
 ---
 title: Pagrindinis planavimas su paklausos prognozėmis
-description: Ši tema aiškina, kaip įtraukti paklausos prognozes pagrindinio planavimo metu su „Planning Optimization“.
+description: Šiame straipsnyje paaiškinama, kaip įtraukti poreikio prognozes bendrojo planavimo metu naudojant planavimo optimizavimą.
 author: t-benebo
 ms.date: 12/02/2020
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: ec5150186e190e67913409b9cac107ff2bd55001
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 63221b5270416cad9cdfb586c697d7700f3b561b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8468447"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878996"
 ---
 # <a name="master-planning-with-demand-forecasts"></a>Pagrindinis planavimas su paklausos prognozėmis
 
@@ -42,7 +42,7 @@ Norėdami konfigūruoti pagrindinį planą taip, kad jis įtrauktų paklausos pr
 
     - **Prognozės modelis** – Pasirinkite taikomą prognozės modelį. Šis modelis bus laikomas galiojančiu, kai tiekimo siūlymas yra sukuriamas esamam pagrindiniam planui.
     - **Įtraukti paklausos prognozę** – Nustatykite šią parinktį į *Taip*, kad ji įtraukti paklausos prognozę esamame pagrindiniame plane. Jei nustatote *Ne*, paklausos prognozės perlaidos nebus įtrauktos į pagrindinį planą.
-    - **Metodas naudojamas siekiant sumažinti prognozės reikalavimus** – Pasirinkite metodą, kuris turi būti naudojamas siekiant sumažinti prognozės reikalavimus. Dėl daugiau informacijos, žr. [Prognozės sumažinimo raktai](#reduction-keys) skyrių vėliau šioje skyriuje.
+    - **Metodas naudojamas siekiant sumažinti prognozės reikalavimus** – Pasirinkite metodą, kuris turi būti naudojamas siekiant sumažinti prognozės reikalavimus. Norėdami gauti daugiau informacijos, toliau šiame [straipsnyje skyriuje Prognozės](#reduction-keys) mažinimo raktai žr.
 
 1. „FastTab“ **Laiko tvora dienomis** galite nustatyti tolesnius laukelius siekiant nustatyti laikotarpį, per kurį yra įtraukta paklausos prognozė:
 
@@ -61,7 +61,7 @@ Norėdami konfigūruoti apimties grupę taip, kad ji įtrauktų paklausos progno
 1. „FastTab“ **Kita**, nustatykite tolesnes vertes:
 
     - **Prognozės plano laiko tvora** – Įveskite dienų skaičių (nuo šiandienos), kuriam bus taikoma paklausos prognozė. Ši vertė gali būti viršijama naudojant **Prognozės plano** parinktį pagrindiniame plane, kaip aprašyta ankstesniame skyriuje.
-    - **Sumažinimo raktas** – Pasirinkite taikomą sumažinimo raktą. Dėl daugiau informacijos, žr. [Sukurkite ir nustatykite prognozės sumažinimo raktą](#create-reduction-key) ir [Naudokite sumažinimo rakto](#use-reduction-key) skyrius toliau šioje temoje.
+    - **Sumažinimo raktas** – Pasirinkite taikomą sumažinimo raktą. Norėdami gauti daugiau informacijos, žr [. prognozės mažinimo rakto kurkite ir nustatykite](#create-reduction-key), [o toliau šiame straipsnyje](#use-reduction-key) naudokite mažinimo rakto skyrius.
     - **Sumažinkite prognozę** – Pagrindiniams planams, kai **Metodas naudojamas siekiant sumažinti prognozės reikalavimus** laukelį, kuris nustatytas *Perlaidos - sumažinimo raktas* ar *Perlaidos - dinaminis laikotarpis*, nurodykite perlaidas, kurios turi sumažinti prognozę. Pasirinkite vieną iš šių reikšmių:
 
         - **Visos perlaidos** – Visos perlaidos turi sumažinti prognozę.

@@ -1,6 +1,6 @@
 ---
-title: EKA pristatymo būdo keitimas
-description: Šioje temoje aprašoma, kaip sukonfigūruoti ir naudoti pristatymo būdo keitimą, esantį EKA.
+title: Pristatymo būdo keitimas EKA
+description: Šiame straipsnyje aprašoma, kaip konfigūruoti ir naudoti EKA pristatymo būdo keitimo būdą.
 author: hhainesms
 ms.date: 03/01/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: hhaines
 ms.search.validFrom: 2020-02-20
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: ef778763b26954057b83df3e963e34008819fd208a55d55e07075853ffce8b35
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 583f568164d0de70e22998bf5ded5f4616b00bd2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714045"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855826"
 ---
-# <a name="change-mode-of-delivery-in-pos"></a>EKA pristatymo būdo keitimas
+# <a name="change-mode-of-delivery-in-pos"></a>Pristatymo būdo keitimas EKA
 
 [!include [banner](includes/banner.md)]
 
-Šioje temoje aprašoma, kaip nustatyti ir naudoti funkciją „pristatymo būdo keitimas“ elektroninio kasos aparato (EKA) aplinkoje. 
+Šiame straipsnyje aprašoma, kaip nustatyti ir naudoti "pristatymo būdo keitimo būdo" funkciją jūsų point point sale (EKA) aplinkoje. 
 
 „Dynamics 365 Commerce“ 10.0.10 ir naujesnėse versijose prieinama operacija **„Pristatymo būdo keitimas“** (647), kuri leidžia pridėti EKA ekrano maketus.
 

@@ -1,6 +1,6 @@
 ---
 title: Paraiškos, kurioje naudojamas RFQ, kūrimas
-description: Šioje temoje aiškinama, kaip įtraukti kainos ir tiekėjo informaciją į pirkimo paraišką iš RFQ proceso.
+description: Šiame straipsnyje paaiškinama, kaip pridėti kainos ir tiekėjo informaciją prie pirkimo paraiškos per RFQ procesą.
 author: GalynaFedorova
 ms.date: 08/29/2018
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 78092205c1a1d149b4dc202e085871d1fe46c4ad
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 5ecde250e3517464611b68fe3c960bfbfdf06319
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8675127"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846017"
 ---
 # <a name="create-a-requisition-that-uses-an-rfq"></a>Paraiškos, kurioje naudojamas RFQ, kūrimas
 
 [!include [banner](../../includes/banner.md)]
 
-Šioje temoje aiškinama, kaip įtraukti kainos ir tiekėjo informaciją į pirkimo paraišką iš RFQ proceso. Šiame vedlyje pateiktą pavyzdį galite naudoti demonstracinių duomenų įmonėje USMF, o norėdami atlikti visus veiksmus turite būti prisijungęs kaip Administratorius. Paprastai šio vedlio užduotis atlieka įsigijimo specialistai.
+Šiame straipsnyje paaiškinama, kaip pridėti kainos ir tiekėjo informaciją prie pirkimo paraiškos per RFQ procesą. Šiame vedlyje pateiktą pavyzdį galite naudoti demonstracinių duomenų įmonėje USMF, o norėdami atlikti visus veiksmus turite būti prisijungęs kaip Administratorius. Paprastai šio vedlio užduotis atlieka įsigijimo specialistai.
 
 
 ## <a name="create-a-requisition"></a>Kurti paraišką

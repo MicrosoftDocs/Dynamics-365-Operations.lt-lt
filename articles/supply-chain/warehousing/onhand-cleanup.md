@@ -1,6 +1,6 @@
 ---
 title: Sandėlio valdymo turimų įrašų valymo užduotis
-description: Šioje temoje aprašoma turimų atsargų valymo užduotis, kuri padeda pagerinti sistemos efektyvumą nustatant ir naikinant susijusius, bet nereikalingus įrašus.
+description: Šiame straipsnyje aprašoma turimo failo įrašų valymo užduotis, kuri padeda pagerinti sistemos našumą identifikuojant ir naikinant susijusius, tačiau nereikalingus įrašus.
 author: perlynne
 ms.date: 04/23/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-04-03
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: b2bdfb7fa0c9c4d9e1f630a41357dc405f0082bc
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 7f054f4f479affe8ca2e041c77bd6fd11d51378e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103868"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8900512"
 ---
 # <a name="warehouse-management-on-hand-entries-cleanup-job"></a>Sandėlio valdymo turimų įrašų valymo užduotis
 
@@ -26,7 +26,7 @@ ms.locfileid: "8103868"
 
 Užklausų, naudojamų skaičiuojant turimas atsargas, efektyvumas priklauso nuo įtrauktų lentelių įrašų skaičius. Vienas iš būdų pagerinti efektyvumą yra sumažinti įrašų, kuriuos turi įvertinti duomenų bazė, skaičių.
 
-Šioje temoje aprašomos turimų įrašų valymo užduotys, kurios panaikina nereikalingus įrašus lentelėse „InventSum“ ir „WHSInventReserve“. Šiose lentelėse saugoma turima informacija apie prekes, kurios yra įjungtos atliekant sandėlio valdymo apdorojimą. (Šios prekės vadinamos WHS prekėmis.) Šio įrašo panaikinimas gali ženkliai pagerinti turimų skaičiavimų efektyvumą.
+Šiame straipsnyje aprašoma turimo įrašo valymo užduotis, kuri panaikina nenaudojamus įrašus Lentelėse InventSum ir WHSInventReserve. Šiose lentelėse saugoma turima informacija apie prekes, kurios yra įjungtos atliekant sandėlio valdymo apdorojimą. (Šios prekės vadinamos WHS prekėmis.) Šio įrašo panaikinimas gali ženkliai pagerinti turimų skaičiavimų efektyvumą.
 
 ## <a name="what-the-cleanup-job-does"></a>Ką atlieka valymo užduotis
 

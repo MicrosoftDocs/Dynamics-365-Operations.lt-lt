@@ -1,6 +1,6 @@
 ---
-title: PVM sudengimo laikotarpių nustatymas
-description: Šioje temoje paaiškinama, kaip nustatyti PVM sudengimo laikotarpius "Dynamics 365 Finance".
+title: Nustatyti PVM sudengimo laikotarpius
+description: Šiame straipsnyje paaiškinama, kaip nustatyti PVM sudengimo laikotarpius "Dynamics 365 Finance".
 author: twheeloc
 ms.date: 08/05/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 197b85fb88f966b0a13fc061e2e780dd84e74acb
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 3f8514494b5d3534fc236def817df0d58fe80d70
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8735820"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846689"
 ---
 # <a name="set-up-sales-tax-settlement-periods"></a>Nustatyti PVM sudengimo laikotarpius
 
 [!include [banner](../../includes/banner.md)]
 
-Šioje temoje paaiškinta, kaip nustatyti PVM sudengimo laikotarpius. PVM sudengimo laikotarpiuose pateikiama informacija apie laikotarpių intervalus, už kuriuos reikia pranešti apie PVM ir jį sumokėti. Galima vykdyti konkrečios datos intervalo sudengimo laikotarpio procesą. Bus sudengti visi mokesčių kodai, susieti su sudengimo laikotarpiu. Atsižvelgiant į susijusios PVM institucijos sąranką, mokestiniai įsipareigojimai registruojami arba tiekėjui, arba DK sąskaitoje.
+Šiame straipsnyje paaiškinama, kaip nustatyti PVM sudengimo laikotarpius. PVM sudengimo laikotarpiuose pateikiama informacija apie laikotarpių intervalus, už kuriuos reikia pranešti apie PVM ir jį sumokėti. Galima vykdyti konkrečios datos intervalo sudengimo laikotarpio procesą. Bus sudengti visi mokesčių kodai, susieti su sudengimo laikotarpiu. Atsižvelgiant į susijusios PVM institucijos sąranką, mokestiniai įsipareigojimai registruojami arba tiekėjui, arba DK sąskaitoje.
 
 Šioje užduotyje naudojama demonstracinė įmonė USMF.
 

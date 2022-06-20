@@ -1,6 +1,6 @@
 ---
 title: Vaizdų nusiuntimas
-description: Šioje temoje aprašoma, kaip įkelti vaizdus „Microsoft Dynamics 365 Commerce“ svetainės generatoriuje.
+description: Šiame straipsnyje aprašoma, kaip įkelti vaizdus į svetainės Microsoft Dynamics 365 Commerce generatorių.
 author: psimolin
 ms.date: 12/03/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 3b99aeff7eafd788c19204e22dbfc61f45b25408
-ms.sourcegitcommit: 5f5a8b1790076904f5fda567925089472868cc5a
+ms.openlocfilehash: e0f5cdd0381932cffc64f1c7e83eecd4662d8c9f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7891527"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8892839"
 ---
 # <a name="upload-images"></a>Vaizdų nusiuntimas
 
 [!include [banner](includes/banner.md)]
 
-Šioje temoje aprašoma, kaip įkelti vaizdus „Microsoft Dynamics 365 Commerce“ svetainės generatoriuje.
+Šiame straipsnyje aprašoma, kaip įkelti vaizdus į svetainės Microsoft Dynamics 365 Commerce generatorių.
 
 „Commerce“ svetainės generatoriaus medijų biblioteka leidžia įkelti vaizdus po vieną arba masiškai naudojant aplankus. Visada turite įkelti vaizdo, kurio aukščiausia skiriamoji geba ir kokybė, versiją, nes vaizdo dydžio keitimo komponentas automatiškai optimizuos vaizdą skirtingoms peržiūros sritims ir jų stabdos taškams.
 
@@ -42,7 +42,7 @@ ms.locfileid: "7891527"
 
 > [!NOTE]
 > - Vaizdo ištekliai, kuriems priskirta kategorija, yra taip pat automatiškai žymimi kategorija kaip raktinis žodis, skirtas tam tikros kategorijos ištekliams ieškoti.
-> - Produkto informacijos puslapiai dinamiškai generuoja Alt tekstą naudodami produkto pavadinimą, todėl pakeitus produkto vaizdo Alt tekstą nebus **paveiktas** **atvaizduotas** vaizdas.
+> - Produkto informacijos puslapiai dinamiškai **generuoja Alt tekstą** naudodami produkto pavadinimą, **todėl pakeitus produkto vaizdo Alt** tekstą nebus paveiktas atvaizduotas vaizdas.
 
 ### <a name="naming-conventions-for-omni-channel-images"></a>Daugiakanalių vaizdų pavadinimo konvencijos 
 

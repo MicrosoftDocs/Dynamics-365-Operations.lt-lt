@@ -1,6 +1,6 @@
 ---
 title: Grąžinimų valdymo registravimo sąranka
-description: Šioje temoja aprašoma, kaip nustatyti registravimo šablonus. Registravimo šablonai yra naudojami nustatyti grąžinimo valdymo skaičiavimo eilučių įrašų registravimui.
+description: Šiame straipsnyje aprašoma, kaip nustatyti registravimo šablonus. Registravimo šablonai yra naudojami nustatyti grąžinimo valdymo skaičiavimo eilučių įrašų registravimui.
 author: sherry-zheng
 ms.date: 02/19/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 5ed28e99e36fafa4e1275421159420a3f3380c7c
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 7a519b7153b307bf7d8cc9093572ca2711432970
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8690252"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873585"
 ---
 # <a name="rebate-management-posting-setup"></a>Grąžinimų valdymo registravimo sąranka
 
@@ -30,7 +30,7 @@ Grąžinimų valdymo registravimo šablonai yra naudojami nustatyti grąžinimo 
 
 Norėdami nustatyti grąžinimo valdymo registravimo šablonus klientams ir tiekėjams, eikite į **Grąžinimų valdymas \> Grąžinimų valdymo registravimo sąranka \> Grąžinimų valdymo registravimo šablonai**. Puslapyje **Grąžinimų valdymo registravimo šablonai** yra sąrašo sritis, kurioje rodomi visi jūsų turimi šablonai. Veiksmų srityje esančius mygtukus galite naudoti šablonų įtraukimui į sąrašą arba jų pašalinimui.
 
-Likusiuose šios temos skyriuose aprašoma, kaip naudoti galimus laukus kuriant arba redaguojant profilį.
+Likusiuose šio straipsnio skyriuose aprašoma, kaip naudoti galimų laukų informaciją kuriant arba redaguojant profilį.
 
 ## <a name="posting-profile-header"></a>Registravimo šablono antraštė
 

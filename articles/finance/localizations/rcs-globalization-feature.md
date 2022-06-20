@@ -1,6 +1,6 @@
 ---
 title: „Regulatory Configuration Services (RCS)” – globalizacijos funkcijos
-description: Šioje temoje aiškinama, kaip pasinaudoti „Microsoft Regulatory Configuration Services (RCS)” ir Visuotine saugykla, kad sukurtumėte ir pasinaudotumėte globalizacijos funkcijomis.
+description: Šiame straipsnyje paaiškinama, kaip naudoti "Microsoft" reguliavimo konfigūracijos tarnybas (RCS) ir visuotinę saugyklą, norint sukurti ir naudoti globalizavimo funkcijas.
 author: JaneA07
 ms.date: 06/04/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: leguo
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: AX 10.0.11
-ms.openlocfilehash: e8df8a56d493e58f28699a87dd9dab1f87540a4ee327450384f89e6d426ba1a7
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cf08f25f7d092e0f93284a4019096378543adb9d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6760636"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8888900"
 ---
 # <a name="regulatory-configuration-services-rcs---globalization-features"></a>„Regulatory Configuration Services (RCS)” – globalizacijos funkcijos
 
@@ -40,7 +40,7 @@ Prieš atlikdami procedūras, turite atlikti veiksmus, susijusius su šiomis už
 - Prisijungti prie savo RCS.
 - Sukurti ir aktyvuoti konfigūracijos teikėją. Daugiau informacijos žr. [Konfigūracijos teikėjų kūrimas, pažymint juos kaip aktyvius](../../fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md).
 
-Savo „Finance and Operations” programoje, atlikite šiuos veiksmus.
+Finansų ir operacijų programėlių egzemplioriuje atlikite šiuos veiksmus.
 
 1. Eikite į **Organizacijos administravimas** \> **Darbo sritys** \> **Elektroninės ataskaitos**.
 2. Jei jūsų įmonei RCS aplinka neparengta, pasirinkite **Regulatory services – Konfigūracija** ir vykdykite instrukcijas, kad ją parengtumėte.
@@ -64,7 +64,7 @@ Norėdami naudoti Globalizacijos funkciją, pirmiausia turite ją importuoti iš
 
 ## <a name="access-globalization-features"></a>Prieiga prie Globalizacijos funkcijų
 
-1. Įsitikinkite, kad **Globalizacijos funkcijos** funkcija yra įjungta Funkcijų valdyme, kaip aprašyta anksčiau šioje temoje.
+1. Įsitikinkite, kad **globalizavimo funkcijų** funkcija įjungta funkcijų valdymo srityje, kaip anksčiau aprašyta šiame straipsnyje.
 2. Atverkite naują **Globalizacijos funkcijos** darbo sritį, o tada dalyje po **Funkcijos** pasirinkite **El. SF išrašymas** plytelę.
 
     ![Visuotinių funkcijų darbo sritis.](./media/RCS_GlobalF_2%20Feature%20wrkspace.JPG)
@@ -161,7 +161,7 @@ Toliau nurodyti veiksmai galimi šioms konfigūracijoms:
 - **Peržiūrėti** – peržiūrėkite paryškintas funkcijų konfigūracijas, kurias nereikia atnaujinti.
 - **Redaguoti** – sukurkite pasirinktos konfigūracijos juodraštinę versiją, kad galėtumėte redaguoti formatą arba formatuoti susiejimą Formato dizaino įrankyje.
 - **Naikinti** – sunaikinkite pasirinktą funkcijos konfigūraciją.
-- **Pritaikyti kitoje vietoje** – pritaikykite funkciją kitam. Daugiau informacijos rasite [Pritaikykite Globalizacijos funkcijas kitoje vietoje](#rebase) skyriuje, aptartame vėliau šioje temoje.
+- **Pritaikyti kitoje vietoje** – pritaikykite funkciją kitam. Norėdami gauti daugiau informacijos, toliau šiame straipsnyje [žr. skyrių Iš naujo](#rebase) bazės išvestinės globalizavimo priemonės.
 
 ### <a name="setups"></a>Nustatymai
 
@@ -182,7 +182,7 @@ Toliau nurodyti veiksmai galimi funkcijos sąrankai:
 
 Toliau nurodyti veiksmai galimi aplinkoms:
 
-- **Įjungti** – pasirinktai funkcijos versijai pasirinkite publikuotą aplinką ir pasirinkite **Įsigalioja nuo** datą, kada ji turėtų būti prieinama. Daugiau informacijos rasite [Konfigūruokite aplinkas aktyvavimui](#configureenvironment) skyriuje, aptartame vėliau šioje temoje.
+- **Įjungti** – pasirinktai funkcijos versijai pasirinkite publikuotą aplinką ir pasirinkite **Įsigalioja nuo** datą, kada ji turėtų būti prieinama. Norėdami gauti daugiau informacijos, toliau šiame [straipsnyje žr. skyrių Konfigūruoti įgalinimo](#configureenvironment) aplinkas.
 - **Atšaukti** – pašalinkite aplinką funkcijos sąrankai.
 
 ### <a name="organizations"></a>Organizacijos
@@ -195,7 +195,7 @@ Atlikite šiuos veiksmus, kad bendrintumėte Globalizacijos funkciją su išorin
 
     ![Funkcijos bendrinimas su organizacija.](./media/RCS_GlobalF_20%20Feature%20orgn_share%20with.JPG)
 
-Funkcija bendrinama su pasirinkta organizacija ir ji prieinama tai organizacijai Visuotinėje saugykloje. Iš ten funkcija gali būti importuojama į organizacijos egzempliorių RCS arba „Dynamics 365 Finance”, kad ja galima būtų naudotis.
+Funkcija bendrinama su pasirinkta organizacija ir ji prieinama tai organizacijai Visuotinėje saugykloje. Iš šios priemonės galima importuoti į organizacijos RCS arba "Dynamics 365 Finance" egzempliorių, kad būtų galima ją naudoti.
 
 ## <a name="rebase-derived-globalization-features"></a><a name="rebase"></a>Pritaikykite išvestines Globalizacijos funkcijas kitoje vietoje
 

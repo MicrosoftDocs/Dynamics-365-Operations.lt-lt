@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d81d20045c7b06de01a023d1a34ee653dd696ff1
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: e92e6aeab949567e65a13ebdd92f0e5b306ccd30
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8711326"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861711"
 ---
 # <a name="whats-new-or-changed-in-dynamics-ax-70-february-2016"></a>Kas nauja ar pasikeitė programoje „Dynamics AX 7.0“ (2016 m. vasario mėn.)
 
@@ -320,7 +320,7 @@ ms.locfileid: "8711326"
 <td>Pasiekite valdomąjį procedūrinį žinyną (užduočių vedlius) ir abstrakčias temas spustelėdami <strong>Žinynas</strong>.</td>
 <td>„AX 2012“ žinyno sistema nurodo į HTML temas, kurios saugomos vietos žiniatinklio serveryje. Klientai ir partneriai gali kurti savo Žinyną.</td>
 <td>Dabartinės „Dynamics AX“ versijos Žinyno sistemoje rodomi užduočių vadovai, saugomi „Microsoft Dynamics Lifecycle Services“ (LCS) BPM. Žinyno sistemoje taip pat rodomos temos iš „Microsoft‟ dokumentų svetainės. Daugiau informacijos žr. <a href="help-overview.md" data-raw-source="[Help system](help-overview.md)">Žinyno sistema</a> ir <a href="new-task-guides-available-february-2016.md" data-raw-source="[New task guides (February 2016)](new-task-guides-available-february-2016.md)">Nauji užduočių vedliai (2016 m. vasaris)</a>.</td>
-<td>Užduočių vadovai suteikia valdomą, interaktyvią patirtį, kuri jums padeda atlikti užduoties ar verslo proceso veiksmus. Galite atsisiųsti ir tinkinti užduočių vedlius, kuriuos teikia „Microsoft“. Tema suteikia galimybę greičiau ir lanksčiau kurti, teikti bei naujinti produktų dokumentus. Todėl jis padeda užtikrinti, kad turite prieigą prie vėliausios techninės informacijos.</td>
+<td>Užduočių vadovai suteikia valdomą, interaktyvią patirtį, kuri jums padeda atlikti užduoties ar verslo proceso veiksmus. Galite atsisiųsti ir tinkinti užduočių vedlius, kuriuos teikia „Microsoft“. Straipsnyje pateikiamas greitesnis ir lankstesnis produkto dokumentacijos kūrimo, pristatymo ir atnaujinimo būdas. Todėl jis padeda užtikrinti, kad turite prieigą prie vėliausios techninės informacijos.</td>
 </tr>
 </tbody>
 </table>

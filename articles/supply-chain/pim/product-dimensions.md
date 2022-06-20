@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 46079daafc744421abcbdf0a3539428f2a39f13c
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.openlocfilehash: acfd9be044818ab0f40171c25a8fc9e760173aa8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920528"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8867933"
 ---
 # <a name="product-dimensions"></a>Produktų dimensijos
 
@@ -47,7 +47,7 @@ Produkto dimensijos vertė dydžio, spalvos ir stiliaus dimensijoms gali būti s
 
 Produkto dimensijos vertės konfigūravimo dimensijai yra dažniausiai sukurti naudojant, ar Produkto konfigūravimo įrankį ar Dimensija pagrįsta konfigūravimo įtaisą. 
 
-Produkto versijos yra dažniausiai sukuriamos konkrečioms versijoms, nes produktas vystosi jo naudojimo metu. Produkto versijos yra išsamiai aprašytos toliau šioje temoje.
+Produkto versijos yra dažniausiai sukuriamos konkrečioms versijoms, nes produktas vystosi jo naudojimo metu. Toliau šiame straipsnyje išsamiai aprašomos produkto versijos.
 
 Produkto dimensijos taip pat gali būti kuriamos ir tvarkomos puslapyje **Produktų dimensijos**, kurį galima pasiekti šiose vietose:
 

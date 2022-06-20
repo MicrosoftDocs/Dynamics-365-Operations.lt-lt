@@ -1,6 +1,6 @@
 ---
 title: Planuoti bangos žymos spausdinimą bangos vykdymo metu
-description: Šioje temoje aprašoma, kaip nustatyti ir naudoti funkcijas, skirtas užduotimi pagrįstam bangos žymų spausdinimui.
+description: Šiame straipsnyje aprašoma, kaip nustatyti ir naudoti funkciją, norint spausdinti su užduotimi pagrįstą bangos žymą.
 author: perlynne
 ms.date: 06/09/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2021-06-09
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 1323538765308ec3dd366456e31f5e08b08ce5ab
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.openlocfilehash: ac2bc4cce42bada43334b82301d716414cd6d654
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920154"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889463"
 ---
 # <a name="schedule-wave-label-printing-during-wave"></a>Planuoti bangos žymos spausdinimą bangos vykdymo metu
 
@@ -30,7 +30,7 @@ Kai naudojate *Užduotimi pagrįstos bangos žymų spausdinimo* funkciją, siste
 
 ## <a name="turn-on-the-task-based-wave-label-printing-feature-in-feature-management"></a>Funkcijų valdyme įjunkite užduotimi pagrįstą bangos žymų spausdinimo funkciją
 
-Norėdami naudoti funkcijas, aprašytas šioje temoje, jos turi būti įjungtos jūsų sistemai. Naudokite darbo sritį [Funkcijų valdymas](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), kad įjungtumėte funkcijas pateikta tvarka:
+Jei norite naudoti šiame straipsnyje aprašytas funkcijas, jas turite įjungti savo sistemai. Naudokite darbo sritį [Funkcijų valdymas](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), kad įjungtumėte funkcijas pateikta tvarka:
 
 1. *Bangos žymų spausdinimas* – ši funkcija būtina norint įgalinti bangos procesų metodą bangos žymų spausdinimui.
 1. *Visos organizacijos darbo blokavimas* – ši funkcija reikalingas tiek rankiniam, tiek automatiniam suplanuoto darbo kūrimo konfigūravimui. (Kaip ir tiekimo grandinės valdymo versija 10.0.21, ši funkcija yra privaloma, todėl ji įjungta pagal numatytuosius nustatymus ir jos negalima išjungti dar kartą.)

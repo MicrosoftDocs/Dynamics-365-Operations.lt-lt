@@ -1,6 +1,6 @@
 ---
 title: „Microsoft Power Apps“ portalų naudojimas su šalies duomenų modeliu
-description: Šioje temoje aprašomi „Microsoft Power Apps“ portalų tinklo vaidmenų pakeitimai dėl dvigubo rašymo šalies duomenų modelio.
+description: Šiame straipsnyje aprašomi portalų žiniatinklio vaidmenų pakeitimai Microsoft Power Apps dėl dvigubo rašymo šalies duomenų modelio.
 author: RamaKrishnamoorthy
 ms.date: 03/22/2021
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-03-22
-ms.openlocfilehash: 8242a74b8b2251a8489b772f5c4746b113fe2987
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: c2e9d0f47ef90167bf84bb5b20e6a7ad2d58ffd2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8060925"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8898952"
 ---
 # <a name="using-microsoft-power-apps-portals-with-the-party-data-model"></a>„Microsoft Power Apps“ portalų naudojimas su šalies duomenų modeliu
 
@@ -24,7 +24,7 @@ ms.locfileid: "8060925"
 
 Dvigubo rašymo programos instrumentavimo sprendimo 2.0.999.0 vėlesniuose versijose yra įrašo ir visuotinės adresų knygelės, skirti sąskaitų ir kontaktų lentelėms, duomenų modelio keitimai. Pakeitimai leidžia atlikti daug ryšių, kurie palaiko išplėstinius verslo scenarijus. Šių pakeitimų nepalaiko portalo žiniatinklio vaidmenys, įskaitant klientų portalą, kurie išsiųsti be lango arba kurie prieš įdiegdami dvigubą rašymo programą buvo jūsų aplinkoje. Kad žiniatinklio vaidmenys veiktų taip, kaip tikėjotės, turėsite sukurti naujus žiniatinklio vaidmenis naudodami naują duomenų modelį. 
 
-Apibendrinant, kokiu būdu lentelės sąveikauja, bet kliento portale lentelės teisės nepasikeitė. Šioje temoje paaiškinama, kaip sukurti naujus žiniatinklio vaidmenis, kurie veikia su naujuoju išplėstiniu duomenų modeliu.
+Apibendrinant, kokiu būdu lentelės sąveikauja, bet kliento portale lentelės teisės nepasikeitė. Šiame straipsnyje paaiškinama, kaip sukurti naujus žiniatinklio vaidmenis, kurie veikia su naujuoju išplėstiniu duomenų modeliu.
 
 Šioje diagramoje rodomas lentelės ryšys **be šalies ir visuotinės adresų** knygelės duomenų modelio:
 

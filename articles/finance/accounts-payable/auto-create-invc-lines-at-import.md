@@ -1,6 +1,6 @@
 ---
 title: Generuoti SF eilutes importuojant tiekėjo SF
-description: Šioje temoje aprašomos funkcijos, naudojamos automatiškai generuojant SF eilutes tiekėjo SF, kai importuojamos SF.
+description: Šiame straipsnyje aprašomos funkcijos, naudojamos automatiškai generuojant SF eilutes tiekėjo SF, kai importuotos SF.
 author: sunfzam
 ms.date: 09/10/2021
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2021-08-30
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: e452bda02c814b78c4bb48140b07f0113ab4a571
-ms.sourcegitcommit: 9cbff8a2cdeaf606488fb0044b3de4ab4409c9dc
+ms.openlocfilehash: e745ab1fb39edf69fabd147e46e1da8cc98ba6e5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/26/2022
-ms.locfileid: "8358319"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903513"
 ---
 # <a name="generate-invoice-lines-when-you-import-vendor-invoices"></a>Generuoti SF eilutes importuojant tiekėjo SF
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-Šioje temoje aprašomos funkcijos, naudojamos automatiškai generuojant SF eilutes tiekėjo SF, kai importuojamos SF.
+Šiame straipsnyje aprašomos funkcijos, naudojamos automatiškai generuojant SF eilutes tiekėjo SF, kai importuotos SF.
 
 Kartais tiekėjo SF yra ribotos informacijos, tokios kaip gavėjo informacija ir tarpinės sumos. Tačiau jose nėra informacijos apie eilutės prekes. Importuojant SF, SF eilutės bus generuojamos automatiškai, remiantis informacija apie atitinkamą pirkimo užsakymą.
 
@@ -42,7 +42,7 @@ Norėdami įgalinti automatinį SF eilučių kūrimą, atlikite šiuos veiksmus.
 
 ## <a name="data-entity-changes"></a>Duomenų objektų keitimai
 
-Siekiant palaikyti šioje temoje aprašytas funkcijas, tiekėjo **SF antraštės duomenų objektas** išplėstas. Įtraukti trys laukai:
+Siekiant palaikyti šiame straipsnyje aprašytas funkcijas, patobulintas **tiekėjo SF antraštės** duomenų objektas. Įtraukti trys laukai:
 
 - **HeaderOnlyImport** – šį lauką reikia nustatyti kaip **Taip,** kad būtų generuojamos SF antraščių eilutės.
 - **PurchIdRange** – pirkimo užsakymų numerių sąrašas. SF numeriai gali būti diapazonas, pvz., **INV0001. INV0009** (kur du taškai atskiria diapazono pradžia ir pabaigą) arba atskiros vertės, pavyzdžiui **INV0001, INV0003, INV0006**. Visi pirkimo užsakymai turi priklausyti tai pačiai tiekėjo sąskaitai SF antraštėje. Kitu atveju gausite tokį klaidos pranešimą: „Nepavyko sugeneruoti SF eilučių. Pirkimo užsakymų tiekėjų sąskaitos skiriasi.“

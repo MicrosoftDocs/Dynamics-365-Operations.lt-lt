@@ -1,6 +1,6 @@
 ---
 title: NUMSEQVALUE ER funkcija
-description: Šioje temoje pateikiama informacija apie tai, kaip naudojama NUMSEQVALUE elektroninių ataskaitų (ER) funkcija.
+description: Šiame straipsnyje pateikiama informacija apie tai, kaip naudojama NUMSEQVALUE elektroninių ataskaitų (ER) funkcija.
 author: NickSelin
 ms.date: 12/17/2019
 ms.prod: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 53040d1f4b3c8089fab264a524309df909a90ed5e617bd86658704b286fabb34
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 569d9ba1497bbc6dfc0ca909207aa5a78a877fe9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6758245"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879839"
 ---
 # <a name="numseqvalue-er-function"></a>NUMSEQVALUE ER funkcija
 
@@ -94,7 +94,7 @@ Kai iškviečiamas duomenų šaltinis **NumSeq**, pateikiama nauja sukurta numer
 
 Šie duomenų šaltiniai apibrėžti jūsų modelių susiejime:
 
-- Duomenų šaltinis **enumScope**, priklausantis „Microsoft Dynamics 365 Finance“ tipui *Išvardijimas*. Šis duomenų šaltinis nurodo **ERExpressionNumberSequenceScopeType** išvardijimą.
+- **365 finansų išvardijimo** tipo Microsoft Dynamics *enum Yra* duomenų šaltinis. Šis duomenų šaltinis nurodo **ERExpressionNumberSequenceScopeType** išvardijimą.
 - Tipo *Apskaičiuotasis laukas* duomenų šaltinis **NumSeq**. Šiame duomenų šaltinyje yra išraiška `NUMSEQVALUE ("Gene_1", enumScope.Company, "")`.
 
 Kai iškviečiamas duomenų šaltinis **NumSeq**, pateikiama nauja sukurta numeracijos **Gene\_1**, sukonfigūruotos taip, kad būtų pritaikyta kontekstą, pagal kurį vykdomas ER formatas, teikiančiai įmonei, vertė.

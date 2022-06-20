@@ -1,6 +1,6 @@
 ---
 title: Kodėl negalima atšaukti šios operacijos?
-description: Šioje temoje aprašomos skirtingos priežastys, dėl kurių operacijų negalima atšaukti. Joje taip pat pateikiami šios problemos sprendimai.
+description: Šiame straipsnyje aprašomos skirtingos priežastys, dėl kurių operacijų negalima atšaukti. Joje taip pat pateikiami šios problemos sprendimai.
 author: kweekley
 ms.date: 07/21/2021
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2021-07-21
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: e18caf1dbdf8191713c17b1793f5da44cf2f182b
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 9a8b26584b1a9b82440583db693cd14daa580e22
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8724535"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876188"
 ---
 # <a name="why-cant-i-reverse-this-transaction"></a>Kodėl negalima atšaukti šios operacijos?
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje aprašomos skirtingos priežastys, dėl kurių operacijų negalima atšaukti. Joje taip pat pateikiami šios problemos sprendimai.
+Šiame straipsnyje aprašomos skirtingos priežastys, dėl kurių operacijų negalima atšaukti. Joje taip pat pateikiami šios problemos sprendimai.
 
 ## <a name="symptom"></a>Požymis
 
@@ -35,14 +35,14 @@ Organizacijos gali susidurti su situacijomis, kuriose jos turi atšaukti užregi
 
 ## <a name="resolution"></a>Sprendimas
 
-Prieš atšaukiant operacijas, jos turi atitikti konkrečius kriterijus. Likusiuose šios temos skyriuose pateikiama kiekvieno modulio tikrinimas. Nors ši tema susitelkia apie Microsoft Dynamics 365 finansų operacijas, kai kurios koncepcijos ir tikrinimas gali būti taikomi kitoms programoms, pvz., Dynamics 365 Supply Chain Management.
+Prieš atšaukiant operacijas, jos turi atitikti konkrečius kriterijus. Likusiuose šio straipsnio skyriuose pateikiama kiekvieno modulio tikrinimas. Nors šiame straipsnyje daugiausia dėmesio Microsoft Dynamics skiriama 365 finansų operacijoms, kai kurios koncepcijos ir tikrinimas gali būti taikomi kitoms programoms, pvz Dynamics 365 Supply Chain Management..
 
 Be to, vieta, kurioje atšaukiama operacija, gali turėti įtakos tam, ar ją galima atšaukti. Pavyzdžiui, tiekėjo mokėjimą, kuris užregistruotas kaip čekis, galima atšaukti tik iš banko sąskaitų **operacijų** puslapio skyriaus Čekiai. Kvito operacijų **puslapio DK atšaukti** negalima.
 
 Jei **kelių dokumentų** funkcijos (taip pat vadinamos masinio atšaukimo funkcija) masinis atšaukimas įjungtas **funkcijų valdymo** darbo srityje, tai veikia tai, kiek operacijų gali būti atšaukta ir kur jas galima atšaukti. Ši funkcija suteikia dviejų išmokų, kai ji įjungta:
 
 - Kai kuriems operacijų tipams vienu metu galima pasirinkti ir atšaukti daugiau nei vieną operaciją iš žurnalo, kuriame ji buvo užregistruota, arba iš **kvito operacijų** puslapio. Tačiau prieš įjungant funkciją atskiros operacijos turi būti atšaukiamos. Prieš pradedant taikyti šią priemonę, operacijas vienu metu reikia atšaukti po vieną.
-- *Kai kurias* papildomos knygos operacijas galima atšaukti iš žurnalo (bendrojo žurnalo) arba **kvito operacijų** puslapio. Papildomos knygos puslapyje jų atšaukti nereikia. Pavyzdžiui, tiekėjo SF žurnalą anksčiau galima atšaukti tik iš **puslapio Tiekėjo** operacijos. Tačiau dabar jį taip pat galima atšaukti iš DK, iš žurnalo ar **kvito operacijų** puslapio. Kiekviename šios temos skyriuje paaiškinami operacijų tipai, kuriems ši išmoka netaikoma.
+- *Kai kurias* papildomos knygos operacijas galima atšaukti iš žurnalo (bendrojo žurnalo) arba **kvito operacijų** puslapio. Papildomos knygos puslapyje jų atšaukti nereikia. Pavyzdžiui, tiekėjo SF žurnalą anksčiau galima atšaukti tik iš **puslapio Tiekėjo** operacijos. Tačiau dabar jį taip pat galima atšaukti iš DK, iš žurnalo ar **kvito operacijų** puslapio. Kiekviename šio straipsnio skyriuje paaiškinami operacijų tipai, kuriems ši išmoka netaikoma.
 
 Masinio atšaukimo funkcija neleidžia **atšaukti** daugiau operacijų tipų. Jei operacijos tipo anksčiau nepavyko atšaukti, vis tiek jo negalima atšaukti, kai ši funkcija įjungta. Pavyzdžiui, pirkimo užsakymo tiekėjo SF atšaukti negalima, nepaisant to, ar įjungta masinio atšaukimo funkcija.
 
@@ -189,7 +189,7 @@ Tolesni perlaidų tipai negali būti grąžinti:
 
 Keli operacijų tipai naujinti lėšos gautinos papildomi DK. Pavyzdžiai apima kliento SF iš pardavimo užsakymų, klientų SF, kurios įvedamos per bendrąjį žurnalą, laisvos formos SF, klientų mokėjimus ir nurašymes.
 
-Jei masinio atšaukimo priemonė išjungta, operacijas galima atšaukti atskirai iš SF **Klientų operacijų** puslapio arba iš mokėjimo čekiu **Banko sąskaitos** indėliams puslapio. Informacijos apie tai, kaip atšaukti mokėjimą, žr. [grynųjų pinigų ir banko valdymo](cant-reverse-transctns.md#cash-and-bank-management) skyrių toliau šioje temoje.
+Jei masinio atšaukimo priemonė išjungta, operacijas galima atšaukti atskirai iš SF **Klientų operacijų** puslapio arba iš mokėjimo čekiu **Banko sąskaitos** indėliams puslapio. Informacijos, kaip atšaukti mokėjimą, rasite toliau šiame [straipsnyje skyriuje](cant-reverse-transctns.md#cash-and-bank-management) Grynųjų pinigų ir banko valdymas.
 
 Jei masinio atšaukimo funkcija įjungta, vienas ar daugiau sąskaitų gautinų operacijų kvitų dabar gali būti atšaukti iš kvitų operacijų puslapio ir iš žurnalo, iš kurių **operacija buvo** užregistruota. Tačiau depozitus vis dar galima atšaukti tik iš banko sąskaitos, o laisvos formos SF galima atšaukti tik iš tinklalapio (jei funkcija, leidžianti taisyti, įjungta). Taip pat, kliento operacijos dar gali būti grąžintos iš **Operacijos \<main account\>** puslapis DK. Nepaisant to, juos galima atšaukti tik **kvitų operacijų** puslapyje.
 

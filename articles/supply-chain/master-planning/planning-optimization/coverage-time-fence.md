@@ -1,6 +1,6 @@
 ---
 title: Padengimo laiko riba
-description: Šioje temoje aprašoma, kaip nustatyti padengimo laiko ribas, kai naudojate Planavimo optimizavimą. Padengimo laiko riba nurodo jūsų planavimo perspektyvą ir limitą.
+description: Šiame straipsnyje aprašoma, kaip nustatyti padengimo laiko ribas, naudojant planavimo optimizavimą. Padengimo laiko riba nurodo jūsų planavimo perspektyvą ir limitą.
 author: t-benebo
 ms.date: 01/18/2021
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2021-01-18
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 12deca22fd6ff3cb4556e0525ab831e1aea0ee33
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: ebd59e05d2ae227f24e7dae6fae3634aab026c5a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8468922"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847939"
 ---
 # <a name="coverage-time-fences"></a>Padengimo laiko riba
 
 [!include [banner](../../includes/banner.md)]
 
-Šioje temoje aprašoma, kaip nustatyti *padengimo laiko ribas*, kai naudojate Planavimo optimizavimą. „Planners“ gali apibrėžti planavimo perspektyvą (padengimo laiko ribą dienomis) ir neįtraukti tiekimo ir poreikio, nepatenkančio į tą laikotarpį. Todėl padengimo laiko ribos padeda išvengti „triukšmo”, kurį sukelia tiekimo pasiūlymai, į kuriuos jums nereikia reaguoti mėnesiais. Pavyzdžiai apima kitų metų prognozę ir klientų užsakymus, pateikiamus daug toliau nei įprastas gamybos laikas.
+Šiame straipsnyje aprašoma, kaip nustatyti *padengimo laiko ribas*, naudojant planavimo optimizavimą. „Planners“ gali apibrėžti planavimo perspektyvą (padengimo laiko ribą dienomis) ir neįtraukti tiekimo ir poreikio, nepatenkančio į tą laikotarpį. Todėl padengimo laiko ribos padeda išvengti „triukšmo”, kurį sukelia tiekimo pasiūlymai, į kuriuos jums nereikia reaguoti mėnesiais. Pavyzdžiai apima kitų metų prognozę ir klientų užsakymus, pateikiamus daug toliau nei įprastas gamybos laikas.
 
 Padengimo laiko riba yra dienų skaičius po šiandienos datos (arba tiksliau, planavimo vykdymo datos), neįtraukiant tiekimo ir poreikio. Norėdami išvengti vėlavimo, turite užtikrinti, kad padengimo laiko riba yra ilgesnė už bendrą gamybos laiką. Numatytoji sistemos reikšmė yra 100 dienų.
 

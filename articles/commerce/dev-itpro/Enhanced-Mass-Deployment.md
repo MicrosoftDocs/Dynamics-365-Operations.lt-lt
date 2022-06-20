@@ -1,6 +1,6 @@
 ---
 title: Masinis patvirtintų „Commerce“ savitarnos komponentų diegimas
-description: Šioje temoje paaiškinama, kaip naudoti savitarnos komponentų diegimo sistemą, kad jos automatiškai įdiegtų ir įdiegtų paslaugas.
+description: Šiame straipsnyje paaiškinama, kaip naudoti savitarnos komponentų diegimo sistemą, kad jos automatiškai įdiegtų ir įdiegtų paslaugas.
 author: jashanno
 ms.date: 05/11/2022
 ms.topic: article
@@ -9,20 +9,20 @@ ms.reviewer: sericks
 ms.search.region: Global
 ms.author: jashanno
 ms.search.validFrom: 2021-04-30
-ms.openlocfilehash: 5cb27fd0ea366d12c8bd6ee1cdb0c6d584375862
-ms.sourcegitcommit: d70f66a98eff0a2836e3033351b482466bd9c290
+ms.openlocfilehash: a679d78db3ad5bd9cccbd4ab6a7026bd07890f55
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/11/2022
-ms.locfileid: "8742587"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8898584"
 ---
 # <a name="mass-deployment-of-sealed-commerce-self-service-components"></a>Masinis patvirtintų „Commerce“ savitarnos komponentų diegimas
 
 [!include [banner](../includes/banner.md)]
 
-Ši tema taikoma užantspauduotai sistemai, komponentų diegimo tarnyboms, kurios paleidžiamos kas mėnesį, pradedant nuo 10.0.18 leidimo ir Microsoft Dynamics prieinamoms ciklo tarnybų (LCS) bendrai naudojamų turtų bibliotekoje. Nepamirškite, kad pirmieji keli šių naujų diegimo priemonių paleidimai yra pažymėti kaip **(Peržiūra)**. Tačiau vienintelis šio paskyrimo tikslas yra atskirti naujas diegimo įdiegtis, o Microsoft nustato, ar yra kokių nors papildomų funkcijų reikalavimų, kuriuos būtų galima naudoti. Tai nereiškia, kad diegimo programos nėra tinkamos gamybai. Remiantis šių naujų diegimo programų paleidimu Microsoft planuoja nusidėvinti senus (senesnius) diegimo planus 2023 m. spalio mėn. arba maždaug. 
+Šis straipsnis taikomas užantspauduotai sistemai, komponentų diegimo tarnyboms, kurios paleidžiamos kas mėnesį, pradedant nuo 10.0.18 versijos ir Microsoft Dynamics prieinamoms ciklo tarnybų (LCS) bendrai naudojamų turtų bibliotekoje. Nepamirškite, kad pirmieji keli šių naujų diegimo priemonių paleidimai yra pažymėti kaip **(Peržiūra)**. Tačiau vienintelis šio paskyrimo tikslas yra atskirti naujas diegimo įdiegtis, o Microsoft nustato, ar yra kokių nors papildomų funkcijų reikalavimų, kuriuos būtų galima naudoti. Tai nereiškia, kad diegimo programos nėra tinkamos gamybai. Remiantis šių naujų diegimo programų paleidimu Microsoft planuoja nusidėvinti senus (senesnius) diegimo planus 2023 m. spalio mėn. arba maždaug. 
 
-Šioje temoje paaiškinama, kaip naudoti naujas diegimo tarnybas, norint atlikti automatinis diegimą ir atnaujinimų aptarnavimas naudojant komandų eilutės argumentus. Šie argumentai leidžia atlikti masinę diegimą keliais skirtingais būdais.
+Šiame straipsnyje paaiškinama, kaip naudoti naujas diegimo programas, norint atlikti automatinis diegimą ir atnaujinimų aptarnavimas naudojant komandų eilutės argumentus. Šie argumentai leidžia atlikti masinę diegimą keliais skirtingais būdais.
 
 > [!NOTE]
 > Nauja savitarnos paslauga, užantspauduotos diegimo programos nebus galimos programoje "Headquarters" ir jos bus galima atsisiųsti tik naudojant LCS.
@@ -108,7 +108,7 @@ Norint perkelti iš senų savitarnos sistemos komponentų diegimo programų į n
 
 ### <a name="before-you-begin"></a>Prieš pradedant
 
-Svarbu pašalinti seną savitarnos "Modern POS" komponentą. Norėdami gauti daugiau informacijos, peržiūrėkite anksčiau šioje temoje pateiktus perkėlimo veiksmus.
+Svarbu pašalinti seną savitarnos "Modern POS" komponentą. Norėdami gauti daugiau informacijos, peržiūrėkite anksčiau šiame straipsnyje nurodytus perkėlimo veiksmus.
 
 ### <a name="examples-of-silent-deployment"></a>Tyliojo diegimo pavyzdžiai
 
@@ -125,7 +125,7 @@ CommerceModernPOS.exe --help install
 ```
 
 > [!NOTE]
-> "Modern POS" konfigūracijos failo nereikia. Diegimo programa dabar turi įvairių verčių, naudojamų aktyvinant įrenginį, parametrus (parodyta anksčiau šioje temoje).
+> "Modern POS" konfigūracijos failo nereikia. Diegimo programa dabar turi įvairių verčių, naudojamų aktyvinant įrenginį, parametrus (parodyta anksčiau šiame straipsnyje).
 
 Toliau pateikta komanda nurodo visus parametrus, kurie turi būti naudojami įrenginio aktyvinimo metu įdiegus "Modern POS" programą. Šiame pavyzdyje naudojamasĖs-3 **registras**, kuris paprastai naudojamas demonstracinių Dynamics 365 Commerce duomenų vertė.
 
@@ -145,7 +145,7 @@ Norint pasiekti norimus diegimo rezultatus, galima maišyti ir suderinti šias s
 
 ### <a name="before-you-begin"></a>Prieš pradedant
 
-Svarbu pašalinti seną savitarnos aparatūros stoties komponentą. Norėdami gauti daugiau informacijos, peržiūrėkite anksčiau šioje temoje pateiktus perkėlimo veiksmus. Nebėra prekybininko sąskaitos informacijos įrankio. Prekybininko sąskaitos informacija įdiegiama, kai EKA terminalas yra susietas su aparatūros stotyje. Tikrinant šią diegimo programą pirmą kartą, labai rekomenduojama vykdyti šią komandą:
+Svarbu pašalinti seną savitarnos aparatūros stoties komponentą. Norėdami gauti daugiau informacijos, peržiūrėkite anksčiau šiame straipsnyje nurodytus perkėlimo veiksmus. Nebėra prekybininko sąskaitos informacijos įrankio. Prekybininko sąskaitos informacija įdiegiama, kai EKA terminalas yra susietas su aparatūros stotyje. Tikrinant šią diegimo programą pirmą kartą, labai rekomenduojama vykdyti šią komandą:
 
 ```Console
 CommerceHardwareStation.exe --help install
@@ -166,7 +166,7 @@ HardwareStation.exe install --Port 443 --StoreSystemAOSURL "https://MyDynamics36
 ```
 
 > [!NOTE]
-> Aparatūros stotis konfigūracijos failo nereikia. Diegimo programa dabar turi įvairių verčių, kurios reikalingos, parametrus (parodyta anksčiau šioje temoje).
+> Aparatūros stotis konfigūracijos failo nereikia. Diegimo programa dabar turi įvairių verčių, kurios reikalingos, parametrus (parodyta anksčiau šiame straipsnyje).
 
 Toliau pateikiama komanda nurodo visus parametrus, kurių reikia norint praleisti būtinųjų komponentų tikrinimus standartinio diegimo metu. 
 
@@ -189,7 +189,7 @@ CommerceStoreScaleUnitSetup.exe --help install
 
 ### <a name="before-you-begin"></a>Prieš pradedant
 
-Yra labai svarbu pašalinti seną savitarnos CSU (savitarnos) komponentą. Norėdami gauti daugiau informacijos, peržiūrėkite anksčiau šioje temoje pateiktus perkėlimo veiksmus.
+Yra labai svarbu pašalinti seną savitarnos CSU (savitarnos) komponentą. Norėdami gauti daugiau informacijos, peržiūrėkite anksčiau šiame straipsnyje nurodytus perkėlimo veiksmus.
 
 ### <a name="examples-of-silent-deployment"></a>Tyliojo diegimo pavyzdžiai
 

@@ -1,6 +1,6 @@
 ---
 title: Išskaitomo mokesčio nustatymas
-description: Šioje temoje paaiškinama, kaip nustatyti dovanų korteles naudojant.
+description: Šiame straipsnyje paaiškinama, kaip nustatyti išskaitomų mokesčių.
 author: twheeloc
 ms.date: 07/11/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c3c4992c7ab02793db3650df5624143d0ec090d0
-ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
+ms.openlocfilehash: 0cc080df587904568796a9d6794987326be3ad26
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "8565590"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907957"
 ---
 # <a name="set-up-withholding-tax"></a>Išskaitomo mokesčio nustatymas
 
 [!include [banner](../../includes/banner.md)]
 
-Šioje temoje paaiškinama, kaip nustatyti dovanų korteles naudojant. *Išskaitomas mokestis* yra tiekėjams taikomas mokestis, kurį taikant nesukuriama PVM operacijų. Tiekėjas įsipareigoja sumokėti jo mokėjimams priskiriamą išskaitomą mokestį. Todėl išskaitomą mokestį galima registruoti tik balanso arba įsipareigojimų sąskaitose. Šis užduočių vadovas parodo, kaip nustatyti išskaitomą mokestį.
+Šiame straipsnyje paaiškinama, kaip nustatyti išskaitomų mokesčių. *Išskaitomas mokestis* yra tiekėjams taikomas mokestis, kurį taikant nesukuriama PVM operacijų. Tiekėjas įsipareigoja sumokėti jo mokėjimams priskiriamą išskaitomą mokestį. Todėl išskaitomą mokestį galima registruoti tik balanso arba įsipareigojimų sąskaitose. Šis užduočių vadovas parodo, kaip nustatyti išskaitomą mokestį.
 
 1. Pasirinkite **Mokestis > Netiesioginiai mokesčiai > Išskaitomas mokestis > Išskaitomo mokesčio kodai**.
 2. Pasirinkite **Naujas**.

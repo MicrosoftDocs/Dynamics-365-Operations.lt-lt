@@ -1,6 +1,6 @@
 ---
 title: Skambučių centro užsakymo sulaikymo funkcijų konfigūravimas ir darbas su jomis
-description: Šioje temoje aprašoma, kaip dirbti su užsakymo sulaikymo funkcijomis naudojant „Dynamics 365 Commerce“.
+description: Šiame straipsnyje aprašoma, kaip dirbti su užsakymų sulaikyme naudojant Dynamics 365 Commerce.
 author: josaw1
 ms.date: 05/14/2018
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: f474b5936f2ae154ad54185becd91865642e8efe3cf10e7dcdbb650c6c833b21
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1f8c5daecc6aa05cc6a0f5dc4a2bc44a0fbba07d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6762601"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860142"
 ---
-# <a name="configure-and-work-with-call-center-order-holds"></a>Skambučių centro užsakymo sulaikymo funkcijų konfigūravimas ir jų naudojimas
+# <a name="configure-and-work-with-call-center-order-holds"></a>Skambučių centro užsakymo sulaikymo funkcijų konfigūravimas ir darbas su jomis
 
 [!include [banner](includes/banner.md)]
 
-Šioje temoje aprašomos „Dynamics 365 Commerce“ užsakymo sulaikymo funkcijos, skirtos skambučių centro užsakymams.
+Šiame straipsnyje aprašomos užsakymo sulaikytos funkcijos, Dynamics 365 Commerce kurios turi skambučių centro užsakymų.
 
 ## <a name="configuring-call-center-order-holds"></a>Skambučių centro užsakymo sulaikymo funkcijų konfigūravimas
 

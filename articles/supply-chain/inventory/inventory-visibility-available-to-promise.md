@@ -1,6 +1,6 @@
 ---
 title: Turimų atsargų matomumo grafikai ir prieinamos atsargos
-description: Šioje temoje aprašoma, kaip planuoti būsimus turimos atsargos pakeitimus ir apskaičiuoti prieinamų atsargų (ATP) kiekius.
+description: Šiame straipsnyje aprašoma, kaip planuoti būsimus turimos atsargos pakeitimus ir apskaičiuoti prieinamų atsargų (ATP) kiekius.
 author: yufeihuang
 ms.date: 05/11/2022
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2022-03-04
 ms.dyn365.ops.version: 10.0.26
-ms.openlocfilehash: 7456f87bede7bd0073223fa4762f96f919799e06
-ms.sourcegitcommit: 38d97efafb66de298c3f504b83a5c9b822f5a62a
+ms.openlocfilehash: 4a0edeedfe42b43ef36c8ca091b01eef815f3632
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/17/2022
-ms.locfileid: "8763259"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856199"
 ---
 # <a name="inventory-visibility-on-hand-change-schedules-and-available-to-promise"></a>Turimų atsargų matomumo grafikai ir prieinamos atsargos
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje *aprašoma*, kaip nustatyti turimos atsargose pakeitimo grafiko priemonę, kad būtų galima suplanuoti būsimus turimos atsargos pakeitimus ir apskaičiuoti prieinamų atsargų (ATP) kiekius. ATP – tai turimos prekės kiekis, kurį galima žadėti klientui kitą laikotarpį. Naudojant šį skaičiavimą gali labai padidėti užsakymo įvykdymo galimybės.
+Šiame straipsnyje aprašoma, kaip nustatyti *turimos* atsargose pakeitimo grafiko priemonę, kad būtų galima suplanuoti būsimus turimos atsargos pakeitimus ir apskaičiuoti prieinamų atsargų (ATP) kiekius. ATP – tai turimos prekės kiekis, kurį galima žadėti klientui kitą laikotarpį. Naudojant šį skaičiavimą gali labai padidėti užsakymo įvykdymo galimybės.
 
 Daugeliui gamintojų, mažmenininkų ar pagal ką nors daugiau sužinoti, kas šiuo metu yra, nepakanka. Jos turi būti visiškai matomos ateityje. Šis pasiekiamumas turi atsižvelgti į būsimą tiekimą, būsimą poreikį ir ATP.
 

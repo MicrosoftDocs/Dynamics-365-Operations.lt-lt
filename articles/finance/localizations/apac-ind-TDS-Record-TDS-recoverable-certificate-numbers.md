@@ -1,6 +1,6 @@
 ---
 title: Įrašykite TDS keičiamas sertifikato numerius
-description: Šioje temoje paaiškinama, kaip naudoti „Susigrąžinamų sertifikatų" puslapį norint įrašyti sertifikatų numerius ir datas, taikomas šaltinio (TDS) sertifikatams, kurie gauti konkrečiam tiekėjui, klientui arba DK.
+description: Šiame straipsnyje paaiškinama, kaip naudoti "Recoverable" sertifikatų puslapį norint įrašyti sertifikatų numerius ir datas, taikomas šaltinio (TDS) sertifikatams, kurie gauti konkrečiam tiekėjui, klientui arba DK.
 author: kailiang
 ms.date: 02/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 5d62f560fe58a5fb7bd158bed9bcb111d75c7f00
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 513412e292167795fad9d80b68e6e5e14dbd13c5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726496"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853262"
 ---
 # <a name="record-tds-recoverable-certificate-numbers"></a>Įrašykite TDS keičiamas sertifikato numerius
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje paaiškinama, kaip naudoti **Susigrąžinamų sertifikatų** puslapį norint įrašyti sertifikatų numerius ir datas, taikomas šaltinio (TDS) sertifikatams, kurie gauti konkrečiam tiekėjui, klientui arba DK. Norėdami atnaujinti TDS sertifikatų numerius ir datas, įrašytus šio puslapio TDS operacijoms, naudokite puslapį **Atnaujinti sertifikatą** (**DK \> Periodinis \> išskaitomo mokesčio \> atnaujinimo sertifikatas**). Baigę atnaujinti TDS sertifikatų numerius, uždarykite juos.
+Šiame straipsnyje paaiškinama, kaip naudoti "Recoverable **" sertifikatų puslapį norint įrašyti sertifikatų numerius ir datas**, taikomas šaltinio (TDS) sertifikatams, kurie gauti konkrečiam tiekėjui, klientui arba DK. Norėdami atnaujinti TDS sertifikatų numerius ir datas, įrašytus šio puslapio TDS operacijoms, naudokite puslapį **Atnaujinti sertifikatą** (**DK \> Periodinis \> išskaitomo mokesčio \> atnaujinimo sertifikatas**). Baigę atnaujinti TDS sertifikatų numerius, uždarykite juos.
 
 Norėdami įrašyti TDS sertifikatų numerius ir datas, atlikite šiuos veiksmus.
 

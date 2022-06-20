@@ -1,8 +1,8 @@
 ---
 title: Daugiakalbių pranešimų Elektroninėse ataskaitose kūrimas
-description: Šioje temoje paaiškinama, kaip galite naudoti Elektroninės ataskaitos (angl. Electronic Reporting (ER)) žymas kurti ir generuoti daugiakalbius pranešimus.
+description: Šiame straipsnyje paaiškinama, kaip kurti ir generuoti ataskaitas keliomis kalbomis, naudojant elektroninių ataskaitų (ER) žymes.
 author: NickSelin
-ms.date: 04/28/2022
+ms.date: 05/31/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: aa8297d4f5c56a7a20561b1a90c5852e65dbff31
-ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
+ms.openlocfilehash: c042d609d68544aa4be5d707109a15b2ab8d422c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/28/2022
-ms.locfileid: "8811613"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845750"
 ---
 # <a name="design-multilingual-reports-in-electronic-reporting"></a>Daugiakalbių pranešimų Elektroninėse ataskaitose kūrimas
 
@@ -142,6 +142,9 @@ Jei taip sukonfigūruosite ER formatą, ataskaita bus sugeneruota naudojant atit
 
 Jeigu nurodyta žyma neturi formato vykdymo konteksto kalbos vertimo, vietoj to, naudojamas žymos tekstas EN-US kalba.
 
+> [!TIP]
+> Galite naudoti aplanką ir **atskirų** tipų RINKMENos komponentus **redaguojamu** ER formatu, norėdami nurodyti, kaip sugeneruotas siunčiamas failas. Norėdami pavadinti sugeneruotą failą, sukonfigūruokite [komponento parametro](er-formula-language.md) Failo vardas **ER** išraišką. Žymės gali būti naudojamas sukonfigūruotoje išraiškoje. Kadangi failo **vardo** parametras pagal numatytuosius nustatymus yra agnostinis, visų šioje išraiškoje nurodomų žymių tekstas rodomas numatytąja EN-US kalba vykdyklėje. Tačiau versijoje 10.0.28 **ir vėlesnėje versijoje galite įgalinti parametrą Kalbos nuostatos taikyti išraiškos funkcijai** Failo vardas. Tada **atliekant** nustatymą failo vardo **išraiška** atsižvelgiama į kalbos nuostatų parametrą.
+
 ## <a name="language"></a>Kalba
 
 ER palaiko skirtingus būdus nurodyti generuotos ataskaitos kalbą. **Kalbos prioritetai** lauke **Formatas** skirtuke galite pasirinkti šias vertes:
@@ -198,7 +201,7 @@ ER komponento konfigūracija baigiama ER konfigūracijos juodraštinėje versijo
 
 ![ERA konfigūracijos puslapis, siūlantis prieigą prie konfigūracijos versijos juodraščio būsenoje.](./media/er-multilingual-labels-configurations.png)
 
-Kaip anksčiau aprašyta šioje temoje, galite pridėti reikiamas ER žymas prie redaguojamo ER komponento. Tokiu būdu galite nurodyti ER žymų tekstą EN-US kalba. Tada galite eksportuoti ER komponento žymas naudodami įtaisytąją ER funkciją. Pasirinkite ER konfigūracijos juodraštinę versiją, kurioje yra redaguojamas ER komponentas, ir pasirinkite **Sukeisti \>Eksporto žymos**.
+Kaip aprašyta anksčiau šiame straipsnyje, reikalaujamas ER žymes galite pridėti prie redaguojamo ER komponento. Tokiu būdu galite nurodyti ER žymų tekstą EN-US kalba. Tada galite eksportuoti ER komponento žymas naudodami įtaisytąją ER funkciją. Pasirinkite ER konfigūracijos juodraštinę versiją, kurioje yra redaguojamas ER komponentas, ir pasirinkite **Sukeisti \>Eksporto žymos**.
 
 ![ER konfigūracijos puslapis, leidžiantis eksportuoti ER žymas iš pasirinktos konfigūracijos versijos.](./media/er-multilingual-labels-export.png)
 
@@ -229,7 +232,7 @@ ER versijų valdymo žymos priskyrimas ER komponento atributui. Žymos priskyrim
 
 Įdėtoji [LAUKŲSĄRAŠAS](er-functions-list-listoffields.md) ER funkcija gali pasinaudoti ER žymomis, sukonfigūruotomis pagal kai kurias ER komponentų prekes.
 
-Kaip anksčiau aprašyta šioje temoje, **Žyma** ir **Aprašas** atributai kiekvieno [modelio](#LinkModelEnum) arba [formato](#LinkFormatEnum) ER išvardijimo vertė gali būti susieta su ER žyma, prieinama atitinkamame ER komponente. Galite konfigūruoti ER išraišką, kurioje iškviečiate **LAUKŲSĄRAŠAS** funkciją, naudodami ER išvardijimą kaip argumentą. Ši išraiška grąžina sąrašą, kuriame yra ER išvardijimo, apibūdinto kaip šios funkcijos argumentas, kiekvienos vertės įrašas. Kiekviename įraše yra ER žymos vertė, susieta su ER išvardijimo verte:
+Kaip aprašyta anksčiau šiame straipsnyje, kiekvieno modelio ar formato ER išvardijimo vertės žymos ir aprašymo atributai gali būti susieti su ER žyme, **·** **·**[...](#LinkModelEnum)[kuri](#LinkFormatEnum) pasiekiama tam tikrą ER komponentą. Galite konfigūruoti ER išraišką, kurioje iškviečiate **LAUKŲSĄRAŠAS** funkciją, naudodami ER išvardijimą kaip argumentą. Ši išraiška grąžina sąrašą, kuriame yra ER išvardijimo, apibūdinto kaip šios funkcijos argumentas, kiekvienos vertės įrašas. Kiekviename įraše yra ER žymos vertė, susieta su ER išvardijimo verte:
 
 - ER žymos vertė, susieta su **Žyma** atributais, saugoma grąžinto įrašo **Žyma** lauke.
 - ER žymos vertė, susieta su **Aprašas** atributais, saugoma grąžinto įrašo **Aprašas** lauke.

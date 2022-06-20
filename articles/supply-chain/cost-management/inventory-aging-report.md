@@ -1,6 +1,6 @@
 ---
 title: Atsargų skirstymo pagal terminus ataskaitos pavyzdžiai ir logika
-description: Šioje temoje pateikiami pavyzdžiai, rodantys, kaip interpretuoti atsargų skirstymo pagal terminus ataskaitos rezultatus.
+description: Šiame straipsnyje pateikiami keli pavyzdžiai, kaip interpretuoti atsargų skirstymo pagal terminus ataskaitos rezultatus.
 author: JennySong-SH
 ms.date: 5/29/2020
 ms.topic: article
@@ -16,24 +16,24 @@ ms.search.industry: Manufacturing
 ms.author: yanansong
 ms.search.validFrom: 2020-5-29
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4cfffa49f802c601da391617b123134c435fba92
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 40066431ddfb9644c059025eac55d1b36789882e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8672352"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8848026"
 ---
 # <a name="inventory-aging-report-examples-and-logic"></a>Atsargų skirstymo pagal terminus ataskaitos pavyzdžiai ir logika
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje pateikiami pavyzdžiai, rodantys, kaip interpretuoti **Atsargų skirstymas pagal terminus** ataskaitos rezultatus. Ši ataskaita sugrupuoja turimos pasirinktos prekės arba prekių grupės kiekį ir atsargų vertes į kelių laikotarpių rinkinius. Šioje temoje taip pat parodoma vidinė ataskaitos logika.
+Šiame straipsnyje pateikiami keli pavyzdžiai, kaip interpretuoti atsargų skirstymo pagal terminus **ataskaitos** rezultatus. Ši ataskaita sugrupuoja turimos pasirinktos prekės arba prekių grupės kiekį ir atsargų vertes į kelių laikotarpių rinkinius. Šiame straipsnyje taip pat pateikiama vidinė ataskaitos logika.
 
-Šioje temoje pateikiami rezultatai rodo rezultatus, kurie pateikiami standartinėje **Atsargų skirstymas pagal terminus** ataskaitoje. Tačiau bendrai rekomenduojame naudoti [Atsargų skirstymo pagal terminus ataskaitos saugyklos](inventory-aging-report-storage.md) versiją, ypač jei turite daug prekių ir sandėlių, kuriuos reikia sutvarkyti. Atsargų skirstymo pagal terminus ataskaitos saugykla išsaugo kiekvieną jūsų sukurtą ataskaitą, parodo rezultatus kaip interaktyvų puslapį ir diagramą ir leidžia eksportuoti visas įrašytas ataskaitas.
+Šiame straipsnyje pateikti pavyzdžiai rodo rezultatus, kurie pateikiami standartinėje atsargų skirstymo pagal **terminus** ataskaitoje. Tačiau bendrai rekomenduojame naudoti [Atsargų skirstymo pagal terminus ataskaitos saugyklos](inventory-aging-report-storage.md) versiją, ypač jei turite daug prekių ir sandėlių, kuriuos reikia sutvarkyti. Atsargų skirstymo pagal terminus ataskaitos saugykla išsaugo kiekvieną jūsų sukurtą ataskaitą, parodo rezultatus kaip interaktyvų puslapį ir diagramą ir leidžia eksportuoti visas įrašytas ataskaitas.
 
 ## <a name="sample-data-that-is-used-in-these-examples"></a>Duomenų, naudojamų šiuose pavyzdžiuose, pavyzdys
 
-Šios temos pavyzdžiai pagrįsti atsargų operacijų duomenų pavyzdžiu, aprašytu šioje dalyje.
+Šiame straipsnyje pateikti pavyzdžiai pagrįsti atsargų operacijų duomenų pavyzdžiais, aprašytais šiame skyriuje.
 
 ### <a name="storage-dimension-setup"></a>Saugyklos dimensijos nustatymas
 

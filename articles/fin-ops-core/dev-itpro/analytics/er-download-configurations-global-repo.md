@@ -1,6 +1,6 @@
 ---
 title: ER konfigūracijų atsisiuntimas iš konfigūravimo tarnybos bendrosios saugyklos
-description: Šioje temoje paaiškinama, kaip atsisiųsti elektroninių ataskaitų (ER) konfigūracijas iš konfigūravimo tarnybos bendrosios saugyklos.
+description: Šiame straipsnyje paaiškinama, kaip atsisiųsti elektroninių ataskaitų (ER) konfigūracijas iš visuotinės konfigūracijos tarnybos saugyklos.
 author: NickSelin
 ms.date: 06/02/2020
 ms.topic: article
@@ -15,22 +15,22 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 32eb5206fadefbd024f2dd2af888d166c81b950f
-ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
+ms.openlocfilehash: 4386e8fdbb2856d14d5b47ee5ab416c8d58b8d63
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "7605336"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8891910"
 ---
 # <a name="download-er-configurations-from-the-global-repository-of-configuration-service"></a>ER konfigūracijų atsisiuntimas iš konfigūravimo tarnybos bendrosios saugyklos
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje paaiškinama, kaip atsisiųsti [elektroninių ataskaitų (ER) konfigūracijas](general-electronic-reporting.md#Configuration) iš konfigūravimo tarnybos bendrosios saugyklos. Norėdami gauti daugiau informacijos, žr. [„Microsoft Dynamics 365 for Finance and Operations“ – „Regulatory Services“, konfigūravimo tarnybą](/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration).
+Šiame straipsnyje paaiškinama, kaip atsisiųsti elektroninių [ataskaitų (ER) konfigūracijas](general-electronic-reporting.md#Configuration) iš visuotinės konfigūracijos tarnybos saugyklos. Norėdami gauti daugiau informacijos, žr. [„Microsoft Dynamics 365 for Finance and Operations“ – „Regulatory Services“, konfigūravimo tarnybą](/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration).
 
 ## <a name="open-configurations-repository"></a>Atidarykite konfigūracijų saugyklą
 
-1. Prisijunkite prie „Dynamics 365 Finance“ programos naudodami vieną iš tolesnių vaidmenų.
+1. Prisiregistruokite prie "Dynamics 365" finansinės programos, naudodami vieną iš šių vaidmenų:
 
     - Elektroninės ataskaitos kūrėjas
     - Elektroninės ataskaitos funkcijų konsultantas
@@ -80,7 +80,7 @@ ms.locfileid: "7605336"
     ![Konfigūracijos saugyklos puslapis, Versijos "FastTab", Importavimo mygtukas.](./media/er-download-configurations-global-repo-filtered-configurations.png)
 
 > [!NOTE]
-> Atsižvelgiant į ER parametrus, konfigūracijos patikrinamos po importavimo. Galite būti informuoti apie rastas nenuoseklumo problemas. Prieš naudodami importuotą konfigūracijos versiją, turite išspręsti problemas. Daugiau informacijos ieškokite su šia tema susijusių išteklių sąraše.
+> Atsižvelgiant į ER parametrus, konfigūracijos patikrinamos po importavimo. Galite būti informuoti apie rastas nenuoseklumo problemas. Prieš naudodami importuotą konfigūracijos versiją, turite išspręsti problemas. Norėdami gauti daugiau informacijos, peržiūrėkite šio straipsnio susijusių išteklių sąrašą.
 
 > [!NOTE]
 > ER konfigūracijos gali būti sukonfigūruotos kaip priklausomos nuo kitų konfigūracijų. Todėl kartu su pasirinkta konfigūracija gali būti importuotos ir kitos konfigūracijos. Norėdami gauti daugiau informacijos apie konfigūracijos priklausomybes, žr. [ER konfigūracijų priklausomybės nuo kitų komponentų apibrėžimas](tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md).

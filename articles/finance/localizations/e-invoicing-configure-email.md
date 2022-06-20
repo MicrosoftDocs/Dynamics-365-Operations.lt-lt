@@ -1,6 +1,6 @@
 ---
-title: Konfigūruoti el. pašto kanalą
-description: Šioje temoje paaiškinama, kaip konfigūruoti el. pašto kanalą, kad būtų galima gauti elektronines SF.
+title: El. pašto kanalo konfigūravimas
+description: Šiame straipsnyje paaiškinama, kaip konfigūruoti el. pašto kanalą, kad būtų galima gauti elektronines SF.
 author: dkalyuzh
 ms.date: 02/09/2022
 ms.topic: article
@@ -15,14 +15,14 @@ ms.search.region: Global
 ms.author: dkalyuzh
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 6a5896a033212cf0f29f686eec0ab6fb3bc1d2a6
-ms.sourcegitcommit: ffdb6794746ffe5461f9dcf34ed8e64976d22d2d
+ms.openlocfilehash: 9227b032ffe896ad6a67962e5047fd797a883ae1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "8371930"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8902391"
 ---
-# <a name="configure-an-email-channel"></a>Konfigūruoti el. pašto kanalą
+# <a name="configure-an-email-channel"></a>El. pašto kanalo konfigūravimas
 
 [!include [banner](../includes/banner.md)]
 
@@ -55,7 +55,7 @@ Jei jūsų sukurta elektroninių SF išrašymo funkcija importuoja elektronines 
     | Datų filtras          | Nurodykite datą, iki kurios turi būti apibrėžtas maksimalus apdorojamų pranešimų terminas dienomis. Šis laukas nėra būtinas. Numatytoji vertė yra 30 dienų. |
     | Apdorojimo režimas      | <p>Pasirinkite vieną iš šių pasirinkčių norėdami nurodyti, ar visi el. laiško priedai gali būti apdorojami kartu, ar kiekvienas priedas turi būti apdorojamas atskirai:</p><ul><li><b>Pagal priedą</b> – naujas elektroninis dokumentas bus sukurtas kiekvienam el. laiško priedui. Pavyzdžiui, jei viename el. laiške yra keletas failų, kuriuose yra el. SF duomenų, kiekvienas failas sistemoje bus laikomas nauja el. SF.</li><li><b>El.</b> paštu – vienas priedas bus laikomas vienu priedus, o sistemoje bus sukurta viena elektroninė SF. Kitus priedus galima naudoti kaip palaikymo failus.</li></ul> |
 
-9. **Priedų filtro skyriuje** pridėkite failų filtravimo informaciją. Bus apdoroti tik priedai, kurie atitinka nurodytą filtrą. Pavyzdžiui, **\*.xml filtruos** priedus, kurie turi .xml failo vardo plėtinį. Priedo pavadinimas naudojamas nustatymo metu „Dynamics 365 Finance“ arba „Dynamics 365 Supply Chain Management“ jo metu.
+9. **Priedų filtro skyriuje** pridėkite failų filtravimo informaciją. Bus apdoroti tik priedai, kurie atitinka nurodytą filtrą. Pavyzdžiui, **\*.xml filtruos** priedus, kurie turi .xml failo vardo plėtinį. Priedo pavadinimas naudojamas "Dynamics 365 Finance" arba Dynamics 365 Supply Chain Management nustatymo metu.
 
     - Jei ankstesniame veiksme **nustatote** apdorojimo **režimo** lauką Kaip el. laišką, čia galite įtraukti kelis filtrus. Pavadinimas identifikuos konkretų dokumentą.
     - Jei apdorojimo režimo **lauką** nustatote **kaip Priedą**, galite pridėti tik vieną filtrą.

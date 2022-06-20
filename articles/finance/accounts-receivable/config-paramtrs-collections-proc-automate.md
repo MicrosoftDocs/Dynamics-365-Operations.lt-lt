@@ -1,6 +1,6 @@
 ---
 title: Mokėjimo proceso automatizavimo parametrų konfigūravimas
-description: Šioje temoje aprašomi parametrai, paveikiantys automatizuotus mokėjimų procesus, ir pateikia gaires, kaip juos nustatyti, kad automatizuotas procesas atspindėtų jūsų tikslus.
+description: Šiame straipsnyje aprašomi parametrai, paveikiantys automatizuotus surinkimo procesus, ir pateikia nurodymų, kaip juos nustatyti, kad automatizuotas procesas atspindėtų jūsų siekius ir tikisi.
 author: JodiChristiansen
 ms.date: 08/05/2021
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-08-26
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: e7a7e048a371fc90456368206b91c29c4b1264d5
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: c5d0f801c47ef2d98d8ba410dc593bd7640839c1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734402"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8900048"
 ---
 # <a name="configure-parameters-for-collection-process-automation"></a>Mokėjimo proceso automatizavimo parametrų konfigūravimas
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje aprašomi parametrai, paveikiantys automatizuotus mokėjimų procesus, ir pateikia gaires, kaip juos nustatyti, kad automatizuotas procesas atspindėtų jūsų tikslus. Daugiau informacijos apie tai, kaip automatizuoti mokėjimų priežiūros procesus, rasite [Mokėjimų priežiūros procesų automatizavime](collections-process-automate.md).
+Šiame straipsnyje aprašomi parametrai, paveikiantys automatizuotus surinkimo procesus, ir pateikia nurodymų, kaip juos nustatyti, kad automatizuotas procesas atspindėtų jūsų siekius ir tikisi. Daugiau informacijos apie tai, kaip automatizuoti mokėjimų priežiūros procesus, rasite [Mokėjimų priežiūros procesų automatizavime](collections-process-automate.md).
 
 ## <a name="general"></a>Bendroji
 Įveskite numerį į **Klientų procentinė dalis paketinei užduočiai**, jei norite nustatyti paketinių užduočių numerį vienam automatizavimo procesui. Nustatykite **Registruoti mokėjimų priežiūros laiškus automatiškai** į **Taip**, kad mokesčių priežiūros laiško veiksmo tipas registruotų laišką automatizavimo metu. Nustatykite **Kurti automatizavimų veiklas** į **Taip**, jog sukurtumėte ir uždarytumėte ne veiklos veiksmo tipų veiklas, skirtas visų paskyroje atliktų automatizuotų veiksmų peržiūrai. Nurodykite, kiek dienų bus saugoma mokesčių priežiūros retrospektyva **Dienos, kiek bus saugoma mokėjimų priežiūros proceso automatizavimo retrospektyva**. Kai SF pasiekia paskutinį mokėjimų priežiūros proceso veiksmą, ji nebus naudojama būsimiems procesų automatizavimo veiksmų tipams kurti, jei **Neįtraukti SF aktyvavus paskutinį proceso veiksmą** nustatyta į **Taip**. Kita seniausia SF nustato tolesnį proceso automatizavimo veiksmą, kad būtų užtikrinti tolesni mokėjimų priežiūros proceso automatizavimo veiksmai. 

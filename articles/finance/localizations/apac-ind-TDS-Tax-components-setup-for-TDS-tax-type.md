@@ -1,6 +1,6 @@
 ---
 title: Nustatykite komponentus TDS mokesčių tipui
-description: Šioje temoje paaiškinama, kaip nustatyti šaltinio išskaitomo mokesčio komponentus priemonės mokesčių išskaitomos išskaitomo mokesčio šaltinio mokesčių tipui. Taip pat paaiškinama, kaip nustatyti ribinę ribą, naudojamą skaičiuojant kiekvieno TDS komponento TDS.
+description: Šiame straipsnyje paaiškinama, kaip nustatyti išskaitomo mokesčio komponentus, naudojant šaltinio (TDS) mokesčio tipą. Taip pat paaiškinama, kaip nustatyti ribinę ribą, naudojamą skaičiuojant kiekvieno TDS komponento TDS.
 author: kailiang
 ms.date: 02/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 9c86341f7528e2c85b813e4f825ae34f10680a9b
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: df2eb10ce9e372bb1e984f6ae1a2e889bbd90ad0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8727123"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871163"
 ---
 # <a name="set-up-tax-components-for-the-tds-tax-type"></a>Nustatykite komponentus TDS mokesčių tipui
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje paaiškinama, kaip nustatyti šaltinio išskaitomo mokesčio komponentus priemonės mokesčių išskaitomos išskaitomo mokesčio šaltinio mokesčių tipui. TDS komponentai yra TDS, papildomas mokestis, PE-Jaus ir SHE paslaugos. Taip pat temoje paaiškinama, kaip nustatyti ribinę ribą, naudojamą skaičiuojant kiekvieno TDS komponento TDS. Be to, galite nustatyti išimties ribinę vertę, naudojamą skaičiuojant kiekvieno TDS komponento TDS.
+Šiame straipsnyje paaiškinama, kaip nustatyti išskaitomo mokesčio komponentus, naudojant šaltinio (TDS) mokesčio tipą. TDS komponentai yra TDS, papildomas mokestis, PE-Jaus ir SHE paslaugos. Šiame straipsnyje taip pat paaiškinama, kaip nustatyti ribinę vertę, naudojamą skaičiuojant kiekvieno TDS komponento TDS. Be to, galite nustatyti išimties ribinę vertę, naudojamą skaičiuojant kiekvieno TDS komponento TDS.
 
 Atlikite šiuos veiksmus TDS komponentams nustatyti.
 

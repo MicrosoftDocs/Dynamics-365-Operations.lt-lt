@@ -1,6 +1,6 @@
 ---
-title: Numeracijų nustatymas naudojant vediklį
-description: Šioje temoje paaiškinta, kaip naudojant vedlį tuo pačiu metu nustatyti visas reikalingas numeracijas.
+title: Numeracijų nustatymas naudojant vedlį
+description: Šiame straipsnyje paaiškinama, kaip nustatyti visas reikalingas numeracijas vienu metu, naudojant vedlį.
 author: SunilGarg
 ms.date: 07/18/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7388a835147e1e8242463fee98c57c300d062877
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: cae739aad1166eee1abebe3c0adc7939bca55bc4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7777573"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847069"
 ---
 # <a name="set-up-number-sequences-using-a-wizard"></a>Numeracijų nustatymas naudojant vediklį
 
 [!include [banner](../../includes/banner.md)]
 
-Numerių sekos naudojamos generuojant perskaitomus, unikalius identifikatorius bendrųjų duomenų įrašams ir operacijų įrašams, kuriems jie reikalingi. Pagrindinių duomenų arba operacijų įrašas, kuriam reikia identifikatoriaus, vadinamas nuoroda. Kad galėtumėte kurti naujus įrašus kaip nuorodas, turite nustatyti numeraciją ir susieti ją su nuoroda. Šioje temoje paaiškinta, kaip naudojant vedlį tuo pačiu metu nustatyti visas reikalingas numeracijas. Kuriant šią procedūrą naudojama demonstracinių duomenų įmonė yra USMF.
+Numerių sekos naudojamos generuojant perskaitomus, unikalius identifikatorius bendrųjų duomenų įrašams ir operacijų įrašams, kuriems jie reikalingi. Pagrindinių duomenų arba operacijų įrašas, kuriam reikia identifikatoriaus, vadinamas nuoroda. Kad galėtumėte kurti naujus įrašus kaip nuorodas, turite nustatyti numeraciją ir susieti ją su nuoroda. Šiame straipsnyje paaiškinama, kaip nustatyti visas reikalingas numeracijas vienu metu, naudojant vedlį. Kuriant šią procedūrą naudojama demonstracinių duomenų įmonė yra USMF.
 
 1. Eikite į **Naršymo sritis > Moduliai > Organizacijos administravimas > Numeracijos > Numeracijos**.
 2. Pasirinkite **Generuoti**.

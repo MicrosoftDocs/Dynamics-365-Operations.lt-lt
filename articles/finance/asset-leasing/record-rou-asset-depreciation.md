@@ -1,6 +1,6 @@
 ---
 title: Naudojimo teise valdomo turto nusidėvėjimo įrašymas (peržiūros versija)
-description: Šioje temoje paaiškinama, kaip sukurti amortizacijos žurnalo įrašą, reikalingą nuomai, kuris pripažįstama organizacijos balanse.
+description: Šiame straipsnyje paaiškinama, kaip sukurti amortizavimo, kuris reikalingas nuomai, kurios pripažįstamos organizacijos balanso lape, žurnalo įrašą.
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: ebac6c8d008babec93061071414579eec3a73223
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 93e521cf409af4c01d625f27bdd7a7564e471bd9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8727712"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903282"
 ---
 # <a name="record-right-of-use-asset-depreciation-preview"></a>Naudojimo teise valdomo turto nusidėvėjimo įrašymas (peržiūros versija)
 
@@ -28,13 +28,13 @@ ms.locfileid: "8727712"
 [!include [preview banner](../includes/preview-banner.md)]
 
 
-Jei nuoma pripažįstama organizacijos balanse, naudojimo teise valdomas turtas amortizuojamas kas mėnesį. Šioje temoje paaiškinama, kaip sukurti amortizavimo žurnalo įrašą. Amortizacija debetuoja išlaidų DK sąskaitą ir kredituoja sukauptą nusidėvėjimo DK sąskaitą, atsižvelgiant į jūsų registravimo šablono sąranką ir nuomos tipą. Šie įrašai gali būti sukurti kiekvienai nuomai arba jie gali būti sukurti kelioms nuomoms, naudojant paketo žurnalo funkcijas.
+Jei nuoma pripažįstama organizacijos balanse, naudojimo teise valdomas turtas amortizuojamas kas mėnesį. Šiame straipsnyje paaiškinama, kaip sukurti amortizavimo žurnalo įrašą. Amortizacija debetuoja išlaidų DK sąskaitą ir kredituoja sukauptą nusidėvėjimo DK sąskaitą, atsižvelgiant į jūsų registravimo šablono sąranką ir nuomos tipą. Šie įrašai gali būti sukurti kiekvienai nuomai arba jie gali būti sukurti kelioms nuomoms, naudojant paketo žurnalo funkcijas.
 
 ## <a name="asset-depreciation-schedule"></a>Turto nusidėvėjimo grafikas
 
 1. Puslapyje **Nuomos suvestinė** pasirinkite nuomą. Tada pasirinkite **Knygos \> Turto nusidėvėjimo grafikas**, kad būtų atidaromas puslapis **Turto nusidėvėjimo grafikas**.
 
-    Naudojimo teise valdomo turto nusidėvėjimo išlaidų žurnalo įrašas yra paremtas suma, nurodyta stulpelyje **Nusidėvėjimo išlaidos**. Pavyzdžiui, rekomendacijas, skirtas apskaitos standartams atitikti, žr. [Finansinės nuomos naudojimo teise valdomo turto amortizacijos išlaidų skaičiavimas](#calculation-of-rou-asset-amortization-expense-for-finance-leases).
+    Naudojimo teise valdomo turto nusidėvėjimo išlaidų žurnalo įrašas yra paremtas suma, nurodyta stulpelyje **Nusidėvėjimo išlaidos**. Kaip pavyzdį pateikta informacija apie nurodymus, kaip užtikrinti apskaitos standarto atitikimą, [žr. RUB turto amortizavimo išlaidų skaičiavimą](#calculation-of-rou-asset-amortization-expense-for-finance-leases) finansų nuomos sekcijai toliau šiame straipsnyje.
     
 2. Pasirinkite nusidėvėjimo laikotarpį ir pasirinkite **Kurti žurnalą**. Gausite pranešimą, kuriame nurodoma, kad sukurtas žurnalas, kuris bus naudojamas nusidėvėjimui įrašyti.
 3. Pasirinkite **Žurnalai \> Turto nuomos žurnalai**, kad būtų atidarytas puslapis **Turto nuomos žurnalas**, kuriame galite peržiūrėti sukurtą nusidėvėjimo išlaidų žurnalo įrašą.

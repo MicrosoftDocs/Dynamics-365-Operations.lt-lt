@@ -1,6 +1,6 @@
 ---
 title: Grupuoti įrašus ir sujungti skaičiavimus naudojant GROUPBY duomenų šaltinius
-description: Šioje temoje paaiškinama, kaip galite naudoti GROUPBY tipo duomenų šaltinius elektroninėse ataskaitose (ER).
+description: Šiame straipsnyje paaiškinama, kaip naudoti GROUPBY tipo duomenų šaltinius elektroninėse ataskaitose (ER).
 author: NickSelin
 ms.date: 03/18/2022
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3b79dfe62122a031ae9ed7f51ea7ff578cd47358
-ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
+ms.openlocfilehash: 7b20b5db0794157560f27f15594a84083966642f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "8462303"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861793"
 ---
 # <a name="group-records-and-aggregate-calculations-by-using-groupby-data-sources"></a>Grupuoti įrašus ir sujungti skaičiavimus naudojant GROUPBY duomenų šaltinius
 
@@ -69,7 +69,7 @@ Norėdami daugiau sužinoti apie šią funkciją, atlikite toliau pateiktą pavy
 
 Šis pavyzdys rodo, kaip sistemos administratoriaus arba elektroninio ataskaitų funkcinės konsultanto vaidmens vartotojas gali konfigūruoti ER **modelio susiejimą, kuriame yra GROUPBY** duomenų šaltinis, naudojamas sujungti funkcijas ir grupių įrašus. Šis modelio susiejimas naudojamas valdiklio ataskaitai spausdinti, kai sugeneruota Intrastat deklaracija. Ši ataskaita leidžia peržiūrėti paskelbtas Intrastat operacijas.
 
-Šiame pavyzdyje pateiktas procedūras galima atlikti "Microsoft **"** ĮMONĖje DEMF Dynamics 365 Finance. 
+Šiame pavyzdyje pateiktas procedūras galima atlikti DEMF įmonėje **"** Microsoft Dynamics 365 Finance". 
 
 ### <a name="prepare-sample-data"></a>Duomenų pavyzdžio paruošimas
 
@@ -83,7 +83,7 @@ Atlikite veiksmus, aprašytus skyriuje [Konfigūruoti ER sistemą](er-quick-star
 
 ### <a name="import-the-standard-er-format-configuration"></a>Standartinio ER formato konfigūracijos importavimas
 
-Atlikite veiksmus, aprašytus skyriuje [Importuoti standartinio ER formato konfigūracijas](er-quick-start2-customize-report.md#ImportERSolution1), kad įtrauktumėte standartines ER konfigūracijas į dabartinį „Dynamics 365 Finance” egzempliorių. Importuoti 1 Intrastat modelio **konfigūracijos** versiją iš saugyklos.
+Norėdami įtraukti standartines [ER konfigūracijas į dabartinį "Dynamics 365 Finance" egzempliorių, atlikite standartinės ER](er-quick-start2-customize-report.md#ImportERSolution1) formato konfigūracijos importavimo veiksmus. Importuoti 1 Intrastat modelio **konfigūracijos** versiją iš saugyklos.
 
 ### <a name="create-a-custom-data-model-configuration"></a>Pasirinktinio duomenų modelio konfigūracijos kūrimas
 
@@ -168,7 +168,7 @@ Konfigūruoti duomenų šaltinį, kad būtų galima pasiekti programos lenteles,
 
 Sukonfigūruokite **GroupBy** duomenų šaltinį, kad būtų galima grupuoti Intrastat operacijas ir apskaičiuoti sudėties funkcijas.
 
-1. Modelio susiejimo **dizainerio** puslapio duomenų šaltinio **tipų srityje** pasirinkite **FunctionsGroup\\ pagal**.
+1. Modelio susiejimo dizainerio **puslapio duomenų šaltinio** tipų srityje **pasirinkite Funkcijos** **grupuoti pagal\\.**
 2. Duomenų šaltinių **srityje** pasirinkite Įtraukti šakninį, kad įtraukumėte naują duomenų šaltinį, **kuris** bus naudojamas Intrastat operacijoms grupuoti ir sudėtinėms funkcijoms atlikti.
 3. **Duomenų šaltinio ypatybės dialogo** lango lauke **Pavadinimas įveskite** **TransportRecord**.
 4. Norėdami konfigūruoti **grupavimo sąlygas,** pasirinkite Redaguoti grupę.

@@ -1,6 +1,6 @@
 ---
 title: Pradėti naudoti mokesčių skaičiavimą
-description: Šioje temoje paaiškinama, kaip nustatyti Mokesčių skaičiavimą.
+description: Šiame straipsnyje paaiškinama, kaip nustatyti mokesčių skaičiavimą.
 author: wangchen
 ms.date: 03/25/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 0ab9c0cf974114c4fa9b673e5601e138acef534d
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: c2293102057ac055f0958c1c6b1de2a19cb331d5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8685917"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855289"
 ---
 # <a name="get-started-with-tax-calculation"></a>Pradėti naudoti mokesčių skaičiavimą
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje pateikiama informacija apie tai, kaip pradėti dirbti su Mokesčių skaičiavimu. Šios temos skyriai Microsoft Dynamics leidžia atlikti didelio lygio kūrimo ir konfigūravimo veiksmus, nurodytus ciklo tarnybose (LCS), reguliavimo konfigūracijos tarnybos (RCS), "Dynamics 365 Finance" ir "Dynamics 365 Supply Chain Management. 
+Šiame straipsnyje pateikiama informacija apie tai, kaip pradėti skaičiuoti mokesčius. Šio straipsnio Microsoft Dynamics skyriai leidžia atlikti didelio lygio kūrimo ir konfigūravimo veiksmus, nurodytus ciklo tarnybose (LCS), reguliavimo konfigūracijos tarnybos (RCS), "Dynamics 365 Finance" ir "Dynamics 365 Supply Chain Management. 
 
 Nustatymą sudaro trys pagrindiniai veiksmai.
 
@@ -77,11 +77,11 @@ Atlikus šiuos veiksmus, šie nustatymai automatiškai sinchronizuojami iš RCS 
 - PVM grupės
 - Prekės PVM grupės
 
-Likusiuose šios temos skyriuose pateikti išsamesni konfigūravimo veiksmai.
+Likusiuose šio straipsnio skyriuose pateikti išsamesni konfigūravimo veiksmai.
 
 ## <a name="prerequisites"></a>Būtinieji komponentai
 
-Prieš pabaigdami likusias šios temos procedūras, turite įvykdyti šiuos būtinuosius komponentus:<!--TO HERE-->
+Kad būtų galima atlikti likusias šiame straipsnyje nurodytas procedūras, turi būti įvykdytos šios būtinosios sąlygos:<!--TO HERE-->
 
 - Turite turėti prieigą prie savo LCS paskyros ir turite būti įdiegę LCS projektą su 2 arba didesnės pakopos aplinka, kurioje veikia „Dynamics 365" 10.0.21 arba naujesnė versija.
 - Savo organizacijai turite sukurti RCS aplinką ir turite turėti prieigą prie savo paskyros. Daugiau informacijos apie RCS aplinkos kūrimą ieškokite temoje [„Regulatory Configuration Service“ apžvalga](rcs-overview.md).
@@ -212,7 +212,7 @@ Prieš pabaigdami likusias šios temos procedūras, turite įvykdyti šiuos būt
     | Pardavimas            | BEL       | FRA     | BEL_EU       |
     
     > [!NOTE]
-    > Jei jūsų apmokestinamo dokumento eilutėse numatytoji PVM grupė yra teisinga, palikite šią matricą tuščią. Daugiau informacijos ieškokite šios temos skyriuje [Vykdyklės](#runtime) dizainas.
+    > Jei jūsų apmokestinamo dokumento eilutėse numatytoji PVM grupė yra teisinga, palikite šią matricą tuščią. Daugiau informacijos ieškokite šio straipsnio [skyriuje Vykdyklės](#runtime) dizainas.
 
 22. Skirtuke **Prekių mokesčių grupės taikymas** pasirinkite stulpelius, kurių reikia tinkamam mokesčių kodui nustatyti, tada pasirinkite **Įtraukti**. Įvesti arba pasirinkti kiekvieno stulpelio vertes. Šios matricos išvestis bus laukas **Prekių mokesčių grupė**. Jei šis skirtukas nebus sukonfigūruotas, bus naudojama operacijos eilutėje nurodyta prekių mokesčių grupė.
 
@@ -224,7 +224,7 @@ Prieš pabaigdami likusias šios temos procedūras, turite įvykdyti šiuos būt
     | D0003     | Sumažintas        |
 
     > [!NOTE]
-    > Jei jūsų apmokestinamo dokumento eilutėse numatytoji prekės PVM grupė yra teisinga, palikite šią matricą tuščią. Daugiau informacijos ieškokite šios temos skyriuje [Vykdyklės](#runtime) dizainas.
+    > Jei jūsų apmokestinamo dokumento eilutėse numatytoji prekės PVM grupė yra teisinga, palikite šią matricą tuščią. Daugiau informacijos ieškokite šio straipsnio [skyriuje Vykdyklės](#runtime) dizainas.
 
     Daugiau informacijos apie tai, kaip mokesčių kodai yra nustatomi papildinyje Mokesčių skaičiavimas, žr. [PVM grupės ir prekių PVM grupės nustatymo logika](global-sales-tax-group-determination.md).
 
@@ -243,7 +243,7 @@ Baigę RCS sąranką turėsite publikuotą mokesčių funkcijos versiją. Atliki
 2. Skirtuke **Bendra** nustatykite toliau pateiktus laukus.
 
     - **Įgalinti mokesčių skaičiavimo tarnybą** – pažymėkite šį žymės langelį, norėdami įgalinti papildinį Mokesčių skaičiavimas juridiniam subjektui. Jeigu jis nėra įgalintas dabartiniam juridiniam subjektui, juridinis subjektas ir toliau naudos esamą mokesčių variklį mokesčiams nustatyti ir apskaičiuoti.
-    - **Funkcijos nustatymas** – pasirinkite publikuotų mokesčių priemonės nustatymą ir juridinio subjekto versiją. Daugiau informacijos apie tai, kaip nustatyti ir baigti publikuotą mokesčių funkciją, rasite ankstesniame šios temos skyriuje.
+    - **Funkcijos nustatymas** – pasirinkite publikuotų mokesčių priemonės nustatymą ir juridinio subjekto versiją. Daugiau informacijos apie tai, kaip nustatyti ir baigti publikuotą mokesčių funkciją, rasite ankstesniame šio straipsnio skyriuje.
     - **Verslo procesas** – Pasirinkite verslo procesus, kuriuos norite įgalinti.
 
 3. Skirtuke **Skaičiavimas** nurodykite numatomą juridinio subjekto apvalinimo taisyklę. Daugiau informacijos apie apvalinimo logiką ieškokite srityje [Mokesčių skaičiavimo apvalinimo taisyklės](https://go.microsoft.com/fwlink/?linkid=2166988).

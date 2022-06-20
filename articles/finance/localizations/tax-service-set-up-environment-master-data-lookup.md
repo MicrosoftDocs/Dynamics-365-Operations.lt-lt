@@ -1,6 +1,6 @@
 ---
 title: Įgalinti mokesčių skaičiavimo konfigūracijos pagrindinių duomenų peržvalgą
-description: Šioje temoje paaiškinama, kaip nustatyti ir įgalinti mokesčių skaičiavimo pagrindinių duomenų peržvalgos funkciją.
+description: Šiame straipsnyje paaiškinama, kaip nustatyti ir įgalinti mokesčių skaičiavimo pagrindinių duomenų peržvalgos funkciją.
 author: kai-cloud
 ms.date: 11/22/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: pashao
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 7640144b1687fc64e55f659d49cdb0817c17294a
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: d9c234781e55fbf7f29eec14666c939d5d60e2fb
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8686717"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879415"
 ---
 # <a name="enable-master-data-lookup-for-tax-calculation-configuration"></a>Įgalinti mokesčių skaičiavimo konfigūracijos pagrindinių duomenų peržvalgą 
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje paaiškinama, kaip nustatyti ir įgalinti mokesčių skaičiavimo pagrindinių duomenų peržvalgos funkciją. Išplečiamajame sąraše galima pasirinkti vertes mokesčių skaičiavimo konfigūracijoje **laukams**, pvz., Juridiniam subjektui, **Tiekėjo** sąskaitai, **Prekės** kodui ir **Pristatymo terminas**. Šios vertės yra iš susijusios Microsoft Dynamics 365 finansų aplinkos, naudojant duomenų Microsoft Dataverse šaltinį.
+Šiame straipsnyje paaiškinama, kaip nustatyti ir įgalinti mokesčių skaičiavimo pagrindinių duomenų peržvalgos funkciją. Išplečiamajame sąraše galima pasirinkti vertes mokesčių skaičiavimo konfigūracijoje **laukams**, pvz., Juridiniam subjektui, **Tiekėjo** sąskaitai, **Prekės** kodui ir **Pristatymo terminas**. Šios vertės yra iš susijusios Microsoft Dynamics 365 finansų aplinkos, naudojant duomenų Microsoft Dataverse šaltinį.
 
 > [!NOTE] 
 > Mokesčių skaičiavimo pagrindinių duomenų peržvalgos funkcija yra pasirinktinė funkcija. Jei išjungidami mokesčių tarnybos duomenų šaltinių **Dataverse** palaikymo funkciją reguliavimo konfigūracijos tarnyba (RCS), galite praleisti šiuos veiksmus. Tačiau šiuo atveju mokesčių skaičiavimo konfigūracijoje išplečiamasis sąrašas nebus galimas.

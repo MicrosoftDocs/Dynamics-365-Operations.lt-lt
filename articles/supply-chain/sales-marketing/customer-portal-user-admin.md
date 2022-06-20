@@ -1,6 +1,6 @@
 ---
-title: Kurti ir valdyti klientų portalo vartotojus (yra vaizdo įrašas)
-description: Šioje temoje paaiškinama, kaip sukurti kliento portalo vartotojų paskyras ir nustatyti jų teises.
+title: Kliento portalo vartotojų kūrimas ir valdymas (pateikiamas vaizdo įrašas)
+description: Šiame straipsnyje paaiškinama, kaip sukurti kliento portalo vartotojų abonementus ir nustatyti jų teises.
 author: Henrikan
 ms.date: 07/31/2020
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 4615182e6c3341a376e8e55a1417480e3e3f5ea7
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 2d095b0f6ff707852b4c9e22fd9c31cf87ccbe9d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062495"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8905782"
 ---
 # <a name="create-and-manage-customer-portal-users"></a>Kliento portalo vartotojų kūrimas ir valdymas
 
@@ -33,7 +33,7 @@ Kai vartotojai užsiregistruoja patys, jiems automatiškai sukuriami kontaktų �
 ## <a name="video"></a>Vaizdo
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4ADkI]
 
-The [Pakvieskite klientus registruotis ir naudotis jūsų klientų portalu](https://youtu.be/drGUYHX9QIQ) vaizdo įrašas (parodytas aukščiau) yra įtrauktas į [„Finance and Operations“ grojaraštis](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) pasiekiama YouTube.
+[Kviesti klientus registruotis ir naudoti savo klientų portalo vaizdo įrašą](https://youtu.be/drGUYHX9QIQ) (parodyta pirmiau) [yra įtrauktas į finansų ir operacijų veiksmų veiksmų](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) galimų sąrašą YouTube.
 
 ## <a name="prerequisite-setup"></a>Būtinieji nustatymo veiksmai
 

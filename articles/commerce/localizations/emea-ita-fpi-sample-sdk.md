@@ -1,6 +1,6 @@
 ---
-title: Italijos fiskalinio spausdintuvo integravimo pavyzdžio diegimo gairės (senstelėjęs)
-description: Šioje temoje pateikiamos gairės, kaip įdiegti fiskalinio spausdintuvo integravimo pavyzdį Italijai iš Microsoft Dynamics 365 Commerce mažmeninės prekybos programinės įrangos kūrimo rinkinio (SDK).
+title: Italijos (senesnių) fiskalinio spausdintuvo integravimo pavyzdžio diegimo rekomendacijos
+description: Šiame straipsnyje pateikiamos Italijos fiskalinio spausdintuvo integravimo pavyzdžio diegimo iš "Retail" programinės įrangos Microsoft Dynamics 365 Commerce kūrimo rinkinio (SDK) gairės.
 author: EvgenyPopovMBS
 ms.date: 03/04/2022
 ms.topic: article
@@ -9,39 +9,39 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-3-1
-ms.openlocfilehash: 617e97272fb4bd7cea0958958ae99648bb847b56
-ms.sourcegitcommit: 7faf82fa7ce269c0201abb8473af861ef7ce00bf
+ms.openlocfilehash: bb07ca91c9e5bf1a79f672f9ba29b7bcc21688c6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "8614074"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8848903"
 ---
-# <a name="deployment-guidelines-for-the-fiscal-printer-integration-sample-for-italy-legacy"></a>Italijos fiskalinio spausdintuvo integravimo pavyzdžio diegimo gairės (senstelėjęs)
+# <a name="deployment-guidelines-for-the-fiscal-printer-integration-sample-for-italy-legacy"></a>Italijos (senesnių) fiskalinio spausdintuvo integravimo pavyzdžio diegimo rekomendacijos
 
 [!include[banner](../includes/banner.md)]
 
-Šioje temoje pateikiamos gairės, kaip įdiegti fiskalinio spausdintuvo integravimo pavyzdį Italijai iš Microsoft Dynamics 365 Commerce mažmeninės prekybos programinės įrangos kūrimo rinkinio (SDK) kūrėjo virtualioje mašinoje Microsoft Dynamics (VM) "Lifecycle Services" (LCS). Daugiau informacijos apie šią fiskalinės integracijos imtį ieškokite [Italijos fiskalinio spausdintuvo integravimo pavyzdyje](emea-ita-fpi-sample.md). 
+Šiame straipsnyje pateikiamos Microsoft Dynamics 365 Commerce gairės, kaip įdiegti Italijos fiskalinio spausdintuvo integravimo pavyzdį iš "Retail" programinės įrangos kūrimo rinkinio (SDK), kuris yra programuotojo virtualiojoje kompiuteryje (VM) Microsoft Dynamics ciklo tarnybose (LCS). Daugiau informacijos apie šį finansinio integravimo pavyzdį ieškokite Italijos iždo [dokumentų spausdintuvo integravimo pavyzdys](emea-ita-fpi-sample.md). 
 
-Italijos fiskalinės integracijos pavyzdys yra Mažmeninės prekybos SDK dalis. Informacijos, kaip įdiegti ir naudoti SDK, ieškokite Mažmeninės prekybos programinės [įrangos kūrimo rinkinio (SDK) architektūroje](../dev-itpro/retail-sdk/retail-sdk-overview.md). Šį pavyzdį sudaro "Commerce Runtime (CRT) ir Hardware" stoties plėtiniai. Norėdami vykdyti šį pavyzdį, turite modifikuoti ir sukurti " CRT Hardware" stoties projektus. Rekomenduojame naudoti nesumoduliuotą "Retail SDK", kad būtų atlikti šioje temoje aprašyti pakeitimai. Taip pat rekomenduojame naudoti šaltinio valdymo sistemą, pvz.Azure DevOps, kurioje dar nėra pakeistų failų.
+Italijos finansinio integravimo pavyzdys yra mažmeninės prekybos SDK dalis. Informacijos, kaip įdiegti ir naudoti SDK, ieškokite Mažmeninės prekybos programinės [įrangos kūrimo rinkinio (SDK) architektūroje](../dev-itpro/retail-sdk/retail-sdk-overview.md). Šį pavyzdį sudaro "Commerce Runtime (CRT) ir Hardware" stoties plėtiniai. Norėdami vykdyti šį pavyzdį, turite modifikuoti ir sukurti " CRT Hardware" stoties projektus. Rekomenduojame naudoti nesumoduliuotą "Retail SDK", kad būtų atlikti šiame straipsnyje aprašyti pakeitimai. Taip pat rekomenduojame naudoti šaltinio valdymo sistemą, pvz.Azure DevOps, kurioje dar nėra pakeistų failų.
 
 ## <a name="development-environment"></a>Programavimo aplinka
 
 Norėdami nustatyti programavimo aplinką, kad būtų galima patikrinti ir išplėsti pavyzdį, atlikite šiuos veiksmus.
 
-### <a name="commerce-runtime-extension-components"></a>"Commerce" vykdyklės plėtinio komponentai
+### <a name="commerce-runtime-extension-components"></a>"Commerce Runtime" plėtinio komponentai
 
-Plėtinio CRT komponentai įtraukti į mažmeninės prekybos SDK. Norėdami baigti šias procedūras, **dalyje RetailSdkSampleExtensionsCommerceRuntime** **atidarykite sprendimą CommerceRuntimeSamples.sln \\\\**.
+Išplėstiniai CRT komponentai įtraukti į "Retail SDK". Norėdami atlikti šias procedūras, dalyje RetailSdk SampleExtensions CommerceRuntime **atidarykite sprendimą CommerceRuntimeSamples.sln** **\\.\\**
 
-1. **Raskite projektą Runtime.Extensions.DocumentProvider.EpsonFP90IIIIIISample** ir sukurkite jį.
-2. Aplanke **Extensions.DocumentProvider.EpsonFP90IIIIISamplebinDebug\\\\** raskite **aplanką Contoso.Commerce.Runtime.DocumentProvider.EpsonFP90IIIISample.dll** rinkinio failą.
+1. Suraskite **Runtime.Extensions.DocumentProvider.EpsonFP90IIISample** projektą ir sukurkite jį.
+2. Aplanke Extensions.DocumentProvider.EpsonFP90IISample talpyklos debug **\\ raskite Contoso.Commerce.Runtime.DocumentProvider.EpsonFP90IIISample.dll surinkimo\\ failą.** **·**
 3. Nukopijuokite surinkimo failą į plėtinių CRT aplanką:
 
-    - **"Commerce Scale Unit:" kopijuokite** failą **\\ į talpyklos\\ aplanką**, esantį informacinių interneto paslaugų (IIS) "Commerce Scale Unit" vietoje.
+    - **"Commerce Scale Unit:" kopijuokite** failą **\\\\ į talpyklos iš** išorės aplanką, esantį informacinių interneto paslaugų (IIS) "Commerce Scale Unit" vietoje.
     - **" CRT Modern POS" vieta: kopijuokite** failą į **\\ iš išorės** aplanką, esantį vietinio kliento CRT brokerio vietoje.
 
 4. Rasti plėtinio konfigūracijos failą, kuris skirtas CRT:
 
-    - **"Commerce Scale Unit:**" failo vardas yra commerceruntime.ext.config **,** jis yra IIS "Commerce Scale Unit" vietos aplanke binext **\\.**
+    - **"Commerce Scale Unit:** failas **yra pavadintas commerceruntime.ext.config**, **\\** jis yra talpyklos išorinio aplanko IIS "Commerce Scale Unit" vietoje.
     - **" CRT Modern POS" vietinė:** **failo vardas yra CommerceRuntime.MPOSOffline.Ext.config**, jis priklauso vietinio kliento CRT brokerio vietai.
 
 5. Užregistruokite CRT pakeitimą plėtinio konfigūracijos faile.
@@ -50,28 +50,28 @@ Plėtinio CRT komponentai įtraukti į mažmeninės prekybos SDK. Norėdami baig
     <add source="assembly" value="Contoso.Commerce.Runtime.DocumentProvider.EpsonFP90IIISample" />
     ```
 
-6. Iš naujo paleiskite "Commerce Scale Unit":
+6. Iš naujo paleisti "Commerce Scale Unit":
 
-    - **Komercijos skalės vienetas:** iš naujo paleiskite "Commerce Scale Unit" svetainę iš IIS tvarkytuvo.
-    - **Kliento brokeris:** Užbaikite **dllhost.exe** procesą užduočių tvarkytuve, tada iš naujo paleiskite "Modern POS".
+    - **"Commerce Scale Unit": iš** naujo paleiskite "Commerce Scale Unit" svetainę iš IIS tvarkytuvo.
+    - **Kliento brokeris:** užbaigti **dllhost.exe procesą** užduočių tvarkytuve ir iš naujo paleisti "Modern POS".
 
 ### <a name="hardware-station-extension-components"></a>Aparatūros stoties plėtinio komponentai
 
-Aparatūros stoties plėtinio komponentai įtraukiami į mažmeninės prekybos SDK. Norėdami atlikti šias procedūras, dalyje RetailSdkSampleExtensionsHardwareStation atidarykite sprendimą HardwareStationSamples.sln **·** **.\\\\**
+Aparatūros stoties plėtinio komponentai įtraukti į "Retail SDK". Norėdami atlikti šias procedūras, dalyje RetailSdk SampleExtensions HardwareStation atidarykite sprendimą **HardwareStationSamples.sln** **\\.\\**
 
-1. **Raskite projektą HardwareStation.Extensions.EpsonFP90IIIIFiscalDeviceSample** ir sukurkite jį.
-2. Aplanke **Extensions.EpsonFP90IIIFiscalDeviceSamplebinDebug\\\\** raskite **aplanką Contoso.Commerce.HardwareStation.EpsonFP90IIIIFiscalDeviceSample.dll** surinkimo failą.
-3. Kopijuoti surinkimo failą į įdiegtą aparatūros stoties įrenginį:
+1. Raskite **HardwareStation.Extensions.EpsonFP90IIIFiscalDeviceSample** projektą ir sukurkite jį.
+2. **Aplanke Extensions.EpsonFP90IIIFiscalDeviceSample bin\\ Debug \\** **raskite Contoso.Commerce.HardwareStation.EpsonFP90IIFiscalDeviceSample.dll** surinkimo failą.
+3. Nukopijuokite surinkimo failą į įdiegtą aparatūros stoties įrenginį:
 
-    - **Nuotolinė aparatūros stotis:** nukopijuokite failą **į dėžės** aplanką, esantį IIS aparatūros stoties svetainės vietoje.
-    - **Vietinė aparatūros stotis:** nukopijuokite failą į "Modern POS" kliento brokerio vietą.
+    - **Nuotolinės aparatūros stotis:** kopijuokite failą į **talpyklos** aplanką, esantį IIS aparatūros stoties svetainės vietoje.
+    - **Vietinės aparatūros stotis:** kopijuokite failą į "Modern POS" kliento brokerio vietą.
 
-4. Raskite aparatūros stoties plėtinių konfigūracijos failą. Failas pavadintas **HardwareStation.Extension.config**:
+4. Raskite aparatūros stoties plėtinių konfigūracijos failą. Failo vardas yra **HardwareStation.Extension.config**:
 
-    - **Nuotolinė aparatūros stotis:** failas yra IIS aparatūros stoties vietos vietoje.
+    - **Nuotolinės aparatūros stotis:** failas yra IIS aparatūros stoties svetainės vietoje.
     - **Vietinė aparatūros stotis:** failas yra "Modern POS" kliento brokerio vietoje.
 
-5. Įtraukite šį skyrių į **konfigūracijos failo sudėties** skyrių.
+5. Įtraukite toliau nurodytą skyrių į **konfigūracijos** failo sudėties skyrių.
 
     ``` xml
     <add source="assembly" value="Contoso.Commerce.HardwareStation.EpsonFP90IIIFiscalDeviceSample" />
@@ -79,17 +79,17 @@ Aparatūros stoties plėtinio komponentai įtraukiami į mažmeninės prekybos S
 
 6. Iš naujo paleiskite aparatūros stoties tarnybą:
 
-    - **Nuotolinė aparatūros stotis:** iš naujo paleiskite aparatūros stoties svetainę iš IIS tvarkytuvo.
-    - **Vietinė aparatūros stotis:** užduočių tvarkytuve uždarykite **dllhost.exe** procesą ir iš naujo paleiskite "Modern POS".
+    - **Nuotolinės aparatūros stotis: iš** naujo paleiskite aparatūros stoties svetainę iš IIS tvarkytuvo.
+    - **Vietinė aparatūros stotis:** užduočių tvarkytuve užbaigkite **dllhost.exe** procesą, tada iš naujo paleiskite "Modern POS".
 
 ## <a name="production-environment"></a>Gamybos aplinka
 
-Norėdami sukurti diegiamus paketus, kuriuose yra "Commerce" komponentų, ir taikyti tuos paketus gamybos aplinkoje, atlikite šiuos veiksmus.
+Norėdami kurti diegtinas paketus, kuriuose yra "Commerce" komponentai, ir taikyti šiuos paketus gamybos aplinkoje, atlikite šiuos veiksmus.
 
-1. Atlikite veiksmus, aprašytus anksčiau šioje temoje esančiame [skyriuje Kūrimo aplinka](#development-environment).
-2. Aplanke RetailSdkAssets **\\ pakuotės konfigūracijos failuose atlikite** šiuos pakeitimus:
+1. Atlikite veiksmus, kurie aprašyti anksčiau [šiame straipsnyje](#development-environment) skyriuje Programavimo aplinka.
+2. Atlikite šiuos paketo konfigūracijos failų keitimus, nurodytus aplanke **"RetailSdk\\ Assets** ":
 
-    1. **Konfigūracijos failuose commerceruntime.ext.config** ir **CommerceRuntime.MPOSOffline.Ext.config** į kompozicijos **skyrių įtraukite** šią eilutę.
+    1. Konfigūracijos failuose **commerceruntime.ext.config** **ir CommerceRuntime.MPOSOffline.Ext.config** įtraukite **šią eilutę į sudėties** skyrių.
 
         ``` xml
         <add source="assembly" value="Contoso.Commerce.Runtime.DocumentProvider.EpsonFP90IIISample" />
@@ -101,9 +101,9 @@ Norėdami sukurti diegiamus paketus, kuriuose yra "Commerce" komponentų, ir tai
         <add source="assembly" value="Contoso.Commerce.HardwareStation.EpsonFP90IIIFiscalDeviceSample" />
         ```
 
-3. Atlikite šiuos pakeitimus **pritaikymo.settings** paketo tinkinimo konfigūravimo faile, esančiame aplanke **BuildTools**:
+3. Atlikite šiuos pakeitimus **customization.settings** paketo pritaikymo konfigūracijos faile, aplanke **BuildTools**:
 
-    1. Įtraukite šią eilutę, kad plėtinys CRT būtų įtrauktas į diegiamus paketus.
+    1. Įtraukite šią eilutę, kad įtraukumėte CRT plėtinį į diegiamus paketus.
 
         ``` xml
         <ISV_CommerceRuntime_CustomizableFile Include="$(SdkReferencesPath)\Contoso.Commerce.Runtime.DocumentProvider.EpsonFP90IIISample.dll"/>
@@ -115,9 +115,9 @@ Norėdami sukurti diegiamus paketus, kuriuose yra "Commerce" komponentų, ir tai
         <ISV_HardwareStation_CustomizableFile Include="$(SdkReferencesPath)\Contoso.Commerce.HardwareStation.EpsonFP90IIIFiscalDeviceSample.dll"/>
         ```
 
-4. Aplanke PackagesSharedPackagingProjectComponents **faile Sdk.ModernPos.Shared.csproj** faile **atlikite \_ šiuos keitimus**, kad įtrauktumėte Italijos išteklių failus į diegiamus paketus:
+4. **Sdk.ModernPos.Shared.csproj** **aplanke Packages\_ SharedPackagingProjectComponents** atlikite šiuos pakeitimus, norėdami įtraukti Italijos išteklių failus į diegiamus paketus:
 
-    1. Įtraukite sekciją **ItemGroup**, kurioje yra mazgai, nukreipiantys į norimų vertimų išteklių failus. Įsitikinkite, kad nurodote teisingas vardų sritis ir vardų pavyzdžius. Toliau pateiktame pavyzdyje pridedami it **ir** it-CH **lokalių išteklių mazgai**.
+    1. Įtraukite **ItemGroup** skyrių, kuriame yra mazgai, nurodyti į išteklių failus norimams vertimams. Užtikrinkite, kad nurodysite tinkamas vardų sritis ir pavyzdžio pavadinimus. Toliau pateiktame pavyzdyje į jį įtraukti išteklių mazgai **ir** **CH** vietos.
 
         ```xml
         <ItemGroup>
@@ -126,16 +126,16 @@ Norėdami sukurti diegiamus paketus, kuriuose yra "Commerce" komponentų, ir tai
         </ItemGroup>
         ```
 
-    1. Skyriuje Tikslinis **pavadinimas="CopyPackageFiles"** įtraukite po vieną eilutę kiekvienai lokalei, kaip parodyta toliau pateiktame pavyzdyje.
+    1. Skyriuje Target **Name = "CopyPackageFiles"** pridėkite po vieną kiekvienos vietos eilutę, kaip parodyta toliau pateiktame pavyzdyje.
 
         ```xml
         <Copy SourceFiles="@(ResourcesIt)" DestinationFolder="$(OutputPath)content.folder\CustomizedFiles\ClientBroker\ext\it" SkipUnchangedFiles="true" />
         <Copy SourceFiles="@(ResourcesItCh)" DestinationFolder="$(OutputPath)content.folder\CustomizedFiles\ClientBroker\ext\it-CH" SkipUnchangedFiles="true" />
         ```
 
-5. Aplanke PackagesSharedPackagingProjectComponents esančiame **faile** Sdk.RetailServerSetup.proj **atlikite šiuos keitimus\_, kad į diegiamus paketus įtrauktumėte Italijos išteklių** failus:
+5. **Sdk.RetailServerSetup.proj** **faile, aplanke SharedPackagingProjectComponents\_ atlikite šiuos pakeitimus, kad į diegti norimus paketus** būtų įtraukti Italijos išteklių failai:
 
-    1. Įtraukite sekciją **ItemGroup**, kurioje yra mazgai, nukreipiantys į norimų vertimų išteklių failus. Įsitikinkite, kad nurodote teisingas vardų sritis ir vardų pavyzdžius. Toliau pateiktame pavyzdyje pridedami it **ir** it-CH **lokalių išteklių mazgai**.
+    1. Įtraukite **ItemGroup** skyrių, kuriame yra mazgai, nurodyti į išteklių failus norimams vertimams. Užtikrinkite, kad nurodysite tinkamas vardų sritis ir pavyzdžio pavadinimus. Toliau pateiktame pavyzdyje į jį įtraukti išteklių mazgai **ir** **CH** vietos.
 
         ```xml
         <ItemGroup>
@@ -144,21 +144,21 @@ Norėdami sukurti diegiamus paketus, kuriuose yra "Commerce" komponentų, ir tai
         </ItemGroup>
         ```
 
-    1. Skyriuje Tikslinis **pavadinimas="CopyPackageFiles"** įtraukite po vieną eilutę kiekvienai lokalei, kaip parodyta toliau pateiktame pavyzdyje.
+    1. Skyriuje Target **Name = "CopyPackageFiles"** pridėkite po vieną kiekvienos vietos eilutę, kaip parodyta toliau pateiktame pavyzdyje.
 
         ``` xml
         <Copy SourceFiles="@(ResourcesIt)" DestinationFolder="$(OutputPath)content.folder\RetailServer\Code\bin\ext\it" SkipUnchangedFiles="true" />
         <Copy SourceFiles="@(ResourcesItCh)" DestinationFolder="$(OutputPath)content.folder\RetailServer\Code\bin\ext\it-CH" SkipUnchangedFiles="true" />
         ```
 
-6. Paleiskite "MSBuild" komandinę eilutę, skirtą Visual Studio naudingumui, tada paleiskite **"msbuild** " aplanke "Retail SDK", kad sukurtumėte diegiamus paketus.
+6. Paleiskite MSBuild Visual Studio komandinę eilutę dėl paslaugų programos, **tada paleiskite msbuild** mažmeninės prekybos SDK aplanke, kad sukurtumėte diegiamus paketus.
 7. Taikykite paketus naudodami LCS arba rankiniu būdu. Daugiau informacijos ieškokite Create [deployable packages](../dev-itpro/retail-sdk/retail-sdk-packaging.md).
 
 ## <a name="design-of-extensions"></a>Plėtinių dizainas
 
 ### <a name="commerce-runtime-extension-design"></a>"Commerce Runtime" plėtinio dizainas
 
-Plėtinio, kuris yra finansinių dokumentų teikėjas, tikslas yra generuoti spausdintuvui būdingus dokumentus ir tvarkyti atsakymus iš fiskalinio spausdintuvo.
+Plėtinio, kuris yra fiskalinio dokumento teikėjas, paskirtis yra generuoti konkretaus spausdintuvo dokumentus ir tvarkyti atsakymus iš fiskalinio spausdintuvo.
 
 Plėtinys CRT yra **Runtime.Extensions.DocumentProvider.EpsonFP90IISample**.
 

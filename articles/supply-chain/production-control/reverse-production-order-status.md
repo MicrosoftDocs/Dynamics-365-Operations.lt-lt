@@ -1,6 +1,6 @@
 ---
 title: Atšaukti gamybos užsakymo būseną
-description: Šioje temoje aprašoma, kaip atšaukti gamybos užsakymo būseną.
+description: Šiame straipsnyje aprašoma, kaip atšaukti gamybos užsakymo būseną.
 author: johanhoffmann
 ms.date: 06/20/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0dd17bc48bfb6c78e1baca4faf78d6bc5b3ce426c5f0530174eccd95536a5859
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1d50cbcb4031d5c9f2c814883afd1fb38777d2ba
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6760423"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903962"
 ---
 # <a name="reverse-the-production-order-status"></a>Atšaukti gamybos užsakymo būseną
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje aprašoma, kaip atšaukti gamybos užsakymo būseną. 
+Šiame straipsnyje aprašoma, kaip atšaukti gamybos užsakymo būseną. 
 
 Atšaukus gamybos užsakymo būseną, užsakymas ir visos operacijos, susijusios su maršrutais, grįš į ankstesnį gamybos ciklo etapą. Pavyzdžiui, jei gamybos užsakymo būsena yra **Suplanuota**, o jūs pakeičiate ją atgal į **Sukurta**. Šiuo atveju sistema pirmiausia turi pakeisti būseną į **Įvertinta**, kuri eina prieš būseną **Suplanuota**. Tada būseną galima pakeisti į tą, kurios norite, pvz., **Sukurta**. **Pastaba.** Jei jūsų užsakymas pasiekė būseną **Paskelbti baigtu** vis tiek galite gražinti jį į ankstesnę būseną. Tačiau norėdami atnaujinti užsakymo informaciją turite iš naujo paleisti įvertinimą ir operacijų planavimą, užduočių planavimą arba abiejų tipų planavimą. Taip yra todėl, kad bet koks likusios prekės rezervavimo ir operacijų išteklių suvartojimas taip pat turi būti atnaujinti. Toliau šiame straipsnyje aprašoma, kas rodoma, kai atšaukiate gamybos užsakymo būseną šiais būdais.
 

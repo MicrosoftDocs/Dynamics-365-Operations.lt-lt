@@ -1,6 +1,6 @@
 ---
-title: Pareigybės
-description: Šioje temoje aprašomi konceptualūs elementai, kuriuos gali turėti pareigos. Joje taip pat pateikiami pavyzdžiai, kurie parodo, kaip galite naudoti šiuos elementus jūsų organizacijoje.
+title: Padėtys
+description: Šiame straipsnyje aprašomi abstrakti elementai, kuriuos gali sudaryti pareigos. Joje taip pat pateikiami pavyzdžiai, kurie parodo, kaip galite naudoti šiuos elementus jūsų organizacijoje.
 author: twheeloc
 ms.date: 06/24/2021
 ms.topic: article
@@ -14,21 +14,21 @@ ms.custom: 269054
 ms.search.region: Global
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: bb7582165f49c40d294acd3cf804fe89782936c4
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 9c97a96e27188d12b9c5e626613e18d54d6632c0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8689444"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8888736"
 ---
-# <a name="positions"></a>Pareigybės
+# <a name="positions"></a>Padėtys
 
 
 [!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Šioje temoje aprašomi konceptualūs elementai, kuriuos gali turėti pareigos. Joje taip pat pateikiami pavyzdžiai, kurie parodo, kaip galite naudoti šiuos elementus jūsų organizacijoje.
+Šiame straipsnyje aprašomi abstrakti elementai, kuriuos gali sudaryti pareigos. Joje taip pat pateikiami pavyzdžiai, kurie parodo, kaip galite naudoti šiuos elementus jūsų organizacijoje.
 
 Prieš kurdami pareigas, turite nustatyti užduotį. Kai kurie pareigų duomenys, pavyzdžiui, kompensacijos regionas, darbuotojo priskyrimas, pareigų trukmė ir ataskaitų ryšiai, turi įsigaliojimo datą.
 

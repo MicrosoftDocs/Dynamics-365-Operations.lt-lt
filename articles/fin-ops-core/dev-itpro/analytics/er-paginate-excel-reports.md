@@ -1,6 +1,6 @@
 ---
 title: ER formato kūrimas sugeneruotų „Excel” dokumentų išdėstymui
-description: Šioje temoje paaiškinama, kaip kurti Elektroninių ataskaitų (ER) formatą, kuris sunumeruoja sugeneruoto dokumento puslapius „Microsoft Excel”.
+description: Šiame straipsnyje paaiškinama, kaip kurti elektroninių ataskaitų (ER) formatą, kuris pvz., generuojamas dokumentas Microsoft Excel.
 author: NickSelin
 ms.date: 09/14/2021
 ms.topic: article
@@ -15,22 +15,22 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2021-08-01
 ms.dyn365.ops.version: Version 10.0.22
-ms.openlocfilehash: ce29225c4bce24adc2abefc3d3d6f20774852af4
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
+ms.openlocfilehash: e8edc8bba62f74b4f81d423cf75b5fb87c01e43f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7488344"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909284"
 ---
 # <a name="design-an-er-format-to-paginate-generated-documents-in-excel"></a>ER formato kūrimas sugeneruotų „Excel” dokumentų išdėstymui
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje paaiškinama, kaip Sistemos administratoriaus arba Elektroninių ataskaitų funkcinio konsultanto vaidmenį turintis vartotojas gali konfigūruoti [Elektroninės ataskaitos (ER)](general-electronic-reporting.md) formatą, kad sugeneruoti siunčiamus dokumentus „Microsoft Excel” ir tvarkyti puslapių numeraciją.
+Šiame straipsnyje paaiškinama, kaip sistemos administratoriaus arba elektroninio ataskaitų funkcinės [konsultanto vaidmens vartotojas gali konfigūruoti elektroninių ataskaitų (ER)](general-electronic-reporting.md) formatą Microsoft Excel, kad sugeneruotų siunčiamus dokumentus ir tvarkytų dokumentų puslapių numeraciją.
 
 Šiame pavyzdyje jūs modifikuosite „Microsoft” pateiktą ER formatą, kuris naudojamas valdiklio ataskaitai spausdinti, kai „Intrastat” deklaracija yra [generuojama](../../../finance/localizations/tasks/eur-00002-eu-intrastat-declaration.md). Ši ataskaita leidžia jums stebėti paskelbtas „Intrastat” operacijas. Jūsų pakeitimai leis jums valdyti sugeneruotų kontrolės ataskaitų puslapių numeraciją.
 
-Šios temos procedūros gali būti atliktos naudojant **„DEMF”** įmonę. Kodavimas nebūtinas. Prieš pradėdami, atsisiųskite ir įrašykite šiuos failus.
+Šiame straipsnyje nurodytas procedūras galima atlikti **DEMF įmonėje**. Kodavimas nebūtinas. Prieš pradėdami, atsisiųskite ir įrašykite šiuos failus.
 
 | Aprašas       | Failo vardas |
 |-------------------|-----------| 
@@ -43,7 +43,7 @@ Atlikite veiksmus, aprašytus skyriuje [Konfigūruoti ER sistemą](er-quick-star
 
 ## <a name="import-the-standard-er-format-configuration"></a>Standartinio ER formato konfigūracijos importavimas
 
-Atlikite veiksmus, aprašytus skyriuje [Importuoti standartinio ER formato konfigūracijas](er-quick-start2-customize-report.md#ImportERSolution1), kad įtrauktumėte standartines ER konfigūracijas į dabartinį „Dynamics 365 Finance” egzempliorių. Importuoti **1.9 leidimo** **„Intrastat” ataskaitos** formato konfigūracijos versiją. Pagrindinė 1 **„Intrastat” modelio** konfigūracijos versija yra automatiškai importuojama iš saugyklos.
+Norėdami įtraukti standartines [ER konfigūracijas į dabartinį "Dynamics 365 Finance" egzempliorių, atlikite standartinės ER](er-quick-start2-customize-report.md#ImportERSolution1) formato konfigūracijos importavimo veiksmus. Importuoti **1.9 leidimo** **„Intrastat” ataskaitos** formato konfigūracijos versiją. Pagrindinė 1 **„Intrastat” modelio** konfigūracijos versija yra automatiškai importuojama iš saugyklos.
 
 ## <a name="customize-the-standard-er-format"></a>Pritaikykite standartinį ER formatą
 
@@ -165,7 +165,7 @@ Tada naudokite pasirinktinį ER formatą „Intrastat” deklaracijos valdiklio 
 
 ### <a name="repeat-the-replacement-of-the-current-excel-template-in-the-custom-er-format"></a>Pakartokite dabartinio „Excel” šablono pasirinktiniu ER formatu pakeitimą
 
-1. Atlikite veiksmus, aprašytus šios temos [Pakeisti dabartinį „Excel” šabloną dabartiniu ER formatu](#replace-template) skyriuje. Tačiau 7 veiksme pasirinkite **„ERIntrastatReportDemo2.xlsx”** failą.
+1. Atlikite šio straipsnio pasirinktinio [ER](#replace-template) formato skyriuje pakeiskite dabartinį "Excel" šabloną. Tačiau 7 veiksme pasirinkite **„ERIntrastatReportDemo2.xlsx”** failą.
 2. Puslapyje **Formato kūrimo įrankis** išplėskite **„Intrastat”**.
 3. Pavadinkite [Diapazono](er-fillable-excel.md#range-component) formato komponentus, kurie buvo įtraukti į redaguotiną ER formatą, kad būtų sinchronizuota struktūra su pritaikyto „Excel” šablono struktūra:
 
@@ -406,7 +406,7 @@ Norėdami pakeisti matomumą, atnaujinkite **Ataskaitos puslapio antraštės** i
 
 ## <a name="generate-an-intrastat-declaration-control-report-updated"></a>„Intrastat” deklaracijos kontrolės ataskaitos generavimas (atnaujinta)
 
-1. Įsitikinkite, kad turite 24 operacijas **„Intrastat”** puslapyje. Pakartokite veiksmus, aprašytus šios temos [„Intrastat” deklaracijos valdiklio ataskaitos generavimas](#generate-intrastat-control-report) skyriuje, kad sugeneruotumėte ir peržiūrėtumėte valdiklio ataskaitą.
+1. Įsitikinkite, kad turite 24 operacijas **„Intrastat”** puslapyje. Norėdami sugeneruoti ir peržiūrėti [kontrolės ataskaitą, pakartokite](#generate-intrastat-control-report) šio straipsnio skyriuje "Intrastat" deklaracijos kontrolės ataskaitos generavimo veiksmus.
 
     Visos operacijos yra pateikiamos pirmajame puslapyje. Bendra puslapių suma ir skaitikliai yra lygūs ataskaitos sumoms ir skaitikliams. Puslapio antraštės diapazonas yra paslėptas pirmajame puslapyje, nes ataskaitos antraštėje jau yra stulpelių pavadinimų. Puslapio antraštė ir poraštė yra paslėptos antrajame puslapyje, nes šiame puslapyje nėra operacijų.
 

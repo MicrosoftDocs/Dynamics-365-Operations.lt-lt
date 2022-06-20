@@ -1,6 +1,6 @@
 ---
-title: Naujinimas į šalies ir visuotinės adresų knygelės modelius
-description: Šioje temoje aprašoma, kaip atnaujinti dvigubo rašymo į šalies ir visuotinės adresų knygelės modelius duomenis.
+title: Naujinimas į šalies ir visuotinės adresų knygelės modelį
+description: Šiame straipsnyje aprašoma, kaip atnaujinti dvigubo rašymo duomenis šalies ir visuotinės adresų knygelės modeliui.
 author: RamaKrishnamoorthy
 ms.date: 03/10/2022
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: josaw
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-03-31
-ms.openlocfilehash: 22b31b46b247ca5f2d6b8b93f58c090b03a2b38c
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 10c5d9eb3f98887be976c2331f4d34530628702c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8688381"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895282"
 ---
 # <a name="upgrade-to-the-party-and-global-address-book-model"></a>Naujinimas į šalies ir visuotinės adresų knygelės modelį
 
@@ -40,7 +40,7 @@ Proceso pabaigoje sugeneruojami šie kableliais atskirtų verčių (.csv) failai
 | ImportFONewPostalAddress.csv | Šis failas padės sukurti naujus **pašto adreso** įrašus finansų ir operacijų programoje. |
 | ImportFONewElectronicAddress.csv | Šis failas padės sukurti naujus elektroninio **adreso** įrašus finansų ir operacijų programoje. |
 
-Šioje temoje paaiškinama, kaip naudoti duomenų gamyklos šablonus ir atnaujinti savo duomenis. Jei neturite jokių pritaikymų, galite naudoti šablonus. Tačiau jei turite pritaikyti abonemento, **kontakto** **ir tiekėjo duomenis**, **turite** modifikuoti šablonus, kaip aprašyta šioje temoje.
+Šiame straipsnyje paaiškinama, kaip naudoti duomenų gamyklos šablonus ir atnaujinti savo duomenis. Jei neturite jokių pritaikymų, galite naudoti šablonus. Tačiau, jei turite tinkinimo pagal **sąskaitą**, kontaktą **ir** tiekėjo **duomenis**, turite modifikuoti šablonus, kaip aprašyta šiame straipsnyje.
 
 > [!IMPORTANT]
 > Yra specialių instrukcijų, kaip paleisti šalies pašto adresą ir šalies elektroninio adreso šablonus. Pirmiausia turite paleisti šalies šabloną, tada šalies pašto adreso šabloną, tada šalies elektroninio adreso šabloną. Kiekvienas šablonas sukurtas importuoti atskiroje duomenų gamyklose.

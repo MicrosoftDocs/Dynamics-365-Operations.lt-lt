@@ -1,6 +1,6 @@
 ---
 title: Kalendorių kūrimas ir darbo laikų generavimas
-description: Kalendoriuje apibūdinamas operacijos išteklius ir pajėgumas ir darbo laikas. Ši procedūra padės jums nustatyti darbo kalendorių pagal darbo laiko šabloną.
+description: Kalendoriuje apibūdinamas operacijos išteklius ir pajėgumas ir darbo laikas. Šis straipsnis padės jums nustatyti darbo kalendorių pagal darbo laiko šabloną.
 author: twheeloc
 ms.date: 10/28/2021
 ms.topic: business-process
@@ -12,22 +12,22 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1b49b5393448bc501abd1b96123b64c034d7cc67
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 811f49307a8ae44bbee9906cb40a3ca31101f52b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8692897"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846335"
 ---
 # <a name="create-calendars-and-generate-working-times"></a>Kalendorių kūrimas ir darbo laikų generavimas
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 > [!IMPORTANT]
-> Šioje temoje parodytas funkcionalumas šiuo metu yra pasiekiamas finansų infrastruktūros personalo klientams.  
+> Šiuo metu šiame straipsnyje nurodytas funkcijas finansų infrastruktūros personalo klientams galima naudoti.  
 
 
-Kalendoriuje apibūdinamas operacijos išteklius ir pajėgumas ir darbo laikas. Ši procedūra padės jums nustatyti darbo kalendorių pagal darbo laiko šabloną. Šią procedūrą galite atlikti naudodami demonstracinių duomenų įmonę USMF arba savo duomenis.
+Kalendoriuje apibūdinamas operacijos išteklius ir pajėgumas ir darbo laikas. Šis straipsnis padės jums nustatyti darbo kalendorių pagal darbo laiko šabloną. Šią procedūrą galite atlikti naudodami demonstracinių duomenų įmonę USMF arba savo duomenis.
 
 1. Pagrindiniame puslapyje pasirinkite **Išteklių ciklo valdymas**.
 2. Pasirinkti **Kalendoriai**.

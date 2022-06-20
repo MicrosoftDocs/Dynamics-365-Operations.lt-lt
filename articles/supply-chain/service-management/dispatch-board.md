@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1cb13124bb086b3240a41278aac067775663c6ac
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 43d74135f8a18cddcb86f719d4c5ecd6a532cc82
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8678184"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878764"
 ---
 #  <a name="dispatch-board"></a>Išsiuntimo informacijos lenta 
 
@@ -38,7 +38,7 @@ Išsiuntimo informacijos lenta yra pagrindinė vieta, kurioje galite peržiūrė
 
   - Peržiūrėti aptarnavimo veiklų, kurios dar nebuvo išsiųstos, sąrašą.
 
-Informacijos, kaip atlikti konkrečias užduotis išsiuntimo informacijos lentoje, žr. temas skyriuje **Taip pat žr.**.
+Informacijos apie tai, kaip atlikti tam tikras užduotis išsiuntimo informacijos lentoje, ieškokite skyriuje Taip **pat žr. straipsnius**.
 
 ## <a name="see-also"></a>Taip pat žiūrėkite
 

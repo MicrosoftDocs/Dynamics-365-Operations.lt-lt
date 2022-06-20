@@ -1,6 +1,6 @@
 ---
 title: B2B verslo partnerių valdymas naudojant klientų hierarchijas
-description: Šioje temoje aprašoma, kaip naudoti klientų hierarchijas Microsoft Dynamics 365 Commerce, siekiant valdyti verslo partnerius "verslas tarp verslų" (B2B) el. komercijos svetainių.
+description: Šiame straipsnyje aprašoma, kaip naudoti klientų hierarchijas Microsoft Dynamics 365 Commerce, siekiant valdyti verslo partnerius "verslas tarp verslų" (B2B) el. komercijos svetainių.
 author: josaw1
 ms.date: 02/16/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 70acdf469be2fcddd9e2bf755e958c1b20ee2fcf
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: ddd02045b5df3ce20160a4feaa23339475823d3d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8686576"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8864986"
 ---
 # <a name="manage-b2b-business-partners-using-customer-hierarchies"></a>B2B verslo partnerių valdymas naudojant klientų hierarchijas
 
 [!include [banner](../../includes/banner.md)]
 
-Šioje temoje aprašoma, kaip naudoti klientų hierarchijas Microsoft Dynamics 365 Commerce, siekiant valdyti verslo partnerius "verslas tarp verslų" (B2B) el. komercijos svetainių.
+Šiame straipsnyje aprašoma, kaip naudoti klientų hierarchijas Microsoft Dynamics 365 Commerce, siekiant valdyti verslo partnerius "verslas tarp verslų" (B2B) el. komercijos svetainių.
 
 "Commerce Headquarters" klientų *hierarchijos* objektas naudojamas verslo partnerio organizacijoms, kurios naudos jūsų B2B el. komercijos svetainę, atstovauti. Prieš pradedant naudoti klientų hierarchijas verslo partneriams valdyti, "Commerce Headquarters" turite įgalinti B2B el. komercijos galimybes ir klientų hierarchijos numeraciją.
 

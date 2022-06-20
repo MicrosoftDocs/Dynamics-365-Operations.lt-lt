@@ -1,6 +1,6 @@
 ---
-title: Mokėtinų sumų SF gretinimo tikrinimo nustatymas
-description: Šioje temoje pateikiama informacija apie tai, kaip nustatyti mokėtinų sumų SF gretinimo tikrinimą.
+title: Mokėtinų sumų SF gretinimo patvirtinimo nustatymas
+description: Šiame straipsnyje pateikiama informacija, kaip nustatyti mokėtinų sumų SF gretinimo tikrinimą.
 author: abruer
 ms.date: 02/14/2022
 ms.topic: business-process
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 602666df4cf015791398939a3067a2cae85a12eb
-ms.sourcegitcommit: 6102f70d4595d01b90afe5b23dfd8ec2ea030653
+ms.openlocfilehash: 86cc5cf688e3b66cf976fc7f507bd8f8df757612
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8182560"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904965"
 ---
 # <a name="set-up-accounts-payable-invoice-matching-validation"></a>Mokėtinų sumų SF gretinimo tikrinimo nustatymas
 
@@ -44,7 +44,7 @@ Galimi keturi skirtingi gretinimo tikrinimo tipai.
 5. Pažymėkite arba atžymėkite žymės langelį **Gretinti sąskaitos faktūros sumas**, kad sugretintumėte faktines sąskaitos faktūros bendras sumas su numatytomis bendromis sumomis.
     * Pasirinkite, ar rodyti piktogramą, jei SF gretinimo neatitikimas viršija leistiną nuokrypį. Galite pasirinkti rodyti piktogramą, kai teigiamas neatitikimas viršija leistiną nuokrypį arba kai teigiamas ar neigiamas neatitikimas viršija leistiną nuokrypį.  
     * Pvz., leistinas nuokrypis yra 5 proc., o pirkimo užsakymo bendroji SF suma yra 100,00. Todėl kainų gretinimo piktograma rodoma, jei SF bendroji suma viršija 105,00. Pažymėjus parinktį **Jei didesnis arba mažesnis nei leistinas nuokrypis**, piktograma taip pat rodoma, kai sąskaitos faktūros suma yra mažesnė nei 95,00.  
-6. Lauke **Sąskaitos faktūros bendrų sumų leistino nuokrypio procentas** įveskite priimtiną leistino nuokrypio procentą. Ši vertė yra numatytoji įmonės vertė. Konkretiems tiekėjams šią vertę galima pakeisti puslapyje **Sąskaitos faktūros sumų leistini nuokrypiai**. Norėdami gauti informacijos apie tai, kaip pakeisti konkretaus tiekėjo sąskaitų faktūrų bendrų sumų leistino nuokrypio procentą, žr. toliau šioje temoje esantį skyrių „Sąskaitų faktūrų bendrų sumų gretinimo leistino nuokrypio nustatymas tiekėjams“.
+6. Lauke **Sąskaitos faktūros bendrų sumų leistino nuokrypio procentas** įveskite priimtiną leistino nuokrypio procentą. Ši vertė yra numatytoji įmonės vertė. Konkretiems tiekėjams šią vertę galima pakeisti puslapyje **Sąskaitos faktūros sumų leistini nuokrypiai**. Informacijos apie tai, kaip nepaisyti konkretaus tiekėjo SF bendrųjų sumų leistino nuokrypio procento, žr. šio straipsnio skyriuje "Nustatyti tiekėjų SF bendrųjų sumų gretinimo leistiną nuokrypį".
 7. Parinkties **Kainos ir kiekio gretinimas** nustatymas.
 8. Lauke **Eilučių atitikimo strategija** pasirinkite reikšmę, kurią norite naudoti kaip numatytąją juridinio subjekto, su kuriuo dirbate, strategiją. **Nebūtina** reiškia, kad nereikia tikrinti atskirų sąskaitos faktūros eilučių kainų su pirkimo užsakymo kainomis bei sąskaitos faktūros kiekių su važtaraščio kiekiais. **Dvipusis gretinimas** reiškia, kad reikia patvirtinti SF eilutes, tačiau tikrinamas tik pirkimo užsakymas ir tiekėjo SF dokumentai. Neatsižvelgiama į produkto gretinimo patvirtinimą. **Tripusis gretinimas** reiškia, kad SF grynoji vieneto kaina bus palyginta su pirkimo užsakymo grynąja vieneto kaina, o gretinamo produkto gavimo kiekis bus lyginamas su SF kiekiu.
 9. Norėdami leisti, kad prekei, tiekėjui, tiekėjo ir prekės deriniui arba pirkimo užsakymo eilutei būtų taikomas kitoks gretinimo lygis, pasirinkite lauko **Leisti keisti atitikimo strategiją** reikšmę. Konkretaus tiekėjo, prekės ar tiekėjo ir prekės derinio juridinio subjekto eilučių atitikimo strategiją galima pakeisti puslapyje **Atitikimo strategija**.
@@ -75,7 +75,7 @@ Pagal numatytąjį nustatymą leidžiami ir neigiami kainų nesutapimai. Tačiau
 
 ## <a name="set-up-matching-policy-override"></a>Atitikimo strategijos keitimo nustatymas
 
-Eikite **į mokėtinų sumų > nustatymas > SF gretinimo nustatymas >** **Atitikimo strategija, kad apibrėžtų numatytąjį eilučių atitikimo strategijos** **lauko įrašą pirkimo užsakymo** puslapyje. Ši sąranka neprivaloma. Naudokite šį puslapį norėdami nustatyti dviaigius prekių, tiekėjų ar prekių ir tiekėjų derinių gretinimą ar triaipipą gretinimą. Naudodami šiuos įrašus galite apibrėžti detalesnes atitikimo strategijas nei juridinio subjekto atitikimo strategija, kurią apibrėžėte puslapyje **Mokėtinų sumų parametrai**. Numatytoji juridinio subjekto eilučių atitikimo strategija taikoma visoms prekėms ir tiekėjams, išskyrus tuos, kuriems šiame puslapyje yra apibrėžta kita atitikimo strategija.
+Eikite **į mokėtinų sumų > SF > SF gretinimo nustatymo >** **atitikimo strategija, kad apibrėžtų numatytąjį eilučių atitikimo strategijos** **lauko įrašą pirkimo užsakymo** puslapyje. Ši sąranka neprivaloma. Naudokite šį puslapį norėdami nustatyti dviaigius prekių, tiekėjų ar prekių ir tiekėjų derinių gretinimą ar triaipipą gretinimą. Naudodami šiuos įrašus galite apibrėžti detalesnes atitikimo strategijas nei juridinio subjekto atitikimo strategija, kurią apibrėžėte puslapyje **Mokėtinų sumų parametrai**. Numatytoji juridinio subjekto eilučių atitikimo strategija taikoma visoms prekėms ir tiekėjams, išskyrus tuos, kuriems šiame puslapyje yra apibrėžta kita atitikimo strategija.
 
 Šiame puslapyje pažymėkite **Atitikimo strategijos lygis**. Atitikimo strategijų hierarchijoje pasirinkite eilučių atitikimo strategijos lygį.
 

@@ -1,6 +1,6 @@
 ---
 title: Kas nauja ar pasikeitė sistemoje „Dynamics 365 Human Resources“ 2020 m. rugsėjo 26 d.
-description: Šioje temoje aprašomos naujos arba pasikeitusios „Microsoft Dynamics 365 Human Resources” funkcijos 2020 m. rugsėjo 26 d.
+description: Šiame straipsnyje aprašomos priemonės, kurios yra naujos arba pakeistos programoje Microsoft Dynamics 365 Human Resources 2020 m. spalio 26 d.
 author: jcart1106
 ms.date: 09/26/2020
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8b0260c4d1bafe271a08336ceed7dc3742f1d590
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 1b7a89ae8a2132c8548d9451aa235d1bccb88809
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8061389"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874252"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-september-26-2020"></a>Kas nauja ar pasikeitė sistemoje „Dynamics 365 Human Resources“ 2020 m. rugsėjo 26 d.
 
@@ -27,7 +27,7 @@ ms.locfileid: "8061389"
 
 
 
-Šioje temoje aprašomos naujos, pasikeitusios ar netrukus pasirodysiančios „Dynamics 365 Human Resources“ funkcijos. Daugiau informacijos apie mūsų atnaujinimo procesą ir grafiką žr. [Atnaujinimo procesas](hr-admin-setup-update-process.md).
+Šiame straipsnyje aprašomos priemonės, kurios yra naujos, pakeistos arba tuoj pat Dynamics 365 Human Resources. Daugiau informacijos apie mūsų atnaujinimo procesą ir grafiką žr. [Atnaujinimo procesas](hr-admin-setup-update-process.md).
 
 Daugiau informacijos apie naujas funkcijas ir jų numatomas bendro pasiekiamumo datas žr. [„Dynamics 365 Human Resources” 2020 m. 2-os leidimo bangos apžvalga](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/).
 
@@ -39,16 +39,16 @@ Daugiau informacijos apie naujas funkcijas ir jų numatomas bendro pasiekiamumo 
 
 Šiame leidime bendrai prieinama toliau pateikta funkcija.
 
-- **Platformos naujinimas 10.0.13 dabar pasiekiamas** : Daugiau informacijos apie atnaujinimą žr [„Finance and Operations“ programų 10.0.13 versijos platformos naujiniai (2020 m. spalio mėn.)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-13.md).
+- **Dabar galimas platformos naujinimas 10.0.13**: daugiau informacijos apie naujinimą žr [. finansų ir operacijų programėlių 10.0.13 versijos platformos naujinimus (2020 m. spalio mėn.)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-13.md).
 
 ### <a name="bug-fixes"></a>Klaidų ištaisymai
 
 Toliau nurodyti klaidų ištaisymai įtraukti į šį leidimą.
 
 > [!NOTE]
-> Siekiame kuo greičiau pateikti jums šią informaciją. Gali būti šios temos naujinimų siekiant įtraukti klaidų ištaisymus, įtrauktus į komponavimo versiją publikavus šią temą.
+> Siekiame kuo greičiau pateikti jums šią informaciją. Gali būti šio straipsnio naujinimų, kad būtų klaidos pataisų, kurios buvo įtrauktos į versiją po to, kai buvo publikuotas šis straipsnis.
 
-| Problemos numeris | Problema | Aprašas |
+| Problemos numeris | Problema | Aprašymas |
 | --- | --- | --- |
 | 469495 | Numatytųjų finansinių dimensijų tinklelio ir dialogo lango naujinimai | Finansinių dimensijų tinklelis ir dialogo langas atnaujinti visoje „Human Resources”. |
 | 474887 | Atostogų užklausos darbo elementas atidaro netinkamą neautomatinio sprendimo saitą | Kai darbo eigos konfigūracijoje yra neautomatinis sprendimas, pereinant iš **Man priskirti darbo elementai** į atostogų užklausą atidaromas neteisingas saitas, rodantis tuščią formą arba atostogų užklausą, kurią sukūrė dabartinis vartotojas, o ne jam priskirtą neautomatinio sprendimo užklausą. |

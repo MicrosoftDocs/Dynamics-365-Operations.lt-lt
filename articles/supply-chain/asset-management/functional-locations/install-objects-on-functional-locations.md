@@ -1,6 +1,6 @@
 ---
 title: Turto diegimas funkcinėse vietose
-description: Šioje temoje paaiškinta, kaip diegti turtą funkcinėse vietose turto valdyme.
+description: Šiame straipsnyje paaiškinama, kaip įdiegti turtą funkcinėse turto valdymo vietose.
 author: johanhoffmann
 ms.date: 06/25/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bc278564b02335b44a0b35d6a3a981125e6f456b08893be2b5886f0a55396d52
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: MT
+ms.openlocfilehash: 8a35f2494c616c2e456f92409d012cc434a32bd8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6775752"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894507"
 ---
 # <a name="install-assets-on-functional-locations"></a>Turto diegimas funkcinėse vietose
 
@@ -28,7 +28,7 @@ ms.locfileid: "6775752"
 
  
 
-Sukūrus funkcinės vietos struktūras, kitas žingsnis yra įdiegti turtą atitinkamose funkcinėse vietose. Šioje temoje paaiškinta, kaip diegti turtą tose funkcinėse vietose turto valdyme. Daugiau informacijos apie turto kūrimą žr. [Turto pristatymas](../objects/introduction-to-objects.md).
+Sukūrus funkcinės vietos struktūras, kitas žingsnis yra įdiegti turtą atitinkamose funkcinėse vietose. Šiame straipsnyje paaiškinama, kaip įdiegti turtą tose funkcinėse turto valdymo vietose. Daugiau informacijos apie turto kūrimą žr. [Turto pristatymas](../objects/introduction-to-objects.md).
 
 Jei sukūrėte turto struktūrą, visa turto struktūra turi būti įdiegta funkcinėje vietoje. Todėl funkcinėje vietoje galima pasirinkti tik pagrindinį turtą (aukščiausio lygio turtą, kuris neturi pagrindinio turto). Funkcinėje vietoje taip pat bus įdiegtas visas susijęs antrinis turtas (antrinis turtas). Diegiant turtą funkcinėje vietoje, į jas gali būti automatiškai perkeltos funkcinės vietos finansinės dimensijos, atsižvelgiant į funkcinei vietai parinkto funkcinės vietos tipo nustatymą. Daugiau informacijos apie funkcinės vietos tipų nustatymą žr. [Funkcinių vietų tipai](../setup-for-functional-locations/functional-location-types.md).
 

@@ -1,6 +1,6 @@
 ---
 title: Turto nuomos ataskaitos
-description: Šioje temoje pateikiamos ir trumpai aprašomos ataskaitos, kurias galima naudoti modulyje Turto nuoma.
+description: Šiame straipsnyje pateikiamos ir trumpai aprašomos ataskaitos, kurias galima naudoti turto dalyje.
 author: moaamer
 ms.date: 04/05/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-27
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: cb1c994fee6efff82dd1cba1e71c6af49b384208
-ms.sourcegitcommit: 722854cb0d302d01ce3d9580ac80dc7c23d19bf5
+ms.openlocfilehash: a6e6eb851b9b2dce7259a5355326dd594a940b8c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/06/2022
-ms.locfileid: "8550045"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856718"
 ---
 # <a name="asset-leasing-reports"></a>Turto nuomos ataskaitos
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje pateikiamos ir trumpai aprašomos ataskaitos, kurias galima naudoti modulyje Turto nuoma. (Dauguma ataskaitų rodomos, atliekant šiuos veiksmus ar veiksmus, kurie yra labai panašūs, kaip pažymėta). 
+Šiame straipsnyje pateikiamos ir trumpai aprašomos ataskaitos, kurias galima naudoti turto dalyje. (Dauguma ataskaitų rodomos, atliekant šiuos veiksmus ar veiksmus, kurie yra labai panašūs, kaip pažymėta). 
 
 - Norėdami peržiūrėti daugumą modulio Turto nuoma ataskaitų, eikite į **Turto nuoma > Užklausos ir ataskaitos > Nuomos ataskaitos** ir pasirinkite ataskaitą, kurią norite peržiūrėti. Ataskaitoms, kurioms reikalingas kitoks parinkimo kelias, atidaryti skirti veiksmai yra įtraukiami tos ataskaitos aprašą. 
 - Kai pasirenkate spausdintiną ataskaitą, atidaromas parametrų puslapis, kuriame galima filtruoti į ataskaitą įtrauktą informaciją. Įveskite filtro kriterijus, tada pasirinkite **Gerai** ataskaitai generuoti. Sugeneruotoje ataskaitoje bus rodoma informacija, patenkanti į jūsų nurodytus filtrus.

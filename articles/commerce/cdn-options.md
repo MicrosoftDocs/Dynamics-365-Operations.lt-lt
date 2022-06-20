@@ -1,6 +1,6 @@
 ---
 title: Turinio pristatymo tinklo diegimo parinktys
-description: Šioje temoje peržvelgiamos skirtingos turinio pristatymo tinklo (CDN) diegimo pasirinktys, kurias galima naudoti su „Microsoft Dynamics 365 Commerce“ aplinkomis. Šios pasirinktys apima vietinius „Commerce“ pateiktus „Azure Front Door“ egzempliorius ir „Azure Front Door“ egzempliorius, kurie priklauso klientams.
+description: Šiame straipsnyje peržiūrimos skirtingos turinio pristatymo tinklo (CDN) diegimo parinktys, kurias galima naudoti su Microsoft Dynamics 365 Commerce aplinka. Šios pasirinktys apima vietinius „Commerce“ pateiktus „Azure Front Door“ egzempliorius ir „Azure Front Door“ egzempliorius, kurie priklauso klientams.
 author: BrianShook
 ms.date: 07/22/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2020-11-01
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 944123f3afe1c869c262da3997a73d8c60bbc366
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: a63751d42ab98610904191f1c09794b2311b0189
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8692730"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884422"
 ---
 # <a name="content-delivery-network-implementation-options"></a>Turinio pristatymo tinklo diegimo parinktys
 
 [!include [banner](includes/banner.md)]
 
-Šioje temoje peržvelgiamos skirtingos turinio pristatymo tinklo (CDN) diegimo pasirinktys, kurias galima naudoti su „Microsoft Dynamics 365 Commerce“ aplinkomis. Šios pasirinktys apima vietinius „Commerce“ pateiktus „Azure Front Door“ egzempliorius ir „Azure Front Door“ egzempliorius, kurie priklauso klientams.
+Šiame straipsnyje peržiūrimos skirtingos turinio pristatymo tinklo (CDN) diegimo parinktys, kurias galima naudoti su Microsoft Dynamics 365 Commerce aplinka. Šios pasirinktys apima vietinius „Commerce“ pateiktus „Azure Front Door“ egzempliorius ir „Azure Front Door“ egzempliorius, kurie priklauso klientams.
 
 „Commerce“ klientai turi kelias parinktis, kai jie atsižvelgia į tai, kurią CDN paslaugą naudoti su savo „Commerce“ aplinka. „Commerce“ išleidžiama su pagrindiniu „Azure Front Door“ palaikymu, kuris apima pagrindinius išteklių nuomos ir pasirinktinio domeno reikalavimus. Įmonėms, kurios nori daugiau kontroliuoti ir trokšta konkretesnių saugos gebėjimų, pvz., interneto programos užkardos (WAF), geriausias pasirinkimas – naudoti kliento „Azure Front Door“ egzempliorių arba išorinę CDN tarnybą.
 

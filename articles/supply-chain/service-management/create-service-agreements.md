@@ -1,6 +1,6 @@
 ---
 title: Aptarnavimo sutarčių kūrimas
-description: Šioje temoje paaiškinta, kaip kurti aptarnavimo sutartis naudojant aptarnavimo valdymo ir projektų valdymo bei apskaitos modulių funkcijas.
+description: Šiame straipsnyje aprašoma, kaip naudoti aptarnavimo valdymo priemones ir projekto valdymo bei apskaitos modulius kuriant aptarnavimo sutartis.
 author: sorenva
 ms.date: 02/19/2018
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0a8a139d1a11cca036ace2540cba59bf2cace0db
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: d18d279cd437e98cad6495def953978cb78e723e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677260"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901769"
 ---
 # <a name="create-service-agreements"></a>Aptarnavimo sutarčių kūrimas
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje paaiškinta, kaip kurti aptarnavimo sutartis naudojant aptarnavimo valdymo ir projektų valdymo bei apskaitos modulių funkcijas.
+Šiame straipsnyje aprašoma, kaip naudoti aptarnavimo valdymo priemones ir projekto valdymo bei apskaitos modulius kuriant aptarnavimo sutartis.
 
 ## <a name="create-a-service-agreement-from-service-management"></a>Aptarnavimo sutarties kūrimas tarnybos valdymo portale
 
@@ -51,10 +51,10 @@ ms.locfileid: "8677260"
 2. Pasirinkite **Visi projektai**.
 3. Pasirinkite projektą iš sąrašo.
 4. **Veiksmų srityje** pasirinkite **Tvarkyti**. Veiksmų grupėje **Naujas** pasirinkite **Aptarnavimas** ir pasirinkite **Aptarnavimo sutartis**.
-5. Atlikite skyriuje **Aptarnavimo sutarties kūrimas** nurodytus veiksmus kaip jau minėta šioje temoje, kad būtų įvesta projekto nuoroda.
+5. Norėdami įvesti projekto nuorodą, atlikite **skyriaus, pavadinto** Kurti aptarnavimo sutartį, veiksmus, kaip aprašyta anksčiau.
 
 
-## <a name="related-topics"></a>Susijusios temos
+## <a name="related-articles"></a>Susiję straipsniai
 
 [Sutarčių sudarymo ir pasirašymo apžvalga](service-agreements.md)
 

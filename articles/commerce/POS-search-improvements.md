@@ -1,6 +1,6 @@
 ---
 title: Produktų ir klientų paieška elektroniniame kasos aparate (EKA)
-description: Šioje temoje apžvelgiama, kaip patobulinta „Dynamics 365 Commerce“ produktų ir klientų ieškos funkcija.
+description: Šiame straipsnyje pateikta patobulinimų, kurie buvo atlikti produktų ir klientų ieškos funkcijoms, apžvalga Dynamics 365 Commerce.
 author: ShalabhjainMSFT
 ms.date: 05/25/2022
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: 460c7d3b00421ba43414f7343887edf9b8adad9c
-ms.sourcegitcommit: 9dd2d32fc303023a509d58ec7b5935f89d1e9c6d
+ms.openlocfilehash: 5f2d8162c810f63dc889a03d33fd111de69783de
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/26/2022
-ms.locfileid: "8806433"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859005"
 ---
 # <a name="product-search-and-customer-search-in-the-point-of-sale-pos"></a>Produktų ir klientų paieška elektroniniame kasos aparate (EKA)
 

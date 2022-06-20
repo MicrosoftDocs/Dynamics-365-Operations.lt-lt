@@ -1,6 +1,6 @@
 ---
 title: Biudžeto planavimo duomenų paskirstymas
-description: Šioje temoje aprašomi 365 finansuose Microsoft Dynamics galimi paskirstymo metodai ir jų naudojimas.
+description: Šiame straipsnyje aprašomi 365 finansuose Microsoft Dynamics galimi paskirstymo metodai ir jų naudojimas.
 author: panolte
 ms.date: 03/05/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c07fe1363be841d42315084780a1f3146dca174a
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 5788f6dc8aa6cddad5c8eaba748827307a4d38a1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8711064"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901466"
 ---
 # <a name="budget-planning-data-allocation"></a>Biudžeto planavimo duomenų paskirstymas
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje aprašomi 365 finansuose Microsoft Dynamics galimi paskirstymo metodai ir jų naudojimas.  
+Šiame straipsnyje aprašomi 365 finansuose Microsoft Dynamics galimi paskirstymo metodai ir jų naudojimas.  
 
 Biudžeto plano duomenis galima paskirstyti keliais būdais, kad būtų tiksliai atvaizduojamos numatomos sumos.
 

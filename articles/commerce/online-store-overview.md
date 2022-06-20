@@ -1,6 +1,6 @@
 ---
-title: E-komercijos saito apžvalga
-description: Šioje temoje pateikta apžvalga e-komercijos svetainių palaikymui „Microsoft Dynamics 365 Commerce“.
+title: El. prekybos svetainės apžvalga
+description: Šiame straipsnyje pateikta el. komercijos svetainių palaikymo apžvalga Microsoft Dynamics 365 Commerce.
 author: bicyclingfool
 ms.date: 11/05/2020
 ms.topic: overview
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: stuharg
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 90f0f01115b00f231af8d4ae11be1d18d379399b
-ms.sourcegitcommit: 6f6ec4f4ff595bf81f0b8b83f66442d5456efa87
+ms.openlocfilehash: 9b7e4d09eaa4f91478d27cbca5eaea48af86e676
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "8487773"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899126"
 ---
 # <a name="e-commerce-site-overview"></a>El. prekybos svetainės apžvalga
 
 [!include [banner](includes/banner.md)]
 
-Šioje temoje pateikta apžvalga e-komercijos svetainių palaikymui „Microsoft Dynamics 365 Commerce“. Ji apima informaciją apie tai, kaip e-komercijos interneto parduotuvės pradedamos ir valdomos „Dynamics 365 Commerce“. Jame taip pat pateiktos nuorodos į didesnį kiekį informacijos apie internetines parduotuves, kaip nustatyti ir konfigūruoti e-komercijos svetainę. Nepaisant to, kad ši tema apima daug pagrindinių žinių, ji neapima visko, ko reikia norint nustatyti gamybos e-komercijos svetainę. Išsamesnės temos gali būti prieinamos „Dynamics 365 Commerce“ dokumentuose.
+Šiame straipsnyje pateikta el. komercijos svetainių palaikymo apžvalga Microsoft Dynamics 365 Commerce. Ji apima informaciją apie tai, kaip e-komercijos interneto parduotuvės pradedamos ir valdomos „Dynamics 365 Commerce“. Jame taip pat pateiktos nuorodos į didesnį kiekį informacijos apie internetines parduotuves, kaip nustatyti ir konfigūruoti e-komercijos svetainę. Nors šis straipsnis apima daugelį pagrindinių dalykų, jis neapima visų reikalingų gamybos el. komercijos svetainių. Daugiau išplėstinių straipsnių galima rasti Dynamics 365 Commerce dokumentuose.
 
 ## <a name="online-store-channel"></a>Interneto parduotuvės kanalas
 
@@ -74,7 +74,7 @@ Galite įtraukti naujus kanalus pasirinkdami **Įtraukti kanalą**. Norėdami į
 
 ## <a name="overview-of-the-default-site-pages"></a>Numatytojo saito puslapio apžvalga
 
-Saitai **numatytasis** ir **„fabrikam”** apima iš anksto konfigūruotus šablonus, fragmentus ir puslapius siekiant padėti jums pradėti. Daugiau informacijos ieškokite šiose temose:
+Saitai **numatytasis** ir **„fabrikam”** apima iš anksto konfigūruotus šablonus, fragmentus ir puslapius siekiant padėti jums pradėti. Daugiau informacijos ieškokite šiuose straipsniuose:
 
 - [Pagrindinio puslapio apžvalga](quick-tour-home-page.md)
 - [Produkto išsamios informacijos puslapio apžvalga](quick-tour-pdp.md)
@@ -83,7 +83,7 @@ Saitai **numatytasis** ir **„fabrikam”** apima iš anksto konfigūruotus ša
 
 ## <a name="manage-site-settings"></a>Valdyti saito nustatymus
 
-Dėl informacijos apie tai, kaip valdyti jūsų saito nustatymus, žr. tolesnes temas:
+Informacijos apie tai, kaip valdyti savo svetainės nustatymus, ieškokite šiame straipsnius:
 
 - [Valdyti e-komercijos vartotojus ir vaidmenis](manage-ecommerce-users-roles.md)
 - [Ieškos modulio optimizavimo (SEO) aplinkybės jūsų svetainei](search-engine-optimization-considerations.md)
@@ -92,7 +92,7 @@ Dėl informacijos apie tai, kaip valdyti jūsų saito nustatymus, žr. tolesnes 
 
 ## <a name="manage-site-content"></a>Valdyti saito turinį
 
-Dėl informacijos apie tai, kaip valdyti jūsų saito turinį, žr. tolesnes temas:
+Informacijos apie tai, kaip valdyti svetainės turinį, rasite rasite toliau pateikiamame straipsnius:
 
 - [Puslapio modelio žodynas](page-elements-overview.md)
 - [Dokumentų būsenos ir vykdymo ciklas](document-states-overview.md)

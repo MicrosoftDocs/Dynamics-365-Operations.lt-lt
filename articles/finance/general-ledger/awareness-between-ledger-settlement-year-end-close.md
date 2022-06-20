@@ -1,6 +1,6 @@
 ---
 title: Informacijos bendrinimas tarp didžiosios knygos atsiskaitymo ir metų pabaigos uždarymo
-description: Šioje temoje pateikiama informacija apie patobulinimus, kurie veikia DK sudengimą ir DK metų pabaigos uždarymą.
+description: Šiame straipsnyje pateikta informacija apie patobulinimus, kurie veikia DK sudengimą ir DK metų pabaigos uždarymą.
 author: kweekley
 ms.date: 04/06/2022
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2022-01-31
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: 13d0a0a11a8f31e4ba647ccc23906f6b137051c2
-ms.sourcegitcommit: b96e0c70553bca9b3f5eb65105a52cb71d978a36
+ms.openlocfilehash: 30d3cc0bbd97cd006f12d06cda64ee63cb42252e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/07/2022
-ms.locfileid: "8553338"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8902522"
 ---
 # <a name="awareness-between-ledger-settlement-and-year-end-close"></a>Informacijos bendrinimas tarp didžiosios knygos atsiskaitymo ir metų pabaigos uždarymo
 
@@ -67,12 +67,12 @@ Dėl funkcijų ir duomenų modelio pakeitimų svarbu, kad prieš įgalindami fun
 
 Parinktis **Išlaikyti išsamią informaciją metų pabaigos uždarymo** metu yra nustatyta kiekvienai pagrindinei sąskaitai DK sudengimo **nustatymo** puslapyje.
 
-1.  Eikite **į LedgerLedger** > **setupGeneral** > **DK parametrus**.
+1.  Eikite **į DK** > **nustatymo** > **DK parametrus**.
 2.  Skirtuke **DK sudengimas** pasirinkite DK sudengimo **sąskaitas**.
 
 Arba
 
-1.  Eikite į **LedgerPeriodic** > **tasksLedger** > **sudengimą**.
+1.  Eiti į DK **periodinių** > **užduočių DK** > **sudengimą**.
 2.  Pasirinkti **DK sudengimo sąskaitas**.
 
 Du stulpeliai įtraukti į DK sudengimų **puslapį**:
@@ -82,11 +82,11 @@ Du stulpeliai įtraukti į DK sudengimų **puslapį**:
 
 ## <a name="year-end-close"></a>Metų pabaigos uždarymas
 
-Kai metų pabaigos uždarymą **vykdote nueidami į General ledgerPeriod** > **closeYear** > **pabaigos** uždarymą, proceso metu sukuriami pagrindinių sąskaitų, nustatytų DK sudengti, pradiniai balansai. Pradžios likučiai kuriami suvestinėje arba išsamiai, atsižvelgiant į DK sudengimo nustatymą. Į procesą neįtrauktos sudengtos DK operacijos, neatsižvelgiant į tai, ar kiekvienos pagrindinės sąskaitos pradžios likutį registruojate suvestinėje, ar išsamiai.
+Kai metų pabaigos **uždarymą** > **·** > **vykdote** nueidami į DK laikotarpio uždarymo metų pabaigos uždarymą, procesas sukuria pagrindinių sąskaitų, kurios nustatytos DK sudengti, pradžios balansus. Pradžios likučiai kuriami suvestinėje arba išsamiai, atsižvelgiant į DK sudengimo nustatymą. Į procesą neįtrauktos sudengtos DK operacijos, neatsižvelgiant į tai, ar kiekvienos pagrindinės sąskaitos pradžios likutį registruojate suvestinėje, ar išsamiai.
 
 Pvz., pagrindinėse sąskaitose registruojamos kelios operacijos130100 2021 finansiniais metais.
 
-| Žurnalo numeris | Kvitas  | Data       | Tipas      | DK sąskaita | Abonemento pavadinimas        | Aprašymas       | Valiuta | Suma operacijos valiuta | Suma  | Suma, išreikšta ataskaitų valiuta |
+| Žurnalo numeris | Kvitas  | Data       | Tipas      | Didžiosios knygos sąskaita | Abonemento pavadinimas        | Aprašymas       | Valiuta | Suma operacijos valiuta | Suma  | Suma, išreikšta ataskaitų valiuta |
 |----------------|----------|------------|-----------|----------------|---------------------|-------------------|----------|--------------------------------|---------|------------------------------|
 | 20853          | FTV-3000 | 12/3/2021  | Vykdymas | 130100-001-    | Gautinos sumos | Aptarnavimo mokestis       | USD      | 100                            | 100     | 100                          |
 | 20855          | FTV-3004 | 12/5/2021  | Vykdymas | 130100-002-    | Gautinos sumos | Komunalinės paslaugos         | USD      | 175                            | 175     | 175                          |
@@ -101,7 +101,7 @@ Iš šių operacijų trys sudengimos DK sudengimo metu.
 
 Išrašyta SF 175 JAV doleriams (175 USD). Šią SF apmokėjo mokėjimas eurais (EUR), o buvo taikoma mokėjimo nuolaida.
 
-| Žurnalo numeris | Kvitas  | Data       | Tipas      | DK sąskaita | Abonemento pavadinimas        | Aprašymas | Valiuta | Suma operacijos valiuta | Suma  | Suma, išreikšta ataskaitų valiuta |
+| Žurnalo numeris | Kvitas  | Data       | Tipas      | Didžiosios knygos sąskaita | Abonemento pavadinimas        | Aprašymas | Valiuta | Suma operacijos valiuta | Suma  | Suma, išreikšta ataskaitų valiuta |
 |----------------|----------|------------|-----------|----------------|---------------------|-------------|----------|--------------------------------|---------|------------------------------|
 | 20855          | FTV-3004 | 12/5/2021  | Vykdymas | 130100-002-    | Gautinos sumos | Komunalinės paslaugos   | USD      | 175                            | 175     | 175                          |
 | 20851          | ARP-8000 | 12/20/2021 | Vykdymas | 130100-002-    | Gautinos sumos |             | USD      | -0.88                          | -0.88   | -0.88                        |
@@ -112,7 +112,7 @@ Pagrindinės sąskaitos rezultatai 130100 priklauso nuo to, ar priemonė įgalin
 ### <a name="the-feature-isnt-enabled"></a>Ši funkcija neįgalinta
 Metų pabaigos uždarymas sukuria tris pagrindinės sąskaitos pradžios likučio operacijas130100 2022 m. Operacijų suma apskaitos valiuta yra USD 525.
 
-| Žurnalo numeris | Kvitas  | Data     | Tipas    | DK sąskaita | Abonemento pavadinimas        | Aprašymas | Valiuta | Suma operacijos valiuta | Suma  | Suma, išreikšta ataskaitų valiuta |
+| Žurnalo numeris | Kvitas  | Data     | Tipas    | Didžiosios knygos sąskaita | Abonemento pavadinimas        | Aprašymas | Valiuta | Suma operacijos valiuta | Suma  | Suma, išreikšta ataskaitų valiuta |
 |----------------|----------|----------|---------|----------------|---------------------|-------------|----------|--------------------------------|---------|------------------------------|
 | 20910          | YEC_2021 | 2022-01-01 | Atidarantis | 130100-002-    | Gautinos sumos |             | USD      | 299.12                         | 299.12  | 299.12                       |
 | 20910          | YEC_2021 | 2022-01-01 | Atidarantis | 130100-001-    | Gautinos sumos |             | USD      | 400                            | 400     | 400                          |
@@ -124,7 +124,7 @@ Nors mokėjimo operacija EUR -127,11 buvo sudengta DK, operacija vis dar nusiųs
 
 Metų pabaigos uždarymas sukuria dvi pagrindinės sąskaitos 2022 130100 balanso operacijas. Operacijų suma apskaitos valiuta vis dar USD 525, bet DK sudengtos operacijos į laikotarpio pradžios likutį neįtraukiamos. Bendra sąskaitos 130100-002 suma USD 125 vietoj USD 299.12, o 127,11 EUR / 174,12 USD operacijos nėra visiškai neįtrauktos.
 
-| Žurnalo numeris | Kvitas  | Data     | Tipas    | DK sąskaita | Abonemento pavadinimas        | Aprašymas | Valiuta | Suma operacijos valiuta | Suma | Suma, išreikšta ataskaitų valiuta |
+| Žurnalo numeris | Kvitas  | Data     | Tipas    | Didžiosios knygos sąskaita | Abonemento pavadinimas        | Aprašymas | Valiuta | Suma operacijos valiuta | Suma | Suma, išreikšta ataskaitų valiuta |
 |----------------|----------|----------|---------|----------------|---------------------|-------------|----------|--------------------------------|--------|------------------------------|
 | 20910          | YEC_2021 | 2022-01-01 | Atidarantis | 130100-002-    | Gautinos sumos |             | USD      | 125                            | 125    | 125                          |
 | 20910          | YEC_2021 | 2022-01-01 | Atidarantis | 130100-001-    | Gautinos sumos |             | USD      | 400                            | 400    | 400                          |
@@ -133,7 +133,7 @@ Metų pabaigos uždarymas sukuria dvi pagrindinės sąskaitos 2022 130100 balans
 
 Uždaržius metus, 2022 m. sukuriamos penkios pagrindinės sąskaitos 130100 balanso operacijos. Sukuriama atskira pradžios likučio operacija kiekvienai iš penkių operacijų, kurios nebuvo sudengtos. Operacijų suma apskaitos valiuta vis dar USD 525.
 
-| Žurnalo numeris | Kvitas  | Data     | Tipas    | DK sąskaita | Abonemento pavadinimas        | Aprašymas       | Valiuta | Suma operacijos valiuta | Suma | Suma, išreikšta ataskaitų valiuta |
+| Žurnalo numeris | Kvitas  | Data     | Tipas    | Didžiosios knygos sąskaita | Abonemento pavadinimas        | Aprašymas       | Valiuta | Suma operacijos valiuta | Suma | Suma, išreikšta ataskaitų valiuta |
 |----------------|----------|----------|---------|----------------|---------------------|-------------------|----------|--------------------------------|--------|------------------------------|
 | 20910          | YEC_2021 | 2022-01-01 | Atidarantis | 130100-001-    | Gautinos sumos | Aptarnavimo mokestis       | USD      | 100                            | 100    | 100                          |
 | 20910          | YEC_2021 | 2022-01-01 | Atidarantis | 130100-001-    | Gautinos sumos | Grąžinimas            | USD      | -100                           | -100   | -100                         |
@@ -159,7 +159,7 @@ Informaciją iš pradinių operacijų galima rasti DK sudengimo **puslapyje**. K
 ## <a name="settle-transactions"></a><a name="settle-transactions"></a>Sudengti operacijas
 Norėdami sudengti DK operacijas, atlikite toliau nurodytus veiksmus.
 
-1. Eikite į **LedgerPeriodic** > **tasksLedger** > **sudengimą**.
+1. Eiti į DK **periodinių** > **užduočių DK** > **sudengimą**.
 2.  Puslapio viršuje nustatykite filtrus.
 
     1. Pasirinkite datos diapazoną. Arba galite pasirinkti datos intervalo kodą, kad datų diapazonas būtų automatiškai užpildomas.

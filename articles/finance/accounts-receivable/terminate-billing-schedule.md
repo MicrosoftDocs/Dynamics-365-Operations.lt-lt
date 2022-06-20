@@ -1,6 +1,6 @@
 ---
 title: Atsiskaitymo grafikų nutraukimas
-description: Šioje temoje paaiškinama, kaip atleisti atsiskaitymo grafikus ir atsiskaitymo grafiko eilutes abonemento sąskaitos pateikimo metu.
+description: Šiame straipsnyje paaiškinama, kaip atleisti atsiskaitymo grafikus ir atsiskaitymo grafiko eilutes dalyje Abonemento sąskaitos išrašymas.
 author: JodiChristiansen
 ms.date: 11/04/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: e823ce950d6a4687dc7cda14e06bffdbb4f37f7e
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 4fce23f3cf35ef8c388ce13fc422f268a2bd8e32
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8690982"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872563"
 ---
 # <a name="terminate-billing-schedules"></a>Atsiskaitymo grafikų nutraukimas
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje paaiškinama, kaip atleisti atsiskaitymo grafikus ir atsiskaitymo grafiko eilutes abonemento sąskaitos pateikimo metu. Kai išeisite iš atsiskaitymo grafiko, jo būsena turi būti **Aktyvus**. Jos būsena negali būti **Sulaikyta**. Taip pat, kai išeisite iš atsiskaitymo grafiko eilutės, jos būsena turi būti **Aktyvi**. Kai išeisite iš atsiskaitymo grafiko eilutės, mokėjimo grafiko antraštės dalis nebus paveikta.
+Šiame straipsnyje paaiškinama, kaip atleisti atsiskaitymo grafikus ir atsiskaitymo grafiko eilutes dalyje Abonemento sąskaitos išrašymas. Kai išeisite iš atsiskaitymo grafiko, jo būsena turi būti **Aktyvus**. Jos būsena negali būti **Sulaikyta**. Taip pat, kai išeisite iš atsiskaitymo grafiko eilutės, jos būsena turi būti **Aktyvi**. Kai išeisite iš atsiskaitymo grafiko eilutės, mokėjimo grafiko antraštės dalis nebus paveikta.
 
 Norėdami atleisti atsiskaitymo grafiką arba atsiskaitymo grafiko eilutę, eikite į vieną iš šių vietų:
 

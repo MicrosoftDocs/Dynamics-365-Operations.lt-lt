@@ -1,6 +1,6 @@
 ---
 title: Masinis finansinio laikotarpio uždarymas
-description: Šioje temoje aptariama, kaip nustatyti laikotarpį vykdyti fone arba vienu metu visiškai panaikinti laikotarpį arba daugiau nei vieną juridinį asmenį.
+description: Šiame straipsnyje rodoma, kaip sulaikyti laikotarpį arba visam laikui uždaryti laikotarpį ar daugiau nei vieną juridinį subjektą.
 author: aprilolson
 ms.date: 08/16/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0acaad0d6e89fe7c81537e554b36ffb210e5abad
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 18e2418777e4f8a5f10b946d7cdc217e5e264318
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722072"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872447"
 ---
 # <a name="mass-financial-period-close"></a>Masinis finansinio laikotarpio uždarymas
 
 [!include [banner](../../includes/banner.md)]
 
-Šioje temoje aptariama, kaip nustatyti laikotarpį vykdyti fone arba vienu metu visiškai panaikinti laikotarpį arba daugiau nei vieną juridinį asmenį. Be to, užduotyje parodoma, kaip apriboti vartotojų grupę registruoti naudojant konkrečius modulius.
+Šiame straipsnyje rodoma, kaip sulaikyti laikotarpį arba visam laikui uždaryti laikotarpį ar daugiau nei vieną juridinį subjektą. Be to, užduotyje parodoma, kaip apriboti vartotojų grupę registruoti naudojant konkrečius modulius.
 
 1. Naršymo srityje eikite į DK **, kai > laikotarpio uždarymą > DK kalendorius**. Atminkite, kad rodomų juridinių subjektų sąrašas priklauso nuo puslapyje pasirinkto finansinio kalendoriaus. Bus rodomi tik tie juridiniai subjektai, kurie naudoja pasirinktą finansinį kalendorių.
 2. Pasirinkite **Redaguoti**.

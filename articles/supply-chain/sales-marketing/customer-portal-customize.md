@@ -1,6 +1,6 @@
 ---
 title: Kliento portalo tinkinimas ir naudojimas
-description: Šioje temoje paaiškinama, kaip tinkinti kliento portalą po to, kai jis buvo įtrauktas į jūsų sistemą.
+description: Šiame straipsnyje paaiškinama, kaip pritaikyti kliento portalą po to, kai jis įtraukiamas į jūsų sistemą.
 author: Henrikan
 ms.date: 04/22/2020
 ms.topic: article
@@ -12,19 +12,19 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 02ad0470b7886b2e9b259682a7f8c8150d656cfb
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 85ec4beda2efe62ff5076a5ed694efbc47c6d87f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8063498"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878880"
 ---
 # <a name="customize-and-use-the-customer-portal"></a>Kliento portalo tinkinimas ir naudojimas
 
 [!include [banner](../includes/banner.md)]
 
 
-Šioje temoje aprašomi skirtingi kliento portalo puslapiai, kurie iš karto palaikomi. Joje aiškinama, kokia yra šių puslapių paskirtis ir kaip juos galima tinkinti.
+Šiame straipsnyje aprašomi skirtingi puslapiai, galimų kliento portale, kuris yra langelyje. Joje aiškinama, kokia yra šių puslapių paskirtis ir kaip juos galima tinkinti.
 
 Kliento portale iš karto yra pasiekiami keli tinklalapiai ir veiksmai. Toliau pateiktoje svetainės struktūroje pateikiama šių tinklalapių ir veiksmų apžvalga, taip pat vaidmenys, kurie gali atlikti veiksmus.
 
@@ -32,16 +32,16 @@ Kliento portale iš karto yra pasiekiami keli tinklalapiai ir veiksmai. Toliau p
 
 ## <a name="typical-customizations"></a>Įprasti tinkinimai
 
-Toliau nurodytose temose pateikiama pagrindinė informacija apie „Power Apps“ portalus ir kaip juos tinkinti.
+Šie straipsniai padės jums sužinoti apie portalų pagrindus Power Apps ir kaip galima pritaikyti portalus:
 
-- [Darbas su šablonais](/powerapps/maker/portals/work-with-templates) – Šioje temoje pateikiama bendra apžvalga apie tai, kaip „Power Apps“ portalai veikia ir kaip galite paprastai juos tinkinti.
-- [Portalo turinio tvarkymas](/dynamics365/portals/manage-portal-content) – šioje temoje paaiškinama, kaip galite tvarkyti ir tinkinti turinį, kurį pateikiate savo portale.
-- [CSS redagavimas](/powerapps/maker/portals/edit-css) – ši tema padeda atlikti sudėtingesnius jūsų portalo vartotojo sąsajos (UI) tinkinimus.
-- [Portalo temos kūrimas](/dynamics365/portals/create-theme) – ši tema padeda sukurti jūsų portalo vartotojo sąsajos temą.
-- [Kaip paprastai kurti ir rodyti portalo turinį](/dynamics365/portals/create-expose-portal-content) – ši tema padeda jums tvarkyti jūsų portale naudojamus pagrindinius duomenis ir lenteles.
-- [Portale naudojamo kontakto konfigūravimas](/powerapps/maker/portals/configure/configure-contacts) – šioje temoje paaiškinama, kaip kurti ir tinkinti vartotojų vaidmenis ir kaip veikia sauga ir autentifikavimas „Power Apps“ portaluose.
-- [Lentelių formų ir interneto formų pastabų konfigūravimas portaluose](/powerapps/maker/portals/configure-notes) – šioje temoje paaiškinama, kaip įtraukti dokumentus ir papildomą saugyklą į jūsų portalą.
-- [Portalo svetainės klaidų tvarkymas](/powerapps/maker/portals/admin/view-portal-error-log) – šioje temoje paaiškinama, kaip peržiūrėti portalo klaidų žurnalus ir kaip juos įrašyti į „Microsoft Azure“ didelių dvejetainių objektų saugyklos paskyrą.
+- [Darbas su šablonais](/powerapps/maker/portals/work-with-templates) – šiame straipsnyje pateikiama bendroji apžvalga, Power Apps kaip veikia portalai ir kaip galima atlikti paprastus portalų pritaikymus.
+- [Valdyti portalo](/dynamics365/portals/manage-portal-content) turinį – šiame straipsnyje paaiškinama, kaip galite valdyti ir tinkinti turinį, kurį iškate portale.
+- [Redaguoti CSS](/powerapps/maker/portals/edit-css) – šis straipsnis padeda atlikti sudėtingesnius vartotojo sąsajos (UI) tinkinimus jūsų portale.
+- [Sukurti savo portalo temą](/dynamics365/portals/create-theme) – šis straipsnis padės jums sukurti portalo vartotojo sąsajos temą.
+- [Lengvai kurti ir rodyti portalo turinį](/dynamics365/portals/create-expose-portal-content) – šis straipsnis padeda valdyti su portalu pagrindinius duomenis ir lenteles.
+- [Sukonfigūruokite kontaktą, kuris bus naudojamas portale](/powerapps/maker/portals/configure/configure-contacts), – šiame straipsnyje paaiškinama, kaip sukurti ir pritaikyti vartotojų vaidmenis bei kaip portaluose veikia sauga ir autentifikavimas Power Apps.
+- [Konfigūruoti lentelių formų ir interneto formų pastabas portaluose](/powerapps/maker/portals/configure-notes) – šiame straipsnyje paaiškinama, kaip prie portalo pridėti dokumentų ir papildomos saugyklos.
+- [Portalo svetainės klaidų tvarkymas](/powerapps/maker/portals/admin/view-portal-error-log) – šiame straipsnyje paaiškinama, kaip peržiūrėti portalo klaidų žurnalus ir saugoti juos savo Microsoft Azure BLOB saugyklos sąskaitoje.
 
 ## <a name="customize-the-order-creation-process"></a>Užsakymų kūrimo proceso tinkinimas
 

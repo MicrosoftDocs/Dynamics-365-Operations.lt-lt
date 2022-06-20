@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2021-03-05
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 8ff8fae0bb20b11b15c7520fbb14727ff0372ca0255adc82599c6680a64671af
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 301a4bb58f896a2dc0f0cddcd2e29344865ca898
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6748720"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8897551"
 ---
 # <a name="unified-number-sequence-for-job-ids"></a>Bendra užduočių ID numerių seka
 
@@ -25,7 +25,7 @@ ms.locfileid: "6748720"
 
 ## <a name="turn-on-this-feature-for-your-system"></a>Šios funkcijos įjungimas sistemoje
 
-Jei jūsų sistemoje dar nėra šioje temoje aprašytos funkcijos, eikite į [Funkcijų valdymas](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) ir įjunkite funkciją *Suvienodinta užduočių ID numeracija*.
+Jei jūsų sistemoje dar nėra šiame straipsnyje aprašytų priemonių, [...](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)*eikite į funkcijų valdymą ir įjunkite užduočių Įdavimo funkcijos suvienodintą numeraciją.*
 
 ## <a name="set-up-the-unified-number-sequence-for-job-ids"></a>Suvienodintos užduočių ID numeracijos nustatymas
 

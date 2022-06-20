@@ -1,6 +1,6 @@
 ---
 title: Turto perkėlimas, keitimas ir diegimas
-description: Šioje temoje paaiškinta, kaip perkelti, pakeisti ir diegti turtą turto valdyme.
+description: Šiame straipsnyje paaiškinama, kaip perkelti, pakeisti ir įdiegti turtą turto valdymo dalyje.
 author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: aad94f17d6efadf7c520c021354963e7135d6d4da1426774925ce877f705e01a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: MT
+ms.openlocfilehash: e1454f41bb0b43e22c5278463f63aa4178696eef
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6769640"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872130"
 ---
 # <a name="move-replace-and-install-assets"></a>Turto perkėlimas, keitimas ir diegimas
 
@@ -28,7 +28,7 @@ ms.locfileid: "6769640"
 
  
 
-Šioje temoje paaiškinta, kaip perkelti, pakeisti ir diegti turtą turto valdyme. Galima sukurti atskirą turtą, kuris neturi jokių ryšių su kitu turtu, arba galima sukurti turto struktūrą, apimančią pagrindinį turtą (aukščiausio lygio turtas) ir susijusį antrinį turtą (antrinis turtas). Turto valdyme yra trys būdai kaip galima perkelti ir keisti turto vietą:
+Šiame straipsnyje paaiškinama, kaip perkelti, pakeisti ir įdiegti turtą turto valdymo dalyje. Galima sukurti atskirą turtą, kuris neturi jokių ryšių su kitu turtu, arba galima sukurti turto struktūrą, apimančią pagrindinį turtą (aukščiausio lygio turtas) ir susijusį antrinį turtą (antrinis turtas). Turto valdyme yra trys būdai kaip galima perkelti ir keisti turto vietą:
 
 - **Perkelti** – perkelkite turtą į kitą turto struktūrą arba į kitą tos pačios turto struktūros vietą.
 - **Pakeisti** – laikinai pašalinkite turtą iš turto struktūros, kad jį būtų galima pataisyti arba atnaujinti, o vėliau vėl įtraukti atnaujintą turtą į turto struktūrą. Taip pat galima visam laikui pakeisti naudotą turtą nauju turtu.
@@ -42,7 +42,7 @@ ms.locfileid: "6769640"
 Norėdami perkelti turtą į kitą turto struktūrą arba į kitą tos pačios turto struktūros vietą naudokite funkciją **Perkelti turtą**. Taip pat galima perkelti turtą iš turto struktūros, kad jis taptų atskiru turtu be jokių struktūros ryšių.
 
 > [!NOTE]
-> Nenaudokite šios funkcijos, jei turtas atnaujinamas arba laikinai pakeičiamas. Vietoje jos naudokite funkciją **Pakeisti turtą**, kuri aprašytas toliau šioje temoje.
+> Nenaudokite šios funkcijos, jei turtas atnaujinamas arba laikinai pakeičiamas. Todėl naudokite funkciją **Pakeisti turtą**, kuri toliau aprašyta šiame straipsnyje.
 
 1. Pasirinkite **Turto valdymas** \> **Bendra** \> **Turtas** \> **Visas turtas** arba **Aktyvus turtas**.
 2. Sąraše pasirinkite perkeliamą turtą. Jei turtas turi antrinį turtą, taip pat perkelsite ir tą turtą.

@@ -1,6 +1,6 @@
 ---
 title: SEPA kredito pervedimų apžvalga
-description: Šioje temoje pateikiama bendra informacija apie ISO 20022 kredito pervedimus, kurie apima vieno euro mokėjimų srities (SEPA) kredito pervedimus ir visus kitus elektroninius mokėjimus tiekėjams.
+description: Šiame straipsnyje pateikiama bendra informacija apie ISO 20022 kredito pervedimus, kurie apima bendros mokėjimų eurais erdvės (SEPA) kredito pervedimus ir bet kurį kitą elektroninį mokėjimą tiekėjams.
 author: sunfzam
 ms.date: 06/20/2017
 ms.topic: overview
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f43c45aa4f22f5044e7c10329dafa76226970b3d
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: f3f0c428d9167e9f1a7fb17a292d474448b2d4df
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734522"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871455"
 ---
 # <a name="sepa-credit-transfer-overview"></a>SEPA kredito pervedimų apžvalga
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje pateikiama bendra informacija apie ISO 20022 kredito pervedimus, kurie apima vieno euro mokėjimų srities (SEPA) kredito pervedimus ir visus kitus elektroninius mokėjimus tiekėjams. SEPA kredito pervedimas yra konkretaus tipo mokėjimas eurais iš vienos įmonės ar asmens kitai įmonei ar asmeniui. Temoje taip pat paaiškinta, kaip nustatyti ir perduoti SEPA kredito pervedimo mokėjimo failą.
+Šiame straipsnyje pateikiama bendra informacija apie ISO 20022 kredito pervedimus, kurie apima bendros mokėjimų eurais erdvės (SEPA) kredito pervedimus ir bet kurį kitą elektroninį mokėjimą tiekėjams. SEPA kredito pervedimas yra konkretaus tipo mokėjimas eurais iš vienos įmonės ar asmens kitai įmonei ar asmeniui. Šiame straipsnyje taip pat paaiškinama, kaip nustatyti ir perduoti kredito pervedimo mokėjimo failą.
 
 ## <a name="what-is-a-credit-transfer-message"></a>Kas yra kredito pervedimo pranešimas?
 Kredito pervedimo pranešimas yra reikalavimas, kurį pradedanti pusė (jūsų įmonė) išsiunčia, norėdama perkelti fondus iš savo paties sąskaitos kreditoriui. Yra daug šaliai / regionui būdingų ir bankams būdingų kredito pervedimo pranešimų diegimų. Kai kurie iš jų naudojami vienoje šalyje / regione, o kai kurie tampa stanfatbais. Vienas nusistovėjęs pasaulinis standartas yra ISO 20022 ir jo inicijavimo pranešimai, pvz., Kredito pervedimas. Šioje iliustracijoje pavaizduoti pasirinktų kredito pervedimo pranešimų ryšiai ir draudimas. 
@@ -53,7 +53,7 @@ SEPA kredito pervedimas yra mokėjimas iš vienos įmonės ar asmens kitai įmon
 Kredito pervedimo mokėjimo formatas Europos šalims įdiegtas naudojant elektronines ataskaitas (ER) Microsoft Dynamics ir mokėjimo funkcijų metodus 365 finansuose. Keletas kredito pervedimo formatų, naudojamų kituose regionuose, vis dar naudoja mokėjimo formatų sistemą. Be daugelio kitų formatų, yra dvylika ISO 20022 kredito pervedimo failų formatai, kurie yra pasiekiami. Šie eksportavimo formatai atitinka SEPA ISO 20022 XML standartą. Jie naudojami generuoti mokėjimo pervedimus ne eurais tose šalyse / regionuose, kuriose jie naudojami, ir mokėjimus eurais, kaip nurodyta SEPA kredito pervedimo schemos taisyklių sąvado 8.2 versijoje. Prieš naudodami kredito pervedimus, turite susisiekite su savo banku ir gauti programinę įrangą, kurios reikia norint įkelti elektroninės bankininkystės failus. Tą programinę įrangą naudosite XML failams, kuriuose bus mokėjimo užsakymai, perduoti bankui.
 
 ## <a name="what-credit-transfer-formats-are-currently-supported"></a>Kokie kredito pervedimo formatai šiuo metu palaikomi?
-Visada turite eiti į bendrai naudojamo turto biblioteką „Microsoft Dynamics Lifecycle services“ (LCS) ir peržiūrėti naujausią prieinamų failų, kurių turto tipas yra **GER konfigūracija**, sąrašą. Kitame skyriuje – „Ką turiu nustatyti?“ – pateikiama nuoroda į temą, kurioje paaiškinta, kaip sukurti LCS saugyklą norint peržiūrėti galimas konfigūracijas ir importuoti pasirinktas konfigūracijas.
+Visada turite eiti į bendrai naudojamo turto biblioteką „Microsoft Dynamics Lifecycle services“ (LCS) ir peržiūrėti naujausią prieinamų failų, kurių turto tipas yra **GER konfigūracija**, sąrašą. Kitame skyriuje "Ką reikia nustatyti?" pateikiama nuoroda į straipsnį, kuriame paaiškinama, kaip sukurti LCS saugyklą, kad būtų galima peržiūrėti galimas konfigūracijas ir importuoti pasirinktas konfigūracijas.
 
 ## <a name="what-do-i-have-to-set-up"></a>Ką turiu nustatyti?
 -   Prieš kuriant kredito pervedimo failus, į jūsų Bendrųjų elektroninių ataskaitų konfigūracijas reikia importuoti bent vieną aktyvią ER kredito pervedimų konfigūraciją. Instrukcijų ieškokite [Elektroninių ataskaitų konfigūracijų atsisiuntimas iš „Lifecycle Services“](../../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md).

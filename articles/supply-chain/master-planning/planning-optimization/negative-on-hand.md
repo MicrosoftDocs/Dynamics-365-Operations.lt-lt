@@ -1,6 +1,6 @@
 ---
-title: Planavimas, kai turimi kiekiai neigiami
-description: Šioje temoje paaiškinama, kaip tvarkomas neigiamas turimas kiekis naudojant planavimo optimizavimo funkciją.
+title: Planavimas su neigiamais turimais kiekiais
+description: Šiame straipsnyje paaiškinama, kaip tvarkomi neigiami turimi rezultatai naudojant planavimo optimizavimą.
 author: t-benebo
 ms.date: 07/22/2021
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-02-18
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: bb837a38485bad2b9b76a5e4f20d311c0281e192
-ms.sourcegitcommit: 1050e58e621d9a0454895ed07c286936f8c03320
+ms.openlocfilehash: 04006bb12142be69c84bc8085dd82fc99280e90b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "8625428"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856141"
 ---
 # <a name="planning-with-negative-on-hand-quantities"></a>Planavimas, kai turimi kiekiai neigiami
 
@@ -75,7 +75,7 @@ Rezultatas yra suplanuotas 25 vnt. užsakymas (= 25 vnt. &minus; 0 vnt.), kad
 
 ## <a name="planning-when-there-is-a-reservation-against-negative-on-hand-inventory"></a>Planavimas, kai yra rezervavimas dėl neigiamų turimų atsargų
 
-Jeigu atsargas koreguojate, kai yra faktinių rezervavimų, galite sukelti situaciją, kai užsakymas faktiškai rezervuojamas prieš neigiamas atsargas. Tokiu atveju, kadangi yra fizinis rezervavimas, turite turėti tiekimą, kad padengtumėte rezervuotą kiekį. Todėl reikia papildyti, todėl sistema sukurs suplanuotą užsakymą, kad papildytų kiekį, kurio negalima padengti esamomis turimomis atsargomis, arba padengtų jį esamu prekės užsakymu.
+Jeigu atsargas koreguojate, kai yra faktinių rezervavimų, galite sukelti situaciją, kai užsakymas faktiškai rezervuojamas prieš neigiamas atsargas. Šiuo atveju, kadangi yra faktinis rezervavimas, turite turėti tiekimą, kad būtų galima padengti rezervuotą kiekį. Todėl būtina papildyti, todėl sistema sukurs suplanuotą užsakymą, pagal kurį būtų papildomas kiekis, kurio nepavyko padengti turimos atsargos, arba padengti jį esamu prekės užsakymu.
 
 Toliau pateiktas pavyzdys iliustruoja šį scenarijų.
 
@@ -88,7 +88,7 @@ Sistema konfigūruota tokiu būdu:
 - Pardavimo užsakymą sudaro *10* vnt. kiekiui. produkto *FG*.
 - Pardavimo užsakymo kiekis faktiškai rezervuojamas pagal esamas turimas atsargas.
 
-Tada sureguliuokite produkto *FG* kiekį taip, kad turimos atsargos taptų 5. Kadangi turimų prekių atsargos yra 5, pardavimo užsakymo kiekis dabar rezervuojamas pagal kiekį, kurio nėra turimose (būtų panašiai, jei turimų prekių būtų 0, tokiu atveju pardavimo užsakymas būtų rezervuotas pagal neigiamas atsargas). Jei bendrąjį planavimą vykdysite dabar, pardavimo užsakymui pateikti bus sukurtas suplanuotas FG *kiekio 5 užsakymas, nes planavimo optimizavimas visada naudos esamą tiekimą arba sukurs naują suplanuotą užsakymą faktiniam* rezervavimui pateikti.
+Tada koreguojate produkto *FG* kiekį, kad turimos atsargos taptų 5. Kadangi turimos produkto atsargos yra 5, dabar pardavimo užsakymo kiekis rezervuojamas pagal kiekį, kurio nėra turima (būtų panaši į tai, jei turimos atsargos būtų 0, o šiuo atveju pardavimo užsakymas būtų rezervuotas pagal neigiamas atsargas). Jei paleisite bendrąjį planavimą dabar, FG *bus sukurtas suplanuotas 5* kiekio užsakymas, skirtas tiekti pardavimo užsakymą, kadangi planavimo optimizavimas visada naudos esamą tiekimą arba sukurs naują suplanuotą užsakymą faktiniam rezervavimui tiekti.
 
 ## <a name="related-resources"></a>Susiję ištekliai
 

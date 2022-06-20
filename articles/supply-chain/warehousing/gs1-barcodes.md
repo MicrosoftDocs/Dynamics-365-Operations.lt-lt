@@ -1,6 +1,6 @@
 ---
 title: GS1 brūkšniniai kodai
-description: Šioje temoje aprašoma, kaip nustatyti GS1 brūkšninius kodus ir QR kodus, kad etiketės galėtų būti nuskaitomos sandėlyje.
+description: Šiame straipsnyje aprašoma, kaip nustatyti GS1 brūkšninius kodus ir QR kodus, kad žymės būtų nuskaitomos sandėlyje.
 author: Mirzaab
 ms.date: 03/21/2022
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: ea928bc8a020035adb36ae2e7873c656e8c3985d
-ms.sourcegitcommit: 1050e58e621d9a0454895ed07c286936f8c03320
+ms.openlocfilehash: 67c54f344ff7091f4a25198fdafa745c6c84d5d0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "8625284"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907151"
 ---
 # <a name="gs1-bar-codes"></a>GS1 brūkšniniai kodai
 
@@ -30,11 +30,11 @@ GS1 palaiko tiekimo grandinės valdymą, pagal ką paprasčiau nuskaityti sandė
 
 Logistikos vadovai turi nustatyti reikiamą programos identifikatorių sąrašą ir kiekvieną iš jų susieti su atitinkamais mobiliojo įrenginio meniu elementais. Tada programos identifikatorius sandėliuose galima naudoti kaip visuotinį perkėlimo ir pakavimo parametrą. Todėl visos siuntimo etiketės bus vienodo formato.
 
-Jei nenurodyta kitaip, šioje temoje *naudojamas* terminas Brūkšninis kodas, kad būtų galima naudoti ir linijinius (1D) brūkšninius kodus, ir 2D brūkšninius kodus.
+Jei nenurodyta kitaip, šiame straipsnyje *naudojamas* terminas Brūkšninis kodas, kad būtų galima naudoti ir linijinius (1D) brūkšninius kodus, ir 2D brūkšninius kodus.
 
 ## <a name="the-gs1-bar-code-format"></a>GS1 brūkšninio kodo formatas
 
-GS1 bendrosios specifikacijos nurodo, kuriuos simbolius galima naudoti GS1 brūkšniniams kodams, ir kaip koduoti brūkšninio kodo duomenis. Šiame skyriuje pateikite trumpą temos įžangą. Norėdami gauti daugiau informacijos, žr [. GS1 bendrąsias specifikacijas](https://www.gs1.org/docs/barcodes/GS1_General_Specifications.pdf), kurias publikuos GS1. GS1 specifikacijų dokumentas yra reguliariai atnaujinamas, o jo pateikiama informacija yra naujausia su GS1 bendrųjų specifikacijų išleidimas 22.0.
+GS1 bendrosios specifikacijos nurodo, kuriuos simbolius galima naudoti GS1 brūkšniniams kodams, ir kaip koduoti brūkšninio kodo duomenis. Šiame skyriuje pateikiama trumpas straipsnio įžanga. Norėdami gauti daugiau informacijos, žr [. GS1 bendrąsias specifikacijas](https://www.gs1.org/docs/barcodes/GS1_General_Specifications.pdf), kurias publikuos GS1. GS1 specifikacijų dokumentas yra reguliariai atnaujinamas, o jo pateikiama informacija yra naujausia su GS1 bendrųjų specifikacijų išleidimas 22.0.
 
 GS1 brūkšniniuose koduose naudojami šie simboliai:
 

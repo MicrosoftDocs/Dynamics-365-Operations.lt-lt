@@ -1,6 +1,6 @@
 ---
 title: Vietinių sąskaitų plano rengimas
-description: Šioje temoje pateikiama informacija, kuri padės jums suplanuoti sąskaitų planą, kai jūsų organizacijai reikės privalomos/ vietinės reikalavimų.
+description: Šiame straipsnyje pateikiama informacija, kuri padės jums suplanuoti sąskaitų planą, kai jūsų organizacijai taikomi privalomi / vietiniai reikalavimai.
 author: VeselinaE
 ms.date: 10/07/2021
 ms.topic: article
@@ -10,7 +10,7 @@ ms.search.form: DimensionConfigureAccountStructure, LedgerChartOfAccounts, Ledge
 ROBOTS: ''
 audience: Application User
 ms.devlang: ''
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.tgt_pltfrm: ''
 ms.custom: 14051
 ms.assetid: 10edb129-33f0-4cf9-b2a7-4b7ffa09b229
@@ -19,18 +19,18 @@ ms.search.industry: ''
 ms.author: veneva
 ms.search.validFrom: 10/07/2021
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e224a2e24b4ba293c953c6c883307038128e2f04
-ms.sourcegitcommit: ba10ba2cd4fb4267afb5aacae4f6a52aa2456e7e
+ms.openlocfilehash: 78379fd51cf24985fce83e2b6aa9a475af7df363
+ms.sourcegitcommit: 427fe14824a9d937661ae21b9e9574be2bc9360b
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/11/2021
-ms.locfileid: "7798301"
+ms.lasthandoff: 06/09/2022
+ms.locfileid: "8946251"
 ---
 # <a name="plan-your-local-chart-of-accounts"></a>Vietinių sąskaitų plano rengimas
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje pateikiama informacija, kuri padės jums suplanuoti sąskaitų planą, kai jūsų organizacijoje yra juridinių subjektų, kurie turi atitikti reikalavimus konkrečioms vietos, kurioje jie turi verslo veiklą. Šioje temoje aprašomi sąskaitų plano terminai:
+Šiame straipsnyje pateikiama informacija, kuri padės jums suplanuoti sąskaitų planą, kai jūsų organizacijoje yra juridinių subjektų, kurie turi atitikti reikalavimus konkrečioms vietinei vietai, kurioje jie turi verslo veiklą. Šiame straipsnyje aprašomi sąskaitų diagramų terminai:
 
 - **Visuotinis** – sąskaitų planas, kurį organizacija naudoja visuotinai. Dažniausiai, jūs konsoliduojate šį sąskaitų planą.
 - **Vietinis** – sąskaitų planas, kurį naudoja juridiniai subjektai tam tikroje šalyje arba regione.
@@ -54,7 +54,7 @@ Jeigu jūsų organizacija reikalauja, kad juridinis subjektas naudoja vietinį s
 
 Organizacijos struktūra ir ataskaitų struktūra lemia naudojamą pasirinktį.
 
-[![ Diagrama, kurioje parodyta, kaip organizacijos struktūra apibrėžia, ar naudoti visuotinį, ar vietinį sąskaitų planą](./media/local-chart-of-accounts-diagram.png)](./media/local-chart-of-accounts-diagram.png)
+[![Diagrama, kurioje parodyta, kaip organizacijos struktūra apibrėžia, ar naudoti visuotinį, ar vietinį sąskaitų planą](./media/local-chart-of-accounts-diagram.png)](./media/local-chart-of-accounts-diagram.png)
 
 Jei visuotinis sąskaitų planas priskirtas juridiniam subjektui, galimos šios vietinių ataskaitų reikalavimų pateikimo pasirinktys:
 
@@ -154,7 +154,7 @@ Vietinis konsolidavimas yra rekomenduojamas būdas atitikti vietines sąskaitų 
 
 ### <a name="do-external-mapping-to-the-local-chart-of-accounts"></a>Atlikite išorinį susiejimą su vietiniu sąskaitų grafiku
 
-Visuotinio sąskaitų plano perteikimas reiškia, kad jūs valdote susiejimą ir lokalizavimą už sistemos ribų. Tokiu atveju tik sukurkite vieną visuotinę sąskaitų planą ir „Microsoft Dynamics 365 Finance“ tvarkysite poreikius ne sistemoje.
+Visuotinio sąskaitų plano perteikimas reiškia, kad jūs valdote susiejimą ir lokalizavimą už sistemos ribų. Tokiu atveju tik sukurkite vieną visuotinį Microsoft Dynamics 365 finansų sąskaitų planą ir tvarkysite poreikius ne sistemoje.
 
 #### <a name="set-up-external-mapping-to-a-local-chart-of-accounts"></a>Nustatykite išorinį susiejimą su vietiniu sąskaitų grafiku
 

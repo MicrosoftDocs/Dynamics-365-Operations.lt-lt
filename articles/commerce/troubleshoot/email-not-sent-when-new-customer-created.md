@@ -1,6 +1,6 @@
 ---
-title: Sukūrus naujus klientus, pasisiųstas el. laiškas neišsiųstas
-description: Šioje temoje pateikiamos trikčių diagnostikos gairės, kurios gali padėti, jei pasisveikinimo el. laiškas nėra siunčiamas, kai sukuriamas naujas klientas Microsoft Dynamics 365 Commerce.
+title: Sukūrus naujų klientų, nesiunčiamas pasisveikinimo el. laiškas
+description: Šiame straipsnyje pateikiamos trikčių diagnostikos gairės, kurios gali padėti, jei pasisveikinimo el. laiškas nėra siunčiamas, kai sukuriamas naujas klientas Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
 ms.date: 02/24/2022
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2022-02-10
-ms.openlocfilehash: 1a4faf6cd189f69232e7f9ab8d0e79b320cfe2d9
-ms.sourcegitcommit: d2e5d38ed1550287b12c90331fc4136ed546b14c
+ms.openlocfilehash: 8e95b33d4b8a9af13c613ab89dd33de6b4934694
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/25/2022
-ms.locfileid: "8349929"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853688"
 ---
-# <a name="welcome-email-is-not-sent-when-new-customers-are-created"></a>Sukūrus naujus klientus, pasisiųstas el. laiškas neišsiųstas
+# <a name="welcome-email-is-not-sent-when-new-customers-are-created"></a>Sukūrus naujų klientų, nesiunčiamas pasisveikinimo el. laiškas
 
 [!include [banner](../../includes/banner.md)]
 
-Šioje temoje pateikiamos trikčių diagnostikos gairės, kurios gali padėti, jei pasisveikinimo el. laiškas nėra siunčiamas, kai sukuriamas naujas klientas Microsoft Dynamics 365 Commerce.
+Šiame straipsnyje pateikiamos trikčių diagnostikos gairės, kurios gali padėti, jei pasisveikinimo el. laiškas nėra siunčiamas, kai sukuriamas naujas klientas Microsoft Dynamics 365 Commerce.
 
 ## <a name="description"></a>Aprašymas
 

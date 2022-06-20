@@ -1,6 +1,6 @@
 ---
 title: „Lean manufacturing“ vaizdinis planavimas
-description: Šioje temoje pateikiama informacijos apie „Kanban“ grafiko sritį, kurią gamybos planuotojas gali naudoti norėdamas valdyti ir optimizuoti „kanban“ užduočių gamybos planą.
+description: Šiame straipsnyje pateikiama informacija apie "kanban" grafiko lentą, kurią gamybos planuotojas gali naudoti "kanban" užduočių gamybos planui valdyti ir optimizuoti.
 author: johanhoffmann
 ms.date: 06/16/2017
 ms.topic: article
@@ -16,20 +16,20 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: af5803793a4874ee73f943d0f059047458c37dc48b7d3276dadc8d8803599fb9
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a743be96867c1f325e6fe01f23355c27cb4d0cc0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6764817"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8875194"
 ---
 # <a name="visual-scheduling-for-lean-manufacturing"></a>„Lean manufacturing“ vaizdinis planavimas
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje pateikiama informacijos apie „Kanban“ grafiko sritį, kurią gamybos planuotojas gali naudoti norėdamas valdyti ir optimizuoti „kanban“ užduočių gamybos planą.
+Šiame straipsnyje pateikiama informacija apie "kanban" grafiko lentą, kurią gamybos planuotojas gali naudoti "kanban" užduočių gamybos planui valdyti ir optimizuoti.
 
-Šioje temoje pateikiama informacijos apie „Kanban“ grafiko sritį, kurią gamybos planuotojas gali naudoti norėdamas valdyti ir optimizuoti „kanban“ užduočių gamybos planą.
+Šiame straipsnyje pateikiama informacija apie "kanban" grafiko lentą, kurią gamybos planuotojas gali naudoti "kanban" užduočių gamybos planui valdyti ir optimizuoti.
 
 „Kanban“ grafiko sritis leidžia gamybos planuotojui valdyti ir optimizuoti „kanban“ užduočių gamybos planą. „Kanban“ užduočių srautas tampa skaidrus, o gamybos planuotojas gauna įrankį, kuris optimizuoja ir pakoreguoja „lean manufacturing“ darbo elemento gamybos planą.
 

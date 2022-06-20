@@ -1,6 +1,6 @@
 ---
 title: Atidėjimo operacijos abonemento sąskaitose
-description: Šioje temoje aprašomos įvairios operacijos, kurias galima naudoti atidėjimo operacijose kaip įplaukų ir išlaidų atidėjimų dalis abonemento sąskaitose.
+description: Šiame straipsnyje aprašomos įvairios operacijos, kurias galima naudoti atidėjimo operacijose kaip įplaukų ir išlaidų atidėjimų dalis abonemento sąskaitose.
 author: JodiChristiansen
 ms.date: 11/04/2021
 ms.topic: article
@@ -14,16 +14,16 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: 5913308d4ee9fdcb8cf2b862171078f27f651662
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: c3862f1a250bf8e56303975b5c6a3560cd84c1e7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8686023"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872592"
 ---
 # <a name="deferral-default-transactions"></a>Atidėjimo numatytosios operacijos
 
-Šioje temoje aprašomos operacijos, kurios leidžia naudoti įplaukų ir išlaidų atidėjimus. Atidėjimo grafikai visada yra pagrįsti grindžiamą dokumentu arba atsiskaitymo grafiku ir nuo jo priklauso. Atidėjimo grafikai kuriami pagal numatytuosius nustatymus ir jų negalima įvesti arba kurti atskirai.
+Šiame straipsnyje aprašomos operacijos, kurios leidžia naudoti įplaukų ir išlaidų atidėjimus. Atidėjimo grafikai visada yra pagrįsti grindžiamą dokumentu arba atsiskaitymo grafiku ir nuo jo priklauso. Atidėjimo grafikai kuriami pagal numatytuosius nustatymus ir jų negalima įvesti arba kurti atskirai.
 
 ## <a name="sales-order-transaction-deferral"></a>Pardavimo užsakymo operacijos atidėjimas
 

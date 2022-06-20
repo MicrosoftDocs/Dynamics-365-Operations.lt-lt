@@ -1,6 +1,6 @@
 ---
 title: RCS / bendrosios saugyklos ER konfigūracijų bendrinimas su išorinėmis organizacijomis
-description: Šioje temoje paaiškinama, kaip „Microsoft Regulatory Configuration Service“ (RCS) / bendrojoje saugykloje esančių elektroninių ataskaitų (ER) konfigūracijas tiesiogiai bendrinti su išorinėmis organizacijomis.
+description: Šiame straipsnyje paaiškinama, kaip naudojant "Microsoft" reguliavimo konfigūracijos tarnybas (RCS) / visuotinę saugyklą tiesiogiai su išorinėmis organizacijomis bendrai naudoti elektroninių ataskaitų (ER) konfigūracijas.
 author: JaneA07
 ms.date: 05/04/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-02-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: ee7feef83ffa458e7cbd238d37a0f343d1a202f48002da67823df024bb609d02
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 976a86aee75581d1afa764bea049b6c0eaecf9f3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719178"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8888929"
 ---
 # <a name="share-electronic-reporting-er-configurations-in-regulatory-configuration-services-rcs-global-repository-with-external-organizations"></a>„Regulatory Configuration Service“ (RCS) bendrojoje saugykloje esančių elektroninių ataskaitų (ER) konfigūracijų bendrinimas su išorinėmis organizacijomis
 
@@ -36,7 +36,7 @@ Toliau aprašytos procedūros paaiškina, kaip RCS vartotojas gali bendrinti RCS
 
 Taip pat turite įsitikinti, kad RCS aplinka yra parengta jūsų įmonei.
 
-1. Programoje „Finance and Operations“ eikite į **Organizacijos administravimas** \> **Darbo sritys** \> **Elektroninės ataskaitos**.
+1. Finansų ir operacijų programoje eikite į organizacijos **administravimo darbo** \> **sričių elektronines** \> **ataskaitas**.
 2. Jei jūsų įmonei RCS aplinka neparengta, pasirinkite **„Regulatory Services“ – išorinė konfigūracija** ir vykdykite instrukcijas, kad ją parengtumėte.
 
 Jei RCS aplinka jūsų įmonei jau parengta, pasiekite ją naudodami puslapio URL ir pasirinkdami prisijungimo parinktį.
@@ -67,7 +67,7 @@ Sukūrus jūsų konfigūracijos teikėjo konfigūraciją, galite ją tiesiogiai 
 
     ![Konfigūracijos versijos bendrinimo su išorine organizacija dialogo langas.](media/1_RCS_Repo_for_Share_with_form.JPG)
 
-Konfigūracija yra bendrinama su išorine organizacija ir šiai organizacijai pasiekiama bendrojoje saugykloje. Iš ten ji gali būti importuota į organizacijos RCS egzempliorių arba į „Finance and Operations“ programų egzempliorius.
+Konfigūracija yra bendrinama su išorine organizacija ir šiai organizacijai pasiekiama bendrojoje saugykloje. Iš jo jį galima importuoti į organizacijos RCS egzempliorių arba į finansų ir operacijų programėlių egzempliorius.
 
 6. Norėdami atšaukti anksčiau su išorine organizacija bendrintos konfigūracijos bendrinimą, pasirinkite konfigūraciją ir spustelėkite **Atšaukti bendrinimą**, tada pasirinkite **Gerai**.
 

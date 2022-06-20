@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: f87723ebd6684efba8464a7d64c7e1ea99f194eb
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: e52b313e0a00c04edf9003aa6292146936f837d4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8102794"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889434"
 ---
 # <a name="location-license-plate-positioning"></a>Vietos numerio lentelės padėtis
 
@@ -28,11 +28,11 @@ Numerio lentelės vietos nustatymas leidžia matyti, kur numerio lentelė yra ke
 
 Funkcija prideda eilės numerį prie kiekvienos numerio lentelės, padėtos į saugojimo vietą. Šis eilės numeris naudojamas, kad būtų galima užsakyti numerių lenteles saugojimo vietoje. Todėl funkcija sumaniai palaiko scenarijus, kuriuose klientai naudoja gravitacinę išdėstymo sistemą ir turi žinoti, kad pasirenkant, kuriai numerio lentelė yra priekyje.
 
-Šioje temoje parodytas scenarijus, kaip nustatyti ir naudoti funkciją.
+Šiame straipsnyje pateikiamas scenarijus, kuris parodo, kaip nustatyti ir naudoti funkciją.
 
 ## <a name="turn-the-location-license-plate-positioning-feature-on-or-off"></a>Įjungti arba išjungti vietos numerio lentelės padėties nustatymo priemonę
 
-Norint naudoti šioje temoje aprašytas funkcijas, *jūsų sistemoje turi* būti įjungta vietos numerio lentelės padėties nustatymo funkcija. Kaip ir tiekimo grandinės valdymas 10.0.25 ši funkcija yra privaloma ir jos išjungti negalima. Jei naudojate senesnę nei 10.0.25 versiją, *·*[tada](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) administratoriai gali įjungti arba išjungti šią funkciją ieškodami vietos numerio lentelės padėties nustatymo funkcijos funkcijų valdymo darbo srityje.
+Norint naudoti šiame straipsnyje aprašytas funkcijas, *jūsų sistemoje turi* būti įjungta vietos numerio lentelės padėties nustatymo funkcija. Kaip ir tiekimo grandinės valdymas 10.0.25 ši funkcija yra privaloma ir jos išjungti negalima. Jei naudojate senesnę nei 10.0.25 versiją, *·*[tada](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) administratoriai gali įjungti arba išjungti šią funkciją ieškodami vietos numerio lentelės padėties nustatymo funkcijos funkcijų valdymo darbo srityje.
 
 ## <a name="example-scenario"></a>Pavyzdinis scenarijus
 
@@ -42,7 +42,7 @@ Norėdami dirbti su šiuo scenarijumi naudojant čia rekomenduojamas vertes, tur
 
 ### <a name="set-up-the-feature-for-this-scenario"></a>Nustatykite funkciją šiam scenarijui
 
-Užbaikite šias procedūras, kad nustatytumėte *Vietos numerio lentelės nustatymas* funkciją šioje temoje pristatytam scenarijui.
+Atlikite šias procedūras, norėdami nustatyti *scenarijaus, kuris pateikiamas* šiame straipsnyje, vietos numerio lentelės padėties nustatymo priemonę.
 
 #### <a name="location-profiles"></a>Vietos šablonai
 

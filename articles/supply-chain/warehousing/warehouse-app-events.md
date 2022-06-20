@@ -1,6 +1,6 @@
 ---
 title: Sandėlio programos įvykiai
-description: Šioje temoje aprašomas sandėlio programos įvykių apdorojimas, naudojamas siekiant apdoroti sandėlio programos įvykių pranešimus kaip paketinės užduoties dalį.
+description: Šiame straipsnyje aprašomas sandėlio programos įvykio apdorojimas, naudojamas sandėlio programos įvykių pranešimui kaip paketinės užduoties daliai apdoroti.
 author: perlynne
 ms.date: 09/02/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 8c92bf179006d668f8673e9abc3419a10e644184
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 41b9538d3064bad24c4c5c60d401605e47e9c655
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103268"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8905460"
 ---
 # <a name="warehouse-app-event-processing"></a>Sandėlio programos įvykių apdorojimas
 

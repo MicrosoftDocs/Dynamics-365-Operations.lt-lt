@@ -1,6 +1,6 @@
 ---
 title: Visuotinis išskaitomas mokestis
-description: Šioje temoje patiekiama informacija apie visuotino išskaitomo mokesčio funkcijas ir kaip jas nustatyti. Visuotino išskaitomo mokesčio funkcijos yra padidintos pardavėjo ir kliento transakcijoms taip, kad išskaitomas mokestis yra apskaičiuojamas prekės lygiu.
+description: Šiame straipsnyje pateikiama informacija apie visuotinę išskaitomo mokesčio funkciją ir kaip ją nustatyti. Visuotino išskaitomo mokesčio funkcijos yra padidintos pardavėjo ir kliento transakcijoms taip, kad išskaitomas mokestis yra apskaičiuojamas prekės lygiu.
 author: kailiang
 ms.date: 01/12/2021
 ms.topic: overview
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2020-01-12
 ms.dyn365.ops.version: AX 10.0.16
-ms.openlocfilehash: 9cb02ba77fa33c839bc2a74811131973d1e5877f
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: 49d5048b9df30e94d959cf9f22b8ae837b74abdd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8720229"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846834"
 ---
 # <a name="global-withholding-tax"></a>Visuotinis išskaitomas mokestis
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje patiekiama informacija apie visuotino išskaitomo mokesčio funkcijas ir paaiškinta, kaip jas nustatyti. Naujos funkcijos yra prieinamos 10.0.17 versijoje ir vėlesnėse.
+Šiame straipsnyje pateikiama informacija apie visuotinę išskaitomo mokesčio funkciją ir paaiškinama, kaip ją nustatyti. Naujos funkcijos yra prieinamos 10.0.17 versijoje ir vėlesnėse.
 
 Visuotino išskaitomo mokesčio funkcijos yra padidintos pardavėjo ir kliento transakcijoms taip, kad išskaitomas mokestis yra apskaičiuojamas prekės lygiu. Balansas išskaitomo mokesčio sąskaitoje nuo pirkimo transakcijų gali būti nustatytas vykdant išskaitomo mokesčio mokėjimo darbą pagal išskaitomo mokesčio nustatymo sąskaitą.
 

@@ -1,6 +1,6 @@
 ---
-title: Atsargų matomumo rezervavimai
-description: Šioje temoje aprašoma, kaip nustatyti rezervavimo priemonę, kad būtų galima kurti rezervavimus, naudoti rezervavimus ir (arba) nerealizuoti nurodytų atsargų kiekių naudojant atsargų matomumą.
+title: „Inventory Visibility“ rezervavimai
+description: Šiame straipsnyje aprašoma, kaip nustatyti rezervavimo priemonę, kad būtų galima kurti rezervavimus, naudoti rezervavimus ir (arba) nerealizuoti nurodytų atsargų kiekių naudojant atsargų matomumą.
 author: yufeihuang
 ms.date: 08/02/2021
 ms.topic: article
@@ -11,19 +11,19 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 5e6752539a6381e1f7271883102391374e04f3aa
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 3b74907709ab97ddf4cc829dba324df213ca229f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8061709"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895734"
 ---
-# <a name="inventory-visibility-reservations"></a>Atsargų matomumo rezervavimai
+# <a name="inventory-visibility-reservations"></a>„Inventory Visibility“ rezervavimai
 
 [!include [banner](../includes/banner.md)]
 
 
-Šioje temoje aprašoma, kaip nustatyti rezervavimo priemonę, kad būtų galima kurti rezervavimus, naudoti rezervavimus ir (arba) nerealizuoti nurodytų atsargų kiekių naudojant atsargų matomumą.
+Šiame straipsnyje aprašoma, kaip nustatyti rezervavimo priemonę, kad būtų galima kurti rezervavimus, naudoti rezervavimus ir (arba) nerealizuoti nurodytų atsargų kiekių naudojant atsargų matomumą.
 
 Rezervavimai pažymi atsargų kiekį, kuris bus naudojamas ateityje. Kai sukuriate rezervavimą, sistema neleidžia kitiems užsakymams rezervuoti ar naudoti rezervuotų prekių, kol rezervavimas suvartojamas arba nerealizuojamas. Rezervavimai kuriami, naudojami ir atšaukiami naudojant API iškvietimus į atsargų matomumo tarnybą.
 

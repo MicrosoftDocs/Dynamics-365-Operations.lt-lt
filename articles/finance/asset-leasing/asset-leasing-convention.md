@@ -1,6 +1,6 @@
 ---
 title: Turto nuomos sutartys
-description: Šioje temoje aprašomos sutartys išnuomotam turtui.
+description: Šiame straipsnyje aprašomos nuomojamo turto konvencijos.
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2021-1-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 5e0aabce46e47079b754b8ac674b205cf00b5e26
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: f2f0e21b20a969c0847ce3a6eb167287c1d7ee3e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8711036"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8898275"
 ---
 # <a name="asset-leasing-conventions"></a>Turto nuomos sutartys
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-Šioje temoje aprašomos sutartys išnuomotam turtui. Lizingo sutartys yra naudojamas nustatyti nuomos knygos pradžios datą. Jei lizingo sutartis yra nustatyta į **Jokia**, pradžios data yra tokia pati kaip nuomos pradžios data (tai reiškia, kad vertė yra **Nuomos pradžios datos** laukelio). Jei lizingo sutartis yra nustatyta į **Viso mėnesio**, pradžios data yra pirmoji mėnesio data, į kurį patenka nuomos pradžios data.
+Šiame straipsnyje aprašomos nuomojamo turto konvencijos. Lizingo sutartys yra naudojamas nustatyti nuomos knygos pradžios datą. Jei lizingo sutartis yra nustatyta į **Jokia**, pradžios data yra tokia pati kaip nuomos pradžios data (tai reiškia, kad vertė yra **Nuomos pradžios datos** laukelio). Jei lizingo sutartis yra nustatyta į **Viso mėnesio**, pradžios data yra pirmoji mėnesio data, į kurį patenka nuomos pradžios data.
 
 Pradžios datos nustato įsipareigojimų amortizavimo laikotarpio pradžios datą ir turto nuvertėjimo grafikus. Interesų išlaidos ir nuvertėjimo kaštai yra publikuojami atitinkamų grafikų laikotarpio pabaigos duomenimis. Pradinis pripažinimas ir koregavimo žurnalo įrašas yra publikuojami pradžios dieną.
 

@@ -1,6 +1,6 @@
 ---
-title: Dynamics 365 Commerce elektroninės prekybos lokalizavimo vadovas
-description: Šioje temoje aprašoma, kaip lokalizuoti Microsoft Dynamics 365 Commerce el. prekybos svetainę į papildomas kalbas ir sukonfigūruoti svetainę, kad ji palaikytų kelis kanalus.
+title: Dynamics 365 Commerce El. komercijos lokalizavimo vadovas
+description: Šiame straipsnyje aprašoma, kaip lokalizuoti el Microsoft Dynamics 365 Commerce . komercijos svetainę į papildomas kalbas ir konfigūruoti svetainę, kad būtų palaikomi keli kanalai.
 author: bicyclingfool
 ms.date: 04/29/2022
 ms.topic: article
@@ -9,89 +9,89 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: 1e9d91036ceeb9161dc8ee903532b2cf3ca435e2
-ms.sourcegitcommit: 26c726bd0b00935e3d2c31fdc5a3b2ae03a8a2b0
+ms.openlocfilehash: 955a85340f6d35f1e203d74920d07b5dc6ff8654
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/30/2022
-ms.locfileid: "8661506"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873389"
 ---
-# <a name="dynamics-365-commerce-e-commerce-localization-guide"></a>Dynamics 365 Commerce elektroninės prekybos lokalizavimo vadovas
+# <a name="dynamics-365-commerce-e-commerce-localization-guide"></a>Dynamics 365 Commerce El. komercijos lokalizavimo vadovas
 
 [!include [banner](includes/banner.md)]
 
-Šioje temoje aprašoma, kaip lokalizuoti Microsoft Dynamics 365 Commerce elektroninės prekybos svetainę į papildomas kalbas ir sukonfigūruoti svetainę, kad palaikytų kelis kanalus, taip pat apima sąvokas ir terminologiją, susijusią su procesu.
+Šiame straipsnyje aprašoma Microsoft Dynamics 365 Commerce, kaip lokalizuoti el. komercijos svetainę į papildomas kalbas ir konfigūruoti svetainę, kad būtų palaikomi keli kanalai, ir taip pat apima su procesu susijusias sąvokas ir terminologiją.
 
-Elektroninės prekybos galimybės Dynamics 365 Commerce sukurtos taip, kad būtų galima naudotis internetinėmis funkcijomis, kurios gali būti pritaikytos konkrečioms šalims ir kalboms, tačiau tuo pačiu metu leidžiančios maksimaliai pakartotinai naudoti šablonus, puslapius, turinį ir laikmenas. Taip pat galite sukurti pagrindinę svetainę ir tada išplėsti į naujas rinkas, laikui bėgant pridėdami paramą papildomoms šalims ir kalboms.
+El. komercijos galimybės sukurtos siekiant įgalinti patirtį internete, kuri gali būti konkrečiose šalyse ir kalbose Dynamics 365 Commerce, tačiau tuo pačiu metu leidžia maksimalią pakartotinio šablonų, puslapių, turinio ir laikmenų naudojimą. Be to, galite sukurti pagrindinę svetaines, o tada išplėsti naujas rinkas, sudedant papildomų šalių ir kalbų palaikymą laikui bėgant.
 
 ## <a name="definitions"></a>Sąvokos
 
-**Lokalė, lokalės identifikatorius**: lokalė (taip pat žinoma kaip lokalės identifikatorius) apibrėžia kalbą, susietą su šalimi ar regionu. Pavyzdžiui, lokalės identifikatorius "fr-ca" yra susietas su Kanados prancūzų kalba.
+**Lokalė, vietos identifikatorius**: lokalė (taip pat vadinama lokalės identifikatoriumi) apibrėžia kalbą, susietą su šalimi arba regionu. Pavyzdžiui, lokalės identifikatorius "fr-ca" yra susietas su Kanados prancūzų kalba.
 
-**Pagrindinė kalba**: kalba, kuria kuriate svetainės turinį prieš eksportuodami jį lokalizacijai.
+**Pagrindinė kalba**: kalba, kuria kuriate svetainės turinį prieš eksportuojant lokalizavimui.
 
-**Kanalas, internetinė parduotuvė**: kanalas (taip pat žinomas kaip internetinė parduotuvė) apibrėžia mokėjimo būdus, kainų grupes, produktų hierarchijas, asortimentus ir produktus internetinei elektroninės prekybos parduotuvei.
+**Kanalas, interneto parduotuvė**: kanalas (taip pat vadinamas interneto parduotuve) apibrėžia mokėjimo būdus, kainų grupes, produktų hierarchijas, asortimentus ir produktus interneto el. komercijos parduotuvėsfrontui.
 
 ## <a name="concepts"></a>Koncepcijos
 
-### <a name="url-driven-experience"></a>URL pagrįsta patirtis
+### <a name="url-driven-experience"></a>URL valdoma patirtis
 
-Dynamics 365 Commerce elektroninės prekybos svetainės teikia klientams unikalią paklausią ir lokalizuotą patirtį per kanalus ir lokalės identifikatorius. Kanalai apibrėžia unikalius rinkos produktus, kategorijas, valiutas ir mokėjimo būdus, o lokalės identifikatoriai nustato klientų matomo turinio kalbą. Elektroninės prekybos svetainė naudoja URL, kad atskirtų paklausią ir lokalizuotą patirtį. Šių unikalių kanalų ir lokalių funkcijų svetainės URL apibrėžiami svetainės **parametrų \> kanalų** puslapyje svetainės daryklėje Dynamics 365 Commerce.
+Dynamics 365 Commerce El. komercijos svetainės suteikia unikalią rinkos ir lokalizuotą patirtį klientams, naudojant kanalus ir vietos identifikatorius. Kanalai nustato unikalius rinkos produktus, kategorijas, valiutas ir mokėjimo būdus, o vietos identifikatoriai lemia turinio, kurį mato klientai, kalbą. El. komercijos svetainė naudoja URL, siekiant atskirti rinkos ir lokalizuotą patirtį. Šių unikalių kanalo ir vietos patirties svetainės URL apibrėžti svetainei svetainės **parametrų puslapyje \> svetainės** generatoriaus Dynamics 365 Commerce kanalų puslapyje.
 
-Svetainės daryklėje URL yra domeno ir maršruto derinys, apibrėžiantis unikalaus kanalo ir lokalės derinio įvedimo tašką. Toliau pateiktame pavyzdyje fiktyvi internetinė parduotuvė "Fabrikam Inc." apibrėžia keturis unikalius kanalo ir lokalės derinius ir susieja kiekvieną derinį su unikaliu URL, kuris teikia turinį klientams.
+Svetainės generatoriuje URL yra domeno ir maršruto derinys, nurodantis unikalaus kanalo ir vietos derinio įvesties tašką. Toliau pateiktame pavyzdyje fiktyvi interneto parduotuvė vadinama Fabrikam Inc. Apibrėžia keturias unikalias kanalo ir vietos kombinacijas bei kiekvieną jų kombinaciją schema su unikaliu URL, kuris naudojamas turiniui su klientais.
 
 | Domenas                     |  Kelias      | Kanalas       |   Lokalė     |
 |------------------------|--------|--------------------------------|--------|
-| `https://fabrikam.com` | /      | Fabrikam išplėstinė internetinė parduotuvė | lt  |
-| `https://fabrikam.com` | /es    | Fabrikam išplėstinė internetinė parduotuvė | es     |
-| `https://fabrikam.ca`  | /      | Contoso internetinė parduotuvė    | fr-ca  |
-| `https://fabrikam.ca`  | /en-ca | Contoso internetinė parduotuvė    | en-ca  |
+| `https://fabrikam.com` | /      | Fabrikam išplėstinė interneto parduotuvė | lt  |
+| `https://fabrikam.com` | "/es"    | Fabrikam išplėstinė interneto parduotuvė | es     |
+| `https://fabrikam.ca`  | /      | "Contoso" internetinė parduotuvė    | fr-ca  |
+| `https://fabrikam.ca`  | /en-ca | "Contoso" internetinė parduotuvė    | en-ca  |
 
 #### <a name="domain"></a>Domenas
 
-Domenai nustatomi, kai nustatote savo el. prekybos svetainę Microsoft Dynamics "Lifecycle Services" (LCS). Parengę el. prekybos aplinką, galite pridėti daugiau domenų atidarę paslaugos užklausą. Daugiau informacijos apie tai, kaip nustatyti el. prekybos svetainės domenus, ieškokite [Domains in Dynamics 365 Commerce](domains-commerce.md).
+Domenai nustatomi nustatant savo el. komercijos Microsoft Dynamics svetainę ciklo tarnybose (LCS). Su atidarę savo el. komercijos aplinką, galite įtraukti daugiau domenų atidarydami aptarnavimo užklausą. Daugiau informacijos apie tai, kaip nustatyti domenus savo el. komercijos svetainei, rasite [domenuose.Dynamics 365 Commerce](domains-commerce.md)
 
 #### <a name="path"></a>Kelias
 
-- Kelias yra savavališka eilutė, kuri kartu su domenu susiejama su unikaliu kanalo ir lokalės deriniu. Ankstesniame pavyzdyje eilutė, naudojama kaip kelias, atitinka lokalės identifikatorių, su kuriuo susietas kelias. Tačiau galite naudoti kitokį požiūrį.
-- Kanalo ir lokalės derinį galima susieti su domenu ir tuščiu keliu ("/"). Ankstesniame pavyzdyje apsilankę `https://fabrikam.ca/` klientai kanados prancūzų kalba gaus kanados rinkai skirtus produktus ir asortimentus.
-- "Commerce" svetainių daryklė neleidžia kurti pasikartojančių domeno ir maršruto derinių. Tačiau galite susieti pasikartojančius kanalo ir lokalės derinius su kitu domeno ir maršruto deriniu.
+- Kelias yra daug eilučių, kurios kartu su domenu yra susietos su unikaliu kanalo ir vietos deriniu. Ankstesniame pavyzdyje eilutė, kuri naudojama kaip maršrutas, atitinka vietos identifikatorių, su kuriuo susietas maršrutas. Tačiau galite naudoti kitą būdą.
+- Kanalo ir vietos derinį galima susieti su domenu ir tuščiu maršrutu ("/"). Ankstesniame pavyzdyje klientai `https://fabrikam.ca/`, kurie lankosi, gaus Kanados prancūzijos rinkos produktus ir asortimentus.
+- "Commerce" svetainių generatorius neleidžia kurti domeno ir maršruto kombinacijų dublikatų. Tačiau galite susieti kanalo ir vietos dublikatų derinius su skirtingu domeno ir maršruto deriniu.
 
 #### <a name="channel"></a>Kanalas
 
-- Kanalai (taip pat žinomi kaip internetinės parduotuvės) apibrėžia internetinės elektroninės prekybos parduotuvės mokėjimo būdus, kainų grupes, produktų hierarchijas, asortimentus ir produktus.
-- Kanalai apibrėžiami, konfigūruojami ir publikuojami būstinėje Dynamics 365 Commerce.
-- Svetainių kūrėjas gali aptikti internetines parduotuves, kurios buvo sukonfigūruotos "Commerce" būstinėje ir kurias galima susieti su svetaine.
+- Kanalai (taip pat vadinami interneto parduotuvėmis) apibrėžia mokėjimo metodus, kainų grupes, produktų hierarchijas, asortimentus ir produktus interneto el. komercijos parduotuvėse.
+- Kanalai apibrėžiami, konfigūruojami ir publikuojami Dynamics 365 Commerce būstinėje.
+- Svetainės generatorius gali aptikti interneto parduotuves, kurios sukonfigūruotos "Commerce Headquarters" ir kurias galima susieti su svetaine.
 
-Daugiau informacijos apie kanalus ieškokite [Channels overview](channels-overview.md). Daugiau informacijos apie tai, kaip nustatyti internetinį kanalą, ieškokite [Set up a online channel](channel-setup-online.md).
+Daugiau informacijos apie kanalus ieškokite Kanalų [peržiūra](channels-overview.md). Daugiau informacijos apie tai, kaip nustatyti interneto kanalą, ieškokite [interneto kanalo nustatyti](channel-setup-online.md).
 
 #### <a name="locale"></a>Lokalė
 
-- Lokalė yra faktinis identifikatorius, naudojamas perduodant XML lokalizacijos mainų failo formato (XLIFF) failus lokalizacijai. Vietovės apibrėžiamos ir skelbiamos kiekvienam kanalui "Commerce" būstinėje. Informacijos apie tai, kaip konfigūruoti kalbas ir kanalus svetainės daryklėje, ieškokite kitame skyriuje.
-- Tą pačią lokalę galima susieti su keliais kanalais. Tokiu būdu bendra kalba gali būti siūloma keliose rinkose.
+- Lokalė yra faktinis identifikatorius, naudojamas, kai atimsite XML lokalizavimo mainų failo formato (XLIFF) failus, naudojamus lokalizavimui. Nustatomos ir publikuojamas kiekvieno "Commerce Headquarters" kanalo vietos. Informacijos, kaip konfigūruoti kalbas ir kanalus svetainės generatoriuje, ieškokite kitame skyriuje.
+- Tą pačią vietą galima susieti su keliais kanalais. Tokiu būdu bendra kalba gali būti siūloma keliose rinkose.
 
-## <a name="configure-languages-and-channels-for-your-e-commerce-site"></a>El. prekybos svetainės kalbų ir kanalų konfigūravimas
+## <a name="configure-languages-and-channels-for-your-e-commerce-site"></a>Jūsų el. komercijos svetainės kalbų ir kanalų konfigūravimas
 
-Iš dėžutės visos Dynamics 365 Commerce el. prekybos svetainės sukonfigūruotos naudoti vieną internetinį kanalą ir vieną kalbą, neatsižvelgiant į tai, ar pradedate nuo "Fabrikam" demonstracinės svetainės, ar kuriate naują svetainę nuo nulio.
+Jei ne, Dynamics 365 Commerce visos el. komercijos svetainės sukonfigūruotos naudoti vieną interneto kanalą ir vieną kalbą, nepaisant to, ar pradedate nuo Fabrikam demonstracinės svetainės, ar nuo pradžių kuriate naują svetainę.
 
-Šioje konfigūracijoje klientai ir partneriai paprastai kuria visą turtą, kuris bus naudojamas įvairiose šalyse ir kalbose. Šie ištekliai apima šablonus, puslapius, fragmentus, turinį ir laikmeną. Visas svetainės turinys yra sukurtas pirmąja kalba, kurią pasirinkote savo svetainei, arba jei naudojate "Fabrikam" demonstracinę svetainę, svetainės turinys bus sukurtas anglų kalba.
+Šioje konfigūracijoje klientai ir partneriai paprastai kuria visą turtą, kuris bus naudojamas įvairiose šalyse ir kalbose. Šis turtas apima šablonus, puslapius, fragmentus, turinį ir laikmenas. Visas svetainės turinys kuriamas pirmą jūsų svetainei pasirinkta kalba arba jei naudojate Fabrikam demonstracinę svetainę, svetainės turinys bus sukurtas anglų kalba.
 
-![Iš langelio Dynamics 365 Commerce el. prekybos svetainės](media/loc-guide-1.png)
+![Į lauką neįeis Dynamics 365 Commerce el. komercijos svetainė](media/loc-guide-1.png)
 
 > [!NOTE]
-> Fabrikam demonstracinę svetainę galite sukonfigūruoti papildomai kalbai, kad turinio kūrimą būtų galima atlikti ta kalba. Informacijos apie tai, kaip įtraukti naują kalbą į svetainę ir kanalą, ieškokite [svetainės skyriaus konfigūravimas papildoma kalba](#configure-an-additional-language-for-your-site) vėliau šioje temoje.
+> Galite konfigūruoti Fabrikam demonstracinę svetainę papildoma kalba, kad turinio kūrimas būtų galimas ta kalba. Informacijos, kaip įtraukti naują kalbą į svetainę ir kanalą, [ieškokite](#configure-an-additional-language-for-your-site) toliau šiame straipsnyje skyriuje Konfigūruoti papildomą savo svetainės kalbą.
 
-Tačiau elektroninės prekybos svetainių turinio valdymo sistema (TVS) ir puslapių Dynamics 365 Commerce modelis buvo sukurti taip, kad būtų galima plėstis į naujas rinkas ir vietoves. Todėl per vieną elektroninės prekybos svetainę galite valdyti internetinės parduotuvės, apimančios kelias rinkas ir kalbas, turtą.
+Tačiau turinio valdymo sistema (CMS) Dynamics 365 Commerce ir puslapių modelis el. komercijos svetainėms sukurti siekiant leisti išplėtimą į naujas rinkas ir vietas. Todėl, per vieną el. prekybos svetainę, galima valdyti interneto parduotuvės, kuri apima kelias rinkas ir kalbas, turtą.
 
-![Dynamics 365 Commerce Elektroninės prekybos svetainė, apimanti kelias rinkas ir kalbas](media/loc-guide-2.png)
+![Dynamics 365 Commerce El. komercijos svetainė, kuri apima kelias rinkas ir kalbas](media/loc-guide-2.png)
 
-### <a name="configure-an-additional-language-for-your-site"></a>Papildomos svetainės kalbos konfigūravimas
+### <a name="configure-an-additional-language-for-your-site"></a>Sukonfigūruokite papildomą svetainės kalbą
 
-Naujos el. prekybos svetainės kalbos konfigūravimo procesas turi tris veiksmus.
+Naujos el. komercijos svetainės kalbos konfigūravimo procesas turi tris žingsnius.
 
-#### <a name="step-1-add-the-language-to-your-channel-online-store-in-commerce-headquarters"></a>1 veiksmas: kalbos įtraukimas į kanalą (internetinę parduotuvę) "Commerce" būstinėje
+#### <a name="step-1-add-the-language-to-your-channel-online-store-in-commerce-headquarters"></a>1 veiksmas: įtraukite kalbą į kanalą (interneto parduotuvę) "Commerce Headquarters"
 
-1. "Commerce" būstinėje eikite į kanalą, į kurį norite įtraukti naują kalbą. Norėdami rasti kanalų, kuriuos sukonfigūravote "Commerce Headquarters", sąrašą, eikite į mažmeninės **prekybos ir komercijos kanalų \> interneto \> parduotuves**.
+1. "Commerce Headquarters" eikite į kanalą, į kurį norite įtraukti naują kalbą. Norėdami rasti kanalų, kuriuos sukonfigūravote "Commerce Headquarters", sąrašą, eikite į mažmeninės **prekybos ir komercijos kanalų \> interneto \> parduotuves**.
 1. Atidarykite interneto parduotuvę, kuri susietas su jūsų svetaine, pasirinkdami jos mažmeninės **prekybos kanalo ID vertę**. Galite patikrinti interneto **parduotuvę**, kuri susietas su jūsų svetaine, atidarydami kanalų svetainės parametrų puslapį "Commerce" svetainių generatoriuje **ir ieškodami interneto parduotuvės pavadinimo kanalų stulpelyje**. 
 1. „FastTab“ elemente **Kalbos** pasirinkite **Įtraukti**. **Lauke Kalba** pasirinkite naujos kalbos vietos kodą. Tada pasirinkite **Įrašyti**.
 1. Pereikite į " **Retail" ir "Commerce \> Retail" ir "Commerce IT \> Distribution"** grafiką ir vykdykite **1070 kanalo konfigūravimo užduotį**. Baigę vykdyti užduotį, galite pereiti prie 2 veiksmo ir pridėti kalbą prie svetainės generatoriaus kanalo.
@@ -117,7 +117,7 @@ Norėdami į kanalą įtraukti kalbą svetainės generatoriuje, atlikite šiuos 
 
 Kai grįžtate į " **Commerce"** svetainių generatoriaus puslapių rodinį, kanale, o viršutiniame dešiniajame vietos parinkinyje bus galima naudoti naują kalbą. Dabar galite kurti lokalizuotas puslapių versijas savo bazine kalba.
 
-Toliau šios temos skyriuje Lokalizuoti el. komercijos [svetainės](#localize-e-commerce-site-content) turinį taikomas jūsų puslapių ir fragmentų turinio lokalizavimo procesas.
+Toliau šiame straipsnyje skyriuje Lokalizuoti el. komercijos [svetainės](#localize-e-commerce-site-content) turinį taikomas jūsų puslapių ir fragmentų turinio lokalizavimo procesas.
 
 ### <a name="configure-a-new-channel-for-your-site"></a>Konfigūruokite naują savo svetainės kanalą
 
@@ -156,7 +156,7 @@ Toliau nurodytas el. komercijos svetainės turtas gali būti lokalizuojamas svet
 
 Visi nauji puslapiai, fragmentai ir laikmenų turtas sukuriami kanalo ir kalbos, šiuo metu pasirinktos kanalo ir vietos parinkikliuose, kontekste. Ši kalba dažniausiai yra jūsų pagrindinė kalba, jei nekonfigūravote papildomų kalbų ar kanalų. Svetainėse, kuriose sukonfigūruoti keli kanalai ir kalbos, "pagrindinę kalbą" **apibrėžia** kanalas ir lokalė, kurią nustatėte kaip numatytąją svetainės parametrų puslapyje Kanalai.
 
-Puslapių, fragmentų ir laikmenų turto lokalizavimo veiksmai yra panašūs. Išimtys ir skirtumai nurodyti tolesniuose skyriuose. Tačiau skiriasi modulio lokalizavimo veiksmų turinys. Norėdami gauti daugiau informacijos, toliau šioje temoje [žr.](#localize-modules) skyrių Lokalizuoti modulius.
+Puslapių, fragmentų ir laikmenų turto lokalizavimo veiksmai yra panašūs. Išimtys ir skirtumai nurodyti tolesniuose skyriuose. Tačiau skiriasi modulio lokalizavimo veiksmų turinys. Norėdami gauti daugiau informacijos, toliau šiame [straipsnyje žr.](#localize-modules) skyrių Lokalizuoti modulius.
 
 #### <a name="step-1-export-an-xliff-file"></a>1 žingsnis: XLIFF failo eksportavimas
 

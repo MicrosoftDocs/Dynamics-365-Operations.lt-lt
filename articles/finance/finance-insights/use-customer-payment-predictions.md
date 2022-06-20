@@ -1,6 +1,6 @@
 ---
 title: Kliento mokėjimo prognozių naudojimas
-description: Šioje temoje kalbama apie būtinuosius komponentus ir bendruosius veiksmus, kurių reikia norint naudoti bandomąją „Finance insights” versiją.
+description: Šiame straipsnyje pereina būtinosios sąlygos ir platūs veiksmai, reikalingi norint naudoti bandomąją finansų žinių versiją.
 author: ShivamPandey-msft
 ms.date: 11/03/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-11-16
 ms.dyn365.ops.version: AX 10.0.14
-ms.openlocfilehash: ecc864485dfc106df22b48e92a85f2c73d58e0e8
-ms.sourcegitcommit: d70f66a98eff0a2836e3033351b482466bd9c290
+ms.openlocfilehash: 330642624b55a6772ef149b70873021401a6bd83
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/11/2022
-ms.locfileid: "8740630"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901408"
 ---
 # <a name="use-customer-payment-predictions"></a>Kliento mokėjimo prognozių naudojimas
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje paaiškinama, kaip naudoti kliento mokėjimo prognozes. Prieš naudodami šią funkciją įsitikinkite, kad atlikote nustatymo veiksmus. Daugiau informacijos žr. [Klientų mokėjimo prognozių įjungimas](enable-cust-paymnt-prediction.md).
+Šiame straipsnyje paaiškinama, kaip naudoti kliento mokėjimo numatymas. Prieš naudodami šią funkciją įsitikinkite, kad atlikote nustatymo veiksmus. Daugiau informacijos žr. [Klientų mokėjimo prognozių įjungimas](enable-cust-paymnt-prediction.md).
 
 Kliento mokėjimo numatymas galite **peržiūrėti** darbo srityje Valdyti kliento kreditą ir mokėjimų priežiūros darbo sritį ir dviejuose naujuose sąrašo puslapiuose: **·** **operacijos mokėjimo numatymų ir kliento mokėjimo numatymų**.
 

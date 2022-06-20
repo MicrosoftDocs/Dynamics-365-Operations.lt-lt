@@ -1,6 +1,6 @@
 ---
-title: SF apdorojimas
-description: Šioje temoje pateikiama informacijos apie sąskaitų faktūrų apdorojimą Rytų Europoje.
+title: Sąskaitos faktūros apdorojimas
+description: Šiame straipsnyje pateikiama informacija apie SF apdorojimą Rytų Europai.
 author: EvgenyPopovMBS
 ms.date: 02/02/2022
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Czech Republic, Estonia, Hungary, Latvia, Lithuania, Poland, R
 ms.author: epopov
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 9eb4f3ace8c6295e82ba9ab44ef49baa0d10e96b
-ms.sourcegitcommit: 2aca3a95d42403c7f5d80dcd5e3ee958dca5c894
+ms.openlocfilehash: edb50ddebeca18653a318596e9c291a3f3df6d9c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/03/2022
-ms.locfileid: "8087819"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8848448"
 ---
-# <a name="invoice-processing"></a>SF apdorojimas
+# <a name="invoice-processing"></a>Sąskaitos faktūros apdorojimas
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje trumpai aprašomi keli konkrečių šalių scenarijai, pvz., ES vidaus pridėtinės vertės mokestis (PVM) ir atidėtas mokestis. Sąskaitų faktūrų išrašymo procesui taikomi kai kurių Europos šalių teisiniai reikalavimai. Šioje temoje taip pat pateikiama informacijos apie tai, kaip šiose šalyse apdorojamos klientų ir tiekėjų sąskaitos faktūros. 
+Šiame straipsnyje trumpai aprašomi kai kurie šaliai specifiniai scenarijai, pvz., pridėtinės vertės mokestis bendrijos viduje (PVM) ir atidėtas mokestis. Sąskaitų faktūrų išrašymo procesui taikomi kai kurių Europos šalių teisiniai reikalavimai. Šiame straipsnyje taip pat pateikiama informacija apie tai, kaip šioms šalims apdorojamos kliento ir tiekėjo SF. 
 <table>
 <thead>
 <tr>
@@ -70,7 +70,7 @@ ms.locfileid: "8087819"
 <p>Teisės aktuose nurodytos skirtingos taisyklės, taikomos renkantis verslo operacijoms tinkamus valiutų kursus. Puslapiuose <strong>Gautinų sumų parametrai</strong> ir <strong>Mokėtinų sumų parametrai</strong> esančiame lauke <strong>Valiutos kurso data</strong> galite pasirinkti datą, kurią reikia naudoti su sumomis skaičiuojant apskaitos valiutą pirkimo ir pardavimo dokumentuose. Kai įvedami duomenys, sistema pagal šį parametrą gauna operacijos valiutos kursą.</p>
 <blockquote>[!NOTE]<br>Italijoje ši funkcija taikoma tik modulyje Mokėtinos sumos. Mokėtinų sumų parametruose vartotojas gali pasirinkti <strong>registravimo datą</strong> arba <strong>dokumento datą</strong> lauke <strong>Valiutos kurso data</strong>.   </blockquote>
 <blockquote><br>Kai lauką <strong>Valiutos kurso data</strong> nustatote kaip <strong>Dokumento data (tik ES prekybai)</strong>, sistema naudoja PVM grupę. PVM grupės skirtuke <strong>Bendra</strong> yra parametras <strong>ES prekyba</strong>. Jei PVM grupės parinktis <strong>ES prekyba</strong> nustatyta kaip <strong>Taip</strong> ir jei ši PVM grupė nurodyta dokumento antraštėje, sistema valiutos kursą gauna pagal dokumento datą. Jei šios PVM grupės parinktis <strong>ES prekyba</strong> nustatyta kaip <strong>Ne</strong>, sistema valiutos kursą gauna pagal dokumento registravimo datą.</blockquote>
-  <blockquote><br>Lenkijai, į<strong>Gautinos sąskaitos</strong> modulis, papildomas<strong>Automatinis datos nustatymas</strong> pasiekiama šio parametro vertė. Pasirinkus, sistema automatiškai parenka anksčiausią datą iš sąskaitos faktūros registravimo datos, pardavimo datos ir mokėjimo datos.</blockquote>
+  <blockquote><br>Lenkijai gautinų <strong>sumų modulyje</strong> galima papildoma <strong>šio parametro</strong> automatinio datos nustatymo vertė. Kai pažymėta, sistema automatiškai pasirenka anksčiausią datą nuo SF registravimo datos, pardavimo datos ir mokėjimo datų.</blockquote>
 </td>
 </tr>
 <tr>

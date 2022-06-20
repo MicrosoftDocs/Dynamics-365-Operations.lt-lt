@@ -1,6 +1,6 @@
 ---
 title: Personalo valdymo darbo sritis
-description: Šioje temoje aprašomi abstraktūs Personalo valdymo darbo srities elementai.
+description: Šiame straipsnyje aprašomi abstrakti personalo valdymo darbo srities elementai.
 author: twheeloc
 ms.date: 11/03/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.assetid: 889a8fab-0eef-45c2-91fc-ff2f4d44d54f
 ms.search.region: Global
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 8b7493aa2df65b42d0da8a451c40cccafbc1cda8
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: fc424905bc9311662859b900636a68de2f7ee3cb
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8689472"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8888765"
 ---
 # <a name="personnel-management-workspace"></a>Personalo valdymo darbo sritis
 
@@ -29,7 +29,7 @@ ms.locfileid: "8689472"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-**Personalo valdymo** darbo srityje yra didelis turinio kiekis. Joje yra personalo dinamika, sekami darbuotojų pakeitimai, atviros pareigos, adreso pakeitimai, besibaigiantys įrašai ir analitika bei pateikiami saitai į konkrečią informaciją. Šioje temoje pateikiama išsami informacija apie kiekvieną darbo srities dalį.
+**Personalo valdymo** darbo srityje yra didelis turinio kiekis. Joje yra personalo dinamika, sekami darbuotojų pakeitimai, atviros pareigos, adreso pakeitimai, besibaigiantys įrašai ir analitika bei pateikiami saitai į konkrečią informaciją. Šiame straipsnyje pateikiama išsami informacija apie kiekvieną darbo srities dalį.
 
 ## <a name="activity-tab"></a>Skirtukas Veikla
 

@@ -1,6 +1,6 @@
 ---
 title: DK užsienio valiutos kurso pasikeitimas
-description: 'Šioje temoje apžvelgiami šie DK užsienio valiutos kurso pasikeitimo proceso aspektai: sąranka, proceso paleidimas, procesas skaičiavimas ir tai, kaip atšaukti perkainojimo operacijas, jei reikia.'
+description: Šiame straipsnyje pateikiama DK užsienio valiutos kurso pasikeitimo proceso – nustatymo, proceso skaičiavimo ir, jei reikia, perkainojimo operacijų anuliavimo peržiūra.
 author: kweekley
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e4a138a26a23c804f5fd358d335b04aee3897dce
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: 1e90780ca2a33725130b261fcaf4cb08d30f3270
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8720344"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904534"
 ---
 # <a name="foreign-currency-revaluation-for-general-ledger"></a>DK užsienio valiutos kurso pasikeitimas
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje apžvelgiami šie DK užsienio valiutos kurso pasikeitimo proceso aspektai: sąranka, proceso paleidimas, procesas skaičiavimas ir tai, kaip atšaukti perkainojimo operacijas, jei reikia. 
+Šiame straipsnyje pateikiama DK užsienio valiutos kurso pasikeitimo proceso – nustatymo, proceso skaičiavimo ir, jei reikia, perkainojimo operacijų anuliavimo peržiūra. 
 
 Laikotarpio pabaigoje tvarkant apskaitos konvencijas būtina DK sąskaitų balansus užsienio valiuta perkainoti naudojant skirtingus valiutų kursų tipus (dabartinis, retrospektyvinis, vidurkio, ir t. t.). Pavyzdžiui, tvarkant tam tikrą apskaitos konvenciją, turtą ir įsipareigojimus būtina perkainoti pagal esamą valiutos kursą, ilgalaikį turtą – pagal retrospektyvinį valiutos kursą, o pelną ir nuostolį – pagal mėnesio vidurkį. Galima naudoti DK užsienio valiutos kurso pasikeitimo funkciją, norint perkainoti balansą ir pelno bei nuostolio sąskaitas. 
 

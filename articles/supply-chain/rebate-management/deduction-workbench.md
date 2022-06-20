@@ -1,6 +1,6 @@
 ---
 title: Atskaitymų valdymas, naudojant atskaitymų darbo sritį
-description: Šioje temoje aprašoma, kaip naudoti atskaitymų darbo sritį norint apdoroti klientų mokėjimus su atskaitymais.
+description: Šiame straipsnyje aprašoma, kaip naudoti atskaitymo darbo dalį kliento mokėjimams, kuriuose yra atskaitymai, apdoroti.
 author: sherry-zheng
 ms.date: 08/02/2021
 ms.topic: article
@@ -11,23 +11,23 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: bf98529176fbed368708ea925f542a70f2936037
-ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
+ms.openlocfilehash: 607ad528b56d1f0c9a78e113f67c920cdae6e620
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "7500407"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873614"
 ---
 # <a name="manage-deductions-using-the-deduction-workbench"></a>Atskaitymų valdymas, naudojant atskaitymų darbo sritį
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje aprašoma, kaip naudoti atskaitymų darbo sritį norint apdoroti klientų mokėjimus su atskaitymais.
+Šiame straipsnyje aprašoma, kaip naudoti atskaitymo darbo dalį kliento mokėjimams, kuriuose yra atskaitymai, apdoroti.
 
 Jeigu klientui turi būti grąžinta išmoka, jis gali nuspręsti nelaukti, kada ji bus grąžinta. Vietoj to, klientas gali išsiųsti mokėjimą, kuriame yra įtrauktas grąžintinos sumos atskaitymas. Norėdami apdoroti šio tipo operaciją, galite naudoti atskaitymų darbo sritį atskaitymams sugretinti su atidarytomis kredito operacijomis, jiems skaidyti, atmesti bei nurašyti atskaitymus.
 
 > [!NOTE]
-> Atskaitymo darbo sritis ilgą laiką buvo „Microsoft Dynamics 365 Supply Chain Management“ pardavimo ir rinkodaros funkcionalumo dalis. Tačiau jis buvo patobulintas, kad galėtų veikti su naujesniu **Grąžinimo valdymo** moduliu. Šioje temoje aprašoma, kaip naudoti ir senesnes funkcijas ir atskaitymo darbo srityje naudojamas grąžinimo valdymo priemones. Tačiau jei [savo sistemoje neįjungėte **Grąžinimo valdymo** modulio](rebate-management-enable.md), kai kurios čia aprašytos funkcijos jums bus neprieinamos.
+> Atskaitymo darbo sritis ilgą laiką buvo „Microsoft Dynamics 365 Supply Chain Management“ pardavimo ir rinkodaros funkcionalumo dalis. Tačiau jis buvo patobulintas, kad galėtų veikti su naujesniu **Grąžinimo valdymo** moduliu. Šiame straipsnyje aprašoma, kaip naudoti ir senesnes atskaitymo darbo srityje naudojamas grąžinimo valdymo priemones. Tačiau jei [savo sistemoje neįjungėte **Grąžinimo valdymo** modulio](rebate-management-enable.md), kai kurios čia aprašytos funkcijos jums bus neprieinamos.
 
 ## <a name="prerequisites"></a>Būtinieji komponentai
 
@@ -159,11 +159,11 @@ Norėdami sukurti naują atskaitymą, atskaitymų darbo srityje atlikite nurodyt
         - *Pagal kiekį* – bus sukurtas neigiamas pardavimo užsakymas arba grąžinimo užsakymas.
 
     - **Paraiškos data** – pasirinkite paraiškos datą. Numatytoji vertė yra dabartinė data.
-    - **Paraiškos priežastis** – pasirinkite priežasties kodą, kuris taikomas dabartiniam atskaitymui. Pasirinktas reikalavimo pagrindas turi įtakos taikomos pasirinktims. Daugiau informacijos apie tai, kaip kurti ir konfigūruoti paraiškos priežastis, kurias čia galite pasirinkti, žr. šios temos skyriuje [Kurti atskaitymų priežastis](#deduction-reasons).
+    - **Paraiškos priežastis** – pasirinkite priežasties kodą, kuris taikomas dabartiniam atskaitymui. Pasirinktas reikalavimo pagrindas turi įtakos taikomos pasirinktims. Daugiau informacijos apie tai, kaip kurti ir konfigūruoti čia galimas pasirinkti pasiūlymų priežastis, [ieškokite](#deduction-reasons) anksčiau šiame straipsnyje skyriuje Kurti atskaitymo priežastis.
     - **Pastabos** – pridėkite bet kokias taikomas pastabas. Patvirtinus paraišką, tvirtintojas galės redaguoti arba pridėti prie jos pastabų.
     - **Kurti ataskaitų žurnalą** - nustatykite šią pasirinktį norėdami nurodyti, ar kuriant paraišką ar atskaitymą turi būti sukurtas ataskaitų žurnalas:
 
-        - *Taip* – sistema sukurs ir užregistruos bendrąjį žurnalą, naudodama paraiškos žurnalą, kuris nustatytas **Gautinų sumų parametrų** puslapyje. (Daugiau informacijos ieškokite [Anksčiau šioje temoje konfigūruokite](#accounts-receivable-deductions) gautinų sumų ir atskaitymų skyrių.) Kai prie jos pridėta sąskaita, naudojamas taikomos sąskaitos balansai sumažinti. Jei vėliau paraiška atmetama, bus atšauktas paraiškos žurnalas ir sudengimas (jei sąskaita faktūra buvo pridėta).
+        - *Taip* – sistema sukurs ir užregistruos bendrąjį žurnalą, naudodama paraiškos žurnalą, kuris nustatytas **Gautinų sumų parametrų** puslapyje. (Daugiau informacijos ieškokite [Anksčiau šiame straipsnyje sukonfigūruokite gautinų](#accounts-receivable-deductions) sumų ir atskaitymų skyrių.) Kai prie jos pridėta SF, naudojamas taikomos SF balansasi sumažinti. Jei vėliau paraiška atmetama, bus atšauktas paraiškos žurnalas ir sudengimas (jei sąskaita faktūra buvo pridėta).
         - *Ne* – šiuo metu nekuriamas joks žurnalas. Jis bus sukurtas patvirtinus paraišką. Sąskaitą faktūrą vis tiek galima pridėti prie naujos paraiškos, net jei jis nesukurtas. Tačiau sudengimo be paraiškos žurnalo atlikti negalima.
 
 1. Pasirinkite **Gerai**.
@@ -197,11 +197,11 @@ Atskaitymo iš kliento sudengimo sukūrimo procesas yra panašus į atskaitymo s
         - *Pagal kiekį* – bus sukurtas neigiamas pardavimo užsakymas arba grąžinimo užsakymas.
 
     - **Paraiškos data** – pasirinkite paraiškos datą. Numatytoji vertė yra dabartinė data.
-    - **Paraiškos priežastis** – pasirinkite priežasties kodą, kuris taikomas dabartiniam atskaitymui. Pasirinktas reikalavimo pagrindas turi įtakos taikomos pasirinktims. Daugiau informacijos apie tai, kaip kurti ir konfigūruoti paraiškos priežastis, kurias čia galite pasirinkti, žr. šios temos skyriuje [Kurti atskaitymų priežastis](#deduction-reasons).
+    - **Paraiškos priežastis** – pasirinkite priežasties kodą, kuris taikomas dabartiniam atskaitymui. Pasirinktas reikalavimo pagrindas turi įtakos taikomos pasirinktims. Daugiau informacijos apie tai, kaip kurti ir konfigūruoti čia galimas pasirinkti pasiūlymų priežastis, [ieškokite](#deduction-reasons) anksčiau šiame straipsnyje skyriuje Kurti atskaitymo priežastis.
     - **Pastabos** – pridėkite bet kokias taikomas pastabas. Patvirtinus paraišką, tvirtintojas galės redaguoti arba pridėti prie jos pastabų.
     - **Kurti ataskaitų žurnalą** - nustatykite šią pasirinktį norėdami nurodyti, ar kuriant paraišką ar atskaitymą turi būti sukurtas ataskaitų žurnalas:
 
-        - *Taip* – sistema sukurs ir užregistruos bendrąjį žurnalą, naudodama paraiškos žurnalą, kuris nustatytas **Gautinų sumų parametrų** puslapyje. (Daugiau informacijos ieškokite [Anksčiau šioje temoje konfigūruokite](#accounts-receivable-deductions) gautinų sumų ir atskaitymų skyrių.) Kai prie jos pridėta sąskaita, naudojamas taikomos sąskaitos balansai sumažinti. Jei vėliau paraiška atmetama, bus atšauktas paraiškos žurnalas ir sudengimas (jei sąskaita faktūra buvo pridėta).
+        - *Taip* – sistema sukurs ir užregistruos bendrąjį žurnalą, naudodama paraiškos žurnalą, kuris nustatytas **Gautinų sumų parametrų** puslapyje. (Daugiau informacijos ieškokite [Anksčiau šiame straipsnyje sukonfigūruokite gautinų](#accounts-receivable-deductions) sumų ir atskaitymų skyrių.) Kai prie jos pridėta SF, naudojamas taikomos SF balansasi sumažinti. Jei vėliau paraiška atmetama, bus atšauktas paraiškos žurnalas ir sudengimas (jei sąskaita faktūra buvo pridėta).
         - *Ne* – šiuo metu nekuriamas joks žurnalas. Jis bus sukurtas patvirtinus paraišką. Sąskaitą faktūrą vis tiek galima pridėti prie naujos paraiškos, net jei jis nesukurtas. Tačiau sudengimo be paraiškos žurnalo atlikti negalima.
 
 1. Pasirinkite **Gerai**.
@@ -235,11 +235,11 @@ Atskaitymo iš kliento puslapio sudengimo sukūrimo procesas yra panašus į ats
         - *Pagal kiekį* – bus sukurtas neigiamas pardavimo užsakymas arba grąžinimo užsakymas.
 
     - **Paraiškos data** – pasirinkite paraiškos datą. Numatytoji vertė yra dabartinė data.
-    - **Paraiškos priežastis** – pasirinkite priežasties kodą, kuris taikomas dabartiniam atskaitymui. Pasirinktas reikalavimo pagrindas turi įtakos taikomos pasirinktims. Daugiau informacijos apie tai, kaip kurti ir konfigūruoti paraiškos priežastis, kurias čia galite pasirinkti, žr. šios temos skyriuje [Kurti atskaitymų priežastis](#deduction-reasons).
+    - **Paraiškos priežastis** – pasirinkite priežasties kodą, kuris taikomas dabartiniam atskaitymui. Pasirinktas reikalavimo pagrindas turi įtakos taikomos pasirinktims. Daugiau informacijos apie tai, kaip kurti ir konfigūruoti čia galimas pasirinkti pasiūlymų priežastis, [ieškokite](#deduction-reasons) anksčiau šiame straipsnyje skyriuje Kurti atskaitymo priežastis.
     - **Pastabos** – pridėkite bet kokias taikomas pastabas. Patvirtinus paraišką, tvirtintojas galės redaguoti arba pridėti prie jos pastabų.
     - **Kurti ataskaitų žurnalą** - nustatykite šią pasirinktį norėdami nurodyti, ar kuriant paraišką ar atskaitymą turi būti sukurtas ataskaitų žurnalas:
 
-        - *Taip* – sistema sukurs ir užregistruos bendrąjį žurnalą, naudodama paraiškos žurnalą, kuris nustatytas **Gautinų sumų parametrų** puslapyje. (Daugiau informacijos ieškokite [Anksčiau šioje temoje konfigūruokite](#accounts-receivable-deductions) gautinų sumų ir atskaitymų skyrių.) Kai prie jos pridėta sąskaita, naudojamas taikomos sąskaitos balansai sumažinti. Jei vėliau paraiška atmetama, bus atšauktas paraiškos žurnalas ir sudengimas (jei sąskaita faktūra buvo pridėta).
+        - *Taip* – sistema sukurs ir užregistruos bendrąjį žurnalą, naudodama paraiškos žurnalą, kuris nustatytas **Gautinų sumų parametrų** puslapyje. (Daugiau informacijos ieškokite [Anksčiau šiame straipsnyje sukonfigūruokite gautinų](#accounts-receivable-deductions) sumų ir atskaitymų skyrių.) Kai prie jos pridėta SF, naudojamas taikomos SF balansasi sumažinti. Jei vėliau paraiška atmetama, bus atšauktas paraiškos žurnalas ir sudengimas (jei sąskaita faktūra buvo pridėta).
         - *Ne* – šiuo metu nekuriamas joks žurnalas. Jis bus sukurtas patvirtinus paraišką. Sąskaitą faktūrą vis tiek galima pridėti prie naujos paraiškos, net jei jis nesukurtas. Tačiau sudengimo be paraiškos žurnalo atlikti negalima.
 
 1. Pasirinkite **Gerai**.
@@ -280,7 +280,7 @@ Norėdami sugretinti atskaitymą su kreditu, atlikite šiuos veiksmus.
 1. Veiksmų srityje pasirinkite **Tvarkyti \> Gretinti**. Sistema sugretina atskaitymą su kreditu. Jei balansas lieka atskaityme, jis rodomas skirtuko **Likusi suma** laukelyje **Atskaitymai** skirtuke.
 
     > [!NOTE]
-    > Atskaitymams, kurie buvo sukurti naudojant komandą **Nauji atskaitymai** atskaitymų darbo sityje, kliento sudengimo arba kliento puslapyje **Tvarkyti \> Sugretinti** komanda galima tik jei **paraiškos būsenos** laukas nustatytas į *Priimta*. Šią komandą galima naudoti norint rankiniu būdu sugretinti kaina arba kiekiu grindžiamą operaciją su susijusiu kreditu skyriuje **Atviros operacijos**. Šis kreditas sukuriamas arba kai atskaitymas patvirtinamas (naudojant **Tvarkyti \> Patvirtinti atskaitymus** komanda), arba kai jis pridedamas prie esamo kredito, kaip aprašyta toliau šios temos skyriuje Patvirtinimo atskaitymų procesas sukurtame [Kreditai sukurti ne patvirtinamų atskaitymų procese](#credits-outside-approval). *Sudengti patvirtintus atskaitymus* periodinė užduotis (**Pardavimų rinkodara \> Periodinė užduotis \> Sudengti patvirtintus atskaitymus**) taip pat gali būti naudojama, norint automatiškai sugretinti atskaitymus ir kreditus, kurie turi atitinkamas **Atskaitymų ID** vertes ir sumas.
+    > Atskaitymams, kurie buvo sukurti naudojant komandą **Nauji atskaitymai** atskaitymų darbo sityje, kliento sudengimo arba kliento puslapyje **Tvarkyti \> Sugretinti** komanda galima tik jei **paraiškos būsenos** laukas nustatytas į *Priimta*. Šią komandą galima naudoti norint rankiniu būdu sugretinti kaina arba kiekiu grindžiamą operaciją su susijusiu kreditu skyriuje **Atviros operacijos**. Šis kreditas sukuriamas arba kai atskaitymas patvirtinamas (**\>** naudojant komandą Tvarkyti atskaitymo tvirtinį) arba kai jis pridedamas [prie](#credits-outside-approval) esamo kredito, kaip aprašyta kredituose, sukurtuose ne patvirtinimo atskaitymų proceso skyriuje vėliau šiame straipsnyje. *Sudengti patvirtintus atskaitymus* periodinė užduotis (**Pardavimų rinkodara \> Periodinė užduotis \> Sudengti patvirtintus atskaitymus**) taip pat gali būti naudojama, norint automatiškai sugretinti atskaitymus ir kreditus, kurie turi atitinkamas **Atskaitymų ID** vertes ir sumas.
 
 ### <a name="split-a-deduction"></a>Atskaitymo išskaidymas
 

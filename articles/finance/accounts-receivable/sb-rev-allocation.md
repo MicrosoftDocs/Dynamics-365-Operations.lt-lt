@@ -1,6 +1,6 @@
 ---
 title: Įplaukų paskirstymas
-description: Šioje temoje paaiškinama, kaip naudoti įplaukų paskirstymą sąskaitų pateikimo metu.
+description: Šiame straipsnyje paaiškinama, kaip naudoti įplaukų paskirstymą sąskaitų pateikimo metu.
 author: JodiChristiansen
 ms.date: 11/04/2021
 ms.topic: article
@@ -14,16 +14,16 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: 09d3e9295f1fb753156aa603b00372316173721e
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 18739e0871592bc9eefcdf00f67dd4dd18f5d6f1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8695252"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8864374"
 ---
 # <a name="revenue-allocation"></a>Įplaukų paskirstymas
 
-Šioje temoje paaiškinama, kaip nustatyti sąskaitų pateikimo grafiko įplaukų paskirstymo parametrus. Kurdami sąskaitų pateikimo grafiką galite nustatyti arba redaguoti įplaukų paskirstymą. Kai atidarote aktyvaus **arba** nutrauktas sąskaitų pateikimo grafiko įplaukų paskirstymo puslapį, laukų informaciją galima tik skaityti.
+Šiame straipsnyje paaiškinama, kaip nustatyti sąskaitų pateikimo grafiko įplaukų paskirstymo parametrus. Kurdami sąskaitų pateikimo grafiką galite nustatyti arba redaguoti įplaukų paskirstymą. Kai atidarote aktyvaus **arba** nutrauktas sąskaitų pateikimo grafiko įplaukų paskirstymo puslapį, laukų informaciją galima tik skaityti.
 
 ## <a name="specify-the-revenue-allocation-for-a-billing-schedule"></a>Nurodyti įplaukų paskirstymą atsiskaitymo grafikui
 

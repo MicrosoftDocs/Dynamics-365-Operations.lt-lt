@@ -1,6 +1,6 @@
 ---
 title: Poreikio prognozių nustatymas
-description: Šioje temoje aprašomos nustatymo užduotys, kurias turite atlikti, norėdami prognozuoti poreikį.
+description: Šiame straipsnyje aprašomos nustatymo užduotys, kurias turite atlikti, norėdami pasiruošti poreikio prognozei.
 author: t-benebo
 ms.date: 11/23/2021
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c3b52b970a8040dcba5a1fc59d297dc9ce1a3c53
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
-ms.translationtype: MT
+ms.openlocfilehash: 10a211e0e20f22dfbfdb4923841808750b6ed71b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8470015"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901008"
 ---
 # <a name="demand-forecasting-setup"></a>Poreikio prognozių nustatymas
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje aprašoma, kaip nustatyti poreikio prognozę.  
+Šiame straipsnyje aprašoma, kaip nustatyti poreikio prognozę.  
 
 ## <a name="item-allocation-keys"></a>Prekių paskirstymo raktai
 
@@ -245,7 +245,7 @@ Norėdami sukurti naują mašinų mokymosi darbo sritį, naudokite nurodytą pro
 1. Baikite vedlio veiksmus, naudodami ekrane pateiktas instrukcijas. Dirbę atmeskite šiuos taškus:
 
     - Naudoti numatytuosius parametrus, nebent kiti šio sąrašo taškai rekomenduoja skirtingus parametrus.
-    - Būtinai pasirinkite geografinį regioną, kuris atitinka regioną, kuriame įdiegtas tiekimo grandinės valdymo egzempliorius. Kitu atveju kai kurie jūsų duomenys gali peržengia regiono ribas. Daugiau informacijos ieškokite toliau šioje temoje [pateiktame](#privacy) privatumo pranešime.
+    - Būtinai pasirinkite geografinį regioną, kuris atitinka regioną, kuriame įdiegtas tiekimo grandinės valdymo egzempliorius. Kitu atveju kai kurie jūsų duomenys gali peržengia regiono ribas. Norėdami gauti daugiau informacijos, toliau [šiame straipsnyje](#privacy) žr. privatumo pranešimą.
     - Naudokite paskirtus išteklius, pavyzdžiui, išteklių grupes, saugojimo sąskaitas, konteinerių registrus, "Azure" raktų saugyklą ir išteklius.
     - Vedlio **puslapyje Nustatyti "Azure" mašinos mokymosi** tarnybos ryšio parametrus turite nurodyti saugyklos sąskaitos pavadinimą. Naudokite sąskaitą, skirtą poreikio prognozei. Poreikio prognozės įvesties ir išeigos duomenys bus saugomi šioje saugojimo sąskaitoje.
 
@@ -278,7 +278,7 @@ Norėdami nustatyti skaičiuoti išteklius "Azure Machine Learning Studio", nor�
 1. Skirtuke **Komponuoti klasterius** pasirinkite Naujas, **kad** atidarytumėte vedlį, kuris padės jums sukurti naują komponavimo klasterį. Vadovaukitės ekrane pateikiamais nurodymais. Šis klasteris bus naudojamas poreikio prognozėms generuoti. Jo parametrai daro įtaką našumui ir maksimaliam vykdymo lygiagretinimo lygiui. Nustatykite šiuos laukus, tačiau visiems kitiems laukams naudokite numatytuosius parametrus:
 
     - **Pavadinimas** – įveskite *e2ecpucluster*.
-    - **Virtualiosios mašinos dydis** – koreguokite šį parametrą pagal duomenų, kuriuos tikitės naudoti kaip įvestį poreikio prognozei atlikti, kiekį. Mazgų skaičius neturi viršyti 11, nes vienas mazgas reikalingas poreikio prognozės generavimui paleisti ir didžiausias mazgų, kurie tada bus naudojami prognozei generuoti, skaičius yra 10. (Jūs taip pat nustatote mazgų skaičių parameters.py failo [5 žingsnis: sukurti pardavimo galimybių](#create-pipelines) skyrių.) Kiekviename mazge bus keletas darbuotojų procesų, kurie lygiagrečiai paleis prognozavimo scenarijus. Bendras jūsų užduoties darbuotojų procesų skaičius bus *branduolių, kuriuos mazgas turi* × skaičius *, skaičius*. Pavyzdžiui, *jei jūsų komponuojamo klasterio tipas yra StandardD4\_* (aštuoni branduoliai) ir daugiausia 11 mazgų, `nodes_count`*o jei nustatyta 10* vertė parameters.py faile, veiksmingas lygiagretumo lygis yra 80.
+    - **Virtualiosios mašinos dydis** – koreguokite šį parametrą pagal duomenų, kuriuos tikitės naudoti kaip įvestį poreikio prognozei atlikti, kiekį. Mazgų skaičius neturi viršyti 11, nes vienas mazgas reikalingas poreikio prognozės generavimui paleisti ir didžiausias mazgų, kurie tada bus naudojami prognozei generuoti, skaičius yra 10. (Jūs taip pat nustatote mazgų skaičių parameters.py failo [5 žingsnis: sukurti pardavimo galimybių](#create-pipelines) skyrių.) Kiekviename mazge bus keletas darbuotojų procesų, kurie lygiagrečiai paleis prognozavimo scenarijus. Bendras jūsų užduoties darbuotojų procesų skaičius bus *branduolių, kuriuos mazgas turi* × skaičius *, skaičius*. Pavyzdžiui, *\_ jei jūsų komponuojamo klasterio tipas yra Standartinis D4* (aštuoni branduoliai) ir daugiausia 11 mazgų, `nodes_count`*o jei nustatyta vertė 10* parameters.py faile, veiksmingas lygiagretumo lygis yra 80.
 
 ##### <a name="step-5-create-pipelines"></a><a name="create-pipelines"></a> 5 žingsnis: pardavimo galimybių kūrimas
 

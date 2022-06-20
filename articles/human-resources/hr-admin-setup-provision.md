@@ -1,6 +1,6 @@
 ---
 title: „Human Resources“ parengimas
-description: Šioje temoje paaiškinamas procesas, kaip paruošti naują gamybos aplinką programai „Microsoft Dynamics 365 Human Resources“.
+description: Šiame straipsnyje paaiškinamas naujos "Microsoft" gamybos aplinkos parengimo procesas Dynamics 365 Human Resources.
 author: twheeloc
 ms.date: 01/07/2022
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 79747d0c5c4265315d1757352dfecef09c469dd8
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
-ms.translationtype: MT
+ms.openlocfilehash: 341b14d493c85a1e94666fa7e07b80704645e5f1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710869"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8858249"
 ---
 # <a name="provision-human-resources"></a>„Human Resources“ parengimas
 
@@ -27,13 +27,13 @@ ms.locfileid: "8710869"
 
 
 
-Šioje temoje paaiškinamas procesas, kaip paruošti naują gamybos aplinką programai „Microsoft Dynamics 365 Human Resources“. 
+Šiame straipsnyje paaiškinamas naujos "Microsoft" gamybos aplinkos parengimo procesas Dynamics 365 Human Resources. 
 
 ## <a name="prerequisites"></a>Būtinieji komponentai
 
 Prieš pradedant parengti naują gamybos aplinką, turi būti įvykdytos toliau pateikiamos būtinosios sąlygos.
 
-- Įsigijote „Human Resources“ iš debesies sprendimų teikėjo (CSP) arba pagal įmonės architektūros (EA) sutartį. Jei turite esamą „Microsoft Dynamics 365“ licenciją, kurioje jau yra „Human Resources“ paslaugos planas, ir negalite atlikti šioje temoje nurodytų veiksmų, susisiekite su palaikymo tarnyba.
+- Įsigijote „Human Resources“ iš debesies sprendimų teikėjo (CSP) arba pagal įmonės architektūros (EA) sutartį. Jei turite esamą „Microsoft Dynamics 365“ licenciją, kurioje jau yra „Human Resources“ paslaugos planas, ir negalite atlikti šiame straipsnyje nurodytų veiksmų, susisiekite su palaikymo tarnyba.
 
 - Visuotinis administratorius prisijungė prie [„Microsoft Dynamics Lifecycle Services“](https://lcs.dynamics.com) (LCS) ir sukūrė naują „Human Resources“ projektą. 
 

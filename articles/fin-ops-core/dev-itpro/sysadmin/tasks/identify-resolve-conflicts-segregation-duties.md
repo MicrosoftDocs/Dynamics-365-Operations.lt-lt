@@ -1,6 +1,6 @@
 ---
 title: Pareigų atskyrimo nesuderinamumų nustatymas ir pašalinimas
-description: Šioje temoje paaiškinama, kaip nustatyti ir pašalinti pareigų atskyrimo nesuderinamumus.
+description: Šiame straipsnyje paaiškinama, kaip nustatyti ir išspręsti nesuderinamumus pareigų atskyrimo srityje.
 author: peakerbl
 ms.date: 01/04/2021
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0638699c0e569bbe67024a87d6c55729642557cb085ee899aa98aa0022b12840
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fd36db5df2b6871d410bb1feaae825909ec9b3ff
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6748317"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883483"
 ---
 # <a name="identify-and-resolve-conflicts-in-segregation-of-duties"></a>Pareigų atskyrimo nesuderinamumų nustatymas ir pašalinimas
 
 [!include [banner](../../includes/banner.md)]
 
-Šioje temoje paaiškinama, kaip nustatyti ir pašalinti pareigų atskyrimo nesuderinamumus. Galite nustatyti taisykles, kad atskirtumėte pareigas, kurias turi atlikti skirtingi vartotojai. Ši koncepcija vadinama pareigų atskyrimu. Kai saugos vaidmens apibrėžimas arba vartotojo vaidmens priskyrimai pažeidžia taisykles, registruojamas neatitikimas. Visus neatitikimus turi išspręsti administratorius. Norėdami identifikuoti ir išspręsti neatitikimus, atlikite šią procedūrą.
+Šiame straipsnyje paaiškinama, kaip nustatyti ir išspręsti nesuderinamumus pareigų atskyrimo srityje. Galite nustatyti taisykles, kad atskirtumėte pareigas, kurias turi atlikti skirtingi vartotojai. Ši koncepcija vadinama pareigų atskyrimu. Kai saugos vaidmens apibrėžimas arba vartotojo vaidmens priskyrimai pažeidžia taisykles, registruojamas neatitikimas. Visus neatitikimus turi išspręsti administratorius. Norėdami identifikuoti ir išspręsti neatitikimus, atlikite šią procedūrą.
 
 Pridėję taisyklę patikrinkite, ar visi esami vaidmenys yra suderinami. 
 

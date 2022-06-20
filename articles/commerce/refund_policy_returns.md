@@ -1,6 +1,6 @@
 ---
-title: Kanalo grąžinimo politikos kūrimas ir atnaujinimas
-description: Šioje temoje pateikiama informacija apie tai, kaip sukonfigūruoti kanalo grąžinimo politiką.
+title: Kanalo prekių ir pinigų grąžinimų strategijos kūrimas ir naujinimas
+description: Šiame straipsnyje paaiškinama, kaip nustatyti kanalo grąžinimo ir grąžinimo strategiją.
 author: ShalabhjainMSFT
 ms.date: 07/13/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: rapraj
 ms.search.validFrom: 2020-01-21
 ms.dyn365.ops.version: Retail 10.0.9 update
-ms.openlocfilehash: 4346f9eefa04688c80ce2512a7972bfd4627942c
-ms.sourcegitcommit: 53fad4d4b5fb67aa75550956ec205f456a5be01d
+ms.openlocfilehash: 54dd19134aea68f73de51086fbaa096961447b62
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/17/2021
-ms.locfileid: "7388938"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873309"
 ---
 # <a name="create-and-update-a-returns-and-refunds-policy-for-a-channel"></a>Kanalo prekių ir pinigų grąžinimų strategijos kūrimas ir naujinimas
 
@@ -27,7 +27,7 @@ ms.locfileid: "7388938"
 
 Kanalo grąžinimo politika, esanti „Dynamics 365 Commerce“, suteikia galimybę mažmenininkams nustatyti vykdymo principus, pagal kuriuos gali būti leidžiama priimti grąžinimus elektroninio kasos aparato (EKA) įrenginyje.  
 
-Šioje temoje aprašomi kanalo grąžinimo politikos sukonfigūravimo veiksmai.
+Šiame straipsnyje aprašomi kanalo grąžinimo ir grąžinimo strategijos nustatyti veiksmai.
 
 Politikos taikymo sritis šiuo metu apsiriboja mokėjimo būdų, kurias galima leisti kanalui, nustatymu. „Leidžiamų“ mokėjimo būdų sąrašas yra pagrįstas mokėjimo būdais, naudojamais įsigyjant prekes. Pavyzdys:
 

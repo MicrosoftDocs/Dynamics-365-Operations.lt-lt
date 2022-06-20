@@ -1,6 +1,6 @@
 ---
 title: Mobiliųjų įrenginių nustatymas darbui sandėlyje
-description: Šioje temoje aprašoma, kaip konfigūruoti meniu elementus, kuriuos sandėlio darbuotojai naudoja dirbdami mobiliuoju įrenginiu.
+description: Šiame straipsnyje aprašoma, kaip konfigūruoti meniu elementus, kuriuos sandėlio darbuotojai naudoja dirbdami mobiliuoju įrenginiu.
 author: Mirzaab
 ms.date: 03/23/2020
 ms.topic: article
@@ -15,21 +15,21 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d9e0f27839d9e6330cc8a11874a5cb1786daf8dc
-ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
+ms.openlocfilehash: efbf9072c3bbcb20f38e144f9a15d8178d96d708
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7902184"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8905579"
 ---
 # <a name="set-up-mobile-devices-for-warehouse-work"></a>Mobiliųjų įrenginių nustatymas darbui sandėlyje
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje aprašoma, kaip konfigūruoti meniu elementus, kuriuos sandėlio darbuotojai naudoja dirbdami mobiliuoju įrenginiu.
+Šiame straipsnyje aprašoma, kaip konfigūruoti meniu elementus, kuriuos sandėlio darbuotojai naudoja dirbdami mobiliuoju įrenginiu.
 
 > [!NOTE]
-> Ši tema taikoma sandėlio valdymo funkcijoms. Jis netaikomas atsargų valdymo funkcijoms. Sandėlio mobiliojo įrenginio meniu rodomi meniu elementai yra sukonfigūruoti puslapyje **Mobiliojo įrenginio meniu elementai**. Kadangi meniu elementus galima įtraukti į skirtingus meniu, lengva sukonfigūruoti meniu struktūras, kad tam tikri vartotojai susidurtų tik su konkrečių tipų darbais. Galite konfigūruoti meniu elementus norėdami atlikti šias užduotis:
+> Šis straipsnis taikomas sandėlio valdymo funkcijoms. Jis netaikomas atsargų valdymo funkcijoms. Sandėlio mobiliojo įrenginio meniu rodomi meniu elementai yra sukonfigūruoti puslapyje **Mobiliojo įrenginio meniu elementai**. Kadangi meniu elementus galima įtraukti į skirtingus meniu, lengva sukonfigūruoti meniu struktūras, kad tam tikri vartotojai susidurtų tik su konkrečių tipų darbais. Galite konfigūruoti meniu elementus norėdami atlikti šias užduotis:
 
 - Apdoroti užklausą arba vykdyti veiklą, pvz., spausdinti žymę, generuoti numerių lenteles, paleisti gamybos užsakymą arba greitai peržvelgti informaciją apie vietoje esančias prekes.
 - Kurti darbą, kuris bus atliekamas kitame procese. Pavyzdžiui, pirkimo užsakymo prekės gavimas gali sukurti atidėjimo darbą kitam darbuotojui.
@@ -38,7 +38,7 @@ ms.locfileid: "7902184"
 Norėdami kurti veiklos ar užklausos meniu elementą, nustatykite lauko **Režimas** vertę į **Netiesioginis**. Tada tampa galimas parinkčių **Veiklos kodas** sąrašas, kad galėtumėte pasirinkti užklausą arba veiklą, kuriai skirtas meniu elementas. Norėdami sukurti meniu elementą sandėlio darbui generuoti, nustatykite lauko **Režimas** vertę į **Darbas**. Taps galimas parinkčių **Darbo kūrimo procesas** sąrašas. Norėdami sukurti meniu elementą siekiant apdoroti esamą sandėlio darbą, nustatykite lauko **Režimas** vertę į **Darbas**, tada nustatykite parinkties **Naudoti esamą darbą** vertę **Taip**. 
 
 > [!NOTE]
-> Gali būti galimi papildomi meniu elementų laukai, atsižvelgiant į pasirinktą meniu elementą ir tai, ar meniu elementas naudojamas norint atlikti esamą darbą. Informacijos apie papildomų laukų pasirinktis žr. šios temos skyriuje „Papildomos meniu elementų parinktys“.
+> Gali būti galimi papildomi meniu elementų laukai, atsižvelgiant į pasirinktą meniu elementą ir tai, ar meniu elementas naudojamas norint atlikti esamą darbą. Informacijos apie papildomų laukų pasirinktis žr. šio straipsnio skyriuje „Papildomos meniu elementų parinktys“.
 
 ## <a name="configure-menu-items-for-activities-and-inquiries"></a>Veiklų ir užklausų meniu elementų konfigūravimas
 

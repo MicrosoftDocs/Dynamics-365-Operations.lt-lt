@@ -1,6 +1,6 @@
 ---
-title: Konfigūruokite pasirinktas savybes „Dynamics 365 Commerce“ vertinimo aplinkoje
-description: Šiame skyriuje paaiškinama, kaip sukonfigūruoti pasirenkamas funkcija „Microsoft Dynamics 365 Commerce“ vertinimo aplinkoje.
+title: Pasirinktinių „Dynamics 365 Commerce” vertinimo aplinkos funkcijų konfigūravimas
+description: Šiame straipsnyje paaiškinama, kaip konfigūruoti pasirinktines vertinimo aplinkos Microsoft Dynamics 365 Commerce funkcijas.
 author: psimolin
 ms.date: 07/16/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 2f4e93b7ece7652b72ae2067be4de73f45a8261ada1b0bc731e2bd2147dcccc6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: MT
+ms.openlocfilehash: 39d4784e21c4fb42ca218d507616d49eff309ee1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6728296"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861919"
 ---
 # <a name="configure-optional-features-for-a-dynamics-365-commerce-evaluation-environment"></a>Pasirinktinių „Dynamics 365 Commerce” vertinimo aplinkos funkcijų konfigūravimas
 
 [!include [banner](includes/banner.md)]
 
-Šiame skyriuje paaiškinama, kaip sukonfigūruoti pasirenkamas funkcija „Microsoft Dynamics 365 Commerce“ vertinimo aplinkoje.
+Šiame straipsnyje paaiškinama, kaip konfigūruoti pasirinktines vertinimo aplinkos Microsoft Dynamics 365 Commerce funkcijas.
 
 ## <a name="prerequisites"></a>Būtinieji komponentai
 
@@ -108,7 +108,7 @@ Galbūt norėsite el. laiškų šablonus tinkinti, kad juose būtų naudojami sk
     - Paketo užsakymo šablonas
     - Paėmimo užsakymo šablonas
 
-1. Tinkinkite šablonus naudodami teksto arba HTML rengyklę. [Palaikomų atpažinimo ženklų](#supported-tokens-in-the-email-template) sąrašą rasite tolesnėje šios temos dalyje.
+1. Tinkinkite šablonus naudodami teksto arba HTML rengyklę. Vėliau šiame straipsnyje peržiūrėkite [palaikomų](#supported-tokens-in-the-email-template) atpažinimo ženklų sąrašą.
 1. Prisijunkite prie „Commerce“.
 1. Naudodami kairėje esantį meniu, nueikite į **Moduliai \> Organizacijos administravimas \> Sąranka \> Organizacijos el. laiškų šablonai**.
 1. Išskleiskite sąrašą kairėje, kad pamatytumėte visus šablonus.

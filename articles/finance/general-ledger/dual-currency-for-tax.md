@@ -1,6 +1,6 @@
 ---
 title: Dviejų valiutų palaikymas mokesčiuose
-description: Šioje temoje paaiškinama, kaip išplėsti dviejų valiutų apskaitos funkciją mokesčių srityje, ir nurodoma, koks gali būti poveikis mokesčiams apskaičiuoti ir registruoti
+description: Šiame straipsnyje paaiškinama, kaip išplėsti dvigubos valiutos apskaitos priemonę mokesčių domene ir kaip veikia mokesčių skaičiavimas ir registravimas
 author: EricWang
 ms.date: 12/11/2020
 ms.topic: article
@@ -15,17 +15,17 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2020-01-14
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: fcd5a3afb442d9c85aba12b7782cf09f88f0e51a
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 13d70d964a83c2efba090244d549bdb38ad25af2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713050"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909046"
 ---
 # <a name="dual-currency-support-for-sales-tax"></a>PVM dviejų valiutų palaikymas
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje paaiškinama, kaip išplėsti dviejų valiutų apskaitos funkciją PVM srityje, ir nurodoma, koks gali būti poveikis PVM apskaičiuoti, registruoti ir sudengti.
+Šiame straipsnyje paaiškinama, kaip išplėsti dvigubos valiutos PVM apskaitą ir PVM skaičiavimų, registravimo ir sudengimų poveikį.
 
 "Dynamics 365 Finance" dvigubos valiutos priemonė įdiegta versijoje 8.1 (2018 m. spalio mėn.). Ji pakeitė, kaip apskaičiuojami apskaitos įrašai ataskaitų valiuta.
 
@@ -89,7 +89,7 @@ Mokesčio suma = 100 EUR
 
 Kad būtų užkirstas kelias ankstesniam scenarijui, rekomenduojame pakeisti šią parametro vertę nauju (švariu) mokesčių sudengimo laikotarpiu, kuriame nėra nesudengtų mokesčių operacijų. Norėdami pakeisti šią vertę mokesčių sudengimo laikotarpio viduryje, prieš keisdami šio parametro reikšmę vykdykite dabartinio mokesčių sudengimo laikotarpio programą Sudengti ir registruoti PVM.
 
-Ši funkcija įtrauks apskaitos įrašus, kurie paaiškina pelną ir nuostolius, patirtus keičiant valiutas. Įrašai bus įvesti patirto valiutos koregavimo pelno ir nuostolio sąskaitose, kai PVM sudengimo metu atliekamas perkainojimas. Daugiau informacijos rasite skyriuje [Mokesčių sudengimas pagal automatinį balansą ataskaitų valiuta](#tax-settlement-auto-balance-in-reporting-currency), esančiame toliau šioje temoje.
+Ši funkcija įtrauks apskaitos įrašus, kurie paaiškina pelną ir nuostolius, patirtus keičiant valiutas. Įrašai bus įvesti patirto valiutos koregavimo pelno ir nuostolio sąskaitose, kai PVM sudengimo metu atliekamas perkainojimas. Norėdami gauti daugiau informacijos, toliau šiame [straipsnyje skyriuje Mokesčių sudengimas pagal](#tax-settlement-auto-balance-in-reporting-currency) automatinį balansą ataskaitų valiuta žr.
 
 > [!NOTE]
 > Sudengimo metu informacija apie finansines dimensijas yra paimama iš PVM sąskaitų, kurios yra balanso sąskaitos, ir įvedama į valiutos koregavimo pelno ir nuostolio sąskaitas, kurios yra pelno ir nuostolio išrašo sąskaitos. Kadangi finansinių dimensijų vertės apribojimai skiriasi balanso sąskaitose bei pelno ir nuostolio išrašo sąskaitose, PVM sudengimo ir užregistravimo proceso metu gali įvykti klaida. Kad nereikėtų modifikuoti sąskaitos struktūrų, galite įjungti funkciją „Automatiškai įvesti finansines dimensijas į patirto valiutos koregavimo pelno/nuostolio sąskaitas, skirtas PVM sudengimui”. Ši funkcija sąlygos finansinių dimensijų išvedimą į valiutos koregavimo pelno/nuostolio sąskaitas. 

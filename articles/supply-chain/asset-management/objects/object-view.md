@@ -1,6 +1,6 @@
 ---
 title: Turto rodinys
-description: Šioje temoje aprašomas turto rodinys Turto valdyme.
+description: Šiame straipsnyje aprašomas turto rodinys turto valdymo modulyje.
 author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4265928fc5cb899a77eee6e5b9ff0a928efbe99c99ec7fe31eecffcb0f98f752
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: MT
+ms.openlocfilehash: a416dbea0bab8f6a506ae5cfbfc4feeae8edfe29
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6765543"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8882727"
 ---
 # <a name="asset-view"></a>Turto rodinys
 
@@ -28,7 +28,7 @@ ms.locfileid: "6765543"
 
  
 
-Šioje temoje aprašoma „“ paskirstytų užsakymų tvarkymo (DOM) funkcija. Puslapyje **Turto rodinys** rodomas aktyvusis turtas ir funkcinės vietos medžio rodinyje. Todėl galite lengvai gauti turto ryšių su funkcinėmis vietomis apžvalgą. Be to, galite peržiūrėti išsamią informaciją apie funkcines vietas, turtą ir susijusias komplektavimo specifikacijas (KS). Taip pat galite greitai peržiūrėti aktyviąsias priežiūros užklausas ir darbo užsakymus, susijusius su turtu.
+Šiame straipsnyje aprašomas turto rodinys turto valdymo modulyje. Puslapyje **Turto rodinys** rodomas aktyvusis turtas ir funkcinės vietos medžio rodinyje. Todėl galite lengvai gauti turto ryšių su funkcinėmis vietomis apžvalgą. Be to, galite peržiūrėti išsamią informaciją apie funkcines vietas, turtą ir susijusias komplektavimo specifikacijas (KS). Taip pat galite greitai peržiūrėti aktyviąsias priežiūros užklausas ir darbo užsakymus, susijusius su turtu.
 
 1. Pasirinkite **Turto valdymas** \> **Bendra** \> **Turtas** \> **Turto rodinys**.
 2. Norėdami pakeisti puslapyje rodomą rodinį, lauke **Rodinys** pasirinkite naują reikšmę.

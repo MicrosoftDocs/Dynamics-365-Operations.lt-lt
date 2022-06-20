@@ -1,6 +1,6 @@
 ---
 title: Darbas su funkcijų nustatymais
-description: Šioje temoje paaiškinama, kaip nustatyti elektroninių SF išrašymo priemones.
+description: Šiame straipsnyje paaiškinama, kaip nustatyti elektroninių SF išrašymo priemones.
 author: dkalyuzh
 ms.date: 12/15/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dkalyuzh
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 41ffc9c7009291a55392e50c5e490d3288d122bc
-ms.sourcegitcommit: ffdb6794746ffe5461f9dcf34ed8e64976d22d2d
+ms.openlocfilehash: 23466a53bb8ba597503aaa12d41395fc82b9f14e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "8371924"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904331"
 ---
 # <a name="work-with-feature-setups"></a>Darbas su funkcijų nustatymais
 
@@ -46,7 +46,7 @@ Galite sukurti tiek priemonių nustatymo elementų, kiek jums reikia norint nust
 6. Jei paskutiniame **veiksme** pasirinkote pasirinktinę nustatymo pasirinktį, įveskite priemonės nustatymo elemento pavadinimą ir aprašymą, **tada** nustatymo tipo laukų grupėje pasirinkite vieną iš šių pasirinkčių:
 
     - **Apdorojamos pardavimo** galimybės – pasirinkite šią pasirinktį, norėdami generuoti ir apdoroti siunčiamus elektroninius dokumentus. Sistema sukuria tuščią šio nustatymo tipo pardavimo galimybių sąrašo apdorojimą, tuščią skyrių taikymo taisyklėms ir numatytąjį kintamųjų rinkinį. Negalėsite dirbti su gaunamų elektroninių dokumentų kanalais.
-    - **Duomenų kanalas** – pasirinkite šią pasirinktį, norėdami nustatyti gaunamų elektroninių dokumentų gavimo iš vieno iš apibrėžtų kanalų procesą ir perduoti juos tiesiogiai į Microsoft arba Dynamics 365 Finance Dynamics 365 Supply Chain Management be papildomų veiksmų. Šiuo sąrankos tipu sistema sukuria iš anksto nustatytą duomenų kanalų parametrų sąrašą, tuščią pritaikymo taisyklių skyrių ir numatytųjų kintamųjų rinkinį. Į apdorojimo pardavimo galimybes negalėsite įtraukti jokių veiksmų.
+    - **Duomenų kanalas** – Microsoft Dynamics pasirinkite šią pasirinktį, norėdami nustatyti gaunamų elektroninių dokumentų gavimo iš vieno iš apibrėžtų kanalų procesą ir perduoti juos tiesiogiai į 365 finansus Dynamics 365 Supply Chain Management arba be papildomų veiksmų. Šiuo sąrankos tipu sistema sukuria iš anksto nustatytą duomenų kanalų parametrų sąrašą, tuščią pritaikymo taisyklių skyrių ir numatytųjų kintamųjų rinkinį. Į apdorojimo pardavimo galimybes negalėsite įtraukti jokių veiksmų.
     - **Duomenų kanalas ir apdorojimo pardavimo** galimybės – šis nustatymo tipas panašus į duomenų **kanalo** nustatymo tipą. Tačiau prieš perduodami finansų arba tiekimo grandinės valdymui elektroninį dokumentą, galite nustatyti papildomus veiksmus apdorojimo pardavimo galimybėse.
 
 7. Jei paskutiniame veiksme **pasirinkote** **duomenų** kanalą arba duomenų kanalą ir apdorojimo pardavimo galimybių parinktį, **lauke** Pasirinkti duomenų kanalą turite pasirinkti kanalą, su kurį bus integruojama.

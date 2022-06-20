@@ -1,6 +1,6 @@
 ---
 title: Skambučių centro kanalų nustatymas
-description: Šioje temoje pateikiama informacija apie tai, kaip apdoroti skambučių centrų užsakymus naudojant „Dynamics 365 Commerce“.
+description: Šiame straipsnyje pateikiama informacija apie tai, kaip apdoroti skambučių centrų užsakymus naudojant Dynamics 365 Commerce.
 author: josaw1
 ms.date: 02/04/2022
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 64669c5bf71a4f1673f5ad2c46db7d3a2eaf2a97
-ms.sourcegitcommit: 39f1455215e0363cd1449bbc6bdff489097f9ded
+ms.openlocfilehash: c6d21385d956534c799af5b9e20a54c9970da368
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/04/2022
-ms.locfileid: "8092437"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854876"
 ---
 # <a name="set-up-call-center-channels"></a>Skambučių centro kanalų nustatymas
 
@@ -58,7 +58,7 @@ Be to, jei įjungtas nustatymas **Įgalinti užsakymo baigimą**, darbuotojams s
 Net jei nustatymas **Įgalinti užsakymo baigimą** išjungtas, vartotojai vis tiek gali taikyti šaltinio kodą pardavimo užsakymui. Tačiau, norėdami įjungti lauką **Šaltinis**, pirmiausia jie turi atidaryti pardavimo užsakymo antraštės informaciją. Kitaip tariant, reikia atlikti keletą papildomų spustelėjimų. Ta pati elgsena taikoma naudojantis, pavyzdžiui, siuntimo baigimo ir pagreitintų užsakymų funkcijomis. Šios funkcijos taikomos visiems skambučių centre sukurtiems užsakymams. Tačiau kai įjungtas nustatymas **Įgalinti užsakymo baigimą**, vartotojai gali matyti šių funkcijų konfigūraciją pardavimo antraštėje įjungę eilutės įrašo rodinį. Norėdami rasti tinkamus nustatymus ir laukus, jie neturi gilintis į pardavimo užsakymo antraštėje nurodomas detales.
 
 > [!NOTE]
-> Kai **Daugiakanalio komercijos užsakymų apmokėjimas** funkcija įjungta, skambučių centras **Įgalinti užsakymo užbaigimą** mygtukas bus paslėptas būstinėje **Generolas** Jūsų kanalo greitasis skirtukas adresu **Mažmeninė prekyba ir prekyba \> Kanalai \> Skambučių centrai**.
+> Kai yra **įgalinta Finansų kanalo "Commerce"** užsakymų mokėjimų funkcija, **skambučių** centro įgalinti užsakymo baigimo mygtuką bus paslėptas pardavimo ir komercijos **kanalų** skambučių centro bendrojo "FastTab **\>\>".**
 
 ### <a name="enable-direct-selling"></a>Įgalinti tiesioginį pardavimą
 
@@ -77,7 +77,7 @@ Nurodžius skambučių centro kanalą to kanalo vartotojus būtina susieti su sk
 Pagal numatytuosius nustatymus įjungta visų to skambučių centro vartotojų sukurtų pardavimo užsakymų antraščių žymė **Pardavimas**. Tada pateikiant užsakymus galima pasinaudoti sistemos prekybai būdingos kainos ir nuolaidos funkcijomis.
 
 
-Su skambučių centro kanalu nesusieti vartotojai naudojasi standartinėmis „Microsoft“ „Dynamics 365 Finance“ užsakymo įvedimo funkcijomis. Šių vartotojų pildant pardavimo užsakymo įvedimo formą įvestų užsakymų sistema nepripažįsta kaip „Commerce” užsakymų. Be to, šiems šių vartotojų įvestiems užsakymams netaikomos jokios baigto užsakymo apdorojimo taisyklės, kainų logika ar kiti atliekant skambučių centro kanalo konfigūraciją arba nurodant skambučių centro sistemos parametrus galimi taikyti kriterijai.
+Vartotojai, kurie nėra susieti su skambučių centro kanalu, naudoja standartines užsakymo įrašo funkcijas iš Microsoft Dynamics 365 finansų. Šių vartotojų pildant pardavimo užsakymo įvedimo formą įvestų užsakymų sistema nepripažįsta kaip „Commerce” užsakymų. Be to, šiems šių vartotojų įvestiems užsakymams netaikomos jokios baigto užsakymo apdorojimo taisyklės, kainų logika ar kiti atliekant skambučių centro kanalo konfigūraciją arba nurodant skambučių centro sistemos parametrus galimi taikyti kriterijai.
 
 Baigę konfigūruoti skambučių centro kanalą ir nurodę kanalo vartotojus, siekdami užtikrinti reikiamą sistemos elgseną, įsitikinkite, kad srityje **Mažmeninė prekyba ir prekyba** \> **Kanalo sąranka** \> **Skambučių centro sąranka** \> **Skambučių centro parametrai** nurodyti visi reikiami skambučių centro parametrai. Įsitikinkite, kad būtų nurodomos ir susijusios numeracijos.
 

@@ -1,6 +1,6 @@
 ---
 title: Apvalinimo taisyklių nustatymas
-description: Šis straipsnis aprašo, kaip galite atitikti savo organizacijos poreikius, programoje „Dynamics 365 Human Resources“ galite nustatyti apvalinimo taisykles.
+description: Šiame straipsnyje aprašoma, kaip nustatyti apvalinimo taisykles, kad Dynamics 365 Human Resources jos atitiktų jūsų organizacijos poreikius.
 author: twheeloc
 ms.date: 08/25/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 31070d498499a380d91f681f8a8e78342f9a2120
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 76d53e6a306a930eb6a99de69cc0eac7964e299a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8696102"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861137"
 ---
 # <a name="set-up-rounding-rules"></a>Apvalinimo taisyklių nustatymas
 

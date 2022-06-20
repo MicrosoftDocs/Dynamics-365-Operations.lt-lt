@@ -1,6 +1,6 @@
 ---
 title: Užduoties įrašų saugos diagnostika
-description: Šioje temoje pateikiama informacija apie tai, kaip analizuoti ir valdyti saugos teisių reikalavimus, paremtus užduoties įrašu.
+description: Šiame straipsnyje pateikiama informacija apie tai, kaip analizuoti ir tvarkyti saugos teisių reikalavimus, remiantis užduoties įrašu.
 author: Peakerbl
 ms.date: 05/05/2020
 ms.topic: business-process
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: ''
 ms.dyn365.ops.version: Version 10.0.9
-ms.openlocfilehash: 44af35f16f6e9ff89b30bc10eef3f16ecdfaf907c4c6e22aa5775d1941fb6a5d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cb69bf997100f25cd0ad2b7e34139857199e5d00
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6745125"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880173"
 ---
 # <a name="security-diagnostics-for-task-recordings"></a>Užduoties įrašų saugos diagnostika
 
@@ -26,7 +26,7 @@ ms.locfileid: "6745125"
 
 ## <a name="before-you-begin"></a>Prieš pradedant
 
-Šioje temoje pateikiama informacija apie tai, kaip analizuoti ir valdyti saugos teisių reikalavimus, paremtus užduoties įrašu. Prieš atlikdami šioje temoje aprašytus veiksmus, turite turėti verslo proceso, kurį norite analizuoti, užduoties įrašą. Norėdami įrašyti verslo procesą, žr. [Užduočių įrašymo priemonės ištekliai](../../user-interface/task-recorder.md). 
+Šiame straipsnyje pateikiama informacija apie tai, kaip analizuoti ir tvarkyti saugos teisių reikalavimus, remiantis užduoties įrašu. Prieš pradėdami šiame straipsnyje nurodytus veiksmus, turite turėti verslo proceso, kurį norite analizuoti, užduoties įrašymą. Norėdami įrašyti verslo procesą, žr. [Užduočių įrašymo priemonės ištekliai](../../user-interface/task-recorder.md). 
 
 ## <a name="manage-security-for-a-task-recording"></a>Užduoties įrašo saugos valdymas
 

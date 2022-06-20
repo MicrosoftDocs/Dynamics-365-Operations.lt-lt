@@ -1,6 +1,6 @@
 ---
 title: Skalės vienetai paskirstytoje topologijoje
-description: Šioje temoje pateikiama informacija apie debesies ir briaunos skalės vienetų gamybos ir sandėlio valdymo darbo krūvius.
+description: Šiame straipsnyje pateikta informacija apie debesies ir kraštų skalės vienetus, siekiant sukurti ir sandėlio valdymo darbo krūvius.
 author: Mirzaab
 ms.date: 04/22/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-04-13
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 5ec846b294cd9ca62ff15a5306e012813c77e306
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 6b53822238220ccfcf538d49285e051c49c57189
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8676357"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893677"
 ---
 # <a name="scale-units-in-a-distributed-hybrid-topology"></a>Skalės vienetai paskirstytoje topologijoje
 
@@ -25,7 +25,7 @@ ms.locfileid: "8676357"
 > [!IMPORTANT]
 > „Microsoft Dynamics 365 Supply Chain Management” skalės vieneto pajėgumas dabar jums prieinamas pagal sąlygas, prižiūrinčias paslaugos naudojimą. Daugiau informacijos rasite [„Microsoft Dynamics“ teisinė informacija](https://go.microsoft.com/fwlink/?LinkID=290927).
 >
-> Kai įgalinsite debesies ir briaunos skalės vienetus, būsite paprašyti patvirtinti, kad suprantate, jog kai kurie duomenys yra susieti su konfigūravimu ir debesies ir briaunos skalės vienetų, kurie gali būti laikomi Jungtinėse Valstijose esančiame duomenų centre, konfigūravimu ir apdorojimu. Norėdami sužinoti daugiau apie debesies ir briaunos skalės vienetų duomenų apdorojimą, skaitykite skyriuje [Duomenų apdorojimą skalės vienetų valdymo metu](#data-processing-management), pateiktame toliau šioje temoje.
+> Kai įgalinsite debesies ir briaunos skalės vienetus, būsite paprašyti patvirtinti, kad suprantate, jog kai kurie duomenys yra susieti su konfigūravimu ir debesies ir briaunos skalės vienetų, kurie gali būti laikomi Jungtinėse Valstijose esančiame duomenų centre, konfigūravimu ir apdorojimu. Norėdami daugiau sužinoti apie debesies ir briaunos skalės vienetų duomenų apdorojimą, [žr](#data-processing-management). duomenų apdorojimą skalės vienetų valdymo metu, toliau šiame straipsnyje.
 
 ## <a name="core-value-proposition-for-a-distributed-hybrid-topology"></a>Paskirstytos topologijos pagrindinės vertės pasiūlymas
 
@@ -48,7 +48,7 @@ Skalės vienetai suteikia atsparumą, patikimumą ir skalę paskirtiems darbo kr
 
 *Darbo krūvis* yra nustatytas verslo funkcijų rinkinys, kuris gali veikti su faktoriais ir būti priskirtas skalės vienetui. Nors sandėlio valdymo darbo krūvis yra išleistas, gamybos vykdymo darbo krūvis vis dar peržiūrimas.
 
-Galite konfigūruoti savo telkinio aplinką ir pasirinktų darbo krūvių debesies skalės vienetus naudodami [Skalės vieneto valdymo portalą](https://sum.dynamics.com). Taip pat galite priskirti kelis darbo krūvius vienam skalės vienetui. Informacijos apie dabartinio leidimo debesies skalės vienetų būtinuosius komponentus ir apribojimus rasite skyriuje [Debesies skalės vienetų būtinieji komponentai ir apribojimai](#cloud-scale-unit-prerequisites), esančiame toliau šioje temoje.
+Galite konfigūruoti savo telkinio aplinką ir pasirinktų darbo krūvių debesies skalės vienetus naudodami [Skalės vieneto valdymo portalą](https://sum.dynamics.com). Taip pat galite priskirti kelis darbo krūvius vienam skalės vienetui. Informacijos apie šio leidimo debesies skalės [vienetų būtinuosius komponentus ir apribojimus žr. toliau šiame straipsnyje skyriuje Debesies skalės](#cloud-scale-unit-prerequisites) vienetų būtinosios sąlygos ir apribojimai.
 
 ### <a name="dedicated-warehouse-management-workload-capabilities-in-a-scale-unit"></a>Priskirto sandėlio valdymo darbo krūvio pajėgumai skalės vienete
 

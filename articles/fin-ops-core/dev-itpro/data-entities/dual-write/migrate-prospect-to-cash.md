@@ -1,6 +1,6 @@
 ---
 title: Perkelti Potencialus klientas į grynuosius pinigus duomenis iš duomenų integratoriaus į dvigubą rašymą
-description: Šioje temoje aprašoma, kaip perkelti Potencialus klientas į grynuosius pinigus duomenis iš duomenų integratoriaus į dvigubą rašymą.
+description: Šiame straipsnyje aprašoma, kaip perkelti potencialų klientą į grynųjų pinigų duomenis iš duomenų integratoriaus į dvigubo rašymo.
 author: RamaKrishnamoorthy
 ms.date: 02/01/2022
 ms.topic: article
@@ -9,30 +9,30 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-26
-ms.openlocfilehash: 82bfb768b0ecac04184f4b806527346d39584d64
-ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
+ms.openlocfilehash: 8e5c11e535bd61e9955a4abf1491e88991ee40f1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "8087273"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894272"
 ---
 # <a name="migrate-prospect-to-cash-data-from-data-integrator-to-dual-write"></a>Perkelti Potencialus klientas į grynuosius pinigus duomenis iš duomenų integratoriaus į dvigubą rašymą
 
 [!include [banner](../../includes/banner.md)]
 
-„Prospect to cash“ sprendimas, skirtas „Data Integrator“, nesuderinamas su dvigubu rašymu. To priežastis yra sąskaitos lentelės indeksas msdynce_AccountNumber, kuris buvo pateiktas kaip „Prospect to cash“ sprendimo dalis. Jei šis indeksas yra, negalite sukurti to paties kliento sąskaitos numerio dviejuose skirtinguose juridiniuose subjektuose. Galite pasirinkti iš naujo pradėti nuo dvigubo rašymo, perkeldami potencialųjį klientą į grynųjų pinigų duomenis iš duomenų integratoriaus į dvigubą rašymą, arba galite įdiegti paskutinę „neaktyvią“ „Prospect“ į grynųjų pinigų sprendimo versiją. Ši tema apima abu šiuos metodus.
+Galimas duomenų integratoriaus potencialus kliento grynųjų pinigų sprendimas nesuderinamas su dvigubo rašymo programa. To priežastis yra tas msdynce_AccountNumber lentelės, kurią gavote kaip potencialaus kliento į grynųjų pinigų sprendimą dalis, indeksas. Jei yra šis indeksas, to paties kliento sąskaitos numerio negalima sukurti dviejuose skirtinguose juridiniuose subjektuose. Galite pasirinkti pradėti naują su dvigubo rašymo būdu, pereidami potencialų klientą į grynųjų pinigų duomenis iš duomenų integratoriaus į dvigubo rašymo įrašą, arba galite įdiegti paskutinę potencialaus kliento "dorman" versiją į grynųjų pinigų sprendimą. Šiame straipsnyje aprašomas abu šie būdai.
 
-## <a name="install-the-last-dorman-version-of-the-data-integrator-prospect-to-cash-solution"></a>Įdiekite paskutinę „neaktyvią“ „Data Integrator Prospect“ į grynųjų pinigų sprendimą versiją
+## <a name="install-the-last-dorman-version-of-the-data-integrator-prospect-to-cash-solution"></a>Įdiegti paskutinę Duomenų integratoriaus potencialaus kliento versiją į grynųjų pinigų sprendimą
 
-**P2C versija 15.0.0.2** yra laikoma paskutine „neaktyvia“ duomenų integratoriaus „Prospect to cash“ sprendimo versija. Jį galite atsisiųsti iš [FastTrack for Dynamics 365](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Dual-write/P2C).
+**P2C 15.0.0.2** yra laikoma paskutine duomenų integratoriaus potencialaus kliento į grynųjų pinigų sprendimą "dorman" versija. Galite atsisiųsti jį iš [FastTrack for Dynamics 365](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Dual-write/P2C).
 
-Turite jį įdiegti rankiniu būdu. Po įdiegimo viskas išlieka lygiai taip pat, išskyrus msdynce_AccountNumber indeksą, kuris pašalinamas.
+Turite jį įdiegti rankiniu būdu. Įdiegus viskas lieka lygiai taip pat, išskyrus msdynce_AccountNumber indeksas pašalinamas.
 
-## <a name="steps-to-migrate-prospect-to-cash-data-from-data-integrator-to-dual-write"></a>Veiksmai, kaip perkelti „Prospect“ į grynųjų pinigų duomenis iš „Data Integrator“ į dvigubą rašymą
+## <a name="steps-to-migrate-prospect-to-cash-data-from-data-integrator-to-dual-write"></a>Veiksmai, norint perkelti potencialų klientą į grynųjų pinigų duomenis iš duomenų integratoriaus į dvigubo rašymo
 
 Norėdami perkelti Potencialus klientas į grynuosius pinigus duomenis iš duomenų integratoriaus į dvigubą rašymą, atlikite šiuos veiksmus.
 
-1. Paleiskite Potencialus klientas į grynuosius pinigus duomenis integratoriaus užduotis vienam pilnam sinchronizavimui atlikti. Tokiu būdu užtikrinate, kad abi sistemos (programėlės „Finance and Operations“ ir „klientų įtraukimo programos“) turėtų visus duomenis.
+1. Paleiskite Potencialus klientas į grynuosius pinigus duomenis integratoriaus užduotis vienam pilnam sinchronizavimui atlikti. Tokiu būdu užtikrinate, kad tiek sistemose (finansų, tiek operacijų programėles ir klientų įsipareigojimo programėles) bus visi duomenys.
 2. Norėdami išvengti galimo duomenų praradimo, eksportuokite Potencialus klientas į grynuosius pinigus duomenis iš „Microsoft Dynamics 365 Sales” į „Excel” failą arba kableliais atskirtų verčių (CSV) failą. Eksportuokite duomenis iš šių objektų:
 
     - [Paskyra](#account-table)
@@ -47,25 +47,25 @@ Norėdami perkelti Potencialus klientas į grynuosius pinigus duomenis iš duome
 
 3. Pašalinkite Potencialus klientas į grynuosius pinigus sprendimą iš „Sales” aplinkos. Šiuo veiksmu pašalinami stulpeliai ir atitinkami duomenys, kuriuos pateikė sprendimas Potencialus klientas į grynuosius pinigus.
 4. Įdiekite dvigubo rašymo sprendimą.
-5. Sukurkite dvigubo rašymo ryšį tarp programos „Finance and Operations“ ir klientų įtraukimo programos vienam ar keliems juridiniams asmenims.
+5. Kurkite dvigubo rašymo ryšį tarp finansų ir operacijų programos ir klientų įsipareigojimo programos vienam ar daugiau juridinių subjektų.
 6. Įgalinkite dvigubo rašymo lentelės schemas ir paleiskite pradinį reikalingų nuorodos duomenų sinchronizavimą. (Daugiau informacijos žiūrėkite [Pradinio sinchronizavimo svarstymai](initial-sync-guidance.md).) Reikalingų duomenų pavyzdžiai apima klientų grupės, mokėjimo sąlygas ir grafikus. Neįgalinkite dvigubo rašymo schemų lentelėms, kurioms reikia inicijavimo, pavyzdžiui, paskyros, pasiūlymo, pasiūlymo eilutės, užsakymo ir užsakymo eilučių lentelėms.
 7. „Customer Engagement” programoje eikite į **Išplėstiniai parametrai \> Sistemos parametrai \> Duomenų valdymas \> Dublikatų aptikimo taisykles** ir išjunkite visas taisykles.
-8. Inicijuokite 2 veiksme išvardytas lenteles. Instrukcijas rasite likusiuose šios temos skyriuose.
-9. Atidarykite programą „Finance and Operations“ ir įgalinkite lentelės žemėlapius, pvz., sąskaitos, kainos pasiūlymo, pasiūlymo eilutės, užsakymo ir užsakymo eilutės lentelės žemėlapius. Tada vykdykite pirminį sinchronizavimą. (Daugiau informacijos žr [Pradinio sinchronizavimo svarstymai](initial-sync-guidance.md) .) Šis procesas sinchronizuos papildomą informaciją iš programos „Finance and Operations“, pvz., apdorojimo būseną, pristatymo ir atsiskaitymo adresus, svetaines ir sandėlius.
+8. Inicijuokite 2 veiksme išvardytas lenteles. Instrukcijų ieškokite likusiuose šio straipsnio skyriuose.
+9. Atidarykite finansų ir operacijų programą ir įgalinkite lentelių schemas, pvz., sąskaitos, pasiūlymo, pasiūlymo eilutės, užsakymo ir užsakymo eilučių lentelių schemos. Tada vykdykite pirminį sinchronizavimą. (Daugiau informacijos žr. [Pradinio sinchronizavimo aplinkybės](initial-sync-guidance.md).) Šio proceso metu bus sinchronizuojama papildoma informacija iš finansų ir operacijų programos, pvz., apdorojimo būsena, siuntimo ir sąskaitų siuntimo adresai, svetainės ir sandėliai.
 
 ## <a name="account-table"></a>Paskyros lentelė
 
 1. Stulpelyje **Įmonė** įveskite įmonės pavadinimą, pavyzdžiui, **„USMF”**.
 2. Stulpelyje **Ryšio tipas** įveskite **Klientas** kaip statinę reikšmę. Galbūt savo verslo logikoje nenorėsite klasifikuoti kiekvieno paskyros įrašo kaip kliento.
-3. Viduje konors **Klientų grupės ID** stulpelyje įveskite klientų grupės numerį iš programėlės „Finance and Operations“. Numatytoji reikšmė iš Potencialus klientas į grynuosius pinigus sprendimo **yra 10**.
-4. Jei naudojate Potencialus klientas į grynuosius pinigus sprendimą be jokio tinkinimo **Paskyros numeriui**, įveskite reikšmę **Paskyros numeris** į **Šalies numeris** stulpelį. Jei yra tinkinimų ir nežinote šalies numerio, paimkite šią informaciją iš programos „Finance and Operations“.
+3. Stulpelyje **Klientų grupės ID** įveskite klientų grupės numerį iš programos Finansai ir Operacijos. Numatytoji reikšmė iš Potencialus klientas į grynuosius pinigus sprendimo **yra 10**.
+4. Jei naudojate Potencialus klientas į grynuosius pinigus sprendimą be jokio tinkinimo **Paskyros numeriui**, įveskite reikšmę **Paskyros numeris** į **Šalies numeris** stulpelį. Jei yra pritaikymų ir nežinote šalies numerio, traukite šią informaciją iš finansų ir operacijų programos.
 
 ## <a name="contact-table"></a>Kontakto lentelė
 
 1. Stulpelyje **Įmonė** įveskite įmonės pavadinimą, pavyzdžiui, **„USMF”**.
 2. Remiantis **Ar klientas aktyvus** reikšme CSV faile nustatykite šiuos stulpelius:
 
-    - Jei **Ar klientas aktyvus** nustatyta į **Taip** CSV faile, nustatykite stulpelį **Parduotinas** į **Taip**. Viduje konors **Klientų grupės ID** stulpelyje įveskite klientų grupės numerį iš programėlės „Finance and Operations“. Numatytoji reikšmė iš Potencialus klientas į grynuosius pinigus sprendimo **yra 10**.
+    - Jei **Ar klientas aktyvus** nustatyta į **Taip** CSV faile, nustatykite stulpelį **Parduotinas** į **Taip**. Stulpelyje **Klientų grupės ID** įveskite klientų grupės numerį iš programos Finansai ir Operacijos. Numatytoji reikšmė iš Potencialus klientas į grynuosius pinigus sprendimo **yra 10**.
     - Jei **Ar klientas aktyvus** nustatyta į **Ne** CSV faile, nustatykite stulpelį **Parduotinas** į **Ne**, o stulpelį **Kontaktas, skirtas** į **Klientui**.
 
 3. Jei naudojate Potencialus klientas į grynuosius pinigus sprendimą be jokio tinkinimo **Kontakto numeriui**, nustatykite šiuos stulpelius:
@@ -76,7 +76,7 @@ Norėdami perkelti Potencialus klientas į grynuosius pinigus duomenis iš duome
 
 ## <a name="invoice-table"></a>Sąskaitos faktūros lentelė
 
-Kadangi duomenys iš **Sąskaita faktūra** lentelė sukurta taip, kad būtų vykdoma į vieną pusę – nuo programos „Finance and Operations“ iki kliento įtraukimo programos, inicijuoti nereikia. Vykdykite pradinį sinchronizavimą, kad perkeltumėte visus reikiamus duomenis iš programos „Finance and Operations“ į klientų įtraukimo programą. Daugiau informacijos rasite [Pradinio sinchronizavimo svarstymai](initial-sync-guidance.md).
+Sf lentelės duomenys **sukurti** rodyti vienu būdu, todėl iš finansų ir operacijų programos į kliento įsipareigojimo programą inicijuoti nebūtina. Vykdykite pradinę sinchronizaciją, norėdami perkelti visus reikiamus duomenis iš finansų ir operacijų programos į klientų įsipareigojimo programą. Daugiau informacijos rasite [Pradinio sinchronizavimo svarstymai](initial-sync-guidance.md).
 
 ## <a name="order-table"></a>Užsakymų lentelė
 
@@ -94,11 +94,11 @@ Kadangi duomenys iš **Sąskaita faktūra** lentelė sukurta taip, kad būtų vy
 
 ## <a name="products-table"></a>Produktų lentelė
 
-Kadangi duomenys iš **Produktai** lentelė sukurta taip, kad būtų vykdoma į vieną pusę – nuo programos „Finance and Operations“ iki kliento įtraukimo programos, inicijuoti nereikia. Vykdykite pradinį sinchronizavimą, kad perkeltumėte visus reikiamus duomenis iš programos „Finance and Operations“ į klientų įtraukimo programą. Daugiau informacijos rasite [Pradinio sinchronizavimo svarstymai](initial-sync-guidance.md).
+Kadangi duomenys iš **produktų lentelės** sukurti taip, kad iš finansų ir operacijų programos į kliento įsipareigojimo programą būtų pateikti vienu būdu, inicijavimas nebūtinas. Vykdykite pradinę sinchronizaciją, norėdami perkelti visus reikiamus duomenis iš finansų ir operacijų programos į klientų įsipareigojimo programą. Daugiau informacijos rasite [Pradinio sinchronizavimo svarstymai](initial-sync-guidance.md).
 
 ## <a name="quote-and-quote-product-tables"></a>Pasiūlymo ir pasiūlymo produktų lentelės
 
-Lentelei **Pasiūlymas** vadovaukitės instrukcijomis, pateiktomis ankstesniame šios temos skyriuje [Užsakymo lentelė](#order-table). Lentelei **Pasiūlymo produktas** vadovaukitės instrukcijomis, pateiktomis [Užsakymo produktų lentelė](#order-products-table) skyriuje.
+Jei norite **naudoti** lentelę Pasiūlymas, vadovaukitės anksčiau šiame straipsnyje [skyriuje](#order-table) Užsakymų lentelė pateiktomis instrukcijomis. Lentelei **Pasiūlymo produktas** vadovaukitės instrukcijomis, pateiktomis [Užsakymo produktų lentelė](#order-products-table) skyriuje.
 
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

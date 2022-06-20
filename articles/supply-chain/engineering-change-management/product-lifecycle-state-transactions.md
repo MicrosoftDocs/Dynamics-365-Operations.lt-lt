@@ -1,6 +1,6 @@
 ---
 title: Produkto gyvavimo ciklo būsenos ir perlaidos
-description: Šioje temoje paaiškinta, kaip gali valdyti perlaidas, kurioms leidžiama būti visose gyvavimo ciklo būsenos kai inžinerijos produktas eina per savo gyvavimo ciklą.
+description: Šiame straipsnyje paaiškinama, kaip galima valdyti, kurios operacijos leidžiamos kiekvienai ciklo būsenai, kai inžinerijos produktas patenka į jo ciklą.
 author: t-benebo
 ms.date: 02/17/2022
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 1e9b8a9f25edfa654a57e0ab4071cd93c8033d85
-ms.sourcegitcommit: d375ef4138e898621416754c40770d8ccca4d271
+ms.openlocfilehash: dd9155f799c66e8297b93d8ffbeeced1acd14220
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8322749"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8867962"
 ---
 # <a name="product-lifecycle-states-and-transactions"></a>Produkto gyvavimo ciklo būsenos ir perlaidos
 
@@ -37,7 +37,7 @@ Tam, kad dirbtumėte su produkto gyvavimo ciklo būsenomis, eikite į **Inžiner
 - Norėdami panaikinti esančią gyvavimo ciklo būseną, sąrašo juostoje ją pasirinkite ir rinkitės **Naikinti** veiksmų juostoje.
 
 > [!NOTE]
-> Inžinerijos produktai naudoja tas pačias produkto gyvavimo ciklo būsenas kaip standartiniai (ne inžinerijos) produktai. Galite taip pat atverti **Produkto gyvavimo ciklo būseną** puslapį, kuris aprašytas šioje temoje eidami į **Produkto informacijos valdymą \> Nustatymus \> Produkto gyvavimo ciklo būsena**. Dėl išsamesnės informacijos apie produkto gyvavimo ciklo būsenas, tiek inžinerijos, tiek ir standartinių produktų, žr. [Produkto gyvavimo ciklo būsenos apžvalga](../pim/product-lifecycle.md).
+> Inžinerijos produktai naudoja tas pačias produkto gyvavimo ciklo būsenas kaip standartiniai (ne inžinerijos) produktai. Taip pat galite atidaryti produkto **ciklo būsenos puslapį**, kuris aprašytas šiame straipsnyje, **\> nueikite į produkto informacijos valdymą Nustatymo \> produkto ciklo būsena**. Dėl išsamesnės informacijos apie produkto gyvavimo ciklo būsenas, tiek inžinerijos, tiek ir standartinių produktų, žr. [Produkto gyvavimo ciklo būsenos apžvalga](../pim/product-lifecycle.md).
 
 ### <a name="header"></a>Antraštė
 

@@ -1,6 +1,6 @@
 ---
 title: Ilgalaikio turto skaidymas
-description: Šioje temoje paaiškinta, kaip vienos turto knygos procentinę dalį padalinti naujai turto knygai.
+description: Šiame straipsnyje paaiškinama, kaip išskaidyti vienos turto knygos procentą į naują turto knygą.
 author: moaamer
 ms.date: 08/06/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1073f262d29e19fbbdc2257f5cdc18c4fa629196
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 0d7fe30702717f960a42fb2a118e0d12587024f5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725855"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880794"
 ---
 # <a name="split-a-fixed-asset"></a>Ilgalaikio turto skaidymas
 
 [!include [banner](../../includes/banner.md)]
 
-Šioje temoje paaiškinta, kaip vienos turto knygos procentinę dalį padalinti naujai turto knygai. 
+Šiame straipsnyje paaiškinama, kaip išskaidyti vienos turto knygos procentą į naują turto knygą. 
 
 ## <a name="create-a-new-fixed-asset"></a>Kurti naują ilgalaikį turtą
 

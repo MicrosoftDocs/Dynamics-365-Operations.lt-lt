@@ -1,6 +1,6 @@
 ---
 title: Kryžminio tarifo nurodymas
-description: Šioje temoje pateikiama informacija apie kryžmines normas Microsoft Dynamics 365 finansuose.
+description: Šiame straipsnyje pateikta informacija apie kryžmines normas " Microsoft Dynamics 365 Finance".
 author: abruer
 ms.date: 05/16/2018
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ed1db707cf6aed7c9def76ebbbdef7032b8776b6
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: efb01948af2bcba9ca740e8bd0e12584cf021fce
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8735296"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889967"
 ---
 # <a name="specify-the-cross-rate"></a>Kryžminio tarifo nurodymas
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje paaiškinama kryžminio kurso paskirtis, ir kaip nurodyti kryžminį kursą sudengiant mokėjimą su SF. Naudokite kryžminį tarifą, kai taikomi šie kriterijai: 
+Šiame straipsnyje paaiškinamas kryžminio kurso tikslas ir, kaip nurodyti kryžminį kursą, kai sudengiate mokėjimą SF. Naudokite kryžminį tarifą, kai taikomi šie kriterijai: 
 -   Sudengiate mokėjimą su SF. 
 -   Skirtingos valiutos naudojamos mokėjimo eilutėje ir SF eilutėje. 
 -   Nei viena valiuta nėra apskaitos valiuta. 

@@ -1,6 +1,6 @@
 ---
 title: Vietos produkto dimensijos maišymas
-description: Šioje temoje pateikiama informacija apie vietos produkto dimensijos maišymą. Ši vietos profilio funkcija padeda pagerinti vietos valdymą, kai produkto variantai arba produktai, turintys dimensijas, yra naudojami pvz., mados industrijoje. Ji leidžia Jums nuspręsti, ar konfigūracijas, spalvas, stilius ir dydžius galima maišyti tam tikram vietos profiliui, taip pat ar vieną iš šių dimensijų arba jų derinį galima įtraukti į tą pačią vietą.
+description: Šiame straipsnyje pateikiama informacija apie vietos produkto dimensijų maišymą. Ši vietos profilio funkcija padeda pagerinti vietos valdymą, kai produkto variantai arba produktai, turintys dimensijas, yra naudojami pvz., mados industrijoje. Ji leidžia Jums nuspręsti, ar konfigūracijas, spalvas, stilius ir dydžius galima maišyti tam tikram vietos profiliui, taip pat ar vieną iš šių dimensijų arba jų derinį galima įtraukti į tą pačią vietą.
 author: Mirzaab
 ms.date: 07/01/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 031b92f827979c01dbf0208ba21ae827fb13920b
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 9daf6061d56ef004753114aaffa8eb580cea1186
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103493"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885731"
 ---
 # <a name="location-product-dimension-mixing"></a>Vietos produkto dimensijos maišymas
 
@@ -28,7 +28,7 @@ Vietos produkto dimensijos maišymas yra vietos profilio funkcija, padedanti pag
 
 ## <a name="turn-the-location-product-dimension-mixing-feature-on-or-off"></a>Įjungti arba išjungti vietos produkto dimensijų maišymo priemonę
 
-Norint naudoti šioje temoje aprašytas funkcijas, *jūsų sistemai turi* būti įjungta vietos produkto dimensijų maišymo funkcija. Kaip ir tiekimo grandinės valdymas 10.0.25 ši funkcija yra privaloma ir jos išjungti negalima. Jei naudojate senesnę nei 10.0.25 versiją, tada *·*[administratoriai gali įjungti arba išjungti šią funkciją ieškodami vietos produkto dimensijų maišymo funkcijos funkcijų valdymo](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) darbo srityje.
+Norint naudoti šiame straipsnyje aprašytas funkcijas, jūsų *sistemai turi* būti įjungta vietos produkto dimensijų maišymo funkcija. Kaip ir tiekimo grandinės valdymas 10.0.25 ši funkcija yra privaloma ir jos išjungti negalima. Jei naudojate senesnę nei 10.0.25 versiją, tada *·*[administratoriai gali įjungti arba išjungti šią funkciją ieškodami vietos produkto dimensijų maišymo funkcijos funkcijų valdymo](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) darbo srityje.
 
 ## <a name="setup"></a>Sąranka
 
@@ -44,7 +44,7 @@ Su kiekviena sandėlio vieta turi būti susietas vietos profilis, nurodantis vie
     > [!NOTE]
     > Šią parinktį galite nustatyti į *Taip* tik jeigu parinktis **Leisti mišrias prekes** yra nustatyta į *ne*.
 
-1. „FastTab“ skirtuke **Leidžiamų produktų dimensijos maišymas** parinktį **Dydis** nustatykite į *taip*. Šioje temoje pateiktu atveju, maišymas gali būti atliekamas tik tiems produktams, kurių **Dydžių** dimensijos skiriasi. Tačiau galimos ir kitos parinktis.
+1. „FastTab“ skirtuke **Leidžiamų produktų dimensijos maišymas** parinktį **Dydis** nustatykite į *taip*. Scenarijuje, kuris aprašytas šiame straipsnyje, sumaišyti galima tik produktams, kurių dydžio dimensijos **skirtingos**. Tačiau galimos ir kitos parinktis.
 1. Pasirinkite **Įrašyti**.
 
 ### <a name="create-a-new-product-master-and-product-variants"></a>Bendrųjų produktų ir produktų variantų sukūrimas

@@ -1,6 +1,6 @@
 ---
 title: „Planning Optimization“ trikčių diagnostika
-description: Šioje temoje aprašoma, kaip spręsti problemas, kurios gali kilti dirbant su „Planning Optimization“.
+description: Šiame straipsnyje aprašoma, kaip spręsti problemas, su kuriomis jūs galite susidurti dirbdami naudodami planavimo optimizavimą.
 author: t-benebo
 ms.date: 05/07/2020
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-5-7
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 667a4ea1fc720feca95fc34c0e2437b4ad9862f2
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: f078fda02a11eb2073738d59b45f81698b707653
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8469679"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889525"
 ---
 # <a name="troubleshoot-planning-optimization"></a>„Planning Optimization“ trikčių diagnostika 
 
 [!include [banner](../../includes/banner.md)]
 
-Šioje temoje aprašoma, kaip spręsti bendrąsias problemas, kurios gali kilti dirbant su „Planning Optimization“.
+Šiame straipsnyje aprašoma, kaip išspręsti bendrąsias problemas, su kuriomis galite susidurti naudodami planavimo optimizavimą.
 
 ## <a name="installation-of-the-planning-optimization-add-in-doesnt-complete"></a>„Planning Optimization“ papildinio diegimas nebaigtas
 

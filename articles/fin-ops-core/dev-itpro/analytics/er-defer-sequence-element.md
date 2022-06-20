@@ -1,6 +1,6 @@
 ---
 title: Sekos elementų ER formatais vykdymo atidėjimas
-description: Šioje temoje paaiškinama, kaip atidėti sekos elemento elektroninių ataskaitų (ER) formatu vykdymą.
+description: Šiame straipsnyje paaiškinama, kaip atidėti sekos elemento vykdymą elektroninės ataskaitos (ER) formatu.
 author: NickSelin
 ms.date: 04/23/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-07-01
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 19d1cf0aa6e9b40a0e72a3a74acda6e2579d6ee2
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: 5d4c5395c87c7bdc874f277a691e84081f68742d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323695"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880245"
 ---
 # <a name="defer-the-execution-of-sequence-elements-in-er-formats"></a>Sekos elementų ER formatais vykdymo atidėjimas
 
@@ -32,7 +32,7 @@ Norėdami sukonfigūruoti [ER sprendimo, kuris naudojamas siunčiamams dokumenta
 
 Įjungę sekos elemento sukonfigūruotu formatu parinktį <a name="DeferredSequenceExecution"></a>**Atidėtas vykdymas**, galite atidėti (nukelti) to elemento vykdymą. Šiuo atveju elementas nevykdomas, kol neįvykdomi visi kiti jo pirminio elemento elementai.
 
-Norėdami sužinoti daugiau apie šią funkciją, atlikite šioje temoje esantį pavyzdį.
+Norėdami daugiau sužinoti apie šią funkciją, užpildykite pavyzdį šiame straipsnyje.
 
 ## <a name="limitations"></a>Apribojimai
 
@@ -44,7 +44,7 @@ Parinktis **Atidėtas vykdymas** netaikoma sekoms, kurios buvo sukonfigūruotos 
 
 Toliau pateikiamuose veiksmuose paaiškinama, kaip vartotojas, kuriam priskirtas Sistemos administratoriaus arba Elektroninės ataskaitos funkcijų konsultanto [vaidmuo](../sysadmin/tasks/assign-users-security-roles.md), gali konfigūruoti ER formatą, kuriame yra sekos elementas, kai vykdymo tvarka skiriasi nuo tvarkos formato hierarchijoje.
 
-Šiuos veiksmus galima atlikti įmonėje **USMF** programoje „Microsoft Dynamics 365 Finance“.
+Šiuos veiksmus galima atlikti JAV dolerių **įmonėje "** Microsoft Dynamics 365 Finance".
 
 ### <a name="prerequisites"></a>Būtinieji komponentai
 
@@ -53,7 +53,7 @@ Norėdami atlikti šį pavyzdį, turite turėti prieigą prie įmonės **USMF** 
 - Elektroninės ataskaitos funkcijų konsultantas
 - Sistemos administratorius
 
-Jei dar nebaigėte pavyzdžio, pateikiamo temoje [XML elementų ER formatais vykdymo atidėjimas](er-defer-xml-element.md#Example), atsisiųskite šias ER sprendimo pavyzdžio [konfigūracijas](general-electronic-reporting.md#Configuration).
+Jei dar nebaigėte [ER formatų straipsnyje atidėto XML elementų vykdymo pavyzdžio](er-defer-xml-element.md#Example), [atsisiųskite toliau pateiktas ER sprendimo pavyzdžio konfigūracijas](general-electronic-reporting.md#Configuration).
 
 | Turinio aprašas            | Failo pavadinimas |
 |--------------------------------|-----------|
@@ -93,7 +93,7 @@ Prieš pradėdami, taip pat turite atsisiųsti ir įrašyti šią ER sprendimo p
 ### <a name="activate-a-configurations-provider"></a>Aktyvinti konfigūracijų teikėją
 
 1. Eikite į **Organizacijos administravimas** \> **Darbo sritys** \> **Elektroninės ataskaitos**.
-2. Puslapio **Lokalizavimo konfigūracijos** skyriuje **Konfigūracijų teikėjai** įsitikinkite, kad sąraše yra [konfigūracijos teikėjas](general-electronic-reporting.md#Provider), susijęs su pavyzdine įmone „Litware, Inc.“ (`http://www.litware.com`), ir kad jis pažymėtas kaip aktyvus. Jeigu šio konfigūracijos teikėjo sąraše nėra arba jei jis nėra pažymėtas kaip aktyvus, atlikite temoje [Sukurti konfigūracijų teikėją ir jį pažymėti kaip aktyvų](./tasks/er-configuration-provider-mark-it-active-2016-11.md) nurodytus veiksmus.
+2. Puslapio **Lokalizavimo konfigūracijos** skyriuje **Konfigūracijų teikėjai** įsitikinkite, kad sąraše yra [konfigūracijos teikėjas](general-electronic-reporting.md#Provider), susijęs su pavyzdine įmone „Litware, Inc.“ (`http://www.litware.com`), ir kad jis pažymėtas kaip aktyvus. Jei šio konfigūracijos teikėjo nėra arba jei jis nepažymėtas kaip aktyvus, [atlikite konfigūracijos teikėjo kūrimo veiksmus ir pažymėkite jį kaip aktyvų](./tasks/er-configuration-provider-mark-it-active-2016-11.md) straipsnį.
 
     ![Pavyzdinė įmonė „Litware, Inc.“ puslapyje Lokalizavimo konfigūracijos.](./media/ER-DeferredSequence-ElectronicReportingWorkspace.png)
 

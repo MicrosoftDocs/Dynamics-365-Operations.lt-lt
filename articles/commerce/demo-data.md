@@ -1,6 +1,6 @@
 ---
 title: „Modern POS“ (MPOS) ir „Cloud POS“ demonstracinių duomenų ekrano maketai
-description: Šioje temoje pateikiama informacija apie ekrano maketus, kurie kartu su demonstraciniais duomenimis, nustatytais elektroniniam kasos aparate (EKA), įtraukti į „Dynamics 365 Commerce“.
+description: Šiame straipsnyje pateikiama informacija apie ekrano maketus, kurie įtraukti į demonstracinių duomenų rinkinį, nustatytą pardavimo galimybių (EKA) patirtį Dynamics 365 Commerce.
 author: josaw1
 ms.date: 10/05/2017
 ms.topic: article
@@ -16,22 +16,22 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2017-10-05
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: c141325580d698cccc7d186496a0902913961d47764b93fa73c64c3eddf6e791
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: eb7a288b61e8b467dd8ad6a8f7dc42b7fca0d943
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6761667"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8897230"
 ---
 # <a name="demo-data-screen-layouts-in-modern-pos-mpos-and-cloud-pos"></a>„Modern POS“ (MPOS) ir „Cloud POS“ demonstracinių duomenų ekrano maketai
 
 [!include [banner](includes/banner.md)]
 
-Šioje temoje pateikiama informacija apie ekrano maketus, kurie kartu su demonstraciniais duomenimis, nustatytais elektroniniam kasos aparate (EKA), įtraukti į „Dynamics 365 Commerce“.
+Šiame straipsnyje pateikiama informacija apie ekrano maketus, kurie įtraukti į demonstracinių duomenų rinkinį, nustatytą pardavimo galimybių (EKA) patirtį Dynamics 365 Commerce.
 
 ## <a name="overview"></a>Peržiūrėti
 
-Pavyzdinio ekrano maketuose, įtrauktuose kartu su „Commerce“ demonstraciniais duomenimis, pateikiamas turinys, optimizuotas įvairiems mažmeninės prekybos segmentams, parduotuvės darbuotojų vaidmenims ir įrenginiams. Viename makete gali būti keletas maketų dydžių ir mygtukynų kombinacijų, skirtų siekiant užtikrinti apimtį parduotuvės darbuotojams judant tarp įrenginių ir stočių. Šioje temoje aprašomi šių maketų skirtumai, teikiamos operacijos ir bendras jų naudojimas.
+Pavyzdinio ekrano maketuose, įtrauktuose kartu su „Commerce“ demonstraciniais duomenimis, pateikiamas turinys, optimizuotas įvairiems mažmeninės prekybos segmentams, parduotuvės darbuotojų vaidmenims ir įrenginiams. Viename makete gali būti keletas maketų dydžių ir mygtukynų kombinacijų, skirtų siekiant užtikrinti apimtį parduotuvės darbuotojams judant tarp įrenginių ir stočių. Šiame straipsnyje aprašomi skirtumai tarp šių maketų, jų atliekamos operacijos ir bendra jų pristatoma patirtis.
 
 ![Įvairių įrenginių demonstracinių duomenų maketai.](../commerce/media/demo-screen-layouts-fig-1-1.png)
 
@@ -51,13 +51,13 @@ Ekrano maketo ID gali būti sudaryti iš ne daugiau nei 10 simbolių. ID yra eil
 
 | Laiškas | Įmonė         |
 |--------|-----------------|
-| A      | „Adventure Works“ |
-| Pn.      | Fabrikam        |
-| K      | „Contoso“         |
+| A      | „Adventure Works” |
+| F      | „Fabrikam”        |
+| C      | „Contoso“         |
 
 ### <a name="layout-version"></a>Maketo versija
 
-| Versijos numeris | Aprašas                                                                                |
+| Versijos numeris | aprašymas                                                                                |
 |----------------|--------------------------------------------------------------------------------------------|
 | 3              | Pagrindinė versija, kurioje palaikomi įvairių įrenginių kelių ekranų dydžiai ir proporcijos |
 | 3.1            | Pagrindinė versija, kurioje teikiamas papildomas skydo **Rekomenduojami produktai** palaikymas        |
@@ -118,12 +118,12 @@ Kiekviena fiktyvi įmonė yra priskiriama atskiram mažmeninės prekybos segment
 
 | Įmonė         | Buvimo vieta | Segmentas        | Pabrėžti | Tema |
 |-----------------|----------|----------------|--------|-------|
-| „Adventure Works” | Sietlas  | Sporto prekės | Mėlyna   | Tamsi  |
-| Fabrikam        | San Franciskas  | Madingos prekės        | Žalia  | Šviesi |
-| „Contoso“         | Bostonas   | Elektronika    | Raudona    | Tamsi  |
+| „Adventure Works” | Sietlas  | Sporto prekės | Mėlyna   | Tamsus  |
+| „Fabrikam“        | San Franciskas  | Madingos prekės        | Žalia  | Šviesus |
+| „Contoso“         | Bostonas   | Elektronika    | Raudona    | Tamsus  |
 
 > [!NOTE]
-> „Adventure Works“ ir „Fabrikam“ yra du pagrindiniai prekių ženklai. „Contoso” yra pasiekiamas, bet pateikti ne visi maketai.
+> „Adventure Works“ ir „Fabrikam“ yra du pagrindiniai prekių ženklai. „Contoso“ yra pasiekiamas, bet pateikti ne visi maketai.
 
 Toliau pateiktose iliustracijose pavaizduoti trijų fiktyvių įmonių darbo pradžios puslapio ir operacijos puslapio pavyzdžiai.
 
@@ -141,7 +141,7 @@ Toliau pateiktose iliustracijose pavaizduoti trijų fiktyvių įmonių darbo pra
 
 ### <a name="contoso"></a>„Contoso“
 
-![„Contoso“ demonstraciniai duomenų maketai.](../commerce/media/demo-screen-layouts-fig-4-3.png)
+!["Contoso" demonstraciniai duomenų maketai.](../commerce/media/demo-screen-layouts-fig-4-3.png)
 
 ## <a name="user-sign-in-matrix"></a>Vartotojo prisijungimo matrica
 
@@ -154,7 +154,7 @@ Vartotojams pateikiami įvairūs ekrano maketai. Naudodamiesi toliau pateikta le
 | „Adventure Works” | A3STK            | Sandėliavimo tarnautojas   | 000155, 000181, 000152 |
 | „Fabrikam“        | F4MGR            | Parduotuvės vadovas | 000160, 000713         |
 | „Fabrikam“        | F3CSH            | Kasa       | 000161, 000113, 000114 |
-| Fabrikam        | F3STK            | Sandėliavimo tarnautojas   | 000164, 000112, 000123 |
+| „Fabrikam“        | F3STK            | Sandėliavimo tarnautojas   | 000164, 000112, 000123 |
 | „Contoso“         | C3MGR            | Parduotuvės vadovas | 000100, 000111         |
 | „Contoso“         | C3CSH            | Kasa       | 000110, 000120         |
 | „Contoso“         | Netaikoma   | Sandėliavimo tarnautojas   | Netaikoma         |

@@ -1,6 +1,6 @@
 ---
 title: Peržiūrėti ir valdyti adresų pakeitimus
-description: Ši tema aiškina, kaip jūs galite peržiūrėti ir valdyti adresų keitimus „Dynamics 365 Human Resources“.
+description: Šiame straipsnyje paaiškinama, kaip peržiūrėti ir tvarkyti adreso keitimus Dynamics 365 Human Resources.
 author: twheeloc
 ms.date: 10/28/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-08-07
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 819f22c58da485980c38d35dcc6dda6aebacf423
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 744ab532fcc663f25ce376817779924bbef15432
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8695850"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899591"
 ---
 # <a name="view-and-manage-address-changes"></a>Peržiūrėti ir valdyti adresų pakeitimus
 
@@ -27,7 +27,7 @@ ms.locfileid: "8695850"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Šioje temoje paaiškinama, kaip peržiūrėti ir tvarkyti adreso keitimus puslapyje Redaguoti asmeninę informaciją (**kurį** atidarote darbuotojų savitarnos **darbo** srityje) **arba** informacijos apie darbuotoją puslapyje Dynamics 365 Human Resources.
+Šiame straipsnyje paaiškinama, kaip galima peržiūrėti ir tvarkyti adreso keitimus puslapyje Redaguoti asmeninę informaciją (**kurį** atidarote darbuotojų savitarnos **darbo** srityje) **arba** informacijos apie darbuotoją puslapyje Dynamics 365 Human Resources.
 
 Daugelis organizacijų nori, kad darbuotojai valdytų jų turimus asmens duomenis per savitarnos paslaugų patirtį. Galite leisti vartotojams atnaujinti savo adresus **Darbuotojo savitarnos** darbo srityje. Galite stebėti šiuos keitimus **Personalo valdymo** darbo srityje. Tam, kad naudotumėte šią funkciją, turite nurodyti dienų skaičių, kurių metu norite matyti keitimus **Žmogiškųjų išteklių parametrų** puslapyje.
 

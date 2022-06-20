@@ -1,6 +1,6 @@
 ---
 title: Aptarnavimo objektų apžvalga
-description: Šioje temoje pateikiama apžvalga, kaip dirbti su aptarnavimo objektais.
+description: Šiame straipsnyje pateikiama apžvalga, kaip dirbti su aptarnavimo objektais.
 author: sorenva
 ms.date: 07/25/2019
 ms.topic: overview
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3cef4cf1222c4c66991069da72e3e6f5a7040153
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 8150a94677fe38f4caa6f3e0b5fb5d1be5972eaf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677680"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8862417"
 ---
 # <a name="service-objects-overview"></a>Aptarnavimo objektų apžvalga
 
@@ -39,7 +39,7 @@ Aptarnavimo objektai yra kliento turtas ir produktai, dėl kurių galite teikti 
 
 Įmonė A tvarko finansinius įrašus keliose mažose įmonėse. Vienas įmonės A klientų yra vietinė futbolo komanda, kuriai įmonė A atlieka kassavaitinį buhalterijos tvarkymą ir kasmetinį klubo sąskaitų auditą. Klubo sąskaitos yra nustatytos formoje Aptarnavimo objektai, o aptarnavimo sutartyje jos nurodytos kaip objektas. Objektui priskiriamos dvi aptarnavimo sutarties eilutės. 1 eilutė yra kassavaitinis buhalterijos tvarkymas ir eilutei priskirtas savaitės intervalas, o 2 eilutė – kasmetinis auditas, kuriai priskirtas metų intervalas.
 
-## <a name="related-topics"></a>Susijusios temos
+## <a name="related-articles"></a>Susiję straipsniai
 
 [Aptarnavimo objektų kūrimas](create-service-objects.md)
 

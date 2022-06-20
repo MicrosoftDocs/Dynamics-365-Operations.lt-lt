@@ -1,6 +1,6 @@
 ---
-title: Greito rodinio modulis
-description: Šioje temoje aprašomi greito rodinio moduliai ir aprašoma, kaip juos įtraukti į saito puslapius „Microsoft Dynamics 365 Commerce“.
+title: Sparčiosios peržiūros modulis
+description: Šiame straipsnyje aprašomi spartieji rodinio moduliai ir aprašoma, kaip įtraukti juos į svetainės puslapius Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 05/18/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2020-01-08
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 5ba42806d8f77f41ab9c5cf5e26b20ecb647aadf
-ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
+ms.openlocfilehash: e9066357fda4f5d91c547622ac64d8c4eef253ae
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "8780823"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847580"
 ---
 # <a name="quick-view-module"></a>Sparčiosios peržiūros modulis
 
 [!include [banner](includes/banner.md)]
 
-Šioje temoje aprašomi greito rodinio moduliai ir aprašoma, kaip juos įtraukti į saito puslapius „Microsoft Dynamics 365 Commerce“.
+Šiame straipsnyje aprašomi spartieji rodinio moduliai ir aprašoma, kaip įtraukti juos į svetainės puslapius Microsoft Dynamics 365 Commerce.
 
 Greito rodinio modulis leidžia vartotojams greitai peržiūrėti produkto informaciją, kai jie naršo produktus sąrašo puslapyje ir įtraukia vieną ar daugiau produktų į vežimėlį iš sąrašo puslapio be poreikio eiti į produkto išsamios informacijos puslapį (PDP). Greito rodinio modulis pateikia produkto informacijos apžvalgą, dėl kurios vartotojai turi padaryti „pridėti prie vežimėlio“ sprendimą. Jis taip pat pateikia nuorodą į PDP tam, kad vartotojai galėtų peržiūrėti papildomą produkto informaciją ir pirkimo parinktis.
 

@@ -1,6 +1,6 @@
 ---
 title: Mažmeninės prekybos parduotuvės išrašų kūrimas, skaičiavimas ir registravimas
-description: Ši procedūra padeda neautomatiškai kurti, apskaičiuoti ir registruoti parduotuvės išrašą.
+description: Šiame straipsnyje aprašomi neautomatinio parduotuvės išrašo kūrimo, skaičiavimo ir registravimo veiksmai.
 author: jashanno
 ms.date: 08/29/2018
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0a3d82daed16c1b37d10653f04c1dc473cd5c5abc3a6443972da6e8ecf9820f1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 740857e6a902e21588855eef5e36cac68e560898
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719877"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873283"
 ---
 # <a name="create-calculate-and-post-statements-for-a-retail-store"></a>Mažmeninės prekybos parduotuvės išrašų kūrimas, skaičiavimas ir registravimas
 
 [!include [banner](../includes/banner.md)]
 
-Ši procedūra padeda neautomatiškai kurti, apskaičiuoti ir registruoti parduotuvės išrašą. Taip pat galima sukonfigūruoti tų pačių užduočių paketines užduotis. Paketinių užduočių konfigūravimo ir paleidimo veiksmai aprašyti kitose temose. Norint atlikti šią procedūrą, reikalingos operacijos, kurios atliktos naudojant EKA ir įtrauktos į „Dynamics Dynamics 365 Commerce“. Šiame įraše naudojama demonstracinių duomenų įmonė USRT.
+Šiame straipsnyje aprašomi neautomatinio parduotuvės išrašo kūrimo, skaičiavimo ir registravimo veiksmai. Taip pat galima sukonfigūruoti tų pačių užduočių paketines užduotis. Paketinių užduočių konfigūravimo ir vykdymo veiksmus galima rasti kituose straipsnius. Norint atlikti šią procedūrą, reikalingos operacijos, kurios atliktos naudojant EKA ir įtrauktos į „Dynamics Dynamics 365 Commerce“. Šiame įraše naudojama demonstracinių duomenų įmonė USRT.
 
 1. Pagrindiniame puslapyje pasirinkite **Parduotuvės finansai**.
 2. Pasirinkite **Naujas išrašas**.

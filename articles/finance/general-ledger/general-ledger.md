@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bd832c32655aa52fec16852ec5550a34d06f00f4
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: 14aaf40ce64c8f8ba6277fa0883318e08505a464
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8719949"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904563"
 ---
 # <a name="general-ledger-home-page"></a>Didžiosios knygos pagrindinis puslapis
 
@@ -57,11 +57,11 @@ Be to, taisykles reikia atnaujinti periodiškai, kai mokesčių institucijos pak
 Norėdami pamatyti, kokios naujos funkcijos suplanuotos, eikite į tinklalapį [„Microsoft Dynamics 365” leidimo planai](/dynamics365/release-plans/). 
 
 #### <a name="financial-reporting"></a>Finansinės ataskaitos
-Eikite į [„Financial reporting“ apžvalgos](../../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md) temą informacijai apie finansinės ataskaitas.
+Eikite į [finansinių ataskaitų peržiūros](../../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md) straipsnį, kad būtų galima gauti informacijos apie finansines ataskaitas.
 
 #### <a name="blogs"></a>Tinklaraščiai
 
-[„Microsoft Dynamics 365” tinklaraštyje](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) ir [„Microsoft Dynamics 365 Finance and Operations – Financials” tinklaraštyje](https://community.dynamics.com/365/financeandoperations/b/financials) galite rasti nuomonių, naujienų ir kitos informacijos.
+[„Microsoft Dynamics 365” tinklaraštyje](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) ir [„Microsoft Dynamics 365 Finance and Operations – finansai” tinklaraštyje](https://community.dynamics.com/365/financeandoperations/b/financials) galite rasti nuomonių, naujienų ir kitos informacijos.
 
 „[Microsoft Dynamics Operations“ partnerių bendruomenės tinklaraštis](https://community.dynamics.com/partner/b/operationspartnercommunityblog) – tai vienas išteklius, kuriame „Microsoft Dynamics“ partneriai gali sužinoti, kas nauja ir kokios yra „Dynamics 365“ tendencijos.
 

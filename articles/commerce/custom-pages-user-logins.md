@@ -1,6 +1,6 @@
 ---
 title: Vartotojo registracijos pasirinktinių puslapių sąranka
-description: Šioje temoje aprašoma, kaip sukurti tinkintus „Microsoft Dynamics 365 Commerce“ puslapius, kuriuose galima valdyti pritaikytus „Azure Active Directory“ („Azure AD“) verslo ir vartotojų (B2C) nuomotojų vartotojų prisijungimus.
+description: Šiame straipsnyje aprašoma, kaip kurti pasirinktinius puslapius, kurie tvarko pritaikytus prisijungimus vartotojų (Microsoft Dynamics 365 Commerce) "verslas Azure Active Directory Azure AD nuo vartotojų" (B2C) nuomininkams.
 author: brianshook
 ms.date: 03/17/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: f4a3c7c3410a903ae7bc0bac27e861a0dbfa19fdd65761628549c403c4e5db16
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2c610866b896ef7648d2596e17b51d1935a78dee
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723268"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880345"
 ---
 # <a name="set-up-custom-pages-for-user-sign-ins"></a>Vartotojo registracijos pasirinktinių puslapių sąranka
 
 [!include [banner](includes/banner.md)]
 
-Šioje temoje aprašoma, kaip sukurti tinkintus „Microsoft Dynamics 365 Commerce“ puslapius, kuriuose galima valdyti pritaikytus „Azure Active Directory“ („Azure AD“) verslo ir vartotojų (B2C) nuomotojų vartotojų prisijungimus.
+Šiame straipsnyje aprašoma, kaip kurti pasirinktinius puslapius, kurie tvarko pritaikytus prisijungimus vartotojų (Microsoft Dynamics 365 Commerce) "verslas Azure Active Directory Azure AD nuo vartotojų" (B2C) nuomininkams.
 
 Norėdami naudoti tinkintus puslapius, kurie sukurti „Dynamics 365 Commerce“ programoje valdyti vartotojo registravimosi srautus, turite nustatyti „Azure AD“ strategijas, kurios bus nurodytos „Commerce“ aplinkoje. Galite konfigūruoti „Prisijungti ir įeiti“, „Profilio redagavimas“ ir „Slaptažodžio nustatymas iš naujo“ „Azure AD“ B2C strategijas naudodami „Azure AD“ B2C programą. „Azure AD“ B2C nuomotojo ir strategijos pavadinimai gali būti nurodyti rengimo proceso metu, kuris vykdomas „Commerce“ aplinkai naudojant „Microsoft Dynamics“ „Lifecycle Services“ (LCS).
 

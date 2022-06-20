@@ -1,6 +1,6 @@
 ---
 title: Finansų žinių konfigūracija
-description: Šioje temoje paaiškinami konfigūravimo veiksmai, kuriuos jums atlikus sistema galės naudotis modulio „Finance Insights” galimybėmis.
+description: Šiame straipsnyje paaiškinami konfigūravimo veiksmai, kurie įgalins jūsų sistemą naudoti galimybes, galimas finansų žinių bazėse.
 author: ShivamPandey-msft
 ms.date: 01/27/2022
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 6ec7e6a7e616e239128281ba669c8bbbfc5e3c7a
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: ac0f0cb078b6e202540fadbff337a01379febc8a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710636"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861422"
 ---
 # <a name="configuration-for-finance-insights"></a>Finansų žinių konfigūracija
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-Finansų įžvalgos sujungia funkcijas iš Microsoft Dynamics "365 Finance Dataverse" su "Azure AI Builder " ir teikia galinga prognozės įrankius jūsų organizacijai. Šioje temoje paaiškinami konfigūravimo veiksmai, kuriuos jums atlikus sistema galės naudotis modulio „Finance Insights” galimybėmis. Kad šios temos procedūros būtų sėkmingai užbaigtos, turite turėti prieigą prie sistemos administratoriaus [ir sistemos pritaikymo priemonės "Power Portal](https://admin.powerplatform.microsoft.com/)" administravimo centre, "Dynamics 365 Microsoft Dynamics " finansų sistemos administratoriaus prieigą ir prieigą prie aplinkos kūrimo ciklo tarnybose (LCS).
+Finansų įžvalgos sujungia funkcijas iš Microsoft Dynamics "365 Finance Dataverse" su "Azure AI Builder " ir teikia galinga prognozės įrankius jūsų organizacijai. Šiame straipsnyje paaiškinami konfigūravimo veiksmai, kurie įgalins jūsų sistemą naudoti galimybes, galimas finansų žinių bazėse. Kad sėkmingai užbaigtumėte šiame straipsnyje nurodytas procedūras, turite turėti prieigą prie sistemos administratoriaus [ir sistemos pritaikymo priemonės "Power Portal](https://admin.powerplatform.microsoft.com/)" administravimo centre, "Dynamics 365 Finance Microsoft Dynamics " sistemos administratoriaus prieigą ir prieigą prie aplinkos kūrimo ciklo tarnybose (LCS).
 
 > [!NOTE]
 > Šios finansų žinių nustatymo procedūros taikomos "Dynamics 365" 10.0.21 ir vėlesnės versijos finansų versijoms.
@@ -101,7 +101,7 @@ Sėkmingai įdiegus priedą, jis gali užtrukti iki valandos, **kol** galėsite 
    Sėkmingai paleidus **žinių apsaugos būsenos tikrinimo** procesą, galite įgalinti finansų žinių funkcijas funkcijų **valdymo darbo** srityje.
 
 > [!NOTE]
-> Jei žinių **sistemos parengimo būsenos tikrinimo** procesas neįeina, eikite į **sistemos administrationInquiriesBatch** > **·** > **užduotis**. Proceso automatizavimo **apklausų sistemos** lauke pakeiskite vertę į Laukiama **,** kol bus inicijuotas procesas. 
+> Jei nepavyksta **paleisti žinių apdorojimo būsenos** tikrinimo proceso, **eikite į sistemos administravimo užklausas** > **paketines** > **užduotis**. Proceso automatizavimo **apklausų sistemos** lauke pakeiskite vertę į Laukiama **,** kol bus inicijuotas procesas. 
 > 
 ## <a name="feedback-and-support"></a>Atsiliepimai ir palaikymas
 

@@ -1,5 +1,5 @@
 ---
-title: Ilgalaikio turto grupių atkuriamosios vertės ir draudimo sumų perskaičiavimas
+title: Perskaičiuoti ilgalaikio turto grupių atkuriamąją vertę ir draudimo sumas
 description: Šiame straipsnyje paaiškinamas ilgalaikio turto atkuriamosios vertės ir draudimo sumų atnaujinimo procesas.
 author: moaamer
 ms.date: 01/12/2018
@@ -14,14 +14,14 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e01e0241117dc69cafb67aeb3f1d10249fe143a0
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 3b461438ca3fef36e69100379e84f4c0d402e53e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726787"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853473"
 ---
-# <a name="recalculate-replacement-costs-and-insured-values-for-fixed-asset-groups"></a>Ilgalaikio turto grupių atkuriamosios vertės ir draudimo sumų perskaičiavimas
+# <a name="recalculate-replacement-costs-and-insured-values-for-fixed-asset-groups"></a>Perskaičiuoti ilgalaikio turto grupių atkuriamąją vertę ir draudimo sumas
 
 [!include [banner](../includes/banner.md)]
 

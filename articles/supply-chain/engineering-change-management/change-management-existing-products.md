@@ -1,6 +1,6 @@
 ---
 title: Pakeitimų valdymo įjungimas esamiems produktams
-description: Šioje temoje paaiškinama, kaip įgalinti esamų produktų pakeitimų valdymą. Joje taip pat aprašomi atvejai, kuriais jūsų gebėjimas įjungti pakeitimų valdymą yra ribotas.
+description: Šiame straipsnyje paaiškinama, kaip įgalinti esamų produktų pakeitimų valdymą. Joje taip pat aprašomi atvejai, kuriais jūsų gebėjimas įjungti pakeitimų valdymą yra ribotas.
 author: t-benebo
 ms.date: 02/05/2021
 ms.topic: article
@@ -12,24 +12,24 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-05-02
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: e356ef8339f8f71965bf9313e14fed3d0810152d
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 9f99529abebdf5490f158c6f0a7be4519449e9f0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103618"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893474"
 ---
 # <a name="enable-change-management-on-existing-products"></a>Pakeitimų valdymo įjungimas esamiems produktams
 
 [!include [banner](../../includes/banner.md)]
 
-Šioje temoje paaiškinama, kaip įgalinti esamų produktų pakeitimų valdymą. Joje taip pat aprašomi atvejai, kuriais jūsų gebėjimas įjungti pakeitimų valdymą yra ribotas.
+Šiame straipsnyje paaiškinama, kaip įgalinti esamų produktų pakeitimų valdymą. Joje taip pat aprašomi atvejai, kuriais jūsų gebėjimas įjungti pakeitimų valdymą yra ribotas.
 
 Įgalinę esamo produkto pakeitimų valdymą, galite sukurti to produkto versijas ir sekti jo naudojimo metu atliktus keitimus. Todėl galite sekti šiuos pakeitimus naudodami keitimų užsakymus. Norėdami įgalinti pakeitimų valdymą, turite konvertuoti atitinkamus produktus į *inžinerijos prekes* (dar vadinamas inžinerijos produktais). Inžinerijos produktai – tai produktai, kurių versijos nustatomos ir kurie valdomi atliekant keitimų valdymą. Naudodamiesi vedliu pereisite per konvertavimo procesą.
 
 ## <a name="turn-this-feature-on-or-off"></a>Įjungti arba išjungti šią funkciją
 
-Šioje temoje aprašytos funkcijos reikalauja, kad jūsų *sistemoje būtų* *įjungtas* ir inžinerinio keitimo valdymas, ir esamų produktų keitimo valdymas. Išsamesnės informacijos apie šių funkcijų įjungimą ir išjungimą žr. Inžinerinių [pakeitimų valdymo peržiūra](product-engineering-overview.md).
+Šiame straipsnyje aprašytos funkcijos reikalauja, kad jūsų *sistemoje būtų* *įjungtas* ir inžinerinio keitimo valdymas, ir esamų produktų keitimo valdymas. Išsamesnės informacijos apie šių funkcijų įjungimą ir išjungimą žr. Inžinerinių [pakeitimų valdymo peržiūra](product-engineering-overview.md).
 
 ## <a name="restrictions-and-limitations"></a>Suvaržymai ir apribojimai
 
@@ -38,7 +38,7 @@ Ne visus produktų tipus galima konvertuoti į visus kitus tipus. Taikomi šie s
 - Konvertuojant produktą į inžinerijos produktą, jis lieka *produktu*. Jis netampa *pagrindiniu produktu*.
 - Kai konvertuojate bendrąjį produktą, kuris turi tam tikrą dimensijų rinkinį, tos dimensijos tvarkomos atlikus keitimą. Pavyzdžiui, jei konvertuojate bendrąjį produktą, kuris turi dydžio dimensiją, jis išlaikys dydžio dimensiją.
 
-Todėl, jei turite išskirtąjį produktą, jį galite keisti tik į inžinerijos produktą, kuris operacijų metu neseka produkto dimensijos (t. y. jei versijos dimensija nėra naudojama). Daugiau informacijos apie šias problemas rasite likusiuose šios temos skyriuose.
+Todėl, jei turite išskirtąjį produktą, jį galite keisti tik į inžinerijos produktą, kuris operacijų metu neseka produkto dimensijos (t. y. jei versijos dimensija nėra naudojama). Daugiau informacijos apie šias problemas rasite likusiuose šio straipsnio skyriuose.
 
 ## <a name="prepare-for-conversion-by-creating-all-required-engineering-product-categories"></a>Pasirengimas konvertuoti sukuriant visas reikiamas inžinerijos produktų kategorijas
 
@@ -81,7 +81,7 @@ Norėdami paleisti vedlį **Konvertuoti į inžinerijos produktą** ir konvertuo
 
     - **Produkto numeris** – produkto numeris.
     - **Produkto pavadinimas** – produkto pavadinimas.
-    - **Inžinerijos kategorija** – pasirinkite inžinerijos produkto kategoriją, kuriai turėtų priklausyti produktas jį konvertavus. Kiekvienam produktui turi būti skirta atitinkama kategorija, kaip paaiškinta ankstesniame šios temos skyriuje. Kiekvienam produktui turite priskirti kategoriją.
+    - **Inžinerijos kategorija** – pasirinkite inžinerijos produkto kategoriją, kuriai turėtų priklausyti produktas jį konvertavus. Kiekvienam produktui turi būti skirta atitinkama kategorija, kaip paaiškinta ankstesniame šio straipsnio skyriuje. Kiekvienam produktui turite priskirti kategoriją.
     - **Versija** – įveskite pradinę produkto versiją, kurią norite priskirti kiekvienam konvertuotam produktui. Pavyzdžiui, galite pasirinkti skaičių, atitinkantį jau naudojamos numeracijos numerį. Kiekviena inžinerijos versija talpina su inžinerija susijusius duomenis, kurie konkretūs tai versijai. Dėl daugiau informacijos apie inžinerijos duomenis, žr. [Inžinerijos versijos ir inžinerijos produkto kategorijos](engineering-versions-product-category.md).
     - **Produkto ciklo būsena** – pasirinkite produkto ciklo būseną, kurioje produktas turėtų būti jį konvertavus. Produkto ciklo būsena leidžia kontroliuoti, kurios operacijos leidžiamos duotai inžinerijos versijai. Dėl daugiau informacijos, žr. [Produkto gyvavimo ciklo būsenos ir perlaidos](product-lifecycle-state-transactions.md).
     - **Turi KS** – pažymėtas žymės langelis rodo, kad produktas turi KS. Šio žymės langelio nustatymas gali padėti nuspręsti, kaip žymės langelį **Dabartinė KS bus inžinerinio produkto dalis**.

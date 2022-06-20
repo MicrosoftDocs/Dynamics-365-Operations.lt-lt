@@ -1,6 +1,6 @@
 ---
 title: Greitas B2B svetainės užsakymų pateikimas
-description: Šioje temoje aprašomos Microsoft Dynamics 365 Commerce galimybės, kurios leidžia vartotojams didmeniškai ir kartoti užsakymus verslo (B2B) vartotojams.
+description: Šiame straipsnyje aprašomos galimybės Microsoft Dynamics 365 Commerce, kurios leidžia vartotojams greitai kurti masinius ir pasikartojančius užsakymus verslo (B2B) vartotojams.
 author: shajain
 ms.date: 02/16/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2022-01-31
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 8ac4833b2ca05e90b4019ffdfc4b669c542b0cf6
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 0b13fb49c49b0a540b192f4dd0f3a847fb5dd8a7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8686551"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881366"
 ---
 # <a name="place-b2b-website-orders-quickly"></a>Greitas B2B svetainės užsakymų pateikimas
 
 [!include [banner](../../includes/banner.md)]
 
-Šioje temoje aprašomos Microsoft Dynamics 365 Commerce galimybės, kurios leidžia vartotojams didmeniškai ir kartoti užsakymus verslo (B2B) vartotojams.
+Šiame straipsnyje aprašomos galimybės Microsoft Dynamics 365 Commerce, kurios leidžia vartotojams greitai kurti masinius ir pasikartojančius užsakymus verslo (B2B) vartotojams.
 
 Dynamics 365 Commerce B2B el. komercijos svetainės leidžia vartotojams vykdyti standartines operacijas, pvz., atrasti naujus produktus ieškant ir naršant, peržiūrint produkto informaciją, įtraukiant prekių į krepšelį ir išregistruojant. Tačiau kadangi "verslas vartotojui" (B2C) svetainių klientai paprastai užsakė prekes smulkiais kiekiais ir jas užsakyti tik vieną kartą, B2B klientai paprastai užsako prekes dideliu kiekiu ir per užsakymų jas kelis kartus. Kadangi šie klientai paprastai tiksliai žino, kurias prekes nori pirkti, jie dažnai praleidžia produkto su aptikimo etapą ir tiesiogiai perkelia į užsakymą. Siekiant patenkinti šių klientų poreikius, "Commerce B2B" el. komercijos svetainės suteikia įvairius pajėgumus, kurie padeda jiems greitai teikti užsakymus.
 
@@ -65,4 +65,4 @@ Pirkėjai B2B žiniatinklio svetainėse dažnai užsako konkrečias prekes kartu
 
 ![Užsakymas iš užsakymų retrospektyvos.](../media/Reorder.png)
 
-Ši tema aprašė tik kai kuriuos būdus, kuriais "Commerce B2B" svetainės padeda vartotojams greitai rasti, užsakyti ir užsakyti norimus produktus. Daugiau galimybių siekiama toliau supaprastinti masinių užsakymų fiksavimo procesą.
+Šiame straipsnyje aprašyta keletas būdų, kaip "Commerce B2B" svetainės padeda vartotojams greitai rasti, užsakyti ir užsakyti norimus produktus. Daugiau galimybių siekiama toliau supaprastinti masinių užsakymų fiksavimo procesą.

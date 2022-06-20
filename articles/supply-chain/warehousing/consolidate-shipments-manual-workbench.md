@@ -1,6 +1,6 @@
 ---
 title: Siuntų konsolidacija naudojant siuntų konsolidacijos darbo sritį
-description: Šioje temoje pateikiamas scenarijus, kai į sandėlį išleidžiami keli užsakymai, o vėliau jie konsoliduojami į siuntas naudojant siuntos konsolidacijos darbo sritį.
+description: Šiame straipsnyje pateikiama pasirinktis, kurioje į sandėlį išleidžiami keli užsakymai ir vėliau, naudojant siuntos konsolidavimo darbo dalį, konsoliduoti į siuntas.
 author: Mirzaab
 ms.date: 05/12/2020
 ms.topic: article
@@ -13,22 +13,22 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: 43669bc302ac0d5dd9e6f161e17dde1155aae0f6
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 388066b9c81ecb63ac1f81b70dc4b168f3f4a71d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8673332"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8888331"
 ---
 # <a name="consolidate-shipments-by-using-the-shipment-consolidation-workbench"></a>Siuntų konsolidacija naudojant siuntų konsolidacijos darbo sritį
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje pateikiamas scenarijus, kai į sandėlį išleidžiami keli užsakymai, o vėliau jie konsoliduojami į siuntas naudojant siuntos konsolidacijos darbo sritį.
+Šiame straipsnyje pateikiama pasirinktis, kurioje į sandėlį išleidžiami keli užsakymai ir vėliau, naudojant siuntos konsolidavimo darbo dalį, konsoliduoti į siuntas.
 
-## <a name="make-demo-data-available"></a>Leidimas naudoti demonstracinius duomenis
+## <a name="make-demo-data-available"></a>Demonstracinių duomenų įgalinimas
 
-Šioje temoje esantis scenarijus nurodo reikšmes ir įrašus, įtrauktus į standartinius „Microsoft Dynamics 365 Supply Chain Management” demonstracinius duomenis. Jei norite naudoti čia pateiktas reikšmes atlikdami pratimus, įsitikinkite, kad dirbate aplinkoje, kurioje įdiegti demonstraciniai duomenys, ir prieš pradėdami nustatykite juridinį subjektą į **USMF**.
+Scenarijus šiame straipsnyje nurodo vertes ir įrašus, kurie yra įtraukti į standartinius demonstracinius duomenis, kurie pateikiami "Microsoft"Dynamics 365 Supply Chain Management. Jei norite naudoti čia pateiktas reikšmes atlikdami pratimus, įsitikinkite, kad dirbate aplinkoje, kurioje įdiegti demonstraciniai duomenys, ir prieš pradėdami nustatykite juridinį subjektą į **USMF**.
 
 ## <a name="set-up-shipment-consolidation-policies-and-product-filters"></a>Siuntos konsolidacijos strategijų ir produktų filtrų nustatymas
 

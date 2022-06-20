@@ -1,6 +1,6 @@
 ---
 title: Elektroninių SF išrašymo administravimo komponentai
-description: Šioje temoje pateikta informacija apie kompnentus, kurie susiję su elektroninių sąskaitų priedų administravimu.
+description: Šiame straipsnyje pateikiama informacija apie komponentus, susijusius su elektroninių SF išrašymo administravimu.
 author: gionoder
 ms.date: 08/31/2021
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: d187e8a03552258099d7021ff056d0726ea60ca1
-ms.sourcegitcommit: baf82100f0aa7d5f5f47c7f54bc155d8a07beab5
+ms.openlocfilehash: cdd4d6705730bca967bb1bbff528df6d83a2390d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/31/2021
-ms.locfileid: "7463886"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876006"
 ---
 # <a name="electronic-invoicing-administration-components"></a>Elektroninių SF išrašymo administravimo komponentai
 
 [!include [banner](../includes/banner.md)]
 
 
-Šioje temoje pateikta informacija apie kompnentus, kurie susiję su elektroninių sąskaitų priedų administravimu. Taip pat pateikiama informacija apie tai, kaip konfigūruoti elektroninių SF išrašymo papildomą paslaugą.
+Šiame straipsnyje pateikiama informacija apie komponentus, susijusius su elektroninių SF išrašymo administravimu. Taip pat pateikiama informacija apie tai, kaip konfigūruoti elektroninių SF išrašymo papildomą paslaugą.
 
 ## <a name="azure"></a>Azure
 
@@ -97,7 +97,7 @@ Geriausia, jei norite periodiškai pasukti paslapius. Daugiau informacijos iešk
 
 #### <a name="users"></a>Vartotojai
 
-Kiekviena aptarnavimo aplinka turi pateikti vartotojų, kurie gali prisijungti „Dynamics 365 Finance“ prie elektroninių „Dynamics 365 Supply Chain Management“ SF išrašymo priedo ir prie jo prisijungti, sąrašą.
+Kiekvienoje aptarnavimo aplinkoje turi būti pateikti vartotojai, kurie gali prisijungti iš "Dynamics 365 Finance" ir išrašant Dynamics 365 Supply Chain Management elektronines SF.
 
 #### <a name="publication"></a>Publikavimas
 
@@ -123,7 +123,7 @@ Norėdami įgalinti „Finance and Supply Chain Management“ ir elektroninio SF
 
 Paslaugos galinis punktas yra URL, kuriame yra elektroninio SF išrašymo priedas. Prieš elektroninių sąskaitų išleidimą, paslaugos galinis taškas turi būti konfigūruotas „Finance and Supply Chain Management“ siekiant leisti komunikaciją su paslaugomis.
 
-Norėdami konfigūruoti paslaugų galinį tašką, eikite į **Organizacijos administravimas \> Nustatymai \> Elektroninio dokumento parametras** ir tada **Elektroninės SF** skirtukas, laukelyje **Galinio taško URL** laukelis ir įveskite atitinkamą URL iš lentelės skyriaus [Paslaugos galinis taškas](#svc-endpoint-uris) srityje prieš tai šioje temoje.
+Norėdami konfigūruoti tarnybos galinį punktą, **\>\>** eikite į Organizacijos administravimo nustatymo elektroninio dokumento parametrus, **·** **tada skirtuko Elektroninis SF išrašymas lauke Galinio punkto URL įveskite atitinkamą URL**[iš](#svc-endpoint-uris) lentelės, nurodytos anksčiau šiame straipsnyje skyriuje Tarnybos galinis punktas.
 
 #### <a name="environments"></a>Aplinkos
 

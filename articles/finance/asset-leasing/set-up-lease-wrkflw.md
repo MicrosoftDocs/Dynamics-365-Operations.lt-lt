@@ -1,6 +1,6 @@
 ---
 title: Nuomos patvirtinimo darbo eigų nustatymas
-description: Temoje paaiškinama, kaip nustatyti patvirtinimo darbo eigą, kuri bus vykdoma sukūrus naują nuomos sutartį.
+description: Straipsnyje paaiškinama, kaip nustatyti patvirtinimo darbo eigą, kuri bus vykdoma sukūrus naują nuomą.
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: f7781fcb643d678fed528af947efb01911899f54
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 0162e559f8aaec248cfb9042b0152788536c9fc9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8724619"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8870284"
 ---
 # <a name="set-up-lease-approval-workflows"></a>Nuomos patvirtinimo darbo eigų nustatymas
 
 [!include [banner](../includes/banner.md)]
 
-Temoje paaiškinama, kaip nustatyti patvirtinimo darbo eigą, kuri bus vykdoma sukūrus naują nuomos sutartį. Informacijos apie tai, kaip naudoti darbo eigą, ieškokite [Nuomos tvirtinimo darbo eigų naudojimas](use-create-lease-wrkflw.md). 
+Straipsnyje paaiškinama, kaip nustatyti patvirtinimo darbo eigą, kuri bus vykdoma sukūrus naują nuomą. Informacijos apie tai, kaip naudoti darbo eigą, ieškokite [Nuomos tvirtinimo darbo eigų naudojimas](use-create-lease-wrkflw.md). 
 
 1. Eikite į **Turto nuoma \> Sąranka \> Nuomos darbo eiga**.
 2. Puslapyje **Nuomos darbo eiga** pasirinkite **Nauja**.

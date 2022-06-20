@@ -1,6 +1,6 @@
 ---
-title: Atsisakyti asmeniniams poreikiams pritaikytų rekomendacijų
-description: Šioje temoje pateikiama informacija, kaip galite leisti klientams atsisakyti asmeniniams poreikiams pritaikytų rekomendacijų, naudojant „Microsoft Dynamics 365 Commerce“.
+title: Personalizuotų rekomendacijų atsisakymas
+description: Šiame straipsnyje paaiškinama, kaip leisti klientams pasirinkti gauti pritaikytas rekomendacijas Microsoft Dynamics 365 Commerce.
 author: bebeale
 ms.date: 09/15/2020
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: f634e39fe8ca7ffecfd1952933cb82e1bfe7d5a8eec28a61e1d78d21847f95f6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 47de876a6f304ed5cb35bf075eadaafa4bf0fc7d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772942"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896932"
 ---
 # <a name="opt-out-of-personalized-recommendations"></a>Personalizuotų rekomendacijų atsisakymas
 
 [!include [banner](includes/banner.md)]
 
-Šioje temoje pateikiama informacija, kaip galite leisti klientams atsisakyti asmeniniams poreikiams pritaikytų rekomendacijų, naudojant „Microsoft Dynamics 365 Commerce“.
+Šiame straipsnyje paaiškinama, kaip leisti klientams pasirinkti gauti pritaikytas rekomendacijas Microsoft Dynamics 365 Commerce.
 
 Kuriant paskyrą, nauji klientai automatiškai gauna asmeniniams poreikiams pritaikytas rekomendacijas. Tačiau „Dynamics 365 Commerce“ siūlo įvairius būdus, kaip mažmenininkams leisti vartotojams atsisakyti gauti šias rekomendacijas ir apriboti jų asmeninių duomenų tvarkymą. Autentifikuoti vartotojai, kurie atsisako gauti asmeniniams poreikiams pritaikytas rekomendacijas, iškart nustos matyti asmeniniams poreikiams pritaikytus sąrašus. Be to, visi asmeniniai duomenys, kurie renkami asmeninių poreikių pritaikymui, bus pašalinti iš asmeniniams poreikiams pritaikytų rekomendacijų modelių.
 

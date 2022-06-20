@@ -1,6 +1,6 @@
 ---
 title: Paslaugų aplinkos
-description: Šioje temoje pateikiama informacija apie elektroninio SF išrašymo paslaugų aplinkas ir paaiškinama, kaip jas nustatyti.
+description: Šiame straipsnyje pateikiama informacija apie elektroninių SF išrašymo paslaugų aplinkas ir paaiškinama, kaip jas nustatyti.
 author: dkalyuzh
 ms.date: 02/28/2022
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dkalyuzh
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: a8a135098f71e1413cd20ff8ad4003f090ae3407
-ms.sourcegitcommit: ffdb6794746ffe5461f9dcf34ed8e64976d22d2d
+ms.openlocfilehash: 8c743c5b2fbc7dcc3ae04fa4d7ca0e65de6c2507
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "8371948"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901253"
 ---
 # <a name="service-environments"></a>Paslaugų aplinkos
 
@@ -37,7 +37,7 @@ Galite sukurti tiek aptarnavimo aplinkos, kiek jums reikia. Visos jūsų sukuria
 
 Aptarnavimo aplinkos turi būti sukurtos ir tvarkomos reguliavimo konfigūracijos tarnybos (RCS). Tada, kai jos parengtos, jos turi būti publikuojamos elektroninių SF išrašymo paslaugoje. Publikavimo procesas siunčia tarnybos aplinkos parametrus iš RCS egzemplioriaus į elektroninių SF išrašymo tarnybą.
 
-Jei negalite užbaigti publikavimo proceso, kai sukuriate naują paslaugų aplinką arba pakoreguokite esamą tarnybos aplinką (pvz., Microsoft Azure pridėdami arba pašalindami vartotojus arba pagrindinius Vault slaptus) pakeitimus negalėsite pritaikyti. Tik publikuotos aplinkos gali būti pasiekti per arba Dynamics 365 Finance Dynamics 365 Supply Chain Management.
+Jei negalite užbaigti publikavimo proceso, kai sukuriate naują paslaugų aplinką arba pakoreguokite esamą tarnybos aplinką (pvz., Microsoft Azure pridėdami arba pašalindami vartotojus arba pagrindinius Vault slaptus) pakeitimus negalėsite pritaikyti. "Dynamics 365 Finance" arba "Dynamics 365" gali pasiekti tik paskelbtas aplinkas Dynamics 365 Supply Chain Management.
 
 ## <a name="service-environment-statuses"></a>Aptarnavimo aplinkos būsenos
 
@@ -57,7 +57,7 @@ Kai kuriuose scenarijuose programos, ne finansų ar tiekimo grandinės valdymas,
 
 Kadangi Microsoft reikalauja aukšto lygio programų, kurios gali prisijungti prie elektroninių SF išrašymo tarnybos, saugos lygio, turite su Microsoft <DGXRegulatoryservicesengineering@service.microsoft.com> susisiekti ir pateikti toliau nurodytą informaciją apie savo programą:
 
-- „Azure AD“ nuomotojo ID
+- Azure AD nuomotojo ID
 - Microsoft Dynamics Ciklo tarnybų (LCS) aplinkos ID
 - Programos ID (kliento ID)
 - Objekto ID

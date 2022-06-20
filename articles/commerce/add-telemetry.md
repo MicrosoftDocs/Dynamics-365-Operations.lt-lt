@@ -1,6 +1,6 @@
 ---
-title: Įtraukite scenarijaus kodą į svetainės puslapius, kad būtų palaikoma telemetrija
-description: Šioje temoje aprašoma, kaip į savo svetainės puslapius įtraukti kliento scenarijaus kodą, kad būtų palaikoma kliento telemetrijos rinkimo galimybė.
+title: Įtraukti scenarijaus kodą į svetainės puslapius, kad būtų palaikoma telemetrija
+description: Šiame straipsnyje aprašoma, kaip įtraukti kliento scenarijaus kodą į savo svetainės puslapius, kad būtų galima palaikyti kliento telemetrijos rinkinį.
 author: bicyclingfool
 ms.date: 09/29/2020
 ms.topic: article
@@ -14,23 +14,23 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: f796a3e10345da41ff461b656d88affb3adbdf9e
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.openlocfilehash: 262216ee99d52e3d53f5f5dae663104bb79757c6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7964534"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8852846"
 ---
-# <a name="add-script-code-to-site-pages-to-support-telemetry"></a>Įtraukite scenarijaus kodą į svetainės puslapius, kad būtų palaikoma telemetrija
+# <a name="add-script-code-to-site-pages-to-support-telemetry"></a>Įtraukti scenarijaus kodą į svetainės puslapius, kad būtų palaikoma telemetrija
 
 [!include [banner](includes/banner.md)]
 
-Šioje temoje aprašoma, kaip į savo svetainės puslapius įtraukti kliento scenarijaus kodą, kad būtų palaikoma kliento telemetrijos rinkimo galimybė.
+Šiame straipsnyje aprašoma, kaip įtraukti kliento scenarijaus kodą į savo svetainės puslapius, kad būtų galima palaikyti kliento telemetrijos rinkinį.
 
 Žiniatinklio analizė yra esminė priemonė, kai norima suprasti, kaip klientai elgiasi jūsų svetainėje, ir priimti sprendimus, kurie padės optimizuoti maksimalaus konvertavimo tikslą. Šiems tikslams pasiekti yra daug žiniatinklio analizės paketų, pvz., „Google Analytics“, „Clicky“, „Moz Analytics“ ir „KISSMetrics“. Didžiajai daliai tinklo analitikos paketų turėsite įtraukti kliento pusės scenarijaus kodą  **\<head\>** HTML elemente visiems jūsų svetainės puslapiams.
 
 > [!NOTE]
-> Šioje temoje pateiktos instrukcijos taikomos ir kitoms pasirinktinėms kliento funkcijoms, kurių „Microsoft Dynamics 365 Commerce“ pati nesiūlo.
+> Šiame straipsnyje pateiktos instrukcijos taip pat taikomos kitoms pasirinktinės kliento programos funkcijoms Microsoft Dynamics 365 Commerce, kurios nėra čia pateiktas pasiūlymas.
 
 ## <a name="create-a-reusable-fragment-for-your-script-code"></a>Pakartotinai galimo naudoti fragmento sukūrimas scenarijaus kodui
 

@@ -1,6 +1,6 @@
 ---
 title: Darbas su moduliais
-description: Šioje temoje aprašoma, kaip ir kada naudoti modulius programoje „Microsoft Dynamics 365 Commerce“.
+description: Šiame straipsnyje aprašoma, kaip ir kada naudoti modulius dalyje Microsoft Dynamics 365 Commerce.
 author: phinneyridge
 ms.date: 09/15/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: ce16aa98a37cd5dec60bcdbf86f59f74810da9755a6d3514bdd3e38a21afb748
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c393f1e619647795a5ae8da3a78500c1678da9f6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6728269"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860197"
 ---
 # <a name="work-with-modules"></a>Darbas su moduliais
 
 [!include [banner](includes/banner.md)]
 
-Šioje temoje aprašoma, kaip ir kada naudoti modulius programoje „Microsoft Dynamics 365 Commerce“.
+Šiame straipsnyje aprašoma, kaip ir kada naudoti modulius dalyje Microsoft Dynamics 365 Commerce.
 
 Moduliai yra loginiai kūrimo blokai, kurie sudaro puslapio struktūrą, o jų paskirtis ir taikymo sritys yra įvairios. Kai kurie moduliai yra aukšto lygio konteineriai, o jų vienintelė paskirtis – laikyti ir organizuoti kitus modulius (antrinius modulius). Kitų modulių, pvz., paprasto vaizdų išdėstymo modulio, paskirtis yra labai konkreti. Kiti moduliai, pvz., karuselės modulis, patenka tarp šių dviejų kategorijų.
 
@@ -151,7 +151,7 @@ Norėdami konfigūruoti konteinerio modulį puslapyje, atlikite šiuos veiksmus.
 
 1. Savo puslapyje pasirinkite konteinerio modulį (pavyzdžiui, karuselės arba nepastovaus konteinerio modulį).
 1. Ypatybių srityje dešinėje išplėskite įdėtuosius valdiklius pasirinkdami antraštes, tada nustatykite bet kokias reikiamas valdiklių reikšmes.
-1. Struktūros srityje kairėje šalia konteinerio arba bet kokių konteineryje esančių vietų pavadinimo pasirinkite daugtaškio mygtuką, tada pasirinkite **Įtraukti modulį**. Tada į pasirinktą konteinerį įtraukite antrinių modulių. Daugiau informacijos žr. ankstesniame šios temos skyriuje [Darbas su moduliais](#add-a-module).
+1. Struktūros srityje kairėje šalia konteinerio arba bet kokių konteineryje esančių vietų pavadinimo pasirinkite daugtaškio mygtuką, tada pasirinkite **Įtraukti modulį**. Tada į pasirinktą konteinerį įtraukite antrinių modulių. Norėdami gauti daugiau informacijos, žr. anksčiau [šiame straipsnyje skyriuje](#add-a-module) Darbas su moduliais.
 1. Jei pirminiame konteineryje yra keli tos pačios kilmės antriniai moduliai, galite pakeisti jų rodymo pirminiame konteineryje tvarką. Pasirinkite modulio daugtaškio mygtuką, tada naudokite rodyklės aukštyn arba rodyklės žemyn mygtukus.
 
 ## <a name="additional-resources"></a>Papildomi ištekliai

@@ -1,6 +1,6 @@
 ---
 title: „Field Service“ darbo užsakymų sinchronizavimas su „Supply Chain Management“ pardavimo užsakymais
-description: Šioje temoje aptariami šablonai ir pagrindinės užduotys, naudojami sinchronizuojant „Field Service“ darbo užsakymus su „Supply Chain Management“ pardavimo užsakymais.
+description: Šiame straipsnyje aptariamas šablonas ir su tuo susijusių užduočių, kurios naudojamos sinchronizuojant "Field Service" darbo užsakymus su tiekimo grandinės valdymo pardavimo užsakymais.
 author: Henrikan
 ms.date: 04/09/2018
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: henrikan
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: b7b311701aff12d58392fc036d0f1174678b7dc3
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: e64c9a954e8f5c4410f8ba370b40b7c6e76e8ae0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8061314"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860528"
 ---
 # <a name="synchronize-work-orders-in-field-service-to-sales-orders-in-supply-chain-management"></a>„Field Service“ darbo užsakymų sinchronizavimas su „Supply Chain Management“ pardavimo užsakymais
 
@@ -29,7 +29,7 @@ ms.locfileid: "8061314"
 
 
 
-Šioje temoje aptariami šablonai ir pagrindinės užduotys, naudojami sinchronizuojant „Dynamics 365 Field Service“ darbo užsakymus su „Dynamics 365 Supply Chain Management“ pardavimo užsakymus.
+Šiame straipsnyje aptariamos šablonus ir su juos susijusias užduotis, kurios naudojamos pardavimo užsakymų darbo Dynamics 365 Field Service užsakymams sinchronizuoti Dynamics 365 Supply Chain Management.
 
 [![„Supply Chain Management“ ir „Field Service“ verslo procesų sinchronizavimas.](./media/field-service-integration.png)](./media/field-service-integration.png)
 
@@ -165,7 +165,7 @@ Norėdami sekti pardavimo užsakymus, kurie sukurti iš darbo užsakymų, galite
 
 Pagal numatytuosius parametrus susiejant pasirenkama visų pardavimo užsakymų, kurie sukurti iš darbo užsakymų, pardavimo kilmės tipo **Darbo užsakymo integravimas** pardavimo kilmė. Tai gali būti naudinga, kai dirbate su pardavimo užsakymu „Supply Chain Management“. Turite įsitikinti, kad pardavimo užsakymai, kilę iš darbo užsakymų, nėra atgaliniu ryšiu sinchronizuojami su „Field Service“ kaip darbo užsakymai.
 
-Informacijos apie tai, kaip kurti teisingą pardavimo kilmės sąranką „Supply Chain Management“, žr. šios temos dalyje „Išankstinės sąlygos ir susiejimo nustatymas“.
+Išsamesnės informacijos apie tai, kaip sukurti teisingą pardavimo šaltinio nustatymą tiekimo grandinės valdymo srityje, žr. šio straipsnio skyriuje "Išankstinės sąlygos ir susiejimo nustatymas".
 
 ### <a name="status"></a>Būsena
 

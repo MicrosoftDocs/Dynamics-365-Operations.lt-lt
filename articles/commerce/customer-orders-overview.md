@@ -1,6 +1,6 @@
 ---
 title: Kliento užsakymai elektroniniame kasos aparate (EKA)
-description: Šioje temoje pateikta informacija apie kliento užsakymus elektroniniame kasos aparate (EKA). Kliento užsakymai dar vadinami specialiais užsakymais. Šioje temoje pateikta susijusių parametrų ir operacijų srautų apžvalga.
+description: Šiame straipsnyje pateikiama informacija apie kliento užsakymus, kurie pateikti kasos įstaigose (EKA). Kliento užsakymai dar vadinami specialiais užsakymais. Straipsnis apima diskusiją apie susijusius parametrus ir operacijų srautus.
 author: josaw1
 ms.date: 08/02/2021
 ms.topic: overview
@@ -18,18 +18,18 @@ ms.search.industry: Retail
 ms.author: anpurush
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 9ebdad47d761f775cf26666dc3e2736818fb4832
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 6051e0a18823b354dd9940aac70a086a0f317002
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982823"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850387"
 ---
 # <a name="customer-orders-in-point-of-sale-pos"></a>Kliento užsakymai elektroniniame kasos aparate (EKA)
 
 [!include [banner](includes/banner.md)]
 
-Šioje temoje pateikta informacija apie tai, kaip kurti ir valdyti kliento užsakymus elektroniniame kasos aparate (EKA). Kliento užsakymai gali būti naudojami pardavimams užfiksuoti, kai pirkėjai nori pasiimti produktus vėliau, pasiimti produktus iš kitos vietos arba kad prekės jiems būtų atsiųstos. 
+Šiame straipsnyje pateikiama informacija apie tai, kaip kurti ir valdyti klientų užsakymus point point sale (EKA) programoje. Kliento užsakymai gali būti naudojami pardavimams užfiksuoti, kai pirkėjai nori pasiimti produktus vėliau, pasiimti produktus iš kitos vietos arba kad prekės jiems būtų atsiųstos. 
 
 Integruotų kanalų prekyboje dauguma pardavėjų suteikia galimybę kurti klientų užsakymus (arba specialius užsakymus) įvairiems produktų ir vykdymo reikalavimams įvykdyti. Toliau nurodomi įprasti scenarijai.
 

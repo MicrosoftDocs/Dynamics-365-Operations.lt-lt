@@ -1,6 +1,6 @@
 ---
 title: Elektroninių ataskaitų (ER) apžvalga
-description: Šioje temoje pateikiama elektroninių ataskaitų įrankio apžvalga. Aprašomos pagrindinės koncepcijos, palaikomi scenarijai ir formatai, kurie yra sprendimo dalis.
+description: Šiame straipsnyje pateikiama elektroninės ataskaitos įrankio apžvalga. Aprašomos pagrindinės koncepcijos, palaikomi scenarijai ir formatai, kurie yra sprendimo dalis.
 author: NickSelin
 ms.date: 11/02/2021
 ms.topic: overview
@@ -17,18 +17,18 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 976a02f51e22c513b988e1ecfcb792d5f93a4b54
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 65f7a642d3b2c2ddfca1e2d92570b49ef2f8c2b4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7986152"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8869263"
 ---
 # <a name="electronic-reporting-er-overview"></a>Elektroninių ataskaitų (ER) apžvalga
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje pateikiama elektroninių ataskaitų (ER) įrankio apžvalga. Jame yra informacijos apie pagrindines koncepcijas, ER palaikomus scenarijus ir išvardyti formatai, kurie sukurti ir išleisti kaip sprendimo dalis.
+Šiame straipsnyje pateikiama elektroninių ataskaitų (ER) įrankio apžvalga. Jame yra informacijos apie pagrindines koncepcijas, ER palaikomus scenarijus ir išvardyti formatai, kurie sukurti ir išleisti kaip sprendimo dalis.
 
 ER yra konfigūruojamas įrankis, padedantis kurti ir prižiūrėti reguliavimo elektronines ataskaitas ir mokėjimus. Jis remiasi šiomis trimis sąvokomis:
 
@@ -39,7 +39,7 @@ ER yra konfigūruojamas įrankis, padedantis kurti ir prižiūrėti reguliavimo 
     - Vaizdo doroklis naudojamas visiems ER konfigūracijos komponentams kurti.
     - Duomenų transformacijai naudojama kalba yra panaši į kalbą, kuri naudojama Microsoft Excel.
 
-- Viena kelių leidimų Dynamics 365 Finance konfigūracija:
+- Viena konfigūracija, skirta keliems "Dynamics 365" finansų paleidimams:
 
     - Tvarkyti vieną domeno duomenų modelį, apibrėžtą verslo sąlygose.
     - Isolate programos paleidimo informacija nuo paleidimo priklausomų duomenų modelio susiejimuose.
@@ -48,7 +48,7 @@ ER yra konfigūruojamas įrankis, padedantis kurti ir prižiūrėti reguliavimo 
 - Paprastas arba automatinis atnaujinimas:
 
     - Palaikomas ER konfigūracijų versijos kopijavimas.
-    - Ciklo tarnybų (LCS) turto biblioteką galima naudoti kaip ER konfigūracijų Microsoft Dynamics saugyklą, kad būtų galima atlikti versijų mainus.
+    - Ciklo Microsoft Dynamics tarnybų (LCS) turto biblioteką galima naudoti kaip ER konfigūracijų saugyklą, kad būtų galima atlikti versijų mainus.
     - Lokalizavimus, paremtus originalia ER konfigūracija, galima įtraukti kaip antines versijas.
     - ER konfigūracijos medis pateikiamas kaip įrankis, padedantis valdyti versijų priklausomybes.
     - Lokalizavimo arba pokyčių konfigūracijos skirtumai įrašomi, kad įgalintumėte automatinį pradinės ER konfigūracijos versijos atnaujinimą.
@@ -60,7 +60,7 @@ Galite naudoti ER gaunamų ir siunčiamų elektroninių dokumentų formatams kon
 
 ER mechanizmas skirtas verslo vartotojui, o ne kūrėjui. Kadangi galite konfigūruoti formatus, o ne kodą, elektroninių dokumentų formatų kūrimo ir pritaikymo procesas greitesnis ir lengvesnis.
 
-ER šiuo metu palaiko TEXT, XML, JSON, PDF, Microsoft Word, Microsoft Excel ir OPENXML darbalapių formatus.
+ER šiuo metu palaiko TEXT, XML, JSON, PDF, Microsoft Word, ir Microsoft Excel OPENXML darbalapių formatus.
 
 ## <a name="capabilities"></a>Galimybės
 

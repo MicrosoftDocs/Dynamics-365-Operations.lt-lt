@@ -1,6 +1,6 @@
 ---
 title: ER sprendimų našumo didinimas įtraukiant parametrizuotų duomenų šaltinių APSKAIČIUOTAS LAUKAS
-description: Šioje temoje paaiškinama, kaip galite padėti padidinti elektroninių ataskaitų (ER) sprendimų našumą įtraukdami parametrizuotų duomenų šaltinių APSKAIČIUOTAS LAUKAS.
+description: Šiame straipsnyje paaiškinama, kaip galite padėti pagerinti elektroninių ataskaitų (ER) sprendimų našumą pridėdami parametrizuotus apskaičiuotų laukų duomenų šaltinius.
 author: NickSelin
 ms.date: 04/23/2021
 ms.topic: article
@@ -14,32 +14,32 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 5fada2fc0b35e22da18f5d6a0505df077d5ada4e0221031d63c316d8c705bc79
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8c2c0499ac3d41c9bb6026cc05f971087799c28f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6753675"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850120"
 ---
 # <a name="improve-the-performance-of-er-solutions-by-adding-parameterized-calculated-field-data-sources"></a>ER sprendimų našumo didinimas įtraukiant parametrizuotų duomenų šaltinių APSKAIČIUOTAS LAUKAS
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje aiškinama, kaip galima naudoti vykdomų [elektroninių ataskaitų (ER)](general-electronic-reporting.md) formatų [našumo sekimo](trace-execution-er-troubleshoot-perf.md) informaciją našumo gerinimui sukonfigūruojant parametruojamą duomenų šaltinį **Apskaičiuotas laukas**.
+Šiame straipsnyje paaiškinama, kaip atlikti elektroninių ataskaitų (ER) formatų našumo sekimą, [ir](trace-execution-er-troubleshoot-perf.md) kaip naudoti šių sekų informaciją, kad būtų pagerintas [našumas](general-electronic-reporting.md)**konfigūruojant parametrą Apskaičiuotas lauko duomenų šaltinis.**
 
 Kurdami ER konfigūracijas, kuriomis naudojantis generuojami verslo dokumentai, nurodote būdą, kuriuo naudodamiesi gaunate duomenis iš programos, ir įvedate jį į sugeneruotą išvestį. Sukūrę parametrizuotą ER duomenų šaltinį **Apskaičiuotas laukas**, galite sumažinti duomenų bazės skambučių skaičių ir žymiai sumažinti laiką ir išlaidas, susijusias su ER formato vykdymo informacijos rinkimu.
 
 ## <a name="prerequisites"></a>Būtinieji komponentai
 
-- Norėdami atlikti šioje temoje pateiktus pavyzdžius, turite turėti prieigą prie vieno iš toliau nurodytų [vaidmenų](../sysadmin/tasks/assign-users-security-roles.md).
+- Norėdami užbaigti pavyzdžius šiame straipsnyje, turite turėti prieigą prie vieno iš šių [vaidmenų](../sysadmin/tasks/assign-users-security-roles.md):
 
     - Elektroninės ataskaitos kūrėjas
     - Elektroninės ataskaitos funkcijų konsultantas
     - Sistemos administratorius
 
 - Įmonė turi būti nustatyta kaip **DEMF**.
-- Norėdami atsisiųsti pavyzdinio „Microsoft“ ER sprendimo, kurio reikia šios temos pavyzdžiams įvykdyti, komponentus, atlikite šios temos [1 priede](#appendix1) nurodytus veiksmus.
-- Norėdami sukonfigūruoti minimalų ER parametrų rinkinį, kurio reikia norint naudoti ER sistemą, kad būtų galima pagerinti pavyzdinio „Microsoft“ ER sprendimo našumą, atlikite šios temos [2 priede](#appendix2) nurodytus veiksmus.
+- Norėdami atsisiųsti pavyzdinio ["Microsoft ER" sprendimo, kurio reikia norint pateikti pavyzdžius šiame straipsnyje, komponentus, atlikite šio straipsnio 1](#appendix1) priedą.
+- Norėdami sukonfigūruoti [minimalų ER parametrų rinkinį, reikalingą naudojant ER sistemą, kad būtų pagerintas "Microsoft ER" sprendimo pavyzdžio našumas, atlikite šio straipsnio 2](#appendix2) priedą.
 
 ## <a name="import-the-sample-er-solution"></a>Pavyzdinio ER sprendimo importavimas
 
@@ -47,8 +47,8 @@ Tarkime, kad turite sukurti ER sprendimą, kad būtų sugeneruota nauja ataskait
 
 Pirmas veiksmas yra importuoti pavyzdinį ER sprendimą, kad būtų galima sugeneruoti tiekėjo operacijų ataskaitą.
 
-1. Prisijunkite prie jūsų įmonei sukurto „Microsoft Dynamics 365 Finance” egzemplioriaus.
-2. Šioje temoje kursite ir modifikuosite pavyzdinės įmonės **„Litware, Inc.“** konfigūracijas. Įsitikinkite, kad šis konfigūracijos teikėjas buvo įtrauktas į jūsų „Finance“ egzempliorių ir pažymėtas kaip aktyvus. Daugiau informacijos žr. [Konfigūracijos teikėjų kūrimas, pažymint juos kaip aktyvius](tasks/er-configuration-provider-mark-it-active-2016-11.md).
+1. Prisiregistruokite prie Microsoft Dynamics 365 finansų egzemplioriaus, kuris skirtas jūsų įmonei.
+2. Šiame straipsnyje jūs sukursite ir keisite Litware **, Inc. pavyzdžio įmonės** konfigūracijas. Įsitikinkite, kad šis konfigūracijos teikėjas buvo įtrauktas į jūsų „Finance“ egzempliorių ir pažymėtas kaip aktyvus. Daugiau informacijos žr. [Konfigūracijos teikėjų kūrimas, pažymint juos kaip aktyvius](tasks/er-configuration-provider-mark-it-active-2016-11.md).
 3. Darbo srityje **Elektroninės ataskaitos** pasirinkite plytelę **Ataskaitų konfigūracijos**.
 4. Puslapyje **Konfigūracijos** importuokite į „Finance” kaip būtinąjį komponentą atsisiųstas ER konfigūracijas tokia tvarka: duomenų modelis, modelio susiejimas, formatas. Kurdami kiekvieną konfigūraciją atlikite toliau nurodytus veiksmus.
 
@@ -220,7 +220,7 @@ Atlikite toliau pateiktus veiksmus, norėdami naudoti kaupimą talpykloje ir duo
 
 ## <a name="run-the-modified-er-solution-to-trace-execution"></a>Modifikuoto ER vykdymo sekimo sprendimo vykdymas
 
-Pakartoję ankstesniame šios temos skyriuje [ER formato vykdymas](#run-format) nurodytus veiksmus sugeneruokite naują našumo sekimą.
+Norėdami sugeneruoti naują našumo sekimą [, pakartokite](#run-format) anksčiau šiame straipsnyje skyriuje Vykdyti ER formatą nurodytus veiksmus.
 
 ## <a name="use-the-performance-trace-to-analyze-adjustments-to-the-model-mapping"></a>Našumo sekimo naudojimas modelio susiejimo koregavimams analizuoti 
 

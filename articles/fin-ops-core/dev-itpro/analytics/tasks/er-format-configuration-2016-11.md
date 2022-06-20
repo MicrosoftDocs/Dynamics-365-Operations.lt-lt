@@ -1,6 +1,6 @@
 ---
 title: 'ER: formato konfigūracijos kūrimas (2016 m. lapkričio mėn.)'
-description: Šioje temoje paaiškinama, kaip sukurti elektroninių ataskaitų (ER) formato konfigūraciją.
+description: Šiame straipsnyje paaiškinama, kaip sukurti elektroninių ataskaitų (ER) formato konfigūraciją.
 author: NickSelin
 ms.date: 08/02/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5d59f0f7c914cc6d59ae441e6f6b8ff249a3e9c03c6ee4b4a75421d875f826a0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2617f33293c38b7f1aaa61fda7d8de06711c6727
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6728218"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8902660"
 ---
 # <a name="er-create-a-format-configuration-november-2016"></a>ER: formato konfigūracijos kūrimas (2016 m. lapkričio mėn.)
 
 [!include [banner](../../includes/banner.md)]
 
-Šioje temoje aiškinama, kaip sistemos administratoriaus arba elektroninių ataskaitų kūrėjo vaidmenį turintis vartotojas gali kurti formato konfigūraciją elektroninėms ataskaitoms (ER). Ši formato konfigūracija apibrėš mokėjimų apdorojimui naudojamų elektroninių dokumentų formatą. Šiame pavyzdyje sukursite pavyzdinės įmonės „Litware, Inc“ formato konfigūraciją. Norėdami atlikti šiuos veiksmus, pirmiausia turite atlikti procedūros „Modelio susiejimas su duomenų šaltiniais“ veiksmus.
+Šiame straipsnyje paaiškinama, kaip sistemos administratoriaus arba elektroninių ataskaitų kūrėjo vaidmens vartotojas gali sukurti elektroninių ataskaitų (ER) formato konfigūraciją. Ši formato konfigūracija apibrėš mokėjimų apdorojimui naudojamų elektroninių dokumentų formatą. Šiame pavyzdyje sukursite pavyzdinės įmonės „Litware, Inc“ formato konfigūraciją. Norėdami atlikti šiuos veiksmus, pirmiausia turite atlikti procedūros „Modelio susiejimas su duomenų šaltiniais“ veiksmus.
 
 
 ## <a name="create-a-new-format-configuration"></a>Kurti naują formato konfigūraciją

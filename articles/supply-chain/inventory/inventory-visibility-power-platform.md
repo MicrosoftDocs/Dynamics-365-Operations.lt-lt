@@ -1,8 +1,8 @@
 ---
 title: Atsargų matomumo programa
-description: Šioje temoje aprašoma, kaip naudoti atsargų matomumo programą.
+description: Šiame straipsnyje aprašoma, kaip naudoti programą Atsargų matomumas.
 author: yufeihuang
-ms.date: 08/02/2021
+ms.date: 05/27/2022
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -11,19 +11,19 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 359f89f98ca6954a0bbafd63fffa1d505a43f0c8
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: db158e3b6ae76f69149db04096f99d3dc4251146
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8060977"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895763"
 ---
-# <a name="use-the-inventory-visibility-app"></a>Atsargų matomumo programos naudojimas
+# <a name="use-the-inventory-visibility-app"></a>Naudoti „Inventory Visibility“ programą
 
 [!include [banner](../includes/banner.md)]
 
 
-Šioje temoje aprašoma, kaip naudoti atsargų matomumo programą.
+Šiame straipsnyje aprašoma, kaip naudoti programą Atsargų matomumas.
 
 Atsargų matomumas suteikia modeliu pagrįstą programą vizualizacijai. Programą sudaro trys puslapiai: **Konfigūracija**, **Veiklos matomumas** ir **Atsargų suvestinė**. Jam būdingos šios funkcijos:
 
@@ -70,7 +70,10 @@ Norėdami registruoti rezervavimo užklausą, turite įvesti vertę užklausos t
 
 ## <a name="inventory-summary"></a><a name="inventory-summary"></a>Atsargų suvestinė
 
-**Atsargų suvestinė** yra pritaikytas atsargų atsargų *sumos objekto rodinys* asmuo. Joje pateikiama produktų atsargų suvestinė kartu su visomis dimensijomis. Atsargų suvestinės duomenys bus periodiškai sinchronizuojami pagal atsargų matomumą. Kad būtų galima matyti duomenis **Atsargų santrauka** skirtukas, turite įjungti *OnHandMostSpecificBackgroundService* funkciją **Funkcijų valdymas** skirtuke.
+**Atsargų suvestinė** yra pritaikytas atsargų atsargų *sumos objekto rodinys* asmuo. Joje pateikiama produktų atsargų suvestinė kartu su visomis dimensijomis. Atsargų suvestinės duomenys periodiškai sinchronizuojami nuo atsargų matomumo kas 15 minučių. Norėdami matyti duomenis atsargų **suvestinės skirtuke,** turite įjungti funkciją *OnHandMostSpecificBackgroundService* **skirtuke Funkcijų valdymas ir pasirinkti** Naujinti konfigūraciją.**·**
+
+> [!NOTE]
+> OnHandMostSpecificBackgroundService *funkcija* seka tik turimo produkto keitimus, kurie įvyko po to, kai buvo įjungta funkcija. Produktų, kurie nebuvo pakeisti nuo tada, kai įjungta funkcija, duomenys nebus sinchronizuoti iš atsargų tarnybos talpyklos į aplinką Dataverse. Jei jūsų **atsargų** suvestinės puslapis nerodo visos turimos informacijos, kurios tikitės, **eikite į Atsargų valdymo > Periodinės užduotys > Atsargų matomumo integravimas**, uždrauskite paketinę užduotį ir vėl ją įjunkite. Taip bus inicijuotas stūmiimas ir visi duomenys *bus sinchronizuoti su atsargų sumos objektu* per kitas 15 minučių. Jei norite naudoti šią priemonę, **rekomenduojame ją įjungti prieš kuriant turimų atsargų pakeitimus ir įgalinti atsargų matomumo integravimo paketinę** užduotį.
 
 Naudodami **išplėstinį filtrą**, kuris suteikia „Dataverse“, galite sukurti asmeninį rodinį, kuriame būtų rodomos jums svarbios eilutės. Išplėstinės filtro pasirinktys leidžia jums sukurti platų rodinių diapazoną – nuo paprasto iki kompleksinio. Jos taip pat leidžia į filtrus įtraukti sugrupuotas ir įdėtąsias sąlygas. Norėdami sužinoti daugiau apie tai, kaip naudoti **išplėstinį filtrą**, žr. [Redaguoti arba kurti asmeninius rodinius naudojant išplėstinius tinklelių filtrus](/powerapps/user/grid-filters-advanced).
 

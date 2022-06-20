@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 74430aadc661a49e330960135ce7b0912079f79b
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.openlocfilehash: 1407c6def22b9759723e49fb2fa6d4d68f180891
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8644467"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860170"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>Duomenų importavimo ir eksportavimo užduočių apžvalga
 
@@ -29,7 +29,7 @@ ms.locfileid: "8644467"
 Norint kurti ir valdyti duomenų importavimo bei eksportavimo užduotis, naudojama darbo sritis **Duomenų valdymas**. Pagal numatytuosius parametrus duomenų importavimo ir eksportavimo procesas kiekvienam paskirties duomenų bazės objektui sukuria išdėstymo lentelę. Naudodami išdėstymo lenteles, galite, prieš perkeldami duomenis, juos patikrinti, išvalyti ar konvertuoti.
 
 > [!NOTE]
-> Šioje temoje laikoma, kad esate susipažinę su [duomenų objektais](data-entities.md).
+> Šiame straipsnyje laikoma, kad jūs žinote su duomenų [objektais](data-entities.md).
 
 ## <a name="data-importexport-process"></a>Duomenų importavimo / eksportavimo procesas
 Toliau pateikti duomenų importavimo arba eksportavimo veiksmai.
@@ -48,7 +48,7 @@ Toliau pateikti duomenų importavimo arba eksportavimo veiksmai.
 5. Peržiūrėdami užduočių retrospektyvą patikrinkite, ar užduotis buvo vykdyta taip, kaip tikėtasi.
 6. Išvalykite išdėstymo lenteles.
 
-Likusiuose šios temos skyriuose pateikiama daugiau informacijos apie kiekvieną proceso veiksmą.
+Likusiuose šio straipsnio skyriuose pateikiama daugiau informacijos apie kiekvieną proceso veiksmą.
 
 > [!NOTE]
 > Naudokite formos atnaujinimo piktogramą, kad atnaujintumėte duomenų importavimo / eksportavimo formą ir matytumėte naujausią eigą. Nerekomenduojama atnaujinti naršyklės lygio, nes ji nutrauks bet kokias importavimo / eksportavimo užduotis, kurios bys vykdomos ne bendrame pakete.

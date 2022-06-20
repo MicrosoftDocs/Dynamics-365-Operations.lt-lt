@@ -1,6 +1,6 @@
 ---
 title: Konfigūracijų kūrimas dokumentams „Excel“ formatu generuoti
-description: Šioje temoje apibūdinama, kaip kurti Elektroninės ataskaitos (ER) formatą, kad būtų galima pildyti „Excel“ šabloną, o tada generuoti siunčiamus „Excel“ formato dokumentus.
+description: Šiame straipsnyje aprašoma, kaip sukurti elektroninių ataskaitų (ER) formatą, norint užpildyti "Excel" šabloną, ir tada sugeneruoti siunčiamus "Excel" formato dokumentus.
 author: NickSelin
 ms.date: 05/09/2022
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4a34f990c865aa8c82213a60c23d5a44ad75aee4
-ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
+ms.openlocfilehash: 4660aaf438ee091eed30387d984746ac2c3b4bd7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/28/2022
-ms.locfileid: "8811426"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854820"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>Konfigūracijos, skirtos dokumentams „Excel“ formatu generuoti, kūrimas
 
@@ -28,7 +28,7 @@ ms.locfileid: "8811426"
 
 Galite sukurti elektroninės ataskaitos [(ER)](general-electronic-reporting.md) formato konfigūraciją, kuri turi ER formato komponentą, kurį galite konfigūruoti, kad sugeneruotų siunčiamą dokumentą darbaknygės Microsoft Excel formatu. Šiam tikslui reikia naudoti konkrečius ER formato komponentus.
 
-Norėdami daugiau sužinoti apie šią funkciją, atlikite veiksmus, aprašytus temoje [Konfigūracijos, skirtos ataskaitoms OPENXML formatu generuoti, kūrimas](tasks/er-design-reports-openxml-2016-11.md).
+Norėdami daugiau sužinoti apie šią funkciją, atlikite straipsnyje nurodytus veiksmus, [sukurkite konfigūraciją ataskaitoms openXML formatu generuoti](tasks/er-design-reports-openxml-2016-11.md).
 
 ## <a name="add-a-new-er-format"></a>Naujo ER formato įtraukimas
 
@@ -263,7 +263,7 @@ Vienam **Lapas** komponentui, galite pridėti kelis **Poraštė** komponentus, k
 
 Po pridėto **Poraštė** komponentu pridėkite **Tekstas\\Eilutė**, **Tekstas\\Datos laikas** arba kito tipo būtinus įdėtus komponentus. Norėdami nurodyti, kaip užpildoma jūsų puslapio poraštė, sukonfigūruokite tų komponentų susiejimus.
 
-Taip pat galite naudoti specialius [formatavimo kodus](/office/vba/excel/concepts/workbooks-and-worksheets/formatting-and-vba-codes-for-headers-and-footers) norėdami teisingai suformuoti sugeneruotos poraštės turinį. Norėdami sužinoti, kaip naudoti šį būdą, atlikite [1 pavyzdyje](#example-1) žemiau šioje temoje aprašytus veiksmus.
+Taip pat galite naudoti specialius [formatavimo kodus](/office/vba/excel/concepts/workbooks-and-worksheets/formatting-and-vba-codes-for-headers-and-footers) norėdami teisingai suformuoti sugeneruotos poraštės turinį. Norėdami sužinoti, kaip naudoti šį būdą, atlikite [1](#example-1) pavyzdyje nurodytus veiksmus, ir toliau šiame straipsnyje.
 
 > [!NOTE]
 > Konfigūruodami ER formatus, nepamirškite atsižvelgti į „Excel” [limitą](https://support.microsoft.com/office/excel-specifications-and-limits-1672b34d-7043-467e-8e27-269d656771c3) ir didžiausią vienos antraštės ar poraštės simbolių skaičių.

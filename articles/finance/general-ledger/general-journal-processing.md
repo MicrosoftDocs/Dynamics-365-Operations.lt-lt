@@ -1,6 +1,6 @@
 ---
 title: Bendrųjų žurnalų apdorojimas
-description: Šioje temoje Microsoft Dynamics aprašomos 365 finansų galimybės, kurios padeda palengvinti bendrojo žurnalo apdorojimą, ir taip pat gali padėti užtikrinti, kad bus užfiksuoti teisingi duomenys ir nebus pažeista vidinė kontrolė.
+description: Šiame straipsnyje aprašomos Microsoft Dynamics "365" finansų galimybės, kurios padeda palengvinti bendrojo žurnalo apdorojimą, ir taip pat padeda užtikrinti, kad bus užfiksuoti teisingi duomenys ir nebus pažeista vidinė kontrolė.
 author: kweekley
 ms.date: 02/28/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9cfe4af0c666fb2accb6737edb2de6e0b6e7cdf1
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: 2055c028f7bfe8edc9faec8f791fff2fbfe08bfa
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8720033"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896382"
 ---
 # <a name="general-journal-processing"></a>Bendrųjų žurnalų apdorojimas
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje aprašytos programos galimybės, galinčios padėti lengviau atlikti bendrąjį žurnalo apdorojimą, taip pat gali padėti užtikrinti, kad užfiksuoti tinkami duomenys ir nėra pažeidžiama vidinė kontrolė.  
+Šiame straipsnyje aprašomos galimybės, kurios gali palengvinti bendrojo žurnalo apdorojimą, taip pat padeda užtikrinti, kad bus užfiksuoti teisingi duomenys, o vidinės kontrolės funkcijos nebus pažeistos.  
 
 ## <a name="journal-names"></a>Žurnalų pavadinimai
 

@@ -1,6 +1,6 @@
 ---
 title: Vartotojų kainų indekso grafikas
-description: Šioje temoje paaiškinama, kaip sukurti vartotojo kainų indeksų (CPI) grafikų, kuriuos gaunate iš interneto, sąrašą, kad padėtumėte nustatyti perskyrimo mokestį abonemento sąskaitose.
+description: Šiame straipsnyje paaiškinama, kaip sukurti vartotojo kainų indeksų (CPI) grafikų, kuriuos gaunate iš interneto, sąrašą, kad padėtumėte nustatyti perskyrimo mokestį abonemento sąskaitose.
 author: JodiChristiansen
 ms.date: 11/04/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: 54114fae25565ed1aae7056ef9be5a4a159291e9
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: f08b79ee00baab3713d9ccc24a7595b1de7a7768
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8686525"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904879"
 ---
 # <a name="consumer-price-index-schedule"></a>Vartotojų kainų indekso grafikas
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje paaiškinama, kaip kurti, naikinti, peržiūrėti ir apdoroti vartotojo kainos indekso (CPI) grafikus. CPI grafikas gali būti naudojamas nustatyti vartotojų prekių ir paslaugų kainas, kurias pridedate kaip sąskaitų pateikimo grafiko eilutes. Tada CPI grafiką galima naudoti su perskyrimo ir nuolaidos kainomis atsiskaitymo grafike, arba jis gali būti apdorojamas rankiniu būdu, norint atnaujinti atsiskaitymo sumas sąskaitų pateikimo grafikuose. Galite rankiniu būdu įvesti CPI grafikus arba importuoti juos naudodami CPI grafiko sudėtinį objektą.
+Šiame straipsnyje paaiškinama, kaip kurti, naikinti, peržiūrėti ir apdoroti vartotojo kainos indekso (CPI) grafikus. CPI grafikas gali būti naudojamas nustatyti vartotojų prekių ir paslaugų kainas, kurias pridedate kaip sąskaitų pateikimo grafiko eilutes. Tada CPI grafiką galima naudoti su perskyrimo ir nuolaidos kainomis atsiskaitymo grafike, arba jis gali būti apdorojamas rankiniu būdu, norint atnaujinti atsiskaitymo sumas sąskaitų pateikimo grafikuose. Galite rankiniu būdu įvesti CPI grafikus arba importuoti juos naudodami CPI grafiko sudėtinį objektą.
 
 Norėdami įtraukti CPI grafiką, atlikite šiuos veiksmus.
 

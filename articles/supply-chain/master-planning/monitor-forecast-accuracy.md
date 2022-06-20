@@ -1,6 +1,6 @@
 ---
 title: Prognozės tikslumo stebėjimas
-description: Šioje temoje aprašomi prognozės tikslumo, kurį apskaičiuoja „Dynamics 365 Supply Chain Management“, tipai, ir paaiškinama, kaip galima peržiūrėti tikslumo reikšmes.
+description: Šiame straipsnyje aprašomi prognozės tikslumo, kurį apskaičiuoja „Dynamics 365 Supply Chain Management“, tipai, ir paaiškinama, kaip galima peržiūrėti tikslumo reikšmes.
 author: t-benebo
 ms.date: 01/07/2020
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 14d23ae800240ebb10ae085acf3ed981a22f1574
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: ebde5ab90b9345b3d6f28ea98650b3b29021c304
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8470295"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893358"
 ---
 # <a name="monitor-forecast-accuracy"></a>Prognozės tikslumo stebėjimas
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje aprašomi prognozės tikslumo, kurį apskaičiuoja „Microsoft Dynamics 365 Supply Chain Management“, tipai, ir paaiškinama, kaip galima peržiūrėti tikslumo reikšmes.
+Šiame straipsnyje aprašomi prognozės tikslumo, kurį "Microsoft Dynamics 365 Supply Chain Management " apskaičiuoja, tipai ir paaiškinama, kaip galima peržiūrėti tikslumo vertes.
 
 „Supply Chain Management“ apskaičiuoja toliau nurodytų tipų prognozės tikslumą.
 

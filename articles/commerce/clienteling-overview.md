@@ -1,6 +1,6 @@
 ---
 title: Ryšių su klientais apžvalga
-description: Šioje temoje pateikiama klientavimo galimybių, teikiamų parduotuvės programoje, apžvalga.
+description: Šiame straipsnyje pateikta naujų kliento galimybių, kurias galima naudoti parduotuvės programoje, apžvalga.
 author: bebeale
 ms.date: 02/01/2021
 ms.topic: overview
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2018-10-01
 ms.dyn365.ops.version: Version 10.0.7
-ms.openlocfilehash: b1e1b7a67141ffec01d926b7f917ebd4e1f24741
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 3d60004367840208f239d69220b3c181109f83d8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984601"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885616"
 ---
 # <a name="clienteling-overview"></a>Ryšių su klientais apžvalga
 
@@ -81,7 +81,7 @@ Norėdami savo aplinkoje įjungti klientavimo funkciją, atlikite toliau nurodyt
     - Nustatykite šių atributų rodymo tvarką. Šia rodymo tvarka nustatoma, kokie atributai turėtų būti rodomi klientų knygos kliento kortelėje. 1 rodymo tvarka laikoma svarbesne nei 2 rodymo tvarka. Todėl atributas, kurio rodymo tvarka yra 1, bus rodomas prieš atributą, kurio rodymo tvarka yra 2.
 
     > [!NOTE]
-    > Iš to paties puslapio galite gauti „Customer Insights“. Tačiau autentifikavimo tikslais reikia sukurti „Azure“ programos ID ir slaptažodį. (Norėdami gauti daugiau informacijos apie reikalavimus, žr. [„Customer Insights“ integracijos su „Commerce“ įjungimas](#turn-on-the-integration-of-customer-insights-with-commerce) skyrių toliau šioje temoje.) Jei „Customer Insights“ įjungta ir pasirenkate vieną ar daugiau priemonių, kurios turėtų būti rodomos kliento kortelėje, šios priemonės bus rodomos pirmiausia. Be to, klientų knygos atributų grupės bus rodomos pagal rodymo tvarką. Pavyzdžiui, jei iš „Customer Insights“ pasirenkate du matus, šie du matai ir vienas klientų knygos atributas bus rodomi kliento kortelėje. (Bus rodomas tas kliento knygos atributas, kuriam priskirta didžiausia rodymo tvarka.)
+    > Iš to paties puslapio galite gauti „Customer Insights“. Tačiau autentifikavimo tikslais reikia sukurti „Azure“ programos ID ir slaptažodį. (Daugiau informacijos apie reikalavimus ieškokite [Vėliau šiame straipsnyje įjunkite klientų žinių integravimo su "Commerce](#turn-on-the-integration-of-customer-insights-with-commerce) " skyrių.) Jei klientų įžvalgos yra įjungtas ir pasirenkate vieną ar daugiau priemonių, kurios turi būti rodomos kliento kortelėje, šios priemonės bus rodomos pirmiausia. Be to, klientų knygos atributų grupės bus rodomos pagal rodymo tvarką. Pavyzdžiui, jei iš „Customer Insights“ pasirenkate du matus, šie du matai ir vienas klientų knygos atributas bus rodomi kliento kortelėje. (Bus rodomas tas kliento knygos atributas, kuriam priskirta didžiausia rodymo tvarka.)
 
 6. Puslapyje **Prekybos parametrai**, skirtuke **Klientavimas**, laukelyje **Klientų knygos atributų grupė** pasirinkite atributų grupę, kurią ką tik sukūrėte.
 

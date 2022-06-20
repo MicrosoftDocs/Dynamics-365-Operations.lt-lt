@@ -1,6 +1,6 @@
 ---
 title: Įtraukti parankinių piktogramą
-description: Šioje temoje paaiškinama, kaip į savo svetainę įtraukti parankinių piktogramą.
+description: Šiame straipsnyje paaiškinama, kaip į savo svetainę įtraukti aniconą.
 author: bicyclingfool
 ms.date: 08/31/2020
 ms.topic: article
@@ -14,22 +14,22 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 080ef4da7313bd6b9d91e616f576b3ff774509d9
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.openlocfilehash: 2047a0c30c9e723c717657475a111181299aaa8d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7964737"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855800"
 ---
 # <a name="add-a-favicon"></a>Įtraukti parankinių piktogramą
 
 [!include [banner](includes/banner.md)]
 
-Šioje temoje paaiškinama, kaip į savo svetainę įtraukti parankinių piktogramą.
+Šiame straipsnyje paaiškinama, kaip į savo svetainę įtraukti aniconą.
 
 Parankinių piktograma yra mažas grafikos failas, rodomas žiniatinklio naršyklės skirtuke, adresų juostoje, naršymo retrospektyvoje, žymelėse, parankiniuose ir kitose vietose. Rekomenduojame parankinių piktogramą įtraukti į savo svetainę, nes ji vaizduoja ir sustiprina jūsų prekės ženklą bei jūsų svetainę padeda atskirti nuo kitų svetainių, kuriose lankosi jūsų klientai.
 
-Nors į svetainę galima įtraukti kelias įvairių dydžių ir failų tipų parankinių piktogramas, šioje temoje parodyta, kaip įtraukti vieną parankinių piktogramą. Tačiau tas pats procesas ir vieta naudojami norint įtraukti daugiau parankinių piktogramų.
+Nors į savo svetainę galite įtraukti kelis įvairių dydžių ir rinkmenų tipus, šiame straipsnyje parodyta, kaip pridėti vieną oficoną. Tačiau tas pats procesas ir vieta naudojami norint įtraukti daugiau parankinių piktogramų.
 
 ## <a name="upload-a-favicon-to-your-sites-asset-collection"></a>Parankinių piktogramos nusiuntimas į svetainės turto rinkinį
 

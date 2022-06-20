@@ -1,6 +1,6 @@
 ---
 title: Atšaukimo registravimas žurnale
-description: Šioje temoje aprašomos galimybės, leidžiančios atšaukti kvitus iš kvitų operacijų sąrašo arba iš finansinių žurnalų.
+description: Šiame straipsnyje aprašomi pajėgumai, kurie leidžia atšaukti kvitus iš kvitų operacijų sąrašo arba iš finansinių žurnalų.
 author: kweekley
 ms.date: 10/08/2019
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fb1615312e9fd1786a5a0050dda3e9e9b20fe710
-ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
+ms.openlocfilehash: bec7d5d0dd64a2d89b00e2aa630a4fe670feaa2b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "7753783"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868408"
 ---
 # <a name="reverse-journal-posting"></a>Atšaukimo registravimas žurnale
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje aprašomos „Microsoft Dynamics 365 Finance“ galimybės, leidžiančios atšaukti visą žurnalą arba atšaukti vieną ar keletą kvitų iš kvitų operacijų sąrašo, neatsižvelgiant į jų kilmę. 
+Šiame straipsnyje aprašomi Microsoft Dynamics "365" finansai, suteikia galimybę atšaukti visą žurnalą arba atšaukti vieną ar daugiau kvitų operacijų sąrašo, neatsižvelgiant į jų kilmę. 
 
-Prieš pradedant naudoti šiame skyriuje aprašytas savybes, turite jas įjungti savo sistemoje. Administratoriai gali naudoti **Funkcijos valdymas** darbo sritį, norėdami sužinoti funkcijos būseną ir įjungti ją, jei reikia. Ten ši funkcija pateikiama taip:
+Kad būtų galima naudoti vieną iš šiame straipsnyje aprašytų funkcijų, ją reikia įjungti jūsų sistemoje. Administratoriai gali naudoti **Funkcijos valdymas** darbo sritį, norėdami sužinoti funkcijos būseną ir įjungti ją, jei reikia. Ten ši funkcija pateikiama taip:
  - Modulis: Didžioji knyga
  - Priemonės pavadinimas: **kelių dokumentų masinis atšaukimas**
 
@@ -69,7 +69,7 @@ Jei kvito eilučių skaičius viršija 100 eilučių, atšaukimo procesas bus vy
 
 Jei kvito eilučių skaičius neviršija 100 eilučių, atšaukimo procesas bus vykdomas nedelsiant. Rezultatai bus rodomi dialogo lange, kuriame rodomi visi kvitai, kurių nepavyko atšaukti, kartu su priežastimis. Pasirinkite **Gerai**, kad uždarytumėte dialogo langą.
 
-Operacijas galima atšaukti tik tuo atveju, jei jos atitinka atšaukimui taikomas verslo taisykles. Tiekėjo mokėjimų negalima atšaukti naudojant šioje temoje aprašytą funkciją. Tiekėjo mokėjimai turi būti atšaukiami atliekant veiksmus, aprašytus [Tiekėjo mokėjimo atšaukimas](../accounts-payable/reverse-vendor-payment.md).
+Operacijas galima atšaukti tik tuo atveju, jei jos atitinka atšaukimui taikomas verslo taisykles. Tiekėjo mokėjimų negalima atšaukti naudojant šiame straipsnyje aprašytą galimybę. Tiekėjo mokėjimai turi būti atšaukiami atliekant veiksmus, aprašytus [Tiekėjo mokėjimo atšaukimas](../accounts-payable/reverse-vendor-payment.md).
 
 
 
