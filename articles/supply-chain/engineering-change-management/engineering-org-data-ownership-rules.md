@@ -1,6 +1,6 @@
 ---
 title: Inžinerijos bendrovės ir duomenų turėjimo taisyklės
-description: Šioje temoje paaiškina, kaip galite naudoti vieną ar keletą inžinerijos bendrovių siekiant užtikrinti, kad pagrindiniai duomenys produktams yra sukuriami ir palaikomi centriniu būdu. Inžinerijos bendrovė reiškia įmonę, kuri turi inžinerijos produktus ir su jų inžinerija susijusius duomenis.
+description: Šiame straipsnyje paaiškinama, kaip naudoti vieną ar daugiau inžinerijos įmonių, siekiant užtikrinti, kad pagrindiniai produktų duomenys būtų kuriami ir prižiūrimi centralizuotai. Inžinerijos bendrovė reiškia įmonę, kuri turi inžinerijos produktus ir su jų inžinerija susijusius duomenis.
 author: t-benebo
 ms.date: 09/28/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 1a05ad1a9d24239e2659c1ffecc21e5e186b1e96
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 47662203669d5dd466990be397c9a4aaf1dd9932
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572918"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8875545"
 ---
 # <a name="engineering-companies-and-data-ownership-rules"></a>Inžinerijos bendrovės ir duomenų turėjimo taisyklės
 

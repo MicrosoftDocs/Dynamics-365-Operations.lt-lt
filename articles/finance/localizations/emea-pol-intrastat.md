@@ -1,6 +1,6 @@
 ---
 title: Lenkijos „Intrastat“
-description: Šioje temoje yra informacijos apie Intrastat ataskaitas Lenkija.
+description: Šiame straipsnyje pateikiama informacija apie Intrastat ataskaitas Lenkijos ataskaitose.
 author: andosip
 ms.date: 11/09/2021
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: kfend
 ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: ''
-ms.openlocfilehash: fbacc204208e536291035c6f9bb2ef4fa4038f58
-ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
+ms.openlocfilehash: 45bd1d3c90d0a8a8ad5db6d0b80c5eed0aa489e8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "8566097"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871107"
 ---
 # <a name="polish-intrastat"></a>Lenkijos „Intrastat“
 
@@ -74,7 +74,7 @@ Daugiau informacijos žr. [ER konfigūracijų atsisiuntimas iš konfigūravimo t
 
 Turite sukurti du įmonės kodų registracijos tipus: vieną – PVM ID (NIP kodui) ir kitą – įmonės numeriui (Regon kodas).
 
-1. Eiti į **organizacijos administravimoGlobal** > **adresų knygelėsRegistration** > **typesRegistration** > **tipus**.
+1. Eikite į **organizacijos administravimo** > **visuotinės adresų knygelės** > **registracijos tipų** > **registracijos tipus**.
 2. Veiksmų srityje pasirinkite **Naujas**, kad sukurtumėte PVM ID registracijos tipą.
 3. Į dialogo **langą Įvesti registracijos** tipo informaciją **, lauke** Pavadinimas įveskite naujo registracijos tipo pavadinimą. Pvz., įveskite **NIP**.
 4. Lauke **Šalis/regionas** pasirinkite **„POL”**.
@@ -86,7 +86,7 @@ Turite sukurti du įmonės kodų registracijos tipus: vieną – PVM ID (NIP kod
 
 ### <a name="match-the-registration-types-with-registration-categories"></a>Registracijos tipus sugretinti su registracijos kategorijomis
 
-1. Eiti į **organizacijos administravimoGlobal** > **adresų knygelėsRegistration** > **typesRegistration** > **kategorijas**.
+1. Eikite į **organizacijos administravimo** > **visuotinės adresų knygelės** > **registracijos tipų** > **registracijos kategorijas**.
 2. Veiksmų srityje pasirinkite Naujas, kad **sukurtumėte** saitą tarp kiekvieno sukurto registracijos tipo ir registracijos kategorijos.
 
     - Norėdami nustatyti PVM ID (NIP kodo) registracijos tipą, pasirinkite **PVM ID registracijos** kategoriją.
@@ -113,7 +113,7 @@ Turite sukurti du įmonės kodų registracijos tipus: vieną – PVM ID (NIP kod
 
 ## <a name="set-up-foreign-trade-parameters"></a>Nustatyti užsienio prekybos parametrus
 
-1. Eikite į **TaxSetupForeign** > **·** > **prekybos parametrus**.
+1. Pereikite prie **mokesčių nustatymo** > **·** > **užsienio prekybos parametrų**.
 2. Intrastat skirtuko **elektroninės** ataskaitos **"FastTab"** failo formato išdėstymo **lauke** pasirinkite **Intrastat (PL).**
 3. **Ataskaitos formatų susiejimas** lauke pasirinkite **„Intrastat” ataskaita**.
 4. „FastTab” **Prekių kodų hierarchija** lauke **Kategorijų hierarchija** pasirinkite **„Intrastat”**.
@@ -158,7 +158,7 @@ Turite sukurti du įmonės kodų registracijos tipus: vieną – PVM ID (NIP kod
 
 2.  Nustatyti pristatymo būdo Intrastat kodus.
 
-    1. Eikite **į Procurement ir sourcingSetupDistributionTerms** > **·** > **·** > **of delivery.**
+    1. Eikite **į įsigijimo ir pirkimo nustatymo** > **·** > **pristatymo** > **paskirstymo sąlygas**.
     2. Tinklelyje pasirinkite pristatymo sąlygų rinkinį.
     3. Bendrajame **FastTab**, Intrastat kodo **lauke**, įveskite unikalų kodą.
 
@@ -225,7 +225,7 @@ Importuokite naujausią toliau pateikiamų ER konfigūracijų versiją.
 
 ### <a name="create-registration-types-for-company-codes"></a>Kurti įmonės kodų registracijos tipus
 
-1. Eiti į **organizacijos administravimoGlobal** > **adresų knygelėsRegistration** > **typesRegistration** > **tipus**.
+1. Eikite į **organizacijos administravimo** > **visuotinės adresų knygelės** > **registracijos tipų** > **registracijos tipus**.
 2. Veiksmų srityje pasirinkite Naujas **, kad** sukurtumėte PVM ID (NIP kodo) registracijos tipą.
 3. Į dialogo **langą Įvesti registracijos** tipo informaciją lauke **Pavadinimas** įveskite **NIP**.
 4. Lauke **Šalis/regionas** pasirinkite **„POL”**.
@@ -237,7 +237,7 @@ Importuokite naujausią toliau pateikiamų ER konfigūracijų versiją.
 
 ### <a name="match-the-registration-types-with-registration-categories"></a>Registracijos tipus sugretinti su registracijos kategorijomis
 
-1. Eiti į **organizacijos administravimoGlobal** > **adresų knygelėsRegistration** > **typesRegistration** > **kategorijas**.
+1. Eikite į **organizacijos administravimo** > **visuotinės adresų knygelės** > **registracijos tipų** > **registracijos kategorijas**.
 2. Veiksmų srityje pasirinkite Naujas, kad **sukurtumėte** saitą tarp kiekvieno sukurto registracijos tipo ir registracijos kategorijos.
 
     - Norėdami pasirinkti **NIP** registracijos tipą, pasirinkite **PVM ID** registracijos kategoriją.
@@ -259,7 +259,7 @@ Importuokite naujausią toliau pateikiamų ER konfigūracijų versiją.
 
 1. Pasirinkite **Organizacijos administravimas** > **Numeracijos** > **Numeracijos**.
 2. Veiksmų srities skirtuke Numeracija **, grupėje Naujas** **, pasirinkite Numeracija** **.**
-3. Skirtuke **Identifikavimas** "FastTab", numeracijos **kodo** lauke, įveskite **XML failą\_**.
+3. Skirtuke **Identifikavimas** "FastTab" numeracijos **kodo** lauke įveskite **XML\_ failą**.
 4. Aprėpties **parametrų** "FastTab" lauke **Apimtis** pasirinkite **Įmonė**.
 5. **Lauke Įmonė** pasirinkite **DEMF**.
 6. Segmentų **"** FastTab" lauke **Ilgis įveskite** Raidinis-skaitinis **segmentas** **4**.
@@ -281,11 +281,11 @@ Importuokite naujausią toliau pateikiamų ER konfigūracijų versiją.
 11. Lauke Telefonas **įveskite 425-555-5068** **.**
 12. **Lauke Fakso numeris** įveskite 425-555-5049 **·**.
 13. Lauke El **. paštas** įveskite manishc@contoso.com **·**.
-14. Skirtuke **Numeracijos**, XML failo **numerio nuorodos** numeracijos kodo **lauke pasirinkite** **XML failą\_**.
+14. **Skirtuke Numeracijos**, XML failo **numerio nuorodos** numeracijos kodo **lauke** pasirinkite **XML\_ failą**.
 
 ### <a name="set-up-product-information"></a>Produkto informacijos nustatymas
 
-1. Eikite **į produkto informacijos valdymąProductsReleased** > **·** > **·** **produktus.**
+1. Eikite į **produkto informacijos valdymo** > **produktus išleistus** > **·** **produktus.**
 2. Tinklelyje pasirinkite **D0001**.
 3. „FastTab” **Užsienio prekyba** srityje **Intrastat** lauke **Prekės** rinkitės **100 200 30**.
 4. Skirtuko **Valdyti atsargas** FastTab", **Svorio matavimo** skyriuje **Grynasis svoris** laukelis rinkitės **2**.
@@ -327,7 +327,7 @@ Importuokite naujausią toliau pateikiamų ER konfigūracijų versiją.
 
 4. Pasirinkti numatytąjį tiekėjo pristatymo būdą.
 
-    1. Eiti į **Mokėtinas sumasVendorsAll** > **·** > **tiekėjai**.
+    1. Eiti į Mokėtinų **sumų** > **tiekėjai** > **Visi tiekėjai**.
     2. Tinklelyje pasirinkite **DE-001**.
     3. **SF ir pristatymo "** FastTab" pristatymo **būdo lauke** pasirinkite **10**.
 
@@ -335,7 +335,7 @@ Importuokite naujausią toliau pateikiamų ER konfigūracijų versiją.
 
 1. Nustatyti pristatymo sąlygų Intrastat kodą.
 
-    1. Eikite **į Procurement ir sourcingSetupDistributionTerms** > **·** > **·** > **of delivery.**
+    1. Eikite **į įsigijimo ir pirkimo nustatymo** > **·** > **pristatymo** > **paskirstymo sąlygas**.
     2. Tinklelyje pasirinkite **CIF**.
     3. Skirtuko Bendra **FastTab** intrastat kodo **lauke** įveskite **CIF**.
 
@@ -347,7 +347,7 @@ Importuokite naujausią toliau pateikiamų ER konfigūracijų versiją.
 
 3. Pasirinkti numatytąsias tiekėjo pristatymo sąlygas.
 
-    1. Eiti į **Mokėtinas sumasVendorsAll** > **·** > **tiekėjai**.
+    1. Eiti į Mokėtinų **sumų** > **tiekėjai** > **Visi tiekėjai**.
     2. Tinklelyje pasirinkite **DE-001**.
     3. SF ir **pristatymo "** FastTab", lauke **Pristatymo sąlygos**, pasirinkite **CIF**.
 
@@ -758,7 +758,7 @@ Importuokite naujausią toliau pateikiamų ER konfigūracijų versiją.
     </tr>
     <tr>
     <td>
-    <p>Siųsti el. paštu</p>
+    <p>El. laiškas</p>
     </td>
     <td>
     <p>Pateikimo asmens el. pašto adresas.</p>
@@ -1216,7 +1216,7 @@ Importuokite naujausią toliau pateikiamų ER konfigūracijų versiją.
     </tr>
     <tr>
     <td>
-    <p>Siųsti el. paštu</p>
+    <p>El. laiškas</p>
     </td>
     <td>
     <p>Pateikimo asmens el. pašto adresas.</p>

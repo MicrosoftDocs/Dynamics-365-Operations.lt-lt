@@ -1,6 +1,6 @@
 ---
 title: Duomenų rinkimo kategorijos ER funkcijų sąrašas
-description: Šioje temoje pateikiama informacijos apie duomenų rinkimo funkcijas, palaikomas modulyje Elektroninės ataskaitos (ER).
+description: Šiame straipsnyje pateikiama informacija apie duomenų rinkimo funkcijas, kurias palaiko elektroninės ataskaitos (ER).
 author: NickSelin
 ms.date: 12/04/2019
 ms.prod: ''
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2046931732f2d1c1ca040c1c84d4b182c2214f2f44a5a90fceda49298445b743
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a8d4f5068bedcf1f15ae5257e29004a4773ef84c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6760079"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8908567"
 ---
 # <a name="list-of-er-functions-in-the-data-collection-category"></a>Duomenų rinkimo kategorijos ER funkcijų sąrašas
 
 [!include [banner](../includes/banner.md)]
 
-Naudojant modulio Elektroninės ataskaitos (ER) duomenų rinkimo funkcijas, atliekamos vykdomo ER formato skaičiavimo ir sumavimo operacijos pagal išvesties, kuri jau sugeneruota **teksto** arba **XML** formatu, duomenis. Šis metodas naudojamas norint pagerinti vykdomo ER formato našumą, įvesti bendrąsias sumas generuojamuose dokumentuose ir kitais tikslais. Šioje temoje pateikiama šių funkcijų suvestinė.
+Naudojant modulio Elektroninės ataskaitos (ER) duomenų rinkimo funkcijas, atliekamos vykdomo ER formato skaičiavimo ir sumavimo operacijos pagal išvesties, kuri jau sugeneruota **teksto** arba **XML** formatu, duomenis. Šis metodas naudojamas norint pagerinti vykdomo ER formato našumą, įvesti bendrąsias sumas generuojamuose dokumentuose ir kitais tikslais. Šiame straipsnyje pateikiama šių funkcijų suvestinė.
 
 ## <a name="list-of-supported-functions"></a>Palaikomų funkcijų sąrašas
 

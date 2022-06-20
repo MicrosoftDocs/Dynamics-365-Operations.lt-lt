@@ -1,6 +1,6 @@
 ---
 title: Įdarbinimo procesų valdymas
-description: Šioje temoje aprašoma sąvoka, kurią įdarbintojai gali naudoti norėdami sekti įdarbinimo proceso veiksmus.
+description: Šiame straipsnyje aprašoma sąvoka, kurią įdarbintojai gali naudoti norėdami sekti įdarbinimo proceso veiksmus.
 author: twheeloc
 ms.date: 01/10/2022
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: eb7cc1db906ba0cd07caaa1d82a12182f78b19ba
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 1ada6dfc9b227c7ae4ca873e8354d1fcc11ecbaf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8735380"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910325"
 ---
 # <a name="manage-recruiting-processes"></a>Įdarbinimo procesų valdymas
 
 > [!IMPORTANT]
-> Šios temos įdarbinimo funkcijos bus nurodytos kaip Įdarbinimo projektai ir židiniai pretendentams, prašymams ir įdarbinimo projektams. 
+> Šiame straipsnyje nurodyta įdarbinimo funkcija bus vadinama įdarbinimo projektais ir židiniais pretendentams, prašymams ir įdarbinimo projektams. 
 
 
-Šioje temoje aprašoma koncepcija, kurią darbdaviai gali naudoti norėdami sekti įdarbinimo proceso veiksmus, įskaitant pastangas reklamuoti laisvas darbo vietas ir pretendentus, pretendento ir prašymo informacijos sekimą, pokalbius su pretendentais ir vieno ar daugiau kandidatų pasirinkimą, norint užpildyti laisvas darbo vietas jūsų organizacijoje.
+Šiame straipsnyje aprašoma koncepcija, kurią darbdaviai gali naudoti norėdami sekti įdarbinimo proceso veiksmus, įskaitant pastangas reklamuoti laisvas darbo vietas ir pretendentus, pretendento ir prašymo informacijos sekimą, pokalbius su pretendentais ir vieno ar daugiau kandidatų pasirinkimą, norint užpildyti laisvas darbo vietas jūsų organizacijoje.
 
 ## <a name="overview"></a>Apžvalga
 

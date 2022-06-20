@@ -1,6 +1,6 @@
 ---
-title: Reguliavimo naujinimai
-description: Šioje temoje pateikiamas suplanuotų ir išleistų 365 finansų Microsoft Dynamics reguliavimo atnaujinimų sąrašas.
+title: Reglamentavimo naujinimai
+description: Šiame straipsnyje pateikiamas suplanuotų ir išleistų 365 finansų reguliavimo Microsoft Dynamics naujinimų sąrašas.
 author: VStamberg
 ms.date: 04/18/2022
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: vastrup
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 4e9a74f814e6ae93fd5c12b05c4fbd00ad503fca
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 04cc8b4272bcedc7db27b0d76eccdc6375641933
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8711920"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904287"
 ---
 # <a name="regulatory-updates"></a>Reglamentavimo naujinimai
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje išvarditi reguliavimo atnaujinimai, kurie suplanuoti ir išleisti "Dynamics 365" finansinėse palaikomose lokalizacijose. Pristatymo terminai gali keistis ir numatomos funkcijos gali skirtis arba būti neišleistos. Daugiau informacijos žr. [„Microsoft“ strategija](https://go.microsoft.com/fwlink/p/?linkid=2007332). 
+Šiame straipsnyje pateikiami reguliavimo atnaujinimai, kurie suplanuoti ir išleisti "Dynamics 365" finansinėse palaikomose lokalizacijose. Pristatymo terminai gali keistis ir numatomos funkcijos gali skirtis arba būti neišleistos. Daugiau informacijos žr. [„Microsoft“ strategija](https://go.microsoft.com/fwlink/p/?linkid=2007332). 
 
 Reglamentavimo atnaujinimai yra funkcijos, kurios sukurtos siekiant laikytis naujų arba pasikeitusių konkrečių šalių teisės aktų. Norėdami gauti daugiau informacijos apie planuojamas ir paleistas šaliai skirtas priemones, žr. " [Dynamics 365" ir paleidimo Power Platform planus](/business-applications-release-notes/index).
 

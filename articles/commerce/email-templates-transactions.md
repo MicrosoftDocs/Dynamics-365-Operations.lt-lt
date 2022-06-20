@@ -1,6 +1,6 @@
 ---
 title: El. laiškų šablonų, skirtų operacijų įvykiams, kūrimas
-description: Šioje temoje aprašoma, kaip kurti, įkelti ir konfigūruoti operacijų įvykių el. laiškų šablonus „Microsoft Dynamics 365 Commerce”.
+description: Šiame straipsnyje aprašoma, kaip kurti, įkelti ir konfigūruoti el. laiškų šablonus operacijų įvykiams Microsoft Dynamics 365 Commerce.
 author: bicyclingfool
 ms.date: 12/10/2021
 ms.topic: article
@@ -14,21 +14,21 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 08e247bac577dc0bb8a4635d61f0082793380da9
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 9a4d67d901608e210b4060a655ce39f0ea707a52
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722524"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910555"
 ---
 # <a name="create-email-templates-for-transactional-events"></a>El. laiškų šablonų, skirtų operacijų įvykiams, kūrimas
 
 [!include [banner](includes/banner.md)]
 
 
-Šioje temoje aprašoma, kaip kurti, įkelti ir konfigūruoti operacijų įvykių el. laiškų šablonus „Microsoft Dynamics 365 Commerce”.
+Šiame straipsnyje aprašoma, kaip kurti, įkelti ir konfigūruoti el. laiškų šablonus operacijų įvykiams Microsoft Dynamics 365 Commerce.
 
-„Dynamics 365 Commerce“ teikia siunčiamų el. laiškų, kuriuos klientai įspėjami apie operacijų įvykius, siunčiamų siunčiamų pranešimų siuntimo nestandartinį sprendimą. Pavyzdžiui, el. laiškai gali būti siunčiami, kai užsakymas yra pateiktas, paruoštas paimti arba išsiųstas. Šioje temoje aprašomi veiksmai, skirti kurti, įkelti ir konfigūruoti el. laiškų šablonus, naudojamus siunčiant operacijų el. laiškus.
+„Dynamics 365 Commerce“ teikia siunčiamų el. laiškų, kuriuos klientai įspėjami apie operacijų įvykius, siunčiamų siunčiamų pranešimų siuntimo nestandartinį sprendimą. Pavyzdžiui, el. laiškai gali būti siunčiami, kai užsakymas yra pateiktas, paruoštas paimti arba išsiųstas. Šiame straipsnyje aprašomi el. laiškų šablonų, naudojamų operacijų el. laiškams siųsti, kūrimo, įkėlimo ir konfigūravimo veiksmai.
 
 ## <a name="notification-types"></a>Pranešimo tipai
 

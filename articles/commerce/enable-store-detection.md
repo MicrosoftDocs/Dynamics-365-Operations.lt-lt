@@ -1,6 +1,6 @@
 ---
 title: Įgalinti parduotuvės nustatymą pagal vietą
-description: Šioje temoje aprašoma, kaip įjungti parduotuvės nustatymą pagal vietą jūsų „Dynamics 365 Commerce“ svetainei.
+description: Šiame straipsnyje aprašoma, kaip įjungti nuo vietos priklausomos parduotuvės aptikimą jūsų Dynamics 365 Commerce svetainei.
 author: brianshook
 ms.date: 07/02/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 98aa781a42b1c82cc00c8a680007b7200e9c7413fb8e3a67b0c723ff62c1d8e1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0e0fcea2f53a8e1fea5a411981a317eabe94bddb
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6749881"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8892050"
 ---
 # <a name="enable-location-based-store-detection"></a>Įgalinti parduotuvės nustatymą pagal vietą
 
 [!include [banner](includes/banner.md)]
 
-Šioje temoje aprašoma, kaip įjungti parduotuvės nustatymą pagal vietą jūsų „Dynamics 365 Commerce“ svetainei.
+Šiame straipsnyje aprašoma, kaip įjungti nuo vietos priklausomos parduotuvės aptikimą jūsų Dynamics 365 Commerce svetainei.
 
 „Commerce“ parduotuvės nustatymu pagal vietą galite suteikti klientams atitinkamą svetainės turinį pagal jų vietą. Įjungus parduotuvės nustatymą pagal vietą, „Commerce“ generavimo paslauga naudoja šalies / regiono informaciją iš kliento žiniatinklio naršyklės IP adreso ir nukreipia klientą į geriausią galimą geografinę svetainės konfigūraciją.
 

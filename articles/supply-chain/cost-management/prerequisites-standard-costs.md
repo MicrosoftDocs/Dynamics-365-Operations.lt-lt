@@ -1,6 +1,6 @@
 ---
 title: Būtinųjų sąlygų standartinėms savikainoms apžvalga
-description: Šioje temoje aprašomi pagrindiniai standartinių savikainų naudojimo veiksmai.
+description: Šiame straipsnyje aprašomi pagrindiniai standartinių savikainų naudojimo veiksmai.
 author: JennySong-SH
 ms.date: 07/25/2019
 ms.topic: overview
@@ -15,18 +15,18 @@ ms.search.industry: Manufacturing
 ms.author: yanansong
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7cf37ae8d2cfa2a3f372e37eb66c22711e76dd59
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: bf02653b1d1a2cf5ed45f0fc6bd9affe098e7396
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8672324"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895792"
 ---
 # <a name="prerequisites-for-standard-costs-overview"></a>Būtinųjų sąlygų standartinėms savikainoms apžvalga
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje aprašomi pagrindiniai standartinių savikainų naudojimo veiksmai. Vėlesni veiksmai priklauso nuo įmonės operacijų. Pavyzdžiui, veiksmai skiriasi negamybinėje aplinkoje, gamybinėje aplinkoje, nenaudojančioje nukreipimų, ir gamybinėje aplinkoje, naudojančioje nukreipimus. 
+Šiame straipsnyje aprašomi pagrindiniai standartinių savikainų naudojimo veiksmai. Vėlesni veiksmai priklauso nuo įmonės operacijų. Pavyzdžiui, veiksmai skiriasi negamybinėje aplinkoje, gamybinėje aplinkoje, nenaudojančioje nukreipimų, ir gamybinėje aplinkoje, naudojančioje nukreipimus. 
 
 Norėdami nustatyti standartines savikainas, atlikite tolesnius veiksmus.
 
@@ -65,7 +65,7 @@ Norėdami sukurti vieną ar kelias standartinių savikainų įkainojimo versijas
 Klientai, norintys pakeisti savo esamus komponentus į standartinių savikainų atsargų modelį, turi naudoti puslapį **Standartinių išlaidų konvertavimai**.
 
 
-## <a name="related-topics"></a>Susijusios temos
+## <a name="related-articles"></a>Susiję straipsniai
 
 [Standartinės savikainos konvertavimo peržiūra](standard-cost-conversion-overview.md)
 

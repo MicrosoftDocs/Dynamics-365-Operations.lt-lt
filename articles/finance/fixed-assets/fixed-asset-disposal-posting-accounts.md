@@ -1,6 +1,6 @@
 ---
 title: Ilgalaikių išteklių likvidavimo registravimo sąskaitos
-description: Šioje temoje paaiškinama, kaip nustatyti turto likvidavimo DK registravimo sąskaitas.
+description: Šiame straipsnyje paaiškinama, kaip nustatyti DK registravimo sąskaitas turtui disponuoti.
 author: moaamer
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8501bbb0fc47fb52e100d9086054db4831dae178
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: 1272cdb16396d24b5495f023e7b9fe3dee341507
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8720257"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871339"
 ---
 # <a name="fixed-asset-disposal-posting-accounts"></a>Ilgalaikių išteklių likvidavimo registravimo sąskaitos
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje paaiškinama, kaip nustatyti turto likvidavimo DK registravimo sąskaitas.
+Šiame straipsnyje paaiškinama, kaip nustatyti DK registravimo sąskaitas, kai disponuojate turtu.
 
 Norėdami nustatyti DK registravimo sąskaitas, kurios bus naudojamos likviduojant turtą, ilgalaikio turto **Likvidavimas - pardavimas** ir **Likvidavimas - nurašymas** esantis **DK** „FastTab“ puslapyje **Ilgalaikio turto publikavimo profilis**.
 

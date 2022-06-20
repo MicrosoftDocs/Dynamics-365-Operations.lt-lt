@@ -1,6 +1,6 @@
 ---
 title: Trikčių šalinimas pradinio sinchronizavimo metu
-description: Šioje temoje pateikiama trikčių šalinimo informacija, kuri gali padėti išspręsti problemas, kurios gali kilti pradinio sinchronizavimo metu.
+description: Šiame straipsnyje pateikiama trikčių diagnostikos informacija, kuri gali padėti išspręsti problemas, kurios gali kilti pradinio sinchronizavimo metu.
 author: RamaKrishnamoorthy
 ms.date: 03/16/2020
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 030e565ffff561f6c1efbdd0de9928f70c7c46c0
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: bb3db4c651aaac521974d92753be5a8219bfe1ea
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8063063"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8892363"
 ---
 # <a name="troubleshoot-issues-during-initial-synchronization"></a>Trikčių šalinimas pradinio sinchronizavimo metu
 
@@ -22,12 +22,12 @@ ms.locfileid: "8063063"
 
 
 
-Šioje temoje pateikiama trikčių šalinimo informacija apie dvigubo rašymo integravimą tarp „Finance and Operations“ programų ir Dataverse. Tiksliau sakant, pateikiama informacija, kuri gali padėti išspręsti problemas, kurios gali kilti pradinio sinchronizavimo metu.
+Šiame straipsnyje pateikiama trikčių diagnostikos informacija, skirta dvigubo rašymo integravimui tarp finansų ir operacijų programėlių ir Dataverse. Tiksliau sakant, pateikiama informacija, kuri gali padėti išspręsti problemas, kurios gali kilti pradinio sinchronizavimo metu.
 
 > [!IMPORTANT]
-> Kai kurioms šioje temoje nagrinėjamoms problemoms spręsti gali reikėti sistemos administratoriaus vaidmens arba „Microsoft Azure Active Directory” („Azure AD”) nuomotojo administratoriaus kredencialų. Kiekvienai problemai skirtoje dalyje paaiškinama, ar reikia konkretaus vaidmens ar kredencialų.
+> Kai kurioms šio straipsnio adresams gali reikėti sistemos administratoriaus vaidmens arba "Microsoft Azure Active Directory " () nuomininkų Azure AD administratoriaus kredencialų. Kiekvienai problemai skirtoje dalyje paaiškinama, ar reikia konkretaus vaidmens ar kredencialų.
 
-## <a name="check-for-initial-synchronization-errors-in-a-finance-and-operations-app"></a>Patikrinkite, ar nėra pradinių sinchronizavimo klaidų programoje „Finance and Operations“.
+## <a name="check-for-initial-synchronization-errors-in-a-finance-and-operations-app"></a>Patikrinti, ar nėra pradinių sinchronizavimo klaidų finansų ir operacijų programoje
 
 Įgalinus susiejimo šablonus, schemų būsena turi būti **Vykdoma**. Jei būsena yra **Nevykdoma**, pradinio sinchronizavimo metu įvyko klaidų. Norėdami peržiūrėti klaidas, pasirinkite skirtuką **Pradinio sinchronizavimo informacija** puslapyje **Dvigubas rašymas**.
 
@@ -63,7 +63,7 @@ at Microsoft.D365.ServicePlatform.Context.ServiceContext.Activity.\<ExecuteAsync
 
 Jei šį klaida įvyksta nuolat ir negalite užbaigti pradinio sinchronizavimo, atlikite šiuos veiksmus, kad išspręstumėte problemą.
 
-1. Prisijunkite prie „Finance and Operations“ programėlės virtualios mašinos (VM).
+1. Prisiregistruokite prie finansų ir operacijų programos virtualiosios mašinos (VM).
 2. Atidarykite „Microsoft“ valdymo konsolę.
 3. Eidami į sritį **Paslaugos**, įsitikinkite, kad veikia „Microsoft Dynamics 365” duomenų importavimo / eksportavimo sistemos paslauga. Jeigu ji buvo sustabdyta, paleiskite ją iš naujo, nes ji yra reikalinga pradiniam sinchronizavimui atlikti.
 
@@ -75,7 +75,7 @@ Pradinio sinchronizavimo metu galite gauti tokį klaidos pranešimą:
 
 Norėdami ištaisyti klaidą, atlikite toliau nurodytus veiksmus.
 
-1. Prisijunkite prie programėlės „Finance and Operations“.
+1. Prisiregistruokite finansų ir operacijų programoje.
 2. Puslapyje **„Azure Active Directory” programos** panaikinkite klientą **DtAppID** ir vėl jį pridėkite.
 
 ![DtAppID klientas „Azure AD” programų sąraše.](media/aad_applications.png)
@@ -102,9 +102,9 @@ Gauti klaidos pranešimai bus šios formos.
 
 Jei eilutės tiekėjo lentelėje turi verčių **PirminioKontaktinioAsmensId** ir **SąskaitosFaktūrosTiekėjoPaskyrosNumeris** stulpeliuose, vykdykite šiuos žingsnius, kad užbaigtumėte pradinį sinchronizavimą.
 
-1. Programoje „Finance and Operations“ ištrinkite **PrimaryContactPersonId** ir **InvoiceVendorAccountNumber** stulpelius iš atvaizdavimo, tada išsaugokite atvaizdavimą.
+1. Finansų ir operacijų programoje panaikinkite **stulpelius PrimaryContactPersonId** **ir InvoiceVendorAccountNumber** iš susiejimo, tada įrašykite susiejimą.
 
-    1. Dvigubo rašymo atvaizdavimo puslapyje, skirtame **Pardavėjai V2 (msdyn\_ pardavėjai)**, ant **Lentelių žemėlapiai** skirtuke kairiajame filtre pasirinkite **Finansų ir operacijų programos. Pardavėjai V2**. Dešiniajame filtre pasirinkite **Pardavimai.Tiekėjas**.
+    1. **Tiekėjų V2 (msviršių\_ tiekėjų)** dvigubo rašymo susiejimo puslapyje, **kairiojo** filtro lentelių susiejimų puslapyje pasirinkite **finansų ir operacijų programėles. Tiekėjai V2**. Dešiniajame filtre pasirinkite **Pardavimai.Tiekėjas**.
     2. Paieškoje įveskite **pirminis kontaktinis asmuo** tam, kad surastumėte **PirminioKontaktinioAsmensId** šaltinio stulpelį.
     3. Pasirinkite **Veiksmai** ir pasirinkite **Naikinti**.
 
@@ -149,9 +149,9 @@ Gauti klaidos pranešimai bus šios formos.
 
 Jei eilutės kliento lentelėje turi verčių **KontaktinioAsmensId** ir **SąskaitosFaktūrosPaskyra** stulpeliuose, atlikite šiuos veiksmus, kad užbaigtumėte pradinį sinchronizavimą. Galite naudoti šį metodą bet kurioms paruoštoms eilutėms, pvz., **Paskyros** ir **Kontaktai**.
 
-1. Programoje „Finance and Operations“ ištrinkite **Kontaktinio asmens ID** ir **InvoiceAccount** stulpeliai iš **Klientai V3 (paskyros)** atvaizdavimą, tada išsaugokite atvaizdą.
+1. Finansų ir operacijų programoje panaikinkite ContactPersonID **ir** InvoiceAccount **stulpelius** iš klientų V3 (sąskaitų) **susiejimo, tada įrašykite susiejimą**.
 
-    1. Dvigubo rašymo atvaizdavimo puslapyje, skirtame **Klientai V3 (paskyros)**, ant **Lentelių žemėlapiai** skirtuke kairiajame filtre pasirinkite **Finansų ir operacijų programa. Klientai V3**. Dešiniajame filtre pasirinkite **Dataverse.Paskyra**.
+    1. Klientų V3 (sąskaitų **)** dvigubo rašymo susiejimo puslapio, **skirtuko** Lentelių susiejimai kairiajame filtre, **pasirinkite finansų ir operacijų programą. Klientai V3**. Dešiniajame filtre pasirinkite **Dataverse.Paskyra**.
     2. Paieškoje įveskite **kontaktinis asmuo**, kad surastumėte **KontaktinioAsmensID** šaltinio stulpelį.
     3. Pasirinkite **Veiksmai** ir pasirinkite **Naikinti**.
 
@@ -182,16 +182,16 @@ Jei eilutės kliento lentelėje turi verčių **KontaktinioAsmensId** ir **Sąsk
     > Yra du tokiu pačiu pavadinimu žemėlapiai. Būtinai pasirinkite žemėlapį, turintį tokį aprašą **Išsami informacija** skirtuke: **Dvigubo rašymo šablonas, skirto FO.CDS Tiekėjo Kontaktai V2 su to CDS.Kontaktai sinchronizacijai atlikti. Reikalingas naujas paketas \[Dynamics365PraplėstaTiekimoGrandinė\].**
 
 5. Pridėkite **„SąskaitosFaktūrosPaskyra”** ir **„KontaktinioAsmensId”** stulpelius vėl į **Klientai V3 (Paskyros)** susiejimą ir tada įrašykite jį. Abu **„SąskaitosFaktūrosPaskyra”** ir **„KontaktinioAsmensId”** stulpeliai dabar įtraukti į tiesioginio sinchronizavimo režimą. Kitame veiksme atliksite šių stulpelių sinchronizavimą.
-6. Vėl paleiskite pradinę **Klientai V3 (Paskyros)** susiejimo sinchronizaciją. Kadangi pakeitimų sekimas išjungtas, duomenys už **InvoiceAccount** ir **Kontaktinio asmens ID** bus sinchronizuojamas iš programos „Finance and Operations“ į Dataverse.
-7. Norėdami sinchronizuoti duomenis **InvoiceAccount** ir **Kontaktinio asmens ID** iš Dataverse į programą „Finance and Operations“, turite naudoti duomenų integravimo projektą.
+6. Vėl paleiskite pradinę **Klientai V3 (Paskyros)** susiejimo sinchronizaciją. Kadangi keitimų sekimas išjungtas, **SFAccount** **ir ContactPersonId** duomenys bus sinchronizuoti iš finansų ir operacijų programos į Dataverse.
+7. Norėdami sinchronizuoti **SFAccount** **ir ContactPersonId** duomenis iš Dataverse finansų ir operacijų programos, turite naudoti duomenų integravimo projektą.
 
-    1. Į Power Apps, sukurkite duomenų integravimo projektą tarp **Pardavimai.Sąskaita** ir **Finansų ir operacijų programos. Klientai V3** lenteles. Duomenų kryptis turi būti iš Dataverse į programą „Finance and Operations“. Kadangi **SąskaitosFaktūrosPaskyra** yra naujas atributas dvigubo rašymo funkcijoje, galite praleisti jos pradinę sinchronizaciją. Prireikus daugiau informacijos, žr. [Duomenų integravimas į Dataverse](/power-platform/admin/data-integrator).
+    1. Tada Power Apps sukurkite duomenų integravimo projektą tarp Pardavimo **sąskaitos ir Finansų** **ir Operacijų programėlių. Klientai V3** lentelės. Duomenų kryptis turi būti iš finansų Dataverse ir operacijų programos. Kadangi **SąskaitosFaktūrosPaskyra** yra naujas atributas dvigubo rašymo funkcijoje, galite praleisti jos pradinę sinchronizaciją. Prireikus daugiau informacijos, žr. [Duomenų integravimas į Dataverse](/power-platform/admin/data-integrator).
 
         Toliau pateiktame paveikslėlyje parodytas projektas, kuris atnaujina **KlientoPaskyra** ir **KontaktinioAsmensId**.
 
         ![Duomenų integravimo projektas, skirtas Kliento paskyrai ir KontaktinioAsmensId atnaujinti.](media/cust_selfref6.png)
 
-    2. Pridėkite įmonės kriterijus į filtrą Dataverse pusėje, kad programėlėje „Finance and Operations“ būtų atnaujintos tik filtro kriterijus atitinkančios eilutės. Norėdami pridėti filtrą, pažymėkite filtro mygtuką. Tada **Redaguoti užklausą** dialogo lange galite pridėti filtro užklausą, pavyzdžiui, **\_msdyn\_įmonė\_vertės lyg. '\<guid\>'**.
+    2. Įtraukite įmonės kriterijus į filtravimo Dataverse kriterijus, kad finansų ir operacijų programoje būtų atnaujintos tik tas eilutes, kurios atitinka filtro kriterijus. Norėdami pridėti filtrą, pažymėkite filtro mygtuką. Tada **Redaguoti užklausą** dialogo lange galite pridėti filtro užklausą, pavyzdžiui, **\_msdyn\_įmonė\_vertės lyg. '\<guid\>'**.
 
         > [PASTABA] Jei filtro mygtuko nėra, sukurkite palaikymo kvitą, kad paprašytumėte duomenų integravimo komandos įjungti filtro funkciją jūsų nuomotojui.
 
@@ -201,7 +201,7 @@ Jei eilutės kliento lentelėje turi verčių **KontaktinioAsmensId** ir **Sąsk
 
     Pradinė eilučių sinchronizacija baigta.
 
-8. Programoje „Finance and Operations“ vėl įjunkite pakeitimų stebėjimą **Klientai V3** stalo.
+8. Finansų ir operacijų programoje įjunkite keitimų sekimą V3 **klientų** lentelėje.
 
 ## <a name="initial-sync-failures-on-maps-with-more-than-10-lookup-fields"></a>Pradinio sinchronizavimo klaidos schemose su daugiau nei 10 peržvalgos laukų
 
@@ -227,9 +227,9 @@ Bandydami paleisti šalies pašto adresų ir šalies elektroninių adresų pradi
 
 *Programoje „Dataverse” šalies numerio rasti nepavyko.*
 
-Yra nustatytas diapazonas **DirPartyCDSEntity** „Finance and Operations“ programose, kurios filtruoja tokio tipo šalis **Asmuo** ir **Organizacija**. Todėl susiejimo **CDS šalys – msdyn_parties** pradiniu sinchronizavimu nebus sinchronizuotos kito tipo šalys, įskaitant šalis, kurių tipas **Juridinis objektas** ir **Valdymo vienetas**. Paleidus **CDS šalies pašto adresai (msdyn_partypostaladdresses)** arba **Šalies kontaktai V3 (msdyn_partyelectronicaddresses)** pradinį sinchronizavimą, gali būti pateikta klaida.
+Finansų ir operacijų programėlėse nustatytas **DirPartyCDSEntity** diapazonas, filtruojantis **asmens** ir **organizacijos** tipo. Todėl susiejimo **CDS šalys – msdyn_parties** pradiniu sinchronizavimu nebus sinchronizuotos kito tipo šalys, įskaitant šalis, kurių tipas **Juridinis objektas** ir **Valdymo vienetas**. Paleidus **CDS šalies pašto adresai (msdyn_partypostaladdresses)** arba **Šalies kontaktai V3 (msdyn_partyelectronicaddresses)** pradinį sinchronizavimą, gali būti pateikta klaida.
 
-Stengiamės pataisyti, kad pašalintume subjekto „Finance and Operations“ partijų tipų diapazoną, kad visų tipų šalys galėtų sinchronizuoti Dataverse sėkmingai.
+Mes dirbame su pataisa, kad pašalintumėte šalių tipų diapazoną finansų ir operacijų objektui, kad visų tipų šalys galėtų sėkmingai sinchronizuoti Dataverse.
 
 ## <a name="are-there-any-performance-issues-while-running-initial-sync-for-customers-or-contacts-data"></a>Ar vykdant klientų ir kontaktų duomenų pradinį sinchronizavimą kyla našumo problemų?
 

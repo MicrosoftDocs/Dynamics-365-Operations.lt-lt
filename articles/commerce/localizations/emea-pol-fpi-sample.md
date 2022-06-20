@@ -1,6 +1,6 @@
 ---
 title: Fiskalinio spausdintuvo integracijos pavyzdys (Lenkija)
-description: Šioje temoje pateikiama Lenkijos fiskalinės integracijos imties apžvalga Microsoft Dynamics 365 Commerce.
+description: Šiame straipsnyje pateikta Lenkijos finansinio integravimo pavyzdžio apžvalga Microsoft Dynamics 365 Commerce.
 author: EvgenyPopovMBS
 ms.date: 12/20/2021
 ms.topic: article
@@ -9,206 +9,206 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-2-1
-ms.openlocfilehash: 43d9a54334d97a65a1f9a356daf54154f6c069b3
-ms.sourcegitcommit: 5cefe7d2a71c6f220190afc3293e33e2b9119685
+ms.openlocfilehash: e71d7b342789e4cf2e7644a46bc847087063fc78
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "8076841"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876954"
 ---
 # <a name="fiscal-printer-integration-sample-for-poland"></a>Fiskalinio spausdintuvo integracijos pavyzdys (Lenkija)
 
 [!include[banner](../includes/banner.md)]
 
-Šioje temoje pateikiama Lenkijos fiskalinės integracijos imties apžvalga Microsoft Dynamics 365 Commerce.
+Šiame straipsnyje pateikta Lenkijos finansinio integravimo pavyzdžio apžvalga Microsoft Dynamics 365 Commerce.
 
-The Dynamics 365 Commerce Lenkijos funkcionalumas apima pavyzdinį pardavimo vietos (POS) integravimą su mokesčių spausdintuvu. Mėginys pratęsia [fiskalinės integracijos funkcionalumas](fiscal-integration-for-retail-channel.md) ir palaiko POSNET THERMAL HD 2.02 protokolą fiskaliniams spausdintuvams iš [Posnet Polska SA](https://www.posnet.com.pl) Pavyzdys leidžia palaikyti ryšį su mokesčių spausdintuvu, kuris yra prijungtas per COM prievadą naudojant vietinę programinės įrangos tvarkyklę. Jis buvo įdiegtas ir išbandytas naudojant programinės įrangos emuliatorių, kurį „Posnet“ suteikė „Posnet Thermal HD FV EJ“ fiskaliniam spausdintuvui. Pavyzdys pateikiamas šaltinio kodo forma ir yra mažmeninės prekybos programinės įrangos kūrimo rinkinio (SDK) dalis.
+Lenkijos Dynamics 365 Commerce funkcijos apima pavyzdinį pardavimo galimybių (EKA) integravimą su fiskaliniu spausdintuvu. Pavyzdys išplečia fiskalinio [integravimo funkcijas](fiscal-integration-for-retail-channel.md) ir palaiko POSNET HD 2.02 [protokolą, skirtas iždo dokumentų spausdintuvams iš Posnet Polska S.A.](https://www.posnet.com.pl) Pavyzdys leidžia prisijungti prie fiskalinio spausdintuvo, kuris prijungtas per COM prievadą, naudojant prigimtinę programinės įrangos tvarkyklę. Jis buvo įdiegtas ir patikrintas naudojant programinės įrangos emuliatorių, kuris posnet pateiktą Posnet Hd FV EJ fiskaliniu spausdintuvu. Pavyzdys pateikiamas šaltinio kodo forma ir yra mažmeninės prekybos programinės įrangos kūrimo rinkinio (SDK) dalis.
 
-„Microsoft“ iš „Posnet“ neišleidžia jokios aparatinės įrangos, programinės įrangos ar dokumentų. Norėdami gauti informacijos apie fiskalinio spausdintuvo įsigijimą ir naudojimą, susisiekite su [Posnet Polska SA](https://www.posnet.com.pl)
+"Microsoft" neišleidžia jokios aparatūros, programinės įrangos ar dokumentacijos iš Posnet. Norėdami gauti informacijos apie tai, kaip gauti fiskalinį spausdintuvą ir jį valdyti, susisiekite [su Posnet Polska S.A.](https://www.posnet.com.pl)
 
 ## <a name="scenarios"></a>Scenarijai
 
-Lenkijos mokesčių spausdintuvo integravimo pavyzdys apima šiuos scenarijus:
+Šiuos scenarijus apima finansinio spausdintuvo integravimo pavyzdys Lenkijai:
 
 - Pardavimo scenarijai:
 
-    - Atsispausdinkite grynųjų pinigų pardavimo ir grąžinimo mokesčių kvitą.
-    - Užfiksuokite atsakymą iš fiskalinio spausdintuvo ir išsaugokite jį kanalų duomenų bazėje.
+    - Išspausdinkite fiskalinį grynųjų pinigų ir atliekamo pardavimo ir grąžinimo kvitą.
+    - Perimti fiskalinio spausdintuvo atsakymą ir saugoti jį kanalo duomenų bazėje.
     - Mokesčiai:
 
-        - Susiekite su fiskalinio spausdintuvo mokesčių kodais (skyriais).
+        - Susieti su fiskalinio spausdintuvo mokesčių kodais (padaliniais).
         - Perkelkite susietus mokesčių duomenis į fiskalinį spausdintuvą.
 
     - Mokėjimai:
 
-        - Susiekite su fiskalinio spausdintuvo mokėjimo būdais.
-        - Atsispausdinkite mokėjimus fiskaliniame kvite.
-        - Spausdinti pakeitimo informaciją.
+        - Susiekite su fiskalinio spausdintuvo mokėjimo metodais.
+        - Spausdinti mokėjimus finansinio kvito metu.
+        - Spausdinti keitimo informaciją.
 
-    - Spausdinimo linijų nuolaidos.
+    - Spausdinti eilutės nuolaidas.
     - Dovanų kortelės:
 
-        - Išskirkite išduotą / pakartotinai apmokestintą dovanų kortelės eilutę iš pardavimo mokesčių kvito.
-        - Atspausdinkite mokėjimą, kai kaip įprastas mokėjimo būdas naudojamas dovanų kortelė.
+        - Iš pardavimo finansinio kvito pašalinti išduotą / iš naujo apmokestinamą dovanų kortelės eilutę.
+        - Spausdinti mokėjimą, kuris naudoja dovanų kortelę kaip reguliarų mokėjimo būdą.
 
-    - Spausdinkite klientų užsakymo operacijų fiskalinius kvitus:
+    - Spausdinti kliento užsakymo operacijų finansinius kvitus:
 
-        - Kliento užsakymo indėlio fiskalinis kvitas nespausdinamas.
-        - Išspausdinkite fiskalinį kvitą hibridinio kliento užsakymo vykdymo eilėms.
-        - Išspausdinkite fiskalinį kliento užsakymo atsiėmimo operacijos kvitą.
-        - Atsispausdinkite grąžinimo užsakymo fiskalinį kvitą.
+        - Nespausdinamas kliento užsakymo depozito finansinis kvitas.
+        - Spausdinti kliento užsakymo atliekamų eilučių fiskalinį kvitą.
+        - Spausdinti kliento užsakymo paėmimo operacijos fiskalinį kvitą.
+        - Spausdinti grąžinimo užsakymo fiskalinį kvitą.
 
-    - Spausdinkite [klientų informacija](emea-pol-customer-information.md) kuris nurodytas pardavimo sandoriui fiskaliniame kvite. Šios informacijos pavyzdys yra kliento PVM mokėtojo kodas.
+    - [Spausdinti kliento informaciją](emea-pol-customer-information.md), nurodytą finansinio kvito pardavimo operacijai. Šios informacijos pavyzdys yra kliento PVM numeris.
 
-- Dienos pabaigos ataskaitos (fiskalinės X ir fiskalinės Z ataskaitos).
-- Klaidų apdorojimas, pvz., šios parinktys:
+- Dienos pabaigos išrašai (X finansiniai ir finansiniai Z ataskaitos).
+- Klaidos tvarkymą, pvz., šias pasirinktis:
 
-    - Bandykite dar kartą registruoti fiskalinę informaciją, jei įmanoma pakartotinai, pvz., jei mokesčių spausdintuvas neprijungtas, nėra paruoštas arba nereaguoja, spausdintuve baigėsi popierius arba įstrigo popierius.
-    - Atidėti fiskalinę registraciją.
-    - Praleiskite fiskalinę registraciją arba pažymėkite operaciją kaip registruotą ir įtraukite informacinius kodus, kad užfiksuotumėte gedimo priežastį ir papildomą informaciją.
-    - Patikrinkite fiskalinio spausdintuvo prieinamumą prieš atidarydami naują pardavimo operaciją arba užbaigdami pardavimo operaciją.
+    - Jei galima atlikti kartojimo veiksmą, pvz., jei fiskalinis spausdintuvas neprijungtas, neparuoštas arba neatsako, spausdintuve nepakanka popieriaus arba yra popieriaus strigtis.
+    - Atidėti finansinio registravimo datą.
+    - Praleisti ataskaitinį registravimą arba pažymėti operaciją kaip užregistruotą ir įtraukti informacijos kodus, kad būtų fiksuojama trikties priežastis ir papildoma informacija.
+    - Patikrinkite fiskalinio spausdintuvo pasiekiamumą prieš atidarę naują pardavimo operaciją arba kai pardavimo operacija baigiama.
 
 ### <a name="gift-cards"></a>Dovanų kortelės
 
-Fiskalinio spausdintuvo integravimo pavyzdys įgyvendina šias taisykles, susijusias su dovanų kortelėmis:
+Fiskalinio spausdintuvo integravimo pavyzdys vykdo šias taisykles, susijusias su dovanų kortelėmis:
 
-- Išskirkite pardavimo eilutes, kurios yra susijusios su *Išduoti dovanų kortelę* ir *Pridėti prie dovanų kortelės* operacijos iš fiskalinio kvito.
-- Nespausdinkite fiskalinio kvito, jei jį sudaro tik dovanų kortelės eilutės.
-- Iš fiskalinio kvito mokėjimo eilučių atimkite visą dovanų kortelių, kurios išduodamos arba iš naujo apmokestinamos atliekant operaciją, sumą.
-- Išsaugokite apskaičiuotus mokėjimo eilučių koregavimus kanalo duomenų bazėje su nuoroda į atitinkamą fiskalinę operaciją.
-- Apmokėjimas dovanų kortele laikomas įprastu mokėjimu.
+- Pašalinti pardavimo eilutes, susijusias su dovanų kortelės *išdavimo ir įtraukti į* *dovanų kortelės operacijas* iš finansinio kvito.
+- Nespausdinti finansinio kvito, jei jį sudaro tik dovanų kortelės eilutės.
+- Atskaityti bendrą dovanų kortelių, kurios išduotos arba iš naujo apmokestinamos operacijoje, sumą iš finansinio kvito mokėjimo eilučių.
+- Įrašykite apskaičiuotus mokėjimo eilučių koregavimus kanalo duomenų bazėje su nuoroda į atitinkamą fiskalinę operaciją.
+- Mokėjimas dovanų kortele laikomas įprastu mokėjimu.
 
-### <a name="customer-deposits-and-customer-order-deposits"></a>Klientų indėliai ir klientų užsakymų indėliai
+### <a name="customer-deposits-and-customer-order-deposits"></a>Kliento depozitai ir kliento užsakymo depozitai
 
-Fiskalinio spausdintuvo integravimo pavyzdys įgyvendina šias taisykles, susijusias su klientų indėliais ir klientų užsakymų įnašais:
+Fiskalinio spausdintuvo integravimo pavyzdys vykdo šias taisykles, susijusias su kliento depozitais ir kliento užsakymo depozitais:
 
-- Nespausdinkite fiskalinio kvito, jei operacija yra kliento indėlis.
-- Nespausdinkite fiskalinio kvito, jei operaciją sudaro tik kliento užsakymo užstatas arba kliento užsakymo užstato grąžinimas.
-- Išspausdinkite anksčiau sumokėto užstato sumą ant kliento užsakymo atsiėmimo operacijos fiskalinio kvito.
-- Sukūrę hibridinį kliento užsakymą, iš mokėjimo eilučių išskaičiuokite kliento užsakymo įmokos sumą.
-- Išsaugokite apskaičiuotus mokėjimo eilučių koregavimus kanalo duomenų bazėje su nuoroda į fiskalinę operaciją hibridiniam kliento užsakymui.
+- Nespausdinti finansinio kvito, jei operacija yra kliento depozitas.
+- Nespausdinti finansinio kvito, jei operacijoje yra tik kliento užsakymo depozitas arba kliento užsakymo depozito grąžinimas.
+- Spausdinti kliento užsakymo paėmimo operacijos finansinio kvito anksčiau sumokėto depozito sumą.
+- Atskaityti kliento užsakymo depozito sumą iš mokėjimo eilučių, kai sukurtas kliento užsakymas.
+- Įrašykite apskaičiuotus mokėjimo eilučių koregavimus kanalo duomenų bazėje su nuoroda į kliento užsakymo ataskaitinę operaciją.
 
-### <a name="limitations-of-the-sample"></a>Mėginio apribojimai
+### <a name="limitations-of-the-sample"></a>Pavyzdžio apribojimai
 
-- Fiskalinis spausdintuvas palaiko tik tuos atvejus, kai pardavimo mokestis yra įtrauktas į kainą. Todėl, **Kaina su pardavimo mokesčiu** parinktis turi būti nustatyta į **Taip** tiek parduotuvėms, tiek pirkėjams.
-- Kasdienės ataskaitos (fiskalinės X ir fiskalinės Z) spausdinamos naudojant įdėtąjį *Pamainos ataskaita* formatu.
-- Brūkšninio kodo spausdinimas ant fiskalinių kvitų laikomas galimu pritaikymu, nes ši funkcija nepalaikoma įterptuose formatuose ir gali būti įdiegta tik naudojant tinkinamą **Super formatas** ataskaita.
-- Fiskalinis spausdintuvas nepalaiko mišrių operacijų. The **Uždrausti maišyti pardavimus ir grąžinimus viename kvite** parinktis turi būti nustatyta į **Taip** POS funkcijų profiliuose.
+- Fiskalinis spausdintuvas palaiko tik scenarijus, kuriuose PVM įtraukiamas į kainą. Todėl parduotuvių **ir klientų parinktis** Kaina su PVM turi **būti** nustatyta kaip Taip.
+- Kasdienės ataskaitos (X finansinis ir finansinis Z) spausdinamos naudojant įdėtosios pamainos *ataskaitos* formatą.
+- Brūkšninio kodo spausdinimas ant finansinių kvitų laikomas galimu pritaikymu, **nes ši funkcija nepalaikoma įdėtųjų formatų ir gali būti įdiegta tik naudojant pritaikomą superformatinę** ataskaitą.
+- Fiskalinis spausdintuvas nepalaiko įvairių operacijų. **EKA funkcijų šablonuose turi būti nustatyta** Parinkties Uždrausti maišymą ir **grąžinimą** viena kvito pasirinktis Kaip Taip.
 
-## <a name="set-up-fiscal-integration-for-poland"></a>Nustatyti fiskalinę Lenkijos integraciją
+## <a name="set-up-fiscal-integration-for-poland"></a>Nustatyti finansų integravimą Lenkijai
 
-Fiskalinio spausdintuvo integravimo pavyzdys Lenkijai yra pagrįstas [fiskalinės integracijos funkcionalumas](fiscal-integration-for-retail-channel.md) ir yra mažmeninės prekybos SDK dalis. Pavyzdys yra **src\\ Fiskalinė integracija\\ Posnet** aplankas [Dynamics 365 Commerce Sprendimai](https://github.com/microsoft/Dynamics365Commerce.Solutions/) saugykla (pvz.[išleidimo pavyzdys/9.33](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33/src/FiscalIntegration/Posnet)). Pavyzdys [susideda](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services) mokesčių dokumentų teikėjo, kuris yra komercijos vykdymo laiko pratęsimas (CRT) ir fiskalinę jungtį, kuri yra „Commerce Hardware Station“ plėtinys. Norėdami gauti daugiau informacijos apie tai, kaip naudoti mažmeninės prekybos SDK, žr [Mažmeninės prekybos SDK architektūra](../dev-itpro/retail-sdk/retail-sdk-overview.md) ir [Nustatykite nepriklausomo pakavimo SDK kūrimo procesą](../dev-itpro/build-pipeline.md).
+Lenkijos fiskalinio spausdintuvo integravimo pavyzdys pagrįstas finansinio [integravimo funkcija](fiscal-integration-for-retail-channel.md) ir yra "Retail SDK" dalis. Pavyzdys yra sprendimų **saugyklos src\\ FiscalIntegration\\ Posnet**[Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/) aplanke (pvz., [išleidimo /9.33 pavyzdys](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33/src/FiscalIntegration/Posnet)). Pavyzdį [sudaro](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services) fiskalinio dokumento teikėjas, kuris yra "Commerce Runtime (CRT) plėtinys, ir fiskalinė jungtis, kuri yra "Commerce Hardware Station" plėtinys. Norėdami gauti daugiau informacijos apie tai, kaip naudoti "Retail SDK", [žr. "Retail SDK](../dev-itpro/retail-sdk/retail-sdk-overview.md)[" architektūrą ir nepriklausomo pakavimo SDK sukūrimo pardavimo galimybių sukūrimą](../dev-itpro/build-pipeline.md).
 
 > [!WARNING]
-> Dėl apribojimų [naujas nepriklausomas pakuotės ir prailginimo modelis](../dev-itpro/build-pipeline.md), šiuo metu jo negalima naudoti šiam fiskalinės integracijos pavyzdžiui. Turite naudoti ankstesnę mažmeninės prekybos SDK versiją kūrėjo virtualioje mašinoje (VM).Microsoft Dynamics Gyvenimo ciklo paslaugos (LCS). Daugiau informacijos žr [Fiskalinio spausdintuvo integravimo Lenkijoje pavyzdžio diegimo gairės (senas)](emea-pol-fpi-sample-sdk.md).
+> Dėl naujo nepriklausomo pakavimo [ir plėtinio modelio](../dev-itpro/build-pipeline.md) apribojimų, šiuo metu jo negalima naudoti šiame finansinio integravimo pavyzdyje. Turite naudoti ankstesnę "Retail SDK" versiją programavimo virtualiojoje kompiuteryje (VM) ciklo Microsoft Dynamics tarnybose (LCS). Daugiau informacijos ieškokite Lenkijos ([senesnės programos) fiskalinio spausdintuvo integravimo pavyzdžio diegimo rekomendacijose](emea-pol-fpi-sample-sdk.md).
 >
-> Naujos nepriklausomos pakuotės ir fiskalinės integracijos pavyzdžių išplėtimo modelio palaikymas planuojamas vėlesnėse versijose.
+> Naujas nepriklausomas pakavimo ir plėtinio modelis, skirtas finansinio integravimo pavyzdžiui, planuojamas vėlesnėms versijoms.
 
-Atlikite fiskalinės integracijos sąrankos veiksmus, kaip aprašyta [Nustatykite fiskalinį prekybos kanalų integravimą](setting-up-fiscal-integration-for-retail-channel.md).
+Atlikite finansinio integravimo nustatymo veiksmus, kaip aprašyta ["Commerce" kanalų finansinio integravimo nustatymas](setting-up-fiscal-integration-for-retail-channel.md).
 
-1. [Nustatykite fiskalinės registracijos procesą](setting-up-fiscal-integration-for-retail-channel.md#set-up-a-fiscal-registration-process). Taip pat atkreipkite dėmesį į fiskalinės registracijos proceso nustatymus [būdingas šiam fiskalinio spausdintuvo integravimo pavyzdžiui](#set-up-the-registration-process).
-1. [Nustatykite klaidų tvarkymo nustatymus](setting-up-fiscal-integration-for-retail-channel.md#set-error-handling-settings).
-1. [Nustatykite fiskalines X/Z ataskaitas iš POS](setting-up-fiscal-integration-for-retail-channel.md#set-up-fiscal-xz-reports-from-the-pos).
-1. [Įgalinti atidėtos fiskalinės registracijos vykdymą rankiniu būdu](setting-up-fiscal-integration-for-retail-channel.md#enable-manual-execution-of-postponed-fiscal-registration).
-1. [Konfigūruokite kanalo komponentus](#configure-channel-components).
+1. [Nustatykite finansinio registravimo procesą](setting-up-fiscal-integration-for-retail-channel.md#set-up-a-fiscal-registration-process). Taip pat pasižymėkite finansinio registravimo proceso parametrus, bvz., šio [fiskalinio spausdintuvo integravimo pavyzdį](#set-up-the-registration-process).
+1. [Nustatyti klaidų tvarkymo parametrus](setting-up-fiscal-integration-for-retail-channel.md#set-error-handling-settings).
+1. [EKA nustatykite finansų X/Z ataskaitas](setting-up-fiscal-integration-for-retail-channel.md#set-up-fiscal-xz-reports-from-the-pos).
+1. [Įgalinkite neautomatinį atidėtos finansinio registravimo vykdymą](setting-up-fiscal-integration-for-retail-channel.md#enable-manual-execution-of-postponed-fiscal-registration).
+1. [Sukonfigūruokite kanalo komponentus](#configure-channel-components).
 
-### <a name="set-up-the-registration-process"></a>Nustatykite registracijos procesą
+### <a name="set-up-the-registration-process"></a>Nustatyti registravimo procesą
 
-Norėdami įjungti registracijos procesą, atlikite šiuos veiksmus, kad nustatytumėte „Commerce“ būstinę. Daugiau informacijos žr [Nustatykite fiskalinį prekybos kanalų integravimą](setting-up-fiscal-integration-for-retail-channel.md#set-up-a-fiscal-registration-process).
+Norėdami įjungti registravimo procesą, atlikite šiuos veiksmus norėdami nustatyti "Commerce Headquarters". Daugiau informacijos rasite "Commerce [" kanalų finansinio integravimo nustatykite](setting-up-fiscal-integration-for-retail-channel.md#set-up-a-fiscal-registration-process).
 
-1. Atsisiųskite mokesčių dokumentų teikėjo ir fiskalinės jungties konfigūracijos failus:
+1. Atsisiųsti finansinio dokumento teikėjo ir fiskalinio jungties konfigūracijos failus:
 
-    1. Atidaryk [Dynamics 365 Commerce Sprendimai](https://github.com/microsoft/Dynamics365Commerce.Solutions/) saugykla.
-    1. Pasirinkite tinkamą leidimo šakos versiją pagal savo SDK / programos versiją (pvz.,**[išleidimas/9.33](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33)**).
-    1. Atviras **src \> Fiskalinė integracija \> Posnet**.
-    1. Atsisiųskite fiskalinio dokumento teikėjo konfigūracijos failą adresu **CommerceRuntime \> DocumentProvider.PosnetSample \> Konfigūracija \> DocumentProviderPosnetSample.xml** (pavyzdžiui, [išleidimo failas/9.33](https://github.com/microsoft/Dynamics365Commerce.Solutions/blob/release/9.33/src/FiscalIntegration/Posnet/CommerceRuntime/DocumentProvider.PosnetSample/Configuration/DocumentProviderPosnetSample.xml)).
-    1. Atsisiųskite fiskalinės jungties konfigūracijos failą adresu **HardwareStation \> ThermalDeviceSample \> Konfigūracija \> JungtisPosnetThermalFVEJ.xml** (pavyzdžiui, [išleidimo failas/9.33](https://github.com/microsoft/Dynamics365Commerce.Solutions/blob/release/9.33/src/FiscalIntegration/Posnet/HardwareStation/ThermalDeviceSample/Configuration/ConnectorPosnetThermalFVEJ.xml)).
+    1. Atidaryti sprendimų [Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/) saugyklą.
+    1. Pasirinkite tinkamą paleidimo šakos versiją pagal savo SDK/programos versiją (pvz., **[paleidimas/9.33](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33)**).
+    1. Atidaryti **src \> FiscalIntegration \> Posnet**.
+    1. Atsisiųskite finansinio dokumento teikėjo konfigūracijos failą svetainėje CommerceRuntime **DocumentProvider.PosnetSample Configuration DocumentProviderPosnetSample.xml (pvz \>., failas, \> skirtas release/9.33 \>).**[...](https://github.com/microsoft/Dynamics365Commerce.Solutions/blob/release/9.33/src/FiscalIntegration/Posnet/CommerceRuntime/DocumentProvider.PosnetSample/Configuration/DocumentProviderPosnetSample.xml)
+    1. Atsisiųskite "Fiscal Connector" konfigūracijos **failą, kurį reikia atsisiųsti iš HardwareStationVzviceSample \>\> Configuration \> ConnectorPosnetThermalFVEJ.xml (pvz** ., [leidimo / 9.33 failas](https://github.com/microsoft/Dynamics365Commerce.Solutions/blob/release/9.33/src/FiscalIntegration/Posnet/HardwareStation/ThermalDeviceSample/Configuration/ConnectorPosnetThermalFVEJ.xml)).
 
     > [!WARNING]
-    > Dėl apribojimų [naujas nepriklausomas pakuotės ir prailginimo modelis](../dev-itpro/build-pipeline.md), šiuo metu jo negalima naudoti šiam fiskalinės integracijos pavyzdžiui. Turite naudoti ankstesnę mažmeninės prekybos SDK versiją kūrėjo VM sistemoje LCS. Šio fiskalinio integravimo pavyzdžio konfigūracijos failai yra šiuose mažmeninės prekybos SDK aplankuose kūrėjo VM LCS:
+    > Dėl naujo nepriklausomo pakavimo [ir plėtinio modelio](../dev-itpro/build-pipeline.md) apribojimų, šiuo metu jo negalima naudoti šiame finansinio integravimo pavyzdyje. Turite naudoti ankstesnę "Retail SDK" versiją LCS programuotojo VM. Šio fiskalinio integravimo pavyzdžio konfigūracijos failai yra toliau esančiuuose "Retail" SDK, esantis LCS programuotojo VM, aplankuose:
     >
-    > - **Fiskalinio dokumento teikėjo konfigūracijos failas:** RetailSdk\\ Extensions pavyzdys\\ CommerceRuntime\\ Extension.DocumentProvider.PosnetSample\\ Konfigūracija\\ DocumentProviderPosnetSample.xml
-    > - **Fiskalinės jungties konfigūracijos failas:** RetailSdk\\ Extensions pavyzdys\\ HardwareStation\\ Extension.Posnet.ThermalDeviceSample\\ Konfigūracija\\ JungtisPosnetThermalFVEJ.xml
+    > - **Iždo dokumentų teikėjo konfigūracijos failas:** RetailSdk\\ SampleExtensions\\ CommerceRuntime\\ Extension.DocumentProvider.PosnetSample\\ Configuration\\ DocumentProviderPosnetSample.xml
+    > - **Iždo jungties konfigūracijos failas:** RetailSdk\\ SampleExtensions\\ HardwareStation\\ extension.Posnet.PjDeviceSample\\ Configuration\\ ConnectorPosnetThermalFVEJ.xml
     > 
-    > Naujos nepriklausomos pakuotės ir fiskalinės integracijos pavyzdžių išplėtimo modelio palaikymas planuojamas vėlesnėse versijose.
+    > Naujas nepriklausomas pakavimo ir plėtinio modelis, skirtas finansinio integravimo pavyzdžiui, planuojamas vėlesnėms versijoms.
 
-1. Eikite į **Mažmeninė prekyba ir prekyba \> „Headquarters“ sąranka \> Parametrai \> „Commerce“ bendrinami parametrai**. Ant **Generolas** skirtuką, nustatykite **Įgalinti fiskalinę integraciją** galimybė į **Taip**.
-1. Eiti į **Mažmeninė prekyba ir prekyba \> Kanalo nustatymas \> Fiskalinė integracija \> Fiskalinių dokumentų teikėjai** ir įkelkite fiskalinio dokumento teikėjo konfigūracijos failą, kurį atsisiuntėte anksčiau.
-1. Eiti į **Mažmeninė prekyba ir prekyba \> Kanalo nustatymas \> Fiskalinė integracija \> Fiskalinės jungtys** ir įkelkite fiskalinės jungties konfigūracijos failą, kurį atsisiuntėte anksčiau.
-1. Eiti į **Mažmeninė prekyba ir prekyba \> Kanalo nustatymas \> Fiskalinė integracija \> Jungčių funkciniai profiliai**. Sukurkite naują jungties funkcinį profilį. Pasirinkite dokumento teikėją ir jungtį, kurią įkėlėte anksčiau. Atnaujinkite [duomenų atvaizdavimo nustatymus](#default-data-mapping) kaip reikalaujama.
-1. Eiti į **Mažmeninė prekyba ir prekyba \> Kanalo nustatymas \> Fiskalinė integracija \> Jungčių techniniai profiliai**. Sukurkite naują jungties techninį profilį ir pasirinkite fiskalinę jungtį, kurią įkėlėte anksčiau. Atnaujinkite [jungties nustatymai](#fiscal-connector-settings) kaip reikalaujama.
-6. Eiti į **Mažmeninė prekyba ir prekyba \> Kanalo nustatymas \> Fiskalinė integracija \> Fiskalinių jungčių grupės**. Sukurkite naują fiskalinių jungčių grupę jungties funkciniam profiliui, kurį sukūrėte anksčiau.
-7. Eiti į **Mažmeninė prekyba ir prekyba \> Kanalo nustatymas \> Fiskalinė integracija \> Fiskalinės registracijos procesai**. Sukurkite naują fiskalinės registracijos procesą ir fiskalinės registracijos proceso veiksmą ir pasirinkite anksčiau sukurtą fiskalinių jungčių grupę.
-8. Eikite į **Mažmeninį prekyba ir komercija \> Kanalo sąranka \> EKA sąranka \> EKA profiliai \> Funkcionalumo profiliai**. Pasirinkite funkcijų profilį, susietą su parduotuve, kurioje turėtų būti suaktyvintas registracijos procesas. Ant **Fiskalinės registracijos procesas** FastTab, pasirinkite fiskalinės registracijos procesą, kurį sukūrėte anksčiau.
-9. Eikite į **Mažmeninė prekyba ir prekyba \> Kanalo sąranka \> EKA sąranka \> EKA šablonai \> Aparatūros šablonai**. Pasirinkite aparatūros profilį, susietą su aparatūros stotimi, prie kurios bus prijungtas fiskalinis spausdintuvas. Ant **Fiskaliniai periferiniai įrenginiai** FastTab, pasirinkite jungties techninį profilį, kurį sukūrėte anksčiau.
-10. Atidarykite platinimo tvarkaraštį (**Mažmeninė prekyba ir prekyba \> Mažmeninė prekyba ir IT \> Platinimo grafikas**) ir pasirinkite darbus **1070** ir **1090** perkelti duomenis į kanalo duomenų bazę.
+1. Eikite į **Mažmeninė prekyba ir prekyba \> „Headquarters“ sąranka \> Parametrai \> „Commerce“ bendrinami parametrai**. Skirtuke **Bendra** nustatykite pasirinktį **Įgalinti finansų integravimą** kaip **Taip**.
+1. Eikite į **"Retail" ir "Commerce \> Channel" \> nustatymą "Fiscal integration \> Fiscal"** dokumentų teikėjai ir įkelkite anksčiau atsisiųstą fiskalinio dokumento teikėjo konfigūracijos failą.
+1. Eikite į **"Retail" ir "Commerce Channel" \> nustatymą "Fiscal integration \> Fiscal \>" jungtis ir įkelkite anksčiau atsisiųstą "Fiscal** Connector" konfigūracijos failą.
+1. Eikite į **"Retail" ir "Commerce \> Channel" nustatymo \> "Fiscal integration \> Connector" funkcinius profilius**. Sukurti naują jungties funkcinį profilį. Pasirinkite anksčiau įkeltą dokumento teikėją ir jungtį. Pagal reikia [atnaujinti duomenų susiejimo](#default-data-mapping) parametrus.
+1. Eikite į **"Retail" ir "Commerce \> Channel" nustatymo \> "Fiscal integration \> Connector" techninius profilius**. Sukurkite naują jungties techninio profilio ir pasirinkite anksčiau įkeltą fiskalinę jungtį. Pagal reikiamą [parametrų versiją atnaujinkite](#fiscal-connector-settings) jungties parametrus.
+6. Eikite į " **Retail" ir "Commerce \> Channel" nustatymo \> "Fiscal integration \> Fiscal" jungties grupes**. Sukurkite naują anksčiau sukurto jungties funkcinių profilių finansinių jungčių grupę.
+7. Eikite į **"Retail" ir "Commerce \> Channel" nustatymo \> "Fiscal integration \> Fiscal" registracijos procesus**. Sukurkite naują finansinio registravimo procesą ir finansinio registravimo proceso veiksmą, tada pasirinkite anksčiau sukurtą finansinių jungčių grupę.
+8. Eikite į **Mažmeninį prekyba ir komercija \> Kanalo sąranka \> EKA sąranka \> EKA profiliai \> Funkcionalumo profiliai**. Pasirinkite funkcijų šabloną, susietą su parduotuve, kurioje turi būti suaktyvintas registracijos procesas. Finansinio registravimo **proceso "** FastTab" pasirinkite anksčiau sukurtą finansinio registravimo procesą.
+9. Eikite į **Mažmeninė prekyba ir prekyba \> Kanalo sąranka \> EKA sąranka \> EKA šablonai \> Aparatūros šablonai**. Pasirinkite aparatūros šabloną, susietą su aparatūros stotiu, prie kurios bus prijungtas fiskalinis spausdintuvas. **"FastTab" Iždo išoriniuose** įrenginiuose pasirinkite senesnę jungtį sukūrusį techninio profilio jungtį.
+10. Atidarykite paskirstymo grafiką (**"Retail and Commerce Retail ir Commerce \> IT \> Distribution"** grafiką) **ir pasirinkite užduotis 1070** **ir 1090**, kad duomenys būtų perkelti į kanalo duomenų bazę.
 
-#### <a name="default-data-mapping"></a>Numatytasis duomenų atvaizdavimas
+#### <a name="default-data-mapping"></a>Numatytųjų duomenų susiejimas
 
-Šis numatytasis duomenų atvaizdavimas įtrauktas į fiskalinio dokumento teikėjo konfigūraciją, kuri pateikiama kaip fiskalinės integracijos pavyzdžio dalis:
+Toliau pateiktas numatytasis duomenų susiejimas yra įtrauktas į finansinio dokumento teikėjo konfigūraciją, kuri pateikiama kaip finansinio integravimo pavyzdžio dalis:
 
-- **Pridėtinės vertės mokesčio (PVM) tarifų kartografavimas** – Mokesčių procentinių verčių, nustatytų pardavimo mokesčių kodams, susiejimas su fiskaliniam spausdintuvui būdingais PVM tarifais. Čia yra numatytasis atvaizdavimas:
+- **Pridėtinės vertės mokesčio (PVM)** tarifų konvertavimas – mokesčio procento verčių, kurios nustatytos PVM kodams, susiejimas su iždo dokumentų spausdintuvu – konkrečiai PVM tarifams. Čia yra numatytasis susiejimas:
 
     ```
     0 : 23.00 ; 1 : 8.00 ; 2 : 5.00 ; 3 : 0.00
     ```
 
-    Pirmasis kiekvienos poros komponentas reiškia PVM tarifo numerį, sukonfigūruotą fiskaliniame spausdintuve. Antrasis komponentas reiškia atitinkamą PVM tarifą. Daugiau informacijos apie fiskalinio spausdintuvo PVM tarifo konfigūraciją rasite POSNET tvarkyklės dokumentacijoje.
+    Pirmasis kiekvienos poros komponentas rodo PVM tarifo numerį, kuris sukonfigūruotas fiskalinio spausdintuvo. Antrasis komponentas rodo atitinkamą PVM tarifą. Daugiau informacijos apie fiskalinio spausdintuvo PVM tarifo konfigūraciją ieškokite POSNET tvarkyklės dokumentuose.
 
-- **Konkurso tipo kartografavimas** – Mokėjimo metodų, sukonfigūruotų parduotuvei, susiejimas su mokėjimo formomis, kurias palaiko fiskalinis spausdintuvas. Čia yra numatytasis atvaizdavimas:
+- **Mokėjimo priemonės tipo** susiejimas – mokėjimo būdų, kurie sukonfigūruoti parduotuvei ir mokėjimo formoms, kurias palaiko fiskalinis spausdintuvas, susiejimas. Čia yra numatytasis susiejimas:
 
     ```
     0 : 0 ; 1 : 0 ; 2 : 2 ; 3 : 2 ; 4 : 0 ; 5 : 0 ; 6 : 0 ; 7 : 2 ; 8 : 0
     ```
 
-    Pirmasis kiekvienos poros komponentas reiškia mokėjimo metodą, kuris yra nustatytas parduotuvėje. Antrasis komponentas reiškia atitinkamą mokėjimo formą, kurią palaiko fiskalinis spausdintuvas. Daugiau informacijos apie mokėjimo formas, kurias palaiko fiskalinis spausdintuvas, rasite POSNET tvarkyklės dokumentacijoje. Turite modifikuoti pavyzdinį susiejimą pagal mokėjimo metodus, sukonfigūruotus jūsų programoje.
+    Pirmasis kiekvienos poros komponentas atitinka parduotuvei nustatytą mokėjimo būdą. Antrasis komponentas nurodo atitinkamą mokėjimo formą, kurią palaiko fiskalinis spausdintuvas. Daugiau informacijos apie mokėjimo formas, kurias palaiko fiskalinis spausdintuvas, ieškokite POSNET tvarkyklės dokumentuose. Turite modifikuoti pavyzdžio susiejimą pagal mokėjimo metodus, kurie sukonfigūruoti jūsų programoje.
 
-#### <a name="fiscal-connector-settings"></a>Fiskalinės jungties nustatymai
+#### <a name="fiscal-connector-settings"></a>Iždo jungties parametrai
 
-Šie nustatymai įtraukti į fiskalinės jungties konfigūraciją, kuri pateikiama kaip fiskalinės integracijos pavyzdžio dalis:
+Šie parametrai įtraukiami į fiskalinės jungties konfigūraciją, kuri pateikiama kaip finansinio integravimo pavyzdys:
 
-- **Ryšio eilutė** – Eilutę, apibūdinančią išsamią ryšio su įrenginiu informaciją formatu, kurį palaiko tvarkyklė. Daugiau informacijos rasite POSNET tvarkyklės dokumentacijoje.
-- **Datos ir laiko sinchronizavimas** – Reikšmė, nurodanti, ar spausdintuvo data ir laikas turi būti sinchronizuojami su prijungta aparatūros stotimi.
-- **Įrenginio skirtasis laikas** – Laikas milisekundėmis, per kurį vairuotojas lauks atsakymo iš įrenginio. Daugiau informacijos rasite POSNET tvarkyklės dokumentacijoje.
+- **Jungimosi** eilutė – eilutė, aprašantys išsamią ryšio su įrenginiu informaciją tvarkyklės palaikomu formatu. Daugiau informacijos ieškokite POSNET tvarkyklės dokumentuose.
+- **Datos ir laiko sinchronizavimas** – reikšmė, nurodanti, ar spausdintuvo data ir laikas turi būti sinchronizuoti su prijungta aparatūros stotyje.
+- **Įrenginio skirtasis** laikas milisekunde, per kurį vairuotojas lauks atsakymo iš įrenginio. Daugiau informacijos ieškokite POSNET tvarkyklės dokumentuose.
 
-### <a name="configure-channel-components"></a>Konfigūruokite kanalo komponentus
+### <a name="configure-channel-components"></a>Konfigūruoti kanalo komponentus
 
 > [!WARNING]
-> Dėl apribojimų [naujas nepriklausomas pakuotės ir prailginimo modelis](../dev-itpro/build-pipeline.md), šiuo metu jo negalima naudoti šiam fiskalinės integracijos pavyzdžiui. Turite naudoti ankstesnę mažmeninės prekybos SDK versiją kūrėjo VM sistemoje LCS. Daugiau informacijos žr [Fiskalinio spausdintuvo integravimo Lenkijoje pavyzdžio diegimo gairės (senas)](emea-pol-fpi-sample-sdk.md).
+> Dėl naujo nepriklausomo pakavimo [ir plėtinio modelio](../dev-itpro/build-pipeline.md) apribojimų, šiuo metu jo negalima naudoti šiame finansinio integravimo pavyzdyje. Turite naudoti ankstesnę "Retail SDK" versiją LCS programuotojo VM. Daugiau informacijos ieškokite Lenkijos ([senesnės programos) fiskalinio spausdintuvo integravimo pavyzdžio diegimo rekomendacijose](emea-pol-fpi-sample-sdk.md).
 >
-> Naujos nepriklausomos pakuotės ir fiskalinės integracijos pavyzdžių išplėtimo modelio palaikymas planuojamas vėlesnėse versijose.
+> Naujas nepriklausomas pakavimo ir plėtinio modelis, skirtas finansinio integravimo pavyzdžiui, planuojamas vėlesnėms versijoms.
 
-#### <a name="set-up-the-development-environment"></a>Nustatykite kūrimo aplinką
+#### <a name="set-up-the-development-environment"></a>Programavimo aplinkos kūrimas
 
-Norėdami nustatyti kūrimo aplinką pavyzdžiui išbandyti ir išplėsti, atlikite šiuos veiksmus.
+Norėdami nustatyti programavimo aplinką, kad būtų galima patikrinti ir išplėsti pavyzdį, atlikite šiuos veiksmus.
 
-1. Klonuokite arba atsisiųskite [Dynamics 365 Commerce Sprendimai](https://github.com/microsoft/Dynamics365Commerce.Solutions) saugykla. Pasirinkite tinkamą leidimo šakos versiją pagal savo SDK / programos versiją. Daugiau informacijos žr [Atsisiųskite mažmeninės prekybos SDK pavyzdžius ir nuorodų paketus iš „GitHub“ ir NuGet](../dev-itpro/retail-sdk/sdk-github.md).
-1. Atidarykite fiskalinio spausdintuvo integravimo sprendimą adresu **Dynamics365Commerce.Solutions\\ Fiskalinė integracija\\ Posnet\\ Posnet.sln**, ir pastatyti jį.
-1. Diegti CRT plėtiniai:
+1. Užduokite arba atsisiųskite [Dynamics 365 Commerce sprendimų](https://github.com/microsoft/Dynamics365Commerce.Solutions) saugyklą. Pasirinkite tinkamą paleidimo šakos versiją pagal savo SDK / programos versiją. Norėdami gauti daugiau informacijos, žr. ["Download Retail SDK" pavyzdžius ir nuorodų paketus iš GitHub ir NuGet](../dev-itpro/retail-sdk/sdk-github.md).
+1. Atidarykite finansinio spausdintuvo integravimo sprendimą **Dynamics365Commerce.Solutions\\ FiscalIntegration\\ Posnet Posnet.sln\\** ir sukurkite jį.
+1. Įdiegti CRT plėtinius:
 
-    1. Surask CRT plėtinio diegimo programa:
+    1. Rasti plėtinio CRT diegimo programą:
 
-        - **Prekybos masto vienetas:** Viduje konors **Posnet\\ ScaleUnit\\ ScaleUnit.Posnet.Installer\\ šiukšliadėžė\\ Derinimas\\ net461** aplanką, suraskite **ScaleUnit.Posnet.Installer** montuotojas.
-        - **Vietinis CRT Šiuolaikinėje POS:** Viduje konors **Posnet\\ Šiuolaikinis POS\\ ModernPOS.Posnet.Installer\\ šiukšliadėžė\\ Derinimas\\ net461** aplanką, suraskite **ModernPOS.Posnet.Installer** montuotojas.
+        - **"Commerce Scale Unit":** **aplanke Posnet\\ ScaleUnit\\ ScaleUnit.Posnet.Installer\\ talpyklos\\ debug\\ net461** **raskite ScaleUnit.Posnet.Installer diegimo** kūrėjas.
+        - **Vietinė CRT "Modern POS":** **aplanke Posnet\\ ModernPOS ModernPOS.Posnet.Installer\\\\\\ talpyklos debug\\ net461** **raskite ModernPOS.Posnet.Installer diegimo** kūrėjas.
 
-    1. Pradėkite CRT plėtinio diegimo programa iš komandinės eilutės:
+    1. Paleiskite CRT plėtinio diegimo programą iš komandų eilutės:
 
-        - **Prekybos masto vienetas:**
+        - **"Commerce Scale Unit":**
 
             ```Console
             ScaleUnit.Posnet.Installer.exe install --verbosity 0
             ```
 
-        - **Vietinis CRT Šiuolaikinėje POS:**
+        - **" CRT Modern POS" vieta:**
 
             ```Console
             ModernPOS.Posnet.Installer.exe install --verbosity 0
             ```
 
-1. Įdiekite aparatinės įrangos stoties plėtinius:
+1. Įdiekite aparatūros stoties plėtinius:
 
-    1. Viduje konors **Posnet\\ HardwareStation\\ HardwareStation.PosnetThermalFVFiscalPrinter.Installer\\ šiukšliadėžė\\ Derinimas\\ net461** aplanką, suraskite **HardwareStation.PosnetThermalFVFiscalPrinter.Installer** montuotojas.
-    1. Paleiskite plėtinio diegimo programą iš komandinės eilutės:
+    1. Posnet **HardwareStation\\ HardwareStation.PosnetThermalFFiscalPrinter.Installer\\\\ talpyklos debug\\ net461 \\** aplanke raskite HardwareStation.PosnetThermalFVFiscalPrinter.Installer diegimo **priemonę.**
+    1. Paleiskite plėtinio diegimo programą iš komandų eilutės:
 
         ```Console
         HardwareStation.PosnetThermalFVFiscalPrinter.Installer.exe install --verbosity 0
@@ -216,52 +216,52 @@ Norėdami nustatyti kūrimo aplinką pavyzdžiui išbandyti ir išplėsti, atlik
 
 #### <a name="production-environment"></a>Gamybos aplinka
 
-Atlikite nurodytus veiksmus [Nustatykite fiskalinės integracijos pavyzdžio kūrimo dujotiekį](fiscal-integration-sample-build-pipeline.md) sugeneruoti ir išleisti Cloud Scale Unit ir savitarnos dislokuojamus paketus fiskalinės integracijos pavyzdžiui. The **Posnet build-pipeline.yml** šablono YAML failą galima rasti **Dujotiekis\\ YAML_Failai** aplankas [Dynamics 365 Commerce Sprendimai](https://github.com/microsoft/Dynamics365Commerce.Solutions) saugykla.
+Norėdami sugeneruoti [ir](fiscal-integration-sample-build-pipeline.md) paleisti debesies skalės vienetą ir savitarnos diegiant finansinio integravimo pavyzdžio paketus, atlikite nurodytus veiksmus. Posnet build-pipeline.yml **šablono JAML** **failą galima rasti YAML_Files \\** saugyklos pardavimo [Dynamics 365 Commerce galimybių aplanke.](https://github.com/microsoft/Dynamics365Commerce.Solutions)
 
-## <a name="design-of-extensions"></a>Priestatų projektavimas
+## <a name="design-of-extensions"></a>Plėtinių dizainas
 
-Fiskalinio spausdintuvo integravimo pavyzdys Lenkijai yra pagrįstas [fiskalinės integracijos funkcionalumas](fiscal-integration-for-retail-channel.md) ir yra mažmeninės prekybos SDK dalis. Pavyzdys yra **src\\ Fiskalinė integracija\\ Posnet** aplankas [Dynamics 365 Commerce Sprendimai](https://github.com/microsoft/Dynamics365Commerce.Solutions/) saugykla (pvz.[išleidimo pavyzdys/9.33](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33/src/FiscalIntegration/Posnet)). Pavyzdys [susideda](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services) mokesčių dokumentų teikėjo, kuris yra pratęsimas CRT ir fiskalinė jungtis, kuri yra „Commerce Hardware Station“ plėtinys. Norėdami gauti daugiau informacijos apie tai, kaip naudoti mažmeninės prekybos SDK, žr [Mažmeninės prekybos SDK architektūra](../dev-itpro/retail-sdk/retail-sdk-overview.md) ir [Nustatykite nepriklausomo pakavimo SDK kūrimo procesą](../dev-itpro/build-pipeline.md).
+Lenkijos fiskalinio spausdintuvo integravimo pavyzdys pagrįstas finansinio [integravimo funkcija](fiscal-integration-for-retail-channel.md) ir yra "Retail SDK" dalis. Pavyzdys yra sprendimų **saugyklos src\\ FiscalIntegration\\ Posnet**[Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/) aplanke (pvz., [išleidimo /9.33 pavyzdys](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33/src/FiscalIntegration/Posnet)). Pavyzdį [sudaro](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services) fiskalinio dokumento teikėjas CRT, kuris yra plėtinys, ir fiskalinė jungtis, kuri yra "Commerce Hardware Station" plėtinys. Norėdami gauti daugiau informacijos apie tai, kaip naudoti "Retail SDK", [žr. "Retail SDK](../dev-itpro/retail-sdk/retail-sdk-overview.md)[" architektūrą ir nepriklausomo pakavimo SDK sukūrimo pardavimo galimybių sukūrimą](../dev-itpro/build-pipeline.md).
 
 > [!WARNING]
-> Dėl apribojimų [naujas nepriklausomas pakuotės ir prailginimo modelis](../dev-itpro/build-pipeline.md), šiuo metu jo negalima naudoti šiam fiskalinės integracijos pavyzdžiui. Turite naudoti ankstesnę mažmeninės prekybos SDK versiją kūrėjo VM sistemoje LCS. Daugiau informacijos žr [Fiskalinio spausdintuvo integravimo Lenkijoje pavyzdžio diegimo gairės (senas)](emea-pol-fpi-sample-sdk.md). Naujos nepriklausomos pakuotės ir fiskalinės integracijos pavyzdžių išplėtimo modelio palaikymas planuojamas vėlesnėse versijose.
+> Dėl naujo nepriklausomo pakavimo [ir plėtinio modelio](../dev-itpro/build-pipeline.md) apribojimų, šiuo metu jo negalima naudoti šiame finansinio integravimo pavyzdyje. Turite naudoti ankstesnę "Retail SDK" versiją LCS programuotojo VM. Daugiau informacijos ieškokite Lenkijos ([senesnės programos) fiskalinio spausdintuvo integravimo pavyzdžio diegimo rekomendacijose](emea-pol-fpi-sample-sdk.md). Naujas nepriklausomas pakavimo ir plėtinio modelis, skirtas finansinio integravimo pavyzdžiui, planuojamas vėlesnėms versijoms.
 
-### <a name="commerce-runtime-extension-design"></a>Prekybos vykdymo laiko plėtinio dizainas
+### <a name="commerce-runtime-extension-design"></a>"Commerce Runtime" plėtinio dizainas
 
-Plėtinio, kuris yra mokesčių dokumentų teikėjas, tikslas yra generuoti konkretiems spausdintuvams skirtus dokumentus ir tvarkyti atsakymus iš fiskalinio spausdintuvo. Šis plėtinys generuoja spausdintuvui būdingų komandų rinkinį JavaScript Object Notation (JSON) formatu, apibrėžtą POSNET specifikacijoje 19-3678.
+Plėtinio, kuris yra fiskalinio dokumento teikėjas, paskirtis yra generuoti konkretaus spausdintuvo dokumentus ir tvarkyti atsakymus iš fiskalinio spausdintuvo. Šis plėtinys sugeneruoja poSNET 19-3678 specifikacijos apibrėžtą "JavaScript Object Notation" (JSON) formato spausdintuvui specialių komandų rinkinį.
 
-#### <a name="request-handler"></a>Užklausų tvarkytojas
+#### <a name="request-handler"></a>Užklausų apdorojimo programa
 
-The **DocumentProviderPosnetProtocol** užklausų tvarkytojas yra užklausos generuoti dokumentus iš fiskalinio spausdintuvo įvesties taškas.
+**DocumentProviderPosnetProtocol užklausos** apdorojimo programa yra įvesties taškas, per kurį užklausa generuoja dokumentus iš fiskalinio spausdintuvo.
 
-Prižiūrėtojas yra paveldėtas iš **INamedRequestHandler** sąsaja. The **Valdytojo vardas** metodas yra atsakingas už tvarkytojo vardo grąžinimą. Valdiklio pavadinimas turi atitikti jungties dokumento teikėjo pavadinimą, nurodytą „Commerce“ būstinėje.
-
-Jungtis palaiko šias užklausas:
-
-- **GetFiscalDocumentDocumentProviderRequest** – Šioje užklausoje pateikiama informacija apie tai, koks dokumentas turi būti sugeneruotas. Jis grąžina konkretaus spausdintuvo dokumentą, kuris turėtų būti užregistruotas mokesčių spausdintuve.
-- **GetSupportedRegistrableEventsDocumentProviderRequest** – Ši užklausa grąžina prenumeruojamų įvykių sąrašą. Šiuo metu palaikomi šie įvykiai: pardavimas, X ataskaitos spausdinimas ir Z ataskaitos spausdinimas.
-
-#### <a name="configuration"></a>Konfigūracija
-
-Fiskalinio dokumento teikėjo konfigūracijos failas yra adresu **src\\ Fiskalinė integracija\\ Posnet\\ CommerceRuntime\\ DocumentProvider.PosnetSample\\ Konfigūracija\\ DocumentProviderPosnetSample.xml** viduje konors [Dynamics 365 Commerce Sprendimai](https://github.com/microsoft/Dynamics365Commerce.Solutions/) saugykla. Failo tikslas – leisti fiskalinių dokumentų teikėjo nustatymus konfigūruoti iš „Commerce“ būstinės. Failo formatas suderintas su fiskalinės integracijos konfigūracijos reikalavimais.
-
-### <a name="hardware-station-extension-design"></a>Techninės įrangos stoties išplėtimo projektavimas
-
-Plėtinio, kuris yra fiskalinė jungtis, tikslas yra susisiekti su mokesčių spausdintuvu. Šis plėtinys iškviečia POSNET tvarkyklės funkcijas, kad pateiktų komandas, kurias CRT plėtinys sugeneruoja mokesčių spausdintuvą. Jis taip pat tvarko įrenginio klaidas.
-
-#### <a name="request-handler"></a>Užklausų tvarkytojas
-
-The **FiscalPrinterHandler** užklausų tvarkytojas yra įvesties taškas, skirtas apdoroti užklausą į fiskalinį periferinį įrenginį.
-
-Prižiūrėtojas yra paveldėtas iš **INamedRequestHandler** sąsaja. The **Valdytojo vardas** metodas yra atsakingas už tvarkytojo vardo grąžinimą. Droviklio pavadinimas turi atitikti fiskalinės jungties pavadinimą, nurodytą „Commerce“ būstinėje.
+Apdorojimo programa perimama iš **INamedRequestHandler** sąsajos. Metodas **HandlerName** yra atsakingas už apdorojimo programos pavadinimo grąžinimą. Apdorojimo programos pavadinimas turi sutapti su jungties dokumento teikėjo pavadinimu, kuris nurodytas "Commerce Headquarters".
 
 Jungtis palaiko šias užklausas:
 
-- **SubmitDocumentFiscalDeviceRequest** – Ši užklausa siunčia dokumentus į spausdintuvus ir grąžina atsakymą iš fiskalinio spausdintuvo.
-- **IsReadyFiscalDeviceRequest** – Ši užklausa naudojama prietaiso sveikatos patikrinimui.
-- **InitializeFiscalDeviceRequest** – Ši užklausa naudojama spausdintuvo inicijavimui.
+- **GetFiscalDocumentDocumentProviderRequest** – šioje užklausoje yra informacijos apie tai, koks dokumentas turėtų būti sugeneruotas. Grąžinamas spausdintuvui konkretus dokumentas, kuris turi būti užregistruotas fiskaliniu spausdintuvu.
+- **GetSupportedRegistrableEventsDocumentProviderRequest** – ši užklausa pateikia įvykių, prie kurių bus užsiprenumeruoti, sąrašą. Šiuo metu palaikomi šie įvykiai: pardavimas, X ataskaitos spausdinimas ir Z ataskaitos spausdinimas.
 
 #### <a name="configuration"></a>Konfigūracija
 
-Fiskalinės jungties konfigūracijos failas yra adresu **src\\ Fiskalinė integracija\\ Posnet\\ HardwareStation\\ ThermalDeviceSample\\ Konfigūracija\\ JungtisPosnetThermalFVEJ.xml** viduje konors [Dynamics 365 Commerce Sprendimai](https://github.com/microsoft/Dynamics365Commerce.Solutions/) saugykla. Failo tikslas – leisti fiskalinės jungties nustatymus konfigūruoti iš „Commerce“ būstinės. Failo formatas suderintas su fiskalinės integracijos konfigūracijos reikalavimais.
+Finansinio dokumento teikėjo konfigūracijos failas yra src **FiscalIntegration\\ Posnet\\ CommerceRuntime\\ DocumentProvider.PosnetSample konfigūracijos DocumentProviderPosnetSample.xml \\\\\\ sprendimų saugykloje.**[Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/) Failo paskirtis – įgalinti finansinio dokumento teikėjo parametrus, kurie bus konfigūruoti iš "Commerce Headquarters". Failo formatas sulygiuotas su finansinio integravimo konfigūracijos reikalavimais.
+
+### <a name="hardware-station-extension-design"></a>Aparatūros stoties plėtinio dizainas
+
+Plėtinio, kuris yra fiskalinė jungtis, paskirtis yra palaikyti ryšį su fiskaliniu spausdintuvu. Šis plėtinys išk prašo POSNET tvarkyklės funkcijų pateikti komandas, kurias plėtinys CRT sugeneruoja fiskaliniu spausdintuvu. Ji taip pat tvarko įrenginio klaidas.
+
+#### <a name="request-handler"></a>Užklausų apdorojimo programa
+
+FiscalPrinterHandler **užklausos** apdorojimo programa yra įvesties taškas, skirtas tvarkyti užklausą į fiskalinį per įrenginį.
+
+Apdorojimo programa perimama iš **INamedRequestHandler** sąsajos. Metodas **HandlerName** yra atsakingas už apdorojimo programos pavadinimo grąžinimą. Apdorojimo programos pavadinimas turi sutapti su "Commerce Headquarters" nurodytu finansinio jungties pavadinimu.
+
+Jungtis palaiko šias užklausas:
+
+- **SubmitDocumentFiscalDeviceRequest** – ši užklausa siunčia dokumentus spausdintuvams ir grąžina atsakymą iš fiskalinio spausdintuvo.
+- **IsReadyFiscalDeviceRequest** – ši užklausa naudojama įrenginio sveikatos patikrai atlikti.
+- **InitializeFiscalDeviceRequest** – ši užklausa naudojama spausdintuvui inicijuoti.
+
+#### <a name="configuration"></a>Konfigūracija
+
+Fiskalinės jungties **konfigūracijos failas yra src\\ FiscalIntegration\\ Posnet\\ HardwareStationVzviceSample\\\\ Configuration\\ ConnectorPosnetThermalFVEJ.xml**[Dynamics 365 Commerce sprendimų](https://github.com/microsoft/Dynamics365Commerce.Solutions/) saugykloje. Failo paskirtis – įgalinti finansinių jungčių parametrus, kurie bus konfigūruoti iš "Commerce Headquarters". Failo formatas sulygiuotas su finansinio integravimo konfigūracijos reikalavimais.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
 title: Eksperimento vykdymas ir stebėjimas
-description: Šioje temoje aprašoma, kaip vykdyti ir stebėti eksperimentą trečiosios šalies paslaugoje. Taip pat aprašoma, kaip atlikti variacijų keitimus po to, kai eksperimentas pradėtas.
+description: Šiame straipsnyje aprašoma, kaip vykdyti ir stebėti trečiųjų šalių tarnybos dalis. Taip pat aprašoma, kaip atlikti variacijų keitimus po to, kai eksperimentas pradėtas.
 author: sushma-rao
 ms.date: 10/21/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: cd8864caec23f6aca30badba1a79da31301a0ddb92a74bb4a6fe027214d0f8d6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c9f62c97b46fa00791de52b2804dad5edde7f625
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6777577"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909588"
 ---
 # <a name="run-and-monitor-an-experiment"></a>Eksperimento vykdymas ir stebėjimas
 
-Šioje temoje aprašoma, kaip vykdyti ir stebėti jūsų eksperimentą trečiosios šalies programoje ir kaip atlikti variacijų keitimus, jei reikia. Prieš atlikdami šioje temoje aprašytus veiksmus, pirmiausia turite [publikuoti](experimentation-preview-publish.md) jūsų eksperimentą „Commerce”. 
+Šiame straipsnyje aprašoma, kaip vykdyti ir stebėti savo programos trečiąją šalį ir, jei reikia, pakeisti variantus. Prieš pradėdami šiame straipsnyje nurodytus veiksmus, pirmiausia turite publikuoti savo skelbimą ["](experimentation-preview-publish.md) Commerce". 
 
-Toliau pateiktoje diagramoje rodomi visi veiksmai, susiję su eksperimento nustatymu ir vykdymu „e-Commerce“ svetainėje „Dynamics 365 Commerce”. Papildomi veiksmai aprašomi kitose temose.
+Toliau pateiktoje diagramoje rodomi visi veiksmai, susiję su eksperimento nustatymu ir vykdymu „e-Commerce“ svetainėje „Dynamics 365 Commerce”. Papildomi veiksmai įtraukti atskiruose straipsnius.
 
 [ ![Vartotojo eksperimentavimo kelionė – vykdymas ir stebėjimas.](./media/experimentation_run_monitor.svg) ](./media/experimentation_run_monitor.svg#lightbox)
 

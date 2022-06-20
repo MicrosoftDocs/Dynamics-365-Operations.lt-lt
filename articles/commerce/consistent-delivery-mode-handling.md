@@ -1,6 +1,6 @@
 ---
-title: Įgalinti nuoseklų pristatymo režimo tvarkymą el. prekybos kanaluose
-description: Šioje temoje aprašoma, kaip įgalinti nuoseklų pristatymo režimo tvarkymą, siekiant išspręsti galimas problemas, susijusias su mokesčių srautais Microsoft Dynamics 365 Commerce el. komercijos kanaluose.
+title: Nuolatinio pristatymo būdo tvarkymo kanale įjungimas
+description: Šiame straipsnyje aprašoma, kaip įgalinti nuoseklų pristatymo režimo tvarkymą, siekiant išspręsti galimas problemas, susijusias su mokesčių srautais Microsoft Dynamics 365 Commerce el. komercijos kanaluose.
 author: gvrmohanreddy
 ms.date: 02/24/2022
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgri
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2022-02-10
-ms.openlocfilehash: 4cecd70dacd72572afc8e6cb65530bf2be4cc93d
-ms.sourcegitcommit: d2e5d38ed1550287b12c90331fc4136ed546b14c
+ms.openlocfilehash: f32f1915f8f7de1d5536b69b05bc74c6149dfda6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/25/2022
-ms.locfileid: "8349928"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885590"
 ---
-# <a name="enable-consistent-delivery-mode-handling-in-e-commerce-channels"></a>Įgalinti nuoseklų pristatymo režimo tvarkymą el. prekybos kanaluose 
+# <a name="enable-consistent-delivery-mode-handling-in-e-commerce-channels"></a>Nuolatinio pristatymo būdo tvarkymo kanale įjungimas 
 
 [!include [banner](includes/banner.md)]
 
-Šioje temoje aprašoma, kaip įgalinti nuoseklų pristatymo režimo tvarkymą, siekiant išspręsti galimas problemas, susijusias su mokesčių srautais Microsoft Dynamics 365 Commerce el. komercijos kanaluose.
+Šiame straipsnyje aprašoma, kaip įgalinti nuoseklų pristatymo režimo tvarkymą, siekiant išspręsti galimas problemas, susijusias su mokesčių srautais Microsoft Dynamics 365 Commerce el. komercijos kanaluose.
 
 El Dynamics 365 Commerce. komercijos kanaluose, pagal numatytuosius nustatymus, neišsiųstos antraštės lygio išlaidos nėra taikomos. Dėl to el. komercijos kanaluose gali kilti viena arba abi šios problemos:
 

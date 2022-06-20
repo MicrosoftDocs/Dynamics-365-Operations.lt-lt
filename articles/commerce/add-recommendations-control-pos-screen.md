@@ -1,6 +1,6 @@
 ---
 title: Rekomendacijų įtraukimas į operacijų ekraną
-description: Šioje temoje paaiškinama, kaip rekomendacijų valdiklį įtraukti į elektroninio kasos aparato (EKA) įrenginio operacijų ekraną naudojant ekrano maketo dizaino įrankį programoje „Microsoft Dynamics 365 Commerce“.
+description: Šiame straipsnyje aprašoma, kaip įtraukti rekomendacijų kontrolę į operacijos ekraną, nurodytą point of sale (EKA) įrenginyje, naudojant ekrano maketo konstruktorių dalyje Microsoft Dynamics 365 Commerce.
 author: bebeale
 ms.date: 05/26/2020
 ms.topic: article
@@ -16,19 +16,19 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: af76169455cef16467b1faa9eda92a969aa923e85750cf245b0a6bd071a092e8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4748ade8d6693666b58cbded2123d3449d191509
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6731012"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8862077"
 ---
 # <a name="add-recommendations-to-the-transaction-screen"></a>Rekomendacijų įtraukimas į operacijų ekraną
 
 [!include [banner](includes/banner.md)]
 
 
-Šioje temoje paaiškinama, kaip rekomendacijų valdiklį įtraukti į elektroninio kasos aparato (EKA) įrenginio operacijų ekraną naudojant ekrano maketo dizaino įrankį programoje „Microsoft Dynamics 365 Commerce“. Norėdami gauti daugiau informacijos apie produktų rekomendacijas, perskaitykite [EKA dokumentacijos produktų rekomendacijas.](product.md).
+Šiame straipsnyje aprašoma, kaip įtraukti rekomendacijų kontrolę į operacijos ekraną, nurodytą point of sale (EKA) įrenginyje, naudojant ekrano maketo konstruktorių dalyje Microsoft Dynamics 365 Commerce. Norėdami gauti daugiau informacijos apie produktų rekomendacijas, perskaitykite [EKA dokumentacijos produktų rekomendacijas.](product.md).
 
 
 Naudodami „Commerce“ galite rodyti produktų rekomendacijas savo EKA įrenginyje. Norėdami rodyti produktų rekomendacijas, turite valdiklį įtraukti į operacijų ekraną naudodami ekrano maketo dizaino įrankį. 

@@ -1,6 +1,6 @@
 ---
-title: Komercijos registravimo parametrai
-description: Šioje temoje aprašomi parametrai, kurie yra specifiniai finansinių ir faktinių operacijų registravimui Microsoft Dynamics 365 Commerce.
+title: „Commerce“ registravimo parametrai
+description: Šiame straipsnyje aprašomi parametrai, kurie yra specifiniai finansinių ir faktinių operacijų registravimui Microsoft Dynamics 365 Commerce.
 author: analpert
 ms.date: 04/27/2022
 ms.topic: article
@@ -9,19 +9,19 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: analpert
 ms.search.validFrom: 2022-04-12
-ms.openlocfilehash: 1b49c893567d39f05e16cefee47407a424b7e139
-ms.sourcegitcommit: 9e1129d30fc4491b82942a3243e6d580f3af0a29
-ms.translationtype: MT
+ms.openlocfilehash: 10ea650b7c5c0cad7e1a3d7556c073aecef06036
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8649181"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887119"
 ---
-# <a name="commerce-posting-parameters"></a>Komercijos registravimo parametrai
+# <a name="commerce-posting-parameters"></a>„Commerce“ registravimo parametrai
 
 [!include [banner](includes/banner.md)]
 [!include [banner](includes/preview-banner.md)]
 
-Šioje temoje aprašomi parametrai, kurie yra specifiniai finansinių ir faktinių operacijų registravimui Microsoft Dynamics 365 Commerce. "Commerce" registravimo parametrai yra "Commerce Headquarters" " **Retail" ir "Commerce \> Headquarters" nustatymo parametrų \> " \> Commerce Parameters Posting \> "**.
+Šiame straipsnyje aprašomi parametrai, kurie yra specifiniai finansinių ir faktinių operacijų registravimui Microsoft Dynamics 365 Commerce. "Commerce" registravimo parametrai yra "Commerce Headquarters" " **Retail" ir "Commerce \> Headquarters" nustatymo parametrų \> " \> Commerce Parameters Posting \> "**.
 
 ## <a name="periodic-discount-parameters"></a>Laikotarpio nuolaidos parametrai
 
@@ -103,4 +103,4 @@ Toliau esančioje lentelėje pateikiami SF parametrai, kurie yra specifiniai fin
 | Uždrausti apvalinimo skirtumo registravimą | Šis parametras išjungia apvalinimo skirtumo tarp operacijos mokėjimo ir bendrosios sumos registravimą mokėjimų apdorojimo metu. |
 | Automatinis klientų indėlių padengimas | Įgalinus šį parametrą, kliento depozitai, užregistruoti registruojant mažmeninės prekybos išrašą, sudengami su kliento atviromis operacijomis. |
 | Įjungti ir naudoti grynųjų pinigų valdymo derinimą naudojant EKA | Kai šis parametras įgalintas, grynųjų pinigų valdymo suderinimas atliekamas EKA, o vertės perduodamos į mažmeninės prekybos finansinės ataskaitos registravimą, kad būtų galima kurti išrašo eilutes. |
-| DK kvito informacijos lygis | Šis parametras nustato EKA pasirinktų operacijų, įtrauktų į DK kvitą, išsamumo lygį. Operacijų tipai apima pajamas, išlaidas ir nuolaidas. Nuolaidų atveju šis parametras taikomas tik tada, kai laikotarpio nuolaidos sąskaitos numeris ir įprastos nuolaidos sąskaitos numeris nėra vienodi. Jei reikia daugiau informacijos, **suvestinė** yra rekomenduojama šių registravimus registruojant. Kai suminis registravimas nustatytas, **TransactionDiscountTrans.RecID** nebus įrašomas. Commerce 10.0.27 versijoje ši vėliavėlė buvo pervardyta ir perkelta. Anksčiau jis buvo pavadintas **Detalumo** lygiu ir buvo **atsargų atnaujinimo** skyriuje. |
+| Didžiosios knygos kvito išsamumo lygis | Šis parametras nustato EKA pasirinktų operacijų, įtrauktų į DK kvitą, išsamumo lygį. Operacijų tipai apima pajamas, išlaidas ir nuolaidas. Nuolaidų atveju šis parametras taikomas tik tada, kai laikotarpio nuolaidos sąskaitos numeris ir įprastos nuolaidos sąskaitos numeris nėra vienodi. Jei reikia daugiau informacijos, **suvestinė** yra rekomenduojama šių registravimus registruojant. Kai suminis registravimas nustatytas, **TransactionDiscountTrans.RecID** nebus įrašomas. Commerce 10.0.27 versijoje ši vėliavėlė buvo pervardyta ir perkelta. Anksčiau jis buvo pavadintas **Detalumo** lygiu ir buvo **atsargų atnaujinimo** skyriuje. |

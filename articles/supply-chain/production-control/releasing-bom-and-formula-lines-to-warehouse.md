@@ -1,6 +1,6 @@
 ---
 title: KS ir formulių eilučių išdavimas į sandėlį
-description: Šioje temoje aprašomas KS eilučių ir formulės eilučių žaliavų išdavimo į sandėlį procesas.
+description: Šiame straipsnyje aprašomas KS eilučių ir formulės eilučių žaliavų paleidimo į sandėlį procesas.
 author: johanhoffmann
 ms.date: 10/30/2017
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: c9956290ce8f90f04bc144d710ad35b5a0243e3898a8f3e75692b1a9da506149
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 53e3a943dbd6cf982101f42ed8f94b7e0f46597c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6731228"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860615"
 ---
 # <a name="release-bom-and-formula-lines-to-the-warehouse"></a>KS ir formulių eilučių išdavimas į sandėlį
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje aprašomas KS eilučių ir formulės eilučių žaliavų išdavimo į sandėlį procesas. Kai į sandėlį išduodate KS arba formulės eilutę, sistema pirmiausia nustato, ar medžiagos jau yra gamybos įvesties vietoje ceche, kur medžiaga bus naudojama gamybos proceso metu.
+Šiame straipsnyje aprašomas komplektavimo specifikacijos (KS) eilučių ir formulės eilučių paleidimo į sandėlį žaliavų paleidimo procesas. Kai į sandėlį išduodate KS arba formulės eilutę, sistema pirmiausia nustato, ar medžiagos jau yra gamybos įvesties vietoje ceche, kur medžiaga bus naudojama gamybos proceso metu.
 
 - Jei medžiagos yra gamybos įvesties vietoje, ji paimama iš tos vietos iš karto davus signalą išduoti medžiagą į sandėlį.
 - Jei medžiagos gamybos įvesties vietoje nėra, medžiagos išdavimas nurodo, kad medžiagą reikia perkelti iš sandėlio vietų į gamybos įvesties vietą. Medžiaga perkeliama naudojant žaliavų paėmimo sandėlio darbą. Todėl žaliavų paėmimo sandėlio procesus reikia sukonfigūruoti. Daugiau informacijos žr. [Papildymo apžvalga](../warehousing/replenishment.md) ir [Sandėlio darbo kontroliavimas naudojant darbo šablonus ir vietų nurodymus](../warehousing/control-warehouse-location-directives.md).

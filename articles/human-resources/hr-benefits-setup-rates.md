@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2deb20646a532509c9e3a3e7a39f646bced2a3fb
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 039b4aa3f044cda29944bcd4f5c42fc35818c58b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8693121"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868165"
 ---
 # <a name="configure-rates"></a>Tarifų konfigūravimas
 
@@ -47,7 +47,7 @@ Naudokite tarifus, kad nustatytumėte, kiek darbuotojai ir darbdaviai moka už k
    | **Galioja** | Data, nuo kurios įsigalioja tarifas. Dabartinė sistemos data yra numatytoji reikšmė. Ši data turėtų būti jūsų išmokų laikotarpiu arba prieš jį. Patariame nustatyti šią datą į išmokų plano datą. |
    | **Galiojimas** | Tarifo pabaigos data. Data 2154-12-31 (kuri reiškia niekada) yra numatytoji reikšmė. |
    | **Naudoti pakopas** |  Naudokite šį lauką, jei turite logiką, kuri turi būti naudojama tarifui nustatyti. Pavyzdžiui, jei tarifas turi didėti pagal amžių, pasirinkite reikšmę čia. Pasirinkite **Viena pakopa** vienos pakopos išmokų tarifui arba **Dviguba pakopa** dviejų pakopų išmokų tarifui. Dvigubos pakopos pavyzdys yra pakopa, kuri pagrįsta lytimi ir amžiumi. Pasirinkę reikšmę, pasirinkite **Veiksmai** ir **Pakopos tarifai**. Jei turite fiksuotą tarifą, kuris nesikeičia, palikite šį lauką tuščią. |
-   | **Mokėjimo dažnumas** | Nurodykite, kaip dažnai išmokos priedų tarifas turėtų būti mokamas išmokų teikėjui. Tarifai, kuriuos įvedate puslapyje, aprašytame vėliau šioje temoje, bus pagrįsti mokėjimo dažnumu, kurį nurodote čia. Pavyzdžiui, jei šiame lauke įvesite **Kas mėnesį**, o darbuotojo tarifą įvesite **„$100”**, laikoma, kad išmoka darbuotojui kainuos $100 per mėnesį. Tačiau darbuotojui gali būti mokama du kartus per mėnesį, atsižvelgiant į išmokų mokėjimo dažnumą, kuris nustatytas darbuotojo įraše. Tokiu atveju, kai darbuotojas prisijungia prie **darbuotojo savitarnos**, jo mokėtina suma bus $50, nes darbuotojo savitarnoje rodomas tarifas yra pagrįstas **Darbuotojo savitarna** darbuotojo mokėjimo dažnumu. |
+   | **Mokėjimo dažnumas** | Nurodykite, kaip dažnai išmokos priedų tarifas turėtų būti mokamas išmokų teikėjui. Toliau šiame straipsnyje aprašomi kursai, kuriuos įvedate puslapyje, bus pagrįsti čia nurodytų mokėjimų dažnumu. Pavyzdžiui, jei šiame lauke įvesite **Kas mėnesį**, o darbuotojo tarifą įvesite **„$100”**, laikoma, kad išmoka darbuotojui kainuos $100 per mėnesį. Tačiau darbuotojui gali būti mokama du kartus per mėnesį, atsižvelgiant į išmokų mokėjimo dažnumą, kuris nustatytas darbuotojo įraše. Tokiu atveju, kai darbuotojas prisijungia prie **darbuotojo savitarnos**, jo mokėtina suma bus $50, nes darbuotojo savitarnoje rodomas tarifas yra pagrįstas **Darbuotojo savitarna** darbuotojo mokėjimo dažnumu. |
    | **Mokėjimo dažnumo apvalinimas** | Tarifo apvalinimo metodai: Standartinis, Sumažintas, Įprastas, Į mažesnę pusę ir Į didesnę pusę. </br></br><ul><li>**Standartinis** – Visada suapvalina į didesnę pusę. Pavyzdžiui, 10,611 bus suapvalinta iki 10,62. -10,231 bus suapvalinta iki -10,23. </li><li>**Sumažintas** – Visada suapvalina į mažesnę pusę. Pavyzdžiui, 10,619 bus suapvalinta iki 10,61. -10,231 bus suapvalinta iki -10,24. </li><li>**Įprastas** – dešimtainės vertės, kurios baigiasi 5 arba didesniu skaičiumi, bus suapvalintos į didesnę pusę. Dešimtainės vertės, kurios baigiasi 4 arba mažesniu skaičiumi, bus suapvalintos į mažesnę pusę. Pavyzdžiui, 10,615 bus suapvalinta iki 10,62. -10,235 bus suapvalinta iki -10,24. 10,614 bus suapvalinta iki 10,61. -10,234 bus suapvalinta iki -10,23. </li><li>**Į mažesnę pusę** – suapvalina link nulio. Pavyzdžiui, 10,619 bus suapvalinta iki 10,61. -10,231 bus suapvalinta iki -10,23. </li><li>**Į didesnę pusę** – suapvalina toliau nuo nulio. Pavyzdžiui, 10,619 bus suapvalinta iki 10,62. -10,231 bus suapvalinta iki -10,24. |
    | **Nerūkančio darbuotojo suma** | Mokesčio suma, kurią išmokos teikėjas taiko nerūkančiam darbuotojui. Tai yra suma, kurią darbdavys moka išmokos teikėjui ir kuri turi būti grindžiama mokėjimo dažnumu, skirtu tarifui nustatyti. |
    | **Nerūkančio darbdavio suma** | Mokesčio suma, kurią išmokos teikėjas taiko nerūkančiam darbuotojui. Tai yra suma, kurią darbdavys moka išmokos teikėjui, ir kuri turi būti grindžiama mokėjimo dažnumu, skirtu tarifui nustatyti. |

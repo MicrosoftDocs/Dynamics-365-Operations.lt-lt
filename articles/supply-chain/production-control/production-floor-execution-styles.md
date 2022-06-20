@@ -1,6 +1,6 @@
 ---
 title: Gamybos vietos vykdymo sąsajos projektavimas
-description: Šioje temoje paaiškinama, kaip konfigūruoti formos valdiklius, kad jiems būtų pritaikyti numatytieji gamybos vietos vykdymo stiliai.
+description: Straipsnyje paaiškinama, kaip konfigūruoti formos valdiklius, kad jiems būtų pritaikyti numatytieji gamybos laiko vykdymo stiliai.
 author: johanhoffmann
 ms.date: 11/08/2021
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2021-02-22
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: ef39dc6414f0afdadd4a4b5a41e1fb1fe60e4974
-ms.sourcegitcommit: bc9e75c38e192664cde226ed3a94df5a0b304369
+ms.openlocfilehash: ad6ecd591353fe8ddc1a5b9049d65491fb58e98a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7790895"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859146"
 ---
 # <a name="style-the-production-floor-execution-interface"></a>Gamybos vietos vykdymo sąsajos projektavimas
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje paaiškinama, kaip konfigūruoti formos valdiklius, kad jiems būtų pritaikyti numatytieji gamybos vietos vykdymo stiliai.
+Straipsnyje paaiškinama, kaip konfigūruoti formos valdiklius, kad jiems būtų pritaikyti numatytieji gamybos laiko vykdymo stiliai.
 
 ## <a name="forms-and-dialogs"></a>Formos ir dialogai
 
@@ -31,7 +31,7 @@ Stilius galima taikyti formai arba dialogo langui tik tada, jei įvykdyti šie r
 - Jei forma turėtų būti panaši į esamą ataskaitos eigos formą, formos pavadinimas arba dialogo langas turi prasidėti `JmgProductionFloorExecutionCustomInputDialog`.
 - Formą arba dialogą gali sudaryti detali formos dalis. Jei norite taikyti stilius, informacijos formos dalies pavadinimas turi prasidėti `JmgProductionFloorExecutionCustomDetailsDialog`.
 - Jei forma arba dialogas turi turėti paprastą rodinį, tai paprasto rodinio pavadinimas turi prasidėti `JmgProductionFloorExecutionCustomDialog`. Paprasto rodinio formų pavyzdžiai yra pradžios ir netiesioginės veiklos formos.
-- Visi dialogo lango valdikliai turi būti sukonfigūruoti taip, kaip aprašyta šioje temoje.
+- Visi dialogo lango valdikliai turi būti sukonfigūruoti taip, kaip aprašyta šiame straipsnyje.
 
 > [!IMPORTANT]
 > Funkcijos, paminėtos pirmuose dviejuose šio sąrašo taškuose, reikalauja 10.0.19 Supply Chain Management versijos arba vėlesnės.
@@ -72,9 +72,9 @@ private void setCaption()
 
 Kai įrašote antraštės kodą, pritaikykite šias taisykles:
 
-- Pagrindinės grupės pavadinimas turi `TableRowHeaderGroup` būti.
-- Kiekvienas teksto blokas (atskirtas ženkleliais) turi `HeaderFieldWithSeparatorText` prasidėti.
-- Pavardė turi prasidėti `HeaderFieldText` tekstu.
+- Pagrindinės grupės pavadinimas turi būti `TableRowHeaderGroup`.
+- Kiekvienas teksto blokas (atskirtas ženkleliais) turi prasidėti `HeaderFieldWithSeparatorText`.
+- Pavardė turi prasidėti tekstu `HeaderFieldText`.
 - `CaptionImage` galima praleisti.
 
 ### <a name="progress-indicator"></a>Eigos indikatorius
@@ -83,13 +83,13 @@ Galite įtraukti eigos indikatorių, kuris rodomas dešinėje antraštės pusėj
 
 ![Įprastas eigos indikatorius.](media/pfe-styles-header-progress.png "Įprastas eigos indikatorius")
 
-Norint rodyti eigos indikatorių, teksto laukas turi būti `ShowProgress` pavadintas.
+Norint rodyti eigos indikatorių, teksto laukas turi būti pavadintas `ShowProgress`.
 
 ## <a name="grid"></a>Tinklelis
 
 Stiliai pritaikomi automatiškai. Nereikia jokios specifinės konfigūracijos.
 
-Tinklelis turi turėti stilių, o pasirinktinės formos metodas turi būti `TabularView``run()` perrašytas, nes naujas tinklelis dar nepalaikomas. Pridėti šį kodą.
+Tinklelis turi turėti `TabularView` stilių, `run()` o pasirinktinės formos metodas turi būti perrašytas, nes naujas tinklelis dar nepalaikomas. Pridėti šį kodą.
 
 ```xpp
 public void run()
@@ -100,14 +100,14 @@ public void run()
 }
 ```
 
-Norėdami atnaujinti duomenis pagrindiniame rodinyje, galbūt norėsite naudoti ką nors `this.parmParentForm().updateLayout();` kaip `click` savo veiksmo metode. (Pvz., pažiūrėkite į `JmgProductionFloorExecutionReportFeedbackAction` klasę.) Tiesiog `parmDataSource` įsitikinkite, kad nustatytas jūsų naujos formos metodas `init``formCaller.parmDataSource(this.dataSource(1));` (). Pavyzdžiui, pažiūrėkite į `JmgProductionFloorExecutionMainGrid` formą.
+Norėdami atnaujinti duomenis pagrindiniame rodinyje, galbūt norėsite naudoti ką nors kaip `this.parmParentForm().updateLayout();` savo `click` veiksmo metode. (Pvz., pažiūrėkite į klasę `JmgProductionFloorExecutionReportFeedbackAction` .) Tiesiog įsitikinkite, `parmDataSource` kad nustatytas jūsų `init` naujos formos metodas (`formCaller.parmDataSource(this.dataSource(1));`). Pavyzdžiui, pažiūrėkite į `JmgProductionFloorExecutionMainGrid` formą.
 
 ## <a name="card-view"></a>Kortelių rodinys
 
 Stilius galima taikyti kortelės vaizdo valdikliams tik tada, jei įvykdyti šie reikalavimai:
 
 - Kiekvienas kortelės rodinys yra formos grupėje.
-- Grupės pavadinimas prasideda `CardGroup` (pvz., `CardGroupJobsView`).
+- Grupės pavadinimas prasideda (`CardGroup` pvz., `CardGroupJobsView`).
 
 Šioje iliustracijoje rodomas kortelės rodinys, kuriame nėra valdiklių.
 
@@ -124,7 +124,7 @@ Stilius galima taikyti kortelės vaizdo valdikliams tik tada, jei įvykdyti šie
 Stilius galima taikyti vizitinės kortelės valdikliams tik tada, jei įvykdyti šie reikalavimai:
 
 - Kiekviena vizitinė kortelė yra formos grupėje.
-- Grupės pavadinimas prasideda `BusinessCardGroup` (pvz., `BusinessCardGroupJobsList`).
+- Grupės pavadinimas prasideda (`BusinessCardGroup` pvz., `BusinessCardGroupJobsList`).
 
 Nustatykite šias vizitinės kortelės ypatybes:
 
@@ -145,7 +145,7 @@ Stilius galima taikyti radijo mygtukams tik tada, jei įvykdyti šie reikalavima
 Nustatykite šias radijo mygtuko ypatybes:
 
 - **Perjungimo mygtukas:** *tikrinti*
-- **Kaitalioti vertę:** *·* įjungti, jei reikia pasirinkti radijo mygtuką; jei ne, *išjungti*
+- **Kaitalioti vertę:** *įjungti*, jei reikia pasirinkti radijo mygtuką; jei ne, išjungti *·*
 
 Šioje iliustracijoje pateikiamas pavyzdys, kuriame tekstas pasirodo po radijo mygtukais.
 
@@ -171,10 +171,10 @@ Stilius galima taikyti mygtukams tik tada, jei įvykdyti šie reikalavimai:
 Nustatykite šias mygtukų ypatybes:
 
 - **Mygtuko rodymas:** *TextWithImageLeft*
-- **Įprastas** vaizdas: ši ypatybė negali būti tuščia. Pavyzdžiui, naudokite *CoffeeScript*.
+- **Įprastas vaizdas:** ši ypatybė negali būti tuščia. Pavyzdžiui, naudokite *CoffeeScript*.
 - **Tekstas:** ši ypatybė negali būti tuščia. Pavyzdžiui, naudokite *Starto Pertrauką*.
-- **Plotis:** *automatinis arba* *SizeToContent*
-- **Aukštis:** *automatinis arba* *SizeToContent*
+- **Plotis: automatinis** *arba* *SizeToContent*
+- **Aukštis:** *automatinis* arba *SizeToContent*
 
 ### <a name="primary-button"></a>Pagrindinis mygtukas
 
@@ -190,7 +190,7 @@ Stilius galima taikyti pirminiams mygtukams tik tada, jei įvykdyti šie reikala
 Stilius galima taikyti antriniam mygtukui tik tada, jei įvykdyti šie reikalavimai:
 
 - Mygtukas yra formų grupėje.
-- Grupė pavadinta **Dešiniuoju** skydu arba grupės pavadinimas `SecondaryButtonGroup` prasideda.
+- Grupė pavadinta Dešiniuoju **skydu** arba grupės pavadinimas prasideda `SecondaryButtonGroup`.
 
 ![Antrinis mygtukas.](media/pfe-styles-second.png)
 
@@ -199,7 +199,7 @@ Stilius galima taikyti antriniam mygtukui tik tada, jei įvykdyti šie reikalavi
 Stilius galima taikyti trečiosios grupės mygtukui tik tada, jei įvykdyti šie reikalavimai:
 
 - Mygtukas yra formų grupėje.
-- Grupė pavadinta **Kairioji** sritis arba grupės pavadinimas prasideda `ThirdButtonGroup`.
+- Grupė pavadinta Kairioji **sritis** arba grupės pavadinimas prasideda `ThirdButtonGroup`.
 
 ![Trečiosios grupės mygtukas.](media/pfe-styles-third.png)
 
@@ -208,15 +208,15 @@ Stilius galima taikyti trečiosios grupės mygtukui tik tada, jei įvykdyti šie
 Stilius galima taikyti ketvirtosios grupės mygtukui tik tada, jei įvykdyti šie reikalavimai:
 
 - Mygtukas yra formų grupėje.
-- Grupės pavadinimas `FourthButtonGroup` prasideda.
+- Grupės pavadinimas prasideda `FourthButtonGroup`.
 
 Nustatykite šias mygtuko ypatybes:
 
 - **Mygtuko rodymas:** *TextOnly*
 - **Įprastas vaizdas:** ši ypatybė turi būti tuščia.
 - **Tekstas:** ši ypatybė negali būti tuščia. Pavyzdžiui, naudokite *Peržiūrėti* arba *Redaguoti*.
-- **Plotis:** *automatinis*
-- **Aukštis:** *automatinis*
+- **Plotis: automatinis** *·*
+- **Aukštis: automatinis** *·*
 
 ![Ketvirtos grupės mygtukas.](media/pfe-styles-fourth.png)
 
@@ -230,10 +230,10 @@ Stilius galima pritaikyti plokščiam mygtukui tik tada, jei įvykdyti šie reik
 Nustatykite šias mygtuko ypatybes:
 
 - **Mygtuko rodymas:** *ImageOnly*
-- **Įprastas** vaizdas: ši ypatybė negali būti tuščia. Pavyzdžiui, naudokite *CoffeeScript*.
+- **Įprastas vaizdas:** ši ypatybė negali būti tuščia. Pavyzdžiui, naudokite *CoffeeScript*.
 - **Tekstas:** ši ypatybė turi būti tuščia.
-- **Plotis:** *automatinis arba* *SizeToContent*
-- **Aukštis:** *automatinis arba* *SizeToContent*
+- **Plotis: automatinis** *arba* *SizeToContent*
+- **Aukštis:** *automatinis* arba *SizeToContent*
 
 ![Plokščias mygtukas.](media/pfe-styles-flat-button.png)
 
@@ -242,15 +242,15 @@ Nustatykite šias mygtuko ypatybes:
 Stilius galima taikyti mygtukui Tęsti tik tada, jei įvykdyti šie reikalavimai:
 
 - Mygtukas yra formų grupėje.
-- Grupės pavadinimas `ContinueButtonGroup` prasideda.
+- Grupės pavadinimas prasideda `ContinueButtonGroup`.
 
 Nustatykite šias mygtuko ypatybes:
 
 - **Mygtuko rodymas:** *ImageOnly*
-- **Įprastas vaizdas:** *pirmyn*
+- **Įprastas vaizdas: pirmyn** *·*
 - **Tekstas:** ši ypatybė turi būti tuščia.
-- **Plotis:** *automatinis arba* *SizeToContent*
-- **Aukštis:** *automatinis arba* *SizeToContent*
+- **Plotis: automatinis** *arba* *SizeToContent*
+- **Aukštis:** *automatinis* arba *SizeToContent*
 
 ![Tęsti mygtuką.](media/pfe-styles-continue-button.png)
 
@@ -261,9 +261,9 @@ Pasirinktinio įvedimo laukas yra trijų valdiklių kombinacija: ją sudaro įve
 Stilius galima taikyti pasirinktinio įvedimo laukui tik tada, jei įvykdyti šie reikalavimai:
 
 - Pasirinktinio įvedimo laukas yra formų grupėje.
-- Grupės pavadinimas `Combobox` prasideda.
-- Grupės viduje pirmasis valdiklis yra `AxFormStringControl` valdiklis. Šis valdiklis rodo esamą vertę ir tai yra vieta, kur vartotojas įveda reikiamą vertę.
-- Antrasis valdiklis yra `CommonButton` valdiklis, o jo pavadinimas `ClearButton` prasideda. Šiame mygtuke turi būti kodas, kuris `enable` naudoja ypatybę mygtukui rodyti arba slėpti. Pavyzdžiui, jei norite rodyti arba slėpti mygtuką **Valyti**, kai vartotojas įvesties valdiklyje įveda informaciją, galite naudoti šį kodą.
+- Grupės pavadinimas prasideda `Combobox`.
+- Grupės viduje pirmasis valdiklis yra valdiklis `AxFormStringControl`. Šis valdiklis rodo esamą vertę ir tai yra vieta, kur vartotojas įveda reikiamą vertę.
+- Antrasis valdiklis yra valdiklis `CommonButton`, o jo pavadinimas prasideda `ClearButton`. Šiame mygtuke turi būti kodas, kuris naudoja `enable` ypatybę mygtukui rodyti arba slėpti. Pavyzdžiui, jei norite rodyti arba slėpti mygtuką **Valyti**, kai vartotojas įvesties valdiklyje įveda informaciją, galite naudoti šį kodą.
 
     ```xpp
     public void textChange()
@@ -288,7 +288,7 @@ Stilius galima taikyti pasirinktinio įvedimo laukui tik tada, jei įvykdyti ši
     }
     ```
 
-    Naudokite šį mygtuko `clicked` Valyti **metodo** kodą.
+    Naudokite šį mygtuko `clicked` Valyti metodo **kodą**.
 
     ```xpp
     public void clicked()
@@ -298,9 +298,9 @@ Stilius galima taikyti pasirinktinio įvedimo laukui tik tada, jei įvykdyti ši
     }
     ```
 
-    Nustatykite įvesties valdiklio `AxFormStringControl` vertę, kai forma inicijuojama naudojant `init` metodą. Jei vertė nėra tuščia, įgalinkite mygtuką **Valyti**. Jei vertė yra tuščia, išjunkite **Valyti** mygtuką.
+    Nustatykite įvesties valdiklio vertę, `AxFormStringControl` kai forma inicijuojama naudojant `init` metodą. Jei vertė nėra tuščia, įgalinkite mygtuką **Valyti**. Jei vertė yra tuščia, išjunkite **Valyti** mygtuką.
 
-- Trečiasis valdiklis yra `CommonButton` valdiklis, o jo pavadinimas `SearchButton` prasideda.
+- Trečiasis valdiklis yra valdiklis `CommonButton`, o jo pavadinimas prasideda `SearchButton`.
 
 Toliau pateikta iliustracija rodo du pasirinktinio įvedimo lauko valdiklius. Pasirinktinio įvedimo lauko kairėje yra tuščias teksto laukas, o **Valyti** mygtukas yra išjungtas. Pasirinktinio įvedimo lauko dešinėje teksto lauke yra tekstas, o **Valyti** mygtukas yra įgalintas.
 
@@ -311,10 +311,10 @@ Toliau pateikta iliustracija rodo du pasirinktinio įvedimo lauko valdiklius. Pa
 Sparčiojo filtro valdiklis į puslapį įtraukia ieškos lauką. Galite taikyti stilius sparčiajam filtrui, jei atitinka šiuos reikalavimus:
 
 - Spartusis filtras yra formų grupėje.
-- Grupės pavadinimas `SearchInputGroup` prasideda.
+- Grupės pavadinimas prasideda `SearchInputGroup`.
 - Pirmasis valdiklis yra grupės `QuickFilter` viduje. (Šis valdiklis yra toks, kuriame vartotojas įveda paieškos eilutę.)
-- Antrasis valdiklis yra `FormStaticTextControl` tas, kuris pavadintas. `NumberOfResults` (Šis valdiklis yra pasirinktinis. Jei įtraukta, rodomas rastos prekės skaičius.
-- Trečiasis valdiklis yra `CommonButton` valdiklis, o jo pavadinimas `ClearButton` prasideda.
+- Antrasis valdiklis yra tas `FormStaticTextControl`, kuris pavadintas `NumberOfResults`. (Šis valdiklis yra pasirinktinis. Jei įtraukta, rodomas rastos prekės skaičius.
+- Trečiasis valdiklis yra valdiklis `CommonButton`, o jo pavadinimas prasideda `ClearButton`.
 
 Toliau pateikta iliustracija rodo du sparčiojo filtro valdiklius. Spartusis filtras kairėje turi tuščią spartųjį filtrą ir rezultatų skaičius yra nematomas. Spartusis filtras dešinėje turi ieškos eilutė ir rodo rezultatų skaičių.
 
@@ -322,7 +322,7 @@ Toliau pateikta iliustracija rodo du sparčiojo filtro valdiklius. Spartusis fil
 
 ## <a name="center-align-elements-on-a-tab"></a>Center lygiavimo elementai skirtuke
 
-Norint lygiuoti elementus skirtuko centre, grupės pavadinimas turi prasidėti ir grupės ypatybės `TabContentGroup` turi būti tokios:
+Norint lygiuoti elementus skirtuko centre, grupės pavadinimas turi `TabContentGroup` prasidėti ir grupės ypatybės turi būti tokios:
 
 - **Pločio režimas:**`SizeToAvailable`
 - **Aukščio režimas:**`SizeToAvailable`
@@ -331,14 +331,14 @@ Norint lygiuoti elementus skirtuko centre, grupės pavadinimas turi prasidėti i
 
 Norėdami išdėstyti pritaikytą tinklelį, informacijos dalį ir spartųjį filtrą, kad jie būtų panašūs į standartinį dizainą, kai juos visus sudėkite kartu, atkreipkite dėmesį į šiuos dalykus:
 
-- Jei tinklelyje yra spartus filtras, ir tinklelis, ir spartusis filtras turi būti grupėje, kurios pavadinimas `GridGroup` prasideda.
-- Jei norite taikyti stilius informacijos daliai, grupės pavadinimas turi `DetailInformationGroup` prasidėti,
+- Jei tinklelyje yra spartus filtras, ir tinklelis, ir spartusis filtras turi būti grupėje, kurios pavadinimas prasideda `GridGroup`.
+- Jei norite taikyti stilius informacijos daliai, grupės pavadinimas turi prasidėti `DetailInformationGroup`,
 
 Šioje iliustracijoje rodomas įprastas tinklelis, kuriame yra spartusis filtras ir išsamios informacijos dalis dešinėje.
 
 ![Įprastas tinklelis, kuriame yra spartusis filtras ir išsamios informacijos dalis.](media/pfe-styles-align-grid.png "Įprastas tinklelis, kuriame yra spartusis filtras ir informacijos dalis")
 
-Tinklelyje, tinklelyje, informacijos dalyje ir spartusis filtras gali būti sukurtas naudojant tokią struktūrą, kaip pateikta Visual Studio toliau pateiktoje iliustracijoje.
+Tinklelyje Visual Studio, tinklelyje, informacijos dalyje ir spartusis filtras gali būti sukurtas naudojant tokią struktūrą, kaip pateikta toliau pateiktoje iliustracijoje.
 
 ![Įprasta kodų struktūra, kuri lygiuoti tinklelį, informacijos dalį ir spartųjį filtrą.](media/pfe-styles-header-code-structure2.png "Įprasta kodų struktūra, kuri lygiuoti tinklelį, informacijos dalį ir spartųjį filtrą")
 

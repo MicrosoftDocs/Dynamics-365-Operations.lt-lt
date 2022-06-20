@@ -1,6 +1,6 @@
 ---
-title: Italijos Intrastat
-description: Šioje temoje pateikiama informacija apie Italijos „Intrastat” ataskaitas.
+title: Italijos „Intrastat“
+description: Šiame straipsnyje pateikiama informacija apie Italijos Intrastat ataskaitas.
 author: anasyash
 ms.date: 09/09/2021
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: kfend
 ms.search.region: Global
 ms.author: anasyash
 ms.search.validFrom: ''
-ms.openlocfilehash: 3b676ba754cded03fdc6d566ffbfbb35c204b03a
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
+ms.openlocfilehash: a4531baf29759607c877c815b849067f718851b5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7488264"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874369"
 ---
 # <a name="italian-intrastat"></a>Italijos Intrastat
 
@@ -631,7 +631,7 @@ Tam, kad galėtumėte dirbti su „Intrastat”, nustatykite Italijai būdingas 
 
     Norėdami daugiau informacijos žr. [Elektroninių ataskaitų konfigūracijų atsisiuntimas iš „Lifecycle Services“](../../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md).
 
-2. „Dynamics 365 Finance“, eikite į **Mokesčiai** > **Nustatymai** > **Užsienio prekybos parametrai**.
+2. Programoje "Dynamics 365 Finance" eikite į **mokesčių nustatymo** > **užsienio** > **prekybos parametrus**.
 3. „FastTab” **Bendra** skirtuke **„Intrastat”** nustatykite šiuos laukus:
 
     - **Kilmės/paskirties apskritis**: pasirinkite savo įmonės apskritį. Ši apskritis bus naudojama išsiuntimams.
@@ -650,7 +650,7 @@ Tam, kad galėtumėte dirbti su „Intrastat”, nustatykite Italijai būdingas 
 6. „FastTab” **Statistinė vertė** nustatykite **Spausdinti ir eksportuoti statistinius duomenis** parinktį į **Taip**, jei reikia. Šis nustatymas suaktyvina statistinio skyriaus perkėlimą. Statistinį skyrių sudaro duomenys apie svorį, papildomus vienetus, statistines vertes, pristatymo sąlygas, pristatymo grafikus, transportavimo būdus ir kilmės regionus.
 
     > [!NOTE]
-    > Ketvirčio deklaracijos „Intrastat” ataskaitoje nebus įtrauktas statistinis skyrius arba informacija apie pristatymo sąlygas ir transportavimo būdus. Daugiau informacijos rasite šios temos skyriaus [Apžvalga](#overview) lentelėje.
+    > Ketvirčio deklaracijos „Intrastat” ataskaitoje nebus įtrauktas statistinis skyrius arba informacija apie pristatymo sąlygas ir transportavimo būdus. Daugiau informacijos rasite šio straipsnio skyriaus Peržiūra [lentelėje](#overview).
 
 7. Skirtuke **Šalies/regiono ypatybės** išvardykite visas šalis ar regionus, su kuriais jūsų organizacija turi verslo reikalų. Kiekvienai šaliai ar regionui nustatykite toliau pateiktus laukus:
 

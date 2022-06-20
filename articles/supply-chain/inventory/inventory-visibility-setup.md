@@ -1,8 +1,8 @@
 ---
 title: Įdiekite Inventoriaus matomumo papildinį
-description: Ši tema aprašo, kaip įdiegti ir konfigūruoti inventoriaus matomumo papildinį „ Microsoft Dynamics 365 Supply Chain Management“.
+description: Šiame straipsnyje aprašoma, kaip įdiegti "Microsoft" atsargų matomumo priedą Dynamics 365 Supply Chain Management.
 author: yufeihuang
-ms.date: 08/02/2021
+ms.date: 05/27/2022
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -11,23 +11,23 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: a49f35211f30cdb76104cc5be78f5b114320a228
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: ce81ed2ed79bfe5c7fff9724e14af150817af11f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062655"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895705"
 ---
-# <a name="install-and-set-up-inventory-visibility"></a>Atsargų matomumo nustatymas ir diegimas
+# <a name="install-and-set-up-inventory-visibility"></a>„Inventory Visibility“ diegimas ir nustatymas
 
 [!include [banner](../includes/banner.md)]
 
+Šiame straipsnyje aprašoma, kaip įdiegti "Microsoft" atsargų matomumo priedą Dynamics 365 Supply Chain Management.
 
-Ši tema aprašo, kaip įdiegti ir konfigūruoti inventoriaus matomumo papildinį „ Microsoft Dynamics 365 Supply Chain Management“.
+Jums būtina naudoti „Microsoft Dynamics Lifecycle Services“ (LCS) siekiant įdiegti inventoriaus matomumo papildinį. LCS yra bendradarbiavimo portalas suteikiantis aplinką ir reguliariai naujinamų paslaugų rinkinį, kuris padeda jums valdyti programos gyvavimo ciklą jūsų „finance and operations“ programose. Dėl daugiau informacijos, žr. [„Lifecycle Services“ ištekliai](../../fin-ops-core/dev-itpro/lifecycle-services/lcs.md).
 
-Jums būtina naudoti „Microsoft Dynamics Lifecycle Services“ (LCS) siekiant įdiegti inventoriaus matomumo papildinį. LCS yra bendradarbiavimo portalas suteikiantis aplinką ir reguliariai naujinamų paslaugų rinkinį, kuris padeda jums valdyti programos gyvavimo ciklą jūsų „finance and operations“ programose.
-
-Dėl daugiau informacijos, žr. [„Lifecycle Services“ ištekliai](../../fin-ops-core/dev-itpro/lifecycle-services/lcs.md).
+> [!TIP]
+> Rekomenduojame prisijungti prie vartotojų grupės Atsargų matomumas, kurioje galima rasti naudingų instrukcijų, gauti naujausius naujinimus ir registruoti bet kokius klausimus, kurie gali kilti dėl atsargų matomumo naudojimo. Norėdami prisijungti, siųskite el. laišką atsargų matomumo [produkto komandai inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com) tiekimo grandinės valdymo aplinkos ID.
 
 ## <a name="inventory-visibility-prerequisites"></a>Atsargų matomumo išankstinės sąlygos
 
@@ -44,6 +44,9 @@ Jei turite kokių klausimų apie šias būtinąsias sąlygas, susisiekite su pap
 ## <a name="install-the-inventory-visibility-add-in"></a><a name="install-add-in"></a>Įdiekite Inventoriaus matomumo papildinį
 
 Prieš įdiegsdami priedą, užregistruokite programą ir pridėkite kliento slaptažodį Azure Active Directory (Azure AD) pagal savo „Azure" abonementą. Instrukcijų ieškokite Registruoti [programą ir Pridėti kliento](/azure/active-directory/develop/quickstart-register-app) ir [Įtraukti kliento raktą](/azure/active-directory/develop/quickstart-register-app#add-a-certificate). Įsitikinkite, kad užsirašėte **Programos (kliento) ID**, **Kliento raktą**, ir **Nuomotojo ID** vertes, nes Jums jų reikės vėliau.
+
+> [!IMPORTANT]
+> Jei turite daugiau nei vieną LCS aplinką, kiekvienai iš jų Azure AD sukurkite kitą programą. Jei norėdami įdiegti atsargų matomumo priedą skirtingoms aplinkai naudojate tą patį programos ID ir nuomininko ID, atpažinimo ženklo išdavimas bus taikomas senesnėms aplinkai. Todėl galioja tik paskutinė įdiegtis.
 
 Kai užregistruojate programą ir pridedate kliento slaptą seką, atlikite šiuos veiksmus, kad įdiegtumėte atsargų „Azure AD“ matomumo priedą.
 
@@ -72,11 +75,18 @@ Kai užregistruojate programą ir pridedate kliento slaptą seką, atlikite šiu
 1. Pasirinkti **Diegti**. Papildinio būsena bus rodoma kaip **diegiama**. Tada, kai diegimas bus baigtas, paleiskite iš naujo puslapį. Būsena turi pasikeisti į **Įdiegta**.
 1. Kairiajame „Dataverse“ naršymo lange **pasirinkite** Programėlių **skyrių ir patikrinkite** ar atsargų matomumas sėkmingai „Power Apps“ įdiegtas. Jei **Programos** skyrius neegzistuoja, susisiekite su atsargumo matomumo produkto komanda [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com).
 
-> [!TIP]
-> Rekomenduojame prisijungti prie atsargų matomumo priedo vartotojų grupės, kurioje galite rasti naudingų vadovų, gauti naujausius atnaujinimus ir paskelbti visus klausimus, susijusius su Inventorių matomumo naudojimu. Norėdami prisijungti, atsiųskite el. laišką Inventoriaus matomumo produktų komandai adresu [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com) ir įtraukite savo tiekimo grandinės valdymo aplinkos ID.
-
-> [!IMPORTANT]
-> Jei turite daugiau nei vieną LCS aplinką, kiekvienai aplinkai „Azure AD“ sukurkite kitą programą. Jei norėdami įdiegti atsargų matomumo priedą skirtingoms aplinkai naudojate tą patį programos ID ir nuomininko ID, atpažinimo ženklo išdavimas bus taikomas senesnėms aplinkai. Galios tik paskutinė įdiegta versija.
+> [!NOTE]
+> Jei iš LCS puslapio reikia daugiau nei valandos, jūsų vartotojo sąskaitai tikriausiai trūksta teisės diegti sprendimus Dataverse aplinkoje. Norėdami išspręsti problemą, atlikite šiuos veiksmus:
+>
+> 1. Atšaukite atsargų matomumo priedo diegimo procesą iš LCS puslapio.
+> 1. Prisijunkite prie administravimo [Microsoft 365 centro ir](https://admin.microsoft.com) įsitikinkite, kad vartotojo abonementui, kurį Dynamics 365 Unified Operations norite naudoti norėdami įdiegti papildą, priskirta "Plano" licencija. Jei reikia, priskirkite licenciją.
+> 1. Prisiregistruokite administravimo [Power Platform centre](https://admin.powerplatform.microsoft.com) naudodami reikiamą vartotojo abonementą. Tada įdiekite atsargų matomumo priedą, atlikdami šiuos veiksmus:
+>     1. Pasirinkite aplinką, kurioje norite įdiegti priedą.
+>     1. Pasirinkite " **Dynamics 365" programėles**.
+>     1. Pasirinkite **įdiegti programą**.
+>     1. Pasirinkti **atsargų matomumą**
+>
+> 1. Baigę diegti grįžkite į LCS **puslapį ir bandykite dar kartą iš naujo įdiegti atsargų matomumo** priedą.
 
 ## <a name="uninstall-the-inventory-visibility-add-in"></a><a name="uninstall-add-in"></a>Išdiekite Inventoriaus matomumo papildinį
 

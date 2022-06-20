@@ -1,6 +1,6 @@
 ---
 title: Sistemos nurodyta darbo seka
-description: Šioje temoje pateikiama informacija apie sistemos nurodytą darbo seką. Ši funkcija leidžia rūšiuoti ir filtruoti darbo užsakymus, kuriuos sistema pateikia vartotojams vykdyti. Tai naudinga scenarijuose, kuomet reikia nurodyti papildomus kriterijus prekių paėmimo proceso vykdymui.
+description: Šiame straipsnyje pateikiama informacija apie sistemos nurodytos darbo sekos seką. Ši funkcija leidžia rūšiuoti ir filtruoti darbo užsakymus, kuriuos sistema pateikia vartotojams vykdyti. Tai naudinga scenarijuose, kuomet reikia nurodyti papildomus kriterijus prekių paėmimo proceso vykdymui.
 author: Mirzaab
 ms.date: 07/03/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-03
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: b433787f330de3634c59f7b1b2babfe07e3bdf09
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 8dfa7d8e3bdbfd74c6f95d8b79ac1b0698f73bd6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577821"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849132"
 ---
 # <a name="system-directed-work-sequencing"></a>Sistemos nurodyta darbo seka
 
@@ -44,7 +44,7 @@ Norėdami naudoti sistemos nurodytos darbo eigos funkciją, įjunkite ją savo s
 
 ### <a name="make-demo-data-available"></a>Demonstracinių duomenų įgalinimas
 
-Norėdami dirbti su scenarijumi naudojant šioje temoje pristatytas reikšmes, turite naudoti sistemą, kurioje įdiegti standartiniai demonstraciniai duomenys. Taip pat, turite pasirinkti **USMF** juridinį subjektą. Scenarijus naudoja *51* sandėlio demonstracinius duomenis.
+Norėdami dirbti naudodami scenarijų, naudodami šiame straipsnyje pateiktas vertes, turite dirbti su sistema, kurioje įdiegti standartiniai demonstraciniai duomenys. Taip pat, turite pasirinkti **USMF** juridinį subjektą. Scenarijus naudoja *51* sandėlio demonstracinius duomenis.
 
 > [!IMPORTANT]
 > Prieš išleisdami užsakymus į sandėlį, įsitikinkite, kad prekių paėmimo vietose pakanka atsargų visiems užsakymams.

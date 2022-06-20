@@ -1,6 +1,6 @@
 ---
 title: DK sąskaitos balansai
-description: Šioje temoje paaiškinami du DK sąskaitų balansų peržiūros būdai – bandomojo balanso sąrašo puslapis ir finansinės ataskaitos.
+description: 'Šiame straipsnyje paaiškinti du būdai, kaip peržiūrėkite DK sąskaitų balansus: bandomojo balanso sąrašo puslapį ir finansines ataskaitas.'
 author: aprilolson
 ms.date: 01/11/2018
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8470929b6805ddf9b85bd03e3043c2953d5fcfd1
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: f00f221765e757d8d4c82e1a0e4b8721e33dc321
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8716443"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874499"
 ---
 # <a name="general-ledger-account-balances"></a>DK sąskaitos balansai
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje paaiškinami du DK sąskaitų balansų peržiūros būdai – bandomojo balanso sąrašo puslapis ir finansinės ataskaitos. Jame tai taip pat aptariama, kaip atnaujinti dimensijų rinkinio balansus.
+Šiame straipsnyje paaiškinti du būdai, kaip peržiūrėkite DK sąskaitų balansus: bandomojo balanso sąrašo puslapį ir finansines ataskaitas. Jame tai taip pat aptariama, kaip atnaujinti dimensijų rinkinio balansus.
 
 Vartotojai gali peržiūrėti balansus didžiojoje knygoje įvairiais būdais. Kai kurie dažniausi iš jų yra:
 

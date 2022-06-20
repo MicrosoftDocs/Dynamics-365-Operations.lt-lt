@@ -1,6 +1,6 @@
 ---
-title: Pasirinktinės saugyklos vietos, skirtos sugeneruotiems dokumentams, nurodymas
-description: Šioje temoje paaiškinama, kaip išplėsti elektroninio ataskaitų (ER) formatų sugeneruotų dokumentų saugojimo vietų sąrašą.
+title: Pasirinktinės saugyklos vietos sugeneruotiems dokumentams nurodymas
+description: Šiame straipsnyje paaiškinama, kaip išplėsti saugojimo vietų sąrašą dokumentams, kuriuos generuoja elektroninių ataskaitų (ER) formatai.
 author: NickSelin
 ms.date: 02/22/2019
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 61a1e46497d650e2c063a5fe7537d17cf7aa1828a5a4504bb781e84aeb88f04a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 70d9ccfac18b4cdf1ea19b3def87fc10ba9ddcb4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718506"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8864752"
 ---
 # <a name="specify-a-custom-storage-location-for-generated-documents"></a>Pasirinktinės saugyklos vietos, skirtos sugeneruotiems dokumentams, nurodymas
 
 [!include[banner](../includes/banner.md)]
 
-Elektroninių ataskaitų (ER) sistemos programavimo sąsaja (API) suteikia galimybę išplėsti ER formatų sugeneruotų dokumentų saugojimo vietų sąrašą. Šioje temoje pateikiama pagrindinių užduočių, kurias turite atlikti, kad įtrauktumėte pasirinktinę saugojimo vietą, apžvalga.
+Elektroninių ataskaitų (ER) sistemos programavimo sąsaja (API) suteikia galimybę išplėsti ER formatų sugeneruotų dokumentų saugojimo vietų sąrašą. Šiame straipsnyje pateikiama pagrindinių užduočių, kurias turite atlikti norėdami įtraukti pasirinktinę saugojimo vietą, apžvalga.
 
 ## <a name="prerequisites"></a>Būtinieji komponentai
 
@@ -118,7 +118,7 @@ public DocuRef insertFile(
 ## <a name="configure-an-er-destination"></a>ER paskirties vietos konfigūravimas
 
 1. Sukonfigūruokite vieno iš anksčiau minėtų sukurto arba importuoto ER formato elementų (failo, aplanko, susijungimo arba priedo) suarchyvuotą paskirties vietą. Patarimų žr. [ER paskirties vietų konfigūravimas](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-destinations-2016-11).
-2. Naudoti anksčiau įtrauktą sukonfigūruotos paskirties vietos dokumento tipą. (Pavyzdžiui, šioje temoje dokumento tipas yra **FileX**.)
+2. Naudoti anksčiau įtrauktą sukonfigūruotos paskirties vietos dokumento tipą. (Pvz., šiame straipsnyje, dokumento tipas yra **Rinkmena (-os**)
 
 ![Dialogo langas Paskirties vietos parametrai.](media/er-extend-file-storages-destination.png)
 

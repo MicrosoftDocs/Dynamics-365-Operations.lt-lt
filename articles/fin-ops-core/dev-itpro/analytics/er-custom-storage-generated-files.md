@@ -1,6 +1,6 @@
 ---
 title: Pasirinktinės saugyklos vietos sugeneruotiems dokumentams nurodymas
-description: Šioje temoje paaiškinama, kaip išplėsti elektroninio ataskaitų (ER) formatų sugeneruotų dokumentų saugojimo vietų sąrašą.
+description: Šiame straipsnyje paaiškinama, kaip išplėsti saugojimo vietų sąrašą dokumentams, kurie sugeneruojami elektroninių ataskaitų (ER) formatais.
 author: NickSelin
 ms.date: 10/29/2020
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 337e760f28161721d886c7bbec09b5ff8dbfad45
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.openlocfilehash: 103a7e51fc6042e19b1db3b3d6b00436df15fd89
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7594914"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8898862"
 ---
 # <a name="specify-custom-storage-locations-for-generated-documents"></a>Pasirinktinės saugyklos vietos sugeneruotiems dokumentams nurodymas
 
 [!include[banner](../includes/banner.md)]
 
-Elektroninių ataskaitų (ER) sistemos programavimo sąsaja (API) suteikia galimybę išplėsti ER formatų sugeneruotų dokumentų saugojimo vietų sąrašą. Šioje temoje paaiškinama, kaip pridėti pasirinktines sugeneruotų dokumentų saugojimo vietas, pavedant atlikti užduotį kurti ER paskirties vietas numatytoje paskirties gamykloje ir tada įdiegti pasirinktinę klasę, kurios paskirties logika yra.
+Elektroninių ataskaitų (ER) sistemos programavimo sąsaja (API) suteikia galimybę išplėsti ER formatų sugeneruotų dokumentų saugojimo vietų sąrašą. Šiame straipsnyje paaiškinama, kaip įtraukti pasirinktinę sugeneruotų dokumentų saugojimo vietą, perduodama paskirties vietų kūrimo į numatytąją paskirties vietą užduotį ir tada įdiegti pasirinktinę klasę, kuri turi savo paskirties logiką.
 
 ## <a name="prerequisites"></a>Būtinieji komponentai
 
@@ -35,7 +35,7 @@ Diekite topologiją, kuri palaiko nuolatinę komponavimo versiją. Daugiau infor
 
 Taip pat jums reikia prieigos prie šios topologijos kūrimo aplinkos.
 
-Visos užduotys šioje temoje gali būti atliktos naudojant **USMF** įmonę.
+Visas šio straipsnio užduotis galima atlikti JAVMF **įmonėje**.
 
 ## <a name="import-the-fixed-asset-roll-forward-er-format"></a>Ilgalaikio turto keitimų taikymas ER formatu
 

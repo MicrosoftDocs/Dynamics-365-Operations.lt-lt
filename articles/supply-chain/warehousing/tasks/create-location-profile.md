@@ -1,6 +1,6 @@
 ---
 title: Vietos šablono kūrimas
-description: Šioje temoje aiškinama, kaip sukurti vietos profilį Dynamics 365 Supply Chain Management.
+description: Šiame straipsnyje paaiškinama, kaip kurti vietos profilį dalyje Dynamics 365 Supply Chain Management.
 author: Mirzaab
 ms.date: 07/29/2019
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 74141cdad6841a602c7fb061e897646fae072a73
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 98537f3ad45d66e348ecd489c60d95ef875e5c07
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7580005"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8875049"
 ---
 # <a name="create-a-location-profile"></a>Vietos šablono kūrimas
 
 [!include [banner](../../includes/banner.md)]
 
-Šioje temoje aiškinama, kaip sukurti vietos profilį Dynamics 365 Supply Chain Management. Su kiekviena sandėlio vieta turi būti susietas vietos šablonas, kuris nurodo vietos ypatybes, pvz., ar vietoje leidžiamos skirtingos prekės. Atlikdami šią procedūrą sukursite vietos, kurioje kontrolė pagal numerio lentelę yra nebūtina, šabloną. Leisime skirtingas prekes, skirtingas atsargų būsenas ir ciklo skaičiavimą. Šią procedūrą galite naudoti USMF demonstracinių duomenų įmonėje.
+Šiame straipsnyje paaiškinama, kaip kurti vietos profilį dalyje Dynamics 365 Supply Chain Management. Su kiekviena sandėlio vieta turi būti susietas vietos šablonas, kuris nurodo vietos ypatybes, pvz., ar vietoje leidžiamos skirtingos prekės. Atlikdami šią procedūrą sukursite vietos, kurioje kontrolė pagal numerio lentelę yra nebūtina, šabloną. Leisime skirtingas prekes, skirtingas atsargų būsenas ir ciklo skaičiavimą. Šią procedūrą galite naudoti USMF demonstracinių duomenų įmonėje.
 
 
 1. Naršymo srityje eikite į **Moduliai > Sandėlio valdymas > Sąranka > Sandėlio > Vietos profilis**.

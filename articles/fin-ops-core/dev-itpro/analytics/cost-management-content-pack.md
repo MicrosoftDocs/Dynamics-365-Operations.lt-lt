@@ -1,6 +1,6 @@
 ---
 title: „Power BI“ turinys Išlaidų valdymas
-description: Šioje temoje paaiškinama, kas įtraukta į „Power BI“ turinį Išlaidų valdymas.
+description: Šiame straipsnyje aprašoma, kas įtraukta į išlaidų valdymo Power BI turinį.
 author: ShylaThompson
 ms.date: 03/16/2018
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9fbdc6addc820aadc1f5469cb059a62724cfe905
-ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
+ms.openlocfilehash: 98c0097c2df25bafc842c9828d8ff282f5f683a5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752645"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876869"
 ---
 # <a name="cost-management-power-bi-content"></a>„Power BI“ turinys Išlaidų valdymas
 
@@ -168,7 +168,7 @@ Programos duomenys naudojami ataskaitos puslapiams „Power BI“ turinyje **Iš
 
 Toliau pateiktų objektų agreguoti matavimo vienetai yra naudojami kaip „Power BI“ turinio pagrindas.
 
-| Objektas                          | Pagrindiniai agreguoti matavimo vienetai | Duomenų šaltinis, skirtas „Finance and Operations” | Laukas               |
+| Objektas                          | Pagrindiniai agreguoti matavimo vienetai | „Finance and Operations“ duomenų šaltinis | Laukas               |
 |---------------------------------|----------------------------|----------------------------------------|---------------------|
 | CostObjectStatementCacheMonthly | Suma                     | CostObjectStatementCache               | Suma              |
 | CostObjectStatementCacheMonthly | Kiekis                   | CostObjectStatementCache               | Kiekis                 |
@@ -179,16 +179,16 @@ Toliau pateikiamoje lentelėje nurodyti pagrindiniai apskaičiuoti „Power BI�
 
 | Mato vnt.                            | Skaičiavimas |
 |------------------------------------|-------------|
-| Pradinis balansas                  | Pradžios balansas = \[ pabaigos balansas\] - \[ grynasis pokytis\] |
-| Pradžios balanso kiekis             | Pradžios balanso kiekis = \[ pabaigos balanso kiekis\] - \[ grynojo pokyčio kiekis\] |
-| Pabaigos likutis                     | Galutinis balansas = (CALCULATE(SUM(\[ Amount\]), FILTER(ALL(FiscalCalendar) ,FiscalCalendar\[ MONTHSTARTDATE\] \<= MAX(FiscalCalendar\[ MONTHSTARTDATE\])))) |
-| Pabaigos balanso kiekis                | Galutinio balansas kiekis = CALCULATE(SUM(\[ QTY\]), FILTER(ALL(FiscalCalendar),FiscalCalendar\[ MONTHSTARTDATE\] \<= MAX(FiscalCalendar\[ MONTHSTARTDATE\]))) |
-| Grynasis pokytis                         | Grynasis pokytis = SUM(\[ AMOUNT\]) |
-| Grynojo pokyčio kiekis                    | Grynojo pokyčio kiekis = SUM(\[ QTY\]) |
-| Atsargų apyvartos koeficientas pagal sumą | Atsargų apyvartos koeficientas pagal sumą = if(OR(\[ vidutinis atsargų balansas\] \<= 0, \[Inventory sold or consumed issues\] \>= 0), 0, ABS(\[ parduotų arba sunaudotų atsargų problemos\])/\[ vidutinis atsargų balansas\]) |
-| Vidutinis atsargų balansas          | Vidutinis atsargų balansas = ((\[ galutinis balansas\]  +  \[ pradžios balansas\]) / 2) |
-| Turimų atsargų dienos             | Turimų atsargų dienos = 365 / CostObjectStatementEntries\[ atsargų apyvartos koeficientas pagal sumą\] |
-| Atsargų tikslumas                 | Atsargų tikslumas pagal sumą = IF(\[ pabaigos balansas\] \<= 0, IF(OR(\[Inventory counted amount\] \<\> 0, \[ pabaigos balansas\] \< 0), 0, 1), MAX(0, (\[ pabaigos balansas\] - ABS(\[ apskaičiuota atsargų suma\]))/\[ pabaigos balansas\])) |
+| Pradinis balansas                  | Pradžios balansas = \[pabaigos balansas\] - \[grynasis pokytis\] |
+| Pradžios balanso kiekis             | Pradžios balanso kiekis = \[pabaigos balanso kiekis\] - \[grynojo pokyčio kiekis\] |
+| Pabaigos likutis                     | Galutinis balansas = (CALCULATE(SUM(\[Amount\]), FILTER(ALL(FiscalCalendar) ,FiscalCalendar\[MONTHSTARTDATE\] \<= MAX(FiscalCalendar\[MONTHSTARTDATE\])))) |
+| Pabaigos balanso kiekis                | Galutinio balansas kiekis = CALCULATE(SUM(\[QTY\]), FILTER(ALL(FiscalCalendar),FiscalCalendar\[MONTHSTARTDATE\] \<= MAX(FiscalCalendar\[MONTHSTARTDATE\]))) |
+| Grynasis pokytis                         | Grynasis pokytis = SUM(\[AMOUNT\]) |
+| Grynojo pokyčio kiekis                    | Grynojo pokyčio kiekis = SUM(\[QTY\]) |
+| Atsargų apyvartos koeficientas pagal sumą | Atsargų apyvartos koeficientas pagal sumą = if(OR(\[vidutinis atsargų balansas\] \<= 0, \[Inventory sold or consumed issues\] \>= 0), 0, ABS(\[parduotų arba sunaudotų atsargų problemos\])/\[vidutinis atsargų balansas\]) |
+| Vidutinis atsargų balansas          | Vidutinis atsargų balansas = ((\[galutinis balansas\]  +  \[pradžios balansas\]) / 2) |
+| Turimų atsargų dienos             | Turimų atsargų dienos = 365 / CostObjectStatementEntries\[atsargų apyvartos koeficientas pagal sumą\] |
+| Atsargų tikslumas                 | Atsargų tikslumas pagal sumą = IF(\[pabaigos balansas\] \<= 0, IF(OR(\[Inventory counted amount\] \<\> 0, \[pabaigos balansas\] \< 0), 0, 1), MAX(0, (\[pabaigos balansas\] - ABS(\[apskaičiuota atsargų suma\]))/\[pabaigos balansas\])) |
 
 Tolesnės pagrindinės dimensijos naudojamos kaip filtrai agreguotiems matavimo vienetams segmentuoti, kad būtų galima pasiekti didesnį detalumą ir gauti gilesnių analitinių įžvalgų.
 

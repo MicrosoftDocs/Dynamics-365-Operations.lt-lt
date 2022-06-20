@@ -1,6 +1,6 @@
 ---
 title: Neautomatizuotų darbo eigos užduočių konfigūravimas
-description: Šioje temoje paaiškinama, kaip konfigūruoti neautomatizuotos užduoties ypatybes.
+description: Šiame straipsnyje paaiškinama, kaip konfigūruoti neautomatinės užduoties ypatybes.
 author: ChrisGarty
 ms.date: 08/23/2017
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 726abcf20789fb3a7a9a3adbebf17249042910d1
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 265f127f948aa7425c5eb523abe18986a942cfb0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8066473"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889213"
 ---
 # <a name="configure-manual-tasks-in-a-workflow"></a>Neautomatizuotų darbo eigos užduočių konfigūravimas
 
@@ -28,7 +28,7 @@ ms.locfileid: "8066473"
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-Šioje temoje paaiškinama, kaip konfigūruoti neautomatizuotos užduoties ypatybes.
+Šiame straipsnyje paaiškinama, kaip konfigūruoti neautomatinės užduoties ypatybes.
 
 Norėdami darbo eigos rengyklėje konfigūruoti neautomatizuotą užduotį, dešiniuoju pelės mygtuku spustelėkite užduotį ir tada spustelėkite **Ypatybės**, kad atidarytumėte puslapį **Ypatybės**. Tada naudokite šias procedūras, norėdami konfigūruoti neautomatizuotos užduoties ypatybes.
 

@@ -1,6 +1,6 @@
 ---
 title: Suprojektuokite naują ER sprendimą tinkintos ataskaitos spausdinimui
-description: Šioje temoje paaiškinama, kaip suprojektuoti elektroninį ataskaitos sprendimą tinkintos ataskaitos spausdinimui.
+description: Šiame straipsnyje paaiškinama, kaip sukurti elektroninių ataskaitų (ER) sprendimą, norint spausdinti pasirinktinę ataskaitą.
 author: NickSelin
 ms.date: 08/10/2020
 ms.topic: article
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 36998d299e166709778bfaa7bfd0d8980890d4fe
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: 7194fa9243362d4eb61d6ce706e30a66c9cf3217
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323847"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847494"
 ---
 # <a name="design-a-new-er-solution-to-print-a-custom-report"></a>Suprojektuokite naują ER sprendimą tinkintos ataskaitos spausdinimui
 
@@ -292,7 +292,7 @@ Tam, kad tęstumėte, praleiskite kitą procedūrą, [Sukurti naują duomenų mo
 Dėl platesnės informacijos apie ER konfigūracijų versijas, žr. [Elektroninės ataskaitos (ER) peržiūra](general-electronic-reporting.md#component-versioning).
 
 > [!NOTE]
-> Konfigūruotas duomenų modelis yra **Klausimyno** verslo domeno bendra reprezentacija ir neturi jokio ryšio su artefaktais nurodytais „Microsoft Dynamics 365 Finance“.
+> Sukonfigūruotas duomenų modelis yra **abstrakti** klausimyno verslo domeno pateiktis Microsoft Dynamics ir jame nėra ryšių su artefaktais, kurie yra specifiniai 365 finansai.
 
 ## <a name="design-a-model-mapping-for-the-configured-data-model"></a><a name="DesignMapping"></a>Suprojektuokite konfigūruoto duomenų modelio žemėlapį
 

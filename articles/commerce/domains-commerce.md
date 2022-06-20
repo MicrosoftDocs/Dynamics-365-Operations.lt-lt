@@ -1,6 +1,6 @@
 ---
 title: „Dynamics 365 Commerce“ esantys domenai
-description: Šioje temoje aprašoma, kaip domenai valdomi „Microsoft Dynamics 365 Commerce”.
+description: Šiame straipsnyje aprašoma, kaip tvarkomi domenai Microsoft Dynamics 365 Commerce.
 author: BrShoo
 ms.date: 05/10/2022
 ms.topic: article
@@ -14,20 +14,20 @@ ms.search.industry: retail
 ms.author: BrShoo
 ms.search.validFrom: ''
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: aab5e983b42aea7d8eb4f198f033634d4663f278
-ms.sourcegitcommit: 7181a022739d6107a75d84546c3379c23f722034
+ms.openlocfilehash: c48c8bd57d90a8c7d47bfa4263cd9ab38002629b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8737351"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8848959"
 ---
 # <a name="domains-in-dynamics-365-commerce"></a>„Dynamics 365 Commerce“ esantys domenai
 
 [!include [banner](includes/banner.md)]
 
-Šioje temoje aprašoma, kaip domenai valdomi „Microsoft Dynamics 365 Commerce”.
+Šiame straipsnyje aprašoma, kaip tvarkomi domenai Microsoft Dynamics 365 Commerce.
 
-Domenai yra interneto adresai, naudojami pereiti į „Dynamics 365 Commerce” svetaines žiniatinklio naršyklėje. Jūs kontroliuojate jūsų domeno valdymą su pasirinktu domenų vardų serverio (DNS) tiekėju. Domenai nurodomi „Dynamics 365 Commerce” svetainių daryklėje, kad būtų galima koordinuoti, kaip svetainė bus pasiekiama publikavus. Šioje temoje nagrinėjama, kaip domenai valdomi ir nurodomi „Commerce” svetainės kūrimo ir paleidimo ciklo metu.
+Domenai yra interneto adresai, naudojami pereiti į „Dynamics 365 Commerce” svetaines žiniatinklio naršyklėje. Jūs kontroliuojate jūsų domeno valdymą su pasirinktu domenų vardų serverio (DNS) tiekėju. Domenai nurodomi „Dynamics 365 Commerce” svetainių daryklėje, kad būtų galima koordinuoti, kaip svetainė bus pasiekiama publikavus. Šiame straipsnyje peržiūrime, kaip domenai yra tvarkomi ir nurodomi per komercijos svetainės kūrimo ciklą ir paleidžiami.
 
 > [!NOTE]
 > Nuo 2022 Dynamics 365 Commerce`.dynamics365commerce.ms` metų gegužės 6 d. visos sukurtos aplinkos bus suskurtos su domenu, pakeičiant ankstesnį šabloną `.commerce.dynamics.com`. Esamos aplinkos, kurios yra su domenu `.commerce.dynamics.com`, ir toliau veiks.

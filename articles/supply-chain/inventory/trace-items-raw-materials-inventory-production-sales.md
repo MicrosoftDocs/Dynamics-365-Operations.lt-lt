@@ -1,6 +1,6 @@
 ---
 title: Prekių ir žaliavų sekimas atsargose, gamyboje ir pardavimuose
-description: Šioje temoje aprašoma, kaip galite naudoti prekės sekimą norėdami nustatyti, kur prekės arba žaliavos buvo naudojami, naudojami arba bus naudojami gamybos ir pardavimo procesuose.
+description: Šiame straipsnyje aprašoma, kaip naudoti prekių sekimą ir identifikuoti, kur prekės ar žaliavos buvo naudojamos, ar bus naudojamos gamybos ir pardavimo procesuose.
 author: yufeihuang
 ms.date: 11/02/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 95f59a3eca20634d03520ad88f71a3096309e23e
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 23d860b86e2eebb520bf2fd472c5655f40dd0ca0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7571814"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854419"
 ---
 # <a name="item-and-raw-material-tracing-in-inventory-production-and-sales"></a>Prekių ir žaliavų sekimas atsargose, gamyboje ir pardavimuose
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje aprašoma, kaip galite naudoti prekės sekimą norėdami nustatyti, kur prekės arba žaliavos buvo naudojami, naudojami arba bus naudojami gamybos ir pardavimo procesuose.
+Šiame straipsnyje aprašoma, kaip naudoti prekių sekimą ir identifikuoti, kur prekės ar žaliavos buvo naudojamos, ar bus naudojamos gamybos ir pardavimo procesuose.
 
 Prekių sekimo funkcijos prieinamos puslapyje **Prekių sekimas**. Toliau pateikiamuose skyriuose aprašoma, kaip galima naudoti prekių sekimą ir kokios jo parinktys bei apribojimai.
 

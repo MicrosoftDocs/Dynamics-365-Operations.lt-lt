@@ -1,6 +1,6 @@
 ---
 title: Turimų atsargų duomenų objektų pratęsimas
-description: Ši tema aprašo pavyzdį, kuris rodo, kaip įtraukti išplėstus laukelius į ATSARGŲTURIMOSVIETOSOBJEKTĄ ir ATSARGŲSANDĖLYJETURIMĄOBJEKTĄ peržiūras taip, kad turimų duomenų atsargų pajėgumo objektai galėtų veikti su plėtiniais.
+description: Šiame straipsnyje pateikiamas pavyzdys, kaip įtraukti išplėstinius laukus į INVENTORSITEONHANDENTITY ir INVENTWAREWEONHANDENTITY rodinius, kad turimų atsargų duomenų objektų galimybės galėtų veikti su plėtiniais.
 author: yufeihuang
 ms.date: 07/27/2020
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 8161d951c3296b63476c4e7b527efca163a4f4b3
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 352b466a185bcd0778ea17e598129864c1547987
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577701"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906043"
 ---
 # <a name="extend-inventory-on-hand-data-entities"></a>Turimų atsargų duomenų objektų pratęsimas
 
 [!include [banner](../includes/banner.md)]
 
-„Microsoft Dynamics 365 Supply Chain Management“ pateikia [plėtinių](../../fin-ops-core/dev-itpro/extensibility/extensibility-home-page.md) funkcijas, kurios jums leidžia [įtraukti laukelius į lenteles per plėtinius](../../fin-ops-core/dev-itpro/extensibility/add-field-extension.md). Šioje temoje pateiktas pavyzdys, kuris rodo, kaip įtraukti išplėstus laukelius į `INVENTORSITEONHANDENTITY` ir `INVENTWAREHOUSEONHANDENTITY` peržiūras taip, kad turimų duomenų atsargų pajėgumo objektai galėtų veikti su plėtiniais. Dėl išsamesnės informacijos apie duomenų objektus, žr. [Duomenų valdymo peržiūrą](../../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md).
+„Microsoft Dynamics 365 Supply Chain Management“ pateikia [plėtinių](../../fin-ops-core/dev-itpro/extensibility/extensibility-home-page.md) funkcijas, kurios jums leidžia [įtraukti laukelius į lenteles per plėtinius](../../fin-ops-core/dev-itpro/extensibility/add-field-extension.md). Šiame straipsnyje pateikiamas pavyzdys, kaip `INVENTORSITEONHANDENTITY``INVENTWAREHOUSEONHANDENTITY` į juos įtraukti išplėstinius laukus ir rodinius, kad turimų atsargų duomenų objektų galimybės galėtų dirbti su plėtiniais. Dėl išsamesnės informacijos apie duomenų objektus, žr. [Duomenų valdymo peržiūrą](../../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md).
 
 > [!NOTE]
 > Čia pateikiamas kai kurių turimų duomenų objektų atsargų sąrašą:

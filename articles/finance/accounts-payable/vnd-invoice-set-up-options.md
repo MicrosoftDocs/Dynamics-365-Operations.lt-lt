@@ -1,6 +1,6 @@
 ---
 title: Tiekėjo sąskaitų faktūrų automatizavimo sąrankos parinktys (peržiūros versija)
-description: Šioje temoje aprašomos parinktys, kurias galima naudoti nustatant ir konfigūruojant tiekėjo sąskaitų faktūrų automatizavimą.
+description: Šiame straipsnyje aprašomos pasirinktys, kurias galima naudoti nustatant ir konfigūruojant tiekėjo SF automatizavimą.
 author: sunfzam
 ms.date: 02/14/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-08-30
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: c1dc443e4225a3ffc6b88cedf7add396a66ec25d
-ms.sourcegitcommit: 6102f70d4595d01b90afe5b23dfd8ec2ea030653
+ms.openlocfilehash: 86ad68b3dc08bf2c57ab5f9bc6c65bc37c0901e6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8182448"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874847"
 ---
 # <a name="setup-options-for-vendor-invoice-automation"></a>Tiekėjo SF automatizavimo sąrankos parinktys
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje aprašomos parinktys, kurias galima naudoti nustatant ir konfigūruojant tiekėjo sąskaitų faktūrų automatizavimą. Sąskaitos faktūros automatizavimo funkcijos naudoja šių tipų sąrankos parametrus:
+Šiame straipsnyje aprašomos pasirinktys, kurias galima naudoti nustatant ir konfigūruojant tiekėjo SF automatizavimą. Sąskaitos faktūros automatizavimo funkcijos naudoja šių tipų sąrankos parametrus:
 
 - Automatiškai taikomų išankstinių mokėjimų importuotose SF parametrai.
 - Importuotų tiekėjo sąskaitų faktūrų pateikimo į darbo eigos sistemą ir užregistruotų produktų gavimo kvitų eilučių gretinimo su patvirtinimo laukiančiomis tiekėjo sąskaitos faktūros eilutėmis parametrai.

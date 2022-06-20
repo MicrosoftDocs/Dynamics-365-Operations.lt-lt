@@ -1,6 +1,6 @@
 ---
-title: EKA vartotojo sąsajos vaizdo konfigūracijos
-description: Šioje temoje pateikiama informacija apie „Dynamics 365 Commerce“ elektroninio kasos aparato (EKA) patirčių ekrano išdėstymus.
+title: EKA vartotojo sąsajos vaizdinio elemento konfigūracijos
+description: Šiame straipsnyje pateikiama informacija apie patirtį, susijusią su point point Dynamics 365 Commerce sale (EKA) ekrano maketais.
 author: boycezhu
 ms.date: 09/22/2020
 ms.topic: article
@@ -16,19 +16,19 @@ ms.search.industry: Retail
 ms.author: boycez
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 17379dc97c7a8b22912482a7aeebd0d8ac08dc496fa7b1661952bca10a21c75b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 22a35d69780a48415076dd70c21c33b1024c217d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6765885"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871638"
 ---
 # <a name="pos-user-interface-visual-configurations"></a>EKA vartotojo sąsajos vaizdinio elemento konfigūracijos
 
 [!include [banner](includes/banner.md)]
 
 
-„Microsoft Dynamics 365 Commerce” elektroninio kasos aparato (EKA) vartotojo sąsają (UI) galima sukonfigūruoti naudojant parduotuvėms, kasos aparatams ir vartotojams priskirtų vaizdo profilių ir ekrano išdėstymų kombinaciją. Šioje temoje pateikiama informacija tas konfigūracijos parinktis.
+„Microsoft Dynamics 365 Commerce” elektroninio kasos aparato (EKA) vartotojo sąsają (UI) galima sukonfigūruoti naudojant parduotuvėms, kasos aparatams ir vartotojams priskirtų vaizdo profilių ir ekrano išdėstymų kombinaciją. Šiame straipsnyje pateikiama informacija apie šias konfigūravimo pasirinktis.
 
 Tolesnėje iliustracijoje parodyti ryšiai tarp įvairių objektų, kuriuos galima konfigūruoti EKA vartotojo sąsajoje.
 

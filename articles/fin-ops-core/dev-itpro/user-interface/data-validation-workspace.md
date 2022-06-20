@@ -12,12 +12,12 @@ ms.reviewer: tfehr
 ms.assetid: ''
 ms.search.region: Global
 ms.author: bking
-ms.openlocfilehash: fef3130f06cbb1d8afdbae93bdc55b47be3480b3
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 626b3bbaf88f905bd167ad9eea4683ed1855eb92
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070832"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860045"
 ---
 # <a name="data-validation-checklist-workspace"></a>Duomenų tikrinimo kontrolinio sąrašo darbo sritis
 
@@ -26,7 +26,7 @@ ms.locfileid: "8070832"
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-Šioje temoje pateikiama **Duomenų tikrinimo kontrolinio sąrašo darbo srities** ir susijusios konfigūracijos apžvalga.
+Šiame straipsnyje pateikta duomenų tikrinimo kontrolinio **sąrašo darbo sritis ir** susijusi konfigūracija.
 
 Naudodami darbo sritį **Duomenų tikrinimo kontrolinis sąrašas** galite sekti visų įmonių, sričių ir žmonių duomenų tikrinimo procesus. Kontrolinį sąrašą galima naudoti atliekant naują diegimą, po atnaujinimo arba perkėlus. Priklausomai nuo darbo srities **Duomenų tikrinimo kontrolinis sąrašas** rodinio, matote arba visas duomenų tikrinimo projekto užduotis ir būsenas, arba tik jums priskirtas užduotis.
 

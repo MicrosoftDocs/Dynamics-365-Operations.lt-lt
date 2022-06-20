@@ -1,6 +1,6 @@
 ---
 title: Darbo su elektroninių SF priedu Brazilijai pradžia
-description: Šioje temoje pateikiama informacija, kuri padės jums pradėti naudotis Brazilijos elektroninių SF išrašymo priedu „Finance and Supply Chain Management”.
+description: Šiame straipsnyje pateikiama informacija, kuri padės jums pradėti nuo Elektroninių SF išrašymo Brazilijai finansų ir tiekimo grandinės valdymo srityje.
 author: gionoder
 ms.date: 03/29/2021
 ms.topic: article
@@ -9,30 +9,32 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.custom: intro-internal
+ms.custom:
+- "97423"
+- intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 82bbf806d207af0b15406e4bec516420db7f2c06
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 74debbca4ee365e05f1c15d45179f0cd1d23c3e5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984858"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846590"
 ---
 # <a name="get-started-with-electronic-invoicing-for-brazil"></a>Darbo su elektroninių SF priedu Brazilijai pradžia 
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje pateikiama informacija, kuri padės jums pradėti naudotis elektroninių SF išrašymo priedu Brazilijai. Šiuose temos vadovuose pateikiama informacija padės jums atlikti konfigūravimo veiksmus, priklausančius nuo „Regulatory Configuration Services” (RCS), ir papildyti temoje [Darbo su elektroniniu SF išrašymo priedu pradžia](e-invoicing-get-started.md) aprašytus veiksmus.
+Šiame straipsnyje pateikiama informacija, kuri padės jums pradėti nuo Elektroninių SF išrašymo Brazilijai. Straipsnis padės jums atlikti konfigūravimo veiksmus, kurie priklauso nuo šalies kontrolės konfigūracijos tarnybose (RCS), ir papildo šiame straipsnyje aprašytus veiksmus. [Darbo su elektroninių SF išrašymu](e-invoicing-get-started.md).
 
 ## <a name="country-specific-configuration-for-brazilian-nf-e-br-electronic-invoicing-feature"></a>Šaliai skirta Brazilijos NF-e (BR) elektroninių SF išrašymo priemonės konfigūracija
 
 Kai kurie Brazilijos **NF-e (BR) elektroninių SF išrašymo priemonės parametrai publikuojami** su numatytosiomis vertėmis. Prieš diegdami elektroninio SF išrašymo funkciją aptarnavimo aplinkoje, peržiūrėkite ir, jei reikia, atnaujinkite vertes, kad geriau atitiktų jūsų verslo operacijos poreikius.
 
-Skyriuje pateikiamas **Elektroninės SF konfigūravimas konkrečiai valstybei elektroninių SF funkcijoje** papildomas aprašas temoje, [Darbo su elektroninių SF išrašymo priedu pradžia](e-invoicing-get-started.md).
+Šiame skyriuje pateikiama tam tikros **šalies elektroninių SF išrašymo priemonės** skyriaus konfigūracija, nurodyta straipsnyje. [Darbo su elektroninio SF išrašymo pradžia](e-invoicing-get-started.md).
 
 1. RCS pasirinkus dalį **Funkcijos**, esančią darbo srityje **Globalizacijos funkcija**, pasirinkite plytelę **Elektroninių SF priedas**.
 2. Puslapyje **Elektroninių SF išrašymo priedo funkcijos** patikrinkite, ar pasirinkta jūsų sukurta elektroninio SF išrašymo funkcija **Brazilijos NF-e (BR)**.
@@ -51,7 +53,7 @@ Skyriuje pateikiamas **Elektroninės SF konfigūravimas konkrečiai valstybei el
 
 Prieš diegdami programos nustatymą su „Finance or Supply Chain Management“ susijusioje programoje atlikite šiuos veiksmus.
 
-Skyriuje pateikiamas **Elektroninės SF konfigūravimas programos nustatymuose** papildomas aprašas temoje, [Darbo su elektroninių SF išrašymo priedu pradžia](e-invoicing-get-started.md).
+Šiame skyriuje pateikiama tam tikros **šalies programos nustatymo skyriaus** konfigūracija, [pradėta išrašant elektronines SF](e-invoicing-get-started.md).
 
 1. RCS pasirinkus dalį **Funkcijos**, esančią darbo srityje **Globalizacijos funkcija**, pasirinkite plytelę **Elektroninių SF priedas**.
 2. Puslapyje **Elektroninių SF išrašymo priedo funkcijos** patikrinkite, ar pasirinkta elektroninio SF išrašymo funkcija **Brazilijos NF-e (BR)**.
@@ -71,7 +73,7 @@ Skyriuje pateikiamas **Elektroninės SF konfigūravimas programos nustatymuose**
 
 Kai kurie Brazilijos **Brazilijos NF-e (BR) elektroninių SF ABRASF Kuritiba (BR) išrašymo priemonės parametrai publikuojami** su numatytosiomis vertėmis. Prieš diegdami elektroninio SF išrašymo funkciją aptarnavimo aplinkoje, peržiūrėkite ir, jei reikia, atnaujinkite vertes, kad geriau atitiktų jūsų verslo operacijos poreikius.
 
-Skyriuje pateikiamas **Elektroninės SF konfigūravimas konkrečiai valstybei elektroninių SF funkcijoje** papildomas aprašas temoje, [Darbo su elektroninių SF išrašymo priedu pradžia](e-invoicing-get-started.md).
+Šiame skyriuje pateikiama tam tikros **šalies elektroninių SF išrašymo priemonės** skyriaus konfigūracija, nurodyta straipsnyje. [Darbo su elektroninio SF išrašymo pradžia](e-invoicing-get-started.md).
 
 1. RCS pasirinkus dalį **Funkcijos**, esančią darbo srityje **Globalizacijos funkcija**, pasirinkite plytelę **Elektroninių SF priedas**.
 2. Puslapyje **Elektroninių SF išrašymo priedo funkcijos** patikrinkite, ar pasirinkta jūsų sukurta elektroninio SF išrašymo funkcija **Brazilijos NFS-e ABRASF Kuritiba (BR)**.
@@ -96,7 +98,7 @@ Skyriuje pateikiamas **Elektroninės SF konfigūravimas konkrečiai valstybei el
 
 Prieš diegdami programos nustatymą su „Finance or Supply Chain Management“ susijusioje programoje atlikite šiuos veiksmus.
 
-Skyriuje pateikiamas **Elektroninės SF konfigūravimas programos nustatymuose** papildomas aprašas temoje, [Darbo su elektroninių SF išrašymo priedu pradžia](e-invoicing-get-started.md).
+Šiame skyriuje yra papildoma tam **tikros šalies programos nustatymo skyriaus** konfigūracija, [pradėta išrašant elektronines SF](e-invoicing-get-started.md).
 
 1. RCS pasirinkus dalį **Funkcijos**, esančią darbo srityje **Globalizacijos funkcija**, pasirinkite plytelę **Elektroninių SF priedas**.
 2. Puslapyje **Elektroninių SF išrašymo priedo funkcijos** patikrinkite, ar pasirinkta elektroninio SF išrašymo funkcija **Brazilijos NFS-e ABRASF Kuritiba (BR)**.

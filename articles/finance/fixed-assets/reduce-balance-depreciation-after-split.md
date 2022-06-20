@@ -1,6 +1,6 @@
 ---
 title: Mažėjančios vertės nusidėvėjimas po skaidymo
-description: Šioje temoje aprašomas metodas, naudojamas ilgalaikiam turtui nusidėvėjimui skaičiuoti po to, kai turtas skaidomas naudojant sumažinimo balanso metodą.
+description: Šiame straipsnyje aprašomas metodas, kuris naudojamas ilgalaikiam turtui skaičiuojant nusidėvėjimą po to, kai turtas padalintas naudojant balanso mažinimo metodą.
 author: moaamer
 ms.date: 11/17/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-11-17
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 35637ac1484121232c3571d1a26132a86d69e366
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 539967a9a73da91f6b49c1bb89f404267ae0a804
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726759"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883306"
 ---
 # <a name="reduce-balance-depreciation-after-a-split"></a>Mažėjančios vertės nusidėvėjimas po skaidymo
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje aprašomas metodas, naudojamas ilgalaikiam turtui nusidėvėjimui skaičiuoti po to, kai turtas skaidomas į kitą turtą naudojant sumažinimo balanso metodą. Turto knygoje sukonfigūruoti nusidėvėjimo metai yra finansiniai metai. Norėdami daugiau informacijos žr. [Balanso nusidėvėjimo mažinimas](reduce-balance-depreciation.md) ir [Ilgalaikio turto skaidymas](tasks/split-fixed-asset.md).
+Šiame straipsnyje aprašomas metodas, kuris naudojamas ilgalaikiam turtui skaičiuojant nusidėvėjimą po to, kai turtas padalintas į kitą turtą, naudojant balanso mažinimo metodą. Turto knygoje sukonfigūruoti nusidėvėjimo metai yra finansiniai metai. Norėdami daugiau informacijos žr. [Balanso nusidėvėjimo mažinimas](reduce-balance-depreciation.md) ir [Ilgalaikio turto skaidymas](tasks/split-fixed-asset.md).
 
 Jei jūs skaidote ilgalaikį turtą per ataskaitinį laikotarpį, kuris yra vėlesnis už turto įsigijimo laikotarpį, sumažintas balanso nusidėvėjimas bus skaičiuojamas pagal praėjusių metų turto balansinę vertę (NBV). Taip pat bus atsižvelgiama į įsigijimo ir nusidėvėjimo nustatymo operacijas, sugeneruotas iš operacijos, kuri skaido turtą. Taip daroma prielaida, kad turtas buvo įsigytas per vienerius finansinius metus ir padalintas į vėlesnius finansinius metus. Suma, kuri turi būti nusidėvėjama pradiniam turtui, kai skaidymas atitinka turto NBV prieš tai, kai turtas buvo suskaidytas, ir pirkimo ir nusidėvėjimo derinimo operacija, užregistruota išskaidyti.
 

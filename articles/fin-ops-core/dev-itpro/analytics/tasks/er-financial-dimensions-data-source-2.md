@@ -1,6 +1,6 @@
 ---
 title: ER naudoti finansines dimensijas kaip duomenų šaltinį (2 dalis – Modelio susiejimas)
-description: Šioje temoje aprašoma, kaip konfigūruoti elektroninės ataskaitos (ER) modelį, kad būtų galima naudoti finansines dimensijas kaip ER ataskaitų duomenų šaltinį. (2 dalis)
+description: Šiame straipsnyje aprašoma, kaip sukonfigūruoti elektroninės ataskaitos (ER) modelį, kad būtų galima naudoti finansines dimensijas kaip ER ataskaitų duomenų šaltinį. (2 dalis)
 author: NickSelin
 ms.date: 05/27/2020
 ms.topic: business-process
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: bc7c6bc299dd0af83db3b09b06276a210ecfada5
-ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
+ms.openlocfilehash: d228ee9d393cab1c5c1592ca6570cdc91992c38c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "7605410"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878348"
 ---
 # <a name="er-use-financial-dimensions-as-a-data-source-part-2---model-mapping"></a>ER naudoti finansines dimensijas kaip duomenų šaltinį (2 dalis – Modelio susiejimas)
 
@@ -94,7 +94,7 @@ Norėdami atlikti šiuos veiksmus, pirmiausia turite atlikti veiksmus, nurodytus
 25. Medyje pasirinkite LedgerJournal\<Relations\LedgerJournalTrans\Account.Dimension(LedgerDimension.Dimension)\Main account and dimensions.
 26. Medyje pasirinkite Journal\Transaction\Dimensions data.
 27. Spustelėkite Susieti.
-!Modelio susiejimo dizainerio puslapis, Susiejimo skirtukas, Duomenų šaltinių medis.](../media/er-financial-dimensions-guides-model-mapping3.png)
+! Modelio susiejimo dizainerio puslapis, susiejimo skirtukas, duomenų šaltinių medis.](../media/er-financial-dimensions-guides-model-mapping3.png)
 28. Medyje pasirinkite LedgerJournal\<Relations\LedgerJournalTrans\Debit(AmountCurDebit).
 29. Medyje pasirinkite Journal\Transaction\Debit.
 30. Spustelėkite Susieti.

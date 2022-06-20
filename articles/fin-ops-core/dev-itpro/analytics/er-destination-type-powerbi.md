@@ -1,6 +1,6 @@
 ---
 title: „Power BI“ ER paskirties vietos tipas
-description: Šioje temoje pateikiama informacija apie tai, kaip sukonfigūruoti siunčiamų dokumentų „Power BI“ ER paskirties vietos tipą.
+description: Šiame straipsnyje pateikiama informacija apie tai, kaip konfigūruoti Power BI siunčiamų dokumentų ER paskirties tipą.
 author: NickSelin
 ms.date: 01/23/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: AX 10.0.09
-ms.openlocfilehash: 499447b05ef6360cde95049e592d7c9ffe2da1c4ff26937482033b9f705c3acd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 50675c15ec1273d6955c36aef87f9aaa846d4247
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6777433"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845605"
 ---
 # <a name="power-bi-destination"></a>„Power BI“ paskirties vieta
 
@@ -28,7 +28,7 @@ ms.locfileid: "6777433"
 
 Galite sukonfigūruoti elektroninių ataskaitų (ER) formato, kuris sukonfigūruotas siunčiamiems dokumentams generuoti, kiekvieno aplanko ar failo komponento „Microsoft Power BI“ paskirties vietą. Remiantis paskirties vietos parametru, sugeneruotas dokumentas saugomas anksčiau sukonfigūruotame „SharePoint“ aplanke.
 
-Parinktyje **Įjungta** nustatykite **Taip** norėdami naudoti ER konfigūraciją, kad išdėstytumėte duomenų perkėlimą iš „Dynamics 365 Finance“ egzemplioriaus į „Microsoft Microsoft Power BI“ paslaugas. Perkelti failai saugomi „Microsoft SharePoint Server“ egzemplioriuje, kuris šiuo tikslu turi būti sukonfigūruotas. Norėdami gauti daugiau informacijos, žr. [Elektroninių ataskaitų (ER) konfigūravimas duomenims perkelti į „Power BI“](general-electronic-reporting-report-configuration-get-data-powerbi.md).
+Nustatykite įgalintas **kaip** Taip **, norėdami naudoti savo ER konfigūraciją, kad būtų sutvarkytas duomenų perkėlimas iš "Dynamics 365" finansų egzemplioriaus į tarnybas** Microsoft Power BI. Perkelti failai saugomi „Microsoft SharePoint Server“ egzemplioriuje, kuris šiuo tikslu turi būti sukonfigūruotas. Norėdami gauti daugiau informacijos, žr. [Elektroninių ataskaitų (ER) konfigūravimas duomenims perkelti į „Power BI“](general-electronic-reporting-report-configuration-get-data-powerbi.md).
 
 [![Paskirties vietos parametrų puslapis.](./media/ER_Destinations-EnablePowerBIDestination.png)](./media/ER_Destinations-EnablePowerBIDestination.png)
 

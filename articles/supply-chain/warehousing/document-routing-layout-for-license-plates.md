@@ -1,6 +1,6 @@
 ---
 title: Numerio lentelės etikečių dokumentų maršrutų planavimo maketas
-description: Šioje temoje aprašoma, kaip naudoti formatavimo metodus spausdinti reikšmėms etiketėse.
+description: Šiame straipsnyje aprašoma, kaip naudoti formatavimo metodus vertėms ant etikečių spausdinti.
 author: perlynne
 ms.date: 04/01/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2012-04-01
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 9055e4c6e35099b7769faa6fc83f71523f2e64fd
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 10e63353cda93d666d7f23f59508b73e5492c3cc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103895"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847881"
 ---
 # <a name="document-routing-layout-for-license-plate-labels"></a>Numerio lentelės etikečių dokumentų maršrutų planavimo maketas
 
@@ -53,7 +53,7 @@ Keletas plačiai prieinamų etikečių generavimo įrankių gali padėti formatu
 
 ## <a name="turn-on-this-feature-for-your-system"></a>Šios funkcijos įjungimas sistemoje
 
-Jei jūsų sistemoje dar nėra funkcijų, aprašytų šioje temoje, eikite į [Funkcijų valdymas](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) ir įjunkite funkciją *Patobulinti numerio lentelės etiketės išdėstymai*. (Kaip ir tiekimo grandinės valdymo versija 10.0.21, ši funkcija įjungiama pagal numatytąjį nustatymą. Kadangi tiekimo grandinės valdymas yra 10.0.25, ši funkcija yra privaloma ir jos išjungti negalima.)
+Jei jūsų sistemoje dar nėra šiame straipsnyje aprašytų funkcijų, [eikite](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) į funkcijų valdymą ir įjunkite funkciją Išplėstiniai *numerio lentelės žymų maketai*. (Kaip ir tiekimo grandinės valdymo versija 10.0.21, ši funkcija įjungiama pagal numatytąjį nustatymą. Kadangi tiekimo grandinės valdymas yra 10.0.25, ši funkcija yra privaloma ir jos išjungti negalima.)
 
 ## <a name="custom-number-formats"></a>Pasirinktiniai numerių formatai
 
@@ -129,7 +129,7 @@ Galite spausdinti iš rodymo būdo naudodami toliau pateiktą formatą.
 $DisplayMethod()$
 ```
 
-Šį formatą galite derinti su kitais šioje temoje aprašytais tipais. Pavyzdžiui, turite rodymo būdą, kurio pavadinimas `DisplayListOfItemsNumbers()`, ir norite spausdinti pirmą šio būdo prekės numerį. Tokiu atveju galite naudoti toliau pateiktą kodą.
+Šį formatą galima derinti su kitais tipais, kurie anksčiau aprašyti šiame straipsnyje. Pavyzdžiui, turite rodymo būdą, kurio pavadinimas `DisplayListOfItemsNumbers()`, ir norite spausdinti pirmą šio būdo prekės numerį. Tokiu atveju galite naudoti toliau pateiktą kodą.
 
 ```dos
 $DisplayListOfItemsNumbers()[1]$

@@ -1,6 +1,6 @@
 ---
-title: Konsignacijos papildymo užsakymo kūrimas
-description: Temoje aiškinama, kaip kurti siuntos papildymo užsakymą, kuriame galite stebėti numatytą pristatymą iš tiekėjo į jūsų siuntos atsargas.
+title: Kurti naują konsignacijos papildymo užsakymą
+description: Šiame straipsnyje paaiškinama, kaip sukurti konsignacijos papildymo užsakymą, kuriame galima sekti numatomą tiekėjo pristatymą į savo konsignacijai atsargas.
 author: yufeihuang
 ms.date: 08/19/2019
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9076207b73c6c76cfc44e1e02b21aad4e3f321f8
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 31a1d0a7d322b17d3d80dd9fade2b037dd148d9f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7574598"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859407"
 ---
-# <a name="create-a-consignment-replenishment-order"></a>Konsignacijos papildymo užsakymo kūrimas
+# <a name="create-a-consignment-replenishment-order"></a>Kurti naują konsignacijos papildymo užsakymą
 
 [!include [banner](../../includes/banner.md)]
 
-Temoje aiškinama, kaip kurti siuntos papildymo užsakymą, kuriame galite stebėti numatytą pristatymą iš tiekėjo į jūsų siuntos atsargas. Joje taip pat parodoma, kaip įrašyti produktų gavimą, kad konsignacijos atsargos būtų užregistruotas tiekėjui priklausančios turimos atsargos. Paprastai šią procedūrą atlieka įsigijimo specialistas. Šį vadovą galite naudoti demonstracinių duomenų įmonėje USMF. Ši procedūra yra skirta į 1611 „Dynamics 365 for Operations“ versiją įtrauktai funkcijai aprašyti.
+Šiame straipsnyje paaiškinama, kaip sukurti konsignacijos papildymo užsakymą, kuriame galima sekti numatomą tiekėjo pristatymą į savo konsignacijai atsargas. Joje taip pat parodoma, kaip įrašyti produktų gavimą, kad konsignacijos atsargos būtų užregistruotas tiekėjui priklausančios turimos atsargos. Paprastai šią procedūrą atlieka įsigijimo specialistas. Šį vadovą galite naudoti demonstracinių duomenų įmonėje USMF. Ši procedūra yra skirta į 1611 „Dynamics 365 for Operations“ versiją įtrauktai funkcijai aprašyti.
 
 ## <a name="create-a-consignment-replenishment-order"></a>Konsignacijos papildymo užsakymo kūrimas
 1. Naršymo srityje eikite į **Moduliai > Įsigijimas ir išteklių paskirstymas > Siunta > Siuntos papildymo užsakymai**.

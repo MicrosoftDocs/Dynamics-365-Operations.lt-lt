@@ -1,6 +1,6 @@
 ---
 title: Bangos paskirstymas
-description: Šioje temoje aprašoma, kaip nustatyti bangos paskirstymo veiksmą, įskaitant tai, kaip įgalinti lygiagretų jo apdorojimą.
+description: Šiame straipsnyje aprašoma, kaip nustatyti bangos paskirstymo veiksmą, įskaitant, kaip įgalinti lygiagretų jo apdorojimą.
 author: Mirzaab
 ms.date: 03/08/2021
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-08
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 08781b26a4e066a026d4efa14670f073b04ec185
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: c6b89364afd57b9c4b4413d0319b86e725433594
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8695541"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906957"
 ---
 # <a name="wave-allocation"></a>Bangos paskirstymas
 
@@ -25,7 +25,7 @@ ms.locfileid: "8695541"
 
 Bangos apdorojimas gali užimti daug laiko, o didžiausia apdorojimo laiko dalis bus praleista paskirstymo ir darbo kūrimo veiksmuose.
 
-Dabar galima kiekvieną šių veiksmų vykdyti lygiagrečiai, o tai gali padidinti bangos apdorojimo efektyvumą ir užtikrinti didesnį bangų našumą tame pačiame sandėlyje. Šioje temoje paaiškinama, kaip nustatyti lygiagretų bangos paskirstymo metodo vykdymą. Daugiau informacijos apie tai, kaip nustatyti lygiagretų darbo kūrimo vykdymą rasite [Darbo kūrimo planavimas bangos metu](configure-wave-schedule-work-creation.md).
+Dabar galima kiekvieną šių veiksmų vykdyti lygiagrečiai, o tai gali padidinti bangos apdorojimo efektyvumą ir užtikrinti didesnį bangų našumą tame pačiame sandėlyje. Šiame straipsnyje paaiškinama, kaip nustatyti bangos paskirstymo metodą, kuris būtų vykdomas lygiagrečiai. Daugiau informacijos apie tai, kaip nustatyti lygiagretų darbo kūrimo vykdymą rasite [Darbo kūrimo planavimas bangos metu](configure-wave-schedule-work-creation.md).
 
 Anksčiau sandėlyje buvo galima priskirti tik vieną bangą tuo pačiu metu. Šis apribojimas yra pašalintas ir pakeistas nauju apribojimu, kuris užrakina tik tas prekes ir dimensijas, kurios rezervavimo hierarchijoje yra virš vietos. Dimensijos, esančios aukščiau vietos, visada apima produkto dimensijas. Pavyzdžiui, jei prekė sukonfigūruota naudojant *Spalvą*, tada galima lygiagrečiai apdoroti jos variantus *Raudona*, *Mėlyna* ir *Geltona*.
 

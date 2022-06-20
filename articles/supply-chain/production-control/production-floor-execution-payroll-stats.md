@@ -1,6 +1,6 @@
 ---
-title: Rodyti atostogų balansus gamybos laiko vykdymo sąsajoje
-description: Šioje temoje pateikiamas pavyzdis scenarijus, kuris parodo, kaip nustatyti Microsoft Dynamics 365 Supply Chain Management, kad ji naudos algalapio statistiką, kad galėtų pateikti darbuotojams šių metų atostogų balanso peržiūrą.
+title: Rodyti atostogų likutį gamybos vietos vykdymo sąsajoje
+description: Šiame straipsnyje pateikiamas pavyzdis scenarijus, kuris parodo, kaip nustatyti "Microsoft Dynamics 365 Supply Chain Management ", kad ji naudoja algalapio statistiką, kad pateiktų darbuotojams šių metų atostogų balanso peržiūrą.
 author: johanhoffmann
 ms.date: 04/22/2022
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2022-04-22
 ms.dyn365.ops.version: 10.0.XX
-ms.openlocfilehash: a97858c72b0be50609cee552bd0635e2d68ea478
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.openlocfilehash: 2a6b6f52bfa7539b7c9bb5841536b0d564d0274c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8648169"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8852279"
 ---
-# <a name="show-vacation-balances-in-the-production-floor-execution-interface"></a>Rodyti atostogų balansus gamybos laiko vykdymo sąsajoje
+# <a name="show-vacation-balances-in-the-production-floor-execution-interface"></a>Rodyti atostogų likutį gamybos vietos vykdymo sąsajoje
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje pateikiamas pavyzdis scenarijus, kuris parodo, kaip nustatyti Microsoft Dynamics 365 Supply Chain Management, kad ji naudos algalapio statistiką, kad kiekvienam darbuotojui būtų pateikta šių metų atostogų balanso apžvalga. Darbuotojai gamybos laiko vykdymo sąsajoje galės matyti **savo** atostogų balansą dialogo lange Mano diena.
+Šiame straipsnyje pateikiamas pavyzdis scenarijus, kuris parodo, kaip nustatyti "Microsoft Dynamics 365 Supply Chain Management ", kad ji naudos algalapio statistiką, kad pateiktų kiekvienam darbuotojui šių metų atostogų balanso peržiūrą. Darbuotojai gamybos laiko vykdymo sąsajoje galės matyti **savo** atostogų balansą dialogo lange Mano diena.
 
 Šis scenarijus naudoja Danijos švenčių įstatymą, kuriame atostogų metai vyksta nuo rugsėjo 1 d. iki rugpjūčio 31 d. Tokiu atveju jūsų įmonė pasamdė naują darbuotoją ir likusių šių atostogų metų laikotarpiui suteiks 10 atostogų dienų balansą.
 

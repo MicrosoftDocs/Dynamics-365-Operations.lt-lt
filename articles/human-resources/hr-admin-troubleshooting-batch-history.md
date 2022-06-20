@@ -1,6 +1,6 @@
 ---
 title: Efektyvumo optimizavimas naudojant automatinio valymo užduotis
-description: Šioje temoje paaiškinama, kaip pagerinti tam tikras našumo problemas naudojant „Microsoft Dynamics 365 Human Resources“, valant paketinių užduočių retrospektyvą.
+description: Šiame straipsnyje paaiškinama, kaip padidinti "Microsoft Dynamics 365 Human Resources " našumą išvalant paketinių užduočių retrospektyvą.
 author: twheeloc
 ms.date: 08/21/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: 47cd132c188c39c8700cae6035ae75d0ce71d841
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 10d535e54f71e7bb90c7385e09926270a446df7d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8687225"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8902204"
 ---
 # <a name="optimize-performance-with-auto-cleanup-tasks"></a>Efektyvumo optimizavimas naudojant automatinio valymo užduotis
 

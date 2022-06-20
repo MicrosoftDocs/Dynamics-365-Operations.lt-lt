@@ -1,6 +1,6 @@
 ---
 title: PVM tiekėjo sąskaitoje faktūroje skaičiavimas ir koregavimas
-description: Šioje temoje paaiškinama, kaip koreguoti PVM tiekėjo SF "Dynamics 365" finansuose.
+description: Šiame straipsnyje paaiškinama, kaip koreguoti PVM tiekėjo SF "Dynamics 365 Finance".
 author: twheeloc
 ms.date: 07/31/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7d4d6a23f6f58906730c5ce00c5fe06885aaa6da
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 9a1093631688351d065d6b55bc65055b6f92d256
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734695"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868379"
 ---
 # <a name="calculate-and-adjust-sales-tax-on-a-vendor-invoice"></a>PVM tiekėjo sąskaitoje faktūroje skaičiavimas ir koregavimas
 
 [!include [banner](../../includes/banner.md)]
 
-Šioje temoje aiškinama, kaip koreguoti PVM tiekėjo SF. Jei pradiniame šaltinio dokumente rodomos mokesčių sumos skiriasi nuo apskaičiuotų, šias sumas prieš registruodami galite koreguoti. Šioje užduotyje naudojama demonstracinė įmonė DEMF.
+Šiame straipsnyje paaiškinama, kaip koreguoti PVM tiekėjo SF. Jei pradiniame šaltinio dokumente rodomos mokesčių sumos skiriasi nuo apskaičiuotų, šias sumas prieš registruodami galite koreguoti. Šioje užduotyje naudojama demonstracinė įmonė DEMF.
 
 1. Eikite **į SF > sumų > žurnalą**.
 2. Pasirinkite **Nauja**.

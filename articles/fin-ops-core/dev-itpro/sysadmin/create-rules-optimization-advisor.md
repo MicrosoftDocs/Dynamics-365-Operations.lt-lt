@@ -1,6 +1,6 @@
 ---
 title: Optimizavimo patariamojo įrankio taisyklių kūrimas
-description: Šioje temoje aptariama, kaip į optimizavimo patariamąjį įrankį įtraukti naujų taisyklių.
+description: Šiame straipsnyje aptariama, kaip pridėti naujas taisykles prie optimizavimo failo.
 author: roxanadiaconu
 ms.date: 02/04/2018
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: ''
 ms.author: sericks
 ms.search.validFrom: 2017-12-01
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: a65a71da066d70cafc641aafe21538830a9ebe56b607316570ea2435398cda1c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1b1d9b14cb67b1dd0a961f6f8618de37147a2c52
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6734669"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850911"
 ---
 # <a name="create-rules-for-optimization-advisor"></a>Optimizavimo patariamojo įrankio taisyklių kūrimas
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje paaiškinama, kaip sukurti naujų **optimizavimo patariamojo įrankio** taisyklių. Pavyzdžiui, galite sukurti naują taisyklę, nustatančią, kurių pasiūlymų patvirtinimų (RFQ) atvejų pavadinimai yra tušti. Naudojant atvejų pavadinimus, juos lengva nustatyti ir jų ieškoti. Nors šis pavyzdys gana paprastas, juo parodoma, ko galima pasiekti optimizavimo taisyklėmis. 
+Šiame straipsnyje paaiškinama, kaip sukurti naujas optimizavimo pagal **taisykles**. Pavyzdžiui, galite sukurti naują taisyklę, nustatančią, kurių pasiūlymų patvirtinimų (RFQ) atvejų pavadinimai yra tušti. Naudojant atvejų pavadinimus, juos lengva nustatyti ir jų ieškoti. Nors šis pavyzdys gana paprastas, juo parodoma, ko galima pasiekti optimizavimo taisyklėmis. 
 
 *Taisyklė* yra programos duomenų patikra. Jei išpildoma sąlyga, kurią vertina taisyklė, sukuriama galimybių optimizuoti procesus ar patobulinti duomenis. Dėl galimybių galima imtis veiksmų ir (pasirenkama) galima matuoti veiksmų poveikį. 
 

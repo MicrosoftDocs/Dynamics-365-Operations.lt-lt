@@ -1,6 +1,6 @@
 ---
 title: EKA periferinių įrenginių ir paslaugų sveikatos patikra
-description: Šioje temoje pateikiama sveikatos patikros funkcijos, teikiamos elektroniniame kasos aparate (EKA), apžvalga.
+description: Šiame straipsnyje pateikta tikrinti sveikatos patikrą point (EKA).
 author: BrianShook
 ms.date: 03/06/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: brshoo
 ms.search.validFrom: 2019-03-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: cd4e97b8dbfc4faf336d4ea927342fd4fa3cc7cd
-ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
+ms.openlocfilehash: 44fd4b6246d3d7947527416c2b8b447bd64f179f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7779877"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863326"
 ---
 # <a name="health-check-for-pos-peripherals-and-services"></a>EKA periferinių įrenginių ir paslaugų sveikatos patikra
 
 [!include [banner](includes/banner.md)]
 
-Šioje temoje aprašoma sveikatos patikros funkcija, teikiama elektroniniame kasos aparate (EKA).
+Šiame straipsnyje aprašoma sveikatos tikrinimo operacija, atliekama point of sale (EKA).
 
 ## <a name="overview"></a>Peržiūra
 
@@ -39,7 +39,7 @@ Mažmeninėse parduotuvėse naudojama daug įvairių programų ir įrenginių. K
 | Semestras | aprašymas |
 |---|---|
 | Išorinis įrenginys | Bet koks įrenginys, kurį naudoja EKA programa, kad palengvintų įvairių operacijų veikimą parduotuvėje. Pavyzdžiui, kasos stalčiai, brūkšninių kodų skaitytuvai ir mokėjimo terminalai. |
-| Aptarnavimas | Šioje temoje paslauga yra pagalbinė programa, nuo kurios priklauso EKA programa, kuri atlieka kasdienes operacijas. Pavyzdžiui, programėlės, kurios padeda apskaičiuoti mokesčius ar siuntas. |
+| Aptarnavimas | Šiame straipsnyje paslauga yra papildoma programa, nuo kurios priklauso EKA programa, vykdo operacijas ir kasdienes operacijas. Pavyzdžiui, programėlės, kurios padeda apskaičiuoti mokesčius ar siuntas. |
 
 ## <a name="health-check-operation"></a>Sveikatos patikros funkcija
 

@@ -1,6 +1,6 @@
 ---
 title: Įsigijimo katalogo kūrimas
-description: Šioje temoje aiškinama, kaip sukurti darbo eigą.
+description: Šiame straipsnyje paaiškinama, kaip sukurti įsigijimo katalogą.
 author: GalynaFedorova
 ms.date: 07/19/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e94f2ef23a3c4020f46138a10fcdf84552451515
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 8e35e8c5b5c93fa9aac914f04e7ea658748cb052
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8673872"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8869552"
 ---
 # <a name="create-a-procurement-catalog"></a>Įsigijimo katalogo kūrimas
 
 [!include [banner](../../includes/banner.md)]
 
-Šioje temoje aiškinama, kaip sukurti darbo eigą. Šią užduotį paprastai atlieka įsigijimo specialistas. Taip pat sužinosite, kaip kurdami paraišką darbuotojai gali naudoti katalogą. Prieš kuriant katalogą, sistemoje turi būti nustatyta įsigijimo kategorijų hierarchija. Naujas katalogas perima hierarchiją ir visus hierarchijos produktus. Šį vedlį galite naudoti demonstracinių duomenų įmonėje USMF, kurioje įgalinta įsigijimo kategorijų hierarchija, taip pat procedūros veiksmų pavyzdžiuose.
+Šiame straipsnyje paaiškinama, kaip sukurti įsigijimo katalogą. Šią užduotį paprastai atlieka įsigijimo specialistas. Taip pat sužinosite, kaip kurdami paraišką darbuotojai gali naudoti katalogą. Prieš kuriant katalogą, sistemoje turi būti nustatyta įsigijimo kategorijų hierarchija. Naujas katalogas perima hierarchiją ir visus hierarchijos produktus. Šį vedlį galite naudoti demonstracinių duomenų įmonėje USMF, kurioje įgalinta įsigijimo kategorijų hierarchija, taip pat procedūros veiksmų pavyzdžiuose.
 
 
 ## <a name="ensure-that-a-procurement-category-hierarchy-exists"></a>Įsitikinkite, kad įsigijimo kategorijų hierarchija nustatyta

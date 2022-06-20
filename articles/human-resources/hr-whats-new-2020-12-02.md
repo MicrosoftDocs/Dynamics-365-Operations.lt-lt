@@ -1,6 +1,6 @@
 ---
 title: Kas naujo ar pasikeitusio „Dynamics 365 Human Resources“ 2020 m. gruodžio 2 d.
-description: Ši tema aprašo funkcijas, kurios yra naujos arba pakeistos „Microsoft Dynamics 365 Human Resources“ nuo 2020 m. gruodžio 2 d.
+description: Šiame straipsnyje aprašomos priemonės, kurios yra naujos arba pakeistos Microsoft Dynamics 365 Human Resources 2020 m. gruodžio 2 d.
 author: marcelbf
 ms.date: 12/02/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 6e02586ad3e6b4428f2ba826851db6ebc3172bdf1760b483032f5159e7864a81
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cecef6d2e73b42126b1be100dca52ebd8d9270fc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6782664"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8848113"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-december-2-2020"></a>Kas naujo ar pasikeitusio „Dynamics 365 Human Resources“ 2020 m. gruodžio 2 d.
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Šioje temoje aprašomos naujos, pasikeitusios ar netrukus pasirodysiančios „Dynamics 365 Human Resources“ funkcijos.
+Šiame straipsnyje aprašomos priemonės, kurios yra naujos, pakeistos arba tuoj pat Dynamics 365 Human Resources.
 
 Daugiau informacijos apie mūsų atnaujinimo procesą ir grafiką žr. [Atnaujinimo procesas](hr-admin-setup-update-process.md).
 
@@ -52,9 +52,9 @@ Daugiau informacijos apie naujas funkcijas ir jų numatomas bendro pasiekiamumo 
 Toliau nurodyti klaidų ištaisymai įtraukti į šį leidimą.
 
 > [!NOTE]
-> Siekiame kuo greičiau pateikti jums šią informaciją. Galime atnaujinti šią temą, kad būtų įtraukti klaidų ištaisymai, įtraukti į komponavimo versiją publikavus šią temą.
+> Siekiame kuo greičiau pateikti jums šią informaciją. Galime atnaujinti šį straipsnį, kad būtų įtrauktos pataisos, kurios buvo sukurtas po to, kai buvo publikuotas šis straipsnis.
 
-| Problemos numeris | Išdavimas | aprašymas |
+| Problemos numeris | Problema | Aprašymas |
 | --- | --- | --- |
 | 514087 | BenefitEligibilityProcessResult turi apimti datą ir laiką, kuris buvo naudojamas apdorojimo metu. | BenefitEligibility apdorojimo rezultatai dabar apima duomenų laiko antspaudą paskutiniam apdorojimui, kurio trūko anksčiau. |
 | 526903 | Priedų įtraukimas nepavyksta planams su priklausiniais, kai **Automatinio pasirinkimo gavėjai** yra įjungti **Žmogiškųjų išteklių bendrinti parametrai**. | Fiksuota problema, kai naudos įtraukimas nepavyko priklausiniams, kai **Automatinio pasirinkimo gavėjų** parinktis buvo įjungta nustatytiesiems gavėjams. |

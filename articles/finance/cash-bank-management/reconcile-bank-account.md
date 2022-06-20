@@ -1,6 +1,6 @@
 ---
-title: Banko sąskaitos suderinimas
-description: Šioje temoje aprašoma, kaip suderinti banko sąskaitą.
+title: Banko sąskaitos derinimas
+description: Šiame straipsnyje aprašoma, kaip suderinti banko sąskaitą.
 author: panolte
 ms.date: 07/01/2019
 ms.topic: article
@@ -14,14 +14,14 @@ ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 75e5eb82686a0c124694ad349978f9c32482012b
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 6a7d89c4ee0694326e321b9459c6cfd04d94f392
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8727656"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889039"
 ---
-# <a name="reconcile-a-bank-account"></a>Banko sąskaitos suderinimas
+# <a name="reconcile-a-bank-account"></a>Banko sąskaitos derinimas
 
 [!include[banner](../includes/banner.md)]
 

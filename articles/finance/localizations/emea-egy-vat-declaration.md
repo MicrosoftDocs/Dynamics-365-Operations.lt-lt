@@ -1,6 +1,6 @@
 ---
 title: Egipto PVM deklaracija
-description: Šioje temoje paaiškinama, kaip sukonfigūruoti ir sugeneruoti Egipto PVM grąžinimo formą.
+description: Šiame straipsnyje paaiškinama, kaip sukonfigūruoti ir sugeneruoti Egipto PVM grąžinimo formą.
 author: sndray
 ms.date: 06/03/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: sndray
 ms.search.validFrom: 2017-06-20
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: a67c6e00b94d49b3eb279416407f603923e53b2e
-ms.sourcegitcommit: 7aa7d756e1e98a53da62e03c608a9597ef9893ea
+ms.openlocfilehash: 1d5788b2328a49f4725a6c689e29a7e784032fae
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "7403953"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8870041"
 ---
 #  <a name="vat-declaration-for-egypt-eg-00002"></a>Egipto PVM deklaracija (EG-00002)
 
@@ -26,11 +26,11 @@ ms.locfileid: "7403953"
 
 [!include[banner](../includes/banner.md)]
 
-Šioje temoje paaiškinama, kaip nustatyti ir sugeneruoti PVM grąžinimo formą bei pardavimo ir pirkimo knygas juridiniams subjektams Egipte.
+Šiame straipsnyje paaiškinama, kaip nustatyti ir sugeneruoti PVM grąžinimo formą bei pardavimo ir pirkimo knygas juridiniams subjektams Egipto formoje.
 
 Egipto PVM grąžinimo forma yra oficialus dokumentas, kuriame apibendrinama bendroji mokėtina išeigos PVM suma, visa susigrąžinama įvesties PVM mokesčio suma ir susiję PVM mokesčio sumos įsipareigojimai. Forma naudojama visų tipų mokesčių mokėtojams ir turi būti užpildyta neautomatiniu būdu mokesčių inspekcijos portale. PVM grąžinimo forma paprastai vadinama PVM grąžinimo užklausa.
 
-PVM grąžinimo formoje, esančioje „Dynamics 365 Finance“ yra tokios ataskaitos:
+PVM grąžinimo forma "Dynamics 365 Finance" apima šias ataskaitas:
 
 - PVM grąžinimo forma Nr. 10, kuri teikia eilutės elemento sumų, koregavimų ir PVM sumos paskirstymą PVM grąžinimo formoje, kaip aprašyta teisės aktuose.
 - Pardavimo operacijų knyga

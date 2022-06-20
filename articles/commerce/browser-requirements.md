@@ -1,6 +1,6 @@
 ---
 title: „Dynamics 365 Commerce“ svetainių naršyklės reikalavimai
-description: Šioje temoje aprašomi naršyklės reikalavimai „Microsoft Dynamics 365 Commerce“ svetainėms.
+description: Šiame straipsnyje minimi "Sites" naršyklės Microsoft Dynamics 365 Commerce reikalavimai.
 author: anupamar-ms
 ms.date: 12/15/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f97e5800785c84d7d804c7af8bffd7bfbccc95a5951d560996f4ca586069392e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c80bec4b4e40c904ef781893b6d695eda31cce92
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6740460"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8869203"
 ---
 # <a name="browser-requirements-for-dynamics-365-commerce-sites"></a>„Dynamics 365 Commerce“ svetainių naršyklės reikalavimai
 
 [!include [banner](includes/banner.md)]
 
-Šioje temoje aprašomi naršyklės reikalavimai „Microsoft Dynamics 365 Commerce“ svetainėms.
+Šiame straipsnyje minimi "Sites" naršyklės Microsoft Dynamics 365 Commerce reikalavimai.
 
 „Dynamics 365 Commerce“ saitai geriausiai palaikomi tolesnių žiniatinklio naršyklių. Norėdami surasti paskutinę kiekvienos žiniatinklio naršyklės versiją, eikite į programinės įrangos gamintojo svetainę.
 

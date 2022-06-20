@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e884e96e1275f9162b642bbe48c2d891c6434002
-ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
+ms.openlocfilehash: d4be32a7158561bdf00a996831dca7395ce6f331
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8109973"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879746"
 ---
 # <a name="invoice-matching-and-intercompany-purchase-orders"></a>SF gretinimas ir įmonės vidaus pirkimo užsakymai
 
@@ -28,7 +28,7 @@ ms.locfileid: "8109973"
 
 Gali būti nustatyta, kad perkantysis juridinis subjektas, kuris susijęs su vidinės įmonės prekybos operacija, naudoja mokėtinų sumų SF gretinimą. Kai mokėtinų **sumų parametrų puslapyje** nustatytas laukas **Registruoti SF su nesutapimų** yra nustatytas kaip **Būtinas patvirtinimas**, bus atliktas SF gretinimo tikrinimas. Tokiu atveju ir vidinės įmonės prekybos, ir mokėtinų sumų SF gretinimo registravimo reikalavimai turi būti įvykdyti prieš registruojant vidinės įmonės tiekėjo SF.
 
-Šios temos pavyzdžiuose naudojama toliau pateikta vidinės įmonės prekybos sąranka.
+Šiame straipsnyje pateikti pavyzdžiai vidinės įmonės prekybai naudoja šį nustatymą:
 -   Fabrikam Purchase yra perkantysis juridinis subjektas.
 -   Fabrikam Sales yra parduodantysis juridinis subjektas.
 -   Klientas 4020 yra įmonėje Fabrikam Sales.

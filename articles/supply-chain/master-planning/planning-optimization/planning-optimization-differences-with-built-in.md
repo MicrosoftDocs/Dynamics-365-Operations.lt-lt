@@ -1,6 +1,6 @@
 ---
 title: Skirtumas tarp įtaisytojo bendrojo planavimo ir „Planning Optimization“
-description: Šioje temoje pateikiamos funkcijos, kurių „Planning Optimization“ dar nepalaiko ir kurių nėra „Planning Optimization“ analizės puslapyje.
+description: Šiame straipsnyje pateikiamos funkcijos, kurių planavimo optimizavimas dar nepalaiko ir kurių nėra planavimo optimizavimo analizės puslapyje.
 author: t-benebo
 ms.date: 07/30/2021
 ms.topic: article
@@ -10,18 +10,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-07-30
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: c73587015d6714c409819ab19ad68685aaa71cf7
-ms.sourcegitcommit: 70289a33b0a6ff3f9418d91a928db452cfd815bd
+ms.openlocfilehash: cf39166dce860dbd796cb4749175628252ed96ea
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/20/2022
-ms.locfileid: "8618266"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8897580"
 ---
 # <a name="differences-between-built-in-master-planning-and-planning-optimization"></a>Skirtumas tarp įtaisytojo bendrojo planavimo ir „Planning Optimization“
 
 [!include [banner](../../includes/banner.md)]
 
-„Planning Optimization“ rezultatai gali skirtis nuo įtaisyto bendrojo planavimo modulio rezultatų. Skirtumus gali sukelti laukimo funkcijos. Šioje temoje pateikiamos funkcijos, kurių „Planning Optimization“ dar nepalaiko ir kurių nėra **[„Planning Optimization“ analizės](planning-optimization-fit-analysis.md)** puslapyje].
+„Planning Optimization“ rezultatai gali skirtis nuo įtaisyto bendrojo planavimo modulio rezultatų. Skirtumus gali sukelti laukimo funkcijos. Šiame straipsnyje pateikiamos funkcijos, kurių planavimo optimizavimas dar nepalaiko ir kurių nėra planavimo optimizavimo **[analizės puslapyje](planning-optimization-fit-analysis.md)**.
 
 | Funkcija | Dabartinė „Planning Optimization“ elgsena |
 |---|---|

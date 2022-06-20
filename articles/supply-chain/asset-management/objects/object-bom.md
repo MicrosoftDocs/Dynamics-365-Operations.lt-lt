@@ -1,6 +1,6 @@
 ---
 title: Turto KS
-description: Šioje temoje aprašomos turto KS turto valdyme.
+description: Šiame straipsnyje aprašomos turto valdymo turto komplektavimo specifikacijos (KS).
 author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0430891607ac4558c91b86318aee318d0076007daf59a32eda65cb411d274b3a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: MT
+ms.openlocfilehash: 71b861ec31e704e001aab29245b9e24ce8beb0de
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6751990"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8882785"
 ---
 # <a name="asset-boms"></a>Turto KS
 
@@ -28,7 +28,7 @@ ms.locfileid: "6751990"
 
  
 
-Šioje temoje aprašomos turto KS turto valdyme. Puslapyje **Turto KS** rodomas visų elementų (atsarginių dalių ir kitų elementų), naudojamų turtui visą jo ciklą, sąrašas. Kuriant naują turtą reikėtų apsvarstyti turto KS nustatymą kaip sąrankos procedūros dalį. Tokiu būdu galima sekti turto elementų retrospektyvą nuo sukūrimo datos.
+Šiame straipsnyje aprašomos turto valdymo turto komplektavimo specifikacijos (KS). Puslapyje **Turto KS** rodomas visų elementų (atsarginių dalių ir kitų elementų), naudojamų turtui visą jo ciklą, sąrašas. Kuriant naują turtą reikėtų apsvarstyti turto KS nustatymą kaip sąrankos procedūros dalį. Tokiu būdu galima sekti turto elementų retrospektyvą nuo sukūrimo datos.
 
 Atlikus priežiūros užduotį ir užregistravus elemento suvartojimą darbo užsakyme galima sekti turto atsarginių dalių ir kitų elementų suvartojimą. Ši funkcija leidžia išlaikyti viso turto išsamų elementų suvartojimo įrašą. Pavyzdžiui, galima naudoti įrašą siekiant stebėti, ar konkreti atsarginė dalis dažnai keičiama, sekti atsargines dalis ar kitus elementus, kurie šiuo metu naudojami turtui.
 

@@ -1,6 +1,6 @@
 ---
 title: Eilutės elemento darbo eigų konfigūravimas
-description: Šioje temoje paaiškinta, kaip konfigūruoti eilutės elemento darbo eigos elementą.
+description: Šiame straipsnyje paaiškinama, kaip konfigūruoti eilutės elemento darbo eigos elementą.
 author: ChrisGarty
 ms.date: 11/03/2017
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2d6d9dcb99e00d4ce3f99e525a72421cb12af178
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 511493df4c897c0a8d2c53db2c9c893aa43d3589
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070126"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889242"
 ---
 # <a name="configure-line-item-workflows"></a>Eilutės elemento darbo eigų konfigūravimas
 
@@ -28,7 +28,7 @@ ms.locfileid: "8070126"
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-Šioje temoje paaiškinta, kaip konfigūruoti eilutės elemento darbo eigos elementą.
+Šiame straipsnyje paaiškinama, kaip konfigūruoti eilutės elemento darbo eigos elementą.
 
 Norėdami darbo eigos rengyklėje konfigūruoti eilutės elemento darbo eigą, dešiniuoju pelės mygtuku spustelėkite elementą ir tada spustelėkite **Ypatybės**, kad atidarytumėte puslapį **Ypatybės**. Tada naudokite šias procedūras norėdami konfigūruoti eilutės elemento darbo eigos elementą.
 

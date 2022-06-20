@@ -1,6 +1,6 @@
 ---
 title: Tiesioginis „Sales“ pardavimo pasiūlymų antraščių ir eilučių sinchronizavimas su „Supply Chain Management”
-description: Šioje temoje aptariami šablonai ir pagrindinės užduotys, naudojami „Dynamics 365 Sales“ pardavimo pasiūlymų antraštes ir eilutes tiesiogiai sinchronizuojant su „Dynamics 365 Supply Chain Management“.
+description: Straipsnyje aptariamos šablonai ir susijusios užduotys, naudojamos pardavimo pasiūlymų antraštėms ir eilutėms sinchronizuoti tiesiogiai iš "Dynamics 365 Sales" į Dynamics 365 Supply Chain Management.
 author: Henrikan
 ms.date: 10/25/2018
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: henrikan
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 362b6c290b1784d05e42ecb650911cc51aa8478a
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 440b0a6fd2d297027cf3cab548c611544450269a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8061989"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854129"
 ---
 # <a name="synchronize-sales-quotation-headers-and-lines-directly-from-sales-to-supply-chain-management"></a>Tiesioginis „Sales“ pardavimo pasiūlymų antraščių ir eilučių sinchronizavimas su „Supply Chain Management”
 
@@ -29,7 +29,7 @@ ms.locfileid: "8061989"
 
 
 
-Šioje temoje aptariami šablonai ir pagrindinės užduotys, naudojami „Dynamics 365 Sales“ pardavimo pasiūlymų antraštes ir eilutes tiesiogiai sinchronizuojant su „Dynamics 365 Supply Chain Management“.
+Straipsnyje aptariamos šablonai ir susijusios užduotys, naudojamos pardavimo pasiūlymų antraštėms ir eilutėms sinchronizuoti tiesiogiai iš "Dynamics 365 Sales" į Dynamics 365 Supply Chain Management.
 
 > [!NOTE]
 > Prieš naudodami sprendimą Potencialūs klientai ir grynieji pinigai, turėtumėte būti susipažinę su [Duomenų integravimas į „Microsoft Dataverse“, skirtą programoms](/powerapps/administrator/data-integrator).
@@ -136,7 +136,7 @@ Tolesnėse iliustracijose pateikiamas šablono susiejimo pavyzdys duomenų integ
 
 ![Susieti šabloną duomenų integratoriuje, QuoteLine.](./media/sales-quotation-direct-template-mapping-data-integrator-2.png)
 
-## <a name="related-topics"></a>Susijusios temos
+## <a name="related-articles"></a>Susiję straipsniai
 
 [Potencialaus kliento pavertimas pinigais](prospect-to-cash.md)
 

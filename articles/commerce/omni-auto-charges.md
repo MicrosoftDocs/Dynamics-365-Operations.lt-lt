@@ -1,6 +1,6 @@
 ---
 title: Integruoto kanalo išplėstinės automatinės išlaidos
-description: Šioje temoje aprašomos papildomos „Commerce“ kito kanalo užsakymų mokesčių tvarkymo galimybės naudojant pažangias automatinio apmokestinimo funkcijas.
+description: Šiame straipsnyje aprašomos kitų "Commerce" kanalų užsakymų mokesčių valdymo galimybės naudojant išplėstinių automatinių išlaidų funkcijas.
 author: hhaines
 ms.date: 03/24/2022
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 69432e13424b08b75e8ce7c88eaf6be66db59e65
-ms.sourcegitcommit: 94ebdaae6dc996b205ac78ed546e38f91f4f46ed
+ms.openlocfilehash: 412f5befa255d12914444b57918f14ab51243bfa
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/28/2022
-ms.locfileid: "8489623"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8851136"
 ---
 # <a name="omni-channel-advanced-auto-charges"></a>Integruoto kanalo išplėstinės automatinės išlaidos
 
 [!include [banner](includes/banner.md)]
 
-Šioje temoje pateikiama informacija apie išplėstinių automatinių išlaidų funkcijų, kurias galima rasti „Dynamics 365 for Retail“ 10.0 versijoje, konfigūracijas ir diegimą.
+Šiame straipsnyje pateikiama informacija apie išplėstinių automatinių išlaidų funkcijų, kurios yra Dynamics 365 for Retail 10.0 versijoje, konfigūravimą ir diegimą.
 
 Įgalinus išplėstines automatinių išlaidų funkcijas, užsakymuose, sukurtuose bet kuriame palaikomame „Commerce“ kanale (elektroniniame kasos aparate (EKA), skambučių centre ir internete), galima naudotis [automatinių išlaidų](/dynamics365/unified-operations/retail/configure-call-center-delivery#define-charges-for-delivery-services) konfigūracijų privalumais, apibrėžtais ERP programoje, tiek antraščių, tiek eilutės lygio mokesčiams.
 

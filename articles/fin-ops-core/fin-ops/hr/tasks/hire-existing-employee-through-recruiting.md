@@ -12,19 +12,19 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 07dae424f32281a39c3887437ac7976fb3beb8d3
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 3fdbdfc7a1a642bae2e693d1f6de0af3c08a8a6e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734929"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876479"
 ---
 # <a name="hire-existing-employees-through-recruitment"></a>Samdyti esamus darbuotojus naudojant įdarbinimo funkciją
 
 [!include [banner](../../includes/banner.md)]
 
 > [!IMPORTANT]
-> Šios temos įdarbinimo funkcijos bus nurodytos kaip Įdarbinimo projektai ir židiniai pretendentams, prašymams ir įdarbinimo projektams.  
+> Šiame straipsnyje nurodyta įdarbinimo funkcija bus vadinama įdarbinimo projektais ir židiniais pretendentams, prašymams ir įdarbinimo projektams.  
 
 
 Kartais atviras pareigas gali užimti kandidatai, kurie jau yra jūsų organizacijos darbuotojai. Ši procedūra padeda žingsnis po žingsnio atlikti esamo darbuotojo samdymo per įdarbinimo procesą veiksmus. Šioje procedūroje įdarbinimo projektas jau nustatytas, o esamas darbuotojas jau pateikė prašymą dalyvauti įdarbinimo projekte. USMF **demonstracinių** duomenų įmonė buvo naudojama šiai procedūrai sukurti.
@@ -33,7 +33,7 @@ Kartais atviras pareigas gali užimti kandidatai, kurie jau yra jūsų organizac
 2. Sąraše raskite darbuotojo, kurį norite samdyti, prašymą. Pavyzdžiui, pasirinkite **00002 Džono Emory**.
 3. Pasirinkite **prašymo būseną**.
 
-    Prašymo būsena rodo, kokiame įdarbinimo proceso etape yra šis prašymas. Kiekvienas veiksmas nebūtinas. Paprastai prašymas būseną perkelia tokia tvarka: **Gauta**, **Patvirtinta** ir **Pokalbis**. Pokalbio metu bus priimtas samdos sprendimas.
+    Prašymo būsena rodo, kokiame įdarbinimo proceso etape yra šis prašymas. Kiekvienas veiksmas nebūtinas. Paprastai prašymas būseną perkelia tokia tvarka: **Gauta**, **Patvirtinta** ir **Pokalbis.** Pokalbio metu bus priimtas samdos sprendimas.
 
 4. Pasirinkite **Keisti padėtį**.
 5. Pasirinkite pareigas, už kurias priimate darbuotoją.

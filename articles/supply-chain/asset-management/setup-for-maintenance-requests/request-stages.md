@@ -1,6 +1,6 @@
 ---
 title: Priežiūros užklausos ciklo būsenos
-description: Šioje temoje aprašoma, kaip nustatyti priežiūros užklausos ciklo būsenas modulyje „Turto valdymas“.
+description: Šiame straipsnyje aprašoma, kaip turto valdymo modulyje nustatyti priežiūros užklausos ciklo teigiamas vietas.
 author: johanhoffmann
 ms.date: 04/20/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3ece0fc1121211706350d804fec59e72ef08282fcba4e65f557a510834738b11
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 81b30820adf11f0239ea8ff9d1886b5738e38162
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6743679"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8862720"
 ---
 # <a name="maintenance-request-lifecycle-states"></a>Priežiūros užklausos ciklo būsenos
 

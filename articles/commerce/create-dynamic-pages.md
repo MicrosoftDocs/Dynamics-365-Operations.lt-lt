@@ -1,6 +1,6 @@
 ---
 title: Dinaminių el. prekybos puslapių kūrimas pagal URL parametrus
-description: Šioje temoje aprašoma, kaip nustatyti „Microsoft Dynamics 365 Commerce“ e-komercijos puslapį, kuris gali pateikti dinaminį turinį pagal URL parametrus.
+description: Šiame straipsnyje aprašoma, kaip nustatyti el. komercijos Microsoft Dynamics 365 Commerce puslapį, kuris gali naudoti dinaminį turinį, remiantis URL parametrais.
 author: StuHarg
 ms.date: 05/27/2022
 ms.topic: article
@@ -9,19 +9,19 @@ ms.reviewer: v-chgriffin
 ms.search.region: global
 ms.author: stuharg
 ms.search.validFrom: 2019-09-30
-ms.openlocfilehash: 3443dad9ead40b59da994c56e22fe2599f4bac82
-ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
+ms.openlocfilehash: e2b13403ffb316059476a03857c849b4f9f8cb9c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/28/2022
-ms.locfileid: "8811036"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884668"
 ---
 # <a name="create-dynamic-e-commerce-pages-based-on-url-parameters"></a>Dinaminių el. prekybos puslapių kūrimas pagal URL parametrus
 
 [!include [banner](includes/banner.md)]
 [!include [banner](includes/preview-banner.md)]
 
-Šioje temoje aprašoma, kaip nustatyti „Microsoft Dynamics 365 Commerce“ e-komercijos puslapį, kuris gali pateikti dinaminį turinį pagal URL parametrus.
+Šiame straipsnyje aprašoma, kaip nustatyti el. komercijos Microsoft Dynamics 365 Commerce puslapį, kuris gali naudoti dinaminį turinį, remiantis URL parametrais.
 
 El. komercijos puslapis gali būti konfigūruotas siekiant talpinti kitą turinį pagal segmentą URL kelyje. Dėl to, puslapis yra žinomas kaip dinaminis puslapis. Segmentas yra naudojamas kaip parametras siekiant gauti puslapio turinį. Pavyzdžiui, puslapis, kuris sukurtas svetainės generatoriuje ir turi pavadinimą interneto **svetainės peržiūros\_ programoje**, susietas su URL `https://fabrikam.com/blog`. Šis puslapis tuomet gali būti naudojamas siekiant rodyti kitą turinį pagal paskutinį segmentą URL kelyje. Pavyzdžiui, paskutinis segmentas URL `https://fabrikam.com/blog/article-1` yra **straipsnis-1**.
 

@@ -1,6 +1,6 @@
 ---
 title: „Iframe“ modulis
-description: Šis skyrius aprašo „iframe“ modulį ir tai, kaip įtraukti jį į vietos puslapius „Microsoft Dynamics 365 Commerce“.
+description: Šiame straipsnyje aprašomas "iframe" modulis ir aprašoma, kaip jį pridėti prie svetainės puslapių, kurie yra dalyje Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 05/18/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: eeb9d76367be6b2d2153578f6358594b807382ac
-ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
+ms.openlocfilehash: e9f1804cde1010c585d53d63bc0a487bc5407552
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "8780239"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8858942"
 ---
 # <a name="iframe-module"></a>„Iframe“ modulis
 
 [!include [banner](includes/banner.md)]
 
-Šis skyrius aprašo „iframe“ modulį ir tai, kaip įtraukti jį į vietos puslapius „Microsoft Dynamics 365 Commerce“.
+Šiame straipsnyje aprašomas "iframe" modulis ir aprašoma, kaip jį pridėti prie svetainės puslapių, kurie yra dalyje Microsoft Dynamics 365 Commerce.
 
 „iframe“ modulis suteikia „iframe“ (rėmelį pagal liniją), kuris apima išorės turinį svetainėje. Pavyzdžiui, jis gali būti naudojamas „YouTube“ vaizdo įrašo ar PDF failo peržiūros patalpinimui bet kuriame svetainės puslapyje. 
 

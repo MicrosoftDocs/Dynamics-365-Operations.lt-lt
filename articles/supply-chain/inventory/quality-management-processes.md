@@ -1,6 +1,6 @@
 ---
 title: Nomenklatūros irr kokybės valdymo peržiūra
-description: Šioje temoje supažindinimo kokybės ir neatitikties valdymo funkcijos ir paaiškinama, kaip jos gali padėti „Microsoft Dynamics 365 Supply Chain Management“ pagerinti produkto kokybę jūsų tiekimo grandinėje.
+description: Šiame straipsnyje aprašomos "Microsoft Dynamics 365 Supply Chain Management " kokybės ir neatitikties valdymo funkcijos ir paaiškinama, kaip jos gali padėti pagerinti produkto kokybę jūsų tiekimo grandinėje.
 author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: overview
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1bb4bcb7f554c22b4e1ab1b41867bd2d3dcca4d4
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 510dee78f6fed02e6511aedad00fcb1b15195470
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7985525"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907499"
 ---
 # <a name="quality-and-nonconformance-management-overview"></a>Nomenklatūros irr kokybės valdymo peržiūra
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje supažindinimo kokybės ir neatitikties valdymo funkcijos ir paaiškinama, kaip jos gali padėti „Microsoft Dynamics 365 Supply Chain Management“ pagerinti produkto kokybę jūsų tiekimo grandinėje.
+Šiame straipsnyje aprašomos "Microsoft Dynamics 365 Supply Chain Management " kokybės ir neatitikties valdymo funkcijos ir paaiškinama, kaip jos gali padėti pagerinti produkto kokybę jūsų tiekimo grandinėje.
 
 Kokybės užtikrinimas apima produktų bandymą ir neatitinkančių medžiagų valdymą. Kokybės valdymo procesai padeda užtikrinti aukštą produktų kokybę jūsų tiekimo grandinėje. Šie procesai taip pat padeda optimizuoti tiekimo grandinės procesus ir padidinti klientų pasitenkinimą. Kokybės valdymas gali padėti valdyti apgręžimo laiką, kai dirbate su neatitinkančiais produktais, neatsižvelgiant į jų kilmę. Diagnostikos rezultatus galite susieti su koregavimo užduotimis. Sistema gali planuoti užduotis taisyti problemoms ir taip padėti išvengti šių problemų pasikartojimo ateityje. Kokybės valdymas taip pat leidžia problemas (įskaitant vidaus problemas) sekti pagal problemos tipą ir leidžia sprendimus identifikuoti kaip trumpalaikius arba ilgalaikius. Statistika apie pagrindinius našumo indikatorius (KPI) teikia įžvalgų apie ankstesnes neatitikimo problemas ir sprendimus, kurie buvo taikomi joms taisyti. Galite naudoti praeities duomenis, kad būtų lengviau peržiūrėti anksčiau naudotų kokybės priemonių efektyvumą bei nustatyti tinkamas priemones, kurios bus naudojamos ateityje.
 

@@ -1,6 +1,6 @@
 ---
-title: Konfigūracijos importavimas iš „Lifecycle Services‟
-description: Šioje temoje aprašoma, kaip iš Microsoft Dynamics „Lifecycle Services” (LCS) importuoti naują elektroninių ataskaitų konfigūracijos versiją.
+title: Konfigūracijos importavimas iš „Lifecycle Services”
+description: Šiame straipsnyje aprašoma, kaip importuoti naują elektroninių ataskaitų (ER) konfigūracijos versiją Microsoft Dynamics iš ciklo tarnybų (LCS).
 author: NickSelin
 ms.date: 06/17/2021
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 05a8ad127df177c54e67ff1f2ddcd8b3a3f51ea12b6e11d087105bd74b6bdb3f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2aae59334828a5636f35051d50cf2ea392074b71
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6712597"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8886678"
 ---
 # <a name="import-a-configuration-from-lifecycle-services"></a>Konfigūracijos importavimas iš „Lifecycle Services”
 
 [!include [banner](../../includes/banner.md)]
 
-Šioje temoje aiškinama, kaip sistemos administratoriaus arba elektroninių ataskaitų kūrėjo vaidmenį turintis vartotojas gali importuoti naują [elektroninių ataskaitų (ER) konfigūracijos](../general-electronic-reporting.md#Configuration) versiją iš [projekto lygio turto bibliotekos](../../lifecycle-services/asset-library.md) „Microsoft Dynamics Lifecycle Services” (LCS).
+Šiame straipsnyje paaiškinama [, kaip sistemos administratoriaus arba elektroninių ataskaitų kūrėjo vaidmens vartotojas gali importuoti naują elektroninių ataskaitų (ER)](../general-electronic-reporting.md#Configuration)[...](../../lifecycle-services/asset-library.md)Microsoft Dynamics konfigūracijos versiją iš projekto lygio turto bibliotekos, kuri yra ciklo tarnybose (LCS).
 
 > [!IMPORTANT]
 > LCS naudojimas kaip ER konfigūracijų saugyklos yra [nerekomenduojamas](../../../../finance/get-started/removed-deprecated-features-finance.md#features-removed-or-deprecated-in-the-finance-10017-release). Daugiau informacijos rasite [„Regulatory Configuration Service“ (RCS) – „Lifecycle Services“ (LCS) saugykla nerekomenduojama](../../../../finance/localizations/rcs-lcs-repo-dep-faq.md).
@@ -41,7 +41,7 @@ ms.locfileid: "6712597"
 
 <a name="accessconditions"></a>
 > [!NOTE]
-> Įsitikinkite, kad dabartinis „Dynamics 365 Finance” vartotojas yra LCS projekto, kuriame yra turto biblioteka, kurią vartotojas nori [pasiekti](../../lifecycle-services/asset-library.md#asset-library-support), naudojama ER konfigūracijoms importuoti, narys.
+> Įsitikinkite, kad dabartinis "Dynamics 365" finansų vartotojas yra LCS [projekto](../../lifecycle-services/asset-library.md#asset-library-support), kuriame yra turto biblioteka, kurios vartotojas nori gauti prieigą prie importavimo ER konfigūracijų, narys.
 >
 > Negalima pasiekti LCS projekto iš ER saugyklos, kuri nurodo domeną, kuris skiriasi nuo domeno, naudojamo „Finance”. Jei bandysite, bus rodomas tuščias LCS projektų sąrašas, o jūs negalėsite importuoti ER konfigūracijų iš projekto lygio turto bibliotekos, esančios LCS. Norėdami pasiekti projekto lygio turto bibliotekas iš ER saugyklos, naudojamos importuoti ER konfigūracijas, prisijunkite prie „Finance” naudodami vartotojo, priklausančio nuomotojui (domenui), kuriam sukonfigūruotas dabartinis „Finance” egzempliorius, kredencialus.
 
@@ -49,7 +49,7 @@ ms.locfileid: "6712597"
 
 1. Puslapio **Konfigūracijos** konfigūracijų medyje pasirinkite **Modelio konfigūracijos pavyzdys**.
 
-    Sukūrėte pirmąją modelio konfigūracijos pavyzdžio versiją ir publikavote ją LCS atlikę [Konfigūracijos įkėlimas į „Lifecycle Services“](er-upload-configuration-into-lifecycle-services.md) veiksmus. Atlikdami šią procedūrą, šią ER konfigūracijos versiją panaikinsite. Tada versiją importuosite iš LCS, kaip aprašyta toliau šioje temoje.
+    Sukūrėte pirmąją modelio konfigūracijos pavyzdžio versiją ir publikavote ją LCS atlikę [Konfigūracijos įkėlimas į „Lifecycle Services“](er-upload-configuration-into-lifecycle-services.md) veiksmus. Atlikdami šią procedūrą, šią ER konfigūracijos versiją panaikinsite. Tada importuojate šią versiją iš LCS vėliau šiame straipsnyje.
 
 2. Sąraše raskite ir pasirinkite norimą įrašą.
 

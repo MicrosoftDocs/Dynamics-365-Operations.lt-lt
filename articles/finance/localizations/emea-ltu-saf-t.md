@@ -1,6 +1,6 @@
 ---
 title: Lietuvai skirtas standartinis mokesčio audito failas (SAF-T)
-description: Šioje temoje paaiškinama, kaip nustatyti ir sugeneruoti juridinių subjektų, kurių pagrindinis adresas yra Lietuvoje, standartinį audito failą (TAX-T).
+description: Šiame straipsnyje paaiškinama, kaip nustatyti ir sugeneruoti juridinių subjektų, kurių pagrindinis adresas Yra Lietuva, standartinį audito failą (BUS-T).
 author: liza-golub
 ms.author: elgolu
 ms.date: 09/20/2021
@@ -12,12 +12,12 @@ ms.reviewer: kfend
 ms.search.region: Lithuania
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4038476f9d2095628fb738bb7cc9eb84e04d83bc
-ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.openlocfilehash: c932a8eea70ff59d9cf7c4cb134769602e7f6c1b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "7647729"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894770"
 ---
 # <a name="standard-audit-file-for-tax-saf-t-for-lithuania"></a>Lietuvai skirtas standartinis mokesčio audito failas (SAF-T)
 
@@ -25,7 +25,7 @@ ms.locfileid: "7647729"
 
 [!include [banner](../includes/preview-banner.md)]
 
-Pagal Lietuvos Respublika apskaitos įstatymo 16 straipsnį, Lietuvos įmonės pagal įstatymus turi pateikti ataskaitą standartiniu mokesčių (PST-T) formato audito failu. Šioje temoje aprašoma, kaip palaiko SAF-T reikalavimus ir paaiškinama, kaip pasiruošti finansams dirbti su „Microsoft Dynamics 365 Finance“ SAF-T ataskaita Lietuvai.
+Pagal Lietuvos Respublika apskaitos įstatymo 16 straipsnį, Lietuvos įmonės pagal įstatymus turi pateikti ataskaitą standartiniu mokesčių (PST-T) formato audito failu. Šiame straipsnyje aprašoma, Microsoft Dynamics kaip 365 finansai palaikoVZ-T reikalavimus ir paaiškinama, kaip pasiruošti finansams dirbti su LIETUVOS ATASKAITA APIE FINANSUS.
 
 Daugiau informacijos rasite [SAF-T - VMI](https://www.vmi.lt/evmi/en/home).
 

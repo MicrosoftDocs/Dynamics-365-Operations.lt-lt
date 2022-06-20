@@ -1,6 +1,6 @@
 ---
 title: Konsignacijos nustatymas
-description: Šioje temoje paaiškinama, kaip naudoti gaunamų konsignacijos atsargų procesus.
+description: Šiame straipsnyje paaiškinama, kaip naudoti atvežimo konsignacijos atsargų procesus.
 author: yufeihuang
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 4a1b96d18048a1ae6e380374f32d2bfa2270ae24
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: MT
+ms.openlocfilehash: 66215811c8c48412fb137967107abca3774f5f0c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577725"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872042"
 ---
 # <a name="set-up-consignment"></a>Konsignacijos nustatymas
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje paaiškinama, kaip naudoti gaunamų konsignacijos atsargų procesus.
+Šiame straipsnyje paaiškinama, kaip naudoti atvežimo konsignacijos atsargų procesus.
 
-Konsignacijos atsargos yra tiekėjo turimos atsargos, kurios laikomos jūsų vietoje. Kai esate pasiruošę vartoti ar naudoti atsargas, atsargos tampa jūsų nuosavybe. Šioje temoje pateikiama informacija apie tai, kaip faktiškai gauti šiuo metu tiekėjo turimų atsargų nesukuriant didžiosios knygos operacijų, kaip pradėti gamybos procesą, kai tiekėjo turimas atsargas galima rezervuoti faktiškai, ir kaip pakeisti žaliavų savininką, kad būtų galima apdoroti suvartojimą kaip gamybos užsakymo apdorojimo dalį. Taip pat yra šiek tiek informacijos apie tai, kaip tiekėjai gali stebėti savo atsargų vartojimą naudodami tiekėjo bendradarbiavimo sąsają.
+Konsignacijos atsargos yra tiekėjo turimos atsargos, kurios laikomos jūsų vietoje. Kai esate pasiruošę vartoti ar naudoti atsargas, atsargos tampa jūsų nuosavybe. Šiame straipsnyje pateikta informacija apie tai, kaip faktiškai gauti tiekėjo turimų atsargų nesukuriant DK operacijų, kaip pradėti gamybos procesą, kuriame tiekėjo turimos atsargos gali būti faktiškai rezervuojamos. ir kaip pakeisti žaliavų savininką, kad būtų galima apdoroti suvartojimą kaip gamybos užsakymo apdorojimo dalį. Taip pat yra šiek tiek informacijos apie tai, kaip tiekėjai gali stebėti savo atsargų vartojimą naudodami tiekėjo bendradarbiavimo sąsają.
 
 ## <a name="overview-of-the-consignment-process"></a>Konsignacijos proceso apžvalga
 

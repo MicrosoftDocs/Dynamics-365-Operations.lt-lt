@@ -1,6 +1,6 @@
 ---
 title: DUK apie produktų rekomendacijas
-description: Šioje temoje pateikiama informacija apie procesus ir įrankius, kuriuos galite naudoti problemoms, susijusioms su produkto rekomendacijomis arba jų rezultatais, diagnozuoti.
+description: Šiame straipsnyje pateikiama informacija apie procesus ir įrankius, kuriuos galite naudoti trikčių šalinimui, susijusiam su produkto rekomendacijas ar jų rezultatais.
 author: bebeale
 ms.date: 05/26/2020
 ms.topic: article
@@ -16,19 +16,19 @@ ms.search.industry: Retail, Core, Operations
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 88ad0efd8f678c3082c31b1c3162b8288e14fc9edb69e8756f1641461b808e07
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 77a5532ab1ae3b630bb335aa7cff6dc747184994
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6733970"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8900452"
 ---
 # <a name="product-recommendations-faq"></a>DUK apie produktų rekomendacijas
 
 
 [!include [banner](includes/banner.md)]
 
-Šioje temoje pateikiama informacija apie procesus ir įrankius, kuriuos galite naudoti problemoms, susijusioms su [produkto rekomendacijomis](product-recommendations.md) arba jų rezultatais, diagnozuoti.
+Šiame straipsnyje pateikiama informacija apie procesus ir įrankius, kuriuos galite naudoti trikčių šalinimui, susijusiam su [produkto rekomendacijas](product-recommendations.md) ar jų rezultatais.
 
 ## <a name="best-practices"></a>Geriausia praktika
 Labai svarbu naudoti bendrųjų produktų ir variantų koncepciją. Pagrįstu variantų grupavimu su pirminiais bendraisiais produktais galima sąrašų algoritmais ir tarnyba kurti geresnius modelius. Be to, tarnyba gali naudoti tik vieną produkto egzempliorių, užuot naudojusi visus glaudžiai susijusius sąrašo variantus. Kai visi artimai susiję variantai yra įtraukti į sąrašą, gali atsirasti klaidingi arba pasikartojantys rezultatai.

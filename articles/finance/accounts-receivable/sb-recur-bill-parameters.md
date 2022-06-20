@@ -1,6 +1,6 @@
 ---
 title: Periodinio sutarties atsiskaitymo parametrai
-description: Šioje temoje paaiškinama, kaip nustatyti numatytąsias atsiskaitymo grafikų, kurie kuriami periodinio sutarties atsiskaitymo metu, vertes. Taip pat paaiškinama, kaip sukurti atsiskaitymo grafiko grupes.
+description: Šiame straipsnyje paaiškinama, kaip nustatyti numatytąsias atsiskaitymo grafikų, kurie sukuriami periodiniame sutarties atsiskaitymo grafike, vertes. Taip pat paaiškinama, kaip sukurti atsiskaitymo grafiko grupes.
 author: JodiChristiansen
 ms.date: 11/04/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: 19fe77ade0523aa7fd6382266457fd739df46d75
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: cb60253f3cbb8c991ef2e106abdb1c685bf22171
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8685837"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903340"
 ---
 # <a name="recurring-contract-billing-parameters"></a>Periodinio sutarties atsiskaitymo parametrai
 
@@ -27,7 +27,7 @@ Naudokite periodinių **sutarties atsiskaitymo parametrų** puslapį, norėdami 
 
 ## <a name="general-tab"></a>Skirtukas Bendra
 
-1. Pasikartojančios **sutarties atsiskaitymo parametrų** puslapio **skirtuko** Bendra lauke Atsiskaitymo **grafiko grupė** pasirinkite atsiskaitymo grafiko grupę. Informacijos, kaip nustatyti atsiskaitymo grafiko grupes, žr. atsiskaitymo [grafiko grupių skyrių](#set-up-billing-schedule-groups) toliau šioje temoje.
+1. Pasikartojančios **sutarties atsiskaitymo parametrų** puslapio **skirtuko** Bendra lauke Atsiskaitymo **grafiko grupė** pasirinkite atsiskaitymo grafiko grupę. Informacijos, kaip nustatyti atsiskaitymo grafiko grupes, žr. atsiskaitymo [grafiko grupių skyrių](#set-up-billing-schedule-groups) toliau šiame straipsnyje.
 2. Lauke Atleidimo **tipas pasirinkite**, kaip bus skaičiuojama galutinė SF, kai nutrauktas atsiskaitymo grafikas:
 
     - **Koreguoti grafiką** – nutraukimo atsiskaitymo grafiką atleidimo datą, pakeisti grafiko būseną į Paskutinis atsiskaitymas ir pakoreguoti susietą atidėjimo grafiką atšaukiant sumą, **kuri** daugiau neturi būti atpažinta. Jei sąskaitos pateikimo pradžios data yra po atleidimo datos, likę atsiskaitymo laikotarpiai pašalinami.

@@ -1,6 +1,6 @@
 ---
 title: Duomenų srities nustatymo iš naujo DUK
-description: Šioje temoje pateikiami atsakymai į kai kuriuos dažnai užduodamus klausimus apie duomenų srities nustatymą iš naujo.
+description: Šiame straipsnyje pateikiami atsakymai į kelis dažnai užduodamus klausimus apie duomenų saugyklų nustatymus iš naujo.
 author: jinniew
 ms.date: 03/21/2022
 ms.topic: article
@@ -13,16 +13,16 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2021-05-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 61c7047096f42e71cde5e9ba1ddc59785383795a
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: d2b20ec7af9f0c6b7899617c2b8fdbf0992d7397
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8714135"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8892398"
 ---
 # <a name="data-mart-resets-faq"></a>Duomenų srities nustatymo iš naujo DUK
 
-Šioje temoje pateikiami atsakymai į kai kuriuos dažnai užduodamus klausimus apie duomenų srities nustatymą iš naujo. Duomenų srities nustatymas iš naujo gali būti ilgai trunkantis procesas ir, atsižvelgiant į aplinkybes, gali nebūti reikalingas sprendimas. Todėl šioje temoje pateikiama informacija apie aplinkybes, kai duomenų srities nustatymas iš naujo gali padėti, taip pat apie aplinkybes, kuomet jis padėti negali.
+Šiame straipsnyje pateikiami atsakymai į kelis dažnai užduodamus klausimus apie duomenų saugyklų nustatymus iš naujo. Duomenų srities nustatymas iš naujo gali būti ilgai trunkantis procesas ir, atsižvelgiant į aplinkybes, gali nebūti reikalingas sprendimas. Todėl šiame straipsnyje pateikiama informacija apie aplinkybes, kai duomenų paketas gali būti nustatytas iš naujo, taip pat apie atvejus, kai jis gali būti netikėtas norint padėti.
 
 ## <a name="what-is-a-data-mart-reset"></a>Kaip nustatyti iš naujo duomenis?
 

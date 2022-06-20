@@ -1,6 +1,6 @@
 ---
 title: 200 procentų mažėjančios vertės metodas
-description: Šioje temoje pateikiama nusidėvėjimo 200 procentų mažėjančios vertės metodo apžvalga.
+description: Šiame straipsnyje pateikiama nusidėvėjimo 200 procentų mažėjančios vertės metodo apžvalga.
 author: moaamer
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 831a99246f0a2d5f223e3624aace1c218c3c4ff4
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 7abcf26f3e658e8a6f451f26240890d183547982
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710952"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8870168"
 ---
 # <a name="200-percent-reducing-balance-depreciation"></a>200 procentų mažėjančios vertės metodas
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje pateikiama nusidėvėjimo 200 procentų mažėjančios vertės metodo apžvalga.
+Šiame straipsnyje pateikiama nusidėvėjimo 200 procentų mažėjančios vertės metodo apžvalga.
 
 Nustačius ilgalaikio turto nusidėvėjimo šabloną ir puslapio **Nusidėvėjimo šablonai** lauke **Metodas** pasirinkus reikšmę **200 % mažėjanti vertė**, šiam nusidėvėjimo šablonui priskirto ilgalaikio turto nusidėvėjimo procentas yra toks pat kiekvienu nusidėvėjimo laikotarpiu. Procentas apskaičiuojamas remiantis ilgalaikio turto dėvėjimo laiku. Pavyzdžiui, jei turto dėvėjimo laikas yra penkeri metai, apskaičiuotas procentas yra 40 procentai (200 % ÷ 5). 
 
@@ -43,7 +43,7 @@ Jūsų pasirinktimi nustatoma, kokios parinktys bus galimos lauke **Laikotarpio 
 
 **Nusidėvėjimo metų** lauke galite palikti numatytąją reikšmę – **Kalendoriniai**. 
 
-Parinktimi **Kalendoriniai** nusidėvėjimo pagrindas atnaujinamas kiekvienų metų sausio 1 d. Paprastai nusidėvėjimas apskaičiuojamas iš balansinės vertės atėmus likvidacinę vertę. Toliau šioje temoje pateiktuose pavyzdžiuose nusidėvėjimo pagrindas yra skaičiavimų stulpelyje nurodytas pirmos išraiškos skaitiklis. 
+Parinktimi **Kalendoriniai** nusidėvėjimo pagrindas atnaujinamas kiekvienų metų sausio 1 d. Paprastai nusidėvėjimas apskaičiuojamas iš balansinės vertės atėmus likvidacinę vertę. Toliau šiame straipsnyje pateiktiuose pavyzdžiuose nusidėvėjimo pagrindas yra stulpelyje Skaičiavimas, nurodytas pirmos skaičiavimo išraiškos skaitiklis. 
 
 Jei kaip nusidėvėjimo metus pasirinksite **Kalendoriniai**, galimos toliau nurodytos lauko **Laikotarpio dažnis** parinktys.
 

@@ -1,6 +1,6 @@
 ---
 title: Sandėlio operacijų produktų filtrų konfigūravimas
-description: Šioje temoje apžvelgiama, kaip konfigūruoti produktų filtrus ir filtrų kodus, norint sandėlyje suskirstyti atsargų prekes. Taip pat galite naudoti filtrus, norėdami nustatyti klientus, galinčius užsisakyti konkrečią prekę, bei kurias prekes galima įsigyti iš konkretaus tiekėjo.
+description: Šiame straipsnyje aprašoma, kaip konfigūruoti produktų filtrus ir filtrų kodus, kad atsargų prekės būtų skirstomos į kategorijas sandėlyje. Taip pat galite naudoti filtrus, norėdami nustatyti klientus, galinčius užsisakyti konkrečią prekę, bei kurias prekes galima įsigyti iš konkretaus tiekėjo.
 author: Mirzaab
 ms.date: 01/04/2021
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-04
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 021ce940a4ea6d59719d1c6bc79532832cc2f3ff
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: f3d6cd373699d374c019f0db7befaffc169f4f6c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567684"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850444"
 ---
 # <a name="configure-product-filters-for-warehouse-transactions"></a>Sandėlio operacijų produktų filtrų konfigūravimas
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje apžvelgiama, kaip konfigūruoti produktų filtrus ir filtrų kodus, norint sandėlyje suskirstyti atsargų prekes. Taip pat galite naudoti filtrus, norėdami nustatyti klientus, galinčius užsisakyti konkrečią prekę, bei kurias prekes galima nusipirkti iš konkretaus tiekėjo.
+Šiame straipsnyje aprašoma, kaip konfigūruoti produktų filtrus ir filtrų kodus, kad atsargų prekės būtų skirstomos į kategorijas sandėlyje. Taip pat galite naudoti filtrus, norėdami nustatyti klientus, galinčius užsisakyti konkrečią prekę, bei kurias prekes galima nusipirkti iš konkretaus tiekėjo.
 
 Be to, galite nustatyti ir naudoti produktų filtrus, kad sandėlyje būtų automatiškai tvarkomos atsargų prekės, o filtruotos prekės būtų sujungtos į filtrų grupes. Filtrus galima naudoti prekių suskirstymui į kategorijas, skirtas tvarkymo, pirkimo ir pardavimo procesams. Galbūt norėsite sugrupuoti prekes arba atskirti jas viena nuo kitos, kai jų apdorojimo būdas yra pagrįstas svorio arba tvarkymo apribojimais. Taip pat, galite nurodyti, iš kurių klientų ar tiekėjų prekę galima pirkti arba parduoti.
 
@@ -48,7 +48,7 @@ Produktų filtrai pateikia iki 10 **Filtro pavadinimo** charakteristikų, kurios
 
     ![Produktų filtro nustatymas.](media/Product_Filters10.png "Produktų filtro nustatymas")
 
-1. Lauke **Aprašas** įveskite kodo pavadinimą. Pavyzdžiui, *2 kodas* gali rodyti tiekėjus. Tada galite sukurti produktų filtrą konkrečiam tiekėjui ar tiekėjų grupei. Daugiau informacijos žiūrėkite tolesniame šios temos skyriuje [Tiekėjų filtrų kodų nustatymas](#vendor-product-filters).
+1. Lauke **Aprašas** įveskite kodo pavadinimą. Pavyzdžiui, *2 kodas* gali rodyti tiekėjus. Tada galite sukurti produktų filtrą konkrečiam tiekėjui ar tiekėjų grupei. Norėdami gauti daugiau informacijos, toliau šiame [straipsnyje skyriuje Nustatyti tiekėjo](#vendor-product-filters) filtrų kodus žr.
 
     ![Produktų filtrų rinkinys.](media/Product_Filters.png "Produktų filtrų rinkinys")
 

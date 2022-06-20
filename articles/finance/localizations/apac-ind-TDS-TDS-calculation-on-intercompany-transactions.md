@@ -1,6 +1,6 @@
 ---
 title: Vidinės įmonės operacijų TDS skaičiavimas
-description: Šioje temoje aprašomas procesas, naudojamas apskaičiuoti atskaičius mokesčius šaltinio (TDS) vidinės įmonės operacijose etapais.
+description: Šiame straipsnyje aprašomas procesas, naudojamas apskaičiuoti mokesčius, atskaičius mokesčius šaltinio (TDS) vidinės įmonės operacijose etapais.
 author: kailiang
 ms.date: 02/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 381b00c64e3e3a09a245c82cbe1f1599986a49aa
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: c27bea997804f2c5eff6be2b20064b272ccd062f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726983"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8888979"
 ---
 # <a name="tds-calculation-on-intercompany-transactions"></a>Vidinės įmonės operacijų TDS skaičiavimas
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje aprašomas procesas, naudojamas apskaičiuoti atskaičius mokesčius šaltinio (TDS) vidinės įmonės operacijose etapais.
+Šiame straipsnyje aprašomas procesas, naudojamas apskaičiuoti mokesčius, atskaičius mokesčius šaltinio (TDS) vidinės įmonės operacijose etapais.
 
 Kai sukuriamas vidinės įmonės pirkimo užsakymas arba pardavimo užsakymas, TDS grupė, nurodyta klientui ar tiekėjui, naudojama TDS sumai apskaičiuoti. TDS suma užregistruojama susigrąžinamose arba mokėtinose sąskaitose po to, kai UŽREGISTRUOJAma SF.
 

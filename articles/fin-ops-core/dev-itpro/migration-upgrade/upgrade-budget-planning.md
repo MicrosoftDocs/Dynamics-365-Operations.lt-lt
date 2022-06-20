@@ -1,6 +1,6 @@
 ---
 title: Biudžeto planavimo naujinimas
-description: Šioje temoje paaiškinama, ką reikia perkonfigūruoti, taip pat aprašomos naujos funkcijos, į kurias reiktų atkreipti dėmesį atnaujinus.
+description: Šiame straipsnyje paaiškinama, ką reikia konfigūruoti iš naujo ir aprašomos naujos priemonės, į kurias reikia atsižvelgti baigus naujinti.
 author: panolte
 ms.date: 04/10/2017
 ms.topic: article
@@ -14,20 +14,20 @@ ms.search.region: Global
 ms.author: panolte
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: c52de15faddd797d31d0875882863b8fe37a7d173b38be058e51a06b2e7fe078
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d098aa77b4eb87118692c18ecd1b09a5de2c53d6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6769196"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890412"
 ---
 # <a name="upgrade-budget-planning"></a>Biudžeto planavimo naujinimas
 
 [!include [banner](../includes/banner.md)]
 
-Biudžeto planavimas „Microsoft Dynamics AX 2012“ ir „Dynamics 365 Finance“ labai skiriasi. Kai kurios funkcijos nebuvo atnaujintos, todėl jas reikia perkonfigūruoti. Šioje temoje paaiškinama, ką reikia perkonfigūruoti, taip pat aprašomos naujos funkcijos, į kurias reiktų atkreipti dėmesį atnaujinus.  
+2012 m. ir " Microsoft Dynamics AX Dynamics 365 Finance" biudžeto planuose esama didelių skirtumų. Kai kurios funkcijos nebuvo atnaujintos, todėl jas reikia perkonfigūruoti. Šiame straipsnyje paaiškinama, ką reikia konfigūruoti iš naujo ir aprašomos naujos priemonės, į kurias reikia atsižvelgti baigus naujinti.  
 
-„Finance“ modulyje Biudžeto planavimas yra daug patobulinimų, kurių nebuvo „Dynamics AX 2012“. Šioje temoje paaiškinami keitimai, kuriuos atnaujinantys klientai turi atlikti. Joje taip pat nurodomos naujos funkcijos, į kurias reikėtų atsižvelgti atnaujinimo proceso metu. Dėl pakeitimų masto nebus galima atidaryti jokių esamų biudžeto planų, kol nebus atlikti toliau šioje temoje aprašyti keitimai. Tačiau ataskaitos turėtų veikti neatlikus papildomų keitimų.
+„Finance“ modulyje Biudžeto planavimas yra daug patobulinimų, kurių nebuvo „Dynamics AX 2012“. Šiame straipsnyje paaiškinami pakeitimai, kuriuos turi atlikti atnaujinę klientai. Joje taip pat nurodomos naujos funkcijos, į kurias reikėtų atsižvelgti atnaujinimo proceso metu. Dėl pakeitimų apimties visi esami biudžeto planai nebus atidaryti, kol nebus atlikti šiame straipsnyje nurodyti pakeitimai. Tačiau ataskaitos turėtų veikti neatlikus papildomų keitimų.
 
 ## <a name="overview-of-changes"></a>Keitimų apžvalga
 Atlikta daug svarbių „Finance and Operations“ biudžeto sudarymo funkcijos keitimų. Atlikus šiuos keitimus, biudžeto planavimo funkciją turėtų būti lengviau konfigūruoti ir naudoti pakartotinai, todėl kasmetinė priežiūra ir sąranka turėtų atimti mažiau laiko. Toliau nurodytų „AX 2012“ sričių sprendime „Finance“ nebėra.
@@ -58,7 +58,7 @@ Biudžeto planavimo procesai yra daugiau ar mažiau tokie patys kaip „AX 2012�
 „AX 2012“ pagrindimo dokumentai buvo įrašomi priedų aplanke. Ankstesni pagrindimo dokumentai nėra naujinami. Dabar pagrindimo dokumentai saugomi duomenų bazėje. Jei ši informacija išsaugoma atnaujintoje versijoje, kiekvieno plano galutinio pagrindimo dokumentus galite įkelti naudodami veiksmų srities mygtuką **Pagrindimas**. „AX 2012“ kiekvieno biudžeto plano „Excel“ darbalapiai buvo kuriami pagal šabloną. Sprendime „Finance“ kuriant visus planus atidaroma maketo kopija. Tačiau neįrašomi jokie „Excel“ failo keitimai. Tam tikrame plane naudotas formules arba palaikymo informaciją reikia įtraukti per komentarus, pagrindimo dokumentą arba kitą papildomą procesą.
 
 ## <a name="configuring-an-upgraded-environment-from-ax-2012"></a>Atnaujintos aplinkos konfigūravimas naudojant „AX 2012“
-Siekiant jums padėti suprasti, kaip konfigūruoti atnaujintą sistemą, tolesniame pavyzdyje naudojamas atnaujintas biudžeto procesas iš „AX 2012“ demonstracinių duomenų. Numatytieji stulpelių konfigūracijos duomenys sukurti tam, kad palengvintų atnaujinimo procesą. Galite atnaujinti arba naikinti šiuos numatytuosius duomenis, jei jie neatitinka jūsų konfigūracijos reikalavimų. **Pastaba:** yra naujų privalomų laukų, kurie sistemoje nustatyti nebus. Jei turite problemų puslapyje, pavyzdžiui, puslapyje **Biudžeto planavimo konfigūracija**, ir negalite puslapio uždaryti, galite uždaryti naršyklę ir tada naršyklėje atidaryti kitą puslapį, kad įvestumėte informaciją teisinga tvarka. Yra privalomų laukų, kurie dar nėra nustatyti. Dėl to gali kilti problemų, kol viskas nebus sukonfigūruota ir nebus nustatyti visi būtini laukai. Šioje temoje paaiškinama, kaip tinkamai nustatyti šiuos laukus. Toliau pateikiami keletas šių privalomų laukų.
+Siekiant jums padėti suprasti, kaip konfigūruoti atnaujintą sistemą, tolesniame pavyzdyje naudojamas atnaujintas biudžeto procesas iš „AX 2012“ demonstracinių duomenų. Numatytieji stulpelių konfigūracijos duomenys sukurti tam, kad palengvintų atnaujinimo procesą. Galite atnaujinti arba naikinti šiuos numatytuosius duomenis, jei jie neatitinka jūsų konfigūracijos reikalavimų. **Pastaba:** yra naujų privalomų laukų, kurie sistemoje nustatyti nebus. Jei turite problemų puslapyje, pavyzdžiui, puslapyje **Biudžeto planavimo konfigūracija**, ir negalite puslapio uždaryti, galite uždaryti naršyklę ir tada naršyklėje atidaryti kitą puslapį, kad įvestumėte informaciją teisinga tvarka. Yra privalomų laukų, kurie dar nėra nustatyti. Dėl to gali kilti problemų, kol viskas nebus sukonfigūruota ir nebus nustatyti visi būtini laukai. Šiame straipsnyje paaiškinama, kaip, jei reikia, nustatyti šiuos laukus. Toliau pateikiami keletas šių privalomų laukų.
 
 -   Puslapis **Biudžeto planavimo procesas**: laukas **Numatytoji sąskaitos struktūra**
 -   Puslapis **Biudžeto planavimo procesas**: „FastTab“ **Biudžeto planavimo etapo taisyklės ir maketai** laukas **Maketas**
@@ -69,7 +69,7 @@ Siekiant jums padėti suprasti, kaip konfigūruoti atnaujintą sistemą, tolesni
    -   Biudžeto plano scenarijai: Faktinės sumos, Bazinė suma, Biudžeto užklausa, Patvirtintas biudžetas
    -   Biudžeto plano eilutes visiems scenarijams 2017 m., o faktinės sumos – 2017 m. ir 2016 m.
 
-   Programoje „Finance and Operations“ sukuriami toliau nurodyti stulpeliai.
+   Sprendime „Finance and Operations“ bus sukurti toliau nurodyti stulpeliai.
 
    | Stulpelio pavadinimas    | Biudžeto plano scenarijus | Stulpelio laikotarpis | Metų poslinkis |
    |----------------|----------------------|--------------------|-------------|

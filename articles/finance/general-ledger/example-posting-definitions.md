@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0e6af5fbd050642ac462ecb159c05d78f534f0ce
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: ae6b2b505acb211f9fb5506234953eba9f3ec2a3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722555"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8865778"
 ---
 # <a name="posting-definition-examples"></a>Registravimo aprašų pavyzdžiai
 
@@ -28,7 +28,7 @@ ms.locfileid: "8722555"
 
 Šiame straipsnyje pateikiami pavyzdžiai, kuriais parodoma, kaip registravimo aprašai naudojami atliekant pirkimo užsakymo biudžeto rezervavimus ir biudžeto asignavimus.
 
-Prieš pradėdami skaityti šią temą, turite būti susipažinę su registravimo aprašais ir operacijos registravimo aprašais. Daugiau informacijos žr. [Registravimo aprašai](posting-definitions.md). Toliau pateikti pavyzdžiai gali būti nustatyti puslapyje **Registravimo aprašai**. Kiekviename pavyzdyje yra šie skyriai:
+Prieš skaitydami šį straipsnį, turite būti susipažinę su registravimo aprašais ir operacijų registravimo aprašais. Daugiau informacijos žr. [Registravimo aprašai](posting-definitions.md). Toliau pateikti pavyzdžiai gali būti nustatyti puslapyje **Registravimo aprašai**. Kiekviename pavyzdyje yra šie skyriai:
 
 -   Registravimo aprašas – gretinimo kriterijai
 -   Registravimo aprašas – sugeneruoti įrašai

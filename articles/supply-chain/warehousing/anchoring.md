@@ -1,6 +1,6 @@
 ---
 title: Fiksavimas
-description: Šioje temoje paaiškinama, kaip įgalinti ir naudoti fiksavimą.
+description: Šiame straipsnyje paaiškinama, kaip įgalinti ir naudoti fiksavimą.
 author: GalynaFedorova
 ms.date: 07/29/2021
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2021-07-29
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 26a7bf60912ff1e8a23305e9331d520fe8d65727
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 8a0fa849f07f0cc0a41a663fc97b5aba927700b1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8676501"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903817"
 ---
 # <a name="anchoring"></a>Fiksavimas
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje pateikiama išsami informacija apie fiksavimo procesą. Joje aprašoma reikiama konfigūracija ir logika, vykdoma sandėlio darbuotojui pakeitus padėjimo vietą arba iškrovimo vietą.
+Šiame straipsnyje pateikiama informacija apie fiksavimo procesą. Joje aprašoma reikiama konfigūracija ir logika, vykdoma sandėlio darbuotojui pakeitus padėjimo vietą arba iškrovimo vietą.
 
 Fiksavimo funkcija leidžia nepaisyti paėmimo arba iškrovimo vietos. Tada visi atviri padėjimai bus nukreipti į naują jūsų nurodytą paėmimo arba iškrovimo vietą.
 
@@ -36,11 +36,11 @@ Jūs konfigūruojate mobiliojo įrenginio meniu elementų fiksavimą naudodami *
 > [!IMPORTANT]
 > Vėlesnių atvirų padėjimų vieta bus pakeista tik darbo eilutėse, kurios yra generuojamos iš tos pačios darbo šablono eilutės. Kitaip tariant, sistema užfiksuos padėjimo eilutes iš tos pačios darbo šablono eilutės.
 
-Šioje temoje pateikiamas scenarijus, parodantis, kaip veikia fiksavimas. Scenarijaus metu sukursite pardavimo užsakymų rinkinį ir juos išleisite į sandėlį. Tada pakeisite siūlomą paėmimo vietą ir patikrinsite, ar visas likęs padėjimo darbas yra nukreiptas į naują vietą.
+Šiame straipsnyje pateikiamas scenarijus, kuris parodo, kaip veikia fiksavimas. Scenarijaus metu sukursite pardavimo užsakymų rinkinį ir juos išleisite į sandėlį. Tada pakeisite siūlomą paėmimo vietą ir patikrinsite, ar visas likęs padėjimo darbas yra nukreiptas į naują vietą.
 
 ## <a name="scenario-prerequisite-make-demo-data-available"></a>Būtina scenarijaus sąlyga: padaryti pasiekiamas demonstracinius duomenis
 
-Šioje temoje esantis scenarijus nurodo reikšmes ir įrašus, įtrauktus į standartinius „Microsoft Dynamics 365 Supply Chain Management” demonstracinius duomenis. Jei norite naudoti čia pateiktas reikšmes atlikdami pratimus, įsitikinkite, kad dirbate aplinkoje, kurioje įdiegti demonstraciniai duomenys, ir prieš pradėdami nustatykite juridinį subjektą į *USMF*.
+Scenarijus šiame straipsnyje nurodo vertes ir įrašus, kurie yra įtraukti į standartinius demonstracinius duomenis, kurie pateikiami "Microsoft"Dynamics 365 Supply Chain Management. Jei norite naudoti čia pateiktas reikšmes atlikdami pratimus, įsitikinkite, kad dirbate aplinkoje, kurioje įdiegti demonstraciniai duomenys, ir prieš pradėdami nustatykite juridinį subjektą į *USMF*.
 
 ## <a name="scenario-setup"></a>Scenarijaus nustatymas
 

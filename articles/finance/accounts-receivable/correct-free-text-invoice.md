@@ -1,6 +1,6 @@
 ---
 title: Laisvos formos SF taisymas
-description: Šioje temoje paaiškinama, kaip taisyti užregistruotą laisvos formos SF ir iš naujo pateikti ją kaip pataisytą SF.
+description: Šiame straipsnyje paaiškinama, kaip ištaisyti laisvos formos SF, kuri buvo užregistruota, ir pakartotinai ją išduoti kaip pataisytą SF.
 author: abruer
 ms.date: 08/22/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7fb535b14f4c270f914a427d09027c37b3be7b72
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: 9fccd6dbb33efd1556c56a6d92ad191ecfd317fe
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8716219"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878195"
 ---
 # <a name="correct-a-free-text-invoice"></a>Laisvos formos SF taisymas
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje paaiškinama, kaip taisyti užregistruotą laisvos formos SF ir iš naujo pateikti ją kaip pataisytą SF.
+Šiame straipsnyje paaiškinama, kaip ištaisyti laisvos formos SF, kuri buvo užregistruota, ir pakartotinai ją išduoti kaip pataisytą SF.
 
 Norėdami ištaisyti jau užregistruotą laisvos formos SF, atidarykite užregistruotą laisvos formos SF. Puslapyje **SF** pasirinkite **Atšaukti** ir tada pasirinkite **Taisyti SF**. Pasirinkite priežasties kodą, pridėkite komentarų ir pasirinkite naujos pataisytos SF datą. Pataisytą SF galite modifikuoti ir užregistruoti. 
 
@@ -44,7 +44,7 @@ Atšaukiamąją ir pataisytą SF galite identifikuoti toliau nurodytais dviem b�
 -   Laisvos formos SF antraštėje rodoma būsena  **Atšaukiamoji SF \[SF numeris\]** arba **Pataisyta SF \[SF numeris\]**.
 
 > [!NOTE]
-> Ši funkcija prieinama tik jei pasirinktas konfigūracijos raktą **Laisvos formos SF taisymas**. Daugiau informacijos apie tai, kaip įgalinti konfigūracijos raktus, rasite skyriuje Konfigūracijos raktų įjungimas (arba išjungimas), temoje [Priežiūros režimas](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md). 
+> Ši funkcija prieinama tik jei pasirinktas konfigūracijos raktą **Laisvos formos SF taisymas**. Daugiau informacijos apie konfigūracijos raktų įgalinimą ieškokite skyriuje Įgalinti (arba išjungti) konfigūracijos raktus [priežiūros režimo straipsnyje](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md). 
 
 
 

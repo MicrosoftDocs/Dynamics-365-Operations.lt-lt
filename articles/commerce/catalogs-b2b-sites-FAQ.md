@@ -1,6 +1,6 @@
 ---
 title: B2B DUK svetainių „Commerce“ katalogai
-description: Šioje temoje pateikiamas atsakymas į dažnai užduodamus klausimus apie Microsoft Dynamics 365 Commerce katalogus.
+description: Šiame straipsnyje pateikiamas atsakymas į dažnai užduodamus klausimus apie Microsoft Dynamics 365 Commerce katalogus.
 author: ashishmsft
 ms.date: 05/18/2022
 ms.topic: article
@@ -9,19 +9,19 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2022-02-28
-ms.openlocfilehash: 5bdc7dfcb0e48aa85db2db4d178c5bf62ea0411b
-ms.sourcegitcommit: bca0cb730307948368a9aabe322cf963688ed8b1
-ms.translationtype: MT
+ms.openlocfilehash: 0cd11b4469e4dbd1205ace785fe857f6c6001480
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "8782867"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849046"
 ---
 # <a name="commerce-catalogs-for-b2b-faq"></a>B2B DUK svetainių „Commerce“ katalogai
 
 [!include [banner](includes/banner.md)]
 [!include [banner](includes/preview-banner.md)]
 
-Šioje temoje pateikiamas atsakymas į dažnai užduodamus klausimus apie Microsoft Dynamics 365 Commerce [katalogus "verslas verslui" (B2B)](catalogs-b2b-sites.md).
+Šiame straipsnyje pateikiamas atsakymas į dažnai užduodamus klausimus apie Microsoft Dynamics 365 Commerce [katalogus "verslas verslui" (B2B)](catalogs-b2b-sites.md).
 
 ## <a name="why-cant-i-configure-a-catalog-specific-navigation-hierarchy-or-see-an-option-to-associate-a-customer-hierarchy"></a>Kodėl nesukonfigūruota konkrečiai katalogui būsi naršymo hierarchija ar peržiūrėti pasirinktį, kaip susieti klientų hierarchiją?
 

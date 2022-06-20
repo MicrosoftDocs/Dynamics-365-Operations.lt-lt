@@ -1,6 +1,6 @@
 ---
 title: ER INTVALUE funkcija
-description: Šioje temoje pateikiama informacija apie tai, kaip naudojama modulio Elektroninės ataskaitos (ER) INTVALUE funkcija.
+description: Šiame straipsnyje pateikiama informacija apie tai, kaip naudojama INTVALUE elektroninių ataskaitų (ER) funkcija.
 author: NickSelin
 ms.date: 12/05/2019
 ms.prod: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5d54543a6f9878feb3482c1c1e6c1f1f468718489fbc46aded84a5a84bdfb04e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e2357541f922ad9af5c5ce342d0e7d89e8709734
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6745945"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879897"
 ---
 # <a name="intvalue-er-function"></a>ER INTVALUE funkcija
 

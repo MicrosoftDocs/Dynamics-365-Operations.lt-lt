@@ -1,6 +1,6 @@
 ---
 title: Finansų žinių konfigūracija – 10.0.20 ir vėlesnė versija
-description: Šioje temoje paaiškinama, kaip konfigūruoti jūsų sistemą, kad ji naudos iš galimybių, galimų finansų žinių versijose 10.0.20 ir vėliau.
+description: Šiame straipsnyje paaiškinama, kaip konfigūruoti savo sistemą, kad ji turėtų galimybę naudotis finansų žinių 10.0.20 ir vėlesnėje versijoje.
 author: ShivamPandey-msft
 ms.date: 06/16/2021
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2021-06-03
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: 61cc002395ac3bc946fa03a04833a7b6d4820194
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: e6b9c34ee68a25ac9613a65cf63443751a39c576
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8711610"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868524"
 ---
 # <a name="configuration-for-finance-insights---version-10020-and-later"></a>Finansų žinių konfigūracija – 10.0.20 ir vėlesnė versija
 
@@ -29,10 +29,10 @@ ms.locfileid: "8711610"
 
 
 
-Finansų įžvalgos sujungia funkcijas iš Microsoft Dynamics "365 Finance Dataverse" su "Azure AI Builder " ir teikia galinga prognozės įrankius jūsų organizacijai. Šioje temoje paaiškinama, kaip konfigūruoti "Dynamics 365" 10.0.20 finansų versiją, kad jūsų sistema galėtų naudoti galimybes, pasiekiamas finansų informacijos temose.
+Finansų įžvalgos sujungia funkcijas iš Microsoft Dynamics "365 Finance Dataverse" su "Azure AI Builder " ir teikia galinga prognozės įrankius jūsų organizacijai. Šiame straipsnyje paaiškinama, kaip konfigūruoti "Dynamics 365" 10.0.20 finansų versiją, kad jūsų sistema galėtų naudoti galimybes, pasiekiamas finansų žinių bazėse.
 
 > [!NOTE]
-> Šioje temoje aprašyti konfigūracijos veiksmai taikomi tik „Finance“ versijai 10.0.20 arba vėlesnei finansų versijai. Norėdami nustatyti finansų žinių apie 10.0.19 ir ankstesnę versiją,[žr. „Finance Insights“ versijos iki 10.0.19 ir vėlesnės](configure-for-fin-insites.md).
+> Šiame straipsnyje aprašyti konfigūracijos veiksmai taikomi tik 10.0.20 arba vėlesnei finansų versijai. Norėdami nustatyti finansų žinių apie 10.0.19 ir ankstesnę versiją,[žr. „Finance Insights“ versijos iki 10.0.19 ir vėlesnės](configure-for-fin-insites.md).
 
 ## <a name="deploy-finance"></a>Finansų diegimas
 

@@ -1,6 +1,6 @@
 ---
-title: Tinkinti perlaidų el. paštus pagal pristatymo būdą
-description: Šioje temoje aprašoma, kaip nustatyti tinkintus el. pašto šablonus konkretiems pranešimų tipams ir pristatymo būdams „Microsoft Dynamics 365 Commerce“.
+title: Operacijų el. laiškų tinkinimas pagal pristatymo būdą
+description: Šiame straipsnyje aprašoma, kaip nustatyti pasirinktinius el. laiškų šablonus, pagal konkrečius pranešimų tipus ir pristatymo būdus Microsoft Dynamics 365 Commerce.
 author: stuharg
 ms.date: 11/16/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-10-26
 ms.dyn365.ops.version: Release 10.0.16
-ms.openlocfilehash: d15e7c5c7050ad373cb45da72de59416e85a5f2034f7a11b007d497b2e2b98bd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f16bc23e3527f57bd61d73e92506946067c6eeb9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6749912"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850309"
 ---
 # <a name="customize-transactional-emails-by-mode-of-delivery"></a>Operacijų el. laiškų tinkinimas pagal pristatymo būdą
 
 [!include [banner](includes/banner.md)]
 
-Šioje temoje aprašoma, kaip nustatyti tinkintus el. pašto šablonus konkretiems pranešimų tipams ir pristatymo būdams „Microsoft Dynamics 365 Commerce“.
+Šiame straipsnyje aprašoma, kaip nustatyti pasirinktinius el. laiškų šablonus, pagal konkrečius pranešimų tipus ir pristatymo būdus Microsoft Dynamics 365 Commerce.
 
 Perdavimo el. paštai gali būti dabar tinkinami pranešimo tipo deriniams (pavyzdžiui, **Sukurtas užsakymas**, **Paimtas užsakymas** ar **Išrašytas į sąskaitą užsakymas**) ir pristatymo būdas (pavyzdžiui, per naktį, atsiėmimas parduotuvėje ar atsiėmimas per langelį). Tinkinti perlaidos el. laiškai leidžia mažmeniniams prekiautojams pateikti jų klientams užsakymą su patirčių įgyvendinimu, kuris būtų pritaikytas prie užsakymo pristatymo būdo. Pavyzdžiui, „supakuoto užsakymo“ įvykis gali būti tinkintas taip, kad jis pateiktų atsiėmimo per langelį instrukcijas klientams, kurie tokį pasirenka. Kitu atveju, jis gali pateikti pristatymo vežėją ir informaciją klientams, kurie pasirenka siųsti savo užsakymą.
 

@@ -1,6 +1,6 @@
 ---
 title: FORMAT ER funkcija
-description: Šioje temoje pateikiama informacija apie tai, kaip naudojama FORMAT elektroninių ataskaitų (ER) funkcija.
+description: Šiame straipsnyje pateikiama informacija apie tai, kaip naudojama funkcija FORMAT Electronic Reporting (ER).
 author: NickSelin
 ms.date: 12/12/2019
 ms.prod: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9dbde3ebfd2670639a2fff19d83ea9bd8d15c22b09b43ab49ae1b9e35562625a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ce9dd95dc347416f6f9c3024b0b1de3f60f88bfb
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720885"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876782"
 ---
 # <a name="format-er-function"></a>FORMAT ER funkcija
 
@@ -92,7 +92,7 @@ Jei ta pati ataskaita apdorojama **„Litware Retail“** klientui 2015 m. gruo
 >[!NOTE]
 > ER formulėse žymoms taikoma tokia sintaksė:
 >
-> - **„Microsoft Dynamics 365 Finance“ programos išteklių žymėms:** **\@X**, kai **X** yra žymės ID programos objektų medyje (AOT)
+> - **Žymėms iš išteklių Microsoft Dynamics 365 finansų programoje:** **\@ X,** kur X **yra** žymės ID programos objektų medyje (AOT)
 > - **ER konfigūracijose esančioms žymėms:** **@"GER_LABEL:X"**, kai **X** yra žymės ID ER konfigūracijoje
 
 ## <a name="additional-resources"></a>Papildomi ištekliai

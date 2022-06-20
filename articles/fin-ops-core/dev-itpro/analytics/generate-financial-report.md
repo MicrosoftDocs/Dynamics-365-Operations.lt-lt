@@ -1,6 +1,6 @@
 ---
 title: Generuoti finansines ataskaitas
-description: Šioje temoje parašoma informacija apie finansinės ataskaitos generavimą.
+description: Šiame straipsnyje pateikiama informacija apie finansinės ataskaitos generavimo galimybę.
 author: jinniew
 ms.date: 02/08/2022
 ms.topic: article
@@ -15,24 +15,24 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 00a860089265800ca1a0058f222d5e85c360501c
-ms.sourcegitcommit: 6a269db08e8bb3bb3405c9f4a512091d13c80faa
+ms.openlocfilehash: 59ec6978d83f5c51309bc7d90d47366774cb2880
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/14/2022
-ms.locfileid: "8119532"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8898833"
 ---
 # <a name="generate-financial-reports"></a>Generuoti finansines ataskaitas
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje parašoma informacija apie finansinės ataskaitos generavimą.
+Šiame straipsnyje pateikiama informacija apie finansinės ataskaitos generavimo galimybę.
 
 Norėdami sugeneruoti ataskaitą, atidarykite ataskaitos aprašą ir įrankių juostoje pasirinkite **Generuoti**. Atidaroma **ataskaitų darbo** grupės būsenos puslapis, kuris nurodo jūsų ataskaitos vietą eilėje.
 
 Kai vyksta ataskaitos generavimas, šie ataskaitų eilės būsenos indikatoriai gali būti matomi ataskaitos **eilės būsenos** puslapyje.
 
-| Būsena          | Apskritis | Aprašymas|
+| Būsena          | Būsena | Aprašymas|
 |-----------------|--------|--------------------|
 | Perkeliama į eilę        | Laikinosios |Ataskaitos aprašas tikrinamas prieš ataskaitos įeidami į generavimo eilę.                    |
 | Darbo grupėje          | Laikinosios | Ataskaita įveda ataskaitos generavimo eilę ir laukia, kol ji bus apdorota.                      |
@@ -40,7 +40,7 @@ Kai vyksta ataskaitos generavimas, šie ataskaitų eilės būsenos indikatoriai 
 | PostProcessing | Laikinosios | Ši būsena seka po apdorojimo būsenos **ir nurodo, kad visi ataskaitos duomenys surinkti, bet šie veiksmai, pvz., skaičiavimas** ir sumavimas, yra atliekami.            |
 | Atšaukiama      | Laikinosios | Vartotojo pageidavimu ataskaitos atšaukiamos. Ši būsena nustatyta pagal vartotojo reikalaujamo atšaukimo ataskaitą, kurios būsena Darbo **grupės arba** **Apdorojimas**. Sistema bando nustatyti ataskaitos būseną **Atšaukta**, nebent sistema yra per toli ir turi užbaigti ją kitoje būsenoje. |
 | Atšauktas        | Galutinis | Ataskaita baigta apdoroti, bet ji nebaigta dėl vartotojo reikalaujamo stabdymo.            |
-| Užbaigta       | Galutinis | Ataskaita paruošta naudoti.                      |
+| Baigta       | Galutinis | Ataskaita paruošta naudoti.                      |
 | Atlikta nesėkmingai          | Galutinis | Ataskaita baigta, bet jos atlikti nepavyko, todėl jos naudoti negalima. |
 
 Pagal numatytuosius parametrus, sugeneruota ataskaita bus atidaroma žiniatinklio peržiūros programoje. Galima naudoti toliau nurodytas ataskaitų generavimo parinktis.

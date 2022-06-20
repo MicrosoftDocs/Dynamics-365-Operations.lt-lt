@@ -1,42 +1,42 @@
 ---
-title: SF patvirtinimai mobiliąja programa
-description: Šioje temoje pateikiamas praktinis mobiliųjų įrenginių scenarijų kūrimo metodas, pavyzdyje naudojant tiekėjo SF tvirtinimus mobiliuosiuose įrenginiuose.
+title: Sąskaitos faktūros patvirtinimai mobiliąja programa
+description: Šiame straipsnyje pateikiamas būdą, kaip praktiškai kurti mobiliojo įrenginio scenarijus, naudojant naudojimo atvejus tiekėjo SF patvirtinimai mobiliesiems įrenginiams.
 author: abruer
 ms.date: 08/22/2017
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User, IT Pro
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 262034
 ms.assetid: 9db38b3f-26b3-436e-8449-7ff243568a18
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 83d95ef6d9fcff060ac992b11ab5773af075fea5409e43430b4826dc097570c7
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f635891e3d92fbd5978e10fe01eb67c0a28542c5
+ms.sourcegitcommit: 427fe14824a9d937661ae21b9e9574be2bc9360b
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737360"
+ms.lasthandoff: 06/09/2022
+ms.locfileid: "8946280"
 ---
 # <a name="mobile-invoice-approvals"></a>SF patvirtinimai mobiliąja programa
 
 [!include [banner](../includes/banner.md)]
 
-Mobiliųjų įrenginių galimybės verslo vartotojui suteikia galimybę kurti mobiliąją patirtį. Sudėtingesniais scenarijais platforma taip pat suteikia galimybę kūrėjams pagal poreikį galimybes išplėsti. Efektyviausias būdas susipažinti su kai kuriomis naujomis mobiliųjų įrenginių sąvokomis yra peržiūrėti kelių scenarijų kūrimo procesą. Šioje temoje pateikiamas praktinis mobiliųjų įrenginių scenarijų kūrimo metodas, pavyzdyje naudojant tiekėjo SF tvirtinimus mobiliuosiuose įrenginiuose. Ši tema turėtų padėti sukurti kitus scenarijų variantus ir pritaikyti žinias kitiems scenarijams, kurie nėra susiję su tiekėjo SF.
+Mobiliųjų įrenginių galimybės verslo vartotojui suteikia galimybę kurti mobiliąją patirtį. Sudėtingesniais scenarijais platforma taip pat suteikia galimybę kūrėjams pagal poreikį galimybes išplėsti. Efektyviausias būdas susipažinti su kai kuriomis naujomis mobiliųjų įrenginių sąvokomis yra peržiūrėti kelių scenarijų kūrimo procesą. Šiame straipsnyje pateikiamas būdą, kaip praktiškai kurti mobiliojo įrenginio scenarijus, naudojant naudojimo atvejus tiekėjo SF patvirtinimai mobiliesiems įrenginiams. Šis straipsnis turi padėti sukurti kitus scenarijų variantus ir gali būti taikomas ir kitiems scenarijams, kurie nėra susiję su tiekėjo SF.
 
 ## <a name="prerequisites"></a>Būtinieji komponentai
 
-| Būtinoji sąlyga                                                                                            | aprašymas                                                                                                                                                          |
-|---------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Būtinoji sąlyga                                                                                            | Aprašymas                       |
+|---------------------------------------------------------------------------------------------------------|--------------------------------------------|
 | Išankstinis mobiliųjų įrenginių vadovo perskaitymas                                                                                |[Mobilioji platforma](../../fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page.md)                                                                                                  |
-| „Dynamics 365 Finance“                                                                              | Aplinka, kurioje yra 1611 versija ir 3 platformos naujinimas (2016 m. lapkričio mėn.)                   |
+| Dynamics 365 Finance                                                                              | Aplinka, kurioje yra 1611 versija ir 3 platformos naujinimas (2016 m. lapkričio mėn.)                   |
 | Įdiekite karštąsias pataisas KB 3204341.                                                                              | Užduočių įrašymo priemonė gali klaidingai įrašyti dvi išplečiamųjų dialogų komandas Uždaryti; tai įtraukta į 3 platformos naujinį (2016 m. lapkričio mėn. naujinys). |
 | Įdiekite karštąsias pataisas KB 3207800.                                                                              | Įdiegus šias karštąsias pataisas, priedus galima peržiūrėti mobiliajame kliente; tai įtraukta į 3 platformos naujinį (2016 m. lapkričio mėn. naujinys).           |
 | Įdiekite karštąsias pataisas KB 3208224.                                                                              | Tiekėjo SF mobiliuosiuose įrenginiuose tvirtinimo programos kodas; tai įtraukta į 7.0.1 programos versiją (2016 m. gegužės mėn.).                          |
-| „Android“, „iOS“ arba „Windows“ įrenginys, kuriame įdiegta mobilioji programa. | Ieškokite programos atitinkamoje programų parduotuvėje.                                                                                                                     |
+| „Android“, „iOS“ arba „Windows“ įrenginys, kuriame įdiegta mobilioji programa. | Ieškokite programos atitinkamoje programų parduotuvėje.                            |
 
 ## <a name="introduction"></a>Įžanga
 Norint tiekėjo SF tvirtinti mobiliuosiuose įrenginiuose, reikia įdiegti tris karštąsias pataisas, paminėtas skyriuje „Būtinosios sąlygos“. Šios karštosios pataisos nepateikia SF tvirtinimo darbo srities. Norėdami sužinoti, kas yra darbo sritis mobiliųjų įrenginių kontekste, perskaitykite mobiliųjų įrenginių vadovą, paminėtą skyriuje „Būtinosios sąlygos“. SF tvirtinimo darbo sritį reikia sukurti. 
@@ -51,15 +51,15 @@ Kiekviena organizacija skirtingai planuoja ir nustato tiekėjo SF verslo proces�
     -   Ar SF antraštėje taip pat yra apskaitos paskirstymų? Jei taip, ar šie apskaitos paskirstymai turėtų būti pasiekiami įrenginyje?
 
     > [!NOTE]
-    > Šioje temoje nepaaiškinama, kaip redaguoti apskaitos paskirstymus, nes mobiliųjų įrenginių scenarijuose ši funkcija šiuo metu nepalaikoma.
+    > Šiame straipsnyje paaiškinama, kaip redaguoti apskaitos paskirstymus, nes ši funkcija šiuo metu nepalaikoma mobiliųjų scenarijų.
 
 -   Ar vartotojai įrenginyje norės matyti SF priedus?
 
-SF tvirtinimo mobiliuosiuose įrenginiuose patirties kūrimas skirsis, priklausomai nuo atsakymų į šiuos klausimus. Tikslas yra optimizuoti organizacijos verslo proceso valdymo mobiliuosiuose įrenginiuose vartotojo patirtį. Likusioje šios temos dalyje peržiūrėsime du scenarijų variantus, kurie pagrįsti skirtingais atsakymais į ankstesnius klausimus. 
+SF tvirtinimo mobiliuosiuose įrenginiuose patirties kūrimas skirsis, priklausomai nuo atsakymų į šiuos klausimus. Tikslas yra optimizuoti organizacijos verslo proceso valdymo mobiliuosiuose įrenginiuose vartotojo patirtį. Toliau šiame straipsnyje peržiūrėsime dviejų scenarijų variantus, pagrįstus skirtingais atsakymais į pirmus klausimus. 
 
 Paprastai dirbant su mobiliųjų įrenginių dizaino įrankiu patariama nepamiršti publikuoti keitimų, kad neprarastumėte naujinimų.
 
-## <a name="designing-a-simple-invoice-approval-scenario-for-contoso"></a>Paprasto sąskaitos faktūros patvirtinimo scenarijaus kūrimas „Contoso”
+## <a name="designing-a-simple-invoice-approval-scenario-for-contoso"></a>„Contoso“ paprasto SF tvirtinimo scenarijaus kūrimas
 <table>
 <colgroup>
 <col width="50%" />

@@ -1,6 +1,6 @@
 ---
 title: Mažiau nei sunkvežimio (LTL) krovinių klasės
-description: Šioje temoje paaiškinama, kas yra mažiau nei sunkvežimio krovinio (LTL) klasės ir aprašoma, kaip jas nustatyti programoje „Microsoft Dynamics 365 Supply Chain Management“.
+description: Šiame straipsnyje paaiškinama, kas yra mažiau nei sunkvežimio krovinio (LTL) klasės ir aprašoma, kaip jas nustatyti programoje "Microsoft"Dynamics 365 Supply Chain Management.
 author: Weijiesa
 ms.date: 04/05/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2021-04-05
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: a6e05ea7534ee081778a899d5956e6ca7cd104cb
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 9ab05e1bc5d0ae2c8b5d98dda32660d2436676e9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8678072"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857205"
 ---
 # <a name="less-than-truckload-ltl-classes"></a>Mažiau nei sunkvežimio (LTL) krovinių klasės
 
@@ -33,7 +33,7 @@ Mažiau nei sunkvežimio krovinio (LTL) klasė yra krovinio siuntimo klasė, nau
 - Nustatyti pakavimo reikalavimus kiekvienai LTL klasei, tikrinant tarptautinius LTL standartus. Taip užtikrinate, kad jūsų produktai bus gerai apsaugoti ir saugiai išsiųsti.
 - Gauti tikslius siuntimo įvertinimus, remiantis kiekvieno produkto LTL transportavimo klase.
 
-Šioje temoje aprašoma, kaip sukurti LTL klases, naudojant „Microsoft Dynamics 365 Supply Chain Management“.
+Šiame straipsnyje aprašoma, kaip sukurti "Microsoft" LTL klases Dynamics 365 Supply Chain Management.
 
 ## <a name="create-an-ltl-class"></a>LTL klasės kūrimas
 

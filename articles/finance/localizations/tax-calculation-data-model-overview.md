@@ -1,6 +1,6 @@
 ---
 title: Mokesčių skaičiavimo duomenų modelis
-description: Šioje temoje pateikiama informacija apie mokesčių duomenų modelį ir apie tai, kaip kiekvieno duomenų modelio lauko vertės nustatomos pagal mokesčių skaičiavimo operacijų kontekstą.
+description: Šiame straipsnyje pateikiama informacija apie mokesčių duomenų modelį ir kaip kiekvieno duomenų modelio lauko vertės nustatomos pagal mokesčių skaičiavimo operacijų kontekstą.
 author: kailiang
 ms.date: 10/15/2021
 ms.topic: overview
@@ -14,16 +14,16 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 759803767111c27cba76b68430e09a0d9dd6110f
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: a711eb73c171cd099947b44e2376cad2455059f0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8694262"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859701"
 ---
 # <a name="tax-calculation-data-model"></a>Mokesčių skaičiavimo duomenų modelis
 
-Šioje temoje pateikiama informacija apie mokesčių duomenų modelį ir apie tai, kaip kiekvieno duomenų modelio lauko vertės nustatomos pagal mokesčių skaičiavimo operacijų kontekstą.
+Šiame straipsnyje pateikiama informacija apie tai, kaip mokesčių duomenų modelio lauko vertės nustatomos mokesčių skaičiavimo operacijose.
 
 Mokesčių *duomenų modelį* sudaro laukai, kurių reikia mokesčių skaičiavimams. "Microsoft" *pateikia mokesčių skaičiavimo duomenų modelį*, kuris apima finansų ir operacijų programėlių operacijų dokumentų antraštės laukus ir eilučių laukus. Laukai, apibrėžti mokesčių skaičiavimo duomenų modelyje, yra galimi taikymo taisyklių lentelių stulpeliai mokesčių skaičiavimo priemonės konfigūracijos konfigūracijoje.
 
@@ -99,7 +99,7 @@ Per daug du duomenų modelius galima įtraukti kaip laukus operacijos antraštė
 | Siuntimas į apskritį / valstybę          | <ul><li>**Pardavimo užsakymas:**<ol><li>Pristatymo &gt; adreso antraščių &gt; Valstybė</li></ol></li><li>**Pirkimo užsakymas:**<ol><li>Pristatymo &gt; adreso antraščių &gt; Valstybė</li></ol></li><li>**Perlaidos užsakymas - siuntimas:**<ol><li>Antraštės &gt; Į sandėlį &gt; pagrindinio adreso &gt; Valstybė</li><li>Antraštės &gt; Į vietą &gt; pagrindinio adreso &gt; Valstybė</li></ol></li><li>**Perlaidos užsakymas - gavimas:**<ol><li>Antraštės &gt; Į sandėlį &gt; pagrindinio adreso &gt; Valstybė</li><li>Antraštės &gt; Į vietą &gt; pagrindinio adreso &gt; Valstybė</li></ol></li><li>**Pasiūlymo patvirtinimas:**<ol><li>Pristatymo &gt; adreso antraščių &gt; Valstybė</li></ol></li><li>**Pardavimo pasiūlymas:**<ol><li>Pristatymo &gt; adreso antraščių &gt; Valstybė</li></ol></li><li>**Laisvos formos SF:**<ol><li>Antraštės &gt; Kliento sąskaita &gt; numatytasis pristatymo adresas &gt; Valstybė</li><li>Antraštės &gt; Kliento faktūra &gt; Pagrindinis adresas &gt; Valstybė</li></ol></li><li>**Žurnalas (klientas):**<ol><li>Kliento sąskaitos numatytojo &gt; pristatymo adreso valstija &gt;</li><li>Kliento sąskaitos pagrindinio &gt; adreso valstija &gt;</li></ol></li><li>**Žurnalas (tiekėjas):**<ol><li>Juridinio subjekto &gt; numatytasis pristatymo adresas &gt; Valstybė</li><li>Juridinio subjekto &gt; pagrindinio adreso &gt; Šalis</li></ol></li></ul> |
 | Siuntimas į pašto kodą                 | <ul><li>**Pardavimo užsakymas:**<ol><li>Antraštė &gt; Pristatymo adresas &gt; ZIP/pašto kodas</li></ol></li><li>**Pirkimo užsakymas:**<ol><li>Antraštė &gt; Pristatymo adresas &gt; ZIP/pašto kodas</li></ol></li><li>**Perlaidos užsakymas - siuntimas:**<ol><li>Antraštės &gt; į sandėlį &gt; pagrindinio adreso &gt; ZIP ar pašto kodas</li><li>Antraštės &gt; Į vietą &gt; pagrindinio adreso &gt; ZIP ar pašto kodas</li></ol></li><li>**Perlaidos užsakymas - gavimas:**<ol><li>Antraštės &gt; į sandėlį &gt; pagrindinio adreso &gt; ZIP ar pašto kodas</li><li>Antraštės &gt; Į vietą &gt; pagrindinio adreso &gt; ZIP ar pašto kodas</li></ol></li><li>**Pasiūlymo patvirtinimas:**<ol><li>Antraštė &gt; Pristatymo adresas &gt; ZIP/pašto kodas</li></ol></li><li>**Pardavimo pasiūlymas:**<ol><li>Antraštė &gt; Pristatymo adresas &gt; ZIP/pašto kodas</li></ol></li><li>**Laisvos formos SF:**<ol><li>Antraštės &gt; Kliento sąskaita &gt; numatytasis pristatymo adresas &gt; ZIP ar pašto kodas</li><li>Antraštės &gt; Kliento faktūros &gt; Pagrindinis adresas &gt; ZIP/pašto kodas</li></ol></li><li>**Žurnalas (klientas):**<ol><li>Kliento kodas &gt; Numatytasis pristatymo adreso &gt; pašto indeksas</li><li>Kliento kodo &gt; pagrindinis adresas &gt; : pašto indeksas</li></ol></li><li>**Žurnalas (tiekėjas):**<ol><li>Juridinio subjekto &gt; numatytasis pristatymo adresas &gt; Pašto ar ZIP kodas</li><li>Juridinio subjekto &gt; Pagrindinis adreso &gt; Pašto ar ZIP kodas</li></ol></li></ul> |
 | Svetainė                             | <ul><li>**Pardavimo užsakymas:** Vieta</li><li>**Pirkimo užsakymas:** Vieta</li><li>**Perdavimo užsakymas - Siuntimas:** Vieta iš sandėlio</li><li>**Perdavimo užsakymas - Gavimas:** Vieta į sandėlį</li><li>**Pasiūlymo patvirtinimas:** Vieta</li><li>**Pardavimo kaina:** Vieta</li></ul> |
-| Mokesčio kryptis                    | <ul><li>**Pardavimo užsakymas:** Išvestis</li><li>**Pirkimo užsakymas:** Įvestis</li><li>**Perleidimo užsakymas - Siuntimas:** Išvestis</li><li>**Perlaidos užsakymas - gavimas:** Įvestis</li><li>**Pirkimo perpirkimas:** Įvestis</li><li>**Pasiūlymo patvirtinimas:** Įvestis</li><li>**Pardavimo kaina:** Išvestis</li><li>**Laisvos formos SF:** Išvestis</li></ul> |
+| Mokesčio kryptis                    | <ul><li>**Pardavimo užsakymas:** Išvestis</li><li>**Pirkimo užsakymas:** Įvestis</li><li>**Perleidimo užsakymas - Siuntimas:** Išvestis</li><li>**Perlaidos užsakymas - gavimas:** Įvestis</li><li>**Pirkimo perpirkimas:** Įvestis</li><li>**Pasiūlymo patvirtinimas:** Įvestis</li><li>**Pardavimo kaina:** Išvestis</li><li>**Laisvos formos SF:** Išvestis</li><li>**Žurnalas: išeiga**</li></ul> |
 | Tiekėjo paskyra                   | <ul><li>**Pirkimo užsakymas:** Tiekėjo sąskaita</li><li>**Žurnalas (tiekėjas):** tiekėjo kodas</li></ul> |
 | Tiekėjo mokėtojo kodas           | <ul><li>**Pirkimo užsakymas:** Sąskaitos sąskaita</li><li>**Žurnalas (tiekėjas):**<ol><li>Tiekėjo pagrindinė &gt; SF sąskaita</li><li>Tiekėjo paskyra</li></ol></li></ul> |
 | Sandėlis                        | <ul><li>**Pardavimo užsakymas:** Sandėlis</li><li>**Pirkimo užsakymas:** Sandėlis</li><li>**Perdavimo užsakymas - Siuntimas:** Iš sandėlio</li><li>**Perdavimo užsakymas - Gavimas:** Į sandėlį</li><li>**Kainos prašymas:** Sandėlis</li><li>**Pardavimo pasiūlymas:** Sandėlis</li></ul> |

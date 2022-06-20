@@ -1,6 +1,6 @@
 ---
 title: Įvertinimų ir atsiliepimų apžvalga
-description: Šioje temoje aptariama „Microsoft Dynamics 365 Commerce“ įvertinimai ir apžvalgos.
+description: Šiame straipsnyje aprašomas vertinimas ir peržiūros Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
 ms.date: 10/01/2019
 ms.topic: overview
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: eb68652e0d3ecd8d75f2bc0fe9c243749d7de284
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 9fff5100dd1bebdd19fb7306980e98ca84027acd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982257"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8898915"
 ---
 # <a name="ratings-and-reviews-overview"></a>Įvertinimų ir atsiliepimų apžvalga
 
 [!include [banner](includes/banner.md)]
 
-Šioje temoje aptariama „Microsoft Dynamics 365 Commerce“ įvertinimai ir apžvalgos.
+Šiame straipsnyje aprašomas vertinimas ir peržiūros Microsoft Dynamics 365 Commerce.
 
 Įvertinimai ir apžvalgos yra itin svarbūs el. prekybos klientams, norintiems sužinoti, kaip kiti klientai vertina produktą. Jie taip pat gali padėti vartotojams priimti pirkimo sprendimus. „Dynamics 365 Commerce“ įvertinimų ir apžvalgų sprendimu pardavėjai gali fiksuoti klientų atsiliepimus ir apžvalgas apie produktus. Tada pardavėjai gali rodyti vidutinę įvertinimų ir apžvalgų informaciją savo el. prekybos tinklalapyje.
 
@@ -55,9 +55,9 @@ Toliau pateiktame paveikslėlyje parodyta, kaip veikia įvertinimų ir apžvalg�
 
 [Neautomatinio vadovo įvertinimų ir atsiliepimų publikavimo įjungimas](manual-publish-rating-reviews.md)
 
-[Importuoti ir eksportuoti įvertinimus ir apžvalgas](import-export-reviews.md)
+[Įvertinimų ir atsiliepimų importavimas ir eksportavimas](import-export-reviews.md)
 
-[Konfigūruoti paslaugos autentifikavimą](service-to-service-auth.md)
+[Ryšių tarp tarnybų autentifikavimo konfigūravimas](service-to-service-auth.md)
 
 [DUK apie įvertinimus ir apžvalgas](ratings-reviews-faq.md)
 

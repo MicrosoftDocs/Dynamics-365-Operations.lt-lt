@@ -1,6 +1,6 @@
 ---
 title: Nustatyti ir sugeneruoti teigiamo mokėjimo failus naudojant elektronines ataskaitas
-description: Šioje temoje paaiškinama, kaip nustatyti teigiamą užmokestį naudojant elektronines ataskaitas.
+description: Šiame straipsnyje paaiškinama, kaip nustatyti teigiamą užmokestį naudojant elektronines ataskaitas.
 author: panolte
 ms.date: 03/20/2022
 ms.topic: article
@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: bc2f17d62b429b599d5ac5f2a521819275d36b64
-ms.sourcegitcommit: 2b4ee1fe05792332904396b5f495d74f2a217250
+ms.openlocfilehash: 491048c7274ba6bb52e0a4b7a6ea5cd0f5ff4741
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/18/2022
-ms.locfileid: "8770253"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878224"
 ---
 # <a name="set-up-positive-pay-files-by-using-electronic-reporting"></a>Nustatyti teigiamo mokėjimo failus naudojant elektroninę ataskaitą
 
-Šioje temoje paaiškinama, kaip nustatyti teigiamą atlyginimą ir sugeneruoti teigiamo mokėjimo failus naudojant elektroninę ataskaitą.
+Šiame straipsnyje paaiškinama, kaip nustatyti teigiamą atlyginimą ir sugeneruoti teigiamo mokėjimo failus naudojant elektroninę ataskaitą.
 
 > [!NOTE] 
 > Prieš naudodami funkciją **Generuoti banko teigiamų išlaidų** failą, pirmiausia turėsite atnaujinti objektų sąrašą.

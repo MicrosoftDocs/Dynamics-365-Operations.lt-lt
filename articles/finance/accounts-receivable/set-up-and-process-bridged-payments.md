@@ -1,6 +1,6 @@
 ---
-title: Nustatyti ir apdoroti tarp nustatytus mokėjimus
-description: Šioje temoje paaiškinama, kaip nustatyti ir apdoroti tarp nustatytus kliento mokėjimus. Tarpinis mokėjimas yra mokėjimas, kuris dviem veiksmais registruojamas DK.
+title: Sujungtų mokėjimų nustatymas ir apdorojimas
+description: Šiame straipsnyje paaiškinama, kaip nustatyti ir apdoroti tarp nustatytus kliento mokėjimus. Tarpinis mokėjimas yra mokėjimas, kuris dviem veiksmais registruojamas DK.
 author: rachel-profitt
 ms.date: 12/03/2021
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2022-01-03
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ca93d99ce04e607b137a2755d507022a33ab1be8
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 4f0609e333fb16ba189b6a971f88fbb5bf900fec
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734197"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887983"
 ---
-# <a name="set-up-and-process-bridged-payments"></a>Nustatyti ir apdoroti tarp nustatytus mokėjimus
+# <a name="set-up-and-process-bridged-payments"></a>Sujungtų mokėjimų nustatymas ir apdorojimas
 
 [!include [banner](../includes/banner.md)]
 
 Tarpinis mokėjimas yra mokėjimas, kuris dviem veiksmais registruojamas DK. Paprastai šis būdas naudojamas, kai **mokėjimo** būdas nustatytas kaip Bankas, ir operacijas į banko sąskaitą reikia užregistruoti tik tada, kai operacija išvalo banką. Tačiau galite naudoti ją ir DK sąskaitai. Šiuo atveju, apdorodama tarpąjį registravimą sistema perkelia sumą iš vienos pagrindinės sąskaitos į kitą.
 
-Galite sukurti tarpinius mokėjimus iš mokėtinų sumų arba gautinų sumų. Nors šioje temoje paaiškinama, kaip konfigūruoti tarpinius gautinų sumų registravimus, mokėtinų sumų operacijų veiksmai yra panašūs.
+Galite sukurti tarpinius mokėjimus iš mokėtinų sumų arba gautinų sumų. Nors šiame straipsnyje paaiškinama, kaip konfigūruoti tarpinius gautinų sumų registravimus, mokėtinų sumų operacijų veiksmai yra panašūs.
 
 ## <a name="set-up-bridging-posting"></a>Nustatyti tarpinę registravimą
 

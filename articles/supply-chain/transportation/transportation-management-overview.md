@@ -1,6 +1,6 @@
 ---
-title: Transportavimo valdymo peržiūra
-description: Šioje temoje apžvelgiamos „Supply Chain Management“ transportavimo valdymo funkcijos.
+title: Transportavimo valdymo apžvalga
+description: Šiame straipsnyje pateikta tiekimo grandinės valdymo transportavimo valdymo funkcijų apžvalga.
 author: Weijiesa
 ms.date: 06/20/2017
 ms.topic: overview
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6181d63c9ab447c4892948fe1f3ee41d2680b78d
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 12f870c95f28e752c3c3b3dd4161d82815b9954a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8671652"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8897464"
 ---
 # <a name="transportation-management-overview"></a>Transportavimo valdymo apžvalga
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje apžvelgiamos „Supply Chain Management“ transportavimo valdymo funkcijos.
+Šiame straipsnyje pateikta tiekimo grandinės valdymo transportavimo valdymo funkcijų apžvalga.
 
 Modulis Transportavimo valdymas suteikia galimybę naudoti jūsų įmonės transportavimo operacijas bei leidžia identifikuoti gaunamų ir siunčiamų užsakymų tiekėjų ir maršruto planavimo sprendimus. Pavyzdžiui, galite identifikuoti greičiausią maršrutą arba mažiausią siuntos kainą. Toliau pateikiamoje lentelėje aprašomi pagrindiniai modulio Transportavimo valdymas naudojimo scenarijai.
 

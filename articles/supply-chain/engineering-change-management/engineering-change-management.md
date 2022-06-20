@@ -1,6 +1,6 @@
 ---
 title: Valdyti inžinerinių produktų keitimus
-description: Šioje temoje pateikta informacija apie inžinerinių keitimų valdymą. Inžinerinių keitimų valdymas suteikia struktūruotus procesus inžinerinių produktų valdymo keitimams, nuo siūlymo, užklausų ir keitimų atlikimo iki peržiūros ir keitimų patvirtinimo, jų poveikio vertinimo esančioms perlaidoms ir jų sekimo.
+description: Šiame straipsnyje pateikiama informacija apie inžinerinių pakeitimų valdymą. Inžinerinių keitimų valdymas suteikia struktūruotus procesus inžinerinių produktų valdymo keitimams, nuo siūlymo, užklausų ir keitimų atlikimo iki peržiūros ir keitimų patvirtinimo, jų poveikio vertinimo esančioms perlaidoms ir jų sekimo.
 author: t-benebo
 ms.date: 09/28/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 9af5184da4f9507e3c06464a223f0debaea4430e
-ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
+ms.openlocfilehash: 71b5ec792013ae80be643b9581e388c291d608dd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8384673"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849596"
 ---
 # <a name="manage-changes-to-engineering-products"></a>Valdyti inžinerinių produktų keitimus
 

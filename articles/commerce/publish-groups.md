@@ -1,6 +1,6 @@
 ---
 title: Darbas su publikavimo grupėmis
-description: Šioje temoje aprašoma publikavimo grupių funkcija „Microsoft Dynamics 365 Commerce“.
+description: Šiame straipsnyje aprašoma publikavimo grupių funkcija Microsoft Dynamics 365 Commerce.
 author: phinneyridge
 ms.date: 10/09/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-12-12
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: d757f34d3e16850e4f5de122f63b2b3342f612e49f07c7cf6585362999f03c02
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 76d447a5368cd5e342e8b1b934bb04d45e3378fb
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6717677"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885115"
 ---
 # <a name="work-with-publish-groups"></a>Darbas su publikavimo grupėmis
 
 [!include [banner](includes/banner.md)]
 
-Šioje temoje aprašoma publikavimo grupių funkcija „Microsoft Dynamics 365 Commerce“.
+Šiame straipsnyje aprašoma publikavimo grupių funkcija Microsoft Dynamics 365 Commerce.
 
 „E-commerce“ svetainėse ištisus metus nuolat pateikiamas naujas turinys. Naujinimai dažnai pateikiami paketais svarbių el. prekybos įvykių metu, pvz., per šventes, sezonines rinkodaros kampanijas arba reklaminius paleidimus. Šiuose naujinimuose dažnai reikalaujama, kad svetainės turinio grupės (pavyzdžiui, puslapiai, vaizdai, fragmentai ir šablonai) būtų paruošiami, patvirtinami ir publikuojami tuo pačiu metu vienu veiksmu.
 

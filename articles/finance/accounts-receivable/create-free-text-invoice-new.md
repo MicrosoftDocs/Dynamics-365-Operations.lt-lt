@@ -1,6 +1,6 @@
 ---
-title: Laisvos formos sąskaitos faktūros kūrimas
-description: Šioje temoje paaiškinama, kaip kurti laisvos formos SF.
+title: Kurti laisvos formos SF
+description: Šiame straipsnyje paaiškinama, kaip sukurti laisvos formos SF.
 author: abruer
 ms.date: 02/15/2022
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 6e9578d9b2d61f241ab5e92fc9740b88b80969f6
-ms.sourcegitcommit: 411874545d7c326fc4aa877948a059371f0ccb3c
+ms.openlocfilehash: 87dc6334baa83ace23b77d94da4d1e464cb0b574
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "8392890"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878166"
 ---
-# <a name="create-a-free-text-invoice"></a>Laisvos formos sąskaitos faktūros kūrimas
+# <a name="create-a-free-text-invoice"></a>Kurti laisvos formos SF
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje paaiškinama, kaip kurti laisvos formos SF. Procedūrai atlikti naudokite demonstracinių duomenų įmonę **USMF**.
+Šiame straipsnyje paaiškinama, kaip sukurti laisvos formos SF. Procedūrai atlikti naudokite demonstracinių duomenų įmonę **USMF**.
 
 ## <a name="create-a-free-text-invoice"></a>Kurti laisvos formos SF
 
@@ -37,7 +37,7 @@ ms.locfileid: "8392890"
     * Jei naudojate bendros mokėjimų eurais erdvės (SEPA) įgaliojimus, jums pasirinkus kliento sąskaitą, tiesioginio debeto įgaliojimas įvedamas automatiškai.
 
 4. Lauke **Aprašas** įveskite reikšmę.
-5. Lauke **Pagrindinė sąskaita** nurodykite sąskaitos numerį be dimensijų. Dimensijas įvesite vėliau šioje temoje.
+5. Lauke **Pagrindinė sąskaita** nurodykite sąskaitos numerį be dimensijų. Vėliau šiame straipsnyje bus nurodytos dimensijos.
 
     Norėdami rasti savo sąskaitą, taip pat galite įvesti vieną ar kelis pagrindinės sąskaitos simbolius ir naudoti peržvalgą.
 

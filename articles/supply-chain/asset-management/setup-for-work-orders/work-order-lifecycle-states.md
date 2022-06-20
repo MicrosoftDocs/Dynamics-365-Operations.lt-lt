@@ -1,6 +1,6 @@
 ---
 title: Darbo užsakymų ciklo būsenos
-description: Šioje temoje paaiškinamos darbo užsakymų ciklo būsenos modulyje Turto valdymas.
+description: Šiame straipsnyje paaiškinamos turto valdymo darbo užsakymo ciklo valstijos.
 author: johanhoffmann
 ms.date: 08/13/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: fa0980438ec629ef7ae6bf711d5ae87efca131e6ab86dfcaa1f17d953725147a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: MT
+ms.openlocfilehash: 67f857e4bfb828250e632e3ba46af9930cd908a1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6768671"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860876"
 ---
 # <a name="work-order-lifecycle-states"></a>Darbo užsakymų ciklo būsenos
 
@@ -69,7 +69,7 @@ Toliau pateiktoje lentelėje aprašomos puslapio **Darbo užsakymo ciklo būsena
 
     „FastTab“ konteinerio **Išsami informacija** lauke **Ciklo modeliai** rodomas darbo užsakymų ciklo modelių, kuriuose naudojama ši ciklo būsena, skaičius.
 
-8. „FastTab“ konteinerio **Bendra** skyriuje **Darbo užsakymas** kaip **Taip** nustatydami atitinkamas parinktis, pasirinkite funkcijas, kurios turi būti pasiekiamos su šia ciklo būsena. Norėdami peržiūrėti parinkčių aprašus, žr. pirmiau šioje temoje pateiktą lentelę.
+8. „FastTab“ konteinerio **Bendra** skyriuje **Darbo užsakymas** kaip **Taip** nustatydami atitinkamas parinktis, pasirinkite funkcijas, kurios turi būti pasiekiamos su šia ciklo būsena. Norėdami rasti pasirinkčių aprašus, žr. anksčiau šiame straipsnyje pateiktą lentelę.
 9. Skyriaus **Projektas** lauke **Etapas** pasirinkite projekto etapą, kuris turi būti susijęs su šia ciklo būsena.
 10. Skyriaus **Projektas** parinktį **Uždaryti veiklas** nustatykite kaip **Taip**, jei, darbo užsakymui esant šios ciklo būsenos, turi būti automatiškai uždaromos projekto veiklos, susijusios su kiekviena darbo užsakymo užduotimi.
 
@@ -77,7 +77,7 @@ Toliau pateiktoje lentelėje aprašomos puslapio **Darbo užsakymo ciklo būsena
     > Norėdami rasti su darbo užsakymo užduotimi susijusios projekto veiklos numerį, pasirinkite **Turto valdymas** \> **Įprasta** \> **Darbo užsakymai** \> **Visi darbo užsakymai**, **Aktyvūs darbo užsakymai** arba **Mano aktyvūs darbo užsakymai**. Atidarykite darbo užsakymą ir pasirinkite darbo užsakymo užduotį. Veiklos numeris rodomas „FastTab“ konteinerio **Eilutės informacija** skirtuko **Bendra** skyriaus **Projektas** lauke **Veiklos numeris**.
 
 11. Skyriaus **Prognozė** parinktį **Kopijuoti valandų prognozę**, **Kopijuoti prekių prognozę** ir (arba) **Kopijuoti išlaidų prognozę** nustatykite kaip **Taip**, jei, darbo užsakymui esant šios ciklo būsenos, darbo užsakymo projektų prognozės turi būti automatiškai nukopijuotos į darbo užsakymo žurnalus.
-12. Vieną iš skyriaus **Grafikas** parinkčių nustatykite kaip **Taip**, jei, darbo užsakymui esant šios ciklo būsenos, turi būti atnaujinama darbo užsakymo užduočių grafiko būsena. Norėdami peržiūrėti parinkčių **Parengta**, **Pradžia**, **Pabaiga** ir **Naikinti grafiko eilutes** aprašus, žr. pirmiau šioje temoje pateiktą lentelę.
+12. Vieną iš skyriaus **Grafikas** parinkčių nustatykite kaip **Taip**, jei, darbo užsakymui esant šios ciklo būsenos, turi būti atnaujinama darbo užsakymo užduočių grafiko būsena. Aprašų apie parinktis **Parengta**, **Pradžia**, **Pabaiga** ir Naikinti **grafiko** eilutes žr. anksčiau šiame straipsnyje pateiktoje lentelėje.
 
     > [!NOTE]
     > Norėdami peržiūrėti grafiko eilutes, susijusias su darbo užsakymo užduotimis, pasirinkite **Turto valdymas** \> **Įprasta** \> **Darbo užsakymai** \> **Visi darbo užsakymai**, **Aktyvūs darbo užsakymai** arba **Mano aktyvūs darbo užsakymai**. Atidarykite darbo užsakymą, „FastTab“ konteineryje **Darbo užsakymo užduotys** pasirinkite darbo užsakymo užduotį – „FastTab“ konteineryje **Eilutės informacija** galite peržiūrėti susijusią informaciją. Skirtuko **Grafikas** lauke **Būsena** rodoma darbo užsakymo užduoties būsena. Lauką **Būsena** galima nustatyti kaip šias reikšmes: **Suplanuota**, **Parengta**, **Pradėta**, **Sustabdyta** ir **Baigta**.

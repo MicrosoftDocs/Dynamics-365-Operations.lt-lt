@@ -1,6 +1,6 @@
 ---
 title: Kas nauja ar pasikeitė „Dynamics 365 Human Resources“ 2020 m. spalio 22 d.
-description: Šioje temoje aprašomos naujos arba pasikeitusios „Microsoft Dynamics 365 Human Resources” funkcijos 2020 m. spalio 22 d.
+description: Šiame straipsnyje aprašomos priemonės, kurios yra naujos arba pakeistos Microsoft Dynamics 365 Human Resources 2020 m. spalio 22 d.
 author: jcart1106
 ms.date: 10/22/2020
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-10-20
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b36354b14faf59aacb4a619dfb6f243335e6a297
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: d58c8d5eab86779a764cee5a3ee8ca17ade471de
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8063523"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8862807"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-october-22-2020"></a>Kas nauja ar pasikeitė „Dynamics 365 Human Resources“ 2020 m. spalio 22 d.
 
@@ -27,7 +27,7 @@ ms.locfileid: "8063523"
 
 
 
-Šioje temoje aprašomos naujos, pasikeitusios ar netrukus pasirodysiančios „Dynamics 365 Human Resources“ funkcijos. Daugiau informacijos apie mūsų atnaujinimo procesą ir grafiką žr. [Atnaujinimo procesas](hr-admin-setup-update-process.md).
+Šiame straipsnyje aprašomos priemonės, kurios yra naujos, pakeistos arba tuoj pat Dynamics 365 Human Resources. Daugiau informacijos apie mūsų atnaujinimo procesą ir grafiką žr. [Atnaujinimo procesas](hr-admin-setup-update-process.md).
 
 Daugiau informacijos apie naujas funkcijas ir jų numatomas bendro pasiekiamumo datas žr. [„Dynamics 365 Human Resources” 2020 m. 2-os leidimo bangos apžvalga](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/).
 
@@ -41,7 +41,7 @@ Daugiau informacijos apie naujas funkcijas ir jų numatomas bendro pasiekiamumo 
 
 | Funkcija | Leidimo planas | Dokumentacija |
 | --- | --- | --- |
-| Platformos naujinimas 10.0.14 (38) | -- | [„Finance and Operations“ programų 10.0.14 versijos platformos naujiniai (2020 m. lapkričio mėn.)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-14.md) |
+| Platformos naujinimas 10.0.14 (38) | -- | [Finansų ir operacijų programėlių 10.0.14 versijos platformos naujinimai (2020 m. lapkričio mėn.)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-14.md) |
 | Organizacijos ir personalo valdymo darbo eigos patobulinimai | [Organizacijos ir personalo valdymo darbo eigos patobulinimai](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/organization-personnel-management-workflow-experience-enhancements) | [Konfigūracijos parinktis, skirta sąrašui Man priskirti darbo elementai perkelti](./hr-whats-new-2020-09-03.md#configuration-option-to-position-work-items-assigned-to-me-list-477004) |
 
 
@@ -50,9 +50,9 @@ Daugiau informacijos apie naujas funkcijas ir jų numatomas bendro pasiekiamumo 
 Toliau nurodyti klaidų ištaisymai įtraukti į šį leidimą.
 
 > [!NOTE]
-> Siekiame kuo greičiau pateikti jums šią informaciją. Galime atnaujinti šią temą, kad būtų įtraukti klaidų ištaisymai, įtraukti į komponavimo versiją publikavus šią temą.
+> Siekiame kuo greičiau pateikti jums šią informaciją. Galime atnaujinti šį straipsnį, kad būtų įtrauktos pataisos, kurios buvo sukurtas po to, kai buvo publikuotas šis straipsnis.
 
-| Problemos numeris| Problema  | Aprašas|
+| Problemos numeris| Problema  | Aprašymas|
 | --- | --- | --- |
 | 437922 | Importuojant FMLA valandas naudojant DMF objektą pateikiama tik skaitoma klaida. | Naudojant objektą FMLA valandos nepavyko importuoti valandų, susietų su FMLA atveju. Įtraukėme logiką, siekdami užtikrinti, kad importuotos valandos neviršytų likusių atvejo valandų. |
 | 512019 | Netinkama **paskutinio perkeliamo balanso** suma. | Puslapyje **Ne darbo laikas** pakeitus lauką **Nuo datos** į pirmą ataskaitinio laikotarpio dieną rodoma netinkama tipo **Metinės atostogos** **paskutinio perkeliamo balanso** suma. Dabar rodoma tinkama suma. |

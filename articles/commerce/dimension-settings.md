@@ -1,6 +1,6 @@
 ---
 title: Rodymo parametrų taikymas produktų dimensijoms
-description: Šioje temoje apžvelgiami produkto dimensijų rodymo parametrai ir aprašoma, kaip juos taikyti „Microsoft Dynamics 365 Commerce” platformoje.
+description: Šiame straipsnyje aprašomi produkto dimensijų ekrano parametrai ir aprašoma, kaip juos taikyti Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 05/28/2021
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 80a0861c51ea14ddb6bce02d757667adac34e740cd04311e26211d9bdbae4ed8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d7575e205a9732259b00e424f66eeadfe8c659ee
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6716227"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899180"
 ---
 # <a name="apply-display-settings-for-product-dimensions"></a>Rodymo parametrų taikymas produktų dimensijoms
 
 [!include [banner](includes/banner.md)]
 
 
-Šioje temoje apžvelgiami produkto dimensijų rodymo parametrai ir aprašoma, kaip juos taikyti „Microsoft Dynamics 365 Commerce” platformoje.
+Šiame straipsnyje aprašomi produkto dimensijų ekrano parametrai ir aprašoma, kaip juos taikyti Microsoft Dynamics 365 Commerce.
 
 „Dynamics 365 Commerce” palaiko dydžio, stiliaus ir spalvos dimensijas, kad būtų galima atskirti produkto variantus. Dimensijos įprastai rodomos kaip tekstinės reikšmės, pavyzdžiui, „Maža”, „Vidutinė” ir „Didelė” – dydžiams, o spalvoms – „Juoda” ir „Ruda”. Tačiau, jei produktas palaiko daug variantų, gali būti sunku naršyti produkto variantus, nes reikia kelių pasirinkimų kiekvieno varianto vaizdui peržiūrėti. Kad būtų lengviau naršyti produkto variantus, „Commerce” leidimo 10.0.20 versijoje galima naudoti vaizdus ir šešioliktainius („hex”) kodus, kad dimensijos būtų rodomos kaip pavyzdžiai.
 

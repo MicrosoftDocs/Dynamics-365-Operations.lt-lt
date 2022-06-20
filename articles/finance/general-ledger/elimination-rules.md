@@ -1,6 +1,6 @@
 ---
 title: Pašalinimo taisyklės
-description: Šioje temoje pateikta informacija apie pašalinimo taisykles ir įvairias pašalinimo ataskaitų pasirinktis.
+description: Šiame straipsnyje pateikta informacija apie pašalinimo taisykles ir įvairias pašalinimo ataskaitų pasirinktis.
 author: aprilolson
 ms.date: 01/11/2018
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e062e7541871d77803cbed475d715621b19537f1
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 3eb3ea117959dbc51eb5666aad60299210ff3ac5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722639"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8864316"
 ---
 # <a name="elimination-rules"></a>Pašalinimo taisyklės
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje pateikta informacija apie pašalinimo taisykles ir įvairias pašalinimo ataskaitų pasirinktis.
+Šiame straipsnyje pateikta informacija apie pašalinimo taisykles ir įvairias pašalinimo ataskaitų pasirinktis.
 
 Šalinimo operacijų reikalaujama, kai pirminis juridinis subjektas bendradarbiauja su vienu ar daugiau filialo juridinių subjektų ir naudoja konsoliduotas finansines ataskaitas. Konsoliduotose finansinėse ataskaitose turi būti nurodytos tik tos operacijos, kurios vyksta tarp konsoliduotos organizacijos ir kitų ne tos organizacijos objektų. Todėl tos pačios organizacijos juridinių subjektų operacijos turi būti pašalintos iš DK, kad nebūtų rodomos finansinėse ataskaitose. Skelbti apie pašalinimus galima keliais būdais.
 
@@ -34,7 +34,7 @@ ms.locfileid: "8722639"
 -   Galima naudoti finansines ataskaitas ir konkrečioje eilutėje arba stulpelyje rodyti pašalinimų sąskaitas ir dimensijas.
 -   Galima naudoti atskirą juridinį subjektą ir rankiniu būdu registruoti operacijų įrašus siekiant sekti pašalinimus.
 
-Šioje temoje dėmesys skiriamas pašalinimo taisyklėms, kurios apdorojamos konsolidavimo arba pašalinimo įmonėje. Galite nustatyti šalinimo taisykles, kad sukurtumėte šalinimo operacijas juridiniame subjekte, kuris nurodytas kaip šalinimo paskirties juridinis subjektas. Šis paskirties juridinis subjektas vadinamas šalinimo juridiniu subjektu. Šalinimo žurnalus galima generuoti konsolidavimo proceso metu arba naudojant šalinimo žurnalo pasiūlymą. Prieš nustatydami pašalinimo taisykles, turite susipažinti su šiomis sąlygomis:
+Šiame straipsnyje daugiausia dėmesio skiriama pašalinimo taisyklėms, kurios apdorojamos konsolidacijos ar pašalinimo įmonėje. Galite nustatyti šalinimo taisykles, kad sukurtumėte šalinimo operacijas juridiniame subjekte, kuris nurodytas kaip šalinimo paskirties juridinis subjektas. Šis paskirties juridinis subjektas vadinamas šalinimo juridiniu subjektu. Šalinimo žurnalus galima generuoti konsolidavimo proceso metu arba naudojant šalinimo žurnalo pasiūlymą. Prieš nustatydami pašalinimo taisykles, turite susipažinti su šiomis sąlygomis:
 
 -   **Šaltinio juridinis subjektas** – juridinis subjektas, kur užregistruotos šalinimo sumos.
 -   **Paskirties juridinis subjektas** – juridinis subjektas, kur užregistruotos šalinimo taisyklės.

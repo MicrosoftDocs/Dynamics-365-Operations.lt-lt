@@ -1,6 +1,6 @@
 ---
 title: Gaunamų dokumentų analizė „Excel“ formatu
-description: Šioje temoje pateikiama informacija apie elektroninių ataskaitų (ER) formatų kūrimą, norint analizuoti gaunamų „Microsoft Excel“ failų turinį.
+description: Šiame straipsnyje pateikiama informacija apie elektroninių ataskaitų (ER) formatų dizainą norint išanalizuoti gaunamų failų Microsoft Excel turinį.
 author: NickSelin
 ms.date: 05/25/2018
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: d4ebad1b800abe77871bfa3e550a95f1fe2bfcc4692301cf79fb8b98a0b3f233
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 64371ffb09836d6d60ba2073c706628d2009116e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772918"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8858686"
 ---
 # <a name="parse-incoming-documents-in-excel-format"></a>Gaunamų dokumentų analizė „Excel“ formatu
 
@@ -39,7 +39,7 @@ Atsisiųskite šiuos failus norėdami užbaigti aukščiau minėtus užduočių 
 | Gaunamas failas XLSX formatu – šablonas    | [1099import-template.xlsx](https://go.microsoft.com/fwlink/?linkid=862266) |
 | Gaunamas failas XLSX formatu – duomenų pavyzdys | [1099import-data.xlsx](https://go.microsoft.com/fwlink/?linkid=862266)     |
 
-Jei dar neleidote šio užduoties vedlio, [ER reikiamų konfigūracijų kūrimas norint importuoti duomenis iš išorinio failo dabartinėje „Finance and Operations“ programoje](./tasks/er-required-configurations-import-data.md), atsisiųskite šį failą.
+Jei dar neleidote šio užduoties vedlio, [ER reikiamų konfigūracijų kūrimas norint importuoti duomenis iš išorinio failo](./tasks/er-required-configurations-import-data.md) dabartinėje „Finance and Operations“ programoje, atsisiųskite šį failą.
 
 | Turinio aprašas    | Failas                                                            |
 |------------------------|-----------------------------------------------------------------|

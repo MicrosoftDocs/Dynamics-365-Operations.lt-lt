@@ -1,6 +1,6 @@
 ---
 title: 'ER: reikiamų konfigūracijų kūrimas norint importuoti duomenis iš išorinio failo'
-description: Šioje temoje aprašoma, kaip kurti elektroninių ataskaitų konfigūracijas, kad iš išorinio failo būtų galima importuoti duomenis į „Microsoft Dynamics 365 Finance“ programą.
+description: Šiame straipsnyje aprašoma, kaip sukurti elektroninių ataskaitų konfigūracijas, kad būtų galima importuoti Microsoft Dynamics duomenis į 365 finansų programą iš išorinio failo.
 author: NickSelin
 ms.date: 03/24/2021
 ms.topic: business-process
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7eaa35baae8e030d8a8b7ce903554c4876c874b48cfd72d6ac278cf4c0e8a6e8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: aa1dc55e8cdee7d61e5ababe92e8a9234788664f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720861"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8865899"
 ---
 # <a name="er-create-required-configurations-to-import-data-from-an-external-file"></a>ER: reikiamų konfigūracijų kūrimas norint importuoti duomenis iš išorinio failo
 
@@ -241,7 +241,7 @@ Pateiktame scenarijuje parodytos ER duomenų importavimo galimybės. Tai apima t
 19. Uždarykite puslapį.
 20. Spustelėkite Redaguoti.
 
-    Jei įdiegėte karštąją pataisą „KB 4012871 GER duomenų modelio susiejimų į atskiras konfigūracijas su galimybe nurodyti būtinuosius skirtingų rūšių komponentus, diegiant juos kitose „Dynamics 365 Finance“ versijose“ ([KB 4012871](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871)), vykdykite kitą veiksmą „Įjungti vėliavėlę „Numatytoji modelio susiejimo reikšmė“, skirtą įvestai formato konfigūracijai. Kitu atveju praleiskite tolesnį veiksmą.  
+    Jei įdiegėte karštąją pataisą "KB 4012871 GER modelio susiejimų palaikymas atskirtose konfigūracijose su galimybe nurodyti skirtingų rūšių būtinuosius komponentus, kad jos būtų įdiegtos skirtingose "Dynamics 365" finansų versijose ([KB 4012871](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871)), atlikite kitą įvesto formato konfigūracijos veiksmą Įjungti vėliavėlę "Numatytasis modelio susiejimas". Kitu atveju praleiskite tolesnį veiksmą.  
 
 21. Lauke Numatytoji modelio susiejimo reikšmė pasirinkite Taip.
 22. Medyje pasirinkite „1099 mokėjimų modelis”.

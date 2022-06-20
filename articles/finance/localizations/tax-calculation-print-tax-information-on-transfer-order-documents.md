@@ -1,6 +1,6 @@
 ---
 title: Perkėlimo užsakymo dokumentų mokesčių informacijos spausdinimas
-description: Šioje temoje paaiškinama, kaip mokesčių apskaičiavimo paslaugos nustatyta mokesčių informacija gali būti atspausdinta pervedimo užsakymo dokumentuose.
+description: Šiame straipsnyje paaiškinama, kaip mokesčių apskaičiavimo tarnybos nustatytą mokesčių informaciją galima išspausdinti perkėlimo užsakymo dokumentuose.
 author: Kai-Cloud
 ms.date: 10/15/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-10-12
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: e74336270ab46fc19adb4c797745c9582028391a
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: ca7a610162c539a0ecd74cf9e663f08ea80a7e44
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8687477"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855208"
 ---
 # <a name="print-tax-information-on-transfer-order-documents"></a>Perkėlimo užsakymo dokumentų mokesčių informacijos spausdinimas
 
 [!include [banner](../../includes/banner.md)]
 
-Ši tema paaiškina, kaipatspausdinti mokesčių informaciją ant perkėlimo užsakymų dokumentų. Galite spausdinti perkėlimo užsakymo pro forma SF dokumentą, skirtą atsargų perkėlimui, kuris laikomas vidiniu bendrijos tiekimu ir įsigijimais bendrijos viduje pagal Europos Sąjungos (ES) pridėtinės vertės mokesčio (PVM) nuostatus. 
+Šiame straipsnyje paaiškinama, kaip spausdinti mokesčių informaciją perkėlimo užsakymo dokumentuose. Galite spausdinti perkėlimo užsakymo pro forma SF dokumentą, skirtą atsargų perkėlimui, kuris laikomas vidiniu bendrijos tiekimu ir įsigijimais bendrijos viduje pagal Europos Sąjungos (ES) pridėtinės vertės mokesčio (PVM) nuostatus. 
 
 Į perkėlimo užsakymo dokumentus įtraukiami šie su mokesčiais susiję duomenys:
 

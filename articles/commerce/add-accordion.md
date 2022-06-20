@@ -1,6 +1,6 @@
 ---
 title: Akordeono modulis
-description: Šioje temoje aprašomi akordeono moduliai ir tai, kaip jų įtraukti į „Microsoft Dynamics 365 Commerce“ svetainių puslapius.
+description: Šiame straipsnyje aprašomi turimi moduliai ir aprašoma, kaip įtraukti juos į svetainės puslapius Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 05/18/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: e17476d745da6f498b4f3ed90d55b0d13a0264b6
-ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
+ms.openlocfilehash: 4d5c56ea1a54e105b0c616958a18fd61077bca39
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "8780694"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853829"
 ---
 # <a name="accordion-module"></a>Akordeono modulis
 
 [!include [banner](includes/banner.md)]
 
-Šioje temoje aprašomi akordeono moduliai ir tai, kaip jų įtraukti į „Microsoft Dynamics 365 Commerce“ svetainių puslapius.
+Šiame straipsnyje aprašomi turimi moduliai ir aprašoma, kaip įtraukti juos į svetainės puslapius Microsoft Dynamics 365 Commerce.
 
 Akordeono moduliai yra į talpyklas panašūs moduliai, kurie naudojami organizuojant informaciją arba modulius puslapyje ir kurie suteikia sutraukiamus stalčius primenančią funkciją. Akordeono modulis gali būti naudojamas bet kuriame puslapyje.
 

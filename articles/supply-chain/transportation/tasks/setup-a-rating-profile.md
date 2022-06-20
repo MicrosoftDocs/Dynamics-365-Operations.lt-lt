@@ -1,6 +1,6 @@
 ---
 title: Vertinimo šablonai
-description: Šioje temoja aprašoma, kaip nustatyti duomenis kainos profiliams.
+description: Šiame straipsnyje aprašoma, kaip nustatyti vertinimo šablonų duomenis.
 author: Weijiesa
 ms.date: 10/30/2020
 ms.topic: business-process
@@ -14,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: weijiesa
 ms.search.validFrom: 2020-10-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2512b79c87a4640a2b31b7699e85d743b451a14c
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 1f7408574187ddb099181bd2566c46c52307f603
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8676445"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850483"
 ---
 # <a name="rating-profiles"></a>Vertinimo šablonai
 
@@ -56,7 +56,7 @@ Puslapyje **Kainų profiliai** galite peržiūrėti visus esamus kainų profiliu
 1. Eikite į **Transportavimo valdymas \> Nustatymas \> Vežėjai \> Siuntų vežėjai**.
 1. Pasirinkite gabenimo siuntėją sąraše.
 1. „FastTab“ **Kainų profiliai** rinkitės **Naujas** tam, kad sukurtumėte kainų profilį.
-1. Nustatykite laukelius naujam kainų profiliui. Šie laukeliai atitinka laukelius **Kainų profilio** puslapyje, kaip aprašyta ankstesniame šios temos skyriuje.
+1. Nustatykite laukelius naujam kainų profiliui. Šie laukai atitinka laukus vertinimo šablonų **puslapyje**, kaip aprašyta ankstesniame šio straipsnio skyriuje.
 
 > [!NOTE]
 > Profiliai sukurti **Siuntimo vežėjų** puslapyje yra taip pat rodomi **Kainų profilių** puslapyje.

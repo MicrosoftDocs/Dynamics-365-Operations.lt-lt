@@ -1,6 +1,6 @@
 ---
 title: Pranešti kaip baigtą iš užduoties kortelės įrenginio
-description: Šioje temoje aprašoma, kaip konfigūruoti sistemą, kad užduočių kortelės įrenginio vartotojai galėtų pranešti apie gatavus produktus iš gamybos užsakymo į atsargas.
+description: Šiame straipsnyje aprašoma, kaip konfigūruoti sistemą, kad užduočių kortelės įrenginio vartotojai galėtų pranešti apie baigtus produktus iš gamybos užsakymo į atsargas.
 author: johanhoffmann
 ms.date: 07/31/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 67fa97c938f091c23a41ddd5aaf34a32c5a13c93
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 3d1a45ad00e59581f27f2e822ccb47430219c501
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8102831"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857379"
 ---
 # <a name="report-as-finished-from-the-job-card-device"></a>Pranešti kaip baigtą iš užduoties kortelės įrenginio
 
 [!include [banner](../includes/banner.md)]
 
-Darbuotojai naudoja **Progreso ataskaita** užduoties kortelės įrenginio ataskaitos puslapį, kad galėtų pranešti apie gamybos užduočiai baigtus kiekius. Ši tema aprašo, kaip nustatyti įvairias parinktis, kurios įjungia būdą, kuriuo darbuotojai gali pateikti pabaigtas ataskaitas naudodami šį puslapį ir tai, kas nutinka vėliau. Parinktys apima:
+Darbuotojai naudoja **Progreso ataskaita** užduoties kortelės įrenginio ataskaitos puslapį, kad galėtų pranešti apie gamybos užduočiai baigtus kiekius. Šiame straipsnyje aprašoma, kaip nustatyti įvairias pasirinktis, kurios nustato, kaip darbuotojai gali pranešti, kad baigė darbą, naudodami šį puslapį, ir kas vyksta toliau. Parinktys apima:
 
 - Valdyti, ar ir kiek kiekių yra pateikta ataskaitose yra baigti ir įtraukiami į inventorių.
 - Valdyti, ar ir kiek paketų skaičių yra sukuriama ir taikoma, kai ataskaitų kūrimas yra pabaigtas.

@@ -1,6 +1,6 @@
 ---
 title: Paskirtieji mokėjimo terminalai ir raginimai spausdintuvui ir kasos stalčiui
-description: Šioje temoje pateikiama informacija apie galimybę turėti specialų mokėjimo terminalą ir raginti vartotoją pasirinkti kasos stalčių bei kvitų spausdintuvą.
+description: Šiame straipsnyje pateikiama informacija apie galimybę turėti paskirtą mokėjimo terminalą ir raginti vartotoją pasirinkti kasos stalčių ir kvitų spausdintuvą.
 author: BrianShook
 ms.date: 05/20/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: brshoo
 ms.search.validFrom: 2019-03-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: b955e55271471ac43ff4c2b217c6448b30536e06
-ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
+ms.openlocfilehash: 7c010448e43bbfb1f949508ce1b62bd07f3107e1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7779775"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874926"
 ---
 # <a name="dedicated-payment-terminals-and-prompts-for-a-printer-and-cash-drawer"></a>Paskirtieji mokėjimo terminalai ir raginimai spausdintuvui ir kasos stalčiui
 
 [!include [banner](includes/banner.md)]
 
-Šioje temoje pateikiama informacija apie galimybę turėti specialų mokėjimo terminalą ir raginti vartotoją pasirinkti kasos stalčių bei kvitų spausdintuvą.
+Šiame straipsnyje pateikiama informacija apie galimybę turėti paskirtą mokėjimo terminalą ir raginti vartotoją pasirinkti kasos stalčių ir kvitų spausdintuvą.
 
 ## <a name="overview"></a>Apžvalga
 
@@ -46,7 +46,7 @@ ms.locfileid: "7779775"
 
 ## <a name="supported-pos-clients-and-devices"></a>Palaikomi EKA klientai ir įrenginiai
 
-Šioje temoje aprašytą funkciją palaiko „Modern POS“, skirta „Windows“, ir „Modern POS“, skirta „Android“ EKA klientams.
+Šiame straipsnyje aprašytas funkcijas palaiko "Modern POS", skirta "Windows" ir "Modern POS", skirta Android EKA klientams.
 
 Ši funkcija palaiko prie tinklo prijungtus mokėjimo terminalus ir kvitų spausdintuvus. Galite suteikti kasos stalčiaus palaikymą, prijungdami kasos stalčių prie tinklo prijungto kvitų spausdintuvo per d/k prievadą.
 

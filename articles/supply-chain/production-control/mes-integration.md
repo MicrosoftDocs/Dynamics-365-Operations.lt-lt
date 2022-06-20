@@ -1,6 +1,6 @@
 ---
 title: Integravimas trečiosios šalies gamybos vykdymo sistemose
-description: Šioje temoje paaiškinama, kaip galite integruoti "Microsoft Dynamics 365 Supply Chain Management " į trečiosios šalies gamybos vykdymo sistemą (MES).
+description: Šiame straipsnyje paaiškinama, kaip integruoti "Microsoft Dynamics 365 Supply Chain Management " į trečiosios šalies gamybos vykdymo sistemą (MES).
 author: johanhoffmann
 ms.date: 10/01/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2021-10-01
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: c7633ba32f9265aa0fd8f702552f48dbf675375d
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 208ed2d6c8b411d12888966d9c175730e828eb44
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8678693"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860644"
 ---
 # <a name="integrate-with-third-party-manufacturing-execution-systems"></a>Integravimas trečiosios šalies gamybos vykdymo sistemose
 
@@ -238,7 +238,7 @@ Toliau pateikiamoje lentelėje rodomi laukai, kuriuos palaiko kiekviena `RouteCa
 
 ## <a name="other-production-information"></a>Kita gamybos informacija
 
-Pranešimai palaiko veiksmus ar įvykius, kurie vyksta darbo laiko metu. Jie apdorojami naudojant MES integravimo sistemą, aprašytą šioje temoje. Dizaine laikoma, kad kita nuorodos informacija, kuri bus bendrai naudojama su MES (pvz., su produktu susijusi informacija arba KS ar maršrutas (su konkrečiais nustatymo ir konfigūravimo laikais)), naudojama tam tikroje gamybos užsakyme, [bus](../../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md#data-entities) nuskaitoma iš sistemos, naudojant duomenų objektus per rinkmenos perdavimą ar OData.
+Pranešimai palaiko veiksmus ar įvykius, kurie vyksta darbo laiko metu. Jie apdorojami naudojant MES integravimo sistemą, aprašytą šiame straipsnyje. Dizaine laikoma, kad kita nuorodos informacija, kuri bus bendrai naudojama su MES (pvz., su produktu susijusi informacija arba KS ar maršrutas (su konkrečiais nustatymo ir konfigūravimo laikais)), naudojama tam tikroje gamybos užsakyme, [bus](../../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md#data-entities) nuskaitoma iš sistemos, naudojant duomenų objektus per rinkmenos perdavimą ar OData.
 
 ## <a name="receive-feedback-about-the-state-of-a-message"></a>Gauti grįžtamąjį ryšį apie pranešimo būseną
 
@@ -251,7 +251,7 @@ Po to, kai MES išsiunčia pranešimą tiekimo grandinės valdymui, gali būti s
 
 Tokiais atvejais galite pasinaudoti standartine tiekimo grandinės valdymo įspėjimo funkcija. Informacijos apie tai, kaip veikia standartiniai įspėjimai, ieškokite toliau pateikiamame ištetelyje:
 
-- Žinyno tema: [įspėjimų peržiūra](../../fin-ops-core/fin-ops/get-started/alerts-overview.md)
+- Žinyno straipsnis: [įspėjimų peržiūra](../../fin-ops-core/fin-ops/get-started/alerts-overview.md)
 - Vaizdo įrašas: įspėjimo [taisyklės parinktys Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=cpzimwOjicM&ab_channel=MicrosoftDynamics365)
 
 Pavyzdžiui, galite nustatyti šiuos įspėjimus, kad galėtumėte pateikti atsiliepimus apie pranešimo būseną:

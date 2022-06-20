@@ -1,6 +1,6 @@
 ---
 title: Pašalintos arba nebenaudojamos „Dynamics 365 Commerce“ funkcijos
-description: Šioje temoje aprašomos funkcijos, kurios buvo pašalintos arba kurias planuojama pašalinti iš „Dynamics 365 Commerce“.
+description: Šiame straipsnyje aprašomos priemonės, kurios buvo pašalintos arba suplanuotos pašalinti Dynamics 365 Commerce.
 author: josaw
 ms.date: 04/27/2022
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2020-04-30
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 213ed2091b1f2359f2481b162cba07812b3ffe90
-ms.sourcegitcommit: 9e1129d30fc4491b82942a3243e6d580f3af0a29
+ms.openlocfilehash: 2725ff2b8bfbaadbca1bc070e32cee7c5d2754be
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8649080"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910529"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-commerce"></a>Pašalintos arba nebenaudojamos „Dynamics 365 Commerce“ funkcijos
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje aprašomos funkcijos, kurios buvo pašalintos arba kurias planuojama pašalinti iš „Dynamics 365 Commerce“.
+Šiame straipsnyje aprašomos priemonės, kurios buvo pašalintos arba suplanuotos pašalinti Dynamics 365 Commerce.
 
 - *Pašalinta* funkcija nebėra įtraukta į produktą.
 - *Nerekomenduojama* funkcija nebėra aktyviai tobulinama ir gali būti pašalinta iš būsimo naujinio.
@@ -31,21 +31,21 @@ ms.locfileid: "8649080"
 Šis sąrašas skirtas suteikti jums informacijos apie pašalintas ir nebenaudojamas funkcijas, kad galėtumėte geriau planuoti savo darbą. 
 
 > [!NOTE]
-> Išsamią informaciją apie objektus "Finance and Operations" programose galima rasti techninėse informacinėse [ataskaitose](/dynamics/s-e/). Galite palyginti skirtingas šių ataskaitų versijas, kad sužinotumėte apie objektus, kurie pasikeitė arba buvo pašalinti kiekvienoje "Finance and Operations" programų versijoje.
+> Išsami informacija apie finansų ir operacijų programėlių objektus pateikta techninės [nuorodos ataskaitose](/dynamics/s-e/). Galite palyginti skirtingas šių ataskaitų versijas ir sužinoti apie objektus, kurie buvo pakeisti ar pašalinti kiekvienoje finansų ir operacijų programėlių versijoje.
 
 ## <a name="features-removed-or-deprecated-in-the-commerce-10025-release"></a>Pašalintos arba nebenaudojamos funkcijos, esančios „Commerce“ 10.0.25 versijoje
 
 ### <a name="modern-point-of-sale-mpos"></a>Modernusis elektroninis kasos aparatas (MPOS)
 
-Šiuolaikinės prekybos vietos (MPOS) programa bus nebenaudojama "Commerce" 10.0.25 versijoje ir pakeista "Store Commerce" programa.
+Modernaus pardavimo taškų (MPOS) programa bus pasenusi "Commerce" versijoje 10.0.25 ir pakeista parduotuvės "Commerce" programa.
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Nerekomendavimo/pašalinimo priežastis** | Parduotuvėje esančios programos yra daugiakanalio pasiūlymo kertinis Dynamics 365 Commerce akmuo. Mes nuolat diegiame naujoves, kad suteiktume modernią ir išmanią parduotuvių patirtį, o siekdami toliau modernizuoti savo sprendimą, diegiame naujus pakeitimų rinkinius, kurie žymiai pagerins IT operacijas ir naudotojų patirtį naudojant mūsų esamas parduotuvių programas "Windows". Naujoji "Store Commerce" programa yra esamų MPOS technologijų atnaujinimas. Tai užtikrina geresnį našumą, patikimumą ir ilgalaikį palaikymą "Windows" platformoje ir pašalina poreikį perpakuoti programą su kiekvienu atnaujinimu. |
+| **Nerekomendavimo/pašalinimo priežastis** | Parduotuvės programėlės yra tolydas, siūlantis Dynamics 365 Commerce cornerchannel. Mes nuolat atnaujiname, norėdami suteikti modernaus ir išmanios parduotuvės patirties, ir toliau modernizuoti savo sprendimą, iš naujo nustatome naujus pakeitimų rinkinius, kurie smarkiai pagerins IT operacijas ir vartotojų patirtį kartu su esamomis parduotuvės programomis, esamomis "Windows". Nauja parduotuvės komercijos programa yra esamo MPOS technologijos atnaujinimas. Tai pagerina našumą, patikimumą ir ilgalaikį "Windows" platformos palaikymą, todėl nereikia perpakuoti programos su kiekvienu naujuoju. |
 | **Pakeitė kita funkcija?**   |  [„Store Commerce“](../dev-itpro/store-commerce.md) |
-| **Paveiktos produkto sritys**         | Šiuolaikinė pardavimo vieta |
+| **Paveiktos produkto sritys**         | Modernusis pardavimo taškas |
 | **Visuotinio diegimo parinktis**              | Viskas |
-| **Būsena**                         | Nebenaudojama: nuo "Commerce" 10.0.25 versijos išleidimo MPOS diegimo programa, išsiųsta per LCS virtualias mašinas (VM), bus pašalinta 2023 m. Spalio mėn. |
+| **Būsena**                         | Pasenusi: naudojant "Commerce" 10.0.25 versiją MPOS diegimo programa, išsiųsta per LCS virtualiuosius įrenginius (VMs) bus pašalinta iš "Windows 2023". |
 
 ## <a name="features-removed-or-deprecated-in-the-commerce-10021-release"></a>Pašalintos arba nebenaudojamos funkcijos, esančios „Commerce“ 10.0.21 versijoje
 
@@ -98,7 +98,7 @@ Daugiau informacijos, žr.:
 
 ### <a name="modernpossln-and-cloudpossln-in-the-retail-sdk"></a>ModernPos.Sln ir CloudPos.sln mažmeninės prekybos SDK
 
-EKA plėtinių kūrimas naudojant "ModernPos.sln", "CloudPos.sln, POS. Extension.csproj ir EKA aplankas nebenaudojamas 10.0.21 leidime. Tęskite toliau, naudokite nuo EKA nepriklausomos pakuotės SDK, skirtą EKA plėtinių.
+EKA plėtinio kūrimas naudojant ModernPos.sln, CloudPos.sln, EKA. Extension.csproj ir EKA aplankas yra pasenusias leidime 10.0.21. Tęskite toliau, naudokite nuo EKA nepriklausomos pakuotės SDK, skirtą EKA plėtinių.
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|

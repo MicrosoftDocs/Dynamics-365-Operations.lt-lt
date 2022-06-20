@@ -1,6 +1,6 @@
 ---
-title: Sandėliavimo programėlės diegimas ir prijungimas
-description: Šioje temoje aiškinama, kaip įdiegti sandėliavimo programėlę kiekviename jūsų mobiliajame įrenginyje ir sukonfigūruoti ją, kad prijungtumėte prie „Microsoft Dynamics 365 Supply Chain Management“ aplinkos. Kiekvieną įrenginį galite konfigūruoti neautomatiniu būdu arba galite importuoti ryšio parametrus naudodami failą arba nuskaitydami QR kodą.
+title: Sandėlio programos diegimas ir prijungimas
+description: Šiame straipsnyje paaiškinama, kaip įdiegti sandėlio programą kiekviename iš mobiliųjų įrenginių ir konfigūruoti ją, kad būtų galima prisijungti prie "Microsoft" Dynamics 365 Supply Chain Management aplinkos. Kiekvieną įrenginį galite konfigūruoti neautomatiniu būdu arba galite importuoti ryšio parametrus naudodami failą arba nuskaitydami QR kodą.
 author: Mirzaab
 ms.date: 05/25/2020
 ms.topic: article
@@ -16,26 +16,26 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 9f123f217aabcc7500832fafb15199043048b5e5
-ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
+ms.openlocfilehash: 8ed770e45aa7f9909b98a92b493dd2931c6a3981
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7902276"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885760"
 ---
 # <a name="install-and-connect-the-warehouse-app"></a>Sandėlio programos diegimas ir prijungimas
 
 [!include [banner](../includes/banner.md)]
 
 > [!NOTE]
-> Šioje temoje aprašoma, kaip konfigūruoti senąją sandėlio programą (kuri dabar yra nerekomenduojama). Jei ieškote informacijos apie tai, kaip konfigūruoti naująją sandėlio valdymo mobiliųjų įrenginių programėlę (šiuo metu – viešojoje peržiūros versijoje), žiūrėkite [Sandėlio valdymo mobiliųjų įrenginių programėlės diegimas ir sujungimas](install-configure-warehouse-management-app.md).
+> Šiame straipsnyje aprašoma, kaip konfigūruoti seną sandėlio programą (kuri dabar pasenusi). Jei ieškote informacijos apie tai, kaip konfigūruoti naująją sandėlio valdymo mobiliųjų įrenginių programėlę (šiuo metu – viešojoje peržiūros versijoje), žiūrėkite [Sandėlio valdymo mobiliųjų įrenginių programėlės diegimas ir sujungimas](install-configure-warehouse-management-app.md).
 
 > [!NOTE]
-> Šioje temoje aprašoma, kaip sukonfigūruoti sandėliavimo programą debesies diegimams. Jei ieškote informacijos, kaip konfigūruoti vietiniams visuotiniams diegimams skirtą sandėlio programą, žiūrėkite [Vietinėms visuotinėms įdiegtims skirtas sandėliavimas](../../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md).
+> Šiame straipsnyje aprašoma, kaip konfigūruoti sandėlio programą, skirtą debesies diegimams. Jei ieškote informacijos, kaip konfigūruoti vietiniams visuotiniams diegimams skirtą sandėlio programą, žiūrėkite [Vietinėms visuotinėms įdiegtims skirtas sandėliavimas](../../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md).
 
 Sandėliavimo programėlę galima atsisiųsti iš „Google Play Store" parduotuvės ir „Microsoft Store“. Ji teikiamas kaip atskiras komponentas. Todėl ją turite atsisiųsti į kiekvieną įrenginį ir sukonfigūruoti, kad būtų galima prisijungti prie „Microsoft Dynamics 365 Supply Chain Management“ aplinkos.
 
-Šioje temoje aiškinama, kaip įdiegti sandėliavimo programėlę kiekviename mobiliajame įrenginyje ir sukonfigūruoti ją, kad prijungtumėte prie „Supply Chain Management“ aplinkos. Kiekvieną įrenginį galite konfigūruoti neautomatiniu būdu arba galite importuoti ryšio parametrus naudodami failą arba nuskaitydami QR kodą.
+Šiame straipsnyje paaiškinama, kaip įdiegti sandėlio programą kiekviename iš mobiliųjų įrenginių ir konfigūruoti ją, kad būtų galima prisijungti prie tiekimo grandinės valdymo aplinkos. Kiekvieną įrenginį galite konfigūruoti neautomatiniu būdu arba galite importuoti ryšio parametrus naudodami failą arba nuskaitydami QR kodą.
 
 ## <a name="system-requirements"></a>Sistemos reikalavimai
 
@@ -76,11 +76,11 @@ Norėdami įjungti sandėliavimo programėlę, kad ji sąveikautų su konkrečiu
 
     ![Vedlys registruoti programą.](media/app-connect-azure-register-wizard.png "Vedlys registruoti programą")
 
-1. Atidaroma nauja programos registracija. Pasižymėkite **Programos (kliento) ID** reikšmę, nes jos reikės vėliau. Šis ID vėliau šioje temoje bus minimas kaip *kliento ID*.
+1. Atidaroma nauja programos registracija. Pasižymėkite **Programos (kliento) ID** reikšmę, nes jos reikės vėliau. Šis ID vėliau šiame straipsnyje bus nurodytas kaip kliento *ID*.
 
     ![Programos (kliento) ID.](media/app-connect-azure-app-id.png "Programos (kliento) ID")
 
-1. Sąraše **Valdyti** pasirinkite **Sertifikatas ir slaptieji raktai**. Tada, atsižvelgdami į tai, kaip norite konfigūruoti programą autentifikavimui, pasirinkite vieną iš toliau pateiktų mygtukų. (Daugiau informacijos žr. tolesniame šios temos skyriuje [Autentifikavimas naudojant sertifikatą arba kliento slaptąjį raktą](#authenticate).)
+1. Sąraše **Valdyti** pasirinkite **Sertifikatas ir slaptieji raktai**. Tada, atsižvelgdami į tai, kaip norite konfigūruoti programą autentifikavimui, pasirinkite vieną iš toliau pateiktų mygtukų. (Daugiau informacijos ieškokite [Autentifikuokite vėliau šiame straipsnyje naudodami](#authenticate) sertifikatą arba kliento slaptą skyrių.)
 
     - **Įkelti sertifikatą** – įkelkite sertifikatą, kuris bus naudojamas kaip slaptasis raktas. Rekomenduojame šį būdą, nes jis saugesnis ir gali būti visiškai automatizuotas. Jei sandėliavimo programėlę naudojate „Windows“ įrenginiuose, pasižymėkite rodomą **Nykščio antspaudas** vertę, po to kai įkeliate sertifikatą. Jums reikės šios reikšmės, kai konfigūruosite sertifikatą „Windows“ įrenginiuose.
     - **Naujas kliento slaptasis raktas** – sukurkite raktą įvesdami rakto aprašą ir trukmę dalyje **Slaptažodžiai**, tada pasirinkite **Įtraukti**. Sukurkite rakto kopiją ir saugiai išsaugokite.
@@ -90,7 +90,7 @@ Norėdami įjungti sandėliavimo programėlę, kad ji sąveikautų su konkrečiu
 Daugiau informacijos apie tai, kaip konfigūruoti žiniatinklio tarnybos programas „Azure AD“, ieškokite toliau nurodytuose ištekliuose.
 
 - Instrukcijų, nurodančių, kaip naudoti „Windows PowerShell“ konfigūruojant žiniatinklio tarnybos programas „Azure AD“, ieškokite straipsnyje [Kaip naudoti „Azure PowerShell“ kuriant pagrindinę tarnybą su sertifikatu](/azure/active-directory/develop/howto-authenticate-service-principal-powershell).
-- Norėdami gauti išsamios informacijos apie tai, kaip rankiniu būdu kurti žiniatinklio tarnybos programą „Azure AD“, žr. toliau nurodytas temas.
+- Išsamesnės informacijos apie tai, kaip rankiniu būdu sukurti tinklo tarnybos programą Azure AD, ieškokite šiame straipsnius:
 
     - [„Quickstart“: programos registravimas naudojant „Microsoft“ tapatumo platformą](/azure/active-directory/develop/quickstart-register-app)
     - [Kaip naudoti portalą kuriant „Azure AD“ programą ir pagrindinę tarnybą, galinčią pasiekti išteklius](/azure/active-directory/develop/howto-create-service-principal-portal)
@@ -117,7 +117,7 @@ Norėdami įgalinti „Supply Chain Management“, kad galėtumėte naudoti savo
 
 ## <a name="authenticate-by-using-a-certificate-or-client-secret"></a><a name="authenticate"></a>Autentifikavimas naudojant sertifikatą arba kliento slaptąjį raktą
 
-Autentifikavimas su „Azure AD“ leidžia saugiai prijungti mobilųjį įrenginį prie „Supply Chain Management“. Autentifikuoti galite naudodami kliento slaptąjį raktą arba sertifikatą. Jei importuosite ryšio parametrus, rekomenduojame vietoj kliento slaptojo rakto naudoti sertifikatą. Kliento slaptasis raktas turi būti visada saugomas saugiai, todėl negalite jo importuoti iš ryšio parametrų failo arba QR kodo, kaip aprašyta toliau šioje temoje.
+Autentifikavimas su „Azure AD“ leidžia saugiai prijungti mobilųjį įrenginį prie „Supply Chain Management“. Autentifikuoti galite naudodami kliento slaptąjį raktą arba sertifikatą. Jei importuosite ryšio parametrus, rekomenduojame vietoj kliento slaptojo rakto naudoti sertifikatą. Kliento slaptą kodą visada reikia saugoti saugiai, todėl negalite jo importuoti iš ryšio parametrų failo ar QR kodo, kaip toliau aprašyta šiame straipsnyje.
 
 Sertifikatai gali būti naudojami kaip slaptieji raktai programos tapatybei įrodyti, kai prašomas atpažinimo ženklas. Viešoji sertifikato dalis įkeliama į programos registraciją „Azure“ portale, o visas sertifikatas turi būti įdiegtas kiekviename įrenginyje, kuriame įdiegta sandėliavimo programėlė. Jūsų organizacija atsakinga už sertifikato rotacijos valdymą ir pan. Galite naudoti pasirašomus sertifikatus, bet visada turite naudoti neeksportuotinus sertifikatus.
 

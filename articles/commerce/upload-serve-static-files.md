@@ -1,6 +1,6 @@
 ---
 title: Statinių failų nusiuntimas ir pateikimas
-description: Šioje temoje paaiškina, kaip įkelti statinį failą į „Microsoft Dynamics 365 Commerce“ vietos kūrimo įrankį ir kaip sukurti tinkintą URL ir failo pavadinimą, kurį galima naudoti prašant to failo.
+description: Šiame straipsnyje aprašoma, kaip įkelti statinį Microsoft Dynamics 365 Commerce failą į svetainės generatorių ir kaip sukurti pasirinktinį URL ir failo pavadinimą, kurį galima naudoti norint prašyti to failo.
 author: StuHarg
 ms.date: 11/16/2020
 ms.topic: article
@@ -14,20 +14,20 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 389d33189644241dcf98da0c7f3b841e82a4430ac459dc8027284cecc299b4b1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a1b14feba1466c3a5efc3b0ea66f20e9e818a8a5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714688"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885327"
 ---
 # <a name="upload-and-serve-static-files"></a>Statinių failų nusiuntimas ir pateikimas
 
 [!include [banner](includes/banner.md)]
 
-Šioje temoje paaiškina, kaip įkelti statinį failą į „Microsoft Dynamics 365 Commerce“ vietos kūrimo įrankį ir kaip sukurti tinkintą URL ir failo pavadinimą, kurį galima naudoti prašant to failo.
+Šiame straipsnyje aprašoma, kaip įkelti statinį Microsoft Dynamics 365 Commerce failą į svetainės generatorių ir kaip sukurti pasirinktinį URL ir failo pavadinimą, kurį galima naudoti norint prašyti to failo.
 
-Kai kurios trečiųjų šalių jungtys reikalauja, kad failas būtų patalpintas ir aptarnautas e-komercijos saite. Šios jungtys tikisi, kad failas bus grąžintas pagal užklausas į konkretų atšaukimo URL kelią ir failo pavadinimą. Dėl to, šioje temoje paaiškinta, kaip įkelti ir aptarnauti statinį failą, kuris turi vartotojo nustatytą URL ir failo pavadinimą „Dynamics 365 Commerce“ e-komercijos saite.
+Kai kurios trečiųjų šalių jungtys reikalauja, kad failas būtų patalpintas ir aptarnautas e-komercijos saite. Šios jungtys tikisi, kad failas bus grąžintas pagal užklausas į konkretų atšaukimo URL kelią ir failo pavadinimą. Todėl šiame straipsnyje paaiškinama, kaip įkelti ir naudoti statinį failą, kuriame yra vartotojo apibrėžtas URL Dynamics 365 Commerce ir failo vardas el. komercijos svetainėje.
 
 ## <a name="create-a-site-url-that-returns-a-static-file"></a>Sukurkite saito URL, kuris grąžina statinį failą
 
@@ -86,7 +86,7 @@ Sukūrus URL, jo kelio keisti nebepavyks. Jei privalote keisti URL kelią, kuris
 
 Norėdami keisti URL kelią, atlikite šiuos žingsnius.
 
-1. Norėdami sukurti naują URL ir sudaryti jo žemėlapį į esantį failą ar kitą išteklių, laikykitės šių instrukcijų [Sukurti saito URL, kuris grąžina statinį failą](#create-a-site-url-that-returns-a-static-file) skyrių anksčiau šiame skyriuje.
+1. Norėdami sukurti naują URL ir susieti jį su esamu failu ar kitais ištekliais, vadovaukitės instrukcijomis, [pateiktomis svetainės URL](#create-a-site-url-that-returns-a-static-file) sukurkite, kuris pateikia statinį failo skyrių anksčiau šiame straipsnyje.
 1. Pasirinkite naują URL ir rinkitės **Publikuoti** komandos juostoje. Naujas URL yra publikuotas.
 1. Norėdami nepublikuoti seno URL, pasirinkite jį ir tada rinkitės **Nepublikuoti** komandų juostoje. Dabar jei norite, galite panaikinti seną URL.
 

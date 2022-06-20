@@ -1,6 +1,6 @@
 ---
 title: Dvigubo naudojimo prekės
-description: Šiame skyriuje paaiškinama, kaip sekti gaminius, kurie laikomi dvigubo naudojimo prekėmis, kiekvienos prekės parduotuvės sertifikato numerį ir paskirties vietą bei kaip atspausdinti galiojančius sertifikato numerius reikiamose sąskaitose, pakavimo lipdukus ir (arba) prekybos užsakymus.
+description: Šiame straipsnyje paaiškinama, kaip sekti produktus, kurie nurodyti kaip dvigubo naudojimo prekės, saugoti kiekvienos susijusios produkto ir paskirties šalies sertifikato numerius ir išspausdinti atitinkamus sertifikatų numerius atitinkamose SF, važtaraščiuose ir (arba) pardavimo užsakymuose.
 author: t-benebo
 ms.date: 07/15/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 787d0c4ebcf83d6bfec05943f2bb0ddc5961a93a
-ms.sourcegitcommit: e18ea2458ae042b7d83f5102ed40140d1067301a
+ms.openlocfilehash: 02b154b9ea849c6b905d76edb256c4106b254acd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8736039"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878909"
 ---
 # <a name="dual-use-goods"></a>Dvigubo naudojimo prekės
 
@@ -42,7 +42,7 @@ Apgalvokite šiuos scenarijus:
 
 6. Užsakymas apima X-100 produktą, produktas siunčiamas į Prancūziją ir Prancūzijos sertifikatas yra išduotas produktui. Nepaisant to, sertifikatas nebegalioja. Dėl to, gaunate šią perspėjančią žinutę: „Dvigubo panaudojimo sertifikatas vienam ar keliems dvigubo panaudojimo elementas šiame užsakyme negalioja. Ar norite tęsti patvirtinimą?“
 
-Šiame skyriuje paaiškinama, kaip konfigūruoti visus nustatymus būtinus dvigubo panaudojimo prekių nustatymams ir šio scenarijaus palaikymui.
+Šiame straipsnyje paaiškinama, kaip konfigūruoti visus parametrus, reikalingus norint nustatyti dvigubo naudojimo prekes, ir palaikyti šį scenarijų.
 
 ## <a name="define-dual-use-requirements-for-each-relevant-country"></a>Nustatykite dvigubo panaudojimo reikalavimus kiekvienai būtinai šaliai
 

@@ -1,6 +1,6 @@
 ---
 title: Nuomos patvirtinimo darbo eigų naudojimas
-description: Šioje temoje paaiškinama, kaip naudoti darbo eigas, norint patvirtinti turto nuomą ir kaip stebėti darbo eigos būseną ir retrospektyvą.
+description: Šiame straipsnyje paaiškinama, kaip naudoti darbo eigas turto nuomai patvirtinti ir kaip sekti darbo eigų būseną ir retrospektyvą.
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 0b35dfa599895cb39cdd6a0a95fdcdcc54c45044
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 4205b83919f0b3c30a4b5d8e3290af230f538f39
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8724931"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906448"
 ---
 # <a name="use-lease-approval-workflows"></a>Nuomos patvirtinimo darbo eigų naudojimas
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje paaiškinama, kaip naudoti darbo eigas, norint patvirtinti turto nuomą ir kaip stebėti darbo eigos būseną ir retrospektyvą. Darbo eigos padeda suderinti nuomos patvirtinimų valdymą, suteikiant standartinį patvirtinimo priemonių rinkinį ir priskiriant konkrečius vartotojus, tvirtinančius kiekvieną proceso žingsnį. Tvirtintojas gali patvirtinti nuomą, jį atmesti, prašyti pakeisti arba priskirti jį kitam vartotojui patvirtinti. Be to, darbo eigos gali būti geriau matomos patvirtinimo procese, nes jūs sekate savo būseną ir retrospektyvą. Be to, galite peržiūrėti centralizuotą užduočių sąrašą, kuriame išvardijamos užduotys ir patvirtinimai, priskiriami konkretiems tvirtintojams.
+Šiame straipsnyje paaiškinama, kaip naudoti darbo eigas turto nuomai patvirtinti ir kaip sekti darbo eigų būseną ir retrospektyvą. Darbo eigos padeda suderinti nuomos patvirtinimų valdymą, suteikiant standartinį patvirtinimo priemonių rinkinį ir priskiriant konkrečius vartotojus, tvirtinančius kiekvieną proceso žingsnį. Tvirtintojas gali patvirtinti nuomą, jį atmesti, prašyti pakeisti arba priskirti jį kitam vartotojui patvirtinti. Be to, darbo eigos gali būti geriau matomos patvirtinimo procese, nes jūs sekate savo būseną ir retrospektyvą. Be to, galite peržiūrėti centralizuotą užduočių sąrašą, kuriame išvardijamos užduotys ir patvirtinimai, priskiriami konkretiems tvirtintojams.
 
 Prieš pradėdami naudoti šią procedūrą, įsitikinkite, kad buvo sukurta bent jau nuomos patvirtinimo darbo eiga. Jei nėra darbo eigos, sukurkite ją. Informacijos apie tai, kaip nustatyti darbo eigą, ieškokite [Nuomos tvirtinimo darbo eigų nustatymas](set-up-lease-wrkflw.md).
 

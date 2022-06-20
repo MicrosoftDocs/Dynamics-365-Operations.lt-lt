@@ -1,6 +1,6 @@
 ---
-title: Užsakymo suvestinės tarpinė suma neapima mokesčių mokesčių, naudojant pritaikytus užsakymo suvestinės modulius
-description: Šioje temoje pateikiamos trikčių diagnostikos instrukcijos, kurios gali padėti naudojant pritaikytus užsakymų suvestinės modulius, o užsakymo suvestinės tarpinė suma neapima mokesčių mokesčių į scenarijų "Kaina su PVM".
+title: Užsakymo suvestinės tarpinė suma neapima mokesčių, naudojant pritaikytus užsakymo suvestinės modulius
+description: Šiame straipsnyje pateikiamos trikčių diagnostikos instrukcijos, kurios gali padėti naudojant pritaikytus užsakymų suvestinės modulius, o užsakymo suvestinės tarpinė suma neapima išlaidų mokesčių į scenarijų "Kaina su PVM".
 author: gvrmohanreddy
 ms.date: 05/17/2022
 ms.topic: article
@@ -9,16 +9,16 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2022-04-22
-ms.openlocfilehash: 1a47561a3ac984bc554b5b93546592237c16cf18
-ms.sourcegitcommit: 48d094d083c1bd45c3d72f8b666926b48ec7ae35
+ms.openlocfilehash: 260dcb6bc1585615195e32adfcd1da6bfbca294e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/18/2022
-ms.locfileid: "8767927"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8848842"
 ---
-# <a name="order-summary-subtotal-doesnt-include-taxes-on-charges-when-using-customized-order-summary-modules"></a>Užsakymo suvestinės tarpinė suma neapima mokesčių mokesčių, naudojant pritaikytus užsakymo suvestinės modulius
+# <a name="order-summary-subtotal-doesnt-include-taxes-on-charges-when-using-customized-order-summary-modules"></a>Užsakymo suvestinės tarpinė suma neapima mokesčių, naudojant pritaikytus užsakymo suvestinės modulius
 
-Šioje temoje pateikiamos trikčių diagnostikos instrukcijos, kurios gali padėti naudojant pritaikytus užsakymų suvestinės modulius, o užsakymo suvestinės tarpinė suma neapima mokesčių mokesčių į scenarijų "Kaina su PVM".
+Šiame straipsnyje pateikiamos trikčių diagnostikos instrukcijos, kurios gali padėti naudojant pritaikytus užsakymų suvestinės modulius, o užsakymo suvestinės tarpinė suma neapima išlaidų mokesčių į scenarijų "Kaina su PVM".
 
 ## <a name="description"></a>Aprašymas
 

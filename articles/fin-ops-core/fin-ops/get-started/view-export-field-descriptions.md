@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ea52c39ef1c7d7b62f20da9fe4d94103119ccc23
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 75019f3f9bcd081f32d06971b11429bcdd794240
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069278"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847105"
 ---
 # <a name="view-and-export-field-descriptions"></a>Laukų aprašų peržiūra ir eksportas
 
@@ -91,11 +91,11 @@ Pavyzdžiui, aprašymai nepateikiami lauke **Pasirinkti puslapį** įvedant **Sk
 
 ### <a name="i-cant-find-a-field-description"></a>Nepavyksta rasti lauko aprašo
 
-Mes rengiamės įtraukti sudėtingesnių laukų aprašų. Jei jums reikia pagalbos dėl konkretaus lauko, susisiekite su mumis parašydami komentarą prie šios temos.
+Mes rengiamės įtraukti sudėtingesnių laukų aprašų. Jei jums reikia pagalbos tam tikru lauku, praneškite mums pridėdami šio straipsnio komentarą.
 
 ### <a name="the-field-description-isnt-helpful"></a>Lauko aprašas nenaudingas
 
-Susisiekite su mumis parašydami komentarą prie šios temos. Jei galite, apibūdinkite papildomą informaciją, kuri jums reikalinga.
+Praneškite mums pridėdami šio straipsnio komentarą. Jei galite, apibūdinkite papildomą informaciją, kuri jums reikalinga.
 
 ### <a name="i-cant-find-a-field-on-the-field-descriptions-page"></a>Puslapyje Laukų aprašymai negaliu rasti lauko
 

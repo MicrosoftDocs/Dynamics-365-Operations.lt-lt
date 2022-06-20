@@ -1,6 +1,6 @@
 ---
 title: Kas nauja ar pasikeitė „Dynamics 365 for Operations“ 1611 versijoje (2016 m. lapkričio mėn.)
-description: Šioje temoje aprašomos naujos ir pakeistos „Dynamics 365 for Operations“ 1611 versijos funkcijos.
+description: Šiame straipsnyje aprašomos naujos arba pakeistos Dynamics 365 for Operations 1611 versijos funkcijos.
 author: sericks007
 ms.date: 10/15/2019
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 43a53d5940b2595abb305a08e6f52661bee8ca62
-ms.sourcegitcommit: 4c8223c9540fbc1c1e554962938058d432e4c681
-ms.translationtype: MT
+ms.openlocfilehash: a6e9454baa33e37fe62db2b7bd39ff00891ff855
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/05/2022
-ms.locfileid: "8548086"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8905030"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-operations-version-1611-november-2016"></a>Kas nauja ar pasikeitė „Dynamics 365 for Operations“ 1611 versijoje (2016 m. lapkričio mėn.)
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje aprašomos naujos ir pakeistos „Dynamics 365 for Operations“ 1611 versijos funkcijos.
+Šiame straipsnyje aprašomos naujos arba pakeistos Dynamics 365 for Operations 1611 versijos funkcijos.
 
 ## <a name="cost-accounting"></a>Kaštų apskaita
 

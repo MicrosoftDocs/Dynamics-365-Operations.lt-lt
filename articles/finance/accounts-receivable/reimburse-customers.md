@@ -1,6 +1,6 @@
 ---
 title: Kompensacija klientams
-description: Šioje temoje paaiškinta, kaip kurti klientų grupės kompensavimo operacijas.
+description: Šiame straipsnyje paaiškinta, kaip kurti klientų grupės kompensavimo operacijas.
 author: JodiChristiansen
 ms.date: 09/09/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 47d464dd23d70e1a340211eb83828550d807a543
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 892b089edb16ba560f588c086d37faafdf16958d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8735645"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8891788"
 ---
 # <a name="reimburse-customers"></a>Kompensacija klientams
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje paaiškinta, kaip kurti klientų grupės kompensavimo operacijas. Jei klientas turi kredito balansą, galite kompensuoti klientui balanso sumą. 
+Šiame straipsnyje paaiškinta, kaip kurti klientų grupės kompensavimo operacijas. Jei klientas turi kredito balansą, galite kompensuoti klientui balanso sumą. 
 
 Pateiktoje lentelėje parodytos būtinosios sąlygos, kurias reikia įvykdyti prieš pradedant.
 

@@ -1,6 +1,6 @@
 ---
 title: Įspėjimų dėl apgaulės nustatymas skambučių centre ir jų naudojimas
-description: Šioje temoje paaiškinama, kaip nustatyti taisykles, kad klientų aptarnavimo atstovai užsakymų apdorojimo metu būtų įspėjami apie galimai apgaulingą informaciją. Galite apibrėžti konkrečius kodus, kuriuos naudojant galima automatiškai arba rankiniu būdu sulaikyti įtartinus užsakymus.
+description: Šiame straipsnyje paaiškinama, kaip nustatyti taisykles, naudojamas klientų aptarnavimo atstovams įspėti apie galimai apgaulingą informaciją, kai apdorojami užsakymai. Galite apibrėžti konkrečius kodus, kuriuos naudojant galima automatiškai arba rankiniu būdu sulaikyti įtartinus užsakymus.
 author: josaw1
 ms.date: 05/14/2018
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: e692d43b8c2648a424ff3b4fdc9d0cf16d0e03702d6a237f71caaf49646c5ec3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 212afd594453d3594fdaef9442a7809e4cafbd07
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6763673"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885353"
 ---
 # <a name="set-up-and-work-with-call-center-fraud-alerts"></a>Įspėjimų dėl apgaulės nustatymas skambučių centre ir jų naudojimas
 
 [!include [banner](includes/banner.md)]
 
-Šioje temoje paaiškinama, kaip nustatyti kriterijus ir taisykles, leidžiančias sulaikyti galimai apgaulingus pardavimo užsakymus ir juos peržiūrėti. Apgaulės patikros funkcija naudojama siekiant nustatyti pardavimo užsakymo informacijos pagrįstumą. Jei remiantis organizacijos nustatytais apgaulės kriterijais ir taisyklėmis, pardavimo užsakyme esanti informacija pradeda kelti abejonių, užsakymas gali būti sulaikytas siekiant jį atidžiau peržiūrėti. Tokiu atveju užsakymo negalima išleisti į sandėlį toliau apdoroti, kol nebus atšauktas sulaikymas.
+Šiame straipsnyje paaiškinama, kaip nustatyti kriterijus ir taisykles, pagal kuriuos galima būtų sulaikyti apgaulingus pardavimo užsakymus ir juos toliau peržiūrėti. Apgaulės patikros funkcija naudojama siekiant nustatyti pardavimo užsakymo informacijos pagrįstumą. Jei remiantis organizacijos nustatytais apgaulės kriterijais ir taisyklėmis, pardavimo užsakyme esanti informacija pradeda kelti abejonių, užsakymas gali būti sulaikytas siekiant jį atidžiau peržiūrėti. Tokiu atveju užsakymo negalima išleisti į sandėlį toliau apdoroti, kol nebus atšauktas sulaikymas.
 
 > [!NOTE]
 > Šią funkciją galima naudoti tik apdorojant pardavimo užsakymus, gautus per „Commerce“ skambučių centro kanalą.

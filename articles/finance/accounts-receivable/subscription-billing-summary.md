@@ -1,6 +1,6 @@
 ---
 title: Prenumeratų sąskaitų valdymo apžvalga
-description: Šioje temoje aprašomas prenumeratos atsiskaitymas " Microsoft Dynamics 365 Finance".
+description: Šiame straipsnyje aprašomas abonemento sąskaitų išrašymas " Microsoft Dynamics 365" finansuose.
 author: JodiChristiansen
 ms.date: 04/13/2022
 ms.topic: article
@@ -15,34 +15,34 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2022-02-09
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: 9d46492cca3cc435048fa497f6b1f3a28b77140a
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.openlocfilehash: 10302e9ae7dff3d018897b666caaf4d4289b4866
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8644533"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856747"
 ---
 # <a name="subscription-billing-overview"></a>Prenumeratų sąskaitų valdymo apžvalga
 
 [!include [banner](../includes/banner.md)]
 
-Prenumeratos atsiskaitymas leidžia organizacijoms valdyti prenumeratos pajamų galimybes ir periodinį atsiskaitymą per atsiskaitymo grafikus. Sudėtingi kainodaros ir atsiskaitymo modeliai bei pajamų paskirstymas yra lengvai valdomi ir apmokestinami bei pripažįstami eilutės lygiu. Kelių elementų pajamų paskirstymas leidžia paskirstyti pajamas, kad jos atitiktų tarptautinius apskaitos standartus (15-asis \[tarptautinis finansinės atskaitomybės standartas 15 TFAS 15\]) ir visuotinai pripažintus apskaitos principų (JAV BAP) standartus (Apskaitos standartų kodifikavimo tema 606 \[ASC 606\]).
+Abonemento sąskaitų išrašymas leidžia organizacijoms valdyti abonemento įplaukų galimybes ir periodinius sąskaitų pateikimo grafikus. Sudėtingas įkainojimo ir atsiskaitymo modelis bei įplaukų paskirstymas yra lengvai valdomi ir išrašomos bei atpažįstamos eilutės lygiu. Kelių elementų įplaukų paskirstymas įgalina įplaukų paskirstymą siekiant laikytis Tarptautinių apskaitos standartų (Tarptautinis 15 IFRS 15 \[\] standartas) ir bendrai priimtų apskaitos principų (JAV GAAP) standartų (Apskaitos standartų kodifikavimo tema 606 \[ASC 606\]).
 
-Sprendimas turi tris modulius, kuriuos galima naudoti savarankiškai. Arba visi trys moduliai gali būti naudojami kartu.
+Sprendimas turi tris modulius, kuriuos galima naudoti atskirai. Taip pat kartu galima naudoti visus tris modulius.
 
-- **Pasikartojantis sutarties atsiskaitymas** – šis modulis leidžia pasikartojančiam atsiskaitymui ir kainų valdymui kontroliuoti kainodaros ir atsiskaitymo parametrus, atnaujinti sutartį ir konsoliduotą SF išrašymą.
-- **Pajamų ir išlaidų atidėjimai** - Šis modulis pašalina rankinius procesus ir priklausomybę nuo išorinių sistemų, valdydamas pajamas ir įgalindamas realaus laiko įžvalgas apie mėnesines pasikartojančias pajamas.
-- **Kelių elementų pajamų paskirstymas** – šis modulis padeda laikytis pajamų tvarkant kainodarą ir pajamų paskirstymą keliems elementams.
+- **Pasikartojantis sutarties atsiskaitymas** – šis modulis įgalina periodinį atsiskaitymą ir kainos valdymą, siekiant užtikrinti kainodaros ir atsiskaitymo parametrų valdymą, sutarties atnaujinimą ir konsoliduotą SF išrašymą.
+- **Įplaukų ir išlaidų atidėjimai – šis modulis pašalina rankinius** procesus ir priklausomybę nuo išorinių sistemų valdydami įplaukas ir įgalindami realiuoju laiku informacijos apie pasikartojančias mėnesio įplaukas.
+- **Kelių elementų įplaukų paskirstymas** – šis modulis padeda užtikrinti įplaukų atitikimą tvarkant kelių prekių kainodarą ir įplaukų paskirstymą.
 
-Daugiau informacijos apie prenumeratos atsiskaitymą ieškokite [Subscription billing Power BI content](sub-bill-power-bi.md).
+Daugiau informacijos apie abonemento sąskaitų išrašymo informaciją žr. [Abonemento atsiskaitymo Power BI turinys](sub-bill-power-bi.md).
 
-Prenumeratos atsiskaitymas įgalintas valdant **funkcijas**. Tačiau jo negalima naudoti su pajamų atpažinimo **funkcija**. Todėl prieš įgalindami prenumeratos atsiskaitymą turite išjungti šią funkciją.
+Abonemento sąskaitos išrašymas įgalintas naudojant **funkcijų valdymą**. Tačiau jo negalima naudoti su įplaukų pripažinimo **funkcija**. Todėl prieš įjungdami abonemento sąskaitų apmokėjimą turite išjungti šią funkciją.
 
-1. **Darbo srities Funkcijų valdymas** skirtuke **Visi** filtre įveskite **Įplaukų atpažinimas**, tada kaip filtrą pasirinkite funkcijos pavadinimą.
+1. Funkcijų valdymo **darbo srityje**, skirtuke **Viskas**, **filtre** įveskite Įplaukų atpažinimą, tada kaip filtrą pasirinkite priemonės pavadinimą.
 2. Pasirinkite įplaukų **atpažinimo** funkciją, tada pasirinkite **Išjungti**.
-3. Dalyje **Funkcijų pavadinimo** filtras įveskite **Prenumeratos atsiskaitymas**, tada pasirinkite modulio filtrą.
-4. **Pasirinkite prenumeratos atsiskaitymo** funkciją, tada pasirinkite **Įgalinti**.
-5. Pasirinkite vieną iš trijų modulių iš ankstesnio sąrašo, tada pasirinkite **Įgalinti**. Pakartokite šį veiksmą kiekvienam iš kitų dviejų modulių.
+3. Funkcijų **vardų** filtre įveskite **Abonemento atsiskaitymas**, tada pasirinkite modulio filtrą.
+4. Pasirinkite Abonemento **atsiskaitymo funkciją**, tada pasirinkite **Įgalinti**.
+5. Iš ankstesnio sąrašo pasirinkite vieną iš trijų modulių, tada pasirinkite **Įgalinti**. Pakartokite šį žingsnį su kiekvienu iš kitų dviejų modulių.
 
     > [!IMPORTANT]
-    > Prenumeratos **atsiskaitymo funkcija turi būti įjungta prieš įgalinant** bet kurį iš trijų modulių.
+    > Kad **būtų galima įgalinti** bet kurį iš trijų modulių, pirmiausia reikia įgalinti abonemento atsiskaitymo funkciją.

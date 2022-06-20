@@ -1,6 +1,6 @@
 ---
 title: „Dynamics 365 Supply Chain Management“ (Turto valdymas) integravimas su „Dynamics 365 Guides“
-description: Šioje temoje paaiškinama, kaip integruoti „Microsoft Dynamics 365 Supply Chain Management“ modulį „Turto valdymas“ į „Dynamics 365 Guides“, kad kasdienėse paslaugose ir priežiūros darbo eigose būtų galima pasinaudoti mišriosios realybės vadovų teikiamomis galimybėmis.
+description: Šiame straipsnyje paaiškinama, kaip integruoti turto valdymo modulį į "Microsoft Dynamics 365 Supply Chain Management Dynamics 365 Guides ", kad būtų galima naudoti įvairių procedūrų vadovus kasdienėse aptarnavimo ir priežiūros darbo eigose.
 author: johanhoffmann
 ms.date: 04/28/2020
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-04-28
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: 4132992eb5f4b42d43d9ff72cada616fe0573c2f
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: d06978bcbd6205111384f5c7cefdf34fdbdbfbf5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7568260"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8875690"
 ---
 # <a name="integrate-dynamics-365-supply-chain-management-asset-management-with-dynamics-365-guides"></a>„Dynamics 365 Supply Chain Management“ (Turto valdymas) integravimas su „Dynamics 365 Guides“
 
@@ -47,7 +47,7 @@ Vadovui susieti, modulyje „Turto valdymas“ naudojama prižiūrimo turto kont
 
 Norėdami susieti vadovą su prižiūrimo turto kontrolinio sąrašo šablonu, atlikite toliau nurodytus veiksmus.
 
-1. Sukurkite vadovą naudodami „Dynamics 365 Guides“ kompiuterio ir „HoloLens“ programas. Daugiau informacijos, kaip kurti vadovą, žr. tolesnėse temose.
+1. Sukurkite vadovą naudodami „Dynamics 365 Guides“ kompiuterio ir „HoloLens“ programas. Informacijos apie tai, kaip sukurti vadovą, ieškokite šiame straipsnius:
 
     - [Kompiuterio programos naudojimas vadovui kurti](/dynamics365/mixed-reality/guides/pc-app-overview)
     - [„HoloLens“ programos naudojimas hologramoms uždėti](/dynamics365/mixed-reality/guides/hololens-app-overview)

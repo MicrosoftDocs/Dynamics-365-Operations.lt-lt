@@ -1,6 +1,6 @@
 ---
 title: Finansinės dimensijos ir registravimas
-description: Planuodami ir nustatydami sąskaitų planą turite apsvarstyti, kaip įvairūs komponentai veiks kartu registruojant dokumentą ar žurnalą. Šie komponentai apima sąskaitų struktūras, išplėstines taisykles, balansavimą ir fiksuotas dimensijas. Šioje temoje paaiškinta, kas yra kiekvienas komponentas ir kaip komponentai veikia kartu.
+description: Planuodami ir nustatydami sąskaitų planą turite apsvarstyti, kaip įvairūs komponentai veiks kartu registruojant dokumentą ar žurnalą. Šie komponentai apima sąskaitų struktūras, išplėstines taisykles, balansavimą ir fiksuotas dimensijas. Šiame straipsnyje paaiškinama, kas yra kiekvienas komponentas ir kaip komponentai veikia kartu.
 author: aprilolson
 ms.date: 08/04/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: a612f3b703349e1cffe300b75afd44e72ae63b2c
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: a165c4084a9f2075a54c99a7e4913a4e3c3dfe55
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722805"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910119"
 ---
 # <a name="financial-dimensions-and-posting"></a>Finansinės dimensijos ir registravimas 
 
 [!include [banner](../includes/banner.md)]
 
-Planuodami ir nustatydami sąskaitų planą turite apsvarstyti, kaip įvairūs komponentai veiks kartu registruojant dokumentą ar žurnalą. Šie komponentai apima sąskaitų struktūras, išplėstines taisykles, balansavimą ir fiksuotas dimensijas. Šioje temoje paaiškinta, kas yra kiekvienas komponentas ir kaip komponentai veikia kartu.
+Planuodami ir nustatydami sąskaitų planą turite apsvarstyti, kaip įvairūs komponentai veiks kartu registruojant dokumentą ar žurnalą. Šie komponentai apima sąskaitų struktūras, išplėstines taisykles, balansavimą ir fiksuotas dimensijas. Šiame straipsnyje paaiškinama, kas yra kiekvienas komponentas ir kaip komponentai veikia kartu.
 
 ## <a name="chart-of-accounts-and-financial-dimension-components"></a>Sąskaitų plano ir finansinių dimensijų komponentai
 
@@ -46,7 +46,7 @@ Galima pasirinktinai nurodyti balansavimo finansinę dimensiją. Puslapyje **DK*
 
 ### <a name="defaultfixed-financial-dimensions-on-the-main-account"></a>Numatytosios / pataisytos finansinės dimensijos pagrindinėje sąskaitoje
 
-Numatytosios dimensijos gaunamos iš įvairių vietų, pagrindinius pvz., pagrindinių įrašų (kliento ar tiekėjo įrašų), dokumentų antraščių ir pagrindinės sąskaitos. Šioje temoje dėmesys skiriamas numatytosioms dimensijoms pagrindinėje sąskaitoje pagal juridinį subjektą. Galima nurodyti, ar pagrindinė sąskaita turi **Nefiksuotą** ar **Fiksuotą** vertę kiekvienai finansinei dimensijai, naudojamai visose DK sąskaitos struktūrose. Jei finansinė dimensija yra **Nefiksuota**, ji naudoja numatytąją vertę, tačiau tos vertės negalima perrašyti. Tokia veiksena taikoma visoms numatytosioms vertėms sistemoje, net numatytosioms vertėms, gaunamoms iš pagrindinių įrašų. Jei finansinė dimensija yra **Fiksuotos** vertės, ta vertė taikoma visada, nepriklausomai nuo to, ar gauta iš kur nors kaip numatytoji vertė, ar ją įvedė vartotojas.
+Numatytosios dimensijos gaunamos iš įvairių vietų, pagrindinius pvz., pagrindinių įrašų (kliento ar tiekėjo įrašų), dokumentų antraščių ir pagrindinės sąskaitos. Šiame straipsnyje daugiausia dėmesio skiriama juridinio subjekto numatytosios pagrindinės sąskaitos dimensijoms. Galima nurodyti, ar pagrindinė sąskaita turi **Nefiksuotą** ar **Fiksuotą** vertę kiekvienai finansinei dimensijai, naudojamai visose DK sąskaitos struktūrose. Jei finansinė dimensija yra **Nefiksuota**, ji naudoja numatytąją vertę, tačiau tos vertės negalima perrašyti. Tokia veiksena taikoma visoms numatytosioms vertėms sistemoje, net numatytosioms vertėms, gaunamoms iš pagrindinių įrašų. Jei finansinė dimensija yra **Fiksuotos** vertės, ta vertė taikoma visada, nepriklausomai nuo to, ar gauta iš kur nors kaip numatytoji vertė, ar ją įvedė vartotojas.
 
 ## <a name="order-in-which-default-dimensions-are-applied-during-posting"></a>Tvarka, kuria dimensijos taikomos atliekant registravimą
 

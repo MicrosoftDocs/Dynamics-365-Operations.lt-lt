@@ -1,6 +1,6 @@
 ---
 title: Išleidimo į sandėlį taisyklė
-description: Šioje temoje pateikiama informacija apie išleidimo į sandėlį taisyklę, suteikiančią lankstumo išleidimo į sandėlį metu. Jis prideda konfigūracijos parinktį, kontroliuojančią, ar sistema leidžia išleisti iš dalies rezervuotas užsakymo eilutes.
+description: Šiame straipsnyje pateikiama informacija apie išleidimo į sandėlį taisyklės priemonę, kuri suteikia lankstumo išleidžiant į sandėlį. Jis prideda konfigūracijos parinktį, kontroliuojančią, ar sistema leidžia išleisti iš dalies rezervuotas užsakymo eilutes.
 author: Mirzaab
 ms.date: 07/01/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 5fef1d942f2e9d3467fb8a00c6d89cc5c018a5aa
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: c011938438be32e8a3169d90561ab329da32e32a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8674623"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895473"
 ---
 # <a name="release-to-warehouse-rule"></a>Išleidimo į sandėlį taisyklė
 
@@ -78,7 +78,7 @@ Taip pat galite naudoti šiuos scenarijus kaip vedlį, kaip naudotis funkcija di
 Šis scenarijus nurodo, kaip funkcija veikia sandėliams, kurie yra nustatyti **Reikalauti visiško rezervavimo**.
 
 1. Eikite į **Sandėlio valdymas \> Sąranka \> Sandėlis \> Sandėliai**.
-1. Norėdami nustatyti _62_ sandėlį, nustatykite lauką **Atsargų rezervavimo reikalavimas** į **Reikalauti visiško rezervavimo**, kaip aprašyta ankstesniame šios temos skyriuje [Nustatyti išleidimo į sandėlį taisyklę kiekvienam sandėliui](#set-option-warehouse).
+1. Lauke Sandėlis _62_ **·** **·**[nustatykite](#set-option-warehouse) atsargų rezervavimo reikalavimą kaip nurodyta anksčiau šiame straipsnyje skyriuje Nustatyti kiekvieno sandėlio skyriaus išleidimo į sandėlį taisyklę.
 1. Pasirinkite **Pardavimas ir rinkodara \> Pardavimo užsakymai \> Visi pardavimo užsakymai**.
 1. Pasirinkite **Naujas**, kad sukurtumėte pardavimo užsakymą.
 1. Dialogo lange **Sukurti pardavimo užsakymą** nustatykite šias vertes:
@@ -112,7 +112,7 @@ Taip pat galite naudoti šiuos scenarijus kaip vedlį, kaip naudotis funkcija di
 Šis scenarijus parodo, kaip funkcija veikia sandėliams, kurie yra nustatyti **Leisti dalinį rezervavimą**.
 
 1. Eikite į **Sandėlio valdymas \> Sąranka \> Sandėlis \> Sandėliai**.
-1. _62_ sandėlio lauką **Atsargų rezervavimo reikalavimas** nustatykite į **Leisti dalinį rezervavimą**, kaip aprašyta ankstesniame šios temos skyriuje [Nustatyti išleidimo į sandėlį taisyklę kiekvienam sandėliui](#set-option-warehouse).
+1. Nustatykite 62 sandėlio atsargų rezervavimo lauką Reikalavimas, _·_ **kad** leisti dalinį rezervavimą, **kaip** nurodyta anksčiau šiame straipsnyje nustatytame kiekvieno sandėlio skyriaus išleidimo į sandėlį taisyklėje.[...](#set-option-warehouse)
 1. Kaip ir [ankstesniame scenarijuje](#scenario1), eikite į **Pardavimai ir rinkodara \> Pardavimo užsakymai \> Visi pardavimo užsakymai** ir sukurkite pardavimo užsakymą kliento paskyrai _US-004_ iš sandėlio _62_. Įtraukite šias dvi užsakymo eilutes:
 
     - **1 eilutė:** Nustatykite lauką **Prekės numeris** į _A0001_, lauką **Kiekis** į _2_ ir **Vienetas** lauką į _vnt_.

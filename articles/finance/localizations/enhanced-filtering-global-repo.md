@@ -1,6 +1,6 @@
 ---
 title: RCS patobulintas filtravimas RCS / bendrojoje saugykloje
-description: Šioje temoje aprašomos išplėstos RCS visuotinės saugyklos filtravimo galimybės, dėl kurių galima įtraukti papildomus filtrus.
+description: Šiame straipsnyje aprašomos patobulintos RCS visuotinio saugyklos filtravimo galimybės, pagerintos įtraukiant papildomus filtrus.
 author: JaneA07
 ms.date: 04/24/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-02-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 2def3b653ac7c90318feb696c0dd197217ac29f64f0f08d26a7069918c67922b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a343b9f1af68a727cb2a8d1e390f85e10aab2d39
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6778117"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901218"
 ---
 # <a name="rcs-enhanced-filtering-options-for-finding-configurations-in-the-rcsglobal-repository"></a>RCS patobulintos filtravimo parinktys, ieškant konfigūracijų RCS / bendrojoje saugykloje
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje aprašomos patobulintos „Regulatory Configuration Service“ (RCS) bendrosios saugyklos galimybės, dėl kurių galima filtruoti, kai taikomi toliau nurodyti kriterijai. 
+Šiame straipsnyje aprašomos patobulintos reguliavimo konfigūracijos tarnybų (RCS) visuotinio saugyklos filtravimo galimybės, pagerintos galimybės filtruoti pagal šiuos kriterijus: 
 - **Šalis / regionas** – pagal ISO šalių kodus  
 - **Žymų** tipai, skirti toliau nurodytiems dalykams.
   - Funkcinė sritis
@@ -42,7 +42,7 @@ Galite patikslinti iešką pasirinkdami dokumento tipą, pvz., tiekėjo SF, ir s
 
 [![Verslo dokumento tipo filtravimas ir importavimas.](media/rcs-enhanced-filtering-applied.JPG)](./media/rcs-enhanced-filtering-applied.JPG) 
 
-Filtruotus rezultatus galima importuoti į vartotojo RCS saugyklą arba „Dynamics 365 Finance” aplinką atskirai arba kaip rinkinį. Norėdami tai atlikti, pasirinkite konfigūracijų grupę ir spustelėkite **Importuoti**.
+Filtruoti rezultatai gali būti importuojami į vartotojų RCS saugyklą arba į "Dynamics 365" finansų aplinką, individualiai arba kaip rinkinys. Norėdami tai atlikti, pasirinkite konfigūracijų grupę ir spustelėkite **Importuoti**.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

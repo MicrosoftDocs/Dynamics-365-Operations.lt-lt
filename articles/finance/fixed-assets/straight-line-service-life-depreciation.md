@@ -1,6 +1,6 @@
 ---
 title: Tiesiogiai proporcingas nusidėvėjimas
-description: Šioje temoje apžvelgiamas tiesioginio eksploatavimo trukmės nusidėvėjimo metodas.
+description: Šiame straipsnyje apžvelgiamas tiesiogiai proporcingo nusidėvėjimo metodas.
 author: moaamer
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d39bfea3f222d83d3b3d47e4ba931521b8e1aed0
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 8766d38958ccb17142132fb78d04368f1b73af71
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726675"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896469"
 ---
 # <a name="straight-line-service-life-depreciation"></a>Tiesiogiai proporcingas nusidėvėjimas
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje apžvelgiamas tiesioginio eksploatavimo trukmės nusidėvėjimo metodas.
+Šiame straipsnyje apžvelgiamas tiesiogiai proporcingo nusidėvėjimo metodas.
 
 Kai nustatote ilgalaikio turto nusidėvėjimo šabloną ir puslapio Nusidėvėjimo šablonai lauke Metodas pasirenkate Tiesiogiai proporcingas dėvėjimo laikas, turto, kuriam priskirtas šis nusidėvėjimo šablonas, nusidėvėjimo skaičiavimas bus paremtas bendra turto dėvėjimo laiko trukme. Paprastai tai būna ta pati nusidėvėjimo suma kiekvienu nusidėvėjimo laikotarpiu. 
 
@@ -41,7 +41,7 @@ Puslapio Nusidėvėjimo šablonai lauke Nusidėvėjimo metai galite pasirinkti K
 
 Jei pasirenkamas Kalendorius, metais laikomas laikotarpis nuo sausio 1 d. iki gruodžio 31 d., net jei finansinį kalendorių esate nustatę kitaip. 
 
-Pasirinktis Kalendorius kasmet sausio 1 d. atnaujina nusidėvėjimo pagrindą (paprastai tai būna suma, gauta iš balansinės vertės atėmus likvidacinę vertę). Toliau šioje temoje pateiktuose pavyzdžiuose nusidėvėjimo pagrindas yra skaičiavimų stulpelyje nurodytas pirmos išraiškos skaitiklis. 
+Pasirinktis Kalendorius kasmet sausio 1 d. atnaujina nusidėvėjimo pagrindą (paprastai tai būna suma, gauta iš balansinės vertės atėmus likvidacinę vertę). Toliau šiame straipsnyje pateiktiuose pavyzdžiuose nusidėvėjimo pagrindas yra stulpelyje Skaičiavimas, nurodytas pirmos skaičiavimo išraiškos skaitiklis. 
 
 Jei pasirinksite Kalendorius, lauke Laikotarpio dažnis galimos toliau nurodytos pasirinktys, nurodančios kalendorinių metų faktines nusidėvėjimo registravimo datas ir sumas.
 - Pasirinkus Kasmet, suma registruojama gruodžio 31 d.

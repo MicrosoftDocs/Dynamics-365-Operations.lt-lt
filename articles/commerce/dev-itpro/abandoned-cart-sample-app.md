@@ -1,6 +1,6 @@
 ---
 title: Aptikti paliktus krepšelius ir siųsti klientams pranešimus
-description: Šioje temoje aprašoma, kaip pritaikyti paliekamos Microsoft Dynamics 365 Commerce krepšelio jungties pavyzdį programą, kad būtų aptikti paliekami krepšeliai ir išsiųsti priminimo el. paštu pranešimus klientams.
+description: Šiame straipsnyje aprašoma, kaip pritaikyti paliekamos krepšelio Microsoft Dynamics 365 Commerce jungties pavyzdį programą, kad būtų aptikti paliekami krepšeliai ir išsiųsti priminimo el. paštu pranešimus klientams.
 author: bicyclingfool
 ms.date: 02/25/2022
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: 1db4e988653aa55db2b18fb201edeafc4d16a1bc
-ms.sourcegitcommit: ab690bc897699ff8a4c489e749251fe0367050ca
+ms.openlocfilehash: 707640ca211e997533d0f5a0b4e6d52cb5be9db4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/26/2022
-ms.locfileid: "8489035"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899215"
 ---
 # <a name="detect-abandoned-carts-and-send-notifications-to-customers"></a>Aptikti paliktus krepšelius ir siųsti klientams pranešimus
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje aprašoma, kaip pritaikyti paliekamos Microsoft Dynamics 365 Commerce krepšelio jungties pavyzdį programą, kad būtų aptikti paliekami krepšeliai ir išsiųsti priminimo el. paštu pranešimus klientams.
+Šiame straipsnyje aprašoma, kaip pritaikyti paliekamos krepšelio Microsoft Dynamics 365 Commerce jungties pavyzdį programą, kad būtų aptikti paliekami krepšeliai ir išsiųsti priminimo el. paštu pranešimus klientams.
 
 Gebėjimas atkurti įplaukas ir išlaikyti klientus per paliekant krepšelio pranešimus yra svarbus pajėgumas, kuris Dynamics 365 Commerce palaiko. Pritaikant "Commerce" paliktos krepšelio jungties pavyzdinę programą, mažmenininkai gali pasiekti "Retail Server" pirkimo krepšelius, kurie nebuvo modifikuoti per laiko langą, kurį nurodo mažmenininkai. Tada šiuos krepšelius galima nuskaityti, papildyti produkto ir kliento duomenimis ir perduoti trečiosios šalies rinkodaros el. paštu tiekėjui, kuris gali generuoti el. paštu siunčiamus pranešimus ir siųsti juos klientams.
 
@@ -52,7 +52,7 @@ Jungties modelis, kurį "Microsoft" pateikia per "Retail" programinės įrangos 
 
 ## <a name="obtain-the-code-sample"></a>Gauti kodo pavyzdį
 
-Paliekama krepšelio jungties pavyzdžio programa įtraukiama į "Retail" SDK versijoje 10.0.16. Kodą galima rasti RetailSDKCodeSampleExtensionsRetailServerExtensions.ArtSample **\\\\\\\\\\ paliekamas.** Daugiau informacijos apie "Retail SDK" ir jo gavimo vietą ieškokite "Retail" programinės [įrangos kūrimo rinkinyje (SDK).](retail-sdk/retail-sdk-overview.md)
+Paliekama krepšelio jungties pavyzdžio programa įtraukiama į "Retail" SDK versijoje 10.0.16. Kodą galima rasti kode **\\ RetailSDK\\ Code\\ SampleExtensions\\ RetailServer\\ plėtiniai.UžduotasCartSample**. Daugiau informacijos apie "Retail SDK" ir jo gavimo vietą ieškokite "Retail" programinės [įrangos kūrimo rinkinyje (SDK).](retail-sdk/retail-sdk-overview.md)
 
 > [!NOTE]
 > Nors pavyzdžio kodas pirmą kartą buvo pasiekiamas naudojant 10.0.16 versiją, jis suderinamas su 10.0.13 versija ir vėlesnėmis "Retail Server" versijomis.
@@ -160,6 +160,6 @@ Jei naudojatės el. prekybos galimybėmis "Commerce", produktų vaizdams nuskait
 | ImageViewPorts / viewport              | Rodinio prievado apibrėžimas. Naudokite šią ypatybę, jei norite nurodyti rodinio pločio diapazonus pikseliais. Pavyzdžiui, kaip naudojama ši ypatybė, žr. **appSettings.json** konfigūracijos failą. |
 | ImageViewPorts/imageWidth            | Rodinio vaizdo plotis pikseliais. |
 | imageViewPorts/imageHe dk           | Rodinio vaizdo aukštis pikseliais. |
-| imageViewPorts/useForDefaultImageTag | Truefalse **vertė, nurodanti, ar viewport**/**apibrėžtos vaizdo dimensijos turi būti naudojamos, jei HTML žymė nepalaikoma interneto naršyklėje**, ar el. pašto klientui.`<picture>` |
+| imageViewPorts/useForDefaultImageTag | Teisinga **klaidinga**/**vertė**, kuri nurodo, ar vaizdo dimensijos, kurias apibrėžia viewport `<picture>`, turi būti naudojamos, jei HTML žymė nepalaikoma žiniatinklio naršyklėje ar el. pašto kliento programoje. |
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

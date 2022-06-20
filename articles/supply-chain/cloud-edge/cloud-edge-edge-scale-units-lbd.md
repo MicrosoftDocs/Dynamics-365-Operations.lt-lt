@@ -1,6 +1,6 @@
 ---
 title: Briaunos skalės vienetų diegimas pasirinktinėje aparatūroje naudojant LBD
-description: Šioje temoje paaiškinama, kaip parengti vietinės briaunos svarstyklių vienetus naudojant pasirinktinę aparatūrą ir diegimą, pagrįstą vietinės verslo duomenimis (LBD).
+description: Šiame straipsnyje paaiškinama, kaip parengti vietinės svarstyklių vienetus naudojant pasirinktinę aparatūrą ir diegimą, pagrįstą vietinės verslo duomenimis (LBD).
 author: Mirzaab
 ms.date: 01/24/2022
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-04-13
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 540ac1f6d69d869256f49b8501e18966575903fa
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 794de8c0d77949789e4046418ac2b55dba1bee02
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8674092"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8882756"
 ---
 # <a name="deploy-edge-scale-units-on-custom-hardware-using-lbd"></a>Briaunos skalės vienetų diegimas pasirinktinėje aparatūroje naudojant LBD
 
@@ -27,7 +27,7 @@ Kraštų skalės vienetai atlieka svarbus vaidmenį paskirstytoje tiekimo grandi
 
 Kraštų skalės vienetus galima įdiegti sukuriant vietinę verslo duomenų (LBD) aplinką ir sukonfigūruojant [šią aplinką, kad](../../fin-ops-core/dev-itpro/deployment/on-premises-deployment-landing-page.md) ji veiktų kaip skalės vienetas jūsų paskirstytoje „supply chain management“ topologijoje. Tai pasiekiama susieant vietinę LBD aplinką su „Supply Chain Management“ aplinka debesyje, kuri sukonfigūruota veikti kaip centras.  
 
-Šioje temoje aprašoma, kaip nustatyti vietinę LBD aplinką kaip kraštų skalės vienetą ir susieti ją su centru.
+Šiame straipsnyje aprašoma, kaip nustatyti vietinę LBD aplinką kaip kraštų skalės vienetą ir susieti ją su centru.
 
 ## <a name="infrastructure-considerations"></a>Infrastruktūros aplinkybės
 
@@ -44,21 +44,21 @@ Toliau pateikta talpinimo veiksmų apžvalga.
 
 1. **Nustatykite ir įdiekite LBD aplinką su tuščia *duomenų* baze.**
 
-    Norėdami įdiegti LBD aplinką su naujausia topologija ir tuščia duomenų baze, naudokite LCS. Norėdami gauti daugiau informacijos, žr. [nustatymą ir toliau šioje temoje įdiekite LBD aplinką](#set-up-deploy) su tuščiu duomenų bazės sekcija. Turite naudoti tiekimo grandinės valdymo 10.0.21 arba vėlesnę versiją visose centro ir skalės vieneto aplinkose.
+    Norėdami įdiegti LBD aplinką su naujausia topologija ir tuščia duomenų baze, naudokite LCS. Norėdami gauti daugiau informacijos, žr. nustatymą [ir toliau šiame straipsnyje įdiekite LBD](#set-up-deploy) aplinką su tuščiu duomenų bazės sekcija. Turite naudoti tiekimo grandinės valdymo 10.0.21 arba vėlesnę versiją visose centro ir skalės vieneto aplinkose.
 
 1. **Įkelkite paskirties paketus į LBD projekto turtą LCS.**
 
-    Paruoškite programą, platformą ir tinkinimo paketus, kuriuos naudojate tarp centro ir kraštų skalės vieneto. Norėdami gauti daugiau informacijos, [toliau šioje temoje skyriuje LDB projekto turtą rasite nusiuntimo paskirties paketus](#upload-packages).
+    Paruoškite programą, platformą ir tinkinimo paketus, kuriuos naudojate tarp centro ir kraštų skalės vieneto. Norėdami gauti daugiau informacijos, toliau šiame [straipsnyje skyriuje LCS](#upload-packages) rasite nusiuntimo paskirties paketus į LBD projekto turtą.
 
 1. **LBD aplinkos aptarnavimas su paskirties pakuotėmis.**
 
-    Šis žingsnis užtikrina, kad ta pati versija ir pritaikymai yra įdiegti centre ir toliau. Norėdami gauti daugiau informacijos, toliau šioje [temoje žr. skyrių Paslauga LBD aplinkoje](#service-target-packages) su paskirties paketais.
+    Šis žingsnis užtikrina, kad ta pati versija ir pritaikymai yra įdiegti centre ir toliau. Norėdami gauti daugiau informacijos, toliau šiame [straipsnyje žr. skyrių Paslauga LBD](#service-target-packages) aplinkoje su paskirties pakuotėmis.
 
 1. **Atlikite skalės vieneto konfigūravimą ir darbo krūvio priskyrimą.**
 
-    Norėdami gauti daugiau informacijos, toliau šioje [temoje žr. skyrių Priskirti savo LBD krašto skalės](#assign-edge-to-hub) vienetą prie centro skyriaus.
+    Norėdami gauti daugiau informacijos, toliau šiame [straipsnyje žr. skyrių "Priskirti savo LBD krašto](#assign-edge-to-hub) skalės vienetą" prie centro skyriaus.
 
-Likusiuose šios temos skyriuose pateikiama daugiau informacijos, kaip atlikti šiuos veiksmus.
+Likusiuose šio straipsnio skyriuose pateikiama daugiau informacijos apie tai, kaip atlikti šiuos veiksmus.
 
 ## <a name="set-up-and-deploy-an-lbd-environment-with-an-empty-database"></a><a name="set-up-deploy"></a>Nustatykite ir įdiekite LBD aplinką su tuščia duomenų baze
 
@@ -67,7 +67,7 @@ Likusiuose šios temos skyriuose pateikiama daugiau informacijos, kaip atlikti �
 1. Laikykitės instrukcijų [Nustatyti ir talpinti patalpų aplinkas („Platform update 41“ar naujesnės versijos)](../../fin-ops-core/dev-itpro/deployment/setup-deploy-on-premises-pu41.md). Turite naudoti tiekimo grandinės valdymo 10.0.21 arba vėlesnę versiją visose centro ir skalės vieneto aplinkose. Be to, turite naudoti 2.12.0 arba vėlesnę infrastruktūros scenarijų versiją. 
 
     > [!IMPORTANT]
-    > Prieš pabaigdami šios temos **veiksmus**, perskaitykite likusią šio skyriaus dalį.
+    > Prieš pradėdami šiame straipsnyje nurodytus **veiksmus**, perskaitykite likusią šio skyriaus informaciją.
 
 1. Prieš aprašę savo konfigūraciją faile \\ConfigTemplate.xml, paleiskite šį scenarijų:
 
@@ -95,7 +95,7 @@ Likusiuose šios temos skyriuose pateikiama daugiau informacijos, kaip atlikti �
 
         | Vartotojas            | Tipas | Duomenų bazės vaidmuo |
         |-----------------|------|---------------|
-        | svc-LocalAgent$ | Asociacija | dbowner\_     |
+        | svc-LocalAgent$ | Asociacija | db\_ savininkas     |
 
 1. Toliau vadovaukitės sąrankos instrukcijomis [ir įdiekite vietinę aplinką (41 ir vėlesnė platformos naujinimas)](../../fin-ops-core/dev-itpro/deployment/setup-deploy-on-premises-pu41.md).
 1. Baigę konfigūruoti [AD FS veiksmą](../../fin-ops-core/dev-itpro/deployment/setup-deploy-on-premises-pu41.md#configuredb), atlikite šiuos veiksmus:

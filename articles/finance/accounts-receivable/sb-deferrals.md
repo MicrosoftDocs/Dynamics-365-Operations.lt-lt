@@ -1,6 +1,6 @@
 ---
 title: Įplaukos ir išlaidų atidėjimai abonemento sąskaitose
-description: Šioje temoje paaiškinama, kaip nustatyti įplaukų ir išlaidų atidėjimus abonemento sąskaitose.
+description: Šiame straipsnyje paaiškinama, kaip nustatyti įplaukų ir išlaidų atidėjimus abonemento sąskaitose.
 author: JodiChristiansen
 ms.date: 11/04/2021
 ms.topic: article
@@ -14,16 +14,16 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: 9a12cf52d904db0396aa9914b8e324060289710f
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 209afd08c0c7e3cbd63ed95613b1d1dec94856f5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8690954"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8908102"
 ---
 # <a name="revenue-and-expense-deferrals-in-subscription-billing"></a>Įplaukos ir išlaidų atidėjimai abonemento sąskaitose
 
-Šioje temoje paaiškinama, kaip nustatyti ir naudoti įplaukų ir išlaidų atidėjimus abonemento sąskaitose. Atidėjimo grafikai visada yra pagrįsti ir priklausomi nuo jau sukurto dokumento arba atsiskaitymo grafiko. Kadangi jos sukuriamos pagal numatytąsias vertes, jų negalima įvesti ar sukurti atskirai.
+Šiame straipsnyje paaiškinama, kaip nustatyti ir naudoti įplaukų ir išlaidų atidėjimus abonemento sąskaitose. Atidėjimo grafikai visada yra pagrįsti ir priklausomi nuo jau sukurto dokumento arba atsiskaitymo grafiko. Kadangi jos sukuriamos pagal numatytąsias vertes, jų negalima įvesti ar sukurti atskirai.
 
 Įplaukų ir išlaidų atidėjimų nustatymo ir naudojimo procesas vyksta keliuose puslapiuose:
 

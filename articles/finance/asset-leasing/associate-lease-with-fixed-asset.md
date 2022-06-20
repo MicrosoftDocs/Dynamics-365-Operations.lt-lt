@@ -1,6 +1,6 @@
 ---
 title: Ilgalaikio turto susiejimas su nuomomis
-description: Temoje paaiškinama, kaip susieti esamą ilgalaikį turtą su nauja nuoma.
+description: Šiame straipsnyje paaiškinama, kaip susieti esamą ilgalaikį turtą su nauja nuoma.
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: a0ae7a850ceb13cb41ee5adc406e71105cdad4fe
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 5cc341008d25da544ec35d5660b5ff0b38f2287b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8712152"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895115"
 ---
 # <a name="associate-fixed-assets-with-leases"></a>Ilgalaikio turto susiejimas su nuomomis
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-Temoje paaiškinama, kaip susieti esamą ilgalaikį turtą su nauja nuoma. Kai susiejate ilgalaikį turtą su nuoma, ilgalaikio turto įsigijimo kaina bus naudojimo teise valdomo turto pirminio pripažinimo vertė.
+Šiame straipsnyje paaiškinama, kaip susieti esamą ilgalaikį turtą su nauja nuoma. Kai susiejate ilgalaikį turtą su nuoma, ilgalaikio turto įsigijimo kaina bus naudojimo teise valdomo turto pirminio pripažinimo vertė.
 
 Kad galėtumėte susieti ilgalaikį turtą su nuoma, turite sukurti ilgalaikio turto įrašą dalyje Ilgalaikis turtas. Tada puslapyje **Nuomos suvestinė** turite sukurti nuomą ir susieti turtą su ta nuoma.
 

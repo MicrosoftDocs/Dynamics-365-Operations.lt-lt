@@ -1,6 +1,6 @@
 ---
 title: Samdymo užklausos pareigų būsena
-description: Šioje temoje aprašoma samdymo užklausos pareigų būsenos parinktis nustatyta „Dynamics 365 Human Resources“.
+description: Šiame straipsnyje aprašoma įdarbinimo užklausos pareigų būsenos pasirinktis, nustatyta Dynamics 365 Human Resources.
 author: jaredha
 ms.date: 02/05/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 6a63a95201583fa7b215e221a03715e56b55c11a
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 736bdbfb8759ab61202d1f17e3cdc8294be0ba84
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8064898"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846420"
 ---
 # <a name="recruiting-request-position-status"></a>Samdymo užklausos pareigų būsena
 
@@ -27,7 +27,7 @@ ms.locfileid: "8064898"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Šioje temoje aprašoma samdymo užklausos pareigų būsenos parinktis nustatyta „Dynamics 365 Human Resources“.
+Šiame straipsnyje aprašoma įdarbinimo užklausos pareigų būsenos pasirinktis, nustatyta Dynamics 365 Human Resources.
 
 Fizinis pavadinimas: mshr_hcmrecruitingrequestpositionstatus
 

@@ -1,6 +1,6 @@
 ---
 title: Pagrindiniai SF duomenys mokėtinose sumose naudojant patvirtinimo žurnalą
-description: Šioje temoje paaiškinama, kaip naudoti sąskaitų faktūrų registrą kuriant sąskaitas faktūras ir kaip paskui naudoti patvirtinimo žurnalą išlaidų sąskaitoms atnaujinti.
+description: Šiame straipsnyje paaiškinama, kaip naudoti SF registrą SF kurti ir tada naudoti patvirtinimo žurnalą išlaidų sąskaitoms atnaujinti.
 author: abruer
 ms.date: 02/11/2022
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0ce66a4b92f26bcec0849accad3878aef2b2f658
-ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
+ms.openlocfilehash: afe1471949bbf892f4e28ed3bea830ee491a517f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8109663"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909220"
 ---
 # <a name="key-invoice-data-into-accounts-payable-using-an-approval-journal"></a>Pagrindiniai SF duomenys mokėtinose sumose naudojant patvirtinimo žurnalą
 
 [!include [banner](../../includes/banner.md)]
 
-Šioje temoje paaiškinama, kaip naudoti sąskaitų faktūrų registrą kuriant sąskaitas faktūras ir kaip paskui naudoti patvirtinimo žurnalą išlaidų sąskaitoms atnaujinti.
+Šiame straipsnyje paaiškinama, kaip naudoti SF registrą SF kurti ir tada naudoti patvirtinimo žurnalą išlaidų sąskaitoms atnaujinti.
 
 ## <a name="create-and-post-and-invoice"></a>Kurti ir registruoti SF
 1. Naršymo srityje eikite į **Moduliai > Mokėtinos sumos > Sąskaitos faktūros > Sąskaitų faktūrų registras**.

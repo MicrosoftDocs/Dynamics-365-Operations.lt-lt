@@ -1,6 +1,6 @@
 ---
 title: Kas nauja ar pasikeitė „Dynamics 365 Supply Chain Management“ 10.0.21 versijoje (2021 m. spalio mėn.)
-description: Šioje temoje aprašomos naujos ir pakeistos „Dynamics 365 Supply Chain Management“ 10.0.21 versijos funkcijos.
+description: Šiame straipsnyje aprašomos priemonės, kurios yra naujos arba pakeistos Dynamics 365 Supply Chain Management 10.0.21.
 author: kamaybac
 ms.date: 10/28/2021
 ms.topic: article
@@ -10,18 +10,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: cf38717ab3768249e3c9b988ee3893c5e539bcd0
-ms.sourcegitcommit: 90ffd763d18f97654b9dbc9e3f71c998e6094c6b
+ms.openlocfilehash: a78b4c37bfca9fedbd46cd8a16b47bd4444fbfee
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/11/2022
-ms.locfileid: "8739393"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849538"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10021-october-2021"></a>Kas nauja ar pasikeitė „Dynamics 365 Supply Chain Management“ 10.0.21 versijoje (2021 m. spalio mėn.)
 
 [!include [banner](../includes/banner.md)]
 
-Ši tema išvardyja funkcija, kurios yra naujos arba pakeistos „Microsoft Dynamics 365 Supply Chain Management“ 10.0.21 versijoje. Šios versijos komponavimo numeris yra 10.0.960 ir jis pasiekiamas tokius būdu:
+Šiame straipsnyje pateikiamos funkcijos, kurios yra naujos arba pakeistos "Microsoft Dynamics 365 Supply Chain Management " 10.0.21 versijoje. Šios versijos komponavimo numeris yra 10.0.960 ir jis pasiekiamas tokius būdu:
 
 - **Peržiūrėti leidimą:** 2021 m. rugpjūčio mėn.
 - **Bendras leidimo pasiekiamumas (automatinis naujinimas):** 2021 m. rugsėjo mėn.
@@ -119,9 +119,9 @@ Tolesnėje lentelėje pateiktos funkcijos, kurios įjungtos pagal nustatymus 10.
 
 ## <a name="new-and-updated-documentation-resources"></a>Nauji ir naujinti dokumentų šaltiniai
 
-Neseniai įtraukėme ir reikšmingai atnaujinome tolesnes pagalbos temas. Jos nebūtinai yra susijusios su naujomis funkcijomis įtrauktomis į šį leidimą, kaip aprašyta ankstesniame skyriuje, bet gali padėti jums gauti daugiau iš esančių funkcijų.
+Neseniai įtraukėme arba pastebimai atnaujinome šiuos žinyno straipsnius. Jos nebūtinai yra susijusios su naujomis funkcijomis įtrauktomis į šį leidimą, kaip aprašyta ankstesniame skyriuje, bet gali padėti jums gauti daugiau iš esančių funkcijų.
 
-| Funkcijos sritis | Naujos arba atnaujintos temos |
+| Funkcijos sritis | Nauji arba atnaujinti straipsniai |
 |---|---|
 | Bendrasis planavimas | [Atsargų prognozės](../master-planning/inventory-forecast.md) |
 | Bendrasis planavimas | [Planavimo optimizavimo nenaudojami parametrai](../master-planning/planning-optimization/not-used-parameters.md) |
@@ -130,7 +130,7 @@ Neseniai įtraukėme ir reikšmingai atnaujinome tolesnes pagalbos temas. Jos ne
 | Bendrasis planavimas | [Plano retrospektyvos ir planavimo žurnalų peržiūra](../master-planning/planning-optimization/plan-history-logs.md) |
 | Sandėlio valdymas | [Konteinerių pakavimo strategijos](../warehousing/container-packing-strategy-overview.md) |
 | Sandėlio valdymas | [Ciklo skaičiavimo scenarijų pavyzdžiai](../warehousing/cycle-counting-scenarios.md) |
-| Sandėlio valdymas | [Importuoti gaunamų ASN naudojant V3 duomenų objektą](../warehousing/import-asn-data-entity.md) |
+| Sandėlio valdymas | [Importuokite gaunamus ASN per V3 duomenų objektą](../warehousing/import-asn-data-entity.md) |
 | Sandėlio valdymas | [Pardavimo ir perkėlimo užsakymų surinkimo viršijimas](../warehousing/over-picking-for-sales-and-transfer-orders.md) |
 | Sandėlio valdymas | [Bangos žymos spausdinimo bangos metu planavimas](../warehousing/configure-task-based-wave-label-printing.md) |
 | Sandėlio valdymas | [Kas nauja ar pasikeitė „Warehouse Management Mobile App” programėlėje](../warehousing/whats-new-wma.md) |
@@ -153,12 +153,12 @@ Patikrinkite ["Dynamics 365" ir pramonės debesys: 2021 išleidimo bangos 2 plan
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>Pašalintos ir pasenusios „Supply Chain Management“ funkcijos
 
-Temoje [Pašalintos arba pasenusios funkcijos „Dynamics 365 Supply Chain Management“](removed-deprecated-features-scm-updates.md) aprašomos „Supply Chain Management“ funkcijos, kurios yra pašalintos, yra suplanuotos pašalinti arba yra pasenusios.
+Straipsnyje [pašalintos arba pasenusios Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) funkcijos aprašomos priemonės, kurios buvo arba yra suplanuotos pašalinti arba pasenusios tiekimo grandinės valdymui.
 
 - *Pašalinta* funkcija nebėra įtraukta į produktą.
 - *Nebenaudojama* funkcija nebėra aktyviai tobulinama ir gali būti pašalinta iš būsimo naujinio.
 
-Prieš pašalinant iš produkto bet kokią funkciją, pranešimas apie nebenaudojimą bus paskelbtas [Pašalintos arba pasenusios funkcijos „Dynamics 365 Supply Chain Management“](removed-deprecated-features-scm-updates.md) temoje 12 mėnesių prieš pašalinimą.
+Prieš pašalinant bet kokią priemonę iš produkto, [Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) pranešimai dėl nušalinimo bus pereiti prie pašalintų arba pasenusių funkcijų 12 mėnesių prieš pašalinimą.
 
 Atlikus keitimus, kurie paveikia tik kompiliavimo laiką, bet yra dvejetainiškai suderinami su smėlio dėžės ir gamybos aplinka, nebenaudojimo laikas bus trumpesnis nei 12 mėnesių. Paprastai, tai yra funkciniai naujinimai, kuriuos reikia atlikti kompiliatoriui.
 

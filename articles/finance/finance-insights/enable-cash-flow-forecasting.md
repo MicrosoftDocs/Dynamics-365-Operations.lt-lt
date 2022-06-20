@@ -1,6 +1,6 @@
 ---
 title: Grynųjų pinigų srautų prognozavimo įjungimas
-description: Šioje temoje paaiškinama, kaip įjungti modulio Finansinės įžvalgos funkciją Grynųjų pinigų srautų prognozės.
+description: Šiame straipsnyje paaiškinama, kaip įjungti pinigų srautų prognozių funkciją finansų žinių bazėse.
 author: ShivamPandey-msft
 ms.date: 02/11/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-24
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 8dba56af53090d5d78632da4d414143b136f8a8d
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 253e3ea9c1c44573b37503f167b4cb3860683c10
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713760"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859881"
 ---
 # <a name="enable-cash-flow-forecasting"></a>Grynųjų pinigų srautų prognozavimo įjungimas
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje paaiškinama, kaip įjungti pinigų srautų prognozių funkciją finansų žinių srityje.
+Šiame straipsnyje paaiškinama, kaip įjungti pinigų srautų prognozių funkciją finansų žinių bazėse.
 
 > [!NOTE]
 > Norėdami grynųjų pinigų sraute naudoti mokėjimo prognozes, turite nustatyti funkciją Kliento mokėjimo prognozės, kaip aprašyta temoje [Kliento mokėjimo prognozių įjungimas](enable-cust-paymnt-prediction.md).

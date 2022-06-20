@@ -1,6 +1,6 @@
 ---
 title: Darbo jėgos organizavimas naudojant padalinius, užduotis ir pareigas
-description: Šioje temoje aprašoma abstrakti informacija apie padalinius, užduotis ir pareigas, kurie yra organizaciniai elementai, išlaikomi personalo skyriuje.
+description: Šiame straipsnyje aprašoma abstrakti informacija apie padalinius, užduotis ir pareigas, kurie yra organizaciniai elementai, išlaikomi personalo skyriuje.
 author: twheeloc
 ms.date: 01/03/2022
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 717bf7dcbd9a7e19a6dc960648655fdbd3e2465a
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 0cb4e745eb6531d90a02778ba85e6caf790f2d46
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8694829"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874281"
 ---
 # <a name="organize-your-workforce-by-using-departments-jobs-and-positions"></a>Darbo jėgos organizavimas naudojant padalinius, užduotis ir pareigas
 
@@ -28,7 +28,7 @@ ms.locfileid: "8694829"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Padaliniai, užduotys ir pareigos yra organizaciniai elementai, tvarkomi modulyje Personalas. Šioje temoje pateikiama abstrakti informacija apie šiuos elementus. 
+Padaliniai, užduotys ir pareigos yra organizaciniai elementai, tvarkomi modulyje Personalas. Šiame straipsnyje pateikiama abstrakti informacija apie šiuos elementus. 
 
 Šis pavyzdys skirtas sąvokoms, aprašytoms šiame straipsnyje, iliustruoti.
 

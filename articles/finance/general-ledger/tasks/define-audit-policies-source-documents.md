@@ -1,6 +1,6 @@
 ---
-title: Šaltinio dokumentų audito strategijų apibrėžimas
-description: Šioje temoje aiškinama, kaip konfigūruoti ir vykdyti audito strategijų taisykles.
+title: Apibrėžti šaltinio dokumento audito strategijas
+description: Šiame straipsnyje paaiškinama, kaip nustatyti ir vykdyti audito strategijos taisykles.
 author: panolte
 ms.date: 08/20/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e8698dd2c14321498d23efe1d01be274c56d5721
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: b8aa106cd5a5596f6b9a6663390e03ebc3f91a7b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713789"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872534"
 ---
-# <a name="define-audit-policies-for-source-documents"></a>Šaltinio dokumentų audito strategijų apibrėžimas
+# <a name="define-audit-policies-for-source-documents"></a>Apibrėžti šaltinio dokumento audito strategijas
 
 [!include [banner](../../includes/banner.md)]
 
-Šioje temoje aiškinama, kaip konfigūruoti ir vykdyti audito strategijų taisykles. Pavyzdyje naudojamos viešbučio tipo išlaidų ataskaitos. Šioje procedūroje naudojama demonstracinė įmonė USMF. Kad būtų galima atlikti šias užduotis, auditoriaus vaidmenį sudaro tinkamos teisės.
+Šiame straipsnyje paaiškinama, kaip nustatyti ir vykdyti audito strategijos taisykles. Pavyzdyje naudojamos viešbučio tipo išlaidų ataskaitos. Šioje procedūroje naudojama demonstracinė įmonė USMF. Kad būtų galima atlikti šias užduotis, auditoriaus vaidmenį sudaro tinkamos teisės.
 
 1. Naršymo srityje eikite į **Moduliai > Audito darbo sritis > Konfigūravimas > Strategijos taisyklės tipas**.
 2. Pasirinkite **Naujas**.

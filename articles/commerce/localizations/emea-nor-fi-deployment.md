@@ -1,6 +1,6 @@
 ---
-title: Kasos aparatų diegimo Norvegijoje gairės
-description: Šioje temoje pateikiamos gairės, kaip įjungti kasos aparato funkcijas Microsoft Dynamics 365 Commerce lokalizacija Norvegijai.
+title: Norvegijos grynųjų pinigų registrų diegimo rekomendacijos
+description: Šiame straipsnyje pateikta informacija apie tai, kaip įgalinti kasos aparato funkcijas Microsoft Dynamics 365 Commerce Norvegijos lokalizavimui.
 author: EvgenyPopovMBS
 ms.date: 12/20/2021
 ms.topic: article
@@ -9,118 +9,118 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-3-1
-ms.openlocfilehash: f0744b18ed59c692ae336c92e488d339ae158368
-ms.sourcegitcommit: 5cefe7d2a71c6f220190afc3293e33e2b9119685
+ms.openlocfilehash: 1f2226432237662e28b9e26017020ab81bb6026b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "8077145"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899072"
 ---
-# <a name="deployment-guidelines-for-cash-registers-for-norway"></a>Kasos aparatų diegimo Norvegijoje gairės
+# <a name="deployment-guidelines-for-cash-registers-for-norway"></a>Norvegijos grynųjų pinigų registrų diegimo rekomendacijos
 
 [!include[banner](../includes/banner.md)]
 
-Šioje temoje pateikiamos gairės, kaip įjungti kasos aparato funkcijas Microsoft Dynamics 365 Commerce lokalizacija Norvegijai. Lokalizaciją sudaro keli komponentų plėtiniai. Šie plėtiniai leidžia atlikti tokius veiksmus kaip pasirinktinių laukų spausdinimas kvituose, papildomų audito įvykių, pardavimo operacijų ir mokėjimo operacijų registravimas pardavimo vietoje (POS), skaitmeninio pardavimo operacijų pasirašymas ir ataskaitų spausdinimas vietiniais formatais. Norėdami gauti daugiau informacijos apie lokalizaciją Norvegijoje, žr [Kasos aparato funkcionalumas Norvegijai](./emea-nor-cash-registers.md). Norėdami gauti daugiau informacijos apie tai, kaip konfigūruoti „Commerce“ Norvegijai, žr [Nustatyti „Commerce“ Norvegijai](./emea-nor-cash-registers.md#setting-up-commerce-for-norway).
+Šiame straipsnyje pateikta informacija apie tai, kaip įgalinti kasos aparato funkcijas Microsoft Dynamics 365 Commerce Norvegijos lokalizavimui. Lokalizavimą sudaro keli komponentų plėtiniai. Šie plėtiniai leidžia atlikti tokius veiksmus, kaip pasirinktinių laukų spausdinimas kvituose, papildomų audito įvykių registravimas, pardavimo operacijos ir mokėjimo operacijos elektroniniame kasos aparate (EKA), skaitmeniniu būdu pasirašant pardavimo operacijas ir ataskaitų spausdinimas vietiniu formatu. Daugiau informacijos apie Norvegijos lokalizavimą ieškokite Norvegijos grynųjų [pinigų registro funkcija](./emea-nor-cash-registers.md). Norėdami gauti daugiau informacijos apie "Commerce for Norway" konfigūravimą, žr [. "Commerce for Norway" nustatykite](./emea-nor-cash-registers.md#setting-up-commerce-for-norway).
 
 > [!WARNING]
-> Dėl apribojimų [naujas nepriklausomas pakuotės ir prailginimo modelis](../dev-itpro/build-pipeline.md), šiuo metu jis negali būti naudojamas šiai lokalizavimo funkcijai. Turite naudoti Norvegijai skirto skaitmeninio pasirašymo pavyzdžio versiją ankstesnėje mažmeninės prekybos programinės įrangos kūrimo rinkinio (SDK) versijoje kūrėjo virtualioje mašinoje (VM)Microsoft Dynamics Gyvenimo ciklo paslaugos (LCS). Daugiau informacijos žr [Kasos aparatų diegimo Norvegijoje gairės (palikimas)](./emea-nor-loc-deployment-guidelines.md).
+> Dėl naujo nepriklausomo [pakavimo ir plėtinio modelio](../dev-itpro/build-pipeline.md) apribojimų, šiuo metu jo negalima naudoti šiai lokalizavimo funkcijai. Turite naudoti Norvegijos skaitmeninio pasirašymo pavyzdžio versiją ankstesnėje "Retail" programinės įrangos kūrimo rinkinio (SDK) versijoje, kūrėjų virtualiojoje kompiuteryje (VM) Microsoft Dynamics ciklo tarnybose (LCS). Daugiau informacijos rasite Norvegijos ([senesnės programos) grynųjų pinigų registrų diegimo rekomendacijose](./emea-nor-loc-deployment-guidelines.md).
 >
-> Naujos nepriklausomos pakuotės ir fiskalinės integracijos pavyzdžių išplėtimo modelio palaikymas planuojamas vėlesnėse versijose.
+> Naujas nepriklausomas pakavimo ir plėtinio modelis, skirtas finansinio integravimo pavyzdžiui, planuojamas vėlesnėms versijoms.
 
-## <a name="set-up-fiscal-registration-for-norway"></a>Nustatykite mokesčių registraciją Norvegijoje
+## <a name="set-up-fiscal-registration-for-norway"></a>Nustatyti Norvegijos finansų registraciją
 
-Norvegijos fiskalinės registracijos pavyzdys yra pagrįstas [fiskalinės integracijos funkcionalumas](fiscal-integration-for-retail-channel.md) ir yra mažmeninės prekybos SDK dalis. Pavyzdys yra **src\\ Fiskalinė integracija\\ SequentialSignatureNorway** aplankas [Dynamics 365 Commerce Sprendimai](https://github.com/microsoft/Dynamics365Commerce.Solutions/) saugykla (pvz.[išleidimo pavyzdys/9.34](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.34/src/FiscalIntegration/SequentialSignatureNorway)). Pavyzdys [susideda](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services) mokesčių dokumentų teikėjo ir fiskalinės jungties, kurios yra „Commerce“ vykdymo laiko plėtiniai (CRT). Norėdami gauti daugiau informacijos apie tai, kaip naudoti mažmeninės prekybos SDK, žr [Mažmeninės prekybos SDK architektūra](../dev-itpro/retail-sdk/retail-sdk-overview.md) ir [Nustatykite nepriklausomo pakavimo SDK kūrimo procesą](../dev-itpro/build-pipeline.md).
+Norvegijos finansinio registracijos pavyzdys pagrįstas finansinio [integravimo funkcija ir](fiscal-integration-for-retail-channel.md) yra "Retail" SDK dalis. Pavyzdys yra **sprendimų saugyklos src\\ FiscalIntegration\\ SequentialSitctureNorway**[Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/) aplanke (pvz., [paleidimo / 9.34 pavyzdys).](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.34/src/FiscalIntegration/SequentialSignatureNorway) Pavyzdį [sudaro](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services) fiskalinio dokumento teikėjas ir fiskalinė jungtis, kuri yra "Commerce runtime" () plėtiniai CRT. Norėdami gauti daugiau informacijos apie tai, kaip naudoti "Retail SDK", [žr. "Retail SDK](../dev-itpro/retail-sdk/retail-sdk-overview.md)[" architektūrą ir nepriklausomo pakavimo SDK sukūrimo pardavimo galimybių sukūrimą](../dev-itpro/build-pipeline.md).
 
-Atlikite fiskalinės registracijos sąrankos veiksmus, aprašytus [Nustatykite fiskalinį prekybos kanalų integravimą](./setting-up-fiscal-integration-for-retail-channel.md):
+Atlikite finansinio registravimo nustatymo veiksmus, kurie aprašyti [nustatyti "Commerce" kanalų fiskalinę integraciją](./setting-up-fiscal-integration-for-retail-channel.md):
 
-1. [Nustatykite fiskalinės registracijos procesą](./setting-up-fiscal-integration-for-retail-channel.md#set-up-a-fiscal-registration-process). Būtinai atkreipkite dėmesį į fiskalinės registracijos proceso nustatymus [būdingas Norvegijai](#configure-the-fiscal-registration-process).
-1. [Nustatykite klaidų tvarkymo nustatymus](./setting-up-fiscal-integration-for-retail-channel.md#set-error-handling-settings).
-1. [Įgalinti atidėtos fiskalinės registracijos vykdymą rankiniu būdu](./setting-up-fiscal-integration-for-retail-channel.md#enable-manual-execution-of-postponed-fiscal-registration).
-1. [Konfigūruokite kanalo komponentus](#configure-channel-components).
+1. [Nustatykite finansinio registravimo procesą](./setting-up-fiscal-integration-for-retail-channel.md#set-up-a-fiscal-registration-process). Įsitikinkite, kad užsirašykite finansinių registracijų proceso parametrų, kurie [yra specifiniai Norvegijai](#configure-the-fiscal-registration-process).
+1. [Nustatyti klaidų tvarkymo parametrus](./setting-up-fiscal-integration-for-retail-channel.md#set-error-handling-settings).
+1. [Įgalinkite neautomatinį atidėtos finansinio registravimo vykdymą](./setting-up-fiscal-integration-for-retail-channel.md#enable-manual-execution-of-postponed-fiscal-registration).
+1. [Sukonfigūruokite kanalo komponentus](#configure-channel-components).
 
-### <a name="configure-the-fiscal-registration-process"></a>Sukonfigūruokite fiskalinės registracijos procesą
+### <a name="configure-the-fiscal-registration-process"></a>Konfigūruoti finansinio registravimo procesą
 
-Atlikite šiuos veiksmus, kad įgalintumėte Norvegijos fiskalinės registracijos procesą „Commerce“ būstinėje.
+Vadovaukitės šiais veiksmais Norvegijos finansinio registravimo procesui "Commerce Headquarters" įgalinti.
 
-1. Atsisiųskite mokesčių dokumentų teikėjo ir fiskalinės jungties konfigūracijos failus iš „Commerce“ SDK:
+1. Atsisiųskite finansinio dokumento teikėjo ir fiskalinio jungties konfigūracijos failus iš "Commerce SDK":
 
-    1. Atidaryk [Dynamics 365 Commerce Sprendimai](https://github.com/microsoft/Dynamics365Commerce.Solutions/) saugykla.
-    1. Atidarykite paskutinę galimą leidimo šaką (pvz.,**[leidimas/9.34](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.34)**).
-    1. Atviras **src \> Fiskalinė integracija \> SequentialSignatureNorway \> CommerceRuntime**.
-    1. Atsisiųskite fiskalinio dokumento teikėjo konfigūracijos failą adresu **DocumentProvider.SequentialSignNorway \> Konfigūracija \> DocumentProviderSequentialSignatureNorwaySample.xml** (pavyzdžiui, [išleidimo failas/9.34](https://github.com/microsoft/Dynamics365Commerce.Solutions/blob/release/9.34/src/FiscalIntegration/SequentialSignatureNorway/CommerceRuntime/DocumentProvider.SequentialSignNorway/Configuration/DocumentProviderSequentialSignatureNorwaySample.xml)).
-    1. Atsisiųskite fiskalinės jungties konfigūracijos failą adresu **Jungtis.SequentialSignNorway \> Konfigūracija \> ConnectorSequentialSignatureNorwaySample.xml** (pavyzdžiui, [išleidimo failas/9.34](https://github.com/microsoft/Dynamics365Commerce.Solutions/blob/release/9.34/src/FiscalIntegration/SequentialSignatureNorway/CommerceRuntime/Connector.SequentialSignNorway/Configuration/ConnectorSequentialSignatureNorwaySample.xml)).
+    1. Atidaryti sprendimų [Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/) saugyklą.
+    1. Atidarykite paskutinę galima paleidimo šaką (pvz., **[paleidimas/9.34](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.34)**).
+    1. Atidarykite **src \> FiscalIntegration \> SequentialSi sunorway \> CommerceRuntime**.
+    1. **Atsisiųskite finansinio dokumento teikėjo konfigūracijos failą, kurį sudaro DocumentProvider.SequentialSignNorway \> Configuration \> DocumentProviderSequentialSinorwaySample.xml** (pvz., [leidimo / 9.34 failas](https://github.com/microsoft/Dynamics365Commerce.Solutions/blob/release/9.34/src/FiscalIntegration/SequentialSignatureNorway/CommerceRuntime/DocumentProvider.SequentialSignNorway/Configuration/DocumentProviderSequentialSignatureNorwaySample.xml)).
+    1. Atsisiųskite finansinio **jungties konfigūracijos failą, nurodytą Connector.SequentialSignNorway \> Configuration \> ConnectorSequentialSi parametrųNorwaySample.xml (pvz** ., [leidimo/9.34 failas](https://github.com/microsoft/Dynamics365Commerce.Solutions/blob/release/9.34/src/FiscalIntegration/SequentialSignatureNorway/CommerceRuntime/Connector.SequentialSignNorway/Configuration/ConnectorSequentialSignatureNorwaySample.xml)).
 
-1. Eiti į **Mažmeninė prekyba ir prekyba \> Būstinės įrengimas \> Parametrai \> Bendrinami parametrai**. Ant **Generolas** skirtuką, nustatykite **Įgalinti fiskalinę integraciją** galimybė į **Taip**.
-1. Eiti į **Mažmeninė prekyba ir prekyba \> Kanalo nustatymas \> Fiskalinė integracija \> Fiskalinės jungtys** ir įkelkite fiskalinės jungties konfigūracijos failą, kurį atsisiuntėte anksčiau.
-1. Eiti į **Mažmeninė prekyba ir prekyba \> Kanalo nustatymas \> Fiskalinė integracija \> Fiskalinių dokumentų teikėjai** ir įkelkite fiskalinio dokumento teikėjo konfigūracijos failą, kurį atsisiuntėte anksčiau.
-1. Eiti į **Mažmeninė prekyba ir prekyba \> Kanalo nustatymas \> Fiskalinė integracija \> Jungčių funkciniai profiliai**. Sukurkite naują jungties funkcinį profilį ir pasirinkite dokumento teikėją bei anksčiau įkeltą jungtį.
-1. Eiti į **Mažmeninė prekyba ir prekyba \> Kanalo nustatymas \> Fiskalinė integracija \> Jungčių techniniai profiliai**. Sukurkite naują jungties techninį profilį ir pasirinkite jungtį, kurią įkėlėte anksčiau. Nustatykite jungties tipą į **Vidinis**.
-1. Eiti į **Mažmeninė prekyba ir prekyba \> Kanalo nustatymas \> Fiskalinė integracija \> Fiskalinių jungčių grupės** ir sukurkite naują fiskalinių jungčių grupę jungties funkciniam profiliui, kurį sukūrėte anksčiau.
-1. Eiti į **Mažmeninė prekyba ir prekyba \> Kanalo nustatymas \> Fiskalinė integracija \> Fiskalinės registracijos procesai**. Sukurkite naują fiskalinės registracijos procesą ir fiskalinės registracijos proceso veiksmą ir pasirinkite anksčiau sukurtą fiskalinių jungčių grupę.
-1. Eikite į **Mažmeninį prekyba ir komercija \> Kanalo sąranka \> EKA sąranka \> EKA profiliai \> Funkcionalumo profiliai**. Pasirinkite funkcijų profilį, susietą su parduotuve, kurioje turėtų būti suaktyvintas registracijos procesas. Ant **Fiskalinės registracijos procesas** FastTab, pasirinkite fiskalinės registracijos procesą, kurį sukūrėte anksčiau. Ant **Fiskalinės paslaugos** FastTab, pasirinkite jungties techninį profilį, kurį sukūrėte anksčiau. 
-1. Eikite į **Mažmeninė prekyba ir prekyba \> Mažmeninės prekybos ir prekybos IT \> Paskirstymo grafikas**. Atidarykite paskirstymo grafiką ir pasirinkite darbus **1070** ir **1090** perkelti duomenis į kanalo duomenų bazę.
+1. Eikite į " **Retail" ir "Commerce \> Headquarters" nustatymo \> parametrų bendrai \> naudojamus parametrus**. Skirtuke **Bendra** nustatykite pasirinktį **Įgalinti finansų integravimą** kaip **Taip**.
+1. Eikite į **"Retail" ir "Commerce Channel" \> nustatymą "Fiscal integration \> Fiscal \>" jungtis ir įkelkite anksčiau atsisiųstą "Fiscal** Connector" konfigūracijos failą.
+1. Eikite į **"Retail" ir "Commerce \> Channel" \> nustatymą "Fiscal integration \> Fiscal"** dokumentų teikėjai ir įkelkite anksčiau atsisiųstą fiskalinio dokumento teikėjo konfigūracijos failą.
+1. Eikite į **"Retail" ir "Commerce \> Channel" nustatymo \> "Fiscal integration \> Connector" funkcinius profilius**. Sukurkite naują jungties funkcinį profilį ir pasirinkite anksčiau įkeltą dokumento teikėją ir jungtį.
+1. Eikite į **"Retail" ir "Commerce \> Channel" nustatymo \> "Fiscal integration \> Connector" techninius profilius**. Sukurkite naują jungties techninio profilio ir pasirinkite jungtį, kurią įkeliate anksčiau. Nustatyti jungties tipą **Vidinis**.
+1. Eikite į **"Retail" ir "Commerce \> Channel \> " nustatymo "Fiscal integration \> Fiscal Connector" grupes ir sukurkite naują anksčiau sukurto jungties funkcinio profilio "Fiscal Connector**" grupę.
+1. Eikite į **"Retail" ir "Commerce \> Channel" nustatymo \> "Fiscal integration \> Fiscal" registracijos procesus**. Sukurkite naują finansinio registravimo procesą ir finansinio registravimo proceso veiksmą, tada pasirinkite anksčiau sukurtą finansinių jungčių grupę.
+1. Eikite į **Mažmeninį prekyba ir komercija \> Kanalo sąranka \> EKA sąranka \> EKA profiliai \> Funkcionalumo profiliai**. Pasirinkite funkcijų šabloną, susietą su parduotuve, kurioje turi būti suaktyvintas registracijos procesas. Finansinio registravimo **proceso "** FastTab" pasirinkite anksčiau sukurtą finansinio registravimo procesą. Finansinių paslaugų **"** FastTab" pasirinkite senesnę jungties techninio profilio versiją, kurią sukūrėte anksčiau. 
+1. Eikite į **Mažmeninė prekyba ir prekyba \> Mažmeninės prekybos ir prekybos IT \> Paskirstymo grafikas**. Atidaryti paskirstymo grafiką ir pasirinkti užduotis **1070** ir **1090** duomenims perkelti į kanalo duomenų bazę.
 
-### <a name="configure-the-digital-signature-parameters"></a>Konfigūruokite skaitmeninio parašo parametrus
+### <a name="configure-the-digital-signature-parameters"></a>Skaitmeninio parašo parametrų konfigūravimas
 
-Turite sukonfigūruoti sertifikatus, kurie bus naudojami skaitmeniniam pardavimo operacijų pasirašymui parduotuvėje. Pasirašymui naudojamas skaitmeninis sertifikatas, saugomas Azure Key Vault. Modernaus POS režimu neprisijungus pasirašyti taip pat galima naudojant skaitmeninį sertifikatą, kuris saugomas įrenginio, kuriame įdiegtas Modern POS, vietinėje saugykloje.
+Turite sukonfigūruoti sertifikatus, kurie bus naudojami pardavimo operacijoms skaitmeniniu būdu pasirašyti parduotuvėje. Skaitmeninis sertifikatas, saugomas "Azure" rakto "Vault", naudojamas pasirašymui atlikti. "Modern POS" autonominiam režimui pasirašant galima naudoti skaitmeninį sertifikatą, kuris saugomas vietiniame kompiuterio, kuriame įdiegta "Modern POS", saugykloje.
 
-Kad galėtumėte naudoti skaitmeninį sertifikatą, saugomą Key Vault saugykloje, turite atlikti šiuos veiksmus.
+Kad būtų galima naudoti skaitmeninį sertifikatą, kuris saugomas "Key Vault" saugykloje, reikia atlikti šiuos veiksmus.
 
-1. „Key Vault“ saugykla turi būti sukurta. Rekomenduojame saugyklą diegti tame pačiame geografiniame regione kaip ir prekybos masto vienetas.
-1. Sertifikatas turi būti įkeltas į „Key Vault“ saugyklą kaip „base64“ eilutės paslaptis.
-1. „Application Object Server“ (AOS) programa turi būti įgaliota skaityti paslaptis iš „Key Vault“ saugyklos.
+1. Būtina sukurti "Key Vault" saugyklą. Rekomenduojame saugyklą diegti tame pačiame geografiniame regione kaip ir "Commerce Scale Unit".
+1. Sertifikatas turi būti įkeltas į rakto Vault saugyklą kaip base64 eilutės slaptą.
+1. Programos objektų serverio (AOS) programa turi būti įgaliota skaityti paslapius iš rakto Vault saugyklos.
 
-Norėdami gauti daugiau informacijos apie tai, kaip dirbti su Key Vault, žr [Pradėkite naudotis „Azure Key Vault“](/azure/key-vault/key-vault-get-started).
+Norėdami gauti daugiau informacijos apie tai, kaip dirbti su "Key Vault", žr [. "Pradėkite naudodami "Azure Key Vault"](/azure/key-vault/key-vault-get-started).
 
-Toliau, ant **Key Vault parametrai** puslapyje, turite nurodyti parametrus, kad galėtumėte pasiekti „Key Vault“ saugyklą:
+Tada, " **Key Vault" parametrų** puslapyje, turite nurodyti parametrus, kad būtų galima pasiekti "Key Vault" saugyklą:
 
-- **vardas** ir **apibūdinimas** – „Key Vault“ saugyklos pavadinimas ir aprašymas.
-- **Key Vault URL** – „Key Vault“ saugyklos URL.
-- **Key Vault klientas** – Interaktyvus kliento ID Azure Active Directory (Azure AD) programa, kuri autentifikavimo tikslais susieta su „Key Vault“ saugykla. Šis klientas turi turėti prieigą, kad galėtų skaityti paslaptis iš saugyklos.
-- **Key Vault slaptasis raktas** – Slaptas raktas, susietas su Azure AD programa, kuri naudojama autentifikavimui Key Vault saugykloje.
-- **vardas**, **·**, ir **Slapta nuoroda** – Sertifikato pavadinimas, aprašymas ir slapta nuoroda.
+- **Pavadinimas** ir **aprašymas** – "Key Vault" saugyklos pavadinimas ir aprašas.
+- **Rakto "Vault" URL – "Key Vault" saugyklos URL**.
+- **Kodo Vault klientas** – autentifikavimo tikslais Azure Active Directory interaktyvios programos,Azure AD susietos su "Key Vault" saugykla, interaktyvios kliento ID. Šis klientas turi turėti prieigą skaityti iš saugyklos slapymetes.
+- **Rakto Vault slapyvo** raktas – slaptasis Azure AD raktas, susietas su programa, kuri naudojama autentifikuoti "Key Vault" saugykloje.
+- **Pavadinimas**, **aprašymas** ir slapti **nuoroda** – sertifikato pavadinimas, aprašymas ir slapti nuoroda.
 
-Tada turite sukonfigūruoti sertifikatų, saugomų Key Vault arba vietinėje sertifikatų saugykloje, jungtį. Ši jungtis naudojama pasirašymui kanalo pusėje.
+Po to turite sukonfigūruoti savo sertifikatų, saugomų rakto Vault arba vietinio sertifikato saugykloje, jungtį. Ši jungtis naudojama norint pasirašyti kanalo pusėje.
 
-1. Eiti į **Mažmeninė prekyba ir prekyba \> Kanalo nustatymas \> Fiskalinė integracija \> Jungčių techniniai profiliai**.
-1. Ant **Nustatymai** FastTab, nurodykite šiuos skaitmeninio parašo parametrus:
+1. Eikite į **"Retail" ir "Commerce \> Channel" nustatymo \> "Fiscal integration \> Connector" techninius profilius**.
+1. Parametrų **"** FastTab" nurodykite šiuos skaitmeninių parašų parametrus:
 
-    - **Slaptas vardas** – Pasirinkite slaptą pavadinimą, kurį anksčiau sukonfigūravote **Key Vault parametrai** puslapį.
-    - **Vietinio sertifikato nykščio atspaudas** – Pateikite vietoje saugomo sertifikato nykščio atspaudą.
-    - **Maišos algoritmas** – Nurodykite vieną iš palaikomų kriptografinių maišos algoritmų Microsoft .NET, toks kaip **SHA1**.
-    - **Sertifikatų parduotuvės pavadinimas** – Šis laukas yra neprivalomas. Naudokite jį, norėdami nurodyti numatytąjį saugyklos pavadinimą, kurį reikia naudoti ieškant vietinių sertifikatų.
-    - **Sertifikatų parduotuvės vieta** – Šis laukas yra neprivalomas. Naudokite jį, norėdami nurodyti numatytąją saugojimo vietą, kurią reikia naudoti ieškant vietinių sertifikatų.
-    - **Pirmiausia išbandykite vietinį sertifikatą** – Pasirinkite šią parinktį, kad pagal numatytuosius nustatymus duomenims pasirašyti būtų naudojamas sertifikatas iš vietinės parduotuvės, o ne sertifikatas iš Key Vault.
-    - **Suaktyvinkite sveikatos patikrinimą** – Daugiau informacijos apie sveikatos patikrinimo funkciją žr [Fiskalinės registracijos sveikatos patikrinimas](./fiscal-integration-for-retail-channel.md#fiscal-registration-health-check).
+    - **Slapto** vardo – pasirinkite slaptą pavadinimą, kurį anksčiau konfigūravote " **Key Vault" parametrų** puslapyje.
+    - **Vietinis sertifikato nykščio** atspaudas – pateikti vietoje saugomo sertifikato nykščio atspaudą.
+    - **Maišos algoritmas** – nurodyti vieną iš kriptografijos maišos algoritmų, kuriuos palaiko Microsoft .NET, pvz., **SHA1**.
+    - **Sertifikato saugyklos pavadinimas** – šis laukas nėra būtinas. Naudokite jį, norėdami nurodyti numatytąjį saugyklos pavadinimą, kurį reikia naudoti ieškant vietinių sertifikatų.
+    - **Sertifikato saugyklos vieta** – šis laukas nėra būtinas. Naudokite jį, norėdami nurodyti numatytąją saugojimo vietą, kurią reikia naudoti ieškant vietinių sertifikatų.
+    - **Iš pradžių pabandykite vietinį** sertifikatą – pasirinkite šią pasirinktį, norėdami naudoti vietinės parduotuvės sertifikatą pagal numatytuosius nustatymus pasirašymo duomenims, o ne iš rakto Vault.
+    - **Aktyvinti sveikatos** tikrinkite – daugiau informacijos apie sveikatos tikrinimo funkciją žr. iždo [registracijos sveikatos tikrinimas](./fiscal-integration-for-retail-channel.md#fiscal-registration-health-check).
 
 > [!NOTE]
-> - Tik **SHA1** kriptografinis maišos algoritmas šiuo metu yra priimtinas Norvegijoje.
-> - Numatytasis parduotuvės pavadinimas ir parduotuvės vieta pridedami siekiant supaprastinti vietinių sertifikatų paieškos procesą CRT. X509StoreProvider yra aplankų, kuriuose saugomi sertifikatai, sąrašas. Jei numatytasis parduotuvės pavadinimas ir numatytoji parduotuvės vieta nenurodyti, X509StoreProvider bando rasti sertifikatą visuose sąraše esančiuose aplankuose.
+> - Norvegijai šiuo **metu priimtinas tik SHA1** kriptografijos maišos algoritmas.
+> - Numatytasis parduotuvės pavadinimas ir parduotuvės vieta įtraukiami, kad būtų paprasčiau ieškoti vietinių sertifikatų CRT. X509StoreProvider yra aplankų, kuriuose saugomi sertifikatai, sąrašas. Jei nenurodytas numatytasis parduotuvės pavadinimas ir numatytoji parduotuvės vieta, X509StoreProvider bando rasti sertifikatą visuose jos sąrašo aplankuose.
 
-### <a name="configure-channel-components"></a>Konfigūruokite kanalo komponentus
+### <a name="configure-channel-components"></a>Konfigūruoti kanalo komponentus
 
-### <a name="development-environment"></a>Talpinimo aplinka
+### <a name="development-environment"></a>Programavimo aplinka
 
-Atlikite šiuos veiksmus, kad nustatytumėte kūrimo aplinką, kad galėtumėte išbandyti ir išplėsti pavyzdį.
+Norėdami nustatyti programavimo aplinką, kad būtų galima patikrinti ir išplėsti pavyzdį, atlikite šiuos veiksmus.
 
-1. Klonuokite arba atsisiųskite [Dynamics 365 Commerce Sprendimai](https://github.com/microsoft/Dynamics365Commerce.Solutions) saugykla. Pasirinkite tinkamą leidimo šakos versiją pagal savo SDK / programos versiją. Daugiau informacijos žr [Atsisiųskite mažmeninės prekybos SDK pavyzdžius ir nuorodų paketus iš „GitHub“ ir NuGet](../dev-itpro/retail-sdk/sdk-github.md).
-1. Atidaryk **SequentialSignatureNorway.sln** sprendimas pagal **Dynamics365Commerce.Solutions\\ Fiskalinė integracija\\ SequentialSignatureNorway**, ir pastatyti jį.
-1. Diegti CRT plėtiniai:
+1. Užduokite arba atsisiųskite [Dynamics 365 Commerce sprendimų](https://github.com/microsoft/Dynamics365Commerce.Solutions) saugyklą. Pasirinkite tinkamą paleidimo šakos versiją pagal savo SDK / programos versiją. Norėdami gauti daugiau informacijos, žr. ["Download Retail SDK" pavyzdžius ir nuorodų paketus iš GitHub ir NuGet](../dev-itpro/retail-sdk/sdk-github.md).
+1. **Dalyje Dynamics365Commerce.Solutions** **\\ FiscalIntegration\\ SequentialSi siuntiniųnorway atidarykite sprendimą SequentialSi siuntiniųnorway** ir sukurkite jį.
+1. Įdiegti CRT plėtinius:
 
-    1. Surask CRT plėtinio diegimo programa:
+    1. Rasti plėtinio CRT diegimo programą:
 
-        - **Prekybos masto vienetas:** Viduje konors **SequentialSignatureNorway\\ ScaleUnit\\ ScaleUnit.SequentialSignNorway.Installer\\ šiukšliadėžė\\ Derinimas\\ net461** aplanką, suraskite **ScaleUnit.SequentialSignNorway.Installer** montuotojas.
-        - **Vietinis CRT Šiuolaikinėje POS:** Viduje konors **SequentialSignatureNorway\\ Šiuolaikinis POS\\ ModernPos.SequentialSignNorway.Installer\\ šiukšliadėžė\\ Derinimas\\ net461** aplanką, suraskite **ModernPos.SequentialSignNorway.Installer** montuotojas.
+        - **"Commerce Scale Unit":** aplanke SequentialSi pradūrūrojeNorway **ScaleUnit.SequentialSignNorway.Installer\\ talpyklos debug\\ net461\\\\ raskite aplanką ScaleUnit.SequentialSignNorway.Installer\\** diegimo **kūrėjas.**
+        - **Vietinė CRT "Modern POS":** **aplanke SequentialSi installertureNorway\\ ModernPOS\\ ModernPos.SequentialSignNorway.Installer\\\\ talpyklos debug\\ net461** raskite **ModernPos.SequentialSignNorway.Installer diegimo** kūrėjas.
 
-    1. Pradėkite CRT plėtinio diegimo programa iš komandinės eilutės:
+    1. Paleiskite CRT plėtinio diegimo programą iš komandų eilutės:
 
-        - **Prekybos masto vienetas:**
+        - **"Commerce Scale Unit":**
 
             ```Console
             ScaleUnit.SequentialSignNorway.Installer.exe install --verbosity 0
             ```
 
-        - **Vietinis CRT Šiuolaikinėje POS:**
+        - **" CRT Modern POS" vieta:**
 
             ```Console
             ModernPOS.SequentialSignNorway.Installer.exe install --verbosity 0
@@ -128,16 +128,16 @@ Atlikite šiuos veiksmus, kad nustatytumėte kūrimo aplinką, kad galėtumėte 
 
 ### <a name="production-environment"></a>Gamybos aplinka
 
-Atlikite nurodytus veiksmus [Nustatykite fiskalinės integracijos pavyzdžio kūrimo dujotiekį](fiscal-integration-sample-build-pipeline.md) sugeneruoti ir išleisti Cloud Scale Unit ir savitarnos dislokuojamus paketus fiskalinės integracijos pavyzdžiui. The **SequentialSignatureNorway build-pipeline.yaml** šablono YAML failą galima rasti **Dujotiekis\\ YAML_Failai** aplankas [Dynamics 365 Commerce Sprendimai](https://github.com/microsoft/Dynamics365Commerce.Solutions) saugykla.
+Norėdami sugeneruoti [ir](fiscal-integration-sample-build-pipeline.md) paleisti debesies skalės vienetą ir savitarnos diegiant finansinio integravimo pavyzdžio paketus, atlikite nurodytus veiksmus. SequentialSi katalogeNorway build-pipeline.jaml **šablono FAILĄ JAML** **galima rasti sprendimų saugyklos YAML_Files\\**[Dynamics 365 Commerce pardavimo galimybių aplanke.](https://github.com/microsoft/Dynamics365Commerce.Solutions)
 
-### <a name="enable-the-digital-signature-in-offline-mode-for-modern-pos"></a>Įgalinkite šiuolaikinio POS skaitmeninį parašą neprisijungus
+### <a name="enable-the-digital-signature-in-offline-mode-for-modern-pos"></a>"Modern POS" skaitmeninio parašo įgalinimas neprisijungus
 
-Norėdami įjungti šiuolaikinio POS skaitmeninį parašą neprisijungus, turite atlikti šiuos veiksmus, kai suaktyvinate Modern POS naujame įrenginyje.
+Norėdami įjungti skaitmeninį parašą "Modern POS" neprisijungus, turite atlikti šiuos veiksmus, kai naujame įrenginyje suaktyvinsite "Modern POS".
 
 1. Prisijunkite prie POS.
-1. Ant **Duomenų bazės ryšio būsena** puslapį, įsitikinkite, kad neprisijungus pasiekiama duomenų bazė yra visiškai sinchronizuota. Kai vertė **Laukiantys atsisiuntimai** laukas yra **0** (nulis), duomenų bazė visiškai sinchronizuojama.
-1. Atsijunkite nuo POS.
-1. Palaukite, kol neprisijungus pasiekiama duomenų bazė bus visiškai sinchronizuota.
+1. Duomenų bazės **ryšio būsenos puslapyje įsitikinkite**, kad autonominė duomenų bazė yra visiškai sinchronizuota. Kai laukiančių atsisiuntimų **lauko vertė yra** **0** (nulis), duomenų bazė visiškai sinchronizuojama.
+1. Atsijungti nuo EKA.
+1. Palaukite, kol autonominė duomenų bazė bus visiškai sinchronizuojama.
 1. Prisijunkite prie POS.
-1. Ant **Duomenų bazės ryšio būsena** puslapį, įsitikinkite, kad neprisijungus pasiekiama duomenų bazė yra visiškai sinchronizuota. Kai vertė **Laukiančios operacijos neprisijungus esančioje duomenų bazėje** laukas yra **0** (nulis), duomenų bazė visiškai sinchronizuojama.
-1. Iš naujo atidarykite Modern POS.
+1. Duomenų bazės **ryšio būsenos puslapyje įsitikinkite**, kad autonominė duomenų bazė yra visiškai sinchronizuota. Kai laukiančių operacijų vertė **autonominės duomenų bazės lauke yra** **0** (nulis), duomenų bazė visiškai sinchronizuojama.
+1. Iš naujo atidarykite modernų EKA.

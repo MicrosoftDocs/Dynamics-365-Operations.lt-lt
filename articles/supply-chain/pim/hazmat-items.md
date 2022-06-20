@@ -1,6 +1,6 @@
 ---
 title: Pavojingos medžiagos produktuose, užsakymuose, siuntose ir kroviniuose
-description: Šioje temoje paaiškinta kaip nustatyti pavojingų medžiagų ypatybes išleistiems produktams, kaip uždėti atsargų limitus ant pavojingų prekių, ir kaip įtraukti pavojingas medžiagas į pardavimo užsakymą, siuntą ar krovinį.
+description: Šiame straipsnyje paaiškinama, kaip nustatyti išleistų produktų pavojingas medžiagų ypatybes, kaip nustatyti leisti atsargų limitus pavojingoms prekėms ir kaip į pardavimo užsakymą, siuntą ar krovinį įtraukti pavojingas medžiagas.
 author: t-benebo
 ms.date: 06/10/2020
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 64d31cd86045ff28aa007666a3877271eecf0106
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: eaae3ce4916465cd57da65eaa217c40f9c3ea88a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7570710"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860702"
 ---
 # <a name="hazardous-materials-in-products-orders-shipments-and-loads"></a>Pavojingos medžiagos produktuose, užsakymuose, siuntose ir kroviniuose
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje paaiškinta kaip nustatyti pavojingų medžiagų ypatybes išleistiems produktams, kaip uždėti atsargų limitus ant pavojingų prekių, ir kaip įtraukti pavojingas medžiagas į pardavimo užsakymą, siuntą ar krovinį.
+Šiame straipsnyje paaiškinama, kaip nustatyti išleistų produktų pavojingas medžiagų ypatybes, kaip nustatyti leisti atsargų limitus pavojingoms prekėms ir kaip į pardavimo užsakymą, siuntą ar krovinį įtraukti pavojingas medžiagas.
 
 ## <a name="set-hazardous-material-specifications-for-products"></a>Nustatyti pavojingų medžiagų specifikacijas produktams
 
@@ -109,11 +109,11 @@ Pavojingos medžiagos balas = *&lt;LineQty&gt;* × *&lt;HazmatQty&gt;* × *&lt;U
 - *&lt;UnitConversion&gt;* yra konvertavimo koeficientas, naudojamas konvertavimui tarp vieneto, naudojamo krovinio eilutės kiekiui, ir vieneto, nustatyto produktui lauke **Vienetas**, „FastTab” **Medžiagų valdymas**.
 - *&lt;Multiplier&gt;* yra daugiklis nustatytas produktui lauke **Daugiklis**, „FastTab” **Medžiagos valdymas**.
 
-Šis balas yra paskelbtas kiekvienoje krovinio eilutėje, kurioje yra produktas, kuriame tos vertės yra nurodytos. Kad gautumėte daugiau informacijos, žr. [Siuntos, kuriose yra pavojingų medžiagų](#hazmat-shipments) ir [Kroviniai, kuriose yra pavojingų medžiagų](#hazmat-loads) sekcijas, esančias vėliau šioje temoje.
+Šis balas yra paskelbtas kiekvienoje krovinio eilutėje, kurioje yra produktas, kuriame tos vertės yra nurodytos. Daugiau informacijos rasite siuntoms, kurios [apima pavojingas medžiagas ir](#hazmat-shipments) krovinius [, kuriuose yra pavojingos](#hazmat-loads) medžiagų skyrių, vėliau šiame straipsnyje.
 
 #### <a name="how-the-hazardous-material-weight-is-calculated"></a>Kaip pavojingos medžiagos svoris yra apskaičiuojamas
 
-kroviniai ir krovinių eilutės, į kuriuos įeina produktai, kur parinktis **Ribotas kiekis**, **Medžiagų valdymas** „FastTab”, nustatyta **Taip**, rodys bendrą pavojingos medžiagos svorį, kaip aprašyta [Siuntos, kuriose yra pavojingų medžiagų](#hazmat-shipments) ir [Kroviniai, kuriose yra pavojingų medžiagų](#hazmat-loads) sekcijose, esančiose vėliau šioje temoje. Pavojingos medžiagos svoris yra apskaičiuojamas pagal toliau nurodytą formulę:
+Kroviniai **ir** **krovinio** eilutės, kuriose nurodyta medžiagų valdymo "FastTab **" parinktis Ribotas kiekis kaip Taip**, parodys bendrą pavojingos medžiagos svorį, kaip aprašyta siuntose, [kuriose yra pavojingos medžiagos ir kroviniai, įtraukti vėliau šiame straipsnyje nurodyti pavojingos](#hazmat-shipments)[medžiagos](#hazmat-loads). Pavojingos medžiagos svoris yra apskaičiuojamas pagal toliau nurodytą formulę:
 
 Pavojingos medžiagos svoris = *&lt;LineQty&gt;* × *&lt;ProductWeight&gt;* × *&lt;UnitConversion&gt;*
 

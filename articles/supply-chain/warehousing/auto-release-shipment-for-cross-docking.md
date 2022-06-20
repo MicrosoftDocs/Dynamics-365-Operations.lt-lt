@@ -1,6 +1,6 @@
 ---
 title: Automatinis siuntos išleidimas skirstant prekes
-description: Šioje temoje aprašoma prekių skirstymo strategija, leidžianti automatiškai išleisti poreikio užsakymą į sandėlį, kai pranešama, kad gamybos užsakymas pagal poreikio kiekį, yra baigtas, kad kiekis būtų perkeliamas tiesiai iš gamybos vietos į pakrovimo vietą.
+description: Šiame straipsnyje aprašoma prekių skirstymo strategija, kuri leidžia automatiškai paleisti poreikio užsakymą į sandėlį, kai pranešama, kad gamybos užsakymas, tiekiantis poreikio kiekį, yra baigtas, taigi kiekis perkeliamas tiesiogiai iš gamybos išeigos vietos į siuntimo vietą.
 author: Mirzaab
 ms.date: 10/15/2019
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2019-10-1
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: 1315bda1fd284eb326d4f08bf36bfea59074fde3
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 34283422bafaeabef9ac454957b60db84eb5a9c7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577941"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903788"
 ---
 # <a name="auto-release-shipment-for-cross-docking"></a>Automatinis siuntos išleidimas skirstant prekes
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje aprašoma prekių skirstymo strategija, leidžianti automatiškai išleisti poreikio užsakymą į sandėlį, kai pranešama, kad gamybos užsakymas pagal poreikio kiekį, yra baigtas. Tokiu būdu, kiekis, kurio reikia norint įvykdyti poreikio užsakymą, perkeliamas tiesiai iš gamybos vietos į pakrovimo vietą.
+Šiame straipsnyje aprašoma prekių skirstymo strategija, kuri leidžia automatiškai išleisti poreikio užsakymą į sandėlį, kai gamybos užsakymas, tiekiantis poreikio kiekį, yra paskelbtas baigtu. Tokiu būdu, kiekis, kurio reikia norint įvykdyti poreikio užsakymą, perkeliamas tiesiai iš gamybos vietos į pakrovimo vietą.
 
 Prekių skirstymas yra sandėlio apdorojimo srautas, kuriame kiekis, kurio reikia norint įvykdyti siuntimo užsakymą, yra nukreipiamas į užsakymo pakrovimo rampą arba pateikimo vietą iš vietos, kurioje užsakymas buvo gautas. (Gaunamas užsakymas gali būti pirkimo užsakymas, perkėlimo užsakymas arba gamybos užsakymas.) Kadangi Išplėstinė prekių skirstymo funkcija palaiko visus tiekimo ir poreikio užsakymus ir bei reikalauja, kad siuntimo poreikis būtų paskelbtas prieš identifikuojant prekių skirstymo galimybę, automatinio siuntos išleidimo funkcijai būdingos šios savybės:
 

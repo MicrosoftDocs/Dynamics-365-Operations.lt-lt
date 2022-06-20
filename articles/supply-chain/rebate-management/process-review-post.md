@@ -1,6 +1,6 @@
 ---
 title: Grąžinimų apdorojimas, peržiūra ir registravimas
-description: Šioje temoje aprašoma, kaip apdoroti jūsų grąžinimo valdymo sandorius, apskaičiuoti jų nuolaidas, peržiūrėti sugeneruotas operacijas, registruoti operacijas ir peržiūrėti registravimus.
+description: Šiame straipsnyje aprašoma, kaip apdoroti jūsų grąžinimo valdymo pasiūlymus, apskaičiuoti jų nuolaidas, peržiūrėti sugeneruotas operacijas, registruoti operacijas ir peržiūrėti registravimus.
 author: sherry-zheng
 ms.date: 02/19/2021
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 524aec8025378391057275f77e31191f88e4a98b
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: e63f02e5e93ec2ce8c321a20c2a0c5886edcbe42
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8690280"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901943"
 ---
 # <a name="process-review-and-post-rebates"></a>Grąžinimų apdorojimas, peržiūra ir registravimas
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje aprašoma, kaip apdoroti jūsų grąžinimo valdymo sandorius, apskaičiuoti jų nuolaidas, peržiūrėti sugeneruotas operacijas, registruoti operacijas ir peržiūrėti registravimus.
+Šiame straipsnyje aprašoma, kaip apdoroti jūsų grąžinimo valdymo pasiūlymus, apskaičiuoti jų nuolaidas, peržiūrėti sugeneruotas operacijas, registruoti operacijas ir peržiūrėti registravimus.
 
 ## <a name="change-the-status-of-a-deal"></a>Sandorio būsenos pakeitimas
 
@@ -45,7 +45,7 @@ Eikite į **Grąžinimo valdymas \> Periodinės užduotys \> Skaičiuoti FIFO pi
 
 Galite sukurti pardavimo arba pirkimo užsakymus, kurie turi šaltinio operacijas prieš arba po to, kai sukuriate taikomą Grąžinimo valdymo sandorį.
 
-Galite nustatyti kiekvieną sandorio eilutę taip, kad ji automatiškai sukurs grąžinimo atidėjimą, registruojant pardavimo ar pirkimo užsakymo pristatymą ar sąskaitą. Nustatykite **Operacijos tipo** laukelį kaip sandorio eilutę į *Pristatymas* ar *Sąskaita*, ir nustatykite **Procesas registruojant** parinktį į *Taip*. Jei **Operacijos tipo** laukas nustatytas kaip *Užsakymas*, apdorojimas registruojant neveikia. Šaltinio operacijoms, kurios buvo sukurtos po to, kai buvo suaktyvintas sandoris, vis tiek galite apdoroti atidėjimus, kaip nurodyta [Grąžinimo valdymo sandorių apdorojimo skyriuje](#process-deals) toliau šioje temoje.
+Galite nustatyti kiekvieną sandorio eilutę taip, kad ji automatiškai sukurs grąžinimo atidėjimą, registruojant pardavimo ar pirkimo užsakymo pristatymą ar sąskaitą. Nustatykite **Operacijos tipo** laukelį kaip sandorio eilutę į *Pristatymas* ar *Sąskaita*, ir nustatykite **Procesas registruojant** parinktį į *Taip*. Jei **Operacijos tipo** laukas nustatytas kaip *Užsakymas*, apdorojimas registruojant neveikia. Šaltinio operacijoms, kurios buvo sukurtos po to, kai buvo suaktyvinta sandorio, vis tiek galite apdoroti atidėjimus, [kaip](#process-deals) nurodyta šio straipsnio skyriuje Grąžinimo valdymo sandorių tvarkymas.
 
 ### <a name="enable-price-details"></a>Įjungti kainų informaciją
 

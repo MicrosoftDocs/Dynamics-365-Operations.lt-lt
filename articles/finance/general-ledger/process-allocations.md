@@ -1,6 +1,6 @@
 ---
-title: Paskirstymų apdorojimas
-description: Šioje temoje pateikiama informacija apie paskirstymus, Microsoft Dynamics jų apdorojimo 365 finansuose pasirinktis ir apie tai, kaip juos galima naudoti planuojant biudžetą. Paskirstymai naudojami sumoms paskirstyti tarp kelių DK sąskaitų derinių. Jie padeda užtikrinti, kad išlaidos ar įplaukos paskiriamos tinkamam apskaitos objektui.
+title: Apdoroti paskirstymus
+description: Šiame straipsnyje pateikiama informacija apie paskirstymus, Microsoft Dynamics jų apdorojimo "365 Finance" pasirinktis ir kaip juos galima naudoti planuojant biudžetą. Paskirstymai naudojami sumoms paskirstyti tarp kelių DK sąskaitų derinių. Jie padeda užtikrinti, kad išlaidos ar įplaukos paskiriamos tinkamam apskaitos objektui.
 author: kweekley
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d300654269ef0ad52140f160f918707397c843ad
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 0629b32d39f4d74ec37eebe92b92e0b186b5fce2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8721960"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8877989"
 ---
 # <a name="process-allocations"></a>Paskirstymų apdorojimas
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje pateikiama informacija apie paskirstymus, jų apdorojimo parinktis ir kaip jie gali būti naudojami planuojant biudžetą. Paskirstymai naudojami sumoms paskirstyti tarp kelių DK sąskaitų derinių. Jie padeda užtikrinti, kad išlaidos ar įplaukos paskiriamos tinkamam apskaitos objektui.
+Šiame straipsnyje pateikiama informacija apie paskirstymus, jų apdorojimo parinktis ir kaip jie gali būti naudojami planuojant biudžetą. Paskirstymai naudojami sumoms paskirstyti tarp kelių DK sąskaitų derinių. Jie padeda užtikrinti, kad išlaidos ar įplaukos paskiriamos tinkamam apskaitos objektui.
 
 Šis procesas palaiko toliau pateikiamas galimybes.
 

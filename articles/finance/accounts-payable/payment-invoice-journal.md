@@ -1,6 +1,6 @@
 ---
 title: Mokėjimų grafiko taikymas SF žurnalui
-description: Šioje temoje aprašoma, kaip pridėti mokėjimą į tiekėjo SF žurnalą.
+description: Šiame straipsnyje aprašoma, kaip įtraukti mokėjimą į tiekėjo SF žurnalą.
 author: sunfzam
 ms.date: 01/31/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2021-08-30
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: f6481c3fc033acf4bb563bf1716789216646b60b
-ms.sourcegitcommit: 9cbff8a2cdeaf606488fb0044b3de4ab4409c9dc
+ms.openlocfilehash: f3ae08ea46be66dd8bf26f7f91bd73f6c5b9192f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/26/2022
-ms.locfileid: "8358344"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863136"
 ---
 # <a name="apply-a-payment-schedule-to-the-invoice-journal"></a>Mokėjimų grafiko taikymas SF žurnalui
 
 [!include [banner](../includes/preview-banner.md)]
 
-Programoje Microsoft Dynamics 365 Finance release 10.0.25 mokėjimo grafikas dabar palaikomas **tiekėjo SF žurnale**.
+Microsoft Dynamics 365 finansų išleidimo 10.0.25 **mokėjimo grafikas dabar palaikomas tiekėjo SF žurnale**.
 
 Norėdami naudoti šią funkciją, funkcijų valdymo srityje turite įjungti **mokėjimo grafiko taikykite SF** žurnalo funkciją.
 

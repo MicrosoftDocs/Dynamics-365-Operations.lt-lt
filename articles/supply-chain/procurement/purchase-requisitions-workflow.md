@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f3381c752e4f1f723162ad314c29ab477caf635a
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 6934c1147de79c24eb66127d2e08ae8b627bc744
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8675941"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849364"
 ---
 # <a name="purchase-requisition-workflow"></a>Pirkimo paraiškos darbo eiga
 
@@ -89,7 +89,7 @@ Galite sukonfigūruoti darbo eigą, kad ji atspindėtų jūsų organizacijos pir
 ## <a name="configuring-a-workflow-for-purchase-requisitions"></a>Pirkimo paraiškų darbo eigos konfigūravimas
 Norėdami pirkimo paraišką nukreipti peržiūrai, turite sukonfigūruoti pirkimo paraiškų darbo eigos procesus. Jūsų apibrėžtas darbo eigos procesas valdo sąveiką tarp vartotojo, pareikalavusio prekių (prašytojo) ir darbo eigos peržiūrėtojo bei tvirtintojo. Pirkimo paraiškų maršruto planavimas priklauso nuo sąlygų, nurodytų darbo eigos konfigūracijoje. Pvz., šios sąlygos nustato, kada pirkimo paraiška turėtų būti nukreipiama, kokiam vartotojui arba vaidmeniui ji turėtų būti nukreipiama ir kokių veiksmų gali imtis vartotojai.  
 
-Šios temos pavyzdžiuose parodoma, kaip pirkimo paraiška per darbo eigą gali būti nukreipiama kaip vienas dokumentas arba kaip atskiros pirkimo paraiškos eilutės. Taip pat galite sukonfigūruoti pirkimo paraiškų darbo eigą taip, kad ji atspindėtų jūsų organizacijoje apibrėžtą vidinę pirkimo paraiškų kontrolinę peržiūrą.  
+Šiame straipsnyje pateikti pavyzdžiai rodo, kaip pirkimo paraišką galima nukreipti per darbo eigą kaip vieną dokumentą arba kaip atskiras pirkimo paraiškos eilutes. Taip pat galite sukonfigūruoti pirkimo paraiškų darbo eigą taip, kad ji atspindėtų jūsų organizacijoje apibrėžtą vidinę pirkimo paraiškų kontrolinę peržiūrą.  
 
 Dalyviai arba peržiūrėtojai, kuriems priskirta darbo eigos užduotis, gali būti konkrečios vartotojų grupės nariai, vartotojai, turintys konkretų saugos vaidmenį, vartotojai, kurie yra susieti su pateikėju valdymo hierarchijoje, įvardinti vartotojai arba vartotojai, turintys konkrečių su išlaidomis susijusių atsakomybių.
 

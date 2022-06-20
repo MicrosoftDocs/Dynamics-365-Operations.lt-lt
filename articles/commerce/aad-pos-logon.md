@@ -1,6 +1,6 @@
 ---
 title: Konfigūruoti „Azure Active Directory“ autentifikavimą POS prisijungimui
-description: Šioje temoje paaiškinama, kaip konfigūruoti „Azure Active Directory“ kaip autentifikavimo metodą „Microsoft Dynamics 365 Commerce“ prekybos taškui.
+description: Šiame straipsnyje paaiškinama, kaip konfigūruoti kaip autentifikavimo Azure Active Directory metodą point Microsoft Dynamics 365 Commerce point.
 author: boycezhu
 ms.date: 04/23/2021
 ms.topic: article
@@ -12,20 +12,20 @@ ms.search.region: global
 ms.author: boycez
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 9dfb0389b0ca4b2cf75ccc70f35824674e618055
-ms.sourcegitcommit: dca3279a8b7cd5d0bcd4e4a3aa9938b337aa8849
+ms.openlocfilehash: 47da2c78cef2bbee324fbc2202898fbabd927c4d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "7402156"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853933"
 ---
 # <a name="configure-azure-active-directory-authentication-for-pos-sign-in"></a>Konfigūruoti „Azure Active Directory“ autentifikavimą POS prisijungimui
 
 [!include [banner](includes/banner.md)]
 
-Šioje temoje paaiškinama, kaip konfigūruoti „Azure Active Directory“ („Azure AD“) kaip autentifikavimo metodą „Microsoft Dynamics 365 Commerce“ prekybos taškui (POS).
+Šiame straipsnyje paaiškinama, kaip konfigūruoti Azure Active Directory (Azure AD) kaip autentifikavimo metodą point Microsoft Dynamics 365 Commerce point sale (EKA).
 
-Mažmenininkai, kurie naudoja kartu su kitomis „Microsoft" debesies „Dynamics 365 Commerce“ paslaugomis, pvz., „Microsoft Azure“ „Microsoft 365", ir paprastai nori naudoti centralizuoto vartotojo kredencialų valdymo, kad būtų galima saugiai ir sklandžiai prisijungti „Microsoft Teams“ visose „Azure AD“ programose. Norėdami naudoti „Azure AD“ „Commerce POS" autentifikavimą, pirmiausia turite „Azure AD“ „Commerce Headquarters" sukonfigūruoti kaip autentifikavimo metodą.
+Mažmenininkai, kurie Dynamics 365 Commerce naudoja kartu su kitomis "Microsoft Microsoft Azure" debesies paslaugomis, pvz., Microsoft 365 Microsoft Teams Azure AD ir paprastai nori naudoti centralizuotą vartotojo kredencialų valdymą, kad visos programos galėtų prisijungti saugiai ir sklandžiai. Norėdami naudoti „Azure AD“ „Commerce POS" autentifikavimą, pirmiausia turite „Azure AD“ „Commerce Headquarters" sukonfigūruoti kaip autentifikavimo metodą.
 
 ## <a name="configure-pos-authentication-method"></a>Konfigūruoti POS autentifikavimo metodą
 

@@ -1,6 +1,6 @@
 ---
 title: Atskirto dvigubo rašymo programos instrumentavimo paketas
-description: Dvigubo rašymo programos instrumentavimo paketas nebėra vienas paketas, bet jis atskirtas į mažesnius paketus. Šioje temoje paaiškinami sprendimai ir schemos, kurias sudaro kiekvienas paketas, ir jo priklausomybė nuo kitų paketų.
+description: Dvigubo rašymo programos instrumentavimo paketas nebėra vienas paketas, bet jis atskirtas į mažesnius paketus. Šiame straipsnyje paaiškinami sprendimai ir schemos, kad kiekvienas paketas yra, ir jo priklausomybė nuo kitų paketų.
 author: RamaKrishnamoorthy
 ms.date: 04/25/2022
 ms.topic: article
@@ -10,12 +10,12 @@ ms.custom: separate-solution
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-11-29
-ms.openlocfilehash: f6950ec3e6ded49a71f119c21be67f538c8e1c69
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: 504939f1f98c18005c092cabc1d040b420402c93
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8716558"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874818"
 ---
 # <a name="separated-dual-write-application-orchestration-package"></a>Atskirto dvigubo rašymo programos instrumentavimo paketas
 
@@ -42,7 +42,7 @@ Kadangi tai buvo viena pakuotė, šis paketas sukūrė "visą arba nieko" situac
 
 ![Atskirta pakuotė.](media/separated-package-1.png)
 
-Šioje temoje paaiškinami sprendimai ir schemos, kurias sudaro kiekvienas paketas, ir jo priklausomybė nuo kitų paketų.
+Šiame straipsnyje paaiškinami sprendimai ir schemos, kad kiekvienas paketas yra, ir jo priklausomybė nuo kitų paketų.
 
 ## <a name="dual-write-application-core"></a>Dvigubo rašymo programos branduolys
 

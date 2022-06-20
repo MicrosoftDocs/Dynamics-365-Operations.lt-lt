@@ -1,6 +1,6 @@
 ---
 title: Proporcingas antraštės išlaidų paskirstymas atitinkančioms pardavimo eilutėms
-description: Šioje temoje aprašomos papildomos „Commerce“ kanalų užsakymų apskaičiavimo ir automatinio apmokestinimo galimybės, naudojant išplėstinę automatinio apmokestinimo funkciją.
+description: Šiame straipsnyje aprašomos papildomos automatinio apmokestinimo skaičiavimo ir taikymo "Commerce" kanalų užsakymams galimybės naudojant išplėstinę automatinio mokesčio funkciją.
 author: hhaines
 ms.date: 03/30/2020
 ms.topic: article
@@ -16,19 +16,19 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 0de29e1817840c172f9235f2ee48251c4878a0573d270a60fde5b42ba6f88d31
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6b41aa7b012b161626a98fc4aa2d37134552a57a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6774514"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8886937"
 ---
 # <a name="prorate-header-charges-to-matching-sales-lines"></a>Proporcingas antraštės išlaidų paskirstymas atitinkančioms pardavimo eilutėms
 
 
 [!include [banner](includes/banner.md)]
 
-Šioje temoje aprašomos antraštės lygio automatinio apmokestinimo grupavimo ir jų skirstymo „Commerce“ pardavimo eilutėse funkcijos. Ši funkcija yra skirta operacijoms, kurios sukurtos elektroniniame kasos aparate (EKA) naudojant „Retail“ 10.0.1 versiją ir pardavimo operacijoms, kurios sukurtos skambučių centre naudojant „Retail“ 10.0.2 versiją.
+Šiame straipsnyje aprašomos automatinio antraštės lygio mokesčių grupavimo ir jų skelbimo komercijos pardavimo eilutėms funkcijos. Ši funkcija yra skirta operacijoms, kurios sukurtos elektroniniame kasos aparate (EKA) naudojant „Retail“ 10.0.1 versiją ir pardavimo operacijoms, kurios sukurtos skambučių centre naudojant „Retail“ 10.0.2 versiją.
 
 Ši funkcija galima tik tuo atveju, jei įjungta funkcija [Išplėstinės automatinės išlaidos](/dynamics365/unified-operations/retail/omni-auto-charges) ir naudojama puslapyje **Prekybos parametrai** esanti parinktis. Be to, patobulintas automatinis apskaičiavimo metodas gali būti taikomas tik pardavimo užsakymams, kurie sukuriami per „Commerce“ kanalus (EKA, skambučių centrą ir „e-Commerce“ platformą „Dynamics“).
 

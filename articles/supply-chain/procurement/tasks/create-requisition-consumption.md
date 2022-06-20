@@ -1,6 +1,6 @@
 ---
 title: Vartojimo paraiškos kūrimas
-description: Šioje temoje aprašomas vartojimo paraiškos kūrimo procesas.
+description: Šiame straipsnyje aprašomas paraiškos kūrimo procesas.
 author: GalynaFedorova
 ms.date: 07/09/2019
 ms.topic: business-process
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5881e8a415ad37ff4bdb61b1043901c0b87ef743
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: b4fc4a9f0dbd5c413300d27640512df69df30122
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8671132"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8888476"
 ---
 # <a name="create-a-requisition-for-consumption"></a>Vartojimo paraiškos kūrimas
 
 [!include [banner](../../includes/banner.md)]
 
-Šioje temoje aprašomas vartojimo paraiškos kūrimo procesas. Ji parodo skirtingus produktų paieškos įsigijimo kataloge būdus ir kaip įtraukti produktą, kurio nėra kataloge. Prieš pradėdami šią procedūrą, pirkimo strategiją numatytuoju paraiškos tipu turite nustatyti suvartojimą. Šią procedūrą galite atlikti naudodami demonstracinių duomenų įmonę USMF arba savo duomenis. Procedūrą galima atlikti tik iš vartotojo profilio, kuris nustatytas kaip darbuotojo. Šią užduotį paprastai atlieka darbuotojas. Užduotis galėsite atlikti per darbuotojo saugos **Darbuotojas** vaidmenį arba, jei naudojate USMF, galite prisijungti kaip **Alicia**.
+Šiame straipsnyje aprašomas paraiškos kūrimo procesas. Ji parodo skirtingus produktų paieškos įsigijimo kataloge būdus ir kaip įtraukti produktą, kurio nėra kataloge. Prieš pradėdami šią procedūrą, pirkimo strategiją numatytuoju paraiškos tipu turite nustatyti suvartojimą. Šią procedūrą galite atlikti naudodami demonstracinių duomenų įmonę USMF arba savo duomenis. Procedūrą galima atlikti tik iš vartotojo profilio, kuris nustatytas kaip darbuotojo. Šią užduotį paprastai atlieka darbuotojas. Užduotis galėsite atlikti per darbuotojo saugos **Darbuotojas** vaidmenį arba, jei naudojate USMF, galite prisijungti kaip **Alicia**.
 
 
 ## <a name="create-a-new-requisition"></a>Kurti naują paraišką

@@ -1,6 +1,6 @@
 ---
 title: „Power BI“ turinys Kompensacija
-description: Šioje temoje aprašomas „Power BI“ turinys Kompensacija. Joje paaiškinama, kaip pasiekti ataskaitas ir pateikiama informacija apie naudojamą duomenų modelį.
+description: Šiame straipsnyje aprašomas kompensavimo Power BI turinys. Joje paaiškinama, kaip pasiekti ataskaitas ir pateikiama informacija apie naudojamą duomenų modelį.
 author: jcart1106
 ms.date: 12/19/2017
 ms.topic: article
@@ -13,23 +13,23 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 549111dab1b6d3b66567801ae787a680a04b18e20e286e1a59d1ab388bf2a4f7
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a8bc9be91a7538c3d50163832d5d4957724cd8fb
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6763601"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8897194"
 ---
 # <a name="compensation-power-bi-content"></a>„Power BI“ turinys Kompensacija
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje aprašomas **Kompensacijos** „Microsoft Power BI“ turinys. Jame paaiškinta, kaip pasiekti ataskaitas, ir pateikta informacija apie duomenų modelį ir objektus, naudojamus turinio paketui kurti.
+Šiame straipsnyje aprašomas **kompensavimo** Microsoft Power BI turinys. Jame paaiškinta, kaip pasiekti ataskaitas, ir pateikta informacija apie duomenų modelį ir objektus, naudojamus turinio paketui kurti.
 
 ## <a name="accessing-the-power-bi-content"></a>Prieiga prie „Power BI“ turinio
 „Power BI“ turinys **Kompensacija** rodomas darbo srityje **Kompensacijos valdymas**, jei naudojate vieną iš toliau nurodytų produktų.
 
-- „Finance and Operations” programėlės
+- „Finance and Operations” programos
 - „Microsoft Dynamics 365 Human Resources“
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>Į „Power BI“ turinį įtrauktos ataskaitos

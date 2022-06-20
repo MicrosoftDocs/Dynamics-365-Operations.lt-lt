@@ -1,6 +1,6 @@
 ---
 title: Būklės vertinimas
-description: Šioje temoje paaiškinama, kaip modulyje Turto valdymas sukurti turto būklės vertinimo šabloną ir registraciją.
+description: Šiame straipsnyje paaiškinama, kaip sukurti sąlygos įvertinimo šabloną ir registravimą turtui turto valdymo dalyje.
 author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cced322dd2f213d8e6025d853edc8472618989b61de7139b28ba1c6bffd3ad2a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: MT
+ms.openlocfilehash: aa326a01bb63bd0b59c0df7a3c751a5242a3dd37
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6736069"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872100"
 ---
 # <a name="condition-assessment"></a>Būklės vertinimas
 
@@ -28,7 +28,7 @@ ms.locfileid: "6736069"
 
  
 
-Šioje temoje aiškinama, kaip modulyje Turto valdymas sukurti turto būklės vertinimo šabloną ir registraciją. Būklės vertinimas atliekamas reguliariais intervalais, o pagrindinis tikslas – sukurti ir išlaikyti būklės duomenis apie turtą. Žvelgiant iš prevencinės priežiūros perspektyvos, svarbu stebėti svarbiausią informaciją, pvz., dabartinę būklę ir likusį eksploatavimo laikotarpį. Be to, jei būklės vertinimą atliksite reguliariais intervalais, galėsite stebėti ir lyginti savo gamyklos mašinų būklę.
+Šiame straipsnyje paaiškinama, kaip sukurti sąlygos įvertinimo šabloną ir registravimą turtui turto valdymo dalyje. Būklės vertinimas atliekamas reguliariais intervalais, o pagrindinis tikslas – sukurti ir išlaikyti būklės duomenis apie turtą. Žvelgiant iš prevencinės priežiūros perspektyvos, svarbu stebėti svarbiausią informaciją, pvz., dabartinę būklę ir likusį eksploatavimo laikotarpį. Be to, jei būklės vertinimą atliksite reguliariais intervalais, galėsite stebėti ir lyginti savo gamyklos mašinų būklę.
 
 Būklės vertinimas gali būti naudojamas daugumai įrangos būklių matuoti ir stebėti. Pavyzdys: galite matuoti mašinų vibracijas. Užregistravę įvairių tipų įrangos vibracijos matavimus modulyje Turto valdymas, galite ieškoti naujausio užregistruoto vertinimo ir peržiūrėti vibracijos matavimus.
 

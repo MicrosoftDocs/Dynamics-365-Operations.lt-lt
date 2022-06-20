@@ -1,6 +1,6 @@
 ---
 title: Vieno kvito DUK
-description: Šioje temoje atsakomi dažniausiai užduodami klausimai apie vieno kvito veikimą. Naudodamiesi finansinių žurnalų (bendrojo žurnalo, ilgalaikio turto žurnalo, tiekėjo mokėjimų žurnalo ir t. t.) funkcija Vienas kvitas vieno kvito kontekste galite įvesti kelias papildomos knygos operacijas.
+description: Šiame straipsnyje pateikiami atsakymai į dažnai užduodamus klausimus apie vieno kvito funkciją. Naudodamiesi finansinių žurnalų (bendrojo žurnalo, ilgalaikio turto žurnalo, tiekėjo mokėjimų žurnalo ir t. t.) funkcija Vienas kvitas vieno kvito kontekste galite įvesti kelias papildomos knygos operacijas.
 author: kweekley
 ms.date: 11/05/2018
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: 8.0.2
-ms.openlocfilehash: beab87ad569a6009fb4a42fd19681b64dcb0bb1e
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: e7eedfd4b2914000e8fd85d977b071f44545a058
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8723112"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859804"
 ---
 # <a name="one-voucher-faq"></a>Vieno kvito DUK
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje atsakomi dažniausiai užduodami klausimai apie vieno kvito veikimą. Vienas kvitas finansiniam žurnalams jums leidžia įvesti daugelį papildomų buhalterijos knygos transakcijų vieno kvito kontekste. Žurnalai, kuriuos galite įtraukti į tą kvitą, gali būti bendri, ilgalaikio turto žurnalai ir pardavėjo mokėjimų žurnalai bei kiti.
+Šiame straipsnyje pateikiami atsakymai į dažnai užduodamus klausimus apie vieno kvito funkciją. Vienas kvitas finansiniam žurnalams jums leidžia įvesti daugelį papildomų buhalterijos knygos transakcijų vieno kvito kontekste. Žurnalai, kuriuos galite įtraukti į tą kvitą, gali būti bendri, ilgalaikio turto žurnalai ir pardavėjo mokėjimų žurnalai bei kiti.
 
 ## <a name="when-will-the-one-voucher-functionality-be-deprecated"></a>Kada vieno kvito veikimas gali nebegalioti?
 

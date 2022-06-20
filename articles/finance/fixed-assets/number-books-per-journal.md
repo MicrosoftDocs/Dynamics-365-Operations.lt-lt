@@ -1,6 +1,6 @@
 ---
 title: Vieno žurnalo knygų skaičius
-description: Šioje temoje aprašomas ryšys tarp žurnalų ir turto knygų kuriant ilgalaikio turto įsigijimo arba nusidėvėjimo pasiūlymą vykdant paketinę užduotį. Galite nurodyti maksimalų knygų, įtrauktų į kiekvieną įsigijimą ir dėl nusidėvėjimo, skaičių.
+description: Šiame straipsnyje aprašomas ryšys tarp žurnalų ir turto knygų, kai naudodami paketinę užduotį kuriate ilgalaikio turto įsigijimą arba nusidėvėjimo pasiūlymą. Galite nurodyti maksimalų knygų, įtrauktų į kiekvieną įsigijimą ir dėl nusidėvėjimo, skaičių.
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-11-19
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 1e37d40c30d784eea5ba097447f2b2e69920830a
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 2dbd50963cf13f00e09b82e884cd8ebc0b67d424
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722386"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883335"
 ---
 # <a name="number-of-books-per-journal"></a>Vieno žurnalo knygų skaičius
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje aprašomas ryšys tarp žurnalų ir turto knygų kuriant ilgalaikio turto įsigijimo arba nusidėvėjimo pasiūlymą vykdant paketinę užduotį. Galite nurodyti maksimalų visų pirkimo ir nusidėvėjimo knygų skaičių, naudojant laukus, esančius puslapio **Ilgalaikio turto parametrai** skirtuko **Bendra** skiltyje **Vieno žurnalo knygų skaičius** (**Ilgalaikis turtas \> Sąranka \> Ilgalaikio turto parametrai**). Šie laukai leidžia paskirstyti turto knygų, skirtų pirkimo žurnalui ir nusidėvėjimo žurnalui, skaičių.
+Šiame straipsnyje aprašomas ryšys tarp žurnalų ir turto knygų, kai naudodami paketinę užduotį kuriate ilgalaikio turto įsigijimą arba nusidėvėjimo pasiūlymą. Galite nurodyti maksimalų visų pirkimo ir nusidėvėjimo knygų skaičių, naudojant laukus, esančius puslapio **Ilgalaikio turto parametrai** skirtuko **Bendra** skiltyje **Vieno žurnalo knygų skaičius** (**Ilgalaikis turtas \> Sąranka \> Ilgalaikio turto parametrai**). Šie laukai leidžia paskirstyti turto knygų, skirtų pirkimo žurnalui ir nusidėvėjimo žurnalui, skaičių.
 
 Įsigijimo pasiūlymo numatytoji vertė yra bent 10 000 knygų. Nusidėvėjimo pasiūlymo numatytoji vertė yra bent 2000 knygų.
 

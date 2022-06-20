@@ -1,6 +1,6 @@
 ---
 title: Neatitikties operacijos
-description: Šioje temoje aprašoma, kaip sukurti ir naudoti neatitikčių operacijas.
+description: Šiame straipsnyje aprašoma, kaip sukurti ir naudoti neatitikties operacijas.
 author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2020-06-17
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 35619454af8b1cb1b7d383d393362f58d9dd0ea6
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: d2e63156dd2b230da7f1ea89e2c2006c1b4f3eeb
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7573878"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847997"
 ---
 # <a name="operations-for-nonconformances"></a>Neatitikties operacijos
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje aprašoma, kaip sukurti ir naudoti neatitikčių operacijas.
+Šiame straipsnyje aprašoma, kaip sukurti ir naudoti neatitikties operacijas.
 
 Norėdami nurodyti darbų, kurie gali būti atlikti atsiradus patvirtintai neatitikčiai, klasifikaciją, naudokite puslapį **Operacijos**. Priskyrę susijusią operaciją neatitikčiai taip pat galite pateikti išsamią informaciją , pvz., apie susijusią medžiagą, darbo valandas ir papildomas išlaidas, būtinas atliekant operaciją. Sistema informacija naudojama skaičiuojant operacijos įvertintą savikainą. Išsami informacija ir įvertinta savikaina naudojamos kaip nuorodos. Susijusios kokybės operacijos skiriasi nuo galimų nurodyti gamybos maršruto operacijų.
 

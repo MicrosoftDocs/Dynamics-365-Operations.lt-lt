@@ -1,6 +1,6 @@
 ---
 title: Dvi valiutos
-description: Šioje temoje pateikiama informacija apie dvigubos valiutos, kur ataskaitų valiuta naudojama kaip Microsoft Dynamics antroji 365 finansų apskaitos valiuta.
+description: Šiame straipsnyje pateikiama informacija apie dvigubos valiutos, kur ataskaitų valiuta naudojama kaip Microsoft Dynamics antroji 365 finansų apskaitos valiuta.
 author: kweekley
 ms.date: 04/17/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-10
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 04738d2fe88fef5c0e96a39febfec86fab3bee7d
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 8db8faefaec4afe208344492ec91375531cb9cd0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713591"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906361"
 ---
 # <a name="dual-currency"></a>Dvi valiutos
 
@@ -36,7 +36,7 @@ Be to, keli moduliai buvo patobulinti, kad galėtų sekti, pranešti ir naudoti 
 - Ilgalaikis turtas 
 - Konsolidacija
 
-Po atnaujinimo turite atlikti tam tikrus grynųjų pinigų ir banko valdymo ir ilgalaikio turto veiksmus. Todėl įsitikinkite, kad perskaitėte ir supratote atitinkamus šios temos skyrius.
+Po atnaujinimo turite atlikti tam tikrus grynųjų pinigų ir banko valdymo ir ilgalaikio turto veiksmus. Todėl perskaitykite ir supraskite atitinkamus šio straipsnio skyrius.
 
 ## <a name="posting-process"></a>Registravimo procesas
 
@@ -93,7 +93,7 @@ Atlikti toliau nurodyti modulio **Didžioji knyga** pakeitimai.
 - DK galima nurodyti atskirą ataskaitų valiutos kurso tipą. Jei organizacija nenori naudoti kito valiutos kurso tipo, lauką, kuriame nurodomas ataskaitų valiutos kurso tipas, galite palikti tuščią. Taip pat galite pasirinkti tą patį valiutos kurso tipą, kuris naudojamas apskaitos valiutai. Jei laukas paliekamas tuščias, sistema naudoja apskaitos valiutos kurso tipą.
 - Naudojant naują žurnalą (ataskaitų valiutos koregavimo žurnalą) atliktus koregavimus DK sąskaitose galima registruoti tik ataskaitų valiuta. Naudojantis šiuo žurnalu galima registruoti tik DK sąskaitose. Jis nepalaiko vidinės įmonės ir valiuta turi būti juridinio subjekto, kuriame žurnalas registruojamas, ataskaitų valiuta. Užregistravus žurnalą, operacijos valiuta ir apskaitos valiuta pateiktos sumos yra 0 (nulis), o ataskaitų valiuta pateikta suma registruojama nurodant tokią sumą, kuri buvo įvesta operacijoje. Kadangi pasikeitė ataskaitų valiutos naudojimo moduliuose **Mokėtinos sumos**, **Gautinos sumos** ir **Ilgalaikis turtas** pobūdis, šis žurnalas gali būti naudojamas po atnaujinimo atliekamiems koregavimams. Pavyzdžių, kuriuose vaizduojama, kaip naudoti šį žurnalą, ieškokite tiems moduliams skirtuose skyriuose.
 - Laikotarpio paskirstymo procesas atnaujintas taip, kad būtų paskirstomos operacijos, apskaitos ir ataskaitų valiutomis nurodytos sumos. Anksčiau buvo skirstomos operacijos ir apskaitos valiuta nurodytos sumos, paskui suma apskaitos valiuta būdavo konvertuojama į sumą ataskaitų valiuta. Todėl DK sąskaitos balansas gali likti nurodytas ataskaitų valiuta. Dabar, kai sumos apskaičiuojamos ir naudojamos apskaitos įraše, konvertavimas nevyksta.
-- Įvykus užsienio valiutos kurso pasikeitimo procesui jau pakeistos ataskaitų valiuta nurodytos sumos. Tačiau suma ataskaitų valiuta dabar apskaičiuojama naudojant sumą operacijos valiuta, kaip aprašyta ankstesniame šios temos skyriuje [Registravimo procesas](#posting-process).
+- Įvykus užsienio valiutos kurso pasikeitimo procesui jau pakeistos ataskaitų valiuta nurodytos sumos. Tačiau ataskaitų valiutos suma dabar apskaičiuojama naudojant operacijos valiutos sumą, kaip aprašyta [anksčiau](#posting-process) šiame straipsnyje skyriuje Registravimo procesas.
 - Daugumoje DK ataskaitų ir užklausų jau buvo nurodyta ataskaitų valiuta, bet keliose ji nebuvo nurodyta. Vienas pavyzdys – sąrašo puslapis **Bandomasis balansas**. Šiame sąrašo puslapyje dabar pateikiami stulpeliai, skirti sumoms apskaitos valiuta ir ataskaitų valiuta. Atkreipkite dėmesį į tai, kad jei apskaitos valiuta ir ataskaitų valiuta sutampa arba jei DK ataskaitų valiuta nenurodyta, stulpeliai, kuriuose nurodomos sumos ataskaitų valiuta, paslėpti.
 
 ### <a name="financial-reporting"></a>Finansinės ataskaitos

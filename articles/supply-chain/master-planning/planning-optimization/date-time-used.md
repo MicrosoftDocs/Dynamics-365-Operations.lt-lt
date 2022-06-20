@@ -1,6 +1,6 @@
 ---
 title: Datos ir laiko parametrai, naudojami „Planning Optimization“
-description: Šioje temoje pateikiama informacija apie datos ir laiko parametrus, kuriuos „Planning Optimization“ naudoja operacijos metu.
+description: Šiame straipsnyje pateikiama informacija apie datos ir laiko parametrus, kuriuos planavimo optimizavimas naudoja operacijos metu.
 author: t-benebo
 ms.date: 09/21/2021
 ms.topic: article
@@ -10,18 +10,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-09-21
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 0708404f286253449e0400fc65680e903f6d1e9b
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 807834bf5cd062ed24e5e3f3512d8389717a2d39
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8468838"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885905"
 ---
 # <a name="date-and-time-parameters-used-by-planning-optimization"></a>Datos ir laiko parametrai, naudojami „Planning Optimization“
 
 [!include [banner](../../includes/banner.md)]
 
-Šioje temoje pateikiama informacija apie datos ir laiko parametrus, kuriuos „Planning Optimization“ naudoja operacijos metu.
+Šiame straipsnyje pateikiama informacija apie datos ir laiko parametrus, kuriuos planavimo optimizavimas naudoja operacijos metu.
 
 Kadangi įtaisytasis bendrojo planavimo variklis visuose skaičiavimuose naudoja operacijų datas, „Planning Optimization“ veikia pagal datos ir laiko vertes, kurios konvertuojamos į datas. Dėl tokio veikimo būdo skirtumo gali atsirasti situacijų, kai, pvz., prognozės operacijos, sukurtos vidurnaktį tą dieną, kai vykdomas bendrasis planavimas, neįtrauktos, nes „Planning Optimization“ mano, kad jos sukurtos iki esamos datos.
 

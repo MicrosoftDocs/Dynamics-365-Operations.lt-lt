@@ -1,6 +1,6 @@
 ---
 title: Tvarkyti el. prekybos vartotojus ir vaidmenis
-description: Šioje temoje paaiškinama, kaip suteikti vartotojams prieigą prie „Microsoft Dynamics 365 Commerce“ svetainės kūrimo aplinkos.
+description: Šiame straipsnyje paaiškinama, kaip vartotojams suteikti prieigą prie jūsų svetainės kūrimo Microsoft Dynamics 365 Commerce aplinkos.
 author: bicyclingfool
 ms.date: 10/01/2019
 ms.topic: article
@@ -16,19 +16,19 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: ff0d3e607eb905eb9264bbb9ba151fbd527a81a2c72252252f2a45edc201e1b4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ac4342e4439db229997d9d4a0ad32f3664a795b1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6715411"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868966"
 ---
 # <a name="manage-e-commerce-users-and-roles"></a>Tvarkyti el. prekybos vartotojus ir vaidmenis
 
 
 [!include [banner](includes/banner.md)]
 
-Šioje temoje paaiškinama, kaip suteikti vartotojams prieigą prie „Microsoft Dynamics 365 Commerce“ svetainės kūrimo aplinkos.
+Šiame straipsnyje paaiškinama, kaip vartotojams suteikti prieigą prie jūsų svetainės kūrimo Microsoft Dynamics 365 Commerce aplinkos.
 
 Siekiant padėti valdyti vartotojo prieigą ir suteikti vartotojams teisę atlikti konkrečias užduotis, svetainės kūrimo aplinkoje naudojamos saugos grupės, sukurtos tarnyboje „Microsoft Azure Active Directory“ („Azure AD“). Pirmiausia kūrimo aplinkoje kiekvienam vaidmeniui priskiriate naują arba esamą saugos grupę iš „Azure AD“. Tada suteikiate arba panaikinate teises atskiriems vartotojams įtraukdami šiuos vartotojus į reikiamą saugos grupę arba pašalindami juos iš saugos grupės.
 
@@ -50,7 +50,7 @@ Kai sukonfigūruojate „Dynamics 365 Commerce“, esančią „Microsoft Dynami
 
 ## <a name="administrator-role"></a>Administratoriaus vaidmuo
 
-Kai sukuriate naują svetainę „Commerce“ programoje, būsite paprašyti pateikti saugos grupę vaidmeniui **Administratorius**. Žiūrėkite anksčiau šioje temoje pateiktą lentelę, kad peržiūrėtumėte teises, kurias teikia šis vaidmuo.
+Kai sukuriate naują svetainę „Commerce“ programoje, būsite paprašyti pateikti saugos grupę vaidmeniui **Administratorius**. Norėdami peržiūrėti teises, kurias suteikia šis vaidmuo, žr. anksčiau šiame straipsnyje pateiktą lentelę.
 
 ## <a name="add-or-update-security-groups"></a>Saugos grupių įtraukimas arba naujinimas
 

@@ -1,6 +1,6 @@
 ---
 title: Našumo apžvalgų kūrimas
-description: Šioje temoje aiškinama, kaip sukurti efektyvumo vertinimą, ir paaiškinamas kiekvieno vertinimo skyriaus tikslas.
+description: Šiame straipsnyje aiškinama, kaip sukurti efektyvumo vertinimą, ir paaiškinamas kiekvieno vertinimo skyriaus tikslas.
 author: twheeloc
 ms.date: 08/26/2021
 ms.topic: business-process
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 67a001926c0d5021d952f9b678ec128c68511a8f
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: ae2de087f4e345ba826ddbe8a65f917476bd6894
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8696046"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872187"
 ---
 # <a name="create-performance-reviews"></a>Našumo apžvalgų kūrimas
 
@@ -27,7 +27,7 @@ ms.locfileid: "8696046"
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 
-Šioje temoje aiškinama, kaip sukurti efektyvumo vertinimą, ir paaiškinamas kiekvieno vertinimo skyriaus tikslas. Ši procedūra buvo sukurta naudojant demonstracinių duomenų įmonę USMF.
+Šiame straipsnyje aiškinama, kaip sukurti efektyvumo vertinimą, ir paaiškinamas kiekvieno vertinimo skyriaus tikslas. Ši procedūra buvo sukurta naudojant demonstracinių duomenų įmonę USMF.
 
 1. Pagrindiniame puslapyje pažymėkite darbo sritį **Darbuotojo savitarna**.
 2. Norėdami sukurti naują vertinimą, pasirinkite **Naujas vertinimas**.

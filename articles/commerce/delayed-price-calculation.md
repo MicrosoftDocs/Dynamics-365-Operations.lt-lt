@@ -1,6 +1,6 @@
 ---
 title: Tikslaus kainos ir nuolaidos skaičiavimo atidėjimas našumo padidinimui
-description: Šioje temoje aprašomas atidėtos kainos skaičiavimo pajėgumas, galimas „Microsoft Dynamics 365 Commerce” elektroniniame kasos aparate (EKA) ir skambučių centre.
+description: Šiame straipsnyje aprašomos atidėtos kainos skaičiavimo galimybės, kurias galima naudoti point Microsoft Dynamics 365 Commerce of sale (EKA) ir skambučių centre.
 author: boycezhu
 ms.date: 09/09/2021
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgri
 ms.search.region: Global
 ms.author: boycez
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: 8c4264c3a4c71e6aab0e1ef8d7d8cfffad065a46
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
+ms.openlocfilehash: 6926c288a91dbe66b6ffc2e6c06f866d3ebd7652
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7488368"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845902"
 ---
 # <a name="delay-exact-price-and-discount-calculation-for-improved-performance"></a>Tikslaus kainos ir nuolaidos skaičiavimo atidėjimas našumo padidinimui
 
 [!include [banner](includes/banner.md)]
 
-Šioje temoje aprašomas atidėtos kainos skaičiavimo pajėgumas, galimas „Microsoft Dynamics 365 Commerce” elektroniniame kasos aparate (EKA) ir skambučių centre.
+Šiame straipsnyje aprašomos atidėtos kainos skaičiavimo galimybės, kurias galima naudoti point Microsoft Dynamics 365 Commerce of sale (EKA) ir skambučių centre.
 
 „Dynamics 365 Commerce” palaiko kelių eilučių nuolaidų, kurios taikomos sujungiant kelias pardavimo užsakymo arba pardavimo pasiūlymo eilutes, kūrimą. Šios nuolaidos apima nuolaidas prekių rinkiniui, ribinę vertę ir kiekio nuolaidas.
 

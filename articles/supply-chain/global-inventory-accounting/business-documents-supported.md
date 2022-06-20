@@ -1,6 +1,6 @@
 ---
 title: Verslo dokumentai, kuriuos palaiko Visuotinė atsargų apskaita
-description: Šioje temoje išvardyti verslo dokumentai, kuriuos palaiko Visuotinė atsargų apskaita. Taip pat pateikiamas išsamus pirkimo užsakymo dokumentų pavyzdys.
+description: Šiame straipsnyje pateikiami verslo dokumentai, kuriuos palaiko visuotinių atsargų apskaita. Taip pat pateikiamas išsamus pirkimo užsakymo dokumentų pavyzdys.
 author: JennySong-SH
 ms.date: 06/18/2021
 ms.topic: article
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: yanansong
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 44081be35c6737aa0d16b6e11a5fc8f94b41e872
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: dc88d095c039b22ac347db949f6b61d5a89dc4b1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8674455"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8875429"
 ---
 # <a name="business-documents-supported-by-global-inventory-accounting"></a>Verslo dokumentai, kuriuos palaiko Visuotinė atsargų apskaita
 
@@ -32,7 +32,7 @@ Yra du verslo dokumentų tipai:
 - **Dokumentai, turintys žurnalą** – Šie dokumentai apima produkto gavimo kvito, pirkimo sąskaitos faktūros, važtaraščio ir pardavimo sąskaitos faktūros dokumentus.
 - **Dokumentai, neturintys žurnalo** – Šie dokumentai apima skaičiavimo, judėjimo ir atsargų koregavimo dokumentus.
 
-Toliau šioje temoje pirkimo užsakymai bus naudojami kaip proceso iliustravimo pavyzdys.
+Toliau šiame straipsnyje pirkimo užsakymai bus naudojami kaip proceso iliustravimo pavyzdys.
 
 Šioje lentelėje pateikiami dokumentai, kuriuos palaiko dabartinis paleidimas.
 

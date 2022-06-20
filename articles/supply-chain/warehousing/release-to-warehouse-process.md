@@ -1,6 +1,6 @@
 ---
 title: Išleisti į sandėlį
-description: Šioje temoje pateikiama informacija apie išleidimo į sandėlį procesą. Čia aprašomi objektai, kurie sukuriami išleidžiant užsakymą į sandėlį, ir pasirinktys, kurias galite naudoti procesui inicijuoti.
+description: Šiame straipsnyje pateikiama informacija apie išleidimo į sandėlį procesą. Čia aprašomi objektai, kurie sukuriami išleidžiant užsakymą į sandėlį, ir pasirinktys, kurias galite naudoti procesui inicijuoti.
 author: Mirzaab
 ms.date: 8/13/2021
 ms.topic: article
@@ -11,22 +11,22 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-08-13
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 8624db42e9d0f3d08ed3b582224ed7937d52f85d
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: c3280b2e39d7af5ca99cad703cad6ecc7b307bff
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8678357"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893184"
 ---
 # <a name="release-to-warehouse"></a>Išleisti į sandėlį
 
 [!include [banner](../../includes/banner.md)]
 
-Šioje temoje pateikiama informacija apie išleidimo į sandėlį procesą. Čia aprašomi objektai, kurie sukuriami išleidžiant užsakymą į sandėlį, ir pasirinktys, kurias galite naudoti procesui inicijuoti.
+Šiame straipsnyje pateikiama informacija apie išleidimo į sandėlį procesą. Čia aprašomi objektai, kurie sukuriami išleidžiant užsakymą į sandėlį, ir pasirinktys, kurias galite naudoti procesui inicijuoti.
 
 ## <a name="release-to-warehouse-overview"></a>Išleidimo į sandėlį peržiūrą
 
-Išleidimas į sandėlį yra procesas, kai atsargos paruošios išsiųsti. Paleidus užsakymą į sandėlį, sistema sukuria krovinio eilutes ir siuntas. Jei nustatytas automatinis bangos apdorojimas, sukuriami kroviniai ir būtinas darbas. Susijusių objektų konfigūracija priklauso nuo sistemos parametrų. Šiame temos skyriuje peržiūrimi objektai, sukurti išleidžiant į sandėlį, ir juos apibrėžiami sistemos parametrai.
+Išleidimas į sandėlį yra procesas, kai atsargos paruošios išsiųsti. Paleidus užsakymą į sandėlį, sistema sukuria krovinio eilutes ir siuntas. Jei nustatytas automatinis bangos apdorojimas, sukuriami kroviniai ir būtinas darbas. Susijusių objektų konfigūracija priklauso nuo sistemos parametrų. Šiame straipsnio skyriuje peržiūrimi objektai, sukurti išleidžiant į sandėlį, ir juos apibrėžiami sistemos parametrai.
 
 Siunta *yra* to paties kliento ar to paties pristatymo adreso pardavimo užsakymo ar perkėlimo užsakymo eilučių grupė.
 
@@ -67,7 +67,7 @@ Apibendrinant, kai užsakymas išleidžiamas į sandėlį, pats automatizuotiaus
 
 Kai kurie šio srauto veiksmai gali būti atlikti rankiniu būdu, tai priklauso nuo bangos šablonų, darbo šablonų ir vietos nurodymų parametrų. Tačiau bendras srautas lieka toks pat.
 
-Turite kelias pasirinktis, kaip išleisti užsakymą į sandėlį. Galite atlikti operaciją neautomatiniu būdu arba nustatyti paketinę užduotį. Likusiuose šios temos skyriuose išsamiai peržiūrima įvairūs būdai, kaip galite išleisti į sandėlio operaciją.
+Turite kelias pasirinktis, kaip išleisti užsakymą į sandėlį. Galite atlikti operaciją neautomatiniu būdu arba nustatyti paketinę užduotį. Likusiuose šio straipsnio skyriuose išsamiai peržiūrimi įvairūs būdai, kaip galima išleisti į sandėlio operaciją.
 
 ## <a name="manual-release-to-the-warehouse-from-the-sales-orders-and-transfer-orders-pages"></a>Išleisti į sandėlį rankiniu būdu iš pardavimo užsakymų ir perkėlimo užsakymų puslapių
 

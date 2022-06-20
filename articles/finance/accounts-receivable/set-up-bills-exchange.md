@@ -1,6 +1,6 @@
 ---
 title: Įsakomųjų vekselių nustatymas
-description: Šioje temoje aprašomi įsakomųjų vekselių nustatymo proceso veiksmai.
+description: Šiame straipsnyje aprašomi įsakomųjų vekselių nustatymo veiksmai.
 author: ShivamPandey-msft
 ms.date: 09/17/2018
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 6a9d04500ffe5b93c7a95c5cac9b4270e208dde9
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 91821b10afe7cdbabd0a58b61219ce29d686c5c9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726815"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874731"
 ---
 # <a name="set-up-bills-of-exchange"></a>Įsakomųjų vekselių nustatymas
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje aprašomi įsakomųjų vekselių nustatymo proceso veiksmai.
+Šiame straipsnyje aprašomi įsakomųjų vekselių nustatymo veiksmai.
 
 Parašomas įsakomasis vekselis arba elektroninis kliento užsakymas, kuris nurodo, kad trečioji šalis, paprastai bankas, sumokėtų įmonei nurodytą sumą. Kai naudojate įsakomąjį vekselį kaip mokėjimą už pardavimo užsakymo SF arba laisvos formos SF, kredituojate kliento sąskaitą. Kreditas saugomas įsakomojo vekselio kol klientas apmoka įsakomąjį vekselį bankui. Paprastai sudengsite sąskaitą faktūrą įsakomuoju vekseliu atėjus terminui. Kai iš banko gausite pranešimą, kad įsakomasis vekselis apmokėtas, galite jį uždaryti. Įsakomąjį vekselį galite išduoti per savo banką bet kuriuo metu iš pateiktų:
 

@@ -1,6 +1,6 @@
 ---
 title: Vaizdo įrašų leistuvo modulis
-description: Šioje temoje aprašomi vaizdo įrašų leistuvo moduliai ir tai, kaip jų įtraukti į „Microsoft Dynamics 365 Commerce“ svetainių puslapius.
+description: Šiame straipsnyje aprašomi vaizdo įrašų leistuvo moduliai ir aprašoma, kaip įtraukti juos į svetainės puslapius Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 05/18/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: b7ec2ea0f8360bbf1dffa023e4546e4deadb5ff9
-ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
+ms.openlocfilehash: 20d516c58bf619065d57b27bc5a614eb7bd4cea9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "8780769"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873441"
 ---
 # <a name="video-player-module"></a>Vaizdo įrašų leistuvo modulis
 
 [!include [banner](includes/banner.md)]
 
-Šioje temoje aprašomi vaizdo įrašų leistuvo moduliai ir tai, kaip jų įtraukti į „Microsoft Dynamics 365 Commerce“ svetainių puslapius.
+Šiame straipsnyje aprašomi vaizdo įrašų leistuvo moduliai ir aprašoma, kaip įtraukti juos į svetainės puslapius Microsoft Dynamics 365 Commerce.
 
 Vaizdo įrašų leistuvo modulis naudojamas vaizdo įrašų atkūrimo galimybei palaikyti. Jis gali būti įtrauktas į bet kurį puslapį, jei vaizdo įrašo turinys įkeliamas ir pasiekiamas turinio valdymo sistemoje (TVS). Vaizdo įrašų leistuvo modulis palaiko .mp4 medijos tipą.
 

@@ -1,6 +1,6 @@
 ---
 title: Pardavimo užsakymų SF ID redagavimas (Rytų Europa)
-description: Šioje temoje pateikiama informacija apie važtaraščių ir SF numeriams įtakos turinčius gautinų sumų parametrus, kurie skirti Čekijos Respublikai, Estijai, Vengrijai, Lietuvai, Latvijai ir Lenkijai.
+description: Šiame straipsnyje pateikta informacija apie gautinų sumų parametrus, kurie paveikia Čekijos Respublika, Estija, Vengrija, Lietuva, Latvija ir Lenkija važtaraščių ir SF numerius.
 author: ShylaThompson
 ms.date: 06/20/2017
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Czech Republic, Estonia, Hungary, Latvia, Lithuania, Poland
 ms.author: kfend
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: e5c84ee88ae96a64c56be8eb81685ba64dd9345e5e5a88e3479b255cb4d10131
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5c6bc70187680cdf0599c88fe36c25bea22ed0d8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6757960"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880638"
 ---
 # <a name="edit-invoice-ids-on-sales-orders-for-eastern-europe"></a>Pardavimo užsakymų SF ID redagavimas (Rytų Europa)
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje pateikiama informacija apie važtaraščių ir SF numeriams įtakos turinčius gautinų sumų parametrus, kurie skirti Čekijos Respublikai, Estijai, Vengrijai, Lietuvai, Latvijai ir Lenkijai.
+Šiame straipsnyje pateikta informacija apie gautinų sumų parametrus, kurie paveikia Čekijos Respublika, Estija, Vengrija, Lietuva, Latvija ir Lenkija važtaraščių ir SF numerius.
 
 Jei juridiniai subjektai yra Čekijos Respublikoje, Estijoje, Vengrijoje, Lietuvoje, Latvijoje arba Lenkijoje, parinktis **Redaguoti pardavimo užsakymų SF ID** suteikia galimybę neautomatiškai įvesti važtaraščio ir SF numerius kliento važtaraštyje ir SF. Puslapyje **Gautinų sumų parametrai**, skirtuko **Naujinimai** „FastTab“ **SF** galima naudoti tolesnes parinktis.
 <table>

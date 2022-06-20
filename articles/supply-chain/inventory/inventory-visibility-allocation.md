@@ -1,8 +1,8 @@
 ---
-title: Atsargų matomumo atsargų paskirstymas
-description: Šioje temoje paaiškinama, kaip nustatyti ir naudoti atsargų paskirstymo funkciją, kuri leidžia atidėti skirtas atsargas ir užtikrinti, kad jūs galite patenkinti savo pelningiausią kanalą ar klientus.
+title: „Inventory Visibility“ atsargų paskirstymas
+description: Šiame straipsnyje paaiškinama, kaip nustatyti ir naudoti atsargų paskirstymo funkciją, kuri leidžia atidėti skirtas atsargas ir užtikrinti, kad jūs galite vykdyti pelningiausią kanalą ar klientus.
 author: yufeihuang
-ms.date: 05/20/2022
+ms.date: 05/27/2022
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -11,14 +11,14 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2022-05-13
 ms.dyn365.ops.version: 10.0.27
-ms.openlocfilehash: 4293ead4ccfc9ba04e8b9da437134b4e97569026
-ms.sourcegitcommit: 1877696fa05d66b6f51996412cf19e3a6b2e18c6
+ms.openlocfilehash: ccc3a8c4b3d0649397b1d1f9139f7feebf39b02f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/20/2022
-ms.locfileid: "8787471"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8852511"
 ---
-# <a name="inventory-visibility-inventory-allocation"></a>Atsargų matomumo atsargų paskirstymas
+# <a name="inventory-visibility-inventory-allocation"></a>„Inventory Visibility“ atsargų paskirstymas
 
 [!include [banner](../includes/banner.md)]
 
@@ -35,7 +35,7 @@ Atsargų paskirstymas turi du pagrindinius verslo tikslus:
 
 ## <a name="allocation-definition-in-inventory-visibility-service"></a>Paskirstymo aprašas atsargų matomumo paslaugoje
 
-Nors atsargų matomumo paslaugos paskirstymo funkcija nenustato faktinių atsargų kiekių, ji nurodo turimus faktinių atsargų kiekius, *kad* būtų galima nustatyti pradinį turimų virtualiųjų telkinių kiekio paskirstymą. Atsargų paskirstymas pagal atsargų matomumą yra švelniai paskirstymas. Tai atliekama prieš įvykstant faktinėms pardavimo operacijoms ir nepriklauso nuo pardavimo užsakymų. Pavyzdžiui, galite paskirstyti atsargas svarbiausiems pardavimo kanalams arba stambiems įmonės mažmenininkams prieš galutiniams klientams apsilankant pardavimo kanale ar mažmeninės prekybos parduotuvėje, kad galėtų pirkti.
+Nors atsargų matomumo paslaugos paskirstymo funkcija nenustato faktinių atsargų kiekių, ji nurodo turimus faktinių atsargų kiekius, *kad* būtų galima nustatyti pradinį turimų virtualiųjų telkinių kiekio paskirstymą. Atsargų paskirstymas pagal atsargų matomumą yra švelniai paskirstymas. Tai atliekama prieš įvykstant faktinėms pardavimo operacijoms ir nepriklauso nuo pardavimo užsakymų. Pavyzdžiui, galite paskirstyti atsargas svarbiausiems pardavimo kanalams arba stambiems įmonės mažmenininkams prieš galutiniams klientams apsilankant pardavimo kanale arba mažmeninės prekybos parduotuvėje, kad galėtų pirkti.
 
 Skirtumas tarp atsargų paskirstymo ir atsargų soft [rezervavimo yra tas](inventory-visibility-reservations.md), kad švelniai rezervavimas paprastai susiejamas su faktinėmis pardavimo operacijomis (pardavimo užsakymo eilutės). Todėl jei norite naudoti paskirstymo ir soft rezervavimo priemones kartu, pirmiausia rekomenduojame atsargų paskirstymą atlikti, o tada iš dalies rezervuoti pagal paskirstytus kiekius. Daugiau informacijos rasite Naudojimo [kaip švelniai rezervavimas](#consume-to-soft-reserved).
 
@@ -98,7 +98,7 @@ Duomenų šaltinis pavadintas `@iv`.
 
 ### <a name="add-other-physical-measures-to-the-available-to-allocate-calculated-measure"></a>Įtraukti kitus faktinius matus į prieinamą paskirstyti apskaičiuotą matą
 
-Norėdami naudoti paskirstymą, turite nustatyti apskaičiuotą matas, kurį galima paskirstyti (`@iv`.`@available_to_allocate`). Pavyzdžiui, turite duomenų `fno` šaltinį ir matą, `onordered``pos` duomenų šaltinį ir matą, taip pat norite atlikti turimos sumos ir `inbound` kiekio paskirstymą`fno.onordered`.`pos.inbound` Šiuo atveju turėtų `@iv.@available_to_allocate` būti formulėje `pos.inbound``fno.onordered`. Toliau pateikiamas pavyzdys.
+Norėdami naudoti paskirstymą, turite nustatyti skaičiuojamąjį matą, kurį galima paskirstyti (`@iv.@available_to_allocate`). Pavyzdžiui, turite duomenų `fno``onordered` šaltinį ir matą, `pos``inbound` duomenų šaltinį ir matą, taip pat norite atlikti turimos sumos ir `fno.onordered` kiekio paskirstymą `pos.inbound`. Šiuo atveju turėtų `@iv.@available_to_allocate` būti formulėje `pos.inbound``fno.onordered`. Čia pateikiamas pavyzdys:
 
 `@iv.@available_to_allocate` = `fno.onordered` + `pos.inbound`– `@iv.@allocated`
 
@@ -110,11 +110,12 @@ Nustatote grupių pavadinimus atsargų **matomumo energijos programos konfigūra
 
 Pvz., \[`channel``customerGroup` jei naudojate keturis grupių pavadinimus ir nustatote juos kaip, `region``orderType`\], šie pavadinimai tinkami su paskirstymu susijusioms užklausoms, kai iškiesite konfigūracijos atnaujinimo API.
 
-### <a name="allcoation-using-tips"></a>Allcoation naudojant Patarimai
+### <a name="allocation-using-tips"></a>Paskirstymas naudojant patarimus
 
-- Kiekvienam produktui paskirstymo funkcija turi naudoti tame pačiame dimensijų lygyje pagal produktų indeksų hierarchiją, kurią nustatėte produktų indeksų [hierarchijos konfigūracijoje](inventory-visibility-configuration.md#index-configuration). Pavyzdžiui, indeksų hierarchija yra Svetainė, Vieta, Korekas, Dydis. Jei priskiriate tam tikrą vieno produkto kiekį svetainei, vietai, spalvos lygiui. Kitą kartą naudojant paskirstyti, taip pat turėtų būti svetainėje, vietoje, spalvos lygyje, jei naudojate vietą, vietą, spalvą, dydžio lygį arba vietą, vietos lygis, duomenys nebus nuoseklūs.
-- Pakeitus paskirstymo grupės pavadinimą, paslaugai įrašyti duomenys įtakos neturi.
+- Kiekvienam produktui paskirstymo funkcija turi naudoti tame *pačiame* dimensijų lygyje pagal produktų indeksų hierarchiją, kurią nustatėte produktų indeksų [hierarchijos konfigūracijoje](inventory-visibility-configuration.md#index-configuration). Pavyzdžiui, tarkime, kad jūsų indeksų hierarchija \[`Site` yra, `Location``Color`, . `Size`\] Jei dimensijų lygyje \[`Site` tam tikrą kiekį priskiriate vienam produktui, `Location``Color`\] kitą kartą, kai norite paskirstyti šį produktą, taip pat turėtumėte paskirstyti tame pačiame lygyje, \[`Site`,`Location``Color`\]. Jei naudojate lygį \[`Site`, (`Location` arba `Color`) `Size`\]\[`Site`, `Location`\] duomenys bus nesuderinami.
+- Paskirstymo grupės pavadinimo keitimas neturės įtakos paslaugai įrašytims duomenims.
 - Paskirstymas turi būti daromas, kai turimo produkto kiekis yra teigiamas.
+- Norėdami paskirstyti produktus iš aukšto paskirstymo *lygio* grupės į pogrupį, naudokite `Reallocate` API. Pavyzdžiui, \[`channel` turite paskirstymo grupės hierarchiją,, `customerGroup``region`, `orderType`\] ir \[norite tam tikrą produktą paskirstyti iš paskirstymo grupės tinkle, VIP\] į subskirstyti \[grupę tinkle, VIP, EU\], `Reallocate` naudoti API kiekiui perkelti. Jei naudojate `Allocate` API, kiekis bus paskirstytas iš virtualiojo bendrojo telkinio.
 
 ### <a name="using-the-allocation-api"></a><a name="using-allocation-api"></a> Paskirstymo API naudojimas
 
@@ -128,7 +129,7 @@ Pvz., \[`channel``customerGroup` jei naudojate keturis grupių pavadinimus ir nu
 
 #### <a name="allocate"></a>Paskirstyti
 
-Iškviesti `Allocate` API, norint paskirstyti konkrečių dimensijų turiinį produktą. Čia yra užklausos kūno schema.
+Iškviesti `Allocate` API, norint paskirstyti konkrečių dimensijų turiinį produktą. Tai yra užklausos kūno schema.
 
 ```json
 {
@@ -175,11 +176,11 @@ Kiekis visada turi būti didesnis nei 0 (nulis).
 
 #### <a name="unallocate"></a>Nepaskirstyti
 
-`Unallocate` Naudokite API operacijai `Allocate` atšaukti. Neigiamas kiekis operacijoje neleistinas `Allocate`. Kūno yra `Unallocate` identiškas .`Allocate`
+`Unallocate` Naudokite API operacijai `Allocate` atšaukti. Neigiamas kiekis operacijoje neleistinas `Allocate`. Kūno yra `Unallocate` identiškas `Allocate`.
 
 #### <a name="reallocate"></a>Perskirstyti
 
-Naudokite API, `Reallocate` norėdami perkelti kai kuriuos paskirstytus kiekius į kitą grupės derinį. Čia yra užklausos kūno schema.
+Naudokite API, `Reallocate` norėdami perkelti kai kuriuos paskirstytus kiekius į kitą grupės derinį. Tai yra užklausos kūno schema.
 
 ```json
 {
@@ -234,7 +235,7 @@ Pavyzdžiui, \[galite perkelti dvi dalis, kurių dimensijų vieta = 1, vieta = 1
 
 #### <a name="consume"></a>Naudoti
 
-`Consume` Naudokite API suvartojimo kiekiui registruoti prieš paskirstymą. Pavyzdžiui, galite naudoti šią API paskirstytam kiekiui perkelti į kai kuriuos tikrus priemones. Čia yra užklausos kūno schema.
+`Consume` Naudokite API suvartojimo kiekiui registruoti prieš paskirstymą. Pavyzdžiui, galite naudoti šią API paskirstytam kiekiui perkelti į kai kuriuos tikrus priemones. Tai yra užklausos kūno schema.
 
 ```json
 {
@@ -267,7 +268,7 @@ Pvz., yra aštuoni paskirstyta dalis, \[kurios dimensijų vieta = 1, vieta = 11,
 
 Aštuoni iš mato yra paskirstomi `pos.inbound` vienetai.
 
-Dabar parduodamas trys svečiai, o jie paimti iš paskirstymo telkinio. Norėdami užregistruoti šį perkelti, galite skambinti, kuris turi toliau nurodytą užklausos instituciją.
+Dabar parduodamas trys atsiprašome, o jie paimti iš paskirstymo telkinio. Norėdami užregistruoti šį perkelti, galite skambinti, kuris turi toliau nurodytą užklausos instituciją.
 
 ```json
 {
@@ -295,9 +296,9 @@ Dabar parduodamas trys svečiai, o jie paimti iš paskirstymo telkinio. Norėdam
 
 Po šio skambučio paskirstytas produkto kiekis bus sumažintas 3. Be to, atsargų matomumas sugeneruos turimų atsargų pakeitimo įvykį, kur `pos.inbound` = *-3*. Taip pat galite išlaikyti vertę taip `pos.inbound`, kaip yra, ir tiesiog sunaudoti paskirstytą kiekį. Tačiau šiuo atveju turite sukurti kitą fizinį matą, kad būtų išlaikomi sunaudoti kiekiai, arba naudoti iš anksto nustatytą matą `@iv.@consumed`.
 
-Šioje užklausoje atkreipkite dėmesį, kad fizinis matas, naudojamas comsume reqet body, turi naudoti priešingą modiferinį tipą (pridėjimas arba atimtis), palyginus su modifikatoriaus tipu, naudojamu apskaičiuotame mate. Ir tai vartoti kūno, `iv.inbound` turi vertę `Subtraction`, o ne `Addition`.
+Šioje užklausoje atkreipkite dėmesį, kad fizinis matas, kurį naudojate naudojimo užklausos dalyje, turi naudoti priešingą modifikatoriaus tipą (priedas ar atimtis), palyginus su modifikatoriaus tipu, naudojamu apskaičiuotame mate. Ir tai vartoti kūno, `iv.inbound` turi vertę `Subtraction`, o ne `Addition`.
 
-`fno` duomenų šaltinio negalima naudoti naudojimo lauke, nes visada teigime, kad atsargų matomumas negali pakeisti jokių duomenų šaltinio `fno` duomenų. Duomenų srautas yra vien way, o tai reiškia, kad visi `fno` duomenų šaltinio kiekio pakeitimai turi būti gauti iš jūsų tiekimo grandinės valdymo aplinkos.
+Duomenų `fno` šaltinio negalima naudoti vartojimo lauke, nes visada teigsime, kad atsargų matomumas negali pakeisti jokių duomenų šaltinio `fno` duomenų. Duomenų srautas yra vien way, o tai reiškia, kad visi `fno` duomenų šaltinio kiekio pakeitimai turi būti gauti iš jūsų tiekimo grandinės valdymo aplinkos.
 
 #### <a name="consume-as-a-soft-reservation"></a><a name="consume-to-soft-reserved"></a> Naudoti kaip švelniai rezervavimą
 
@@ -343,7 +344,7 @@ Kai norite naudoti 3 kiekį ir tiesiogiai rezervuoti šį kiekį, galite skambin
 
 #### <a name="query"></a>Užklausa
 
-`Query` Naudokite API, norėdami nuskaityti kai kurių produktų su paskirstymu susijusią informaciją. Norėdami susiaurinti rezultatus, galite naudoti dimensijų filtrus ir paskirstymo grupės filtrus. Dimensijos turi exatcly sugretinti su tuo, kurią norite nuskaityti, pvz., \[svetainė = 1, vieta = 11 turės\]\[su vieta = 1 susijusių rezultatų, vieta = 11, spalva = raudona \].
+`Query` Naudokite API, norėdami nuskaityti kai kurių produktų su paskirstymu susijusią informaciją. Norėdami susiaurinti rezultatus, galite naudoti dimensijų filtrus ir paskirstymo grupės filtrus. Dimensijos turi tiksliai atitikti tą, kurią norite nuskaityti, pvz., \[vieta = 1, vieta = 11 turės su vieta = 1\]\[susijusių rezultatų, vieta = 1, vieta = 11, spalva = raudona \].
 
 ```json
 {

@@ -1,6 +1,6 @@
 ---
-title: Vieninga produkto patirtis
-description: Šioje temoje aprašomas produkto duomenų integravimas tarp „Finance and Operations“ programų ir „Dataverse“.
+title: Bendrosios produkto funkcijos
+description: Šiame straipsnyje aprašomas produkto duomenų integravimas tarp finansų ir operacijų programėlių ir Dataverse.
 author: t-benebo
 ms.date: 12/12/2019
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 1b3dc1d16fc34992df0c9478b8b4d163c310b67b
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: a8071887678f16a0b8ee075d2aa24a07e4df5319
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062603"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885004"
 ---
 # <a name="unified-product-experience"></a>Vieninga produkto patirtis
 
@@ -30,13 +30,13 @@ Kai verslo ekosistema sudaryta iš „Dynamics 365“ programų, pvz., „Financ
 
 Čia yra produkto duomenų modelis iš „Finance and Operations“ programų.
 
-![„Finance and Operations“ produktų duomenų modelis.](media/dual-write-products-5.jpg)
+![Finansų ir operacijų produktų duomenų modelis.](media/dual-write-products-5.jpg)
 
 Šie du produktų duomenų modeliai buvo integruoti į „Dataverse“, kaip parodyta toliau.
 
 ![„Dynamics 365“ programų duomenų modelis.](media/dual-write-products-6.jpg)
 
-Produktų dvigubo rašymo lentelių žemėlapiai buvo sukurti taip, kad duomenys būtų perduodami tik į vieną pusę, beveik realiuoju laiku iš „Finance and Operations“ programų į Dataverse. Tačiau produkto infrastruktūra buvo padaryta atvira, kad ją, esant poreikiui, būtų galima padaryti dvikrypte. Nors galite ją tinkinti, tai darytumėte prisiimdami riziką sau, nes „Microsoft“ to daryti nerekomenduoja.
+Dvigubo rašymo lentelių schemos produktams sukurtos taip, kad duomenys būtų tik vienpusiai, beveik realiuoju laiku nuo finansų ir operacijų programėlių iki Dataverse. Tačiau produkto infrastruktūra buvo padaryta atvira, kad ją, esant poreikiui, būtų galima padaryti dvikrypte. Nors galite ją tinkinti, tai darytumėte prisiimdami riziką sau, nes „Microsoft“ to daryti nerekomenduoja.
 
 ## <a name="templates"></a>Šablonai
 
@@ -44,7 +44,7 @@ Produkto informacija apima visą su produktu ir jo apibrėžtimi susijusią info
 
 „Finance and Operations” programos | Kitos „Dynamics 365” programos | Aprašymas
 -----------------------|--------------------------------|---
-[Visi produktai](mapping-reference.md#138) | msdyn_globalproducts | Visų produktų lentelėje yra visi produktai, pasiekiami programose „Finance and Operations“, tiek išleisti, tiek neišleisti produktai.
+[Visi produktai](mapping-reference.md#138) | msdyn_globalproducts | Visų produktų lentelėje pateikiami visi finansų ir operacijų programėleje esantys produktai – ir išleisti produktai, ir neišleisti produktai.
 [CDS išleisti išskirtieji produktai](mapping-reference.md#213) | Produktas | Lentelėje **Produktas** yra stulpelių, apibrėžiančių produktą. Tai yra atskirų produktų (produktų su potipio produktu) ir produkto variantų informacija. Toliau esančioje lentelėje nurodyti ryšiai.
 [Spalvos](mapping-reference.md#170) | msdyn\_productcolors
 [Konfigūracijos](mapping-reference.md#171) | msdyn\_productconfigurations
@@ -61,7 +61,7 @@ Produkto informacija apima visą su produktu ir jo apibrėžtimi susijusią info
 [Bendrojo produkto stiliai](mapping-reference.md#191) | msdyn_sharedproductstyles | Lentelė **Bendrojo produkto stilius** nurodo stilius, kuriuos gali turėti tam tikras bendrasis produktas. Siekiant užtikrinti duomenų vientisumą, ši koncepcija perkelta į „Dataverse“.
 [Produkto numerio nustatytas brūkšninis kodas](mapping-reference.md#164) | msdyn\_productbarcodes | Produktų brūkšniniai kodai naudojami siekiant unikaliai identifikuoti produktus.
 [Konkretaus produkto vieneto konvertavimai](mapping-reference.md#176) | „msdyn_productspecificunitofmeasureconversions” |
-[Išleisti produktai V2](mapping-reference.md#189) | msdyn\_sharedproductdetails | The **msdyn\_ pasidalinti produkto informacija** lentelėje yra stulpeliai iš „Finance and Operations“ programų, kurie apibrėžia produktą ir kuriuose yra produkto finansinė ir valdymo informacija.
+[Išleisti produktai V2](mapping-reference.md#189) | msdyn\_sharedproductdetails | Lentelėje **ms bendraproductdetails\_** yra stulpeliai iš finansų ir operacijų programėlių, kurie apibrėžia produktą, ir kuriuose yra produkto finansinė ir valdymo informacija.
 [Dydžiai](mapping-reference.md#174) | msdyn\_productsizes
 [Saugojimo dimensijų grupės](mapping-reference.md#177) | „msdyn_productstoragedimensiongroups” | Produkto saugojimo dimensijų grupė yra metodas, naudojamas nurodyti produkto patalpinimą sandėlyje.
 [Stiliai](mapping-reference.md#178) | msdyn\_productsytles
@@ -81,17 +81,17 @@ Kadangi produktą atitinka SKU, išskirtųjų produktų, bendrųjų produktų ir
 
 ![Produktų duomenų modelis.](media/dual-write-product.png)
 
-Įjungus dvigubo rašymo funkciją, „Finance and Operations“ produktai bus sinchronizuojami su kituose „Dynamics 365“ produktuose **Juodraštis** valstybė. Jie įtraukiami į pirmą kaininių sąrašą ta pačia valiuta, naudojama klientų įsipareigojimo programoje ir kai kurių sąrašų pavadinime naudojant abėcėlės rikiavimo tvarka. Kitaip tariant, jie pridedami prie pirmojo kainoraščio „Dynamics 365“ programoje, atitinkančioje jūsų legalios lentelės, kurioje produktas išleistas „Finance and Operations“ programoje, valiutą. Jei nėra pateiktos valiutos kainoraščio, jis bus automatiškai sukurtas ir priskirtas produktui.
+Įgalinus dvigubo rašymo funkciją, produktai iš finansų ir operacijų bus sinchronizuoti kituose "Dynamics 365" produktuose, kurių būsena **Juodraštis**. Jie įtraukiami į pirmą kaininių sąrašą ta pačia valiuta, naudojama klientų įsipareigojimo programoje ir kai kurių sąrašų pavadinime naudojant abėcėlės rikiavimo tvarka. Kitaip tariant, jie įtraukiami į pirmą programos "Dynamics 365" kainų sąrašą, kuris atitinka jūsų legalios lentelės valiutą, kurioje produktas pateikiamas finansų ir operacijų programoje. Jei nėra pateiktos valiutos kainoraščio, jis bus automatiškai sukurtas ir priskirtas produktui.
 
-Šiuo metu įdiegtas dvigubo rašymo papildinys, susiejantis numatytąjį kainoraštį su vienetu, suranda valiutą, susietą su programa „Finance and Operations“, ir suranda pirmąjį kainoraštį klientų įtraukimo programoje, rūšiuodami abėcėlės tvarka kainoraščio pavadinime. Norėdami nustatyti numatytąjį tam tikros valiutos kainoraštį, kai yra keletas tos valiutos kainoraščių, turite atnaujinti kainoraščio pavadinimą į tokį, kuris pagal abėcėlės tvarką yra ankstesnis nei bet kuris kitas tos pačios valiutos kainoraštis. Jei ji neturi jokio kainos sąrašo pateiktai valiutai, sukuriama nauja.
+Dabartinis dvigubo rašymo parametrų diegimas, kuris susieja numatytąjį kainų sąrašą su vienetu, ieškoti valiutos, susijusios su finansų ir operacijų programa, ir rasti pirmą kainų sąrašą kliento įsipareigojimų programoje kainų sąrašo pavadinime abėcėlės tvarka. Norėdami nustatyti numatytąjį tam tikros valiutos kainoraštį, kai yra keletas tos valiutos kainoraščių, turite atnaujinti kainoraščio pavadinimą į tokį, kuris pagal abėcėlės tvarką yra ankstesnis nei bet kuris kitas tos pačios valiutos kainoraštis. Jei ji neturi jokio kainos sąrašo pateiktai valiutai, sukuriama nauja.
 
 Pagal numatytuosius parametrus „Finance and Operations“ programų produktai su kitomis „Dynamics 365“ programomis sinchronizuojami būdami būsenos **Juodraštis**. Norint sinchronizuoti produktą, jam esant būsenos **Aktyvus**, kad jį, pavyzdžiui, galėtumėte tiesiogiai naudoti pardavimo užsakymų pasiūlymuose, reikia pasirinkti šį parametrą: skirtuke **Sistema > Administravimas > Sistemos administravimas > Sistemos parametrai > Pardavimas** pasirinkite **Kurti aktyvios būsenos produktus = taip**.
 
-Kai produktai sinchronizuojami, turite įvesti reikšmę **Prekybos padalinys** lauką programėlėje „Finance and Operations“, nes jis yra privalomas pardavimų laukas.
+Kai produktai sinchronizuojami, **finansų** ir operacijų programoje turite įvesti pardavimo vieneto lauko vertę, nes tai yra privalomas pardavimo laukas.
 
 Produktų šeimų kūrimas „Dynamics 365 Sales” nepalaikomas su produktų dvigubo rašymo sinchronizavimu.
 
-Produktai sinchronizuojami iš programos „Finance and Operations“ į Dataverse. Tai reiškia, kad produktų lentelės stulpelių reikšmės gali būti pakeistos Dataverse, bet suaktyvinus sinchronizavimą (kai produkto stulpelis pakeičiamas programoje „Finance and Operations“), tai perrašys reikšmes Dataverse.
+Produktų sinchronizavimas vyksta iš finansų ir operacijų programos į Dataverse. Tai reiškia Dataverse, kad produktų lentelės stulpelių vertes galima keisti, bet kai sinchronizavimas paleidžiamas (kai produkto stulpelis modifikuojamas finansų ir operacijų programoje), Dataverse vertės bus perrašomos.
 
 „Finance and operations” programos | „Customer engagement“ programos |
 ---|---
@@ -126,7 +126,7 @@ Tam, kad būtų galima sekti produkto dimensijas, kurias gali turėti bendrasis 
 
 ## <a name="default-order-settings-and-product-specific-default-order-settings"></a>Numatytieji užsakymo parametrai ir su konkrečiu produktu susiję numatytieji užsakymo parametrai
 
-Numatytuose užsakymo parametruose nurodyta vieta ir sandėlys, iš kurių bus paimamos arba kuriuose bus laikomos prekės, minimalūs, maksimalūs, sudėtiniai ir standartiniai kiekiai, kurie bus naudojami prekiaujant arba valdant atsargas, vykdymo laikai, stabdymo vėliavėlė ir užsakymų vykdymo perspektyvos būdas. Ši informacija pasiekiama tarnyboje „Dataverse“ naudojant numatytųjų užsakymo parametrų ir su konkrečiu produktu susijusių numatytųjų užsakymo parametrų objektą. Daugiau informacijos apie funkciją galite perskaityti [temoje Numatytieji užskaymų parametrai](../../../../supply-chain/production-control/default-order-settings.md).
+Numatytuose užsakymo parametruose nurodyta vieta ir sandėlys, iš kurių bus paimamos arba kuriuose bus laikomos prekės, minimalūs, maksimalūs, sudėtiniai ir standartiniai kiekiai, kurie bus naudojami prekiaujant arba valdant atsargas, vykdymo laikai, stabdymo vėliavėlė ir užsakymų vykdymo perspektyvos būdas. Ši informacija pasiekiama tarnyboje „Dataverse“ naudojant numatytųjų užsakymo parametrų ir su konkrečiu produktu susijusių numatytųjų užsakymo parametrų objektą. Daugiau informacijos apie funkciją galite rasti Numatytųjų užsakymo [parametrų straipsnyje](../../../../supply-chain/production-control/default-order-settings.md).
 
 „Finance and operations” programos | „Customer engagement“ programos |
 ---|---
@@ -151,24 +151,24 @@ Matavimo vieneto koncepcija yra integruota į „Finance and Operations“ progr
 
 ### <a name="initial-synchronization-of-units"></a>Pradinis vienetų sinchronizavimas
 
-Kai įjungta dvigubo rašymo funkcija, „Finance and Operations“ programų vienetai sinchronizuojami su kitomis „Dynamics 365“ programomis. Vienetų grupės, sinchronizuotos iš „Finance and Operations“ programų Dataverse turėti vėliavėlę, nurodnčią, kad jos yra „Išoriškai prižiūrimos“.
+Kai įjungta dvigubo rašymo funkcija, „Finance and Operations“ programų vienetai sinchronizuojami su kitomis „Dynamics 365“ programomis. Vienetų grupės, sinchronizuotos iš finansų ir operacijų Dataverse programėlių, turi vėliavų rinkinį, kuris nurodo, kad jos yra "Iš išorės tvarkomos".
 
 ### <a name="matching-units-and-unit-classesgroups-data-from-finance-and-operations-and-other-dynamics-365-apps"></a>Sutampantys vienetų ir vienetų klasių / grupių duomenys iš „Finance and Operations“ bei kitų „Dynamics 365“programų
 
-Pirmiausia svarbu pažymėti, kad vieneto integravimo raktas yra msdyn_symbol. Todėl ši reikšmė tarnyboje „Dataverse“ ar kitose „Dynamics 365“ programose turi būti unikali. Kadangi kitose „Dynamics 365“ programose vieneto unikalumą apibrėžia pora „Vieneto grupės ID“ ir „Pavadinimas“, turite apsvarstyti skirtingus vieneto duomenų suderinimo scenarijus tarp „Finance and Operations“ programų ir Dataverse.
+Pirmiausia svarbu pažymėti, kad vieneto integravimo raktas yra msdyn_symbol. Todėl ši reikšmė tarnyboje „Dataverse“ ar kitose „Dynamics 365“ programose turi būti unikali. Kadangi kitose "Dynamics 365" programėlėse tai yra pora "Vienetų grupės ID" ir "Pavadinimas", kuri apibrėžia vieneto unikalumą, Dataverse turite apsvarstyti skirtingus vienetų duomenų atitikimo tarp finansų ir operacijų programėlių scenarijus ir.
 
 Kai vienetai sutampa / persidengia „Finance and Operations“ programose ir kitose „Dynamics 365“ programose
 
-+ **Vienetas priklauso kitose „Dynamics 365“ programose esančiai vienetų grupei, kuri atitinka susietą vienetų klasę „Finance and Operations“ programose**. Tokiu atveju stulpelis msdyn_symbol kitose „Dynamics 365“ programose turi būti užpildytas vieneto simboliu iš „Finance and Operations“ programų. Taip gretinant duomenis vienetų grupė kitose „Dynamics 365“ programose bus nustatyta kaip „Tvarkoma išorėje”.
++ **Vienetas priklauso kitose „Dynamics 365“ programose esančiai vienetų grupei, kuri atitinka susietą vienetų klasę „Finance and Operations“ programose**. Šiuo atveju stulpelyje, msdyn_symbol "Dynamics 365" programėlėse, turi būti užpildytas vieneto simbolis iš finansų ir operacijų programėlių. Taip gretinant duomenis vienetų grupė kitose „Dynamics 365“ programose bus nustatyta kaip „Tvarkoma išorėje”.
 + **Vienetas priklauso kitose „Dynamics 365“ programose esančiai vienetų grupei, kuri neatitinka susietos vienetų klasės „Finance and Operations“ programose („Finance and Operations“ programose nėra vienetų klasės, skirtos kitose „Dynamics 365“ programose esančiai vienetų klasei).** Tokiu atveju lauką msdyn_symbol reikia užpildyti atsitiktine eilute. Atkreipkite dėmesį, kad ši reikšmė kitose „Dynamics 365“ programose turi būti unikali.
 
 Kai „Finance and Operations“ vienetų ir vienetų klasių kitose „Dynamics 365“ programose nėra
 
-Dvigubo rašymo metu vienetų grupės iš „Finance and Operations“ programų ir atitinkami vienetai sukuriami ir sinchronizuojami kitose „Dynamics 365“ programose ir Dataverse o vienetų grupė bus nustatyta kaip „Išoriškai prižiūrima“. Nereikia atlikti jokių papildomų perkrovimo veiksmų.
+Kaip dvigubo rašymo vienetų grupių iš finansų ir operacijų programėlių dalis ir šie atitinkami vienetai sukuriami ir sinchronizuojami kitose "Dynamics 365" programėlėse Dataverse, o vienetų grupė bus nustatyta kaip "Iš išorės tvarkoma". Nereikia atlikti jokių papildomų perkrovimo veiksmų.
 
 Kai kitose „Dynamics 365“ programose esančių vienetų nėra „Finance and Operations“ programose
 
-Stulpelį „msdyn_symbol” reikia užpildyti visuose vienetuose. Vienetus visada galima sukurti atitinkamoje „Finance and Operations“ programų vienetų klasėje (jei tokia yra). Jei vieneto klasės nėra, pirmiausia reikia sukurti vieneto klasę (atminkite, kad negalite sukurti vieneto klasės „Finance and Operations“ programose, išskyrus išplėtimą, jei plečiate sąrašą), atitinkančią kitą „Dynamics 365“ programų vienetų grupę. Tada galite sukurti vienetą. Atkreipkite dėmesį, kad vieneto simbolis „Finance and Operations“ programose turi būti msdyn_symbol, anksčiau nurodytas kaip vieneto simbolis kitose „Dynamics 365“programose.
+Stulpelį „msdyn_symbol” reikia užpildyti visuose vienetuose. Vienetus visada galima sukurti atitinkamoje „Finance and Operations“ programų vienetų klasėje (jei tokia yra). Jei vieneto klasės nėra, pirmiausia reikia sukurti vieneto klasę (atkreipkite dėmesį, kad finansų ir operacijų programėlių vieneto klasės negalima sukurti, išskyrus plėtinį, jei išplečiate išvardijimo), atitinkančią kitą "Dynamics 365" programėlių vienetų grupę. Tada galite sukurti vienetą. Atkreipkite dėmesį, kad vieneto simbolis „Finance and Operations“ programose turi būti msdyn_symbol, anksčiau nurodytas kaip vieneto simbolis kitose „Dynamics 365“programose.
 
 ## <a name="product-policies-dimension-tracking-and-storage-groups"></a>Produktų strategijos: dimensija, sekimas ir saugojimo grupės
 
@@ -201,17 +201,17 @@ Jei kuriate programas, naudodami „Dataverse“, turėtumėte atkreipti dėmes�
 
 ### <a name="initial-synchronization-of-products"></a>Pradinis produktų sinchronizavimas
 
-Kai įgalintas dvigubas rašymas, produktai iš „Finance and Operations“ programų sinchronizuojami su Dataverse ir klientų įtraukimo programėlės. Produktai sukurti Dataverse ir kitos „Dynamics 365“ programos prieš išleidžiant dvigubą rašymą nebus atnaujintos arba suderintos su produkto duomenimis iš „Finance and Operations“ programų.
+Kai įgalintas dvigubo rašymo funkcija, produktai iš finansų ir operacijų programėlių sinchronizuojami su klientų Dataverse įsipareigojimo programėle. Produktai, sukurti naudojant Dataverse "Dynamics 365" programėles prieš dvigubo rašymo išrašant, nebus atnaujinti arba sugretinti su produktų duomenimis iš finansų ir operacijų programėlių.
 
 ### <a name="matching-product-data-from-finance-and-operations-and-other-dynamics-365-apps"></a>„Finance and Operations“ ir kitų „Dynamics 365“ programų produktų duomenų gretinimas
 
-Jei tie patys produktai laikomi (persidengia / atitinka) „Finance and Operations“ ir „Finance and Operations“.Dataverse ir kitose „Dynamics 365“ programose, įjungus dvigubą rašymą, bus sinchronizuojami produktai iš „Finance and Operations“ ir pasikartojančios eilutės bus rodomos Dataverse už tą patį produktą.
-Kad būtų išvengta ankstesnės situacijos, jei kitose „Dynamics 365“ programose yra produktų, kurie sutampa / atitinka „Finance and Operations“, administratorius, įgalinantis dvigubą rašymą, turi įkelti stulpelius.**Bendrovė** (pavyzdys: "USMF") ir **msdyn_produkto numeris** (pavyzdys: "1234:Black:S") prieš gaminių sinchronizavimą. Kitaip tariant, šie du gaminio stulpeliai Dataverse turi būti užpildyta atitinkama įmonė „Finance and Operations“, kuriai produktas turi būti suderintas su jo prekės numeriu.
+Jei tie patys produktai saugomi (persidengia / sutampa) Dataverse finansuose ir operacijose bei kitose "Dynamics 365" programėlėse, kai įgalinsite dvigubo rašymo produktų sinchronizavimą iš finansų ir operacijų, Dataverse o tame pačiame produkte bus rodomos dubliuotų eilučių.
+Kad išvengtų ankstesnės situacijos, jei kitos "Dynamics 365" programėlės turi produktų, kurie persidengia / sutampa su finansais ir operacijomis, **administratorius** turi paleisti stulpelių rašymo sąrašą įmonė (pavyzdžiui, "USMF") **ir msdyn_productnumber** (pvz., "1234:Black:S") prieš sinchronizuojant produktus. Kitaip tariant, į šiuos du produkto stulpelius reikia įvesti atitinkamą finansų ir operacijų įmonę, Dataverse su kuria turi būti sugretintas produktas, ir produkto numerį.
 
 Tada įjungus ir vykdant sinchronizavimą „Finance and Operations“ produktai bus sinchronizuojami su sutampančiais „Dataverse“ ir kitų „Dynamics 365“ programų produktais. Tai taikoma ir išskirtiesiems produktams, ir produktų variantams.
 
 ### <a name="migration-of-product-data-from-other-dynamics-365-apps-to-finance-and-operations"></a>Produktų duomenų perkėlimas iš kitų „Dynamics 365“ programų į „Finance and Operations“
 
-Jei kitose „Dynamics 365“ programose yra produktų, kurių nėra „Finance and Operations“, administratorius pirmiausia gali naudoti **EcoResReleasedProductCreationV2Entity** už šių produktų importą į „Finance and Operations“. Be to, jis gali sugretinti „Finance and Operations“ ir kitų „Dynamics 365“ programų produktų duomenis, kaip aprašyta pirmiau.
+Jei kitose "Dynamics 365" programėlėse yra produktų, kurių nėra finansuose ir operacijose, **administratorius pirmiausia gali naudoti EcoResReleasedProductCreationV2Entity** tų produktų importavimui į finansus ir operacijas. Be to, jis gali sugretinti „Finance and Operations“ ir kitų „Dynamics 365“ programų produktų duomenis, kaip aprašyta pirmiau.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

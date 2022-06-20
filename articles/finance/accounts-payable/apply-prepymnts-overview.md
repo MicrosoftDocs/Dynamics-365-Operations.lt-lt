@@ -1,6 +1,6 @@
 ---
 title: Automatiškai taikyti išankstinį mokėjimą tiekėjų sąskaitoms
-description: Šioje temoje aprašomas galimybės automatiškai taikyti išankstinius apmokėjimus tiekėjo SF.
+description: Šiame straipsnyje aprašoma, kaip galima automatiškai taikyti išankstinius apmokėjimus tiekėjo SF.
 author: sunfzam
 ms.date: 10/19/2021
 ms.topic: overview
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-08-30
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 8583962c41a7ac5e27463f325ddc2ccd367331cc
-ms.sourcegitcommit: 9cbff8a2cdeaf606488fb0044b3de4ab4409c9dc
+ms.openlocfilehash: 547573d187460a900df7f4927ac062bd9d456729
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/26/2022
-ms.locfileid: "8358224"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8900077"
 ---
 # <a name="automatically-apply-to-vendor-invoices"></a>Automatiškai taikyti išankstinį mokėjimą tiekėjų sąskaitoms
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje aprašomas galimybės automatiškai taikyti išankstinius apmokėjimus tiekėjo SF. Išankstinis apmokėjimas gali būti sukurtas pirkimo užsakymui kaip pirkimo sutarties dalis. Kai gauta tiekėjo SF, išankstinis apmokėjimas gali būti naudojamas sudengti mokėtinas sumas iš tiekėjo SF. Nauja funkcija leidžia sistemai automatiškai naudoti pirkimo užsakymo numerius tiekėjo SF, kad būtų ieškoma atitinkamų išankstinių mokėjimų importuotos tiekėjo SF.
+Šiame straipsnyje aprašoma, kaip galima automatiškai taikyti išankstinius apmokėjimus tiekėjo SF. Išankstinis apmokėjimas gali būti sukurtas pirkimo užsakymui kaip pirkimo sutarties dalis. Kai gauta tiekėjo SF, išankstinis apmokėjimas gali būti naudojamas sudengti mokėtinas sumas iš tiekėjo SF. Nauja funkcija leidžia sistemai automatiškai naudoti pirkimo užsakymo numerius tiekėjo SF, kad būtų ieškoma atitinkamų išankstinių mokėjimų importuotos tiekėjo SF.
 
 Jei randami išankstiniai mokėjimai ir juos galima taikyti, eilutės pridedami prie esamų SF eilučių, kad būtų galima taikyti išankstinius apmokėjimus. Išankstinio mokėjimo eilučių neįrašoma SF gretinimo proceso metu.
 

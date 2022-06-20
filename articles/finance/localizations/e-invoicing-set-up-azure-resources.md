@@ -1,6 +1,6 @@
 ---
-title: Nustatyti "Azure" išteklius elektroninėms SF išrašyti
-description: Šioje temoje pateikta proceso, kaip nustatyti išteklius elektroninių SF Microsoft Azure išrašymo metu, apžvalga.
+title: Elektroninių SF išrašymo „Azure“ išteklių nustatymas
+description: Šiame straipsnyje pateikta proceso, kaip nustatyti išteklius elektroninių SF Microsoft Azure išrašymo procesui, apžvalga.
 author: dkalyuzh
 ms.date: 01/26/2022
 ms.topic: article
@@ -15,14 +15,14 @@ ms.search.region: Global
 ms.author: dkalyuzh
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: cb1fcddce1054aebf9ef70ba69eb7aca98093cbe
-ms.sourcegitcommit: ffdb6794746ffe5461f9dcf34ed8e64976d22d2d
+ms.openlocfilehash: c5b7b2ca4d7733fb1c75ded8798655699284fe1a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "8371937"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907735"
 ---
-# <a name="set-up-azure-resources-for-electronic-invoicing"></a>Nustatyti "Azure" išteklius elektroninėms SF išrašyti
+# <a name="set-up-azure-resources-for-electronic-invoicing"></a>Elektroninių SF išrašymo „Azure“ išteklių nustatymas
 
 [!include [banner](../includes/banner.md)]
 
@@ -34,13 +34,13 @@ Sukurkite kodo "Azure" abonementą. Rekomenduojame sukurti atskirą elektroninio
 
 Informacijos, kaip atlikti šį veiksmą, rasite " [Azure" portalo "Azure" portalo "Azure" rakto saugyklos kūrimas](e-invoicing-create-azure-key-vault-azure-portal.md).
 
-## <a name="create-an-azure-storage-account-in-the-azure-portal"></a>"Azure" saugyklos sąskaitos kūrimas "Azure" portale
+## <a name="create-an-azure-storage-account-in-the-azure-portal"></a>„Azure“ saugyklos paskyros kūrimas „Azure“ portale
 
 Jūs turite visus elektroninius dokumentus ir rinkmenas, sugeneruotas elektroninių SF išrašymo tarnybos, arba įveskite tarnybą. Šie dokumentai ir rinkmenos saugomi "Azure" saugykloje, kurią sukuriate savo "Azure" abonemente. Tarnyba turės prieigą prie jūsų saugyklos abonemento, naudodama SAS atpažinimo ženklą, kuris paimtas iš jūsų rakto Vault slapto kodo.
 
 Informacijos, kaip atlikti šį veiksmą, ieškokite " [Azure" saugyklos sąskaitos kūrimas "Azure" portale](e-invoicing-create-azure-storage-account-azure-portal.md).
 
-## <a name="configure-a-sharepoint-connection"></a>Ryšio konfigūravimas SharePoint
+## <a name="configure-a-sharepoint-connection"></a>„SharePoint“ ryšio konfigūravimas
 
 Kai kuriuose scenarijuose gali reikėti įrašyti elektronines rinkmenas ir nuskaityti SharePoint jas iš SharePoint. Norėdami užtikrinti, kad elektroninių SF išrašymo tarnyba gali pasiekti savo SharePoint aplankus, sukonfigūruokite prieigą prie SharePoint.
 

@@ -1,6 +1,6 @@
 ---
 title: Atspausdinkite iš naujo ir panaikinkite bangos žymes
-description: Šioje temoje paaiškinama, kaip panaikinti ir iš naujo atspausdinti bangos žymes.
+description: Šiame straipsnyje paaiškinama, kaip anuliuoti ir iš naujo išspausdinti esamas bangos etiketes.
 author: perlynne
 ms.date: 07/09/2020
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-09
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: 052c6632d1c6c6b1f357d4066ca8b419698cae62
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: f9f057d9985fb8431ec7c9ced23f2cd3c476570d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572342"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871839"
 ---
 # <a name="reprint-and-void-wave-labels"></a>Atspausdinkite iš naujo ir panaikinkite bangos žymes
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje paaiškinama, kaip valdyti žymes, kurios buvo sukurtos bangos apdorojimo metu. (Išsamiam aprašui ir konfigūravimo instrukcijoms, žr. [Konfigūruoti bangos žymės spausdinimą](../warehousing/configure-wave-label-printing.md).)
+Šiame straipsnyje paaiškinama, kaip tvarkyti žymas, generuojamas apdorojant bangą. (Išsamiam aprašui ir konfigūravimo instrukcijoms, žr. [Konfigūruoti bangos žymės spausdinimą](../warehousing/configure-wave-label-printing.md).)
 
 Galite atspausdinti bangos žymes bet kuriuo metu. Pavyzdžiui, galite atspausdinti vieną žymę, jei ji buvo pamesta ar pažeista. Kitu atveju, sandėlio darbuotojas ar vadovas gali atspausdinti visą etikečių ritinį, jei skaičiai ir (arba) visos serijos bangos etikečių skaičius ir sudėtis pasikeitę (pavyzdžiui, dėl inventoriaus trūkumo ar kitų priežasčių). Dažnai, net jei pasikeitė tik dėžių skaičius, visas ritinys turi būti perspausdintas tam, kad išsaugotumėte bendrą tikslų kiekvienos žymės skaičių „Dėžių X iš Y“ skyriuje.
 
@@ -32,10 +32,10 @@ Bangos etikečių naujo atspausdinimo savybė palaiko šias funkcijas:
 - Naujas etikečių spausdinimas ir jų panaikinimas tuo pačiu metu. (Galimybė panaikinti žymes yra galima trumpo paėmimo scenarijuose.)
 - Išvalykite bangos žymės istoriją.
 
-Šiame skyriuje pateikiamas scenarijų rinkinys, kuris parodo, skirtingais pavyzdžiai, kaip dirbti su bangos žymės naujo spausdinimo savybe.
+Šiame straipsnyje pateikite scenarijų, kurie pagal pavyzdžius parodo, kaip dirbti naudojant iš naujo spausdinti bangų žymių funkciją, rinkinį.
 
 > [!IMPORTANT]
-> Tam, kad dirbtumėte su scenarijais, kurie pateikti šiame skyriuje, privalote pirmiausia įjungti ir sukonfigūruoti reikiamą bangos spausdinimo savybę, kaip aprašyta [Bangos žymės spausdinimo konfigūravimas](../warehousing/configure-wave-label-printing.md). Keletas šios temos scenarijų taip pat reikalauja, kad jūs pirmiausia dirbtumėte su temos scenarijais sukurdami būtinųjų sąlygų pavyzdžio duomenis.
+> Norėdami dirbti naudodami šiame straipsnyje pateiktus scenarijus, pirmiausia turite įjungti ir konfigūruoti susijusias bangos spausdinimo funkcijas, [kaip aprašyta skyriuje Konfigūruoti bangos etikečių spausdinimą](../warehousing/configure-wave-label-printing.md). Kai kurie scenarijai šiame straipsnyje taip pat reikalauja, kad pirmiausia pagal to straipsnio scenarijus sugeneruotumėte būtinųjų komponentų pavyzdžio duomenis.
 
 ## <a name="scenario-1-reprint-labels-from-the-web-client"></a>Scenarijus 1: Iš naujo spausdinkite žymes iš kliento žiniatinklio
 

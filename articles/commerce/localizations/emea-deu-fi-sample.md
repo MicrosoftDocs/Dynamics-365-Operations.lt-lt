@@ -1,6 +1,6 @@
 ---
 title: Fiskalinės registracijos paslaugos integravimo pavyzdys, skirtas Vokietijai
-description: Šioje temoje apžvelgiama Vokietijos fiskalinės integracijos imties apžvalga Microsoft Dynamics 365 Commerce.
+description: Šiame straipsnyje pateikta Vokietijos finansinio integravimo pavyzdžio apžvalga Microsoft Dynamics 365 Commerce.
 author: EvgenyPopovMBS
 ms.date: 03/04/2022
 ms.topic: article
@@ -9,68 +9,68 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2020-5-29
-ms.openlocfilehash: 16079ba5ca830625c4f18df9fe6b5b307217183d
-ms.sourcegitcommit: 7faf82fa7ce269c0201abb8473af861ef7ce00bf
+ms.openlocfilehash: a218989263580ea08947d3366b79e3b19b506375
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "8614049"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8867763"
 ---
 # <a name="fiscal-registration-service-integration-sample-for-germany"></a>Fiskalinės registracijos paslaugos integravimo pavyzdys, skirtas Vokietijai
 
 [!include[banner](../includes/banner.md)]
 
-Šioje temoje apžvelgiama Vokietijos fiskalinės integracijos imties apžvalga Microsoft Dynamics 365 Commerce.
+Šiame straipsnyje pateikta Vokietijos finansinio integravimo pavyzdžio apžvalga Microsoft Dynamics 365 Commerce.
 
-Siekiant patenkinti vietinius fiskalinius reikalavimus kasos aparatams Vokietijoje, Microsoft Dynamics 365 Commerce Vokietijos funkcija apima pavyzdinį prekybos vietos (EKA) integravimą su išorine fiskalinės registracijos paslauga. Pavyzdys išplečia fiskalinės [integracijos funkciją](fiscal-integration-for-retail-channel.md). Jis pagrįstas [EFSTA](https://www.efsta.eu/de/fiskalloesungen/deutschland) EFR (Elektroninio fiskalinio [registro)](https://www.efsta.eu/de/) sprendimu ir leidžia bendrauti su EFR paslauga per HTTPS protokolą. EFR paslauga turėtų būti patalpinta mažmeninės prekybos aparatūros stotyje arba atskirame kompiuteryje, prie kurio galima prisijungti iš aparatūros stoties. Pavyzdys pateikiamas šaltinio kodo forma ir yra mažmeninės prekybos programinės įrangos kūrimo rinkinio (SDK) dalis.
+Siekiant patenkinti vietinius finansinius reikalavimus grynųjų pinigų registrams Vokietijoje, Microsoft Dynamics 365 Commerce Vokietijos funkcionalume yra el. kasos aparato (EKA) ir išorinio finansinio registravimo tarnybos pavyzdys. Pavyzdys išplečia finansinio [integravimo funkciją](fiscal-integration-for-retail-channel.md). Jis remiasi [EFR (elektroninio finansinio registro)](https://www.efsta.eu/de/fiskalloesungen/deutschland)[sprendimu iš EFSTA](https://www.efsta.eu/de/) ir įgalina ryšį su EFR tarnyba per HTTPS protokolą. EFR tarnyba turi būti laikoma "Retail Hardware" stotis arba atskirame kompiuteryje, kurį galima prijungti iš "Hardware" stoties. Pavyzdys pateikiamas šaltinio kodo forma ir yra mažmeninės prekybos programinės įrangos kūrimo rinkinio (SDK) dalis.
 
 "Microsoft" neišleidžia jokios aparatūros, programinės įrangos ar dokumentacijos iš EFSTA. Norėdami gauti informacijos apie tai, kaip gauti EFR sprendimą ir jį valdyti, susisiekite su [EFSTA](https://www.efsta.eu/de/kontakt/kontakt).
 
 ## <a name="scenarios"></a>Scenarijai
 
-Toliau pateikti scenarijai įtraukti į Vokietijos fiskalinės registracijos paslaugų integravimo imtį.
+Šiuos scenarijus apima Vokietijos finansinių registracijų tarnybos integravimo pavyzdys.
 
 ### <a name="sales-operations"></a>Pardavimo operacijos
 
-- **Grynųjų pinigų pardavimų ir grąžinimų registravimas fiskalinės registracijos tarnyboje:**
+- **Grynųjų pinigų ir atliekamo pardavimo bei grąžinimo registravimas finansinio registravimo tarnybose:**
 
     Pardavimo operacijų registravimas apima šiuos veiksmus:
 
     1. Operacijos pradžios registravimas
 
-        Kiekvieno sandorio pradžia registruojama techniniame saugos elemente (USE), kuris yra prijungtas prie EFR paslaugos. Po registracijos USE priskiria operacijos ID (TID).
+        Kiekvienos operacijos pradžia užregistruojama techninės saugos elemente (TSE), kuris prijungtas prie EFR tarnybos. Užregistravimo metu TSE priskiria operacijos ID (TID).
 
-    2. Operacijos pabaigos registravimas
+    2. Operacijos pabaigos registracija
 
-        Kai sandoris sudaromas EKA, jis registruojamas naudojant tą patį TID, kuris buvo priskirtas registruojant operacijos pradžią. Tuo metu išsamūs operacijos duomenys siunčiami fiskalinės registracijos tarnybai. Šie duomenys apima pardavimo eilutės informaciją ir informaciją apie nuolaidas, mokėjimus ir mokesčius.
+        Kai operacija pasibaigs EKA, ji užregistruojama naudojant tą patį TID, kuris buvo priskirtas registruojant operacijos pradžios operaciją. Tuo metu išsami operacijos informacija siunčiama į finansinio registravimo tarnybą. Šie duomenys apima pardavimo eilutės informaciją ir informaciją apie nuolaidas, mokėjimus ir mokesčius.
 
-    3. Atsakymo užfiksavimas iš fiskalinės registracijos tarnybos
+    3. Finansinių dokumentų registracijos tarnybos atsakymo fiksavimas
 
-        Saugos duomenys gaunami iš USE kaip atsakymo dalis ir įrašomi operacijoje kanalo duomenų bazėje. Saugumo duomenis sudaro ši informacija:
+        Saugos duomenys gaunami iš TSE kaip atsakymo dalis ir išsaugomi kanalo duomenų bazės operacijoje. Saugos duomenis sudaro ši informacija:
 
         - TID
         - Operacijos pradžios data ir laikas
         - Operacijos pabaigos data ir laikas
         - Parašo skaitiklis
         - Tikrinti reikšmę
-        - USE serijos numeris
+        - TSE serijos numeris
 
-- **Klientų užsakymų registravimas fiskalinės registracijos tarnyboje:** registracijos procesas yra toks pat, kaip ir grynųjų pinigų ir pristatymo pardavimo ir grąžinimo procesas.
-- **Operacijų, susijusių su dovanų kortelėmis ir indėliais, registravimas:** registracijos procesas yra toks pat, kaip ir grynųjų pinigų pardavimo ir grąžinimo procesas.
+- **Kliento užsakymų registravimas finansinio registravimo tarnybose:** registracijos procesas yra toks pats kaip pardavimo ir grąžinimo grynaisiais pinigais ir grąžinimo procesas.
+- **Operacijų, kurios apima dovanų korteles ir depozitus, registravimas:** registracijos procesas yra toks pats kaip ir pardavimo ir grąžinimo grynaisiais pinigais ir grąžinimo procesas.
 
-#### <a name="notifying-users-about-fiscal-registration-failures"></a>Vartotojų informavimas apie fiskalinės registracijos klaidas
+#### <a name="notifying-users-about-fiscal-registration-failures"></a>Vartotojams pranešant apie finansinio registravimo triktis
 
-Yra du būdai, kuriais fiskalinės registracijos tarnyba gali pranešti vartotojams apie fiskalinės registracijos metu įvykusius gedimus:
+Yra du būdai, kuriais finansinio registravimo tarnyba gali įspėti vartotojus apie finansinio registravimo metu triktį:
 
-- Spausdinti papildomą informaciją iš atsakymo, **esančio gavimų lauke Informacinis pranešimas**.
-- Rodyti pranešimus iš fiskalinės tarnybos kaip vartotojo pranešimus EKA.
+- Kvitų informacijos pranešimo lauke spausdinkite **papildomą** atsakymo informaciją.
+- Rodyti pranešimus iš finansinių paslaugų kaip vartotojo pranešimus EKA.
 
     > [!NOTE]
-    > Šis pranešimų mechanizmas reikalauja, kad **puslapio Jungties techniniai profiliai** parametras **Rodyti fiskalinės registracijos pranešimus būtų įjungtas**.
+    > Šiam pranešimų mechanizmui reikia, kad **būtų įjungtas parametras** **Rodyti finansinių registracijų pranešimus** "Connector" techninių profilių puslapyje.
 
 #### <a name="printing-receipts"></a>Kvitų spausdinimas
 
-Kvitų spausdinimas Vokietijoje yra privalomas. Visuose kvituose turi būti bent ši informacija:
+Kvitų spausdinimas yra privalomas Vokietijoje. Visuose gavimuose turi būti bent ši informacija:
 
 - Įmonės pavadinimas ir adresas
 - Informacija apie prekes, įskaitant jų kainas ir kiekius
@@ -83,24 +83,24 @@ Kvitų spausdinimas Vokietijoje yra privalomas. Visuose kvituose turi būti bent
     - Operacijos pabaigos data ir laikas
     - Parašo skaitiklis
     - Tikrinti reikšmę
-    - USE serijos numeris
+    - TSE serijos numeris
 
 - Informacinis pranešimas
 
 > [!NOTE]
-> QR kodą taip pat galima atspausdinti ant kvitų. Nors QR kodas yra neprivalomas, jis labai rekomenduojamas. Daugiau informacijos apie tai, kaip gauti QR kodą kaip atsakymo iš fiskalinės registracijos tarnybos dalį, ieškokite "EFR Guide \[DE\]" dokumente, kuris skelbiamas [EFSTA dokumentacijos](https://public.efsta.net/efr/) svetainėje.
+> QR kodą taip pat galima išspausdinti kvituose. Nors QR kodas yra pasirinktinis, labai rekomenduojamas. Daugiau informacijos apie tai, kaip gauti QR kodą kaip finansinio registravimo tarnybos atsakymo dalį, ieškokite dokumente "EFR Guide \[DE\][", kuris paskelbtas EFSTA dokumentacijos](https://public.efsta.net/efr/) svetainėje.
 >
-> Kvitų **lauke Informacija rodomas** pranešimas iš fiskalinės registracijos tarnybos. Pavyzdžiui, jei parašo įrenginys yra sugadintas, ant kvito galima atspausdinti specialų tekstą.
+> Kvitų **informacijos** pranešimo lauke pateikiamas pranešimas iš finansinio registravimo tarnybos. Pavyzdžiui, jei parašo įrenginys sulaužytas, kvite galima išspausdinti specialų tekstą.
 
 #### <a name="voided-suspended-and-recalled-transactions"></a>Anuliuotos, sustabdytos ir atšauktos operacijos
 
-- Anuliuota operacija registruojama kaip prašymas nutraukti operaciją fiskalinės registracijos tarnyboje.
-- Sustabdyta operacija registruojama kaip prašymas nutraukti operaciją fiskalinės registracijos tarnyboje.
-- Sustabdytos operacijos atšaukimas registruojamas kaip naujos operacijos pradžia fiskalinės registracijos tarnyboje.
+- Anuliuota operacija užregistruojama kaip prašymas atleisti operaciją iš finansinių registracijų tarnybos.
+- Sulaikyta operacija užregistruojama kaip prašymas atleisti operaciją finansinio registravimo tarnybose.
+- Sulaikytos operacijos atšaukimas registruojamas kaip naujos operacijos pradžia finansinių registracijų tarnybose.
 
-### <a name="non-sales-transactions-and-shift-closing"></a>Nepardavimo operacijos ir pamainų uždarymas
+### <a name="non-sales-transactions-and-shift-closing"></a>Ne pardavimo operacijos ir pamainos uždarymas
 
-Šios nepardavimo operacijos registruojamos kaip nefinansinės operacijos fiskalinės registracijos tarnyboje naudojant **NFS** žymę:
+Šios ne pardavimo operacijos registruojamos kaip nefinansinės operacijos finansinio registravimo paslaugos metu, naudojant **NFS** žymę:
 
 - Deklaruoti pradinę sumą
 - Nefiksuotas įrašas
@@ -110,30 +110,30 @@ Kvitų spausdinimas Vokietijoje yra privalomas. Visuose kvituose turi būti bent
 - Pajamų sąskaitos
 - Išlaidų sąskaitos
 
-Operacija **Uždaryti pamainą** taip pat registruojama kaip nefinansinė operacija fiskalinės registracijos tarnyboje naudojant **NFS** žymę.
+Uždarymo **pamainos** operacija taip pat registruojama kaip nefinansinės operacijos finansinio registravimo paslaugoje naudojant **NFS** žymę.
 
 ### <a name="data-export-and-audit"></a>Duomenų eksportavimas ir auditas
 
-Visi sandoriai turi būti pasirašyti USE, kad būtų užtikrintas jų vientisumas, autentiškumas ir išsamumas bei užkirstas kelias manipuliavimui įrašytais duomenimis.
+Visas operacijas turi pasirašyti TSE, kad būtų užtikrintas jų vientisumas, autentiškumas ir užbaigtumas bei būtų išvengta įrašytų duomenų tvarkymo.
 
 > [!WARNING]
-> Galima naudoti tik sertifikuotą USE. Informacijos apie USE tipus ir modelius, kurie palaikomi EFR sprendime, ieškokite DOKUMENTE "EFR Guide \[DE\]", kuris skelbiamas [EFSTA dokumentacijos](https://public.efsta.net/efr/) svetainėje. Norėdami gauti informacijos apie tai, kaip pasirinkti ir gauti USE, susisiekite su [EFSTA](https://www.efsta.eu/at/kontakt).
+> Galima naudoti tik patvirtintą TSE. Informacijos apie EFR sprendimo palaikomus EFR tipus ir modelius žr. dokumente "EFR Guide \[DE\][", kuris paskelbtas EFSTA dokumentacijos](https://public.efsta.net/efr/) svetainėje. Norėdami gauti daugiau informacijos, kaip pasirinkti ir įsigyti TSE, susisiekite su [EFSTA](https://www.efsta.eu/at/kontakt).
 
-Vokietijos taisyklės reikalauja paramos DSFinV-K eksportui. DSFinV-K eksportą galima suaktyvinti EFR sprendime. Daugiau informacijos apie DSFinV-K eksportą ieškokite "EFR Guide \[DE\]" dokumente, kuris skelbiamas [EFSTA dokumentacijos](https://public.efsta.net/efr/) svetainėje.
+Vokietijos įstatymai reikalauja DSFinV-K eksporto palaikymo. DSFinV-K eksportas gali būti suaktyvintas EFR sprendimas. Daugiau informacijos apie DSFinV-K eksportą ieškokite "EFR guide \[DE\]" [dokumente, paskelbtame EFSTA dokumentacijos](https://public.efsta.net/efr/) svetainėje.
 
-### <a name="limitations-of-the-sample"></a>Imties apribojimai
+### <a name="limitations-of-the-sample"></a>Pavyzdžio apribojimai
 
-Fiskalinės registracijos tarnyba palaiko tik tuos atvejus, kai PVM įtraukiamas į kainas. Todėl parinktis **Kainos į PVM** turi būti nustatyta kaip **Taip** tiek parduotuvėms, tiek klientams.
+Finansinio registravimo tarnyba palaiko tik scenarijus, kuriuose PVM įtraukiamas į kainas. Todėl parduotuvių **ir klientų parinktis** Kainos su PVM turi **būti** nustatyta kaip Taip.
 
-Fiskalinė tarnyba nepalaiko situacijų, kai tai pačiai operacijos eilutei taikomas daugiau nei vienas PVM kodas.
+Finansinė tarnyba nepalaiko situacijų, kai tai pačiai operacijos eilutei taikomas daugiau nei vienas PVM kodas.
 
-Fiskalinės integracijos sistema nepalaiko pardavimo pasiūlymų. Todėl šios operacijos nėra užregistruotos fiskalinėje tarnyboje.
+Finansinio integravimo sistema nepalaiko pardavimo pasiūlymų. Todėl šios operacijos nėra užregistruotos finansų tarnybose.
 
-## <a name="set-up-commerce-for-germany"></a>"Commerce for Germany" nustatymas
+## <a name="set-up-commerce-for-germany"></a>Nustatyti Vokietijos "Commerce"
 
-Šiame skyriuje aprašomi "Commerce" parametrai, būdingi ir rekomenduojami Vokietijai. Daugiau informacijos apie sąranką ieškokite ["Commerce" pagrindiniame puslapyje](../index.md).
+Šiame skyriuje aprašomi Vokietijos "Commerce" parametrai, kurie yra specifiniai ir rekomenduojami. Daugiau nustatymo informacijos ieškokite " [Commerce" pagrindinis puslapis](../index.md).
 
-Norėdami naudoti Vokietijai būdingas funkcijas, turite nurodyti šiuos parametrus.
+Norėdami naudoti funkciją, būsią Vokietijai, turite nurodyti šiuos parametrus.
 
 - Pirminiame juridinio subjekto adrese nustatykite lauką **Šalis/regionas** kaip **DEU** (Vokietija).
 - Kiekvienos Vokietijoje įsikūrusios parduotuvės EKA funkcijų profilyje nustatykite **ISO kodo lauką** **DE** (Vokietija).
@@ -185,17 +185,17 @@ Pasirinktinių **laukų puslapyje** pridėkite šiuos įrašus prie kvitų maket
 
 | Vardas                            | Tipas    | Vaizdo aprašo teksto ID |
 |---------------------------------|---------|-----------------|
-| QRCODEDE\_                      | Gavimas | 900001          |
+| QRCODE\_ DE                      | Gavimas | 900001          |
 | OPERACIJOS ID\_               | Gavimas | 900002          |
-| "RETAILPRINTCODEDE\_"             | Gavimas | 900003          |
-| SALESTAMOUNTDE\_              | Gavimas | 900004          |
-| PARDAVIMOTAXBASISDE\_               | Gavimas | 900005          |
-| OPERACIJŲTARTDATETIMEDE\_    | Gavimas | 900006          |
-| OPERACIJOS NUMERIS (TRANSACTIONENDDATETIMEDE\_)      | Gavimas | 900007          |
-| SECURITYELEMENTSERIALNUMBERDE\_ | Gavimas | 900008          |
-| PASIRAŠARAŠTINĖ\_                 | Gavimas | 900009          |
-| PASIRAŠYTI PASIRAŠYTI\_                        | Gavimas | 900010          |
-| INFOMESSAGEDE\_                 | Gavimas | 900011          |
+| RETAILPRINTCODE\_ DE             | Gavimas | 900003          |
+| SALESTAMOUNT\_ DE              | Gavimas | 900004          |
+| SALESTAXBASIS\_ DE               | Gavimas | 900005          |
+| OPERACIJŲTARTDATETIME\_ DE DE    | Gavimas | 900006          |
+| TRANSACTIONENDDATETIME\_ DE      | Gavimas | 900007          |
+| SECURITYELEMENTSERIALNUMBER\_ DE | Gavimas | 900008          |
+| PASIRAŠARAŠTINĖ\_ DE                 | Gavimas | 900009          |
+| PASIRAŠYTI\_ DE                        | Gavimas | 900010          |
+| INFOMESSAGE\_ DE                 | Gavimas | 900011          |
 
 > [!NOTE]
 > Svarbu nurodyti teisingus pasirinktinių laukų pavadinimus, kurie išvardyti ankstesnėje lentelėje. Neteisingas pasirinktinio lauko pavadinimas gali sukelti kvitų duomenų.
@@ -242,13 +242,13 @@ Kvitų formato dizaineryje į atitinkamus kvitų skyrius įtraukite šiuos pasir
         > [!NOTE]
         > QR **kodo vertė** nuskaitoma iš finansinio registro atsakymo. EFR savo atsakyme grąžina QR **kodą** tik tada, jei EFR konfigūracijos atributų lauko vertė yra aprašyta EFSTA dokumentuose. QR kodo formatas atributų **lauke**, EFR konfigūracijoje, turi būti nustatytas kaip **BMP**.
 
-    - **Informacinio** pranešimo laukas, kad pranešimai iš finansinių registracijų tarnybos galėtų būti rodomi kvituose. Pavyzdžiui, jei parašo įrenginys yra sugadintas, ant kvito galima atspausdinti specialų tekstą.
+    - **Informacinio** pranešimo laukas, kad pranešimai iš finansinių registracijų tarnybos galėtų būti rodomi kvituose. Pavyzdžiui, jei parašo įrenginys sulaužytas, kvite galima išspausdinti specialų tekstą.
 
 Daugiau informacijos apie tai, kaip dirbti su kvitų formatais, ieškokite [Gavimo kvitų formatų nustatymas ir kūrimas](../receipt-templates-printing.md).
 
 ## <a name="set-up-fiscal-integration-for-germany"></a>Nustatyti Finansų integravimą Vokietijai
 
-Vokietijos finansinio registravimo tarnybos integravimo pavyzdys pagrįstas finansinio [integravimo funkcija ir](fiscal-integration-for-retail-channel.md) yra mažmeninės prekybos SDK dalis. Pavyzdys yra sprendimų **saugyklos srcFiscalIntegrationEfr \\\\**[Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/) aplanke (pvz., [pavyzdys paleidime / 9.33).](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33/src/FiscalIntegration/Efr) Pavyzdį [sudaro](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services) fiskalinio dokumento teikėjas, kuris yra "Commerce Runtime (CRT) plėtinys, ir fiskalinė jungtis, kuri yra "Commerce Hardware Station" plėtinys. Norėdami gauti daugiau informacijos apie tai, kaip naudoti "Retail SDK", [žr. "Retail SDK](../dev-itpro/retail-sdk/retail-sdk-overview.md)[" architektūrą ir nepriklausomo pakavimo SDK sukūrimo pardavimo galimybių sukūrimą](../dev-itpro/build-pipeline.md).
+Vokietijos finansinio registravimo tarnybos integravimo pavyzdys pagrįstas finansinio [integravimo funkcija ir](fiscal-integration-for-retail-channel.md) yra mažmeninės prekybos SDK dalis. Pavyzdys yra **src\\ FiscalIntegration\\ Efr**[Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/) aplanke, kuris yra sprendimų saugykloje (pvz., [pavyzdys, esantis release/9.33](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33/src/FiscalIntegration/Efr)). Pavyzdį [sudaro](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services) fiskalinio dokumento teikėjas, kuris yra "Commerce Runtime (CRT) plėtinys, ir fiskalinė jungtis, kuri yra "Commerce Hardware Station" plėtinys. Norėdami gauti daugiau informacijos apie tai, kaip naudoti "Retail SDK", [žr. "Retail SDK](../dev-itpro/retail-sdk/retail-sdk-overview.md)[" architektūrą ir nepriklausomo pakavimo SDK sukūrimo pardavimo galimybių sukūrimą](../dev-itpro/build-pipeline.md).
 
 > [!WARNING]
 > Dėl naujo nepriklausomo pakavimo [ir plėtinio modelio](../dev-itpro/build-pipeline.md) apribojimų, šiuo metu jo negalima naudoti šiame finansinio integravimo pavyzdyje. Turite naudoti ankstesnę "Retail SDK" versiją programavimo virtualiojoje kompiuteryje (VM) ciklo Microsoft Dynamics tarnybose (LCS). Daugiau informacijos ieškokite Vokietijos [(senesnės veiklos) finansinio integravimo pavyzdžio diegimo rekomendacijose](emea-deu-fi-sample-sdk.md).
@@ -284,8 +284,8 @@ Norėdami įjungti registravimo procesą, atlikite šiuos veiksmus norėdami nus
     > [!WARNING]
     > Dėl naujo nepriklausomo pakavimo [ir plėtinio modelio](../dev-itpro/build-pipeline.md) apribojimų, šiuo metu jo negalima naudoti šiame finansinio integravimo pavyzdyje. Turite naudoti ankstesnę "Retail SDK" versiją LCS programuotojo VM. Šio fiskalinio integravimo pavyzdžio konfigūracijos failai yra toliau esančiuuose "Retail" SDK, esantis LCS programuotojo VM, aplankuose:
     >
-    > - **Iždo dokumentų teikėjo konfigūracijos failas:** RetailSdkSampleExtensionsCommerceRuntimeExtensions.DocumentProvider.EFRSampleConfigurationDocumentProviderFiscalEFRSampleGermany.xml\\\\\\\\\\
-    > - **Iždo jungties konfigūracijos failas:** RetailSdkSampleExtensionsHardwareStationExtension.EFRSampleConfigurationConnectorEFRSample.xml\\\\\\\\\\
+    > - **Iždo dokumentų teikėjo konfigūracijos failas:** RetailSdk\\ SampleExtensions CommerceRuntime\\ Extensions.DocumentProvider.EFRSample\\\\ konfigūracijos\\ DocumentProviderFiscalEFRSampleGermany.xml
+    > - **Iždo jungties konfigūracijos failas:** RetailSdk\\ SampleExtensions\\ HardwareStation\\ extension.EFRSample\\ Configuration\\ ConnectorEFRSample.xml
     > 
     > Naujas nepriklausomas pakavimo ir plėtinio modelis, skirtas finansinio integravimo pavyzdžiui, planuojamas vėlesnėms versijoms.
 
@@ -304,7 +304,7 @@ Norėdami įjungti registravimo procesą, atlikite šiuos veiksmus norėdami nus
 
 Toliau pateiktas numatytasis duomenų susiejimas yra įtrauktas į finansinio dokumento teikėjo konfigūraciją, kuri pateikiama kaip finansinio integravimo pavyzdžio dalis:
 
-- **Mokėjimo priemonės tipo susiejimas** – mokėjimo metodų susiejimas su atributo **PayG** (mokėjimo grupė) reikšmėmis užklausose, siunčiamose į fiskalinę tarnybą. Čia yra numatytasis susiejimas:
+- **Mokėjimo priemonės tipo** susiejimas – mokėjimo būdų susiejimas **su atributo PayG** (mokėjimų grupė) vertėmis užklausose, kurios siunčiamos į fiskalinę tarnybą. Čia yra numatytasis susiejimas:
 
     ```
     1: 0; 2: 1; 3: 3; 4: 8; 5: 2; 6: 0; 7: 7; 8: 6; 9: 0; 10: 8; 11: 1
@@ -330,7 +330,7 @@ Toliau pateiktas numatytasis duomenų susiejimas yra įtrauktas į finansinio do
 
     Todėl turite modifikuoti pavyzdžio susiejimą pagal mokėjimo metodus, kurie sukonfigūruoti jūsų programoje.
 
-- **Įtraukti kliento duomenis** – jei šis parametras įjungtas, fiskalinės tarnybos užklausose bus kliento informacija, pvz., vardai ir adresai, tais atvejais, kai klientas įtraukiamas į operaciją.
+- **Įtraukti kliento duomenis** – jei šis parametras įjungtas, užklausose į fiskalinę paslaugą bus pateikta kliento informacija, pvz., pavadinimai ir adresai, kai klientas įtraukiamas į operaciją.
 - **Pridėtinės vertės mokesčio (PVM) tarifų konvertavimas –** mokesčio procentų verčių, kurios nustatytos PVM kodams, susiejimas su atributo TaxG **(mokesčių grupė)** vertėmis užklausose, kurios siunčiamos į fiskalinę tarnybą. Čia yra numatytasis susiejimas:
 
     ```
@@ -339,13 +339,13 @@ Toliau pateiktas numatytasis duomenų susiejimas yra įtrauktas į finansinio do
 
     Pirmasis kiekvienos poros komponentas rodo PVM mokesčių grupę, kurią palaiko EFR finansinio registravimo tarnyba. Antrasis komponentas rodo atitinkamą PVM tarifą. Daugiau informacijos apie PVM mokesčių grupes, kurias EFR palaiko Vokietijai, ieškokite [EFR nuorodoje](https://public.efsta.net/efr/).
 
-- **Dovanų kortelių ir indėlių** mokesčių grupė – "TaxG **" atributo** vertė prašymuose, siunčiamuose fiskalinei tarnybai, remiantis operacijomis, susijusiomis su dovanų kortelėmis ar indėliais. Čia yra numatytasis susiejimas:
+- **Dovanų kortelių ir depozitų mokesčių grupė –** TaxG **atributo vertė užklausose, kurios siunčiamos į fiskalinę paslaugą, atsižvelgiant į operacijas**, kurias sudaro dovanų kortelės arba depozitai. Čia yra numatytasis susiejimas:
 
     ```
     G
     ```
 
-- **Pvm neapmokestinamų** mokesčių grupė – atributo **TaxG** vertė užklausose, siunčiamose fiskalinei tarnybai, remiantis operacijomis, kurios neapmokestinamos mokesčių prievolėmis. Čia yra numatytasis susiejimas:
+- **Neapmokestinimo PVM grupė** – **TaxG** atributo vertė užklausose, kurios siunčiamos fiskalinei tarnybai, atsižvelgiant į operacijas, kurios neapmokestinamos mokesčių įsipareigojimais. Čia yra numatytasis susiejimas:
 
     ```
     F
@@ -374,13 +374,13 @@ Toliau pateiktas numatytasis duomenų susiejimas yra įtrauktas į finansinio do
 Norėdami nustatyti programavimo aplinką, kad būtų galima patikrinti ir išplėsti pavyzdį, atlikite šiuos veiksmus.
 
 1. Užduokite arba atsisiųskite [Dynamics 365 Commerce sprendimų](https://github.com/microsoft/Dynamics365Commerce.Solutions) saugyklą. Pasirinkite tinkamą paleidimo šakos versiją pagal savo SDK / programos versiją. Norėdami gauti daugiau informacijos, žr. ["Download Retail SDK" pavyzdžius ir nuorodų paketus iš GitHub ir NuGet](../dev-itpro/retail-sdk/sdk-github.md).
-1. Atidarykite EFR sprendimą **Dynamics365Commerce.SolutionsFiscalIntegrationEfrEFR.sln\\\\\\ ir sukurkite** jį.
+1. Atidarykite EFR sprendimą Dynamics365Commerce.Solutions **FiscalIntegration\\ EFR.sln\\ ir sukurkite\\ jį.**
 1. Diegti "Commerce" vykdyklės plėtinius:
 
     1. Rasti plėtinio CRT diegimo programą:
 
-        - **"Commerce Scale Unit":** aplanke EfrScaleUnitScaleUnit.EFR.InstallerbinDebugnet461 **\\\\\\\\\\** raskite ScaleUnit.EFR.Installer diegimo **kūrėjas.**
-        - **Vietinė CRT "Modern POS":** **aplanke EfrModardPOSModfrePOS.EFR.InstallerbinDebugnet461\\\\\\\\\\** **raskite ModernPOS.EFR.Installer diegimo** kūrėjas.
+        - **"Commerce Scale Unit":** **aplanke Efr\\ ScaleUnit\\ ScaleUnit.EFR.Installer\\\\ talpyklos debug\\ net461** **raskite ScaleUnit.EFR.Installer diegimo** priemonės.
+        - **Vietinė CRT "Modern POS":** **aplanke Efr\\ ModernPOS ModernPOS.EFR.Installer\\\\\\ talpyklos debug\\ net461** **raskite ModernPOS.EFR.Installer diegimo** kūrėjas.
 
     1. Paleiskite CRT plėtinio diegimo programą iš komandų eilutės:
 
@@ -402,7 +402,7 @@ Norėdami nustatyti programavimo aplinką, kad būtų galima patikrinti ir išpl
 
     1. Įdiekite aparatūros stoties plėtinius:
 
-        1. **Aplanke EfrHardwareStationHardwareStation.EFR.InstallerbinDebugnet461\\\\\\\\\\** **raskite HardwareStation.EFR.Installer diegimo** priemonės.
+        1. **Aplanke Efr\\ HardwareStation\\ HardwareStation.EFR.Installer\\ talpyklos\\ debug\\ net461** **raskite HardwareStation.EFR.Installer diegimo** priemonės.
         1. Paleiskite plėtinio diegimo programą iš komandų eilutės vykdydami šią komandą.
 
             ```Console
@@ -411,8 +411,8 @@ Norėdami nustatyti programavimo aplinką, kad būtų galima patikrinti ir išpl
 
     1. Įdiekite EKA plėtinius:
 
-        1. Atidarykite EKA **iždo jungties pavyzdžio sprendimą Dynamics365Commerce.SolutionsFiscalIntegrationPosFiscalConnectorSampleContoso.PosFiscalConnectorSample.sln\\\\\\** ir sukurkite jį.
-        1. **Aplanke PosFiscalConnectorSampleStoreCommerce.InstallerbinDebugnet461\\\\\\\\** **raskite Contoso.PosFiscalConnectorSample.StoreCommerce.Installer diegimo** priemonės.
+        1. Atidarykite EKA **iždo jungties pavyzdžio sprendimą Dynamics365Commerce.Solutions\\ FiscalIntegration\\ PosFiscalConnectorSample\\ Contoso.PosFiscalConnectorSample.sln** ir sukurkite jį.
+        1. **Aplanke PosFiscalConnectorSample\\ StoreCommerce.Installer\\ bin\\ Debug\\ net461** **raskite Contoso.PosFiscalConnectorSample.StoreCommerce.Installer diegimo** priemonės.
         1. Paleiskite plėtinio diegimo programą iš komandų eilutės vykdydami šią komandą.
 
             ```Console
@@ -421,11 +421,11 @@ Norėdami nustatyti programavimo aplinką, kad būtų galima patikrinti ir išpl
 
 #### <a name="production-environment"></a>Gamybos aplinka
 
-Norėdami sugeneruoti [ir](fiscal-integration-sample-build-pipeline.md) paleisti debesies skalės vienetą ir savitarnos diegiant finansinio integravimo pavyzdžio paketus, atlikite nurodytus veiksmus. **EFR build-pipeline.yml šablono JAML** **failą galima rasti sprendimų saugyklos aplanke YAML_Files \\**[Dynamics 365 Commerce Pipeline.yml.](https://github.com/microsoft/Dynamics365Commerce.Solutions)
+Norėdami sugeneruoti [ir](fiscal-integration-sample-build-pipeline.md) paleisti debesies skalės vienetą ir savitarnos diegiant finansinio integravimo pavyzdžio paketus, atlikite nurodytus veiksmus. **EFR build-pipeline.yml** šablono JAML **\\ failą galima rasti YAML_Files** saugyklos aplanke [Dynamics 365 Commerce Pardavimo](https://github.com/microsoft/Dynamics365Commerce.Solutions) galimybės.
 
 ## <a name="design-of-extensions"></a>Plėtinių dizainas
 
-Vokietijos finansinio registravimo tarnybos integravimo pavyzdys pagrįstas finansinio [integravimo funkcija ir](fiscal-integration-for-retail-channel.md) yra mažmeninės prekybos SDK dalis. Pavyzdys yra sprendimų **saugyklos srcFiscalIntegrationEfr \\\\**[Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/) aplanke (pvz., [pavyzdys paleidime / 9.33).](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33/src/FiscalIntegration/Efr) Pavyzdį [sudaro](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services) fiskalinio dokumento teikėjas CRT, kuris yra plėtinys, ir fiskalinė jungtis, kuri yra "Commerce Hardware Station" plėtinys. Norėdami gauti daugiau informacijos apie tai, kaip naudoti "Retail SDK", [žr. "Retail SDK](../dev-itpro/retail-sdk/retail-sdk-overview.md)[" architektūrą ir nepriklausomo pakavimo SDK sukūrimo pardavimo galimybių sukūrimą](../dev-itpro/build-pipeline.md).
+Vokietijos finansinio registravimo tarnybos integravimo pavyzdys pagrįstas finansinio [integravimo funkcija ir](fiscal-integration-for-retail-channel.md) yra mažmeninės prekybos SDK dalis. Pavyzdys yra **src\\ FiscalIntegration\\ Efr**[Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/) aplanke, kuris yra sprendimų saugykloje (pvz., [pavyzdys, esantis release/9.33](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33/src/FiscalIntegration/Efr)). Pavyzdį [sudaro](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services) fiskalinio dokumento teikėjas CRT, kuris yra plėtinys, ir fiskalinė jungtis, kuri yra "Commerce Hardware Station" plėtinys. Norėdami gauti daugiau informacijos apie tai, kaip naudoti "Retail SDK", [žr. "Retail SDK](../dev-itpro/retail-sdk/retail-sdk-overview.md)[" architektūrą ir nepriklausomo pakavimo SDK sukūrimo pardavimo galimybių sukūrimą](../dev-itpro/build-pipeline.md).
 
 > [!WARNING]
 > Dėl naujo nepriklausomo pakavimo [ir plėtinio modelio](../dev-itpro/build-pipeline.md) apribojimų, šiuo metu jo negalima naudoti šiame finansinio integravimo pavyzdyje. Turite naudoti ankstesnę "Retail SDK" versiją LCS programuotojo VM. Daugiau informacijos ieškokite Vokietijos [(senesnės veiklos) finansinio integravimo pavyzdžio diegimo rekomendacijose](emea-deu-fi-sample-sdk.md). Naujas nepriklausomas pakavimo ir plėtinio modelis, skirtas finansinio integravimo pavyzdžiui, planuojamas vėlesnėms versijoms.
@@ -436,7 +436,7 @@ Plėtinio, kuris yra fiskalinio dokumento teikėjas, paskirtis yra generuoti pas
 
 #### <a name="request-handler"></a>Užklausų apdorojimo programa
 
-Yra viena dokumentų teikėjo **užklausų apdorojimo programa DocumentProviderEFRFiscalDEU**. Ši apdorojimo programa naudojama fiskalinės registracijos tarnybos finansiniams dokumentams generuoti. Jis paveldėtas iš **"INamedRequestHandler** " sąsajos. Metodas **HandlerName** yra atsakingas už apdorojimo programos pavadinimo grąžinimą. Apdorojimo programos pavadinimas turi sutapti su jungties dokumento teikėjo pavadinimu, kuris nurodytas "Commerce Headquarters".
+Yra viena dokumentų teikėjo užklausos apdorojimo programa **DocumentProviderEFRFiscalDEU**. Ši apdorojimo programa naudojama norint generuoti finansinio registravimo tarnybos finansinius dokumentus. Jis perimtas iš **INamedRequestHandler** sąsajos. Metodas **HandlerName** yra atsakingas už apdorojimo programos pavadinimo grąžinimą. Apdorojimo programos pavadinimas turi sutapti su jungties dokumento teikėjo pavadinimu, kuris nurodytas "Commerce Headquarters".
 
 Jungtis palaiko šias užklausas:
 
@@ -445,13 +445,13 @@ Jungtis palaiko šias užklausas:
 
 #### <a name="configuration"></a>Konfigūracija
 
-Finansinio dokumento **teikėjo konfigūracijos failas yra srcFiscalIntegrationEfrConfigurationsDocumentProvidersDocumentProviderFiscalEFRSampleGermany.xml\\\\\\\\\\**[Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/) sprendimų saugykloje. Failo paskirtis – įgalinti finansinio dokumento teikėjo parametrus, kurie bus konfigūruoti iš "Commerce Headquarters". Failo formatas sulygiuotas su finansinio integravimo konfigūracijos reikalavimais.
+Finansinio dokumento **teikėjo konfigūracijos failas yra src\\ FiscalIntegration\\ Efr\\ konfigūracijų\\ DocumentProviders\\ DocumentProviderFiscalEFRSampleGermany.xml**[Dynamics 365 Commerce sprendimų](https://github.com/microsoft/Dynamics365Commerce.Solutions/) saugykloje. Failo paskirtis – įgalinti finansinio dokumento teikėjo parametrus, kurie bus konfigūruoti iš "Commerce Headquarters". Failo formatas sulygiuotas su finansinio integravimo konfigūracijos reikalavimais.
 
 ### <a name="hardware-station-extension-design"></a>Aparatūros stoties plėtinio dizainas
 
 Plėtinio, kuris yra fiskalinė jungtis, paskirtis yra palaikyti ryšį su finansinių registracijų tarnyba.
 
-Aparatūros stoties plėtinys yra **HardwareStation.Extension.EFRSample**. Jis naudoja HTTP protokolą, kad pateiktų dokumentus, kuriuos CRT plėtinys generuoja fiskalinės registracijos tarnybai. Jis taip pat tvarko atsakymus, gautus iš finansinio registravimo tarnybos.
+Aparatūros stoties plėtinys yra **HardwareStation.Extension.EFRSample**. Ji naudoja HTTP protokolą dokumentams, kuriuos sugeneruoja CRT plėtinys, pateikti iždo registracijos tarnybai. Jis taip pat tvarko atsakymus, gautus iš finansinio registravimo tarnybos.
 
 #### <a name="request-handler"></a>Užklausų apdorojimo programa
 
@@ -465,7 +465,7 @@ Jungtis palaiko šias užklausas:
 
 #### <a name="configuration"></a>Konfigūracija
 
-Iždo jungties **konfigūracijos failas yra srcFiscalIntegrationEfrConfigurationsConnectorsConnectorEFRSample.xml\\\\\\\\\\**[Dynamics 365 Commerce sprendimų](https://github.com/microsoft/Dynamics365Commerce.Solutions/) saugykloje. Failo paskirtis – įgalinti finansinių jungčių parametrus, kurie bus konfigūruoti iš "Commerce Headquarters". Failo formatas sulygiuotas su finansinio integravimo konfigūracijos reikalavimais.
+Finansinio jungties konfigūracijos **failas yra src\\ FiscalIntegration\\ Efr\\ konfigūracijų\\ jungčių\\ ConnectorEFRSample.xml**[Dynamics 365 Commerce sprendimų](https://github.com/microsoft/Dynamics365Commerce.Solutions/) saugykloje. Failo paskirtis – įgalinti finansinių jungčių parametrus, kurie bus konfigūruoti iš "Commerce Headquarters". Failo formatas sulygiuotas su finansinio integravimo konfigūracijos reikalavimais.
 
 ### <a name="pos-fiscal-connector-extension-design"></a>EKA "Fiscal Connector" plėtinio dizainas
 
@@ -473,11 +473,11 @@ EKA finansinio jungties plėtinio paskirtis yra susisiekti su finansinio registr
 
 #### <a name="fiscal-connector-factory"></a>Finansinių jungčių gamykla
 
-Iždo jungties gamyklos jungties pavadinimas susietas su "Fiscal Connector **" diegimas ir yra faile Pos.ExtensionConnectorsFiscalConnectorFactory.ts\\\\**. Jungties pavadinimas turi atitikti "Commerce Headquarters" nurodytą finansinio jungties pavadinimą.
+Iždo jungties gamyklos jungties pavadinimas susietas su "Fiscal Connector **" diegimas ir yra faile Pos.Extension\\ Connectors\\ FiscalConnectorFactory.ts**. Jungties pavadinimas turi atitikti "Commerce Headquarters" nurodytą finansinio jungties pavadinimą.
 
 #### <a name="efr-fiscal-connector"></a>EFR iždo jungtis
 
-EFR fiskalinė jungtis yra **faile Pos.ExtensionConnectorsEfrEfrFiscalConnector.ts\\\\\\**. Jis įdiegia **IFiscalConnector sąsają**, palaikančią šias užklausas:
+EFR fiskalinė jungtis yra **Pos.Extension\\ Connectors\\ Efr\\ EfrFiscalConnector.ts faile**. Jis įdiegia **IFiscalConnector sąsają**, palaikančią šias užklausas:
 
 - **FiscalRegisterSubmitDocumentClientRequest** – ši užklausa siunčia dokumentus finansinio registravimo tarnybai ir grąžina atsakymą iš jos.
 - **FiscalRegisterIsReadyClientRequest** – ši užklausa naudojama norint patikrinti iždo dokumentų registracijos tarnybos sveikumą.
@@ -485,7 +485,7 @@ EFR fiskalinė jungtis yra **faile Pos.ExtensionConnectorsEfrEfrFiscalConnector.
 
 #### <a name="configuration"></a>Konfigūracija
 
-Konfigūracijos failas yra sprendimų saugyklos **aplanke srcFiscalIntegrationEfrConfigurationsConnectors\\\\\\\\**[Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/). Failo paskirtis – įgalinti finansinio jungties parametrus, kurie bus konfigūruoti iš "Commerce Headquarters". Failo formatas sulygiuotas su finansinio integravimo konfigūracijos reikalavimais. Pridedami šie parametrai:
+Konfigūracijos failas yra sprendimų saugyklos **src\\ FiscalIntegration\\ Efr\\ konfigūracijų \\**[Dynamics 365 Commerce jungčių](https://github.com/microsoft/Dynamics365Commerce.Solutions/) aplanke. Failo paskirtis – įgalinti finansinio jungties parametrus, kurie bus konfigūruoti iš "Commerce Headquarters". Failo formatas sulygiuotas su finansinio integravimo konfigūracijos reikalavimais. Pridedami šie parametrai:
 
 - **Galinio punkto** adresas – finansinio registravimo tarnybos URL.
 - **Skirtasis** laikas milisekundiais, kurį jungtis lauks atsakymo iš fiskalinių registracijų tarnybos.

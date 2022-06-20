@@ -1,6 +1,6 @@
 ---
 title: Turinio įtraukimo būdai
-description: Šioje temoje pateikiama apžvalga ir parenkami saitai, kur ir kaip pradėti tvarkyti turinį, naudojant „Microsoft Dynamics 365 Commerce“ svetainės generatoriaus žiniatinklio kūrimo įrankių rinkinį.
+description: Šiame straipsnyje pateikiama apžvalga ir pasirinkti saitus, kur ir kaip pradėti tvarkyti turinį, naudojant svetainės Microsoft Dynamics 365 Commerce generatoriaus žiniatinklio kūrimo įrankių rinkinį.
 author: phinneyridge
 ms.date: 10/09/2020
 ms.topic: article
@@ -14,24 +14,24 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: f8a2dbb7bc7659e2e23b0ba6e2b5645dbe508ef9c9bda10df3bad8d04a6cfb32
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7f01de31e4eca1266066b4fcf1c92b429bfc71c9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727683"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871759"
 ---
 # <a name="ways-to-add-content"></a>Turinio įtraukimo būdai
 
 [!include [banner](includes/banner.md)]
 
-Šioje temoje pateikiama apžvalga ir saitai į dokumentus apie tai, kaip tvarkyti turinį, naudojant „Microsoft Dynamics 365 Commerce“ svetainės generatoriaus žiniatinklio kūrimo įrankių rinkinį.
+Šiame straipsnyje pateikiama apžvalga ir saitai į dokumentaciją, kaip valdyti turinį, naudojant svetainės Microsoft Dynamics 365 Commerce generatoriaus žiniatinklio kūrimo įrankių sąrašą.
 
 Yra daug būdų, kaip pakeisti svetainės išvaizdą, pojūtį ir turinį. Atsižvelgiant į reikiamą tinkinimo lygį, daugelį šių pakeitimų gali įdiegti ne kūrėjai svetainės generatoriuje, žiniatinklio kūrimo įrankių rinkinyje, įtrauktame į „Dynamics 365 Commerce“. Svetainės generatorius leidžia kurti šablonus, pasirinkti temas ir pasirinkti ir generuoti modulius nerašant kodų. Priešingai, norint sukurti naują temą arba modulį, reikia naudoti programavimo įgūdžius, nes būtina naudoti el. prekybos programinės įrangos kūrimo rinkinį (SDK) ir „Microsoft Dynamics Lifecycle Services“ (LCS) diegimo darbo eigą.
 
-Šios temos yra geras atspirties taškas pradėti suprasti, kaip įtraukti ir tvarkyti svetainės turinį. Daugumoje temų dėmesys skiriamas toms svetainės sritims, kurioms nereikia programuotojo. Kai kuriose aprašomi turinio redagavimo pagrindai, kitos skirtos svetainės administratorių užduotims. Kiekvienoje iš šių temų bus nurodomos konkrečios užduotys, kurioms gali reikėti SDK darbo. Kiekvienoje temoje laikoma, kad jau sukonfigūravote svetainę ir turite prieigą prie svetainės generatoriaus įrankių rinkinio.
+Toliau pateikti straipsniai yra tinkami, norint pradėti suprasti, kaip pridėti ir tvarkyti svetainės turinį. Dauguma straipsnių, kurių metu daugiausia dėmesio skiriama jūsų svetainės sritims, kurioms programuotojo nereikia. Kai kuriose aprašomi turinio redagavimo pagrindai, kitos skirtos svetainės administratorių užduotims. Kiekvienas šių straipsnių nurodo konkrečias užduotis gali reikalauti SDK darbo. Kiekviename straipsnyje laikoma, kad jūs jau su konfi minėjote svetainę ir kad jūsų svetainei suteikta prieiga prie svetainės generatoriaus įrankių rinkinio.
 
-Pasirinkite vieną iš šių temų, kad pradėtumėte.
+Norėdami pradėti, pasirinkite vieną iš šių straipsnių.
 
 - Norėdami susipažinti su turinio valdymo terminologija, naudojama svetainės generatoriuje ir šiuose dokumentuose, žr. [Puslapio modelio žodynėlis](page-elements-overview.md).
 - Norėdami suprasti, kaip veikia moduliai turinio valdymo darbo eigoje, žr. [Darbas su modeliais](work-with-modules.md).

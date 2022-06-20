@@ -1,6 +1,6 @@
 ---
 title: Naujienos ir pakeitimai „Dynamics 365 Supply Chain Management” 10.0.20 (2021 m. rugpjūtis)
-description: Šioje temoje aprašomos naujos ir pakeistos „Dynamics 365 Supply Chain Management“ 10.0.20 versijos funkcijos.
+description: Šiame straipsnyje aprašomos priemonės, kurios yra naujos arba pakeistos Dynamics 365 Supply Chain Management 10.0.20.
 author: kamaybac
 ms.date: 05/28/2021
 ms.topic: article
@@ -10,18 +10,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-05-28
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: a8f46165a89f064878d2e8af1b0b174b04eca37e
-ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.openlocfilehash: 3eadc447d8c0c443fa9d3eab220300e3eedf051d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "7647319"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8888649"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10020-august-2021"></a>Naujienos ir pakeitimai „Dynamics 365 Supply Chain Management” 10.0.20 (2021 m. rugpjūtis)
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje pateikiamos naujos ir pakeistos „Microsoft Dynamics 365 Supply Chain Management“ 10.0.20 versijos funkcijos. Šios versijos komponavimo numeris yra 10.0.886 ir jis pasiekiamas tokius būdu:
+Šiame straipsnyje pateikiamos priemonės, kurios yra naujos arba pakeistos "Microsoft Dynamics 365 Supply Chain Management " 10.0.20 versijoje. Šios versijos komponavimo numeris yra 10.0.886 ir jis pasiekiamas tokius būdu:
 
 - **Peržiūros versijos išleidimas:** 2021 m. gegužė
 - **Bendras leidimo pasiekiamumas (savaiminis naujinimas):** 2021 m. liepa
@@ -59,21 +59,21 @@ Toliau pateiktoje lentelėje pateikti funkcijos patobulinimai, įtraukti į šį
 
 ## <a name="new-and-updated-documentation-resources"></a>Nauji ir naujinti dokumentų šaltiniai
 
-Neseniai įtraukėme ir reikšmingai atnaujinome tolesnes pagalbos temas. Jos nebūtinai yra susijusios su naujomis funkcijomis įtrauktomis į šį leidimą, kaip aprašyta ankstesniame skyriuje, bet gali padėti jums gauti daugiau iš esančių funkcijų.
+Neseniai įtraukėme arba pastebimai atnaujinome šiuos žinyno straipsnius. Jos nebūtinai yra susijusios su naujomis funkcijomis įtrauktomis į šį leidimą, kaip aprašyta ankstesniame skyriuje, bet gali padėti jums gauti daugiau iš esančių funkcijų.
 
-| Funkcijos sritis | Naujos arba atnaujintos temos |
+| Funkcijos sritis | Nauji arba atnaujinti straipsniai |
 |---|---|
 | Inžinerinių pakeitimų valdymas | [Produkto gyvavimo ciklo būsenos ir perlaidos](../engineering-change-management/product-lifecycle-state-transactions.md) |
-| Atsargų valdymas | [Atsargų matomumo papildinys](../inventory/inventory-visibility.md)<br><br>[Kokybės ir neatitikimo valdymo peržiūra](../inventory/quality-management-processes.md) (įskaitant visas susijusias kokybės valdymo temas) |
+| Atsargų valdymas | [Atsargų matomumo papildinys](../inventory/inventory-visibility.md)<br><br>[Kokybės ir neatitikties valdymo peržiūra](../inventory/quality-management-processes.md) (įskaitant visus susijusius kokybės valdymo straipsnius) |
 | Paraiškos | [Tiekėjo sertifikavimo priežiūra](../../finance/public-sector/manage-vendor-certification.md) |
 | Gamybos kontrolė | [Gamybos vietos vykdymo sąsajos stilius](../production-control/production-floor-execution-styles.md) |
 | Sandėlio valdymas | [„Warehouse Management” mobiliųjų įrenginių programėlės veiksmų piktogramų ir pavadinimų priskyrimas](../warehousing/step-icons-titles.md)<br><br>[Atidėtas atsargų perkėlimo neautomatinis apdorojimas](../warehousing/deferred-processing-manual-inventory-movement.md) |
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
-### <a name="platform-updates-for-finance-and-operations-apps"></a>„Finance and Operations” programų platformos naujinimai
+### <a name="platform-updates-for-finance-and-operations-apps"></a>Finansų ir operacijų programėlių platformos naujinimai
 
-„Microsoft Dynamics 365 Supply Chain Management“ 10.0.20 versijoje yra platformos naujinimų. Norėdami sužinoti daugiau, žr. [„Finance and Operations” programų 10.0.20 versijos platformos naujinimai (2021 m. liepos mėn.)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-20.md).
+„Microsoft Dynamics 365 Supply Chain Management“ 10.0.20 versijoje yra platformos naujinimų. Norėdami sužinoti daugiau, žr. [finansų ir operacijų programėlių 10.0.20 versijos platformos naujinimus (2021 m. liepos mėn.)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-20.md).
 
 ### <a name="bug-fixes"></a>Klaidų ištaisymai
 
@@ -87,12 +87,12 @@ Peržiūrėkite [„Dynamics 365“: 2021 m. 1-os leidimo bangos planas](/dynami
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>Pašalintos ir pasenusios „Supply Chain Management“ funkcijos
 
-Temoje [Pašalintos arba pasenusios funkcijos „Dynamics 365 Supply Chain Management“](removed-deprecated-features-scm-updates.md) aprašomos „Supply Chain Management“ funkcijos, kurios yra pašalintos, yra suplanuotos pašalinti arba yra pasenusios.
+Straipsnyje [pašalintos arba pasenusios Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) funkcijos aprašomos priemonės, kurios buvo arba yra suplanuotos pašalinti arba pasenusios tiekimo grandinės valdymui.
 
 - *Pašalinta* funkcija nebėra įtraukta į produktą.
 - *Nebenaudojama* funkcija nebėra aktyviai tobulinama ir gali būti pašalinta iš būsimo naujinio.
 
-Prieš pašalinant iš produkto bet kokią funkciją, pranešimas apie nebenaudojimą bus paskelbtas [Pašalintos arba pasenusios funkcijos „Dynamics 365 Supply Chain Management“](removed-deprecated-features-scm-updates.md) temoje 12 mėnesių prieš pašalinimą.
+Prieš pašalinant bet kokią priemonę iš produkto, [Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) pranešimai dėl nušalinimo bus pereiti prie pašalintų arba pasenusių funkcijų 12 mėnesių prieš pašalinimą.
 
 Atlikus keitimus, kurie paveikia tik kompiliavimo laiką, bet yra dvejetainiškai suderinami su smėlio dėžės ir gamybos aplinka, nebenaudojimo laikas bus trumpesnis nei 12 mėnesių. Paprastai, tai yra funkciniai naujinimai, kuriuos reikia atlikti kompiliatoriui.
 

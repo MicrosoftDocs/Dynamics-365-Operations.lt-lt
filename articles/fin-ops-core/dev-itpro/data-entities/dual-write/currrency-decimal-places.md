@@ -1,6 +1,6 @@
 ---
 title: Valiutos duomenų tipo perkėlimas dvigubui rašymui
-description: Šioje temoje aprašoma, kaip pakeisti dešimtainių skaičius, kurie dvigubu rašymu palaiko valiutą.
+description: Šiame straipsnyje aprašoma, kaip pakeisti dešimtainių dalių vietų, kurios palaiko dvigubo rašymo valiutą, skaičių.
 author: RamaKrishnamoorthy
 ms.date: 12/08/2021
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-04-06
-ms.openlocfilehash: e9dc3e6c5fbec9636370b64a9bbdcf8a5834d332
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 809906c3926b200e7beac84e780314aec1f8c2ca
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8061841"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855593"
 ---
 # <a name="currency-data-type-migration-for-dual-write"></a>Valiutos duomenų tipo perkėlimas dvigubui rašymui
 
@@ -29,7 +29,7 @@ Norėdami pakeisti dešimtainių skaičių kiekį, turite atlikti du žingsnius:
 1. Perkėlimo užklausa iš „Microsoft”.
 2. Dešimtainių skaičių kiekio pakeitimas „Dataverse”.
 
-Programėlė „Finance and Operations“ ir Dataverse valiutos vertės turi palaikyti tą patį skaičių po kablelio. Priešingu atveju, kai ši informacija sinchronizuojama tarp programėlių, gali dingti duomenys. Perkėlimo procesas perkonfigūruoja, kaip saugomos valiutos ir valiutos kurso vertės, bet jokie duomenys nesikeičia. Baigus perkėlimą, valiutų kodų ir kainų dešimtainių skaičių kiekis gali būti padidintas, o vartotojų įvesti ir peržiūrėti duomenys gali būti tikslesni dešimtainių tikslumu.
+Finansų ir operacijų programa ir turi palaikyti Dataverse tokį patį skaičių po kablelio, kaip ir valiutos vertės. Priešingu atveju, kai ši informacija sinchronizuojama tarp programėlių, gali dingti duomenys. Perkėlimo procesas perkonfigūruoja, kaip saugomos valiutos ir valiutos kurso vertės, bet jokie duomenys nesikeičia. Baigus perkėlimą, valiutų kodų ir kainų dešimtainių skaičių kiekis gali būti padidintas, o vartotojų įvesti ir peržiūrėti duomenys gali būti tikslesni dešimtainių tikslumu.
 
 Perkėlimas yra neprivalomas. Jei didesnio dešimtainių skaičių kiekio palaikymas jums naudingas, rekomenduojame apsvarstyti perkėlimą. Organizacijoms, kurioms nereikia jokių verčių, kuriose yra daugiau nei keturi dešimtainiai skaičiai, perkėlimas nebūtinas.
 
@@ -37,7 +37,7 @@ Perkėlimas yra neprivalomas. Jei didesnio dešimtainių skaičių kiekio palaik
 
 Saugojimas esamiems valiutos stulpeliams „Dataverse” negali palaikyti daugiau nei keturių dešimtainių skaičių. Todėl perkėlimo metu valiutos vertės nukopijuojamos į naujus duomenų bazės vidinius stulpelius. Šis procesas vyksta nuolatos, kol bus perkelti visi duomenys. Viduje perkėlimo pabaigoje, naujieji saugojimo tipai pakeičia senus saugojimo tipus, tačiau duomenų vertės lieka nepakitusios. Valiutos stulpeliai gali palaikyti iki 10 dešimtainių skaičių. Perkėlimo metu „Dataverse” gali būti toliau naudojama be pertraukos.
 
-Tuo pačiu metu keitimo kursai modifikuojami taip, kad jie palaikytų iki 12 dešimtainių skaičių, o ne dabartinę 10 limitą. Šis pakeitimas reikalingas, kad tiek programoje „Finance and Operations“, tiek „Finance and Operations“ būtų vienodas skaitmenų po kablelio skaičius Dataverse.
+Tuo pačiu metu keitimo kursai modifikuojami taip, kad jie palaikytų iki 12 dešimtainių skaičių, o ne dabartinę 10 limitą. Šis pakeitimas reikalingas, kad finansų ir operacijų programoje ir programoje dešimtainių dalių vietų skaičius būtų toks pats Dataverse.
 
 Perkėlimas nekeičia jokių duomenų. Kai valiutos ir keitimo kurso stulpeliai konvertuoti, administratoriai gali konfigūruoti sistemą, kad būtų galima naudoti iki 10 dešimtainių skaičių valiutos stulpeliams, nurodydami kiekvienos operacijos valiutos ir kainos dešimtainių skaičių kiekį.
 
@@ -83,20 +83,20 @@ Jei jums reikia, kad valiutos tikslumas konkrečiai valiutai skirtųsi nuo valiu
 
 ![Konkrečios lokalės valiutos parametrai.](media/specific-currency.png)
 
-### <a name="tables-currency-column"></a>Lentelės: Valiutos stulpelis
+### <a name="tables-currency-column"></a>Lentelės: valiutos stulpelis
 
 Galima tik keturis kartus koreguoti dešimtainių skaičių, skirtų konkrečios valiutos stulpeliams, kiekius.
 
-### <a name="default-currency-decimal-precision"></a>Numatytasis valiutos dešimtainis tikslumas
-Toliau pateiktoje lentelėje rasite numatytosios valiutos dešimtainio tikslumo numatytąją elgseną pagal perkėlimo ir neperkėlimo scenarijus. 
+### <a name="default-currency-decimal-precision"></a>Numatytasis valiutos dešimtainės trupmenos tikslumas
+Norėdami nustatyti numatytąjį valiutos dešimtainių skaičių po perkėlimo ir ne perkėlimo scenarijų tikslumą, žr. toliau pateiktą lentelę. 
 
-| Sukūrimo data  | Valiutos dešimtainis laukas    | Esama organizacija (valiutos laukas neperkeltas) | Esama organizacija (valiutos laukas perkeltas) | Naujos organizacijos sukurtas post build 9.2.21062.00134 |
+| Sukūrimo data  | Valiutos dešimtainis laukas    | Esama org. (valiutos laukas nepersiųstas) | Esama org. (valiutos laukas perkeltas) | Nauja org. sukurta po kūrimo 9.2.21062.00134 |
 |---------------------------------------------------------|-------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------|------------------------------------------------|
-| Valiutos laukas sukurtas prieš kuriant 9.2.21111.00146  |     |  |       |
-|    | Maksimalus tikslumas matomas vartotojo sąsajoje   | 4 skaitmenys    | 10 skaitmenų    | Netaikoma    |
-| | Didžiausias tikslumas matomas duomenų bazėje ir DB užklausos rezultatų vartotojo sąsajoje         | 4 skaitmenys   | 10 skaitmenų   | Netaikoma    |
-| Valiutos laukas sukurtas po kūrimo 9.2.21111.00146 |    |  |     |   |
-|   | Maksimalus dešimtainis tikslumas, matomas vartotojo sąsajoje     | 4 skaitmenys   | 10 skaitmenų   | 10 skaitmenų     |
-|          | Didžiausias dešimtainis tikslumas, matomas duomenų bazėje ir DB užklausos rezultatų vartotojo sąsajoje | 10 skaitmenų. Tačiau tik 4 yra reikšmingi, kai visi nuliai yra už 4 dešimtainių skaitmenų. Tai įgalina paprastesnį ir greitesnį organizacijos perkėlimą, jei reikia. | 10 skaitmenų      | 10 skaitmenų     |
+| Valiutos laukas, sukurtas prieš kuriant 9.2.21111.00146  |     |  |       |
+|    | Maksimalus tikslumas, matomas vartotojo valandoje   | 4 skaitmenys    | 10 skaitmenų    | Netaikoma    |
+| | Maksimalus tikslumas, matomas duomenų bazės ir DB užklausų rezultatų UI         | 4 skaitmenys   | 10 skaitmenų   | Netaikoma    |
+| Valiutos laukas sukurtas sukūrus 9.2.21111.00146 |    |  |     |   |
+|   | Didžiausias tikslumas po kablelio, matomas vartotojo valandoje     | 4 skaitmenys   | 10 skaitmenų   | 10 skaitmenų     |
+|          | Maks. dešimtainis tikslumas, matomas duomenų bazės ir DB užklausos rezultatų UI | 10 skaitmenų. Tačiau tik 4 pažymi visus nulius, kurie viršija 4 skaitmenis po dešimtainės trupmenos. Jei reikia, tai leidžia paprasčiau ir greičiau perkelti org. | 10 skaitmenų      | 10 skaitmenų     |
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

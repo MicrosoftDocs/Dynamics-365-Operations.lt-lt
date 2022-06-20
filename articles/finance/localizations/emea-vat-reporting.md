@@ -1,6 +1,6 @@
 ---
 title: PVM ataskaitos Europoje
-description: Šioje temoje pateikiama bendra informacija apie pridėtinės vertės mokesčio (PVM) išrašo, skirto kai kurioms Europos šalims, nustatymą ir generavimą.
+description: Šiame straipsnyje pateikiama bendra informacija apie pridėtinės vertės mokesčio (PVM) išrašo kai kurioms Europos šalims nustatymą ir generavimo.
 author: ShylaThompson
 ms.date: 03/24/2022
 ms.topic: article
@@ -14,20 +14,20 @@ ms.search.region: Austria, Belgium, Czech Republic, Estonia, Finland, Germany, L
 ms.author: kfend
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a1f7611dcf713e80f637a4b3f5542763050ac4a6
-ms.sourcegitcommit: 6f6ec4f4ff595bf81f0b8b83f66442d5456efa87
+ms.openlocfilehash: e25b01133bfaa84186faf82c80f24a119b40ac2e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "8487754"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856542"
 ---
 # <a name="vat-reporting-for-europe"></a>PVM ataskaitos Europoje
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje pateikiama bendra informacija apie pridėtinės vertės mokesčio (PVM) išrašo, skirto kai kurioms Europos šalims, nustatymą ir generavimą.
+Šiame straipsnyje pateikiama bendra informacija apie pridėtinės vertės mokesčio (PVM) išrašo kai kurioms Europos šalims nustatymą ir generavimo.
 
-Šioje temoje pateikiamas bendras PVM išrašo nustatymo ir generavimo metodas. Šį metodą gali bendrai naudoti vartotojai, kurių juridiniai subjektai yra toliau nurodytose šalyse / regionuose.
+Šiame straipsnyje pateikiamas bendras PVM išrašo nustatymo ir generavimo būdas. Šį metodą gali bendrai naudoti vartotojai, kurių juridiniai subjektai yra toliau nurodytose šalyse / regionuose.
 
 -   Austrija
 -   Belgija
@@ -41,7 +41,7 @@ ms.locfileid: "8487754"
 -   Švedija
 
 > [!IMPORTANT]
-> Priemonės, aprašytos šioje temoje Austrijai, Čekijos Respublikai, Vokietijai, Nyderlandams ir Švedijai, yra pasenusios. Daugiau informacijos rasite Pašalintos [ir pasenusios funkcijos](../get-started/removed-deprecated-features-finance.md).
+> Šiame straipsnyje aprašomos Priemonės, skirti Austrijai, Čekijos Respublikai, Vokietijai, Nyderlandaii ir Švedijai, yra pasenusios. Daugiau informacijos rasite Pašalintos [ir pasenusios funkcijos](../get-started/removed-deprecated-features-finance.md).
 > Norėdami daugiau sužinoti apie naują PVM deklaracijų dizainą atitinkamose šalyse, naudokite šioje lentelėje pateikiamus saitus.
 > 
 >
@@ -60,7 +60,7 @@ ms.locfileid: "8487754"
 > | JK             | [Pasirengimas integruoti į MRD PVM](emea-gbr-mtd-vat-integration.md) |
 
 ## <a name="vat-statement-overview"></a>PVM išrašo apžvalga
-PVM išrašas pagrįstas PVM operacijų sumomis. PVM išrašo generavimo procesas yra PVM apmokėjimo proceso, kuris vykdomas naudojant funkciją Sudengti ir užregistruoti PVM, dalis. Ši funkcija apskaičiuoja nurodyto laikotarpio PVM. Sudengimo skaičiavimas apima mokesčio operacijos pasirinkto sudengimo laikotarpio užregistruotą PVM. PVM išrašo duomenų skaičiavimo procesas pagrįstas ryšiu tarp PVM kodų ir PVM ataskaitų kodų, kai PVM ataskaitų kodai atitinka PVM išrašų langelius (arba XML žymes). Reikia nustatyti kiekvieno PVM kodo kiekvieno operacijos tipo PVM ataskaitų kodus, pvz., kaip apmokestinamą pardavimą, apmokestinamus pirkimus, apmokestinamą importą. Šio tipo operacijos aprašytos tolesniame šios temos skyriuje PVM ataskaitų PVM kodai.
+PVM išrašas pagrįstas PVM operacijų sumomis. PVM išrašo generavimo procesas yra PVM apmokėjimo proceso, kuris vykdomas naudojant funkciją Sudengti ir užregistruoti PVM, dalis. Ši funkcija apskaičiuoja nurodyto laikotarpio PVM. Sudengimo skaičiavimas apima mokesčio operacijos pasirinkto sudengimo laikotarpio užregistruotą PVM. PVM išrašo duomenų skaičiavimo procesas pagrįstas ryšiu tarp PVM kodų ir PVM ataskaitų kodų, kai PVM ataskaitų kodai atitinka PVM išrašų langelius (arba XML žymes). Reikia nustatyti kiekvieno PVM kodo kiekvieno operacijos tipo PVM ataskaitų kodus, pvz., kaip apmokestinamą pardavimą, apmokestinamus pirkimus, apmokestinamą importą. Šių tipų operacijos aprašomos PVM kodų skyriuje, skirtame PVM ataskaitoms, vėliau šiame straipsnyje.
 
 Reikia nustatyti kiekvieno PVM ataskaitų kodo konkretų ataskaitos maketą. Tuo pat metu PVM kodai yra susiejami su konkrečiu PVM rinkėju per PVM sudengimo laikotarpius. Reikia nustatyti kiekvieno PVM rinkėjo ataskaitos maketą. Todėl PVM kodo ataskaitos sąrankoje galima pasirinkti tik PVM ataskaitų kodus su tuo pačiu ataskaitos maketu, kuris nustatytas ir priskirtas PVM rinkėjui PVM kodo PVM sudengimo laikotarpiuose. PVM operacija, sugeneruota užregistravus užsakymą arba žurnalą, apima PVM kodą, PVM šaltinį, PVM kryptį ir operacijos sumas (mokesčio bazinę sumą ir mokesčio sumą apskaitos valiuta, PVM valiuta ir operacijos valiuta). Atsižvelgiant į mokesčio operacijos atributų derinį, operacijos sumos sudaro bendras PVM kodų nurodytų PVM ataskaitų kodų sumas. Tolesnėje iliustracijoje pavaizduotas duomenų ryšys.
 

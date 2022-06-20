@@ -1,6 +1,6 @@
 ---
 title: Vartotojų vaidmenų tvarkymas „Microsoft Teams” platformoje
-description: Šioje temoje aprašoma, kaip tvarkyti „Microsoft Dynamics 365 Commerce” vartotojų vaidmenis „Microsoft Teams” platformoje.
+description: Šiame straipsnyje aprašoma, kaip valdyti Microsoft Dynamics 365 Commerce vartotojų vaidmenis Microsoft Teams.
 author: gvrmohanreddy
 ms.date: 03/31/2021
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-01-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 3bde573456856b6457740587b7e921408285a762
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 478bdc762bbc808b031b3ec160126deb4627b6e8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8693340"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881276"
 ---
 # <a name="manage-user-roles-in-microsoft-teams"></a>Vartotojų vaidmenų tvarkymas „Microsoft Teams” platformoje
 
 [!include [banner](includes/banner.md)]
 
-Šioje temoje aprašoma, kaip tvarkyti „Microsoft Dynamics 365 Commerce” vartotojų vaidmenis „Microsoft Teams” platformoje.
+Šiame straipsnyje aprašoma, kaip valdyti Microsoft Dynamics 365 Commerce vartotojų vaidmenis Microsoft Teams.
 
 Kai kuriate komandą kiekvienai parduotuvei ar kanalui „Teams” platformoje, sukuriama tą komandą atitinkanti grupės narystė (pavyzdžiui, `HOUSTON_D365@<YourTenantAzureADDomain>.com`). Visiems komandos grupės narystei priklausantiems parduotuvės darbuotojams priskiriamas vienas iš dviejų vartotojo vaidmenų: **Savininkas** arba **Narys**. Parduotuvės darbuotojai, turintys **Savininko** vartotojo vaidmenį, gali atlikti tokias operacijas, kaip įtraukti privatų kanalą, pridėti ar panaikinti narius. Paprastai **Savininko** vartotojo vaidmenį turi parduotuvių vadovai.
 

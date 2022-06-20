@@ -1,6 +1,6 @@
 ---
 title: Geriausia kvitų importavimo praktika naudojant bendrojo žurnalo objektą
-description: Šioje temoje pateikiama patarimų, kaip į bendrąjį žurnalą importuoti duomenų naudojant objektą Bendrasis žurnalas.
+description: Šiame straipsnyje pateikiama patarimų, kaip į bendrąjį žurnalą importuoti duomenų naudojant objektą Bendrasis žurnalas.
 author: rcarlson
 ms.date: 04/20/2020
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 42bc804393d050e5ff722c46c9ce50ece54c5a0b
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 056bb860e3133bb8389410e29d20f32447799399
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065075"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8867617"
 ---
 # <a name="importing-vouchers-by-using-the-general-journal-entity"></a>Geriausia kvitų importavimo praktika naudojant bendrojo žurnalo objektą
 
@@ -28,7 +28,7 @@ ms.locfileid: "8065075"
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-Šioje temoje pateikiama patarimų, kaip į bendrąjį žurnalą importuoti duomenų naudojant objektą Bendrasis žurnalas.
+Šiame straipsnyje pateikiama patarimų, kaip į bendrąjį žurnalą importuoti duomenų naudojant objektą Bendrasis žurnalas.
 
 Naudodami objektą Bendrasis žurnalas galite importuoti kvitus, kurių sąskaitos ar korespondentinės sąskaitos tipas yra **Didžioji knyga**, **Klientas**, **Tiekėjas** arba **Bankas**. Kvito duomenis galima įvesti vienoje eilutėje naudojant laukus **Sąskaita** ir **Korespondentinė sąskaita** arba keliose eilutėse, kuriose naudojamas tik laukas **Sąskaita**, o kiekvienoje eilutėje laukas **Korespondentinė sąskaita** paliekamas tuščias. Objekte Bendrasis žurnalas nepalaikomi visi sąskaitos tipai. Jeigu reikalingi skirtingi sąskaitų tipų deriniai, geriau naudoti kitus objektus. Pavyzdžiui, naudokite objektą Projekto išlaidų žurnalas projekto operacijai importuoti. Kiekvienas objektas sukurtas tam, kad palaikytų tam tikrus scenarijus. Tai reiškia, kad tų scenarijų objektuose gali būti papildomų laukų. Tačiau skirtingų scenarijų objektuose papildomų laukų gali nebūti.
 

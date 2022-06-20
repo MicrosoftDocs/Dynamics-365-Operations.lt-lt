@@ -1,6 +1,6 @@
 ---
 title: Darbas su vietos nurodymais
-description: Ši tema aprašo, kaip dirbti su vietos nurodymais. Vietos nurodymai yra vartotojui draugiškos taisyklės padedančios identifikuoti paėmimo ir padėjimo vietas inventoriaus judėjime.
+description: Šiame straipsnyje aprašoma, kaip dirbti su vietos nurodymais. Vietos nurodymai yra vartotojui draugiškos taisyklės padedančios identifikuoti paėmimo ir padėjimo vietas inventoriaus judėjime.
 author: Mirzaab
 ms.date: 11/13/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-11-13
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 84ff0a466c037db05aecaff14aa2e17990ce8799
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 7705ea132521353cd6af7245df90aafaf23af885
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103143"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903701"
 ---
 # <a name="work-with-location-directives"></a>Darbas su vietos nurodymais
 
@@ -27,7 +27,7 @@ ms.locfileid: "8103143"
 Vietos nurodymai yra taisyklės, kurios padeda identifikuoti atsargų judėjimo paėmimo ir padėjimo vietas. Pvz., pardavimo užsakymo operacijoje vietos nurodymas nustato, kur prekės bus paimtos ir kur bus padėtos. Vietos nurodymus sudaro antraštė ir susietos eilutės. Jos sukuriamos konkretiems *darbo užsakymo tipams*.
 
 > [!NOTE]
-> Ši tema taikoma **Sandėlio valdymo** modulio funkcijoms. Ji netaikoma funkcijoms [Atsargų valdymo](../inventory/inventory-home-page.md) moduliui.
+> Šis straipsnis taikomas sandėlio valdymo **modulio funkcijoms**. Ji netaikoma funkcijoms [Atsargų valdymo](../inventory/inventory-home-page.md) moduliui.
 
 Galite naudoti vietos nurodymus tam, kad atliktumėte šias užduotis:
 
@@ -109,7 +109,7 @@ Tolesnėje lentelėje pateikti laukeliai konkretūs konkretiems darbo užsakymo 
 
 Norėdami atverti **Vietos nurodymų** puslapį eikite į **Sandėlio valdymas \> Nustatymai \> Vietos nurodymai**.
 
-Iš ten galite peržiūrėti, kurti ar redaguoti savo vietos kryptis naudodami komandas veiksmų juostoje. Žr. tolesnius šios temos skyrius dėl informacijos, kaip naudoti visus laukelius prieinamus puslapyje.
+Iš ten galite peržiūrėti, kurti ar redaguoti savo vietos kryptis naudodami komandas veiksmų juostoje. Informacijos apie tai, kaip naudoti visus puslapyje esančius laukus, rasite likusiuose šio straipsnio skyriuose.
 
 ## <a name="action-pane"></a>Veiksmų sritis
 
@@ -162,7 +162,7 @@ Laukeliai **Vietos direktyvų** „FastTab“ yra konkretūs siekiant dirbti su 
 - **Taikomo talpinimo kodas** – Nurodykite, ar vietos talpinimo kodas direktyvos turi atitikti su talpinimo kodu taikomu, kai prekė gaunama ar vietos direktyvą galima pasirinkti pagal bet kurį talpinimo kodą. Jei renkatės *Tiksli atitiktis* ir **Talpinimo kodas** laukelis yra tuščias, tik tuščias talpinimo kodas bus laikomas šiai vietos direktyvai.
 
     > [!NOTE]
-    > Šis laukelis prieinamas tik pasirinktiems darbo užsakymo tipams, kai papildymas leidžiamas. Dėl viso sąrašo, žr. [Laukeliai, kurie yra konkretūs darbo užsakymo tipams](#fields-specific-types) skyriuje anksčiau šioje temoje.
+    > Šis laukelis prieinamas tik pasirinktiems darbo užsakymo tipams, kai papildymas leidžiamas. Norėdami gauti visą sąrašą, žr. anksčiau [šiame straipsnyje skyrių Laukai, kurie](#fields-specific-types) yra specifiniai darbo užsakymų tipams.
 
 - **Nustatyta** – Nurodykite, ar atidėjimo kiekis turi būti visas kiekis licencijos ženkle ar jis turi būti pagal prekę. Naudokite šį laukelį, kad padėtumėte užtikrinti, jog visi turiniai licencijos ženkle padedami į vieną vietą ir kad sistema nesiūlo jums atskirti turinių į keletą vietų **ASN** (licencijos numerio gavimas), **Maišytas licencijos numeris** gaunamas ir **Klasterio** gavimo procesai. (Gavimo procesas **Klasterio** reikalauja, kad [Klasterio atidėjimo funkcija](putaway-clusters.md) būtų įjungta.) Toks vietos direktyvos eilės elgesys, eilučių ir vietos direktyvos veiksmai skirsis priklausomai nuo jūsų pasirinktos vertės. „FastTab“ **Eilutės** naudojamos tik, kai **Nustatyta** nustatyta į *Prekė*.
 
@@ -254,7 +254,7 @@ Kai sukūrėte vietos nurodymus, galite susieti visus nurodymo kodus su darbo š
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 - Vaizdo įrašas: [Sandėlio valdymo konfigūravimo gili analizė](https://community.dynamics.com/365/b/techtalks/posts/warehouse-management-configuration-deep-dive-october-14-2020)
-- Pagalbos tema: [Valdyti sandėlio darbą naudojant darbo šablonus ir vietos nurodymus](control-warehouse-location-directives.md)
+- Žinyno straipsnis: [Valdyti sandėlio darbą naudojant darbo šablonus ir vietos nurodymus](control-warehouse-location-directives.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

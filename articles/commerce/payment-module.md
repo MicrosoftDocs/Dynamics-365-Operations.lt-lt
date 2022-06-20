@@ -1,6 +1,6 @@
 ---
 title: Mokėjimo modulis
-description: Ši tema paaiškina mokėjimo modulį ir tai, kaip jį sukonfigūruoti „Microsoft Dynamics 365 Commerce“.
+description: Šiame straipsnyje aprašomas mokėjimo modulis ir paaiškinama, kaip jį konfigūruoti Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 04/12/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: ba95386143ca830aeb1b50b31b4bbd2b54f53a40
-ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
+ms.openlocfilehash: a89ca5dd4f46611e75faccd3213028750fa48d35
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "8565734"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850280"
 ---
 # <a name="payment-module"></a>Mokėjimo modulis
 
 [!include [banner](includes/banner.md)]
 
-Ši tema paaiškina mokėjimo modulį ir tai, kaip jį sukonfigūruoti „Microsoft Dynamics 365 Commerce“.
+Šiame straipsnyje aprašomas mokėjimo modulis ir paaiškinama, kaip jį konfigūruoti Microsoft Dynamics 365 Commerce.
 
 Mokėjimo modulis leidžia klientui sumokėti už užsakymus naudojant kredito ar debeto korteles. Mokėjimo papildymas šiam moduliui yra pateiktas „Dynamics 365 Payment Connector“ „Adyen“. Dėl išsamesnės informacijos, kaip nustatyti ir konfigūruoti mokėjimo jungtį, žr. [„Dynamics 365 Payment Connector“ „Adyen“](dev-itpro/adyen-connector.md).  
 

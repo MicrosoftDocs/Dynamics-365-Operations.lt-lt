@@ -1,6 +1,6 @@
 ---
 title: „Power BI“ turinys Išmokos
-description: Šioje temoje aprašomas „Power BI“ turinys Išmokos.
+description: Šiame straipsnyje aprašomas išmokų Power BI turinys.
 author: jcart1106
 ms.date: 12/19/2017
 ms.topic: article
@@ -13,23 +13,23 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 0e7cadc16c5ed6c6eab8c90090cac017221f63f466115b04a6a3b843db44b1c7
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c78755946c7f07e1be7a57015e6c0c15317e6b76
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6733176"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8848815"
 ---
 # <a name="benefits-power-bi-content"></a>„Power BI“ turinys Išmokos
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje aprašomas **naudos** „Microsoft Power BI“ turinys. Joje paaiškinama, kaip pasiekti į turinį įtrauktas ataskaitas, ir pateikiama informacija apie duomenų modelį ir objektus, naudotus turiniui kurti.
+Šiame straipsnyje aprašomas **išmokų** Microsoft Power BI turinys. Joje paaiškinama, kaip pasiekti į turinį įtrauktas ataskaitas, ir pateikiama informacija apie duomenų modelį ir objektus, naudotus turiniui kurti.
 
 ## <a name="accessing-the-power-bi-content"></a>Prieiga prie „Power BI“ turinio
 „Power BI“ turinys **Išmokos** rodomas darbo srityje **Išmokų valdymas**, jei naudojate vieną iš toliau nurodytų produktų.
 
-- „Microsoft Dynamics 365 Finance“
+- Microsoft Dynamics 365 finansai
 - „Microsoft Dynamics 365 Human Resources“
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>Į „Power BI“ turinį įtrauktos ataskaitos

@@ -1,6 +1,6 @@
 ---
 title: Darbo užsakymų kūrimas
-description: Šioje temoje aiškinama, kaip sukurti darbo užsakymus turto valdyme.
+description: Šiame straipsnyje paaiškinama, kaip kurti darbo užsakymus turto valdymo dalyje.
 author: johanhoffmann
 ms.date: 02/01/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: c1477e3c1b99172d84d2cdc64fc0ed01c057e0fa59422b30c17868ca400de4d0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b1b8b3d8d83bdad2efe49bd4e878793cca6c49f4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6743703"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8891211"
 ---
 # <a name="creating-work-orders"></a>Darbo užsakymų kūrimas
 
@@ -60,7 +60,7 @@ Norėdami sukurti darbo užsakymus pagal jūsų priežiūros grafiką, atlikite 
 
 ## <a name="group-work-order-lines-that-are-automatically-created-while-a-maintenance-plan-runs"></a>Darbo užsakymo eilučių, sukuriamų automatiškai priežiūros plano vykdymo metu, grupavimas
 
-Ši funkcija leidžia jums nustatyti darbo užsakymo eilučių grupavimo pagal vieną darbo užsakymą taisykles, kai sistema yra nustatyta generuoti darbo užsakymus automatiškai, atsižvelgiant į priežiūros planą. Anksčiau automatiškai sugeneruotuose darbo užsakymuose galėjo būti tik viena eilutė. Tačiau dabar galite grupuoti darbo užsakymus pagal, pavyzdžiui, turtą, turto tipą ar funkcinę vietą. (Rankiniu būdu sugeneruotus darbo užsakymus tokiu būdų jau buvo galima grupuoti, kaip aprašyta ankstesniame šios temos skyriuje.)
+Ši funkcija leidžia jums nustatyti darbo užsakymo eilučių grupavimo pagal vieną darbo užsakymą taisykles, kai sistema yra nustatyta generuoti darbo užsakymus automatiškai, atsižvelgiant į priežiūros planą. Anksčiau automatiškai sugeneruotuose darbo užsakymuose galėjo būti tik viena eilutė. Tačiau dabar galite grupuoti darbo užsakymus pagal, pavyzdžiui, turtą, turto tipą ar funkcinę vietą. (Tokiu būdu galima grupuoti rankiniu būdu sugeneruotus darbo užsakymus, kaip aprašyta ankstesniame šio straipsnio skyriuje.)
 
 ### <a name="enable-grouping-for-automatically-generated-work-orders"></a>Automatiškai sugeneruotų darbo užsakymų grupavimo įgalinimas
 

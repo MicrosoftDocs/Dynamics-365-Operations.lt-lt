@@ -1,6 +1,6 @@
 ---
 title: DK sudengimai
-description: Šioje temoje paaiškinama, kaip, naudojantis DK sudengimų puslapiu, sudengti DK operacijas ir atšaukti sudengimus.
+description: Šiame straipsnyje paaiškinama, kaip naudoti DK sudengimų puslapį DK operacijoms sudengti ir sudengti atvirkštinei tvarkai atlikti.
 author: kweekley
 ms.date: 01/31/2022
 ms.topic: article
@@ -13,82 +13,82 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-11-30
 ms.dyn365.ops.version: 8.1.1
-ms.openlocfilehash: e98b012210338e7f18cb874eefbc8a023aa4428b
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: 39fd6c6677565a4b1e9a9bf6f43a4c630cb5e07b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8075329"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8902493"
 ---
 # <a name="ledger-settlements"></a>DK sudengimai
 
 [!include [banner](../includes/banner.md)]
 
-Didžiosios knygos atsiskaitymas – tai debeto ir kredito operacijų derinimo procesas didžiojoje knygoje. Debeto ir kredito sumų apmokėjimas naudojamas DK sąskaitos likučiui suderinti su išsamiomis tą likutį sudarančiomis operacijomis.
+DK sudengimas yra debeto ir kredito operacijų gretinimo DK procesas. Debeto ir kredito sumų sudengimas naudojamas dk sąskaitos balansui suderinti su išsamiomis tą balansą sudaromomis operacijomis.
 
-Apmokėtos operacijos gali būti neįtrauktos į užklausas ir ataskaitas. Tokiu būdu lengviau analizuoti atidarytas didžiosios knygos operacijas, kurios sudaro didžiosios knygos sąskaitos likutį.
+Sudengtos operacijos gali būti neįtrauktos į užklausas ir ataskaitas. Tokiu būdu yra lengviau analizuoti atviras DK operacijas, kurios sudaro DK sąskaitos balansą.
 
 > [!IMPORTANT] 
-> Moduliai mokėtinos sumos (AP) ir gautinos sumos (AR) taip pat turi sąskaitų faktūrų apmokėjimą ir mokėjimus. Kai atsiskaitoma AR ir AP antrinėse knygose, atitinkami knygos įrašai nėra automatiškai apmokami.
+> Taip pat moduliuose Mokėtinos sumos (AP) ir gautinos sumos (AR) yra SF ir mokėjimų sudengimas. Kai sudengimas vyksta AR ir AP papildomose knygose, atitinkami DK įrašai nėra sudengti automatiškai.
 
-## <a name="ledger-settlement-features"></a>Didžiosios knygos atsiskaitymo ypatumai
-„Microsoft“.Dynamics 365 Finance versija 10.0.21, **Įgalinti išplėstinį DK atsiskaitymą** parinktis buvo pašalinta iš **Didžiosios knygos parametrai** puslapį. Išplėstinis DK atsiskaitymas dabar visada įjungtas.
-„Finance“ 10.0.25 versijoje **Supratimas tarp atsiskaitymo knygoje ir uždarymo metų pabaigoje** buvo pristatyta funkcija. Ši funkcija pakeičia pagrindines ir Didžiosios knygos atsiskaitymo, ir Didžiosios knygos metų pabaigos uždarymo funkcijas. Prieš įjungdami šią funkciją **Funkcijų valdymas** darbo vieta, žr.[Supratimas tarp atsiskaitymo knygoje ir uždarymo metų pabaigoje](awareness-between-ledger-settlement-year-end-close.md).
+## <a name="ledger-settlement-features"></a>DK sudengimo priemonės
+Microsoft Dynamics 365 finansų versijoje 10.0.21 **iš** **DK parametrų puslapio buvo pašalinta parinktis Įgalinti išplėstinį DK sudengimą.** Išplėstinis DK sudengimas visada įgalintas.
+Finansų versijoje 10.0.25 buvo **pristatyta DK sudengimo ir uždarymo metų** pabaigos priemonės supratimo priemonė. Ši priemonė pakeičia pagrindines DK sudengimo ir DK metų pabaigos uždarymo funkcijas. Prieš įgalindami šią funkciją funkcijų valdymo darbo **srityje**, žr. Supratimas [tarp DK sudengimo ir uždarymo metų pabaigoje](awareness-between-ledger-settlement-year-end-close.md).
 
-## <a name="set-up-ledger-settlement"></a>Nustatyti DK atsiskaitymą
-Turite pasirinkti pagrindines sąskaitas, už kurias norite atlikti atsiskaitymą. Yra du būdai, kaip pasirinkti šias pagrindines paskyras.
+## <a name="set-up-ledger-settlement"></a>NUSTATYTI DK sudengimą
+Turite pasirinkti pagrindines sąskaitas, kurių DK sudengimą norite atlikti. Šias pagrindines sąskaitas galima pasirinkti dviem būdais.
 
-1. Eiti į **Didžioji knyga** > **Didžiosios knygos nustatymas** > **Didžiosios knygos parametrai**.
-2. Ant **Didžiosios knygos atsiskaitymai** skirtuke pasirinkite sąskaitų planus, iš kurių norite pasirinkti pagrindines sąskaitas.
-3. Pasirinkite pagrindines sąskaitas, už kurias atsiskaitysite knygoje. Kadangi sąskaitų planai yra globalūs, visos įmonės, kurioms priskirti pasirinkti sąskaitų planai, turės tas pačias pagrindines sąskaitas, kurios bus parinktos atsiskaitymui knygoje.
+1. Eikite **į DK** > **nustatymo** > **DK parametrus**.
+2. Skirtuke **DK sudengimų** pasirinkite sąskaitų planą, iš kurio norite pasirinkti pagrindines sąskaitas.
+3. Pasirinkite pagrindines sąskaitas, kurių DK sudengimą norite atlikti. Kadangi sąskaitų plano duomenys yra visuotiniai, visos įmonės, kurioms priskirti pasirinkti sąskaitų planą, turės tas pačias pagrindines sąskaitas, pasirinktas DK sudengti.
 
   Arba
 
-1. Eiti į **Didžioji knyga** > **Periodinės užduotys** > **Didžiosios knygos atsiskaitymai**.
-2. Pasirinkite **Didžiosios knygos atsiskaitymo sąskaitos**.
-3. Dialogo lange pasirinkite sąskaitų planus ir pagrindines sąskaitas, už kurias atsiskaitysite knygoje. Šis dialogo langas yra nuoroda. Visos pagrindinės paskyros, kurias čia pridėsite, taip pat atsispindės **Didžiosios knygos parametrai** puslapį.
+1. Eiti į DK **periodinių** > **užduočių DK** > **sudengimą**.
+2. Pasirinkti **DK sudengimo sąskaitas**.
+3. Dialogo lange pasirinkite sąskaitų diagramas ir pagrindines sąskaitas, kurių DK sudengimą norite atlikti. Šis dialogo langas yra nuoroda. Visos čia pridėtos pagrindinės sąskaitos taip pat bus parodytos DK **parametrų** puslapyje.
 
-Galite naudoti tas pačias pagrindines procedūras, kad bet kuriuo metu pašalintumėte pagrindines sąskaitas iš atsiskaitymo iš knygos. Pagrindinės sąskaitos pašalinimas neturi įtakos ankstesniems knygos atsiskaitymams. Tačiau pagrindinė sąskaita ir operacijos nebebus rodomos **Didžiosios knygos atsiskaitymas** puslapį.
+Norėdami bet kada pašalinti pagrindines sąskaitas iš DK sudengimo, galite naudoti tas pačias pagrindines procedūras. Pagrindinės sąskaitos pašalinimas neturi įtakos ankstesniams DK sudengimų mainams. Tačiau pagrindinė sąskaita ir operacijos daugiau nebus rodomos DK sudengimo **puslapyje**.
 
 ## <a name="settle-transactions"></a><a name="settle-transactions"></a>Sudengti operacijas
 Norėdami sudengti DK operacijas, atlikite toliau nurodytus veiksmus.
 
-1. Eiti į **Didžioji knyga** > **Periodinės užduotys** > **Didžiosios knygos atsiskaitymai**.
+1. Eiti į DK **periodinių** > **užduočių DK** > **sudengimą**.
 2. Nustatyti puslapio viršuje esančius filtrus:
 
-    - Pasirinkite datos diapazoną. Arba pasirinkite datos intervalo kodą, kad automatiškai užpildytumėte dienų seką. Nerekomenduojame atlikti atsiskaitymų knygoje už operacijas, kurios apima fiskalinius metus.
-    - Jei reikia, pakeiskite paskelbimo sluoksnį. Negalite apmokėti operacijų, kurios yra skirtinguose registravimo sluoksniuose.
-    - Norėdami atskirai rodyti pagrindinę sąskaitą ir dimensijas, pasirinkite finansinių dimensijų rinkinį.
+    - Pasirinkite datos diapazoną. Arba galite pasirinkti datos intervalo kodą, kad datų diapazonas būtų automatiškai užpildomas. Mes nerekomenduojame atlikti DK sudengimo operacijoms, kurios per keletą finansinių metų.
+    - Jei reikia, pakeiskite registravimo sluoksnį. Negalima sudengti operacijų, kurios yra skirtinguose registravimo sluoksniuose.
+    - Norėdami pagrindinę sąskaitą ir dimensijas rodyti atskirai, pasirinkite finansinių dimensijų rinkinį.
 
 3. Pasirinkite **Rodyti operacijas**, kad būtų rodomos visos jūsų nustatytus filtrus atitinkančios operacijos ir nustatant ankstesniame skyriuje pateiktą sąskaitų plano sąrašą nurodytų sąskaitų sąrašas.
 
     - Pakeitus bet kurį filtrą arba dimensijų rinkinius, būtina dar kartą pasirinkti **Rodyti operacijas**.
-    - Norėdami filtruoti operacijas į atskirą pagrindinę sąskaitą, naudokite filtrą **Didžiosios knygos sąskaita** lauke. Nerekomenduojame atsiskaityti knygoje už operacijas, kurios registruojamos į skirtingas pagrindines sąskaitas.
+    - Norėdami filtruoti operacijas atskiroje pagrindinėje sąskaitoje, naudokite dk sąskaitos **lauko** filtrą. Patariame atlikti DK sudengimų operacijų, kurios užregistruotos skirtingose pagrindinėse sąskaitose.
 
-4. Pasirinkite eilutes atsiskaitymui. Vertė **Pasirinkta suma** puslapio viršuje esantis laukas didėja arba mažėja, kad atspindėtų bendrą sumą pasirinktose eilutėse.
-5. Kai baigsite pasirinkti operacijas, pasirinkite **Pažymėti pasirinktą**. Kiekvienai pasirinktai operacijai rodoma varnelė **Pažymėtas** stulpelyje. Be to, vertė **Pažymėta suma** virš tinklelio esantis laukas didėja arba mažėja, kad atspindėtų bendrą sumą pažymėtose eilutėse.
-6. Kai reikšmė **Pažymėta suma** laukas yra **0** (nulis), pasirinkite **Atsiskaityti už pažymėtas operacijas**. Pažymėtų operacijų būsena atnaujinama į **Sudengta**.
+4. Pasirinkti eilutes sudengti. Puslapio viršuje esanti **lauko Pasirinkta** suma vertė didėja arba mažina, kad atspindėtų bendrą sumą pasirinktose eilutėse.
+5. Baigę pasirinkti operacijas, pasirinkite Žymėti **pasirinktą**. Kiekvienai pažymėtai operacijai stulpelyje Pažymėta rodoma **varnelė**. Be to, reikšmė lauke Pažymėta **suma virš** tinklelio didėja arba mažėja, kad atspindėtų bendrą sumą pažymėtose eilutėse.
+6. Kai pažymėto sumos lauko **vertė yra** **0 (nulis**), pasirinkite Sudengti **pažymėtas operacijas**. Pažymėtų operacijų būsena atnaujinama į **Sudengta**.
 
     > [!IMPORTANT]
-    > Visos operacijos, kurias pažymėjote kaip atsiskaityti už aktyvų juridinį asmenį, bus apmokėtos, net jei jos šiuo metu nerodomos Didžiosios knygos atsiskaitymo puslapyje, nes pritaikėte filtrą.
+    > Visos operacijos, kurias pažymėjote sudengti aktyviam juridiniam subjektui, bus sudengtos, net jei jos dabar nerodomas DK sudengimo puslapyje, nes pritaikėte filtrą.
 
 ## <a name="make-transactions-easier-to-find"></a>Lengvesnė operacijų paieška
-The **Didžiosios knygos atsiskaitymai** puslapyje yra galimybių, kurios palengvina atsiskaitymui reikalingų operacijų peržiūrą.
+DK **sudengimų** puslapyje yra galimybių, kurios padeda lengviau peržiūrėti operacijas, reikalingas sudengti.
 
-- Naudoti **Pažymėtas** filtras, kad filtruotumėte operacijas pagal tai, ar **Pažymėtas** jiems pažymėtas žymės langelis.
-- Naudoti **Būsena** filtrą, kad filtruotumėte operacijas pagal jų būseną.
-- Pasirinkite **Rūšiuoti pagal absoliučią sumą** rūšiuoti sumas pagal absoliučią vertę. Tokiu būdu galite sugrupuoti debetus ir kreditus, kurių suma yra tokia pati.
+- Naudokite pažymėtą **filtrą** operacijoms filtruoti, atsižvelgiant **į tai, ar** pažymėtas jų žymės langelis.
+- Naudokite būsenos **filtrą** operacijoms filtruoti pagal jų būseną.
+- Norėdami **surūšiuoti sumas pagal** absoliučią vertę, pasirinkite Rūšiuoti pagal absoliučią sumą. Tokiu būdu galite grupuoti debetus ir kreditus, kurių suma ta pati.
 
 ## <a name="reverse-a-settlement"></a>Sudengimo atšaukimas
 Galite atšaukti per klaida atliktą sudengimą.
 
-1. Atlikite 1–3 veiksmus [Atlikti sandorius](#settle-transactions) skyriuje, kad būtų rodomos jus dominančios operacijos.
+1. Norėdami parodyti jus dominaas operacijas, atlikite 1–3 [veiksmus](#settle-transactions), skyriuje Sudengti operacijas.
 2. Filtre **Būsena** pasirinkite **Sudengta**.
-3. Pasirinkite eilutes, kurias norite pakeisti.
-4. Pasirinkite **Atvirkščiai pažymėti sandoriai**. Visų operacijų, turinčių tą patį atsiskaitymo ID, būsena atnaujinama į **Neišspręstas**.
+3. Pasirinkti atšaukimo eilutes.
+4. Pasirinkti Atšaukti **pažymėtas operacijas**. Visų operacijų, kurių sudengimo ID toks pats, būsena atnaujinama į **Nesudengta**.
 
     > [!IMPORTANT]
-    > Visos operacijos, turinčios tą patį atsiskaitymo ID, bus anuliuotos, net jei jos nepažymėtos. Pavyzdžiui, buvo pažymėtos ir sutvarkytos keturios eilutės. Visos keturios eilutės turi tą patį atsiskaitymo ID. Jei pažymėsite vieną iš šių keturių eilučių ir pasirinksite **Atvirkščiai pažymėti sandoriai**, visos keturios eilutės bus apverstos.
+    > Visos operacijos, kurios turi tą patį sudengimo ID, bus atšauktos, net jei jos nepažymėtos. Pavyzdžiui, keturios eilutės pažymėtos ir sudengtos. Visos keturios eilutės turi tą patį sudengimo ID. Jei vieną iš tų keturių eilučių pažymėsite ir pasirinksite **Atšaukti pažymėtas operacijas**, visos keturios eilutės bus atšauktos.
 
 
 

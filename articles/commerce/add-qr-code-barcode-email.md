@@ -1,6 +1,6 @@
 ---
 title: QR kodo arba brūkšninio kodo pridėjimas prie operacijų ir kvitų el. laiškų
-description: Šioje temoje paaiškinama, kaip įterpti QR kodus ir brūkšninius kodus, užsakymų ID pateikiančius „Microsoft Dynamics 365 Commerce“ operacijų ir gavimo el. laiškuose.
+description: Šiame straipsnyje paaiškinama, kaip įterpti QR kodus ir brūkšninius kodus, reiškiaius užsakymo ID į operacijų ir kvitų el. laiškus Microsoft Dynamics 365 Commerce.
 author: bicyclingfool
 ms.date: 03/04/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2021-02-16
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: 5f7b349700a4b3b43f818b30bb479e630048e8b8
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: ffa0009c55b5322b209b19692952c2e0704f65c9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8688970"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872889"
 ---
 # <a name="add-a-qr-code-or-bar-code-to-transactional-and-receipt-emails"></a>QR kodo arba brūkšninio kodo pridėjimas prie operacijų ir kvitų el. laiškų
 
 [!include [banner](includes/banner.md)]
 
-Šioje temoje paaiškinama, kaip įterpti QR kodus ir brūkšninius kodus, užsakymų ID pateikiančius „Microsoft Dynamics 365 Commerce“ operacijų ir gavimo el. laiškuose.
+Šiame straipsnyje paaiškinama, kaip įterpti QR kodus ir brūkšninius kodus, reiškiaius užsakymo ID į operacijų ir kvitų el. laiškus Microsoft Dynamics 365 Commerce.
 
 QR kodus ir brūkšninius kodus galima lengvai įtraukti į operacijų el. laiškus, kad būtų lengviau paspartinti užsakymų peržvalgos procesą mažmeninės prekybos aplinkoje. Norėdami QR kodus ir brūkšninius kodus įterpti į el. laiškus, naudokite HTML **\<img\>** žymę, kuri reikalauja QR kodo arba brūkšninio kodo vaizdo iš generavimo ir atvaizdavimo paslaugos. „Microsoft“ šios paslaugos neteikia. Tačiau yra daug nemokamų ar nebrangių paslaugų, kurios gali aprūpinti QR kodus arba brūkšninius kodus, kurie dinamiškai generuojami pagal vertę, kuri perduodama užklausos eilutėje.
 

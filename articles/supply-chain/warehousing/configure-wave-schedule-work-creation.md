@@ -1,6 +1,6 @@
 ---
 title: Darbo grafiko kūrimas bangos metu
-description: Šioje temoje aprašoma, kaip nustatyti ir naudoti Darbo grafiko kūrimo bangos apdorojimo metodą.
+description: Šiame straipsnyje aprašoma, kaip nustatyti ir naudoti darbo planavimo darbo kūrimo bangos apdorojimo metodą.
 author: Mirzaab
 ms.date: 01/14/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-14
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: c955e7275c0bdc12dc206dde1d7e390f16270148
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 8b4505d66c37134bc8f672b38d195f4f677df9bc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8691137"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8852076"
 ---
 # <a name="schedule-work-creation-during-wave"></a>Darbo grafiko kūrimas bangos metu
 
@@ -30,7 +30,7 @@ Naudokite funkciją *Darbo grafiko kūrimas* kaip jūsų bangos apdorojimo proce
 
 ## <a name="turn-on-the-scheduled-work-creation-features-in-feature-management"></a>Suplanuoto darbo kūrimo funkcijų įjungimas funkcijų valdyme
 
-Norėdami naudoti šioje temoje aprašytas funkcijas, jos turi būti įjungtos jūsų sistemai. Naudokite darbo sritį [Funkcijų valdymas](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) įjungti šias funkcijas pateikta tvarka:
+Norint naudoti šiame straipsnyje aprašytas funkcijas, jos turi būti įjungti jūsų sistemai. Naudokite darbo sritį [Funkcijų valdymas](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) įjungti šias funkcijas pateikta tvarka:
 
 1. **Visos organizacijos darbo blokavimas** – Reikalingas tiek rankiniam, tiek automatiniam suplanuoto darbo kūrimo konfigūravimui. (Kaip ir tiekimo grandinės valdymo versija 10.0.21, ši funkcija yra privaloma, todėl ji įjungta pagal numatytuosius nustatymus ir jos negalima išjungti dar kartą.)
 1. **Suplanuoto darbo kūrimas** – Reikalingas tiek rankiniam, tiek automatiniam suplanuoto darbo kūrimo konfigūravimui.

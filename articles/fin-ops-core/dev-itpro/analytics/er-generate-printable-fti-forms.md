@@ -1,6 +1,6 @@
 ---
 title: Spausdintinų LFSF formų generavimas
-description: Šioje temoje paaiškinama, kaip naudoti elektroninių ataskaitų (ER) sistemą, norint spausdintinas laisvos formos SF (LFSF) sugeneruoti kaip „Microsoft Office“ dokumentus.
+description: Šiame straipsnyje paaiškinama, kaip naudoti elektroninių ataskaitų (ER) sistemą spausdintinos laisvos formos SF (FTI) formoms kaip dokumentams Microsoft Office generuoti.
 author: NickSelin
 ms.date: 07/24/2018
 ms.topic: article
@@ -14,25 +14,25 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: be5e3ef0f6ecb3d8f911b5be5f8bc9102d201fd299425e847a2df233d9b4edf4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d4efbb46bbba2b139bbcf9b07c480a7e8669fd7d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6758221"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868835"
 ---
 # <a name="generate-printable-fti-forms"></a>Spausdintinų LFSF formų generavimas
 
 [!include[banner](../includes/banner.md)]
 
-Elektroninių ataskaitų (ER) sistema leidžia spausdintinas laisvos formos SF (LFSF) sugeneruoti kaip „Microsoft Office“ dokumentus. Šioje temoje pateikiama informacija apie tai, kaip sukurti savo konfigūracijas, taip pat išsami informacija apie pasiekiamus konfigūracijos šablonus.
+Elektroninių ataskaitų (ER) sistema leidžia spausdintinas laisvos formos SF (LFSF) sugeneruoti kaip „Microsoft Office“ dokumentus. Šiame straipsnyje pateikiama informacija apie tai, kaip sukurti savo konfigūracijas ir išsamią informaciją apie galimų konfigūracijos šablonų informaciją.
 
 ## <a name="overview"></a>Apžvalga
 
 Dabar spausdintinas LFSF formas galite sugeneruoti ne tik naudodami „Microsoft SQL Server“ ataskaitų tarnybas (SSRS), bet ir ER sistemą. Spausdintinas LFSF formas galite tvarkyti programose „Microsoft Office Excel“ ir „Word“. Taip pat galite keisti maketą, duomenų srautą ir formatavimą, kad šie atitiktų tam tikrus reikalavimus neatliekant kodo keitimų.
 
 > [!NOTE]
-> Jei norite pradėti esamų šio pavyzdžio spausdintinų LFSF formų sprendimo ER konfigūracijų apžvalgą, galite eiti tiesiai į skyrių **Pavyzdinių ER konfigūracijų atsisiuntimas, norint sugeneruoti spausdintinas LFSF formas**, kuris pateikiamas toliau šioje temoje.
+> Jei norite pradėti nuo šio spausdintinos FTI formų sprendimo ER konfigūracijų peržiūros, **galite tiesiogiai skyriaus Atsisiųsti ER konfigūracijas, kad vėliau šiame straipsnyje sugeneruotumėte spausdintinas FTI** formas.
 
 ## <a name="create-customized-configurations-for-fti-printable-forms"></a>Spausdintinų LFSF formų tinkintų konfigūracijų kūrimas
 Taikydami tinkintą spausdintinų LFSF formų sprendimą, taip pat turite sukurti ER konfigūracijų rinkinį.
@@ -108,7 +108,7 @@ LFSF formas taip pat sugeneruoti galite LFSF registravimo metu, parinktį **Spau
 ER sistemoje šiuo metu palaikomos toliau nurodytos sugeneruotų dokumentų paskirties vietos.
 
 - **Atsisiųstas failas** – sugeneruotos formos siūlomos kaip atsisiuntimai, kuriuos galite įrašyti naudodami naršyklę.
-- **Ekranas** – sugeneruotoms laisvos formos sąskaitoms faktūroms „Excel“ formatu peržiūrėti naudojama programa „Microsoft Office 365 Excel“.
+- **Ekranas** – sugeneruotoms LFSF formoms „Excel“ formatu peržiūrėti naudojama programa „Microsoft 365 Excel“.
 - **„SharePoint“ aplankas** – sugeneruotos formos saugomos kaip nurodyta Dokumentų valdymo sistemos parametruose.
 - **Programos archyvas** – sugeneruotos formos saugomos kaip vykdymo žurnalo įrašų priedai „Microsoft Azure“ saugykloje.
 - **El. paštas** – sugeneruotos formos siunčiamos kaip el. laiškų priedai.

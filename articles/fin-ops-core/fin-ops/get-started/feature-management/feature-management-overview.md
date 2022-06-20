@@ -1,6 +1,6 @@
 ---
 title: Funkcijų valdymo apžvalga
-description: Šioje temoje aprašomas funkcijų valdymas ir kaip galite jį naudoti.
+description: Šiame straipsnyje aprašomas funkcijų valdymas ir nurodoma, kaip jį naudoti.
 author: Peakerbl
 ms.date: 01/10/2022
 ms.topic: overview
@@ -15,12 +15,12 @@ ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: c98bdbd64ee5488da20de3f5b23ae18ebce8c23f
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 0691bc34ac8b57d20cfbeb58b6a2e2a03a57d067
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8068014"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850066"
 ---
 # <a name="feature-management-overview"></a>Funkcijų valdymo apžvalga
 
@@ -41,7 +41,7 @@ Funkcijų sąraše pateikiama toliau nurodyta informacija.
 - **Įjungimo būsena** – simbolis nurodo, ar funkcija įjungta (varnelė), ar neįgalinta (tuščia), ar ji numatyta įjungti (laikrodis), ar yra privalomai įjungta (spyna). Čia rodomas parametras naudojamas visiems juridiniams subjektams. Atkreipkite dėmesį, kad net jei funkcija buvo įjungta, ją vis dar valdo sauga. Todėl funkcija bus prieinama tik tiems vartotojams, kurie turi prieigą prie jos, atsižvelgiant į jų saugos vaidmenį. Ji taip pat bus prieinama tik juridiniams subjektams, prie kurių vartotojas turi prieigą.
 - **Įjungimo data** – diena, kurią funkcija buvo įjungta arba yra suplanuota ją įjungti.
 - **Funkcija įtraukta** – data, kai funkcija buvo įdėta į jūsų aplinką. Ši data automatiškai įvedama, kai atnaujinate savo aplinką mėnesio išleidimo ciklais.
-- **Funkcijos būsena** – dabartinė funkcijos ciklo būsena: **Peržiūra**, **Paleista** (rodoma kaip tuščia), **Pagal numatytuosius**, ir **Privaloma**. Vėliau šioje temoje bus įtrauktos valstijos. 
+- **Funkcijos būsena** – dabartinė funkcijos ciklo būsena: **Peržiūra**, **Paleista** (rodoma kaip tuščia), **Pagal numatytuosius**, ir **Privaloma**. Vėliau šiame straipsnyje bus įtrauktos valstijos. 
 - **Modulis** – modulis, kurį paveikė nauja funkcija.
 
 > [!NOTE]
@@ -72,14 +72,14 @@ Produktų komandos gali nuspręsti iš pradžių pradėti naują priemonę kaip 
 
 ### <a name="on-by-default-features-optional"></a>Pagal numatytąsias priemones (pasirinktinai)
 
-Priemonės, kurios atnaujintos į Įjungta **pagal numatytuosius** nustatymus, yra įjungiamos pagal numatytuosius nustatymus, tačiau jas galima išjungti. Po to, kai funkcijos, kurias galima išjungti, **būsena** mažiausiai šešis mėnesius buvo paleista, tikimasi, kad jos pereis į šią būseną kitame stambiame leidime. Priemonės, kurios **pagal numatytuosius** nustatymus bus pereina prie [Kas nauja](../whats-new-changed.md) paleidimo temoje. Atnaujinimą inicijuoja produkto valdymo komanda.
+Priemonės, kurios atnaujintos į Įjungta **pagal numatytuosius** nustatymus, yra įjungiamos pagal numatytuosius nustatymus, tačiau jas galima išjungti. Po to, kai funkcijos, kurias galima išjungti, **būsena** mažiausiai šešis mėnesius buvo paleista, tikimasi, kad jos pereis į šią būseną kitame stambiame leidime. Priemonės, kurios pagal **numatytuosius** nustatymus bus pereina [prie "Kas naujo leidimo](../whats-new-changed.md) " straipsnyje. Atnaujinimą inicijuoja produkto valdymo komanda.
 
 > [!NOTE]
 > Šios priemonės bus įgalintos automatiškai, todėl svarbu nustatyti, ar jūsų organizacija parengta šioms funkcijoms naudoti ar daugiau laiko reikia. Jei reikia daugiau laiko, gali reikėti laikinai išjungti šias funkcijas. Atkreipkite dėmesį, kad **pagal numatytuosius nustatymus** priemonės perėjimas prie On paprastai atliekamas stambiojo paleidimo metu, prieš tai, kai priemonė tampa **Privaloma**. Tada neturėsite pasirinkties išjungti funkcijos. 
 
 ### <a name="mandatory"></a>Privalomas
 
-**Privaloma** yra numatoma galutinė funkcijų būsena. Tai nurodo, kad priemonės yra įjungtos ir kad negalite jų išjungti nenaudodami „Microsoft". Pasirinktines priemones tikimasi padaryti privalomomis po dviejų pagrindinių leidimų. Kritinės priemonės gali būti išimties tvarka įvestos kaip privalomos.
+**Privaloma** yra numatoma galutinė priemonių būsena. Tai nurodo, kad priemonės yra įjungtos ir kad negalite jų išjungti nenaudodami „Microsoft". Pasirinktines priemones tikimasi padaryti privalomomis po dviejų pagrindinių leidimų. Kritinės priemonės gali būti išimties tvarka įvestos kaip privalomos.
 
 ## <a name="example-of-expected-feature-lifecycles"></a>Numatytų funkcijų ciklo pavyzdys
 

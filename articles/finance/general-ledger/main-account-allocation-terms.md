@@ -1,6 +1,6 @@
 ---
 title: Paskirstymo sąlygos
-description: Šioje temoje pateikiama informacija apie priskyrtimo sąlygų pagrindinėje paskyroje naudojimą.
+description: Šiame straipsnyje pateikiama informacija apie paskirstymo sąlygų naudojimas pagrindinėje sąskaitoje.
 author: rachel-profitt
 ms.date: 06/15/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2020-06-15
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ab3f797505e2c3d7521d3af5c231f5985e6efaa5
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: d62c0cc79c9d61e0ebb1c2c62a345ad47412d0d2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734901"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859833"
 ---
 # <a name="allocation-terms"></a>Paskirstymo sąlygos
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje pateikiama informacija apie priskyrtimo sąlygų pagrindinėje paskyroje naudojimą. Skirstymo sąlygos yra naudojamas skirstyti sumas per daugelį buhalterijos paskyros derinių. Jie padeda užtikrinti, kad išlaidos ar įplaukos paskiriamos tinkamam apskaitos objektui.
+Šiame straipsnyje pateikiama informacija apie paskirstymo sąlygų naudojimas pagrindinėje sąskaitoje. Skirstymo sąlygos yra naudojamas skirstyti sumas per daugelį buhalterijos paskyros derinių. Jie padeda užtikrinti, kad išlaidos ar įplaukos paskiriamos tinkamam apskaitos objektui.
 
 Kiekvieno priskyrimo sąlygos, kurias sukuriate pagrindinėje paskyroje nustato kupono procentą, kuris bus priskirtas prie vieno šaltinio pagrindinės paskyros ir finansinių dimensijų derinio. Taip pat, jūs nustatote paskirties pagrindinę paskyrą ir finansines dimensijas, kuriose suma bus priskirta. 
 

@@ -1,6 +1,6 @@
 ---
 title: Pirkimo užsakymo su pristatymo grafiku kūrimas
-description: Šioje temoje aiškinama, kaip kurti pirkimo užsakymo pristatymo grafiką.
+description: Šiame straipsnyje parodyta, kaip sukurti pirkimo užsakymo pristatymo grafiką.
 author: GalynaFedorova
 ms.date: 08/01/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d1475115b5c1a475f9a56f0f3eb8bb47267d2b91
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: e13103f374be838a5ea0fb5e08c449b419905cab
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677456"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8875252"
 ---
 # <a name="create-a-purchase-order-with-a-delivery-schedule"></a>Pirkimo užsakymo su pristatymo grafiku kūrimas
 
 [!include [banner](../../includes/banner.md)]
 
-Šioje temoje aiškinama, kaip kurti pirkimo užsakymo pristatymo grafiką. Pristatymo grafikas naudojamas, kai užsakymo arba žurnalo kiekį pageidaujama pristatyti keliomis siuntomis. Šiame vedlyje pateikiamą pavyzdį galima naudoti demonstracinių duomenų įmonėje USMF. Paprastai šią procedūrą atlieka pirkimo agentas.
+Šiame straipsnyje parodyta, kaip sukurti pirkimo užsakymo pristatymo grafiką. Pristatymo grafikas naudojamas, kai užsakymo arba žurnalo kiekį pageidaujama pristatyti keliomis siuntomis. Šiame vedlyje pateikiamą pavyzdį galima naudoti demonstracinių duomenų įmonėje USMF. Paprastai šią procedūrą atlieka pirkimo agentas.
 
 ## <a name="create-a-delivery-schedule"></a>Pristatymo grafiko kūrimas
 1. Naršymo srityje eikite į **„Moduliai“ > „Įsigijimas ir šaltiniai“ > „Pirkimo užsakymai“ > „Visi pirkimo užsakymai“**.

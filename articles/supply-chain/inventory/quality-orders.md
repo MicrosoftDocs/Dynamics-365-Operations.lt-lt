@@ -1,6 +1,6 @@
 ---
 title: Kokybės užsakymai
-description: Šioje temoje aprašoma, kaip rankiniu būdu arba automatiškai kurti kokybės užsakymus, ir kaip su jais dirbti, norint atlikti tikrinimus ir įrašyti tikrinimo rezultatus programoje „Microsoft Dynamics 365 Supply Chain Management“.
+description: Šiame straipsnyje aprašoma, kaip rankiniu būdu arba automatiškai sukurti kokybės užsakymus, ir kaip su jais dirbti, norint atlikti tikrinimus ir įrašyti tikrinimo rezultatus programoje "Microsoft"Dynamics 365 Supply Chain Management.
 author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 69a4a61a599f1279ec7ad68ebb20c7b4b0f37005
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: eb7ab1de0fb4d93ed18f1862630c1af7af7f3095
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7571862"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857785"
 ---
 # <a name="quality-orders"></a>Kokybės užsakymai
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje aprašoma, kaip rankiniu būdu arba automatiškai kurti kokybės užsakymus, ir kaip su jais dirbti, norint atlikti tikrinimus ir įrašyti tikrinimo rezultatus programoje „Microsoft Dynamics 365 Supply Chain Management“.
+Šiame straipsnyje aprašoma, kaip rankiniu būdu arba automatiškai sukurti kokybės užsakymus, ir kaip su jais dirbti, norint atlikti tikrinimus ir įrašyti tikrinimo rezultatus programoje "Microsoft"Dynamics 365 Supply Chain Management.
 
 ## <a name="automatically-created-quality-orders"></a>Automatiškai kuriami kokybės užsakymai
 
@@ -39,7 +39,7 @@ Norėdami sukurti kokybės užsakymą rankiniu būdu, atlikite tolesnius veiksmu
 
 1. Eikite į **Atsargų valdymas \> Periodinės užduotys \> Kokybės valdymas \> Kokybės užsakymai**.
 1. Pasirinkite **Naujas**.
-1. Dialogo lange **Kokybės užsakymai** lauke, **Nuorodos tipas** lauke, pasirinkite atsargų nuorodą, su ja bus susijęs jūsų kokybės užsakymas. Galimų pasirinkti nuorodų tipų aprašymo ieškokite toliau šioje temoje skyriuje [Kokybės užsakymo](#ref-types) nuorodos tipai.
+1. Dialogo lange **Kokybės užsakymai** lauke, **Nuorodos tipas** lauke, pasirinkite atsargų nuorodą, su ja bus susijęs jūsų kokybės užsakymas. Nuorodų tipų, kuriuos galima pasirinkti, aprašą rasite toliau [šiame](#ref-types) straipsnyje skyriuje Kokybės užsakymo nuorodų tipai.
 
     > [!NOTE]
     > Turi būti atsargų, susijusių su pasirinkta nuoroda. Jei nėra galimų nuorodos tipo, kiekio ir atsargų dimensijų derinio atsargų, gausite klaidos pranešimą.
@@ -88,7 +88,7 @@ Kokybės užsakymo puslapį galite naudoti norėdami rankiniu būdu sukurti nauj
 
 ### <a name="from-the-quality-orders-page"></a>Iš kokybės užsakymų puslapio
 
-Tam, kad rankiniu būdu kurtumėte prekybos užsakymus ir peržiūrėtumėte visus esančius užsakymus eikite į **Atsargų valdymas \> Periodinės užduotys \> Kokybės valdymas \> Kokybės užsakymai**. Likusiuose šios temos skyriuose pateikiama daugiau informacijos apie tai, kaip dirbti su **Kokybės užsakymų** puslapiu.
+Tam, kad rankiniu būdu kurtumėte prekybos užsakymus ir peržiūrėtumėte visus esančius užsakymus eikite į **Atsargų valdymas \> Periodinės užduotys \> Kokybės valdymas \> Kokybės užsakymai**. Likusiuose šio straipsnio skyriuose pateikiama daugiau informacijos apie tai, kaip dirbti su kokybės **užsakymų** puslapiu.
 
 ### <a name="from-sales-orders"></a>Iš prekybos užsakymų
 

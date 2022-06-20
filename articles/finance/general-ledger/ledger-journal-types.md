@@ -1,6 +1,6 @@
 ---
-title: DK žurnalų tipai
-description: Šioje temoje aprašom žurnalų tipai, kuriuos galite nustatyti finansiniams žurnalams.
+title: Didžiosios knygos žurnalų tipai
+description: Šiame straipsnyje aprašyti žurnalų tipai, kuriuos galite nustatyti finansiniams žurnalams.
 author: kweekley
 ms.date: 10/10/2018
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3e49d101bbbe576e0fcf2e9b243f4f29124fbd85
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 883c54b84ed31384a28c31c8b814c75d340d020e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722275"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901319"
 ---
-# <a name="ledger-journal-types"></a>DK žurnalų tipai
+# <a name="ledger-journal-types"></a>Didžiosios knygos žurnalų tipai
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje aprašom žurnalų tipai, kuriuos galite nustatyti finansiniams žurnalams. Naudokite puslapį **Žurnalų** pavadinimai, norėdami nustatyti žurnalus, kuriuos galima naudoti visoje "Dynamics 365 Finance".
+Šiame straipsnyje aprašyti žurnalų tipai, kuriuos galite nustatyti finansiniams žurnalams. Naudokite puslapį **Žurnalų** pavadinimai, norėdami nustatyti žurnalus, kuriuos galima naudoti visoje "Dynamics 365 Finance".
 
 | Žurnalo tipas                      | Paskirtis                       | Operacijų įvedimas šiame puslapyje                                |
 |-----------------------------------|-------------------------------|----------------------------------------------------------------|

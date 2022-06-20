@@ -1,6 +1,6 @@
 ---
 title: Grąžinimų valdymo sandoriai
-description: Šiame skyriuje paaiškinta, kaip kurti grąžinimų valdymų sandorius. Sandoriai naudojami skirtingiems grąžinimų ir autorinių honorarų skaičiavimo metodams ir pagrindams kontroliuoti. Jie apima įtraukimo ir išimčių taisykles.
+description: Šiame straipsnyje aprašoma, kaip sukurti grąžinimo valdymo sandoriai. Sandoriai naudojami skirtingiems grąžinimų ir autorinių honorarų skaičiavimo metodams ir pagrindams kontroliuoti. Jie apima įtraukimo ir išimčių taisykles.
 author: sherry-zheng
 ms.date: 02/19/2021
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 76cdbf21cfbc0db7b363d0fbf60a1ecd0046efc1
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 28cfff69ab4e528c146ccbf6a34548a819c99522
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8689697"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8851600"
 ---
 # <a name="rebate-management-deals"></a>Grąžinimų valdymo sandoriai
 
 [!include [banner](../includes/banner.md)]
 
-Grąžinimų valdymo sandoriai naudojami skirtingiems grąžinimų ir autorinių honorarų skaičiavimo metodams ir pagrindams kontroliuoti. Jie apima įtraukimo ir išimčių taisykles. Yra trys grąžinimų valdymo sandorių tipai: klientų grąžinimai, kliento autoriniai honorarai ir tiekėjo grąžinimai. Visi trys tipai naudoja panašius parametrus. Šioje temoje nurodomi egzistuojantys skirtumai tarp jų.
+Grąžinimų valdymo sandoriai naudojami skirtingiems grąžinimų ir autorinių honorarų skaičiavimo metodams ir pagrindams kontroliuoti. Jie apima įtraukimo ir išimčių taisykles. Yra trys grąžinimų valdymo sandorių tipai: klientų grąžinimai, kliento autoriniai honorarai ir tiekėjo grąžinimai. Visi trys tipai naudoja panašius parametrus. Šiame straipsnyje minimi skirtumai, kuriuose jie yra.
 
 ## <a name="create-a-deal"></a>Sandorio kūrimas
 
@@ -118,7 +118,7 @@ Skirtukas **Bendra**, esantis „FastTab” **Grąžinimų valdymo informacija**
 
 | Laukas | Aprašas |
 |---|---|
-| Skaičiavimo metodas | Pasirinkite metodą, kurį reikia naudoti, kai pasirinkta sandorio eilutė derinama su kitomis sandorio eilutėmis (*Sustabdyta*, *Kaupiamoji*, *Sumavimas* arba *Iš viso*). Šio lauko reikšmė gali turėti didelės įtakos jūsų grąžinimo skaičiavimų rezultatams. Kiekvieno metodo pilną aprašymą ir pavyzdžius, rodančius, kaip tai veikia grąžinimo skaičiavimą, rasite tolesniame šios temos skyriuje [Sandorio eilučių skaičiavimo metodai](#calc-methods). |
+| Skaičiavimo metodas | Pasirinkite metodą, kurį reikia naudoti, kai pasirinkta sandorio eilutė derinama su kitomis sandorio eilutėmis (*Sustabdyta*, *Kaupiamoji*, *Sumavimas* arba *Iš viso*). Šio lauko reikšmė gali turėti didelės įtakos jūsų grąžinimo skaičiavimų rezultatams. Kiekvieno metodo ir pavyzdžių, kurie parodo, kaip jis veikia grąžinimo skaičiavimą, [ieškokite](#calc-methods) sandorio eilučių skyriaus skaičiavimo metodus toliau šiame straipsnyje. |
 | Pagrindas | Pasirinkite, ar grąžinimas taikomas pagal kiekį (tai yra, bendrą nupirktų arba parduotų vienetų skaičių), ar vertę (tai yra, bendrą nupirktų arba parduotų prekių kainą). |
 | Operacijos tipas | <p>Pasirinkti proceso atkarpą, kada turi įvykti skaičiavimas:</p><ul><li>*Užsakyta* – naudokite užsakytą kiekį ar reikšmę kaip skaičiavimo pagrindą.</li><li>*Pristatyta* – naudokite pristatytą kiekį ar reikšmę kaip skaičiavimo pagrindą.</li><li>*Sąskaita faktūra* – naudokite kiekį ar reikšmę, kuriems išrašyta sąskaita faktūra, kaip skaičiavimo pagrindą.</li></ul> |
 | Vienetas | Jei lauke *Pagrindas* pasirinkote **Kiekis**, pasirinkite vienetą, kuriam turi būti nurodytas kiekis. |

@@ -1,6 +1,6 @@
 ---
-title: Prisijunkite, norėdami naudoti įvertinimus ir atsiliepimus
-description: Šioje temoje paaiškinama, kaip sutikti naudoti įvertinimus ir apžvalgas savo „Microsoft Dynamics 365 Commerce“ svetainėje.
+title: Norėdami naudoti įvertinimus ir atsiliepimus, prisijunkite
+description: Šiame straipsnyje paaiškinama, kaip pasirinkti naudoti savo svetainės vertinimus ir apžvalgas Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
 ms.date: 02/16/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 19c3e8b32654f7c4b7803c547e9d5692f9fc461b
-ms.sourcegitcommit: 4d52c67f52ad0add63cd905df61367b344389069
+ms.openlocfilehash: b591799bd5bf00e74e782040bfdc1b678c4c87d0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8311934"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906917"
 ---
 # <a name="opt-in-to-use-ratings-and-reviews"></a>Norėdami naudoti įvertinimus ir atsiliepimus, prisijunkite
 
 [!include [banner](includes/banner.md)]
 
-Šioje temoje paaiškinama, kaip sutikti naudoti įvertinimus ir apžvalgas savo „Microsoft Dynamics 365 Commerce“ svetainėje.
+Šiame straipsnyje paaiškinama, kaip pasirinkti naudoti savo svetainės vertinimus ir apžvalgas Microsoft Dynamics 365 Commerce.
 
 Įvertinimų ir apžvalgų sprendimas yra daugiakanalis sprendimas, kurį galite padaryti pasiekiamą „Dynamics 365 Commerce“, naudojant „Microsoft Dynamics Lifecycle Services“ (LCS). LCS yra administravimo portalas, kurį prekybininkai naudoja valdyti savo aplinką nuo jos parengimo iki jos eksploatacijos nutraukimo.
 

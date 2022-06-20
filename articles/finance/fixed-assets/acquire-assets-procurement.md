@@ -1,6 +1,6 @@
 ---
-title: Turto pirkimas įsigyjant
-description: Šioje temoje aprašoma, kaip nustatyti integravimą tarp ilgalaikio turto ir mokėtinų sumų, kad automatiškai sukurtumėte ilgalaikį turtą iš pirkimo užsakymų ar SF, arba, kad automatiškai registruotumėte ilgalaikio turto įsigijimą ir įsigijimo operacijas.
+title: Išteklių pirkimas įsigyjant
+description: Šiame straipsnyje aprašyta, kaip nustatyti integravimą tarp ilgalaikio turto ir mokėtinų sumų, kad automatiškai sukurtumėte ilgalaikį turtą iš pirkimo užsakymų ar SF, arba, kad automatiškai registruotumėte ilgalaikio turto įsigijimą ir įsigijimo operacijas.
 author: moaamer
 ms.date: 03/05/2019
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b654dbf97f8d91e0a3233803ee182b1383ad317d
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: ac25114fe8036a474d637e9ad9ede5e46b50d92e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8712096"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8891586"
 ---
-# <a name="acquire-assets-through-procurement"></a>Turto pirkimas įsigyjant
+# <a name="acquire-assets-through-procurement"></a>Išteklių pirkimas įsigyjant
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje aprašoma, kaip nustatyti integravimą tarp ilgalaikio turto ir mokėtinų sumų, kad automatiškai sukurtumėte ilgalaikį turtą iš pirkimo užsakymų ar SF, arba, kad automatiškai registruotumėte ilgalaikio turto įsigijimą ir įsigijimo operacijas. Viena pirkimo eilutė sukurs vieną turtą, nepriklausomai nuo pirkimo eilutėje nurodyto kiekio. Jei reikia sukurti kelis ilgalaikius turtus, turite sukurti kelias pirkimo eilutes.
+Šiame straipsnyje aprašyta, kaip nustatyti integravimą tarp ilgalaikio turto ir mokėtinų sumų, kad automatiškai sukurtumėte ilgalaikį turtą iš pirkimo užsakymų ar SF, arba, kad automatiškai registruotumėte ilgalaikio turto įsigijimą ir įsigijimo operacijas. Viena pirkimo eilutė sukurs vieną turtą, nepriklausomai nuo pirkimo eilutėje nurodyto kiekio. Jei reikia sukurti kelis ilgalaikius turtus, turite sukurti kelias pirkimo eilutes.
 
  Galimi toliau nurodyti Ilgalaikio turto ir Mokėtinų sumų integravimo būdai; tokį patį būdą reikia naudoti visam ilgalaikiam turtui:
 -   Jūs neautomatiniu būdu sukuriate ilgalaikį turtą prieš įtraukdami ilgalaikio turto numerį į pirkimo užsakymo arba tiekėjo sąskaitą faktūrą. Kai registruojate tiekėjo sąskaitą faktūrą, automatiškai užregistruojama turto įsigijimo operacija. Tai numatytasis metodas.
@@ -38,7 +38,7 @@ Jei jums labiau priimtina ilgalaikį turtą kurti rankiniu būdu, pasirinkite vi
 
 Nesvarbu, ar kuriate ilgalaikį turtą rankiniu būdu, ar naudojate lankstesnį būdą, turite nuspręsti, ar įsigijimo operaciją galima registruoti tik į ilgalaikį turtą, ar ją galima registruoti registruojant sąskaitą faktūrą. Kai kurios organizacijos pasirenka, kad vartotojai kurtų ilgalaikio turto įsigijimą ir įsigijimo operacijas rankiniu būdu, įvesdami žurnalo įrašus ar pasiūlymus. 
 
-Šioje temoje aprašoma išsami informacija apie kiekvieną metodą.
+Šiame straipsnyje aptariama išsami informacija apie kiekvieną metodą.
 
 ## <a name="methods-for-manually-creating-fixed-assets"></a> Ilgalaikio turto kūrimo rankiniu būdu metodai
 Kai užregistruojate tiekėjo sąskaitą faktūrą, kurios eilutėse įvestas ilgalaikio turto numeris, jei pasirinktis Leisti turto įsigijimą iš pirkimo pasirinkta puslapyje Ilgalaikio turto parametrai, įsigijimas užregistruojamas automatiškai ir turto būsena pasikeičia į Atidaryta. 

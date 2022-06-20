@@ -1,6 +1,6 @@
 ---
 title: Įkainojimas atvirkštine tvarka
-description: Šioje temoje pristatoma įkainojimo atvirkštine tvarka koncepcija, naudojama „Lean manufacturing”.
+description: Šiame straipsnyje pristatyta įkainojimo atvirkštine tvarka sąvoka, naudojama "Lean manufacturing".
 author: JennySong-SH
 ms.date: 04/10/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: yanansong
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: a5b0ac26a1f6b209be7c9d52aaad9bb689a8a656
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 33cb7bf70d8867ccd067144e661c3bdf1c0b778d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8674032"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906101"
 ---
 # <a name="backflush-costing"></a>Įkainojimas atvirkštine tvarka
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje pristatoma įkainojimo atvirkštine tvarka koncepcija, naudojama „Lean manufacturing”. 
+Šiame straipsnyje pristatyta įkainojimo atvirkštine tvarka sąvoka, naudojama "Lean manufacturing". 
 
 „Lean manufacturing” įkainojimas gamybos eigai leidžia naudoti išlaidų kaupimo metodą, vadinamą įkainojimu atvirkštine tvarka. Taikant įkainojimo atvirkštine tvarka metodą suvartojamos tiesioginės medžiagos yra kaupiamos gamybos eigos nebaigtos gamybos (NG) išlaidų sąskaitoje. Naudojama standartinių išlaidų atsargų modelių grupė. Iš gamybos eigos gauti produktai išskaičiuojami iš NG pagal jų standartines išlaidas. Pagrindinis skirtumas tarp įkainojimo atvirkštine tvarka ir standartinių išlaidų yra tas, kad taikant įkainojimą atvirkštine tvarka neapskaičiuojami „kanban” arba galutinio produkto nuokrypiai. Šiuo atveju nuokrypiai apskaičiuojami pagal gamybos eigą per tam tikrą laikotarpį. Remiantis šiuo metodu pristatoma tiksli „Lean“ sąvoka medžiagų suvartojimo ataskaitoms pateikti. Paimtiems medžiagų kiekiams skirta ataskaita „kanban” ar gamybos užsakyme nepateikiama. Šiuo atveju visi paketai arba sandėliavimo vienetai suskirstomi į gamybos eigos etapus. Po to, kai paketai arba sandėliavimo vienetai užregistruojami kaip tušti, jie deklaruojami kaip suvartoti. Galima naudoti papildomą suvartojimą atsižvelgiant į [gamybos eigos konfigūraciją](../production-control/lean-manufacturing-modeling-lean-organization.md). Prieš naudojant papildomą suvartojimą organizacijos turi sudaryti sąlygas, kad gamybos eigos NG neliktų medžiagų. Naudojant periodinį įkainojimą atvirkštine tvarka, galiojanti NG vertė nustatoma į laikotarpio pabaigą. Šis nustatymas pagrįstas „kanban“ sandėliavimo vienetais ir „kanban“ užduoties būsena. Galiojančių ir faktinių NG verčių pagal išlaidų grupę ir prekę nuokrypiai apskaitomi bei rodomi kaip nuokrypiai.
 

@@ -1,6 +1,6 @@
 ---
 title: Planavimo mechanizmo efektyvumo didinimas
-description: Šioje temoje pateikiama informacija apie planavimo mechanizmą ir apie tai, kaip padidinti jo efektyvumą.
+description: Šiame straipsnyje pateikiama informacija apie planavimo sistemą ir apie tai, kaip pagerinti našumą.
 author: t-benebo
 ms.date: 09/03/2020
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: benebotg
 ms.search.validFrom: 2020-09-03
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 972e566153b7423398b2ad4a4e70b264f02c40cd
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: f5ece3672bba352e02808248c91366539423d682
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8469012"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854303"
 ---
 # <a name="improve-scheduling-engine-performance"></a>Planavimo mechanizmo efektyvumo didinimas
 
@@ -29,7 +29,7 @@ ms.locfileid: "8469012"
 
 Išteklių planavimo mechanizmas naudojamas planuojant suplanuotų ir paskelbtų gamybos užsakymų maršrutus. Iš pradžių mechanizmas buvo pristatytas kaip „Dynamics AX 2012“ dalis, o tada buvo kelis kartus tobulinamas.
 
-[Užduočių planavimo problema](https://en.wikipedia.org/wiki/Job_shop_scheduling) yra itin sudėtinga kombinatorinė problema, kurios sprendimo laikas eksponentiškai auga didėjant kintamųjų skaičiui. Dažnai klientai sukonfigūruoja gamybos maršrutus ir susijusius duomenis taip, kad gautos planavimo problemos neįmanoma išspręsti per priimtiną laiką net ir naudojant pačią moderniausią įrangą. Ši tema padės jums perprasti planavimo modulį ir kaip konkretūs nustatymai gali turėti įtakos efektyvumui.
+[Užduočių planavimo problema](https://en.wikipedia.org/wiki/Job_shop_scheduling) yra itin sudėtinga kombinatorinė problema, kurios sprendimo laikas eksponentiškai auga didėjant kintamųjų skaičiui. Dažnai klientai sukonfigūruoja gamybos maršrutus ir susijusius duomenis taip, kad gautos planavimo problemos neįmanoma išspręsti per priimtiną laiką net ir naudojant pačią moderniausią įrangą. Šis straipsnis padės suprasti planavimo vedlį ir kaip konkretus nustatymas gali turėti įtakos našumui.
 
 Kai siekiama pagerinti planavimo efektyvumą, bendrosios rekomendacijos gali padėti sumažinti problemos, kurią turi išspręsti mechanizmas, sudėtingumą. Kai kurie pagrindiniai veiksniai, kurie gali turėti įtakos efektyvumui:
 

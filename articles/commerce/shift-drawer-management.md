@@ -1,6 +1,6 @@
 ---
 title: Pamainos ir kasos stalčių valdymas
-description: Šioje temoje paaiškinama, kaip „Commerce” elektroniniame kasos aparate (EKA) nustatyti ir naudoti pamainas.
+description: Šiame straipsnyje paaiškinama, kaip nustatyti ir naudoti "Commerce point of Sale (EKA) pamainas.
 author: jblucher
 ms.date: 05/10/2018
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Retail
 ms.author: brshoo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 2ac42c92d38299c20bfcb293ac062aa9e4b1c628
-ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
+ms.openlocfilehash: 9c22f1fce99eaeca7b1081524230742e4709de5c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7779749"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8877216"
 ---
 # <a name="shift-and-cash-drawer-management"></a>Pamainos ir kasos stalčių valdymas
 
 [!include [banner](includes/banner.md)]
 
-Šioje temoje paaiškinama, kaip „Commerce” elektroniniame kasos aparate (EKA) nustatyti ir naudoti pamainas.
+Šiame straipsnyje paaiškinama, kaip nustatyti ir naudoti "Commerce point of Sale (EKA) pamainas.
 
 Sprendime „Dynamics 365 Commerce“ terminu *pamaina* aprašomas EKA operacijų duomenų rinkimas tarp dviejų laiko taškų. Numatoma kiekvienos pamainos pinigų suma palyginama su apskaičiuota ir deklaruota suma.
 

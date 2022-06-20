@@ -1,6 +1,6 @@
 ---
 title: Darbo su elektroninių SF priedu Meksikai pradžia
-description: Šioje temoje pateikiama informacija, kuri padės jums pradėti naudotis elektroninių SF išrašymo priedu Meksikai.
+description: Šiame straipsnyje pateikiama informacija, kuri padės jums pradėti nuo Meksikai išrašytų elektroninių SF.
 author: gionoder
 ms.date: 12/01/2020
 ms.topic: article
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 6fc8a9eaf6c6e4c82719e7c1ebccd4272548e73f
-ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
+ms.openlocfilehash: 540b6e6f9b4b669957cc3310e473ad59b9210594
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "8566005"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855335"
 ---
 # <a name="get-started-with-electronic-invoicing-for-mexico"></a>Darbo su elektroninių SF priedu Meksikai pradžia
 
@@ -31,11 +31,11 @@ ms.locfileid: "8566005"
 > [!IMPORTANT]
 > Meksikai skirtas elektroninių SF išrašymas šiuo metu gali nepatebėti visų funkcijų, kurios galimos "Comprobrašymą" fiskalinio skaitmeninio porų interneto (CFDI) dokumente, ir susijusio integravimo, Microsoft Dynamics kuris sukurtas į 365 finansus arba Dynamics 365 Supply Chain Management.
 
-Šioje temoje pateikiama informacija, kuri padės jums pradėti naudotis elektroninių SF išrašymo priedu Meksikai. Ji padės atlikti konfigūracijos veiksmus, priklausančius nuo šalies, „Regulatory Configuration Services” (RCS) ir „Finance”. Ji taip pat padeda jums atlikti veiksmus „Finance”, kurių reikia, kad CFDI SF būtų teikiamos naudojant paslaugą, ir paaiškina, kaip peržiūrėti apdorojimo rezultatus ir CFDI SF būsenas.
+Šiame straipsnyje pateikiama informacija, kuri padės jums pradėti nuo Meksikai išrašytų elektroninių SF. Ji padės atlikti konfigūracijos veiksmus, priklausančius nuo šalies, „Regulatory Configuration Services” (RCS) ir „Finance”. Ji taip pat padeda jums atlikti veiksmus „Finance”, kurių reikia, kad CFDI SF būtų teikiamos naudojant paslaugą, ir paaiškina, kaip peržiūrėti apdorojimo rezultatus ir CFDI SF būsenas.
 
 ## <a name="prerequisites"></a>Būtinieji komponentai
 
-Prieš pradėdami šioje temoje aprašytus veiksmus, [...](e-invoicing-get-started-service-administration.md)[turite atlikti veiksmus skyriuje Darbo su elektroninių SF išrašymo tarnybos administravimu pradžia ir Darbo su elektroninių SF išrašymu pradžia](e-invoicing-get-started.md).
+Prieš atbaigdami šiame straipsnyje nurodytus veiksmus, [...](e-invoicing-get-started-service-administration.md)[turite atlikti veiksmus dalyje Darbo su elektroninių SF išrašymo tarnybos administravimu pradžia ir Darbo su elektroninių SF išrašymu pradžia](e-invoicing-get-started.md).
 
 ## <a name="set-up-the-cadena-xslt"></a>Nustatyti Cadena XSLT
 
@@ -141,11 +141,11 @@ Norint pateikti CFDI SF atšaukimą, reikalingi funkcijų **Atšaukimas** ir **A
 1. Priemonės versijos **nustatymo puslapio** skirtuke **Kintamieji** **pasirinkite kintamojo pavadinimą DigitalSi skirtuke DigitalSi skirtukeXSLT**.
 2. Reikšmės lauke **įveskite** : {containerUrl:"https://&lt; AccountStorageName&gt;.blob.core.windows.net/&lt; ContainerName&gt;","path":"&lt; RelativePath&gt;"}
    
-    čia: \<RelativePath\> = folderfolderfilename\\\\ su dviem kairiosios brūkšnių, ContainerName turi nurodyti konteinerį, kuris naudojamas paslaugai.
+    čia: \<RelativePath\> = aplanko\\ aplanko failo\\ vardas su dviem kairiosios brūkšnių, ContainerName turi nurodyti konteinerį, kuris naudojamas paslaugai.
    
     Kintamojo pavyzdys yra:
     
-    {"maršrutas":"xdev xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx\\\\ cadena_xslt",containerUrl":https://yyyyyyyyyy.blob.core.windows.net/containername}
+    {"kelias":"x xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx\\ dev\\ cadena_xslt","containerUrl":https://yyyyyyyyyy.blob.core.windows.net/containername}
 
 ## <a name="assign-the-draft-version-to-an-e-invoicing-environment"></a>Juodraščio versijos priskyrimas el. SF išrašymo aplinkai
 

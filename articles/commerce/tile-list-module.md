@@ -1,6 +1,6 @@
 ---
 title: Plytelių sąrašo modulis
-description: Šioje temoje aprašomi plytelių sąrašo moduliai ir tai, kaip juos įtraukti į „Microsoft Dynamics 365 Commerce“ svetainių puslapius.
+description: Šiame straipsnyje aprašomi išklotinių elementų sąrašo moduliai ir aprašoma, kaip įtraukti juos į svetainės puslapius Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 05/18/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: dd714f29fe2f9acd459be7bda1c0bfac65b72cb0
-ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
+ms.openlocfilehash: 44eb9b82ef9625734c7fe5ccba85207d9f210a00
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "8780798"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8905403"
 ---
 # <a name="tile-list-module"></a>Plytelių sąrašo modulis
 
 [!include [banner](includes/banner.md)]
 
-Šioje temoje aprašomi plytelių sąrašo moduliai ir tai, kaip juos įtraukti į „Microsoft Dynamics 365 Commerce“ svetainių puslapius.
+Šiame straipsnyje aprašomi išklotinių elementų sąrašo moduliai ir aprašoma, kaip įtraukti juos į svetainės puslapius Microsoft Dynamics 365 Commerce.
 
 Plytelių sąrašo modulis yra plytelių rinkinys karuselėje. Jis naudojamas produktų kategorijų arba prekės ženklų rinkodarai naudojant vaizdus ir tekstą. Pavyzdžiui, mažmeninis prekybininkas gali įtraukti plytelių sąrašo modulį į pagrindinį elektroninės prekybos svetainės puslapį, kad pareklamuotų geriausiai parduodančias kategorijas.
 

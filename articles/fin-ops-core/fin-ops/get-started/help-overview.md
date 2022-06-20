@@ -1,6 +1,6 @@
 ---
-title: Pagalbos sistema (yra vaizdo įrašas)
-description: Šioje temoje pateikiama „Finance and Operations“ programėlių žinyno sistemos apžvalga.
+title: Žinyno sistema (yra vaizdo įrašas)
+description: Šiame straipsnyje pateikta finansų ir operacijų programėlių žinyno sistemos apžvalga.
 author: edupont04
 ms.date: 07/20/2021
 ms.topic: overview
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: edupont
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dd34addc2ffa5e437691cb1e3e8b33246053ccc7
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 924af44a6f0b1430859f0f6354ef55ff67a1b677
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070506"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8898375"
 ---
 # <a name="help-system"></a>Žinyno sistema
 
@@ -33,10 +33,10 @@ ms.locfileid: "8070506"
 
 Šių programų vartotojai gali pasiekti kontekstinį žinyną ir kitą turinį, pagrįstą ta pačia žinyno sistema:
 
-- „Dynamics 365 Commerce”
-- „Dynamics 365 Finance”
+- Dynamics 365 Commerce
+- Dynamics 365 Finance
 - Dynamics 365 Human Resources
-- „Dynamics 365 Supply Chain Management”
+- Dynamics 365 Supply Chain Management
 
 Visose šiose programose konkretaus produkto žinyną galite pasiekti srityje **Žinynas**.
 
@@ -53,7 +53,7 @@ Turinį galite rasti svetainėje docs.microsoft.com naudodami bet kurį ieškos 
 
 ## <a name="get-notified-about-changes-through-an-rss-feed"></a>Pranešimai apie keitimus naudojant RSS informacijos santraukas
 
-Norėdami užsiprenumeruoti visų docs.microsoft.com turinio naujinimų RSS kanalą „Finance and Operations“ programose, naudokite šią nuorodą:
+Norėdami užsiprenumeruoti visų atnaujinimų, kurie atlikti duomenų docs.microsoft.com finansų ir operacijų programėlėse, kanalus, naudokite šį saitą:
 
 [RSS informacijos santrauka](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-finops%27)&locale=en-us)
 
@@ -70,7 +70,7 @@ Taip pat, galite užsiprenumeruoti RSS informacijos programą naudodami program�
 
 ### <a name="leave-us-feedback"></a>Palikite atsiliepimą
 
-Jei turite atsiliepimų apie temą arba norite užduoti su ja susijusių klausimų, palikite komentarą puslapio apačioje.
+Jei turite atsiliepimą arba klausimus apie straipsnį, palikite mums komentarą puslapio apačioje.
 
 1. Norėdami patekti į komentarų dalį puslapio apačioje pasirinkite **Atsiliepimai**. Tada pasirinkite **Atsiliepimai apie produktą** arba **Prisijunkite, kad pateiktumėte atsiliepimus apie instrukcijas**.
 
@@ -83,7 +83,7 @@ Jei turite atsiliepimų apie temą arba norite užduoti su ja susijusių klausim
 
 ## <a name="contribute-to-the-documentation"></a>Prisidėkite kuriant dokumentaciją
 
-Galite prisidėti prie dokumentacijos kūrimo ir redagavimo. Norėdami pradėti, temoje pasirinkite mygtuką **Redaguoti** (pieštuko simbolis). Šiame vaizdo įraše parodyta, kaip galite prisidėti prie mūsų dokumentacijos kūrimo.
+Galite prisidėti prie dokumentacijos kūrimo ir redagavimo. Norėdami pradėti, straipsnyje pasirinkite **mygtuką** Redaguoti (simbolio simbolis). Šiame vaizdo įraše parodyta, kaip galite prisidėti prie mūsų dokumentacijos kūrimo.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE36liB]
 
@@ -98,7 +98,7 @@ Daugiau informacijos žr. [dokumentų bendraautoriaus vadovą](/contribute), kur
 
 Užduoties vadovas yra kontroliuojama, valdoma, interaktyvi patirtis, kuri jums padeda atlikti užduoties ar verslo proceso veiksmus. Atidaryti (paleisti) užduoties vadovą galite iš **Žinyno** srities. Pirmą kartą pasirinkus užduočių vedlį, srityje **Žinynas** bus rodomos nuoseklios užduoties instrukcijos. Galima naudoti lokalizuotus užduočių vedlius.
 
-„Microsoft" išleido užduočių vedlių bibliotekas, skirtas produktų versijoms iki 2017 m. gruodžio mėn. „Dynamics 365 for Finance and Operations“ leidimo. Šios temos skyriuje [Prieiga prie užduočių vedlių iš žinyno srities](#accessing-task-guides-from-the-help-pane) aiškinama, kaip rasti jūsų produktui tinkamus užduočių vedlius.
+„Microsoft" išleido užduočių vedlių bibliotekas, skirtas produktų versijoms iki 2017 m. gruodžio mėn. „Dynamics 365 for Finance and Operations“ leidimo. Šio [straipsnio žinyno srities žinynuose](#accessing-task-guides-from-the-help-pane) paaiškinama, kaip rasti tinkamus produkto užduočių vadovus.
 
 ![Užduočių vedlio skaitymo rodinys.](./media/task-guide-ops.png)
 
@@ -121,7 +121,7 @@ Norėdami pasiekti žinyno turinį, pasirinkite mygtuką **Žinynas** (**?**), t
 
 ### <a name="accessing-help-topics-from-the-help-pane"></a>Prieiga prie žinyno temų iš žinyno srities
 
-Iš srities **Žinynas** galite pasiekti temas, taikomas klientui. Pirmą kartą atidarius sritį **Žinynas**, skirtuke **Žinynas** rodomos temos, taikomos puslapiui, kuriame dabar esate. Jei nerasite nė vienos temos, įvedę raktažodžius galite patikslinti iešką. Kai srityje **Žinynas** pasirenkate temą, ji atidaroma naujame naršyklės skirtuke.
+Iš srities **Žinynas** galite pasiekti temas, taikomas klientui. Pirmą kartą atidarius sritį **Žinynas**, skirtuke **Žinynas** rodomos temos, taikomos puslapiui, kuriame dabar esate. Jei nerasite nė vienos temos, įvedę raktažodžius galite patikslinti iešką. Kai žinyno srityje pasirenkate **straipsnį**, jis atidaromas naujame naršyklės skirtuke.
 
 > [!IMPORTANT]
 > Šis skyrius netaikomas „Dynamics 365 Human Resources“. „Human Resources“ žinyno sistema automatiškai prijungta prie produkto užduočių vedlių. Be to, programoje „Human Resources“ negalima sukurti pasirinktinių užduočių vedlių.

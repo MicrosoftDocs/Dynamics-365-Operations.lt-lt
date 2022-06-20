@@ -1,6 +1,6 @@
 ---
 title: Elektroninių ataskaitų išplėstinė formulių rengyklė
-description: Šioje temoje aprašoma, kaip išplėstinę formulių rengyklę galima naudoti konfigūruojant išraiškas elektroninių ataskaitų (ER) modelių susiejime ir formato komponentuose.
+description: Šiame straipsnyje aprašoma, kaip išplėstinės formulės rengyklę galima naudoti norint konfigūruoti išraiškas elektroninės ataskaitos (ER) modelių išdėstymo ir formato komponentams.
 author: NickSelin
 ms.date: 06/17/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 58d7a936f94e1cd453c904ef6404e0db65083c54235c8420b9cfa561bcde1584
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f54ab248e38d87b0a9fb7a73143f56fa704a3f67
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714664"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8869105"
 ---
 # <a name="electronic-reporting-advanced-formula-editor"></a>Elektroninių ataskaitų išplėstinė formulių rengyklė
 
 [!include [banner](../includes/banner.md)]
 
-Be [elektroninių ataskaitų](general-electronic-reporting.md)[formulių rengyklės](general-electronic-reporting-formula-designer.md), galite naudoti išplėstinę elektroninių ataskaitų formulių rengyklę, kad pagerėtų elektroninių ataskaitų (ER) išraiškų konfigūravimo patirtis. Išplėstinė rengyklė veikia naršyklėje [„Monaco Editor“ pagrindu](https://microsoft.github.io/monaco-editor). Dažniausiai naudojamos išplėstinės rengyklės funkcijos aprašomos šioje temoje.
+Be [elektroninių ataskaitų](general-electronic-reporting.md)[formulių rengyklės](general-electronic-reporting-formula-designer.md), galite naudoti išplėstinę elektroninių ataskaitų formulių rengyklę, kad pagerėtų elektroninių ataskaitų (ER) išraiškų konfigūravimo patirtis. Išplėstinė rengyklė veikia naršyklėje [„Monaco Editor“ pagrindu](https://microsoft.github.io/monaco-editor). Dažniausiai naudojamos išplėstinės rengyklės priemonės aprašytos šiame straipsnyje:
 
 - [Automatinis kodo formatavimas](#Autoformatting)
 - [„IntelliSense“](#IntelliSense)
@@ -39,7 +39,7 @@ Be [elektroninių ataskaitų](general-electronic-reporting.md)[formulių rengykl
 
 ## <a name=""></a><a name="ActivateAdvEditor">Išplėstinės formulių rengyklės aktyvinimas</a>
 
-Atlikite tolesnius veiksmus, kad pradėtumėte naudoti išplėstinę formulių rengyklę „Microsoft Dynamics 365 Finance“ egzemplioriuje.
+Norėdami pradėti naudoti išplėstinį formulės doroklį savo Microsoft Dynamics 365 finansų egzemplioriuje, atlikite šiuos veiksmus.
 
 1.  Eikite į **Organizacijos administravimas** \> **Elektroninės ataskaitos** \> **Konfigūracijos**.
 2.  Puslapio **Konfigūracijos** veiksmų srities skirtuke **Konfigūracijos**, grupėje **Papildomi parametrai** pasirinkite **Vartotojo parametrai**.
@@ -50,7 +50,7 @@ Atlikite tolesnius veiksmus, kad pradėtumėte naudoti išplėstinę formulių r
 > [!NOTE]
 > Atminkite, kad šis parametras yra susijęs su konkrečiu vartotoju ir įmone.
 
-Pradedant nuo 10.0.19 „Microsoft Dynamics 365 Finance” versijos, galite kontroliuoti, kokia ER formulių rengyklė siūloma pagal numatytuosius nustatymus. Atlikite šiuos veiksmus, norėdami įgalinti patobulintą formulių rengyklę visiems dabartinio „Finance” egzemplioriaus vartotojams ir įmonėms.
+Pradėdami nuo Microsoft Dynamics 365 finansų versijos 10.0.19, pagal numatytuosius nustatymus galite kontroliuoti, koks ER formulės doroklis yra siūlomas. Atlikite šiuos veiksmus, norėdami įgalinti patobulintą formulių rengyklę visiems dabartinio „Finance” egzemplioriaus vartotojams ir įmonėms.
 
 1.  Atidarykite parinkties **Funkcijos valdymas** darbo sritį.
 2.  Raskite ir pasirinkite funkciją **Nustatyti ER patobulintą formulių rengyklę kaip numatytąją visiems vartotojams** sąraše, o tada pasirinkite **Įgalinti dabar**.

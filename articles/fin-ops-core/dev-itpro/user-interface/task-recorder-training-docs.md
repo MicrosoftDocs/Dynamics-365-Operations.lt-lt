@@ -1,6 +1,6 @@
 ---
 title: Dokumentų ar mokymų kūrimas naudojant užduočių įrašymo priemonę
-description: Šioje temoje paaiškinama, kas yra užduočių įrašymo priemonė ir užduočių vedliai, kaip sukurti užduočių įrašus bei kaip tinkinti „Microsoft“ užduočių vedlius ir juos įtraukti į žinyną.
+description: Šiame straipsnyje paaiškinama, kas yra užduočių įrašymo priemonė ir užduočių vadovas, kaip kurti įrašus ir kaip pritaikyti "Microsoft" užduočių žinynus bei įtraukti juos į savo žinyną.
 author: josaw1
 ms.date: 03/24/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 448c2b302136e595852c423d53e49adfcc40d12d
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: b556003edf2fe186f6b095e538f142fcf5a0bba5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070531"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8891820"
 ---
 # <a name="create-documentation-or-training-with-task-recorder"></a>Dokumentų ar mokymų kūrimas naudojant užduočių įrašymo priemonę
 
@@ -29,7 +29,7 @@ ms.locfileid: "8070531"
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-Šioje temoje paaiškinama, kas yra užduočių įrašymo priemonė ir užduočių vedliai, kaip sukurti užduočių įrašus bei kaip tinkinti „Microsoft“ užduočių vedlius ir juos įtraukti į žinyną.
+Šiame straipsnyje paaiškinama, kas yra užduočių įrašymo priemonė ir užduočių vadovas, kaip kurti užduočių įrašus ir kaip pritaikyti "Microsoft" užduočių žinynus bei įtraukti juos į žinyną.
 
 > [!IMPORTANT]
 > Galite įrašyti savo užduotis vedlius, skirtus „Dynamics 365 Human Resources“, tačiau šiuo metu negalėsite jų įrašyti į verslo procesų modeliavimo įrankio (BPM) biblioteką arba jų atidaryti iš srities „Žinynas“. Galite juos įrašyti vietiniame diske arba tinklo vietoje ir tada atidaryti bei pakartotinai leisti naudodami užduočių įrašymo priemonę. 

@@ -1,6 +1,6 @@
 ---
 title: Išorinių duomenų grynųjų pinigų srautų prognozėse
-description: Šioje temoje aprašomi nustatymo veiksmai, kuriuos reikia atlikti, kad išorinius duomenis būtų galima įvesti arba importuoti į pinigų srautų prognozes.
+description: Šiame straipsnyje aprašomi nustatymo veiksmai, kuriuos reikia atlikti, kad išorinius duomenis būtų galima įvesti arba importuoti į pinigų srautų prognozes.
 author: RyanCCarlson2
 ms.date: 02/16/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: rcarlson
 ms.search.validFrom: 2020-06-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: f7fac80b7ad0fde273fbd33aa5df146e569be46e
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: f0cb05770dc2fbd4e13af261b5f0a0e117a2f6d7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713732"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846979"
 ---
 # <a name="external-data-in-cash-flow-forecasts"></a>Išorinių duomenų grynųjų pinigų srautų prognozėse
 
 [!include [banner](../includes/banner.md)]
 
-Išorinius duomenis galima įvesti arba importuoti į pinigų srautų prognozes. Šioje temoje aprašomi nustatymo veiksmai, būdingi išorinių duomenų naudojimui ir įgalinantys išorinius duomenis įtraukti į pinigų srautų prognozę.
+Išorinius duomenis galima įvesti arba importuoti į pinigų srautų prognozes. Šiame straipsnyje aprašomi nustatymo veiksmai, kurie yra specifiniai išorinių duomenų naudojimui ir kurie įgalina išorinius duomenis įtraukti į pinigų srautų prognozę.
 
 ## <a name="external-data-setup"></a>Išorinių duomenų nustatymas
 

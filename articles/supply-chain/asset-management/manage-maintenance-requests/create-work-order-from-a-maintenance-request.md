@@ -1,6 +1,6 @@
 ---
 title: Darbo užsakymų iš priežiūros užklausų kūrimas
-description: Šioje temoje paaiškinama, kaip sukurti darbo užsakymą iš priežiūros užklausos turto valdyme.
+description: Šiame straipsnyje paaiškinama, kaip kurti darbo užsakymą pagal turto valdymo priežiūros užklausą.
 author: johanhoffmann
 ms.date: 10/01/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 1c69ad91e931475dd4c8e5a126190e867bd193f881ad58525c1d2ac8997c972a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: MT
+ms.openlocfilehash: 0c73f019951460dc7cb6395d616a0f0a22fd0b91
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6726926"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909707"
 ---
 # <a name="create-work-orders-from-maintenance-requests"></a>Darbo užsakymų iš priežiūros užklausų kūrimas
 
@@ -29,7 +29,7 @@ ms.locfileid: "6726926"
  
 
 
-Sukūrę priežiūros užklausas, galite lengvai jas konvertuoti į darbo užsakymus. Šioje temoje aprašomas greičiausias būdas dirbti su priežiūros užklausomis, atnaujinti kelias priežiūros užklausas vienu metu, o tada sukurti darbo užsakymą kelioms priežiūros užklausoms tuo pačiu metu. Puslapiuose **Aktyvios priežiūros užklausos** arba **Mano funkcinės vietos priežiūros užklausos** galite vienu metu dirbti su viena priežiūros užklausa ir konvertuoti vieną priežiūros užklausą į darbo užsakymą.
+Sukūrę priežiūros užklausas, galite lengvai jas konvertuoti į darbo užsakymus. Šiame straipsnyje aprašomas greitas būdas dirbti su priežiūros užklausomis, vienu metu atnaujinti kelias priežiūros užklausas ir tuo pačiu metu sukurti kelių priežiūros užklausų darbo užsakymą. Puslapiuose **Aktyvios priežiūros užklausos** arba **Mano funkcinės vietos priežiūros užklausos** galite vienu metu dirbti su viena priežiūros užklausa ir konvertuoti vieną priežiūros užklausą į darbo užsakymą.
 
 > [!NOTE]
 > Kiekviena priežiūros užklausa gali būti susijusi tik su vienu darbo užsakymu. Tačiau kelias priežiūros užklausas galima įtraukti į vieną darbo užsakymą, net jei priežiūros užklausos turi skirtingas lėšas.

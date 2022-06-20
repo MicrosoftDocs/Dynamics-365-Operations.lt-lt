@@ -1,6 +1,6 @@
 ---
 title: Lietuvos i.SAF ataskaitos
-description: Šioje temoje paaiškinama, kaip nustatyti ir dirbti su juridiniams subjektams Lietuvoje skirtu i.SAF ataskaitų pateikimu.
+description: Šiame straipsnyje paaiškinama, kaip nustatyti ir dirbti su Lietuvos juridinių subjektų i.VZ ataskaita.
 author: LizaGolub
 ms.date: 03/22/2022
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Lithuania
 ms.author: kfend
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 80f0ea1813c529837532de89046b1a0ce1aaf27e
-ms.sourcegitcommit: acac5e59be7c8f4e9a7ae9be58c636c70342e784
+ms.openlocfilehash: 309898791072994af07e183bed199e1f6cc89b5c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8466819"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893961"
 ---
 # <a name="isaf-reporting-for-lithuania"></a>Lietuvos i.SAF ataskaitos
 
@@ -29,9 +29,9 @@ Pagal Valstybinės mokesčių inspekcijos prie Lietuvos Respublikos finansų min
 
 ## <a name="overview"></a>Apžvalga
 
-Šioje temoje aprašoma, kaip nustatyti i.SAF ataskaitų pateikimo elektroninių ataskaitų (ER) konfigūracijas ir kaip nustatyti bei naudoti funkciją El. pranešimai (EM) programoje „Dynamics 365 Finance“.
+Šiame straipsnyje aprašoma, kaip nustatyti elektroninių ataskaitų (ER) konfigūracijas i.YRA ataskaitai ir kaip nustatyti ir naudoti elektroninių pranešimų (EM) funkcijas "Dynamics 365 Finance".
 
-Šioje temoje pateikta tokia informacija apie:
+Šiame straipsnyje pateikiama informacija apie:
 
 - Programai būdingų parametrų ir ER konfigūracijų importavimas ir nustatymas
 - EM funkcijos nustatymas

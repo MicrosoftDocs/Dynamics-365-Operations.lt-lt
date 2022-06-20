@@ -1,6 +1,6 @@
 ---
 title: PVM tarifai pagal bazinę ribą ir skaičiavimo metodus
-description: Šioje temoje aiškinama, kaip naudojant vertes laukuose Bazinės ribos ir Skaičiavimo metodas nustatomas (-i) pardavimo ir pirkimo operacijų mokesčių tarifas (-ai).
+description: Šiame straipsnyje paaiškinta, kaip vertės laukuose Bazinės ribos ir Skaičiavimo metodas nustato pardavimo ir pirkimo operacijų mokesčių tarifą (-us).
 author: kailiang
 ms.date: 10/26/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 32d334b0c5dcce1e5211fb0580872731d38fb87b
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 00cdc470397cedfd951e4c3a05a32f048775a4b9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8724875"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903137"
 ---
 # <a name="sales-tax-rates-based-on-the-marginal-base-and-calculation-methods"></a>PVM tarifai pagal bazinę ribą ir skaičiavimo metodus
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje aiškinama, kaip naudojant vertes laukuose Bazinės ribos ir Skaičiavimo metodas nustatomas (-i) pardavimo ir pirkimo operacijų mokesčių tarifas (-ai).
+Šiame straipsnyje paaiškinta, kaip vertės laukuose Bazinės ribos ir Skaičiavimo metodas nustato pardavimo ir pirkimo operacijų mokesčių tarifą (-us).
 
 Puslapio PVM kodai Skaičiavimo „FastTab‟ Bazinės ribos laukas nustato, kuri suma naudojama parinkti tinkamam mokesčio tarifui (-ams) iš tarifų PVM kodų reikšmių puslapyje. Sumos tipas lauke Bazinė riba kartu su lauko Skaičiavimo metodas metodu nustato logiką, kuria ieškoma tinkamo operacijos mokesčio tarifo (-ų). 
 

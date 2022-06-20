@@ -1,6 +1,6 @@
 ---
 title: Parengti juridinį asmenį konsolidavimo procesui
-description: Konsolidavimo metu renkate transakcija iš kelių juridinių asmenų rinkinių sąskaitų į vieną juridinių asmenų sąskaitų rinkinį. Šioje temoje paaiškinama, kaip parengti juridinį asmenį konsolidavimui.
+description: Konsolidavimo metu renkate transakcija iš kelių juridinių asmenų rinkinių sąskaitų į vieną juridinių asmenų sąskaitų rinkinį. Šiame straipsnyje paaiškinama, kaip parengti juridinį subjektą konsolidavimui.
 author: jinniew
 ms.date: 10/30/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2018-10-30
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 0ef6736046748b92357c41d27eeedfc88c610d33
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 2a3d4645c79ec30df2bbb7a32a82a59fdb7016e5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722044"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894032"
 ---
 # <a name="prepare-a-legal-entity-for-the-consolidation-process"></a>Parengti juridinį asmenį konsolidavimo procesui
 
 [!include [banner](../includes/banner.md)]
 
-Konsolidavimo metu renkate transakcija iš kelių juridinių asmenų rinkinių sąskaitų į vieną juridinių asmenų sąskaitų rinkinį. Šioje temoje paaiškinama, kaip parengti juridinį asmenį konsolidavimui.
+Konsolidavimo metu renkate transakcija iš kelių juridinių asmenų rinkinių sąskaitų į vieną juridinių asmenų sąskaitų rinkinį. Šiame straipsnyje paaiškinama, kaip parengti juridinį subjektą konsolidavimui.
 
 > [!NOTE]
 > Rekomenduojame naudoti "Management Reporter for Microsoft Dynamics 365 Finance", kad būtų sujungti keleto juridinių subjektų finansiniai rezultatai konsoliduotu formatu. "Management Reporter" leidžia kurti konsoliduotas finansines ataskaitas tarp juridinių subjektų, naudoti Excel, norint importuoti konsolidavimo duomenis iš kitų šaltinių ir išversti sumas į bet kokį ataskaitų valiutų skaičių, nereikia vykdyti konsolidavimo proceso "Dynamics 365" finansuose.

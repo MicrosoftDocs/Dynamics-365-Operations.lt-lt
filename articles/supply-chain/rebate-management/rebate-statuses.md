@@ -1,6 +1,6 @@
 ---
 title: Grąžinimo būsenos
-description: Šioje temoje aprašoma, kaip nustatyti grąžinimo būsenas. Grąžinimo būsenos jums padeda sekti kiekvieno sandorio būseną. Taip pat juos galite naudoti ataskaitoms ir užklausoms kurti.
+description: Šiame straipsnyje aprašoma, kaip nustatyti grąžinimo būsenas. Grąžinimo būsenos jums padeda sekti kiekvieno sandorio būseną. Taip pat juos galite naudoti ataskaitoms ir užklausoms kurti.
 author: sherry-zheng
 ms.date: 02/19/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 47aa3dbd382c9c74e6ac7d731b55430d4be63dec
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 86da2dfe3d398ac12dcff45b579a572e31d6a90d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8692595"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901885"
 ---
 # <a name="rebate-statuses"></a>Grąžinimo būsenos
 

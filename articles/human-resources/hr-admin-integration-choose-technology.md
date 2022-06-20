@@ -1,6 +1,6 @@
 ---
 title: Duomenų integravimo technologijos pasirinkimas
-description: Šioje temoje pateikiama informacija apie integravus personalo valdomus duomenis.
+description: Šiame straipsnyje pateikiama informacija apie integravus personalo valdomus duomenis.
 author: twheeloc
 ms.date: 08/19/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 98c1c56b445ae426103d19f96cbf1a77891221ef
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: 79aee04527eea5b673555f9c7de893a400a5c617
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8717145"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887811"
 ---
 # <a name="choose-a-data-integration-technology"></a>Duomenų integravimo technologijos pasirinkimas
 
@@ -30,7 +30,7 @@ ms.locfileid: "8717145"
 
 
 
-Šioje temoje pateikiama informacija, kaip integruoti su duomenimis, valdomais "Dynamics 365" personalo. Jame aprašomos įvairios integravimo technologijos, kad apsispręstumėte, kurios technologijos labiausiai atitinka jūsų poreikius.
+Šiame straipsnyje pateikiama informacija, kaip integruoti su duomenimis, kuriuos valdo "Dynamics 365" žmogiškieji ištekliai. Jame aprašomos įvairios integravimo technologijos, kad apsispręstumėte, kurios technologijos labiausiai atitinka jūsų poreikius.
 
 ## <a name="data-integration-background"></a>Duomenų integravimo fonas
 

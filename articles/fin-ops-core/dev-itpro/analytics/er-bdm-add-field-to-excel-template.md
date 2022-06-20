@@ -1,6 +1,6 @@
 ---
 title: Naujų laukų įtraukimas į verslo dokumento šabloną programoje „Microsoft Excel“
-description: Šioje temoje pateikiama informacijos apie tai, kaip programoje „Microsoft Excel“ naudojant funkciją Verslo dokumentų valdymas į verslo dokumento šabloną įtraukti naujų laukų.
+description: Šiame straipsnyje pateikiama informacija apie tai, kaip įtraukti naujus laukus į verslo dokumento šabloną naudojant Microsoft Excel verslo dokumentų valdymo funkciją.
 author: NickSelin
 ms.date: 11/15/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-10-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 57eebdc38fb3f74690b92c03fa60e10c7610db1fe413320a6d167f05b0658bf1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8395a87e88ebbd1942c87da0cecebe6d25bdf625
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767247"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8869408"
 ---
 # <a name="add-new-fields-to-a-business-document-template-in-microsoft-excel"></a>Naujų laukų įtraukimas į verslo dokumento šabloną programoje „Microsoft Excel“
 
@@ -28,14 +28,14 @@ ms.locfileid: "6767247"
 
 Galite įtraukti naujų laukų į šabloną, kurį naudojant generuojami verslo dokumentai „Microsoft Excel“ formatu. Šiuos laukus galima įtraukti kaip vietos rezervavimo ženklus, kuriuos naudojant sugeneruoti dokumentai užpildomi reikiama informacija iš programos. Prie kiekvieno įtraukto lauko taip pat galite nurodyti susiejimą su duomenų šaltiniais, kad nurodytumėte, kokie programos duomenys bus įvedami į lauką, kai, naudojant šabloną, bus generuojami verslo dokumentai.
 
-Norėdami sužinoti daugiau apie šią funkciją, atlikite šioje temoje esantį pavyzdį. Šiame pavyzdyje parodyta, kaip atnaujinti šabloną ir užpildyti sugeneruotos laisvos formos sąskaitos faktūros laukus.
+Norėdami daugiau sužinoti apie šią funkciją, užpildykite pavyzdį šiame straipsnyje. Šiame pavyzdyje parodyta, kaip atnaujinti šabloną ir užpildyti sugeneruotos laisvos formos sąskaitos faktūros laukus.
 
 ## <a name="configure-business-document-management-to-edit-templates"></a>Funkcijos Verslo dokumentų valdymas konfigūravimas šablonams redaguoti
 
 Kadangi funkcija Verslo dokumentų valdymas (BDM) yra sukurta sistemos [Elektroninių ataskaitų (ER) apžvalga](general-electronic-reporting.md) pagrindu, pradėti dirbti su BDM galėsite tik sukonfigūravę reikiamus ER ir BDM parametrus.
 
-1.  Kaip sistemos administratorius prisijunkite prie „Microsoft Dynamics 365 Finance“ egzemplioriaus.
-2.  Atlikite tolesnius temoje [Funkcijos Verslo dokumentų valdymas apžvalga](er-business-document-management.md) pateikto pavyzdžio veiksmus.
+1.  Prisiregistruokite prie Microsoft Dynamics 365 finansų egzemplioriaus kaip sistemos administratorius.
+2.  Atlikite šiuos pavyzdžio veiksmus verslo dokumentų [valdymo apžvalgos](er-business-document-management.md) straipsnyje:
 
     1.  Sukonfigūruokite ER parametrus.
     2.  Įjunkite BDM.
@@ -61,7 +61,7 @@ Norėdami gauti daugiau informacijos apie tai, kaip importuoti ER konfigūracija
 
 3.  Tinklelyje pasirinkite šabloną **Laisvos formos sąskaita faktūra („Excel“)**.
 4.  Dešiniojoje srityje pasirinkite **Naujas šablonas**, kad sukurtumėte naują šabloną pasirinkto šablono pagrindu.
-5.  Lauke **Pavadinimas** kaip naujo šablono pavadinimą įveskite **Laisvos formos sąskaita faktūra („Excel“) „Contoso”**.
+5.  Lauke **Pavadinimas** kaip naujo šablono pavadinimą įveskite **Laisvos formos sąskaita faktūra („Excel“) „Contoso“**.
 6.  Pasirinkite **Gerai**, kad patvirtintumėte redagavimo proceso pradžią.
 
 Atidaromas BDM šablonų rengyklės puslapis. Naudodami „Microsoft 365“, pasirinktą šabloną galite redaguoti internetu, įdėtajame valdiklyje.
@@ -148,9 +148,9 @@ Atnaujintas šablonas rodomas darbo srities **Verslo dokumentų valdymas** skirt
 2.  Pasirinkite sąskaitą-faktūrą **FTI-00000002**, tada – **Spausdinimo valdymas**.
 3.  Kairiojoje srityje išplėskite **Modulis – gautinos sumos \> Dokumentai \> Laisvos formos sąskaita faktūra**.
 4.  Dalyje **Laisvos formos sąskaita faktūra** pasirinkite lygmenį **Originalus dokumentas**, kad nurodytumėte apdoroti skirtų sąskaitų faktūrų aprėptį.
-5.  Dešiniosios srities lauke **Ataskaitos formatas** pasirinkite nurodyto dokumento lygio šabloną **Laisvos formos sąskaita faktūra („Excel“) „Contoso”**.
+5.  Dešiniosios srities lauke **Ataskaitos formatas** pasirinkite nurodyto dokumento lygio šabloną **Laisvos formos sąskaita faktūra („Excel“) „Contoso“**.
 
-    ![Pasirinktas šablonas Laisvos formos sąskaita faktūra („Excel“) „Contoso“.](./media/BDM-AddFldExcel-PrintMngtSetting.png)
+    ![Pasirinktas laisvos formos SF (Excel) "Contoso" šablonas.](./media/BDM-AddFldExcel-PrintMngtSetting.png)
 
 6.  Paspauskite **„Esc“**, kad uždarytumėte dabartinį puslapį.
 7.  Pasirinkite **Spausdinti \> Pasirinkta**.

@@ -1,6 +1,6 @@
 ---
-title: Naujos produkto hierarchijos kūrimas
-description: Šioje temoje aprašoma, kaip programoje „Microsoft Dynamics 365 Commerce“ sukuti naują produkto hierarchiją.
+title: Naujos produktų hierarchijos kūrimas
+description: Šiame straipsnyje aprašoma, kaip kurti naują produktų hierarchiją Microsoft Dynamics 365 Commerce.
 author: samjarawan
 ms.date: 01/27/2020
 ms.topic: article
@@ -14,21 +14,21 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 68f6bc5b30cd4d7f7eea05233348b10608a4d6e63d4b8508bdb2088f88c445dc
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 25cfd81e9163ae2da3cb916c88040204f31dc389
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6745997"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887041"
 ---
 # <a name="create-a-new-product-hierarchy"></a>Naujos produktų hierarchijos kūrimas
 
 
 [!include [banner](includes/banner.md)]
 
-Šioje temoje aprašoma, kaip programoje „Microsoft Dynamics 365 Commerce“ sukuti naują produkto hierarchiją.
+Šiame straipsnyje aprašoma, kaip kurti naują produktų hierarchiją Microsoft Dynamics 365 Commerce.
 
-## <a name="overview"></a>Peržiūra
+## <a name="overview"></a>Apžvalga
 
 „Dynamics 365 Commerce“ palaiko kelis mažmeninės prekybos kanalus. Šie mažmeninės prekybos kanalai apima interneto parduotuves, skambučių centrus ir mažmeninės prekybos parduotuves (taip pat vadinamas fizinėmis parduotuvėmis). Kiekviename mažmeninės prekybos parduotuvės kanale gali būti naudojami savi mokėjimo būdai, kainų grupės, elektroninių kasos aparatų (EKA) registrai, pajamų ir išlaidų sąskaitos bei darbuotojai. Prieš kurdami mažmeninės prekybos parduotuvės kanalą, turite nustatyti visus šiuos elementus. 
 

@@ -1,6 +1,6 @@
 ---
 title: Kurkite ER konfigūracijas RCS ir įkelkite jas į bendrąją saugyklą
-description: Šioje temoje aiškinama, kaip sukurti elektroninių ataskaitų (ER) konfigūraciją „Microsoft Regulatory Configuration Service“ (RCS) ir nusiųsti ją į bendrąją saugyklą.
+description: Šiame straipsnyje paaiškinama, kaip sukurti elektroninių ataskaitų (ER) konfigūraciją "Microsoft" reguliavimo konfigūracijos tarnybose (RCS) ir įkelti ją į visuotinę saugyklą.
 author: JaneA07
 ms.date: 01/11/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-02-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: eb04362d6d7261af56d2940b085fbc8d43c9d662
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.openlocfilehash: 8cfbcfea3c6056d87eb600c9a2f9e0d1727c30ff
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7965094"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894749"
 ---
 # <a name="create-er-configurations-in-regulatory-configuration-services-rcs-and-upload-them-to-the-global-repository"></a>ER konfigūracijų kūrimas „Regulatory Configuration Service“ (RCS) ir įkėlimas į bendrąją saugyklą
 
@@ -37,10 +37,10 @@ Kad galėtumėte atlikti šias procedūras, pirmiausia turite įgyvendinti tolia
 
 Turite užtikrinti, kad jūsų organizacijai būtų galima parengti RCS aplinką. Jei jūsų organizacijai nesusiųstas RCS egzempliorius, tai galite atlikti naudodami šiuos veiksmus:
 
-1. Finansų ir operacijų programoje eikite į organizacijos **administravimo** \> **darbo sričių elektronines** \> **ataskaitas**.
-2. Susijusiuose saituose / išoriniuose saituose pasirinkite Reguliavimo tarnybos – Konfigūracija, o tada vykdykite instrukcijas, kad **·** **·** **prisiregistruotumėte** konfigūruoti vieną.
+1. Finansų ir operacijų programoje eikite į organizacijos **administravimo darbo** \> **sričių elektronines** \> **ataskaitas**.
+2. Susijusiuose **saituose / išoriniuose** saituose **pasirinkite Reguliavimo tarnybos –** Konfigūracija, **o tada vykdykite instrukcijas, kad prisiregistruotumėte** konfigūruoti vieną.
 
-Jei jūsų organizacijai jau buvo sukurta RCS aplinka, norėdami ją pasiekti naudokite puslapio URL ir pasirinkite **prisijungimo** parinktį.
+Jei jūsų organizacijai jau buvo sukurta RCS aplinka, norėdami ją pasiekti naudokite puslapio URL ir pasirinkite prisijungimo **parinktį**.
 
 ## <a name="create-a-derived-version-of-a-configuration-in-rcs"></a>Išvestinės konfigūracijos versijos kūrimas RCS
 
@@ -52,9 +52,9 @@ Jei jūsų organizacijai jau buvo sukurta RCS aplinka, norėdami ją pasiekti na
 3. Pasirinkite **Ataskaitų konfigūracijos**.
 4. Pasirinkite konfigūraciją, iš kurios norite išvesti naują versiją. Ieškai susiaurinti galite naudoti virš medžio esantį filtravimo lauką.
 5. Pasirinkite **Kurti konfigūraciją** \> **Kildinti iš pavadinimo**.
-6. Įveskite pavadinimą ir aprašymą, tada pasirinkite **Kurti konfigūraciją, kad** sukurtumėte naują išvestinę versiją, kurios būsena Juodraštis.
+6. Įveskite pavadinimą ir aprašymą, tada pasirinkite Kurti konfigūraciją **, kad sukurtumėte** naują išvestinę versiją, kurios būsena Juodraštis.
 7. Pasirinkite naujai išvestąją konfigūraciją ir, jei reikia, atlikite papildomus konfigūracijos formato pakeitimus. 
-8. Kai jūsų pakeitimai atlikti, turite nustatyti konfigūracijos keitimo būseną **į** **Baigta**, kad būtų galima publikuoti saugykloje. Pasirinkite **Gerai**.
+8. Kai jūsų pakeitimai atlikti, turite nustatyti **konfigūracijos** **keitimo** būseną į Baigta, kad būtų galima publikuoti saugykloje. Pasirinkite **Gerai**.
 
 ![Nauja konfigūracijos versija RCS.](media/RCS_CompleteConfig.JPG)
 
@@ -73,7 +73,7 @@ Norėdami su savo organizacija bendrai naudoti naują ar išvestinę konfigūrac
 3. Patvirtinimo pranešimo lange pasirinkite **Taip**. 
 4. Jei reikia, atnaujinkite versijos aprašą ir pasirinkite **Gerai**. Taip pat galite pasirinktinai įkelti versiją į prijungtą programą arba į GIT saugyklą.  
 
-Konfigūracijos būsena atnaujinama į Bendrai **naudojama** ir konfigūracija nusiunčiama į visuotinę saugyklą. Taip pat sukuriama jūsų įkelta konfigūracijos juodraščio versija, kurią galima naudoti, jei reikia atlikti vėlesnius pakeitimus.
+Konfigūracijos būsena atnaujinta į Bendrai **naudojama**, o konfigūracija įkelta į visuotinę saugyklą. Taip pat sukuriama jūsų įkelta konfigūracijos juodraščio versija, kurią galima naudoti, jei reikia atlikti vėlesnius pakeitimus.
 
 Nusiuntę konfigūraciją į visuotinę saugyklą, su ja galite dirbti šiais būdais:
 

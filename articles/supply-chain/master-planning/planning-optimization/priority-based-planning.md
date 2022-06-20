@@ -1,6 +1,6 @@
 ---
 title: Prioritetu grindžiamas planavimas
-description: Šioje temoje aprašoma "Microsoft" prioritetu pagrįsta planavimo priemonė Dynamics 365 Supply Chain Management.
+description: Šiame straipsnyje aprašoma "Microsoft" prioritetu pagrįsta planavimo priemonė Dynamics 365 Supply Chain Management.
 author: t-benebo
 ms.date: 10/15/2021
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: bdca7ef99716cebee5c4eb41d1e51793b9468dd4
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 4997ba123f105f683daaa6b29fe8c5ee72cb47cb
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8468306"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873817"
 ---
 # <a name="priority-based-planning"></a>Prioritetu grindžiamas planavimas
 
 [!include [banner](../../includes/banner.md)]
 
-Šioje temoje aprašoma "Microsoft" prioritetu pagrįsta planavimo priemonė Dynamics 365 Supply Chain Management. Ši funkcija įtraukia poreikio planavimo, kuris yra vienas iš poreikio poreikių planavimo (DDMRP) žingsnio, palaikymą. Prioritetinis planavimas įgalina planavimo optimizavimą generuoti suplanuotus užsakymus, paremtus planavimo prioritetais, o ne poreikio datomis.
+Šiame straipsnyje aprašoma "Microsoft" prioritetu pagrįsta planavimo priemonė Dynamics 365 Supply Chain Management. Ši funkcija įtraukia poreikio planavimo, kuris yra vienas iš poreikio poreikių planavimo (DDMRP) žingsnio, palaikymą. Prioritetinis planavimas įgalina planavimo optimizavimą generuoti suplanuotus užsakymus, paremtus planavimo prioritetais, o ne poreikio datomis.
 
 Prioritetinis planavimas leidžia jums nustatyti papildymo užsakymų prioritetą siekiant užtikrinti, kad skubaus poreikio prioritetas būtų skubus, o ne toks svarbus poreikis. Pavyzdžiui, atsargų papildymo užsakymas bus laikomas prioritetu virš standartinio papildymo papildymo užsakymo. Sistema gali automatiškai išskaidyti didesnius užsakymus į atskirus mažesnius užsakymus, kai užsakymo eilutės grupuojami pagal prioritetą. Tada pirmiausia bus galima apdoroti visus didelio prioriteto užsakymus.
 
@@ -62,7 +62,7 @@ Naudojama ši formulė:
 
 Šioje formulėje *grynasis srautas* apskaičiuojamas taip:
 
-*Grynojo srauto positionOn-handOn-užsakymas* = *·* + *·* – apibrėžtas *poreikis*
+*Grynojo srauto* = *padėtis –* + *turimos atsargų užsakymas* – *reikalavimus atitinkantis poreikis*
 
 - *Užsakytas tiekimas* yra numatomas.
 - *Reikalavimus atitinkantis* poreikis nurodo grynuosius poreikius, kurių poreikio data yra planavimo laiko ribose.

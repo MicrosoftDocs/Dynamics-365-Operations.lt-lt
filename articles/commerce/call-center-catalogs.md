@@ -1,6 +1,6 @@
 ---
 title: Skambučių centro katalogai
-description: Šioje temoje aprašyta konkreti skambučių centro funkcija, skirta katalogams „Dynamics 365 Commerce“.
+description: Šiame straipsnyje aprašomos skambučių centrui konkrečios katalogų funkcijos Dynamics 365 Commerce.
 author: josaw1
 ms.date: 05/15/2018
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 6fae877b04fdbd84e1c2508f91bbf53b5412b350c5d2c8978aafb2d7f49783f6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 11af3c889e7e40e13f4aa8b3db97f544fbd20229
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6742517"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884061"
 ---
 # <a name="call-center-catalogs"></a>Skambučių centro katalogai
 
 [!include [banner](includes/banner.md)]
 
-Šioje temoje aprašyta konkreti skambučių centro funkcija, susieta su katalogo galimybėmis „Dynamics 365 Commerce“.
+Šiame straipsnyje aprašomos skambučių centro funkcijos, susietos su katalogo pajėgumais dalyje Dynamics 365 Commerce.
 
 „Commerce“ pateiktas katalogo funkcijas galima naudoti keliais tikslais. Iš pradžių katalogo funkcijos buvo sukurtos trečiosios šalies „e-Commerce“ integravimams palaikyti. Katalogo sąranka leido įmonėms kurti produktų ir atributų, kuriuos galima paskelbti išoriškai, kad juos vartotų trečiosios šalies „e-Commerce“ sprendimas, grupes.
 

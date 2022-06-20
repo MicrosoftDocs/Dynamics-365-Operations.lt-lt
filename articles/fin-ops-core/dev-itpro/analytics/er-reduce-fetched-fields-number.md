@@ -1,6 +1,6 @@
 ---
 title: Pagerinti ER sprendimų našumą, nes bus sumažintas vykdymo metu išrinktų lentelės laukų skaičius
-description: Šioje temoje paaiškinama, kaip galite padėti pagerinti našumą, sumažinę lentelių laukų, išrinktų vykdymo metu, skaičių.
+description: Šiame straipsnyje paaiškinama, kaip galite padėti pagerinti našumą, sumažinę lentelių laukų, išrinktų vykdymo metu, skaičių.
 author: NickSelin
 ms.date: 05/12/2022
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: dd192a7718ac4fd8bcb636ede6c005ca29ee5f08
-ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
+ms.openlocfilehash: eb76c415da87d421b8135a93b84f4e905f01e70d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/28/2022
-ms.locfileid: "8811833"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847457"
 ---
 # <a name="improve-performance-of-er-solutions-by-reducing-the-number-of-table-fields-that-are-fetched-at-runtime"></a>Pagerinti ER sprendimų našumą, nes bus sumažintas vykdymo metu išrinktų lentelės laukų skaičius
 
@@ -28,7 +28,7 @@ ms.locfileid: "8811833"
 
 Galite kurti elektroninių [ataskaitų](general-electronic-reporting.md) (ER) [formatus,](er-overview-components.md#format-components-for-outgoing-electronic-documents) kurie generuoja siunčiamus dokumentus įvairiais formatais. Kai dokumentas sugeneruotas, ER formatas išk taigi duomenų šaltinius, kurie buvo sukonfigūruoti atitinkamame ER modelio [susiejime](er-overview-components.md#model-mapping-component). Norėdami konfigūruoti prieigą prie programų lentelių, užklausų arba įrašų gavimo objektų, galite naudoti lentelės įrašų tipo ER *duomenų šaltinius*. Pagal numatytuosius nustatymus lentelės įrašų *tipo* duomenų šaltinis nuskaito visų prašomų įrašų laukų vertes. Tačiau šį duomenų šaltinio tipą galite konfigūruoti, kad jis rastos tik tos lauko vertės, kurios reikalingos vykdomame ER formate. Ši konfigūracija padeda sumažinti programos serverio, kuris nuskaito duomenis ir toliau registruoja duomenų kaupimą talpykloje, atminties suvartojimą.
 
-Norėdami daugiau sužinoti, kaip riboti lentelių *įrašų* tipo duomenų šaltinių išrinktų laukų sąrašą, užpildykite pavyzdį šioje temoje.
+Norėdami daugiau sužinoti, kaip apriboti šiame *straipsnyje* pateiktą duomenų šaltinių, kurių tipas Lentelės įrašai, išrinktų laukų sąrašą, atlikite pavyzdį.
 
 ## <a name="example-reduce-the-number-of-table-fields-that-are-fetched-at-runtime"></a>Pavyzdys: sumažinti lentelės laukų, kurie surenkami vykdymo metu, skaičių
 
@@ -49,7 +49,7 @@ Atlikite veiksmus, aprašytus skyriuje [Konfigūruoti ER sistemą](er-quick-star
 
 ### <a name="import-the-sample-er-configurations"></a>Pavyzdinių ER konfigūracijų importavimas
 
-Jei dar nebaigėte [pavyzdžio, naudodami naujo ER dizaino sprendimą, norėdami išspausdinti pasirinktinę ataskaitos temą, atsisiųskite ir vietoje saugokite toliau nurodytų ER](er-quick-start1-new-solution.md) sprendimo konfigūracijų XML failus.
+Jei dar nebaigėte [pavyzdžio, naudodami naujo ER dizaino sprendimą, norėdami išspausdinti pasirinktinį ataskaitos straipsnį, atsisiųskite ir vietoje saugokite toliau nurodytų ER](er-quick-start1-new-solution.md) sprendimo konfigūracijų XML failus.
 
 | Turinio aprašas            | Failo vardas |
 |--------------------------------|-----------|

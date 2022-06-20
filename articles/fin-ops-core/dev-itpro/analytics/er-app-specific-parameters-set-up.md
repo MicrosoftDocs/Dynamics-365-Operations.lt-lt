@@ -1,6 +1,6 @@
 ---
-title: ER formato parametrų nustatymas kiekvienam juridiniui subjektui
-description: Šioje temoje paaiškinama, kaip galite nustatyti modulio Elektroninės ataskaitos (ER) formato parametrus kiekvienam juridiniam subjektui.
+title: ER formato parametrų nustatymas kiekvienam juridiniam subjektui
+description: Šiame straipsnyje paaiškinama, kaip nustatyti juridinio subjekto elektroninės ataskaitos (ER) formato parametrus.
 author: NickSelin
 ms.date: 03/25/2022
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.3
-ms.openlocfilehash: f72ce72e9cbd268efc6ab09dbec7009794d69613
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.openlocfilehash: dbcf968dde432da182b5bd2d6a7bcb9f83dad6fa
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8644505"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890218"
 ---
 # <a name="set-up-the-parameters-of-an-er-format-per-legal-entity"></a>ER formato parametrų nustatymas kiekvienam juridiniui subjektui
 
@@ -30,7 +30,7 @@ ms.locfileid: "8644505"
 
 Norėdami atlikti šiuos veiksmus, pirmiausia turite atlikti veiksmus, aprašytus temoje [Kaip sukonfigūruoti, kad būtų naudojami ER formatų parametrai, nurodyti kiekvienam juridiniam subjektui](er-app-specific-parameters-configure-format.md).
 
-Norėdami užpildyti šios temos pavyzdžius, turite turėti prieigą prie Microsoft Dynamics "365 Finance" vienam iš šių vaidmenų:
+Norėdami užbaigti pavyzdžius šiame straipsnyje, turite turėti prieigą prie Microsoft Dynamics 365 finansų vienam iš toliau nurodytų vaidmenų:
 
 - Elektroninės ataskaitos kūrėjas
 - Elektroninės ataskaitos funkcijų konsultantas
@@ -221,12 +221,12 @@ Atkreipkite dėmesį, kad ER formato konkrečių programų parametrai priklauso 
 
 Šį metodą taip pat galite eksportuoti ar importuoti norėdami su ER formatu susijusius konkrečių programų parametrus, kurie iš pradžių buvo sukonfigūruoti viename „Finance“ egzemplioriuje, perkelti į kitą „Finance“ egzempliorių.
 
-Jei konfigūruojate programai bingus vienos ER formato versijos parametrus ir importuojate vėlesnę to paties formato versiją į dabartinį finansų egzempliorių, esami programai konkretūs parametrai nebus taikomi importuotai versijai, nebent **naudosite su programa konkrečius parametrus iš ankstesnių ER formatų priemonės** versijų. Daugiau informacijos žiūrėkite tolesniame šios temos skyriuje [Naudoti pakartotinai esančius parametrus](#reuse-existing-parameters).
+Jei konfigūruojate programai bingus vienos ER formato versijos parametrus ir importuojate vėlesnę to paties formato versiją į dabartinį finansų egzempliorių, esami programai konkretūs parametrai nebus taikomi importuotai versijai, nebent **naudosite su programa konkrečius parametrus iš ankstesnių ER formatų priemonės** versijų. Daugiau informacijos rasite toliau šiame straipsnyje [skyriuje Pakartotinai naudoti](#reuse-existing-parameters) esamus parametrus.
 
 Taip pat žinokite, kad, kai pasirenkate importuotiną failą, jo konkrečių programų parametrų struktūra palyginama su atitinkamo tipo **Peržvalga** duomenų šaltinių, esančio pasirinktame importuoti ER formate, struktūra. Pagal nutylėjimą, importavimas atliekamas, kai kiekvieno konkrečios programos parametro struktūra sutampa su atitinkamo duomenų šaltinio, esančio importuoti pasirinktame ER formate, struktūra. Jei struktūros nesutampa, gaunate įspėjamąjį pranešimą, kuriame nurodoma, kad atlikti negalima. Jei importavimą atliksite priverstinai, esami pasirinkto ER formato konkrečių programų parametrai bus išvalyti ir juos turėsite nustatyti nuo pradžių.
 
 
-Nuo "Finance" 10.0.24 versijos galite pakeisti numatytąjį veikimo būdą ir išvengti įspėjimo pranešimo gavimo įgalindami **gretinti ER programos specifinius parametrus importuodami** funkciją **darbo srityje Funkcijų valdymas**. Taip pat žinokite, kad, kai pasirenkate importuotiną failą, jo konkrečių programų parametrų struktūra palyginama su atitinkamo tipo Peržvalga duomenų šaltinių, esančio pasirinktame importuoti ER formate, struktūra.
+Kaip 10.0.24 finansų versiją galite pakeisti numatytąją elgseną ir, importuojant funkciją funkcijų valdymo darbo srityje, **išvengti įspėjimo pranešimų gavimo, įgalinant tam tikrus align ER** **programos** parametrus. Taip pat žinokite, kad, kai pasirenkate importuotiną failą, jo konkrečių programų parametrų struktūra palyginama su atitinkamo tipo Peržvalga duomenų šaltinių, esančio pasirinktame importuoti ER formate, struktūra.
 
 - Paskirties ER formato struktūra pakeista įtraukiant naujus sąlygos stulpelius į visus esamus peržvalgos tipo **duomenų** šaltinius. Kai importavimas baigiamas, atnaujinami specifinės programos parametrai. Visuose importuotus konkrečios programos parametrų įrašus, kiekvieno pridėtos sąlygos stulpelio vertės inicijuojamos to stulpelio [duomenų tipo](er-formula-supported-data-types-primitive.md) numatytąja verte.
 - Paskirties ER formato struktūra šalinant kai kurias naujus sąlygos stulpelius iš visus esamus peržvalgos tipo **duomenų** šaltinius. Kai importavimas baigiamas, atnaujinami specifinės programos parametrai. Visuose importuotus konkrečių programos parametrų įrašus, kiekvieno pašalintų sąlygų stulpelio vertės panaikinamos.
@@ -235,9 +235,9 @@ Nuo "Finance" 10.0.24 versijos galite pakeisti numatytąjį veikimo būdą ir i�
 
 Kai importavimas baigiamas, be ką tik aprašytų pakeitimų, importuotų programai parametrų būsena pakeičiama į **Vykdoma**. Įspėjamasis pranešimas informuoja, kad automatiškai pakoreguotus specifinės programos parametrus reikia redaguoti neautomatiniu būdu.
 
-#### <a name="replicate-parameters"></a>Atkartoti parametrus
+#### <a name="replicate-parameters"></a>Dubliuoti parametrus
 
-Nuo "Finance" 10.0.27 versijos galite kopijuoti parametrus, kuriuos sukonfigūravote vienoje įmonėje, į kitas įmones tuo pačiu metu.
+Kaip 10.0.27 finansų versiją, parametrus, kuriuos vienoje įmonėje sukonfigūravote, galite nukopijuoti į kitas įmones tuo pačiu metu.
 
 Norėdami kopijuoti parametrus, atlikite šiuos veiksmus.
 
@@ -246,22 +246,22 @@ Norėdami kopijuoti parametrus, atlikite šiuos veiksmus.
 3. Konfigūracijų medyje pasirinkite formatą **Mokymo, kaip peržvelgti LE duomenis, formatas**.
 4. Veiksmų srities skirtuko **Konfigūracijos** grupėje **Konkrečių programų parametrai** pasirinkite **Sąranka**.
 5. Pasirinkite ER formato versiją **1.1.1**.
-6. Veiksmų srityje pasirinkite **Replikuoti**.
-7. **Dialogo lango Replikuoti** skirtuke **Įmonės** pasirinkite įmones, į kurias norite kopijuoti parametrus.
+6. Veiksmų srityje pasirinkite **Dubliuoti**.
+7. Dialogo lango **Dubliuoti** skirtuke **Įmonės** pasirinkite įmones, į kurias norite kopijuoti parametrus.
 
     > [!NOTE]
-    > Tikslinių įmonių sąrašas siūlomas tik tiems vartotojams, kuriems priskirtas saugos [vaidmuo](../sysadmin/role-based-security.md#security-roles), sukonfigūruotas suteikti prieigą visoms organizacijoms.
+    > Paskirties įmonių sąrašas yra siūlomas tik vartotojams, kuriems priskirtas saugos [vaidmuo](../sysadmin/role-based-security.md#security-roles), kuris sukonfigūruotas suteikti prieigą visoms organizacijoms.
 
 8. Pasirinkite **Gerai**.
 
     > [!NOTE]
-    > Patvirtinimo dialogo lange informuojama, ar kai kuriose tikslinėse įmonėse yra anksčiau sukonfigūruotų pasirinktos ER formato versijos parametrų. Pasirinkite **Taip**, jei norite nepaisyti parametrų nukopijuodami juos iš dabartinės įmonės.
+    > Patvirtinimo dialogo lange jus informuos, jei kai kuriose paskirties įmonėse yra anksčiau konfigūruoti pasirinktos ER formato versijos parametrai. Pasirinkite **Taip**, jei norite nepaisyti parametrų nukopijuodami juos iš dabartinės įmonės.
 
-    Sukonfigūruotas konkrečios programos parametrų rinkinys dabar nukopijuojamas į pasirinktas įmones.
+    Sukonfigūruotas konkrečių programos parametrų rinkinys dabar kopijuojamas į pasirinktas įmones.
 
 ### <a name="reuse-existing-parameters"></a>Naudoti iš naujo esamus parametrus
 
-Nuo "Finance" 10.0.23 versijos galite pakartotinai naudoti konkrečios programos parametrus, kurie buvo sukonfigūruoti vienai ER formato versijai, kai paleidžiate aukštesnę to paties formato versiją. Norėdami pakartotinai naudoti esamus parametrus, darbo srityje Funkcijų valdymas įgalinkite **funkciją Naudoti konkrečios programos parametrus iš ankstesnių ER formatų versijų** **.** Kai ši funkcija įgalinta ir paleidžiate vieną ER formato versiją, kuri bando skaityti konkrečios programos parametrus, ER bandys rasti konkrečios programos parametrus, kurie buvo sukonfigūruoti vykdomai formato versijai. Jei jų nėra, ER bandys juos rasti artimiausiai žemesnei formato versijai.
+Kaip ir 10.0.23 finansų versiją, paleisę didesnę to paties formato versiją, galite iš naujo naudoti programai bingus parametrus, kurie buvo sukonfigūruoti vienai ER formato versijai. Norėdami pakartotinai naudoti esamus parametrus, funkcijų **valdymo darbo srityje įgalinkite parametrų funkciją Naudoti specialias programos parametrus iš ankstesnių** ER **formatų funkcijos** versijų. Kai ši funkcija įgalinta ir paleidžiate vieną ER formato versiją, kuri bando nuskaityti nuo programos priklausantius parametrus, ER bandys rasti programai bingus parametrus, kurie sukonfigūruoti naudoti formato paleidimo versiją. Jei jų nėra, ER bandys juos rasti pagal artimiausią apatinę formato versiją.
 
 > [!NOTE]
 > Konkrečiam prašymo parametrus galima naudoti tik dabartinio juridinio subjekto aprė srityje.

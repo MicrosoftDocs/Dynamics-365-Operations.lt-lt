@@ -1,6 +1,6 @@
 ---
 title: Mokesčių skaičiavimo apvalinimo taisyklės
-description: Šioje temoje pateikiama informacija apie mokesčių skaičiavimo tarnybos mokesčių skaičiavimo parametrų apvalinimo taisykles.
+description: Šiame straipsnyje pateikiama informacija apie mokesčių skaičiavimo tarnybos mokesčių skaičiavimo parametrų apvalinimo taisykles.
 author: kailiang
 ms.date: 07/29/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 167db4d836aa754509bb28677916a30901cebbbb
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 0f6182ab18a5a408a6e526feec7014ccdfce8af0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8694180"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8858307"
 ---
 # <a name="tax-calculation-rounding-rules"></a>Mokesčių skaičiavimo apvalinimo taisyklės
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje pateikiama informacija apie mokesčių skaičiavimo darbo mokesčių skaičiavimo parametrų apvalinimo taisykles.
+Šiame straipsnyje pateikiama informacija apie tai, kaip apvalinimo taisyklės veikia mokesčių skaičiavimo tarnybos mokesčių skaičiavimo parametruose.
 
 > [!NOTE] 
 > Kai mokesčių skaičiavimo tarnyba įgalinta, **Mokesčių kodo** ir **Mokesčių pardavimo grupės** puslapiai negalioja.

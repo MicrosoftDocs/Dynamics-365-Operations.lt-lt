@@ -1,6 +1,6 @@
 ---
 title: Nuomos mokesčių, susietų su indeksuojama palūkanų norma, pervertinimas
-description: Šioje temoje aprašomas pataisymas, kuris atliekamas išnuomojant atsakomybę už naudojimo teise valdomą turtą, kai kintantys lizingo mokėjimai pasikeičia dėl indeksuojamos palūkanų normos.
+description: Šiame straipsnyje aprašomas koregavimas, atliktas išperkant įsipareigojimus naudojimo dešinėje (RUBLI) turtui, kai kintantis nuomos mokėjimas dėl indekso tarifo pakeitimo.
 author: moaamer
 ms.date: 01/11/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 5abd1f5d265c6e8b53903e6df5c52a06b3468880
-ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
+ms.openlocfilehash: 8dc2325e9f0651bea0d70d9f66e5d88b741009f8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7968061"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903253"
 ---
 # <a name="revalue-lease-payments-that-are-linked-to-an-index-rate"></a>Nuomos mokesčių, susietų su indeksuojama palūkanų norma, pervertinimas
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje aprašomas pataisymas, kuris atliekamas išnuomojant atsakomybę už naudojimo teise valdomą turtą, kai kintantys lizingo mokėjimai pasikeičia dėl indeksuojamos palūkanų normos. Nuomos įsipareigojimas ir naudojimo teise valdomas turtas bus pakoreguoti taip, kad būtų atsižvelgta į naujas mokesčių sumas. Pagal apskaitos standartų kodifikavimas temą Nr. 842 (ASC 842), kuri yra standartas, priimtas JAV bendrai priimamuose apskaitos principuose (US GAAP), tik kintami mokėjimai pasikeičia, kai mokėjimai padidėja arba sumažėja dėl pasikeitusios indekso kainos, išskyrus atvejus, kai grynųjų pinigų srautai papildomi. Šie papildomi pakeitimai gali apimti nuomos sąlygų pokytį, susijusį su palūkanų normomis. Norėdami gauti daugiau informacijos, žr. ASC 842-10-55-225 ir tarptautinio finansinės atskaitomybės standarto Nr. 16 (IFRS 16) 42(b) dalį.
+Šiame straipsnyje aprašomas koregavimas, atliktas naudojimo teisės (RUBLI) turto nuomos įsipareigojimui, kai dėl indekso tarifo pakeitimo kinta kintamieji nuomos mokėjimai. Nuomos įsipareigojimas ir naudojimo teise valdomas turtas bus pakoreguoti taip, kad būtų atsižvelgta į naujas mokesčių sumas. Pagal apskaitos standartų kodifikavimas temą Nr. 842 (ASC 842), kuri yra standartas, priimtas JAV bendrai priimamuose apskaitos principuose (US GAAP), tik kintami mokėjimai pasikeičia, kai mokėjimai padidėja arba sumažėja dėl pasikeitusios indekso kainos, išskyrus atvejus, kai grynųjų pinigų srautai papildomi. Šie papildomi pakeitimai gali apimti nuomos sąlygų pokytį, susijusį su palūkanų normomis. Norėdami gauti daugiau informacijos, žr. ASC 842-10-55-225 ir tarptautinio finansinės atskaitomybės standarto Nr. 16 (IFRS 16) 42(b) dalį.
 
 ## <a name="adjust-lease-payments"></a>Nuomos mokėjimų koregavimas
 
@@ -67,6 +67,6 @@ Galite peržiūrėti naujai sugeneruotą įmokų grafiką, kuris pradedamas skai
 Žurnalo įrašas automatiškai užregistruoja derinimo žurnalo įrašą, skirtą pakeisti nuomos mokėjimus, susietus su indekso perkainojimu.
 
 > [!NOTE]
-> Jei paskirstymo mokėjimo sumos parinktis įgalinta informacijos apie nuomą puslapio Bendrajame FastTab, o susijusi knyga **yra** **·** **IFRS** 16, **indekso perkainojimo procesas automatiškai įtraukia įrašą į mokėjimo sumos išskaidimo** dialogo langą. Suma atspindės pakeitimą, kuris atliktas mokėjimui dėl indekso perkainojimo. Įrašas bus pažymėtas kaip Naudojamas **IRFS 16 indekso perkainojimui.**
+> **Jei paskirstymo mokėjimo** **sumos** parinktis įgalinta informacijos apie nuomą puslapio Bendrajame **FastTab**, o susijusi knyga yra IFRS 16, **indekso** perkainojimo procesas automatiškai įtraukia įrašą į mokėjimo sumos išskaidimo dialogo langą. Suma atspindės pakeitimą, kuris atliktas mokėjimui dėl indekso perkainojimo. Įrašas bus pažymėtas kaip Naudojamas **IRFS 16 indekso perkainojimui**.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

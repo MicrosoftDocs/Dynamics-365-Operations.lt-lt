@@ -1,6 +1,6 @@
 ---
-title: Įgalinti derinimo režimą mokesčių skaičiavimo tarnyboje
-description: Šioje temoje paaiškinama, kaip mokesčių skaičiavimo tarnyboje įgalinti derinimo režimą problemoms tirti.
+title: Įjungti mokesčių skaičiavimo paslaugos derinimo režimą
+description: Šiame straipsnyje paaiškinama, kaip įgalinti derinimo režimą mokesčių skaičiavimo tarnybose, kad būtų išnagrinėtos problemos.
 author: hangwan
 ms.date: 03/25/2022
 ms.topic: business-process
@@ -13,21 +13,21 @@ ms.search.region: Global
 ms.author: hangwan
 ms.search.validFrom: 03/23/2022
 ms.dyn365.ops.version: Version 10.0.21
-ms.openlocfilehash: 2f526a2341c7ef682209ed979fe686e31ad62a37
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.openlocfilehash: 2bb381939ebe32cb51caf730cdd441557d83a4c0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8648159"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887791"
 ---
-# <a name="enable-debug-mode-in-the-tax-calculation-service"></a>Įgalinti derinimo režimą mokesčių skaičiavimo tarnyboje
+# <a name="enable-debug-mode-in-the-tax-calculation-service"></a>Įjungti mokesčių skaičiavimo paslaugos derinimo režimą
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje paaiškinama, kaip įgalinti mokesčių skaičiavimo tarnybos derinimo režimą problemoms tirti.
+Šiame straipsnyje paaiškinama, kaip įgalinti derinimo režimą mokesčių skaičiavimo tarnybose, kad būtų išnagrinėtos problemos.
 
-1. Įtraukite **& debug=vsCconfirmExit%2&** į programos objektų serverio (AOS) URL ir atnaujinkite puslapį.
-2. Kai pasirenkate **PVM** PVM apskaičiuoti, atidaromas tekstinis failas, pavadintas **TaxServiceTroubleshootingLog.txt**. Faile **TaxServiceTroubleshootingLog.txt** yra **TaxableDocument** ir skaičiavimo parametras. Šie rezultatai grąžinami iš mokesčių tarnybos ir išimčių informacijos trikčių šalinimui.
+1. Įtraukti **&debug=vs%2 CconfirmExit&** į programos objektų serverio (AOS) URL ir tada atnaujinti puslapį.
+2. Pasirinkus apskaičiuoti PVM **atidaromas** tekstinis failas, **pavadintas TaxServiceTroubleshootingLog.txt**. Faile **TaxServiceTroubleshootingLog.txt** yra **TaxableDocument ir** skaičiavimo parametras. Šie rezultatai pateikiami iš mokesčių tarnybos ir informacija apie išimtį, skirta trikčių šalinimui.
 
 ## <a name="sample"></a>Pavyzdys
 

@@ -1,6 +1,6 @@
 ---
 title: Siuntos konsolidacijos strategijų konfigūravimas
-description: Šioje temoje paaiškinama, kaip nustatyti numatytąsias ir pasirinktines siuntos konsolidacijos strategijas.
+description: Šiame straipsnyje paaiškinama, kaip nustatyti numatytąsias ir pasirinktines siuntos konsolidavimo strategijas.
 author: Mirzaab
 ms.date: 05/12/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: 0a575648c0e6f5d0e3b9fb03ea6f47252837bf9c
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: f793cb71ff52e49534e1f11b06132f2e20610d7c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8672576"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845930"
 ---
 # <a name="configure-shipment-consolidation-policies"></a>Siuntos konsolidacijos strategijų konfigūravimas
 
@@ -26,21 +26,21 @@ ms.locfileid: "8672576"
 
 Siuntos konsolidacijos procesas, naudojantis siuntos konsolidacijos strategijas, sudaro galimybę automatizuotai siuntos konsolidacijai automatizuoto ir rankinio paleidimo į sandėlį metu. Įjungę šią funkciją, turite sukonfigūruoti pradines strategijas. Jei strategijos nesukonfigūruotos, kiekviena pardavimo eilutė sugeneruos atskirą siuntą, turinčią vieną krovinio eilutę.
 
-Šioje temoje pateikiami scenarijai rodo, kaip nustatyti numatytąsias ir pasirinktines siuntos konsolidacijos strategijas.
+Scenarijai, pateikti šiame straipsnyje, parodo, kaip nustatyti numatytąsias ir pasirinktines siuntos konsolidavimo strategijas.
 
 ## <a name="turn-on-the-shipment-consolidation-policies-feature"></a>Siuntos konsolidacijos strategijų funkcijos įjungimas
 
 > [!IMPORTANT]
-> Pagal [pirmąjį scenarijų](#scenario-1), aprašytą šioje temoje, pirmiausia nustatysite sandėlį, kad jis naudotų ankstesnę siuntos konsolidacijos funkciją. Tada padarysite siuntos konsolidacijos strategijas pasiekiamomis. Tokiu būdu galite išbandyti naujinimo scenarijaus veikimą. Jeigu planuojate naudoti demonstracinių duomenų aplinką pirmojo scenarijaus vykdyme, neįjunkite funkcijos prieš scenarijaus vykdymą.
+> Pirmame [scenarijuje](#scenario-1), kuris aprašytas šiame straipsnyje, pirmiausia turėsite nustatyti sandėlį, kad jis naudos ankstesnę siuntos konsolidavimo priemonę. Tada padarysite siuntos konsolidacijos strategijas pasiekiamomis. Tokiu būdu galite išbandyti naujinimo scenarijaus veikimą. Jeigu planuojate naudoti demonstracinių duomenų aplinką pirmojo scenarijaus vykdyme, neįjunkite funkcijos prieš scenarijaus vykdymą.
 
 Kad galėtumėte naudoti funkciją *Siuntos konsolidacijos strategijos*, turite ją įjungti jūsų sistemoje. Administratoriai gali naudoti [funkcijos valdymas](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) parametrus, norėdami sužinoti funkcijos būseną ir įjungti ją. Darbo srityje **Funkcijų valdymas** ši funkcija yra nurodyta toliau pateikiamu būdu.
 
 - **Modulis:** *sandėlio valdymas*
 - **Funkcijos pavadinimas:** *Konsoliduoti siuntą*
 
-## <a name="make-demo-data-available"></a>Leidimas naudoti demonstracinius duomenis
+## <a name="make-demo-data-available"></a>Demonstracinių duomenų įgalinimas
 
-Kiekvienas šioje temoje esantis scenarijus nurodo reikšmes ir įrašus, įtrauktus į standartinius „Microsoft Dynamics 365 Supply Chain Management” demonstracinius duomenis. Jei norite naudoti čia pateiktas reikšmes atlikdami pratimus, įsitikinkite, kad dirbate aplinkoje, kurioje įdiegti demonstraciniai duomenys, ir prieš pradėdami nustatykite juridinį subjektą į **USMF**.
+Kiekvienas scenarijus šiame straipsnyje nurodo vertes ir įrašus, kurie yra įtraukti į standartinius demonstracinius duomenis, kurie pateikiami "Microsoft"Dynamics 365 Supply Chain Management. Jei norite naudoti čia pateiktas reikšmes atlikdami pratimus, įsitikinkite, kad dirbate aplinkoje, kurioje įdiegti demonstraciniai duomenys, ir prieš pradėdami nustatykite juridinį subjektą į **USMF**.
 
 ## <a name="scenario-1-configure-default-shipment-consolidation-policies"></a><a name="scenario-1"></a>1 scenarijus: numatytųjų siuntos konsolidacijos strategijų konfigūravimas
 
@@ -339,7 +339,7 @@ Dabar, kai sukūrėte visas strategijas, turite nustatyti tvarką, kuria jos bus
 
 ## <a name="example-scenarios-of-how-to-use-shipment-consolidation-policies"></a><a name="example-scenarios"></a> Scenarijų, kaip naudoti siuntų konsolidacijos strategijas, pavyzdžiai
 
-Tolesniuose scenarijuose vaizduojama, kaip galima naudoti siuntų konsolidacijos strategijas, kurias sukūrėte skaitydami šią temą. Kiekvienas scenarijus apžvelgia siuntos konsolidacijos procesą, naudojantį siuntos konsolidacijos strategijas automatizuoto ar rankinio paleidimo į sandėlį metu.
+Toliau pateiktame scenarijuje iliustruojama, kaip galite naudoti siuntos konsolidavimo strategijas, kurias sukūrėte skaitant šį straipsnį. Kiekvienas scenarijus apžvelgia siuntos konsolidacijos procesą, naudojantį siuntos konsolidacijos strategijas automatizuoto ar rankinio paleidimo į sandėlį metu.
 
 - 1 scenarijus: [siuntų konsolidacija jas paleidus į sandėlį naudojant automatinį pardavimo užsakymų išleidimą](../warehousing/consolidate-shipments-automatic.md)
 - 2 scenarijus: [siuntų konsolidacija, kai siuntos konsolidacijos strategija perrašyta iš išleidimo į sandėlio puslapį](../warehousing/consolidate-shipments-release-to-warehouse-override.md)

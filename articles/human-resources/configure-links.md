@@ -1,6 +1,6 @@
 ---
 title: Kurti saitus iš Personalo į kitą aplinką
-description: Šioje temoje paaiškinama, kaip sukurti Microsoft saitą su Dynamics 365 Human Resources kita "Dynamics 365" aplinka.
+description: Šiame straipsnyje paaiškinama, kaip sukurti "Microsoft Dynamics 365 Human Resources " saitą su kita "Dynamics 365" aplinka.
 author: twheeloc
 ms.date: 03/18/2022
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2021-29-11
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d20eef4b4861d85ead1d47ca493c3a5c2d2d85e8
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 0c9efae1061e96c0c42d5ca6a100bb36889ce56b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8712788"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859672"
 ---
 # <a name="create-links-from-human-resources-to-another-finance-environment"></a>Kurti saitus iš Personalo į kitą finansų aplinką
 

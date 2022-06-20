@@ -1,6 +1,6 @@
 ---
 title: Surinkimo informacijos peržiūra
-description: Ši procedūra padės peržiūrėti mokėjimų priežiūros informaciją, taip pat įvairias sąrankos parinktis ir mokėjimų priežiūros operacijas.
+description: Šiame straipsnyje paaiškinama, kaip peržiūrėti mokėjimų priežiūros informaciją bei įvairias nustatymo parinktis ir mokėjimų priežiūros operacijas.
 author: ShivamPandey-msft
 ms.date: 08/01/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4d0cb09eb6ac455d72e9dd051065625475581416
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 6a6916690b9571fcfe103506960032e19fe724df
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725043"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876217"
 ---
 # <a name="review-collections-information"></a>Surinkimo informacijos peržiūra
 
 [!include [banner](../../includes/banner.md)]
 
-Ši procedūra padės peržiūrėti mokėjimų priežiūros informaciją, taip pat įvairias sąrankos parinktis ir mokėjimų priežiūros operacijas. Šioje procedūroje naudojama demonstracinė įmonė USMF.
+Šiame straipsnyje paaiškinama, kaip peržiūrėti mokėjimų priežiūros informaciją bei įvairias nustatymo parinktis ir mokėjimų priežiūros operacijas. Šioje procedūroje naudojama demonstracinė įmonė USMF.
 
 ## <a name="create-customer-pools"></a>Kurti klientų telkinį
 1. Pasirinkite **Moduliai > Kreditas ir mokėjimai > Sąranka > Klientų telkiniai**.

@@ -1,6 +1,6 @@
 ---
 title: ER formato kūrimas norint, kad eilutės išliktų tame pačiame „Excel“ puslapyje
-description: Šioje temoje paaiškinama, kaip sukurti elektroninių ataskaitų (ER) formatą, pagal kurį eilutės bus išlaikomos tame pačiame Microsoft Excel puslapyje.
+description: Šiame straipsnyje paaiškinama, kaip sukurti elektroninės ataskaitos (ER) formatą, pagal kurį eilutės bus vienu metu sujungtos tame pačiame Microsoft Excel puslapyje.
 author: NickSelin
 ms.date: 02/28/2022
 ms.topic: article
@@ -15,23 +15,23 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2022-03-01
 ms.dyn365.ops.version: Version 10.0.26
-ms.openlocfilehash: 06782a4933fb5c3e86ad436b853f207fd3d5cddb
-ms.sourcegitcommit: 2977e92a76211875421e608555311c363cfbdc25
+ms.openlocfilehash: 98e6dd4f926908f65239f3e4f3608f9c9408f9d1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/16/2022
-ms.locfileid: "8612376"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854675"
 ---
 # <a name="design-an-er-format-to-keep-rows-together-on-the-same-excel-page"></a>ER formato kūrimas norint, kad eilutės išliktų tame pačiame „Excel“ puslapyje
 
 [!include [banner](../includes/banner.md)]
 
 
-Šioje temoje paaiškinama, kaip sistemos administratoriaus arba elektroninio ataskaitų funkcinės [konsultanto](general-electronic-reporting.md) vaidmens vartotojas gali konfigūruoti elektroninės ataskaitos (ER) [formatą](er-overview-components.md#format-component) Microsoft Excel, kuris generuoja siunčiamus dokumentus ir valdo dokumentų puslapių temą, kad sukurtos eilutės būtų laikomos tame pačiame puslapyje.
+[Šiame straipsnyje paaiškinama, kaip sistemos administratoriaus arba elektroninio ataskaitų funkcinės](general-electronic-reporting.md) konsultanto vaidmens vartotojas gali konfigūruoti elektroninės ataskaitos (ER) [formatą](er-overview-components.md#format-component) Microsoft Excel, kuris generuoja siunčiamus dokumentus ir valdo dokumentų puslapių są tam, kad sukurtos eilutės būtų laikomos tame pačiame puslapyje.
 
 Šiame pavyzdyje jūs pakeisite "Microsoft" pateiktą ER formatą, kuris naudojamas laisvos formos SF spausdinti Excel formatu. Jūsų pakeitimai leis jums valdyti sugeneruotos laisvos formos SF ataskaitos puslapių numeraciją, kad visos vienos SF eilutės būtų laikomos tame pačiame puslapyje, kai įmanoma.
 
-Šios temos procedūros gali būti atliktos naudojant **„USMF”** įmonę. Kodavimas nebūtinas.
+Šiame straipsnyje nurodytas procedūras galima atlikti JAVMF **įmonėje**. Kodavimas nebūtinas.
 
 Šiame pavyzdyje jūs sukursite reikalingas [Litware](general-electronic-reporting.md#Configuration), Inc.**pavyzdžio įmonės ER** konfigūracijas. Įsitikinkite, kad **Litware, Inc.** (`http://www.litware.com`) PAVYZDŽIO įmonės konfigūracijos teikėjas yra įtrauktas į ER sistemos sąrašą ir kad jis pažymėtas kaip **Aktyvus**. Jei šio konfigūracijos teikėjo nėra arba **jei** jis nepažymėtas kaip Aktyvus, [atlikite konfigūracijos teikėjo kūrimo veiksmus ir pažymėkite jį kaip aktyvų](tasks/er-configuration-provider-mark-it-active-2016-11.md).
 
@@ -73,7 +73,7 @@ Norėdami [sukonfigūruoti](er-quick-start1-new-solution.md#ConfigureDestination
 
     ![Excel darbalaukio programoje peržiūrima sugeneruotos laisvos formos SF puslapių numeracija.](./media/er-keep-excel-rows-together-invoice1.gif)
 
-Likusios šios temos procedūros rodo, kaip galite derinti standartinį ER formatą, kad pagerinti SF ataskaitos peržvalgą ir perskaitytumą, tame pačiame puslapyje išlaikydami visą vienos SF eilutės turinį.
+Likusios šio straipsnio procedūros rodo, kaip galite derinti standartinį ER formatą, kad pagerinti SF ataskaitos peržvalgą ir perskaitytumą, tame pačiame puslapyje išlaikydami visą vienos SF eilutės turinį.
 
 ## <a name="create-a-custom-format"></a>Sukurkite pritaikytą formatą
 

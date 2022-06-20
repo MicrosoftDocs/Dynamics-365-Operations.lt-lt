@@ -1,6 +1,6 @@
 ---
 title: Sandėlio parametrai bangos apdorojimui
-description: Šioje temoje aprašoma, kaip nustatyti sandėlio parametrus bangos apdorojimui. Galite naudoti bangos apdorojimą norėdami grupuoti kelių darbo užsakymų išrinkimo darbą į vieną bangą.
+description: Šiame straipsnyje aprašoma, kaip nustatyti sandėlio parametrus bangai apdoroti. Galite naudoti bangos apdorojimą norėdami grupuoti kelių darbo užsakymų išrinkimo darbą į vieną bangą.
 author: Mirzaab
 ms.date: 03/08/2021
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-08
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: c259ff6c5a2f1190afb82c2ab7ecdc99e2b05846
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 2a64cba837faf84f3e8470a9831d1641213a5cc4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8695513"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909618"
 ---
 # <a name="warehouse-parameters-for-wave-processing"></a>Sandėlio parametrai bangos apdorojimui
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje aprašoma, kaip nustatyti sandėlio parametrus bangos apdorojimui. Galite naudoti bangos apdorojimą norėdami grupuoti kelių darbo užsakymų išrinkimo darbą į vieną bangą.
+Šiame straipsnyje aprašoma, kaip nustatyti sandėlio parametrus bangai apdoroti. Galite naudoti bangos apdorojimą norėdami grupuoti kelių darbo užsakymų išrinkimo darbą į vieną bangą.
 
 Norėdami naudoti bangos apdorojimą, puslapyje **Sandėlio valdymo parametrai** nurodykite:
 

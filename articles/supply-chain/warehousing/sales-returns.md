@@ -1,6 +1,6 @@
 ---
 title: Pardavimo grąžinimai
-description: Šioje temoje pateikiama informacija apie grąžinimo užsakymų procesą. Ji apima informaciją apie klientų grąžinimus ir jų poveikį įkainojimui ir turimų atsargų kiekiui.
+description: Šiame straipsnyje pateikiama informacija apie grąžinimo užsakymų procesą. Ji apima informaciją apie klientų grąžinimus ir jų poveikį įkainojimui ir turimų atsargų kiekiui.
 author: Mirzaab
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 672f24a720f48c420916c197722eb2d9599744fa
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 9e8045ec39b9caf9bf0dc2b2d331419efb54e6d6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8695569"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860412"
 ---
 # <a name="sales-returns"></a>Pardavimo grąžinimai
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje pateikiama informacija apie grąžinimo užsakymų procesą. Ji apima informaciją apie klientų grąžinimus ir jų poveikį įkainojimui ir turimų atsargų kiekiui.
+Šiame straipsnyje pateikiama informacija apie grąžinimo užsakymų procesą. Ji apima informaciją apie klientų grąžinimus ir jų poveikį įkainojimui ir turimų atsargų kiekiui.
 
 Klientai gali grąžinti prekes dėl įvairių priežasčių. Pvz., prekė gali turėti defektų arba gali neatitikti kliento lūkesčių. Grąžinimo užsakymo procesas prasideda, kai klientas pakeikia prašymą gražinti prekę. Gavus kliento prašymą, sukuriamas grąžinimo užsakymas.
 
@@ -84,7 +84,7 @@ Užbaigę grąžinimo antraštę, galite kurti grąžinimo eilutes pagal vieną 
 -   Grąžinimo eilutę kurkite naudodami funkciją **Rasti pardavimo užsakymą**. Rekomenduojame naudoti šią funkciją, kai kursite grąžinimo užsakymą. Funkcija **Rasti pardavimo užsakymą** sukuria nuorodą iš grąžinimo eilutės į pardavimo užsakymo eilutę, kuriai išrašyta SF, ir iš pardavimo eilutės nuskaito eilutės informaciją, pvz., prekės numeris, kiekis, kaina, nuolaida ir savikainos vertes. Nuoroda padeda užtikrinti, kad kai produktas grąžinamas įmonei, jis įvertintas tokia pat savikaina, kokia ir buvo parduotas. Nuoroda taip pat patvirtinama, kad grąžinimo užsakymų nesukuriama tiek, kad kiekis viršytų sąskaitoje faktūroje nurodytą kiekį.
 
 >[!NOTE] 
->Grąžinimo eilutės, kuriose yra nuoroda į pardavimo užsakymą, tvarkomos kaip pardavimo pataisos arba atšaukimas. Išsamesnės informacijos žr. skyriuje „Registravimas į didžiąją knygą“ toliau šioje temoje.
+>Grąžinimo eilutės, kuriose yra nuoroda į pardavimo užsakymą, tvarkomos kaip pardavimo pataisos arba atšaukimas. Daugiau informacijos rasite toliau šiame straipsnyje skyriuje Registruoti DK.
 
 ### <a name="charges"></a>Išlaidos
 
@@ -179,7 +179,7 @@ Prieš fiziškai gaunant grąžinamas prekes į sandėlį užregistravus važtar
 
 [![Gavimo procesas.](./media/salesreturn03.png)](./media/salesreturn03.png)  
 
-Šis procesas turi kelis variantus, kurie šioje temoje neaptariami. Toliau pateikiamos kai kurie iš šių variantų.
+Šiame straipsnyje neapsiųstas procesas turi keletą kitų variantų. Toliau pateikiamos kai kurie iš šių variantų.
 
 -   Nenaudokite sąrašo **Gavimo apžvalga** Gavimo žurnalui sukurti. Gavimo žurnalą sukurkite rankiniu būdu. Grąžinimo užsakymuose kaip nuoroda bus **Pardavimo užsakymas**.
 -   Jei naudojate Sandėlio valdymą, sugeneruokite padėklų transportavimą. Padėklų transportavimo metu grąžinimo eilutės būsena bus **Gauta**.

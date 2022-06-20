@@ -1,6 +1,6 @@
 ---
 title: Produkto konfigūravimo pagal apribojimus atributais pagrįstos pardavimo kainos
-description: Šioje temoje aprašoma, kaip sukurti pardavimo kainos modelius, kurių pardavimo kainos pagrįstos komponentais ir atributais, o ne faktine komplektavimo specifikacija ir maršrutu.
+description: Šiame straipsnyje aprašoma, kaip kurti pardavimo kainos modelius naudojant pardavimo kainas remiantis komponentais ir atributais, o ne faktinėje komplektavimo specifikacijoje ir maršrute.
 author: t-benebo
 ms.date: 10/2/2020
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-08-17
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: e50b2d1e9ccf03a58e0ddf6d4ecfb34c6c504161
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 456c7399f981e41ea452f1a6a8e30e9e12e0be54
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577461"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857467"
 ---
 # <a name="attribute-based-sales-prices-for-constraint-based-product-configuration"></a>Produkto konfigūravimo pagal apribojimus atributais pagrįstos pardavimo kainos
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje aprašoma, kaip sukurti pardavimo kainos modelius, kurių pardavimo kainos pagrįstos komponentais ir atributais, o ne faktine komplektavimo specifikacija ir maršrutu. Galite sukurti kelis kiekvieno produkto konfigūracijos modelio pardavimo kainos modelius.
+Šiame straipsnyje aprašoma, kaip kurti pardavimo kainos modelius naudojant pardavimo kainas remiantis komponentais ir atributais, o ne faktinėje komplektavimo specifikacijoje ir maršrute. Galite sukurti kelis kiekvieno produkto konfigūracijos modelio pardavimo kainos modelius.
 
 ## <a name="set-relevant-product-information-management-parameters"></a>Tinkamų produkto informacijos valdymo parametrų nustatymas
 

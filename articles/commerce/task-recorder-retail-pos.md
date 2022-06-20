@@ -1,6 +1,6 @@
 ---
 title: „Retail Modern POS“ (MPOS) ir „Cloud POS“ užduočių įrašymo priemonė bei žinynas
-description: Šioje temoje aprašoma, kaip naudoti užduočių įrašymo priemonę „Retail Modern POS“ ir „Cloud POS“.
+description: Šiame straipsnyje aprašoma, kaip naudoti užduočių įrašymo priemonę ir " Retail Modern POS Cloud POS".
 author: mugunthanm
 ms.date: 06/19/2017
 ms.topic: article
@@ -16,20 +16,20 @@ ms.search.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: aedf18ef8b3d7266f3e5c7acd676241f9ec8b900f061f5363cd8d581062e83ed
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f9f3e17a6c67dc1cc1d4ba423ce258f2ed1d1ec0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6730760"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847605"
 ---
 # <a name="task-recorder-and-help-for-retail-modern-pos-mpos-and-cloud-pos"></a>„Retail Modern POS“ (MPOS) ir „Cloud POS“ užduočių įrašymo priemonė bei žinynas
 
 [!include [banner](includes/banner.md)]
 
-Šioje temoje aprašoma, kaip naudoti užduočių įrašymo priemonę „Retail Modern POS“ ir „Cloud POS“.
+Šiame straipsnyje aprašoma, kaip naudoti užduočių įrašymo priemonę ir " Retail Modern POS Cloud POS".
 
-## <a name="overview"></a>Peržiūra
+## <a name="overview"></a>Apžvalga
 
 Užduoties registratorius „Retail Modern POS“ ar „Cloud POS“ yra naujas sprendimas, kuris buvo sukurtas koncentruojantis į greitą reagavimą. Ji pateikia lanksčią tarnybos programavimo sąsają (API), kuri užtikrina išplėtimą ir sklandų integravimą su verslo proceso įrašų vartotojais. Be to, pristatytas užduočių įrašymo priemonės integravimas su „Microsoft Dynamics Lifecycle Services“ verslo procesų modeliavimo (BPM) įrankiu ([https://bpm.lcs.dynamics.com](https://bpm.lcs.dynamics.com/)). Todėl vartotojai gali toliau iš įrašų kurti vaizdingas verslo procesų diagramas, kad galėtų analizuoti ir kurti savo programas.
 
@@ -139,7 +139,7 @@ Tam, kad tinkinti užduočių įrašai būtų pateikiami „Retail Modern POS“
 
 [![Mygtukas Pagalba.](./media/help.jpg)](./media/help.jpg)
 
-Ieškos rezultatuose spustelėjus užduočių vedlį, veiksmus galima peržiūrėti kaip žinyno temą arba eksportuoti į „Word“ dokumentą.
+Kai ieškos rezultatuose spustelite Užduoties vadovą, galite peržiūrėti veiksmus kaip žinyno straipsnį arba eksportuoti veiksmus į "Word" dokumentą.
 
 > [!NOTE]
 > „Retail Modern POS“ ir „Cloud POS“ žinyno sistema neatidarys užduočių vedlių pagal jūsų atidarytą formą ar atliekamą operaciją. Proceso pavadinimą turite įvesti į ieškos lauką ir spustelėti **Ieškoti**.

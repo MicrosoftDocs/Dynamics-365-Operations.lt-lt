@@ -1,6 +1,6 @@
 ---
 title: Didelių dokumentų, sugeneruotų elektroninėse ataskaitose, glaudinimas
-description: Šioje temoje paaiškinama, kaip glaudinti didelius dokumentus, sugeneruotus naudojant elektroninių ataskaitų (ER) formatą.
+description: Šiame straipsnyje paaiškinama, kaip glaudinti didelius dokumentus, sugeneruotus elektroninės ataskaitos (ER) formatu.
 author: NickSelin
 ms.date: 09/11/2020
 ms.topic: article
@@ -15,25 +15,25 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 7ef8f730f2e207a8fd28c2bf5167d14f57d6c607314bfc48d4358a59d3ef5c43
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9a4995879717e715f8ebadb6a80e00949df7545c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718604"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8864813"
 ---
 # <a name="compress-large-documents-that-are-generated-in-electronic-reporting"></a>Didelių dokumentų, sugeneruotų elektroninėse ataskaitose, glaudinimas 
 
 [!include [banner](../includes/banner.md)]
 
-Galite naudoti [Elektroninę ataskaitų (ER) sistemą](general-electronic-reporting.md) norėdami sukonfigūruoti sprendimą, kuris iškviečia operacijų duomenis, kad būtų sugeneruotas siunčiamas dokumentas. Šis sugeneruotas dokumentas gali būti gana didelis. Kai šio tipo dokumentas sugeneruojamas, [Programos objektų serverio (AOS)](../dev-tools/access-instances.md#location-of-packages-source-code-and-other-aos-configurations) atmintis naudojama jo laikymui. Tam tikru momentu dokumentas tada turi būti atsisiųstas iš jūsų „Microsoft Dynamics 365 Finance” programos. Šiuo metu didžiausias vieno dokumento, sugeneruoto ER, dydis ribojamas iki 2 gigabaitų (GB). Be to, „Finance” šiuo metu [riboja](https://fix.lcs.dynamics.com/Issue/Details?kb=4569432&bugId=453907&dbType=3) atsisiųsto failo dydį iki 1 GB. Todėl turite sukonfigūruoti ER sprendimą, kuris sumažina tikimybę, kad šie apribojimai bus viršyti, o jūs gausite **Srautas tęsėsi per ilgai** arba **Srautas perkrautas arba nepakankamas aritmetinėje operacijoje** išimtį.
+Galite naudoti [Elektroninę ataskaitų (ER) sistemą](general-electronic-reporting.md) norėdami sukonfigūruoti sprendimą, kuris iškviečia operacijų duomenis, kad būtų sugeneruotas siunčiamas dokumentas. Šis sugeneruotas dokumentas gali būti gana didelis. Kai šio tipo dokumentas sugeneruojamas, [Programos objektų serverio (AOS)](../dev-tools/access-instances.md#location-of-packages-source-code-and-other-aos-configurations) atmintis naudojama jo laikymui. Tuomet dokumentą reikia atsisiųsti iš programos " Microsoft Dynamics 365" finansai. Šiuo metu didžiausias vieno dokumento, sugeneruoto ER, dydis ribojamas iki 2 gigabaitų (GB). Be to, „Finance” šiuo metu [riboja](https://fix.lcs.dynamics.com/Issue/Details?kb=4569432&bugId=453907&dbType=3) atsisiųsto failo dydį iki 1 GB. Todėl turite sukonfigūruoti ER sprendimą, kuris sumažina tikimybę, kad šie apribojimai bus viršyti, o jūs gausite **Srautas tęsėsi per ilgai** arba **Srautas perkrautas arba nepakankamas aritmetinėje operacijoje** išimtį.
 
 Kai konfigūruojate sprendimą, galite pakoreguoti savo ER formatą Operacijų dizaino įrankyje pridėdami **Aplanko** tipo šakninį elementą, kad suglaudintumėte turinį, kurį sugeneravo bet kuris jo įdėtųjų elementų. Glaudinimas vyksta „reikiamu laiku”, kad intensyviausias atminties naudojimas ir failo, kuris bus atsisiųstas, dydis galėtų būti sumažinti.
 
 > [!NOTE]
 > Failo glaudinimas sunaudoja papildomą CPU naudojimo procentą.
 
-Norėdami sužinoti daugiau apie šį metodą, atlikite šioje temoje esantį pavyzdį.
+Norėdami gauti daugiau informacijos apie šį būdą, šiame straipsnyje užpildykite pavyzdį.
 
 ## <a name="example-compress-an-outbound-document"></a>Pavyzdys: Siunčiamo dokumento glaudinimas
 
@@ -41,7 +41,7 @@ Norėdami sužinoti daugiau apie šį metodą, atlikite šioje temoje esantį pa
 
 ### <a name="prerequisites"></a>Būtinieji komponentai
 
-Prieš vykdydami šioje temoje esančias procedūras, turite atlikti toliau nurodytus veiksmus.
+Prieš pabaigdami šiame straipsnyje nurodytas procedūras, turite atlikti šiuos veiksmus.
 
 1. [Aktyvuoti konfigūracijos tiekėją](er-defer-xml-element.md#activate-a-configuration-provider).
 2. [Importuoti pavyzdines ER konfigūracijas](er-defer-xml-element.md#import-the-sample-er-configurations).

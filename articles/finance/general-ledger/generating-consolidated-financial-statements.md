@@ -1,6 +1,6 @@
 ---
 title: Konsoliduotų finansinių ataskaitų generavimas
-description: Šioje temoje aprašomi įvairūs atvejai, kuriais galite generuoti konsoliduotas finansines ataskaitas.
+description: Šiame straipsnyje aprašomi įvairūs scenarijai, kuriuose galite generuoti konsoliduotąsias finansines ataskaitas.
 author: aprilolson
 ms.date: 07/09/2018
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 092123d6f5f74d2ff160f2ebffdc2c049ccc3f65
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: c6a132b742414a3dab635634c7bb5ba0dbea527d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8716529"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846805"
 ---
 # <a name="generate-consolidated-financial-statements"></a>Konsoliduotų finansinių ataskaitų generavimas
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje aprašomi įvairūs atvejai, kuriais galite generuoti konsoliduotas finansines ataskaitas.
+Šiame straipsnyje aprašomi įvairūs scenarijai, kuriuose galite generuoti konsoliduotąsias finansines ataskaitas.
 
 ## <a name="single-level-and-multilevel-consolidations-across-legal-entities"></a>Vieno lygio ir kelių lygių konsolidavimas keliuose juridiniuose subjektuose
 Paprasčiausias konsolidavimo naudojant finansines ataskaitas būdas yra naudoti ataskaitų medžius ir agreguoti duomenis visose įmonėse, kurių sąskaitų planai ir ataskaitiniai laikotarpiai sutampa. Toliau nurodyti aukšto lygio veiksmai, skirti konsoliduoti naudojant ataskaitų medį.
@@ -153,7 +153,7 @@ Tolesnėje iliustracijoje rodomos ataskaitos aprašo parinktys, kurias naudodami
 ![Parinkčių ataskaitos apibrėžimo periodo numeris.](./media/options-report-definition-period-number.png "Parinkčių ataskaitos apibrėžimo periodo numeris")
 
 ## <a name="business-unit-consolidations"></a>Verslo struktūros vienetų konsolidavimas
-Šioje temoje pateikiama informacija apie ataskaitų medžio aprašų ir organizacijos hierarchijų naudojimą finansinėse ataskaitose konsolidavimo tikslais. Taip pat galite naudoti ataskaitų medį norėdami kurti verslo vienetų konsolidavimo ataskaitas, pvz., ataskaitas apie pardavimą arba operacijas visame pasaulyje. Šios ataskaitos yra bendras reikalavimas. Norėdami jas kurti, pasirinkite kiekvieno vieneto, kurį norite konsoliduoti, įmonę ir dimensiją. Pvz., tolesnėje iliustracijoje verslo struktūros vieneto sumavimas atliekamas nurodant kiekvieną įmonę stulpelyje **Įmonė** (stulpelyje A) ir nustatant įmonės padalinio dimensijų reikšmių grupę stulpelyje **Dimensijos** (stulpelyje D).
+Šiame straipsnyje daugiausia naudojama ataskaitų medžio apibrėžčių ir organizacijos hierarchijų naudojimas finansinėse ataskaitose konsolidavimo tikslais. Taip pat galite naudoti ataskaitų medį norėdami kurti verslo vienetų konsolidavimo ataskaitas, pvz., ataskaitas apie pardavimą arba operacijas visame pasaulyje. Šios ataskaitos yra bendras reikalavimas. Norėdami jas kurti, pasirinkite kiekvieno vieneto, kurį norite konsoliduoti, įmonę ir dimensiją. Pvz., tolesnėje iliustracijoje verslo struktūros vieneto sumavimas atliekamas nurodant kiekvieną įmonę stulpelyje **Įmonė** (stulpelyje A) ir nustatant įmonės padalinio dimensijų reikšmių grupę stulpelyje **Dimensijos** (stulpelyje D).
 
 ![Verslo vieneto konsolidavimo ataskaitos.](./media/business-unit-consolidation-reports.png "Verslo vieneto konsolidavimo ataskaitos")
 
@@ -218,7 +218,7 @@ Finansinės ataskaitos naudoja toliau nurodytus balansų skaičiavimo metodus, k
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
-Daugiau informacijos apie konsolidavimą ir valiutų konvertavimą žr. pagrindinėje šios temos temoje [Finansinio konsolidavimo ir valiutų konvertavimo apžvalga](./financial-consolidations-currency-translation.md).
+Norėdami gauti daugiau informacijos apie konsolidaciją ir valiutos vertimus, žr. pagrindinį šio straipsnio straipsnį, [finansų konsolidacijas ir valiutos konvertavimo apžvalgą](./financial-consolidations-currency-translation.md).
 
 Daugiau informacijos apie tai, kaip įvesti konsolidavimo informaciją internete, žr. [Internetinis finansinis konsolidavimas](./consolidate-online.md).
 

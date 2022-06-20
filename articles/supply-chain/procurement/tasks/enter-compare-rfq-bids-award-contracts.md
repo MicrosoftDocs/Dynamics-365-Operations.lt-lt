@@ -1,6 +1,6 @@
 ---
 title: RFQ kainos pasiūlymų įvedimas bei lyginimas ir sutarčių pasirinkimas
-description: Šioje temoje pasakojama kaip įvesti atsakymus pasiūlymo patvirtinimui (RFQ), skaičiuoti ir lyginti kainų pasiūlymus bei pasirinkti vieno iš tiekėjų sutartį.
+description: Šiame straipsnyje paaiškinama, kaip įvesti atsakymus į pasiūlymo patvirtinimą (RFQ), rezultatą ir palyginti kainos pasiūlymus, tada suteikti sutartį vienam iš tiekėjų.
 author: GalynaFedorova
 ms.date: 07/09/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 50b403021c347498a9b489a34196e592a2041a11
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: d3ef754f2d5d58254a7c6f0e572115f8a2981ad9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677372"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893387"
 ---
 # <a name="enter-and-compare-rfq-bids-and-award-contracts"></a>RFQ kainos pasiūlymų įvedimas bei lyginimas ir sutarčių pasirinkimas
 
 [!include [banner](../../includes/banner.md)]
 
-Šioje temoje pasakojama kaip įvesti atsakymus pasiūlymo patvirtinimui (RFQ), skaičiuoti ir lyginti kainų pasiūlymus bei pasirinkti vieno iš tiekėjų sutartį. Šią procedūrą galite naudoti **USMF** demonstracinių duomenų įmonėje.
+Šiame straipsnyje paaiškinama, kaip įvesti atsakymus į pasiūlymo patvirtinimą (RFQ), rezultatą ir palyginti kainos pasiūlymus, tada suteikti sutartį vienam iš tiekėjų. Šią procedūrą galite naudoti **USMF** demonstracinių duomenų įmonėje.
 
 Prieš pradedant šią procedūrą reikia turėti RFQ su dviem eilutėmis ir išsiųstą bent dviem tiekėjams. Norėdami sukurti šį RFQ, atlikite pasiūlymo [Pasiūlymo patvirtinimo kūrimas](create-request-quotation.md) procedūrą. Šios procedūros negalėsite vykdyti tol, kol taip pat nenustatysite vertinimo kriterijų.
 

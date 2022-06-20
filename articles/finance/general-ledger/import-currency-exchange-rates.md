@@ -1,6 +1,6 @@
 ---
-title: Valiutų kursų importavimas
-description: Šioje temoje pateikiama informacija apie reikalavimus, taikomus importuojant užsienio valiutų kursų nuorodas, kurias skelbia valiutų kursų teikėjai.
+title: Importuoti valiutų kursus
+description: Šiame straipsnyje pateikiama informacija apie užsienio valiutos kursų importavimo reikalavimus, kuriuos publikuoja valiutų kursų teikėjai.
 author: EvgenyPopovMBS
 ms.date: 03/17/2020
 ms.topic: article
@@ -15,23 +15,23 @@ ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: f96622132be3c8a404f3f4e9c34f3ac5085a4fdc007ecb627d06a95d7c80932b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 27f9b06646d9ce948a6b4528c38c5df9784b24b2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727329"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894941"
 ---
 # <a name="import-currency-exchange-rates"></a>Valiutų kursų importavimas
 
 [!include [banner](../includes/banner.md)]
 
-Jei juridinis subjektas gavo SF užsienio valiuta, užsienio valiuta turi būti konvertuojama į vietos valiutą. Todėl reikalingi naujausi skirtingų valiutų kursai. Šioje temoje pateikiama informacija apie užsienio valiutų kursų nuorodų, kurias skelbia valiutų kursų teikėjai (pvz., Europos centrinis bankas ir Rusijos centrinis bankas), importavimo reikiamus parametrus ir apdorojimą.
+Jei juridinis subjektas gavo SF užsienio valiuta, užsienio valiuta turi būti konvertuojama į vietos valiutą. Todėl reikalingi naujausi skirtingų valiutų kursai. Šiame straipsnyje pateikiama parametrų apžvalga ir apdorojimas, reikalingas norint importuoti užsienio valiutų nuorodų kursus, kuriuos skelbia valiutų kursų teikėjai, tokie kaip Europos centrinis bankas ir Rusijos centrinis bankas.
 
 Toliau pateikiamuose skyriuose aprašomas informacijos, kuri naudojama nustatant ir apdorojant užsienio valiutų kursų importavimo procesą, srautas.
 
 ## <a name="configure-an-exchange-rate-provider"></a>Valiutų kursų teikėjo konfigūravimas
-Prieš importuodami valiutų kursus turite nustatyti informaciją, kurios reikia valiutų kursų teikėjams. Naudokite puslapį **Konfigūruoti valiutų kursų teikėjus**, norėdami pasirinkti valiutų kursų teikėjus. Kai kurie valiutų kursų teikėjai yra įtraukti į „Dynamics 365 Finance“ demonstracinius duomenis. Toliau esančioje lentelėje pateikiami šio puslapio valdiklių aprašymai.
+Prieš importuodami valiutų kursus turite nustatyti informaciją, kurios reikia valiutų kursų teikėjams. Naudokite puslapį **Konfigūruoti valiutų kursų teikėjus**, norėdami pasirinkti valiutų kursų teikėjus. Kai kurie valiutų kursų teikėjai yra įtraukti į demonstracinius duomenis programoje "Dynamics 365 Finance". Toliau esančioje lentelėje pateikiami šio puslapio valdiklių aprašymai.
 
 | Laukas | Aprašas                   |
 |-----------|-----------------------------------|

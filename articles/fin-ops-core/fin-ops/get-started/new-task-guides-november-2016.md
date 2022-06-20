@@ -1,6 +1,6 @@
 ---
 title: Nauji ar atnaujinti užduočių vedliai (2016 m. lapkričio mėn.)
-description: Šioje temoje išvardijami nauji ar atnaujinti užduočių vedliai, kurie buvo išleisti „Microsoft“ APQC bendrojoje bibliotekoje (2016 m. lapkričio mėn.; skirta visoms kalboms), skirtoje „Microsoft Dynamics 365 for Operations“. Išleista jokia nauja darbo pradžios biblioteka.
+description: Šiame straipsnyje pateikiami nauji arba atnaujinti užduočių vadovai, paleisti į "Microsoft" (2016 m. lapkričio mėn. – visos kalbos) APQC suvienodinta biblioteka, skirta Microsoft Dynamics 365 for Operations. Išleista jokia nauja darbo pradžios biblioteka.
 author: josaw1
 ms.date: 06/20/2017
 ms.topic: article
@@ -14,20 +14,20 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 3f36ceb535919991c1be0501daabd94e966723fa875cf8765439212d235e82a3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3836456f8d4ba8aba95e90563f8bdb27fc547e09
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6728132"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8886591"
 ---
 # <a name="new-or-updated-task-guides-november-2016"></a>Nauji ar atnaujinti užduočių vedliai (2016 m. lapkričio mėn.)
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje išvardijami nauji ar atnaujinti užduočių vedliai, kurie buvo išleisti „Microsoft“ APQC bendrojoje bibliotekoje (2016 m. lapkričio mėn.; skirta visoms kalboms), skirtoje „Microsoft Dynamics 365 for Operations“. Išleista jokia nauja darbo pradžios biblioteka.
+Šiame straipsnyje pateikiami nauji arba atnaujinti užduočių vadovai, paleisti į Microsoft (2016 m. lapkričio mėn. – visos kalbos) APQC suvienodinta biblioteka, skirta Microsoft Dynamics 365 for Operations. Išleista jokia nauja darbo pradžios biblioteka.
 
-APQC bendrojoje bibliotekoje (2016 m. lapkričio mėn.; skirta visoms kalboms) pateikiami užduočių vedliai, kurie skirti teikti pagalbą, susijusią su „Microsoft Dynamics 365 for Operations“, „Microsoft Dynamics 365 for Operations“ 3 platformos naujiniu, „Microsoft Dynamics AX“ 2 platformos naujiniu, „Dynamics AX“ 2016 m. gegužės mėn. naujiniu ir „Microsoft Dynamics AX“ 2016 m. vasario mėn. leidimu. Daugiau informacijos apie šiuos leidimus rasite puslapyje [Kas nauja arba pasikeitė„Finance and Operations“ pagrindiniame puslapyje](whats-new-changed.md). Šioje bibliotekoje pateikiamos lokalizuotos užduočių vedlių versijos. Daugiau informacijos apie tai, kaip prie užduočių vedlių bibliotekos prijungti žinyno sistemą, žr. [Žinyno sistema](help-overview.md).
+APQC bendrojoje bibliotekoje (2016 m. lapkričio mėn.; skirta visoms kalboms) pateikiami užduočių vedliai, kurie skirti teikti pagalbą, susijusią su „Microsoft Dynamics 365 for Operations“, „Microsoft Dynamics 365 for Operations“ 3 platformos naujiniu, „Microsoft Dynamics AX“ 2 platformos naujiniu, „Dynamics AX“ 2016 m. gegužės mėn. naujiniu ir „Microsoft Dynamics AX“ 2016 m. vasario mėn. leidimu. Norėdami gauti daugiau informacijos apie šiuos leidimus, žr. [Kas nauja arba pakeista „Finance and Operations“ pagrindiniame puslapyje ](whats-new-changed.md). Šioje bibliotekoje pateikiamos lokalizuotos užduočių vedlių versijos. Daugiau informacijos apie tai, kaip prie užduočių vedlių bibliotekos prijungti žinyno sistemą, žr. [Žinyno sistema](help-overview.md).
 
 > [!NOTE]
 > Žvaigždutė (\*) šalia verslo procesų modeliavimo įrankio (BPM) eilutės pavadinimo nurodo, kad to verslo proceso užduočių vedlys yra skirtas „Dynamics 365 for Operations“ 2016 m. lapkričio mėn. naujiniui ir nėra palaikomas ankstesnėse „Microsoft Dynamics AX“ versijose.

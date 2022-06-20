@@ -1,6 +1,6 @@
 ---
 title: Turto svarbos tipai
-description: Šioje temoje pasakojama apie turto svarbos tipus, esančius modulyje „Turto valdymas“.
+description: Šiame straipsnyje paaiškinami turto valdymo turto kritinės vertės tipai.
 author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f9edf55c22375a66fda04ae7ff76d7a0a191140e5ffb3a377b9ac1a7ba604a8d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cfde9a9bc681c0d758491fc5c361b5b046e20d9d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6776925"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899504"
 ---
 # <a name="asset-criticality-types"></a>Turto svarbos tipai
 
@@ -28,7 +28,7 @@ ms.locfileid: "6776925"
 
  
 
-Šioje temoje pasakojama apie turto svarbos tipus, esančius modulyje „Turto valdymas“. Turto svarba yra susijusi su turtu ir perkeliama į darbo užsakymus. Darbo užsakyme jos keisti negalima. Planuojant darbo užsakymą turto svarba naudojama siekiant apskaičiuoti darbo užsakymo svarbą. Kitaip tariant, ji naudojama apskaičiuoti, kokios įtakos turto priežiūros užduotis turi gamybos grafikui ir įmonės produktyvumui. Daugiau informacijos apie konfigūraciją, susijusią su darbo užsakymo planavimo vertinimo rezultatų skaičiavimu, žr. [Turto valdymo parametrai](../setup-for-objects/enterprise-asset-management-parameters.md).
+Šiame straipsnyje paaiškinami turto valdymo turto kritinės vertės tipai. Turto svarba yra susijusi su turtu ir perkeliama į darbo užsakymus. Darbo užsakyme jos keisti negalima. Planuojant darbo užsakymą turto svarba naudojama siekiant apskaičiuoti darbo užsakymo svarbą. Kitaip tariant, ji naudojama apskaičiuoti, kokios įtakos turto priežiūros užduotis turi gamybos grafikui ir įmonės produktyvumui. Daugiau informacijos apie konfigūraciją, susijusią su darbo užsakymo planavimo vertinimo rezultatų skaičiavimu, žr. [Turto valdymo parametrai](../setup-for-objects/enterprise-asset-management-parameters.md).
 
 Norėdami nustatyti svarbą, pirmiausia sukurkite svarbos tipus, kurie turėtų būti naudojami šioje turto konfigūracijoje. Tada nustatykite svarbos tipus.
 

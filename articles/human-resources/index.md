@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c867d051f5e32c5f98ea49a92475c6f15427ad54
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: f8ce982dc27a887c70ca4fed11fcc230bcb6de65
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8692785"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8858075"
 ---
 # <a name="human-resources-home-page"></a>Personalo skyriaus pagrindinis puslapis
 
 
 
-Šioje temoje pateikiamos žinyno temos ir kiti "Dynamics 365" personalo ištekliai. 
+Šiame straipsnyje pateikiamas žinyno temų ir kitų išteklių sąrašas programoje "Dynamics 365 Human resources". 
 
 Pasirinkite funkcijų sritį, apie kurią norite sužinoti daugiau.
 

@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: yanansong
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2e35a6b7da4ead8ab6f007ef8800ed8a05b1c513
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 09a808c91ece25a9a40f662e0aca2c504246fc0a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8675353"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854506"
 ---
 # <a name="cost-categories-used-in-production-control-and-project-management-accounting"></a>Moduliuose Gamybos kontrolė ir Projektų valdymo apskaita naudojamos išlaidų kategorijos
 
@@ -31,7 +31,7 @@ Kai kurių tipų gamybos darbą galima taikyti projekto laiko įvertinimui ir at
 
 Kai kurių tipų gamybos darbą galima taikyti projekto laiko įvertinimui ir ataskaitoms. Šiuo atveju gamybos ir projekto tikslais reikalinga išlaidų kategorija. Kai gamybos ir projekto metu naudojama išlaidų kategorija, turi būti nurodyta papildoma su projektu susijusi informacija. Pavyzdžiui, valandinės išlaidos, kurios susijusios su projektais, gali skirtis nuo valandinių išlaidų, kurios susijusios su gamyba. Naudodami puslapį **Išlaidų kategorijos** galite apibrėžti išlaidų kategoriją, naudojamą moduliuose Gamybos kontrolė ir Projektų valdymo apskaita. 
 
-**Pastaba.** Kaštų apskaita turi puslapį **Projektų kategorijos**, tačiau jis niekaip nesusijęs su šioje temoje aprašytomis funkcijomis. Kai išlaidų kategoriją naudojate projektuose, puslapyje **Išlaidų kategorijos** yra papildomų skirtukų, kuriuose rodoma papildoma su projektu susijusi informacija. Ši informacija – tai kategorijų grupė, eilutės ypatybė ir DK sąskaitos, priskirtos išlaidų kategorijai.
+**Pastaba:** kaštų apskaitoje **yra projekto** kategorijų puslapis, tačiau šis puslapis nėra susijęs su šiame straipsnyje aprašytomis funkcijomis. Kai išlaidų kategoriją naudojate projektuose, puslapyje **Išlaidų kategorijos** yra papildomų skirtukų, kuriuose rodoma papildoma su projektu susijusi informacija. Ši informacija – tai kategorijų grupė, eilutės ypatybė ir DK sąskaitos, priskirtos išlaidų kategorijai.
 
 -   Išlaidų kategorija turi būti priskirta kategorijų grupei, kuri palaiko valandinių operacijų tipą **Valandos**.
 -   Eilutės ypatybė nurodo numatytąją informaciją apie tai, kaip galima apmokestinti nurodytą projekto laiką.

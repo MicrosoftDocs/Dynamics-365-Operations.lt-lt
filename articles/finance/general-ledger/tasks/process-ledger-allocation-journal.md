@@ -1,6 +1,6 @@
 ---
 title: Didžiosios knygos paskirstymo žurnalo apdorojimas
-description: Šioje temoje paaiškinama, kaip vykdyti paskirstymo užklausą "Dynamics 365 Finance".
+description: Šiame straipsnyje paaiškinama, kaip apdoroti paskirstymo užklausą "Dynamics 365 Finance".
 author: aprilolson
 ms.date: 07/26/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1ec3653085aed278eb5d13d47f345c713cd39f1f
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: b86f8f5d090d624e812d9e7e6c0bc0212e5e9716
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722158"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8902435"
 ---
 # <a name="process-ledger-allocation-journal"></a>Didžiosios knygos paskirstymo žurnalo apdorojimas
 
 [!include [banner](../../includes/banner.md)]
 
-Šioje temoje aiškinama, kaip apdoroti paskirstymo užsakymą. Norėdami kurti paskirstymo žurnalą, kurį būtų galima peržiūrėti ir patvirtinti prieš registruojant į DK arba registruoti tiesiogiai į DK, naudokite puslapį Paskirstymo užklausos apdorojimas. Norint sukurti paskirstymo žurnalą, privalo būti bent viena aktyvi Didžiosios knygos paskirstymo taisyklė. Šioje užduotyje naudojama demonstracinė įmonė USMF.
+Šiame straipsnyje paaiškinama, kaip apdoroti paskirstymo užklausą. Norėdami kurti paskirstymo žurnalą, kurį būtų galima peržiūrėti ir patvirtinti prieš registruojant į DK arba registruoti tiesiogiai į DK, naudokite puslapį Paskirstymo užklausos apdorojimas. Norint sukurti paskirstymo žurnalą, privalo būti bent viena aktyvi Didžiosios knygos paskirstymo taisyklė. Šioje užduotyje naudojama demonstracinė įmonė USMF.
 
 1. Naršymo srityje eikite į DK **informaciją> paskirstymai > paskirstymo užklausą**.
 2. Lauke **Taisyklė** pasirinkite norimą įrašą išplečiamajame meniu.

@@ -1,6 +1,6 @@
 ---
 title: Ilgalaikio turto nusidėvėjimas
-description: Šioje temoje apžvelgiamas ilgalaikio turto nusidėvėjimas.
+description: Šiame straipsnyje pateikta ilgalaikio turto nusidėvėjimo apžvalga.
 author: moaamer
 ms.date: 12/03/2021
 ms.topic: article
@@ -15,23 +15,23 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2442830766ef1dccc109db5569bfbbbc8182f027
-ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
+ms.openlocfilehash: b4fedee481b4066c81671cf1fca3781c8c75aaeb
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7890985"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874529"
 ---
 # <a name="fixed-asset-depreciation"></a>Ilgalaikio turto nusidėvėjimas
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-Šioje temoje apžvelgiamas ilgalaikio turto nusidėvėjimas.
+Šiame straipsnyje pateikta ilgalaikio turto nusidėvėjimo apžvalga.
 
 Nusidėvėjimas yra periodinė operacija, kuri paprastai balanso sąskaitoje sumažina ilgalaikio turto vertę. Ji pelno ir nuostolio sąskaitose užrašoma kaip išlaidos. Todėl pagrindinė sąskaita paprastai yra naudojama periodiniam nusidėvėjimui balanse kredituoti. Korespondentinė sąskaita yra sąskaitų plano pelno ir nuostolio dalies sąskaita.
 
-Kaip ir versija 10.0.24, knygos puslapyje esanti pasirinktis Skaičiuoti teigiamo nusidėvėjimo turto knygą leidžia nusidėvėjimui debetuoti ilgalaikį turtą, kuris įsigytas su neigiama balansine **verte** **·** (kreditu).
+Kaip ir versija 10.0.24, knygos puslapyje esanti pasirinktis **Skaičiuoti teigiamo nusidėvėjimo turto knygą leidžia nusidėvėjimui debetuoti ilgalaikį turtą,** **kuris** įsigytas su neigiama balansine verte (kreditu).
 
 ## <a name="depreciation-adjustment"></a>Nusidėvėjimo koregavimas
 Paprastai užregistruotos nusidėvėjimo operacijos taisymas yra registruojamas kaip nusidėvėjimo koregavimas. Todėl pagrindinė sąskaita ir korespondentinė sąskaita yra nustatomos kaip nusidėvėjimo sąskaitos. Nusidėvėjimo koregavimas gali būti teigiama arba neigiama suma, bet pagrindinės sąskaitos (kaip balanso sąskaitos) ir korespondentinės sąskaitos (paprastai kaip pelno ir nuostolio sąskaitos) funkcija yra tokia pati.

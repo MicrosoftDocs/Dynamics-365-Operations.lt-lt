@@ -1,6 +1,6 @@
 ---
 title: Pritaikymo neįgaliesiems funkcijos
-description: Šioje temoje aprašomos funkcijos, skirtos padėti vartotojams, turintiems įvairių negalių.
+description: Šiame straipsnyje aprašomos funkcijos, skirtos padėti vartotojams, turintiems įvairių negalių.
 author: TLeforMicrosoft
 ms.date: 12/02/2019
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: tlefor
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 022c51f7050d11caf5ce67c5df8f9f9040a54b98
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: af17b7933aed2a40d81fbc4e7b79e4e716aaf59b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8071063"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881057"
 ---
 # <a name="accessibility-features"></a>Pritaikymo neįgaliesiems funkcijos
 
@@ -26,7 +26,7 @@ ms.locfileid: "8071063"
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-Šioje temoje aprašomos funkcijos, skirtos įvairią negalią turintiems vartotojams padėti naudoti šią programą. Pavyzdžiui, yra funkcijų, skirtų žmonėms su regėjimo negalia, kurie naudoja tokias technologijas kaip „Microsoft Windows“ diktorius.
+Šiame straipsnyje aprašomos funkcijos, skirtos padėti vartotojams, turintiems įvairių negalių, naudoti šią programą. Pavyzdžiui, yra funkcijų, skirtų žmonėms su regėjimo negalia, kurie naudoja tokias technologijas kaip „Microsoft Windows“ diktorius.
 
 ## <a name="windows-narrator-and-keyboard-only-access"></a>„Windows“ diktorius ir prieiga tik klaviatūra
 
@@ -49,7 +49,7 @@ Daugiau informacijos žr. [Naršymo ieška](navigation-search.md).
 
 ## <a name="action-search-for-keyboard-only-users-or-for-heads-down-data-entry"></a>Veiksmų ieška vartotojams, naudojantiems tik klaviatūrą arba įvedimo metu netikrinantiems įvedamų duomenų
 
-Kiekvieną veiksmą, kuris yra puslapyje, galima pasiekti klaviatūra, naudojant tabuliavimo seką. Informacija apie tabuliavimo seką pateikiama toliau šioje temoje. Norėdami vykdyti veiksmus labiau tiesiogiai, galite naudoti veiksmų ieškos funkciją.
+Kiekvieną veiksmą, kuris yra puslapyje, galima pasiekti klaviatūra, naudojant tabuliavimo seką. Informacija apie skirtukų seką pateikiama toliau šiame straipsnyje. Norėdami vykdyti veiksmus labiau tiesiogiai, galite naudoti veiksmų ieškos funkciją.
 
 ### <a name="example"></a>Pavyzdys
 

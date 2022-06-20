@@ -1,6 +1,6 @@
 ---
-title: Sandėlio valdymo mobiliųjų įrenginių programėlės laukų konfigūravimas
-description: Šioje temoje aprašoma, kaip apibrėžti ir konfigūruoti laukų, rodomų sandėlio valdymo mobiliųjų įrenginių programėlėje, pavadinimus ir prioritetus.
+title: „Warehouse Management“ mobiliųjų įrenginių programėlės laukų konfigūravimas
+description: Šiame straipsnyje aprašoma, kaip nustatyti ir konfigūruoti laukų, rodoų sandėlio valdymo mobilioje programoje, pavadinimus ir prioritetus.
 author: Mirzaab
 ms.date: 06/20/2017
 ms.topic: article
@@ -16,21 +16,21 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 8c9c1d921f68538d5b84db16b1e88e28147e6b41
-ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
+ms.openlocfilehash: 1ce274c997119c7fdba193fa9559832e63febddc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7902301"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893242"
 ---
-# <a name="configure-fields-for-the-warehouse-management-mobile-app"></a>Sandėlio valdymo mobiliųjų įrenginių programėlės laukų konfigūravimas
+# <a name="configure-fields-for-the-warehouse-management-mobile-app"></a>„Warehouse Management“ mobiliųjų įrenginių programėlės laukų konfigūravimas
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje aprašoma, kaip apibrėžti ir konfigūruoti laukų, rodomų sandėlio valdymo mobiliųjų įrenginių programėlėje, pavadinimus ir prioritetus.
+Šiame straipsnyje aprašoma, kaip nustatyti ir konfigūruoti laukų, rodoų sandėlio valdymo mobilioje programoje, pavadinimus ir prioritetus.
 
 > [!NOTE]
-> Ši tema taikoma sandėlio valdymo funkcijoms. Ji netaikoma atsargų valdymo funkcijoms. Sandėlio valdymo mobiliųjų įrenginių programėlė yra programa, kurią galite naudoti sandėlio užduotims atlikti. Galite nurodyti ir konfigūruoti programoje naudojamų laukų pavadinimus, taip pat galite konfigūruoti prioritetą, kuriam laukų pavadinimai turėtų būti priskirti. Šioje temoje paaiškinama, kaip nurodyti ir konfigūruoti šiuos sandėlio valdymo mobiliųjų įrenginių programėlės laukų pavadinimus bei prioritetus ir, kaip jie naudojami.
+> Šis straipsnis taikomas sandėlio valdymo funkcijoms. Ji netaikoma atsargų valdymo funkcijoms. Sandėlio valdymo mobiliųjų įrenginių programėlė yra programa, kurią galite naudoti sandėlio užduotims atlikti. Galite nurodyti ir konfigūruoti programoje naudojamų laukų pavadinimus, taip pat galite konfigūruoti prioritetą, kuriam laukų pavadinimai turėtų būti priskirti. Šiame straipsnyje paaiškinama, kaip nustatyti ir konfigūruoti šiuos sandėlio valdymo mobiliųjų programų laukų pavadinimus ir prioritetus bei kaip jie naudojami.
 
 ## <a name="configure-warehouse-app-field-names"></a>Sandėlio programos laukų pavadinimų konfigūravimas
 
@@ -135,7 +135,7 @@ Atsižvelgiant į sandėlio programos laukų prioriteto nustatymą ankstesnėje 
 -   2 eilutė: prekės aprašas
 -   3 eilutė: dydis
 
-Likę metaduomenys, pvz., vieta, užduočių puslapyje rodomi nebus, bet bus rodomi informacijos puslapyje. Norėdami sužinoti daugiau ir pamatyti vartotojo sąsajos pavyzdžių žr. tinklaraščio įrašą [Pranešimas apie „Finance and Operations“ – versiją „Warehousing“](https://blogs.msdn.microsoft.com/dynamicsaxscm/2017/01/20/announcing-dynamics-365-for-operations-warehousing/).
+Likę metaduomenys, pvz., vieta, užduočių puslapyje rodomi nebus, bet bus rodomi informacijos puslapyje. Norėdami sužinoti daugiau ir pamatyti vartotojo sąsajos pavyzdžių žr. tinklaraščio įrašą [Pranešimas apie „Finance and Operations“ – versiją „Warehousing“](https://blogs.msdn.microsoft.com/dynamicsaxscm/2017/01/20/announcing-dynamics-365-for-operations-warehousing/)
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 

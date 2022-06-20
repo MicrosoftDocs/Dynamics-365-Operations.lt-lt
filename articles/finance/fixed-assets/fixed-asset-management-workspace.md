@@ -1,6 +1,6 @@
 ---
 title: Ilgalaikio turto tvarkymo darbo sritis
-description: Šioje temoje pateikiama informacijos apie ilgalaikio turto tvarkymo darbo sritį. Šioje darbo srityje rodoma informacija, kuri susijusi su į sistemą įvestu ilgalaikiu turtu. Ji apima suvestinės rodinį ir analizės rodinį.
+description: Šiame straipsnyje pateikiama informacija apie ilgalaikio turto valdymo darbo sritį. Šioje darbo srityje rodoma informacija, kuri susijusi su į sistemą įvestu ilgalaikiu turtu. Ji apima suvestinės rodinį ir analizės rodinį.
 author: moaamer
 ms.date: 01/12/2018
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 37f9f6be2fa3594b96313f4f72b96b52ca798c6a
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: 95b45a91cd201a6d3a4817c315053e98a7693e05
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8720061"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894061"
 ---
 # <a name="fixed-asset-management-workspace"></a>Ilgalaikio turto tvarkymo darbo sritis
 

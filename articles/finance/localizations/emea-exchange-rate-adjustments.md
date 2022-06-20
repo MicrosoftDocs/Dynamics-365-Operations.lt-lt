@@ -1,6 +1,6 @@
 ---
 title: Valiutos kurso koregavimai
-description: Šioje temoje pateikiama informacija apie valiutos kurso koregavimo funkciją, skirtą vartotojams, kurių juridiniai subjektai yra Estijoje, Čekijos Respublikoje, Latvijoje, Lietuvoje, Lenkijoje ir Rusijoje.
+description: Šiame straipsnyje pateikta informacija apie valiutos kurso koregavimo funkciją vartotojų iš Estijos, Vengrijos, Čekijos Respublika, Latvijos, Lietuvos, Lenkijos ir Rusijos.
 author: ShylaThompson
 ms.date: 04/10/2017
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Czech Republic, Estonia, Hungary, Latvia, Lithuania, Poland, R
 ms.author: kfend
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 82f9d51bb882ae83c6382a424fbdff65900fd3822d70f496c0956c2e57180ebf
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cf9e047872269b8fca56c702bd9599c759b0acd6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767606"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889795"
 ---
 # <a name="exchange-rate-adjustments"></a>Valiutos kurso koregavimai
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje pateikiama informacija apie valiutos kurso koregavimo funkciją, skirtą vartotojams, kurių juridiniai subjektai yra Estijoje, Čekijos Respublikoje, Latvijoje, Lietuvoje, Lenkijoje ir Rusijoje.
+Šiame straipsnyje pateikta informacija apie valiutos kurso koregavimo funkciją vartotojų iš Estijos, Vengrijos, Čekijos Respublika, Latvijos, Lietuvos, Lenkijos ir Rusijos.
 
 Valiutos kurso koregavimo funkcija, skirta Estijai, Vengrijai, Čekijos Respublikai, Latvijai, Lietuvai, Lenkijai ir Rusijai, apima tolesnius plėtinius, kurie susiję su gautinomis ir mokėtinomis sumomis.
 

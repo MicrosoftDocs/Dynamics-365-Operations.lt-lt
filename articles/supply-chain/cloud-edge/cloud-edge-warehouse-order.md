@@ -1,6 +1,6 @@
 ---
 title: Sandėlio užsakymai, skirti debesies ir briaunos skalės vienetams
-description: Šioje temoje pateikiama informacija apie sandėlio užsakymo galimybę, naudojamą kaip sandėlio skalės vieneto darbo krūvio dalis.
+description: Šiame straipsnyje pateikiama informacija apie sandėlio užsakymo galimybę, kuri naudojama kaip sandėlio skalės vieneto darbo krūvio dalis.
 author: perlynne
 ms.date: 04/22/2021
 ms.topic: article
@@ -11,19 +11,19 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2021-04-13
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: bd3c72f2c008b936ceda53a3fcdde79df1e6b1b7
-ms.sourcegitcommit: a21166da59675e37890786ebf7e0f198507f7c9b
+ms.openlocfilehash: db254216e6c34b81f83c87a8fda454d0aeb1cece
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "7471697"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893532"
 ---
 # <a name="warehouse-orders-for-cloud-and-edge-scale-units"></a>Sandėlio užsakymai, skirti debesies ir briaunos skalės vienetams
 
 [!include [banner](../includes/banner.md)]
 
 > [!WARNING]
-> Ne visos verslo funkcijos yra visiškai palaikomos viešojoje peržiūros versijoje, kai naudojami skalės vieneto darbo krūviai. Jei naudojate skalės vienetus, įsitikinkite, kad naudojate tik tuos procesus, kuriuos išsamiai aprašo šis skyrius kaip palaikomus.
+> Ne visos verslo funkcijos yra visiškai palaikomos viešojoje peržiūros versijoje, kai naudojami skalės vieneto darbo krūviai. Jei naudojate svarstyklių vienetus, būtinai naudokite tik tuos procesus, kuriuos šiame straipsnyje aiškiai apibūdinama kaip palaikoma.
 
 ## <a name="what-are-warehouse-orders"></a>Kas yra sandėlio užsakymai?
 

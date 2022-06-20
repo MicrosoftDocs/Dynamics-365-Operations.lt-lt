@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 08ab90d6f53dbb9eabeea3c2cf020792e8957c7b71ed27fc491008fcad114c72
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a75b268f2d8341c1a6dd0d3f1bd9dcb31d9084ca
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727490"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884147"
 ---
 # <a name="import-configurations-to-generate-documents-that-have-application-data"></a>Konfigūracijų, skirtų generuoti dokumentus, kuriuose yra prašymų duomenys, importavimas
 
@@ -25,7 +25,7 @@ ms.locfileid: "6727490"
 
 Norėdami atlikti šios procedūros veiksmus, pirmiausia turite atlikti procedūrą „ER konfigūracijos teikėjo kūrimas ir pažymėjimas aktyviu.“
 
-Veiksmai šioje procedūroje paaiškina, kaip kurti elektroninių ataskaitų (ER) konfigūraciją, norint generuoti elektroninį dokumentą. Šios procedūros metu importuosite reikiamas ER formato konfigūracijas, sukurtas pavyzdinei įmonei „Litware, Inc.“, tada generuosite elektroninius dokumentus. Ši procedūra sukurta vartotojams, kuriems priskirtas sistemos administratoriaus arba elektroninių ataskaitų teikimo programuotojo vaidmuo. Šiuos veiksmus galima atlikti naudojant DEMF duomenų rinkinį. Prieš pradėdami, atsisiųskite ir įrašykite failus, išvardytus žinyno temoje „Elektroninių dokumentų generavimas ir programų duomenų naujinimas naudojant ER įrankį“ (generate-electronic-documents-update-application-data/). Failai yra Intrastat (modelis).xml, Intrastat (susiejimas).xml ir Intrastat (formatas).xml
+Veiksmai šioje procedūroje paaiškina, kaip kurti elektroninių ataskaitų (ER) konfigūraciją, norint generuoti elektroninį dokumentą. Šios procedūros metu importuosite reikiamas ER formato konfigūracijas, sukurtas pavyzdinei įmonei „Litware, Inc.“, tada generuosite elektroninius dokumentus. Ši procedūra sukurta vartotojams, kuriems priskirtas sistemos administratoriaus arba elektroninių ataskaitų teikimo programuotojo vaidmuo. Šiuos veiksmus galima atlikti naudojant DEMF duomenų rinkinį. Prieš pradėdami, parsisiuntdami ir įrašę žinyno straipsnyje išvardytus failus, "Generuoti elektroninius dokumentus ir naujinti programos duomenis naudodami ER įrankį" (generuoti - elektroniniai dokumentai - atnaujinimas - programa - duomenys / ). Failai yra Intrastat (modelis).xml, Intrastat (susiejimas).xml ir Intrastat (formatas).xml
 
 1. Pasirinkite Organizacijos administravimas > Darbo sritys > Elektroninės ataskaitos.
     * Įsitikinkite, kad pavyzdinės įmonės „Litware, Inc.” konfigūracijos teikėjas yra prieinamas ir pažymėtas kaip aktyvus. Jei nematote šio konfigūracijos teikėjo, atlikite procedūros Kurkite konfigūracijos teikėją ir pažymėkite kaip aktyvų veiksmus.  

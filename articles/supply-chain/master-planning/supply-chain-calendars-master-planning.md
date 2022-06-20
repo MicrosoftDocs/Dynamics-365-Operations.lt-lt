@@ -1,7 +1,7 @@
 ---
 title: Kalendoriai ir bendrasis planavimas
-description: Šioje temoje apžvelgiami tiekimo grandinės kalendoriai ir tai, kaip jie paveikia bendrąjį planavimą.
-author: ChristianRytt
+description: Šiame straipsnyje pateikta tiekimo grandinės kalendorių apžvalga ir apie tai, kaip jie veikia bendrąjį planavimą.
+author: t-benebo
 ms.date: 08/19/2020
 ms.topic: article
 ms.prod: ''
@@ -14,18 +14,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f424a2a050f917be2f0823c35ee2a47b4dd5cd0a
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 182c22a77e73573b4e27a81f80debf67242b95c3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7568620"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890979"
 ---
 # <a name="calendars-and-master-planning"></a>Kalendoriai ir bendrasis planavimas
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje apžvelgiami tiekimo grandinės kalendoriai ir tai, kaip jie paveikia bendrąjį planavimą.  Paaiškinami skirtingi kalendoriai, naudojami bendrojo planavimo mechanizme, įskaitant tai, kaip jie paveikia siuntimo ir gavimo datas suplanuotuose užsakymuose. Galiausiai pateikiamos rekomendacijos dėl kalendorių priskyrimo, naudojimo ir atnaujinimo.
+Šiame straipsnyje pateikta tiekimo grandinės kalendorių apžvalga ir apie tai, kaip jie veikia bendrąjį planavimą.  Paaiškinami skirtingi kalendoriai, naudojami bendrojo planavimo mechanizme, įskaitant tai, kaip jie paveikia siuntimo ir gavimo datas suplanuotuose užsakymuose. Galiausiai pateikiamos rekomendacijos dėl kalendorių priskyrimo, naudojimo ir atnaujinimo.
 
 ## <a name="definition-of-a-calendar"></a>Kalendoriaus aprašas
 

@@ -1,6 +1,6 @@
 ---
 title: Galutinai suplanuoti užsakymai
-description: Šioje temoje paaiškinama, kaip patvirtinti suplanuotus užsakymus. Kai patvirtinami suplanuoti užsakymai, jie tampa faktiniais pirkimo užsakymais, perkėlimo užsakymais arba gamybos užsakymais.
+description: Šiame straipsnyje paaiškinama, kaip patvirtinti suplanuotus užsakymus. Kai patvirtinami suplanuoti užsakymai, jie tampa faktiniais pirkimo užsakymais, perkėlimo užsakymais arba gamybos užsakymais.
 author: t-benebo
 ms.date: 04/22/2021
 ms.search.form: ReqTransPo, ReqTransFirmLog
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-04-22
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 30f3ee656b97e0337b6e3e78f0acb2300d7d85dc
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 24b5c6cb7e97924ebace8f7131a87e9bffea22e0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8468475"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857524"
 ---
 # <a name="firm-planned-orders"></a>Galutinai suplanuoti užsakymai
 
@@ -29,11 +29,11 @@ Yra trys suplanuotų užsakymų virtimo metodai:
 - **Automatinis tvirtinimas – nurodykite numatytąją padengimo grupių, atskirų prekių ir prekių bei bendrojo planų** derinio tvirtinimo laiko ribas. Tada, vykdant bendrąjį planavimą, suplanuoti užsakymai bus automatiškai patvirtinti, jei užsakymo data patenka į nurodytą patvirtinti laiko ribas.
 - **Patvirtinti užklausą** – apibrėžkite užklausą, kad pagal jų ypatybes pasirinktumėte suplanuotus užsakymus. Galite nustatyti paketinę užduotį, norėdami vykdyti užklausą ir galutinai suderinti užsakymus pagal reguliarų grafiką.
 
-Šioje temoje išsamiai aprašomas kiekvienas metodas.
+Šiame straipsnyje išsamiai aprašomas kiekvienas metodas.
 
-## <a name="enable-the-features-that-are-described-in-this-topic"></a><a name="enable-features"></a>Įgalinkite šioje temoje aprašomas funkcijas
+## <a name="enable-the-features-that-are-described-in-this-article"></a><a name="enable-features"></a> Įgalinkite šiame straipsnyje aprašytas funkcijas
 
-Dauguma suplanuoto užsakymo funkcijų yra galimos visuose standartiniuose „Microsoft Dynamics 365 Supply Chain Management“ diegimuose, naudojant „Planning Optimization“. Tačiau kai kurios šioje temoje aprašomos funkcijos turi būti įjungtos funkcijų valdymas prieš jas naudojant.
+Dauguma suplanuoto užsakymo funkcijų yra galimos visuose standartiniuose „Microsoft Dynamics 365 Supply Chain Management“ diegimuose, naudojant „Planning Optimization“. Tačiau kai kurios šiame straipsnyje aprašomos funkcijos turi būti įjungtas funkcijų valdymas prieš naudojant jas.
 
 ### <a name="turn-parallelized-firming-of-planned-orders-on-or-off"></a>Įjungti arba išjungti suplanuotų užsakymų lygiagretųjį tvirtavimą
 
@@ -97,7 +97,7 @@ Automatinis patvirtinimas leidžia patvirtinti (tai yra, išleisti) suplanuotus 
 > Patvirtinti išvestiniai užsakymai (subrangos pirkimo užsakymai) rodys būseną *Peržiūrima*, kai įgalintas atvejų keitimų sekimas.
 
 > [!IMPORTANT]
-> Prieš naudojant šiame skyriuje aprašytas funkciją naudojant „Planning Optimization“ jūsų sistemoje turi būti įjungta automatinio planavimo optimizavimo funkcijos patvirtinti, kaip aprašyta šios [*temos*](#enable-features) pradžioje. Automatinį tvirtinimas visada galima naudoti su įtaisytuoju bendrojo planavimo moduliu.
+> Prieš naudojant šiame skyriuje aprašytas funkciją naudojant planavimo optimizavimą, [*·*](#enable-features) jūsų sistemoje turi būti įjungtas planavimo optimizavimo funkcijos automatinis tvirtinimas, kaip aprašyta šio straipsnio pradžioje. Automatinį tvirtinimas visada galima naudoti su įtaisytuoju bendrojo planavimo moduliu.
 
 ### <a name="auto-firming-with-planning-optimization-vs-the-built-in-planning-engine"></a>Automatinis virtimas „Planning Optimization“ ir įtaisytuoju planavimo moduliu
 
@@ -130,7 +130,7 @@ Užklausomis pagrįstas virtimas leidžia planuoti tvirtvirtį pagal iš anksto 
 Automatinį tvirtinimas galimas derinti su užklausa pagrįstu tvirtintoja. Pvz., užklausose pagrįstame tvirtintoje užduotyje yra laiko riba į priekį, kuri yra ilgesni nei atitinkamos automatinio užbaigimo padengimo konfigūracijos laiko riba. Todėl, užklausose pagrįsta virtimo užduotis apdoros suplanuotus užsakymus prieš suaktyvinant automatinį tvirtavimą. Galite pasinaudoti tokiu veikimo būdu, jei norite planuoti konkrečių tiekėjų užsakymus kitaip nei kitų tiekėjų panašių produktų užsakymus.
 
 > [!IMPORTANT]
-> Prieš naudojant šiame skyriuje aprašytas funkciją naudojant „Planning Optimization“ jūsų sistemoje turi būti įjungta automatinio suplanuotos optimizavimo funkcijos su filtravimupatvirtinti, kaip aprašyta šios [*temos*](#enable-features) pradžioje.
+> Prieš naudojant šiame skyriuje apibūdintą priemonę, [*·*](#enable-features) jūsų sistemoje turi būti įjungtas suplanuoto užsakymo filtravimo priemonės suplanuoto užsakymo virtimas, kaip aprašyta šio straipsnio pradžioje.
 
 Norėdami patvirtinti suplanuotą užsakymą naudodami užklausa pagrįstą tvirtinto procesą, atlikite šiuos veiksmus.
 

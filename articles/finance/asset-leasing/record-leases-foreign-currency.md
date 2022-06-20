@@ -1,6 +1,6 @@
 ---
 title: Nuomų įrašymas užsienio valiutomis
-description: Šioje temoje paaiškinama, kaip įrašyti nuomą kitomis valiutomis nei apskaitos ar ataskaitų valiuta.
+description: Šiame straipsnyje paaiškinama, kaip įrašyti nuomą kitomis valiutomis, nei apskaitos arba ataskaitų valiuta.
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 7da4ddb5939d4f950eb7f8c39a9c56edb2ec4db9
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 56c15e648d6aa515192a6f41ba06df6405ca79f2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8727516"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878108"
 ---
 # <a name="record-leases-in-foreign-currencies"></a>Nuomų įrašymas užsienio valiutomis
 
 [!include [banner](../includes/banner.md)]
 
-Puslapyje **DK sąranka** yra nustatytos nuomos, kuri yra kita nei apskaitos valiuta arba ataskaitų valiuta, turto nuomos sąskaitos. Visas nuomos sutartis turi būti įvesta į savo operacijų valiutą. Kitaip tariant, jie turėtų būti įvedami į nuomos sutartyje nurodytą valiutą. Šioje temoje paaiškinama, kaip įrašyti nuomą kitomis valiutomis nei apskaitos ar ataskaitų valiuta.
+Puslapyje **DK sąranka** yra nustatytos nuomos, kuri yra kita nei apskaitos valiuta arba ataskaitų valiuta, turto nuomos sąskaitos. Visas nuomos sutartis turi būti įvesta į savo operacijų valiutą. Kitaip tariant, jie turėtų būti įvedami į nuomos sutartyje nurodytą valiutą. Šiame straipsnyje paaiškinama, kaip įrašyti nuomą kitomis valiutomis, nei apskaitos arba ataskaitų valiuta.
 
 Jei įvesite nuomos užsienio valiuta, naudojimo teise valdomas turtas yra nuvertėja ir apskaitos valiuta, ir ataskaitų valiuta. Šios valiutos sukonfigūruotos puslapyje **DK sąranka**. Taip pat naudojama ilgalaikiam turtui. Kai kuriate nuomą užsienio valiuta, lauke **valiuta** pasirinkite operacijos valiutą.
 

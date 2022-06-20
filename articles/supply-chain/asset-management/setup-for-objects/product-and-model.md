@@ -1,6 +1,6 @@
 ---
 title: Turto gamintojai ir modeliai
-description: Šioje temoje aprašoma, kaip nustatyti turto gamintojus ir susietus modelius modulyje „Turto valdymas“.
+description: Šiame straipsnyje paaiškinama, kaip nustatyti turto gamintojams ir susijusius modelius turto valdymo dalyje.
 author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 80fcb493d96209d78f842414c198a8275e4818ba365759466034faf5f3405540
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: MT
+ms.openlocfilehash: 95d0998bbacef7a4350d0fd0a58259ec35759d28
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6739903"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868107"
 ---
 # <a name="asset-manufacturers-and-models"></a>Turto gamintojai ir modeliai
 
@@ -28,7 +28,7 @@ ms.locfileid: "6739903"
 
  
 
-Šioje temoje aprašoma, kaip nustatyti turto gamintojus ir susietus modelius modulyje „Turto valdymas“. Modeliai gali būti susieti su turto tipais.
+Šiame straipsnyje paaiškinama, kaip nustatyti turto gamintojams ir susijusius modelius turto valdymo dalyje. Modeliai gali būti susieti su turto tipais.
 
 ## <a name="set-up-product-model-relations"></a>Nustatyti produktų ryšius
 

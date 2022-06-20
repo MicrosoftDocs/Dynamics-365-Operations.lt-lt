@@ -1,6 +1,6 @@
 ---
 title: Mokestis registruojamas neteisingame DK sąskaitoje kvite
-description: Šioje temoje pateikiama trikčių diagnostikos informacija, kuri gali padėti, kai mokesčiai registruojami į netinkamą DK sąskaitą kvite.
+description: Šiame straipsnyje pateikiama trikčių diagnostikos informacija, kuri gali padėti, kai mokestis užregistruojamas neteisingame DK kvito sąskaitoje.
 author: qire
 ms.date: 04/12/2021
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 9c9f3fc63374b185a795977566cf73c8c29ee5d3
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 5eb0f7d0196ac52a87d61cba6b9cd438708eff73
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8686441"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846747"
 ---
 # <a name="tax-is-posted-to-the-wrong-ledger-account-in-the-voucher"></a>Mokestis registruojamas neteisingame DK sąskaitoje kvite
 
 [!include [banner](../includes/banner.md)]
 
-Publikavimo metu, mokesčiai gali būti publikuoti į ne tą DK paskyrą kvite. Norėdami išspręsti šią problemą, atlikite tolesniuose skyriuose nurodytus veiksmus. Šios temos pavyzdžiuose kaip verslo dokumentą naudojamas pardavimo užsakymas.
+Publikavimo metu, mokesčiai gali būti publikuoti į ne tą DK paskyrą kvite. Norėdami išspręsti šią problemą, atlikite tolesniuose skyriuose nurodytus veiksmus. Šiame straipsnyje pateikti pavyzdžiai naudoja pardavimo užsakymą kaip verslo dokumentą.
 
 ## <a name="find-the-tax-code-of-the-incorrectly-posted-tax-transaction"></a>Rasti neteisingai užregistruotos mokesčio operacijos mokesčio kodą
 

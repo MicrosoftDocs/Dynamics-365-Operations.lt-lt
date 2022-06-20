@@ -1,6 +1,6 @@
 ---
 title: „Regression Suite Automation Tool“ mokymo programos nustatymas ir įdiegimas
-description: Šioje temoje mokoma, kaip nustatyti ir įdiegti „Regression suite automation tool“ (RSAT).
+description: Šiame straipsnyje aprašoma, kaip nustatyti ir įdiegti regresijos komplekto automatizavimo įrankį (RSAT).
 author: tonyafehr
 ms.date: 09/20/2019
 ms.topic: article
@@ -14,16 +14,16 @@ ms.search.region: Global
 ms.author: tfehr
 ms.search.validFrom: 2019-05-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: 5dcdd14f54b9c0ad39794ff98ede29332c246513
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: ec4ae765aaac038e6c7eff11403fb21ebd27fc2c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7781996"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8858596"
 ---
 # <a name="set-up-and-install-regression-suite-automation-tool-tutorial"></a>„Regression Suite Automation Tool“ mokymo programos nustatymas ir įdiegimas
 
-Ši tema yra mokomoji programa, kuri padeda nustatyti ir pradėti darbą su RSAT ir įrankiais, susietais su RSAT.
+Šiame straipsnyje yra mokymo programa, kuri padeda gauti sąranką ir pradėti naudoti RSAT bei įrankius, susijusius su RSAT.
 
 [!include [banner](../../includes/banner.md)]
 
@@ -42,7 +42,7 @@ ms.locfileid: "7781996"
 
 - Norint paleisti šią mokymo programą reikia aplinkos, kurioje veiktų „Microsoft Dynamics 365 for Finance and Operations“ 10.0 (2019 m. balandžio mėn.) arba naujesnė versija. Klientai, naudojantys „Microsoft Dynamics 365 for Finance and Operations“, gali naudotis ir „Enterprise Edition 7.3“, „Platform Update 20“ (PU20) arba naujesnes versijas.
 - Vartotojas turi turėti administratoriaus teises į šią aplinką.
-- Turite turėti prieigą prie kliento nuomotojo LCS ir „Azure DevOps“ (anksčiau žinomos kaip „Microsoft Visual Studio Team Services“ \[ VSTS\]).
+- Turite turėti prieigą prie kliento nuomotojo LCS ir „Azure DevOps“ (anksčiau žinomos kaip „Microsoft Visual Studio Team Services“ \[VSTS\]).
 - Vartotojas, kuris kuria ir valdo testavimo paketus, turi turėti „Azure DevOps“ testavimo planavimo arba testavimo vadovo licenciją. Šios licencijos irgi suteikia prieigą prie testavimo planų:
     - „Visual Studio Enterprise“ licencija
     - „Visual Studio Test Professional“ licencija
@@ -111,7 +111,7 @@ Kitu atveju pagal šią mokomąją programą rekomenduojame sukurti naują „Az
 
 ## <a name="configure-the-lcs-project"></a>LCS projekto konfigūravimas
 
-Turite turėti „Lifecycle Services“ (LCS) projektą pagrindinei testavimo bibliotekai. LCS verslo procesų modeliavimo įrankis (BPM) naudojamas kaip pagrindinė jūsų testavimo atvejų biblioteka. BPM naudojamas testavimo bibliotekoms valdyti ir paskirstyti po LCS projektus. Pavyzdžiui, „Microsoft“ partnerio arba nepriklausomo programinės įrangos tiekėjo (ISV) kūrimo testavimo bibliotekos pateiks testavimo atvejus BPM bibliotekų forma. Naudojant BPM testavimo atvejai tvarkomi pagal verslo procesą. BPM nenustato vykdymo tvarkos ar teigiamų testavimo rezultatų dažnumo. Šie duomenys valdomi „Azure DevOps“, kaip aprašyta toliau šioje temoje.  
+Turite turėti „Lifecycle Services“ (LCS) projektą pagrindinei testavimo bibliotekai. LCS verslo procesų modeliavimo įrankis (BPM) naudojamas kaip pagrindinė jūsų testavimo atvejų biblioteka. BPM naudojamas testavimo bibliotekoms valdyti ir paskirstyti po LCS projektus. Pavyzdžiui, „Microsoft“ partnerio arba nepriklausomo programinės įrangos tiekėjo (ISV) kūrimo testavimo bibliotekos pateiks testavimo atvejus BPM bibliotekų forma. Naudojant BPM testavimo atvejai tvarkomi pagal verslo procesą. BPM nenustato vykdymo tvarkos ar teigiamų testavimo rezultatų dažnumo. Šios informacijos valdomos kaip Azure DevOps nurodyta toliau šiame straipsnyje.  
 
 Savo LCS projektui galite naudoti esamą klientų įdiegimo arba partnerių projektą.
 
@@ -386,7 +386,7 @@ Norėdami įjungti autentifikavimą, turite sugeneruoti ir įdiegti sertifikatą
 
     ![„AOSService” svetainių sąraše.](./media/setup_rsa_tool_49.png)
 
-3. Dešiniuoju pelės mygtuku spustelėkite **Naršyti**, kad atidarytumėte aplanką **\<Drive\>: \\ AosService\\ WebRoot**. Raskite **wif.config** failą.
+3. Dešiniuoju pelės mygtuku spustelėkite **Naršyti**, kad atidarytumėte aplanką **\<Drive\>: \\AosService\\WebRoot**. Raskite **wif.config** failą.
 
     ![Wif.config failas „WebRoot“ aplanke.](./media/setup_rsa_tool_50.png)
 
@@ -501,7 +501,7 @@ Jei naudojate senesnes RSAT versijas, turite įdiegti „Selenium“ ir naršykl
     - **Projekto pavadinimas** – pasirinkite savo „Azure DevOps“ projekto pavadinimą.
     - **Testavimo planas** – pasirinkite „Azure DevOps“ testavimo planą, kuriame yra jūsų testavimo atvejų. Norėdami gauti daugiau informacijos, žr. [Testavimo planų ir testavimo paketų kūrimas](https://www.visualstudio.com/docs/test/manual-exploratory-testing/getting-started/create-a-test-plan). Pasirinkę testavimo planą, pasirinkite **Tikrinti ryšį**, kad būtų galima tikrinti ryšį su „Azure DevOps“.
     - **Pagrindinio kompiuterio pavadinimas** – įveskite testavimo aplinkos pagrindinio kompiuterio pavadinimą, pvz., **\<myaos\>.cloudax.dynamics.com**. Neįtraukite **https://** arba **http://** prefikso.
-    - **SOAP pagrindinio kompiuterio pavadinimas** – įveskite testavimo aplinkos SOAP pagrindinio kompiuterio pavadinimą. Paprastai SOAP pagrindinio kompiuterio pavadinimas yra toks pat kaip pagrindinio kompiuterio pavadinimas, bet jame yra **soap** sufiksas. Štai pavyzdys: **\<myaos\> soap.cloudax.dynamics.com**. Neįtraukite **https://** arba **http://** prefikso.
+    - **SOAP pagrindinio kompiuterio pavadinimas** – įveskite testavimo aplinkos SOAP pagrindinio kompiuterio pavadinimą. Paprastai SOAP pagrindinio kompiuterio pavadinimas yra toks pat kaip pagrindinio kompiuterio pavadinimas, bet jame yra **soap** sufiksas. Štai pavyzdys: **\<myaos\>soap.cloudax.dynamics.com**. Neįtraukite **https://** arba **http://** prefikso.
 
         > [!NOTE]
         > Norėdami rasti pagrindinio kompiuterio pavadinimą ir SOAP pagrindinio kompiuterio pavadinimą, atidarykite IIS tvarkyklę, dešiniuoju pelės mygtuku spustelėkite **Svetainės \> AOSService**, tada pasirinkite **Redaguoti susiejimus**. Stulpelyje **Pagrindinio kompiuterio pavadinimas** pateikiami pagrindinio kompiuterio pavadinimas ir SOAP pagrindinio kompiuterio pavadinimas (SOAP pagrindinio kompiuterio pavadinime yra sufiksas **soap** URL).
@@ -510,7 +510,7 @@ Jei naudojate senesnes RSAT versijas, turite įdiegti „Selenium“ ir naršykl
 
     - **Administratoriaus vartotojo vardas** – įveskite testavimo aplinkos administratoriaus vartotojo el. pašto adresą.
     - **Kontrolinis kodas** – įveskite autentifikavimo sertifikato kontrolinį kodą, kaip pirmiau aprašyta šioje mokomojoje programoje.
-    - **Darbo katalogas** – nurodykite aplanko, kuriame saugomi testavimo automatizavimo failai, pvz., „Excel“ testavimo duomenų failai, vietą. Pavyzdžiui, įveskite arba pasirinkite **C:\\ Temp\\ RegressionTool**.
+    - **Darbo katalogas** – nurodykite aplanko, kuriame saugomi testavimo automatizavimo failai, pvz., „Excel“ testavimo duomenų failai, vietą. Pavyzdžiui, įveskite arba pasirinkite **C:\\Temp\\RegressionTool**.
 
         > [!NOTE]
         > Jeigu aplanko pavadinime yra tarpų, vykdyti nepavyks, nes aplanko nepavyks rasti. Ši problema yra jau žinoma; ji nebeturi kilti naujausioje įrankio versijoje.
@@ -538,7 +538,7 @@ Jei naudojate senesnes RSAT versijas, turite įdiegti „Selenium“ ir naršykl
 
     ![Komanda Generuoti testavimo vykdymo ir parametrų failus meniu Naujas.](./media/setup_rsa_tool_65.png)
 
-    „Excel“ parametrų failas sukuriamas vietiniame aplanke, kurį nurodėte RSAT konfigūracijoje (pvz., **C:\\ Temp\\ RegressionTool**).
+    „Excel“ parametrų failas sukuriamas vietiniame aplanke, kurį nurodėte RSAT konfigūracijoje (pvz., **C:\\Temp\\RegressionTool**).
 
     ![„Excel“ parametrų failas sukurtas.](./media/setup_rsa_tool_66.png)
 
@@ -569,7 +569,7 @@ Jei naudojate senesnes RSAT versijas, turite įdiegti „Selenium“ ir naršykl
     ![Įspėjimo pranešimas, skirtas „Chrome“.](./media/setup_rsa_tool_70.png)
 
     > [!NOTE]
-    > Jei naudojate „Chrome“ kaip naršyklę ir gaunate klaidos pranešimą, kuriame nurodoma, kad seansas nebuvo sukurtas, nes „Chrome“ versija netinkama, atsisiųskite naujausią „Chrome“ tvarkyklę iš <http://chromedriver.chromium.org/downloads> į **C:\\ Program Files (x86)\\Regression Suite Automation Tool\\ Common\\ External\\ Selenium** aplanką.
+    > Jei naudojate „Chrome“ kaip naršyklę ir gaunate klaidos pranešimą, kuriame nurodoma, kad seansas nebuvo sukurtas, nes „Chrome“ versija netinkama, atsisiųskite naujausią „Chrome“ tvarkyklę iš <http://chromedriver.chromium.org/downloads> į **C:\\Program Files (x86)\\Regression Suite Automation Tool\\Common\\External\\Selenium** aplanką.
 
     ![Klaidos pranešimas, skirtas „Chrome“.](./media/setup_rsa_tool_71.png)
 
@@ -614,7 +614,7 @@ Jei naudojate senesnes RSAT versijas, turite įdiegti „Selenium“ ir naršykl
     ![Išsamus klaidos pranešimas.](./media/setup_rsa_tool_79.png)
 
     > [!NOTE]
-    > Visus klaidos pranešimus taip pat galima rasti vietoje **C:\\ Users\\\$ YourUserName\\ AppData\\ Roaming\\ regressionTool\\ errormsg-.txt**.
+    > Visus klaidos pranešimus taip pat galima rasti vietoje **C:\\Users\\\$YourUserName\\AppData\\Roaming\\regressionTool\\errormsg-.txt**.
 
 7. Taip pat galite eksportuoti testavimo vykdymo rezultatus iš testavimo plano pasirinkdami **Eksportuoti**.
 
@@ -712,7 +712,7 @@ Viena iš pagrindinių RSAT funkcijų – testavimo atvejų sujungimas (t. y. te
     > [!NOTE]
     > Jei „Excel“ parametrų failas buvo paliktas atidarytas, iš naujo sugeneruoti nepavyks. Todėl prieš generuodami naują „Excel“ parametrų failą įsitikinkite, kad „Excel“ parametrų failas yra uždarytas.
 
-16. Pasirinkite **Redaguoti**, kad būtų atidarytas naujas „Excel“ parametrų failas. 9 eilutėje matysite naują įrašą **Įrašytas kintamasis**. Šis kintamasis **{{ EcoResProductCreate\_ Identification\_ ProductNumber\_ Copy}}** įrašomas užduoties įrašo XML faile ir gali būti naudojamas vėlesniuose testavimuose.
+16. Pasirinkite **Redaguoti**, kad būtų atidarytas naujas „Excel“ parametrų failas. 9 eilutėje matysite naują įrašą **Įrašytas kintamasis**. Šis kintamasis **{{EcoResProductCreate\_Identification\_ProductNumber\_Copy}}** įrašomas užduoties įrašo XML faile ir gali būti naudojamas vėlesniuose testavimuose.
 
     ![Įrašyto kintamojo įrašas.](./media/setup_rsa_tool_94.png)
 
@@ -785,7 +785,7 @@ Viena iš pagrindinių RSAT funkcijų – testavimo atvejų sujungimas (t. y. te
 #### <a name="edit-the-excel-parameter-file"></a>„Excel“ parametrų failo redagavimas
 
 1. Pasirinkite tik antrą testavimo atvejį ir pasirinkite **Redaguoti**, kad atidarytumėte atitinkamą „Excel“ parametrų failą.
-2. Kopijuokite **{{ EcoResProductCreate\_ Identification\_ ProductNumber\_ Copy}}** įrašytą kintamąjį (žr. skyrių [Esamo užduoties įrašo modifikavimas įrašytam kintamajam sukurti](#modify-an-existing-task-recording-to-create-a-saved-variable)) iš pirmo testavimo atvejo į visus laukus, kur naudojamas produkto numeris. Šiuo atveju nukopijuojate kintamąjį į laukus **Produkto numeris** ir **Tikrinti produkto numerį**, esančius lape **EcoResProductListPage**.
+2. Kopijuokite **{{EcoResProductCreate\_Identification\_ProductNumber\_Copy}}** įrašytą kintamąjį (žr. skyrių [Esamo užduoties įrašo modifikavimas įrašytam kintamajam sukurti](#modify-an-existing-task-recording-to-create-a-saved-variable)) iš pirmo testavimo atvejo į visus laukus, kur naudojamas produkto numeris. Šiuo atveju nukopijuojate kintamąjį į laukus **Produkto numeris** ir **Tikrinti produkto numerį**, esančius lape **EcoResProductListPage**.
 
     ![Laukai Produkto numeris ir Tikrinti produkto numerį.](./media/setup_rsa_tool_104.png)
 

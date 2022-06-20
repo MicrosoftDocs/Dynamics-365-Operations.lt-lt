@@ -1,6 +1,6 @@
 ---
 title: Naudojimo teise valdomo turto nuvertėjimas
-description: Šioje temoje aprašomos funkcijos, kurios įrašo vertės sumažėjimą ir koreguoja apskaitos standartų kodifikavimo temos Nr. 842 (ASC 842) veiklos nuomos turto nusidėvėjimo grafiką.
+description: Šiame straipsnyje aprašomos funkcijos, kurios įrašo pablogėjimą ir koreguoja apskaitos standartų kodifikavimo temos 842 (ASC 842) veiklos nuomos turto nusidėvėjimo grafiką.
 author: moaamer
 ms.date: 12/03/2021
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 497739e56c6ce0f4fe0bd4aec889f0782d08fc4a
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: f953b3a351859c6becba10a129bbb17b49be6290
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8720173"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894119"
 ---
 # <a name="impair-right-of-use-assets"></a>Naudojimo teise valdomo turto nuvertėjimas
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-Jei naudojimo teise valdomo turto apskaitinė vertė nėra atlygintina, jums gali tekti tikrinti, ar turto vertė sumažėjo. Jei nustatote, kad turto vertė sumažėjo, turto nuoma gali įrašyti vertės sumažėjimą ir atitinkamai koreguoti nusidėvėjimo grafiką. Šioje temoje aprašomos funkcijos, kurios įrašo vertės sumažėjimą ir koreguoja apskaitos standartų kodifikavimo temos Nr. 842 (ASC 842) veiklos nuomos nusidėvėjimo grafiką. Tas pats metodas taikomas ir tarptautinio finansinės atskaitomybės standarto Nr. 16 (IFRS 16) nuomai.
+Jei naudojimo teise valdomo turto apskaitinė vertė nėra atlygintina, jums gali tekti tikrinti, ar turto vertė sumažėjo. Jei nustatote, kad turto vertė sumažėjo, turto nuoma gali įrašyti vertės sumažėjimą ir atitinkamai koreguoti nusidėvėjimo grafiką. Šiame straipsnyje aprašomos funkcijos, kurios įrašo pablogėjimą ir koreguoja apskaitos standartų kodifikavimo temos 842 (ASC 842) valdymo nuomos nusidėvėjimo grafiką. Tas pats metodas taikomas ir tarptautinio finansinės atskaitomybės standarto Nr. 16 (IFRS 16) nuomai.
 
 Likęs naudojimo teise valdomo turto likutis bus amortizuotas tiesiogiai, atsižvelgiant į likusių laikotarpių skaičių, nepriklausomai nuo to, ar nuoma buvo klasifikuojama kaip finansinė nuoma pagal IFRS 16, ar veiklos nuoma pagal ASC 842.
 
@@ -81,9 +81,9 @@ Toliau esančiose lentelėse rodomos reikšmės, kurios yra nustatytos šio pavy
 | Mokėjimo dažnumas | Kasmet   |
 | Mokėjimo suma    | 10,000     |
 
-### <a name="steps"></a>Žingsniai
+### <a name="steps"></a>Veiksmai
 
-1. Sukūrę nuomą, kaip anksčiau aprašyta šioje temoje, eikite į nuomos knygą ir patvirtinkite mokėjimo grafiką. Tada registruokite pradinį pripažinimo žurnalo įrašą. Pradinis naudojimo teise valdomo turto ir nuomos įsipareigojimas turėtų būti 70 235,81 USD. Šiame pavyzdyje nuoma buvo klasifikuojama kaip veiklos nuomos pagal ASC 842.
+1. Sukūrę nuomą, kaip aprašyta anksčiau šiame straipsnyje, eikite į nuomos knygą ir patvirtinkite mokėjimo grafiką. Tada registruokite pradinį pripažinimo žurnalo įrašą. Pradinis naudojimo teise valdomo turto ir nuomos įsipareigojimas turėtų būti 70 235,81 USD. Šiame pavyzdyje nuoma buvo klasifikuojama kaip veiklos nuomos pagal ASC 842.
 2. Vykdyti paketinio žurnalo procesą tris kartus, kad būtų imituotas trejų metų laikotarpis, skirtas nuomos mokėjimams, palūkanų išlaidoms ir nusidėvėjimo išlaidoms.
 3. Baigę vykdyti visas tris paketines užduotis, grįžkite į nuomos knygą ir atidarykite atsakomybės bei turto operacijų lenteles, kad peržiūrėtumėte dabartinę naudojimo teise valdomo turto ir nuomos įsipareigojimo balansinę vertę. Po trejų metų įsipareigojimo vertė turėtų būti maždaug 53 893,00 USD, o turto vertė turėtų būti maždaug 53 893,00 USD. 
 

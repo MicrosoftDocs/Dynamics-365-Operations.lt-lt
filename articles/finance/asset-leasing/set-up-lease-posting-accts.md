@@ -1,6 +1,6 @@
 ---
 title: Nuomos registravimo sąskaitų nustatymas
-description: Šioje temoje išvardijamos registravimo sąskaitos, kurios būtinos turto lizingo operacijoms, ir paaiškinama, kaip nustatyti registravimo sąskaitą puslapyje Nuomos registravimo parametrai.
+description: Šiame straipsnyje išvardijamos registravimo sąskaitos, būtinos turto operacijų metu, ir paaiškinama, kaip nustatyti registravimo sąskaitas nuomos registravimo parametrų puslapyje.
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 147d8cd93f9664039b2004b878dcaff96c8b6ce6
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 6e3a0d8dd3bb3e58ca10b2efce0cc88a2f48d2de
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726384"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859920"
 ---
 # <a name="set-up-lease-posting-accounts"></a>Nuomos registravimo sąskaitų nustatymas
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje išvardijamos registravimo sąskaitos, kurios būtinos turto lizingo operacijoms, ir paaiškinama, kaip nustatyti registravimo sąskaitą puslapyje **Nuomos registravimo parametrai**.
+Šiame straipsnyje išvardijamos registravimo sąskaitos, būtinos turto operacijų metu, ir paaiškinama, kaip nustatyti registravimo sąskaitas nuomos **registravimo parametrų** puslapyje.
 
 Kad atitiktumėte apskaitos standartų kodifikavimo temą Nr. 842 (ASC 842) ir tarptautinį finansinės atskaitomybės standartą Nr. 16 (IFRS 16), jums gali tekti sukurti sąskaitų plane nurodytas sąskaitas. Tačiau jokia jūsų sukurta sąskaita, skirta laikytis ASC ir IFRS standartų, nėra ilgalaikio turto sąskaita. Pagal ASC 842, naudojimo teise valdomas turtas yra įrašomas tiek finansinei, tiek veiklos nuomai. Šios nuomos yra atskiros nuo ilgalaikio turto. (Jūs vis dar galite tvarkyti naudojimo teise valdomą turtą naudodami ilgalaikį turtą.)
 

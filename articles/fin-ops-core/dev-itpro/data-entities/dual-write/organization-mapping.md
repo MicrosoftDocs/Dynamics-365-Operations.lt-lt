@@ -1,6 +1,6 @@
 ---
 title: Organizacijos hierarchija Dataverse
-description: Šioje temoje aprašomas organizacinių duomenų integravimas tarp „Finance and Operations“ programų ir „Dataverse“.
+description: Šiame straipsnyje aprašomas organizacijos duomenų integravimas tarp finansų ir operacijų programėlių ir Dataverse.
 author: RamaKrishnamoorthy
 ms.date: 07/15/2019
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 9174612743c68595d12dd223f0932ace1857c0fb
-ms.sourcegitcommit: 9cbff8a2cdeaf606488fb0044b3de4ab4409c9dc
+ms.openlocfilehash: a4edaf5b9c50e9d8781ff703328ac786d71ee782
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/26/2022
-ms.locfileid: "8358369"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884738"
 ---
 # <a name="organization-hierarchy-in-dataverse"></a>Organizacijos hierarchija Dataverse
 
@@ -22,7 +22,7 @@ ms.locfileid: "8358369"
 
 
 
-Kadangi „Dynamics 365 Finance“ yra finansų sistema, *„organizacija“* yra pagrindinė sąvoka, o sistemos sąranka pradedama nuo organizacijos hierarchijos konfigūracijos. Verslo finansai gali būti stebimi organizacijos lygiu ir taip pat bet kuriuo organizacijos hierarchijos lygiu.
+Kadangi "Dynamics 365 Financial" yra finansinė sistema, *organizacija* yra pagrindinė sąvoka, o sistemos nustatymas prasideda konfigūravimu pagal organizacijos hierarchiją. Verslo finansai gali būti stebimi organizacijos lygiu ir taip pat bet kuriuo organizacijos hierarchijos lygiu.
 
 Nors „Dataverse“ neturi organizacijos hierarchijos sąvokos, joje yra kelios laisvos sąvokos, pvz., visų pardavimo įplaukos. Kaip „Dataverse“ integravimo dalis, organizacijos hierarchijos duomenų struktūra įtraukiamą į „Dataverse“
 

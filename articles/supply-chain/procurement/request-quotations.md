@@ -1,6 +1,6 @@
 ---
 title: Pasiūlymų patvirtinimų (RFQ) apžvalga
-description: Šioje temoje pateikiama pasiūlymų patvirtinimų (RFQ) apžvalga. Organizacijos išduoda RFQ, kai nori pirkti prekes arba paslaugas ir gauti konkurencingų pasiūlymų iš kelių tiekėjų.
+description: Šiame straipsnyje pateikiama pasiūlymų patvirtinimų (RFQ) apžvalga. Organizacijos išduoda RFQ, kai nori pirkti prekes arba paslaugas ir gauti konkurencingų pasiūlymų iš kelių tiekėjų.
 author: GalynaFedorova
 ms.date: 10/05/2020
 ms.topic: overview
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3de48c03ac73ee164dea0c329b2595db21c841cc
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 89abf82879ab08f2341ce5b14e6af1d5c42140b1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8671960"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895589"
 ---
 # <a name="requests-for-quotation-rfqs-overview"></a>Pasiūlymų patvirtinimų (RFQ) apžvalga
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje pateikiama pasiūlymų patvirtinimų (RFQ) apžvalga. Organizacijos išduoda RFQ, kai nori pirkti prekes arba paslaugas ir gauti konkurencingų pasiūlymų iš kelių tiekėjų. RFQ tiekėjų prašoma pateikti nurodyto prekių kiekio kainas ir pristatymo laiką.
+Šiame straipsnyje pateikiama pasiūlymų patvirtinimų (RFQ) apžvalga. Organizacijos išduoda RFQ, kai nori pirkti prekes arba paslaugas ir gauti konkurencingų pasiūlymų iš kelių tiekėjų. RFQ tiekėjų prašoma pateikti nurodyto prekių kiekio kainas ir pristatymo laiką.
 Be to, galite paprašyti tiekėjų nurodyti, ar bus papildomų išlaidų, pvz., siuntimo išlaidų, arba nuolaidų didelių užsakymų ar ankstyvo tiekėjo SF apmokėjimo atveju.
 
 RFQ procesą sudaro toliau pateiktos užduotys.
@@ -45,7 +45,7 @@ Galite kurti RFQ atvejį iš suplanuotų užsakymų, pirkimo paraiškos arba įv
 
 Paruošę RFQ atvejį ir įtraukę tiekėjų, RFQ atvejyje pasirinkite **Siųsti** (viešajame sektoriuje – **Siųsti ir publikuoti**). Generuojamas kiekvieno tiekėjo, kuriam siunčiate RFQ, RFQ žurnalas. Galite konfigūruoti siuntimo veiksmo spausdinimo parinktis, kad kiekvieno tiekėjo ataskaita būtų spausdinama arba siunčiama kiekvieno tiekėjo el. pašto adresu. Be to, naudojant kiekvieno tiekėjo RFQ žurnalą galima generuoti ataskaitą, kurią galima siųsti arba pakartotinai siųsti tiekėjui vėliau. Taip pat galite konfigūruoti siuntimo veiksmą, kad būtų sugeneruotas atsakymo lapas, kurį tiekėjas gali užpildyti.
 
-Šioje temoje aprašomas RFQ tvarkymo procesas, kai nenaudojamas tiekėjo bendradarbiavimas. Jei jūsų sistemoje nustatytas tiekėjų bendradarbiavimas, tiekėjai gali įvesti kainos siūlymus tiesiai į „Supply Chain Management”. Daugiau informacijos apie tiekėjo bendradarbiavimą žr. puslapiuose [Tiekėjo bendradarbiavimas su klientais](/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations) ir [Tiekėjo bendradarbiavimas su išoriniais tiekėjais](vendor-collaboration-work-external-vendors.md).
+Šiame straipsnyje aprašomas RFQ tvarkymo procesas, kai tiekėjobendradarbiavimo programa nenaudota. Jei jūsų sistemoje nustatytas tiekėjų bendradarbiavimas, tiekėjai gali įvesti kainos siūlymus tiesiai į „Supply Chain Management”. Daugiau informacijos apie tiekėjo bendradarbiavimą žr. puslapiuose [Tiekėjo bendradarbiavimas su klientais](/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations) ir [Tiekėjo bendradarbiavimas su išoriniais tiekėjais](vendor-collaboration-work-external-vendors.md).
 
 Jei reikia pakeisti išsiųstą RFQ, baigę galite pakartotinai išsiųsti RFQ tiekėjams naudodami du keitimo veiksmus: kurti ir baigti.
 
@@ -59,7 +59,7 @@ Pasirinkę kainos pasiūlymą arba kainos pasiūlymo eilučių skaičių, galite
 
 RFQ atvejo būsenos tipai gali būti du: žemiausia ir aukščiausia. Būseną galite peržiūrėti sąrašo puslapyje **Visi pasiūlymų patvirtinimai**. Mažiausia būsena yra mažiausiai pažengęs etapas iš visų RFQ atvejo eilučių, o didžiausia būsena yra labiausiai pažengęs etapas iš visų RFQ atvejo eilučių. Pavyzdžiui, tarkime, kad yra RFQ atvejis, kuriame yra trys eilutės, siunčiamas dviem tiekėjams, todėl sukuriami du RFQ, o kiekviename iš jų yra trys eilutės. Visų eilučių būsena yra **Išsiųsta**. Dabar pasiūlymas įvedamas iš vieno iš tiekėjų ir RFQ eilučių būsena tampa **Gauta**. Tai reiškia, kad iš trijų RFQ atvejo eilučių visų vieno RFQ eilučių būsena yra **Išsiųsta**, o visų kito RFQ eilučių būsena yra **Gauta**. Tada žemiausia būsena yra **Išsiųsta**, o aukščiausia yra **Gauta.**
 
-Šios būsenos bus išsamiau aprašytos vėlesniuose šios temos skyriuose.
+Šios būsenos bus išsamiau aprašytos toliau šiame straipsnyje.
 
 ## <a name="setting-up-rfq-functionality"></a>RFQ funkcijų nustatymas
 

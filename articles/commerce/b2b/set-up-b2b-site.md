@@ -1,6 +1,6 @@
 ---
-title: Nustatykite B2B el. komercijos saitą
-description: Šioje temoje aprašoma, kaip nustatyti verslo su verslu (B2B) el. komercijos saitą „Microsoft Dynamics 365 Commerce“.
+title: B2B el. prekybos svetainės nustatymas
+description: Šiame straipsnyje aprašoma, kaip nustatyti verslo (B2B) el. komercijos svetainę Microsoft Dynamics 365 Commerce.
 author: josaw1
 ms.date: 12/03/2021
 ms.topic: article
@@ -14,24 +14,24 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 31266f84270f170e172eadea75a90397c5a6e8e6
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 0bcd864694ff2ad2aa211c927da4d698c0039715
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8691923"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881911"
 ---
 # <a name="set-up-a-b2b-e-commerce-site"></a>B2B el. prekybos svetainės nustatymas
 
 [!include [banner](../../includes/banner.md)]
 
-Verslo su verslu (B2B) el. komercijos saitas suteikia kelias pagrindines ypatybes, kurios optimizuoja B2B vartotojo darbo eigą. Šioje temoje aprašoma, kaip nustatyti verslo su verslu (B2B) el. komercijos saitą „Microsoft Dynamics 365 Commerce“. Jis eina per modulius ir saito nustatymus, kurie turi būti konfigūruojami siekiant į jungti B2B konkrečius scenarijus.
+Verslo su verslu (B2B) el. komercijos saitas suteikia kelias pagrindines ypatybes, kurios optimizuoja B2B vartotojo darbo eigą. Šiame straipsnyje aprašoma, kaip nustatyti B2B el. komercijos svetainę Microsoft Dynamics 365 Commerce. Jis eina per modulius ir saito nustatymus, kurie turi būti konfigūruojami siekiant į jungti B2B konkrečius scenarijus.
 
 ## <a name="prerequisites"></a>Būtinieji komponentai
 
-- Norėdami nustatyti B2B el. komercijos saitą, turite galėti įjungti ir konfigūruoti konkrečias funkcijas „Commerce“ būstinėje, kaip aprašoma šioje temoje.
+- Norėdami nustatyti B2B el. komercijos svetainę, "Commerce Headquarters" turite įgalinti ir konfigūruoti specialias "Commerce Headquarters" funkcijas, kaip aprašyta šiame straipsnyje.
 - Pagrindinės patirtys, tokios kaip produkto atradimas, produkto informacijos puslapiai, vežimėlis ir išsiregistravimas yra valdomi tų pačių modulių, kurie naudojami verslo su verslu (B2C) el. komercijos saituose. Saito autoriai turėtų žinoti su visais moduliais, kuriuos „Dynamics 365 Commerce“ palaiko. Dėl daugiau informacijos, žr. [Modulio bibliotekos apžvalga](../starter-kit-overview.md).
-- Šioje temoje laikoma, kad saito autoriai supranta „Commerce“ saito kūrimo įrankio pagrindus, šablonus, fragmentus ir puslapius taip, kad jie galėtų įjungti B2B funkcijas el. komercijos saitams.
+- Šiame straipsnyje laikoma, kad svetainės autoriai supranta komercijos svetainės generatoriaus, šablonų, fragmentų ir puslapių pagrindus, kad jie galėtų įgalinti B2B funkcijas el. komercijos svetainėms.
 
 ## <a name="site-level-settings"></a>Saito lygio nustatymai
 

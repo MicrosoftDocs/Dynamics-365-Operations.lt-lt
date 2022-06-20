@@ -1,6 +1,6 @@
 ---
 title: Svetainės naršymo tinkinimas
-description: Šioje temoje aprašoma, kaip sukurti tinkintą interneto naršymo hierarchiją, kad būtų galima tvarkyti savo „Microsoft Dynamics 365 Commerce“ svetainėje naršomas prekes.
+description: Šiame straipsnyje aprašoma, kaip sukurti pritaikytą interneto naršymo hierarchiją, kad būtų galima tvarkyti produktus, kad būtų galima naršyti svetainėje Microsoft Dynamics 365 Commerce.
 author: bicyclingfool
 ms.date: 09/15/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 8af68fff17f2f92356ade356da0e75867ed54950d744c6cbe730ad8db4ac3975
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 60aaae397501269be55f5ef75e4314b4e1f0b252
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6755887"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863466"
 ---
 # <a name="customize-site-navigation"></a>Svetainės naršymo tinkinimas
 
 [!include [banner](includes/banner.md)]
 
-Šioje temoje aprašoma, kaip sukurti tinkintą interneto naršymo hierarchiją, kad būtų galima tvarkyti savo „Microsoft Dynamics 365 Commerce“ svetainėje naršomas prekes.
+Šiame straipsnyje aprašoma, kaip sukurti pritaikytą interneto naršymo hierarchiją, kad būtų galima tvarkyti produktus, kad būtų galima naršyti svetainėje Microsoft Dynamics 365 Commerce.
 
 Internetinėse vitrinose paprastai klientai gali atrasti ir naršyti produktus, naršydami per produktų kategorijas. Šią galimybę paprastai teikiama skirtukais puslapio viršuje arba naršymo juosta kairėje pusėje. „Dynamics 365 Commerce“ galite kurti ir valdyti savo hierarchinę, kategorijų naršymo ir į įvairias kategorijas įtrauktų produktų, struktūrą.
 

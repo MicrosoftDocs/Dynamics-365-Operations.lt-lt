@@ -1,6 +1,6 @@
 ---
 title: Pasikartojančio pirkimo užsakymo kūrimas
-description: Šioje temoje rodoma, kaip sukurti pakartotinį pirkimo užsakymą (PO) kopijuojant eilutes iš ankstesnio pirkimo užsakymo dokumento į naują PO arba esamą PO.
+description: Šiame straipsnyje aprašoma, kaip sukurti pasikartojantį pirkimo užsakymą (PO) kopijuojant eilutes iš ankstesnio pirkimo užsakymo dokumento į naują PU arba esamą PU.
 author: GalynaFedorova
 ms.date: 07/29/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: be4eca824794b8d45c7a6f40cb68aff7c4a53cd0
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 42bfbc7a10d21a475055ee87e76c89db0ad64165
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8671146"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8865098"
 ---
 # <a name="create-a-repeat-purchase-order"></a>Pasikartojančio pirkimo užsakymo kūrimas
 
 [!include [banner](../../includes/banner.md)]
 
-Šioje temoje rodoma, kaip sukurti pakartotinį pirkimo užsakymą (PO) kopijuojant eilutes iš ankstesnio pirkimo užsakymo dokumento į naują PO arba esamą PO. Pasikartojančius užsakymus galima kurti dviem būdais. Galite naudoti dokumentų lygio veiksmus veiksmų srityje arba galite naudoti eilutės informacijos veiksmus. Dokumentų lygio veiksmai daugiausia naudojamas naujiems pirkimo užsakymams kurti, įtraukiant eilučių ir antraštės informaciją iš kito užsakymo, o eilutės informacijos veiksmas daugiausia naudojamas eilutėms į esamą užsakymą įtraukti. Šiame vedlyje pateikiamą pavyzdį galima naudoti demonstracinių duomenų įmonėje USMF. Šią užduotį paprastai atlieka pirkimo agentas.
+Šiame straipsnyje aprašoma, kaip sukurti pasikartojantį pirkimo užsakymą (PO) kopijuojant eilutes iš ankstesnio pirkimo užsakymo dokumento į naują PU arba esamą PU. Pasikartojančius užsakymus galima kurti dviem būdais. Galite naudoti dokumentų lygio veiksmus veiksmų srityje arba galite naudoti eilutės informacijos veiksmus. Dokumentų lygio veiksmai daugiausia naudojamas naujiems pirkimo užsakymams kurti, įtraukiant eilučių ir antraštės informaciją iš kito užsakymo, o eilutės informacijos veiksmas daugiausia naudojamas eilutėms į esamą užsakymą įtraukti. Šiame vedlyje pateikiamą pavyzdį galima naudoti demonstracinių duomenų įmonėje USMF. Šią užduotį paprastai atlieka pirkimo agentas.
 
 
 ## <a name="create-a-new-repeat-purchase-order"></a>Kurti naują pasikartojantį pirkimo užsakymą

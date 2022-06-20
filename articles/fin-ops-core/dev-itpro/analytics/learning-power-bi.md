@@ -1,6 +1,6 @@
 ---
 title: „Power BI“ turinys Mokymasis
-description: Šioje temoje aprašomas „Power BI“ turinys Mokymasis.
+description: Šiame straipsnyje aprašomas mokymosi Power BI turinys.
 author: jcart1106
 ms.date: 12/19/2017
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 6236868dca26be8cf54ad3cf73e846f2e689af8635e212c493b65a5d1aaa62ed
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 05146eef92fa0ef973df832aa3431ec32ea0c297
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6742343"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847317"
 ---
 # <a name="learning-power-bi-content"></a>„Power BI“ turinys Mokymasis
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje aprašomas „Microsoft Power BI“ turinys **Mokymasis**.
+Šiame straipsnyje aprašomas **mokymosi** Microsoft Power BI turinys.
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>Į „Power BI“ turinį įtrauktos ataskaitos
 

@@ -1,6 +1,6 @@
 ---
 title: Kas naujo ar pasikeitusio „Dynamics 365 Human Resources“ 2021 m. sausio 21 d.
-description: Šioje temoje aprašomos funkcijos, kurios yra naujos ar pasikeitusios „Microsoft Dynamics 365 Human Resources“ 2021 m. sausio 21 d.
+description: Šiame straipsnyje aprašomos priemonės, kurios yra naujos arba pakeistos "Microsoft Dynamics 365 Human Resources " 2021 m. sausio 21 d.
 author: marcelbf
 ms.date: 01/21/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-01-21
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: be50596cd64839ba82b847b2fabb0f46dc749a3f
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 9f1f660b7993804901f5fc9d3b608c141882bff5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8686861"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901095"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-january-21-2021"></a>Kas naujo ar pasikeitusio „Dynamics 365 Human Resources“ 2021 m. sausio 21 d.
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Šioje temoje aprašomos naujos, pasikeitusios ar netrukus pasirodysiančios „Dynamics 365 Human Resources“ funkcijos.
+Šiame straipsnyje aprašomos priemonės, kurios yra naujos, pakeistos arba tuoj pat Dynamics 365 Human Resources.
 
 Daugiau informacijos apie mūsų atnaujinimo procesą ir grafiką žr. [Atnaujinimo procesas](hr-admin-setup-update-process.md).
 
@@ -53,9 +53,9 @@ Daugiau informacijos apie naujas funkcijas ir jų numatomas bendro pasiekiamumo 
 Toliau nurodyti klaidų ištaisymai įtraukti į šį leidimą.
 
 > [!NOTE]
-> Siekiame kuo greičiau pateikti jums šią informaciją. Galime atnaujinti šią temą, kad būtų įtraukti klaidų ištaisymai, įtraukti į komponavimo versiją publikavus šią temą.
+> Siekiame kuo greičiau pateikti jums šią informaciją. Galime atnaujinti šį straipsnį, kad būtų įtrauktos pataisos, kurios buvo sukurtas po to, kai buvo publikuotas šis straipsnis.
 
-| Problemos numeris | Išdavimas |  aprašymas |
+| Problemos numeris | Problema |  Aprašymas |
 | --- | --- | --- |
 | 533079 | Naršymo klaida „Forma buvo netinkamai pavadinta“, kai bandome ieškoti atskaitymų. | Ištaisyta klaida ieškant išmokų atskaitymų su rodiniu **Pagal datą**. |
 | 543641 | ZIP kodas nėra užpildomas elektroninės ataskaitos metu.  | Ištaisyta vidaus klaida ZIP kode nepasirodo ACa elektroninės ataskaitose išmokų valdyme, kai aprėpties kodas yra nuo M iki Q. |

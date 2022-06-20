@@ -1,6 +1,6 @@
 ---
 title: Konfigūruoti kliento sąskaitos mokėjimo metodą B2B el. komercijos saitams
-description: Šioje temoje aprašoma, kaip konfigūruoti kliento sąskaitos mokėjimo būdą Microsoft Dynamics 365 Commerce. Taip pat aprašoma, kaip kredito limitai daro įtaką mokėjimo pagal sąskaitą fiksavimui "verslas verslui" (B2B) el. komercijos svetainėse.
+description: Šiame straipsnyje aprašoma, kaip konfigūruoti kliento sąskaitos mokėjimo būdą Microsoft Dynamics 365 Commerce. Taip pat aprašoma, kaip kredito limitai daro įtaką mokėjimo pagal sąskaitą fiksavimui "verslas verslui" (B2B) el. komercijos svetainėse.
 author: josaw1
 ms.date: 04/19/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: a55a5d4c9dbf7909af5219843fc4310b6cdd4ed7
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 20af517b9a69f4fb490d4d93ada8bc4063e895dd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8689642"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878652"
 ---
 # <a name="configure-the-customer-account-payment-method-for-b2b-e-commerce-sites"></a>Konfigūruoti kliento sąskaitos mokėjimo metodą B2B el. komercijos saitams
 
 [!include [banner](../../includes/banner.md)]
 
-Šioje temoje aprašoma, kaip konfigūruoti kliento sąskaitos mokėjimo būdą Microsoft Dynamics 365 Commerce. Taip pat aprašoma, kaip kredito limitai daro įtaką mokėjimo pagal sąskaitą fiksavimui "verslas verslui" (B2B) el. komercijos svetainėse.
+Šiame straipsnyje aprašoma, kaip konfigūruoti kliento sąskaitos mokėjimo būdą Microsoft Dynamics 365 Commerce. Taip pat aprašoma, kaip kredito limitai daro įtaką mokėjimo pagal sąskaitą fiksavimui "verslas verslui" (B2B) el. komercijos svetainėse.
 
 Mažmeniniai prekybininkai gali priimti įvairius mokėjimo tipus vietoje produktų ir paslaugų, kuriuos jie parduoda el. komercijos kanale. Nustačius sistemą, „Dynamics 365 Commerce“ reikia sukonfigūruoti kiekvieną mokėjimo tipą, kurį pardavėjas priima. Kliento sąskaitos (arba "pagal sąskaitą") mokėjimo būdas turi būti palaikomas B2B el. komercijos svetainėse. 
 

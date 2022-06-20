@@ -1,6 +1,6 @@
 ---
 title: Tiekėjo SF datos
-description: Šioje temoje aprašomos datos, rodomos tiekėjo SF. Taip pat paaiškinama, kaip nustatyti sistemą, kad ji automatiškai koreguotų registravimo datą.
+description: Šiame straipsnyje aprašomos datos, kurios rodomos tiekėjo SF. Taip pat paaiškinama, kaip nustatyti sistemą, kad ji automatiškai koreguotų registravimo datą.
 author: sunfzam
 ms.date: 2/09/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2021-08-30
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 064a125d448ebb3511db2d9b1f4228380805dc44
-ms.sourcegitcommit: f2a78e0d7d461ca843ac2f9abff7690275db9196
+ms.openlocfilehash: 943a84407d022c2c05bc534a35a2b5d44a94653e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8105469"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876418"
 ---
 # <a name="vendor-invoice-dates"></a>Tiekėjo SF datos
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje aprašomos datos, rodomos tiekėjo SF. Taip pat paaiškinama, kaip nustatyti sistemą, kad ji automatiškai koreguotų registravimo datą.
+Šiame straipsnyje aprašomos datos, kurios rodomos tiekėjo SF. Taip pat paaiškinama, kaip nustatyti sistemą, kad ji automatiškai koreguotų registravimo datą.
 
 **Išsami laukiama tiekėjo SF** puslapyje, SF antraštėje rodomos keturios datos: SF gavimo data, SF data, registravimo data ir terminas. Kai sukuriama tiekėjo SF, pagal numatytuosius nustatymus įvedamos šios datos:
 
@@ -37,7 +37,7 @@ ms.locfileid: "8105469"
 
 Kartais tiekėjo SF būsena gali būti laukiama daug laiko po laikotarpio uždarymo. Kai jis parengtas registruoti, vis dar naudojama senoji praėjusio registravimo laikotarpio registravimo data. Tačiau šis laikotarpis dabar uždarytas. Todėl mokėtinų sumų (AP) klerkas neautomatiniu būdu turi pakeisti visas registravimo datas į naują registravimo laikotarpį visoms anksčiau sukurtoms laukiančioms SF.
 
-Šioje temoje aprašyta priemonė leidžia nustatyti sistemą, kad ji automatiškai koreguotų registravimo datą pagal verslo reikalavimus.
+Šiame straipsnyje aprašyta funkcija leidžia nustatyti sistemą, kad ji automatiškai koreguoytų registravimo datą pagal verslo reikalavimus.
 
 ## <a name="parameter-for-automatically-adjusting-the-vendor-invoice-posting-date"></a>Parametras, skirtas tiekėjo SF registravimo datai automatiškai koreguoti
 

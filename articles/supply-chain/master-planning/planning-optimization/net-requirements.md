@@ -1,6 +1,6 @@
 ---
 title: Grynieji reikalavimai ir iškvietimo informacija su Planavimo optimizavimu
-description: Šioje temoje pateikiama informacija apie apskaičiuotus grynuosius reikalavimus ir iškvietimo informaciją apie planavimo optimizavimą.
+description: Šiame straipsnyje pateikiama informacija apie apskaičiuotus grynuosius poreikius ir iškvietimo informaciją planavimo optimizavime.
 author: t-benebo
 ms.date: 7/28/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-07-28
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: edfa6010074a4b04b3200115891723cd45871624
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 259e5793a8dfac67793034d98ccb627fe1947bab
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8468866"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8888534"
 ---
 # <a name="net-requirements-and-pegging-information-with-planning-optimization"></a>Grynieji reikalavimai ir iškvietimo informacija su Planavimo optimizavimu
 

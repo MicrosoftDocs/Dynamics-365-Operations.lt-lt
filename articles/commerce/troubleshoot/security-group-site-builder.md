@@ -1,6 +1,6 @@
 ---
 title: Atliekant pradinį diegimą nepavyko sukonfigūruoti „Commerce” svetainių daryklės saugos grupės
-description: Šioje temoje pateikiamos trikčių diagnostikos priemonės, kurios gali padėti, kai „Microsoft Azure Active Directory” („Azure AD”) „Commerce” svetainių daryklės saugos grupė nerodoma kaip parinktis, kai kuriate el. prekybos komponentus „Microsoft Dynamics Lifecycle Services” (LCS) pirmą kartą diegdami naują el. prekybos nuomininką.
+description: Šiame straipsnyje pateikiamos trikčių diagnostikos gairės, kurios gali padėti, kai "Microsoft" (Azure Active Directory) "Commerce Azure AD " svetainių generatoriaus saugos grupė nebus rodoma kaip parinktis, kai sukuriate el. komercijos komponentus ciklo tarnybose Microsoft Dynamics (LCS) pirmą kartą diegiant naują el. komercijos nuomininką.
 author: Reza-Assadi
 ms.date: 03/11/2021
 ms.topic: Troubleshooting
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: f930cac61b747037b9fbecc7397a9b1b7db5dabd8a86b63a61c92ac7abe17516
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 797df828df16547eb3aef1f9865a663281fb9224
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6765175"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899020"
 ---
 # <a name="cant-configure-a-security-group-for-commerce-site-builder-during-initial-deployment"></a>Atliekant pradinį diegimą nepavyko sukonfigūruoti „Commerce” svetainių daryklės saugos grupės
 
 [!include [banner](../../includes/banner.md)]
 
-Šioje temoje pateikiamos trikčių diagnostikos priemonės, kurios gali padėti, kai „Microsoft Azure Active Directory” („Azure AD”) „Commerce” svetainių daryklės saugos grupė nerodoma kaip parinktis, kai kuriate el. prekybos komponentus „Microsoft Dynamics Lifecycle Services” (LCS) pirmą kartą diegdami naują el. prekybos nuomininką.
+Šiame straipsnyje pateikiamos trikčių diagnostikos gairės, kurios gali padėti, kai "Microsoft" (Azure Active Directory) "Commerce Azure AD " svetainių generatoriaus saugos grupė nebus rodoma kaip parinktis, kai sukuriate el. komercijos komponentus ciklo tarnybose Microsoft Dynamics (LCS) pirmą kartą diegiant naują el. komercijos nuomininką.
 
 ## <a name="description"></a>Aprašymas
 

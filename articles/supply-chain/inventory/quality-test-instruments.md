@@ -1,6 +1,6 @@
 ---
 title: Kokybės valdymo bandymo instrumentai
-description: Šioje temoje aprašoma, kaip sukurti tikrinimo priemones, kurias galima naudoti kokybės užsakymų „Microsoft Dynamics 365 Supply Chain Management“ bandymams.
+description: Šiame straipsnyje aprašoma, kaip sukurti tikrinimo priemones, kurias galima naudoti "Microsoft" kokybės užsakymų bandymams Dynamics 365 Supply Chain Management.
 author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2020-06-17
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4d80a4f784a43e0d83d1f5b42f6740ef6da3add1
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 36b712e6a99a0625af28ef121d0c9c39c1e32603
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7565908"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857669"
 ---
 # <a name="quality-management-test-instruments"></a>Kokybės valdymo bandymo instrumentai
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje aprašoma, kaip sukurti tikrinimo priemones, kurias galima naudoti kokybės užsakymų „Microsoft Dynamics 365 Supply Chain Management“ bandymams.
+Šiame straipsnyje aprašoma, kaip sukurti tikrinimo priemones, kurias galima naudoti "Microsoft" kokybės užsakymų bandymams Dynamics 365 Supply Chain Management.
 
 Naudokitės bandymo instrumentų puslapiu, norėdami nurodyti ir peržiūrėti informaciją apie **įrenginius**, naudojamus kokybės užsakymų bandymams vykdyti. Bandymo instrumentai pasirinktini. Tačiau jie gali padėti kokybės darbuotojams žinoti, kurį įrenginį ar įrankį jie turėtų naudoti atlikdami konkretų testą.
 

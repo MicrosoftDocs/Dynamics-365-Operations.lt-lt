@@ -1,6 +1,6 @@
 ---
 title: Maršrutai ir operacijos
-description: Šioje temoje pateikiama informacija apie maršrutus ir operacijas.
+description: Šiame straipsnyje pateikiama informacija apie maršrutus ir operacijas.
 author: johanhoffmann
 ms.date: 03/18/2019
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ab825227e7cd8848dbad58c58f5c6d7afc338f9c
-ms.sourcegitcommit: 7cbd53617af179a0de74aae30c149edc95e86684
+ms.openlocfilehash: 103c7007cd002c5953d096ff6001a93c4936b702
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/06/2021
-ms.locfileid: "7891958"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856025"
 ---
 # <a name="routes-and-operations"></a>Maršrutai ir operacijos
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje pateikiama informacija apie maršrutus ir operacijas. Maršrutas apibrėžia produkto arba produkto varianto gaminimo procesą. Jame aprašytas kiekvienas gamybos proceso veiksmas (operacija) ir užsakymas, kuriam šie veiksmai turi būti atlikti. Maršrute taip pat apibrėžti kiekvienam veiksmui reikalingi operacijų ištekliai, reikiamas nustatymo laikas ir vykdymo laikas ir būdas, kaip apskaičiuoti išlaidas.
+Šiame straipsnyje pateikiama informacija apie maršrutus ir operacijas. Maršrutas apibrėžia produkto arba produkto varianto gaminimo procesą. Jame aprašytas kiekvienas gamybos proceso veiksmas (operacija) ir užsakymas, kuriam šie veiksmai turi būti atlikti. Maršrute taip pat apibrėžti kiekvienam veiksmui reikalingi operacijų ištekliai, reikiamas nustatymo laikas ir vykdymo laikas ir būdas, kaip apskaičiuoti išlaidas.
 
 ## <a name="overview"></a>Apžvalga
 
@@ -223,7 +223,7 @@ Naudojant šį būdą, puslapis **Operacijų ryšiai** tampa pirmine vykdymo lai
 Jei nenurodysite operacijų ištekliaus arba išteklių grupės kaip operacijos išteklių reikalavimų dalies, taikomi ištekliai gali veikti skirtingu greičiu. Todėl laikas, reikalingas operacijai apdoroti, gali skirtis. Norėdami išspręsti šią problemą, naudokite operacijos ryšio lauką **Formulė** nurodyti, kaip apskaičiuojamas apdorojimo laikas. Galimos toliau nurodytos pasirinktys:
 
 - **Standartinė** – (numatytoji parinktis) skaičiuojant naudojami tik laukai iš operacijos ryšio, ir vykdymo laikas padauginamas iš užsakymo kiekio.
-- **Pajėgumas** – skaičiavimas apima lauką **Pajėgumas** iš operacijos ištekliaus. Taigi, laikas priklauso nuo išteklių. Vertė, kuri nurodyta operacijos ištekliuje, yra pajėgumas per valandą. **Proceso laikas** apskaičiuojamas kaip **Užsakymo kiekis** padalintas iš **Pajėgumo**. Pajėgumo vertė nėra konkreti tam tikro matavimo vienetui, todėl jos neverti pagal lauką Pajėgumo vienetas, kuris yra tik aprašomasis laukas, kuris nėra naudojamas **skaičiavimuose**.
+- **Pajėgumas** – skaičiavimas apima lauką **Pajėgumas** iš operacijos ištekliaus. Taigi, laikas priklauso nuo išteklių. Vertė, kuri nurodyta operacijos ištekliuje, yra pajėgumas per valandą. **Proceso laikas** apskaičiuojamas kaip **Užsakymo kiekis** padalintas iš **Pajėgumo**. Pajėgumo vertė nėra konkreti **tam** tikro matavimo vienetui, todėl jos neverti pagal lauką Pajėgumo vienetas, kuris yra tik aprašomasis laukas, kuris nėra naudojamas skaičiavimuose.
 - **Paketas** – paketo pajėgumas apskaičiuojamas naudojant informaciją iš operacijos ryšio. Paketų skaičius, žinoma, ir apdorojimo laikas apskaičiuojami pagal užsakymo kiekį.
 - **Išteklių paketas** – ši parinktis iš esmės tokia pat kaip ir parinktis **Paketas**. Tačiau skaičiavimas apima lauką **Paketo pajėgumas** iš operacijų ištekliaus. Taigi, laikas priklauso nuo išteklių.
 

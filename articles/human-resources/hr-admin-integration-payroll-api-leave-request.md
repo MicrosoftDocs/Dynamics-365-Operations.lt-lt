@@ -1,6 +1,6 @@
 ---
-title: Atostogų užklausa
-description: Šioje temoje pateikiama atostogų užklausos objekto informacija ir užklausos pavyzdys „Dynamics 365 Human Resources“ platformoje.
+title: Atostogų prašymas
+description: Šiame straipsnyje pateikiama informacija ir atostogų užklausos objekto pavyzdys Dynamics 365 Human Resources.
 author: marcelbf
 ms.date: 06/25/2021
 ms.topic: article
@@ -13,23 +13,23 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-06-25
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0f14c143a59553786fe85284c128cec80905810b
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 47a652d9b7dec15124fc8b62d3c7d0402f88e093
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8067684"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899678"
 ---
-# <a name="leave-request"></a>Atostogų užklausa
+# <a name="leave-request"></a>Atostogų prašymas
 
 
 [!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Šioje temoje aprašomas atostogų užklausos objektas „Dynamics 365 Human Resources“.
+Šiame straipsnyje aprašomas atostogų užklausos objektas dėl Dynamics 365 Human Resources.
 
-### <a name="description"></a>Aprašas
+### <a name="description"></a>Aprašymas
 
 Šiame objekte pateikta informacija apie atostogų užklausą.
 

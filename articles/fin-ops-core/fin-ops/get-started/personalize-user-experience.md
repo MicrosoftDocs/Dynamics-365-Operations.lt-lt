@@ -1,8 +1,8 @@
 ---
 title: Vartotojo patirties personalizavimas
-description: Šiame straipsnyje paaiškinama, kaip galite personalizuoti programą.
+description: Šiame straipsnyje paaiškinama, kaip pritaikyti programą.
 author: jasongre
-ms.date: 03/03/2022
+ms.date: 06/03/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b922d68fcf3e83be57140cf8c54c4bacd2b75f56
-ms.sourcegitcommit: edc887e0526c415466e9691e642028ecd97cdbe7
+ms.openlocfilehash: c326e51dc127d8b82ccef28146ec223ca5169c5e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8602996"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845448"
 ---
 # <a name="personalize-the-user-experience"></a>Vartotojo patirties personalizavimas
 
@@ -28,7 +28,7 @@ ms.locfileid: "8602996"
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-Ši tema paaiškina, kaip galite personalizuoti programą ir apima tolesnius subjektus: 
+Šiame straipsnyje paaiškinama, kaip pritaikyti programą ir apima šiuos dalykus: 
 
 - **Plačios sistemo parinktys** – Šios personalizavimo parinktys yra sukurtis nustatymų puslapyje ir prieinamos visiems vartotojams. Prie pavyzdžių priskiriama spalvų tema ir laiko juosta. 
 - **Apribota personalizavimo prieiga** – Šiame prieigos lygmenyje, vartotojo veiksmai yra susisieti su tipiniu puslapio naudojimu ir yra automatiškai įrašomi programos ir atkuriame kitą kartą, kai apsilankote puslapyje. Pavyzdžiui, programos parduotuvės stulpelių tinklelio plotis, jei juos keičiate ir išplėstas ar sutrauktas „FastTabs“ statusas. 
@@ -58,7 +58,7 @@ Toliau pateiktas veiksmų sąrašas, kuris patenka į tipinį puslapio naudojim�
 
 - **Tinklelio stulpelio pločiai** – galite sureguliuoti stulpelio plotį tinklelyje, pasirinkdami dydžio juostą stulpelio antraštės kairėje arba dešinėje pusėje ir stumdami ją kairėn arba dešinėn, kol stulpelis yra norimo pločio. Programoje saugomas nustatytas stulpelio plotis. Tuomet, kitą kartą, kai atidarote puslapį, stulpelio dydis bus pakeistas į tą plotį.
 - **Tinklelio poraštė ir bendri stulpeliai** – *(Prieinami tik, kai naujas tinklelio kontroliavimas yra įjungtas)* Galite nuspręsti, ar bendras kiekis turi būti rodomas skaitmeninio stulpelio apačioje tinklelyje ir ar tinklelio apačia turi būti matoma. Programa laiko šias ypatybes ir jas taiko kitą kartą, kai atidarote puslapį. Norėdami gauti daugiau informacijos, žr. [Tinklelio galimybės](grid-capabilities.md). 
-- **„FastTabs“**: kai kuriuose puslapiuose yra išplečiamos dalys, vadinamos *„FastTabs“*. Programa talpina informaciją apie „FastTabs“, kuriuos jūs išpletėte ar sutraukėte. Kitą kartą, kai atidarote puslapį, tie patyes „FastTabes“ bus išplečiami arba sutraukiami priklausomai nuo paskutinės sąveikos puslapyje. Kai kuriais atvejais sutraukus „FastTab“ galima padidinti sistemos efektyvumą, nes programai nereikia nuskaityti „FastTabs“ informacijos, kol jie neišskleisti. Kaip paaiškinta vėliau šioje temoje, galite taip pat pakeisti „FastTabs“ užsakymus puslapyje.
+- **„FastTabs“**: kai kuriuose puslapiuose yra išplečiamos dalys, vadinamos *„FastTabs“*. Programa talpina informaciją apie „FastTabs“, kuriuos jūs išpletėte ar sutraukėte. Kitą kartą, kai atidarote puslapį, tie patyes „FastTabes“ bus išplečiami arba sutraukiami priklausomai nuo paskutinės sąveikos puslapyje. Kai kuriais atvejais sutraukus „FastTab“ galima padidinti sistemos efektyvumą, nes programai nereikia nuskaityti „FastTabs“ informacijos, kol jie neišskleisti. Kaip paaiškinta toliau šiame straipsnyje, taip pat galite keisti "FastTabs" tvarką puslapyje.
 - **„FactBoxes“** – Kai kurie puslapiai turi **Susijusios informacijos** juostą, kuri rodo tik skaitymui skirtą informaciją, susijusią su dabartiniu puslapio subjektu. Kiekvienas skyrius **Susijusios informacijos** juostoje yra žinomas kaip *„FactBox“*. Galite išplėsti ar sutraukti **Susijusios informacijos** juostą ir galite taip pat išplėsti ar sutraukti atskiras „FactBoxes“. Programa išsaugo šias nuostatas. Kitą kartą, kai atidarote puslapį **Susijusios informacijos** juosta ir atskiros „FactBoxes“ bus išplėstos arba sutrauktos priklausomai nuo paskutinės jūsų sąveikos puslapyje. Kai kuriais atvejais galite pagerinti sistemos veikimą sutraukdami **Susijusios informacijos** juostą arba „FactBox“, nes programa nebeturi gauti informacijos „FactBoxes“, kol jos yra išplėstos.
 - **Veiksmų sritys**: šalia daugelio puslapių viršaus rodoma *Veiksmų sritis*. Veiksmų srityje yra daugeliui dabartiniame puslapyje galimų atlikti veiksmų skirtų mygtukų. Šie mygtukai skirtukuose dažnai sisteminami. Galite *smeigti* visą veiksmų juostą atidarytą arba galite ją sutraukti pagal nutylėjimą. Kitą kartą, kai atidarote puslapį, veiksmų juosta bus atidaryta arba sutraukta priklausomai nuo paskutinės jūsų sąveikos su puslapiu. Jei susmeigėte atvirą veiksmų juostą, bus rodomas paskutinis skirtukas, kurį naudojote.
 - **„QuickFilters“**: virš daugelio tinklelių rodomas *„QuickFilter“*. „QuickFilter“ leidžia jums filtruoti tinklelį pagal vieną pasirinktą stulpelį. Programoje saugomas filtruojamas stulpelis. Tuomet, kitą kartą, kai atidarote puslapį, tinklelis naudos tą patį stulpelį filtravimui pagal nutylėjimą. Nepaisant to, galite vis dar pasirinkti skirtingus stulpelius filtravimui tinklelyje.
@@ -173,14 +173,14 @@ Nuo versijos 10.0.26 **leisite** vartotojams pasirinkti ir pakeisti išklotinės
 
 ### <a name="personalizing-your-dashboard"></a>Ataskaitų srities personalizavimas
 
-Ataskaitų sritis dažnai yra pirmasis atidarius programą rodomas puslapis. Jis gali būti personalizuotas kaip bet kuris puslapis sistemoje naudojant tuos pačius mechanizmus aprašytus anksčiau šiame skyriuje. 
+Ataskaitų sritis dažnai yra pirmasis atidarius programą rodomas puslapis. Jį galima pritaikyti kaip bet kurį kitą sistemos puslapį naudojant tuos pačius mechanizmus, kurie apibūdinti anksčiau šiame straipsnyje. 
 
 > [!WARNING]
 > Šiuo metu, kai slepiate turinį ataskaitų srityje, svarbu, kad tiesiogiai nustatytumėte plytą, o ne sritį aplink ją. Jei slepiate grupę aplink plytą, gali būti netikėtų rezultatų, jei keletas plytų bus pirdėtos vėliau arba jei sistema perjungiama į kitą kalbą.
 
 Viena unikali personalizavimo savybė ataskaitų srityje yra galimybė įtraukti plytas. 
 
-- Jei **Viso puslapio programų** savybė yra išjungta, jūs pridedate naują plytą dešinio klavišo elemento paspaudimu ataskaitų srityje ir tuomet pasirenkate  **Įtraukti darbo sritį**. Nauja darbo srities išklotinė sukuriama ataskaitų srities apačioje. Galite pakeisti šios naujos darbo srities išklotinės pavadinimą. Galite taip pat įtraukti sąrašus, plytas ir nuorodas į darbo sritį, kaip aprašyta [Plytų, sąrašų ir nuorodų įtraukimas į darbo sritį](personalize-user-experience.md#adding-tiles-lists-and-links-to-a-workspace) skyrių šioje temoje.
+- Jei **Viso puslapio programų** savybė yra išjungta, jūs pridedate naują plytą dešinio klavišo elemento paspaudimu ataskaitų srityje ir tuomet pasirenkate  **Įtraukti darbo sritį**. Nauja darbo srities išklotinė sukuriama ataskaitų srities apačioje. Galite pakeisti šios naujos darbo srities išklotinės pavadinimą. Taip pat galite pridėti sąrašus, papildymus ir saitus į darbo sritį, [kaip aprašyta šio straipsnio darbo srities skyriuje esančių sąrašų,](personalize-user-experience.md#adding-tiles-lists-and-links-to-a-workspace) sąrašų ir saitų pridėjimas.
 - Jei **Viso puslapio programų** savybė yra įjungta, jūs pridedate naują plytą dešinio klavišo elemento paspaudimu ataskaitų srityje ir tuomet pasirenkate  **Įtraukti programą**. Teksto laukelyje, pasirinkite, ar norite įtraukti plytą į naują darbo sritį ar plyta turi turinį iš „Power Apps“ ar svetainės. Tuomet atlikite žingsnius, kad sukonfigūruotumėte savo pasirinktą parinktį. Nauja plyta sukuriama ataskaitų srities apačioje. Daugiau informacijos apie tai, kaip pridėti, redaguoti, naikinti ir bendrai naudoti šias įdėtąsias programėles, žr. [įdėtųjų puslapių programėles iš „Power Apps“](embed-power-apps.md) ir [įdėtųjų puslapių programėles į](embed-website.md).
 
 ## <a name="sharing-personalizations"></a>Personalizavimo bendrinimas
@@ -236,7 +236,7 @@ Kitas būdas dalintis personalizavimas yra eksportavimas ir importavimas. Atskir
 
 #### <a name="export"></a>Eksportuoti
 
-Tai yra galite eksportuoti vieną iš savo rodinių ar personalizavimo peržiūrų atidarydami atitinkamą puslapį, atidarydami personalizavimo įrankių **juostą** ir pasirinkdami **Eksportuoti**. Daugiau informacijos apie įrankių juostą ieškokite anksčiau šios [temos skyriuje](#personalization-toolbar) Personalizavimo įrankių juosta. Kitu atveju, jei [įrašyti rodiniai](saved-views.md) yra įgalinti, galite eiti į **parametrų \> Vartotojo parinktys \> Personalizavimas** norėdami peržiūrėti visų savo personalizavimų sistemoje sąrašą. Iš ten galite pasirinkti rodinius arba personalizavimus, kuriuos norite eksportuoti, tada pasirinkti **Eksportuoti**.
+Tai yra galite eksportuoti vieną iš savo rodinių ar personalizavimo peržiūrų atidarydami atitinkamą puslapį, atidarydami personalizavimo įrankių **juostą** ir pasirinkdami **Eksportuoti**. Daugiau informacijos apie įrankių juostą ieškokite anksčiau šiame straipsnyje [skyriuje Personalizavimo](#personalization-toolbar) įrankių juosta. Kitu atveju, jei [įrašyti rodiniai](saved-views.md) yra įgalinti, galite eiti į **parametrų \> Vartotojo parinktys \> Personalizavimas** norėdami peržiūrėti visų savo personalizavimų sistemoje sąrašą. Iš ten galite pasirinkti rodinius arba personalizavimus, kuriuos norite eksportuoti, tada pasirinkti **Eksportuoti**.
 
 Be to, administratoriai gali eksportuoti kitų vartotojų personalizavimus, atlikti šiuos veiksmus.
 
@@ -277,7 +277,7 @@ Jei įrašyti rodiniai nėra įgalinti, personalizavimo kopijavimui atlikite ši
 
 **Personalizavimo** puslapis yra personalizavimo valdymo organizacijos lygmeniu centras. Turinys ir galimybės šiame puslapyje priklauso nuo to, ar **Įrašytų peržiūrų** funkcija buvo įjungta.
 
-Klientams, kurie įjungė **Išsaugotų peržiūrų** funkciją, žr. „Peržiūrų tvarkymas globaliai" skyrių esantį [Įrašytos peržiūros](saved-views.md) temoje.
+Klientams, kurie įjungta įrašytų rodinių **funkciją**, žr. skyrių "Visuotinio rodinių valdymas", įrašytų [rodinių straipsnyje](saved-views.md).
 
 Klientams, kurie dar neįjungė [Išsaugotų peržiūrų](saved-views.md) funkcijos, šis puslapis turi keturis skirtukus:
 
@@ -285,6 +285,9 @@ Klientams, kurie dar neįjungė [Išsaugotų peržiūrų](saved-views.md) funkci
 - **Išvalyti**: galite išvalyti visus vieno ar kelių vartotojų puslapio ar darbo srities personalizavimus. Pirmiausia pasirinkite puslapį arba darbo sritį, kad būtų rodomas tą puslapį ar darbo sritį personalizavusių vartotojų sąrašas. Tada pažymėkite vartotojus, kurių puslapio ar darbo srities personalizavimą norėtumėte išvalyti, ir paspauskite **Valyti**. Panaikinami visi personalizavimai, kuriuos pasirinkti vartotojai taikė pasirinktam puslapiui arba darbo sričiai. Šio veiksmo anuliuoti negalima. Tačiau jei buvo įrašytas puslapio ar darbo srities personalizavimas, tokį personalizavimą galima importuoti iš naujo.
 - **Vartotojai**: pasirinkite vartotoją, kad būtų rodomas vartotojo personalizuotų puslapių sąrašas. Tada galite įjungti arba išjungti pasirinkto vartotojo galimybę jam naudotis konkrečių puslapių arba visos sistemos personalizavimais. Taip pat galite importuoti, eksportuoti arba išvalyti vartotojo personalizavimą. Be to, galite iš naujo nustatyti vartotojo funkcijų paaiškinimus. Tokiu atveju, jei vartotojas anksčiau atmetė visus iššokančiuosius langus, kurie supažindino su naujomis funkcijomis, jie bus rodomi dar kartą, kai vartotojas susidurs su šiomis funkcijomis.
 - **Sistema**: galite laikinai išjungti visų vartotojų sistemos personalizavimus. Šiuo atveju visi personalizavimai panaikinami visiems vartotojams, o visi puslapiai iš naujo nustatomi pagal numatytąją būseną. Jeigu vėliau vėl įjungsite personalizavimą, visi personalizavimai bus pritaikyti iš naujo. Taip pat galite visam laikui išjungti visus visų vartotojų sistemos personalizavimus. Panaikintų personalizavimų atkurti neįmanoma. Todėl prieš atlikdami šią užduotį būtinai eksportuokite visus personalizavimus, kurių vėliau gali prireikti.
+
+### <a name="service-updates-and-personalization"></a>Aptarnavimo naujinimai ir personalizavimas
+Personalizavimo duomenų nereikia išvalyti arba iš naujo nustatyti perkeliant į naują produkto versiją. Personalizavimas ir įrašyti rodinių duomenys toliau veiks naujiniuose. Šios išimtys galėtų būti formos pakeitimai, kurie netinkami personalizavimui (pvz., pašalintas valdiklis) arba formos pagrindinės užklausos pakeitimai, kurie pakeičia formos duomenų šaltinio atšaką taip, kad ji nebeatitinka duomenų šaltinio atšakos, susijusios su rodinio užklausa.
 
 ## <a name="personalizing-inventory-dimensions"></a>Atsargų dimensijų personalizavimas
 

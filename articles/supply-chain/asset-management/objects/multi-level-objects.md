@@ -1,6 +1,6 @@
 ---
 title: Kelių lygių turtas
-description: Šioje temoje paaiškinama, kaip kurti ir naikinti kelių lygių turtą.
+description: Šiame straipsnyje paaiškinama, kaip sukurti ir panaikinti kelių lygių turtą.
 author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f43c7c97f8b05a1bf76b2f2c869e6868689f388d06337064f04af839f2403357
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: MT
+ms.openlocfilehash: 34ab83c9f9673c39006b3985ebaac9e17a45da82
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6769616"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8908778"
 ---
 # <a name="multi-level-assets"></a>Kelių lygių turtas
 
@@ -28,7 +28,7 @@ ms.locfileid: "6769616"
 
  
 
-Šioje temoje paaiškinama, kaip kurti ir naikinti kelių lygių turtą. Galite kurti turtą ir susijusį antrinį turtą hierarchinėje medžio struktūroje. Tokiu būdu galite parodyti turto ryšius ir priklausomybes. Priežiūros užduotys gali būti susijusios su visais medžio struktūros lygiais. Statistiniai duomenys taip pat gali būti kuriami atskiram lygiui arba visų antrinio turto lygių sumai.
+Šiame straipsnyje paaiškinama, kaip sukurti ir panaikinti kelių lygių turtą. Galite kurti turtą ir susijusį antrinį turtą hierarchinėje medžio struktūroje. Tokiu būdu galite parodyti turto ryšius ir priklausomybes. Priežiūros užduotys gali būti susijusios su visais medžio struktūros lygiais. Statistiniai duomenys taip pat gali būti kuriami atskiram lygiui arba visų antrinio turto lygių sumai.
 
 Puslapyje **Visas turtas** (**Turto valdymas** \> **Bendra** \> **Turtas** \> **Visas turtas**), **Turtas** skiltyje nurodomi turto hierarchine tvarka. Stulpelyje **Pirminis** rodomas susijęs pirminis. Be to, jei turtas ir antrinis turtas jau sukurti, srities **Susijusi informacija** sekcijoje **Turto medis** turtas rodomas medžio struktūroje.
 

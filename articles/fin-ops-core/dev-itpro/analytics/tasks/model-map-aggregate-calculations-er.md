@@ -1,6 +1,6 @@
 ---
 title: Modelio susiejimo konfigūracijų naudojimas agreguotiems skaičiavimams duomenų bazės lygiu
-description: Šioje temoje aprašoma, kaip sukurti naują elektroninių ataskaitų modelio susiejimo konfigūraciją ir, siekiant efektyviai sutelkti skaičiavimus, naudoti integruotas ER funkcijas.
+description: Šiame straipsnyje aprašoma, kaip sukurti naują elektroninio ataskaitų modelio susiejimo konfigūraciją ir naudoti įdiegtas ER funkcijas, skirtas efektyviam sudėtiniu skaičiavimui.
 author: NickSelin
 ms.date: 12/12/2017
 ms.topic: business-process
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9f4ca926414e36e04e6e908a55eebeca8c24a696da4bca0c1c3a6f836373627d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 103a184c33b00e0f4d86846f11f1c5ec4dfbc2f3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6745869"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847227"
 ---
 # <a name="use-model-mapping-configurations-for-aggregate-calculations-at-the-database-level"></a>Modelio susiejimo konfigūracijų naudojimas agreguotiems skaičiavimams duomenų bazės lygiu
 

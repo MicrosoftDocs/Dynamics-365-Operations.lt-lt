@@ -1,6 +1,6 @@
 ---
 title: Patobulinkite sugeneruotų ER ataskaitų rezultatų sekimą, kad palygintumėte su bazinėmis vertėmis
-description: Šioje temoje aprašomi ER bazinio plano funkcijos 10.0.3 „Microsoft Dynamics 365 for Finance and Operations” versijoje (2019 m. birželio mėn) patobulinimai.
+description: Šiame straipsnyje aprašomi pradinės ER priemonės, nurodytos Microsoft Dynamics 365 for Finance and Operations versijoje 10.0.3 (2019 m. birželio mėn.), patobulinimai.
 author: NickSelin
 ms.date: 06/19/2019
 ms.topic: article
@@ -14,22 +14,22 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: b6e8299dd57730486c731cd38578bd5ff6b8a1754f145432e300c1217c6dd640
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3b9ac7dcac4d020759d04fec75e17c43ed627e25
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6760755"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847407"
 ---
 # <a name="improve-tracing-the-results-of-generated-er-reports-to-compare-with-baseline-values"></a>Patobulinkite sugeneruotų ER ataskaitų rezultatų sekimą, kad palygintumėte su bazinėmis vertėmis
 
 [!include[banner](../includes/banner.md)]
 
-Šioje temoje aprašomas pirmasis patobulinimų, kurie atlikti kuriant elektroninių ataskaitų (ER) sistemą, rinkinys. Šie patobulinimai galimi „Microsoft Dynamics 365 for Finance and Operations“ 10.0.3 (2019 m. birželio mėn.) ir naujesnėse versijose.
+Šiame straipsnyje aprašomi pirmasis atliktas elektroninės ataskaitų (ER) sistemos pagrindinės priemonės patobulinimų rinkinys. Šie patobulinimai galimi „Microsoft Dynamics 365 for Finance and Operations“ 10.0.3 (2019 m. birželio mėn.) ir naujesnėse versijose.
 
 ## <a name="automate-the-setting-of-baseline-rules"></a>Automatizuokite pagrindinių taisyklių nustatymą
 
-Temoje [Sugeneruotų ataskaitų rezultatų sekimas ir jų palyginimas su bazinėmis vertėmis](er-trace-reports-compare-baseline.md) paaiškinama, kaip konfigūruoti ER sistemą, siekiant surinkti informaciją apie ER formato vykdymą ir įvertinti šio vykdymo rezultatus. Šioje temoje pateiktame pavyzdyje parodyti veiksmai, kuriuos reikia atlikti.
+Sekimo [sugeneruotos](er-trace-reports-compare-baseline.md) ataskaitos rezultatai ir palyginkite juos su bazinių verčių straipsnyje paaiškinama, kaip konfigūruoti ER sistemą, kad būtų renkama informacija apie ER formato vykdymą ir įvertinami šių vykdymo rezultatų duomenys. Šiame straipsnyje pateikiamas pavyzdys, kokių veiksmų reikia atlikti.
 
 Toliau pateikiami kai kurie veiksmai.
 
@@ -45,7 +45,7 @@ Toliau pateikiami kai kurie veiksmai.
 
 ## <a name="example-automate-the-setting-of-baseline-rules"></a>Pavyzdys. Automatizuokite pagrindinių taisyklių nustatymą
 
-Norėdami atlikti šiame pavyzdyje nurodytus veiksmus, pirmiausia turite atlikti veiksmus, aprašytus pavyzdyje, esančiame temos [Sugeneruotų ataskaitų rezultatų sekimas ir jų palyginimas su bazinėmis vertėmis](er-trace-reports-compare-baseline.md) skyriuje „Naujos pagrindinės informacijos įtraukimas pagal sukurtą ER formatą“.
+Norėdami atlikti šio pavyzdžio veiksmus, [pirmiausia turite atlikti pavyzdžio veiksmus, pateiktus "Trace](er-trace-reports-compare-baseline.md) " sugeneruotų ataskaitų rezultatuose, ir palyginti juos su bazinių verčių straipsnyje, aukštyn per skyrių "Įtraukti naują sukurto ER formato pradinį būtina".
 
 ### <a name="review-added-baseline"></a>Įtrauktos pagrindinės informacijos peržiūra
 
@@ -80,7 +80,7 @@ Norėdami atlikti šiame pavyzdyje nurodytus veiksmus, pirmiausia turite atlikti
 
 ### <a name="run-the-format"></a>Formato vykdymas
 
-Dabar esate pasiruošę atlikti likusius veiksmus, nurodytus pavyzdyje, esančiame temoje [Sugeneruotų ataskaitų rezultatų sekimas ir jų palyginimas su bazinėmis vertėmis](er-trace-reports-compare-baseline.md), pradedant nuo skyriaus „Vykdyti sukurtą ER formatą ir peržiūrėti žurnalą, kad būtų išanalizuoti rezultatai“.
+Dabar esate [pasiruošę atlikti likusius pavyzdžio veiksmus, pateiktus "Trace](er-trace-reports-compare-baseline.md) " sugeneruotų ataskaitų rezultatuose, ir palyginti juos su bazinių verčių straipsnyje, pradedant nuo skyriaus "Paleisti sukurtą ER formatą ir peržiūrėti žurnalą rezultatams analizuoti".
 
 > [!NOTE]
 > Kai panaikinate automatiškai įtrauktą pagrindinę taisyklę, esančią „FastTab“ **Pagrindinė informacija**, nurodytas priedas nėra automatiškai panaikinamas.
@@ -91,7 +91,7 @@ Sukūrus ER formatą, kuriame yra informacijos, kuri keičiasi vykdant formatą,
 
 ## <a name="example-configure-the-baseline-so-that-it-ignores-constantly-changing-parts-of-the-er-output"></a>Pavyzdys. Konfigūruokite pagrindinę informaciją, kad ji ignoruotų nuolat besikeičiančias ER išvesties dalis
 
-Norėdami atlikti šiame pavyzdyje nurodytus veiksmus, pirmiausia turite atlikti veiksmus, aprašytus pavyzdyje, esančiame temoje [Sugeneruotų ataskaitų rezultatų sekimas ir jų palyginimas su bazinėmis vertėmis](er-trace-reports-compare-baseline.md).
+Norėdami atlikti šio pavyzdžio veiksmus, [pirmiausia turite atlikti pavyzdžio veiksmus, pateiktus "Trace" sugeneruotos ataskaitos rezultatuose, ir palyginti juos su bazinių verčių](er-trace-reports-compare-baseline.md) straipsnyje.
 
 ### <a name="modify-a-configured-er-format"></a>Sukonfigūruoto ER formato modifikavimas
 
@@ -142,7 +142,7 @@ Pasirinktas ER formato komponentas buvo įtrauktas į komponentų sąrašą „F
 
 ### <a name="make-a-new-baseline-rule"></a>Naujos pagrindinės taisyklės kūrimas
 
-Atlikite veiksmus, aprašytus anksčiau šios temos skyriuje „Pavyzdys. Automatizuokite pagrindinių taisyklių nustatymą“. Pranešimas įspėja, kad siunčiamas failas buvo sugeneruotas naudojant pagrindinės informacijos parametrus ir kad įvyko priverstinis formato susiejimų pakeitimas.
+Laikykitės anksčiau šiame straipsnyje skyriuje "Pavyzdys: bazinių taisyklių nustatymo automatizuojami" veiksmai. Pranešimas įspėja, kad siunčiamas failas buvo sugeneruotas naudojant pagrindinės informacijos parametrus ir kad įvyko priverstinis formato susiejimų pakeitimas.
 
 ![Pranešimas konfigūracijų puslapyje.](media/GER-BaselineSample-FormatRunToMakeBaselineFile4.PNG "Pranešimo konfigūracijų puslapyje ekrano kopija")
 

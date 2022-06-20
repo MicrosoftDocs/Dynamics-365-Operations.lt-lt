@@ -1,6 +1,6 @@
 ---
 title: Formato keitimas siekiant generuti dokumentus, kuriuose yra prašymo duomenys
-description: Šioje temoje aprašoma, kaip kurti elektroninių ataskaitų konfigūraciją, norint generuoti elektroninį dokumentą ir atnaujinti programos duomenis.
+description: Šiame straipsnyje aprašoma, kaip sukurti ataskaitų konfigūracijas, kad būtų galima sugeneruoti elektroninį dokumentą ir atnaujinti programos duomenis.
 author: NickSelin
 ms.date: 06/19/2017
 ms.topic: business-process
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 312a49fc524cc7359d2c1815597214656df11c018034da384d30bfb9d9efee4b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bff9fa53df8e762f82bcc1946df265685a824b8f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6752416"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863299"
 ---
 # <a name="modify-formats-to-generate-documents-that-have-application-data"></a>Formato keitimas siekiant generuti dokumentus, kuriuose yra prašymo duomenys
 

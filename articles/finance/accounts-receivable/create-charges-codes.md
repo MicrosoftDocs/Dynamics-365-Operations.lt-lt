@@ -1,6 +1,6 @@
 ---
-title: Kurti išlaidų kodus
-description: Šioje temoje paaiškinama, kaip konfigūruoti mokėtinų sumų ir gautinų sumų mokesčių kodus.
+title: Mokesčių kodų kūrimas
+description: Šiame straipsnyje paaiškinama, kaip konfigūruoti mokėtinų sumų ir gautinų sumų mokesčių kodus.
 author: rachel-profitt
 ms.date: 12/03/2021
 ms.topic: article
@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2022-01-03
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e8526fa0f3c6e3d1b545703f6e6ef72f558b57bd
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: d65952cb989672e4eac2dd6101ee9c7c9424daed
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8735033"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8866089"
 ---
-# <a name="create-charges-codes"></a>Kurti išlaidų kodus
+# <a name="create-charges-codes"></a>Mokesčių kodų kūrimas
 
-Šioje temoje paaiškinama, kaip konfigūruoti mokėtinų sumų ir gautinų sumų mokesčių kodus. Jei jūsų organizacija reikalauja, kad pardavimo arba pirkimo sumos būtų sekamos kartu su pardavimo arba pirkimo užsakymo eilučių prekėmis, šiam tikslui galite naudoti išlaidų kodus. Pavyzdžiui, jūs mokate transportą ir draudimą pagal pirkimo užsakymą, o šios sumos pirkimo užsakyme nurodomos atskirai. Tokiu atveju galite nurodyti, ar sumos registruojamos išlaidų sąskaitose, ar pridėtos prie prekių išlaidų.
+Šiame straipsnyje paaiškinama, kaip konfigūruoti mokėtinų sumų ir gautinų sumų mokesčių kodus. Jei jūsų organizacija reikalauja, kad pardavimo arba pirkimo sumos būtų sekamos kartu su pardavimo arba pirkimo užsakymo eilučių prekėmis, šiam tikslui galite naudoti išlaidų kodus. Pavyzdžiui, jūs mokate transportą ir draudimą pagal pirkimo užsakymą, o šios sumos pirkimo užsakyme nurodomos atskirai. Tokiu atveju galite nurodyti, ar sumos registruojamos išlaidų sąskaitose, ar pridėtos prie prekių išlaidų.
 
 ## <a name="set-up-charges-codes-for-accounts-receivable"></a>Nustatyti gautinų sumų mokesčių kodus
 

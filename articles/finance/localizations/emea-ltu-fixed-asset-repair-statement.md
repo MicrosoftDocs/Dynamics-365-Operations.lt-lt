@@ -1,6 +1,6 @@
 ---
 title: Ilgalaikio turto remonto išrašas, skirtas Lietuvai
-description: Šioje temoje paaiškinama, kaip pateikti ilgalaikio turto remonto informaciją ir generuoti ilgalaikio turto remonto ataskaitą. Remonto informacija turi būti saugoma visam ilgalaikiui turtui.
+description: Šiame straipsnyje paaiškinama, kaip pateikti ilgalaikio turto remonto informaciją ir sugeneruoti ilgalaikio turto remonto ataskaitą. Remonto informacija turi būti saugoma visam ilgalaikiui turtui.
 author: EvgenyPopovMBS
 ms.date: 06/20/2017
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Lithuania
 ms.author: epopov
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: f4e65da489620bf9fa81b35ba3593025e01a22d834dd0afba86db1feedf65299
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 00f4d45bf0658cde02399b6642f22b3a8e699b66
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6763069"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8865487"
 ---
 # <a name="fixed-asset-repair-statement-for-lithuania"></a>Ilgalaikio turto remonto išrašas, skirtas Lietuvai
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje paaiškinama, kaip pateikti ilgalaikio turto remonto informaciją ir generuoti ilgalaikio turto remonto ataskaitą. Remonto informacija turi būti saugoma visam ilgalaikiui turtui. 
+Šiame straipsnyje paaiškinama, kaip pateikti ilgalaikio turto remonto informaciją ir sugeneruoti ilgalaikio turto remonto ataskaitą. Remonto informacija turi būti saugoma visam ilgalaikiui turtui. 
 
 ## <a name="enter-details-for-a-fixed-asset-repair-statement"></a>Ilgalaikio turto remonto apskaitos informacijos įvedimas
 

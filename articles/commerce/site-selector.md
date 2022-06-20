@@ -1,6 +1,6 @@
 ---
 title: Svetainės išrinkiklio modulis
-description: Šioje temoje aprašomas svetainės išrinkiklio modulis ir aprašoma, kaip pridėti ją prie svetainės puslapių, kurie yra dalyje Microsoft Dynamics 365 Commerce.
+description: Šiame straipsnyje aprašomas svetainės išrinkiklio modulis ir aprašoma, kaip įtraukti jį į svetainės puslapius Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 05/04/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: a1954f6b2fea35d5138218e6a2a23ab1fd04c8fc
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: ef7753658f878fdf76c6a6beb82ce54e9c12e212
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710308"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884608"
 ---
 # <a name="site-picker-module"></a>Svetainės išrinkiklio modulis
 
 [!include [banner](includes/banner.md)]
 
-Šioje temoje aprašomas svetainės išrinkiklio modulis ir aprašoma, kaip pridėti ją prie svetainės puslapių, kurie yra dalyje Microsoft Dynamics 365 Commerce.
+Šiame straipsnyje aprašomas svetainės išrinkiklio modulis ir aprašoma, kaip įtraukti jį į svetainės puslapius Microsoft Dynamics 365 Commerce.
 
 Kai įmonė turi įvairių svetainių rinkose, regionuose ir vietovėse, svetainės vartotojams reikia paprasto būdo perjungti svetaines ir pasirinkti pageidaujamą prekybos svetainę. Norint talpinti šį scenarijų, svetainės išrinkiklio modulis leidžia vartotojams naršyti keliose svetainėse. Svetainės išrinkiklis [taip](geo-detection-redirection.md) pat rekomenduojamas, kai jūsų el. komercijos svetainei yra įdiegtas geografinis aptikimas ir nukreipimas, kad klientai galėtų nepaisyti svetainės nuostatų, [kurias jie nurodo naudodami šalies / regiono išrinkiklio modulį](country-region-picker-module.md). 
 

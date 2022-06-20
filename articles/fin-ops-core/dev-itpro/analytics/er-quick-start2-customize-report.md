@@ -1,6 +1,6 @@
 ---
 title: Pakoreguokite ER formatą, kad sugeneruotumėte pasirinktinį elektroninį dokumentą
-description: Šioje temoje paaiškinama, kaip pakoreguoti „Microsoft” pateiktą elektroninės ataskaitos angl. „Electronic reporting“ (ER) formatą, kad jis sugeneruotų pasirinktinį elektroninį dokumentą.
+description: Šiame straipsnyje paaiškinama, kaip koreguoti "Microsoft" pateiktą elektroninių ataskaitų (ER) formatą, kad jis sugeneruotų pasirinktinį elektroninį dokumentą.
 author: NickSelin
 ms.date: 06/22/2020
 ms.topic: article
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 14976aab474b6571c2a25907f04fd4d7ae053e74
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: 492964d3cea0e474a50d6d83231f33d9508b9d9d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323822"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8886797"
 ---
 # <a name="adjust-an-er-format-to-generate-a-custom-electronic-document"></a>Pakoreguokite ER formatą, kad sugeneruotumėte pasirinktinį elektroninį dokumentą
 
 [!include[banner](../includes/banner.md)]
 
-Šioje temoje paaiškinama, kaip sistemos administratoriaus arba elektroninių ataskaitų funkcinio konsultanto vaidmens vartotojas gali atlikti šias užduotis:
+Šio straipsnio procedūros paaiškina, kaip sistemos administratoriaus arba elektroninio ataskaitų funkcinės konsultanto vaidmens vartotojas gali atlikti šias užduotis:
 
 - [Elektroninių ataskaitų (ER) sistemos](general-electronic-reporting.md) konfigūracijos parametrai.
 - Importuokite „Microsoft” pateiktas ER konfigūracijas, naudojamas generuojant [tiekėjo apmokėjimo](../../../finance/cash-bank-management/tasks/vendor-payment-overview.md) failą.
@@ -135,7 +135,7 @@ Daugiau informacijos apie ER konfigūracijos tiekėjus žr. [Konfigūracijos tei
 
 ### <a name="import-the-standard-er-configurations"></a><a id="ImportERFormat1"></a>Standartinio ER konfigūracijų importavimas
 
-Norėdami pridėti standartines ER konfigūracijas prie dabartinės „Microsoft Dynamics 365 Finance” programos, importuokite iš ER [saugyklos, ](general-electronic-reporting.md#Repository), sukonfigūruotos tam programos egzemplioriui.
+Norėdami įtraukti standartines ER konfigūracijas Microsoft Dynamics į savo dabartinį 365 finansų egzempliorių, turite importuoti jas iš to egzemplioriaus sukonfigūruotos ER [saugyklos](general-electronic-reporting.md#Repository).
 
 1. Eikite į **Organizacijos administravimas** \> **Darbo sritys** \> **Elektroninės ataskaitos**.
 2. **Lokalizavimo konfigūracijos** puslapyje **Konfigūracijos teikėjai** dalyje pasirinkite **„Microsoft”** plytelę ir pasirinkite **Saugyklos**, kad peržiūrėtumėte „Microsoft” tiekėjo saugyklų sąrašą.

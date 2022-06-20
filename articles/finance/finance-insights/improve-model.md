@@ -1,6 +1,6 @@
 ---
 title: Prognozės modelio tobulinimas
-description: Šioje temoje aprašomos funkcijos, kurias galite naudoti norėdami pagerinti prognozavimo modelių efektyvumą.
+description: Šiame straipsnyje aprašomos priemonės, kurias galite naudoti norėdami padidinti numatymo modelių našumą.
 author: ShivamPandey-msft
 ms.date: 07/16/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 96ba1653ea1f9a5ac1037e9ecc7e85c86a6f31c7
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: cb725f4e8f7b9dd81077f5c85059a024f3146092
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8719977"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846892"
 ---
 # <a name="improve-the-prediction-model"></a>Prognozės modelio tobulinimas
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje aprašomos funkcijos, kurias galite naudoti norėdami pagerinti prognozavimo modelių efektyvumą. Pradedate tobulinti savo modelį kliento mokėjimų **numatymo darbo srityje** " Microsoft Dynamics 365 Finance". Tada atlikite tobulinimo veiksmus AI Builder.
+Šiame straipsnyje aprašomos priemonės, kurias galite naudoti norėdami padidinti numatymo modelių našumą. Pradedate tobulinti savo modelį kliento mokėjimų **numatymo darbo srityje** " Microsoft Dynamics 365 Finance". Tada atlikite tobulinimo veiksmus AI Builder.
 
 ## <a name="select-historical-outcomes"></a>Pasirinkite retrospektyvinius rezultatus
 

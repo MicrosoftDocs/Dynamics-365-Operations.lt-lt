@@ -1,6 +1,6 @@
 ---
 title: Biudžeto planavimo šablonai, skirti „Excel‟
-description: Šioje temoje aprašoma, kaip kurti „Microsoft Excel“ šablonus, kuriuos galima naudoti biudžeto planuose.
+description: Šiame straipsnyje aprašoma, kaip kurti šablonus Microsoft Excel, kuriuos galima naudoti su biudžeto planais.
 author: panolte
 ms.date: 01/12/2018
 ms.topic: article
@@ -15,24 +15,24 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 90691aec0ffad8d33a19a09e7bc521cd6d6a09a9
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 6bc190a48d0212e24c5bd72255ed6b6b3caf942c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8711982"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872505"
 ---
 # <a name="budget-planning-templates-for-excel"></a>Biudžeto planavimo šablonai, skirti „Excel‟
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje aprašoma, kaip kurti „Microsoft Excel“ šablonus, kuriuos galima naudoti biudžeto planuose.
+Šiame straipsnyje aprašoma, kaip kurti šablonus Microsoft Excel, kuriuos galima naudoti su biudžeto planais.
 
-Šioje temoje parodoma, kaip kurti biudžeto planuose naudojamus „Excel“ šablonus, naudojant standartinį demonstracinių duomenų rinkinį ir administratoriaus vartotojo prisijungimo informaciją. Daugiau informacijos apie biudžeto planavimą rasite [Biudžeto planavimo apžvalga.](budget-planning-overview-configuration.md). Taip pat galite vadovautis mokymo programa [Biudžeto planavimas](budget-plan.md), kad sužinotumėte pagrindinius modulio konfigūracijos ir naudojimo principus.
+Šiame straipsnyje aprašoma, kaip sukurti "Excel" šablonus, kurie bus naudojami su biudžeto planais naudojant standartinį demonstracinių duomenų rinkinį ir administratoriaus vartotojo prisijungimą. Daugiau informacijos apie biudžeto planavimą rasite [Biudžeto planavimo apžvalga.](budget-planning-overview-configuration.md). Taip pat galite vadovautis mokymo programa [Biudžeto planavimas](budget-plan.md), kad sužinotumėte pagrindinius modulio konfigūracijos ir naudojimo principus.
 
 ## <a name="generate-a-worksheet-using-budget-plan-document-layout"></a>Darbalalapio generavimas naudojant biudžeto plano dokumento maketą
 
-Biudžeto plano dokumentus galime peržiūrėti ir redaguoti naudojant vieną arba daugiau maketų. Kiekvienam maketui galima priskirti biudžeto plano dokumento šabloną, kad būtų galima peržiūrėti ir redaguoti biudžeto plano duomenis „Excel“ darbalapyje. Šioje temoje biudžeto plano dokumento šablonas bus sugeneruotas naudojant esamo maketo konfigūraciją. 
+Biudžeto plano dokumentus galime peržiūrėti ir redaguoti naudojant vieną arba daugiau maketų. Kiekvienam maketui galima priskirti biudžeto plano dokumento šabloną, kad būtų galima peržiūrėti ir redaguoti biudžeto plano duomenis „Excel“ darbalapyje. Šiame straipsnyje, biudžeto plano dokumento šablonas bus sugeneruotas naudojant esamą maketo konfigūraciją. 
 
 1. Atidarykite **Biudžeto planų sąrašas** (**Biudžeto sudarymas** &gt; **Biudžeto planai**). 
 2. Spustelėkite **Naujas**, kad sukurtumėte naują biudžeto plano dokumentą. 

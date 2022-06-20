@@ -1,6 +1,6 @@
 ---
-title: Finansinio konsolidavimo ir valiutos konvertavimo apžvalga
-description: Šioje temoje aprašomas finansinis konsolidavimas ir valiutos konvertavimas didžiojoje knygoje.
+title: Finansinių konsolidacijų ir valiutos konvertavimo apžvalga
+description: Šiame straipsnyje aprašomos finansinės konsolidacijos ir valiutos konvertavimas į DK.
 author: jinniew
 ms.date: 10/07/2021
 ms.topic: overview
@@ -13,26 +13,26 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: f6f0094ac3307164e1c715a71e16b0766247e275
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 56e445dcf471fd20695824d5e47cd15f39c022ce
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713874"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846863"
 ---
 # <a name="financial-consolidations-and-currency-translation-overview"></a>Finansinių konsolidacijų ir valiutos konvertavimo apžvalga
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje atsižvelgiama į tai, kaip konsoliduojant Microsoft Dynamics naudojami ir 365 finansai, ir finansinės ataskaitos. Joje aprašomi atvejai, susiję su kelių įmonių ataskaitomis, agregavimu, šalinimu ir segmento palūkanomis. Joje taip pat paaiškinama, kaip elgtis ypatingais atvejais, pvz., kai juridiniai subjektai naudoja skirtingus ataskaitinius laikotarpius arba skirtingus sąskaitų planus.
+Šiame straipsnyje naudojamas būdas, kaip konsoliduojant Microsoft Dynamics naudojami ir 365 finansai, ir finansinės ataskaitos. Joje aprašomi atvejai, susiję su kelių įmonių ataskaitomis, agregavimu, šalinimu ir segmento palūkanomis. Joje taip pat paaiškinama, kaip elgtis ypatingais atvejais, pvz., kai juridiniai subjektai naudoja skirtingus ataskaitinius laikotarpius arba skirtingus sąskaitų planus.
 
-Ši tema skirta vartotojams bei funkciniams konsultantams ir joje manoma, kad skaitytojai yra susipažinę su „Finance“ ir finansinių ataskaitų pagrindais. Pagrindinė sąranka nėra aprašyta.
+Šis straipsnis buvo parašytas vartotojams ir funkciniams konsultantams ir laikoma, kad skaitytuvai turi bendrą supratimą apie finansus ir finansines ataskaitas. Pagrindinė sąranka nėra aprašyta.
 
 > [!NOTE]
-> Terminas *juridinis subjektas* naudojamas „Finance“, o terminas *įmonė* naudojamas finansinėse ataskaitose. Abu šie terminai naudojami šioje temoje. Tačiau šioje temoje jų reikšmės sutampa.
+> Terminas *juridinis subjektas* naudojamas „Finance“, o terminas *įmonė* naudojamas finansinėse ataskaitose. Abu šie terminai naudojami šiame straipsnyje. Tačiau šiame straipsnyje jų prasmės yra tokios pačios.
 
 ## <a name="audience"></a>Auditorija
-Ši tema skirta finansų ir apskaitos programų vartotojams ir konsultantams, kurie nori naudoti „Finance and Reporting“ bei finansines ataskaitas ir konsoliduoti kelių įmonių bei įvairių valiutų duomenis.
+Šis straipsnis skirtas finansų ir apskaitos vartotojams ir programų konsultantams, kurie nori naudoti finansų ir ataskaitų bei finansines ataskaitas, konsoliduoti kelių įmonių ir kelių valiutų duomenis.
 
 ## <a name="approach"></a>Metodas
 „Finance“ konsolidavimo proceso metu naudoja atskirą juridinį subjektą. Dėl to galima konsoliduoti vieną egzempliorių, tačiau taip pat galima gauti duomenis iš kitų šaltinių. Konsolidavimo procesą reikia vykdyti kiekvieną kartą, kai pirminiuose juridiniuose subjektuose atliekami pakeitimai.

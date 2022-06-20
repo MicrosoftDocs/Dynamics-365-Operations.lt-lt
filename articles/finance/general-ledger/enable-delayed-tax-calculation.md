@@ -1,6 +1,6 @@
 ---
 title: Atidėto mokesčių skaičiavimo įjungimas žurnaluose
-description: Šioje temoje paaiškinama, kaip įjungti atidėto mokesčių skaičiavimo funkciją siekiant pagerinti mokesčių skaičiavimo efektyvumą, kai yra labai daug žurnalo eilučių.
+description: Šiame straipsnyje paaiškinama, kaip įjungti funkciją Atidėtas mokesčių skaičiavimas, kad būtų pagerintas mokesčių skaičiavimų našumas, kai žurnalo eilučių skaičius labai didelis.
 author: EricWang
 ms.date: 09/18/2019
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2019-09-18
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: fddb6d3a9850b8f2f88f813f9591006637c7e535
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 02a038318d4c0fb44b6fcc4bb159ea87c2e9368a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713140"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887925"
 ---
 # <a name="enable-delayed-tax-calculation-on-journals"></a>Atidėto mokesčių skaičiavimo įjungimas žurnaluose
 [!include [banner](../includes/banner.md)]
 
 
-Šioje temoje paaiškinama, kaip galima atidėti PVM skaičiavimą žurnaluose. Ši galimybė padeda pagerinti mokesčių skaičiavimo efektyvumą, kai yra daug žurnalo eilučių.
+Šiame straipsnyje paaiškinama, kaip atidėti PVM skaičiavimą žurnaluose. Ši galimybė padeda pagerinti mokesčių skaičiavimo efektyvumą, kai yra daug žurnalo eilučių.
 
 Esant numatytiesiems nustatymams, žurnalo eilučių PVM sumos apskaičiuojamos, kai atnaujinami su mokesčiais susiję laukai. Šie laukai apima PVM grupių ir prekės PVM grupių laukus. Atnaujinus bet kurią žurnalo eilutę, perskaičiuojamos visos žurnalo eilutės. Nors toks veikimas leidžia vartotojui matyti realiu laiku apskaičiuojamas mokesčių sumas, tai taip pat gali turėti įtakos našumui, jei žurnalo eilučių skaičius yra labai didelis.
 

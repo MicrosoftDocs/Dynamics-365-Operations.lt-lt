@@ -1,6 +1,6 @@
 ---
 title: Ilgalaikių išteklių kūrimas
-description: Šioje temoje paaiškinama, kaip sukurti naują ilgalaikio turto įrašą sąrašo puslapyje Ilgalaikis turtas.
+description: Šiame straipsnyje paaiškinama, kaip kurti naują ilgalaikio turto įrašą iš ilgalaikio turto sąrašo puslapio.
 author: moaamer
 ms.date: 07/01/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a9394c0c7a5e2d9b417cbaee9f4e67f36ae124fb
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 00c72081d20015737aa027cee9474a54e498cef4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8714291"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868495"
 ---
 # <a name="create-a-fixed-asset"></a>Ilgalaikių išteklių kūrimas
 
 [!include [banner](../../includes/banner.md)]
 
-Šioje temoje paaiškinama, kaip sukurti naują ilgalaikio turto įrašą sąrašo puslapyje **Ilgalaikis turtas**.
+Šiame straipsnyje paaiškinama, kaip kurti naują ilgalaikio turto įrašą iš ilgalaikio **turto** sąrašo puslapio.
 
 Sistema priskiria turto numerį, pagrįstą numeracija, priskirta ilgalaikio turto grupei. Jei naudojate ilgalaikio turto šabloną turto importavimo naudojant „Microsoft Excel” papildinį metu arba jei naudojate kitą importavimo užduotį, sistema automatiškai sukuria ilgalaikio turto įrašus ir padidina turto numerį.
 

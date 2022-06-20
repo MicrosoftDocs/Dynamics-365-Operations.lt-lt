@@ -1,6 +1,6 @@
 ---
 title: Neatitikimų diagnostikos problemos
-description: Šioje temoje aprašoma, kaip sukurti ir naudoti problemos tipo neatitiktims.
+description: Šiame straipsnyje aprašoma, kaip neatitiktims sukurti ir naudoti problemų tipus.
 author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2020-06-17
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 26705dd12f478f4ca6046c7265d4ae3cb1d08c69
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: a73e692257c2a27085d60e75e028445811ee778a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7568812"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857756"
 ---
 # <a name="problem-types-for-nonconformances"></a>Neatitikimų diagnostikos problemos
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje aprašoma, kaip sukurti ir naudoti problemos tipo neatitiktims.
+Šiame straipsnyje aprašoma, kaip neatitiktims sukurti ir naudoti problemų tipus.
 
 Naudodami puslapį **Problemų tipai** apibrėžkite kokybės problemų, su kuriomis galima susidurti įvairiuose neatitikimo tipuose, klasifikaciją. Turite nurodyti kiekvieno sukurto problemos tipo neatitiktys, su kuria gali būti naudojamas problemos tipas, tipus. Galite nustatyti šiuos neatitikimo tipus:
 

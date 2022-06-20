@@ -1,6 +1,6 @@
 ---
 title: Darbo su elektroninių SF priedu Italijai pradžia
-description: Šioje temoje pateikiama informacija, kuri padės jums pradėti naudotis elektroninių SF išrašymo priedu Italijai.
+description: Šiame straipsnyje pateikiama informacija, kuri padės jums pradėti nuo Italijos elektroninių SF išrašymo.
 author: gionoder
 ms.date: 09/22/2020
 ms.topic: article
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: c0197ff9d93833aa50fef56ec597fa0c904d792d
-ms.sourcegitcommit: 8bcb9c13eccb14e61c39ca6578d135b64090fad2
+ms.openlocfilehash: a04866cef56aaa6f52a0177fae8c1e4f8fc6e70e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8313651"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8908988"
 ---
 # <a name="get-started-with-electronic-invoicing-for-italy"></a>Darbo su elektroninių SF priedu Italijai pradžia
 
@@ -30,13 +30,13 @@ ms.locfileid: "8313651"
 
 
 > [!IMPORTANT]
-> Italijos elektroninių SF išrašymo priedas šiuo metu gali nepalaikyti visų funkcijų, pasiekiamų elektroninėms SF „Microsoft Dynamics 365 Finance” ir „Dynamics 365 Supply Chain Management”. 
+> Italijos elektroninių SF išrašymas šiuo metu gali nepatebėti visų funkcijų, galimų elektroninėms Microsoft Dynamics SF 365 finansuose ir Dynamics 365 Supply Chain Management. 
 
-Šioje temoje pateikiama informacija, kuri padės jums pradėti naudotis elektroninių SF išrašymo priedu Italijai. Ji padės atlikti konfigūracijos veiksmus, priklausančius nuo šalies, „Regulatory Configuration Services” (RCS) ir „Finance”. Ji taip pat paaiškina, kaip pateikti elektronines SF, sugeneruotas Italijai būdingu formatu **„FatturaPA”**, naudojant paslaugą, ir kaip peržiūrėti apdorojimo rezultatus.
+Šiame straipsnyje pateikiama informacija, kuri padės jums pradėti nuo Italijos elektroninių SF išrašymo. Ji padės atlikti konfigūracijos veiksmus, priklausančius nuo šalies, „Regulatory Configuration Services” (RCS) ir „Finance”. Ji taip pat paaiškina, kaip pateikti elektronines SF, sugeneruotas Italijai būdingu formatu **„FatturaPA”**, naudojant paslaugą, ir kaip peržiūrėti apdorojimo rezultatus.
 
 ## <a name="prerequisites"></a>Būtinieji komponentai
 
-Prieš atlikdami šioje temoje nurodytus veiksmus, turite atlikti veiksmus, esančius [Darbo su elektroninių SF išrašymo priedu pradžia](e-invoicing-get-started.md).
+Prieš pradėdami šiame straipsnyje nurodytus veiksmus, turite atlikti veiksmus dalyje Darbo su [elektroninių SF išrašymu pradžia](e-invoicing-get-started.md).
 
 ## <a name="rcs-setup"></a>RCS sąranka
 
@@ -203,7 +203,7 @@ Apdorojimo „Finance” metu atliksite toliau pateiktas užduotis.
 Dokumentus galite pateikti neautomatiniu būdu, atsižvelgdami į el. SF dokumentų poreikį.
 
 > [!NOTE]
-> Prieš tęsdami įsitikinkite, kad nustatymas, reikalingas Italijos el. SF, buvo užbaigtas. Daugiau informacijos žr. [Kliento elektroninės SF](./emea-ita-e-invoices.md). Turėkite omenyje, kad kai kurie toje temoje aprašyti nustatymo veiksmai gali būti nepasiekiami dėl elektroninių SF išrašymo priedo aktyvinimo.
+> Prieš tęsdami įsitikinkite, kad nustatymas, reikalingas Italijos el. SF, buvo užbaigtas. Daugiau informacijos žr. [Kliento elektroninės SF](./emea-ita-e-invoices.md). Atkreipkite dėmesį, kad kai kurie šiame straipsnyje aprašyti nustatymo veiksmai gali būti negalimi dėl elektroninio SF išrašymo suaktyvinimo.
 
 1. Eikite į **Organizacijos administravimas \> Laikotarpio \> Elektroniniai dokumentai \> Pateikti elektroninius dokumentus**.
 2. Pirmą kartą pateikę bet kokį dokumentą, nustatykite parinktį **Iš naujo pateikti dokumentus** į **Ne**. Jei turite iš naujo pateikti dokumentą naudodami paslaugą, nustatykite šią parinktį į **Taip**.

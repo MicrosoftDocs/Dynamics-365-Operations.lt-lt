@@ -1,6 +1,6 @@
 ---
 title: Proceso vadovo sistema
-description: Šioje temoje pateikiama informacija apie programuotojų, kurie išplečia mūsų sandėlio mobiliųjų procesų X++, apdorojimo vadovo sistemą.
+description: Šiame straipsnyje pateikiama informacija apie kūrimo vadovo sistemą, skirtas programuotojams, kurie išplečia mūsų sandėlio mobiliųjų procesų X++.
 author: Mirzaab
 ms.date: 11/01/2018
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.search.validFrom: 2018-4-30
 ms.dyn365.ops.version: 8
-ms.openlocfilehash: 6882c979ad9b37eb4f95a04259b6ac0f0a0edcdc
-ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
+ms.openlocfilehash: e88f32e0347a808d03615cf85e50b1592d691670
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7902051"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860441"
 ---
 # <a name="process-guide-framework"></a>Proceso vadovo sistema
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje pateikiama informacija apie programuotojų, kurie išplečia mūsų sandėlio mobiliųjų procesų X++, apdorojimo vadovo sistemą. Sandėlio mobiliųjų procesų procesas gali būti extensible, nes procesai suskirstomi į smulkius žingsnius. Kiekvieno žingsnio verslo logika ir vartotojo sąsajos kūrimas išskleistas atskirose klasėse, tai leidžia extensibility.
+Šiame straipsnyje pateikiama informacija apie apdorojimo vadovo sistemą, skirtas programuotojams, kurie išplečia sandėlio mobiliųjų procesų X++. Sandėlio mobiliųjų procesų procesas gali būti extensible, nes procesai suskirstomi į smulkius žingsnius. Kiekvieno žingsnio verslo logika ir vartotojo sąsajos kūrimas išskleistas atskirose klasėse, tai leidžia extensibility.
 
 ## <a name="overview-of-the-existing-design"></a>Esamo dizaino peržiūra
 
@@ -321,7 +321,7 @@ public class ProdProcessGuideConfirmProductionOrderPageBuilder extends ProcessGu
 ```
 
 > [!NOTE]
-> Naudodami programą Explorer, šioje temoje galite rasti tą patį X++ metodų šaltinio kodą. Filtruokite klasės pavadinimą, dešiniuoju pelės klavišu spustelėkite klasės pavadinimą ir pasirinkite **Peržiūrėti kodą**.
+> Šiame straipsnyje galite rasti tą patį X++ metodų šaltinio kodą naudodami programos naršyklę. Filtruokite klasės pavadinimą, dešiniuoju pelės klavišu spustelėkite klasės pavadinimą ir pasirinkite **Peržiūrėti kodą**.
 
 ### <a name="step-3-start-the-production-order"></a>3 veiksmas: Gamybos užsakymo pradėjimas
 
@@ -421,7 +421,7 @@ Tai atliekant klausiama, kaip sukurti perduotam pavadinimui veiksmų klasę ir p
 
 ### <a name="summary"></a>Suvestinė
 
-Norėdami apibendrinti viską, kas paaiškinta šioje temoje, čia pateikiama išsamesnė procesui reikalingų kodų suvestinė:
+Norėdami apibendrinti viską, kas paaiškinta šiame straipsnyje, čia pateikiama išsamesnė procesui reikalinga kodo suvestinė:
 
 1.  **ProdProcessGuideProductionStartController**
 
@@ -570,7 +570,7 @@ Norėdami apibendrinti viską, kas paaiškinta šioje temoje, čia pateikiama i�
         ```
 
         > [!NOTE]
-        > Metodas **generateItemInfoForProdId()** kuris naudojamas prekių informacijos etiketėms generuoti, į šią temą neįtraukiamas. Šis metodas pateikia užklausas kelioms lentelėms, kad būtų galima gauti prekės ID, aprašymą ir dimensijas. Jei norite geriau suprasti **generateItemInfoForProdId()** žiūrėkite šaltinio kodą.
+        > Metodas **generateItemInfoForProdId(),** naudojamas prekių informacijos etiketėms generuoti, neįtrauktas į šį straipsnį. Šis metodas pateikia užklausas kelioms lentelėms, kad būtų galima gauti prekės ID, aprašymą ir dimensijas. Jei norite geriau suprasti **generateItemInfoForProdId()** žiūrėkite šaltinio kodą.
 
 4.  **ProdProcessGuideStartProductionOrderStep**
 
@@ -605,7 +605,7 @@ Norėdami apibendrinti viską, kas paaiškinta šioje temoje, čia pateikiama i�
 
 ### <a name="extending-a-business-process"></a>Verslo proceso plėtimas
 
-Ši tema išryškino, kaip kurti naują procesą naudojant **ProcessGuide** sistemą. Šiame galutiniame skyriuje rasite keletą pavyzdžių, kaip šis verslo procesas gali būti išplėstas.
+Iki šiol šiame straipsnyje nebuvo pažymėta, kaip kurti naują procesą naudojant **ProcessGucidę** sistemą. Šiame galutiniame skyriuje rasite keletą pavyzdžių, kaip šis verslo procesas gali būti išplėstas.
 
 ### <a name="add-a-step-in-a-flow-using-processguidenavigationagentdefault"></a>Įtraukti srauto veiksmą (naudojant ProcessGuideNavigationAgentDefault)
 

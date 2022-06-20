@@ -1,6 +1,6 @@
 ---
 title: Elektroninio kasos aparato (EKA) programos ir vartotojo kalbos parametrai
-description: Šioje temoje aprašoma, kaip pakeisti kalbos parametrus „Modern POS“ (MPOS) ir „Cloud POS“.
+description: Šiame straipsnyje aprašoma, kaip pakeisti "Modern POS" (MPOS) ir "Cloud POS" kalbos parametrus.
 author: jblucher
 ms.date: 06/20/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 099d16f63e03ecbc8bf911fe4385b35fac7c67f763c17379cdc6b6229abdea16
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 15490885b5ce366edbab669893f3c3e36585f308
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6774538"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863352"
 ---
 # <a name="point-of-sale-pos-application-and-user-language-settings"></a>Elektroninio kasos aparato (EKA) programos ir vartotojo kalbos parametrai
 
 [!include [banner](includes/banner.md)]
 
-Šioje temoje aprašoma, kaip pakeisti kalbos parametrus „Modern POS“ (MPOS) ir „Cloud POS“.
+Šiame straipsnyje aprašoma, kaip pakeisti "Modern POS" (MPOS) ir "Cloud POS" kalbos parametrus.
 
 ## <a name="overview"></a>Peržiūrėti
 „Modern POS“ (MPOS) ir „Cloud POS“ palaiko aplinkas, kuriose kalbos parametrai ir vertimai gali skirtis priklausomai nuo parduotuvės ir vartotojo nustatymų. Pavyzdžiui, parduotuvė gali būti regione, kuriame klientai dažniausiai vartoja anglų kalbą, bet kai kurie darbuotojai labiau norėtų naudoti programą, kuri išversta į prancūzų kalbą.

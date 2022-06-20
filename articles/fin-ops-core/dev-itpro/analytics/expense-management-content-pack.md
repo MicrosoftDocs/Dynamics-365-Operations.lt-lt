@@ -1,6 +1,6 @@
 ---
 title: Išlaidų valdymas – „Power BI“ turinys
-description: Šioje temoje paaiškinama, kas įtraukta į „Power BI“ turinio paketą Išlaidų valdymas.
+description: Šiame straipsnyje aprašoma, kas įtraukta į išlaidų valdymo Power BI turinio paketą.
 author: panolte
 ms.date: 03/18/2019
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: Manufacturing
 ms.author: kfend
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 178a65c44abd0c9c068d4da1f2684a60062da595247560de4cb81d97ab7b6521
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 78ae444c1c9803ed3708d71da7a359667df0252f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6769903"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878319"
 ---
 # <a name="expense-management-power-bi-content"></a>Išlaidų valdymas – „Power BI“ turinys
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje paaiškinama, kas įtraukta į „Power BI“ turinį Išlaidų valdymas. 
+Šiame straipsnyje aprašoma, kas yra išlaidų valdymo turinyje Power BI. 
 
 ## <a name="overview"></a>Apžvalga
 Su Išlaidų valdymo versija 8.1 ir naujesne versija galima naudoti du „Power BI“ turinio paketus. 

@@ -1,6 +1,6 @@
 ---
-title: Konfigūruoti įrenginių užduoties kortelę
-description: Šioje temoje aprašomos įvairios užduoties kortelės įrenginio konfigūravimo parinktys.
+title: Įrenginių užduoties kortelių konfigūravimas
+description: Šiame straipsnyje aprašomos įvairios užduočių kortelės įrenginio konfigūravimo pasirinktys.
 author: johanhoffmann
 ms.date: 05/29/2020
 ms.topic: article
@@ -13,22 +13,22 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: 4c7a9585d96a1e08790e0f3c972e704971f27dc0
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 0f42ad593f59f716fb6cb535d73654d3549ba00e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103443"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860731"
 ---
 # <a name="configure-job-card-for-devices"></a>Konfigūruoti įrenginių užduoties kortelę
 
 [!include [banner](../includes/banner.md)]
 
-Darbo kortelės įrenginį naudoja parduotuvės cecho darbuotojai savo kasdieniams darbams registruoti, pvz., užduočių pradžios laikui fiksuoti, grįžtamajam ryšiui apie užduotis pateikti, netiesioginėms veikloms registruoti ir pranešti apie neatvykimą į darbą. Šios registracijos yra itin svarbios stebint eigą bei išlaidas gamybos užsakymams ir darbuotojų atlyginimo dydžio skaičiavimo pagrindas. Šioje temoje aprašomos įvairios užduoties kortelės įrenginių konfigūravimo parinktys.
+Darbo kortelės įrenginį naudoja parduotuvės cecho darbuotojai savo kasdieniams darbams registruoti, pvz., užduočių pradžios laikui fiksuoti, grįžtamajam ryšiui apie užduotis pateikti, netiesioginėms veikloms registruoti ir pranešti apie neatvykimą į darbą. Šios registracijos yra itin svarbios stebint eigą bei išlaidas gamybos užsakymams ir darbuotojų atlyginimo dydžio skaičiavimo pagrindas. Šiame straipsnyje aprašomos įvairios užduočių kortelių įrenginių konfigūravimo pasirinktys.
 
 ## <a name="enable-new-features-in-feature-management"></a>Naujų funkcijų įjungimas funkcijų valdymo dalyje
 
-Norėdami naudoti kai kuriuos šioje temoje aprašytus parametrus, juos turite įjungti savo sistemoje. Naudokite puslapį [funkcijų valdymas](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), kad įjungtumėte bet kurias arba visas toliau išvardytas funkcijas.
+Kai kurie šiame straipsnyje aprašyti parametrai turi būti įgalinti jūsų sistemoje, kad tik tada jie būtų galimi jums. Naudokite puslapį [funkcijų valdymas](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), kad įjungtumėte bet kurias arba visas toliau išvardytas funkcijas.
 
 ### <a name="generate-license-plate"></a>Generuoti numerio lentelę
 

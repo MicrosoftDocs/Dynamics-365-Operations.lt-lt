@@ -1,6 +1,6 @@
 ---
 title: Darbo jėgos metrikos „Power BI“ turinys
-description: Šioje temoje aprašomas darbo jėgos metrikos „Power BI“ turinys.
+description: Šiame straipsnyje aprašomas darbo jėgos metrikos Power BI turinys.
 author: jcart1106
 ms.date: 12/19/2017
 ms.topic: article
@@ -15,23 +15,23 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 9393b4dcc6cb5f65d38c6904bf38def9d50af281671e0e09314148824f3e6891
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e45e4fb58bd535b66b7ad0dad8c4efa37e4336b7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6757278"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884494"
 ---
 # <a name="workforce-metrics-power-bi-content"></a>Darbo jėgos metrikos „Power BI“ turinys
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje aprašomas **darbo jėgos metrikos** „Microsoft Power BI“ turinys. Jame paaiškinta, kaip pasiekti „Power BI“ ataskaitas, ir pateikta informacija apie duomenų modelį ir objektus, naudojamus turinio paketui kurti.
+Šiame straipsnyje aprašomas **darbo jėgos metrikos** Microsoft Power BI turinys. Jame paaiškinta, kaip pasiekti „Power BI“ ataskaitas, ir pateikta informacija apie duomenų modelį ir objektus, naudojamus turinio paketui kurti.
 
 ## <a name="accessing-the-power-bi-content"></a>Prieiga prie „Power BI“ turinio
 **Darbo jėgos metrikos** „Power BI“ turinys pasirodo darbo srityje **Personalo valdymas**, jei naudojate vieną iš šių produktų:
 
-- „Microsoft Dynamics 365 Finance“
+- Microsoft Dynamics 365 finansai
 - „Microsoft Dynamics 365 Human Resources“
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Į „Power BI“ turinį įtrauktos metrikos

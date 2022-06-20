@@ -1,6 +1,6 @@
 ---
 title: Atsargų prognozės
-description: Šioje temoje aprašomos tiekimo ir poreikio prognozės funkcijos, kurias galima naudoti kuriant atsargų prognozes programoje „Microsoft Dynamics 365 Supply Chain Management“.
+description: Šiame straipsnyje aprašomos tiekimo ir poreikio prognozės funkcijos, kurias galima naudoti kuriant atsargų prognozes programoje "Microsoft"Dynamics 365 Supply Chain Management.
 author: t-benebo
 ms.date: 06/08/2021
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-06-08
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 1446928c2f5fe606d1d0732764a2a4460643afcf
-ms.sourcegitcommit: 4c8223c9540fbc1c1e554962938058d432e4c681
+ms.openlocfilehash: 10e3b6ad079dbcbc3cce429a4d9d838e584b9c54
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/05/2022
-ms.locfileid: "8548173"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8844531"
 ---
 # <a name="inventory-forecasts"></a>Atsargų prognozės
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje aprašoma, kaip peržiūrėti ir kurti atsargų prognozes. Galite kurti ir peržiūrėti prekių, prekių grupių, prekių paskirstymo raktų, klientų sąskaitų, klientų grupių, tiekėjų sąskaitų ir tiekėjų grupių tiekimo ir poreikio prognozės eilutes.
+Šiame straipsnyje aprašoma, kaip peržiūrėti ir kurti atsargų prognozes. Galite kurti ir peržiūrėti prekių, prekių grupių, prekių paskirstymo raktų, klientų sąskaitų, klientų grupių, tiekėjų sąskaitų ir tiekėjų grupių tiekimo ir poreikio prognozės eilutes.
 
 Kiekvienoje prognozės eilutėje galite pasirinkti naudojamą prognozės modelį. Tada galite nurodyti prekę arba prekių grupę bei kiekį arba operacijos sumą. Taip pat galite nustatyti prognozės kiekio paskirstymo tvarkaraštį.
 
@@ -60,7 +60,7 @@ Kaip rodo lentelė 1 veiksme, yra skirtingi būdai pasiekti naudojamus puslapius
     Atsižvelgiant į pasirinkimą, rodomas puslapis **Tiekimo prognozė** ar **Poreikio prognozė**. Jame rodomos visos esamos įrašo, kurį pasirinkote prieš atidarę puslapį, prognozės eilutės.
 
 1. Veiksmų juostoje rinkitės **Naujas** norėdami įtraukti prognozės eilutę į tinklelį viršutinėje puslapio dalyje.
-1. Naujoje eilutėje lauke **Modelis** pasirinkite naudotiį prognozės modelį. Tada įveskite kitą reikiamą informaciją, pvz., prekę, prekių grupę, kliento ar tiekėjo kodą arba grupę, prekių kiekį arba bendrą operacijos sumą. Išsamios informacijos apie laukus, kurie galimi **tiekimo prognozės** ir **poreikio prognozės** puslapiuose, ieškokite vėlesniuose šios temos skyriuose.
+1. Naujoje eilutėje lauke **Modelis** pasirinkite naudotiį prognozės modelį. Tada įveskite kitą reikiamą informaciją, pvz., prekę, prekių grupę, kliento ar tiekėjo kodą arba grupę, prekių kiekį arba bendrą operacijos sumą. Išsamios informacijos apie laukus, kurie galimi tiekimo **prognozės** **ir** poreikio prognozės puslapiuose, ieškokite vėlesniuose šio straipsnio skyriuose.
 1. Norėdami paskirstyti prognozę per laikotarpį, įrankių juostoje skirtuke **Peržiūra** ir rinkitės **Paskirstyte prognozę**.
 1. Tinklelyje **Paskirstymas** peržiūrėkite laiko perspektyvą ir laiko intervalus, naudojamus prognozuojamiems kiekiams paskirstyti.
 
@@ -68,7 +68,7 @@ Kaip rodo lentelė 1 veiksme, yra skirtingi būdai pasiekti naudojamus puslapius
 
 Tiekimo prognozė leidžia sukurti prekių, kurias reikia nupirkti, planą. Jis nurodo įsigijimą ir užsakymų klerkus, ką jie turi užsakyti.
 
-Galite įvesti tiekimo prognozę pagal prekę, prekių grupę, prekių paskirstymo raktą, tiekėją ir tiekėjų grupę. Informacijos apie visus būdus, kaip atidaryti **tiekimo prognozės** puslapį, žr. anksčiau šioje temoje skyriuje [Peržiūrėti ir rankiniu būdu įvesti](#manual-entry) prognozės eilutes.
+Galite įvesti tiekimo prognozę pagal prekę, prekių grupę, prekių paskirstymo raktą, tiekėją ir tiekėjų grupę. Informacijos apie visus būdus, kaip **atidaryti** įvairių objektų ir įrašų tiekimo prognozės puslapį, [žr](#manual-entry). anksčiau šiame straipsnyje skyriuje Peržiūrėti ir rankiniu būdu įvesti prognozės eilutes.
 
 Viršutinė **Tiekimo prognozės** puslapio dalis pateikia tiekimo prognozės eilučių tinklelį ir skirtukų rinkinį, kurį galite naudoti norėdami peržiūrėti ir nustatyti daugiau informacijos apie pasirinktą prognozės eilutę. Apatinėje puslapio dalyje pateikiamas **paskirstymo** tinklelis.
 
@@ -94,9 +94,9 @@ Toliau pateiktoje lentelėje aprašomos komandos, esančios įrankių juostoje *
 
 | Komanda | Aprašas |
 |---|---|
-| Paskirstyti prognozę | Jei naudojate paskirstymo metodą, sugeneruokite atskiras prognozės operacijos grafiko eilutes. Eilutės kiekis paskirstomas pagal datą (pagal pasirinktus laiko intervalus), viso laiko intervalo kiekį ir sumą. (Žr. [Skirti prognozę](#allocate-forecast) Atsargų atnaujinimo prognozės operacijos.) |
-| Masinis naujinimas | Atidarykite **prognozės operacijų redagavimo** puslapį. (Žr. [Vėliau šioje temoje skyriuje](#bulk-update) Masinio atnaujinimo prognozės operacijos.) |
-| Atsargų prognozė | Atidaryti atsargų **prognozės puslapio,** kuris filtruojamas pagal pasirinktą prekės / modelio derinį, rodinį. (Žr. [Vėliau šioje temoje skyriuje](#inventory-forecast) Atsargų atnaujinimo prognozės operacijos.) |
+| Paskirstyti prognozę | Jei naudojate paskirstymo metodą, sugeneruokite atskiras prognozės operacijos grafiko eilutes. Eilutės kiekis paskirstomas pagal datą (pagal pasirinktus laiko intervalus), viso laiko intervalo kiekį ir sumą. (Žr. [Toliau šiame](#allocate-forecast) straipsnyje paskirstyti prognozės skyrių.) |
+| Masinis naujinimas | Atidarykite **prognozės operacijų redagavimo** puslapį. (Žr. [Vėliau šiame straipsnyje nurodytas masinio](#bulk-update) naujinimo prognozės operacijų skyrius.) |
+| Atsargų prognozė | Atidaryti atsargų **prognozės puslapio,** kuris filtruojamas pagal pasirinktą prekės / modelio derinį, rodinį. (Žr. [Toliau šiame straipsnyje](#inventory-forecast) skyriuje atsargų prognozės.) |
 | Kurti prekės poreikį | Atidaryti dialogo langą, kuriame galite kurti prekių poreikius ir pardavimo užsakymą arba prekių žurnalo eilutes su projektu susijusioms prognozės operacijoms. Nors ši komanda galima ir tiekimo prognozės eilutėms, ir poreikio prognozės eilutėms, jos negalima naudoti tiekimo **prognozės puslapyje**. |
 
 ### <a name="the-overview-tab-on-the-supply-forecast-page"></a>Apžvalgos skirtukas tiekimo prognozės puslapyje.
@@ -173,7 +173,7 @@ Jei naudojate prekių paskirstymo raktą arba jei įvedėte vieno ar kelių būs
 
 Poreikio prognozė leidžia įvesti arba sugeneruoti kliento poreikį. Tai padeda pardavimo ir rinkodaros tarnautojams informuoti bendrojo planavimo klerkas apie numatomą poreikį ateinant prognozės laikotarpiui.
 
-Galite įvesti poreikio prognozę pagal prekę, prekių grupę, prekių paskirstymo raktą, klientą ir klientų grupę. Informacijos apie visus būdus, kaip atidaryti **poreikio prognozės** puslapį, žr. anksčiau šioje temoje skyriuje [Peržiūrėti ir rankiniu būdu įvesti](#manual-entry) prognozės eilutes.
+Galite įvesti poreikio prognozę pagal prekę, prekių grupę, prekių paskirstymo raktą, klientą ir klientų grupę. Informacijos apie visus būdus, kaip **atidaryti** įvairių objektų ir įrašų poreikio prognozės puslapį, [žr](#manual-entry). anksčiau šiame straipsnyje skyriuje Peržiūrėti ir rankiniu būdu įvesti prognozės eilutes.
 
 Viršutinė **Poreikio prognozės** puslapio dalis pateikia poreikio prognozės eilučių tinklelį ir skirtukų rinkinį, kurį galite naudoti norėdami peržiūrėti ir nustatyti daugiau informacijos apie pasirinktą prognozės eilutę. Apatinėje puslapio dalyje pateikiamas **paskirstymo** tinklelis.
 
@@ -201,9 +201,9 @@ Toliau pateiktoje lentelėje aprašomos komandos, esančios įrankių juostoje *
 
 | Komanda | Aprašas |
 |---|---|
-| Paskirstyti prognozę | Jei naudojate paskirstymo metodą, sugeneruokite atskiras prognozės operacijos grafiko eilutes. Eilutės kiekis paskirstomas pagal datą (pagal pasirinktus laiko intervalus), viso laiko intervalo kiekį ir sumą. (Žr. [Skirti prognozę](#allocate-forecast) Atsargų atnaujinimo prognozės operacijos.)|
-| Masinis naujinimas | Atidarykite **prognozės operacijų redagavimo** puslapį. (Žr. [Vėliau šioje temoje skyriuje](#bulk-update) Masinio atnaujinimo prognozės operacijos.) |
-| Atsargų prognozė | Atidaryti atsargų **prognozės puslapio,** kuris filtruojamas pagal pasirinktą prekės / modelio derinį, rodinį. (Žr. [Vėliau šioje temoje skyriuje](#inventory-forecast) Atsargų atnaujinimo prognozės operacijos.) |
+| Paskirstyti prognozę | Jei naudojate paskirstymo metodą, sugeneruokite atskiras prognozės operacijos grafiko eilutes. Eilutės kiekis paskirstomas pagal datą (pagal pasirinktus laiko intervalus), viso laiko intervalo kiekį ir sumą. (Žr. [Toliau šiame](#allocate-forecast) straipsnyje paskirstyti prognozės skyrių.)|
+| Masinis naujinimas | Atidarykite **prognozės operacijų redagavimo** puslapį. (Žr. [Vėliau šiame straipsnyje nurodytas masinio](#bulk-update) naujinimo prognozės operacijų skyrius.) |
+| Atsargų prognozė | Atidaryti atsargų **prognozės puslapio,** kuris filtruojamas pagal pasirinktą prekės / modelio derinį, rodinį. (Žr. [Toliau šiame straipsnyje](#inventory-forecast) skyriuje atsargų prognozės.) |
 | Kurti prekės poreikį | Atidaryti dialogo langą, kuriame galite kurti prekių poreikius ir pardavimo užsakymą arba prekių žurnalo eilutes su projektu susijusioms prognozės operacijoms. |
 
 ### <a name="the-overview-tab-on-the-demand-forecast-page"></a>Apžvalgos skirtukas Poreikio prognozės puslapyje.
@@ -296,7 +296,7 @@ Skirtuke **Atsargų dimensijos** rodomos visos atsargų dimensijos eilutės, kur
 
 ### <a name="the-allocation-grid-on-the-demand-forecast-page"></a>Paskyrtimo tinklelis poreikio prognozės puslapyje.
 
-Jei naudojate prekių paskirstymo raktą arba jei įvedėte vieno ar kelių būsimų laikotarpių prekės prognozę, galite paskirstyti prognozę skirtuke **Peržiūra pasirinkdami** Paskirstyti prognozę. Kiekis **paskirstomas** taip, kaip nurodyta paskirstymo **tinklelio** eilutėse. (Žr. [Skirti prognozę](#allocate-forecast) Atsargų atnaujinimo prognozės operacijos.)
+Jei naudojate prekių paskirstymo raktą arba jei įvedėte vieno ar kelių būsimų laikotarpių prekės prognozę, galite paskirstyti prognozę skirtuke **Peržiūra pasirinkdami** Paskirstyti prognozę. Kiekis **paskirstomas** taip, kaip nurodyta paskirstymo **tinklelio** eilutėse. (Žr. [Toliau šiame](#allocate-forecast) straipsnyje paskirstyti prognozės skyrių.)
 
 ## <a name="inventory-forecast"></a><a name="inventory-forecast"></a>Atsargų prognozė
 

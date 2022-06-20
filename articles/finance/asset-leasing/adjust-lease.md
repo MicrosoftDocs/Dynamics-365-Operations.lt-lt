@@ -1,6 +1,6 @@
 ---
 title: Nuomos koregavimas
-description: Šioje temoje paaiškinama, kaip koreguoti nuomą. Koreguoti gali reikėti, jei pakeičiamos nuomos sąlygos, nuoma pratęsiama arba pasikeičia kitos aplinkybės.
+description: Straipsnyje paaiškinama, kaip koreguoti nuomą. Koreguoti gali reikėti, jei pakeičiamos nuomos sąlygos, nuoma pratęsiama arba pasikeičia kitos aplinkybės.
 author: moaamer
 ms.date: 03/18/2022
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 89ec876c9bd967107635eb2955209a4dcb95cde5
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 48d1a261a43d6e3a68dfc0aae6f06c0d7d6b82db
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8712180"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8898333"
 ---
 # <a name="adjust-leases"></a>Nuomos koregavimas
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-Šioje temoje paaiškinama, kaip koreguoti nuomą. Koreguoti gali reikėti, jei pakeičiamos nuomos sąlygos, nuoma pratęsiama arba pasikeičia kitos aplinkybės. Turto nuoma atitinka rekomendacijas, kurios pateiktos 842 apskaitos standartų kodifikavimo temos (ASC 842) ir 16 tarptautinių finansinių ataskaitų standarto (16 TFAS) dalyse apie nuomos keitimą. ASC 842-20-15-1 nuomos keitimą apibrėžia kaip bet kokį sutarties sąlygų pakeitimą, kuris lemia nuomos apimties ar nagrinėjimo pasikeitimą. IFRS 16 39 pastraipoje nurodyta, kad nuomininkas turi perkainoti nuomos įsipareigojimą taip, kad jame atspindėtų nuomos mokesčių pasikeitimai.
+Straipsnyje paaiškinama, kaip koreguoti nuomą. Koreguoti gali reikėti, jei pakeičiamos nuomos sąlygos, nuoma pratęsiama arba pasikeičia kitos aplinkybės. Turto nuoma atitinka rekomendacijas, kurios pateiktos 842 apskaitos standartų kodifikavimo temos (ASC 842) ir 16 tarptautinių finansinių ataskaitų standarto (16 TFAS) dalyse apie nuomos keitimą. ASC 842-20-15-1 nuomos keitimą apibrėžia kaip bet kokį sutarties sąlygų pakeitimą, kuris lemia nuomos apimties ar nagrinėjimo pasikeitimą. IFRS 16 39 pastraipoje nurodyta, kad nuomininkas turi perkainoti nuomos įsipareigojimą taip, kad jame atspindėtų nuomos mokesčių pasikeitimai.
 
 Organizacijoms, kurios laikosi ASC 842 arba IFRS 16, nuoma perskaičiuojama, kad atsispindėtų dabartinės būsimų minimalių nuomos mokesčių (PVFMLP) vertės pasikeitimas. Jei PVFMLP didėja, sukuriamas žurnalo įrašas bus skola naudojimo teise valdomo turto paskyroje ir kreditas nuomos įsipareigojimų paskyrai dėl skirtumo tarp naujo PVFMLP ir ankstesnio PVFMLP. Jei PVFMLP mažėja, sukuriamas žurnalo įrašas bus skola naudojimo nuomos įsipareigojimo paskyrai ir kreditas naudojimo teise valdomas turto paskyrai dėl skirtumo.
 

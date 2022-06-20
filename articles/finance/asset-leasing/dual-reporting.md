@@ -1,6 +1,6 @@
 ---
 title: Dvigubos ataskaitos
-description: Šioje temoje parodytas pavyzdys, rodantis, kaip galima įvykdyti tarptautinių finansinių ataskaitų standartų (IFRS) ataskaitų ir privalomųjų ataskaitų reikalavimus nuomojant turtą.
+description: Šiame straipsnyje pateikiamas pavyzdys, kuriame parodyta, kaip galite įvykdyti tarptautinių finansinių ataskaitų standartinių (IFRS) ataskaitų ir privalomos turto ataskaitų reikalavimus.
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 9c96730bea52a69f672f8936ebbcb24449940636
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 9941d0bb251a95a71338c59f6eaa4bb9a505a5b5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713395"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8886377"
 ---
 # <a name="dual-reporting"></a>Dvigubos ataskaitos
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje parodytas pavyzdys, rodantis, kaip galima įvykdyti tarptautinių finansinių ataskaitų standartų (IFRS) ataskaitų ir privalomųjų ataskaitų reikalavimus nuomojant turtą. Reikia supažindinti su Microsoft Dynamics 365 finansų registravimo sluoksniais, todėl pavyzdį bus lengviau suprasti.
+Šiame straipsnyje pateikiamas pavyzdys, kuriame parodyta, kaip galite įvykdyti tarptautinių finansinių ataskaitų standartinių (IFRS) ataskaitų ir privalomos turto ataskaitų reikalavimus. Reikia supažindinti su Microsoft Dynamics 365 finansų registravimo sluoksniais, todėl pavyzdį bus lengviau suprasti.
 
 ## <a name="example"></a>Pavyzdys
 

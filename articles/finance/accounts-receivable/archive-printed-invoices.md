@@ -1,6 +1,6 @@
 ---
 title: Archyvuoti atspausdintas klientų sąskaitas faktūras su maišos numeriais
-description: Šioje temoje paaiškinama, kaip įgalinti archyvavimą, kad būtų saugomos išspausdintos kliento sąskaitos-faktūros su „hash“ numeriais.
+description: Šiame straipsnyje paaiškinama, kaip įgalinti archyvavimą saugoti išspausdintas kliento SF su hash numeriais.
 author: ilkond
 ms.date: 09/15/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: ilyako
 ms.search.validFrom: 2021-03-05
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 44caf44097a433b8848b17688430ca88a4b3f51b
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 3f19968b4f4cf76a48ac5485e915785e9be5c7db
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8695280"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909191"
 ---
 # <a name="archive-printed-customer-invoices-with-hash-numbers"></a>Archyvuoti atspausdintas klientų sąskaitas faktūras su maišos numeriais
 
@@ -27,7 +27,7 @@ ms.locfileid: "8695280"
 
 Kai kuriose šalyse nustatytas teisinis reikalavimas sistemoje laikyti apskaičiuotus „hash“ numerius kartu su kai kurių dokumentų spaudiniais. „Hash“ numerius galima naudoti teikiant ataskaitas valdžios institucijoms ir audito metu.
 
-Šioje temoje paaiškinama, kaip konfigūruoti archyvavimą, kad būtų galima saugoti išspausdintas kliento sąskaitas-faktūras su „hash“ numeriais.
+Šiame straipsnyje paaiškinama, kaip konfigūruoti archyvavimą, kad būtų galima saugoti išspausdintas kliento SF su hash numeriais.
 
 ## <a name="prerequisites"></a>Būtinieji komponentai
 

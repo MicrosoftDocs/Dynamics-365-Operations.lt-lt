@@ -1,6 +1,6 @@
 ---
-title: Neautomatinio vadovo įvertinimų ir atsiliepimų publikavimo įjungimas
-description: Šioje temoje aprašoma, kaip įgalinti rankinį įvertinimų ir peržiūros paskelbimą režimo vadovo ir kaip rankiniu būdu skelbti „Microsoft Dynamics 365 Commerce“ įvertinimus ir įvertinimus.
+title: Neautomatinio vadovo įvertinimų ir apžvalgų publikavimo įjungimas
+description: Šiame straipsnyje aprašoma, kaip įgalinti rankinį įvertinimų ir peržiūros publikavimą naudojant moderatorių Microsoft Dynamics 365 Commerce ir kaip rankiniu būdu skelbti vertinimus ir peržiūrint.
 author: gvrmohanreddy
 manager: annbe
 ms.date: 09/03/2021
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-09-03
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 0709173b8c3dfb7018d0bd9a712554112722a1f3
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 7d90cbbdc1ac0368c6ccfbeef7ff8db9b65679a7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8693287"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8892628"
 ---
-# <a name="enable-manual-publishing-of-ratings-and-reviews-by-a-moderator"></a>Neautomatinio vadovo įvertinimų ir atsiliepimų publikavimo įjungimas
+# <a name="enable-manual-publishing-of-ratings-and-reviews-by-a-moderator"></a>Neautomatinio vadovo įvertinimų ir apžvalgų publikavimo įjungimas
 
 [!include [banner](includes/banner.md)]
 
-Šioje temoje aprašoma, kaip įgalinti rankinį įvertinimų ir peržiūros paskelbimą režimo vadovo ir kaip rankiniu būdu skelbti „Microsoft Dynamics 365 Commerce“ įvertinimus ir įvertinimus.
+Šiame straipsnyje aprašoma, kaip įgalinti rankinį įvertinimų ir peržiūros publikavimą naudojant moderatorių Microsoft Dynamics 365 Commerce ir kaip rankiniu būdu skelbti vertinimus ir peržiūrint.
 
 „Dynamics 365 Commerce“ pagal vertinimą ir peržiūrimas sprendimas naudoja „Azure Cognitive Services" virtualiosios paslaugos automatiškai persvarsto peržiūros pavadinimus ir turinį bei skelbia vertinimus ir peržiūras. Todėl neautomatinis veiksmai nėra būtini norint peržiūrėti ir paskelbti įvertinimus ir peržiūras jūsų el. komercijos svetainėje.
 

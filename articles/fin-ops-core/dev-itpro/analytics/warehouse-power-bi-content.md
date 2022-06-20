@@ -1,6 +1,6 @@
 ---
 title: „Power BI“ turinys Sandėlio našumas
-description: Šioje temoje paaiškinama, kas įtraukta į sandėlio efektyvumo „Power BI“ turinį.
+description: Šiame straipsnyje aprašoma, kas įtraukta į sandėlio našumo Power BI turinį.
 author: Mirzaab
 ms.date: 12/18/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: db56d1bd26f27987f00126ac1a6434cf36691fbf594cab3dd1260ed5251480a9
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d43cef4970cdf180d0db39086220def56b08f280
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6750555"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8851928"
 ---
 # <a name="warehouse-performance-power-bi-content"></a>„Power BI“ turinys Sandėlio našumas
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje paaiškinama, kas įtraukta į **sandėlio efektyvumo** „Microsoft Power BI“ turinį. Jame paaiškinta, kaip pasiekti „Power BI“ ataskaitas, ir pateikta informacija apie duomenų modelį ir objektus, naudojamus turinio paketui kurti.
+Šiame straipsnyje aprašoma, kas įtraukta į sandėlio **našumo** Microsoft Power BI turinį. Jame paaiškinta, kaip pasiekti „Power BI“ ataskaitas, ir pateikta informacija apie duomenų modelį ir objektus, naudojamus turinio paketui kurti.
 
 ## <a name="overview"></a>Peržiūrėti
 

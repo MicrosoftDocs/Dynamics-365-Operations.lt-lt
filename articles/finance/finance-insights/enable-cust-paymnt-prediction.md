@@ -1,6 +1,6 @@
 ---
 title: Kliento mokėjimo prognozių įjungimas
-description: Šioje temoje paaiškinama, kaip įjungti ir konfigūruoti modulio „Finance Insights” funkciją Kliento mokėjimo prognozės.
+description: Šiame straipsnyje paaiškinama, kaip įjungti ir konfigūruoti kliento mokėjimų numatymo funkciją finansų žinių bazėse.
 author: ShivamPandey-msft
 ms.date: 02/11/2022
 ms.topic: article
@@ -15,21 +15,21 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: a52d38e8fb842c7fbc8adf60a6daaef6cdc9d5ec
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: f04ee9db5efe3595dea30d641c5097d6b90c0d77
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713366"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8898213"
 ---
 # <a name="enable-customer-payment-predictions"></a>Kliento mokėjimo prognozių įjungimas
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje paaiškinama, kaip įjungti ir konfigūruoti modulio „Finance Insights” funkciją Kliento mokėjimo prognozės. Įjunkite priemonių valdymo darbo srities funkciją **ir** įveskite konfigūracijos parametrus finansų žinių **konfigūracijos** puslapyje. Šioje temoje taip pat pateikiama informacija, kuri gali padėti veiksmingai naudoti funkciją.
+Šiame straipsnyje paaiškinama, kaip įjungti ir konfigūruoti kliento mokėjimų numatymo funkciją finansų žinių bazėse. Įjunkite priemonių valdymo darbo srities funkciją **ir** įveskite konfigūracijos parametrus finansų žinių **konfigūracijos** puslapyje. Šiame straipsnyje taip pat pateikiama informacija, kuri gali padėti efektyviai naudoti šią funkciją.
 
 > [!NOTE]
-> Prieš atlikdami šiuos veiksmus, būtinai atlikite būtinuosius veiksmus, aprašytus temoje [Konfigūravimas moduliui „Finance Insights”](configure-for-fin-insites.md).
+> Prieš atbaigdami šiuos veiksmus, būtinai atlikite būtinuosius veiksmus [finansų žinių konfigūravimo](configure-for-fin-insites.md) straipsnyje.
 
 1. Įjungti kliento mokėjimo numatymų funkciją:
 

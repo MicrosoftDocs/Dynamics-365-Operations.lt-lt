@@ -1,6 +1,6 @@
 ---
-title: Kvito numerių atkūrimas
-description: Šioje temoje aprašoma, kaip atkurti tam tikros dienos (pavyzdžiui, per mokestinius metus ar kalendorinius metus) kvitų numerius, kurie yra naudojami įvairiems veiksmams.
+title: Kvitų numerių nustatymas iš naujo
+description: Šiame straipsnyje aprašoma, kaip iš naujo nustatyti kvitų numerius, naudojamus įvairiems veiksmams pageidaujamą datą (pvz., finansinius metus arba kalendorinius metus).
 author: ShalabhjainMSFT
 ms.date: 10/06/2020
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Retail, Commerce
 ms.author: asharchw
 ms.search.validFrom: 2020-01-14
 ms.dyn365.ops.version: Application update 10.0.9
-ms.openlocfilehash: 855c39f15db6de8fac1f0cd4667eec485c70542b9aebde0d7085e2703f4609bb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5dc9f3f977e04866562781d9768141a4a96166f4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6733874"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8858861"
 ---
 # <a name="reset-receipt-numbers"></a>Kvitų numerių nustatymas iš naujo 
 
@@ -30,7 +30,7 @@ ms.locfileid: "6733874"
 > [!NOTE]
 > Prieš naudojantis ta funkcija, būtina, kad pasirinktumėte **Nepriklausoma seka** ypatybę visiems kvitų tipams funkcijų profilyje. Be to, įrenginio sistemos laiko juosta, kurioje naudojamas EKA, turi sutapti su atitinkama parduotuvės laiko juosta. Atsižvelgiant į šiuos apribojimus, rekomenduojame nenaudoti šios funkcijos gamybai, kol mes dirbame, kad išspręstumėte šias problemas būsimoje versijoje. 
 
-Mažmenininkai sugeneruoja kvitų numerius įvairiems veiksmams parduotuvėje, tokiems kaip atsiskaitymo grynaisiais operacijoms, grąžinimo operacijoms, klientų užsakymams, pasiūlymams ir mokėjimams. Nors mažmenininkai nustato savo kvitų formatus, kai kurios šalys ar regionai turi taisykles, kurios riboja šiuos kvitų formatus. Pavyzdžiui, šios taisyklės gali apriboti kvite esančių simbolių skaičių, reikalauti iš eilės gaunamų kvitų numerius, apriboti kai kuriuos specialiuosius ženklus arba reikalauti atkurti kvito numerius metų pradžioje. „Microsoft Dynamics 365 Commerce“ leidžia labai lanksčiai tvarkyti kvitų numerius, kad padėtų mažmenininkams įvykdyti norminius reikalavimus. Šioje temoje aiškinama, kaip naudoti kvitų numerių nustatymo funkciją.
+Mažmenininkai sugeneruoja kvitų numerius įvairiems veiksmams parduotuvėje, tokiems kaip atsiskaitymo grynaisiais operacijoms, grąžinimo operacijoms, klientų užsakymams, pasiūlymams ir mokėjimams. Nors mažmenininkai nustato savo kvitų formatus, kai kurios šalys ar regionai turi taisykles, kurios riboja šiuos kvitų formatus. Pavyzdžiui, šios taisyklės gali apriboti kvite esančių simbolių skaičių, reikalauti iš eilės gaunamų kvitų numerius, apriboti kai kuriuos specialiuosius ženklus arba reikalauti atkurti kvito numerius metų pradžioje. „Microsoft Dynamics 365 Commerce“ leidžia labai lanksčiai tvarkyti kvitų numerius, kad padėtų mažmenininkams įvykdyti norminius reikalavimus. Šiame straipsnyje paaiškinama, kaip naudoti gavimo numerių nustatymo iš naujo funkcijas.
 
 „Commerce“ kvitų formatai gali būti raidiniai ir skaitiniai. Į juos galite įdėti ir statinį, ir dinaminį turinį. Statinį turinį sudaro abėcėlės simboliai, skaičiai ir specialieji simboliai. Dinaminį turinį sudaro vienas ar keli simboliai, pateikiantys tokią informaciją kaip parduotuvės numeris, terminalo numeris, data, mėnuo, metai ir skaičių sekos, kurios automatiškai didinamos. Formatai yra apibrėžti funkcionalumo profilio skyriuje **Kvito numeracija**. Šioje lentelėje aprašomi simboliai, pateikiantys dinaminį turinį.
 

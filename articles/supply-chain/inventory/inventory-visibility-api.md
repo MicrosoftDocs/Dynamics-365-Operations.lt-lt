@@ -1,6 +1,6 @@
 ---
 title: Atsargų matomumo viešos API
-description: Šioje temoje aprašomos viešos API, kurios pateikiamos pagal atsargų matomumą.
+description: Šiame straipsnyje aprašomi vieši API, kurie pateikiami pagal atsargų matomumą.
 author: yufeihuang
 ms.date: 12/09/2021
 ms.topic: article
@@ -11,19 +11,19 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: cb02e8d10a5c673734727682436ba1b3fc996935
-ms.sourcegitcommit: 1877696fa05d66b6f51996412cf19e3a6b2e18c6
+ms.openlocfilehash: 25f6539616d4567249e1d1eb4297090176526fde
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/20/2022
-ms.locfileid: "8786872"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8902030"
 ---
 # <a name="inventory-visibility-public-apis"></a>Atsargų matomumo viešos API
 
 [!include [banner](../includes/banner.md)]
 
 
-Šioje temoje aprašomos viešos API, kurios pateikiamos pagal atsargų matomumą.
+Šiame straipsnyje aprašomi vieši API, kurie pateikiami pagal atsargų matomumą.
 
 Vieša REST API inventoriaus matomumo papildinio nustatymuose nurodo kai kuriuos integravimo galutinius taškus. Jis palaiko keturis pagrindines sąveikos rūšis:
 
@@ -160,7 +160,7 @@ Gaukite saugos paslaugų žymą atlikdami taip.
    ```
 
 > [!IMPORTANT]
-> Kai naudojate pašto *reikalauti* rinkinį iškviesti atsargų matomumo viešus API, kiekvienai užklausai turite pridėti panaudos priemonės atpažinimo ženklą. Norėdami rasti savo išdėstojo atpažinimo ženklą, po užklausos URL pasirinkite skirtuką **Autorizavimo** pasirinkite **Bearer ženklas** tipą ir kopijuokite prieigos atpažinimo ženklą, kuris buvo rastos paskutiniame veiksme. Vėlesniuose skyriuose naudokite `$access_token` norėdami pateikti atpažinimo ženklą, kuris bus rastas paskutiniame veiksme.
+> Kai naudojate pašto *reikalauti* rinkinį iškviesti atsargų matomumo viešus API, kiekvienai užklausai turite pridėti panaudos priemonės atpažinimo ženklą. Norėdami rasti savo išdėstojo atpažinimo ženklą, po užklausos URL pasirinkite skirtuką **Autorizavimo** pasirinkite **Bearer ženklas** tipą ir kopijuokite prieigos atpažinimo ženklą, kuris buvo rastos paskutiniame veiksme. Vėlesniuose šio straipsnio skyriuose bus `$access_token` naudojamas atpažinimo ženklui, kuris rastas paskutiniame veiksme, pateikti.
 
 ## <a name="create-on-hand-change-events"></a><a name="create-onhand-change-event"></a>Kurti vieną turimos informacijos pakeitimo įvykius
 
@@ -359,7 +359,7 @@ Body:
     ]
 ```
 
-Šiame pavyzdyje rodomas turinio pavyzdžio turinys. Šios API veikimo būdas skiriasi nuo API, kurie aprašyti [Kurti turimos medžiagos įvykius, veikimo](#create-onhand-change-event) anksčiau šioje temoje skyriuje. Šiame pavyzdyje, dėl šio įvykio marškinėlių *produkto* kiekis bus 1.
+Šiame pavyzdyje rodomas turinio pavyzdžio turinys. Šios API veikimo būdas skiriasi nuo [API, kurie aprašyti anksčiau šiame straipsnyje skyriuje Kurti turimos](#create-onhand-change-event) medžiagos įvykius, veikimo. Šiame pavyzdyje, dėl šio įvykio marškinėlių *produkto* kiekis bus 1.
 
 ```json
 [

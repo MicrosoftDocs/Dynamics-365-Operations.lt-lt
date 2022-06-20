@@ -1,6 +1,6 @@
 ---
 title: Medijos galerijos modulis
-description: Šis skyrius aprašo medijos galerijos modulius ir tai, kaip įtraukti juos į vietos puslapius „Microsoft Dynamics 365 Commerce“.
+description: Šiame straipsnyje aprašomi laikmenų galerijas moduliai ir aprašoma, kaip įtraukti juos į svetainės puslapius Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 05/18/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 0d05129145c5d6c3967b243cb0855a1c4fd3e84e
-ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
+ms.openlocfilehash: 73eba2c39f9ebf1e4092545565b8cbf2db75cfb5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "8780873"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881740"
 ---
 # <a name="media-gallery-module"></a>Medijos galerijos modulis
 
 [!include [banner](includes/banner.md)]
 
-Šis skyrius aprašo medijos galerijos modulius ir tai, kaip įtraukti juos į vietos puslapius „Microsoft Dynamics 365 Commerce“.
+Šiame straipsnyje aprašomi laikmenų galerijas moduliai ir aprašoma, kaip įtraukti juos į svetainės puslapius Microsoft Dynamics 365 Commerce.
 
 Medijos galerijos moduliai rodo vieną ar keletą paveikslėlių galerijos peržiūroje. Medijos galerijos moduliai palaiko miniatūros vaizdus, kurie gali būti tvarkomi horizontaliai (kaip toliau esantis paveikslėlis) ar vertikaliai (kaip stulpelis šalia paveikslėlio). Medijos galerijos moduliai taip pat pateikia galimybes, kurios įjungia paveikslėlio priartinimą (pagerintą) ar peržiūrą visame ekrane. Tam, kad būtų sukurtas medijos galerijos režime, paveikslėlis turi būti prieinamas prekybos svetainės kūrimo įrankyje „Media Library“. Šiuo metu medijos galerijos moduliai palaiko tik paveikslėlius.
 

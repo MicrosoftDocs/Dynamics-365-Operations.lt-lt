@@ -1,6 +1,6 @@
 ---
 title: PVM deklaracija (Danija)
-description: Šioje temoje aprašoma, kaip nustatyti ir sugeneruoti Danijos išankstinę pridėtinės vertės mokesčio (PVM) deklaraciją.
+description: Šiame straipsnyje aprašoma, kaip nustatyti ir sugeneruoti Danijos išankstinę pridėtinės vertės mokesčio (PVM) deklaraciją.
 author: anasyash
 ms.date: 03/10/2022
 ms.topic: article
@@ -9,22 +9,22 @@ ms.reviewer: kfend
 ms.search.region: Global
 ms.author: anasyash
 ms.search.validFrom: ''
-ms.openlocfilehash: 4d4a1185fa3c3b059744018b6e4e195de07126c9
-ms.sourcegitcommit: 9c19898e1f41495f804c7f07e2636b53a098c4c1
+ms.openlocfilehash: 666dc96cb169ab28ac3938299a3f245e3b4511ab
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/10/2022
-ms.locfileid: "8402881"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863005"
 ---
 # <a name="vat-declaration-denmark"></a>PVM deklaracija (Danija)
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje aprašoma, kaip nustatyti Danijos pridėtinės vertės mokesčio (PVM) deklaraciją ir ją peržiūrėti Microsoft Excel.
+Šiame straipsnyje aprašoma, kaip nustatyti Danijos pridėtinės vertės mokesčio (PVM) deklaraciją ir peržiūrėti ją Microsoft Excel.
 
 Norėdami automatiškai sugeneruoti ataskaitą, pirmiausia sukurkite pakankamai PVM kodų, kad kiekvienai išankstinės PVM deklaracijos laukui būtų išlaikoma atskira PVM apskaita. Be to, elektroninės ataskaitos (ER) formato konkrečiame programos parametre, skirtame išankstinei PVM deklaracijai, susiekite PVM kodus su PVM deklaracijos langų peržvalgos rezultatu.
 
-Turite sukonfigūruoti Danijos ataskaitos **lauko peržvalgą**. Daugiau informacijos apie tai, kaip nustatyti specialius programos parametrus, [ieškokite](#set-up-application-specific-parameters) šios temos skyriuje Nustatyti programai brangius PVM deklaravimo laukų parametrus.
+Turite sukonfigūruoti Danijos ataskaitos **lauko peržvalgą**. Daugiau informacijos apie tai, kaip nustatyti programai brangius parametrus, [žr](#set-up-application-specific-parameters). toliau šiame straipsnyje skyriuje Nustatyti programai brangius PVM deklaravimo laukų parametrus.
 
 Šioje lentelėje stulpelyje Peržvalgos rezultatas rodomas peržvalgos rezultatas, iš anksto sukonfigūruotas tam tikros PVM deklaracijos eilutei PVM deklaracijos formatu. Naudokite šią informaciją, norėdami teisingai susieti PVM kodus su peržvalgos rezultatu, o tada su PVM deklaracijos eilute.
 
@@ -117,14 +117,14 @@ Norėdami automatiškai sugeneruoti PVM deklaraciją, susiekite PVM kodus progra
 
 Norėdami nurodyti, kurie PVM kodai generuoja PVM deklaracijos langelius, atlikite šiuos veiksmus.
 
-1. Eikite **į WorkspacesElectronic** > **ataskaitą** ir pasirinkite **ataskaitų konfigūracijas**.
+1. Eikite **į darbo sritis** > **– elektroninės** ataskaitos ir pasirinkite **ataskaitų konfigūracijas**.
 2. Pasirinkite PVM **deklaracijos Excel (DK)** konfigūraciją, tada pasirinkite konfigūravimų **specialios \> programos parametrų nustatymą**.
 3. Konkretaus programos **parametrų puslapio** Peržvalgos **"FastTab"** pasirinkite Ataskaitos **lauko peržvalga**.
 4. Sąlygų FastTab **nustatykite** šiuos laukus, norėdami susieti PVM kodus ir ataskaitos laukus.
 
     | Laukas                  | Aprašymas                                                                                                                                                                                                                                                                                                          |
     |------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-    | Paieškos rezultatas          | Pasirinkti ataskaitos lauko vertę. Daugiau informacijos apie vertes ir jų priskyrimą PVM deklaracijos eilutėms žr. anksčiau [šios temos PVM deklaracijos](#vat-declaration-overview) apžvalgos skyriuje.                                                                                               |
+    | Paieškos rezultatas          | Pasirinkti ataskaitos lauko vertę. Daugiau informacijos apie vertes ir jų priskyrimą PVM deklaracijos eilutėms žr. [anksčiau šiame straipsnyje skyriuje](#vat-declaration-overview) PVM deklaracijos apžvalga.                                                                                               |
     | Mokesčio kodas               | Pasirinkti PVM kodą, kuris bus susietas su ataskaitos lauku. Užregistruotos mokesčių operacijos, kurios naudoja pasirinktą PVM kodą, bus surinktos atitinkamą deklaracijos langelį. Rekomenduojame atskirti PVM kodus taip, kad vienas PVM kodas sugeneruotų sumas tik viename deklaracijos langelyje. |
     | Operacijų klasifikatorius | Jei sukūrėte pakankamai PVM kodų deklaracijos laukui nustatyti, pasirinkite **\*Neužpildyti\***. Jei nesukurėte pakankamai PVM kodų, kad vienas PVM kodas sugeneruotų sumas tik viename deklaravimo langelyje, galite nustatyti operacijų klasifikatorius. Galimos šios operacijų klasės:</br>-   **Pirkimas**</br>-   **PurchaseExempt** (neapmokestinamas pirkimas)</br>-   **PurchaseReverseCharge** (mokesčiai, gautini iš pirkimo atvirkštinio apmokestinimo)</br>-   **Pardavimas**</br>-   **SalesExempt** (neapmokestinamas pardavimas)</br>-   **SalesReverseCharge** (mokestis, mokėtinas iš pirkimo atvirkštinio mokesčio arba atvirkštinio pardavimo mokesčio)</br>-   **Naudojimo mokestis**. </br>Taip pat galima naudoti kiekvieno operacijų klasifikatorius kredito pažymos klasifikatorius. Pavyzdžiui, vienas iš šių klasių yra **PurchaseCreditNote** (pirkimo kredito pažyma).</br>Įsitikinkite, kad sukurkite dvi eilutes kiekvienam PVM kodui: vieno, kuris turi operacijos klasifikatorius vertę, ir vieno, kuris turi kredito pažymos vertės operacijos klasifikatorius, eilutes. |
 
@@ -140,7 +140,7 @@ Norėdami nurodyti, kurie PVM kodai generuoja PVM deklaracijos langelius, atliki
 ### <a name="set-up-the-vat-reporting-format-for-preview-amounts-in-excel"></a>Pvm ataskaitos formato nustatymas "Excel" peržiūrėti sumas
 
 1. Funkcijų valdymo **darbo srityje** raskite ir pasirinkite PVM išrašo **formato ataskaitas.** Sąraše <a0/& pasirinkite Įgalinti **dabar**.
-2. Eikite **į LedgerSetupGeneral** > **·** > **DK parametrus**.
+2. Eikite **į DK** > **nustatymo** > **DK parametrus**.
 3. Skirtuke **PVM**,**mokesčių** pasirinkčių "FastTab", **PVM** išrašo formato susiejimo lauke, **pasirinkite PVM deklaracijos Excel (DK)** ER formatą.
 
    Šis formatas spausdinamas, kai paleidžiate sudengimo **laikotarpio ataskaitos PVM** ataskaitą. Jis taip pat spausdinamas PVM mokėjimų **puslapyje** pasirinkus **Spausdinti**.
@@ -165,11 +165,11 @@ Duomenų pakete yra elektroninio pranešimo parametrai, naudojami PVM deklaracij
 5. Dialogo lange **Įtraukti failą** patikrinkite, **ar šaltinio duomenų formato** **laukas** nustatytas kaip Pakuotė, pasirinkite Įkelti ir įtraukti, **tada** pasirinkite anksčiau atsisiųstą pašto failą.
 6. Pasirinkite **Uždaryti**.
 7. Kai duomenų objektai įkeliami, veiksmų srityje pasirinkite **Importuoti**.
-8. Pereikite prie **TaxInquiries** > **ir ataskaitųElectronic** > **pranešimųElectronic** > **pranešimų** ir patvirtinkite importuoto elektroninio pranešimo apdorojimą (**DK PVM deklaracija**).
+8. Eikite į **mokesčių** > **užklausas ir ataskaitas Elektroniniai** > **pranešimai** > **Elektroniniai** pranešimai ir patikrinkite importuoto elektroninio pranešimo apdorojimą (**DK PVM deklaracija**).
 
 ### <a name="configure-electronic-messages"></a>Konfigūruoti elektroninius pranešimus
 
-1. Eikite į **TaxSetupElectronic** > **·** > **pranešimųpopulate** > **įrašų veiksmus**.
+1. Eikite į **mokesčių** > **nustatymo elektroninius** > **pranešimus** > **užpildyti įrašų veiksmus**.
 2. Pasirinkite DK automatiškai įvesti **PVM grąžinimo įrašų eilutę,** tada pasirinkite užklausą **Redaguoti**.
 3. Naudodami filtrą nurodykite sudengimo laikotarpius, kurie bus įtraukti į ataskaitą.
 4. Jei turite pateikti kitų sudengimo laikotarpių mokesčių operacijas kitoje deklaracijoje, **sukurkite naują veiksmą Automatiškai įvesti įrašus** ir pasirinkite atitinkamus sudengimo laikotarpius.
@@ -178,7 +178,7 @@ Duomenų pakete yra elektroninio pranešimo parametrai, naudojami PVM deklaracij
 
 ### <a name="preview-the-vat-declaration-in-excel-from-the-report-sales-tax-for-settlement-period-periodic-task"></a><a name="preview-vat-excel"></a> Peržiūrėti PVM deklaraciją "Excel" iš sudengimo laikotarpio periodinės užduoties ataskaitos PVM
 
-1. Eikite į TaxPeriodic **tasksDeclarationsSales** > **·** > **taxReport** > **sudengimo laikotarpio PVM** > **.**
+1. Eiti į **Mokesčių periodines** > **užduotis** > **Deklaracijos** > **PVM ataskaita** > **sudengimo laikotarpiui**.
 2. Lauke Sudengimo **laikotarpis** pasirinkite vertę.
 3. **PVM mokėjimo versijos lauke pasirinkite** vieną iš šių verčių:
 
@@ -191,7 +191,7 @@ Duomenų pakete yra elektroninio pranešimo parametrai, naudojami PVM deklaracij
 
 ### <a name="settle-and-post-sales-tax"></a>Sudengti ir užregistruoti PVM
 
-1. Eikite į TaxPeriodic **tasksDeclarationsSales** > **·** > **taxSettle** > **ir užregistruokite PVM** > **.**
+1. Eiti į mokesčių periodines **užduotis** > **Deklaracijos** > **PVM sudengimas** > **ir registruoti PVM** > **.**
 2. Lauke Sudengimo **laikotarpis** pasirinkite vertę.
 3. **PVM mokėjimo versijos lauke pasirinkite** vieną iš šių verčių:
 
@@ -203,7 +203,7 @@ Duomenų pakete yra elektroninio pranešimo parametrai, naudojami PVM deklaracij
 
 ### <a name="preview-the-vat-declaration-in-excel-from-a-sales-tax-payment"></a>Peržiūrėti PVM deklaraciją Programoje "Excel" iš PVM mokėjimo
 
-1. Eikite **į TaxInquiries** > **ir reportsSales** > **mokesčių užklausasSales** > **mokesčių** mokėjimai ir pasirinkite PVM mokėjimo eilutę.
+1. Eikite **·** > **į mokesčių užklausas ir** > **ataskaitas PVM** > **užklausas** PVM mokėjimams ir pasirinkite PVM mokėjimo eilutę.
 2. Pasirinkite **Spausdinti ataskaitą** ir tada pasirinkite **Gerai**.
 3. Peržiūrėkite "Excel" failą, sugeneruotą pasirinktai PVM mokėjimo eilutei.
 
@@ -212,7 +212,7 @@ Duomenų pakete yra elektroninio pranešimo parametrai, naudojami PVM deklaracij
 
 ## <a name="generate-a-vat-declaration-from-electronic-messages"></a>Generuoti PVM deklaraciją iš elektroninių pranešimų
 
-Kai naudojate elektroninius pranešimus ataskaitai generuoti, galite rinkti mokesčių duomenis iš kelių juridinių subjektų. Norėdami gauti daugiau informacijos, toliau šioje [temoje žr. skyrių Paleisti kelių](#run-vat-declaration) juridinių subjektų PVM deklaraciją.
+Kai naudojate elektroninius pranešimus ataskaitai generuoti, galite rinkti mokesčių duomenis iš kelių juridinių subjektų. Norėdami gauti daugiau informacijos, toliau šiame [straipsnyje žr. skyrių Paleisti kelių](#run-vat-declaration) juridinių subjektų PVM deklaraciją.
 
 Toliau pateikta procedūra taikoma elektroninių pranešimų apdorojimo pavyzdžiui, kurį importavote anksčiau iš LCS bendrinamo turto bibliotekos.
 
@@ -224,12 +224,12 @@ Toliau pateikta procedūra taikoma elektroninių pranešimų apdorojimo pavyzdž
    > [!NOTE]
    > 5–7 žingsniai nėra privalomi.
 
-5. Nebūtina: " **FastTab" Pranešimuose** pasirinkite **Rinkti duomenis**, tada pasirinkite **Gerai**. Anksčiau sugeneruoti PVM mokėjimai įtraukiami į pranešimą. Norėdami gauti daugiau informacijos, žr. skyrių [Sudengti ir užregistruoti PVM](#settle-and-post-sales-tax) anksčiau šioje temoje. Jei praleisite šį veiksmą, vis tiek galėsite **generuoti PVM deklaraciją naudodami mokesčių deklaracijos** versijos lauką, kuris **yra deklaracijos** dialogo lange.
+5. Nebūtina: " **FastTab" Pranešimuose** pasirinkite **Rinkti duomenis**, tada pasirinkite **Gerai**. Anksčiau sugeneruoti PVM mokėjimai įtraukiami į pranešimą. Norėdami gauti daugiau informacijos, žr. [anksčiau šiame straipsnyje skyriuje Sudengti](#settle-and-post-sales-tax) ir užregistruoti PVM. Jei praleisite šį veiksmą, vis tiek galėsite **generuoti PVM deklaraciją naudodami mokesčių deklaracijos** versijos lauką, kuris **yra deklaracijos** dialogo lange.
 6. Nebūtina: Pranešimo **prekių "** FastTab" peržiūrėkite PVM mokėjimus, kurie perkelti apdoroti. Pagal numatytuosius nustatymus įtraukiami visi pasirinkto laikotarpio PVM mokėjimai, kurie nebuvo įtraukti į kitus to paties apdorojimo pranešimus.
 7. Pasirinktinai: pasirinkite **originalų dokumentą**, kad peržiūrėtumėte PVM mokėjimus, **arba pasirinkite Naikinti,** norėdami neįtraukti PVM mokėjimų į apdorojimą. Jei praleisite šį veiksmą, vis tiek galėsite **generuoti PVM deklaraciją naudodami mokesčių deklaracijos** versijos lauką, kuris **yra deklaracijos** dialogo lange.
 8. Pranešimų "**FastTab**" pasirinkite Atnaujinimo **būseną**. Būsenos atnaujinimo **dialogo** lange pasirinkite Parengta **generuoti**, tada pasirinkite **Gerai**. Patikrinkite, ar pranešimo būsena pakeista į Parengta **generuoti**.
 9. Pasirinkite **Generuoti ataskaitą**. Norėdami peržiūrėti PVM deklaracijos sumas, dialogo **lange Vykdyti** apdorojimą **pasirinkite Peržiūrėti ataskaitą**, tada pasirinkite **Gerai**.
-10. Elektroninių ataskaitų **parametrų** dialogo lange nustatykite laukus, [kaip](#preview-vat-excel) aprašyta PVM deklaracijos excel dalyje iš anksčiau šios temos ataskaitos PVM periodinės užduoties skyriaus peržiūrėti PVM deklaraciją ir pasirinkite **Gerai**.
+10. Elektroninių ataskaitų **parametrų** dialogo lange nustatykite laukus, [kaip aprašyta PVM deklaracijos "Excel](#preview-vat-excel) " dalyje Iš anksčiau šiame straipsnyje skyriuje "Sudengimo laikotarpio periodinės užduoties ataskaitos PVM" ir pasirinkite **Gerai**.
 11. Viršutiniame **dešiniajame** puslapio kampe pasirinkite **mygtuką** Priedai (popieriaus paveikslėlio simbolis), tada pasirinkite Atidaryti, kad atidarytumėte failą. Peržiūrėkite Excel dokumento sumas.
 
 ## <a name="run-a-vat-declaration-for-multiple-legal-entities"></a><a name="run-vat-declaration"></a> Vykdyti PVM deklaraciją keliems juridiniams subjektams
@@ -240,9 +240,9 @@ Norėdami naudoti formatus norėdami juridinių subjektų grupei pateikti PVM de
 
 Norėdami nustatyti elektroninius pranešimus duomenims iš kelių juridinių subjektų rinkti, atlikite šiuos veiksmus.
 
-1. Eikite **į WorkspacesFeature** > **valdymą**.
+1. Eikite į **darbo sričių** > **funkcijų valdymą**.
 2. Raskite ir pasirinkite **visos įmonės užklausas, skirtas automatiškai įvesti įrašų** veiksmų funkciją sąraše, tada pasirinkite Įgalinti **dabar**.
-3. Eikite į **TaxSetupElectronic** > **·** > **pranešimųpopulate** > **įrašų veiksmus**.
+3. Eikite į **mokesčių** > **nustatymo elektroninius** > **pranešimus** > **užpildyti įrašų veiksmus**.
 4. Veiksmų puslapyje **Automatiškai įvesti įrašus** pasirinkite DK automatiškai įvesti **PVM grąžinimo įrašų eilutę**.
 
    Duomenų šaltinių **nustatymo tinklelyje** galimas **naujas** laukas Įmonė. Šiame lauke rodomas esamų juridinių subjektų identifikatorius esamiems įrašams.
@@ -251,7 +251,7 @@ Norėdami nustatyti elektroninius pranešimus duomenims iš kelių juridinių su
 
     | Laukas                  | Aprašymas                                                                                                                   |
     |------------------------|-------------------------------------------------------------------------------------------------------------------------------|
-    | Pavadinimas / vardas ir (arba) pavardė                   | Įveskite vertę, kuri padės suprasti, iš kur gaunamas šis įrašas. Pavyzdžiui, įveskite filialo **1 PVM mokėjimą**. |
+    | Vardas                   | Įveskite vertę, kuri padės suprasti, iš kur gaunamas šis įrašas. Pavyzdžiui, įveskite filialo **1 PVM mokėjimą**. |
     | Pranešimo prekės tipas      | Pasirinkti **PVM grąžinimą**. Ši vertė yra vienintelė galima visų įrašų vertė.                                    |
     | Kodo tipas           | Žymėti **viską**.                                                                                                               |
     | Pagrindinės lentelės pavadinimas      | Nurodykite **TaxReportVoucher** visiems įrašams.                                                                             |

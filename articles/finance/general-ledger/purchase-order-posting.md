@@ -1,6 +1,6 @@
 ---
 title: Pirkimo užsakymo registravimas
-description: Šioje temoje aprašomas atsargų registravimo šablono puslapio pirkimo užsakymo skirtukas.
+description: Šiame straipsnyje aprašomas atsargų registravimo šablonų puslapio skirtukas Pirkimo užsakymas.
 author: rachelprofitt
 ms.date: 04/25/2022
 ms.topic: overview
@@ -10,12 +10,12 @@ ms.search.form: InventPosting, InventTrans
 audience: Application User
 ms.search.region: Global
 ms.author: raprofit
-ms.openlocfilehash: 4b36ab9da22da7d4f3e62bd2d2aba2a2ec80e60f
-ms.sourcegitcommit: 5b55f2913e736d12e40c227bf3ce3a9abec815bd
+ms.openlocfilehash: 0793c58b07d2c0a133e1a5bc0607483f22206b95
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/24/2022
-ms.locfileid: "8803052"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849937"
 ---
 # <a name="purchase-order-posting"></a>Pirkimo užsakymo registravimas
 
@@ -125,7 +125,7 @@ Pirkimo paraiškas ir pirkimo užsakymų patvirtinimus taip pat galima konfigūr
 
 ## <a name="procurement-category-posting"></a>Įsigijimo kategorijos registravimas
 
-Alternatyvą nustatyti visų prekių, prekių grupės arba vienos prekės atsargų registravimą, nustatyti kategorijas ir valdyti DK registravimą pagal įsigijimo kategorijas. Norėdami gauti daugiau informacijos apie kategorijų nustatymą ir jų priskyrimą produktams, eikite į [anksčiau šioje temoje pateiktame pavyzdyje](#sample-posting-profile-configuration) registravimo šablono konfigūraciją.
+Alternatyvą nustatyti visų prekių, prekių grupės arba vienos prekės atsargų registravimą, nustatyti kategorijas ir valdyti DK registravimą pagal įsigijimo kategorijas. Norėdami gauti daugiau informacijos apie kategorijų nustatymą ir jų priskyrimą produktams, eikite į [anksčiau šiame straipsnyje nurodytą registravimo šablono](#sample-posting-profile-configuration) konfigūracijos pavyzdį.
 
 Naudojant kategorijas su pirkimo užsakymais arba tiekėjo SF, **·** **kategorijų hierarchiją reikia priskirti įsigijimo kategorijų hierarchijos tipui kategorijų hierarchijos tipui kategorijų hierarchijos vaidmenų priskyrimo** puslapyje.
 

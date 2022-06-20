@@ -1,6 +1,6 @@
 ---
 title: Atsargų operacijų informacija
-description: Šioje temoje pateikta operacijų informacijos puslapio, kuriame rodoma pasirinktos atsargų operacijos informacija, apžvalga.
+description: Šiame straipsnyje pateikta operacijų informacijos puslapio, kuriame rodoma pasirinktos atsargų operacijos informacija, apžvalga.
 author: rachel-profitt
 ms.date: 04/25/2022
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2022-04-25
 ms.dyn365.ops.version: 10.0.27
-ms.openlocfilehash: fd1416f21ce15dc832dd41ea4110c93bf5bb41a2
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 55e29d5804f57cd86fb5ddac5d6c5576b7ea5f61
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8735880"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859393"
 ---
 # <a name="inventory-transaction-details"></a>Atsargų operacijų informacija
 
@@ -36,8 +36,8 @@ Operacijų **informacijos puslapis** yra padalintas į keletą "FastTab". Toliau
 
 | FastTab | Aprašymas |
 |---|---|
-| Bendra | Šioje "FastTab" rodoma pagrindinė informacija apie pasirinktas atsargų operacijas. Be laukų, kurie rodomi atsargų **operacijų** puslapyje, jame yra ir papildomi laukai, kurie aprašomi toliau šioje temoje. |
-| Atnaujinimas | Šiame "FastTab" rodoma informacija, susijusi su pasirinktos atsargų operacijos faktiniais, finansiniais ir sudengimo aspektais. Kai kurie laukai gali būti tušti, tai priklauso nuo dabartinės operacijos būsenos. Tačiau šie laukai bus automatiškai nustatomi registruojant operacijas. Kartu su laukais, kurie rodomi atsargų **operacijų** puslapyje, šiame "FastTab" yra papildomi laukai, kurie aprašomi toliau šioje temoje. |
+| Bendra | Šioje "FastTab" rodoma pagrindinė informacija apie pasirinktas atsargų operacijas. Be laukų, kurie rodomi atsargų **operacijų** puslapyje, jame yra ir papildomi laukai, kurie aprašomi toliau šiame straipsnyje. |
+| Atnaujinimas | Šiame "FastTab" rodoma informacija, susijusi su pasirinktos atsargų operacijos faktiniais, finansiniais ir sudengimo aspektais. Kai kurie laukai gali būti tušti, tai priklauso nuo dabartinės operacijos būsenos. Tačiau šie laukai bus automatiškai nustatomi registruojant operacijas. Kartu su laukais, kurie rodomi atsargų **operacijų** puslapyje, šiame "FastTab" yra papildomi laukai, kurie aprašomi vėliau šiame straipsnyje. |
 | Registravimas DK | Šiame "FastTab" rodomas registravimo tipas ir DK sąskaita, naudojami faktiniam atnaujinimų, finansinio atnaujinimo, faktinių įplaukų, faktinių išlaidų, finansinių įplaukų ir finansinių išlaidų, susijusių su pasirinkta atsargų operacija, metu. |
 | Nuorodos | Šioje "FastTab" rodoma papildoma informacija apie šaltinio operaciją, sukūrusią pasirinktą atsargų operaciją. Pavyzdžiui, ši informacija gali apimti pirkimo ar pardavimo užsakymo duomenis. |
 | Susijusi informacija | Šioje "FastTab" rodoma papildoma informacija apie pasirinktas atsargų operacijas. Šie laukai gali būti nustatyti, jei nenaudojate kai kurių funkcijų, pvz., įsigijimo kategorijų ar projektų. |

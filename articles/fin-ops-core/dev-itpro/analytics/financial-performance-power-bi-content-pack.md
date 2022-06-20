@@ -1,6 +1,6 @@
 ---
 title: Finansinio našumo „PowerBI.com“ turinys
-description: Šioje temoje aprašytas „PowerBI.com‟ sprendimas Finansinis našumas.
+description: Šiame straipsnyje aprašomas finansinės veiklos PowerBI.com sprendimas.
 author: kweekley
 ms.date: 05/09/2018
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1ca8338473b2efd91b6570e140ee1def3fa93df14dcf57273f601efb7f548d08
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fcbe41d113ee41734020546388851afb7fc27bbf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767808"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910421"
 ---
 # <a name="financial-performance-powerbicom-solution"></a>Finansinio našumo „PowerBI.com“ turinys
 
@@ -28,7 +28,7 @@ ms.locfileid: "6767808"
 > [!NOTE]
 > „PowerBI.com“ sprendimas buvo uždraustas, kaip dokumentuota [„Finance and Operations“ pašalintos arba uždraustos funkcijos](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
 
-Šioje temoje aprašytas „PowerBI.com‟ sprendimas **Finansinis našumas**. Joje aprašoma ataskaitų sritis ir į turinį įtrauktos ataskaitos ir pateikiama informacija apie duomenų modelį ir objektus, naudotus sprendimui kurti.
+Šiame straipsnyje aprašomas **finansinės veiklos** PowerBI.com sprendimas. Joje aprašoma ataskaitų sritis ir į turinį įtrauktos ataskaitos ir pateikiama informacija apie duomenų modelį ir objektus, naudotus sprendimui kurti.
 
 ## <a name="main-account-setup"></a>Pagrindinių sąskaitų sąranka
 Kadangi organizacijos nori, jog įsipareigojimai ir įplaukų sumos ataskaitose būtų rodomos kaip teigiamos sumos, svarbu nustatyti pagrindines sąskaitas. Tam, kad šios pagrindinės sąskaitos būtų rodomos kaip teigiamos sumos, turi būti nustatytas pagrindinės sąskaitos tipas **Įsipareigojimas** arba **Įplaukos**. Kai naudojami šie sąskaitų tipai, ataskaitas teikiant per „Power BI“ ženklai pakeičiami ir rodomos teigiamos sumos.

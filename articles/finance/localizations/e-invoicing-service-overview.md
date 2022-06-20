@@ -1,6 +1,6 @@
 ---
 title: Elektroninių SF išrašymo priedo apžvalga
-description: Šioje temoje pateikta "Microsoft" ir "Microsoft" elektroninių SF išrašymo Dynamics 365 Finance apžvalga Dynamics 365 Supply Chain Management.
+description: Šiame straipsnyje pateikta elektroninių SF išrašymo " Microsoft Dynamics 365 Finance" ir "Dynamics 365 Supply Chain Management.
 author: gionoder
 ms.date: 01/21/2022
 ms.topic: overview
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 23a98706bc2ab0abc2c72e9f20d8e8fbff56b2b9
-ms.sourcegitcommit: ffdb6794746ffe5461f9dcf34ed8e64976d22d2d
+ms.openlocfilehash: 4ce5776216855fc664b9beba68036d41920ae602
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "8371459"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861302"
 ---
 # <a name="electronic-invoicing-overview"></a>Elektroninių SF išrašymo priedo apžvalga
 
 [!include [banner](../includes/banner.md)]
 
-Elektroninių SF išrašymas "Microsoft Dynamics 365 Finance Dynamics 365 Supply Chain Management " ir yra hyper dydžio kelių likučių paslauga, leidžianti konfigūruoti elektroninių SF apdorojimą ir konfigūruojamus elektroninių dokumentų mainus. Apdorojimo ir integravimo taisyklės yra visiškai konfigūruojamos, o logika vykdoma už „Finance” ir „Supply Chain Management” ribų. Paslauga skirta daugiausia elektroninių SF dokumentų apdorojimui verslo valdymo scenarijuose. Tačiau jis gali būti konfigūruojamas pasirinktinai kitiems tikslams, pvz., "verslas verslui" skirtingo tipo dokumentams.
+Elektroninių SF išrašymas Microsoft Dynamics 365 Dynamics 365 Supply Chain Management finansams ir yra hyper-scalable multitenant paslauga, kuri įgalina konfigūruojamą elektroninių SF apdorojimą ir konfigūruojamus elektroninių dokumentų mainus. Apdorojimo ir integravimo taisyklės yra visiškai konfigūruojamos, o logika vykdoma už „Finance” ir „Supply Chain Management” ribų. Paslauga skirta daugiausia elektroninių SF dokumentų apdorojimui verslo valdymo scenarijuose. Tačiau jis gali būti konfigūruojamas pasirinktinai kitiems tikslams, pvz., "verslas verslui" skirtingo tipo dokumentams.
 
 Elektroninių SF išrašymo priedas gali padėti pasiekti toliau nurodytus tikslus:
 

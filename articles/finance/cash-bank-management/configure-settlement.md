@@ -1,6 +1,6 @@
 ---
 title: Sudengimo konfigūravimas
-description: Tai, kaip ir kada operacijos sudengiamos, gali būti sudėtinga, todėl labai svarbu, kad suprastumėte ir tinkamai nustatytumėte parametrus, kad jie atitiktų jūsų verslo poreikius. Šioje temoje aprašyti parametrai, kurie naudojami mokėtinoms sumoms ir gautinoms sumoms sudengti.
+description: Tai, kaip ir kada operacijos sudengiamos, gali būti sudėtinga, todėl labai svarbu, kad suprastumėte ir tinkamai nustatytumėte parametrus, kad jie atitiktų jūsų verslo poreikius. Šiame straipsnyje aprašyti parametrai, kurie naudojami Mokėtinoms sumoms ir Gautinoms sumoms sudengti.
 author: kweekley
 ms.date: 05/16/2018
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 978c99ddd3e56e6699ab128a154a5594685d5956
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 14ed2999a9ad8ffc64815ca3f8b1556aad27ae48
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8712499"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910206"
 ---
 # <a name="configure-settlement"></a>Sudengimo konfigūravimas
 
 [!include [banner](../includes/banner.md)]
 
-Tai, kaip ir kada operacijos sudengiamos, gali būti sudėtinga, todėl labai svarbu, kad suprastumėte ir tinkamai nustatytumėte parametrus, kad jie atitiktų jūsų verslo poreikius. Šioje temoje aprašyti parametrai, kurie naudojami mokėtinoms sumoms ir gautinoms sumoms sudengti. 
+Tai, kaip ir kada operacijos sudengiamos, gali būti sudėtinga, todėl labai svarbu, kad suprastumėte ir tinkamai nustatytumėte parametrus, kad jie atitiktų jūsų verslo poreikius. Šiame straipsnyje aprašyti parametrai, kurie naudojami Mokėtinoms sumoms ir Gautinoms sumoms sudengti. 
 
 Šie parametrai paveikia tai, kaip sudengami Microsoft Dynamics 365 finansai. Sudengimas yra procesas, kurio metu SF sudengiama su mokėjimu arba kredito pažyma. Šie parametrai yra srityje **Sudengimas** puslapiuose **Gautinų sumų parametrai** ir **Mokėtinų sumų parametrai**.
 

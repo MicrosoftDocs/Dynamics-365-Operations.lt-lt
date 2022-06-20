@@ -1,6 +1,6 @@
 ---
 title: Kas nauja ar pasikeitė sistemoje „Dynamics 365 Human Resources“ (2020 m. spalio 6 d.)
-description: Šioje temoje aprašomos naujos arba pasikeitusios „Microsoft Dynamics 365 Human Resources” funkcijos 2020 m. spalio 6 d.
+description: Šiame straipsnyje aprašomos priemonės, kurios yra naujos arba pakeistos Microsoft Dynamics 365 Human Resources 2020 m. spalio 6 d.
 author: jcart1106
 ms.date: 10/06/2020
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ac64218e48d2713b91af1541f94083aef3f815a2
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 4eb3e893c3243d3b2c169cb5a47001d4e0771a20
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062984"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887724"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-october-6-2020"></a>Kas nauja ar pasikeitė sistemoje „Dynamics 365 Human Resources“ (2020 m. spalio 6 d.)
 
@@ -27,7 +27,7 @@ ms.locfileid: "8062984"
 
 
 
-Šioje temoje aprašomos naujos, pasikeitusios ar netrukus pasirodysiančios „Dynamics 365 Human Resources“ funkcijos. Daugiau informacijos apie mūsų atnaujinimo procesą ir grafiką žr. [Atnaujinimo procesas](hr-admin-setup-update-process.md).
+Šiame straipsnyje aprašomos priemonės, kurios yra naujos, pakeistos arba tuoj pat Dynamics 365 Human Resources. Daugiau informacijos apie mūsų atnaujinimo procesą ir grafiką žr. [Atnaujinimo procesas](hr-admin-setup-update-process.md).
 
 Daugiau informacijos apie naujas funkcijas ir jų numatomas bendro pasiekiamumo datas žr. [„Dynamics 365 Human Resources” 2020 m. 2-os leidimo bangos apžvalga](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/).
 
@@ -48,9 +48,9 @@ Daugiau informacijos apie naujas funkcijas ir jų numatomas bendro pasiekiamumo 
 Toliau nurodyti klaidų ištaisymai įtraukti į šį leidimą.
 
 >[!NOTE]
-> Siekiame kuo greičiau pateikti jums šią informaciją. Gali būti šios temos naujinimų siekiant įtraukti klaidų ištaisymus, įtrauktus į komponavimo versiją publikavus šią temą.
+> Siekiame kuo greičiau pateikti jums šią informaciją. Gali būti šio straipsnio naujinimų, kad būtų klaidos pataisų, kurios buvo įtrauktos į versiją po to, kai buvo publikuotas šis straipsnis.
 
-| Problemos numeris | Problema | Aprašas |
+| Problemos numeris | Problema | Aprašymas |
 | --- | --- | --- |
 | 448806 | **Numatytasis identifikavimo tipas** eksportuojamas kaip **RecID** HCM parametruose | Šis „Human Resources” parametrų objekto pakeitimas įtraukia papildomą stulpelį, kuriame rodomas **Numatytasis identifikavimo tipas**. |
 | 492923 | Užduočių įrašai neįrašomi „Lifecycle Services” (LCS) | Užduočių įrašus dabar galima įrašyti LCS. |

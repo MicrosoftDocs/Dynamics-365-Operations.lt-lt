@@ -1,6 +1,6 @@
 ---
 title: Mažų siuntinių siuntimas
-description: Šioje temoje pateikiama informacija apie mažų siuntinių siuntimo (angl. SPS) funkciją. Ši funkcija leidžia „Microsoft Dynamics 365 Supply Chain Management” pateikti informaciją apie supakuotą konteinerį vežėjui ir gauti siuntimo žymę, siuntimo įkainį ir vežėjo pateiktą sekimo numerį.
+description: Šiame straipsnyje pateikiama informacija apie smulkiųjų siuntų siuntimo (SPS) funkciją. Ši funkcija leidžia „Microsoft Dynamics 365 Supply Chain Management” pateikti informaciją apie supakuotą konteinerį vežėjui ir gauti siuntimo žymę, siuntimo įkainį ir vežėjo pateiktą sekimo numerį.
 author: Mirzaab
 ms.date: 01/08/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-08
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: e8e2bda39b9de241d17fcf3cb9acce2b8015efd2
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 7bafd4a5118de5ca6025c6bd74fe436aa6abd1c8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8687622"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855909"
 ---
 # <a name="small-parcel-shipping"></a>Mažų siuntinių siuntimas
 
@@ -54,7 +54,7 @@ Norėdami gauti demonstracinę tarifų mechanizmo versiją, atlikite šiuos veik
 
 #### <a name="create-and-deploy-functional-rate-engines"></a>Funkcinių tarifų mechanizmų kūrimas ir diegimas
 
-Informacijos apie tai, kaip sukurti ir įdiegti funkcinių tarifų mechanizmus, kad juos būtų galima naudoti gamybos arba tikrinimo aplinkoje, ieškokite šiose temose:
+Informacijos apie tai, kaip sukurti ir įdiegti funkcinių tarifų sistemą taip, kad juos būtų galima naudoti gamybos arba tikrinimo aplinkoje, ieškokite šiame straipsnius:
 
 - [Naujo transportavimo valdymo mechanizmo kūrimas](../transportation/create-new-transportation-management-engine.md)
 - [Transportavimo valdymo mechanizmų konfigūravimas](/dynamicsax-2012/appuser-itpro/set-up-transportation-management-engines)
@@ -77,7 +77,7 @@ Sukūrę ir įdiegę SPS tarifų mechanizmą, atlikite šiuos veiksmus, norėdam
 
 ## <a name="example-scenario"></a>Pavyzdinis scenarijus
 
-Šis pavyzdys rodo, kaip nustatyti ir naudoti SPS, kai jau paruošėte savo sistemą, kaip aprašyta anksčiau šioje temoje. Šiame scenarijuje naudojamas anksčiau minėta demonstracinės tarifo mechanizmo versija.
+Šiame pavyzdyje scenarijus rodo, kaip nustatyti ir naudoti SPS, kai jau paruošėte savo sistemą, kaip aprašyta anksčiau šiame straipsnyje. Šiame scenarijuje naudojamas anksčiau minėta demonstracinės tarifo mechanizmo versija.
 
 ### <a name="make-demo-data-available"></a>Demonstracinių duomenų įgalinimas
 
@@ -147,7 +147,7 @@ Atlikite šiuos veiksmus, kad sukonfigūruotumėte vežėjo paslaugos sąskaitą
 
 Norėdami nustatyti konteinerio pakavimo strategiją, atlikite toliau nurodytus veiksmus.
 
-1. Jei dar nenustatėte ZPL spausdintuvo apibrėžimo, norėdami jį nustatyti, naudokite Dokumento maršruto agento programą. Daugiau informacijos žr. [Dokumentų spausdinimo apžvalga](../../fin-ops-core/dev-itpro/analytics/print-documents.md) ir susijusiose temose.
+1. Jei dar nenustatėte ZPL spausdintuvo apibrėžimo, norėdami jį nustatyti, naudokite Dokumento maršruto agento programą. Daugiau informacijos ieškokite dokumentų spausdinimo [peržiūra ir](../../fin-ops-core/dev-itpro/analytics/print-documents.md) susiję straipsniai.
 1. Eikite į **Sandėlio tvarkymas \> Sąranka \> Konteineriai \> Konteinerių pakavimo strategijos**.
 1. Veiksmų srityje pasirinkite **Nauja**, kad pridėtumėte konteinerio pakavimo strategiją.
 1. Naujosios strategijos antraštėje, nustatykite šias vertes:

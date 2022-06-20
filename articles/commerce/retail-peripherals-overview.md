@@ -1,6 +1,6 @@
 ---
-title: Išoriniai įrenginiai
-description: Šioje temoje pateikiama informacija apie sąvokas, susijusias su išoriniais įrenginiais, esančiais „Commerce“.
+title: Išorinis įrenginys
+description: Šiame straipsnyje paaiškinamos su "Commerce Peripherals" susijusios koncepcijos.
 author: BrianShook
 ms.date: 03/01/2022
 ms.topic: article
@@ -12,18 +12,18 @@ ms.custom:
 ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 76ce17777a2d13b46e5faed96dbde5e0d93782eb
-ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
+ms.openlocfilehash: 641b45390477c8c5e6239709f7c91887a403fbaf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "8462246"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880086"
 ---
 # <a name="peripherals"></a>Išorinis įrenginys
 
 [!include[banner](includes/banner.md)]
 
-Šioje temoje pateikiama informacija apie sąvokas, susijusias su išoriniais įrenginiais, esančiais parduotuvėje. Joje apibūdinti įvairūs būdai, kaip išorinius įrenginius galima prijungti prie elektroninio kasos aparato (EKA), ir komponentai, skirti valdyti ryšį su EKA.
+Šiame straipsnyje paaiškinamos koncepcijos, susijusios su išoriniais parduotuvės įrenginiais. Joje apibūdinti įvairūs būdai, kaip išorinius įrenginius galima prijungti prie elektroninio kasos aparato (EKA), ir komponentai, skirti valdyti ryšį su EKA.
 
 ## <a name="concepts"></a>Koncepcijos
 
@@ -55,7 +55,7 @@ Naršymas: eikite į "**Retail" ir "Commerce Channel \>" nustatymo \> EKA nustat
 
 ### <a name="pos-peripherals"></a>Išoriniai EKA įrenginiai
 
-Išoriniai EKA įrenginiai yra tokie įrenginiai, kurie tiesiogiai palaiko EKA funkcijas. Šie išoriniai įrenginiai paprastai dalijami į tam tikras klases. Daugiau informacijos apie šias klases žr. šios temos skyriuje „Įrenginių klasės“.
+Išoriniai EKA įrenginiai yra tokie įrenginiai, kurie tiesiogiai palaiko EKA funkcijas. Šie išoriniai įrenginiai paprastai dalijami į tam tikras klases. Daugiau informacijos apie šias klases ieškokite šio straipsnio skyriuje "Įrenginio klasės".
 
 ### <a name="hardware-station"></a>Aparatūros stotis
 
@@ -213,8 +213,8 @@ Daugiau informacijos žr. [Programos „POS hybrid” nustatymas, skirtas „And
 
 Išsamesnės informacijos apie OEKA komponentus žr. šio dokumento skyrių „Palaikomos sąsajos". Paprastai OEKA tvarkykles pateikia įrenginio gamintojas. Kai įdiegiama OEKA įrenginio tvarkyklė, į „Windows“ registrą įtraukiamas raktas vienoje iš šių vietų:
 
--   **32 bitų sistema:** HKEYLOCALMACHINE\_\_\SOFTWARE\OLEforRetail\ServiceOPOS
--   **64 bitų sistema:** HKEYLOCALMACHINE\_\_\SOFTWARE\ŠIN6432Node\OLEforRetail\ServiceOPOS
+-   **32 bitų sistema:** HKEY VIETINĖ\_\_ MAŠINA\PROGRAMINĖ ĮRANGA\OLEforRetail\ServiceOPOS
+-   **64 bitų sistema:** HKEY VIETINĖ\_\_ MAŠINA\SOFTWARE\PV6432Node\OLEforRetail\ServiceOPOS
 
 Registro vietoje „ServiceOPOS“ sukonfigūruoti įrenginiai išdėstomi pagal OEKA įrenginio klasę. Išsaugomos kelios įrenginių tvarkyklės.
 

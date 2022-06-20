@@ -1,6 +1,6 @@
 ---
 title: Derinimo datos scenarijai
-description: Šioje temoje pateikiami pavyzdžiai, kurie parodo, kaip veikia lygiavimo datos abonementinio sąskaitų pateikimo metu.
+description: Šiame straipsnyje pateikiami pavyzdžiai, kurie parodo, kaip veikia lygiavimo datos dalyje Abonemento sąskaitos išrašymas.
 author: JodiChristiansen
 ms.date: 11/04/2021
 ms.topic: article
@@ -14,16 +14,16 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: 91480fecd16cf8417722df73c28bbd81d029fb07
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 102e3a104be5be287f914172160e95aff65d0b18
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8690479"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872621"
 ---
 # <a name="alignment-date-scenarios"></a>Derinimo datos scenarijai
 
-Šioje temoje pateikiami pavyzdžiai, kurie parodo, kaip veikia lygiavimo datos abonementinio sąskaitų pateikimo metu.
+Šiame straipsnyje pateikiami pavyzdžiai, kurie parodo, kaip veikia lygiavimo datos dalyje Abonemento sąskaitos išrašymas.
 
 Šiuose pavyzdžiuose informacijos apie atsiskaitymo grafiką data yra 2019 m. spalio 31 d. Pirmoji eilutės atsiskaitymo informacija baigiasi 2019 m. spalio 31 d. ir yra atitinkamai pateikiama. Eilutė bus automatiškai atnaujinta naudojant lapkričio 11 d. atnaujinimo pradžios datą.
 

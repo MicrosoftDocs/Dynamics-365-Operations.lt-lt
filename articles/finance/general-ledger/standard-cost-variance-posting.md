@@ -1,6 +1,6 @@
 ---
 title: Standartinių išlaidų nuokrypio registravimas
-description: Šioje temoje pateikiama informacija apie standartinės įkainojimo registravimo šablonų nustatymą.
+description: Šiame straipsnyje pateikiama informacija apie standartinių įkainojimo registravimo šablonų nustatymą.
 author: rachelprofitt
 ms.date: 04/25/2022
 ms.topic: overview
@@ -10,16 +10,16 @@ ms.search.form: InventPosting, InventItemGroup
 audience: Application User
 ms.search.region: Global
 ms.author: raprofit
-ms.openlocfilehash: bc4f1bd7c1bf7a8f214f20460b10d371d8f3c790
-ms.sourcegitcommit: 1ea145dc606e243c7f51d91a5c0dd9e385bbda4a
+ms.openlocfilehash: e7b2d04f32b75dbd1354b3ef74a41ea1b6469c8a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "8804643"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894883"
 ---
 # <a name="standard-cost-variance-posting"></a>Standartinių išlaidų nuokrypio registravimas
 
-Kai savo organizacijoje naudojate standartinį vieno ar daugiau produktų įkainojimo kaštus, turite [sukonfigūruoti būtinas standartinio įkainojimo sąlygas](/supply-chain/cost-management/prerequisites-standard-costs.md). Šioje temoje paaiškinamos registravimo sąskaitos, kurių reikia 3 iš būtinųjų komponentų žingsniui, "Priskirkite DK sąskaitas prekių registravimui, kurie yra susiję su standartinės savikainos nuokrypiais".
+Kai savo organizacijoje naudojate standartinį vieno ar daugiau produktų įkainojimo kaštus, turite [sukonfigūruoti būtinas standartinio įkainojimo sąlygas](/supply-chain/cost-management/prerequisites-standard-costs.md). Šiame straipsnyje paaiškinamos registravimo sąskaitos, kurių reikia dėl 3 būtinųjų komponentų veiksmo, "Priskirkite DK sąskaitas prekių registravimui, kurie yra susiję su standartinės savikainos nuokrypiais".
 
 Gali atsirasti skirtingų tipų pirkimo ir gamybos užsakymų nuokrypiai. Gamybos nuokrypių pavyzdžių ieškokite bendrieji [gamybos nuokrypių šaltiniai](/supply-chain/cost-management/common-sources-of-production-variances.md). Pirkimo užsakymo kainų nuokrypiai atsiranda, kai įsigytai prekei naudojate standartinę savikainą, o pirkimo užsakyme yra skirtumas tarp produkto standartinės savikainos ir sumos, už kurią išrašyta SF.
 

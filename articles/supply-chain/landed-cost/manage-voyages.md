@@ -1,6 +1,6 @@
 ---
 title: Reisų valdymas
-description: Ši tema aprašo, kaip dirbti su reisais. Reisas paprastai nurodo laivą. Tačiau, atsižvelgiant į jūsų praktiką ir procedūras, jis gali nurodyti tiekėją, pirkimo užsakymą arba kitą jūsų organizacijai tinkamą prekę.
+description: Šiame straipsnyje aprašoma, kaip dirbti su reisais. Reisas paprastai nurodo laivą. Tačiau, atsižvelgiant į jūsų praktiką ir procedūras, jis gali nurodyti tiekėją, pirkimo užsakymą arba kitą jūsų organizacijai tinkamą prekę.
 author: Weijiesa
 ms.date: 12/14/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 7d85ef86351f5d6ac662bb72c88d464fba82f561
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 43f28a7e30dbbe15bb02d26483289f25515fcfca
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8696172"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8905869"
 ---
 # <a name="manage-voyages"></a>Reisų valdymas
 
@@ -96,7 +96,7 @@ Norėdami atidaryti rodinį **Eilutės**, atidarykite reisą ir reiso antraštė
 
 ### <a name="information-on-the-voyage-header-fasttab"></a>Informacija, esanti „FastTab” Reiso antraštė
 
-Reiso rodinio **Eilutės** „FastTab” **Reiso antraštė** apima pagrindinę informaciją, apibūdinančią reisą. Daugelis laukų, rodomų šiame „FastTab”, taip pat rodomi rodinyje **Antraštė**, kaip toliau aprašyta šioje temoje.
+Reiso rodinio **Eilutės** „FastTab” **Reiso antraštė** apima pagrindinę informaciją, apibūdinančią reisą. Daug laukų, kurie rodomi šiame "FastTab", taip pat **rodomi antraštės rodinyje**, kaip toliau aprašyta šiame straipsnyje.
 
 ### <a name="information-on-the-voyage-lines-fasttab"></a>Informacija, esanti „FastTab” Reiso eilutės
 

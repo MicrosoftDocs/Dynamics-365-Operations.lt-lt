@@ -1,6 +1,6 @@
 ---
 title: Pradėkite darbą su Visuotine atsargų apskaita
-description: Šioje temoje aprašoma, kaip pradėti darbą su Visuotine atsargų apskaita.
+description: Šiame straipsnyje aprašoma, kaip pradėti nuo visuotinės atsargų apskaitos.
 author: JennySong-SH
 ms.date: 06/18/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yanansong
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 17d4816fc5fcad0b0665640a8347b1f4ea032dd7
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
-ms.translationtype: MT
+ms.openlocfilehash: 493e0be8ab56abc2a3253876107b7f4fefabf4ad
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8679449"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8891095"
 ---
 # <a name="get-started-with-global-inventory-accounting"></a>Pradėkite darbą su Visuotine atsargų apskaita
 
@@ -38,12 +38,18 @@ Visuotinė atsargų apskaita yra papildinys. Turite ją įdiegti iš „Microsof
 
 Visuotinė atsargų apskaita šiuo metu nepalaiko visų išlaidų valdymo priemonių, kurios yra įtrauktos į „Supply Chain Management”. Todėl svarbu, kad įvertintumėte, ar funkcijų rinkinys, kurį šiuo metu galima naudoti, atitiks jūsų reikalavimus.
 
-## <a name="how-to-get-the-global-inventory-accounting-public-preview"></a><a name="sign-up"></a>Kaip gauti Visuotinės atsargų apskaitos viešąją peržiūros versija
+## <a name="how-to-get-the-global-inventory-accounting-add-in"></a><a name="sign-up"></a> Kaip gauti visuotinių atsargų apskaitos priedą
 
 > [!IMPORTANT]
 > Norėdami naudoti Visuotinę atsargų apskaitą, privalote turėti LCS įgalintą didelio užimtumo aplinką (ne „OneBox” aplinką). Be to, turite paleisti 10.0.19 ar vėlesnę „Supply Chain Management” versiją.
 
-Norėdami užsiregistruoti Visuotinės atsargų apskaitos viešajai peržiūros versijai, atsiųskite savo LCS aplinkos ID el. paštu [Visuotinės atsargų apskaitos komandai](mailto:GlobalInvAccount@microsoft.com). Kai būsite patvirtinti programai, komanda išsiųs el. laišką, kuriame bus Visuotinės atsargų apskaitos beta raktas ir jūsų paslaugų galiniai punktai. Gavę beta raktą, galite [įdiegti papildinį](#install).
+### <a name="supply-chain-management-version-10019-to-10026"></a>Tiekimo grandinės valdymo versija nuo 10.0.19 iki 10.0.26
+
+Norėdami įdiegti tiekimo grandinės valdymo versiją nuo 10.0.19 iki 10.0.26 visuotinę atsargų apskaitą, [pradėkite diegti priedą](#install). Tada LCS aplinkos ID ir įmonės pavadinimą siųskite el. paštu visuotinės [atsargų apskaitos komandai](mailto:GlobalInvAccount@microsoft.com). Komanda išsiųs jums tolesnės informacijos el. laišką, kuriame yra jūsų visuotinių atsargų apskaitos paslaugų galiniai punktai.
+
+### <a name="supply-chain-management-version-10027-and-later"></a>Tiekimo grandinės valdymo versija 10.0.27 ir vėlesnė
+
+Norėdami įdiegti tiekimo grandinės valdymo 10.0.27 ir naujesnės versijos visuotinę atsargų apskaitą, [tiesiog įdiekite priedą](#install). Šiose tiekimo grandinės valdymo versijose visuotiniai atsargų apskaitos tarnybos galiniai punktai bus nustatyti automatiškai, todėl jų reikės rasti rankiniu būdu. Jei nustatydami papildinį patiriate kokių nors problemų, kreipkitės į visuotinės [atsargų apskaitos komandą](mailto:GlobalInvAccount@microsoft.com).
 
 ## <a name="licensing"></a>Licencijavimas
 
@@ -84,7 +90,7 @@ Tada sukurkite programos vartotojus Visuotinei atsargų apskaitai „Dataverse�
 1. Eikite į **Išplėstiniai nustatymai \> Sistema \> Sauga \> Naudotojai** ir sukurkite programos naudotoją. Naudokite lauką **Peržiūrėti**, kad pakeistumėte puslapio rodinį į *Programos naudotojai*.
 1. Pasirinkite **Naujas**.
 1. Nustatykite lauką **Programos ID** į *7a1dd80f-c961-4a67-a2f5-d6a5d2f52cf9*.
-1. Pasirinkite **Priskirti vaidmenį**, tada pasirinkite *Sistemos administratorius*. Jei yra vaidmuo pavadinimu *„Common Data Service“ naudotojas*, pasirinkite ir jį.
+1. Pasirinkite **Priskirti vaidmenį**, tada pasirinkite *Sistemos administratorius*. Jei yra vaidmuo, kuris vadinamas Vartotojas *Common Data Service*, pasirinkite jį taip pat.
 1. Pakartokite ankstesnius veiksmus, tačiau nustatykite **Programos ID** lauką kaip *„5f58fc56-0202-49a8-ac9e-0946b049718b”*.
 
 Daugiau informacijos žr. skyriuje [Programos naudotojo kūrimas](/power-platform/admin/create-users-assign-online-security-roles#create-an-application-user).
@@ -98,12 +104,7 @@ Jei numatytoji „Dataverse” diegimo kalba nėra anglų, atlikite šiuos veiks
 
 Atlikite šiuos veiksmus, kad įdiegtumėte priedą, skirtą Visuotinės atsargų apskaitos naudojimui.
 
-1. [Prisiregistruokite](#sign-up) prie Visuotinės atsargų apskaitos viešosios peržiūros versijos.
 1. Prisijunkite prie [LCS](https://lcs.dynamics.com/Logon/Index).
-1. Eikite į **Peržiūros funkcijų valdymas**.
-1. Pasirinkite pliuso ženklą (**+**).
-1. Lauke **Kodas** įveskite jūsų Visuotinės atsargų apskaitos beta raktą. (Turėjote gauti beta raktą el. paštu, kai užsiregistravote.)
-1. Pasirinkite **Atblokuoti**.
 1. Atidarykite LCS aplinką, į kurią norite įtraukti paslaugą.
 1. Eikite į **Išsami informacija**.
 1. Eikite į **„Power Platform” integravimas** ir pasirinkite **Nustatymas**.
@@ -124,6 +125,8 @@ Norėdami nustatyti integravimą tarp Visuotinės atsargų apskaitos ir „Suppl
 1. Skirtuke **Visi** ieškokite priemonės, kuri pavadinta *(Peržiūra) Visuotinių atsargų apskaita*.
 1. Pasirinkite **Įjungti dabar**.
 1. Eikite į **Visuotinė atsargų apskaita \> Nustatymas \> Visuotinės atsargų apskaitos parametrai \> Integravimo parametrai**.
-1. Laukuose **Duomenų paslaugos galinis punktas** ir **Visuotinės atsargų apskaitos galinis punktas** įveskite URL iš el. laiško, kurį jums atsiuntė Visuotinės atsargų apskaitos komanda, kai užsiregistravote peržiūros versijai.
+1. Atsižvelgdami į tai, kokią tiekimo grandinės valdymo versiją naudojate, atlikite vieną iš šių veiksmų:
+    - **Tiekimo grandinės valdymo 10.0.19 versija 10.0.26**: **·** **duomenų** paslaugos galinio punkto ir visuotinių atsargų apskaitos galinio punkto laukuose įveskite URL, kurie buvo išsiųsti el. paštu iš visuotinės atsargų apskaitos komandos ([taip](#sign-up) pat žr. kaip gauti visuotinių atsargų apskaitos priedą).
+    - **Tiekimo grandinės valdymo versija 10.0.27** ir naujesnė versija: jums nereikia įvesti galinių punktų, todėl galite praleisti šį veiksmą.
 
 Visuotinė atsargų apskaita dabar yra parengta naudoti.

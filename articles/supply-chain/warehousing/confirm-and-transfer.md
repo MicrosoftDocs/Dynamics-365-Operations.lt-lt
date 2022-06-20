@@ -1,6 +1,6 @@
 ---
 title: Tvirtinimas ir perkėlimas
-description: Šioje temoje paaiškinama, kaip naudoti patvirtinimo ir perkėlimo funkciją, leidžiančią vartotojams išsiųsti iš sandėlio krovinius prieš baigiant visus su šiais kroviniais susijusius darbus.
+description: Šiame straipsnyje paaiškinama, kaip naudoti patvirtinimo ir perkėlimo funkciją, kuri leidžia vartotojams siųsti krovinius iš sandėlio prieš jiems pabaigant visą su šiais kroviniais susijusį darbą.
 author: Mirzaab
 ms.date: 07/01/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 0d34dd1b33467aa1ea3a723e1baaf7f06285c3fa
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 9257d8f9e6ed62ac0b19b0cdc8fd858e8b2f97a3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8675493"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8900570"
 ---
 # <a name="confirm-and-transfer"></a>Tvirtinimas ir perkėlimas
 
@@ -55,11 +55,11 @@ Galite skaidyti tik tuos krovinius, kurie atitinka visus šiuos kriterijus:
 
 ## <a name="turn-the-confirm-and-transfer-feature-on-or-off"></a>Patvirtinimo ir perkėlimo funkcijos išjungimas
 
-Norint naudotis šioje temoje aprašytomis funkcijomis, *jūsų* sistemoje turi būti įjungta patvirtinimo ir perkėlimo funkcija. Kaip ir tiekimo grandinės valdymas 10.0.25 ši funkcija yra privaloma ir jos išjungti negalima. Jei naudojate senesnę nei 10.0.25 versiją, *·*[tada](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) administratoriai gali įjungti arba išjungti šią funkciją ieškodami funkcijų valdymo darbo srityje funkcijos Patvirtinti ir perkelti.
+Norint naudoti šiame straipsnyje aprašytas funkcijas, *jūsų sistemai* reikia įjungti patvirtinimo ir perkėlimo funkciją. Kaip ir tiekimo grandinės valdymas 10.0.25 ši funkcija yra privaloma ir jos išjungti negalima. Jei naudojate senesnę nei 10.0.25 versiją, *·*[tada](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) administratoriai gali įjungti arba išjungti šią funkciją ieškodami funkcijų valdymo darbo srityje funkcijos Patvirtinti ir perkelti.
 
 ## <a name="set-up-confirm-and-transfer"></a>Nustatyti patvirtinti ir perkelti
 
-Norėdami naudoti *Patvirtinti ir perkelti* funkciją, turite ją įjungti visuose susijusiuose krovinio šablonuose. Be to, atsižvelgdami į savo reikalavimus, galite tekti paruošti darbo šablonus, kad funkcija veiktų. Jei norite dirbti su pavyzdiniu scenarijumi, pateiktu šioje temoje, nustatykite sistemą, kaip aprašyta šiame skyriuje. (Šis scenarijus paremtas **USMF** parodomosios versijos duomenimis.)
+Norėdami naudoti *Patvirtinti ir perkelti* funkciją, turite ją įjungti visuose susijusiuose krovinio šablonuose. Be to, atsižvelgdami į savo reikalavimus, galite tekti paruošti darbo šablonus, kad funkcija veiktų. Jei norite naudoti toliau šiame straipsnyje pateiktą pavyzdį, nustatykite savo sistemą taip, kaip aprašyta šiame skyriuje. (Šis scenarijus paremtas **USMF** parodomosios versijos duomenimis.)
 
 ### <a name="prepare-your-load-templates"></a>Paruoškite savo krovinio šablonus
 
@@ -69,7 +69,7 @@ Norėdami naudoti *Patvirtinti ir perkelti* funkciją, turite ją įjungti visuo
 
 ### <a name="prepare-your-work-templates"></a>Paruoškite savo darbo šablonus
 
-Šis parametras nebūtinas visose situacijose. Čia rodomas pavyzdys užtikrina, kad darbas gali būti suskirstytas pagal siuntą, kad veiktų vėliau šioje temoje pateikiamas pavyzdys. Taip pat yra ir kitų būdų pasiekti šį rezultatą.
+Šis parametras nebūtinas visose situacijose. Čia rodomas pavyzdys užtikrina, kad darbas gali būti suskaidytas pagal siuntą, kad būtų galima naudoti pavyzdį, kuris pateikiamas toliau šiame straipsnyje. Taip pat yra ir kitų būdų pasiekti šį rezultatą.
 
 1. Eikite į **Sandėlio valdymas \> Sąranka \> Darbas \> Darbo šablonai**.
 1. Viršutinėje puslapio dalyje esančiame tinklelyje pasirinkite esamą darbo šabloną, kuriame norite nustatyti *Patvirtinti ir perkelti* funkciją. (Jei dirbate su **USMF** parodomosios versijos duomenimis pasirinkite **51 paėmimo etapas** darbo šabloną.) Arba sukurkite naują darbo šabloną.

@@ -1,6 +1,6 @@
 ---
 title: Avanso turėtojų apžvalga
-description: Šioje temoje pateikiama informacija avanso turėtojo funkciją.
+description: Šiame straipsnyje pateikiama informacija apie išankstinio savininko funkcijas.
 author: liza-golub
 ms.date: 09/15/2021
 ms.topic: overview
@@ -16,12 +16,12 @@ ms.search.region: Czech Republic, Estonia, Hungary, Latvia, Lithuania, Poland, R
 ms.author: elgolu
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: ed09542e3f369a079c60c17a02f4d08c9f8a9e99
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 7b514b7332a7ef73136c2f534c64db7c889f76f0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984951"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8902368"
 ---
 # <a name="advance-holders-overview"></a>Avanso turėtojų apžvalga
 

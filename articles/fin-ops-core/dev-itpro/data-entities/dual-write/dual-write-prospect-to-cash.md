@@ -1,6 +1,6 @@
 ---
 title: Potencialių klientų pavertimas grynaisiais pinigais dvigubo rašymo funkcijoje
-description: Šioje temoje pateikiama informacija apie potencialų klientą pavertimą grynaisiais pinigais dvigubo rašymo funkcijoje.
+description: Šiame straipsnyje pateikta informacija apie dvigubo rašymo potencialų klientą ir grynuosius pinigus.
 author: RamaKrishnamoorthy
 ms.date: 01/07/2021
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: 7c53bcd1084d89b59d0f6b2674a85d7c3481a9bf
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: f0d5339190f7e2aff7b084fa73e559af28e10ee8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7781796"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860115"
 ---
 # <a name="prospect-to-cash-in-dual-write"></a>Potencialių klientų pavertimas grynaisiais pinigais dvigubo rašymo funkcijoje
 
@@ -29,7 +29,7 @@ Programos sąsajose galite pasiekti apdorojimo būsenas ir informaciją apie są
 Informacijos apie klientų ir kontaktų integravimą ieškokite [Integruotas kliento šablonas](customer-mapping.md). Daugiau informacijos apie produkto integravimą žiūrėkite [Bendroji produkto patirtis](product-mapping.md).
 
 > [!NOTE]
-> „Dynamics 365 Sales” tiek klientas, tiek potencialus klientas nurodo į lentelės **Sąskaita** įrašą, kur stulpelis **Ryšio tipas** yra **Potencialus klientas** arba **Klientas**. Jei į jūsų verslo logiką įtrauktas **Sąskaitos** kvalifikacijos procesas, kuriame sukuriamas įrašas **Sąskaita** ir pirmiausia jis kvalifikuojamas kaip potencialus klientas, o tada kaip klientas, tas įrašas sinchronizuojamas į „Finance and Operations” programą tik tada, kai tai yra klientas (`RelationshipType=Customer`). Jei norite, kad eilutė **Sąskaita** būtų sinchronizuojama kaip potencialus klientas, tada reikalinga pasirinktinė schema potencialaus kliento duomenų integravimui.
+> „Dynamics 365 Sales” tiek klientas, tiek potencialus klientas nurodo į lentelės **Sąskaita** įrašą, kur stulpelis **Ryšio tipas** yra **Potencialus klientas** arba **Klientas**. Jei jūsų verslo **logika** **apima** sąskaitos kvalifikacijos procesą, kuriame sukuriamas sąskaitos įrašas ir pirmiausia jį galima naudoti kaip potencialų klientą, o tada kaip klientas, tas įrašas sinchronizuojamas su finansų ir operacijų programa tik tada, kai jis yra klientas ().`RelationshipType=Customer` Jei norite, kad eilutė **Sąskaita** būtų sinchronizuojama kaip potencialus klientas, tada reikalinga pasirinktinė schema potencialaus kliento duomenų integravimui.
 
 ## <a name="prerequisites-and-mapping-setup"></a>Būtinosios sąlygos ir susiejimo sąranka
 
@@ -96,7 +96,7 @@ Jeigu sinchronizuojate „Supply Chain Management“ su „Sales“, gausite tok
 Į lentelę **Užsakymas** buvo įtraukti nauji stulpeliai, rodomi puslapyje. „Sales“ skirtuke **Integravimas** rodoma dauguma šių stulpelių. Daugiau informacijos apie tai, kaip susieti būsenos stulpeliai, žiūrėkite [Pardavimo užsakymo būsenos stulpelių susiejimo nustatymas](sales-status-map.md).
 
 + Mygtukai **Kurti sąskaitą faktūrą** ir **Atšaukti užsakymą** puslapyje **Pardavimų užsakymai** yra paslėpti „Sales“.
-+ Reikšmė **Pardavimų užsakymo būsena** išliks **Aktyvi**, kad padėtų užtikrinti, jog „Supply Chain Management“ keitimai galėtų būti perkelti į „Sales“ pardavimų užsakymą. Norėdami valdyti šią veikimo būdą, numatytąją **Būsenos kodas \[ Būsena\]** reikšmę nustatykite į **Aktyvi**.
++ Reikšmė **Pardavimų užsakymo būsena** išliks **Aktyvi**, kad padėtų užtikrinti, jog „Supply Chain Management“ keitimai galėtų būti perkelti į „Sales“ pardavimų užsakymą. Norėdami valdyti šią veikimo būdą, numatytąją **Būsenos kodas \[Būsena\]** reikšmę nustatykite į **Aktyvi**.
 
 ## <a name="invoices"></a>Sąskaitos faktūros
 
@@ -111,7 +111,7 @@ Pardavimo sąskaitos faktūros kuriamos „Supply Chain Management“ programoje
 
 Potencialių klientų pavertimą grynaisiais pinigais sudaro pagrindinių lentelių schemų, veikiančių kartu interaktyviai naudojant duomenis, rinkinys, kaip parodyta tolesnėje lentelėje.
 
-| „Finance and Operations” programos | „Customer engagement“ programos | Aprašas |
+| „Finance and Operations” programos | „Customer engagement“ programos | Aprašymas |
 |-----------------------------|-----------------------------------|-------------|
 [Visi produktai](mapping-reference.md#138) | msdyn_globalproducts | |
 [Klientai V3](mapping-reference.md#101) | sąskaitos | |
@@ -122,7 +122,7 @@ Potencialių klientų pavertimą grynaisiais pinigais sudaro pagrindinių lentel
 [CDS pardavimo pasiūlymo antraštė](mapping-reference.md#215) | pasiūlymai | |
 [CDS pardavimo pasiūlymo eilutės](mapping-reference.md#214) | quotedetails | |
 [Išleisti produktai V2](mapping-reference.md#189) | „msdyn_sharedproductdetails” | |
-[Pardavimo SF antraštės V2](mapping-reference.md#118) | SF | „Finance and Operations” programos pardavimo sąskaitos faktūros antraštės V2 lentelėje yra pardavimo užsakymo ir laisvos formos sąskaitų faktūrų. „Dataverse” taikomas dvigubo rašymo filtras, kuris išfiltruos visus laisvos formos sąskaitos faktūros dokumentus. |
+[Pardavimo SF antraštės V2](mapping-reference.md#118) | SF | Finansų ir operacijų programos lentelėje Pardavimo SF antraštės V2 yra pardavimo užsakymų sf ir laisvos formos SF. „Dataverse” taikomas dvigubo rašymo filtras, kuris išfiltruos visus laisvos formos sąskaitos faktūros dokumentus. |
 [Pardavimo sąskaitos faktūros eilutės V2](mapping-reference.md#117) | invoicedetails | |
 [Pardavimo užsakymo kilmės kodai](mapping-reference.md#186) | „msdyn_salesorderorigins” | |
 

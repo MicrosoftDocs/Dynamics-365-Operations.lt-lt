@@ -1,6 +1,6 @@
 ---
 title: Numatytojo kategorijos nukreipimo puslapio ir ieškos rezultatų puslapio apžvalga
-description: Šioje temoje apžvelgiami numatytasis „Dynamics 365 Commerce“ kategorijos nukreipimo puslapis ir ieškos rezultatų puslapis.
+description: Šiame straipsnyje pateikta numatytosios kategorijos paieškos puslapio ir ieškos rezultatų puslapio peržiūra Dynamics 365 Commerce.
 author: ashishmsft
 ms.date: 06/30/2020
 ms.topic: overview
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 6f61ee8ec212185e195e2cf1a9d6d25c31e4f672
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 5e61db026649df8fe331d107bfbda8246fb9d5f9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982439"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881857"
 ---
 # <a name="default-category-landing-page-and-search-results-page-overview"></a>Numatytojo kategorijos nukreipimo puslapio ir ieškos rezultatų puslapio apžvalga
 
 [!include [banner](includes/banner.md)]
 
-Šioje temoje apžvelgiami numatytasis „Microsoft Dynamics 365 Commerce“ el. prekybos kategorijos nukreipimo puslapis ir ieškos rezultatų puslapis.
+Šiame straipsnyje pateikta numatytosios kategorijos medžiagų puslapio peržiūra ir ieškos rezultatų puslapis Microsoft Dynamics 365 Commerce "e-Commerce".
 
 ## <a name="default-category-landing-page"></a>Numatytasis kategorijos nukreipimo puslapis
 
@@ -32,7 +32,7 @@ Numatytasis kategorijos nukreipimo puslapis yra puslapis, į kurį paprastai per
 
 ![Numatytasis kategorijos nukreipimo puslapis.](./media/SimpleCategoryLandingDressCategory.png)
 
-Puslapio viršuje yra antraštė, rodanti visas produktų kategorijas ir kitus puslapius, kuriuos prekybos vadovas suskirstė į kategorijas. Ši konfigūracija atliekama konfigūruojant kanalų naršymo hierarchiją. Puslapio apačioje yra poraštė, kurioje yra spartieji saitai su įvairiomis temomis, kurios gali sudominti pirkėjus.
+Puslapio viršuje yra antraštė, rodanti visas produktų kategorijas ir kitus puslapius, kuriuos prekybos vadovas suskirstė į kategorijas. Ši konfigūracija atliekama konfigūruojant kanalų naršymo hierarchiją. Puslapio apačioje yra poraštė, kurioje pateikiami spartieji saitai į įvairius straipsnius, kurie gali būti dominamas pagal pardavėją.
 
 Toliau nurodyti esminiai kategorijos komponentai.
 

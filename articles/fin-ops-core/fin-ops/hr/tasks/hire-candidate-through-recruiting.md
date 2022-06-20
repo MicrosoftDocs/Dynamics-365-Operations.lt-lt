@@ -13,19 +13,19 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4bae8c038d048d18096eab20150701fd0e47250a
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: b48fcfe46dbc8a512a2ff9523b62c3a99d1bcd28
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734666"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8888099"
 ---
 # <a name="hiring-candidate-through-recruiting"></a>Pretendento samdymas naudojant įdarbinimo funkciją
 
 [!include [banner](../../includes/banner.md)]
 
 > [!IMPORTANT]
-> Šios temos įdarbinimo funkcijos bus nurodytos kaip Įdarbinimo projektai ir židiniai pretendentams, prašymams ir įdarbinimo projektams.  
+> Šiame straipsnyje nurodyta įdarbinimo funkcija bus vadinama įdarbinimo projektais ir židiniais pretendentams, prašymams ir įdarbinimo projektams.  
 
 Ši procedūra leidžia samdytojui samdyti pretendentą, kuris pateikė prašymą per konkretų įdarbinimo projektą. Kai priimate pretendentą į darbą naudodami įdarbinimo projektą, sukuriamas naujas darbuotojo įrašas, o pretendento įrašo būsena yra **Įdarbinta**. USMF **demonstracinių** duomenų įmonė buvo naudojama šiai procedūrai sukurti.
 

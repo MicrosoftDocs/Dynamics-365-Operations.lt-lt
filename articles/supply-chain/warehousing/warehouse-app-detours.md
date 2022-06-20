@@ -1,6 +1,6 @@
 ---
 title: Mobiliojo įrenginio meniu elementų aplinkinių veiksmų konfigūravimas
-description: Šioje temoje aprašoma, kaip konfigūruoti meniu elementų apylankas, kad darbuotojai galėtų dirbti su dabartine užduotimi, atlikti kitą užduotį, o tada grįžti prie pradinės užduoties neprarasdami jokios informacijos.
+description: Šiame straipsnyje aprašoma, kaip konfigūruoti meniu elementų elementus, kad darbuotojai galėtų dirbti su dabartine užduotimi, atlikti kitą užduotį, o tada grįžti prie pradinės užduoties neprarasdami jokios informacijos.
 author: Mirzaab
 ms.date: 10/15/2021
 ms.topic: article
@@ -11,21 +11,21 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 874abbdf7c0938a7ad4cc66e23dd01d901a1f0d3
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.openlocfilehash: 69090def1bba2f64ed21cca8b6d4629083aeb0c4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920353"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863598"
 ---
 # <a name="configure-detours-for-steps-in-mobile-device-menu-items"></a>Mobiliojo įrenginio meniu elementų aplinkinių veiksmų konfigūravimas
 
 [!include [banner](../includes/banner.md)]
 
 > [!IMPORTANT]
-> Šioje temoje aprašomos funkcijos taikomos tik naujai „Warehouse Management“ „mobile app“. Jie neturi įtakos senai sandėlio programai, kuri dabar pasenusi.
+> Šiame straipsnyje aprašytos funkcijos taikomos tik naujai sandėlio valdymo mobiliąją programai. Jie neturi įtakos senai sandėlio programai, kuri dabar pasenusi.
 
-Šioje temoje aprašoma, kaip konfigūruoti meniu elementų apylankas, kad darbuotojai galėtų atidaryti dabartinę užduotį, atlikti kitą užduotį, o tada grįžti prie pradinės užduoties neprarasdami jokios informacijos.
+Šiame straipsnyje aprašoma, kaip konfigūruoti meniu elementų elementus, kad darbuotojai galėtų "iš" atlikti dabartinę užduotį, atlikti kitą užduotį, tada grįžti prie pradinės užduoties neprarasdami jokios informacijos.
 
 Apylanka yra atskiras meniu elementas, kurį galima atidaryti iš pagrindinės užduoties veiksmo. Apylankos pabaigoje darbuotojas yra grąžinamas į vietą, kur paliko pagrindinę užduotį. Konfigūracijos metu nurodote meniu elementą, kuris turėtų veikti kaip apylanka. Taip pat galite pasirinkti, kurios pagrindinės užduoties laukų vertės turi būti automatiškai persiunčiamos (kopijuojamos) į apylanką ir ten įvedamos. Todėl turite suprasti, kurioje užduočių srauto vietoje norite, kad darbuotojai galėtų naudotis apylanka. Taip pat turite užtikrinti, kad informacija, kurią reikia nukopijuoti į apylanką, bus prieinama naudoti šiame užduočių srauto etape.
 
@@ -46,7 +46,7 @@ Kad būtų galima konfigūruoti veiksmų apylankas mobiliojo įrenginio meniu el
     - **Modulis:** *Warehouse management*
     - **Priemonės pavadinimas:** *Warehouse management programosapylankos*
 
-    Ši funkcija yra šioje temoje aprašoma funkcija.
+    Ši funkcija yra šiame straipsnyje aprašyta funkcija.
 
 1. Warehouse Management mobiliojoje programėlėje atnaujinkite laukų pavadinimus eidami į **Warehouse Management \> Sąranka \> Mobilus įrenginys \> Warehouse programėlė** ir pasirinkite **Kurti numatytąjį nustatymą**. Daugiau informacijos rasite [Sandėlio valdymo mobiliųjų įrenginių programėlės laukų konfigūravimas](configure-app-field-names-priorities-warehouse.md).
 1. Pakartokite ankstesnį veiksmą su kiekvienu juridiniu subjektu (įmone), kuriame naudojate Warehouse Management mobiliąją programą.
@@ -57,7 +57,7 @@ Norėdami nustatyti apylanką iš meniu konkretaus keitimo, naudokite nurodytą 
 
 1. Sukurkite meniu specifinį atnaujinimą, skirtą atitinkamo meniu ir atlikite veiksmus, kaip aprašyta [Warehouse Management mobiliosios programos veiksmų pavadinimų ir instrukcijų pritaikymas](mobile-app-titles-instructions.md).
 1. Raskite veiksmo **Veiksmo ID** ir **Menu prekės pavadinimas** vertės, kurias norite redaguoti ir tada pasirinkite vertę **Veiksmo ID** stulpelyje.
-1. Puslapyje, kuris rodomas **Galimos apylankos (meniu elementai)** "FastTab" laukuose galite nurodyti meniu elementą, kuris turėtų veikti kaip apylanka. Taip pat galite pasirinkti, kurios pagrindinės užduoties laukų vertės turi būti automatiškai kopijuojamos į apylanką ir iš jos. Pavyzdžių, kurie rodo, kaip naudoti šiuos nustatymus, ieškokite toliau šioje temoje.
+1. Puslapyje, kuris rodomas **Galimos apylankos (meniu elementai)** "FastTab" laukuose galite nurodyti meniu elementą, kuris turėtų veikti kaip apylanka. Taip pat galite pasirinkti, kurios pagrindinės užduoties laukų vertės turi būti automatiškai kopijuojamos į apylanką ir iš jos. Pavyzdžių, kurie parodo, kaip naudoti šiuos parametrus, ieškokite toliau šiame straipsnyje pateikti scenarijai.
 
 ## <a name="sample-scenario-1-sales-picking-where-a-location-inquiry-acts-as-a-detour"></a>1 pavyzdinis scenarijus: pardavimo paėmimas, kur vietos užklausa veikia kaip apylanka
 

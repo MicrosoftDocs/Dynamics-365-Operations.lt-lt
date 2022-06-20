@@ -1,6 +1,6 @@
 ---
 title: Bendrieji integruoto kliento duomenys
-description: Šioje temoje aprašomas klientų duomenų integravimas tarp „Finance and Operations“ ir Dataverse.
+description: Šiame straipsnyje aprašomas kliento duomenų integravimas tarp finansų ir operacijų bei Dataverse.
 author: RamaKrishnamoorthy
 ms.date: 07/15/2019
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 41e4b6c192b6125a144e4d5ef952ba0975821d44
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 042042bb19b32d3c96b4e0c8521a8b1d65e7ab22
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8063294"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890462"
 ---
 # <a name="integrated-customer-master"></a>Bendrieji integruoto kliento duomenys
 
@@ -32,7 +32,7 @@ Kliento duomenys gali būti tvarkomi daugiau nei vienoje „Dynamics 365” prog
 
 Klientai gali būti suskirstyti į du tipus: komerciniai/organizaciniai klientai ir vartotojai/galutiniai vartotojai. Šie du klientų tipai „Finance and Operations“ ir Dataverse yra saugomi ir tvarkomi skirtingai.
 
-„Finance and Operations“ tiek komerciniai / organizaciniai klientai, tiek vartotojai / galutiniai vartotojai yra valdomi vienoje lentelėje, kuri yra pavadinta **CustTable** (CustCustomerV3Entity), ir jie klasifikuojami pagal **Tipas** atributas. (Jei **Tipas** nustatytas kaip **Organizacija**, klientas yra komercinis/organizacinis klientas, o jei **Tipas** nustatytas kaip **Asmuo**, klientas yra vartotojas/galutinis vartotojas.) Pagrindinio kontaktinio asmens informacija tvarkoma naudojant lentelę „SMMContactPersonEntity”.
+Finansinėse ir operacijose tiek komerciniai / **organizacijos klientai, tiek vartotojai / galutiniai vartotojai yra suskirstyti į vieną lentelę, pavadintą CustTable** (CustCustomerV3Entity), **ir** jie klasifikuojami pagal atributą Tipas. (Jei **Tipas** nustatytas kaip **Organizacija**, klientas yra komercinis/organizacinis klientas, o jei **Tipas** nustatytas kaip **Asmuo**, klientas yra vartotojas/galutinis vartotojas.) Pagrindinio kontaktinio asmens informacija tvarkoma naudojant lentelę „SMMContactPersonEntity”.
 
 „Dataverse” komercinių/organizacinių klientų duomenys tvarkomi lentelėje Sąskaita ir jie yra identifikuojami kaip klientai, kai atributas **„RelationshipType”** yra nustatytas į **Klientas**. Tiek vartotojus/galutinius vartotojus, tiek kontaktinius asmenis atstovauja lentelė Kontaktas. Siekiant aiškiai atskirti vartotoją/galutinį vartotoją ir kontaktinį asmenį, lentelėje **Kontaktas** yra Bulio logikos žymė, pavadinta **Pardavimas**. Jeigu **Pardavimas** yra **Teisinga**, kontaktas yra vartotojas/galutinis vartotojas, ir tam užsakymui gali būti kuriami pasiūlymai ir užsakymai. Kai **Pardavimas** yra **Klaidinga**, kontaktas yra tik pirminis kliento kontaktinis asmuo.
 

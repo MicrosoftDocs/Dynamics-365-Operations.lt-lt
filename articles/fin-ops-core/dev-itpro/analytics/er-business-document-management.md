@@ -1,6 +1,6 @@
 ---
 title: Verslo dokumentų valdymo apžvalga
-description: Šioje temoje pateikiama informacija apie tai, kaip naudotis ER sistemos verslo dokumentų valdymo funkcija.
+description: Šiame straipsnyje pateikiama informacija apie tai, kaip naudoti ER sistemos verslo dokumentų valdymo funkciją.
 author: NickSelin
 ms.date: 04/23/2021
 ms.topic: overview
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: faea9d4d9b3fc8f3f1474b6bb2a8dc31cdc22511
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 9147a2e81329d5bf9103b6bfe067d166c1471835
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7986256"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903623"
 ---
 # <a name="business-document-management-overview"></a>Verslo dokumentų valdymo apžvalga
 
@@ -40,7 +40,7 @@ Dabar verslo dokumentų valdymo funkcija įdiegta tik debesies diegimams. Jei š
 
 Norėdami naudoti verslo dokumentų valdymą šablonų redagavimui „Excel“ arba „Word“ formatais naudojant „Microsoft Office“ darbalaukio programas, turite įdiegti „Microsoft Office 2010“ arba naujesnę versiją. Tai palaikoma atliekant diegimą debesyje ir vietinį diegimą.
 
-Jei norite naudoti verslo dokumentų valdymą, norėdami redaguoti šablonus "Excel" arba "Word" Microsoft 365 formatuose naudodami programas, turite Microsoft 365 turėti žiniatinklio abonemento Office. Tai palaikoma debesies diegime.
+Jei norite naudoti verslo dokumentų valdymą, norėdami redaguoti šablonus "Excel" arba "Word Microsoft 365 " formatuose naudodami programas, turite Microsoft 365 turėti žiniatinklio abonemento Office. Tai palaikoma debesies diegime.
 
 ## <a name="business-document-availability"></a>Verslo dokumentų pasiekiamumas
 
@@ -50,7 +50,7 @@ Pilnam visų ataskaitų, suplanuotų 2020 m. spalio mėn leidimui, žiūrėkite
 
 Būsimuose leidimuose bus prieinama daugiau ataskaitų. Specialūs pranešimai apie papildomas ataskaitas bus atsiųsti atskirai. Norėdami sužinoti, kaip peržiūrėti šiuo metu galimų ataskaitų sąrašą, žiūrėkite [ER konfigūracijų, išleistų „Finance” tam kad būtų palaikomi toliau pateikti konfigūruojami verslo dokumentai, sąrašas](#list-of-configurations-cbd) skyrių žemiau.
 
-Norėdami sužinoti daugiau apie šią funkciją, atlikite šioje temoje esantį pavyzdį.
+Norėdami daugiau sužinoti apie šią funkciją, užpildykite pavyzdį šiame straipsnyje.
 
 ## <a name="configure-er-parameters"></a>ER parametrų konfigūravimas
 
@@ -60,7 +60,7 @@ Kadangi verslo dokumentų valdymas sukurtas papildant ER sistemą, turite sukonf
 
 ## <a name="import-er-solutions"></a>ER sprendimų importavimas
 
-Šios procedūros pavyzdyje naudojami ER konfigūracijų pavyzdžiai. Į savo dabartinį „Dynamics 365 Finance“ egzempliorių turite importuoti ER konfigūracijas su verslo dokumentų šablonais, kuriuos galima redaguoti naudojant funkciją Verslo dokumentų valdymas. Atsisiųskite ir vietinėje sistemoje išsaugokite tolesnius failus, kad užbaigtumėte procedūrą.
+Šios procedūros pavyzdyje naudojami ER konfigūracijų pavyzdžiai. Į dabartinį "Dynamics 365 Finance" egzempliorių turite importuoti ER konfigūracijas, kuriose yra verslo dokumentų šablonai, kuriuos galima redaguoti naudojant verslo dokumentų valdymą. Atsisiųskite ir vietinėje sistemoje išsaugokite tolesnius failus, kad užbaigtumėte procedūrą.
 
 **Pavyzdinis ER klientų sąskaitos-faktūros išrašymo sprendimas**
 
@@ -231,7 +231,7 @@ Verslo vartotojai gali pasiekti verslo dokumentų šablonus, skirtus redaguoti v
 - Vartotojai, kuriems priskirtas **Sistemos administratoriaus** vaidmuo.
 - Vartotojai, kuriems priskirtas bet kuris vaidmuo, sukonfigūruotas atlikti pareigą, **Valdyti verslo dokumentų šablonus** (AOT pavadinimas **ERBDManageTemplates**).
 
-Atlikite toliau nurodytą procedūrą, kad galėtumėte redaguoti laisvos formos sąskaitos-faktūros šablonus verslo dokumentų valdymo darbo srityje. Prieš įvykdydami šią procedūrą turite būti įvykdę visas ankstesnes šioje temoje pristatytas procedūras.
+Atlikite toliau nurodytą procedūrą, kad galėtumėte redaguoti laisvos formos sąskaitos-faktūros šablonus verslo dokumentų valdymo darbo srityje. Prieš baigdami šią procedūrą, turite būti baigę visas šiame straipsnyje nurodytas procedūras.
 
 1. Prisijunkite kaip vartotojas, kuriam suteikta prieiga prie verslo dokumentų valdymo darbo srities.
 2. Atidarykite verslo dokumentų valdymo darbo sritį.
@@ -403,11 +403,11 @@ Kai redaguojate šabloną iš ER formato, priklausančio dabartiniam aktyviam ti
 
 ## <a name="frequently-asked-questions"></a>Dažnai užduodami klausimai
 
-### <a name="i-selected-edit-document-but-instead-of-going-to-the-bdm-template-editor-page-in-finance-i-was-sent-to-the-microsoft-365-webpage"></a>Aš pasirinkote redaguoti dokumentą, bet vietoj to, kad nueisite į BDM šablono rengyklės puslapį finansuose, aš esu nusiųstas į Microsoft 365 tinklalapį.
+### <a name="i-selected-edit-document-but-instead-of-going-to-the-bdm-template-editor-page-in-finance-i-was-sent-to-the-microsoft-365-webpage"></a>Aš pasirinkote redaguoti dokumentą, bet vietoj to, kad nueisite į BDM šablono rengyklės puslapį finansuose, aš esu nusiųstas į tinklalapį Microsoft 365.
 
-Ši problema yra žinoma problema, apimanti Microsoft 365 nukreipimą. Jis įvyksta, kai Microsoft 365 pasirašote pirmą kartą. Norėdami išspręsti šią problemą, jūsų naršyklėje pasirinkite **Atgal** tam, kad grįžtumėte į ankstesnį puslapį.
+Ši problema yra žinoma problema, apimanti nukreipimą Microsoft 365. Jis įvyksta, kai pasirašote Microsoft 365 pirmą kartą. Norėdami išspręsti šią problemą, jūsų naršyklėje pasirinkite **Atgal** tam, kad grįžtumėte į ankstesnį puslapį.
 
-### <a name="i-understand-how-to-edit-a-template-by-using-microsoft-365-in-the-first-application-session-and-how-to-use-the-template-in-the-second-application-session-and-adjust-the-template-to-see-how-my-changes-affect-the-generated-business-document-can-i-use-the-office-desktop-application-in-the-same-way"></a>Su suprasti, kaip redaguoti šabloną, naudojant pirmą programos seansą, ir kaip naudoti šabloną antroje programos seanse ir koreguoti šabloną, kad pamatytumėte, kaip mano pakeitimai paveiks sugeneruotą Microsoft 365 verslo dokumentą. Ar galiu naudoti „Office” darbalaukio programą tuo pačiu būdu?
+### <a name="i-understand-how-to-edit-a-template-by-using-microsoft-365-in-the-first-application-session-and-how-to-use-the-template-in-the-second-application-session-and-adjust-the-template-to-see-how-my-changes-affect-the-generated-business-document-can-i-use-the-office-desktop-application-in-the-same-way"></a>Su suprasti, kaip Microsoft 365 redaguoti šabloną, naudojant pirmą programos seansą, ir kaip naudoti šabloną antroje programos seanse ir koreguoti šabloną, kad pamatytumėte, kaip mano pakeitimai paveiks sugeneruotą verslo dokumentą. Ar galiu naudoti „Office” darbalaukio programą tuo pačiu būdu?
 
 Taip, galite. Pirmame programos seanse pasirinkite **Atidaryti darbalaukio programoje**. Jūsų šablonas bus išsaugotas laikinoje failų saugykloje ir atidarytas „Office“ darbalaukio programoje. Tada atlikite toliau nurodytus veiksmus, kad peržiūrėtumėte jūsų šablono pakeitimus sugeneruotame verslo dokumente:
 

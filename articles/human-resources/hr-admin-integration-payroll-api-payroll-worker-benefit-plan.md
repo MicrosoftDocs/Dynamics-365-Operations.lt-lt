@@ -1,6 +1,6 @@
 ---
 title: Darbuotojo atlyginimo algalapio planas
-description: Šioje temoje pateikiama informacija ir Algalapio darbuotojo atlyginimo dalies plano objekto užklausos pavyzdys „Dynamics 365 Human Resources“ platformoje.
+description: Šiame straipsnyje pateikiama išsami informacija ir atlyginimo darbuotojų išmokų plano objekto pavyzdys Dynamics 365 Human Resources.
 author: twheeloc
 ms.date: 07/28/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2021-07-28
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ade1c789716ea5f559a73c8551b7c1adf030b806
-ms.sourcegitcommit: d67f7edaf1a50077c2a7dd105e774f86fc586495
+ms.openlocfilehash: ef45855d9e60131ac065ae6e2769b71ae3f69537
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/02/2022
-ms.locfileid: "8533802"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8902291"
 ---
 # <a name="payroll-worker-benefit-plan"></a>Darbuotojo atlyginimo algalapio planas
 
@@ -27,7 +27,7 @@ ms.locfileid: "8533802"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Šioje temoje aprašomas algalapio darbuotojo atlyginimo dalies objektas „Dynamics 365 Human Resources“.
+Šiame straipsnyje aprašomas darbuotojo atlyginimo išmokų plano objektas Dynamics 365 Human Resources.
 
 Faktinis pavadinimas: „mshr_payrollworkerbenefitplanentities”.
 

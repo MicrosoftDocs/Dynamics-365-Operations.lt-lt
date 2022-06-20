@@ -1,6 +1,6 @@
 ---
 title: Pagrindinio puslapio apžvalga
-description: Šioje temoje pateikiama „Microsoft Dynamics 365 Commerce“ pagrindinio puslapio apžvalga.
+description: Šiame straipsnyje pateikiama pagrindinio puslapio apžvalga Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 09/15/2020
 ms.topic: overview
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 4c65d040696a72a42c89934533bad6a69c5923f5
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: ce94dce081957af620e3ab85e466877c0bcc5bd9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984499"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8844677"
 ---
 # <a name="home-page-overview"></a>Pagrindinio puslapio apžvalga
 
 [!include [banner](includes/banner.md)]
 
-Šioje temoje pateikiama „Microsoft Dynamics 365 Commerce“ pagrindinio puslapio apžvalga.
+Šiame straipsnyje pateikiama pagrindinio puslapio apžvalga Microsoft Dynamics 365 Commerce.
 
 Pagrindinis puslapis yra numatytasis puslapis, į kurį pirkėjai įeina, kai apsilanko el. prekybos svetainėje. Paprastai šiame puslapyje pateikiami produktai ir akcijos naudojant rinkodaros modulių derinį. Pagrindiniame puslapyje turėtų būti daug vaizdų ir teksto pirkėjams sudominti.
 
@@ -33,7 +33,7 @@ Toliau pateiktame paveikslėlyje rodomas pagrindinio puslapio pavyzdys, kuris bu
 
 ![Pagrindinio puslapio pavyzdys.](./media/Homepage2.PNG)
 
-Pagrindinio puslapio viršuje yra antraštė, rodanti visas produktų kategorijas ir kitus puslapius, kuriuose pardavėjas norėtų, kad klientai naršytų. Pagrindinio puslapio apačioje yra poraštė, kurioje yra spartieji saitai su įvairiomis temomis, kurios gali sudominti klientus.
+Pagrindinio puslapio viršuje yra antraštė, rodanti visas produktų kategorijas ir kitus puslapius, kuriuose pardavėjas norėtų, kad klientai naršytų. Pagrindinio puslapio apačioje yra poraštė, kurioje pateikiami spartieji saitai į įvairius straipsnius, kurie gali palūkanų klientams.
 
 Pagrindinėje pagrindinio puslapio sekcijoje galima išskirti produktus, kategorijas arba reklaminius gaminius naudojant įvairius „Dynamics 365 Commerce“ modulius:
 
@@ -49,8 +49,8 @@ Pagrindinėje pagrindinio puslapio sekcijoje galima išskirti produktus, kategor
 
     ![Reklamuojamų produktų modulių pavyzdžiai.](./media/Feature.PNG)
 
-- **Išklotinė** – turinio bloko modulio išklotinės maketas, kuris parodo kelis produktus ar produktų kategorijas, naudojant vaizdų ir teksto derinį kelių stulpelių makete. Anksčiau pateiktoje pagrindinio puslapio iliustracijoje išklotinės maketas sugeneruoja elementus trijuose stulpeliuose: **Apsipirkti moterų skyriuje**, **Apsipirkti vyrų skyriuje** ir **Pirkti aksesuarus**.
-- **Vaizdo įrašų leistuvas** – vaizdo įrašų leistuvo modulis gali būti naudojamas vaizdo įrašų turiniui pagrindiniame puslapyje rodyti. Anksčiau pateiktoje pagrindinio puslapio iliustracijoje yra ir vaizdo įrašų leistuvo modulis.
+- **Išklotinė** – turinio bloko modulio išklotinės maketas, kuris parodo kelis produktus ar produktų kategorijas, naudojant vaizdų ir teksto derinį kelių stulpelių makete. Pagrindinio puslapio pavyzdyje, kuris pasirodo anksčiau šiame straipsnyje, **išklotinės dalies maketas naudojamas trijų stulpelių atvaizduoti Darbo** moterys, **·** **Vyrai ir Darbo reikmenys** prekes.
+- **Vaizdo įrašų leistuvas** – vaizdo įrašų leistuvo modulis gali būti naudojamas vaizdo įrašų turiniui pagrindiniame puslapyje rodyti. Pagrindinio puslapio pavyzdys, kuris pasirodo anksčiau šiame straipsnyje, apima vaizdo įrašų leistuvo modulį.
 - **Teksto blokas** – turinio bloko modulis gali būti naudojamas teksto turiniui pagrindiniame puslapyje pateikti vieno stulpelio arba kelių stulpelių maketo forma.
 - **Produktų rekomendacijos** – produktų rekomendacijų moduliai naudojami sąrašams, tokiems kaip **Nauja**, **Populiariausia** ir **Perkamiausia** rodyti pagrindiniame puslapyje. Šiuose sąrašuose pateikiami produktai pagal apsipirkimo tendencijas ir jie gali būti sugeneruojami algoritmiškai arba kuruojami rankiniu būdu. Taip klientai gali greitai atrasti geriausius produktus ir tęsti apsipirkimą.
 

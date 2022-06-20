@@ -1,6 +1,6 @@
 ---
 title: Elektroninių ataskaitų (ER) formulių kūrimo įrankis
-description: Šioje temoje pateikiama informacija apie tai, kaip naudoti elektroninėse ataskaitose (ER) formulių kūrimo įrankį.
+description: Šiame straipsnyje pateikiama informacija apie tai, kaip naudoti formulės konstruktorių elektroninėse ataskaitose (ER).
 author: NickSelin
 ms.date: 04/08/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 606532411aa8297654d8d20a9061472597e773da
-ms.sourcegitcommit: 6c1bf233748c4bc70fc5a1a9711758cdfd9e07dc
+ms.openlocfilehash: 6b03613cb40c5ca718f45e69740d29059fcfb70b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "8782210"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894301"
 ---
 # <a name="formula-designer-in-electronic-reporting-er"></a>Elektroninių ataskaitų (ER) formulių kūrimo įrankis
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje paaiškinama, kaip naudoti formulių kūrimo įrankį teikiant elektronines ataskaitas (ER). Kurdami ER konkretaus elektroninio dokumento formatą, naudodami formules galite transformuoti duomenis, kad jie atitiktų dokumento įvykdymo ir formatavimo reikalavimus. Šios formulės panašios į „Microsoft Excel“ formules. Formulėse palaikomos įvairių tipų funkcijos: tekstinės, datos ir laiko, matematinės, loginės, informacijos, duomenų tipo konvertavimo, ir kitos konkrečios verslo srities funkcijos.
+Šiame straipsnyje paaiškinama, kaip naudoti formulių kūrimo įrankį teikiant elektronines ataskaitas (ER). Kurdami ER konkretaus elektroninio dokumento formatą, naudodami formules galite transformuoti duomenis, kad jie atitiktų dokumento įvykdymo ir formatavimo reikalavimus. Šios formulės panašios į „Microsoft Excel“ formules. Formulėse palaikomos įvairių tipų funkcijos: tekstinės, datos ir laiko, matematinės, loginės, informacijos, duomenų tipo konvertavimo, ir kitos konkrečios verslo srities funkcijos.
 
 ## <a name="formula-designer-overview"></a>Formulių kūrimo įrankio apžvalga
 

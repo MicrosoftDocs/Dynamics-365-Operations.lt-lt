@@ -1,6 +1,6 @@
 ---
 title: Klausimynai
-description: Šioje temoje pateikiama bendra informacija apie klausimynus ir saitai į išsamesnę informaciją.
+description: Šiame straipsnyje pateikiama bendra informacija apie klausimynus ir saitai į išsamesnę informaciją.
 author: twheeloc
 ms.date: 10/28/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: efe0ac953e5c1cb04044256e799ecfc07cf3eebe
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: de38bcbfc89479d6b643ca5ee256c38c88fa7f69
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8690756"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8897899"
 ---
 # <a name="questionnaires"></a>Klausimynai
 
@@ -28,7 +28,7 @@ ms.locfileid: "8690756"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Šioje temoje pateikiama bendra informacija apie klausimynus ir saitai į išsamesnę informaciją. Klausimynas yra klausimų rinkinys, naudojamas įvairiais tikslais rinkti informacijai. Klausimynus galite kurti, platinti ir pildyti, o tada analizuoti rezultatus. 
+Šiame straipsnyje pateikiama bendra informacija apie klausimynus ir saitai į išsamesnę informaciją. Klausimynas yra klausimų rinkinys, naudojamas įvairiais tikslais rinkti informacijai. Klausimynus galite kurti, platinti ir pildyti, o tada analizuoti rezultatus. 
 
 Galite pritaikyti klausimyną, kad jis atitiktų konkrečius reikalavimus, naudodamiesi Microsoft Dynamics 365 finansų funkcijomis. Toliau pateikti keli pavyzdžiai, kaip galima naudoti klausimynus.
 
@@ -40,11 +40,11 @@ Galite pritaikyti klausimyną, kad jis atitiktų konkrečius reikalavimus, naudo
 
 Tolesnėje lentelėje pateikiami saitai į informaciją apie pagrindines klausimynų užduotis. Norėdami gauti daugiau informacijos, spustelėkite saitus.
 
-| Tema| Aprašymas|
+| Straipsnis | Aprašymas|
 |------|------------|
-| [Klausimyno sudarymas](hr-learning-design-questionnaires.md) | Šioje temoje pateikiama informacija apie tai, kaip sukurti klausimyną. Dizaino proceas apima išankstinių sąlygų, atsakymų ir klausimų nustatymą ir tuomet visų jų įtraukimą į klausimyną. |
-| [Klausimynų platinimas ir planavimas](hr-learning-distribute-questionnaires.md) | Šioje temoje pateikiama informacija apie tai, kaip respondentams paskirstyti klausimyną ir kaip užpildyti klausimynus. |
-| [Klausimyno rezultatų peržiūra ir įvertinimas](hr-learning-evaluate-questionnaire-results.md) | Šioje temoje pateikiama informacija apie tai, kaip peržiūrėti ir įvertinti užpildytų klausimynų rezultatus. |
+| [Klausimyno sudarymas](hr-learning-design-questionnaires.md) | Šiame straipsnyje pateikiama informacija apie tai, kaip kurti klausimyną. Dizaino proceas apima išankstinių sąlygų, atsakymų ir klausimų nustatymą ir tuomet visų jų įtraukimą į klausimyną. |
+| [Klausimynų platinimas ir planavimas](hr-learning-distribute-questionnaires.md) | Šiame straipsnyje pateikiama informacija apie tai, kaip klausimyną platinti respondentams ir kaip klausimynus pildyti. |
+| [Klausimyno rezultatų peržiūra ir įvertinimas](hr-learning-evaluate-questionnaire-results.md) | Šiame straipsnyje pateikiama informacija apie tai, kaip peržiūrėti ir įvertinti užpildytų klausimynų rezultatus. |
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

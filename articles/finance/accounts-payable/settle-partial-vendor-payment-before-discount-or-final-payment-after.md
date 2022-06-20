@@ -1,6 +1,6 @@
 ---
 title: Nustatyti dalinį mokėjimą prieš nuolaidos datą ir galutinį mokėjimą po nuolaidos datos
-description: Šioje temoje galite pereiti per scenarijų, kuriame atliekami keli daliniai mokėjimai, kai kurie mokėjimo nuolaidos laikotarpio dalis ir kiti, nepatenkantys į mokėjimo nuolaidos laikotarpį.
+description: Šiame straipsnyje žingsnis po žingsnio pateiktas scenarijus, kuriame atliekami keli daliniai mokėjimai, kai kurie mokėjimo nuolaidos laikotarpiu, o kiti ne mokėjimo nuolaidos laikotarpiui.
 author: abruer
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7331b4b2ad48cfa380497336d4ac22c8723568b5
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: 1e249be4024ee6581060e3890795770054c6ab67
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8716753"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871368"
 ---
 # <a name="settle-partial-payment-before-discount-date-and-final-payment-after-discount-date"></a>Nustatyti dalinį mokėjimą prieš nuolaidos datą ir galutinį mokėjimą po nuolaidos datos
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje galite pereiti per scenarijų, kuriame atliekami keli daliniai mokėjimai, kai kurie mokėjimo nuolaidos laikotarpio dalis ir kiti, nepatenkantys į mokėjimo nuolaidos laikotarpį.
+Šiame straipsnyje žingsnis po žingsnio pateiktas scenarijus, kuriame atliekami keli daliniai mokėjimai, kai kurie mokėjimo nuolaidos laikotarpiu, o kiti ne mokėjimo nuolaidos laikotarpiui.
 
 „Fabrikam“ perka prekes iš 3057 tiekėjo. „Fabrikam“ gauna 1 procento mokėjimo nuolaidą, jei sąskaita faktūra apmokama per 14 dienų. SF turi būti apmokėtos per 30 dienų. Tiekėjas „Fabrikam‟ taip pat leidžia taikyti mokėjimo nuolaidas, kai mokama dalimis. Sudengimo parametrai yra puslapyje **Mokėtinų sumų parametrai**.
 

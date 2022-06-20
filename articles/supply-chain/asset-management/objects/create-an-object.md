@@ -1,6 +1,6 @@
 ---
 title: Turto kūrimas
-description: Šioje temoje paaiškinta, kaip kurti turtą turto valdyme.
+description: Šiame straipsnyje aprašoma, kaip kurti turtą turto valdymo modulyje.
 author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1e9c2b81e97a7b08dfdb596fbf6822ac94c7358dccd0b92c0677467dbc0c2e26
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: MT
+ms.openlocfilehash: 90b41b57dfa6db8b5874bbc2d4bcac7b4c634f20
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6721516"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860934"
 ---
 # <a name="create-an-asset"></a>Turto kūrimas
 
@@ -28,7 +28,7 @@ ms.locfileid: "6721516"
 
  
 
-Šioje temoje paaiškinta, kaip kurti turtą turto valdyme.
+Šiame straipsnyje aprašoma, kaip kurti turtą turto valdymo modulyje.
 
 1. Spustelėkite **Turto valdymas** > **Bendras** > **turtas** > **Visas turtas** arba **Aktyvus turtas**.
 2. Spustelėkite mygtuką **Naujas**.

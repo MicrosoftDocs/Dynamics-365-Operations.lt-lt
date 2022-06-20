@@ -1,6 +1,6 @@
 ---
-title: Pirkimo sutarties kūrimas
-description: Šioje temoje aprašoma, kaip kurti pirkimo sutartį.
+title: Kurti pirkimo sutartį
+description: Šis straipsnis padės jums sukurti pirkimo sutartį.
 author: GalynaFedorova
 ms.date: 07/18/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3456e1c6e2ec65329e0f2e984f99ced0994c240b
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 108c3a47132b262ebe2e15f00d26191b75469959
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8670138"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8877572"
 ---
-# <a name="create-a-purchase-agreement"></a>Pirkimo sutarties kūrimas
+# <a name="create-a-purchase-agreement"></a>Kurti pirkimo sutartį
 
 [!include [banner](../../includes/banner.md)]
 
-Šioje temoje aprašoma, kaip kurti pirkimo sutartį. Paprastai tai atlieka pirkimo vadybininkas. Šią procedūrą galite atlikti demonstracinių duomenų įmonėje USMF arba su savo duomenimis. Prieš pradėdami turite nustatyti pirkimo sutarčių klasifikacijas. Sukūrę sutartį, galėsite ją naudoti, kai sukursite PU – pirkimo sutarties sąlygos bus nukopijuotos į antraštę ir į visas užsakymo eilutes, susijusias su šia sutartimi.
+Šis straipsnis padės jums sukurti pirkimo sutartį. Paprastai tai atlieka pirkimo vadybininkas. Šią procedūrą galite atlikti demonstracinių duomenų įmonėje USMF arba su savo duomenimis. Prieš pradėdami turite nustatyti pirkimo sutarčių klasifikacijas. Sukūrę sutartį, galėsite ją naudoti, kai sukursite PU – pirkimo sutarties sąlygos bus nukopijuotos į antraštę ir į visas užsakymo eilutes, susijusias su šia sutartimi.
 
 
 ## <a name="create-a-new-purchase-agreement"></a>Kurti naują pirkimo sutartį

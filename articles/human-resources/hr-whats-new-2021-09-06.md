@@ -1,6 +1,6 @@
 ---
 title: Kas nauja ar pasikeitė sistemoje „Dynamics 365 Human Resources“ 2021 m. rugsėjo 6 d.
-description: Šioje temoje aprašomos naujos arba pasikeitusios „Microsoft Dynamics 365 Human Resources” funkcijos 2021 m. rugsėjo 6 d.
+description: Šiame straipsnyje aprašomos priemonės, kurios yra naujos arba pakeistos "Microsoft Dynamics 365 Human Resources " 2021 m. spalio 6 d.
 author: marcelbf
 ms.date: 09/06/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-09-06
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 314d836db9b7560c2ed95ad1b9d2eba753e39d2b
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 776498b32f8323b1a06f39b518cdc1ae534f9bcc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8690588"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872158"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-september-6-2021"></a>Kas nauja ar pasikeitė sistemoje „Dynamics 365 Human Resources“ 2021 m. rugsėjo 6 d.
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Šioje temoje aprašomos naujos, pasikeitusios ar netrukus pasirodysiančios „Microsoft Dynamics 365 Human Resources“ funkcijos.
+Šiame straipsnyje aprašomos priemonės, kurios yra naujos, pakeistos arba netrukus programoje "Microsoft"Dynamics 365 Human Resources.
 
 Daugiau informacijos apie mūsų atnaujinimo procesą ir grafiką žr. [Atnaujinimo procesas](hr-admin-setup-update-process.md).
 
@@ -50,9 +50,9 @@ Daugiau informacijos apie naujas funkcijas ir jų numatomas bendro pasiekiamumo 
 Toliau nurodyti klaidų ištaisymai įtraukti į šį leidimą.
 
 > [!NOTE]
-> Siekiame kuo greičiau pateikti jums šią informaciją. Galime atnaujinti šią temą, kad būtų įtraukti klaidų ištaisymai, įtraukti į komponavimo versiją publikavus šią temą.
+> Siekiame kuo greičiau pateikti jums šią informaciją. Mes galime atnaujinti šį straipsnį, kad būtų įtrauktos pataisos, kurios buvo sukurtas po to, kai buvo publikuotas šis straipsnis.
 
-| Problemos numeris | Problema | Aprašas |
+| Problemos numeris | Problema | Aprašymas |
 |---|---|---|
 | 610128 | Klaida publikuojant duomenis naudojant „HcmDiscussionOverallCommentEntity” | Kai duomenys yra publikuojami iš „Excel” darbaknygės į objektą „HcmDiscussionOverralCommentEntity”, įvyksta toliau nurodyta klaida: „Nepavyko rasti duomenų šaltinio įrašo, kurio tipas HcmTopicOverrall.” |
 | 589073 | EEO-1 ataskaitoje skaičiuojamos „Nekonkrečios” ir tuščios lauko **Lytis** reikšmės, kai reikšmė yra „Moteris”. | Jei **Vyras** nėra nurodytas lauke **Lytis**, EEO-1 ataskaita sugeneruoja numatytąją reikšmę **Moteris**. |

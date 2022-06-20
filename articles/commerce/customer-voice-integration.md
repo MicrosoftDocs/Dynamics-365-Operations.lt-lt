@@ -1,6 +1,6 @@
 ---
-title: Integruoti klientų meniu į el. komercijos svetainės puslapius
-description: Šioje temoje aprašoma, kaip integruoti "Dynamics 365 Customer Voice Microsoft Dynamics 365 Commerce" į el. komercijos svetainės puslapius.
+title: „Customer Voice“ integravimas į el. prekybos svetainės puslapius
+description: Šiame straipsnyje aprašoma, kaip integruoti "Microsoft Dynamics 365 Customer Voice " į Dynamics 365 Commerce el. komercijos svetainės puslapius.
 author: samjarawan
 ms.date: 05/17/2022
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2019-10-31
-ms.openlocfilehash: 272ec1a59ed45b2d2336dcfea16051d27011360f
-ms.sourcegitcommit: 48d094d083c1bd45c3d72f8b666926b48ec7ae35
+ms.openlocfilehash: c8c67ecf4950c92fc91c8d119e06e5e8afff0ddf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/18/2022
-ms.locfileid: "8767926"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850335"
 ---
-# <a name="integrate-customer-voice-into-e-commerce-site-pages"></a>Integruoti klientų meniu į el. komercijos svetainės puslapius
+# <a name="integrate-customer-voice-into-e-commerce-site-pages"></a>„Customer Voice“ integravimas į el. prekybos svetainės puslapius
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje aprašoma, kaip integruoti "Dynamics 365 Customer Voice Microsoft Dynamics 365 Commerce" į el. komercijos svetainės puslapius.
+Šiame straipsnyje aprašoma, kaip integruoti "Microsoft Dynamics 365 Customer Voice " į Dynamics 365 Commerce el. komercijos svetainės puslapius.
 
 Norėdami rinkti [, analizuoti ir](https://dynamics.microsoft.com/customer-voice/overview/) stebėti klientų grįžtamąjį ryšį realiuoju laiku, galite integruoti Klientų Į savo el. komercijos svetainę. Norėdami pradėti integravimą, turite sukurti sąskaitą ir pasirinkti norimo rinkti grįžtamojo ryšio kliento Darbo projekto šabloną.
 
@@ -37,7 +37,7 @@ Norėdami pasirinkti kliento "Aptarnavimo" projekto šabloną, atlikite šiuos v
 1. Pasirinkite grįžtamojo ryšio tipo projekto šabloną, kurį norite rinkti, tada pasirinkite **Pirmyn**.
 1. Skirtuko Siųsti **dalyje** Pasirinkite įdėtojo **formato pasirinkite** įdėtinį formatą. Lauke **Įdėtasis** kodas rodomas kodas, kuris turi būti įdėtas į Komercijos svetainės generatorių.
 
-Pavyzdžiuose šioje temoje naudojamas periodinės **kliento apklausos projekto** šablonas ir įdėtojo **mygtuko** formatas.
+Šiame straipsnyje pateikti pavyzdžiai naudoja periodinių klientų **apklausų projekto** šabloną ir įdėtojo **mygtuko** formatą.
 
 Šiame pavyzdyje parodyta **periodinės** kliento apklausos projekto šablono puslapis, **kuriame** pasirinkta formato mygtuko įdėtis pasirinktis, **ir tos pasirinkties įdėtojo kodo kodas pasirodo lauke Įdėtasis** kodas. Trys atskiri veiksmai yra būtini, kad pateiktas kodas būtų įdėtas į jūsų svetainės puslapius, kaip aprašyta toliau skyriuose.
 

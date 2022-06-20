@@ -1,6 +1,6 @@
 ---
 title: Skambučių centro pristatymo būdų ir mokesčių konfigūravimas
-description: Šioje temoje aprašoma, kaip nustatyti skambučių centro užsakymo pristatymo būdus ir su juo susijusius mokesčius „Dynamics 365 Commerce“.
+description: Šiame straipsnyje aprašoma, kaip nustatyti skambučių centro užsakymo pristatymo būdus ir išlaidas Dynamics 365 Commerce.
 author: josaw1
 ms.date: 04/26/2018
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: bd763082969079de2d68e12483ec25871c332e4067f122c6a845d3acd477af62
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f445e9dabd0210951609170369eae63bcc30ce6b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6748576"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8888303"
 ---
 # <a name="configure-call-center-delivery-modes-and-charges"></a>Skambučių centro pristatymo būdų ir mokesčių konfigūravimas
 
@@ -35,7 +35,7 @@ Kai kuriate pardavimo užsakymą, pristatymo būdą galite pasirinkti pardavimo 
 
 Prieš nurodydami, kokius pristatymo būdus galima naudoti skambučių centro užsakymams, ir apibrėždami susijusias taisykles bei mokesčius, turite apibrėžti pristatymo būdus. Eikite į parinktį **Pardavimas ir rinkodara \> Sąranka \> Platinimas \> Pristatymo būdai**. Pasirinkite **Naujas** ir sukurkite naują pristatymo būdą. Taip pat iš sąrašo galite pasirinkti esamą pristatymo būdą ir, pasirinkę **Redaguoti**, atlikti keitimų.
 
-Lauke **Pristatymo būdas**, priklausomai nuo verslo reikalavimų, galite įvesti bet kokį skaitinių ir raidinių simbolių derinį. Tada galite naudoti lauką **Aprašas** ir pateikti papildomo konteksto. Laukai **Išlaidų grupė** ir **Pagreitinimas** yra pasirinktiniai ir apie juos bus išsamiau paaiškinta vėliau šioje temoje.
+Lauke **Pristatymo būdas**, priklausomai nuo verslo reikalavimų, galite įvesti bet kokį skaitinių ir raidinių simbolių derinį. Tada galite naudoti lauką **Aprašas** ir pateikti papildomo konteksto. Laukai **Išlaidų grupė** ir **Pagreitinti** yra pasirenkami ir išsamiau bus paaiškinti toliau šiame straipsnyje.
 
 Į „FastTab“ skirtuką **Prekybos kanalai** įtraukite bet kokį kanalą, kuriame norite, kad būtų leista naudoti pristatymo būdą, kai sukuriama pardavimo operacijų.
 

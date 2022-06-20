@@ -1,30 +1,24 @@
 ---
 title: Eksperimento peržiūra ir publikavimas
-description: Šioje temoje aprašoma, kaip peržiūrėti ir publikuoti eksperimentą iš „Dynamics 365 Commerce”.
+description: Šiame straipsnyje aprašoma, kaip peržiūrėti ir publikuoti laiškų publikavimą iš Dynamics 365 Commerce.
 author: sushma-rao
-ms.date: 10/21/2020
+ms.date: 06/08/2022
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.custom: ''
-ms.assetid: ''
-ms.search.region: global
-ms.search.industry: Retail
+ms.search.region: Global
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
-ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 41957befe109102aaa7d3a5783b54f96824dfe76a25ab787f94afc778c08fca5
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5da7a4e3c17057278d02ebd45702d1de404f0dc6
+ms.sourcegitcommit: 427fe14824a9d937661ae21b9e9574be2bc9360b
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6740388"
+ms.lasthandoff: 06/09/2022
+ms.locfileid: "8946147"
 ---
 # <a name="preview-and-publish-an-experiment"></a>Eksperimento peržiūra ir publikavimas
 
-Šioje temoje aprašoma, kaip peržiūrėti ir publikuoti jūsų eksperimentą „Dynamics 365 Commerce” po to, kai [prijungėte eksperimentą ir redagavote variacijas](experimentation-connect-edit.md). Toliau pateiktoje diagramoje rodomi visi veiksmai, susiję su eksperimento nustatymu ir vykdymu „e-Commerce“ svetainėje „Dynamics 365 Commerce”. Papildomi veiksmai aprašomi kitose temose.
+Šiame straipsnyje aprašoma, kaip peržiūrėti ir paskelbti savo redagavimą Dynamics 365 Commerce [po to, kai prijungėte ir redagavote savo variantus](experimentation-connect-edit.md). Toliau pateiktoje diagramoje rodomi visi veiksmai, susiję su eksperimento nustatymu ir vykdymu „e-Commerce“ svetainėje „Dynamics 365 Commerce”. Papildomi veiksmai įtraukti atskiruose straipsnius.
 
 [ ![Vartotojo eksperimentavimo kelionė – peržiūra ir publikavimas.](./media/experimentation_preview_publish.svg) ](./media/experimentation_preview_publish.svg#lightbox)
 
@@ -51,6 +45,10 @@ Naudojant publikavimo grupes su eksperimentais, yra svarbių dalykų, kuriuos re
 - Eksperimentai, prijungti prie aktyvios svetainės svetainės puslapių, nėra pasiekiami publikavimo grupių puslapiuose (ir atvirkščiai). Be to, aktyvios svetainės puslapiai, kuriuose vykdomi eksperimentai, nėra pasiekiami kituose publikavimo grupių eksperimentuose (ir atvirkščiai).
 - Publikuojant arba planuojant publikavimo grupę, visas publikavimo grupės turinys publikuojamas, neatsižvelgiant į tai, ar yra eksperimentas, susietas su publikavimo grupe.
 - Kadangi publikavimo grupė ir toliau išlieka po to, kai ji publikuojama aktyvioje svetainėje, eksperimentai publikavimo grupėje taip pat išlieka. Todėl negalėsite susieti kitų eksperimentų su tuo pačiu puslapiu ar fragmentu. Norėdami išvengti šio apribojimo, panaikinkite visas publikavimo grupes, kuriose yra išlikusių eksperimentų. Taip pat, jei norite panaikinti aktyvios svetainės eksperimentą, kuris taip pat yra publikavimo grupėje, pirmiausia panaikinkite jį iš publikavimo grupės.
+
+### <a name="force-variations-for-testing"></a>Bandymo bandymų variantai
+
+Kai laukimo būsenos pavyzdys yra tiesiogiai, galite pridėti progą ID ir variacijos ID prie numatytojo puslapio URL, norėdami priversti variaciją tikrinimo ar automatizavimo tikslais. Pavyzdžiui, jei numatytasis puslapio URL yra `https://fabrikam.com/modern/homepage`, galite priversti variaciją su URL, pvz.,`https://fabrikam.com/modern/homepage?exp=18012910471|18024360464`. Galite gauti peržiūrėtą ID ir variacijos ID savo svyravimų variacijai iš peržiūros URL **peržiūros patirties, paaiškintos** pirmiau.
 
 ## <a name="previous-step"></a>Ankstesnis veiksmas
 [Eksperimento prijungimas ir redagavimas](experimentation-connect-edit.md)

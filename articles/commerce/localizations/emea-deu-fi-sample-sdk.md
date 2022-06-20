@@ -1,6 +1,6 @@
 ---
-title: Vokietijos fiskalinės registracijos tarnybos integravimo imties diegimo gairės (senstelėjęs)
-description: Šioje temoje pateikiamos gairės, kaip įdiegti Fiskalinės integracijos pavyzdį Vokietijai iš Microsoft Dynamics 365 Commerce mažmeninės prekybos programinės įrangos kūrimo rinkinio (SDK).
+title: Vokietijos (senesnių) finansinių registracijų tarnybos integravimo pavyzdžio diegimo rekomendacijos
+description: Šiame straipsnyje pateikiamos Gairės dėl Vokietijos finansinio integravimo pavyzdžio diegimo iš "Retail" programinės įrangos Microsoft Dynamics 365 Commerce kūrimo rinkinio (SDK).
 author: EvgenyPopovMBS
 ms.date: 03/04/2022
 ms.topic: article
@@ -9,20 +9,20 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-3-1
-ms.openlocfilehash: c49e6cedcce1d336486e9fbcc0620bcdf455cc9d
-ms.sourcegitcommit: 7faf82fa7ce269c0201abb8473af861ef7ce00bf
+ms.openlocfilehash: 9f6ecc715e10538806998459b7fd837648494ad7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "8614129"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845842"
 ---
-# <a name="deployment-guidelines-for-the-fiscal-registration-service-integration-sample-for-germany-legacy"></a>Vokietijos fiskalinės registracijos tarnybos integravimo imties diegimo gairės (senstelėjęs)
+# <a name="deployment-guidelines-for-the-fiscal-registration-service-integration-sample-for-germany-legacy"></a>Vokietijos (senesnių) finansinių registracijų tarnybos integravimo pavyzdžio diegimo rekomendacijos
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje pateikiamos gairės, kaip įdiegti fiskalinės registracijos paslaugos integravimo pavyzdį Vokietijai iš Microsoft Dynamics 365 Commerce mažmeninės prekybos programinės įrangos kūrimo rinkinio (SDK) kūrėjo virtualioje mašinoje Microsoft Dynamics (VM) "Lifecycle Services" (LCS). Daugiau informacijos apie šią fiskalinės integracijos imtį ieškokite [Fiscal registration service integration sample for Germany](emea-deu-fi-sample.md). 
+Šiame straipsnyje pateikiamos Microsoft Dynamics 365 Commerce Gairės, kaip įdiegti Vokietijos finansinio registravimo tarnybos integravimo pavyzdį iš "Retail" programinės įrangos kūrimo rinkinio (SDK) kūrėjų virtualiojoje kompiuteryje (VM) Microsoft Dynamics ciklo tarnybose (LCS). Daugiau informacijos apie šį finansinio integravimo pavyzdį ieškokite Vokietijos [finansinių registracijos tarnybos integravimo pavyzdyje](emea-deu-fi-sample.md). 
 
-Vokietijos fiskalinės integracijos pavyzdys yra mažmeninės prekybos SDK dalis. Informacijos, kaip įdiegti ir naudoti SDK, ieškokite Mažmeninės prekybos programinės [įrangos kūrimo rinkinio (SDK) architektūroje](../dev-itpro/retail-sdk/retail-sdk-overview.md). Šį pavyzdį sudaro "Commerce Runtime (CRT) ir Hardware" stoties plėtiniai. Norėdami vykdyti šį pavyzdį, turite modifikuoti ir sukurti " CRT Hardware" stoties projektus. Rekomenduojame naudoti nesumoduliuotą "Retail SDK", kad būtų atlikti šioje temoje aprašyti pakeitimai. Taip pat rekomenduojame naudoti šaltinio valdymo sistemą, pvz.Azure DevOps, kurioje dar nėra pakeistų failų.
+Vokietijos finansinio integravimo pavyzdys yra mažmeninės prekybos SDK dalis. Informacijos, kaip įdiegti ir naudoti SDK, ieškokite Mažmeninės prekybos programinės [įrangos kūrimo rinkinio (SDK) architektūroje](../dev-itpro/retail-sdk/retail-sdk-overview.md). Šį pavyzdį sudaro "Commerce Runtime (CRT) ir Hardware" stoties plėtiniai. Norėdami vykdyti šį pavyzdį, turite modifikuoti ir sukurti " CRT Hardware" stoties projektus. Rekomenduojame naudoti nesumoduliuotą "Retail SDK", kad būtų atlikti šiame straipsnyje aprašyti pakeitimai. Taip pat rekomenduojame naudoti šaltinio valdymo sistemą, pvz.Azure DevOps, kurioje dar nėra pakeistų failų.
 
 ## <a name="development-environment"></a>Programavimo aplinka
 
@@ -30,20 +30,20 @@ Norėdami nustatyti programavimo aplinką, kad būtų galima patikrinti ir išpl
 
 ### <a name="enable-commerce-runtime-extensions"></a>Įgalinti "Commerce" vykdyklės plėtinius
 
-Plėtinio CRT komponentai įtraukiami į pavyzdžius CRT. Norėdami baigti šias procedūras, **dalyje RetailSdkSampleExtensionsCommerceRuntime** **atidarykite sprendimą CommerceRuntimeSamples.sln \\\\**.
+Plėtinio CRT komponentai įtraukiami į pavyzdžius CRT. Norėdami atlikti šias procedūras, dalyje RetailSdk SampleExtensions CommerceRuntime **atidarykite sprendimą CommerceRuntimeSamples.sln** **\\.\\**
 
 #### <a name="documentproviderefrsample-component"></a>DocumentProvider.EFRSample komponentas
 
 1. Suraskite **Runtime.Extensions.DocumentProvider.EFRSample** projektą ir sukurkite jį.
-2. **Aplanke Runtime.Extensions.DocumentProvider.EFRSamplebinDebug\\\\** **raskite rinkinio failą Contoso.Commerce.Runtime.DocumentProvider.EFRSample.dll.**
+2. Aplanke Runtime.Extensions.DocumentProvider.EFRSample talpyklos debug **\\ raskite failą Contoso.Commerce.Runtime.DocumentProvider.EFRSample.dll\\.** **·**
 3. Nukopijuokite surinkimo failą į plėtinių CRT aplanką:
 
-    - **"Commerce Scale Unit:" kopijuokite** failą **\\ į talpyklos\\ aplanką**, esantį informacinių interneto paslaugų (IIS) "Commerce Scale Unit" vietoje.
+    - **"Commerce Scale Unit:" kopijuokite** failą **\\\\ į talpyklos iš** išorės aplanką, esantį informacinių interneto paslaugų (IIS) "Commerce Scale Unit" vietoje.
     - **" CRT Modern POS" vieta: kopijuokite** failą į **\\ iš išorės** aplanką, esantį vietinio kliento CRT brokerio vietoje.
 
 4. Rasti plėtinio konfigūracijos failą, kuris skirtas CRT:
 
-    - **"Commerce Scale Unit:**" failo vardas yra commerceruntime.ext.config **,** jis yra IIS "Commerce Scale Unit" vietos aplanke binext **\\.**
+    - **"Commerce Scale Unit:** failas **yra pavadintas commerceruntime.ext.config**, **\\** jis yra talpyklos išorinio aplanko IIS "Commerce Scale Unit" vietoje.
     - **" CRT Modern POS" vietinė:** **failo vardas yra CommerceRuntime.MPOSOffline.Ext.config**, jis priklauso vietinio kliento CRT brokerio vietai.
 
 5. Užregistruokite CRT pakeitimą plėtinio konfigūracijos faile.
@@ -55,15 +55,15 @@ Plėtinio CRT komponentai įtraukiami į pavyzdžius CRT. Norėdami baigti šias
 #### <a name="documentproviderdatamodelefr-component"></a>DocumentProvider.DataModelEFR komponentas
 
 1. Raskite **Runtime.Extensions.DocumentProvider.DataModelEFR** projektą ir sukurkite jį.
-2. **Aplanke Runtime.Extensions.DocumentProvider.DataModelEFRbinDebug\\\\** **raskite Contoso.Commerce.Runtime.DocumentProvider.DataModelEFR.dll** surinkimo failą.
+2. Aplanke Runtime.Extensions.DocumentProvider.DataModelEFR bin Debug **\\ raskite Contoso.Commerce.Runtime.DocumentProvider.DataModelEFR.dll\\ surinkimo failą.** **·**
 3. Nukopijuokite surinkimo failą į plėtinių CRT aplanką:
 
-    - **"Commerce Scale Unit:"** kopijuokite failą į **\\ talpyklosext\\** aplanką, esantį IIS komercijos skalės vieneto svetainės vietoje.
+    - **"Commerce Scale Unit:"** kopijuokite failą į **\\ talpyklos\\ išorės** aplanką, esantį IIS "Commerce Scale Unit" svetainės vietoje.
     - **" CRT Modern POS" vieta: kopijuokite** failą į **\\ iš išorės** aplanką, esantį vietinio kliento CRT brokerio vietoje.
 
 4. Rasti plėtinio konfigūracijos failą, kuris skirtas CRT:
 
-    - **"Commerce Scale Unit:**" failo vardas yra commerceruntime.ext.config **,** jis yra IIS "Commerce Scale Unit" vietos aplanke binext **\\.**
+    - **"Commerce Scale Unit:** failas **yra pavadintas commerceruntime.ext.config**, **\\** jis yra talpyklos išorinio aplanko IIS "Commerce Scale Unit" vietoje.
     - **" CRT Modern POS" vietinė:** **failo vardas yra CommerceRuntime.MPOSOffline.Ext.config**, jis priklauso vietinio kliento CRT brokerio vietai.
 
 5. Užregistruokite CRT pakeitimą plėtinio konfigūracijos faile.
@@ -76,7 +76,7 @@ Plėtinio CRT komponentai įtraukiami į pavyzdžius CRT. Norėdami baigti šias
 
 1. Rasti plėtinio konfigūracijos failą, kuris skirtas CRT:
 
-    - **"Commerce Scale Unit:**" failo vardas yra commerceruntime.ext.config **,** jis yra IIS "Commerce Scale Unit" vietos aplanke binext **\\.**
+    - **"Commerce Scale Unit:** failas **yra pavadintas commerceruntime.ext.config**, **\\** jis yra talpyklos išorinio aplanko IIS "Commerce Scale Unit" vietoje.
     - **" CRT Modern POS" vietinė:** **failo vardas yra CommerceRuntime.MPOSOffline.Ext.config**, jis priklauso vietinio kliento CRT brokerio vietai.
 
 2. Užregistruokite CRT pakeitimą plėtinio konfigūracijos faile.
@@ -91,12 +91,12 @@ Plėtinio CRT komponentai įtraukiami į pavyzdžius CRT. Norėdami baigti šias
 
 #### <a name="enable-hardware-station-extensions"></a>Įjungti aparatūros stoties plėtinius
 
-Aparatūros stoties plėtinio komponentai įtraukiami į aparatūros stoties pavyzdžius. Norėdami atlikti šias procedūras, dalyje RetailSdkSampleExtensionsHardwareStation atidarykite sprendimą HardwareStationSamples.sln **·** **.\\\\**
+Aparatūros stoties plėtinio komponentai įtraukiami į aparatūros stoties pavyzdžius. Norėdami atlikti šias procedūras, dalyje RetailSdk SampleExtensions HardwareStation atidarykite sprendimą **HardwareStationSamples.sln** **\\.\\**
 
 ##### <a name="efrsample-component"></a>EFRSample komponentas
 
 1. Raskite **HardwareStation.Extension.EFRSample** projektą ir sukurkite jį.
-2. **Aplanke Extension.EFRSamplebinDebug\\\\** raskite šiuos surinkimo failus:
+2. **Aplanke Extension.EFRSample talpyklos\\\\ derinimas** raskite šiuos surinkimo failus:
 
     - Contoso.Commerce.HardwareStation.EFRSample.dll
     - Contoso.Commerce.Runtime.DocumentProvider.DataModelEFR.dll
@@ -119,9 +119,9 @@ Aparatūros stoties plėtinio komponentai įtraukiami į aparatūros stoties pav
 
 #### <a name="enable-pos-extensions"></a>Įgalinti EKA plėtinius
 
-EKA plėtinio pavyzdys yra **sprendimų saugyklos aplanke srcFiscalIntegrationPosFiscalConnectorSample\\\\**[Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/).
+EKA plėtinio pavyzdys yra **sprendimų saugyklos src\\ FiscalIntegration\\ PosFiscalConnectorSample**[Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/) aplanke.
 
-Norėdami naudoti EKA plėtinio imtį senstelėjusiame SDK, atlikite šiuos veiksmus.
+Norėdami naudoti EKA plėtinio pavyzdį senesniuose SDK, atlikite šiuos veiksmus.
 
 1. Nukopijuokite **aplanką EKA.Extension** į senesnio **SDK** aplanką EKA plėtiniai (pvz., `C:\RetailSDK\src\POS\Extensions`).
 1. Pervardykite **EKA.Plėtinio** aplanko **PosFiscalConnector kopiją**.
@@ -143,9 +143,9 @@ Norėdami naudoti EKA plėtinio imtį senstelėjusiame SDK, atlikite šiuos veik
 
 ### <a name="production-environment"></a>Gamybos aplinka
 
-Ankstesnėje procedūroje įgalinote plėtinius, kurie yra fiskalinės registracijos tarnybos integravimo pavyzdžio komponentai. Be to, turite atlikti šiuos veiksmus, jei norite kurti diegtinas pakuotes, kuriose yra "Commerce" komponentai, ir taikyti šias pakuotes gamybos aplinkoje.
+Ankstesnės procedūros metu įgalinote plėtinius, kurie yra finansinio registravimo tarnybos integravimo pavyzdžio komponentai. Be to, turite atlikti šiuos veiksmus, jei norite kurti diegtinas pakuotes, kuriose yra "Commerce" komponentai, ir taikyti šias pakuotes gamybos aplinkoje.
 
-1. Aplanke RetailSdkAssets **\\ pakuotės konfigūracijos failuose atlikite** šiuos pakeitimus:
+1. Atlikite šiuos paketo konfigūracijos failų keitimus, nurodytus aplanke **"RetailSdk\\ Assets** ":
 
     - Konfigūracijos failuose **commerceruntime.ext.config** **ir CommerceRuntime.MPOSOffline.Ext.config** įtraukite **šias eilutes į sudėties** skyrių.
 
@@ -155,14 +155,14 @@ Ankstesnėje procedūroje įgalinote plėtinius, kurie yra fiskalinės registrac
         <add source="assembly" value="Contoso.Commerce.Runtime.DocumentProvider.DataModelEFR" />
         ```
 
-    - Konfigūracijos faile **HardwareStation.Extension.config** į **kompozicijos** skyrių įtraukite šias eilutes.
+    - Konfigūracijos faile **HardwareStation.Extension.config** įtraukite šias eilutes į skyriaus **sudėtį**.
 
         ``` xml
         <add source="assembly" value="Contoso.Commerce.HardwareStation.EFRSample" />
         <add source="assembly" value="Contoso.Commerce.Runtime.DocumentProvider.DataModelEFR" />
         ```
 
-2. Atlikite šiuos pakeitimus **pritaikymo.settings** paketo tinkinimo konfigūravimo faile, esančiame aplanke **BuildTools**:
+2. Atlikite šiuos pakeitimus **customization.settings** paketo pritaikymo konfigūracijos faile, aplanke **BuildTools**:
 
     - Įtraukite šias eilutes, kad įtraukdami CRT plėtinius į diegiamus paketus.
 
@@ -171,7 +171,7 @@ Ankstesnėje procedūroje įgalinote plėtinius, kurie yra fiskalinės registrac
         <ISV_CommerceRuntime_CustomizableFile Include="$(SdkReferencesPath)\Contoso.Commerce.Runtime.DocumentProvider.DataModelEFR.dll" />
         ```
 
-    - Įtraukite šias eilutes, kad aparatūros stoties plėtiniai būtų įtraukti į diegiamus paketus.
+    - Įtraukite šias eilutes į "Hardware" stoties plėtinius į diegiamus paketus.
 
         ``` xml
         <ISV_HardwareStation_CustomizableFile Include="$(SdkReferencesPath)\Contoso.Commerce.HardwareStation.EFRSample.dll" />
@@ -180,21 +180,21 @@ Ankstesnėje procedūroje įgalinote plėtinius, kurie yra fiskalinės registrac
 
 3. Paleiskite MSBuild komandinę Visual Studio eilutę dėl paslaugų programos ir **paleiskite msbuild** "Retail" SDK aplanke, kad sukurtumėte diegiamus paketus.
 4. Taikykite paketus naudodami LCS arba rankiniu būdu. Daugiau informacijos ieškokite Create [deployable packages](../dev-itpro/retail-sdk/retail-sdk-packaging.md).
-5. Užpildykite visas būtinas nustatymo užduotis, aprašytas " [Set up Commerce for Germany"](emea-deu-fi-sample.md#set-up-commerce-for-germany).
+5. Atlikite visas būtinas nustatymo užduotis, aprašytas [Vokietijos komercijos nustatyme](emea-deu-fi-sample.md#set-up-commerce-for-germany).
 
 ## <a name="design-of-extensions"></a>Plėtinių dizainas
 
-Vokietijos fiskalinės registracijos tarnybos integravimo pavyzdys pagrįstas fiskalinės [integracijos funkcija](fiscal-integration-for-retail-channel.md). Daugiau informacijos apie finansinio integravimo sprendimo dizainą ieškokite finansinio [integravimo pavyzdžio dizaino apžvalgoje](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services).
+Vokietijos finansinio registravimo tarnybos integravimo pavyzdys yra pagrįstas finansinio [integravimo funkcijomis](fiscal-integration-for-retail-channel.md). Daugiau informacijos apie finansinio integravimo sprendimo dizainą ieškokite finansinio [integravimo pavyzdžio dizaino apžvalgoje](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services).
 
 ### <a name="commerce-runtime-extension-design"></a>"Commerce Runtime" plėtinio dizainas
 
 Plėtinio, kuris yra fiskalinio dokumento teikėjas, paskirtis yra generuoti paslaugai bvz., dokumentus ir tvarkyti atsakymus iš fiskalinių registracijų tarnybos.
 
-Plėtinys CRT yra **Runtime.Extensions.DocumentProvider.EFRSample**. Daugiau informacijos apie fiskalinės integracijos sprendimo dizainą ieškokite ["Commerce" kanalų](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services) fiskalinės integracijos apžvalga.
+Plėtinys CRT yra **Runtime.Extensions.DocumentProvider.EFRSample**. Daugiau informacijos apie finansinio integravimo sprendimo dizainą ieškokite "Commerce [" kanalų finansinio integravimo apžvalga](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services).
 
 #### <a name="request-handler"></a>Užklausų apdorojimo programa
 
-Yra viena dokumentų teikėjo **užklausų apdorojimo programa DocumentProviderEFRFiscalDEU**. Ši apdorojimo programa naudojama fiskalinės registracijos tarnybos finansiniams dokumentams generuoti. Jis paveldėtas iš **"INamedRequestHandler** " sąsajos. Metodas **HandlerName** yra atsakingas už apdorojimo programos pavadinimo grąžinimą. Apdorojimo programos pavadinimas turi sutapti su jungties dokumento teikėjo pavadinimu, kuris nurodytas "Commerce Headquarters".
+Yra viena dokumentų teikėjo užklausos apdorojimo programa **DocumentProviderEFRFiscalDEU**. Ši apdorojimo programa naudojama norint generuoti finansinio registravimo tarnybos finansinius dokumentus. Jis perimtas iš **INamedRequestHandler** sąsajos. Metodas **HandlerName** yra atsakingas už apdorojimo programos pavadinimo grąžinimą. Apdorojimo programos pavadinimas turi sutapti su jungties dokumento teikėjo pavadinimu, kuris nurodytas "Commerce Headquarters".
 
 Jungtis palaiko šias užklausas:
 
@@ -203,21 +203,21 @@ Jungtis palaiko šias užklausas:
 
 #### <a name="configuration"></a>Konfigūracija
 
-Konfigūracijos **failas DocumentProviderFiscalEFRSampleGermany** yra plėtinio **projekto aplanke Konfigūracija**. Šio failo paskirtis – įgalinti dokumento teikėjo parametrus, kurie bus konfigūruoti iš "Commerce Headquarters". Failo formatas sulygiuotas su finansinio integravimo konfigūracijos reikalavimais.
+Konfigūracijos **failas DocumentProviderFiscalEFRSampleGermany** **yra** plėtinio projekto konfigūracijos aplanke. Šio failo paskirtis – įgalinti dokumento teikėjo parametrus, kurie bus konfigūruoti iš "Commerce Headquarters". Failo formatas sulygiuotas su finansinio integravimo konfigūracijos reikalavimais.
 
 Pridedami šie parametrai:
 
-- **PVM tarifų susiejimas** – pvm tarifų verčių, nustatytų PVM kodams, susiejimas su atributo **TaxG** (mokesčių grupė) vertėmis užklausose, siunčiamose į fiskalinę tarnybą.
-- **Dovanų kortelių ir indėlių** mokesčių grupė – "TaxG **" atributo** vertė prašymuose, siunčiamuose fiskalinei tarnybai, remiantis operacijomis, susijusiomis su dovanų kortelėmis ar indėliais.
-- **Mokėjimo priemonės tipo susiejimas** – mokėjimo metodų susiejimas su atributo **PayG** (mokėjimo grupė) reikšmėmis užklausose, siunčiamose į fiskalinę tarnybą.
-- **Pvm neapmokestinamų** mokesčių grupė – atributo **TaxG** vertė užklausose, siunčiamose fiskalinei tarnybai, remiantis operacijomis, kurios neapmokestinamos mokesčių prievolėmis.
-- **Įtraukti kliento duomenis** – jei šis parametras įjungtas, fiskalinės tarnybos užklausose bus kliento informacija, pvz., vardai ir adresai, tais atvejais, kai klientas įtraukiamas į operaciją.
+- **PVM tarifų** susiejimas – **mokesčio procento verčių, kurios nustatytos PVM kodams, susiejimas su TaxG** (mokesčių grupės) atributo vertėmis užklausose, kurios siunčiamos į fiskalinę tarnybą.
+- **Dovanų kortelių ir depozitų mokesčių grupė –** TaxG **atributo vertė užklausose, kurios siunčiamos į fiskalinę paslaugą, atsižvelgiant į operacijas**, kurias sudaro dovanų kortelės arba depozitai.
+- **Mokėjimo priemonės tipo** susiejimas – mokėjimo būdų susiejimas **su atributo PayG** (mokėjimų grupė) vertėmis užklausose, kurios siunčiamos į fiskalinę tarnybą.
+- **Neapmokestinimo PVM grupė** – **TaxG** atributo vertė užklausose, kurios siunčiamos fiskalinei tarnybai, atsižvelgiant į operacijas, kurios neapmokestinamos mokesčių įsipareigojimais.
+- **Įtraukti kliento duomenis** – jei šis parametras įjungtas, užklausose į fiskalinę paslaugą bus pateikta kliento informacija, pvz., pavadinimai ir adresai, kai klientas įtraukiamas į operaciją.
 
 ### <a name="hardware-station-extension-design"></a>Aparatūros stoties plėtinio dizainas
 
 Plėtinio, kuris yra fiskalinė jungtis, paskirtis yra palaikyti ryšį su finansinių registracijų tarnyba.
 
-Aparatūros stoties plėtinys yra **HardwareStation.Extension.EFRSample**. Jis naudoja HTTP protokolą, kad pateiktų dokumentus, kuriuos CRT plėtinys generuoja fiskalinės registracijos tarnybai. Jis taip pat tvarko atsakymus, gautus iš finansinio registravimo tarnybos.
+Aparatūros stoties plėtinys yra **HardwareStation.Extension.EFRSample**. Ji naudoja HTTP protokolą dokumentams, kuriuos sugeneruoja CRT plėtinys, pateikti iždo registracijos tarnybai. Jis taip pat tvarko atsakymus, gautus iš finansinio registravimo tarnybos.
 
 #### <a name="request-handler"></a>Užklausų apdorojimo programa
 
@@ -236,8 +236,8 @@ Konfigūracijos failas yra plėtinio **projekto** konfigūracijos aplanke. Failo
 Pridedami šie parametrai:
 
 - **Galinio punkto** adresas – finansinio registravimo tarnybos URL.
-- **Skirtasis** laikas – laikas milisekundėmis (ms), kurį vairuotojas lauks atsakymo iš fiskalinės registracijos tarnybos.
-- **Rodyti fiskalinės registracijos pranešimus** – jei šis parametras įjungtas, pranešimai iš fiskalinės tarnybos bus rodomi kaip vartotojo pranešimai EKA.
+- **Skirtasis** laikas milisekundiais (ms), kurį vairuotojas laukia atsakymo iš finansinių registracijų tarnybos.
+- **Rodyti finansinio registravimo pranešimus** – jei šis parametras įjungtas, pranešimai iš finansinių paslaugų bus rodomi kaip vartotojo pranešimai EKA.
 
 ### <a name="pos-fiscal-connector-extension-design"></a>EKA "Fiscal Connector" plėtinio dizainas
 
@@ -245,11 +245,11 @@ EKA finansinio jungties plėtinio paskirtis yra susisiekti su finansinio registr
 
 #### <a name="fiscal-connector-factory"></a>Finansinių jungčių gamykla
 
-Iždo jungties gamyklos jungties pavadinimas susietas su "Fiscal Connector **" diegimas ir yra faile Pos.ExtensionConnectorsFiscalConnectorFactory.ts\\\\**. Jungties pavadinimas turi atitikti "Commerce Headquarters" nurodytą finansinio jungties pavadinimą.
+Iždo jungties gamyklos jungties pavadinimas susietas su "Fiscal Connector **" diegimas ir yra faile Pos.Extension\\ Connectors\\ FiscalConnectorFactory.ts**. Jungties pavadinimas turi atitikti "Commerce Headquarters" nurodytą finansinio jungties pavadinimą.
 
 #### <a name="efr-fiscal-connector"></a>EFR iždo jungtis
 
-EFR fiskalinė jungtis yra **faile Pos.ExtensionConnectorsEfrEfrFiscalConnector.ts\\\\\\**. Jis įdiegia **IFiscalConnector sąsają**, palaikančią šias užklausas:
+EFR fiskalinė jungtis yra **Pos.Extension\\ Connectors\\ Efr\\ EfrFiscalConnector.ts faile**. Jis įdiegia **IFiscalConnector sąsają**, palaikančią šias užklausas:
 
 - **FiscalRegisterSubmitDocumentClientRequest** – ši užklausa siunčia dokumentus finansinio registravimo tarnybai ir grąžina atsakymą iš jos.
 - **FiscalRegisterIsReadyClientRequest** – ši užklausa naudojama norint patikrinti iždo dokumentų registracijos tarnybos sveikumą.
@@ -257,7 +257,7 @@ EFR fiskalinė jungtis yra **faile Pos.ExtensionConnectorsEfrEfrFiscalConnector.
 
 #### <a name="configuration"></a>Konfigūracija
 
-Konfigūracijos failas yra sprendimų saugyklos **aplanke srcFiscalIntegrationEfrConfigurationsConnectors\\\\\\\\**[Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/). Failo paskirtis – įgalinti finansinio jungties parametrus, kurie bus konfigūruoti iš "Commerce Headquarters". Failo formatas sulygiuotas su finansinio integravimo konfigūracijos reikalavimais. Pridedami šie parametrai:
+Konfigūracijos failas yra sprendimų saugyklos **src\\ FiscalIntegration\\ Efr\\ konfigūracijų \\**[Dynamics 365 Commerce jungčių](https://github.com/microsoft/Dynamics365Commerce.Solutions/) aplanke. Failo paskirtis – įgalinti finansinio jungties parametrus, kurie bus konfigūruoti iš "Commerce Headquarters". Failo formatas sulygiuotas su finansinio integravimo konfigūracijos reikalavimais. Pridedami šie parametrai:
 
 - **Galinio punkto** adresas – finansinio registravimo tarnybos URL.
 - **Skirtasis** laikas milisekundiais, kurį jungtis lauks atsakymo iš fiskalinių registracijų tarnybos.

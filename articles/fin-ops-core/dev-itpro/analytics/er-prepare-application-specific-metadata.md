@@ -1,6 +1,6 @@
 ---
 title: Programos metaduomenų, kurie bus naudojami RCS ir ER, paruošimas
-description: Šioje temoje paaiškinama, kaip paruošti programos metaduomenis, skirtus „Regulatory Configuration Service“ (RCS) ir elektroninėms ataskaitoms (ER).
+description: Šiame straipsnyje paaiškinama, kaip parengti programai bingus metaduomenis reguliavimo konfigūracijos tarnybai (RCS) ir elektroninei ataskaitai (ER).
 author: NickSelin
 ms.date: 04/04/2019
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 9136bd3db2aee1447d6af3b3c47b908177cee966aba630490cc6e72072525d29
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d41069cf03e9ce49a3faa4f3933d91edd3b7d360
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6735603"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8864650"
 ---
 # <a name="prepare-application-specific-metadata-for-rcs-and-er"></a>Programos metaduomenų, kurie bus naudojami RCS ir ER, paruošimas
 
 [!include[banner](../includes/banner.md)]
 
-Šioje temoje pateikiama toliau nurodytų užduočių pavyzdžių:
+Šiame straipsnyje rasite tokių užduočių pavyzdžius:
 
 - [Programos metaduomenų, kuriuos galima naudoti RCS, paruošimas](#prepare-application-metadata-that-can-be-used-in-rcs)
 - [Prieiga prie programos metaduomenų naudojant ER konfigūraciją](#access-application-metadata-by-using-an-er-configuration)
@@ -97,7 +97,7 @@ Kad galėtumėte atlikti šią procedūrą, pirmiausia atlikite toliau nurodytas
 
 1. Eikite į **Visos darbo sritys \> Elektroninės ataskaitos**.
 2. Įsitikinkite, kad pavyzdinės įmonės „Litware, Inc.” konfigūracijos teikėjas yra prieinamas ir pažymėtas kaip **Aktyvus**. Jei nematote šio konfigūracijų teikėjo, atlikite [Konfigūracijų teikėjų kūrimas ir pažymėjimas kaip aktyvių](tasks/er-configuration-provider-mark-it-active-2016-11.md) procedūrą. 
-3. Importuokite ER metaduomenų konfigūraciją, kurioje yra programos metaduomenys ir kuri sukonfigūruota generuoti elektroninius dokumentus, skirtus užsienio prekybos verslo sričiai. Jūs sukūrėte šią ER metaduomenų konfigūraciją ir eksportavote ją kaip XML failą atlikdami šioje temoje anksčiau pateiktą procedūrą [Programos metaduomenų, kuriuos galima naudoti RCS, paruošimas](#prepare-application-metadata-that-can-be-used-in-rcs).
+3. Importuokite ER metaduomenų konfigūraciją, kurioje yra programos metaduomenys ir kuri sukonfigūruota generuoti elektroninius dokumentus, skirtus užsienio prekybos verslo sričiai. Sukūrėte šią ER metaduomenų konfigūraciją ir eksportavote ją kaip XML [failą paruošdami programos metaduomenis, kuriuos galima naudoti anksčiau šiame straipsnyje taikant RCS](#prepare-application-metadata-that-can-be-used-in-rcs) procedūrą.
 
     1. Pasirinkite **Metaduomenų konfigūracijos**.
     2. Pasirinkite **Keitimas**.
@@ -198,12 +198,12 @@ Jei reikia, galite išplėsti esamą programos metaduomenų rinkinį. Tada galit
 
 Toliau pateiktoje procedūroje parodoma, kaip RCS vartotojas, turintis vaidmens **Sistemos administratorius** arba **Elektroninės ataskaitos kūrėjas** teises, gali sukurti naują ER modelio susiejimą naudodamas programos metaduomenis. Programos metaduomenys bus pasiekiami tinkle naudojant programą, prijungtą prie RCS. Bus sukonfigūruotas ER modelio susiejimo pavyzdys, siekiant pasiekti užsienio prekybos operacijas.
 
-Norėdami atlikti šią procedūrą, pirmiausia turite atlikti [Konfigūracijų teikėjų kūrimas ir pažymėjimas kaip aktyvių](tasks/er-configuration-provider-mark-it-active-2016-11.md) procedūrą RCS. Jei dar neatlikote anksčiau šioje temoje pateiktos procedūros [Prieiga prie programos metaduomenų naudojant ER konfigūraciją](#access-application-metadata-by-using-an-er-configuration), eikite į puslapį [Elektroninių ataskaitų užduočių vedliai, skirti „Dynamics 365 for Finance and Operations 8.1“](https://go.microsoft.com/fwlink/?linkid=2082739) ir iš anksto atsisiųskite toliau nurodytus ER konfigūracijos failus ir įrašykite juos vietinėje sistemoje: **Užsienio prekybos metaduomenys.xml**, **Užsienio prekybos modelis.xml** ir **Užsienio prekybos susiejimas.xml**.
+Norėdami atlikti šią procedūrą, pirmiausia turite atlikti [Konfigūracijų teikėjų kūrimas ir pažymėjimas kaip aktyvių](tasks/er-configuration-provider-mark-it-active-2016-11.md) procedūrą RCS. [Jei dar nebaigėte prieigos programos metaduomenų naudodami ER](#access-application-metadata-by-using-an-er-configuration) konfigūravimo procedūrą, kuri nurodyta anksčiau šiame straipsnyje, eikite į puslapį 8.1 [elektroninių ataskaitų užduočių vadovas, Dynamics 365 for Finance and Operations](https://go.microsoft.com/fwlink/?linkid=2082739) kad iš anksto atsisiųstumėte toliau nurodytus ER konfigūracijos failus ir įrašytumėte juos vietoje: **užsienio prekybos metaduomenys.xml**, **užsienio prekybos modelis.xml** **ir užsienio prekybos susiejimas.xml**.
 
 
 ### <a name="get-required-er-configurations"></a>Reikiamų ER konfigūracijų gavimas
 
-Jei jau atlikote anksčiau šioje temoje nurodytos procedūros [Prieiga prie programos metaduomenų naudojant ER konfigūraciją](#access-application-metadata-by-using-an-er-configuration) veiksmus, jūs jau turite visas reikiamas ER konfigūracijas (užsienio prekybos metaduomenų, modelio ir susiejimo konfigūracijas) dabartiniame RCS egzemplioriuje. Tokiu atveju galite praleisti šią procedūrą.
+Jei jau [užbaigėte prieigos programos metaduomenis naudodami ER](#access-application-metadata-by-using-an-er-configuration) konfigūravimo procedūrą, kuri nurodyta anksčiau šiame straipsnyje, jau turite visas reikiamas ER konfigūracijas (užsienio prekybos metaduomenis, modelį ir susiejimo konfigūracijas) dabartiniame RCS egzemplioriuje. Tokiu atveju galite praleisti šią procedūrą.
 
 1. Eikite į **Visos darbo sritys \> Elektroninės ataskaitos**.
 2. Pasirinkite **Ataskaitų konfigūracijos**.

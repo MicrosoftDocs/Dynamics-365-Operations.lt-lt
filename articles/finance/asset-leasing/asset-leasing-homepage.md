@@ -1,6 +1,6 @@
 ---
 title: Modulio Turto nuoma pagrindinis puslapis
-description: Šioje temoje pateikiama modulio Turto nuoma dokumentų apžvalga ir saitai su konkrečiomis temomis.
+description: Šiame straipsnyje pateikta turto dokumentacijos apžvalga ir saitai į konkrečias temas.
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -17,27 +17,27 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-27
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: c82c54b08a7d4c603d1246c598abacc51eb88839
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 014c34791f280ca1d3d9154cd0870a73cc43d26b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710391"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889155"
 ---
 # <a name="asset-leasing-home-page"></a>Modulio Turto nuoma pagrindinis puslapis
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje pateiktos modulio Turto nuoma žinyno temos ir pateikiami saitai su konkrečiomis temomis. 
+Šiame straipsnyje išvardijamos žinyno temos, kurios galimos turto pereiti, ir pateikiami saitai į konkrečias temas. 
 
 Turto funkcija yra išplėstinė nuomojamo turto valdymo, sekimo ir automatinių Microsoft Dynamics finansinių operacijų galimybė 365 finansuose. Turto nuoma atitinka tarptautinius apskaitos standartus (IFRS 16) ir JAV GAAP standartus (ASC 842). Turto nuoma fiksuoja ir apdoroja nuomos informaciją ir padeda generuoti mėnesinius nuomos ciklo žurnalo įrašus – nuo pradinio pripažinimo iki nuomos pablogėjimo ir nutraukimo.
 
 Kad galėtumėte naudoti šią funkciją, ji turi būti įjungta jūsų sistemoje. Administratoriai gali naudoti **Funkcijos valdymas** darbo sritį, norėdami sužinoti funkcijos būseną ir įjungti ją, jei reikia. Darbo srityje **Funkcijų valdymas** raskite ir pasirinkite funkciją, pavadinta **Turto nuoma** ir tada spustelėkite **Įjungti dabar** mygtuką.
 
 ## <a name="asset-leasing-topics"></a>Modulio Turto nuoma temos
-Tolesnė tema pateikiama norint konfigūruoti ir naudoti modulį Turto nuoma. 
+Toliau pateikiamas straipsnis yra skirtas padėti sukonfigūruoti ir naudoti turto operacijose. 
 
- - [Darbo moduliu Turto nuoma pradžia](asset-leasing-quick-start.md) – šioje temoje aprašomos bendrosios modulio Turto nuoma galimybės bei pateikiami ir apibrėžiami terminai, naudojami programinėje įrangoje bei dokumentacijoje.
+ - [Turto naudojimo pradžia](asset-leasing-quick-start.md) – šiame straipsnyje aprašomos bendrosios turto galimybės ir sąrašai bei aprašomi programinėje įrangoje ir dokumentacijoje naudojami terminai.
  
  ### <a name="set-up-asset-leasing"></a>Modulio Turto nuoma nustatymas
  Ši temų grupė gali padėti sukonfigūruoti modulį Turto nuoma tokiu būdu, kuris būtų optimalus jūsų organizacijos verslo situacijai.  
@@ -77,7 +77,7 @@ Tolesnė tema pateikiama norint konfigūruoti ir naudoti modulį Turto nuoma.
  - [Nuomos tvarkymas naudojant nuomos importo sistemą](manage-leases-thru-imprt-framewrk.md)
  
 ### <a name="asset-leasing-reporting"></a>Turto nuomos ataskaitos
-Šioje temoje aprašomos ataskaitos, kurias galima su turto nuomomis. 
+Šiame straipsnyje aprašomos ataskaitos, kurias galima naudoti turto nuomai. 
 
  - [Turto nuomos ataskaitos](asset-leasing-rprts.md)
  
@@ -90,7 +90,7 @@ Norėdami pamatyti, kokios naujos funkcijos suplanuotos, eikite į tinklalapį [
 
 ### <a name="blogs"></a>Tinklaraščiai
 
-[„Microsoft Dynamics 365” tinklaraštyje](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) ir [„Microsoft Dynamics 365 Finance and Operations – Financials” tinklaraštyje](https://community.dynamics.com/365/financeandoperations/b/financials) galite rasti nuomonių, naujienų ir kitos informacijos.
+[„Microsoft Dynamics 365” tinklaraštyje](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) ir [„Microsoft Dynamics 365 Finance and Operations – finansai” tinklaraštyje](https://community.dynamics.com/365/financeandoperations/b/financials) galite rasti nuomonių, naujienų ir kitos informacijos.
 
 „[Microsoft Dynamics Operations“ partnerių bendruomenės tinklaraštis](https://community.dynamics.com/partner/b/operationspartnercommunityblog) – tai vienas išteklius, kuriame „Microsoft Dynamics“ partneriai gali sužinoti, kas nauja ir kokios yra „Dynamics 365“ tendencijos.
 

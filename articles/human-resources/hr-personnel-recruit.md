@@ -1,6 +1,6 @@
 ---
 title: Įdarbinti darbo kandidatai
-description: Šioje temoje aprašoma, kaip samdyti kandidatus Dynamics 365 Human Resources.
+description: Šiame straipsnyje aprašoma, kaip samdyti kandidatus Dynamics 365 Human Resources.
 author: twheeloc
 ms.date: 10/28/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-12-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ef2f2c82708fd48055faa7546e7e0c4da51e7b6c
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 743c78d3526db2707630229d4cf21531f9641dd6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8733991"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879256"
 ---
 # <a name="recruit-job-candidates"></a>Įdarbinti darbo kandidatai
 
@@ -46,12 +46,13 @@ Jei nenaudojate atskiros įdarbinimo parašikos, galite taip pat rankiniu būdu 
 Jei norite pateikti įdarbinimo užklausas personalo įdarbinimo srityje, pirmiausia **turite įgalinti personalo vartotojo** patirties ir įdarbinimo **proceso valdymo** priemones.
 
 Kai priemonės įjungtos, pasirinkite funkcijas, atlikite šiuos veiksmus: 
-1. Eiti į **Human resourcesSetupHuman** > **·** > **išteklių parametrus**.
-2. Skirtuke  **Recruitment**  nustatykite lauką **Įdarbinimas išjungtas** kaip **Ne**.
-3. Išplečiamajame **įdarbinimo patirties** sąraše pasirinkite Personalo **įdarbinimas**.   
+1. Eikite į **Personalo nustatymas** > **·** > **Personalo parametrai**.
+2. Skirtuke  **Įdarbinimas** nustatykite lauką **Įdarbinimas** įgalintas kaip **Taip**.
+3. Išplečiamajame **įdarbinimo patirties** sąraše pasirinkite Personalo **įdarbinimas**.  
+4. Spustelėkite **Įrašyti**. 
 
 > [!Note] 
-> Pasirinkus **personalo įdarbinimą**, įdarbinimo **projektai** (iš senesni) bus tik skaitomi. 
+> Kai **pasirinktas personalo** įdarbinimas, **įdarbinimo projektai** (senesni) bus negalimi. 
 
 
 ## <a name="add-a-recruiting-request-location"></a>Įtrauktei įdarbinimo užklausos vietą

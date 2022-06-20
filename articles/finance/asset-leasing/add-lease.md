@@ -1,6 +1,6 @@
 ---
 title: Nuomos įtraukimas arba kopijavimas (peržiūros versija)
-description: Šioje temoje aprašoma, kaip sukurti naują nuomą, įvedant jos informaciją modulyje Turto nuoma arba kopijuojant informaciją iš esamos nuomos.
+description: Šiame straipsnyje aprašoma, kaip sukurti naują nuomą įvedant informaciją apie ją turto operacijai arba kopijuojant informaciją iš esamos nuomos.
 author: moaamer
 ms.date: 01/11/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: b09a87c7d4f5ba076647218c3586d17a13e6c558
-ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
+ms.openlocfilehash: 798ab3ece45ee6f21694a364cfb7a4ff14a9c8aa
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7967931"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880938"
 ---
 # <a name="add-or-copy-leases-preview"></a>Nuomos įtraukimas arba kopijavimas (peržiūros versija)
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje paaiškinama, kaip nuo nulio sukurti nuomą modulyje Turto nuoma ir kaip sukurti nuomą nukopijuojant esamą nuomą. Nuomos kūrimo nuo nulio procesas apima naujos nuomos informacijos įvedimą ir nuomos grafiko sukūrimą. Nustačius bent vieną nuomą, gali būti lengviau nukopijuoti informaciją iš esamos nuomos ir pagal poreikį redaguoti šią informaciją, kad būtų sukurta nauja nuoma.
+Šiame straipsnyje paaiškinama, kaip kurti nuomą nuo pradžių turto perskyroje, ir kaip kurti nuomą kopijuojant esamą nuomą. Nuomos kūrimo nuo nulio procesas apima naujos nuomos informacijos įvedimą ir nuomos grafiko sukūrimą. Nustačius bent vieną nuomą, gali būti lengviau nukopijuoti informaciją iš esamos nuomos ir pagal poreikį redaguoti šią informaciją, kad būtų sukurta nauja nuoma.
 
 ## <a name="create-a-lease"></a>Nuomos kūrimas
 
@@ -37,14 +37,14 @@ Atlikite tolesnius veiksmus, norėdami sukurti nuomą modulyje Turto nuoma.
 
 Nuomos mokėjimo pradžios data negali būti ankstesnė už nuomos pradžios datą. Jei įvesite nuomos mokėjimo pradžios datą, kuri būtų ankstesnė nei nuomos pradžios data, gausite klaidos pranešimą.
 
-Pagal numatytuosius nustatymus parinktis Paskirstymo mokėjimo suma, esanti puslapio Nuomos informacija bendrajame FastTab, nustatyta kaip Ne, jei turto parametrų puslapyje leisti mokėjimo paskirstymą **nustatyta** **kaip** **·** **·** **·** **·** **Taip**. 
+Pagal numatytuosius **nustatymus** **paskirstymo** mokėjimo sumos parinktis, esanti puslapio Nuomos informacija bendrajame **FastTab** **, yra nustatyta kaip Ne** **·** **·**, jei turto parametrų puslapyje leisti mokėjimo paskirstymą nustatyta **kaip Taip.** 
 
-Jei **parinktis Paskirstymo** mokėjimo suma nustatyta kaip **Taip**, mokėjimo grafiko eilučių FastTab laukas Mokėjimo suma **yra** **užrakintas**. Jis bus nustatytas kaip bendroji mokėjimo sumų suma, kuri vėliau įvedama mokėjimo **sumos paskirstymo** kataloge.
+Jei paskirstymo **mokėjimo sumos parinktis** nustatyta kaip **Taip**, mokėjimo **grafiko** eilučių **"** FastTab" mokėjimo sumos laukas yra užrakintas. Jis bus nustatytas kaip bendroji mokėjimo sumų suma, kuri vėliau įvedama mokėjimo sumos **paskirstymo kataloge**.
 
-Pasirinkite **mokėjimo sumos** paskirstymą, kad atidarytumėte puslapį, kuriame galite įtraukti elemento mokėjimo tipus. Mygtukas **Įtraukti sumas į mokėjimo sumą** perkels sumas į **lauką Mokėjimo** suma.
+Pasirinkite **mokėjimo sumos paskirstymą**, kad atidarytumėte puslapį, kuriame galite įtraukti elemento mokėjimo tipus. Mygtukas **Įtraukti sumas į mokėjimo sumą** perkels sumas į lauką **Mokėjimo** suma.
 
 > [!NOTE]
-> Jei pridedate prekę mokėjimo sumą ir tada pasirenkate klavišą Esc, įvestos sumos nebus pridėtos prie mokėjimo sumos lauko mokėjimo **grafiko** **·** **eilutėse** "FastTab". Todėl jie bus saugomi mokėjimo **sumos paskirstymo** dialogo lange. Jei norite, kad dialogo lange būtų rodoma bendroji suma, pasirinkite stulpelį Suma, pasirinkite ir sulaikykite (arba spustelėkite dešiniuoju pelės mygtuku), tada pasirinkite Bendroji **šio** **stulpelio** suma. 
+> Jei pridedate prekę mokėjimo **sumą ir tada pasirenkate klavišą Esc**, **·** **įvestos sumos nebus pridėtos prie mokėjimo sumos lauko mokėjimo grafiko eilutėse** "FastTab". Todėl jie bus saugomi mokėjimo sumos **paskirstymo** dialogo lange. Jei norite, kad dialogo lange būtų rodoma bendroji suma, pasirinkite stulpelį Suma, **pasirinkite** ir sulaikykite (arba spustelėkite dešiniuoju pelės mygtuku), **tada pasirinkite Šio stulpelio suma**. 
 
 Mygtukas **Kopijuoti eilutę** kopijuos visų elementų mokėjimo paskirstymą.
 

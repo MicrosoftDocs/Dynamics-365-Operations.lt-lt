@@ -1,6 +1,6 @@
 ---
 title: Atsargų įkainojimo DUK
-description: Šioje temoje atsakinėja keletas dažnai užduodamų klausimų apie atsargų įkainojimo programoje Microsoft Dynamics 365 Supply Chain Management.
+description: Šiame straipsnyje pateikiami kai kurie dažnai užduodami klausimai apie atsargų įkainojimas programoje "Microsoft"Dynamics 365 Supply Chain Management.
 author: rachel-profitt
 ms.date: 05/03/2022
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2022-05-03
 ms.dyn365.ops.version: 10.0.27
-ms.openlocfilehash: 45f65bd4a5cfb9bd0c4eb03ceb56eca452f6ec95
-ms.sourcegitcommit: cbe9493d479f96f271d94599ec1b85131b26169f
+ms.openlocfilehash: 467839b1d0ca6788a92ae60d46686374d0a58046
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "8809306"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850850"
 ---
 # <a name="inventory-costing-faq"></a>Atsargų įkainojimo DUK
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje atsakinėja keletas dažnai užduodamų klausimų apie atsargų įkainojimo programoje Microsoft Dynamics 365 Supply Chain Management.
+Šiame straipsnyje pateikiami kai kurie dažnai užduodami klausimai apie atsargų įkainojimas programoje "Microsoft"Dynamics 365 Supply Chain Management.
 
 ## <a name="inventory-close-adjustments-and-recalculation"></a>Atsargų uždarymas, koregavimas ir perskaičiavimas
 
@@ -359,7 +359,7 @@ Rekomenduojame dažnai stebėti ir taisyti neigiamas atsargas, kai jūsų organi
 
 ### <a name="do-i-have-to-create-a-new-item-if-my-inventory-has-gone-negative-and-i-use-moving-average"></a>Ar man reikia sukurti naują prekę, jei mano atsargų rezultatai neigiami, ir aš esu naudoja slankusį vidurkį?
 
-Ne. Jei jūsų organizacija leidžia atsargai pasiekti fiziškai neigiamą ir naudojate slankusį vidurkį kaip atsargų modelį, **sistema** naudos atsarginę savikainos seką, priskirtą atsargų ir sandėlio valdymo parametrų puslapyje, kad nustatytų, kaip išlaidos bus priskirtos jūsų problemų metu. Apskritai, rekomenduojame išvengti faktinio atsargų neigiamo leidžiant. Daugiau informacijos rasite kitų klausimų šios temos skyriuje [Neigiamos](#negative-inventory) atsargos.
+Ne. Jei jūsų organizacija leidžia atsargai pasiekti fiziškai neigiamą ir naudojate slankusį vidurkį kaip atsargų modelį, **sistema** naudos atsarginę savikainos seką, priskirtą atsargų ir sandėlio valdymo parametrų puslapyje, kad nustatytų, kaip išlaidos bus priskirtos jūsų problemų metu. Apskritai, rekomenduojame išvengti faktinio atsargų neigiamo leidžiant. Norėdami gauti daugiau informacijos, žr. kitus klausimus šio [straipsnio skyriuje](#negative-inventory) Neigiamos atsargos.
 
 ## <a name="not-stocked-products"></a>Ne atsargose neturimi produktai
 
@@ -433,7 +433,7 @@ Kai yra faktinio atnaujinimo registravimo ir gavimo finansinio atnaujinimo kain�
 
 ### <a name="when-i-use-moving-average-what-happens-if-there-is-an-issue-before-the-receipt"></a>Jei naudojate slankusį vidurkį, kas atsitinka, jei išdavimas yra prieš gavimą?
 
-Paprastai prieš gavimą gali būti išdavimas, nes leidžiate prekių modelių grupės faktines neigiamas atsargas arba išdavimas vėluojamas kurti. Daugiau informacijos ieškokite šios temos [skyriuje Neigiamos](#negative-inventory) atsargos.
+Paprastai prieš gavimą gali būti išdavimas, nes leidžiate prekių modelių grupės faktines neigiamas atsargas arba išdavimas vėluojamas kurti. Daugiau informacijos ieškokite šio straipsnio [skyriuje Neigiamos](#negative-inventory) atsargos.
 
 Jei operacijas vėluojate, rekomenduojame atidžiai apsvarstyti savo verslo procesą ir operacijas, siekiant nustatyti, ar yra būdas išvengti šio scenarijaus. Jei operacijai, kuri naudoja slankusį vidurkį, sukurkite operacijos datą, sistema operacijai priskirs dabartinį slankusį vidurkį. Vėlesnės problemos nereguliuojamas. Daugiau informacijos apie slankusį vidurkį su atgalinės prekybos operacijomis ieškokite slankusis [vidurkis](moving-average.md).
 

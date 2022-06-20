@@ -1,6 +1,6 @@
 ---
 title: Kilmės šalis / regionas
-description: Daugelis organizacijų išduoda sertifikatus savo pardavėjams tam, kad užtikrintų, jog jų produktai atitiktų sertifikato standartus. Šie sertifikatai dažnai priklauso nuo kilmės šalies. Šiame skyriuje pateikiama informacija apie kilmės šalies savybes, kurios leidžia jums susieti gaminį su jo kilmės šalimi ir sekti gaminių sertifikatus.
+description: Daugelis organizacijų išduoda sertifikatus savo pardavėjams tam, kad užtikrintų, jog jų produktai atitiktų sertifikato standartus. Šie sertifikatai dažnai priklauso nuo kilmės šalies. Šiame straipsnyje pateikiama informacija apie kilmės šalį, kuri leidžia susieti produktą su jo kilmės šalimi ir sekti produkto sertifikatus.
 author: t-benebo
 ms.date: 07/15/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: a2740f6b1ccb52073b013e613d8ab779cc088180
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: 60d5a2067b8e3d311af89fb09cfa3b5c007db219
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7777643"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8882524"
 ---
 # <a name="country-of-origin"></a>Kilmės šalis / regionas
 
@@ -28,7 +28,7 @@ Daugelis organizacijų išduoda sertifikatus savo pardavėjams tam, kad užtikri
 
 ## <a name="turn-on-the-country-of-origin-feature"></a>Kilmės šalies funkcijos įjungimas
 
-Kaip tiekimo grandinės valdymo versija 10.0.21, ši funkcija yra įjungta pagal numatytuosius nustatymus. Administratoriai gali naudoti [funkcijų valdymo](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) puslapį, kad patikrintų funkcijos būseną ir prireikus ją įjungtų arba išjungtų. Čia funkcija yra nurodyta kaip:
+Kaip ir tiekimo grandinės valdymo versija 10.0.21 ši funkcija įjungiama pagal numatytąjį nustatymą. Administratoriai gali naudotis funkcijų [valdymo puslapiu](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), norėdami patikrinti priemonės būseną ir, jei reikia, ją įgalinti arba išjungti. Čia funkcija yra nurodyta kaip:
 
 - **Modulis:** *Produkto informacijos valdymas*
 - **Funkcijos pavadinimas:** *Kilmės šalies tvarkymo funkcija*

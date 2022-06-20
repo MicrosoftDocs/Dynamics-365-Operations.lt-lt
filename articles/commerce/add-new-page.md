@@ -1,6 +1,6 @@
 ---
 title: Įtraukti naują svetainės puslapį
-description: Šioje temoje aprašoma, kaip programoje „Microsoft Dynamics 365 Commerce“ įtraukti naują svetainės puslapį.
+description: Šiame straipsnyje aprašoma, kaip pridėti naują svetainės puslapį Microsoft Dynamics 365 Commerce.
 author: psimolin
 ms.date: 02/03/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: e0c2a73ae9e85cb299e7cb6fc70562659cdfadc5
-ms.sourcegitcommit: 1eef00796f7c5511f432b01800cdf8920992d7d5
+ms.openlocfilehash: 76fc3f52746943d5cbf1cb31e677344a1d14bee3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/04/2022
-ms.locfileid: "8090724"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871733"
 ---
 # <a name="add-a-new-site-page"></a>Įtraukti naują svetainės puslapį
 
 [!include [banner](includes/banner.md)]
 
-Šioje temoje aprašoma, kaip programoje „Microsoft Dynamics 365 Commerce“ įtraukti naują svetainės puslapį.
+Šiame straipsnyje aprašoma, kaip pridėti naują svetainės puslapį Microsoft Dynamics 365 Commerce.
 
 Svetainei sukūrus šablonų ir fragmentų, kitas veiksmas yra pradėti kurti puslapius, kuriuose jie naudojami. Norėdami pradėti, turite pasirinkti šabloną arba maketą, puslapio pavadinimą ir puslapio URL.
 
@@ -35,7 +35,7 @@ Naujam puslapiui galite naudoti šabloną arba maketą. Norėdami gauti daugiau 
 
 ## <a name="specify-the-page-name"></a>Nurodykite puslapio pavadinimą
 
-Puslapio pavadinimas turi būti unikalus jūsų svetainei ir turi būti aprašomasis, kad galėtumėte lengvai jį rasti, o kiti žmonės žinotų, kam puslapis skirtas. Vėliau galite pervardyti puslapį, jį redaguodami ir ypatybių srityje šalia puslapio pavadinimo pasirinkę rašiklio simbolį.
+Puslapio pavadinimas turi būti unikalus jūsų svetainei ir turi būti aprašomasis, kad jį galėtumėte lengvai surasti, o kiti žmonės žinotų, kam skirtas šis puslapis. Vėliau galite pervardyti savo puslapį redaguodami jį ir pasirinkdami rašiklio simbolį, esantį ypatybių srityje šalia puslapio pavadinimo.
 
 ## <a name="specify-the-page-url"></a>Nurodykite puslapio URL
 

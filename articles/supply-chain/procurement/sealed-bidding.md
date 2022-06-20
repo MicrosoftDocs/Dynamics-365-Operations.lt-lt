@@ -1,6 +1,6 @@
 ---
 title: Užantspauduotas kainos pasiūlymas, skirtas RFQ
-description: Šioje temoje aprašoma, kaip nustatyti užantspauduotos kainos pasiūlymą, kad tiekėjo kainų pasiūlymo atsakymai būtų palikti slapti, kol jie nėra atskleisti pirkimo personalo.
+description: Šiame straipsnyje aprašoma, kaip nustatyti užantspauduotos kainos pasiūlymą, kad tiekėjo kainų pasiūlymo atsakymai būtų palikti slapti, kol jie neatlikti pirkimo personalo.
 author: GalynaFedorova
 ms.date: 08/02/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: dfc19646d6724627c8a25bcfc8a6b2a70a73c261
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 40f1735d7efa5131b1462963758b6b48eec78fea
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8675155"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890892"
 ---
 # <a name="sealed-bidding-for-rfqs"></a>Užantspauduotas kainos pasiūlymas, skirtas RFQ
 
@@ -148,7 +148,7 @@ RFQ kurimo užantspauduotam kainos siūlymui procesas yra beveik toks pats, kaip
 RFQ atvejai užantspauduotos kainos pasiūlymai turi turėti **Pasiūlymo tipo** vertę kaip *Užantspauduota*. Yra trys būdai priskirti šią vertę RFQ atvejui:
 
 - Sukūrę vertę tiesiai RFQ atveju nustatykite ją.
-- Nurodykite užantspauduotos kainos pasiūlymą kaip numatytąjį visų RFQ atvejų, nurodytų įsigijimo ir pirkimo parametruose, kainos siūlymo tipą. (Žr. [Nustatykite numatytojo kainos pasiūlymo tipą](#set-default-bid-type) šiame skyriuje aukščiau.)
+- Nurodykite užantspauduotos kainos pasiūlymą kaip numatytąjį visų RFQ atvejų, nurodytų įsigijimo ir pirkimo parametruose, kainos siūlymo tipą. (Žr. [Anksčiau šiame straipsnyje nustatykite](#set-default-bid-type) numatytojo kainos pasiūlymo tipo skyrių.)
 - Kai sukuriate naują RFQ atvejį, pasirinkite siūlymo tipą, nustatytą užantspauduotam kainos pasiūlymui. (Žr. [Nustatykite numatytąjį kainos pasiūlymo tipo](#set-default-bid-type) skyrių.)
 
 Užantspauduotame kainos pasiūlyme RFQ atvejo **Galiojimo data ir laiko** vertė nustatoma tada, kai pateikti kainų pasiūlymai gali būti atskleisti. Kiekvienos eilutės **Galiojimo data ir laiko** vertė atitiks antraštės vertę.

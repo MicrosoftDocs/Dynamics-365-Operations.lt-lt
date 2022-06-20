@@ -1,6 +1,6 @@
 ---
 title: Pardavimo ir perkėlimo užsakymų surinkimo viršijimas
-description: Šioje temoje paaiškinama, kaip įgalinti pardavimo ir perkėlimo užsakymų surinkimo perviršį.
+description: Šiame straipsnyje paaiškinama, kaip įgalinti pardavimo užsakymų ir perkėlimo užsakymų paėmimą per daug.
 author: GalynaFedorova
 ms.date: 07/06/2021
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2021-07-06
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 52a4225efa88a7b9303dd611d5652f59da1612a4
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: b8bbc7d532f910edfb442831d6c906f253dee06c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8678414"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8897290"
 ---
 # <a name="over-picking-for-sales-orders-and-transfer-orders"></a>Pardavimo ir perkėlimo užsakymų surinkimo viršijimas
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje pateikiamas scenarijus, kuris rodo, kaip įgalinti konkretų darbuotoją arba visus darbuotojus surinkimo viršijimui. Surinkimo viršijimo procesas leidžia rinkimo metu valdyti surinkimo perviršį.
+Šiame straipsnyje pateikiamas scenarijus, kuris parodo, kaip įgalinti arba konkretų darbuotoją, arba visus darbuotojus, kad jie galėtų paimti per daug. Surinkimo viršijimo procesas leidžia rinkimo metu valdyti surinkimo perviršį.
 
 Sandėlio surinkimo viršijimas yra paprastos koncepcijos. Sistema leidžia darbuotojams surinkti daugiau prekių, nei nurodyta užsakyme. Tačiau, vis dar yra atsižvelgiama į pristatymo pertekumo ribą, kuri nustatyta perkėlimo užsakymo arba pardavimo užsakymo eilutės lygyje. Jei ši riba viršijama, „Warehouse Management“ programa darbuotojams praneša, kad jie viršija pristatymo perviršio ribą.
 
@@ -41,11 +41,11 @@ Surinkimo viršijimo funkcija gali padėti darbuotojams sutaupyti laiko ir pasta
 > [!IMPORTANT]
 > Surinkimo viršijimo funkcija taikoma tik pardavimo užsakymui ir perkėlimo užsakymo paėmimui bei apdorojimui. Papildymas nepalaiko surinkimo perviršio funkcijos. Kai atliekamas papildymo darbas, sistema neleidžia vartotojams surinkti per daug.
 
-Šioje temoje parodytas scenarijus, kaip nustatyti ir naudoti perrinkimo funkciją.
+Šiame straipsnyje pateikiamas scenarijus, kaip nustatyti ir naudoti perrinkiklio funkciją.
 
 ## <a name="scenario-prerequisite-make-demo-data-available"></a>Būtina scenarijaus sąlyga: padaryti pasiekiamas demonstracinius duomenis
 
-Šioje temoje esantis scenarijus nurodo reikšmes ir įrašus, įtrauktus į standartinius „Microsoft Dynamics 365 Supply Chain Management” demonstracinius duomenis. Jei norite naudoti čia pateiktas reikšmes atlikdami pratimus, įsitikinkite, kad dirbate aplinkoje, kurioje įdiegti demonstraciniai duomenys, ir prieš pradėdami nustatykite juridinį subjektą į *USMF*.
+Scenarijus šiame straipsnyje nurodo vertes ir įrašus, kurie yra įtraukti į standartinius demonstracinius duomenis, kurie pateikiami "Microsoft"Dynamics 365 Supply Chain Management. Jei norite naudoti čia pateiktas reikšmes atlikdami pratimus, įsitikinkite, kad dirbate aplinkoje, kurioje įdiegti demonstraciniai duomenys, ir prieš pradėdami nustatykite juridinį subjektą į *USMF*.
 
 ## <a name="scenario-setup"></a>Scenarijaus nustatymas
 

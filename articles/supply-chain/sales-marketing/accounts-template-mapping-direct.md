@@ -1,6 +1,6 @@
 ---
 title: Tiesioginis „Sales“ sąskaitų sinchronizavimas su „Supply Chain Management“ klientais
-description: Šioje temoje aptariami šablonai ir pagrindinės užduotys, naudojami „Dynamics 365 Sales“ sąskaitas sinchronizuojant su „Supply Chain Management“.
+description: Šiame straipsnyje aptariamos šablonai ir su tuo susijusių užduočių, kurios naudojamos "Dynamics 365" pardavimo ir tiekimo grandinės valdymui sinchronizuoti.
 author: Henrikan
 ms.date: 10/25/2018
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: henrikan
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: b3257f4582ede6cd1be8e593a5ed99f5ffd0ca6f
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 8d415174f62c511626852b91f3591f907b4a85ea
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8063090"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8851571"
 ---
 # <a name="synchronize-accounts-directly-from-sales-to-customers-in-supply-chain-management"></a>Tiesioginis „Sales“ sąskaitų sinchronizavimas su „Supply Chain Management“ klientais
 
@@ -32,7 +32,7 @@ ms.locfileid: "8063090"
 > [!NOTE]
 > Prieš naudodami sprendimą Potencialūs klientai ir grynieji pinigai, turėtumėte būti susipažinę su [Duomenų integravimas į „Microsoft Dataverse“, skirtą programoms](/powerapps/administrator/data-integrator).
 
-Šioje temoje aptariami šablonai ir pagrindinės užduotys, naudojami „Dynamics 365 Sales“ sąskaitas tiesiogiai sinchronizuojant su „Dynamics 365 Supply Chain Management”.
+Šiame straipsnyje aptariamos šablonai ir susijusios užduotys, naudojamos sąskaitoms sinchronizuoti tiesiogiai iš "Dynamics 365 Sales" į Dynamics 365 Supply Chain Management.
 
 ## <a name="data-flow-in-prospect-to-cash"></a>Duomenų srautas sprendime Potencialūs klientai ir grynieji pinigai
 
@@ -101,7 +101,7 @@ Toliau pateiktose iliustracijose vaizduojamas šablono susiejimo pavyzdys naudoj
 
 ![Šablono susiejimas naudojant funkcija Duomenų integravimas.](./media/accounts-direct-template-mapping-data-integrator-1.png)
 
-## <a name="related-topics"></a>Susijusios temos
+## <a name="related-articles"></a>Susiję straipsniai
 
 
 [Potencialaus kliento pavertimas pinigais](prospect-to-cash.md)

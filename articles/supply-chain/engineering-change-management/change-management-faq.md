@@ -1,6 +1,6 @@
 ---
 title: Inžinerinių pakeitimų valdymo DUK
-description: Šioje temoje pateikiami atsakymai į dažniausiai užduodamus klausimus apie inžinerinio keitimo valdymo funkciją.
+description: Šiame straipsnyje pateikiami atsakymai į dažnai užduodamus klausimus apie inžinerinių pakeitimų valdymo funkciją.
 author: t-benebo
 ms.date: 03/25/2021
 ms.topic: article
@@ -10,18 +10,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-03-25
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: dee16f9d6f8ea583f221a7f6eb466675c8c622d0
-ms.sourcegitcommit: 9638d3a2bd592dc28f5952bda4af7dcf06edfaa4
+ms.openlocfilehash: 16d29fa6485bae866a5209a855dfb928e8bc4783
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8007612"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8870788"
 ---
 # <a name="engineering-change-management-faq"></a>Inžinerinių pakeitimų valdymo DUK
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje pateikiami atsakymai į dažniausiai užduodamus klausimus apie inžinerinio keitimo valdymo funkciją.
+Šiame straipsnyje pateikiami atsakymai į dažnai užduodamus klausimus apie inžinerinių pakeitimų valdymo funkciją.
 
 ## <a name="should-i-track-the-version-in-transactions"></a>Ar sekti operacijų versiją?
 
@@ -67,7 +67,7 @@ Kartu su laukais, kurie rodomi ankstesnėje lentelėje, visi numatytieji užsaky
 > [!NOTE]
 >
 > - Vienetas yra numatytasis šablone.
-> - Mažmenininkams, naudojantys funkciją, mažmeninės prekybos kategoriją priskiriant produktui, mažmeninės prekybos kategorijos numatytosios vertės taikomos daugelyje Dynamics 365 Commerce išleisto produkto lygio laukų. Šios numatytosios vertės perrašo numatytąsias vertes, kurios gali būti šablono nustatytos arba nukopijuotos iš inžinerijos.
+> - Mažmenininkams, Dynamics 365 Commerce naudojantys funkciją, mažmeninės prekybos kategoriją priskiriant produktui, mažmeninės prekybos kategorijos numatytosios vertės taikomos daugelyje išleisto produkto lygio laukų. Šios numatytosios vertės perrašo numatytąsias vertes, kurios gali būti šablono nustatytos arba nukopijuotos iš inžinerijos.
 
 ## <a name="should-i-create-a-separate-legal-entity-for-engineering-products-or-use-an-existing-legal-entity"></a>Ar reikia sukurti atskirą gamybos produktų juridinį subjektą, ar naudoti esamą juridinį subjektą?
 

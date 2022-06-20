@@ -1,6 +1,6 @@
 ---
 title: Failų importavimas XML formatu su pasirinktiniais atributais
-description: Šioje temoje pateikiama informacija apie tai, kaip kuriami ER formatai, kurie nurodo XML atributus, kad būtų analizuojami gaunami elektroniniai dokumentai XML formatu.
+description: Šiame straipsnyje pateikiama informacija apie ER formatų, kurie nurodo XML atributus gaunamiems elektroniniams dokumentams išanalizuoti XML formatu, dizainą.
 author: NickSelin
 ms.date: 07/03/2019
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 81156cf13e003a67fde0a73bdcd69b2c997f23a33c464fad82132f7768f8a99f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f5b25b51a4f59bf9c308bcaeb140e2737597798e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6757302"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873228"
 ---
 # <a name="import-files-in-xml-format-with-optional-attributes"></a>Failų importavimas XML formatu su pasirinktiniais atributais
 
@@ -26,7 +26,7 @@ ms.locfileid: "6757302"
 
 Galite sukurti elektroninių ataskaitų (ER) formatus, skirtus analizuoti gaunamus elektroninius dokumentus XML formatu. Sukurtame ER formate tam tikri XML elementų atributai gali būti nurodyti kaip pasirinktiniai. Taigi galėsite tinkamai tvarkyti gaunamus failus naudodami tokius XML atributus arba jų nenaudodami. Tada galite naudoti šių failų turinį programos duomenims atnaujinti.
 
-Norėdami daugiau sužinoti apie šią funkciją, atlikite veiksmus, aprašytus temoje [(RCS) XML formato failų su pasirinktiniais atributais importavimas](tasks/import-files-xml-format-optional-attributes.md), kuri yra verslo proceso 7.5.4.3 Įsigyti / sukurti IT paslaugų ir sprendimų komponentų (10677) dalis. Šį užduočių vedlį ir susietus failų pavyzdžius galite atsisiųsti iš [„Microsoft“ atsisiuntimo centras](https://go.microsoft.com/fwlink/?linkid=874684).
+Norėdami daugiau sužinoti apie šią funkciją, atlikite straipsnio veiksmus, [importuokite failus XML formatu](tasks/import-files-xml-format-optional-attributes.md) su pasirinktiniais atributais, kurie yra "7.5.4.3 Acquire/Develop IT service/solution" (10677) verslo proceso dalis. Šį užduočių vedlį ir susietus failų pavyzdžius galite atsisiųsti iš [„Microsoft“ atsisiuntimo centras](https://go.microsoft.com/fwlink/?linkid=874684).
 
 
 | Turinio aprašas       | Failas                                                         |
@@ -38,7 +38,7 @@ Norėdami daugiau sužinoti apie šią funkciją, atlikite veiksmus, aprašytus 
 Šie veiksmai paaiškina, kaip sistemos administratoriaus arba elektroninių ataskaitų kūrėjo pareigas einantis vartotojas gali kurti ER formato konfigūraciją, naudojamą importuojant XML formato failus, kuriuose yra pasirinktinių atributų. Norint atlikti šiuos veiksmus, pirmiausia reikia atlikti veiksmus, nurodytus procedūroje [Sukurti konfigūracijų teikėjus ir juos pažymėti kaip aktyvius](tasks/er-configuration-provider-mark-it-active-2016-11.md). Prieš pradėdami, atsisiųskite ir vietiniame diske išsaugokite failą IncomingDocumentToLearnHowToHandleOptionalAttributes.xml iš „Microsoft“ atsisiuntimo centro (https://go.microsoft.com/fwlink/?linkid=874684).
 
 1. Eikite į **Organizacijos administravimas** > **Darbo sritys** > **Elektroninės ataskaitos**.
-2. Įsitikinkite, kad pavyzdinės įmonės „Litware, Inc.” konfigūracijos teikėjas yra prieinamas ir pažymėtas kaip **Aktyvus**. Jei nematote šio konfigūracijos teikėjo, atlikite veiksmus, nurodytus temoje [Sukurti konfigūracijų teikėjus ir juos pažymėti kaip aktyvius](tasks/er-configuration-provider-mark-it-active-2016-11.md).
+2. Įsitikinkite, kad pavyzdinės įmonės „Litware, Inc.” konfigūracijos teikėjas yra prieinamas ir pažymėtas kaip **Aktyvus**. Jei nematote šio konfigūracijos teikėjo, atlikite straipsnio veiksmus, [sukurkite konfigūracijos teikėjus ir pažymėkite juos kaip aktyvius](tasks/er-configuration-provider-mark-it-active-2016-11.md).
 3. Spustelėkite **Ataskaitų konfigūracijos**.
 
 ## <a name="create-a-new-data-model-configuration"></a>Sukurti naują duomenų modelio konfigūraciją

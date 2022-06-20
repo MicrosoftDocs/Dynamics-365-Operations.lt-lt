@@ -1,6 +1,6 @@
 ---
 title: Nustatyti pažangų banko suderinimo importavimą naudojant elektronines ataskaitas
-description: Šioje temoje paaiškinama, kaip naudoti elektronines ataskaitas išplėstiniam banko suderinimo importavimo procesui nustatyti.
+description: Šiame straipsnyje paaiškinama, kaip naudoti elektronines ataskaitas išplėstiniam banko suderinimo importavimo procesui nustatyti.
 author: panolte
 ms.date: 03/30/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 10.0.25
-ms.openlocfilehash: 30530a9870ba2ff0546237d2698d1675afa78104
-ms.sourcegitcommit: 2b4ee1fe05792332904396b5f495d74f2a217250
+ms.openlocfilehash: 2ac8811a5c10490d90f782472d3c198474c7edc0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/18/2022
-ms.locfileid: "8770200"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889126"
 ---
 # <a name="set-up-advanced-bank-reconciliation-import-by-using-electronic-reporting"></a>Nustatyti pažangų banko suderinimo importavimą naudojant elektronines ataskaitas
 
 [!include [banner](../includes/banner.md)]
 
-Išplėstinės banko suderinimo priemonė leidžia importuoti elektroninius banko išrašus ir automatiškai suderinti juos Microsoft Dynamics su banko operacijomis,-365 finansuose. Šioje temoje paaiškinama, kaip nustatyti jūsų banko išrašų importavimo funkcijas. Banko išrašo importavimo nustatymas priklauso nuo elektroninio banko išrašo formato. Microsoft Dynamics 365 Finansai palaiko tris banko išrašų formatus: ISO20022, MT940 ir BAI2. 
+Išplėstinės banko suderinimo priemonė leidžia importuoti elektroninius banko išrašus ir automatiškai suderinti juos Microsoft Dynamics su banko operacijomis,-365 finansuose. Šiame straipsnyje paaiškinama, kaip nustatyti banko išrašų importavimo funkciją. Banko išrašo importavimo nustatymas priklauso nuo elektroninio banko išrašo formato. Microsoft Dynamics 365 Finansai palaiko tris banko išrašų formatus: ISO20022, MT940 ir BAI2. 
 
 ## <a name="set-up-the-electronic-reporting-configuration"></a>Elektroninių ataskaitų konfigūracijos parametrai
 

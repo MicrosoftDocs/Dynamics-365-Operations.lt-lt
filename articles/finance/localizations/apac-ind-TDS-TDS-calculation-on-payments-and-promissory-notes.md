@@ -1,6 +1,6 @@
 ---
 title: Mokėjimų ir paprastųjų vekselių TDS skaičiavimas
-description: Šioje temoje pateikiama nuorodos informacija apie skirtingas mokėjimo operacijas, pagal kurias skaičiuojamas šaltinis (TDS) išskaičiuotas mokestis.
+description: Šiame straipsnyje pateikiama nuorodos informacija apie skirtingas mokėjimo operacijas, pagal kurias apskaičiuojamas mokestis, taikomas šaltinyje (TDS).
 author: kailiang
 ms.date: 02/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 7f38a8c4b0416abb10bfdaf95c3379e964e9a41e
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: f5e9447924a17b96b7a4a5cdd1ef1547145d6ea1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726468"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906324"
 ---
 # <a name="tds-calculation-on-payments-and-promissory-notes"></a>Mokėjimų ir paprastųjų vekselių TDS skaičiavimas
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje pateikiama nuorodos informacija apie skirtingas mokėjimo operacijas, pagal kurias skaičiuojamas šaltinis (TDS) išskaičiuotas mokestis.
+Šiame straipsnyje pateikiama nuorodos informacija apie skirtingas mokėjimo operacijas, pagal kurias apskaičiuojamas mokestis, taikomas šaltinyje (TDS).
 
 | Serijos Nr. | Operacijos tipas | Operacijos suma | Puslapio pavadinimas ir pasirinkimo maršrutas | Sąskaitos tipas ir kompensavimo sąskaitos tipas |
 |---------------|------------------|--------------------|--------------------|--------------------------------------|

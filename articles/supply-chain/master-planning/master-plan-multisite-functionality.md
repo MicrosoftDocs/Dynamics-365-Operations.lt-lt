@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 55594290f0583085f16506acb058ad83a02c54f1
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 289763931703eb354ae78fa18f37cd00f1102de8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8470168"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8844915"
 ---
 # <a name="master-planning-and-multisite-functionality-overview"></a>Bendrojo planavimo ir funkcionalumo daugelyje vietų apžvalga
 
@@ -37,7 +37,7 @@ Kai dimensija yra privaloma, dimensijos vertė turi būti įvesta visoms atsarg�
 
 Kai sandėlis nenustatytas kaip privalomas, jis gali būti nežinomas pagal pradinį poreikį. Planavimo mechanizmas turi nustatyti, kurį sandėlį naudoti pagal prekei nustatytus parametrus, individualius sandėlius ir užsakymo eilutės informaciją.
 
-Toliau pateikiamose temose aprašoma, kaip veikia planavimo mechanizmas, kai pasirenkami skirtingi parametrai naudojamam sandėliui nustatyti.
+Toliau pateikiami straipsniai apibrėžia, kaip veikia planavimo variklis, kai apibrėžiami skirtingi parametrai, norint nustatyti naudotiį sandėlį.
 
 [Bendrasis vietos ir sandėlio padengimo planas, sandėlis privalomas](master-plan-site-warehouse-coverage-warehouse-mandatory.md)
 

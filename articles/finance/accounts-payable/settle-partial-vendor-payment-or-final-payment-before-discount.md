@@ -1,6 +1,6 @@
 ---
 title: Sudengiamas dalinis tiekėjo mokėjimas ir visas paskutinis mokėjimas prieš nuolaidos datą
-description: Ši tema pereina scenarijų, kuriame atliekami daliniai tiekėjo SF mokėjimai ir taikoma mokėjimo nuolaida.
+description: Šiame straipsnyje apžvelgiamas scenarijus, kai pagal tiekėjo SF atliekami daliniai mokėjimai ir pritaikoma mokėjimo nuolaida.
 author: abruer
 ms.date: 08/22/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 04b00c8407ea2fd7d1e4b58db47c392989a20577
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: 90aeff9872e72950f42b6227300933d562c0a3d0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8716249"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889996"
 ---
 # <a name="settle-a-partial-vendor-payment-and-the-final-payment-in-full-before-the-discount-date"></a>Sudengiamas dalinis tiekėjo mokėjimas ir visas paskutinis mokėjimas prieš nuolaidos datą
 
 [!include [banner](../includes/banner.md)]
 
-Ši tema pereina scenarijų, kuriame atliekami daliniai tiekėjo SF mokėjimai ir taikoma mokėjimo nuolaida.
+Šiame straipsnyje apžvelgiamas scenarijus, kai pagal tiekėjo SF atliekami daliniai mokėjimai ir pritaikoma mokėjimo nuolaida.
 
 „Fabrikam“ perka prekes iš 3064 tiekėjo. Tiekėjas suteikia „Fabrikam“ 1 procento mokėjimo nuolaidą, jei sąskaita faktūra apmokama per 14 dienų. SF turi būti apmokėtos per 30 dienų. Tiekėjas „Fabrikam‟ taip pat leidžia taikyti mokėjimo nuolaidas, kai mokama dalimis. Sudengimo parametrai yra puslapyje **Mokėtinų sumų parametrai**. Birželio 25 d. Eglė 3064 tiekėjui sukuria SF 1000,00 sumai.
 

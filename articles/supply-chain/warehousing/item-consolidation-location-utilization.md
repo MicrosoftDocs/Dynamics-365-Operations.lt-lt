@@ -1,6 +1,6 @@
 ---
 title: Elemento konsolidavimas - vietos naudojimas
-description: Šiame temoje pateikta informacija apie funkcijas, kurios palengvina sandėlio vadovų vietų kiekio naudojimo peržiūrą ir filtravimą sandėlyje. Vadovai gali pasirinkti vietas ir sukurti inventoriaus judėjimo darbą tiesiai iš elemento konsolidavimo puslapio į konsoliduotus elementus ir taip pagerinti sandėlio vietos naudojimą.
+description: Šiame straipsnyje pateikiama informacija apie funkcijas, kurios padeda sandėlio vadovams lengvai peržiūrėti ir filtruoti vietų sandėlyje tūrio matavimo naudojimą. Vadovai gali pasirinkti vietas ir sukurti inventoriaus judėjimo darbą tiesiai iš elemento konsolidavimo puslapio į konsoliduotus elementus ir taip pagerinti sandėlio vietos naudojimą.
 author: Mirzaab
 ms.date: 07/16/2020
 ms.topic: article
@@ -13,22 +13,22 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: f858eae57b8b354076f5ed026a4b84ed680866b0
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 63fd8b209cb73843aae7324c805c5d0eb83b4ca4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7578613"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849190"
 ---
 # <a name="item-consolidation---location-utilization"></a>Elemento konsolidavimas - vietos naudojimas
 
 [!include [banner](../includes/banner.md)]
 
-Šiame temoje pateikta informacija apie funkcijas, kurios palengvina sandėlio vadovų vietų kiekio naudojimo peržiūrą ir filtravimą sandėlyje. Vadovai gali pasirinkti vietas ir sukurti inventoriaus judėjimo darbą tiesiai iš elemento **Elemento konsolidavimo** puslapio į konsoliduotus elementus ir taip pagerinti sandėlio vietos naudojimą.
+Šiame straipsnyje pateikiama informacija apie funkcijas, kurios padeda sandėlio vadovams lengvai peržiūrėti ir filtruoti vietų sandėlyje tūrio matavimo naudojimą. Vadovai gali pasirinkti vietas ir sukurti inventoriaus judėjimo darbą tiesiai iš elemento **Elemento konsolidavimo** puslapio į konsoliduotus elementus ir taip pagerinti sandėlio vietos naudojimą.
 
 ## <a name="turn-on-the-features"></a>Savybių įjungimas
 
-Prieš pradedant naudoti šiame skyriuje aprašytas savybes, privalote įjungti jas savo sistemoje. Administratoriai gali naudoti [Savybių valdymą](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) darbo srityje tam, kad patikrintų savybių būseną ir jas įjungtų, jei jos būtinos. Įjunkite toliau pateiktas savybes jų išvardijimo tvarka. (Abi savybės yra skirtos **Sandėlio valdymo** moduliui.)
+Prieš naudodami šiame straipsnyje aprašytas funkcijas, turite įjungti jas savo sistemoje. Administratoriai gali naudoti [Savybių valdymą](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) darbo srityje tam, kad patikrintų savybių būseną ir jas įjungtų, jei jos būtinos. Įjunkite toliau pateiktas savybes jų išvardijimo tvarka. (Abi savybės yra skirtos **Sandėlio valdymo** moduliui.)
 
 1. Sandėlio vietos būsena
 2. Prekės konsolidacijos vietos naudojimas
@@ -51,7 +51,7 @@ Prieš pradedant naudoti šiame skyriuje aprašytas savybes, privalote įjungti 
 
 ## <a name="set-up-item-consolidation-and-location-utilization"></a>Nustatyto elemento konsolidavimas ir vietos naudojimas
 
-Šis skyrius aprašo instrukcijas, kaip parengti sistemą, kuri naudoja konsoliduotą elementą ir vietos naudojimą. Procedūros naudoja paprastas vertes iš standartinių demonstracijos duomenų. Jei planuojate dirbti per visą pavyzdžio scenarijų, kuris pateiktas tolesėje temoje, pasirinkite **USMF** juridinį subjektą (kuriame yra standartiniai demonstracijos duomenys) ir sukurkite visus įrašus aprašytus šiame skyriuje. Jei neplanuojate dirbti su visu pavyzdiniu scenarijumi, čia pateiktos vertės gali būti laikomos nustatymų tipų pavyzdžiais, kuriuos privalote pabaigti tam, kad naudotumėte savybes.
+Šis skyrius aprašo instrukcijas, kaip parengti sistemą, kuri naudoja konsoliduotą elementą ir vietos naudojimą. Procedūros naudoja paprastas vertes iš standartinių demonstracijos duomenų. Jei planuojate dirbti naudodami pavyzdinį scenarijų, kuris pateikiamas toliau šiame straipsnyje, pasirinkite USMF **juridinį subjektą (kuriame yra standartiniai demonstraciniai duomenys) ir sukurkite kiekvieną įrašą,** kuris aprašytas šiame skyriuje. Jei neplanuojate dirbti su visu pavyzdiniu scenarijumi, čia pateiktos vertės gali būti laikomos nustatymų tipų pavyzdžiais, kuriuos privalote pabaigti tam, kad naudotumėte savybes.
 
 ### <a name="released-product"></a>Patvirtintas produktas
 

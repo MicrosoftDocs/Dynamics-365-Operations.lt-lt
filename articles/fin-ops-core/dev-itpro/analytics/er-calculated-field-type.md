@@ -1,8 +1,8 @@
 ---
 title: Apskaičiuoto lauko tipo ER duomenų šaltinių parametrizuotų kvietimų palaikymas
-description: Šioje temoje pateikiama informacija apie tai, kaip naudoti ER duomenų šaltinių apskaičiuoto lauko tipą.
+description: Šiame straipsnyje pateikiama informacija apie tai, kaip naudoti ER duomenų šaltiniams apskaičiuotą lauko tipą.
 author: NickSelin
-ms.date: 08/06/2020
+ms.date: 01/04/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,21 +14,21 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: fb09e1ccd4b2be08e43784330adf4092ca25f5a6
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
-ms.translationtype: HT
+ms.openlocfilehash: 4a4933c429982d1371c7c9a9412789ae08e08f43
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6349165"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8934726"
 ---
 # <a name="support-parameterized-calls-of-er-data-sources-of-the-calculated-field-type"></a>Apskaičiuoto lauko tipo ER duomenų šaltinių parametrizuotų kvietimų palaikymas
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje paaiškinama, kaip galima kurti elektroninių ataskaitų (ER) duomenų šaltinį naudojant **apskaičiuoto lauko** tipą. Šiame duomenų šaltinyje gali būti naudojama ER išraiška, kurią vykdymo metu galima kontroliuoti nurodant parametro argumentų reikšmes, kurios sukonfigūruotos šio duomenų šaltinio kvietimui. Konfigūruodami tokio duomenų šaltinio parametrizuotus kvietimus, galite naudoti vieną duomenų šaltinį daugeliui susiejimų, o tai sumažina bendrą duomenų šaltinių, kuriuos reikia sukonfigūruoti ER modelio susiejimams arba ER formatams, skaičių. Be to, taip supaprastinamas sukonfigūruotas komponentas, o tai sumažina priežiūros išlaidas ir naudojimo išlaidas kitiems vartotojams.
+Šiame straipsnyje paaiškinama, kaip sukurti elektroninės ataskaitos (ER) duomenų šaltinį naudojant lauko **tipą Apskaičiuotas**. Šiame duomenų šaltinyje gali būti naudojama ER išraiška, kurią vykdymo metu galima kontroliuoti nurodant parametro argumentų reikšmes, kurios sukonfigūruotos šio duomenų šaltinio kvietimui. Konfigūruodami tokio duomenų šaltinio parametrizuotus kvietimus, galite naudoti vieną duomenų šaltinį daugeliui susiejimų, o tai sumažina bendrą duomenų šaltinių, kuriuos reikia sukonfigūruoti ER modelio susiejimams arba ER formatams, skaičių. Be to, taip supaprastinamas sukonfigūruotas komponentas, o tai sumažina priežiūros išlaidas ir naudojimo išlaidas kitiems vartotojams.
 
 ## <a name="prerequisites"></a>Būtinieji komponentai
-Norint įvykdyti šios temos pavyzdžių užduotis, reikia toliau nurodytų prieigų.
+Norėdami užbaigti pavyzdžius šiame straipsnyje, turite turėti šią prieigą:
 
 - Prieiga prie vieno iš šių vaidmenų:
 
@@ -36,7 +36,7 @@ Norint įvykdyti šios temos pavyzdžių užduotis, reikia toliau nurodytų prie
     - Elektroninės ataskaitos funkcijų konsultantas
     - Sistemos administratorius
 
-- Prieiga prie „Regulatory Configuration Services“, kuris buvo suteiktos tam pačiam nuomotojui, kaip ir „Finance and Operations“ vienai iš toliau paminėtų vaidmenų:
+- Prieiga prie „Regulatory Configuration Services“ (RCS), kuris sukurtas tam pačiam kaip ir „Finance and Operations“ nuomotojui vienam iš toliau nurodytų vaidmenų:
 
     - Elektroninės ataskaitos kūrėjas
     - Elektroninės ataskaitos funkcijų konsultantas
@@ -46,10 +46,10 @@ Taip pat turite atsiųsti ir vietoje saugoti toliau nurodytus failus.
 
 | **Turinys**                           | **Failo vardas**                                        |
 |---------------------------------------|------------------------------------------------------|
-| ER duomenų modelio konfigūracijos pavyzdys    | [Parametrizuotų kvietimų mokymo modelis.versija.1.xml](https://mbs.microsoft.com/customersource/global/AX/downloads/hot-fixes/365optelecrepeg)     |
-| ER metaduomenų konfigūracijos pavyzdys      | [Parametrizuotų kvietimų mokymo metaduomenys.versija.1.xml](https://mbs.microsoft.com/customersource/global/AX/downloads/hot-fixes/365optelecrepeg)  |
-| ER modelio susiejimo konfigūracijos pavyzdys | [Parametrizuotų kvietimų mokymo susiejimas.versija.1.1.xml](https://mbs.microsoft.com/customersource/global/AX/downloads/hot-fixes/365optelecrepeg) |
-| ER formato konfigūracijos pavyzdys        | [Parametrizuotų kvietimų mokymo formatas.versija.1.1.xml](https://mbs.microsoft.com/customersource/global/AX/downloads/hot-fixes/365optelecrepeg)  |
+| ER duomenų modelio konfigūracijos pavyzdys    | [Parametrizuotų kvietimų mokymo modelis.versija.1.xml](https://download.microsoft.com/download/e/5/c/e5c0d3f9-1818-47c7-ae75-46efcbb1314f/Modeltolearnparameterizedcallsversion.1.xml)     |
+| ER metaduomenų konfigūracijos pavyzdys      | [Parametrizuotų kvietimų mokymo metaduomenys.versija.1.xml](https://download.microsoft.com/download/8/3/a/83a910a5-bf65-4509-bec4-6737a81ecc45/Metadatatolearnparameterizedcalls.version.1.xml)  |
+| ER modelio susiejimo konfigūracijos pavyzdys | [Parametrizuotų kvietimų mokymo susiejimas.versija.1.1.xml](https://download.microsoft.com/download/b/f/d/bfd8cbd8-0370-44d1-a1b1-66d021c580ca/Mappingtolearnparameterizedcalls.version.1.1.xml) |
+| ER formato konfigūracijos pavyzdys        | [Parametrizuotų kvietimų mokymo formatas.versija.1.1.xml](https://download.microsoft.com/download/8/1/d/81deb6d8-a768-4fcf-bbbe-8f84d2dac3eb/Formattolearnparameterizedcalls.version.1.1.xml)  |
 
 ## <a name="sign-in-to-your-rcs-instance"></a>Prisijunkite prie savo RCS egzemplioriaus
 Šiame pavyzdyje sukursite pavyzdinės įmonės „Litware, Inc.“ konfigūraciją. Pirmiausia naudodami RCS turite atlikti tolesnius procedūros [Konfigūracijos teikėjų kūrimas, pažymint juos kaip aktyvius](tasks/er-configuration-provider-mark-it-active-2016-11.md) veiksmus.
@@ -84,7 +84,7 @@ Taip pat turite atsiųsti ir vietoje saugoti toliau nurodytus failus.
             - Mokesčio verčių suma.
             - Mažiausioji taikomo mokesčio tarifo vertė.
 
-    Modelio žemėlapio nustatymas šiame konfigūravime įgyvendina pagrindinius duomenų modelius bet kuriems ER formatams sukurtiems šiam modeliui ir įgyvendintiems „Finance and Operations“. Todėl duomenų šaltinių **Mokestis** ir **Gr** turinys tampa prieinamas ER formatams, pvz., abstrakčių duomenų šaltiniams.
+    Modelio susiejimas šioje konfigūracijoje taikomas kaip bazinis duomenų modelis visiems šiam modeliui sukurtiems ir vykdomiems „Finance and Operations“ ER formatams. Todėl duomenų šaltinių **Mokestis** ir **Gr** turinys tampa prieinamas ER formatams, pvz., abstrakčių duomenų šaltiniams.
 
     ![Modelio susiejimo konstruktoriaus puslapis, kuriame rodomi duomenų šaltiniai „Mokestis“ ir „Gr“.](media/er-calculated-field-type-01.png)
 
@@ -306,7 +306,7 @@ Kai parametrizuotas apskaičiuotas laukas pateikia įrašą, turite leisti atski
 Galite paleisti pradinį ir patobulintą ER formatus, kad įsitikintumėte, jog sukonfigūruoti parametrizuoti apskaičiuoti laukai veikia tinkamai.
 
 ### <a name="import-er-configurations"></a>Importuokite ER konfigūracijas
-Peržiūrėtas konfigūracijas galite importuoti iš RCS naudodami **RCS** tipo ER saugyklą. Jei jau atlikote temoje [Elektroninių ataskaitų (ER) konfigūracijų importavimas iš „Regulatory Configuration Services“ (RCS)](rcs-download-configurations.md) aprašytus veiksmus, naudodami sukonfigūruotą ER saugyklą į savo aplinką importuokite prieš tai šioje temoje aptartas konfigūracijas. Priešingu atveju atlikite toliau nurodytus veiksmus:
+Peržiūrėtas konfigūracijas galite importuoti iš RCS naudodami **RCS** tipo ER saugyklą. Jei jau atlikite straipsnio veiksmus, [importuokite elektroninių ataskaitų (ER) konfigūracijas iš reguliavimo konfigūracijos tarnybų (RCS),](rcs-download-configurations.md) naudodami SUKONFIGŪRUOTAS ER saugyklą importuokite anksčiau šiame straipsnyje aptartas konfigūracijas į jūsų aplinką. Priešingu atveju atlikite toliau nurodytus veiksmus:
 
 1. Pasirinkite įmonę **DEMF** ir numatytoje ataskaitų srityje pasirinkite **Elektroninės ataskaitos**.
 2. Pasirinkite **Ataskaitų konfigūracijos**.

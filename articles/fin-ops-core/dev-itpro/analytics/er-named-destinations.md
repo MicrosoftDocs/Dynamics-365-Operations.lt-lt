@@ -1,6 +1,6 @@
 ---
 title: Konkrečių spausdinimo valdymo įrašų ER paskirties vietų konfigūravimas
-description: Šioje temoje paaiškinama, kaip sukonfigūruoti elektroninių ataskaitų (ER) formato, kuris sukonfigūruotas siunčiamiems dokumentams generuoti, konkrečių spausdinimo valdymo įrašų paskirties vietas.
+description: Šiame straipsnyje paaiškinama, kaip konfigūruoti spausdinimo valdymo įrašui brastos paskirties vietas elektroninių ataskaitų (ER) formatui, kuris sukonfigūruotas generuoti siunčiamus dokumentus.
 author: NickSelin
 ms.date: 08/03/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2021-08-01
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 4cd99b1d2c0dbbf48e7eee7e1233e3b078d14ba3
-ms.sourcegitcommit: 6109fc2fe5f407363bb6f240d64b7214657f5914
+ms.openlocfilehash: 2972dc6a0b373cbc63b811c01ef7a5538810edbb
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "8603060"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872719"
 ---
 # <a name="configure-print-management-record-specific-er-destinations"></a>Konkrečių spausdinimo valdymo įrašų ER paskirties vietų konfigūravimas
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje paaiškinama, kaip sistemos administratoriaus arba gautinų sumų klerko vaidmenį turintis vartotojas gali atlikti tolesnes užduotis.
+Šiame straipsnyje paaiškinama, kaip sistemos administratoriaus arba gautinų sumų klerko vaidmens vartotojas gali atlikti šias užduotis:
 
 - Konfigūruoti ER sprendimo, kuris generuoja laisvos formos sąskaitas faktūras, įvardytąsias [elektroninių ataskaitų (ER)](general-electronic-reporting.md) paskirties vietas.
 - Priskirti ER paskirties vietą vienam [spausdinimo valdymo](document-reporting-services.md) įrašui.

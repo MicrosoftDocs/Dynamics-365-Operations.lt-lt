@@ -1,6 +1,6 @@
 ---
 title: Importuoti papildomus duomenis iš failų
-description: Šioje temoje paaiškinama, kaip paruošti duomenis iš išorinių sistemų, kad juos būtų galima importuoti į Microsoft Dynamics 365 finansus.
+description: Šiame straipsnyje paaiškinama, kaip paruošti duomenis iš išorinių sistemų, kad juos būtų galima importuoti į Microsoft Dynamics "365" finansus.
 author: jinniew
 ms.date: 10/09/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 045ecd6dfb95ccf38773293d44834531668ac1ff
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 6886e2ee79ee9e4ccc067dc4f661c1eea646cfa6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8733825"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846776"
 ---
 # <a name="import-subsidiary-data-from-files"></a>Importuoti papildomus duomenis iš failų
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje paaiškinama, kaip paruošti duomenis iš išorinių sistemų, kad juos būtų galima importuoti į Microsoft Dynamics 365 finansus. Galite naudoti **Konsoliduoti su impotavimu** puslapį (**Konsolidavimai \> Konsoliduoti su importavimu**) siekiant parengti papildomų duomenų perdavimą iš išorės sistemų.
+Šiame straipsnyje paaiškinama, kaip paruošti duomenis iš išorinių sistemų, kad juos būtų galima importuoti į Microsoft Dynamics "365" finansus. Galite naudoti **Konsoliduoti su impotavimu** puslapį (**Konsolidavimai \> Konsoliduoti su importavimu**) siekiant parengti papildomų duomenų perdavimą iš išorės sistemų.
 
 1. Sukurti papildomą asmenį konsolidavimo procesui. Dėl informacijos apie tai, kaip sukurti juridinius asmenis, žr. [Kurti juridinius asmenis](../../fin-ops-core/fin-ops/organization-administration/tasks/create-legal-entity.md). Dėl daugiau informacijos, žr. [Parengti juridinį asmenį naudojimui konsolidavimo procese](prepare-company-for-consolidation.md) ir [Nustatyti papildomą juridinį asmenį konsolidavimui](set-up-subsidiary-company-for-consolidation.md).
 

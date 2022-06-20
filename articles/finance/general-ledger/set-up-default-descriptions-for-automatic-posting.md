@@ -1,6 +1,6 @@
 ---
 title: Numatytųjų aprašų registruojant automatiškai nustatymas
-description: Šioje temoje paaiškinta, kaip nustatyti numatytąjį tekstą, naudojamą aprašyti apskaitos įrašams, automatiškai registruojamiems didžiojoje knygoje. Galite nustatyti numatytąjį aprašo tekstą naudodami laisvos formos tekstą arba pasirinkdami fiksuotus kintamuosius.
+description: Šiame straipsnyje paaiškinama, kaip nustatyti numatytąjį tekstą, kuris naudojamas apskaitos įrašams, automatiškai registruojamims į DK, aprašyti. Galite nustatyti numatytąjį aprašo tekstą naudodami laisvos formos tekstą arba pasirinkdami fiksuotus kintamuosius.
 author: aprilolson
 ms.date: 07/23/2019
 ms.topic: article
@@ -14,21 +14,21 @@ ms.search.region: global
 ms.author: aolson
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 772c754e9980e693daf7542de273cbe278ca7038
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 71982a7d5b1bb08d3e238646ea0b15f17260bdcc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722442"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904505"
 ---
 # <a name="set-up-default-descriptions-for-automatic-posting"></a>Numatytųjų aprašų registruojant automatiškai nustatymas
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje paaiškinta, kaip nustatyti numatytąjį tekstą, naudojamą aprašyti apskaitos įrašams, automatiškai registruojamiems didžiojoje knygoje. Galite nustatyti numatytąjį aprašo tekstą naudodami laisvos formos tekstą arba pasirinkdami fiksuotus kintamuosius.
+Šiame straipsnyje paaiškinama, kaip nustatyti numatytąjį tekstą, kuris naudojamas apskaitos įrašams, automatiškai registruojamims į DK, aprašyti. Galite nustatyti numatytąjį aprašo tekstą naudodami laisvos formos tekstą arba pasirinkdami fiksuotus kintamuosius.
 
 > [!NOTE]
-> Kai kuriuose operacijų tipuose kai kuriose šalyse ar regionuose taip pat galite įtraukti tekstą iš laukų, susijusių su tais operacijų tipais. Operacijos tipų bei šalių ir regionų sąrašą žr. skyriuje [Pasirinktinai: kito teksto įtraukimas į numatytuosius aprašus](#optional-add-other-text-to-default-descriptions), esančiame toliau šioje temoje.
+> Kai kuriuose operacijų tipuose kai kuriose šalyse ar regionuose taip pat galite įtraukti tekstą iš laukų, susijusių su tais operacijų tipais. Operacijų tipų ir šalių bei [regionų sąrašą žr. nebūtina: įtraukite kitą tekstą į numatytuosius](#optional-add-other-text-to-default-descriptions) aprašų skyrių vėliau šiame straipsnyje.
 
 ## <a name="set-up-default-descriptions"></a>Numatytųjų aprašų nustatymas
 
@@ -78,7 +78,7 @@ Atlikdami operacijas, kurių tipai susiję su šiais dokumentų tipais, į numat
 
 ### <a name="add-text-to-default-descriptions"></a>Teksto įtraukimas į numatytuosius aprašus
 
-Atlikę veiksmus, nurodytus [Numatytųjų aprašų nustatymas](#set-up-default-descriptions) prieš tai šioje temoje, įtraukite į numatytuosius aprašus kitą tekstą atlikdami šiuos veiksmus:
+Kai atlikite veiksmus anksčiau šiame [straipsnyje skyriuje Nustatyti numatytuosius aprašus, atlikite šiuos veiksmus, norėdami į numatytuosius](#set-up-default-descriptions) aprašus įtraukti kitą tekstą.
 
 1. „FastTab“ **Parametrai** pasirinkite **Pridėti**.
 2. Lauke **Nuorodų lentelė** pasirinkite duomenų bazės lentelę, iš kurios norite įtraukti parametro duomenis į aprašą.

@@ -1,6 +1,6 @@
 ---
 title: ER konfigūracijų kūrimas pildymui PDF šablonuose
-description: Šioje temoje pateikiama informacija apie tai, kaip sukurti elektroninės ataskaitos (ER) formatą, kad būtų galima pildyti PDF šabloną.
+description: Šiame straipsnyje pateikiama informacija apie tai, kaip sukurti elektroninės ataskaitos (ER) formatą, norint užpildyti PDF šabloną.
 author: NickSelin
 ms.date: 03/18/2022
 ms.topic: article
@@ -14,22 +14,22 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 706256300cf0b64bc5b5e1e7adb77c1da500d16f
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.openlocfilehash: ef9b650e9b676d79af8839c08cfbb1000a5aee5f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8645113"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8908596"
 ---
 # <a name="design-er-configurations-to-fill-in-pdf-templates"></a>ER konfigūracijų kūrimas pildymui PDF šablonuose
 
 [!include[banner](../includes/banner.md)]
 
-Šios temos procedūros yra pavyzdžiai, kurie rodo, kaip vartotojas, kuriam priskirtas **sistemos administratoriaus** arba **elektroninių ataskaitų programuotojo** vaidmuo, gali konfigūruoti elektroninių ataskaitų (ER) formatą, kuris generuoja ataskaitas kaip PDF failus, naudojant pildomus PDF dokumentus kaip ataskaitų šablonus. Šiuos veiksmus galima atlikti bet kurioje "Dynamics 365" finansų arba reguliavimo konfigūracijos tarnybų (RCS) įmonėje.
+Šio **straipsnio** **procedūros** rodo, kaip vartotojas, sistemos administratorius arba elektroninio ataskaitų kūrėjo vaidmuo, gali konfigūruoti elektroninių ataskaitų (ER) formatą, kuris generuoja ataskaitas kaip PDF failus, naudodamas užpildytus PDF dokumentus kaip ataskaitų šablonus. Šiuos veiksmus galima atlikti bet kurioje "Dynamics 365" finansų arba reguliavimo konfigūracijos tarnybų (RCS) įmonėje.
 
 ## <a name="prerequisites"></a>Būtinieji komponentai
 
-Prieš pradėdami, turite turėti vieną iš šių prieigos tipų, atsižvelgiant į paslaugą, naudojamą procedūroms užbaigti šioje temoje:
+Prieš pradėdami turite turėti vieną iš toliau nurodytų prieigos tipų, atsižvelgiant į paslaugą, kurią naudojate šiame straipsnyje procedūroms atlikti:
 
 - Prieiga prie „Finance“ naudojant vieną iš tolesnių vaidmenų.
 

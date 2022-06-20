@@ -1,8 +1,8 @@
 ---
-title: Atsargų matomumo konfigūravimas
-description: Šioje temoje aprašoma, kaip konfigūruoti atsargų matomumą.
+title: „Inventory Visibility“ konfigūravimas
+description: Šiame straipsnyje aprašoma, kaip konfigūruoti atsargų matomumą.
 author: yufeihuang
-ms.date: 12/09/2021
+ms.date: 05/27/2022
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -11,23 +11,23 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 7e42c0b49a4083edd0e64551f4840bd74d412fc1
-ms.sourcegitcommit: 1877696fa05d66b6f51996412cf19e3a6b2e18c6
+ms.openlocfilehash: 2bdb2ca0067ea430b249ac619a38c8bcec75f2f7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/20/2022
-ms.locfileid: "8786844"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895821"
 ---
-# <a name="configure-inventory-visibility"></a>Atsargų matomumo konfigūravimas
+# <a name="configure-inventory-visibility"></a>„Inventory Visibility“ konfigūravimas
 
 [!include [banner](../includes/banner.md)]
 
 
-Ši tema aprašo, kaip įdiegti ir konfigūruoti inventoriaus matomumo programą „Power Apps“.
+Šiame straipsnyje aprašoma, kaip konfigūruoti atsargų matomumą naudojant programą Atsargų matomumas Power Apps.
 
 ## <a name="introduction"></a><a name="introduction"></a>Įžanga
 
-Prieš pradėdami dirbti su atsargų matomumu, turite užbaigti šią konfigūraciją, kaip aprašyta šioje temoje:
+Prieš pradėdami dirbti su atsargų matomumu, turite užbaigti šią konfigūraciją, kaip aprašyta šiame straipsnyje:
 
 - [Duomenų šaltinio konfigūravimas](#data-source-configuration)
 - [Skaidinio konfigūracija](#partition-configuration)
@@ -41,7 +41,7 @@ Prieš pradėdami, įdiekite ir nustatykite atsargų matomumo priedą, kaip apra
 
 ## <a name="the-configuration-page-of-the-inventory-visibility-app"></a><a name="configuration"></a>Atsargų matomumo programos konfigūracijos puslapis
 
-„Power Apps“, puslapyje **Konfigūracijos** [Atsargų matomumo programa](inventory-visibility-power-platform.md) padeda nustatyti turimos konfigūracijos ir soft reservation konfigūraciją. Įdiegus papildinį, numatytoji konfigūracija įtraukia „Microsoft Dynamics 365 Supply Chain Management“ (duomenų `fno` šaltinio vertę). Galite peržiūrėti numatytuosius nustatymus. Be to, atsižvelgdami į savo verslo poreikius ir išorinės sistemos atsargų registravimo reikalavimus, galite modifikuoti konfigūraciją, kad būtų galima standartizuoti būdą, kuriuo atsargų pakeitimai gali būti registruojami, tvarkomi keliose sistemose ir jų bus užklausta. Likusiuose šios temos skyriuose paaiškinama, kaip naudoti kiekvieną konfigūracijos **puslapio** dalį.
+„Power Apps“, puslapyje **Konfigūracijos** [Atsargų matomumo programa](inventory-visibility-power-platform.md) padeda nustatyti turimos konfigūracijos ir soft reservation konfigūraciją. Įdiegus papildinį, numatytoji konfigūracija įtraukia „Microsoft Dynamics 365 Supply Chain Management“ (duomenų `fno` šaltinio vertę). Galite peržiūrėti numatytuosius nustatymus. Be to, atsižvelgdami į savo verslo poreikius ir išorinės sistemos atsargų registravimo reikalavimus, galite modifikuoti konfigūraciją, kad būtų galima standartizuoti būdą, kuriuo atsargų pakeitimai gali būti registruojami, tvarkomi keliose sistemose ir jų bus užklausta. Likusiuose šio straipsnio skyriuose paaiškinama, kaip naudoti kiekvieną konfigūracijos puslapio **dalį**.
 
 Baigę konfigūruoti programoje pasirinkite **Naujinti konfigūraciją** programoje.
 
@@ -54,6 +54,7 @@ Atsargų matomumo priedas prie jūsų diegimo prideda keletą naujų „Power Ap
 | *OnHandReservation* | Ši funkcija leidžia kurti rezervavimus, naudoti rezervavimus ir (arba) nereservuoti nurodytų atsargų kiekių naudojant atsargų matomumą. Dėl daugiau informacijos, žr. [Inventoriaus matomumo rezervavimas](inventory-visibility-reservations.md). |
 | *OnHandMostSpecificBackgroundService* | Ši priemonė pateikia produktų atsargų suvestinę kartu su visomis dimensijomis. Atsargų suvestinės duomenys bus periodiškai sinchronizuojami pagal atsargų matomumą. Daugiau informacijos ieškokite Atsargų [suvestinė](inventory-visibility-power-platform.md#inventory-summary). |
 | *OnhandChangeSchedule* | Ši pasirinktinė priemonė įgalina turimo atsargų pakeitimo grafiką ir prieinamų atsargų (ATP) priemones. Daugiau informacijos rasite atsargų matomumo [turimų atsargų keitimo grafike ir prieinamose atsargose](inventory-visibility-available-to-promise.md). |
+| *Paskirstymas* | Ši pasirinktinė funkcija leidžia atsargų matomumui apsaugoti (žiedinis) ir perpardavimo valdymas. Daugiau informacijos rasite atsargų [matomumo atsargų paskirstyme](inventory-visibility-allocation.md). |
 | *Įgalinti sandėlio prekes atsargų matomumo skiltyje* | Ši pasirinktinė funkcija įgalina atsargų matomumą, kad būtų palaikomos prekės, įgalintos išplėstiniams sandėlio procesams (WHS prekės). Daugiau informacijos ieškokite sandėlio valdymo [ir sandėlio valdymo prekių atsargų matomumo palaikymas](inventory-visibility-whs-support.md). |
 
 ## <a name="find-the-service-endpoint"></a><a name="get-service-endpoint"></a>Paslaugos galinio punkto radimas
@@ -116,7 +117,7 @@ Nurodymo konfigūravimo tikslas yra standartizuoti daugelio sistemų integravim�
 >
 > Atsargų (pasirinktinės) dimensijos gali būti rezervuotos „Supply Chain Management“. Tokiu atveju vietoj jo galite naudoti išplėsti dimensijas.
 
-Išorinės sistemos gali pasiekti atsargų matomumą per savo RESTful API. Integravimui atsargų matomumas leidžia konfigūruoti _išorinį duomenų šaltin_ ir išorinių dimensijų  _susiejimą su_ su  _bazinėmis dimensijomis_. Čia pateikiamas statistinės dimensijos pavyzdys.
+Išorinės sistemos gali pasiekti atsargų matomumą per savo RESTful API. Integravimui atsargų matomumas leidžia konfigūruoti _išorinį duomenų šaltin_ ir išorinių dimensijų  _susiejimą su_ su  _bazinėmis dimensijomis_. Čia yra dimensijų susiejimo lentelės pavyzdys.
 
 | Išorinė dimensija | Pagrindinė dimensija |
 |---|---|
@@ -318,7 +319,14 @@ Norėdami nustatyti savo produkto hierarchijos indeksą, atlikite šiuos žingsn
 1. Numatyta, kad pateikiamas indeksų sąrašas. Norėdami modifikuoti esamą indeksą, atitinkamo **Redaguoti** ar **Įtraukti** skyriuje pasirinkite Redaguoti arba Įtraukti. Norėdami sukurti naują indeksų rinkinį, pasirinkite **Naujas indeksų rinkinys**. Kiekvienai eilutei iš kiekvieno indeksų rinkinio **dimensijos** lauke pasirinkite iš pagrindinės dimensijos sąrašo. Automatiškai generuojamos šių laukų vertės:
 
     - **Nustatyti numerį** – Dimensijos, priklausančios tam pačiam grupės (indeksui), bus sugrupuotos ir joms bus priskirtas tas pats rinkinio numeris.
-    - **Hierarchija** – Hierarchija naudojama apibrėžti palaikomas dimensijų kombinacijas, kurių galima užklausti dimensijos grupėje (indeksas). Pavyzdžiui, jei nustatote dimensijų grupę, kuri turi *stiliaus*, *spalvos*, ir *dydžio*, hierarchijos seką, sistema palaiko trijų užklausų grupių rezultatą. Pirmoji grupė yra tik stilius. Antroji grupė yra stiliaus ir spalvos derinys. O trečioji grupė yra stiliaus, spalvos ir dydžio kombinacija. Nepalaikomos kitos kombinacijos.
+    - **Hierarchija** – Hierarchija naudojama apibrėžti palaikomas dimensijų kombinacijas, kurių galima užklausti dimensijos grupėje (indeksas). Pavyzdžiui, jei nustatote dimensijų grupę, kuri *turi hierarchijos seką Stilius*, *Spalva* *ir Dydis*, sistema palaiko trijų užklausų grupių rezultatą. Pirmoji grupė yra tik stilius. Antroji grupė yra stiliaus ir spalvos derinys. O trečioji grupė yra stiliaus, spalvos ir dydžio kombinacija. Nepalaikomos kitos kombinacijos.
+
+> [!TIP]
+> Nustatydami indeksų hierarchiją atmeskite keletą patarimų:
+>
+> - Pagrindinės dimensijos, kurios nustatytos skaidinio konfigūracijoje, neturi būti apibrėžtos indekso konfigūracijose. Jei pagrindinė dimensija iš naujo nustatoma indekso konfigūracijoje, pagal šį indeksą užklausos negalėsite pateikti.
+> - Jei jums reikia pateikti užklausą apie atsargas, kurios sujungiamos pagal visus dimensijų derinius, tada nustatykite vieną indeksą, kuriame yra pagrindinė dimensija `Empty`.
+> - Turi būti bent viena indeksų hierarchija (pvz., `Empty` kurioje yra pagrindinė dimensija), kitu atveju užklausose nebus pateikta klaida "Nenustatyta indekso hierarchija".
 
 ### <a name="example"></a>Pavyzdys
 
@@ -372,11 +380,6 @@ Indeksas leidžia pateikti užklausą apie turimų atsargų informaciją šiais 
     - Marškinėlių, raudonas, įprastas 6
     - Marškinėlių, raudonas, didelis, įprastas 7
 
-> [!NOTE]
-> Pagrindinės dimensijos, kurios nustatytos skaidinio konfigūracijoje, neturi būti apibrėžtos indekso konfigūracijose.
-> 
-> Jei turite pateikti užklausą tik pagal atsargas, kurios yra sujungiamos pagal visus dimensijų derinius, galite nustatyti vieną indeksą, kuriame yra pagrindinė `Empty` dimensija.
-
 ## <a name="reservation-configuration-optional"></a><a name="reservation-configuration"></a>Rezervavimo konfigūracija (pasirinktinai)
 
 Jei norite naudoti funkciją Švelniai rezervavimas, reikia rezervavimo konfigūracijos. Konfigūraciją sudaro dvi pagrindinės dalys:
@@ -390,7 +393,7 @@ Kai rezervate, galite norėti žinoti, ar šiuo metu turimas atsargas galima rez
 
 Nustatydami faktinio mato susiejimą su apskaičiuotu matu įgalinate atsargų matomumo tarnybą, kad remiantis faktiniu matu būtų automatiškai tikrinamas rezervavimas.
 
-Prieš pradedant nustatyti šį susiejimą konfigūracijos puslapio skirtukuose **Duomenų šaltinis** ir **Apskaičiuotas matas** skirtuke **Konfigūravimas** puslapyje „Power Apps“ (kaip aprašyta anksčiau šioje temoje).
+Prieš pradedant nustatyti šį susiejimą konfigūracijos puslapio skirtukuose Duomenų šaltinis ir Apskaičiuotas **matas** **turi būti nurodyti faktiniai matai,** **·** Power Apps apskaičiuoti matai ir jų šaltiniai (kaip aprašyta anksčiau šiame straipsnyje).
 
 Norėdami nustatyti švelniai rezervavimo susiejimą, atlikite šiuos veiksmus.
 
@@ -460,7 +463,7 @@ Rezervavimo hierarchija aprašo dimensijų seką, kurią reikia nurodyti rezervu
 
 Rezervavimo hierarchija nepriklauso nuo produkto indeksų hierarchijos. Šis nepriklausomumas leidžia įgyvendinti kategorijų valdymą, kur vartotojai gali suskaidyti dimensijas į išsamią informaciją, kad nustatytų tikslesnių rezervavimų reikalavimus. Jūsų soft rezervavimo hierarchijoje turi `SiteId` būti komponentai ir kaip `LocationId` komponentai, nes jie sudaro skaidinio konfigūraciją. Rezervuojant reikia nurodyti produkto skaidinį.
 
-Čia pateikiamas švelnios rezervacijos hierarchijos pavyzdys.
+Tai – soft reservation hierarchijos pavyzdys.
 
 | Pagrindinė dimensija | Hierarchija |
 |---|---|
@@ -508,7 +511,7 @@ Inicijavimo etapu atsargų matomumas nustato numatytąją konfigūraciją, kuri 
 
 Šiame skyriuje aprašoma, `iv` kaip konfigūruoti duomenų šaltinį.
 
-##### <a name="physical-measures-configured-for-the-iv-data-source"></a>Iv duomenų šaltinio sukonfigūruoti faktiniai duomenys
+##### <a name="physical-measures-configured-for-the-iv-data-source"></a>Sukonfigūruoti "iv" duomenų šaltinio faktiniai duomenys
 
 Sukonfigūruoti šie duomenų šaltinio `iv` faktiniai duomenys:
 
@@ -646,16 +649,16 @@ Tada `InventoryDemand` konfigūruojate matmenį, kuris apskaičiuotas `iv` duome
 | Priedas | `iom` | `OnOrder` |
 | Priedas | `iv` | `SoftReservPhysical` |
 | Priedas | `iv` | `SoftReservOrdered` |
-| Priedas | `fno` | `ReservPhysical` |
-| Priedas | `fno` | `ReservOrdered` |
-| Priedas | `iv` | `ReservPhysical` |
-| Priedas | `iv` | `ReservOrdered` |
+| Pridėjimas | `fno` | `ReservPhysical` |
+| Pridėjimas | `fno` | `ReservOrdered` |
+| Pridėjimas | `iv` | `ReservPhysical` |
+| Pridėjimas | `iv` | `ReservOrdered` |
 
-#### <a name="configuration-of-the-fno-data-source"></a>Iv duomenų šaltinio fno konfigūravimas
+#### <a name="configuration-of-the-fno-data-source"></a>"fno" duomenų šaltinio konfigūracija
 
 Šiame skyriuje aprašoma, `fno` kaip konfigūruoti duomenų šaltinį.
 
-##### <a name="dimension-mappings-for-the-fno-data-source"></a>Fno duomenų šaltinio dimensijos susiejimai
+##### <a name="dimension-mappings-for-the-fno-data-source"></a>"fno" duomenų šaltinio dimensijos susiejimai
 
 Toliau pateiktoje lentelėje pateikti dimensijų susiejimai yra sukonfigūruoti duomenų `fno` šaltiniui.
 
@@ -687,7 +690,7 @@ Toliau pateiktoje lentelėje pateikti dimensijų susiejimai yra sukonfigūruoti 
 | `InventDimension11` | `CustomDimension11` |
 | `InventDimension12` | `CustomDimension12` |
 
-##### <a name="physical-measures-configured-for-the-fno-data-source"></a>Iv duomenų šaltinio sukonfigūruoti fno faktiniai duomenys
+##### <a name="physical-measures-configured-for-the-fno-data-source"></a>Sukonfigūruoti "fno" duomenų šaltinio faktiniai matai
 
 Sukonfigūruoti šie duomenų šaltinio `fno` faktiniai duomenys:
 
@@ -699,11 +702,11 @@ Sukonfigūruoti šie duomenų šaltinio `fno` faktiniai duomenys:
 - `ReservOrdered`
 - `OnOrder`
 
-#### <a name="configuration-of-the-pos-data-source"></a>Iv duomenų šaltinio pos konfigūravimas
+#### <a name="configuration-of-the-pos-data-source"></a>EKA duomenų šaltinio konfigūracija
 
 Šiame skyriuje aprašoma, `pos` kaip konfigūruoti duomenų šaltinį.
 
-##### <a name="physical-measures-for-the-pos-data-source"></a>Pos duomenų šaltinio sukonfigūruoti faktiniai duomenys
+##### <a name="physical-measures-for-the-pos-data-source"></a>EKA duomenų šaltinio faktiniai duomenys
 
 Sukonfigūruoti šie duomenų šaltinio `pos` faktiniai duomenys:
 
@@ -716,18 +719,18 @@ Tada `AvailQuantity` konfigūruojate matmenį, kuris apskaičiuotas `pos` duomen
 
 | Skaičiavimo tipas | Duomenų šaltinis | Fizinis matas |
 |---|---|---|
-| Priedas | `fno` | `AvailPhysical` |
-| Priedas | `pos` | `PosInbound` |
+| Pridėjimas | `fno` | `AvailPhysical` |
+| Pridėjimas | `pos` | `PosInbound` |
 | Atimtis | `pos` | `PosOutbound` |
 
-#### <a name="configuration-of-the-iom-data-source"></a>iom duomenų šaltinio konfigūravimas
+#### <a name="configuration-of-the-iom-data-source"></a>"iom" duomenų šaltinio konfigūracija
 
 Sukonfigūruoti šie duomenų šaltinio `iom` (protingo užsakymo valdymo) faktiniai duomenys:
 
 - `OnOrder`
 - `OnHand`
 
-#### <a name="configuration-of-the-erp-data-source"></a>Erp duomenų šaltinio konfigūravimas
+#### <a name="configuration-of-the-erp-data-source"></a>"erp" duomenų šaltinio konfigūracija
 
 Sukonfigūruoti šie duomenų šaltinio `erp` (įmonės šaltinio planavimo) faktiniai duomenys:
 

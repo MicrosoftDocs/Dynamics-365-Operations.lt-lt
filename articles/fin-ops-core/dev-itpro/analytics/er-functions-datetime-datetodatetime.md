@@ -1,6 +1,6 @@
 ---
 title: ER DATETODATETIME funkcija
-description: Šioje temoje pateikiama informacija apie tai, kaip naudojama modulio Elektroninės ataskaitos (ER) DATETODATETIME funkcija.
+description: Šiame straipsnyje pateikiama informacija apie tai, kaip naudojama DATETODATETIME elektroninių ataskaitų (ER) funkcija.
 author: NickSelin
 ms.date: 12/04/2019
 ms.prod: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1e5fa64b776ed2702ac65a2f6416adcf657c748caa1156a71b4c3e99ee188880
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ba80c4c3eac703ba96a4f2741fcc19bceeb24ed0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6755012"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8898497"
 ---
 # <a name="datetodatetime-er-function"></a>ER DATETODATETIME funkcija
 
@@ -47,7 +47,7 @@ Gauta datos / laiko reikšmė.
 
 ## <a name="example-1"></a>1 pavyzdys
 
-`DATETODATETIME (CompInfo. 'getCurrentDate()')` dabartinio „Microsoft Dynamics 365 Finance“ seanso datą – 2015 m. gruodžio 24 d. – pateikia kaip **12/24/2015 12:00:00 AM**. Šiame pavyzdyje **CompInfo** yra tipo **„Finance and Operations” / Lentelė** modulio Elektroninės ataskaitos (ER) duomenų šaltinis, nurodantis lentelę CompanyInfo.
+`DATETODATETIME (CompInfo. 'getCurrentDate()')` grąžina dabartinio Microsoft Dynamics 365 finansų seanso datą, 2015 m. gruodžio 24 d., **kaip 12/24/2015 12:00:00 AM**. Šiame pavyzdyje **CompInfo** yra tipo **Finance and Operations/Table** modulio Elektroninės ataskaitos (ER) duomenų šaltinis, nurodantis lentelę CompanyInfo.
 
 ## <a name="example-2"></a>2 pavyzdys
 

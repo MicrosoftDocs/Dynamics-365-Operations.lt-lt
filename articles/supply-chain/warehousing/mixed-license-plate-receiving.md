@@ -1,6 +1,6 @@
 ---
-title: Mišrių numerio lentelių gavimas
-description: Šioje temoje aprašoma, kaip naudoti mišrių numerio lentelių gavimą, norint užregistruoti ir sukurti kelių prekių darbą su mobiliuoju įrenginiu.
+title: Skirtingų numerio lentelių gavimas
+description: Šiame straipsnyje aprašoma, kaip naudoti mišrų registracijos numerį, gaunančią registruoti ir sukurti darbą su keliomis prekėmis naudojant mobilųjį įrenginį.
 author: Mirzaab
 ms.date: 05/26/2017
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 84b01e9c6ad041fe95b46c97d89b90e85422d170399754062a6422319fc23a63
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 76ba316a5ed55902aed35acb4ef21623c7676b38
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6769472"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907064"
 ---
 # <a name="mixed-license-plate-receiving"></a>Mišrių numerio lentelių gavimas
 

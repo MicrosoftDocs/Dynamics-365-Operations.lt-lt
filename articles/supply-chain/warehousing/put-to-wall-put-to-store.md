@@ -1,6 +1,6 @@
 ---
 title: Dėjimas prie sienos - dėjimas į parduotuvę
-description: Šioje temoje pateikta informacija apie dėjimo prie sienos - dėjimo į parduotuvę funkcijas. Funkcijos leidžia jums tvarkyti scenarijus, kuriuose privalote konsoliduoti produktą į išankstinio pakavimo sritį pagal konfigūruojamus kriterijus. Jis padeda sumažinti pakavimo laiką, nes leidžia paimti vieną paskirties licencijos numerį ir gali naudoti daugiau padėjimo padėčių klasterinio paėmimo metu.
+description: Šiame straipsnyje pateikiama informacija apie "Padėti į sienos" – parduotuvės funkcijas. Funkcijos leidžia jums tvarkyti scenarijus, kuriuose privalote konsoliduoti produktą į išankstinio pakavimo sritį pagal konfigūruojamus kriterijus. Jis padeda sumažinti pakavimo laiką, nes leidžia paimti vieną paskirties licencijos numerį ir gali naudoti daugiau padėjimo padėčių klasterinio paėmimo metu.
 author: Mirzaab
 ms.date: 07/16/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 372bb556ec1207096a8ff3c7df8bac9b7011b5c4
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: e020bd3973b8b56dd1e6f3e5bdc8cba32600f7f8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7574142"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909649"
 ---
 # <a name="put-to-wall---put-to-store"></a>Dėjimas prie sienos - dėjimas į parduotuvę
 

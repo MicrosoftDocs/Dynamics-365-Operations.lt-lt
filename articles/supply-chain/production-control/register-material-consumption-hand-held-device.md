@@ -1,6 +1,6 @@
 ---
 title: Medžiagų vartojimo registravimas naudojant mobilųjį įrenginį
-description: Šioje temoje aprašoma darbo eiga, kurią naudojant galima kišeniniu įrenginiu registruoti žaliavų sunaudojimą gamybos metu.
+description: Šiame straipsnyje aprašoma darbo eiga, kuri leidžia registruoti žaliavų suvartojimą gamyboje naudojant kišeninį įrenginį.
 author: johanhoffmann
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1aeb527255358ecafafcb64185cb9dcb31243d499c533f9c9390d79658534e3c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1e1dbc399eb06d1049950bbdd755b479ef275563
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6777868"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849248"
 ---
 # <a name="register-material-consumption-using-a-mobile-device"></a>Medžiagų vartojimo registravimas naudojant mobilųjį įrenginį
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje aprašoma darbo eiga, kurią naudojant galima kišeniniu įrenginiu registruoti žaliavų sunaudojimą gamybos metu.
+Šiame straipsnyje aprašoma darbo eiga, kuri leidžia registruoti žaliavų suvartojimą gamyboje naudojant kišeninį įrenginį.
 
 ## <a name="introduction"></a>Įžanga
 

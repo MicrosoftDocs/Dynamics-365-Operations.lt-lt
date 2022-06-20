@@ -1,6 +1,6 @@
 ---
 title: Išmokų valdymo darbo sritis
-description: Šioje temoje aprašoma darbo sritis „Išmokų valdymas“ programoje „Dynamics 365 Human Resources“ .
+description: Šiame straipsnyje aprašoma išmokų valdymo darbo sritis, esančią Dynamics 365 Human Resources.
 author: twheeloc
 ms.date: 01/03/2022
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-24
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 39e7f606ae3c5c0a66764cc3235837380725241f
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 7975d1723e07ae390961d4f44e0f34f2ff2df44d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8690033"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8902924"
 ---
 # <a name="benefits-management-workspace"></a>Išmokų valdymo darbo sritis
 
@@ -30,7 +30,7 @@ ms.locfileid: "8690033"
 
 [!include [preview feature](./includes/preview-feature.md)]
 
-Šioje temoje aprašoma darbo sritis **Išmokų valdymas** programoje „Dynamics 365 Human Resources“.
+Šiame straipsnyje aprašoma išmokų **valdymo darbo** sritis, esančią Dynamics 365 Human Resources.
 
 > [!NOTE]
 > Norėdami peržiūrėti darbo sritį **Išmokų valdymas**, pirmiausia funkcijų valdymo srityje turite įjungti funkciją **(Peržiūra) Išmokų valdymo darbo sritis**. Daugiau informacijos apie peržiūros versijos funkcijų įjungimą žr. skyrių [Funkcijų valdymas](hr-admin-manage-features.md).<br><br>![Išmokų valdymo darbo srities įjungimas.](./media/hr-benefits-management-workspace-enable.png)
@@ -96,7 +96,7 @@ Norėdami peržiūrėti kitą išmokų laikotarpį, pasirinkite jį išskleidži
 Savo veiksmų elementus galite peržiūrėti pasirinkdami plytelę arba skirtuką. Jei pasirinksite skirtuką, galėsite peržiūrėti ir pasirinkti darbuotojus darbo srities puslapio dešinėje.
 Skirtuke **Atidaryta registracija** pateikiama pagrindinė atvirų registracijų proceso metrikos informacija. 
 
-Informacija apie atvirą registraciją bus rodoma 30 dienų prieš **registracijos pradžios datą**. Tai yra nustatyta **Laikotarpiai** nustatyme **Išmokų valdymas** > **Nuorodos** > **Laikotarpiai**, lauke **registracijos pradžios datos**.  Norėdami pakeisti šį parametrą, eikite **į personalo bendrinamus parametrusBenefits** > **managementOpen** > **registravimo parinktys** ir atnaujinkite **lauko** Numerį.  
+Informacija apie atvirą registraciją bus rodoma 30 dienų prieš **registracijos pradžios datą**. Tai yra nustatyta **Laikotarpiai** nustatyme **Išmokų valdymas** > **Nuorodos** > **Laikotarpiai**, lauke **registracijos pradžios datos**.  Norėdami pakeisti šį parametrą, eikite į **personalo bendrinamus parametrus** > **·** > **Išmokų valdymo atviros registracijos parinktys** ir atnaujinkite **lauko** Skaičių.  
 
 Ši informacija yra prieinama skirtuke **Atidaryti registraciją**:
  - Darbuotojai, nepradėję atviro registracijos proceso

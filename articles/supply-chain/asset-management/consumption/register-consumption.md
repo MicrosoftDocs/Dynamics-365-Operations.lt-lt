@@ -1,6 +1,6 @@
 ---
 title: Suvartojimo registravimas
-description: Šioje temoje aiškinama, kaip registruoti suvartojimą modulyje Turto valdymas.
+description: Šiame straipsnyje paaiškinama, kaip registruoti suvartojimą turto valdymo dalyje.
 author: johanhoffmann
 ms.date: 08/21/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 619da584ea37e80b1803ae5983e52e8ee4053f3751a8df75a8f5bc1ddf7e65d6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: MT
+ms.openlocfilehash: bf78d53e8e2d7bee24a0a7789ca1a96cdd8f1415
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6765590"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8886050"
 ---
 # <a name="register-consumption"></a>Suvartojimo registravimas
 
@@ -90,7 +90,7 @@ Registruojant suvartojimą į registracijas konkrečia seka įtraukiamos finansi
 - *Prekių registracijos:* jei yra, pirmiausia įtraukiamos žurnalo antraštės finansinės dimensijos. Tada įtraukiamos susijusio darbo užsakymo projekto finansinės dimensijos. Tada įtraukiamos vietos finansinės dimensijos. Galiausiai įtraukiamos prekės finansinės dimensijos.
 
 >[!NOTE]
->Visuose trijuose registracijų tipuose patikrinamas finansinių dimensijų derinys, o netinkami deriniai uždengiami. Tai standartinė sąranka su kitomis „Finance and Operations” programomis.
+>Visuose trijuose registracijų tipuose patikrinamas finansinių dimensijų derinys, o netinkami deriniai uždengiami. Tai yra standartinė sąranka su kitomis „Finance and Operations“ programomis.
 
 
 

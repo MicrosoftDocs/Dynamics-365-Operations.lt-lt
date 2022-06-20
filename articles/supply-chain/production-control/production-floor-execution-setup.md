@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: f0be79b54a279893f93d41981342e42c8880f059
-ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
+ms.openlocfilehash: 0ae9ca901a7af8275db419e25a7297a77aab284e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752837"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857408"
 ---
 # <a name="set-up-a-device-to-run-the-production-floor-execution-interface"></a>Įrenginio, skirto paleisti gamybos cecho vykdymo sąsają, nustatymas
 
@@ -28,7 +28,7 @@ Gamybos cecho vykdymo sąsaja nustatoma kiekviename įrenginyje, esančiame gamy
 
 ## <a name="set-the-configuration-and-filters-for-a-specific-device"></a>Konkretaus įrenginio konfigūracijos ir filtrų nustatymas
 
-Norėdami nustatyti įrenginio konfigūravimo ir užduočių filtrus, prisiregistruokite gamybos laiko vykdymo puslapyje naudodami abonementą, turiį saugos vaidmenį, kuris apima **·** priežiūros laiko *·* priežiūrą. (Iš visų parengtų naudoti saugos vaidmenų šią pareigą turi tik *cecho prižiūrėtojas*.) Tada atlikite toliau pateiktus veiksmus.
+Norėdami nustatyti įrenginio konfigūravimo ir užduočių filtrus, **·** *prisiregistruokite gamybos laiko vykdymo puslapyje naudodami abonementą, turiį saugos vaidmenį, kuris apima priežiūros laiko priežiūrą.* (Iš visų parengtų naudoti saugos vaidmenų šią pareigą turi tik *cecho prižiūrėtojas*.) Tada atlikite toliau pateiktus veiksmus.
 
 1. Eikite į įrenginį, kurį norite nustatyti, ir prisijunkite prie „Microsoft Dynamics 365 Supply Chain Management” kaip cecho prižiūrėtojas. (Naudoti sąskaitą, kurioje yra *Prižiūrėti laiko priežiūros* pareigą.)
 1. Įsitikinkite, kad įrenginiui, kurį nustatote, konfigūracija yra galima. Jei nėra konfigūracijos, pateikiama numatytoji konfigūracija. Daugiau informacijos apie tai, kaip nustatyti konfigūraciją, žr. [Gamybos cecho vykdymo sąsajos konfigūravimas](production-floor-execution-configure.md).

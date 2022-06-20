@@ -1,6 +1,6 @@
 ---
 title: Biudžeto planavimo apžvalga
-description: Šioje temoje aprašomas biudžeto planavimas. Joje taip pat pateikta informacija, kuri gali padėti konfigūruoti biudžeto planavimą ir nustatyti biudžeto planavimo procesus.
+description: Šiame straipsnyje aprašomas biudžeto planavimas. Joje taip pat pateikta informacija, kuri gali padėti konfigūruoti biudžeto planavimą ir nustatyti biudžeto planavimo procesus.
 author: panolte
 ms.date: 01/11/2018
 ms.topic: overview
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d69d3d1620616bd7a136645d6f28f638e8bcf199
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 1f1ecf830953362636c8b0369586d8b76499ebb3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8711749"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853560"
 ---
 # <a name="budget-planning-overview"></a>Biudžeto planavimo apžvalga
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje aprašomas biudžeto planavimas. Joje taip pat pateikta informacija, kuri gali padėti konfigūruoti biudžeto planavimą ir nustatyti biudžeto planavimo procesus.
+Šiame straipsnyje aprašomas biudžeto planavimas. Joje taip pat pateikta informacija, kuri gali padėti konfigūruoti biudžeto planavimą ir nustatyti biudžeto planavimo procesus.
 
 ## <a name="overview-of-budget-planning"></a>Biudžeto planavimo apžvalga
 
@@ -91,7 +91,7 @@ Biudžeto planavimo darbo eigą sudaro etapų rinkinys, kuriuos pereina biudžet
 
 Puslapio **Biudžeto planavimo konfigūracija** dalyje **Darbo eigos etapai** sukuriate biudžeto planavimo darbo eigą. Ten galite pasirinkti etapus ir biudžeto sudarymo darbo eigą, kuri bus naudojama, ir sukonfigūruojate papildomus parametrus.
 
-Naudinga sukurti kiekvieno biudžeto sudarymo hierarchijos lygio biudžeto planavimo darbo eigą. Tada priskiriate biudžeto sudarymo darbo eigą, kurioje yra elementų, atitinkančių biudžeto planavimo darbo eigos etapus. Pirmiau šioje temoje pateiktame schemos pavyzdyje viena biudžeto planavimo darbo eiga bus sukurta pardavimo skyriams, o kita – būstinei. Biudžeto sudarymo darbo eiga perkelia biudžeto planus per etapus.
+Naudinga sukurti kiekvieno biudžeto sudarymo hierarchijos lygio biudžeto planavimo darbo eigą. Tada priskiriate biudžeto sudarymo darbo eigą, kurioje yra elementų, atitinkančių biudžeto planavimo darbo eigos etapus. Pavyzdyje, kuris pasirodo anksčiau šiame straipsnyje, bus sukurta viena pardavimo padalinių biudžeto planavimo darbo eiga, o būstinėms bus sukurta kita. Biudžeto sudarymo darbo eiga perkelia biudžeto planus per etapus.
 
 Puslapyje **Biudžeto sudarymo darbo eigos** sukuriate biudžeto planavimo biudžeto sudarymo darbo eigą. Procesas panašus į kitų darbo eigų kūrimą. Toliau pateikiamoje iliustracijoje rodomas būstinės darbo eigos pavyzdys.
 
@@ -141,7 +141,7 @@ Etapo paskirstymai naudojami norint automatiškai paskirstyti biudžeto plano ei
 
 Kai nustatote etapo paskirstymą, susiekite biudžeto planavimo darbo eigą ir etapą su paskirstymo grafiku. Biudžeto planavimo darbo eiga turi būti susieta su biudžeto sudarymo darbo eiga, kuri naudoja automatizuotą darbo eigos užduotį **Biudžeto planavimo etapo paskirstymas**. Darbo eigai pasiekus nurodytą etapą, paskirstymas vyksta automatiškai. Šią automatizuotą užduotį galima naudoti kuriant naujo scenarijaus biudžeto plano eilutes.
 
-Pirmiau šioje temoje pateiktame schemos pavyzdyje paskirstymas atliekamas tam, kad būtų galima perkelti sumas iš biudžeto plano ir scenarijų būstinės etape „Pagrindinis” į kitą biudžeto planą ir scenarijus pardavimų skyriaus etape „Įvertinimas”. Toliau pateikiamoje iliustracijoje rodomas atitinkamas schemos pavyzdžio skyrius.
+Anksčiau šiame straipsnyje rodomame pavyzdyje schema, paskirstymas atliekamas siekiant perkelti sumas iš biudžeto plano ir scenarijų, kad būstinės etapas būtų "Pradinis", į kitą biudžeto planą ir scenarijus pardavimo padalinių etapo "Įvertinti" scenarijuose. Toliau pateikiamoje iliustracijoje rodomas atitinkamas schemos pavyzdžio skyrius.
 
 [![Etapo paskirstymas.](./media/stageallocation-204x300.png)](./media/stageallocation.png) 
 

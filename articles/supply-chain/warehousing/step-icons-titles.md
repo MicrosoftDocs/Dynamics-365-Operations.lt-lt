@@ -1,6 +1,6 @@
 ---
 title: „Warehouse Management” mobiliųjų įrenginių programėlės veiksmų piktogramų ir pavadinimų priskyrimas
-description: Šioje temoje aprašoma, kaip priskirti veiksmų piktogramas ir pavadinimus naujiems ar pritaikytiems užduočių srautams „Warehouse Management” mobiliųjų įrenginių programėlėje.
+description: Šiame straipsnyje aprašoma, kaip priskirti žingsnio piktogramas ir pavadinimus naujiems ar pritaikytoms užduočių srautams sandėlio valdymo mobiliųjų įrenginių programoje.
 author: Mirzaab
 ms.date: 05/17/2021
 ms.topic: article
@@ -10,18 +10,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-05-17
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: a687c26cacc0dbdaf0091b2d26277864553ca1bf
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 361ace454f7125ec86bd99cffefc7d268f81d37f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103318"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890602"
 ---
 # <a name="assign-step-icons-and-titles-for-the-warehouse-management-mobile-app"></a>„Warehouse Management” mobiliųjų įrenginių programėlės veiksmų piktogramų ir pavadinimų priskyrimas
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje aprašoma, kaip priskirti veiksmų piktogramas ir veiksmų pavadinimus naujiems ar pritaikytiems užduočių srautams „Warehouse Management” mobiliųjų įrenginių programėlėje.
+Šiame straipsnyje aprašoma, kaip priskirti žingsnio piktogramas ir veiksmų pavadinimus naujiems ar pritaikytoms užduočių srautams sandėlio valdymo mobilioji programa.
 
 Toliau pateikti pavyzdžiai rodo, kaip veiksmų piktogramos ir pavadinimai rodomi „Warehouse Management” mobiliųjų įrenginių programėlėje.
 
@@ -29,7 +29,7 @@ Toliau pateikti pavyzdžiai rodo, kaip veiksmų piktogramos ir pavadinimai rodom
 
 ## <a name="turn-this-feature-on-or-off"></a>Įjungti arba išjungti šią funkciją
 
-Norėdami naudoti šioje temoje aprašytas funkcijas, *turite įjungti savo sistemą vartotojo parametrus, piktogramas* ir naujos sandėlio programos funkcijos veiksmų pavadinimus. Kaip ir tiekimo grandinės valdymas 10.0.25 ši funkcija yra privaloma ir jos išjungti negalima. Jei naudojate senesnę nei 10.0.25 versiją, *tada administratoriai gali įjungti arba išjungti šią funkciją ieškodami naujo sandėlio programos funkcijos vartotojo parametrų,*[piktogramų](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) ir veiksmų pavadinimų funkcijų funkcijų valdymo darbo srityje.
+Norint naudoti šiame straipsnyje aprašytas *funkcijas,* jūsų sistemoje turi būti įjungti naujos sandėlio programos funkcijos vartotojo parametrai, piktogramos ir veiksmų pavadinimai. Kaip ir tiekimo grandinės valdymas 10.0.25 ši funkcija yra privaloma ir jos išjungti negalima. Jei naudojate senesnę nei 10.0.25 versiją, *tada administratoriai gali įjungti arba išjungti šią funkciją ieškodami naujo sandėlio programos funkcijos vartotojo parametrų,*[piktogramų](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) ir veiksmų pavadinimų funkcijų funkcijų valdymo darbo srityje.
 
 ## <a name="standard-step-ids-classes-and-icons"></a>Standartinės veiksmo ID, klasės ir piktogramos
 
@@ -39,7 +39,7 @@ Kiekvienas užduočių srauto veiksmas identifikuojamas pagal veiksmo ID, o kiek
 
 Toliau esančioje lentelėje pateikiama kiekvieno šiuo metu prieinamo veiksmo ID ir atitinkama veiksmo klasė. Pirminio įvesties lauko valdiklio pavadinimas yra naudojamas kaip veiksmo ID.
 
-Pavyzdį, kuriame parodyta, kaip naudojamos šios veiksmų ID ir klasės, rasite „`WHSMobileAppStepInfoBuilder.stepId()`” metodo diegimo straipsnyje [Pavyzdys: Pasirinktinio srauto veiksmų piktogramų ir pavadinimų priskyrimas](#example), pateiktame toliau šioje temoje.
+Pvz., kuriame parodyta, kaip naudojami šie žingsnių ĮD ir klasės, `WHSMobileAppStepInfoBuilder.stepId()`[žr. metodo diegimą pavyzdyje: Priskirkite pasirinktinio srauto skyriaus veiksmo piktogramas ir pavadinimus](#example) toliau šiame straipsnyje.
 
 | Veiksmo ID | Veiksmo klasė |
 |-|-|
@@ -373,7 +373,7 @@ final internal class WHSMobileAppStepContainerId extends WHSMobileAppStep
 
 Veiksmo piktogramos identifikatorius yra saugomas „`defaultStepIcon`” klasės nariui, o veiksmo pavadinimas yra saugomas „`defaultStepTitle`” klasės nariui.
 
-Norėdami priskirti veiksmo piktogramą, nustatykite „`defaultStepIcon`” į vieną iš piktogramos ID, išvardytų skyriuje [Galimos veiksmų piktogramos](#step-icons), esančiame anksčiau šioje temoje.
+Norėdami priskirti veiksmo piktogramą, nustatykite `defaultStepIcon`[vieną](#step-icons) iš anksčiau šiame straipsnyje pateiktame skyriuje Galimos žingsnio piktogramos išvardytų piktogramų.
 
 ### <a name="use-a-standard-or-custom-step-icon-and-title-for-the-weight-input"></a>Standartinės arba pasirinktinės veiksmo piktogramos ir pavadinimo naudojimas svorio įvesčiai
 
@@ -405,7 +405,7 @@ public class WHSMobileAppStepInfoBuilderWeighContainer extends WHSMobileAppStepI
 }
 ```
 
-Tada sukuriate veiksmo klasę „`NewWeight`” veiksmui. Kodas turėtų būti panašus į „`ContainerId`” pavyzdžio kodą, parodytą anksčiau šioje temoje.
+Tada sukuriate veiksmo klasę „`NewWeight`” veiksmui. Kodas turėtų būti panašus į anksčiau `ContainerId` šiame straipsnyje rodomą kodą.
 
 #### <a name="override-the-stepinfo-method"></a>Metodo „stepInfo()” keitimas
 

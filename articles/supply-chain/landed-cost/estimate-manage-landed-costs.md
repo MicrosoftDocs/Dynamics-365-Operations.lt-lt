@@ -1,6 +1,6 @@
 ---
 title: Iškrovimo kainų vertinimas ir valdymas
-description: Sistema naudoja jūsų automatinės savikainos sąranką, kad nustatytų jūsų iškrovimo kainą. Šioje temoje paaiškinama, kaip galima nurodyti įvairius scenarijus, siekiant pateikti tikslesnį įvertinimą.
+description: Sistema naudoja jūsų automatinės savikainos sąranką, kad nustatytų jūsų iškrovimo kainą. Šiame straipsnyje paaiškinama, kaip galima nurodyti įvairius scenarijus, siekiant pateikti tikslesnį įvertinimą.
 author: Weijiesa
 ms.date: 01/26/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2021-01-26
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 630fb9dc8e7954fcbc4f54941d81de1caa657676
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 2e7cdd7c7439a24ec75a59bcee1e8f42f37bb2cd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8696213"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854447"
 ---
 # <a name="estimate-and-manage-landed-costs"></a>Iškrovimo kainų vertinimas ir valdymas
 
@@ -50,7 +50,7 @@ Kad gautumėte savikainos šablonus, pereikite į **Iškrovimo savikaina \> Įka
 
 Naudodami dialogo langą **Savikainos vertinimas** generuokite naują savikainos vertinimą, kuris grindžiamas pasirinktu savikainos šablonu bei pasirinktu prekių rinkiniu bei kitais veiklos ciklo duomenimis. Tada nustatymai naudojami norint nustatyti numatomas prekių iškrovimo kainas. Šie išlaidų vertinimai pirmiausia naudojami dirbant su standartinės savikainos elementais. Įvertintas iškrovimo kainas sudėjus su standartine atsargų prekių savikaina, operacijų nuokrypis turėtų būti mažesnis, kai prekės pridedamos reisui, nes standartinė savikaina atspindės tokių iškrovimo kainų vertinimus.
 
-Kad atidarytumėte dialogo langą **Savikainos vertinimas**, eikite į **Iškrovimo kaina \> Periodinės užduotys \> Savikainos vertinimas**. Tada nustatykite laukelius, kurie aprašomi tolesniuose papildomuose skyriuose. Galiausiai pasirinkite **Gerai** ir sukurkite vertinimą. Tada pasirodo puslapis **Savikainos vertinimas** (**Iškrovimo kaina \> Užklausos \> Savikainos vertinimas**) ir jame rodomas naujasis vertinimas, kaip aprašoma toliau šioje temoje.
+Kad atidarytumėte dialogo langą **Savikainos vertinimas**, eikite į **Iškrovimo kaina \> Periodinės užduotys \> Savikainos vertinimas**. Tada nustatykite laukelius, kurie aprašomi tolesniuose papildomuose skyriuose. Galiausiai pasirinkite **Gerai** ir sukurkite vertinimą. Tada **rodomas išlaidų** įvertinimo puslapis (**įkainojimo \>\>** užklausų išlaidų įvertinimai) ir rodo jūsų naują įvertinimą, kaip toliau aprašyta šiame straipsnyje.
 
 ### <a name="settings-on-the-parameters-tab"></a>Nustatymai parametrų skirtuke
 
@@ -91,7 +91,7 @@ Norėdami peržiūrėti arba koreguoti prekės tūrio ir (arba) svorio informaci
 
 ## <a name="manage-estimated-costs"></a>Įvertintos savikainos valdymas
 
-Norėdami peržiūrėti ir redaguoti sukurtus savikainos vertinimus, eikite į **Iškrovimo kaina \> Užklausos \> Savikainos vertinimas**. Puslapio **Savikainos vertinimas** kairėje esančioje sąrašo srityje rodomi visi dabartiniai savikainos šablonai. Veiksmų srities mygtukus galite naudoti norėdami dirbti su pasirinktu vertinimu. Atminkite, kad puslapyje **Savikainos vertinimas** negalėsite kurti naujo savikainos vertinimo. Geriau naudokite dialogo langą **Savikainos vertinimas** (**Iškrovimo kaina \> Periodinės užduotys \> Savikainos vertinimas**), kaip aprašyta šioje temoje aukščiau.
+Norėdami peržiūrėti ir redaguoti sukurtus savikainos vertinimus, eikite į **Iškrovimo kaina \> Užklausos \> Savikainos vertinimas**. Puslapio **Savikainos vertinimas** kairėje esančioje sąrašo srityje rodomi visi dabartiniai savikainos šablonai. Veiksmų srities mygtukus galite naudoti norėdami dirbti su pasirinktu vertinimu. Atminkite, kad puslapyje **Savikainos vertinimas** negalėsite kurti naujo savikainos vertinimo. Geriau naudokite dialogo langą **Išlaidų įvertinimas** (Įkrautų **išlaidų periodinių \> užduočių išlaidų \> įvertinimas**), kaip anksčiau aprašyta šiame straipsnyje.
 
 Puslapyje **Savikainos vertinimas** rodoma, kaip išvedama kiekviena įvertinta savikaina. Jame taip pat rodoma kiekvienos prekės įvertinta iškrovimo savikaina. Savikainos vertinimą galima modifikuoti keičiant savikainos kainą ir (arba) valiutą, kuri siejama su įvairiomis prekėmis. Taip pat galima modifikuoti susijusias reiso išlaidas ir reiso lygyje, ir konteinerio lygyje. Kai naudojate šį puslapį išlaidoms modifikuoti, esate raginami perskaičiuoti įvertintas prekių, esančių savikainos įvertinime, savikainas. Kai būsite pasirengę, vertinimus galite naudoti prekių savikainos kainai atnaujinti savikainos šablone.
 

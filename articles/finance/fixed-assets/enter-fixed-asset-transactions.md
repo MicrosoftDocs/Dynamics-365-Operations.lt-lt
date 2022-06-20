@@ -1,6 +1,6 @@
 ---
 title: Ilgalaikio turto operacijų parinktys
-description: Šioje temoje aprašomi galimi skirtingi metodai ilgalaikio turto operacijoms kurti.
+description: Šiame straipsnyje aprašomi skirtingi ilgalaikio turto operacijų kūrimo metodai.
 author: moaamer
 ms.date: 08/10/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 507e263e7267fe96cdf9ed78a84924839c2de982
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: 402679b6f1003f14f7e277a326784edaaea719d5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8719754"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883364"
 ---
 # <a name="fixed-asset-transaction-options"></a>Ilgalaikio turto operacijų parinktys
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje aprašomi galimi skirtingi metodai ilgalaikio turto operacijoms kurti.
+Šiame straipsnyje aprašomi skirtingi ilgalaikio turto operacijų kūrimo metodai.
 
 Galite nustatyti, kad ilgalaikis turtas būtų integruotas su mokėtinomis sumomis, gautinomis sumomis, paraiškomis ir didžiąja knyga. Taip pat galite perkelti prekes atsargų valdyme į ilgalaikį turtą, jei norite tas prekes naudoti viduje.
 

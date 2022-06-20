@@ -1,6 +1,6 @@
 ---
 title: Kas nauja ar pasikeitė „Dynamics 365 Supply Chain Management“
-description: Šioje temoje nurodomos temos, kuriose aprašomos naujos ir pakeistos funkcijos kiekviename „Dynamics 365 Supply Chain Management“ leidime.
+description: Šiame straipsnyje minimi straipsniai, aprašomi naujos ir pakeistos kiekvieno paleidimo funkcijos Dynamics 365 Supply Chain Management.
 author: kamaybac
 ms.date: 05/27/2022
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: 6c1cfcd7ccc39f2742fd237278f97b4d3d0ad4fd
-ms.sourcegitcommit: 611202adaa080250636efabb3b3b32b850d92d04
-ms.translationtype: MT
+ms.openlocfilehash: b767f8ff8e9c9ef7ea1b4dee777f9e0c96f93aef
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/28/2022
-ms.locfileid: "8812978"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893445"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management"></a>Kas nauja ar pasikeitė „Dynamics 365 Supply Chain Management“
 
@@ -27,7 +27,7 @@ ms.locfileid: "8812978"
 
 ## <a name="releases-of-dynamics-365-supply-chain-management"></a>„Dynamics 365 Supply Chain Management“ leidimai
 
-Norėdami sužinoti, kas nauja ar pasikeitė kiekviename „Dynamics 365 Supply Chain Management” leidime, žr. šias temas:
+Norėdami peržiūrėti, kas nauja ar pakeista kiekviename leidime Dynamics 365 Supply Chain Management, žr. šiuos straipsnius.
 
 | Versija | Versijos numeris | Automatinių naujinimų pasiekiamumas | Sužinokite daugiau |
 |---|---|---|---|
@@ -57,9 +57,9 @@ Norėdami sužinoti, kas nauja ar pasikeitė kiekviename „Dynamics 365 Supply 
 
 ## <a name="releases-before-november-2019"></a>Leidimai iki 2019 m. lapkričio mėnesio
 
-Norėdami sužinoti, kas nauja ar pasikeitė leidimuose iki 2019 m. lapkričio mėn., žr. šias temas:
+Norėdami pamatyti, kas naujo ar pakeista leidimuose iki 2019 m. lapkričio mėn., žr. šiuos straipsnius.
 
-| Išleisti | Versija | Versijos numeris | Prieinamumas | Sužinokite daugiau |
+| Išleisti | Versija | Versijos numeris | Esamumas | Sužinokite daugiau |
 |---|---|---|---|---|
 | „Microsoft Dynamics 365 for Finance and Operations“                     | 10.0.5      | 10.0.197         | Spalio 2019 d.     | [Kas nauja ar pasikeitė „Dynamics 365 for Finance and Operations“ 10.0.5 versijoje (2019 m. spalio mėn.)](../../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-5.md)                 |
 | „Microsoft Dynamics 365 for Finance and Operations“                     | 10.0.4      | 10.0.136         | 2019 m. liepos mėn.        | [Kas nauja ar pasikeitė Dynamics 365 for Finance and Operations 10.0.4 versijoje (2019 m. liepos mėn.)](../../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-4.md)                    |

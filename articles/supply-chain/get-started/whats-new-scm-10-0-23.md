@@ -1,6 +1,6 @@
 ---
 title: Kas naujo ar pasikeitusio „Dynamics 365 Supply Chain Management“ 10.0.23 (2022 m. sausio mėnesį)
-description: Šioje temoje aprašomos naujos ir pakeistos „Microsoft Dynamics 365 Supply Chain Management“ 10.0.23 funkcijos.
+description: Šiame straipsnyje aprašomos priemonės, kurios yra naujos arba pakeistos programoje Microsoft Dynamics 365 Supply Chain Management 10.0.23.
 author: kamaybac
 ms.date: 10/15/2021
 ms.topic: article
@@ -10,18 +10,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 86e33296fd8631082e47bf6814d8e5e716d9fa1b
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: acffe97cf1844f16a70c716a7f2078b1e9a072d1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8691476"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849480"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10023-january-2022"></a>Kas naujo ar pasikeitusio „Dynamics 365 Supply Chain Management“ 10.0.23 (2022 m. sausio mėnesį)
 
 [!include [banner](../includes/banner.md)]
 
-Ši tema išvardyja funkcija, kurios yra naujos arba pakeistos „Microsoft Dynamics 365 Supply Chain Management“ 10.0.23 versijoje. Šios versijos komponavimo numeris yra 10.0.1037 ir jis pasiekiamas tokius būdu:
+Šiame straipsnyje pateikiamos funkcijos, kurios yra naujos arba pakeistos "Microsoft Dynamics 365 Supply Chain Management " 10.0.23 versijoje. Šios versijos komponavimo numeris yra 10.0.1037 ir jis pasiekiamas tokius būdu:
 
 - **Leidimo peržiūra:** 2021 m. spalio mėn.
 - **Bendras leidimo pasiekiamumas (automatinis naujinimas):** 2021 m. gruodžio mėn.
@@ -29,7 +29,7 @@ ms.locfileid: "8691476"
 
 ## <a name="features-included-in-this-release"></a>Funkcijos, įtrauktos į šį leidimą
 
-Tolesnėje lentelėje pateiktos funkcijos, kuri yra šiame leidime. Priemonės *stulpelyje* pateikiami saitai [į paleidimo](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/planned-features) planą, kur matysite oficialias kiekvienos priemonės paleidimo datas. Stulpelyje *Daugiau informacijos* pateikiama išsami informacija ir (arba) nuorodos į susijusius dokumentus. Norėdami nustatyti, kaip įjungti funkciją, žr. stulpelį *Įgalinta pagal*. Daugiau informacijos kaip naudoti funkcijų valdymą žr. [Funkcijos valdymo apžvalga](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) Galime atnaujinti šią temą, kad būtų įtraukti funkcijų ištaisymai, įtraukti į komponavimo versiją publikavus šią temą.
+Tolesnėje lentelėje pateiktos funkcijos, kuri yra šiame leidime. Priemonės *stulpelyje* pateikiami saitai [į paleidimo](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/planned-features) planą, kur matysite oficialias kiekvienos priemonės paleidimo datas. Stulpelyje *Daugiau informacijos* pateikiama išsami informacija ir (arba) nuorodos į susijusius dokumentus. Norėdami nustatyti, kaip įjungti funkciją, žr. stulpelį *Įgalinta pagal*. Daugiau informacijos kaip naudoti funkcijų valdymą žr. [Funkcijos valdymo apžvalga](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) Mes galime atnaujinti šį straipsnį, kad būtų įtrauktos priemonės, kurios buvo sukurtas kuriant šį straipsnį pirmą kartą publikuotame.
 
 | Funkcijos sritis | Funkcija | Daugiau informacijos | Įjungė   |
 |---|---|---|---|
@@ -63,9 +63,9 @@ Jei norite įjungti arba išjungti bet kurią iš šių priemonių, tai turite a
 
 ## <a name="new-and-updated-documentation-resources"></a>Nauji ir naujinti dokumentų šaltiniai
 
-Neseniai įtraukėme ir reikšmingai atnaujinome tolesnes pagalbos temas. Šios temos nebūtinai susijusios su naujomis funkcijomis, kurios buvo pridėtos prie šio leidimo, kaip išvardyta ankstesniame skyriuje. Tačiau jos gali padėti gauti daugiau informacijos apie esamas funkcijas.
+Neseniai įtraukėme arba pastebimai atnaujinome šiuos žinyno straipsnius. Šie straipsniai nebūtinai susiję su naujomis funkcijomis, kurios buvo pridėtos prie šio leidimo, kaip išvardyta ankstesniame skyriuje. Tačiau jos gali padėti gauti daugiau informacijos apie esamas funkcijas.
 
-| Funkcijos sritis | Naujos arba atnaujintos temos |
+| Funkcijos sritis | Nauji arba atnaujinti straipsniai |
 |---|---|
 | Inžinerinių pakeitimų valdymas | [Inžinerijos atributai ir inžinerijos atributų paieška](../engineering-change-management/engineering-attributes-and-search.md) dabar apiibūdina, kaip veikia inžinerijos atributų paveldėjimas. |
 | Bendrasis planavimas | [Bendrasis planavimas su poreikio prognozėmis](../master-planning/planning-optimization/demand-forecast.md) ir [Prognozės mažinimo raktai](../master-planning/reduction-keys.md) dabar suteikia daugiau informacijos apie tai, kaip dirbti naudojant mažinimo raktus. |
@@ -74,9 +74,9 @@ Neseniai įtraukėme ir reikšmingai atnaujinome tolesnes pagalbos temas. Šios 
 | Bendrasis planavimas | [Tiekimo grafikas](../master-planning/supply-schedule.md) |
 | Sandėlio valdymas | [Visuotiniai mobiliojo įrenginio parametrai](../warehousing/mobile-device-parameters.md) |
 | Sandėlio valdymas | [Fiksavimas](../warehousing/anchoring.md) |
-| Pardavimas ir rinkodara | Vidinės įmonės prekyba dabar aprašyta išsamiai, pradedant nuo [Vidinės įmonės prekybos](../sales-marketing/intercompany-trade-set-up.md) ir susijusių temų. |
+| Pardavimas ir rinkodara | Vidinės įmonės prekyba dabar aprašyta išsamiai, pradedant [nuo vidinės įmonės prekybos](../sales-marketing/intercompany-trade-set-up.md) ir su ja susijusių straipsnių. |
 | Pardavimas ir rinkodara | [Pardavimo retrospektyvos valymo našumo patobulinimai](../sales-marketing/sales-update-history-cleanup-performance-improvements.md) |
-| Atsargų valdymas | Atsargų matomumo dokumentai išplėsti ir atnaujinti, pradedant [Atsargų matomumo priedo peržiūra](../inventory/inventory-visibility.md) ir susijusiomis temomis. |
+| Atsargų valdymas | Atsargų matomumo dokumentai buvo išplėsti ir atnaujinti, [pradedant](../inventory/inventory-visibility.md) atsargų matomumo priedo peržiūra ir susijusiais straipsniais. |
 | Sandėlio valdymas | [Mobiliojo įrenginio vartotojų paskyros](../warehousing/mobile-device-work-users.md) |
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
@@ -97,12 +97,12 @@ Patikrinkite ["Dynamics 365" ir pramonės debesys: 2021 išleidimo bangos 2 plan
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>Pašalintos ir pasenusios „Supply Chain Management“ funkcijos
 
-Temoje [Pašalintos arba pasenusios funkcijos „Dynamics 365 Supply Chain Management“](removed-deprecated-features-scm-updates.md) aprašomos „Supply Chain Management“ funkcijos, kurios yra pašalintos, yra suplanuotos pašalinti arba yra pasenusios.
+Straipsnyje [pašalintos arba pasenusios Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) funkcijos aprašomos priemonės, kurios buvo arba yra suplanuotos pašalinti arba pasenusios tiekimo grandinės valdymui.
 
 - *Pašalinta* funkcija nebėra įtraukta į produktą.
 - *Nebenaudojama* funkcija nebėra aktyviai tobulinama ir gali būti pašalinta iš būsimo naujinio.
 
-Prieš pašalinant iš produkto bet kokią funkciją, pranešimas apie nebenaudojimą bus paskelbtas [Pašalintos arba pasenusios funkcijos „Dynamics 365 Supply Chain Management“](removed-deprecated-features-scm-updates.md) temoje 12 mėnesių prieš pašalinimą.
+Prieš pašalinant bet kokią priemonę iš produkto, [Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) pranešimai dėl nušalinimo bus pereiti prie pašalintų arba pasenusių funkcijų 12 mėnesių prieš pašalinimą.
 
 Atlikus keitimus, kurie paveikia tik kompiliavimo laiką, bet yra dvejetainiškai suderinami su smėlio dėžės ir gamybos aplinka, nebenaudojimo laikas bus trumpesnis nei 12 mėnesių. Paprastai, tai yra funkciniai naujinimai, kuriuos reikia atlikti kompiliatoriui.
 

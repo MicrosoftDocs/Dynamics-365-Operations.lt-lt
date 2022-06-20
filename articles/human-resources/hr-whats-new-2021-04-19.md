@@ -1,6 +1,6 @@
 ---
 title: Kas nauja arba pasikeitė 2021 m. balandžio 19 d. „Dynamics 365 Human Resources”
-description: Šioje temoje aprašomos naujos arba pasikeitusios „Microsoft Dynamics 365 Human Resources” funkcijos 2021 m. balandžio 19 d.
+description: Šiame straipsnyje aprašomos naujos arba pasikeitusios „Microsoft Dynamics 365 Human Resources” funkcijos 2021 m. balandžio 19 d.
 author: marcelbf
 ms.date: 04/19/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-04-19
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 6734069b1448999c62a8c538f97d786fc10995e5
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: e46c5721853ebfe3b9d5955ca5f4e7a4ead570c1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8685748"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846306"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-april-19-2021"></a>Kas nauja arba pasikeitė 2021 m. balandžio 19 d. „Dynamics 365 Human Resources”
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Šioje temoje aprašomos naujos, pasikeitusios ar netrukus pasirodysiančios „Dynamics 365 Human Resources“ funkcijos.
+Šiame straipsnyje aprašomos priemonės, kurios yra naujos, pakeistos arba tuoj pat Dynamics 365 Human Resources.
 
 Daugiau informacijos apie mūsų atnaujinimo procesą ir grafiką žr. [Atnaujinimo procesas](hr-admin-setup-update-process.md).
 
@@ -49,9 +49,9 @@ Daugiau informacijos apie naujas funkcijas ir jų numatomas bendro pasiekiamumo 
 Toliau nurodyti klaidų ištaisymai įtraukti į šį leidimą.
 
 > [!NOTE]
-> Siekiame kuo greičiau pateikti jums šią informaciją. Galime atnaujinti šią temą, kad būtų įtraukti klaidų ištaisymai, įtraukti į komponavimo versiją publikavus šią temą.
+> Siekiame kuo greičiau pateikti jums šią informaciją. Galime atnaujinti šį straipsnį, kad būtų įtrauktos pataisos, kurios buvo sukurtas po to, kai buvo publikuotas šis straipsnis.
 
-| Problemos numeris | Išdavimas |  Aprašas |
+| Problemos numeris | Problema |  Aprašymas |
 | --- | --- | --- |
 | 552164 | **Įrašytas** darbuotojų **savitarnos paslaugos rodinys >** Atviri kursai ne darbo su darbotvarke | Jei atidarytuose kursuose (ESS) naudojamas įrašytas rodinys ir prie vieno iš kursų pridėta darbotvarkė, rodinyje daugiau nebus parodytos kelios to kurso eilutės |
 | 560614 | **Išmokos > Gyvenimo įvykio pasirinktys** rodo nesutapimų patarimo dokumentuose ir kodo elgsenoje. | Atnaujinti patarimai dėl naudojimo laiko **įvykio parinkčių, kad** būtų rodomas teisingas veikimo būdas. |

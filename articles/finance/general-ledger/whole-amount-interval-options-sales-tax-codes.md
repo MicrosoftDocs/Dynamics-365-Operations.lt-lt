@@ -1,5 +1,5 @@
 ---
-title: PVM kodų skaičiavimo parinktys Visa suma ir Intervalas
+title: Visa suma ir PVM kodų intervalo skaičiavimo parinktys
 description: Šiame straipsnyje paaiškinamos PVM kodų lauko Skaičiavimo būdas parinktys ir tai, kaip skaičiuojamas intervalų ir visų sumų PVM.
 author: kailiang
 ms.date: 06/20/2017
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6f06c92f2151f54a7d9b684b9687b786d1e4cd7a
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 5b02a0ced8b556cfc5a984d24ceaf982629fd69c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8727460"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874467"
 ---
-# <a name="whole-amount-and-interval-calculation-options-for-sales-tax-codes"></a>PVM kodų skaičiavimo parinktys Visa suma ir Intervalas
+# <a name="whole-amount-and-interval-calculation-options-for-sales-tax-codes"></a>Visa suma ir PVM kodų intervalo skaičiavimo parinktys
 
 [!include [banner](../includes/banner.md)]
 
-Šiame straipsnyje paaiškinamos PVM kodų **Skaičiavimo būdas** lauko parinktys ir tai, kaip skaičiuojamas intervalų ir visų sumų PVM.
+Šiame straipsnyje paaiškinamos PVM kodų **lauko** Skaičiavimo metodas pasirinktys ir kaip apskaičiuojamas intervalų ir visos sumos PVM.
 
 Galite nustatyti, kad PVM kodas būtų skaičiuojamas pagal visą sumą arba intervalo sumą. **PVM kodų** puslapyje naudokite **Skaičiavimo metodas** lauką **Skaičiavimas** FastTab skirtuke, kad pasirinktumėte pardavimo PVM kodo skaičiavimo metodą.
 - Visa suma – mokesčio tarifas taikomas visai apmokestinamai sumai.

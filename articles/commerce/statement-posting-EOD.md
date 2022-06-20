@@ -1,6 +1,6 @@
 ---
-title: Išrašų registravimo funkcionalumo patobulinimai
-description: Šioje temoje aprašomi išrašų registravimo funkcijai atlikti patobulinimai.
+title: Išrašų registravimo funkcijos patobulinimai
+description: Šiame straipsnyje aprašomi patobulinimai, atlikti išrašų registravimo funkcijai.
 author: analpert
 ms.date: 05/18/2022
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: josaw
 ms.search.region: Global
 ms.author: analpert
 ms.search.validFrom: 2018-04-30
-ms.openlocfilehash: f3937ee7b34b7204c31d922900029ae3a2c59e18
-ms.sourcegitcommit: 2b4ee1fe05792332904396b5f495d74f2a217250
+ms.openlocfilehash: a7f25a7cc1e214b5c08013055126728b2ad10f3f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/18/2022
-ms.locfileid: "8770174"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8886911"
 ---
-# <a name="improvements-to-statement-posting-functionality"></a>Išrašų registravimo funkcionalumo patobulinimai
+# <a name="improvements-to-statement-posting-functionality"></a>Išrašų registravimo funkcijos patobulinimai
 
 [!include [banner](includes/banner.md)]
 
-Šioje temoje aprašomas pirmas išrašų registravimo funkcijai atliktų patobulinimų rinkinys. Šie patobulinimai pateikiami „Microsoft Dynamics 365 for Finance and Operations 7.3.2“.
+Šiame straipsnyje aprašomas pirmas patobulinimų, kurie buvo atlikti ataskaitų registravimo funkcijai, rinkinys. Šie patobulinimai pateikiami „Microsoft Dynamics 365 for Finance and Operations 7.3.2“.
 
 ## <a name="activation"></a>Aktyvinimas
 

@@ -1,6 +1,6 @@
 ---
-title: „Social Share” modulis
-description: Šioje temoje aprašomi „Social Share” moduliai ir tai, kaip jų įtraukti į „Microsoft Dynamics 365 Commerce“ svetainių puslapius.
+title: Bendrinimo socialiniuose tinkluose modulis
+description: Šiame straipsnyje aprašomi socialinio naudojimo moduliai ir aprašoma, kaip juos įtraukti į svetainės puslapius Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 05/18/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: d145602a217b32b97142251c65d51945569be9ac
-ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
+ms.openlocfilehash: e520f425f86c4005a8756ddc0941a9b44f23c262
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "8780898"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8844651"
 ---
 # <a name="social-share-module"></a>Bendrinimo socialiniuose tinkluose modulis
 
 [!include [banner](includes/banner.md)]
 
-Šioje temoje aprašomi „Social Share” moduliai ir tai, kaip jų įtraukti į „Microsoft Dynamics 365 Commerce“ svetainių puslapius.
+Šiame straipsnyje aprašomi socialinio naudojimo moduliai ir aprašoma, kaip juos įtraukti į svetainės puslapius Microsoft Dynamics 365 Commerce.
 
 „Social Share” moduliai leidžia vartotojams bendrinti „e-Commerce” svetainių puslapių URL socialiniuose tinkluose, pvz., „Facebook”, „Twitter”, „Pinterest” ir „LinkedIn”. Svetainių puslapių URL taip pat galima bendrinti el. paštu. „Social Share” moduliai dažniausiai naudojami produkto informacijos puslapiuose (PDP), siekiant padėti vartotojams bendrinti produkto informaciją.
 

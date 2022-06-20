@@ -1,6 +1,6 @@
 ---
 title: Sąskaitų faktūrų pateikimas darbo eigos sistemai ir produkto gavimo kvito eilučių sugretinimas
-description: Šioje temoje paaiškinama, kaip pateikti tiekėjo sąskaitas faktūras į darbo eigos sistemą ir automatiškai sugretinti užregistruotų produktų gavimo kvito eilutes su tiekėjo sąskaitomis faktūromis.
+description: Šiame straipsnyje paaiškinamas tiekėjo SF pateikimo darbo eigos sistemai procesas ir automatiškai gretinimas su užregistruotomis gavimo dokumentų eilutėmis tiekėjo SF.
 author: abruer
 ms.date: 02/11/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-09-08
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 0962ea2bfa28deb3e86620c364feffd209cfc38e
-ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
+ms.openlocfilehash: 960a08eb5e98cac034bbd41335b616ff41bf6fd4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8109948"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861624"
 ---
 # <a name="submit-invoices-to-the-workflow-system-and-match-product-receipt-lines"></a>Sąskaitų faktūrų pateikimas darbo eigos sistemai ir produkto gavimo kvito eilučių sugretinimas
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje paaiškinama, kaip pateikti tiekėjo sąskaitas faktūras į darbo eigos sistemą ir automatiškai sugretinti užregistruotų produktų gavimo kvito eilutes su tiekėjo sąskaitomis faktūromis.
+Šiame straipsnyje paaiškinamas tiekėjo SF pateikimo darbo eigos sistemai procesas ir automatiškai gretinimas su užregistruotomis gavimo dokumentų eilutėmis tiekėjo SF.
 
 ## <a name="submitting-imported-vendor-invoices-to-the-workflow-system-and-matching-posted-product-receipt-lines-to-pending-vendor-invoice-lines"></a>Importuotų tiekėjo sąskaitų faktūrų pateikimas į darbo eigos sistemą ir užregistruotų produktų gavimo kvitų eilučių sugretinimas su patvirtinimo laukiančiomis tiekėjo sąskaitos faktūros eilutėmis
 

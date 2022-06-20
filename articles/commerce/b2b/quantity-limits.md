@@ -1,6 +1,6 @@
 ---
 title: Nustatykite produkto kiekio apribojimus B2B el. komercijos saitams
-description: Šioje temoje aprašoma, kaip nustatyti produkto kiekio apribojimus verslo su verslu (B2B) el. komercijos saitams.
+description: Šiame straipsnyje aprašoma, kaip nustatyti produktų kiekio limitus "verslas verslui" (B2B) el. prekybos svetainėms.
 author: josaw1
 ms.date: 01/20/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 18dc138693dc9fb0e8cf8727de77b5f8584cde79
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 034441f8f712c676dbcc89f0009361d0a4a65721
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8690201"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8877010"
 ---
 # <a name="set-product-quantity-limits-for-b2b-e-commerce-sites"></a>Nustatykite produkto kiekio apribojimus B2B el. komercijos saitams
 
 [!include [banner](../../includes/banner.md)]
 
-Šioje temoje aprašoma, kaip nustatyti produkto kiekio apribojimus verslo su verslu (B2B) el. komercijos saitams.
+Šiame straipsnyje aprašoma, kaip nustatyti produktų kiekio limitus "verslas verslui" (B2B) el. prekybos svetainėms.
 
 Didžioji dalis produktų turi matavimo vienetą, kuris nustato jų grupes. Grupavimas paveikia tai, kaip produktai gali būti parduoti. Kai kurie produktai gali turėti papildomą grupavimą kiekiams. Šis grupavimas nustato, ar produktai gali būti parduoti kaip atskiri vienetai ar kartu ir ar esama minimalaus ar maksimalaus kiekio apribojimo, kurio būtina laikytis.
 

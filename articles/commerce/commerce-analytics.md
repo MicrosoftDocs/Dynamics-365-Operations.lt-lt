@@ -1,6 +1,6 @@
 ---
 title: „Commerce“ analizė (peržiūros versija)
-description: Šioje temoje paaiškinama, kaip įdiegti ir naudoti analizės galimybę Microsoft Dynamics 365 Commerce.
+description: Šiame straipsnyje paaiškinama, kaip įdiegti ir naudoti analizės galimybę Microsoft Dynamics 365 Commerce.
 author: AamirAllaq
 ms.date: 02/24/2022
 audience: Application user
@@ -8,18 +8,18 @@ ms.reviewer: sericks
 ms.search.region: Global
 ms.author: aamiral
 ms.search.validFrom: 2021-11-12
-ms.openlocfilehash: 63d6e5ef7e883578106495d5ec778bbd686ee92d
-ms.sourcegitcommit: 722854cb0d302d01ce3d9580ac80dc7c23d19bf5
+ms.openlocfilehash: 9ffa0affa0b80af65dd2aa37ef2fe969752ae332
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/06/2022
-ms.locfileid: "8550012"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887171"
 ---
 # <a name="commerce-analytics-preview"></a>„Commerce“ analizė (peržiūros versija)
 
 [!include [banner](includes/banner.md)]
 
-Šioje temoje paaiškinama, kaip įdiegti "Commerce Analytics" (peržiūra), funkcinę analizės galimybę, kuri įtraukta į Microsoft Dynamics 365 Commerce.
+Šiame straipsnyje paaiškinama, kaip įdiegti "Commerce Analytics" (peržiūra), funkcinę analizės galimybę, kuri įtraukta į Microsoft Dynamics 365 Commerce.
 
 ## <a name="commerce-analytics-preview-live-demo"></a>"Commerce Analytics" (peržiūra) tiesioginė parodomoji versija
 
@@ -253,7 +253,7 @@ Galiausiai duomenys atvaizduojami vaizduose Power BI, kad vartotojai galėtų ju
 
     - Puslapio rodinys pagal puslapio tipą (pagrindinis puslapis, kategorijos puslapis arba produkto informacijos puslapis)
     - Įtraukti į krepšelį
-    - Užbaigti pirkimą
+    - Išregistruoti
     - Pirkimas
 
 #### <a name="sessions"></a>Seansai
@@ -274,7 +274,7 @@ Seansas yra vartotojo apsilankymo jūsų el. komercijos svetainėje dalis. Seans
 
 - Seansų koeficientas
 
-    Seansas yra seansas, kuriame vartotojas išeina iš karto po to, kai aplankys jūsų el. komercijos svetainę. Daugiau informacijos ieškokite Koeficiento koeficiente.<a1/&a1><a2/ [&a3>](https://en.wikipedia.org/wiki/Bounce_rate)
+    Seansas yra seansas, kuriame vartotojas išeina iš karto po to, kai aplankys jūsų el. komercijos svetainę. Daugiau informacijos ieškokite Koeficiento koeficiente.<a1/&a1><a2/[&a3>](https://en.wikipedia.org/wiki/Bounce_rate)
 
 - Spusteli per seansą
 
@@ -425,7 +425,7 @@ Norėdami įdiegti ir konfigūruoti "Commerce Analytics" (peržiūra) priedą, a
     | "Azure" rakto saugyklos DNS pavadinimas | Įveskite savo rakto saugyklos DNS pavadinimą. Sukonfigūruokite eksportavimo [į duomenų portalą priedą, turite pateikti šios vertės pastabą](#keyVault). | `https://contosod365datafeedpoc.vault.azure.net/` |
     | Slapto pavadinimo, kuriame yra programos ID, pavadinimas | Įvesti slaptą pavadinimą, kuriame saugomas programos ID. Sukonfigūruokite eksportavimo [į duomenų portalą priedą, turite pateikti šios vertės pastabą](#keyVault). | `app-id` |
     | Slapto pavadinimas, kuriame yra prašymo slapto vardo | Įvesti slaptą pavadinimą, kuriame saugomas programos slapyme. Sukonfigūruokite eksportavimo [į duomenų portalą priedą, turite pateikti šios vertės pastabą](#keyVault). | `app-secret` |
-    | Slapto pavadinimo, kuriame yra serverio nesamas SQL galinis punktas Azure Synapse | Įvesti slaptą pavadinimą, kuriame saugomas serverio serverio duomenų galinis punktas. Jūs turėjote sukurti slaptą, kol pridėti [slapyme paslapyme turi būti rakto vertės](#addSecrets). | `synapse-sql-server` |
+    | Slapto pavadinimo, kuriame yra serverio nesamas SQL galinis punktas Azure Synapse | Įvesti slaptą pavadinimą, kuriame saugomas serverio serverio duomenų galinis punktas. Jūs turėjote sukurti slaptą, kol pridėti [slapyme paslapyme turi būti rakto vertės.](#addSecrets) | `synapse-sql-server` |
     | Slaptažodis, kuriame yra slaptažodis, nustatytas SQL tik skaityti vartotojams Azure Synapse | Įveskite slaptą pavadinimą, kuriame saugomas slaptažodis, skirtas nustatyti vartotojui, kuriame leidžiama tik skaityti serveryje. Šis vartotojas bus sukurtas už jus ir jis turėtų būti naudojamas Power BI ataskaitoje prisijungti prie serverio serverio neturintis SQL serveris. Jūs turėtumėte sukurti slaptą, kai įtraukėte [slapymečių į rakto vertę](#addSecrets). | `readonly-sql-pwd` |
 
 1. Sutikite su pasiūlymo sąlygomis pažymėdami žymės langelį ir pasirinkite **Diegti**.

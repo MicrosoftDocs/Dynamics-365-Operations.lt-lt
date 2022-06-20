@@ -1,6 +1,6 @@
 ---
 title: Produkto parengtis
-description: Šioje temoje paaiškinta, kaip galite naudoti parengtumo patikras siekiant užtikrinti, kad būtini pagrindiniai duomenys yra baigti produktui prieš jo naudojimą perlaidose.
+description: Šiame straipsnyje paaiškinama, kaip galima naudoti pasirengimo patikrinimus norint užtikrinti, kad prieš naudojant produktą operacijose reikiami pagrindiniai duomenys yra užbaigti.
 author: t-benebo
 ms.date: 09/28/2020
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: f7ab6165e85cd2b1165292b74cd036f1233b22b4
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: a8e76d5fc786b6f4cac7cd0430399ca3ad13a7bc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103018"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856228"
 ---
 # <a name="product-readiness"></a>Produkto parengtis
 
@@ -61,7 +61,7 @@ Jei nauja inžinerinė *versija* yra sukuriama produktui, sistema patikrina, ar 
 - Inžinerijos versija yra nustatyta kaip neįjungta siekiant užblokuoti produktą nuo naudojimo.
 
 > [!NOTE]
-> Taip pat galite nustatyti pasirengimo patikrinimų strategijas standartiniams (neinžineriniams) produktams. Daugiau informacijos rasite skyriuje [Standartinių produktų pasirengimo patikrinimai](#standard-products), pateiktame toliau šioje temoje.
+> Taip pat galite nustatyti pasirengimo patikrinimų strategijas standartiniams (neinžineriniams) produktams. Norėdami gauti daugiau informacijos, toliau šiame [straipsnyje žr. standartinių](#standard-products) produktų pasirengimo tikrinimus.
 
 ## <a name="view-readiness-checks"></a>Peržiūrėti parengtumo patikras
 
@@ -151,7 +151,7 @@ Kiekvienai įtrauktai eilutei, nustatykite tolesnius laukelius.
 | Įmonė | Jei nustatote **Vykdyti** laukelį į *Vienoje bendrovėje*, pasirinkite bendrovę. |
 | Savininko tipas | Pasirinkite, ar pasirengimo patikros, kurias eilutė sukuria turi būti priskirtos asmeniui ar komandai. |
 | Savininkas | Pasirinkite asmenį ar komandą, kuriems bus priskirtos pasirengimo patikros, kurias eilutė sukuria. |
-| Klausimynas | Rinkitės klausimyną, kuris turi būti naudojamas patikrų sąraše. Patikrų sąrašas yra vietinis patikrų sąrašas bendrovėje, kai pasirengimo patikra yra atlikta. Sistema privalo galėti įvertinti, ar patikrų sąrašas yra tinkamai sudarytas. Dėl to, patikrų sąrašą reikia nustatyti taip, kad vertinimas būtų atliktas pagal tinkamus atsakymus. Dėl išsamesnės informacijos apie tai, kaip sukurti klausimynus, žr. [Naudoti klausimynus](/dynamicsax-2012/appuser-itpro/using-questionnaires) ir su jais susijusias temas. |
+| Klausimynas | Rinkitės klausimyną, kuris turi būti naudojamas patikrų sąraše. Patikrų sąrašas yra vietinis patikrų sąrašas bendrovėje, kai pasirengimo patikra yra atlikta. Sistema privalo galėti įvertinti, ar patikrų sąrašas yra tinkamai sudarytas. Dėl to, patikrų sąrašą reikia nustatyti taip, kad vertinimas būtų atliktas pagal tinkamus atsakymus. Daugiau informacijos apie klausimynų kūrimo ieškokite klausimynų [naudojimas](/dynamicsax-2012/appuser-itpro/using-questionnaires) ir su jais susijusius straipsnius. |
 | Automatinis patvirtinimas | Pasirengimo patikros įrašai apima **Patvirtinta** žymimą laukelį, kuris rodo patvirtinimo būseną. Pasirinkite **Automatinis patvirtinimas** žymimą laukelį patikroms, kurias reikia nustatyti kaip patvirtintas iš karto po jų priskyrimo vartotojams, kurie jas užbaigia. Atžymėkite šį laukelį, kad pareikalautumėte atskiro patvirtinimo kaip papildomo žingsnio. |
 | Privalomas | Pasirinkite šį laukelį patikroms, kurias turi užbaigti paskirtas vartotojas. Privalomos patikros negali būti praleistos. |
 
@@ -159,7 +159,7 @@ Kiekvienai įtrauktai eilutei, nustatykite tolesnius laukelius.
 
 ## <a name="assign-readiness-policies-to-standard-and-engineering-products"></a>Pasirengimo strategijų priskyrimas standartiniams ir inžineriniams produktams
 
-Kai kuriate naują produktą pagal inžinerijos kategoriją, sukuriate tiek *išleistą produktą*, tiek susijusį *bendrinamą* produktą. Būdas, kaip *yra* išspręstos išleisto produkto pasirengimo strategijos, priklauso nuo to, ar jūsų sistemai įjungta produkto pasirengimo tikrinimo funkcija ([informacijos](#standard-products) apie šią funkciją ir kaip įjungti ar išjungti standartinių produktų skyriuje žr. pasirengimo tikrinimams toliau šioje temoje).
+Kai kuriate naują produktą pagal inžinerijos kategoriją, sukuriate tiek *išleistą produktą*, tiek susijusį *bendrinamą* produktą. Būdas, kaip *yra* išspręstos išleisto produkto pasirengimo strategijos, priklauso nuo to, ar jūsų sistemai įjungta produkto pasirengimo tikrinimo funkcija ([informacijos](#standard-products) apie šią funkciją ir kaip įjungti ar išjungti standartinių produktų skyriuje žr. pasirengimo tikrinimus toliau šiame straipsnyje).
 
 - Kai *Produkto pasirengimo patikrinimų* funkcija yra *išjungta* jūsų sistemoje, pasirengimo strategija yra nustatoma ir rodoma tik [inžinerijos kategorijos](engineering-versions-product-category.md) įrašuose. Tam, kad sužinotų, kuri strategija taikoma išleistam produktui, sistema tikrina **Produkto pasirengimo strategijos** lauką susijusiai inžinerijos kategorijai. Galite pakeisti esamo produkto pasirengimo strategiją redaguodami susijusią inžinerijos kategoriją (ne bendrinamą produktą).
 - Kai *Produkto pasirengimo patikrinimų* funkcija yra *įjungta*, ji prideda **Produkto pasirengimo strategijos** lauką į **Produkto** puslapį (kuriame nustatomi bendrinami produktai) ir į **Išleisto produkto puslapį** (kuriame reikšmė yra tik skaitoma ir paimta iš susijusio bendrinamo produkto). Sistema randa išleisto produkto pasirengimo strategiją tikrindama susijusį bendrai naudojamą produktą. Jei kurdami naują inžinerijos produktą naudojate inžinerijos kategoriją, sistema sukuria tiek bendrai naudojamą, tiek išleistą produktą, ir nukopijuoja visus inžinerijos kategorijos **Produkto pasirengimo strategijos** nustatymus į naują bendrai naudojamą produktą. Tada galite pakeisti esamo produkto pasirengimo strategiją redaguodami susijusį bendrinamą produktą (ne išleistą inžinerijos kategoriją).
@@ -188,14 +188,14 @@ Galite įgalinti produkto pasirengimo patikrinimus standartiniams (ne inžinerij
 
 ### <a name="create-readiness-policies-for-standard-products"></a>Standartinių produktų pasirengimo strategijų kūrimas
 
-Kuriate pasirengimo strategijas standartiniams produktams taip pat, kaip ir inžineriniams produktams. Peržiūrėkite anksčiau šioje temoje pateiktą informaciją.
+Kuriate pasirengimo strategijas standartiniams produktams taip pat, kaip ir inžineriniams produktams. Daugiau informacijos ieškokite šiame straipsnyje.
 
 ### <a name="assign-readiness-policies-to-standard-products"></a>Pasirengimo strategijų priskyrimas standartiniams produktams
 
-Norėdami priskirti pasirengimo strategiją standartiniam produktui, atidarykite susijusį bendrai naudojamą produktą ir nustatykite **Produkto pasirengimo strategijos** lauką į strategijos, kuri turėtų būti taikoma, pavadinimą. Daugiau informacijos rasite skyriuje [Priskirti pasirengimo strategijas standartiniams ir inžineriniams produktams](#assign-policy), pateiktame anksčiau šioje temoje.
+Norėdami priskirti pasirengimo strategiją standartiniam produktui, atidarykite susijusį bendrai naudojamą produktą ir nustatykite **Produkto pasirengimo strategijos** lauką į strategijos, kuri turėtų būti taikoma, pavadinimą. Daugiau informacijos ieškokite anksčiau šiame [straipsnyje pateiktame standartinių ir inžinerijos produktų](#assign-policy) skyriuje Priskirti pasirengimo strategijas.
 
 ### <a name="view-and-process-readiness-checks-on-standard-products"></a>Peržiūrėti ir apdoroti standartinių produktų pasirengimo patikrinimus
 
-Kai ši funkcija įjungta, peržiūrite ir apdorojate patikrinimus standartiniams produktams taip pat, kaip ir inžineriniams produktams. Peržiūrėkite anksčiau šioje temoje pateiktą informaciją.
+Kai ši funkcija įjungta, peržiūrite ir apdorojate patikrinimus standartiniams produktams taip pat, kaip ir inžineriniams produktams. Daugiau informacijos ieškokite šiame straipsnyje.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

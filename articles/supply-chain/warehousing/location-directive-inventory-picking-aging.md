@@ -1,6 +1,6 @@
 ---
 title: Vietos nurodymo atsargų paėmimo skirstymas pagal terminus
-description: Šiame skyriuje paaiškinama, kaip naudoti pirmą įvesties, išvesties (FIFO) ir paskutinį įvesties, pirmą išvesties (LIFO) vietos direktyvos strategijas paėmimo metu.
+description: Šiame straipsnyje paaiškinama, kaip išrinkimo metu naudoti "pirmasis į, pirmasis iš" (FIFO) ir "paskutinis į, pirmasis iš" (LIFO) vietos nustatymo strategijas.
 author: Mirzaab
 ms.date: 07/15/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 229dd0033e3eae4bdd33acca6736b7a9feec8c9b
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 34ce119ca70596f0e40797c4b44a8fba4d5b7e0e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8676277"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885702"
 ---
 # <a name="location-directive-inventory-picking-aging"></a>Vietos nurodymo atsargų paėmimo skirstymas pagal terminus
 
 [!include [banner](../includes/banner.md)]
 
-Šiame skyriuje paaiškinama, kaip naudoti pirmą įvesties, išvesties (FIFO) ir paskutinį įvesties, pirmą išvesties (LIFO) vietos direktyvos strategijas paėmimo metu. Šios strategijos dirba kartu su amžiaus duomenimis, kurie yra įrašyti į vietas sekimui, kai inventorius pirmąkart patenka į sandėlį. *Vietos direktyvos inventoriaus paėmimo amžiaus* savybė naudoja vietos duomenis tam, kad nustatytų amžių. *Sandėlio vietos būsenos* savybė atnaujina duomenis vietoje pagal duomenis iš licencijos numerio.
+Šiame straipsnyje paaiškinama, kaip išrinkimo metu naudoti "pirmasis į, pirmasis iš" (FIFO) ir "paskutinis į, pirmasis iš" (LIFO) vietos nustatymo strategijas. Šios strategijos dirba kartu su amžiaus duomenimis, kurie yra įrašyti į vietas sekimui, kai inventorius pirmąkart patenka į sandėlį. *Vietos direktyvos inventoriaus paėmimo amžiaus* savybė naudoja vietos duomenis tam, kad nustatytų amžių. *Sandėlio vietos būsenos* savybė atnaujina duomenis vietoje pagal duomenis iš licencijos numerio.
 
 Galite naudoti FIFO ir LIFO strategijas tiek paketų sekamų elementų siuntimui, tiek ir nesupakuotų elementų sekimui pagal duomenis, kai inventorius patenka į sandėlį. Ši funkcija gali būti ypatingai naudinga nesupakuoto inventoriaus sekimui, kurio galiojimo data nėra prieinama rūšiavimo naudojimui.
 

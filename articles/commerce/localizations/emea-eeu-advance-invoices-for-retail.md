@@ -1,6 +1,6 @@
 ---
-title: Išankstinės „Commerce“ SF (Rytų Europa)
-description: Šioje temoje paaiškinama, kaip nustatyti išankstinius Rytų Europos „Commerce“ pranešimus.
+title: Išankstinės „Commerce“ sąskaitos faktūros (Rytų Europa)
+description: Šiame straipsnyje paaiškinama, kaip nustatyti išankstinius "Commerce for Commerce for Eastern Europe" pranešimus.
 author: epopov
 ms.date: 10/23/2018
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.industry: Retail
 ms.author: epopov
 ms.search.validFrom: 2018-10-01
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 4433dfad61aacb41aba9cf233515460410c7260304e8e3d690b015b193ffe774
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c71f0ddb0a040202a486e63b4812ac4f84ad36aa
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718691"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883922"
 ---
-# <a name="advance-invoices-for-commerce-for-eastern-europe"></a>Išankstinės „Commerce“ SF (Rytų Europa)
+# <a name="advance-invoices-for-commerce-for-eastern-europe"></a>Išankstinės „Commerce“ sąskaitos faktūros (Rytų Europa)
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje pateikta informacija taikoma atliekant lokalizavimą Rytų Europoje ir yra susijusi su prekybos verslu.
+Šiame straipsnyje pateikiama informacija taikoma Rytų Europos lokalizavimui ir yra konkreti komercijos pramonėje.
 
 Jei Lenkijoje, Vengrijoje ir Čekijos Respublikoje išankstinis apmokėjimas iš kliento gaunamas naudojantis elektroniniu kasos aparatu (EKA), išankstinį apmokėjimą būtina užregistruoti mokesčių tikslais ir būtina sukurti ir atsispausdinti išankstinės SF dokumentą, kuriame nurodyta išankstinio apmokėjimo suma. Be to, Lenkijoje atliekamos išankstinės SF operacijos turi būti registruojamos didžiojoje knygoje.
 

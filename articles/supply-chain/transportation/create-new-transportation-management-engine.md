@@ -1,6 +1,6 @@
 ---
 title: Naujo transportavimo valdymo mechanizmo kūrimas
-description: Šioje temoje aprašoma, kaip sukurti naują transportavimo valdymo modulį, kuris bus sukurtas dalyje „Dynamics 365 Supply Chain Management“.
+description: Šiame straipsnyje aprašoma, kaip sukurti naują transportavimo valdymo modulį, kuriame yra Dynamics 365 Supply Chain Management.
 author: Weijiesa
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: be52c6afb66e88b36f3b2cdf5af14e17b3d3005f
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 627972ef6afb7551bb57821ded24183f8f335e9b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8678128"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857263"
 ---
 # <a name="create-a-new-transportation-management-engine"></a>Naujo transportavimo valdymo mechanizmo kūrimas
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje aprašoma, kaip sukurti naują transportavimo valdymo modulį, kuris bus sukurtas dalyje „Dynamics 365 Supply Chain Management“. 
+Šiame straipsnyje aprašoma, kaip sukurti naują transportavimo valdymo modulį, kuriame yra Dynamics 365 Supply Chain Management. 
 
 Transportavimo valdymo mechanizmai (TMS) apibrėžia logiką, naudojamą generuojant ir apdorojant transportavimo tarifus modulyje Transportavimo valdymas. „Supply Chain Management“ suteikia keletą skirtingų modulių tipų, kurie apskaičiuoja skirtingus parametrus, pvz., tarifus, tranzito laikus ir zonų, kurios bus pereitos tranzito metu, skaičių. Šiame straipsnyje paaiškinama, kaip naudoti programavimo aplinką kartu su „Supply Chain Management“ kūrimo įrankiais, siekiant sukurti ir įdiegti naują TMS tinklą, ir kaip nustatyti jį „Microsoft Visual Studio“ operacijose. Daugiau informacijos apie variklius rasite [Transportavimo valdymo mechanizmai](transportation-management-engines.md).
 

@@ -1,6 +1,6 @@
 ---
 title: Prognozės mažinimo raktai
-description: Šioje temoje pateikiami pavyzdžiai, kuriais rodoma, kaip nustatyti mažinimo raktą. Jame pateikiama informacija apie įvairius mažinimo rakto parametrus ir kiekvieno iš jų rezultatus. Naudodami mažinimo raktą, galite apibrėžti, kaip sumažinti prognozės poreikius.
+description: Šiame straipsnyje pateikiami pavyzdžiai, kurie parodo, kaip nustatyti mažinimo raktą. Jame pateikiama informacija apie įvairius mažinimo rakto parametrus ir kiekvieno iš jų rezultatus. Naudodami mažinimo raktą, galite apibrėžti, kaip sumažinti prognozės poreikius.
 author: t-benebo
 ms.date: 04/15/2020
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 054eb28044e532ed2850cde21cb2f9fb5181ae02
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 5cf84598b731e9750e3cf79d312bf0bbf4f8bd81
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8468984"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854274"
 ---
 # <a name="forecast-reduction-keys"></a>Prognozės mažinimo raktai
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje pateikiama informacija apie skirtingus metodus, kurie naudojami norint sumažinti prognozės poreikius. Joje pateikiami kiekvieno metodo rezultatų pavyzdžiai. Joje taip pat paaiškinama, kaip kurti, nustatyti ir naudoti prognozės mažinimo raktą. Kai kuriuose metoduose naudojamas mažinimo raktas siekiant sumažinti prognozės poreikius.
+Šiame straipsnyje pateikiama informacija apie skirtingus metodus, naudojamus prognozės reikalavimams sumažinti. Joje pateikiami kiekvieno metodo rezultatų pavyzdžiai. Joje taip pat paaiškinama, kaip kurti, nustatyti ir naudoti prognozės mažinimo raktą. Kai kuriuose metoduose naudojamas mažinimo raktas siekiant sumažinti prognozės poreikius.
 
 ## <a name="methods-that-are-used-to-reduce-forecast-requirements"></a>Naudojami prognozes poreikių mažinimo metodai
 

@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: yanansong
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c0c5d7e8f9561ba81e0be93220df9afcd493179f
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: e9ba69f637087298bf6a93dbb049d78dff739aaf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8672492"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8891153"
 ---
 # <a name="cost-management-home-page"></a>Išlaidų valdymo pagrindinis puslapis
 
@@ -53,7 +53,7 @@ Norėdami pamatyti naujas išleistas funkcijas ir kuriamas naujas funkcijas, eik
 
 #### <a name="white-paper"></a>Techninė dokumentacija
 
-[KS skaičiavime naudojant įkainojimo lapą](https://www.microsoft.com/download/details.aspx?id=101937) aprašoma, kaip nustatyti įkainojimo lapą su medžiagomis ir gamyba, ir kaip ši sąranka veikia KS skaičiavimo rezultatus. Siekiant geriau paaiškinti šias temas, ten pateikiami konkretūs scenarijai ir duomenys, kurie rodo įvairių parametrų ir konfigūracijų poveikį.
+[KS skaičiavime naudojant įkainojimo lapą](https://www.microsoft.com/download/details.aspx?id=101937) aprašoma, kaip nustatyti įkainojimo lapą su medžiagomis ir gamyba, ir kaip ši sąranka veikia KS skaičiavimo rezultatus. Norėdami geriau paaiškinti straipsnius, jie pateikia konkrečius scenarijus ir duomenis, kurie parodo įvairių nustatymų ir konfigūracijų poveikį.
 
 #### <a name="blogs"></a>Tinklaraščiai
 

@@ -1,6 +1,6 @@
 ---
 title: Grąžinimo mokėjimo tvarkymas skambučių centruose
-description: Šiame skyriuje paaiškinta, kaip mokėjimo grąžinimai yra sukuriam per skambučių centrus, sukuriant grąžinimus ar kai užsakymai ar jų eilutės yra atšaukti.
+description: Šiame straipsnyje paaiškinama, kaip naudojant skambučių centrus generuojami mokėjimo grąžinimai, kai sukuriami grąžinimai arba kai atšaukiami užsakymai ar užsakymų eilutės.
 author: hhainesms
 ms.date: 01/05/2020
 ms.topic: article
@@ -12,16 +12,16 @@ ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 8d5bcf3a0d36e323ee96c1f37829a95b60f529bc
-ms.sourcegitcommit: 0d2de52e12fdb9928556d37a4813a67b303695dc
+ms.openlocfilehash: 330674a31dc59e99ffedb82d0896c64214562eb3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7944718"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880119"
 ---
 # <a name="refund-payment-processing-in-call-centers"></a>Grąžinimo mokėjimo tvarkymas skambučių centruose
 
-Šiame skyriuje paaiškinta, kaip mokėjimo grąžinimai yra sukuriam per skambučių centrus, sukuriant grąžinimus ar kai užsakymai ar jų eilutės yra atšaukti.
+Šiame straipsnyje paaiškinama, kaip naudojant skambučių centrus generuojami mokėjimo grąžinimai, kai sukuriami grąžinimai arba kai atšaukiami užsakymai ar užsakymų eilutės.
 
 Vartotojas sukūręs grąžinimo užsakymą klientui kaip skambučių centro vartotoją „Microsoft Dynamics 365 Commerce“ būstinė naudoja **Grąžinamo užsakymo** puslapį, kuris sukuria pradinį grąžinimo medžiagų leidimą. RMA nustato produktus, kuriuos klientas nori grąžinti ar keisti ir sukuria susietą grąžinimo prekybos užsakymą, kurio užsakymo tipas yra **Grąžintas užsakymas**. Šis susietas grąžinimo užsakymas yra naudojamas siekiant sekti grąžinamo inventoriaus publikavimą ir visas publikuotas kredito pastabas ar mokėjimo grąžinimus.
 
@@ -33,7 +33,7 @@ Skambučių centro logika nustato mokėjimo metodą grąžinamo mokėjimo eilute
 
 Skambučių centras naudoja originalaus užsakymo mokėjimo metodą siekiant nustatyti mokėjimo metodą, kuris turi būti taikomas grąžinamam užsakymui. Štai kaip šis procesas veikia tolesniems originalaus mokėjimo metodams:
 
-- **Įprastai** (grynieji) ar **Patikra** – Kai grąžinimo užsakymas yra sukuriamas ir nukreipia į originalų užsakymą, kuris buvo sumokėtas naudojant įprastus (grynus) ar čekio mokėjimo tipą, skambučių centro programa nurodo konfigūravimus **Skambučių centro grąžinimo metodų** puslapyje. Šis puslapis leidžia organizacijoms pagal užsakymo valiutą nustatyti, kaip grąžinimai išduodami klientams užsakymams, kurie originaliai buvo mokami naudojant įprastą ar čekio mokėjimo tipą. Skambučių **centro grąžinimo metodų puslapis taip pat leidžia organizacijoms** pasirinkti, ar sistemos sugeneruotas grąžinimo čekis turėtų būti siunčiamas klientui. Šiais scenarijais, skambučių centro logika nukreipia grąžinamo užsakymo valiutą ir tada naudoja **Mažmenos mokėjimo metodo** vertę tai valiutai tam, kad sukurtų grąžinamo mokėjimo eilutę grąžinimo pardavimų užsakyme. Vėliau, gautinų sąskaitų kliento mokėjimo žurnalas, naudojantis žemėlapio gautinų sąskaitų mokėjimo metodą yra susietas su valiuta.
+- **Įprastai** (grynieji) ar **Patikra** – Kai grąžinimo užsakymas yra sukuriamas ir nukreipia į originalų užsakymą, kuris buvo sumokėtas naudojant įprastus (grynus) ar čekio mokėjimo tipą, skambučių centro programa nurodo konfigūravimus **Skambučių centro grąžinimo metodų** puslapyje. Šis puslapis leidžia organizacijoms pagal užsakymo valiutą nustatyti, kaip grąžinimai išduodami klientams užsakymams, kurie originaliai buvo mokami naudojant įprastą ar čekio mokėjimo tipą. Skambučių **centro grąžinimo metodų** puslapis taip pat leidžia organizacijoms pasirinkti, ar sistemos sugeneruotas grąžinimo čekis turėtų būti siunčiamas klientui. Šiais scenarijais, skambučių centro logika nukreipia grąžinamo užsakymo valiutą ir tada naudoja **Mažmenos mokėjimo metodo** vertę tai valiutai tam, kad sukurtų grąžinamo mokėjimo eilutę grąžinimo pardavimų užsakyme. Vėliau, gautinų sąskaitų kliento mokėjimo žurnalas, naudojantis žemėlapio gautinų sąskaitų mokėjimo metodą yra susietas su valiuta.
 
     Tolesnis paveikslėli rodo konfigūravimus scenarijui, kai kliento grąžinimo produktai iš prekybos užsakymo, susieto su USD valiuta ir tai, kad jis buvo iš pradžių sumokėtas naudojant įprastą ir čekio mokėjimo tipą. Šiame scenarijuje, grąžinimas bus išduodamas klientui per sistemos sukurtą grąžinimo čekį. **REF-CHK** grąžinamų sąskaitų metodas buvo sukonfigūruotas kaip grąžinimo čekio mokėjimo tipas.
 
@@ -92,7 +92,7 @@ Nustačius **Taip** parinkčiai **Taikyti kreditą**, ji yra taikoma tik grąži
 
 ## <a name="payment-overrides-for-call-center-returns"></a>Mokėjimas viršija skambučių centrų grąžinimus
 
-Nepaisant to, kad skambučių centro logika sistemiškai nustato grąžinimo mokėjimo metodą aprašytą toliau šioje temoje, vartotojams kartais gali reikėti viršyti šiuos mokėjimus. Pavyzdžiui, vartotojui gali reikėti redaguoti ar pašalinti esančias grąžinimo mokėjimo eilutes ir taikyti naujas mokėjimo eilutes. Sistemos apskaičiuoti grąžinimo mokėjimai gali būti keičiami tik vartotojų, turinčių tinkamas viršijimo teises. Šios teisės gali būti konfigūruojamos **Viršyti teises** puslapyje Mažmenos prekyboje ir Komercijoje. Norėdami atlikti grąžinimo mokėjimo viršijimą, vartotojai turi būti susieti su saugos vaidmeniu, kuriame **Leisti alternatyvų mokėjimą** parinktis yra nustatyta į **Taip** puslapyje **Viršyti leidimus**.
+Nors skambučių centro logika sistemiškai nustato grąžinimo mokėjimo būdą taip, kaip aprašyta anksčiau šiame straipsnyje, vartotojai kartais gali norėti nepaisyti šių mokėjimų. Pavyzdžiui, vartotojui gali reikėti redaguoti ar pašalinti esančias grąžinimo mokėjimo eilutes ir taikyti naujas mokėjimo eilutes. Sistemos apskaičiuoti grąžinimo mokėjimai gali būti keičiami tik vartotojų, turinčių tinkamas viršijimo teises. Šios teisės gali būti konfigūruojamos **Viršyti teises** puslapyje Mažmenos prekyboje ir Komercijoje. Norėdami atlikti grąžinimo mokėjimo viršijimą, vartotojai turi būti susieti su saugos vaidmeniu, kuriame **Leisti alternatyvų mokėjimą** parinktis yra nustatyta į **Taip** puslapyje **Viršyti leidimus**.
 
 ![Leisti alternatyvią mokėjimo parinktį Viršyti teises puslapyje.](media/overridepermissions.png)
 

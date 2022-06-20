@@ -1,7 +1,7 @@
 ---
 title: Bendrojo planavimo efektyvumo patobulinimas
-description: Šioje temoje paaiškinamos įvairios parinktys, kurios gali padėti pagerinti bendrojo planavimo ar trikčių šalinimo efektyvumą.
-author: ChristianRytt
+description: Šiame straipsnyje paaiškinamos įvairios pasirinktys, kurios gali padėti gerinti bendrojo planavimo efektyvumą arba trikčių šalinimą.
+author: t-benebo
 ms.date: 12/18/2019
 ms.topic: article
 ms.prod: ''
@@ -16,20 +16,20 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: fcbc732fce4120268acd774cc4d42193ba95787d
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: b2c4b7e2197d312d22f9851121a9e6d4d4d03ba3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7570926"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8897609"
 ---
 # <a name="improve-master-planning-performance"></a>Bendrojo planavimo efektyvumo patobulinimas
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje paaiškinamos įvairios parinktys, kurios gali padėti pagerinti bendrojo planavimo ar trikčių šalinimo efektyvumą. Joje pateikta informacijos apie parametrus bei rekomenduojamas konfigūracijas ir veiksmus. Joje taip pat yra visų svarbių parametrų, kuriuos reikia apsvarstyti, kai susiduriate su ilgai trunkančiomis bendrojo planavimo užduotimis, suvestinė.
+Šiame straipsnyje paaiškinamos įvairios pasirinktys, kurios gali padėti gerinti bendrojo planavimo efektyvumą arba trikčių šalinimą. Joje pateikta informacijos apie parametrus bei rekomenduojamas konfigūracijas ir veiksmus. Joje taip pat yra visų svarbių parametrų, kuriuos reikia apsvarstyti, kai susiduriate su ilgai trunkančiomis bendrojo planavimo užduotimis, suvestinė.
 
-Ši tema skirta sistemos administratoriams arba IT vartotojams, turintiems galimybę spręsti problemas. Ji taip pat skirta gamybos ar tiekimo planuotojams, nes joje pateikta informacijos apie parametrus, susijusius su verslo planavimo poreikiais. 
+Šis straipsnis skirtas sistemos administratoriams arba IT vartotojams, kurie turi galimybę šalinti triktis. Ji taip pat skirta gamybos ar tiekimo planuotojams, nes joje pateikta informacijos apie parametrus, susijusius su verslo planavimo poreikiais. 
 
 ## <a name="parameters-related-to-master-planning-performance"></a>Parametrai, susiję su bendrojo planavimo našumu
 
@@ -151,9 +151,9 @@ Prieš pradedant padengimo veiksmą, yra išankstinio padengimo veiksmas, kurio 
 ## <a name="performance-checklist-summary"></a>Efektyvumo kontrolinio sąrašo suvestinė
 
 - **Gijų skaičius** – nustatykite į reikšmę, kuri yra didesnė nei **0** (nulis).
-- **Pagelbiklio užduočių grupėje esančių užduočių skaičius** – nustatykite reikšmę, kuri yra didesnė nei **0** (nulis). (Naudokite anksčiau šioje temoje pateiktas formules.)
+- **Pagelbiklio užduočių grupėje esančių užduočių skaičius** – nustatykite reikšmę, kuri yra didesnė nei **0** (nulis). (Naudokite anksčiau šiame straipsnyje pateiktas formules.)
 - **Sparčiosios atminties naudojimas** – nustatykite reikšmę **Maksimalus**, nebent jūsų sistemoje yra mažai atminties.
-- **Užsakymų tvirtinamame pakete skaičius** – nustatykite reikšmę, kuri yra didesnė nei **0** (nulis). (Naudokite anksčiau šioje temoje pateiktą formulę.)
+- **Užsakymų tvirtinamame pakete skaičius** – nustatykite reikšmę, kuri yra didesnė nei **0** (nulis). (Naudokite formulę, kuri pateikta anksčiau šiame straipsnyje.)
 - **Laiko ribos** – pakoreguokite pagal savo verslo poreikius.
 - **Veiksmai ir ateities datos** – išjunkite veiksmus ir ateities datas, jei jų nenaudojate.
 - **Vienu metu – viena sudėtinga procedūra** – nevykdykite bendrojo planavimo kartu su kitomis sudėtingomis procedūromis.

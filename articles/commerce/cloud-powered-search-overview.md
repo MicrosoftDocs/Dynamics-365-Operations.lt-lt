@@ -1,6 +1,6 @@
 ---
 title: Debesų technologija valdomos ieškos apžvalga
-description: Šioje temoje apžvelgiama „Microsoft Dynamics 365 Commerce“ debesų technologija paremta ieška.
+description: Šiame straipsnyje pateikta ieška debesyje Microsoft Dynamics 365 Commerce.
 author: ashishmsft
 ms.date: 02/28/2022
 ms.topic: overview
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 9116dd415d44a56fbe8c7852382c413b0a75872c
-ms.sourcegitcommit: ffdb6794746ffe5461f9dcf34ed8e64976d22d2d
+ms.openlocfilehash: 8a3ab869eb9ddc0e73061bd2363cf9b3962da1e3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "8371434"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850361"
 ---
 # <a name="cloud-powered-search-overview"></a>Debesų technologija valdomos ieškos apžvalga
 
 [!include [banner](includes/banner.md)]
 
-Šioje temoje apžvelgiama „Microsoft Dynamics 365 Commerce“ debesų technologija paremta ieška.
+Šiame straipsnyje pateikta ieška debesyje Microsoft Dynamics 365 Commerce.
 
 Produktų aptinkamumas padeda užtikrinti, kad vartotojai galėtų greitai ir lengvai rasti produktus naršydami kategorijas, ieškodami bei filtruodami. Mažmenininkai turi galimybę surasti produktą ir naudoti pagrindinį kliento sąveikos įrankį kanaluose, kurie veikia naudojant debesų skalės vienetą (CSU), pvz., el. prekyba ir point of sale (EKA).
 
@@ -62,7 +62,7 @@ Toliau pateiktoje iliustracijoje parodytas pavyzdys, kuriame naudojama įtraukia
 
 ![įtraukianti automatinio siūlymo funkcija.](./media/ImmersiveAutoSuggestUX.png)
 
-## <a name="sort"></a>Rikiuoti
+## <a name="sort"></a>Rūšiuoti
 
 Patobulintas rūšiavimas naudojant "Commerce" leidžia rūšiuoti, ieškoti ir naršyti ieškos rezultatus bei patikslinti juos pagal kainos, produkto pavadinimo ir produkto numerio kriterijus. Klientai rezultatus taip pat gali rikiuoti pagal tai, ar produktas yra naujas, geriausiai parduodamas ar neseniai įtrauktas.
 

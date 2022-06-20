@@ -1,6 +1,6 @@
 ---
 title: Tiekėjo mokėjimo sąlygų apibrėžimas
-description: Šioje temoje aiškinama kaip nustatyti tiekėjo SF mokėjimo sąlygas.
+description: Šiame straipsnyje paaiškinama, kaip nustatyti tiekėjo SF mokėjimo sąlygas.
 author: abruer
 ms.date: 02/11/2022
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2199c12e92d631d3eb058637c48b53335d779f2d
-ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
+ms.openlocfilehash: a676856ed43bf1b78684eac0682e0fdef9c84083
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8109821"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906477"
 ---
 # <a name="define-vendor-payment-terms"></a>Tiekėjo mokėjimo sąlygų apibrėžimas
 
 [!include [banner](../../includes/banner.md)]
 
-Šioje temoje aiškinama kaip nustatyti tiekėjo SF mokėjimo sąlygas. Šioje užduotyje naudojama demonstracinė įmonė USMF.
+Šiame straipsnyje paaiškinama, kaip nustatyti tiekėjo SF mokėjimo sąlygas. Šioje užduotyje naudojama demonstracinė įmonė USMF.
 
 1. Pasirinkite **Naršymo sritis > Moduliai > Mokėtinos sumos > Mokėjimo konfigūracija > Mokėjimo sąlygos**.
 2. Pasirinkite **Naujas**. Mokėjimo **sąlygų puslapis** naudojamas nurodyti, kaip bus skaičiuojamas terminas. Ji nenaudojamas apibrėžti, kaip bus skaičiuojama mokėjimo nuolaidos data.  

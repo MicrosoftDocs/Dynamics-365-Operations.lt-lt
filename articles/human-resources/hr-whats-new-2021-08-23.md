@@ -1,6 +1,6 @@
 ---
 title: Kas nauja ar pasikeitė „Dynamics 365 Human Resources” 2021 m. rugpjūčio 23 d.
-description: Šioje temoje aprašomos naujos arba pasikeitusios „Microsoft Dynamics 365 Human Resources” funkcijos 2021 m. rugpjūčio 23 d.
+description: Šiame straipsnyje aprašomos priemonės, kurios yra naujos arba pakeistos Microsoft Dynamics 365 Human Resources 2021 m. rugpjūčio 23 d.
 author: marcelbf
 ms.date: 08/23/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-08-23
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 21c3448c373600ffebca82be41fb5849b952dfe1
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 91c2cd396ca26cc78c3fd4fab40a29b98a7826c3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8686833"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909736"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-august-23-2021"></a>Kas nauja ar pasikeitė „Dynamics 365 Human Resources” 2021 m. rugpjūčio 23 d.
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Šioje temoje aprašomos naujos, pasikeitusios ar netrukus pasirodysiančios „Microsoft Dynamics 365 Human Resources“ funkcijos.
+Šiame straipsnyje aprašomos priemonės, kurios yra naujos, pakeistos arba netrukus programoje "Microsoft"Dynamics 365 Human Resources.
 
 Daugiau informacijos apie mūsų atnaujinimo procesą ir grafiką žr. [Atnaujinimo procesas](hr-admin-setup-update-process.md).
 
@@ -40,9 +40,9 @@ Daugiau informacijos apie naujas funkcijas ir jų numatomas bendro pasiekiamumo 
 Toliau nurodyti klaidų ištaisymai įtraukti į šį leidimą.
 
 > [!NOTE]
-> Siekiame kuo greičiau pateikti jums šią informaciją. Galime atnaujinti šią temą, kad būtų įtraukti klaidų ištaisymai, įtraukti į komponavimo versiją publikavus šią temą.
+> Siekiame kuo greičiau pateikti jums šią informaciją. Mes galime atnaujinti šį straipsnį, kad būtų įtrauktos pataisos, kurios buvo sukurtas po to, kai buvo publikuotas šis straipsnis.
 
-| Problemos numeris | Problema | Aprašas |
+| Problemos numeris | Problema | Aprašymas |
 | --- | --- | --- |
 | 594066 | Kontaktinės informacijos panaikinti negalima | Kai pasirenkate naikinti darbuotojo kontaktinės informacijos įrašą, panaikinamas kitas nei pasirinktas įrašas kontaktinės informacijos įrašas. |
 | 611339 | Įtraukus personalizavimą banko sąskaita nepaiso filtro ir išrena pirmą įrašą | Įtraukus personalizaciją banko sąskaitų sąrašas paleidžia personalizavimo užklausą po to, kai paleidžiama duomenų šaltinio užklausa, todėl užklausa surenką viršutinį įrašą neatsižvelgiant į darbuotoją, kurio informacija peržiūrima. |

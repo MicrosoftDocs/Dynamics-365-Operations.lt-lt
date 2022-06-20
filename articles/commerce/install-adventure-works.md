@@ -1,6 +1,6 @@
 ---
 title: „Adventure Works“ temos diegimas
-description: Šioje temoje aprašoma, kaip įdiegti „Adventure Works” temą „Microsoft Dynamics 365 Commerce”.
+description: Šiame straipsnyje aprašoma, kaip įdiegti Adventure Works temą Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 12/10/2021
 ms.topic: article
@@ -14,25 +14,25 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: d9d0d04c1a698c765b5effcca88624e6fb99da64
-ms.sourcegitcommit: eef5d9935ccd1e20e69a1d5b773956aeba4a46bc
+ms.openlocfilehash: 18c2612b8b6b4ed8195ff8e71d6e0495f7e80950
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/11/2021
-ms.locfileid: "7913707"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854902"
 ---
 # <a name="install-the-adventure-works-theme"></a>„Adventure Works“ temos diegimas
 
 [!include [banner](includes/banner.md)]
 
-Šioje temoje aprašoma, kaip įdiegti „Adventure Works” temą „Microsoft Dynamics 365 Commerce”. 
+Šiame straipsnyje aprašoma, kaip įdiegti Adventure Works temą Microsoft Dynamics 365 Commerce. 
 
 > [!IMPORTANT]
 > „Adventure Works” tema ir moduliai galimi 10.0.20 „Dynamics 365 Commerce” versijos leidime. Jie yra galimi iš „Microsoft AppSource”.
 
 ## <a name="prerequisites"></a>Būtinieji komponentai
 
-Prieš įdiegdami „Adventure Works” temą, privalote turėti „Dynamics 365 Commerce” aplinką (10.0.20 arba naujesnė „Commerce” versija), kuri apima „Retail Cloud Scale Unit” (RCSU), „Commerce” programinės įrangos kūrimo rinkinį internetu (SDK) ir „Commerce” modulių biblioteką. Informacijos, kaip įdiegti "Commerce SDK" ir modulių biblioteką, [žr. Nustatyti programavimo](e-commerce-extensibility/setup-dev-environment.md) aplinką. 
+Prieš įdiegdami „Adventure Works” temą, privalote turėti „Dynamics 365 Commerce” aplinką (10.0.20 arba naujesnė „Commerce” versija), kuri apima „Retail Cloud Scale Unit” (RCSU), „Commerce” programinės įrangos kūrimo rinkinį internetu (SDK) ir „Commerce” modulių biblioteką. Informacijos, kaip įdiegti "Commerce SDK" ir modulių biblioteką, žr [. Nustatyti programavimo aplinką](e-commerce-extensibility/setup-dev-environment.md). 
 
 ## <a name="installation-steps"></a>Įdiegimo veiksmai
 
@@ -48,7 +48,7 @@ Prieš įdiegdami „Adventure Works” temą, privalote turėti „Dynamics 365
 
     `"@msdyn365-commerce-theme:registry" "https://pkgs.dev.azure.com/commerce-partner/Registry/_packaging/dynamics365-commerce/npm/registry/"`  
     
-Norėdami įdiegti paketą vietinėje aplinkoje, vykdykite komandą iš komandinės eilutės, kur THEME_PACKAGE yra temos paketas `yarn add THEME_PACKAGE@VERSION`**·** (@msdyn365-commerce-theme/adventureworks-theme-kit), o VERSIJA yra naudojamos modulių bibliotekos versijos **numeris**. Svarbu, kad temos paketo ir modulių bibliotekos versijos atitiktų. Norėdami rasti tinkamą naudoti modulio bibliotekos versijos numerį, atidarykite failą package.json ir skyriuje Priklausomybės raskite paleidimo **paketo** **vertę**. Toliau pateiktame pavyzdyje failas package.json naudoja modulių bibliotekos 9.32 versiją, kuri susieja su Dynamics 365 Commerce 10.0.22 versija.  
+Norėdami įdiegti paketą vietinėje aplinkoje, `yarn add THEME_PACKAGE@VERSION` vykdykite komandą iš komandinės eilutės, **kur THEME_PACKAGE** yra temos paketas (@msdyn365-commerce-theme/adventureworks-theme-kit), **o VERSIJA** yra naudojamos modulių bibliotekos versijos numeris. Svarbu, kad temos paketo ir modulių bibliotekos versijos atitiktų. Norėdami rasti tinkamą naudoti modulio bibliotekos versijos numerį, atidarykite failą package.json **ir skyriuje Priklausomybės raskite paleidimo** **paketo** vertę. Toliau pateiktame pavyzdyje failas package.json naudoja modulių bibliotekos 9.32 Dynamics 365 Commerce versiją, kuri susieja su 10.0.22 versija.  
 
 ```json
 "dependencies": {
@@ -56,11 +56,11 @@ Norėdami įdiegti paketą vietinėje aplinkoje, vykdykite komandą iš komandin
 }
 ```
 
-Toliau pavyzdyje parodyta, kaip vykdyti komandą, norint įtraukti Adventure Works temos `yarn add` 9.32 versiją. Komanda automatiškai atnaujina paketo.json failą, kad jis būtų priklausomas nuo priklausomybę.
+Toliau pavyzdyje parodyta, kaip vykdyti komandą `yarn add`, norint įtraukti Adventure Works temos 9.32 versiją. Komanda automatiškai atnaujina paketo.json failą, kad jis būtų priklausomas nuo priklausomybę.
 
 `yarn add @msdyn365-commerce-theme/adventureworks-theme-kit@9.32`
 
-Daugiau informacijos apie modulių bibliotekos versijos atnaujinimą rasite [SDK ir modulių bibliotekos](e-commerce-extensibility/sdk-updates.md) naujinimus. 
+Norėdami gauti daugiau informacijos apie modulių bibliotekos versijos atnaujinimą, žr. [SDK ir modulių bibliotekos naujinimus](e-commerce-extensibility/sdk-updates.md). 
 
 > [!IMPORTANT]
 > - Temos versija turi atitikti modulių bibliotekos versiją, kad užtikrintumėte tokį funkcijų veikimą, kokio tikimasi. 

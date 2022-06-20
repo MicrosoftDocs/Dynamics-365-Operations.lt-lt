@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1e98884c1c12d40b2b8c0989e2dd5ca4a3738f3f
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: f7c99e56751230a7b8881dc55c1d460674cc6f0c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8670008"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850502"
 ---
 # <a name="service-templates"></a>Aptarnavimo šablonai
 
@@ -52,7 +52,7 @@ Jums kopijuojant šablono eilutes į aptarnavimo užsakymus ar aptarnavimo sutar
 
 Lengviau nustatyti, kurias aptarnavimo šablono eilutes norite kopijuoti, jei sugrupavote šablonus pagal pavadinimus, atspindinčius šablonų naudojimą.
 
-## <a name="related-topics"></a>Susijusios temos
+## <a name="related-articles"></a>Susiję straipsniai
 
 [Aptarnavimo šablonų eilučių kopijavimas](copy-service-template-lines.md)
 

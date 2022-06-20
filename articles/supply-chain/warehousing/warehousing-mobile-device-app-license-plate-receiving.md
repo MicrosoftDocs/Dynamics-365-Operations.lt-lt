@@ -1,6 +1,6 @@
 ---
-title: Numerio lentelės gavimas naudojant sandėlio valdymo mobiliųjų įrenginių programėlę
-description: Šioje temoje paaiškinama, kaip nustatyti sandėlio valdymo mobiliųjų įrenginių programėlę, kad faktinių atsargų gavimui būtų palaikomas numerio lentelės gavimo proceso naudojimas.
+title: Su „Warehouse Management“ mobiliųjų įrenginių programėle gaunama numerio lentelė
+description: Šiame straipsnyje paaiškinama, kaip nustatyti sandėlio valdymo mobiliąją programą, kad būtų galima naudoti numerio lentelės gavimo procesą norint gauti faktines atsargas.
 author: perlynne
 ms.date: 04/29/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-03-31
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 6663188334c70035906f924c7850a0dc5002f306
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: fe083f16bd47b3f7bdfd366ae4b0fe4a02f49185
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103068"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907006"
 ---
-# <a name="license-plate-receiving-via-the-warehouse-management-mobile-app"></a>Numerio lentelės gavimas naudojant sandėlio valdymo mobiliųjų įrenginių programėlę
+# <a name="license-plate-receiving-via-the-warehouse-management-mobile-app"></a>Su „Warehouse Management“ mobiliųjų įrenginių programėle gaunama numerio lentelė
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje paaiškinama, kaip nustatyti sandėlio valdymo mobiliųjų įrenginių programėlę, kad faktinių atsargų gavimui būtų palaikomas numerio lentelės gavimo proceso naudojimas.
+Šiame straipsnyje paaiškinama, kaip nustatyti sandėlio valdymo mobiliąją programą, kad ji palaiko numerio lentelės gavimo proceso, norint gauti faktines atsargas, naudojimas.
 
 Šią funkciją galite naudoti norėdami greitai įrašyti gaunamų atsargų gavimą, susijusį su išankstiniu siuntimo pranešimu (ASN). Sistema automatiškai sukuria ASN, kai sandėlio valdymo procesai naudojami perkėlimo užsakymui siųsti. Pirkimo užsakymo procese ASN gali būti įrašytas rankiniu būdu arba automatiškai importuotas naudojant gaunamo ASN duomenų objekto procesą.
 

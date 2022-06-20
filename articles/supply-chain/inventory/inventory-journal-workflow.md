@@ -1,6 +1,6 @@
 ---
 title: Atsargų žurnalų patvirtinimo darbo eigos
-description: Ši tema aprašo, kaip nustatyti ir naudoti atsargų žurnalo patvirtinimo darbo srautus įvairiems fizinių atsargų perlaidų tipams. Atsargų žurnalo darbo srautai padeda užtikrinti, kad tik patvirtinti atsargų žurnalai būtų viešinami perlaidose.
+description: Šiame straipsnyje aprašoma, kaip nustatyti ir naudoti įvairių tipų faktinių atsargų operacijų atsargų žurnalo patvirtinimo darbo eigas. Atsargų žurnalo darbo srautai padeda užtikrinti, kad tik patvirtinti atsargų žurnalai būtų viešinami perlaidose.
 author: yufeihuang
 ms.date: 07/21/2020
 ms.topic: article
@@ -13,25 +13,25 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2020-07-21
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: fd73c515c653de9160301e069fb25d995db40741
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: ebb12562a9f06f2efc3b5a373d7ad0f98bc3505e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7778310"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873991"
 ---
 # <a name="inventory-journal-approval-workflows"></a>Atsargų žurnalų patvirtinimo darbo eigos
 
 [!include [banner](../includes/banner.md)]
 
-Ši tema aprašo, kaip nustatyti ir naudoti atsargų žurnalo patvirtinimą darbo srautams įvairiems fizinių atsargų perlaidų tipams, tokiems kaip problemos ir kvitai, atsargų judėjimai, komplektavimo specifikacijos (KS) ir fizinių atsargų suderinimas. Atsargų žurnalo darbo srautai padeda užtikrinti, kad tik patvirtinti atsargų žurnalai būtų viešinami perlaidose.
+Šiame straipsnyje aprašoma, kaip nustatyti ir naudoti įvairių tipų faktinių atsargų operacijų atsargų patvirtinimo darbo eigas, pvz., gavimą ir gavimą, atsargų perkėlimą, komplektavimo specifikacijas (KS) ir faktinių atsargų suderinimą. Atsargų žurnalo darbo srautai padeda užtikrinti, kad tik patvirtinti atsargų žurnalai būtų viešinami perlaidose.
 
 > [!NOTE]
 > Atsargų žurnalo darbo srautai taikomi tik perlaidoms įrašytoms naudojant atsargų tvarkymo modulį. Jie neveikia su atsargų žurnalais, kurie yra sukurti iš atsargų valdymo modulio.
 
 ## <a name="turn-on-the-inventory-journal-approval-workflows-feature"></a>Atsargų žurnalų patvirtinimo darbo eigos funkcijos įjungimas
 
-Kaip tiekimo grandinės valdymo versija 10.0.21, ši funkcija yra įjungta pagal numatytuosius nustatymus. Administratoriai gali naudoti [funkcijų valdymo](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) puslapį, kad patikrintų funkcijos būseną ir prireikus ją įjungtų arba išjungtų. Čia funkcija yra nurodyta kaip:
+Kaip ir tiekimo grandinės valdymo versija 10.0.21 ši funkcija įjungiama pagal numatytąjį nustatymą. Administratoriai gali naudotis funkcijų [valdymo puslapiu](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), norėdami patikrinti priemonės būseną ir, jei reikia, ją įgalinti arba išjungti. Čia funkcija yra nurodyta kaip:
 
 - **Modulis:** *Atsargų ir sandėlio valdymas*
 - **Funkcijos pavadinimas:** *Atsargų žurnalo patvirtinimo darbo eiga*
@@ -44,7 +44,7 @@ Darbo srautai palaiko versijos kontroliavimą ir kiekvienas darbo srautas turi I
 
 Siekiant sukurti savo atsargų žurnalo tvirtinimo darbo srautus:
 
-1. Eikite į **Atsargų valdymas \> Nustatymas \> Atsargų valdymo darbo srautai**.
+1. Eikite į **Atsargų valdymas \> Nustatymas\> Atsargų valdymo darbo srautai**.
 1. Veiksmų srityje pasirinkite **Nauja**.
 1. Pasirinkite atsargų žurnalo tipą, kuriam norite nustatyti darbo srautą:
     - **Atsargų žymės skaičiavimo žurnalas**
@@ -85,7 +85,7 @@ Po to, kai susiesite atsargų žurnalo pavadinimą su jį atitinkančiu atsargų
 1. Pasirinkite **Naujas**, kad sukurtumėte naują savo pasirinkto tipo žurnalą.
 1. **Atsargų žurnalo sukūrimo** teksto langas atsidaro. Užpildykite formas, kaip būtina ir tuomet pasirinkite **Gerai** žurnalo įrašymui.
 1. Pabaikite žurnalą, kaip būtina.
-1. Kai kuriate ar atidarote atsargų žurnalą su patvirtinimo darbo srautu susietu su juo, **Darbo srauto** mygtukas bus įjungtas veiksmų juostoje. Kai jūs esate pasiruošę pateikti žurnalą patvirtinimui, pasirinkite **Darbo srauto** mygtuką tam, kad atidarytumėte iškrentantį teksto laukelį ir tuomet pasirinkite **Pateikti**. Patvirtinimo užklausa tuomet nukreipiama atitinkamam patvirtintojui, kuris bus perspėjamas naudoti pranešimo metodą, sukonfigūruotą darbo srautui.
+1. Kai kuriate ar atidarote atsargų žurnalą su patvirtinimo darbo srautu susietu su juo,**Darbo srauto** mygtukas bus įjungtas veiksmų juostoje. Kai jūs esate pasiruošę pateikti žurnalą patvirtinimui, pasirinkite **Darbo srauto** mygtuką tam, kad atidarytumėte iškrentantį teksto laukelį ir tuomet pasirinkite **Pateikti**. Patvirtinimo užklausa tuomet nukreipiama atitinkamam patvirtintojui, kuris bus perspėjamas naudoti pranešimo metodą, sukonfigūruotą darbo srautui.
 
     ![Pateikti žurnalą tvirtinti.](media/journal-workflow-inventory-journal.png "Pateikti žurnalą tvirtinti")
 

@@ -1,6 +1,6 @@
 ---
 title: Integravimas su „LinkedIn Talent Hub“
-description: Šioje temoje paaiškinama, kaip nustatyti „Microsoft Dynamics 365 Human Resources” ir „LinkedIn Talent Hub“ integravimą.
+description: Šiame straipsnyje paaiškinama, kaip nustatyti integravimą tarp Microsoft ir Dynamics 365 Human Resources LinkedIn Talent Hub.
 author: jaredha
 ms.date: 10/20/2020
 ms.topic: article
@@ -14,19 +14,19 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-10-20
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d14a8cb1973e0ed55ef10ddb43415eba80eb5c1b
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: df4a0a4dec078392ba835318450f5983a6e95c97
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8717117"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887754"
 ---
 # <a name="integrate-with-linkedin-talent-hub"></a>Integravimas su „LinkedIn Talent Hub“
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 > [!IMPORTANT]
-> Integravimas tarp ir LinkedIn Dynamics 365 Human Resources Talent centro, aprašytas šioje temoje, buvo 2021 m. gruodžio 31 d. Po šios datos integravimo tarnyba nebebus galima. Organizacijos, kurios dar nenaudoja integravimo tarnybos, negalės įdiegti paslaugos prieš išeidami į pensiją.
+> Šiame straipsnyje aprašytas Dynamics 365 Human Resources integravimas tarp LinkedIn talentų centro ir jo buvo 2021 m. gruodžio 31 d. Po šios datos integravimo tarnyba nebebus galima. Organizacijos, kurios dar nenaudoja integravimo tarnybos, negalės įdiegti paslaugos prieš išeidami į pensiją.
 
 [„LinkedIn Talent Hub”](https://business.linkedin.com/talent-solutions/talent-hub) yra pretendentų sekimo sistemos (ATS) platforma. Ji leidžia vykdyti darbuotojų iešką bei valdyti ir samdyti darbuotojus vienoje vietoje. Integruodami „Microsoft Dynamics 365 Human Resources” su „LinkedIn Talent Hub” galite lengvai sukurti pretendentų, pasamdytų pareigoms, darbuotojų įrašus „Human Resources”.
 

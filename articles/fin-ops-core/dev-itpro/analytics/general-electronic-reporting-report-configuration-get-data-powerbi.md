@@ -1,6 +1,6 @@
 ---
 title: Įrankio Elektroninės ataskaitos (ER) konfigūravimas duomenims perkelti į „Power BI“
-description: Šioje temoje paaiškinama, kaip galima naudoti elektroninio ataskaitų (ER) konfigūraciją, norint išdėstyti duomenų perkėlimą iš egzemplioriaus į „Power BI“ tarnybas.
+description: Šiame straipsnyje paaiškinama, kaip galite naudoti savo elektroninių ataskaitų (ER) konfigūraciją, kad sutvarkytumėte duomenų perdavimą iš egzemplioriaus į Power BI tarnybas.
 author: NickSelin
 ms.date: 04/23/2021
 ms.topic: article
@@ -14,31 +14,31 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: aa9a47c9ee7c76322fd2d9bfcf5fc61a50bf421321891b3c78a782be6a9f8e6a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e6903513dec4da20dbc4463fbae6a406fc06e1a6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6740947"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896740"
 ---
 # <a name="configure-electronic-reporting-er-to-pull-data-into-power-bi"></a>Įrankio Elektroninės ataskaitos (ER) konfigūravimas duomenims perkelti į „Power BI“
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje paaiškinama, kaip galima naudoti elektroninio ataskaitų (ER) konfigūraciją, norint išdėstyti duomenų perkėlimą iš egzemplioriaus į „Power BI“ tarnybas. Šioje temoje pateikiamame pavyzdyje „Intrastat“ operacijos naudojamos kaip verslo duomenys, kuriuos reikia perkelti. „Power BI“ schemos vizualizacijoje naudojami šie „Intrastat“ operacijų duomenys, kad „Power BI“ ataskaitoje būtų pateiktas įmonės importavimo / eksportavimo veiklų analizės rodinys.
+Šiame straipsnyje paaiškinama, kaip galite naudoti savo elektroninių ataskaitų (ER) konfigūraciją, kad sutvarkytumėte duomenų perdavimą iš egzemplioriaus į Power BI tarnybas. Kaip pavyzdį šiame straipsnyje kaip verslo duomenys, kuriuos reikia perkelti, naudojamos Intrastat operacijos. „Power BI“ schemos vizualizacijoje naudojami šie „Intrastat“ operacijų duomenys, kad „Power BI“ ataskaitoje būtų pateiktas įmonės importavimo / eksportavimo veiklų analizės rodinys.
 
 ## <a name="overview"></a>Peržiūra
 
-„Microsoft Power BI“ yra programinės įrangos paslaugų, programų ir jungčių, kurios kartu naudojamos norint išorinius duomenų šaltinius paversti nuosekliomis, vizualiai įtraukiančiomis ir interaktyvių įžvalgomis, rinkinys. Elektroninės ataskaitos (ER) vartotojams suteikia galimybę lengvai konfigūruoti duomenų šaltinius ir išdėstyti duomenų perkėlimą iš programos į „Power BI“. Duomenys perkeliami kaip failai „OpenXML“ darbalapio („Microsoft Excel“ darbaknygės failų) formatu. Perkelti failai saugomi „Microsoft SharePoint Server“, kuris šiuo tikslu sukonfigūruotas. Saugomi failai naudojami „Power BI“ norint kurti ataskaitas su vizualizacijomis (lentelėmis, diagramomis, schemomis ir t.t.). „Power BI“ ataskaitas bendrai naudoja „Power BI“ vartotojai, ir jas galima pasiekti „Power BI“ ataskaitų srityse bei programos puslapiuose. Šioje temoje paaiškinamos toliau nurodytos užduotys.
+„Microsoft Power BI“ yra programinės įrangos paslaugų, programų ir jungčių, kurios kartu naudojamos norint išorinius duomenų šaltinius paversti nuosekliomis, vizualiai įtraukiančiomis ir interaktyvių įžvalgomis, rinkinys. Elektroninės ataskaitos (ER) vartotojams suteikia galimybę lengvai konfigūruoti duomenų šaltinius ir išdėstyti duomenų perkėlimą iš programos į „Power BI“. Duomenys perkeliami kaip failai „OpenXML“ darbalapio („Microsoft Excel“ darbaknygės failų) formatu. Perkelti failai saugomi „Microsoft SharePoint Server“, kuris šiuo tikslu sukonfigūruotas. Saugomi failai naudojami „Power BI“ norint kurti ataskaitas su vizualizacijomis (lentelėmis, diagramomis, schemomis ir t.t.). „Power BI“ ataskaitas bendrai naudoja „Power BI“ vartotojai, ir jas galima pasiekti „Power BI“ ataskaitų srityse bei programos puslapiuose. Šiame straipsnyje paaiškinamos šios užduotys:
 
-- Konfigūruokite „Microsoft Dynamics 365 Finance“.
+- Sukonfigūruokite Microsoft Dynamics 365 finansus.
 - ER formato konfigūracijos parengimas, norint gauti duomenis iš „Finance“ programos.
 - ER aplinkos konfigūravimas duomenims į „Power BI“ perkelti.
 - Perkeltų duomenų naudojimas „Power BI“ ataskaitai kurti.
 - „Power BI“ ataskaitos prieigos programoje „Finance“ kūrimas.
 
 ## <a name="prerequisites"></a>Būtinieji komponentai
-Norint įvykdyti šios temos pavyzdžio užduotis, reikia toliau nurodytų prieigų.
+Norėdami užbaigti pavyzdį šiame straipsnyje, turite turėti šią prieigą:
 
 - Prieiga naudojant vieną iš tolesnių vaidmenų.
 

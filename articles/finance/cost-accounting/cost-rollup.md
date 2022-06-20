@@ -1,6 +1,6 @@
 ---
 title: Savikainos sumavimo strategija ir pridėtinių išlaidų skaičiavimas
-description: Šioje temoje pateikiama informacija apie tai, kaip nustatyti teisingą antrinių išlaidų elementų lygį ir sukurti išlaidų sumavimo taisykles, kurios tiktų pagal organizacijos atskaitomybę ir išlaidų atsekamumą.
+description: Šiame straipsnyje pateikiama informacija apie tai, kaip nustatyti teisingą antrinių išlaidų elementų lygį ir sukurti išlaidų sumavimo taisykles, kurios atitiktų organizacijos ataskaitų ir išlaidų sistemą.
 author: AndersGirke
 ms.date: 06/16/2017
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: twheeloc
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c9c36587294ff157266e354e06d107000f198061
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: f35bf3e900b8dd9c1864be8668f7ff7296924c4d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734435"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874615"
 ---
 # <a name="cost-rollup-policy-and-overhead-calculation"></a>Savikainos sumavimo strategija ir pridėtinių išlaidų skaičiavimas 
 
@@ -33,7 +33,7 @@ Naudodami kaštų apskaitą galite suprasti, kaip išlaidų srautas susijęs su 
 -   Atlikus pridėtinių išlaidų skaičiavimą sugeneruotų išlaidų įrašų kiekis gali būti labai didelis.
 -   Neįmanoma sekti išlaidų objektų išlaidų srauto.
 
-Jeigu norite išvengti šių pasekmių, naudodamiesi kaštų apskaita galite nustatyti, kad išlaidos būtų paskirstomos taip, kad atitiktų jūsų organizacijos valdymo ataskaitų reikalavimus. Šioje temoje aptariama tai, kaip galite nustatyti teisingą antrinių išlaidų elementų lygį ir sukurti išlaidų sumavimo taisykles, kurios tiktų pagal organizacijos atskaitomybę ir išlaidų atsekamumą.
+Jeigu norite išvengti šių pasekmių, naudodamiesi kaštų apskaita galite nustatyti, kad išlaidos būtų paskirstomos taip, kad atitiktų jūsų organizacijos valdymo ataskaitų reikalavimus. Šiame straipsnyje aptariama, kaip nustatyti teisingą antrinių išlaidų elementų lygį ir sukurti išlaidų sumavimo taisykles, kurios atitiktų organizacijos ataskaitų ir išlaidų sistemą.
 
 > [!NOTE]
 > Pasikeitus ataskaitoms keliamiems reikalavimams konfigūracijas galite keisti.

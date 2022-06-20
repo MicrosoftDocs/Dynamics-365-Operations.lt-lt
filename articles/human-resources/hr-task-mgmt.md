@@ -1,6 +1,6 @@
 ---
 title: Užduočių tvarkymas
-description: Šioje temoje paaiškinama "Microsoft" galima užduočių valdymo funkcija Dynamics 365 Human Resources.
+description: Šiame straipsnyje paaiškinama užduočių valdymo funkcija, kurią galima naudoti "Microsoft"Dynamics 365 Human Resources.
 author: twheeloc
 ms.date: 12/20/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2021-29-11
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ae453bd57217f272038decc7e40ed373f618ae03
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: c567f6d74e6ff87a72ff3b8663ca3a291dff3abb
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710228"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8897870"
 ---
 # <a name="task-management"></a>Užduočių tvarkymas
 
@@ -96,8 +96,8 @@ Užduoties saitas pateikia saitą į išorinį tinklalapį arba puslapį program
 - **URL – jei pasirinksite šią pasirinktį, įveskite tinklalapio, į kurį turėtų eiti asmuo, kuriam priskirta užduotis, URL**. Nurodytas puslapis gali būti puslapis, kuris nėra "Dynamics 365" programos dalis.
 - **Darbuotojo informacija** – jei pasirinksite šią pasirinktį, pasirinkite vieną iš šių pasirinkčių:
 
-    - **Darbuotojų savitarnos veiksmai** – ši pasirinktis rodo puslapių, kuriuos galima rasti darbuotojų savitarnoje **, sąrašą**. Naudokite šią užduotį, jeigu užduočiai, kuri buvo priskirta darbuotojui, turi būti atlikta darbuotojų **savitarnoje**. Pavyzdžiui, jei norite, kad darbuotojas įves savo asmeninę kontaktinę informaciją, **pasirinkite Darbuotojo savitarnos** veiksmai ir pasirinkite **Personal DetailsPersonal&gt; informacija**.
-    - **Darbuotojo valdymo** veiksmai – ši parinktis rodo puslapių, susijusių su darbuotojo įrašu, sąrašą, bet neprieinami darbuotojui. Pvz., jeigu norite, kad užduoties savininkas įvestų informaciją, būsią darbo grupės darbuotojui, pvz., kompensavimo informaciją, **pasirinkite** Darbuotojo valdymo veiksmus, **tada pasirinkite CompensationFixed&gt; kompensacija**.
+    - **Darbuotojų savitarnos veiksmai** – ši pasirinktis rodo puslapių, kuriuos galima rasti darbuotojų savitarnoje **, sąrašą**. Naudokite šią užduotį, jeigu užduočiai, kuri buvo priskirta darbuotojui, turi būti atlikta darbuotojų **savitarnoje**. Pavyzdžiui, jei norite, kad darbuotojas įves savo asmeninę kontaktinę informaciją, **pasirinkite** Darbuotojo savitarnos veiksmai ir pasirinkite Asmeninės **informacijos&gt; asmeninė informacija**.
+    - **Darbuotojo valdymo** veiksmai – ši parinktis rodo puslapių, susijusių su darbuotojo įrašu, sąrašą, bet neprieinami darbuotojui. Pvz., jeigu norite, kad užduoties savininkas turėtų įvesti informaciją, būsią darbo grupės darbuotojui, pvz., kompensavimo informaciją, **pasirinkite** Darbuotojo valdymo veiksmus, **&gt; tada pasirinkite Pastovioji atlyginimo dalis**.
 
 ### <a name="assignment-types"></a>Priskyrimo tipai
 

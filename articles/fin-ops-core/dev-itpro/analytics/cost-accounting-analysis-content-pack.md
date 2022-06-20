@@ -1,6 +1,6 @@
 ---
-title: „Power BI“ Kaštų apskaitos analizė
-description: Šioje temoje paaiškinta, kas įtraukiama į „Power BI“ turinio Kaštų apskaitos analizė.
+title: Kaštų apskaitos analizės „Power BI“ turinys
+description: Šiame straipsnyje aprašoma, kas įtraukta į kaštų apskaitos analizės Power BI turinį.
 author: AndersGirke
 ms.date: 10/02/2019
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: d3b8832e5a5612fd0311811f43454689d5b274c36404b4fb92b710411d45e573
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d5e595c910e237481b8124cb2a0333697344b9ad
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6747374"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876898"
 ---
 # <a name="cost-accounting-analysis-power-bi-content"></a>Kaštų apskaitos analizės „Power BI“ turinys
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje paaiškinta, kas įtraukiama į **Kaštų apskaitos analizės** „Microsoft Power BI“ turinį. Jame paaiškinta, kaip pasiekti „Power BI“ ataskaitas, ir pateikta informacija apie duomenų modelį ir objektus, naudojamus turinio paketui kurti.
+Šiame straipsnyje aprašoma, kas įtraukta į kaštų **apskaitos analizės** Microsoft Power BI turinį. Jame paaiškinta, kaip pasiekti „Power BI“ ataskaitas, ir pateikta informacija apie duomenų modelį ir objektus, naudojamus turinio paketui kurti.
 
 ## <a name="overview"></a>Peržiūrėti
 

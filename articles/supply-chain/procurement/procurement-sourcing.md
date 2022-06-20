@@ -1,6 +1,6 @@
 ---
 title: Įsigijimo ir šaltinio pasirinkimo pagrindinis puslapis
-description: Šioje temoje pateikiamas žinyno temų ir kitų išteklių, kurie skirti įsigijimo ir šaltinio pasirinkimo sričiai, sąrašas.
+description: Šiame straipsnyje pateikiamas žinyno straipsnių ir kitų išteklių, kuriuos galima naudoti įsigijime ir paslaugose, sąrašas.
 author: GalynaFedorova
 ms.date: 09/27/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fdf56084147edcdf8951d4a267611c10dc7eb6dd
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
-ms.translationtype: MT
+ms.openlocfilehash: 68409b15a3f4874d05a43931136ce91097c4f904
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8673024"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885876"
 ---
 # <a name="procurement-and-sourcing-home-page"></a>Įsigijimo ir šaltinio pasirinkimo pagrindinis puslapis
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje pateikiamas žinyno temų ir kitų išteklių, kurie skirti įsigijimo ir šaltinio pasirinkimo sričiai, sąrašas.
+Šiame straipsnyje pateikiamas žinyno straipsnių ir kitų išteklių, kuriuos galima naudoti įsigijime ir paslaugose, sąrašas.
 
 Įsigijimo ir šaltinio parinkimo procesas apima visus veiksmus nuo produktų ir paslaugų poreikio nustatymo iki produktų įsigijimo, gavimo, SF išrašymo ir mokėjimo apdorojimo su tiekėjais. Įsigijimo procesus galima konfigūruoti pagal konkrečius verslo poreikius, apibrėžiant pirkimo strategijas ir darbo eigas. Bendrąją informaciją galite peržiūrėti puslapyje [Įsigijimo ir šaltinio parinkimo apžvalga](procurement-sourcing-overview.md). Papildomi ištekliai yra išvardyti žemiau.
 

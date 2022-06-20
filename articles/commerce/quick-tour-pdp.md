@@ -1,6 +1,6 @@
 ---
-title: Produktų informacijos puslapių apžvalga
-description: Šioje temoje pateikiama „Microsoft Dynamics 365 Commerce“ produktų išsamios informacijos puslapių (PDP) apžvalga.
+title: Produkto informacijos puslapių apžvalga
+description: Šiame straipsnyje pateikiama informacijos apie produktą puslapių (PDPs) apžvalga Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 01/23/2020
 ms.topic: overview
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 48b4e5d66b86e0b1198bd6ff7ce1e7de33f8fde0
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 7b7630a15f98da4a1454f7c9b0d3501d4f035649
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7986206"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884290"
 ---
 # <a name="product-details-pages-overview"></a>Produkto informacijos puslapių apžvalga
 
 [!include [banner](includes/banner.md)]
 
-Šioje temoje pateikiama „Microsoft Dynamics 365 Commerce“ produktų išsamios informacijos puslapių (PDP) apžvalga.
+Šiame straipsnyje pateikiama informacijos apie produktą puslapių (PDPs) apžvalga Microsoft Dynamics 365 Commerce.
 
 PDP pateikiama išsami informacija apie produktą ir juose klientai gal pasirinkti produkto parinktis, pvz., dydį, stilių ir spalvą. PDP turi parodyti visą informaciją apie produktą, kurios klientui reikia pirkimo sprendimui priimti.
 
@@ -35,7 +35,7 @@ Toliau pateikiamoje iliustracijoje vaizduojamas PDP pavyzdys.
 
 ## <a name="header-and-footer-modules"></a>Antraštės ir poraštės moduliai
 
-PDP viršuje yra antraštė, rodanti visas produktų kategorijas ir kitus puslapius, kuriuose pardavėjas norėtų, kad klientai naršytų. Puslapio apačioje yra poraštė, kurioje yra spartieji saitai su įvairiomis temomis, kurios gali sudominti klientus.
+PDP viršuje yra antraštė, rodanti visas produktų kategorijas ir kitus puslapius, kuriuose pardavėjas norėtų, kad klientai naršytų. Puslapio apačioje yra poraštė, kurioje pateikiami spartieji saitai į įvairius straipsnius, kurie gali jus domina klientus.
 
 ## <a name="buy-box-module"></a>Pirkimo langelio modulis
 

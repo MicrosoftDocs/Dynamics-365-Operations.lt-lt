@@ -1,6 +1,6 @@
 ---
-title: Apibrėžti ir prižiūrėti mažmeninės prekybos kanalus
-description: Šioje temoje pateikiama tradicinių parduotuvių, kurios „Dynamics 365 Commerce“ nurodomos kaip parduotuvės, nustatymo proceso apžvalga. Jame pateikiama informacija apie užduotis, kurias turite atlikti prieš ir po parduotuvės nustatymo.
+title: Mažmeninės prekybos kanalų nustatymas ir tvarkymas
+description: Šiame straipsnyje pateikiama proceso, kaip nustatyti parduotuves ir parduotuves, kurios vadinamos parduotuvėmis, apžvalga Dynamics 365 Commerce. Jame pateikiama informacija apie užduotis, kurias turite atlikti prieš ir po parduotuvės nustatymo.
 author: mugunthanm
 ms.date: 01/06/2020
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: ef06d79e1fa4d024dc1de0125cc72bdba5671aad384c7988dc63d407323b7abc
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f3cba816af72a27c6d8a59e17fad145a236016c9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6760207"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8870587"
 ---
 # <a name="define-and-maintain-retail-channels"></a>Mažmeninės prekybos kanalų nustatymas ir tvarkymas
 
 [!include [banner](includes/banner.md)]
 
-Šioje temoje pateikiama tradicinių parduotuvių, kurios „Dynamics 365 Commerce“ nurodomos kaip parduotuvės, nustatymo proceso apžvalga. Jame pateikiama informacija apie užduotis, kurias turite atlikti prieš ir po parduotuvės nustatymo.
+Šiame straipsnyje pateikiama proceso, kaip nustatyti parduotuves ir parduotuves, kurios vadinamos parduotuvėmis, apžvalga Dynamics 365 Commerce. Jame pateikiama informacija apie užduotis, kurias turite atlikti prieš ir po parduotuvės nustatymo.
 
 „Commerce“ palaiko kelis kanalus, pvz., internetines parduotuves, skambučių centrus ir tradicines parduotuves. Tradicinė parduotuvė vadinama parduotuve. Kiekvienoje parduotuvėje gali būti naudojami savi mokėjimo būdai, kainų grupės, elektroninių kasos aparatų (EKA) registrai, pajamų ir išlaidų sąskaitos bei darbuotojai. Prieš kurdami parduotuvę, turite nustatyti visus šiuos jos elementus. Kai sukuriate parduotuvę, galite priskirti produktus, kuriuos norite, kad ji platintų. Be to, parduotuvei priskiriami darbuotojai, kasos aparatai ir klientai. Galiausiai, įtraukite naują parduotuvę į organizacijos hierarchiją.
 

@@ -1,6 +1,6 @@
 ---
 title: Suplanuotas prekių skirstymas
-description: Šioje temoje aprašoma Išplėstinis suplanuoto prekių skirstymas, kai atsargų kiekis, reikalingas užsakymui yra nukreipiamas tiesiai iš gavimo arba sukuriama į teisinga pakrovimo rampa arba išdėstymo sritis. Visos likusios atsargos iš gavimo šaltinių yra nukreipiamos į teisingą saugojimo vietą naudojant įprastą padėjimo procesą.
+description: Šiame straipsnyje aprašomas išplėstinis suplanuotas prekių skirstymas, kur atsargų kiekis, reikalingas užsakymui, nurodomas tiesiogiai nuo gavimo arba sukūrimo prie tinkamos siuntimo rampos arba išdėstymo srities. Visos likusios atsargos iš gavimo šaltinių yra nukreipiamos į teisingą saugojimo vietą naudojant įprastą padėjimo procesą.
 author: Mirzaab
 ms.date: 07/01/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: c28639a4a575f5f356bf947ba8e0aee6bcd256b4
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 28ebf1b4fb966fd6801e75e7b3a6c8741114938d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7573038"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863685"
 ---
 # <a name="planned-cross-docking"></a>Suplanuotas prekių skirstymas
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje aprašomas išplėstini suplanuotas prekių skirstymą. Išplėstinis suplanuoto prekių skirstymas yra sandėlio procesas, kai atsargų kiekis, reikalingas užsakymui yra nukreipiamas tiesiai iš gavimo arba sukuriama į teisinga pakrovimo rampa arba išdėstymo sritis. Visos likusios atsargos iš gavimo šaltinių yra nukreipiamos į teisingą saugojimo vietą naudojant įprastą padėjimo procesą.
+Šiame straipsnyje aprašomas išplėstinis suplanuotas prekių skirstymas. Išplėstinis suplanuoto prekių skirstymas yra sandėlio procesas, kai atsargų kiekis, reikalingas užsakymui yra nukreipiamas tiesiai iš gavimo arba sukuriama į teisinga pakrovimo rampa arba išdėstymo sritis. Visos likusios atsargos iš gavimo šaltinių yra nukreipiamos į teisingą saugojimo vietą naudojant įprastą padėjimo procesą.
 
 Suplanuoto prekių skirstymo darbuotojai gali praleisti gaunamų atsargų padėjimus ir siunčiamų prekių paėmimus, jau pažymėti siunčiamam užsakymui. Todėl atsargų paėmimo kartai yra sumažinti, jei įmanoma. Taip pat dėl mažesnės sąveikos su sistema, laiko ir vietos taupymas sandėlio darbo aukšte yra padidinami.
 
@@ -37,7 +37,7 @@ Gaunamo užsakymo gavimo metu, prekių skirstymo nustatymas automatiškai identi
 
 ## <a name="turn-on-the-planned-cross-docking-features"></a>Įjungti suplanuoto prekių skirstymo funkcijas
 
-Jei jūsų sistemoje dar nėra funkcijų, aprašytų šioje temoje, eikite į [Funkcijų valdymas](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) ir toliau pateikiama tvarka įjunkite šias funkcijas:
+Jei jūsų sistema dar neapima šiame straipsnyje aprašytų priemonių, [eikite](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) į Funkcijų valdymą ir toliau nurodyta tvarka įjunkite šias funkcijas:
 
 1. *Suplanuotas prekių skirstymas*
 1. *Prekių skirstymo šablonai su vietovės nurodymais*

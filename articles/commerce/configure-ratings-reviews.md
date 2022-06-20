@@ -1,6 +1,6 @@
 ---
 title: Įvertinimų ir atsiliepimų konfigūravimas
-description: Šioje temoje aprašoma, kaip sukonfigūruoti savo el. prekybos svetainę, kad programoje „Microsoft Dynamics 365 Commerce“ būtų rodomi klientų įverčiai ir apžvalgos.
+description: Šiame straipsnyje aprašoma, kaip sukonfigūruoti savo el. komercijos svetainę, kad būtų rodomi klientų vertinimai ir peržiūros Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
 ms.date: 02/17/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: e3f9ff4b0654ec5fa7548ac62e16ae64f44383e7
-ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
+ms.openlocfilehash: 56325eb0d6298f3b30316e104a4b3913ef860366
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7968107"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8862260"
 ---
 # <a name="configure-ratings-and-reviews"></a>Įvertinimų ir atsiliepimų konfigūravimas
 
 [!include [banner](includes/banner.md)]
 
-Šioje temoje aprašoma, kaip sukonfigūruoti savo el. prekybos svetainę, kad programoje „Microsoft Dynamics 365 Commerce“ būtų rodomi klientų įverčiai ir apžvalgos.
+Šiame straipsnyje aprašoma, kaip sukonfigūruoti savo el. komercijos svetainę, kad būtų rodomi klientų vertinimai ir peržiūros Microsoft Dynamics 365 Commerce.
 
 El. prekybos svetainėse nurodyti įverčiai ir apžvalgos klientams padeda sužinoti apie produktus prieš priimant pirkimo sprendimą, nes jiems parodo, ką apie tuos produktus mano kiti klientai. El. prekybos svetainėse įverčiai ir apžvalgos taip pat yra mechanizmas klientų atsiliepimams apie produktus rinkti. 
 
@@ -91,9 +91,9 @@ Informacijos, kaip konfigūruoti įvertinimus ir atsiliepimų modulius produkto 
 
 [Neautomatinio vadovo įvertinimų ir atsiliepimų publikavimo įjungimas](manual-publish-rating-reviews.md)
 
-[Importuoti ir eksportuoti įvertinimus ir apžvalgas](import-export-reviews.md)
+[Įvertinimų ir atsiliepimų importavimas ir eksportavimas](import-export-reviews.md)
 
-[Konfigūruoti paslaugos autentifikavimą](service-to-service-auth.md)
+[Ryšių tarp tarnybų autentifikavimo konfigūravimas](service-to-service-auth.md)
 
 [DUK apie įvertinimus ir apžvalgas](ratings-reviews-faq.md)
 

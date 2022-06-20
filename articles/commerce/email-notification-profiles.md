@@ -1,6 +1,6 @@
 ---
-title: El. paštu siunčiamų pranešimų šablono nustatymas
-description: Šioje temoje aprašoma, kaip „Microsoft Dynamics 365 Commerce“ sukurti el. paštu siunčiamų pranešimų šabloną.
+title: El. paštu siunčiamo pranešimo šablono nustatymas
+description: Šiame straipsnyje aprašoma, kaip sukurti el. paštu siunčiamo pranešimo profilį Microsoft Dynamics 365 Commerce.
 author: bicyclingfool
 ms.date: 02/11/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 9f7adffd67e8198d16e4f7ed4fc4aadf59071b1d
-ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
+ms.openlocfilehash: 109adcc4e8b49c665bd14ecab2b7cc56cebd2291
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8109636"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878491"
 ---
 # <a name="set-up-an-email-notification-profile"></a>El. paštu siunčiamo pranešimo šablono nustatymas
 
 [!include [banner](includes/banner.md)]
 
-Šioje temoje aprašoma, kaip „Microsoft Dynamics 365 Commerce“ sukurti el. paštu siunčiamų pranešimų šabloną.
+Šiame straipsnyje aprašoma, kaip sukurti el. paštu siunčiamo pranešimo profilį Microsoft Dynamics 365 Commerce.
 
 Kurdami kanalus galite nustatyti el. paštu siunčiamo pranešimo profilį. El. paštu siunčiamo pranešimo šablonas nurodo pardavimo operacijos įvykius (pvz., sukurto užsakymo, supakuoto užsakymo ir užsakymų įvykių, kuriems išrašytos SF), kuriems jūs siųsite pranešimus savo klientams. 
 

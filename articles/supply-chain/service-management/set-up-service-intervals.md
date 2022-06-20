@@ -1,6 +1,6 @@
 ---
 title: Aptarnavimo intervalų nustatymas
-description: Šioje temoje aprašoma, kaip nustatyti paslaugų intervalų pasiūlymus. Aptarnavimo intervalas nurodo dažnumą, kokiu kuriamos aptarnavimo sutarčių eilučių aptarnavimo užsakymo eilutės, kai kuriate aptarnavimo užsakymus.
+description: Šiame straipsnyje aprašoma, kaip nustatyti aptarnavimo intervalus. Aptarnavimo intervalas nurodo dažnumą, kokiu kuriamos aptarnavimo sutarčių eilučių aptarnavimo užsakymo eilutės, kai kuriate aptarnavimo užsakymus.
 author: sorenva
 ms.date: 02/20/2018
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 943ed0b8f329b45225b61247998e15a1d82356aa
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 56b8a31af061b90aeddfb460f6e86c2c5636b280
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8673444"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845959"
 ---
 # <a name="set-up-service-intervals"></a>Aptarnavimo intervalų nustatymas  
 
@@ -48,7 +48,7 @@ Norite sukurti 10 dienų aptarnavimo intervalą.
 5. Lauke **Dažnumas** įveskite 10.
 6. Norėdami įrašyti aptarnavimo intervalą, paspauskite **ALT + S**.
 
-## <a name="related-topics"></a>Susijusios temos
+## <a name="related-articles"></a>Susiję straipsniai
 
 [Aptarnavimo intervalai ](service-intervals.md)  
 

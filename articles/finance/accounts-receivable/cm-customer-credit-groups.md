@@ -1,6 +1,6 @@
 ---
 title: Kliento kredito grupės
-description: Šioje temoje pateikiama informacijos apie klientų kredito grupes.
+description: Šiame straipsnyje pateikiama informacija apie klientų kredito grupes.
 author: JodiChristiansen
 ms.date: 04/14/2020
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 0815aa41b034d8ba5c9b09f4003ff3df7311190a
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 032e92431946f0a41bf2e52c155e422d4ea0b3b7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8735498"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8886522"
 ---
 # <a name="customer-credit-groups"></a>Kliento kredito grupės
 

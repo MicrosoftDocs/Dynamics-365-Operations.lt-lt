@@ -1,6 +1,6 @@
 ---
 title: Turtas ir darbo užsakymai
-description: Šioje temoje aprašomas turtas ir darbo užsakymai modulyje „Turto valdymas“.
+description: Šiame straipsnyje aprašomas turtas ir darbo užsakymai turto valdymo modulyje.
 author: johanhoffmann
 ms.date: 06/24/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a2872dc84ec11ae7fad9fd5b225b9207f13280db334cc0d010a3d6749a591ee2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: df2d0fcc5162900ad2ad67f2629d14015f694bd4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718112"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8869697"
 ---
 # <a name="assets-and-work-orders"></a>Turtas ir darbo užsakymai
 
@@ -28,7 +28,7 @@ ms.locfileid: "6718112"
 
  
 
-Šioje temoje aprašomas turtas ir darbo užsakymai modulyje „Turto valdymas“. Turtas ir darbo užsakymai yra pagrindinės modulio „Turto valdymas“ dalys. *Turtas* yra mašina arba mašinos dalis, kurią reikia nuolat prižiūrėti ir teikti aptarnavimo paslaugas. Turtas gali būti kuriamas taikant hierarchinę struktūrą ir gali būti siejamas su funkcinėmis vietomis. Priežiūros užduotys gali būti planuojamos visais lygiais turto struktūroje.
+Šiame straipsnyje aprašomas turtas ir darbo užsakymai turto valdymo modulyje. Turtas ir darbo užsakymai yra pagrindinės modulio „Turto valdymas“ dalys. *Turtas* yra mašina arba mašinos dalis, kurią reikia nuolat prižiūrėti ir teikti aptarnavimo paslaugas. Turtas gali būti kuriamas taikant hierarchinę struktūrą ir gali būti siejamas su funkcinėmis vietomis. Priežiūros užduotys gali būti planuojamos visais lygiais turto struktūroje.
 
 Konfigūruojami įvairūs kiekvieno turto duomenys, pvz., produkto informacija ir turto specifikacija, taip pat reikiami priežiūros planai. Toliau pateiktame paveikslėlyje rodoma turto duomenų ir turto priskyrimo užduočių tipams apžvalga. Raudonas tekstas naudojamas pavyzdžiams, rodantiems paveldėjimą ir priklausomybes, pateikti.
 

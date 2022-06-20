@@ -1,6 +1,6 @@
 ---
-title: Išduokite elektroniens sąskaitas „Finance and Supply Chain Management“
-description: Ši tema paaiškina, kaip išduoti elektronines sąskaitas „Microsoft Dynamics 365 Finance“ ir „Dynamics 365 Supply Chain Management“ per elektroininių sąskaitų priedus.
+title: Elektroninių SF išdavimas „Finance“ ir „Supply Chain Management“
+description: Šiame straipsnyje paaiškinama, kaip išduoti elektronines SF "365" finansuose ir išrašant Microsoft Dynamics elektronines Dynamics 365 Supply Chain Management SF.
 author: gionoder
 ms.date: 03/29/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 24909c2a2505724c159e939535c1d57cb66e48629862bebb32b3d72c0eb06c97
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 465aea4eda3cbb023f7e222ba51553654131c0c7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6752131"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8864185"
 ---
 # <a name="issue-electronic-invoices-in-finance-and-supply-chain-management"></a>Elektroninių SF išdavimas „Finance“ ir „Supply Chain Management“
 
 [!include [banner](../includes/banner.md)]
 
-Ši tema paaiškina, kaip išduoti elektronines sąskaitas „Microsoft Dynamics 365 Finance“ ir „Dynamics 365 Supply Chain Management“ per elektroininių sąskaitų priedus.
+Šiame straipsnyje paaiškinama, kaip išduoti elektronines SF "365" finansuose ir išrašant Microsoft Dynamics elektronines Dynamics 365 Supply Chain Management SF.
 
 
 ## <a name="feature-activation"></a>Funkcijų aktyvinimas

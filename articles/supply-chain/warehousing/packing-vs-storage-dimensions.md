@@ -1,6 +1,6 @@
 ---
 title: Skirtingų pakavimo ir saugojimo dimensijų nustatymas
-description: Šioje temoje aprašoma, kaip nurodyti, kuriam procesui (pakavimui, saugojimui ar įdėtajam pakavimui) naudojama kiekviena nurodyta dimensija.
+description: Šiame straipsnyje parodyta, kaip nurodyti, kuriam procesui (pakavimui, saugyklai ar įdėtam pakavimui) naudojama kiekviena nurodyta dimensija.
 author: Mirzaab
 ms.date: 01/28/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 090a6f653b50d8f22a2f34354172f129624813f1
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 85e40a0768174dcdc5d0fa2647b24cddccf01bdf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8687651"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8905492"
 ---
 # <a name="set-different-dimensions-for-packing-and-storage"></a>Skirtingų pakavimo ir saugojimo dimensijų nustatymas
 
@@ -33,7 +33,7 @@ Kai kurios prekės yra supakuotos arba saugomos taip, kad jums gali reikėti sek
 *Saugojimo* dimensijos palaikomos net tada, kai funkcija *Produkto pakavimo dimensijos* nėra įgalinta. Jas nustatote naudodami **Faktinės dimensijos** „Supply Chain Management” puslapį. Šios dimensijos naudojamos visuose procesuose, kuriuose nenurodytos pakavimo ir įdėtojo pakavimo dimensijos.
 
 *Pakavimo* ir *Įdėtojo pakavimo* dimensijos yra nustatomos naudojant **Faktinės produkto dimensijos** puslapį, kuris įtraukiamas įgalinus *Produkto pakavimo dimensijų* funkciją.
-Šioje temoje pateikiamas scenarijus, iliustruojantis šios funkcijos naudojimą.
+Šiame straipsnyje pateikiamas scenarijus, iliustruojantis, kaip naudoti šią funkciją.
 
 ## <a name="turn-on-the-packaging-product-dimensions-feature"></a>Produkto pakavimo dimensijų funkcijos įjungimas
 

@@ -1,6 +1,6 @@
 ---
 title: Gamybos procesų apžvalga
-description: Šioje temoje apžvelgiami gamybos procesai. Jame aprašomi įvairūs gamybos užsakymų, paketinių užsakymų ir „kanban‟ užduočių etapai – nuo užsakymų kūrimo iki finansinio laikotarpio uždarymo.
+description: Šiame straipsnyje pateikiama gamybos procesų apžvalga. Jame aprašomi įvairūs gamybos užsakymų, paketinių užsakymų ir „kanban‟ užduočių etapai – nuo užsakymų kūrimo iki finansinio laikotarpio uždarymo.
 author: johanhoffmann
 ms.date: 09/13/2019
 ms.topic: overview
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8c9eac4d3f984b6fe511d7cc5ebab67e6c24c722
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: a8ebf0418a7d8b93e2ac58f90a686c63fd859355
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983218"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8852221"
 ---
 # <a name="production-process-overview"></a>Gamybos procesų apžvalga
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje apžvelgiami gamybos procesai. Jame aprašomi įvairūs gamybos užsakymų, paketinių užsakymų ir „kanban‟ užduočių etapai – nuo užsakymų kūrimo iki finansinio laikotarpio uždarymo.
+Šiame straipsnyje pateikiama gamybos procesų apžvalga. Jame aprašomi įvairūs gamybos užsakymų, paketinių užsakymų ir „kanban‟ užduočių etapai – nuo užsakymų kūrimo iki finansinio laikotarpio uždarymo.
 
 Produktų gamyba, procesas, kartais dar vadinamas gamybos ciklu, vykdoma atliekant konkrečius veiksmus, kurių reikia norint pagaminti prekę. Ciklas pradedamas sukūrus gamybos užsakymą, užsakymo paketą arba „kanban“. Jis baigiamas pagaminus prekę, parengtą pateikti klientui, arba kitu gamybos etapu. Kiekvienam proceso ciklo veiksmui būtina skirtinga informacija, kad būtų užbaigtas procesas. Užbaigus kiekvieną veiksmą, gamybos užsakyme, užsakymo pakete arba „kanban“ rodoma, kad pasikeitė gamybos būsena. Skirtingiems produktams reikia skirtingų gamybos procesų.
 

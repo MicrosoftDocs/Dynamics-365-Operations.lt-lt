@@ -1,6 +1,6 @@
 ---
 title: Importuoti formatą konsolidavimui
-description: Šioje temoje pateikta išsami informacija apie importavimo formatą, kuris naudojamas jums konsoliduojant finansinius duomenis iš įvairių juridinių asmenų.
+description: Šiame straipsnyje pateikiama išsami informacija apie importavimo formatą, naudojamą konsoliduojant finansinius duomenis iš kelių juridinių subjektų.
 author: jinniew
 ms.date: 10/09/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 5bea69d72ac93d29ae67dd6d762e1376d9a282f0
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 0aee830f8fbfa384c86dc16465b202be36f07b73
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8735789"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871310"
 ---
 # <a name="import-format-for-consolidation"></a>Importuoti formatą konsolidavimui
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje pateikta išsami informacija apie importavimo formatą, kuris naudojamas jums konsoliduojant finansinius duomenis iš įvairių juridinių asmenų. Importavimo formatas turi būti įrašomas kaip tekstas (.txt) failas.
+Šiame straipsnyje pateikiama išsami informacija apie importavimo formatą, naudojamą konsoliduojant finansinius duomenis iš kelių juridinių subjektų. Importavimo formatas turi būti įrašomas kaip tekstas (.txt) failas.
 
 ## <a name="import-format"></a>Importavimo formatas
 

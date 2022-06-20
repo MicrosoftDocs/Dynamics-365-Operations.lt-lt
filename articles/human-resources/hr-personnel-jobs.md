@@ -1,6 +1,6 @@
 ---
 title: Užduoties komponentų nustatymas
-description: Šioje temoje aprašomi abstraktūs elementai, kurie gali sudaryti užduotį, ir pateikiami pavyzdžiai, kaip tuos elementus galite naudoti savo organizacijoje.
+description: Šiame straipsnyje aprašomi abstraktūs elementai, kurie gali sudaryti užduotį, ir pateikiami pavyzdžiai, kaip tuos elementus galite naudoti savo organizacijoje.
 author: twheeloc
 ms.date: 10/28/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.assetid: 889a8fab-0eef-45c2-91fc-ff2f4d44d54f
 ms.search.region: Global
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: de828bc1ab764a8a1bd084a508f38ff19a3947d5
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: afe100879a4f83e4ef16048bc4b1acace19b679b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8693590"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8877720"
 ---
 # <a name="set-up-the-components-of-a-job"></a>Užduoties komponentų nustatymas
 
@@ -28,7 +28,7 @@ ms.locfileid: "8693590"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Šioje temoje aprašomi abstraktūs elementai, kurie gali sudaryti užduotį, ir pateikiami pavyzdžiai, kaip tuos elementus galite naudoti savo organizacijoje. 
+Šiame straipsnyje aprašomi abstraktūs elementai, kurie gali sudaryti užduotį, ir pateikiami pavyzdžiai, kaip tuos elementus galite naudoti savo organizacijoje. 
 
 Prieš kurdami užduotis turite nustatyti tam tikrą nuorodos informaciją. Galite kurti užduotį, kuri turi tik pavadinimą. Tačiau įtraukdami papildomą informaciją, pvz., pareigas, turite pateikti numatytąsias užduočiai priskirtų pareigų vertes. Be to, kai kurią informaciją, kurią įvedate, galima naudoti kompensavimo planams į konkrečias užduotis filtruoti. Jei norite nustatyti tinkamumą, kurį galite naudoti kompensavimo planams į konkrečią užduotį filtruoti, prieš nustatydami užduotis turite nustatyti užduočių funkcijas ir tipus. Nustatę šias numatytąsias reikšmes sutaupysite laiko, kai užduotį įtraukiate pareigas. 
 

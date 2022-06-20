@@ -1,6 +1,6 @@
 ---
 title: Egipto išskaitomo mokesčio deklaracija
-description: Šioje temoje paaiškinama, kaip sukonfigūruoti ir sugeneruoti Egipto išskaitomo mokesčio deklaracijas.
+description: Šiame straipsnyje paaiškinama, kaip konfigūruoti ir generuoti Egipto išskaitomo mokesčio deklaracijas.
 author: sndray
 ms.date: 03/08/2021
 ms.topic: article
@@ -13,24 +13,24 @@ ms.search.region: Global
 ms.author: sndray
 ms.search.validFrom: 2017-06-20
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 8d78af13e0b3879afd0b6dae7b1a9ece651c3fd2
-ms.sourcegitcommit: 7aa7d756e1e98a53da62e03c608a9597ef9893ea
+ms.openlocfilehash: 505eb8a907ec8cc74b897695ddd90eee3abb0ed6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "7403896"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907693"
 ---
 #  <a name="withholding-tax-declaration-for-egypt-eg-00005"></a>Egipto išskaitomo mokesčio deklaracija (EG-00005)
 
 [!include[banner](../includes/banner.md)]
 [!include[banner](../includes/preview-banner.md)]
 
-## <a name="overview"></a>Peržiūra
-Šioje temoje paaiškinama, kaip nustatyti ir generuoti išskaitomo mokesčio deklaraciją ir 41 ir 11 juridinių subjektų išskaitomo mokesčio deklaravimo formas Egipte 
+## <a name="overview"></a>Apžvalga
+Šiame straipsnyje paaiškinama, kaip nustatyti ir generuoti išskaitomo mokesčio deklaraciją ir juridinių subjektų Išskaitomo mokesčio deklaracijos 41 ir 11 formas Egipto juridiniams subjektams 
 
 Visi Egipto subjektai turi parengti 41 formą, kurioje susumuojami visi mokesčiai, saugomi iš vietinių tiekėjų ir paslaugų teikėjų. Be 41 formos, 11 formą reikia sugeneruoti taip, kad išsamiai būtų sugeneruoti visi užsienio teikėjų išskirstyti mokesčiai. 
 
-Ataskaita **Išskaitomo mokesčio deklaracija**, esanti „Dynamics 365 Finance“, apima tokias ataskaitas:
+**"** Dynamics 365 Finance" išskaitomo mokesčio deklaracijos ataskaitoje yra šios ataskaitos:
 
 - Deklaracijos formos Nr. 41
 - Deklaracijos formos Nr. 11
@@ -58,7 +58,7 @@ Daugiau informacijos apie elektroninių ataskaitų teikimo konfigūracijų impor
 
 Egipto WHT deklaracijos formos diegimas grindžiamas elektroninės ataskaitos (ER) konfigūracijomis. Daugiau informacijos apie galimybes ir konfigūruojamų ataskaitų sąvokas žr. [Elektroninių ataskaitų teikimas](../../fin-ops-core/dev-itpro/analytics/general-electronic-reporting.md).
 
-Norėdami rasti gamybos ir naudotojo priėmimo tikrinimo (UAT) aplinkas, vadovaukitės instrukcijomis, pateikiamomis temoje [Elektroninių ataskaitų konfigūracijų atsisiuntimas iš „Lifecycle Services“](../../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md).
+Norėdami naudoti gamybos ir vartotojo priėmimo tikrinimo (UAT) aplinkas, vadovaukitės straipsnyje pateiktomis instrukcijomis, [atsisiųskite elektroninių ataskaitų konfigūracijas iš ciklo tarnybų](../../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md).
 
 Norėdami sugeneruoti išskaitomo mokesčio deklaracijas Egipto juridiniame subjekte, turite įkelti šias konfigūracijas:
 

@@ -1,6 +1,6 @@
 ---
 title: Taisyti planavimo modulio klaidą "Nepakanka pajėgumo" ir riboto pajėgumo
-description: Šioje temoje pateikiama informacija apie gamybos užsakymo priežastis ir nutarimus, kurių %1 nepavyko suplanuoti. Išspręskite planavimo mechanizmo klaidą „Nepavyko rasti pakankamai pajėgumo“.
+description: Šiame straipsnyje pateikiama informacija apie gamybos užsakymo priežastis ir nutarimus, kurių %1 nepavyko suplanuoti. Išspręskite planavimo mechanizmo klaidą „Nepavyko rasti pakankamai pajėgumo“.
 author: t-benebo
 ms.date: 7/29/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-07-19
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: a3c08dc72c7133a2ebb148a2f88f83fee282717b
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 2db4c2606936222fcd1a97cf2814fbfbc41df113
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8469847"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8891037"
 ---
 # <a name="fix-the-not-enough-capacity-could-be-found-scheduling-engine-error"></a>Išspręskite planavimo mechanizmo klaidą „Nepavyko rasti pakankamai pajėgumo“
 
@@ -26,7 +26,7 @@ Kai bandote įgalinti schemas, galite gauti tokį klaidos pranešimą:
 
 > Gamybos užsakymo %1 planuoti negalima. Rasta nepakankamai pajėgumų.
 
-Yra kelios priežastys, dėl kurių planavimo variklis gali neį nepavykti ir šis klaidos pranešimas. Šioje temoje pateikiamos gairės, kurios padės rasti šakninį klaidos priežastį ir ją sumažinti.
+Yra kelios priežastys, dėl kurių planavimo variklis gali neį nepavykti ir šis klaidos pranešimas. Šiame straipsnyje pateikiamos gairės, kurios padės rasti šakninį klaidos priežastį ir tada ją sumažins.
 
 ## <a name="review-the-applicable-resources"></a>Peržiūrėti taikytinus išteklius
 

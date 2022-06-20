@@ -1,6 +1,6 @@
 ---
 title: Analizės įtraukimas į darbo sritis naudojant „Power BI Embedded“
-description: Šioje temoje rodoma, kaip įterpti „Power BI“ ataskaitą darbo srities skirtuke Analizė.
+description: Šiame straipsnyje parodyta, kaip įtraukti Power BI ataskaitą į darbo srities skirtuką Analitikai.
 author: RichdiMSFT
 ms.date: 06/21/2017
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: richdi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: ed562dca621acea24efa3f157f695257cb919cdda577cf9ae6dd0b0c942e1b70
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fba78f091a9e1ba209489b0e324027c4885a198d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6760157"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884555"
 ---
 # <a name="add-analytics-to-workspaces-by-using-power-bi-embedded"></a>Analizės įtraukimas į darbo sritis naudojant „Power BI Embedded“
 
@@ -26,8 +26,8 @@ ms.locfileid: "6760157"
 > [!NOTE]
 > Šią funkcija palaiko 7.2 arba vėlesnės versijos „Finance and Operations“.
 
-## <a name="introduction"></a>Įvadas
-Šioje temoje rodoma, kaip įterpti „Microsoft Power BI“ ataskaitą darbo srities skirtuke **Analizė**. Čia pateiktame pavyzdyje išplėsime Transporto parko valdymo programos darbo sritį **Rezervacijų valdymas**, kad skirtuke **Analizė** galėtume įterpti analizės darbo sritį.
+## <a name="introduction"></a>Įžanga
+Šiame straipsnyje parodyta, kaip įtraukti Microsoft Power BI ataskaitą į **darbo srities** skirtuką Analitikai. Čia pateiktame pavyzdyje išplėsime Transporto parko valdymo programos darbo sritį **Rezervacijų valdymas**, kad skirtuke **Analizė** galėtume įterpti analizės darbo sritį.
 
 ## <a name="prerequisites"></a>Būtinieji komponentai
 + Prieiga prie projektuotojo terpės, kurioje veikia 8-asis ar naujesnis platformos atnaujinimas.

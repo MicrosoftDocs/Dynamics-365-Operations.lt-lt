@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-03-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 98cb7c2f1f57dacf303e2e9bc7779ce3ede6733e
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: c82114f6600345ee5e2eb9c1c0629ae6c8f0b9a7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8695878"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8877691"
 ---
 # <a name="restrict-editing-of-personal-information"></a>Asmeninės informacijos redagavimo apribojimas
 
@@ -29,7 +29,7 @@ ms.locfileid: "8695878"
 [!include [applies to](../includes/applies-to-hr.md)]
 [!include [preview feature](./includes/preview-feature.md)]
 
-Šioje temoje aprašoma, kaip apriboti darbuotojų kontaktinės informacijos „Dynamics 365 Human Resources“ redagavimą. Galbūt norėsite neleisti darbuotojams redaguoti tam tikros kontaktinės informacijos, pvz., darbo vietos ar el. pašto adreso.
+Šiame straipsnyje aprašoma, kaip apriboti darbuotojų kontaktinės informacijos redagavimą Dynamics 365 Human Resources. Galbūt norėsite neleisti darbuotojams redaguoti tam tikros kontaktinės informacijos, pvz., darbo vietos ar el. pašto adreso.
 
 > [!NOTE]
 > Kad galėtumėte naudoti šią funkciją, pirmiausia funkcijų valdymo srityje įjunkite funkciją **(Peržiūra) Darbuotojams apriboti prieigą prie adreso ir kontaktinės informacijos pridėjimo ar redagavimo pasirinktais tikslais**. Daugiau informacijos apie peržiūros versijos funkcijų įjungimą žr. skyrių [Funkcijų valdymas](hr-admin-manage-features.md).<br><br>![Įjungti peržiūros funkciją.](./media/hr-employee-self-service-restrict-enable.png)

@@ -1,6 +1,6 @@
 ---
 title: Grąžinimo mokėjimo metodų be kvito apribojimas
-description: Šioje temoje aprašoma, kaip tam tikrus grąžinimo mokėjimo tipus galima apriboti, jei grąžinimai vykdomi be kvito.
+description: Šiame straipsnyje aprašoma, kaip galima apriboti tam tikrų mokėjimo tipų grąžinimą, jei grąžinimai atliekami be kvito.
 author: rapraj
 ms.date: 03/05/2019
 ms.topic: article
@@ -16,19 +16,19 @@ ms.search.industry: Retail
 ms.author: yabinl
 ms.search.validFrom: 2019-02-01
 ms.dyn365.ops.version: AX 10.0.0, Retail Feb 2019 update
-ms.openlocfilehash: 716b3a924da14d94061966d0d671003a6e2b90f88a3c0c4064191b47d8930f93
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 091d39ea9fe41d78b7f34f85ecd1894047e022d6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6773843"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896958"
 ---
 # <a name="restrict-payment-methods-for-returns-without-a-receipt"></a>Grąžinimo mokėjimo metodų be kvito apribojimas
 
 
 [!include [banner](includes/banner.md)]
 
-Nustačius sistemą, reikia sukonfigūruoti kiekvieną pardavėjo priimamą mokėjimo tipą. Šioje temoje aprašoma, kaip tam tikrus grąžinimo mokėjimo tipus galima apriboti, jei grąžinimai vykdomi be kvito.
+Nustačius sistemą, reikia sukonfigūruoti kiekvieną pardavėjo priimamą mokėjimo tipą. Šiame straipsnyje aprašoma, kaip galima apriboti tam tikrų mokėjimo tipų grąžinimą, jei grąžinimai atliekami be kvito.
 
 ## <a name="set-up-payment-methods"></a>Nustatyti mokėjimo būdus
 

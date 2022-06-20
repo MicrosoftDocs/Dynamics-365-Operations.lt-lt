@@ -1,6 +1,6 @@
 ---
 title: Pašalintos arba nebenaudojamos platformos funkcijos
-description: Šioje temoje aprašomos priemonės, kurios buvo pašalintos arba suplanuotos pašalinti į finansų ir operacijų programėlių platformos atnaujinimus.
+description: Šiame straipsnyje aprašomos priemonės, kurios buvo pašalintos arba suplanuotos pašalinti į finansų ir operacijų programėlių platformos naujinimus.
 author: sericks007
 ms.date: 05/24/2022
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 3de9b9ea0bd20d1346a7cdfd2f919f50374b164c
-ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
+ms.openlocfilehash: 51165db8d15f0a57fd9bc1649dc6e3ca72875236
+ms.sourcegitcommit: 1fa1ac1fa25e977e98bc02ed5d9d39bd3a7a28d7
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/28/2022
-ms.locfileid: "8811252"
+ms.lasthandoff: 06/08/2022
+ms.locfileid: "8945810"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Pašalintos arba nebenaudojamos platformos funkcijos
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje aprašomos priemonės, kurios buvo pašalintos arba suplanuotos pašalinti į finansų ir operacijų programėlių platformos atnaujinimus.
+Šiame straipsnyje aprašomos priemonės, kurios buvo pašalintos arba suplanuotos pašalinti į finansų ir operacijų programėlių platformos naujinimus.
 
 - *Pašalinta* funkcija nebėra įtraukta į produktą.
 - *Nebenaudojama* funkcija nebėra aktyviai tobulinama ir gali būti pašalinta iš būsimo naujinio.
@@ -40,7 +40,7 @@ Išsami informacija apie finansų ir operacijų programėlių objektus pateikta 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Nerekomendavimo/pašalinimo priežastis** | Mes atšaukiame finansų ir operacijų ("Dynamics 365") mobiliąją programą ir platformą, kuri konsoliduoja vieną mobiliąją platformą, t. y Power Apps. |
-| **Pakeitė kita funkcija?**   | Taip, su finansų ir operacijų programos duomenimis susijusią mobiliąją patirtį galima sukurti integruojant Power Platform. Išsamesnės [informacijos žr. pastato](../power-platform/build-mobile-experiences.md) mobiliosios patirties žiūrėkite. |
+| **Pakeitė kita funkcija?**   | Taip, su finansų ir operacijų programos duomenimis susijusią mobiliąją patirtį galima sukurti integruojant Power Platform. Norėdami gauti daugiau [informacijos, peržiūrėkite](https://cloudblogs.microsoft.com/dynamics365/it/2022/06/03/finance-and-operations-dynamics-365-mobile-app-to-be-deprecated/) žurnalo [skelbimo pranešimą ir](../power-platform/build-mobile-experiences.md) mobiliųjų patirties kūrimą. |
 | **Paveiktos produkto sritys**         | „Finance and Operations” programos |
 | **Visuotinio diegimo parinktis**              | Viskas |
 | **Būsena**                         | Nerekomenduojama. Palaikymo data skirta 2024 m. spalio mėn. |

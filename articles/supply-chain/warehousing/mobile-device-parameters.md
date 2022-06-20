@@ -1,6 +1,6 @@
 ---
 title: Visuotiniai mobiliojo įrenginio parametrai
-description: Šioje temoje paaiškinama, kaip nustatyti mobiliojo įrenginio parametrus „Warehouse management” parametrų puslapyje.
+description: Šiame straipsnyje paaiškinama, kaip nustatyti mobiliojo įrenginio parametrus sandėlio valdymo parametrų puslapyje.
 author: Mirzaab
 ms.date: 08/13/2021
 ms.topic: article
@@ -11,24 +11,24 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-08-13
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 0ae04c86ff1eafb649fcef7c34ace66bdc3e5cb8
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: e6e03414edd9243fcc4156195928455b30a7cee9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8679171"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847765"
 ---
 # <a name="global-mobile-device-parameters"></a>Visuotiniai mobiliojo įrenginio parametrai
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje paaiškinama, kaip nustatyti visuotinius „Warehouse Management” parametrus, kurie veikia tai, kaip sistema sąveikauja su mobiliaisiais įrenginiais.
+Šiame straipsnyje paaiškinama, kaip nustatyti visuotinius sandėlio valdymo parametrus, kurie veikia tai, kaip sistema sąveikauja su mobiliaisiais įrenginiais.
 
 Daugiau informacijos apie tai, kaip nustatyti sandėlio darbuotojus, rasite [Sandėlio darbuotojo valdymas](manage-warehouse-workers.md). Išsamesnę informaciją apie licencijos numerio tvarkymą mobiliuosiuose įrenginiuose rasite[Numerio lentelės gavimas naudojant „Warehouse Management” mobiliųjų įrenginių programėlę](warehousing-mobile-device-app-license-plate-receiving.md). Daugiau informacijos apie ciklų skaičiavimo procesus ieškokite [Ciklų skaičiavimas](cycle-counting.md) ir [Ciklų skaičiavimo pavyzdiniai scenarijai](cycle-counting-scenarios.md).
 
 ## <a name="open-the-warehouse-management-parameters-page"></a>„Warehouse Management” parametrų puslapio atidarymas
 
-Norėdami atidaryti **„Warehouse management” parametrų** puslapį, eikite į **„Warehouse management” \> Nustatymas \> „Warehouse management” parametrai**. Tada jūs galite nustatyti laukus, susijusius su mobiliojo įrenginio darbu, kaip aprašyta kitame šios temos skyriuje.
+Norėdami atidaryti **„Warehouse management” parametrų** puslapį, eikite į **„Warehouse management” \> Nustatymas \> „Warehouse management” parametrai**. Tada galite nustatyti su mobiliojo įrenginio darbu susijusius laukus, kaip aprašyta kitame šio straipsnio skyriuje.
 
 ## <a name="mobile-device-fasttab-on-the-general-tab"></a>Mobiliojo įrenginio „FastTab” skirtuke Bendra
 

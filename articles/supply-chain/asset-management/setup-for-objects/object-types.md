@@ -1,6 +1,6 @@
 ---
 title: Turto tipai
-description: Šioje temoje paaiškinta, kaip kurti turto tipus turto valdyme. Jame taip pat aprašomi elementai, susiję su turto tipais.
+description: Šiame straipsnyje paaiškinama, kaip kurti turto tipus turto valdymo dalyje. Jame taip pat aprašomi elementai, susiję su turto tipais.
 author: johanhoffmann
 ms.date: 10/15/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: fc1a8d98e9a8853e2e72bfcc7415ddb9a0a3b7758504621d6fccff00a08a36be
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d3a51fdb55e9158e88e89549e3d0049e699c233e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6730376"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887637"
 ---
 # <a name="asset-types"></a>Turto tipai
 
@@ -28,7 +28,7 @@ ms.locfileid: "6730376"
 
 
 
-Šioje temoje aiškinama, kaip sukurti turto tipus. Jame taip pat aprašomi elementai, susiję su turto tipais. Turto tipai naudojami kaip bendrosios turto kategorijos. Pavyzdžiai apima CNC mašinas, matavimo įrangą ir sunkvežimių variklius. Turto tipai naudojami valdyti priežiūros užduočių tipus (priežiūros užduotis), turto ciklo būsenas, skaitiklius, turto atributus, sąlygų vertinimo šablonus ir turto modelius, kuriuos galima pasirinkti turtui. Kuriant turtą būtina nurodyti turto tipą.
+Šiame straipsnyje paaiškinama, kaip sukurti turto tipus. Jame taip pat aprašomi elementai, susiję su turto tipais. Turto tipai naudojami kaip bendrosios turto kategorijos. Pavyzdžiai apima CNC mašinas, matavimo įrangą ir sunkvežimių variklius. Turto tipai naudojami valdyti priežiūros užduočių tipus (priežiūros užduotis), turto ciklo būsenas, skaitiklius, turto atributus, sąlygų vertinimo šablonus ir turto modelius, kuriuos galima pasirinkti turtui. Kuriant turtą būtina nurodyti turto tipą.
 
 Kiekvienam turto tipui galima sukurti turto tipo nustatymų variantus. Pavyzdžiui, jei turite turto tipą, pavadintą **Sunkvežimiai**, galite kurti to turto tipo variantus skirtingiems turto gamintojams ir turto modeliams. į kiekvieno turto tipo nustatymą galite įtraukti reikiamas atsargines dalis ir priežiūros planus.
 

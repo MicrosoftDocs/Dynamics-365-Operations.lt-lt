@@ -1,6 +1,6 @@
 ---
 title: Išorinių įrenginių prijungimas prie elektroninio kasos aparato (EKA)
-description: Ši tema nurodo, kaip išorinius įrenginius prijungti prie „Retail POS“.
+description: Šiame straipsnyje aprašoma, kaip prijungti išorinius įrenginius prie "Retail POS".
 author: BrianShook
 ms.date: 03/01/2022
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Retail
 ms.author: brshoo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: f1c53c7215d3a5a182f345d5e040274ae06f9b12
-ms.sourcegitcommit: 116898def829c0f78bda8a117242aa308793465d
+ms.openlocfilehash: ffee75e1713c7c9d31b1d023cd055c2f1a3fc43d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8370956"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8897113"
 ---
 # <a name="connect-peripherals-to-the-point-of-sale-pos"></a>Išorinių įrenginių prijungimas prie elektroninio kasos aparato (EKA)
 
 [!include [banner](includes/banner.md)]
 
-Ši tema nurodo, kaip išorinius įrenginius prijungti prie „Retail POS“.
+Šiame straipsnyje aprašoma, kaip prijungti išorinius įrenginius prie "Retail POS".
 
 > [!NOTE]
 > Konkrečias įdiegimo instrukcijas rasite [„Retail Hardware Station“ konfigūravimas ir diegimas](retail-hardware-station-configuration-installation.md) ir [„Modern POS“ (MPOS) konfigūravimas, diegimas ir aktyvinimas](retail-modern-pos-device-activation.md).
@@ -157,7 +157,7 @@ Kvitų profiliai priskirti aparatūros šablono spausdintuvams. Jie naudojami si
 
 #### <a name="hardware-profiles"></a>Aparatūros šablonai
 
-Aparatūros profiliai paaiškinti kaip kliento nustatymo komponentas anksčiau šioje temoje. Aparatūros profiliai priskiriami tiesiogiai EKA kasos aparatui arba bendrai naudojamai aparatūros stotyje ir naudojami įrenginių, kurie naudojami konkrečiam EKA kasos aparatui arba aparatūros stotis, tipams nurodyti. Aparatūros šablonai taip pat naudojami siekiant nurodyti EFT parametrus, naudojamus ryšiui su mokėjimo SDK palaikyti.
+Aparatūros šablonai anksčiau šiame straipsnyje yra apibūdinti kaip kliento sąrankos komponentai. Aparatūros profiliai priskiriami tiesiogiai EKA kasos aparatui arba bendrai naudojamai aparatūros stotyje ir naudojami įrenginių, kurie naudojami konkrečiam EKA kasos aparatui arba aparatūros stotis, tipams nurodyti. Aparatūros šablonai taip pat naudojami siekiant nurodyti EFT parametrus, naudojamus ryšiui su mokėjimo SDK palaikyti.
 
 #### <a name="visual-profiles"></a>Vaizdo šablonai
 

@@ -1,6 +1,6 @@
 ---
 title: Gamybos planavimas
-description: Šioje temoje aprašomas gamybos planavimas ir paaiškinama, kaip modifikuoti suplanuotus gamybos užsakymus naudojant planavimo optimizavimą.
+description: Šiame straipsnyje aprašomas gamybos planavimas ir paaiškinama, kaip modifikuoti suplanuotus gamybos užsakymus naudojant planavimo optimizavimą.
 author: t-benebo
 ms.date: 06/01/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-12-15
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 8f23cb62512dfd718fe199867a4b21aaa0eca3fd
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 151aa3688c570ea6ec282c297ed18288dd886131
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8469064"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873788"
 ---
 # <a name="production-planning"></a>Gamybos planavimas
 
@@ -24,11 +24,11 @@ ms.locfileid: "8469064"
 
 Planavimo optimizavimas palaiko kelis gamybos scenarijus. Jei pereinate iš esamo, įtaisyto bendrojo planavimo mechanizmo, svarbu žinoti apie pasikeitusį veikimo būdą.
 
-Toliau pateiktame vaizdo įraše pateikiamas trumpas įvadas į kai kurias sąvokas, aptartas šioje temoje: [Dynamics 365 Supply Chain Management: Planavimo optimizavimo patobulinimai](https://youtu.be/u1pcmZuZBTw).
+Toliau pateiktame vaizdo įraše pateikiamas trumpas įžanga apie kai kurias šiame straipsnyje aptartas sąvokas: [Dynamics 365 Supply Chain Management optimizavimo patobulinimų planavimas](https://youtu.be/u1pcmZuZBTw).
 
 ## <a name="turn-on-this-feature-for-your-system"></a>Šios funkcijos įjungimas sistemoje
 
-Jei jūsų sistemoje dar nėra šioje temoje aprašytų funkcijų, eikite į [Funkcijų valdymas](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) ir įjunkite funkciją *Suplanuoti gamybos užsakymai, skirti planavimo optimizavimui*.
+Jei jūsų sistema dar neapima šiame straipsnyje aprašytų priemonių, [...](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)*eikite į funkcijų valdymą ir įjunkite planavimo optimizavimo funkcijos suplanuotos gamybos užsakymus.*
 
 ## <a name="planned-production-orders"></a>Suplanuoti gamybos užsakymai
 
@@ -65,7 +65,7 @@ Jei norite pakeisti suplanuoto užsakymo informaciją ir pamatyti poveikį susij
 2. Patvirtinkite suplanuotą užsakymą.
 3. Vykdykite bendrąjį planavimą.
 
-Kai vykdote bendrąjį planavimą, neturėtumėte naudoti filtrų, jeigu įtraukti suplanuoti gamybos užsakymai. Daugiau informacijos žiūrėkite tolesniame šios temos skyriuje [Filtrai](#filters).
+Kai vykdote bendrąjį planavimą, neturėtumėte naudoti filtrų, jeigu įtraukti suplanuoti gamybos užsakymai. Daugiau informacijos ieškokite šio straipsnio [skyriuje](#filters) Filtrai.
 
 > [!NOTE]
 > Jei suplanuoto užsakymo pristatymo data pakeičiama į vėlesnę, poreikis gali būti iškviestas naujam suplanuotam užsakymui. Taip nutinka, kai dėl naujos tiekimo datos atidedamas iškviestas poreikis, tačiau atsižvelgiant į gamybos laiko parametrus, atidėjimo galima išvengti.

@@ -1,6 +1,6 @@
 ---
 title: Pardavimo užsakymų kredito sulaikymai
-description: Šioje temoje aprašoma taisyklių, naudojamų pardavimo užsakymų kredito sulaikymui, sąranka.
+description: Šiame straipsnyje aprašomas taisyklių, kurios naudojamos sulaikyti pardavimo užsakymą dėl kredito, nustatymas.
 author: JodiChristiansen
 ms.date: 07/20/2021
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 2d8966f993e7ca82b10a2ef5a023256a05682980
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 44560425056ee1726f21a4279f36c2e718956814
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734339"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856834"
 ---
 # <a name="credit-holds-for-sales-orders"></a>Pardavimo užsakymų kredito sulaikymai
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-Šioje temoje aprašoma taisyklių, naudojamų pardavimo užsakymų kredito sulaikymui, sąranka. Kredito valdymo blokavimo taisyklės gali būti taikomos atskiram klientui arba klientų grupei. Blokavimo taisyklės apibrėžia atsakymus esant šioms aplinkybėms:
+Šiame straipsnyje aprašomas taisyklių, kurios naudojamos sulaikyti pardavimo užsakymą dėl kredito, nustatymas. Kredito valdymo blokavimo taisyklės gali būti taikomos atskiram klientui arba klientų grupei. Blokavimo taisyklės apibrėžia atsakymus esant šioms aplinkybėms:
 
 1. Pradelstų dienų skaičius
 2. Sąskaitos būsena

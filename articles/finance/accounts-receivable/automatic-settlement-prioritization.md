@@ -1,6 +1,6 @@
 ---
 title: Automatinis sudengimas ir prioritetų nustatymas
-description: Šioje temoje aprašoma, kaip sudengiamos operacijos, jei puslapyje Gautinų sumų parametrai pasirenkate Automatinis sudengimas. Jame taip pat paaiškinama, kaip automatinį sudengimą galima naudoti kartu su mokėjimo prioritetu.
+description: Šiame straipsnyje aprašoma, kaip sudengiamos operacijos, jei puslapyje Gautinų sumų parametrai pasirenkate Automatinis sudengimas. Jame taip pat paaiškinama, kaip automatinį sudengimą galima naudoti kartu su mokėjimo prioritetu.
 author: ShivamPandey-msft
 ms.date: 01/30/2019
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 47ccdb49b4d5c43b4f9cb9a967bd30376474e4c1
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: bd5b894c82beb1b5d69ad6bf485161ab9c91a806
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8712264"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855526"
 ---
 # <a name="automatic-settlement-and-prioritization"></a>Automatinis sudengimas ir prioritetų nustatymas
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje aprašoma, kaip sudengiamos operacijos, jei puslapyje Gautinų sumų parametrai pasirenkate Automatinis sudengimas. Jame taip pat paaiškinama, kaip automatinį sudengimą galima naudoti kartu su mokėjimo prioritetu.
+Šiame straipsnyje aprašoma, kaip sudengiamos operacijos, jei puslapyje Gautinų sumų parametrai pasirenkate Automatinis sudengimas. Jame taip pat paaiškinama, kaip automatinį sudengimą galima naudoti kartu su mokėjimo prioritetu.
 
 Sudengti mokėjimus su sąskaitomis faktūromis ir kitomis operacijomis galima dviem būdais. Galite rankiniu būdu pasirinkti norimas sudengti operacijas arba sistema gali automatiškai parinkti operacijas naudodama automatinio sudengimo funkciją. Be to, galite tinkinti automatinių sudengimų taikymo būdą naudodami parinktį **Nustatyti sudengimo prioritetą**. Visos šios parinktys įeina į sudengimo parametrus, kurie nustatomi puslapyje **Gautinų sumų parametrai**. Būdas, kuriuo operacijos yra automatiškai sudengiamos gali skirtis, nes jis priklauso nuo metodo, kurį naudojate automatiniam sudengimui atlikti. Galimi šie metodai:
 

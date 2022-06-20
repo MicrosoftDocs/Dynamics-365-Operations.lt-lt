@@ -1,6 +1,6 @@
 ---
 title: Bendrai naudojamų parametrų konfigūravimas
-description: Šioje temoje paaiškinama, kaip juridiniuose subjektuose nustatyti personalo parametrus.
+description: Šiame straipsnyje paaiškinama, kaip keliuose juridiniuose subjektuose nustatyti modulio Personalas parametrus.
 author: twheeloc
 ms.date: 10/28/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e59745e01905be50e6908fb9587b8afc17604382
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: c0d8dbca302d90cc402feb4715a6fcc2b935d8b1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8692120"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906188"
 ---
 # <a name="configure-shared-parameters"></a>Bendrai naudojamų parametrų konfigūravimas
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Turite nustatyti bendrai naudojamus įrašų, kurie bendrai naudojami įmonėse, pvz., pareigų įrašų **,** parametrus. Šioje temoje paaiškinama, kaip juridiniuose subjektuose nustatyti personalo parametrus.
+Turite nustatyti bendrai naudojamus įrašų, kurie bendrai naudojami įmonėse, pvz., pareigų įrašų **,** parametrus. Šiame straipsnyje paaiškinama, kaip keliuose juridiniuose subjektuose nustatyti modulio Personalas parametrus.
 
 Kai kurie įrašų tipai, pvz. **, Pareigų** įrašai, yra bendrai naudojami įmonėse. Šiems įrašams reikia nustatyti bendrai naudojamus parametrus. Pvz., personalo **bendrinamų parametrų** puslapis naudojamas siekiant nustatyti juridinių subjektų personalo parametrus. 
 

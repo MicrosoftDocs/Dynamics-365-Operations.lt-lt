@@ -1,6 +1,6 @@
 ---
-title: Gaunamų atsargų operacijos EKA
-description: Šioje temoje aprašomos gaunamų atsargų operacijų elektroniniame kasos aparate (EKA) galimybės.
+title: Atvežamų atsargų operacija EKA
+description: Šiame straipsnyje aprašomi point of sale (EKA) gaunamų atsargų operacijos pajėgumai.
 author: hhaines
 ms.date: 09/17/2020
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 8848c10e9f8f931ee66414075d28b8910a02e5a000525a63bc38ab6851f11276
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fbabcaafee74b4d0a1ca8ef79de94376a7764aa3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6741787"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8858887"
 ---
 # <a name="inbound-inventory-operation-in-pos"></a>Atvežamų atsargų operacija EKA
 
@@ -215,7 +215,7 @@ Sėkmingai pateikus dokumento juodraštį „Commerce“ būstinei, jis rodomas 
 
 Dokumentui įgijus būseną **Pageidaujama**, jis matomas skirtuke **Aktyvieji**. Tačiau, gaunanti parduotuvė arba sandėlis dar jo gauti negali. Siuntimo sandėliui išsiuntus visus perkėlimo užsakymo punktus arba jų dalį, gaunanti parduotuvė arba sandėlis gali registruoti gavimus EKA. Siunčiančiai šaliai apdorojus perkėlimo užsakymo dokumentus, jų būsena pakeičiama iš **Pageidaujama** į **Išsiųsta** arba **Iš dalies išsiųsta**. Dokumentams įgijus būseną **Išsiųsta** arba **Iš dalies išsiųsta**, gaunanti parduotuvė arba sandėlis gali pagal juos registruoti gavimus, naudodami gaunamų operacijų gavimo procesą.
 
-## <a name="related-topics"></a>Susijusios temos
+## <a name="related-articles"></a>Susiję straipsniai
 
 [Siunčiamų atsargų operacijos EKA](pos-outbound-inventory-operation.md)
 

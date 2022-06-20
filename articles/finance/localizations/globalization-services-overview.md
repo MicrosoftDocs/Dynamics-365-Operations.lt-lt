@@ -1,6 +1,6 @@
 ---
 title: „Dynamics 365” globalizavimo paslaugos
-description: Šioje temoje apžvelgiamos „Microsoft Dynamics 365” globalizavimo paslaugos.
+description: Šiame straipsnyje pateikta Microsoft Dynamics 365 globalizavimo tarnybų apžvalga.
 author: JaneA07
 ms.date: 04/12/2021
 ms.topic: overview
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-02-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 1dfe88bf6eb0cf479f8febd8a599b165b71d932d
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 9f449bed7eac8d6eb38e62e6eda816f31cff80c2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7985996"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879484"
 ---
 # <a name="dynamics-365-globalization-services"></a>„Dynamics 365” globalizavimo paslaugos
 
@@ -36,12 +36,12 @@ ms.locfileid: "7985996"
 
 Šios globalizavimo paslaugos teikia visiškai parengtą naudoti integravimą su šiomis „Dynamics 365” internetinėmis paslaugomis.
 
-| Internetinės paslaugos | RCS | Elektroninių SF išrašymas | Mokesčių skaičiavimas (peržiūros versija) |
+| Internetinės paslaugos | RCS | Elektroninių sąskaitų faktūrų išrašymas | Mokesčių skaičiavimas (peržiūros versija) |
 |----------------|-----|----------------------|---------------------------|
-| „Dynamics 365 Finance” | Taip | Taip | Taip | 
-| „Dynamics 365 Supply Chain Management” | Taip | Taip | Taip | 
+| Dynamics 365 Finance | Taip | Taip | Taip | 
+| Dynamics 365 Supply Chain Management | Taip | Taip | Taip | 
 | „Dynamics 365 Project Operations“ | Taip | Taip | Netaikoma | 
-| „Dynamics 365 Commerce” | Taip | Netaikoma | Netaikoma | 
+| Dynamics 365 Commerce | Taip | Netaikoma | Netaikoma | 
 
 > [!NOTE]
 > Dėl „Azure” geografinių vietų („geos”) pasiekiamumo RCS skirtumų, šios paslaugos konfigūracija gali sukelti kliento duomenų perkėlimą už taikomai „Dynamics 365” internetinei paslaugai pasirinkto „geo” ribų. Daugiau informacijos rasite, [„Dynamics 365” ir „Power Platform”: Pasiekiamumas, duomenų vieta, kalba ir lokalizavimas](https://aka.ms/rcs/D365Productavailabilityguide).

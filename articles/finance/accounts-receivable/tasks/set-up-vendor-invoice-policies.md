@@ -1,6 +1,6 @@
 ---
-title: Tiekėjų sąskaitų faktūrų strategijų nustatymas
-description: Šioje temoje paaiškinama, kaip nustatyti tiekėjų SF strategijas.
+title: Nustatyti tiekėjų SF strategijas
+description: Šiame straipsnyje paaiškinama, kaip nustatyti tiekėjo SF strategijas.
 author: ShivamPandey-msft
 ms.date: 02/11/2022
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1f9707c7b283f42729126efa57e890e0df65ca8b
-ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
+ms.openlocfilehash: 049b38b6feba5f4369d79b89b4c81a8195dd7758
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8109761"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904736"
 ---
-# <a name="set-up-vendor-invoice-policies"></a>Tiekėjų sąskaitų faktūrų strategijų nustatymas
+# <a name="set-up-vendor-invoice-policies"></a>Nustatyti tiekėjų SF strategijas
 
 [!include [banner](../../includes/banner.md)]
 
-Šioje temoje paaiškinama, kaip nustatyti tiekėjų SF strategijas. Tiekėjo SF strategijos paleidžiamos, kai užregistruojate tiekėjo **SF** naudodami tiekėjo SF puslapį ir kai atidarote tiekėjo SF **strategijos pažeidimų** puslapį. Taip pat galite sukonfigūruoti, kad tiekėjo SF darbo eiga vykdytų tiekėjo SF strategijas kiekvieną kartą, kai į darbo eigą pateikiate SF. 
+Šiame straipsnyje paaiškinama, kaip nustatyti tiekėjo SF strategijas. Tiekėjo SF strategijos paleidžiamos, kai užregistruojate tiekėjo **SF** naudodami tiekėjo SF puslapį ir kai atidarote tiekėjo SF **strategijos pažeidimų** puslapį. Taip pat galite sukonfigūruoti, kad tiekėjo SF darbo eiga vykdytų tiekėjo SF strategijas kiekvieną kartą, kai į darbo eigą pateikiate SF. 
 
 - Tiekėjo SF strategijos netaikomos SF, kurios sukurtos SF registre ar SF žurnale.  
 - SF gretinimo tikrinimas naudoja ne tiekėjo SF strategijas, bet yra nustatomas mokėtinų **sumų parametrų** puslapyje.  

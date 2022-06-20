@@ -1,6 +1,6 @@
 ---
 title: Pirkimo strategijų kūrimas
-description: Šioje temoje pasakojama, kaip kurti pirkimo strategijas, kad lygiuotis su jūsų pirkimo verslo procesais.
+description: Šiame straipsnyje aprašoma, kaip sukurti pirkimo strategijas, siekiant suderinti su pirkimo verslo procesais.
 author: GalynaFedorova
 ms.date: 07/31/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4f51c88506044359787257ba0e0a6668213a170d
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 011705723466d746fa5b23c5499d03a548f133f1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677876"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878851"
 ---
 # <a name="create-purchasing-policies"></a>Pirkimo strategijų kūrimas
 
 [!include [banner](../../includes/banner.md)]
 
-Šioje temoje pasakojama, kaip kurti pirkimo strategijas, kad lygiuotis su jūsų pirkimo verslo procesais. Prieš kurdami pirkimo strategijas turite nustatyti pirkimo strategijos parametrus. Galima kurti, modifikuoti ir nurašyti pirkimo strategiją, bet pirkimo strategijos negalima naikinti. Šią procedūrą paprastai atlieka pirkimo vadovas. Šią procedūrą galite atlikti demonstracinių duomenų įmonėje USMF arba su savo duomenimis.
+Šiame straipsnyje aprašoma, kaip sukurti pirkimo strategijas, siekiant suderinti su pirkimo verslo procesais. Prieš kurdami pirkimo strategijas turite nustatyti pirkimo strategijos parametrus. Galima kurti, modifikuoti ir nurašyti pirkimo strategiją, bet pirkimo strategijos negalima naikinti. Šią procedūrą paprastai atlieka pirkimo vadovas. Šią procedūrą galite atlikti demonstracinių duomenų įmonėje USMF arba su savo duomenimis.
 
 
 ## <a name="set-up-policy-parameters"></a>Strategijos parametrų nustatymas

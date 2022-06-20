@@ -1,6 +1,6 @@
 ---
 title: Indeksuojamos palūkanų normos nustatymas
-description: Šioje temoje paaiškinama, kaip nustatyti indeksuojamą palūkanų normą. Indekso tarifai reikalingi, jei jūsų organizacija sieja nuomos įmokų sumas su indeksų kursų rinkiniu.
+description: Šiame straipsnyje paaiškinama, kaip nustatyti indeksų tarifus. Indekso tarifai reikalingi, jei jūsų organizacija sieja nuomos įmokų sumas su indeksų kursų rinkiniu.
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: c6396b8c12520abb0e33cda713d5483f61610db4
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: e700c6c0c66b855a3e329302ac27681f4d0144a7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726528"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883393"
 ---
 # <a name="set-up-index-rates"></a>Indeksuojamos palūkanų normos nustatymas
 

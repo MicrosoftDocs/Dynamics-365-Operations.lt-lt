@@ -1,6 +1,6 @@
 ---
 title: Pašalintos arba nebenaudojamos funkcijos ankstesniuose leidimuose
-description: Šioje temoje aprašomos funkcijos, kurios buvo pašalintos arba kurias buvo numatyta pašalinti iš „Dynamics 365 for Finance and Operations“ ir ankstesnių leidimų.
+description: Šiame straipsnyje aprašomos priemonės, kurios buvo pašalintos arba suplanuotos pašalinti iš Dynamics 365 for Finance and Operations ir ankstesniuose leidimuose.
 author: sericks007
 ms.date: 02/16/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6dfe1cf9d3d67c6b65f64248d48a2e7420a47c93
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 2d8c79057c157f9f0244ea11ad5c3563dcdb21a5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8063242"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8866191"
 ---
 # <a name="removed-or-deprecated-features-in-previous-releases"></a>Pašalintos arba nebenaudojamos funkcijos ankstesniuose leidimuose
 
@@ -28,16 +28,16 @@ ms.locfileid: "8063242"
 
 
 > [!IMPORTANT]
-> Ši tema nebebus atnaujinta. Norėdami pamatyti dabartinį funkcijų, kurios buvo pašalintos arba nebenaudojamos iš „Finance and Operations“ programų, sąrašą, ieškokite **„Pašalintos arba nebenaudojamos funkcijos“** turinys, susijęs su jūsų naudojama programa.
+> Šis straipsnis nebenaujinamas. Norėdami matyti dabartinį funkcijų, kurios buvo pašalintos arba pasenusios iš finansų ir operacijų programėlių, sąrašą, ieškokite turinio "Pašalintos arba pasenusios funkcijos"**,** kuris susijęs su jūsų naudojama programa.
 
-Šioje temoje aprašomos funkcijos, kurios buvo pašalintos arba yra nebenaudojamos „Dynamics 365 for Finance and Operations“ ir ankstesniuose šio produkto leidimuose.
+Šiame straipsnyje aprašomos priemonės, kurios buvo pašalintos arba pasenusios Dynamics 365 for Finance and Operations iš ir ankstesnių to produkto leidimų.
 
 - *Pašalinta* funkcija nebėra įtraukta į produktą.
 - *Nebenaudojama* funkcija nebėra aktyviai tobulinama ir gali būti pašalinta iš būsimo naujinio.
 
 Šis sąrašas skirtas suteikti jums informacijos apie pašalintas ir nebenaudojamas funkcijas, kad galėtumėte geriau planuoti savo darbą. 
 
-Išsamią informaciją apie objektus „Finance and Operations“ programėlėse rasite [Techninės nuorodos ataskaitos](/dynamics/s-e/global/axtechrefrep_61). Galite palyginti skirtingas šių ataskaitų versijas, kad sužinotumėte apie objektus, kurie buvo pakeisti arba pašalinti kiekvienoje „Finance and Operations“ programų versijoje.
+Išsami informacija apie finansų ir operacijų programėlių objektus pateikta techninės [nuorodos ataskaitose](/dynamics/s-e/global/axtechrefrep_61). Galite palyginti skirtingas šių ataskaitų versijas ir sužinoti apie objektus, kurie buvo pakeisti ar pašalinti kiekvienoje finansų ir operacijų programėlių versijoje.
 
 ## <a name="finance-1007-with-platform-update-31"></a>„Finance“ 10.0.7 su „Platform update 31“
 
@@ -84,7 +84,7 @@ Išsamią informaciją apie objektus „Finance and Operations“ programėlėse
 | **Visuotinio diegimo parinktis**              | Visos |
 | **Būsena**                         | Nebenaudojama: iki 2020 m. spalio 1 d. planuojame nebepalaikyti metodo **setUtcString()**. Kūrėjai turėtų naudoti metodą **setUtcDateTime()**. |
 
-### <a name="blocklist-report-it--feature-reference-it-00001"></a>Blokavimo sąrašo ataskaita (IT) – funkcijos nuoroda IT-00001
+### <a name="blocklist-report-it--feature-reference-it-00001"></a>Blocklist ataskaita (IT) – priemonės nuorodos IT-00001
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
@@ -302,7 +302,7 @@ Klientai gali naudoti veiksmą **Eksportuoti**, pateiktą įdėtajame „SQL Ser
 | **Pakeitė kita funkcija?**   | Ateityje šis įspėjimas bus pakeistas į kompiliavimo klaidą. |
 | **Paveiktos produkto sritys**         | „Visual Studio“ kūrimo įrankiai |
 | **Visuotinio diegimo parinktis**              | Visi / Viskas |
-| **Būsena**                         | Nebenaudojama: įspėjimas yra kompiliavimo laiko klaida, kai atnaujinami „Finance and Operations“ programų 10.0.11 versijos platformos naujiniai. |
+| **Būsena**                         | Pasenusi: įspėjimas yra finansų ir operacijų programėlių 10.0.11 versijos platformos naujinimų kompiliavimo klaida. |
 
 #### <a name="complete-list"></a>Visas sąrašas
 Norėdami pasiekti visą nebenaudojamų API sąrašą, žr. [Metodų ir metaduomenų elementų nebenaudojimas](deprecation-deletion-apis.md).
@@ -889,7 +889,7 @@ Darbo eiga, skirta darbuotojų tikslų kūrimui valdyti, yra viena iš kelių da
 
 ### <a name="aif-axd-and-axbc-integrations"></a>AIF, AxD ir AxBC integracijos
 
-Programos integravimo sistemoje (AIF) duomenimis su išorinėmis sistemomis galima keistis naudojant verslo logiką, rodomą kaip paslaugas. „Dynamics AX“ apima paslaugas, paremtas dokumentais ir „.NET Business Connector“ (AxBC). Dokumentas sukuriamas naudojant XML. XML yra antraštės informacija, kuri pridedama sukurti *pranešimui*, kuris gali būti perkeliamas į „Dynamics AX“ arba iš jos. Dokumentų pavyzdžiai apima pardavimo užsakymus ir pirkimo užsakymus. Tačiau dokumentas gali atstoti beveik visus objektus, pvz., klientą. Paslaugos, paremtos dokumentais, naudoja **Axd \<Document\>** klases.
+Programos integravimo sistemoje (AIF) duomenimis su išorinėmis sistemomis galima keistis naudojant verslo logiką, rodomą kaip paslaugas. Dynamics AX apima paslaugas, kurios remiasi dokumentais ir .NET Business Connector (AxBC). Dokumentas sukuriamas naudojant XML. XML yra antraštės informacija, kuri pridedama sukurti *pranešimui*, kuris gali būti perkeliamas į „Dynamics AX“ arba iš jos. Dokumentų pavyzdžiai apima pardavimo užsakymus ir pirkimo užsakymus. Tačiau dokumentas gali atstoti beveik visus objektus, pvz., klientą. Paslaugos, paremtos dokumentais, naudoja **Axd \<Document\>** klases.
 
 |  &nbsp; | &nbsp; |
 |------------|--------------------|

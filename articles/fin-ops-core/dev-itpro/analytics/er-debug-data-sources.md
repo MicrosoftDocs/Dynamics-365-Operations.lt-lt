@@ -1,6 +1,6 @@
 ---
 title: Įvykdyto ER formato duomenų šaltinių derinimas duomenų srautams ir transformacijai analizuoti
-description: Šioje temoje paaiškinama, kaip galima derinti įvykdyto ER formato duomenų šaltinius, siekiant geriau suprasti sukonfigūruotą duomenų srautą ir transformaciją.
+description: Šiame straipsnyje paaiškinama, kaip galima suderinti įvykdyto ER formato duomenų šaltinius, kad geriau suprastumėte sukonfigūruotą duomenų srautą ir transformaciją.
 author: NickSelin
 ms.date: 04/22/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 02aee8c6ec3b2720c2fcbb17f15791d88d688a34
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: 6fca177093caf42ad27b58eaa97e3f6997289eeb
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323783"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884234"
 ---
 # <a name="debug-data-sources-of-an-executed-er-format-to-analyze-data-flow-and-transformation"></a>Įvykdyto ER formato duomenų šaltinių derinimas duomenų srautams ir transformacijai analizuoti
 
@@ -34,7 +34,7 @@ Kartais sugeneruotos išvesties duomenys atrodo kitokie nei tokie patys duomenys
 
 Norėdami įjungti duomenų šaltinio derinimo funkciją, ER vartotojo parametruose nustatykite parinkties **Įgalinti duomenų derinimą formato vykdymo metu** reikšmę į **Taip**. Tada kol vykdote ER formatą siunčiamiems dokumentams generuoti, galite pradėti derinti duomenų šaltinį. Taip pat galite naudoti parinktį **Pradėti derinimą**, kad inicijuotumėte ER formato, sukonfigūruoto [ER operacijų kūrimo įrankyje](./tasks/er-format-configuration-2016-11.md#design-the-format-of-an-electronic-document), duomenų šaltinio derinimą.
 
-Šioje temoje pateikiamos gairės, kaip inicijuoti vykdomų ER formatų duomenų šaltinio derinimą. Joje aiškinama, kaip informacija gali padėti suprasti duomenų srautą ir duomenų transformacijas. Šios temos pavyzdžiuose naudojamas tiekėjo mokėjimų apdorojimo verslo procesas.
+Šiame straipsnyje pateikiamos įvykdytų ER formatų duomenų šaltinio derinimo inicijavimo gairės. Joje aiškinama, kaip informacija gali padėti suprasti duomenų srautą ir duomenų transformacijas. Šiame straipsnyje pateikti pavyzdžiai naudoja verslo procesą tiekėjų mokėjimams apdoroti.
 
 ## <a name="limitations"></a>Apribojimai
 
@@ -49,7 +49,7 @@ Duomenų šaltinio derintuvę galima naudoti norint pasiekti duomenis, esančius
 
 ## <a name="prerequisites"></a>Būtinieji komponentai
 
-- Norėdami atlikti šioje temoje pateiktus pavyzdžius, turite turėti prieigą prie vieno iš toliau nurodytų [vaidmenų](../sysadmin/tasks/assign-users-security-roles.md).
+- Norėdami užbaigti pavyzdžius šiame straipsnyje, turite turėti prieigą prie vieno iš šių [vaidmenų](../sysadmin/tasks/assign-users-security-roles.md):
 
     - Elektroninės ataskaitos kūrėjas
     - Elektroninės ataskaitos funkcijų konsultantas
@@ -57,12 +57,12 @@ Duomenų šaltinio derintuvę galima naudoti norint pasiekti duomenis, esančius
 
 - Įmonė turi būti nustatyta kaip **DEMF**.
 
-- Norėdami atsisiųsti „Microsoft“ ER sprendimo komponentus, kurių reikia tiekėjo mokėjimams apdoroti, atlikite šios temos [1 priede](#appendix1) nurodytus veiksmus.
-- Jei norite tiekėjo mokėjimo apdorojimui mokėtinas sumas parengti naudodami atsisiųstą ER sprendimą, atlikite šios temos [2 priede](#appendix2) nurodytus veiksmus.
+- Norėdami atsisiųsti " [Microsoft ER" sprendimo, kurio reikia norint apdoroti tiekėjo mokėjimus, komponentus, atlikite šio straipsnio 1](#appendix1) priede nurodytus veiksmus.
+- Norėdami paruošti mokėtinas sumas [tiekėjo mokėjimui apdoroti naudodami ER sprendimą, kurį atsisiųsite, atlikite šio straipsnio 2](#appendix2) priede nurodytus veiksmus.
 
 ## <a name="process-a-vendor-payment-to-get-a-payment-file"></a>Tiekėjo mokėjimo apdorojimas mokėjimo failui gauti
 
-1. Norėdami apdoroti tiekėjo mokėjimus, atlikite šios temos [3 priede](#appendix3) nurodytus veiksmus.
+1. Norėdami apdoroti tiekėjo [mokėjimus, atlikite šio straipsnio 3](#appendix3) priede nurodytus veiksmus.
 
     ![Vykdomas tiekėjo mokėjimo apdorojimas.](./media/er-data-debugger-process-payment.png)
 
@@ -89,7 +89,7 @@ Duomenų šaltinio derintuvę galima naudoti norint pasiekti duomenis, esančius
 
 ## <a name="process-a-vendor-payment-for-debugging"></a>Tiekėjo mokėjimą apdorojimas derinimui
 
-1. Norėdami apdoroti tiekėjo mokėjimus, atlikite šios temos [3 priede](#appendix3) nurodytus veiksmus.
+1. Norėdami apdoroti tiekėjo [mokėjimus, atlikite šio straipsnio 3](#appendix3) priede nurodytus veiksmus.
 2. Pranešimo lange pasirinkite **Taip**, kad patvirtintumėte, jog norite pertraukti tiekėjo mokėjimo apdorojimą ir vietoj to pradėti duomenų šaltinio derinimą puslapyje **Duomenų šaltinių derinimas**.
 
     ![Patvirtinimo pranešimo langas.](./media/er-data-debugger-start-debugging.png)
@@ -188,7 +188,7 @@ Jei apdorojamo tiekėjo elektroninio mokėjimo failui generuoti norite naudoti E
 
 ![ER mokėjimo formato atsisiuntimas puslapyje Konfigūracijos saugykla.](./media/er-data-debugger-import-from-repo.png)
 
-Kartu su pasirinktu ER formatu, kaip ER sprendimo **ISO20022 kredito pervedimas** dalis, į „Microsoft Dynamics 365 Finance“ egzempliorių turi būti automatiškai importuotos toliau nurodytos [konfigūracijos](general-electronic-reporting.md#Configuration).
+Be pasirinkto ER formato, [...](general-electronic-reporting.md#Configuration)Microsoft Dynamics šios konfigūracijos turi būti automatiškai importuotos į jūsų 365 **finansų egzempliorių, kaip ISO20022 kredito** pervedimo ER sprendimo dalį:
 
 - **Mokėjimo modelio** ER duomenų modelio konfigūravimas
 - **ISO20022 kredito pervedimo** ER formato konfigūracija

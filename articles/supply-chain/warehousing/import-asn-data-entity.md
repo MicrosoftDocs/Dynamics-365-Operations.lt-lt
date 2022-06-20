@@ -1,6 +1,6 @@
 ---
-title: Importuoti gaunamų ASN naudojant V3 duomenų objektą
-description: Šioje temoje paaiškinama, kaip valdyti gaunamų išplėstinių siuntimo pranešimų (ASN) importą naudojant gaunamų ASN duomenų objektą.
+title: Importuokite gaunamus ASN per V3 duomenų objektą
+description: Šiame straipsnyje paaiškinama, kaip valdyti gaunamų išplėstinių siuntimo pranešimų (ASN) importą naudojant gaunamų ASN duomenų objektą.
 author: GalynaFedorova
 ms.date: 05/11/2022
 ms.topic: article
@@ -11,14 +11,14 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2021-06-04
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 44ec0230236451a413d483b3e9f3ddc58b49a0b0
-ms.sourcegitcommit: 90ffd763d18f97654b9dbc9e3f71c998e6094c6b
+ms.openlocfilehash: 0ac45e070d0473547c48da1380377de3d4bf60bd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/11/2022
-ms.locfileid: "8740058"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907122"
 ---
-# <a name="import-inbound-asns-through-the-v3-data-entity"></a>Importuoti gaunamų ASN naudojant V3 duomenų objektą
+# <a name="import-inbound-asns-through-the-v3-data-entity"></a>Importuokite gaunamus ASN per V3 duomenų objektą
 
 [!include [banner](../../includes/banner.md)]
 
@@ -26,7 +26,7 @@ Išplėstiniai siuntimo pranešimai (ASN) praneša jums apie tiekėjo pristatymu
 
 ASN gali padėti sandėlio darbuotojams sužinoti, kada kas atvežama. Todėl jie gali pasiruošti. Be to, sandėlio darbuotojai gali naudoti ASN, kad siuntos informacija būtų suderinta su susijusiu pirkimo užsakymu, sukurtu anksčiau.
 
-Šioje temoje pateikiamas scenarijų rinkinys, kuris pavyzdžiais parodo, kaip dirbti su ASN failais.
+Šiame straipsnyje pateikite scenarijų, kurie parodyti pavyzdžiais, kaip dirbti su ASN failais, rinkinį.
 
 > [!IMPORTANT]
 > *Gaunamo ASN* importavimas taikomas tik toms prekėms, kurios yra įgalintos išplėstiniam sandėlio valdymui (WMS). Prieš gaudami ASN, sistemoje turi būti užregistruotas pirkimo užsakymas pagal tiekėją, kuris siunčia tą ASN.

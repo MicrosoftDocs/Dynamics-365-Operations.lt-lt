@@ -1,6 +1,6 @@
 ---
 title: Informacijos ieška naudojant peržvalgas
-description: Šioje temoje aprašomos šios naujos peržvalgos funkcijos ir pateikiami keli naudingi patarimai apie optimalų peržvalgų naudojimą sistemoje.
+description: Šiame straipsnyje jūs sužinosite apie peržvalgos funkcijas ir gausite keletą naudingų patarimų, kaip optimaliai naudotis peržvalgomis sistemoje.
 author: jasongre
 ms.date: 06/20/2017
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e7135487e5d87564163c643d1315c51231fa66de
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: ee309330c165dfb0b67f647afc3514d4c827dad1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069303"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901529"
 ---
 # <a name="find-information-by-using-lookups"></a>Informacijos ieška naudojant peržvalgas
 
@@ -28,7 +28,7 @@ ms.locfileid: "8069303"
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-Daugelyje laukų yra peržvalgos, kurias naudodami galite lengvai surasti tinkamą ar norimą reikšmę. Į peržvalgas buvo įtrauktos kelios patobulintos funkcijos, todėl šiuos valdiklius bus galima dažniau naudoti, o vartotojai dirbs našiau. Šioje temoje aprašomos šios naujos peržvalgos funkcijos ir pateikiami keli naudingi patarimai apie optimalų peržvalgų naudojimą sistemoje.
+Daugelyje laukų yra peržvalgos, kurias naudodami galite lengvai surasti tinkamą ar norimą reikšmę. Į peržvalgas buvo įtrauktos kelios patobulintos funkcijos, todėl šiuos valdiklius bus galima dažniau naudoti, o vartotojai dirbs našiau. Šiame straipsnyje jūs sužinosite apie šias naujas peržvalgos funkcijas ir gausite keletą naudingų patarimų, kaip optimaliai naudotis peržvalgomis sistemoje.
 
 ## <a name="responsive-lookups"></a>Reaguojančios peržvalgos
 

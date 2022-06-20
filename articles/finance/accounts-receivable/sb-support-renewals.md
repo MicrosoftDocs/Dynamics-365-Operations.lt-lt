@@ -1,6 +1,6 @@
 ---
 title: Palaikymas ir atnaujinimas
-description: Šioje temoje paaiškinama, kaip nustatyti ir naudoti pardavimo užsakymų palaikymo ir atnaujinimo procesą kuriant prekių atnaujinimo grafiką.
+description: Šiame straipsnyje paaiškinama, kaip nustatyti ir naudoti pardavimo užsakymų palaikymo ir atnaujinimo procesą, siekiant sukurti prekių atnaujinimo grafiką.
 author: JodiChristiansen
 ms.date: 11/04/2021
 ms.topic: article
@@ -14,16 +14,16 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: 7de74f2b12e8e7201663ba78d936131b301b1ff9
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: b40e0136883d909755480a3ce101627297bd9ffb
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8685776"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896527"
 ---
 # <a name="support-and-renewals"></a>Palaikymas ir atnaujinimas 
 
-Šioje temoje paaiškinama, kaip įvesti palaikymo prekes arba atnaujinti prekes, kai įvedate pardavimo užsakymus. Šios prekės naudojamos apskaičiuojant pradinės palaikymo sutarties išlaidų sumą ir (arba) atnaujinimo sumą, kuri naudojama kuriant sąskaitų pateikimo grafiką abonemento sąskaitose. Pavyzdžiui, jūsų įmonė parduoda serverį klientui, o jūs siūlote pirmųjų metų duomenų atsarginės kopijos abonementą ir pasirinktį atnaujinti tą abonementą kasmet. Palaikymo *prekė yra* pirmųjų metų abonementas, o atnaujinimo *prekė yra* kiekvieno paskesnio metų atnaujinimas.
+Šiame straipsnyje paaiškinama, kaip įvesti palaikymo prekes arba atnaujinti prekes, kai įvedate pardavimo užsakymus. Šios prekės naudojamos apskaičiuojant pradinės palaikymo sutarties išlaidų sumą ir (arba) atnaujinimo sumą, kuri naudojama kuriant sąskaitų pateikimo grafiką abonemento sąskaitose. Pavyzdžiui, jūsų įmonė parduoda serverį klientui, o jūs siūlote pirmųjų metų duomenų atsarginės kopijos abonementą ir pasirinktį atnaujinti tą abonementą kasmet. Palaikymo *prekė yra* pirmųjų metų abonementas, o atnaujinimo *prekė yra* kiekvieno paskesnio metų atnaujinimas.
 
 Galima įvesti palaikymo sutarties, atnaujinimo sutarties arba abiejų informacijos informaciją. Kai įvedate palaikymo sutarties informaciją, į pardavimo užsakymą įtraukiama tik palaikymo prekė. Kai įvedate atnaujinimo sutarties informaciją, atnaujinimo prekė naudojama sąskaitų pateikimo grafikui sukurti.
 

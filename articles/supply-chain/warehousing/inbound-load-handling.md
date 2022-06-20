@@ -1,6 +1,6 @@
 ---
 title: Pirkimo užsakymų gaunamų krovinių sandėlio tvarkymas
-description: Šioje temoje aprašomas pirkimo užsakymų gaunamų krovinių sandėlio tvarkymo procesas.
+description: Šiame straipsnyje aprašomas sandėlio apdorojimo procesas, skirtas pirkimo užsakymų gaunamo krovinio kroviniams.
 author: Mirzaab
 ms.date: 03/21/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 464d49f4e096fdd4fe47f73efc253c97200f4de3
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: 100b1972801f117560a5caf338a1ac640737ccdf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7778064"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855938"
 ---
 # <a name="warehouse-handling-of-inbound-loads-for-purchase-orders"></a>Pirkimo užsakymų gaunamų krovinių sandėlio tvarkymas
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje aprašomas pirkimo užsakymų gaunamų krovinių sandėlio tvarkymo procesas.
+Šiame straipsnyje aprašomas sandėlio apdorojimo procesas, skirtas pirkimo užsakymų gaunamo krovinio kroviniams.
 
 Kiekvienam gaunamam kroviniui jūsų sistemoje jau turėtų būti susijęs pardavimo užsakymas, joje taip pat gali būti susijusio krovinio specifikacija ir (arba) transportavimo planas. Norėdami gauti daugiau informacijos apie tai, kaip kurti ir valdyti gaunamus krovinius, žr. [Verslo procesai: gaunamų krovinių transportavimo planavimas](/dynamicsax-2012/appuser-itpro/business-process-planning-transportation-for-inbound-loads).
 
@@ -54,7 +54,7 @@ Toliau pateiktame paveikslėlyje parodytas įprastas gaunamų krovinių, kurie a
 
     Užregistravus gauto krovinio kiekius, šie produkto gavimo kiekiai turi būti užregistruoti įmonės atsargų didžiojoje knygoje, kad būtų įrašytas faktinis atsargų padidėjimas. Norėdami gauti daugiau informacijos, žr. [Produkto gavimas pagal pirkimo užsakymus – produkto gavimas](../procurement/product-receipt-against-purchase-orders.md#product-receipt) ir [Registruoti užregistruotus produkto kiekius pagal pirkimo užsakymus](#post-registered-quantities).
 
-## <a name="register-item-quantities-that-arrive-on-an-inbound-load"></a><a name="register-item-quantities-arriving"></a> Užregistruokite prekių, atvykusių su gaunamu kroviniu, kiekius
+## <a name="register-item-quantities-that-arrive-on-an-inbound-load"></a><a name="register-item-quantities-arriving"></a>Užregistruokite prekių, atvykusių su gaunamu kroviniu, kiekius
 
 „Microsoft Dynamics 365 Supply Chain Management“ palaiko kelis būdus, kuriais galima užregistruoti užsakytų produktų gavimą. Todėl galite konfigūruoti sistemą, kad ji atitiktų specifinius jūsų verslo poreikius. Šiame skyriuje aprašoma, kaip užregistruoti gaunamų prekių kiekius naudojant mobilųjį įrenginį, kai sistemoje įjungtas patobulinto sandėliavimo valdymo funkcija. Tačiau yra alternatyvus srautas, pagrįstas prekių gavimo žurnalo, o ne mobiliojo įrenginio naudojimu. Daugiau informacijos apie tokį srautą žr. [Prekių, kurioms įjungta patobulinto sandėliavimo funkcija, registravimas naudojant prekių gavimo žurnalą](tasks/register-items-advanced-warehousing.md).
 
@@ -113,7 +113,7 @@ Sandėlių darbuotojai gali atlikti dalinio krovinio kiekio gavimo registravimą
 
 Jei atvykus kroviniui prekių kiekis yra mažesnis nei nurodyta krovinio įraše, krovinius priimantis sandėlio personalas gali tiesiogiai kliento sistemoje patvirtinti šį neatitikimą sumažindamas krovinio eilutėje nurodytą kiekį, kad jis atitiktų faktinį pristatytą ir užregistruotą kiekį.
 
-#### <a name="load-over-receiving"></a><a name="load-over-receiving"></a> Per didelio krovinio gavimas
+#### <a name="load-over-receiving"></a><a name="load-over-receiving"></a>Per didelio krovinio gavimas
 
 Perviršis yra tada, kai krovinys atvyksta, o prekių kiekiai viršija numatytą krovinio eilutės kiekį. Krovinio registravimo metu galite kontroliuoti, ar priimti perviršį ir, jei perviršis priimamas, kokio dydžio jis gali būti.
 
@@ -147,7 +147,7 @@ Kai sandėlio darbuotojas užbaigia padėjimo darbą, sistema įrašo ir seka re
 | Darbo atsargų operacijos, su kuriomis susieti kiekiai buvo padėti | Atnaujinami laukai **Gavimas** ir **Vieta** bei kiti susiję laukai, kad atspindėtų perkėlimą iš gavimo vietos į saugojimo vietą. | Pirkimo užsakymo atsargų operacijos lauko **Gavimo būsena** reikšmė lieka _Užregistruota_. |
 | Sandėlio padėjimas | Lauko **Darbo būsena** reikšmė pakeičiama į _Uždaryta_. | |
 
-## <a name="post-registered-product-quantities-against-purchase-orders"></a><a name="post-registered-quantities"></a> Užregistruotų produktų kiekių registravimas pagal pirkimo užsakymus
+## <a name="post-registered-product-quantities-against-purchase-orders"></a><a name="post-registered-quantities"></a>Užregistruotų produktų kiekių registravimas pagal pirkimo užsakymus
 
 Po to, kai gauti produktų kiekiai yra užregistruojami sistemoje, jie tampa prieinami rezervavimui ryšium su pardavimo ir kitomis siuntimo bei vidinėmis operacijomis. Tačiau sistema dar nenaujina atsargų (tarpinių) sąskaitų. Šis atnaujinimas gali įvykti tik tada, kai operacijų komanda užregistruoja užregistruotus produktų gavimus.
 
@@ -209,7 +209,7 @@ Toliau pateiktoje lentelėje apibendrinamas nustatymo **Leisti kelis vieno krovi
 | Taip | Nėra naujinimų | _Gauta_, jei bendras užregistruotas krovinio kiekis yra lygus arba viršija krovinio kiekį | |
 | Taip | Nėra naujinimų | _Išsiųsta_ arba _Vykdoma_, jei bendras užregistruotas krovinio kiekis yra mažesnis už krovinio kiekį | |
 
-Po to, kai lauko **Krovinio būsena** reikšmė nustatoma kaip _Gauta_, tam kroviniui daugiau nebegalima atlikti produkto gavimo registravimų. Tačiau darbuotojas gali užregistruoti likusį užsakymo kiekį su gautu kroviniu, esant toliau nurodytoms sąlygoms. (Daugiau informacijos žr. ankstesniame šios temos skyriuje [Per didelio krovinio gavimas](#load-over-receiving).)
+Po to, kai lauko **Krovinio būsena** reikšmė nustatoma kaip _Gauta_, tam kroviniui daugiau nebegalima atlikti produkto gavimo registravimų. Tačiau darbuotojas gali užregistruoti likusį užsakymo kiekį su gautu kroviniu, esant toliau nurodytoms sąlygoms. (Daugiau informacijos ieškokite [Įkelti per gavimo skyrių](#load-over-receiving) anksčiau šiame straipsnyje.)
 
 - „Supply Chain Management“ versija yra senesnė nei 10.0.11 versija.
 - Funkcija _Krovinių kiekiai gauti per dideli_ yra įjungta, o mobiliojo įrenginio meniu elemento laukas **Krovinio eilutės kiekis pagal gavimą**, skirtas krovinio prekės gavimo veiksmui, nustatytas į _Leisti_.
@@ -267,7 +267,7 @@ Norėdami peržiūrėti šiame skyriuje aprašytus pavyzdinius scenarijus, pirmi
 
 1. Atidarykite parinkties **Funkcijos valdymas** darbo sritį. (Norėdami gauti išsamią informaciją apie tai, kaip rasti ir naudoti šią darbo sritį, žr. [Funkcijų valdymo apžvalga](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).)
 
-1. Įsitikinkite, kad _įjungta funkcija Susieti pirkimo užsakymo atsargų operacijas su įkėlimo_ funkcija. Kaip tiekimo grandinės valdymo versija 10.0.21, ši funkcija yra privaloma, todėl ji yra įjungta pagal numatytuosius nustatymus ir negali būti išjungtas dar kartą. Tačiau funkcija vis dar pateikiama [funkcijų valdyme](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) tokiu būdu:
+1. Įsitikinkite, _kad pirkimo užsakymo atsargų operacijų susiejimo su_ krovinio funkcija įjungta. Kaip ir tiekimo grandinės valdymo versija 10.0.21, ši funkcija yra privaloma, todėl ji įjungta pagal numatytuosius nustatymus ir jos negalima išjungti dar kartą. Tačiau priemonė vis dar įtraukta į [funkcijų valdymą](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) tokiu būdu:
 
     - **Modulis:** _sandėlio valdymas_
     - **Funkcijos pavadinimas:** _Susieti pirkimo užsakymo atsargų operacijas su kroviniu_

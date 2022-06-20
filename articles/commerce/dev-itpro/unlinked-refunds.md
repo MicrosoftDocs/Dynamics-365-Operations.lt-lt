@@ -1,6 +1,6 @@
 ---
 title: Apdoroti atsietus grąžinimus su Dynamics 365 Commerce Adyen mokėjimo jungtimi
-description: Šiame skyriuje aprašoma, kaip veikia atsieti grąžinimai, kai naudojama Microsoft Dynamics 365 Adyen mokėjimo jungtis.
+description: Šiame straipsnyje aprašoma, kaip veikia atsieti grąžinimai, Microsoft Dynamics kai naudojama "365" mokėjimo jungtis Adyen.
 author: BrianShook
 ms.date: 10/07/2021
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgri
 ms.search.region: Global
 ms.author: BrShoo
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: c137dcf7d35031a293c88d8c4f5dc1e5f3d9e2f9
-ms.sourcegitcommit: a21a664cd35b95c8600c5af0aac588a64e892902
+ms.openlocfilehash: 634b30de7adbfb0c316fe14456581ea8eb89d070
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/11/2021
-ms.locfileid: "7623926"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885202"
 ---
 # <a name="process-unlinked-refunds-with-the-dynamics-365-commerce-payment-connector-for-adyen"></a>Apdoroti atsietus grąžinimus su Dynamics 365 Commerce Adyen mokėjimo jungtimi
 
 [!include [banner](../includes/banner.md)]
 
-Šiame skyriuje aprašoma, kaip veikia atsieti grąžinimai, kai naudojama [Microsoft Dynamics 365 Adyen mokėjimo jungtis](adyen-connector.md). Taip pat apžvelgiama galimybė apdoroti grąžinimą pagal naują mokėjimo metodą pardavimo vietoje (POS) arba skambučių centre.
+Šiame straipsnyje aprašoma, kaip veikia atsieti grąžinimai, [Microsoft Dynamics kai naudojama "365" mokėjimo jungtis Adyen](adyen-connector.md). Taip pat apžvelgiama galimybė apdoroti grąžinimą pagal naują mokėjimo metodą pardavimo vietoje (POS) arba skambučių centre.
 
 "Dynamics 365" mokėjimo jungtis, skirta Adyen, palaiko galimybę apdoroti grąžinimus naudojant kitą mokėjimo būdą, nei buvo naudojama pradinės operacijos metu. Nors mes rekomenduojame naudoti [susietus grąžinimus](linked-refunds.md) siekiant apdoroti grąžinimą pagal pateiktą kilmės mokėjimo būdą, kai kuriuose scenarijuose reikalingas grąžinimas kitokiu metodu. Pavyzdžiui, pradinio mokėjimo metu naudota kortelė gali būti pasibaigusi arba būti pamesta, arba ją galbūt atšaukė vartotojas.
 

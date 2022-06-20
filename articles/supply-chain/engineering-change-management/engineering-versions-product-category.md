@@ -1,6 +1,6 @@
 ---
 title: Inžinerijos versijos ir inžinerijos produkto kategorijos
-description: Šioje temoje pateikta informacija apie inžinerijos versijų sąvoką. Inžinerijos versijos užtikrina, kad kitos produkto būsenos ir jo duomenys yra laikomi dabar ir aiškiai ir kad jos gali būti rodomos sistemoje.
+description: Šiame straipsnyje pateikiama informacija apie inžinerijos versijų sąvoką. Inžinerijos versijos užtikrina, kad kitos produkto būsenos ir jo duomenys yra laikomi dabar ir aiškiai ir kad jos gali būti rodomos sistemoje.
 author: t-benebo
 ms.date: 04/07/2022
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: a4d057c603e6592e491af7597e50fce2497860ec
-ms.sourcegitcommit: b96e0c70553bca9b3f5eb65105a52cb71d978a36
+ms.openlocfilehash: a98ead81a61ceac2ed721848847164f76e758f80
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/07/2022
-ms.locfileid: "8553368"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872071"
 ---
 # <a name="engineering-versions-and-engineering-product-categories"></a>Inžinerijos versijos ir inžinerijos produkto kategorijos
 
@@ -60,7 +60,7 @@ Atminkite, kad inžinerijos produktas gali būti tik viename inžinerijos keitim
 
 ## <a name="track-versions-in-transactions"></a>Sekti versijas perlaidose
 
-Jums naudojant inžinerijos keitimo valdymą, jūsų produkto pagrindiniai duomenys visada apima vieną ar daugiau inžinerijos versijų. Jūsų inžinerijos produktų nustatyme, galite rinktis, ar inžinerijos versija yra taip pat *logistinių perlaidų* dalis. (Dėl daugiau informacijos, žr. [Nustatyti inžinerijos produkto kategorijų](#product-category) skyrių toliau šioje temoje.) Jei logistikos poveikis yra svarbus, jis skiriasi pagal produktą ir priklausomai nuo bendrovės. Kartais yra naudojama tik naujausia produkto versija. Dėl to, jums pristatant naują versiją, ankstesnė versija nebegali būti naudojama. Kitais atvejais, ankstesnė versija yra būtina logistinėse perlaidose siekiant įveikti tolesnius iššūkius:
+Jums naudojant inžinerijos keitimo valdymą, jūsų produkto pagrindiniai duomenys visada apima vieną ar daugiau inžinerijos versijų. Jūsų inžinerijos produktų nustatyme, galite rinktis, ar inžinerijos versija yra taip pat *logistinių perlaidų* dalis. (Daugiau informacijos ieškokite [Vėliau šiame straipsnyje nustatyti inžinerijos](#product-category) produktų kategorijų skyrių.) Jei logistinis poveikis yra svarbus, jis produkto ir įmonės atveju skiriasi. Kartais yra naudojama tik naujausia produkto versija. Dėl to, jums pristatant naują versiją, ankstesnė versija nebegali būti naudojama. Kitais atvejais, ankstesnė versija yra būtina logistinėse perlaidose siekiant įveikti tolesnius iššūkius:
 
 - Logistikos skyrius turi išsiųsti du vienetus produkto klientui. Tokiu atveju, turite nuspręsti, ar norite ar leisti siųsti dvi versijas.
 - Vėliau suprantama, kad problema įvyko ir ji susijusi su konkrečiu keitimu. Tokiu atveju, gali būti naudinga nuspręsti tiksliai, kuri versija buvo išsiųsta kuriame užsakyme.
@@ -118,7 +118,7 @@ Nustatykite tolesnius laukelius **Išsamios informacijos** „FastTab“ inžine
 | Produkto dimensijų grupė | Nustatymai **Sekti versijas perlaidose** nustatymai padeda jums parinkti dimensijos grupę. Jei nustatėte, kad norite sekti versijas perlaidose, produkto dimensijos grupės, kuriose *versija* dimensija naudojama bus rodomos. Kitu atveju, tik produkto dimensijos grupės, kai *versija* dimensija nėra naudojama, bus rodomos. |
 | Produkto ciklo būsena kūrimo metu | Nustatykite numatytąjį produkto gyvavimo ciklo būseną, kurią inžinerijos produktas turi turėti, kai tik bus sukurtas. Dėl daugiau informacijos, žr. [Produkto gyvavimo ciklo būsenos ir perlaidos](product-lifecycle-state-transactions.md). |
 | Versijos numerio taisyklė | Pasirinkite versijos numerio taisyklę, taikomą kategorijai:<ul><li>**Rankinė** – Pasirenkate versijos numerį kiekvienai naujai versijai.</li><li>**Automatinė** – Sistema nustato versijos numerį pagal jūsų nustatytą formatą. Jums nustačius formatą, naudokite skaičiaus ženklą (\#) norėdami parodyti skaitmenį ar bet kurį kitą ženklą nuolatinei vertei. Pavyzdžiui, jei nurodote formatą kaip *V-\#\#*, pirmoji versija bus "V-01," antroji versija bus "V-02“ ir taip toliau.</li><li>**Sąrašas** – Sistema paima kitą skaičių iš nustatyto sąrašo tinkintoms vertėms, kurį nustatėte.</li></ul> |
-| Vykdyti galiojimo taisykles | Pasirinkite, ar efektyvumo datos inžinerinėms versijoms turi būti nuolatinės ar gali būti įtrūkimų ir persidengimų. Šie nustatymai veikia jūsų naudojamą būdą **Galioja nuo** iki **Galioja iki** laukelius kiekvienai inžinerijos versijai, kuriai taikoma kategorija.<ul><li>Jei ši parinktis nustatyta į *Taip*, vertė **Galiojanti nuo** turi būti nurodyta kiekvienai versijai ir nei persidengimams, nei pertraukoms, kurios neleidžiamos tarp versijų. Duomenų intervalas kiekvienai inžinerijos versijai yra sujungtas tiesiai su ankstesniu ir kitomis inžinerijos versijomis, jei jie yra. Šiuo scenarijumi, naujausia versija visada yra naudojama, o senesnės daugiau nebenaudojamos.</li><li>Jei ši parinktis nustatyta į **Ne**, nėra daugiau jokių apribojimų efektyvumo datos laukeliams inžinerinėje versijoje, persidengimai ir pertraukos yra leidžiami. Tokiu scenarijumi, kelios versijos gali būti įjungtos tuo pat metu ir galite dirbti su bet kuria galiojančia versija.</li></ul><p>Ši parinktis taip pat veikia KS ir maršrutus, kurie yra susieti su produkto versija. Dėl daugiau informacijos, žr. [Sujungti KS ir maršrutus su inžinerijos versijomis](#boms-routes) tolesniame skyriuje šioje temoje.</p> |
+| Vykdyti galiojimo taisykles | Pasirinkite, ar efektyvumo datos inžinerinėms versijoms turi būti nuolatinės ar gali būti įtrūkimų ir persidengimų. Šie nustatymai veikia jūsų naudojamą būdą **Galioja nuo** iki **Galioja iki** laukelius kiekvienai inžinerijos versijai, kuriai taikoma kategorija.<ul><li>Jei ši parinktis nustatyta į *Taip*, vertė **Galiojanti nuo** turi būti nurodyta kiekvienai versijai ir nei persidengimams, nei pertraukoms, kurios neleidžiamos tarp versijų. Duomenų intervalas kiekvienai inžinerijos versijai yra sujungtas tiesiai su ankstesniu ir kitomis inžinerijos versijomis, jei jie yra. Šiuo scenarijumi, naujausia versija visada yra naudojama, o senesnės daugiau nebenaudojamos.</li><li>Jei ši parinktis nustatyta į **Ne**, nėra daugiau jokių apribojimų efektyvumo datos laukeliams inžinerinėje versijoje, persidengimai ir pertraukos yra leidžiami. Tokiu scenarijumi, kelios versijos gali būti įjungtos tuo pat metu ir galite dirbti su bet kuria galiojančia versija.</li></ul><p>Ši parinktis taip pat veikia KS ir maršrutus, kurie yra susieti su produkto versija. Norėdami gauti daugiau informacijos, toliau šiame straipsnyje [žr. skyrių Sujungti KS ir maršrutus](#boms-routes) su inžinerijos versijomis.</p> |
 | Naudoti skaičių taisyklės nomenklatūrą | Nustatykite šią parinktį į *Taip* norėdami įjungti taisyklės produkto skaičiaus nustatymui naudojant skaičių seką, inžinerinių atributų pavadinimus ir vertes bei teksto konstantas kaip segmentus. Norėdami sukurti ir keisti taisykles, rinkitės **Redaguoti** mygtuką. |
 | Naudoti pavadinimų taisyklės nomenklatūrą | Nustatykite šią parinktį į *Taip* norėdami nustatytu pavadinimą naudojant inžinerinių atributų pavadinimus ir inžinerinių atributų vertes bei teksto konstantas kaip segmentus. Norėdami sukurti ir keisti taisykles, rinkitės **Redaguoti** mygtuką. |
 | Naudoti aprašymo taisyklės nomenklatūrą | Nustatykite šią parinktį į *Taip* norėdami nustatyti aprašą naudojant inžinerinių atributų pavadinimus ir inžinerinių atributų vertes bei teksto konstantas kaip segmentus. Norėdami sukurti ir keisti taisykles, rinkitės **Redaguoti** mygtuką. |

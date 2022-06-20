@@ -1,6 +1,6 @@
 ---
 title: ER konfigūracijų priklausomybės nuo kitų komponentų apibrėžimas
-description: Šioje temoje aprašoma, kaip sukurti elektroninių ataskaitų (ER) konfigūraciją ir nurodyti jos priklausomybę nuo kitų programinės įrangos komponentų.
+description: Šiame straipsnyje aprašoma, kaip sukurti elektroninių ataskaitų (ER) konfigūraciją ir nurodyti jos priklausomybę nuo kitų programinės įrangos komponentų.
 author: NickSelin
 ms.date: 07/23/2021
 ms.topic: business-process
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2901092938dae5ae14480716eeeb2b0386848332e91ad388ce5d34437f8492ba
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 525e9be1655bdf0c0328ec53509ab1966abd7bde
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6717599"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883574"
 ---
 # <a name="define-the-dependency-of-er-configurations-on-other-components"></a>ER konfigūracijų priklausomybės nuo kitų komponentų apibrėžimas
 
@@ -46,7 +46,7 @@ Norėdami atlikti šiuos veiksmus, turite užbaigti veiksmus užduočių vedlyje
 7. Pasirinkite Microsoft Dynamics 365 for Operations (1611).
 8. Lauke Versija įrašykite „[7.1.1541.3036,8)“.
     * [7.1.1541.3036,8)  
-    * Įvedamos priklausomybės įvertinamos atsisiunčiant šią konfigūraciją iš ER saugyklos. Ši konfigūracijos versija bus atsisiųsta iš ER saugyklos, kai „Duomenų pavyzdžio modelio“ 1 versijos konfigūracija jau bus reikiamoje vietoje arba iš anksto atsisiųsta. Jei ji atsisiųsta iš anksto, ji turi būti baigta naudojant „Finance and Operations“ 7.1.1541.3036 arba naujesnę versiją, tačiau ji negali būti naujesnės nei 8 pagrindinės versijos.   
+    * Įvedamos priklausomybės įvertinamos atsisiunčiant šią konfigūraciją iš ER saugyklos. Ši konfigūracijos versija bus atsisiųsta iš ER saugyklos, kai „Duomenų pavyzdžio modelio“ 1 versijos konfigūracija jau bus reikiamoje vietoje arba iš anksto atsisiųsta. Jei jis atsisiųstas iš anksto, jis turi būti įdiegtas į finansų ir operacijų versiją 7.1.1541.3036 arba vėlesnę versiją, bet neturi viršyti 8 pagrindinės versijos.   
 9. Spustelėkite Įrašyti.
 10. Uždarykite puslapį.
 11. Spustelėkite keisti būseną.
@@ -136,7 +136,7 @@ Mes panaikinsime iš sistemos sukurtas konfigūracijas ir vėl atsisiųsime jas 
 25. Eikite į Organizacijos administravimas > Elektroninės ataskaitos > Konfigūracijos.
 26. Medyje išplėskite „Duomenų pavyzdžio modelis“.
     * Atkreipkite dėmesį, kad modelio „Susiejimo pavyzdys“ susiejimo konfigūracija buvo atsisiųsta kartu su pasirinkta duomenų modelio konfigūracija. Du failai atsisiunčiami kartu, kadangi „Susiejimo pavyzdys“ apibrėžtas kaip pasirinkto duomenų modelio įgyvendinimas, ir todėl, kad jis taikomas programoms. Konfigūracija „Susiejimo pavyzdys (alternatyvus)“ dar neatsisiųsta, nes reikiamos programos versijos sąlyga nėra patenkinta.   
-    * Jei prisijungiate prie „Finance and Operations“, registruojate tą patį teikėją, naudojate prieigą prie to paties LCS projekto ir atsisiunčiate tą pačią duomenų modelio konfigūraciją, bus atsisiųsta konfigūracija „Susiejimo pavyzdys (alternatyvus)“, o konfigūracija „Susiejimo pavyzdys“ bus praleista.  
+    * Jei prisiregistruosite prie finansų ir operacijų, užregistruokite tą patį teikėją, turėsite prieigą prie to paties LCS projekto ir parsisiuntus tą pačią duomenų modelio konfigūraciją, bus atsisiųsta konfigūracija "Pavyzdžio susiejimas (alternatyvus),o "Pavyzdžio susiejimo" konfigūracija bus praleista.  
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 

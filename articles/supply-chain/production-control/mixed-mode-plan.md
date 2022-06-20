@@ -1,6 +1,6 @@
 ---
 title: 'Įvairių režimų planavimas: prekių surinkimo, apdirbamosios gamybos ir „lean“ tiekimo suderinimas'
-description: Šioje temoje pateikiama informacija apie mišriojo režimo planavimą.
+description: Šiame straipsnyje pateikiama informacija apie mišriojo režimo planavimą.
 author: johanhoffmann
 ms.date: 11/03/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a199d5ac7633aba894ffbc17db015100ae93d895
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 186dcdca9d6db5ca16d84f084c66700ddfe8bb5d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7566772"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857437"
 ---
 # <a name="mixed-mode-planning---combine-discrete-process-and-lean-sourcing"></a>Įvairių režimų planavimas: prekių surinkimo, apdirbamosios gamybos ir „lean“ tiekimo suderinimas
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje pateikiama informacija apie mišriojo režimo planavimą. Mišriojo režimo planavime galite modeliuoti savo tiekimo grandinę remdamiesi medžiagų srautu. „Dynamics 365 Supply Chain Management“ užtikrina, kad medžiagų srautas atitiktų jūsų modelius, nepriklausomai nuo pasirinktos tiekimo strategijos („kanban“, gamybos užsakymai, paketiniai užsakymai arba perkėlimo užsakymai). 
+Šiame straipsnyje pateikiama informacija apie mišriojo režimo planavimą. Mišriojo režimo planavime galite modeliuoti savo tiekimo grandinę remdamiesi medžiagų srautu. „Dynamics 365 Supply Chain Management“ užtikrina, kad medžiagų srautas atitiktų jūsų modelius, nepriklausomai nuo pasirinktos tiekimo strategijos („kanban“, gamybos užsakymai, paketiniai užsakymai arba perkėlimo užsakymai). 
 
 Neatsižvelgdami į produkto struktūrą galite pasirinkti bendrąją produkto tiekimo strategiją.  
 

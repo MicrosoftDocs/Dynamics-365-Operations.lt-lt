@@ -1,6 +1,6 @@
 ---
 title: Kokybės patikra
-description: Šioje temoje pateikiama informacija apie kokybės tikrinimo funkciją. Ši funkcija leidžia sandėlio darbuotojams atlikti greitą vietos kokybės tikrinimą, jiems gaunant prekes vidaus doko vietoje.
+description: Šiame straipsnyje pateikiama informacija apie kokybės tikrinimo funkciją. Ši funkcija leidžia sandėlio darbuotojams atlikti greitą vietos kokybės tikrinimą, jiems gaunant prekes vidaus doko vietoje.
 author: Mirzaab
 ms.date: 07/16/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: c5a4b380529ca8cb9c3474b363c7f9ba4220ff2b
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: ceb01205edc269690fda306bc90f465dbccc563b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677988"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855063"
 ---
 # <a name="quality-check"></a>Kokybės patikra
 
@@ -41,11 +41,11 @@ Naudojant šią funkciją atvykimo ir kokybės kontrolė vyksta tokiu būdu:
 
 ## <a name="turn-the-quality-check-feature-on-or-off"></a>Įjungti arba išjungti kokybės tikrinimo funkciją
 
-Norint naudotis šioje temoje aprašytomis funkcijomis, *jūsų* sistemoje turi būti įjungta kokybės tikrinimo funkcija. Kaip ir tiekimo grandinės valdymas 10.0.25 ši funkcija yra privaloma ir jos išjungti negalima. Jei naudojate senesnę nei 10.0.25 versiją, *·*[tada](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) administratoriai gali įjungti arba išjungti šią funkciją ieškodami kokybės tikrinimo funkcijos funkcijų valdymo darbo srityje.
+Norint naudoti šiame straipsnyje aprašytas funkcijas, *jūsų* sistemoje turi būti įjungta kokybės tikrinimo funkcija. Kaip ir tiekimo grandinės valdymas 10.0.25 ši funkcija yra privaloma ir jos išjungti negalima. Jei naudojate senesnę nei 10.0.25 versiją, *·*[tada](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) administratoriai gali įjungti arba išjungti šią funkciją ieškodami kokybės tikrinimo funkcijos funkcijų valdymo darbo srityje.
 
 ## <a name="set-up-the-feature-for-the-example-scenario"></a>Nustatykite funkciją pavyzdiniam scenarijui
 
-Šis skyrius aprašo gaires ir pavyzdį, kuris rodo, kaip nustatyti *Kokybės tikrinimo* funkciją ir paruošti pavyzdinius duomenis pavyzdiniam scenarijui, kuris pateiktas vėliau šiame skyriuje.
+Šiame skyriuje pateikiamos gairės ir pavyzdys, kuriame *parodyta*, kaip nustatyti kokybės tikrinimo priemonę ir paruošti pavyzdinio scenarijaus, kuris pateikiamas toliau šiame straipsnyje, duomenis.
 
 ### <a name="make-sample-data-available"></a>Įgalinkite duomenų pavyzdį
 
@@ -270,7 +270,7 @@ Konfigūruokite meniu elementą taip, kad mobilsu prietaisas galėtų atlikti **
 
 ## <a name="example-scenario"></a><a name="example-scenario"></a>Pavyzdinis scenarijus
 
-Po to, kai atliksite visus anksčiau aprašytus pavyzdžio duomenis esančius ir nustatytus, galite dirbti su šiuo scenarijumis tam, kad bandytumėte *Kokybės tikrinimo* funkciją. Šiame scenarijuje rodomos vertės apima tai, kad jūs dirbate su standartiniais demonstraciniais duomenimis, kuriuos pasirinkote **USMF** teisiniame subjekte ir tai, kad rengiate pavyzdžio įrašus, kurie yra aprašyti anksčiau šiame skyriuje. Scenarijus taip pat naudingas kaip pavyzdys rodantis, kaip funkcija gali būti naudojama gamybos parametruose.
+Po to, kai atliksite visus anksčiau aprašytus pavyzdžio duomenis esančius ir nustatytus, galite dirbti su šiuo scenarijumis tam, kad bandytumėte *Kokybės tikrinimo* funkciją. Vertės, rodomos šiame scenarijuje, tarkime, kad dirbate su standartiniais demonstraciniai duomenimis, **kuriuos pasirinkote USMF** juridinį subjektą ir paruošiote anksčiau šiame straipsnyje aprašytų pavyzdinių įrašų pavyzdžius. Scenarijus taip pat naudingas kaip pavyzdys rodantis, kaip funkcija gali būti naudojama gamybos parametruose.
 
 ### <a name="create-a-purchase-order"></a>Pirkimo užsakymo kūrimas
 
@@ -357,7 +357,7 @@ Po to, kai įsigijimo užsakymas buvo sukurtas, jis gali būti gaunamas naudojan
 
 Dabar baigėte kokybės tikrinimą ir sukūrėte kokybės užsakymą atsisakytam padėklui. Tam, kad peržiūrėtumėte sukurtą užsakymą, eikite į **Atsargų valymdas \> Periodinės užduotys \> Kokybės valdymas \> Kokybės užsakymai**.
 
-Kokybės užsakymo testavimas dabar gali būti pradėtas. Kokybės testavimas nėra aptariamas šioje temoje.
+Kokybės užsakymo testavimas dabar gali būti pradėtas. Šiame straipsnyje nėra kokybės tikrinimo.
 
 Dėl išsamesnės informacijos apie kokybės valdymą, žr. [Kokybės valdymo peržiūra](../inventory/enable-quality-management.md)
 

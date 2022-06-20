@@ -1,6 +1,6 @@
 ---
 title: Fiktyvios prekės
-description: Šioje temoje aprašoma, kaip KS eilutėms ir formulei galima naudotiphantom eilutės tipą Dynamics 365 Supply Chain Management.
+description: Šiame straipsnyje aprašoma, kaip naudojant KS eilutes ir formulę galima naudotiphantom eilutės tipą Dynamics 365 Supply Chain Management.
 author: johanhoffmann
 ms.date: 05/05/2022
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2022-05-05
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 5c9768381d35709611e4bec3d2b7793a4d896b34
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 64139873216decd8ecb2fcaf1f284e726c53c332
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713253"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893329"
 ---
 # <a name="phantom-items"></a>Fiktyvios prekės
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje aprašoma, išsamiai, kaip eilutės tipą Fiktyvi galima naudoti komplektavimo specifikacijos (KS) ir formulės eilutėms.
+Šiame straipsnyje išsamiai aprašoma, kaip KS ir formulės eilutėse gali būti naudojamas vienišos eilutės tipas.
 
 1 pav. yra produkto H KS, o F ir G dalys– produktų H ir F dalies maršruto lapas.
 
@@ -55,7 +55,7 @@ Perėjimą nuo inžinerinės KS prie gamybos KS galima atlikti naudojant fiktyvi
 Phantom eilutės tipas gali būti naudojamas kelių lygių KS struktūrose, kaip parodyta 3 pav. 3 pav. yra G produkto KS, o (b) yra E ir F dalių ir produkto G maršruto lapas.
 
 ![3 pav.: inžinerijos KS dalis G.](media/product-G.png)
-*3 pav.: inžinerijos KS dalis G*
+*3 pav.: gamybos KS dalis G*
 
 4 pav. rodo gautą gamybos KS ir maršruto lapą, jei KS eilutės E ir F dalims sukonfigūruotos taip, kad eilutės tipas būtų fiktyvus. 4 pav. yra G produkto KS, o (b) yra produkto G maršruto lapas.
 

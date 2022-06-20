@@ -1,6 +1,6 @@
 ---
 title: Kas naujo arba pakeista Dynamics 365 Human Resources 2021 m. lapkričio 19 d.
-description: Šioje temoje aprašomos priemonės, kurios yra naujos arba pakeistos atskirose 2021 m. lapkričio 19 d. Microsoft Dynamics 365 Human Resources for November 19.
+description: Šiame straipsnyje aprašomos priemonės, kurios yra naujos arba pakeistos atskirose 2021 m. lapkričio 19 d. Microsoft Dynamics 365 Human Resources for November 19.
 author: marcelbf
 ms.date: 12/03/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-12-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f28057c370b27dbdad4bfe1104e9289f7df65621
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: d3e08432a4ce4d73cd67ad839191abe9f6e691a6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8691952"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8886079"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-november-19-2021"></a>Kas naujo arba pakeista Dynamics 365 Human Resources 2021 m. lapkričio 19 d.
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Šioje temoje aprašomos naujos, pasikeitusios ar netrukus pasirodysiančios „Microsoft Dynamics 365 Human Resources“ funkcijos.
+Šiame straipsnyje aprašomos priemonės, kurios yra naujos, pakeistos arba netrukus programoje "Microsoft"Dynamics 365 Human Resources.
 
 Daugiau informacijos apie mūsų atnaujinimo procesą ir grafiką žr. [Atnaujinimo procesas](hr-admin-setup-update-process.md).
 
@@ -40,7 +40,7 @@ Daugiau informacijos apie naujas funkcijas ir numatomas bendras užimtumo datas 
 Toliau nurodyti klaidų ištaisymai įtraukti į šį leidimą.
 
 > [!NOTE]
-> Siekiame kuo greičiau pateikti jums šią informaciją. Galime atnaujinti šią temą, kad būtų įtraukti klaidų ištaisymai, įtraukti į komponavimo versiją publikavus šią temą.
+> Siekiame kuo greičiau pateikti jums šią informaciją. Mes galime atnaujinti šį straipsnį, kad būtų įtrauktos pataisos, kurios buvo sukurtas po to, kai buvo publikuotas šis straipsnis.
 
 | Problemos numeris | Problema | Aprašymas |
 |---|---|---|

@@ -1,6 +1,6 @@
 ---
 title: ER FILTER funkcija
-description: Šioje temoje pateikiama informacija apie tai, kaip naudojama modulio Elektroninės ataskaitos (ER) FILTER funkcija.
+description: Šiame straipsnyje pateikiama informacija apie tai, kaip naudojama funkcija FILTER Electronic Reporting (ER).
 author: NickSelin
 ms.date: 12/14/2021
 ms.prod: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e857306574dda7bad5dd25fc7708514997d8e86f
-ms.sourcegitcommit: b1c758ec4abfcf3bf9e50f18c1102d4a9c1316d0
+ms.openlocfilehash: dfa4afdcfad8c1855a10e1fa37c36cc5b20682ef
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/15/2021
-ms.locfileid: "7922428"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884523"
 ---
 # <a name="filter-er-function"></a>ER FILTER funkcija
 
@@ -56,10 +56,10 @@ Gautas įrašų sąrašas.
 Jei vienu ar abiem argumentais, kurie sukonfigūruoti šiai funkcijai (`list` ir `condition`), negalima siųsti šios užklausos paversti į tiesioginę SQL iškvietą, kuriant pateikiama išimtis. Ši išimtis vartotoją informuoja, kad arba `list`, arba `condition` negalima naudoti norint teikti duomenų bazės užklausą.
 
 > [!NOTE]
-> Kai `FILTER` funkcija naudojama pasirinkimo kriterijams nurodyti, funkcija išsamesnė už `WHERE`[`VALUEIN`](er-functions-logical-valuein.md) funkciją.
+> Kai `FILTER` funkcija naudojama pasirinkimo kriterijams `WHERE` nurodyti, [`VALUEIN`](er-functions-logical-valuein.md) funkcija išsamesnė už funkciją.
 > 
-> - Jei funkcija naudojama funkcijos aprėptį, o antrasis argumentas nurodo duomenų šaltinį, kuris negrąžina `VALUEIN``WHERE``VALUEIN` įrašų, Būlio logikos klaidinga vertė, į kurią atsižvelgiama *[...](er-formula-supported-data-types-primitive.md#boolean)*`VALUEIN` grąžina. Todėl išraiška `WHERE(Vendors, VALUEIN(Vendors.VendGroup, VendGroups, VendGroups.VendGroup))` negrąžina tiekėjo įrašų, jei **VendGroups duomenų** šaltinis negrąžina tiekėjų grupės įrašų.
-> - Jei funkcija naudojama funkcijos aprėptį, o antrasis argumentas nurodo duomenų šaltinį, kuris negrąžina `VALUEIN``FILTER``VALUEIN` įrašų, Būlio logikos klaidinga vertė, kurios *[...](er-formula-supported-data-types-primitive.md#boolean)*`VALUEIN` grąžinimai yra ignoruojami. Todėl išraiška grąžina `FILTER(Vendors, VALUEIN(Vendors.VendGroup, VendGroups, VendGroups.VendGroup))` visus tiekėjų duomenų šaltinio tiekėjo **įrašus**, net jei VendGroups duomenų šaltinis **negrąžina** tiekėjų grupės įrašų.
+> - Jei funkcija `VALUEIN` naudojama `WHERE` funkcijos aprėptį, o antrasis argumentas `VALUEIN` nurodo duomenų šaltinį, kuris negrąžina įrašų, Būlio logikos *[...](er-formula-supported-data-types-primitive.md#boolean)*`VALUEIN` klaidinga vertė, į kurią atsižvelgiama grąžina. Todėl išraiška negrąžina `WHERE(Vendors, VALUEIN(Vendors.VendGroup, VendGroups, VendGroups.VendGroup))` tiekėjo įrašų, jei **VendGroups duomenų** šaltinis negrąžina tiekėjų grupės įrašų.
+> - Jei funkcija `VALUEIN` naudojama `FILTER` funkcijos aprėptį, o antrasis argumentas `VALUEIN` nurodo duomenų šaltinį, kuris negrąžina įrašų, Būlio logikos *[...](er-formula-supported-data-types-primitive.md#boolean)*`VALUEIN` klaidinga vertė, kurios grąžinimai yra ignoruojami. Todėl išraiška grąžina visus `FILTER(Vendors, VALUEIN(Vendors.VendGroup, VendGroups, VendGroups.VendGroup))` tiekėjų duomenų šaltinio tiekėjo **įrašus, net** jei VendGroups **duomenų** šaltinis negrąžina tiekėjų grupės įrašų.
 
 ## <a name="example-1"></a>1 pavyzdys
 

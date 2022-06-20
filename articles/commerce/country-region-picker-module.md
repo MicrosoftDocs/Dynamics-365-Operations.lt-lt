@@ -1,6 +1,6 @@
 ---
 title: Šalies / regiono išrinkiklio modulis
-description: Ši tema paaiškina siuntimo šalies/regiono parinkėjo modulį ir aprašo, kaip jį sukonfigūruoti „Microsoft Dynamics 365 Commerce“.
+description: Šiame straipsnyje aprašomas šalies / regiono išrinkiklio modulis ir aprašoma, kaip jį konfigūruoti Microsoft Dynamics 365 Commerce.
 author: stuharg
 ms.date: 04/06/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2021-08-12
 ms.dyn365.ops.version: Release 10.0.22
-ms.openlocfilehash: 9c20e614053b7a79cf962990dbd13ca0f45d5a00
-ms.sourcegitcommit: 4861ec2d3ae24cc9dd4ad3ac748fd05be3d80c70
+ms.openlocfilehash: d20b3be008a37b1c86e6fefe0ccc90c581e18340
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/06/2022
-ms.locfileid: "8551675"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861997"
 ---
 # <a name="countryregion-picker-module"></a>Šalies / regiono išrinkiklio modulis
 
 [!include [banner](includes/banner.md)]
 
-Ši tema paaiškina siuntimo šalies/regiono parinkėjo modulį ir aprašo, kaip jį sukonfigūruoti „Microsoft Dynamics 365 Commerce“.
+Šiame straipsnyje aprašomas šalies / regiono išrinkiklio modulis ir aprašoma, kaip jį konfigūruoti Microsoft Dynamics 365 Commerce.
 
 Šalies / regiono [...](geo-detection-redirection.md)Dynamics 365 Commerce išrinkiklio modulis naudoja geografinio aptikimo ir nukreipimo funkciją, kad rodytų rekomenduojamas svetaines klientams, kurie prašo el. komercijos svetainės URL, kuris nėra susietas su jų šalimi ar regionu.
 
@@ -38,7 +38,7 @@ Kai įgalintas svetainės geografinis aptikimas ir nukreipimas, o klientas papra
 
 Jei užklausos URL nesutampa su bet kokiu URL, susietu su kliento šalimi, vieno ar daugiau URL, kurie susieti su ta šalimi, sąrašas grąžinamas atsakant. Šalies / regiono parinkiklis palygina kiekvieną to sąrašo URL su URL, kurie buvo sukonfigūruoti šalies / regiono modulyje. Kiekvieno tikslaus sugretinto atitikmens atveju, šalies / regiono parinkiklis atvaizduos to URL ekrano antraštę, paantraštes ir paveikslėlį, o hipersaitus – naudodamas URL.
 
-Klientui pasirinkus pasirinktį šalies/regiono parinkiklis, jie nukreipiami į hipersaitu nukreipiamas URL. Kad URL būtų naudojamas kaip **\_ kliento svetainės nuostata, jis būtų naudojamas mslit365site\_\_\_\_** cookies. Tada, kitą kartą, kai klientas pageidauja URL, kuris nėra susietas su jų šalimi ar regionu, jis automatiškai peradresuojamas į pageidaujamą šalį. Todėl rekomenduojame ir [savo](site-selector.md) el. komercijos svetainėje naudoti svetainių išrinkiklio modulį, kad klientai galėtų nepaisyti arba atnaujinti savo svetainės nuostatą. 
+Klientui pasirinkus pasirinktį šalies/regiono parinkiklis, jie nukreipiami į hipersaitu nukreipiamas URL. Kad URL būtų naudojamas kaip **\_ kliento svetainės nuostata, jis būtų naudojamas kaip ms kuriamų365\_\_\_\_** svetainių tam, kad būtų galima naudoti. Tada, kitą kartą, kai klientas pageidauja URL, kuris nėra susietas su jų šalimi ar regionu, jis automatiškai peradresuojamas į pageidaujamą šalį. Todėl rekomenduojame ir [savo](site-selector.md) el. komercijos svetainėje naudoti svetainių išrinkiklio modulį, kad klientai galėtų nepaisyti arba atnaujinti savo svetainės nuostatą. 
 
 Jei klientas uždaro šalies/regiono išrinkiklio dialogo langą, neįrašomas joks dk ir klientas lieka dabartinėje teritorijoje. 
 

@@ -1,6 +1,6 @@
 ---
-title: Pašalintos arba nerekomenduojamos „Dynamics 365 Finance“ funkcijos
-description: Šioje temoje aprašomos funkcijos, kurios buvo pašalintos arba kurias planuojama pašalinti iš „Dynamics 365 Finance“.
+title: Pašalintos arba nebenaudojamos „Dynamics 365 Finance“ funkcijos
+description: Šiame straipsnyje aprašomos priemonės, kurios buvo pašalintos arba suplanuotos pašalinti iš "Dynamics 365 Finance".
 author: kfend
 ms.date: 03/21/2022
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 6df84e5c2d530e708560495bceaeb23e2ee0dd4b
-ms.sourcegitcommit: acac5e59be7c8f4e9a7ae9be58c636c70342e784
+ms.openlocfilehash: 0278b57ccfa2da9dba6b5ea77821fdc47ad2d078
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8466840"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846660"
 ---
-# <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Pašalintos arba nerekomenduojamos „Dynamics 365 Finance“ funkcijos
+# <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Pašalintos arba nebenaudojamos „Dynamics 365 Finance“ funkcijos
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje aprašomos funkcijos, kurios buvo pašalintos arba kurias planuojama pašalinti iš „Dynamics 365 Finance“.
+Šiame straipsnyje aprašomos priemonės, kurios buvo pašalintos arba suplanuotos pašalinti iš "Dynamics 365 Finance".
 
 - *Pašalinta* funkcija nebėra įtraukta į produktą.
 - *Nerekomenduojama* funkcija nebėra aktyviai tobulinama ir gali būti pašalinta iš būsimo naujinio.
@@ -129,7 +129,7 @@ ms.locfileid: "8466840"
 |------------|--------------------|
 | **Nerekomendavimo/pašalinimo priežastis** | Pakeista nauja „Regulatory Configuration Services” (RCS) visuotine saugykla |
 | **Pakeitė kita funkcija?**   | Taip |
-| **Paveiktos produkto sritys**         | „Dynamics 365 Finance”, „Supply Chain Management” ir „Project Operations” produktai|
+| **Paveiktos produkto sritys**         | "Dynamics 365" finansų, tiekimo grandinės valdymo ir projekto operacijų produktai|
 | **Visuotinio diegimo parinktis**              | Visos |
 | **Būsena**                         | Nerekomenduojama: nuo 2022 m. balandžio 1 d. nebepalaikysime „Microsoft Dynamics Lifecycle Services” (LCS) saugyklos kaip elektroninių ataskaitų (ER) konfigūracijų saugojimo parinkties. Naujos „Microsoft” ER konfigūracijos bus publikuojamos ir jas bus galima atsisiųsti tik iš visuotinės saugyklos. Visuotinę saugyklą galima pasiekti iš „Dynamics 365” produktų ir RCS. Norėdami gauti daugiau informacijos, žr. [Importuoti ER konfigūracijas iš RCS](../../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md) ir [„Regulatory Configuration Service“ - „Lifecycle Services“ talpinimas nebegalioja](../localizations/rcs-lcs-repo-dep-faq.md). |
 

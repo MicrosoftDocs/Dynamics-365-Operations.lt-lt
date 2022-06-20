@@ -1,6 +1,6 @@
 ---
 title: Bendrasis planavimas – teritorijos ir sandėlio padengimas, sandėlis neprivalomas
-description: Šioje temoje aprašyta, kaip planuojama prekė, kurios teritorija ir sandėlis yra padengimo dimensijos. Sandėlio dimensija nėra privaloma.
+description: Šiame straipsnyje aprašoma, kaip suplanuotos prekės, kurių padengimo dimensijos yra svetainė ir sandėlis. Sandėlio dimensija nėra privaloma.
 author: t-benebo
 ms.date: 06/20/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 396c07fa8cd5a915d5be39837cfdda3404dc402e
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: fb1f486406df22b4e9b92a0302e4e7ce7816517f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8470323"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878967"
 ---
 # <a name="master-planning-for-site-and-warehouse-coverage-warehouse-not-mandatory"></a>Bendrasis planavimas – teritorijos ir sandėlio padengimas, sandėlis neprivalomas
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje aprašyta, kaip planuojama prekė, kurios teritorija ir sandėlis yra padengimo dimensijos. Sandėlio dimensija nėra privaloma.
+Šiame straipsnyje aprašoma, kaip suplanuotos prekės, kurių padengimo dimensijos yra svetainė ir sandėlis. Sandėlio dimensija nėra privaloma.
 
 Į šį bendrojo planavimo scenarijų įeina toliau nurodytos sąlygos.
 

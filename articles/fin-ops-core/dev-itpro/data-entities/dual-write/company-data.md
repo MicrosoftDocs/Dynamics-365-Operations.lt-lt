@@ -1,6 +1,6 @@
 ---
 title: Įmonės koncepcija „Dataverse“
-description: Šioje temoje aprašomas įmonės duomenų integravimas tarp „Finance and Operations“ ir „Dataverse“.
+description: Šiame straipsnyje aprašomas įmonės duomenų integravimas tarp finansų ir operacijų bei Dataverse.
 author: RamaKrishnamoorthy
 ms.date: 08/04/2020
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 3657e41363ca6c1ce8eabfeaf3ba6da9b93f5e2a
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 11355031714b7e046f70bd5840297d66aa7d32e0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8061031"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873184"
 ---
 # <a name="company-concept-in-dataverse"></a>Įmonės koncepcija „Dataverse“
 
@@ -29,7 +29,7 @@ ms.locfileid: "8061031"
 
 Verslo struktūros vienetas ir įmonė nėra lygiavertės koncepcijos, todėl „Dataverse“ integracijos tikslais negalima taikyti jų vienas su vienu (1:1) susiejimo. Tačiau vartotojai turi, kaip numatyta, galėti peržiūrėti tas pačias eilutes programoje ir „Dataverse“, todėl „Microsoft“ pristatė naują lentelę „Dataverse”, pavadintą cdm\_Company. Ši lentelė yra lygiavertė įmonės lentelei programoje. Siekiant užtikrinti eilučių matomumo lygiavertiškumą pradėjus naudoti programą ir „Dataverse“, rekomenduojame toliau pateiktus „Dataverse“ duomenų nustatymus.
 
-+ Kiekvienai „Finance and Operations Company“ eilutei, kurioje įgalintas dvigubas rašymas, susietas CDM\_ Sukurta įmonės eilutė.
++ Kiekvienai finansų ir operacijų įmonės eilutei, kuri įgalinta dvigubo rašymo atveju, sukuriama susijusi cdm\_ įmonės eilutė.
 + Sukūrus cdm\_Company eilutę ir įgalinus dvigubam rašymui, sukuriamas numatytasis verslo struktūros vienetas tuo pačiu pavadinimu. Nors tam verslo struktūros vienetui automatiškai sukuriama numatytoji komanda, verslo struktūros vienetas nėra naudojamas.
 + Sukuriama atskira savininko komanda tokiu pačiu pavadinimu. Ji taip pat susiejama su verslo struktūros vienetu.
 + Pagal numatytuosius nustatymus, bet kurios eilutės, kuri sukuriama ir įrašoma dvigubu rašymu „Dataverse“, savininkas nustatomas į „DW Owner“ komandą, kuri susiejama su susijusiu verslo struktūros vienetu.
@@ -43,13 +43,13 @@ Dėl tokios konfigūracijos bet kokia eilutė, susieta su USMF įmone, priklauso
 + Vaidmuo „Pardavimo vadybininkas“ priskiriamas „USMF pardavimas“ komandos nariams.
 + Vartotojai, turintys vaidmenį „Pardavimo vadybininkas“, turi prieigą prie visų paskyros eilučių, kurios yra to paties verslo struktūros vieneto nariai.
 + „USMF pardavimas“ komanda susiejama su anksčiau minėtu USMF verslo struktūros vienetu.
-+ Todėl „USMF Sales“ komandos nariai gali matyti bet kurią „USMF DW“ vartotojui priklausančią paskyrą, kuri būtų gauta iš USMF įmonės lentelės „Finance and Operations“.
++ Todėl USMF pardavimo komandos nariai gali matyti bet kokią sąskaitą, kurią valdo "USMF DW" vartotojas, kuris būtų ateitas iš USMF įmonės lentelės finansuose ir operacijose.
 
 ![Komandų naudojimas.](media/dual-write-company-2.png)
 
 Kaip parodyta ankstesnėje iliustracijoje, šis 1:1 susiejimas tarp verslo struktūros vieneto, įmonės ir komandos yra tik pradžios taškas. Tolesniame pavyzdyje naujas verslo struktūros vienetas „Europa“ rankiniu būdu sukuriamas „Dataverse“ kaip DEMF ir ESMF pirminis elementas. Šis naujas šakninis verslo struktūros vienetas nėra susijęs su dvigubu rašymu. Tačiau jis gali būti naudojamas siekiant suteikti „EUR pardavimas“ komandos nariams prieigą prie paskyros duomenų tiek DEMF, tiek ESMF nustatant duomenų matomumą į **Pirminis/antrinis BU** susietam saugos vaidmeniui.
 
-Paskutinėje temoje aptariama, kaip dvigubas rašymas nustato, kuriai savininkų komandai reikėtų priskirti eilutes. Šią veikseną kontroliuoja stulpelis **Numatytoji komanda savininkė** eilutėje cdm\_Company. Kai cdm\_Company eilutė yra įgalinta dvigubam rašymui, priedas automatiškai sukuria susietą verslo struktūros vienetą ir savininko komandą (jei jos dar nėra) ir nustato **Numatytoji komanda savininkė** stulpelį. Administratorius gali pakeisti šį stulpelį kita reikšme. Tačiau administratorius negali išvalyti stulpelio tol, kol lentelei įgalintas dvigubas rašymas.
+Galutinis aptariamas straipsnis yra tai, kaip dvigubo rašymo metu nurodoma, kuriai savininko komandai jis turėtų priskirti eilutes. Šią veikseną kontroliuoja stulpelis **Numatytoji komanda savininkė** eilutėje cdm\_Company. Kai cdm\_Company eilutė yra įgalinta dvigubam rašymui, priedas automatiškai sukuria susietą verslo struktūros vienetą ir savininko komandą (jei jos dar nėra) ir nustato **Numatytoji komanda savininkė** stulpelį. Administratorius gali pakeisti šį stulpelį kita reikšme. Tačiau administratorius negali išvalyti stulpelio tol, kol lentelei įgalintas dvigubas rašymas.
 
 > [!div class="mx-imgBorder"]
 ![Stulpelis Numatytoji komanda savininkė.](media/dual-write-default-owning-team.jpg)

@@ -1,6 +1,6 @@
 ---
 title: Nuorodos į originalias sąskaitas kredito pranešimuose
-description: Šioje temoje paaiškinta, kaip nustatyti ir spausdinti originalių sąskaitų numerius susijusiuose kredito pranešimuose.
+description: Šiame straipsnyje paaiškinama, kaip nustatyti ir išspausdinti pradinius SF numerius susijusiose kredito pažymose.
 author: ilkond
 ms.date: 10/26/2021
 ms.topic: article
@@ -13,26 +13,26 @@ ms.search.region: Global
 ms.author: ilyako
 ms.search.validFrom: 2021-03-19
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: c1362bf41416202631dc4b966338e8166b26a67f
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: ebfeb43aaf137ef336b460f340fbda50f5918d08
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8688352"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861537"
 ---
 # <a name="references-to-original-invoices-in-credit-notes"></a>Nuorodos į originalias sąskaitas kredito pranešimuose
 
 [!include [banner](../includes/banner.md)]
 
 
-Kai kuriose šalyse ir regionuose yra teisinis reikalavimas, kad spausdinti kredito pranešimai apimtų nuorodas į originalias sąskaitas. Šioje temoje paaiškinta, kaip nustatyti ir spausdinti originalių sąskaitų numerius susijusiuose kredito pranešimuose.
+Kai kuriose šalyse ir regionuose yra teisinis reikalavimas, kad spausdinti kredito pranešimai apimtų nuorodas į originalias sąskaitas. Šiame straipsnyje paaiškinama, kaip nustatyti ir išspausdinti pradinius SF numerius susijusiose kredito pažymose.
 
 ## <a name="prerequisites"></a>Būtinieji komponentai
 
 - Darbo srityje **Funkcijų valdymas** įjunkite **Kredito sąskaitos išrašymo išdėstymas pardavimams ir projekto sąskaitos ataskaitoms** funkciją. Daugiau informacijos žr. [Funkcijų valdymo apžvalga](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 - Spausdintini reikiamų dokumentų formatai turi būti konfigūruojami spausdinimo valdyme.
 
-Šioje temoje aprašyta funkcija taikoma šiems dokumentams:
+Šiame straipsnyje aprašytos funkcijos taikomos toliau pateikties dokumentams:
 
 **Gautinos sumos**
 

@@ -1,6 +1,6 @@
 ---
 title: ER formato kūrimas, kad būtų galima sugeneruoti „Excel” formato ataskaitą su į puslapių antraštes ar poraštes įdėtais vaizdais
-description: Šioje temoje paaiškinama, kaip naudoti elektronines ataskaitas (ER) norint generuoti verslo dokumentus, kuriuose yra paveikslėlių ir figūrų, įdėtų į puslapių antraštes ar poraštes.
+description: Šiame straipsnyje paaiškinama, kaip naudoti elektronines ataskaitas (ER) norint sugeneruoti verslo dokumentus, kurių puslapių antraštėse arba poraštėse yra vaizdų ir figūrų.
 author: NickSelin
 ms.date: 08/11/2021
 ms.topic: article
@@ -15,25 +15,25 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2021-06-01
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 3f3f77a9e6104a31995c9ee398504982fe43ac9e
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: 1cfde60459e440c851edb97276321216b1654e40
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323780"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854849"
 ---
 # <a name="design-an-er-format-to-generate-a-report-in-excel-format-with-embedded-images-in-page-headers-or-footers"></a>ER formato kūrimas, kad būtų galima sugeneruoti „Excel” formato ataskaitą su į puslapių antraštes ar poraštes įdėtais vaizdais
 
 [!include[banner](../includes/banner.md)]
 
-Ši tema paaiškina, kaip sistemos administratoriaus arba elektroninių ataskaitų funkcinio konsultanto vaidmens vartotojas gali atlikti šias užduotis:
+Šiame straipsnyje paaiškinama, kaip sistemos administratoriaus arba elektroninio ataskaitų funkcinių konsultanto vaidmens vartotojas gali atlikti šias užduotis:
 
 - Konfigūruoti [Elektroninių ataskaitų (ER)](general-electronic-reporting.md) sistemos parametrus.
 - Importuokite ER [konfigūracijas](general-electronic-reporting.md#Configuration), kurias [teikia](general-electronic-reporting.md#Provider) „Microsoft” ir, kurios naudojamos generuoti [laisvos formos sąskaitoms faktūroms](../../../finance/accounts-receivable/create-free-text-invoice-new.md), paremtoms [šablonu](er-fillable-excel.md#excel-file-component), pateiktu „Microsoft Excel” formatu.
 - Sukurti standartinės „Microsoft” teikiamos ER formato konfigūracijos [pasirinktinę (išvestinę)](general-electronic-reporting.md#building-a-format-selecting-another-format-as-a-base-customization) versiją.
 - Modifikuoti pasirinktinę ER formato konfigūraciją taip, kad ji sugeneruotų laisvos formos sąskaitos faktūros ataskaitą, kurios poraštėje būtų įmonės logotipo vaizdas.
 
-Šios temos procedūros gali būti atliktos naudojant **„USMF”** įmonę. Kodavimas nebūtinas. Prieš pradėdami, atsisiųskite ir įrašykite toliau pateiktą failą.
+Šiame straipsnyje nurodytas procedūras galima atlikti JAVMF **įmonėje**. Kodavimas nebūtinas. Prieš pradėdami, atsisiųskite ir įrašykite toliau pateiktą failą.
 
 | Aprašas        | Failo vardas |
 |--------------------|-----------|
@@ -132,7 +132,7 @@ Daugiau informacijos apie ER konfigūracijos tiekėjus žr. [Konfigūracijos tei
 
 ### <a name="import-the-standard-er-configurations"></a><a id="ImportERFormat"></a>Standartinio ER konfigūracijų importavimas
 
-Norėdami pridėti standartines ER konfigūracijas prie dabartinio „Dynamics 365 Finance” egzemplioriaus, importuokite jas iš ER [saugyklos](general-electronic-reporting.md#Repository), sukonfigūruotos tam programos egzemplioriui.
+Norėdami įtraukti standartines ER konfigūracijas į savo dabartinį "Dynamics 365 Finance" egzempliorių, turite importuoti jas iš to egzemplioriaus sukonfigūruotos ER [saugyklos](general-electronic-reporting.md#Repository).
 
 1. Eikite į **Organizacijos administravimas** \> **Darbo sritys** \> **Elektroninės ataskaitos**.
 2. **Lokalizavimo konfigūracijos** puslapio **Konfigūracijos teikėjai** dalyje pasirinkite **„Microsoft”** plytelę, o tada pasirinkite **Saugyklos**, kad peržiūrėtumėte **„Microsoft”** tiekėjo saugyklų sąrašą.

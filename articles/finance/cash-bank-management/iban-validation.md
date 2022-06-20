@@ -1,6 +1,6 @@
 ---
 title: Tarptautinio banko sąskaitos numerio (IBAN) sąskaitos tikrinimo valdymas
-description: Šioje temoje paaiškinama, kaip valdyti tarptautinio banko sąskaitos numerio (IBAN) sąskaitos tikrinimą.
+description: Šiame straipsnyje paaiškinama, kaip valdyti tarptautinės banko sąskaitos numerio (IBAN) sąskaitos tikrinimą.
 author: twheeloc
 ms.date: 08/24/2018
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 89d6c38088e43f0f24fa41accecaa262a64006cf
-ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
+ms.openlocfilehash: 3d825e8699fbe10e080cd85f15d3d86f8c780f15
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "8462770"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880905"
 ---
 # <a name="manage-international-bank-account-number-iban-account-validation"></a>Tarptautinio banko sąskaitos numerio (IBAN) sąskaitos tikrinimo valdymas
 
@@ -25,7 +25,7 @@ ms.locfileid: "8462770"
 
 Taikant tarptautinio banko sąskaitos numerio (IBAN) tikrinimą padaugėja tikrinimų, kurie yra atliekami, kai įtraukiate IBAN į banko sąskaitą.
 
-Informacija apie IBAN struktūrą saugoma "Microsoft Dynamics 365 Finance " ir automatiškai įkeliama, kai pirmą kartą naudojate IBAN banko sąskaitose. Ji apima IBAN ilgį, banko sąskaitos numerio ir įmonės registracijos numerio pradžios taškus, taip pat banko sąskaitos numerio ir įmonės registracijos numerio ilgį.
+Informacija apie IBAN Microsoft Dynamics struktūrą saugoma 365 finansuose ir automatiškai įkeliama, kai pirmą kartą naudojate IBAN banko sąskaitose. Ji apima IBAN ilgį, banko sąskaitos numerio ir įmonės registracijos numerio pradžios taškus, taip pat banko sąskaitos numerio ir įmonės registracijos numerio ilgį.
 
 ## <a name="set-up-iban-structures"></a>IBAN struktūrų nustatymas
 

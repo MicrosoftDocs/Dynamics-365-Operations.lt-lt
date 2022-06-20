@@ -1,6 +1,6 @@
 ---
 title: Perkėlimas į „Planning Optimization“ pagrindiniam planavimui
-description: Šioje temoje aprašyta informacija apie naują pagrindinio planavimo variklį „Planning Optimization“ ir apie perkėlimą iš esančio variklio.
+description: Šiame straipsnyje pateikiama informacija apie naują bendrojo planavimo mašinų, planavimo optimizavimą ir perkėlimą iš esamo modulio.
 author: t-benebo
 ms.date: 05/11/2020
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: ''
 ms.author: benebotg
 ms.search.validFrom: 2020-11-05
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 598e29ead50e1ecb249a7338c7f0952a912b4f69
-ms.sourcegitcommit: cbe9493d479f96f271d94599ec1b85131b26169f
+ms.openlocfilehash: a94b424ad1a454feecede8a7b037171b2984504f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "8809101"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846104"
 ---
 # <a name="migration-to-planning-optimization-for-master-planning"></a>Perkėlimas į „Planning Optimization“ pagrindiniam planavimui
 
 [!include [banner](../includes/banner.md)]
 
-Sukurtas pagrindinis planavimo variklis nustatytas taip, kad neveiktų (negaliotų). Jį pakeitė „Planning Optimization“ papildinys skirtas „Microsoft Dynamics 365 Supply Chain Management“. Šioje temoje pateikta informacija apie naujo ir esančių diegimų poveikį. Jis apima informaciją apie būtinus veiksmus.
+Sukurtas pagrindinis planavimo variklis nustatytas taip, kad neveiktų (negaliotų). Jį pakeitė „Planning Optimization“ papildinys skirtas „Microsoft Dynamics 365 Supply Chain Management“. Šiame straipsnyje pateikiama informacija apie poveikį naujiems ir esamiems diegimams. Jis apima informaciją apie būtinus veiksmus.
 
 „Planning Optimization“ įjungia pagrindinio planavimo skaičiavimą siekiant, kad jis vyktų ne „Supply Chain Management“ ir jo „Azure SQL“ duomenų bazėje. Nauda susieta su „Planning Optimization“ apima pagerintą naudojimą ir sumažintą poveikį SQL duomenų bazėje pagrindinio planavimo vykdymo metu. Kadangi greito planavimo vykdymai gali būti atlikti net ir biuro darbo valandomis, planuotojai gali nedelsiant reaguoti ir reikalauti ar nustatyti parametrų keitimus.
 
@@ -63,7 +63,7 @@ Galite prašyti išlygos, jei turite tęsti naudoti sukurtus pagrindinį planavi
 
 Po to, kai būtinos funkcijos tampa būtinos, „Microsoft“ pateiks pereinamąjį laikotarpį, kol išlyga pasibaigs. Aplinkos administratorius bus informuotas, kai būtinos funkcijos bus prieinamos ir pereinamasis laikotarpis prasidės.
 
-Šioje struktūrinėje schemoje apibendrinama šioje temoje pateikiama informacija, kad galėtumėte greitai sužinoti, ar jums reikėtų pateikti išimties užklausą. Jeigu jums reikia pateikti išimties užklausą, prašome užpildyti ir pateikti [Optimizavimo planavimo perkėlimo ir išimčių klausimyną](https://go.microsoft.com/fwlink/?linkid=2144962). Produktų grupė yra atsakinga už kiekvienos išimties užklausos vertinimą ir t. t., pateikite savo prašymą tiesiogiai produktų grupei naudodami pateiktą saitą ir nesukurkite palaikymo kvito. Jei jūsų prašymas atmestas, nesukurkite palaikymo kvito, nes "Microsoft Support" negali iš naujo įvertinti ar suteikti išimčių.
+Šioje struktūrinėje schemoje apibendrinama šiame straipsnyje pateikiama informacija, kad galėtumėte greitai rasti, ar norite prašyti išimties. Jeigu jums reikia pateikti išimties užklausą, prašome užpildyti ir pateikti [Optimizavimo planavimo perkėlimo ir išimčių klausimyną](https://go.microsoft.com/fwlink/?linkid=2144962). Produktų grupė yra atsakinga už kiekvienos išimties užklausos vertinimą ir t. t., pateikite savo prašymą tiesiogiai produktų grupei naudodami pateiktą saitą ir nesukurkite palaikymo kvito. Jei jūsų prašymas atmestas, nesukurkite palaikymo kvito, nes "Microsoft Support" negali iš naujo įvertinti ar suteikti išimčių.
 
 ![Išimčių struktūrinė schema.](media/exception-diagram.png "Išimčių struktūrinė schema")
 

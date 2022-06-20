@@ -1,6 +1,6 @@
 ---
 title: Matavimo vienetų valdymas
-description: Ši tema aprašo, kaip apibrėžti matavimo vienetą, pateikti vieneto vertimus ir jo aprašą ir apibrėžti susijusių vienetų konvertavimo taisykles.
+description: Šiame straipsnyje aprašoma, kaip apibrėžti matavimo vienetą, pateikti vieneto vertimus ir jo aprašą bei apibrėžti susijusių vienetų konvertavimo taisykles.
 author: t-benebo
 ms.date: 04/09/2021
 ms.topic: business-process
@@ -13,24 +13,24 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e13897396810507bb4b2cbb415b873eb3dd7f4e8
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 8e2c21756b270ef7d914dc74a0cf61727953206a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7565525"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863917"
 ---
 # <a name="manage-units-of-measure"></a>Matavimo vienetų valdymas
 
 [!include [banner](../../includes/banner.md)]
 
-Ši tema aprašo, kaip apibrėžti matavimo vienetą, pateikti vieneto vertimus ir jo aprašą ir apibrėžti susijusių vienetų konvertavimo taisykles.
+Šiame straipsnyje aprašoma, kaip apibrėžti matavimo vienetą, pateikti vieneto vertimus ir jo aprašą bei apibrėžti susijusių vienetų konvertavimo taisykles.
 
 ## <a name="open-the-units-page"></a>Atidarykite vienetų puslapį
 
 Norėdami sukurti ir dirbti su jūsų sistemoje galimais matavimo vienetais, eikite į Organizacijos **administravimo \> vienetų \> nustatymo \>** vienetus.
 
-Likusiuose šios temos skyriuose aprašoma, ką galima padaryti **vienetų** puslapyje.
+Likusiuose šio straipsnio skyriuose aprašoma, ką galima padaryti vienetų **puslapyje**.
 
 ## <a name="create-standard-units-and-conversions"></a>Standartinių vienetų ir konvertavimų kūrimas
 

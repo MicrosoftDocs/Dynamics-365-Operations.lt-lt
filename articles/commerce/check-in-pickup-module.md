@@ -1,6 +1,6 @@
 ---
 title: Registravimasis paėmimo moduliui
-description: Ši tema paaiškina prisiregistravimo paėmimui modulį ir tai, kaip jį sukonfigūruoti „Microsoft Dynamics 365 Commerce“.
+description: Šiame straipsnyje aprašomas paėmimo modulio įregistravimas ir paaiškinama, kaip jį konfigūruoti Microsoft Dynamics 365 Commerce.
 author: bicyclingfool
 ms.date: 04/23/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: global
 ms.author: stuharg
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: f6359f41f3b97325db4fda083dc32d39839811297a96a1f2d99a93990c00afae
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7002db893da1802063148a9b800ffa92f3e5f065
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6747470"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885480"
 ---
 # <a name="check-in-for-pickup-module"></a>Registravimasis paėmimo moduliui
 
 [!include [banner](includes/banner.md)]
 
-Ši tema paaiškina prisiregistravimo paėmimui modulį ir tai, kaip jį sukonfigūruoti „Microsoft Dynamics 365 Commerce“.
+Šiame straipsnyje aprašomas paėmimo modulio įregistravimas ir paaiškinama, kaip jį konfigūruoti Microsoft Dynamics 365 Commerce.
 
 Įsiregistravimo paėmimo modulyje pateikiamas patvirtinimo puslapis klientams, kurie naudoja klientų įsiregistravimo galimybę „Dynamics 365 Commerce“ pranešti parduotuvei apie atvykimą. Įregistravimas paėmimo moduliui taip pat leidžia konfigūruoti formą, kuri renka papildomą klientų informaciją ir palengvina užsakymo pristatymą. Ši informacija apima kliento automobilio stovėjimo vietos numerį, jų transporto priemonės gamintojas ir modelis. 
 

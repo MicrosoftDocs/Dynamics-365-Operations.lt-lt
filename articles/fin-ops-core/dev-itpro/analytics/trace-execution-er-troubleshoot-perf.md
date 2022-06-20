@@ -1,6 +1,6 @@
 ---
 title: ER formatų vykdymo sekimas siekiant diagnozuoti našumo problemas
-description: Šioje temoje pateikiama informacijos apie tai, kaip elektroninėse ataskaitose (ER) naudojantis našumo sekimo funkcija spręsti našumo problemas.
+description: Šiame straipsnyje pateikiama informacija apie tai, kaip naudoti efektyvumo sekimo funkciją elektroninėse ataskaitose (ER) našumo triktims šalinti.
 author: NickSelin
 ms.date: 06/22/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 10eddf2f60db914e6451840d4d7aedb9dce7108874ea3ff45f375b85a55a694f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 886781764b44ca76b327ad49f25f11f6c370a706
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6724398"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8851957"
 ---
 # <a name="trace-the-execution-of-er-formats-to-troubleshoot-performance-issues"></a>ER formatų vykdymo sekimas siekiant diagnozuoti našumo problemas
 
@@ -98,7 +98,7 @@ Tarkime, kad jau pradėjau kurti naują ER sprendimą, kad būtų sugeneruota na
 
 Tarkime, kad baigėte kurti pirmąją ER sprendimo versiją. Dabar norite ją patikrinti naudodami savo egzempliorių ir išanalizuoti vykdymo našumą.
 
-### <a name="import-an-er-configuration-from-rcs-into-finance-and-operations"></a><a id='import-configuration'></a>ER konfigūracijų importavimas iš RCS į „Finance and Operations”
+### <a name="import-an-er-configuration-from-rcs-into-finance-and-operations"></a><a id='import-configuration'></a>ER konfigūracijos importavimas iš RCS į „Finance and Operations“
 
 1. Prisijunkite prie programos egzemplioriaus.
 2. Dirbdami su šia mokymo programa, konfigūracijas importuosite iš savo RCS egzemplioriaus (kuriame kuriate savo ER komponentus) į savo egzempliorių (kuriame jas tikrinate ir galiausiai naudojate). Todėl turite įsitikinti, kad paruošti visi reikiami artefaktai. Instrukcijas rasite procedūroje [Elektroninių ataskaitų (ER) konfigūracijų importavimas iš „Regulatory Configuration Services“ (RCS)](rcs-download-configurations.md).
@@ -134,7 +134,7 @@ Atitinkamų versijų duomenų modeliai ir modelio susiejimo konfigūracijos auto
             - Kiekvieno duomenims gauti iškviesto formato susiejimo duomenų šaltinio vykdymas
             - Kiekvieno formato elemento apdorojimas įvedant duomenis į sugeneruotą išvestį
 
-            **Agreguoto sekimo formato** reikšmė galima 10.0.20 ir vėlesnėse „Microsoft Dynamics 365 Finance” versijose.
+            Jungtinio **sekimo formato vertę** galima rasti Microsoft Dynamics 365 finansų versijoje 10.0.20 ir vėlesnėje versijoje.
 
             ER formato dizaino įrankyje ir ER modelio susiejimo dizaino įrankyje galite peržiūrėti bendrą vieno komponento vykdymo laiką. Be to, sekimas apima išsamią vykdymo informaciją, pavyzdžiui, vykdymų skaičių ir minimalų bei maksimalų vieno vykdymo laiką.
 
@@ -305,27 +305,27 @@ Taip pat gali būti naudinga sumažinti į duomenų šaltinį LedgerTransTypeLis
 
 ### <a name="import-the-modified-er-model-mapping-configuration-from-rcs-into-the-application"></a>Modifikuotos ER modelio susiejimo konfigūracijos importavimas iš RCS į programą
 
-Pakartokite veiksmus, aprašytus ankstesniame šios temos skyriuje [ER konfigūracijos importavimas iš RCS į „Finance and Operations“](#import-configuration) ir importuokite konfigūracijos **Našumo sekimo susiejimas** 1.2 versiją.
+Norėdami importuoti efektyvumo [sekimo susiejimo konfigūracijos versiją 1.2](#import-configuration), pakartokite anksčiau šiame straipsnyje skyriuje Importuoti ER konfigūraciją iš RCS **į finansus ir operacijas**.
 
 ## <a name="run-the-modified-er-solution-to-trace-execution"></a>Modifikuoto ER vykdymo sekimo sprendimo vykdymas
 
 ### <a name="run-the-er-format"></a>ER formato vykdymas
 
-Pakartoję ankstesniame šios temos skyriuje [ER formato vykdymas](#run-format) nurodytus veiksmus sugeneruokite naują našumo sekimą.
+Norėdami sugeneruoti naują našumo sekimą [, pakartokite](#run-format) anksčiau šiame straipsnyje skyriuje Vykdyti ER formatą nurodytus veiksmus.
 
 ## <a name="work-with-the-execution-trace"></a>Darbas su vykdymo sekimu
 
 ### <a name="export-the-generated-trace-from-the-application"></a>Sugeneruotos sekimo eksportavimas iš programos
 
-Pakartoję ankstesniame šios temos skyriuje [Sugeneruoto sekimo eksportavimas iš programos](#export-trace) nurodytus veiksmus, vietiniame tinkle įrašykite naują našumo sekimą.
+Norėdami vietoje įrašyti naują našumo [sekimą, pakartokite](#export-trace) veiksmus skyriuje Eksportuoti sugeneruotą sekimą iš anksčiau šiame straipsnyje nurodytos programos skyriaus.
 
 ### <a name="import-the-generated-trace-into-rcs"></a>Sugeneruoto sekimo importavimas į RCS
 
-Pakartoję ankstesniame šios temos skyriuje [Sugeneruoto sekimo importavimas į RCS](#import-trace) nurodytus veiksmus importuokite naują našumo sekimą į RCS.
+Norėdami importuoti naują našumo sekimą [į RCS, pakartokite veiksmus skyriuje Importas sugeneruotą sekimą į RCS](#import-trace).
 
 ### <a name="use-the-performance-trace-for-analysis-in-rcs--model-mapping"></a>Našumo sekimo naudojimas analizei naudojantis RCS – Modelio susiejimas
 
-Pakartoję ankstesniame šios temos skyriuje [Našumo sekimo naudojimas analizei naudojantis RCS – Modelio susiejimas](#use-trace) nurodytus veiksmus išanalizuokite naujausią našumo sekimą.
+Norėdami analizuoti paskutinį našumo sekimą [, pakartokite veiksmus skyriuje Naudoti našumo sekimą RCS –](#use-trace) modelio susiejimas anksčiau šiame straipsnyje.
 
 Atkreipkite dėmesį, kad atlikus modelio susiejimo pakeitimus, nebeliko pasikartojančių užklausų į duomenų bazę. Taip pat sumažėjo šio modelio susiejimo iškvietimų į duomenų bazės lenteles ir duomenų šaltinius skaičius. Todėl pagerėjo viso ER sprendimo našumas.
 
@@ -355,7 +355,7 @@ Jei naudojatės viena iš šių versijų, sugeneruotų našumo sekimų informaci
 
 ### <a name="run-the-er-format"></a>ER formato vykdymas
 
-Pakartoję ankstesniame šios temos skyriuje [ER formato vykdymas](#run-format) nurodytus veiksmus sugeneruokite naują našumo sekimą.
+Norėdami sugeneruoti naują našumo sekimą [, pakartokite](#run-format) anksčiau šiame straipsnyje skyriuje Vykdyti ER formatą nurodytus veiksmus.
 
 Atkreipkite dėmesį, kad interneto naršyklėje siūloma atsisiųsti ZIP failą. Šiame faile pateikiamas našumo sekimas PerfView formatu. Naudodamiesi PerfView našumo analizės įrankiu galite išanalizuoti informaciją apie ER formato vykdymą.
 
@@ -379,7 +379,7 @@ Dėl patobulinimų, atliktų ER sistemoje, efektyvumo sekimo duomenys, sugeneruo
 
 ### <a name="run-the-er-format"></a>ER formato vykdymas
 
-Pakartoję ankstesniame šios temos skyriuje [ER formato vykdymas](#run-format) nurodytus veiksmus sugeneruokite naują našumo sekimą.
+Norėdami sugeneruoti naują našumo sekimą [, pakartokite](#run-format) anksčiau šiame straipsnyje skyriuje Vykdyti ER formatą nurodytus veiksmus.
 
 Atkreipkite dėmesį, kad interneto naršyklėje siūloma atsisiųsti ZIP failą. Šiame faile pateikiamas našumo sekimas PerfView formatu. Naudodamiesi PerfView našumo analizės įrankiu galite išanalizuoti informaciją apie ER formato vykdymą. Dabar šis sekimas apims informaciją apie SQL duomenų bazės prieigą vykdant ER formatą.
 

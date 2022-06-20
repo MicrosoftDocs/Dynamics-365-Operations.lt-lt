@@ -1,6 +1,6 @@
 ---
 title: Gamybos cecho vykdymo sąsajos konfigūravimas
-description: Šioje temoje aprašoma, kaip sukurti vieną ar daugiau gamybos cecho vykdymo sąsajos konfigūracijų. Atidarius gamybos cecho vykdymo sąsają, ji automatiškai įkelia pasirinktą konfigūraciją ir užduoties filtrą, būdingus naršyklei ir įrenginiui. Konfigūracijoje nustatote strategijas, kurios turi būti taikomos konkrečiam naudojimui.
+description: Šiame straipsnyje aprašoma, kaip sukurti vieną ar daugiau gamybos laiko vykdymo sąsajos konfigūracijų. Atidarius gamybos cecho vykdymo sąsają, ji automatiškai įkelia pasirinktą konfigūraciją ir užduoties filtrą, būdingus naršyklei ir įrenginiui. Konfigūracijoje nustatote strategijas, kurios turi būti taikomos konkrečiam naudojimui.
 author: johanhoffmann
 ms.date: 10/05/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 083f5a30323cdc813116af7462563c3b8dd5e4f5
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
-ms.translationtype: MT
+ms.openlocfilehash: 9eefde163473e11b01bfa0adf9b3694c830f1488
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8644403"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899417"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>Gamybos cecho vykdymo sąsajos konfigūravimas
 
@@ -31,15 +31,15 @@ Atidarius gamybos cecho vykdymo sąsają, ji automatiškai įkelia pasirinktą k
 - Naudodami įmonės salėje esantį įrenginį darbuotojai registruojasi atėję į biurą ir išeidami iš jo.
 - Naudodami ceche esantį įrenginį mašinų operatoriai registruojasi pradedami ir užbaigdami užduotis. Jie taip pat registruoja pertraukas ir netiesioginę veiklą.
 
-Šioje temoje aprašomos įvairios kiekvieno jūsų svetainėje įrenginio gamybos laiko vykdymo sąsajos konfigūravimo pasirinktys.
+Šiame straipsnyje aprašomos įvairios gamybos laiko vykdymo sąsajos konfigūravimo kiekviename jūsų svetainėje naudojamame įrenginyje parinktys.
 
 ## <a name="turn-on-the-production-floor-execution-interface-and-its-related-optional-features"></a>Įjunkite gamybos aukšto vykdymo sąsają ir su ja susijusias pasirenkamas funkcijas
 
-Gamybos aukšto vykdymo sąsaja pati kartu su keletu pasirenkamų nustatymų yra aprašomi šioje temoje ir turi būti įjungti jūsų sistemoje prieš tai, kai galėsite juos naudoti. Naudokite [Funkcijos valdymo](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) puslapį tam, kad įjungtumėte bet kurią funkciją aprašyta tolesniuose poskyriuose.
+Pati gamybos laiko vykdymo sąsaja ir keletas pasirinktinių šiame straipsnyje aprašytų parametrų turi būti įjungta sistemoje prieš naudojant juos. Naudokite [Funkcijos valdymo](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) puslapį tam, kad įjungtumėte bet kurią funkciją aprašyta tolesniuose poskyriuose.
 
 ### <a name="the-production-floor-execution-interface"></a>Gamybos aukšto vykdymo sąsaja
 
-Tai yra pagrindinė šioje temoje aprašyta funkcija ir ji yra būtina visų kitų šiame skyriuje paminėtų funkcijų sąlyga. Kaip ir tiekimo grandinės valdymas 10.0.25, jis yra privalomas ir jo negalima išjungti. Jei naudojate senesnę nei 10.0.25 versiją, *·*[tada](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) administratoriai gali įjungti arba išjungti šią funkciją ieškodami gamybos laiko vykdymo funkcijos funkcijų valdymo darbo srityje.
+Tai yra pagrindinė šiame straipsnyje aprašyta funkcija ir ji yra būtina visų kitų šiame skyriuje paminėtų funkcijų sąlyga. Kaip ir tiekimo grandinės valdymas 10.0.25, jis yra privalomas ir jo negalima išjungti. Jei naudojate senesnę nei 10.0.25 versiją, *·*[tada](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) administratoriai gali įjungti arba išjungti šią funkciją ieškodami gamybos laiko vykdymo funkcijos funkcijų valdymo darbo srityje.
 
 ### <a name="generate-license-plates"></a>Kurti licencijos plokšteles
 
@@ -146,7 +146,7 @@ Jei norite naudoti šią funkciją, funkcijų valdymas įjunkite šią [funkcij�
 - Įgalinkite medžiagų suvartojimo koregavimus dialogo **lange Ataskaitos** eiga. (Šiai funkcijai atlikti taip pat reikia *Registruoti medžiagų suvartojimą gamybos laiko vykdymo sąsajos (ne WMS) priemonėje* .)
 - Įgalinti ieškas pagal projekto ID.
 
-Informacija apie parametrų naudojimą pateikiama toliau šioje temoje.
+Informacija apie parametrų naudojimą pateikiama toliau šiame straipsnyje.
 
 Jei norite naudoti šią funkciją, funkcijų valdymas įjunkite šią [funkciją](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
 

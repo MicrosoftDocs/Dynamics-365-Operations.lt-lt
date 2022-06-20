@@ -1,6 +1,6 @@
 ---
 title: El. pašto ER paskirties vietos tipas
-description: Šioje temoje paaiškinama, kaip konfigūruoti el. pašto paskirties vietą kiekvienam APLANKO ar FAILO komponentui elektroninių ataskaitų (ER) formatu.
+description: Šiame straipsnyje paaiškinama, kaip konfigūruoti el. pašto paskirties vietą kiekvienam aplanko arba failo komponentui elektroninės ataskaitos (ER) formatu.
 author: NickSelin
 ms.date: 08/03/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 2248b8a35b076eb778a50bbbc67d083380ceee62
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: 08d64b0f21e4957727de1e8f5f13f9067c0fbc7d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8324013"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845663"
 ---
 # <a name="email-er-destination-type"></a>El. pašto ER paskirties vietos tipas
 
@@ -120,7 +120,7 @@ Puslapio **Formulės dizino įrankis** lauke **Formulė** įveskite konkretaus d
 
 ![El. pašto šaltinio sąskaitos konfigūravimas.](./media/er_destinations-emaildefineaddresssource.gif)
 
-Jei sukonfigūruoto vaidmens sąskaitų numeriai yra unikalūs visame „Microsoft Dynamics 365 Finance“ egzemplioriuje, dialogo lango **Siųsti el. laišką** laukas **El. pašto šaltinio įmonė** gali likti tuščias.
+Jei sukonfigūruoto Microsoft Dynamics vaidmens sąskaitų numeriai yra unikalūs visam 365 finansų egzemplioriui, **·** **el**. paštu siunčiamų laiškų šaltinio įmonės laukas dialogo lange El. laiške gali išlikti tuščias.
 
 Taip pat gali būti, kad skirtingose įmonėse ([juridiniuose subjektuose](../../fin-ops/organization-administration/organizations-organizational-hierarchies.md#legal-entities)) užregistruotos skirtingos [bendrosios adresų knygelės](../../fin-ops/organization-administration/overview-global-address-book.md) šalys taip, kad jos naudoja tą patį sąskaitos numerį, kad užpildytų sukonfigūruotą vaidmenį. Šiuo atveju sukonfigūruoto vaidmens sąskaitų numeriai nėra unikalūs visame „Finance“ egzemplioriuje. Todėl tam, kad tiesiogiai pasirinktumėte šalį, negalite nurodyti tik sąskaitos numerio. Taip pat turite nurodyti įmonę, kurioje šalis buvo įregistruota, kad būtų galima įvesti sukonfigūruotą vaidmenį. Pasirinkę mygtuką **Susieti** (grandinės simbolis), esantį greta dialogo lango **Siųsti el. laišką** lauko **El. pašto šaltinio įmonė**, kad atidarytumėte puslapį [Formulės dizaino įrankis](general-electronic-reporting-formula-designer.md). Tada galite naudoti šį puslapį, kad sukonfigūruotumėte formulę, kuri vykdymo metu pateikė, įmonės, kuriai reikia surasti pageidaujamą šaltinį, kodą.
 
@@ -162,7 +162,7 @@ Toliau pateiktoje iliustracijoje vaizduojama ER formato struktūra, sukonfigūru
 
 [![Siuntimo dokumentus generuojančio ER formato struktūra.](./media/ER_Destinations-Email-Grouping1.png)](./media/ER_Destinations-Email-Grouping1.png)
 
-Toliau pateiktoje iliustracijoje parodytas šioje temoje aprašytas atskirų komponentų grupavimo ir naujos grupės **el. pašto** paskirties vietos procesas, kad priminimo laiško pažyma būtų išsiųsta kartu su atitinkamomis kliento SF kaip el. laiško priedai.
+Toliau esanti iliustracija rodo procesą, kaip aprašyta šiame straipsnyje, **atskirų** komponentų grupavimą ir naujos grupės el. pašto paskirties vietos įgalinimą, kad priminimo laiško pastaba būtų siunčiama kartu su atitinkamomis kliento SF kaip el. laiškų priedai.
 
 [![Atskirų komponentų grupavimas ir el. pašto paskirties vietos įjungimas.](./media/ER_Destinations-Email-Grouping2.gif)](./media/ER_Destinations-Email-Grouping2.gif)
 

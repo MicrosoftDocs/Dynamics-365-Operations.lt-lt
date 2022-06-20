@@ -1,6 +1,6 @@
 ---
 title: Pavojingų medžiagų užklausos ir ataskaitos
-description: Šioje temoje paaiškinama kaip dirbti su įvairiomis ataskaitomis, susijusiomis su pavojingomis medžiagomis. Dauguma šių ataskaitų reikalingos tam, kad Jūs atitiktumėte įvairias pavojingų medžiagų nuostatas siuntimo ir saugojimo metu.
+description: Šiame straipsnyje paaiškinama, kaip dirbti su įvairiomis ataskaitomis, susijusiomis su pavojingomis medžiagomis. Dauguma šių ataskaitų reikalingos tam, kad Jūs atitiktumėte įvairias pavojingų medžiagų nuostatas siuntimo ir saugojimo metu.
 author: t-benebo
 ms.date: 06/10/2020
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: ca8c973d3322bd51bf519e83fb5a5c19d35c0bed
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 782b1b4995af09a63c483d2b81ed255a5c11803a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7568548"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846046"
 ---
 # <a name="hazardous-materials-inquiries-and-reports"></a>Pavojingų medžiagų užklausos ir ataskaitos
 
@@ -63,7 +63,7 @@ Norėdami peržiūrėti šią ataskaitą, eikite į **Produkto informacijos vald
 
 Norėdami gauti daugiau informacijos apie tai, kaip nustatyti atsargų limitus išleistam produktui, žr. [Pavojingų produktų atsargų limitų nustatymas](hazmat-items.md#stock-limits).
 
-Nuostata, naudojama atsargų limitams yra apibrėžta **Sandėlio valdymo parametrai** puslapyje. Eikite į **Sandėlio valdymas \> Sąranka \> Sandėlio valdymo parametrai**, tada skirtuko **Ataskaitos** dalyje **Pavojingų medžiagų atsargų limitas**, nurodykite nuostatos kodą. Daugiau informacijos žr. skyrių [Pavojingų medžiagų ataskaitų nustatymas,](#set-up) pateiktą anksčiau šioje temoje.
+Nuostata, naudojama atsargų limitams yra apibrėžta **Sandėlio valdymo parametrai** puslapyje. Eikite į **Sandėlio valdymas \> Sąranka \> Sandėlio valdymo parametrai**, tada skirtuko **Ataskaitos** dalyje **Pavojingų medžiagų atsargų limitas**, nurodykite nuostatos kodą. Daugiau informacijos ieškokite šiame straipsnyje anksčiau [skyriuje Nustatyti pavojingos](#set-up) medžiagos ataskaitas.
 
 ## <a name="verified-gross-mass-report"></a>Patvirtintos bendros masės ataskaita
 

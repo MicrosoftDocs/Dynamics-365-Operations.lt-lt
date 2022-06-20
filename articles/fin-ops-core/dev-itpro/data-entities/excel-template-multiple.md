@@ -1,6 +1,6 @@
 ---
 title: Duomenų šablonai su keliais darbalapiais
-description: Šioje temoje aprašoma, kaip naudojant „Excel“ duomenų objekto šablonus importuoti duomenis į „Finance and Operations“.
+description: Šiame straipsnyje aprašoma, kaip importuoti duomenis naudojant "Excel" duomenų objektų šablonus į finansus ir operacijas.
 author: peakerbl
 ms.date: 01/01/2018
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Platform update 13
-ms.openlocfilehash: cf3c423bdf06685a3c4025551927123773ae818a
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: eaad6f433329dd42c7ab6db839f2f9e61de91a13
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070066"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881107"
 ---
 # <a name="data-templates-with-multiple-worksheets"></a>Duomenų šablonai su keliais darbalapiais
 

@@ -1,6 +1,6 @@
 ---
 title: Prekės įtraukimo į krepšelį parametrų taikymas
-description: Šioje temoje aprašomi „Įtraukti produktą į krepšelį” parametrai ir tai, kaip juos taikyti „Microsoft Dynamics 365 Commerce“.
+description: Šiame straipsnyje aprašomi parametrai Įtraukti produktą į krepšelį ir aprašoma, kaip juos taikyti Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 07/08/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 6299a1c815978ab9f748b6110980e673e1fbae927ed08a5e2e080f89ef063115
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 336bea289b22e4f6f98077f915d7d35f2a48682d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6712819"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8866035"
 ---
 # <a name="apply-add-product-to-cart-settings"></a>Prekės įtraukimo į krepšelį parametrų taikymas
 
 [!include [banner](includes/banner.md)]
 
-Šioje temoje aprašomi **Įtraukti produktą į krepšelį** parametrai ir tai, kaip juos taikyti „Microsoft Dynamics 365 Commerce“.
+Šiame straipsnyje aprašomi **produkto į krepšelio** parametrus įtraukimas ir aprašoma, kaip juos taikyti Microsoft Dynamics 365 Commerce.
 
 Skirtingos darbo eigos yra palaikomos, kai produktas įtraukiamas į krepšelį „Dynamics 365 Commerce” elektroninės prekybos svetainėje. Pavyzdžiui, svetainės vartotojas gali būti perkeltas į krepšelio puslapį. Kitu atveju vartotojas gali likti dabartiniame puslapyje, bet gauti pranešimą, patvirtinantį, kad produktas įtrauktas į krepšelį.
 

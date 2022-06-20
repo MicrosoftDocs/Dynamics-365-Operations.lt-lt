@@ -1,6 +1,6 @@
 ---
-title: Darbo su Turto nuoma pradžia
-description: Šioje temoje aprašoma funkcija Turto nuoma ir nurodomi veiksmai, reikalingi norint sukurti turto nuomą ir peržiūrėti tos nuomos informaciją.
+title: Darbo su turto nuoma pradžia
+description: Šiame straipsnyje aprašomos turto naudojimo galimybės ir pereiti per turto nuomos kūrimo veiksmus bei peržiūrėti tų nuomos informaciją.
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-09-24
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 991685f50a00e60026331bf573561be904c7f9ab
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: df4343031b3b116318f798f31adb4d1f6bed1db9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710335"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895144"
 ---
-# <a name="asset-leasing-get-started"></a>Darbo su Turto nuoma pradžia
+# <a name="asset-leasing-get-started"></a>Darbo su turto nuoma pradžia
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje aprašoma funkcija Turto nuoma ir nurodomi veiksmai, reikalingi norint sukurti turto nuomą ir peržiūrėti tos nuomos informaciją. Temoje taip pat apibrėžiami terminai, naudojami vartotojo sąsajoje ir dokumentacijoje. Turto funkcija yra išplėstinė nuomojamo turto valdymo, sekimo ir automatinių Microsoft Dynamics finansinių operacijų galimybė 365 finansuose. Turto nuoma atitinka tarptautinius apskaitos standartus (IFRS 16) ir JAV GAAP standartus (ASC 842). Turto nuoma fiksuoja ir apdoroja nuomos informaciją ir padeda generuoti mėnesinius nuomos ciklo žurnalo įrašus – nuo pradinio pripažinimo iki nuomos pablogėjimo ir nutraukimo. Turto perteikite sklandžiai su kitais "Dynamics 365 Finance" komponentais, įskaitant ilgalaikį turtą, mokėtinas sumas ir DK.
+Šiame straipsnyje aprašomos turto naudojimo galimybės ir pereiti per turto nuomos kūrimo veiksmus bei peržiūrėti tų nuomos informaciją. Straipsnis taip pat apibrėžia vartotojo sąsajoje ir dokumentacijoje naudojamą terminologiją. Turto funkcija yra išplėstinė nuomojamo turto valdymo, sekimo ir automatinių Microsoft Dynamics finansinių operacijų galimybė 365 finansuose. Turto nuoma atitinka tarptautinius apskaitos standartus (IFRS 16) ir JAV GAAP standartus (ASC 842). Turto nuoma fiksuoja ir apdoroja nuomos informaciją ir padeda generuoti mėnesinius nuomos ciklo žurnalo įrašus – nuo pradinio pripažinimo iki nuomos pablogėjimo ir nutraukimo. Turto perteikite sklandžiai su kitais "Dynamics 365 Finance" komponentais, įskaitant ilgalaikį turtą, mokėtinas sumas ir DK.
 
 Kad galėtumėte naudoti šią funkciją, ji turi būti įjungta jūsų sistemoje. Administratoriai gali naudoti **Funkcijos valdymas** darbo sritį, norėdami sužinoti funkcijos būseną ir įjungti ją, jei reikia. Darbo srityje **Funkcijų valdymas** raskite ir pasirinkite funkciją, pavadinta **Turto nuoma** ir tada spustelėkite **Įjungti dabar** mygtuką.
 

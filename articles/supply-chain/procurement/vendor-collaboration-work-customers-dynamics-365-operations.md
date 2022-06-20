@@ -1,6 +1,6 @@
 ---
 title: Tiekėjo bendradarbiavimas su klientais
-description: Šioje temoje aprašoma, kaip galite naudoti tiekėjų bendradarbiavimą, norėdami dirbti su PU ir stebėti konsignacijos atsargas.
+description: Šiame straipsnyje aprašoma, kaip naudoti tiekėjų bendradarbiavimą darbui su PU ir stebėti konsignacijos atsargas.
 author: GalynaFedorova
 ms.date: 09/15/2020
 ms.topic: article
@@ -15,23 +15,23 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2020-11-01
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 5690630d4dde947798c925af66c73122c2efad3d
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 4e5748f2368376ee03f280f1487d1de65250d3a4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8673780"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859175"
 ---
 # <a name="vendor-collaboration-with-customers"></a>Tiekėjo bendradarbiavimas su klientais
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje aprašoma, kaip galite naudoti tiekėjų bendradarbiavimą, norėdami dirbti su klientais programoje „Microsoft Dynamics 365 Supply Chain Management“. Tiekėjai gali atlikti tam tikrus verslo procesus toliau nurodytose darbo srityse.
+Šiame straipsnyje aprašoma, kaip naudoti tiekėjų bendradarbiavimą norint dirbti su "Microsoft" klientais Dynamics 365 Supply Chain Management. Tiekėjai gali atlikti tam tikrus verslo procesus toliau nurodytose darbo srityse.
 
 - **Pirkimo užsakymo patvirtinimas** – pirkimo užsakymų (PU) stebėjimas ir reagavimas į juos.
 - **Tiekėjų kainos siūlymas** – pasiūlymo patvirtinimų (RFQ) peržiūra ir reagavimas į juos įvedant kainos siūlymus.
 - **Tiekėjo informacija** – tiekėjo bendrųjų duomenų peržiūra ir naujinimas.
-- **SF išrašymas** – darbas su SF. Šioje temoje neaptariama darbo sritis **SF išrašymas**. Jei reikia daugiau informacijos apie šią darbo sritį, žr. temą [Tiekėjo bendradarbiavimo SF išrašymo darbo sritis](../../finance/accounts-payable/vendor-portal-invoicing-workspace.md).
+- **SF išrašymas** – darbas su SF. Šis straipsnis neapima SF išrašymo **darbo** srities. Jei reikia daugiau informacijos apie šią darbo sritį, žr. temą [Tiekėjo bendradarbiavimo SF išrašymo darbo sritis](../../finance/accounts-payable/vendor-portal-invoicing-workspace.md).
 
 Tiekėjai taip pat gali stebėti informaciją apie konsignacijos atsargas.
 
@@ -47,9 +47,9 @@ Darbo srityje **Pirkimo užsakymo patvirtinimas** pateikiami trys sąrašai.
 
 Dirbdami su PU galite naudoti su toliau nurodytus puslapius.
 
-- **Pirkimo užsakymai, kuriuos galima peržiūrėti** – šiame puslapyje pateikiama ta pati informacija kaip darbo srities sąraše **Pirkimo užsakymai, kuriuos galima peržiūrėti**. Peržiūrėkite pirmiau šioje temoje pateiktą aprašymą.
+- **Pirkimo užsakymai, kuriuos galima peržiūrėti** – šiame puslapyje pateikiama ta pati informacija kaip darbo srities sąraše **Pirkimo užsakymai, kuriuos galima peržiūrėti**. Aprašą žr. anksčiau šiame straipsnyje.
 - **Pirkimo užsakymo tiekėjo patvirtinimo retrospektyva** – šiame puslapyje yra visi tiekėjui išsiųsti PU ir visos PU versijos. Jame taip pat yra visi atsakymai, kuriuos tiekėjas grąžino.
-- **Atviri patvirtinti pirkimo užsakymai** – šiame puslapyje pateikiama ta pati informacija kaip darbo srities sąraše **Atviri patvirtinti pirkimo užsakymai**. Peržiūrėkite pirmiau šioje temoje pateiktą aprašymą.
+- **Atviri patvirtinti pirkimo užsakymai** – šiame puslapyje pateikiama ta pati informacija kaip darbo srities sąraše **Atviri patvirtinti pirkimo užsakymai**. Aprašą žr. anksčiau šiame straipsnyje.
 - **Visi patvirtinti pirkimo užsakymai** – šiame puslapyje yra visi patvirtinti PU. POs, kurie yra rodomi šiame puslapyje įskaitant POs, kai produktai ir paslaugos buvo gauti. Šį sąrašą galite naudoti norėdami stebėti, kurių PU SF galite siųsti.
 
 ### <a name="responding-to-pos"></a>Atsakymas į PU

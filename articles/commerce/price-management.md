@@ -1,6 +1,6 @@
 ---
 title: Mažmeninės prekybos pardavimo kainos valdymas
-description: Šioje temoje aprašomos pardavimo kainų kūrimo ir valdymo „Dynamics 365 Commerce“ koncepcijos.
+description: Šiame straipsnyje aprašomos pardavimo kainų kūrimo ir valdymo koncepcijos Dynamics 365 Commerce.
 author: ShalabhjainMSFT
 ms.date: 07/28/2021
 ms.topic: article
@@ -14,29 +14,29 @@ ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f78a4f328d6962db373990ea60dc03cec35718dc719aa0b284b319db5bc059ab
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 16c948e6e14309f4e340bf622fac42b14e6ee591
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6759290"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887015"
 ---
-# <a name="retail-sales-price-management"></a>„Retail“ pardavimo kainų valdymas
+# <a name="retail-sales-price-management"></a>Mažmeninės prekybos pardavimo kainos valdymas
 
 [!include [banner](includes/banner.md)]
 
-Šioje temoje pateikiama informacija apie pardavimo kainų kūrimo ir valdymo „Dynamics 365 Commerce“ procesą. Pagrindinis dėmesys skiriamas šio proceso apimamoms koncepcijoms ir įvairių konfigūravimo parinkčių poveikiui pardavimo kainoms.
+Šiame straipsnyje pateikiama informacija apie pardavimo kainų kūrimo ir valdymo procesą Dynamics 365 Commerce. Pagrindinis dėmesys skiriamas šio proceso apimamoms koncepcijoms ir įvairių konfigūravimo parinkčių poveikiui pardavimo kainoms.
 
 ## <a name="terminology"></a>Terminologija
 
-Šioje temoje naudojami toliau nurodyti terminai.
+Šiame straipsnyje naudojami tokie terminai.
 
 | Semestras | Apibrėžimas, naudojimas ir pastabos |
 |---|---|
-| Kaina | Suma, už kurią parduodamas vienas produkto vienetas elektroninio kasos aparato (EKA) kliento programoje arba pardavimo užsakyme. Šioje temoje terminas *kaina* visada nurodo pardavimo kainą, o ne atsargų kainą ar savikainą. |
+| Kaina | Suma, už kurią parduodamas vienas produkto vienetas elektroninio kasos aparato (EKA) kliento programoje arba pardavimo užsakyme. Šiame straipsnyje terminas kaina *visada* nurodo pardavimo kainą, o ne atsargų kainą ar savikainą. |
 | Bazinė kaina | Kaina, kuri nustatoma išleisto produkto lauke **kaina**. |
 | Prekybos sutarties kaina | Kaina, nustatyta produktui arba jo variantui pagal **Kaina (pardavimai)** tipo prekybos sutartį. |
-| Geriausia kaina | Kai produktui galima pritaikyti daugiau nei vieną kainą arba nuolaidą, tai yra mažiausia kainos suma ir (arba) didžiausia nuolaidos suma, sudaranti mažiausią įmanomą grynąją sumą, kurią turi mokėti klientas. Šioje temoje ši geriausios kainos samprata visada vadinama „geriausia kaina“. Ši geriausia kaina skiriasi nuo ir neturėtų būti painiojama su **Geriausios kainos** išvardijimo verte, taikoma nuolaidos sutapimo režimui. |
+| Geriausia kaina | Kai produktui galima pritaikyti daugiau nei vieną kainą arba nuolaidą, tai yra mažiausia kainos suma ir (arba) didžiausia nuolaidos suma, sudaranti mažiausią įmanomą grynąją sumą, kurią turi mokėti klientas. Šiame straipsnyje geriausios kainos sąvoka visada vadinama "geriausia kaina". Ši geriausia kaina skiriasi nuo ir neturėtų būti painiojama su **Geriausios kainos** išvardijimo verte, taikoma nuolaidos sutapimo režimui. |
 
 ## <a name="price-groups"></a>Kainų grupės
 
@@ -97,7 +97,7 @@ Norėdami kainodaros prioritetą taikyti kainoms, kainų grupei turite priskirti
 
 Kainodaros prioriteto funkcija buvo įvesta tam atvejui, jei mažmenininkas tam tikrose parduotuvėse norėtų taikyti aukštesnes kainas. Pvz., mažmenininkas nustatė JAV Rytų pakrantei nustatė regionines kainas, bet kai kuriems produktams Niujorko parduotuvėse nori taikyti aukštesnes kainas, nes šiame mieste kai kuriuos produktus parduoti kainuoja brangiau ir (arba) vietinė rinka sugebės pakelti aukštesnę kainą.
 
-Kaip aprašyta šios temos skyriuje „Geriausia kaina“, kainodaros mechanizmas paprastai pasirenka mažesniąją iš dviejų kainų. Todėl mažmenininkas paprastai negali taikyti aukštesnės iš dviejų kainų parduotuvėje, turinčioje ir Rytų pakrantės, ir Niujorko kainų grupes. Norėdamas išspręsti šią problemą, kai dar nebuvo įvesta kainodaros prioriteto funkcija, mažmenininkas kainas kiekvienam produktui turėjo nurodyti du kartus ir turėjo nepriskirti abiejų kainų grupių. Arba mažmenininkas turėjo sukurti papildomų kainų grupių, kad atskirtų aukštesnes kainas turinčius produktus nuo produktų, kurie turi įprastas žemesnes kainas.
+Kaip aprašyta šio straipsnio skyriuje "Geriausia kaina", kainos modulis paprastai pasirenka mažesnę nei dvi kainas. Todėl mažmenininkas paprastai negali taikyti aukštesnės iš dviejų kainų parduotuvėje, turinčioje ir Rytų pakrantės, ir Niujorko kainų grupes. Norėdamas išspręsti šią problemą, kai dar nebuvo įvesta kainodaros prioriteto funkcija, mažmenininkas kainas kiekvienam produktui turėjo nurodyti du kartus ir turėjo nepriskirti abiejų kainų grupių. Arba mažmenininkas turėjo sukurti papildomų kainų grupių, kad atskirtų aukštesnes kainas turinčius produktus nuo produktų, kurie turi įprastas žemesnes kainas.
 
 O štai kainodaros prioriteto funkcija mažmenininkui leidžia parduotuvės kainoms sukurti kainodaros prioritetą, kuris yra aukštesnis už regioninių kainų kainodaros prioritetą. Arba mažmenininkas gali sukurti kainodaros prioritetą tik parduotuvių kainoms, o regioninėms kainoms palikti numatytąjį kainodaros prioritetą, kuris yra 0 (nulis). Abu nustatymai padeda užtikrinti, kad parduotuvių kainos visada turės pirmenybę prieš regionines kainas.
 
@@ -151,7 +151,7 @@ Naudodami prekybos sutarčių žurnalą, galite kurti kiekvieno produkto pardavi
 
 **Lentelės** pardavimo kainos prekybos sutartis yra skirta vienam klientui, kuris nustatomas tiesiogiai prekybos sutartyje. Tai nėra įprastas verslas–vartotojui (B2C) scenarijus. Tačiau jei taip atsitinka, kainodaros mechanizmas, nustatydamas kainą, naudoja prekybos sutartis **Lentelė**.
 
-**Grupės** pardavimo kainos prekybos sutarties tipas yra dažniausiai naudojamas. Išorės „Commerce“, **Grupės** pardavimo kainos prekybos sutartys yra skirtos paprastai klientų grupei. Tačiau „Commerce“ klientų grupės sąvoka platesnė, jai priskiriama bendresnė kainų grupė. Kainų grupę galima susieti su kanalu, priskyrimu, lojalumo programa ar katalogu. Daugiau informacijos apie kainų grupes žr. skyriuje „Kainų grupės“, pateiktame ankstesnėje šios temos dalyje.
+**Grupės** pardavimo kainos prekybos sutarties tipas yra dažniausiai naudojamas. Išorės „Commerce“, **Grupės** pardavimo kainos prekybos sutartys yra skirtos paprastai klientų grupei. Tačiau „Commerce“ klientų grupės sąvoka platesnė, jai priskiriama bendresnė kainų grupė. Kainų grupę galima susieti su kanalu, priskyrimu, lojalumo programa ar katalogu. Išsamesnės informacijos apie kainų grupes žr. ankstesniame šio straipsnio skyriuje "Kainų grupės".
 
 > [!NOTE]
 > Prekybos sutarties kaina visada naudojama prieš bazinę kainą.

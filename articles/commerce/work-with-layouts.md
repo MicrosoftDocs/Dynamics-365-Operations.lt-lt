@@ -1,6 +1,6 @@
 ---
 title: Darbas su esamais maketais
-description: Šioje temoje aprašoma, kaip programoje „Microsoft Dynamics 365 Commerce“ dirbti su iš anksto nustatytais maketais.
+description: Šiame straipsnyje aprašoma, kaip dirbti su iš anksto nustatytais maketais, kai yra Microsoft Dynamics 365 Commerce.
 author: phinneyridge
 ms.date: 02/03/2022
 ms.topic: article
@@ -14,20 +14,20 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 56ad992b6a9fd6fce09cadad70b8098acdc74ac0
-ms.sourcegitcommit: 1eef00796f7c5511f432b01800cdf8920992d7d5
+ms.openlocfilehash: 34b9cb15dd77e6317208e6468fbfb60e804f5e8f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/04/2022
-ms.locfileid: "8090850"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896845"
 ---
 # <a name="work-with-preset-layouts"></a>Darbas su esamais maketais
 
 [!include [banner](includes/banner.md)]
 
-Šioje temoje aprašoma, kaip programoje „Microsoft Dynamics 365 Commerce“ dirbti su iš anksto nustatytais maketais.
+Šiame straipsnyje aprašoma, kaip dirbti su iš anksto nustatytais maketais, kai yra Microsoft Dynamics 365 Commerce.
 
-Prieš atlikdami šioje temoje aprašytas procedūras, būtinai perskaitykite temą [Iš anksto nustatyti ir pasirinktiniai maketai](templates-layouts-overview.md#preset-and-custom-layouts). Bendra apžvalga pateikiama temoje [Šablonų ir maketų apžvalga](templates-layouts-overview.md).
+Prieš pabaigdami šiame straipsnyje nurodytas procedūras, būtinai perskaitykite iš anksto nustatytą [ir pasirinktinį maketus](templates-layouts-overview.md#preset-and-custom-layouts). Bendra apžvalga pateikiama temoje [Šablonų ir maketų apžvalga](templates-layouts-overview.md).
 
 ## <a name="create-a-new-preset-layout"></a>Naujo iš anksto nustatyto maketo kūrimas
 
@@ -78,7 +78,7 @@ Paprastai nustatoma visų puslapių, kuriuose naudojamas iš anksto nustatytas m
 Norėdami nustatyti arba pakeisti visų antrinių puslapių, kuriuose naudojamas iš anksto nustatytas maketas, temą, atlikite toliau nurodytus veiksmus.
 
 1. Maketo rengyklės kairėje pusėje esančiame struktūros medyje pasirinkite puslapio konteinerio modulį. (Paprastai šis modulis yra antrasis mazgas, o jo pavadinimas yra **Numatytasis puslapis**.)
-1. Viduje konors **tema** ypatybių srities dešinėje pasirinkite temą.
+1. Dešiniuoju **pelės** mygtuku esančioje ypatybės srities lauke Tema pasirinkite temą.
 
 ## <a name="save-check-in-preview-and-publish-a-preset-layout"></a>Iš anksto nustatyto maketo įrašymas, įregistravimas, peržiūra ir publikavimas
 
@@ -98,16 +98,16 @@ Kai peržiūrėsite iš anksto nustatyto maketo keitimus, atlikite vieną iš to
 > [!WARNING]
 > Iš anksto nustatyti maketai gali būti nurodyti keliuose puslapiuose. Kai publikuosite iš anksto nustatytą maketą, atkreipkite dėmesį, kad tai gali turėti įtakos kelių puslapių maketui.
 
-## <a name="rename-a-preset-layout"></a>Pervardykite iš anksto nustatytą išdėstymą
+## <a name="rename-a-preset-layout"></a>Iš anksto nustatytų maketų pervardijimas
 
-Norėdami pervardyti iš anksto nustatytą išdėstymą svetainių kūrimo priemonėje, atlikite šiuos veiksmus.
+Norėdami pervardyti iš anksto nustatytą maketą svetainės generatoriuje, atlikite šiuos veiksmus.
 
 1. Kairiojoje naršymo srityje pasirinkite **Maketai**.
-1. Pasirinkite maketo, kurį norite pervardyti, išdėstymo pavadinimą.
-1. Pasirinkite **Redaguoti** norėdami pradėti redaguoti išdėstymą.
-1. Išdėstymo ypatybių srityje pasirinkite rašiklio simbolį šalia maketo pavadinimo.
-1. Jei reikia, redaguokite išdėstymo pavadinimą.
-1. Pažymėkite varnelę, kad patvirtintumėte pavadinimo pakeitimą.
+1. Pasirinkite maketo, kurį norite pervardyti, pavadinimą.
+1. Norėdami **pradėti redaguoti** maketą, pasirinkite Redaguoti.
+1. Maketo ypatybės srityje pasirinkite rašiklio simbolį, esantį šalia maketo pavadinimo.
+1. Redaguokite maketo pavadinimą pagal poreikį.
+1. Pažymėkite žymės langelį, norėdami patvirtinti pavadinimo keitimą.
 1. Pasirinkite **Baigti redagavimą**.
 
 ## <a name="additional-resources"></a>Papildomi ištekliai

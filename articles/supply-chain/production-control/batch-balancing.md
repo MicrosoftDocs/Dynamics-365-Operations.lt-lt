@@ -1,6 +1,6 @@
 ---
 title: Paketo balansavimas
-description: Šioje temoje aprašomas paketų balansavimo procesas.
+description: Šiame straipsnyje aprašomas paketo balansavimo procesas.
 author: johanhoffmann
 ms.date: 01/04/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: a9e69b4d9213e57e5a920c7adda934ba845d17410c17d9c8a6356d717870ac23
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 50392e8aa0deb568a57e1df59ced70625a4f8a78
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6780081"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856054"
 ---
 # <a name="batch-balancing"></a>Paketo balansavimas
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje aprašoma, kaip palaikomas paketų balansavimo procesas.
+Šiame straipsnyje aprašoma, kaip palaikomas paketo balansavimo procesas.
 
 Norėdami gauti daugiau informacijos, peržiūrėkite [vaizdo įrašą apie paketo balansavimą](https://www.youtube.com/watch?v=4SNLWsU9KyI&feature=youtu.be).
 
@@ -149,7 +149,7 @@ Subalansuotas papildomo ingrediento kiekis apskaičiuojamas kaip skirtumas tarp 
 Paketų balansavimo procesas atliekamas puslapyje **Paketų balansavimas**.
 Pasirinkite **Kaštų valdymas \> Paketiniai užsakymai**, o tada skirtuke **Procesas** pasirinkite **Partijų balansavimas**. Paketų balansavimo funkciją galima naudoti su paketiniais užsakymais, kurių būsena yra **Pradėtas**.
 
-Apskritai, partijų balansavimo funkciją paketiniams užsakymams galima taikyti, jei formulėje yra bent viena formulės eilutė, kurioje **Ingrediento tipas** yra *Aktyvusis*. (Norėdami sužinoti apie šios taisyklės išimtį, žr. toliau šioje temoje pateiktą skyrių „Paketiniai užsakymai, kuriems paketų balansavimo funkcijos taikyti negalima“.)
+Apskritai, partijų balansavimo funkciją paketiniams užsakymams galima taikyti, jei formulėje yra bent viena formulės eilutė, kurioje **Ingrediento tipas** yra *Aktyvusis*. (Šios taisyklės išimties ieškokite šio straipsnio skyriuje "Paketinių užsakymų, kurie negali būti taikomi paketui balansuoti".)
 
 Paketų balansavimo procesą galima išskaidyti į du antrinius procesus.
 

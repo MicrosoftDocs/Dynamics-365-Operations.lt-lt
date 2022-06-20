@@ -1,6 +1,6 @@
 ---
 title: Neigiamos dienos ir dinaminės neigiamos dienos
-description: Šioje temoje pateikiama informacija apie neigiamas dienas ir dinamines neigiamas dienas, taip pat apie tai, kaip jomis naudotis, kad būtų lengviau atlikti verslo reikalus.
+description: Šiame straipsnyje pateikiama informacija apie neigiamas dienas ir dinamines neigiamas dienas, ir kaip jas naudoti, norint padėti jūsų verslui.
 author: t-benebo
 ms.date: 05/25/2021
 ms.topic: article
@@ -10,27 +10,27 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2019-06-07
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6d88517c99a274911e8abd8de4bcd318139822a5
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: d83aab9b7d3d30d519e8b313a57f2802de3cfb72
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8469875"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846133"
 ---
 # <a name="negative-days-and-dynamic-negative-days"></a>Neigiamos dienos ir dinaminės neigiamos dienos
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje pateikiama informacija apie neigiamas dienas ir dinamines neigiamas dienas, taip pat apie tai, kaip jomis naudotis, kad būtų lengviau atlikti verslo reikalus. *Neigiamų dienų laiko riba* reiškia, kiek dienų norite palaukti prieš užsisakydami naują papildymą, kai atsargų kiekis neigiamas.
+Šiame straipsnyje pateikiama informacija apie neigiamas dienas ir dinamines neigiamas dienas, ir kaip jas naudoti, norint padėti jūsų verslui. *Neigiamų dienų laiko riba* reiškia, kiek dienų norite palaukti prieš užsisakydami naują papildymą, kai atsargų kiekis neigiamas.
 
-Šioje temoje sužinosite toliau nurodytą informaciją.
+Šiame straipsnyje jūs sužinosite šią informaciją:
 
 - Kaip kuriami suplanuoti užsakymai
 - Neigiamų dienų laiko ribos koreliavimas su prekės gamybos laiku
 - Kaip apskaičiuojama dinaminių neigiamų dienų laiko riba ir kaip skaičiuojant įtraukiamas prekės gamybos laikas
 - Kaip interpretuoti su neigiamomis dienomis susijusius [pasiūlymus dėl medžiagų poreikio planavimo (MRP) (bendrojo planavimo) vykdymo trukmės tobulinimo](https://blogs.msdn.com/b/axmfg/archive/2015/01/02/checklist-for-improving-mrp-performance-part-2-how-to-setup-planning-parameters.aspx)
 
-Šioje temoje naudojami trys hipotetiniai scenarijai, padedantys suprasti šią informaciją. Scenarijai skiriasi toje vietoje, kurioje gaunamas poreikis: prieš, per prekės gamybos laikotarpį arba po jo.
+Šiame straipsnyje naudojami trys įprasti scenarijai, kurie padeda suprasti šią informaciją. Scenarijai skiriasi toje vietoje, kurioje gaunamas poreikis: prieš, per prekės gamybos laikotarpį arba po jo.
 
 ## <a name="scenario-1-you-get-demand-before-the-items-lead-time-period"></a>1 scenarijus: poreikis gaunamas prieš prekės gamybos laikotarpį
 
@@ -93,7 +93,7 @@ Tolesnėje iliustracijoje vaizduojamas grafinis rodinys, apimantis tai, kas nuti
 
 ### <a name="case-e-use-both-negative-days-that-are-more-than-the-items-lead-time-and-the-dynamic-negative-days-time-fence"></a>E atvejis: naudoti tiek neigiamas dienas, kurių daugiau negu prekės gamybos laiko dienų, tiek dinaminių neigiamų dienų laiko ribą
 
-Jei nustatysite tokį neigiamų dienų skaičių, kuris bus didesnis negu prekės gamybos laiko dienų skaičius, taip pat naudosite dinaminių neigiamų dienų laiko ribą, dinaminių neigiamų dienų laiko riba bus 6 + 6 + 0 = 12 dienų. Taikant šį metodą gali būti sukuriama labai ilga laiko riba, per kurią MRP turi ieškoti rezultatų. Norėdami gauti informacijos apie tai, kaip E atvejis susijęs su situacija, kai nustatoma ilga neigiamų dienų laiko riba, žr. šios temos skyrių [Išvada](#conclusion).
+Jei nustatysite tokį neigiamų dienų skaičių, kuris bus didesnis negu prekės gamybos laiko dienų skaičius, taip pat naudosite dinaminių neigiamų dienų laiko ribą, dinaminių neigiamų dienų laiko riba bus 6 + 6 + 0 = 12 dienų. Taikant šį metodą gali būti sukuriama labai ilga laiko riba, per kurią MRP turi ieškoti rezultatų. Informacijos apie tai, kaip E atvejis yra susijęs su situacija, kai neigiamų dienų skaičių nustatote kaip ilgo laiko ribas, [ieškokite šio straipsnio skyriuje Išvada](#conclusion).
 
 ## <a name="scenario-2-you-get-demand-during-the-items-lead-time-period"></a>2 scenarijus: poreikis gaunamas prekės gamybos laikotarpiu
 
@@ -142,7 +142,7 @@ Nustačius neigiamų dienų reikšmę **0** (nulis) ir naudojantis tik dinamini�
 
 ### <a name="case-e-use-both-negative-days-that-are-more-than-the-items-lead-time-and-the-dynamic-negative-days-time-fence"></a>E atvejis: naudoti tiek neigiamas dienas, kurių daugiau negu prekės gamybos laiko dienų, tiek dinaminių neigiamų dienų laiko ribą
 
-Jei nustatysite tokį neigiamų dienų skaičių, kuris bus didesnis negu prekės gamybos laiko dienų skaičius, taip pat naudosite dinaminių neigiamų dienų laiko ribą, dinaminių neigiamų dienų laiko riba bus 6 + 6 – 4 = 8 dienos. Taikant šį metodą gali būti sukuriama labai ilga laiko riba, per kurią MRP turi ieškoti rezultatų. Norėdami gauti informacijos apie tai, kaip E atvejis susijęs su situacija, kai nustatoma ilga neigiamų dienų laiko riba, žr. šios temos skyrių [Išvada](#conclusion).
+Jei nustatysite tokį neigiamų dienų skaičių, kuris bus didesnis negu prekės gamybos laiko dienų skaičius, taip pat naudosite dinaminių neigiamų dienų laiko ribą, dinaminių neigiamų dienų laiko riba bus 6 + 6 – 4 = 8 dienos. Taikant šį metodą gali būti sukuriama labai ilga laiko riba, per kurią MRP turi ieškoti rezultatų. Informacijos apie tai, kaip E atvejis yra susijęs su situacija, kai neigiamų dienų skaičių nustatote kaip ilgo laiko ribas, [ieškokite šio straipsnio skyriuje Išvada](#conclusion).
 
 ## <a name="scenario-3-you-get-demand-after-the-items-lead-time-period"></a>3 scenarijus: poreikis gaunamas pasibaigus prekės gamybos laikotarpiui
 
@@ -204,7 +204,7 @@ Nustačius neigiamų dienų reikšmę **0** (nulis) ir naudojantis tik dinamini�
 
 ## <a name="conclusion"></a>Išvada
 
-Kaip pastebima šioje temoje apžvelgus tris scenarijus, naudinga nustatyti tokį neigiamų dienų skaičių, kuris būtų didesnis negu padengimo grupės prekių gamybos laiko dienų skaičius. Taip pat naudinga naudoti tik dinamines neigiamas dienas ir nustatyti tokį neigiamų dienų skaičių, kuris atitiktų skaičių, kiek dienų norite palaukti prieš užsakydami naują papildymą, kai atsargų kiekis neigiamas (kitaip tariant, kiek dar dienų pageidaujate atidėti poreikį). Be to, tos pačios padengimo grupės prekių gamybos laikai turėtų būti panašūs.
+Kaip rodo trys šio straipsnio scenarijai, geriausia neigiamas dienas nustatyti skaičiais, kurie yra daugiau nei padengimo grupės prekių gamybos laikas. Taip pat naudinga naudoti tik dinamines neigiamas dienas ir nustatyti tokį neigiamų dienų skaičių, kuris atitiktų skaičių, kiek dienų norite palaukti prieš užsakydami naują papildymą, kai atsargų kiekis neigiamas (kitaip tariant, kiek dar dienų pageidaujate atidėti poreikį). Be to, tos pačios padengimo grupės prekių gamybos laikai turėtų būti panašūs.
 
 Nustačius neigiamų dienų reikšmę **0** (nulis) ir nenaudojant dinaminių neigiamų dienų, MRP visada sukuria naują suplanuotą užsakymą, kad būtų patenkintas poreikis. Šiuo atveju svarbu dirbant atkreipti dėmesį į veiksmų pranešimus, kad įsitikintumėte, jog neprisikaups atsargų.
 

@@ -1,6 +1,6 @@
 ---
 title: Reiso būsenos nustatymas
-description: Šioje temoje aprašoma, kaip nustatyti būsenos reikšmes, kurias vartotojai gali priskirti reisams.
+description: Šiame straipsnyje aprašoma, kaip nustatyti būsenos vertes, kurias vartotojai gali priskirti reisams.
 author: Weijiesa
 ms.date: 01/13/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2021-01-13
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 5a6741085f0244166fc46aa14a031d3550d11d9d
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 1cec728f2fa49175c063818ee7f188b441945647
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8691165"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907325"
 ---
 # <a name="voyage-status-setup"></a>Reiso būsenos nustatymas
 

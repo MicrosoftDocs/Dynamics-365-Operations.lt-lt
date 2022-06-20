@@ -1,6 +1,6 @@
 ---
 title: Užsakymo ieškos modulis
-description: Ši tema paaiškina užsakymo ieškos modulį ir tai, kaip jį sukonfigūruoti „Microsoft Dynamics 365 Commerce“.
+description: Šiame straipsnyje aprašomas užsakymo peržvalgos modulis ir paaiškinama, kaip jį konfigūruoti Microsoft Dynamics 365 Commerce.
 author: stuharg
 ms.date: 09/01/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2021-08-15
 ms.dyn365.ops.version: Release 10.0.22
-ms.openlocfilehash: 0ae5c8a2eea84a9aa707f7c2f6f29950f2f48faa
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.openlocfilehash: c83463d9a0ece9605b0d22bee2a1c76057c8ed05
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7675122"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8869435"
 ---
 # <a name="order-lookup-module"></a>Užsakymo ieškos modulis
 
 [!include [banner](includes/banner.md)]
 
-Ši tema paaiškina užsakymo ieškos modulį ir tai, kaip jį sukonfigūruoti „Microsoft Dynamics 365 Commerce“.
+Šiame straipsnyje aprašomas užsakymo peržvalgos modulis ir paaiškinama, kaip jį konfigūruoti Microsoft Dynamics 365 Commerce.
 
 Užsakymų peržvalgos modulis pateikia formą, kurią klientai gali naudoti el. komercijos svetainėje pateiktiems užsakymams ieškoti. Jis naudojamas kaip svečio tikrinimo [funkcijos įgalinti užsakymo peržvalgą](order-lookup-guest.md) dalis. Užsakymo peržvalgos modulį galima naudoti norint peržiūrėti užsakymus, pateiktus per el. komercijos svetainę, mažmeninės prekybos elektroninį kasos punktą (EKA) arba skambučių centrą. Forma gali nuskaityti užsakymus, kuriuos pateikė ir svečių vartotojai, ir užregistruoti vartotojai.
 

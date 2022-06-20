@@ -1,6 +1,6 @@
 ---
 title: Sandėlio procesų kokybės valdymas
-description: Šioje temoje pateikta informacija apie funkciją „Sandėlio procesų kokybės valdymas“. Ši priemonė išplečia kokybės valdymo galimybes ir leidžia vartotojams integruoti prekių pavyzdžių ėmimo valdiklius į sandėlio gavimo procesą, naudojant patobulintą sandėlio valdymą.
+description: Šiame straipsnyje pateikiama informacija apie sandėlio procesų funkcijos kokybės valdymą. Ši priemonė išplečia kokybės valdymo galimybes ir leidžia vartotojams integruoti prekių pavyzdžių ėmimo valdiklius į sandėlio gavimo procesą, naudojant patobulintą sandėlio valdymą.
 author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2020-04-02
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: a8a7ac8266c14791137f9eda51b5abb5a59e5961
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 7f806b58c5e956e4f26158e8ea5c90a559296655
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8679057"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857843"
 ---
 # <a name="quality-management-for-warehouse-processes"></a>Sandėlio procesų kokybės valdymas
 
@@ -69,7 +69,7 @@ Prieš tai, kai sandėlio darbas gali būti automatiškai sugeneruotas, kad atsa
 1. Kiekvienam darbo užsakymo tipui nustatykite vietų nurodymus, taikančius tinkamas kokybės kontrolės vietas, į kurias turi būti perkeltos atsargos. Užbaigus kokybės kontrolę, darbo užsakymo tipo _Kokybės užsakymas_ vietos nurodymas užtikrina, kad bus pasirinkta nauja paskirties vieta, kad atsargas būtų galima perkelti iš kokybės kontrolės vietos.
 1. Nustatykite atitinkamus mobiliojo įrenginio meniu elementus, kurie palaikys gautų atsargų perkėlimą į kokybės kontrolės vietą, o atsargų, kurios pereina kokybės kontrolę arba jos nepereina, perkėlimą iš kokybės kontrolės vietos į naują vietą.
 
-Nuoseklų pavyzdį, kuriame parodyta, kaip atlikti šį nustatymą, rasite [pavyzdiniame scenarijuje](#example-scenario) šios temos pabaigoje.
+Išsamus pavyzdys, rodantis, kaip baigti šį nustatymą, pateiktas [šio](#example-scenario) straipsnio pabaigoje, žr. pavyzdį scenarijų.
 
 ## <a name="enable-a-warehouse-for-quality-management"></a>Sandėlio įgalinimas kokybės valdymui
 
@@ -188,7 +188,7 @@ Lauko **Nuorodos tipas** reikšmė šiuose pavyzdžiuose yra _Pirkimas_, o lauko
 | Krovinys | Visa numerio lentelė | Taip _(užrakinta / neredaguojama)_ | <p>Vieta: Taip</p><p>Numerio lentelė: Taip _(užrakinta / neredaguojama)_</p> | Taip | 3 | <p>**Dvi prekės:**</p><ul><li>**A prekės užsakymo eilutės kiekis: 120 EA (4 padėklai)**</li><li>**B prekės užsakymo eilutės kiekis: 90 EA (3 padėklai)**</li></ul><p>**Vienas krovinys, dvi krovinio eilutės su kiekvieno užsakymo eilute**</p><ol><li>LP1 prekės A gavimo 30 EA užregistravimas sandėlio valdymo mobiliųjų įrenginių programėlėje<p>Kokybės prekių pavyzdžių ėmimo darbas, skirtas 30 EA</p><p>1 kokybės užsakymas, skirtas 30 EA</p></li><li>LP2 prekės A gavimo 30 EA užregistravimas sandėlio valdymo mobiliųjų įrenginių programėlėje<p>Pirkimo užsakymo darbas, skirtas 30 EA (padėjimas)</p></li><li>LP3 prekės A gavimo 30 EA užregistravimas sandėlio valdymo mobiliųjų įrenginių programėlėje<p>Pirkimo užsakymo darbas, skirtas 30 EA (padėjimas)</p></li><li>LP4 prekės A gavimo 30 EA užregistravimas sandėlio valdymo mobiliųjų įrenginių programėlėje<p>Kokybės prekių pavyzdžių ėmimo darbas, skirtas 30 EA</p><p>1 kokybės užsakymas, skirtas 30 EA</p></li><li>LP5 prekės B gavimo 30 EA užregistravimas sandėlio valdymo mobiliųjų įrenginių programėlėje<p>Kokybės prekių pavyzdžių ėmimo darbas, skirtas 30 EA</p><p>1 kokybės užsakymas, skirtas 30 EA</p></li><li>LP6 prekės B gavimo 30 EA užregistravimas sandėlio valdymo mobiliųjų įrenginių programėlėje<p>Pirkimo užsakymo darbas, skirtas 30 EA (padėjimas)</p></li><li>LP7 prekės A gavimo 30 EA užregistravimas sandėlio valdymo mobiliųjų įrenginių programėlėje<p>Pirkimo užsakymo darbas, skirtas 30 EA (padėjimas)</p></li></ol> |
 | Apkrova | Procentai = 10 | Taip _(užrakinta / neredaguojama)_ | <p>Vieta: Ne</p><p>Numerio lentelė: Ne</p> | Ne | Netaikoma | <p>**Užsakymo eilutės kiekis: 100 EA**</p><p>**Nėra sukurtų krovinių. Taikoma užsakymo aprėptis.**</p><ol><li>LP1 užsakymo gavimo 50 EA užregistravimas sandėlio valdymo mobiliųjų įrenginių programėlėje<p>Kokybės prekių pavyzdžių ėmimo darbas, skirtas 5 EA</p><p>1 kokybės užsakymas, skirtas 5 EA</p><p>Pirkimo užsakymo darbas, skirtas 45 EA (padėjimas)</p></li><li>LP2 užsakymo gavimo 50 EA užregistravimas sandėlio valdymo mobiliųjų įrenginių programėlėje<p>Kokybės prekių pavyzdžių ėmimo darbas, skirtas 5 EA</p><p>1 kokybės užsakymas, skirtas 5 EA</p><p>Pirkimo užsakymo darbas, skirtas 45 EA (padėjimas)</p></li></ol> |
 
-Kai darbuotojas patikrina vieną iš ankstesniame lentelėje pateiktų kokybės užsakymų, sistema automatiškai sugeneruoja kokybės užsakymo darbą, kad atsargos būtų perkeltos iš kokybės kontrolės vietos į vietą, nurodytą darbo užsakymo tipo _Kokybės užsakymas_ vietos nurodyme. Šiam tikslui galite nustatyti bet kurią vietą, pvz., grąžinimo arba saugojimo vietą, atsižvelgdami į kokybės užsakymo bandymo rezultatą. Šio nustatymo pavyzdį rasite [pavyzdiniame scenarijuje](#example-scenario) šios temos pabaigoje.
+Kai darbuotojas patikrina vieną iš ankstesniame lentelėje pateiktų kokybės užsakymų, sistema automatiškai sugeneruoja kokybės užsakymo darbą, kad atsargos būtų perkeltos iš kokybės kontrolės vietos į vietą, nurodytą darbo užsakymo tipo _Kokybės užsakymas_ vietos nurodyme. Šiam tikslui galite nustatyti bet kurią vietą, pvz., grąžinimo arba saugojimo vietą, atsižvelgdami į kokybės užsakymo bandymo rezultatą. Kaip šio nustatymo pavyzdį, žr [. pavyzdį](#example-scenario) scenarijų šio straipsnio pabaigoje.
 
 Galite iš naujo atidaryti jau patikrintą kokybės užsakymą, su sąlyga, kad kokybės užsakymo darbo, susijusio su atsargų perkėlimu iš kokybės kontrolės vietos, lauko **Darbo būsena** reikšmė nėra *Uždarytas* arba *Vykdomas*.
 

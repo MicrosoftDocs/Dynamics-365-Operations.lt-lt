@@ -1,6 +1,6 @@
 ---
 title: Darbas su elektroninių pranešimų funkcija
-description: Šioje temoje pateikiama informacija apie tai, kaip dirbti su elektroninių pranešimų (EM) funkcija.
+description: Šiame straipsnyje pateikiama informacija apie tai, kaip dirbti su elektroninių pranešimų (EM) funkcijomis.
 author: liza-golub
 ms.date: 07/07/2021
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: elgolu
 ms.search.validFrom: 2021-06-24
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: a65971fa1da60b00bb525d450c0eb59aee57116e
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: b61c119a06e1a7281d3adb67e043d2f7002cbea1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8733769"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880707"
 ---
 # <a name="work-with-the-electronic-messages-functionality"></a>Darbas su elektroninių pranešimų funkcija
 

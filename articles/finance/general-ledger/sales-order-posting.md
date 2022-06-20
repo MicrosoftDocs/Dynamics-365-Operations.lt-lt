@@ -1,6 +1,6 @@
 ---
 title: Pardavimo užsakymo registravimas
-description: Šioje temoje pateikiama informacija apie atsargų registravimo šablono puslapio pardavimo užsakymo skirtuką.
+description: Šiame straipsnyje pateikiama informacija apie pardavimo užsakymo skirtuką atsargų registravimo šablono puslapyje.
 author: rachelprofitt
 ms.date: 04/25/2022
 ms.topic: overview
@@ -10,12 +10,12 @@ ms.search.form: InventPosting, InventItemGroup
 audience: Application User
 ms.search.region: Global
 ms.author: raprofit
-ms.openlocfilehash: 5d84723b51d6977867fa162c4a47befa61bd9ef6
-ms.sourcegitcommit: dc3053625dfe24aef64399dd1d002214e7f7619f
+ms.openlocfilehash: 5ea1c3c90b32d18243615e3ff283e1e818ac23b6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/13/2022
-ms.locfileid: "8755934"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8886319"
 ---
 # <a name="sales-order-posting"></a>Pardavimo užsakymo registravimas
 
@@ -79,7 +79,7 @@ Toliau pateikiamoje lentelėje pateikiami numatytųjų registravimo tipų, kuri�
 | Pristatytų vienetų savikaina | 140100</br>140101 | Medžiagų atsargos</br>Išsiųstos medžiagos, kurių SF neišrašyta | Turtas | Kreditas | Taip | P | Vienetų, kuriems išrašyta SF, savikaina | Naudojamas registruojant pardavimo užsakymo važtaraštį. Korespondentinė sąskaita yra parduotų, pristatytų prekių savikaina. Šioje sąskaitoje nurodyta suma atšaukiama, kai užregistruojama pardavimo užsakymo SF. Galbūt norėsite naudoti medžiagų, kurioms neišrašyta SF, sąskaitą, kad ji atspindėtų faktines atsargas, ir rezervuoti medžiagų atsargų sąskaitą finansinio atnaujinimo metu. |
 | Parduotų ir pristatytų prekių savikaina | 500150 | Atidėta PPK | Išlaidos | Debetas | Taip | P  | Naudojamas registruojant pardavimo užsakymo važtaraštį. Sąskaitos korespondentinė sąskaita yra pristatytų vienetų išlaidos. Šioje sąskaitoje nurodyta suma atšaukiama, kai užregistruojama pardavimo užsakymo SF. |
 | Vienetų, kuriems išrašyta SF, savikaina | 140100 | Medžiagų atsargos | Turtas | Kreditas | Ne | Pn. | Pristatytų vienetų savikaina | Naudojamas, kai registruojama pardavimo užsakymo SF. Šios sąskaitos korespondentinė sąskaita yra parduotų prekių savikaina, kurios SF išrašyta. Ši sąskaita rodo atsargas jūsų balanso lape. |
-| Parduotų prekių savikaina, išrašyta SF | 500100 | PPK medžiagos | Išlaidos | Debetas | Ne | Pn.  | Naudojamas, kai registruojama pardavimo užsakymo SF. Šios sąskaitos korespondentinė sąskaita yra vienetų išlaidos, kurioms išrašyta SF. Ši sąskaita jūsų PL išraše nurodo PGS&amp;. |
+| Parduotų prekių savikaina, išrašyta SF | 500100 | PPK medžiagos | Išlaidos | Debetas | Ne | Pn.  | Naudojamas, kai registruojama pardavimo užsakymo SF. Šios sąskaitos korespondentinė sąskaita yra vienetų išlaidos, kurioms išrašyta SF. Ši sąskaita pristato PGS savo P L išraše&amp;. |
 | Įplaukos (pardavimo užsakymo įplaukos*) | 400100 | Įplaukų medžiagos | Įplaukos | Kreditas | Ne | Pn.   | Naudojamas, kai registruojama pardavimo užsakymo SF. **Šios sąskaitos korespondentinė sąskaita** yra gautinų sumų registravimo šablone pateikta su suvestine sąskaita (kliento balansas*). |
 | Komisiniai (pardavimai, komisiniai*) | 602150 | Komisinių išlaidos | Išlaidos | Debetas | Ne | Pn.  | Naudojama, kai įgalinti ir apskaičiuoti pardavimo komisiniai ir užregistruoti pardavimo užsakymo SF proceso metu. Šios sąskaitos korespondentinė sąskaita yra mokėtinos sumos Komisiniai. |
 | Komisinių korespondentinė sąskaita (pardavimas, komisinių korespondentinė sąskaita*) | 201110 | Mokėtini komisiniai | Įsipareigojimai | Kreditas | Taip | Pn. | Naudojama, kai įgalinti ir apskaičiuoti pardavimo komisiniai ir užregistruoti pardavimo užsakymo SF proceso metu. Šios sąskaitos korespondentinė sąskaita yra Komisinių išlaidos. |
@@ -87,13 +87,13 @@ Toliau pateikiamoje lentelėje pateikiami numatytųjų registravimo tipų, kuri�
 | Atidėtų įplaukų korespondentinė sąskaita pristatyme (Pardavimas – važtaraščio įplaukų korespondentinė)* | 130400 | Gautinos sumos – neišrašyta SF | Turtas | Debetas | Taip | P  | Naudojama, kai atidėtos pristatymo įplaukos įgalintos ir užregistruojamos, kai apdorosite pardavimo užsakymo važtaraštį. Šios sąskaitos korespondentinė sąskaita yra atidėtos pristatymo įplaukos. Šioje sąskaitoje sumos automatiškai atšaukiamos, kai registruojate pardavimo užsakymo SF. |
 | Atidėtas PVM pristatuojant (pardavimas, važtaraščio mokestis*) | 250500 | Atidėtas PVM | Įsipareigojimai | Kreditas | Taip | P  | Naudojama, kai yra įgalintos atidėtos pristatymo įplaukos ir įgalintas faktinio PVM registruoti. Mokesčio suma registruojama, kai apdorosite pardavimo užsakymo važtaraštį. |
 
-\* Vertės, rodomos skliausteliuose šioje lentelėje nurodo vertę, **kuri** naudojama kvito operacijų puslapio **lauke Registravimo** tipas. Galite peržiūrėti registravimo **tipą kvito** **operacijų puslapyje**, kuris yra skirtuke **Bendra**.
+\* Vertės, rodomos skliausteliuose šioje **lentelėje**, atitinka vertę, naudojamą kvito operacijų puslapio **lauke Registravimo** tipas. Galite peržiūrėti registravimo **tipą kvito** **operacijų puslapyje**, kuris yra skirtuke **Bendra**.
 
 ## <a name="sales-category-posting"></a>Pardavimo kategorijos registravimas
 
 Alternatyvą nustatyti visų prekių, prekių grupės arba vienos prekės atsargų registravimą, nustatyti kategorijas ir valdyti DK registravimą pagal pardavimo kategorijas. Norėdami gauti daugiau informacijos apie kategorijų hierarchijos nustatymą ir kategorijų priskyrimą produktams, [...](/supply-chain/pim/tasks/create-hierarchy-product-classification.md)[eikite į Produktų klasifikacijos hierarchijos kūrimas ir Klasifikuoti produktą naudojant kategorijų hierarchijas.](/supply-chain/pim/tasks/classify-product-category-hierarchies.md)
 
-Sukūrę kategorijų hierarchiją, turite priskirti hierarchiją vienam arba daugiau tipų. Norėdami naudoti kategorijų hierarchiją pardavimo užsakymuose, turite priskirti kategoriją pardavimo kategorijų hierarchijos tipui. Daugiau informacijos rasite kategorijų [hierarchijoms.](/dynamicsax-2012/appuser-itpro/about-category-hierarchies.md)
+Sukūrę kategorijų hierarchiją, turite priskirti hierarchiją vienam arba daugiau tipų. Norėdami naudoti kategorijų hierarchiją pardavimo užsakymuose, turite priskirti kategoriją pardavimo kategorijų hierarchijos tipui. Daugiau informacijos rasite kategorijų [hierarchijoms](/dynamicsax-2012/appuser-itpro/about-category-hierarchies.md).
 
 ## <a name="create-revenue-posting-by-sales-category"></a>Kurti įplaukų registravimą pagal pardavimo kategoriją
 

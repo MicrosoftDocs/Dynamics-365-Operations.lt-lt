@@ -1,6 +1,6 @@
 ---
 title: Produkto varianto matavimo vieneto konvertavimas
-description: Šioje temoje paaiškinama, kaip nustatyti produkto variantų matavimo vienetų konvertavimus. Joje pateikiamas nustatymo pavyzdys.
+description: Šiame straipsnyje paaiškinama, kaip nustatyti produkto variantų matavimo vienetų konvertavimą. Joje pateikiamas nustatymo pavyzdys.
 author: t-benebo
 ms.date: 05/11/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2019-04-01
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: c02252abcaf82cb2aab928949827e25ef7cce8c2
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: a605e510ac8faa1f92e105c9fcc30222ef78e05e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579573"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8869639"
 ---
 # <a name="unit-of-measure-conversion-per-product-variant"></a>Produkto varianto matavimo vieneto konvertavimas
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje paaiškinama, kaip nustatyti įvairių produkto variantų matavimo vienetų konvertavimus.
+Šiame straipsnyje paaiškinama, kaip nustatyti įvairių produkto variantų matavimo vienetų konvertavimą.
 
 Užuot kūrę kelis atskirus produktus, kuriuos reikia prižiūrėti, galite naudoti produkto variantus, kad sukurtumėte vieno produkto variantus. Pavyzdžiui, produkto variantas gali būti nurodyto dydžio ir spalvos marškinėliai.
 

@@ -1,6 +1,6 @@
 ---
 title: Optimizavimo patarėjo apžvalga
-description: Šioje temoje aprašoma, kaip galite naudoti optimizavimo patarėją, siekdami užtikrinti optimalią „Finance and Operations“ konfigūraciją.
+description: Šiame straipsnyje aprašoma, kaip naudoti optimizavimo modulį, norint užtikrinti optimalią finansų ir operacijų konfigūraciją.
 author: roxanadiaconu
 ms.date: 07/23/2019
 ms.topic: overview
@@ -15,18 +15,18 @@ ms.search.industry: ''
 ms.author: sericks
 ms.search.validFrom: 2017-12-01
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 8039ff51dfb07bbdf5d6a102de1ff4ddbfd907a5
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 1dd66e27098b4125b03c4fe6b52825afe2ff34cf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984107"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8865867"
 ---
-# <a name="optimization-advisor-overview"></a>Optimizavimo patariamojo įrankio apžvalga
+# <a name="optimization-advisor-overview"></a>Optimizavimo patarėjo apžvalga
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje aprašoma, kaip galite naudoti optimizavimo patarėją, siekdami užtikrinti optimalią „Finance and Operations“ konfigūraciją.
+Šiame straipsnyje aprašoma, kaip naudoti optimizavimo modulį, norint užtikrinti optimalią finansų ir operacijų konfigūraciją.
 
 ## <a name="overview"></a>Apžvalga
 

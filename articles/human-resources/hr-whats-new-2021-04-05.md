@@ -1,6 +1,6 @@
 ---
 title: Kas nauja arba pasikeitė 2021 m. balandžio 5 d. „Dynamics 365 Human Resources”
-description: Šioje temoje aprašomos naujos arba pasikeitusios „Microsoft Dynamics 365 Human Resources” funkcijos 2021 m. balandžio 5 d.
+description: Šiame straipsnyje aprašomos naujos arba pasikeitusios „Microsoft Dynamics 365 Human Resources” funkcijos 2021 m. balandžio 5 d.
 author: marcelbf
 ms.date: 04/05/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-04-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 19ac856de0fed9253bf79cb4c06d4347e5a19c77
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 1b8074877b8d2b2c05596406cbf2d98febd2e8cc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8693478"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899533"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-april-5-2021"></a>Kas nauja arba pasikeitė 2021 m. balandžio 5 d. „Dynamics 365 Human Resources”
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Šioje temoje aprašomos naujos, pasikeitusios ar netrukus pasirodysiančios „Dynamics 365 Human Resources“ funkcijos.
+Šiame straipsnyje aprašomos priemonės, kurios yra naujos, pakeistos arba tuoj pat Dynamics 365 Human Resources.
 
 Daugiau informacijos apie mūsų atnaujinimo procesą ir grafiką žr. [Atnaujinimo procesas](hr-admin-setup-update-process.md).
 
@@ -48,9 +48,9 @@ Daugiau informacijos apie naujas funkcijas ir jų numatomas bendro pasiekiamumo 
 Toliau nurodyti klaidų ištaisymai įtraukti į šį leidimą.
 
 > [!NOTE]
-> Siekiame kuo greičiau pateikti jums šią informaciją. Galime atnaujinti šią temą, kad būtų įtraukti klaidų ištaisymai, įtraukti į komponavimo versiją publikavus šią temą.
+> Siekiame kuo greičiau pateikti jums šią informaciją. Galime atnaujinti šį straipsnį, kad būtų įtrauktos pataisos, kurios buvo sukurtas po to, kai buvo publikuotas šis straipsnis.
 
-| Problemos numeris | Išdavimas |  Aprašas |
+| Problemos numeris | Problema |  Aprašymas |
 | --- | --- | --- |
 | 550852 | **Patvirtinimo** mygtukas nepatvirtina privalomų laukų, nustatytų **Peržiūrėti** formoje. | Kai formoje **Peržiūrėti** nustatote lauką kaip privalomą ir paskelbiate pakeitimus Vadovo vaidmeniui, forma nėra patvirtinama, kaip tikėtasi. |
 | 559564 | Darbuotojų veiksmų dėl pastovios atlyginimo dalies pakeitimų retrospektyva išmeta klaidą nutrauktiems vartotojams. | Išėjusio darbuotojo atlyginimo dalies darbuotojo veiksmas išmeta klaidą. Kai darbuotojas nebedirba, darbuotojo paaukštinimo veiksmas prieš darbo nutraukimą išmeta klaidą. |

@@ -1,6 +1,6 @@
 ---
 title: Kliento skirstymo pagal terminus duomenų saugykla
-description: Šioje temoje aprašomas išorinio klientų skirstymo pagal terminus duomenų saugojimo naudojimo procesas. Galite vykdyti klientų skirstymo pagal terminus duomenų saugojimo procesą, kad išeigą būtų galima eksportuoti į išorinę sistemą.
+description: Šiame straipsnyje aprašomas procesas, kaip naudoti išorinę klientų skirstymo pagal terminus duomenų saugyklą. Galite vykdyti klientų skirstymo pagal terminus duomenų saugojimo procesą, kad išeigą būtų galima eksportuoti į išorinę sistemą.
 author: JodiChristiansen
 ms.date: 10/27/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1af4b4cbf503369565ee64ad8889ee9e59a92b3f
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: d7a66485cc9a538f5c3999009b6dbe295d7a5b9f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8735527"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894148"
 ---
 # <a name="customer-aging-data-storage"></a>Kliento skirstymo pagal terminus duomenų saugykla
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje aprašomas išorinio klientų skirstymo pagal terminus duomenų saugojimo naudojimo procesas. Microsoft Dynamics 365 finansuose galite vykdyti klientų skirstymo pagal terminus duomenų saugojimo procesą, **kad** išeigą būtų galima eksportuoti į išorinę sistemą. Kai vykdote procesą, tos pačios skirstymo pagal terminus ataskaitos pasirinktys, galimos sistemoje, yra galimos išorinėms sistemoms. Išsami informacija visada įtraukiama į eksportuotus duomenis.
+Šiame straipsnyje aprašomas procesas, kaip naudoti išorinę klientų skirstymo pagal terminus duomenų saugyklą. Microsoft Dynamics 365 finansuose galite vykdyti klientų skirstymo pagal terminus duomenų saugojimo procesą, **kad** išeigą būtų galima eksportuoti į išorinę sistemą. Kai vykdote procesą, tos pačios skirstymo pagal terminus ataskaitos pasirinktys, galimos sistemoje, yra galimos išorinėms sistemoms. Išsami informacija visada įtraukiama į eksportuotus duomenis.
 
 Gali padėti klientų skirstymo pagal terminus duomenis padaryti prieinamus išorinėje sistemoje saugykloje, kai išeigos operacijų yra daug klientų ir (arba) yra daug operacijų. Jei esamos klientų **skirstymo pagal terminus** ataskaitos laikas jau sueis, nes jame yra per daug duomenų spausdinti, ši funkcija suteikia alternatyvų būdą gauti tuos pačius duomenis.
 
@@ -56,8 +56,8 @@ Klientų **skirstymo pagal terminus duomenų** saugojimo puslapis neapima rezult
 > [!NOTE]
 > Prieš eksportuojant pridėti filtrą, kad būtų galima apriboti eksportuotus rezultatus iki naujausio skirstymo pagal terminus. Pavyzdžiui, pridėkite šiuos kriterijus, kad būtų pateiktas vėliausias paketinis paleidimas:
 >
-> (CustAgingDataStorageSysQueryRangeUtilgetLatestBatchName::())
+> (CustAgingDataStorageSysQueryRangeUtil:: getLatestBatchName())
 >
 > Arba pridėkite šiuos kriterijus, kad būtų galima grąžinti naujausią dabartinio vartotojo paketinį vykdymo paketą:
 >
-> (CustAgingDataStorageSysQueryRangeUtilgetLatestBatchNameForCurrentUser::())
+> (CustAgingDataStorageSysQueryRangeUtil:: getLatestBatchNameForCurrentUser())

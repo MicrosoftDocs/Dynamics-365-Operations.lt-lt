@@ -1,6 +1,6 @@
 ---
-title: Darbo eigos retrospektyvos peržiūra
-description: Atlikite šiuos veiksmus, jei norite peržiūrėti dokumento, pateikto darbo eigos sistemai apdoroti ir patvirtinti, būseną.
+title: Rodyti darbo eigos retrospektyvą
+description: Šiame straipsnyje aprašomi veiksmai, kaip peržiūrėti dokumento, kuris buvo pateiktas darbo eigos sistemai apdoroti ir patvirtinti, būseną.
 author: jasongre
 ms.date: 07/09/2019
 ms.topic: business-process
@@ -13,21 +13,21 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0ca9a8bff246cc878a0703947a7f8c1c4fc01963
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 8a5810eaed5d2ff6cb5c98e1b21c098c70f24485
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069964"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868585"
 ---
-# <a name="view-workflow-history"></a>Darbo eigos retrospektyvos peržiūra
+# <a name="view-workflow-history"></a>Rodyti darbo eigos retrospektyvą
 
 [!include [banner](../../includes/banner.md)]
 
 
 [!INCLUDE [PEAP](../../../../includes/peap-1.md)]
 
-Atlikite šiuos veiksmus, jei norite peržiūrėti dokumento, pateikto darbo eigos sistemai apdoroti ir patvirtinti, būseną. Kuriant šią procedūrą naudojama demonstracinių duomenų įmonė yra USMF.
+Šiame straipsnyje aprašomi veiksmai, kaip peržiūrėti dokumento, kuris buvo pateiktas darbo eigos sistemai apdoroti ir patvirtinti, būseną. Kuriant šią procedūrą naudojama demonstracinių duomenų įmonė yra USMF.
 
 1. Eikite į **Naršymo sritis > Moduliai > Bendra > Užklausos > Darbo eiga > Darbo eigos istorija**.
     - Naudokite šią formą, jei norite peržiūrėti dokumento, pateikto darbo eigos sistemai apdoroti ir patvirtinti, būseną.  

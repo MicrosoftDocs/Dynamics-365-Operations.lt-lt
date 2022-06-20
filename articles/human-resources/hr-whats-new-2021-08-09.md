@@ -1,6 +1,6 @@
 ---
 title: Kas nauja ar pasikeitė „Dynamics 365 Human Resources” 2021 m. rugpjūčio 9 d.
-description: Šioje temoje aprašomos naujos arba pasikeitusios „Microsoft Dynamics 365 Human Resources” funkcijos 2021 m. rugpjūčio 9 d.
+description: Šiame straipsnyje aprašomos priemonės, kurios yra naujos arba pakeistos Microsoft Dynamics 365 Human Resources 2021 m. rugpjūčio 9 d.
 author: marcelbf
 ms.date: 08/09/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-08-09
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5c43ed654a07834ce31a1425762f29c53aa2a020
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: ad1397084dd3eb210065fe6d8c20c5b8253cd206
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8689276"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8882872"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-august-9-2021"></a>Kas nauja ar pasikeitė „Dynamics 365 Human Resources” 2021 m. rugpjūčio 9 d.
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Šioje temoje aprašomos naujos, pasikeitusios ar netrukus pasirodysiančios „Microsoft Dynamics 365 Human Resources“ funkcijos.
+Šiame straipsnyje aprašomos priemonės, kurios yra naujos, pakeistos arba netrukus programoje "Microsoft"Dynamics 365 Human Resources.
 
 Daugiau informacijos apie mūsų atnaujinimo procesą ir grafiką žr. [Atnaujinimo procesas](hr-admin-setup-update-process.md).
 
@@ -40,9 +40,9 @@ Daugiau informacijos apie naujas funkcijas ir jų numatomas bendro pasiekiamumo 
 Toliau nurodyti klaidų ištaisymai įtraukti į šį leidimą.
 
 > [!NOTE]
-> Siekiame kuo greičiau pateikti jums šią informaciją. Galime atnaujinti šią temą, kad būtų įtraukti klaidų ištaisymai, įtraukti į komponavimo versiją publikavus šią temą.
+> Siekiame kuo greičiau pateikti jums šią informaciją. Mes galime atnaujinti šį straipsnį, kad būtų įtrauktos pataisos, kurios buvo sukurtas po to, kai buvo publikuotas šis straipsnis.
 
-| Problemos numeris | Problema | Aprašas |
+| Problemos numeris | Problema | Aprašymas |
 | --- | --- | --- |
 | 558385 | Numatytasis dizainas nesrinktas, kai **automatinio pasirinkimo dizainų** pasirinktis įjungta numatytieji dizaineriai. | Šis išdavimas dabar yra fiksuotas. Tinkamiuose planuose automatiškai parenkami keli numatytieji dizainai, kai **personalo bendrinamų parametrų** parinktis **Žmogiškųjų išteklių bendrintų parametrų** puslapyje yra įjungta. |
 | 589617 | Laiko **išjungimo** puslapyje, kai **prieiga apribota** ir **Prieinama parduoti** balansai yra tušti, kai prieiga yra apribota konkrečiai įmonei. | Šis išdavimas dabar yra fiksuotas. Laiko **išjungimo** puslapyje rodoma tiksli **prieiga apribota** ir **Prieinama parduoti** balansai yra naudotojo prieiga, apribota konkrečiai įmonei. |

@@ -1,6 +1,6 @@
 ---
-title: Mokesčių funkcijų palaikymos operacijų užsakymams
-description: Šioje temoje paaiškinama naujos mokesčių priemonės perkėlimo užsakymų palaikymas naudojant mokesčių skaičiavimo tarnybą.
+title: Mokesčių funkcijų palaikymas perkėlimo užsakymams
+description: Šiame straipsnyje paaiškinamas naujos mokesčių priemonės perkėlimo užsakymų palaikymas naudojant mokesčių skaičiavimo tarnybą.
 author: Kai-Cloud
 ms.date: 10/13/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: d95ea6795dc5777bfd37f8fbb3ebc47f2db337a0
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 281ee90b7cae2d24d37d0684ad9975118560bb3e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8689220"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8869987"
 ---
-# <a name="tax-feature-support-for-transfer-orders"></a>Mokesčių funkcijų palaikymos operacijų užsakymams
+# <a name="tax-feature-support-for-transfer-orders"></a>Mokesčių funkcijų palaikymas perkėlimo užsakymams
 
 [!include [banner](../../includes/banner.md)]
 
-Šioje temoje pateikiama informacija apie mokesčių skaičiavimą ir registravimo integravimą perkėlimo užsakymuose. Ši funkcija leidžia nustatyti mokesčių skaičiavimą ir registravimą atsargų perkėlimo užsakymuose. Pagal Europos Sąjungos (ES) pridėtinės vertės mokesčio (PVM) nuostatus, atsargų perkėlimas laikomas vidiniu bendrijos tiekimu ir įsigijimais bendrijos viduje.
+Šiame straipsnyje pateikta informacija apie mokesčių skaičiavimą ir integravimo registravimą perkėlimo užsakymuose. Ši funkcija leidžia nustatyti mokesčių skaičiavimą ir registravimą atsargų perkėlimo užsakymuose. Pagal Europos Sąjungos (ES) pridėtinės vertės mokesčio (PVM) nuostatus, atsargų perkėlimas laikomas vidiniu bendrijos tiekimu ir įsigijimais bendrijos viduje.
 
 Norėdami konfigūruoti ir naudoti šią funkciją, turite atlikti tris pagrindinius veiksmus:
 

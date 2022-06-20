@@ -1,6 +1,6 @@
 ---
 title: „Supply Chain Management” standartiniai įrašyti rodiniai
-description: Šioje temoje aprašomi standartiniai galimi įrašyti rodiniai ir paaiškinama, kaip juos įgalinti.
+description: Šiame straipsnyje aprašomi standartiniai galimi įrašyti rodiniai ir paaiškinama, kaip juos įgalinti.
 author: kamaybac
 ms.date: 02/03/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 0709574ea44fcf841321044da31781862fcf1420
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 92ff2dfc9cd8b742a7b086e540bd2c527833254d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103693"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887579"
 ---
 # <a name="standard-saved-views-for-supply-chain-management"></a>„Supply Chain Management” standartiniai įrašyti rodiniai
 
 [!include [banner](../../includes/banner.md)]
 
-„Microsoft Dynamics 365 Supply Chain Management” įtraukia keletą įrašytų rodinių, kuriuos prireikus galite įgalinti ir naudoti. Kai kurie iš šių standartinių įrašytų rodinių yra optimizuoti ir pavadinti konkrečiam vaidmeniui arba užduočiai (pvz., „Kokybės kontrolė” arba „Gavimas”). Kitos yra optimizuotos taip, kad juose būtų tik laukai ir parametrai, kurie nurodyti „Microsoft” naudojimo statistikoje, ir klientų dažniausiai naudojami. Šie įrašyti rodiniai yra įprastai vadinami kaip *supaprastinti* rodiniai. Šioje temoje aprašomi standartiniai galimi įrašyti rodiniai ir paaiškinama, kaip juos įgalinti ir pritaikyti.
+„Microsoft Dynamics 365 Supply Chain Management” įtraukia keletą įrašytų rodinių, kuriuos prireikus galite įgalinti ir naudoti. Kai kurie iš šių standartinių įrašytų rodinių yra optimizuoti ir pavadinti konkrečiam vaidmeniui arba užduočiai (pvz., „Kokybės kontrolė” arba „Gavimas”). Kitos yra optimizuotos taip, kad juose būtų tik laukai ir parametrai, kurie nurodyti „Microsoft” naudojimo statistikoje, ir klientų dažniausiai naudojami. Šie įrašyti rodiniai yra įprastai vadinami kaip *supaprastinti* rodiniai. Šiame straipsnyje aprašomi standartiniai galimi įrašyti rodiniai ir paaiškinama, kaip juos įgalinti ir pritaikyti.
 
 Išsamesnės informacijos apie tai, kaip dirbti su įrašytais rodiniais, įskaitant standartinius įrašytus rodinius, kai įgalinote juos, žr. [Įrašyti rodiniai](../../fin-ops-core/fin-ops/get-started/saved-views.md?toc=/dynamics365/supply-chain/toc.json).
 
@@ -39,7 +39,7 @@ Norėdami gauti daugiau informacijos apie tai, kaip pritaikyti ir pervardyti įr
 
 Norėdami naudoti bet kokius įrašytus rodinius, neatsižvelgdami į tai, ar naudosite standartinius įrašytus rodinius, *·*[turite](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) įjungti funkcijos valdymo funkciją Įrašyti rodiniai (pagal numatytuosius nustatymus ši funkcija įjungta 10.0.21 versijoje).
 
-Likusiuose šios temos skyriuose pateikiamos lentelės, kurios aprašo standartinius įrašytus rodinius, kurie šiuo metu galimi kiekvienam susijusiam moduliui. Kiekvienoje lentelėje rodomas kiekvieno įrašyto rodinio pavadinimas, puslapis, kuriame jį galima rasti, ir jo aprašymas. Kiekvienoje lentelėje taip pat rodomas funkcijos, kurioje yra įrašytas rodinys, pavadinimas. Norėdami matyti standartinį įrašytą rodinį savo sistemoje, turite įjungti nurodytą funkciją [Funkcijų valdymas](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md). Kaip ir versijoje 10.0.25 visi išvardyti rodiniai įjungiami pagal numatytuosius parametrus.
+Likusiuose šio straipsnio skyriuose pateikiamos lentelės, kurios aprašo standartinius įrašytus rodinius, kurie šiuo metu pasiekiami kiekviename susijusiame modulyje. Kiekvienoje lentelėje rodomas kiekvieno įrašyto rodinio pavadinimas, puslapis, kuriame jį galima rasti, ir jo aprašymas. Kiekvienoje lentelėje taip pat rodomas funkcijos, kurioje yra įrašytas rodinys, pavadinimas. Norėdami matyti standartinį įrašytą rodinį savo sistemoje, turite įjungti nurodytą funkciją [Funkcijų valdymas](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md). Kaip ir versijoje 10.0.25 visi išvardyti rodiniai įjungiami pagal numatytuosius parametrus.
 
 ## <a name="saved-views-for-the-inventory-management-module"></a>Įrašyti atsargų valdymo modulio rodiniai
 
@@ -50,9 +50,9 @@ Likusiuose šios temos skyriuose pateikiamos lentelės, kurios aprašo standarti
 | Turimų atsargų sąrašas | Finansai | Šis supaprastintas rodinys leidžia jums sutelkti dėmesį į finansinę informaciją, kol valdote turimų atsargų atsargas. | Įrašyti atsargų valdymo rodiniai<br><br>(Pagal numatytąją reikšmę kaip versijos 10.0.21) |
 | Turimų atsargų sąrašas | Kokybės kontrolė | Šis supaprastintas rodinys leidžia jums sutelkti dėmesį į kokybės vadybą, kol valdote turimų atsargų atsargas. | Įrašyti atsargų valdymo rodiniai<br><br>(Pagal numatytąją reikšmę kaip versijos 10.0.21) |
 | Turimų atsargų sąrašas | Gavimas | Šis supaprastintas rodinys leidžia jums sutelkti dėmesį į gavimo operacijas, kol valdote turimų atsargų atsargas. | Įrašyti atsargų valdymo rodiniai<br><br>(Pagal numatytąją reikšmę kaip versijos 10.0.21) |
-| Turimų atsargų sąrašas | Pristatymas | Šis supaprastintas rodinys leidžia jums sutelkti dėmesį į siuntimo operacijas, kol valdote turimų atsargų atsargas. | Įrašyti atsargų valdymo rodiniai<br><br>(Pagal numatytąją reikšmę kaip versijos 10.0.21) |
+| Turimų atsargų sąrašas | Siuntimas | Šis supaprastintas rodinys leidžia jums sutelkti dėmesį į siuntimo operacijas, kol valdote turimų atsargų atsargas. | Įrašyti atsargų valdymo rodiniai<br><br>(Pagal numatytąją reikšmę kaip versijos 10.0.21) |
 | Operacijos | Supaprastintas | Šis supaprastintas rodinys leidžia peržiūrėti atsargų būseną, nepateikiant finansinės informacijos ir kitų mažiau dažnai naudojamų laukų. | Įrašyti atsargų valdymo rodiniai<br><br>(Pagal numatytąją reikšmę kaip versijos 10.0.21) |
-| Perkėlimo užsakymai | Pristatymas | Šis supaprastintas rodinys leidžia jums sutelkti dėmesį į siuntimo operacijas, kol valdote perkėlimo užsakymus. | Įrašyti atsargų valdymo rodiniai<br><br>(Pagal numatytąją reikšmę kaip versijos 10.0.21) |
+| Perkėlimo užsakymai | Siuntimas | Šis supaprastintas rodinys leidžia jums sutelkti dėmesį į siuntimo operacijas, kol valdote perkėlimo užsakymus. | Įrašyti atsargų valdymo rodiniai<br><br>(Pagal numatytąją reikšmę kaip versijos 10.0.21) |
 | Perkėlimo užsakymai | Gavimas | Šis supaprastintas rodinys leidžia jums sutelkti dėmesį į gavimo operacijas, kol valdote perkėlimo užsakymus. | Įrašyti atsargų valdymo rodiniai<br><br>(Pagal numatytąją reikšmę kaip versijos 10.0.21) |
 | Perkėlimo užsakymai | Kokybės kontrolė | Šis supaprastintas rodinys leidžia jums sutelkti dėmesį į kokybės kontrolę, kol valdote perkėlimo užsakymus. | Įrašyti atsargų valdymo rodiniai<br><br>(Pagal numatytąją reikšmę kaip versijos 10.0.21) |
 | Perkėlimo užsakymai | Finansai | Šis supaprastintas rodinys leidžia jums sutelkti dėmesį į finansinę informaciją, kol valdote perkėlimo užsakymus. | Įrašyti atsargų valdymo rodiniai<br><br>(Pagal numatytąją reikšmę kaip versijos 10.0.21) |

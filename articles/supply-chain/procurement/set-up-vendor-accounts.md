@@ -1,6 +1,6 @@
 ---
 title: Tiekėjų sąskaitų nustatymas
-description: Šioje temoje aprašoma informacijos, kurią turite nurodyti kurdami naują tiekėjo sąskaitą, tipai.
+description: Šiame straipsnyje aprašomi informacijos, kurią turite nurodyti kurdami naują tiekėjo kodą, tipai.
 author: GalynaFedorova
 ms.date: 02/03/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5d524ff99cba733fdd607d9708abba440248d6cc
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: d1ddf126305f39a35f61b9a98da1c6bce29372cf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8676980"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8875281"
 ---
 # <a name="set-up-vendor-accounts"></a>Tiekėjų sąskaitų nustatymas
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje aprašoma informacijos, kurią turite nurodyti kurdami naują tiekėjo sąskaitą, tipai.
+Šiame straipsnyje aprašomi informacijos, kurią turite nurodyti kurdami naują tiekėjo kodą, tipai.
 
 Kai kuriate tiekėjo sąskaitą, galite įvesti tiekėjo informaciją. Ši informacija naudojama duomenims į dokumentus automatiškai įvesti ir su tiekėju susijusiai veiklai sekti. Pvz., galite konfigūruoti toliau nurodytą tiekėjo informaciją.
 

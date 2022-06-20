@@ -1,6 +1,6 @@
 ---
 title: Atsargų skaičiavimo priežasčių kodai
-description: Šioje temoje aprašoma, kaip nustatyti ir taikyti atsargų skaičiavimo priežasčių kodus.
+description: Šiame straipsnyje aprašoma, kaip nustatyti ir taikyti priežasčių kodus skaičiavimo užduotims.
 author: perlynne
 ms.date: 08/02/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 4c178ddf342b13a0ef8fee8b8b958554a9a31069
-ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
+ms.openlocfilehash: 7d182f1d979543eeec700924d2bd180ee06be8ce
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "7500605"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857118"
 ---
 # <a name="reason-codes-for-inventory-counting"></a>Atsargų skaičiavimo priežasčių kodai
 
@@ -42,7 +42,7 @@ Prieš nustatant sistemą rekomenduojame nustatyti darbo su priežasčių kodais
 
 ## <a name="turn-on-reason-code-features-in-your-system"></a>Savo sistemoje įjunkite priežasties kodo funkcijas
 
-Jei savo sistemoje nematote visų šioje temoje aprašytų funkcijų, tikriausiai turite įjungti *Registruoti turimų atsargų koregavimus naudojant konfigūruojamus priežasties kodus, prijungtus prie korespondentinės sąskaitos* funkcijas. Administratoriai gali naudoti [funkcijų valdymo](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) parametrus, kad patikrintų funkcijos būseną ir įjungtų ją, kai reikia. Darbo srityje **Funkcijų valdymas** ši funkcija yra nurodyta toliau pateikiamu būdu.
+Jei savo sistemoje nematote visų šiame straipsnyje aprašytų priemonių, *tikriausiai turite įjungti koregavimų registruoti naudojant konfigūruojamus priežasties kodus, prijungtus prie korespondentinės sąskaitos* funkcijos. Administratoriai gali naudoti [funkcijų valdymo](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) parametrus, kad patikrintų funkcijos būseną ir įjungtų ją, kai reikia. Darbo srityje **Funkcijų valdymas** ši funkcija yra nurodyta toliau pateikiamu būdu.
 
 - **Modulis:** *Sandėlio valdymas*
 - **Funkcijos pavadinimas:** *Registruoti turimų atsargų koregavimus naudojant konfigūruojamus priežasties kodus, prijungtus prie korespondentinės sąskaitos*
@@ -111,7 +111,7 @@ Skaičiavimo priežasčių kodų nustatymui, atlikite šiuos žingsnius.
 
 ### <a name="set-up-counting-reason-code-groups"></a><a name="reason-groups"></a>Nustatykite skaičiavimo priežasties kodų grupes
 
-*Skaičiavimo priežasčių kodų grupes* galima naudoti kaip „Warehouse Management“ mobiliųjų įrenginių programos *Koregavimo į* ir *Koregavimo iš* meniu elementų dalį, kad būtų galima apriboti skaičiavimo kodų sąrašą. (Daugiau informacijos apie inventorizacijos priežasčių kodų grupes žr. [Nustatykite mobiliojo įrenginio meniu koregavimui į ir koregavimui iš](#setup-adjustment-in-out) skyrių vėliau šioje temoje.)
+*Skaičiavimo priežasčių kodų grupes* galima naudoti kaip „Warehouse Management“ mobiliųjų įrenginių programos *Koregavimo į* ir *Koregavimo iš* meniu elementų dalį, kad būtų galima apriboti skaičiavimo kodų sąrašą. (Daugiau informacijos apie inventorizacijos priežasčių kodų grupes žr. [Nustatykite mobiliojo įrenginio meniu elementus, kad vėliau šiame straipsnyje būtų galima](#setup-adjustment-in-out) koreguoti ir koreguoti skyrių.)
 
 1. Eikite į **į Atsargų valdymas** \> **Sąranka** \> **Atsargos** \> **Skaičiavimo priežasčių kodų grupės**.
 1. Veiksmų srityje pasirinkite **Naujas**, norėdami pridėti grupę.
@@ -174,7 +174,7 @@ Norėdami nustatyti mobiliojo įrenginio meniu elementą koregavimo taikymui ar 
         - *Slėpti* – nerodyti priežasties kodo.
 
     - **Redaguoti skaičiavimo priežasties kodą** - nustatykite šią parinktį į *Taip*, kad įgalintumėte darbuotoją redaguoti priežasties kodą, kai atliekant skaičiavimą jis rodomas mobiliajame įrenginyje. Nustatykite į *Ne* jei norite neleisti darbuotojui redaguoti kodo.
-    - **Skaičiavimo priežasčių kodų grupė** - pasirinkite priežasčių kodų grupę, jei norite apriboti pasirinkčių, pateiktų darbuotojams, sąrašą. Kaip nustatyti priežasčių kodų grupes, žr. [Nustatyti inventorizacijos priežasčių kodų grupes](#reason-groups) skyriuje aukščiau. 
+    - **Skaičiavimo priežasčių kodų grupė** - pasirinkite priežasčių kodų grupę, jei norite apriboti pasirinkčių, pateiktų darbuotojams, sąrašą. Informacijos, kaip nustatyti priežasčių kodų grupes, ieškokite ankstesniame [šio straipsnio skyriuje Nustatyti](#reason-groups) inventorizacijos priežasčių kodų grupes. 
 
 > [!NOTE]
 > Kai priskiriate skaičiavimo priežasčių kodų grupę *Koregavimo taikymas* ir *Koregavimo atšaukimas* meniu elementams, kai **Naudoti proceso vadovą** parinktis nustatyta į *Taip*, galite gauti ribotą skaičiavimo priežasčių kodų sąrašą kaip skaičiavimo priežasčių kodų apdorojimo dalį „Warehouse Management“ mobiliąją programą.

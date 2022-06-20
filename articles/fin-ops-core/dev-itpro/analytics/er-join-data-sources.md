@@ -1,6 +1,6 @@
 ---
 title: Norėdami gauti duomenis iš kelių programos lentelių, ER modelio susiejimuose naudokite duomenų šaltinių jungimo funkciją
-description: Šioje temoje paaiškinta, kaip galima naudoti duomenų šaltinių jungimo funkciją elektroninėms ataskaitoms (ER).
+description: Šiame straipsnyje paaiškinama, kaip naudoti JOIN tipo duomenų šaltinius elektroninėse ataskaitose (ER).
 author: NickSelin
 ms.date: 04/26/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-03-01
 ms.dyn365.ops.version: Release 10.0.1
-ms.openlocfilehash: c9a06c048e98676e30a6652cad6634c2e13531d4ebc6d35f325f4c7153cd82ae
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0994c19ad79a3e73dc787ef8d82716db637f9ab0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723218"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845547"
 ---
 # <a name="use-join-data-sources-to-get-data-from-multiple-application-tables-in-electronic-reporting-er-model-mappings"></a>Norėdami gauti duomenis iš kelių programos lentelių elektroninių ataskaitų (ER) modelio susiejimuose, naudokite duomenų šaltinių jungimo funkciją
 
@@ -40,15 +40,15 @@ Sukonfigūruotame **sujungimo** duomenų šaltinyje, kai visų duomenų šaltini
 > [!NOTE]
 > Šiuo metu dar nėra galimybės ER išraiškose naudoti funkcijos **VALUEIN**, kuri nurodo sąlygas įrašų sujungimui sujungimo tipo duomenų šaltiniuose. Norėdami sužinoti daugiau apie šią funkciją, apsilankykite puslapyje [Elektroninių ataskaitų formulių kūrimo įrankis](general-electronic-reporting-formula-designer.md).
 
-Norėdami sužinoti daugiau apie šią funkciją, atlikite šioje temoje esantį pavyzdį.
+Norėdami daugiau sužinoti apie šią funkciją, užpildykite pavyzdį šiame straipsnyje.
 
 ## <a name="example-use-join-data-sources-in-er-model-mappings"></a>Pavyzdys: sujungimo tipo duomenų šaltinių naudojimas, ER modelio susiejimuose
 
-Toliau pateikti veiksmai paaiškina, kaip sistemos administratorius arba elektroninių ataskaitų kūrėjas gali konfigūruoti elektroninių ataskaitų (ER) modelio susiejimą, kad gautų duomenis iš kelių programos lentelių naudojant **sujungimo** tipo duomenų šaltinius, tokiu būdu pagerinant duomenų prieigos efektyvumą. Šiuos veiksmus galima atlikti bet kuriai „Dynamics 365 Finance“ arba „Regulatory Configuration Service“ (RCS) įmonei.
+Toliau pateikti veiksmai paaiškina, kaip sistemos administratorius arba elektroninių ataskaitų kūrėjas gali konfigūruoti elektroninių ataskaitų (ER) modelio susiejimą, kad gautų duomenis iš kelių programos lentelių naudojant **sujungimo** tipo duomenų šaltinius, tokiu būdu pagerinant duomenų prieigos efektyvumą. Šiuos veiksmus galima atlikti su bet kuria "Dynamics 365" finansų arba reguliavimo konfigūracijos tarnyba (RCS).
 
 ### <a name="prerequisites"></a>Būtinieji komponentai
 
-Norėdami naudoti šios temos pavyzdžius, turite turėti vieną iš toliau nurodytų prieigų, atsižvelgiant į tai, kokia paslauga naudojama šiems veiksmams atlikti:
+Norėdami užbaigti pavyzdžius šiame straipsnyje, turite turėti prieigą prie vieno iš toliau nurodytų veiksmų, atsižvelgiant į tai, koks aptarnavimas naudojamas norint atlikti šiuos veiksmus:
 
 **Prieiga prie „Finance“ naudojant vieną iš tolesnių vaidmenų.**
 
@@ -257,9 +257,9 @@ Peržiūrėkite ER modelio susiejimo komponento parametrus. Komponentas sukonfig
 
 ## <a name="limitations"></a>Apribojimai
 
-Kaip matote šioje temoje pateiktame pavyzdyje, duomenų šaltinis **JOIN** gali būti sukurtas naudojant kelis duomenų šaltinius, apibūdinančius atskirus įrašų, kurie turi būti sujungti, duomenų rinkinius. Galite konfigūruoti šiuos duomenų šaltinius naudodami integruotą ER funkciją [FILTER](er-functions-list-filter.md). Kai sukonfigūruosite duomenų šaltinį taip, kad jį būtų galima iškviesti už duomenų šaltinio **JOIN** ribų, galite naudoti įmonės diapazonus kaip duomenų pasirinkimo sąlygos dalį. Pradinis duomenų šaltinio **JOIN** diegimas nepalaiko šio tipo duomenų šaltinių. Pavyzdžiui, kai iškviečiate duomenų šaltinį, pagrįstą [FILTER](er-functions-list-filter.md), kuris patenka į duomenų šaltinio **JOIN** vykdymo aprėptį, jei iškviestame duomenų šaltinyje esantys įmonės diapazonai yra duomenų pasirinkimo sąlygos dalis, įvyksta išimtis.
+Kaip matote šiame straipsnyje pateiktame pavyzdyje, **JOIN** duomenų šaltinis gali būti sukurtas iš kelių duomenų šaltinių, kurie aprašo atskirus įrašų duomenų rinkinius, prie kurių galiausiai turi būti prisijungti. Galite konfigūruoti šiuos duomenų šaltinius naudodami integruotą ER funkciją [FILTER](er-functions-list-filter.md). Kai sukonfigūruosite duomenų šaltinį taip, kad jį būtų galima iškviesti už duomenų šaltinio **JOIN** ribų, galite naudoti įmonės diapazonus kaip duomenų pasirinkimo sąlygos dalį. Pradinis duomenų šaltinio **JOIN** diegimas nepalaiko šio tipo duomenų šaltinių. Pavyzdžiui, kai iškviečiate duomenų šaltinį, pagrįstą [FILTER](er-functions-list-filter.md), kuris patenka į duomenų šaltinio **JOIN** vykdymo aprėptį, jei iškviestame duomenų šaltinyje esantys įmonės diapazonai yra duomenų pasirinkimo sąlygos dalis, įvyksta išimtis.
 
-„Microsoft Dynamics 365 Finance” 10.0.12 versijos (2020 m. rugpjūčio mėn.) duomenų šaltiniuose, pagrįstuose [FILTER](er-functions-list-filter.md), kurie iškviesti ir patenka į duomenų šaltinio **JOIN** vykdymo aprėptį, galite naudoti įmonės diapazonus kaip duomenų pasirinkimo sąlygos dalį. Dėl programos [užklausų](../dev-ref/xpp-library-objects.md#query-object-model) generatoriaus apribojimų įmonės diapazonai palaikomi tik pirmame duomenų šaltinio **JOIN** duomenų šaltinyje.
+Microsoft Dynamics 365 finansų versijoje 10.0.12 (2020 m. rugpjūčio mėn.) [...](er-functions-list-filter.md)**galite naudoti įmonės diapazonus kaip duomenų pasirinkimo pagal filtrą duomenų šaltinių, kurie iškviedami pagal JOIN** duomenų šaltinio vykdymo aprėptį, sąlygą. Dėl programos [užklausų](../dev-ref/xpp-library-objects.md#query-object-model) generatoriaus apribojimų įmonės diapazonai palaikomi tik pirmame duomenų šaltinio **JOIN** duomenų šaltinyje.
 
 ### <a name="example"></a>Pavyzdys
 

@@ -1,6 +1,6 @@
 ---
 title: Pakankamų atsargų žurnalo naudojimas mažiausiam prekių padengimui atnaujinti
-description: Šioje temoje aprašoma, kaip naudoti saugos atsargų žurnalą norint atnaujinti prekių atsargas, skaičiuojant minimalius padengimo pasiūlymus pagal retrospektyvias operacijas.
+description: Šiame straipsnyje aprašoma, kaip naudoti saugos atsargų žurnalą norint atnaujinti prekių atsargas, apskaičiuojant minimalius padengimo pasiūlymus pagal retrospektyvias operacijas.
 author: t-benebo
 ms.date: 10/28/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-10-28
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 391f741ee08eb0624e80f5c297009c527e50c14c
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 385144738b83fcf6873eae5204b4784d6ecd5b80
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8468558"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8851775"
 ---
 # <a name="use-the-safety-stock-journal-to-update-minimum-coverage-for-items"></a>Pakankamų atsargų žurnalo naudojimas mažiausiam prekių padengimui atnaujinti
 
@@ -24,7 +24,7 @@ ms.locfileid: "8468558"
 
 Turimos atsargos nurodo papildomą atsargose laikomo prekės kiekį, siekiant sumažinti riziką, kad prekė išeis iš atsargų. Jei pardavimo užsakymai ateiti, kaip buferis naudojamos atsargos, tačiau tiekėjas negali atitikti kliento pageidaujamos siuntimo datos.
 
-Šioje temoje aprašoma, kaip naudoti saugos atsargų žurnalą norint apskaičiuoti minimalius padengimo pasiūlymus, paremtus praeities operacijomis, ir tada atnaujinti prekės padengimą pasiūlymais.
+Šiame straipsnyje aprašoma, kaip naudoti saugos atsargų žurnalą norint apskaičiuoti minimalius padengimo pasiūlymus pagal retrospektyvias operacijas ir tada atnaujinti prekės padengimą pasiūlymais.
 
 ## <a name="overview-of-minimum-coverage-usage"></a>Minimalaus padengimo naudojimo peržiūra
 
@@ -43,7 +43,7 @@ Kiekvienos prekės padengimo puslapyje nustatytos **atsargos, kurių** reikia, k
 
 Turimų atsargų žurnalai naudojami apskaičiuoti siūlomą minimalų kiekį remiantis retrospektyviu prekės naudojimu, minimaliais / maksimaliais tikslais arba atsargų plano tikslais. Retrospektyvinis naudojimas rodo visas išdavimo operacijas nurodytu laikotarpiu. Šios išdavimo operacijos apima pardavimo užsakymo operacijas ir atsargų koregavimus. Skaičiuojant taip pat identifikuojami siūlomo minimalaus kiekio poveikis atsargų vertei ir atsargų vertės pokytis lyginant su esamais minimaliais kiekiais.
 
-Kiekviena saugos atsargų žurnalo eilutė rodo prekę ir jos padengimo dimensijas. Šios žurnalo eilutės sukuriamos ir rodomos puslapyje Saugos **atsargų žurnalo eilutės** (Bendrojo **planavimo bendrasis \> planavimas Vykdyti atsargų \>\> apsaugą).** Verslo procesas, naudojamas kaip reikiamos atsargų žurnalai apskaičiuoti mažiausią siūlomą kiekį, aprašytas toliau šioje temoje.
+Kiekviena saugos atsargų žurnalo eilutė rodo prekę ir jos padengimo dimensijas. Šios žurnalo eilutės sukuriamos ir rodomos puslapyje Saugos **atsargų žurnalo eilutės** (Bendrojo **planavimo bendrasis \> planavimas Vykdyti atsargų \>\> apsaugą).** Verslo procesas, naudojamas kaip naudoti reikiamos atsargų žurnalus, kad būtų galima apskaičiuoti siūlomą mažiausią kiekį, aprašytas toliau šiame straipsnyje.
 
 Planuotojas naudoja saugos atsargų žurnalą, kad apskaičiuotų pasiūlytų minimalių pasirinktų prekių kiekius, pagrįstus retrospektyvu, naudojimu pasirinktų laikotarpių metu. Jei reikia, siūlomų minimalių verčių galima nepaisyti rankiniu būdu, taip pat galite peržiūrėti galimą siūlomų minimalių parametrų įtaką atsargų vertei. Užregistrus žurnalą, automatiškai atnaujinami susiję minimalūs prekių padengimo kiekiai.
 
@@ -89,7 +89,7 @@ Norėdami automatiškai sugeneruoti žurnalo eilutes, atlikite šiuos veiksmus.
 
     - **Pradžios data** – pasirinkite laikotarpio, kurį išdavimai turi būti įtraukti į skaičiavimą, pradžios datą.
     - **Pabaigos data** – pasirinkti laikotarpio, kurį išdavimai turi būti įtraukti į šį skaičiavimą, pabaigos datą. Turi būti bent du mėnesiai nuo pradžios iki pabaigos datų.
-    - **Apskaičiuoti standartinį nuokrypį** – nustatykite šią pasirinktį kaip *Taip,* norėdami apskaičiuoti standartinį nuokrypį. Norėdami naudoti pasirinktį Naudoti aptarnavimo *lygį*, kai skaičiuojate **pasiūlymą**, turite nustatyti šią pasirinktį Taip (kaip aprašyta toliau šioje temoje).
+    - **Apskaičiuoti standartinį nuokrypį** – nustatykite šią pasirinktį kaip *Taip,* norėdami apskaičiuoti standartinį nuokrypį. Norėdami naudoti parinktį Naudoti paslaugų lygį *,* kai skaičiuojate **pasiūlymą**, turite nustatyti šią pasirinktį Taip (kaip toliau aprašyta šiame straipsnyje).
 
 1. Įrašuose **, į kuriuos įtraukiama** "FastTab", galite nustatyti filtrus ir apribojimus, siekiant apibrėžti, kurios prekės yra įtrauktos. (Pvz., galite filtruoti pagal **Padengimo grupės** vertė.) Pasirinkite **Filtrą,** norėdami atidaryti standartinį užklausų doroklį dialogo langą, kuriame galite nurodyti pasirinkimo kriterijus, rūšiavimo kriterijus ir jungtis. Šie laukai veikia kaip ir kitų tipų "Microsoft" užklausose Dynamics 365 Supply Chain Management.
 1. Dalyje Vykdyti **fone** "FastTab" pasirinkite, ar užduotį vykdyti paketiniu režimu ir (arba) nustatyti pasikartojančią grafiką. Šie laukai veikia kaip tik kitiems „Supply Chain Management“ [fono](../../fin-ops-core/dev-itpro/sysadmin/batch-processing-overview.md) užduočių tipams.
@@ -110,7 +110,7 @@ Norėdami automatiškai sugeneruoti žurnalo eilutes, atlikite šiuos veiksmus.
 Rodomi skaičiavimai neturės įtakos faktinėms minimalioms kiekvieno produkto kiekio vertėms, kol veiksmų srityje **nepasirinkote** Registruoti. Tuo metu kiekvienam produktui **bus taikomos** naujos minimalaus kiekio vertės.
 
 1. Pereikite prie bendrojo planavimo Bendrojo **planavimo Vykdyti saugos \>\> atsargų skaičiavimą \>.**
-1. Atidarykite žurnalą, jei norite skaičiuoti pasiūlymą. Arba sukurkite naują žurnalą, kaip anksčiau aprašyta šioje temoje.
+1. Atidarykite žurnalą, jei norite skaičiuoti pasiūlymą. Arba sukurkite naują žurnalą, kaip anksčiau aprašyta šiame straipsnyje.
 1. Žurnalo **eilučių "** FastTab" įrankių juostoje **pasirinkite** Skaičiuoti pasiūlymą. (Jums nereikia pasirinkti jokių eilučių.)
 1. Dialogo lange **Minimalių atsargų lygio pasiūlymo skaičiavimas** nustatykite šiuos laukus:
 

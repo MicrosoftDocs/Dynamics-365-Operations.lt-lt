@@ -1,6 +1,6 @@
 ---
 title: Tranzito prekių apdorojimas
-description: Šioje temoje aprašoma, kaip dirbti su tranzito prekių užsakymais. Kai užsakymas arba reisas nustatomas naudoti tranzito prekių apdorojimą, prekėms SF galima išrašyti prieš jas gaunant į sandėlį vartojimui.
+description: Šiame straipsnyje aprašoma, kaip dirbti su tranzito prekių užsakymais. Kai užsakymas arba reisas nustatomas naudoti tranzito prekių apdorojimą, prekėms SF galima išrašyti prieš jas gaunant į sandėlį vartojimui.
 author: Weijiesa
 ms.date: 01/13/2021
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2021-01-13
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 8df07c7c94cf64b0e4cf1def794270e176241b5f
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 47e5ef2ef99fcf23af73cfdb6ec57b92ad62f18c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8694661"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854390"
 ---
 # <a name="goods-in-transit-processing"></a>Tranzito prekių apdorojimas
 
 [!include [banner](../../includes/banner.md)]
 
-Šioje temoje aprašoma, kaip dirbti su tranzito prekių užsakymais. Tokio tipo užsakymą naudoja tik modulis **Iškrovimo kaina**. Kai užsakymas arba reisas nustatomas naudoti tranzito prekių apdorojimą, nereikia laukti, kol gausite prekes sandėlyje, kad joms galėtumėte išrašyti SF. Vietoje to, prekėms SF išrašoma tada, kai jos išvežamos iš tiekėjo sandėlio arba iš išvykimo uosto, o finansinės išlaidos pripažįstamos prasidėjus reisui. Šios funkcijos leidžia tinkamai perimti atsargų nuosavybę, nes prekės dažnai tampa jūsų organizacijos nuosavybe, kai jos išvežamos iš siuntimo uosto.
+Šiame straipsnyje aprašoma, kaip dirbti su tranzito prekių užsakymais. Tokio tipo užsakymą naudoja tik modulis **Iškrovimo kaina**. Kai užsakymas arba reisas nustatomas naudoti tranzito prekių apdorojimą, nereikia laukti, kol gausite prekes sandėlyje, kad joms galėtumėte išrašyti SF. Vietoje to, prekėms SF išrašoma tada, kai jos išvežamos iš tiekėjo sandėlio arba iš išvykimo uosto, o finansinės išlaidos pripažįstamos prasidėjus reisui. Šios funkcijos leidžia tinkamai perimti atsargų nuosavybę, nes prekės dažnai tampa jūsų organizacijos nuosavybe, kai jos išvežamos iš siuntimo uosto.
 
 Kai naudojami tranzito prekių užsakymai, finansiškai atnaujintos prekės gaunamos tarpiniame sandėlyje, kuris vadinamas tranzito prekių sandėliu. Tuomet prekės lieka šiame sandėlyje, kol jas galima gauti galutiniame paskirties sandėlyje (tai yra, pirkimo eilutėje nurodytame sandėlyje). Jų rankiniu būdu pašalinti negalima.
 

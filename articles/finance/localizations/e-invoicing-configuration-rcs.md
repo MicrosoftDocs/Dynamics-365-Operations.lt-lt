@@ -1,6 +1,6 @@
 ---
 title: Elektroninių SF išrašymo priedų „Regulatory Configuration Services“ (RCS) konfigūravimas
-description: Šioje temoje paaiškinama, kaip konfigūruoti elektroninių sąskaitų priedus „Dynamics 365 Regulatory Configuration Services“ (RCS).
+description: Šiame straipsnyje paaiškinama, kaip konfigūruoti elektroninių SF išrašymą "Dynamics 365" reguliavimo konfigūracijos tarnybose (RCS).
 author: gionoder
 ms.date: 11/08/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 640244612a2a553ec09661635787cb7f8694283b
-ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
+ms.openlocfilehash: 985bed767442d196a9ce0528673b4ed5946379ac
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7779675"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8865648"
 ---
 # <a name="configure-electronic-invoicing-in-regulatory-configuration-services-rcs"></a>Elektroninių SF išrašymo priedų „Regulatory Configuration Services“ (RCS) konfigūravimas
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje pateikiama informacija apie konfigūravimo galimybes elektroninių sąskaitų prieduose „Dynamics 365 Regulatory Configuration Services“ (RCS).
+Šiame straipsnyje pateikta informacija apie elektroninių SF išrašymo konfigūracijos galimybes "Dynamics 365" reguliavimo konfigūracijos tarnybose (RCS).
 
 Per galimybių konfigūravimą, kuriuo elektroninės sąskaitos priedas padeda jums atitikti verslo ir reglamentų reikalavimus elektroninėms sąskaitoms be jokio kodavimo. Ir scenarijuose, kuriuose elektroninės SF turi būti elektroniniu būdu patvirtintos tinklo tarnybos, konfigūravimo galimybės taip pat padeda patenkinti pranešimų mainų su žiniatinklio tarnyba reikalavimus, neateidami jokių kodų.
 
@@ -40,7 +40,7 @@ Dėl daugiau informacijos, žr. [Elektroninių ataskaitų (ER) apžvalga](../../
 
 ## <a name="electronic-invoicing-features"></a>Elektroninės sąskaitos išrašymo funkcijos
 
-Elektroninių sąskaitų funkcijos yra atsakingos už elektroninių sąskaitų kūrimą per elektroninių sąskaitų priedą. Jos įtraukia konfigūracijos taisykles ir naudoja jas duomenims apdoroti, kuriuos „Microsoft Dynamics 365 Finance“ ir „Dynamics 365 Supply Chain Management“ siunčia į elektroninių SF išrašymo priedą ir į elektronines SF.
+Elektroninių sąskaitų funkcijos yra atsakingos už elektroninių sąskaitų kūrimą per elektroninių sąskaitų priedą. Jos reglamentuoja konfigūracijos taisykles ir Microsoft Dynamics naudoja jas duomenims, kurie yra 365 Dynamics 365 Supply Chain Management finansai, apdoroti ir siųsti į elektroninių SF išrašymą ir elektronines SF.
 
 Priemonės taip pat palaiko scenarijus, kurių reikia, kad būtų laikomasi failo formato specifikacijų, o išeiga yra atskira elektroninė rinkmena. Paprastai rinkmenos formato specifikacijas skelbia mokesčių inspekcija.
 
@@ -358,7 +358,7 @@ Naudodami programos nustatymą galite konfigūruoti elektroninių SF išrašymo 
 - **Verslo dokumento išdėstymas** – SF išdėstymo modelio, sukonfigūruoto naudojant ER, pavadinimas.
 
 > [!IMPORTANT]
-> Konfigūraciją, įvestą programos nustatyme, galima peržiūrėti „Finance and Supply Chain Management“ lange. Eikite į **Organizacijos administravimas \> Nustatymas \> Elektroninių dokumentų parametras**. Skirtuke **Elektroninis dokumentas** pasirinkite **Diegti**, tada pasirinkite parinktį **Prijungta** programa.
+> Konfigūraciją, įvestą programos nustatyme, galima peržiūrėti „Finance and Supply Chain Management“ lange. Eikite į **Organizacijos administravimas \> Nustatymas \> Elektroninių dokumentų parametras**. Skirtuke **Elektroninis dokumentas** pasirinkite **Diegti** , tada pasirinkite parinktį **Prijungta** programa.
 
 ### <a name="deploying-feature-versions"></a>Funkcijų versijų diegimas
 

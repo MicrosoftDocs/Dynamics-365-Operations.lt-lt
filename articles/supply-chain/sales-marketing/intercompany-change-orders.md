@@ -1,6 +1,6 @@
 ---
 title: Keisti vidinės įmonės užsakymus
-description: Šioje temoje paaiškinami vidinės įmonės užsakymai ir grąžinimo keitimai
+description: Šiame straipsnyje paaiškinama, kaip pakeisti vidinės įmonės užsakymų funkciją
 author: Henrikan
 ms.date: 09/01/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2021-09-01
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 10efc397c64833785f286983987fd05854a69c0f
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: f139678fbb59b9132ece1ab758e141ec7cdb7a19
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8672912"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8852192"
 ---
 # <a name="change-intercompany-orders"></a>Keisti vidinės įmonės užsakymus
 

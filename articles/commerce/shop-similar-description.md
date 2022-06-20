@@ -1,6 +1,6 @@
 ---
-title: Įjunkite „parduotuvės panašaus aprašo“ rekomendacijas
-description: Šioje temoje aprašoma, kaip įjungti „panašių į parduotuvės aprašą“ produkto rekomendacijas „Microsoft Dynamics 365 Commerce“.
+title: Rekomendacijų „pirkti su panašiu aprašymu“ įjungimas
+description: Šiame straipsnyje aprašoma, kaip įgalinti "parduotuvės panašios aprašymo" produkto rekomendacijas Microsoft Dynamics 365 Commerce.
 author: bsokolov
 ms.date: 01/13/2021
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 733b21870f9dd7ffa42fce3bccf669a59d633b14
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: b935731b24f96753c814e3b496ffeeb7a92d9cc1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8691008"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8852013"
 ---
 # <a name="enable-shop-similar-description-recommendations"></a>Rekomendacijų „pirkti su panašiu aprašymu“ įjungimas
 
 [!include [banner](includes/banner.md)]
 
-Šioje temoje aprašoma, kaip įjungti „panašių į parduotuvės aprašą“ produkto rekomendacijas „Microsoft Dynamics 365 Commerce“.
+Šiame straipsnyje aprašoma, kaip įgalinti "parduotuvės panašios aprašymo" produkto rekomendacijas Microsoft Dynamics 365 Commerce.
 
 „Panašios į parduotuvės aprašą“ rekomendacijų funkcija „Dynamics 365 Commerce“ naudoja dirbtinį intelektą ir mašininį mokymąsi (AI-ML) tam, kad pateiktų rekomendacijas produktams, kurių aprašai yra panašūs į kliento ieškomus. Padarydami „į parduotuvę panašų aprašą“ rekomendacijas prieinamas visiems mažmenos kanalams „Commerce“, mažmenos prekeiviai gali padėti klientams nesunkiai surasti jų norimus dalykus.
 

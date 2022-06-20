@@ -1,6 +1,6 @@
 ---
 title: Nustatykite TDS parametrus
-description: Šioje temoje paaiškinama, kaip nustatyti parametrus, siekiant suaktyvinti išskaitytų mokesčių (TDS) funkciją nurodytose operacijose. Tai yra būtinas žingsnis norint naudoti iš šaltinio TDS priemonę atskaityti mokesčius.
+description: Šiame straipsnyje paaiškinama, kaip nustatyti parametrus, kad nurodytų operacijų metu būtų galima suaktyvinti išskaitytų mokesčių (TDS) funkciją. Tai yra būtinas žingsnis norint naudoti iš šaltinio TDS priemonę atskaityti mokesčius.
 author: kailiang
 ms.date: 02/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: f7c8802d10a065c60894e80c8ff3cb19163d5ffe
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 3390cad6979858fbff73769d0d25132ba18a2157
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726927"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8865619"
 ---
 # <a name="set-the-tds-parameters"></a>Nustatykite TDS parametrus
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje paaiškinama, kaip nustatyti parametrus, siekiant suaktyvinti išskaitytų mokesčių (TDS) funkciją nurodytose operacijose. Tai yra būtinas žingsnis norint naudoti iš šaltinio TDS priemonę atskaityti mokesčius.
+Šiame straipsnyje paaiškinama, kaip nustatyti parametrus, kad nurodytų operacijų metu būtų galima suaktyvinti išskaitytų mokesčių (TDS) funkciją. Tai yra būtinas žingsnis norint naudoti iš šaltinio TDS priemonę atskaityti mokesčius.
 
 1. Eikite į **Didžioji knyga \> Didžiosios knygos nustatymas \> DK parametrai**.
 2. Skirtuko **Tiesioginiai mokesčiai** dalyje **Šaltinio atskaityti mokesčiai** nustatykite **Suaktyvinti TDS** parinktį į **Taip** norėdami suaktyvinti TDS funkciją, ir jai naudojamus puslapius ir laukus.

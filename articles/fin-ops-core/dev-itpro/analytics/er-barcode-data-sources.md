@@ -1,6 +1,6 @@
 ---
 title: Brūkšninių kodų vaizdams generuoti brūkšninio kodo duomenų šaltinių naudojimas
-description: Šioje temoje paaiškinama, kaip naudoti brūkšninio kodo duomenų šaltinius brūkšninio kodo vaizdams generuoti.
+description: Šiame straipsnyje paaiškinama, kaip naudoti brūkšninio kodo duomenų šaltinius norint sugeneruoti brūkšninio kodo vaizdus.
 author: NickSelin
 ms.date: 10/21/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: Version 10.0.13
-ms.openlocfilehash: a5a396080d8b5dd4c2ed9a0eb15c1286e8799ebf
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: c8e755b664656a1a10672a990dc581969f6a7b80
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323957"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880318"
 ---
 # <a name="use-barcode-data-sources-to-generate-bar-code-images"></a>Brūkšninių kodų vaizdams generuoti brūkšninio kodo duomenų šaltinių naudojimas
 
@@ -77,7 +77,7 @@ Konfigūruodami **Brūkšninis kodas** duomenų šaltinį, galite nurodyti konkr
 >
 > Kai susiejate **Brūkšninis kodas** duomenų šaltinį su langelio elementu formate, o langelio elementas atspindi „Word” turinio valdiklį arba „Excel” paveikslėlį, duomenų šaltinis pateikiamas kaip siejanti funkcija, turinti vieną **Eilutė** tipo parametrą. Turite naudoti šį parametrą, kad nurodytumėte tekstą, kuris turi būti paverstas brūkšninio kodo vaizdu ir perskaitytas, kai nuskaitomas sugeneruotas brūkšninis kodas.
 
-Norėdami sužinoti daugiau apie šią funkciją, atlikite šioje temoje esančius pavyzdžius.
+Norėdami gauti daugiau informacijos apie šią funkciją, užpildykite pavyzdžius šiame straipsnyje.
 
 ## <a name="example-generate-a-payment-check-that-contains-a-bar-code-that-encodes-the-payable-amount"></a>Pavyzdys: sugeneruokite mokėjimo patikrinimą, kuriame yra brūkšninis kodas, kuris koduoja mokėtiną sumą
 
@@ -103,7 +103,7 @@ Norėdami sužinoti daugiau apie šią funkciją, atlikite šioje temoje esanči
 
 Šiame pavyzdyje naudosite pateiktą ER sprendimą, sukonfigūruotą generuoti mokėjimo čekius. Šis sprendimas generuoja mokėjimo čekius, kai mokėtina suma įrašoma kaip skaičius ir kaip tekstas. Modifikuosite ER sprendimą, kad čekyje būtų pateiktas brūkšninis kodas, kuriame mokėtina suma yra užkoduota ir gali būti nuskaityta brūkšninio kodo skaitytuvu.
 
-Šiuos veiksmus galite užbaigti įmonėje **USMF** programoje „Microsoft Dynamics 365 Finance“.
+Veiksmus galima atlikti JAV dolerių **įmonėje** Microsoft Dynamics "365 Finance".
 
 ### <a name="complete-the-prerequisites"></a><a name="ExamplePrerequisites"></a>Būtinųjų komponentų pildymas
 
@@ -112,7 +112,7 @@ Norėdami atlikti šį pavyzdį, turite turėti prieigą prie įmonės USMF prog
 - Elektroninės ataskaitos funkcijų konsultantas
 - Sistemos administratorius
 
-Jei dar nebaigėte pavyzdžio, pateikiamo [Įdėti vaizdai ir formos jūsų sugeneruotuose dokumentuose naudojant ER](electronic-reporting-embed-images-shapes.md) temoje, atsisiųskite šiuos ER sprendimo pavyzdžio konfigūravimus.
+Jei dar nebaigėte [pavyzdžio dokumentuose, kuriuos generuojate naudodami ER](electronic-reporting-embed-images-shapes.md) straipsnį, įdėtųjų vaizdų ir figūrų, atsisiųskite šias ER sprendimo pavyzdžio konfigūracijas.
 
 | Turinio aprašas         | Failo vardas                   |
 |-----------------------------|-----------------------------|
@@ -128,7 +128,7 @@ Be to, atsisiųskite nurodytą „Excel” failą, kuriame yra modifikuotas pate
 ### <a name="activate-a-configuration-provider"></a><a name="ExampleProvider"></a>Konfigūracijų teikėjo aktyvinimas
 
 1. Eikite į **Organizacijos administravimas** \> **Darbo sritys** \> **Elektroninės ataskaitos**.
-2. **Lokalizavimo konfigūracijos** puslapyje **Konfigūracijos tiekėjai** dalyje įsitikinkite, kad [konfigūracijos tiekėjas](general-electronic-reporting.md#Provider), nurodytas kaip **Litware, Inc.** įmonės pavyzdys, ir kad jis pažymėtas kaip aktyvus. Jeigu jis nenurodytas ar nepažymėtas kaip aktyvus, atlikite veiksmus temoje [Konfigūracijų teikėjo kūrimas ir jo aktyvios būsenos pažymėjimas](tasks/er-configuration-provider-mark-it-active-2016-11.md).
+2. **Lokalizavimo konfigūracijos** puslapyje **Konfigūracijos tiekėjai** dalyje įsitikinkite, kad [konfigūracijos tiekėjas](general-electronic-reporting.md#Provider), nurodytas kaip **Litware, Inc.** įmonės pavyzdys, ir kad jis pažymėtas kaip aktyvus. Jei jo nėra arba jei jis nepažymėtas kaip aktyvus, [atlikite konfigūracijos teikėjo kūrimo veiksmus ir pažymėkite jį kaip aktyvų](tasks/er-configuration-provider-mark-it-active-2016-11.md) straipsnį.
 
 ![Įmonės pavyzdžio nustatymas į aktyvią būseną Lokalizavimo konfigūracijų puslapyje.](./media/er-barcode-data-source-active-provider.png)
 
@@ -284,7 +284,7 @@ Pasirinkto formato juodraštinė versija pažymėta kaip galima naudoti, kai pal
 
 ### <a name="convert-the-generated-check-to-a-pdf"></a><a name="ExampleConvertToPDF"></a>Generuoto čekio konvertavimas į PDF
 
-Kaip aprašyta [Spausdintinų FTI formų generavimas](er-generate-printable-fti-forms.md#finland) temoje, galite naudoti specialų šriftą brūkšniniams kodams sukurti sugeneruotame dokumente. Šiuo atveju papildomi sugeneruoto dokumento pakeitimai gali priklausyti nuo to šrifto prieinamumo pakeitimo aplinkoje. Pavyzdžiui, jei bandote konvertuoti dokumentą į PDF formatą arba peržiūrėti jį aplinkoje, kurioje trūksta šrifto, brūkšniniai kodai nebus atvaizduoti tinkamai.
+Kaip aprašyta skyriuje Generuoti [spausdintinas FTI formas](er-generate-printable-fti-forms.md#finland), brūkšniniams kodams sugeneruotame dokumente gaminti galite naudoti specialų šriftą. Šiuo atveju papildomi sugeneruoto dokumento pakeitimai gali priklausyti nuo to šrifto prieinamumo pakeitimo aplinkoje. Pavyzdžiui, jei bandote konvertuoti dokumentą į PDF formatą arba peržiūrėti jį aplinkoje, kurioje trūksta šrifto, brūkšniniai kodai nebus atvaizduoti tinkamai.
 
 Tačiau, kai naudojate **Brūkšninis kodas** duomenų šaltinį brūkšniniams kodams kurti, šių brūkšninių kodų atvaizdavimas nepriklauso nuo jokio šrifto. Todėl galite lengvai konvertuoti dokumentus, kuriuose yra brūkšniniai kodai, į PDF formatą. Toliau pateiktame paveikslėlyje rodoma sugeneruoto mokėjimo čekio, [konvertuoto](electronic-reporting-destinations.md#OutputConversionToPDF) į PDF, peržiūra, pagrįsta sukonfigūruoto ER[paskirties vietos](electronic-reporting-destinations.md) nustatymu.
 

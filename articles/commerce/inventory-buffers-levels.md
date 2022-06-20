@@ -1,6 +1,6 @@
 ---
 title: Atsargų buferių ir atsargų lygių konfigūravimas
-description: Šioje temoje paaiškinama, kaip konfigūruoti atsargų buferius ir atsargų lygius, kurie apibrėžia atsargų pasiekiamumo pranešimus „Microsoft Dynamics 365 Commerce“ svetainėse.
+description: Šiame straipsnyje paaiškinama, kaip konfigūruoti atsargų buferius ir atsargų lygius, kurie nustato atsargų prieinamumo pranešimus svetainėse Microsoft Dynamics 365 Commerce.
 author: boycezhu
 ms.date: 06/01/2020
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: global
 ms.author: boycez
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: 842389811169f785235de7ac7d9a49ab903f99ddf7d43f139aba0873a2577d72
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: acfe71f7fb55f1bc701297bb3949e91d6450d9e9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727538"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853798"
 ---
 # <a name="configure-inventory-buffers-and-inventory-levels"></a>Atsargų buferių ir atsargų lygių konfigūravimas
 
 [!include [banner](includes/banner.md)]
 
-Šioje temoje paaiškinama, kaip konfigūruoti atsargų buferius ir atsargų lygius, kurie apibrėžia pranešimus apie atsargų pasiekiamumą „Microsoft Dynamics 365 Commerce“ svetainėse.
+Šiame straipsnyje paaiškinama, kaip konfigūruoti atsargų buferius ir atsargų lygius, kurie apibrėžia pranešimus apie atsargų prieinamumą svetainėse Microsoft Dynamics 365 Commerce.
 
 „Dynamics 365 Commerce“ būstinėje saugomi atsargų duomenys ir įvairūs kanalai, pvz., elektroninis kasos aparatas (EKA), el. prekybos vitrinos ir kitos pasirinktinės integruotos programos, kurios asinchroniškai nuskaito ir įveda atsargų informaciją. Dėl to pasiekiamų atsargų reikšmės, gaunamos iš „Commerce“ būstinės turimų atsargų puslapio, naudojant EKA vartotojo sąsają (UI) ir el. prekybos atsargų pasiekiamumo API, ne visada pasiekiamos realiuoju laiku.
 

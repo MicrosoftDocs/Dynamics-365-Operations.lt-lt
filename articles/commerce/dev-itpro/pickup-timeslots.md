@@ -1,6 +1,6 @@
 ---
 title: Kurti ir naujinti laiko vietas kliento atsiėmimui
-description: Šioje temoje aprašoma, kaip kurti, konfigūruoti ir naujinti kliento paėmimo laikų vietas „Commerce“ štabe.
+description: Šiame straipsnyje aprašoma, kaip kurti, konfigūruoti ir atnaujinti klientų paėmimo laiko atminties ats. "Commerce Headquarters".
 author: anupamar-ms
 ms.date: 01/05/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: Retail
 ms.author: rapraj
 ms.search.validFrom: 2020-09-20
 ms.dyn365.ops.version: Retail 10.0.15 update
-ms.openlocfilehash: a9ee1356bfcaeee881c28cf0361b34b2c65acbc7a3b57347fa2581a8a935da42
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a135f592225e4b388b5c9fdaa5fe23e60baf0185
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6713426"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8882238"
 ---
 # <a name="create-and-update-time-slots-for-customer-pickup"></a>Kurti ir naujinti laiko vietas kliento atsiėmimui
 
 [!include [banner](../../includes/banner.md)]
 
-Šioje temoje aprašoma, kaip kurti, konfigūruoti ir naujinti kliento paėmimo laikų vietas „Commerce“ štabe.
+Šiame straipsnyje aprašoma, kaip kurti, konfigūruoti ir atnaujinti klientų paėmimo laiko atminties ats. "Commerce Headquarters".
 
 Laiko vietos funkcija suteikia mažmeniniams prekybininkams būdą nustatyti laiko vietas prekėms, kurios paėmimo pristatymo būdas yra įjungtas. Laiko vietos leidžia mažmeniniams prekybininkams nustatyti dienas ir laikus, kai užsakymai gali būti paimami iš parduotuvės. Mažmeniniai prekeiviai taip pat gali nustatyti užsakymų skaičius, kurie gali būti paimti per tam tikrą laikotarpį. Tokiu būdu, mažmeniniai prekeiviai gali apriboti užsakymų skaičių, kurį galima atsiimti per tam skirtą dieną ir tam skirtu laiku. Rezultatai yra geros kokybės patirtis jų klientams.
 

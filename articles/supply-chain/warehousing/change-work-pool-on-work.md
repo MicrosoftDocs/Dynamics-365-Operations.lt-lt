@@ -1,6 +1,6 @@
 ---
 title: Darbo telkinio keitimas
-description: Šiame skyriuje paaiškinama, kaip galite naudoti darbo telkinio keitimo mygtuką darbo elementams tam, kad pakeistumėte esančios užduoties darbo telkinį.
+description: Šiame straipsnyje paaiškinama, kaip galima naudoti mygtuką Keisti darbo telkinį darbo elementams norint pakeisti esamo darbo telkinį.
 author: Mirzaab
 ms.date: 07/16/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: dc210de420705062ba52c674f3ddb8eb7944715a
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 817b45e8f5af957801a0af04e50acf20ba16c26d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8669858"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8900628"
 ---
 # <a name="change-work-pool-on-work"></a>Darbo telkinio keitimas
 
@@ -34,14 +34,14 @@ Kaip ir tiekimo grandinės valdymas 10.0.25 ši funkcija yra privaloma ir jos i�
 
 ## <a name="set-up-the-change-work-pool-on-work-feature"></a>Nustatykite darbo baseino keitimus darbo savybėse
 
-Šios savybės naudojimui, privalote turėti nustatytus keletą darbo baseinų. Galite taip pat nustatyti savo darbo šablonus taip, kad jie automatiškai priskirtų baseiną. Jei norite dirbti su pavyzdiniu scenarijumi, pateiktu šioje temoje, nustatykite sistemą, kaip aprašyta šiame skyriuje.
+Šios savybės naudojimui, privalote turėti nustatytus keletą darbo baseinų. Galite taip pat nustatyti savo darbo šablonus taip, kad jie automatiškai priskirtų baseiną. Jei norite naudoti toliau šiame straipsnyje pateiktą pavyzdį, nustatykite savo sistemą taip, kaip aprašyta šiame skyriuje.
 
 ### <a name="set-up-work-pools"></a>Darbo baseinų nustatymas
 
 Darbo baseinai leidžia jums tvarkyti darbo elementus pagal tipą. Darbui su *Darbo baseino keitimu savo darbe* funkcija, privalote turėti mažiausiai du prieinamus darbo baseinus. Darbo baseinų peržiūrai ir įtraukimui, atlikite šiuos žingsnius.
 
 1. Eikite į **Sandėlio tvarkymas \> Sąranka \> Darbas \> Darbo baseinai**.
-1. Jei dirbate su demo duomenimis iš **USMF** bendrovės ir dirbsite vėliau su pavyzdiniu scenarijumi šioje temoje, įtraukite du darbo baseinus, kurie turi šiuos nustatymus:
+1. Jei dirbate su **demonstraciniai duomenys iš JAVMF** įmonės ir toliau šiame straipsnyje dirbsite naudodami pavyzdinį scenarijų, įtraukite du darbo telkinius, kuriuose yra tokie parametrai:
 
     - Darbo baseinas 1:
 
@@ -57,7 +57,7 @@ Darbo baseinai leidžia jums tvarkyti darbo elementus pagal tipą. Darbui su *Da
 
 ### <a name="set-up-work-templates"></a>Nustatyti darbo šablonus
 
-Kiekvienam iš savo darbo šablonų galite nustatyti kokį norite nustatytąjį darbo baseiną. Kiekvienam atitinkamam šablonui, priskiriate darbo baseiną **Darbo baseino identifikavimo kodo** stulpelyje. Šiuo atveju, visi darbo elementai sukurti naudojant duotą šabloną automatiškai paveldės priskirtą darbo baseiną. Jei dirbate su demo duomenimis iš **USMF** bendrovės ir dirbsite vėliau su pavyzdiniu scenarijumi šioje temoje, atlikite šiuos žingsnius.
+Kiekvienam iš savo darbo šablonų galite nustatyti kokį norite nustatytąjį darbo baseiną. Kiekvienam atitinkamam šablonui, priskiriate darbo baseiną **Darbo baseino identifikavimo kodo** stulpelyje. Šiuo atveju, visi darbo elementai sukurti naudojant duotą šabloną automatiškai paveldės priskirtą darbo baseiną. Jei dirbate su JAVMF **įmonės demonstraciniai** duomenys ir toliau šiame straipsnyje dirbsite naudodami pavyzdinį scenarijų, atlikite šiuos veiksmus.
 
 1. Eikite į **Sandėlio valdymas \> Sąranka \> Darbas \> Darbo šablonai**.
 1. Veiksmų juostoje pasirinkite **Redaguoti** tam, kad lange įjungtumėte redagavimo režimą.
@@ -70,9 +70,9 @@ Kiekvienam iš savo darbo šablonų galite nustatyti kokį norite nustatytąjį 
 
 ## <a name="example-scenario"></a>Pavyzdinis scenarijus
 
-Šis scenarijus rodo, kaip keisti esančio darbo elemento apdorojimo srautą keičiant jo darbo baseiną. Jis naudoja demo duomenis **USMF** bendrovėje ir nustatymus, kurie buvo pasiūlyti anksčiau šioje temoje.
+Šis scenarijus rodo, kaip keisti esančio darbo elemento apdorojimo srautą keičiant jo darbo baseiną. Ji naudoja demonstracinius **duomenis iš USMF** įmonės ir parametrus, kurie buvo pasiūlyti anksčiau šiame straipsnyje.
 
-### <a name="create-a-sales-order-and-release-it-to-the-warehouse"></a>Sukuria prekybos užsakymą ir išleidžia jį į sandėlį
+### <a name="create-a-sales-order-and-release-it-to-the-warehouse"></a>Sukurkite prekybos užsakymą ir išleiskite jį į sandėlį
 
 1. Patvirtinkite, kad yra pakankamai turimo inventoriaus elementams *A0001* ir *A0002* sandėlyje *62*. Eikite į **Inventoriaus valdymas \> Užklausos ir ataskaitos \> Turimas sąrašas** ir redaguokite čia rodomus filtrus:
 

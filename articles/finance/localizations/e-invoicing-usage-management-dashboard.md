@@ -1,6 +1,6 @@
 ---
 title: Naudojimo valdymo skelbimų skelbimų lentos
-description: Šioje temoje paaiškinama, kaip naudoti naudojimo valdymo skelbimų skelbimų skydą, norint stebėti elektroninių SF išrašymo paslaugos naudojimą ir toliau bus suderinama.
+description: Šiame straipsnyje paaiškinama, kaip naudoti naudojimo valdymo skelbimų skelbimų skydą, norint stebėti elektroninių SF išrašymo paslaugos naudojimą ir toliau bus suderinama.
 author: gionoder
 ms.date: 06/02/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 35b50c8cb5c6ef72f466a4fb10c7af0e53afc3db5d1ef9e2b23d6049e24a70c3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3fad2acea373e96092208ce06edb31f1a862912d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6776479"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8875977"
 ---
 # <a name="usage-management-dashboard"></a>Naudojimo valdymo skelbimų skelbimų lentos
 
@@ -48,7 +48,7 @@ Skelbimų srityje yra šie indikatoriai:
 
 - Organizacija: 
 
-    Skaičiavimas susumuojamas pagal jūsų organizacijos nuomininkų ID, neatsižvelgiant į skaičių arba juridinių subjektų skaičių, kur įgalinta elektroninių SF „Microsoft Dynamics 365 Finance“ bei „Dynamics 365 Supply Chain Management“ išrašymo tarnyba.
+    Skaičiavimas susumuojamas Microsoft Dynamics pagal jūsų organizacijos nuomininkų ID, neatsižvelgiant į 365 Dynamics 365 Supply Chain Management finansų egzempliorių skaičių arba juridinių subjektų skaičių, kur elektroninių SF išrašymo paslauga įgalinta.
 
 
 ## <a name="indicator-usage-per-month-export"></a>Indikatorius: naudojimas per mėnesį (eksportas)

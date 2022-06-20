@@ -1,6 +1,6 @@
 ---
 title: Mašininio mokymo modelių rezultatai
-description: Šioje temoje aptariamos supainiojimo matricos, klasifikavimo problemos ir mašininio mokymo (ML) modelių tikslumas. Siekiama, kad geriau suprastumėte ML prognozavimo rezultatų tikslumą.
+description: Šiame straipsnyje aptariamos painiavos matricos, klasifikacijos problemos ir tikslumas įrenginių mokymosi (DAUG) modeliuose. Siekiama, kad geriau suprastumėte ML prognozavimo rezultatų tikslumą.
 author: ShivamPandey-msft
 ms.date: 07/16/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-14
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: c57a023995e0bb58d4fba0a4fd2f147d07e51348
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 23df5979231fbd6908b6f1e7c3aca5dd3e0e733d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725966"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910177"
 ---
 # <a name="results-of-machine-learning-models"></a>Mašininio mokymo modelių rezultatai
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje aptariamos supainiojimo matricos, klasifikavimo problemos ir mašininio mokymo (ML) modelių tikslumas. Siekiama, kad geriau suprastumėte ML prognozavimo rezultatų tikslumą. Tikslinė auditorija apima inžinierius, analitikus ir vadovus, kurie nori plėtoti savo žinias ir įgūdžius duomenų mokslo srityje.
+Šiame straipsnyje aptariamos painiavos matricos, klasifikacijos problemos ir tikslumas įrenginių mokymosi (DAUG) modeliuose. Siekiama, kad geriau suprastumėte ML prognozavimo rezultatų tikslumą. Tikslinė auditorija apima inžinierius, analitikus ir vadovus, kurie nori plėtoti savo žinias ir įgūdžius duomenų mokslo srityje.
 
 ## <a name="confusion-matrix"></a>Supainiojimo matrica
 Kai prižiūrimos ML problemos išmokoma naudojant istorinių duomenų rinkinį, ji išbandoma naudojantis duomenimis, kurie nėra įtraukiami į mokymo procesą. Tokiu būdu galite palyginti išmokyto modelio prognozes su faktinėmis reikšmėmis. Supainiojimo matrica suteikia priemonių vertinti, kiek sėkminga yra klasifikacijos problema ir kur daroma klaidų (t. y., kur susipainiojama).
@@ -73,16 +73,16 @@ Tikslumas yra svarbi priemonė bendraujant su sričių ekspertais, kurie nėra s
 
 Mokėjimo prognozavimo situacijoje galite nustatyti ML modelio tikslą, apimantį skirtingo apmokėjimo elgesio veiksnius. Tikslas yra toks: modelis turi pagerinti paprastą spėjimą, bent 50 procentų sumažindamas neteisingų atsakymų skaičių. Kitaip tariant, norite, kad tikslinis tikslumas būtų maždaug per vidurį tarp paprasto spėjimo tikslumo ir 100 procentų tikslumo esanti reikšmė.
 
-Tolesnėje lentelėje apibendrinamas šis principas, taikomas šioje temoje aprašomoms supainiojimo matricoms.
+Šioje lentelėje apibendrinamas šio straipsnio painiavos matricų principas.
 
-| Modelis   | Paprastas spėjimas | Uždavinys | Modelio tikslumas | Ar tikslas pasiektas?                                          |
+| Modelis   | Paprastas spėjimas | Tikslas | Modelio tikslumas | Ar tikslas pasiektas?                                          |
 |---------|-------------|--------|----------------|-----------------------------------------------------------|
 | 1 modelis | 0.50        | 0.75   | 0.73           | Beveik. Šis modelis iš esmės pagerina spėjimą. |
 | 2 modelis | 0.80        | 0.90   | 0.83           | Nr. Reikia tobulinti.                              |
 
 ## <a name="classification-f1-accuracy"></a>Klasifikacijos F1 tikslumas
 
-Galiausiai šioje temoje panagrinėsime pažangesnę klasifikavimo ML našumo priemonę, vadinamą F1 tikslumu.
+Galutinis šio straipsnio svarstymas yra išsamesnis KLASIFIKAVIMO IŠ DALIES našumo matavimas, žinomas kaip F1 tikslumas.
 
 Kad būtų galima apibrėžti F1 tikslumą, reikia įvesti dvi papildomas metrikas: tikslumo ir atitikties. Tikslumas nurodo, kiek visų prognozių, kurios nurodytos kaip teigiamos, yra tinkamai priskirta. Ši metrika taip pat vadinama teigiama prognozavimo reikšme. Atitiktis yra bendrasis faktinių teigiamų atvejų skaičius, kuris buvo teisingas nuspėtas. Ši metrika taip pat vadinama jautrumu.
 
@@ -97,7 +97,7 @@ F1 priemonė sujungia tikslumą ir atitiktį. Rezultatas yra dviejų reikšmių 
 
 - F1 = 2 × (tikslumas × atitiktis) ÷ (tikslumas + atitiktis)
 
-Pažvelkime į konkretų pavyzdį. Anksčiau šioje temoje buvo pateiktas modelio pavyzdys, kuris prognozavo, ar gyvūnas buvo šuo, ar katė. Iliustracija pakartojama čia.
+Pažvelkime į konkretų pavyzdį. Anksčiau šiame straipsnyje pateiktas modelio, kuris numatė, ar prognozė buvo kat, ar pagal prognozę, pavyzdys. Iliustracija pakartojama čia.
 
 [![Rūšių spėjimo pavyzdys (pakartotinas).](./media/species-prediction-matrix.png)](./media/species-prediction-matrix.png)
 
@@ -111,7 +111,7 @@ Kaip matote, F1 reikšmė yra tarp tikslumo ir atitikties reikšmių.
 
 Nors F1 tikslumą nėra taip lengva suprasti, jis pagrindinį tikslumo skaičių patikslina. Jis taip pat gali padėti naudojant nesubalansuotus duomenų rinkinius, kaip bus aptarta toliau.
 
-Šios temos skyriuje [Modelio tikslumas](#model-accuracy) buvo palygintos tolesnės dvi supainiojimo matricos. Nepaisant to, kad pirmo modelio tikslumas buvo mažesnis, jis buvo laikomas naudingesniu, nes jis pasirodė esantis tobulesnis už numatytąjį spėjimą dėl vienkartinio mokėjimo.
+Šio [straipsnio modelio](#model-accuracy) tikslumo skyriuje lyginamos šios dvi painiavos matricos. Nepaisant to, kad pirmo modelio tikslumas buvo mažesnis, jis buvo laikomas naudingesniu, nes jis pasirodė esantis tobulesnis už numatytąjį spėjimą dėl vienkartinio mokėjimo.
 
 ![Apmokėjimo prognozavimas, palyginti su faktiniais duomenimis (pavyzdys).](media/payment-prediction-matrix.png)
 

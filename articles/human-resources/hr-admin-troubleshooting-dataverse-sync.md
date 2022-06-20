@@ -1,6 +1,6 @@
 ---
 title: Atkurti „Dataverse“ sinchronizavimą
-description: Šioje temoje aprašoma, kaip šalinti įrašus, kurie nesinchronizuojami teisingai tarp ir personalo valdymo „Microsoft Dynamics 365 Human Resources“ (HCM) bendro sprendimo „Microsoft Dataverse“.
+description: Šiame straipsnyje aprašoma, kaip šalinti įrašus, kurie netinkamai sinchronizuojami tarp "Microsoft Dynamics 365 Human Resources " ir personalo valdymo (HCM) bendro sprendimo Microsoft Dataverse.
 author: jaredha
 ms.date: 09/27/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2021-09-27
 ms.dyn365.ops.version: Platform update 42
-ms.openlocfilehash: 8bfcd51b023c02590919155abbb836326408d298
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: b69390538fa28e18e5abf8aef548d67b6afb8496
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8696241"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895995"
 ---
 # <a name="reset-dataverse-synchronization"></a>Atkurti „Dataverse“ sinchronizavimą
 

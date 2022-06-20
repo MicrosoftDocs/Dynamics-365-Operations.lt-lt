@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: f3e94cc79f0daac9107f9876ac8414d2c4cff366
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: e3ec1f59e0b1d202d5591bfc1525c9034f4d8f45
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7569004"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893126"
 ---
 # <a name="zone-threshold-replenishment"></a>Papildymo pagal zoną ribinės vertės
 
@@ -45,7 +45,7 @@ Norėdami naudoti *Papildymo pagal zoną ribinės vertės* funkciją, įjunkite 
 
 ## <a name="set-up-zone-based-replenishment"></a><a name="setup"></a>Nustatyti papildymą pagal zoną
 
-Norėdami zona pagrįstą papildymą, turite sukonfigūruoti kelias sistemos dalis. Šiame skyriuje supažindinama su įvairiais parametrais ir pateikiamos demonstracinių duomenų vertės, kurias galite įvesti, jei norite pagal scenarijų šios temos pabaigoje.
+Norėdami zona pagrįstą papildymą, turite sukonfigūruoti kelias sistemos dalis. Šiame skyriuje pristatyti įvairūs parametrai ir pateikti demonstracinių duomenų vertės, kurias galite įvesti, jei norite dirbti su scenarijumi šio straipsnio pabaigoje.
 
 ### <a name="set-up-directive-codes"></a>Vietos nurodymų nustatymas
 
@@ -57,7 +57,7 @@ Norėdami peržiūrėti arba redaguoti savo nurodymų kodus, eikite į **Sandėl
 
 #### <a name="prepare-demo-data-directive-codes"></a>Nurodymo kodų parodomųjų duomenų paruošimas
 
-Šis pavyzdys parodo, kaip paruošti nurodymo kodą. Jei jūs planuojate dirbti per scenarijų šios temos pabaigoje, naudokitės čia pateiktomis demonstracinių duomenų vertėmis. Kitu atveju naudokite savo vertes.
+Šis pavyzdys parodo, kaip paruošti nurodymo kodą. Jei šio straipsnio pabaigoje planuojate naudoti scenarijų, naudokite čia pateiktas parodomąsias duomenų vertes. Kitu atveju naudokite savo vertes.
 
 1. Pasirinkite **USMF** juridinį subjektą dirbti su demonstraciniais duomenimis.
 1. Eikite į **Sandėlio valdymas \> Nustatymas \> Nurodymų kodai**.
@@ -79,7 +79,7 @@ Papildymo šablonas yra taisyklės, kuriomis remiantis kontroliuojama, kada ir k
 
 #### <a name="prepare-a-demo-data-replenishment-template"></a>Paruošti demonstracinius duomenis papildymo šablone
 
-Šis pavyzdys parodo, kaip paruošti papildymo šabloną. Jei jūs planuojate dirbti per scenarijų šios temos pabaigoje, naudokitės čia pateiktomis demonstracinių duomenų vertėmis. Kitu atveju naudokite savo vertes.
+Šis pavyzdys parodo, kaip paruošti papildymo šabloną. Jei šio straipsnio pabaigoje planuojate naudoti scenarijų, naudokite čia pateiktas parodomąsias duomenų vertes. Kitu atveju naudokite savo vertes.
 
 1. Pasirinkite **USMF** juridinį subjektą dirbti su demonstraciniais duomenimis.
 1. Eikite į **Sandėlio valdymas \> Nustatymas \> Papildymas \> Papildymo šablonai**.
@@ -144,7 +144,7 @@ Pavyzdžiai, kuriais rodoma, kaip naudoti nustatymus siekiant sukurti reikiamos 
 
 #### <a name="prepare-demo-data-location-directives"></a>Vietos nurodymo demonstracinių duomenų paruošimas
 
-Norėdami paruošti demonstracinius duomenis taip, kad juos būtų galima naudoti scenarijuje šios temos pabaigoje, turite sukurti du vietos nurodymus: vieną paėmimui ir kitą padėjimui.
+Norėdami paruošti demonstracinius duomenis, kad juos būtų galima naudoti šio straipsnio pabaigoje naudojamame scenarijuje, turite sukurti dvi vietos nurodymus: vieną paėmimui ir vieną – padėti.
 
 ##### <a name="create-a-replenishment-pick-directive"></a>Papildymo paėmimo vietos nurodymo kūrimas
 
@@ -258,7 +258,7 @@ Norėdami paruošti demonstracinius duomenis taip, kad juos būtų galima naudot
 
 ### <a name="prepare-the-sample-data-that-is-required-for-the-sample-scenario"></a>Paruošti pavyzdinius duomenis, reikalingus pavyzdžio scenarijui
 
-Prieš pradėdami dirbti pagal scenarijų, turite suaktyvinti pavyzdinius duomenis ir nustatyti šią funkciją, kaip aprašyta šiame ir ankstesniame šios temos skyriuose.
+Prieš pradėdami dirbti su scenarijumi, turite suaktyvinti duomenų pavyzdžius ir nustatyti funkciją, kaip aprašyta šiame skyriuje ir ankstesniuose šio straipsnio skyriuose.
 
 #### <a name="use-the-usmf-legal-entity"></a>Naudokite USMF juridinį subjektą
 
@@ -266,7 +266,7 @@ Norėdami dirbti pagal šį scenarijų, naudojant nurodytus įrašų ir reikšmi
 
 #### <a name="prepare-additional-sample-data"></a>Paruošti papildomus pavyzdžio duomenis
 
-Pasirinkę **USMF** juridinį subjektą, pridėkite papildomus pavyzdinius duomenis, kaip nurodyta ankstesnėje šios temoje dalyje [nustatyti zonos papildymo ](#setup).
+Pasirinkę USMF **juridinį** subjektą, įtraukite papildomą pavyzdžio duomenis, kurie yra būtini, [kaip](#setup) aprašyta anksčiau šiame straipsnyje skyriuje Nustatyti zoną pagrįstą papildymą.
 
 #### <a name="check-your-on-hand-inventory"></a>Turimų atsargų patikrinimas
 

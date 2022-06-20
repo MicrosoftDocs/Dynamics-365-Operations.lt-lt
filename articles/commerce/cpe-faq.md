@@ -1,6 +1,6 @@
 ---
-title: „Dynamics 365 Commerce“ vertinimo aplinkos DUK
-description: Šioje temoje pateikiami atsakymai į dažniausiai užduodamus klausimus apie „Microsoft Dynamics 365 Commerce“ vertinimo aplinką.
+title: DUK apie „Dynamics 365 Commerce” vertinimo aplinką
+description: Šiame straipsnyje pateikiami atsakymai į dažnai užduodamus klausimus apie vertinimo Microsoft Dynamics 365 Commerce aplinką.
 author: v-chgri
 ms.date: 07/16/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: e8a3e760353b351d42aff82c0d372d2aca350cd2
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
-ms.translationtype: MT
+ms.openlocfilehash: 94717c1b9ff4ec05ee9734e1471a137cef55edfe
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7343563"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861945"
 ---
 # <a name="dynamics-365-commerce-evaluation-environment-faq"></a>DUK apie „Dynamics 365 Commerce” vertinimo aplinką
 
 [!include [banner](includes/banner.md)]
 
-Šioje temoje pateikiami atsakymai į dažniausiai užduodamus klausimus apie „Microsoft Dynamics 365 Commerce“ vertinimo aplinką.
+Šiame straipsnyje pateikiami atsakymai į dažnai užduodamus klausimus apie vertinimo Microsoft Dynamics 365 Commerce aplinką.
 
 ## <a name="can-we-use-the-commerce-evaluation-environment-as-an-e-commerce-storefront-for-customers-that-currently-implement-retail"></a>Ar galime naudoti komercijos vertinimo aplinką kaip „e-Commerce“ parduotuvę savo klientams, kurie jau įgyvendino „Retail“?
 
@@ -37,7 +37,7 @@ Ne (dažniausiai). Komercijos vertinimo komponentai yra prieinami tik aplinkose,
 
 ## <a name="what-costs-are-involved-in-deploying-the-commerce-evaluation-environment-on-microsoft-azure-via-microsoft-dynamics-lifecycle-services-lcs"></a>Kiek kainuoja įdiegti komercijos vertinimo aplinką „Microsoft Azure“ paslaugoje, naudojant „Microsoft Dynamics Lifecycle Services“ (LCS)?
 
-Įprasta „Dynamics 365 Finance“/„Dynamics 365 Supply Chain Management“/„Dynamics 365 Commerce“ būstinės demo aplinka (virtuali mašina \[VM\]) bus patalpinta jūsų „Azure“ prenumeratoje. Norėdami įvertinti šiuos kaštus, galite naudoti [„Azure“ kainų skaičiuotuvą](https://azure.microsoft.com/pricing/calculator/).
+Tradicinė "Dynamics 365" finansų /Dynamics 365 Supply Chain Management Dynamics 365 Commerce būstinės parodomoji aplinka (virtualioji \[mašina VM\]) bus laikoma jūsų "Azure" abonemente. Norėdami įvertinti šiuos kaštus, galite naudoti [„Azure“ kainų skaičiuotuvą](https://azure.microsoft.com/pricing/calculator/).
 
 Kiti komponentai, tokie kaip „Commerce Scale Unit“, komercijos vietos kūrimo įrankis ir jūsų „e-Commerce“ vieta bus prieinama kaip programinės įrangos paslaugos (SaaS) ir patalpinti „Microsoft“.
 

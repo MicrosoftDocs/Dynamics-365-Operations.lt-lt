@@ -1,6 +1,6 @@
 ---
 title: Pardavimo sutarčių įvedimas
-description: Šioje temoje aiškinama, kaip sukurti pardavimo sutartį, kuri įpareigoja vieną iš jūsų klientų per tam tikrą laiką nusipirkti produktą už sutartą sumą mainais į specialias nuolaidas.
+description: Šiame straipsnyje paaiškinama, kaip sukurti pardavimo sutartį, kurioje vienas iš jūsų klientų būtų įpareigotas pirkti produktą už sutartą kiekį per tam tikrą laiką mainuose už specialiąsias nuolaidas.
 author: Henrikan
 ms.date: 08/08/2019
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Service industries
 ms.author: henrikan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ee2c1494842c5fd2aa598546ba655c33d6fd3f16
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 8b3aa72057753a9592fd47275dc996a3a904d86b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7568308"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8897493"
 ---
 # <a name="enter-sales-agreements"></a>Pardavimo sutarčių įvedimas
 
 [!include [banner](../../includes/banner.md)]
 
-Šioje temoje aiškinama, kaip sukurti pardavimo sutartį, kuri įpareigoja vieną iš jūsų klientų per tam tikrą laiką nusipirkti produktą už sutartą sumą mainais į specialias nuolaidas. Šią procedūrą galite vykdyti demonstracinėje duomenų įmonėje USMF arba su savo duomenimis.
+Šiame straipsnyje paaiškinama, kaip sukurti pardavimo sutartį, kurioje vienas iš jūsų klientų būtų įpareigotas pirkti produktą už sutartą kiekį per tam tikrą laiką mainuose už specialiąsias nuolaidas. Šią procedūrą galite vykdyti demonstracinėje duomenų įmonėje USMF arba su savo duomenimis.
 
 
 ## <a name="set-up-sales-agreement-header"></a>Pardavimo sutarties eilutės nustatymas

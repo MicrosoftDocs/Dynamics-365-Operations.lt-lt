@@ -1,6 +1,6 @@
 ---
 title: B2B svetainių „Commerce“ katalogų kūrimas
-description: Šioje temoje aprašoma, kaip sukurti "Commerce" Microsoft Dynamics 365 Commerce katalogus "business-to-business" (B2B) svetainėms.
+description: Šiame straipsnyje aprašoma, kaip sukurti "Commerce" katalogus Microsoft Dynamics 365 Commerce " verslo įmonių (B2B) svetainėms.
 author: ashishmsft
 ms.date: 05/18/2022
 ms.topic: article
@@ -9,22 +9,22 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2022-02-28
-ms.openlocfilehash: 7382062706c2de01c499ee05aeb0b45ff6fb37cb
-ms.sourcegitcommit: bca0cb730307948368a9aabe322cf963688ed8b1
-ms.translationtype: MT
+ms.openlocfilehash: 7d87b6c64a6038c4518eeec178f9e139ef6f5ae2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "8782842"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8848994"
 ---
 # <a name="create-commerce-catalogs-for-b2b-sites"></a>B2B svetainių „Commerce“ katalogų kūrimas
 
 [!include [banner](includes/banner.md)]
 [!include [banner](includes/preview-banner.md)]
 
-Šioje temoje aprašoma, kaip sukurti "Commerce" produktų Microsoft Dynamics 365 Commerce katalogus "Business-To-Business" (B2B) svetainėms. Atsakymus į dažnai užduodamus klausimus apie B2B svetainių "Commerce" katalogus žr [. B2B DUK "Commerce" kataloguose](catalogs-b2b-sites-FAQ.md).
+Šiame straipsnyje aprašoma, kaip sukurti "Commerce" produktų Microsoft Dynamics 365 Commerce katalogus "Business-to-business" (B2B) svetainėms. Atsakymus į dažnai užduodamus klausimus apie B2B svetainių "Commerce" katalogus žr [. B2B DUK "Commerce" kataloguose](catalogs-b2b-sites-FAQ.md).
 
 > [!NOTE]
-> Ši tema taikoma Dynamics 365 Commerce 10.0.27 ir vėlesniams leidimams.
+> Šis straipsnis taikomas Dynamics 365 Commerce 10.0.27 ir vėlesniams leidimams.
 
 Norėdami identifikuoti produktus, kuriuos norite pasiūlyti savo B2B interneto parduotuvėse, galite naudoti "Commerce" katalogus. Kai sukuriate katalogą, identifikuojate interneto parduotuves, kurių produktai yra siūlomi, įtraukiate norimus įtraukti produktus ir pagerinate produktų siūlymas įtraukdami prekybos informaciją. Galite sukurti kelis katalogus kiekvienai B2B interneto parduotuvei.
 

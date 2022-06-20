@@ -1,6 +1,6 @@
 ---
 title: Perkėlimo užsakymų kūrimas iš sandėlio programos
-description: Šioje temoje aprašoma, kaip kurti ir apdoroti perkėlimo užsakymus naudojant sandėlio valdymo mobiliųjų įrenginių programėlę
+description: Šiame straipsnyje aprašoma, kaip kurti ir apdoroti perkėlimo užsakymus naudojant sandėlio valdymo mobiliąją programą
 author: perlynne
 ms.date: 09/02/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: cbaeb120032bf2239fd9a5bce39fd7936229b308
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: b9edc2d94aa1f4850d2e7fe2b4bdd1b092be944f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8102943"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8877456"
 ---
 # <a name="create-transfer-orders-from-the-warehouse-app"></a>Perkėlimo užsakymų kūrimas iš sandėlio programos
 

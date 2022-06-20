@@ -1,6 +1,6 @@
 ---
 title: Aptarnavimo sutarčių grupių kūrimas
-description: Temoje pateikiama nuosekli aptarnavimo sutarčių grupių kūrimo procedūra.
+description: Šiame straipsnyje pateikiama procedūra, kurioje parodyta, kaip sukurti aptarnavimo sutarčių grupes.
 author: sorenva
 ms.date: 02/19/2018
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b849de86f5c2cb89d584df607a4d7662606fa9d6
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
-ms.translationtype: MT
+ms.openlocfilehash: 9d94dfe38a6aef765bb1089908827275c00b3dc9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677288"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889492"
 ---
 # <a name="create-service-agreement-groups"></a>Aptarnavimo sutarčių grupių kūrimas 
 
@@ -37,7 +37,7 @@ Aptarnavimo sutarčių grupės yra naudingos aptarnavimo sutartims rūšiuoti ir
 > [!NOTE]
 > Jei aptarnavimo sutarčių grupė nustatyta puslapio **Aptarnavimo valdymo parametrai** lauke **Aptarnavimo sutarčių grupė**, programa pasiūlys šią grupę visoms naujoms jūsų sukurtoms sutartims.
 
-## <a name="related-topics"></a>Susijusios temos
+## <a name="related-articles"></a>Susiję straipsniai
 
 [Aptarnavimo sutarties apžvalga](service-agreement-groups.md)
 

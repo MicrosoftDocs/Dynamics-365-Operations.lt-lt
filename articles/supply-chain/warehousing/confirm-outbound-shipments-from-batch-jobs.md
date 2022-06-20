@@ -1,6 +1,6 @@
 ---
 title: Patvirtinti siunčiamas siuntas naudojant paketines užduotis
-description: Ši tema aprašo, kaip nustatyti pakuotės užduotį, kuri automatiškai tvirtina išorės perdavimo užsakymo siuntimus paruoštiems siųsti kroviniams.
+description: Šiame straipsnyje aprašoma, kaip nustatyti paketinę užduotį, kuri automatiškai patvirtina paruoštų išsiųsti krovinių išsiuntimo užsakymo siuntas.
 author: perlynne
 ms.date: 07/31/2020
 ms.topic: article
@@ -12,22 +12,22 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-07-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: f68dcfc0c1454ee5b095e186c52faa6c83bf8dc6
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 00749a69b17b0064290d7b41ccb2171386716302
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103920"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8875107"
 ---
 # <a name="confirm-outbound-shipments-from-batch-jobs"></a>Patvirtinti siunčiamas siuntas naudojant paketines užduotis
 
 [!include [banner](../includes/banner.md)]
 
-Ši tema aprašo, kaip nustatyti pakuotės užduotį, kuri automatiškai tvirtina išorės perdavimo užsakymo siuntimus paruoštiems siųsti kroviniams. Čia aprašyta pakuotės užduotis taikoma tik persiunčiamiems užsakymo siuntimams, o ne prekybos užsakymams.
+Šiame straipsnyje aprašoma, kaip nustatyti paketinę užduotį, kuri automatiškai patvirtina paruoštų išsiųsti krovinių išsiuntimo užsakymo siuntas. Čia aprašyta pakuotės užduotis taikoma tik persiunčiamiems užsakymo siuntimams, o ne prekybos užsakymams.
 
 ## <a name="turn-the-confirm-outbound-shipments-from-batch-jobs-feature-on-or-off"></a>Įjungti arba išjungti paketinių užduočių funkciją patvirtinti siunčiamas siuntas
 
-Norint naudotis šioje temoje aprašytomis funkcijomis, *sistemoje turi būti įjungta paketinių* užduočių patvirtinimo siuntų funkcija. Kaip ir tiekimo grandinės valdymo versija 10.0.21 ši funkcija įjungiama pagal numatytąjį nustatymą. Kaip ir tiekimo grandinės valdymas 10.0.25 ši funkcija yra privaloma ir jos išjungti negalima. Jei naudojate senesnę nei 10.0.25 versiją, *·*[tada administratoriai gali įjungti arba išjungti šią funkciją ieškodami siunčiamų siuntų patvirtinimo iš paketinių užduočių funkcijų funkcijų valdymo](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) darbo srityje.
+Norint naudoti šiame straipsnyje aprašytas funkcijas, *jūsų sistemai turi būti įjungta funkcija Patvirtinti siunčiamas siuntas* iš paketinių užduočių. Kaip ir tiekimo grandinės valdymo versija 10.0.21 ši funkcija įjungiama pagal numatytąjį nustatymą. Kaip ir tiekimo grandinės valdymas 10.0.25 ši funkcija yra privaloma ir jos išjungti negalima. Jei naudojate senesnę nei 10.0.25 versiją, *·*[tada administratoriai gali įjungti arba išjungti šią funkciją ieškodami siunčiamų siuntų patvirtinimo iš paketinių užduočių funkcijų funkcijų valdymo](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) darbo srityje.
 
 ## <a name="process-outbound-shipments"></a>Apdoroti siunčiamas siuntas
 

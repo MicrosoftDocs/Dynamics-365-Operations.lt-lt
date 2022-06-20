@@ -1,6 +1,6 @@
 ---
-title: Pritaikomų sandėlio lygio dimensijų rezervavimo strategija
-description: Šioje temoje aprašoma atsargų rezervavimo strategija, kuria įmonės, prekiaujančios pagal paketą sekamais produktais ir vykdančios savo logistiką kaip palaikančias WMS operacijas, rezervuoja konkrečius kliento pardavimo užsakymų paketus, net jei rezervavimo hierarchija, kuri yra susieta su produktais, neleidžia rezervuoti tam tikrų paketų.
+title: Lanksti sandėlio dimensijų rezervavimo strategija
+description: Šiame straipsnyje aprašoma atsargų rezervavimo strategija, kuri leidžia verslo įmonėms, kurios parduoda paketinius produktus ir vykdo savo logistiką kaip WMS įgalintas operacijas, rezervuoja konkrečius paketus klientų pardavimo užsakymams, nors rezervavimo hierarchija, susieta su produktais, neleidžia rezervuoti konkrečių paketų.
 author: perlynne
 ms.date: 07/31/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-01-15
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 0fe4b377ec80601f616f81f71222129256dfd448
-ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
+ms.openlocfilehash: fb42d4ccd2d8797a34f6351caf7dedbc1e957fd5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/07/2021
-ms.locfileid: "7474945"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885818"
 ---
 # <a name="flexible-warehouse-level-dimension-reservation-policy"></a>Lanksti sandėlio dimensijų rezervavimo strategija
 
@@ -28,7 +28,7 @@ Kai *Paketas žemiau\[vietos\]* tipo atsargų rezervavimo hierarchija yra susiet
 
 Panašiu būdu, licencijos numeris gali būti rezervuojamas produktams prekybos užsakymuose, kai šie produktai yra susieti su nustatyta rezervacijos hierarchija.
 
-Šis skyrius aprašo inventoriaus rezervacijos politiką, kuri leidžia šiems verslams rezervuoti konkrečius paketus arba licencijos numerius, net jei produktai yra susieti su *Paketo žemiau\[vietos\]* rezervavimo hierarchija.
+Šiame straipsnyje aprašoma atsargų rezervavimo strategija, kuri leidžia šioms įmonėms rezervuoti konkrečius paketus ar numerio lentelę, *\[\]* net jei produktai susieti su paketiniu vietos rezervavimo hierarchija.
 
 ## <a name="inventory-reservation-hierarchy"></a>Atsargų rezervavimo hierarchija
 

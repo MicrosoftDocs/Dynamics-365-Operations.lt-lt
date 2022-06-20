@@ -1,6 +1,6 @@
 ---
-title: Darbo su „Planning Optimization“ pradžia
-description: Šioje temoje aiškinama, kaip pradėti naudoti „Planning Optimization“ funkciją.
+title: Darbo su planavimo optimizavimu pradžia
+description: Šiame straipsnyje paaiškinama, kaip pradėti naudoti planavimo optimizavimo funkciją.
 author: t-benebo
 ms.date: 05/20/2021
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: a08128f9529e576294181bd70134b02caae54b90
-ms.sourcegitcommit: 5130446fd5327595b2d67e67cbd1b5661bb2983c
+ms.openlocfilehash: b9595aece264f55c706ebc84010b927fae56b512
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8648715"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8900976"
 ---
 # <a name="get-started-with-planning-optimization"></a>Darbo su planavimo optimizavimu pradžia
 
@@ -99,7 +99,7 @@ Ryšio būsena rodo dabartinę ryšio tarp „Supply Chain Management“ ir „P
 |---|---|---|
 | Prisijungta | Jungtis nustatyta tarp „Planning Optimization“ paslaugos ir „Supply Chain Management“. | Taip |
 | Įjungiamas ryšys | Šiuo metu apdorojama užklausa, ar įjungti ryšį su „Planning Optimization“ paslauga. | Ne |
-| Atsijungta | Nėra ryšio su „Planning Optimization“ paslauga. Ryšį galima įjungti iš LCS, kaip pirmiau aprašyta šioje temoje. | Ne |
+| Atsijungta | Nėra ryšio su „Planning Optimization“ paslauga. Ryšį galima įjungti iš LCS, kaip anksčiau aprašyta šiame straipsnyje. | Ne |
 | Išjungiamas ryšys | Šiuo metu apdorojama užklausa, ar išjungti ryšį su „Planning Optimization“ paslauga. | Ne |
 | Gavimo būsena | Sistema laukia būsenos informacijos iš „Planning Optimization“ paslaugos. | Ne |
 

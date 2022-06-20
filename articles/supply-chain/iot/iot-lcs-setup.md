@@ -1,6 +1,6 @@
 ---
 title: IoT analizės papildinio diegimas LCS
-description: Šioje temoje aiškinama, kaip portale „Microsoft Dynamics Lifecycle Services“ (LCS) įdiegti IoT analizės papildinį.
+description: Šiame straipsnyje paaiškinama, kaip įdiegti "IoT Intelligence" papildinį ciklo Microsoft Dynamics tarnybose (LCS).
 author: johanhoffmann
 ms.date: 07/07/2020
 ms.topic: article
@@ -14,25 +14,25 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-04-04
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 12ffa71dc1c2badaffdc2e419a47d855635016f2
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 52fe4c4a79378aca5f1e64c8b3f4fa85199c9911
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8679029"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887492"
 ---
 # <a name="install-the-iot-intelligence-add-in-in-lcs"></a>IoT analizės papildinio diegimas LCS
 
 [!include [banner](../../includes/banner.md)]
 
-Šioje temoje aiškinama, kaip portale „Microsoft Dynamics Lifecycle Services“ (LCS) įdiegti IoT analizės papildinį. Atkreipkite dėmesį, kad priedai negali būti įdiegti demo ar bandyminėje aplinkoje. Kad galėtumėte įdiegti papildinį, turite [sukurti „Azure“ išteklius ](iot-azure-setup.md).
+Šiame straipsnyje paaiškinama, kaip įdiegti "IoT Intelligence" papildinį ciklo Microsoft Dynamics tarnybose (LCS). Atkreipkite dėmesį, kad priedai negali būti įdiegti demo ar bandyminėje aplinkoje. Kad galėtumėte įdiegti papildinį, turite [sukurti „Azure“ išteklius ](iot-azure-setup.md).
 
 Galite nustatyti ir konfigūruoti „IoT“ įžvalgos nerašydami jokio kodo. Čia yra pagrindiniai veiksmai.
 
 1. [Nustatyti „Azure" išteklius](iot-azure-setup.md) – kurti „IoT" centrą, „Redis" talpyklą ir rakto saugyklą, kurią galima pasiekti iš „Supply Chain Management“.
 2. [Pranešimo schemų formatai IoT hub](iot-schema-format.md) – sukonfigūruokite savo įrenginius, kad jie siųsų pranešimus į „IoT hub“, ir nustatykite „JavaScript Object Notation" (JSON) pranešimo formatą.
 3. Funkcijų valdymo srityje įgalinkite „IoT“ įžvalgos funkcijos vėliavėlę.
-4. Įdiekite "IoT Intelligence Microsoft Dynamics " papildinį į ciklo tarnybas (LCS) – įdiekite papildinį LCS ir sukonfigūruokite "Azure" slaptumus (kaip aprašyta šioje temoje).
+4. Įdiekite "IoT Intelligence Microsoft Dynamics " papildinį į ciklo tarnybas (LCS) – įdiekite papildinį LCS ir sukonfigūruokite "Azure" slaptumus (kaip aprašyta šiame straipsnyje).
 5. [Nustatyti metriką](iot-metrics-setup.md) – „Supply Chain Management“ sistemos metrika.
 6. [Scenarijaus nustatymas](iot-scenario-setup.md) – „Supply Chain Management“ nustatykite scenarijus.
 

@@ -1,6 +1,6 @@
 ---
-title: Susieti kanalus su el. komercijos svetainėmis
-description: Šioje temoje aprašomi kai kurie į bendruosius kanalų susiejimo Microsoft Dynamics 365 Commerce scenarijus, kurie gali būti papildomai skirti daugumai kitų verslo poreikių.
+title: Susieti kanalus su elektroninės prekybos svetainėmis
+description: Šiame straipsnyje aprašomi kai kurie į bendruosius kanalų susiejimo Microsoft Dynamics 365 Commerce scenarijus, kuriuose galima atsiskaityti pagal daugelį kitų verslo reikalavimų.
 author: samjarawan
 ms.date: 05/11/2022
 ms.topic: article
@@ -14,20 +14,20 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 8ce272d63b4a37f99661333a02434708205ea19a
-ms.sourcegitcommit: e4cc43b06ef3f0f562849e2c960025cb244d6017
+ms.openlocfilehash: 94c43df26e8d6e55a5b6d459b65066d5873e1063
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/12/2022
-ms.locfileid: "8743604"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8902768"
 ---
-# <a name="map-channels-to-e-commerce-sites"></a>Susieti kanalus su el. komercijos svetainėmis
+# <a name="map-channels-to-e-commerce-sites"></a>Susieti kanalus su elektroninės prekybos svetainėmis
 
-Šioje temoje aprašomi kai kurie į bendruosius kanalų susiejimo Microsoft Dynamics 365 Commerce scenarijus, kurie gali būti papildomai skirti daugumai kitų verslo poreikių.
+Šiame straipsnyje aprašomi kai kurie į bendruosius kanalų susiejimo Microsoft Dynamics 365 Commerce scenarijus, kuriuose galima atsiskaityti pagal daugelį kitų verslo reikalavimų.
 
 Dynamics 365 Commerce palaiko daugelį verslo scenarijų, siekiant [susieti interneto](#channels) kanalus, kurie turi sukonfigūruotą produktų rinkinį, kainas ir nuolaidas su klientų el. komercijos [svetainės](#e-commerce-sites) patirtimi.
 
-Šioje temoje pateikiami šie scenarijai:
+Šiame straipsnyje pateikiami šie scenarijai:
 
 - **Vienos kalbos kanalas, kuriame yra viena el. komercijos svetainės patirtis.** Pavyzdžiui, į šį scenarijų gali būti įeis vieno ženklo svetainė, sukonfigūruota JAV anglų rinkai.
 - **Kelių kalbų kanalas, turintis vieną lokalizuotą svetainės patirtį.** Pavyzdžiui, šiame scenarijuje gali būti viena prekės ženklo svetainė, sukonfigūruota Kanadai naudojant prancūzų ir anglų kalbos palaikymą. Tokiu atveju vartotojai, kurie pasirenka skirtingas kalbas, turi tokią pačią svetainės patirtį, bet lokalizuota į kiekvieno vartotojo pasirinktą kalbą.
@@ -63,7 +63,7 @@ Dažniausiai, viename kanale yra viena kalba, skirta parduoti vienoje rinkoje. �
 
 !["Commerce Headquarters" išryškintos "Commerce Headquarters" internetinės parduotuvės juridinio subjekto, valiutos ir kalbos vertės.](media/channel-mapping-3.png)
 
-Vieno interneto kanalo, svetainės generatoriuje, galima susieti su viena el. komercijos svetaine. Informacijos apie tai, kaip sukurti naują svetainę ir susieti ją su kanalu, [ieškokite](#map-a-channel-to-a-site-in-site-builder) šios temos skyriuje Susieti kanalą su svetaine svetainės generatoriaus skyriuje.
+Vieno interneto kanalo, svetainės generatoriuje, galima susieti su viena el. komercijos svetaine. Informacijos apie tai, kaip sukurti naują svetainę ir susieti ją su kanalu, [ieškokite](#map-a-channel-to-a-site-in-site-builder) šio straipsnio skyriuje Susieti kanalą su svetaine svetainės generatoriaus skyriuje.
 
 ### <a name="multi-language-channel-that-has-a-single-localized-site-experience"></a>Kelių kalbų kanalas, turintis vieną lokalizuotą svetainės patirtį
 
@@ -73,7 +73,7 @@ Vieno interneto kanalo, svetainės generatoriuje, galima susieti su viena el. ko
 
 Kiekviena kanalo kalba gali būti konfigūruota su savo domeno pavadinimu. Pavyzdžiui, domeną `www.adventure-works.ca` galima konfigūruoti Kanados anglų kalba, `www.adventure-works-fr.ca` o domeną galima konfigūruoti Kanados prancūzijos versijai. Kitaip skirtingas kanalo kalbas galima konfigūruoti viename domene, tada kiekvienai kalbai galima naudoti skirtingą maršrutą. Pavyzdžiui, domeną `www.adventure-works.ca` galima konfigūruoti Kanados anglų kalba, `www.adventure-works.ca/fr` o tada maršrutas gali būti naudojamas Kanados prancūzų versijai. [Geografinės](geo-detection-redirection.md) vietovės aptikimas taip pat gali būti įgalintas, kad pagal vartotojo vietą būtų automatiškai peradresuojamas į tinkamą svetainę.
 
-Informacijos apie tai, kaip įgalinti klientus perjungti kalbas neautomatiniu būdu, [žr. šios temos skyriuje Įtraukti ir](#add-and-configure-the-site-picker-module) konfigūruoti svetainės parinkiklio modulį. Informacijos, kaip pritaikyti lokalizuotus puslapius ir fragmentus, žr. svetainės turinį, [kuriame yra keli kanalai ir kalbos](#manage-site-content-that-has-multiple-channels-and-languages) skyrius.
+Informacijos apie tai, kaip įgalinti klientus rankiniu būdu perjungti kalbas, [žr](#add-and-configure-the-site-picker-module). šio straipsnio skyriuje Įtraukti ir konfigūruoti svetainės parinkiklio modulį. Informacijos, kaip pritaikyti lokalizuotus puslapius ir fragmentus, žr. svetainės turinį, [kuriame yra keli kanalai ir kalbos](#manage-site-content-that-has-multiple-channels-and-languages) skyrius.
 
 ### <a name="multi-language-channel-that-has-a-different-site-experience-per-language"></a>Kelių kalbų kanalas, kuriame turite skirtingas svetainės funkcijas pagal kalbą
 
@@ -87,7 +87,7 @@ Tam, kad svetainė būtų žinoma kaip prekės ženklas, gali reikėti kelių in
 
 Tokiu atveju kiekviena rinka gali būti sukonfigūruota su savo domenų pavadinimais. Pavyzdžiui, domeną `www.adventure-works.com` galima konfigūruoti JAV rinkai, `www.adventure-works.de` o domeną galima konfigūruoti Vokietijos rinkai. Taip pat kiekvieną rinką galima sukonfigūruoti taip, kad būtų naudojamas skirtingas maršrutas. Pavyzdžiui, domeną `www.adventure-works.com` galima konfigūruoti JAV rinkai, o tada `www.adventure-works.com/de` maršrutas gali būti naudojamas Vokietijos rinkai. [Geografinius](geo-detection-redirection.md) aptikimus taip pat galima įgalinti, kad vartotojai būtų automatiškai nukreipti į tinkamą svetainę, remiantis jų regionu.
 
-Taip pat galite norėti, kad jūsų svetainė pateiktų išplečiamąjį sąrašą, kuris leidžia vartotojams rankiniu būdu pereiti į konkrečią rinką. Daugiau informacijos ieškokite šios temos skyriuje [Svetainės išrinkiklio modulio įtraukimas](#add-and-configure-the-site-picker-module) ir konfigūravimas.
+Taip pat galite norėti, kad jūsų svetainė pateiktų išplečiamąjį sąrašą, kuris leidžia vartotojams rankiniu būdu pereiti į konkrečią rinką. Norėdami gauti daugiau informacijos, žr. [šio straipsnio skyriuje Įtraukti ir konfigūruoti svetainės išrinkiklio](#add-and-configure-the-site-picker-module) modulį.
 
 Informacijos, kaip konfigūruoti kelis kanalus vienoje svetainėje, [žr. el. komercijos svetainės skyriuje Konfigūruoti kelis kanalus](#configure-multiple-channels-on-an-e-commerce-site).
 
@@ -180,7 +180,7 @@ Užuot rankiniu būdu kurę kiekvieną puslapį ir fragmentą, galite eksportuot
 
 Svetainė, kurioje yra keli kanalai ir (arba) kalbos, saugomas unikalus kiekvieno puslapio variantas ir kiekvieno kanalo bei kalbos derinio fragmentas. Toks veikimo būdas leidžia puslapių variantams turėti lokalizuotus duomenis, bet taip pat suteikia galimybę lanksčiau pakeisti konkretaus varianto puslapio išvaizdą.
 
-Informacijos, kaip dirbti su puslapių variantais, ieškokite kiekvienos [temos kalbos](#implement-page-variants-for-each-language) skyriuje Įdiegti puslapių variantus.
+Informacijos, kaip dirbti su puslapio variantais, ieškokite šio [straipsnio skyriuje Kiekvienos kalbos](#implement-page-variants-for-each-language) puslapių variantai.
 
 ## <a name="configure-multiple-channels-on-an-e-commerce-site"></a>Kelių kanalų konfigūravimas el. komercijos svetainėje
 

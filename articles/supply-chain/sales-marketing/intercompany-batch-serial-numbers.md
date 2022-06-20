@@ -1,6 +1,6 @@
 ---
 title: Vidinės įmonės paketo ir serijos numeriai
-description: Šioje temoje paaiškinama, kas bus daroma, kai vidinės įmonės užsakymų paketo ir serijos numerius registruojate
+description: Šiame straipsnyje paaiškinama, kas bus daroma, kai registruojate vidinės įmonės užsakymų paketo numerius ir serijos numerius
 author: Henrikan
 ms.date: 09/01/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2021-09-01
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 9d5e6ddd0bf9ab9dd032e3ab8d1e11d53fba639e
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 5c743c8eee8d27a2c2357523a11236eb247ec5be
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8672940"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8851513"
 ---
 # <a name="intercompany-batch-and-serial-numbers"></a>Vidinės įmonės paketo ir serijos numeriai
 

@@ -1,6 +1,6 @@
 ---
 title: IoT įžvalgų scenarijaus sąranka
-description: Šioje temoje paaiškinama, kaip konfigūruoti IoT įžvalgų scenarijus „Microsoft Dynamics 365 Supply Chain Management”.
+description: Šiame straipsnyje paaiškinama, kaip konfigūruoti "Microsoft" ĮT įžvalgų scenarijus Dynamics 365 Supply Chain Management.
 author: johanhoffmann
 ms.date: 08/16/2019
 ms.topic: article
@@ -14,20 +14,20 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-04-04
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: dddc282ef3e479d524b1dfa0c60091cad1c231e0
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 3172bdb81e00d20c5b1d1f3f8e4299ca69c59434
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8675183"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889612"
 ---
 # <a name="scenario-setup-for-iot-intelligence"></a>IoT įžvalgų scenarijaus sąranka
 
 [!include [banner](../../includes/banner.md)]
 
-Šioje temoje paaiškinama, kaip konfigūruoti IoT įžvalgų scenarijus „Microsoft Dynamics 365 Supply Chain Management”. <!-- KFM: Hide setup info for now: Before you can set up the scenarios, you must [set up Microsoft Dynamics Lifecycle Services (LCS)](iot-lcs-setup.md). -->
+Šiame straipsnyje paaiškinama, kaip konfigūruoti "Microsoft" ĮT įžvalgų scenarijus Dynamics 365 Supply Chain Management. <!-- KFM: Hide setup info for now: Before you can set up the scenarios, you must [set up Microsoft Dynamics Lifecycle Services (LCS)](iot-lcs-setup.md). -->
 
-Šioje temoje konfigūruosite scenarijų **Įrangos prastovos**, kad įrenginiui sugedus, programoje „Supply Chain Management“ būtų sugeneruotas pranešimas. Temoje taip pat rodoma, kaip konfigūruoti scenarijų **Produkto kokybė**, kad būtų sugeneruotas pranešimas, jei prekės atributas yra už nurodyto intervalo ribų, ir kaip konfigūruoti scenarijų **Gamybos atidėjimai**, kad būtų sugeneruotas pranešimas, jei gamybos našumas yra mažesnis už ribinę vertę.
+Šiame straipsnyje konfigūruojate įrangos **prastojo** laiko scenarijų, kad kai nueis įrenginys, tiekimo grandinės valdymo metu būtų generuojamas pranešimas. **Straipsnyje** taip pat rodoma, kaip konfigūruoti produkto kokybės scenarijų, kad būtų generuojamas pranešimas, jei prekės atributas nepatenka į nurodytą diapazoną, ir kaip konfigūruoti gamybos delsos scenarijų, **kad pranešimas būtų generuojamas, kai gamybos našumas** viršija ribinę vertę.
 
 ## <a name="configure-the-equipment-downtime-scenario-in-supply-chain-management"></a>Scenarijaus Įrangos prastovos konfigūravimas programoje „Supply Chain Management“
 

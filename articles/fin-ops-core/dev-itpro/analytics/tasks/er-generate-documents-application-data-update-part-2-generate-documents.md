@@ -1,6 +1,6 @@
 ---
 title: Konfigūracijų, skirtų generuoti dokumentus, kuriuose yra prašymų duomenys, kūrimas
-description: Šioje temoje aprašoma, kaip kurti elektroninių ataskaitų (ER )konfigūracijas, norint generuoti elektroninį dokumentą. (1 dalis – konfigūracijų importavimas).
+description: Šiame straipsnyje aprašoma, kaip sukurti elektroninių ataskaitų (ER) konfigūracijas, kad būtų galima sugeneruoti elektroninį dokumentą. (1 dalis – konfigūracijų importavimas).
 author: NickSelin
 ms.date: 06/19/2017
 ms.topic: business-process
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3f335721ee97919af20e73fc9da6c9bf07dcae50aca8f8904d144d75c2f4d7b1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3a52ce08458868ae717c650d4b96754c297cd07a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6726266"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8900199"
 ---
 # <a name="design-configurations-to-generate-documents-that-have-application-data"></a>Konfigūracijų, skirtų generuoti dokumentus, kuriuose yra prašymų duomenys, kūrimas
 

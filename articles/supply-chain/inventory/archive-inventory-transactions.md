@@ -1,6 +1,6 @@
 ---
 title: Archyvuoti atsargų operacijas
-description: Šioje temoje aprašoma, kaip archyvuoti atsargų operacijų duomenis, kad būtų pagerintas sistemos našumas.
+description: Šiame straipsnyje aprašoma, kaip archyvuoti atsargų operacijų duomenis, kad būtų pagerintas sistemos našumas.
 author: yufeihuang
 ms.date: 05/10/2022
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-03-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 8b766d306f31fc531f33aa29e1f96048bbd90085
-ms.sourcegitcommit: e18ea2458ae042b7d83f5102ed40140d1067301a
+ms.openlocfilehash: c63cdee862e2e22649a3eb58ae37597741770e14
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8736067"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874107"
 ---
 # <a name="archive-inventory-transactions"></a>Archyvuoti atsargų operacijas
 
 [!include [banner](../../includes/banner.md)]
 
-Laikui bėgant atsargų operacijų lentelė (`InventTrans`) toliau plečiasi ir sunaudoja daugiau duomenų bazės vietos. Todėl dėl lentelės pateiktos užklausos palaipsniui veiks lėčiau. Šioje temoje aprašoma, kaip galima naudoti atsargų operacijų archyvo priemonę *duomenims apie atsargų operacijas archyvuoti* siekiant pagerinti sistemos našumą.
+Laikui bėgant atsargų operacijų lentelė (`InventTrans`) toliau plečiasi ir sunaudoja daugiau duomenų bazės vietos. Todėl dėl lentelės pateiktos užklausos palaipsniui veiks lėčiau. Šiame straipsnyje aprašoma, kaip naudoti atsargų operacijų *archyvo* funkciją norint suarchyvuoti duomenis apie atsargų operacijas, kad būtų pagerintas sistemos našumas.
 
 > [!NOTE]
 > Tik finansiškai atnaujintas atsargų operacijas galima suarchyvuoti pasirinktu uždarytu DK laikotarpiu. Norint suarchyvuoti, finansiškai atnaujintų siunčiamų atsargų operacijų išdavimo būsena turi būti *Parduota*, o gavimo atsargų operacijų gavimo būsena turi būti *Nupirkta*.
@@ -35,7 +35,7 @@ Jei `itemId` ir `inventDimId` kombinacijoje yra tik viena gavimo arba išdavimo 
 
 ## <a name="turn-on-the-feature-in-your-system"></a>Funkcijos įjungimas sistemoje
 
-Jei jūsų sistemoje dar nėra funkcijų, aprašytų šioje temoje, eikite į [Funkcijų valdymas](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) ir įjunkite funkciją *Atsargų operacijų archyvas*. Atkreipkite dėmesį, kad įjungus šią funkciją, jos išjungti nebegalima.
+Jei jūsų sistemoje dar nėra funkcijų, aprašytų šiame straipsnyje, [eikite](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) į Funkcijų valdymą ir įjunkite atsargų *operacijų archyvo* funkciją. Atkreipkite dėmesį, kad įjungus šią funkciją, jos išjungti nebegalima.
 
 ## <a name="things-to-consider-before-you-archive-inventory-transactions"></a>Dalykai, į kuriuos reikia atsižvelgti archyvuojant atsargų operacijas
 

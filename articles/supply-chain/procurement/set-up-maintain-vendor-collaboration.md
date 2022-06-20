@@ -1,6 +1,6 @@
 ---
 title: Tiekėjo bendradarbiavimo nustatymas ir tvarkymas
-description: Šioje temoje paaiškinama, kaip nustatyti tiekėjų bendradarbiavimą Dynamics 365 Supply Chain Management programoje. Taip pat paaiškinama, kaip numatyti naujus tiekėjo bendradarbiavimo vartotojus ir valdyti tų vartotojų saugos vaidmenis.
+description: Šiame straipsnyje paaiškinama, kaip nustatyti tiekėjo bendradarbiavimą Dynamics 365 Supply Chain Management. Taip pat paaiškinama, kaip numatyti naujus tiekėjo bendradarbiavimo vartotojus ir valdyti tų vartotojų saugos vaidmenis.
 author: GalynaFedorova
 ms.date: 12/03/2018
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 4b59513d86426d3c1bfd759b9aabc331e58d5423
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
-ms.translationtype: MT
+ms.openlocfilehash: 8fe4731f8ff23f4abe25fce57a2325e1fca979c4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677568"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890834"
 ---
 # <a name="set-up-and-maintain-vendor-collaboration"></a>Tiekėjo bendradarbiavimo nustatymas ir tvarkymas
 
@@ -28,7 +28,7 @@ ms.locfileid: "8677568"
 
 Tiekėjo bendradarbiavimo sąsajoje išorinių tiekėjų vartotojams pateikiamaa ribotas informacijos kiekis apie pirkimo užsakymus, SF ir konsignacijos atsargas. Šioje sąsajoje tiekėjas taip pat gali atsakyti į pasiūlymo užklausas (RFQ) ir peržiūrėti bei redaguoti pagrindinę įmonės informaciją.
 
-Šioje temoje paaiškinama, kaip nustatyti tiekėjų bendradarbiavimą Dynamics 365 Supply Chain Management programoje. Taip pat paaiškinama, kaip nustatyti darbo srautą, kad būtų galima numatyti naujus tiekėjo bendradarbiavimo vartotojus ir kaip valdyti tų vartotojų saugos vaidmenis.
+Šiame straipsnyje paaiškinama, kaip nustatyti tiekėjo bendradarbiavimą Dynamics 365 Supply Chain Management. Taip pat paaiškinama, kaip nustatyti darbo srautą, kad būtų galima numatyti naujus tiekėjo bendradarbiavimo vartotojus ir kaip valdyti tų vartotojų saugos vaidmenis.
 
 > [!NOTE]
 > Informacija apie tiekėjų bendradarbiavimo saugos vaidmenų nustatymą taikoma tik dabartinei finansų ir operacijų versijai. „Microsoft Dynamics AX 7.0“ (2016 m. vasario mėn.) ir „Microsoft Dynamics AX“ 7.0.1 programos versijoje (2016 m. gegužės mėn.) su tiekėjais galite bendradarbiauti naudodami modulį **Tiekėjo portalas**. Informacijos apie tiekėjo portalo vartotojo teises Microsoft Dynamics AX programoje žr. [Tiekėjo portalo vartotojo sauga](configure-security-vendor-portal-users.md).
@@ -77,7 +77,7 @@ Jei planuojate rankiniu būdu nustatyti tiekėjų kontaktus ir vartotojus, galit
 
 ## <a name="set-up-security-roles-that-are-used-when-prospective-vendors-are-onboarded"></a>Nustatyti saugos vaidmenis, naudojamus, kai yra priskiriami galimi tiekėjai
 
-Norėdami priskirti tiekėjus, kurie inicijuojami pagal galimo tiekėjo registracijos užklausą, turite nustatyti išorinį saugos vaidmenį. Šis vaidmuo bus priskirtas naujiems vartotojams parengimo proceso, kurį kontroliuoja **Vartotojo užklausos darbo srautas (platforma)** tipo darbo srautas, metu. Norėdami gauti daugiau informacijos, toliau šioje temoje žr. skyrių [Nustatyti darbo eigas, kad būtų apdorojamos tiekėjo bendradarbiavimo vartotojo užklausos](#set-up-workflows-to-process-vendor-collaboration-user-requests).
+Norėdami priskirti tiekėjus, kurie inicijuojami pagal galimo tiekėjo registracijos užklausą, turite nustatyti išorinį saugos vaidmenį. Šis vaidmuo bus priskirtas naujiems vartotojams parengimo proceso, kurį kontroliuoja **Vartotojo užklausos darbo srautas (platforma)** tipo darbo srautas, metu. Norėdami gauti daugiau informacijos, toliau šiame [straipsnyje žr. skyrių Nustatyti darbo eigas](#set-up-workflows-to-process-vendor-collaboration-user-requests), siekiant apdoroti tiekėjo bendradarbiavimo vartotojo užklausas.
 
 Informacijos apie tai, kaip pateikti galimus tiekėjus, ieškokite [Tiekėjų pateikimas](vendor-onboarding.md).
 

@@ -1,6 +1,6 @@
 ---
 title: Produktų konfigūracijos modelių skaičiavimų DUK
-description: Šioje temoje aprašomi produktų konfigūracijos modelių skaičiavimai ir paaiškinta, kaip naudoti skaičiavimus kartu su apribojimais.
+description: Šiame straipsnyje aprašomi produkto konfigūracijos modelių skaičiavimai ir paaiškinama, kaip naudoti skaičiavimus kartu su apribojimais.
 author: t-benebo
 ms.date: 11/03/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9463fac363f6bb25c1bd2afebe5737e47aa8b3cf
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: MT
+ms.openlocfilehash: 593f6a8e28c789a378515ddc8e4163c331442e8b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7570806"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890950"
 ---
 # <a name="calculations-for-product-configuration-models-faq"></a>Produktų konfigūracijos modelių skaičiavimų DUK
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje aprašomi produktų konfigūracijos modelių skaičiavimai ir paaiškinta, kaip naudoti skaičiavimus kartu su apribojimais.
+Šiame straipsnyje aprašomi produkto konfigūracijos modelių skaičiavimai ir paaiškinama, kaip naudoti skaičiavimus kartu su apribojimais.
 
 Skaičiavimus galima naudoti aritmetinėse ir loginėse operacijose. Jie papildo produkto konfigūravimo modelių išraiškos apribojimus. Puslapyje **Produkto konfigūravimo pagal apribojimus modelio informacija** galima nustatyti skaičiavimus ir tada išraiškų rengyklėje kurti skaičiavimų išraiškas. Daugiau informacijos žr. dalyje Kurti skaičiavimus.
 

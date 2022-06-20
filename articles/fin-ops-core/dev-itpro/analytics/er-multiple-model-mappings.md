@@ -1,6 +1,6 @@
 ---
 title: Kelių vieno modelio šaknies išvestinių susiejimų tvarkymas
-description: Šioje temoje paaiškinama, kaip tvarkyti kelis išvestinius susiejimus, sukonfigūruotus vienai modelio šakniai.
+description: Šiame straipsnyje paaiškinama, kaip valdyti kelis išvestinius susiejimus, sukonfigūruotus vienam modelio šakniniam modeliui.
 author: NickSelin
 ms.date: 01/04/2021
 ms.topic: business-process
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d71b05b3f2eda93a93f728926e675c040371781e
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: 960f5962ec1ea216e35feb0c282856bed95d079a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8324117"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8892485"
 ---
 # <a name="manage-several-derived-mappings-for-a-single-model-root"></a>Kelių vieno modelio šaknies išvestinių susiejimų tvarkymas
 
@@ -26,15 +26,15 @@ ms.locfileid: "8324117"
 
 Elektroninio [ataskaitų (ER)](general-electronic-reporting.md) duomenų modeliokomponentas naudojamas kiekviename sukonfigūruotame ER formato komponente, kaip duomenų šaltinyje, norint sugeneruoti siunčiamus dokumentus. Norėdami aprašyti vieną verslo domeną, sukonfigūruokite duomenų modelio komponentą, turintį daug šakninių apibrėžimų. 
 
-Kiekvienas šakninis apibrėžimas leidžia pateikti to domeno duomenis geriausiai tinkančiu būdu konkretiems ataskaitų tikslams. Kiekvienam šakniniam apibrėžimui galite konfigūruoti ER modelio susiejimo komponentą kaip "Microsoft Dynamics 365 Finance" – konkretų jūsų duomenų modelio vykdymą. Tokiu būdu aprašote, kaip jūsų duomenų modelis bus pildomas vykdymo metu.
+Kiekvienas šakninis apibrėžimas leidžia pateikti to domeno duomenis geriausiai tinkančiu būdu konkretiems ataskaitų tikslams. Kiekvienam šakniniam apibrėžimui galite konfigūruoti ER modelio susiejimo Microsoft Dynamics komponentą kaip 365 finansus – specialų jūsų duomenų modelio vykdymą. Tokiu būdu aprašote, kaip jūsų duomenų modelis bus pildomas vykdymo metu.
 
 ER modelio susiejimo komponentai gali būti ER duomenų modelio [konfigūracijose](general-electronic-reporting.md#Configuration) ir ER modelių susiejimo konfigūracijose. Vienoje ER konfigūracijoje gali būti daug susiejimo komponentų, iš kurių kiekvienas sukonfigūruotas vienam šakniniam apibrėžimui. Tačiau vienoje ER konfigūracijoje gali būti ir tik vienas susiejimo komponentas, sukonfigūruotas vienam šakniniam apibrėžimui.
 
 Daugelis konfigūracijų teikėjų gali pasiūlyti ER modelio susiejimo konfigūracijas tam pačiam ER duomenų modeliui. Šiose modelio susiejimo konfigūracijose gali būti susiejimo komponentų skirtingiems šakniniams apibrėžimams. Galite naudoti modelio susiejimą vienam šakniniam apibrėžimui, kurį siūlo vienas [tiekėjas](general-electronic-reporting.md#Provider) ir naudoti modelio susiejimą kitam tiekėjo siūlomam šakniniam apibrėžimui.
 
-Šiose temos procedūrose paaiškinama, kaip tvarkyti kelias ER duomenų modelio susiejimo konfigūracijas, kai jose yra skirtingų modelio susiejimo komponentų, sukonfigūruotų tam pačiam šakniniam apibrėžimui. 
+Šio straipsnio procedūros paaiškina, kaip tvarkyti kelias ER duomenų modelio susiejimo konfigūracijas, kai jose yra skirtingų modelio susiejimo komponentų, sukonfigūruotų tam pačiam šakniniam apibrėžimui. 
 
-Norėdami atlikti šio skyriaus procedūras, jums turi būti priskirtas sistemos administratoriaus arba elektroninių ataskaitų kūrėjo vaidmuo.
+Norėdami atlikti šiame straipsnyje nurodytas procedūras, turite būti priskirti sistemos administratoriui arba elektroninių ataskaitų kūrėjo vaidmeniui.
 
 Visos šios procedūros gali būti atliktos „USMF” įmonėje. Kodavimas nebūtinas.
 

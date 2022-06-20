@@ -1,6 +1,6 @@
 ---
 title: DUK apie su produktais susijusius vertimus
-description: Šioje temoje aprašoma, kaip valdyti produktų, prekės dimensijų verčių ir produktų atributų vertimus.
+description: Šiame straipsnyje aprašoma, kaip valdyti produktų, produkto dimensijų reikšmių ir produkto atributų vertimus.
 author: t-benebo
 ms.date: 08/06/2020
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Product information
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 24a341973b8648b1a697c8c07b6ecbc808e0e504
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: MT
+ms.openlocfilehash: a2798e25d1f6c293aa71a6c143ded5293f241060
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7570500"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850560"
 ---
 # <a name="product-related-translations-faq"></a>DUK apie su produktais susijusius vertimus
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje aprašoma, kaip valdyti produktų, prekės dimensijų verčių ir produktų atributų vertimus. 
+Šiame straipsnyje aprašoma, kaip valdyti produktų, produkto dimensijų reikšmių ir produkto atributų vertimus. 
 
 ## <a name="what-product-related-data-can-be-translated"></a>Kokie gaminio duomenys gali būti išversti?
 

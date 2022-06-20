@@ -1,6 +1,6 @@
 ---
 title: Kaip nustatyti balansavimo finansines dimensijas?
-description: Šioje temoje aprašomos pasirinktys, kaip nustatyti ir naudoti balansavimo finansinės dimensijos funkciją.
+description: Šiame straipsnyje aprašomos pasirinktys, kaip nustatyti ir naudoti balansavimo finansinės dimensijos funkciją.
 author: kweekley
 ms.date: 08/25/2021
 ms.topic: article
@@ -13,24 +13,24 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2021-08-17
 ms.dyn365.ops.version: 10.0.210
-ms.openlocfilehash: cb3033a615200a358c1b28b0991bae4b84470ae0
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: dd859629b0eb9f14fa4907699613382f3897d21d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8720117"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878018"
 ---
 # <a name="how-do-i-set-up-balancing-financial-dimensions"></a>Kaip nustatyti balansavimo finansines dimensijas?
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje aprašomos pasirinktys, kaip nustatyti ir naudoti balansavimo finansinės dimensijos funkciją.
+Šiame straipsnyje aprašomos pasirinktys, kaip nustatyti ir naudoti balansavimo finansinės dimensijos funkciją.
 
 ## <a name="symptom"></a>Požymis
 
-Yra dvi balansavimo finansinių dimensijų nustatymo pasirinktys. Pirmoji parinktis yra naudoti **Balansuoti finansinės dimensijos** laukelį **DK** nustatymų puslapį (**DK \> DK nustatymai \> DK**). Antroji parinktis yra naudoti **Būtina balansuoti dimensija** laukelis puslapyje **Finansinė dimensija** (**DK > Sąskaitų grafikas \> Dimensijas \> Finansinės dimensijos**). Šioje temoje paaiškinamas skirtumas tarp šių dviejų pasirinkčių.
+Yra dvi balansavimo finansinių dimensijų nustatymo pasirinktys. Pirmoji parinktis yra naudoti **Balansuoti finansinės dimensijos** laukelį **DK** nustatymų puslapį (**DK \> DK nustatymai \> DK**). Antroji parinktis yra naudoti **Būtina balansuoti dimensija** laukelis puslapyje **Finansinė dimensija** (**DK > Sąskaitų grafikas \> Dimensijas \> Finansinės dimensijos**). Šiame straipsnyje paaiškinamas skirtumas tarp šių dviejų pasirinkčių.
 
-## <a name="resolution"></a>Sprendimas
+## <a name="resolution"></a>Paaiškinimas
 
 Organizacijos paprastai balansavimo dimensijas naudoja balansui, balansui finansinės dimensijos lygiu, generuoti. Įgalinus bet kurią priemonę, užregistruotos, nesubalansuotos dimensijos nebus subalansuotos. Prieš įjungdami bet kurią priemonę, pirmiausia turite rankiniu būdu įvesti koregavimo įrašus, kad balanso balansas būtų su balansu.
 

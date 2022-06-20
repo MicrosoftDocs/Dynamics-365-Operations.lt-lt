@@ -1,6 +1,6 @@
 ---
 title: Prekių pakankamų atsargų pildymas
-description: Šioje temoje aptariamas pakankamų atsargų pildymas ir tai, kaip nustatyti prekių pakankamų atsargų kiekį.
+description: Šiame straipsnyje aptariamas nesamų atsargų įvykdyimas ir kaip nustatyti prekių atsargų kiekį.
 author: t-benebo
 ms.date: 8/23/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: c539b804198ddc5d5dac52c958a851ee55116711
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 70461ad1de94c984cb41e6b1d46af9e310a928d6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8672072"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887405"
 ---
 # <a name="safety-stock-fulfillment-for-items"></a>Prekių pakankamų atsargų pildymas
 
@@ -88,7 +88,7 @@ Jei naudojama parinktis **Minimalūs raktai**, pažymėkite žymės langelį **M
 Toliau pateiktame scenarijuje parodyta, kaip šis parametras veikia ir kuo skiriasi jo reikšmės.
 
 > [!NOTE]
-> Visuose šios temos iliustracijose x ašis nurodo atsargas, y ašis nurodo dienas, juostos nurodo atsargų lygį, rodykles nurodo operacijas, pvz., pardavimo užsakymo eilutes, pirkimo užsakymo eilutes arba suplanuotus užsakymus.
+> Visuose šio straipsnio pavyzdžiuose x ašyje vaizduojamos atsargos, y ašis reiškia dienas, juostos reiškia atsargų lygį, rodyklės reiškia operacijas, pvz., pardavimo užsakymo eilutes, pirkimo užsakymo eilutes arba suplanuotus užsakymus.
 
 [![Įprastas saugos atsargų pildymo scenarijus.](media/Scenario1.png)](media/Scenario1.png)
 

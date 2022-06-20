@@ -1,6 +1,6 @@
 ---
 title: Importuoti priemones iš visuotinės saugyklos
-description: Šioje temoje paaiškinama, kaip importuoti globalizavimo priemones iš visuotinės saugyklos.
+description: Šiame straipsnyje paaiškinama, kaip importuoti globalizavimo funkcijas iš visuotinės saugyklos.
 author: dkalyuzh
 ms.date: 02/11/2022
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dkalyuzh
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: ff3019986d089a286f7aef94346398b3d328ad54
-ms.sourcegitcommit: ffdb6794746ffe5461f9dcf34ed8e64976d22d2d
+ms.openlocfilehash: bc8f346cdef4aa0b909d75b016b37cbbe3248ebf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "8371925"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8865561"
 ---
 # <a name="import-features-from-the-global-repository"></a>Importuoti priemones iš visuotinės saugyklos
 
@@ -30,7 +30,7 @@ Visuotinėje saugykloje yra elektroninių SF išrašymo priemonės, kurias bendr
 
 Norėdami pradėti dirbti su elektroninių SF išrašymo priemonėmis, kurios bendrai naudojamos su jūsų konfigūracijos teikėju, importuokite jas į savo reguliavimo konfigūracijos tarnybos (RCS) egzempliorių iš visuotinės saugyklos. Tada peržiūrėkite išsamią priemonių informaciją, pvz., elektroninių ataskaitų (ER) konfigūracijas ir pardavimo galimybių apdorojimą.
 
-## <a name="import-a-feature-from-the-global-repository"></a>Importuoti funkciją iš visuotinės saugyklos
+## <a name="import-a-feature-from-the-global-repository"></a>Funkcijos importavimas iš visuotinės saugyklos
 
 1. Prisijunkite prie jūsų RCS abonemento.
 2. RCS pasirinkus dalį **Funkcijos**, esančią darbo srityje **Funkcijos**, pasirinkite plytelę **Elektroninių SF priedas**.

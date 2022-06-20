@@ -1,6 +1,6 @@
 ---
 title: Tiekėjo grąžinimai
-description: Šioje temoje apžvelgiamos dažniausios užduotys, kurias galite norėti atlikti dirbdami su tiekėjų grąžinimais. Tiekėjų grąžinimų funkcija įmonėms padeda geriau valdyti savo tiekėjų grąžinimo programas – automatizuojamos užduotys, reikalingos norint gautus grąžinimus administruoti, sekti ir teikti jų paraiškas.
+description: Šiame straipsnyje pateikiama dažniausiai atliekamų užduočių, kurias galite atlikti naudodami tiekėjo grąžinimus, apžvalga. Tiekėjų grąžinimų funkcija įmonėms padeda geriau valdyti savo tiekėjų grąžinimo programas – automatizuojamos užduotys, reikalingos norint gautus grąžinimus administruoti, sekti ir teikti jų paraiškas.
 author: GalynaFedorova
 ms.date: 06/20/2017
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 2012
-ms.openlocfilehash: ed41fe18048050ecb80a93e929d66ebc3a2e2441
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 789a58af40595cbb72d55d598510c43315aead2b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8672968"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890805"
 ---
 # <a name="vendor-rebates"></a>Tiekėjo grąžinimai
 
@@ -26,7 +26,7 @@ ms.locfileid: "8672968"
 
 Tiekėjų grąžinimų funkcija įmonėms padeda geriau valdyti savo tiekėjų grąžinimo programas – automatizuojamos užduotys, reikalingos norint gautus grąžinimus administruoti, sekti ir teikti jų paraiškas.
 
-Šioje temoje apžvelgiamos dažniausios užduotys, kurias galite norėti atlikti dirbdami su tiekėjų grąžinimais. Apžvelgiamos tolesnės užduotys.
+Šiame straipsnyje pateikiama dažniausiai atliekamų užduočių, kurias galite atlikti naudodami tiekėjo grąžinimus, apžvalga. Apžvelgiamos tolesnės užduotys.
 
 - Grąžinimo sutarties informacijos peržiūra.
 - Užsakymų, už kuriuos galima gauti grąžinimą, identifikavimas ir grąžinimo paraiškų generavimas.
@@ -34,7 +34,7 @@ Tiekėjų grąžinimų funkcija įmonėms padeda geriau valdyti savo tiekėjų g
 
 ## <a name="audience-and-purpose"></a>Auditorija ir tikslas
 
-Šioje temoje pateikta informacija skirta įmonių verslo sprendimus priimantiems asmenims, užimantiems tokias pareigas kaip pirkimo vadovas, vyriausiasis finansininkas (CFO) ir apskaitos vadovas, bei kurie atsakingi už tolesnes sritis.
+Šiame straipsnyje pateikiama informacija skirta verslo sprendimus priimantiems įmonės įmonėms, tokioms pareigoms kaip pirkimo vadybininkas, vyriausias finansininkas (CFO) ir apskaitos vadybininkas, kurie turi šias pareigas:
 
 - Derybos dėl tiekėjo kainos, nuolaidos ir grąžinimo sutarčių.
 - Darbuotojų, apdorojančių grąžinimo paraiškas ir renkančių mokėjimus, valdymas.

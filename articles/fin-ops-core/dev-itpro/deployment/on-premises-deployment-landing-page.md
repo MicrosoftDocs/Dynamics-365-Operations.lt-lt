@@ -1,6 +1,6 @@
 ---
 title: Vietinio visuotinio diegimo pagrindinis puslapis
-description: Šioje temoje pateikta informacija ir saitai į turinį apie vietinių versijų diegimą.
+description: Šiame straipsnyje pateikiama informacija ir saitai į turinį apie vietiniams diegimus.
 author: sericks007
 ms.date: 07/01/2021
 ms.topic: article
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: b57183a0c06f4735757c3c0c8d9e355879585e7a
-ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
+ms.openlocfilehash: b73e0cc31fd0e5a22ee330f623b9125de9237e29
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "8566045"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8867418"
 ---
 # <a name="on-premises-deployment-home-page"></a>Vietinio visuotinio diegimo pagrindinis puslapis
 
 [!include [banner](../includes/banner.md)]
 
-Galite diegti Dynamics 365 Finance + Operations (on-premises). Pasirinkus vietinės versijos diegimo tipą, sistemos reikalavimai, aparatūros apimtys ir funkcijos skiriasi, lyginant su debesies diegimo versijomis. Šioje temoje pateikti saitai į turinį, kuriame nurodyta konkreti informacija apie vietinių versijų diegimą.
+Galite diegti Dynamics 365 Finance + Operations (on-premises). Pasirinkus vietinės versijos diegimo tipą, sistemos reikalavimai, aparatūros apimtys ir funkcijos skiriasi, lyginant su debesies diegimo versijomis. Šiame straipsnyje pateikiami saitai į turinį, kuriame yra informacijos, skirtos vietiniams diegimams.
 
 ## <a name="get-started"></a>Darbo pradžia
 - [Vietinio visuotinio diegimo apžvalga](on-premises-overview.md)

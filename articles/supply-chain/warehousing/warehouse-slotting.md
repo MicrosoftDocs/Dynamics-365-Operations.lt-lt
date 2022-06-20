@@ -1,6 +1,6 @@
 ---
 title: Sandėlio intervalas
-description: Šioje temoje pateikiama informacija apie sandėlio intervalą. Sandėlio intervalas leidžia konsoliduoti poreikį pagal prekę ir matavimo vienetą iš užsakymų, kurių būsena yra Užsakytas, Rezervuotas arba Išleistas. Jis padeda sandėlio vadovams sumaniai planuoti paėmimų vietas dar prieš tai, kai jos išleidžia užsakymus į sandėlį ir sukuria paėmimų darbą.
+description: Šiame straipsnyje pateikiama informacija apie sandėlio laiko atminties laiko atminties paskirstymą. Sandėlio intervalas leidžia konsoliduoti poreikį pagal prekę ir matavimo vienetą iš užsakymų, kurių būsena yra Užsakytas, Rezervuotas arba Išleistas. Jis padeda sandėlio vadovams sumaniai planuoti paėmimų vietas dar prieš tai, kai jos išleidžia užsakymus į sandėlį ir sukuria paėmimų darbą.
 author: Mirzaab
 ms.date: 11/13/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: e057992b15f0a1fa76a78ef78ea9aeea3c088be9
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: a5ce900d7698c7d8211ce1e8b7d529ab79a28915
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8676305"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8897261"
 ---
 # <a name="warehouse-slotting"></a>Sandėlio intervalas
 
@@ -156,7 +156,7 @@ Kiekvienam pardavimo užsakymo šablonui, kurį sukūrėte, atlikite šiuos žin
 
     - **Matavimo vieneto pakopa:** _EaBoxPl_
 
-        Šis laukas nurodo paklausos matavimo vienetus, kurie galioja eilutei. (Norėdami gauti daugiau informacijos, žr. šios temos skyrių [Matavimo vienetų pakopos intervalui](#unit-tiers).)
+        Šis laukas nurodo paklausos matavimo vienetus, kurie galioja eilutei. (Daugiau informacijos ieškokite [Anksčiau šiame straipsnyje nustatykite atminties atminties laiko atminties](#unit-tiers) skyrių matavimo vienetų pakopas.)
 
     - **Priskirti intervalo kriterijus:** _Atsižvelgti į kiekį_
 

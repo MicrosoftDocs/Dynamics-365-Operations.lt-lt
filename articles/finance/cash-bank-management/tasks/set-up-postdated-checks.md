@@ -1,6 +1,6 @@
 ---
 title: Vėlesnių čekių nustatymas
-description: Šioje temoje paaiškinama, kaip nurodyti, ar registruoti vėlesnių čekių žurnalo įrašus ir kuriuos registravimo žurnalus naudoti su tarpuskaitos įrašais bei tiekėjo mokėjimais.
+description: Šiame straipsnyje paaiškinama, kaip nurodyti, ar registruoti žurnalo įrašus postduotims čekiams ir kurie registravimo žurnalai bus naudojami tarpuskaitos įrašams ir tiekėjo mokėjimams.
 author: kweekley
 ms.date: 08/29/2018
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 645b474b8b4bd13cd47bef404cda002e6b29a1ba
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: e045648230aba7965ed68fbc499f73e077caceed
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8724848"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8870313"
 ---
 # <a name="set-up-postdated-checks"></a>Vėlesnių čekių nustatymas
 
 [!include [banner](../../includes/banner.md)]
 
-Šioje temoje paaiškinama, kaip nurodyti, ar registruoti vėlesnių čekių žurnalo įrašus ir kuriuos registravimo žurnalus naudoti su tarpuskaitos įrašais bei tiekėjo mokėjimais. Taip pat galite nurodyti išrašytų čekių, gautų čekių ir išskaitomo mokesčio tarpuskaitos sąskaitas. Vėlesni čekiai, išrašomi norint atlikti ir gauti mokėjimus ateityje. Galite nurodyti, ar čekis turi būti rodomas apskaitos knygose prieš mokėjimo termino datą.
+Šiame straipsnyje paaiškinama, kaip nurodyti, ar registruoti žurnalo įrašus postduotims čekiams ir kurie registravimo žurnalai bus naudojami tarpuskaitos įrašams ir tiekėjo mokėjimams. Taip pat galite nurodyti išrašytų čekių, gautų čekių ir išskaitomo mokesčio tarpuskaitos sąskaitas. Vėlesni čekiai, išrašomi norint atlikti ir gauti mokėjimus ateityje. Galite nurodyti, ar čekis turi būti rodomas apskaitos knygose prieš mokėjimo termino datą.
 
 
 

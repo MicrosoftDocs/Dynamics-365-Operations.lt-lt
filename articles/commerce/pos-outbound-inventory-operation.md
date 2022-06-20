@@ -1,6 +1,6 @@
 ---
 title: Siunčiamų atsargų operacija EKA
-description: Šioje temoje aprašomos siunčiamų atsargų operacijų elektroniniame kasos aparate (EKA) galimybės.
+description: Šiame straipsnyje aprašomi point of sale (EKA) siunčiamų atsargų operacijos pajėgumai.
 author: hhaines
 ms.date: 07/30/2020
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 3641e1974ffc277a690ca8b8d15399ac883b0132
-ms.sourcegitcommit: 89906aa2f18f16e622fd280433c8fc9fe74d2aec
+ms.openlocfilehash: dd2c124660643628ca4c19dc3a49366b67f29ad3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7581143"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850228"
 ---
 # <a name="outbound-inventory-operation-in-pos"></a>Siunčiamų atsargų operacija EKA
 
@@ -187,7 +187,7 @@ Dokumentui įgijus būseną **Pageidaujama**, jis yra paruoštas įvykdymo apdor
 
 Visiškai išsiųsti perkėlimo užsakymai perkeliami į skirtuką **Atlikta** dokumentų sąraše **Siuntimo operacijos**. Ten juos tik skaitymo režimu septynias dienas mato siunčiančios parduotuvės arba sandėlio vartotojai.
 
-## <a name="related-topics"></a>Susijusios temos
+## <a name="related-articles"></a>Susiję straipsniai
 
 [Atvežamų atsargų operacija EKA](pos-inbound-inventory-operation.md)
 

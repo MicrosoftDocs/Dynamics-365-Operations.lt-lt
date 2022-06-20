@@ -1,6 +1,6 @@
 ---
-title: Sandėlio valdymo mobiliųjų įrenginių programėlės diegimas ir prijungimas
-description: Šioje temoje aiškinama, kaip įdiegti sandėlio valdymo programėlę kiekviename jūsų mobiliajame įrenginyje ir sukonfigūruoti ją, kad prijungtumėte prie „Microsoft Dynamics 365 Supply Chain Management“ aplinkos.
+title: „Warehouse Management“ mobiliųjų įrenginių programėlės diegimas ir prijungimas
+description: Šiame straipsnyje paaiškinama, kaip įdiegti sandėlio valdymo mobiliąją programą kiekviename iš jūsų mobiliųjų įrenginių ir sukonfigūruoti ją, kad būtų galima prisijungti prie "Microsoft" Dynamics 365 Supply Chain Management aplinkos.
 author: Mirzaab
 ms.date: 02/03/2021
 ms.topic: article
@@ -16,21 +16,21 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.search.validFrom: 2021-02-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 812dd30e0e444bc310fc81edd16958e0c0747885
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 9bd208ba78d28046782d03221b0f23471f56b574
+ms.sourcegitcommit: 3f544f8671821be915b289a614e4e440bd38994f
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103418"
+ms.lasthandoff: 06/07/2022
+ms.locfileid: "8941772"
 ---
-# <a name="install-and-connect-the-warehouse-management-mobile-app"></a>Sandėlio valdymo mobiliųjų įrenginių programėlės diegimas ir prijungimas
+# <a name="install-and-connect-the-warehouse-management-mobile-app"></a>„Warehouse Management“ mobiliųjų įrenginių programėlės diegimas ir prijungimas
 
 [!include [banner](../includes/banner.md)]
 
 > [!NOTE]
-> Šioje temoje aprašoma, kaip sukonfigūruoti naująją „Warehouse Management“ mobiliąją programėlę. Jei ieškote informacijos apie tai, kaip konfigūruoti senąją sandėlio programą (dabar nerekomenduojamą), žiūrėkite [Sandėlio programos diegimas ir prijungimas](../../supply-chain/warehousing/install-configure-warehousing-app.md).
+> Šiame straipsnyje aprašoma, kaip konfigūruoti naują sandėlio valdymo mobiliąją programą. Jei ieškote informacijos apie tai, kaip konfigūruoti senąją sandėlio programą (dabar nerekomenduojamą), žiūrėkite [Sandėlio programos diegimas ir prijungimas](../../supply-chain/warehousing/install-configure-warehousing-app.md).
 
-Šioje temoje paaiškinama, kaip atsisiųsti ir įdiegti „Warehouse Management“ programėlę kiekviename mobiliajame įrenginyje ir sukonfigūruoti programėlę, kad prijungtumėte prie „Supply Chain Management“ aplinkos. Kiekvieną įrenginį galite konfigūruoti neautomatiniu būdu arba galite importuoti ryšio parametrus naudodami failą arba nuskaitydami QR kodą.
+Šiame straipsnyje paaiškinama, kaip atsisiųsti ir įdiegti sandėlio valdymo mobiliąją programą kiekviename iš jūsų mobiliųjų įrenginių ir kaip konfigūruoti programą, kad būtų galima prisijungti prie tiekimo grandinės valdymo aplinkos. Kiekvieną įrenginį galite konfigūruoti neautomatiniu būdu arba galite importuoti ryšio parametrus naudodami failą arba nuskaitydami QR kodą.
 
 ## <a name="system-requirements"></a>Sistemos reikalavimai
 
@@ -39,7 +39,7 @@ Sandėlio valdymo mobiliųjų įrenginių programėlę galima naudoti tiek „Wi
 - „Windows 10” („Universal Windows Platform“ \[„UWP”\]) 2018 m. spalio mėn atnaujinimas 1809 (10.0.17763 komponavimo versija) arba naujesnė
 - „Android 4.4“ arba naujesnė versija
 
-## <a name="turn-warehouse-management-mobile-app-features-or-or-off-in-supply-chain-management"></a>Išjungti sandėlio valdymo mobiliosios programos funkcijas arba išjungti tiekimo grandinės valdymą
+## <a name="turn-warehouse-management-mobile-app-features-on-or-off-in-supply-chain-management"></a>Įjungti arba išjungti sandėlio valdymo mobiliosios programos funkcijas tiekimo grandinės valdymo metu
 
 Norint naudoti sandėlio valdymo mobiliąją programą, *jūsų sistemoje turi būti įjungti vartotojo parametrai,* piktogramos ir naujos sandėlio programos funkcijos veiksmų pavadinimai. Kaip ir tiekimo grandinės valdymas 10.0.25 ši funkcija yra privaloma ir jos išjungti negalima. Jei naudojate senesnę nei 10.0.25 versiją, *tada administratoriai gali įjungti arba išjungti šią funkciją ieškodami naujo sandėlio programos funkcijos vartotojo parametrų,*[piktogramų](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) ir veiksmų pavadinimų funkcijų funkcijų valdymo darbo srityje.
 
@@ -87,11 +87,11 @@ Norėdami įjungti Sandėlio valdymo mobiliųjų įrenginių programėlę, kad j
 
     ![Vedlys registruoti programą.](media/app-connect-azure-register-wizard.png "Vedlys registruoti programą")
 
-1. Atidaroma nauja programos registracija. Pasižymėkite **Programos (kliento) ID** reikšmę, nes jos reikės vėliau. Šis ID vėliau šioje temoje bus minimas kaip *kliento ID*.
+1. Atidaroma nauja programos registracija. Pasižymėkite **Programos (kliento) ID** reikšmę, nes jos reikės vėliau. Šis ID vėliau šiame straipsnyje bus nurodytas kaip kliento *ID*.
 
     ![Programos (kliento) ID.](media/app-connect-azure-app-id.png "Programos (kliento) ID")
 
-1. Sąraše **Valdyti** pasirinkite **Sertifikatas ir slaptieji raktai**. Tada, atsižvelgdami į tai, kaip norite konfigūruoti programą autentifikavimui, pasirinkite vieną iš toliau pateiktų mygtukų. (Daugiau informacijos žr. tolesniame šios temos skyriuje [Autentifikavimas naudojant sertifikatą arba kliento slaptąjį raktą](#authenticate).)
+1. Sąraše **Valdyti** pasirinkite **Sertifikatas ir slaptieji raktai**. Tada, atsižvelgdami į tai, kaip norite konfigūruoti programą autentifikavimui, pasirinkite vieną iš toliau pateiktų mygtukų. (Daugiau informacijos ieškokite [Autentifikuokite vėliau šiame straipsnyje naudodami](#authenticate) sertifikatą arba kliento slaptą skyrių.)
 
     - **Įkelti sertifikatą** – įkelkite sertifikatą, kuris bus naudojamas kaip slaptasis raktas. Rekomenduojame šį būdą, nes jis saugesnis ir gali būti visiškai automatizuotas. Jei Sandėlio valdymo mobiliųjų įrenginių programėlę naudojate „Windows“ įrenginiuose, pasižymėkite rodomą **Nykščio antspaudas** vertę, po to kai įkeliate sertifikatą. Jums reikės šios reikšmės, kai konfigūruosite sertifikatą „Windows“ įrenginiuose.
     - **Naujas kliento slaptasis raktas** – sukurkite raktą įvesdami rakto aprašą ir trukmę dalyje **Slaptažodžiai**, tada pasirinkite **Įtraukti**. Sukurkite rakto kopiją ir saugiai išsaugokite.
@@ -101,7 +101,7 @@ Norėdami įjungti Sandėlio valdymo mobiliųjų įrenginių programėlę, kad j
 Daugiau informacijos apie tai, kaip konfigūruoti žiniatinklio tarnybos programas „Azure AD“, ieškokite toliau nurodytuose ištekliuose.
 
 - Instrukcijų, nurodančių, kaip naudoti „Windows PowerShell“ konfigūruojant žiniatinklio tarnybos programas „Azure AD“, ieškokite straipsnyje [Kaip naudoti „Azure PowerShell“ kuriant pagrindinę tarnybą su sertifikatu](/azure/active-directory/develop/howto-authenticate-service-principal-powershell).
-- Norėdami gauti išsamios informacijos apie tai, kaip rankiniu būdu kurti žiniatinklio tarnybos programą „Azure AD“, žr. toliau nurodytas temas.
+- Išsamesnės informacijos apie tai, kaip rankiniu būdu sukurti tinklo tarnybos programą Azure AD, ieškokite šiame straipsnius:
 
     - [„Quickstart“: programos registravimas naudojant „Microsoft“ tapatumo platformą](/azure/active-directory/develop/quickstart-register-app)
     - [Kaip naudoti portalą kuriant „Azure AD“ programą ir pagrindinę tarnybą, galinčią pasiekti išteklius](/azure/active-directory/develop/howto-create-service-principal-portal)
@@ -129,13 +129,13 @@ Norėdami įgalinti „Supply Chain Management“, kad galėtumėte naudoti savo
     ![„Azure Active Directory“ programos.](media/app-connect-aad-apps.png "„Azure Active Directory“ programos")
 
 > [!TIP]
-> Vienas būdas naudoti šiuos parametrus yra sukurti kliento ID „Azure" kiekvienam jūsų fiziniam įrenginiams ir tada įtraukti kiekvieno kliento ID į **Azure Active Directory programos** puslapį. Tada, jei prarasite įrenginį, galėsite lengvai pašalinti jo prieigą prie „Supply Chain Management“ pašalinant savo kliento ID šiame puslapyje. (Šis būdas veikia, nes kiekviename įrenginyje įrašyti ryšio kredencialai taip pat nurodo kliento ID, kaip toliau aprašyta šioje temoje.)
+> Vienas būdas naudoti šiuos parametrus yra sukurti kliento ID „Azure" kiekvienam jūsų fiziniam įrenginiams ir tada įtraukti kiekvieno kliento ID į **Azure Active Directory programos** puslapį. Tada, jei prarasite įrenginį, galėsite lengvai pašalinti jo prieigą prie „Supply Chain Management“ pašalinant savo kliento ID šiame puslapyje. (Šis būdas veikia, nes kiekviename įrenginyje įrašyti ryšio kredencialai taip pat nurodo kliento ID, kaip toliau aprašyta šiame straipsnyje).)
 >
 > Be to, numatytoji kalba, numerio formatas ir laiko juostos parametrai kiekvienam kliento ID nustatomi pagal čia susietas **vartotojo ID** reikšmės nuostatas. Todėl galite naudoti šias nuostatas, norėdami nustatyti numatytuosius kiekvieno įrenginio arba įrenginių rinkinio parametrus pagal kliento ID. Tačiau šių numatytųjų parametrų bus nepaisoma, jei jie taip pat nurodyti *sandėlio programos vartotojo abonementui,* kurį darbuotojas naudoja prisiregistruoti įrenginyje. (Daugiau informacijos žr. [Darbuotojų mobiliųjų įrenginių vartotojų nustatymas](mobile-device-work-users.md).)
 
 ## <a name="authenticate-by-using-a-certificate-or-client-secret"></a><a name="authenticate"></a>Autentifikavimas naudojant sertifikatą arba kliento slaptąjį raktą
 
-Autentifikavimas su „Azure AD“ leidžia saugiai prijungti mobilųjį įrenginį prie „Supply Chain Management“. Autentifikuoti galite naudodami kliento slaptąjį raktą arba sertifikatą. Jei importuosite ryšio parametrus, rekomenduojame vietoj kliento slaptojo rakto naudoti sertifikatą. Kliento slaptasis raktas turi būti visada saugomas saugiai, todėl negalite jo importuoti iš ryšio parametrų failo arba QR kodo, kaip aprašyta toliau šioje temoje.
+Autentifikavimas su „Azure AD“ leidžia saugiai prijungti mobilųjį įrenginį prie „Supply Chain Management“. Autentifikuoti galite naudodami kliento slaptąjį raktą arba sertifikatą. Jei importuosite ryšio parametrus, rekomenduojame vietoj kliento slaptojo rakto naudoti sertifikatą. Kliento slaptą kodą visada reikia saugoti saugiai, todėl negalite jo importuoti iš ryšio parametrų failo ar QR kodo, kaip toliau aprašyta šiame straipsnyje.
 
 Sertifikatai gali būti naudojami kaip slaptieji raktai programos tapatybei įrodyti, kai prašomas atpažinimo ženklas. Viešoji sertifikato dalis įkeliama į programos registraciją „Azure“ portale, o visas sertifikatas turi būti įdiegtas kiekviename įrenginyje, kuriame įdiegta Sandėlio valdymo mobiliųjų įrenginių programėlė. Jūsų organizacija atsakinga už sertifikato rotacijos valdymą ir pan. Galite naudoti pasirašomus sertifikatus, bet visada turite naudoti neeksportuotinus sertifikatus.
 
@@ -266,7 +266,7 @@ Jei neturite failo ar QR kodo, galite rankiniu būdu konfigūruoti programą įr
 
 1. Įveskite šią informaciją:
 
-    - **Naudoti kliento slaptąjį raktą** – nustatykite šios pasirinkties reikšmę kaip _Taip_, kad galėtumėte naudoti kliento slaptąjį raktą atlikdami autentifikaciją „Supply Chain Management“. Nustatykite reikšmę _Ne_, kai autentifikavimui norite naudoti sertifikatą. (Daugiau informacijos ieškokite ankstesniame šios temos skyriuje [Žiniatinklio tarnybos prašymo kūrimas „Azure Active Directory”](#create-service).)
+    - **Naudoti kliento slaptąjį raktą** – nustatykite šios pasirinkties reikšmę kaip _Taip_, kad galėtumėte naudoti kliento slaptąjį raktą atlikdami autentifikaciją „Supply Chain Management“. Nustatykite reikšmę _Ne_, kai autentifikavimui norite naudoti sertifikatą. (Daugiau informacijos ieškokite [Anksčiau šiame straipsnyje skyriuje sukurkite Azure Active Directory](#create-service) žiniatinklio tarnybos programą.)
     - **Ryšio pavadinimas** – įveskite naujo ryšio pavadinimą. Šis pavadinimas bus rodomas lauke **Pasirinkti ryšį**, kai kitą kartą atidarysite ryšio parametrus. Jūsų įvestas pavadinimas turi būti unikalus. (Kitaip tariant, jis turi skirtis nuo visų kitų ryšių pavadinimų, saugomų jūsų įrenginyje, jei jame saugomi kokie nors ryšių pavadinimai.)
     - **„Azure Active Directory“ kliento ID** – įveskite kliento ID, kurį pasižymėjote, kai konfigūravote „Azure AD“ dalyje [Žiniatinklio tarnybos programos kūrimas naudojant „Azure Active Directory“](#create-service).
     - **„Active Directory“ kliento slaptasis raktas** – šis laukas galimas tik kai parinkties **Naudoti kliento slaptąjį raktą** reikšmė nustatyta kaip _Taip_. Įveskite kliento slaptąjį raktą, kurį pasižymėjote, kai konfigūravote „Azure AD“ dalyje [Žiniatinklio tarnybos programos kūrimas naudojant „Azure Active Directory“](#create-service).

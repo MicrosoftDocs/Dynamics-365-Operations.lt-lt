@@ -1,6 +1,6 @@
 ---
 title: Funkcinės vietos ciklo būsenos
-description: Šioje temoje aprašoma, kaip nustatyti funkcinės vietos būsenas ir ciklo modelius modulyje Turto valdymas.
+description: Šiame straipsnyje aprašoma, kaip turto valdymo dalyje nustatyti funkcines vietos teigiamas vietas ir ciklo modelius.
 author: johanhoffmann
 ms.date: 06/24/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3a9893ad497bbe442d74f5212153fa466d2c85eb
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
-ms.translationtype: HT
+ms.openlocfilehash: ae56c2b734339343b134be95abe0ce40b70c8a0e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6360975"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8934732"
 ---
 # <a name="functional-location-lifecycle-states"></a>Funkcinės vietos ciklo būsenos
 
@@ -28,7 +28,7 @@ ms.locfileid: "6360975"
 
  
 
-Šioje temoje aprašoma, kaip nustatyti funkcinės vietos ciklo būsenas ir ciklo modelius modulyje Turto valdymas. Funkcinės vietos ciklo būsenos reiškia galimas funkcinės vietos būsenas, pavyzdžiui, sukurta, aktyvioji ir pasibaigusi. Visas funkcines vietas, neatsižvelgiant į jų ciklo būseną, galite peržiūrėti sąrašo puslapyje **Visos funkcinės vietos**. Galite pakeisti funkcinės vietos būseną, pasirinkdami ją sąrašo puslapyje **Visos funkcinės vietos** ir pasirinkdami **Naujinti funkcinės vietos būseną**.
+Šiame straipsnyje aprašoma, kaip turto valdymo modulyje nustatyti funkcines vietos ciklo operacijas ir ciklo modelius. Funkcinės vietos ciklo būsenos reiškia galimas funkcinės vietos būsenas, pavyzdžiui, sukurta, aktyvioji ir pasibaigusi. Visas funkcines vietas, neatsižvelgiant į jų ciklo būseną, galite peržiūrėti sąrašo puslapyje **Visos funkcinės vietos**. Galite pakeisti funkcinės vietos būseną, pasirinkdami ją sąrašo puslapyje **Visos funkcinės vietos** ir pasirinkdami **Naujinti funkcinės vietos būseną**.
 
 ## <a name="set-up-functional-location-lifecycle-states"></a>Funkcinės vietos ciklo būsenų konfigūracija
 
@@ -39,6 +39,7 @@ ms.locfileid: "6360975"
 5. Perjungiklyje **Kurti turtą** pasirinkite „Taip“, kad būtų galima automatiškai sukurti turtą, kurio pavadinimas sutaptų su funkcinės vietos pavadinimu, ir įdiegti jį funkcinėje vietoje esant šiai būsenai.  
 >[!NOTE]
 >Šis perjungiklis yra susijęs su lauku **Turto tipas**, esančiu FastTab **Bendra**, formoje **Funkcinių vietų tipai** (**Turto valdymas** > **Sąranka** > **Funkcinės vietos** > **Funkcinių vietų tipai**).
+
 6. Perjungiklyje **Pervardyti vietą** pasirinkite „Taip“, kad būtų galima pakeisti funkcinės vietos pavadinimą esant šiai būsenai.
 7. Perjungiklyje **Naujos antrinės vietos** pasirinkite „Taip“, kad būtų galima įtraukti naujas funkcinės vietos antrines vietas esant šiai būsenai.
 8. Perjungiklyje **Diegti turtą** pasirinkite „Taip“, kad esant šiai būsenai funkcinėje vietoje būtų galima diegti turtą.

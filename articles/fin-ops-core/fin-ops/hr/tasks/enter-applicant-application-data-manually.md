@@ -13,17 +13,17 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a00e20569f05730296ef611938a94b73ebb7f6f5
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: d59b5a2c99813fee2e12e30e8694edf6da7391d9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8735324"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909255"
 ---
 # <a name="enter-applicant-and-application-data-manually"></a>Įvesti pretendento ir prašymo duomenis neautomatiškai
 
 > [!NOTE]
-> Šios temos įdarbinimo funkcijos bus nurodytos kaip Įdarbinimo projektai ir židiniai pretendentams, prašymams ir įdarbinimo projektams.  
+> Šiame straipsnyje nurodyta įdarbinimo funkcija bus vadinama įdarbinimo projektais ir židiniais pretendentams, prašymams ir įdarbinimo projektams.  
 
 
 Ši procedūra nurodo, kaip rankiniu būdu tvarkyti informaciją apie pretendentus ir jų prašymus. Galite įvesti ir tvarkyti pretendentų asmeninę informaciją, pokalbių datas ir laikus, nuorodas, kompetencijas ir patogumų užklausas. Taip pat galite atnaujinti pretendentų prašymų dėl įdarbinimo būseną ir sukurti laiškus ar el. laiškus, kad su pretendentais būtų bendraujant. Kuriant pretendento įrašą, sukuriamas to pretendento asmens įrašas visuotinėje adresų knygelėje. USMF **demonstracinių** duomenų įmonė buvo naudojama šiai procedūrai sukurti.

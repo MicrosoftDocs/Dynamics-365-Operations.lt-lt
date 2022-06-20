@@ -1,6 +1,6 @@
 ---
-title: Funkcinės vietos ir turtas
-description: Šioje temoje aprašomos funkcinės vietos ir turtas modulyje Turto valdymas. Turto valdymas yra išplėstinis modulis, skirtas turtui ir priežiūros užduotims valdyti programoje „Dynamics 365 Supply Chain Management“.
+title: Funkcinės vietos ir ištekliai
+description: Šiame straipsnyje aprašomos turto valdymo funkcinės vietos ir turtas. Turto valdymas yra išplėstinis modulis, skirtas turtui ir priežiūros užduotims valdyti programoje „Dynamics 365 Supply Chain Management“.
 author: johanhoffmann
 ms.date: 06/24/2019
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e0bf90d99a8bd093817f9e804e8075e779428f1fadb3128c5a455ca839dece55
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 274e80136ee303af9d0fe5fd04095f575a345d19
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6750153"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8875661"
 ---
-# <a name="functional-locations-and-assets"></a>Funkcinės vietos ir turtas
+# <a name="functional-locations-and-assets"></a>Funkcinės vietos ir ištekliai
 
 [!include [banner](../../includes/banner.md)]
 
  
 
-Šioje temoje aprašomos funkcinės vietos ir turtas modulyje Turto valdymas. Turto valdymas yra išplėstinis modulis, skirtas turtui ir priežiūros užduotims valdyti programoje „Dynamics 365 Supply Chain Management“.
+Šiame straipsnyje aprašomos turto valdymo funkcinės vietos ir turtas. Turto valdymas yra išplėstinis modulis, skirtas turtui ir priežiūros užduotims valdyti programoje „Dynamics 365 Supply Chain Management“.
 
 ## <a name="overview"></a>Apžvalga
 

@@ -1,6 +1,6 @@
 ---
-title: Nustatyti dokumentą kaip
-description: Šioje temoje pasakojama apie turto dokumentus, esančius modulyje „Turto valdymas“.
+title: Turto dokumentai
+description: Šiame straipsnyje paaiškinami turto valdymo dokumentai.
 author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 77b7265b1ba56dbd1cd955f5d90afea02f589ce2eebdd05a2fef3a7ddebc0ee1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a2e8d72dc938c43e266c6b7c39329f827c56607a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722492"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899475"
 ---
-# <a name="asset-documents"></a>Nustatyti dokumentą kaip
+# <a name="asset-documents"></a>Turto dokumentai
 
 [!include [banner](../../includes/banner.md)]
 
  
 
-Šioje temoje pasakojama apie turto dokumentus, esančius modulyje „Turto valdymas“.
+Šiame straipsnyje paaiškinami turto valdymo dokumentai.
 
 Modulyje „Turto valdymas“ galite konfigūruoti dokumentus, kad jie būtų automatiškai siejami su užduoties tipais, turto gamintojais, turto tipais arba turtu. Ši funkcija yra naudinga, kai išleidžiamos atnaujintos dokumentų versijos. Tokiu atveju jums tereikia įtraukti atnaujintą dokumentą į standartinę vietą, kurią naudojate „Supply Chain Management“ dokumentams laikyti ir pridėti dokumentą prie turto dokumento įrašo, kurį buvote sukūrę. Tada atnaujintą dokumentą galima pasiekti einant į meniu elementus **Visas turtas**, **Aktyvusis turtas**, **Mano aktyvusis turtas**, **Visi darbo užsakymai** ir **Aktyviosios darbo užsakymo užduotys**. Dokumentų pridėjimo prie turto dokumentų įrašo procesas naudoja standartinę dokumentų tvarkymo sistemą.
 

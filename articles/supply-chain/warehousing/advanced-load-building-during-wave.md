@@ -1,6 +1,6 @@
 ---
 title: Papildomo krovinio kūrimas bangos metu
-description: Šioje temoje pateikiama informacija apie papildomo bangos krovinio kūrimą, kuris automatiškai priskiria siuntas esamoms bangoms vykdant bangą. Todėl galite sukurti prasmingus krovinius, kurie vaizduoja sunkvežimius, nenaudodami krovinio planavimo darbo srities.
+description: Šiame straipsnyje pateikiama informacija apie išplėstinio bangos krovinio kūrimą, kuris automatiškai priskiria siuntas esamoms bangoms vykdant bangą. Todėl galite sukurti prasmingus krovinius, kurie vaizduoja sunkvežimius, nenaudodami krovinio planavimo darbo srities.
 author: Mirzaab
 ms.date: 07/01/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 0dafac981bcdec307de6dc202f557e7b8837ae2e
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 3a630a7f388e0bbb6fee96e4de753b2380d305c3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8670523"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863772"
 ---
 # <a name="advanced-load-building-during-wave"></a>Papildomo krovinio kūrimas bangos metu
 
@@ -220,7 +220,7 @@ Galite nustatyti tiek krovinių kūrimo šablonų, kiek būtina. Tačiau norėda
 
 ## <a name="scenario"></a>Scenarijus
 
-Šis scenarijus nurodo, kaip anksčiau šioje temoje aprašyti parametrai veikia sandėlio operacijas, kol apdorojamas pardavimo užsakymas. Šis scenarijus naudoja **USMF** parodomosios versijos duomenis su kitomis parodomosios versijos vertėmis, pateiktomis tose sąrankos instrukcijose.
+Šis scenarijus rodo, kaip anksčiau šiame straipsnyje aprašyti parametrai veikia sandėlio operacijas, kol apdorojamas pardavimo užsakymas. Šis scenarijus naudoja **USMF** parodomosios versijos duomenis su kitomis parodomosios versijos vertėmis, pateiktomis tose sąrankos instrukcijose.
 
 ### <a name="create-sales-orders"></a>Pardavimo užsakymų kūrimas
 

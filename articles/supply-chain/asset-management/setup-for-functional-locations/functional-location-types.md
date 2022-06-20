@@ -1,6 +1,6 @@
 ---
-title: Funkcinių vietų tipai
-description: Šioje temoje paaiškinta, kaip kurti funkcinių vietų tipus turto valdyme.
+title: Funkcinės vietos tipai
+description: Šiame straipsnyje aprašoma, kaip kurti funkcinių vietų tipus turto valdymo modulyje.
 author: johanhoffmann
 ms.date: 06/24/2019
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 301dc838ed204ebe488dd167df75fc84131f235f64285c6ae99c62ee1188362c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: MT
+ms.openlocfilehash: 01c8276d77f7655659cab13f3c520d7c171e3cfd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6739160"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879227"
 ---
-# <a name="functional-location-types"></a>Funkcinių vietų tipai
+# <a name="functional-location-types"></a>Funkcinės vietos tipai
 
 [!include [banner](../../includes/banner.md)]
 
  
 
-Šioje temoje paaiškinta, kaip kurti funkcinių vietų tipus turto valdyme. Funkcinių vietų tipai naudojami siekiant tvarkyti funkcinių vietų reikalavimus, įskaitant tai, kaip turtas diegiamas funkcinėje vietoje. Galima nustatyti turto tipus, priežiūros planus, funkcinių vietų atributus ir turto atributų reikalavimus, kurie bus naudojami funkcinėje vietoje, naudojančioje konkretų funkcinės vietos tipą. Kuriant funkcinę vietą būtina nustatyti funkcinės vietos tipą.
+Šiame straipsnyje aprašoma, kaip kurti funkcinių vietų tipus turto valdymo modulyje. Funkcinių vietų tipai naudojami siekiant tvarkyti funkcinių vietų reikalavimus, įskaitant tai, kaip turtas diegiamas funkcinėje vietoje. Galima nustatyti turto tipus, priežiūros planus, funkcinių vietų atributus ir turto atributų reikalavimus, kurie bus naudojami funkcinėje vietoje, naudojančioje konkretų funkcinės vietos tipą. Kuriant funkcinę vietą būtina nustatyti funkcinės vietos tipą.
 
 >[!NOTE] 
 >Norėdami dirbti su funkcinėmis vietomis, turite sukurti numatytąją funkcinę vietą, kuri bus naudojama tik kuriant naują turtą. Numatytai funkcinei vietai būtina sukurti numatytąjį funkcinės vietos tipą, kas yra visai paprasta ir leidžia numatytoje funkcinėje vietoje įdiegti kelis turtus. Daugiau informacijos apie funkcinių vietų nustatymą žr. [Funkcinių vietų kūrimas](../functional-locations/create-functional-locations.md).

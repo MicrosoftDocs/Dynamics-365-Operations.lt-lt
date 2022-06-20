@@ -1,6 +1,6 @@
 ---
 title: Medžiagų keitimas gamyboje
-description: Šioje temoje aprašoma, kaip keisti medžiagas gamybos proceso metu.
+description: Šiame straipsnyje aprašoma, kaip pakeisti medžiagas gamybos proceso metu.
 author: johanhoffmann
 ms.date: 06/20/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f24ed91c7a99eba6129d18c385cea9c9312aebefc325c7e0914b1c0b32231e32
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1c2e6c9cc8ed85c8c60539b37fb6c51c96bc2872
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6766564"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855984"
 ---
 # <a name="material-substitution-in-manufacturing"></a>Medžiagų keitimas gamyboje
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje aprašoma, kaip keisti medžiagas gamybos proceso metu. 
+Šiame straipsnyje aprašoma, kaip pakeisti medžiagas gamybos proceso metu. 
 
 Medžiagas keisti gamybos proceso metu galima trimis toliau nurodytais būdais.
 

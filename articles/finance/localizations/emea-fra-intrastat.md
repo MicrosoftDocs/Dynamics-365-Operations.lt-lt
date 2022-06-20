@@ -1,6 +1,6 @@
 ---
 title: Prancūzijos „Intrastat”
-description: Šioje temoje pateikiama informacija apie „Intrastat” deklaraciją Prancūzijoje.
+description: Šiame straipsnyje pateikiama informacija apie Prancūzijos Intrastat deklaraciją.
 author: anasyash
 ms.date: 07/9/2021
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: kfend
 ms.search.region: Global
 ms.author: anasyash
 ms.search.validFrom: ''
-ms.openlocfilehash: 4d38576e1c6b40242d5c6313fb06f08e170b4466
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
+ms.openlocfilehash: e86d7c8f28b1b3df0066a588d380965c21dc98a7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7487905"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887859"
 ---
 # <a name="french-intrastat"></a>Prancūzijos „Intrastat”
 
@@ -90,14 +90,14 @@ Lentelė taip pat nurodo lauko ataskaitos lygį. Laukas gali būti **„4”** (
 
     Norėdami daugiau informacijos žr. [Elektroninių ataskaitų konfigūracijų atsisiuntimas iš „Lifecycle Services“](../../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md).
 
-2.  „Dynamics 365 Finance” eikite į **Mokesčiai** > **Nustatymas** >  **Užsienio prekyba** > **Užsienio prekybos parametrai** ir atlikite šiuos veiksmus:
+2.  Programoje "Dynamics 365 Finance" eikite į **Mokesčių** > **nustatymo** >  **užsienio** > **prekybos užsienio prekyba parametrus** ir atlikite šiuos veiksmus:
 
     1. Skirtuko **„Intrastat”** „FastTab” **Elektroninės ataskaitos** lauke **Failo formato susiejimas** pasirinkite **„Intrastat” INTRACOM (FR)** arba **„Intrastat” SAISUNIC (FR)**.
     2. **Ataskaitos formatų susiejimas** lauke pasirinkite **„Intrastat” ataskaita**.
     3. „FastTab” **Prekių kodų hierarchija** lauke **Kategorijų hierarchija** pasirinkite **„Intrastat”**.
     4. „FastTab” **Bendra** lauke **Operacijos kodas** pasirinkite kodą, kuris naudojamas prekių perkėlimams.
     5. Lauke **Kredito pažyma** pasirinkite kodą, kuris naudojamas prekių grąžinimams.
-    6. Lauke **Įsipareigojimo lygis eksportui** įveskite eksportavimo ataskaitos išsamumo lygį. Nuo lygio, kurį pasirenkate, priklauso ataskaitoje rodomos eilutės. Daugiau informacijos ieškokite lentelėse, esančiose šios temos pradžioje.
+    6. Lauke **Įsipareigojimo lygis eksportui** įveskite eksportavimo ataskaitos išsamumo lygį. Nuo lygio, kurį pasirenkate, priklauso ataskaitoje rodomos eilutės. Norėdami gauti daugiau informacijos, šio straipsnio pradžioje žr. lenteles.
 
 3. Eikite į **Organizacijos administravimas** > **Organizacijos** > **Juridiniai subjektai**, pasirinkite savo įmonę ir tada atlikite šiuos veiksmus:
 

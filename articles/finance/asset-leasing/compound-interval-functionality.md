@@ -1,6 +1,6 @@
 ---
 title: Sudėjimo intervalų funkcija
-description: Šioje temoje pateikiama informacija, kuri padės pasirinkti tarp mėnesinio, ketvirtinio, pusmetinio ir metinio sudėjimo intervalų.
+description: Šiame straipsnyje pateikiama informacija, kuri padės pasirinkti kas mėnesį, ketvirtį, pusmečio ir metinio sudėjimo intervalus.
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -15,24 +15,24 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: d1b8af3d5f8f6a6812fe309f57f682d0c5023d00
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 2de5f1e9d52de41388298031a03fbc487a1b1cde
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710448"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8886428"
 ---
 # <a name="compounding-interval-functionality"></a>Sudėjimo intervalų funkcija
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-Šioje temoje pateikiama informacija, kuri padės pasirinkti tarp mėnesinio, ketvirtinio, pusmetinio ir metinio sudėjimo intervalų. Sudėjimo intervalų funkcija naudojama norint nustatyti, kiek turi būti sudėjimo laikotarpių per nuomos mokėjimo grafiko metus. Kiekviename iš keturių šioje temoje pateiktų pavyzdžių vaizduojama, kaip atrodys skirtingo intervalo nuomos mokėjimų grafikas.
+Šiame straipsnyje pateikiama informacija, kuri padės pasirinkti kas mėnesį, ketvirtį, pusmečio ir metinio sudėjimo intervalus. Sudėjimo intervalų funkcija naudojama norint nustatyti, kiek turi būti sudėjimo laikotarpių per nuomos mokėjimo grafiko metus. Kiekviename iš keturių šio straipsnio pavyzdžių rodoma, kaip nuomos mokėjimo grafikas atrodys skirtingam intervalui.
 
 Negalite pasirinkti sudėjimo intervalo, kuris yra retesnis nei nuomos mokėjimo dažnumas. Pavyzdžiui, ketvirtinio sudėjimo intervalo negalima naudoti su mėnesiniu mokėjimo dažnumu, o metinio sudėjimo intervalo negalima naudoti su pusmetiniu mokėjimo dažnumu. Jei bandote pasirinkti sudėjimo intervalą, kuris yra retesnis nei nuomos mokėjimo dažnumas, pateikiamas klaidos pranešimas.
 
 > [!NOTE]
-> Visuose keturiuose šioje temoje pateiktuose pavyzdžiuose sudėjimo intervalas atitinka mokėjimo dažnumą.
+> Visuose keturiuose šio straipsnio pavyzdžiuose sudėjimo intervalas atitinka mokėjimo dažnumą.
 
 ## <a name="examples"></a>Pavyzdžiai
 

@@ -1,6 +1,6 @@
 ---
 title: Palaikomi elektroninių ataskaitų formulių sudėtiniai duomenų tipai
-description: Šioje temoje pateikiama informacijos apie sudedamųjų duoemnų tipo funkcijas, palaikomas modulyje Elektroninės ataskaitos (ER) formulėse.
+description: Šiame straipsnyje pateikta informacija apie sudėtinius duomenų tipus, kurie palaikomi elektroninės ataskaitos (ER) formulėse.
 author: NickSelin
 ms.date: 06/02/2021
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
@@ -10,18 +10,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 933c8211276c1335a6a81bf4a8cb1c3f270762d4
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: dc3fbe695d79eb0ec9796d471c4d2bb0bb7ab99d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8689248"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8869321"
 ---
 # <a name="supported-composite-data-types-for-electronic-reporting-formulas"></a>Palaikomi elektroninių ataskaitų formulių sudėtiniai duomenų tipai
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje pateikiama informacijos apie sudedamųjų duoemnų tipo funkcijas, palaikomas modulyje [Elektroninės ataskaitos (ER)](general-electronic-reporting.md) formulėse. Sudėtiniai duomenų tipai yra [klasė](#class), [talpykla](#container), [įrašas](#record), [įrašų sąrašas](#record-list), ir [objektas](#object).
+Šiame straipsnyje pateikta informacija apie sudėtinius duomenų tipus, kurie palaikomi elektroninės [ataskaitos (ER)](general-electronic-reporting.md) išraiškose. Sudėtiniai duomenų tipai yra [klasė](#class), [talpykla](#container), [įrašas](#record), [įrašų sąrašas](#record-list), ir [objektas](#object).
 
 ## <a name="class"></a><a name="class"></a>Klasė
 

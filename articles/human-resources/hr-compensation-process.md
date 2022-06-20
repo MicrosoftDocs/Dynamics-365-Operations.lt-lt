@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: e4aa910d92c2905d54d96f656e1d3d1c36388636
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 228c891e8c29cf4309856b90139d0b88805a9812
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8693870"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8886166"
 ---
 # <a name="process-compensation"></a>Kompensavimo apdorojimas
 
@@ -27,7 +27,7 @@ ms.locfileid: "8693870"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Kompensavimo apdorojimas suteikia galimybę apskaičiuoti naujos bazinės kompensacijos sumas darbuotojams pagal kapitalo koregavimus, nuopelnų padidinimo tikslus ir našumą. Šioje temoje apžvelgiamas pastoviosios atlyginimo dalies planų bazinio kompensacijos srauto apdorojimas neatsižvelgiant į darbuotojo našumą.
+Kompensavimo apdorojimas suteikia galimybę apskaičiuoti naujos bazinės kompensacijos sumas darbuotojams pagal kapitalo koregavimus, nuopelnų padidinimo tikslus ir našumą. Šiame straipsnyje apžvelgiamas pastoviosios atlyginimo dalies planų bazinio kompensacijos srauto apdorojimas neatsižvelgiant į darbuotojo našumą.
 
 ## <a name="plan-the-new-compensation-amounts-and-budgets"></a>Naujų kompensacijos sumų ir biudžetų planavimas
 Tam, kad suteiktumėte darbuotojams nuopelnų padidinimą, turite nustatyti savo padalinių fiksuotą didinimo biudžetą: **Kompensacijų valdymas** > **Saitai** > **Nuopelnų didinimo tikslai**. (Taip pat galite atidaryti šį puslapį per padalinį: **Organizacija** > **Padaliniai**.) Jūs galite nurodyti, ar tam tikrai profesinei sąjungai ar vietai priklausantiems darbuotojams turėtų būti taikomas skirtingas padidinimo procentas. Laukai **Biudžetas** ir **Valiuta** yra informaciniai ir gali būti naudojami norint pažymėti biudžeto valiutos sumą.
@@ -41,7 +41,7 @@ Apdorojimo įvykio **Tam tikra** data yra naudojama tik apdorojant tam tikrus ki
 
 Išsaugojus apdorojimo įvykio parametrus, spustelėkite mygtuką **Sąranka**, kad pasirinktumėte planus, kuriuos norite įtraukti į šį proceso vykdymą, ir pastoviosios atlyginimo dalies veiksmus, kuriuos norite atlikti kiekviename plane.
 
-Spustelėkite skirtuko **Planai** mygtuką **Įtraukti**, kad prie apdorojimo įvykio pridėtumėte kompensavimo planą. Stulpeliai **Naudoti kitą svertą**, **Sverto faktorius** ir **Sverto aprašymas** naudojami tik kintamosios atlyginimo dalies planuose ir šioje temoje neaptariami.
+Spustelėkite skirtuko **Planai** mygtuką **Įtraukti**, kad prie apdorojimo įvykio pridėtumėte kompensavimo planą. Stulpeliai **Naudoti kitą svertą**, **Sverto faktorius** ir **Sverto aprašymas** naudojami tik kintamosios atlyginimo dalies planuose ir šiame straipsnyje neaptariami.
 
 Įrašykite įrašą, tada spustelėkite skirtuko **Veiksmai** mygtuką **Įtraukti**, kad pridėtumėte pastoviosios atlyginimo dalies veiksmus į pasirinktą planą. Naudokite parinktį **Įjungti rekomendaciją**, norėdami įvesti sumą, kitą nei apskaičiuotas veiksmo siūlomas padidinimas. Norėdami apskaičiuoti veiksmą, kuris pagrįstas ankstesnio veiksmo rezultatu ir susieti kelis kompensavimo veiksmus, pažymėkite **Naudoti ankstesnį rezultatą** parinktį. Pastoviosios atlyginimo dalies veiksmai yra atlyginimo logikos tipai, kuriems galite pateikti aprašomuosius pavadinimus. Į **kategorijų** ir **juostų** planus galite įtraukti tik pastoviosios atlyginimo dalies veiksmus, kurie yra šių tipų:
 

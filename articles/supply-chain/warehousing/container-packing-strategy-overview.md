@@ -1,6 +1,6 @@
 ---
 title: Konteinerių pakavimo strategijos
-description: Šioje temoje aprašomi konteinerių pakavimo strategijų skirtumai ir pateikiami pavyzdžiai.
+description: Šiame straipsnyje aprašomi konteinerio pakavimo strategijų skirtumai ir pateikiami pavyzdžiai.
 author: GalynaFedorova
 ms.date: 06/11/2021
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2021-06-11
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: ab34cee7fd495ec26f6b20da2aa43895f49f677c
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 46b4a007dafbd99e5f9b7231c07a148f8101d2a4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8676389"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8862372"
 ---
 # <a name="container-packing-strategies"></a>Konteinerių pakavimo strategijos
 
 [!include [banner](../includes/banner.md)]
 
-*Konteinerių pakavimo strategija* yra strategija, kurią galite naudoti prekių paskirstymui tarp konteinerių apibrėžti. Šioje temoje paaiškinami skirtumai tarp *Pakuoti į visus atidarytus konteinerius* ir *Pakuoti tik į dabartinį konteinerį* strategijų.
+*Konteinerių pakavimo strategija* yra strategija, kurią galite naudoti prekių paskirstymui tarp konteinerių apibrėžti. Šiame straipsnyje paaiškinami skirtumai tarp paketų į visus *atidarytus konteinerius* ir Pakuoti *į dabartinį konteinerį tik* strategijos.
 
 - **Pakuoti į visus atidarytus konteinerius** – sistema turi patikrinti visus atidarytus konteinerius, kurie jau buvo sukurti krovimo į konteinerius ciklo metu, kad įsitikintų, jog prekė tilps į vieną iš jų. Pakavimo metu sistema patikrina kiekvieną prekę, kad nustatytų, ar ji tinka bet kuriam anksčiau sukurtam konteineriui. Jei prekė netilps į esamą konteinerį, sistema sukuria naują konteinerį ir taip tęsia toliau, kol užbaigia supakuoti visą užsakymą.
 

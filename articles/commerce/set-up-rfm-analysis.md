@@ -1,6 +1,6 @@
 ---
-title: „Recency“, dažnumo ir piniginės (RFM) analizės nustatymas
-description: Šioje temoje aiškinama, kaip nustatyti jūsų klientų „Recency“, dažnumo ir piniginę (RFM) analizę.
+title: Naujumo, dažnumo ir piniginės (RFM) analizės nustatymas
+description: Šiame straipsnyje paaiškinama, kaip nustatyti savo klientų "Recency", dažnumo ir piniginės (RFM) analizę.
 author: josaw1
 ms.date: 06/20/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: d058401541d37dac55d0a500835ce9c357468656e467951f789207452f798d94
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 153759ac6b70235b79c080e934819536c2861371
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6765225"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850176"
 ---
-# <a name="set-up-recency-frequency-and-monetary-rfm-analysis"></a>„Recency“, dažnumo ir piniginės (RFM) analizės nustatymas
+# <a name="set-up-recency-frequency-and-monetary-rfm-analysis"></a>Naujumo, dažnumo ir piniginės (RFM) analizės nustatymas
 
 [!include [banner](includes/banner.md)]
 
-Šioje temoje aiškinama, kaip nustatyti jūsų klientų „Recency“, dažnumo ir piniginę (RFM) analizę.
+Šiame straipsnyje paaiškinama, kaip nustatyti savo klientų "Recency", dažnumo ir piniginės (RFM) analizę.
 
 „Recency“, dažnumo ir piniginę (RFM) analizė yra rinkodaros įrankis, kurį jūsų organizacija gali naudoti generuojamiems klientų pirkimų duomenims įvertinti. Nustačius RFM analizę, klientams, kai šie perka, priskiriamas apskaičiuotas RFM rezultatas. RFM rezultatas gali būti trijų skaitmenų vertinimas arba sudėtinis numeris – tai priklauso nuo to, kaip jūsų organizacija sukonfigūravo RFM analizę. Toliau nurodyta, kaip skaičiuojamas įvertinimas, jei jūsų organizacija rezultatuose naudoja trijų skaitmenų vertinimą.
 

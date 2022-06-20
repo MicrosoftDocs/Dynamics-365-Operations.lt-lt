@@ -1,6 +1,6 @@
 ---
-title: Įtraukti duomenų laukus į mokesčių integravimą naudojant plėtinius
-description: Šioje temoje paaiškinama, kaip naudoti X++ plėtinius norint įtraukti duomenų laukus į mokesčių integravimą.
+title: Duomenų laukų įtraukimas į mokesčių integravimą naudojant plėtinius
+description: Šiame straipsnyje paaiškinama, kaip naudoti X++ plėtinius norint įtraukti duomenų laukus į mokesčių integravimą.
 author: qire
 ms.date: 04/27/2022
 ms.topic: article
@@ -14,19 +14,19 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 64c68ef6804297f86b5d9dc1933b0c16a0d42aae
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 184012dcc0b68e017bb28d8d73caa9e8415bdbfa
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8695394"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871055"
 ---
 # <a name="add-data-fields-in-the-tax-integration-by-using-extension"></a>Įtraukti duomenų laukus į mokesčių integravimą naudojant plėtinį
 
 [!include [banner](../includes/banner.md)]
 
 
-Šioje temoje paaiškinama, kaip naudoti X++ plėtinius norint įtraukti duomenų laukus į mokesčių integravimą. Šiuos laukus galima išplėsti iki mokesčių tarnybos mokesčių duomenų modelio ir naudoti mokesčių kodams nustatyti. Daugiau informacijos ieškokite Mokesčių [konfigūracijų duomenų laukų](tax-service-add-data-fields-tax-configurations.md) įtraukimas.
+Šiame straipsnyje paaiškinama, kaip naudoti X++ plėtinius norint įtraukti duomenų laukus į mokesčių integravimą. Šiuos laukus galima išplėsti iki mokesčių tarnybos mokesčių duomenų modelio ir naudoti mokesčių kodams nustatyti. Daugiau informacijos ieškokite Mokesčių [konfigūracijų duomenų laukų](tax-service-add-data-fields-tax-configurations.md) įtraukimas.
 
 ## <a name="data-model"></a>Duomenų modelis
 
@@ -359,7 +359,7 @@ final static class TaxIntegrationCalculationActivityOnDocument_CalculationServic
 Šiuo kodu yra `_destination` viršelio objektas, naudojamas užklausai sugeneruoti, ir `_source` yra `TaxIntegrationLineObject` objektas.
 
 > [!NOTE]
-> Nurodykite lauko pavadinimą, kuris naudojamas užklausoje kaip privatus const **str**. Eilutė turi būti lygiai tokia pati, kaip mazgo pavadinimas (ne žymė), [įtrauktas į temą Pridėti duomenų laukus mokesčių konfigūracijose](tax-service-add-data-fields-tax-configurations.md).
+> Nurodykite lauko pavadinimą, kuris naudojamas užklausoje kaip privatus const **str**. Eilutė turi būti lygiai tokia pati, kaip mazgo pavadinimas (ne žymė), [įtrauktas į straipsnį Įtraukti duomenų laukus į mokesčių konfigūracijas](tax-service-add-data-fields-tax-configurations.md).
 > 
 > Nustatykite lauką **copyToTaxableDocumentLineWraobjectFromTaxIntegrationLineObjectByLine** metode naudodami **SetField** metodą. Antrojo parametro duomenų tipas turi būti **eilutė**. Jei duomenų tipas nėra eilutė **, konvertuoti** jį į eilutę.
 > Jei duomenų tipas yra X++ **išvardinimo** tipas, **rekomenduojame naudoti išvardiavimo2Symbol** metodą išvardiavimo vertei į eilutę konvertuoti. Mokesčių konfigūracijoje pridėta išvardi valdymo reikšmė turi būti lygiai tokia pati kaip išvardi jos pavadinimo. Toliau pateikiamas skirtumų tarp išvarditi vertės, žymės ir pavadinimo sąrašas.
@@ -382,7 +382,7 @@ Norėdami sėkmingai sukurti projektą, modelio priklausomybei įtraukite šiuos
 
 Atlikę ankstesnius veiksmus, galite patikrinti savo keitimus.
 
-1. Finansuose eikite į **mokėtinas** sumas ir **į URL įtraukite &debug=vsCconfirmExit%2>**. Pavyzdžiui,`https://usnconeboxax1aos.cloud.onebox.dynamics.com/?cmp=DEMF&mi=PurchTableListPage&debug=vs%2CconfirmExit&`. Galutinis yra **&** būtinas.
+1. Finansuose eikite į **mokėtinas** sumas ir **į URL įtraukite &debug=vs%2 CconfirmExit>**. Pavyzdžiui,`https://usnconeboxax1aos.cloud.onebox.dynamics.com/?cmp=DEMF&mi=PurchTableListPage&debug=vs%2CconfirmExit&`. Galutinis yra **&** būtinas.
 2. Atidaryti pirkimo **užsakymo puslapį** ir pasirinkti **Naujas,** kad būtų sukurtas pirkimo užsakymas.
 3. Nustatykite pritaikyto lauko vertę ir pasirinkite **PVM**. Trikčių diagnostikos failas su prefiksu, **TaxServiceTroubleshootingLog atsisiųstas** automatiškai. Šiame faile yra operacijos informacija, užregistruota Mokesčių skaičiavimo paslaugoje. 
 4. Patikrinkite, ar pritaikytas įtrauktas laukas yra mokesčių tarnybos skaičiavimo įvesties **JSON skyriuje** ir ar jo vertė teisinga. Jei vertė neteisinga, šiame dokumente du kartus patikrinkite veiksmus.

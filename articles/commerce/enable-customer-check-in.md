@@ -1,6 +1,6 @@
 ---
 title: Įgalinti kliento įregistravimo pranešimus kasos punkte (EKA)
-description: Šioje temoje aprašoma, kaip įgalinti kliento įregistravimo pranešimus į „Microsoft Dynamics 365 Commerce“ kasos kodą (EKA).
+description: Šiame straipsnyje aprašoma, kaip įgalinti kliento įregistravimo pranešimus į kasos Microsoft Dynamics 365 Commerce kodą (EKA).
 author: bicyclingfool
 ms.date: 12/03/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: global
 ms.author: stuharg
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 95b4e3a1750cf072db919492f7445e87654701da
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: ae53657c95128eae793f670bd9dbc31d9fac0fe4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983166"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885150"
 ---
 # <a name="enable-customer-check-in-notifications-in-point-of-sale-pos"></a>Įgalinti kliento įregistravimo pranešimus kasos punkte (EKA)
 
 [!include [banner](includes/banner.md)]
 
-Šioje temoje aprašoma, kaip įgalinti kliento įregistravimo pranešimus į „Microsoft Dynamics 365 Commerce“ kasos kodą (EKA).
+Šiame straipsnyje aprašoma, kaip įgalinti kliento įregistravimo pranešimus į kasos Microsoft Dynamics 365 Commerce kodą (EKA).
 
 Savo el. laiškų „užsakymas paruoštas paimti" organizacijos gali pateikti saitą ar mygtuką, kuris leidžia klientams informuoti parduotuvę, kad jie yra patalpose ir laukia, kol jų pakuotė bus jiems parengta. Tada klientai gauna įregistravimo patvirtinimą, o parduotuvė savo EKA programoje gauna pranešimą kaip užduotį. Ši užduotis naudojama kaip raginimas susieti pardavimą ir pristatyti užsakymą kliento transporto priemonei. Todėl klientas neturi įvesti parduotuvės.
 
@@ -66,27 +66,27 @@ Kliento įsiregistravimas reikalauja, kad specialūs parametrai ir vertės būt�
 
 Norėdami patikrinti kliento įregistravimo priemonę, atlikite šiuos veiksmus.
 
-1. Sukurkite kliento įregistravimo puslapį, tada pridėkite ir sukonfigūruokite kliento įregistravimo modulį. Daugiau informacijos ieškokite [Įregistravimas, skirtas paėmimo moduliui](check-in-pickup-module.md). 
+1. Sukurkite kliento įregistravimo puslapį, tada pridėkite ir sukonfigūruokite kliento įregistravimo modulį. Daugiau informacijos ieškokite Įregistravimas [, skirtas paėmimo moduliui](check-in-pickup-module.md). 
 1. Tikrinkite puslapį, bet jo nepaskelbkite.
-1. Pridėkite šią saitą prie el. laiško šablono, kurį iškviečiamas baigto pakavimo pranešimo tipas, kai naudojamas pristatymo paėmimo režimas. Daugiau informacijos rasite operacijų [įvykių el. laiškų šablonų kūrimas](email-templates-transactions.md).
+1. Pridėkite šią saitą prie el. laiško šablono, kurį iškviečiamas baigto pakavimo pranešimo tipas, kai naudojamas pristatymo paėmimo režimas. Daugiau informacijos rasite operacijų įvykių [el. laiškų šablonų kūrimas](email-templates-transactions.md).
 
-    - **Išankstinių gamybų (UAT) aplinkose: įtraukite kodo fragmentą iš anksčiau šioje temoje skyriaus Konfigūruoti operacijų**[el](#configure-the-transactional-email-template). laiško šabloną.
-    - **Gamybos aplinkose pridėkite** šį komentaro kodą, kad esami klientai nepakentė jų.
+    - **Išankstinių gamybų (UAT) aplinkose:**[įtraukite](#configure-the-transactional-email-template) kodo fragmentą iš anksčiau šiame straipsnyje skyriuje Konfigūruoti operacijų el. laiško šabloną.
+    - **Gamybos aplinkose pridėkite šį** komentaro kodą, kad esami klientai nepakentė jų.
 
         `<!-- https://[DOMAIN]/[CHECK_IN_PAGE]?channelReferenceId=%confirmationid%&channelId=%pickupchannelid%&packingSlipId=%packingslipid%&preview=inprogress -->`
 
 1. Kurti užsakymą, kuriame nurodytas paėmimo pristatymo būdas.
-1. Kai gaunate el. laišką, kurį suaktyvino baigto pakavimo pranešimo tipas, patikrinkite įregistravimo srautą atidarydami įregistravimo puslapį, kuriame yra anksčiau įtrauktas URL. Kadangi URL apima vėliavėlę, prieš tai, kai galėsite peržiūrėti puslapį, `&preview=inprogress` būsite paraginti autentifikuoti.
+1. Kai gaunate el. laišką, kurį suaktyvino baigto pakavimo pranešimo tipas, patikrinkite įregistravimo srautą atidarydami įregistravimo puslapį, kuriame yra anksčiau įtrauktas URL. Kadangi URL apima vėliavėlę `&preview=inprogress`, prieš tai, kai galėsite peržiūrėti puslapį, būsite paraginti autentifikuoti.
 1. Įveskite bet kokią papildomą informaciją, kurios reikia moduliui konfigūruoti.
 1. Patikrinkite, ar įregistravimo patvirtinimo rodinys yra teisingai rodomas.
 1. Atidarykite parduotuvės, kurioje bus paimtas užsakymas, EKA mokėjimo terminalą.
-1. Pasirinkite **užsakymus, kuriuos norite paimti** išklotinės dalies, ir patikrinkite, ar užsakymas rodomas.
+1. Pasirinkite užsakymus **, kuriuos norite paimti išklotinės** dalies, ir patikrinkite, ar užsakymas rodomas.
 1. Patikrinkite, ar bet kokia papildoma įregistravimo modulyje sukonfigūruota informacija rodoma informacijos srityje.
 
 Patikrinus, kad kliento įregistravimo priemonė veikia nuo pabaigos iki pabaigos, atlikite šiuos veiksmus.
 
 1. Publikuoti įregistravimo puslapį.
-1. Jei imate tikrinti gamybos aplinkoje, atsiekite URL atsiekite URL el. laiško šablone "Paruošta paimti" tam, kad būtų rodomas mano čia nuoroda **arba** mygtukas. Tada iš naujo įkelkite šabloną.
+1. Jei imate tikrinti gamybos aplinkoje, atsiekite URL atsiekite URL el. laiško šablone "Paruošta paimti" tam, **kad** būtų rodomas mano čia nuoroda arba mygtukas. Tada iš naujo įkelkite šabloną.
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 

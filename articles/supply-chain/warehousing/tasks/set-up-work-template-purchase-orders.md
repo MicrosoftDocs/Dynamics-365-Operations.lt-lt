@@ -1,6 +1,6 @@
 ---
 title: Pirkimo užsakymų darbo šablono nustatymas
-description: Šioje temoje aprašyta, kaip nustatyti paprastą darbo šabloną, kuris bus naudojamas atidedant gautas prekes.
+description: Šiame straipsnyje aprašoma, kaip nustatyti paprasto darbo šabloną, kuris bus naudojamas išeidami gautas prekes.
 author: Mirzaab
 ms.date: 08/08/2019
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 32dbdd8243c6b37cfe0c42d2e7b06adfa32a947a
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: ee6bc896a979c326001e1596e4a463753005fabf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572294"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8877369"
 ---
 # <a name="set-up-a-work-template-for-purchase-orders"></a>Pirkimo užsakymų darbo šablono nustatymas
 
 [!include [banner](../../includes/banner.md)]
 
-Šioje temoje aprašyta, kaip nustatyti paprastą darbo šabloną, kuris bus naudojamas atidedant gautas prekes. Darbo šablonai nustato instrukcijų rinkinį, pateiktą sandėlio darbuotojui mobiliajame įrenginyje, perkeliant prekes iš gavimo srities. Šią procedūrą galite naudoti su demonstracinių duomenų įmonės USMF nurodytais duomenimis. Prieš paleisdami šį vadovą, sukurkite darbo telkinio ID. Šiame pavyzdyje naudojamas darbo telkinio ID, iškviestas iš Gaunama. Ši procedūra skirta sandėlio vadovui.
+Šiame straipsnyje aprašoma, kaip nustatyti paprasto darbo šabloną, kuris bus naudojamas išeidami gautas prekes. Darbo šablonai nustato instrukcijų rinkinį, pateiktą sandėlio darbuotojui mobiliajame įrenginyje, perkeliant prekes iš gavimo srities. Šią procedūrą galite naudoti su demonstracinių duomenų įmonės USMF nurodytais duomenimis. Prieš paleisdami šį vadovą, sukurkite darbo telkinio ID. Šiame pavyzdyje naudojamas darbo telkinio ID, iškviestas iš Gaunama. Ši procedūra skirta sandėlio vadovui.
 
 1. Naršymo srityje eikite į **Moduliai > Sandėlio valdymas > Sąranka > Darbas > Darbo šablonai**.
 2. Lauke **Darbo užsakymo tipas** pasirinkite **Pirkimo užsakymai**.

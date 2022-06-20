@@ -1,6 +1,6 @@
 ---
 title: Turinio kūrimo puslapio apžvalga
-description: Šioje temoje pateikiama „Microsoft Dynamics 365 Commerce“ kūrimo puslapio apžvalga.
+description: Šiame straipsnyje pateikiama kūrimo puslapio apžvalga Microsoft Dynamics 365 Commerce.
 author: brendans
 ms.date: 10/31/2019
 ms.topic: overview
@@ -13,19 +13,19 @@ ms.search.region: Global
 ms.author: brendans
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 68487c899edccaeff9c339d746d21b1d27b498aa
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: bc8cdbc0a521f3aa444a3af0d0230f8567729694
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984626"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855009"
 ---
 # <a name="authoring-page-overview"></a>Turinio kūrimo puslapio apžvalga
 
   
  [!include [banner](includes/banner.md)]
 
-Šioje temoje pateikiama „Microsoft Dynamics 365 Commerce“ kūrimo puslapio apžvalga.
+Šiame straipsnyje pateikiama kūrimo puslapio apžvalga Microsoft Dynamics 365 Commerce.
 
 Svetaines galima kurti siekiant patenkinti įvairius verslo poreikius. Jos gali perteikti visą įmonę, pasiūlyti vieną verslo kanalą ar būti orientuotos į konkrečią auditoriją arba auditorijos segmentą. Pavyzdžiui, drabužių gamintojas gali turėti svetainę, kurioje parodomi visi jam priklausantys prekių ženklai. Tas pats drabužių gamintojas gali turėti atskirą svetainę kiekvienam iš šių prekinių ženklų bei svetainių, skirtų prabangiems drabužiams, lauko drabužiams ir vaikų drabužiams.
 

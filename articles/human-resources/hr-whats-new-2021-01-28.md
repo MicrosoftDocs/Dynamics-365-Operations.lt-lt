@@ -1,6 +1,6 @@
 ---
 title: Kas naujo ar pasikeitusio „Dynamics 365 Human Resources“ 2021 m. sausio 28 d.
-description: Šioje temoje aprašomos funkcijos, kurios yra naujos ar pasikeitusios „Microsoft Dynamics 365 Human Resources“ 2021 m. sausio 28 d.
+description: Šiame straipsnyje aprašomos priemonės, kurios yra naujos arba pakeistos "Microsoft Dynamics 365 Human Resources " 2021 m. sausio 28 d.
 author: marcelbf
 ms.date: 01/28/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-01-28
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d59e242421b1b86c32f9009ae6ae17e0f161a2e2
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 46bbda21c3eb2b32030b93afc2a40785c22b124e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8689304"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909765"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-january-28-2021"></a>Kas naujo ar pasikeitusio „Dynamics 365 Human Resources“ 2021 m. sausio 28 d.
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Šioje temoje aprašomos naujos, pasikeitusios ar netrukus pasirodysiančios „Dynamics 365 Human Resources“ funkcijos.
+Šiame straipsnyje aprašomos priemonės, kurios yra naujos, pakeistos arba tuoj pat Dynamics 365 Human Resources.
 
 Daugiau informacijos apie mūsų atnaujinimo procesą ir grafiką žr. [Atnaujinimo procesas](hr-admin-setup-update-process.md).
 
@@ -48,10 +48,10 @@ Daugiau informacijos apie naujas funkcijas ir jų numatomas bendro pasiekiamumo 
 Toliau nurodyti klaidų ištaisymai įtraukti į šį leidimą.
 
 > [!NOTE]
-> Siekiame kuo greičiau pateikti jums šią informaciją. Galime atnaujinti šią temą, kad būtų įtraukti klaidų ištaisymai, įtraukti į komponavimo versiją publikavus šią temą.
+> Siekiame kuo greičiau pateikti jums šią informaciją. Galime atnaujinti šį straipsnį, kad būtų įtrauktos pataisos, kurios buvo sukurtas po to, kai buvo publikuotas šis straipsnis.
 
 
-| Problemos numeris | Išdavimas |  aprašymas |
+| Problemos numeris | Problema |  Aprašymas |
 | --- | --- | --- |
 | 539456 | Kalendorius rodo atostogų tipus pasviru tekstu, kai **Rodyti tik nebuvimą be išsamios informacijos** parametras įjungtas. | Kai **Rodyti tik nebuvimą be išsamios informacijos** parinktis yra įjungta, užklausos data dabar rodoma pasviru tekstu. |
 | 528907 | Prieigos suteikimas juridiniam asmeniui darbuotojo vaidmenio rezultatuose vadovams negali leisti matyti atostogų balanso veiklos darbuotojams **Mano komandos** srityje darbuotojo savitarnos paslaugose. |Nustatydami šią parinktį dabar vadovai gali ir toliau matyti atostogų balanso veiklą. |

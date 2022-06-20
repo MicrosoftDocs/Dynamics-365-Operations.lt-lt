@@ -1,6 +1,6 @@
 ---
 title: Turto pristatymas
-description: Šioje temoje pateikta turto valdyme naudojamo turto apžvalga.
+description: Šiame straipsnyje pateikiama turto valdymo turto apžvalga.
 author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 43a5646bc4a1301922781d8b083dfa709befe3dca0fad1074b5433c6e02f5c66
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: MT
+ms.openlocfilehash: ee61c43f93d68747a7095dc9317674a435553c8a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767513"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874194"
 ---
 # <a name="introduction-to-assets"></a>Turto pristatymas
 
@@ -30,9 +30,9 @@ ms.locfileid: "6767513"
 
  
 
-Šioje temoje pateikta turto valdyme naudojamo turto apžvalga. *Turtas* yra bet kokios rūšies įranga, pvz., mašina ar įrenginio dalis, kurią reikia prižiūrėti, aptarnauti ar remontuoti.
+Šiame straipsnyje pateikiama turto valdymo turto apžvalga. *Turtas* yra bet kokios rūšies įranga, pvz., mašina ar įrenginio dalis, kurią reikia prižiūrėti, aptarnauti ar remontuoti.
 
-Turtas automatiškai atnaujinamas naudojant susijusią informaciją. Pavyzdžiui, ši susijusi informacija gali būti apie naujus arba atnaujintus darbo užsakymus. Turtą galima kurti naudojant meniu elementą **Visas turtas** arba meniu elementą **Laukiantis turtas**. Šioje temoje paaiškinta, kaip kurti turtą naudojant meniu elementą **Visas turtas**. Informaciją apie turto kūrimą naudojant meniu elementą **Laukiantis turtas** žr. [Turto kūrimas pagal pirkimo užsakymus](../objects/create-objects-based-on-purchase-orders.md).
+Turtas automatiškai atnaujinamas naudojant susijusią informaciją. Pavyzdžiui, ši susijusi informacija gali būti apie naujus arba atnaujintus darbo užsakymus. Turtą galima kurti naudojant meniu elementą **Visas turtas** arba meniu elementą **Laukiantis turtas**. Šiame straipsnyje paaiškinama, kaip kurti turtą naudojant viso **turto** meniu elementą. Informaciją apie turto kūrimą naudojant meniu elementą **Laukiantis turtas** žr. [Turto kūrimas pagal pirkimo užsakymus](../objects/create-objects-based-on-purchase-orders.md).
 
 ## <a name="all-assets"></a>Visas turtas
 

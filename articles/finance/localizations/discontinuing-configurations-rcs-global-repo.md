@@ -1,6 +1,6 @@
 ---
 title: Nebenaudokite konfigūracijų RCS visuotinėje saugykloje
-description: Šioje temoje aprašoma, kaip nutraukti konfigūracijų naudojimą RCS visuotinėje saugykloje.
+description: Šiame straipsnyje aprašoma, kaip nutraukti konfigūracijų naudoti RCS visuotinėje saugykloje.
 author: JaneA07
 ms.date: 02/17/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2021-02-02
 ms.dyn365.ops.version: AX 10.0.14
-ms.openlocfilehash: 340fc96e7dfe56da9ee8d4831a5980e3e96ec3ee0f2f5a8fb2ab72f713de9737
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4121f45a95e1712f21390c317af532662846a0fc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6712175"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894817"
 ---
 # <a name="discontinue-configurations-in-the-rcs-global-repository"></a>Nebenaudokite konfigūracijų RCS visuotinėje saugykloje
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje aprašoma, kaip nutraukti konfigūracijos naudojimą RCS visuotinėje saugykloje. Anksčiau buvo galima panaikinti tik tas konfigūracijas, kurių nebereikia. Tačiau dabar išleistą konfigūraciją galima pažymėti kaip **Nebenaudojamą** RCS visuotinėje saugykloje. Naudojant šią funkciją taip pat galima atlikti nurodytus veiksmus. 
+Šiame straipsnyje aprašoma, kaip nutraukti konfigūravimą RCS visuotinėje saugykloje. Anksčiau buvo galima panaikinti tik tas konfigūracijas, kurių nebereikia. Tačiau dabar išleistą konfigūraciją galima pažymėti kaip **Nebenaudojamą** RCS visuotinėje saugykloje. Naudojant šią funkciją taip pat galima atlikti nurodytus veiksmus. 
  
  - Pateikite išankstinius pranešimus, kai konfigūracijos planuojama nebenaudoti.
  - Įtraukite taikomą informaciją apie pakeitimo konfigūraciją.
@@ -56,7 +56,7 @@ Jei norite bendrinti informaciją apie planuojamą nebenaudojimą, prieš nutrau
 
 ## <a name="finance-supports-displaying-this-information-starting-in-version-10014"></a>Finansų srityje šios informacijos rodymas palaikomas, pradedant 10.0.14 versija
 
-Pradedant nuo 10.0.14 versijos, „Dynamics 365 Finance“ palaiko nebenaudojimo informacijos rodymą. Puslapyje **Visuotinė saugykla** galima peržiūrėti naujausią su nebenaudojimu susijusią informaciją. Numatyta, kad nebenaudojamos konfigūracijos bus išfiltruojamos.
+Versijoje 10.0.14 "Dynamics 365 Finance" palaiko rodymo programos informaciją. Puslapyje **Visuotinė saugykla** galima peržiūrėti naujausią su nebenaudojimu susijusią informaciją. Numatyta, kad nebenaudojamos konfigūracijos bus išfiltruojamos.
   
 Puslapyje **Importuotos konfigūracijos** („ERSolutionTable“) rodomos konfigūracijos, kurios jau nebebuvo naudojamos jas importavus. Toms konfigūracijoms, kurios buvo nebenaudojamos po importavimo, nebenaudojimo informaciją galima sinchronizuoti vykdant užduotį **Konfigūracijų atnaujinimų importavimas**.
 

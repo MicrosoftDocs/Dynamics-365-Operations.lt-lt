@@ -1,6 +1,6 @@
 ---
 title: Planavimo optimizavimo išplečiamumas
-description: Šioje temoje aprašomas plėtimo scenarijai, palaikomų „Planning Optimization“, tvirtinimas.
+description: Šiame straipsnyje aprašomi extensibility scenarijai, kurie palaikomi planavimo optimizavime.
 author: t-benebo
 ms.date: 08/05/2020
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-07-07
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: d7e39c9ecd1dc1a101e219764e8f4457bb06ff7a
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 7d649110959e6bcfdaeb32dd53c55dbc446ed1be
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8468894"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857550"
 ---
 # <a name="planning-optimization-extensibility"></a>Planavimo optimizavimo išplečiamumas
 
 [!include [banner](../../includes/banner.md)]
 
-Šioje temoje aprašomas plėtimo scenarijai, susiję su pagrindiniu planavimu ir palaikomų „Planning Optimization“, tvirtinimas. Šios debesų kompiuterijos ieškos galimybės prieinamos „Microsoft Dynamics 365 Supply Chain Management“ versijoje 10.0.13.
+Šiame straipsnyje aprašomi extensibility scenarijai, susiję su pagrindiniu planavimu ir palaikomi planavimo optimizavime. Šios debesų kompiuterijos ieškos galimybės prieinamos „Microsoft Dynamics 365 Supply Chain Management“ versijoje 10.0.13.
 
 ## <a name="custom-processing-when-master-planning-is-completed"></a>Pasirinktinis apdorojimas, kai bendrasis planavimas baigtas
 

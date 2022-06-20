@@ -1,6 +1,6 @@
 ---
 title: Aptarnavimo objekto ryšių kūrimas
-description: Šioje temoje aprašoma, kaip sukurti aptarnavimo objekto ryšius aptarnavimo sutarčiai ir aptarnavimo užsakymui.
+description: Šiame straipsnyje aprašoma, kaip sukurti aptarnavimo sutarties ir aptarnavimo užsakymo aptarnavimo objekto ryšius.
 author: sorenva
 ms.date: 05/01/2018
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4178132b03cd146aacbcbb8bf8e1e774a161726c
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
-ms.translationtype: MT
+ms.openlocfilehash: e89039356f167ef2f06824ffee8645f74f8a2b53
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677232"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890660"
 ---
 # <a name="create-service-object-relations"></a>Aptarnavimo objekto ryšių kūrimas 
 
 [!include [banner](../includes/banner.md)]
 
 
-Šioje temoje aprašoma, kaip sukurti aptarnavimo objekto ryšius aptarnavimo sutarčiai ir aptarnavimo užsakymui. Kurdami aptarnavimo objekto ryšį, aptarnavimo objektą susiejate su aptarnavimo sutartimi arba aptarnavimo užsakymu. Kai klientas pateikia prekės, kuri yra aptarnavimo objektas, aptarnavimo užklausą, galite pasirinkti aptarnavimo objektą iš aptarnavimo objekto ryšių sąrašo.
+Šiame straipsnyje aprašoma, kaip sukurti aptarnavimo sutarties ir aptarnavimo užsakymo aptarnavimo objekto ryšius. Kurdami aptarnavimo objekto ryšį, aptarnavimo objektą susiejate su aptarnavimo sutartimi arba aptarnavimo užsakymu. Kai klientas pateikia prekės, kuri yra aptarnavimo objektas, aptarnavimo užklausą, galite pasirinkti aptarnavimo objektą iš aptarnavimo objekto ryšių sąrašo.
 
 ## <a name="create-a-service-object-relation-for-a-service-agreement"></a>Aptarnavimo objekto ryšio kūrimas aptarnavimo sutarčiai
 

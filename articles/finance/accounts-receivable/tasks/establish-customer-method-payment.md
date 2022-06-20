@@ -1,6 +1,6 @@
 ---
 title: Kliento mokėjimo būdo nustatymas
-description: Šioje temoje aiškinama, kaip sukurti mokėjimo būdą kliento mokėjimams.
+description: Šiame straipsnyje paaiškinama, kaip sukurti mokėjimo klientams būdą.
 author: ShivamPandey-msft
 ms.date: 07/31/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f9e8974ea20497124e24e95b3761317daf126839
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: f3843ce596d054263b69ccc577f3885970fe49d1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713902"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861508"
 ---
 # <a name="establish-customer-method-of-payment"></a>Kliento mokėjimo būdo nustatymas
 
 [!include [banner](../../includes/banner.md)]
 
-Šioje temoje aiškinama, kaip sukurti mokėjimo būdą kliento mokėjimams. Šioje užduotyje naudojama demonstracinė įmonė USMF.
+Šiame straipsnyje paaiškinama, kaip sukurti mokėjimo klientams būdą. Šioje užduotyje naudojama demonstracinė įmonė USMF.
 
 1. Naršymo srityje eikite į **Moduliai > Gautinos sumos > Mokėjimų sąranką > Mokėjimo būdai**.
 2. Pasirinkite **Naujas**.

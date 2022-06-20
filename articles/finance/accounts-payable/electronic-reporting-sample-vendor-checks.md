@@ -1,6 +1,6 @@
 ---
 title: Elektroninės ataskaitos tiekėjo čekių pavyzdžiai
-description: Šioje temoje pateikiama bendra informacija apie tai, kaip naudoti elektroninės ataskaitos čekių formatų pavyzdžius.
+description: Šiame straipsnyje pateikiama bendroji informacija apie tai, kaip naudoti elektroninių ataskaitų pavyzdžio čekių formatus.
 author: sunfzam
 ms.date: 06/14/2017
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 38a037903a994f6212f4ccce10e10c795eb7364d
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: d2b26a083540924d2368a298632aea90ecf95e9b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734550"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8908189"
 ---
 # <a name="electronic-reporting-sample-vendor-checks"></a>Elektroninės ataskaitos tiekėjo čekių pavyzdžiai
 
@@ -28,7 +28,7 @@ Norėdami formatuoti tiekėjo čekius, galite naudoti elektronines ataskaitas (E
 
 ## <a name="what-check-formats-are-currently-supported"></a>Kokie čekio formatai šiuo metu palaikomi?
 
-Visada turite eiti į bendrai naudojamo turto biblioteką „Microsoft Dynamics Lifecycle Services“ (LCS) ir peržiūrėti dabartinį prieinamų failų, kurių turto tipas yra **GER konfigūracija**, sąrašą. Kitame skyriuje – „Ką turiu nustatyti?“ – pateikiama nuoroda į temą, kurioje paaiškinta, kaip sukurti LCS saugyklą, kad galėtumėte peržiūrėti galimas konfigūracijas ir importuoti pasirinktas konfigūracijas.
+Visada turite eiti į bendrai naudojamo turto biblioteką „Microsoft Dynamics Lifecycle Services“ (LCS) ir peržiūrėti dabartinį prieinamų failų, kurių turto tipas yra **GER konfigūracija**, sąrašą. Kitame skyriuje "Ką reikia nustatyti?" yra saitas į straipsnį, kuriame paaiškinama, kaip sukurti LCS saugyklą, kad būtų galima peržiūrėti galimas konfigūracijas ir importuoti pasirinktas konfigūracijas.
 
 Microsoft Dynamics 365 Finansai apima pavyzdinį formatą, kuriame ant viršaus yra čekis, ir du pavedimo skyriai. Taip pat pateikiamas formato, kai čekis yra viduryje, tarp dviejų pavedimo dalių, pavyzdys. Šių formatų pavyzdžiai atitinka „Deluxe“ verslo čekių formatus.
 

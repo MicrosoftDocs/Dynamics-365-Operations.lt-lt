@@ -1,6 +1,6 @@
 ---
 title: Grąžinimų valdymo parametrai
-description: Šioje temoje aprašomas grąžinimų valdymo parametrų puslapis. Šiame puslapyje yra parametrų, darančių įtaką registravimui, būsenos naujinimams, numeracijoms ir kitai elgsenai.
+description: Šiame straipsnyje aprašomas grąžinimo valdymo parametrų puslapis. Šiame puslapyje yra parametrų, darančių įtaką registravimui, būsenos naujinimams, numeracijoms ir kitai elgsenai.
 author: sherry-zheng
 ms.date: 02/19/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 8f5c9734b2480329eed246bcbbfe3bd6e9991e0b
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 218c54d97f3ac204e8613f5efdda0cc9d713ee04
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8688997"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895531"
 ---
 # <a name="rebate-management-parameters"></a>Grąžinimų valdymo parametrai
 
@@ -45,9 +45,9 @@ Tolesnė lentelė aprašo laukelius, kurie yra prienami **Grąžinimų valdymas*
 
 ## <a name="number-sequences-tab"></a>Numeracijų skirtukas
 
-Naudokite skirtuką **Numeracija**, esantį **Grąžinimo valdymo parametrų** puslapyje, norėdami priskirti numeracijos kodus skirtingoms numeracijoms, kurias naudoja grąžinimo valdymas. Toliau pateikiamoje lentelėje aprašoma kiekvienos iš šių numeracijų paskirtis. Daugiau informacijos apie numeracijas rasite [Numeracijų apžvalga](../../fin-ops-core/fin-ops/organization-administration/number-sequence-overview.md) ir susijusiose temose.
+Naudokite skirtuką **Numeracija**, esantį **Grąžinimo valdymo parametrų** puslapyje, norėdami priskirti numeracijos kodus skirtingoms numeracijoms, kurias naudoja grąžinimo valdymas. Toliau pateikiamoje lentelėje aprašoma kiekvienos iš šių numeracijų paskirtis. Daugiau informacijos apie numeracijas ieškokite numeracijų [peržvalgoje](../../fin-ops-core/fin-ops/organization-administration/number-sequence-overview.md) ir susijusiuose straipsnius.
 
-| Nuoroda | Aprašas |
+| Nuoroda | Aprašymas |
 |---|---|
 | Grąžinimų valdymo sandoris | Numeracija priskiria unikaliąją rakto reikšmę kiekvienam grąžinimo sandoriui. Šis raktas naudojamas sandorių kūrimo metu. |
 | Grąžinimų valdymo numeris | Numeracija priskiria unikaliąją rakto reikšmę kiekvienam grąžinimui. Šis raktas yra naudojamas grąžinimo santykiams identifikuoti. |

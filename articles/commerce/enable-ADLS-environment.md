@@ -1,6 +1,6 @@
 ---
 title: „Azure Data Lake Storage“ įjungimas „Dynamics 365 Commerce“ aplinkoje
-description: Šioje temoje pateikiamos instrukcijos, kaip „Azure Data Lake Storage“ Gen 2 sprendimą „Dynamics 365 Commerce“ prie aplinkos objektų saugyklos. Tai yra būtinas žingsnis prieš įgalinant produkto rekomendacijas.
+description: Šiame straipsnyje pateikiamos instrukcijos, kaip prijungti " Azure Data Lake Storage Gen 2" sprendimą prie Dynamics 365 Commerce aplinkos objektų saugyklos. Tai yra būtinas žingsnis prieš įgalinant produkto rekomendacijas.
 author: bebeale
 ms.date: 08/31/2020
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: c96c29a4d9639b02e6a60ad938b7e06f7d500c68
-ms.sourcegitcommit: 98061a5d096ff4b9078d1849e2ce6dd7116408d1
+ms.openlocfilehash: 6e0c84dd6b173a111b70a8adb6036be946149f7c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/01/2021
-ms.locfileid: "7466297"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885176"
 ---
 # <a name="enable-azure-data-lake-storage-in-a-dynamics-365-commerce-environment"></a>„Azure Data Lake Storage“ įjungimas „Dynamics 365 Commerce“ aplinkoje
 
 [!include [banner](includes/banner.md)]
 
-Šioje temoje pateikiamos instrukcijos, kaip „Azure Data Lake Storage“ Gen 2 sprendimą „Dynamics 365 Commerce“ prie aplinkos objektų saugyklos. Tai yra būtinas žingsnis prieš įgalinant produkto rekomendacijas.
+Šiame straipsnyje pateikiamos instrukcijos, kaip prijungti Azure Data Lake Storage Gen2 sprendimą prie Dynamics 365 Commerce aplinkos objektų saugyklos. Tai yra būtinas žingsnis prieš įgalinant produkto rekomendacijas.
 
 Sprendimas – duomenys, reikalingi apskaičiuoti rekomendacijas, produktus ir „Dynamics 365 Commerce“ operacijas, sujungiami aplinkos objektų saugykloje. Norint, kad šiuos duomenis būtų galima pasiekti naudojant kitas „Dynamics 365“ tarnybas, pvz., duomenų analizę, verslo įžvalgas ir personalizuotas rekomendacijas, reikia sujungti aplinką su klientui priklausančiu „Gen 2“ sprendimu „Azure Data Lake Storage“.
 

@@ -1,6 +1,6 @@
 ---
 title: Įrašyti rodiniai
-description: Šioje temoje aprašoma, kaip naudotis įrašytų rodinių funkcijomis.
+description: Šiame straipsnyje aprašoma, kaip naudoti įrašytas rodinių priemones.
 author: jasongre
 ms.date: 04/25/2022
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: Platform update 28
-ms.openlocfilehash: e10137ff5d11ed06c32613e601e2fa7423e270ac
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.openlocfilehash: 1218497bbb112c9a9ebeaa4cabdcb9314c604a7f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8644793"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845419"
 ---
 # <a name="saved-views"></a>Įrašyti rodiniai
 
@@ -196,7 +196,7 @@ Toliau išvardyti su visų publikuotų puslapio rodinių sąrašu galimi atlikti
 
 ## <a name="managing-views-globally"></a>Rodinių valdymas visame pasaulyje
 
-Nors kai kurie valdymo pajėgumai matosi kiekviename puslapyje, kaip nurodyta šioje temoje,, **sistemos administratoriai** ir **įrašyti rodinio administratoriai** sistemoje gali tvarkyti rodinius labiau visapusiškai naudojant **Personalizavimas** puslapį. Detaliau tyrinėjant, šiame puslapyje yra šie skyriai ir funkcijos: 
+Nors kai kurios valdymo galimybės yra išksaugotos kiekviename puslapyje, kaip nurodyta šiame straipsnyje, **·** **·** **sistemos administratoriai ir įrašyti rodinio administratoriai gali tvarkyti sistemos rodinius kelis kartus personalizavimo** puslapyje. Detaliau tyrinėjant, šiame puslapyje yra šie skyriai ir funkcijos: 
 
 - **Publikuoti rodiniai** – šiame skyriuje išvardyti visi jūsų organizacijai publikuoti rodiniai. Iš čia galite iš naujo publikuoti rodinį po to, kai pakoreguojate saugos vaidmenis arba juridinius asmenis, į kuriuos rodinys orientuotas. Galite taip pat eksportuoti, pašalinti ar nepublikuoti peržiūrų. Spustelėję **Įrašyti kaip asmeninį**, galite sukurti rodinio asmeninę kopiją, kad galėtumėte jį atnaujinti arba geriau suprasti jo turinį. 
 - **Nepublikuotos peržiūros** – Šis skyrius išvardyja visas organizacijos peržiūras jūsų sistemoje, kurios šiuo metu nėra publikuotos. Šiso peržiūros dažniausiai patenka į sistemą per importavimo savybes. Galite publikuoti, eksportuoti ar naikinti šiuos rodinius. Dėl **Greito publikavimas** veiksmo, kuris buvo pridėtas 10.0.12 versijoje, šiame skyriuje galima publikuoti kelis rodinius vienu veiksmu, naudojant esamą saugos vaidmenį ir juridinio asmens konfigūracijas. Spustelėję **Įrašyti kaip asmeninį**, galite sukurti šių rodinių asmenines kopijas, kad geriau suprastumėte, kaip veikia jų turinys.

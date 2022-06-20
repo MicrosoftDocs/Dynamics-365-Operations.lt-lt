@@ -1,6 +1,6 @@
 ---
-title: Konfigūruoti interneto parduotuves
-description: Šiame straipsnyje pateikiami saitai į temas, kurios padės centralizuotai konfigūruoti ir valdyti internetinę parduotuvę.
+title: Interneto parduotuvių konfigūravimas
+description: Šiame straipsnyje pateikiami saitai į straipsnius, kurie padės jums centralizuotai konfigūruoti ir tvarkyti interneto parduotuvę.
 author: kfend
 ms.date: 06/20/2017
 ms.topic: article
@@ -14,24 +14,24 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 87607e2c42ee67d62a7ce2e87744e9d9143dcf81
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: c8a5b13189eb93d4df81a427a932b81ab8d830be
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734109"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861884"
 ---
-# <a name="configure-online-stores"></a>Konfigūruoti interneto parduotuves
+# <a name="configure-online-stores"></a>Interneto parduotuvių konfigūravimas
 
 [!include [banner](../includes/banner.md)]
 
-Šiame straipsnyje pateikiami saitai į temas, kurios padės centralizuotai konfigūruoti ir valdyti internetinę parduotuvę.
+Šiame straipsnyje pateikiami saitai į straipsnius, kurie padės jums centralizuotai konfigūruoti ir tvarkyti interneto parduotuvę.
 
-Toliau pateiktoje lentelėje išvardytos temos padės konfigūruoti prekybos komponentus ir kliento prekybos interneto parduotuvę.
+Šioje lentelėje pateikti straipsniai padeda konfigūruoti "Commerce" komponentus ir internetinę parduotuvę kliento programoje.
 
 ## <a name="configure-an-online-store"></a>Interneto parduotuvės konfigūravimas
 
-| Užduotis                                                | Išsami informacija                                                                                                                                                                                                                                                                                                                                                   | Temos                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| Užduotis                                                | Informacija                                                                                                                                                                                                                                                                                                                                                   | Straipsniai                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 |-----------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Konfigūruoti komponentus.                        | Nustatykite ir tvarkykite prekybos operacijų informaciją. Ši informacija apima parduotuves, mokesčius, produktus, dovanų korteles, akcijas ir nuolaidas.                                                                                                                                                                                                          | [„Retail“ nustatymas ir priežiūra](/dynamicsax-2012/appuser-itpro/setting-up-and-maintaining-retail) („TechNet“ turinys, skirtas „Microsoft Dynamics AX 2012“)                                                                                                                                                                                                                                                                                          |
 | Sukonfigūruokite prekybos kanalų naršymo hierarchiją.    | Sukurkite prekybos kanalų naršymo kategorijų hierarchiją, kad nustatytumėte produktų, siūlomų interneto parduotuvėje, kategorijos struktūrą. Nurodykite kategorijų hierarchiją ir priskirkite produktus, produktų atributų grupes ir atributų reikšmes kategorijoms. Tada priskirkite kategorijų hierarchiją interneto parduotuvei.                            | [Mažmeninės prekybos hierarchijos nustatymas](/dynamicsax-2012/appuser-itpro/set-up-a-retail-hierarchy)</br> („TechNet“ turinys, skirtas AX 2012)</br> [Atributų ir atributų tipų nustatymas](/dynamicsax-2012/appuser-itpro/set-up-attributes-and-attribute-types) („TechNet“ turinys, skirtas AX 2012)</br> [Mažmeninės prekybos atributų grupių nustatymas](/dynamicsax-2012/appuser-itpro/set-up-retail-attribute-groups) („TechNet“ turinys, skirtas AX 2012) |
@@ -41,7 +41,7 @@ Toliau pateiktoje lentelėje išvardytos temos padės konfigūruoti prekybos kom
 
 ## <a name="configure-online-store-products"></a>Internetinės parduotuvės produktų konfigūravimas
 
-| Užduotis                                 | Informacija                                                                                                                                           | Temos                                                                                                                                                                                                                                                                            |
+| Užduotis                                 | Informacija                                                                                                                                           | Straipsniai                                                                                                                                                                                                                                                                            |
 |--------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Įtraukite asortimentus į internetinę parduotuvę. | Įtraukite asortimentus, kurie apima produktus, siūlomus internetinėje parduotuvėje.                                                                  | [Internetinės parduotuvės nustatymas](/dynamicsax-2012/appuser-itpro/set-up-an-online-store) („TechNet“ turinys, skirtas AX 2012)                                                                                                                                              |
 | Tvarkykite katalogus.                     | Naudokite produktų katalogus, kad nustatytumėte produktus, kuriuos norite siūlyti savo parduotuvėse.                                                              | [Pagrindinės užduotys: mažmeninės prekybos prekių katalogų kūrimas](/dynamicsax-2012/appuser-itpro/key-tasks-create-retail-product-catalogs) („TechNet“ turinys, skirtas „AX 2012“)                                                                                                                           |
@@ -52,7 +52,7 @@ Toliau pateiktoje lentelėje išvardytos temos padės konfigūruoti prekybos kom
 
 ## <a name="set-up-data-exchange-between-commerce-and-the-online-store"></a>Nustatykite prekybos ir interneto parduotuvės duomenų mainus
 
-| Užduotis                                 | Išsami informacija                                                                                                                               | Temos                                                                                                                                                                                                                                                                                  |
+| Užduotis                                 | Informacija                                                                                                                               | Straipsniai                                                                                                                                                                                                                                                                                  |
 |--------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Nustatykite kanalų integravimo profilius. | Profiliai suteikia galimybę komponentams palaikyti tarpusavio ryšį. Nustatykite profilius prieš konfigūruodami duomenų mainų parametrus. | [Realiojo laiko paslaugos profilio nustatymas](/dynamicsax-2012/appuser-itpro/set-up-a-real-time-service-profile) („TechNet“ turinys, skirtas AX 2012)</br> [Realiojo laiko kanalo profilio nustatymas](/dynamicsax-2012/appuser-itpro/set-up-a-channel-profile) („TechNet“ turinys, skirtas AX 2012) |
 

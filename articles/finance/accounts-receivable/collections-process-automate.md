@@ -1,6 +1,6 @@
 ---
-title: Mokėjimų priežiūros proceso automatizavimas
-description: Šioje temoje aprašomas mokėjimų priežiūros proceso strategijų, kurios automatiškai identifikuoja klientų SF, kurioms reikalingas priminimas el. paštu, mokėjimų veikla ar priminimo laiškas, kuris bus išsiųstas klientui, nustatymo procesas.
+title: Surinkimo proceso automatizavimas
+description: Šiame straipsnyje aprašomas mokėjimų priežiūros proceso strategijų, kurios automatiškai identifikuoja kliento SF, kurioms būtinas priminimas el. paštu, priminimo veikla arba priminimo laiškas, kuris turi būti siunčiamas klientui, nustatymo procesas.
 author: JodiChristiansen
 ms.date: 03/12/2021
 ms.topic: article
@@ -8,23 +8,23 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CustomerCollectionManagerWorkspace
 audience: Application User, IT Pro
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-08-26
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 59db852024faf457db7ac145b67619b31555aaf2
-ms.sourcegitcommit: 3f6cbf4fcbe0458b1515c98a1276b5d875c7eda7
+ms.openlocfilehash: 9ec749db197b4d04ee2e99ac7a16f4f2120c6707
+ms.sourcegitcommit: 427fe14824a9d937661ae21b9e9574be2bc9360b
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "7486874"
+ms.lasthandoff: 06/09/2022
+ms.locfileid: "8946184"
 ---
 # <a name="collections-process-automation"></a>Surinkimo proceso automatizavimas
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje aprašomas mokėjimų priežiūros proceso strategijų, kurios automatiškai identifikuoja klientų SF, kurioms reikalingas priminimas el. paštu, mokėjimų veikla (pvz., telefono skambutis) ar priminimo laiškas, kuris bus išsiųstas klientui, nustatymo procesas. 
+Šiame straipsnyje aprašomas mokėjimų priežiūros proceso strategijų, kurios automatiškai identifikuoja kliento SF, kurioms reikalingas priminimas el. paštu, priminimo veikla (pvz., telefono skambutis) arba priminimo laiškas, kuris turi būti siunčiamas klientui, nustatymo procesas. 
 
 Organizacijos dažnai išleidžia daug laiko tirdamos suskirstytų pagal terminus balansų ataskaitas, klientų sąskaitas ir atviras SF, kad sužinotų, su kuriais klientais reikėtų susisiekti dėl atviros SF ar sąskaitos balanso. Šie tyrimai užima laiką, kurį mokėjimų priežiūros agentas galėtų praleisti bendraudamas su klientais, kad būtų surinkti pasibaigusio termino balansai, ar spręsdamas su SF susijusius konfliktus. Mokėjimų priežiūros proceso automatizavimas leidžia nustatyti strategija pagrįstą jūsų mokėjimų priežiūros proceso metodą. Tai padeda nuosekliai taikyti mokėjimų priežiūros veiklas pateikiant tinkintus priminimus el. paštu arba suprogramuotą priminimo laiškų siuntimo procesą. 
 

@@ -1,6 +1,6 @@
 ---
 title: Įdėtos trečiosios šalies programėlės
-description: Šioje temoje aiškinama, kaip įdėti trečiosios šalies programas siekiant padidinti produkto funkcijų skaičių.
+description: Šiame straipsnyje paaiškinama, kaip įdėti trečiųjų šalių programėles, kad būtų padidintas produkto funkcionalumas.
 author: jasongre
 ms.date: 09/13/2021
 ms.topic: article
@@ -13,20 +13,20 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2021-04-30
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 89f101bcf33080f6a73664fe7c3fe6719de04a4e
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
+ms.openlocfilehash: 3c07befc7150ff0a121fd3aaa0b5233df9f431e5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7488239"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868614"
 ---
 # <a name="embed-third-party-apps"></a>Įdėtos trečiosios šalies programėlės
 
 [!include [banner](../includes/banner.md)]
 
-Daugelis klientų verslui vykdyti naudoja įvairias programas. Kai kurios iš šių programų yra trečiųjų šalių žiniatinklio programėlės, kurios veikia kartu su „Finance and Operations“ programėle. Norėdami užtikrinti, kad vartotojas veiktų sklandžiai, galite naudoti viso puslapio programėlių funkciją, kad jos būtų įdėtos tiesiogiai į programėles (jei trečiosios šalies programėlės leidžia **save** „Finance and Operations“ įdėti). Tokiu būdu vartotojai gali pasiekti svetaines ir programėles, kurių jiems reikia, kad jiems nereikia perjungti skirtukų ar langų.
+Daugelis klientų verslui vykdyti naudoja įvairias programas. Kai kurios iš šių programų yra trečiųjų šalių žiniatinklio programos, kurios veikia kartu su finansų ir operacijų programėle. Norėdami užtikrinti išsamesnę vartotojų patirtį, **galite** naudoti visų puslapių programėlių funkciją, kad jos būtų tiesiogiai įdėtos į jūsų finansų ir operacijų programėles (jei trečiosios šalies programėlės leidžia save įdėtuosius). Tokiu būdu vartotojai gali pasiekti svetaines ir programėles, kurių jiems reikia, kad jiems nereikia perjungti skirtukų ar langų.
 
-Kad būtų galima į produktą įdėti trečiųjų šalių programėles, funkcijų valdymo funkcija turi įjungti **viso puslapio programėles**. Tada, norėdami įdėti trečiosios šalies programą ar svetainę, galite naudoti vieną iš toliau nurodytų metodų. Šie metodai yra analoginiai metodams, kurie naudojami įdėtoms žiniatinklio programoms iš „Microsoft Power Apps“ į „Finance and Operations“ programėles.
+Kad būtų galima į produktą įdėti trečiųjų šalių programėles, funkcijų valdymo funkcija turi įjungti **viso puslapio programėles**. Tada, norėdami įdėti trečiosios šalies programą ar svetainę, galite naudoti vieną iš toliau nurodytų metodų. Šie metodai yra analoginiai metodams, kurie naudojami įterpti lauko programėles iš finansų Microsoft Power Apps ir operacijų programėlių.
 
 - Į esamą puslapį įdėti programą ar svetainę kaip naują skirtuko puslapį (pagrindinį tabuliacijos skirtuką, „FastTab", „uždavimo" arba darbo srities skyrių).
 - Naudodami skelbimų skelbimų sritį sukurkite naują programos arba svetainės viso puslapio patirtį.
@@ -53,14 +53,14 @@ Kad būtų galima į produktą įdėti trečiųjų šalių programėles, funkcij
     > - Programa arba žiniatinklio svetainė turi būti sukonfigūruota taip, kad galėtų būti įdėtoji.
 
 6. Pasirinkite **Įrašyti**, kad į puslapį įdėtumėte programą. Programa pridedama kaip paskutinis skirtukas arba grupės skyrius.
-7. Patvirtinkite, kad programa atrodo taip, kaip tikėtasi. Jei programa nėra atvaizduota, žr. toliau šios temos [skyriuje](#troubleshooting) Trikčių diagnostika.
+7. Patvirtinkite, kad programa atrodo taip, kaip tikėtasi. Jei programa nėra atvaizduota, toliau šiame straipsnyje [žr](#troubleshooting). skyriuje Trikčių šalinimas.
 8. Atidarykite rodinio išrinkiklį ir pasirinkite Įrašyti (jei programa turi būti susieta su dabartiniu rodiniu) arba Įrašyti kaip (norėdami įrašyti **programą** į kitą **rodinį**).
 
     Jei puslapyje nėra rodinio išrinkiklis (pvz., jei puslapis yra dialogo langas arba darbo sritis), šį veiksmą galite praleisti.
 
 ## <a name="embed-a-website-as-a-full-page-experience-from-the-dashboard"></a>Svetainė įdėta kaip viso puslapio patirtis iš skelbimų skelbimų lentos
 
-Šią procedūrą naudokite, jei programa, kurią norite įdėti, nėra susijusi su esamu puslapiu arba jei norite, kad programai programoje būtų rodomas visas „Finance and Operations“ puslapis.
+Šią procedūrą naudokite, jei programa, kurią norite įdėti, nėra susijusi su esamu puslapiu arba jei norite, kad programa, skirta finansų ir operacijų programai, būtų naudojama visame puslapyje.
 
 1. Atidarykite numatytąją ataskaitų sritį.
 2. Pasirinkite ir laikykite (arba spustelėkite dešiniuoju pelės mygtuku) ataskaitų sritį, pasirinkite **Pritaikyti asmeniniams poreikiams**, tada pasirinkite **Įtraukti puslapį**.
@@ -75,7 +75,7 @@ Kad būtų galima į produktą įdėti trečiųjų šalių programėles, funkcij
     > - Programa arba žiniatinklio svetainė turi būti sukonfigūruota taip, kad galėtų būti įdėtoji.
 
 5. Norėdami **įtraukti programą į** skelbimų skelbimų skelbimų sritį kaip naują išklotąją sritį, pasirinkite Įrašyti.
-6. Pasirinkite naują skelbimų lentos išklotinę programą ir patvirtinkite, kad programa atrodo taip, kaip tikėtasi. Jei programa neatvaizduojama, žr. toliau šios temos skyrių [Trikčių šalinimas](#troubleshooting).
+6. Pasirinkite naują skelbimų lentos išklotinę programą ir patvirtinkite, kad programa atrodo taip, kaip tikėtasi. Jei programa nėra atvaizduota, toliau šiame straipsnyje [žr](#troubleshooting). trikčių diagnostikos skyrių.
 
 ## <a name="sharing-embedded-apps"></a>Įdėtųjų programų bendrinimas
 
@@ -89,7 +89,7 @@ Kai įdėjote programą naudodami vieną iš ankstesniuose skyriuose aprašytų 
 
 ## <a name="viewing-embedded-apps"></a>Įdėtųjų programų peržiūra
 
-Norėdami įdėtąją drobės programą peržiūrėti „Finance and Operations“ programų puslapyje, tiesiog atidarykite puslapį, kuriame yra įdėtoji programa. Atminkite, kad kai kuriuose puslapiuose, įdėtas programas galima pasiekti naudojant mygtuką **„Power Apps”**, esantį standartinėje veiksmų srityje. Taip pat jos gali atsirasti puslapyje tiesiogiai kaip naujas skirtukas, „FastTab“, mentė arba nauja skiltis darbo srityje.
+Norėdami peržiūrėti finansų ir operacijų programėlių puslapyje įdėtąją programą, atidarykite puslapį, kuriame yra įdėtoji programa. Atminkite, kad kai kuriuose puslapiuose, įdėtas programas galima pasiekti naudojant mygtuką **„Power Apps”**, esantį standartinėje veiksmų srityje. Taip pat jos gali atsirasti puslapyje tiesiogiai kaip naujas skirtukas, „FastTab“, mentė arba nauja skiltis darbo srityje.
 
 ## <a name="editing-or-removing-embedded-apps"></a>Įdėtųjų programėlių redagavimas arba šalinimas
 
@@ -126,6 +126,6 @@ Jei svetainė nebus tinkamai atvaizduota po to, kai ji bus įdėta į „Finance
 
 ### <a name="developer-modeling-a-website-on-a-form"></a>[Programuotojas] Svetainės modeliavimas formoje
 
-Nors ši tema skirta įdėtoms trečiųjų šalių programėles ar svetaines naudojant personalizavimą, programuotojai taip pat gali įtraukti jas į formą naudodami „Visual Studio“ programavimo patirtį. Tiesiog įtraukite **WebsiteHostControl** valdiklį į formą. Valdiklyje galimos metaduomenų ypatybės, kurios prieinamos ir suteikia tų pačių galimybių kaip ir personalizavimo funkcijos.
+Nors šis straipsnis yra skirtas įdėti trečiųjų šalių programėles ar svetaines Visual Studio naudojant personalizavimą, programuotojai taip pat gali įtraukti jas į formą naudodami programavimo patirtį. Tiesiog įtraukite **WebsiteHostControl** valdiklį į formą. Valdiklyje galimos metaduomenų ypatybės, kurios prieinamos ir suteikia tų pačių galimybių kaip ir personalizavimo funkcijos.
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

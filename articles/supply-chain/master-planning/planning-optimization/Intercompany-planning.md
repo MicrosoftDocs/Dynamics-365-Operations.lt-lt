@@ -1,6 +1,6 @@
 ---
 title: Vidinės įmonės planavimas
-description: Šiame skyriuje paaiškintas vidinės įmonės planavimas ir tai, kaip konfigūruoti jos planavimą su „Planning Optimization“ „Microsoft Dynamics 365 Supply Chain Management“.
+description: Šiame straipsnyje aprašomas vidinės įmonės planavimas ir paaiškinama, kaip konfigūruoti vidinės įmonės planavimą naudojant "Microsoft" planavimo optimizavimą Dynamics 365 Supply Chain Management.
 author: t-benebo
 ms.date: 12/02/2020
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: de9f9679bfaf9491c6b69c11448306627c8a42f9
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: c13ecca9523707ef3df5fdb97dc4cbd79478258d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8468502"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850676"
 ---
 # <a name="intercompany-planning"></a>Vidinės įmonės planavimas
 
@@ -29,9 +29,9 @@ ms.locfileid: "8468502"
 
 Kai kurios organizacijose, logistinės operacijos priklauso nuo kitų juridinių asmenų (įmonių) organizacijos viduje. Šie veiksmai tvarkomi naudojant vidinės įmonės pardavimus ir pirkimus, nes kiekvienas juridinis subjektas yra atskiras sąskaitų planas.
 
-Šiame skyriuje paaiškintas vidinės įmonės planavimas ir tai, kaip konfigūruoti jos planavimą su „Planning Optimization“ „Microsoft Dynamics 365 Supply Chain Management“.
+Šiame straipsnyje aprašomas vidinės įmonės planavimas ir paaiškinama, kaip konfigūruoti vidinės įmonės planavimą naudojant "Microsoft" planavimo optimizavimą Dynamics 365 Supply Chain Management.
 
-Šioje temoje naudojami tolesnės svarbios vidinės įmonės sąvokos:
+Šiame straipsnyje naudojamos šios svarbios vidinės įmonės sąlygos:
 
 - **Prieš srovę** – Atitinkama nuoroda firmoje ar tiekimo grandinėje. Jis rodo judėjimą žaliavų tiekėjo kryptimi.
 - **Pagal srovę** – Atitinkama nuoroda firmoje ar tiekimo grandinėje. Jis rodo judėjimą kliento kryptimi.

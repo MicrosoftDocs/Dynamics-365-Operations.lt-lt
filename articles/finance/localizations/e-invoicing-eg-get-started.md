@@ -1,6 +1,6 @@
 ---
 title: Elektroninis SF išrašymas Egipto
-description: Šioje temoje pateikiama informacija, kuri padės jums pradėti nuo elektroninio SF išrašymo Egipto Microsoft Dynamics 365 finansuose ir Dynamics 365 Supply Chain Management.
+description: Šiame straipsnyje pateikiama informacija, kuri padės jums pradėti nuo elektroninio SF išrašymo Egipto Microsoft Dynamics 365 finansuose ir Dynamics 365 Supply Chain Management.
 author: gionoder
 ms.date: 02/09/2022
 ms.topic: article
@@ -17,22 +17,22 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: e21c4ce4d676c3194665672a078dc1e3d0492799
-ms.sourcegitcommit: 5f7177b9ab192b5a6554bfc2f285f7cf0b046264
+ms.openlocfilehash: c2a46ef938c5dee62c0d0acd1648584df344c81a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/30/2022
-ms.locfileid: "8661728"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904418"
 ---
 # <a name="electronic-invoicing-for-egypt"></a>Elektroninis SF išrašymas Egipto
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje pateikiama informacija, kuri padės jums pradėti naudotis elektroninių SF išrašymo priedu Egiptui. Tai padės jums atlikti konfigūravimo veiksmus, kurie priklauso nuo šalies kontrolės konfigūracijos tarnybos (RCS). Šie veiksmai papildo veiksmus, aprašytus nustatyti elektroninių [SF išrašymą](e-invoicing-set-up-overview.md).
+Šiame straipsnyje pateikiama informacija, kuri padės jums pradėti nuo Elektroninio SF išrašymo Egipto. Tai padės jums atlikti konfigūravimo veiksmus, kurie priklauso nuo šalies kontrolės konfigūracijos tarnybos (RCS). Šie veiksmai papildo veiksmus, aprašytus nustatyti elektroninių [SF išrašymą](e-invoicing-set-up-overview.md).
 
 ## <a name="prerequisites"></a>Būtinieji komponentai
 
-Prieš pradėdami šioje temoje nurodytas procedūras, atlikite šiuos būtinuosius komponentus:
+Prieš pradėdami šiame straipsnyje nurodytas procedūras, atlikite šiuos būtinuosius komponentus:
 
 - Susipažinti su elektroninių SF išrašymu, kaip aprašyta elektroninių SF [išrašymo apžvalgoje](e-invoicing-service-overview.md).
 - Registruoti RCS ir nustatyti elektroninių SF išrašymą. Daugiau informacijos ieškokite šiose temose:

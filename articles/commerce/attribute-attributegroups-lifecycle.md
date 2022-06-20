@@ -1,6 +1,6 @@
 ---
 title: Atributų ir atributų grupių tvarkymas
-description: Šioje temoje aprašyta, kaip naudoti atributus norint pateikti būdą, kaip apibūdinti produktą ir jo charakteristikas, naudojant vartotojo nustatytus laukus.
+description: Šiame straipsnyje aprašoma, kaip naudoti atributus, siekiant pateikti produkto ir jo charakteristikų aprašą naudojant vartotojo apibrėžtus laukus.
 author: ashishmsft
 ms.date: 04/28/2018
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application pdate 5, AX 8.0
-ms.openlocfilehash: b3960f0877bdf68dd2f511ad283961b2a92db6a60078e84be55f071a00eae927
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cd74cb7795366bdca80e47d79a9591af69a16daf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727659"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876669"
 ---
 # <a name="manage-attributes-and-attribute-groups"></a>Atributų ir atributų grupių tvarkymas
 
@@ -85,7 +85,7 @@ Atributai pagrįsti *atributų tipais*. Atributo tipas identifikuoja duomenų, k
 
 *Atributų metaduomenys* leidžia pasirinkti parinktis, kad galėtumėte nurodyti, kaip turėtų veikti kiekvieno produkto atributai. Pavyzdžiui, galite nurodyti, ar atributai reikalingi, ar juos galima naudoti ieškant ir ar juos galima naudoti kaip filtrą.
 
-Produktų atributų metaduomenų parametrų galima nepaisyti kanalo lygiu. Ši galimybė bus aptarta toliau šioje temoje.
+Produktų atributų metaduomenų parametrų galima nepaisyti kanalo lygiu. Šis pajėgumas bus aptartas vėliau šiame straipsnyje.
 
 Galbūt pastebėjote, kad puslapyje **Atributai** pateiktos parinktys, susijusios su atributų metaduomenimis. Dalyje **EKA atributų metaduomenys** esanti parinktis **Galima patikslinti** turi įtakos atributų reikšmių veikimui elektroniniame kasos aparate (EKA) arba tam, kaip sistema tas atributų reikšmes apdoroja. EKA bus rodomi tik tie tikslintini ar filtruotini atributai, kuriems parinktį **Galima patikslinti** galite nustatyti kaip **Taip**.
 

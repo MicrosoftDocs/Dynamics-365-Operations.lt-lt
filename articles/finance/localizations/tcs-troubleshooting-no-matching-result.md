@@ -1,6 +1,6 @@
 ---
-title: Nerasta atitinkančių rezultatų
-description: Šioje temoje paaiškinama, kaip atlikti trikčių šalinimo klaidą "Nepavyko rasti sutampančių rezultatų" mokesčių skaičiavimo serijosvce.
+title: Gretinimo rezultatų nerasta
+description: Šiame straipsnyje paaiškinama, kaip šalinti "Rezultato atitikimo nepavyko rasti" klaidą mokesčių skaičiavimo serijosvce.
 author: hangwan
 ms.date: 03/25/2022
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: hangwan
 ms.search.validFrom: 03/23/2022
 ms.dyn365.ops.version: Version 10.0.21
-ms.openlocfilehash: c1a343b0b74645d40b0a2582749968cc0a56afd7
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.openlocfilehash: d3bbc76741fdd018d1b2987538b8de7f6d92ee53
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8648153"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845150"
 ---
-# <a name="no-matching-result-could-be-found"></a>Nerasta atitinkančių rezultatų
+# <a name="no-matching-result-could-be-found"></a>Gretinimo rezultatų nerasta
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje paaiškinami trikčių diagnostikos veiksmai, kuriuos galite atlikti, jei mokesčių skaičiavimo paslaugoje gaunate klaidą "Atitinkančių rezultatų nerasta".
+Šiame straipsnyje paaiškinami trikčių diagnostikos veiksmai, kuriuos galite atlikti, jei mokesčių skaičiavimo paslaugoje gaunate klaidą "Atitinkančių rezultatų nerasta".
 
 ## <a name="symptom"></a>Požymis
 
@@ -102,7 +102,7 @@ Problema kyla, kai reguliavimo konfigūracijos tarnybos (RCS) funkcijos nustatym
     | Žurnalas                 |                     |                           | Grupė A   |
     | Pardavimas                   |                     | 30160                     | Grupė B   |
 
-    Pagal mokesčių tarnybos apskaičiavimo įvestį, **·** **verslo** proceso vertė antraštėje yra Pardavimas, **·** **o siuntimo iš pašto kodo vertė antraštėje yra 30159**. Ši įvestis pagrįsta RCS taikomumo taisyklių nustatymu. Kadangi nėra atitinkamos eilutės, įvyksta klaida.
+    Pagal mokesčių tarnybos apskaičiavimo įvestį, **·** **verslo** proceso vertė antraštėje yra Pardavimas, **·** **o siuntimo iš pašto kodo vertė antraštėje yra 30159.** Ši įvestis pagrįsta RCS taikomumo taisyklių nustatymu. Kadangi nėra atitinkamos eilutės, įvyksta klaida.
 
     > [!NOTE]
     > Jei pritaikymo taisyklės vertė tuščia, taisyklė taikoma bet kuriai vertei.

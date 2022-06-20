@@ -1,6 +1,6 @@
 ---
 title: Finansinių ataskaitų apžvalga
-description: Šioje temoje aprašoma, kur gauti prieigą prie Microsoft Dynamics finansinių ataskaitų iš 365 finansų ir kaip naudoti finansinių ataskaitų galimybes.
+description: Šiame straipsnyje aprašoma, kur gauti prieigą prie finansinių ataskaitų Microsoft Dynamics naudojant "365" finansus ir kaip naudoti finansinių ataskaitų galimybes.
 author: aprilolson
 ms.date: 03/31/2022
 ms.topic: article
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8a209390a8424e2ec3d6654b54b36e36fcd349b3
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 3b09adc738ac36625436e5cc3197e79603fff9b8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8721905"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853415"
 ---
 # <a name="get-started-with-financial-reporting"></a>Pradėkite naudoti finansines ataskaitas 
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje paaiškinama, kur galima pasiekti „Financial Reporting” ir kaip naudoti „Financial Reporting” galimybes. Ji taip pat apima pateikiamų numatytųjų finansinių ataskaitų aprašymą.
+Šiame straipsnyje aprašoma, kur pasiekti finansines ataskaitas ir kaip naudoti finansinių ataskaitų galimybes. Ji taip pat apima pateikiamų numatytųjų finansinių ataskaitų aprašymą.
 
 ## <a name="accessing-financial-reporting"></a>Prieiga prie finansinių ataskaitų
 

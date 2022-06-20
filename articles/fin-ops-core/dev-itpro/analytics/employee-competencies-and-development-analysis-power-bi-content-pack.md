@@ -1,6 +1,6 @@
 ---
 title: Darbuotojų kompetencijų ir tobulinimo „Power BI“ turinys
-description: Šioje temoje aprašomas „Power BI“ turinys Darbuotojo kompetencijos ir tobulėjimas.
+description: Šiame straipsnyje aprašomos darbuotojo kompetencijos ir programavimo Power BI turinys.
 author: jcart1106
 ms.date: 12/19/2017
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 572f6bcfa202995d90080e1a31476122f7ec23d71214d5ff0dd44ed919859c57
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8fee4d98a3e20fa268d6c3539db09e09a7861a2b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6726314"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8851022"
 ---
 # <a name="employee-competencies-and-development-power-bi-content"></a>Darbuotojų kompetencijų ir tobulinimo „Power BI“ turinys
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje aprašomas „Power BI“ turinys Darbuotojo kompetencijos ir tobulėjimas. 
+Šiame straipsnyje aprašomos darbuotojo kompetencijos ir programavimo Power BI turinys. 
 
 ## <a name="reports-that-are-included-in-the-content-pack"></a>Į turinio paketą įtrauktos ataskaitos
 Prijungus turinio paketą prie duomenų, ataskaitose rodomi jūsų organizacijos duomenys. Jei niekada nenaudojote „Microsoft Power BI“, daugiau apie tai galite sužinoti temoje [„Power BI“ mokymosi vedlio puslapis](https://powerbi.microsoft.com/guided-learning/?WT.mc_id=PBIService_GetData). Į turinio paketą įtrauktose ataskaitose yra diagramos ir lentelės, kuriose pateikiama papildoma informacija. Tolesnėje lentelėje aprašomos ataskaitos.

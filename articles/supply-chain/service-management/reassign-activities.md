@@ -1,6 +1,6 @@
 ---
 title: Pakartotinis operacijų priskyrimas
-description: Šioje temoje aprašoma, kaip vieno darbuotojo aptarnavimo veiklas perskirstyti kitam.
+description: Šiame straipsnyje aprašoma, kaip iš naujo priskirti vieno darbuotojo aptarnavimo veiklas kitam darbuotojui.
 author: sorenva
 ms.date: 05/01/2018
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 55ebcda19aba074191a2820d2ac7faf27313db8e
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 5f6cd7523a9185de0bb2dfd81ffb3fe5e7dba5e9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8671820"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860470"
 ---
 # <a name="reassign-activities"></a>Pakartotinis operacijų priskyrimas 
 
 [!include [banner](../includes/banner.md)]
 
 
-Šioje temoje aprašoma, kaip vieno darbuotojo aptarnavimo veiklas perskirstyti kitam. Perskirstyti vieno darbuotojo aptarnavimo veiklas kitam galite net jei darbuotojai priskirti skirtingoms išsiuntimo komandoms.
+Šiame straipsnyje aprašoma, kaip iš naujo priskirti vieno darbuotojo aptarnavimo veiklas kitam darbuotojui. Perskirstyti vieno darbuotojo aptarnavimo veiklas kitam galite net jei darbuotojai priskirti skirtingoms išsiuntimo komandoms.
 
 Norėdami perskirstyti vieno darbuotojo veiklą kitam, atlikite toliau nurodytus veiksmus:
 

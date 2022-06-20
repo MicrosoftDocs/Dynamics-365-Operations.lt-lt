@@ -1,6 +1,6 @@
 ---
 title: Naujo ER sprendimo, skirto spausdinti ZPL žymes, kūrimas
-description: Šioje temoje paaiškinama, kaip sukurti naują elektroninių ataskaitų (ER) sprendimą spausdinant Javų programavimo kalbos (ZPL) žymes.
+description: Šiame straipsnyje paaiškinama, kaip sukurti naują elektroninių ataskaitų (ER) sprendimą spausdinant Javų programavimo kalbos (ZPL) žymes.
 author: NickSelin
 ms.date: 02/28/2022
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2022-02-01
 ms.dyn365.ops.version: 10.0.26
-ms.openlocfilehash: c1bedf1184b45741102000fa68c8d662c7383301
-ms.sourcegitcommit: 2977e92a76211875421e608555311c363cfbdc25
+ms.openlocfilehash: f861fe63c6d7d00d0a9f84d33c0d1b1b23735b61
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/16/2022
-ms.locfileid: "8612362"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845721"
 ---
 # <a name="design-a-new-er-solution-to-print-zpl-labels"></a>Naujo ER sprendimo, skirto spausdinti ZPL žymes, kūrimas
 
 [!include [banner](../includes/banner.md)]
 
 
-Šioje temoje paaiškinama, kaip sistemos administratoriaus, [elektroninių ataskaitų kūrėjo arba elektroninio ataskaitų funkcinių konsultanto vaidmens vartotojas gali konfigūruoti elektroninių ataskaitų (ER)](general-electronic-reporting.md) sistemos parametrus, sukurti reikiamas ER konfigūracijas [naujam ER](general-electronic-reporting.md#Configuration) sprendimą, kad būtų galima pasiekti sandėlio valdymo sistemos duomenis, ir generuoti pasirinktines sandėlio vietos žymes "Vz." programavimo kalbos (ZPL) II formatu. Šie žingsniai gali būti užbaigti **USRT** bendrovėje.
+Šiame straipsnyje paaiškinama, kaip sistemos administratoriaus, [elektroninių ataskaitų kūrėjo arba elektroninio ataskaitų funkcinių konsultanto vaidmens vartotojas gali konfigūruoti elektroninių ataskaitų (ER)](general-electronic-reporting.md) sistemos parametrus, sukurti reikiamas ER konfigūracijas [naujam ER](general-electronic-reporting.md#Configuration) sprendimą, kad būtų galima pasiekti sandėlio valdymo sistemos duomenis, ir generuoti pasirinktines sandėlio vietos žymes "Vz." programavimo kalbos (ZPL) II formatu. Šie žingsniai gali būti užbaigti **USRT** bendrovėje.
 
 ## <a name="business-scenario"></a>Verslo scenarijus
 

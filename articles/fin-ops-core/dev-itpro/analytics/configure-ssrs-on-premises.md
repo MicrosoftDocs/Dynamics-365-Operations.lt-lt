@@ -1,6 +1,6 @@
 ---
 title: „SQL Server Reporting Services“ konfigūravimas vietiniams diegimams
-description: Šioje temoje pateikiama informacija apie „SQL Server Reporting Services“ (SSRS) konfigūravimą vietiniam diegimui.
+description: Šiame straipsnyje pateikiama informacija apie SQL serverio ataskaitų tarnybų (SSRS) konfigūravimą, kad būtų galima įdiegti vietiniame kompiuteryje.
 author: PeterRFriis
 ms.date: 06/23/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: peterfriis
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: 16a35a8dae50cc1bc949f33de87b2beab8b528b3
-ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
+ms.openlocfilehash: ae1e78a268d6c61cc4ab6afd9e3f6d6b1bd1561a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "8565923"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876927"
 ---
 # <a name="configure-sql-server-reporting-services-for-on-premises-deployments"></a>„SQL Server Reporting Services“ konfigūravimas vietiniams diegimams
 
 [!include [banner](../includes/banner.md)]
 
-Norėdami sukonfigūruoti diegimo SQL serverio ataskaitų tarnybas (SSRS), atlikite šioje temoje aprašytus Microsoft Dynamics 365 Finance + Operations (on-premises) veiksmus.
+Norėdami sukonfigūruoti diegimo SQL serverio ataskaitų tarnybas (SSRS), atlikite šiame straipsnyje nurodytus Microsoft Dynamics 365 Finance + Operations (on-premises) veiksmus.
 
 1. Atidarykite ataskaitų serverio konfigūravimo tvarkytuvo programą.
 2. Palikite numatytąjį **serverio pavadinimą**, kuris turėtų būti dabartinio įrenginio pavadinimas, taip pat **ataskaitų serverio egzempliorių**, **MSSQLSERVER**.

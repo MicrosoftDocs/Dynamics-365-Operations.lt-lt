@@ -1,6 +1,6 @@
 ---
 title: Paketinis modulio Turto nuoma mokėjimo grafikų patvirtinimas
-description: Šioje temoje paaiškinama, kaip paketiniu būdu patvirtinti kelis mokėjimo grafikus.
+description: Šiame straipsnyje paaiškinama, kaip patvirtinti kelis mokėjimo grafikus pakete.
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: c19ac162c5e4c62c2440a0f16111c8cd69748e92
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: bd75e22f6407d6bc25a78c1dfeacf70022238e94
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8711833"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895057"
 ---
 # <a name="confirm-asset-leasing-payment-schedules-in-a-batch"></a>Paketinis modulio Turto nuoma mokėjimo grafikų patvirtinimas
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje paaiškinama, kaip paketiniu būdu patvirtinti kelis mokėjimo grafikus. Mokėjimo grafikai patvirtinami atskirai nuomai arba naudojant paketinio patvirtinimo procesą. Žurnalo įrašą galima registruoti tik pagal tokią nuomą, kuriai patvirtintas mokėjimo grafikas. Mokėjimo grafiko patvirtinimas naudojamas kaip galutinis nuomos finansinės informacijos patvirtinimas. Visi būsimi nuomos finansinės informacijos pakeitimai, pvz., mokėjimai ir nuomos terminas, sudaro nuomos koregavimą ir tokiu būdu turėtų būti apdorojami.
+Šiame straipsnyje paaiškinama, kaip patvirtinti kelis mokėjimo grafikus pakete. Mokėjimo grafikai patvirtinami atskirai nuomai arba naudojant paketinio patvirtinimo procesą. Žurnalo įrašą galima registruoti tik pagal tokią nuomą, kuriai patvirtintas mokėjimo grafikas. Mokėjimo grafiko patvirtinimas naudojamas kaip galutinis nuomos finansinės informacijos patvirtinimas. Visi būsimi nuomos finansinės informacijos pakeitimai, pvz., mokėjimai ir nuomos terminas, sudaro nuomos koregavimą ir tokiu būdu turėtų būti apdorojami.
 
 Norėdami patvirtinti keletą mokėjimo grafikų, atlikite tolesnius veiksmus.
 

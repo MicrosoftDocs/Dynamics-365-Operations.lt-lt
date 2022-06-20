@@ -1,6 +1,6 @@
 ---
 title: Nuomos nutraukimo pasiūlymas
-description: Šioje temoje paaiškinama, kaip siūlyti nuomos nutraukimą.
+description: Šiame straipsnyje paaiškinama, kaip siūlyti atleidimo nuomą.
 author: moaamer
 ms.date: 07/16/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2021-1-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 2f6990177251418bece8c99a0f9befa333d6549f
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: a5939f165943ff76ba453fb49d8c0c376c8ce4b1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8720508"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879659"
 ---
 # <a name="propose-a-lease-for-termination"></a>Siūlyti nuomos nutraukimą
 
 [!include [banner](../includes/banner.md)]
 
-Jei nuoma baigiasi anksti, turto nuoma gal įrašyti pabaigos žurnalo įrašą siekiant nurašyti nuomos įsipareigojimus, teisę naudoti (ROU) turtą ir sukauptą nusidėvėjimą bei registruoti pajamas ar nuostolius. Ankstyvas nutraukimo procesas užbaigia nuomą ir su ja susietus žurnalus. Jis neužbaigia atskirų nuomos žurnalų. Ši tema aprašo funkcijas, kurios leidžia jums siūlyti nuomos nutraukimą ir apdoroti nuomos pabaigimo žurnalo objektą.
+Jei nuoma baigiasi anksti, turto nuoma gal įrašyti pabaigos žurnalo įrašą siekiant nurašyti nuomos įsipareigojimus, teisę naudoti (ROU) turtą ir sukauptą nusidėvėjimą bei registruoti pajamas ar nuostolius. Ankstyvas nutraukimo procesas užbaigia nuomą ir su ja susietus žurnalus. Jis neužbaigia atskirų nuomos žurnalų. Šiame straipsnyje aprašomos funkcijos, kurios leidžia pasiūlyti atleidimo nuomą ir apdoroti nuomos atleidimo žurnalo įrašą.
 
 Jei nuoma nėra klasifikuojama kaip atidėtos nuomos derybos ir nėra susietos su ilgalaikiu turtu, turto nuoma sukuria tolesnį nutraukimo žurnalo įrašą.
 
@@ -121,7 +121,7 @@ Toliau esančiose lentelėse rodomos reikšmės, kurios yra nustatytos šio pavy
 
 ### <a name="steps-for-terminating-the-lease"></a>Nuomos nutraukimo žingsniai
 
-1. Sukūrę nuomą, kaip anksčiau aprašyta šioje temoje, eikite į nuomos knygą ir patvirtinkite mokėjimo grafiką. Tada registruokite pradinį pripažinimo žurnalo įrašą. Pradinis ROU turtas yra $71,235.81, o nuomos teisės turi būti $70,235.81. Šiuo atveju, nuoma buvo klasifikuojama kaip operavimo nuoma pagal Apskaitos standartų kodifikavimo temą 842 (ASC 842).
+1. Sukūrę nuomą, kaip aprašyta anksčiau šiame straipsnyje, eikite į nuomos knygą ir patvirtinkite mokėjimo grafiką. Tada registruokite pradinį pripažinimo žurnalo įrašą. Pradinis ROU turtas yra $71,235.81, o nuomos teisės turi būti $70,235.81. Šiuo atveju, nuoma buvo klasifikuojama kaip operavimo nuoma pagal Apskaitos standartų kodifikavimo temą 842 (ASC 842).
 2. Vykdyti paketinio žurnalo procesą tris kartus, kad būtų imituotas trejų metų laikotarpis, skirtas nuomos mokėjimams, palūkanų išlaidoms ir nusidėvėjimo išlaidoms.
 3. Kai baigsite vykdyti tris paketų darbus, eikite atgal į nuomos žurnalą ir atverkite teisių ir turto transakcijų lenteles, kad peržiūrėtumėte esamą nešančią ROU vertę turtui ir nuomos teises. Po trijų metų, teisių vertė turi būti apie $-53,893.00, o turto vertė maždaug $54,593.00.
 

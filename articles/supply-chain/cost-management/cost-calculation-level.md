@@ -1,6 +1,6 @@
 ---
 title: Išlaidų skaičiavimo lygis
-description: Šioje temoje aprašomas komplektavimo specifikacijų (KS) lygis, kuris pavadintas išlaidų skaičiavimo lygiu. Į šio KS lygio skaičiavimus neįtraukti gamybos ir paketiniai užsakymai.
+description: Šiame straipsnyje aprašomas komplektavimo specifikacijos (KS) lygis, pavadintas Išlaidų skaičiavimo lygis. Į šio KS lygio skaičiavimus neįtraukti gamybos ir paketiniai užsakymai.
 author: JennySong-SH
 ms.date: 04/23/2020
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: yanansong
 ms.search.validFrom: 2020-04-23
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: 563d866c93e9205914f633f3435ef4b46f85b814
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 647ef4b13b864cfdbb7905fe7a0d340e85f6c1e6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8679561"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850879"
 ---
 # <a name="cost-calculation-level"></a>Išlaidų skaičiavimo lygis
 

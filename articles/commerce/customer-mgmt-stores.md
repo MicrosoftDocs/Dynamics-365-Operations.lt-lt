@@ -1,6 +1,6 @@
 ---
 title: Klientų valdymas parduotuvėse
-description: Šioje temoje paaiškinama, kaip mažmenininkai gali įgalinti klientų valdymo pajėgumus „Microsoft Dynamics 365 Commerce“ elektroniniame kasos aparate (EKA).
+description: Šiame straipsnyje paaiškinama, kaip mažmenininkai gali įgalinti klientų valdymo pajėgumus kasos punkte (EKA)Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
 ms.date: 12/10/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 5a352ba479ca5e635ef521b99f31bd26d5d837ac
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 805d0b5894b18e2fc34f481bdc32ada7a4b1aee0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8687338"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863492"
 ---
 # <a name="customer-management-in-stores"></a>Klientų valdymas parduotuvėse
 
 [!include [banner](includes/banner.md)]
 
-Šioje temoje paaiškinama, kaip mažmenininkai gali įgalinti klientų valdymo pajėgumus „Microsoft Dynamics 365 Commerce“ elektroniniame kasos aparate (EKA).
+Šiame straipsnyje paaiškinama, kaip mažmenininkai gali įgalinti klientų valdymo pajėgumus kasos punkte (EKA)Microsoft Dynamics 365 Commerce.
 
 Svarbu, kad parduotuvės susiejimai galėtų kurti ir redaguoti klientų įrašus EKA. Tokiu būdu jie gali užfiksuoti visus kliento informacijos naujinimus, pvz., el. pašto adresą, telefono numerį ir adresą. Ši informacija yra naudinga proceso pabaigos sistemose, pvz., rinkodaros, nes šių sistemų efektyvumas priklauso nuo jų klientų duomenų tikslumo.
 

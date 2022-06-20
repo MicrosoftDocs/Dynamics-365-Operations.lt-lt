@@ -1,6 +1,6 @@
 ---
 title: Registracijos ID
-description: Šioje temoje pateikiama informacija apie registracijos ID nustatymą ir naudojimą.
+description: Šiame straipsnyje pateikiama informacija, kaip nustatyti ir naudoti registracijos PVM.
 author: ShylaThompson
 ms.date: 11/08/2017
 ms.topic: article
@@ -14,20 +14,20 @@ ms.search.region: Global
 ms.author: vlru
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 544e994a18811995afc64c052a3f97e622529162b8a14b17206c370026b78ac4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 379cf78ece388f738fad8121d5b0adb4434d7905
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6782821"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883081"
 ---
 # <a name="registration-ids"></a>Registracijos ID
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje pateikiama informacija apie registracijos ID nustatymą ir naudojimą.
+Šiame straipsnyje pateikiama informacija, kaip nustatyti ir naudoti registracijos PVM.
 
-Daugelyje šalių ir regionų galioja skirtingi registracijos numerių arba ID įrašymo reikalavimai ir nuostatos. Šioje temoje pateikiama reikiamų parametrų ir palaikomų registracijos tipų apdorojimo apžvalga, skirta šalims įvairiose Europos šalyse / regionuose. Visose šalyse / regionuose galioja vietos reikalavimai, reguliuojantys įvairių konkrečiai šaliai skirtų funkcijų, susijusių registracijos numeriais, kuriuos teikia skirtingos valstybinės agentūros, palaikymą. Registracijos numerių pavyzdžiai: socialinis draudimo numeris (SSN), mokesčių identifikavimo numeris (TIN) ir Europos PVM identifikacija (ES PVM ID). Ši funkcija pateikia visiems regionams ir šalims skirtą suvienodintą sistemą, kurioje atsižvelgiama į kai kurioms konkrečioms Europos šalims taikomus reikalavimus. Toliau pateikiamuose skyriuose aprašomas bendras informacijos, kuri naudojama nustatant ir apdorojant registracijos ID, srautas.
+Daugelyje šalių ir regionų galioja skirtingi registracijos numerių arba ID įrašymo reikalavimai ir nuostatos. Šiame straipsnyje pateikiama reikalaujama parametrų peržiūra ir šalių ( regionų) palaikomų registracijos tipų apdorojimo apžvalga. Visose šalyse / regionuose galioja vietos reikalavimai, reguliuojantys įvairių konkrečiai šaliai skirtų funkcijų, susijusių registracijos numeriais, kuriuos teikia skirtingos valstybinės agentūros, palaikymą. Registracijos numerių pavyzdžiai: socialinis draudimo numeris (SSN), mokesčių identifikavimo numeris (TIN) ir Europos PVM identifikacija (ES PVM ID). Ši funkcija pateikia visiems regionams ir šalims skirtą suvienodintą sistemą, kurioje atsižvelgiama į kai kurioms konkrečioms Europos šalims taikomus reikalavimus. Toliau pateikiamuose skyriuose aprašomas bendras informacijos, kuri naudojama nustatant ir apdorojant registracijos ID, srautas.
 
 ## <a name="registration-type-creation"></a>Registracijos tipo kūrimas
 Norėdami įvesti registracijos ID, turite nustatyti įvairių rūšių registravimo numerių, kurie taikomi kiekvienai šaliai, registracijos tipus. Atidarykite puslapį **Organizacijos administravimas** &gt; **Visuotinė adresų knygelė** &gt; **Registracijos tipai** &gt; **Registracijos tipai**, kad sukurtumėte ir valdytumėte skirtingų šalių / regionų tiekėjų, klientų, darbuotojų ir juridinių subjektų registracijos tipus.
@@ -51,7 +51,7 @@ Registracijos kategorija yra šalies / regiono registracijos identifikatorius, k
 |-----------------------|----------------|
 | Registracijos tipas     | Registracijos tipas konkrečioje šalyje / regione.|
 | Apribota iki         | Mokesčių registracijos tipui taikomo apribojimo rūšis: Nėra, Asmuo, Organizacija.|
-| Registracijos kategorija | Unikalus registracijos identifikatorius, patvirtintas naudoti šalyje. Išsamus palaikomų kategorijų sąrašas pateiktas toliau šioje temoje. |
+| Registracijos kategorija | Unikalus registracijos identifikatorius, patvirtintas naudoti šalyje. Toliau šiame straipsnyje rodomas visas palaikomų kategorijų sąrašas. |
 
 ## <a name="enter-registration-ids-for-global-address-book-records"></a>Visuotinės adresų knygelės įrašų registracijos ID įvedimas
 
@@ -76,7 +76,7 @@ Visuotinė adresų knygelė (GAB) pateikia konsoliduotą klientų, tiekėjų, ko
 Ieškokite šalies įrašų pagal registracijos ID, pateikiamą formose, susijusiose su šalimi, juridiniu subjektu, tiekėju, klientu arba darbuotoju. Spustelėkite **Registracijos ID ieška**, kad atidarytumėte puslapį **Registracijos ID ieškos kriterijai**. Nurodykite ieškos kriterijus ir spustelėkite **Rasti**. Sistema rodys pasirinktus įrašus iš visuotinės adresų knygelės ir susijusius šalies įrašo tipus.
 
 ## <a name="supported-registration-categories"></a>Palaikomos registracijos kategorijos
-Toliau esančioje lentelėje pateiktas palaikomų registracijos tipų sąrašas. Jei esate susipažinę su „Microsoft Dynamics AX 2012“ registracijos ID laukais: ši lentelė taip pat tuos laukus susieja su „Dynamics 365 Finance“ registracijos kategorijomis.
+Toliau esančioje lentelėje pateiktas palaikomų registracijos tipų sąrašas. Jei esate susipažinę su Microsoft Dynamics AX 2012 m. registracijos PVM laukais, ši lentelė taip pat susies tuos laukus su "Dynamics 365" finansinės registracijos kategorijomis.
 
 | „Finance“ registracijos kategorija         |Šalis/regionas  | „Dynamics AX 2012“ terminas / laukas|
 |---------------------------------------------------------------|---------------------|---------------------------------|

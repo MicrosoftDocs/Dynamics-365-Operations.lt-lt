@@ -1,6 +1,6 @@
 ---
 title: Smulkios išlaidos (skirta Rytų Europai ir Rusijai)
-description: Šioje temoje pateikiama informacija apie smulkių išlaidų funkciją, kuri vartotojams Estijoje, Lietuvoje, Čekijos Respublikoje,Vengrijoje, Latvijoje, Lenkijoje ir Rusijoje suteikia galimybę sistemoje nurodyti grynųjų pinigų operacijas.
+description: Šiame straipsnyje pateikta informacija apie smulkių pinigų funkcijas, kurios leidžia vartotojams Estija, Lietuva, Čekijos Respublika, Vengrija, Latvija, Lenkija ir Rusija rodo grynųjų pinigų operacijas sistemoje.
 author: ShylaThompson
 ms.date: 06/20/2017
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Czech Republic, Estonia, Hungary, Latvia, Lithuania, Poland, R
 ms.author: kfend
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 8d301cb7b16960d9f239719841516ca6354381c0011d0b2d8302f8b85012ed1e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cf5e49f76753188ebeb39e4c14bf177b83bbb018
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6733593"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871122"
 ---
 # <a name="petty-cash-for-eastern-europe-and-russia"></a>Smulkios išlaidos (skirta Rytų Europai ir Rusijai)
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje pateikiama informacija apie smulkių išlaidų funkciją, kuri vartotojams Estijoje, Lietuvoje, Čekijos Respublikoje,Vengrijoje, Latvijoje, Lenkijoje ir Rusijoje suteikia galimybę sistemoje nurodyti grynųjų pinigų operacijas.
+Šiame straipsnyje pateikta informacija apie smulkių pinigų funkcijas, kurios leidžia vartotojams Estija, Lietuva, Čekijos Respublika, Vengrija, Latvija, Lenkija ir Rusija rodo grynųjų pinigų operacijas sistemoje.
 
 Smulkių išlaidų funkciją galite naudoti norėdami automatizuoti grynųjų pinigų gavimo ir išlaidų operacijas, pirminių dokumentų kūrimą ir susijusių ataskaitų spausdinimą. Smulkių išlaidų funkcija suteikia galimybę atlikti toliau nurodytas operacijas.
 
@@ -100,7 +100,7 @@ Norėdami nustatyti grynųjų pinigų sąskaitos grynųjų pinigų balanso kontr
 <li><strong>Įspėjimas</strong> – limitą galima viršyti, bet vartotojui rodomas įspėjimas. Grynųjų pinigų dokumentas patvirtintas.</li>
 <li><strong>Klaida</strong> – limito viršyti negalima. Vartotojui rodomas klaidos pranešimas, o grynųjų pinigų dokumentas nėra patvirtinamas.</li>
 </ul>
-Daugiau informacijos apie grynųjų pinigų dokumentų tvirtinimo procesą žr. tolesniame šios temos skyriuje &quot;Grynųjų pinigų tvirtinimas ir registravimas&quot;.</td>
+Norėdami gauti daugiau informacijos apie grynųjų pinigų dokumentų patvirtinimo procesą, žr. grynųjų &quot; pinigų operacijos patvirtinimo ir registravimo&quot; skyrių, toliau šiame straipsnyje.</td>
 </tr>
 <tr class="odd">
 <td>Balanso limitas</td>

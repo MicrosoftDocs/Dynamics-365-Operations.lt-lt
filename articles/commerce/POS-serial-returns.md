@@ -1,6 +1,6 @@
 ---
 title: Grąžinti serijos numeriais kontroliuojamus produktus naudojant EKA
-description: Šioje temoje aprašomos galimybės galiojant eilutėmis išrašomas prekes kaip grąžinimo proceso dalį „Microsoft Dynamics 365 Commerce“ (EKA) programoje.
+description: Šiame straipsnyje aprašomos galimybės galiojant Microsoft Dynamics 365 Commerce eilutėmis išrašomas prekes kaip grąžinimo proceso dalį point point sale (EKA) programoje.
 author: hhainesms
 ms.date: 06/01/2021
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 179d66e19c7fa81d587ea920b1c71468ec070177d7e7e68e45c2b58da2f9f5af
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b2af301180dc2284400b887ce36357660bdd86fa
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6716353"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860326"
 ---
 # <a name="return-serial-numbercontrolled-products-in-pos"></a>Grąžinti serijos numeriais kontroliuojamus produktus naudojant EKA
 
 [!include [banner](includes/banner.md)]
 
-Šioje temoje aprašomos galimybės galiojant eilutėmis išrašomas prekes kaip grąžinimo proceso dalį „Microsoft Dynamics 365 Commerce“ (EKA) programoje.
+Šiame straipsnyje aprašomos galimybės galiojant Microsoft Dynamics 365 Commerce eilutėmis išrašomas prekes kaip grąžinimo proceso dalį point point sale (EKA) programoje.
 
 > [!NOTE]
 > "Commerce 10.0.20" versijoje ir vėliau galima naudoti naują funkciją, kuri **EKA vadinama bendrojo grąžinamo apdorojimo** patirtimi. Norėdami naudoti serijos numerio tikrinimą apdorojant grąžinimo užsakymą EKA, turite įjungti šią funkciją. Informacijos apie kitas galimybes, kurias suteikia ši funkcija, kai ji įjungta, žr. [Kurti grąžinimus EKA)](POS-returns.md).

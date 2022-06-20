@@ -1,6 +1,6 @@
 ---
 title: Kompensacijos struktūros kūrimas
-description: Šioje temoje paaiškinama, kaip sukurti pastoviosios atlyginimo dalies planą ir į jį užregistruoti darbuotojus taikant tinkamumo taisykles.
+description: Šiame straipsnyje paaiškinama, kaip sukurti pastoviosios atlyginimo dalies planą ir įtraukti darbuotojus į planą, naudojant tinkamumo taisykles.
 author: twheeloc
 ms.date: 08/25/2021
 ms.topic: business-process
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f069d4e982a9c02070c2010b894b2ec7a9c7f6ab
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 86953e6d54843f17d0d6090a9def8bc256624f21
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8693093"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8902982"
 ---
 # <a name="develop-a-compensation-structure"></a>Kompensacijos struktūros kūrimas
 
@@ -26,7 +26,7 @@ ms.locfileid: "8693093"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Šioje temoje aprašoma, kaip sukurti pastoviosios atlyginimo dalies planą ir į jį užregistruoti darbuotojus pagal tinkamumo taisykles. Šioje temoje naudojami USMF demonstraciniai duomenys ir jie taikomi kompensacijų bei išmokų vadovams.
+Šiame straipsnyje aprašoma, kaip kurti pastoviosios atlyginimo dalies planą ir įtraukti darbuotojus į planą taikant tinkamumo taisykles. Šiame straipsnyje naudojami JAVMF demonstraciniai duomenys ir jis taikomas kompensacijų ir išmokų vadovams.
 
 ## <a name="create-a-fixed-compensation-plan"></a>Pastoviosios atlyginimo dalies plano kūrimas
 

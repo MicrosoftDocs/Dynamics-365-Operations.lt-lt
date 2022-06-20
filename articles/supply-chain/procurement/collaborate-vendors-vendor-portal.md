@@ -1,6 +1,6 @@
 ---
 title: Bendradarbiavimas su tiekėjais naudojant tiekėjo portalą
-description: Šioje temoje paaiškinama, kaip naudodami tiekėjo portalą pirkimo agentai gali bendradarbiauti su išoriniais tiekėjais vykstant pirkimo užsakymų patvirtinimo procesui. Ši informacija taikoma tik 2016 m. vasario mėn. ir 2016 m. &amp; gegužės mėn. „Dynamics AX“ versijoms.
+description: Šiame straipsnyje aprašoma, kaip pirkimo agentai gali naudoti tiekėjo portalą, norėdami bendradarbiauti su išoriniais tiekėjais pirkimo užsakymo patvirtinimo proceso metu. Ši informacija taikoma tik 2016 m. vasario mėn. ir 2016 m. &amp; gegužės mėn. „Dynamics AX“ versijoms.
 author: GalynaFedorova
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7bbcea318da3ca28b35c6b5ad237092da94dbd0d
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: f15a1087cd85df09c9633b9936058d74656067d3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8672044"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8865185"
 ---
 # <a name="collaborate-with-vendors-by-using-the-vendor-portal"></a>Bendradarbiavimas su tiekėjais naudojant tiekėjo portalą
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje paaiškinama, kaip naudodami tiekėjo portalą pirkimo agentai gali bendradarbiauti su išoriniais tiekėjais vykstant pirkimo užsakymų patvirtinimo procesui. Ši informacija taikoma tik 2016 m. vasario mėn. ir 2016 m. gegužės mėn. „Dynamics AX“ versijoms.
+Šiame straipsnyje aprašoma, kaip pirkimo agentai gali naudoti tiekėjo portalą, norėdami bendradarbiauti su išoriniais tiekėjais pirkimo užsakymo patvirtinimo proceso metu. Ši informacija taikoma tik 2016 m. vasario mėn. ir 2016 m. gegužės mėn. „Dynamics AX“ versijoms.
 
-Šios temos informacija taikoma tik 2016 m. vasario mėn. ir 2016 m. gegužės mėn. „Dynamics AX“ versijoms. Daugiau informacijos apie naująją tiekėjo bendradarbiavimo funkciją ieškokite puslapyje [Tiekėjo bendradarbiavimas su išoriniais tiekėjais](vendor-collaboration-work-external-vendors.md).  
+Šiame straipsnyje pateikiama informacija taikoma tik "Dynamics" 2016 m. vasario ir gegužės 2016 versijoms AX. Daugiau informacijos apie naująją tiekėjo bendradarbiavimo funkciją ieškokite puslapyje [Tiekėjo bendradarbiavimas su išoriniais tiekėjais](vendor-collaboration-work-external-vendors.md).  
 
 Tiekėjo portalas skirtas tiekėjams, kurie neturi elektroninių duomenų mainų (EDI) integracijos su „Microsoft Dynamics AX“, skirtos mainytis pirkimo užsakymų (PU) informacija. Portale pirkimo agentai gali tiekėjui siųsti PU ir tada tiesiai programoje „Dynamics AX“ gauti atsakymą Patvirtinta arba Atmesta.  
 

@@ -1,6 +1,6 @@
 ---
 title: Užsakymų siuntimas kaip tiesioginių pristatymų
-description: Ši procedūra parodo, kaip kurti pardavimo užsakymo tiesioginį pristatymą.
+description: Šiame straipsnyje parodyta, kaip sukurti tiesioginį pardavimo užsakymo pristatymą.
 author: Henrikan
 ms.date: 07/11/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 94890b0915a49052c298090f124cf2b91c462de8
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: f5f145bacecc47a782c60335c6ff5b79f978007c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572446"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8875165"
 ---
 # <a name="ship-orders-as-direct-deliveries"></a>Užsakymų siuntimas kaip tiesioginių pristatymų
 
 [!include [banner](../../includes/banner.md)]
 
-Ši procedūra parodo, kaip kurti pardavimo užsakymo tiesioginį pristatymą. Tiesioginį pristatymą naudojate, kai norite siųsti prekes klientui tiesiogiai iš tiekėjo, vietoj to, kad pirma jas siųstumėte į savo sandėlį. Šią procedūrą galite vykdyti demonstracinėje duomenų įmonėje USMF arba su savo duomenimis. Norėdami sėkmingai baigti antrąją antrinę užduotį „Kurti tiesioginius pristatymus iš darbastalio“, įsitikinkite, kad, pasirinktos pardavimo užsakymo prekės numatytasis Tiekėjas nurodytas Patvirtintų pagrindinių produktų Pirkimo „FastTab“.
+Šiame straipsnyje parodyta, kaip sukurti tiesioginį pardavimo užsakymo pristatymą. Tiesioginį pristatymą naudojate, kai norite siųsti prekes klientui tiesiogiai iš tiekėjo, vietoj to, kad pirma jas siųstumėte į savo sandėlį. Šią procedūrą galite vykdyti demonstracinėje duomenų įmonėje USMF arba su savo duomenimis. Norėdami sėkmingai baigti antrąją antrinę užduotį „Kurti tiesioginius pristatymus iš darbastalio“, įsitikinkite, kad, pasirinktos pardavimo užsakymo prekės numatytasis Tiekėjas nurodytas Patvirtintų pagrindinių produktų Pirkimo „FastTab“.
 
 ## <a name="set-an-individual-order-for-direct-delivery"></a>Nustatyti atskirą tiesioginio pristatymo užsakymą
 1. Eikite į **Valdymo skiltį > Moduliai > Gautinos sumos > Užsakymai > Visi pardavimo užsakymai**.

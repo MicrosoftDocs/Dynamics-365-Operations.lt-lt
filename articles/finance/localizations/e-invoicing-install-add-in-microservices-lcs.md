@@ -1,6 +1,6 @@
 ---
-title: Diekite priedą mikro paslaugoms „Lifecycle Services“
-description: Šioje temoje paaiškinama, kaip įdiegti elektroninių SF išrašymo priedą ciklo Microsoft Dynamics tarnybose (LCS).
+title: Įdiekite priedą, skirtą „Lifecycle Services“ mikro paslaugoms
+description: Šiame straipsnyje paaiškinama, kaip įdiegti elektroninių SF išrašymo priedą ciklo Microsoft Dynamics tarnybose (LCS).
 author: dkalyuzh
 ms.date: 02/11/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: dkalyuzh
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: a575f3e26489607dc2143ba05c941240969a0feb
-ms.sourcegitcommit: ffdb6794746ffe5461f9dcf34ed8e64976d22d2d
+ms.openlocfilehash: 26f92262eff07ded3e894ee5513dd8dbaa6f94a4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "8371972"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849811"
 ---
-# <a name="install-the-add-in-for-microservices-in-lifecycle-services"></a>Diekite priedą mikro paslaugoms „Lifecycle Services“
+# <a name="install-the-add-in-for-microservices-in-lifecycle-services"></a>Įdiekite priedą, skirtą „Lifecycle Services“ mikro paslaugoms
 
 [!include [banner](../includes/banner.md)]
 
-Elektroninių SF išrašymo tarnybos autentifikavimas reikalauja, kad "Microsoft Dynamics 365 Finance Dynamics 365 Supply Chain Management " arba aplinka būtų užregistruojama tarnybų platformoje Microsoft Dynamics, diegiant aplinkos priedą ciklo tarnybose (LCS).
+Elektroninių SF išrašymo Microsoft Dynamics tarnybos autentifikavimas reikalauja užregistruoti savo "365 Dynamics 365 Supply Chain Management Microsoft Dynamics " finansus arba aplinką tarnybų platformoje, įdiegdami papildinį savo aplinkai ciklo tarnybose (LCS).
 
 Norėdami užregistruoti aplinką, atlikite šiuos veiksmus.
 

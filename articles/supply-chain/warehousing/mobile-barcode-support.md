@@ -1,6 +1,6 @@
 ---
 title: Mobiliųjų brūkšninių kodų palaikymas
-description: Šioje temoje aprašoma, kaip naudotis „Warehousing“ mobiliųjų įrenginių programėle kodams nuskaityti „Android“suderinamuose įrenginiuose.
+description: Šiame straipsnyje aprašoma, kaip tvarkyti sandėlio mobiliųjų įrenginių nuskaitymo programą suderinamuose Android įrenginiuose.
 author: Mirzaab
 ms.date: 05/26/2017
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2017-09-20
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 97c6e9bf536568968e148cb92f78c226e1f45444
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 15db3912cb5bf1b191c51d8ba68665f2dbe0a3ec
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8671512"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8905550"
 ---
 # <a name="mobile-bar-code-support"></a>Mobiliųjų brūkšninių kodų palaikymas
 

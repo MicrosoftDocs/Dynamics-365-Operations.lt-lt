@@ -1,6 +1,6 @@
 ---
-title: Kas nauja ar pasikeitė „Warehouse Management Mobile App” programėlėje
-description: Šioje temoje pateikiamos naujos ir pakeistos kiekvienos išleistos „Warehouse Management Mobile App”, skirtos „Microsoft Dynamics 365 Supply Chain Management”, versijos funkcijos.
+title: Kas nauja ar pasikeitė „Warehouse Management“ mobiliųjų įrenginių programėlėje
+description: Šiame straipsnyje pateikiamos naujos ir pakeistos kiekvienos "Microsoft" išleistos sandėlio valdymo mobiliosios programos versijos funkcijos Dynamics 365 Supply Chain Management.
 author: Mirzaab
 ms.date: 04/25/2022
 ms.topic: article
@@ -10,18 +10,33 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: c79b18d24c8b9cb90a570496882fdfe91dc6ba51
-ms.sourcegitcommit: a4dc7d170f1504631127c3e92af0c6b03468d375
-ms.translationtype: MT
+ms.openlocfilehash: 34ac023bc5ee44987f6a36a1636cd343576e5d90
+ms.sourcegitcommit: b666289f5113d0a3fa2220fe337d5aacf07cbd92
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/02/2022
-ms.locfileid: "8661831"
+ms.lasthandoff: 06/08/2022
+ms.locfileid: "8945729"
 ---
-# <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Kas nauja ar pasikeitė „Warehouse Management Mobile App” programėlėje
+# <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Kas nauja ar pasikeitė „Warehouse Management“ mobiliųjų įrenginių programėlėje
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje pateikiamos naujos kiekvienos išleistos „Warehouse Management Mobile App”, skirtos „Microsoft Dynamics 365 Supply Chain Management”, versijos funkcijos, klaidų taisymai ir žinomos problemos.
+Šiame straipsnyje pateikiamos naujos funkcijos, pataisos, patobulinimai ir žinomos kiekvienos "Microsoft" išleistos sandėlio valdymo mobiliosios programos versijos problemos Dynamics 365 Supply Chain Management.
+
+## <a name="version-20240"></a>2.0.24.0 versija
+
+Šioje versijoje pristatomos toliau pateiktos naujos funkcijos, klaidų taisymai ir patobulinimai:
+
+- Patobulinti skaitytuvo puslapiai, kad būtų galima įjungti nuskaitymo parinktį informacijos **puslapiuose**.
+- Patobulintas, pvz., jutiklinis / jutiklinis ekranas.
+- Patobulintos darbo efektyvumo problemos Android.
+- Fiksuotas kelių antraščių išdėstymas, kad užklausos puslapyje būtų rodoma daugiau **kortelių**.
+- Įgalintas patobulintas slinkties atstumas iki mažesnio atminties puslapių kaitos.
+- Pridėta ilgojo klavišo, kad užklausos puslapyje būtų **rodomas papildomas** tekstas.
+- Fiksuoto trūkstamo įrenginio ID informacija.Android
+- Padidintas stabilumą.
+- Optimizuotas prisijungimo maketas.
+- Pridėtas perbraukimo dešinėn priedas, kad būtų uždaryti dialogo lango laikinieji puslapiai numerio rinkiklis, **informacijos** puslapis ir įvesties puslapiai.
 
 ## <a name="version-20220"></a>2.0.22.0 versija
 

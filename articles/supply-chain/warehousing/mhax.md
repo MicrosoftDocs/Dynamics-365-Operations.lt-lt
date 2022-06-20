@@ -1,6 +1,6 @@
 ---
 title: Medžiagų tvarkymo įrangos sąsaja (MHAX)
-description: Šioje temoje aprašoma, kaip nustatyti medžiagų tvarkymo įrangos sąsają (MHAX), kad galėtumėte prisijungti prie išorinių faktinių medžiagų tvarkymo (MH) sistemų.
+description: Šiame straipsnyje aprašoma, kaip nustatyti medžiagų tvarkymo įrangos sąsają (MHAX), kad galėtumėte prisijungti prie išorinių faktinių medžiagų tvarkymo (MH) sistemų.
 author: Mirzaab
 ms.date: 03/04/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-04
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 4c04b8a9574bb6f34b56b4a7462882f1885f1178
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: c4b0d991d320d5a679d0ed60880c56a6cb849e2d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8695597"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907093"
 ---
 # <a name="material-handling-equipment-interface-mhax"></a>Medžiagų tvarkymo įrangos sąsaja (MHAX)
 
@@ -88,7 +88,7 @@ Norėdami sukurti abonementą, eikite į **Medžiagų tvarkymo įrangos sąsaja 
 
 Su kiekvienu abonementu galima susieti užklausą. Šioje užklausoje filtruojamos darbo eilutės ir antraštės, siekiant dar labiau apriboti darbą, kuris naudos abonementą įvykiams generuoti. Norėdami įtraukti užklausą į abonementą, pasirinkite atitinkamo abonemento žymės langelį **Vykdyti užklausą** puslapyje **Abonementai**, tada veiksmų srityje pasirinkite **Redaguoti užklausą**. Atidaroma standartinė „Supply Chain Management” užklausos rengyklė.
 
-Be to, abonemente yra *abonemento susiejimas*, pagal poreikį susiejantis darbo antraštės arba darbo eilutės laukus su kai kuriais arba visais 10 laisvų siuntimo įvykio duomenų laukų. Norint grąžinti informaciją į MHAX paslaugą, paprastai reikia įtraukti darbo eilutės įrašo ID arba *darbo eilučių poros ID*. (Darbo eilučių poros ID yra nauja ypatybė, leidžianti sistemai naudoti vieną grąžinimo komandą paėmimo ir padėjimo eilutėms apdoroti.) Likę laukai priklauso nuo naudojimo atvejo. Keletas pavyzdžių pateikiami toliau šioje temoje.
+Be to, abonemente yra *abonemento susiejimas*, pagal poreikį susiejantis darbo antraštės arba darbo eilutės laukus su kai kuriais arba visais 10 laisvų siuntimo įvykio duomenų laukų. Norint grąžinti informaciją į MHAX paslaugą, paprastai reikia įtraukti darbo eilutės įrašo ID arba *darbo eilučių poros ID*. (Darbo eilučių poros ID yra nauja ypatybė, leidžianti sistemai naudoti vieną grąžinimo komandą paėmimo ir padėjimo eilutėms apdoroti.) Likę laukai priklauso nuo naudojimo atvejo. Kai kurie pavyzdžiai pateikiami vėliau šiame straipsnyje.
 
 Norėdami nustatyti abonemento susiejimą, pasirinkite reikiamą abonementą puslapyje **Abonementai**, tada veiksmų srityje pasirinkite **Abonemento susiejimas**. Atsiradusiame dialogo lange **Abonemento susiejimas** galite kiekvienam galimam duomenų laukui priskirti lentelę ir lauką, jei reikia.
 
@@ -161,7 +161,7 @@ Jei pateikiamas darbo eilučių poros ID, visos paėmimo, padėjimo ar pasirinkt
 
 Paėmimo eilutės iš numerio lentelėmis kontroliuojamų vietų reikalauja, kad laukas **data03** nurodytų numerio lentelę, iš kurios reikia paimti, nepaisant to, ar eilutės pažymėtos pagal darbo eilutės įrašo ID, ar darbo eilučių poros ID. Lauke **data04** turi būti nurodyta paėmimo darbo antraštės paskirties numerio lentelė.
 
-Padėjimo eilutėse negali būti papildomos informacijos. Jos paleidžiamos tik pagal dabartinę darbo eilutės vietą ir darbo paskirties numerio lentelę. Jei reikia padėti kitoje vietoje, pakeiskite darbo eilutės vietą, kaip aprašyta toliau šios temos skyriuje [Įvykių keitimas](#override-events).
+Padėjimo eilutėse negali būti papildomos informacijos. Jos paleidžiamos tik pagal dabartinę darbo eilutės vietą ir darbo paskirties numerio lentelę. Jei padėti reikia kitoje vietoje, pakeiskite darbo eilutės vietą, [kaip](#override-events) toliau šiame straipsnyje nurodyta skyriuje Nepaisyti įvykių.
 
 Pasirinktinės darbo eilutės nereikalauja ir nepalaiko jokios papildomos gavimo įvykio informacijos.
 
@@ -220,7 +220,7 @@ Ilgainiui jūsų gaunamų pranešimų eilėje bus daug jau apdorotų prekių. No
 
 ## <a name="get-a-quick-overview-by-using-the-queue-manager"></a>Greitai apžvelkite naudodami eilės tvarkytuvą
 
-Norėdami greitai peržiūrėti visą veiklą, susijusią su gaunamų ir siunčiamų pranešimų eilėmis, eikite į **Medžiagų tvarkymo įrangos sąsaja \> Darbo sritys \> Eilės tvarkytuvas**. Puslapyje **Eilės tvarkytuvas** pateikiamas skirtukų ir plytelių rinkinys, kurį galite naudoti savo eilėms stebėti ir tirti. Taip pat pateikiami naudingi saitai į daugelį kitų šioje temoje paminėtų puslapių.
+Norėdami greitai peržiūrėti visą veiklą, susijusią su gaunamų ir siunčiamų pranešimų eilėmis, eikite į **Medžiagų tvarkymo įrangos sąsaja \> Darbo sritys \> Eilės tvarkytuvas**. Puslapyje **Eilės tvarkytuvas** pateikiamas skirtukų ir plytelių rinkinys, kurį galite naudoti savo eilėms stebėti ir tirti. Taip pat pateikiami naudingi saitai į daugelį kitų šiame straipsnyje paminėtų puslapių.
 
 ## <a name="connect-to-the-mhax-service"></a>Prisijungimas prie MHAX paslaugos
 

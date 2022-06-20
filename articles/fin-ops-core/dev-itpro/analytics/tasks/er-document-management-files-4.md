@@ -1,6 +1,6 @@
 ---
 title: ER dokumentų valdymo failų naudojimas formato išvestyse (4 dalis – formato paleidimas)
-description: Šioje temoje aprašoma, kaip sukonfigūruoti elektroninių ataskaitų formatą, kad būtų galima naudoti dokumentų valdymo failus ER išvestyje. (4 dalis)
+description: Šiame straipsnyje aprašoma, kaip konfigūruoti elektroninės ataskaitos formatą, kad būtų galima naudoti dokumentų valdymo failus ER išvestyje. (4 dalis)
 author: NickSelin
 ms.date: 08/29/2018
 ms.topic: business-process
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 11b446d21a7ae57ffa2cccf983777beb882bf77de6b54c2d1aef810028a6d343
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: dc5352a8924dc0427faa1418a9db5f610a7451a4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727466"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889291"
 ---
 # <a name="er-use-document-management-files-in-format-outputs-part-4---run-format"></a>ER dokumentų valdymo failų naudojimas formato išvestyse (4 dalis – formato paleidimas)
 

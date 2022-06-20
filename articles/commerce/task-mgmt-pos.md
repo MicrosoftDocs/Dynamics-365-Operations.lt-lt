@@ -1,6 +1,6 @@
 ---
 title: Užduočių valdymas EKA
-description: Šioje temoje aprašomas užduočių valdymas „Microsoft Dynamics 365 Commerce“ elektroninio kasos aparato (EKA) programoje.
+description: Šiame straipsnyje aprašomas užduočių valdymas point Microsoft Dynamics 365 Commerce (EKA) programoje.
 author: gvrmohanreddy
 ms.date: 02/10/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 3fb7d584b634b0a1e43ef6a02a9edcadc0927b36bd2a814fdfe947fb0e2e1917
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e61456b7ae79a2c82c96b5b669e95ad1818f71d8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772111"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878436"
 ---
 # <a name="task-management-in-pos"></a>Užduočių valdymas EKA
 
 [!include [banner](includes/banner.md)]
 
-Šioje temoje aprašomas užduočių valdymas „Microsoft Dynamics 365 Commerce“ elektroninio kasos aparato (EKA) programoje.
+Šiame straipsnyje aprašomas užduočių valdymas point Microsoft Dynamics 365 Commerce (EKA) programoje.
 
 „Dynamics 365 Commerce“ EKA programoje yra užduočių valdymo funkcijų, kurios leidžia parduotuvės vadybininkams ir darbuotojams tvarkyti užduotis ir naujinti užduočių būseną. Parduotuvės darbuotojai gali pasiekti užduotis, pasirinkdami EKA pagrindiniame puslapyje esančią plytelę **Užduotys** arba pasirinkdami užduočių pranešimus. Pagal numatytuosius nustatymus parduotuvės darbuotojai perkeliami į skirtuką **Mano užduotys**, kur gali peržiūrėti jiems priskirtas užduotis. Tačiau jie gali lengvai pereiti prie skirtukų **Pradelstos užduotys**, **Atviros užduotys** ir **Užduočių sąrašai**.
 

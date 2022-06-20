@@ -1,6 +1,6 @@
 ---
 title: ER konfigūracijų su „Excel” šablonais, skirtų ataskaitų „Word” formatu generavimui, pakartotinis naudojimas
-description: Šioje temoje aprašoma, kaip ataskaitai formatai, skirti generuoti ataskaitoms kaip „Excel” darbaknygėms, gali būti konfigūruojami ataskaitų kaip „Word” dokumentų konfigūravimui.
+description: Šiame straipsnyje aprašoma, kaip galima konfigūruoti ataskaitų formatus, kurie sukurti ataskaitoms generuoti kaip "Excel" darbaknygės, kad būtų galima generuoti ataskaitas kaip "Word" dokumentus.
 author: NickSelin
 ms.date: 04/23/2021
 ms.topic: business-process
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: de8286c7612cd588b28cf4667340374906962dde
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: 1e0fe9ba55be435fb214c9d0885dd4ef942f5081
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8324067"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910392"
 ---
 # <a name="reuse-er-configurations-with-excel-templates-to-generate-reports-in-word-format"></a>ER konfigūracijų su „Excel” šablonais, skirtų ataskaitų „Word” formatu generavimui, pakartotinis naudojimas
 
@@ -43,7 +43,7 @@ Taip pat turite atsisiųsti ir įrašyti vietoje šiuos šablonus ataskaitos pav
 
 ## <a name="select-the-existing-er-report-configuration"></a>Pasirinkite esamą ER ataskaitos konfigūraciją
 
-1. „Dynamics 365 Finance” eikite į **Organizacijos administravimas** \> **Darbo sritys** \> **Elektroninės ataskaitos**.
+1. Programoje "Dynamics 365 Finance" eikite į organizacijos **administravimo darbo** \> **sričių elektronines** \> **ataskaitas.**
 2. Įsitikinkite, kad konfigūracijos teikėjas **„Litware, Inc.“** yra pasirinktas kaip **Aktyvus**. Jeigu nėra, atlikite veiksmus, nurodytus [Kurkite konfigūracijos teikėjus ir pažymėkite juos kaip aktyvius](er-configuration-provider-mark-it-active-2016-11.md) užduočių vedlyje.
 3. Pasirinkite **Ataskaitų konfigūracijos**. Pakartotinai naudosite esamą ER konfigūraciją, kuri iš buvo sukurta ataskaitos išvesčiai „OPENXML” formatu generuoti.
 4. Puslapio **Konfigūracijos** konfigūracijų medžio kairėje srityje išskleiskite **Mokėjimo modelis**, o tada pasirinkite **Pavyzdinė darbalapio ataskaita**.

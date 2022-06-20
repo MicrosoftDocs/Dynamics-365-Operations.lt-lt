@@ -1,6 +1,6 @@
 ---
 title: Ekrano ER paskirties vietos tipas
-description: Šioje temoje pateikiama informacija apie tai, kaip konfigūruoti ekrano paskirties vietą kiekvienam aplanko ar failo komponentui elektroninių ataskaitų (ER) formatu.
+description: Šiame straipsnyje pateikiama informacija apie tai, kaip konfigūruoti ekrano paskirties vietą kiekvienam aplankui ar failo komponentui elektroninės ataskaitos (ER) formatu.
 author: NickSelin
 ms.date: 01/23/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 2855ac9eb0248a65973898b107d33fc86ac9c1324dafaaf1606b76d8e82f3a8f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 19a0e5f9809511918a2fa1fd65e401c54c0568c9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6721957"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8898804"
 ---
 # <a name="screen-destination"></a>Ekrano paskirties vieta
 

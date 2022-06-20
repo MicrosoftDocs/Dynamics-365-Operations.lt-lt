@@ -1,6 +1,6 @@
 ---
 title: Vaizdų sąrašo modulis
-description: Šioje temoje aprašomi vaizdų sąrašo moduliai ir tai, kaip juos įtraukti į „Microsoft Dynamics 365 Commerce“ svetainių puslapius.
+description: Šiame straipsnyje aprašomi vaizdų sąrašo moduliai ir aprašoma, kaip įtraukti juos į svetainės puslapius Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 05/18/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 67da83410d819d01396d0b7d421076ee3b0f17ec
-ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
+ms.openlocfilehash: 8e47c9806c21de24f0e519d0132374d2e1ff2bbf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "8780848"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8892805"
 ---
 # <a name="image-list-module"></a>Vaizdų sąrašo modulis
 
 [!include [banner](includes/banner.md)]
 
-Šioje temoje aprašomi vaizdų sąrašo moduliai ir tai, kaip juos įtraukti į „Microsoft Dynamics 365 Commerce“ svetainių puslapius.
+Šiame straipsnyje aprašomi vaizdų sąrašo moduliai ir aprašoma, kaip įtraukti juos į svetainės puslapius Microsoft Dynamics 365 Commerce.
 
 Vaizdų sąrašo modulis gali būti naudojamas norint lengvai įtraukti vaizdų rinkinį (masyvą) į svetainės puslapius. Kiekvienas masyvo vaizdas gali būti sukonfigūruotas naudojant paragrafo tekstą ir saito URL. Vaizdų sąrašo modulis geriausiai tinka prekės ženklo logotipams arba sąrašui, kuriame yra logotipų, rodyti.
 

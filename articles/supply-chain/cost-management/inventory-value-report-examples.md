@@ -1,6 +1,6 @@
 ---
 title: Atsargų vertės ataskaitos pavyzdžiai ir logika
-description: Šioje temoje pateikiami rezultatų, kurie pateikiami kiekvieno tipo atsargų vertės ataskaitoje, pavyzdžiai. Atsargų vertės ataskaitose pateikiama informacija apie faktines ir finansines jūsų atsargų kiekius ir sumas.
+description: Šiame straipsnyje pateikiami kai kurie rezultatų, kurie pateikiami kiekvieno tipo atsargų vertės ataskaitoje, pavyzdžiai. Atsargų vertės ataskaitose pateikiama informacija apie faktines ir finansines jūsų atsargų kiekius ir sumas.
 author: JennySong-SH
 ms.date: 10/19/2021
 ms.topic: article
@@ -11,24 +11,24 @@ ms.search.region: Global
 ms.author: yanansong
 ms.search.validFrom: 2021-10-19
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 0d594fc18a104c434a334a5b6d1d249330a6be9a
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: e6c6387be5204fde6ebc7a4983567801900974af
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8675325"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8877659"
 ---
 # <a name="inventory-value-report-examples-and-logic"></a>Atsargų vertės ataskaitos pavyzdžiai ir logika
 
 [!include [banner](../includes/banner.md)]
 
-Atsargų vertės ataskaitose pateikiama informacija apie faktines ir finansines jūsų atsargų kiekius ir sumas. Šioje temoje pateikiami rezultatų, kurie pateikiami kiekvieno tipo atsargų vertės ataskaitoje, pavyzdžiai.
+Atsargų vertės ataskaitose pateikiama informacija apie faktines ir finansines jūsų atsargų kiekius ir sumas. Šiame straipsnyje pateikiami kai kurie rezultatų, kurie pateikiami kiekvieno tipo atsargų vertės ataskaitoje, pavyzdžiai.
 
 Daugiau informacijos apie tai, kaip generuoti ir naudoti kiekvieną atsargų vertės ataskaitos tipą, ieškokite [atsargų vertės ataskaitose](inventory-value-report-storage.md).
 
 ## <a name="sample-data-that-is-used-in-these-examples"></a>Duomenų, naudojamų šiuose pavyzdžiuose, pavyzdys
 
-Šios temos pavyzdžiai pagrįsti atsargų operacijų duomenų pavyzdžiu, aprašytu šioje dalyje.
+Šiame straipsnyje pateikti pavyzdžiai pagrįsti atsargų operacijų duomenų pavyzdžiais, aprašytais šiame skyriuje.
 
 ### <a name="storage-dimension-setup"></a>Saugyklos dimensijos nustatymas
 
@@ -70,7 +70,7 @@ Pavyzdyje sistema apima atsargų vertės ataskaitos konfigūraciją, kuri turi �
 
 ## <a name="inventory-value-report-example-1"></a>1 atsargų vertės ataskaitos pavyzdys
 
-Šioje lentelėje ir pavyzdyje pateikiami rezultatai, kai naudojate pavyzdinį duomenų pavyzdį ir ataskaitos konfigūraciją, aprašytus anksčiau šioje temoje.
+Toliau pateikiamoje lentelėje ir iliustracijoje pateikiami rezultatai, kai naudojate pavyzdinį duomenų pavyzdį ir ataskaitos konfigūraciją, aprašytus anksčiau šiame straipsnyje.
 
 | Išteklių tipas | Ištekliai | Svetainė | Nuoroda | Atsargos: finansinis kiekis | Atsargos: finansinė suma | Atsargos: faktinis užregistruotas kiekis | Atsargos: faktinė užregistruota suma | Atsargos: kiekis | Atsargos: suma | Vidutinė vieneto savikaina |
 |---|---|---|---|---|---|---|---|---|---|---|
@@ -91,7 +91,7 @@ Toliau pateikta iliustracija rodo **atsargų vertės ataskaitos saugojimo ataska
 
 ## <a name="inventory-value-report-example-2"></a>2 atsargų vertės ataskaitos pavyzdys
 
-Ši lentelė ir iliustracijos rodo rezultatus, kai naudojate pavyzdinį duomenis, aprašytus anksčiau šioje temoje, **·** *tačiau* pakeičiate lauko Level vertę į Operacijos ataskaitos konfigūracijoje **ir** *ataskaitos konfigūravimo metu nustatote lauką Nuo datos į kovo 15* d., kai paleidžiate ataskaitą.
+Ši lentelė ir iliustracijos rodo rezultatus, kai naudojate pavyzdinį duomenis, kurie aprašomi anksčiau šiame straipsnyje, tačiau pakeičiate lauko Level vertę į Operacijos ataskaitos konfigūracijoje ir ataskaitos konfigūravimo metu nustatote lauką Nuo datos į kovo 15 d., **·** *·* **·** *kai paleidžiate ataskaitą.*
 
 | Išteklių tipas | Ištekliai | Svetainė | Data | Skaičius | Nuoroda | Atsargos: finansinis kiekis | Atsargos: finansinė suma | Atsargos: faktinis užregistruotas kiekis | Atsargos: faktinė užregistruota suma | Atsargos: kiekis | Atsargos: suma |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -127,7 +127,7 @@ Toliau pateikti poskyriai rodo atsargų vertės ataskaitas, sugeneruotas uždari
 
 ### <a name="example-3-when-the-totals-level-is-used"></a>3 pavyzdys, kai naudojamas bendrųjų sumų lygis
 
-Toliau pateikiamoje lentelėje pateikiami rezultatai, kai naudojate pavyzdinį duomenų pavyzdį ir ataskaitos konfigūraciją, aprašytus anksčiau šioje temoje. (Šioje ataskaitos konfigūracijoje **Lauke** Level nustatyta bendroji *suma*.)
+Toliau pateikiamoje lentelėje pateikiami rezultatai, kai naudojate pavyzdinį duomenų ir ataskaitos konfigūraciją, aprašytus anksčiau šiame straipsnyje. (Šioje ataskaitos konfigūracijoje **Lauke** Level nustatyta bendroji *suma*.)
 
 | Išteklių tipas | Ištekliai | Svetainė | Nuoroda | Atsargos: finansinis kiekis | Atsargos: finansinė suma | Atsargos: faktinis užregistruotas kiekis | Atsargos: faktinė užregistruota suma | Atsargos: kiekis | Atsargos: suma | Vidutinė vieneto savikaina |
 |---|---|---|---|---|---|---|---|---|---|---|
@@ -136,7 +136,7 @@ Toliau pateikiamoje lentelėje pateikiami rezultatai, kai naudojate pavyzdinį d
 
 ### <a name="example-3-when-the-transactions-level-is-used"></a>3 pavyzdys, kai naudojamas operacijų lygis
 
-Toliau pateikiamoje lentelėje pateikiami rezultatai, kai naudojate pavyzdinį duomenų pavyzdį, kuris aprašytas anksčiau šioje temoje, **·** *tačiau* pakeičiate lauko Lygis vertę į Operacijos ataskaitos konfigūracijoje.
+Toliau pateikiamoje lentelėje pateikiami rezultatai, kai naudojate pavyzdinį duomenų pavyzdį, kuris aprašytas anksčiau šiame straipsnyje, **·** *tačiau* lauko Lygis vertę pakeičiate į Ataskaitos konfigūracijos operacijos.
 
 | Išteklių tipas | Ištekliai | Svetainė | Data | Skaičius | Nuoroda | Atsargos: finansinis kiekis | Atsargos: finansinė suma | Atsargos: faktinis užregistruotas kiekis | Atsargos: faktinė užregistruota suma | Atsargos: kiekis | Atsargos: suma |
 |---|---|---|---|---|---|---|---|---|---|---|---|

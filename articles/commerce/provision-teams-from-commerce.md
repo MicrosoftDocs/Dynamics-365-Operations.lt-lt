@@ -1,6 +1,6 @@
 ---
 title: „Microsoft Teams” parengimas iš „Dynamics 365 Commerce”
-description: Šioje temoje aprašoma, kaip parengti „Microsoft Teams” naudojant organizacinius duomenis iš „Dynamics 365 Commerce”.
+description: Šiame straipsnyje aprašoma, kaip parengti Microsoft Teams naudojant organizacijos duomenis iš Dynamics 365 Commerce.
 author: gvrmohanreddy
 ms.date: 03/31/2021
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-01-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 54c85d1b6b51b7b2608200a7fa8e343ac6d008d0
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 3dc9d0f20ec251f0908dda0017adaaeac1b43856
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8690505"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868940"
 ---
 # <a name="provision-microsoft-teams-from-dynamics-365-commerce"></a>„Microsoft Teams” parengimas iš „Dynamics 365 Commerce”
 
 [!include [banner](includes/banner.md)]
 
-Šioje temoje aprašoma, kaip parengti „Microsoft Teams” naudojant organizacinius duomenis iš „Dynamics 365 Commerce”.
+Šiame straipsnyje aprašoma, kaip parengti Microsoft Teams naudojant organizacijos duomenis iš Dynamics 365 Commerce.
 
 „Dynamics 365 Commerce” leidžia lengvai parengti „Teams”, jeigu ten dar nenustatėte komandų savo mažmeninės prekybos parduotuvėms. Pasinaudodami gerai apibrėžtą informacija iš „Commerce”, kurią norite naudoti „Teams”, galite padėti savo parduotuvės darbuotojams pradėti naudotis „Teams” platforma. Ši informacija apima organizacijos hierarchiją, parduotuvių pavadinimus, darbuotojų informaciją ir „Azure Active Directory” (Azure AD) abonementus. 
 

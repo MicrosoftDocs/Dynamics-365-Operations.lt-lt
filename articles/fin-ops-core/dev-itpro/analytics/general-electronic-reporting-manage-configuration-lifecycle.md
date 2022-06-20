@@ -1,6 +1,6 @@
 ---
 title: Elektroninių ataskaitų (ER) konfigūracijų ciklo valdymas
-description: Šioje temoje aprašoma, kaip valdyti „Dynamics 365 Finance“ Elektroninių ataskaitų (ER) konfigūracijų ciklą.
+description: Šiame straipsnyje aprašoma, kaip valdyti "Dynamics 365 Finance" elektroninių ataskaitų (ER) konfigūracijų ciklą.
 author: NickSelin
 ms.date: 07/23/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b8b61082cf17707c952b6e07613769a671c349bb8fa92c21e3fe8524ef62dcb2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0220fa03283119471b3d1f78a23a04ed4036264e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767784"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906803"
 ---
 # <a name="manage-the-electronic-reporting-er-configuration-lifecycle"></a>Elektroninių ataskaitų (ER) konfigūracijų ciklo valdymas
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje aprašoma, kaip valdyti „Dynamics 365 Finance“ Elektroninių ataskaitų (ER) konfigūracijų ciklą.
+Šiame straipsnyje aprašoma, kaip valdyti "Dynamics 365 Finance" elektroninių ataskaitų (ER) konfigūracijų ciklą.
 
 ## <a name="overview"></a>Apžvalga
 

@@ -1,6 +1,6 @@
 ---
 title: „Intrastat” įsigijimų ir išsiuntimų registravimas
-description: Šioje temoje pateikiamas pavyzdys, kuris rodo, kaip registruoti „Intrastat” įsigijimus ir išsiuntimus.
+description: Šiame straipsnyje pateikiamas pavyzdys, kaip registruoti Intrastat gymus ir išsiuntimus.
 author: anasyash
 ms.date: 8/23/2021
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: kfend
 ms.search.region: Global
 ms.author: anasyash
 ms.search.validFrom: ''
-ms.openlocfilehash: 4ab4402740d199043519773b18732bdde9a0fb2f
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: aef20f0261e103be7fe231a7efb39751ab4d1151
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8724789"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8862970"
 ---
 # <a name="post-arrivals-and-dispatches-for-intrastat"></a>„Intrastat” įsigijimų ir išsiuntimų registravimas
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje pateikiamas pavyzdys, kuris rodo, kaip registruoti „Intrastat” įsigijimus ir išsiuntimus. Šiame pavyzdyje naudojamas juridinis subjektas **ITCO**.
+Šiame straipsnyje pateikiamas pavyzdys, kaip registruoti Intrastat gymus ir išsiuntimus. Šiame pavyzdyje naudojamas juridinis subjektas **ITCO**.
 
 ## <a name="setup"></a>Sąranka
 
@@ -32,7 +32,7 @@ ms.locfileid: "8724789"
 
     Daugiau informacijos rasite skyriuje [ER konfigūracijų atsisiuntimas iš konfigūravimo tarnybos bendrosios saugyklos](../../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md).
 
-2. Microsoft Dynamics 365 finansuose ištisinės numeracijos nurodykite: **Generas397\_**, **Acco16403\_**, **Gene407\_** **ir PUREU.\_**
+2. Microsoft Dynamics 365 finansuose ištisinės numeracijos nurodykite: **Genas\_ 397**, **Acco\_ 16403**, **Genas\_ 407** ir **PUR\_ ES**.
 
     1. Pasirinkite **Organizacijos administravimas** > **Numeracijos** > **Numeracijos**.
     2. Tinklelyje pasirinkite vieną iš numeracijų kodų.

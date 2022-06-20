@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: benebotg
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: f71ce701adbe60b69b25e41810dda7adeec1d390
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 5d1ea1517c75393b1c8d7c95c8aa2405042b4532
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983799"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850647"
 ---
 # <a name="product-lifecycle-state-overview"></a>Produkto ciklo būsenos apžvalga
 
@@ -74,7 +74,7 @@ Produktų ciklo būsenas palaiko duomenų objektai ir ciklo būseną galima nust
 
 ## <a name="find-obsolete-products-and-products-variants"></a>Pasenusių produktų ir produktų variantų radimas
 
-Galite vykdyti modeliavimo analizę, norėdami rasti pasenusius išleistus produktus arba produkto variantus ir tada atnaujinti jų produkto ciklo būseną. Norėdami surasti nebegaliojančius produktus, žr. [Surasti nebegaliojančius produktų variantus ir priskirti produkto gyvavimo ciklo būseną](tasks/obsolete-product-variants.md). Šioje temoje aprašom, kaip surasti nebegaliojančius išleistus produktus ar jų variantus ir kaip susieti produkto gyvavimo ciklo būseną su nebegaliojančiais produktais. Jame taip pat parodoma, kaip peržiūrėti modeliavimo rezultatus ir įvertinti, kiek produktų ir produkto variantų bus susieti su nauja produkto ciklo būsena vykdant naujinimą be modeliavimo.  
+Galite vykdyti modeliavimo analizę, norėdami rasti pasenusius išleistus produktus arba produkto variantus ir tada atnaujinti jų produkto ciklo būseną. Norėdami surasti nebegaliojančius produktus, žr. [Surasti nebegaliojančius produktų variantus ir priskirti produkto gyvavimo ciklo būseną](tasks/obsolete-product-variants.md). Šiame straipsnyje parodyta, kaip rasti nebenaudojami išleisti produktai arba produkto variantai ir kaip susieti produkto ciklo būseną su nebenaudojamais produktais. Jame taip pat parodoma, kaip peržiūrėti modeliavimo rezultatus ir įvertinti, kiek produktų ir produkto variantų bus susieti su nauja produkto ciklo būsena vykdant naujinimą be modeliavimo.  
 
 Vykdydami analizę modeliavimo režimu, produktai ir produkto variantai, identifikuoti kaip pasenę, rodomi konkrečioje formoje, kurioje juos galima lengvai peržiūrėti. Atliekant analizę ieškoma operacijų ir konkrečių bendrųjų duomenų, kad būtų identifikuoti produktai, kurių poreikio nėra per kintantį laikotarpį ir iš poreikio negalima generuoti jokių bendrųjų duomenų. Naujų išleistų produktų per kintantį laikotarpį galima neįtraukti į analizę. Kai analizės modeliavimas pateikia numatytąjį rezultatą, vartotojas gali vykdyti analizę ir nustatyti visų produktų, kurie analizėje nurodyti kaip pasenę, naują produkto ciklo būseną.  
 
@@ -97,7 +97,7 @@ Naudokite toliau nurodytus išleistų produktų arba produkto variantų pasirink
 - Nėra produkto arba produkto varianto aktyvių ar būsimų pardavimo arba pirkimo sutarties eilučių.
 - Produktas arba produkto variantas nenaudojamas KS, susietoje su produkto arba varianto, kuris planavime nustatytas kaip aktyvus, nepasibaigusia patvirtinta KS versija.
 
-## <a name="related-topics"></a>Susijusios temos
+## <a name="related-articles"></a>Susiję straipsniai
 
 - [Naujos produkto ciklo būsenos kūrimas](tasks/new-product-lifecycle-state.md)
 - [Numatytosios produkto ciklo būsenos kūrimas](tasks/default-product-lifecycle-state.md)

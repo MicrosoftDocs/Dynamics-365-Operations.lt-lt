@@ -1,6 +1,6 @@
 ---
 title: Objekto duomenų peržiūra ir atnaujinimas programoje „Excel“
-description: Šioje temoje paaiškinama, kaip programoje „Microsoft Excel“ atidaryti objektų duomenis ir naudojant „Microsoft Dynamics“ „Excel“ papildinį peržiūrėti, atnaujinti ir redaguoti šiuos duomenis.
+description: Šiame straipsnyje paaiškinama, kaip atidaryti objekto Microsoft Excel duomenis ir peržiūrėti, atnaujinti ir redaguoti duomenis Microsoft Dynamics naudojant "Excel" papildinį.
 author: jasongre
 ms.date: 05/16/2022
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f5090674fc4f7c49c55a8a12aea8c567545d519f
-ms.sourcegitcommit: 9f11ce4d24f546e96ab794a23479a43a89b742f0
+ms.openlocfilehash: 8a05c34454e27244bb08bfff84f2ada6ff498f23
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/16/2022
-ms.locfileid: "8762659"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8862161"
 ---
 # <a name="view-and-update-entity-data-with-excel"></a>Objekto duomenų peržiūra ir atnaujinimas programoje „Excel“ 
 
@@ -31,7 +31,7 @@ ms.locfileid: "8762659"
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 
-Šioje temoje paaiškinama, kaip programoje „Microsoft Excel“ atidaryti objektų duomenis ir naudojant „Microsoft Dynamics“ „Excel“ papildinį peržiūrėti, atnaujinti ir redaguoti šiuos duomenis. Norėdami atidaryti objekto duomenis galite pradėti nuo "Excel" arba finansų ir operacijų programėlių.
+Šiame straipsnyje paaiškinama, kaip atidaryti objekto Microsoft Excel duomenis ir peržiūrėti, atnaujinti ir redaguoti duomenis Microsoft Dynamics naudojant "Excel" papildinį. Norėdami atidaryti objekto duomenis galite pradėti nuo "Excel" arba finansų ir operacijų programėlių.
 
 Kai programoje „Excel“ atidarysite objektų duomenis, naudodami „Excel“ papildinį galėsite greitai ir paprastai peržiūrėti bei redaguoti šiuos duomenis. Norint įdiegti šį papildinį, būtina naudoti 2016 m. ar vėlesnių versijų „Microsoft Excel“.
 

@@ -1,6 +1,6 @@
 ---
 title: Produktų informacijos peržiūra
-description: Šioje temoje pateikiama informacijos apie produktų informacijos valdymą. Valdant produktų informaciją, dirbama su bendrinama produkto apibrėžtimi, kategorizacija ir identifikatoriais visuose juridiniuose subjektuose bei konkrečiomis produkto konfigūracijomis, kad būtų galima prisiderinti prie verslo procesų.
+description: Šiame straipsnyje pateikiama informacija apie produkto informacijos valdymą. Valdant produktų informaciją, dirbama su bendrinama produkto apibrėžtimi, kategorizacija ir identifikatoriais visuose juridiniuose subjektuose bei konkrečiomis produkto konfigūracijomis, kad būtų galima prisiderinti prie verslo procesų.
 author: t-benebo
 ms.date: 06/01/2017
 ms.topic: overview
@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2c8aabeed66f864d1d1060a6452a3b554611c295
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: fa06e718d2acc44cfced7db842814c48fb210d1e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8063321"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8867875"
 ---
 # <a name="product-information-overview"></a>Produktų informacijos peržiūra
 
@@ -28,7 +28,7 @@ ms.locfileid: "8063321"
 
 
 
-Šioje temoje pateikiama informacijos apie produktų informacijos valdymą. Valdant produktų informaciją, dirbama su bendrinama produkto apibrėžtimi, kategorizacija ir identifikatoriais visuose juridiniuose subjektuose bei konkrečiomis produkto konfigūracijomis, kad būtų galima prisiderinti prie verslo procesų. 
+Šiame straipsnyje pateikiama informacija apie produkto informacijos valdymą. Valdant produktų informaciją, dirbama su bendrinama produkto apibrėžtimi, kategorizacija ir identifikatoriais visuose juridiniuose subjektuose bei konkrečiomis produkto konfigūracijomis, kad būtų galima prisiderinti prie verslo procesų. 
 
 Informacija apie produktus yra tiekimo grandinės ir prekybos programų pagrindas visose pramonės šakose. Ji nurodo procesus ir technologijas, kuriuos naudojant pirmiausia centralizuotai valdoma informacija apie produktus (pavyzdžiui, keliose tiekimo grandinėse). Labai svarbu, kad būtų naudojamos bendrinamos produktų apibrėžtys, dokumentacija, atributai ir identifikatoriai. Įvairiuose verslo sprendimo moduliuose būtina turėti konkretaus produkto informaciją ir konfigūraciją, kad būtų galima valdyti verslo procesus, susijusius su konkrečiais produktais, produktų šeimomis ar produktų kategorijomis.
 

@@ -1,6 +1,6 @@
 ---
 title: Pavojingų medžiagų apžvalga
-description: Šioje temoje pateikiama funkcijų, susijusių su pavojingų medžiagų tvarkymu ir fiksavimu produkto informacijos valdymo ir sandėlio valdymo metu, apžvalga.
+description: Šiame straipsnyje pateikiama priemonių, susijusių su pavojingomis medžiagomis tvarkant ir dokumentuojant produkto informacijos valdymą ir sandėlio valdymą, apžvalga.
 author: t-benebo
 ms.date: 06/10/2020
 ms.topic: overview
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: cfea2cd6a2699bdf2a14de72a8bdeb3e8cd32a17
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: c2cae4cb65dd163e9fbf1d24cff5a0a040e3ce3a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7986281"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8905811"
 ---
 # <a name="hazardous-materials-overview"></a>Pavojingų medžiagų apžvalga
 
@@ -50,7 +50,7 @@ Produkto informacijos valdymas pateikia nustatymo lentelių diapazoną, kuriame 
 
 Kiekvienas nuostatų rinkinys pateikia standartizuotus pavojingų prekių sąrašus ir nuorodų kodus. Taigi, Supply Chain Management pateikia tų sąrašų bendrųjų kodų nuorodų lentelę. Kiekvienas sąrašas turi kelius unikalius kodus, kuriuos Jūs galite apibrėžti.
 
-Daugiau informacijos apie tai, kaip nustatyti pavojingų medžiagų nuostatas ir reikšmes ir kaip priskirti reikšmes atitinkamiems produktams, žr. šias temas:
+Norėdami gauti daugiau informacijos apie tai, kaip nustatyti pavojingos medžiagos taisykles ir vertes, ir kaip priskirti vertes atitinkamiems produktams, žr. šiuos straipsnius:
 
 - [Pavojingų medžiagų nustatymas](hazmat-setup.md)
 - [Pavojingos medžiagos produktuose, siuntose ir kroviniuose](hazmat-items.md)

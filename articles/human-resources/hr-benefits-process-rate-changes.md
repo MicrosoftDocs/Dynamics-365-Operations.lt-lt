@@ -1,6 +1,6 @@
 ---
 title: Tarifo keitimų apdorojimas
-description: Šioje temoje paaiškinama, kaip apdoroti gyvenimo įvykio keitimus „Microsoft Dynamics 365 Human Resources“.
+description: Šiame straipsnyje paaiškinama, kaip apdoroti išmokų tarifų pokyčius "Microsoft"Dynamics 365 Human Resources.
 author: twheeloc
 ms.date: 08/23/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c1eea61df6dd5fbe0b52a21944deba69928b5125
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 09714c70cb00b1a1b5dbd4613bbd70ff11d35cb2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8696132"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8882959"
 ---
 # <a name="process-rate-changes"></a>Tarifo keitimų apdorojimas
 
@@ -28,7 +28,7 @@ ms.locfileid: "8696132"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Šioje temoje paaiškintas tarifo pakeitimų apdorojimas programoje „Microsoft Dynamics 365 Human Resources“, kai pasikeičia naujo ar esamo išmokų plano tinkamumo taisyklių parametrai. Jei sukuriama nauja tinkamumo taisyklė ir priskiriama planui, sistema iš naujo patikrina darbuotojo tinkamumą ir nustato, ar pagal naujas tinkamumo parinktis jis turi teisę gauti šį planą. 
+Šiame straipsnyje paaiškinama, kaip apdoroti išmokų tarifo keitimus "Microsoft Dynamics 365 Human Resources ", kai naujame arba esamame išmokų plane yra tinkamumo taisyklės parametrų pakeitimas. Jei sukuriama nauja tinkamumo taisyklė ir priskiriama planui, sistema iš naujo patikrina darbuotojo tinkamumą ir nustato, ar pagal naujas tinkamumo parinktis jis turi teisę gauti šį planą. 
 
 1. Darbo srities **Išmokų valdymas** dalyje **Apdorojimas** pasirinkite **Tarifo pakeitimo naujinimo apdorojimas**.
 

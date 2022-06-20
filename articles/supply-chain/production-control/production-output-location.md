@@ -1,6 +1,6 @@
 ---
 title: Gamybos išeigos vieta
-description: Šioje temoje aprašoma hierarchija, naudojama gamybos išeigos vietai nustatyti.
+description: Šiame straipsnyje aprašoma hierarchija, naudojama gamybos išeigos vietai identifikuoti.
 author: johanhoffmann
 ms.date: 04/04/2017
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: f4c8086e9179ff51f62ce77620af96360c6123060372dfd1c0e06dad79998b75
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5bfabae39d3bcb8f7fdd71ac5c93fcdbaeb9d946
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720281"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893300"
 ---
 # <a name="production-output-location"></a>Gamybos išeigos vieta
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje aprašoma hierarchija, naudojama gamybos išeigos vietai nustatyti.
+Šiame straipsnyje aprašoma hierarchija, naudojama gamybos išeigos vietai identifikuoti.
 
 Gamybos išeigos vieta yra vieta, kurioje baigta prekė saugoma ją pagaminus. Paprastai ši vieta yra netoli baigtos prekės gamybos proceso vietos. Gamybos išeigos vieta naudojama kaip tarpinė medžiagos saugykla prieš ją perkeliant į siuntimo zoną, saugojimo vietą, proceso pabaigos gamybos proceso gamybos įvesties vietą ir t. t. 
 

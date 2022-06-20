@@ -1,6 +1,6 @@
 ---
 title: Kas pasikeitė „Dynamics 365 Supply Chain Management“ 10.0.26 versijoje (2022 m. kovo mėn.)?
-description: Šioje temoje aprašomos naujos ir pakeistos „Microsoft Dynamics 365 Supply Chain Management“ 10.0.26 funkcijos.
+description: Šiame straipsnyje aprašomos priemonės, kurios yra naujos arba pakeistos programoje Microsoft Dynamics 365 Supply Chain Management 10.0.26.
 author: kamaybac
 ms.date: 03/01/2022
 ms.topic: article
@@ -10,18 +10,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-03-01
 ms.dyn365.ops.version: 10.0.26
-ms.openlocfilehash: 0724045824f39f316c8b3dbb06a48eb6ca6dbef3
-ms.sourcegitcommit: 1050e58e621d9a0454895ed07c286936f8c03320
-ms.translationtype: MT
+ms.openlocfilehash: 73f2f9a819312d8d6e111b998c68b65ba85e7818
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "8625257"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850763"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10026-may-2022"></a>Kas pasikeitė „Dynamics 365 Supply Chain Management“ 10.0.26 versijoje (2022 m. kovo mėn.)?
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje pateikiamos naujos ir pakeistos „Microsoft Dynamics 365 Supply Chain Management“ 10.0.26 versijos funkcijos. Šios versijos komponavimo numeris yra 10.0.1192 ir jis pasiekiamas tokius būdu:
+Šiame straipsnyje pateikiamos funkcijos, kurios yra naujos arba pakeistos "Microsoft Dynamics 365 Supply Chain Management " 10.0.26 versijoje. Šios versijos komponavimo numeris yra 10.0.1192 ir jis pasiekiamas tokius būdu:
 
 - **Peržiūros versijos išleidimas:** 2022 m. kovas
 - **Bendras leidimo pasiekiamumas (savaiminis naujinimas):** 2022 m. balandis
@@ -29,7 +29,7 @@ ms.locfileid: "8625257"
 
 ## <a name="features-included-in-this-release"></a>Funkcijos, įtrauktos į šį leidimą
 
-Tolesnėje lentelėje pateiktos funkcijos, kuri yra šiame leidime. Galime atnaujinti šią temą, kad būtų įtraukti funkcijų ištaisymai, įtraukti į komponavimo versiją publikavus šią temą.
+Tolesnėje lentelėje pateiktos funkcijos, kuri yra šiame leidime. Mes galime atnaujinti šį straipsnį, kad būtų įtrauktos priemonės, kurios buvo sukurtas kuriant šį straipsnį pirmą kartą publikuotame.
 
 | Funkcijos sritis | Funkcija | Daugiau informacijos | Įjungė   |
 |---|---|---|---|
@@ -56,11 +56,11 @@ Jei norite įjungti arba išjungti bet kurią iš šių priemonių, tai turite a
 
 ## <a name="new-and-updated-documentation-resources"></a>Nauji ir naujinti dokumentų šaltiniai
 
-Neseniai įtraukėme ir reikšmingai atnaujinome tolesnes pagalbos temas. Šios temos nebūtinai susijusios su naujomis funkcijomis, kurios buvo pridėtos prie šio leidimo, kaip išvardyta ankstesniuose skyriuose. Tačiau jos gali padėti gauti daugiau informacijos apie esamas funkcijas.
+Neseniai įtraukėme arba pastebimai atnaujinome šiuos žinyno straipsnius. Šie straipsniai nebūtinai susiję su naujomis funkcijomis, kurios buvo pridėtos prie šio leidimo, kaip išvardyta ankstesniuose skyriuose. Tačiau jos gali padėti gauti daugiau informacijos apie esamas funkcijas.
 
-| Funkcijos sritis | Naujos arba atnaujintos temos |
+| Funkcijos sritis | Nauji arba atnaujinti straipsniai |
 |---|---|
-| Kaštų valdymas | Atnaujinti pavyzdžiai ir diagramos buvo pridėti prie kiekvienos iš šių temų:<ul><li>[FIFO su faktine verte ir žymėjimu](../cost-management/fifo-physical-value-marking.md)</li><li>[LIFO su faktine verte ir žymėjimu](../cost-management/lifo-physical-value-marking.md)</li><li>[LIFO data su faktine verte ir žymėjimu](../cost-management/lifo-date-physical-value-marking.md)</li><li>[Einamoji vidutinė savikaina](../cost-management/running-average-cost-price.md)</li><li>[Svertinis vidurkis su faktine verte ir žymėjimu](../cost-management/weighted-average-physical-value-marking.md)</li></ul> |
+| Kaštų valdymas | Atnaujinti pavyzdžiai ir diagramos buvo pridėti prie kiekvieno iš šių straipsnių:<ul><li>[FIFO su faktine verte ir žymėjimu](../cost-management/fifo-physical-value-marking.md)</li><li>[LIFO su faktine verte ir žymėjimu](../cost-management/lifo-physical-value-marking.md)</li><li>[LIFO data su faktine verte ir žymėjimu](../cost-management/lifo-date-physical-value-marking.md)</li><li>[Einamoji vidutinė savikaina](../cost-management/running-average-cost-price.md)</li><li>[Svertinis vidurkis su faktine verte ir žymėjimu](../cost-management/weighted-average-physical-value-marking.md)</li></ul> |
 | Paraiškos | [Pirkimo užsakymo eilutės duomenų nesutapimai](../troubleshooting/procurement/purchase-order-line-data-issues.md) |
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
@@ -81,12 +81,12 @@ Patikrinkite ["Dynamics 365" ir pramonės debesys: 2022 išleidimo bangos 1 plan
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>Pašalintos ir pasenusios „Supply Chain Management“ funkcijos
 
-Temoje [Pašalintos arba pasenusios funkcijos „Dynamics 365 Supply Chain Management“](removed-deprecated-features-scm-updates.md) aprašomos „Supply Chain Management“ funkcijos, kurios yra pašalintos, yra suplanuotos pašalinti arba yra pasenusios.
+Straipsnyje [pašalintos arba pasenusios Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) funkcijos aprašomos priemonės, kurios buvo arba yra suplanuotos pašalinti arba pasenusios tiekimo grandinės valdymui.
 
 - *Pašalinta* funkcija nebėra įtraukta į produktą.
 - *Nebenaudojama* funkcija nebėra aktyviai tobulinama ir gali būti pašalinta iš būsimo naujinio.
 
-Prieš pašalinant iš produkto bet kokią funkciją, pranešimas apie nebenaudojimą bus paskelbtas [Pašalintos arba pasenusios funkcijos „Dynamics 365 Supply Chain Management“](removed-deprecated-features-scm-updates.md) temoje 12 mėnesių prieš pašalinimą.
+Prieš pašalinant bet kokią priemonę iš produkto, [Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) pranešimai dėl nušalinimo bus pereiti prie pašalintų arba pasenusių funkcijų 12 mėnesių prieš pašalinimą.
 
 Atlikus keitimus, kurie paveikia tik kompiliavimo laiką, bet yra dvejetainiškai suderinami su smėlio dėžės ir gamybos aplinka, nebenaudojimo laikas bus trumpesnis nei 12 mėnesių. Paprastai, tai yra funkciniai naujinimai, kuriuos reikia atlikti kompiliatoriui.
 

@@ -1,6 +1,6 @@
 ---
 title: Papildymas pagal vietos erdvę
-description: Šioje temoje pateikiama informacija apie vietos pajėgumo papildymo funkciją. Ši funkcija įjungia visus papildymo darbus, kurių bus reikalaujama kūrimo dieną ir valdo papildymo darbo prieinamumą siekiant užtikrinti, kad paėmimo vieta neišeis iš atsargų ir neviršys pajėgumo.
+description: Šiame straipsnyje pateikiama informacija apie papildymo per vietos pajėgumą funkciją. Ši funkcija įjungia visus papildymo darbus, kurių bus reikalaujama kūrimo dieną ir valdo papildymo darbo prieinamumą siekiant užtikrinti, kad paėmimo vieta neišeis iš atsargų ir neviršys pajėgumo.
 author: Mirzaab
 ms.date: 07/16/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 0c3dedc47558e98f63fb5883e4731bf021b9602b
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 72cda7608d55414ee62bc7dcc1e02e28f6212aff
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677932"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899243"
 ---
 # <a name="replenishment-over-location-capacity"></a>Papildymas pagal vietos erdvę
 
@@ -37,7 +37,7 @@ Tam, kad šioje temoje aprašyta funkcija būtų prieinama jūsų sistemoje, įj
 
 ## <a name="set-up-the-feature-for-the-example-scenario"></a>Nustatykite funkciją pavyzdiniam scenarijui
 
-Šis skyrius aprašo gaires ir pavyzdį, kuris rodo, kaip nustatyti šią funkciją ir paruošti pavyzdinius duomenis pavyzdiniam scenarijui, kuris pateiktas vėliau šiame skyriuje.
+Šiame skyriuje pateikiamos gairės ir pavyzdys, kuriame parodyta, kaip nustatyti šią priemonę ir paruošti pavyzdinių scenarijaus, kuris pateikiamas toliau šiame straipsnyje, duomenis.
 
 ### <a name="enable-sample-data"></a>Duomenų pavyzdžių įgalinimas
 
@@ -145,7 +145,7 @@ Papildymo šablonai yra taisyklių rinkiniai, valdantys kada ir kaip vieta yra p
 
 ## <a name="example-scenario"></a>Pavyzdinis scenarijus
 
-Po to, kai atliksite visus anksčiau aprašytus pavyzdžio duomenis esančius ir nustatytus, galite dirbti su šiuo scenarijumis tam, kad bandytumėte *Vietos pajėgumo papildymo* funkciją. Šiame scenarijuje rodomos vertės apima tai, kad jūs dirbate su standartiniais demonstraciniais duomenimis, kuriuos pasirinkote **USMF** teisiniame subjekte ir tai, kad rengiate pavyzdžio įrašus, kurie yra aprašyti anksčiau šiame skyriuje. Scenarijus taip pat naudingas kaip pavyzdys rodantis, kaip funkcija gali būti naudojama gamybos parametruose.
+Po to, kai atliksite visus anksčiau aprašytus pavyzdžio duomenis esančius ir nustatytus, galite dirbti su šiuo scenarijumis tam, kad bandytumėte *Vietos pajėgumo papildymo* funkciją. Vertės, rodomos šiame scenarijuje, tarkime, kad dirbate su standartiniais demonstraciniai duomenimis, **kuriuos pasirinkote USMF** juridinį subjektą ir paruošiote anksčiau šiame straipsnyje aprašytų pavyzdinių įrašų pavyzdžius. Scenarijus taip pat naudingas kaip pavyzdys rodantis, kaip funkcija gali būti naudojama gamybos parametruose.
 
 ### <a name="create-replenishment-work"></a>Kurti papildymo darbą
 

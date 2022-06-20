@@ -1,6 +1,6 @@
 ---
 title: Gamybos subrangos darbų valdymas
-description: Šioje temoje paaiškinama, kaip subrangos operacijos valdomos programoje „Dynamics 365 Supply Chain Management“. Kitaip tariant, paaiškinama, kaip tiekėjas valdo ištekliui priskirtas gamybos operacijas.
+description: Šiame straipsnyje paaiškinama, kaip valdomos subrangos operacijos Dynamics 365 Supply Chain Management. Kitaip tariant, paaiškinama, kaip tiekėjas valdo ištekliui priskirtas gamybos operacijas.
 author: johanhoffmann
 ms.date: 11/03/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7e80efc751ccf9243163d23ed48fd17923326f89
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: a0021d409f9f4a9b36effbd80a99766812572d5b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579384"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863801"
 ---
 # <a name="manage-subcontracting-work-in-production"></a>Gamybos subrangos darbų valdymas
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje paaiškinama, kaip subrangos operacijos valdomos programoje „Dynamics 365 Supply Chain Management“. Kitaip tariant, paaiškinama, kaip tiekėjas valdo ištekliui priskirtas gamybos operacijas.
+Šiame straipsnyje paaiškinama, kaip valdomos subrangos operacijos Dynamics 365 Supply Chain Management. Kitaip tariant, paaiškinama, kaip tiekėjas valdo ištekliui priskirtas gamybos operacijas.
 
 [Gamybos procesuose](production-process-overview.md) darbą gali atlikti ištekliai, kurie priklauso arba kuriuos administruoja tiekėjai. Paprastai tiekėjo ištekliai naudojami norint patenkinti periodiškai išaugusį poreikį, kuris viršija įmonės išteklių pajėgumą. Tiekėjas taip pat gali pasiūlyti specialių [išteklių resursų](resource-capabilities.md) arba išteklių už mažesnę kainą.  
 
@@ -63,7 +63,7 @@ Kai naudojama ši konfigūracija, įvertinus gamybos užsakymą sukuriamas susij
 Gamybos užsakyme gali būti daug operacijų ir kiekviena operacija gali būti paskirstyta kitam tiekėjui. Todėl galutiniam gamybos užsakymui įvykdyti gali reikėti kelių pirkimo užsakymų.
 
 ## <a name="subcontracting-of-production-flow-activities"></a>Subrangos arba gamybos eigos veiklos
-[„Lean manufacturing“](lean-manufacturing-overview.md) sprendimas subrangos darbą modeliuoją kaip paslaugą, kuri susijusi su [gamybos eigos](tasks/create-production-flow-version.md) veikla (užduočių vedlio tema). Todėl šio tipo subranga dar vadinama [veikla pagrįsta subranga.](activity-based-subcontracting.md) Pristatytas specialus išlaidų grupės tipas **Tiesioginė subranga** ir subrangos paslaugos nėra baigtų prekių KS dalis. Kai naudojate „lean manufacturing“, visos veiklos nurodomos naudojant „kanban“, kurias galima susieti su viena ar keliomis gamybos eigos veiklomis. Šis apibūdinimas yra panašus į gamybos užsakymų apibrėžimą. Tačiau gamybos užsakymai visada turi būti pasibaigti baigtu produktu, pusiau baigtam produktui tiekti galite kurti „kanban“. Nereikia įtraukti naujo produkto ir KS lygio.  
+"[Lean manufacturing](lean-manufacturing-overview.md)" sprendimas modelius subrangos darbas kaip paslauga, susijusi su gamybos eigos [veikla](tasks/create-production-flow-version.md) (užduočių vadovo straipsnis). Todėl šio tipo subranga dar vadinama [veikla pagrįsta subranga.](activity-based-subcontracting.md) Pristatytas specialus išlaidų grupės tipas **Tiesioginė subranga** ir subrangos paslaugos nėra baigtų prekių KS dalis. Kai naudojate „lean manufacturing“, visos veiklos nurodomos naudojant „kanban“, kurias galima susieti su viena ar keliomis gamybos eigos veiklomis. Šis apibūdinimas yra panašus į gamybos užsakymų apibrėžimą. Tačiau gamybos užsakymai visada turi būti pasibaigti baigtu produktu, pusiau baigtam produktui tiekti galite kurti „kanban“. Nereikia įtraukti naujo produkto ir KS lygio.  
 
 Kadangi „kanban“ taisyklės gali būti labai dinamiškos, gamybos eigoje galite modeliuoti skirtingas to pačio produkto tiekimo parinktis. Kai naudojate „lean“ subrangą, medžiagų srautas ir finansų srautas yra aiškiai atskirti. Visą medžiagų srautą nurodo „kanban“ veiklos. Paslaugos produktų gamybos užsakymus ir tų paslaugų gavimo registravimą galima automatizuoti, atsižvelgiant į gamybos eigos „kanban“ užduočių būseną. „Kanban“ užduotis galima pradėti ir baigti net prieš sukuriant pirkimo užsakymus. Subrangos dokumentus (paslaugos pirkimo užsakymą ir pirkimo gavimo dokumentą) galima sujungti pagal laikotarpį ir paslaugą. Todėl mažą pirkimo dokumentų ir eilučių skaičių galima išlaikyti net itin pasikartojančiose operacijose, kai tiekėjai subrangos paslaugas teikia vieningu srautu.
 

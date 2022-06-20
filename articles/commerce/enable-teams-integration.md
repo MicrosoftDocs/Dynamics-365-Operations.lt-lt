@@ -1,6 +1,6 @@
 ---
 title: „ Dynamics 365 Commerce” ir „Microsoft Teams” integravimo įgalinimas
-description: Šioje temoje aprašoma, kaip įgalinti „Microsoft Dynamics 365 Commerce” ir „Microsoft Teams” integravimą.
+description: Šiame straipsnyje aprašoma, kaip įgalinti ir Microsoft Dynamics 365 Commerce Microsoft Teams integruoti.
 author: gvrmohanreddy
 ms.date: 02/17/2021
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-01-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: dfada577ab97fdb9912c22d2399529f934b25d54
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 505e3854818e4d5b73fc1a22724be16036300c3b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8695739"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872833"
 ---
 # <a name="enable-dynamics-365-commerce-and-microsoft-teams-integration"></a>„ Dynamics 365 Commerce” ir „Microsoft Teams” integravimo įgalinimas
 
 [!include [banner](includes/banner.md)]
 
-Šioje temoje aprašoma, kaip įgalinti „Microsoft Dynamics 365 Commerce” ir „Microsoft Teams” integravimą.
+Šiame straipsnyje aprašoma, kaip įgalinti ir Microsoft Dynamics 365 Commerce Microsoft Teams integruoti.
 
 Norėdami sukonfigūruoti „Teams” su informacija iš „Dynamics 365 Commerce” ir sinchronizuoti užduočių valdymo funkcijas tarp „Teams” ir elektroninio kasos aparato (EKA) programos, turite įgalinti integravimo funkcijas „Commerce” būstinėje.
 

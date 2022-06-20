@@ -1,6 +1,6 @@
 ---
 title: Elektroninių pranešimų sąranka
-description: Šioje temoje pateikiama informacija apie tai, kaip nustatyti elektroninių pranešimų (EM) funkciją.
+description: Šiame straipsnyje pateikiama informacija apie tai, kaip nustatyti elektroninių pranešimų (EM) funkciją.
 author: liza-golub
 ms.date: 11/18/2021
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: elgolu
 ms.search.validFrom: 2021-06-23
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 652d8684473d1c1505a80eb1d860c57a214b9488
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 6ac6e4fbc37165a3126de3b1f937a43c980410b4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734225"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874557"
 ---
 # <a name="set-up-electronic-messages"></a>Elektroninių pranešimų sąranka
 
@@ -66,7 +66,7 @@ Toliau pateiktoje lentelėje aprašomi puslapio **Pranešimų būsenos** laukai.
 |---------------------|-------------|
 | Pranešimo būsena      | Įveskite unikalų pranešimo būsenos pavadinimą. Pranešimų būsenos naudojamos apibūdinti, kokia yra elektroninio laiško būsena kiekvieną akimirką. Jūsų įvedamas pavadinimas rodomas puslapyje **Elektroniniai pranešimai** ir su elektroniniais pranešimais susijusiame žurnale. |
 | Aprašas         | Įveskite pranešimo būsenos aprašą. |
-| Atsakymo tipas       | Pasirinkit atsako tipą pranešimo būsenai. Atlikus kai kuriuos apdorojimo veiksmus gali būti pateiktas daugiau nei vienas atsako tipas. Pavyzdžiui, tipo **Žiniatinklio tarnyba** veiksmas gali pateikti **Sėkmingai įvykdytas** arba **Techninė klaida** tipų atsakus – tai priklauso nuo vykdymo rezultato. Šiuo atveju nurodykite pranešimų būseną abiems atsako tipams. Daugiau informacijos apie veiksmų tipus ir su jais susijusius atsakų tipus rasite skyriuje [Pranešimų apdorojimo veiksmų tipai](#action-types), esančiame toliau šioje temoje. |
+| Atsakymo tipas       | Pasirinkit atsako tipą pranešimo būsenai. Atlikus kai kuriuos apdorojimo veiksmus gali būti pateiktas daugiau nei vienas atsako tipas. Pavyzdžiui, tipo **Žiniatinklio tarnyba** veiksmas gali pateikti **Sėkmingai įvykdytas** arba **Techninė klaida** tipų atsakus – tai priklauso nuo vykdymo rezultato. Šiuo atveju nurodykite pranešimų būseną abiems atsako tipams. Daugiau informacijos apie veiksmų tipus ir su jais susijusių atsakymų tipus rasite [šio](#action-types) straipsnio skyriuje Pranešimo apdorojimo veiksmų tipai. |
 | Pranešimo prekės būsena | Kartais elektroninio pranešimo būsena turi paveikti susijusių pranešimo elementų būseną. Šiame lauke pasirinkite pranešimo elemento būseną, kad ją susietumėte su pranešimo būsena. |
 | Leisti naikinti        | Pasirinkite šį žymės langelį, jei vartotojai turi galėti panaikinti elektroninius pranešimus, kurie turi šią būseną puslapyje **Elektroniniai pranešimai**. |
 
@@ -240,7 +240,7 @@ Toliau pateiktose lentelėse aprašomi puslapio **Pranešimų apdorojimo veiksma
 
 | Laukas                                     | aprašymas |
 |-------------------------------------------|-------------|
-| Veiksmo tipas                               | Pasirinkite veiksmo tipą. Informaciją apie galimas parinktis rasite skyriuje [Pranešimų apdorojimo veiksmų tipai](#action-types), esančiame toliau šioje temoje. |
+| Veiksmo tipas                               | Pasirinkite veiksmo tipą. Informacijos apie galimas pasirinktis žr. toliau šio [straipsnio skyriuje Pranešimo](#action-types) apdorojimo veiksmų tipai. |
 | Formato susiejimas                            | Pasirinkite ER formatą, kuris turi būti iškviestas veiksmui atlikti. Šis laukas galimas tik veiksmų tipams **Elektroninių ataskaitų eksportavimas**, **Elektroninių ataskaitų importavimas** ir **Elektroninių ataskaitų eksportavimo pranešimas**. |
 | URL kelio formato susiejimas               | Pasirinkite ER formatą, kuris turi būti iškviestas veiksmui atlikti. Šis formatas yra naudojamas kuriant URL adreso kelią, kuris bus įtrauktas į nurodytą pagrindinį pasirinkto žiniatinklio serverio interneto adresą. Šis laukas taikomas tik tipo **Žiniatinklio tarnyba** veiksmams. |
 | Pranešimo prekės tipas                         | Pasirinkite įrašų, kurių veiksmą reikia įvertinti, tipą. Šis laukas galimas veiksmų tipams **Pranešimo elemento vykdymo lygis**, **Elektroninių ataskaitų eksportavimas**, **Elektroninių ataskaitų importavimas** ir **Žiniatinklio tarnyba**, taip pat kai kuriems kitiems tipams. Jei šį lauką paliksite tuščią, bus vertinami visi pranešimų apdorojimui apibrėžti pranešimų elementų tipai. |

@@ -1,6 +1,6 @@
 ---
-title: Finansinių ataskaitų peržiūra
-description: Šioje temoje aprašoma, kaip peržiūrėti ir ištyrinti Microsoft Dynamics 365 finansų finansines ataskaitas. Tai apima informaciją apie įvairias parinktis, kurias galite taikyti finansinėms ataskaitoms, norėdami pakeisti jų išvaizdą ir jų duomenis.
+title: Peržiūrėti finansines ataskaitas
+description: Šiame straipsnyje aprašoma, kaip peržiūrėti ir naršyti finansines ataskaitas " Microsoft Dynamics 365 Finance". Tai apima informaciją apie įvairias parinktis, kurias galite taikyti finansinėms ataskaitoms, norėdami pakeisti jų išvaizdą ir jų duomenis.
 author: kweekley
 ms.date: 03/25/2019
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fec130ce7b05a8e0b8182a63679cf7b20983f1d0
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 2d4b28add4406b2248a2ce842072e577ecd760cd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8724421"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907898"
 ---
-# <a name="view-financial-reports"></a>Finansinių ataskaitų peržiūra
+# <a name="view-financial-reports"></a>Peržiūrėti finansines ataskaitas
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje aprašoma, kaip peržiūrėti ir naršyti finansines ataskaitas. Tai apima informaciją apie įvairias parinktis, kurias galite taikyti finansinėms ataskaitoms, norėdami pakeisti jų išvaizdą ir jų duomenis.
+Šiame straipsnyje aprašoma, kaip peržiūrėti ir ištyrinti finansines ataskaitas. Tai apima informaciją apie įvairias parinktis, kurias galite taikyti finansinėms ataskaitoms, norėdami pakeisti jų išvaizdą ir jų duomenis.
 
 ## <a name="financial-reporting-overview"></a>Finansinių ataskaitų apžvalga
 

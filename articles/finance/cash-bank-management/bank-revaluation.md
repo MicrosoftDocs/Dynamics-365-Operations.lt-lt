@@ -1,6 +1,6 @@
 ---
 title: Banko užsienio valiutos kurso pasikeitimas
-description: Šioje temoje pateikta banko užsienio valiutos kurso pasikeitimo proceso apžvalga. Temoje pateikiama informacija apie sąranką, proceso vykdymą, proceso apskaičiavimą ir kurso keitimo operacijų atšaukimą.
+description: Šiame straipsnyje pateikiama banko užsienio valiutos kurso pasikeitimo proceso apžvalga. Temoje pateikiama informacija apie sąranką, proceso vykdymą, proceso apskaičiavimą ir kurso keitimo operacijų atšaukimą.
 author: kweekley
 ms.date: 05/16/2019
 ms.topic: article
@@ -13,19 +13,19 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2019-03-08
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: a8ce792fdc0c6b441deaead32db04ee0246becc9
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: d68232af3e87cef2f86213211e6c87f7d654df33
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8711209"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863107"
 ---
 # <a name="bank-foreign-currency-revaluation"></a>Banko užsienio valiutos kurso pasikeitimas
 
 [!include [banner](../includes/banner.md)]
 
 
-Šioje temoje pateikta banko užsienio valiutos kurso pasikeitimo proceso apžvalga. Temoje aiškinama, kaip nustatyti ir vykdyti procesą, bei pateikiama informacija apie proceso apskaičiavimą. Temoje taip pat aiškinama, kaip atšaukti kurso keitimo operacijas, jei to prireiktų.
+Šiame straipsnyje pateikiama banko užsienio valiutos kurso pasikeitimo proceso apžvalga. Temoje aiškinama, kaip nustatyti ir vykdyti procesą, bei pateikiama informacija apie proceso apskaičiavimą. Temoje taip pat aiškinama, kaip atšaukti kurso keitimo operacijas, jei to prireiktų.
 
 Laikotarpio pabaigoje tvarkant apskaitos konvencijas būtina banko sąskaitų balansus užsienio valiuta perkainoti naudojant skirtingus valiutų kursų tipus (dabartinis, retrospektyvinis, vidurkio ir t. t.). Banko užsienio valiutos kurso pasikeitimo funkciją galima naudoti norint perkainoti vieną ar kelias banko sąskaitas. Be to, ši funkcija taip pat yra visuotinė. Tai reiškia, kad lankydamiesi viename puslapyje gali perkainoti visų juridinių subjektų, prie kurių turite prieigą, bankus.
 

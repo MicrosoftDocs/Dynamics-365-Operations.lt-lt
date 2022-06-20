@@ -1,6 +1,6 @@
 ---
 title: „Dynamics 365 Commerce“ produktų įvertinimų sinchronizavimas
-description: Šioje temoje aprašoma, kaip sinchronizuoti produktų įvertinimus naudojant „Microsoft Dynamics 365 Commerce“.
+description: Šiame straipsnyje aprašoma, kaip sinchronizuoti produkto įvertinimus Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
 ms.date: 02/06/2020
 ms.topic: article
@@ -15,22 +15,22 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 3ceac78e6dbc6f83ed4968f76672367e79bdd968
-ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
+ms.openlocfilehash: ac94a8b4505aba509f0a71ed36d32adac864aedf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7967955"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909340"
 ---
 # <a name="sync-product-ratings-in-dynamics-365-commerce"></a>„Dynamics 365 Commerce“ produktų įvertinimų sinchronizavimas
 
 [!include [banner](includes/banner.md)]
 
-Šioje temoje aprašoma, kaip sinchronizuoti produktų įvertinimus naudojant „Microsoft Dynamics 365 Commerce“.
+Šiame straipsnyje aprašoma, kaip sinchronizuoti produkto įvertinimus Microsoft Dynamics 365 Commerce.
 
 Norint produktų įvertinimus naudoti daugiakanaliuose, pvz., elektroniniame kasos aparate (EKA) ir skambučių centruose, produktų įvertinimus iš vertinimų ir atsiliepimų paslaugos reikia importuoti į „Commerce“ kanalo duomenų bazę. Kai produktų įvertinimai pateikiami daugiakanaliuose, jie gali netiesiogiai padėti klientams bendraujant su pardavimo darbuotojais.
 
-Šioje temoje aprašomos toliau nurodytos užduotys.
+Šiame straipsnyje aprašomos šios užduotys:
 
 1. Konfigūruokite **Produkto įvertinimų sinchronizavimo užduotį** kaip paketinę užduotį, kad galėtumėte sinchronizuoti produktų įvertinimus iš **Vertinimų ir atsiliepimų paslaugos**.
 1. Patikrinkite, ar produkto vertinimų sinchronizavimo paketinė užduotis sėkmingai įvykdyta.
@@ -133,11 +133,11 @@ Toliau pateiktoje iliustracijoje pateikiamas produkto įvertinimų skambučių c
 
 [Produktų įvertinimų sinchronizavimas](sync-product-ratings.md)
 
-[Neautomatinio vadovo įvertinimų ir atsiliepimų publikavimo įjungimas](manual-publish-rating-reviews.md)
+[Neautomatinio vadovo įvertinimų ir apžvalgų publikavimo įjungimas](manual-publish-rating-reviews.md)
 
-[Importuoti ir eksportuoti įvertinimus ir apžvalgas](import-export-reviews.md)
+[Įvertinimų ir atsiliepimų importavimas ir eksportavimas](import-export-reviews.md)
 
-[Konfigūruoti paslaugos autentifikavimą](service-to-service-auth.md)
+[Ryšių tarp tarnybų autentifikavimo konfigūravimas](service-to-service-auth.md)
 
 [DUK apie įvertinimus ir apžvalgas](ratings-reviews-faq.md)
 

@@ -1,6 +1,6 @@
 ---
 title: Pirkimo užsakymo kūrimas
-description: Šioje temoje parodyta, kaip kurti pirkimo užsakymą rankiniu būdu.
+description: Šiame straipsnyje parodyta, kaip sukurti pirkimo užsakymą rankiniu būdu.
 author: GalynaFedorova
 ms.date: 07/18/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c2fd627b9874b3e3f7aad71fb2970ddcc333a608
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 2a04a9f4a512a307efecb19703cd3df638ba5ff5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677400"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856083"
 ---
 # <a name="create-a-purchase-order"></a>Pirkimo užsakymo kūrimas
 
 [!include [banner](../../includes/banner.md)]
 
-Šioje temoje parodyta, kaip kurti pirkimo užsakymą rankiniu būdu. Pirkimo užsakymai dažniau kuriami automatiškai – atliekant bendrąjį planavimą, tiesioginį pristatymą ir kitus procesus. Pirkimo užsakymus paprastai kuria pirkimo agentas. Čia rodomą pavyzdį galima naudoti demonstracinių duomenų įmonėje USMF, naudojant įvairių veiksmų pastabose siūlomas reikšmes.
+Šiame straipsnyje parodyta, kaip sukurti pirkimo užsakymą rankiniu būdu. Pirkimo užsakymai dažniau kuriami automatiškai – atliekant bendrąjį planavimą, tiesioginį pristatymą ir kitus procesus. Pirkimo užsakymus paprastai kuria pirkimo agentas. Čia rodomą pavyzdį galima naudoti demonstracinių duomenų įmonėje USMF, naudojant įvairių veiksmų pastabose siūlomas reikšmes.
 
 
 ## <a name="create-the-purchase-order-header"></a>Pirkimo užsakymo antraštės kūrimas

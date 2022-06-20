@@ -1,6 +1,6 @@
 ---
 title: Įgalinti svečių išregistrų užsakymo peržvalgą
-description: Šioje temoje aprašoma, kaip įgalinti svečių registracijos užsakymų „Microsoft Dynamics 365 Commerce“ peržvalgą.
+description: Šiame straipsnyje aprašoma, kaip įgalinti svečių registracijos užsakymų peržvalgą Microsoft Dynamics 365 Commerce.
 author: stuharg
 ms.date: 12/03/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2021-08-15
 ms.dyn365.ops.version: Release 10.0.22
-ms.openlocfilehash: a2a10b122faae354b0ea002e43a9bd60157f6216
-ms.sourcegitcommit: 5f5a8b1790076904f5fda567925089472868cc5a
+ms.openlocfilehash: fe32bb59b6529dd9686ced92c1016f12a75a32d4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7891505"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8891992"
 ---
 # <a name="enable-order-lookup-for-guest-checkouts"></a>Įgalinti svečių išregistrų užsakymo peržvalgą
 
 [!include [banner](includes/banner.md)]
 
-Šioje temoje aprašoma, kaip įgalinti svečių registracijos užsakymų „Microsoft Dynamics 365 Commerce“ peržvalgą.
+Šiame straipsnyje aprašoma, kaip įgalinti svečių registracijos užsakymų peržvalgą Microsoft Dynamics 365 Commerce.
 
 Svečių tikrinimo priemonės užsakymo peržvalga leidžia klientams, kurie perka kaip svečio vartotojus, peržiūrėti savo užsakymus. Užsakymo peržvalgos galimybė naudinga, kai klientai nori atlikti tokius veiksmus, kaip produktų įvykdymo būsenos tikrinimas užsakyme, adreso, kuriuo buvo pristatytas užsakymas, patikrinimas, produkto užsakymas ar parduotuvės patvirtinimas, iš kurio bus paimtas užsakymas.
 
@@ -58,7 +58,7 @@ Norėdami įgalinti svečių tikrinimo užsakymų peržvalgą, turite įjungti �
 > [!NOTE]
 > Šios pasirinktys nurodo, kada anoniminiams svečiui rodomi asmeniniai duomenys, pvz., kliento adresas ir keturi paskutiniai kliento kredito kortelės numerio skaitmenys. Siekiant apsaugoti užregistruotų klientų privatumą, rekomenduojame pasirinkti tik **pasirinktį Svečio užsakymai**. Tačiau saugiausia pasirinktis yra **Niekada**.
 
-Kai pakeisite asmeninių duomenų įtraukti į svečių užsakymo peržvalgos **lauką**, "Commerce Headquarters" 1070 (kanalo konfigūracija) užduotį turite vykdyti nueidami į **"Retail" ir** "Commerce Retail" ir **\> "Commerce IT \> Distribution" grafiką**.
+**Kai** pakeisite asmeninių duomenų įtraukti į svečių užsakymo peržvalgos lauką, "Commerce Headquarters **" 1070 (kanalo konfigūracija) užduotį turite vykdyti nueidami į "Retail" ir "** **Commerce \> Retail" ir "Commerce IT \> Distribution" grafiką**.
 
 ## <a name="configure-the-order-lookup-module"></a>Konfigūruoti užsakymo peržvalgos modulį
 
@@ -66,7 +66,7 @@ Užsakymų peržvalgos modulis „Commerce" modulių bibliotekoje naudojamas for
 
 ## <a name="configure-the-order-details-page"></a>Konfigūruoti užsakymo informacijos puslapį
 
-Kad vartotojai galėtų peržiūrėti savo užsakymų informaciją, jūsų el. komercijos svetainėje turi būti sukonfigūruotas užsakymų informacijos puslapis, kad nebūtų reikalingas prisijungimas. Norėdami išjungti prisijungimo reikalavimus jūsų užsakymų informacijos puslapyje, atidarykite puslapį "Commerce" svetainės generatoriuje, medžio rodinyje pasirinkite numatytąjį puslapį (reikiamą) atžymę ir išvalykite žymės langelį **Prisijungti** **reikia**?
+Kad vartotojai galėtų peržiūrėti savo užsakymų informaciją, jūsų el. komercijos svetainėje turi būti sukonfigūruotas užsakymų informacijos puslapis, kad nebūtų reikalingas prisijungimas. Norėdami išjungti prisijungimo reikalavimus jūsų užsakymų informacijos puslapyje, atidarykite puslapį "Commerce" svetainės generatoriuje, **medžio rodinyje pasirinkite numatytąjį puslapį (reikiamą)** **atžymę ir išvalykite žymės langelį Prisijungti reikia?**
 
 ## <a name="add-a-link-to-order-details-in-transactional-emails"></a>Įtraukti saitą į užsakymo informaciją, esančią operacijos el. laiškuose
 

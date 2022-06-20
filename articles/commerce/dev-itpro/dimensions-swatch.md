@@ -1,6 +1,6 @@
 ---
 title: Konfigūruoti produkto dimensijų reikšmes, kad jos būtų rodomos kaip pavyzdžiai
-description: Šioje temoje aprašoma, kaip konfigūruoti produkto dimensijų reikšmes kaip pavyzdžius „Microsoft Dynamics 365 Commerce” būstinėje.
+description: Šiame straipsnyje aprašoma, kaip konfigūruoti produkto dimensijų vertes kaip snčiąnčią Microsoft Dynamics 365 Commerce pardavimo būstinę.
 author: anupamar-ms
 ms.date: 08/02/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: Retail
 ms.author: rapraj
 ms.search.validFrom: 2020-09-20
 ms.dyn365.ops.version: Retail 10.0.20 update
-ms.openlocfilehash: b1cef992b3d4e3889dd1d5dcc21a0d1ba3f55acc166f5003fc79f64fc54a8754
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a21e02a8e5aacfa5251b9b7bcbc451fa886d37f3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6764619"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8892657"
 ---
 # <a name="configure-product-dimension-values-to-appear-as-swatches"></a>Konfigūruoti produkto dimensijų reikšmes, kad jos būtų rodomos kaip pavyzdžiai
 
 [!include [banner](../../includes/banner.md)]
 
-Šioje temoje aprašoma, kaip konfigūruoti produkto dimensijų reikšmes kaip pavyzdžius „Microsoft Dynamics 365 Commerce” būstinėje. Daugiau informacijos apie produkto dimensijas rasite [Produkto dimensijos](../../supply-chain/pim/product-dimensions.md).
+Šiame straipsnyje aprašoma, kaip konfigūruoti produkto dimensijų vertes kaip snčiąnčią Microsoft Dynamics 365 Commerce pardavimo būstinę. Daugiau informacijos apie produkto dimensijas rasite [Produkto dimensijos](../../supply-chain/pim/product-dimensions.md).
 
 „Dynamics 365 Commerce” palaiko dydžio, stiliaus ir spalvos dimensijų naudojimą, kad būtų galima atspindėti produkto variantus. Produkto dimensijos turi draugiškus pavadinimus, rodomus produkto informacijos puslapiuose (PDP), kad būtų galima pasirinkti produkto variantus. Šių draugiškų pavadinimų pavyzdžiai yra „Mažas”, „Vidutinis” ir „Didelis” – dydžiams, o spalvoms – „Juoda” ir „Ruda”. Tačiau tuo atveju, jei produktas palaiko daugybę variantų, reikia kelių pasirinkimų kiekvienam produkto variantui peržiūrėti. Tačiau vartotojams gali būti lėta ir nuobodu naršyti bei rinktis produkto variantus.
 

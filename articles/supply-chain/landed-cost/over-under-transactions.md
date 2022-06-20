@@ -1,6 +1,6 @@
 ---
 title: Perviršio / trūkumo operacijos
-description: Šioje temoje pateikiama informacija, kuri padės jums nustatyti perviršio / trūkumo operacijų strategijų informaciją, kad sistema galėtų nustatyti, kaip valdyti prekių perviršio apdorojimą ir trūkumo apdorojimą gavimo metu.
+description: Šiame straipsnyje pateikiama informacija, kuri padės jums nustatyti operacijų perkrovos / apatinio apdorojimo strategijų informaciją, kad sistema galėtų nustatyti, kaip valdyti prekių perpildavimą ir ne toks apdorojimą gavimo metu.
 author: Weijiesa
 ms.date: 01/13/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2021-01-13
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 63ba27d3fe10441f5e0ad54e684aa6799b521c7a
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 79ce18a462f9c2f93dceec82da7ee0209ab61f78
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8687846"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845003"
 ---
 # <a name="overunder-transactions"></a>Perviršio/trūkumo operacijos
 

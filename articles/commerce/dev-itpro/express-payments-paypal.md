@@ -1,6 +1,6 @@
 ---
-title: Konfigūruoti "PayPal" skubius mokėjimus
-description: Šioje temoje aprašoma, kaip konfigūruoti siųstų "PayPal" mokėjimus, kad būtų galima greičiau patikrinti galimybes Microsoft Dynamics 365 Commerce.
+title: Sukonfigūruokite greituosius mokėjimus „PayPal“
+description: Šiame straipsnyje aprašoma, kaip konfigūruoti siųstų "PayPal" mokėjimus, kad būtų galima greičiau patikrinti galimybes Microsoft Dynamics 365 Commerce.
 author: BrianShook
 ms.date: 05/11/2022
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: 5fff17959e7ed9299df169c68b2ed07f6b7c7d2c
-ms.sourcegitcommit: e4cc43b06ef3f0f562849e2c960025cb244d6017
+ms.openlocfilehash: b69b7384992fb86370ff6881824a7d2c9a77d2c4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/12/2022
-ms.locfileid: "8743603"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8905287"
 ---
-# <a name="configure-express-payments-for-paypal"></a>Konfigūruoti "PayPal" skubius mokėjimus
+# <a name="configure-express-payments-for-paypal"></a>Sukonfigūruokite greituosius mokėjimus „PayPal“
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje aprašoma, kaip konfigūruoti siųstų "PayPal" mokėjimus, kad būtų galima greičiau patikrinti galimybes Microsoft Dynamics 365 Commerce.
+Šiame straipsnyje aprašoma, kaip konfigūruoti siųstų "PayPal" mokėjimus, kad būtų galima greičiau patikrinti galimybes Microsoft Dynamics 365 Commerce.
 
 ## <a name="key-terms"></a>Pagrindiniai terminai
 
@@ -28,7 +28,7 @@ ms.locfileid: "8743603"
 |---|---|
 | "PayPal" pavedimas | PayPal jungtis palaiko klientų patirtį ir integravimą. Tai taip pat vadinama PayPal mygtuku. |
 | Piniginė | Mokėjimo tipas, į kurį nėra įtrauktos tradicinės mokėjimo charakteristikos, pvz., banko identifikavimo numerių (TALPYKLOS) diapazonas ir galiojimo data, kurie naudojami kredito ir debeto kortelių tipams atskirti. |
-| Mokėjimas skubus | "Commerce" modulis, palaikantis spartesnį tikrinimo elgseną, kai naudojami palaikomi mokėjimo metodai. Šioje temoje aptariamas mokėjimo siųstų modulių naudojimas su PayPal. |
+| Mokėjimas skubus | "Commerce" modulis, palaikantis spartesnį tikrinimo elgseną, kai naudojami palaikomi mokėjimo metodai. Šiame straipsnyje aprašomas mokėjimo siųstų modulių naudojimas su PayPal. |
 
 Dynamics 365 Commerce siūlo papildomą PayPal integraciją į "PayPal". Kai "Dynamics 365" mokėjimo jungtis, skirta "PayPal", sukonfigūruota, "PayPal" mygtukas atsiranda kaip galimas mokėjimo būdas išsiregistravimo internete metu. Kai vartotojai pasirenka PayPal, jie yra nukreipiami į mokėjimo nurodymus tiesiogiai per PayPal, jie grįžta į interneto parduotuvės pirmą užsakymą. PayPal krepšelio patikrinimas leidžia klientams naudoti savo mokėjimo sąskaitos informaciją norint iš anksto užpildyti čekio formą, kad jie galėtų atlikti čekio procesą greičiau.
 

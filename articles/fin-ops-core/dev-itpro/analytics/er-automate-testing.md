@@ -1,6 +1,6 @@
 ---
-title: Testavimo automatizavimas naudojant elektronines ataskaitas
-description: Šioje temoje paaiškinta, kaip naudojant elektroninių ataskaitų (ER) sistemos pagrindinės informacijos funkciją automatizuoti funkcijų testavimą.
+title: Bandymų automatizavimas naudojant elektronines ataskaitas
+description: Šiame straipsnyje paaiškinama, kaip galite naudoti bazinę elektroninių ataskaitų (ER) sistemos priemonę, norėdami automatizuoti funkcijų testą.
 author: NickSelin
 ms.date: 07/02/2019
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: da69cc903197dbfae536c8494f126074c51aa77f9522d57f2673c97b1e682d9d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: df2baa988bb634db11d819dd84ef73eaa560bab9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6749805"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8892775"
 ---
 # <a name="automate-testing-with-electronic-reporting"></a>Bandymų automatizavimas naudojant elektronines ataskaitas
 
 [!include[banner](../includes/banner.md)]
 
-Šioje temoje paaiškinta, kaip naudojant elektroninių ataskaitų (ER) sistemą automatizuoti kai kurių funkcijų testavimą. Šioje temoje pateiktame pavyzdyje parodyta, kaip automatizuoti tiekėjo mokėjimo apdorojimo testavimą.
+Šiame straipsnyje paaiškinama, kaip galite naudoti elektroninių ataskaitų (ER) sistemą kai kurių funkcijų testavimui automatizuoti. Šiame straipsnyje pateikiamas pavyzdys, kaip automatizuoti tiekėjo mokėjimo apdorojimo bandymą.
 
 Programa naudoja ER sistemą, kad sugeneruotų mokėjimo failus ir atitinkamus dokumentus atliekant tiekėjo mokėjimo apdorojimą. ER sistemą sudaro duomenų modelis, modelio susiejimai ir formato komponentai, kurie leidžia apdoroti skirtingų tipų mokėjimus ir sugeneruoti dokumentus skirtingais formatais. Šiuos komponentus galima atsisiųsti iš „Microsoft Dynamics Lifecycle Services“ (LCS) ir importuoti į egzempliorių.
 
@@ -54,15 +54,15 @@ Funkcijų valdymo teises turintys vartotojai gali vykdyti vartotojo priėmimo ir
 
 ## <a name="prerequisites"></a>Būtinieji komponentai
 
-Norint atlikti šioje temoje esančias užduotis, būtina įgyvendinti toliau nurodytus reikalavimus.
+Kad būtų galima atlikti šiame straipsnyje nurodytas užduotis, reikia atlikti toliau nurodytus būtinuosius komponentus.
 
 - Įdiekite topologiją, palaikančią testavimo automatizavimą. Turite turėti vaidmens **Sistemos administratorius** teises pasiekti šios topologijos egzempliorių. Šioje topologijoje turi būti demonstracinių duomenų, kurie bus naudojami šiame pavyzdyje. Norėdami gauti daugiau informacijos, žr. [Aplinkos, palaikančios nuolatinio komponavimo versijų ir tikrinimo automatizavimo funkciją, diegimas](../perf-test/continuous-build-test-automation.md).
-- Norint automatiškai vykdyti vartotojo priėmimo ir integravimo testus, reikia įdiegti RSAT topologijoje, kurią naudojate, ir atitinkamai jį konfigūruoti. Informacijos, kaip įdiegti ir sukonfigūruoti RSAT, bei jį sukonfigūruoti taip, kad jis veiktų su „Finance and Operations“ programomis bei „Azure DevOps“, žr. [Regression Suite Automation Tool](https://www.microsoft.com/download/details.aspx?id=57357). Atkreipkite dėmesį į būtinąsias įrankio naudojimo sąlygas. Tolesnėje iliustracijoje pateikiamas RSAT parametrų pavyzdys. Mėlyname stačiakampyje nurodomi parametrai, kurie apibrėžia prieigą prie „Azure DevOps“. Žaliame stačiakampyje nurodomi parametrai, kurie apibrėžia prieigą prie egzemplioriaus.
+- Norint automatiškai vykdyti vartotojo priėmimo ir integravimo testus, reikia įdiegti RSAT topologijoje, kurią naudojate, ir atitinkamai jį konfigūruoti. Informacijos, kaip įdiegti ir konfigūruoti RSAT, kad jis veiktų su „Finance and Operations“ programomis ir „Azure DevOps“, žr. [Regression Suite Automation Tool](https://www.microsoft.com/download/details.aspx?id=57357). Atkreipkite dėmesį į būtinąsias įrankio naudojimo sąlygas. Tolesnėje iliustracijoje pateikiamas RSAT parametrų pavyzdys. Mėlyname stačiakampyje nurodomi parametrai, kurie apibrėžia prieigą prie „Azure DevOps“. Žaliame stačiakampyje nurodomi parametrai, kurie apibrėžia prieigą prie egzemplioriaus.
 
     ![RSAT parametrai.](media/GER-Configure.png "Dialogo lango RSAT parametrai ekrano kopija")
 
 - Jei norite tvarkyti paketuose esančius testų aprašus, kad užtikrintumėte tinkamą vykdymo seką ir gautumėte testų vykdymo žurnalus tolesnių ataskaitų generavimo ir tyrimo tikslais, turite turėti prieigą prie „Azure DevOps“ iš įdiegtos topologijos.
-- Kad užbaigtumėte šioje temoje pateiktą pavyzdį, rekomenduojame atsisiųsti [ER naudojimas siekiant atlikti RSAT testus](https://go.microsoft.com/fwlink/?linkid=874684). Šiame ZIP faile yra šie užduočių vedliai:
+- Norint užpildyti pavyzdį šiame straipsnyje, rekomenduojame atsisiųsti [RSAT bandymams naudoti ER](https://go.microsoft.com/fwlink/?linkid=874684). Šiame ZIP faile yra šie užduočių vedliai:
 
     | Turinys                                           | Failo vardas ir vieta |
     |---------------------------------------------------|------------------------|

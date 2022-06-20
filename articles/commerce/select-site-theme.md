@@ -1,6 +1,6 @@
 ---
 title: Pasirinkti svetainės temą
-description: Šioje temoje aprašoma, kaip nustatyti arba pakeisti svetainės temą naudojant „Microsoft Dynamics 365 Commerce“.
+description: Šiame straipsnyje aprašoma, kaip nustatyti arba pakeisti savo svetainės temą Microsoft Dynamics 365 Commerce.
 author: bicyclingfool
 ms.date: 09/15/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: a13400258a86087b6137b08ca724cbbfc1a90ad4
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.openlocfilehash: b038dc996c571d54dce3f2aec679f7af8af85074
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7964786"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8900391"
 ---
 # <a name="select-a-site-theme"></a>Pasirinkti svetainės temą
 
 [!include [banner](includes/banner.md)]
 
-Šioje temoje aprašoma, kaip nustatyti arba pakeisti svetainės temą naudojant „Microsoft Dynamics 365 Commerce“.
+Šiame straipsnyje aprašoma, kaip nustatyti arba pakeisti savo svetainės temą Microsoft Dynamics 365 Commerce.
 
 Svetainės maketas ir stilius (pavyzdžiui, šriftai, dydžiai ir spalvos) nustatomi pagal temą, kurią pasirenkate ir taikote svetainei. Temą sukuria ir įdiegia jūsų įmonėje dirbantis kūrėjas. Temų apžvalgą rasite puslapyje [Temų apžvalga](e-commerce-extensibility/theming.md). Daugiau informacijos apie tai, kaip kurti ir diegti temas, žr. [Naujos temos kūrimas](e-commerce-extensibility/create-theme.md).
 
