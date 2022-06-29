@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ee61c43f93d68747a7095dc9317674a435553c8a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: d8498d6099112cea2c57a6387e7596adb5bcd84e
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8874194"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016020"
 ---
 # <a name="introduction-to-assets"></a>Turto pristatymas
 
@@ -36,7 +36,7 @@ Turtas automatiškai atnaujinamas naudojant susijusią informaciją. Pavyzdžiui
 
 ## <a name="all-assets"></a>Visas turtas
 
-Pasirinkite **Turto valdymas** \> **Bendra** \> **Turtas** \> **Visas turtas**. Sąrašo puslapyje **Visas turtas** pateiktas visas turtas ir tam tikra su juo susijusi informacija. Norėdami peržiūrėti tik aktyvų turtą, pasirinkite **Aktyvus turtas**. Norėdami peržiūrėti tik turtą, įdiegtą funkcinėse vietose, su kuriomis esate susijęs kaip priežiūros darbuotojas, pasirinkite **Mano aktyvus turtas**. (Šis ryšys nustatomas puslapyje **Darbuotojai**. Daugiau informacijos žr. [Priežiūros darbuotojai ir darbuotojų grupės](../setup-for-objects/workers-and-worker-groups.md).)
+Pasirinkite Turto **valdymo turtas** \> **Visas** \> **turtas**. Sąrašo puslapyje **Visas turtas** pateiktas visas turtas ir tam tikra su juo susijusi informacija. Norėdami peržiūrėti tik aktyvų turtą, pasirinkite **Aktyvus turtas**. Norėdami peržiūrėti tik turtą, įdiegtą funkcinėse vietose, su kuriomis esate susijęs kaip priežiūros darbuotojas, pasirinkite **Mano aktyvus turtas**. (Šis ryšys nustatomas puslapyje **Darbuotojai**. Daugiau informacijos žr. [Priežiūros darbuotojai ir darbuotojų grupės](../setup-for-objects/workers-and-worker-groups.md).)
 
 Tinklelio rodinyje **Visas turtas** pasirinkite saitą, esantį stulpelyje **Turtas**, kad peržiūrėtumėte pasirinkto įrašo informaciją. Norėdami redaguoti įrašą, pasirinkite mygtuką **Redaguoti**. Informacijos rodinyje pateikta išsami su turtu susijusi informacija. Srities **Susijusi informacija** dešinėje pateikta papildoma su turtu susijusi informacija. Išplėskite sritį, kad būtų rodoma su pasirinktu turtu susijusi informacija.
 

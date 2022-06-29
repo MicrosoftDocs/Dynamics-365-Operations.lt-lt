@@ -1,8 +1,8 @@
 ---
-title: „Dynamics 365 Commerce“ vertinimo aplinkos konfigūravimas
-description: Šiame straipsnyje paaiškinama, kaip sukonfigūruoti Microsoft Dynamics 365 Commerce įvertinimo aplinką po jos konfigūravimo.
+title: Sandbox aplinkos Dynamics 365 Commerce konfigūravimas
+description: Šiame straipsnyje paaiškinama, kaip sukonfigūruoti Microsoft Dynamics 365 Commerce sandūrų aplinką po jos konfigūravimo.
 author: psimolin
-ms.date: 05/12/2022
+ms.date: 06/14/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,34 +14,34 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 19d88139e35554bce68bc6203141957b96e439a7
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: 259a580981003f135e234f66e9e93ceb18605412
+ms.sourcegitcommit: 252cb41c3029b623354698463f7b44a29fd9f184
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8892335"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9013114"
 ---
-# <a name="configure-a-dynamics-365-commerce-evaluation-environment"></a>„Dynamics 365 Commerce“ vertinimo aplinkos konfigūravimas
+# <a name="configure-a-dynamics-365-commerce-sandbox-environment"></a>Sandbox aplinkos Dynamics 365 Commerce konfigūravimas
 
 [!include [banner](includes/banner.md)]
 
-Šiame straipsnyje paaiškinama, kaip sukonfigūruoti Microsoft Dynamics 365 Commerce įvertinimo aplinką po jos konfigūravimo.
+Šiame straipsnyje paaiškinama, kaip sukonfigūruoti Microsoft Dynamics 365 Commerce sandūrų aplinką po jos konfigūravimo.
 
-Atlikite šiame straipsnyje nurodytas procedūras tik su nustatę savo komercijos vertinimo aplinką. Dėl informacijos, kaip nustatyti savo Komercijos vertinimo aplinką po jos nustatymo, žr. [Komercijos vertinimo aplinkos nustatymas](provisioning-guide.md).
+Atlikite šiame straipsnyje nurodytas procedūras tik su nustatę "Commerce sandbox" aplinką. Daugiau informacijos apie "Commerce sandbox" aplinkos parengimą rasite " [Commerce sandbox" aplinkoje](provisioning-guide.md).
 
-Po to kai jūsų Komercijos vertinimo aplinka buvo parengta iki galo, papildomas jos parengimo konfigūravimo žingsniai turi būti pateikti iki tol, kol pradėsite vertinti aplinką. Norėdami atlikti šiuos veiksmus, turite naudoti „Microsoft Dynamics Lifecycle Services“ (LCS) ir „Dynamics 365 Commerce“.
+Konfigūruojant "Commerce sandbox" aplinką iki pabaigos turi būti atlikti papildomi po konfigūravimo naudojami konfigūracijos veiksmai, prieš pradedant naudoti aplinką. Norėdami atlikti šiuos veiksmus, turite naudoti „Microsoft Dynamics Lifecycle Services“ (LCS) ir „Dynamics 365 Commerce“.
 
 ## <a name="before-you-start"></a>Prieš pradedant
 
 1. Prisijunkite prie [LCS portalo](https://lcs.dynamics.com).
 1. Nueikite į savo projektą.
-1. Viršutiniame meniu pasirinkite **Aplinkos diegimo debesyje įrankis**.
 1. Sąraše pasirinkite savo aplinką.
 1. Aplinkos informacijoje dešinėje, pasirinkite **Prisijungti prie aplinkos**. Būsite nukreipti į komercijos būstinę.
-1. Įsitikinkite, kad viršutiniame dešiniajame kampe pasirinktas juridinis subjektas **USRT**.
-1. Eikite **į "\>** **Commerce" parametrų konfigūracijos parametrus ir įsitikinkite, kad yra ProductSearch.UseAzureSearch** **įrašas ir kad nustatyta reikšmė Teisinga**. Jei nėra šio įrašo, galite jį įtraukti, **nustatyti** reikšmę teisinga ir pasirinkti "Commerce **\> Scale" vieneto,** susieto su jūsų el. komercijos svetaine, kanalo duomenų bazės visą duomenų sinchronizavimą.
+1. Įsitikinkite, kad viršutiniame dešiniajame kampe pasirinktas juridinis subjektas **USRT**. Šis juridinis subjektas buvo iš anksto sukonfigūruotas demonstraciniai duomenyse.
+1. Eikite **į "\>** **Commerce" parametrų konfigūracijos parametrus ir įsitikinkite, kad yra ProductSearch.UseAzureSearch** **įrašas ir kad nustatyta reikšmė Teisinga.** Jeigu šio įrašo nėra, pridėkite jį ir nustatykite vertę kaip **teisingą**.
 1. Eikite į " **Retail" ir "Commerce \> Headquarters" \> nustatymą "Commerce Scheduler \> Initialize Commerce scheduler"**. Inicijuokite **"Commerce Scheduler**" iškeliamą meniu, nustatykite parinktį **Naikinti esamą konfigūraciją** **kaip Taip**, tada pasirinkite **Gerai**.
-1. Norėdami įtraukti kanalus į "Commerce Scale Unit", **eikite į "Retail" ir "Commerce Headquarters \>" sąranką "Commerce \> Scheduler \> Channel" duomenų** bazę, tada kairiojoje srityje pasirinkite "Commerce Scale Unit". **"Retail" kanale** "FastTab" įtraukite **interneto parduotuvę AW**, **AW verslo interneto** **parduotuvę ir Fabrikam išplėstinius interneto parduotuvės kanalus**. Pasirinktinai galite įtraukti parduotuves, jei naudojate EKA (pvz., Seattle, **San Francisco** ir **San Jose**). **·**
+1. Kad parduotuvės ir el. prekybos kanalai veiktų tinkamai, jie turi būti įtraukti į "Commerce Scale Unit". Pereikite prie " **Retail" ir "Commerce \> Headquarters" nustatymo \> "Commerce Scheduler \> Channel**" duomenų bazės, tada kairiojoje srityje pasirinkite "Commerce Scale Unit". **"Retail" kanale** "FastTab" įtraukite interneto parduotuvę AW **,** AW verslo **interneto** parduotuvę ir Fabrikam išplėstinius interneto parduotuvės kanalus **,** jei planuojate naudoti šiuos el. prekybos kanalus. Pasirinktinai galite įtraukti ir parduotuves, jei naudojate kasos taškus (EKA) (pvz., **Seattle**, **San Francisco** ir / arba **San Jose**).
+1. Norėdami užtikrinti, kad visi pakeitimai sinchronizuoti su kanalo duomenų baze, pasirinkite " **Commerce \> Scale Unit" kanalo** duomenų bazės visą duomenų sinchronizavimą.
 
 Po parengimo veiksmų komercijos būstinėje, įsitikinkite, kad **USRT** juridinis asmuo yra visuomet pasirinktas.
 
@@ -52,7 +52,7 @@ Po parengimo veiksmų komercijos būstinėje, įsitikinkite, kad **USRT** juridi
 Tam, kad susietumėte darbuotoją su savo tapatybe, atlikite šiuos veiksmus Komercijos būstinėje.
 
 1. Naudodami kairėje esantį meniu, nueikite į **Moduliai \> Mažmeninė prekyba ir prekyba \> Darbuotojai \> Darbininkai**.
-1. Sąraše raskite ir pasirinkite šį įrašą **000713 - Andrew Collette**.
+1. Sąraše raskite ir pasirinkite šį įrašą **000713 - Andrew Collette**. Šis pavyzdys– vartotojas yra susietas su San Francisco parduotuve, kuri bus naudojama kitame skyriuje.
 1. Veiksmų juostoje pasirinkite **Komercija**.
 1. Pasirinkite **Susieti esamą tapatybę**.
 1. Lauko **Ieškoti naudojant el. paštą** dešinėje esančiame lauke **El. paštas** įveskite savo el. pašto adresą.
@@ -76,24 +76,24 @@ Tam, kad susietumėte darbuotoją su savo tapatybe, atlikite šiuos veiksmus Kom
 1. Pasirinkite **Aktyvinti**. Esate atjungiami ir nukreipiami į EKA prisijungimo puslapį.
 1. Dabar galite prisijungti prie debesies EKA funkcijų naudodami operatoriaus ID **000713** ir slaptažodį **123**.
 
-## <a name="set-up-your-site-in-commerce"></a>Svetainės nustatymas programoje „Commerce“
+## <a name="set-up-your-e-commerce-sites"></a>Nustatyti savo el. komercijos svetaines
 
-Jūsų vertinimo vietos komercijoje nustatymo pradžiai, atlikite šiuos žingsnius.
+Yra trys galimos el. komercijos demonstracinės svetainės: Fabrikam, Adventure Works ir Adventure Works Business. Norėdami sukonfigūruoti kiekvieną demonstracinę svetainę, atlikite toliau nurodytus veiksmus.
 
 1. Prisijunkite prie vietos kūrėjo naudodami URL, kurį užsirašėte pradėdami „e-Commerce“ parengimo metu (žr. [Pradėti „e-Commerce“](provisioning-guide.md#initialize-e-commerce)).
-1. Pasirinkite svetainę **„Fabrikam“**, kad atidarytumėte svetainės sąrankos dialogo langą.
-1. Pasirinkite domeną, kurį įvedėte inicijuodami el. prekybą.
-1. Kaip numatytąjį kanalą pasirinkite **„Fabrikam“ išplėstinė internetinė parduotuvė**. (Įsitikinkite, kad pasirinkote **išplėstinę** internetinę parduotuvę.)
+1. Norėdami atidaryti svetainės nustatymo dialogo langą, pasirinkite svetainę (**Fabrikam**, **Adventure** Works **arba Adventure Works Business**).
+1. Pasirinkite domeną, kurį įvedėte inicijuojant "Commerce".
+1. Būstinoje pasirinkite iš anksto sukonfigūruotą interneto parduotuvės kanalą (**Fabrikam išplėstinę** interneto parduotuvę, **AW** **interneto parduotuvę arba AW verslo** interneto parduotuvę), kuri atitinka numatytąjį kanalą.
 1. Kaip numatytąją kalbą pasirinkite **lt-lt**.
-1. Lauko **Kelias** reikšmę palikite tokią, kokia yra.
+1. Konfigūruoti maršruto laukus. Tai gali būti palikta tuščia vienoje svetainėje, bet ją reikės sukonfigūruoti, jei kelios teritorijos turės tokį patį domeno pavadinimą. Pavyzdžiui, `https://www.constoso.com` jei domeno pavadinimas yra, Adventure Works () galite naudoti tuščią Fabrikam (`https://contoso.com`) maršrutą ir Adventure Works (`https://contoso.com/aw`) naudoti "aw" bei Adventure Works verslo svetainės () "awbusiness"`https://contoso.com/awbusiness`.
 1. Pasirinkite **Gerai**. Atsiranda svetainės puslapių sąrašas.
-1. Svetainei (kuri nukreipia į AW interneto parduotuvės kanalą) ir verslo svetainei (**AdventureWorks** kuri nukreipia į AW **verslo** interneto parduotuvės kanalą) **AdventureWorks** pakartokite veiksmus nuo 2 iki 7 **.** **Jei Fabrikam svetainės laukas Path** yra tuščias, turite pridėti dviejų teritorijų maršrutus AdventureWorks (pvz., "aw" ir "awbusiness").
+1. Pasirinktinai pakartokite 2–7 žingsnius, kad konfigūruokite kitas parodomas svetaines pagal poreikį.
 
 ## <a name="enable-jobs"></a>Užduočių įgalinimas
 
 Norėdami programoje „Commerce“ įjungti užduotis, atlikite toliau nurodytus veiksmus.
 
-1. Prisijunkite prie aplinkos (būstinėje).
+1. Prisiregistruokite prie būstinės aplinkos.
 1. Naudodami kairėje esantį meniu, nueikite į **Mažmeninė prekyba ir prekyba \> Užklausos ir ataskaitos \> Paketines užduotys**.
 
     Likusius šios procedūros veiksmus reikia atlikti su kiekviena iš tolesnių užduočių.
@@ -146,12 +146,11 @@ Norėdami svetainėje atlikti bandomąsias operacijas, galite naudoti tolesnę b
 
 ## <a name="next-steps"></a>Kiti veiksmai
 
-Po parengimo ir konfigūravimo žingsnių atlikimo, galite pradėti naudoti savo vertinimo aplinką. Naudokite komercijos vietos kūrėjo URL tam, kad eitumėte į autorizavimo patirtį. Naudokite komercijos vietos kūrėjo URL tam, kad eitumėte į mažmenos kliento vietos patirtį.
+Baigus konfigūravimo ir konfigūravimo veiksmus, galima pradėti naudoti sandūrų aplinką. Naudokite komercijos vietos kūrėjo URL tam, kad eitumėte į autorizavimo patirtį. Naudokite komercijos vietos kūrėjo URL tam, kad eitumėte į mažmenos kliento vietos patirtį.
 
-Tam, kad sukonfigūruotumėte pasirenkamas jūsų Komercijos vertinimo aplinkos savybes, žr. [Konfigūruoti pasirenkamas savybes savo Komercijos vertinimo aplinkoje](cpe-optional-features.md).
+Norėdami konfigūruoti pasirinktines "Commerce sandbox" aplinkos funkcijas, žr. " [Commerce sandbox" aplinkos pasirinktinių funkcijų konfigūravimas](cpe-optional-features.md).
 
-> [!NOTE]
-> Į „Commerce” vertinimo aplinkas yra iš anksto įkeltas „Azure Active Directory“ („Azure AD)” verslas – vartotojui (B2C) nuomotojas demonstraciniais tikslais. Vertinimo aplinkose nėra būtina konfigūruoti savo „Azure AD B2C” nuomotojo. Tačiau jeigu norėdami naudoti savo „Azure AD” B2C nuomotoją konfigūruojate vertinimo aplinką, naudodami „Azure” portalą į „Azure AD” B2C programą būtinai įtraukite ``https://login.commerce.dynamics.com/_msdyn365/authresp`` kaip atsakymo URL.
+Norint įgalinti el. komercijos vartotojus prisiregistruoti prie el. komercijos svetainės, reikia papildomos konfigūracijos, Azure Active Directory kad būtų galima įgalinti svetainės autentifikavimą tarp vartotojų (B2C). Norėdami gauti daugiau instrukcijų [, komercijoje nustatykite B2C nuomininką](set-up-b2c-tenant.md).
 
 ## <a name="troubleshooting"></a>Trikčių šalinimas
 
@@ -177,15 +176,11 @@ Demonstracinis duomenys, išsiųsti "Commerce" versijoje 10.0.26 **ir anksčiau,
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
-[„Dynamics 365 Commerce“ vertinimo aplinkos peržiūra](cpe-overview.md)
+[Sandėlio Dynamics 365 Commerce aplinkos parengimas](provisioning-guide.md)
 
-[Parenkite „Dynamics 365 Commerce“ vertinimo aplinką](provisioning-guide.md)
+[Konfigūruokite pasirinktines sandūrų Dynamics 365 Commerce aplinkos priemones](cpe-optional-features.md)
 
-[Konfigūruokite pasirinktas savybes „Dynamics 365 Commerce“ vertinamoje aplinkoje](cpe-optional-features.md)
-
-[Sukonfigūruokite „BOPIS“ „Dynamics 365 Commerce“ vertinamoje aplinkoje](cpe-bopis.md)
-
-[„Dynamics 365 Commerce“ vertinimo aplinkos DUK](cpe-faq.md)
+[Konfigūruoti BOPIS sandūrų Dynamics 365 Commerce saugyklos aplinkoje](cpe-bopis.md)
 
 [„Microsoft Lifecycle Services“ (LCS)](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
 

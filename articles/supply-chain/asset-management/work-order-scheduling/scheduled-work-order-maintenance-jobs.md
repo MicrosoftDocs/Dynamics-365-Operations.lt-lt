@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 99613369084ca1e708761179dfb2688014b011f7
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: 72813325c19c639c3c8e7ea9c7436730d23eb61b
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8849625"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9017035"
 ---
 # <a name="scheduled-work-order-maintenance-jobs"></a>Suplanuotos darbo užsakymo priežiūros užduotys
 
@@ -32,7 +32,7 @@ Puslapyje **Suplanuotų darbo užsakymų priežiūros užduotys** pateikiama iš
 
 ## <a name="view-scheduled-work-order-maintenance-jobs"></a>Suplanuotų darbo užsakymų priežiūros užduočių peržiūra
 
-1. Spustelėkite **Turto valdymas** > **Bendra** > **Darbo užsakymai** > **Suplanuotų darbo užsakymų priežiūros užduotys**. Matysite visų darbo užsakymų, kurių nustatyta darbo užsakymo ciklo būsena yra „Suplanuotas“ arba „Vykdomas“, sąrašą.
+1. Spustelėkite Turto **valdymo darbo** > **užsakymai Suplanuotos** > **darbo užsakymo tvarkymo užduotys**. Matysite visų darbo užsakymų, kurių nustatyta darbo užsakymo ciklo būsena yra „Suplanuotas“ arba „Vykdomas“, sąrašą.
 
 2. Sąrašą galite rikiuoti, pavyzdžiui, pagal priežiūros darbuotoją. Taip pat galite naudoti filtrą, kad sąraše būtų rodomi tik konkretiems ištekliams ar priežiūros darbuotojui priskirti darbo užsakymai.
 

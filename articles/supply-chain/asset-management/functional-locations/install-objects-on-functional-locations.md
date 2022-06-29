@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8a35f2494c616c2e456f92409d012cc434a32bd8
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: 3ae571f4ad7210b31d212b0472610b36dc5c488b
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8894507"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016078"
 ---
 # <a name="install-assets-on-functional-locations"></a>Turto diegimas funkcinėse vietose
 
@@ -40,7 +40,7 @@ Jei sukūrėte turto struktūrą, visa turto struktūra turi būti įdiegta funk
 
 ## <a name="install-an-asset-structure-on-a-functional-location"></a>Turto struktūros diegimas funkcinėje vietoje
 
-1. Pasirinkite **Turto valdymas** \> **Bendra** \> **Funkcinės vietos** \> **Visos funkcinės vietos** arba **Aktyvios funkcinės vietos**.
+1. Pasirinkite **turto valdymo funkcines** \> **vietas** \> **visose funkcinėse vietose** arba aktyviose **funkcinėse vietose.**
 2. Pasirinkite funkcinę vietą, kurioje bus diegiamas turtas.
 3. Pasirinkite **Diegti turtą**.
 

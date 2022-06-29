@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: gfedorova
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 936fddb73a639564a136002354a4d3dff7798e0b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: af33dbd38b1eb70e79392860e48c6943a4192f78
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8907383"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016455"
 ---
 # <a name="approve-and-confirm-purchase-orders"></a>Pirkimo užsakymų tvirtinimas
 
@@ -50,7 +50,7 @@ PU keitimų valdymas įjungiamas puslapyje **Įsigijimo ir šaltinio pasirinkimo
 ## <a name="confirming-purchase-orders"></a>Pirkimo užsakymų patvirtinimas
 Gali reikėti atlikti papildomų veiksmų, norint patvirtinti PU, kurių patvirtinimo būseną yra **Patvirtinta**. Pavyzdžiui, jums gali tekti tiekėjui pateikti pirkimo užklausą apie kainas, nuolaidas arba pristatymo datas. Šiuo atveju galite nustatyti PU būseną kaip **Išorinė peržiūra**, naudodami veiksmą **Pirkimo užklausa**.
 
-Tiekėjai, kuriems nustatyta galimybė naudoti tiekėjo portalą, portale gali užsakymus peržiūrėti ir patvirtinti arba atmesti. Šio peržiūros proceso metu PU būsena yra **Išorinė peržiūra**. Tiekėjų portalą galima sukonfigūruoti taip, kad, užsakymą patvirtinus tiekėjui, jis būtų automatiškai patvirtintas Tiekimo grandinės valdyme. Arba jūs galite neautomatiniu būdu patvirtinti PU, kai tiekėjas jį patvirtina. Jei tiekėjas PU atmeta, apie atmetimą informuojama nurodant atmetimo priežastį ir keitimų pasiūlymus. Tokiu atveju PU būsena lieka **Išorinė peržiūra**.
+Tiekėjai, nustatyti naudoti tiekėjo bendradarbiavimo modulį, gali peržiūrėti užsakymus portale ir juos patvirtinti arba atmesti. Šio peržiūros proceso metu PU būsena yra **Išorinė peržiūra**. Tiekėjo bendradarbiavimo modulį galima konfigūruoti, kad tiekėjo patvirtinimas automatiškai patvirtintų tiekimo grandinės valdymo užsakymą. Arba jūs galite neautomatiniu būdu patvirtinti PU, kai tiekėjas jį patvirtina. Jei tiekėjas PU atmeta, apie atmetimą informuojama nurodant atmetimo priežastį ir keitimų pasiūlymus. Tokiu atveju PU būsena lieka **Išorinė peržiūra**.
 
 Taip pat galima generuoti išankstinį užsakymo patvirtinimą, prieš apdorojant faktinį patvirtinimą. Naudojant šią parinktį sukuriama ataskaita, kurią galite bendrinti su tiekėju. Jokia žurnalo informacija nesukuriama.
 

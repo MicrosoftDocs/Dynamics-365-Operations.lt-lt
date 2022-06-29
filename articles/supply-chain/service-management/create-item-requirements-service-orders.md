@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5c2c90ff76121b436d0fec532268cd3383de0eab
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: f21cda0abb334432d22cc7e0ccfdab724253d91e
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8888418"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016955"
 ---
 # <a name="create-item-requirements-for-service-orders"></a>Prekių poreikių kūrimas pagal aptarnavimo užsakymus
 
@@ -34,14 +34,14 @@ Prekės poreikiai aptarnavimo užsakymuose apdorojami vykdant projektą. Norint 
 
 ## <a name="create-an-item-requirement-for-a-service-order"></a>Prekės poreikio aptarnavimo užsakymui sukūrimas
 
-1. Eikite į **Aptarnavimo valdymas** \> **Bendra** \> **Aptarnavimo užsakymai** \> **Aptarnavimo užsakymai**.
+1. Eikite į Aptarnavimo **valdymo aptarnavimo** \> **užsakymai** \> **Aptarnavimo užsakymai**.
 1. Pažymėkite aptarnavimo užsakymą, kuriam norite sukurti prekės poreikį.
 1. Dalies **Veiksmų sritis** skirtuke **Išsiuntimas** rinkitės **Prekės poreikis**.
 1. Formoje **Prekių poreikis** įveskite reikiamos prekės informaciją. Daugiau informacijos apie konkrečius laukus žr. [Prekių poreikis (forma)](https://technet.microsoft.com/library/aa552021\(v=ax.60\)).
 
 ## <a name="create-an-item-requirement-for-a-service-agreement"></a>Prekės poreikio aptarnavimo sutarčiai sukūrimas
 
-1. Eikite į **Aptarnavimo valdymas** \> **Bendrasis** \> **Aptarnavimo sutartys** \> **Aptarnavimo sutartys**.
+1. Eikite į **Aptarnavimo valdymo** \> **aptarnavimo** \> **sutartys**.
 1. Atidarykite aptarnavimo sutartį, kuriai norite sukurti prekės poreikį.
 1. Norėdami sukurti naują eilutę, „FastTab” **Eilutės** pasirinkite **Įtraukti**.
 1. Lauke **Operacijos tipas** pasirinkite **Prekė**.

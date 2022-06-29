@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-08
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 3347db6395b7da396c42f84881060f476346d2e9
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: 60bf4ab6944bd982e022ead6431adae417ddfb43
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8851281"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9014625"
 ---
 # <a name="wave-creation-and-processing"></a>Bangos kūrimas ir apdorojimas
 
@@ -60,9 +60,9 @@ Norėdami sukurti bangą rankiniu būdu, atlikite toliau nurodytus veiksmus:
 1. Įsitikinkite, kad atitinkami [Bangos šablonai](wave-templates.md) nėra nustatyti automatiškai kurti bangą sandėliui ir užsakymo tipams ten, kur norite kurti rankiniu būdu.
 1. Priklausant nuo to, kokio tipo bangą norite sukurti, atlikite vieną šių veiksmų:
 
-    - Eikite į **Sandėlio valdymas** \> **Bendra** \> **Bangos** \> **Siuntimo bangos** \> **Visos bangos**. Veiksmų srityje pasirinkite **Banga**.
-    - Eikite į **Sandėlio valdymas** \> **Bendra** \> **Bangos** \> **Gamybos bangos** \> **Visos gamybos bangos**. Veiksmų srityje pasirinkite **Gamybos banga**.
-    - Eikite į **Sandėlio valdymas** \> **Bendra** \> **Bangos** \> **„Kanban” bangos** \> **Visos „kanban” bangos**. Veiksmų srityje pasirinkite **Kurti bangą**.
+    - Eiti į **sandėlio valdymo** \> **siuntimo bangas** \> **Siuntos bangos** \> **Visos bangos.** Veiksmų srityje pasirinkite **Banga**.
+    - Eikite **į sandėlio** \> **valdymo siuntimo bangas** \> **Gamybos bangos** \> **Visos gamybos bangos.** Veiksmų srityje pasirinkite **Gamybos banga**.
+    - Eiti į sandėlio **valdymo siunčiamų** \> **bangų "Kanban"** \> **bangas** \> **Visos "kanban" bangos.** Veiksmų srityje pasirinkite **Kurti bangą**.
 
 1. Lauke **Aprašas** įveskite trumpą bangos aprašą. Jame turėtumėte nurodyti, ką apdorojate bangoje.
 
@@ -87,9 +87,9 @@ Kai banga sukurta, tačiau dar neišleista, galite rankiniu būdu nurodyti, ką 
 
 1. Atsižvelgdami į bangos, į kurią norite įtraukti eilučių, tipą, vieną iš šių veiksmų:
 
-    - Eikite į **Sandėlio valdymas** \> **Bendra** \> **Bangos** \> **Siuntimo bangos** \> **Visos bangos**. Veiksmų srityje pasirinkite **Banga**.
-    - Eikite į **Sandėlio valdymas** \> **Bendra** \> **Bangos** \> **Gamybos bangos** \> **Visos gamybos bangos**. Veiksmų srityje pasirinkite **Gamybos banga**.
-    - Eikite į **Sandėlio valdymas** \> **Bendra** \> **Bangos** \> **„Kanban” bangos** \> **Visos „kanban” bangos**. Veiksmų srityje pasirinkite **Kurti bangą**.
+    - Eiti į **sandėlio valdymo** \> **siuntimo bangas** \> **Siuntos bangos** \> **Visos bangos.** Veiksmų srityje pasirinkite **Banga**.
+    - Eikite **į sandėlio** \> **valdymo siuntimo bangas** \> **Gamybos bangos** \> **Visos gamybos bangos.** Veiksmų srityje pasirinkite **Gamybos banga**.
+    - Eiti į sandėlio **valdymo siunčiamų** \> **bangų "Kanban"** \> **bangas** \> **Visos "kanban" bangos.** Veiksmų srityje pasirinkite **Kurti bangą**.
 
 1. Pasirinkite bangą. Veiksmų srityje pasirinkite vieną iš šių:
 
@@ -121,9 +121,9 @@ Norėdami rankiniu būdu apdoroti bangą, kuri turi visą reikiamą turinį, atl
 
 1. Atsižvelgdami į norimos apdoroti bangos tipą, atlikite vieną iš šių veiksmų:
 
-    - Pasirinkite **Sandėlio valdymas** \> **Bendra** \> **Bangos** \> **Siuntimo bangos** \> **Visos bangos**. Veiksmų srityje pasirinkite **Banga**.
-    - Pasirinkite **Sandėlio valdymas** \> **Bendra** \> **Bangos** \> **Gamybos bangos** \> **Visos gamybos bangos**. Veiksmų srityje pasirinkite **Gamybos banga**.
-    - Pasirinkite **Sandėlio valdymas** \> **Bendra** \> **Bangos** \> **„Kanban” bangos** \> **Visos „kanban” bangos**. Veiksmų srityje pasirinkite **Kurti bangą**.
+    - Pasirinkite **Sandėlio valdymo** \> **Siunčiamos bangos** \> **Siuntos bangos** \> **Visos bangos.** Veiksmų srityje pasirinkite **Banga**.
+    - Pasirinkite **Sandėlio valdymo** \> **siunčiamos bangos** \> **Gamybos bangos** \> **Visos gamybos bangos.** Veiksmų srityje pasirinkite **Gamybos banga**.
+    - Pasirinkite Sandėlio **valdymo siunčiamų** \> **bangų "Kanban"** \> **bangos Visos** \> **"kanban" bangos.** Veiksmų srityje pasirinkite **Kurti bangą**.
 
 1. Pasirinkite norimą apdoroti bangą. Veiksmų juostoje pasirinkite **Apdoroti**.
 
@@ -141,9 +141,9 @@ Norėdami išleisti bangą rankiniu būdu, atlikite toliau nurodytus veiksmus:
 
 1. Atsižvelgdami į norimos išleisti bangos tipą, atlikite vieną iš šių veiksmų:
 
-      - Pasirinkite **Sandėlio valdymas** \> **Bendra** \> **Bangos** \> **Siuntimo bangos** \> **Visos bangos**. Veiksmų srityje pasirinkite **Banga**.
-      - Pasirinkite **Sandėlio valdymas** \> **Bendra** \> **Bangos** \> **Gamybos bangos** \> **Visos gamybos bangos**. Veiksmų srityje pasirinkite **Gamybos banga**.
-      - Pasirinkite **Sandėlio valdymas** \> **Bendra** \> **Bangos** \> **„Kanban” bangos** \> **Visos „kanban” bangos**. Veiksmų srityje pasirinkite **Kurti bangą**.
+      - Pasirinkite **Sandėlio valdymo** \> **Siunčiamos bangos** \> **Siuntos bangos** \> **Visos bangos.** Veiksmų srityje pasirinkite **Banga**.
+      - Pasirinkite **Sandėlio valdymo** \> **siunčiamos bangos** \> **Gamybos bangos** \> **Visos gamybos bangos.** Veiksmų srityje pasirinkite **Gamybos banga**.
+      - Pasirinkite Sandėlio **valdymo siunčiamų** \> **bangų "Kanban"** \> **bangos Visos** \> **"kanban" bangos.** Veiksmų srityje pasirinkite **Kurti bangą**.
 
 1. Pasirinkite norimą išleisti bangą. Veiksmų srityje pasirinkite **Išleisti bangą**.
 
@@ -179,9 +179,9 @@ Jei reikia, galite atšaukti apdorotą bangą. Norėdami atšaukti bangą ir suk
 
 1. Atsižvelgdami į norimos atšaukti bangos tipą, atlikite vieną iš šių veiksmų:
 
-      - Eikite į **Sandėlio valdymas** \> **Bendra** \> **Bangos** \> **Siuntimo bangos** \> **Visos bangos**.
-      - Eikite į **Sandėlio valdymas** \> **Bendra** \> **Bangos** \> **Gamybos bangos** \> **Visos gamybos bangos**.
-      - Eikite į **Sandėlio valdymas** \> **Bendra** \> **Bangos** \> **„Kanban” bangos** \> **Visos „kanban” bangos**.
+      - Eiti į **sandėlio valdymo** \> **siuntimo bangas** \> **Siuntos bangos** \> **Visos bangos.**
+      - Eikite **į sandėlio** \> **valdymo siuntimo bangas** \> **Gamybos bangos** \> **Visos gamybos bangos.**
+      - Eiti į sandėlio **valdymo siunčiamų** \> **bangų "Kanban"** \> **bangas** \> **Visos "kanban" bangos.**
 
 1. Pasirinkite norimą atšaukti bangą. Veiksmų srities skirtuke **Darbas** pasirinkite **Atšaukti**.
 

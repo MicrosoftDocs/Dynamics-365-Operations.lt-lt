@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 6b4d0bf82dc0dfe12991b4a48fd68a029a2ff2f3
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: 2d4385fdd3e94d48a65baf195efa1d687fbf95c3
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8887608"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016774"
 ---
 # <a name="maintenance-job-types-categories-variants-trades-and-checklists"></a>Priežiūros užduočių tipai, kategorijos, variantai, prekyba ir kontroliniai sąrašai
 
@@ -243,7 +243,7 @@ Galite nustatyti paketinę užduotį, siekdami reguliariai naujinti priežiūros
 
 Sukūrę reikiamus priežiūros užduočių tipų numatytuosius derinius, puslapyje **Visas turtas** matysite esamos priežiūros užduoties tipo numatytosios reikšmės, susijusios su konkrečiu turtu, apžvalgą. Apžvalgoje rodomi visi priežiūros užduočių tipų numatytųjų reikšmių deriniai, kurie gali būti naudojami pasirinkto turto tipo atžvilgiu. Šie deriniai apima derinius, kuriose yra skirtingų priežiūros užduočių tipų variantų ir priežiūros užduočių pardavimų.
 
-1. Pasirinkite **Turto valdymas** \> **Bendra** \> **Turtas** \> **Visas turtas** arba **Aktyvus turtas**.
+1. Pasirinkite Turto **valdymo turtas** \> **Visas** \> **turtas arba** Aktyvus **turtas.**
 2. Sąraše pasirinkite turto, kurio priežiūros užduočių tipų derinių apžvalgą norite pamatyti.
 3. Veiksmų srities skirtuko **Bendra** grupėje **Susijusi informacija** pasirinkite **Priežiūros užduočių tipai**.
 

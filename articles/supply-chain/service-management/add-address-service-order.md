@@ -2,30 +2,25 @@
 title: Adreso įtraukimas į aptarnavimo užsakymą
 description: Šiame straipsnyje aprašoma, kaip į aptarnavimo užsakymą įtraukti kliento adresą.
 author: sorenva
-ms.date: 05/02/2018
+ms.date: 06/15/2020
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
 ms.search.form: SMAServiceOrderTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ce58ff7bbb491fd2d250b8986d02fca04bd5fad1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: c485c50bab7c2e945aa0f0fc0601008dcebd3328
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8844741"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015731"
 ---
-# <a name="add-an-address-to-a-service-order"></a>Adreso įtraukimas į aptarnavimo užsakymą    
+# <a name="add-an-address-to-a-service-order"></a>Adreso įtraukimas į aptarnavimo užsakymą
 
 [!include [banner](../includes/banner.md)]
-
 
 Šiame straipsnyje aprašoma, kaip į aptarnavimo užsakymą įtraukti kliento adresą. Kai kuriate aptarnavimo užsakymą, adreso informacija yra perkeliama iš projekto, prie kurio yra pridėtas aptarnavimo užsakymas. Tačiau klientams, tiekėjams, vietoms, sandėliams, aptarnavimo užsakymams ir projektams galite pasirinkti alternatyvią vietą iš adresų, kurie jau yra įtraukti į „Microsoft Dynamics AX“.
 
@@ -35,43 +30,36 @@ Taip pat galite kurti naują adresą. Pagal numatytuosius nustatymus naujas adre
 
 Norėdami įtraukti adresą į aptarnavimo užsakymą, atlikite toliau nurodytus veiksmus.
 
-1.  Spustelėkite **Aptarnavimo valdymas** \> **Bendra** \> **Aptarnavimo užsakymai** \> **Aptarnavimo užsakymai**.
+1. Eikite į Aptarnavimo **valdymo aptarnavimo** \> **užsakymai** \> **Aptarnavimo užsakymai**.
 
-2.  Atidarykite aptarnavimo užsakymą, kuriam norite sukurti adresą.
+1. Atidarykite aptarnavimo užsakymą, kuriam norite sukurti adresą.
 
-3.  Dalyje **Veiksmų sritis**, spustelėkite **Redaguoti**, tada spustelėkite **Antraštės rodinys**.
+1. Atidarykite skirtuką **Antraštė**.
 
-4.  Dalies **Adresas** „FastTab“ spustelėkite **Pridėti adresą**.
+1. Išplėskite **adreso** "FastTab", tada iš **FastTab įrankių juostos** pasirinkite Įtraukti adresą.
 
-5.  Formoje **Naujas adresas** įveskite unikalų adreso pavadinimą ir užpildykite likusius laukus. 
-    
+1. Naujo adreso **dialogo** lange įveskite unikalų adreso pavadinimą ir užpildykite likusius laukus. 
 
     > [!WARNING]
-    > <P>Jei įvesite tą patį pavadinimą kaip esamo adreso, informacija, kurią įvedate likusiuose laukuose, perrašys esamo adreso informaciją.</P>
+    > Jei įvesite tą patį pavadinimą kaip esamo adreso, informacija, kurią įvedate likusiuose laukuose, perrašys esamo adreso informaciją.
 
-
-6.  Spustelėkite **Gerai**, kad nukopijuotumėte naują adresą į aptarnavimo užsakymą.
+1. Pasirinkite **Gerai,** norėdami kopijuoti naują adresą į aptarnavimo užsakymą.
 
 ## <a name="specify-an-alternative-address-on-a-service-order"></a>Alternatyvaus adreso nurodymas aptarnavimo užsakyme
 
 Norėdami įtraukti alternatyvų adresą į aptarnavimo užsakymą, atlikite toliau nurodytus veiksmus.
 
-1.  Spustelėkite **Aptarnavimo valdymas** \> **Bendra** \> **Aptarnavimo užsakymai** \> **Aptarnavimo užsakymai**.
+1. Eikite į Aptarnavimo **valdymo aptarnavimo** \> **užsakymai** \> **Aptarnavimo užsakymai**.
 
-2.  Atidarykite aptarnavimo užsakymą, kuriame norite įvesti alternatyvų adresą.
+1. Atidarykite aptarnavimo užsakymą, kuriame norite įvesti alternatyvų adresą.
 
-3.  Dalyje **Veiksmų sritis**, spustelėkite **Redaguoti**, tada spustelėkite **Antraštės rodinys**.
+1. Atidarykite skirtuką **Antraštė**.
 
-4.  Dalies **Adresas** „FastTab“ spustelėkite **Kiti adresai**.
+1. Išplėskite **adreso** FastTab, tada FastTab įrankių **juostoje** pasirinkite Kitas adresas.
 
-5.  Formos **Adreso pasirinkimas** lauke **Įrašo tipas** pasirinkite **Aptarnavimo užsakymai**.
+1. Adreso **pasirinkimo dialogo** lange iš **virš nurašytų** išplečiamojo sąrašo pasirinkite Aptarnavimo užsakymai.
 
-6.  Pasirinkite adresą, tada spustelėkite **Gerai**, kad nukopijuotumėte jį į aptarnavimo užsakymą.
-
-
-  
-
-
+1. Pasirinkite adresą, o tada pasirinkite **Gerai,** norėdami nukopijuoti jį į aptarnavimo užsakymą.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

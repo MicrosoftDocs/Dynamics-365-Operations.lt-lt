@@ -11,16 +11,16 @@ ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2022-05-02
 ms.dyn365.ops.version: 10.0.27
-ms.openlocfilehash: 998a30786b3f457b24b6e3c755b2c00967adbd4b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: c03109baaa341b25af70840b791ddf04f692fb1a
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8879169"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016571"
 ---
 # <a name="post-to-charge-account-accounting-principle"></a>Registruoti mokesčių sąskaitos apskaitos principu
 
-*Registravimas į sąskaitos* apskaitos principą leidžia kurti sąskaitas ir lengviau suderinti visus skirtumus, atsirandaus vieneto kainą tarp faktinio registravimo ir finansinio registravimo, nupirktų prekių netiesioginių išlaidų arba pirkimo užsakymo išlaidų. 
+*Registravimas į sąskaitos* apskaitos principą leidžia kurti sąskaitas ir lengviau suderinti visus skirtumus, atsirandaus vieneto kainą tarp faktinio registravimo ir finansinio registravimo, nupirktų prekių netiesioginių išlaidų arba pirkimo užsakymo išlaidų.
 
 Dvi mokėtinų sumų **mokesčių** kodų konfigūracijos puslapyje Mokesčių kodas (**\>\> Mokėtinų mokesčių nustatymo mokesčių kodas**) gali sukelti pirkimo užsakymo įtaką atsargų turto vertinimui:
 
