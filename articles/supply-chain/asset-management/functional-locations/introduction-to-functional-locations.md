@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4a1c8c4db9aee68584ab35949745132091a34a58
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: a94b366dc725db3af01c156ae517a241213f7d52
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8882843"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016049"
 ---
 # <a name="introduction-to-functional-locations"></a>Funkcinių vietų pristatymas
 
@@ -59,7 +59,7 @@ Sukūrus funkcinės vietos hierarchiją, toliau joje diegiamas turtas. Daugiau i
 
 ## <a name="all-functional-locations"></a>Visos funkcinės vietos
 
-Pasirinkite **Turto valdymas** \> **Dažnas** \> **Funkcinės vietos** \> **Visos funkcinės vietos,** kad būtų atidarytas **visų funkcijų vietų** sąrašas. Šiame puslapyje pateikiamos visos funkcinės vietos ir dalis informacijos apie jas. Norėdami peržiūrėti tik aktyviąsias funkcines vietas, pasirinkite **Aktyviosios funkcinės vietos**. Norėdami peržiūrėti tik funkcines vietas, su kuriomis esate susiję kaip darbuotojas, pasirinkite **Mano aktyviosios funkcinės vietos**. (Šis ryšys nustatomas puslapyje **Darbuotojai**. Daugiau informacijos žr. [Priežiūros darbuotojai ir darbuotojų grupės](../setup-for-objects/workers-and-worker-groups.md).)
+Pasirinkite **Turto valdymo funkcinės** \> **vietos** \> **Visos funkcinės** vietos, kad atidarytumėte **visų funkcinių vietų** sąrašo puslapį. Šiame puslapyje pateikiamos visos funkcinės vietos ir dalis informacijos apie jas. Norėdami peržiūrėti tik aktyviąsias funkcines vietas, pasirinkite **Aktyviosios funkcinės vietos**. Norėdami peržiūrėti tik funkcines vietas, su kuriomis esate susiję kaip darbuotojas, pasirinkite **Mano aktyviosios funkcinės vietos**. (Šis ryšys nustatomas puslapyje **Darbuotojai**. Daugiau informacijos žr. [Priežiūros darbuotojai ir darbuotojų grupės](../setup-for-objects/workers-and-worker-groups.md).)
 
 Sąrašo puslapyje **Visos funkcinės vietos** pasirinkite saitą stulpelyje **Funkcinė vieta**, kad peržiūrėtumėte išsamią pasirinkto įrašo informaciją. Norėdami redaguoti funkcinę vietą, spustelėkite mygtuką **Redaguoti**. Išsamios informacijos rodinyje pateikiama išsami informacija, susijusi su vieta. Dešinėje jame taip pat yra sritis **Susijusi informacija**. Šioje srityje rodoma funkcinės vietos hierarchija. Galite išplėsti ir sutraukti sritį **Susijusi informacija**.
 

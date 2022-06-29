@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 341b14d493c85a1e94666fa7e07b80704645e5f1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 9d13372d8cc1f1f0f1407ea69bee4f98ae5065c2
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8858249"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015352"
 ---
 # <a name="provision-human-resources"></a>„Human Resources“ parengimas
 
@@ -143,7 +143,9 @@ Svarstydami, kurioje „Power Apps“ aplinkoje diegti „Human Resources“, pa
 6. Dvigubo rašymo galimybes, kurias naudojant galima integruoti personalo duomenis į „Power Apps” aplinką, galima naudoti tik pasirinkus **Įgalinti „Dynamics 365” programas** parinktį aplinkai. Skaitykite [Pagrindinis dvigubo rašymo puslapis](../fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-home-page.md), jei norite sužinoti daugiau apie dvigubą rašymą.
 
     > [!NOTE]
-    > Parinktis **Įgalinti „Dynamics 365” programas** turi būti pažymėta „Power Apps” aplinkos kūrimo metu. Jei ši parinktis nėra pažymėta parengimo metu, negalėsite naudoti dvigubo rašymo duomenų integravimui tarp „Dynamics 365 Human Resources” ir „Power Apps” aplinkos, taip pat įdiegti „Dynamics 365” programų, pavyzdžiui, „Dynamics 365 Sales” ir „Field Service”, aplinkoje. Ši pasirinktis yra negrįžtama. Daugiau informacijos rasite [Keletas svarbių aplinkybių kuriant naują aplinką](/power-platform/admin/create-environment#some-important-considerations-when-creating-a-new-environment) „Power Platform” dokumentacijos svetainėje.
+    > Parinktis **Įgalinti „Dynamics 365” programas** turi būti pažymėta „Power Apps” aplinkos kūrimo metu. Jei ši parinktis nėra pažymėta parengimo metu, negalėsite naudoti dvigubo rašymo duomenų integravimui tarp „Dynamics 365 Human Resources” ir „Power Apps” aplinkos, taip pat įdiegti „Dynamics 365” programų, pavyzdžiui, „Dynamics 365 Sales” ir „Field Service”, aplinkoje. Ši pasirinktis yra negrįžtama. 
+    > -  Personalo tarnyba nepalaiko susieto egzemplioriaus keitimo Dataverse, kai į jį įdiegiamas personalo valdymo egzempliorius. </br></br>
+    > Daugiau informacijos rasite [Keletas svarbių aplinkybių kuriant naują aplinką](/power-platform/admin/create-environment#some-important-considerations-when-creating-a-new-environment) „Power Platform” dokumentacijos svetainėje.  
 
 7. Nustatę tinkamą naudotiną aplinką, galite tęsti parengimo procesą. 
 

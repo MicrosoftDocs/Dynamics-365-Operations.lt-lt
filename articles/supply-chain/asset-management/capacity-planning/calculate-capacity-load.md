@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 8eb0b152f0a4b4e0f61d519262c24d02b71b8fc3
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: 95d1e38db8e4658a57f36139836264b87d525e61
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8849654"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016136"
 ---
 # <a name="calculate-capacity-load"></a>Pajėgumo skaičiavimas
 
@@ -35,7 +35,7 @@ Turto valdyme galite apskaičiuoti pajėgumą šiems elementams:
 
 Tai naudinga, jei norite peržiūrėti numatytą pajėgumą konkrečiu laikotarpiu. Galima apskaičiuoti viso turto arba pasirinkto turto pajėgumą. Taip pat galite skaičiuoti prižiūrimo turto prastovos veiklas arba darbo užsakymų telkinius.
 
-1. Spustelėkite mygtuką **Turto valdymas** > **Užklausos** > **Pajėgumas** arba **Turto valdymas** > **Bendrieji dalykai** > **Darbo užsakymų telkiniai** > **Visi darbo užsakymų telkiniai** / **Aktyvių darbo užsakymų telkiniai** >pasirinkti darbo užsakymų telkinį sąraše > **Pajėgumas** arba mygtuką **Turto valdymas** > **Bendrieji dalykai** > **Prižiūrimo turto prastovos veiklos** > **Visos prižiūrimo turto prastovos veiklos** / **Aktyvios prižiūrimo turto prastovos veiklos** > pasirinkti priežiūros veiklą sąraše > **Pajėgumas**.
+1. **·** > **·** > **·** **·** > **·** > **·** / **Spustelėkite** Turto valdymo užklausos Pajėgumas arba Turto valdymo darbo užsakymų telkiniai Visi darbo užsakymų telkiniai Aktyvūs darbo užsakymų telkiniai > sąraše >**Pajėgumo** įkelties mygtukas pasirinkite darbo užsakymų telkinį, **·** > **arba turto valdymo tvarkymo downtime** > **veikla Visa priežiūros downtime** / **veikla** Aktyvi priežiūros downtime veikla > pasirinkite priežiūros veiklą sąraše > Mygtukas **Pajėgumas**.
 
 2. Dialoge **Skaičiuoti pajėgumą** laukuose **Pradžios data/laikas** ir **Pabaigos data/laikas** pažymėkite skaičiavimo laikotarpį.
 
