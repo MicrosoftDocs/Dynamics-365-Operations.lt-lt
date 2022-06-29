@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 015499463f1eab4aaa3f3658b3204229382e73cb
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: 6e41a28ec922924b0ef86858a881280fd44bfe63
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8893648"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9014958"
 ---
 # <a name="procurement"></a>Įsigijimas
 
@@ -28,7 +28,7 @@ ms.locfileid: "8893648"
 
 Turto valdyme galite peržvelgti pirkimo paraiškas ir pirkimo užsakymus, susijusius su darbo užsakymais. Taip pat galite sukurti pirkimo užsakymą arba pirkimo paraišką iš darbo užsakymo.
 
-Sąrašo puslapyje **Darbo užsakymo pirkimo paraiška** (**Turto valdymas** > **Bendrieji dalykai** > **Įsigijimas** > **Darbo užsakymo pirkimo paraiška**) rodomas pirkimo paraiškų, susijusių su darbo užsakymais, sąrašas. Šiame puslapyje pasirinkę darbo užsakymo užduotį, norėdami atlikti įvairius veiksmus, galite naudoti mygtukus grupėje **Rodyti**, esančioje veiksmų srities skirtuke **Darbo užsakymo pirkimo paraiška**.
+Darbo **užsakymo pirkimo paraiškų** sąrašo puslapis (**turto valdymo** > **įsigijimo** > **darbo užsakymo pirkimo paraiška**) rodo pirkimo paraiškų, susijusių su darbo užsakymais, sąrašą. Šiame puslapyje pasirinkę darbo užsakymo užduotį, norėdami atlikti įvairius veiksmus, galite naudoti mygtukus grupėje **Rodyti**, esančioje veiksmų srities skirtuke **Darbo užsakymo pirkimo paraiška**.
 
 - Norėdami atidaryti susijusią pirkimo paraišką, pasirinkite **Pirkimo paraiška**. 
 - Norėdami atidaryti susijusį darbo užsakymą, pasirinkite **Darbo užsakymas**.
@@ -39,7 +39,7 @@ Toliau pateiktame paveikslėlyje parodytas sąrašo puslapio **Darbo užsakymo p
 ![1 iliustracija.](media/08-work-orders.png)
 
 
-Sąrašo puslapyje **Darbo užsakymo pirkimas** (**Turto valdymas** > **Bendrieji dalykai** > **Įsigijimas** > **Darbo užsakymo pirkimas**) rodomas pirkimo užsakymų, susijusių su darbo užsakymais, sąrašas. Šiame puslapyje pasirinkę darbo užsakymo užduotį, norėdami atlikti įvairius veiksmus, galite naudoti mygtukus grupėje **Rodyti**, esančioje veiksmų srities skirtuke **Darbo užsakymo pirkimas**.
+Darbo **užsakymo pirkimo sąrašo** puslapis (**turto valdymo** > **įsigijimo darbo** > **užsakymo pirkimas**) rodo pirkimo užsakymų, susijusių su darbo užsakymais, sąrašą. Šiame puslapyje pasirinkę darbo užsakymo užduotį, norėdami atlikti įvairius veiksmus, galite naudoti mygtukus grupėje **Rodyti**, esančioje veiksmų srities skirtuke **Darbo užsakymo pirkimas**.
 
 - Norėdami atidaryti susijusį pirkimo užsakymą, pasirinkite **Pirkimo užsakymas**. 
 - Norėdami atidaryti susijusį darbo užsakymą, pasirinkite **Darbo užsakymas**.
@@ -69,7 +69,7 @@ Dirbant su pirkimo paraiška, galimai delsai apskaičiuoti naudojamas laukas **P
 
 Sąrašo puslapyje **Visi darbo užsakymai** galite pasirinkti darbo užsakymo užduotį ir sukurti susijusį pirkimo užsakymą arba susijusią pirkimo paraišką. Tokiu būdu užtikrinsite projekto ryšius tarp pirkimo užsakymo arba pirkimo paraiškos ir darbo užsakymo.
 
-1. Pasirinkite **Turto valdymas** > **Bendrieji dalykai** > **Darbo užsakymai** > **Visi darbo užsakymai** arba **Aktyvūs darbo užsakymai**.
+1. Pasirinkite **Turto valdymo darbo** > **užsakymai Visi** > **darbo užsakymai arba** Aktyvūs **darbo užsakymai**.
 
 2. Pasirinkite darbo užsakymą, kad sukurtumėte pirkimo užsakymą, o tada pasirinkite **Redaguoti**.
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 503150e7cfc580821c5ed8d4c4c9b56998f6ff13
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: f7c36fe230db38bfdbfd70fec7bdfd0a313d5a15
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8869726"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015847"
 ---
 # <a name="create-functional-locations"></a>Funkcinių vietų kūrimas
 
@@ -41,7 +41,7 @@ Kad būtų galima dirbti su funkcinėmis vietomis, būtina sukurti dvi funkcini�
 
 Funkcinių vietų naudojimą pradėkite nuo vienos numatytosios vietos sukūrimo, kuri bus naudojama kuriant naują turtą. Ši funkcinė vieta yra ta, kurią pasirenkate dalies **Turto valdymas** > **Sąranka** > **Turto valdymo parametrai** > **Turtas** nuoroda > lauke **Numatytoji funkcinė vieta**. Numatytąją funkcinę vietą galima naudoti kuriant naują turtą ir dar nesukūrus ta turtui funkcinės vietos struktūros.
 
-1. Pasirinkite **Turto valdymas** > **Bendra** > **Funkcinės vietos** > **Visos funkcinės vietos**.  
+1. Pasirinkite turto **valdymo funkcines** > **vietas** > **visos funkcinės vietos**.  
 2. Dalyje **Visos funkcinės vietos** pasirinkite **Nauja**.
 3. Lauke **Funkcinė vieta** įterpkite ID, pvz., „0000“ arba „Numatytoji“, kad nurodytumėte, jog tai yra speciali funkcinė vieta.
 4. Lauke **Pavadinimas** įterpkite numatytosios funkcinės vietos pavadinimą.
@@ -53,7 +53,7 @@ Funkcinių vietų naudojimą pradėkite nuo vienos numatytosios vietos sukūrimo
 
 Toliau pateiktoje procedūroje aprašoma, kaip kurti funkcines vietas, reikalingas priežiūros valdymui jūsų įmonėje.
 
-1. Pasirinkite **Turto valdymas** > **Bendra** > **Funkcinės vietos** > **Visos funkcinės vietos**. Galite kurti funkcinę vietą iš tinklelio rodinio arba informacijos rodinio.
+1. Pasirinkite turto **valdymo funkcines** > **vietas** > **visos funkcinės vietos**. Galite kurti funkcinę vietą iš tinklelio rodinio arba informacijos rodinio.
 2. Pasirinkite mygtuką **Nauja**.
 3. Lauke **Funkcinė vieta** įterpkite ID.
 4. Lauke **Pavadinimas** įterpkite funkcinės vietos pavadinimą.

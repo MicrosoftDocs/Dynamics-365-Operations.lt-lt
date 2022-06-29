@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 90b41b57dfa6db8b5874bbc2d4bcac7b4c634f20
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: 5ab715be3bfdc380f5736fadd901af3ed78d7035
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8860934"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016310"
 ---
 # <a name="create-an-asset"></a>Turto kūrimas
 
@@ -30,7 +30,7 @@ ms.locfileid: "8860934"
 
 Šiame straipsnyje aprašoma, kaip kurti turtą turto valdymo modulyje.
 
-1. Spustelėkite **Turto valdymas** > **Bendras** > **turtas** > **Visas turtas** arba **Aktyvus turtas**.
+1. Spustelėkite Turto **valdymo turtas** > **Visas turtas** > **arba** Aktyvus **turtas**.
 2. Spustelėkite mygtuką **Naujas**.
 3. Dialogo lange **Kurti turtą** įterpkite duomenis apie **Turtą** (turto ID) ir turto pavadinimą. Pasirinkite turto datą ir laiką lauke **Galioja**. Nuo tos datos bus galima diegti turtą funkcinėje vietoje, taip pat perkelti ir pakeisti turtą turto struktūroje.
 4. Lauke **Turto tipas** pasirinkite turto tipą (privalomas laukas). Jei reikia, pasirinkite informaciją **Turto gamintojas** ir **Turto modelis**. Jei nustatytas tik vienas produktas, tas produktas automatiškai parenkamas lauke **Turto gamintojas**. Laukeliuose **Turto gamintojas** ir **Turto modelis** galimi pasirinkimai priklauso nuo nustatymų [Turto gamintojai ir modeliai](../setup-for-objects/product-and-model.md).

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: a3fc3e6ef2332a883ef4a612a669142da1794454
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: 6592b94105777525c777950132d5099d1e8abb0e
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8845060"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016745"
 ---
 # <a name="schedule-work-orders"></a>Planuoti darbo užsakymus
 
@@ -30,11 +30,11 @@ ms.locfileid: "8845060"
 
 Šiame straipsnyje paaiškinama, kaip planuoti darbo užsakymus turto valdymo dalyje. 
 
-Darbo užsakymui reikalingas valandų skaičius nustatomas iš prognozuojamų valandų sumos atėmus paskelbtas valandas. Jei reikia daugiau laiko, reikia atitinkamai koreguoti prognozę. Srityje **Turto valdymas** > **Bendra** > **Darbo užsakymai** > **Visi darbo užsakymai** arba **Aktyvūs darbo užsakymai** galite peržiūrėti arba redaguoti prognozes apie darbo užsakymą pasirinkdami darbo užsakymą ir skirtuke **Darbo užsakymas** spustelėję **Prognozė**. Sukūrus ir įvertinus darbo užsakymus, kitas veiksmas užbaigiant darbo užsakymus yra paskirti reikalingus priežiūros darbuotojus ir įrankius.
+Darbo užsakymui reikalingas valandų skaičius nustatomas iš prognozuojamų valandų sumos atėmus paskelbtas valandas. Jei reikia daugiau laiko, reikia atitinkamai koreguoti prognozę. Turto **valdymo darbo** > **užsakymuose** > **·** **Visi** darbo užsakymai arba Aktyvūs darbo užsakymai **galite** **peržiūrėti arba redaguoti darbo užsakymo prognozes, pasirinkdami darbo užsakymą ir skirtuke Darbo užsakymas spustelėdami Prognozė.** Kai sukuriami ir numatomi darbo užsakymai, kitas žingsnis užbaigia darbo užsakymus yra paskirstyti reikiamus priežiūros darbuotojus ir įrankius.
 
 Galima planuoti tik darbo užsakymus, kurių darbo užsakymo ciklo būsena leidžia planavimą. Planavimo leidimas nustatomas srityje **Turto valdymas** > **Sąranka** > **Darbo užsakymai** > **Ciklo būsenos** > **„FastTab“ Bendra** > perjungimo mygtukas **Leisti planavimą**.
 
-1. Spustelėkite **Turto valdymas** > **Bendra** > **Darbo užsakymai** > **Visi darbo užsakymai**.
+1. Spustelėkite **Turto valdymo darbo** > **užsakymai** > **Visi darbo užsakymai**.
 
 2. Sąraše pažymėkite darbo užsakymus, kuriuos norite planuoti. Pavyzdžiui, sąrašą galite rikiuoti pagal **Dabartinę ciklo būseną**.
 

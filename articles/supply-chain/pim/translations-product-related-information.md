@@ -16,12 +16,12 @@ ms.search.industry: Product information
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a2798e25d1f6c293aa71a6c143ded5293f241060
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: 079e6de00d1a946d998648378d5ca24c1fd26218
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8850560"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015412"
 ---
 # <a name="product-related-translations-faq"></a>DUK apie su produktais susijusius vertimus
 
@@ -43,20 +43,20 @@ Produktų informacijos vertimus galite peržiūrėti bet kokiame išoriniame ša
 
 ## <a name="how-do-i-create-translations-for-product-related-information"></a>Kaip sukurti produktų informacijos vertimus?
 Norėdami sukurti produkto vertimus, atlikite šiuos veiksmus:
-1.  Spustelėkite **Produktų informacijos valdymas** &gt; **Bendra** &gt; **Patvirtinti produktai**.
+1.  Spustelėkite **Produkto informacijos valdymo paleisti** &gt; **·** &gt; **produktai**.
 2.  Pasirinkite produktą ir veiksmų srities grupėje **Kalbos** spustelėkite **Vertimai**.
 3.  Puslapio **Teksto vertimas** lauke **Kalbos** pasirinkite kalbą. Norėdami įtraukti daugiau kalbų, išplėskite lauką **Kalbos**, tada spustelėkite **Gerai**.
 4.  Įveskite vertimus grupės **Išverstas tekstas** laukuose **Nusidėvėjimas** ir **Produkto pavadinimas**.
 
 Norėdami sukurti produkto atributų vertimus, atlikite šiuos veiksmus:
-1.  Spustelėkite **Produktų informacijos valdymas** &gt; **Bendra** &gt; **Patvirtinti produktai**.
+1.  Spustelėkite **Produkto informacijos valdymo paleisti** &gt; **·** &gt; **produktai**.
 2.  Dalyje **Sąranka** spustelėkite **Atributai** ir tada spustelėkite **Atributai**.
 3.  Puslapyje **Atributai** spustelėkite **Versti**.
 4.  Puslapio **Teksto vertimas** lauke **Kalbos** pasirinkite kalbą. Norėdami įtraukti daugiau kalbų, išplėskite lauką **Kalbos**, tada spustelėkite **Gerai**.
 5.  Įveskite vertimus grupės **Išverstas tekstas** laukuose **Nusidėvėjimas**, **Patogus pavadinimas** ir **Žinyno tekstas**.
 
 Norėdami sukurti produkto dimensijų vertimus, atlikite šiuos veiksmus:
-1.  Spustelėkite **Produktų informacijos valdymas** &gt; **Bendra** &gt; **Patvirtinti produktai**.
+1.  Spustelėkite **Produkto informacijos valdymo paleisti** &gt; **·** &gt; **produktai**.
 2.  Pasirinkite produktą ir tada spustelėkite **Produkto dimensijos**.
 3.  Pasirinkite vieną iš nuorodų į produkto dimensijas: **Konfigūracijos**, **Dydžiai**, **Spalvos** arba **Stilius**.
 4.  Pasirinkite dimensijos reikšmę ir tada spustelėkite **Versti**.

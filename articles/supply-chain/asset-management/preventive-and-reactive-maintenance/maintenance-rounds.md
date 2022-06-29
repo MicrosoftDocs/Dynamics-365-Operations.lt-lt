@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: dfb75d69f20c68a40242bb1c0c25ca77f85e0c14
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: 519431d84652e45dcd45aefbbaaa2a0e2afe6349
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8852877"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016513"
 ---
 # <a name="maintenance-rounds"></a>Priežiūros ciklai
 
@@ -87,7 +87,7 @@ Toliau pateiktame paveikslėlyje parodytas priežiūros ciklo, kuriame yra trys 
 
 Nustatę priežiūros ciklą, vykdykite grafiko užduotį, kuria planuojamos visos užduotys, susijusios su priežiūros ciklu.
 
-1. Spustelėkite mygtukus **Turto valdymas** > **Periodiškai** > **Prevencinė priežiūra** > **Planuoti priežiūros ciklus** arba **Turto valdymas** > **Bendrieji dalykai** > **Priežiūros grafikas** > **Visi priežiūros grafikai**, arba **Atidaryti priežiūros grafiko eilutes**, arba **Atidaryti priežiūros grafiko telkinius** > pasirinkite sąraše priežiūros grafiko eilutę > **Priežiūros ciklai**.
+1. Spustelėkite Turto **valdymo periodinės priežiūros planavimo priežiūros apvalinimus arba** > **·** > **·** > **·** **·** > **·** > **turto** valdymo priežiūros grafiką Visi priežiūros grafikai **arba Atidaryti priežiūros grafiko eilutes arba Atidaryti priežiūros grafiko telkinius > sąraše >** priežiūros apvalinimo mygtuką pasirinkite priežiūros grafiko **eilutę.** **·**
 
 2. Lauke **Laikotarpis** pasirinkite laikotarpio tipą, naudotiną planuojamai užduočiai.
 
@@ -102,7 +102,7 @@ Nustatę priežiūros ciklą, vykdykite grafiko užduotį, kuria planuojamos vis
 
 6. Spustelėkite **Gerai**.
 
-7. Dabar galite matyti priežiūros ciklų užduotis, pasirinkus **Turto valdymas** > **Bendrieji dalykai** > **Priežiūros grafikas** > **Visi priežiūros grafikai** arba **Atidaryti priežiūros grafiko eilutes**. Jei suplanuoti ciklai susieti su darbo užsakymų telkiniu, taip pat galite matyti priežiūros grafiko eilutes, pasirinkus **Atidaryti priežiūros grafikų telkinius**. Sukurtos iš ciklo priežiūros grafiko eilutės turi pirminės reikšmės tipą „Priežiūros ciklai“.
+7. Dabar galite matyti priežiūros apvalinimo užduotis turto valdymo priežiūros **grafike** > **Visi priežiūros grafikai** > **arba** Atidaryti priežiūros **grafiko eilutes**. Jei suplanuoti ciklai susieti su darbo užsakymų telkiniu, taip pat galite matyti priežiūros grafiko eilutes, pasirinkus **Atidaryti priežiūros grafikų telkinius**. Sukurtos iš ciklo priežiūros grafiko eilutės turi pirminės reikšmės tipą „Priežiūros ciklai“.
 
 Toliau esančiuose dviejuose paveikslėliuose pavaizduota grafiko užduotis dialogo lange **Planuoti priežiūros ciklus** ir priežiūros grafiko eilutes, sukurtos naudojant **Visas priežiūros tvarkaraščius** pagal grafiko užduotį.
 

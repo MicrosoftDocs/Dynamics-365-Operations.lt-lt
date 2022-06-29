@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 10a211e0e20f22dfbfdb4923841808750b6ed71b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: fae2ac53dec8696075e7506d979c1cf9fb277af5
+ms.sourcegitcommit: d98ecbd9457197ec8f8e281f9c2f24dcce7b8269
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8901008"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "8960160"
 ---
 # <a name="demand-forecasting-setup"></a>Poreikio prognozių nustatymas
 
@@ -340,6 +340,7 @@ Norėdami prijungti savo tiekimo grandinės valdymo aplinką prie įrenginio mok
 - [Poreikio prognozavimo apžvalga](introduction-demand-forecasting.md)
 - [Pagrindinės statistinės prognozės generavimas](generate-statistical-baseline-forecast.md)
 - [Neautomatiniai pagrindinės prognozės koregavimai](manual-adjustments-baseline-forecast.md)
+- [Webi azure: poreikio prognozė naudojant "Azure" mašinos mokymosi seriją](https://aka.ms/DemandForecastingwithAzureMachineLearningSeries)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

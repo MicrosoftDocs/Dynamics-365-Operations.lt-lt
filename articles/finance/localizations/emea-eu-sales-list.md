@@ -2,7 +2,7 @@
 title: ES pardavimo sąrašo ataskaitos
 description: Šiame straipsnyje pateikta informacija apie Europos Sąjungos (ES) Pardavimo sąrašo ataskaitas.
 author: EvgenyPopovMBS
-ms.date: 02/17/2022
+ms.date: 06/14/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: epopov
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: af49817667999dd02a96a7a9bd5bb966be652d35
-ms.sourcegitcommit: 68114cc54af88be9a3a1a368d5964876e68e8c60
+ms.openlocfilehash: 8dfd3fafdfc011973b169516cd4e2d239751e96d
+ms.sourcegitcommit: f5b156f2e5ca99ad05b3d6e4a5d118631fd3064e
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323479"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "9012503"
 ---
 # <a name="eu-sales-list-reporting"></a>ES pardavimo sąrašo ataskaitos
 
@@ -68,7 +68,7 @@ Pateiktoje lentelėje parodytos būtinosios sąlygos, kurias reikia įvykdyti pr
 <td>Nustatykite neapmokestinimo identifikavimo parametrus puslapyje <strong>Valstybės / regiono parametrai</strong> (spustelėkite <strong>Mokestis</strong> &gt; <strong>Sąranka</strong> &gt; <strong>PVM</strong> &gt; <strong>Valstybės / regiono parametrai</strong>). Puslapyje sukurkite kiekvienos valstybės / regiono, kuriame sandorio šalių, įrašą ir nurodykite tokią informaciją.
 <ul>
 <li><strong>Valstybė / regionas</strong> – pasirinkite valstybę / regioną, kurią norite susieti su neapmokestinimo identifikavimu.</li>
-<li><strong>PVM</strong>  – įveskite pasirinktos šalies/regiono PVM mokėtojo kodą (t. y. PVM registracijos numerį arba pvm mokėtojo kodo prefiksą).</li>
+<li><strong>PVM </strong> – įveskite pasirinktos šalies/regiono PVM mokėtojo kodą (t. y. PVM registracijos numerį arba pvm mokėtojo kodo prefiksą).</li>
 <li><strong>Tikrinti neapmokestinimo numerį</strong> – pažymėkite šį žymės langelį, jei norite patikrinti pasirinktos valstybės / regiono neapmokestinimo identifikavimo duomenis.</li>
 </ul></td>
 </tr>
@@ -150,7 +150,7 @@ ES vidaus prekybos operacijomis laikytinos šių tipų operacijos.
 -   Projekto SF
 -   Tiekėjo SF
 
-Operacija laikoma su ES vidaus prekybos operacija, jei operacijos pristatymo adresas yra ES valstybėje narėje. Tokių valstybių / regionų įrašas turi būti puslapio **Užsienio prekybos parametrai** skirtuke **Valstybės / regiono parametrai**, ir turi būti nustatyta parinkties **Valstybės / regiono tipas** reikšmė **ES**. ES vidaus prekybos operacijos pažymėtos lauke **Sąrašo kodas**. Naudodami šį lauką taip pat galite atskirti bendrąsias ES vidaus prekybos operacijas nuo trišalių prekybos operacijų. Galite rinkti informaciją apie ES vidaus prekybos operacijas puslapyje **ES pardavimų sąrašas** (spustelėkite **Mokestis** &gt; **Deklaracijos** &gt; **Užsienio prekyba** &gt; **ES pardavimų sąrašas**) naudodami funkciją **Perkelti**. Ši funkcija leidžia įtraukti operacijas, kurių sumos yra įvairių ataskaitų tipų (pavyzdžiui, prekių ar paslaugų), atsižvelgiant į prekių PVM grupes, kurios nurodytos operacijų eilutes. Taip pat galite taikyti kitus filtrus norėdami apibrėžti operacijas, kurios turėtų būti įtrauktos. Funkcija **Perkelti** sukuria kiekvienos įtrauktos ES vidaus prekybos operacijos įrašą puslapyje **ES pardavimų sąrašas** ir nurodo kitos sandorio šalies sąskaitos numerį, valstybę / regioną, neapmokestinimo kodą, sąskaitos faktūros numerį ir datą ir bendrąsias kiekvieno ataskaitų tipo eilučių sumas. Taip pat nukopijuoja iš operacijos reikšmę **Sąrašo kodas**. Galite rankiniu būdu pakeisti operacijos sąrašo kodą puslapyje **ES pardavimų sąrašas**. Funkcija **Perkelti** sukuria įrašus, jei nustatyta parinkties **Ataskaitos būsena** reikšmė **Įtraukta**. Tikrinti informaciją, surinktą puslapyje **ES pardavimų sąrašas**, galite naudodami funkciją **Tikrinti**.
+Operacija laikoma su ES vidaus prekybos operacija, jei operacijos pristatymo adresas yra ES valstybėje narėje. Tokių valstybių / regionų įrašas turi būti puslapio **Užsienio prekybos parametrai** skirtuke **Valstybės / regiono parametrai**, ir turi būti nustatyta parinkties **Valstybės / regiono tipas** reikšmė **ES**. ES vidaus prekybos operacijos pažymėtos lauke **Sąrašo kodas**. Naudodami šį lauką taip pat galite atskirti bendrąsias ES vidaus prekybos operacijas nuo trišalių prekybos operacijų. Galite rinkti informaciją apie ES vidaus prekybos operacijas puslapyje **ES pardavimų sąrašas** (spustelėkite **Mokestis** &gt; **Deklaracijos** &gt; **Užsienio prekyba** &gt; **ES pardavimų sąrašas**) naudodami funkciją **Perkelti**. Ši funkcija leidžia įtraukti operacijas, kurių sumos yra įvairių ataskaitų tipų (pavyzdžiui, prekių ar paslaugų), atsižvelgiant į prekių PVM grupes, kurios nurodytos operacijų eilutes. Taip pat galite taikyti kitus filtrus norėdami apibrėžti operacijas, kurios turėtų būti įtrauktos. Funkcija **Perkelti** sukuria kiekvienos įtrauktos ES vidaus prekybos operacijos įrašą puslapyje **ES pardavimų sąrašas** ir nurodo kitos sandorio šalies sąskaitos numerį, valstybę / regioną, neapmokestinimo kodą, sąskaitos faktūros numerį ir datą ir bendrąsias kiekvieno ataskaitų tipo eilučių sumas. Taip pat nukopijuoja iš operacijos reikšmę **Sąrašo kodas**. Galite rankiniu būdu pakeisti operacijos sąrašo kodą puslapyje **ES pardavimų sąrašas**. Funkcija **Perkelti** sukuria įrašus, jei nustatyta parinkties **Ataskaitos būsena** reikšmė **Įtraukta**. Tikrinti informaciją, surinktą puslapyje **ES pardavimų sąrašas**, galite naudodami funkciją **Tikrinti**. Išsamią informaciją apie SF (pardavimo kryptis) galite gauti naudodami **funkciją Bendrosios** sumos.
 
 ### <a name="generating-the-eu-sales-list-report"></a>ES pardavimų sąrašo ataskaitos generavimas
 
@@ -160,8 +160,26 @@ Galite sugeneruoti ataskaitą **ES pardavimų sąrašas** naudodami funkciją **
 
 Baigę tam tikro laikotarpio ataskaitinį procesą (pavyzdžiui, kai mokesčių inspekcija priims ataskaitą **ES pardavimų sąrašas**), galite pažymėti ESL įrašus, kurie yra įtraukti į to laikotarpio ataskaitą, nustatydami parinkties **Ataskaitos būsena** reikšmę **Uždaryta**. Norėdami nustatyti šią būseną, naudokite funkciją **Pažymėti kaip uždarytą**, esančią puslapyje **ES pardavimų sąrašas**. Jei grąžinate uždarytą laikotarpį, galite pažymėti ESL įrašus nustatydami parinkties **Ataskaitos būsena** reikšmę **Įtraukta**. Tada šiuos įrašus galima vėl įtraukti į ataskaitą **ES pardavimų sąrašas**. Norėdami nustatyti šią būseną, naudokite funkciją **Pažymėti kaip** **įtrauktus**, esančią puslapyje **ES pardavimų sąrašas**.
 
+## <a name="list-of-country-specific-topics"></a>Šaliai būsių temų sąrašas
 
-
+| Šalis          | Saitas      |
+|------------------|-----------|
+| Austrija          | [Austrijos ES pardavimų sąrašas](emea-aut-eu-sales-list.md)| 
+| Belgija          |[Belgijos ES pardavimo sąrašas](emea-bel-eu-sales-list.md)|
+| Čekijos Respublika          |[Čekijos Respublika ES pardavimų sąrašas](emea-cze-eu-sales-list.md)|
+| Danija          |[Danijos ES pardavimų sąrašas](emea-dnk-eu-sales-list.md)|
+| Estija          |[Estijos ES pardavimo sąrašas](emea-est-eu-sales-list.md)|
+| Suomija          |[Suomijos ES pardavimų sąrašas](emea-fin-eu-sales-list.md)|
+| Prancūzija          |[Prancūzijos ES pardavimų sąrašas](emea-fra-eu-sales-list.md)|
+| Vokietija          |[Vokietijos ES pardavimų sąrašas](emea-deu-eu-sales-list.md)|
+| Vengrija          |[Vengrijos ES pardavimo sąrašas](emea-hun-eu-sales-list.md)|
+| Latvija          |[Latvijos ES pardavimo sąrašas](emea-lva-eu-sales-list.md)|
+| Lietuva          |[Lietuvos ES pardavimų sąrašas](emea-ltu-eu-sales-list.md)|
+| Nyderlandai          |[Nyderlandų ES pardavimo sąrašas](emea-nl-eu-sales-list.md)|
+| Lenkija          |[Lenkijos ES pardavimo sąrašas](emea-pol-eu-sales-list.md)|
+| Ispanija          |[Ispanijos ES pardavimo sąrašas (349 ataskaita)](emea-esp-sales-list.md)|
+| Švedija          |[Švedijos ES pardavimų sąrašas](emea-swe-eu-sales-list.md)|
+| JK (Šiaurės Airija)          |[ES pardavimo sąrašas, skirtas JK (Šiaurės Airija)](emea-uk-eu-sales-list.md)|
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

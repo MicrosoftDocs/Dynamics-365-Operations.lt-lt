@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 2d0552c38ddc31ad6322e9e2e0f2c2c722c045f4
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: 25e9b00533fb183b27c1bbe616cf6f414b44b5e7
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8870906"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016107"
 ---
 # <a name="calculate-item-forecast"></a>Apskaičiuoti elemento prognozę
 
@@ -36,7 +36,7 @@ Taip, kaip galite atlikti pajėgumo skaičiavimus, aprašytus ankstesniame skyri
 
 Tai naudinga, jei norite peržiūrėti numatytą elementų naudojimą (atsarginių dalių ir kitų elementų, kurių reikia norint įvykdyti darbo užsakymą) konkrečiu periodu. Galima apskaičiuoti viso turto arba pasirinkto turto elementų prognozę. Taip pat galite skaičiuoti prižiūrimo turto prastovos veiklą (**Visos prižiūrimo turto prastovos veiklos** arba **Aktyvios prižiūrimo turto prastovos veiklos**) arba darbo užsakymų telkinį (**Visi darbo užsakymų telkiniai** arba **Aktyvūs darbo užsakymų telkiniai**).
 
-1. Spustelėkite mygtuką **Turto valdymas** > **Užklausos** > **Elemento prognozė** arba **Turto valdymas** > **Bendrieji dalykai** > **Darbo užsakymų telkiniai** > **Visi darbo užsakymų telkiniai** / **Aktyvių darbo užsakymų telkiniai** >pasirinkti darbo užsakymų telkinį sąraše > **Elemento prognozė** arba mygtuką **Turto valdymas** > **Bendrieji dalykai** > **Prižiūrimo turto prastovos veiklos** > **Visos prižiūrimo turto prastovos veiklos** / **Aktyvios prižiūrimo turto prastovos veiklos** > pasirinkti prižiūrimo turto prastovos veiklą sąraše > **Elemento prognozė**.
+1. **Spustelėkite Turto** > **·** > **·** **·** > **·** > **·** / **valdymo** užklausos Prekės prognozė arba Turto valdymo darbo užsakymų telkiniai Visi darbo užsakymų telkiniai Aktyvūs darbo užsakymų telkiniai > sąraše >**Prekės** prognozės mygtuke pasirinkite darbo užsakymų telkinį, **·** > **arba turto valdymo tvarkymo downtime** > **veikla Visos priežiūros downtime** / **veiklos Aktyvi** priežiūros downtime veikla > pasirinkite priežiūros downtime veiklą sąraše > Prekės **prognozės** mygtukas.
 
 2. Dialoge **Skaičiuoti elemento prognozę** laukuose **Pradžios data/laikas** ir **Pabaigos data/laikas** pažymėkite skaičiavimo laikotarpį.
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f7f15c0f15302c271fac7199b21b7bcd3dcfe88a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: b4a98b90491093f55ce6974b9b11ff326c0c2f5c
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8903875"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015324"
 ---
 # <a name="credit-limits-for-customers"></a>Klientų kredito limitai
 
@@ -117,7 +117,7 @@ Norėdami nurodyti, ar, viršijus kredito limitą, reikia rodyti įspėjimą arb
 
 Norėdami nurodyti konkretaus kliento kredito limito sumą, naudokite formą **Klientai**. Norėdami šioje formoje atlikti keitimus, turite būti saugos vaidmens, kuriam priskirta pareiga Tvarkyti kliento bendruosius duomenis (CustCustomersMaintain), narys.
 
-1.  Spustelėkite **Gautinos sumos** \> **Bendra** \> **Klientai** \> **Visi klientai**. Dukart spustelėkite kliento sąskaitą.
+1.  Spustelėkite Gautinos **sumos** \> **klientai** \> **Visi klientai**. Dukart spustelėkite kliento sąskaitą.
 
 2.  Formos **Klientai** veiksmų srityje spustelėkite **Redaguoti**.
 
@@ -132,7 +132,7 @@ Norėdami nurodyti konkretaus kliento kredito limito sumą, naudokite formą **K
 
 Kartais gali tekti rankiniu būdu patikrinti kliento kredito limitą. Pavyzdžiui, rankiniu būdu patikrinti kliento kredito limitą galite prieš pradėdami įvedinėti pardavimo užsakymą. Rankiniu būdu tikrinti kredito limitus galite naudodami formą **Pardavimo užsakymas**. Norėdami šioje formoje atlikti keitimus, turite būti saugos vaidmens, kuriam priskirta pareiga Tvarkyti pardavimo užsakymą (SalesOrderMaintain), narys.
 
-1.  Spustelėkite **Pardavimas ir rinkodara** \> **Bendra** \> **Pardavimo užsakymai** \> **Visi pardavimo užsakymai**. Dukart spustelėkite pardavimo užsakymą.
+1.  Spustelėkite **Pardavimo ir rinkodaros pardavimo** \> **užsakymus** \> **Visi pardavimo užsakymai.** Dukart spustelėkite pardavimo užsakymą.
 
 2.  Formos **Pardavimo užsakymas** veiksmų srities skirtuke **Valdyti** spustelėkite **Tikrinti kredito limitą**.
 

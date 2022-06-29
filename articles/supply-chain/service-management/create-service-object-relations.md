@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e89039356f167ef2f06824ffee8645f74f8a2b53
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: b4d9424b5678a6f37d46203e5d4e359b020fda7a
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8890660"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016976"
 ---
 # <a name="create-service-object-relations"></a>Aptarnavimo objekto ryšių kūrimas 
 
@@ -33,7 +33,7 @@ ms.locfileid: "8890660"
 
 Norėdami sukurti aptarnavimo objekto ryšį aptarnavimo sutarčiai, atlikite šiuos veiksmus:
 
-1.  Spustelėkite **Aptarnavimo valdymas** \> **Bendrasis** \> **Aptarnavimo sutartys** \> **Aptarnavimo sutartys**.
+1.  Spustelėkite Aptarnavimo **valdymo sutartys** \> **Aptarnavimo** \> **sutartys**.
 
 2.  Sąraše **Aptarnavimo sutartys** pasirinkite esamą aptarnavimo sutartį arba spustelėkite **Nauja** norėdami sukurti naują aptarnavimo sutartį.
 
@@ -47,7 +47,7 @@ Norėdami sukurti aptarnavimo objekto ryšį aptarnavimo sutarčiai, atlikite š
 
 Norėdami sukurti aptarnavimo objekto ryšį aptarnavimo užsakymui, atlikite šiuos veiksmus:
 
-1.  Spustelėkite **Aptarnavimo valdymas** \> **Bendra** \> **Aptarnavimo užsakymai** \> **Aptarnavimo užsakymai**.
+1.  Spustelėkite Aptarnavimo **valdymo paslaugos** \> **užsakymai** \> **Aptarnavimo užsakymai**.
 
 2.  Sąraše **Aptarnavimo užsakymai** pasirinkite esamą aptarnavimo užsakymą arba sukurkite naują aptarnavimo užsakymą.
 

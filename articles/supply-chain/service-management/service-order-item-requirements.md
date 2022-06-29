@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f6f12b0dd1facc753bfcde820eea26a4052caf67
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: 376cda6bbe1800611e6f24c347b9035469a30a14
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8882408"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015178"
 ---
 # <a name="service-order-item-requirements"></a>Aptarnavimo užsakymo prekių poreikiai
 
@@ -36,7 +36,7 @@ Kai tik sukuriamas aptarnavimo užsakymo prekės poreikis, jį galima peržiūr�
 
 ## <a name="view-an-item-requirement-from-a-service-order"></a>Prekės poreikio pagal aptarnavimo užsakymą peržiūra
 
-1. Eikite į **Aptarnavimo valdymas** \> **Bendra** \> **Aptarnavimo užsakymai** \> **Aptarnavimo užsakymai**.
+1. Eikite į Aptarnavimo **valdymo aptarnavimo** \> **užsakymai** \> **Aptarnavimo užsakymai**.
 1. Rinkitės **Išsiųsti**, po to rinkitės **Prekės poreikis** atidarykite formą **Prekių poreikiai**.
 1. Rinkitės skirtuką **Projektas** ir lauke **Aptarnavimo užsakymas** peržiūrėkite prekės poreikio aptarnavimo užsakymus.
 
@@ -44,13 +44,13 @@ Kai tik sukuriamas aptarnavimo užsakymo prekės poreikis, jį galima peržiūr�
 
 Jei prekės poreikis sukurtas aptarnavimo užsakyme, jūs negalite naikinti aptarnavimo užsakymo. Norėdami naikinti aptarnavimo užsakymą, turite panaikinti prekės poreikį.
 
-1. Eikite į **Aptarnavimo valdymas** \> **Bendra** \> **Aptarnavimo užsakymai** \> **Aptarnavimo užsakymai**.
+1. Eikite į Aptarnavimo **valdymo aptarnavimo** \> **užsakymai** \> **Aptarnavimo užsakymai**.
 1. Rinkitės **Išsiųsti**, po to rinkitės **Prekės poreikis** atidarykite formą **Prekių poreikiai**. Šioje formoje išvardyti visi prekių poreikiai, sukurti aptarnavimo užsakyme.
 1. Pasirinkite norimą naikinti prekės poreikį ir rinkitės **Naikinti**.
 
 arba,
 
-1. Eikite į **Projektų valdymas ir apskaita** \> **Bendra** \> **Projektai** \> **Visi projektai**.
+1. Pasirinkite **Projektų valdymas ir apskaita** \> **Projektai** \> **Visi projektai**.
 1. Atidarykite projektą su aptarnavimo užsakymu, kuriame sukurtas prekės poreikis.
 1. Dešinėje srityje esančioje formoje **Projektai** rinkitės **Prekių poreikiai**. Formoje **Prekių poreikiai** pateikiami su pasirinktu projektu susieti prekių poreikiai.
 1. Pasirinkite norimą naikinti prekės poreikį ir rinkitės **Naikinti**.

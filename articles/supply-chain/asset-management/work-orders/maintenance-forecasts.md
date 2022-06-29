@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: c2dbd968a22f2bded29cff3517dacbafc79ff8f1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: be6ef12f34e85b90c24c43c6e55ad169c271810a
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8902117"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016629"
 ---
 # <a name="maintenance-forecasts"></a>Priežiūros prognozės
 
@@ -32,7 +32,7 @@ Kai sukuriate darbo užsakymą, sukuriate darbo užsakymo užduotis su susijusiu
 
 Galbūt galėsite įtraukti prognozės eilutes į darbo užsakymą arba panaikinti jas iš darbo užsakymo. Darbo užsakymo ciklo būsenos sąranka, susijęs projekto tipas ir su projekto tipu susijusios etapo taisyklės nulemia tai, ar galite įtraukti arba redaguoti prognozės eilutes. Daugiau informacijos apie darbo užsakymo ciklo būsenas ir susijusius projekto etapus žr. [Prognozės, darbo užsakymai ir projektai](../integration-to-project-management-and-accounting/forecasts-work-orders-and-projects.md).
 
-1. Pasirinkite **Turto valdymas** > **Bendrieji dalykai** > **Darbo užsakymai** > **Visi darbo užsakymai** arba **Aktyvūs darbo užsakymai**.
+1. Pasirinkite **Turto valdymo darbo** > **užsakymai Visi** > **darbo užsakymai arba** Aktyvūs **darbo užsakymai**.
 
 2. Sąraše pasirinkite darbo užsakymą, tada veiksmų srityje > skirtuke **Darbo užsakymas** > grupėje **Projektas**, pasirinkite **Prognozė**. Puslapyje **Darbo užsakymo priežiūros prognozė** rodomos priežiūros užduoties tipo, pasirinkto darbo užsakymo užduotyje, prognozės eilutės.
 

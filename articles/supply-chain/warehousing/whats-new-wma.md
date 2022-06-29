@@ -10,18 +10,30 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 34ac023bc5ee44987f6a36a1636cd343576e5d90
-ms.sourcegitcommit: b666289f5113d0a3fa2220fe337d5aacf07cbd92
-ms.translationtype: HT
+ms.openlocfilehash: ac750ede78bb4547f90b57426cc9cb10d2a282b3
+ms.sourcegitcommit: 78576abe5c7cbab1bb69d26c999b038e8c24873a
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/08/2022
-ms.locfileid: "8945729"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "8954669"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Kas nauja ar pasikeitė „Warehouse Management“ mobiliųjų įrenginių programėlėje
 
 [!include [banner](../includes/banner.md)]
 
 Šiame straipsnyje pateikiamos naujos funkcijos, pataisos, patobulinimai ir žinomos kiekvienos "Microsoft" išleistos sandėlio valdymo mobiliosios programos versijos problemos Dynamics 365 Supply Chain Management.
+
+## <a name="version-20250"></a>2.0.25.0 versija
+
+Šioje versijoje pristatomos toliau pateiktos naujos funkcijos, klaidų taisymai ir patobulinimai:
+
+- Padidintas našumas.
+- Padidintas stabilumą.
+- Patobulintas **užklausos puslapis**, kad būtų galima palaikyti ilgesnius paraštų tekstus.
+- Įdiegta galimybė nedelsiant atšaukti eigą vienu čiaupu arba spustelėti (kai **atšaukti yra** vienintelis veiksmas, galimas pagal daugiau **veiksmų**).
+- Fiksuota problema, dėl kurios kartais gali būti prarastas židinio ryšys tarp įrašo valdiklių ryšio **redagavimo** puslapyje ir pasirinktiniuose puslapiuose.
+- Ištaisius problemą, dėl kurios mygtukai kartais gali tapti nereaguojamūs ir liko rodomi kaip pasirinkti, kai jie įtraukiami į slenksjimo rodinį.
+- Išsamskite problemą, dėl kurios pagrindiniame puslapyje kartais gali būti naudojamas netinkamas maketas.
 
 ## <a name="version-20240"></a>2.0.24.0 versija
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 34ab83c9f9673c39006b3985ebaac9e17a45da82
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: 5b13db8b8b12aaef2e067f9a55eb8754333eb16b
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8908778"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9017151"
 ---
 # <a name="multi-level-assets"></a>Kelių lygių turtas
 
@@ -30,7 +30,7 @@ ms.locfileid: "8908778"
 
 Šiame straipsnyje paaiškinama, kaip sukurti ir panaikinti kelių lygių turtą. Galite kurti turtą ir susijusį antrinį turtą hierarchinėje medžio struktūroje. Tokiu būdu galite parodyti turto ryšius ir priklausomybes. Priežiūros užduotys gali būti susijusios su visais medžio struktūros lygiais. Statistiniai duomenys taip pat gali būti kuriami atskiram lygiui arba visų antrinio turto lygių sumai.
 
-Puslapyje **Visas turtas** (**Turto valdymas** \> **Bendra** \> **Turtas** \> **Visas turtas**), **Turtas** skiltyje nurodomi turto hierarchine tvarka. Stulpelyje **Pirminis** rodomas susijęs pirminis. Be to, jei turtas ir antrinis turtas jau sukurti, srities **Susijusi informacija** sekcijoje **Turto medis** turtas rodomas medžio struktūroje.
+Visų turtų **sąrašo** puslapyje (**Turto valdymo** \> **turtas** \> **Visas turtas**) stulpelyje **Turtas** pateikiamas hierarchinės tvarkos turtas. Stulpelyje **Pirminis** rodomas susijęs pirminis. Be to, jei turtas ir antrinis turtas jau sukurti, srities **Susijusi informacija** sekcijoje **Turto medis** turtas rodomas medžio struktūroje.
 
 Daugiau informacijos apie turto kūrimą ieškokite skyriuje [Turto kūrimas](../objects/create-an-object.md). Norėdami sukurti antrinį turtą, FastTab **Bendra** esančiame lauke **Pirminis** pasirinkite pirminį turtą.
 
@@ -38,7 +38,7 @@ Daugiau informacijos apie turto kūrimą ieškokite skyriuje [Turto kūrimas](..
 
 Jei jūsų įmonėje yra keletas panašių turto struktūrų, galite naudoti modulio Turto valdymas funkciją Kopijuoti, kad greitai jas sukurtumėte.
 
-1. Pasirinkite **Turto valdymas** \> **Bendra** \> **Turtas** \> **Visas turtas**.
+1. Pasirinkite Turto **valdymo turtas** \> **Visas** \> **turtas**.
 2. Sąrašo puslapyje **Visas turtas** pasirinkite norimą kopijuoti turtą. Pavyzdžiui, jei norite nukopijuoti visą turto struktūrą, įskaitant antrinį turtą, pasirinkite pirminį turtą.
 3. Pasirinkite **Kopijuoti turtą**. Sekcijos **Kopijuoti iš** lauke **Turtas** nustatytas turtas, kurį pasirinkote sąrašo puslapyje.
 4. Sekcijos **Kopijuoti į** lauke **Turtas** įveskite naujo turto pavadinimą.

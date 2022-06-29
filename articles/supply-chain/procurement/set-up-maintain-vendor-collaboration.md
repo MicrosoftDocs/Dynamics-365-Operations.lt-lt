@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 8fe4731f8ff23f4abe25fce57a2325e1fca979c4
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: 19fafb21e879d7436678bdb3c29d1a3d7e2330d7
+ms.sourcegitcommit: bad64015da0c96a6b5d81e389708281406021d4f
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8890834"
+ms.lasthandoff: 06/17/2022
+ms.locfileid: "9023766"
 ---
 # <a name="set-up-and-maintain-vendor-collaboration"></a>Tiekėjo bendradarbiavimo nustatymas ir tvarkymas
 
@@ -29,9 +29,6 @@ ms.locfileid: "8890834"
 Tiekėjo bendradarbiavimo sąsajoje išorinių tiekėjų vartotojams pateikiamaa ribotas informacijos kiekis apie pirkimo užsakymus, SF ir konsignacijos atsargas. Šioje sąsajoje tiekėjas taip pat gali atsakyti į pasiūlymo užklausas (RFQ) ir peržiūrėti bei redaguoti pagrindinę įmonės informaciją.
 
 Šiame straipsnyje paaiškinama, kaip nustatyti tiekėjo bendradarbiavimą Dynamics 365 Supply Chain Management. Taip pat paaiškinama, kaip nustatyti darbo srautą, kad būtų galima numatyti naujus tiekėjo bendradarbiavimo vartotojus ir kaip valdyti tų vartotojų saugos vaidmenis.
-
-> [!NOTE]
-> Informacija apie tiekėjų bendradarbiavimo saugos vaidmenų nustatymą taikoma tik dabartinei finansų ir operacijų versijai. „Microsoft Dynamics AX 7.0“ (2016 m. vasario mėn.) ir „Microsoft Dynamics AX“ 7.0.1 programos versijoje (2016 m. gegužės mėn.) su tiekėjais galite bendradarbiauti naudodami modulį **Tiekėjo portalas**. Informacijos apie tiekėjo portalo vartotojo teises Microsoft Dynamics AX programoje žr. [Tiekėjo portalo vartotojo sauga](configure-security-vendor-portal-users.md).
 
 ## <a name="set-up-vendor-collaboration-security-roles"></a>Tiekėjo bendradarbiavimo saugos vaidmenų nustatymas
 
@@ -118,7 +115,7 @@ Norint nustatyti šį šakojimąsi, reikia sukurti naują **Vartotojo Užklausos
 2. Priskirkite užduotį asmeniui, atsakingam už naujų Microsoft Azure Active Directory (Azure AD) vartotojo paskyras Azure portale. Šiam veiksmui atlikti naudokite iš anksto nustatytą **Send Azure B2B vartotojo kvietimo** užduotį. B2B vartotojai gali būti automatiškai eksportuoti į Azure AD. Naudokite iš anksto nustatytą **Parengti Azure AD B2B vartotoją**. Daugiau informacijos žr. [Eksportuoti B2B vartotojus į Azure AD](../../fin-ops-core/dev-itpro/sysadmin/implement-b2b.md).
 3. Priskirkite patvirtinimo užduotį asmeniui, kuris įkelia į Azure. Jei paskyros nepavyksta sėkmingai sukurti, šis asmuo atmeta užduotį ir baigiasi darbo srautas. Ši patvirtinimo užduotis gali būti praleista, jei įtraukėte veiksmą, kuris naujų vartotojų paskyras automatiškai eksportuoja į Azure, naudojant B2B programos programavimo sąsają (API).
 4. Įtraukite automatizuotą užduotį, kuri parengia naują vartotoją. Šiam veiksmui atlikti naudokite iš anksto nustatytą **Automatizuotą galimą vartotoją**.
-5. Įtraukite užduotį, kuri įspėja apie naują vartotoją. Galbūt norėsite naujam vartotojui išsiųsti pasisveikinimo el. laišką, kuriame yra Supply Chain Management programos URL. Šis el. laiškas gali naudoti šabloną, kurį sukuriate puslapyje **El. laiškai** ir tada pasirinkite **Vartotojo darbo srauto parametrai** puslapyje. Šablone gali būti **%portalURL%** žymė. Kai bus sugeneruotas pasisveikinimo el. laiškas, ši žymė bus pakeista Supply Chain Management programos nuomininko URL.
+5. Įtraukite užduotį, kuri įspėja apie naują vartotoją. Galbūt norėsite naujam vartotojui išsiųsti pasisveikinimo el. laišką, kuriame yra Supply Chain Management programos URL. Šis el. laiškas gali naudoti šabloną, kurį sukuriate puslapyje **El. laiškai** ir tada pasirinkite **Vartotojo darbo srauto parametrai** puslapyje. Šablone gali būti **%portalURL%** žymė. Kai bus sugeneruotas pasisveikinimo el. laiškas, ši žymė bus pakeista tiekimo grandinės valdymo nuomininko URL.
 
     > [!NOTE]
     > Šį darbo srautą galima naudoti keliuose scenarijuose, kuris apima vartotojo parengimą. Pavyzdžiui, jis gali būti naudojamas, kai galimiems tiekėjams arba kontaktiniams asmenims reikalinga tiekėjo bendradarbiavimo paskyra. Todėl turėtumėte frazuoti el. laišką kaip bendrąjį teiginį, kuris gali būti naudojamas keliems tikslams.
@@ -138,13 +135,7 @@ Sukurkite **Neaktyvaus vartotojo užklausos darbo srauto platformos** tipo darbo
 
 ## <a name="enable-vendor-collaboration-for-a-specific-vendor"></a>Įgalinkite tiekėjo bendradarbiavimą konkrečiam tiekėjui
 
-Prieš kurdami asmens, kuris naudos tiekėjo bendradarbiavimą, vartotojo paskyrą, turite nustatyti tiekėją taip, kad jis galėtų naudoti tiekėjo bendradarbiavimną. Puslapio **Tiekėjai** skirtuke **Bendra** nustatykite lauką **Bendradarbiavimo aktyvinimas**. Galimos toliau nurodytos parinktys:
-
-- **Aktyvus (PU yra automatiškai patvirtinamas)**– pirkimo užsakymai automatiškai patvirtinami, jei tiekėjas priima juos neprašydamas keitimų.
-- **Aktyvus (PU automatiškai netvirtinamas)** – jūsų organizacija turi rankiniu būdu patvirtinti pirkimo užsakymus po to, kai tiekėjas juos priima.
-
-> [!NOTE]
-> Jūsų įmonės įsigijimo specialistai taip pat gali atlikti šią užduotį.
+Prieš kurdami asmens, kuris naudos tiekėjo bendradarbiavimą, vartotojo paskyrą, turite nustatyti tiekėją taip, kad jis galėtų naudoti tiekėjo bendradarbiavimną. Išsamesnės informacijos apie tai, kaip tai padaryti, žr. [Tiekėjo bendradarbiavimą su išoriniais tiekėjais](vendor-collaboration-work-external-vendors.md).
 
 ## <a name="troubleshoot-the-provisioning-of-new-vendor-collaboration-users"></a>Naujų tiekėjo bendradarbiavimo vartotojų parengimo trikčių šalinimas
 
