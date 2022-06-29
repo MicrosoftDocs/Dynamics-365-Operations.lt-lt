@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f4ff01a8c4ed5fb8372ff7b498d0febdcd2f1e89
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: f4942e455350844ac5614e70fef21b37461540a6
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8672772"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9017295"
 ---
 # <a name="register-the-receipt-of-returned-items"></a>Grąžintų prekių gavimo registravimas 
 
@@ -87,7 +87,7 @@ Galite naudoti formą **Gavimų apžvalga**, jei norite identifikuoti grąžinim
 
 Vietoje formos **Gavimų apžvalga**, galite naudoti formą **Registracija**, kad užregistruotumėte grąžinamų prekių gavimą.
 
-1.  Spustelėkite **Pardavimas ir rinkodara** \> **Bendra** \> **Grąžinimo užsakymai** \> **Visi grąžinimo užsakymai**. Sukurkite naują grąžinimo užsakymą arba atidarykite grąžinimo užsakymą iš sąrašo. „FastTab“ skirtuke **Eilutės** pasirinkite grąžinimo užsakymo eilutę. Spustelėkite **Naujinti eilutę**, tada spustelėkite **Registracija**.
+1.  Spustelėkite **Pardavimas ir rinkodaros pardavimas** \> **grąžina** \> **visus grąžinimo užsakymus**. Sukurkite naują grąžinimo užsakymą arba atidarykite grąžinimo užsakymą iš sąrašo. „FastTab“ skirtuke **Eilutės** pasirinkite grąžinimo užsakymo eilutę. Spustelėkite **Naujinti eilutę**, tada spustelėkite **Registracija**.
 
 2.  Priskirkite perdavimo kodą lauke **Perdavimo kodas**, tada spustelėkite **Gerai**.
     

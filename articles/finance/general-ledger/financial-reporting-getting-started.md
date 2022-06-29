@@ -2,7 +2,7 @@
 title: Finansinių ataskaitų apžvalga
 description: Šiame straipsnyje aprašoma, kur gauti prieigą prie finansinių ataskaitų Microsoft Dynamics naudojant "365" finansus ir kaip naudoti finansinių ataskaitų galimybes.
 author: aprilolson
-ms.date: 03/31/2022
+ms.date: 06/20/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3b09adc738ac36625436e5cc3197e79603fff9b8
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f2c31e8b8b8022e5dfdb1f8dc4836d3d95174078
+ms.sourcegitcommit: d9d111d7420ca8f1071689afe38a1ccf4b8051f4
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8853415"
+ms.lasthandoff: 06/21/2022
+ms.locfileid: "9033666"
 ---
 # <a name="get-started-with-financial-reporting"></a>Pradėkite naudoti finansines ataskaitas 
 
@@ -30,14 +30,17 @@ ms.locfileid: "8853415"
 
 Šiame straipsnyje aprašoma, kur pasiekti finansines ataskaitas ir kaip naudoti finansinių ataskaitų galimybes. Ji taip pat apima pateikiamų numatytųjų finansinių ataskaitų aprašymą.
 
+## <a name="enable-financial-reporting"></a>Įjungti finansines ataskaitas
+Norėdami savo organizacijoje naudoti finansinių ataskaitų tarnybą, ciklo tarnybų (LCS) administratorius turi įgalinti šią paslaugą jūsų organizacijos LCS portale. Jei finansinės ataskaitos nesuteikite jūsų aplinkai, kreipkitės į LCS administratorių, kad įgalintumėte tarnybą. 
+
 ## <a name="accessing-financial-reporting"></a>Prieiga prie finansinių ataskaitų
 
 Galite prieiti prie **„Financial reporting“** meniu šiose vietose:
 
-- **Didžioji knyga** &gt; **Užklausos ir ataskaitos**
-- **Biudžeto sudarymas** &gt; **Užklausos ir ataskaitos** &gt; **Pagrindinio biudžeto sudarymas**
-- **Biudžeto sudarymas** &gt; **Užklausos ir ataskaitos** &gt; **Biudžeto planavimas**
-- **Biudžeto sudarymas** &gt; **Užklausos ir ataskaitos** &gt; **Biudžeto kontrolė**.
+- **·** > **DK užklausos ir ataskaitos**
+- **Biudžeto užklausų** > **ir ataskaitų pagrindinis** > **biudžeto kūrimas**
+- **Biudžeto planavimo** > **užklausos ir ataskaitos** > **Biudžeto planavimas**
+- **Biudžeto planavimo** > **užklausos ir ataskaitos** > **Biudžeto kontrolė**
 - Konsolidacija
 
 Norėdami sukurti ir generuoti juridinio subjekto finansinių ataskaitų, turite nustatyti tolesnę to juridinio subjekto informaciją.

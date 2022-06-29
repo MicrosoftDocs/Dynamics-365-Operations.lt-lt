@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: aa326a01bb63bd0b59c0df7a3c751a5242a3dd37
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: c43424a0955d7a046186e8a4120c050990df6060
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8872100"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015062"
 ---
 # <a name="condition-assessment"></a>Būklės vertinimas
 
@@ -47,7 +47,7 @@ Sukuriamas turto būklės vertinimas. Prieš atlikdami būklės vertinimo proced
 
 ## <a name="create-condition-assessment-registration-on-an-asset"></a>Turto būklės vertinimo registracijos kūrimas
 
-1. Pasirinkite **Turto valdymas** > **Bendra** > **Turtas** > **Visas turtas**.
+1. Pasirinkite Turto **valdymo turtas** > **Visas** > **turtas**.
 2. Sąraše pasirinkite turtą, kurio būklės vertinimo registraciją norite sukurti.
 3. Skirtuke **Bendra** spustelėkite **Būklės vertinimas**.
 4. Spustelėję **Nauja** sukurkite naują registraciją.
@@ -62,7 +62,7 @@ Sukuriamas turto būklės vertinimas. Prieš atlikdami būklės vertinimo proced
 Atlikę turto būklės vertinimo registraciją, galite atsispausdinti būklės vertinimo ataskaitą.
 
 >[!NOTE]
->Taip pat galite užregistruoti darbo užsakymo būklės vertinimą (mygtukas **Turto valdymas** > **Bendra** > **Darbo užsakymai** > **Visi darbo užsakymai** > **Būklės vertinimas** mygtukas.)
+>Taip pat galite užregistruoti sąlygų vertinimą darbo užsakyme (turto valdymo **darbo** > **užsakymai Visi** > **darbo užsakymų sąlygų** > **įvertinimo** mygtukas).
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

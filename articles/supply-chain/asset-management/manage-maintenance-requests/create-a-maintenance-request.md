@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: c3def1b8ebd75da44588732d9f54a1cc03c999c6
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: 92f3a2bc3d2a4d5d1c3be0c6dda2674dc3e7d0bb
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8891240"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016832"
 ---
 # <a name="create-maintenance-requests"></a>Priežiūros užklausos kūrimas
 
@@ -32,9 +32,9 @@ Priežiūros užklausas galima kurti tada, kai techninės priežiūros darbuotoj
 
 **Pavyzdys:** Atlikdamas remonto darbus, techninės priežiūros darbuotojas pastebi, kad reikia sutaisyti kitą detalę, esančią toje pačioje vietoje. Tačiau techninės priežiūros darbuotojas neturi laiko ar reikalingų atsarginių dalių, kad atliktų remonto darbus. Todėl jis sukuria detalės priežiūros užklausą ir trumpai aprašo problemą.
 
-Srities **Susijusi informacija**, esančios dešinėje puslapio **Visas turtas** arba **Aktyvus turtas** pusėje (**Turto valdymas**\>**Bendra**\>**Turtas**\>**Visas turtas** arba **Aktyvus turtas**), skyriuje **Aktyvios priežiūros užklausos** rodomos aktyviosios priežiūros užklausos, kurios pridėtos prie pasirinkto turto.
+Susijusios **informacijos srities** **·** **·** **aktyvių** priežiūros užklausų skyrius, esantis dešinėje puslapio Visas turtas arba Aktyvus turtas (**·** \> **·** \> **·** **Turto** valdymas Turtas Visas turtas arba Aktyvus turtas) pusėje rodo aktyvias priežiūros užklausas, kurios pridėtos prie pasirinkto turto.
 
-1. Pasirinkite **Turto valdymas** \> **Bendra** \> **Priežiūros užklausos** \> **Visos priežiūros užklausos** arba **Aktyvios priežiūros užklausos**.
+1. Pasirinkite **Turto valdymo priežiūros** \> **užklausos Visos** \> **priežiūros užklausos arba** **Aktyvios priežiūros užklausos.**
 2. Pasirinkite **Naujas**.
 3. Dialogo lange **Kurti užklausą**, lauke **Priežiūros užklausos tipas** pasirinkite priežiūros užklausos tipą. Rekomenduojamas numatytasis tipas.
 4. Lauke **Aprašas** įrašykite užklausos pavadinimą, kuris apibūdintų priežiūros užklausą.

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 80f0380d50a0c050242846c0c3e70bc1a0bd6bf5
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: df1e1fe352add8361309df54b2178ec27752466d
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8880457"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016803"
 ---
 # <a name="forecasts-work-orders-and-projects"></a>Prognozės, darbo užsakymai ir projektai
 
@@ -60,7 +60,7 @@ Pavyzdžiui, toliau esančiame pavyzdyje dėl to, kaip nustatytas turto tipas **
 
 ![1 iliustracija.](media/01-integration-to-pma.png)
 
-Projekto ID darbo užsakymo užduotyje ir susijusio veiklos numerio paskirtis yra sekti išlaidas, susijusias su darbo užsakymo užduotimi ir pasirinktu turtu modulyje **Projektų valdymas ir apskaita**. (Norėdami peržiūrėti projekto ID ir veiklos numerį, pasirinkite **Turto valdymas** > **Bendras** > **Darbo užsakymai** > **Visi darbo užsakymai** ir pasirinkite darbo užsakymą. „FastTab“ **Eilutės informacija**, lauke **Projekto ID** rodomas projekto ID, o lauke **Veiklos numeris** rodomas veiklos numeris.) Norėdami gauti daugiau informacijos apie turto valdymo išlaidų kontrolę, žr. [Kaštų ir datos kontrolė](../controlling-and-reporting/cost-and-date-control.md).
+Projekto ID darbo užsakymo užduotyje ir susijusio veiklos numerio paskirtis yra sekti išlaidas, susijusias su darbo užsakymo užduotimi ir pasirinktu turtu modulyje **Projektų valdymas ir apskaita**. (Norėdami peržiūrėti projekto ID ir veiklos numerį, pasirinkite **Turto valdymo** > **darbo užsakymai** > **Visi darbo** užsakymai, tada pasirinkite darbo užsakymą. „FastTab“ **Eilutės informacija**, lauke **Projekto ID** rodomas projekto ID, o lauke **Veiklos numeris** rodomas veiklos numeris.) Norėdami gauti daugiau informacijos apie turto valdymo išlaidų kontrolę, žr. [Kaštų ir datos kontrolė](../controlling-and-reporting/cost-and-date-control.md).
 
 Toliau pateiktame paveikslėlyje matote grafinę darbo užsakymų projektų ir susijusių projektų veiklų apžvalgą.
 
