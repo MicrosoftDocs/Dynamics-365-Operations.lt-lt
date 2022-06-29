@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 71b861ec31e704e001aab29245b9e24ce8beb0de
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: 665c705e3ffb617fc159a1223cb3f776878d5cd2
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8882785"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016252"
 ---
 # <a name="asset-boms"></a>Turto KS
 
@@ -57,7 +57,7 @@ Atsarginių dalių retrospektyvos nustatymas pagrįstas elementų grupėmis, suk
 
 Užregistravus elemento suvartojimą darbo užsakyme galima peržiūrėti užregistruoto elemento suvartojimą puslapyje **Turto KS**.
 
-1. Pasirinkite **Turto valdymas** \> **Bendra** \> **Turtas** \> **Aktyvus turtas**. Sąraše pasirinkite turtą, tada pasirinkite **Turto KS**.
+1. Pasirinkite Turto **valdymo turtas** \> **Aktyvus** \> **turtas**. Sąraše pasirinkite turtą, tada pasirinkite **Turto KS**.
 
     > [!NOTE]
     > Norėdami peržiūrėti visas elemento suvartojimo registracijas visuose turtuose, pasirinkite **Turto valdymas** \> **Užklausos** \> **Turtas** \> **Turto KS**.
