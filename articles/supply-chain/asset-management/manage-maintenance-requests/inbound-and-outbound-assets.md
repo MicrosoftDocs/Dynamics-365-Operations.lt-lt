@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: e0c382efda81067ad4c0cd977e5cfbf37b4e3fc6
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: fd7482cfe943347840e9fb070151d66fbe5ef9ca
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8908720"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016542"
 ---
 # <a name="inbound-and-outbound-assets"></a>Gaunamas ir siunčiamas turtas
 
@@ -37,7 +37,7 @@ Turto valdymo konfigūracija nulemia, ar galite dirbti su gaunamu ir siunčiamu 
 
 ## <a name="register-assets-as-inbound"></a>Gaunamo turto registravimas
 
-1. Pasirinkite **Turto valdymas** \> **Bendra** \> **Priežiūros užklausos** \> **Aktyvios priežiūros užklausos**.
+1. Pasirinkite **turto valdymo priežiūros** \> **užklausas** \> **Aktyvios priežiūros užklausos**.
 2. Pasirinkite priežiūros užklausą.
 3. Pasirinkite **Atnaujinti priežiūros užklausos būseną**.
 4. Pasirinkite **Gaunamas** (arba kitą sukurtą gaunamo turto ciklo būseną), tada pasirinkite **Gerai**.
@@ -46,7 +46,7 @@ Turto valdymo konfigūracija nulemia, ar galite dirbti su gaunamu ir siunčiamu 
 
 ## <a name="register-inbound-assets-as-received"></a>Gaunamo turto kaip gauto registravimas
 
-1. Pasirinkite **Turto valdymas** \> **Dažnas** \> **Pirmyn atgal** \> **Atvykstamasis turtas**.
+1. Pasirinkite **turto valdymo** \> **gaunama/siunčiamas gaunamas** \> **turtas.**
 2. Pasirinkite turtą arba priežiūros užklausą.
 3. Pasirinkite **Gauti turtą**.
 4. Lauke **Gauta** įveskite datą ir laiką. Tada pasirinkite **Gerai**. Įrašas pašalinamas iš **Gaunamas turtas** sąrašo puslapio.
@@ -57,14 +57,14 @@ Turto valdymo konfigūracija nulemia, ar galite dirbti su gaunamu ir siunčiamu 
 
 Atlikę priežiūros arba remonto užduotį, galite užregistruoti turtą kaip grąžintą.
 
-1. Pasirinkite **Turto valdymas** \> **Bendra** \> **Priežiūros užklausos** \> **Aktyvios priežiūros užklausos**.
+1. Pasirinkite **turto valdymo priežiūros** \> **užklausas** \> **Aktyvios priežiūros užklausos**.
 2. Pasirinkite priežiūros užklausą.
 3. Pasirinkite **Atnaujinti priežiūros užklausos būseną**.
 4. Pasirinkite **Siunčiamas** (arba kitą sukurtą siunčiamo turto ciklo būseną), tada pasirinkite **Gerai**.
 
 ## <a name="register-outbound-assets-as-delivered"></a>Siunčiamo turto kaip pristatyto registravimas
 
-1. Pasirinkite **Turto valdymas** \> **Dažnas** \> **Pirmyn atgal** \> **Siunčiamas turtas**.
+1. Pasirinkite **turto valdymo** \> **gaunamo/siunčiamo siunčiamo** \> **turto.**
 2. Pasirinkite turtą arba priežiūros užklausą.
 3. Pasirinkite **Pristatyti turtą**.
 4. Lauke **Pristatyta** įveskite datą ir laiką. Tada pasirinkite **Gerai**. Įrašas pašalinamas iš **Siunčiamas turtas** sąrašo puslapio.

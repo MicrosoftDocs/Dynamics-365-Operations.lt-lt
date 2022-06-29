@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e75ed6e30ece1f4807ff036d831c269774d941a7
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 228b76d6f6f0bb048662c8e82df76f51b7cb3652
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8670978"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9017382"
 ---
 # <a name="cancel-service-orders"></a>Atšaukti aptarnavimo užsakymus   
 
@@ -36,11 +36,11 @@ Galite atšaukti aptarnavimo užsakymą arba aptarnavimo užsakymo eilutę arba 
 
 ## <a name="cancel-a-service-order-in-the-service-orders-form"></a>Aptarnavimo užsakymų formoje esančių aptarnavimo užsakymų atšaukimas
 
-1.  Spustelėkite **Aptarnavimo valdymas** \> **Bendra** \> **Aptarnavimo užsakymai** \> **Aptarnavimo užsakymai**. Pasirinkite aptarnavimo užsakymą ir veiksmų srityje spustelėkite **Atšaukti užsakymą**.
+1.  Spustelėkite Aptarnavimo **valdymo paslaugos** \> **užsakymai** \> **Aptarnavimo užsakymai**. Pasirinkite aptarnavimo užsakymą ir veiksmų srityje spustelėkite **Atšaukti užsakymą**.
 
 ## <a name="cancel-a-service-order-line"></a>Aptarnavimo užsakymo eilutės atšaukimas
 
-1.  Spustelėkite **Aptarnavimo valdymas** \> **Bendra** \> **Aptarnavimo užsakymai** \> **Aptarnavimo užsakymai**. Dukart spustelėkite aptarnavimo užsakymą, kuriame yra eilutė, kurią norite atšaukti.
+1.  Spustelėkite Aptarnavimo **valdymo paslaugos** \> **užsakymai** \> **Aptarnavimo užsakymai**. Dukart spustelėkite aptarnavimo užsakymą, kuriame yra eilutė, kurią norite atšaukti.
 
 2.  Pasirinkite aptarnavimo užsakymo eilutę, kurią norite atšaukti, tada spustelėję **Atšaukti užsakymo eilutę** pakeisite eilutės būseną į **Atšaukta**.
 

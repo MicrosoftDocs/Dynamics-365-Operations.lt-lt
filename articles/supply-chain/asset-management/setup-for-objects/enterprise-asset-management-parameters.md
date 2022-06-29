@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a1e2c79a621cf4bd1212c006e1c8967d85bd716b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: 750776412ce9d87389a635ef108a34cffe12b68b
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8870817"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015818"
 ---
 # <a name="asset-management-parameters"></a>Turto valdymo parametrai
 
@@ -37,7 +37,7 @@ Skirtuke **Turtas** pateikiami šie parametrai:
 
 - **Numatytoji funkcinė vieta** yra standartinė funkcinė vieta, kuri kuriant naują turtą automatiškai pasirenkama turtui.  
 - Lauke **Standartinis kalendorius** pasirinkite kalendorių, kuris bus naudojamas skaičiuojant turto KPI, jei turtui nepasirinktas joks išteklius.  
-- Lauke **Rodinys** pasirinkite standartinį rodinį, rodomą, kai atidaromas **Turto rodinys**(**Turto valdymas** > **Bendra** > **Turtas** > **Turto rodinys**).
+- Lauke Peržiūrėti **pasirinkite** standartinį rodinį, kuris rodomas atidarius turto rodinį **(** turto **valdymo turto** > **·** > **rodinys**).
 - **Numatytasis užklausos tipas** yra standartinis priežiūros užklausos tipas, kuris automatiškai pasirenkamas kuriant naują užklausą.  
 - Užduočių tipų prognozės saugomos projekte, pasirinktame lauke **Prognozės projektas**. Kiekvienam užduoties tipui prognozės projekte automatiškai sukuriama nauja veikla. Užduoties tipo prognozės išsaugomos prognozės projekte.  
 - Lauke **Modelis** pasirinkite prognozės modelį, naudojamą užduoties tipui ir darbo užsakymo prognozėms.

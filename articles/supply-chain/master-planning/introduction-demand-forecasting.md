@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b7a69cbca6e6f32812ea00a63751c931a8477991
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: e1648808667c8bb9487e7a47b87d8e73cf442d82
+ms.sourcegitcommit: d98ecbd9457197ec8f8e281f9c2f24dcce7b8269
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8469260"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "8960198"
 ---
 # <a name="demand-forecasting-overview"></a>Poreikio prognozės apžvalga
 
@@ -91,19 +91,13 @@ Atkreipkite dėmesį, kad poreikio UOM prognozė neprivalo turėti jokios konkre
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
-[Poreikio prognozavimo nustatymas](demand-forecasting-setup.md)
-
-[Pagrindinės statistinės prognozės generavimas](generate-statistical-baseline-forecast.md)
-
-[Neautomatiniai pagrindinės prognozės koregavimai](manual-adjustments-baseline-forecast.md)
-
-[Pakoreguotos prognozės įgaliojimas](authorize-adjusted-forecast.md)
-
-[Prognozės tikslumo stebėjimas](monitor-forecast-accuracy.md)
-
-[Pašalinių reikšmių šalinimas iš praeities operacijų duomenų skaičiuojant poreikio prognozę](remove-historical-outliers-calculating-demand-forecast.md)
-
-[Poreikio prognozių funkcijų išplėtimas](https://www.youtube.com/watch?v=4OIKIXLiNjI&feature=youtu.be)
-
+- [Poreikio prognozavimo nustatymas](demand-forecasting-setup.md)
+- [Pagrindinės statistinės prognozės generavimas](generate-statistical-baseline-forecast.md)
+- [Neautomatiniai pagrindinės prognozės koregavimai](manual-adjustments-baseline-forecast.md)
+- [Pakoreguotos prognozės įgaliojimas](authorize-adjusted-forecast.md)
+- [Prognozės tikslumo stebėjimas](monitor-forecast-accuracy.md)
+- [Pašalinių reikšmių šalinimas iš praeities operacijų duomenų skaičiuojant poreikio prognozę](remove-historical-outliers-calculating-demand-forecast.md)
+- [Vaizdo įrašas: poreikio prognozės funkcijos išplėtimas](https://www.youtube.com/watch?v=4OIKIXLiNjI&feature=youtu.be)
+- [Webi azure: poreikio prognozė naudojant "Azure" mašinos mokymosi seriją](https://aka.ms/DemandForecastingwithAzureMachineLearningSeries)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

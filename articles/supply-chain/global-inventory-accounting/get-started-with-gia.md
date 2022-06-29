@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yanansong
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 493e0be8ab56abc2a3253876107b7f4fefabf4ad
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: cbe6bff6fab96900b8bd4e112a8858363fff86d1
+ms.sourcegitcommit: 9870b773a2ea8f5675651199fdbc63ca7a1b4453
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8891095"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9013561"
 ---
 # <a name="get-started-with-global-inventory-accounting"></a>Pradėkite darbą su Visuotine atsargų apskaita
 
@@ -69,37 +69,6 @@ Kad būtų galima įgalinti papildinio funkcionalumą, turite jį integruoti su 
 
 Daugiau informacijos rasite [Įjungimas po aplinkos diegimo](../../fin-ops-core/dev-itpro/power-platform/enable-power-platform-integration.md#enable-after-deploy).
 
-### <a name="set-up-dataverse"></a>Nustatyti Dataverse
-
-Prieš nustatydami „Dataverse”, įtraukite Visuotinės atsargų apskaitos tarnybos principus savo nuomininkui atlikdami šiuos veiksmus.
-
-1. Įdiekite „Azure AD“ modulį, skirtą „Windows” „PowerShell“ v2, kaip aprašyta skyriuje [„Azure Active Directory“ „PowerShell for Graph“ diegimas](/powershell/azure/active-directory/install-adv2).
-1. Paleiskite šią „PowerShell“ komandą.
-
-    ```powershell
-    Connect-AzureAD # (open a sign in window and sign in as a tenant user)
-
-    New-AzureADServicePrincipal -AppId "7a1dd80f-c961-4a67-a2f5-d6a5d2f52cf9" -DisplayName "d365-scm-costaccountingservice"
-
-    New-AzureADServicePrincipal -AppId "5f58fc56-0202-49a8-ac9e-0946b049718b" -DisplayName "d365-scm-operationdataservice"
-    ```
-
-Tada sukurkite programos vartotojus Visuotinei atsargų apskaitai „Dataverse” platformoje atlikdami šiuos veiksmus.
-
-1. Atidarykite savo „Dataverse“ aplinkos URL.
-1. Eikite į **Išplėstiniai nustatymai \> Sistema \> Sauga \> Naudotojai** ir sukurkite programos naudotoją. Naudokite lauką **Peržiūrėti**, kad pakeistumėte puslapio rodinį į *Programos naudotojai*.
-1. Pasirinkite **Naujas**.
-1. Nustatykite lauką **Programos ID** į *7a1dd80f-c961-4a67-a2f5-d6a5d2f52cf9*.
-1. Pasirinkite **Priskirti vaidmenį**, tada pasirinkite *Sistemos administratorius*. Jei yra vaidmuo, kuris vadinamas Vartotojas *Common Data Service*, pasirinkite jį taip pat.
-1. Pakartokite ankstesnius veiksmus, tačiau nustatykite **Programos ID** lauką kaip *„5f58fc56-0202-49a8-ac9e-0946b049718b”*.
-
-Daugiau informacijos žr. skyriuje [Programos naudotojo kūrimas](/power-platform/admin/create-users-assign-online-security-roles#create-an-application-user).
-
-Jei numatytoji „Dataverse” diegimo kalba nėra anglų, atlikite šiuos veiksmus.
-
-1. Eikite į **Išplėstiniai parametrai \> Administravimas \> Kalbos**.
-1. Pasirinkite *Anglų* (*LanguageCode (Kalbos kodas)=1033*), o tada – **Taikyti**.
-
 ## <a name="install-the-add-in"></a><a name="install"></a>Papildinio įdiegimas
 
 Atlikite šiuos veiksmus, kad įdiegtumėte priedą, skirtą Visuotinės atsargų apskaitos naudojimui.
@@ -109,11 +78,21 @@ Atlikite šiuos veiksmus, kad įdiegtumėte priedą, skirtą Visuotinės atsarg�
 1. Eikite į **Išsami informacija**.
 1. Eikite į **„Power Platform” integravimas** ir pasirinkite **Nustatymas**.
 1. Dialogo lange **„Power Platform” aplinkos nustatymas** pasirinkite žymės langelį, o tada – **Nustatymas**. Įprastai nustatymas trunka nuo 60 iki 90 minučių.
-1. Užbaigę „Microsoft Power Platform” aplinkos nustatymą, „FastTab” **Aplinkos papildiniai** pasirinkite **Diegti naują priedą**.
+1. Užbaigę aplinkos Microsoft Power Platform nustatymą, prisiregistruokite [Power Platform prie administravimo](https://admin.powerplatform.microsoft.com) centro ir įdiekite visuotinio atsargų apskaitos priedą, atlikdami šiuos veiksmus:
+   1. Pasirinkite aplinką, kurioje norite įdiegti priedą.
+   1. Pasirinkite " **Dynamics 365" programėles**.
+   1. Pasirinkite **įdiegti programą**.
+   1. Pasirinkite **"Dynamics 365" visuotinių atsargų apskaita**.
+   1. Pasirinkite **Pirmyn,** jei norite įdiegti.
+1. Grįžkite į LCS aplinką. „FastTab” **Aplinkos papildiniai** pasirinkite **Diegti naują papildinį**.
 1. Pasirinkite **Visuotinė atsargų apskaita**.
 1. Vadovaukitės diegimo vadovu ir sutikite su sąlygomis ir nuostatomis.
 1. Pasirinkti **Diegti**.
 1. „FastTab” **Aplinkos papildiniai** turėtumėte matyti, kad Visuotinė atsargų apskaita yra diegiama. Po kelių minučių būsena turėtų pasikeisti iš *Diegiama* į *Įdiegta*. (Gali reikėti atnaujinti puslapį, kad pamatytumėte šį pakeitimą.) Tada Visuotinė atsargų apskaita bus parengta naudoti.
+
+Jei jūsų diegimo numatytoji kalba yra Dataverse ne anglų kalba, atlikite šiuos veiksmus:
+1. Eikite į **Išplėstiniai parametrai \> Administravimas \> Kalbos**.
+1. Pasirinkite *Anglų* (*LanguageCode (Kalbos kodas)=1033*), o tada – **Taikyti**.
 
 ## <a name="set-up-the-integration"></a>Integravimo nustatymas
 

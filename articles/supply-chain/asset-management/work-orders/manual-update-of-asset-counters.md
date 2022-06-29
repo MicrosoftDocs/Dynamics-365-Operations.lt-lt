@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: f3a9ee0a96e6a9097608b4c7cd1f65085e95b8ca
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: 30c672286c16a4353556a507019960edb93f8b1b
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8897725"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016600"
 ---
 # <a name="manual-update-of-asset-counters"></a>Neautomatinis turto skaitiklių atnaujinimas
 
@@ -34,7 +34,7 @@ Pasirenkamas skaitiklio tipas gali būti nustatytas perimti skaitiklio vertes. K
 
 Puslapyje **Visas turtas** galite turtui sukurti valandų ar dydžio skaitiklių registracijų, atsižvelgiant į jūsų turto rodmenis.
 
-1. Pasirinkite **Turto valdymas** > **Bendra** > **Turtas** > **Visas turtas**.
+1. Pasirinkite Turto **valdymo turtas** > **Visas** > **turtas**.
 
 2. Pasirinkite turtą, o tada veiksmų srityje, skirtuke **Turtas**, grupėje **Prevencinis**, pasirinkite **Skaitikliai**. Puslapyje **Turto skaitikliai** rodomas visų buvusių skaitiklių registracijų pasirinktam turtui sąrašas.
 

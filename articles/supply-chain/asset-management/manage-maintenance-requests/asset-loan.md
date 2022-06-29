@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: ced5ec174fe1885273241be5f9fd48b7947129af
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: f70b29ef69b80160f108e6f53edda12b86c2c9db
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8846277"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015760"
 ---
 # <a name="asset-loans"></a>Turto skolinimas
 
@@ -32,7 +32,7 @@ Jei jūsų įmonė vykdo iš vidinių vietų ar klientų gauto turto remonto dar
 
 ## <a name="register-asset-loans-on-a-maintenance-request"></a>Turto skolinimo registravimas pagal priežiūros užklausą
 
-1. Pasirinkite **Turto valdymas** \> **Bendra** \> **Priežiūros užklausos** \> **Visos priežiūros užklausos** arba **Aktyvios priežiūros užklausos**.
+1. Pasirinkite **Turto valdymo priežiūros** \> **užklausos Visos** \> **priežiūros užklausos arba** **Aktyvios priežiūros užklausos.**
 2. Pasirinkite priežiūros užklausą, kad užregistruotumėte skolinamą turtą, tada pasirinkite **Redaguoti**.
 3. Puslapyje **Užklausa** pasirinkite **Siųsti skolinamą turtą**.
 4. Pasirinkite turtą ir įveskite numatomą grąžinimo datą.
@@ -42,7 +42,7 @@ Jei jūsų įmonė vykdo iš vidinių vietų ar klientų gauto turto remonto dar
 > - Skolinamą turtą galite siųsti tik tuo atveju, jei pasiekiamas to paties tipo turtas.
 > - Jūsų skolinamas turtas turi turėti turto ciklo būseną, kuri leidžia jį naudoti kaip skolinamą turtą, kaip pvz., **InStorage**. Kai užregistruojamas skolinamas turtas, turto ciklo būsena automatiškai atnaujinama, kaip pvz., **OnLoan**.
 
-Norėdami peržiūrėti visą turto, kurį paskolinote kitoms vietoms ar klientams, sąrašą, pasirinkite **Turto valdymas** \> **Bendra** \> **Paskola su įkeistu turtu** \> **Visos paskolos su įkeistu turtu**. Jei prie turto pažymėtas žymės langelis **Baigta**, turtas buvo užregistruotas kaip grąžintas jūsų įmonei.
+Norėdami peržiūrėti visų turtų, kuriuos skolinote kitose vietose ar klientams, sąrašą, **·** \> **pasirinkite Turto valdymo turto panauda** \> **Visas turto panaudas.** Jei prie turto pažymėtas žymės langelis **Baigta**, turtas buvo užregistruotas kaip grąžintas jūsų įmonei.
 
 ![Priežiūros užklausų valdymas.](media/06-manage-maintenance-requests.png)
 
@@ -50,7 +50,7 @@ Puslapyje **Aktyvusis turto skolinimas** galite peržiūrėti visą paskolinto t
 
 ## <a name="register-loan-assets-as-returned"></a>Skolinto turto grąžinimo registravimas
 
-1. Pasirinkite **Turto valdymas** \> **Bendra** \> **Paskola su įkeistu turtu** \> **Aktyvios paskolos su įkeistu turtu**.
+1. Pasirinkite Turto **valdymo turto** \> **panaudos** \> **aktyviojo turto panaudą.**
 2. Pasirinkite paskolintą turtą, kurią norite užregistruoti kaip grąžintą, tada pasirinkite **Grąžinti paskolintą turtą**.
 3. Laukelyje **Grąžinta** nustatykite datą ir laiką.
 4. Pasirinkite **Gerai**.

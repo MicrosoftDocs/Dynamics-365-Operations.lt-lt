@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 80980d83248612037999c665b6058c4d0bbf6a7c
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 51ea26a0f6519d26f5207a7b6c8afbcdfa358be9
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8678240"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015265"
 ---
 # <a name="create-service-task-relations"></a>Aptarnavimo užduočių ryšių kūrimas    
 
@@ -30,7 +30,7 @@ Aptarnavimo užduotis galima susieti su aptarnavimo sutartimis arba aptarnavimo 
 
 ## <a name="create-a-relation-with-a-service-agreement"></a>Ryšio su aptarnavimo sutartimi kūrimas
 
-1.  Eikite į **Aptarnavimo valdymas** \> **Bendrasis** \> **Aptarnavimo sutartys** \> **Aptarnavimo sutartys**.
+1.  Eikite į **Aptarnavimo valdymo** \> **aptarnavimo** \> **sutartys**.
 
 2.  Pasirinkite esamą aptarnavimo sutartį arba sukurkite naują.
 
@@ -48,7 +48,7 @@ Aptarnavimo užduočių ryšys, sukurtas aptarnavimo užduotyje, prieinamas iš 
 
 ## <a name="create-a-relation-with-a-service-order"></a>Ryšio su aptarnavimo užsakymu kūrimas
 
-1.  Eikite į **Aptarnavimo valdymas** \> **Bendra** \> **Aptarnavimo užsakymai** \> **Aptarnavimo užsakymai**.
+1.  Eikite į Aptarnavimo **valdymo aptarnavimo** \> **užsakymai** \> **Aptarnavimo užsakymai**.
 
 2.  Pasirinkite esamą aptarnavimo užsakymą arba sukurkite naują.
 

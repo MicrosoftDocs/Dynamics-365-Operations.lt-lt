@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 4089400817d6dd8454c85e594eff05314d3fd72e
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: 782a8cc1f9e64b8c2d4364212c9c5755c103bbfb
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8858017"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9017064"
 ---
 # <a name="maintenance-schedule"></a>Priežiūros grafikas
 
@@ -44,7 +44,7 @@ Keturi priežiūros grafiko rodiniai truputį skiriasi, priklausomai nuo prieži
 
 Norėdami atidaryti priežiūros grafiką:
 
-1. Spustelėkite **Turto valdymas** > **Bendrieji dalykai** > **Priežiūros grafikas** > **Visi priežiūros grafikai** arba **Atidaryti priežiūros grafiko eilutes**, arba **Atidaryti priežiūros grafiko telkinius**.
+1. Spustelėkite Turto **valdymo priežiūros planas** > **Visos** > **priežiūros grafikas arba Atidaryti** priežiūros **grafiko eilutes arba** Atidaryti **priežiūros grafiko telkinius**.
 
 2. Kad atnaujintumėte priežiūros grafiką, spustelėkite **Priežiūros planas** arba **Priežiūros ciklai**. 
 

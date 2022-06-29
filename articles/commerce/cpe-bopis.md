@@ -1,8 +1,8 @@
 ---
-title: BOPIS konfigūravimas „Dynamics 365 Commerce“ vertinimo aplinkoje
-description: Šiame straipsnyje paaiškinama, kaip konfigūruoti pirkti internete, paimti parduotuvės (BOPIS) Microsoft Dynamics 365 Commerce vertinimo aplinkoje po to, kai ji konfigūruota.
+title: Konfigūruoti BOPIS sandūrų Dynamics 365 Commerce saugyklos aplinkoje
+description: Šiame straipsnyje paaiškinama, kaip sukonfigūruoti pirkti internete, paimti parduotuvės (BOPIS) Microsoft Dynamics 365 Commerce sandūrų saugykloje po to, kai ji konfigūruota.
 author: BrianShook
-ms.date: 07/16/2020
+ms.date: 06/14/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,22 +14,22 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2020-04-20
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 379537fd490be98497b6e7c5cdfbc33798fe28ad
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: 16cea7beb6ca05b5e96a9713b1217b414e27d56e
+ms.sourcegitcommit: 252cb41c3029b623354698463f7b44a29fd9f184
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8861971"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9013180"
 ---
-# <a name="configure-bopis-in-a-dynamics-365-commerce-evaluation-environment"></a>BOPIS konfigūravimas „Dynamics 365 Commerce“ vertinimo aplinkoje
+# <a name="configure-bopis-in-a-dynamics-365-commerce-sandbox-environment"></a>Konfigūruoti BOPIS sandūrų Dynamics 365 Commerce saugyklos aplinkoje
 
 [!include [banner](includes/banner.md)]
 
-Šiame straipsnyje paaiškinama, kaip sukonfigūruoti pirkti internete, paimti parduotuvėje (BOPIS) Microsoft Dynamics 365 Commerce vertinimo aplinkoje po to, kai aplinka konfigūruota.
+Šiame straipsnyje paaiškinama, kaip sukonfigūruoti pirkti internete, paimti parduotuvėje (BOPIS) Microsoft Dynamics 365 Commerce sandūrų saugykloje po to, kai aplinka konfigūruota.
 
 ## <a name="prerequisite"></a>Būtinoji sąlyga
 
-Atlikite šiame straipsnyje nurodytas procedūras tik tada, kai sukonfigūruokite ir sukonfigūruokite savo komercijos vertinimo aplinką. Dėl informacijos, kaip parengti ir konfigūruoti savo aplinką, žr. [Parengti „Dynamics 365 Commerce“ vertinimo aplinką](provisioning-guide.md) ir [Konfigūruoti „Dynamics 365 Commerce“ vertinimo aplinką](./cpe-post-provisioning.md).
+Atlikite šiame straipsnyje nurodytas procedūras tik tada, kai sukonfigūruota ir sukonfigūruota "Commerce sandbox" aplinka. Informacijos apie tai, kaip konfigūruoti ir konfigūruoti aplinką, ieškokite Konfigūruokite sandūrų [dėžės aplinką Dynamics 365 Commerce ir sukonfigūruokite](provisioning-guide.md) sandūrų [dėžės aplinką.Dynamics 365 Commerce](./cpe-post-provisioning.md)
 
 Kai "Commerce" aplinka sukonfigūruota ir sukonfigūruota baigtis, galite naudoti šį straipsnį, kad įgalintumėte BOPIS scenarijus.
 
@@ -67,7 +67,7 @@ BOPIS scenarijams, apimantiems mokėjimą kredito kortele, reikia aparatūros st
 5. Pasirodo autentifikavimo dialogo langas. Pasirinkite sąskaitą, kuri naudoja el. pašto adresą, anksčiau susietą su darbuotoju **000713 - Andrew Collette**.
 
     > [!NOTE]
-    > Jei dar nesusiejote darbuotojo su jūsų tapatybe, aktyvinimas bus nesėkmingas. Tokiu atveju atlikite vertinimo aplinkos straipsnio [Dynamics 365 Commerce konfigūravimo skyriuje Susieti darbuotoją su savo tapatybe](cpe-post-provisioning.md#associate-a-worker-with-your-identity) nurodytus veiksmus.
+    > Jei dar nesusiejote darbuotojo su jūsų tapatybe, aktyvinimas bus nesėkmingas. Tokiu atveju atlikite veiksmus, nurodytus skyriuje Susieti [darbuotoją su savo tapatybe, skyriuje Konfigūruoti sandbox Dynamics 365 Commerce aplinkos](cpe-post-provisioning.md#associate-a-worker-with-your-identity) straipsnį.
     
 6. Kai būsite paraginti leisti jūsų organizacijai valdyti įrenginį, pasirinkite **Tik šią programą**.
 7. Kai aktyvinimas baigtas, pasirinkite **Pradžia**.
@@ -140,13 +140,9 @@ Susidūrę su problemomis pirmiausia perskaitykite „Modern POS” arba informa
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
-[„Dynamics 365 Commerce“ vertinimo aplinkos peržiūra](cpe-overview.md)
+[Sandėlio Dynamics 365 Commerce aplinkos parengimas](provisioning-guide.md)
 
-[Parenkite „Dynamics 365 Commerce“ vertinimo aplinką](provisioning-guide.md)
-
-[Konfigūruokite pasirinktas savybes „Dynamics 365 Commerce“ vertinamoje aplinkoje](cpe-optional-features.md)
-
-[„Dynamics 365 Commerce“ vertinimo aplinkos DUK](cpe-faq.md)
+[Konfigūruokite pasirinktines sandūrų Dynamics 365 Commerce aplinkos priemones](cpe-optional-features.md)
 
 [„Microsoft Lifecycle Services“ (LCS)](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
 

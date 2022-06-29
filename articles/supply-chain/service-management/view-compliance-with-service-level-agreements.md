@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e3a91417e771902ffdc099591434befad2a3c137
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 17ada399e131f247ac7017e8819df4168d463cf5
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8678553"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015441"
 ---
 # <a name="view-compliance-with-service-level-agreements"></a>Aptarnavimo lygio sutarčių atitikimo peržiūra    
 
@@ -29,7 +29,7 @@ ms.locfileid: "8678553"
 
 ## <a name="view-compliance-with-a-service-level-agreement"></a>Aptarnavimo lygio sutarties atitikties peržiūra
 
-1.  Spustelėkite **Aptarnavimo valdymas** \> **Bendra** \> **Aptarnavimo užsakymai** \> **Aptarnavimo užsakymai**. Pasirinkite aptarnavimo užsakymą ir dukart spustelėkite, kad atidarytumėte užsakymo išsamios informacijos formą.
+1.  Spustelėkite Aptarnavimo **valdymo paslaugos** \> **užsakymai** \> **Aptarnavimo užsakymai**. Pasirinkite aptarnavimo užsakymą ir dukart spustelėkite, kad atidarytumėte užsakymo išsamios informacijos formą.
 
 2.  Skirtuko **Bendra** lauke **Atitiktis** peržiūrėkite laiko, praleisto vykdant aptarnavimo užsakymą, procentinę išraišką, lyginant su aptarnavimo lygio sutartyje nurodytu laiko apribojimu.
 

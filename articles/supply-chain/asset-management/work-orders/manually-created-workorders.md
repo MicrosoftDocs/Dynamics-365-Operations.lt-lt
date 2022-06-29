@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: eb29c5e7170011b95151d9aaf2a96a570563096d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: 5d2cc1f5b8eccb51b6bea8655fdee243c1a2df55
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8902088"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015033"
 ---
 # <a name="manually-created-work-orders"></a>Neautomatiniu būdu sukurti darbo užsakymai
 
@@ -34,9 +34,9 @@ Galite kurti darbo užsakymus rankiniu būdu dviem būdais:
 
 ## <a name="create-work-order"></a>Kurti darbo užsakymą
 
-1. Pasirinkite **Turto valdymas** > **Bendrieji dalykai** > **Darbo užsakymai** > **Visi darbo užsakymai** arba **Aktyvūs darbo užsakymai**.
+1. Gauti turto valdymo darbo **užsakymus** > **visus darbo** > **užsakymus arba aktyvius** **darbo užsakymus**.
 
-2. Pasirinkite **Naujas**.
+2. Pasirinkite **Nauja**.
 
 3. Dialogo lange **Kurti darbo užsakymą**, lauke **Darbo užsakymo tipas**, pasirinkite darbo užsakymo tipą.
 
@@ -82,7 +82,7 @@ Atkreipkite dėmesį į toliau nurodytus punktus.
 
 Galite sukurti darbo užsakymą, susijusį su esamu darbo užsakymu. Ši galimybė naudinga jei, pavyzdžiui, norite dirbti su pirminiais ir antriniais darbo užsakymais. Naujas darbo užsakymas yra kuriamas pagal darbo užsakymo užduotį iš esamo darbo užsakymo.
 
-1. Pasirinkite **Turto valdymas** > **Bendrieji dalykai** > **Darbo užsakymai** > **Visi darbo užsakymai** arba **Aktyvūs darbo užsakymai**.
+1. Pasirinkite **Turto valdymo darbo** > **užsakymai Visi** > **darbo užsakymai arba** Aktyvūs **darbo užsakymai**.
 
 2. Pasirinkite darbo užsakymą, kuriam kursite susijusį darbo užsakymą.
 
@@ -120,7 +120,7 @@ Toliau pateiktame paveikslėlyje parodytas dialogo lango **Kurti susijusį darbo
 
 Galite greitai sukurti naują darbo užsakymą iš esamo darbo užsakymo. Toks darbo užsakymų tvarkymas skiriasi nuo darbo užsakymų kūrimo pagal [priežiūros planus](../preventive-and-reactive-maintenance/maintenance-plans.md). Tai naudinga, pavyzdžiui, jei darbo užsakyme yra daug darbo užsakymo užduočių ir skirtingos užduotys turi būti atliktos skirtingam turtui ir reguliariais intervalais.
 
-1. Pasirinkite **Turto valdymas** > **Bendrieji dalykai** > **Darbo užsakymai** > **Visi darbo užsakymai** arba **Aktyvūs darbo užsakymai**.
+1. Pasirinkite **Turto valdymo darbo** > **užsakymai Visi** > **darbo užsakymai arba** Aktyvūs **darbo užsakymai**.
 
 2. Pasirinkite darbo užsakymą, iš kurio norite nukopijuoti turinį.
 
@@ -142,7 +142,7 @@ Toliau pateiktame paveikslėlyje parodytas dialogo lango **Kopijuoti darbo užsa
 
 ## <a name="create-a-work-order-based-on-a-maintenance-request"></a>Sukurkite darbo užsakymą pagal priežiūros užklausą
 
-1. Pasirinkite **Turto valdymas** > **Bendrieji dalykai** > **Priežiūros užklausos** > **Visos priežiūros užklausos** arba **Aktyviosios priežiūros užklausos**.
+1. Pasirinkite **Turto valdymo priežiūros** > **užklausos Visos** > **priežiūros užklausos arba** **Aktyvios priežiūros užklausos**.
 
 2. Pasirinkite priežiūros užklausą, kuriai norite sukurti darbo užsakymą, ir spustelėkite **Redaguoti**.
 

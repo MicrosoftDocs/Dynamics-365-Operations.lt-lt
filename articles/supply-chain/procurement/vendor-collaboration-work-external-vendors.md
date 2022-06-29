@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 4ae943592c18dd0383aafbce59617cc983dc979b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: 25561802996514f6f60fc9400c22dc61a30ef1c8
+ms.sourcegitcommit: bad64015da0c96a6b5d81e389708281406021d4f
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8907296"
+ms.lasthandoff: 06/17/2022
+ms.locfileid: "9023794"
 ---
 # <a name="vendor-collaboration-with-external-vendors"></a>Tiekėjo bendradarbiavimas su išoriniais tiekėjais
 
@@ -29,9 +29,6 @@ ms.locfileid: "8907296"
 Modulis **Tiekėjo bendradarbiavimas** skirtas tiekėjams, kurie neturi elektroninių duomenų mainų (EDI) integracijos su „Microsoft Dynamics 365 Supply Chain Management“. Jis tiekėjams suteikia galimybę dirbti su pirkimo užsakymais (PU), SF, konsignacijos atsargų informacija ir pasiūlymo užklausomis (RFQ), taip pat jis suteikia galimybę pasiekti savo tiekėjo bendrųjų duomenų dalis. Šiame straipsnyje paaiškinama, kaip galite bendradarbiauti su išoriniais tiekėjais, kurie naudoja tiekėjo bendradarbiavimo sąsają, norėdami dirbti su POS, RFQ ir konsignacijai atsargomis. Joje taip pat paaiškinama, kaip tiekėjo bendradarbiavimo funkciją įjungti konkrečiam tiekėjui ir kaip nurodyti informaciją, kurią matys visi tiekėjai, atsakydami į PU.
 
 Daugiau informacijos apie tai, ką išoriniai tiekėjai gali atlikti tiekėjo bendradarbiavimo sąsajoje, ieškokite puslapyje [Tiekėjo bendradarbiavimas su klientais](vendor-collaboration-work-customers-dynamics-365-operations.md).
-
-> [!NOTE]
-> Šiame straipsnyje pateikiama informacija apie tiekėjų bendradarbiavimą taikoma tik dabartinei tiekimo grandinės valdymo versijai. „Microsoft Dynamics AX 7.0“ (2016 m. vasario mėn.) ir „Microsoft Dynamics AX“ 7.0.1 programos versijoje (2016 m. gegužės mėn.) su tiekėjais galite bendradarbiauti naudodami modulį **Tiekėjo portalas**. Norėdami gauti daugiau informacijos apie modulį **Tiekėjo portalas**, žr. [Bendradarbiavimas su tiekėjais naudojant tiekėjo portalą](collaborate-vendors-vendor-portal.md).
 
 Daugiau informacijos apie tai, kaip tiekėjai gali tiekėjo bendradarbiavimą naudoti sąskaitų išrašymo procesuose, ieškokite puslapyje [Tiekėjo bendradarbiavimo SF išrašymo darbo sritis](../../finance/accounts-payable/vendor-portal-invoicing-workspace.md). Informacijos apie tai, kaip konfigūruoti naujus tiekėjo bendradarbiavimo vartotojus, ieškokite puslapyje [Tiekėjo bendradarbiavimo vartotojų valdymas](manage-vendor-collaboration-users.md).
 
@@ -57,8 +54,25 @@ Administratorius konfigūruoja bendruosius tiekėjo bendradarbiavimo parametrus,
 
 Prieš kuriant vartotojų paskyras išoriniam tiekėjui, reikia sukonfigūruoti tiekėjo kodą, kad jis galėtų naudoti tiekėjo bendradarbiavimą. Puslapio **Tiekėjai** skirtuke **Bendra** nustatykite lauką **Bendradarbiavimo aktyvinimas**. Galimos toliau nurodytos parinktys.
 
-- **Aktyvus (PU yra automatiškai patvirtinamas)**– PU automatiškai patvirtinami, jei tiekėjas priima juos be keitimų.
+- **Aktyvus (PU yra automatiškai patvirtinamas)**– PU automatiškai patvirtinami, jei tiekėjas priima juos be keitimų. Jei naudojate šią pasirinktį, būtinai suplanuokite *tiekėjo* bendradarbiavimo paketinės užduoties, kuri atsakinga už patvirtinimų apdorojimą, patvirtintų priimtų pirkimo užsakymų grafiką. Instrukcijų ieškokite kitame skyriuje.
 - **Aktyvus (PU automatiškai netvirtinamas)**– jūsų organizacija turi patvirtinti PU pati po to, kai tiekėjas juos priima.
+
+### <a name="scheduling-the-auto-confirmation-batch-job"></a>Automatinio patvirtinimo paketinės užduoties planavimas
+
+**Jei vienam ar daugiau savo tiekėjų naudojate pasirinktį Aktyvus (PO yra automatiškai patvirtintas),** turite *suplanuoti* patvirtintų pirkimo užsakymų iš tiekėjo bendradarbiavimo paketinės užduoties, kuri yra atsakinga už pudėjimo apdorojimą ir tvirtinimą. Jei ne, automatiniai patvirtinimai niekada nebus patvirtinti. Norėdami suplanuoti šią užduotį naudokite nurodytą procedūrą.
+
+1. Eikite **į Pirkimo užsakymų įsigijimą ir pasirinkimą \> Pirkimo užsakymo \> patvirtinimas Patvirtinti \> priimtinus pirkimo užsakymus iš tiekėjo bendradarbiavimo**.
+1. Patvirtinimo priimtų **pirkimo užsakymų iš tiekėjo bendradarbiavimo** dialogo lango, skirtuke **Vykdyti** fone "FastTab" pasirinkite **Pasikartojimas**.
+1. Dialogo lange **Nurodyti pasikartojimą** nurodykite grafiką, kuriame turi būti vykdoma užduotis. Pasirinkdami grafiką atsižvelkite į šiuos dalykus:
+
+    - Jei jūsų sistema apdoroja didelius duomenų kiekius ir vykdo daug paketinių užduočių, tai gali būti veikimo efektyvumas. Tokiu atveju, greičiausiai šios užduoties vykdyti neturėt kas 10 minučių (atsižvelgiant į kitus reikalavimus). Jei našumas nėra problema, galite jį paleisti taip dažnai, kaip kas 1–2 minutes, jei reikia.
+    - Jei jūsų tiekėjai nori greitai pristatyti prekes (per dieną, kurią sutiko), pasikartojimas turėtų būti dažnas (kas 10–30 minučių arba tiek). Tokiu būdu sandėlio darbuotojai galės gauti prekes pagal patvirtintą PU po patvirtinimo.
+    - Jei jūsų tiekėjai turi ilgas gamybos laiką (daugiau nei 24 valandas), galite nustatyti, kad ši užduotis būtų vykdoma tik vieną kartą per dieną.
+
+1. Pasirinkite **Gerai,** jei norite pritaikyti grafiką ir grįžti į patvirtinti **priimtius pirkimo užsakymus iš tiekėjo bendradarbiavimo** dialogo lango.
+1. Jei reikia, nustatykite papildomas fono parinktis. Dialogo lange pateikiamos įprastos tiekimo grandinės valdymo paketinių užduočių nustatymo pasirinktys.
+
+Daugiau informacijos apie paketines užduotis rasite paketinio [vykdymo peržiūra](../../fin-ops-core/dev-itpro/sysadmin/batch-processing-overview.md).
 
 ### <a name="specifying-whether-the-vendor-should-see-price-information"></a>Nurodymas, ar tiekėjas turėtų matyti informaciją apie kainas
 

@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-01
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: 1fa2ec6e21026552a4f14a67188db0720d3feae5
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: af344d3771583a99851c070e3735258ac964b5d7
+ms.sourcegitcommit: 78576abe5c7cbab1bb69d26c999b038e8c24873a
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8850792"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "8954502"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10025-april-2022"></a>Kas nauja arba pasikeitė „Dynamics 365 Supply Chain Management” 10.0.25 versijoje (2022 m. balandžio mėn.)?
 
@@ -155,7 +155,7 @@ Lentelėje taip pat pateikiamos priemonės, kurios anksčiau buvo viešos perži
 | Sandėlio valdymas | [Atidėtas rankinio atsargų perkėlimo operacijos apdorojimas](../warehousing/deferred-processing-manual-inventory-movement.md) | Privalomas |
 | Sandėlio valdymas | Neleisti kurti krovinių, kurie neatitinka bangos krovinio kūrimo šablono reikalavimų | Privalomas |
 | Sandėlio valdymas | [Patobulinti valstybinių numerių žymių maketai](../warehousing/document-routing-layout-for-license-plates.md) | Privalomas |
-| Sandėlio valdymas | [Įvertinkite visus „Multi SKU“ vietos nustatymo direktyvų veiksmus](../troubleshooting/warehousing/evaluate-multiple-location-directive-actions.md) | Privalomas |
+| Sandėlio valdymas | [Įvertinkite visus „Multi SKU“ vietos nustatymo direktyvų veiksmus](/troubleshoot/dynamics-365/supply-chain/warehousing/evaluate-multiple-location-directive-actions) | Privalomas |
 | Sandėlio valdymas | Bendros vertės lauko slėpimas puslapiuose „Visi kroviniai“ ir „Krovinio informacija“ | Privalomas |
 | Sandėlio valdymas | Numerio lentelės etiketės komponavimo konfigūracija | Privalomas |
 | Sandėlio valdymas | Administratorių arba panašių patikimų vartotojų krovinio eilutės taisymas rankiniu būdu | Privalomas |

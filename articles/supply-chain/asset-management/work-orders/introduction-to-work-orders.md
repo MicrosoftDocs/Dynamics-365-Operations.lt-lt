@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: dcee5fd729de6e96d57462879f7851756f287dc9
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: 5eb911ec4ba9655c4ecaea3bf9a4f8736fa036c2
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8902837"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016716"
 ---
 # <a name="introduction-to-work-orders"></a>Darbo užsakymų įvadas
 
@@ -47,15 +47,15 @@ Darbo užsakymai gali būti kuriami toliau nurodytais būdais.
 
 ## <a name="all-work-orders"></a>Visi darbo užsakymai
 
-Pasirinkite **Turto valdymas** > **Bendra** > **Darbo užsakymai** > **Visi darbo užsakymai**, kad atidarytumėte sąrašo puslapį **Visi darbo užsakymai**. Šiame puslapyje pateikiamos visi darbo užsakymai ir dalis informacijos apie juos.
+Pasirinkite **Turto valdymo darbo** > **užsakymai Visi** > **darbo užsakymai, kad** atidarytumėte **visų darbo užsakymų** sąrašo puslapį. Šiame puslapyje pateikiamos visi darbo užsakymai ir dalis informacijos apie juos.
 
 Toliau pateiktame paveikslėlyje parodytas sąrašo puslapio **Visi darbo užsakymai** pavyzdys.
 
 ![1 iliustracija.](media/01-work-orders.png)
 
-Pasirinkite **Turto valdymas** > **Bendra** > **Darbo užsakymai** > **Aktyvieji darbo užsakymai**, kad pamatytumėte tik aktyviųjų darbo užsakymų sąrašą. 
+Norėdami peržiūrėti tik aktyvių darbo užsakymų sąrašą, pasirinkite Turto **valdymo darbo** > **užsakymai Aktyvūs** > **darbo užsakymai**. 
 
-Spustelėkite **Turto valdymas** > **Bendra** > **Darbo užsakymai** > **Mano funkcinės vietos darbo užsakymų priežiūros užduotys**, kad pamatytumėte darbo užsakymų užduočių, susijusių su turtu, įdiegtu funkcinėse vietose, kuriose jūs esate darbuotojas, sąrašą. (Darbuotojų ir funkcinių vietų ryšys nustatomas puslapyje **Darbuotojai**.) Daugiau informacijos žr. [Priežiūros darbuotojai ir darbuotojų grupės](../setup-for-objects/workers-and-worker-groups.md).)
+Norėdami peržiūrėti darbo užsakymo užduočių, kuriose yra funkcinėse vietose, su kurias susiję su darbuotoju, sąrašą, **·** > **·** > **pasirinkite Turto valdymo darbo užsakymai Mano funkcinės vietos darbo užsakymo priežiūros užduotys.** (Darbuotojų ir funkcinių vietų ryšys nustatomas puslapyje **Darbuotojai**.) Daugiau informacijos žr. [Priežiūros darbuotojai ir darbuotojų grupės](../setup-for-objects/workers-and-worker-groups.md).)
 
 Toliau pateikiami keli būdai, kaip naudoti puslapį **Visi darbo užsakymai**.
 

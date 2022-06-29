@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 14442853152764fce7e5a8a275532ed553da16dc
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 4c1d236918eddf3203a544a6b047f8ccac777971
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677092"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9017250"
 ---
 # <a name="return-cost-price-and-return-lot-id"></a>Grąžinimo savikaina ir grąžinamos partijos ID        
 
@@ -38,7 +38,7 @@ Jei norite naudoti kitą nei dabartinę kliento grąžintų produktų savikainą
 
 Pagal numatytuosius nustatymus, kai įtraukiate prekes į grąžinimo užsakymą, šios prekės yra grąžinamos į atsargas nurodant dabartinę savikainą. Jei norite nurodyti kitą grąžinimo savikainą, atlikite toliau nurodytus veiksmus.
 
-1.  Spustelėkite **Pardavimas ir rinkodara** \> **Bendra** \> **Grąžinimo užsakymai** \> **Visi grąžinimo užsakymai**.
+1.  Spustelėkite **Pardavimas ir rinkodaros pardavimas** \> **grąžina** \> **visus grąžinimo užsakymus**.
 
 2.  Dalies **Veiksmų sritis** grupėje **Naujas** spustelėkite **Grąžinimo užsakymas**.
 
@@ -54,7 +54,7 @@ Pagal numatytuosius nustatymus, kai įtraukiate prekes į grąžinimo užsakymą
 
 Tai prioritetinis grąžinimo eilučių kūrimo būdas. Norėdami naudoti produktų savikainą, kuri buvo tuo metu, kai šiuos produktus pardavėte klientui, sukurkite grąžinimo užsakymą ir nurodykite grąžintiną pardavimo eilutę.
 
-1.  Spustelėkite **Pardavimas ir rinkodara** \> **Bendra** \> **Grąžinimo užsakymai** \> **Visi grąžinimo užsakymai**.
+1.  Spustelėkite **Pardavimas ir rinkodaros pardavimas** \> **grąžina** \> **visus grąžinimo užsakymus**.
 
 2.  Dalies **Veiksmų sritis** grupėje **Naujas** spustelėkite **Grąžinimo užsakymas**.
 

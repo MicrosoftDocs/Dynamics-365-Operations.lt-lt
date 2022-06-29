@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3094649da2ce9a700a4d1cde236609013f4b9744
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: 0ec3de073def2ff63af3c04b5696cbcec4f09948
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8862314"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9014769"
 ---
 # <a name="set-up-cluster-picking"></a>Klasterio paėmimo nustatymas
 
@@ -74,9 +74,14 @@ Kai taikomas klasterio pasirinkimas, būtina patvirtinti prekes, kad būtų gali
 
 ### <a name="set-up-item-verification-with-cluster-picking"></a>Prekės patikrinimo nustatymas atliekant klasterio parinkimą
 
-1. Mobiliojo įrenginio meniu elemente atidarykite darbo patvirtinimo sąrankos formą: **Sandėlio valdymas** \> **Sandėlio valdymas** \> **Sąranka** \> **Mobilusis įrenginys** \> **Mobiliojo įrenginio meniu elementai**.
+1. Eiti į sandėlio **valdymo nustatymo** > **mobiliojo** > **įrenginio** > **mobiliojo įrenginio meniu elementus**.
+1. Sąrašo srityje pasirinkite norimą nustatyti meniu elementą.
+1. Veiksmų srityje pasirinkite darbo **patvirtinimo nustatymą**.
+1. Atlikite vieną iš toliau nurodytų veiksmų.
+    - Jei jau yra darbo tipo, kurį **norite** nustatyti, eilutė, pasirinkite ją, o tada **veiksmų** srityje pasirinkite Redaguoti.
+    - Jei nėra tinkamos eilutės, veiksmų srityje **pasirinkite** Nauja ir tada nustatykite **atitinkamą** darbo tipą.
+1. Pažymėkite naujos **arba pasirinktos** eilutės žymės langelį Produkto patvirtinimas. Taip darbuotojai galės tikrinti kiekvieną atsargų dalį naudodami mobilųjį įrenginį.
 
-1. Mobiliojo įrenginio meniu elemente atidarykite **Darbo patvirtinimo sąranka**. Naudodamiesi parinktimi **Produkto patvirtinimas** mobiliuoju įrenginiu nuskaitydami galite patikrinti kiekvieną atsargų dalį.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

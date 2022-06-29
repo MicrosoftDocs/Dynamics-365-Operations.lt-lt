@@ -1,6 +1,6 @@
 ---
 title: Tvarkyti SEO metaduomenis
-description: Šiame straipsnyje aprašoma, kaip valdyti ieškos modulio optimizavimo (VZ)) metaduomenis, kurie yra Microsoft Dynamics 365 Commerce.
+description: Šiame straipsnyje aprašoma, kaip valdyti ieškos modulio optimizavimo (VZ) metaduomenis, kurie yra Microsoft Dynamics 365 Commerce.
 author: psimolin
 ms.date: 04/21/2022
 ms.topic: article
@@ -14,19 +14,18 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 78ed94ced246157daafbc482ce674cda6579f930
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: 99c28c2bff7b683f3e92dea4ba24d8bead556443
+ms.sourcegitcommit: 6616b969afd6beb11a79d8e740560bf00016ea7f
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8881302"
+ms.lasthandoff: 06/17/2022
+ms.locfileid: "9027314"
 ---
 # <a name="manage-seo-metadata"></a>Tvarkyti SEO metaduomenis
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
-Šiame straipsnyje aprašoma, kaip valdyti ieškos modulio optimizavimo (VZ)) metaduomenis, kurie yra Microsoft Dynamics 365 Commerce.
+Šiame straipsnyje aprašoma, kaip valdyti ieškos modulio optimizavimo (VZ) metaduomenis, kurie yra Microsoft Dynamics 365 Commerce.
 
 Svetainės SEO metaduomenys gali būti valdomi naudojant svetainės struktūromis ir puslapio metaduomenimis.
     

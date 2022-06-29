@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 57bbb8eb638b990914dc00f9700ff0c1925c48852862b02e09f3f26415d3e347
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 14751fb0e0632ca986d6eddf55c93d44fbd68276
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6745507"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015470"
 ---
 # <a name="create-an-item-replacement-order"></a>Prekės pakeitimo užsakymo kūrimas 
 
@@ -31,7 +31,7 @@ Prekių pakeitimo užsakymai dažniausiai kuriami tada, kai produktas yra jau gr
 
 ## <a name="create-a-replacement-order-after-you-receive-an-item-that-is-returned"></a>Kurti pakeitimo užsakymą gavus prekę, kuri yra grąžinama
 
-1.  Spustelėkite **Pardavimas ir rinkodara** \> **Bendra** \> **Grąžinimo užsakymai** \> **Visi grąžinimo užsakymai**.
+1.  Spustelėkite **Pardavimas ir rinkodaros pardavimas** \> **grąžina** \> **visus grąžinimo užsakymus**.
 
 2.  Sukurkite naują grąžinimo užsakymą arba pasirinkite grąžintą užsakymą iš sąrašo, kad atidarytumėte formą **Grąžinimo užsakymas – RMA numeris: %1, %2**.
 
@@ -45,7 +45,7 @@ Prekių pakeitimo užsakymai dažniausiai kuriami tada, kai produktas yra jau gr
 
 ## <a name="create-a-replacement-order-before-you-receive-an-item-that-will-be-returned"></a>Kurti pakeitimo užsakymą, kol gausite elementą, kuris bus grąžintas
 
-1.  Spustelėkite **Pardavimas ir rinkodara** \> **Bendra** \> **Grąžinimo užsakymai** \> **Visi grąžinimo užsakymai**.
+1.  Spustelėkite **Pardavimas ir rinkodaros pardavimas** \> **grąžina** \> **visus grąžinimo užsakymus**.
 
 2.  Sukurkite naują grąžinimo užsakymą arba pasirinkite grąžinimo užsakymą iš sąrašo, kad atidarytumėte formą **Grąžinimo užsakymas – RMA numeris: %1, %2**.
 

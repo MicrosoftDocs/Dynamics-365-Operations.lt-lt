@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4a57bc31a49c8671872ad02bc2721d42455a5217
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 38b0c28b013ef93c73b6963087d2d8e7787a77a6
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8670938"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016926"
 ---
 # <a name="create-service-subscriptions-from-a-project"></a>Aptarnavimo abonemento pagal projektą kūrimas    
 
@@ -29,7 +29,7 @@ ms.locfileid: "8670938"
 
 Galite sukurti aptarnavimo abonementą pagal projektą dalyje **Projektų valdymas ir apskaita**.
 
-1.  Spustelėkite **Projektų valdymas ir apskaita** \> **Bendra** \> **Projektai** \> **Visi projektai**. Atidarykite projektą, kurio abonementą norite sukurti.
+1.  Spustelėkite **Visų projektų valdymo ir** \> **apskaitos** \> **projektai**. Atidarykite projektą, kurio abonementą norite sukurti.
 
 2.  Formos **Projektai**, esančios **Veiksmų sritis**, skirtuke **Valdyti** spustelėkite **Aptarnavimas** \> **Aptarnavimo abonementas**.
 

@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: d74b6c82c573810da9cbfe14745f997f40d408fc
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: 8d9c756d8aaf2e7b2f6593e78fbb645dafee4552
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8873672"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016165"
 ---
 # <a name="production-parameters-in-manufacturing-execution"></a>Gamybos parametrai modulyje Gamybos vykdymas
 
@@ -63,7 +63,7 @@ Puslapyje **Gamybos parametrai** automatinis KS sunaudojimas nustatomas tolesnia
 
 Kiekviename etape lauke **Automatinis KS sunaudojimas** galite pasirinkti vieną iš tolesnių trijų prekių paėmimo gamybos užsakymui būdų.
 
-- **Sunaudojimo principas** – ši parinktis naudojama kartu su KS parinktimi, apibrėžta modulyje **Gamyba**. Spustelėkite **Gamybos kontrolė** &gt; **Bendra** &gt; **Gamybos užsakymai** &gt; **Visi gamybos užsakymai**. Puslapyje **Visi gamybos užsakymai** esančiame sąraše pasirinkite gamybos užsakymą ir veiksmų srityje spustelėkite **KS**. Puslapio **KS** skirtuko **Sąranka** lauke **Sunaudojimo principas** pasirinkite vieną iš tolesnių parinkčių.
+- **Sunaudojimo principas** – ši parinktis naudojama kartu su KS parinktimi, apibrėžta modulyje **Gamyba**. Spustelėkite **Gamybos kontrolės gamybos** &gt; **užsakymai Visi** &gt; **gamybos užsakymai**. Puslapyje **Visi gamybos užsakymai** esančiame sąraše pasirinkite gamybos užsakymą ir veiksmų srityje spustelėkite **KS**. Puslapio **KS** skirtuko **Sąranka** lauke **Sunaudojimo principas** pasirinkite vieną iš tolesnių parinkčių.
 
   - **Pradžia**
   - **Pabaiga**

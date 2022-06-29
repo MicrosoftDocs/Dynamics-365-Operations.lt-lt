@@ -1,8 +1,8 @@
 ---
 title: Vaizdo įrašai
-description: Šiame puslapyje pateikiami „Microsoft“ sukurti mokomieji ir techninės kalbos vaizdo įrašai, susiję su „Finance and Operations“ programomis, pasiekiami „YouTube“ ir kitose svetainėse.
+description: Šiame puslapyje pateikiami „Microsoft“ sukurti su „Finance and Operations“ programomis susiję mokomieji ir techniniai vaizdo įrašai, pasiekiami „YouTube“ ir kitose svetainėse.
 author: sericks007
-ms.date: 09/15/2021
+ms.date: 06/13/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: global
 ms.author: sericks
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, AX 8.0
-ms.openlocfilehash: 3fe44a9a7fcef2f22dff3be00ddfadd5b8c59574
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
+ms.openlocfilehash: 76fe61c13490afbd7b5dcd39f3c631cbab43bb9e
+ms.sourcegitcommit: 0686b56b4699ffefd2c208d0fe496d5860296520
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7487996"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "8958144"
 ---
 # <a name="videos"></a>Vaizdo įrašai 
 
@@ -30,7 +30,7 @@ ms.locfileid: "7487996"
 > [!Note]
 > Kai kurie iš minėtų vaizdo įrašų buvo publikuojami naudojant ankstesnį produkto pavadinimą, bet jie vis tiek aktualūs.
 
-## <a name="videos-for-finance-and-operations-development-and-administration"></a>„Finance and Operations“ programų vaizdo įrašų kūrimas ir administravimas
+## <a name="videos-for-finance-and-operations-development-and-administration"></a>Vaizdo įrašai apie „Finance and Operations“ kūrimą ir administravimą
 
 ### <a name="data-integration"></a>Duomenų integracija
 
@@ -40,9 +40,8 @@ ms.locfileid: "7487996"
 
 - [Duomenų objektų ir duomenų paketų naudojimas](https://www.youtube.com/watch?v=UCyzbA41j8g&feature=youtu.be)
 
-### <a name="development"></a>Plėtra
+### <a name="development"></a>Programavimas
 
-- [„Visual Studio“ nesuderinamumų išsprendimas](https://youtu.be/4rxO0zUN2zU)
 - [Optimizavimo patarėjas](https://www.youtube.com/watch?v=MRsAzgFCUSQ&t=4s)
 - [Tobulinimo šakos ir versijos nustatymas](https://www.youtube.com/watch?v=qXLd-NMx9OY)
 - [Kūrimo įrenginio nustatymas](https://www.youtube.com/watch?v=cqp9MetfiyM)
@@ -51,8 +50,8 @@ ms.locfileid: "7487996"
 ### <a name="intelligence"></a>Įžvalgos
 
 - [Kaip redaguoti analizės įdėtąją ataskaitą analitinėje darbo srityje](https://youtu.be/_8WlwmSggcQ)
-- [Kaip įdėti PowerBI.com ataskaitas „Finance and Operations“ programose](https://youtu.be/gGWuNJDoi-M)
-- [Savo duomenų bazės (BYOD) naudojimas „Finance and Operations“ programose](https://www.youtube.com/watch?v=-MaxtBJu2_o&feature=youtu.be)
+- [Kaip įdėti „PowerBI.com“ ataskaitas „Finance and Operations“ programose](https://youtu.be/gGWuNJDoi-M)
+- [Savo duomenų bazės naudojimas (BYOD) „Finance and Operations“ programose](https://www.youtube.com/watch?v=-MaxtBJu2_o&feature=youtu.be)
 - [Kaip naudoti išlaidų valdymo „Power BI“ turinį programoje „Dynamics 365“](https://www.youtube.com/watch?v=5jWHnM_C7WM&feature=youtu.be)
 
 ### <a name="lifecycle-services-lcs"></a>„ Lifecycle Services“ (LCS)
@@ -81,7 +80,7 @@ ms.locfileid: "7487996"
 - [Patobulinta „Excel“ patirtis dirbant su „Regression Suite Automation Tool“ (RSAT) 2.0](https://youtu.be/fcEkSIVQ1Bg)
 
 
-## <a name="videos-for-dynamics-365-finance"></a>„Dynamics 365 Finance“ vaizdo įrašai
+## <a name="videos-for-dynamics-365-finance"></a>"Dynamics 365 Finance" vaizdo įrašai
 
 ### <a name="business-document-management"></a>Verslo dokumentų valdymas
 - [Nauja verslo dokumento kūrimas naudojant verslo dokumentų valdymą](https://www.youtube.com/watch?v=gAIYl-mM_pw)

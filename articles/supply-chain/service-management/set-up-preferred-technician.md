@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e59271771a5f332ad8470b0b8f8f54b52a25543d
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 4c9495bbc8e5f7cb603c027a125887feba1f0e2d
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8671680"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9017209"
 ---
 # <a name="set-up-a-preferred-technician"></a>Pageidaujamo techniko nustatymas 
 
@@ -31,13 +31,13 @@ Galite pasirinkti bet kurį darbuotoją, kaip pageidaujamą techniką aptarnavim
 
 ## <a name="assign-employee-to-a-dispatch-team"></a>Darbuotojo priskyrimas išsiuntimo komandai
 
-1.  Spustelėkite **Personalas** \> **Bendra** \> **Darbuotojai** \> **Darbuotojai**. Dukart spustelėkite darbuotoją norėdami atidaryti darbuotojo informacijos puslapį. Srityje **Veiksmų sritis** spustelėję **Sąranka** \>**Išsiuntimo komanda** atidarykite formą **Išsiuntimo darbuotojai**.
+1.  Spustelėkite **Personalo** \> **darbuotojai.** \> **·** Dukart spustelėkite darbuotoją norėdami atidaryti darbuotojo informacijos puslapį. Srityje **Veiksmų sritis** spustelėję **Sąranka** \>**Išsiuntimo komanda** atidarykite formą **Išsiuntimo darbuotojai**.
 
 2.  Lauke **Išsiuntimo komanda** pasirinkite komandą, kuriai norite priskirti darbuotoją.
 
 ## <a name="assign-a-preferred-technician-to-a-service-agreement"></a>Pageidaujamo techniko priskyrimas aptarnavimo sutarčiai
 
-1.  Spustelėkite **Aptarnavimo valdymas** \> **Bendrasis** \> **Aptarnavimo sutartys** \> **Aptarnavimo sutartys**. Dukart spustelėkite aptarnavimo sutartį norėdami atidaryti išsamios informacijos formą.
+1.  Spustelėkite Aptarnavimo **valdymo sutartys** \> **Aptarnavimo** \> **sutartys**. Dukart spustelėkite aptarnavimo sutartį norėdami atidaryti išsamios informacijos formą.
 
 2.  Skirtuke **Bendra** pasirinkite lauką **Pageidaujamas technikas**, po to pasirinkite atitinkamos išsiuntimo komandos narį, kaip pageidaujamą aptarnavimo sutarties techniką.
 

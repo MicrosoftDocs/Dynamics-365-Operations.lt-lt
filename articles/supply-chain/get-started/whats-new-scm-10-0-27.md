@@ -1,5 +1,5 @@
 ---
-title: „Dynamics 365 Supply Chain Management“ peržiūra 10.0.27 (2022 m. liepa)
+title: Kas nauja ar pasikeitė „Dynamics 365 Supply Chain Management“ 10.0.27 versijoje (2022 m. liepos mėn.)?
 description: Šiame straipsnyje aprašomos priemonės, kurios yra naujos arba pakeistos programoje Microsoft Dynamics 365 Supply Chain Management 10.0.27.
 author: kamaybac
 ms.date: 04/22/2022
@@ -10,19 +10,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-04-22
 ms.dyn365.ops.version: 10.0.27
-ms.openlocfilehash: a91f2cdae0fed75f07d6cae86d24aeedfca80e94
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: a50fcbe313901beab610400d8c59dd375f1af93e
+ms.sourcegitcommit: d770f0e6a012675a3027641704be804beb99754b
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8844502"
+ms.lasthandoff: 06/16/2022
+ms.locfileid: "9022627"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10027-july-2022"></a>„Dynamics 365 Supply Chain Management“ peržiūra 10.0.27 (2022 m. liepa)
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10027-july-2022"></a>Kas nauja ar pasikeitė „Dynamics 365 Supply Chain Management“ 10.0.27 versijoje (2022 m. liepos mėn.)?
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-Šiame straipsnyje pateikiamos priemonės, kurios yra naujos arba pakeistos "Microsoft Dynamics 365 Supply Chain Management preview" versijoje 10.0.27. Ši versija turi versijos 10.0.1227 versiją ir yra pasiekiama šiame grafike:
+Šiame straipsnyje pateikiamos priemonės, kurios yra naujos arba pakeistos "Microsoft Dynamics 365 Supply Chain Management " 10.0.27 versijoje. Ši versija turi versijos 10.0.1227 versiją ir yra pasiekiama šiame grafike:
 
 - **Vertinimo versijos leidimas:** 2022 m. balandžio mėn.
 - **Bendras leidimo pasiekiamumas (savaiminis naujinimas):** 2022 m. birželis

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e1454f41bb0b43e22c5278463f63aa4178696eef
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: 0a6b5a2904d21782ae422d06eaaf03c5d5e51ab9
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8872130"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015585"
 ---
 # <a name="move-replace-and-install-assets"></a>Turto perkėlimas, keitimas ir diegimas
 
@@ -44,7 +44,7 @@ Norėdami perkelti turtą į kitą turto struktūrą arba į kitą tos pačios t
 > [!NOTE]
 > Nenaudokite šios funkcijos, jei turtas atnaujinamas arba laikinai pakeičiamas. Todėl naudokite funkciją **Pakeisti turtą**, kuri toliau aprašyta šiame straipsnyje.
 
-1. Pasirinkite **Turto valdymas** \> **Bendra** \> **Turtas** \> **Visas turtas** arba **Aktyvus turtas**.
+1. Pasirinkite Turto **valdymo turtas** \> **Visas** \> **turtas arba** Aktyvus **turtas.**
 2. Sąraše pasirinkite perkeliamą turtą. Jei turtas turi antrinį turtą, taip pat perkelsite ir tą turtą.
 3. Pasirinkite **Perkelti turtą**.
 4. Norėdami perkelti turtą taip, kad jis taptų turto struktūros dalimi, pasirinkite naują pagrindinį turtą lauke **Pagrindinis turtas**. Jei perkeliate antrinį turtą ir norite jį padaryti atskiru turtu, be jokių struktūros ryšių, lauką **Pagrindinis turtas** palikite tuščią.
@@ -58,7 +58,7 @@ Funkciją **Pakeisti turtą** naudokite norėdami remontuoti, atnaujinti ar visa
 > [!NOTE]
 > Jei remonto dirbtuvės susietos su gamybos skyriumi, galima kurti funkcines vietas, pvz. **Remonto dirbtuvės**, **Atliekos** ir **Saugykla**, kad būtų galima tvarkyti turto remontą ir pakeitimą.
 
-1. Pasirinkite **Turto valdymas** \> **Bendra** \> **Turtas** \> **Visas turtas** arba **Aktyvus turtas**.
+1. Pasirinkite Turto **valdymo turtas** \> **Visas** \> **turtas arba** Aktyvus **turtas.**
 2. Sąraše pasirinkite antrinį turtą, kurį norite pakeisti. Jei turtas turi antrinį turtą, taip pat pakeičiamas ir tas turtas.
 3. Pasirinkite **Pakeisti turtą**.
 
@@ -79,7 +79,7 @@ Naudokite funkciją **Diegti turtą**, kad įdiegtumėte turto struktūrą funkc
 > [!NOTE]
 > Visada pasirinkite pagrindinį turtą. Pagrindinis turtas ir su juo susijęs antrinis turtas bus perkeltas į pasirinktą funkcinę vietą.
 
-1. Pasirinkite **Turto valdymas** \> **Bendra** \> **Turtas** \> **Visas turtas** arba **Aktyvus turtas**.
+1. Pasirinkite Turto **valdymo turtas** \> **Visas** \> **turtas arba** Aktyvus **turtas.**
 2. Sąraše pasirinkite pagrindinį turtą, kurį norite įdiegti kitoje funkcinėje vietoje.
 3. Pasirinkite **Diegti turtą**.
 

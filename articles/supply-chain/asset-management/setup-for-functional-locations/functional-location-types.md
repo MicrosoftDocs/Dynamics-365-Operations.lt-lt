@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 01c8276d77f7655659cab13f3c520d7c171e3cfd
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: 0c44e503900bd157d7f0159cdf2b2d0c1fb3393f
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8879227"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015789"
 ---
 # <a name="functional-location-types"></a>Funkcinės vietos tipai
 
@@ -57,7 +57,7 @@ Sukuriamas numatytasis funkcinės vietos tipas, kuris bus naudojamas tik kuriama
 7. Laukas **Turto tipas** naudojamas tuo atveju, jei norite funkcinei vietai sukurti *vieną* turto objektą su tuo pačiu ID ir pavadinimu, kaip kuriama funkcinė vieta. Pavyzdžiui, tai gali būti aktualu, jei kuriate statinę funkcinę vietą, pvz., pastatą ar vamzdyną. Tokiu atveju pasirinkite turto tipą, kurį norite naudoti automatiškai kuriamam turtui. Atminkite, kad atlikus pasirinkimą šiame lauke, perjungimo mygtukas **Keli turto objektai** turi būti nustatytas į „Ne“.
 8. „FastTab“ **Turto tipai** pasirinkite turto tipus, kurie turėtų būti susieti su funkcinės vietos tipu. Pasirinkite **Įtraukti eilutę**, tada pasirinkite turto tipus. Jei čia įtraukiate turto tipų, funkcinėje vietoje naudojant šį funkcinės vietos tipą gali būti diegiami tik tie turto objektai, kurie naudoja šiuos turto tipus. Jei „FastTab“ **Turto tipai** nepasirenkami jokie turto tipai, galima diegti visų tipų turtą.
 9. „FastTab“ **Priežiūros planai** pasirinkite priežiūros planus, kurie turėtų būti automatiškai nustatomi naujose funkcinėse vietose naudojant šį funkcinės vietos tipą. Pasirinkite **Įtraukti eilutę**, tada pasirinkite priežiūros planus. Jei čia įtrauksite priežiūros planus, funkcinėse vietose naudojant šį funkcinės vietos tipą bus galima naudoti tik šiuos planus.
-10. „FastTab“ **Turto atributų reikalavimai** nustatykite turto atributus, kurie turėtų būti automatiškai nustatomi naujose funkcinėse vietose naudojant šį funkcinės vietos tipą. Pasirinkite **Įtraukti eilutę**, tada pasirinkite atributą. Šie atributo reikalavimai naudojami kaip gairės. Jie nėra tikrinami pagal turtui nustatytus atributus (**Turto valdymas** > **Bendra** > **Turtas** > **Visas turtas** > pasirinkite turtą sąrašo puslapyje > skirtukas **Bendra** > mygtukas **Atributai**). Atributo reikalavimai rodomi įdiegus turtą funkcinėse vietose.
+10. „FastTab“ **Turto atributų reikalavimai** nustatykite turto atributus, kurie turėtų būti automatiškai nustatomi naujose funkcinėse vietose naudojant šį funkcinės vietos tipą. Pasirinkite **Įtraukti eilutę**, tada pasirinkite atributą. Šie atributo reikalavimai naudojami kaip gairės. Jos nėra patikrintos pagal turtui nustatytus atributus (**·** > **·** > **Turto** valdymo turtas Visas turtas> turtą galite pasirinkti sąrašo puslapyje > Mygtukas **Bendra** > **atributai).** Atributo reikalavimai rodomi įdiegus turtą funkcinėse vietose.
 11. „FastTab“ **Leistini tipai** pasirinkite funkcinių vietų tipus, kurie turėtų tikti antrinių funkcinių vietų tipams, susijusiems su pagrindiniu funkcinės vietos tipu, kuriam naudojamas pasirinktas funkcinės vietos tipas.
 12. „FastTab“ **Atributai** pasirinkite funkcinės vietos atributus, kurie turėtų būti automatiškai nustatomi funkcinėse vietose naudojant šį funkcinės vietos tipą. Pasirinkite **Įtraukti eilutę**, tada pasirinkite atributą.
 

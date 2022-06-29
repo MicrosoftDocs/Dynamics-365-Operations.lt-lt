@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8bee66e2d35af6daa8d86539e52b558bde3c79a1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: ccd14493aac6484dc54ccf51ae159a071c8697a5
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8893706"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015615"
 ---
 # <a name="create-assets-based-on-purchase-orders"></a>Turto kūrimas remiantis pirkimo užsakymais
 
@@ -45,7 +45,7 @@ Pirmiausia nustatykite elementus, kurie bus naudojami kuriant turtą iš pirkimo
 
 ## <a name="create-assets-from-pending-assets"></a>Turto sukūrimas naudojant turtą, laukiantį patvirtinimo
 
-1. Spustelėkite **Turto valdymas** > **Bendra** > **Turtas** > **Turtas, laukiantis patvirtinimo**.
+1. Spustelėkite **Turto valdymo turtas** > **Laukiantis** > **turtas**.
 2. Pamatysite atnaujintą pirkimo užsakymų sąrašą pagal elementus, pasirinktus modulyje **Turto elementai**.
 3. Galite filtruoti pirkimo užsakymų būseną, kad pasirinktumėte, kurioje ciklo būsenoje turtas turėtų būti sukurtas. Pavyzdžiui, galite pasirinkti sukurti turtą tik tada, kai produkto gavimo kvitas užregistruotas pirkimo užsakyme.
 4. Daugiau informacijos apie elementą rasite paspaudę nuorodą **Nuorodos numeris**, esančią pirkimo užsakymo eilutėje.

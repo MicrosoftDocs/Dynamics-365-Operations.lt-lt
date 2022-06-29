@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 9eefde163473e11b01bfa0adf9b3694c830f1488
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: 14a49d1d6c956b37ff9b2bec387615dc75d060e1
+ms.sourcegitcommit: d770f0e6a012675a3027641704be804beb99754b
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8899417"
+ms.lasthandoff: 06/16/2022
+ms.locfileid: "9022571"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>Gamybos cecho vykdymo sąsajos konfigūravimas
 
@@ -113,9 +113,6 @@ Jei norite naudoti šią funkciją, funkcijų valdymas įjunkite šią [funkcij�
 
 ### <a name="enable-the-my-day-dialog"></a>Įgalinti dialogo langą "Mano diena"
 
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-<!-- KFM: preview until 10.0.27 GA -->
-
 Dialogo **lange Mano diena** darbuotojams pateikiama darbuotojų kasdieninių registracijų ir dabartinių apmokėto laiko, apmokėtų viršvalandžių, neatvykimo ir apmokėto neatvykimo balansų peržiūra.
 
 Jei norite naudoti šią funkciją, funkcijų valdymas įjunkite šią [funkciją](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
@@ -124,9 +121,6 @@ Jei norite naudoti šią funkciją, funkcijų valdymas įjunkite šią [funkcij�
 
 ### <a name="enable-teams"></a>Įgalinti komandas
 
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-<!-- KFM: preview until 10.0.27 GA -->
-
 Kai tai pačiai gamybos užduočiai priskirti keli darbuotojai, jie gali sudaryti komandą. Komanda gali paskirti vieną darbuotoją kaip vadininką. Likę darbuotojai automatiškai tampa to vad vadymi asistentais. Gautai komandai užduoties būseną turi užregistruoti tik vadovas. Laiko įrašai taikomi visiems komandos nariams.
 
 Jei norite naudoti šią funkciją, funkcijų valdymas įjunkite šią [funkciją](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
@@ -134,9 +128,6 @@ Jei norite naudoti šią funkciją, funkcijų valdymas įjunkite šią [funkcij�
 - *Gamybos komandos gamybos vietos vykdymo sąsajoje*
 
 ### <a name="enable-additional-configuration-in-the-production-floor-execution-interface"></a>Įgalinti papildomą konfigūraciją gamybos laiko vykdymo sąsajoje
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-<!-- KFM: preview until 10.0.27 GA -->
 
 Ši funkcija įtraukia toliau nurodytų funkcijų parametrus į gamybos laiko **vykdymo puslapio konfigūravimą**:
 

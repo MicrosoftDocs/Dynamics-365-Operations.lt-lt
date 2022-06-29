@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a416dbea0bab8f6a506ae5cfbfc4feeae8edfe29
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: 495f3dbf9bab9d550ebdbb7dda52aca80d5ea635
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8882727"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9017122"
 ---
 # <a name="asset-view"></a>Turto rodinys
 
@@ -30,7 +30,7 @@ ms.locfileid: "8882727"
 
 Šiame straipsnyje aprašomas turto rodinys turto valdymo modulyje. Puslapyje **Turto rodinys** rodomas aktyvusis turtas ir funkcinės vietos medžio rodinyje. Todėl galite lengvai gauti turto ryšių su funkcinėmis vietomis apžvalgą. Be to, galite peržiūrėti išsamią informaciją apie funkcines vietas, turtą ir susijusias komplektavimo specifikacijas (KS). Taip pat galite greitai peržiūrėti aktyviąsias priežiūros užklausas ir darbo užsakymus, susijusius su turtu.
 
-1. Pasirinkite **Turto valdymas** \> **Bendra** \> **Turtas** \> **Turto rodinys**.
+1. Pasirinkite **turto valdymo turto** \> **·** \> **rodinį**.
 2. Norėdami pakeisti puslapyje rodomą rodinį, lauke **Rodinys** pasirinkite naują reikšmę.
 
     > [!NOTE]

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 7905dcd4c29872ec2601359baefa78545140397c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: 210db3259a6c64a508119b30598a34dbda2d2dd2
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8857901"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015004"
 ---
 # <a name="add-fault-to-work-order"></a>Gedimo įtraukimas į darbo užsakymą
 
@@ -30,7 +30,7 @@ ms.locfileid: "8857901"
 
 Į darbo užsakymą galite įtraukti gedimus, kurie buvo nustatyti gedimų dizaino įrankyje. Vienas ar daugiau gedimo įrašų turi būti susiję su turto tipais, naudojamais turtui, kuris yra pasirinktas darbo užsakyme. Daugiau informacijos apie sąranką žr. [Gedimų valdymas](../setup-for-work-orders/fault-management.md).
 
-1. Pasirinkite **Turto valdymas** > **Bendra** > **Darbo užsakymai** > **Visi darbo užsakymai** arba **Aktyvūs darbo užsakymai**.
+1. Pasirinkite **Turto valdymo darbo** > **užsakymai Visi** > **darbo užsakymai arba** Aktyvūs **darbo užsakymai**.
 
 2. Pasirinkite darbo užsakymą, kad įjungtumėte gedimų registravimą, tada veiksmų srityje, esančioje skirtuke **Darbo užsakymas**, grupėje **Turtas**, pasirinkite **Turto gedimas**.
 
@@ -64,7 +64,7 @@ Sąrašo puslapyje **Turto gedimai** galite peržiūrėti visus užregistruotus 
 
 Sąrašo puslapyje **Visas turtas** galite atspausdinti turto gedimo ataskaitą, kurioje nurodomi visos gedimų registracijos ir pateikiama grafinė gedimų statistikos apžvalga.
 
-1. Pasirinkite **Turto valdymas** > **Bendra** > **Turtas** > **Visas turtas**.
+1. Pasirinkite Turto **valdymo turtas** > **Visas** > **turtas**.
 
 2. Pasirinkite turtą, kuriam norite atspausdinti gedimų ataskaitą.
 

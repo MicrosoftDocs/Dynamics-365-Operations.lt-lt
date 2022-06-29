@@ -9,17 +9,16 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2022-02-28
-ms.openlocfilehash: 7d87b6c64a6038c4518eeec178f9e139ef6f5ae2
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: 2cc9014d273b4ab6f23a38140d0cfcd3ffa4d630
+ms.sourcegitcommit: 6616b969afd6beb11a79d8e740560bf00016ea7f
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8848994"
+ms.lasthandoff: 06/17/2022
+ms.locfileid: "9027037"
 ---
 # <a name="create-commerce-catalogs-for-b2b-sites"></a>B2B svetainių „Commerce“ katalogų kūrimas
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 Šiame straipsnyje aprašoma, kaip sukurti "Commerce" produktų Microsoft Dynamics 365 Commerce katalogus "Business-to-business" (B2B) svetainėms. Atsakymus į dažnai užduodamus klausimus apie B2B svetainių "Commerce" katalogus žr [. B2B DUK "Commerce" kataloguose](catalogs-b2b-sites-FAQ.md).
 
