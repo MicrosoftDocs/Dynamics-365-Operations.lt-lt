@@ -18,8 +18,6 @@
                   href: get-started/whats-new-commerce-10-0-27.md
                 - name: „Commerce 10.0.26“ (2022 m. gegužės mėn.)
                   href: get-started/whats-new-commerce-10-0-26.md
-                - name: „Commerce 10.0.25“ (2022 m. balandžio mėn.)
-                  href: get-started/whats-new-commerce-10-0-25.md
             - name: Pašalintos arba nerekomenduojamos funkcijos
               items:
                 - name: 'Pašalintos arba nerekomenduojamos funkcijos, pagrindinis puslapis'
@@ -70,20 +68,16 @@
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/oneversion-isv.md?toc=/dynamics365/commerce/toc.json
                 - name: Vartotojo priėmimo bandymų kūrimas ir automatizavimas
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md?toc=/dynamics365/commerce/toc.json
-            - name: „Dynamics 365 Commerce” vertinimo aplinkos nustatymas
+            - name: „Dynamics 365 Commerce” smėlio dėžės aplinkos nustatymas
               items:
-                - name: „Dynamics 365 Commerce” vertinimo aplinkos apžvalga
-                  href: cpe-overview.md
-                - name: „Dynamics 365 Commerce” vertinimo aplinkos parengimas
+                - name: „Dynamics 365 Commerce” smėlio dėžės aplinkos parengimas
                   href: provisioning-guide.md
-                - name: „Dynamics 365 Commerce“ vertinimo aplinkos konfigūravimas
+                - name: „Dynamics 365 Commerce“ smėlio dėžės aplinkos konfigūravimas
                   href: cpe-post-provisioning.md
-                - name: BOPIS konfigūravimas „Dynamics 365 Commerce“ vertinimo aplinkoje
+                - name: BOPIS konfigūravimas „Dynamics 365 Commerce“ smėlio dėžės aplinkoje
                   href: cpe-bopis.md
-                - name: Pasirinktinių „Dynamics 365 Commerce” vertinimo aplinkos funkcijų konfigūravimas
+                - name: Pasirinktinių „Dynamics 365 Commerce” smėlio dėžės aplinkos funkcijų konfigūravimas
                   href: cpe-optional-features.md
-                - name: DUK apie „Dynamics 365 Commerce” vertinimo aplinką
-                  href: cpe-faq.md
             - name: Visuotinio diegimo aplinkybės
               items:
                 - name: Visuotinio diegimo parinktys
@@ -438,8 +432,10 @@
                           href: define-maintain-channel-clients-registers-hw-stations.md
                         - name: EKA periferinių įrenginių ir paslaugų sveikatos patikra
                           href: pos-healthcheck.md
-                        - name: Išorinių tinklo įrenginių palaikymas
+                        - name: Periferinių tinklo įrenginių palaikymas
                           href: dev-itpro/network-peripherals.md
+                        - name: Periferinių įrenginių suderinamumas
+                          href: Compatible-peripherals.md
                     - name: Ekrano maketai
                       items:
                         - name: "MPOS\_/ CPOS demonstracinių duomenų ekrano maketai"
@@ -1402,6 +1398,8 @@
               items:
                 - name: 'Fiskalinės registracijos paslaugos integravimo pavyzdys, skirtas Austrijai'
                   href: localizations/emea-aut-fi-sample.md
+                - name: Visuotinio kasos aparatų diegimo gairės (Austrija)
+                  href: localizations/emea-aut-deployment.md
                 - name: 'Fiskalinės integracijos pavyzdžio, skirto Austrijai, visuotinio diegimo gairės (senstelėjusios)'
                   href: localizations/emea-aut-fi-sample-sdk.md
             - name: Brazilija
@@ -2896,6 +2894,8 @@
                       href: dev-itpro/cloud-dev-box.md
                     - name: „Retail SDK“ kūrimo srautas
                       href: dev-itpro/retail-sdk/sdk-build-pipeline.md
+                    - name: „Visual Studio 2017“ kūrimo agento nustatymas MPOS sukurti
+                      href: dev-itpro/retail-sdk/mpos-build-agent.md
                     - name: EKA pavyzdžių vykdymas
                       href: dev-itpro/pos-run-samples.md
                 - name: Nuoroda

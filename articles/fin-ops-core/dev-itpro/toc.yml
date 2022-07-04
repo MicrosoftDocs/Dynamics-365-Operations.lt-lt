@@ -16,12 +16,10 @@
                   href: get-started/whats-new-home-page.md
                 - name: "„Platform“ naujinimai, skirti 10.0.28 versijai (2022\_m. rugpjūčio mėn.)"
                   href: get-started/whats-new-platform-updates-10-0-28.md
-                - name: "„Platform“ naujinimai, skirti 10.0.27 versijai (2022\_m. liepos mėn.)"
+                - name: "„Platform updates“, skirti 10.0.27 versijai (2022\_m. liepos mėn.)"
                   href: get-started/whats-new-platform-updates-10-0-27.md
-                - name: "„Platform“ naujinimai, skirti 10.0.26 versijai (2022\_m. gegužės mėn.)"
+                - name: "„Platform updates“, skirti 10.0.26 versijai (2022\_m. gegužės mėn.)"
                   href: get-started/whats-new-platform-updates-10-0-26.md
-                - name: "„Platform“ naujinimai, skirti 10.0.25 versijai (2022\_m. balandžio mėn.)"
-                  href: get-started/whats-new-platform-updates-10-0-25.md
             - name: Pašalintos arba nerekomenduojamos funkcijos
               items:
                 - name: 'Pašalintos arba nerekomenduojamos funkcijos, pagrindinis puslapis'
@@ -376,11 +374,11 @@
                       href: deployment/on-premises-overview.md
                     - name: Vietinių visuotinių diegimų planavimas ir rengimas
                       href: deployment/plan-onprem-deployment.md
-                    - name: „Microsoft Dynamics 365 Finance + Operations (on-premises)“ palaikoma programinė įranga
+                    - name: Vietinė palaikoma programinė įranga
                       href: deployment/onprem-compatibility.md
                     - name: Aparatūros dydžio reikalavimai
                       href: ../fin-ops/get-started/hardware-sizing-on-premises-environments.md?toc=/dev-itpro/toc.json
-                    - name: Autentifikavimas „Dynamics 365 Finance + Operations (on-premises)“
+                    - name: Autentifikavimas vietinėse aplinkose
                       href: deployment/authentication-onprem.md
                 - name: Vietinių aplinkų nustatymas ir visuotinis diegimas
                   items:
@@ -404,13 +402,13 @@
                       href: user-interface/client-disconnected.md
                     - name: Tik paketo ir tik interaktyvių AOS mazgų konfigūravimas vietinėse įdiegtyse
                       href: deployment/onprem-batchonly.md
-                    - name: Konfigūruokite aukštą „SQL Server Reporting Services“ (SSRS) mazgų pasiekiamumą
+                    - name: Aukšto „SQL Server“ ataskaitų paslaugų (SSRS) mazgų pasiekiamumo konfigūravimas
                       href: deployment/onprem-SSRSHA.md
                     - name: Vietinių aplinkų tarpinių serverių konfigūravimas
                       href: deployment/onprem-reverseproxy.md
-                    - name: Sukonfigūruokite sandėliavimo programą vietiniam visuotiniam diegimui
+                    - name: „Warehousing“ programos konfigūravimas vietiniam visuotiniam diegimui
                       href: deployment/warehousing-for-on-premise-deployments.md
-                    - name: Įjungti RSAT „Finance + Operations (on-premises)“ aplinkose
+                    - name: RSAT vietinėse aplinkose įgalinimas
                       href: deployment/onprem-rsat-configuration.md
                     - name: Tinklo spausdinimo įrenginių diegimas vietinėse aplinkose
                       href: analytics/install-network-printer-onprem.md
@@ -428,9 +426,9 @@
                       href: deployment/onprem-remove-reinstall-AOS-node.md
                     - name: To paties AD FS egzemplioriaus naudojimas keliose aplinkose
                       href: deployment/onprem-reuseadfs.md
-                    - name: „Microsoft Dynamics 365 Finance + Operations (on-premises)“ aplinkų „Windows Server“ versijos naujinimas
+                    - name: „Windows Server“ versijos naujinimas vietinės aplinkos
                       href: deployment/onprem-upgrade-os.md
-                    - name: „Microsoft Dynamics 365 Finance + Operations (on-premises)“ aplinkų „SQL Server“ egzemplioriaus versijos naujinimas
+                    - name: „SQL Server“ egzemplioriaus versijos naujinimas arba keitimas vietinėse aplinkose
                       href: deployment/onprem-upgrade-sqlserver.md
                 - name: Vietos agentas
                   items:
@@ -982,7 +980,9 @@
                   href: lifecycle-services/configuration-manager-lcs.md
                 - name: Konfigūracijos tvarkyklės nustatymas
                   href: lifecycle-services/set-up-configuration-manager-lcs.md
-            - name: Kodo plėtojimo paslaugos konfigūravimas
+                - name: Konfigūracijos kopijavimas
+                  href: lifecycle-services/copy-configuration-lcs.md
+            - name: Kodo versijos naujinimo paslaugos konfigūravimas
               href: lifecycle-services/configure-execute-code-upgrade.md
             - name: Metodikų kūrimas arba naujinimas
               href: lifecycle-services/create-methodology.md
@@ -1050,7 +1050,9 @@
                   href: lifecycle-services/dts-devops-extension.md
                 - name: „Azure DevOps“ plėtinio mokymo programa (viešoji peržiūros versija)
                   href: lifecycle-services/dts-ado-tutorial.md
-                - name: Plėtinys „Dynamics 365 Translation Service Visual Studio Code“ (viešoji peržiūros versija)
+                - name: „Visual Studio“ plėtinys (privati peržiūros versija)
+                  href: lifecycle-services/dts-visual-studio.md
+                - name: „Visual Studio Code“ plėtinys (viešoji peržiūros versija)
                   href: lifecycle-services/dts-vscode-doc.md
         - name: „Microsoft Power Platform“ integravimas
           items:
@@ -1602,13 +1604,15 @@
               href: sysadmin/implement-b2b.md
             - name: Duomenų priežiūra
               href: sysadmin/DataMaintenancePortal.md
+            - name: Prieigos prie tinklo spausdintuvų tarp juridinių subjektų valdymas
+              href: sysadmin/sys-admin-tools-network-printer.md
             - name: Sauga
               items:
                 - name: Vaidmenimis grįsta sauga
                   href: sysadmin/role-based-security.md
                 - name: Saugos architektūra
                   href: sysadmin/security-architecture.md
-                - name: „Finance and Operations“ programų šifravimas
+                - name: FInansų ir operacijų programų šifravimas
                   href: sysadmin/encryption.md
                 - name: Seanso nutraukimo dėl neaktyvumo nustatymas
                   href: sysadmin/session-idle-timeout.md

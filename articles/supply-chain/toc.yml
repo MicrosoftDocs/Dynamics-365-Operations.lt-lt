@@ -18,8 +18,6 @@
                   href: get-started/whats-new-scm-10-0-27.md
                 - name: „Supply Chain Management 10.0.26“ (2022 m. gegužės mėn.)
                   href: get-started/whats-new-scm-10-0-26.md
-                - name: „Supply Chain Management 10.0.25“ (2022 m. balandžio mėn.)
-                  href: get-started/whats-new-scm-10-0-25.md
             - name: Pašalintos arba nerekomenduojamos funkcijos
               items:
                 - name: 'Pašalintos arba nerekomenduojamos funkcijos, pagrindinis puslapis'
@@ -619,9 +617,7 @@
                   href: asset-management/asset-management-mobile-workspace.md
             - name: Turto valdymo integravimas su „Dynamics 365 Guides“
               href: asset-management/asset-management-guides-integration.md
-        - name: Duomenų valdymas
-          items:
-            - name: Paskirties objektai
+            - name: Tiksliniai objektai
               href: asset-management/data-management/target-entities.md
         - name: Kaštų apskaita
           items:
@@ -665,7 +661,7 @@
               href: ../finance/cost-accounting/tasks/configure-access-rights-cost-object-controller.md?toc=/dynamics365/supply-chain/toc.json
             - name: savikainos kontrolės įtaisų apibrėžimas
               href: ../finance/cost-accounting/tasks/define-cost-control-units.md?toc=/dynamics365/supply-chain/toc.json
-            - name: Savikainos apskaitos didžiosios knygos kūrimas
+            - name: Kaštų apskaitos didžiosios knygos kūrimas
               href: ../finance/cost-accounting/tasks/create-cost-accounting-ledger.md?toc=/dynamics365/supply-chain/toc.json
             - name: Statistinių dimensijų nariai ir statistinių priemonių teikimo įrankio šablonai
               href: ../finance/cost-accounting/statistical-measure-provider-template.md?toc=/dynamics365/supply-chain/toc.json
@@ -679,7 +675,7 @@
               href: ../finance/cost-accounting/tasks/create-assign-cost-distribution-policy-cost-control-unit.md?toc=/dynamics365/supply-chain/toc.json
             - name: Savikainos sumavimo strategijos kūrimas
               href: ../finance/cost-accounting/tasks/create-cost-rollup-policy.md?toc=/dynamics365/supply-chain/toc.json
-            - name: Savikainos apskaitos didžiosios knygos duomenų šaltinio valdymas
+            - name: Kaštų apskaitos didžiosios knygos duomenų šaltinio valdymas
               href: ../finance/cost-accounting/tasks/manage-data-source-cost-accounting-ledger.md?toc=/dynamics365/supply-chain/toc.json
             - name: Šaltinio duomenų apdorojimas ir sekimas
               href: ../finance/cost-accounting/tasks/process-trace-source-data.md?toc=/dynamics365/supply-chain/toc.json
@@ -775,6 +771,10 @@
                   href: cost-management/physical-financial-updates.md
                 - name: Faktinės reikšmės įtraukimas
                   href: cost-management/include-physical-value.md
+                - name: Fiksuota gavimo kaina
+                  href: cost-management/fixed-receipt-price.md
+                - name: Registruoti apskaitos principų išlaidų sąskaitoje
+                  href: cost-management/post-to-charge-account-accounting-principle.md
                 - name: Savikainos objektai
                   href: cost-management/cost-object.md
                 - name: Savikainos objekto balanso peržiūra
@@ -1651,6 +1651,8 @@
                   href: inventory/tasks/check-availability-stock.md
                 - name: Turimų atsargų sąrašas
                   href: inventory/inventory-on-hand-list.md
+                - name: Atsargų operacijos išsami informacija
+                  href: inventory/inventory-transactions-details.md
                 - name: Atsargų lygių sandėlyje inicijavimas
                   href: inventory/tasks/initialize-stock-levels-warehouse.md
                 - name: Faktinių atsargų perkėlimas sandėlyje
@@ -2111,6 +2113,8 @@
               href: ../fin-ops-core/fin-ops/organization-administration/date-time-zones.md?toc=/dynamics365/supply-chain/toc.json
         - name: Įsigijimas ir šaltinio pasirinkimas
           items:
+            - name: Įsigijimo ir šaltinio pasirinkimo pagrindinis puslapis
+              href: procurement/procurement-sourcing.md
             - name: Įsigijimo ir šaltinio pasirinkimo apžvalga
               href: procurement/procurement-sourcing-overview.md
             - name: Įsigijimo ir šaltinio pasirinkimo darbo eiga
@@ -2167,6 +2171,8 @@
                   href: procurement/purchase-order-creation.md
                 - name: Pirkimo užsakymo kūrimas
                   href: procurement/tasks/create-purchase-order.md
+                - name: Pirkimo užsakymo pagal biudžetą kūrimas
+                  href: cost-management/tasks/create-purchase-order-governed-by-budget.md
                 - name: Pirkimo užsakymo su pristatymo grafiku kūrimas
                   href: procurement/tasks/create-purchase-order-delivery-schedule.md
                 - name: Kurti vienkartinio tiekėjo pirkimo užsakymą
@@ -2379,10 +2385,12 @@
                       href: pim/tasks/define-configuration-route.md
                     - name: Konfigūracijos taisyklių kūrimas
                       href: pim/tasks/create-configuration-rules.md
-                    - name: Konfigūracijų pagal dimensijas kūrimas
+                    - name: Konfigūravimo pagal dimensijas kūrimas
                       href: pim/tasks/create-dimension-based-configurations.md
-                - name: Konfigūracijos pagal apribojimus kūrimas
+                - name: Konfigūravimo pagal apribojimus kūrimas
                   items:
+                    - name: Produkto konfigūravimo modelių apžvalga
+                      href: pim/product-configuration-models.md
                     - name: Produkto konfigūracijos modelio nustatymas
                       href: pim/set-up-maintain-product-configuration-model.md
                     - name: Produkto konfigūracijos modelio skaičiavimai
@@ -2933,11 +2941,13 @@
                   href: sales-marketing/customer-portal-user-admin.md
                 - name: Kliento portalo tinkinimas ir naudojimas
                   href: sales-marketing/customer-portal-customize.md
+            - name: Klientų kredito limitai
+              href: sales-marketing/credit-limits-customers.md
             - name: Prekybos nuolaida
               href: sales-marketing/trade-allowance.md
             - name: Naujos prekybos sutarties sukūrimas
               href: sales-marketing/tasks/create-new-trade-agreement.md
-            - name: Planuoti pardavimo retrospektyvos duomenų valymą
+            - name: Pardavimo retrospektyvos duomenų valymo planavimas
               href: sales-marketing/sales-update-history-cleanup-performance-improvements.md
         - name: Aptarnavimo valdymas
           items:
@@ -2951,6 +2961,8 @@
                       href: service-management/service-agreement-groups.md
                     - name: Aptarnavimo sutarčių kūrimas
                       href: service-management/create-service-agreements.md
+                    - name: Aptarnavimo sutarčių grupių kūrimas
+                      href: service-management/create-service-agreement-groups.md
                     - name: Aptarnavimo intervalai
                       href: service-management/service-intervals.md
                     - name: Aptarnavimo intervalų nustatymas
@@ -2972,7 +2984,7 @@
                     - name: Aptarnavimo objektų apžvalga
                       href: service-management/service-objects.md
                     - name: Aptarnavimo objektų kūrimas
-                      href: service-management/create-service-task-relations.md
+                      href: service-management/create-service-objects.md
                     - name: Atsargų prekių pridėjimas prie aptarnavimo objektų
                       href: service-management/attach-inventory-items-service-objects.md
                     - name: Aptarnavimo objektų grupės
@@ -3117,9 +3129,11 @@
                           href: service-management/create-item-requirements-service-orders.md
                         - name: Aptarnavimo užsakymo prekių poreikiai
                           href: service-management/service-order-item-requirements.md
+                        - name: Adreso įtraukimas į aptarnavimo užsakymą
+                          href: service-management/add-address-service-order.md
                         - name: Prenumeratos darbo eigos apžvalga
                           href: service-management/subscription-workflow-overview.md
-                        - name: Aptarnavimo užsakymų jungimas
+                        - name: Jungti aptarnavimo užsakymus
                           href: service-management/combine-service-orders.md
                         - name: Aptarnavimo prenumeratų kūrimas naudojant prenumeratų grupę
                           href: service-management/create-service-subscriptions-from-subscription-group.md
@@ -3139,6 +3153,8 @@
                           href: service-management/set-up-preferred-technician.md
                         - name: Išsiuntimo komandų nustatymas
                           href: service-management/set-up-dispatch-teams.md
+                        - name: Išsiuntimo komandų peržiūra
+                          href: service-management/view-dispatch-teams.md
                         - name: Aptarnavimo užsakymų prioritetų nustatymas
                           href: service-management/prioritize-service-orders.md
                         - name: Aptarnavimo užsakymų būsenos peržiūra
@@ -3253,12 +3269,10 @@
               href: landed-cost/landed-cost-vs-tms.md
             - name: Gabenimo išlaidų modulio nustatymas ir konfigūravimas
               items:
-                - name: Gabenimo išlaidų modulio įjungimas jūsų sistemai
+                - name: Gabenimo savikainos modulio įjungimas jūsų sistemai
                   href: landed-cost/landed-cost-enable.md
-                - name: Gabenimo išlaidų parametrai
+                - name: Gabenimo savikainos parametrai
                   href: landed-cost/landed-cost-parameters.md
-                - name: Gabenimo išlaidų įsigijimo ir tiekimo parametrai
-                  href: landed-cost/landed-cost-procurement-parameters.md
                 - name: Reiso būsenos nustatymas
                   href: landed-cost/voyage-status-setup.md
                 - name: Krovininio konteinerio nustatymas
@@ -3269,12 +3283,16 @@
                   href: landed-cost/multi-leg-journey-setup.md
                 - name: Siuntimo informacijos sąranka
                   href: landed-cost/shipping-information-setup.md
+                - name: Automatinis savikainos nustatymas
+                  href: landed-cost/auto-cost-setup.md
                 - name: Įkainojimo parametrų verčių sąranka
                   href: landed-cost/costing-parameters-setup.md
+                - name: Gabenimo savikainos įsigijimo ir šaltinio pasirinkimo parametrai
+                  href: landed-cost/landed-cost-procurement-parameters.md
+                - name: Tiekėjo parametrai įtraukti gabenimo savikainai
+                  href: landed-cost/vendors-landed-cost-settings.md
                 - name: Numatytieji didžiosios knygos aprašai
                   href: landed-cost/defult-descriptions.md
-            - name: Tiekėjo parametrai įtraukti gabenimo išlaidoms
-              href: landed-cost/vendors-landed-cost-settings.md
             - name: 'Darbas su reisais, konteineriais ir važtaraščiais'
               items:
                 - name: Reisų tvarkymas
@@ -3643,396 +3661,6 @@
               href: transportation/create-new-transportation-management-engine.md?toc=/dynamics365/supply-chain/toc.json
             - name: Atsargų turimų duomenų objektų išplėtimas
               href: inventory/extend-on-hand-entities.md
-        - name: Trikčių šalinimas
-          items:
-            - name: Kaštų valdymas
-              items:
-                - name: Inventoriaus senėjimo ataskaitos neatitikimai
-                  href: troubleshooting/costing/aging-report-discrepancies.md
-                - name: Įspėjimai arba klaidos keičiant didžiosios knygos laikotarpio būseną neuždarant atsargų
-                  href: troubleshooting/costing/change-ledger-period-without-closing.md
-                - name: Funkciniai pertrūkiai tarp atsargų vertės / senėjimo ataskaitų ir jų laikymo versijų
-                  href: troubleshooting/costing/function-gaps-storage-reports.md
-                - name: 'Atnaujinimo nesuderinamumas įvyksta, kai atsargų vertinimo metodas yra standartinė savikaina arba slankusis vidurkis'
-                  href: troubleshooting/costing/update-conflict-standard-moving.md
-                - name: Kopijuojant prekių modelių grupes į kitą juridinį subjektą trūksta lauko parametrų
-                  href: troubleshooting/costing/copying-item-model-groups.md
-                - name: Ataskaitoje Vykdomos netiesioginės išlaidos pateikiami panaikinti gamybos užsakymai
-                  href: troubleshooting/costing/indirect-costs-in-pr.md
-                - name: Pirkimo kaupimas užregistruotas su nulinės vertės produkto gavimo kvito nuline suma
-                  href: troubleshooting/costing/posting-to-purchase.md
-                - name: Faktiškai gauti pirkimo užsakymai nerodomi atsargų uždarymo ataskaitoje
-                  href: troubleshooting/costing/purchase-orders-rece.md
-                - name: Prekės kainos puslapio aktyvių kainų skirtuke nėra pradžios datos
-                  href: troubleshooting/costing/there-is-no-from-dat.md
-            - name: Atsargų valdymas
-              items:
-                - name: Nerandate atsargų žurnalų išplečiamojo dialogo lango „Darbo eiga”
-                  href: troubleshooting/inventory/cant-find-workflow-dropdown.md
-                - name: Atsargų žurnalo darbo eiga niekada nebaigta ir žurnalo apdoroti negalima
-                  href: troubleshooting/inventory/cant-post-inventory-journal.md
-                - name: Jūsų atsargų žurnalas užrakintas ir darbo eigos paketinė užduotis neveikia
-                  href: troubleshooting/inventory/inventory-journal-locked-workflow.md
-                - name: Vienetas ir vienetų kiekis atsargų žurnale veikia netinkamai
-                  href: troubleshooting/inventory/journal-unit-quantity-incorrect.md
-                - name: 'Atsargų žurnalo darbo eigos sąlygos taikomos žurnalo lygiu, o ne eilutės lygiu'
-                  href: troubleshooting/inventory/journal-workflow-conditions.md
-                - name: 'Turimų atsargų sąrašo puslapio filtravimo sritis veikia ne taip, kaip tikėtasi'
-                  href: troubleshooting/inventory/on-hand-filter-unexpected.md
-                - name: Didžiausias sandėliavimo vieneto dešimtainių skaičius yra 0.
-                  href: troubleshooting/inventory/sku-max-decimals-zero.md
-                - name: Kelios paketų numerių atsargų operacijos be faktinio atnaujinimo
-                  href: troubleshooting/inventory/multiple-inventory-t.md
-                - name: Dėl ataskaitos atšaukimo kaip baigtos sukuriama netikėta atidaryta operacija
-                  href: troubleshooting/inventory/reverse-report-as-fi.md
-                - name: 'Išrinkimo dokumento ataskaitoje nerodomos naujos pastabos, pridėtos prie žurnalo'
-                  href: troubleshooting/inventory/unable-to-print-the.md
-                - name: 'Kiekis pradėtame sulaikymo užsakyme neatnaujinamas, kai užsakymas skaidomas'
-                  href: troubleshooting/inventory/quantity-on-a-start.md
-                - name: 'Laukas Paskutinio bandymo data neatnaujinamas, kai sukuriami keli kokybės užsakymai'
-                  href: troubleshooting/inventory/the-field-last-test.md
-                - name: 'Kai esamo svorio kiekis yra suskaidytas, vietoj vardinio kiekio naudojamas mažiausias kiekis'
-                  href: troubleshooting/inventory/while-splitting-the.md
-            - name: Bendrasis planavimas
-              items:
-                - name: 'Sistema negali rasti suplanuoto užsakymo, kai ji veikia su keliais užsakymais'
-                  href: troubleshooting/planning/planned-order-not-exist.md
-                - name: KS išskleidimas veikia skirtingai patvirtintiems ir numatytiems gamybos užsakymams
-                  href: troubleshooting/planning/bom-explosion-works-differently.md
-                - name: 'Vėlinimo vertė nėra naujinama, kai iš naujo suplanuojate suplanuotą užsakymą'
-                  href: troubleshooting/planning/delay-value-not-updated.md
-                - name: 'Suplanuoti užsakymai užtrunka ilgai, kai yra naujinami'
-                  href: troubleshooting/planning/planned-order-long-update.md
-                - name: Suplanuoti užsakymai generuojami atsargomis su gamybos užsakymais
-                  href: troubleshooting/planning/planned-orders-in-stock-items.md
-                - name: Gamybos planavimas nepaiso laiko rezervų
-                  href: troubleshooting/planning/prod-schedule-safety-margins.md
-                - name: 'Bendruoju planavimu planuojama daugiau, nei yra'
-                  href: troubleshooting/planning/respect-capacity-limitations.md
-                - name: Rasta nepakankamai pajėgumų
-                  href: troubleshooting/planning/not-enough-capacity-error.md
-                - name: 'Kai veikia įtaisytas bendrojo planavimo modulis, rodomas klaidos pranešimas'
-                  href: troubleshooting/planning/deprecated-master-planning-error.md
-                - name: Prekėje negali būti KS arba formulės
-                  href: troubleshooting/planning/item-cannot-have-bom-formula.md
-                - name: Nėra bendrojo plano parametrų
-                  href: troubleshooting/planning/no-parameters-for-master-plan.md
-                - name: 'Prieš patvirtinant suplanuotą gamybos užsakymą, reikia sudaryti jo grafiką'
-                  href: troubleshooting/planning/planned-order-must-be-scheduled.md
-                - name: Operacijų produktas sulaikytas
-                  href: troubleshooting/planning/product-is-on-hold.md
-                - name: Pasirinktas formulės numeris nėra patvirtintas naudoti paketiniam užsakymui.
-                  href: troubleshooting/planning/selected-formula-not-approved.md
-                - name: Tiekėjo kodas nėra įgaliotas naudoti konkrečiam produktui ir datai
-                  href: troubleshooting/planning/vendor-code-not-authorized.md
-                - name: 'Tiekėjas nenurodytas, kai tvirtinami suplanuoti užsakymai'
-                  href: troubleshooting/planning/vendor-not-specified.md
-                - name: Tiesiogiai išvesti patvirtinti užsakymai apdorojami peržiūros versijos darbo eiga
-                  href: troubleshooting/planning/firmed-directly-deri.md
-                - name: Negalite filtruoti bendrojo planavimo prekių pagal jų susijusias padengimo grupės vertes
-                  href: troubleshooting/planning/master-planning-batc.md
-                - name: Bendrasis planavimas generuoja suplanuotus fiktyvių produktų užsakymus
-                  href: troubleshooting/planning/planned-orders-are-g.md
-                - name: 'Suplanuotas pirkimo užsakymas, sukurtas, kai pirkimas yra per neigiamas dienas'
-                  href: troubleshooting/planning/planning-optimisatio.md
-                - name: Negalima atnaujinti prognozuojamų vieneto išlaidų importuojant poreikio prognozės įrašus
-                  href: troubleshooting/planning/unable-to-upload-the.md
-                - name: Negalima pašalinti sandėlio poreikio prognozės dimensijos iš prognozės eilučių
-                  href: troubleshooting/planning/warehouse-removal-fr.md
-                - name: 'Esate raginami įrašyti prekių padengimo parametrus, net jei neatlikote jokių keitimų'
-                  href: troubleshooting/planning/when-importing-to-th.md
-            - name: Įsigijimas
-              items:
-                - name: Pirkimo užsakymo eilutės duomenų nesutapimai
-                  href: troubleshooting/procurement/purchase-order-line-data-issues.md
-                - name: Vienas arba daugiau apskaitos paskirstymų yra per daug arba per mažai paskirstyti
-                  href: troubleshooting/procurement/accounting-over-under-distributed.md
-                - name: Galite atlikti tik visiškai paskirstytų eilučių numerių pirkimo užsakymo veiksmą
-                  href: troubleshooting/procurement/action-requires-full-distribution.md
-                - name: Negalima pakeisti patvirtinto tiekėjo galiojimo datos
-                  href: troubleshooting/procurement/approved-vendor-effective-date.md
-                - name: Atšaukti pirkimo užsakymai pasirodo juodraščio sąraše darbo srityje
-                  href: troubleshooting/procurement/canceled-po-in-draft-list.md
-                - name: Operacijos gali būti registruojamos sustabdytoje didžiosios knygos sąskaitoje
-                  href: troubleshooting/procurement/canceled-receipts-posted.md
-                - name: Atšaukus pristatymo likutį pirkimo užsakymas perkeliamas į būseną Patvirtinta
-                  href: troubleshooting/procurement/change-management-canceled-remainder.md
-                - name: Negalite konsoliduoti kelių gavimo dokumentų į vieną pirkimo užsakymą
-                  href: troubleshooting/procurement/consolidate-multiple-receipts.md
-                - name: Numatytoji mokesčių grupė ir mokėjimo nuolaida nėra užpildytos sąskaitos faktūros sąskaitoje
-                  href: troubleshooting/procurement/default-tax-group-and-discount.md
-                - name: Pakeitus pirkimo užsakymo pristatymo adresą pristatymo pavadinimas nesinchronizuojamas
-                  href: troubleshooting/procurement/delivery-name-isnt-synced.md
-                - name: Registruojant tiekėjo SF įvyksta išimtis
-                  href: troubleshooting/procurement/invocation-target-exception.md
-                - name: Importuoti pirkimo užsakymai rodo neteisingus eilučių numerius
-                  href: troubleshooting/procurement/line-number-increments.md
-                - name: Pirkimo sutarties maksimalus limitas nėra veiksmingas pirkimo paraiškoje
-                  href: troubleshooting/procurement/max-limit-on-requisition.md
-                - name: Patvirtinant pirkimo užsakymą įvyksta klaida „Objekto nuoroda nenustatyta“
-                  href: troubleshooting/procurement/object-reference-not-set.md
-                - name: Apskaitos paskirstymai yra per daug arba per mažai paskirstyti
-                  href: troubleshooting/procurement/over-under-distribution.md
-                - name: Negalite įtraukti lauko Kainos kiekis į pirkimo sutarties puslapį
-                  href: troubleshooting/procurement/personalize-purchase-agreement-price.md
-                - name: Pirkimo užsakymai neatspindi juridinio subjekto kalbos nustatymų
-                  href: troubleshooting/procurement/po-language.md
-                - name: Pirkimo užsakymo kvite nenurodyti visi mokesčiai
-                  href: troubleshooting/procurement/po-receipt-missing-charges.md
-                - name: Vienetų kainos pirkimo užsakymuose neskaičiuojamos pagal vienetų konvertavimą
-                  href: troubleshooting/procurement/po-unit-prices-not-calculated.md
-                - name: Parametras Registruoti DK mokesčių sąskaitoje nėra įjungtas
-                  href: troubleshooting/procurement/post-setting-turned-off.md
-                - name: Iš naujo pateikiant pirkimo užsakymą į darbo eigą po keitimo įvyko klaida
-                  href: troubleshooting/procurement/resubmit-po-after-change.md
-                - name: Prekybos sutarties valiutos konvertavimo problemos
-                  href: troubleshooting/procurement/trade-agreement-currencies.md
-                - name: Prekybos sutarties sąlygos netaikomas importuoto užsakymo eilutėms
-                  href: troubleshooting/procurement/trade-agreement-not-applied.md
-                - name: Prekybos sutartys gali būti kuriamos iš atmestų RFQ
-                  href: troubleshooting/procurement/trade-agreements-from-rejected-rfq.md
-                - name: Tiekėjo grąžinimas nėra kaupiamas pagal sąskaitas faktūras
-                  href: troubleshooting/procurement/vendor-rebate-not-cumulated.md
-                - name: 'Produkto gavimo kvito numeris suvartojamas net tada, kai nėra generuojamas kvitas'
-                  href: troubleshooting/procurement/voucher-number-consumed.md
-                - name: Negalima išrašyti SF su klientu susietam pardavimo užsakymui
-                  href: troubleshooting/procurement/not-able-to-invoice-.md
-                - name: 'Paprašius atlikti keitimą, eilutės negalima įtraukti į pirkimo paraišką'
-                  href: troubleshooting/procurement/purchase-requisition.md
-            - name: Produkto informacijos valdymas
-              items:
-                - name: Negalite panaikinti išleisto produkto
-                  href: troubleshooting/products/cant-delete-released-prod.md
-                - name: Netinkamai suapvalinti sveikieji skaičiai skaičiuojant produkto konfigūracijos modelius
-                  href: troubleshooting/products/integers-incorrectly-rounded.md
-                - name: 'Prekės tekstas perrašomas, kai produktas konfigūruojamas pardavimo užsakymo eilutėje'
-                  href: troubleshooting/products/text-overwritten-configured-item.md
-                - name: Negalite taikyti šablono išleistam produktui kurti
-                  href: troubleshooting/products/apply-template-in-re.md
-                - name: Negalite importuoti prekės naudodami objektą Išleisti produktai V2
-                  href: troubleshooting/products/cannot-import-with-r.md
-                - name: Pirkimo užsakymuose nerodomas išverstas produkto tekstas
-                  href: troubleshooting/products/when-the-customer-ad.md
-            - name: Gamybos kontrolė
-              items:
-                - name: Įkainojimo atvirkštine tvarka klaida uždarant atsargas
-                  href: troubleshooting/production/backflush-costing-calculation-error.md
-                - name: Negalima užbaigti gamybos užsakymo dėl KS reikšmės consumptionCost klaidos
-                  href: troubleshooting/production/bom-consumption-cost-error.md
-                - name: Kuriant naują gamybos užsakymą negalima įterpti KS ir maršruto
-                  href: troubleshooting/production/cant-insert-bom-route-number.md
-                - name: 'Ankstesnės vykdomos užduotys baigiamos, kai pranešama apie paskutinės užduoties dalinį kiekį'
-                  href: troubleshooting/production/in-progress-jobs-ended.md
-                - name: 'Prekės RM visiškai rezervuoti negalima, kai išleidžiamas gamybos užsakymas'
-                  href: troubleshooting/production/item-rm-not-reserved.md
-                - name: Skelbimo baigtu naujinimas nepavyko ir buvo pateikta trūkstamo kiekio klaida
-                  href: troubleshooting/production/missing-report-finished-quantity.md
-                - name: 'Klaida, kai paskelbiama ataskaita kaip baigtas žurnalas'
-                  href: troubleshooting/production/posting-report-as-.md
-                - name: 'Keičiant gamybos užsakymo būseną iš Paskelbta, kad baigta į Baigta, įvyko klaida'
-                  href: troubleshooting/production/production-order-status-error.md
-                - name: Gamybos užsakymai nėra rodomi ženklinimo puslapyje
-                  href: troubleshooting/production/production-orders-marking-page.md
-                - name: Pakeitus darbuotojo vardą adresų knygelėje išteklių vardas nėra atnaujinamas
-                  href: troubleshooting/production/resource-name-not-updated.md
-                - name: Bendro prekių kiekio klaida bandant baigti gamybos užsakymą
-                  href: troubleshooting/production/total-good-quantity-order-error.md
-                - name: Negalima sekti gatavų prekių serijos numerių pagal suvartotų prekių serijos numerius
-                  href: troubleshooting/production/trace-finished-goods-consumed-goods.md
-                - name: 'Negalima rezervuoti arba išleisti darbo, nes šiuo metu naudojami procesai'
-                  href: troubleshooting/production/warehouse-management-processes-used.md
-                - name: Nesilaikoma KS eilučių sunaudojimo principo parametrų
-                  href: troubleshooting/production/flushing-principle-n.md
-                - name: Paketo numeris išvalomas pasirinkus naują partijos ID
-                  href: troubleshooting/production/when-customer-is-try.md
-                - name: 'Iš naujo nustatant gamybos užsakymus per paketinę užduotį, nesilaikoma vėlyvo pasirinkimo'
-                  href: troubleshooting/production/late-selection-is-no.md
-                - name: 'Vartotojai gali atsisakyti produktų, kurie paskelbti baigtais, medžiagų eilučių'
-                  href: troubleshooting/production/raw-material-lines-a.md
-                - name: 'Klaida, kai paskelbiama ataskaita kaip baigtas žurnalas'
-                  href: troubleshooting/production/posting-report-as-.md
-                - name: Išrinkimo dokumento žurnalo sandėlis neatnaujintas KS eilutėje
-                  href: troubleshooting/production/the-warehouse-in-pic.md
-            - name: Grąžinimų valdymas
-              items:
-                - name: Kliento grąžinimų kaupimas naudojant prekių grąžinimo grupes nepavyksta
-                  href: troubleshooting/rebates/cumulating-customer-.md
-            - name: Pardavimas ir rinkodara
-              items:
-                - name: Nepavyksta atlikti pardavimo atnaujinimų istorijos valymo užduoties arba yra našumo problemų
-                  href: troubleshooting/sales/sales-update-history-cleanup-job-performance-issues.md
-                - name: Vidinės įmonės procese nepalaikomas paketo elementas
-                  href: troubleshooting/sales/bundle-item-intercompany-process.md
-                - name: 'Negalima atšaukti vidinės įmonės pirkimo užsakymo, susieto su pardavimo užsakymu'
-                  href: troubleshooting/sales/cancel-intercompany-purchase-order.md
-                - name: Atšaukus užsakymą rezervacijų pašalinti negalima
-                  href: troubleshooting/sales/cancel-order-reservations-not-removed.md
-                - name: 'Jei yra dvi persidengiančių datų prekybos sutartys, visada pasirenkama ta pati sutartis'
-                  href: troubleshooting/sales/same-trade-agreement-selected.md
-                - name: Negalima pakeisti aptarnavimo prekės pardavimo kiekio pardavimo pasiūlymo eilutėje
-                  href: troubleshooting/sales/service-item-sales-quantity.md
-                - name: 'Mokesčių informacija nėra atnaujinama, jei pakeičiama pardavimo užsakymo antraštės vieta'
-                  href: troubleshooting/sales/tax-information-not-updated.md
-                - name: Atšaukiant pardavimo užsakymą kiekio sumažinti negalima
-                  href: troubleshooting/sales/quantity-cannot-be-reduced.md
-                - name: 'Sistemos administratoriai negali išvalyti užsakymo sulaikymų, nes jie nėra įgalioti'
-                  href: troubleshooting/sales/system-administrator.md
-            - name: Transportavimo valdymas
-              items:
-                - name: Pagrindinę sąskaitą kaip kredito sąskaitą galima pridėti tik dėl derinimo priežasčių
-                  href: troubleshooting/transportation/reconciliation-reaso.md
-            - name: Sandėlio valdymas
-              items:
-                - name: „Warehouse mobile app“
-                  items:
-                    - name: Netikėtas užklausos ir seanso duomenų skirtumas testavimo metu
-                      href: troubleshooting/warehousing/request-session-data-difference.md
-                    - name: Nustatant programos ryšį nepavyko rasti sertifikato maršruto saugumą užtikrinančios priemonės
-                      href: troubleshooting/warehousing/certification-path-app-connection-error.md
-                    - name: Naujinant ir perkeliant į WMS nepavyko rasti sertifikato maršruto saugumą užtikrinančios priemonės
-                      href: troubleshooting/warehousing/upgrade-migration-certification-path-error.md
-                - name: Negalima registruoti važtaraščio sustabdytai pardavimo užsakymo eilutei
-                  href: troubleshooting/warehousing/unable-to-post-packi.md
-                - name: Apdorojimo problemos įdiegus skalės vieneto sandėlio apkrovą
-                  href: troubleshooting/warehousing/Scale-unit-warehouse-workload-installation-issues.md
-                - name: 'Paketo numerio automatinio rezervavimo raginimas rodomas, net jei yra atsargų'
-                  href: troubleshooting/warehousing/auto-reservation-prompt-shown.md
-                - name: Negalima panaikinti paėmimo darbo blokavimo dėl nebaigto papildymo darbo
-                  href: troubleshooting/warehousing/blocked-unfinished-replenishment-work.md
-                - name: 'Negalima atšaukti važtaraščio po to, kai jis publikuotas prekybos užsakyme'
-                  href: troubleshooting/warehousing/cancel-posted-packing-slip.md
-                - name: 'Negalima perkelti numerio lentelės, jei serijos numeryje leidžiamas tuščias išdavimas ir tuščias gavimas'
-                  href: troubleshooting/warehousing/cant-move-license-plate.md
-                - name: 'Negalima perkelti inventoriaus į vietą, kurią valdo licencijos plokštelė'
-                  href: troubleshooting/warehousing/cant-reduce-picked-quantities.md
-                - name: Klasterio šablono rasti nepavyko
-                  href: troubleshooting/warehousing/cluster-profile-not-found-error.md
-                - name: Pristatymo pažymos koregavimo apdoroti negalima
-                  href: troubleshooting/warehousing/delivery-note-correction.md
-                - name: Kuriant serijos prekės perkėlimo užsakymą įvyko klaida tvirtinant siuntą
-                  href: troubleshooting/warehousing/dimension-location-left-blank.md
-                - name: 'Sandėlio, kuriame veikia WMS, tiesioginio pristatymo apdoroti nepavyko'
-                  href: troubleshooting/warehousing/direct-delivery-wms-enabled-warehouse.md
-                - name: 'Naudojant rampos valdymo šabloną, atsargų tipai maišomi'
-                  href: troubleshooting/warehousing/dock-management-inventory-mixing.md
-                - name: Kelių SKU parinktis neįvertina kelių vietos nurodymo veiksmų
-                  href: troubleshooting/warehousing/evaluate-multiple-location-directive-actions.md
-                - name: 'Paėmimo darbas nesugeneruojamas iš karto, kai išleidžiamas siunčiamas krovinys'
-                  href: troubleshooting/warehousing/generate-work-immediately-load-release.md
-                - name: 'Kai mobiliųjų įrenginių programėlėje nuskaitomas numerio lentelės ID, įvyksta netinkamos numerio lentelės klaida'
-                  href: troubleshooting/warehousing/invalid-license-plate.md
-                - name: Atsargų savininkas neleidžiamas apdorojant perkėlimą sandėlio programoje
-                  href: troubleshooting/warehousing/inventory-owner-not-allowed.md
-                - name: Sistema negali atnaujinti atsargų kiekio dėl nepakankamų operacijų
-                  href: troubleshooting/warehousing/inventory-quantity-insufficient-transactions.md
-                - name: Negalima pažymėti atsargų būsenos pakeitimo darbo tipo stulpelyje
-                  href: troubleshooting/warehousing/inventory-status-change-work-type.md
-                - name: Netinkamos numerio lentelės arba vietos klaida nuskaitant mobiliųjų įrenginių programėlėje
-                  href: troubleshooting/warehousing/license-plate-location-invalid.md
-                - name: Numerio lentelės kiekis netinkamas registruojant gaunamus užsakymus
-                  href: troubleshooting/warehousing/license-plate-quantity-not-valid.md
-                - name: Numerio lentelės specifikacijos klaida patvirtinant perkėlimo užsakymo siuntimą
-                  href: troubleshooting/warehousing/license-plate-specified-location.md
-                - name: Viena iš eilučių jau yra krovinyje
-                  href: troubleshooting/warehousing/line-already-on-load.md
-                - name: Krovinio svorio klaida ir atnaujinimas atšauktas apdorojant darbą tarp vietų
-                  href: troubleshooting/warehousing/load-weight-positive-numbers.md
-                - name: 'Maišytos licencijos plokštelės gavimas neveikia jokiam suteiktam kodui, išskyrus kredito'
-                  href: troubleshooting/warehousing/mixed-license-plate-receiving.md
-                - name: Administratoriaus vaidmenį galima naudoti tik norint pasiekti mobiliųjų įrenginių programėlės emuliatorių
-                  href: troubleshooting/warehousing/mobile-app-emulator-administrator.md
-                - name: Perkeliant iš pagrindinio sandėliavimo funkcijos į išplėstinio sandėliavimo funkciją kyla problemų
-                  href: troubleshooting/warehousing/move-basic-to-advanced-warehousing.md
-                - name: 'Buvo rasta nepakankamai darbo klasteriui, kai naudojamas sistemos nurodomas klasterio paėmimas'
-                  href: troubleshooting/warehousing/not-enough-work-for-cluster.md
-                - name: 'Užsakymo būsena išlieka Iš dalies išleista, net išrašus pardavimo užsakymo sąskaitą faktūrą'
-                  href: troubleshooting/warehousing/order-status-partially-released.md
-                - name: Negalima naudoti „Warehouse Management“ mobiliųjų įrenginių programėlės daliniam paėmimui atlikti
-                  href: troubleshooting/warehousing/partial-picking-warehouse-app.md
-                - name: Įjungti atsargų būsenos keitimą daliniam kiekio darbui
-                  href: troubleshooting/warehousing/partial-quantity-inventory-status.md
-                - name: Spausdinti pristatymo pažymą arba pakavimo turinį pagal sandėlį arba vietą
-                  href: troubleshooting/warehousing/print-documents-by-warehouse.md
-                - name: 'Kiekis netinkamas, kai vienoje vietoje yra paėmimo darbas su keliais LP'
-                  href: troubleshooting/warehousing/quantity-invalid-multiple-license-plates.md
-                - name: 'Kiekis netinkamas, kai atliekamas išskaidytas kelių paketų paėmimas'
-                  href: troubleshooting/warehousing/quantity-invalid-split-pick.md
-                - name: Negalima iš naujo išleisti iš dalies išsiųsto krovinio į sandėlį
-                  href: troubleshooting/warehousing/rerelease-partially-shipped-load.md
-                - name: 'Sistema negali atlikti rezervacijų, nes atsargose nurodyta 0,00'
-                  href: troubleshooting/warehousing/reservations-0-inventory-available.md
-                - name: Negalima sukurti grąžinimo pardavimo užsakymo krovinio eilutės dėl neleistinų atsargų dimensijų
-                  href: troubleshooting/warehousing/return-order-invalid-dimensions.md
-                - name: Nepavyko išleisti pardavimo užsakymo su sandėlio siuntimo operacijomis
-                  href: troubleshooting/warehousing/sales-order-not-released.md
-                - name: 'Krovinio siuntimas patvirtintas, tačiau nėra užregistruotų eilučių'
-                  href: troubleshooting/warehousing/shipment-confirmed-no-posting.md
-                - name: Intervalo šablonuose nepaisoma virš paketo esančių prekių turimų atsargų
-                  href: troubleshooting/warehousing/slotting-templates-inventory-batch-above.md
-                - name: Negalima išleisti dalinio kiekio su virš paketo esančia rezervavimo hierarchija
-                  href: troubleshooting/warehousing/specify-dimensions-above-location.md
-                - name: Nepatvirtinti pirkimo užsakymai patvirtinami paleidus funkciją Atnaujinti produkto gavimo kvitus
-                  href: troubleshooting/warehousing/unconfirmed-purchase-orders-confirmed.md
-                - name: Negalima atšaukti atsargų rezervacijos pardavimo užsakymo eilutėje
-                  href: troubleshooting/warehousing/unreserve-inventory-sales-line.md
-                - name: 'Negalite patvirtinti siuntimo, nes klientas yra sulaikytas'
-                  href: troubleshooting/warehousing/customer-is-on-hold.md
-                - name: 'Negalite patvirtinti siuntimo, nes krovinio eilučių kiekis lygus nuliui'
-                  href: troubleshooting/warehousing/load-line-quantity-is-zero.md
-                - name: 'Negalima atnaujinti krovinio eilutės, nes išleistas kiekis būtų neigiamas'
-                  href: troubleshooting/warehousing/released-qty-cannot-be-negative.md
-                - name: Atšaukti produkto gavimo kvitai neatnaujina operacijų būsenos į Užregistruota
-                  href: troubleshooting/warehousing/canceled-product-receipts.md
-                - name: Neteisingas faktiškai atnaujinamo kiekio dešimtainis apvalinimas
-                  href: troubleshooting/warehousing/decimal-rounding-of-quantity.md
-                - name: 'Faktinis likęs kiekis, išreikštas vienetu, negali būti lygus nuliui'
-                  href: troubleshooting/warehousing/physical-remaining-q.md
-                - name: 'Paimtas kiekis nepakankamas, kai generuojamas važtaraštis'
-                  href: troubleshooting/warehousing/picked-quantity-is-n.md
-                - name: 'Kiekis viršija pristatymo perviršio procentinę dalį, kai generuojamas važtaraštis'
-                  href: troubleshooting/warehousing/quantity-exceeds-over-pack-slip.md
-                - name: 'Kiekis, kurį bandote atnaujinti, viršija gautą / pristatytą kiekį'
-                  href: troubleshooting/warehousing/quantity-exceeds-rec-del.md
-                - name: 'Kiekis viršija pristatymo trūkumo procentinę dalį, kai generuojamas važtaraštis'
-                  href: troubleshooting/warehousing/quantity-exceeds-under-pack-slip.md
-                - name: 'Registruojant išrinkimo dokumentą įvyksta klaida, kai pasirenkama vieta'
-                  href: troubleshooting/warehousing/error-cannot-update.md
-                - name: Pakavimo stotyje nerodomos produkto pastabos
-                  href: troubleshooting/warehousing/packing-station-not-.md
-                - name: 'Vietos šablone neleidžiamos neigiamos atsargos, bet leidžiamos neigiamos turimos atsargos'
-                  href: troubleshooting/warehousing/location-profile-set.md
-                - name: Viename kvite spausdinama tik viena kelių darbo antraščių etiketė
-                  href: troubleshooting/warehousing/when-receipting-prod.md
-                - name: Negalite patvirtinti siuntos dėl kalendoriaus klaidos
-                  href: troubleshooting/warehousing/load-has-active-appo.md
-                - name: 'Negalite patvirtinti siuntos, nes darbas neužbaigtas arba jo nėra'
-                  href: troubleshooting/warehousing/open-or-no-work-exis.md
-                - name: 'Negalite patvirtinti siuntos, nes prekės nebuvo paimtos'
-                  href: troubleshooting/warehousing/picked-quantity-is-not-on-final.md
-                - name: 'Negalite patvirtinti siuntos, nes kiekis lygus nuliui'
-                  href: troubleshooting/warehousing/picked-quantity-is-zero.md
-                - name: 'Negalima patvirtinti siuntos, nes kiekis viršija pristatymo pertekliaus procentinę dalį'
-                  href: troubleshooting/warehousing/quantity-exceeds-ove.md
-                - name: 'Negalima patvirtinti siuntos, nes kiekis viršija pristatymo trūkumo procentinę dalį'
-                  href: troubleshooting/warehousing/quantity-exceeds-und.md
-                - name: Paskutinė uždaryto darbo eilutė turi būti Padėti
-                  href: troubleshooting/warehousing/the-last-closed-work.md
-                - name: Krovinio eilučių svorio laukai neatitinka krovinio svorio laukų
-                  href: troubleshooting/warehousing/the-weight-fields-on.md
-                - name: Bangos valyti negalima
-                  href: troubleshooting/warehousing/wave-is-not-eligible.md
-                - name: Svoris turi būti teigiamas
-                  href: troubleshooting/warehousing/weight-must-be-posit.md
-                - name: 'Darbo atšaukti negalima, nes jis užblokuotas'
-                  href: troubleshooting/warehousing/work-cannot-be-canceled-blocked.md
-                - name: Darbo atšaukti negalima dėl būsenos
-                  href: troubleshooting/warehousing/work-cannot-be-canceled-status.md
-                - name: Darbas neužblokuotas
-                  href: troubleshooting/warehousing/work-is-not-blocked.md
-                - name: Darbas lieka užblokuotas
-                  href: troubleshooting/warehousing/work-remains-blocked.md
-                - name: 'Negalite atšaukti darbo, priskirto vartotojui'
-                  href: troubleshooting/warehousing/you-cannot-cancel-wo.md
     - name: Finansų ir operacijų programų kūrimas ir administravimas
       href: ../fin-ops-core/dev-itpro/index.md
     - name: Dynamics 365 Finance

@@ -494,8 +494,10 @@
                   href: ../human-resources/hr-recruit-overview.md
                 - name: Įdarbinimo projektai
                   items:
-                    - name: Valdykite įdarbinimo projekto procesą
+                    - name: Įdarbinimo projekto proceso valdymas
                       href: ../fin-ops-core/fin-ops/hr/manage-recruiting-process.md
+                    - name: Įdarbinimo projektų sąranka
+                      href: hr-personnel-develop-open-job-requisition.md
                     - name: Neautomatinis pretendento ir prašymo duomenų įvedimas
                       href: ../fin-ops-core/fin-ops/hr/tasks/enter-applicant-application-data-manually.md
                     - name: Darbo paraiškų kūrimas ir atidarymas
@@ -626,6 +628,10 @@
                   items:
                     - name: Išmokų planų nustatymas
                       href: hr-benefits-plans-setup.md
+                    - name: Darbininko išmokų planų kūrimas
+                      href: hr-benefits-plans-worker.md
+                    - name: Būsimų gyvenimo įvykių sąranka
+                      href: hr-benefits-plans-future-life-events.md
                     - name: Lanksčių kredito programų nustatymas
                       href: hr-benefits-plans-flex-credit-programs.md
                 - name: Išmokų planų apdorojimas
@@ -836,6 +842,10 @@
               href: hr-developer-api-authentication.md
             - name: Objektai
               items:
+                - name: Užduoties informacija
+                  href: hr-admin-integration-api-job-detail.md
+                - name: Įdarbinimo tipo parinktis
+                  href: hr-admin-integration-payroll-api-hcmemploymenttype.md
                 - name: MyLeaveRequests
                   items:
                     - name: MyLeaveRequests apžvalga

@@ -18,8 +18,6 @@
                   href: get-started/whats-new-changed-10-0-27.md
                 - name: „Finance 10.0.26“ (gegužė)
                   href: get-started/whats-new-changed-10-0-26.md
-                - name: „Finance 10.0.25“ (balandis)
-                  href: get-started/whats-new-changed-10-0-25.md
             - name: Pašalintos arba nerekomenduojamos funkcijos
               items:
                 - name: 'Pašalintos arba nerekomenduojamos funkcijos, pagrindinis puslapis'
@@ -462,7 +460,9 @@
                   items:
                     - name: Įplaukų ir išlaidų atidėjimų nustatymas
                       href: accounts-receivable/sb-deferrals.md
-                    - name: Kurti atidėjimų grafikus
+                    - name: Atidėjimo registravimo būdas
+                      href: accounts-receivable/Deferral-posting-methods.md
+                    - name: Atidėjimų grafikų kūrimas
                       href: accounts-receivable/sb-deferrals-schedules.md
                     - name: Atidėjimo numatytosios operacijos
                       href: accounts-receivable/sb-deferral-transactions.md
@@ -692,9 +692,9 @@
                   href: cash-bank-management/import-bank-statement-file-failed-incorrect-results.md
                 - name: Banko žurnalo sudėtinio objekto naujinimas
                   href: cash-bank-management/upgrade-bank-journal-composite-entity.md
-        - name: Kaštų apskaita
+        - name: Savikainos apskaita
           items:
-            - name: Kaštų apskaitos pagrindinis puslapis
+            - name: Savikainos apskaitos pagrindinis puslapis
               href: cost-accounting/cost-accounting-home-page.md
             - name: Kaštų apskaitos terminija
               href: cost-accounting/terms-cost-accounting.md
@@ -1214,6 +1214,8 @@
               href: ../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md?toc=/dynamics365/finance/toc.json
             - name: Finansinių ataskaitų komponentai
               href: ../fin-ops-core/dev-itpro/analytics/financial-report-components.md?toc=/dynamics365/finance/toc.json
+            - name: Finansinių ataskaitų peržiūra ir kūrimas
+              href: ../fin-ops-core/dev-itpro/analytics/design-financial-reports.md
             - name: Valiutos galimybės finansinėse ataskaitose
               href: general-ledger/financial-reporting-currency-capability.md
             - name: Nepaskirstyto pelno skaičiavimas finansinėse ataskaitose
@@ -1978,6 +1980,8 @@
                   href: localizations/tasks/br-00066-2-calculate-interest-fines-customer-payments.md
                 - name: Banko sąskaitos numerių nustatymas Brazilijai
                   href: localizations/latam-bra-bank-account-number-setup-brazil-localization.md
+                - name: Perkėlimo užsakymai
+                  href: localizations/latam-bra-about-transfer-orders.md
                 - name: Mokesčiai
                   items:
                     - name: Brazilijos mokesčių apžvalga
@@ -2116,6 +2120,8 @@
                   href: localizations/emea-cze-intra-community-VAT.md
                 - name: Uždarymas metų pabaigoje
                   href: localizations/emea-cze-hun-year-end.md
+                - name: ES pardavimo sąrašas
+                  href: localizations/emea-cze-eu-sales-list.md
             - name: Danija
               items:
                 - name: Danijos apžvalga
@@ -2130,11 +2136,11 @@
                   href: localizations/tasks/create-post-project-invoice-public-sector-customer.md
                 - name: ES pardavimo sąrašas
                   href: localizations/emea-dnk-eu-sales-list.md
-                - name: OIOUBL el. SF išrašymo konfigūracijų importavimas
-                  href: localizations/tasks/import-oioubl-electronic-invoicing-configurations.md
+                - name: Kliento elektroninės sąskaitos faktūros Danijoje
+                  href: localizations/emea-dnk-e-invoices.md
                 - name: Laisvos formos SF su mokėjimo kvitu registravimas
                   href: localizations/tasks/post-free-text-invoice-payment-slip.md
-                - name: Registruoti projekto SF su mokėjimo kvitu
+                - name: Projekto SF su mokėjimo kvitu registravimas
                   href: localizations/tasks/post-project-invoice-payment-slip.md
                 - name: Registruoti pardavimo SF su mokėjimo kvitu
                   href: localizations/tasks/post-sales-invoice-payment-slip.md
@@ -2220,6 +2226,8 @@
                       href: localizations/emea-ISO20022-file-formats.md
                     - name: ISO20022 tiesioginio debeto konfigūracijos importavimas
                       href: localizations/tasks/import-iso20022-direct-debit-configuration.md
+                    - name: Būtinieji ISO 20022 kredito pervedimo formato komponentai
+                      href: localizations/emea-fra-ISO20022-international.md
                     - name: ISO20022 kredito pervedimo konfigūracijos importavimas
                       href: localizations/tasks/import-iso20022-credit-transfer-configuration.md
                     - name: ISO20022 kredito pervedimų įmonės banko sąskaitų nustatymas
@@ -2462,6 +2470,8 @@
                   href: localizations/emea-hun-intrastat.md
                 - name: Atidėto PVM skaičiavimai
                   href: localizations/emea-hun-deferred-vat.md
+                - name: ES pardavimo sąrašas
+                  href: localizations/emea-hun-eu-sales-list.md
             - name: Islandija
               items:
                 - name: Islandijos apžvalga
@@ -2766,6 +2776,8 @@
                                   href: localizations/apac-ind-TDS-TDS-ledger-accounts-setup.md
                                 - name: TDS registracijos numerių juridiniams subjektams nustatymas
                                   href: localizations/apac-ind-TDS-TDS-registration-numbers-setup-for-legal-entities.md
+                                - name: TDS mokesčio tipo išskaitomo mokesčio komponentų grupių nustatymas
+                                  href: localizations/apac-ind-TDS-Withholding-tax-component-groups-setup-for-TDS-tax-type.md
                                 - name: TDS mokesčio tipo išskaitomo mokesčio institucijų nustatymas
                                   href: localizations/apac-ind-TDS-Withholding-tax-authorities-setup-for-TDS-tax-type.md
                                 - name: TDS mokesčio tipo mokesčio komponentų nustatymas
@@ -2966,11 +2978,13 @@
                   href: localizations/tasks/consolidated-invoice-parameters-setup-accounts-payable.md
                 - name: Konfigūruoti papildomo nusidėvėjimo šabloną ir registravimo šabloną
                   href: localizations/tasks/configure-depreciation-profile-posting.md
-                - name: Konfigūruoti turto grąžinimo įsipareigojimo registravimo ir rinkos nuolaidų tarifų pagrindines sąskaitas
+                - name: Turto grąžinimo įsipareigojimo registravimo ir rinkos nuolaidų tarifų pagrindinių sąskaitų konfigūravimas
                   href: localizations/tasks/configure-main-accounts-asset-retirement.md
+                - name: Vartojimo mokesčių ataskaita
+                  href: localizations/apac-jpn-consumption-tax-report.md
                 - name: Konsoliduotosios SF
                   href: localizations/apac-jpn-consolidate-invoices.md
-                - name: Kurti ilgalaikį turtą su papildomu nusidėvėjimu
+                - name: Ilgalaikio turto su papildomu nusidėvėjimu kūrimas
                   href: localizations/tasks/create-fixed-asset-additional-depreciation.md
                 - name: Kurti ilgalaikį turtą su specialiuoju nusidėvėjimo profiliu
                   href: localizations/tasks/create-fixed-asset-special-depreciation-profile.md
@@ -3416,6 +3430,8 @@
                           href: localizations/rus-register-acquisition.md
                         - name: Ilgalaikio turto įsigijimas ir naudojimo pradžia
                           href: localizations/rus-fixed-asset-acquisition.md
+                        - name: Transporto priemonės ir nekilnojamasis turtas kaip ilgalaikis turtas
+                          href: localizations/rus-vehicles-realty.md
                         - name: Nusidėvėjimo skaičiavimas
                           href: localizations/rus-depreciation-calculation.md
                         - name: Dalinis ilgalaikio turto išskaidymas (likvidavimas)
@@ -3444,6 +3460,8 @@
                       items:
                         - name: Nevertingas ilgalaikis turtas (NVFA) (Rusija)
                           href: localizations/rus-not-valuable-assets.md
+                        - name: 'NVFA, darbo drabužių ir specialiosios įrangos pirminės formos (Rusija)'
+                          href: localizations/rus-nvfa.md
                         - name: Darbo drabužių / specialiosios įrangos apskaita (Rusija)
                           href: localizations/rus-working-clothes-instruments-accounting.md
                     - name: Ilgalaikio turto integravimas į Turto valdymo modulį
@@ -3514,12 +3532,14 @@
                       href: localizations/rus-accounting-reporting.md
                     - name: Apskaičiuoto mokesčio deklaracija
                       href: localizations/rus-assessed-tax-declaration.md
-                    - name: Transporto mokesčio deklaracija
+                    - name: Transporto mokesčių deklaracija
                       href: localizations/rus-transport-tax-declaration.md
                     - name: Žemės mokesčio deklaracija
                       href: localizations/rus-land-tax-declaration.md
                     - name: Pelno mokesčio deklaracija
                       href: localizations/rus-profit-tax-declaration.md
+                    - name: 'Ataskaita apie operacijas, kurių prekes galima sekti'
+                      href: localizations/rus-traceable-goods-operation-report.md
                 - name: Organizacijos administravimas
                   items:
                     - name: Mokesčių registravimo informacija dėl adreso
@@ -3771,9 +3791,9 @@
                   href: ../fin-ops-core/dev-itpro/analytics/compensation-power-bi.md?toc=/dynamics365/finance/toc.json
                 - name: Kompensacija ir išmokos
                   href: ../fin-ops-core/dev-itpro/analytics/compensation-and-benefits-analysis-power-bi-content-pack.md?toc=/dynamics365/finance/toc.json
-                - name: Kaštų apskaitos analizė
+                - name: Savikainos apskaitos analizė
                   items:
-                    - name: Kaštų apskaitos analizės „Power BI“ turinys
+                    - name: Savikainos apskaitos analizės „Power BI“ turinys
                       href: ../fin-ops-core/dev-itpro/analytics/cost-accounting-analysis-content-pack.md?toc=/dynamics365/finance/toc.json
                     - name: Kaštų apskaitos analizės „Power BI“ turinio apsaugos nustatymas
                       href: ../fin-ops-core/dev-itpro/analytics/setup-security-cost-accounting-content-pack.md?toc=/dynamics365/finance/toc.json
